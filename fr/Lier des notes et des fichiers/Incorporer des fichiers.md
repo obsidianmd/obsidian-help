@@ -3,13 +3,12 @@ permalink: embeds
 cssclasses:
   - soft-embed
 localized: '2026-03-18'
-
 ---
-Découvrez comment intégrer d'autres notes et fichiers multimédias dans vos notes. En intégrant des fichiers dans vos notes, vous pouvez réutiliser du contenu à travers votre coffre.
+Les fichiers intégrés affichent leur contenu directement dans une note et restent à jour lorsque le fichier source change.
 
 Pour intégrer un fichier de votre coffre, ajoutez un point d'exclamation (`!`) devant un [[Liens internes|lien interne]]. Vous pouvez intégrer des fichiers dans n'importe lequel des [[Formats de fichiers acceptés]].
 
-> [!tip] Intégration par glisser-déposer
+> [!tip]- Intégration par glisser-déposer
 > Sur ordinateur, vous pouvez également glisser-déposer les fichiers pris en charge directement dans votre note pour les intégrer automatiquement.
 
 ## Intégrer une note dans une autre note
@@ -20,7 +19,7 @@ Pour intégrer une note :
 ![[Liens internes]]
 ```
 
-Vous pouvez également intégrer des liens vers des [[Liens internes#Lier un entête dans une note|entêtes]] et des [[Liens internes#Lier un bloc dans une note|blocs]].
+Vous pouvez également intégrer des [[Liens internes#Lier un entête dans une note|entêtes]] et des [[Liens internes#Lier un bloc dans une note|blocs]] spécifiques.
 
 ```md
 ![[Liens internes#^b15695]]
@@ -46,11 +45,11 @@ Vous pouvez modifier les dimensions de l'image en ajoutant `|640x480` à la dest
 ![[Engelbart.jpg|100x145]]
 ```
 
-Si vous ne spécifiez que la largeur, l'image est redimensionnée en respectant ses proportions d'origine. Par exemple, `![[Engelbart.jpg|100]]`.
+Si vous ne spécifiez que la largeur, l'image est redimensionnée proportionnellement. Par exemple, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Vous pouvez également intégrer une image hébergée en externe en utilisant un lien Markdown. Vous pouvez contrôler la largeur et la hauteur de la même manière qu'avec un lien wiki.
+Vous pouvez également intégrer une image hébergée en externe en utilisant un lien Markdown. Vous pouvez contrôler la largeur et la hauteur en utilisant la même syntaxe qu'un lien wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -87,6 +86,17 @@ Vous pouvez aussi spécifier la hauteur en pixels du lecteur PDF intégré en aj
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Intégrer un Canvas dans une note
+
+Pour intégrer un [[Canvas|canvas]] :
+
+```md
+![[Mon canvas.canvas]]
+```
+
+> [!info]+ Les intégrations de Canvas affichent uniquement les formes
+> Les canvas intégrés affichent les formes mais pas le texte à l'intérieur des cartes. Pour visualiser le canvas complet, ouvrez-le directement.
 
 ## Intégrer une liste dans une note
 

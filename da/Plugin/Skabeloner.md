@@ -75,7 +75,7 @@ tags:
 > [!warning]+ Rediger skabeloner i kildetilstand
 > I [[Visninger og redigeringstilstand#Live Preview|Live-forhåndsvisning]] kan panelet **Egenskaber i dokument** overskrive skabelonvariabler, der ikke har anførselstegn.
 >
-> For at undgå dette skal du redigere skabeloner i [[Visninger og redigeringstilstand#Source mode|kildetilstand]], eller indstille **[[Indstillinger]] → Editor → [[Indstillinger#Properties in document|Egenskaber i dokument]]** til **Kilde**.
+> For at undgå dette skal du redigere skabeloner i [[Visninger og redigeringstilstand#Source mode|kildetilstand]], eller indstille **[[Indstillinger]] → Editor → [[Indstillinger#Egenskaber i dokument|Egenskaber i dokument]]** til **Kilde**.
 
 ## Indsæt en skabelon i den aktive note
 

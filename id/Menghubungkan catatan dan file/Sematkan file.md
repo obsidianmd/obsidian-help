@@ -5,11 +5,11 @@ cssclasses:
 aliases:
   - Bagaimana/Menyematkan berkas
 ---
-Pelajari cara menyematkan catatan dan media lain ke dalam catatan Anda. Dengan menyematkan file di catatan Anda, Anda dapat menggunakan kembali konten di seluruh brankas Anda.
+File yang disematkan menampilkan kontennya secara sebaris di catatan dan tetap diperbarui saat file sumber berubah.
 
 Untuk menyematkan file di brankas Anda, tambahkan tanda seru (`!`) di depan [[Tautan internal|Tautan internal]]. Anda dapat menyematkan file dalam format apa pun yang termasuk [[Format file yang diterima]].
 
-> [!tip] Sematkan dengan Seret dan Lepas
+> [!tip]- Sematkan dengan Seret dan Lepas
 > Di desktop, Anda juga dapat menyeret dan melepaskan file yang didukung langsung ke catatan Anda untuk menyematkannya secara otomatis.
 
 ## Menyematkan catatan di catatan lain
@@ -20,7 +20,7 @@ Untuk menyematkan catatan:
 ![[Tautan internal]]
 ```
 
-Anda juga dapat menyematkan tautan ke [[Tautan internal#Tautan ke judul dalam catatan|judul]] dan [[Tautan internal#Tautan ke blok dalam catatan|blok]].
+Anda juga dapat menyematkan [[Tautan internal#Tautan ke judul dalam catatan|judul]] dan [[Tautan internal#Tautan ke blok dalam catatan|blok]] tertentu.
 
 ```md
 ![[Tautan internal#^b15695]]
@@ -46,11 +46,11 @@ Anda dapat mengubah dimensi gambar dengan menambahkan `|640x480` ke tujuan tauta
 ![[Engelbart.jpg|100x145]]
 ```
 
-Jika Anda hanya menentukan lebar, gambar akan diskalakan sesuai rasio aspek aslinya. Misalnya, `![[Engelbart.jpg|100]]`.
+Jika Anda hanya menentukan lebar, gambar akan diskalakan secara proporsional. Misalnya, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Anda juga dapat menyematkan gambar yang dihosting secara eksternal menggunakan tautan markdown. Anda dapat mengontrol lebar dan tinggi dengan cara yang sama seperti tautan wiki.
+Anda juga dapat menyematkan gambar yang dihosting secara eksternal menggunakan tautan Markdown. Anda dapat mengontrol lebar dan tinggi menggunakan sintaks yang sama seperti tautan wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -76,17 +76,28 @@ Untuk menyematkan PDF:
 ![[Document.pdf]]
 ```
 
-Anda juga dapat membuka halaman tertentu di PDF, dengan menambahkan `#page=N` ke tujuan tautan, di mana `N` adalah nomor halaman:
+Anda juga dapat membuka halaman tertentu di PDF dengan menambahkan `#page=N` ke tujuan tautan, di mana `N` adalah nomor halaman:
 
 ```md
 ![[Document.pdf#page=3]]
 ```
 
-Anda juga dapat menentukan tinggi dalam piksel untuk penampil PDF yang disematkan, dengan menambahkan `#height=[number]` ke tautan. Misalnya:
+Anda juga dapat menentukan tinggi dalam piksel untuk penampil PDF yang disematkan dengan menambahkan `#height=[number]` ke tautan. Misalnya:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Menyematkan kanvas di catatan
+
+Untuk menyematkan [[Canvas|kanvas]]:
+
+```md
+![[Kanvas saya.canvas]]
+```
+
+> [!info]+ Sematan kanvas hanya menampilkan bentuk
+> Kanvas yang disematkan menampilkan bentuk tetapi tidak menampilkan teks di dalam kartu. Untuk melihat kanvas secara lengkap, buka secara langsung.
 
 ## Menyematkan daftar di catatan
 

@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Leer hoe je andere notities en media in je notities kunt insluiten. Door bestanden in je notities in te sluiten, kun je inhoud hergebruiken in je kluis.
+Ingesloten bestanden tonen hun inhoud inline in een notitie en blijven up-to-date wanneer het bronbestand verandert.
 
 Om een bestand in je kluis in te sluiten, voeg je een uitroepteken (`!`) toe vóór een [[Interne koppelingen|interne koppeling]]. Je kunt bestanden insluiten in elk van de [[Geaccepteerde bestandsformaten]].
 
-> [!tip] Insluiten door slepen en neerzetten
+> [!tip]- Insluiten door slepen en neerzetten
 > Op de desktop kun je ondersteunde bestanden ook rechtstreeks naar je notitie slepen en neerzetten om ze automatisch in te sluiten.
 
 ## Een notitie insluiten in een andere notitie
@@ -18,7 +18,7 @@ Om een notitie in te sluiten:
 ![[Interne koppelingen]]
 ```
 
-Je kunt ook koppelingen naar [[Interne koppelingen#Koppelen naar een kop in een notitie|koppen]] en [[Interne koppelingen#Koppelen naar een blok in een notitie|blokken]] insluiten.
+Je kunt ook specifieke [[Interne koppelingen#Koppelen naar een kop in een notitie|koppen]] en [[Interne koppelingen#Koppelen naar een blok in een notitie|blokken]] insluiten.
 
 ```md
 ![[Interne koppelingen#^b15695]]
@@ -44,11 +44,11 @@ Je kunt de afbeeldingsdimensies wijzigen door `|640x480` toe te voegen aan de ko
 ![[Engelbart.jpg|100x145]]
 ```
 
-Als je alleen de breedte opgeeft, wordt de afbeelding geschaald volgens de oorspronkelijke beeldverhouding. Bijvoorbeeld `![[Engelbart.jpg|100]]`.
+Als je alleen de breedte opgeeft, wordt de afbeelding proportioneel geschaald. Bijvoorbeeld `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Je kunt ook een extern gehoste afbeelding insluiten met behulp van een Markdown-link. Je kunt de breedte en hoogte op dezelfde manier instellen als bij een wiki-link.
+Je kunt ook een extern gehoste afbeelding insluiten met behulp van een Markdown-link. Je kunt de breedte en hoogte instellen met dezelfde syntaxis als bij een wiki-link.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -85,6 +85,17 @@ Je kunt ook de hoogte in pixels opgeven voor de ingesloten PDF-viewer door `#hei
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Een Canvas insluiten in een notitie
+
+Om een [[Doek|canvas]] in te sluiten:
+
+```md
+![[Mijn canvas.canvas]]
+```
+
+> [!info]+ Canvas-insluitingen tonen alleen vormen
+> Ingesloten canvassen tonen vormen, maar niet de tekst in kaarten. Open het canvas rechtstreeks om het volledige canvas te bekijken.
 
 ## Een lijst insluiten in een notitie
 

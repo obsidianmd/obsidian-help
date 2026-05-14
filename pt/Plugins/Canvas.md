@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas é um [[Plugins Base|plugin principal]] para tomada de notas visuais. Oferece-lhe espaço infinito para dispor notas e ligá-las a outras notas, anexos e páginas web.
 
-A tomada de notas visual ajuda-o a compreender as suas notas organizando-as num espaço 2D. Ligue notas com linhas e agrupe notas relacionadas para melhor compreender a relação entre elas.
+Dispor as suas notas num espaço 2D ajuda-o a ver e compreender as ligações entre elas. Ligue notas com linhas e agrupe notas relacionadas.
 
-Os dados do Canvas que cria no Obsidian são guardados como ficheiros `.canvas` utilizando o formato de ficheiro aberto [JSON Canvas](https://jsoncanvas.org/).
+O Obsidian guarda os Canvas como ficheiros `.canvas` utilizando o formato aberto [JSON Canvas](https://jsoncanvas.org/).
 
 ## Criar um novo Canvas
 
@@ -25,7 +25,7 @@ Para começar a usar o Canvas, primeiro precisa de criar um ficheiro para conter
 
 - Na barra de ferramentas vertical, selecione **Criar novo Canvas** ![[lucide-layout-dashboard.svg#icon]] para criar um Canvas na mesma pasta do ficheiro ativo.
 
-> [!note]  A extensão de ficheiro .canvas
+> [!note] A extensão de ficheiro .canvas
 > O Obsidian armazena os dados do seu Canvas como ficheiros `.canvas` utilizando um formato de ficheiro aberto chamado [JSON Canvas](https://jsoncanvas.org/).
 
 ## Adicionar cartões
@@ -34,7 +34,7 @@ Pode arrastar ficheiros para o seu Canvas a partir do Obsidian ou de outras apli
 
 ### Adicionar cartões de texto
 
-Pode adicionar cartões apenas de texto que não referenciam um ficheiro. Pode utilizar Markdown, ligações e blocos de código tal como numa nota.
+Pode adicionar cartões apenas de texto que não referenciam um ficheiro. Pode utilizar Markdown, ligações e blocos de código da mesma forma que numa nota.
 
 Para adicionar um novo cartão de texto ao seu Canvas:
 
@@ -47,7 +47,7 @@ Para converter um cartão de texto num ficheiro:
 1. Clique com o botão direito no cartão de texto e selecione **Converter em ficheiro...**.
 2. Introduza o nome da nota e selecione **Guardar**.
 
-> [!note] Nota
+> [!note] Cartões apenas de texto e links inversos
 > Cartões apenas de texto não aparecem nos [[Links inversos]]. Para que apareçam, precisa de os converter num ficheiro.
 
 ### Adicionar cartões a partir de notas
@@ -62,7 +62,7 @@ Também pode adicionar notas a partir do menu de contexto do Canvas:
 1. Clique com o botão direito no Canvas e selecione **Adicionar nota do cofre**.
 2. Selecione a nota que pretende adicionar.
 
-Ou pode adicioná-las ao Canvas arrastando o ficheiro do [[Explorador de ficheiros]].
+Também pode arrastar notas do [[Explorador de ficheiros]] para o Canvas.
 
 ### Adicionar cartões a partir de multimédia
 
@@ -76,7 +76,7 @@ Também pode adicionar multimédia a partir do menu de contexto do Canvas:
 1. Clique com o botão direito no Canvas e selecione **Adicionar multimédia do cofre**.
 2. Selecione o ficheiro multimédia que pretende adicionar.
 
-Ou pode adicioná-los ao Canvas arrastando o ficheiro do [[Explorador de ficheiros]].
+Também pode arrastar ficheiros multimédia do [[Explorador de ficheiros]] para o Canvas.
 
 ### Adicionar cartões a partir de páginas web
 
@@ -91,11 +91,11 @@ Para abrir a página web no seu navegador, prima `Ctrl` (ou `Cmd` no macOS) e se
 
 ### Adicionar cartões a partir de pastas
 
-Arraste uma pasta do explorador de ficheiros para adicionar todos os ficheiros dessa pasta ao Canvas.
+Arraste uma pasta do [[Explorador de ficheiros]] para adicionar todos os ficheiros dessa pasta ao Canvas.
 
 ### Editar um cartão
 
-Faça duplo clique num cartão de texto ou nota para começar a editá-lo. Clique fora do cartão para parar de o editar. Também pode premir `Escape` para parar de editar um cartão.
+Faça duplo clique num cartão de texto ou nota para começar a editá-lo. Selecione qualquer lugar fora do cartão para parar de o editar. Também pode premir `Escape` para parar de editar um cartão.
 
 Também pode editar um cartão clicando com o botão direito e selecionando **Edição**.
 
@@ -117,7 +117,7 @@ Para trocar um cartão de nota:
 
 ## Selecionar cartões
 
-Selecione cartões no Canvas clicando neles. Pode selecionar múltiplos cartões arrastando uma seleção à volta deles.
+Selecione cartões individuais, ou arraste uma seleção à volta de múltiplos cartões.
 
 Também pode adicionar e remover cartões de uma seleção existente premindo `Shift` e selecionando-os.
 
@@ -147,7 +147,7 @@ Para manter a proporção enquanto redimensiona, prima `Shift` enquanto redimens
 
 ## Ligar cartões
 
-Desenhe linhas entre cartões para criar relações entre eles. Utilize cores e etiquetas para descrever como se relacionam entre si.
+Desenhe linhas entre cartões para mostrar relações. Adicione cores e etiquetas para descrever como se relacionam.
 
 ### Ligar dois cartões
 
@@ -156,8 +156,8 @@ Para ligar dois cartões com uma linha direcionada:
 1. Passe o cursor sobre uma das arestas de um cartão até ver um círculo preenchido.
 2. Arraste o círculo até à aresta de um cartão diferente para os ligar.
 
-> [!tip] Dica
-> Se arrastar a linha sem a ligar a outro cartão, pode depois adicionar o cartão ao qual pretende ligá-la.
+> [!tip]- Criar um cartão a partir de uma nova ligação
+> Se arrastar a linha sem a ligar a outro cartão, pode criar um novo cartão na outra extremidade.
 
 ### Desligar dois cartões
 
@@ -166,14 +166,14 @@ Para remover a ligação entre dois cartões:
 1. Passe o cursor sobre uma linha de ligação até aparecerem dois pequenos círculos na linha.
 2. Arraste um dos círculos do cartão sem o ligar a outro.
 
-Também pode desligar dois cartões clicando com o botão direito na linha entre eles e selecionando **Remover**. Ou selecionando a linha e premindo `Backspace` (ou `Delete` no macOS).
+Também pode desligar dois cartões clicando com o botão direito na linha entre eles e selecionando **Remover**. Ou selecione a linha e prima `Backspace` (ou `Delete` no macOS).
 
 ### Ligar um cartão a um cartão diferente
 
 Para mover uma das extremidades de uma linha de ligação:
 
 1. Passe o cursor sobre uma linha de ligação até aparecerem dois pequenos círculos na linha.
-2. Arraste o círculo sobre a extremidade que pretende religar, para outro cartão.
+2. Arraste o círculo para outro cartão para o religar.
 
 ### Navegar uma ligação
 
@@ -186,7 +186,7 @@ Pode adicionar uma etiqueta a uma linha para descrever a relação entre dois ca
 Para etiquetar uma ligação:
 
 1. Faça duplo clique na linha.
-2. Introduza a etiqueta e prima `Escape` ou clique em qualquer lugar no Canvas.
+2. Introduza a etiqueta e prima `Escape` ou selecione qualquer lugar no Canvas.
 
 Também pode etiquetar uma ligação selecionando-a e depois selecionando **Editar etiqueta** nos controlos de seleção.
 
@@ -215,7 +215,7 @@ Para agrupar cartões relacionados:
 
 ## Navegar no Canvas
 
-À medida que adiciona mais cartões ao seu Canvas, vai querer compreender como pode navegar no Canvas para ver uma parte dele. Aprenda a deslocar e ampliar para se mover pelo Canvas com facilidade.
+Utilize o deslocamento e a ampliação para se mover pelo Canvas.
 
 ### Deslocar o Canvas
 
@@ -235,14 +235,18 @@ Para ampliar o Canvas de modo a que todos os itens fiquem visíveis, selecione *
 
 #### Zoom para a seleção
 
-Para ampliar o Canvas de modo a que todos os itens selecionados fiquem visíveis, clique com o botão direito num cartão selecionado e selecione **Zoom para a seleção**. Ou utilize um atalho de teclado premindo `Shift+2`.
+Para ampliar o Canvas de modo a que todos os itens selecionados fiquem visíveis, clique com o botão direito num cartão selecionado e selecione **Zoom para a seleção**. Ou prima `Shift+2`.
 
 #### Restaurar ampliação
 
 Para alterar o nível de zoom de volta ao predefinido, selecione **Restaurar ampliação** nos controlos de zoom no canto superior direito.
 
+## Incorporar um Canvas
+
+Pode incorporar um Canvas numa nota utilizando a sintaxe de incorporação padrão. Para mais informações, consulte [[Incorporar ficheiros#Embed a canvas in a note|Incorporar um Canvas numa nota]].
+
 ## Dicas avançadas
 
 Criámos alguns vídeos rápidos para demonstrar alguns casos de utilização avançados do Canvas.
 
-Pode [consultar todas as 72 dicas aqui](https://obsidian.md/canvas#protips). Note que os vídeos de dicas só são visíveis no computador.
+Pode [ver todas as 72 dicas aqui](https://obsidian.md/canvas#protips). Os vídeos de dicas só são visíveis no computador.

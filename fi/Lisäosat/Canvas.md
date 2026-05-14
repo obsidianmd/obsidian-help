@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas on [[Sisäänrakennetut lisäosat|sisäänrakennettu lisäosa]] visuaaliseen muistiinpanojen tekemiseen. Se tarjoaa rajattoman tilan muistiinpanojen asetteluun ja niiden yhdistämiseen muihin muistiinpanoihin, liitteisiin ja verkkosivuihin.
 
-Visuaalinen muistiinpanojen tekeminen auttaa ymmärtämään muistiinpanojasi järjestämällä ne kaksiulotteiseen tilaan. Yhdistä muistiinpanoja viivoilla ja ryhmittele toisiinsa liittyvät muistiinpanot, jotta niiden väliset yhteydet hahmottuvat paremmin.
+Muistiinpanojen järjestäminen kaksiulotteiseen tilaan auttaa näkemään ja ymmärtämään niiden väliset yhteydet. Yhdistä muistiinpanoja viivoilla ja ryhmittele toisiinsa liittyvät yhteen.
 
-Obsidianissa luomasi Canvas-tiedot tallennetaan `.canvas`-tiedostoina avointa tiedostomuotoa [JSON Canvas](https://jsoncanvas.org/) käyttäen.
+Obsidian tallentaa valkotaulut `.canvas`-tiedostoina avointa [JSON Canvas](https://jsoncanvas.org/) -muotoa käyttäen.
 
 ## Luo uusi valkotaulu
 
@@ -34,7 +34,7 @@ Voit raahata tiedostoja valkotaululle Obsidianista tai muista sovelluksista. Esi
 
 ### Tekstikorttien lisääminen
 
-Voit lisätä pelkästään tekstiä sisältäviä kortteja, jotka eivät viittaa mihinkään tiedostoon. Voit käyttää Markdownia, linkkejä ja koodilohkoja aivan kuten muistiinpanossa.
+Voit lisätä pelkästään tekstiä sisältäviä kortteja, jotka eivät viittaa mihinkään tiedostoon. Voit käyttää Markdownia, linkkejä ja koodilohkoja samalla tavalla kuin muistiinpanossa.
 
 Uuden tekstikortin lisääminen valkotaululle:
 
@@ -47,7 +47,7 @@ Tekstikortin muuntaminen tiedostoksi:
 1. Napsauta tekstikorttia hiiren kakkospainikkeella ja valitse **Muunna tiedostoksi...**.
 2. Kirjoita muistiinpanon nimi ja valitse **Tallenna**.
 
-> [!note] Huomaa
+> [!note] Tekstikortit ja paluulinkit
 > Pelkät tekstikortit eivät näy [[Paluulinkit|paluulinkeissä]]. Jotta ne näkyisivät, sinun täytyy muuntaa ne tiedostoksi.
 
 ### Korttien lisääminen muistiinpanoista
@@ -62,7 +62,7 @@ Voit myös lisätä muistiinpanoja valkotaulun kontekstivalikosta:
 1. Napsauta valkotaulua hiiren kakkospainikkeella ja valitse **Lisää muistiinpano holvista**.
 2. Valitse muistiinpano, jonka haluat lisätä.
 
-Voit myös lisätä niitä valkotaululle raahaamalla tiedoston [[Tiedostoselain|tiedostoselaimesta]].
+Voit myös raahata muistiinpanoja [[Tiedostoselain|tiedostoselaimesta]] valkotaululle.
 
 ### Korttien lisääminen mediatiedostoista
 
@@ -76,7 +76,7 @@ Voit myös lisätä mediaa valkotaulun kontekstivalikosta:
 1. Napsauta valkotaulua hiiren kakkospainikkeella ja valitse **Lisää mediaa holvista**.
 2. Valitse mediatiedosto, jonka haluat lisätä.
 
-Voit myös lisätä niitä valkotaululle raahaamalla tiedoston [[Tiedostoselain|tiedostoselaimesta]].
+Voit myös raahata mediatiedostoja [[Tiedostoselain|tiedostoselaimesta]] valkotaululle.
 
 ### Korttien lisääminen verkkosivuista
 
@@ -91,11 +91,11 @@ Avataksesi verkkosivun selaimessa, paina `Ctrl` (tai `Cmd` macOS:ssä) ja napsau
 
 ### Korttien lisääminen kansioista
 
-Raahaa kansio tiedostoselaimesta lisätäksesi kaikki kansion tiedostot valkotaululle.
+Raahaa kansio [[Tiedostoselain|tiedostoselaimesta]] lisätäksesi kaikki kansion tiedostot valkotaululle.
 
 ### Kortin muokkaaminen
 
-Kaksoisnapsauta teksti- tai muistiinpanokorttia aloittaaksesi sen muokkaamisen. Napsauta kortin ulkopuolelle lopettaaksesi muokkaamisen. Voit myös lopettaa muokkaamisen painamalla `Escape`.
+Kaksoisnapsauta teksti- tai muistiinpanokorttia aloittaaksesi sen muokkaamisen. Napsauta mitä tahansa kortin ulkopuolella lopettaaksesi muokkaamisen. Voit myös lopettaa muokkaamisen painamalla `Escape`.
 
 Voit myös muokata korttia napsauttamalla sitä hiiren kakkospainikkeella ja valitsemalla **Muokkaa**.
 
@@ -117,7 +117,7 @@ Muistiinpanokortin vaihtaminen:
 
 ## Korttien valitseminen
 
-Valitse kortteja valkotaululta napsauttamalla niitä. Voit valita useita kortteja raahaamalla valinta-alueen niiden ympärille.
+Valitse yksittäisiä kortteja tai raahaa valinta-alue useiden korttien ympärille.
 
 Voit myös lisätä ja poistaa kortteja olemassa olevasta valinnasta painamalla `Shift` ja napsauttamalla niitä.
 
@@ -147,7 +147,7 @@ Säilyttääksesi kuvasuhteen koon muutoksen aikana, pidä `Shift` painettuna.
 
 ## Korttien yhdistäminen
 
-Piirrä viivoja korttien välille luodaksesi niiden välille yhteyksiä. Käytä värejä ja leimoja kuvaamaan, miten ne liittyvät toisiinsa.
+Piirrä viivoja korttien välille yhteyksien näyttämiseksi. Lisää värejä ja leimoja kuvaamaan, miten ne liittyvät toisiinsa.
 
 ### Kahden kortin yhdistäminen
 
@@ -156,8 +156,8 @@ Kahden kortin yhdistäminen suunnatulla viivalla:
 1. Vie kohdistin kortin reunan päälle, kunnes näet täytetyn ympyrän.
 2. Raahaa ympyrä toisen kortin reunaan yhdistääksesi ne.
 
-> [!tip] Vinkki
-> Jos raahaat viivan yhdistämättä sitä toiseen korttiin, voit sitten lisätä kortin, johon haluat sen yhdistää.
+> [!tip]- Luo kortti uudesta yhteydestä
+> Jos raahaat viivan yhdistämättä sitä toiseen korttiin, voit luoda uuden kortin viivan toiseen päähän.
 
 ### Kahden kortin yhteyden poistaminen
 
@@ -173,7 +173,7 @@ Voit myös katkaista kahden kortin yhteyden napsauttamalla niiden välistä viiv
 Yhteysviivan toisen pään siirtäminen:
 
 1. Vie kohdistin yhteysviivan päälle, kunnes viivalle ilmestyy kaksi pientä ympyrää.
-2. Raahaa sen pään ympyrä, jonka haluat yhdistää uudelleen, toisen kortin päälle.
+2. Raahaa ympyrä toisen kortin päälle yhdistääksesi sen uudelleen.
 
 ### Yhteyden seuraaminen
 
@@ -215,7 +215,7 @@ Toisiinsa liittyvien korttien ryhmittely:
 
 ## Valkotaululla liikkuminen
 
-Kun alat lisätä enemmän kortteja valkotaululle, haluat ymmärtää, miten valkotaululla liikutaan tietyn osan tarkastelemiseksi. Opi liikkumaan ja suurentamaan/pienentämään valkotaulun eri osiin.
+Käytä liikkumista ja suurentamista/pienentämistä siirtyäksesi valkotaulun eri osiin.
 
 ### Valkotaululla liikkuminen
 
@@ -235,14 +235,18 @@ Suurentaaksesi tai pienentääksesi valkotaulun niin, että jokainen elementti o
 
 #### Lähennä valintaan
 
-Suurentaaksesi valkotaulun niin, että kaikki valitut elementit ovat näkyvissä, napsauta valittua korttia hiiren kakkospainikkeella ja valitse **Lähennä valintaan**. Tai käytä pikanäppäintä `Shift+2`.
+Suurentaaksesi valkotaulun niin, että kaikki valitut elementit ovat näkyvissä, napsauta valittua korttia hiiren kakkospainikkeella ja valitse **Lähennä valintaan**. Tai paina `Shift+2`.
 
 #### Palauta mittakaava
 
 Palauttaaksesi suurennustason oletusarvoon, valitse **Palauta mittakaava** oikean yläkulman suurennussäätimistä.
 
+## Valkotaulun upottaminen
+
+Voit upottaa valkotaulun muistiinpanoon tavallisella upotussyntaksilla. Lisätietoja on kohdassa [[Upota tiedostoja#Embed a canvas in a note|Valkotaulun upottaminen muistiinpanoon]].
+
 ## Edistyneet vinkit
 
 Olemme tehneet lyhyitä videoita, jotka esittelevät Canvas-lisäosan edistyneitä käyttötapoja.
 
-Voit [katsoa kaikki 72 vinkkiä täällä](https://obsidian.md/canvas#protips). Huomaa, että vinkkivideot näkyvät vain työpöytäversiossa.
+Voit [katsoa kaikki 72 vinkkiä täällä](https://obsidian.md/canvas#protips). Vinkkivideot näkyvät vain työpöytäversiossa.

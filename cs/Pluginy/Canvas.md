@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas je [[Základní pluginy|základní plugin]] pro vizuální tvorbu poznámek. Poskytuje vám nekonečný prostor pro rozmístění poznámek a jejich propojení s dalšími poznámkami, přílohami a webovými stránkami.
 
-Vizuální tvorba poznámek vám pomáhá pochopit vaše poznámky tím, že je organizujete ve 2D prostoru. Propojujte poznámky čarami a seskupujte související poznámky dohromady, abyste lépe porozuměli vztahům mezi nimi.
+Uspořádání poznámek ve 2D prostoru vám pomáhá vidět a pochopit vazby mezi nimi. Propojujte poznámky čarami a seskupujte související poznámky dohromady.
 
-Data Canvas, která vytvoříte v Obsidian, se ukládají jako soubory `.canvas` v otevřeném formátu [JSON Canvas](https://jsoncanvas.org/).
+Obsidian ukládá plátna jako soubory `.canvas` v otevřeném formátu [JSON Canvas](https://jsoncanvas.org/).
 
 ## Vytvoření nového plátna
 
@@ -34,7 +34,7 @@ Do plátna můžete přetahovat soubory z Obsidian nebo z jiných aplikací. Nap
 
 ### Přidání textových karet
 
-Můžete přidávat karty obsahující pouze text, které neodkazují na žádný soubor. Můžete v nich používat Markdown, odkazy a bloky kódu stejně jako v poznámce.
+Můžete přidávat karty obsahující pouze text, které neodkazují na žádný soubor. Můžete v nich používat Markdown, odkazy a bloky kódu stejným způsobem jako v poznámce.
 
 Pro přidání nové textové karty na plátno:
 
@@ -47,7 +47,7 @@ Pro převod textové karty na soubor:
 1. Klikněte pravým tlačítkem na textovou kartu a poté vyberte **Převést do souboru...**.
 2. Zadejte název poznámky a poté vyberte **Uložit**.
 
-> [!note] Poznámka
+> [!note] Karty obsahující pouze text a zpětné odkazy
 > Karty obsahující pouze text se nezobrazují ve [[Zpětné odkazy|zpětných odkazech]]. Aby se zobrazovaly, musíte je převést na soubor.
 
 ### Přidání karet z poznámek
@@ -62,7 +62,7 @@ Poznámky můžete přidat také z kontextového menu plátna:
 1. Klikněte pravým tlačítkem na plátno a poté vyberte **Přidat poznámku z trezoru**.
 2. Vyberte poznámku, kterou chcete přidat.
 
-Nebo je můžete přidat na plátno přetažením souboru z [[Průzkumník souborů|průzkumníku souborů]].
+Poznámky můžete také přetáhnout z [[Průzkumník souborů|průzkumníku souborů]] na plátno.
 
 ### Přidání karet z médií
 
@@ -76,7 +76,7 @@ Média můžete přidat také z kontextového menu plátna:
 1. Klikněte pravým tlačítkem na plátno a poté vyberte **Přidat média z trezoru**.
 2. Vyberte mediální soubor, který chcete přidat.
 
-Nebo je můžete přidat na plátno přetažením souboru z [[Průzkumník souborů|průzkumníku souborů]].
+Mediální soubory můžete také přetáhnout z [[Průzkumník souborů|průzkumníku souborů]] na plátno.
 
 ### Přidání karet z webových stránek
 
@@ -91,11 +91,11 @@ Pro otevření webové stránky ve vašem prohlížeči stiskněte `Ctrl` (nebo 
 
 ### Přidání karet ze složek
 
-Přetáhněte složku z průzkumníku souborů pro přidání všech souborů v dané složce na plátno.
+Přetáhněte složku z [[Průzkumník souborů|průzkumníku souborů]] pro přidání všech souborů v dané složce na plátno.
 
 ### Úprava karty
 
-Dvojitým kliknutím na textovou kartu nebo kartu poznámky začnete její úpravu. Kliknutím mimo kartu úpravu ukončíte. Úpravu karty můžete ukončit také stisknutím klávesy `Escape`.
+Dvojitým kliknutím na textovou kartu nebo kartu poznámky začnete její úpravu. Kliknutím kamkoli mimo kartu úpravu ukončíte. Úpravu karty můžete ukončit také stisknutím klávesy `Escape`.
 
 Kartu můžete také upravit kliknutím pravým tlačítkem a výběrem **Upravit**.
 
@@ -117,7 +117,7 @@ Pro záměnu karty poznámky:
 
 ## Výběr karet
 
-Karty na plátně vybíráte kliknutím na ně. Více karet můžete vybrat přetažením výběru kolem nich.
+Vybírejte jednotlivé karty nebo přetáhněte výběr kolem více karet.
 
 Karty můžete přidávat do stávajícího výběru nebo z něj odebírat stisknutím `Shift` a kliknutím na ně.
 
@@ -147,7 +147,7 @@ Pro zachování poměru stran při změně velikosti stiskněte `Shift`.
 
 ## Propojení karet
 
-Kreslením čar mezi kartami vytváříte vztahy mezi nimi. Pomocí barev a štítků popisujte, jak spolu souvisí.
+Kreslením čar mezi kartami zobrazujte vztahy. Přidávejte barvy a štítky pro popis, jak spolu souvisí.
 
 ### Propojení dvou karet
 
@@ -156,8 +156,8 @@ Pro propojení dvou karet směrovou čarou:
 1. Najeďte kurzorem na jednu z hran karty, dokud se neobjeví vyplněný kruh.
 2. Přetáhněte kruh na hranu jiné karty pro jejich propojení.
 
-> [!tip] Tip
-> Pokud přetáhnete čáru bez připojení k jiné kartě, můžete poté přidat kartu, ke které ji chcete připojit.
+> [!tip]- Vytvoření karty z nového spojení
+> Pokud přetáhnete čáru bez připojení k jiné kartě, můžete na jejím druhém konci vytvořit novou kartu.
 
 ### Odpojení dvou karet
 
@@ -173,7 +173,7 @@ Dvě karty můžete také odpojit kliknutím pravým tlačítkem na čáru mezi 
 Pro přesunutí jednoho z konců spojovací čáry:
 
 1. Najeďte kurzorem na spojovací čáru, dokud se na čáře neobjeví dva malé kruhy.
-2. Přetáhněte kruh na konci, který chcete přepojit, k jiné kartě.
+2. Přetáhněte kruh k jiné kartě pro její přepojení.
 
 ### Navigace po spojení
 
@@ -215,7 +215,7 @@ Pro seskupení souvisejících karet:
 
 ## Navigace po plátně
 
-Jakmile začnete na plátno přidávat více karet, budete chtít vědět, jak se po plátně pohybovat a prohlížet jeho jednotlivé části. Naučte se posouvat a přibližovat, abyste se po plátně pohybovali snadno.
+Používejte posouvání a přibližování pro pohyb po plátně.
 
 ### Posouvání plátna
 
@@ -235,14 +235,18 @@ Pro přiblížení plátna tak, aby byla viditelná každá položka, vyberte **
 
 #### Přiblížit na výběr
 
-Pro přiblížení plátna tak, aby byly viditelné všechny vybrané položky, klikněte pravým tlačítkem na vybranou kartu a poté vyberte **Přiblížit na blok**. Nebo použijte klávesovou zkratku `Shift+2`.
+Pro přiblížení plátna tak, aby byly viditelné všechny vybrané položky, klikněte pravým tlačítkem na vybranou kartu a poté vyberte **Přiblížit na blok**. Nebo stiskněte `Shift+2`.
 
 #### Obnovit přiblížení
 
 Pro navrácení úrovně přiblížení na výchozí hodnotu vyberte **Obnovit přiblížení** v ovládacích prvcích přiblížení v pravém horním rohu.
 
+## Vložení plátna
+
+Plátno můžete vložit do poznámky pomocí standardní syntaxe pro embedování. Více informací najdete v části [[Vkládání souborů#Embed a canvas in a note|Vložení plátna do poznámky]].
+
 ## Pokročilé tipy
 
 Připravili jsme několik krátkých videí demonstrujících některé pokročilé případy použití Canvas.
 
-Můžete si [prohlédnout všech 72 tipů zde](https://obsidian.md/canvas#protips). Upozorňujeme, že videa s tipy jsou viditelná pouze na stolním počítači.
+Můžete si [prohlédnout všech 72 tipů zde](https://obsidian.md/canvas#protips). Videa s tipy jsou viditelná pouze na stolním počítači.

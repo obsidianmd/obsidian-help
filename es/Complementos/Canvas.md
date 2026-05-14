@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas es un [[Complementos principales|complemento principal]] para la toma de notas visuales. Te ofrece un espacio infinito para disponer notas y conectarlas con otras notas, adjuntos y páginas web.
 
-La toma de notas visual te ayuda a dar sentido a tus notas organizándolas en un espacio 2D. Conecta notas con líneas y agrupa notas relacionadas para comprender mejor la relación entre ellas.
+Organizar tus notas en un espacio 2D te ayuda a ver y comprender las conexiones entre ellas. Conecta notas con líneas y agrupa las relacionadas.
 
-Los datos de Canvas que crees en Obsidian se guardan como archivos `.canvas` usando el formato de archivo abierto [JSON Canvas](https://jsoncanvas.org/).
+Obsidian guarda los lienzos como archivos `.canvas` usando el formato abierto [JSON Canvas](https://jsoncanvas.org/).
 
 ## Crear un nuevo lienzo
 
@@ -34,7 +34,7 @@ Puedes arrastrar archivos a tu lienzo desde Obsidian o desde otras aplicaciones.
 
 ### Agregar tarjetas de texto
 
-Puedes agregar tarjetas de solo texto que no hacen referencia a un archivo. Puedes usar Markdown, enlaces y bloques de código igual que en una nota.
+Puedes agregar tarjetas de solo texto que no hacen referencia a un archivo. Puedes usar Markdown, enlaces y bloques de código de la misma manera que en una nota.
 
 Para agregar una nueva tarjeta de texto a tu lienzo:
 
@@ -47,7 +47,7 @@ Para convertir una tarjeta de texto en un archivo:
 1. Haz clic derecho en la tarjeta de texto y selecciona **Convertir a archivo...**.
 2. Ingresa el nombre de la nota y selecciona **Guardar**.
 
-> [!note] Nota
+> [!note] Tarjetas de solo texto y enlaces de retorno
 > Las tarjetas de solo texto no aparecen en [[Enlace de retorno]]. Para que aparezcan, necesitas convertirlas en un archivo.
 
 ### Agregar tarjetas desde notas
@@ -62,7 +62,7 @@ También puedes agregar notas desde el menú contextual del lienzo:
 1. Haz clic derecho en el lienzo y selecciona **Agregar nota desde la bóveda**.
 2. Selecciona la nota que deseas agregar.
 
-O puedes agregarlas al lienzo arrastrando el archivo desde el [[Explorador de archivos]].
+También puedes arrastrar notas desde el [[Explorador de archivos]] al lienzo.
 
 ### Agregar tarjetas desde medios
 
@@ -76,7 +76,7 @@ También puedes agregar medios desde el menú contextual del lienzo:
 1. Haz clic derecho en el lienzo y selecciona **Agregar medio desde la bóveda**.
 2. Selecciona el archivo multimedia que deseas agregar.
 
-O puedes agregarlos al lienzo arrastrando el archivo desde el [[Explorador de archivos]].
+También puedes arrastrar archivos multimedia desde el [[Explorador de archivos]] al lienzo.
 
 ### Agregar tarjetas desde páginas web
 
@@ -91,11 +91,11 @@ Para abrir la página web en tu navegador, presiona `Ctrl` (o `Cmd` en macOS) y 
 
 ### Agregar tarjetas desde carpetas
 
-Arrastra una carpeta desde el explorador de archivos para agregar todos los archivos de esa carpeta al lienzo.
+Arrastra una carpeta desde el [[Explorador de archivos]] para agregar todos los archivos de esa carpeta al lienzo.
 
 ### Editar una tarjeta
 
-Haz doble clic en una tarjeta de texto o nota para comenzar a editarla. Haz clic fuera de la tarjeta para dejar de editarla. También puedes presionar `Escape` para dejar de editar una tarjeta.
+Haz doble clic en una tarjeta de texto o nota para comenzar a editarla. Selecciona cualquier lugar fuera de la tarjeta para dejar de editarla. También puedes presionar `Escape` para dejar de editar una tarjeta.
 
 También puedes editar una tarjeta haciendo clic derecho en ella y seleccionando **Editar**.
 
@@ -117,7 +117,7 @@ Para intercambiar una tarjeta de nota:
 
 ## Seleccionar tarjetas
 
-Selecciona tarjetas en el lienzo haciendo clic en ellas. Puedes seleccionar múltiples tarjetas arrastrando una selección alrededor de ellas.
+Selecciona tarjetas individuales, o arrastra una selección alrededor de múltiples tarjetas.
 
 También puedes agregar y eliminar tarjetas de una selección existente presionando `Shift` y seleccionándolas.
 
@@ -147,7 +147,7 @@ Para mantener la relación de aspecto mientras redimensionas, presiona `Shift` m
 
 ## Conectar tarjetas
 
-Dibuja líneas entre tarjetas para crear relaciones entre ellas. Usa colores y etiquetas para describir cómo se relacionan entre sí.
+Dibuja líneas entre tarjetas para mostrar relaciones. Agrega colores y etiquetas para describir cómo se relacionan.
 
 ### Conectar dos tarjetas
 
@@ -156,8 +156,8 @@ Para conectar dos tarjetas con una línea dirigida:
 1. Pasa el cursor sobre uno de los bordes de una tarjeta hasta que veas un círculo relleno.
 2. Arrastra el círculo hasta el borde de una tarjeta diferente para conectarlas.
 
-> [!tip] Consejo
-> Si arrastras la línea sin conectarla a otra tarjeta, puedes agregar después la tarjeta a la que deseas conectarla.
+> [!tip]- Crear una tarjeta desde una nueva conexión
+> Si arrastras la línea sin conectarla a otra tarjeta, puedes crear una nueva tarjeta en el otro extremo.
 
 ### Desconectar dos tarjetas
 
@@ -173,7 +173,7 @@ También puedes desconectar dos tarjetas haciendo clic derecho en la línea entr
 Para mover uno de los extremos de una línea de conexión:
 
 1. Pasa el cursor sobre una línea de conexión hasta que aparezcan dos pequeños círculos en la línea.
-2. Arrastra el círculo del extremo que deseas reconectar hacia otra tarjeta.
+2. Arrastra el círculo hacia otra tarjeta para reconectarlo.
 
 ### Navegar por una conexión
 
@@ -186,7 +186,7 @@ Puedes agregar una etiqueta a una línea para describir la relación entre dos t
 Para etiquetar una conexión:
 
 1. Haz doble clic en la línea.
-2. Ingresa la etiqueta y presiona `Escape` o haz clic en cualquier lugar del lienzo.
+2. Ingresa la etiqueta y presiona `Escape` o selecciona cualquier lugar del lienzo.
 
 También puedes etiquetar una conexión seleccionándola y luego seleccionando **Editar etiqueta** en los controles de selección.
 
@@ -215,7 +215,7 @@ Para agrupar tarjetas relacionadas:
 
 ## Navegar por el lienzo
 
-A medida que agregas más tarjetas a tu lienzo, querrás entender cómo navegar por el lienzo para ver una parte de él. Aprende cómo panear y ampliar para moverte por el lienzo con facilidad.
+Usa el paneo y el zoom para moverte por el lienzo.
 
 ### Panear el lienzo
 
@@ -235,14 +235,18 @@ Para ampliar el lienzo de modo que todos los elementos sean visibles, selecciona
 
 #### Acercar a la selección
 
-Para ampliar el lienzo de modo que todos los elementos seleccionados sean visibles, haz clic derecho en una tarjeta seleccionada y selecciona **Acercar a la selección**. O usa el atajo de teclado presionando `Shift+2`.
+Para ampliar el lienzo de modo que todos los elementos seleccionados sean visibles, haz clic derecho en una tarjeta seleccionada y selecciona **Acercar a la selección**. O presiona `Shift+2`.
 
 #### Reiniciar zoom
 
 Para cambiar el nivel de zoom al predeterminado, selecciona **Reiniciar zoom** en los controles de zoom en la esquina superior derecha.
 
+## Incrustar un lienzo
+
+Puedes incrustar un lienzo en una nota usando la sintaxis estándar de incrustación. Para más información, consulta [[Incrustar archivos#Embed a canvas in a note|Incrustar un lienzo en una nota]].
+
 ## Consejos avanzados
 
 Hemos creado algunos vídeos cortos para demostrar algunos casos de uso avanzados de Canvas.
 
-Puedes [ver los 72 consejos aquí](https://obsidian.md/es/canvas#protips). Ten en cuenta que los vídeos de consejos solo son visibles en escritorio.
+Puedes [ver los 72 consejos aquí](https://obsidian.md/canvas#protips). Los vídeos de consejos solo son visibles en escritorio.

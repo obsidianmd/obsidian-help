@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Apreneu com podeu incrustar altres notes i fitxers multimèdia a les vostres notes. En incrustar fitxers a les vostres notes, podeu reutilitzar contingut a tota la vostra cambra forta.
+Els fitxers incrustats mostren el seu contingut en línia dins d'una nota i es mantenen actualitzats quan el fitxer d'origen canvia.
 
 Per incrustar un fitxer de la vostra cambra forta, afegiu un signe d'exclamació (`!`) davant d'un [[Enllaços interns|Enllaç intern]]. Podeu incrustar fitxers en qualsevol dels [[Formats de fitxer acceptats]].
 
-> [!tip] Incrusta arrossegant i deixant anar
+> [!tip]- Incrusta arrossegant i deixant anar
 > A l'escriptori, també podeu arrossegar i deixar anar fitxers compatibles directament a la vostra nota per incrustar-los automàticament.
 
 ## Incrustar una nota dins d'una altra nota
@@ -18,7 +18,7 @@ Per incrustar una nota:
 ![[Enllaços interns]]
 ```
 
-També podeu incrustar enllaços a [[Enllaços interns#Enllaçar a un encapçalament en una nota|encapçalaments]] i [[Enllaços interns#Enllaçar a un bloc en una nota|blocs]].
+També podeu incrustar [[Enllaços interns#Enllaçar a un encapçalament en una nota|encapçalaments]] i [[Enllaços interns#Enllaçar a un bloc en una nota|blocs]] específics.
 
 ```md
 ![[Enllaços interns#^b15695]]
@@ -44,11 +44,11 @@ Podeu canviar les dimensions de la imatge afegint `|640x480` a la destinació de
 ![[Engelbart.jpg|100x145]]
 ```
 
-Si només especifiqueu l'amplada, la imatge s'escala segons la seva relació d'aspecte original. Per exemple, `![[Engelbart.jpg|100]]`.
+Si només especifiqueu l'amplada, la imatge s'escala proporcionalment. Per exemple, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-També podeu incrustar una imatge allotjada externament utilitzant un enllaç de Markdown. Podeu controlar l'amplada i l'alçada de la mateixa manera que amb un enllaç wiki.
+També podeu incrustar una imatge allotjada externament utilitzant un enllaç de Markdown. Podeu controlar l'amplada i l'alçada utilitzant la mateixa sintaxi que amb un enllaç wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -80,11 +80,22 @@ També podeu obrir una pàgina específica del PDF afegint `#page=N` a la destin
 ![[Document.pdf#page=3]]
 ```
 
-També podeu especificar l'alçada en píxels per al visor de PDF incrustat, afegint `#height=[number]` a la destinació de l'enllaç. Per exemple:
+També podeu especificar l'alçada en píxels per al visor de PDF incrustat afegint `#height=[number]` a l'enllaç. Per exemple:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Incrustar un Canvas en una nota
+
+Per incrustar un [[Canvas|canvas]]:
+
+```md
+![[El meu canvas.canvas]]
+```
+
+> [!info]+ Les incrustacions de Canvas només mostren formes
+> Els canvas incrustats mostren formes però no el text dins de les targetes. Per veure el canvas complet, obriu-lo directament.
 
 ## Incrustar una llista en una nota
 

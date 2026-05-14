@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Lær hvordan du kan bygge inn andre notater og medier i notatene dine. Ved å bygge inn filer i notatene dine kan du gjenbruke innhold på tvers av hvelvet ditt.
+Innebygde filer viser innholdet sitt innebygd i et notat og holdes oppdatert når kildefilen endres.
 
 For å bygge inn en fil i hvelvet ditt, legg til et utropstegn (`!`) foran en [[Interne lenker|intern lenke]]. Du kan bygge inn filer i alle [[Aksepterte filformater]].
 
-> [!tip] Dra og slipp-innebygging
+> [!tip]- Dra og slipp-innebygging
 > På skrivebord kan du også dra og slippe støttede filer direkte inn i notatet ditt for å bygge dem inn automatisk.
 
 ## Bygg inn et notat i et annet notat
@@ -18,7 +18,7 @@ For å bygge inn et notat:
 ![[Interne lenker]]
 ```
 
-Du kan også bygge inn lenker til [[Interne lenker#Lenke til en overskrift i et notat|overskrifter]] og [[Interne lenker#Lenke til en blokk i et notat|blokker]].
+Du kan også bygge inn spesifikke [[Interne lenker#Lenke til en overskrift i et notat|overskrifter]] og [[Interne lenker#Lenke til en blokk i et notat|blokker]].
 
 ```md
 ![[Interne lenker#^b15695]]
@@ -44,11 +44,11 @@ Du kan endre bildedimensjonene ved å legge til `|640x480` i lenkedestinasjonen,
 ![[Engelbart.jpg|100x145]]
 ```
 
-Hvis du bare angir bredden, skaleres bildet i henhold til det opprinnelige sideforholdet. For eksempel `![[Engelbart.jpg|100]]`.
+Hvis du bare angir bredden, skaleres bildet proporsjonalt. For eksempel `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Du kan også bygge inn et eksternt bilde ved å bruke en Markdown-lenke. Du kan kontrollere bredde og høyde på samme måte som med en wiki-lenke.
+Du kan også bygge inn et eksternt bilde ved å bruke en Markdown-lenke. Du kan kontrollere bredde og høyde med samme syntaks som en wiki-lenke.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -85,6 +85,17 @@ Du kan også angi høyden i piksler for den innebygde PDF-visningen ved å legge
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Bygg inn en Canvas i et notat
+
+For å bygge inn en [[Canvas|Canvas]]:
+
+```md
+![[Min canvas.canvas]]
+```
+
+> [!info]+ Canvas-innebygginger viser kun former
+> Innebygde canvaser viser former, men ikke teksten inne i kort. For å se hele canvasen, åpne den direkte.
 
 ## Bygg inn en liste i et notat
 

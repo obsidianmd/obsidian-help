@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Naučte sa, ako môžete vkladať iné poznámky a médiá do svojich poznámok. Vkladaním súborov do poznámok môžete opakovane používať obsah v celom trezore.
+Vložené súbory zobrazujú svoj obsah priamo v poznámke a zostávajú aktuálne, keď sa zdrojový súbor zmení.
 
 Na vloženie súboru do trezora pridajte výkričník (`!`) pred [[Interné odkazy|interný odkaz]]. Vkladať môžete súbory v akomkoľvek z [[Akceptované formáty súborov|akceptovaných formátov súborov]].
 
-> [!tip] Vloženie presunutím
+> [!tip]- Vloženie presunutím
 > Na počítači môžete tiež presunúť podporované súbory priamo do poznámky a automaticky ich vložiť.
 
 ## Vloženie poznámky do inej poznámky
@@ -18,7 +18,7 @@ Na vloženie poznámky:
 ![[Interné odkazy]]
 ```
 
-Môžete tiež vkladať odkazy na [[Interné odkazy#Odkaz na nadpis v poznámke|nadpisy]] a [[Interné odkazy#Odkaz na blok v poznámke|bloky]].
+Môžete tiež vkladať konkrétne [[Interné odkazy#Odkaz na nadpis v poznámke|nadpisy]] a [[Interné odkazy#Odkaz na blok v poznámke|bloky]].
 
 ```md
 ![[Interné odkazy#^b15695]]
@@ -44,11 +44,11 @@ Rozmery obrázka môžete zmeniť pridaním `|640x480` k cieľu odkazu, kde 640 
 ![[Engelbart.jpg|100x145]]
 ```
 
-Ak zadáte iba šírku, obrázok sa škáluje podľa pôvodného pomeru strán. Napríklad `![[Engelbart.jpg|100]]`.
+Ak zadáte iba šírku, obrázok sa škáluje proporcionálne. Napríklad `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Môžete tiež vložiť externe hostovaný obrázok pomocou Markdown odkazu. Šírku a výšku môžete ovládať rovnakým spôsobom ako pri wiki odkaze.
+Môžete tiež vložiť externe hostovaný obrázok pomocou Markdown odkazu. Šírku a výšku môžete ovládať pomocou rovnakej syntaxe ako pri wiki odkaze.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -85,6 +85,17 @@ Môžete tiež zadať výšku v pixeloch pre vložený PDF prehliadač pridaním
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Vloženie plátna do poznámky
+
+Na vloženie [[Canvas|plátna]]:
+
+```md
+![[Moje plátno.canvas]]
+```
+
+> [!info]+ Vložené plátna zobrazujú iba tvary
+> Vložené plátna zobrazujú tvary, ale nie text vnútri kariet. Pre zobrazenie celého plátna ho otvorte priamo.
 
 ## Vloženie zoznamu do poznámky
 

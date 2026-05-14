@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas är ett [[Kärntillägg|kärntillägg]] för visuellt antecknande. Det ger dig oändligt utrymme att lägga ut anteckningar och koppla dem till andra anteckningar, bilagor och webbsidor.
 
-Visuellt antecknande hjälper dig att förstå dina anteckningar genom att organisera dem i ett 2D-utrymme. Koppla samman anteckningar med linjer och gruppera relaterade anteckningar för att bättre förstå sambanden mellan dem.
+Att ordna dina anteckningar i ett 2D-utrymme hjälper dig att se och förstå sambanden mellan dem. Koppla samman anteckningar med linjer och gruppera relaterade tillsammans.
 
-Canvas-data du skapar i Obsidian sparas som `.canvas`-filer med det öppna filformatet [JSON Canvas](https://jsoncanvas.org/).
+Obsidian sparar canvaser som `.canvas`-filer med det öppna [JSON Canvas](https://jsoncanvas.org/)-formatet.
 
 ## Skapa en ny canvas
 
@@ -34,7 +34,7 @@ Du kan dra filer till din canvas från Obsidian eller från andra program. Till 
 
 ### Lägg till textkort
 
-Du kan lägga till kort som bara innehåller text och inte refererar till en fil. Du kan använda Markdown, länkar och kodblock precis som i en anteckning.
+Du kan lägga till kort som bara innehåller text och inte refererar till en fil. Du kan använda Markdown, länkar och kodblock på samma sätt som i en anteckning.
 
 För att lägga till ett nytt textkort på din canvas:
 
@@ -47,7 +47,7 @@ För att konvertera ett textkort till en fil:
 1. Högerklicka på textkortet och välj sedan **Konvertera till fil...**.
 2. Ange anteckningsnamnet och välj sedan **Spara**.
 
-> [!note] Obs
+> [!note] Textkort och bakåtlänkar
 > Textkort visas inte i [[Bakåtlänkar]]. För att de ska visas måste du konvertera dem till en fil.
 
 ### Lägg till kort från anteckningar
@@ -62,7 +62,7 @@ Du kan också lägga till anteckningar från canvasens kontextmeny:
 1. Högerklicka på canvasen och välj sedan **Lägg till anteckning från valv**.
 2. Välj anteckningen du vill lägga till.
 
-Eller så kan du lägga till dem på canvasen genom att dra filen från [[Filutforskare|filutforskaren]].
+Du kan också dra anteckningar från [[Filutforskare|filutforskaren]] till canvasen.
 
 ### Lägg till kort från media
 
@@ -76,7 +76,7 @@ Du kan också lägga till media från canvasens kontextmeny:
 1. Högerklicka på canvasen och välj sedan **Lägg till media från valv**.
 2. Välj mediefilen du vill lägga till.
 
-Eller så kan du lägga till dem på canvasen genom att dra filen från [[Filutforskare|filutforskaren]].
+Du kan också dra mediefiler från [[Filutforskare|filutforskaren]] till canvasen.
 
 ### Lägg till kort från webbsidor
 
@@ -91,11 +91,11 @@ För att öppna webbsidan i din webbläsare, tryck `Ctrl` (eller `Cmd` på macOS
 
 ### Lägg till kort från mappar
 
-Dra en mapp från filutforskaren för att lägga till alla filer i den mappen på canvasen.
+Dra en mapp från [[Filutforskare|filutforskaren]] för att lägga till alla filer i den mappen på canvasen.
 
 ### Redigera ett kort
 
-Dubbelklicka på ett text- eller anteckningskort för att börja redigera det. Klicka utanför kortet för att sluta redigera det. Du kan också trycka på `Escape` för att sluta redigera ett kort.
+Dubbelklicka på ett text- eller anteckningskort för att börja redigera det. Välj var som helst utanför kortet för att sluta redigera det. Du kan också trycka på `Escape` för att sluta redigera ett kort.
 
 Du kan också redigera ett kort genom att högerklicka på det och välja **Redigera**.
 
@@ -117,7 +117,7 @@ För att byta ut ett anteckningskort:
 
 ## Markera kort
 
-Markera kort på canvasen genom att klicka på dem. Du kan markera flera kort genom att dra en markering runt dem.
+Markera enskilda kort, eller dra en markering runt flera kort.
 
 Du kan också lägga till och ta bort kort från en befintlig markering genom att trycka `Shift` och klicka på dem.
 
@@ -147,7 +147,7 @@ För att behålla proportionerna medan du ändrar storlek, tryck `Shift` medan d
 
 ## Koppla samman kort
 
-Rita linjer mellan kort för att skapa relationer mellan dem. Använd färger och etiketter för att beskriva hur de förhåller sig till varandra.
+Rita linjer mellan kort för att visa relationer. Lägg till färger och etiketter för att beskriva hur de förhåller sig till varandra.
 
 ### Koppla samman två kort
 
@@ -156,8 +156,8 @@ För att koppla samman två kort med en riktad linje:
 1. Hovra markören över en av kanterna på ett kort tills du ser en fylld cirkel.
 2. Dra cirkeln till kanten på ett annat kort för att koppla samman dem.
 
-> [!tip] Tips
-> Om du drar linjen utan att koppla den till ett annat kort kan du sedan lägga till det kort du vill koppla den till.
+> [!tip]- Skapa ett kort från en ny koppling
+> Om du drar linjen utan att koppla den till ett annat kort kan du skapa ett nytt kort i den andra änden.
 
 ### Koppla ifrån två kort
 
@@ -166,14 +166,14 @@ För att ta bort kopplingen mellan två kort:
 1. Hovra markören över en kopplingsline tills två små cirklar visas på linjen.
 2. Dra en av cirklarna bort från kortet utan att koppla den till ett annat.
 
-Du kan också koppla ifrån två kort genom att högerklicka på linjen mellan dem och sedan välja **Ta bort**. Eller genom att markera linjen och sedan trycka `Backspace` (eller `Delete` på macOS).
+Du kan också koppla ifrån två kort genom att högerklicka på linjen mellan dem och sedan välja **Ta bort**. Eller markera linjen och sedan trycka `Backspace` (eller `Delete` på macOS).
 
 ### Koppla ett kort till ett annat kort
 
 För att flytta en av ändarna på en kopplingsline:
 
 1. Hovra markören över en kopplingsline tills två små cirklar visas på linjen.
-2. Dra cirkeln över den ände du vill koppla om, till ett annat kort.
+2. Dra cirkeln till ett annat kort för att koppla om den.
 
 ### Navigera en koppling
 
@@ -186,7 +186,7 @@ Du kan lägga till en etikett på en linje för att beskriva relationen mellan t
 För att etikettera en koppling:
 
 1. Dubbelklicka på linjen.
-2. Ange etiketten och tryck sedan `Escape` eller klicka var som helst på canvasen.
+2. Ange etiketten och tryck sedan `Escape` eller välj var som helst på canvasen.
 
 Du kan också etikettera en koppling genom att markera den och sedan välja **Redigera etikett** från markeringskontrollerna.
 
@@ -215,7 +215,7 @@ För att gruppera relaterade kort:
 
 ## Navigera på canvasen
 
-När du börjar lägga till fler kort på din canvas vill du förstå hur du kan navigera på canvasen för att titta på en del av den. Lär dig hur du panorerar och zoomar för att enkelt röra dig över canvasen.
+Använd panorering och zoomning för att röra dig över canvasen.
 
 ### Panorera canvasen
 
@@ -235,14 +235,18 @@ För att zooma canvasen så att varje objekt är synligt, välj **Zooma för att
 
 #### Zooma till markering
 
-För att zooma canvasen så att alla markerade objekt är synliga, högerklicka på ett markerat kort och välj sedan **Zooma till markering**. Eller använd en tangentbordsgenväg genom att trycka `Shift+2`.
+För att zooma canvasen så att alla markerade objekt är synliga, högerklicka på ett markerat kort och välj sedan **Zooma till markering**. Eller tryck `Shift+2`.
 
 #### Återställ zoom
 
 För att ändra inzoomningsnivån tillbaka till standard, välj **Återställ zoom** i zoomkontrollerna i det övre högra hörnet.
 
+## Bädda in en canvas
+
+Du kan bädda in en canvas i en anteckning med den vanliga inbäddningssyntaxen. För mer information, se [[Bädda in filer#Embed a canvas in a note|Bädda in en canvas i en anteckning]].
+
 ## Avancerade tips
 
 Vi har gjort några korta videor för att demonstrera några avancerade användningsområden för Canvas.
 
-Du kan [kolla in alla 72 tips här](https://obsidian.md/canvas#protips). Observera att tippvideorna bara är synliga på dator.
+Du kan [se alla 72 tips här](https://obsidian.md/canvas#protips). Tippvideorna är bara synliga på dator.

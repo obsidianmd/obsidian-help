@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Lär dig hur du kan bädda in andra anteckningar och media i dina anteckningar. Genom att bädda in filer i dina anteckningar kan du återanvända innehåll i hela ditt valv.
+Inbäddade filer visar sitt innehåll direkt i en anteckning och hålls uppdaterade när källfilen ändras.
 
 För att bädda in en fil i ditt valv, lägg till ett utropstecken (`!`) framför en [[Interna länkar|intern länk]]. Du kan bädda in filer i alla [[Accepterade filformat]].
 
-> [!tip] Dra och släpp för inbäddning
+> [!tip]- Dra och släpp för inbäddning
 > På dator kan du också dra och släppa filer som stöds direkt i din anteckning för att bädda in dem automatiskt.
 
 ## Bädda in en anteckning i en annan anteckning
@@ -18,7 +18,7 @@ För att bädda in en anteckning:
 ![[Interna länkar]]
 ```
 
-Du kan också bädda in länkar till [[Interna länkar#Länka till en rubrik i en anteckning|rubriker]] och [[Interna länkar#Länka till ett block i en anteckning|block]].
+Du kan också bädda in specifika [[Interna länkar#Länka till en rubrik i en anteckning|rubriker]] och [[Interna länkar#Länka till ett block i en anteckning|block]].
 
 ```md
 ![[Interna länkar#^b15695]]
@@ -44,11 +44,11 @@ Du kan ändra bilddimensionerna genom att lägga till `|640x480` till länkdesti
 ![[Engelbart.jpg|100x145]]
 ```
 
-Om du bara anger bredden skalas bilden enligt sitt ursprungliga bildförhållande. Till exempel `![[Engelbart.jpg|100]]`.
+Om du bara anger bredden skalas bilden proportionellt. Till exempel `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Du kan också bädda in en externt värdbaserad bild genom att använda en Markdown-länk. Du kan styra bredd och höjd på samma sätt som med en wikilänk.
+Du kan också bädda in en externt värdbaserad bild genom att använda en Markdown-länk. Du kan styra bredd och höjd med samma syntax som en wikilänk.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -85,6 +85,17 @@ Du kan också ange höjden i pixlar för den inbäddade PDF-visaren genom att l�
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Bädda in en canvas i en anteckning
+
+För att bädda in en [[Canvas|canvas]]:
+
+```md
+![[Min canvas.canvas]]
+```
+
+> [!info]+ Canvas-inbäddningar visar bara former
+> Inbäddade canvaser visar former men inte texten inuti kort. För att se hela canvasen, öppna den direkt.
 
 ## Bädda in en lista i en anteckning
 

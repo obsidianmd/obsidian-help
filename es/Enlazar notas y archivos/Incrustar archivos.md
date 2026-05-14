@@ -5,9 +5,11 @@ cssclasses:
 aliases:
   - How to/Incrustar archivos
 ---
+Los archivos incrustados muestran su contenido en línea dentro de una nota y se mantienen actualizados cuando el archivo fuente cambia.
+
 Para incrustar un archivo en tu bóveda, añade un signo de exclamación (`!`) delante de un [[Enlaces internos|enlace interno]]. Puedes incrustar archivos en cualquiera de los [[Formatos de archivo aceptados]].
 
-> [!tip] Incrustar con arrastrar y soltar
+> [!tip]- Incrustar con arrastrar y soltar
 > En escritorio, también puedes arrastrar y soltar archivos compatibles directamente en tu nota para incrustarlos automáticamente.
 
 ## Incrustar una nota en otra nota
@@ -18,7 +20,7 @@ Para incrustar una nota:
 ![[Enlaces internos]]
 ```
 
-También puedes incrustar enlaces a [[Enlaces internos#Enlazar a un encabezado en una nota|encabezados]] y [[Enlaces internos#Enlazar a un bloque en una nota|bloques]].
+También puedes incrustar [[Enlaces internos#Enlazar a un encabezado en una nota|encabezados]] y [[Enlaces internos#Enlazar a un bloque en una nota|bloques]] específicos.
 
 ```md
 ![[Enlaces internos#^b15695]]
@@ -44,11 +46,11 @@ Puedes cambiar las dimensiones de la imagen añadiendo `|640x480` al destino del
 ![[Engelbart.jpg|100x145]]
 ```
 
-Si solo especificas el ancho, la imagen se escala de acuerdo con su relación de aspecto original. Por ejemplo, `![[Engelbart.jpg|100]]`.
+Si solo especificas el ancho, la imagen se escala proporcionalmente. Por ejemplo, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-También puedes incrustar una imagen alojada externamente usando un enlace Markdown. Puedes controlar el ancho y la altura de la misma manera que con un enlace wiki.
+También puedes incrustar una imagen alojada externamente usando un enlace Markdown. Puedes controlar el ancho y la altura usando la misma sintaxis que con un enlace wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -80,11 +82,22 @@ También puedes abrir una página específica en el PDF añadiendo `#page=N` al 
 ![[Document.pdf#page=3]]
 ```
 
-También puedes especificar la altura en píxeles para el visor de PDF incrustado, añadiendo `#height=[number]` al enlace. Por ejemplo:
+También puedes especificar la altura en píxeles para el visor de PDF incrustado añadiendo `#height=[number]` al enlace. Por ejemplo:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Incrustar un Canvas en una nota
+
+Para incrustar un [[Canvas|Canvas]]:
+
+```md
+![[Mi canvas.canvas]]
+```
+
+> [!info]+ Los Canvas incrustados solo muestran las formas
+> Los Canvas incrustados muestran las formas pero no el texto dentro de las tarjetas. Para ver el Canvas completo, ábrelo directamente.
 
 ## Incrustar una lista en una nota
 

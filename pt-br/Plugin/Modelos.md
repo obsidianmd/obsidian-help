@@ -73,7 +73,7 @@ tags:
 ```
 
 > [!warning]+ Edite modelos no modo Código-fonte
-> No [[Visualizações e modo de edição#Live Preview|Live Preview]], o painel **Propriedades no documento** pode sobrescrever variáveis de modelo que não possuem aspas.
+> No [[Visualizações e modo de edição#Visualização ao vivo|Live Preview]], o painel **Propriedades no documento** pode sobrescrever variáveis de modelo que não possuem aspas.
 >
 > Para evitar isso, edite modelos no [[Visualizações e modo de edição#Modo código-fonte|modo Código-fonte]], ou defina **[[Configurações]] → Editor → [[Configurações#Propriedades no documento|Propriedades no documento]]** para **Código-fonte**.
 

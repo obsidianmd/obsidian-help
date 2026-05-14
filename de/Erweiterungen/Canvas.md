@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]] für visuelles Notieren. Es bietet dir unendlich viel Platz, um Notizen anzuordnen und sie mit anderen Notizen, Anhängen und Webseiten zu verbinden.
 
-Visuelles Notieren hilft dir, deine Notizen besser zu verstehen, indem du sie in einem 2D-Raum organisierst. Verbinde Notizen mit Linien und gruppiere verwandte Notizen, um die Beziehungen zwischen ihnen besser zu verstehen.
+Die Anordnung deiner Notizen in einem 2D-Raum hilft dir, die Verbindungen zwischen ihnen zu sehen und zu verstehen. Verbinde Notizen mit Linien und gruppiere verwandte Notizen.
 
-Canvas-Daten, die du in Obsidian erstellst, werden als `.canvas`-Dateien im offenen Dateiformat [JSON Canvas](https://jsoncanvas.org/) gespeichert.
+Obsidian speichert Canvas-Dateien als `.canvas`-Dateien im offenen [JSON Canvas](https://jsoncanvas.org/)-Format.
 
 ## Einen neuen Canvas erstellen
 
@@ -34,7 +34,7 @@ Du kannst Dateien aus Obsidian oder aus anderen Anwendungen in deinen Canvas zie
 
 ### Textkarten hinzufügen
 
-Du kannst reine Textkarten hinzufügen, die keine Datei referenzieren. Du kannst Markdown, Links und Quelltext-Blöcke genau wie in einer Notiz verwenden.
+Du kannst reine Textkarten hinzufügen, die keine Datei referenzieren. Du kannst Markdown, Links und Quelltext-Blöcke auf die gleiche Weise wie in einer Notiz verwenden.
 
 Um eine neue Textkarte zu deinem Canvas hinzuzufügen:
 
@@ -47,7 +47,7 @@ Um eine Textkarte in eine Datei umzuwandeln:
 1. Klicke mit der rechten Maustaste auf die Textkarte und wähle dann **In Datei umwandeln...**.
 2. Gib den Notiznamen ein und wähle dann **Speichern**.
 
-> [!note] Hinweis
+> [!note] Reine Textkarten und Rückverweise
 > Reine Textkarten erscheinen nicht in [[Rückverweise|Rückverweisen]]. Damit sie dort erscheinen, musst du sie in eine Datei umwandeln.
 
 ### Karten aus Notizen hinzufügen
@@ -62,7 +62,7 @@ Du kannst auch Notizen über das Canvas-Kontextmenü hinzufügen:
 1. Klicke mit der rechten Maustaste auf den Canvas und wähle dann **Notiz aus Vault hinzufügen**.
 2. Wähle die Notiz aus, die du hinzufügen möchtest.
 
-Oder du kannst sie zum Canvas hinzufügen, indem du die Datei aus dem [[Dateiexplorer]] ziehst.
+Du kannst auch Notizen aus dem [[Dateiexplorer]] in den Canvas ziehen.
 
 ### Karten aus Medien hinzufügen
 
@@ -76,7 +76,7 @@ Du kannst auch Medien über das Canvas-Kontextmenü hinzufügen:
 1. Klicke mit der rechten Maustaste auf den Canvas und wähle dann **Medien aus Vault hinzufügen**.
 2. Wähle die Mediendatei aus, die du hinzufügen möchtest.
 
-Oder du kannst sie zum Canvas hinzufügen, indem du die Datei aus dem [[Dateiexplorer]] ziehst.
+Du kannst auch Mediendateien aus dem [[Dateiexplorer]] in den Canvas ziehen.
 
 ### Karten aus Webseiten hinzufügen
 
@@ -91,11 +91,11 @@ Um die Webseite in deinem Browser zu öffnen, drücke `Strg` (oder `Cmd` unter m
 
 ### Karten aus Ordnern hinzufügen
 
-Ziehe einen Ordner aus dem Dateiexplorer, um alle Dateien in diesem Ordner zum Canvas hinzuzufügen.
+Ziehe einen Ordner aus dem [[Dateiexplorer]], um alle Dateien in diesem Ordner zum Canvas hinzuzufügen.
 
 ### Eine Karte bearbeiten
 
-Doppelklicke auf eine Text- oder Notizkarte, um sie zu bearbeiten. Klicke außerhalb der Karte, um die Bearbeitung zu beenden. Du kannst auch `Escape` drücken, um die Bearbeitung einer Karte zu beenden.
+Doppelklicke auf eine Text- oder Notizkarte, um sie zu bearbeiten. Klicke irgendwo außerhalb der Karte, um die Bearbeitung zu beenden. Du kannst auch `Escape` drücken, um die Bearbeitung einer Karte zu beenden.
 
 Du kannst eine Karte auch bearbeiten, indem du mit der rechten Maustaste darauf klickst und **Bearbeiten** wählst.
 
@@ -117,7 +117,7 @@ Um eine Notizkarte auszutauschen:
 
 ## Karten auswählen
 
-Wähle Karten im Canvas aus, indem du darauf klickst. Du kannst mehrere Karten auswählen, indem du eine Auswahl um sie herum ziehst.
+Wähle einzelne Karten aus oder ziehe eine Auswahl um mehrere Karten.
 
 Du kannst auch Karten zu einer bestehenden Auswahl hinzufügen oder daraus entfernen, indem du `Shift` gedrückt hältst und sie auswählst.
 
@@ -147,7 +147,7 @@ Um das Seitenverhältnis beim Ändern der Größe beizubehalten, halte `Shift` g
 
 ## Karten verbinden
 
-Zeichne Linien zwischen Karten, um Beziehungen zwischen ihnen herzustellen. Verwende Farben und Beschriftungen, um zu beschreiben, wie sie zueinander in Beziehung stehen.
+Zeichne Linien zwischen Karten, um Beziehungen darzustellen. Füge Farben und Beschriftungen hinzu, um zu beschreiben, wie sie zueinander in Beziehung stehen.
 
 ### Zwei Karten verbinden
 
@@ -156,8 +156,8 @@ Um zwei Karten mit einer gerichteten Linie zu verbinden:
 1. Bewege den Cursor über eine der Kanten einer Karte, bis ein ausgefüllter Kreis erscheint.
 2. Ziehe den Kreis zur Kante einer anderen Karte, um sie zu verbinden.
 
-> [!tip] Tipp
-> Wenn du die Linie ziehst, ohne sie mit einer anderen Karte zu verbinden, kannst du anschließend die Karte hinzufügen, mit der du sie verbinden möchtest.
+> [!tip]- Eine Karte aus einer neuen Verbindung erstellen
+> Wenn du die Linie ziehst, ohne sie mit einer anderen Karte zu verbinden, kannst du am anderen Ende eine neue Karte erstellen.
 
 ### Zwei Karten trennen
 
@@ -166,14 +166,14 @@ Um die Verbindung zwischen zwei Karten zu entfernen:
 1. Bewege den Cursor über eine Verbindungslinie, bis zwei kleine Kreise auf der Linie erscheinen.
 2. Ziehe einen der Kreise von der Karte weg, ohne ihn mit einer anderen zu verbinden.
 
-Du kannst auch zwei Karten trennen, indem du mit der rechten Maustaste auf die Linie zwischen ihnen klickst und dann **Entfernen** wählst. Oder indem du die Linie auswählst und dann die `Rücktaste` (oder `Entf` unter macOS) drückst.
+Du kannst auch zwei Karten trennen, indem du mit der rechten Maustaste auf die Linie zwischen ihnen klickst und dann **Entfernen** wählst. Oder wähle die Linie aus und drücke dann die `Rücktaste` (oder `Entf` unter macOS).
 
 ### Eine Karte mit einer anderen Karte verbinden
 
 Um eines der Enden einer Verbindungslinie zu verschieben:
 
 1. Bewege den Cursor über eine Verbindungslinie, bis zwei kleine Kreise auf der Linie erscheinen.
-2. Ziehe den Kreis über dem Ende, das du neu verbinden möchtest, zu einer anderen Karte.
+2. Ziehe den Kreis zu einer anderen Karte, um die Verbindung neu herzustellen.
 
 ### Einer Verbindung folgen
 
@@ -215,7 +215,7 @@ Um verwandte Karten zu gruppieren:
 
 ## Im Canvas navigieren
 
-Wenn du mehr Karten zu deinem Canvas hinzufügst, möchtest du verstehen, wie du im Canvas navigieren kannst, um einen bestimmten Bereich zu betrachten. Erfahre, wie du verschieben und vergrößern kannst, um dich mühelos über den Canvas zu bewegen.
+Verwende Verschieben und Vergrößern, um dich über den Canvas zu bewegen.
 
 ### Den Canvas verschieben
 
@@ -235,14 +235,18 @@ Um den Canvas so zu zoomen, dass jedes Element sichtbar ist, wähle **Vergröße
 
 #### Auf Auswahl zoomen
 
-Um den Canvas so zu zoomen, dass alle ausgewählten Elemente sichtbar sind, klicke mit der rechten Maustaste auf eine ausgewählte Karte und wähle dann **Auf Auswahl zoomen**. Oder verwende ein Tastenkürzel, indem du `Shift+2` drückst.
+Um den Canvas so zu zoomen, dass alle ausgewählten Elemente sichtbar sind, klicke mit der rechten Maustaste auf eine ausgewählte Karte und wähle dann **Auf Auswahl zoomen**. Oder drücke `Shift+2`.
 
 #### Vergrößerung zurücksetzen
 
 Um die Vergrößerungsstufe auf den Standard zurückzusetzen, wähle **Vergrößerung zurücksetzen** in den Zoom-Steuerelementen in der oberen rechten Ecke.
 
+## Einen Canvas in eine Notiz einbetten
+
+Du kannst einen Canvas mit der Standard-Einbettungssyntax in eine Notiz einbetten. Weitere Informationen findest du unter [[Dateien einbetten#Embed a canvas in a note|Einen Canvas in eine Notiz einbetten]].
+
 ## Erweiterte Tipps
 
 Wir haben einige kurze Videos erstellt, die einige fortgeschrittene Anwendungsfälle von Canvas demonstrieren.
 
-Du kannst [alle 72 Tipps hier ansehen](https://obsidian.md/canvas#protips). Bitte beachte, dass die Tipp-Videos nur auf dem Desktop sichtbar sind.
+Du kannst [alle 72 Tipps hier ansehen](https://obsidian.md/canvas#protips). Die Tipp-Videos sind nur auf dem Desktop sichtbar.

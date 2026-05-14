@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Saiba como pode incorporar outras notas e ficheiros multimédia nas suas notas. Ao incorporar ficheiros nas suas notas, pode reutilizar conteúdo no seu cofre.
+Os ficheiros incorporados apresentam o seu conteúdo diretamente numa nota e mantêm-se atualizados quando o ficheiro de origem é alterado.
 
 Para incorporar um ficheiro no seu cofre, adicione um ponto de exclamação (`!`) à frente de uma [[Ligações internas|Ligação interna]]. Pode incorporar ficheiros em qualquer um dos [[Formatos de ficheiro aceites]].
 
-> [!tip] Incorporar por arrastar e largar
+> [!tip]- Incorporar por arrastar e largar
 > No ambiente de trabalho, também pode arrastar e largar ficheiros suportados diretamente na sua nota para os incorporar automaticamente.
 
 ## Incorporar uma nota noutra nota
@@ -18,7 +18,7 @@ Para incorporar uma nota:
 ![[Ligações internas]]
 ```
 
-Também pode incorporar ligações para [[Ligações internas#Ligar a um cabeçalho numa nota|cabeçalhos]] e [[Ligações internas#Ligar a um bloco numa nota|blocos]].
+Também pode incorporar [[Ligações internas#Ligar a um cabeçalho numa nota|cabeçalhos]] e [[Ligações internas#Ligar a um bloco numa nota|blocos]] específicos.
 
 ```md
 ![[Ligações internas#^b15695]]
@@ -38,17 +38,17 @@ Para incorporar uma imagem:
 
 ![[Engelbart.jpg#outline]]
 
-Pode alterar as dimensões da imagem, adicionando `|640x480` ao destino da ligação, onde 640 é a largura e 480 é a altura.
+Pode alterar as dimensões da imagem adicionando `|640x480` ao destino da ligação, onde 640 é a largura e 480 é a altura.
 
 ```md
 ![[Engelbart.jpg|100x145]]
 ```
 
-Se especificar apenas a largura, a imagem é redimensionada de acordo com a sua proporção original. Por exemplo, `![[Engelbart.jpg|100]]`.
+Se especificar apenas a largura, a imagem é redimensionada proporcionalmente. Por exemplo, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Também pode incorporar uma imagem alojada externamente utilizando uma ligação Markdown. Pode controlar a largura e a altura da mesma forma que com um link wiki.
+Também pode incorporar uma imagem alojada externamente utilizando uma ligação Markdown. Pode controlar a largura e a altura utilizando a mesma sintaxe que com um link wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -74,17 +74,28 @@ Para incorporar um PDF:
 ![[Document.pdf]]
 ```
 
-Também pode abrir uma página específica no PDF, adicionando `#page=N` ao destino da ligação, onde `N` é o número da página:
+Também pode abrir uma página específica no PDF adicionando `#page=N` ao destino da ligação, onde `N` é o número da página:
 
 ```md
 ![[Document.pdf#page=3]]
 ```
 
-Também pode especificar a altura em píxeis para o visualizador de PDF incorporado, adicionando `#height=[number]` à ligação. Por exemplo:
+Também pode especificar a altura em píxeis para o visualizador de PDF incorporado adicionando `#height=[number]` à ligação. Por exemplo:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Incorporar um canvas numa nota
+
+Para incorporar um [[Canvas|canvas]]:
+
+```md
+![[My canvas.canvas]]
+```
+
+> [!info]+ Os canvas incorporados mostram apenas formas
+> Os canvas incorporados apresentam formas, mas não o texto dentro dos cartões. Para ver o canvas completo, abra-o diretamente.
 
 ## Incorporar uma lista numa nota
 

@@ -71,9 +71,9 @@ tags:
 ```
 
 > [!warning]+ Chỉnh sửa mẫu ở chế độ nguồn
-> Trong [[Các chế độ xem và chế độ chỉnh sửa#Live Preview|Xem trước trực tiếp]], bảng **Thuộc tính trong tài liệu** có thể ghi đè các biến mẫu không có dấu ngoặc kép.
+> Trong [[Các chế độ xem và chế độ chỉnh sửa#Xem trước trực tiếp|Xem trước trực tiếp]], bảng **Thuộc tính trong tài liệu** có thể ghi đè các biến mẫu không có dấu ngoặc kép.
 >
-> Để tránh điều này, hãy chỉnh sửa mẫu ở [[Các chế độ xem và chế độ chỉnh sửa#Source mode|chế độ nguồn]], hoặc đặt **[[Cài đặt]] → Trình chỉnh sửa → [[Cài đặt#Properties in document|Thuộc tính trong tài liệu]]** thành **Nguồn**.
+> Để tránh điều này, hãy chỉnh sửa mẫu ở [[Các chế độ xem và chế độ chỉnh sửa#Chế độ nguồn|chế độ nguồn]], hoặc đặt **[[Cài đặt]] → Trình chỉnh sửa → [[Cài đặt#Thuộc tính trong tài liệu|Thuộc tính trong tài liệu]]** thành **Nguồn**.
 
 ## Chèn mẫu vào ghi chú đang hoạt động
 

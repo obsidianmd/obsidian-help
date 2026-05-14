@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Tìm hiểu cách bạn có thể nhúng các ghi chú và phương tiện khác vào ghi chú của bạn. Bằng cách nhúng tệp vào ghi chú, bạn có thể tái sử dụng nội dung trong toàn bộ kho của mình.
+Các tệp được nhúng hiển thị nội dung của chúng trực tiếp trong ghi chú và luôn được cập nhật khi tệp nguồn thay đổi.
 
 Để nhúng một tệp trong kho của bạn, thêm dấu chấm than (`!`) phía trước một [[Liên kết nội bộ|Liên kết nội bộ]]. Bạn có thể nhúng tệp trong bất kỳ [[Định dạng tệp được hỗ trợ]] nào.
 
-> [!tip] Kéo và thả để nhúng
+> [!tip]- Kéo và thả để nhúng
 > Trên máy tính, bạn cũng có thể kéo và thả các tệp được hỗ trợ trực tiếp vào ghi chú để nhúng chúng tự động.
 
 ## Nhúng ghi chú vào ghi chú khác
@@ -18,7 +18,7 @@ Tìm hiểu cách bạn có thể nhúng các ghi chú và phương tiện khác
 ![[Liên kết nội bộ]]
 ```
 
-Bạn cũng có thể nhúng liên kết đến [[Liên kết nội bộ#Liên kết đến một tiêu đề trong ghi chú|tiêu đề]] và [[Liên kết nội bộ#Liên kết đến một khối trong ghi chú|khối]].
+Bạn cũng có thể nhúng các [[Liên kết nội bộ#Liên kết đến một tiêu đề trong ghi chú|tiêu đề]] và [[Liên kết nội bộ#Liên kết đến một khối trong ghi chú|khối]] cụ thể.
 
 ```md
 ![[Liên kết nội bộ#^b15695]]
@@ -44,11 +44,11 @@ Bạn có thể thay đổi kích thước hình ảnh bằng cách thêm `|640x
 ![[Engelbart.jpg|100x145]]
 ```
 
-Nếu bạn chỉ chỉ định chiều rộng, hình ảnh sẽ co giãn theo tỷ lệ khung hình gốc. Ví dụ, `![[Engelbart.jpg|100]]`.
+Nếu bạn chỉ chỉ định chiều rộng, hình ảnh sẽ co giãn theo tỷ lệ. Ví dụ, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Bạn cũng có thể nhúng hình ảnh được lưu trữ bên ngoài bằng cách sử dụng liên kết Markdown. Bạn có thể kiểm soát chiều rộng và chiều cao theo cách tương tự như liên kết wiki.
+Bạn cũng có thể nhúng hình ảnh được lưu trữ bên ngoài bằng cách sử dụng liên kết Markdown. Bạn có thể kiểm soát chiều rộng và chiều cao bằng cú pháp tương tự như liên kết wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -85,6 +85,17 @@ Bạn cũng có thể chỉ định chiều cao tính bằng pixel cho trình xe
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Nhúng canvas vào ghi chú
+
+Để nhúng một [[Canvas|canvas]]:
+
+```md
+![[My canvas.canvas]]
+```
+
+> [!info]+ Canvas nhúng chỉ hiển thị hình dạng
+> Các canvas được nhúng hiển thị hình dạng nhưng không hiển thị văn bản bên trong thẻ. Để xem toàn bộ canvas, hãy mở trực tiếp.
 
 ## Nhúng danh sách vào ghi chú
 

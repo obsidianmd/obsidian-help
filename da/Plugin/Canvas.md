@@ -5,137 +5,141 @@ aliases:
   - Lærred
   - Plugins/Lærred
 ---
-Lærred er et værktøj til siduel notetagning. Placer dine noter og andre ressourcer på et uendeligt lærred og forbind dem med linjer.
+Lærred er et [[Kerneplugins|kerneplugin]] til visuel notetagning. Det giver dig uendeligt rum til at placere noter og forbinde dem med andre noter, vedhæftninger og websider.
 
-Visuel notetagning tillader dig at benytte visuelle aspekter, såsom størrelse og position til at give dine noter mening. Forbind noter med linjer og gruppér relaterede noter, så du bedre kan forstå sammenhænget mellem dem.
+At arrangere dine noter i et 2D-rum hjælper dig med at se og forstå forbindelserne mellem dem. Forbind noter med linjer og gruppér relaterede noter sammen.
+
+Obsidian gemmer lærreder som `.canvas`-filer ved hjælp af det åbne [JSON Canvas](https://jsoncanvas.org/)-format.
 
 ## Opret et nyt lærred
 
 For at anvende Lærred skal du først oprette en fil, der kan indeholde dit lærred. Du kan oprette et nyt lærred på en af følgende måder:
 
-**Via båndmenuen:**
+**Kommandopaletten:**
 
-- Vælg **Opret nyt lærred** i venstre båndmenu (Ikonet med 4 firkanter) for at oprette et nyt lærred i samme mappe som den aktive fil
+1. Åbn [[Kommandopaletten|kommandopaletten]].
+2. Vælg **Lærred: Opret nyt lærred** for at oprette et nyt lærred i samme mappe som den aktive fil.
 
-**Via kommandopaletten:**
+**Stifinderen:**
 
-1. Åben [[Kommandopaletten|kommandopaletten]]
-2. Vælg **Lærred: Opret nyt lærred** for at oprette et nyt lærred i samme mappe som den aktive fil
+- Højreklik i [[Stifinder|stifinderen]] på den mappe, som du vil oprette et nyt lærred i.
+- Vælg **Nyt lærred**.
 
-**Via stifinderen:**
+**Værktøjslinjen:**
 
-- Højreklik på den mappe, som du vil oprette et nyt lærred i [[Stifinder|stifinderen]]
-- Vælg **Nyt lærred**
+- Vælg **Opret nyt lærred** ![[lucide-layout-dashboard.svg#icon]] i den lodrette værktøjslinje for at oprette et nyt lærred i samme mappe som den aktive fil.
 
 > [!note] .canvas fil endelse
-> Obsidian gemmer konfigurationen for hvert lærred i en speciel JSON formatteret fil med endelsen `.canvas`.
+> Obsidian gemmer dine lærredsdata som `.canvas`-filer ved hjælp af et åbent filformat kaldet [JSON Canvas](https://jsoncanvas.org/).
 
 ## Tilføj kort
 
-Du kan trække filer ind på dit lærred fra Obsidian eller en anden applikation, fx. Markdownfiler, billeder, lyd, PDF dokumenter, eller endda filtyper, som Obsidian ikke genkender.
+Du kan trække filer ind på dit lærred fra Obsidian eller en anden applikation, fx Markdown-filer, billeder, lyd, PDF-dokumenter, eller endda filtyper, som Obsidian ikke genkender.
 
 ### Tilføj tekstkort
 
-Du kan tilføje tekstkort som ikke refererer til en fil. Du kan benytte Markdown, links, og kodeblokke på sammen måde, som i en note.
+Du kan tilføje tekstkort, som ikke refererer til en fil. Du kan benytte Markdown, links og kodeblokke på samme måde som i en note.
 
-For at tilføje et nyt tekstkort til dit lærred skal du:
+For at tilføje et nyt tekstkort til dit lærred:
 
-- Vælge eller trække et tomt filikon ned i bunden af et lærred
+- Vælg eller træk det tomme filikon i bunden af lærredet.
 
-Du kan også tilføje tekstkort ved at dobbeltklikke på et lærred ved at:
+Du kan også tilføje tekstkort ved at dobbeltklikke på lærredet.
 
-1. Højreklikke på tekstkortet og vælge **Konverter til fil...**
-2. Skrive navnet på noten og vælg **Gem**
+For at konvertere et tekstkort til en fil:
 
-> [!note]
-> Tekstkort optræder ikke i [[Tilbagelinks|tilbagelinks]]. For at få dem til at optræde der skal du konvertere kortet til en fil.
+1. Højreklik på tekstkortet og vælg **Konvertér til fil...**.
+2. Skriv navnet på noten og vælg **Gem**.
+
+> [!note] Tekstkort og tilbagelinks
+> Tekstkort optræder ikke i [[Tilbagelinks|tilbagelinks]]. For at få dem til at optræde der, skal du konvertere kortet til en fil.
 
 ### Tilføj kort fra noter
 
-For at tilføje noter fra din boks til dit lærred skal du:
+For at tilføje en note fra din boks til dit lærred:
 
-1. Vælge eller trække dokumentikonet til bunden af lærredet
-2. Vælge den note du vil tilføje
+1. Vælg eller træk dokumentikonet i bunden af lærredet.
+2. Vælg den note, du vil tilføje.
 
-Du kan også tilføje noter fra popupmenuen i et lærred ved at højreklikke på det:
+Du kan også tilføje noter fra popupmenuen i et lærred:
 
-1. Højreklik på lærredet og vælg **Tilføj note fra boksen**
-2. Vælg den note, du vil tilføje
+1. Højreklik på lærredet og vælg **Tilføj note fra boksen**.
+2. Vælg den note, du vil tilføje.
 
-Eller du kan tilføje dem til et lærred ved at trække filen fra [[Stifinder|stifinderen]].
+Du kan også trække noter fra [[Stifinder|stifinderen]] ind på lærredet.
 
-## Tilføj kort fra et medie
+### Tilføj kort fra medier
 
-For at tilføje et medie fra din boks til dit lærred skal du:
+For at tilføje et medie fra din boks til dit lærred:
 
-1. Vælge eller trække billedfil ikonet til bunden af lærredet
-2. Vælge den mediefile, du vil tilføje
+1. Vælg eller træk billedfilsikonet i bunden af lærredet.
+2. Vælg den mediefil, du vil tilføje.
 
-Du kan også tilføje noter fra popupmenuen i et lærred ved at højreklikke på det:
+Du kan også tilføje medier fra popupmenuen i et lærred:
 
-1. Højreklik på lærredet og vælg **Tilføj medie fra boksen**
-2. Vælg den mediefil, du vil tilføje
+1. Højreklik på lærredet og vælg **Tilføj medie fra boksen**.
+2. Vælg den mediefil, du vil tilføje.
 
-Eller du kan tilføje dem til et lærred ved at trække filen fra [[Stifinder|stifinderen]].
+Du kan også trække mediefiler fra [[Stifinder|stifinderen]] ind på lærredet.
 
 ### Tilføj kort fra websider
 
-For at indlejre en webside på dit lærred skal du:
+For at indlejre en webside på dit lærred:
 
-1. Højreklikke på lærredet og vælg **Tilføj webside**
-2. Skrive websidens URL og vælg **Gem**
+1. Højreklik på lærredet og vælg **Tilføj webside**.
+2. Skriv websidens URL og vælg **Gem**.
 
-Du kan også vælge en URL i din browser og trække den in på et lærred for at indlejre det i et kort.
+Du kan også vælge en URL i din browser og trække den ind på lærredet for at indlejre den i et kort.
 
-For at åbne websiden i din browser kan du trykke `Ctrl` (eller `Cmd` på macOS) og vælge kortets titel. Eller du kan højreklikke på kortet og vælge **Åben i browser**.
+For at åbne websiden i din browser kan du trykke `Ctrl` (eller `Cmd` på macOS) og vælge kortets titel. Eller du kan højreklikke på kortet og vælge **Åbn i browser**.
 
 ### Tilføj kort fra mapper
 
-Træk en mappe fra stifinderen ind på lærredet for at tilføje alle filer.
+Træk en mappe fra [[Stifinder|stifinderen]] ind på lærredet for at tilføje alle filer i den mappe.
 
 ### Rediger et kort
 
-Dobbeltklik på en tekst eller et notekort for at starte redigering af det. Klik udenfor kortet for at afslutte redigeringen. Du kan også trykke på `Esc` tasten for at stoppe redigering af kortet.
+Dobbeltklik på et tekst- eller notekort for at starte redigering af det. Vælg et sted uden for kortet for at afslutte redigeringen. Du kan også trykke `Escape` for at stoppe redigering af kortet.
 
 Du kan også redigere et kort ved at højreklikke på det og vælge **Rediger**.
 
 ### Slet et kort
 
-Det kan fjerne valgte kort fra et lærred ved at højreklikke på dem og så vælge **Slet**. Eller du kan trykke `Tilbage` tasten (eller `Del` på macOS).
+Fjern valgte kort ved at højreklikke på dem og vælge **Slet**. Eller tryk `Tilbage` (eller `Del` på macOS).
 
-Du kan også vælge **Fjern** (Skraldespandsikonet) i popupmenuen over de valgte kort.
+Du kan også vælge **Fjern** ![[lucide-trash-2.svg#icon]] i popupmenuen over de valgte kort.
 
 ### Byt kort
 
-Du kan udskifte et notekort eller et medikort med et andet kort af sammen type.
+Du kan udskifte et notekort eller et mediekort med et andet kort af samme type.
 
 For at bytte et notekort:
 
-1. Højreklik på det kort, som du vil erstatte
-2. Vælg **Byt fil...**
-3. Vælg den note, som du vil erstatte den med
+1. Højreklik på det kort, som du vil erstatte.
+2. Vælg **Byt fil...**.
+3. Vælg den note, som du vil erstatte den med.
 
-## Vælge kort
+## Vælg kort
 
-Vælg et kort på et lærred ved at klikke på det. Du kan vælge flere kort ved at markere et område rundt om dem med musemarkøren.
+Vælg individuelle kort, eller træk en markering rundt om flere kort.
 
-Du kan også tilføje og fjerne kort fra et valg ved at trykke `Skift` og tryke på dem med musemarkøren.
+Du kan også tilføje og fjerne kort fra et valg ved at trykke `Skift` og klikke på dem.
 
 Tryk `Ctrl+a` (eller `Cmd+a` på macOS) for at vælge alle kortene på et lærred.
 
-For at flytte indholdet af et kort, skal du først vælge det.
+For at rulle indholdet af et kort, skal du først vælge det.
 
-### Omarrangere kort
+### Omarrangér kort
 
 Træk et valgt kort for at flytte det rundt på et lærred.
 
-Tryk `Alt` (eller `Option` på macOS) og træk for at  dublikere de valgte kort.
+Tryk `Alt` (eller `Option` på macOS) og træk for at duplikere de valgte kort.
 
-Du kan trykke `Skift` mens du trækker nogle kort for kun at flytte i en retning.
+Du kan trykke `Skift` mens du trækker for kun at flytte i én retning.
 
 Tryk `Mellemrum` mens du trækker for at forhindre fastgøring i gitter.
 
-Når et kort vælges flyttes det i front.
+Når et kort vælges, flyttes det i front.
 
 ### Tilpas størrelsen på et kort
 
@@ -147,92 +151,106 @@ For at opretholde højde-bredde-forholdet skal du trykke `Skift` mens du tilpass
 
 ## Forbind kort
 
-Tegn linjer mellem korten for at skabe relationer mellem dem. Brug farver og mærkater for at beskrive hvordan kortene relaterer sig til hinanden.
+Tegn linjer mellem kort for at vise relationer. Tilføj farver og mærkater for at beskrive, hvordan de relaterer sig til hinanden.
 
 ### Forbind to kort
 
 For at forbinde to kort med en retningsstreg:
 
-1. Før musemarkøren over en af kanterne på et kort indtil du ser en udfyldt cirkel
-2. Træk cirklen over til kanten af et andet kort for at forbinde dem
+1. Før musemarkøren over en af kanterne på et kort, indtil du ser en udfyldt cirkel.
+2. Træk cirklen over til kanten af et andet kort for at forbinde dem.
 
-> [!tip]
-> Hvis du trækker en linje uden at forbinde det til et andet kort, kan du efterfølgende tilføje det kort, som du vil forbinde det til.
+> [!tip]- Opret et kort fra en ny forbindelse
+> Hvis du trækker en linje uden at forbinde den til et andet kort, kan du oprette et nyt kort i den anden ende.
 
 ### Fjern forbindelsen mellem to kort
 
-For at fjerne forbindelsen mellem to kort skal du:
+For at fjerne forbindelsen mellem to kort:
 
-1. Føre musemarkøren over en forbindelseslinje indtil du kan se to små cirkler på linjen
-2. Træk en af cirklerne væk uden at forbinde den til et andet kort
+1. Før musemarkøren over en forbindelseslinje, indtil du kan se to små cirkler på linjen.
+2. Træk en af cirklerne væk uden at forbinde den til et andet kort.
 
-Du kan også fjerne forbindelsen mellem to kort med at højreklikke på linjen mellem dem og derefter vælge **Fjern** i popup menuen. Eller ved at vælge linjen og trykke på `Tilbage` tasten (eller `Del` på macOS).
+Du kan også fjerne forbindelsen mellem to kort ved at højreklikke på linjen mellem dem og vælge **Fjern**. Eller vælg linjen og tryk `Tilbage` (eller `Del` på macOS).
 
-### Forbind et kort til et andet kort end det nuværende forbundne kort
+### Forbind et kort til et andet kort
 
-For at flytte en af forbindelserne til et kort skal du:
+For at flytte en af enderne af en forbindelseslinje:
 
-1. Føre musemarkøren over en forbindelseslinje indtil du kan se to små cirkler på linjen
-2. Træk en af cirklerne væk uden at forbinde den til et andet kort
+1. Før musemarkøren over en forbindelseslinje, indtil du kan se to små cirkler på linjen.
+2. Træk cirklen til et andet kort for at forbinde den igen.
 
-### Naviger en forbindelse
+### Navigér en forbindelse
 
-Hvis to kort er meget langt fra hinanden kan du navigere til kildenoten eller destinationsnoten ved at højreklikke på linjen og vælge **Gå til destination** eller **Gå til kilde**.
+Hvis to forbundne kort er meget langt fra hinanden, kan du navigere til kilden eller destinationen ved at højreklikke på linjen og vælge **Gå til destination** eller **Gå til kilde**.
 
 ### Tilføj en mærkat til en forbindelse
 
 Du kan tilføje en mærkat til en linje for at beskrive relationen mellem to kort.
 
-For at give en forbindelse en mærkat skal du:
+For at give en forbindelse en mærkat:
 
-1. Dobbeltklikke på linjen
-2. Skrive mærkatens navn og trykke `Esc` eller klikke et andet sted på lærredet
+1. Dobbeltklik på linjen.
+2. Skriv mærkatens navn og tryk `Escape` eller vælg et andet sted på lærredet.
 
-Du kan også give en forbindelse en mærkat ved ta vælge den og **Rediger mærkat** fra popupmenuen.
+Du kan også give en forbindelse en mærkat ved at vælge den og vælge **Rediger mærkat** fra popupmenuen.
+
+For at redigere en forbindelses mærkat kan du dobbeltklikke på linjen, eller højreklikke på linjen og vælge **Rediger mærkat**.
 
 ### Skift farve på et kort eller en forbindelse
 
-1. Vælg de kort eller forbindelser, som du vil give en farve
-2. Vælg **Sæt farve** (Palette ikonet) i popupmenuen
-3. Vælg en farve
+1. Vælg de kort eller forbindelser, som du vil give en farve.
+2. Vælg **Sæt farve** ![[lucide-palette.svg#icon]] i popupmenuen.
+3. Vælg en farve.
 
 ## Gruppering af kort
 
+### Gruppér valgte kort
+
 For at oprette en tom gruppe:
 
-- Højreklik på lærredet og vælg **Opret gruppe**
+- Højreklik på lærredet og vælg **Opret gruppe**.
 
 For at gruppere relaterede kort:
 
-1. Vælg kortene
-2. Højreklik på en af de valgte kort og vælg **Opret gruppe**
+1. Vælg kortene.
+2. Højreklik på et af de valgte kort og vælg **Opret gruppe**.
 
-**Omdøb gruppe:** Dobbeltklik på gruppens navn ("Rediger mærkat") og tryk `Retur` for at gemme.
+**Omdøb gruppe:** Dobbeltklik på gruppens navn for at redigere det, og tryk `Retur` for at gemme.
 
 ## Navigering på lærredet
 
-Efterhånden som du tilføjer flere kort til dit lærred har du måske brug for at lære at navigere rundt, så du kan se dele af det. Lær, hvordan du panorerer og zoomer så du nemt kan navigere rundt på lærredet.
+Brug panorering og zoom til at bevæge dig rundt på lærredet.
 
-### Panorer lærredet
+### Panorér lærredet
 
 For at flytte lærredet vandret eller lodret, også kaldet _panorering_, kan du benytte følgende metoder:
 
-- Tryk `Mellemrum` og træk lærredet
-- Træk lærredet ved brug af midterste museknap
-- Rulle musen for at panorere lodret, og tryk `Skift`mens du ruller for at panorere vandret
+- Tryk `Mellemrum` og træk lærredet.
+- Træk lærredet ved brug af den midterste museknap.
+- Rul musen for at panorere lodret, og tryk `Skift` mens du ruller for at panorere vandret.
 
 ### Zoom lærredet
 
-For at zoome lærredet skal du trykke `Mellemrum`  or `Ctrl` (eller `Cmd` på macOS) og rulle med musens hjul. Eller vælge **Zoom ind** (Plus ikonet) og **Zoom ud** (Minus ikonet) i øverste højre hjørne af lærredet.
+For at zoome lærredet skal du trykke `Mellemrum` eller `Ctrl` (eller `Cmd` på macOS) og rulle med musens hjul. Eller vælg **Zoom ind** ![[lucide-plus.svg#icon]] og **Zoom ud** ![[lucide-minus.svg#icon]] i zoomkontrollerne i øverste højre hjørne.
 
 #### Zoom til at passe
 
-Vælg **Zoom til at passe** (Det stiblede firkantikon) for at zoome lærredet så alle elementer kan ses på en gang. Eller benyt genvejstasten `Shift+1`.
+Vælg **Zoom til at passe** ![[lucide-maximize.svg#icon]] for at zoome lærredet, så alle elementer kan ses på en gang. Eller benyt genvejstasten `Shift+1`.
 
 #### Zoom til valg
 
-Højreklik på et valgt kort og vælg **Zoom til valg** for at zoome lærreset, så alle de valgte elementer kan ses. Eller benyt genvejstasten `Shift+2`.
+Højreklik på et valgt kort og vælg **Zoom til valg** for at zoome lærredet, så alle de valgte elementer kan ses. Eller tryk `Shift+2`.
 
 #### Nulstil zoom
 
-Vælg **Nulstil zoom** i øverste højre hjørne af lærredet for at ændre zoom niveauet tilbage til standard størrelsen.
+Vælg **Nulstil zoom** i zoomkontrollerne i øverste højre hjørne for at ændre zoomniveauet tilbage til standardstørrelsen.
+
+## Indlejr et lærred
+
+Du kan indlejre et lærred i en note ved hjælp af den standard indlejringssyntaks. For mere information, se [[Indlejr filer#Embed a canvas in a note|Indlejr et lærred i en note]].
+
+## Avancerede tips
+
+Vi har lavet nogle korte videoer, der demonstrerer nogle avancerede anvendelser af Lærred.
+
+Du kan [se alle 72 tips her](https://obsidian.md/canvas#protips). Tipvideoerne er kun synlige på desktop.

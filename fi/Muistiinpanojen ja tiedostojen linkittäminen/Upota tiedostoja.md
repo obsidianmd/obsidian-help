@@ -3,11 +3,11 @@ permalink: embeds
 cssclasses:
   - soft-embed
 ---
-Opi upottamaan muistiinpanoja ja mediaa muistiinpanoihisi. Upottamalla tiedostoja muistiinpanoihisi voit käyttää sisältöä uudelleen koko holvissasi.
+Upotetut tiedostot näyttävät sisältönsä muistiinpanon sisällä ja pysyvät ajan tasalla, kun lähdetiedosto muuttuu.
 
 Upottaaksesi tiedoston holviisi, lisää huutomerkki (`!`) [[Sisäiset linkit|sisäisen linkin]] eteen. Voit upottaa tiedostoja missä tahansa [[Hyväksytyt tiedostomuodot|hyväksytyistä tiedostomuodoista]].
 
-> [!tip] Vedä ja pudota -upotus
+> [!tip]- Vedä ja pudota -upotus
 > Työpöytäversiossa voit myös raahata ja pudottaa tuettuja tiedostoja suoraan muistiinpanoosi upottaaksesi ne automaattisesti.
 
 ## Muistiinpanon upottaminen toiseen muistiinpanoon
@@ -18,7 +18,7 @@ Muistiinpanon upottaminen:
 ![[Sisäiset linkit]]
 ```
 
-Voit myös upottaa linkkejä [[Sisäiset linkit#Linkki muistiinpanon otsikkoon|otsikoihin]] ja [[Sisäiset linkit#Linkki muistiinpanon lohkoon|lohkoihin]].
+Voit myös upottaa tiettyjä [[Sisäiset linkit#Linkki muistiinpanon otsikkoon|otsikoita]] ja [[Sisäiset linkit#Linkki muistiinpanon lohkoon|lohkoja]].
 
 ```md
 ![[Sisäiset linkit#^b15695]]
@@ -44,11 +44,11 @@ Voit muuttaa kuvan mittasuhteita lisäämällä `|640x480` linkin kohteeseen, jo
 ![[Engelbart.jpg|100x145]]
 ```
 
-Jos määrität vain leveyden, kuva skaalautuu alkuperäisen kuvasuhteensa mukaisesti. Esimerkiksi `![[Engelbart.jpg|100]]`.
+Jos määrität vain leveyden, kuva skaalautuu suhteellisesti. Esimerkiksi `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Voit myös upottaa ulkoisesti isännöidyn kuvan käyttämällä Markdown-linkkiä. Voit hallita leveyttä ja korkeutta samalla tavalla kuin wikilinkeissä.
+Voit myös upottaa ulkoisesti isännöidyn kuvan käyttämällä Markdown-linkkiä. Voit hallita leveyttä ja korkeutta samalla syntaksilla kuin wikilinkeissä.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -85,6 +85,17 @@ Voit myös määrittää upotetun PDF-katseluohjelman korkeuden pikseleinä lis�
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Valkotaulun upottaminen muistiinpanoon
+
+[[Canvas|Valkotaulun]] upottaminen:
+
+```md
+![[Oma valkotaulu.canvas]]
+```
+
+> [!info]+ Valkotauluupotteet näyttävät vain muodot
+> Upotetut valkotaulut näyttävät muodot, mutta eivät korttien sisältämää tekstiä. Nähdäksesi valkotaulun kokonaisuudessaan, avaa se suoraan.
 
 ## Luettelon upottaminen muistiinpanoon
 

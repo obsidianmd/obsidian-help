@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas je [[Vstavané pluginy|vstavaný plugin]] pre vizuálne poznámkovanie. Poskytuje vám nekonečný priestor na rozloženie poznámok a ich prepojenie s inými poznámkami, prílohami a webovými stránkami.
 
-Vizuálne poznámkovanie vám pomáha pochopiť vaše poznámky tým, že ich organizujete v 2D priestore. Prepojte poznámky čiarami a zoskupte súvisiace poznámky, aby ste lepšie pochopili vzťahy medzi nimi.
+Usporiadanie poznámok v 2D priestore vám pomáha vidieť a pochopiť vzťahy medzi nimi. Prepojte poznámky čiarami a zoskupte súvisiace poznámky.
 
-Dáta Canvas, ktoré vytvoríte v Obsidian, sa ukladajú ako súbory `.canvas` pomocou otvoreného formátu súborov [JSON Canvas](https://jsoncanvas.org/).
+Obsidian ukladá plátna ako súbory `.canvas` pomocou otvoreného formátu [JSON Canvas](https://jsoncanvas.org/).
 
 ## Vytvorenie nového plátna
 
@@ -47,7 +47,7 @@ Konvertovanie textovej karty na súbor:
 1. Kliknite pravým tlačidlom myši na textovú kartu a vyberte **Konvertovať na súbor...**.
 2. Zadajte názov poznámky a vyberte **Uložiť**.
 
-> [!note] Poznámka
+> [!note] Textové karty a spätné odkazy
 > Karty obsahujúce iba text sa nezobrazujú v [[Spätné odkazy|spätných odkazoch]]. Ak chcete, aby sa zobrazovali, musíte ich konvertovať na súbor.
 
 ### Pridanie kariet z poznámok
@@ -62,7 +62,7 @@ Poznámky môžete pridať aj z kontextovej ponuky plátna:
 1. Kliknite pravým tlačidlom myši na plátno a vyberte **Pridať poznámku z trezoru**.
 2. Vyberte poznámku, ktorú chcete pridať.
 
-Alebo ich môžete pridať na plátno pretiahnutím súboru z [[Prieskumník súborov|prieskumníka súborov]].
+Poznámky môžete tiež pretiahnuť z [[Prieskumník súborov|prieskumníka súborov]] na plátno.
 
 ### Pridanie kariet z médií
 
@@ -76,7 +76,7 @@ Médiá môžete pridať aj z kontextovej ponuky plátna:
 1. Kliknite pravým tlačidlom myši na plátno a vyberte **Pridať média z trezoru**.
 2. Vyberte mediálny súbor, ktorý chcete pridať.
 
-Alebo ich môžete pridať na plátno pretiahnutím súboru z [[Prieskumník súborov|prieskumníka súborov]].
+Mediálne súbory môžete tiež pretiahnuť z [[Prieskumník súborov|prieskumníka súborov]] na plátno.
 
 ### Pridanie kariet z webových stránok
 
@@ -91,11 +91,11 @@ Na otvorenie webovej stránky vo vašom prehliadači stlačte `Ctrl` (alebo `Cmd
 
 ### Pridanie kariet z priečinkov
 
-Pretiahnutím priečinka z prieskumníka súborov pridáte na plátno všetky súbory v danom priečinku.
+Pretiahnutím priečinka z [[Prieskumník súborov|prieskumníka súborov]] pridáte na plátno všetky súbory v danom priečinku.
 
 ### Úprava karty
 
-Dvojitým kliknutím na textovú kartu alebo kartu poznámky začnete jej úpravu. Kliknutím mimo karty úpravu ukončíte. Úpravu karty môžete ukončiť aj stlačením `Escape`.
+Dvojitým kliknutím na textovú kartu alebo kartu poznámky začnete jej úpravu. Kliknutím kamkoľvek mimo karty úpravu ukončíte. Úpravu karty môžete ukončiť aj stlačením `Escape`.
 
 Kartu môžete upraviť aj kliknutím pravého tlačidla myši a výberom **Upraviť**.
 
@@ -117,7 +117,7 @@ Výmena karty poznámky:
 
 ## Výber kariet
 
-Karty na plátne vyberiete kliknutím na ne. Viaceré karty môžete vybrať potiahnutím výberu okolo nich.
+Vyberte jednotlivé karty alebo potiahnutím výberu okolo viacerých kariet.
 
 Karty môžete pridávať a odoberať z existujúceho výberu stlačením `Shift` a ich výberom.
 
@@ -147,7 +147,7 @@ Na zachovanie pomeru strán počas zmeny veľkosti stlačte `Shift` počas zmeny
 
 ## Prepájanie kariet
 
-Kreslite čiary medzi kartami na vytváranie vzťahov medzi nimi. Použite farby a štítky na opísanie toho, ako spolu súvisia.
+Kreslite čiary medzi kartami na zobrazenie vzťahov. Pridajte farby a štítky na opísanie toho, ako spolu súvisia.
 
 ### Prepojenie dvoch kariet
 
@@ -156,8 +156,8 @@ Prepojenie dvoch kariet smerovou čiarou:
 1. Podržte kurzor nad jedným z okrajov karty, kým neuvidíte vyplnený kruh.
 2. Potiahnite kruh k okraju inej karty na ich prepojenie.
 
-> [!tip] Tip
-> Ak potiahnete čiaru bez prepojenia s inou kartou, môžete potom pridať kartu, ku ktorej ju chcete pripojiť.
+> [!tip]- Vytvorenie karty z nového prepojenia
+> Ak potiahnete čiaru bez prepojenia s inou kartou, môžete vytvoriť novú kartu na druhom konci.
 
 ### Odpojenie dvoch kariet
 
@@ -173,7 +173,7 @@ Dve karty môžete odpojiť aj kliknutím pravého tlačidla myši na čiaru med
 Presunutie jedného konca prepojovacej čiary:
 
 1. Podržte kurzor nad prepojovacou čiarou, kým sa na nej nezobrazia dva malé kruhy.
-2. Potiahnite kruh na konci, ktorý chcete prepojiť, k inej karte.
+2. Potiahnite kruh k inej karte na opätovné prepojenie.
 
 ### Navigácia prepojením
 
@@ -215,7 +215,7 @@ Zoskupenie súvisiacich kariet:
 
 ## Navigácia na plátne
 
-Keď začnete pridávať viac kariet na plátno, budete chcieť vedieť, ako sa na plátne pohybovať a pozerať na jeho rôzne časti. Naučte sa posúvať a priblížiť na jednoduchý pohyb po plátne.
+Použite posúvanie a priblíženie na pohyb po plátne.
 
 ### Posúvanie plátna
 
@@ -235,14 +235,18 @@ Na priblíženie plátna tak, aby bola viditeľná každá položka, vyberte **P
 
 #### Priblíženie na výber
 
-Na priblíženie plátna tak, aby boli viditeľné všetky vybrané položky, kliknite pravým tlačidlom myši na vybranú kartu a vyberte **Priblížiť na výber**. Alebo použite klávesovú skratku `Shift+2`.
+Na priblíženie plátna tak, aby boli viditeľné všetky vybrané položky, kliknite pravým tlačidlom myši na vybranú kartu a vyberte **Priblížiť na výber**. Alebo stlačte `Shift+2`.
 
 #### Resetovanie priblíženia
 
 Na zmenu veľkosti priblíženia späť na predvolenú hodnotu vyberte **Resetovať priblíženie** v ovládacích prvkoch priblíženia v pravom hornom rohu.
 
+## Vloženie plátna
+
+Plátno môžete vložiť do poznámky pomocou štandardnej syntaxe na vkladanie. Viac informácií nájdete v časti [[Vkladanie súborov#Embed a canvas in a note|Vloženie plátna do poznámky]].
+
 ## Pokročilé tipy
 
 Pripravili sme niekoľko krátkych videí na demonštráciu niektorých pokročilých prípadov použitia Canvas.
 
-Môžete si [pozrieť všetkých 72 tipov tu](https://obsidian.md/canvas#protips). Upozorňujeme, že videá s tipmi sú viditeľné iba na počítači.
+Môžete si [pozrieť všetkých 72 tipov tu](https://obsidian.md/canvas#protips). Videá s tipmi sú viditeľné iba na počítači.

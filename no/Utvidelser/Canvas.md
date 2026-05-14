@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas er en [[Kjerneutvidelser|kjerneutvidelse]] for visuell notatskriving. Den gir deg uendelig plass til å legge ut notater og koble dem til andre notater, vedlegg og nettsider.
 
-Visuell notatskriving hjelper deg med å forstå notatene dine ved å organisere dem i et 2D-rom. Koble notater med linjer og grupper relaterte notater sammen for bedre å forstå forholdet mellom dem.
+Å organisere notatene dine i et 2D-rom hjelper deg med å se og forstå sammenhengene mellom dem. Koble notater med linjer og grupper relaterte notater sammen.
 
-Canvas-data du oppretter i Obsidian lagres som `.canvas`-filer ved bruk av det åpne filformatet [JSON Canvas](https://jsoncanvas.org/).
+Obsidian lagrer Canvas-filer som `.canvas`-filer ved bruk av det åpne [JSON Canvas](https://jsoncanvas.org/)-formatet.
 
 ## Opprett en ny Canvas
 
@@ -34,7 +34,7 @@ Du kan dra filer inn i Canvas fra Obsidian eller fra andre applikasjoner. For ek
 
 ### Legg til tekstkort
 
-Du kan legge til kort som bare inneholder tekst og ikke refererer til en fil. Du kan bruke Markdown, lenker og kodeblokker akkurat som i et notat.
+Du kan legge til kort som bare inneholder tekst og ikke refererer til en fil. Du kan bruke Markdown, lenker og kodeblokker på samme måte som i et notat.
 
 For å legge til et nytt tekstkort i Canvas:
 
@@ -47,7 +47,7 @@ For å konvertere et tekstkort til en fil:
 1. Høyreklikk på tekstkortet og velg **Konverter til fil...**.
 2. Skriv inn notatnavnet og velg **Lagre**.
 
-> [!note] Merknad
+> [!note] Tekstkort og tilbakelenker
 > Tekstkort vises ikke i [[Lenker tilbake]]. For å få dem til å vises må du konvertere dem til en fil.
 
 ### Legg til kort fra notater
@@ -62,7 +62,7 @@ Du kan også legge til notater fra Canvas-kontekstmenyen:
 1. Høyreklikk på Canvas og velg **Legg til notat fra vault**.
 2. Velg notatet du vil legge til.
 
-Eller du kan legge dem til i Canvas ved å dra filen fra [[Filutforsker|filutforskeren]].
+Du kan også dra notater fra [[Filutforsker|filutforskeren]] inn i Canvas.
 
 ### Legg til kort fra media
 
@@ -76,7 +76,7 @@ Du kan også legge til media fra Canvas-kontekstmenyen:
 1. Høyreklikk på Canvas og velg **Legg till media fra vault**.
 2. Velg mediefilen du vil legge til.
 
-Eller du kan legge dem til i Canvas ved å dra filen fra [[Filutforsker|filutforskeren]].
+Du kan også dra mediefiler fra [[Filutforsker|filutforskeren]] inn i Canvas.
 
 ### Legg til kort fra nettsider
 
@@ -91,11 +91,11 @@ For å åpne nettsiden i nettleseren, trykk `Ctrl` (eller `Cmd` på macOS) og ve
 
 ### Legg til kort fra mapper
 
-Dra en mappe fra filutforskeren for å legge til alle filer i den mappen i Canvas.
+Dra en mappe fra [[Filutforsker|filutforskeren]] for å legge til alle filer i den mappen i Canvas.
 
 ### Rediger et kort
 
-Dobbeltklikk på et tekst- eller notatkort for å begynne å redigere det. Klikk utenfor kortet for å slutte å redigere det. Du kan også trykke `Escape` for å slutte å redigere et kort.
+Dobbeltklikk på et tekst- eller notatkort for å begynne å redigere det. Velg hvor som helst utenfor kortet for å slutte å redigere det. Du kan også trykke `Escape` for å slutte å redigere et kort.
 
 Du kan også redigere et kort ved å høyreklikke på det og velge **Rediger**.
 
@@ -117,7 +117,7 @@ For å bytte et notatkort:
 
 ## Velg kort
 
-Velg kort i Canvas ved å klikke på dem. Du kan velge flere kort ved å dra et utvalg rundt dem.
+Velg individuelle kort, eller dra et utvalg rundt flere kort.
 
 Du kan også legge til og fjerne kort fra et eksisterende utvalg ved å trykke `Shift` og velge dem.
 
@@ -147,7 +147,7 @@ For å beholde sideforholdet mens du endrer størrelse, trykk `Shift` mens du en
 
 ## Koble kort
 
-Tegn linjer mellom kort for å opprette relasjoner mellom dem. Bruk farger og etiketter for å beskrive hvordan de forholder seg til hverandre.
+Tegn linjer mellom kort for å vise relasjoner. Legg til farger og etiketter for å beskrive hvordan de forholder seg til hverandre.
 
 ### Koble to kort
 
@@ -156,8 +156,8 @@ For å koble to kort med en rettet linje:
 1. Hold musepekeren over en av kantene på et kort til du ser en fylt sirkel.
 2. Dra sirkelen til kanten av et annet kort for å koble dem.
 
-> [!tip] Tips
-> Hvis du drar linjen uten å koble den til et annet kort, kan du deretter legge til kortet du vil koble den til.
+> [!tip]- Opprett et kort fra en ny forbindelse
+> Hvis du drar linjen uten å koble den til et annet kort, kan du opprette et nytt kort i den andre enden.
 
 ### Koble fra to kort
 
@@ -166,14 +166,14 @@ For å fjerne forbindelsen mellom to kort:
 1. Hold musepekeren over en forbindelseslinje til to små sirkler vises på linjen.
 2. Dra en av sirklene bort fra kortet uten å koble den til et annet.
 
-Du kan også koble fra to kort ved å høyreklikke på linjen mellom dem, og deretter velge **Fjern**. Eller ved å velge linjen og deretter trykke `Backspace` (eller `Delete` på macOS).
+Du kan også koble fra to kort ved å høyreklikke på linjen mellom dem, og deretter velge **Fjern**. Eller velg linjen og trykk deretter `Backspace` (eller `Delete` på macOS).
 
 ### Koble et kort til et annet kort
 
 For å flytte en av endene av en forbindelseslinje:
 
 1. Hold musepekeren over en forbindelseslinje til to små sirkler vises på linjen.
-2. Dra sirkelen over enden du vil koble til på nytt, til et annet kort.
+2. Dra sirkelen til et annet kort for å koble den til på nytt.
 
 ### Naviger en forbindelse
 
@@ -186,7 +186,7 @@ Du kan legge til en etikett på en linje for å beskrive forholdet mellom to kor
 For å sette etikett på en forbindelse:
 
 1. Dobbeltklikk på linjen.
-2. Skriv inn etiketten og trykk deretter `Escape` eller klikk hvor som helst på Canvas.
+2. Skriv inn etiketten og trykk deretter `Escape` eller velg hvor som helst på Canvas.
 
 Du kan også sette etikett på en forbindelse ved å velge den og deretter velge **Rediger label** fra valgkontrollene.
 
@@ -215,7 +215,7 @@ For å gruppere relaterte kort:
 
 ## Naviger i Canvas
 
-Når du begynner å legge til flere kort i Canvas, vil du forstå hvordan du kan navigere i Canvas for å se på en del av det. Lær hvordan du panorerer og zoomer for å bevege deg over Canvas med letthet.
+Bruk panorering og zooming for å bevege deg over Canvas.
 
 ### Panorer i Canvas
 
@@ -235,14 +235,18 @@ For å zoome Canvas slik at alle elementer er synlige, velg **Zoom for å tilpas
 
 #### Zoom til markering
 
-For å zoome Canvas slik at alle valgte elementer er synlige, høyreklikk på et valgt kort og velg **Zoom til markering**. Eller bruk hurtigtasten `Shift+2`.
+For å zoome Canvas slik at alle valgte elementer er synlige, høyreklikk på et valgt kort og velg **Zoom til markering**. Eller trykk `Shift+2`.
 
 #### Tilbakestill zoom
 
 For å endre zoomnivået tilbake til standard, velg **Tilbakestill zoom** i zoom-kontrollene i øvre høyre hjørne.
 
+## Bygg inn en Canvas
+
+Du kan bygge inn en Canvas i et notat ved hjelp av standard innebyggingssyntaks. For mer informasjon, se [[Bygge inn filer#Embed a canvas in a note|Bygg inn en Canvas i et notat]].
+
 ## Avanserte tips
 
 Vi har laget noen korte videoer for å demonstrere noen avanserte bruksområder for Canvas.
 
-Du kan [se alle 72 tipsene her](https://obsidian.md/canvas#protips). Vennligst merk at tipsvideoene kun er synlige på skrivebord.
+Du kan [se alle 72 tipsene her](https://obsidian.md/canvas#protips). Tipsvideoene er kun synlige på skrivebord.

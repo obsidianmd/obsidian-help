@@ -5,9 +5,9 @@ aliases:
 ---
 Canvas é um [[Plugins nativos|plugin nativo]] para anotações visuais. Ele oferece espaço infinito para organizar notas e conectá-las a outras notas, anexos e páginas web.
 
-Anotações visuais ajudam você a compreender suas notas organizando-as em um espaço 2D. Conecte notas com linhas e agrupe notas relacionadas para entender melhor o relacionamento entre elas.
+Organizar suas notas em um espaço 2D ajuda você a ver e entender as conexões entre elas. Conecte notas com linhas e agrupe as relacionadas.
 
-Os dados do Canvas que você cria no Obsidian são salvos como arquivos `.canvas` usando o formato de arquivo aberto [JSON Canvas](https://jsoncanvas.org/).
+O Obsidian salva os canvas como arquivos `.canvas` usando o formato aberto [JSON Canvas](https://jsoncanvas.org/).
 
 ## Criar um novo canvas
 
@@ -36,7 +36,7 @@ Você pode arrastar arquivos para o seu canvas a partir do Obsidian ou de outros
 
 ### Adicionar cartões de texto
 
-Você pode adicionar cartões somente de texto que não fazem referência a um arquivo. Você pode usar Markdown, links e blocos de código assim como em uma nota.
+Você pode adicionar cartões somente de texto que não fazem referência a um arquivo. Você pode usar Markdown, links e blocos de código da mesma forma que em uma nota.
 
 Para adicionar um novo cartão de texto ao seu canvas:
 
@@ -49,7 +49,7 @@ Para converter um cartão de texto em um arquivo:
 1. Clique com o botão direito no cartão de texto e selecione **Converter para arquivo...**.
 2. Digite o nome da nota e selecione **Salvar**.
 
-> [!note] Nota
+> [!note] Cartões somente de texto e links inversos
 > Cartões somente de texto não aparecem em [[Links inversos]]. Para que apareçam, você precisa convertê-los em um arquivo.
 
 ### Adicionar cartões de notas
@@ -64,7 +64,7 @@ Você também pode adicionar notas pelo menu de contexto do canvas:
 1. Clique com o botão direito no canvas e selecione **Adicionar nota do cofre**.
 2. Selecione a nota que deseja adicionar.
 
-Ou você pode adicioná-las ao canvas arrastando o arquivo do [[Explorador de arquivos]].
+Você também pode arrastar notas do [[Explorador de arquivos]] para o canvas.
 
 ### Adicionar cartões de mídia
 
@@ -78,7 +78,7 @@ Você também pode adicionar mídia pelo menu de contexto do canvas:
 1. Clique com o botão direito no canvas e selecione **Adicionar mídia do cofre**.
 2. Selecione o arquivo de mídia que deseja adicionar.
 
-Ou você pode adicioná-los ao canvas arrastando o arquivo do [[Explorador de arquivos]].
+Você também pode arrastar arquivos de mídia do [[Explorador de arquivos]] para o canvas.
 
 ### Adicionar cartões de páginas web
 
@@ -93,11 +93,11 @@ Para abrir a página web no seu navegador, pressione `Ctrl` (ou `Cmd` no macOS) 
 
 ### Adicionar cartões de pastas
 
-Arraste uma pasta do explorador de arquivos para adicionar todos os arquivos dessa pasta ao canvas.
+Arraste uma pasta do [[Explorador de arquivos]] para adicionar todos os arquivos dessa pasta ao canvas.
 
 ### Editar um cartão
 
-Clique duas vezes em um cartão de texto ou nota para começar a editá-lo. Clique fora do cartão para parar de editá-lo. Você também pode pressionar `Escape` para parar de editar um cartão.
+Clique duas vezes em um cartão de texto ou nota para começar a editá-lo. Selecione qualquer lugar fora do cartão para parar de editá-lo. Você também pode pressionar `Escape` para parar de editar um cartão.
 
 Você também pode editar um cartão clicando com o botão direito e selecionando **Editar**.
 
@@ -119,7 +119,7 @@ Para trocar um cartão de nota:
 
 ## Selecionar cartões
 
-Selecione cartões no canvas clicando neles. Você pode selecionar múltiplos cartões arrastando uma seleção ao redor deles.
+Selecione cartões individuais ou arraste uma seleção ao redor de múltiplos cartões.
 
 Você também pode adicionar e remover cartões de uma seleção existente pressionando `Shift` e selecionando-os.
 
@@ -149,7 +149,7 @@ Para manter a proporção ao redimensionar, pressione `Shift` enquanto redimensi
 
 ## Conectar cartões
 
-Desenhe linhas entre cartões para criar relacionamentos entre eles. Use cores e rótulos para descrever como eles se relacionam entre si.
+Desenhe linhas entre cartões para mostrar relacionamentos. Adicione cores e rótulos para descrever como eles se relacionam.
 
 ### Conectar dois cartões
 
@@ -158,8 +158,8 @@ Para conectar dois cartões com uma linha direcionada:
 1. Passe o cursor sobre uma das bordas de um cartão até ver um círculo preenchido.
 2. Arraste o círculo até a borda de um cartão diferente para conectá-los.
 
-> [!tip] Dica
-> Se você arrastar a linha sem conectá-la a outro cartão, poderá então adicionar o cartão ao qual deseja conectá-la.
+> [!tip]- Criar um cartão a partir de uma nova conexão
+> Se você arrastar a linha sem conectá-la a outro cartão, poderá criar um novo cartão na outra extremidade.
 
 ### Desconectar dois cartões
 
@@ -168,14 +168,14 @@ Para remover a conexão entre dois cartões:
 1. Passe o cursor sobre uma linha de conexão até que dois pequenos círculos apareçam na linha.
 2. Arraste um dos círculos para fora do cartão sem conectá-lo a outro.
 
-Você também pode desconectar dois cartões clicando com o botão direito na linha entre eles e selecionando **Remover**. Ou selecionando a linha e pressionando `Backspace` (ou `Delete` no macOS).
+Você também pode desconectar dois cartões clicando com o botão direito na linha entre eles e selecionando **Remover**. Ou selecione a linha e pressione `Backspace` (ou `Delete` no macOS).
 
 ### Conectar um cartão a um cartão diferente
 
 Para mover uma das extremidades de uma linha de conexão:
 
 1. Passe o cursor sobre uma linha de conexão até que dois pequenos círculos apareçam na linha.
-2. Arraste o círculo sobre a extremidade que deseja reconectar para outro cartão.
+2. Arraste o círculo para outro cartão para reconectá-lo.
 
 ### Navegar por uma conexão
 
@@ -188,7 +188,7 @@ Você pode adicionar um rótulo a uma linha para descrever o relacionamento entr
 Para rotular uma conexão:
 
 1. Clique duas vezes na linha.
-2. Digite o rótulo e pressione `Escape` ou clique em qualquer lugar no canvas.
+2. Digite o rótulo e pressione `Escape` ou selecione qualquer lugar no canvas.
 
 Você também pode rotular uma conexão selecionando-a e então selecionando **Editar rótulo** nos controles de seleção.
 
@@ -217,7 +217,7 @@ Para agrupar cartões relacionados:
 
 ## Navegar pelo canvas
 
-Conforme você começa a adicionar mais cartões ao canvas, é importante entender como navegar pelo canvas para visualizar uma parte dele. Aprenda a deslocar e ampliar para se mover pelo canvas com facilidade.
+Use deslocamento e zoom para se mover pelo canvas.
 
 ### Deslocar o canvas
 
@@ -237,14 +237,18 @@ Para ampliar o canvas de modo que todos os itens fiquem visíveis, selecione **A
 
 #### Ampliar na seleção
 
-Para ampliar o canvas de modo que todos os itens selecionados fiquem visíveis, clique com o botão direito em um cartão selecionado e selecione **Ampliar na seleção**. Ou use o atalho de teclado `Shift+2`.
+Para ampliar o canvas de modo que todos os itens selecionados fiquem visíveis, clique com o botão direito em um cartão selecionado e selecione **Ampliar na seleção**. Ou pressione `Shift+2`.
 
 #### Redefinir zoom
 
 Para retornar o nível de zoom ao padrão, selecione **Redefinir zoom** nos controles de zoom no canto superior direito.
 
+## Incorporar um canvas
+
+Você pode incorporar um canvas em uma nota usando a sintaxe padrão de incorporação. Para mais informações, consulte [[Incorporar arquivos#Incorporar um canvas em uma nota|Incorporar um canvas em uma nota]].
+
 ## Dicas avançadas
 
 Criamos alguns vídeos rápidos para demonstrar alguns casos de uso avançados do Canvas.
 
-Você pode [conferir todas as 72 dicas aqui](https://obsidian.md/pt-BR/canvas#protips). Observe que os vídeos de dicas só são visíveis no desktop.
+Você pode [ver todas as 72 dicas aqui](https://obsidian.md/canvas#protips). Os vídeos de dicas só são visíveis no desktop.

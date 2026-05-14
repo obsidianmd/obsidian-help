@@ -3,9 +3,9 @@ permalink: plugins/canvas
 ---
 Canvas adalah [[Plugin inti|plugin inti]] untuk pencatatan visual. Plugin ini memberi Anda ruang tak terbatas untuk menata catatan dan menghubungkannya ke catatan lain, lampiran, dan halaman web.
 
-Pencatatan visual membantu Anda memahami catatan dengan mengaturnya dalam ruang 2D. Hubungkan catatan dengan garis dan kelompokkan catatan terkait untuk lebih memahami hubungan di antara mereka.
+Mengatur catatan Anda dalam ruang 2D membantu Anda melihat dan memahami koneksi di antara mereka. Hubungkan catatan dengan garis dan kelompokkan catatan terkait.
 
-Data Canvas yang Anda buat di Obsidian disimpan sebagai file `.canvas` menggunakan format file terbuka [JSON Canvas](https://jsoncanvas.org/).
+Obsidian menyimpan kanvas sebagai file `.canvas` menggunakan format terbuka [JSON Canvas](https://jsoncanvas.org/).
 
 ## Membuat kanvas baru
 
@@ -34,7 +34,7 @@ Anda dapat menyeret file ke kanvas dari Obsidian atau dari aplikasi lain. Misaln
 
 ### Menambahkan kartu teks
 
-Anda dapat menambahkan kartu khusus teks yang tidak mereferensikan file. Anda dapat menggunakan Markdown, tautan, dan blok kode seperti dalam catatan.
+Anda dapat menambahkan kartu khusus teks yang tidak mereferensikan file. Anda dapat menggunakan Markdown, tautan, dan blok kode dengan cara yang sama seperti dalam catatan.
 
 Untuk menambahkan kartu teks baru ke kanvas Anda:
 
@@ -47,7 +47,7 @@ Untuk mengubah kartu teks menjadi file:
 1. Klik kanan kartu teks lalu pilih **Ubah ke berkas...**.
 2. Masukkan nama catatan lalu pilih **Simpan**.
 
-> [!note] Catatan
+> [!note] Kartu khusus teks dan tautan balik
 > Kartu khusus teks tidak muncul di [[Backlink]]. Agar muncul, Anda perlu mengubahnya menjadi file.
 
 ### Menambahkan kartu dari catatan
@@ -62,7 +62,7 @@ Anda juga dapat menambahkan catatan dari menu konteks kanvas:
 1. Klik kanan kanvas lalu pilih **Tambah catatan dari vault**.
 2. Pilih catatan yang ingin Anda tambahkan.
 
-Atau, Anda dapat menambahkannya ke kanvas dengan menyeret file dari [[Penjelajah berkas]].
+Anda juga dapat menyeret catatan dari [[Penjelajah berkas]] ke kanvas.
 
 ### Menambahkan kartu dari media
 
@@ -76,7 +76,7 @@ Anda juga dapat menambahkan media dari menu konteks kanvas:
 1. Klik kanan kanvas lalu pilih **Tambah media dari vault**.
 2. Pilih file media yang ingin Anda tambahkan.
 
-Atau, Anda dapat menambahkannya ke kanvas dengan menyeret file dari [[Penjelajah berkas]].
+Anda juga dapat menyeret file media dari [[Penjelajah berkas]] ke kanvas.
 
 ### Menambahkan kartu dari halaman web
 
@@ -91,11 +91,11 @@ Untuk membuka halaman web di browser Anda, tekan `Ctrl` (atau `Cmd` di macOS) da
 
 ### Menambahkan kartu dari folder
 
-Seret folder dari penjelajah file untuk menambahkan semua file dalam folder tersebut ke kanvas.
+Seret folder dari [[Penjelajah berkas]] untuk menambahkan semua file dalam folder tersebut ke kanvas.
 
 ### Mengedit kartu
 
-Klik dua kali pada kartu teks atau catatan untuk mulai mengeditnya. Klik di luar kartu untuk berhenti mengedit. Anda juga dapat menekan `Escape` untuk berhenti mengedit kartu.
+Klik dua kali pada kartu teks atau catatan untuk mulai mengeditnya. Pilih di mana saja di luar kartu untuk berhenti mengedit. Anda juga dapat menekan `Escape` untuk berhenti mengedit kartu.
 
 Anda juga dapat mengedit kartu dengan mengklik kanan dan memilih **Ubah**.
 
@@ -117,7 +117,7 @@ Untuk menukar kartu catatan:
 
 ## Memilih kartu
 
-Pilih kartu di kanvas dengan mengkliknya. Anda dapat memilih beberapa kartu dengan menyeret seleksi di sekitarnya.
+Pilih kartu individual, atau seret seleksi di sekitar beberapa kartu.
 
 Anda juga dapat menambah dan menghapus kartu dari seleksi yang ada dengan menekan `Shift` dan memilihnya.
 
@@ -147,7 +147,7 @@ Untuk mempertahankan rasio aspek saat mengubah ukuran, tekan `Shift` saat mengub
 
 ## Menghubungkan kartu
 
-Gambar garis antar kartu untuk membuat hubungan di antara mereka. Gunakan warna dan label untuk menjelaskan bagaimana mereka saling terkait.
+Gambar garis antar kartu untuk menunjukkan hubungan. Tambahkan warna dan label untuk menjelaskan bagaimana mereka saling terkait.
 
 ### Menghubungkan dua kartu
 
@@ -156,8 +156,8 @@ Untuk menghubungkan dua kartu dengan garis berarah:
 1. Arahkan kursor ke salah satu tepi kartu hingga Anda melihat lingkaran terisi.
 2. Seret lingkaran tersebut ke tepi kartu lain untuk menghubungkannya.
 
-> [!tip] Tip
-> Jika Anda menyeret garis tanpa menghubungkannya ke kartu lain, Anda kemudian dapat menambahkan kartu yang ingin Anda hubungkan.
+> [!tip]- Membuat kartu dari koneksi baru
+> Jika Anda menyeret garis tanpa menghubungkannya ke kartu lain, Anda dapat membuat kartu baru di ujung lainnya.
 
 ### Memutuskan hubungan dua kartu
 
@@ -166,14 +166,14 @@ Untuk menghapus koneksi antara dua kartu:
 1. Arahkan kursor ke garis koneksi hingga dua lingkaran kecil muncul pada garis tersebut.
 2. Seret salah satu lingkaran dari kartu tanpa menghubungkannya ke kartu lain.
 
-Anda juga dapat memutuskan hubungan dua kartu dengan mengklik kanan garis di antara mereka, lalu memilih **Hapus**. Atau, dengan memilih garis tersebut lalu menekan `Backspace` (atau `Delete` di macOS).
+Anda juga dapat memutuskan hubungan dua kartu dengan mengklik kanan garis di antara mereka, lalu memilih **Hapus**. Atau, pilih garis tersebut lalu tekan `Backspace` (atau `Delete` di macOS).
 
 ### Menghubungkan kartu ke kartu lain
 
 Untuk memindahkan salah satu ujung garis koneksi:
 
 1. Arahkan kursor ke garis koneksi hingga dua lingkaran kecil muncul pada garis tersebut.
-2. Seret lingkaran di ujung yang ingin Anda hubungkan ulang, ke kartu lain.
+2. Seret lingkaran ke kartu lain untuk menghubungkannya kembali.
 
 ### Menavigasi koneksi
 
@@ -186,7 +186,7 @@ Anda dapat menambahkan label ke garis untuk menjelaskan hubungan antara dua kart
 Untuk memberi label pada koneksi:
 
 1. Klik dua kali pada garis.
-2. Masukkan label lalu tekan `Escape` atau klik di mana saja pada kanvas.
+2. Masukkan label lalu tekan `Escape` atau pilih di mana saja pada kanvas.
 
 Anda juga dapat memberi label pada koneksi dengan memilihnya lalu memilih **Ubah label** dari kontrol seleksi.
 
@@ -215,7 +215,7 @@ Untuk mengelompokkan kartu terkait:
 
 ## Menavigasi kanvas
 
-Saat Anda mulai menambahkan lebih banyak kartu ke kanvas, Anda perlu memahami cara menavigasi kanvas untuk melihat bagian tertentu. Pelajari cara menggeser dan memperbesar untuk bergerak melintasi kanvas dengan mudah.
+Gunakan penggeseran dan pembesaran untuk bergerak melintasi kanvas.
 
 ### Menggeser kanvas
 
@@ -231,18 +231,22 @@ Untuk memperbesar kanvas, tekan `Space` atau `Ctrl` (atau `Cmd` di macOS) dan gu
 
 #### Perbesar untuk paskan
 
-Untuk memperbesar kanvas sehingga setiap item terlihat, pilih **Perbesar untuk paskan** ![[lucide-maximize.svg#icon]]. Atau, gunakan pintasan keyboard, `Shift+1`.
+Untuk memperbesar kanvas sehingga setiap item terlihat, pilih **Perbesar untuk paskan** ![[lucide-maximize.svg#icon]]. Atau, gunakan pintasan keyboard `Shift+1`.
 
 #### Perbesar ke seleksi
 
-Untuk memperbesar kanvas sehingga semua item yang dipilih terlihat, klik kanan kartu yang dipilih lalu pilih **Perbesar ke seleksi**. Atau, gunakan pintasan keyboard dengan menekan `Shift+2`.
+Untuk memperbesar kanvas sehingga semua item yang dipilih terlihat, klik kanan kartu yang dipilih lalu pilih **Perbesar ke seleksi**. Atau, tekan `Shift+2`.
 
 #### Atur ulang pembesaran
 
 Untuk mengubah tingkat pembesaran kembali ke bawaan, pilih **Atur ulang pembesaran** di kontrol zoom di pojok kanan atas.
 
+## Menyematkan kanvas
+
+Anda dapat menyematkan kanvas dalam catatan menggunakan sintaks sematan standar. Untuk informasi lebih lanjut, lihat [[Sematkan file#Embed a canvas in a note|Menyematkan kanvas dalam catatan]].
+
 ## Tips lanjutan
 
 Kami telah membuat beberapa video singkat untuk mendemonstrasikan beberapa kasus penggunaan lanjutan Canvas.
 
-Anda dapat [melihat semua 72 tips di sini](https://obsidian.md/canvas#protips). Harap dicatat bahwa video tips hanya terlihat di desktop.
+Anda dapat [melihat semua 72 tips di sini](https://obsidian.md/canvas#protips). Video tips hanya terlihat di desktop.

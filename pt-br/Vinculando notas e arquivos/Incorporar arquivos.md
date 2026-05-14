@@ -5,9 +5,11 @@ cssclasses:
 aliases:
   - Vinculando notas e arquivos/Incorporando arquivos
 ---
+Arquivos incorporados exibem seu conteúdo inline em uma nota e permanecem atualizados quando o arquivo de origem é alterado.
+
 Para incorporar um arquivo no seu cofre, adicione um ponto de exclamação (`!`) na frente de um [[Links internos|Link interno]]. Você pode incorporar arquivos em qualquer um dos [[Formatos de arquivo aceitos]].
 
-> [!tip] Incorporar ao arrastar e soltar
+> [!tip]- Incorporar ao arrastar e soltar
 > No desktop, você também pode arrastar e soltar arquivos suportados diretamente na sua nota para incorporá-los automaticamente.
 
 ## Incorporar uma nota em outra nota
@@ -18,7 +20,7 @@ Para incorporar uma nota:
 ![[Links internos]]
 ```
 
-Você também pode incorporar links para [[Links internos#Link para um cabeçalho em uma nota|cabeçalhos]] e [[Links internos#Link para um bloco em uma nota|blocos]].
+Você também pode incorporar [[Links internos#Link para um cabeçalho em uma nota|cabeçalhos]] e [[Links internos#Link para um bloco em uma nota|blocos]] específicos.
 
 ```md
 ![[Links internos#^b15695]]
@@ -44,11 +46,11 @@ Você pode alterar as dimensões da imagem adicionando `|640x480` ao destino do 
 ![[Engelbart.jpg|100x145]]
 ```
 
-Se você especificar apenas a largura, a imagem será redimensionada de acordo com sua proporção original. Por exemplo, `![[Engelbart.jpg|100]]`.
+Se você especificar apenas a largura, a imagem será redimensionada proporcionalmente. Por exemplo, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-Você também pode incorporar uma imagem hospedada externamente usando um link Markdown. Você pode controlar a largura e a altura da mesma forma que um link wiki.
+Você também pode incorporar uma imagem hospedada externamente usando um link Markdown. Você pode controlar a largura e a altura usando a mesma sintaxe de um link wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -80,11 +82,22 @@ Você também pode abrir uma página específica no PDF adicionando `#page=N` ao
 ![[Document.pdf#page=3]]
 ```
 
-Você também pode especificar a altura em pixels para o visualizador de PDF incorporado, adicionando `#height=[number]` ao link. Por exemplo:
+Você também pode especificar a altura em pixels para o visualizador de PDF incorporado adicionando `#height=[number]` ao link. Por exemplo:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
+
+## Incorporar um canvas em uma nota
+
+Para incorporar um [[Canvas|canvas]]:
+
+```md
+![[Meu canvas.canvas]]
+```
+
+> [!info]+ Incorporações de canvas mostram apenas formas
+> Canvas incorporados exibem formas, mas não o texto dentro dos cartões. Para visualizar o canvas completo, abra-o diretamente.
 
 ## Incorporar uma lista em uma nota
 
