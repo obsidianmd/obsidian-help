@@ -16,12 +16,14 @@ También recomendamos leer nuestra [[Respaldar tus archivos de Obsidian|guía de
 
 Con Obsidian, tus datos simplemente se almacenan como archivos en una carpeta llamada [[Bóvedas locales y remotas|bóveda]]. Esto significa que hay muchas formas de sincronizar tus datos.
 
-Estos son algunos métodos de sincronización comúnmente utilizados reportados por miembros de la [Comunidad de Obsidian](https://obsidian.md/es/community):
+Estos son algunos métodos de sincronización comúnmente utilizados reportados por miembros de la comunidad de Obsidian:
 
 1. **Sincronización propia**: [[#Obsidian Sync]]
 2. **Sincronización en la nube de terceros**: [[#iCloud]], [[#OneDrive]] y [[#Google Drive]]
 3. **Sincronización local**: [[#Syncthing]]
 4. **Control de versiones**: [[#Git]] y [[#Working Copy]]
+
+Docenas de opciones de sincronización alternativas se pueden encontrar en el [directorio de complementos de la comunidad](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

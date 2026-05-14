@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: На этой странице перечислены нечасто встречающиеся проблемы, с которыми вы можете столкнуться при использовании Obsidian Sync, и способы их решения.
+description: 'На этой странице перечислены нечасто встречающиеся проблемы, с которыми вы можете столкнуться при использовании Obsidian Sync, и способы их решения.'
 aliases:
   - Troubleshoot Obsidian Sync
 ---
@@ -45,13 +45,13 @@ aliases:
 Когда вы используете вариант «Создать файл конфликта», Obsidian создаёт новый файл с таким шаблоном именования:
 
 ```
-original-note-name.sync-conflict-YYYYMMDD-HHMMSS.md
+original-note-name (Conflicted copy device-name YYYYMMDDHHMM).md
 ```
 
 Например, если конфликт произошёл в заметке `Meeting notes.md`, файл конфликта может называться:
 
 ```
-Meeting notes.sync-conflict-20241128-143022.md
+Meeting notes (Conflicted copy MyMacBook2 202411281430).md
 ```
 
 Файл конфликта содержит изменения с устройства, на котором был обнаружен конфликт. Исходный файл сохраняет удалённую версию. Вы можете сравнить оба файла и вручную объединить содержимое.
@@ -95,4 +95,4 @@ Obsidian [[Часто задаваемые вопросы#Obsidian Sync пере
 Эта проблема, скорее всего, связана с тем, что Google или Android Фото управляют вашими вложениями. Чтобы система не изменяла файлы, полученные через синхронизацию, добавьте файл `.nomedia` [в ваше хранилище](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) на устройстве Android.
 
 > [!tip]- Используйте плагин
-> Плагин сообщества [Android Nomedia](https://obsidian.md/ru/plugins?id=android-nomedia) упрощает эту задачу. Установите его на свой телефон Android. Обратите внимание, что файлы `.nomedia` не синхронизируются между устройствами через Obsidian Sync.
+> Плагин сообщества [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) упрощает эту задачу. Установите его на свой телефон Android. Обратите внимание, что файлы `.nomedia` не синхронизируются между устройствами через Obsidian Sync.

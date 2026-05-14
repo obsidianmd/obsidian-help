@@ -2,7 +2,7 @@
 permalink: html
 publish: true
 mobile: true
-description: Scopri come usare HTML in Obsidian, incluse le limitazioni con il rendering Markdown e i requisiti dei blocchi HTML.
+description: 'Scopri come usare HTML in Obsidian, incluse le limitazioni con il rendering Markdown e i requisiti dei blocchi HTML.'
 aliases:
   - HTML content
 ---
@@ -61,7 +61,7 @@ Questo non funzionerà correttamente:
 
 Alcuni tag HTML inline come `<span>` o `<a>` hanno funzionalità limitate e possono sembrare renderizzare il Markdown, ma in realtà non è ciò che accade. Il Markdown viene elaborato al di fuori del contesto HTML.
 
-Per maggiori dettagli su come Obsidian gestisce il Markdown, consulta [[Obsidian Flavored Markdown]].
+Per maggiori dettagli su come Obsidian gestisce il Markdown, consulta [[Markdown stile Obsidian]].
 
 ## Utilizzi comuni dell'HTML
 

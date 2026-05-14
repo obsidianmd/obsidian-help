@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Diese Seite listet seltene Probleme auf, die bei Obsidian Sync auftreten können, und erklärt, wie sie behoben werden.
+description: 'Diese Seite listet seltene Probleme auf, die bei Obsidian Sync auftreten können, und erklärt, wie sie behoben werden.'
 ---
 Diese Seite listet seltene Probleme auf, die bei [[Einführung in Obsidian Sync|Obsidian Sync]] auftreten können, und erklärt, wie sie behoben werden. Bevor du fortfährst, empfehlen wir, die Seiten [[Statussymbol und Meldungen]] und [[Häufig gestellte Fragen]] zu lesen.
 
@@ -93,4 +93,4 @@ Schließlich kann dies passieren, wenn du eine Datei auf einem Gerät wiederhers
 Dieses Problem wird wahrscheinlich durch Google oder Android Photos verursacht, die deine Anhänge verwalten. Um zu verhindern, dass das System über Sync empfangene Dateien ändert, füge eine `.nomedia`-[Datei zu deinem Vault hinzu](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) auf deinem Android-Gerät.
 
 > [!tip]- Eine Erweiterung verwenden
-> Die externe Erweiterung [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) erleichtert dies. Installiere sie auf deinem Android-Telefon. Beachte, dass `.nomedia`-Dateien nicht über Obsidian Sync zwischen Geräten synchronisiert werden.
+> Die externe Erweiterung [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) erleichtert dies. Installiere sie auf deinem Android-Telefon. Beachte, dass `.nomedia`-Dateien nicht über Obsidian Sync zwischen Geräten synchronisiert werden.

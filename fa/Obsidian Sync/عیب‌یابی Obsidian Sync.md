@@ -45,13 +45,13 @@ aliases:
 هنگامی که از گزینه «ایجاد فایل تعارض» استفاده می‌کنید، Obsidian یک فایل جدید با این الگوی نام‌گذاری ایجاد می‌کند:
 
 ```
-original-note-name.sync-conflict-YYYYMMDD-HHMMSS.md
+original-note-name (Conflicted copy device-name YYYYMMDDHHMM).md
 ```
 
 برای مثال، اگر تعارضی در یادداشتی به نام `Meeting notes.md` رخ دهد، فایل تعارض ممکن است به این شکل نام‌گذاری شود:
 
 ```
-Meeting notes.sync-conflict-20241128-143022.md
+Meeting notes (Conflicted copy MyMacBook2 202411281430).md
 ```
 
 فایل تعارض حاوی تغییرات دستگاهی است که تعارض در آن شناسایی شده است. فایل اصلی نسخه راه‌دور را نگه می‌دارد. می‌توانید هر دو فایل را مقایسه کرده و محتوا را به صورت دستی ادغام کنید.
@@ -95,4 +95,4 @@ Obsidian [[پرسش‌های متداول#آیا Obsidian Sync تنظیمات ر
 این مشکل احتمالاً به دلیل مدیریت پیوست‌های شما توسط Google یا Android Photos است. برای جلوگیری از تغییر فایل‌های دریافت‌شده از طریق Sync توسط سیستم، یک [فایل `.nomedia`](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) را در گاوصندوق خود در دستگاه Android اضافه کنید.
 
 > [!tip]- از یک افزونه استفاده کنید
-> افزونهٔ انجمن [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) این کار را آسان‌تر می‌کند. آن را روی گوشی Android خود نصب کنید. توجه داشته باشید که فایل‌های `.nomedia` از طریق Obsidian Sync بین دستگاه‌ها همگام‌سازی نمی‌شوند.
+> افزونهٔ انجمن [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) این کار را آسان‌تر می‌کند. آن را روی گوشی Android خود نصب کنید. توجه داشته باشید که فایل‌های `.nomedia` از طریق Obsidian Sync بین دستگاه‌ها همگام‌سازی نمی‌شوند.

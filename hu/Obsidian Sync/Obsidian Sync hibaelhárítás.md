@@ -93,4 +93,4 @@ Végül ez akkor is előfordulhat, amikor visszaállít egy fájlt az egyik eszk
 Ez a probléma valószínűleg a Google vagy az Android Fotók alkalmazás miatt merül fel, amely kezeli a mellékleteket. Annak megakadályozásához, hogy a rendszer módosítsa a Sync-en keresztül kapott fájlokat, adjon hozzá egy `.nomedia` [fájlt a széfjéhez](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) az Android eszközén.
 
 > [!tip]- Használjon bővítményt
-> Az [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) közösségi bővítmény megkönnyíti ezt. Telepítse az Android telefonjára. Vegye figyelembe, hogy a `.nomedia` fájlok nem szinkronizálódnak az eszközök között az Obsidian Sync-en keresztül.
+> Az [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) közösségi bővítmény megkönnyíti ezt. Telepítse az Android telefonjára. Vegye figyelembe, hogy a `.nomedia` fájlok nem szinkronizálódnak az eszközök között az Obsidian Sync-en keresztül.

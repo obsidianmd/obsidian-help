@@ -22,10 +22,12 @@ Jeśli korzystasz z wielu urządzeń z synchronizacją, wybierz **jedno urządze
 
 ## Korzystanie z wtyczek społeczności
 
-Chociaż zespół Obsidian nie może oficjalnie rekomendować żadnej konkretnej wtyczki, uznajemy dwie wtyczki społeczności, które stały się popularne wśród użytkowników do tworzenia kopii zapasowych plików:
+Chociaż zespół Obsidian nie może oficjalnie rekomendować żadnej konkretnej wtyczki, uznajemy dwie [wtyczki społeczności](https://community.obsidian.md/search?type=plugin&categories=backup), które stały się popularne wśród użytkowników do tworzenia kopii zapasowych plików:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Użyj tej wtyczki, aby tworzyć kopię zapasową skarbca poprzez commitowanie jego zawartości do [repozytorium Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). To skuteczny sposób na kontrolę wersji notatek i zapewnienie ich bezpieczeństwa na zdalnym serwerze. Pamiętaj jednak, że przy tej metodzie dane mogą być przechowywane na [[#Korzystanie z usług chmurowych|zewnętrznej platformie hostingowej]].
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Ta wtyczka pozwala tworzyć lokalne kopie skarbca w wybranym folderze, z opcjami archiwizacji. Możesz nawet użyć folderu synchronizacji, takiego jak folder Dropbox, aby połączyć lokalne i chmurowe kopie zapasowe. Ta metoda **dobrze się łączy** z opcjami kopii zapasowych opisanymi poniżej.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Użyj tej wtyczki, aby tworzyć kopię zapasową skarbca poprzez commitowanie jego zawartości do [repozytorium Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). To skuteczny sposób na kontrolę wersji notatek i zapewnienie ich bezpieczeństwa na zdalnym serwerze. Pamiętaj jednak, że przy tej metodzie dane mogą być przechowywane na [[#Korzystanie z usług chmurowych|zewnętrznej platformie hostingowej]].
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Ta wtyczka pozwala tworzyć lokalne kopie skarbca w wybranym folderze, z opcjami archiwizacji. Możesz nawet użyć folderu synchronizacji, takiego jak folder Dropbox, aby połączyć lokalne i chmurowe kopie zapasowe. Ta metoda **dobrze się łączy** z opcjami kopii zapasowych opisanymi poniżej.
+
+Zobacz kategorię [Backup](https://community.obsidian.md/search?type=plugin&categories=backup), aby poznać więcej opcji wtyczek społeczności.
 
 ## Korzystanie z usług chmurowych
 

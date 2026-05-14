@@ -71,7 +71,7 @@ Sau khi mở bảng điều khiển nhà phát triển:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Truy cập bảng điều khiển trên di động
-> Thiết bị di động và máy tính bảng có quyền truy cập hạn chế vào bảng điều khiển nhà phát triển. Đối với những người dùng này, chúng tôi khuyên sử dụng plugin cộng đồng [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) để tự động tạo dữ liệu nhật ký bảng điều khiển trong một ghi chú Markdown.
+> Thiết bị di động và máy tính bảng có quyền truy cập hạn chế vào bảng điều khiển nhà phát triển. Đối với những người dùng này, chúng tôi khuyên sử dụng plugin cộng đồng [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) để tự động tạo dữ liệu nhật ký bảng điều khiển trong một ghi chú Markdown.
 
 ### Liên hệ hỗ trợ Obsidian
 

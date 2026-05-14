@@ -71,7 +71,7 @@ Setelah Anda membuka konsol pengembang:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Akses konsol seluler
-> Perangkat seluler dan tablet memiliki akses terbatas ke konsol pengembang mereka. Untuk pengguna ini, kami merekomendasikan menggunakan plugin komunitas [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) untuk secara otomatis menghasilkan data log konsol dalam catatan markdown.
+> Perangkat seluler dan tablet memiliki akses terbatas ke konsol pengembang mereka. Untuk pengguna ini, kami merekomendasikan menggunakan plugin komunitas [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) untuk secara otomatis menghasilkan data log konsol dalam catatan markdown.
 
 ### Hubungi dukungan Obsidian
 

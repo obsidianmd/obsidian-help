@@ -1,15 +1,15 @@
 ---
 permalink: import/csv
 ---
-Obsidian memungkinkan Anda mengimpor data dari file CSV menggunakan [[Importer|plugin Importer]] resmi. Ini berguna jika Anda memiliki data tabular yang tersimpan di aplikasi seperti Excel, Google Sheets, Numbers, Notion, atau Airtable.
+Obsidian memungkinkan Anda mengimpor data dari file CSV menggunakan [[Impor|plugin Importer]] resmi. Ini berguna jika Anda memiliki data tabular yang tersimpan di aplikasi seperti Excel, Google Sheets, Numbers, Notion, atau Airtable.
 
 Impor CSV menghasilkan file Markdown untuk setiap baris dan file [[Pengenalan Basis|Basis]] yang menampilkan semua file yang diimpor sebagai tabel.
 
-Jika Anda mengimpor catatan dari aplikasi tertentu, Anda mungkin ingin terlebih dahulu meninjau daftar aplikasi yang didukung oleh [[Importer|plugin Importer]] untuk memeriksa apakah ada konverter spesifik yang lebih baik dalam mempertahankan data yang Anda migrasikan.
+Jika Anda mengimpor catatan dari aplikasi tertentu, Anda mungkin ingin terlebih dahulu meninjau daftar aplikasi yang didukung oleh [[Impor|plugin Importer]] untuk memeriksa apakah ada konverter spesifik yang lebih baik dalam mempertahankan data yang Anda migrasikan.
 
 ## Buat catatan dari data CSV di Obsidian
 
-Anda memerlukan plugin Obsidian [[Importer]] resmi, yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
+Anda memerlukan plugin Obsidian [[Impor]] resmi, yang dapat Anda [pasang di sini](obsidian://show-plugin?id=obsidian-importer).
 
 1. Buka **[[Pengaturan]]**.
 2. Buka **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).

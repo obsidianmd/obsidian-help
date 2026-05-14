@@ -22,10 +22,12 @@ permalink: backup
 
 ## 使用社群外掛程式
 
-雖然 Obsidian 團隊無法正式推薦任何特定外掛，但我們注意到有兩個社群外掛在使用者中頗受歡迎，可用於備份檔案：
+雖然 Obsidian 團隊無法正式推薦任何特定外掛，但我們注意到有兩個[社群外掛](https://community.obsidian.md/search?type=plugin&categories=backup)在使用者中頗受歡迎，可用於備份檔案：
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git)：** 使用此外掛，透過將保管庫內容提交到 [Git 儲存庫](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)來備份保管庫。這是對筆記進行版本控制並確保其安全儲存在遠端伺服器上的有效方式。不過，請注意使用此方法時，你的資料可能會儲存在[[#使用雲端服務|外部託管平台]]上。
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup)：** 此外掛讓你在所選資料夾中建立保管庫的本機副本，並提供封存選項。你甚至可以使用同步資料夾（如 Dropbox 資料夾）來結合本機和雲端備份。此方法與下方描述的備份選項**搭配使用效果很好**。
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git)：** 使用此外掛，透過將保管庫內容提交到 [Git 儲存庫](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)來備份保管庫。這是對筆記進行版本控制並確保其安全儲存在遠端伺服器上的有效方式。不過，請注意使用此方法時，你的資料可能會儲存在[[#使用雲端服務|外部託管平台]]上。
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup)：** 此外掛讓你在所選資料夾中建立保管庫的本機副本，並提供封存選項。你甚至可以使用同步資料夾（如 Dropbox 資料夾）來結合本機和雲端備份。此方法與下方描述的備份選項**搭配使用效果很好**。
+
+更多社群外掛選項請參閱[備份](https://community.obsidian.md/search?type=plugin&categories=backup)分類。
 
 ## 使用雲端服務
 

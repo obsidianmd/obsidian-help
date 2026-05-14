@@ -22,10 +22,12 @@ Wenn du mehrere Geräte mit Synchronisierung verwendest, wähle **ein Gerät** a
 
 ## Community-Erweiterungen verwenden
 
-Obwohl das Obsidian-Team keine bestimmte Erweiterung offiziell empfehlen kann, kennen wir zwei Community-Erweiterungen, die bei Benutzern für die Sicherung ihrer Dateien beliebt geworden sind:
+Obwohl das Obsidian-Team keine bestimmte Erweiterung offiziell empfehlen kann, kennen wir zwei [Community-Erweiterungen](https://community.obsidian.md/search?type=plugin&categories=backup), die bei Benutzern für die Sicherung ihrer Dateien beliebt geworden sind:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Verwende diese Erweiterung, um deinen Vault zu sichern, indem du seinen Inhalt in ein [Git-Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) überträgst. Es ist eine effektive Möglichkeit, deine Notizen zu versionieren und ihre Sicherheit auf einem Remote-Server zu gewährleisten. Beachte jedoch, dass deine Daten bei dieser Methode auf einer [[#Cloud-basierte Dienste verwenden|externen Hosting-Plattform]] gespeichert werden können.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Diese Erweiterung ermöglicht es dir, lokale Kopien deines Vaults in einem Ordner deiner Wahl zu erstellen, mit Optionen zur Archivierung. Du kannst sogar einen Synchronisierungsordner wie einen Dropbox-Ordner verwenden, um lokale und Cloud-Backups zu kombinieren. Diese Methode **ergänzt sich gut** mit den unten beschriebenen Backup-Optionen.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Verwende diese Erweiterung, um deinen Vault zu sichern, indem du seinen Inhalt in ein [Git-Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) überträgst. Es ist eine effektive Möglichkeit, deine Notizen zu versionieren und ihre Sicherheit auf einem Remote-Server zu gewährleisten. Beachte jedoch, dass deine Daten bei dieser Methode auf einer [[#Cloud-basierte Dienste verwenden|externen Hosting-Plattform]] gespeichert werden können.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Diese Erweiterung ermöglicht es dir, lokale Kopien deines Vaults in einem Ordner deiner Wahl zu erstellen, mit Optionen zur Archivierung. Du kannst sogar einen Synchronisierungsordner wie einen Dropbox-Ordner verwenden, um lokale und Cloud-Backups zu kombinieren. Diese Methode **ergänzt sich gut** mit den unten beschriebenen Backup-Optionen.
+
+Weitere Community-Erweiterungen findest du in der Kategorie [Backup](https://community.obsidian.md/search?type=plugin&categories=backup).
 
 ## Cloud-basierte Dienste verwenden
 

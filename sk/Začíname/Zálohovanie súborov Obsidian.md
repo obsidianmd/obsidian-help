@@ -22,10 +22,12 @@ Ak používate viacero zariadení so synchronizáciou, vyberte **jedno zariadeni
 
 ## Použitie komunitných pluginov
 
-Aj keď tím Obsidian nemôže oficiálne odporučiť žiadny konkrétny plugin, uznávame dva komunitné pluginy, ktoré sa stali populárnymi medzi používateľmi na zálohovanie ich súborov:
+Aj keď tím Obsidian nemôže oficiálne odporučiť žiadny konkrétny plugin, uznávame dva [komunitné pluginy](https://community.obsidian.md/search?type=plugin&categories=backup), ktoré sa stali populárnymi medzi používateľmi na zálohovanie ich súborov:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Použite tento plugin na zálohovanie vášho trezoru commitovaním jeho obsahu do [Git repozitára](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Je to efektívny spôsob verzionovania vašich poznámok a zabezpečenia ich bezpečnosti na vzdialenom serveri. Upozorňujeme však, že vaše dáta môžu byť pri tejto metóde uložené na [[#Použitie cloudových služieb|externej hostingovej platforme]].
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Tento plugin vám umožňuje vytvárať lokálne kópie vášho trezoru v priečinku podľa vášho výberu s možnosťami archivácie. Môžete dokonca použiť synchronizačný priečinok, ako je priečinok Dropbox, na kombinovanie lokálnych a cloudových záloh. Táto metóda sa **dobre dopĺňa** s možnosťami zálohovania popísanými nižšie.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Použite tento plugin na zálohovanie vášho trezoru commitovaním jeho obsahu do [Git repozitára](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Je to efektívny spôsob verzionovania vašich poznámok a zabezpečenia ich bezpečnosti na vzdialenom serveri. Upozorňujeme však, že vaše dáta môžu byť pri tejto metóde uložené na [[#Použitie cloudových služieb|externej hostingovej platforme]].
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Tento plugin vám umožňuje vytvárať lokálne kópie vášho trezoru v priečinku podľa vášho výberu s možnosťami archivácie. Môžete dokonca použiť synchronizačný priečinok, ako je priečinok Dropbox, na kombinovanie lokálnych a cloudových záloh. Táto metóda sa **dobre dopĺňa** s možnosťami zálohovania popísanými nižšie.
+
+Ďalšie možnosti komunitných pluginov nájdete v kategórii [Backup](https://community.obsidian.md/search?type=plugin&categories=backup).
 
 ## Použitie cloudových služieb
 

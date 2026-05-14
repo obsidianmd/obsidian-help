@@ -22,10 +22,12 @@ Als je meerdere apparaten met synchronisatie gebruikt, kies dan **één apparaat
 
 ## Gebruik communityplug-ins
 
-Hoewel het Obsidian-team geen specifieke plug-in officieel kan aanbevelen, erkennen we twee communityplug-ins die populair zijn geworden onder gebruikers voor het back-uppen van hun bestanden:
+Hoewel het Obsidian-team geen specifieke plug-in officieel kan aanbevelen, erkennen we twee [communityplug-ins](https://community.obsidian.md/search?type=plugin&categories=backup) die populair zijn geworden onder gebruikers voor het back-uppen van hun bestanden:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Gebruik deze plug-in om een back-up van je kluis te maken door de inhoud ervan naar een [Git-repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) te committen. Het is een effectieve manier om versiebeheer op je notities toe te passen en hun veiligheid op een externe server te waarborgen. Houd er echter rekening mee dat je gegevens met deze methode op een [[#Gebruik cloudgebaseerde services|extern hostingplatform]] kunnen worden opgeslagen.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Deze plug-in laat je lokale kopieën van je kluis maken in een map naar keuze, met opties voor archivering. Je kunt zelfs een synchronisatiemap gebruiken, zoals een Dropbox-map, om lokale en cloudback-ups te combineren. Deze methode **past goed** bij de back-upopties die hieronder worden beschreven.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Gebruik deze plug-in om een back-up van je kluis te maken door de inhoud ervan naar een [Git-repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) te committen. Het is een effectieve manier om versiebeheer op je notities toe te passen en hun veiligheid op een externe server te waarborgen. Houd er echter rekening mee dat je gegevens met deze methode op een [[#Gebruik cloudgebaseerde services|extern hostingplatform]] kunnen worden opgeslagen.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Deze plug-in laat je lokale kopieën van je kluis maken in een map naar keuze, met opties voor archivering. Je kunt zelfs een synchronisatiemap gebruiken, zoals een Dropbox-map, om lokale en cloudback-ups te combineren. Deze methode **past goed** bij de back-upopties die hieronder worden beschreven.
+
+Zie de [Backup](https://community.obsidian.md/search?type=plugin&categories=backup)-categorie voor meer communityplug-inopties.
 
 ## Gebruik cloudgebaseerde services
 

@@ -46,13 +46,13 @@ aliases:
 عند استخدام خيار "إنشاء ملف تعارض"، يُنشئ Obsidian ملفًا جديدًا بنمط التسمية التالي:
 
 ```
-original-note-name.sync-conflict-YYYYMMDD-HHMMSS.md
+original-note-name (Conflicted copy device-name YYYYMMDDHHMM).md
 ```
 
 على سبيل المثال، إذا حدث تعارض في ملاحظة بعنوان `Meeting notes.md`، فقد يُسمّى ملف التعارض:
 
 ```
-Meeting notes.sync-conflict-20241128-143022.md
+Meeting notes (Conflicted copy MyMacBook2 202411281430).md
 ```
 
 يحتوي ملف التعارض على التغييرات من الجهاز الذي اكتُشف فيه التعارض. يحتفظ الملف الأصلي بالإصدار البعيد. يمكنك مقارنة كلا الملفين ودمج المحتوى يدويًا.
@@ -96,4 +96,4 @@ Meeting notes.sync-conflict-20241128-143022.md
 من المحتمل أن تكون هذه المشكلة بسبب إدارة Google أو Android Photos لمرفقاتك. لمنع النظام من تغيير الملفات المستلمة عبر المزامنة، أضف ملف `.nomedia` [إلى خزنتك](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) على جهاز Android الخاص بك.
 
 > [!tip]- استخدم إضافة
-> الإضافة المجتمعية [Android Nomedia](https://obsidian.md/ar/plugins?id=android-nomedia) تُسهّل هذا الأمر. قم بتثبيتها على هاتف Android الخاص بك. لاحظ أن ملفات `.nomedia` لا تتم مزامنتها عبر الأجهزة من خلال Obsidian Sync.
+> الإضافة المجتمعية [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) تُسهّل هذا الأمر. قم بتثبيتها على هاتف Android الخاص بك. لاحظ أن ملفات `.nomedia` لا تتم مزامنتها عبر الأجهزة من خلال Obsidian Sync.

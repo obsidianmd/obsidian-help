@@ -93,4 +93,4 @@ Tot slot kan dit gebeuren wanneer je een bestand op één apparaat herstelt, maa
 Dit probleem wordt waarschijnlijk veroorzaakt doordat Google of Android Foto's je bijlagen beheert. Om te voorkomen dat het systeem bestanden wijzigt die via Sync zijn ontvangen, voeg je een `.nomedia`-[bestand toe aan je kluis](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) op je Android-apparaat.
 
 > [!tip]- Gebruik een plug-in
-> De community-plugin [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) maakt dit eenvoudiger. Installeer deze op je Android-telefoon. Let op: `.nomedia`-bestanden worden niet gesynchroniseerd tussen apparaten via Obsidian Sync.
+> De community-plugin [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) maakt dit eenvoudiger. Installeer deze op je Android-telefoon. Let op: `.nomedia`-bestanden worden niet gesynchroniseerd tussen apparaten via Obsidian Sync.

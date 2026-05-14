@@ -16,12 +16,14 @@ Doporučujeme také přečíst si naši [[Zálohování souborů Obsidian|přír
 
 V Obsidian jsou vaše data jednoduše uložena jako soubory ve složce zvané [[Místní a vzdálené trezory|trezor]]. To znamená, že existuje mnoho způsobů, jak svá data synchronizovat.
 
-Zde je několik běžně používaných metod synchronizace, které hlásí členové [komunity Obsidian](https://obsidian.md/community):
+Zde je několik běžně používaných metod synchronizace, které hlásí členové komunity Obsidian:
 
 1. **Synchronizace první strany**: [[#Obsidian Sync]]
 2. **Cloudová synchronizace třetích stran**: [[#iCloud]], [[#OneDrive]] a [[#Google Drive]]
 3. **Lokální synchronizace**: [[#Syncthing]]
 4. **Správa verzí**: [[#Git]] a [[#Working Copy]]
+
+Desítky alternativních možností synchronizace najdete v [adresáři komunitních pluginů](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

@@ -45,13 +45,13 @@ Mulai Obsidian 1.9.7, Anda dapat memilih cara menangani konflik. Untuk mengonfig
 Ketika Anda menggunakan opsi "Buat file konflik", Obsidian membuat file baru dengan pola penamaan ini:
 
 ```
-nama-catatan-asli.sync-conflict-TTTTBBHH-JJMMDD.md
+nama-catatan-asli (Conflicted copy nama-perangkat TTTTBBHHJJMM).md
 ```
 
 Misalnya, jika konflik terjadi pada catatan bernama `Catatan rapat.md`, file konflik mungkin dinamai:
 
 ```
-Catatan rapat.sync-conflict-20241128-143022.md
+Catatan rapat (Conflicted copy MyMacBook2 202411281430).md
 ```
 
 File konflik berisi perubahan dari perangkat tempat konflik terdeteksi. File asli menyimpan versi jarak jauh. Anda dapat membandingkan kedua file dan menggabungkan kontennya secara manual.
@@ -95,4 +95,4 @@ Terakhir, ini dapat terjadi ketika Anda memulihkan file di satu perangkat, tetap
 Masalah ini kemungkinan disebabkan oleh Google atau Android Photos yang mengelola lampiran Anda. Untuk mencegah sistem mengubah file yang diterima melalui Sync, tambahkan file `.nomedia` [ke brankas Anda](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) di perangkat Android Anda.
 
 > [!tip]- Gunakan plugin
-> Plugin komunitas [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) memudahkan hal ini. Pasang di ponsel Android Anda. Perlu diketahui bahwa file `.nomedia` tidak disinkronkan antar perangkat melalui Obsidian Sync.
+> Plugin komunitas [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) memudahkan hal ini. Pasang di ponsel Android Anda. Perlu diketahui bahwa file `.nomedia` tidak disinkronkan antar perangkat melalui Obsidian Sync.

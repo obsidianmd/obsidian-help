@@ -2,7 +2,7 @@
 permalink: resources
 publish: true
 mobile: true
-description: Finde Support-Ressourcen, melde Sicherheits- oder Community-Verstöße und erfahre, wie du zu Obsidian beitragen kannst.
+description: 'Finde Support-Ressourcen, melde Sicherheits- oder Community-Verstöße und erfahre, wie du zu Obsidian beitragen kannst.'
 ---
 Finde Support-Ressourcen, melde Sicherheits- oder Community-Verstöße und erfahre, wie du zu Obsidian beitragen kannst.
 
@@ -71,7 +71,7 @@ Nachdem du die Entwicklerkonsole geöffnet hast:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Konsolenzugriff auf Mobilgeräten
-> Mobilgeräte und Tablets haben eingeschränkten Zugriff auf ihre Entwicklerkonsolen. Für diese Nutzer empfehlen wir die externe Erweiterung [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza), um die Konsolenprotokolldaten automatisch in einer Markdown-Notiz zu erstellen.
+> Mobilgeräte und Tablets haben eingeschränkten Zugriff auf ihre Entwicklerkonsolen. Für diese Nutzer empfehlen wir die externe Erweiterung [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza), um die Konsolenprotokolldaten automatisch in einer Markdown-Notiz zu erstellen.
 
 ### Obsidian-Support kontaktieren
 

@@ -6,7 +6,6 @@ description: Comment synchroniser vos notes Obsidian entre vos appareils et plat
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 Obsidian stocke les notes localement sur votre appareil afin que vous y ayez toujours accès, même hors ligne. Pour accéder à vos notes sur plusieurs appareils, vous devez configurer une méthode de synchronisation.
 
@@ -18,12 +17,14 @@ Nous vous recommandons également de lire notre [[Sauvegarder vos fichiers Obsid
 
 Avec Obsidian, vos données sont simplement stockées sous forme de fichiers dans un dossier appelé [[Coffres locaux et distants|coffre]]. Cela signifie qu'il existe de nombreuses façons de synchroniser vos données.
 
-Voici quelques méthodes de synchronisation couramment utilisées, rapportées par les membres de la [communauté Obsidian](https://obsidian.md/fr/community) :
+Voici quelques méthodes de synchronisation couramment utilisées, rapportées par les membres de la communauté Obsidian :
 
 1. **Synchronisation propriétaire** : [[#Obsidian Sync]]
 2. **Synchronisation cloud tierce** : [[#iCloud]], [[#OneDrive]] et [[#Google Drive]]
 3. **Synchronisation locale** : [[#Syncthing]]
 4. **Contrôle de version** : [[#Git]] et [[#Working Copy]]
+
+Des dizaines d'options de synchronisation alternatives sont disponibles dans le [répertoire des modules complémentaires](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

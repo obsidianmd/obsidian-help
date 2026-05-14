@@ -71,7 +71,7 @@ När du har öppnat utvecklarkonsolen:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Konsolåtkomst på mobil
-> Mobila enheter och surfplattor har begränsad åtkomst till sina utvecklarkonsoler. För dessa användare rekommenderar vi att använda gemenskapstillägget [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) för att automatiskt generera konsolloggdata i en markdown-anteckning.
+> Mobila enheter och surfplattor har begränsad åtkomst till sina utvecklarkonsoler. För dessa användare rekommenderar vi att använda gemenskapstillägget [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) för att automatiskt generera konsolloggdata i en markdown-anteckning.
 
 ### Kontakta Obsidian-support
 

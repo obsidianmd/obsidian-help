@@ -4,14 +4,14 @@ aliases:
   - Import fra Microsoft OneNote
   - Import af noter/Import fra Microsoft OneNote
 ---
-Obsidian giver dig mulighed for nemt at migrere dine noter fra Microsoft OneNote ved hjælp af [[Importer|Importer-plugin'et]]. Dette vil konvertere dine OneNote-data til holdbare Markdown-filer, som du kan bruge med Obsidian og mange andre applikationer.
+Obsidian giver dig mulighed for nemt at migrere dine noter fra Microsoft OneNote ved hjælp af [[Importér|Importer-plugin'et]]. Dette vil konvertere dine OneNote-data til holdbare Markdown-filer, som du kan bruge med Obsidian og mange andre applikationer.
 
 > [!Warning]
 > Kun notesbøger, der ejes af din personlige konto, kan importeres. Delte noter eller konti fra arbejds- og skolekonti understøttes ikke.
 
 ## Importér dine OneNote-data til Obsidian
 
-Du skal bruge det officielle Obsidian [[Importer]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åbn **[[Indstillinger]]**.
 2. Gå til **Fællesskabsplugins** og [installér Importer](obsidian://show-plugin?id=obsidian-importer).

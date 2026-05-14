@@ -51,4 +51,4 @@ Als je fouten of ontbrekende informatie op deze site vindt, kun je verbeteringen
 
 Als je financieel wilt bijdragen aan Obsidian, overweeg dan een [[Catalystlicentie]] die vroege toegang tot bètaversies biedt, of een [[Commerciële licentie]] om de steun van je organisatie te tonen.
 
-Bekijk de [[Credits]] om alle geweldige mensen te leren kennen die Obsidian mogelijk maken.
+Bekijk de [[Erkenningen]] om alle geweldige mensen te leren kennen die Obsidian mogelijk maken.

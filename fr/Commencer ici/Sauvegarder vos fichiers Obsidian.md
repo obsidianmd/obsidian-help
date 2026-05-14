@@ -1,7 +1,6 @@
 ---
 permalink: backup
 localized: '2026-03-18'
-
 ---
 Si vous n'avez pas encore sauvegardé votre ordinateur, commencez maintenant ! Le module [[Récupération de fichier]] d'Obsidian est utile mais limité. Il ne peut récupérer qu'une certaine quantité de données, et il stocke les informations de récupération par appareil. Pour une protection plus robuste, nous vous recommandons de mettre en place un véritable système de sauvegarde.
 
@@ -24,10 +23,12 @@ Si vous utilisez plusieurs appareils avec la synchronisation, choisissez **un se
 
 ## Utiliser des modules complémentaires
 
-Bien que l'équipe d'Obsidian ne puisse officiellement recommander aucun module spécifique, nous reconnaissons deux modules complémentaires qui sont devenus populaires auprès des utilisateurs pour sauvegarder leurs fichiers :
+Bien que l'équipe d'Obsidian ne puisse officiellement recommander aucun module spécifique, nous reconnaissons deux [modules complémentaires](https://community.obsidian.md/search?type=plugin&categories=backup) qui sont devenus populaires auprès des utilisateurs pour sauvegarder leurs fichiers :
 
-- **[Obsidian Git](https://obsidian.md/fr/plugins?id=obsidian-git) :** Utilisez ce module pour sauvegarder votre coffre en validant son contenu dans un [dépôt Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). C'est un moyen efficace de versionner vos notes et d'assurer leur sécurité sur un serveur distant. Cependant, sachez que vos données peuvent être stockées sur une [[#Utiliser des services cloud|plateforme d'hébergement externe]] avec cette méthode.
-- **[Local Backup](https://obsidian.md/fr/plugins?id=local-backup) :** Ce module vous permet de créer des copies locales de votre coffre dans un dossier de votre choix, avec des options d'archivage. Vous pouvez même utiliser un dossier de synchronisation, comme un dossier Dropbox, pour combiner sauvegardes locales et cloud. Cette méthode **se combine bien** avec les options de sauvegarde décrites ci-dessous.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git) :** Utilisez ce module pour sauvegarder votre coffre en validant son contenu dans un [dépôt Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). C'est un moyen efficace de versionner vos notes et d'assurer leur sécurité sur un serveur distant. Cependant, sachez que vos données peuvent être stockées sur une [[#Utiliser des services cloud|plateforme d'hébergement externe]] avec cette méthode.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup) :** Ce module vous permet de créer des copies locales de votre coffre dans un dossier de votre choix, avec des options d'archivage. Vous pouvez même utiliser un dossier de synchronisation, comme un dossier Dropbox, pour combiner sauvegardes locales et cloud. Cette méthode **se combine bien** avec les options de sauvegarde décrites ci-dessous.
+
+Consultez la catégorie [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) pour découvrir d'autres modules complémentaires.
 
 ## Utiliser des services cloud
 

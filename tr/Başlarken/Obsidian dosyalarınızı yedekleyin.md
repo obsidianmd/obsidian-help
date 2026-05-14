@@ -22,10 +22,12 @@ Senkronizasyonla birden fazla cihaz kullanıyorsanız, yedekleme cihazınız ola
 
 ## Topluluk eklentilerini kullanın
 
-Obsidian Ekibi herhangi bir eklentiyi resmi olarak onaylayamasa da, kullanıcılar arasında dosyalarını yedeklemek için popüler hale gelen iki topluluk eklentisini tanıyoruz:
+Obsidian Ekibi herhangi bir eklentiyi resmi olarak onaylayamasa da, kullanıcılar arasında dosyalarını yedeklemek için popüler hale gelen iki [topluluk eklentisini](https://community.obsidian.md/search?type=plugin&categories=backup) tanıyoruz:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Kasanızın içeriğini bir [Git Deposuna](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) göndererek yedeklemek için bu eklentiyi kullanın. Notlarınızı sürüm kontrolü altına almanın ve uzak bir sunucuda güvenliklerini sağlamanın etkili bir yoludur. Ancak bu yöntemle verilerinizin [[#Bulut tabanlı hizmetleri kullanın|harici bir barındırma platformunda]] saklanabileceğini unutmayın.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Bu eklenti, kasanızın yerel kopyalarını seçtiğiniz bir klasörde arşivleme seçenekleriyle oluşturmanıza olanak tanır. Yerel ve bulut yedeklemelerini birleştirmek için Dropbox klasörü gibi bir senkronizasyon klasörü bile kullanabilirsiniz. Bu yöntem aşağıda açıklanan yedekleme seçenekleriyle **iyi bir şekilde eşleşir**.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Kasanızın içeriğini bir [Git Deposuna](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) göndererek yedeklemek için bu eklentiyi kullanın. Notlarınızı sürüm kontrolü altına almanın ve uzak bir sunucuda güvenliklerini sağlamanın etkili bir yoludur. Ancak bu yöntemle verilerinizin [[#Bulut tabanlı hizmetleri kullanın|harici bir barındırma platformunda]] saklanabileceğini unutmayın.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Bu eklenti, kasanızın yerel kopyalarını seçtiğiniz bir klasörde arşivleme seçenekleriyle oluşturmanıza olanak tanır. Yerel ve bulut yedeklemelerini birleştirmek için Dropbox klasörü gibi bir senkronizasyon klasörü bile kullanabilirsiniz. Bu yöntem aşağıda açıklanan yedekleme seçenekleriyle **iyi bir şekilde eşleşir**.
+
+Daha fazla topluluk eklentisi seçeneği için [Yedekleme](https://community.obsidian.md/search?type=plugin&categories=backup) kategorisine bakın.
 
 ## Bulut tabanlı hizmetleri kullanın
 

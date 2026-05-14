@@ -71,7 +71,7 @@ Når du har åpnet utviklerkonsollen:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Konsolltilgang på mobil
-> Mobile enheter og nettbrett har begrenset tilgang til utviklerkonsollene sine. For disse brukerne anbefaler vi å bruke community-utvidelsen [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) for å automatisk generere konsollloggdata i et Markdown-notat.
+> Mobile enheter og nettbrett har begrenset tilgang til utviklerkonsollene sine. For disse brukerne anbefaler vi å bruke community-utvidelsen [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) for å automatisk generere konsollloggdata i et Markdown-notat.
 
 ### Kontakt Obsidian-støtte
 

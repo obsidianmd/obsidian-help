@@ -471,7 +471,7 @@ Puoi anche usare note a piè di pagina inline. ^[Questa è una nota a piè di pa
 > [!note] Nota
 > Le note a piè di pagina inline funzionano solo nella vista lettura, non nell'anteprima dal vivo.
 
-Usa la [[Footnotes view|vista Note a piè di pagina]] per vedere tutte le note a piè di pagina in una nota.
+Usa la [[Vista note a piè di pagina|vista Note a piè di pagina]] per vedere tutte le note a piè di pagina in una nota.
 
 ## Commenti
 
@@ -518,4 +518,4 @@ Quando lavori con elenchi numerati, potresti dover fare l'escape del punto dopo 
 
 Per approfondire la sintassi di formattazione avanzata, come tabelle, diagrammi ed espressioni matematiche, consulta [[Sintassi di formattazione avanzata|Sintassi di formattazione avanzata]].
 
-Per saperne di più su come Obsidian analizza il Markdown, consulta [[Obsidian Flavored Markdown]].
+Per saperne di più su come Obsidian analizza il Markdown, consulta [[Markdown stile Obsidian]].

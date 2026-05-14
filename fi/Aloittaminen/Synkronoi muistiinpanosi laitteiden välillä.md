@@ -16,12 +16,14 @@ Suosittelemme myös lukemaan [[Varmuuskopioi Obsidian-tiedostosi|varmuuskopioint
 
 Obsidianissa tietosi tallennetaan yksinkertaisesti tiedostoina kansioon, jota kutsutaan [[Paikalliset ja etäholvit|holviksi]]. Tämä tarkoittaa, että tietojesi synkronointiin on monia tapoja.
 
-Seuraavat ovat muutamia yleisesti käytettyjä synkronointimenetelmiä, joita [Obsidian-yhteisön](https://obsidian.md/community) jäsenet ovat raportoineet:
+Seuraavat ovat muutamia yleisesti käytettyjä synkronointimenetelmiä, joita Obsidian-yhteisön jäsenet ovat raportoineet:
 
 1. **Ensimmäisen osapuolen synkronointi**: [[#Obsidian Sync]]
 2. **Kolmannen osapuolen pilvisynkronointi**: [[#iCloud]], [[#OneDrive]] ja [[#Google Drive]]
 3. **Paikallinen synkronointi**: [[#Syncthing]]
 4. **Versionhallinta**: [[#Git]] ja [[#Working Copy]]
+
+Kymmeniä vaihtoehtoisia synkronointiratkaisuja löytyy [yhteisön lisäosahakemistosta](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

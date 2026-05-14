@@ -2,7 +2,7 @@
 permalink: resources
 publish: true
 mobile: true
-description: Encuentra recursos de soporte, reporta problemas de seguridad o violaciones de la comunidad, y aprende cómo contribuir a Obsidian.
+description: 'Encuentra recursos de soporte, reporta problemas de seguridad o violaciones de la comunidad, y aprende cómo contribuir a Obsidian.'
 ---
 Encuentra recursos de soporte, reporta problemas de seguridad o violaciones de la comunidad, y aprende cómo contribuir a Obsidian.
 
@@ -71,7 +71,7 @@ Una vez que hayas abierto la consola de desarrollador:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Acceso a la consola en dispositivos móviles
-> Los dispositivos móviles y tabletas tienen acceso limitado a sus consolas de desarrollador. Para estos usuarios, recomendamos usar el complemento de la comunidad [Logstravaganza](https://obsidian.md/es/plugins?id=logstravaganza) para generar automáticamente los datos del registro de consola en una nota Markdown.
+> Los dispositivos móviles y tabletas tienen acceso limitado a sus consolas de desarrollador. Para estos usuarios, recomendamos usar el complemento de la comunidad [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) para generar automáticamente los datos del registro de consola en una nota Markdown.
 
 ### Contactar al soporte de Obsidian
 

@@ -16,12 +16,14 @@ Javasoljuk továbbá, hogy olvasd el a [[Obsidian fájlok biztonsági mentése|b
 
 Az Obsidian esetében az adataid egyszerűen fájlokként vannak tárolva egy [[Helyi és távoli széfek|széfnek]] nevezett mappában. Ez azt jelenti, hogy számos módon szinkronizálhatod az adataidat.
 
-Íme néhány gyakran használt szinkronizálási módszer, amelyekről az [Obsidian közösség](https://obsidian.md/community) tagjai számoltak be:
+Íme néhány gyakran használt szinkronizálási módszer, amelyekről az Obsidian közösség tagjai számoltak be:
 
 1. **Saját szinkronizálás**: [[#Obsidian Sync]]
 2. **Harmadik féltől származó felhőszinkronizálás**: [[#iCloud]], [[#OneDrive]] és [[#Google Drive]]
 3. **Helyi szinkronizálás**: [[#Syncthing]]
 4. **Verziókezelés**: [[#Git]] és [[#Working Copy]]
+
+Számos további szinkronizálási lehetőség található a [Közösségi bővítmények könyvtárában](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

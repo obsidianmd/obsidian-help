@@ -22,10 +22,12 @@ Si usas múltiples dispositivos con sincronización, elige **un dispositivo** co
 
 ## Usar complementos de la comunidad
 
-Aunque el equipo de Obsidian no puede respaldar oficialmente ningún complemento específico, reconocemos dos complementos de la comunidad que se han vuelto populares entre los usuarios para respaldar sus archivos:
+Aunque el equipo de Obsidian no puede respaldar oficialmente ningún complemento específico, reconocemos dos [complementos de la comunidad](https://community.obsidian.md/search?type=plugin&categories=backup) que se han vuelto populares entre los usuarios para respaldar sus archivos:
 
-- **[Obsidian Git](https://obsidian.md/es/plugins?id=obsidian-git):** Usa este complemento para respaldar tu bóveda haciendo commits de su contenido en un [repositorio Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Es una forma efectiva de controlar versiones de tus notas y asegurar su seguridad en un servidor remoto. Sin embargo, ten en cuenta que tus datos pueden almacenarse en una [[#Usar servicios en la nube|plataforma de alojamiento externa]] con este método.
-- **[Local Backup](https://obsidian.md/es/plugins?id=local-backup):** Este complemento te permite crear copias locales de tu bóveda en una carpeta de tu elección, con opciones de archivado. Incluso puedes usar una carpeta de sincronización, como una carpeta de Dropbox, para combinar respaldos locales y en la nube. Este método **combina bien** con las opciones de respaldo descritas a continuación.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Usa este complemento para respaldar tu bóveda haciendo commits de su contenido en un [repositorio Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Es una forma efectiva de controlar versiones de tus notas y asegurar su seguridad en un servidor remoto. Sin embargo, ten en cuenta que tus datos pueden almacenarse en una [[#Usar servicios en la nube|plataforma de alojamiento externa]] con este método.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Este complemento te permite crear copias locales de tu bóveda en una carpeta de tu elección, con opciones de archivado. Incluso puedes usar una carpeta de sincronización, como una carpeta de Dropbox, para combinar respaldos locales y en la nube. Este método **combina bien** con las opciones de respaldo descritas a continuación.
+
+Consulta la categoría [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) para más opciones de complementos de la comunidad.
 
 ## Usar servicios en la nube
 

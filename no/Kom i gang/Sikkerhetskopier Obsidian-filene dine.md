@@ -22,10 +22,12 @@ Hvis du bruker flere enheter med synkronisering, velg **én enhet** som sikkerhe
 
 ## Bruk community-utvidelser
 
-Selv om Obsidian-teamet ikke offisielt kan anbefale noen spesifikk utvidelse, anerkjenner vi to community-utvidelser som har blitt populære blant brukere for sikkerhetskopiering av filer:
+Selv om Obsidian-teamet ikke offisielt kan anbefale noen spesifikk utvidelse, anerkjenner vi to [community-utvidelser](https://community.obsidian.md/search?type=plugin&categories=backup) som har blitt populære blant brukere for sikkerhetskopiering av filer:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Bruk denne utvidelsen til å sikkerhetskopiere hvelvet ditt ved å committe innholdet til et [Git-repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Det er en effektiv måte å versjonskontrollere notatene dine og sikre at de er trygge på en ekstern server. Vær imidlertid oppmerksom på at dataene dine kan lagres på en [[#Bruk skybaserte tjenester|ekstern hostingplattform]] med denne metoden.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Denne utvidelsen lar deg lage lokale kopier av hvelvet ditt i en mappe du velger, med alternativer for arkivering. Du kan til og med bruke en synkroniseringsmappe, som en Dropbox-mappe, for å kombinere lokale og skybaserte sikkerhetskopier. Denne metoden **fungerer godt sammen med** sikkerhetskopieringsalternativene beskrevet nedenfor.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Bruk denne utvidelsen til å sikkerhetskopiere hvelvet ditt ved å committe innholdet til et [Git-repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Det er en effektiv måte å versjonskontrollere notatene dine og sikre at de er trygge på en ekstern server. Vær imidlertid oppmerksom på at dataene dine kan lagres på en [[#Bruk skybaserte tjenester|ekstern hostingplattform]] med denne metoden.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Denne utvidelsen lar deg lage lokale kopier av hvelvet ditt i en mappe du velger, med alternativer for arkivering. Du kan til og med bruke en synkroniseringsmappe, som en Dropbox-mappe, for å kombinere lokale og skybaserte sikkerhetskopier. Denne metoden **fungerer godt sammen med** sikkerhetskopieringsalternativene beskrevet nedenfor.
+
+Se kategorien [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) for flere community-utvidelsesalternativer.
 
 ## Bruk skybaserte tjenester
 

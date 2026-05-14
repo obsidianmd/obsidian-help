@@ -93,4 +93,4 @@ Por fim, isto pode acontecer quando restaura um ficheiro num dispositivo, mas de
 Este problema deve-se provavelmente ao Google ou ao Android Photos a gerir os seus anexos. Para impedir que o sistema altere ficheiros recebidos via Sync, adicione um [ficheiro `.nomedia` ao seu cofre](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) no seu dispositivo Android.
 
 > [!tip]- Utilize um plugin
-> O plugin da comunidade [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) facilita este processo. Instale-o no seu telemóvel Android. Note que os ficheiros `.nomedia` não são sincronizados entre dispositivos através do Obsidian Sync.
+> O plugin da comunidade [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) facilita este processo. Instale-o no seu telemóvel Android. Note que os ficheiros `.nomedia` não são sincronizados entre dispositivos através do Obsidian Sync.

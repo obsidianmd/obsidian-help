@@ -16,12 +16,14 @@ Zalecamy również zapoznanie się z naszym [[Tworzenie kopii zapasowej plików 
 
 W Obsidian Twoje dane są po prostu przechowywane jako pliki w folderze zwanym [[Sejfy lokalne i zdalne|skarbcem]]. Oznacza to, że istnieje wiele sposobów synchronizacji danych.
 
-Oto kilka powszechnie używanych metod synchronizacji zgłaszanych przez członków [społeczności Obsidian](https://obsidian.md/community):
+Oto kilka powszechnie używanych metod synchronizacji zgłaszanych przez członków społeczności Obsidian:
 
 1. **Synchronizacja pierwszej strony**: [[#Obsidian Sync]]
 2. **Synchronizacja chmurowa firm trzecich**: [[#iCloud]], [[#OneDrive]] i [[#Google Drive]]
 3. **Synchronizacja lokalna**: [[#Syncthing]]
 4. **Kontrola wersji**: [[#Git]] i [[#Working Copy]]
+
+Dziesiątki alternatywnych opcji synchronizacji można znaleźć w [katalogu wtyczek społeczności](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

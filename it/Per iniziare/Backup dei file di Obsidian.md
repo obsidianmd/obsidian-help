@@ -24,10 +24,12 @@ Se usi più dispositivi con la sincronizzazione, scegli **un dispositivo** come 
 
 ## Usa plugin della community
 
-Sebbene il Team di Obsidian non possa ufficialmente raccomandare alcun plugin specifico, riconosciamo due plugin della community che sono diventati popolari tra gli utenti per il backup dei loro file:
+Sebbene il Team di Obsidian non possa ufficialmente raccomandare alcun plugin specifico, riconosciamo due [plugin della community](https://community.obsidian.md/search?type=plugin&categories=backup) che sono diventati popolari tra gli utenti per il backup dei loro file:
 
-- **[Obsidian Git](https://obsidian.md/it/plugins?id=obsidian-git):** Usa questo plugin per eseguire il backup della tua cassaforte effettuando il commit dei suoi contenuti in un [Repository Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). È un modo efficace per controllare le versioni delle tue note e garantire la loro sicurezza su un server remoto. Tuttavia, tieni presente che i tuoi dati potrebbero essere memorizzati su una [[#Usa servizi basati sul cloud|piattaforma di hosting esterna]] con questo metodo.
-- **[Local Backup](https://obsidian.md/it/plugins?id=local-backup):** Questo plugin ti permette di creare copie locali della tua cassaforte in una cartella a tua scelta, con opzioni per l'archiviazione. Puoi persino usare una cartella di sincronizzazione, come una cartella Dropbox, per combinare backup locali e nel cloud. Questo metodo **si abbina bene** con le opzioni di backup descritte di seguito.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Usa questo plugin per eseguire il backup della tua cassaforte effettuando il commit dei suoi contenuti in un [Repository Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). È un modo efficace per controllare le versioni delle tue note e garantire la loro sicurezza su un server remoto. Tuttavia, tieni presente che i tuoi dati potrebbero essere memorizzati su una [[#Usa servizi basati sul cloud|piattaforma di hosting esterna]] con questo metodo.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Questo plugin ti permette di creare copie locali della tua cassaforte in una cartella a tua scelta, con opzioni per l'archiviazione. Puoi persino usare una cartella di sincronizzazione, come una cartella Dropbox, per combinare backup locali e nel cloud. Questo metodo **si abbina bene** con le opzioni di backup descritte di seguito.
+
+Consulta la categoria [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) per ulteriori opzioni di plugin della community.
 
 ## Usa servizi basati sul cloud
 

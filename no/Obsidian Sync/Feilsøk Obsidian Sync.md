@@ -93,4 +93,4 @@ Til slutt kan dette skje når du gjenoppretter en fil på én enhet, men den der
 Dette problemet skyldes sannsynligvis at Google eller Android Photos håndterer vedleggene dine. For å forhindre at systemet endrer filer mottatt via Sync, legg til en `.nomedia`-[fil i hvelvet ditt](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) på Android-enheten din.
 
 > [!tip]- Bruk en utvidelse
-> Community-utvidelsen [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) gjør dette enklere. Installer den på Android-telefonen din. Merk at `.nomedia`-filer ikke synkroniseres på tvers av enheter gjennom Obsidian Sync.
+> Community-utvidelsen [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) gjør dette enklere. Installer den på Android-telefonen din. Merk at `.nomedia`-filer ikke synkroniseres på tvers av enheter gjennom Obsidian Sync.

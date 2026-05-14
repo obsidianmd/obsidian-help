@@ -71,7 +71,7 @@ Po otvorení vývojárskej konzoly:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Prístup ku konzole na mobilných zariadeniach
-> Mobilné zariadenia a tablety majú obmedzený prístup k vývojárskym konzolám. Pre týchto používateľov odporúčame použiť komunitný plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) na automatické generovanie údajov konzolového protokolu v markdown poznámke.
+> Mobilné zariadenia a tablety majú obmedzený prístup k vývojárskym konzolám. Pre týchto používateľov odporúčame použiť komunitný plugin [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) na automatické generovanie údajov konzolového protokolu v markdown poznámke.
 
 ### Kontaktovať podporu Obsidian
 

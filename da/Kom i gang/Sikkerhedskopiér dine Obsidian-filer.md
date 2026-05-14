@@ -24,11 +24,13 @@ Hvis du anvender flere enheder med synkronisering, så vælg **en enhed** til at
 > [!Eksempel] Du anvender Obsidian Sync på din bærbare computer, tablet, mobil og arbejdscomputer. Du anvender mest din boks på din arbejdscomputer, nogle gange på din bærbare computer og sjældent på din tablet eller din mobil. I det tilfælde vil din arbejdscomputer være din "primære enhed", som den som du bør tage backup af.
 
 ## Benyt fællesskabsplugins
-Selvom Obsidian teamet ikke officielt kan anbefale et specifikt plugin, så anerkender vi to fællesskabsplugins som er blevet populære blandt brugerne til at tage backup af deres filer:
+Selvom Obsidian teamet ikke officielt kan anbefale et specifikt plugin, så anerkender vi to [fællesskabsplugins](https://community.obsidian.md/search?type=plugin&categories=backup) som er blevet populære blandt brugerne til at tage backup af deres filer:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Du kan anvende dette plugin til at tage backup af din noks ved at udføre commit til et [Git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Det er en effektiv måde, at versionere dine noter på og sikre deres sikkerhed på en fjernserver. Bemærk dog, at dine data kan blive gemt på en [[#Benyt Cloudbaserede services|ekstern hosting platform]], når denne metode anvendes.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Du kan anvende dette plugin til at tage backup af din noks ved at udføre commit til et [Git repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Det er en effektiv måde, at versionere dine noter på og sikre deres sikkerhed på en fjernserver. Bemærk dog, at dine data kan blive gemt på en [[#Benyt Cloudbaserede services|ekstern hosting platform]], når denne metode anvendes.
 
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Dette plugin tillader dig, at lave lokale kopier af din boks i en mappe efter dit valg, med mulighed for arkivering. Du kan endda bruge en synkroniseret mappe, som fx. en Dropbox mappe til at kombinere lakal og cloud backup. Denne metode går **godt i spænd** med backumulighedene beskrevet forneden.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Dette plugin tillader dig, at lave lokale kopier af din boks i en mappe efter dit valg, med mulighed for arkivering. Du kan endda bruge en synkroniseret mappe, som fx. en Dropbox mappe til at kombinere lakal og cloud backup. Denne metode går **godt i spænd** med backumulighedene beskrevet forneden.
+
+Se kategorien [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) for flere fællesskabsplugin muligheder.
 
 ## Benyt Cloudbaserede services
 
@@ -66,4 +68,3 @@ Dit operativsystem giver dig også mulighed for at hjælpe til med at tage backu
 ## Yderligere information
 
 Denne side giver en kun kort overblik over backup muliheder, som den er ikke udtømmende. Besøg [Worldbackupday.com](https://www.worldbackupday.com/en) for mere dybdegående information eller spørgs andre Obsidian brugere i [vores fællesskab](https://obsidian.md/community) om deres backup strategier!
-

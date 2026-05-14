@@ -93,4 +93,4 @@ Son olarak, bu durum bir cihazda bir dosyayı geri yüklediğinizde, ancak dosya
 Bu sorun büyük olasılıkla Google veya Android Fotoğraflar'ın eklerinizi yönetmesinden kaynaklanmaktadır. Sistemin Sync aracılığıyla alınan dosyaları değiştirmesini önlemek için, Android cihazınızdaki kasanıza bir `.nomedia` [dosyası ekleyin](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en).
 
 > [!tip]- Bir eklenti kullanın
-> Topluluk eklentisi [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) bunu kolaylaştırır. Android telefonunuza kurun. `.nomedia` dosyalarının Obsidian Sync aracılığıyla cihazlar arasında senkronize edilmediğini unutmayın.
+> Topluluk eklentisi [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) bunu kolaylaştırır. Android telefonunuza kurun. `.nomedia` dosyalarının Obsidian Sync aracılığıyla cihazlar arasında senkronize edilmediğini unutmayın.

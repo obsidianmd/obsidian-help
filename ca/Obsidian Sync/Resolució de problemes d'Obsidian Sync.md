@@ -93,4 +93,4 @@ Finalment, això pot passar quan restaureu un fitxer en un dispositiu, però lla
 Aquest problema probablement es deu al fet que Google o Android Photos gestionen els vostres adjunts. Per evitar que el sistema modifiqui fitxers rebuts via Sync, afegiu un fitxer `.nomedia` [a la vostra cambra forta](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) al vostre dispositiu Android.
 
 > [!tip]- Utilitzeu un connector
-> El connector de la comunitat [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) facilita això. Instal·leu-lo al vostre telèfon Android. Tingueu en compte que els fitxers `.nomedia` no se sincronitzen entre dispositius a través d'Obsidian Sync.
+> El connector de la comunitat [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) facilita això. Instal·leu-lo al vostre telèfon Android. Tingueu en compte que els fitxers `.nomedia` no se sincronitzen entre dispositius a través d'Obsidian Sync.

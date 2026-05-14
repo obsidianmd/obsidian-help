@@ -93,4 +93,4 @@ Nakonec k tomu může dojít, když obnovíte soubor na jednom zařízení, ale 
 Tento problém je pravděpodobně způsoben tím, že Google nebo Android Fotky spravují vaše přílohy. Chcete-li zabránit systému ve změně souborů přijatých přes Sync, přidejte [soubor `.nomedia`](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) do svého trezoru na zařízení s Androidem.
 
 > [!tip]- Použijte plugin
-> Komunitní plugin [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) to usnadňuje. Nainstalujte ho na svůj telefon s Androidem. Mějte na paměti, že soubory `.nomedia` se nesynchronizují mezi zařízeními prostřednictvím Obsidian Sync.
+> Komunitní plugin [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) to usnadňuje. Nainstalujte ho na svůj telefon s Androidem. Mějte na paměti, že soubory `.nomedia` se nesynchronizují mezi zařízeními prostřednictvím Obsidian Sync.

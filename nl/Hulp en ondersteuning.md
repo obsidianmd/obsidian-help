@@ -71,7 +71,7 @@ Zodra je de ontwikkelaarsconsole hebt geopend:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Consoletoegang op mobiel
-> Mobiele apparaten en tablets hebben beperkte toegang tot hun ontwikkelaarsconsoles. Voor deze gebruikers raden we aan de community-plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) te gebruiken om automatisch de consoleloggegevens te genereren in een Markdown-notitie.
+> Mobiele apparaten en tablets hebben beperkte toegang tot hun ontwikkelaarsconsoles. Voor deze gebruikers raden we aan de community-plugin [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) te gebruiken om automatisch de consoleloggegevens te genereren in een Markdown-notitie.
 
 ### Contact opnemen met Obsidian-ondersteuning
 

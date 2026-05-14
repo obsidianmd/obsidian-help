@@ -22,10 +22,12 @@ Jos käytät useita laitteita synkronoinnilla, valitse **yksi laite** varmuuskop
 
 ## Käytä yhteisön lisäosia
 
-Vaikka Obsidian-tiimi ei voi virallisesti suositella mitään tiettyä lisäosaa, tunnistamme kaksi yhteisön lisäosaa, jotka ovat tulleet suosituiksi käyttäjien keskuudessa tiedostojen varmuuskopiointiin:
+Vaikka Obsidian-tiimi ei voi virallisesti suositella mitään tiettyä lisäosaa, tunnistamme kaksi [yhteisön lisäosaa](https://community.obsidian.md/search?type=plugin&categories=backup), jotka ovat tulleet suosituiksi käyttäjien keskuudessa tiedostojen varmuuskopiointiin:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Käytä tätä lisäosaa holvisi varmuuskopiointiin tallentamalla sen sisältö [Git-arkistoon](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Se on tehokas tapa versionhallita muistiinpanojasi ja varmistaa niiden turvallisuus etäpalvelimella. Huomioi kuitenkin, että tietosi saatetaan tallentaa [[#Käytä pilvipalveluita|ulkoiselle hosting-alustalle]] tällä menetelmällä.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Tämä lisäosa antaa sinun luoda paikallisia kopioita holvistasi valitsemaasi kansioon arkistointivaihtoehtoineen. Voit jopa käyttää synkronointikansiota, kuten Dropbox-kansiota, yhdistääksesi paikalliset ja pilvivarmuuskopiot. Tämä menetelmä **sopii hyvin yhteen** alla kuvattujen varmuuskopiointivaihtoehtojen kanssa.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Käytä tätä lisäosaa holvisi varmuuskopiointiin tallentamalla sen sisältö [Git-arkistoon](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Se on tehokas tapa versionhallita muistiinpanojasi ja varmistaa niiden turvallisuus etäpalvelimella. Huomioi kuitenkin, että tietosi saatetaan tallentaa [[#Käytä pilvipalveluita|ulkoiselle hosting-alustalle]] tällä menetelmällä.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Tämä lisäosa antaa sinun luoda paikallisia kopioita holvistasi valitsemaasi kansioon arkistointivaihtoehtoineen. Voit jopa käyttää synkronointikansiota, kuten Dropbox-kansiota, yhdistääksesi paikalliset ja pilvivarmuuskopiot. Tämä menetelmä **sopii hyvin yhteen** alla kuvattujen varmuuskopiointivaihtoehtojen kanssa.
+
+Katso [Varmuuskopiointi](https://community.obsidian.md/search?type=plugin&categories=backup)-kategoriasta lisää yhteisön lisäosavaihtoehtoja.
 
 ## Käytä pilvipalveluita
 

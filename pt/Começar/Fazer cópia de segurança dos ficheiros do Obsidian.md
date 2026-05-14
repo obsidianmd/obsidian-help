@@ -22,10 +22,12 @@ Se utiliza vários dispositivos com sincronização, escolha **um dispositivo** 
 
 ## Usar plugins da comunidade
 
-Embora a equipa do Obsidian não possa endossar oficialmente nenhum plugin específico, reconhecemos dois plugins da comunidade que se tornaram populares entre os utilizadores para fazer cópias de segurança dos seus ficheiros:
+Embora a equipa do Obsidian não possa endossar oficialmente nenhum plugin específico, reconhecemos dois [plugins da comunidade](https://community.obsidian.md/search?type=plugin&categories=backup) que se tornaram populares entre os utilizadores para fazer cópias de segurança dos seus ficheiros:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Use este plugin para fazer cópia de segurança do seu cofre ao submeter o seu conteúdo para um [Repositório Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). É uma forma eficaz de controlar versões das suas notas e garantir a sua segurança num servidor remoto. No entanto, esteja ciente de que os seus dados podem ser armazenados numa [[#Usar serviços baseados na nuvem|plataforma de alojamento externa]] ao utilizar este método.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Este plugin permite criar cópias locais do seu cofre numa pasta à sua escolha, com opções de arquivo. Pode até usar uma pasta de sincronização, como uma pasta do Dropbox, para combinar cópias de segurança locais e na nuvem. Este método **combina bem** com as opções de cópia de segurança descritas abaixo.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Use este plugin para fazer cópia de segurança do seu cofre ao submeter o seu conteúdo para um [Repositório Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). É uma forma eficaz de controlar versões das suas notas e garantir a sua segurança num servidor remoto. No entanto, esteja ciente de que os seus dados podem ser armazenados numa [[#Usar serviços baseados na nuvem|plataforma de alojamento externa]] ao utilizar este método.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Este plugin permite criar cópias locais do seu cofre numa pasta à sua escolha, com opções de arquivo. Pode até usar uma pasta de sincronização, como uma pasta do Dropbox, para combinar cópias de segurança locais e na nuvem. Este método **combina bem** com as opções de cópia de segurança descritas abaixo.
+
+Consulte a categoria [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) para mais opções de plugins da comunidade.
 
 ## Usar serviços baseados na nuvem
 

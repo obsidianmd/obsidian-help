@@ -71,7 +71,7 @@ Po otwarciu konsoli deweloperskiej:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Dostęp do konsoli na urządzeniach mobilnych
-> Urządzenia mobilne i tablety mają ograniczony dostęp do konsoli deweloperskiej. Dla tych użytkowników zalecamy korzystanie z wtyczki społeczności [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza), która automatycznie generuje dane logów konsoli w notatce Markdown.
+> Urządzenia mobilne i tablety mają ograniczony dostęp do konsoli deweloperskiej. Dla tych użytkowników zalecamy korzystanie z wtyczki społeczności [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza), która automatycznie generuje dane logów konsoli w notatce Markdown.
 
 ### Kontakt ze wsparciem Obsidian
 

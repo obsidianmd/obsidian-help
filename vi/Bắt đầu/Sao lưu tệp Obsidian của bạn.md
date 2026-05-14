@@ -22,10 +22,12 @@ Nếu bạn sử dụng nhiều thiết bị với đồng bộ hóa, hãy chọ
 
 ## Sử dụng plugin cộng đồng
 
-Mặc dù Đội ngũ Obsidian không thể chính thức khuyên dùng bất kỳ plugin cụ thể nào, chúng tôi ghi nhận hai plugin cộng đồng đã trở nên phổ biến trong cộng đồng người dùng để sao lưu tệp:
+Mặc dù Đội ngũ Obsidian không thể chính thức khuyên dùng bất kỳ plugin cụ thể nào, chúng tôi ghi nhận hai [plugin cộng đồng](https://community.obsidian.md/search?type=plugin&categories=backup) đã trở nên phổ biến trong cộng đồng người dùng để sao lưu tệp:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Sử dụng plugin này để sao lưu kho bằng cách commit nội dung vào một [Kho Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Đây là cách hiệu quả để quản lý phiên bản ghi chú và đảm bảo an toàn trên máy chủ từ xa. Tuy nhiên, xin lưu ý rằng dữ liệu của bạn có thể được lưu trữ trên [[#Sử dụng dịch vụ đám mây|nền tảng lưu trữ bên ngoài]] khi sử dụng phương pháp này.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Plugin này cho phép bạn tạo bản sao cục bộ của kho trong thư mục bạn chọn, với tùy chọn lưu trữ. Bạn thậm chí có thể sử dụng thư mục đồng bộ, như thư mục Dropbox, để kết hợp sao lưu cục bộ và đám mây. Phương pháp này **kết hợp tốt** với các tùy chọn sao lưu được mô tả bên dưới.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Sử dụng plugin này để sao lưu kho bằng cách commit nội dung vào một [Kho Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Đây là cách hiệu quả để quản lý phiên bản ghi chú và đảm bảo an toàn trên máy chủ từ xa. Tuy nhiên, xin lưu ý rằng dữ liệu của bạn có thể được lưu trữ trên [[#Sử dụng dịch vụ đám mây|nền tảng lưu trữ bên ngoài]] khi sử dụng phương pháp này.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Plugin này cho phép bạn tạo bản sao cục bộ của kho trong thư mục bạn chọn, với tùy chọn lưu trữ. Bạn thậm chí có thể sử dụng thư mục đồng bộ, như thư mục Dropbox, để kết hợp sao lưu cục bộ và đám mây. Phương pháp này **kết hợp tốt** với các tùy chọn sao lưu được mô tả bên dưới.
+
+Xem danh mục [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) để biết thêm các tùy chọn plugin cộng đồng.
 
 ## Sử dụng dịch vụ đám mây
 

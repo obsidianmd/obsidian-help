@@ -16,12 +16,14 @@ Verilerinizi korumak için [[Obsidian dosyalarınızı yedekleyin|yedekleme rehb
 
 Obsidian'da verileriniz, [[Yerel ve uzak kasalar|kasa]] adı verilen bir klasörde basitçe dosya olarak saklanır. Bu, verilerinizi senkronize etmenin birçok yolu olduğu anlamına gelir.
 
-[Obsidian Topluluğu](https://obsidian.md/community) üyeleri tarafından bildirilen yaygın senkronizasyon yöntemlerinden bazıları şunlardır:
+Obsidian topluluğu üyeleri tarafından bildirilen yaygın senkronizasyon yöntemlerinden bazıları şunlardır:
 
 1. **Birinci taraf senkronizasyon**: [[#Obsidian Sync]]
 2. **Üçüncü taraf bulut senkronizasyon**: [[#iCloud]], [[#OneDrive]] ve [[#Google Drive]]
 3. **Yerel senkronizasyon**: [[#Syncthing]]
 4. **Sürüm kontrolü**: [[#Git]] ve [[#Working Copy]]
+
+Düzinelerce alternatif senkronizasyon seçeneği [Topluluk eklentileri dizininde](https://community.obsidian.md/search?type=plugin&categories=syncing) bulunabilir.
 
 ## Obsidian Sync
 

@@ -93,4 +93,4 @@ Meeting notes (Conflicted copy MyMacBook2 202411281430).md
 Αυτό το πρόβλημα πιθανότατα οφείλεται στο Google ή στο Android Photos που διαχειρίζεται τα συνημμένα σας. Για να αποτρέψετε το σύστημα από το να αλλάζει αρχεία που λαμβάνονται μέσω Sync, προσθέστε ένα αρχείο `.nomedia` [στο θησαυροφυλάκιό σας](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) στη συσκευή Android σας.
 
 > [!tip]- Χρησιμοποιήστε ένα πρόσθετο
-> Το πρόσθετο κοινότητας [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) κάνει αυτό πιο εύκολο. Εγκαταστήστε το στο τηλέφωνο Android σας. Σημειώστε ότι τα αρχεία `.nomedia` δεν συγχρονίζονται μεταξύ συσκευών μέσω του Obsidian Sync.
+> Το πρόσθετο κοινότητας [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) κάνει αυτό πιο εύκολο. Εγκαταστήστε το στο τηλέφωνο Android σας. Σημειώστε ότι τα αρχεία `.nomedia` δεν συγχρονίζονται μεταξύ συσκευών μέσω του Obsidian Sync.

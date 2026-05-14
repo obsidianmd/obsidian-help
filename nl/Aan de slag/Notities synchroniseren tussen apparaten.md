@@ -16,12 +16,14 @@ We raden ook aan om onze [[Back-up maken van je Obsidian-bestanden|back-upgids]]
 
 Bij Obsidian worden je gegevens eenvoudigweg opgeslagen als bestanden in een map die een [[Lokale en externe kluizen|kluis]] wordt genoemd. Dit betekent dat er veel manieren zijn om je gegevens te synchroniseren.
 
-Dit zijn enkele veelgebruikte synchronisatiemethoden die door leden van de [Obsidian Community](https://obsidian.md/community) worden gerapporteerd:
+Dit zijn enkele veelgebruikte synchronisatiemethoden die door leden van de Obsidian-community worden gerapporteerd:
 
 1. **Eigen synchronisatie**: [[#Obsidian Sync]]
 2. **Cloudopslag van derden**: [[#iCloud]], [[#OneDrive]] en [[#Google Drive]]
 3. **Lokale synchronisatie**: [[#Syncthing]]
 4. **Versiebeheer**: [[#Git]] en [[#Working Copy]]
+
+Tientallen alternatieve synchronisatieopties zijn te vinden in de [Community-plug-ins-directory](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

@@ -22,10 +22,12 @@ Si utilitzeu múltiples dispositius amb sincronització, trieu **un dispositiu**
 
 ## Utilitzar connectors de la comunitat
 
-Tot i que l'equip d'Obsidian no pot recomanar oficialment cap connector específic, reconeixem dos connectors de la comunitat que s'han fet populars entre els usuaris per fer còpia de seguretat dels seus fitxers:
+Tot i que l'equip d'Obsidian no pot recomanar oficialment cap connector específic, reconeixem dos [connectors de la comunitat](https://community.obsidian.md/search?type=plugin&categories=backup) que s'han fet populars entre els usuaris per fer còpia de seguretat dels seus fitxers:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Utilitzeu aquest connector per fer còpia de seguretat de la vostra cambra forta fent commits del seu contingut a un [repositori Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). És una manera efectiva de controlar les versions de les vostres notes i assegurar-ne la seguretat en un servidor remot. No obstant això, tingueu en compte que les vostres dades es poden emmagatzemar en una [[#Utilitzar serveis al núvol|plataforma d'allotjament externa]] amb aquest mètode.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Aquest connector us permet crear còpies locals de la vostra cambra forta en una carpeta que trieu, amb opcions d'arxivament. Fins i tot podeu utilitzar una carpeta de sincronització, com una carpeta de Dropbox, per combinar còpies de seguretat locals i al núvol. Aquest mètode **combina bé** amb les opcions de còpia de seguretat descrites a continuació.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Utilitzeu aquest connector per fer còpia de seguretat de la vostra cambra forta fent commits del seu contingut a un [repositori Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). És una manera efectiva de controlar les versions de les vostres notes i assegurar-ne la seguretat en un servidor remot. No obstant això, tingueu en compte que les vostres dades es poden emmagatzemar en una [[#Utilitzar serveis al núvol|plataforma d'allotjament externa]] amb aquest mètode.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Aquest connector us permet crear còpies locals de la vostra cambra forta en una carpeta que trieu, amb opcions d'arxivament. Fins i tot podeu utilitzar una carpeta de sincronització, com una carpeta de Dropbox, per combinar còpies de seguretat locals i al núvol. Aquest mètode **combina bé** amb les opcions de còpia de seguretat descrites a continuació.
+
+Consulteu la categoria [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) per a més opcions de connectors de la comunitat.
 
 ## Utilitzar serveis al núvol
 

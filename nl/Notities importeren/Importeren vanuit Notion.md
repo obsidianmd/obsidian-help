@@ -1,7 +1,7 @@
 ---
 permalink: import/notion
 ---
-Met Obsidian kun je eenvoudig je notities migreren vanuit Notion met behulp van de [[Importer|Importer-plug-in]]. Dit zal je Notion-gegevens converteren naar duurzame Markdown-bestanden die je offline kunt gebruiken met Obsidian en veel andere apps.
+Met Obsidian kun je eenvoudig je notities migreren vanuit Notion met behulp van de [[Importeren|Importer-plug-in]]. Dit zal je Notion-gegevens converteren naar duurzame Markdown-bestanden die je offline kunt gebruiken met Obsidian en veel andere apps.
 
 Obsidian biedt twee manieren om je Notion-gegevens te importeren:
 
@@ -40,7 +40,7 @@ Je kunt nu je gegevens converteren met Obsidian Importer.
 
 ### Je Notion-gegevens importeren via API
 
-Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).
@@ -94,7 +94,7 @@ Om je gegevens voor te bereiden op import, moet je je volledige werkruimte expor
 
 ### Je Notion .zip-bestand importeren
 
-Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).

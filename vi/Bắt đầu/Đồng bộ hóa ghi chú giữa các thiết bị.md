@@ -16,12 +16,14 @@ Chúng tôi cũng khuyến nghị đọc [[Sao lưu tệp Obsidian của bạn|h
 
 Với Obsidian, dữ liệu của bạn đơn giản được lưu trữ dưới dạng các tệp trong một thư mục gọi là [[Kho lưu trữ cục bộ và từ xa|kho]]. Điều này có nghĩa là có nhiều cách để đồng bộ hóa dữ liệu của bạn.
 
-Dưới đây là một số phương thức đồng bộ hóa phổ biến được các thành viên [Cộng đồng Obsidian](https://obsidian.md/community) sử dụng:
+Dưới đây là một số phương thức đồng bộ hóa phổ biến được các thành viên cộng đồng Obsidian sử dụng:
 
 1. **Đồng bộ hóa chính hãng**: [[#Obsidian Sync]]
 2. **Đồng bộ hóa đám mây bên thứ ba**: [[#iCloud]], [[#OneDrive]], và [[#Google Drive]]
 3. **Đồng bộ hóa cục bộ**: [[#Syncthing]]
 4. **Quản lý phiên bản**: [[#Git]] và [[#Working Copy]]
+
+Hàng chục tùy chọn đồng bộ hóa thay thế có thể được tìm thấy trong [Thư mục plugin cộng đồng](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

@@ -93,4 +93,4 @@ Wreszcie, może się to zdarzyć, gdy przywrócisz plik na jednym urządzeniu, a
 Ten problem prawdopodobnie wynika z zarządzania załącznikami przez Google lub Android Photos. Aby zapobiec zmienianiu plików otrzymanych przez Sync przez system, dodaj plik `.nomedia` [do swojego sejfu](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) na urządzeniu z Androidem.
 
 > [!tip]- Użyj wtyczki
-> Wtyczka społeczności [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) ułatwia to zadanie. Zainstaluj ją na swoim telefonie z Androidem. Pamiętaj, że pliki `.nomedia` nie są synchronizowane między urządzeniami przez Obsidian Sync.
+> Wtyczka społeczności [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) ułatwia to zadanie. Zainstaluj ją na swoim telefonie z Androidem. Pamiętaj, że pliki `.nomedia` nie są synchronizowane między urządzeniami przez Obsidian Sync.

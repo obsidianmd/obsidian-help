@@ -83,7 +83,7 @@ Nogle kerneplugins er som standar deaktiveret. Du kan aktivere dem under **Indst
 
 Obsidian teamet vedligeholder også nogle plugins gennem fælleskabsplugin butikken:
 
-- [[Importer]]
+- [[Importér]]
 	- Konverterer filer fra forskellige applikationer og formater, og importerer dem til Obsidian.
 - [[Landkort|Maps]]
 	- Tilføjer en kortvisning til Obsidian Baser.

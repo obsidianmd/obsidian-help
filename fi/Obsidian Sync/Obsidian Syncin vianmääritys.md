@@ -93,4 +93,4 @@ Lopuksi tämä voi tapahtua, kun palautat tiedoston yhdellä laitteella, mutta s
 Tämä ongelma johtuu todennäköisesti siitä, että Google tai Android Photos hallinnoi liitteitäsi. Estä järjestelmää muokkaamasta Syncin kautta vastaanotettuja tiedostoja lisäämällä `.nomedia`-[tiedosto holviisi](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) Android-laitteellasi.
 
 > [!tip]- Käytä lisäosaa
-> Yhteisön lisäosa [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) helpottaa tätä. Asenna se Android-puhelimeesi. Huomaa, että `.nomedia`-tiedostot eivät synkronoidu laitteiden välillä Obsidian Syncin kautta.
+> Yhteisön lisäosa [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) helpottaa tätä. Asenna se Android-puhelimeesi. Huomaa, että `.nomedia`-tiedostot eivät synkronoidu laitteiden välillä Obsidian Syncin kautta.

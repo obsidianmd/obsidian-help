@@ -1,7 +1,6 @@
 ---
 permalink: backup
 ---
-
 아직 컴퓨터를 백업하지 않았다면, 지금 시작하세요! Obsidian의 [[파일 복원]] 플러그인은 유용하지만 제한적이에요. 일정량의 데이터만 복구할 수 있으며, 복구 정보를 기기별로 저장해요. 더 강력한 보호를 위해 적절한 백업 시스템을 구축하는 것을 권장해요.
 
 **왜 데이터를 백업해야 하나요?**
@@ -23,10 +22,12 @@ permalink: backup
 
 ## 커뮤니티 플러그인 사용
 
-Obsidian 팀은 특정 플러그인을 공식적으로 추천할 수는 없지만, 파일 백업용으로 사용자들 사이에서 인기를 얻은 두 가지 커뮤니티 플러그인을 소개해요:
+Obsidian 팀은 특정 플러그인을 공식적으로 추천할 수는 없지만, 파일 백업용으로 사용자들 사이에서 인기를 얻은 두 가지 [커뮤니티 플러그인](https://community.obsidian.md/search?type=plugin&categories=backup)을 소개해요:
 
-- **[Obsidian Git](https://obsidian.md/ko/plugins?id=obsidian-git):** 이 플러그인을 사용하여 보관함의 내용을 [Git 저장소](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)에 커밋하여 백업할 수 있어요. 노트의 버전 관리를 하고 원격 서버에서 안전하게 보관하는 효과적인 방법이에요. 다만, 이 방법을 사용하면 데이터가 [[#클라우드 기반 서비스 사용|외부 호스팅 플랫폼]]에 저장될 수 있다는 점에 유의하세요.
-- **[Local Backup](https://obsidian.md/ko/plugins?id=local-backup):** 이 플러그인을 사용하면 보관함의 로컬 사본을 원하는 폴더에 생성할 수 있으며, 아카이브 옵션도 제공해요. Dropbox 폴더와 같은 동기화 폴더를 사용하여 로컬 백업과 클라우드 백업을 결합할 수도 있어요. 이 방법은 아래에 설명된 백업 옵션과 **잘 조합돼요**.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** 이 플러그인을 사용하여 보관함의 내용을 [Git 저장소](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)에 커밋하여 백업할 수 있어요. 노트의 버전 관리를 하고 원격 서버에서 안전하게 보관하는 효과적인 방법이에요. 다만, 이 방법을 사용하면 데이터가 [[#클라우드 기반 서비스 사용|외부 호스팅 플랫폼]]에 저장될 수 있다는 점에 유의하세요.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** 이 플러그인을 사용하면 보관함의 로컬 사본을 원하는 폴더에 생성할 수 있으며, 아카이브 옵션도 제공해요. Dropbox 폴더와 같은 동기화 폴더를 사용하여 로컬 백업과 클라우드 백업을 결합할 수도 있어요. 이 방법은 아래에 설명된 백업 옵션과 **잘 조합돼요**.
+
+더 많은 커뮤니티 플러그인 옵션은 [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) 카테고리를 참고하세요.
 
 ## 클라우드 기반 서비스 사용
 

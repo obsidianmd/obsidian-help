@@ -22,10 +22,12 @@ Ha több eszközön használsz szinkronizálást, válassz **egy eszközt** bizt
 
 ## Közösségi bővítmények használata
 
-Bár az Obsidian csapata hivatalosan nem tud egyetlen konkrét bővítményt sem ajánlani, két közösségi bővítményt ismerünk el, amelyek népszerűvé váltak a felhasználók körében a fájljaik biztonsági mentéséhez:
+Bár az Obsidian csapata hivatalosan nem tud egyetlen konkrét bővítményt sem ajánlani, két [közösségi bővítményt](https://community.obsidian.md/search?type=plugin&categories=backup) ismerünk el, amelyek népszerűvé váltak a felhasználók körében a fájljaik biztonsági mentéséhez:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Ezzel a bővítménnyel a széfed tartalmát egy [Git-tárhelyre](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) commitolva készíthetsz biztonsági mentést. Ez hatékony módja a jegyzeteid verziókezelésének és biztonságuk megőrzésének egy távoli szerveren. Azonban vedd figyelembe, hogy ezzel a módszerrel az adataid egy [[#Felhőalapú szolgáltatások használata|külső hosting platformon]] tárolódhatnak.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Ez a bővítmény lehetővé teszi, hogy helyi másolatokat készíts a széfedről egy általad választott mappába, archiválási lehetőségekkel. Akár szinkronizálási mappát is használhatsz, például Dropbox-mappát, hogy kombináld a helyi és a felhőalapú biztonsági mentéseket. Ez a módszer **jól kiegészíti** az alább leírt biztonsági mentési lehetőségeket.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Ezzel a bővítménnyel a széfed tartalmát egy [Git-tárhelyre](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) commitolva készíthetsz biztonsági mentést. Ez hatékony módja a jegyzeteid verziókezelésének és biztonságuk megőrzésének egy távoli szerveren. Azonban vedd figyelembe, hogy ezzel a módszerrel az adataid egy [[#Felhőalapú szolgáltatások használata|külső hosting platformon]] tárolódhatnak.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Ez a bővítmény lehetővé teszi, hogy helyi másolatokat készíts a széfedről egy általad választott mappába, archiválási lehetőségekkel. Akár szinkronizálási mappát is használhatsz, például Dropbox-mappát, hogy kombináld a helyi és a felhőalapú biztonsági mentéseket. Ez a módszer **jól kiegészíti** az alább leírt biztonsági mentési lehetőségeket.
+
+További közösségi bővítmény lehetőségekért lásd a [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) kategóriát.
 
 ## Felhőalapú szolgáltatások használata
 

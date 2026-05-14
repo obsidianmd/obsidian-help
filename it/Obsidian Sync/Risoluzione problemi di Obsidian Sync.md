@@ -45,13 +45,13 @@ A partire da Obsidian 1.9.7, puoi scegliere come gestire i conflitti. Per config
 Quando utilizzi l'opzione "Crea file di conflitto", Obsidian crea un nuovo file con questo schema di denominazione:
 
 ```
-nome-nota-originale.sync-conflict-AAAAMMGG-HHMMSS.md
+nome-nota-originale (Conflicted copy nome-dispositivo AAAAMMGGHHMI).md
 ```
 
 Ad esempio, se si verifica un conflitto in una nota chiamata `Note riunione.md`, il file di conflitto potrebbe chiamarsi:
 
 ```
-Note riunione.sync-conflict-20241128-143022.md
+Note riunione (Conflicted copy MyMacBook2 202411281430).md
 ```
 
 Il file di conflitto contiene le modifiche dal dispositivo in cui è stato rilevato il conflitto. Il file originale mantiene la versione remota. Puoi confrontare entrambi i file e unire manualmente il contenuto.
@@ -95,4 +95,4 @@ Infine, questo può accadere quando ripristini un file su un dispositivo, ma poi
 Questo problema è probabilmente dovuto a Google o Android Foto che gestiscono i tuoi allegati. Per impedire al sistema di modificare i file ricevuti tramite Sync, aggiungi un [file `.nomedia` alla tua cassaforte](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) sul tuo dispositivo Android.
 
 > [!tip]- Usa un plugin
-> Il plugin della community [Android Nomedia](https://obsidian.md/it/plugins?id=android-nomedia) semplifica questa operazione. Installalo sul tuo telefono Android. Nota che i file `.nomedia` non vengono sincronizzati tra i dispositivi tramite Obsidian Sync.
+> Il plugin della community [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) semplifica questa operazione. Installalo sul tuo telefono Android. Nota che i file `.nomedia` non vengono sincronizzati tra i dispositivi tramite Obsidian Sync.

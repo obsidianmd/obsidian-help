@@ -8,34 +8,91 @@ aliases:
   - Fejlsøg Obsidian Sync
   - Obsidian Sync/Fejlsøg Obsidian Sync
 ---
-Denne side gennemgår de mest almindelige problemer, du kan komme ud for, og hvordan du kan addressere dem.
+Denne side gennemgår ualmindelige problemer, du kan støde på med [[Introduktion til Obsidian Sync|Obsidian Sync]], og hvordan du kan løse dem. Før du fortsætter, anbefaler vi at gennemgå siderne [[Statusikon og meddelelser]] og [[Ofte stillede spørgsmål]].
 
-## Konfliktløsninger
+## Generelt
 
-En konfliktløsning opstår, når du har lavet ændringer i den samme fil på to eller flere enheder imellem synkroniseringer. Fx. kan du have foretaget ændringer i en fil på din computer, og før denne ændring når at blive uploaded, har du også ændret den samme fil på din mobil.
+### Konfliktløsning
 
-Konfliker opstår oftere, hvis du arbejder offline, da der er flere ændringer og længere perioder mellem synkroniseringer.
+En konflikt opstår, når du ændrer den samme fil på to eller flere enheder, før de synkroniserer. Fx. kan du redigere en note på din computer. Før ændringen uploades, ændrer du også den samme note på din mobil.
 
-Når Obsidian Sync downloader en ny version af en fil, og finder ud af at der er konflikter med en lokal version, vil ændringer blive flettet ved hjælp af Googles diff-match-patch-algoritme.
+Konflikter opstår oftere, hvis du arbejder offline. Der er flere ændringer og længere tid mellem synkroniseringer, hvilket øger risikoen for konflikter.
 
-> [!tip]
-> For at finde ud af, hvornår konflikterne opstod, kan du vælge **Indstillinger** → **Synkroniser** → **Synkroniserinsaktivitet** → **Vis**. Tryk på "Kopier synkroniseingslog" og indsæt loggen fra udklipsholderen i en tom note. Derefter søger du efter "Merging conflicted file".
+#### Sådan håndterer Obsidian Sync konflikter
 
-# Obsidian Sync slette en note, som jeg netop havde oprettet på to enheder
+Når Obsidian Sync finder en konflikt, afhænger resultatet af filtypen:
 
-Obsidian Sync prøver generelt at håndtere [[#Konfliktløsninger|konflikter]] mellem enheder ved at flette indholdet mellem de konfliktende noter.
+- **Markdown-filer**: Obsidian Sync fletter ændringerne ved hjælp af Googles [diff-match-patch](https://github.com/google/diff-match-patch)-algoritme.
+- **Andre filtyper**: For alle andre filer, inklusiv lærreder, bruger Obsidian en "sidst ændret vinder"-tilgang. Den senest ændrede version erstatter tidligere versioner.
 
-Desværre kan fletning af konfliktende noter skabe problemer for brugere, som åbner automatisk genererede daglige noter ved Obsidians opstart. Obsidian addresserer dette ved at lave en undtagelse, når to noter oprettes på forskellige enheder med få minutters mellemrum.
+For konflikter i Obsidian-indstillinger, som f.eks. pluginindstillinger, fletter Obsidian Sync JSON-filerne. Den anvender nøgler fra den lokale JSON oven på den eksterne JSON.
 
-Obsidian Sync vil i et sådant tilfælde beholde den første note uden at flette med den anden. Du kan stadig gendanne den anden note ved hjælp af [[Filgenoprettelse]].
+#### Muligheder for konfliktløsning
 
-## Hvad betyder fejlen `vault limit exceeded`?
+Fra Obsidian 1.9.7 kan du vælge, hvordan konflikter skal håndteres. Sådan konfigurerer du denne indstilling:
 
-Din boks overstiger [[Begrænsninger#Hvor stor kan hver fjernboks blive?|maksimumstørrelsen på 10 GB]] .
+1. Åbn **[[Indstillinger|Indstillinger]]**.
+2. Vælg **Sync** i sidebjælken.
+3. Under **[[Sync indstillinger og selektiv synkronisering#Conflict resolution|Konfliktløsning]]** vælger du din foretrukne mulighed:
+   - **Flet automatisk** (standard): Obsidian Sync kombinerer alle ændringer fra forskellige enheder til en enkelt fil. Dette gemmer alle redigeringer, men det kan nogle gange skabe duplikeret tekst eller formateringsproblemer. Du skal rette disse manuelt.
+   - **Opret konfliktfil**: Når Obsidian finder modstridende ændringer, opretter den en separat konfliktfil i stedet for at flette automatisk. Du kan derefter gennemgå begge versioner og flette dem selv. Dette giver dig fuld kontrol over det endelige resultat.
 
-Da vedhæftninger og versionshistorik bidrager til din boks totale størrelse, kan din boks overstige maksimumsstørrelsen selvom den faktiske størrelse af din boks er mindre end grænsen.
+> [!warning]+ Konfigurér på alle enheder
+> Indstillinger for konfliktløsning er enhedsspecifikke. Du skal konfigurere din foretrukne mulighed på hver af dine enheder. Dette sikrer den samme adfærd på tværs af alle dine synkroniserede enheder.
 
-Sådan identificerer og fjerner du store filer fra boksen:
+**Navngivningsmønster for konfliktfiler**
 
-1. Åben **Indstillinger** → **Sync**
-2. Undersøg mulighederne for, hvordan du kan reducere størrelsen af din boks under **Boks størrelsen har overskredet grænsen**
+Når du bruger muligheden "Opret konfliktfil", opretter Obsidian en ny fil med dette navngivningsmønster:
+
+```
+original-notenavn (Conflicted copy enhedsnavn YYYYMMDDHHMM).md
+```
+
+For eksempel, hvis en konflikt opstår i en note kaldet `Meeting notes.md`, kan konfliktfilen hedde:
+
+```
+Meeting notes (Conflicted copy MyMacBook2 202411281430).md
+```
+
+Konfliktfilen indeholder ændringerne fra den enhed, hvor konflikten blev opdaget. Den originale fil beholder fjernversionen. Du kan sammenligne begge filer og manuelt flette indholdet.
+
+> [!info]+ Tjek Sync-loggen
+> For at tjekke, hvornår konflikter opstod, kan du åbne [[Statusikon og meddelelser#Sync activity log|Sync-loggen]]. Filtrér efter "Merge Conflicts" eller søg efter "Conflict".
+
+### Sync slettede en note, som jeg netop havde oprettet på to enheder
+
+Obsidian Sync prøver normalt at [[#Konfliktløsning|løse konflikter]] ved at flette modstridende noter på tværs af enheder. Der kan dog opstå problemer for brugere, som automatisk opretter eller ændrer noter ved opstart. Dette inkluderer [[Daglige noter|Daglige noter]] eller brug af fællesskabspluginet [Templater](https://github.com/SilentVoid13/Templater).
+
+Hvis du opretter en note lokalt på én enhed, og Sync inden for et par minutter downloader en fjernversion af den samme note, vil Sync beholde fjernversionen uden at flette de to. I dette tilfælde kan du gendanne den lokale version ved hjælp af [[Filgenoprettelse|Filgenoprettelse]].
+
+### Sync synkroniserer ikke mine plugin- og indstillingsopdateringer
+
+Obsidian [[Ofte stillede spørgsmål#Does Obsidian Sync live-reload my settings?|genindlæser ikke alle indstillinger live]]. Når du opdaterer indstillinger eller plugins, skal du genstarte Obsidian på andre enheder for at se ændringerne. På mobile enheder kan det være nødvendigt at tvangslukke appen.
+
+> [!example]- Ændring af tema
+> - På din primære enhed (normalt en computer) skifter du dit tema tilbage til standarden fra et brugerdefineret tema.
+> - Sync-loggen bekræfter, at de opdaterede filer blev sendt til fjernboksen, men din mobile enhed viser stadig det brugerdefinerede tema.
+> - På den mobile enhed: tjek Sync-loggen for at bekræfte modtagelsen af den opdaterede `appearance.json`-fil.
+> - Genindlæs eller genstart Obsidian på den mobile enhed.
+> - Efter genindlæsning eller genstart bør den mobile enhed vise det samme tema som din computer.
+
+### Mine filer forsvinder fra Sync, så snart jeg gendanner dem
+
+Dette problem er mest almindeligt på Windows. Windows Defender kan sætte filer med kodeblokke i karantæne, hvilket får visse noter til at forsvinde.
+
+En anden almindelig årsag er dobbelt synkronisering. Dette sker, når Obsidian Sync kører sammen med en anden synkroniseringstjeneste.
+
+![[Skift til Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage]]
+
+---
+
+Endelig kan dette ske, når du gendanner en fil på én enhed, men den derefter fjernes fra en sekundær enhed. Dette sker, når filnavnet har [[Statusikon og meddelelser#Skipped messages|ugyldige tegn]].
+
+## Android
+
+**Min enhed sletter mine vedhæftninger, som jeg modtager gennem Sync**
+
+Dette problem skyldes sandsynligvis, at Google eller Android Photos håndterer dine vedhæftninger. For at forhindre systemet i at ændre filer modtaget via Sync, skal du tilføje en `.nomedia`-[fil til din boks](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) på din Android-enhed.
+
+> [!tip]- Brug et plugin
+> Fællesskabspluginet [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) gør dette lettere. Installér det på din Android-telefon. Bemærk, at `.nomedia`-filer ikke synkroniseres på tværs af enheder gennem Obsidian Sync.

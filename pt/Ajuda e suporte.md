@@ -71,7 +71,7 @@ Depois de abrir a consola de programador:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Acesso à consola em dispositivos móveis
-> Dispositivos móveis e tablets têm acesso limitado às suas consolas de programador. Para estes utilizadores, recomendamos usar o plugin da comunidade [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) para gerar automaticamente os dados de registo da consola numa nota markdown.
+> Dispositivos móveis e tablets têm acesso limitado às suas consolas de programador. Para estes utilizadores, recomendamos usar o plugin da comunidade [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) para gerar automaticamente os dados de registo da consola numa nota markdown.
 
 ### Contactar o suporte do Obsidian
 

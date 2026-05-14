@@ -10,7 +10,7 @@ Obsidian oferuje kilka usług i licencji dostępnych do zakupu.
 	- Synchronizuj notatki między urządzeniami.
 - [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]
 	- Publikuj notatki w sieci.
-- [[Obsidian Credit]]
+- [[Środki Obsidian]]
 	- Kupuj i podaruj usługi Obsidian.
 - [[Licencja komercyjna]]
 	- Wesprzyj Obsidian i zostań wyróżnioną organizacją.

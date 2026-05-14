@@ -1,15 +1,15 @@
 ---
 permalink: import/csv
 ---
-Obsidian giver dig mulighed for at importere data fra CSV-filer ved hjælp af det officielle [[Importer|Importer-plugin]]. Dette er nyttigt, hvis du har tabeldata gemt i applikationer som Excel, Google Sheets, Numbers, Notion eller Airtable.
+Obsidian giver dig mulighed for at importere data fra CSV-filer ved hjælp af det officielle [[Importér|Importer-plugin]]. Dette er nyttigt, hvis du har tabeldata gemt i applikationer som Excel, Google Sheets, Numbers, Notion eller Airtable.
 
 CSV-import genererer Markdown-filer for hver række og en [[Introduktion til Baser|Base]]-fil, der viser alle de importerede filer som en tabel.
 
-Hvis du importerer noter fra en bestemt applikation, kan det være en god idé først at gennemgå listen over applikationer, der understøttes af [[Importer|Importer-plugin]], for at tjekke om der findes en specifik konverter, der bedre bevarer de data, du migrerer.
+Hvis du importerer noter fra en bestemt applikation, kan det være en god idé først at gennemgå listen over applikationer, der understøttes af [[Importér|Importer-plugin]], for at tjekke om der findes en specifik konverter, der bedre bevarer de data, du migrerer.
 
 ## Opret noter fra CSV-data i Obsidian
 
-Du skal bruge det officielle Obsidian [[Importer]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
+Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installere her](obsidian://show-plugin?id=obsidian-importer).
 
 1. Åbn **[[Indstillinger]]**.
 2. Gå til **Fællesskabsplugins** og [installér Importer](obsidian://show-plugin?id=obsidian-importer).

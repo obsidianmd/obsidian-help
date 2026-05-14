@@ -18,12 +18,14 @@ Kami juga menyarankan untuk membaca [[Cadangkan file Obsidian Anda|panduan penca
 
 Dengan Obsidian, data Anda hanya disimpan sebagai file dalam folder yang disebut [[Vault lokal dan remote|brankas]]. Ini berarti ada banyak cara untuk menyinkronkan data Anda.
 
-Berikut beberapa metode sinkronisasi yang umum digunakan dan dilaporkan oleh anggota [Komunitas Obsidian](https://obsidian.md/community):
+Berikut beberapa metode sinkronisasi yang umum digunakan dan dilaporkan oleh anggota komunitas Obsidian:
 
 1. **Sinkronisasi pihak pertama**: [[#Obsidian Sync]]
 2. **Sinkronisasi cloud pihak ketiga**: [[#iCloud]], [[#OneDrive]], dan [[#Google Drive]]
 3. **Sinkronisasi lokal**: [[#Syncthing]]
 4. **Kontrol versi**: [[#Git]] dan [[#Working Copy]]
+
+Puluhan opsi sinkronisasi alternatif dapat ditemukan di [direktori plugin komunitas](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

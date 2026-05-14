@@ -16,12 +16,14 @@ Vi rekommenderar också att du läser vår [[Säkerhetskopiera dina Obsidian-fil
 
 Med Obsidian lagras dina data helt enkelt som filer i en mapp som kallas ett [[Lokala och fjärrvalv|valv]]. Det betyder att det finns många sätt att synkronisera dina data.
 
-Här är några vanligt använda synkroniseringsmetoder rapporterade av medlemmar i [Obsidian-gemenskapen](https://obsidian.md/community):
+Här är några vanligt använda synkroniseringsmetoder rapporterade av medlemmar i Obsidian-gemenskapen:
 
 1. **Förstapartssynkronisering**: [[#Obsidian Sync]]
 2. **Tredjepartsmoln-synkronisering**: [[#iCloud]], [[#OneDrive]] och [[#Google Drive]]
 3. **Lokal synkronisering**: [[#Syncthing]]
 4. **Versionskontroll**: [[#Git]] och [[#Working Copy]]
+
+Dussintals alternativa synkroniseringsalternativ finns i [katalogen för gemenskapstillägg](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

@@ -22,10 +22,12 @@ Pokud používáte více zařízení se synchronizací, zvolte **jedno zařízen
 
 ## Použijte komunitní pluginy
 
-Ačkoli tým Obsidian nemůže oficiálně doporučit žádný konkrétní plugin, uznáváme dva komunitní pluginy, které se staly mezi uživateli oblíbenými pro zálohování souborů:
+Ačkoli tým Obsidian nemůže oficiálně doporučit žádný konkrétní plugin, uznáváme dva [komunitní pluginy](https://community.obsidian.md/search?type=plugin&categories=backup), které se staly mezi uživateli oblíbenými pro zálohování souborů:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Tento plugin použijte pro zálohování trezoru commitováním jeho obsahu do [Git repozitáře](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Je to efektivní způsob verzování poznámek a zajištění jejich bezpečnosti na vzdáleném serveru. Mějte však na paměti, že vaše data mohou být při této metodě uložena na [[#Použijte cloudové služby|externí hostingové platformě]].
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Tento plugin vám umožňuje vytvářet lokální kopie trezoru ve složce dle vašeho výběru s možností archivace. Můžete dokonce použít synchronizační složku, například složku Dropboxu, a kombinovat tak lokální a cloudové zálohy. Tato metoda **se dobře doplňuje** s níže popsanými možnostmi zálohování.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Tento plugin použijte pro zálohování trezoru commitováním jeho obsahu do [Git repozitáře](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Je to efektivní způsob verzování poznámek a zajištění jejich bezpečnosti na vzdáleném serveru. Mějte však na paměti, že vaše data mohou být při této metodě uložena na [[#Použijte cloudové služby|externí hostingové platformě]].
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Tento plugin vám umožňuje vytvářet lokální kopie trezoru ve složce dle vašeho výběru s možností archivace. Můžete dokonce použít synchronizační složku, například složku Dropboxu, a kombinovat tak lokální a cloudové zálohy. Tato metoda **se dobře doplňuje** s níže popsanými možnostmi zálohování.
+
+Další možnosti komunitních pluginů naleznete v kategorii [Backup](https://community.obsidian.md/search?type=plugin&categories=backup).
 
 ## Použijte cloudové služby
 

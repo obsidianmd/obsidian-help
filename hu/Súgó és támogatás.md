@@ -71,7 +71,7 @@ Miután megnyitotta a fejlesztői konzolt:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Mobil konzol hozzáférés
-> Mobil eszközök és táblagépek esetén a fejlesztői konzolhoz való hozzáférés korlátozott. Ezeknek a felhasználóknak a [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) közösségi bővítmény használatát javasoljuk, amely automatikusan generálja a konzolnapló adatait egy Markdown jegyzetbe.
+> Mobil eszközök és táblagépek esetén a fejlesztői konzolhoz való hozzáférés korlátozott. Ezeknek a felhasználóknak a [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) közösségi bővítmény használatát javasoljuk, amely automatikusan generálja a konzolnapló adatait egy Markdown jegyzetbe.
 
 ### Kapcsolatfelvétel az Obsidian támogatással
 

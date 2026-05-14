@@ -1,7 +1,7 @@
 ---
 permalink: sales-tax
 ---
-W niektórych jurysdykcjach Obsidian jest zobowiązany do pobierania podatku od sprzedaży w imieniu klientów kupujących licencje na oprogramowanie i usługi. Podatek od sprzedaży może dotyczyć [[Licencja komercyjna|licencji komercyjnych]], [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] i [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Podatek od sprzedaży zazwyczaj nie dotyczy [[Obsidian Credit]] i [[Licencja Catalyst|Catalyst]], choć istnieją wyjątki.
+W niektórych jurysdykcjach Obsidian jest zobowiązany do pobierania podatku od sprzedaży w imieniu klientów kupujących licencje na oprogramowanie i usługi. Podatek od sprzedaży może dotyczyć [[Licencja komercyjna|licencji komercyjnych]], [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] i [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Podatek od sprzedaży zazwyczaj nie dotyczy [[Środki Obsidian]] i [[Licencja Catalyst|Catalyst]], choć istnieją wyjątki.
 
 Aby określić podatki naliczane przy zakupie, korzystamy z kraju i kodu pocztowego podanych podczas realizacji zamówienia lub w sekcji Rozliczenia w panelu użytkownika. Informacje te są przechowywane na Twoim koncie, abyśmy mogli prawidłowo naliczać podatek od sprzedaży w przypadku zmiany przepisów podatkowych lub innych wymogów, które nas do tego zobowiązują.
 

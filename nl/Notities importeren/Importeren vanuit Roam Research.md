@@ -1,7 +1,7 @@
 ---
 permalink: import/roam
 ---
-Obsidian maakt het eenvoudig om je notities te migreren vanuit Roam Research met behulp van de [[Importer|Importer-plug-in]]. Dit zet je Roam-gegevens om naar duurzame Markdown-bestanden die je kunt gebruiken met Obsidian en veel andere apps.
+Obsidian maakt het eenvoudig om je notities te migreren vanuit Roam Research met behulp van de [[Importeren|Importer-plug-in]]. Dit zet je Roam-gegevens om naar duurzame Markdown-bestanden die je kunt gebruiken met Obsidian en veel andere apps.
 
 ## Je gegevens exporteren vanuit Roam Research
 
@@ -12,7 +12,7 @@ Obsidian maakt het eenvoudig om je notities te migreren vanuit Roam Research met
 
 ## Je Roam Research-gegevens importeren in Obsidian
 
-Je hebt de officiële Obsidian [[Importer]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
+Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt installeren](obsidian://show-plugin?id=obsidian-importer).
 
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).

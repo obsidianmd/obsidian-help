@@ -6,7 +6,6 @@ description: Cette page répertorie les problèmes peu courants que vous pouvez 
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 Cette page répertorie les problèmes rares que vous pouvez rencontrer avec [[Introduction à Obsidian Sync|Obsidian Sync]] et comment les résoudre. Avant de continuer, nous vous recommandons de consulter les pages [[Icône de statut et messages]] et [[Questions fréquentes]].
 
@@ -95,4 +94,4 @@ Enfin, cela peut arriver lorsque vous restaurez un fichier sur un appareil, mais
 Ce problème est probablement dû à Google ou Android Photos qui gère vos pièces jointes. Pour empêcher le système de modifier les fichiers reçus via Sync, ajoutez un [fichier `.nomedia` dans votre coffre](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) sur votre appareil Android.
 
 > [!tip]- Utilisez un module
-> Le module complémentaire [Android Nomedia](https://obsidian.md/fr/plugins?id=android-nomedia) facilite cette opération. Installez-le sur votre téléphone Android. Notez que les fichiers `.nomedia` ne sont pas synchronisés entre les appareils via Obsidian Sync.
+> Le module complémentaire [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) facilite cette opération. Installez-le sur votre téléphone Android. Notez que les fichiers `.nomedia` ne sont pas synchronisés entre les appareils via Obsidian Sync.

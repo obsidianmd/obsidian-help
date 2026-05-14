@@ -22,10 +22,12 @@ Jika Anda menggunakan beberapa perangkat dengan sinkronisasi, pilih **satu peran
 
 ## Menggunakan plugin komunitas
 
-Meskipun Tim Obsidian tidak dapat secara resmi mendukung plugin tertentu, kami menyadari dua plugin komunitas yang telah menjadi populer di kalangan pengguna untuk mencadangkan file mereka:
+Meskipun Tim Obsidian tidak dapat secara resmi mendukung plugin tertentu, kami menyadari dua [plugin komunitas](https://community.obsidian.md/search?type=plugin&categories=backup) yang telah menjadi populer di kalangan pengguna untuk mencadangkan file mereka:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Gunakan plugin ini untuk mencadangkan brankas Anda dengan melakukan commit isinya ke [Repositori Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Ini adalah cara efektif untuk mengontrol versi catatan Anda dan memastikan keamanannya di server jarak jauh. Namun, perlu diketahui bahwa data Anda mungkin disimpan di [[#Menggunakan layanan berbasis cloud|platform hosting eksternal]] menggunakan metode ini.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Plugin ini memungkinkan Anda membuat salinan lokal brankas Anda di folder pilihan Anda, dengan opsi untuk pengarsipan. Anda bahkan dapat menggunakan folder sinkronisasi, seperti folder Dropbox, untuk menggabungkan cadangan lokal dan cloud. Metode ini **cocok dipadukan** dengan opsi pencadangan yang dijelaskan di bawah.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Gunakan plugin ini untuk mencadangkan brankas Anda dengan melakukan commit isinya ke [Repositori Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Ini adalah cara efektif untuk mengontrol versi catatan Anda dan memastikan keamanannya di server jarak jauh. Namun, perlu diketahui bahwa data Anda mungkin disimpan di [[#Menggunakan layanan berbasis cloud|platform hosting eksternal]] menggunakan metode ini.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Plugin ini memungkinkan Anda membuat salinan lokal brankas Anda di folder pilihan Anda, dengan opsi untuk pengarsipan. Anda bahkan dapat menggunakan folder sinkronisasi, seperti folder Dropbox, untuk menggabungkan cadangan lokal dan cloud. Metode ini **cocok dipadukan** dengan opsi pencadangan yang dijelaskan di bawah.
+
+Lihat kategori [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) untuk opsi plugin komunitas lainnya.
 
 ## Menggunakan layanan berbasis cloud
 

@@ -9,7 +9,6 @@ aliases:
   - synkroniser-noter
   - Kom i gang/Synkroniser dine noter på tværs af enheder
 ---
-
 Obsidian gemmer dine noter lokalt på din enhed, så du altid kan tilgå dem selvom du ikke er online. For at tilgå dine noter på flere enheder skal du benytte en synkroniseringsmetode.
 
 Denne guide dækker almindelige synkronisringsmetoder indklusiv tips for at forhindre datatab og sikre en god oplevelse.
@@ -20,12 +19,14 @@ Vi anbefaler, at du også læser vores [[Lav backup af dine Obsidian filer|guide
 
 Med Obsidian er dine data blot gemt som filer i en mappe kaldet en [[Lokale og fjernbokse|boks]]. Dette betyder, at du har mange måder at kunne synkronisere dine data.
 
-Her er beskrevet nogle få almindelige synkroniseringsmetoder som er rapporteret af medlemmer i [Obsidian fællesskabet](https://obsidian.md/community):
+Her er beskrevet nogle få almindelige synkroniseringsmetoder som er rapporteret af medlemmer i Obsidian fællesskabet:
 
 1. **Førsteparts synkronisering**: [[#Obsidian Sync]]
 2. **Tredjeparts synkronisering**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
 3. **Lokal synkronisering**:  [[#Syncthing]]
 4. **Versions kontrol**: [[#Git]] and [[#Working Copy]]
+
+Dusinvis af alternative synkroniseringsmuligheder kan findes i [fællesskabsplugin-kataloget](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 
@@ -33,7 +34,7 @@ Her er beskrevet nogle få almindelige synkroniseringsmetoder som er rapporteret
 
 Den mest ligefremme og supporterede synkroniseringsmetode er vores førsteparts løsning: [[Introduktion til Obsidian Sync|Obsidian Sync]].
 
-Obsidian Sync er slut-til-slut krypteret for maksimal sikkerhed og og giver problemfri integration med Obsidian applikationen.
+Obsidian Sync holder dine bokse synkroniseret på tværs af alle enheder ved hjælp af en ekstern fjernboks til at lave kopier af dine data. En lokal kopi forbliver altid på dine enheder.
 
 Følg [[Opsætning af Obsidian Sync|opsætningsguiden]] for at konfigurere Obsidian Sync.
 
@@ -61,6 +62,15 @@ iCloud kan benyttes til at synkronisere bokse mellem iOS og macOS. Bemærk at **
         4. Tryk på **Opret**.
 - **Åben boksen på en anden Apple enhed**: 
     - Du skal åbne **Obsidian** på en anden macOS eller iOS og gå til [[Håndter bokse|håndter bokse]] og vælge **Åbn mappe som boks**. Naviger til **iCloud Drev → Obsidian**.
+
+> [!warning]+ iOS og iPadOS mappeplacering
+> Når du bruger iCloud på mobile enheder, skal du sikre dig, at din boks er gemt på den korrekte placering: `iCloud Drive/Obsidian/[Dit Boks Navn]`.
+> 
+> Bokse skal være inde i **Obsidian** mappen i iCloud Drive. Mappen til højre med Obsidian-ikonet er den korrekte. Brug ikke den almindelige mappe uden app-ikonet.
+> 
+> ![[iCloud-folder-location.png#interface]]
+> 
+> For at verificere din boks placering skal du åbne **Filer** appen, trykke på **Gennemse**, vælge **iCloud Drive** under **Placeringer**, og bekræfte at din boks er inde i **Obsidian** mappen. Hvis din boks er på en anden placering, kan du opleve synkroniseringsproblemer.
 
 > [!Tip] Bedste praksis:
 > - For **macOS 14 (Sonoma) og tidligere versioner**: Deaktiver **Optimer Mac Lager** i iCloud indstillingerne for at forhindre filer fra at blive fjernet. Denne indstilling påvirker al iCloud lager på enheden og ikke bare Obsidian
@@ -95,7 +105,7 @@ iCloud kan benyttes til at synkronisere bokse mellem iOS og macOS. Bemærk at **
 
 ## Google Drive
 
-**Anbefalede platforme**: `Windows`, `macOS`, `Android` (begrænset funktionalitet på iOS)
+**Anbefalede platforme**: `Windows`, `macOS`, `Android` (begrænset funktionalitet på iOS)
 
 [Google Drive](https://support.google.com/drive/answer/10838124?hl=en) er en anden populær Cloud løsning. Selvom den ikke er supporteret officielt til Obsidian bokse kan du anvende tredjeparts apps og plugins til at synkronisere på tværs af enheder.
 
@@ -120,14 +130,18 @@ iCloud kan benyttes til at synkronisere bokse mellem iOS og macOS. Bemærk at **
 
 ## Syncthing
 
-**Anbefalede platforme**: `Windows`, `macOS`, `Linux`, `Android`
+**Anbefalede platforme**: `Windows`, `macOS`, `Linux`
 
-Syncthing er et decentraliseret synkroniseringsværktøj, som ikke kræver en cloud. Den synkroniserer dine bokse direkte mellem enheder og et netærk eller internettet.
+Syncthing er et decentraliseret synkroniseringsværktøj, som ikke kræver en cloud. Den synkroniserer dine bokse direkte mellem enheder og et netværk eller internettet.
+
+> [!info]+ Android support
+> Den officielle Syncthing Android-app vedligeholdes ikke længere. Dog fortsætter en fællesskabs-fork kaldet [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) aktiv udvikling og kan bruges på Android-enheder.
 
 **Sådan anvender du Syncthing til at oprette og gemme din boks**:
 
 1. **Opsæt Syncthing**:
    - Installer Syncthing på alle enheder. Find installationsguides på [Syncthings hjemmeside](https://syncthing.net/)
+   - På Android, installer [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) fra GitHub releases eller F-Droid.
 2. **Opret og konfigurer delte mapper**:
    - På alle enheder:
      1. Åbn Syncthing og opret en delt mappe. Sæt mappen sti til din Obsidian boks
@@ -202,21 +216,6 @@ Nogle brugere har med succes brugt plugins som **Remotely Save** eller **LiveSyn
     - På andre enheder udfører du et pull med Git for at synkronisere boksen
 
 > [!Note] Selvom Working Copy ikke er officielt understøttet, har mange brugere haft succes med at bruge den til at synkronisere deres bokse med Git.
-
-
-## Sammenligning
-
-Hver synkroniseringsmetode har forskellige fordele og ulemper inklusiv pris, privatsikkerhed og funktioner.
-
-|                                                  | Slut-til-slut<br>kryptering | Versionshistorik |
-| ------------------------------------------------ | ------------------------ | ------------------ |
-| [[Introduktion til Obsidian Sync\|Obsidian Sync]] | ✅                        | ✅                  |
-| iCloud                                           | valgfri                 | ❌                  |
-| OneDrive                                         | ❌                        | ❌                  |
-| Google Drive                                     | ❌                        | ❌                  |
-| Syncthing                                        | valgfri                 | ✅                  |
-| Git                                              | ❌                        | ✅                  |
-
 
 ## Ofte stillede spørgsmål
 

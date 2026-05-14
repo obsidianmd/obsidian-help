@@ -71,7 +71,7 @@ Geliştirici konsolunu açtıktan sonra:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Mobil konsol erişimi
-> Mobil cihazlar ve tabletler, geliştirici konsollarına sınırlı erişime sahiptir. Bu kullanıcılar için, konsol günlük verilerini otomatik olarak bir markdown notunda oluşturmak üzere [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) topluluk eklentisini kullanmanızı öneririz.
+> Mobil cihazlar ve tabletler, geliştirici konsollarına sınırlı erişime sahiptir. Bu kullanıcılar için, konsol günlük verilerini otomatik olarak bir markdown notunda oluşturmak üzere [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) topluluk eklentisini kullanmanızı öneririz.
 
 ### Obsidian desteğiyle iletişime geçin
 

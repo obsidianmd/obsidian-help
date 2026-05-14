@@ -93,4 +93,4 @@ Obsidian [[คำถามที่พบบ่อย#Obsidian Sync โหลด
 ปัญหานี้น่าจะเกิดจาก Google หรือ Android Photos จัดการไฟล์แนบของคุณ เพื่อป้องกันไม่ให้ระบบเปลี่ยนแปลงไฟล์ที่ได้รับผ่าน Sync ให้เพิ่มไฟล์ `.nomedia` [ลงในห้องนิรภัยของคุณ](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) บนอุปกรณ์ Android ของคุณ
 
 > [!tip]- ใช้ปลั๊กอิน
-> ปลั๊กอินชุมชน [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) ทำให้สิ่งนี้ง่ายขึ้น ติดตั้งบนโทรศัพท์ Android ของคุณ โปรดทราบว่าไฟล์ `.nomedia` จะไม่ถูกซิงค์ข้ามอุปกรณ์ผ่าน Obsidian Sync
+> ปลั๊กอินชุมชน [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) ทำให้สิ่งนี้ง่ายขึ้น ติดตั้งบนโทรศัพท์ Android ของคุณ โปรดทราบว่าไฟล์ `.nomedia` จะไม่ถูกซิงค์ข้ามอุปกรณ์ผ่าน Obsidian Sync

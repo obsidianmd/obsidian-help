@@ -93,4 +93,4 @@ Slutligen kan detta hända när du återställer en fil på en enhet, men sedan 
 Det här problemet beror troligen på att Google eller Android Photos hanterar dina bilagor. För att förhindra att systemet ändrar filer mottagna via Sync, lägg till en `.nomedia`-[fil i ditt valv](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) på din Android-enhet.
 
 > [!tip]- Använd ett tillägg
-> Gemenskapstillägget [Android Nomedia](https://obsidian.md/plugins?id=android-nomedia) gör detta enklare. Installera det på din Android-telefon. Observera att `.nomedia`-filer inte synkroniseras mellan enheter genom Obsidian Sync.
+> Gemenskapstillägget [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) gör detta enklare. Installera det på din Android-telefon. Observera att `.nomedia`-filer inte synkroniseras mellan enheter genom Obsidian Sync.

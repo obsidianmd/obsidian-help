@@ -22,10 +22,12 @@ permalink: backup
 
 ## コミュニティプラグインを使用する
 
-Obsidianチームは特定のプラグインを公式に推奨することはできませんが、ファイルのバックアップにおいてユーザーの間で人気のある2つのコミュニティプラグインがあります。
+Obsidianチームは特定のプラグインを公式に推奨することはできませんが、ファイルのバックアップにおいてユーザーの間で人気のある2つの[コミュニティプラグイン](https://community.obsidian.md/search?type=plugin&categories=backup)があります。
 
-- **[Obsidian Git](https://obsidian.md/ja/plugins?id=obsidian-git)：** このプラグインを使用して、保管庫の内容を[Gitリポジトリ](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)にコミットしてバックアップできます。ノートのバージョン管理を行い、リモートサーバーでの安全性を確保する効果的な方法です。ただし、この方法ではデータが[[#クラウドベースのサービスを使用する|外部ホスティングプラットフォーム]]に保存される可能性があることに注意してください。
-- **[Local Backup](https://obsidian.md/ja/plugins?id=local-backup)：** このプラグインを使用すると、保管庫のローカルコピーを任意のフォルダに作成でき、アーカイブオプションも利用できます。Dropboxフォルダなどの同期フォルダを使用して、ローカルとクラウドのバックアップを組み合わせることもできます。この方法は以下に説明するバックアップオプションと**相性が良い**です。
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git)：** このプラグインを使用して、保管庫の内容を[Gitリポジトリ](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)にコミットしてバックアップできます。ノートのバージョン管理を行い、リモートサーバーでの安全性を確保する効果的な方法です。ただし、この方法ではデータが[[#クラウドベースのサービスを使用する|外部ホスティングプラットフォーム]]に保存される可能性があることに注意してください。
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup)：** このプラグインを使用すると、保管庫のローカルコピーを任意のフォルダに作成でき、アーカイブオプションも利用できます。Dropboxフォルダなどの同期フォルダを使用して、ローカルとクラウドのバックアップを組み合わせることもできます。この方法は以下に説明するバックアップオプションと**相性が良い**です。
+
+その他のコミュニティプラグインのオプションについては、[Backup](https://community.obsidian.md/search?type=plugin&categories=backup)カテゴリをご覧ください。
 
 ## クラウドベースのサービスを使用する
 

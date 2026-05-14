@@ -16,12 +16,14 @@ Também recomendamos a leitura do nosso [[Fazer cópia de segurança dos ficheir
 
 Com o Obsidian, os seus dados são simplesmente armazenados como ficheiros numa pasta chamada [[Cofres locais e remotos|cofre]]. Isto significa que existem muitas formas de sincronizar os seus dados.
 
-Estes são alguns métodos de sincronização comummente utilizados, reportados por membros da [Comunidade Obsidian](https://obsidian.md/community):
+Estes são alguns métodos de sincronização comummente utilizados, reportados por membros da comunidade Obsidian:
 
 1. **Sincronização própria**: [[#Obsidian Sync]]
 2. **Sincronização na nuvem de terceiros**: [[#iCloud]], [[#OneDrive]] e [[#Google Drive]]
 3. **Sincronização local**: [[#Syncthing]]
 4. **Controlo de versões**: [[#Git]] e [[#Working Copy]]
+
+Dezenas de opções alternativas de sincronização podem ser encontradas no [diretório de plugins da comunidade](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

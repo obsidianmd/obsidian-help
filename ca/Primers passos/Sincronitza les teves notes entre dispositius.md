@@ -16,12 +16,14 @@ També recomanem llegir la nostra [[Fes còpia de seguretat dels fitxers d'Obsid
 
 Amb Obsidian les teves dades simplement s'emmagatzemen com a fitxers en una carpeta anomenada [[Cambres cuirassades locals i remotes|cambra forta]]. Això significa que hi ha moltes maneres de sincronitzar les teves dades.
 
-Aquests són alguns mètodes de sincronització comuns reportats per membres de la [comunitat d'Obsidian](https://obsidian.md/community):
+Aquests són alguns mètodes de sincronització comuns reportats per membres de la comunitat d'Obsidian:
 
 1. **Sincronització pròpia**: [[#Obsidian Sync]]
 2. **Sincronització al núvol de tercers**: [[#iCloud]], [[#OneDrive]] i [[#Google Drive]]
 3. **Sincronització local**: [[#Syncthing]]
 4. **Control de versions**: [[#Git]] i [[#Working Copy]]
+
+Es poden trobar desenes d'opcions de sincronització alternatives al [directori de connectors de la comunitat](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

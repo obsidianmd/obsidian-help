@@ -16,12 +16,14 @@ Wir empfehlen außerdem, unsere [[Obsidian-Dateien sichern|Backup-Anleitung]] zu
 
 Bei Obsidian werden deine Daten einfach als Dateien in einem Ordner gespeichert, der als [[Lokale und Remote-Tresore|Vault]] bezeichnet wird. Das bedeutet, es gibt viele Möglichkeiten, deine Daten zu synchronisieren.
 
-Dies sind einige häufig verwendete Synchronisierungsmethoden, die von Mitgliedern der [Obsidian-Community](https://obsidian.md/community) berichtet werden:
+Dies sind einige häufig verwendete Synchronisierungsmethoden, die von Mitgliedern der Obsidian-Community berichtet werden:
 
 1. **Erstanbieter-Sync**: [[#Obsidian Sync]]
 2. **Drittanbieter-Cloud-Sync**: [[#iCloud]], [[#OneDrive]] und [[#Google Drive]]
 3. **Lokaler Sync**: [[#Syncthing]]
 4. **Versionskontrolle**: [[#Git]] und [[#Working Copy]]
+
+Dutzende alternative Synchronisierungsoptionen findest du im [Verzeichnis der externen Erweiterungen](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 

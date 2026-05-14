@@ -71,7 +71,7 @@ Un cop hagis obert la consola de desenvolupador:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Accés a la consola des del mòbil
-> Els dispositius mòbils i tauletes tenen accés limitat a les seves consoles de desenvolupador. Per a aquests usuaris, recomanem utilitzar el connector de la comunitat [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) per generar automàticament les dades del registre de consola en una nota Markdown.
+> Els dispositius mòbils i tauletes tenen accés limitat a les seves consoles de desenvolupador. Per a aquests usuaris, recomanem utilitzar el connector de la comunitat [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) per generar automàticament les dades del registre de consola en una nota Markdown.
 
 ### Contactar amb el suport d'Obsidian
 

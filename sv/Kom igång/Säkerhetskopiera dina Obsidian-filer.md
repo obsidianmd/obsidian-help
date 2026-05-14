@@ -22,10 +22,12 @@ Om du använder flera enheter med synkronisering, välj **en enhet** som din sä
 
 ## Använd gemenskapstillägg
 
-Även om Obsidian-teamet inte officiellt kan rekommendera något specifikt tillägg, erkänner vi två gemenskapstillägg som har blivit populära bland användare för att säkerhetskopiera sina filer:
+Även om Obsidian-teamet inte officiellt kan rekommendera något specifikt tillägg, erkänner vi två [gemenskapstillägg](https://community.obsidian.md/search?type=plugin&categories=backup) som har blivit populära bland användare för att säkerhetskopiera sina filer:
 
-- **[Obsidian Git](https://obsidian.md/plugins?id=obsidian-git):** Använd detta tillägg för att säkerhetskopiera ditt valv genom att commita dess innehåll till ett [Git-arkiv](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Det är ett effektivt sätt att versionskontrollera dina anteckningar och säkerställa deras säkerhet på en fjärrserver. Var dock medveten om att dina data kan lagras på en [[#Använd molnbaserade tjänster|extern värdplattform]] med denna metod.
-- **[Local Backup](https://obsidian.md/plugins?id=local-backup):** Detta tillägg låter dig skapa lokala kopior av ditt valv i en mapp du väljer, med alternativ för arkivering. Du kan till och med använda en synkroniseringsmapp, som en Dropbox-mapp, för att kombinera lokala och molnbaserade säkerhetskopior. Denna metod **fungerar bra tillsammans** med säkerhetskopieringsalternativen som beskrivs nedan.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Använd detta tillägg för att säkerhetskopiera ditt valv genom att commita dess innehåll till ett [Git-arkiv](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Det är ett effektivt sätt att versionskontrollera dina anteckningar och säkerställa deras säkerhet på en fjärrserver. Var dock medveten om att dina data kan lagras på en [[#Använd molnbaserade tjänster|extern värdplattform]] med denna metod.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Detta tillägg låter dig skapa lokala kopior av ditt valv i en mapp du väljer, med alternativ för arkivering. Du kan till och med använda en synkroniseringsmapp, som en Dropbox-mapp, för att kombinera lokala och molnbaserade säkerhetskopior. Denna metod **fungerar bra tillsammans** med säkerhetskopieringsalternativen som beskrivs nedan.
+
+Se kategorin [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) för fler alternativ bland gemenskapstillägg.
 
 ## Använd molnbaserade tjänster
 

@@ -71,7 +71,7 @@ Po otevření vývojářské konzole:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Přístup ke konzoli na mobilních zařízeních
-> Mobilní zařízení a tablety mají omezený přístup ke svým vývojářským konzolím. Těmto uživatelům doporučujeme použít komunitní plugin [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) pro automatické vygenerování dat konzolového logu do markdown poznámky.
+> Mobilní zařízení a tablety mají omezený přístup ke svým vývojářským konzolím. Těmto uživatelům doporučujeme použít komunitní plugin [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) pro automatické vygenerování dat konzolového logu do markdown poznámky.
 
 ### Kontaktování podpory Obsidian
 

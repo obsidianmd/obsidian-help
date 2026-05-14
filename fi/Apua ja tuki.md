@@ -71,7 +71,7 @@ Kun olet avannut kehittäjäkonsolin:
 ![[help-support-console-menu.png#interface|600]]
 
 > [!warning]+ Konsolin käyttö mobiililaitteilla
-> Mobiililaitteiden ja tablettien kehittäjäkonsolien käyttö on rajoitettua. Näille käyttäjille suosittelemme yhteisön lisäosan [Logstravaganza](https://obsidian.md/plugins?id=logstravaganza) käyttöä, joka luo konsolilokitiedot automaattisesti Markdown-muistiinpanoon.
+> Mobiililaitteiden ja tablettien kehittäjäkonsolien käyttö on rajoitettua. Näille käyttäjille suosittelemme yhteisön lisäosan [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) käyttöä, joka luo konsolilokitiedot automaattisesti Markdown-muistiinpanoon.
 
 ### Ota yhteyttä Obsidianin tukeen
 
