@@ -1,11 +1,12 @@
 ---
+description: Canvas is a core plugin for visual note-taking. Arrange and connect notes, images, and other files in a 2D space.
 permalink: plugins/canvas
 ---
 Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
 
-Visual note-taking helps you to make sense of your notes by organizing them in a 2D space. Connect notes with lines and group related notes together to better understand the relationship between them.
+Arranging your notes in a 2D space helps you see and understand the connections between them. Connect notes with lines and group related ones together.
 
-Canvas data you create in Obsidian is saved as `.canvas` files using the open file format [JSON Canvas](https://jsoncanvas.org/).
+Obsidian saves canvases as `.canvas` files using the open [JSON Canvas](https://jsoncanvas.org/) format.
 
 ## Create a new canvas
 
@@ -25,7 +26,7 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 
 - In the vertical ribbon menu, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
 
-> [!note]  The .canvas file extension
+> [!note] The .canvas file extension
 > Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
 
 ## Add cards
@@ -34,7 +35,7 @@ You can drag files into your canvas from Obsidian or from other applications. Fo
 
 ### Add text cards
 
-You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks just like in a note.
+You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks the same way as in a note.
 
 To add a new text card to your canvas:
 
@@ -47,7 +48,7 @@ To convert a text card to a file:
 1. Right-click the text card and then select **Convert to file...**.
 2. Enter the note name and then select **Save**.
 
-> [!note] Note
+> [!note] Text-only cards and backlinks
 > Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
 
 ### Add cards from notes
@@ -62,7 +63,7 @@ You can also add notes from the canvas context menu:
 1. Right-click the canvas and then select **Add note from vault**.
 2. Select the note you want to add.
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+You can also drag notes from the [[File explorer]] into the canvas.
 
 ### Add cards from media
 
@@ -76,7 +77,7 @@ You can also add media from the canvas context menu:
 1. Right-click the canvas and then select **Add media from vault**.
 2. Select the media file you want to add.
 
-Or, you can add them to the canvas by dragging the file from the [[File explorer]].
+You can also drag media files from the [[File explorer]] into the canvas.
 
 ### Add cards from web pages
 
@@ -91,11 +92,11 @@ To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and selec
 
 ### Add cards from folders
 
-Drag a folder from the file explorer to add all files in that folder to the canvas.
+Drag a folder from the [[File explorer]] to add all files in that folder to the canvas.
 
 ### Edit a card
 
-Double-click on a text or note card to start editing it. Click outside the card to stop editing it. You can also press `Escape` to stop editing a card.
+Double-click on a text or note card to start editing it. Select anywhere outside the card to stop editing it. You can also press `Escape` to stop editing a card.
 
 You can also edit a card by right-clicking it and selecting **Edit**.
 
@@ -117,7 +118,7 @@ To swap a note card:
 
 ## Select cards
 
-Select cards in the canvas by clicking on them. You can select multiple cards by dragging a selection around them.
+Select individual cards, or drag a selection around multiple cards.
 
 You can also add and remove cards from an existing selection by pressing `Shift` and selecting them.
 
@@ -147,7 +148,7 @@ To maintain the aspect ratio while resizing, press `Shift` while resizing.
 
 ## Connect cards
 
-Draw lines between cards to create relationships between them. Use colors and labels to describe how they relate to each other.
+Draw lines between cards to show relationships. Add colors and labels to describe how they relate.
 
 ### Connect two cards
 
@@ -156,8 +157,8 @@ To connect two cards with a directed line:
 1. Hover the cursor over one of the edges of a card until you see a filled circle.
 2. Drag the circle to the edge of a different card to connect them.
 
-> [!tip] Tip
-> If you drag the line without connecting it to another card, you can then add the card you want to connect it to.
+> [!tip]- Create a card from a new connection
+> If you drag the line without connecting it to another card, you can create a new card at the other end.
 
 ### Disconnect two cards
 
@@ -166,18 +167,18 @@ To remove the connection between two cards:
 1. Hover the cursor over a connection line until two small circles appear on the line.
 2. Drag one of the circles from the card without connecting it to another.
 
-You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, by selecting the line and then pressing `Backspace` (or `Delete` on macOS).
+You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, select the line and then press `Backspace` (or `Delete` on macOS).
 
 ### Connect a card to a different card
 
 To move one of the ends of a connection line:
 
 1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag the circle over the end you want to reconnect, to another card.
+2. Drag the circle to another card to reconnect it.
 
 ### Navigate a connection
 
-If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then select **Go to target** or **Go to source**.
+If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then selecting **Go to target** or **Go to source**.
 
 ### Add a label to a connection
 
@@ -186,7 +187,7 @@ You can add a label to a line to describe the relationship between two cards.
 To label a connection:
 
 1. Double-click the line.
-2. Enter the label and then press `Escape` or click anywhere on the canvas.
+2. Enter the label and then press `Escape` or select anywhere on the canvas.
 
 You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
 
@@ -215,34 +216,38 @@ To group related cards:
 
 ## Navigate the canvas
 
-As you start adding more cards to your canvas, you want to understand how you can navigate the canvas to look at a part of it. Learn how to pan and zoom to move across the canvas with ease.
+Use panning and zooming to move across the canvas.
 
 ### Pan the canvas
 
 To move the canvas vertically and horizontally, also known as _panning_, you can use any of the following approaches:
 
 - Press `Space` and drag the canvas.
-- Drag the canvas using the middle-mouse button.
+- Drag the canvas using the middle mouse button.
 - Scroll the mouse to pan vertically, and press `Shift` while scrolling to pan horizontally.
 
 ### Zoom the canvas
 
-To zoom the canvas, press `Space`  or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ![[lucide-plus.svg#icon]] and **Zoom out** ![[lucide-minus.svg#icon]] from the zoom controls in the upper-right corner.
+To zoom the canvas, press `Space` or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ![[lucide-plus.svg#icon]] and **Zoom out** ![[lucide-minus.svg#icon]] from the zoom controls in the upper-right corner.
 
 #### Zoom to fit
 
-To zoom the canvas so that every item is visible, select **Zoom to fit** ![[lucide-maximize.svg#icon]]. Or, use the keyboard shortcut, `Shift+1`.
+To zoom the canvas so that every item is visible, select **Zoom to fit** ![[lucide-maximize.svg#icon]]. Or, use the keyboard shortcut `Shift+1`.
 
 #### Zoom to selection
 
-To zoom the canvas so that all selected items are visible, right-click a selected card and then select **Zoom to selection**. Or, use a keyboard shortcut by pressing `Shift+2`.
+To zoom the canvas so that all selected items are visible, right-click a selected card and then select **Zoom to selection**. Or, press `Shift+2`.
 
 #### Reset zoom
 
 To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
 
+## Embed a canvas
+
+You can embed a canvas in a note using the standard embed syntax. For more information, refer to [[Embed files#Embed a canvas in a note|Embed a canvas in a note]].
+
 ## Advanced tips
 
 We have made some quick videos to demonstrate some advanced use cases of Canvas.
 
-You can [check out all 72 tips here](https://obsidian.md/canvas#protips). Please note that the tip videos are only visible on desktop.
+You can [view all 72 tips here](https://obsidian.md/canvas#protips). The tip videos are only visible on desktop.
