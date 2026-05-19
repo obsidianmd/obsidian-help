@@ -36,7 +36,7 @@ Define how content from Web Clipper will be added to Obsidian:
 
 Template triggers allow you to automatically select a template based on the current page URL or [schema.org](https://schema.org/) data. You can define multiple rules for each template, separated by a new line.
 
-The first match in your template list determines which template is used. You can drag templates up and down in Web Clipper settings to change the order in which templates are matched.
+The first match in your template list determines which template is used. You can drag templates up and down in Web Clipper settings to change the order in which templates are matched. To ensure the correct fallback template is used for everyday clipping, keep the default template at the top.
 
 #### Simple URL matching
 
