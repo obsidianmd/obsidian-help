@@ -45,6 +45,7 @@ Podziękowania dla poniższych twórców wtyczek, którzy wprowadzili funkcjonal
 
 - pjeby za wtyczkę Hotkey Helper
 - javalent za wtyczkę Admonition
+- javalent za wtyczkę Settings Search
 - NothingIsLost za ulepszenia CodeMirror 6
 - mgmeyers za wtyczkę Indentation Guides
 - blacksmithgu za Dataview

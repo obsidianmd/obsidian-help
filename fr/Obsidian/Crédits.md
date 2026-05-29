@@ -46,6 +46,7 @@ Merci à ces développeurs de modules pour avoir été les pionniers de fonction
 
 - pjeby pour le module Hotkey Helper
 - javalent pour le module Admonition
+- javalent pour le module Settings Search
 - NothingIsLost pour les améliorations de CodeMirror 6
 - mgmeyers pour le module Indentation Guides
 - blacksmithgu pour Dataview

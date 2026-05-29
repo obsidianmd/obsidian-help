@@ -45,6 +45,7 @@ Tack till dessa tilläggsutvecklare för att ha varit pionjärer med funktionali
 
 - pjeby för tillägget Hotkey Helper
 - javalent för tillägget Admonition
+- javalent för tillägget Settings Search
 - NothingIsLost för CodeMirror 6-förbättringar
 - mgmeyers för tillägget Indentation Guides
 - blacksmithgu för Dataview

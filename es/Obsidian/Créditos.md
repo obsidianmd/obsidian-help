@@ -45,6 +45,7 @@ Créditos a estos desarrolladores de complementos por ser pioneros en funcionali
 
 - pjeby por el complemento Hotkey Helper
 - javalent por el complemento Admonition
+- javalent por el complemento Settings Search
 - NothingIsLost por las mejoras de CodeMirror 6
 - mgmeyers por el complemento Indentation Guides
 - blacksmithgu por Dataview

@@ -47,6 +47,7 @@ Ghi công các nhà phát triển plugin đã tiên phong các chức năng đư
 
 - pjeby cho plugin Hotkey Helper
 - javalent cho plugin Admonition
+- javalent cho plugin Settings Search
 - NothingIsLost cho các cải tiến CodeMirror 6
 - mgmeyers cho plugin Indentation Guides
 - blacksmithgu cho Dataview

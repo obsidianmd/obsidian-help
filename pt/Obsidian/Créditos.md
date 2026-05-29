@@ -45,6 +45,7 @@ Créditos a estes programadores de plugins por terem sido pioneiros em funcional
 
 - pjeby pelo plugin Hotkey Helper
 - javalent pelo plugin Admonition
+- javalent pelo plugin Settings Search
 - NothingIsLost pelas melhorias ao CodeMirror 6
 - mgmeyers pelo plugin Indentation Guides
 - blacksmithgu pelo Dataview

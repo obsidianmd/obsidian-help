@@ -47,6 +47,7 @@ Met dank aan deze plug-in-ontwikkelaars die functionaliteit hebben gepionierd di
 
 - pjeby voor de Hotkey Helper-plug-in
 - javalent voor de Admonition-plug-in
+- javalent voor de Settings Search-plug-in
 - NothingIsLost voor CodeMirror 6-verbeteringen
 - mgmeyers voor de Indentation Guides-plug-in
 - blacksmithgu voor Dataview

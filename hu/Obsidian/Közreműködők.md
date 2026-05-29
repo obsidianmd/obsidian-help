@@ -45,6 +45,7 @@ Köszönet ezeknek a bővítményfejlesztőknek az úttörő funkciókért, amel
 
 - pjeby a Hotkey Helper bővítményért
 - javalent az Admonition bővítményért
+- javalent a Settings Search bővítményért
 - NothingIsLost a CodeMirror 6 fejlesztésekért
 - mgmeyers az Indentation Guides bővítményért
 - blacksmithgu a Dataview-ért

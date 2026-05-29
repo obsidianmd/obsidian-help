@@ -45,6 +45,7 @@ Obsidian'a uyarlanan işlevlere öncülük eden bu eklenti geliştiricilerine te
 
 - pjeby - Hotkey Helper eklentisi için
 - javalent - Admonition eklentisi için
+- javalent - Settings Search eklentisi için
 - NothingIsLost - CodeMirror 6 geliştirmeleri için
 - mgmeyers - Indentation Guides eklentisi için
 - blacksmithgu - Dataview için

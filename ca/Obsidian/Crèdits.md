@@ -45,6 +45,7 @@ Crèdits a aquests desenvolupadors de connectors per haver estat pioners en func
 
 - pjeby pel connector Hotkey Helper
 - javalent pel connector Admonition
+- javalent pel connector Settings Search
 - NothingIsLost per les millores a CodeMirror 6
 - mgmeyers pel connector Indentation Guides
 - blacksmithgu per Dataview

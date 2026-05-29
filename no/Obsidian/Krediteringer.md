@@ -45,6 +45,7 @@ Kreditt til disse tilleggsutviklerne for banebrytende funksjonalitet som ble til
 
 - pjeby for Hotkey Helper-tillegget
 - javalent for Admonition-tillegget
+- javalent for Settings Search-tillegget
 - NothingIsLost for CodeMirror 6-forbedringer
 - mgmeyers for Indentation Guides-tillegget
 - blacksmithgu for Dataview

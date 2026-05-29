@@ -47,6 +47,7 @@ Penghargaan kepada para pengembang plugin ini yang telah merintis fungsionalitas
 
 - pjeby untuk plugin Hotkey Helper
 - javalent untuk plugin Admonition
+- javalent untuk plugin Settings Search
 - NothingIsLost untuk peningkatan CodeMirror 6
 - mgmeyers untuk plugin Indentation Guides
 - blacksmithgu untuk Dataview

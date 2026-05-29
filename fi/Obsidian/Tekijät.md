@@ -45,6 +45,7 @@ Kiitokset näille lisäosien kehittäjille toiminnallisuuden edelläkävijöinä
 
 - pjeby Hotkey Helper -lisäosasta
 - javalent Admonition-lisäosasta
+- javalent Settings Search -lisäosasta
 - NothingIsLost CodeMirror 6 -parannuksista
 - mgmeyers Indentation Guides -lisäosasta
 - blacksmithgu Dataview-lisäosasta

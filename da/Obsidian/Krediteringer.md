@@ -48,6 +48,7 @@ Vi krediterer følgende plugin udviklere for deres banebrydende funktioner som e
 
 - pjeby for "Hotkey Helper" pluginnet
 - javalent for "Admonition" pluginnet
+- javalent for "Settings Search" pluginnet
 - NothingIsLost for flere CodeMirror 6 forbedringer
 - mgmeyers for "Indentation Guides" pluginnet
 - blacksmithgu for "Dataview" pluginnet

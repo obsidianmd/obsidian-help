@@ -45,6 +45,7 @@ Zásluhy patří těmto vývojářům pluginů za průkopnické funkce, které b
 
 - pjeby za plugin Hotkey Helper
 - javalent za plugin Admonition
+- javalent za plugin Settings Search
 - NothingIsLost za vylepšení CodeMirror 6
 - mgmeyers za plugin Indentation Guides
 - blacksmithgu za Dataview

@@ -45,6 +45,7 @@ Anerkennung an diese Erweiterungsentwickler, die Funktionen entwickelt haben, di
 
 - pjeby für die Hotkey-Helper-Erweiterung
 - javalent für die Admonition-Erweiterung
+- javalent für die Settings-Search-Erweiterung
 - NothingIsLost für CodeMirror-6-Verbesserungen
 - mgmeyers für die Indentation-Guides-Erweiterung
 - blacksmithgu für Dataview

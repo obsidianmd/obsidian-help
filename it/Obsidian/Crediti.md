@@ -47,6 +47,7 @@ Riconoscimenti a questi sviluppatori di plugin che hanno aperto la strada a funz
 
 - pjeby per il plugin Hotkey Helper
 - javalent per il plugin Admonition
+- javalent per il plugin Settings Search
 - NothingIsLost per i miglioramenti a CodeMirror 6
 - mgmeyers per il plugin Indentation Guides
 - blacksmithgu per Dataview
