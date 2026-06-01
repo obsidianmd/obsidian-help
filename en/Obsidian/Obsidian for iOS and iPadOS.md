@@ -50,7 +50,7 @@ You can customize widgets to suit your workflow, such as choosing which vault to
 
 ![[ios-new-note-configuration.png|400]]
 
-**View Note** widget configuration options.
+**View Note** widget configuration options:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -66,22 +66,54 @@ Obsidian integrates with Apple's Shortcuts app, allowing you to create powerful 
 
 Capture shortcuts are particularly useful for quick note-taking, as they allow you to add content to a note in the background.
 
-## Share Sheet Extension
+## Share Sheet
 
-Obsidian offers a Share Sheet Extension that you can use in other apps to send links, text, images, or documents to your Obsidian vault.
+Obsidian's Share Sheet lets you capture content from web pages. It also works with apps like YouTube and other social networks.
 
-To share a link from Safari:
+> [!note]
+> The native Share Sheet is available on iOS and iPadOS 18 and higher.
 
-1. Open the webpage in Safari, then tap the **Share** button.
-2. In the Share menu, swipe left across the app row, tap **More**, then tap **Edit**.
-3. Turn on **Obsidian** so it appears in the Share menu.
-4. Tap the **Add** button next to Obsidian to add it to **Favorites**.
-5. (Optional) Drag the **Reorder** button next to Obsidian to change its position in Favorites.
-6. Tap **Done**.
-7. Back in Safari's Share menu, tap **Obsidian**.
-8. When you tap Obsidian, the Obsidian share sheet appears and lets you share the selected content to your vault.
+Use the Share Sheet to quickly send content from another app to Obsidian:
+1. In another app, tap the **Share** button.
+2. Select **Obsidian**.
+3. Choose a Location.
+4. Review or edit the captured content.
+5. Tap **Save**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Locations
+
+Locations let you decide where the shared content should go before you save it.
+
+Locations can capture to:
+- **New note** — Create a new note in a vault or folder.
+- **Daily note** — Append or prepend content to today's daily note.
+- **Bookmarked note** — Append or prepend content to a bookmarked note.
+- **Note** — Choose an existing note in your vault.
+- **New bookmark** — Save a shared URL to Obsidian bookmarks.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Customizing Locations
+
+You can create Locations for common workflows, such as saving articles to an inbox, appending quotes to your daily note, or adding links to bookmarks.
+
+To customize Locations:
+
+1. Open Obsidian from the iOS Share Sheet.
+2. Tap the current Location in the toolbar.
+3. Tap **Add** to create a new Location, or edit an existing Location.
+4. Choose the vault, behavior, and optional settings.
+
+Depending on the `Behavior` type, you can configure options such as:
+- Folder
+- Template
+- Bookmark group
+- Append or prepend position
+- Whether shared links capture **Full Text** or only the **URL**
+
+![[ios-share-sheet-add-location.png|400]]
 
 ## Siri integration
 
