@@ -83,7 +83,7 @@ Om een aangepast infoblok te definiëren, maak je het volgende CSS-blok aan:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```

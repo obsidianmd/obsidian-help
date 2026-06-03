@@ -85,7 +85,7 @@ Um einen benutzerdefinierten Hinweisblock zu definieren, erstelle den folgenden 
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
