@@ -18,7 +18,7 @@ Parametr `action` to akcja, którą chcesz wykonać. Dostępne akcje obejmują:
 - `daily` aby stworzyć lub otworzyć codzienną notatkę.
 - `unique` aby stworzyć nową unikatową notatkę.
 - `search` aby otworzyć wyszukiwanie.
-- `choose-vault` aby otworzyć menedżer skarbców.
+- `choose-vault` aby otworzyć menedżer sejfów.
 
 > [!warning] Kodowanie
 > Upewnij się, że wartości są prawidłowo zakodowane w formacie URI. Na przykład znaki ukośnika `/` muszą być zakodowane jako `%2F`, a znaki spacji muszą być zakodowane jako `%20`.
@@ -27,18 +27,18 @@ Parametr `action` to akcja, którą chcesz wykonać. Dostępne akcje obejmują:
 
 ## Otwieranie notatki
 
-Akcja `open` otwiera skarbiec Obsidian lub otwiera plik w tym skarbcu.
+Akcja `open` otwiera sejf Obsidian lub otwiera plik w tym sejfie.
 
 ### Przykłady
 
 - `obsidian://open?vault=my%20vault`
-  Otwiera skarbiec `my vault`. Jeśli skarbiec jest już otwarty, ustawia fokus na okno.
+  Otwiera sejf `my vault`. Jeśli sejf jest już otwarty, ustawia fokus na okno.
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-  Otwiera skarbiec identyfikowany przez ID `ef6ca3e3b524d22f`.
+  Otwiera sejf identyfikowany przez ID `ef6ca3e3b524d22f`.
 - `obsidian://open?vault=my%20vault&file=my%20note`
-  Otwiera notatkę `my note.md` w skarbcu `my vault`, zakładając, że plik istnieje.
+  Otwiera notatkę `my note.md` w sejfie `my vault`, zakładając, że plik istnieje.
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-  Wyszuka dowolny skarbiec zawierający ścieżkę `/home/user/my vault/path/to/my note`. Następnie pozostała część ścieżki jest przekazywana do parametru `file`. Na przykład, jeśli skarbiec istnieje pod ścieżką `/home/user/my vault`, to byłoby to równoważne z parametrem `file` ustawionym na `path/to/my note`.
+  Wyszuka dowolny sejf zawierający ścieżkę `/home/user/my vault/path/to/my note`. Następnie pozostała część ścieżki jest przekazywana do parametru `file`. Na przykład, jeśli sejf istnieje pod ścieżką `/home/user/my vault`, to byłoby to równoważne z parametrem `file` ustawionym na `path/to/my note`.
 
 
 > [!tip] Otwieranie nagłówka lub bloku
@@ -46,11 +46,11 @@ Akcja `open` otwiera skarbiec Obsidian lub otwiera plik w tym skarbcu.
 
 ### Parametry
 
-- `vault` może być nazwą skarbca lub ID skarbca[^1].
-- `file` może być nazwą pliku lub ścieżką od katalogu głównego skarbca do określonego pliku. Jeśli rozszerzenie pliku to `md`, rozszerzenie można pominąć.
+- `vault` może być nazwą sejfu lub ID sejfu[^1].
+- `file` może być nazwą pliku lub ścieżką od katalogu głównego sejfu do określonego pliku. Jeśli rozszerzenie pliku to `md`, rozszerzenie można pominąć.
 - `path` bezwzględna ścieżka systemowa do pliku.
   - Użycie tego parametru nadpisze zarówno `vault`, jak i `file`.
-  - Spowoduje to, że aplikacja wyszuka najbardziej pasujący skarbiec zawierający określoną ścieżkę pliku.
+  - Spowoduje to, że aplikacja wyszuka najbardziej pasujący sejf zawierający określoną ścieżkę pliku.
   - Następnie pozostała część ścieżki zastępuje parametr `file`.
 - `prepend` doda na początku pliku i spróbuje scalić właściwości.
 - `append` doda na końcu pliku i również spróbuje scalić właściwości.
@@ -62,20 +62,20 @@ Akcja `open` otwiera skarbiec Obsidian lub otwiera plik w tym skarbcu.
 
 ## Tworzenie notatki
 
-Akcja `new` tworzy nową notatkę w skarbcu, opcjonalnie z pewną zawartością.
+Akcja `new` tworzy nową notatkę w sejfie, opcjonalnie z pewną zawartością.
 
 ### Przykłady
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-  Otwiera skarbiec `my vault` i tworzy nową notatkę o nazwie `my note`.
+  Otwiera sejf `my vault` i tworzy nową notatkę o nazwie `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-  Otwiera skarbiec `my vault` i tworzy nową notatkę pod ścieżką `path/to/my note`.
+  Otwiera sejf `my vault` i tworzy nową notatkę pod ścieżką `path/to/my note`.
 
 ### Parametry
 
-- `vault` może być nazwą skarbca lub ID skarbca[^1]. Tak samo jak w akcji `open`.
+- `vault` może być nazwą sejfu lub ID sejfu[^1]. Tak samo jak w akcji `open`.
 - `name` nazwa pliku do utworzenia. Jeśli jest podana, lokalizacja pliku zostanie wybrana na podstawie preferencji „Domyślna lokalizacja nowej notatki".
-- `file` bezwzględna ścieżka w skarbcu, łącznie z nazwą. Nadpisze `name`, jeśli jest podana.
+- `file` bezwzględna ścieżka w sejfie, łącznie z nazwą. Nadpisze `name`, jeśli jest podana.
 - `path` globalnie bezwzględna ścieżka. Działa podobnie jak opcja `path` w akcji `open`, która nadpisze zarówno `vault`, jak i `file`.
 - `paneType` (opcjonalne) określa, gdzie notatka zostanie otwarta w interfejsie. Tak samo jak w akcji `open`.
 - `content` (opcjonalne) zawartość notatki.
@@ -92,7 +92,7 @@ Akcja `daily` tworzy lub otwiera codzienną notatkę. Wtyczka [[Dziennik|Dzienni
 ### Przykłady
 
 - `obsidian://daily?vault=my%20vault`
-  Otwiera skarbiec `my vault` i tworzy lub otwiera codzienną notatkę.
+  Otwiera sejf `my vault` i tworzy lub otwiera codzienną notatkę.
 
 ### Parametry
 
@@ -100,18 +100,18 @@ Akcja `daily` akceptuje te same parametry co akcja `new`.
 
 ## Unikatowa notatka
 
-Akcja `unique` tworzy nową unikatową notatkę w skarbcu. Wtyczka [[Wtyczki/Kreator niepowtarzalnych notatek|Kreator niepowtarzalnych notatek]] musi być włączona.
+Akcja `unique` tworzy nową unikatową notatkę w sejfie. Wtyczka [[Wtyczki/Kreator niepowtarzalnych notatek|Kreator niepowtarzalnych notatek]] musi być włączona.
 
 ### Przykłady
 
 - `obsidian://unique?vault=my%20vault`
-  Otwiera skarbiec `my vault` i tworzy nową unikatową notatkę.
+  Otwiera sejf `my vault` i tworzy nową unikatową notatkę.
 - - `obsidian://unique?vault=my%20vault&content=Hello%20World`
-  Otwiera skarbiec `my vault` i tworzy nową unikatową notatkę z zawartością `Hello World`.
+  Otwiera sejf `my vault` i tworzy nową unikatową notatkę z zawartością `Hello World`.
 
 ### Parametry
 
-- `vault` może być nazwą skarbca lub ID skarbca[^1]. Tak samo jak w akcji `open`.
+- `vault` może być nazwą sejfu lub ID sejfu[^1]. Tak samo jak w akcji `open`.
 - `paneType` (opcjonalne) określa, gdzie notatka zostanie otwarta w interfejsie. Tak samo jak w akcji `open`.
 - `content` (opcjonalne) zawartość notatki.
 - `clipboard` (opcjonalne) użycie zawartości schowka zamiast określania `content`.
@@ -119,23 +119,23 @@ Akcja `unique` tworzy nową unikatową notatkę w skarbcu. Wtyczka [[Wtyczki/Kre
 
 ## Otwieranie wyszukiwania
 
-Akcja `search` otwiera [[Szukaj|wyszukiwanie]] w określonym skarbcu i opcjonalnie wykonuje wyszukiwanie.
+Akcja `search` otwiera [[Wyszukiwarka|wyszukiwanie]] w określonym sejfie i opcjonalnie wykonuje wyszukiwanie.
 
 ### Przykłady
 
 - `obsidian://search?vault=my%20vault`
-  Otwiera skarbiec `my vault` i otwiera [[Szukaj|wyszukiwanie]].
+  Otwiera sejf `my vault` i otwiera [[Wyszukiwarka|wyszukiwanie]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  Otwiera skarbiec `my vault`, otwiera [[Szukaj|wyszukiwanie]] i wykonuje wyszukiwanie frazy `Obsidian`.
+  Otwiera sejf `my vault`, otwiera [[Wyszukiwarka|wyszukiwanie]] i wykonuje wyszukiwanie frazy `Obsidian`.
 
 ### Parametry
 
-- `vault` może być nazwą skarbca lub ID skarbca[^1]. Tak samo jak w akcji `open`.
+- `vault` może być nazwą sejfu lub ID sejfu[^1]. Tak samo jak w akcji `open`.
 - `query` (opcjonalne) fraza wyszukiwania do wykonania.
 
-## Otwieranie menedżera skarbców
+## Otwieranie menedżera sejfów
 
-Akcja `choose-vault` otwiera [[Zarządzaj skarbcami|menedżer skarbców]].
+Akcja `choose-vault` otwiera [[Zarządzaj sejfami|menedżer sejfów]].
 
 ### Przykłady
 
@@ -151,7 +151,7 @@ Ta akcja Obsidian URI jest przeznaczona do użytku z [Hook](https://hookproducti
 
 ### Parametry
 
-- `vault` (opcjonalne) może być nazwą skarbca lub ID skarbca[^1]. Jeśli nie podano, zostanie użyty bieżący lub ostatnio aktywny skarbiec.
+- `vault` (opcjonalne) może być nazwą sejfu lub ID sejfu[^1]. Jeśli nie podano, zostanie użyty bieżący lub ostatnio aktywny sejf.
 - `x-success` (opcjonalne) zobacz [[#Używanie parametrów x-callback-url]].
 - `x-error` (opcjonalne) zobacz [[#Używanie parametrów x-callback-url]].
 
@@ -170,7 +170,7 @@ Na przykład, jeśli Obsidian otrzyma
 
 ## Formaty skrócone
 
-Oprócz powyższych formatów dostępne są dwa dodatkowe „skrócone" formaty do otwierania skarbców i plików:
+Oprócz powyższych formatów dostępne są dwa dodatkowe „skrócone" formaty do otwierania sejfów i plików:
 
 1. `obsidian://vault/my vault/my note` jest równoważne z `obsidian://open?vault=my%20vault&file=my%20note`.
 2. `obsidian:///absolute/path/to/my note` jest równoważne z `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
@@ -188,4 +188,4 @@ W systemie Linux jest to bardziej złożony proces:
 3. Jeśli używasz instalatora AppImage, może być konieczne rozpakowanie go za pomocą `Obsidian-x.y.z.AppImage --appimage-extract`. Następnie upewnij się, że dyrektywa `Exec` wskazuje na rozpakowany plik wykonywalny.
 
 
-[^1]: ID skarbca to losowy 16-znakowy kod przypisany do skarbca, na przykład `ef6ca3e3b524d22f`. To ID jest unikalne dla każdego folderu na komputerze. ID można znaleźć, otwierając przełącznik skarbców i klikając „Skopiuj ID sejfu" w menu kontekstowym wybranego skarbca.
+[^1]: ID sejfu to losowy 16-znakowy kod przypisany do sejfu, na przykład `ef6ca3e3b524d22f`. To ID jest unikalne dla każdego folderu na komputerze. ID można znaleźć, otwierając przełącznik sejfów i klikając „Skopiuj ID sejfu" w menu kontekstowym wybranego sejfu.

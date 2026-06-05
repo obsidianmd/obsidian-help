@@ -64,7 +64,7 @@ W sekcji **[[Ustawienia]] → Wtyczki społeczności → Zainstalowane wtyczki**
 - **[[Ustawienia]]** ![[lucide-settings.svg#icon]] — Otwórz stronę ustawień wtyczki, jeśli posiada konfigurowalne opcje.
 - **[[Skróty klawiszowe]]** ![[lucide-plus-circle.svg#icon]] — Ustaw skróty klawiszowe dla poleceń wtyczki.
 - **Wsparcie** ![[lucide-heart.svg#icon]] — Wyświetl adres URL wsparcia autora wtyczki, aby wesprzeć jego pracę.
-- **Odinstaluj** ![[lucide-trash-2.svg#icon]] — Usuń wtyczkę ze skarbca.
+- **Odinstaluj** ![[lucide-trash-2.svg#icon]] — Usuń wtyczkę ze sejfu.
 - **Przełącznik** — Włącz lub wyłącz wtyczkę bez jej odinstalowywania.
 
 Możesz również:

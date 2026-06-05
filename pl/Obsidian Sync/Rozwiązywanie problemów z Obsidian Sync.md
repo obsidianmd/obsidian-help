@@ -30,7 +30,7 @@ W przypadku konfliktów w ustawieniach Obsidian, takich jak ustawienia wtyczek, 
 Począwszy od Obsidian 1.9.7, możesz wybrać sposób obsługi konfliktów. Aby skonfigurować to ustawienie:
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym wybierz **Synchronizacja**.
+2. Na panelu bocznym wybierz **Synchronizacja**.
 3. W sekcji **[[Opcje synchronizacji i synchronizacja selektywna#Rozwiązywanie konfliktów|Rozwiązywanie konfliktów]]** wybierz preferowaną opcję:
    - **Scal automatycznie** (domyślnie): Obsidian Sync łączy wszystkie zmiany z różnych urządzeń w jeden plik. Zapisuje to wszystkie edycje, ale czasem może tworzyć zduplikowany tekst lub problemy z formatowaniem. Będziesz musiał je naprawić ręcznie.
    - **Stwórz plik konfliktu**: Gdy Obsidian znajdzie sprzeczne zmiany, tworzy osobny plik konfliktu zamiast automatycznego scalania. Możesz wtedy przejrzeć obie wersje i scalić je samodzielnie. Daje to pełną kontrolę nad końcowym rezultatem.

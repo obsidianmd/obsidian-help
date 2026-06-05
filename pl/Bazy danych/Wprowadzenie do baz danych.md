@@ -11,7 +11,7 @@ Każda baza może mieć kilka [[Podglądy|podglądów]] z różnymi układami, t
 
 ![Przykład bazy danych pokazujący podgląd tabeli z listą książek](bases-noshadow.png#interface)
 
-Wszystkie dane w Bazach danych Obsidian są przechowywane w lokalnych plikach [[Podstawowa składnia formatowania|Markdown]] i ich [[Atrybuty|atrybutach]]. Podglądy są opisywane przez [[Składnia Baz danych|składnię Baz danych]], którą można zapisać jako plik `.base` lub [[Tworzenie bazy danych#Osadź bazę danych|osadzić]] w blokach kodu w plikach Markdown.
+Wszystkie dane w bazach danych Obsidian są przechowywane w lokalnych plikach [[Podstawowa składnia formatowania|Markdown]] i ich [[Atrybuty|atrybutach]]. Podglądy są opisywane przez [[Składnia baz danych|składnię baz danych]], którą można zapisać jako plik `.base` lub [[Tworzenie bazy danych#Osadź bazę danych|osadzić]] w blokach kodu w plikach Markdown.
 
 ## Jak korzystać z baz danych
 
@@ -23,7 +23,7 @@ Wszystkie dane w Bazach danych Obsidian są przechowywane w lokalnych plikach [[
 	- Twórz obliczenia na podstawie danych z innych atrybutów.
 - [[Funkcje]]
 	- Funkcje, których możesz używać we wzorach i filtrach.
-- [[Składnia Baz danych]]
+- [[Składnia baz danych]]
 	- Jak formatowane są pliki baz danych.
 
 ## Typy podglądów

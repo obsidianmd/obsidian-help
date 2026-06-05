@@ -11,7 +11,7 @@ Konwerter formatowania to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwal
 
 Aby przekonwertować wszystkie notatki w sejfie:
 
-1. W [[Lista poleceń|palecie poleceń]] wybierz **Otwórz konwerter formatowania**. Można go również znaleźć na [[Menu wstążkowe|wstążce]] za pomocą ikony **Otwórz konwerter formatowania** ![[lucide-binary.svg#icon]].
+1. W [[Lista poleceń|palecie poleceń]] wybierz **Otwórz konwerter formatowania**. Można go również znaleźć na [[Wstążka|wstążce]] za pomocą ikony **Otwórz konwerter formatowania** ![[lucide-binary.svg#icon]].
 2. Włącz formaty, które chcesz przekonwertować.
 3. Kliknij **Rozpocznij konwertowanie**.
 
