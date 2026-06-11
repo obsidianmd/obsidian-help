@@ -103,7 +103,7 @@ To customize Locations:
 
 1. Open Obsidian from the iOS Share Sheet.
 2. Tap the current Location in the toolbar.
-3. Tap **Add** to create a new Location, or edit an existing Location.
+3. Tap the **+** button to create a new Location, or select an existing Location to edit.
 4. Choose the vault, behavior, and optional settings.
 
 Depending on the `Behavior` type, you can configure options such as:
@@ -114,6 +114,50 @@ Depending on the `Behavior` type, you can configure options such as:
 - Whether shared links capture **Full Text** or only the **URL**
 
 ![[ios-share-sheet-add-location.png|400]]
+
+### Using a Template When Sharing
+
+You can use a template when sharing content from the Share Sheet. Templates let you format captured web content with details such as the page title, author, source website, and publication date.
+
+To set up a Location with a template:
+
+1. Open Obsidian from the iOS Share Sheet.
+2. Tap the current Location in the toolbar.
+3. Tap the **+** button to create a new Location.
+4. Enter a name for the Location.
+5. Select a vault.
+6. Set **Behavior** to **New Note**.
+7. In the **Optional** section, tap **Template**.
+8. Select a note from your vault to use as the template.
+9. Tap **Save** to save the Location.
+
+![[ios-share-sheet-set-template.png|400]]
+
+When you share a link using this Location, Obsidian applies the template first, then adds the shared content.
+
+Supported template placeholders:
+
+| Placeholder | Description |
+| --- | --- |
+| `{{author}}` | Author of the article |
+| `{{description}}` | Description or summary of the article |
+| `{{domain}}` | Domain name of the website |
+| `{{favicon}}` | URL of the website's favicon |
+| `{{image}}` | URL of the article's main image |
+| `{{published}}` | Publication date of the article, using the default date format |
+| `{{published: YYYY-MM-DD}}` | Publication date using a custom date format |
+| `{{site}}` | Name of the website |
+| `{{title}}` | Title of the article |
+| `{{wordCount}}` | Total number of words in the extracted content |
+
+You can also use standard template date and time placeholders:
+
+| Placeholder | Description |
+| --- | --- |
+| `{{date}}` | Current date |
+| `{{date: YYYY-MM-DD}}` | Current date using a custom format |
+| `{{time}}` | Current time |
+| `{{time: HH:mm}}` | Current time using a custom format |
 
 ## Siri integration
 
