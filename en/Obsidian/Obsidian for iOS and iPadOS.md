@@ -71,7 +71,8 @@ Capture shortcuts are particularly useful for quick note-taking, as they allow y
 Obsidian's Share Sheet lets you capture content from web pages. It also works with apps like YouTube and other social networks.
 
 > [!note]
-> The native Share Sheet is available on iOS and iPadOS 18 and higher.
+> - The native Share Sheet is available on iOS and iPadOS 18 and higher.
+> - The Share Sheet features described in this section require Obsidian 1.13.0 or later.
 
 Use the Share Sheet to quickly send content from another app to Obsidian:
 1. In another app, tap the **Share** button.
