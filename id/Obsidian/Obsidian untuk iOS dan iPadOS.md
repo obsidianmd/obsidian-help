@@ -48,7 +48,7 @@ Opsi konfigurasi widget **Catatan Baru**:
 
 ![[ios-new-note-configuration.png|400]]
 
-Opsi konfigurasi widget **Lihat Catatan**.
+Opsi konfigurasi widget **Lihat Catatan**:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -64,22 +64,99 @@ Obsidian terintegrasi dengan aplikasi Shortcuts dari Apple, memungkinkan Anda me
 
 Shortcut tangkapan sangat berguna untuk pencatatan cepat, karena memungkinkan Anda menambahkan konten ke catatan di latar belakang.
 
-## Ekstensi Share Sheet
+## Share Sheet
 
-Obsidian menawarkan Ekstensi Share Sheet yang dapat Anda gunakan di aplikasi lain untuk mengirim tautan, teks, gambar, atau dokumen ke brankas Obsidian Anda.
+Share Sheet Obsidian memungkinkan Anda menangkap konten dari halaman web. Fitur ini juga berfungsi dengan aplikasi seperti YouTube dan jejaring sosial lainnya.
 
-Untuk membagikan tautan dari Safari:
+> [!note]
+> - Share Sheet bawaan tersedia di iOS dan iPadOS 18 dan lebih tinggi.
+> - Fitur Share Sheet yang dijelaskan di bagian ini memerlukan Obsidian 1.13.0 atau lebih baru.
 
-1. Buka halaman web di Safari, lalu ketuk tombol **Bagikan**.
-2. Di menu Bagikan, geser ke kiri pada baris aplikasi, ketuk **More**, lalu ketuk **Edit**.
-3. Aktifkan **Obsidian** agar muncul di menu Bagikan.
-4. Ketuk tombol **Tambah** di sebelah Obsidian untuk menambahkannya ke **Favorites**.
-5. (Opsional) Seret tombol **Reorder** di sebelah Obsidian untuk mengubah posisinya di Favorites.
-6. Ketuk **Done**.
-7. Kembali di menu Bagikan Safari, ketuk **Obsidian**.
-8. Saat Anda mengetuk Obsidian, share sheet Obsidian akan muncul dan memungkinkan Anda membagikan konten yang dipilih ke brankas Anda.
+Gunakan Share Sheet untuk mengirim konten dengan cepat dari aplikasi lain ke Obsidian:
+1. Di aplikasi lain, ketuk tombol **Bagikan**.
+2. Pilih **Obsidian**.
+3. Pilih Lokasi.
+4. Tinjau atau edit konten yang ditangkap.
+5. Ketuk **Simpan**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Lokasi
+
+Lokasi memungkinkan Anda menentukan ke mana konten yang dibagikan akan disimpan sebelum Anda menyimpannya.
+
+Lokasi dapat menangkap ke:
+- **Catatan baru** — Buat catatan baru di brankas atau folder.
+- **Catatan harian** — Tambahkan konten di akhir atau awal catatan harian hari ini.
+- **Catatan yang dibookmark** — Tambahkan konten di akhir atau awal catatan yang dibookmark.
+- **Catatan** — Pilih catatan yang sudah ada di brankas Anda.
+- **Bookmark baru** — Simpan URL yang dibagikan ke bookmark Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Menyesuaikan Lokasi
+
+Anda dapat membuat Lokasi untuk alur kerja umum, seperti menyimpan artikel ke inbox, menambahkan kutipan ke catatan harian Anda, atau menambahkan tautan ke bookmark.
+
+Untuk menyesuaikan Lokasi:
+
+1. Buka Obsidian dari iOS Share Sheet.
+2. Ketuk Lokasi saat ini di bilah alat.
+3. Ketuk tombol **+** untuk membuat Lokasi baru, atau pilih Lokasi yang sudah ada untuk mengeditnya.
+4. Pilih brankas, perilaku, dan pengaturan opsional.
+
+Tergantung pada jenis `Behavior`, Anda dapat mengonfigurasi opsi seperti:
+- Folder
+- Templat
+- Grup bookmark
+- Posisi tambah di akhir atau awal
+- Apakah tautan yang dibagikan menangkap **Teks Lengkap** atau hanya **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Menggunakan Templat Saat Membagikan
+
+Anda dapat menggunakan templat saat membagikan konten dari Share Sheet. Templat memungkinkan Anda memformat konten web yang ditangkap dengan detail seperti judul halaman, penulis, situs web sumber, dan tanggal publikasi.
+
+Untuk menyiapkan Lokasi dengan templat:
+
+1. Buka Obsidian dari iOS Share Sheet.
+2. Ketuk Lokasi saat ini di bilah alat.
+3. Ketuk tombol **+** untuk membuat Lokasi baru.
+4. Masukkan nama untuk Lokasi.
+5. Pilih brankas.
+6. Atur **Behavior** ke **New Note**.
+7. Di bagian **Optional**, ketuk **Template**.
+8. Pilih catatan dari brankas Anda untuk digunakan sebagai templat.
+9. Ketuk **Save** untuk menyimpan Lokasi.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Saat Anda membagikan tautan menggunakan Lokasi ini, Obsidian menerapkan templat terlebih dahulu, lalu menambahkan konten yang dibagikan.
+
+Placeholder templat yang didukung:
+
+| Placeholder | Deskripsi |
+| --- | --- |
+| `{{author}}` | Penulis artikel |
+| `{{description}}` | Deskripsi atau ringkasan artikel |
+| `{{domain}}` | Nama domain situs web |
+| `{{favicon}}` | URL favicon situs web |
+| `{{image}}` | URL gambar utama artikel |
+| `{{published}}` | Tanggal publikasi artikel, menggunakan format tanggal bawaan |
+| `{{published: YYYY-MM-DD}}` | Tanggal publikasi menggunakan format tanggal kustom |
+| `{{site}}` | Nama situs web |
+| `{{title}}` | Judul artikel |
+| `{{wordCount}}` | Jumlah total kata dalam konten yang diekstrak |
+
+Anda juga dapat menggunakan placeholder tanggal dan waktu templat standar:
+
+| Placeholder | Deskripsi |
+| --- | --- |
+| `{{date}}` | Tanggal saat ini |
+| `{{date: YYYY-MM-DD}}` | Tanggal saat ini menggunakan format kustom |
+| `{{time}}` | Waktu saat ini |
+| `{{time: HH:mm}}` | Waktu saat ini menggunakan format kustom |
 
 ## Integrasi Siri
 

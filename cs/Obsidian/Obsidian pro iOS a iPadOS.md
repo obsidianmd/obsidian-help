@@ -61,22 +61,99 @@ Obsidian se integruje s aplikací Zkratky od Apple, což umožňuje vytvářet v
 
 Zkratky pro zachycení jsou obzvláště užitečné pro rychlé psaní poznámek, protože umožňují přidat obsah do poznámky na pozadí.
 
-## Rozšíření sdíleného listu
+## Sdílený list
 
-Obsidian nabízí rozšíření sdíleného listu, které můžete používat v jiných aplikacích k odesílání odkazů, textu, obrázků nebo dokumentů do vašeho trezoru Obsidian.
+Sdílený list Obsidian umožňuje zachytit obsah z webových stránek. Funguje také s aplikacemi jako YouTube a dalšími sociálními sítěmi.
 
-Sdílení odkazu ze Safari:
+> [!note]
+> - Nativní sdílený list je dostupný na iOS a iPadOS 18 a vyšším.
+> - Funkce sdíleného listu popsané v této sekci vyžadují Obsidian 1.13.0 nebo novější.
 
-1. Otevřete webovou stránku v Safari a klepněte na tlačítko **Sdílet**.
-2. V nabídce Sdílet přejeďte doleva přes řadu aplikací, klepněte na **Více** a poté na **Upravit**.
-3. Zapněte **Obsidian**, aby se zobrazil v nabídce Sdílet.
-4. Klepněte na tlačítko **Přidat** vedle Obsidian pro přidání do **Oblíbených**.
-5. (Volitelné) Přetáhněte tlačítko **Změnit pořadí** vedle Obsidian pro změnu jeho pozice v Oblíbených.
-6. Klepněte na **Hotovo**.
-7. Zpět v nabídce Sdílet v Safari klepněte na **Obsidian**.
-8. Po klepnutí na Obsidian se zobrazí sdílený list Obsidian, který vám umožní sdílet vybraný obsah do vašeho trezoru.
+Použijte sdílený list k rychlému odeslání obsahu z jiné aplikace do Obsidian:
+1. V jiné aplikaci klepněte na tlačítko **Sdílet**.
+2. Vyberte **Obsidian**.
+3. Zvolte umístění.
+4. Zkontrolujte nebo upravte zachycený obsah.
+5. Klepněte na **Uložit**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Umístění
+
+Umístění vám umožňují rozhodnout, kam má sdílený obsah směřovat, než jej uložíte.
+
+Umístění mohou zachytit do:
+- **Nová poznámka** — Vytvoří novou poznámku v trezoru nebo složce.
+- **Denní poznámka** — Připojí nebo vloží obsah na začátek dnešní denní poznámky.
+- **Poznámka v záložkách** — Připojí nebo vloží obsah na začátek poznámky v záložkách.
+- **Poznámka** — Zvolí existující poznámku ve vašem trezoru.
+- **Nová záložka** — Uloží sdílenou URL do záložek Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Přizpůsobení umístění
+
+Můžete vytvořit umístění pro běžné pracovní postupy, například ukládání článků do schránky příchozích, připojování citátů k denní poznámce nebo přidávání odkazů do záložek.
+
+Přizpůsobení umístění:
+
+1. Otevřete Obsidian ze sdíleného listu iOS.
+2. Klepněte na aktuální umístění v nástrojovém panelu.
+3. Klepněte na tlačítko **+** pro vytvoření nového umístění, nebo vyberte existující umístění k úpravě.
+4. Zvolte trezor, chování a volitelná nastavení.
+
+V závislosti na typu `Chování` můžete konfigurovat volby jako:
+- Složka
+- Šablona
+- Skupina záložek
+- Pozice připojení na začátek nebo konec
+- Zda sdílené odkazy zachytí **Celý text** nebo pouze **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Použití šablony při sdílení
+
+Při sdílení obsahu ze sdíleného listu můžete použít šablonu. Šablony umožňují formátovat zachycený webový obsah s detaily jako název stránky, autor, zdrojový web a datum publikace.
+
+Nastavení umístění se šablonou:
+
+1. Otevřete Obsidian ze sdíleného listu iOS.
+2. Klepněte na aktuální umístění v nástrojovém panelu.
+3. Klepněte na tlačítko **+** pro vytvoření nového umístění.
+4. Zadejte název umístění.
+5. Vyberte trezor.
+6. Nastavte **Chování** na **Nová poznámka**.
+7. V sekci **Volitelné** klepněte na **Šablona**.
+8. Vyberte poznámku z vašeho trezoru, kterou chcete použít jako šablonu.
+9. Klepněte na **Uložit** pro uložení umístění.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Když sdílíte odkaz pomocí tohoto umístění, Obsidian nejprve aplikuje šablonu a poté přidá sdílený obsah.
+
+Podporované zástupné symboly šablony:
+
+| Zástupný symbol | Popis |
+| --- | --- |
+| `{{author}}` | Autor článku |
+| `{{description}}` | Popis nebo shrnutí článku |
+| `{{domain}}` | Doménové jméno webu |
+| `{{favicon}}` | URL faviconu webu |
+| `{{image}}` | URL hlavního obrázku článku |
+| `{{published}}` | Datum publikace článku ve výchozím formátu data |
+| `{{published: YYYY-MM-DD}}` | Datum publikace ve vlastním formátu data |
+| `{{site}}` | Název webu |
+| `{{title}}` | Název článku |
+| `{{wordCount}}` | Celkový počet slov v extrahovaném obsahu |
+
+Můžete také použít standardní zástupné symboly šablony pro datum a čas:
+
+| Zástupný symbol | Popis |
+| --- | --- |
+| `{{date}}` | Aktuální datum |
+| `{{date: YYYY-MM-DD}}` | Aktuální datum ve vlastním formátu |
+| `{{time}}` | Aktuální čas |
+| `{{time: HH:mm}}` | Aktuální čas ve vlastním formátu |
 
 ## Integrace se Siri
 

@@ -46,7 +46,7 @@ Widget'ları iş akışınıza uyacak şekilde özelleştirebilirsiniz; örneği
 
 ![[ios-new-note-configuration.png|400]]
 
-**Not Görüntüle** widget yapılandırma seçenekleri.
+**Not Görüntüle** widget yapılandırma seçenekleri:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -62,22 +62,99 @@ Obsidian, Apple'ın Kısayollar uygulamasıyla entegre olarak güçlü otomasyon
 
 Kayıt kısayolları, arka planda bir nota içerik eklemenize olanak tanıdıkları için hızlı not tutmada özellikle kullanışlıdır.
 
-## Paylaş Sayfası Uzantısı
+## Paylaş Sayfası
 
-Obsidian, diğer uygulamalarda bağlantıları, metinleri, görselleri veya belgeleri Obsidian kasanıza göndermek için kullanabileceğiniz bir Paylaş Sayfası Uzantısı sunar.
+Obsidian'ın Paylaş Sayfası, web sayfalarından içerik yakalamanıza olanak tanır. Ayrıca YouTube ve diğer sosyal ağlar gibi uygulamalarla da çalışır.
 
-Safari'den bir bağlantı paylaşmak için:
+> [!note]
+> - Yerel Paylaş Sayfası iOS ve iPadOS 18 ve üzeri sürümlerde kullanılabilir.
+> - Bu bölümde açıklanan Paylaş Sayfası özellikleri Obsidian 1.13.0 veya sonraki sürümlerini gerektirir.
 
-1. Safari'de web sayfasını açın, ardından **Paylaş** düğmesine dokunun.
-2. Paylaş menüsünde uygulama satırında sola kaydırın, **Daha Fazla**'ya dokunun, ardından **Düzenle**'ye dokunun.
-3. Paylaş menüsünde görünmesi için **Obsidian**'ı etkinleştirin.
-4. **Sık Kullanılanlar**'a eklemek için Obsidian'ın yanındaki **Ekle** düğmesine dokunun.
-5. (İsteğe bağlı) Sık Kullanılanlar'daki konumunu değiştirmek için Obsidian'ın yanındaki **Yeniden Sırala** düğmesini sürükleyin.
-6. **Tamamlandı**'ya dokunun.
-7. Safari'nin Paylaş menüsüne geri dönün ve **Obsidian**'a dokunun.
-8. Obsidian'a dokunduğunuzda, Obsidian paylaş sayfası görünür ve seçilen içeriği kasanıza paylaşmanıza olanak tanır.
+Başka bir uygulamadan Obsidian'a hızlıca içerik göndermek için Paylaş Sayfasını kullanın:
+1. Başka bir uygulamada **Paylaş** düğmesine dokunun.
+2. **Obsidian**'ı seçin.
+3. Bir Konum seçin.
+4. Yakalanan içeriği gözden geçirin veya düzenleyin.
+5. **Kaydet**'e dokunun.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Konumlar
+
+Konumlar, paylaşılan içeriğin kaydetmeden önce nereye gideceğine karar vermenizi sağlar.
+
+Konumlar şunlara kaydedebilir:
+- **Yeni not** — Bir kasada veya klasörde yeni bir not oluşturun.
+- **Günlük not** — Günün günlük notuna içerik ekleyin veya başına içerik ekleyin.
+- **Yer imi eklenmiş not** — Yer imi eklenmiş bir nota içerik ekleyin veya başına içerik ekleyin.
+- **Not** — Kasanızdaki mevcut bir notu seçin.
+- **Yeni yer imi** — Paylaşılan bir URL'yi Obsidian yer imlerine kaydedin.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Konumları Özelleştirme
+
+Makaleleri bir gelen kutusuna kaydetme, günlük notunuza alıntı ekleme veya yer imlerine bağlantı ekleme gibi yaygın iş akışları için Konumlar oluşturabilirsiniz.
+
+Konumları özelleştirmek için:
+
+1. iOS Paylaş Sayfasından Obsidian'ı açın.
+2. Araç çubuğundaki mevcut Konuma dokunun.
+3. Yeni bir Konum oluşturmak için **+** düğmesine dokunun veya düzenlemek için mevcut bir Konumu seçin.
+4. Kasayı, davranışı ve isteğe bağlı ayarları seçin.
+
+`Davranış` türüne bağlı olarak şu gibi seçenekleri yapılandırabilirsiniz:
+- Klasör
+- Şablon
+- Yer imi grubu
+- Ekleme veya başa ekleme konumu
+- Paylaşılan bağlantıların **Tam Metin** mi yoksa yalnızca **URL** mi yakalayacağı
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Paylaşırken Şablon Kullanma
+
+Paylaş Sayfasından içerik paylaşırken bir şablon kullanabilirsiniz. Şablonlar, yakalanan web içeriğini sayfa başlığı, yazar, kaynak web sitesi ve yayın tarihi gibi ayrıntılarla biçimlendirmenize olanak tanır.
+
+Şablonlu bir Konum ayarlamak için:
+
+1. iOS Paylaş Sayfasından Obsidian'ı açın.
+2. Araç çubuğundaki mevcut Konuma dokunun.
+3. Yeni bir Konum oluşturmak için **+** düğmesine dokunun.
+4. Konum için bir ad girin.
+5. Bir kasa seçin.
+6. **Davranış**'ı **Yeni Not** olarak ayarlayın.
+7. **İsteğe Bağlı** bölümünde **Şablon**'a dokunun.
+8. Şablon olarak kullanmak için kasanızdan bir not seçin.
+9. Konumu kaydetmek için **Kaydet**'e dokunun.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Bu Konumu kullanarak bir bağlantı paylaştığınızda, Obsidian önce şablonu uygular, ardından paylaşılan içeriği ekler.
+
+Desteklenen şablon yer tutucuları:
+
+| Yer Tutucu | Açıklama |
+| --- | --- |
+| `{{author}}` | Makalenin yazarı |
+| `{{description}}` | Makalenin açıklaması veya özeti |
+| `{{domain}}` | Web sitesinin alan adı |
+| `{{favicon}}` | Web sitesinin favicon URL'si |
+| `{{image}}` | Makalenin ana görselinin URL'si |
+| `{{published}}` | Makalenin yayın tarihi, varsayılan tarih biçimini kullanır |
+| `{{published: YYYY-MM-DD}}` | Özel tarih biçimi kullanan yayın tarihi |
+| `{{site}}` | Web sitesinin adı |
+| `{{title}}` | Makalenin başlığı |
+| `{{wordCount}}` | Çıkarılan içerikteki toplam kelime sayısı |
+
+Standart şablon tarih ve saat yer tutucularını da kullanabilirsiniz:
+
+| Yer Tutucu | Açıklama |
+| --- | --- |
+| `{{date}}` | Geçerli tarih |
+| `{{date: YYYY-MM-DD}}` | Özel biçim kullanan geçerli tarih |
+| `{{time}}` | Geçerli saat |
+| `{{time: HH:mm}}` | Özel biçim kullanan geçerli saat |
 
 ## Siri entegrasyonu
 

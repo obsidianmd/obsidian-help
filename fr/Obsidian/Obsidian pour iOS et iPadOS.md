@@ -1,7 +1,6 @@
 ---
 permalink: ios
 localized: '2026-03-18'
-
 ---
 L'application mobile Obsidian pour iOS et iPadOS apporte de puissantes capacités de prise de notes à votre iPhone et iPad. Vous pouvez la télécharger depuis l'[Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
 
@@ -63,22 +62,99 @@ Obsidian s'intègre avec l'application Raccourcis d'Apple, vous permettant de cr
 
 Les raccourcis de capture sont particulièrement utiles pour la prise de notes rapide, car ils vous permettent d'ajouter du contenu à une note en arrière-plan.
 
-## Extension de la feuille de partage
+## Feuille de partage
 
-Obsidian propose une extension de feuille de partage que vous pouvez utiliser dans d'autres applications pour envoyer des liens, du texte, des images ou des documents vers votre coffre Obsidian.
+La feuille de partage d'Obsidian vous permet de capturer du contenu depuis des pages web. Elle fonctionne également avec des applications comme YouTube et d'autres réseaux sociaux.
 
-Pour partager un lien depuis Safari :
+> [!note]
+> - La feuille de partage native est disponible sur iOS et iPadOS 18 et versions ultérieures.
+> - Les fonctionnalités de la feuille de partage décrites dans cette section nécessitent Obsidian 1.13.0 ou une version ultérieure.
 
-1. Ouvrez la page web dans Safari, puis touchez le bouton **Partager**.
-2. Dans le menu Partager, faites glisser vers la gauche dans la rangée d'applications, touchez **Plus**, puis touchez **Modifier**.
-3. Activez **Obsidian** pour qu'il apparaisse dans le menu Partager.
-4. Touchez le bouton **Ajouter** à côté d'Obsidian pour l'ajouter aux **Favoris**.
-5. (Facultatif) Faites glisser le bouton **Réordonner** à côté d'Obsidian pour modifier sa position dans les Favoris.
-6. Touchez **Terminé**.
-7. De retour dans le menu Partager de Safari, touchez **Obsidian**.
-8. Lorsque vous touchez Obsidian, la feuille de partage Obsidian apparaît et vous permet de partager le contenu sélectionné vers votre coffre.
+Utilisez la feuille de partage pour envoyer rapidement du contenu depuis une autre application vers Obsidian :
+1. Dans une autre application, touchez le bouton **Partager**.
+2. Sélectionnez **Obsidian**.
+3. Choisissez un emplacement.
+4. Vérifiez ou modifiez le contenu capturé.
+5. Touchez **Enregistrer**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Emplacements
+
+Les emplacements vous permettent de décider où le contenu partagé doit aller avant de l'enregistrer.
+
+Les emplacements peuvent capturer vers :
+- **Nouvelle note** — Créer une nouvelle note dans un coffre ou un dossier.
+- **Note quotidienne** — Ajouter du contenu au début ou à la fin de la note quotidienne du jour.
+- **Note marquée comme signet** — Ajouter du contenu au début ou à la fin d'une note marquée comme signet.
+- **Note** — Choisir une note existante dans votre coffre.
+- **Nouveau signet** — Enregistrer une URL partagée dans les signets d'Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Personnaliser les emplacements
+
+Vous pouvez créer des emplacements pour des flux de travail courants, comme enregistrer des articles dans une boîte de réception, ajouter des citations à votre note quotidienne ou ajouter des liens aux signets.
+
+Pour personnaliser les emplacements :
+
+1. Ouvrez Obsidian depuis la feuille de partage iOS.
+2. Touchez l'emplacement actuel dans la barre d'outils.
+3. Touchez le bouton **+** pour créer un nouvel emplacement, ou sélectionnez un emplacement existant pour le modifier.
+4. Choisissez le coffre, le comportement et les paramètres optionnels.
+
+Selon le type de `Comportement`, vous pouvez configurer des options telles que :
+- Dossier
+- Modèle
+- Groupe de signets
+- Position d'ajout au début ou à la fin
+- Si les liens partagés capturent le **Texte complet** ou uniquement l'**URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Utiliser un modèle lors du partage
+
+Vous pouvez utiliser un modèle lors du partage de contenu depuis la feuille de partage. Les modèles vous permettent de formater le contenu web capturé avec des détails tels que le titre de la page, l'auteur, le site source et la date de publication.
+
+Pour configurer un emplacement avec un modèle :
+
+1. Ouvrez Obsidian depuis la feuille de partage iOS.
+2. Touchez l'emplacement actuel dans la barre d'outils.
+3. Touchez le bouton **+** pour créer un nouvel emplacement.
+4. Saisissez un nom pour l'emplacement.
+5. Sélectionnez un coffre.
+6. Définissez **Comportement** sur **Nouvelle note**.
+7. Dans la section **Optionnel**, touchez **Modèle**.
+8. Sélectionnez une note de votre coffre à utiliser comme modèle.
+9. Touchez **Enregistrer** pour sauvegarder l'emplacement.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Lorsque vous partagez un lien en utilisant cet emplacement, Obsidian applique d'abord le modèle, puis ajoute le contenu partagé.
+
+Variables de modèle prises en charge :
+
+| Variable | Description |
+| --- | --- |
+| `{{author}}` | Auteur de l'article |
+| `{{description}}` | Description ou résumé de l'article |
+| `{{domain}}` | Nom de domaine du site web |
+| `{{favicon}}` | URL du favicon du site web |
+| `{{image}}` | URL de l'image principale de l'article |
+| `{{published}}` | Date de publication de l'article, utilisant le format de date par défaut |
+| `{{published: YYYY-MM-DD}}` | Date de publication utilisant un format de date personnalisé |
+| `{{site}}` | Nom du site web |
+| `{{title}}` | Titre de l'article |
+| `{{wordCount}}` | Nombre total de mots dans le contenu extrait |
+
+Vous pouvez également utiliser les variables de modèle standard pour la date et l'heure :
+
+| Variable | Description |
+| --- | --- |
+| `{{date}}` | Date actuelle |
+| `{{date: YYYY-MM-DD}}` | Date actuelle utilisant un format personnalisé |
+| `{{time}}` | Heure actuelle |
+| `{{time: HH:mm}}` | Heure actuelle utilisant un format personnalisé |
 
 ## Intégration de Siri
 

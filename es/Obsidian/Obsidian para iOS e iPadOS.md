@@ -46,7 +46,7 @@ Opciones de configuración del widget **Nueva nota**:
 
 ![[ios-new-note-configuration.png|400]]
 
-Opciones de configuración del widget **Ver nota**.
+Opciones de configuración del widget **Ver nota**:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -62,22 +62,99 @@ Obsidian se integra con la aplicación Atajos de Apple, permitiéndote crear aut
 
 Los atajos de captura son particularmente útiles para tomar notas rápidas, ya que te permiten agregar contenido a una nota en segundo plano.
 
-## Extensión de hoja para compartir
+## Hoja para compartir
 
-Obsidian ofrece una extensión de hoja para compartir que puedes usar en otras aplicaciones para enviar enlaces, texto, imágenes o documentos a tu bóveda de Obsidian.
+La hoja para compartir de Obsidian te permite capturar contenido de páginas web. También funciona con aplicaciones como YouTube y otras redes sociales.
 
-Para compartir un enlace desde Safari:
+> [!note]
+> - La hoja para compartir nativa está disponible en iOS e iPadOS 18 y versiones superiores.
+> - Las funciones de la hoja para compartir descritas en esta sección requieren Obsidian 1.13.0 o posterior.
 
-1. Abre la página web en Safari, luego toca el botón **Compartir**.
-2. En el menú Compartir, desliza hacia la izquierda en la fila de aplicaciones, toca **Más**, luego toca **Editar**.
-3. Activa **Obsidian** para que aparezca en el menú Compartir.
-4. Toca el botón **Añadir** junto a Obsidian para agregarlo a **Favoritos**.
-5. (Opcional) Arrastra el botón **Reordenar** junto a Obsidian para cambiar su posición en Favoritos.
-6. Toca **Hecho**.
-7. De vuelta en el menú Compartir de Safari, toca **Obsidian**.
-8. Cuando toques Obsidian, aparecerá la hoja para compartir de Obsidian y te permitirá compartir el contenido seleccionado en tu bóveda.
+Usa la hoja para compartir para enviar rápidamente contenido desde otra aplicación a Obsidian:
+1. En otra aplicación, toca el botón **Compartir**.
+2. Selecciona **Obsidian**.
+3. Elige una ubicación.
+4. Revisa o edita el contenido capturado.
+5. Toca **Guardar**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Ubicaciones
+
+Las ubicaciones te permiten decidir a dónde debe ir el contenido compartido antes de guardarlo.
+
+Las ubicaciones pueden capturar en:
+- **Nueva nota** — Crea una nueva nota en una bóveda o carpeta.
+- **Nota diaria** — Añade contenido al principio o al final de la nota diaria de hoy.
+- **Nota marcada** — Añade contenido al principio o al final de una nota marcada.
+- **Nota** — Elige una nota existente en tu bóveda.
+- **Nuevo marcador** — Guarda una URL compartida en los marcadores de Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Personalizar ubicaciones
+
+Puedes crear ubicaciones para flujos de trabajo comunes, como guardar artículos en una bandeja de entrada, añadir citas a tu nota diaria o agregar enlaces a marcadores.
+
+Para personalizar ubicaciones:
+
+1. Abre Obsidian desde la hoja para compartir de iOS.
+2. Toca la ubicación actual en la barra de herramientas.
+3. Toca el botón **+** para crear una nueva ubicación, o selecciona una ubicación existente para editarla.
+4. Elige la bóveda, el comportamiento y los ajustes opcionales.
+
+Dependiendo del tipo de `Comportamiento`, puedes configurar opciones como:
+- Carpeta
+- Plantilla
+- Grupo de marcadores
+- Posición de añadir al principio o al final
+- Si los enlaces compartidos capturan el **Texto completo** o solo la **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Usar una plantilla al compartir
+
+Puedes usar una plantilla al compartir contenido desde la hoja para compartir. Las plantillas te permiten dar formato al contenido web capturado con detalles como el título de la página, el autor, el sitio web de origen y la fecha de publicación.
+
+Para configurar una ubicación con una plantilla:
+
+1. Abre Obsidian desde la hoja para compartir de iOS.
+2. Toca la ubicación actual en la barra de herramientas.
+3. Toca el botón **+** para crear una nueva ubicación.
+4. Introduce un nombre para la ubicación.
+5. Selecciona una bóveda.
+6. Establece **Comportamiento** en **Nueva nota**.
+7. En la sección **Opcional**, toca **Plantilla**.
+8. Selecciona una nota de tu bóveda para usarla como plantilla.
+9. Toca **Guardar** para guardar la ubicación.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Cuando compartes un enlace usando esta ubicación, Obsidian aplica primero la plantilla y luego añade el contenido compartido.
+
+Marcadores de posición compatibles en las plantillas:
+
+| Marcador de posición | Descripción |
+| --- | --- |
+| `{{author}}` | Autor del artículo |
+| `{{description}}` | Descripción o resumen del artículo |
+| `{{domain}}` | Nombre de dominio del sitio web |
+| `{{favicon}}` | URL del favicon del sitio web |
+| `{{image}}` | URL de la imagen principal del artículo |
+| `{{published}}` | Fecha de publicación del artículo, usando el formato de fecha predeterminado |
+| `{{published: YYYY-MM-DD}}` | Fecha de publicación usando un formato de fecha personalizado |
+| `{{site}}` | Nombre del sitio web |
+| `{{title}}` | Título del artículo |
+| `{{wordCount}}` | Número total de palabras en el contenido extraído |
+
+También puedes usar los marcadores de posición estándar de fecha y hora de las plantillas:
+
+| Marcador de posición | Descripción |
+| --- | --- |
+| `{{date}}` | Fecha actual |
+| `{{date: YYYY-MM-DD}}` | Fecha actual usando un formato personalizado |
+| `{{time}}` | Hora actual |
+| `{{time: HH:mm}}` | Hora actual usando un formato personalizado |
 
 ## Integración con Siri
 

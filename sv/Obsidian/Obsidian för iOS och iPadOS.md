@@ -46,7 +46,7 @@ Konfigurationsalternativ för widgeten **Ny anteckning**:
 
 ![[ios-new-note-configuration.png|400]]
 
-Konfigurationsalternativ för widgeten **Visa anteckning**.
+Konfigurationsalternativ för widgeten **Visa anteckning**:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -62,22 +62,99 @@ Obsidian integrerar med Apples Genvägar-app, vilket låter dig skapa kraftfulla
 
 Spara-genvägar är särskilt användbara för snabba anteckningar, eftersom de låter dig lägga till innehåll i en anteckning i bakgrunden.
 
-## Delningsblad-tillägg
+## Delningsblad
 
-Obsidian erbjuder ett delningsblad-tillägg som du kan använda i andra appar för att skicka länkar, text, bilder eller dokument till ditt Obsidian-valv.
+Obsidians delningsblad låter dig fånga innehåll från webbsidor. Det fungerar även med appar som YouTube och andra sociala nätverk.
 
-Så här delar du en länk från Safari:
+> [!note]
+> - Det inbyggda delningsbladet är tillgängligt på iOS och iPadOS 18 och högre.
+> - Delningsbladsfunktionerna som beskrivs i detta avsnitt kräver Obsidian 1.13.0 eller senare.
 
-1. Öppna webbsidan i Safari och tryck sedan på **Dela**-knappen.
-2. I delningsmenyn, svep åt vänster över appraden, tryck på **Mer** och sedan på **Redigera**.
-3. Aktivera **Obsidian** så att det visas i delningsmenyn.
-4. Tryck på **Lägg till**-knappen bredvid Obsidian för att lägga till det i **Favoriter**.
-5. (Valfritt) Dra **Ändra ordning**-knappen bredvid Obsidian för att ändra dess position i Favoriter.
-6. Tryck på **Klar**.
-7. Tillbaka i Safaris delningsmeny, tryck på **Obsidian**.
-8. När du trycker på Obsidian visas Obsidians delningsblad som låter dig dela det valda innehållet till ditt valv.
+Använd delningsbladet för att snabbt skicka innehåll från en annan app till Obsidian:
+1. I en annan app, tryck på **Dela**-knappen.
+2. Välj **Obsidian**.
+3. Välj en plats.
+4. Granska eller redigera det fångade innehållet.
+5. Tryck på **Spara**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Platser
+
+Platser låter dig bestämma vart det delade innehållet ska hamna innan du sparar det.
+
+Platser kan spara till:
+- **Ny anteckning** — Skapa en ny anteckning i ett valv eller en mapp.
+- **Daglig anteckning** — Lägg till innehåll i början eller slutet av dagens dagliga anteckning.
+- **Bokmärkt anteckning** — Lägg till innehåll i början eller slutet av en bokmärkt anteckning.
+- **Anteckning** — Välj en befintlig anteckning i ditt valv.
+- **Nytt bokmärke** — Spara en delad URL till Obsidians bokmärken.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Anpassa platser
+
+Du kan skapa platser för vanliga arbetsflöden, som att spara artiklar till en inkorg, lägga till citat i din dagliga anteckning eller lägga till länkar i bokmärken.
+
+Så här anpassar du platser:
+
+1. Öppna Obsidian från iOS delningsblad.
+2. Tryck på den aktuella platsen i verktygsfältet.
+3. Tryck på **+**-knappen för att skapa en ny plats, eller välj en befintlig plats att redigera.
+4. Välj valv, beteende och valfria inställningar.
+
+Beroende på typen av `Beteende` kan du konfigurera alternativ som:
+- Mapp
+- Mall
+- Bokmärkesgrupp
+- Position för att lägga till i början eller slutet
+- Om delade länkar fångar **Fullständig text** eller bara **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Använda en mall vid delning
+
+Du kan använda en mall när du delar innehåll från delningsbladet. Mallar låter dig formatera fångat webbinnehåll med detaljer som sidtitel, författare, källwebbplats och publiceringsdatum.
+
+Så här skapar du en plats med en mall:
+
+1. Öppna Obsidian från iOS delningsblad.
+2. Tryck på den aktuella platsen i verktygsfältet.
+3. Tryck på **+**-knappen för att skapa en ny plats.
+4. Ange ett namn för platsen.
+5. Välj ett valv.
+6. Ställ in **Beteende** till **Ny anteckning**.
+7. I avsnittet **Valfritt**, tryck på **Mall**.
+8. Välj en anteckning från ditt valv att använda som mall.
+9. Tryck på **Spara** för att spara platsen.
+
+![[ios-share-sheet-set-template.png|400]]
+
+När du delar en länk med denna plats tillämpar Obsidian mallen först och lägger sedan till det delade innehållet.
+
+Platshållare som stöds i mallar:
+
+| Platshållare | Beskrivning |
+| --- | --- |
+| `{{author}}` | Artikelns författare |
+| `{{description}}` | Beskrivning eller sammanfattning av artikeln |
+| `{{domain}}` | Webbplatsens domännamn |
+| `{{favicon}}` | URL till webbplatsens favicon |
+| `{{image}}` | URL till artikelns huvudbild |
+| `{{published}}` | Artikelns publiceringsdatum, med standarddatumformat |
+| `{{published: YYYY-MM-DD}}` | Publiceringsdatum med anpassat datumformat |
+| `{{site}}` | Webbplatsens namn |
+| `{{title}}` | Artikelns titel |
+| `{{wordCount}}` | Totalt antal ord i det extraherade innehållet |
+
+Du kan även använda standardplatshållare för datum och tid i mallar:
+
+| Platshållare | Beskrivning |
+| --- | --- |
+| `{{date}}` | Aktuellt datum |
+| `{{date: YYYY-MM-DD}}` | Aktuellt datum med anpassat format |
+| `{{time}}` | Aktuell tid |
+| `{{time: HH:mm}}` | Aktuell tid med anpassat format |
 
 ## Siri-integration
 

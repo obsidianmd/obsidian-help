@@ -62,22 +62,99 @@ Obsidian integreert met de Opdrachten-app van Apple, waarmee je krachtige automa
 
 Vastlegopdrachten zijn bijzonder handig voor het snel maken van notities, omdat je hiermee op de achtergrond inhoud aan een notitie kunt toevoegen.
 
-## Deel-extensie
+## Deelvenster
 
-Obsidian biedt een Deel-extensie die je in andere apps kunt gebruiken om koppelingen, tekst, afbeeldingen of documenten naar je Obsidian-kluis te sturen.
+Met het Deelvenster van Obsidian kun je inhoud van webpagina's vastleggen. Het werkt ook met apps zoals YouTube en andere sociale netwerken.
 
-Om een koppeling vanuit Safari te delen:
+> [!note]
+> - Het native Deelvenster is beschikbaar op iOS en iPadOS 18 en hoger.
+> - De Deelvenster-functies die in dit gedeelte worden beschreven, vereisen Obsidian 1.13.0 of hoger.
 
-1. Open de webpagina in Safari en tik op de **Deel**-knop.
-2. Veeg in het Deel-menu naar links over de app-rij, tik op **Meer** en tik vervolgens op **Wijzig**.
-3. Schakel **Obsidian** in zodat het in het Deel-menu verschijnt.
-4. Tik op de **Voeg toe**-knop naast Obsidian om het aan **Favorieten** toe te voegen.
-5. (Optioneel) Sleep de **Rangschik**-knop naast Obsidian om de positie in Favorieten te wijzigen.
-6. Tik op **Gereed**.
-7. Tik in het Deel-menu van Safari op **Obsidian**.
-8. Wanneer je op Obsidian tikt, verschijnt het Obsidian-deelvenster waarmee je de geselecteerde inhoud naar je kluis kunt delen.
+Gebruik het Deelvenster om snel inhoud vanuit een andere app naar Obsidian te sturen:
+1. Tik in een andere app op de **Deel**-knop.
+2. Selecteer **Obsidian**.
+3. Kies een Locatie.
+4. Controleer of bewerk de vastgelegde inhoud.
+5. Tik op **Opslaan**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Locaties
+
+Met Locaties kun je bepalen waar de gedeelde inhoud naartoe moet voordat je deze opslaat.
+
+Locaties kunnen vastleggen naar:
+- **Nieuwe notitie** — Maak een nieuwe notitie in een kluis of map.
+- **Dagelijkse notitie** — Voeg inhoud toe aan het begin of einde van de dagelijkse notitie van vandaag.
+- **Notitie met bladwijzer** — Voeg inhoud toe aan het begin of einde van een notitie met bladwijzer.
+- **Notitie** — Kies een bestaande notitie in je kluis.
+- **Nieuwe bladwijzer** — Sla een gedeelde URL op in Obsidian-bladwijzers.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Locaties aanpassen
+
+Je kunt Locaties maken voor veelgebruikte werkwijzen, zoals het opslaan van artikelen in een inbox, het toevoegen van citaten aan je dagelijkse notitie of het toevoegen van koppelingen aan bladwijzers.
+
+Om Locaties aan te passen:
+
+1. Open Obsidian vanuit het iOS Deelvenster.
+2. Tik op de huidige Locatie in de werkbalk.
+3. Tik op de **+**-knop om een nieuwe Locatie te maken, of selecteer een bestaande Locatie om te bewerken.
+4. Kies de kluis, het gedrag en optionele instellingen.
+
+Afhankelijk van het type `Gedrag` kun je opties configureren zoals:
+- Map
+- Sjabloon
+- Bladwijzergroep
+- Positie aan het begin of einde toevoegen
+- Of gedeelde koppelingen **Volledige tekst** of alleen de **URL** vastleggen
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Een sjabloon gebruiken bij het delen
+
+Je kunt een sjabloon gebruiken wanneer je inhoud deelt vanuit het Deelvenster. Met sjablonen kun je vastgelegde webinhoud opmaken met details zoals de paginatitel, auteur, bronwebsite en publicatiedatum.
+
+Om een Locatie met een sjabloon in te stellen:
+
+1. Open Obsidian vanuit het iOS Deelvenster.
+2. Tik op de huidige Locatie in de werkbalk.
+3. Tik op de **+**-knop om een nieuwe Locatie te maken.
+4. Voer een naam in voor de Locatie.
+5. Selecteer een kluis.
+6. Stel **Gedrag** in op **Nieuwe notitie**.
+7. Tik in het gedeelte **Optioneel** op **Sjabloon**.
+8. Selecteer een notitie uit je kluis om als sjabloon te gebruiken.
+9. Tik op **Opslaan** om de Locatie op te slaan.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Wanneer je een koppeling deelt met deze Locatie, past Obsidian eerst het sjabloon toe en voegt vervolgens de gedeelde inhoud toe.
+
+Ondersteunde sjabloonvariabelen:
+
+| Variabele | Beschrijving |
+| --- | --- |
+| `{{author}}` | Auteur van het artikel |
+| `{{description}}` | Beschrijving of samenvatting van het artikel |
+| `{{domain}}` | Domeinnaam van de website |
+| `{{favicon}}` | URL van het favicon van de website |
+| `{{image}}` | URL van de hoofdafbeelding van het artikel |
+| `{{published}}` | Publicatiedatum van het artikel, in het standaard datumformaat |
+| `{{published: YYYY-MM-DD}}` | Publicatiedatum in een aangepast datumformaat |
+| `{{site}}` | Naam van de website |
+| `{{title}}` | Titel van het artikel |
+| `{{wordCount}}` | Totaal aantal woorden in de geëxtraheerde inhoud |
+
+Je kunt ook standaard sjabloonvariabelen voor datum en tijd gebruiken:
+
+| Variabele | Beschrijving |
+| --- | --- |
+| `{{date}}` | Huidige datum |
+| `{{date: YYYY-MM-DD}}` | Huidige datum in een aangepast formaat |
+| `{{time}}` | Huidige tijd |
+| `{{time: HH:mm}}` | Huidige tijd in een aangepast formaat |
 
 ## Siri-integratie
 

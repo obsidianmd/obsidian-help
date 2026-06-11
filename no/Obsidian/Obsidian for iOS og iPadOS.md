@@ -47,7 +47,7 @@ Konfigurasjonsalternativer for **Nytt notat**-widget:
 
 ![[ios-new-note-configuration.png|400]]
 
-Konfigurasjonsalternativer for **Vis notat**-widget.
+Konfigurasjonsalternativer for **Vis notat**-widget:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -63,22 +63,99 @@ Obsidian integrerer med Apples Snarveier-app, som lar deg lage kraftige automati
 
 Fang-snarveier er spesielt nyttige for raske notater, ettersom de lar deg legge til innhold i et notat i bakgrunnen.
 
-## Delingsark-utvidelse
+## Delingsark
 
-Obsidian tilbyr en delingsark-utvidelse som du kan bruke i andre apper for å sende lenker, tekst, bilder eller dokumenter til Obsidian-hvelvet ditt.
+Obsidians delingsark lar deg fange innhold fra nettsider. Det fungerer også med apper som YouTube og andre sosiale nettverk.
 
-For å dele en lenke fra Safari:
+> [!note]
+> - Det innebygde delingsarket er tilgjengelig på iOS og iPadOS 18 og nyere.
+> - Delingsark-funksjonene beskrevet i denne seksjonen krever Obsidian 1.13.0 eller nyere.
 
-1. Åpne nettsiden i Safari, og trykk deretter på **Del**-knappen.
-2. I Del-menyen, sveip til venstre over appraden, trykk **Mer**, og trykk deretter **Rediger**.
-3. Slå på **Obsidian** slik at det vises i Del-menyen.
-4. Trykk på **Legg til**-knappen ved siden av Obsidian for å legge det til i **Favoritter**.
-5. (Valgfritt) Dra **Endre rekkefølge**-knappen ved siden av Obsidian for å endre plasseringen i Favoritter.
-6. Trykk **Ferdig**.
-7. Tilbake i Safaris Del-meny, trykk **Obsidian**.
-8. Når du trykker på Obsidian, vises Obsidian-delingsarket og lar deg dele det valgte innholdet til hvelvet ditt.
+Bruk delingsarket for raskt å sende innhold fra en annen app til Obsidian:
+1. I en annen app, trykk på **Del**-knappen.
+2. Velg **Obsidian**.
+3. Velg en plassering.
+4. Gjennomgå eller rediger det fangede innholdet.
+5. Trykk **Lagre**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Plasseringer
+
+Plasseringer lar deg bestemme hvor det delte innholdet skal lagres før du lagrer det.
+
+Plasseringer kan fange til:
+- **Nytt notat** — Opprett et nytt notat i et hvelv eller en mappe.
+- **Daglig notat** — Legg til innhold i begynnelsen eller slutten av dagens daglige notat.
+- **Bokmerket notat** — Legg til innhold i begynnelsen eller slutten av et bokmerket notat.
+- **Notat** — Velg et eksisterende notat i hvelvet ditt.
+- **Nytt bokmerke** — Lagre en delt URL til Obsidian-bokmerker.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Tilpasse plasseringer
+
+Du kan opprette plasseringer for vanlige arbeidsflyter, som å lagre artikler i en innboks, legge til sitater i det daglige notatet, eller legge til lenker i bokmerker.
+
+For å tilpasse plasseringer:
+
+1. Åpne Obsidian fra iOS-delingsarket.
+2. Trykk på gjeldende plassering i verktøylinjen.
+3. Trykk på **+**-knappen for å opprette en ny plassering, eller velg en eksisterende plassering for å redigere.
+4. Velg hvelv, atferd og valgfrie innstillinger.
+
+Avhengig av `Atferd`-typen kan du konfigurere alternativer som:
+- Mappe
+- Mal
+- Bokmerkegruppe
+- Legg til i begynnelsen eller slutten
+- Om delte lenker fanger **Full tekst** eller bare **URL-en**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Bruke en mal ved deling
+
+Du kan bruke en mal når du deler innhold fra delingsarket. Maler lar deg formatere fanget nettinnhold med detaljer som sidetittel, forfatter, kildenettsted og publiseringsdato.
+
+For å sette opp en plassering med en mal:
+
+1. Åpne Obsidian fra iOS-delingsarket.
+2. Trykk på gjeldende plassering i verktøylinjen.
+3. Trykk på **+**-knappen for å opprette en ny plassering.
+4. Skriv inn et navn for plasseringen.
+5. Velg et hvelv.
+6. Sett **Atferd** til **Nytt notat**.
+7. I **Valgfritt**-seksjonen, trykk **Mal**.
+8. Velg et notat fra hvelvet ditt som skal brukes som mal.
+9. Trykk **Lagre** for å lagre plasseringen.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Når du deler en lenke med denne plasseringen, bruker Obsidian malen først, og legger deretter til det delte innholdet.
+
+Støttede mal-plassholdere:
+
+| Plassholder | Beskrivelse |
+| --- | --- |
+| `{{author}}` | Forfatter av artikkelen |
+| `{{description}}` | Beskrivelse eller sammendrag av artikkelen |
+| `{{domain}}` | Domenenavn for nettstedet |
+| `{{favicon}}` | URL til nettstedets favicon |
+| `{{image}}` | URL til artikkelens hovedbilde |
+| `{{published}}` | Publiseringsdato for artikkelen, med standard datoformat |
+| `{{published: YYYY-MM-DD}}` | Publiseringsdato med egendefinert datoformat |
+| `{{site}}` | Navn på nettstedet |
+| `{{title}}` | Tittel på artikkelen |
+| `{{wordCount}}` | Totalt antall ord i det uttrukne innholdet |
+
+Du kan også bruke standard mal-plassholdere for dato og tid:
+
+| Plassholder | Beskrivelse |
+| --- | --- |
+| `{{date}}` | Gjeldende dato |
+| `{{date: YYYY-MM-DD}}` | Gjeldende dato med egendefinert format |
+| `{{time}}` | Gjeldende tid |
+| `{{time: HH:mm}}` | Gjeldende tid med egendefinert format |
 
 ## Siri-integrasjon
 
