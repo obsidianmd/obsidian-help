@@ -3,41 +3,58 @@ permalink: credits
 ---
 A nevek nem a hozzájárulás mértéke, hanem ábécé sorrend szerint vannak felsorolva (legalábbis megpróbáljuk!).
 
-## Csapat
+## Alapcsapat
 
-### Fejlesztés
+Az alapcsapat, amely az Obsidian-t építi és karbantartja.
 
-- Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
-- liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
-- joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair mod-pop'>Plugin API Master</span>
+- codedmart (Brandon Martin)
+- dharam (Dharam Kapila)
+- kepano ([Steph Ango](https://stephanango.com/))
+- Licat (Shida Li)
+- liam ([Liam Cain](https://liamca.in/)) <span class='flair'>Maker of Calendar</span> <span class='flair'>Plugin API Master</span> <span class='flair'>Volcano Veteran</span>
+- Silver ([Erica Xu](https://ericaxu.com))<span class='flair'>Team Little Silvers</span>
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair'>Sorcerous Support Dragon</span> <span class='flair'>TTRPG Enthusiast</span>
 - tgrosinger ([Tony Grosinger](https://grosinger.net))
+
+## Közreműködők
+
+Részmunkaidős fejlesztők, akik segítenek az Obsidian építésében.
+
+- cmptr (Aaron Bell)
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 
-### Termék és üzemeltetés
+## Közösségi felülvizsgálat
 
-- Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
-- kepano ([Steph Ango](https://stephanango.com/))
-- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
+A [közösségi](https://community.obsidian.md/) bővítmény/téma felülvizsgálati folyamat és eszközök közreműködői.
 
-## Moderátorok
+- Fevol
+- mnaoumov (Michael Naumov)
+- Saberzero1 (Emile Bangma)
+- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 
-- argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
-- cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
-- koala<span class='flair mod-pop'>Extreme Bug Finder</span>
-- Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair mod-pop'>Roll for initiative!</span> <span class='flair mod-pop'>Non-techy Apple geek</span>
-- rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
-- ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
-- WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
-- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
-- Trainbuffer <span class='flair mod-pop'> ferroequinologist</span> <span class='flair mod-pop'>Travels by rail</span>
-- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair mod-pop'>Not <i>that</i> one</span>
-- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
-- Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
+## Moderálás
 
-### Visszavonult
+A moderátorok az Obsidian Fórumot, a Discordot és a Redditet kezelik.
 
-- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
-- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
+- argentum<span class='flair'>Team Little Silvers</span> <span class='flair'>Linux master</span> <span class='flair'>Zotero master</span> ^a4b3a2
+- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair'>embedded-search ambassador</span>
+- cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair'>Linux master</span>
+- koala<span class='flair'>Extreme Bug Finder</span>
+- Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair'>Roll for initiative!</span> <span class='flair'>Non-techy Apple geek</span>
+- rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair'>Forum master</span>
+- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair'>Not <i>that</i> one</span>
+- Trainbuffer <span class='flair'> ferroequinologist</span> <span class='flair'>Travels by rail</span>
+- WhiteNoise<span class='flair'>Think Tank</span> <span class='flair'>Zotero master</span> <span class='flair'>Bug report exterminator</span>
+- Carl the Turtle<span class='flair'>Online 24/7</span> <span class='flair'>Easily triggered</span> <span class='flair'>Good and pure</span> 
+
+## Alumni
+
+Korábbi moderátorok és csapattagok, akik új kalandokba vágtak!
+
+- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair'>Halp Obsidian turned me into a dev</span>
+- joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair'>Plugin API Master</span>
+- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair'>Bad Cop</span>
+- ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair'>That funny guy</span> <span class='flair'>Apple Fanboy</span> <span class='flair'>Forum master</span>
 
 ## Bővítmény-inspirációk
 
@@ -52,10 +69,12 @@ Köszönet ezeknek a bővítményfejlesztőknek az úttörő funkciókért, amel
 
 ## Build-ek
 
-- jstone a flathub build-ek karbantartásáért
+- jstone a Flathub build-ek karbantartásáért
 - adamgibbins és ran-dall a homebrew build-ek karbantartásáért
 
 ## Fordítók
+
+Lásd még a [fordítói közreműködők](https://github.com/obsidianmd/obsidian-translations/graphs/contributors?from=7%2F31%2F2020) teljes listáját.
 
 - Andrea Brandi (olasz)
 - Anne-Katrin aka Mephi (német)
@@ -84,6 +103,10 @@ Köszönet ezeknek a bővítményfejlesztőknek az úttörő funkciókért, amel
 - VKondakoff, Валерий Кондаков (orosz)
 - yo-goto, ぱだわん (japán)
 - Zachary Shirmohammadli (perzsa) 
+
+## Támogató szervezetek
+
+Az Obsidian-t [[Kereskedelmi licenc|kereskedelmi licenccel]] támogató szervezetek az [Enterprise](https://obsidian.md/enterprise/) oldalunkon szerepelnek. 
 
 ## Dokumentáció
 
