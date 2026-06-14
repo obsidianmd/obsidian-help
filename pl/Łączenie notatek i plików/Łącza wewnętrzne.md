@@ -8,7 +8,7 @@ description: 'Dowiedz się, jak linkować do notatek, załączników i innych pl
 ---
 Dowiedz się, jak tworzyć odnośniki do notatek, załączników i innych plików w swoich notatkach, używając _łączy wewnętrznych_. Łącząc notatki, możesz stworzyć sieć wiedzy. ^b15695
 
-Obsidian może automatycznie aktualizować łącza wewnętrzne w Twoim skarbcu, gdy zmienisz nazwę pliku. Jeśli wolisz, aby pojawiało się pytanie o potwierdzenie, możesz to wyłączyć w:
+Obsidian może automatycznie aktualizować łącza wewnętrzne w Twoim sejfie, gdy zmienisz nazwę pliku. Jeśli wolisz, aby pojawiało się pytanie o potwierdzenie, możesz to wyłączyć w:
 
 **[[Ustawienia]]** → **[[Ustawienia#Pliki i łącza|Pliki i łącza]]** → **[[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|Zawsze aktualizuj łącza wewnętrzne]]**.
 
@@ -77,11 +77,11 @@ Możesz dodać wiele symboli hash dla każdego podnagłówka.
 
 Na przykład `[[Pomoc i wsparcie#Questions and advice#Report bugs and request features]]` utworzy łącze do [[Pomoc i wsparcie#Questions and advice#Report bugs and request features]].
 
-**Wyszukiwanie nagłówków w całym skarbcu**
+**Wyszukiwanie nagłówków w całym sejfie**
 
-Aby wyszukać nagłówki w całym skarbcu, użyj składni `[[## nagłówek]]`.
+Aby wyszukać nagłówki w całym sejfie, użyj składni `[[## nagłówek]]`.
 
-Na przykład `[[##` wyszuka ogólnie w całym skarbcu, natomiast `[[## team]]` wyszuka wszystkie nagłówki zawierające słowo _team_.
+Na przykład `[[##` wyszuka ogólnie w całym sejfie, natomiast `[[## team]]` wyszuka wszystkie nagłówki zawierające słowo _team_.
 
 > [!info]- Zrzut ekranu wyszukiwania łącza do nagłówka
 >
@@ -120,9 +120,9 @@ Dla *konkretnych wierszy na liście* identyfikator bloku można umieścić bezpo
 
 > [!warning] Nie obsługujemy łączy do konkretnych części cytatów, bloków wyróżnienia ani tabel.
 
-**Wyszukiwanie bloków w całym skarbcu**
+**Wyszukiwanie bloków w całym sejfie**
 
-Możesz także wyszukiwać bloki do linkowania z całego skarbca, używając składni `[[^^blok]]`. Jednak więcej elementów kwalifikuje się jako bloki w porównaniu z [[#Łącze do nagłówka w notatce|łączami do nagłówków]], więc ta lista będzie znacznie dłuższa.
+Możesz także wyszukiwać bloki do linkowania z całego sejfu, używając składni `[[^^blok]]`. Jednak więcej elementów kwalifikuje się jako bloki w porównaniu z [[#Łącze do nagłówka w notatce|łączami do nagłówków]], więc ta lista będzie znacznie dłuższa.
 
 > [!info]- Zrzut ekranu wyszukiwania łącza do bloku 
 > ![[link-block-heading.png#interface]]
@@ -160,14 +160,14 @@ Użyj `[Wyświetlany tekst](URL łącza)`, aby dostosować sposób wyświetlania
 - `[Niestandardowa nazwa](Example.md)` wyświetla się jako [Niestandardowa nazwa](Example.md)  
 - `[Nazwa sekcji](Example.md#Details)` wyświetla się jako [Nazwa sekcji](Example.md#Details)
 
-Ta metoda jest przydatna w jednorazowych sytuacjach, gdy chcesz zmienić wygląd łącza w określonym kontekście. Jeśli chcesz ustawić alternatywną nazwę łącza, którą możesz wielokrotnie wykorzystywać w całym skarbcu, rozważ użycie [[Aliasy|aliasu]]. 
+Ta metoda jest przydatna w jednorazowych sytuacjach, gdy chcesz zmienić wygląd łącza w określonym kontekście. Jeśli chcesz ustawić alternatywną nazwę łącza, którą możesz wielokrotnie wykorzystywać w całym sejfie, rozważ użycie [[Aliasy|aliasu]].
 
 Na przykład, jeśli regularnie odwołujesz się do `[[Three laws of motion]]` jako `[[The 3 laws]]`, dodanie „3 laws" jako aliasu pozwoli Ci wpisać tylko tę frazę — bez konieczności dodawania niestandardowego wyświetlanego tekstu za każdym razem.
 
 > [!tip] Wskazówka
 > Użyj [[#Zmiana wyświetlanego tekstu łącza|wyświetlanego tekstu łącza]], gdy chcesz dostosować wygląd łącza *w konkretnym miejscu*.  
 > 
-> Użyj [[Aliasy|aliasów]], gdy chcesz odwoływać się do tej samej notatki, używając *różnych nazw* w całym skarbcu.
+> Użyj [[Aliasy|aliasów]], gdy chcesz odwoływać się do tej samej notatki, używając *różnych nazw* w całym sejfie.
 ^callout-internal-links-link-text
 
 ## Podgląd powiązanego pliku

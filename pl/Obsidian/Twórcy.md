@@ -72,7 +72,7 @@ Podziękowania dla poniższych twórców wtyczek, którzy wprowadzili funkcjonal
 - jstone za utrzymywanie naszych kompilacji na Flathub
 - adamgibbins i ran-dall za utrzymywanie naszych kompilacji na homebrew
 
-## Tłumacze
+## Interpretere
 
 Zobacz również pełną listę [współtwórców tłumaczeń](https://github.com/obsidianmd/obsidian-translations/graphs/contributors?from=7%2F31%2F2020).
 
@@ -110,11 +110,11 @@ Organizacje wspierające Obsidian dzięki [[Licencja komercyjna|licencji komercy
 
 ## Dokumentacja
 
-Pierwsza wersja skarbca pomocy została napisana przez Silver. Późniejsza część została napisana przez [@mediapathic](http://mediapathic.net), z dużą pomocą Reggiego. Otrzymaliśmy również poprawki od wielu par oczu ze społeczności Discord i forum.
+Pierwsza wersja sejfu pomocy została napisana przez Silver. Późniejsza część została napisana przez [@mediapathic](http://mediapathic.net), z dużą pomocą Reggiego. Otrzymaliśmy również poprawki od wielu par oczu ze społeczności Discord i forum.
 
 Dokumentacja była przez pewien czas utrzymywana przez [Marcusa Olssona](https://marcus.se.net/). Obecnie jest utrzymywana przez zespół Obsidian.
 
-Przyjmujemy teraz pull requesty do skarbca pomocy w [naszym repozytorium dokumentacji](https://github.com/obsidianmd/obsidian-docs/). Zgłoszenia problemów są mile widziane.
+Przyjmujemy teraz pull requesty do sejfu pomocy w [naszym repozytorium dokumentacji](https://github.com/obsidianmd/obsidian-docs/). Zgłoszenia problemów są mile widziane.
 
 ### Dodaj swoje imię
 

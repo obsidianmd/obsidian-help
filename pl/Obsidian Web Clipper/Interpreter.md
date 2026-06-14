@@ -3,14 +3,14 @@ permalink: web-clipper/interpreter
 aliases:
   - Interpretowanie stron internetowych
 ---
-Tłumacz to funkcja [[Wprowadzenie do Obsidian Web Clipper|Web Clipper]], która umożliwia interakcję ze stronami internetowymi przy użyciu języka naturalnego. Tłumacz pomaga przechwytywać i modyfikować dane, które chcesz zapisać w Obsidian. Na przykład:
+Interpreter to funkcja [[Wprowadzenie do Obsidian Web Clipper|Web Clipper]], która umożliwia interakcję ze stronami internetowymi przy użyciu języka naturalnego. Interpreter pomaga przechwytywać i modyfikować dane, które chcesz zapisać w Obsidian. Na przykład:
 
 - Wyodrębnianie określonych fragmentów tekstu.
 - Podsumowywanie lub wyjaśnianie informacji.
 - Konwertowanie tekstu z jednego formatu na inny.
 - Tłumaczenie tekstu na inny język.
 
-Tłumacz wykorzystuje modele językowe do przetwarzania informacji na stronie internetowej i zwraca wyniki za pomocą [[Zmienne|zmiennych]], które możesz dodać do swoich [[Obsidian Web Clipper/Szablony|szablonów Web Clipper]].
+Interpreter wykorzystuje modele językowe do przetwarzania informacji na stronie internetowej i zwraca wyniki za pomocą [[Zmienne|zmiennych]], które możesz dodać do swoich [[Obsidian Web Clipper/Szablony|szablonów Web Clipper]].
 
 <div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/8j5qu8twj1?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
@@ -27,46 +27,46 @@ Wyniki promptów można dalej modyfikować za pomocą [[Filtry|filtrów]]. Filtr
 
 ## Pierwsze kroki
 
-Tłumacz działa z prawie każdym dostawcą modeli językowych, w tym z opcjami działającymi prywatnie na Twoim urządzeniu. Aby skonfigurować Tłumacza:
+Interpreter działa z prawie każdym dostawcą modeli językowych, w tym z opcjami działającymi prywatnie na Twoim urządzeniu. Aby skonfigurować Interpretera:
 
-1. Przejdź do sekcji **Tłumacz** w ustawieniach Web Clipper.
-2. Włącz **Włącz tłumacza**.
+1. Przejdź do sekcji **Interpreter** w ustawieniach Web Clipper.
+2. Włącz **Włącz Interpreter**.
 3. Skonfiguruj operatora i model, zobacz sekcję [[Interpretowanie stron internetowych#Modele|modele]] poniżej.
 4. Dodaj [[Zmienne|zmienne promptów]] do swoich [[Obsidian Web Clipper/Szablony|szablonów]].
-5. Jeśli Twój szablon zawiera zmienne promptów, sekcja Tłumacza będzie widoczna, gdy [[Wycinanie stron internetowych|wycinasz stronę]]. Kliknij **wyślij zapytanie**, aby przetworzyć zmienne promptów.
+5. Jeśli Twój szablon zawiera zmienne promptów, sekcja Interpretera będzie widoczna, gdy [[Wycinanie stron internetowych|wycinasz stronę]]. Kliknij **wyślij zapytanie**, aby przetworzyć zmienne promptów.
 
 ## Jak to działa
 
-Gdy Tłumacz jest włączony *i* Twój szablon zawiera [[Zmienne#Zmienne promptów|zmienne promptów]], w oknie rozszerzenia wyświetlana jest nowa sekcja Tłumacza, nad przyciskiem **Zapisz w Obsidian**. Ta sekcja pozwala wybrać model i uruchomić Tłumacza dla bieżącej strony.
+Gdy Interpreter jest włączony *i* Twój szablon zawiera [[Zmienne#Zmienne promptów|zmienne promptów]], w oknie rozszerzenia wyświetlana jest nowa sekcja Interpretera, nad przyciskiem **Zapisz w Obsidian**. Ta sekcja pozwala wybrać model i uruchomić Interpretera dla bieżącej strony.
 
-Po kliknięciu **wyślij zapytanie** Tłumacz wysyła kontekst strony do wybranego modelu wraz ze *wszystkimi* promptami z szablonu w jednym żądaniu. W zależności od wybranego operatora modelu może to być wywołanie zewnętrzne lub lokalne na Twoim urządzeniu. Model ocenia Twoje prompty w kontekście strony i zwraca odpowiedzi. Tłumacz następnie zastępuje zmienne promptów danymi odpowiedzi.
+Po kliknięciu **wyślij zapytanie** Interpreter wysyła kontekst strony do wybranego modelu wraz ze *wszystkimi* promptami z szablonu w jednym żądaniu. W zależności od wybranego operatora modelu może to być wywołanie zewnętrzne lub lokalne na Twoim urządzeniu. Model ocenia Twoje prompty w kontekście strony i zwraca odpowiedzi. Interpreter następnie zastępuje zmienne promptów danymi odpowiedzi.
 
 Cały proces może trwać od milisekund do ponad 30 sekund, w zależności od używanego modelu i ilości przetwarzanych danych.
 
 ## Kontekst
 
-Termin *kontekst* odnosi się do danych strony, które Tłumacz wykorzystuje do przetwarzania promptów. Im mniejszy kontekst, tym szybciej działa Tłumacz.
+Termin *kontekst* odnosi się do danych strony, które Interpreter wykorzystuje do przetwarzania promptów. Im mniejszy kontekst, tym szybciej działa Interpreter.
 
-Domyślnie Tłumacz używa całego kodu HTML strony jako kontekstu, jednak może to sprawiać, że prompty będą wolniejsze i droższe niż to konieczne.
+Domyślnie Interpreter używa całego kodu HTML strony jako kontekstu, jednak może to sprawiać, że prompty będą wolniejsze i droższe niż to konieczne.
 
-Możesz nadpisać domyślny kontekst w **Zaawansowanych ustawieniach** Tłumacza i zdefiniować kontekst dla każdego [[Obsidian Web Clipper/Szablony|szablonu]].
+Możesz nadpisać domyślny kontekst w **Zaawansowanych ustawieniach** Interpretera i zdefiniować kontekst dla każdego [[Obsidian Web Clipper/Szablony|szablonu]].
 
-Aby zdefiniować bardziej ukierunkowany kontekst, użyj [[Zmienne#Zmienne selektorów|zmiennych selektorów]] (lub innych typów zmiennych) do interpretacji sekcji strony. Na przykład możesz użyć następującej zmiennej selektora w kontekście Tłumacza szablonu:
+Aby zdefiniować bardziej ukierunkowany kontekst, użyj [[Zmienne#Zmienne selektorów|zmiennych selektorów]] (lub innych typów zmiennych) do interpretacji sekcji strony. Na przykład możesz użyć następującej zmiennej selektora w kontekście Interpretera szablonu:
 
 ```
 {{selectorHtml:#main}}
 ```
 
-Spowoduje to uruchomienie Tłumacza tylko na elemencie `#main` strony internetowej, jeśli istnieje. [[Filtry#Przetwarzanie HTML|Filtry przetwarzania HTML]] takie jak `remove_html`, `strip_tags` i `strip_attr` mogą być przydatne do dalszego zmniejszenia długości kontekstu i przyspieszenia przetwarzania.
+Spowoduje to uruchomienie Interpretera tylko na elemencie `#main` strony internetowej, jeśli istnieje. [[Filtry#Przetwarzanie HTML|Filtry przetwarzania HTML]] takie jak `remove_html`, `strip_tags` i `strip_attr` mogą być przydatne do dalszego zmniejszenia długości kontekstu i przyspieszenia przetwarzania.
 
 ## Modele
 
 > [!warning] Prywatność
-> Korzystając z zewnętrznego operatora modelu, akceptujesz jego warunki i politykę prywatności. Żądania Tłumacza są wysyłane bezpośrednio do wybranego operatora. Obsidian nie zbiera ani nie przechowuje żadnych danych o Twoich żądaniach.
+> Korzystając z zewnętrznego operatora modelu, akceptujesz jego warunki i politykę prywatności. Żądania Interpretera są wysyłane bezpośrednio do wybranego operatora. Obsidian nie zbiera ani nie przechowuje żadnych danych o Twoich żądaniach.
 
 ### Wstępnie skonfigurowani operatorzy
 
-Tłumacz zawiera kilku wstępnie skonfigurowanych operatorów. Aby korzystać z tych operatorów, potrzebujesz klucza API, który możesz uzyskać, logując się na konto operatora. Musisz również zdecydować, których modeli użyć.
+Interpreter zawiera kilku wstępnie skonfigurowanych operatorów. Aby korzystać z tych operatorów, potrzebujesz klucza API, który możesz uzyskać, logując się na konto operatora. Musisz również zdecydować, których modeli użyć.
 
 | Operator           | Klucz&nbsp;API                                              | Modele                                                                               |
 | ------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
@@ -88,7 +88,7 @@ Ogólnie zalecamy używanie małych modeli z Web Clipper, ponieważ są szybsze 
 
 ### Niestandardowi operatorzy i modele
 
-Aby dodać niestandardowego operatora i/lub model, przejdź do **[[Ustawienia]]** Web Clipper → **Tłumacz**:
+Aby dodać niestandardowego operatora i/lub model, przejdź do **[[Ustawienia]]** Web Clipper → **Interpreter**:
 
 - **Dodaj operatora** aby skonfigurować wstępnie zdefiniowanych i niestandardowych operatorów.
 - **Dodaj model** aby skonfigurować wstępnie zdefiniowane i niestandardowe modele.
@@ -97,13 +97,13 @@ Dodając niestandardowego operatora, zalecamy użycie jego endpointu chat comple
 
 ### Modele lokalne
 
-Tłumacz może korzystać z modeli lokalnych, które zapewniają większą prywatność i kompatybilność offline. Istnieje kilka opcji uruchamiania modeli lokalnych. Jedną z najłatwiejszych do skonfigurowania jest Ollama.
+Interpreter może korzystać z modeli lokalnych, które zapewniają większą prywatność i kompatybilność offline. Istnieje kilka opcji uruchamiania modeli lokalnych. Jedną z najłatwiejszych do skonfigurowania jest Ollama.
 
 #### Ollama
 
 [Ollama](https://ollama.com/) pozwala uruchamiać modele językowe lokalnie i prywatnie na Twoim urządzeniu.
 
-Po pobraniu i zainstalowaniu Ollama dodaj Ollama za pomocą **Dodaj operatora** w ustawieniach Tłumacza. Ollama nie wymaga klucza API. Następnie wybierz model z [listy modeli](https://ollama.com/search). Na przykład, jeśli chcesz użyć [Llama 3.2](https://ollama.com/library/llama3.2), kliknij **Dodaj model**, a następnie:
+Po pobraniu i zainstalowaniu Ollama dodaj Ollama za pomocą **Dodaj operatora** w ustawieniach Interpretera. Ollama nie wymaga klucza API. Następnie wybierz model z [listy modeli](https://ollama.com/search). Na przykład, jeśli chcesz użyć [Llama 3.2](https://ollama.com/library/llama3.2), kliknij **Dodaj model**, a następnie:
 
 - **Operator:** Ollama
 - **Wyświetlana nazwa:** Llama 3.2, tę wartość można dostosować.

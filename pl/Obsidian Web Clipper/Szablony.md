@@ -6,9 +6,9 @@ description: 'Naucz się tworzyć szablony, które automatycznie przechwytują i
 
 ## Tworzenie lub edycja szablonu
 
-Aby **stworzyć** szablon, przejdź do ustawień Web Clipper i kliknij przycisk **Nowy szablon** na pasku bocznym. Możesz również **zduplikować** szablon w menu **Więcej** w prawym górnym rogu.
+Aby **stworzyć** szablon, przejdź do ustawień Web Clipper i kliknij przycisk **Nowy szablon** na panelu bocznym. Możesz również **zduplikować** szablon w menu **Więcej** w prawym górnym rogu.
 
-Aby **edytować** szablon, wybierz szablon z paska bocznego. Twoje zmiany zostaną zapisane automatycznie.
+Aby **edytować** szablon, wybierz szablon z panelu bocznego. Twoje zmiany zostaną zapisane automatycznie.
 
 Szablony wykorzystują [[Zmienne]] i [[Filtry]], które pozwalają dostosować sposób zapisywania treści.
 
@@ -62,4 +62,4 @@ Wartości schema.org mogą być również używane do [[Zmienne#Zmienne Schema.o
 
 ### Kontekst zapytania
 
-Gdy [[Interpretowanie stron internetowych|Tłumacz]] jest włączony, możesz używać [[Zmienne#Zmienne promptów|zmiennych promptów]] do wyodrębniania treści strony za pomocą języka naturalnego. Dla każdego szablonu możesz zdefiniować [[Interpretowanie stron internetowych#Kontekst|kontekst]], do którego Tłumacz ma dostęp.
+Gdy [[Interpretowanie stron internetowych|Interpreter]] jest włączony, możesz używać [[Zmienne#Zmienne promptów|zmiennych promptów]] do wyodrębniania treści strony za pomocą języka naturalnego. Dla każdego szablonu możesz zdefiniować [[Interpretowanie stron internetowych#Kontekst|kontekst]], do którego Interpreter ma dostęp.

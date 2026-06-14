@@ -1,7 +1,7 @@
 ---
 permalink: bases/views/cards
 ---
-Karty to typ [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do Baz danych|Bazach danych]].
+Karty to typ [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
 
 Wybierz ![[lucide-layout-grid.svg#icon]]  **Karty** z menu podglądu, aby wyświetlić pliki w układzie siatki przypominającym galerię z opcjonalnymi obrazami okładek.
 

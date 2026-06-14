@@ -37,7 +37,7 @@ Aby uniknąć konfliktów z usługami synchronizacji, zalecamy przechowywanie se
 
 ## Przenoszenie sejfu za pomocą Obsidian na komputerze
 
-![[Zarządzaj skarbcami#Przenoszenie skarbca do innego folderu]]
+![[Zarządzaj sejfami#Przenoszenie sejfu do innego folderu]]
 
 ## Przenoszenie sejfu na urządzeniu mobilnym
 

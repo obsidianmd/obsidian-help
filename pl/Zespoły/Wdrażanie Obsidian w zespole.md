@@ -23,7 +23,7 @@ W przypadku pytań dotyczących bezpieczeństwa w tych tematach, zapoznaj się z
 
 ### Foldery konfiguracji
 
-[[Folder konfiguracji]] to miejsce, w którym [[Słowniczek#Skarbiec|skarbiec]] Obsidian przechowuje swoje ustawienia aplikacji. Domyślnie folder ten nosi nazwę `.obsidian`, ale masz możliwość [[Folder konfiguracji#Zmiana folderu konfiguracji|zmiany nazwy folderu konfiguracji]] zgodnie ze swoimi preferencjami.
+[[Folder konfiguracji]] to miejsce, w którym [[Słowniczek#Sejf|sejf]] Obsidian przechowuje swoje ustawienia aplikacji. Domyślnie folder ten nosi nazwę `.obsidian`, ale masz możliwość [[Folder konfiguracji#Zmiana folderu konfiguracji|zmiany nazwy folderu konfiguracji]] zgodnie ze swoimi preferencjami.
 
 Zalecamy stworzenie standardowego szablonu folderu konfiguracji do wdrożenia na urządzeniach członków zespołu.
 
@@ -31,13 +31,13 @@ Zalecamy stworzenie standardowego szablonu folderu konfiguracji do wdrożenia na
 
 [[Wbudowane wtyczki]] to opcjonalne funkcje stworzone przez zespół Obsidian. Funkcje te są zintegrowane w podstawowym kodzie aplikacji i mogą być włączane lub wyłączane.
 
-[[Wtyczki społeczności]] to funkcje stworzone przez osoby trzecie, dodawane do aplikacji Obsidian i instalowane za pośrednictwem katalogu społeczności. Wtyczki zewnętrzne wykorzystują [Obsidian API](https://github.com/obsidianmd/obsidian-api). Wtyczki znajdują się w folderze `.obsidian/plugins` w skarbcu i mogą być instalowane ręcznie w tej lokalizacji.
+[[Wtyczki społeczności]] to funkcje stworzone przez osoby trzecie, dodawane do aplikacji Obsidian i instalowane za pośrednictwem katalogu społeczności. Wtyczki zewnętrzne wykorzystują [Obsidian API](https://github.com/obsidianmd/obsidian-api). Wtyczki znajdują się w folderze `.obsidian/plugins` w sejfie i mogą być instalowane ręcznie w tej lokalizacji.
 
 ### Motywy i snippety
 
-[[Motywy]] wizualnie zmieniają interfejs Obsidian. Podobnie jak wtyczki, motywy można pobierać z naszego katalogu społeczności. Motywy znajdują się w folderze `.obsidian/themes` w skarbcu.
+[[Motywy]] wizualnie zmieniają interfejs Obsidian. Podobnie jak wtyczki, motywy można pobierać z naszego katalogu społeczności. Motywy znajdują się w folderze `.obsidian/themes` w sejfie.
 
-[[Snippety CSS|Snippety]] to małe pliki `.css`, które wizualnie modyfikują aspekty interfejsu Obsidian. W niektórych przypadkach mogą również dodawać ulepszenia funkcjonalne. Snippety znajdują się w folderze `.obsidian/snippets` w skarbcu.
+[[Snippety CSS|Snippety]] to małe pliki `.css`, które wizualnie modyfikują aspekty interfejsu Obsidian. W niektórych przypadkach mogą również dodawać ulepszenia funkcjonalne. Snippety znajdują się w folderze `.obsidian/snippets` w sejfie.
 
 ## Najczęściej zadawane pytania
 

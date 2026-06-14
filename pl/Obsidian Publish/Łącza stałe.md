@@ -27,7 +27,7 @@ Jeśli ktoś odwiedzi notatkę za pomocą oryginalnego adresu URL, zostanie auto
 
 ## Przekierowanie starych notatek
 
-Zmiana nazw i usuwanie notatek to naturalna część utrzymywania żywego skarbca. Chociaż Obsidian automatycznie aktualizuje linki, gdy przenosisz notatkę w lokalnym skarbcu, inne strony internetowe mogą nadal linkować do Twoich starych notatek na opublikowanej stronie [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Możesz przekierować czytelników z jednej notatki do innej.
+Zmiana nazw i usuwanie notatek to naturalna część utrzymywania żywego sejfu. Chociaż Obsidian automatycznie aktualizuje linki, gdy przenosisz notatkę w lokalnym sejfie, inne strony internetowe mogą nadal linkować do Twoich starych notatek na opublikowanej stronie [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Możesz przekierować czytelników z jednej notatki do innej.
 
 Wyobraź sobie, że chcesz przenieść notatkę z jednego folderu do innego:
 
@@ -36,7 +36,7 @@ Wyobraź sobie, że chcesz przenieść notatkę z jednego folderu do innego:
 - **Tutorials**
   - *How to make friends.md* (dodany)
 
-Po przeniesieniu notatki Obsidian automatycznie aktualizuje wszystkie linki w skarbcu. Jednak jeśli opublikujesz zmianę na swojej stronie Publish, wszelkie linki do `/Guides/Making+friends` spowodują błąd 404.
+Po przeniesieniu notatki Obsidian automatycznie aktualizuje wszystkie linki w sejfie. Jednak jeśli opublikujesz zmianę na swojej stronie Publish, wszelkie linki do `/Guides/Making+friends` spowodują błąd 404.
 
 Aby przekierować czytelników z `/Guides/Making+friends` do `/Tutorials/How+to+make+friends`, musisz dodać [[Aliasy|alias]] w `How to make friends.md`, czyli notatce, do której chcesz przekierować.
 
@@ -49,7 +49,7 @@ alias: Guides/Making friends
 ```
 
 > [!important] Ważne
-> Upewnij się, że w aliasie podajesz pełną ścieżkę do starej notatki. Chociaż użycie samej nazwy notatki jako aliasu działa w lokalnym skarbcu, Publish potrzebuje pełnej ścieżki do notatki, aby móc na nią przekierować.
+> Upewnij się, że w aliasie podajesz pełną ścieżkę do starej notatki. Chociaż użycie samej nazwy notatki jako aliasu działa w lokalnym sejfie, Publish potrzebuje pełnej ścieżki do notatki, aby móc na nią przekierować.
 
 Możesz przekierować wiele notatek, dodając alias dla każdej z nich.
 

@@ -382,10 +382,11 @@ for (const entry of fs.readdirSync(enDir, { withFileTypes: true })) {
 
 // ─── Attachments sync ────────────────────────────────────────────────────────
 // Copy any attachment from en/Attachments/ that doesn't already exist in the
-// locale's Attachments/. Translators can replace files at the same path.
+// locale's translated Attachments folder. Translators can replace files at the
+// same path.
 
 const enAttachDir = path.join(enDir, "Attachments");
-const localeAttachDir = path.join(localeDir, "Attachments");
+const localeAttachDir = path.join(localeDir, filenamesMap.folders["Attachments"] ?? "Attachments");
 let attachCopied = 0;
 let attachDeleted = 0;
 

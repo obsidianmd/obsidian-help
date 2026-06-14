@@ -41,7 +41,7 @@ Obsidian na Androida oferuje kilka opcji widżetów umożliwiających szybki dos
 
 - **Otwórz notatkę** — Otwórz konkretną notatkę
 - **Nowa notatka** — Utwórz nową notatkę
-- **Szukaj** — Uruchom zapytanie wyszukiwania
+- **Wyszukiwarka** — Uruchom zapytanie wyszukiwania
 - **Codzienna notatka** — Otwórz codzienną notatkę
 - **Otwórz Obsidian** — Uruchom aplikację
 

@@ -2,11 +2,11 @@
 permalink: bases/syntax
 publish: true
 mobile: true
-description: Ta strona stanowi wprowadzenie do składni Bases w Obsidian.
+description: Ta strona stanowi wprowadzenie do składni baz danych w Obsidian.
 ---
 Kiedy [[Tworzenie bazy danych|tworzysz bazę danych]] w Obsidian, jest ona zapisywana jako plik `.base`. Bazy danych są zwykle edytowane za pomocą interfejsu aplikacji, ale ich składnię można również edytować ręcznie i osadzać w bloku kodu.
 
-Składnia [[Wprowadzenie do Baz danych|Baz danych]] definiuje [[Podglądy|podglądy]], filtry i [[Wzory|wzory]]. Bazy danych muszą być poprawnym YAML-em zgodnym ze schematem zdefiniowanym poniżej.
+Składnia [[Wprowadzenie do baz danych|baz danych]] definiuje [[Podglądy|podglądy]], filtry i [[Wzory|wzory]]. Bazy danych muszą być poprawnym YAML-em zgodnym ze schematem zdefiniowanym poniżej.
 
 ## Przykład
 
@@ -59,7 +59,7 @@ views:
 
 ### Filtry
 
-Domyślnie baza danych obejmuje każdy plik w skarbcu. Nie ma `from` ani `source` jak w SQL lub Dataview. Sekcja `filters` pozwala zdefiniować warunki zawężające zbiór danych.
+Domyślnie baza danych obejmuje każdy plik w sejfie. Nie ma `from` ani `source` jak w SQL lub Dataview. Sekcja `filters` pozwala zdefiniować warunki zawężające zbiór danych.
 
 ```yaml
 # Prosty filtr:
@@ -203,7 +203,7 @@ views:
 - `groupBy` określa właściwość i kierunek sortowania. Wartość podanej właściwości dla każdego wiersza służy do umieszczania wiersza w grupach.
 - `summaries` mapuje nazwy właściwości na nazwane podsumowania. Podsumowania wykonują agregację właściwości we wszystkich wierszach.
 
-[[Podglądy]] mogą dodawać dodatkowe dane do przechowywania wszelkich informacji potrzebnych do zachowania stanu lub prawidłowego renderowania, jednak autorzy wtyczek powinni unikać używania kluczy już wykorzystywanych przez podstawową wtyczkę Baz danych. Przykładowo podgląd tabeli może używać tego do ograniczenia liczby wierszy lub wyboru kolumny sortowania i jej kierunku. Inny typ podglądu, taki jak mapa, mógłby używać tego do mapowania, która właściwość notatki odpowiada szerokości i długości geograficznej, a która powinna być wyświetlana jako tytuł pinezki.
+[[Podglądy]] mogą dodawać dodatkowe dane do przechowywania wszelkich informacji potrzebnych do zachowania stanu lub prawidłowego renderowania, jednak autorzy wtyczek powinni unikać używania kluczy już wykorzystywanych przez wbudowaną wtyczkę baz danych. Przykładowo podgląd tabeli może używać tego do ograniczenia liczby wierszy lub wyboru kolumny sortowania i jej kierunku. Inny typ podglądu, taki jak mapa, mógłby używać tego do mapowania, która właściwość notatki odpowiada szerokości i długości geograficznej, a która powinna być wyświetlana jako tytuł pinezki.
 
 W przyszłości API pozwoli podglądom odczytywać i zapisywać te wartości, umożliwiając podglądowi budowanie własnego interfejsu konfiguracji.
 
@@ -227,7 +227,7 @@ Na przykład filtr `file.ext == "md"` będzie prawdziwy dla wszystkich plików M
 
 | Właściwość    | Typ    | Opis                                                          |
 | ------------- | ------ | ------------------------------------------------------------- |
-| `file.backlinks`  | Lista  | Lista plików z linkami zwrotnymi. Uwaga: Ta właściwość jest wymagająca wydajnościowo. Gdy to możliwe, odwróć wyszukiwanie i użyj `file.links`. Nie odświeża automatycznie wyników po zmianie skarbca. |
+| `file.backlinks`  | Lista  | Lista plików z linkami zwrotnymi. Uwaga: Ta właściwość jest wymagająca wydajnościowo. Gdy to możliwe, odwróć wyszukiwanie i użyj `file.links`. Nie odświeża automatycznie wyników po zmianie sejfu. |
 | `file.ctime`  | Data   | Czas stworzenia                                               |
 | `file.embeds` | Lista  | Lista wszystkich osadzeń w notatce                            |
 | `file.ext`    | Ciąg   | Rozszerzenie pliku                                            |
@@ -237,7 +237,7 @@ Na przykład filtr `file.ext == "md"` będzie prawdziwy dla wszystkich plików M
 | `file.mtime`  | Data   | Czas modyfikacji                                              |
 | `file.name`   | Ciąg   | Nazwa pliku                                                   |
 | `file.path`   | Ciąg   | Ścieżka pliku                                                |
-| `file.properties`   | Obiekt | Wszystkie właściwości pliku. Uwaga: Nie odświeża automatycznie wyników po zmianie skarbca. |
+| `file.properties`   | Obiekt | Wszystkie właściwości pliku. Uwaga: Nie odświeża automatycznie wyników po zmianie sejfu. |
 | `file.size`   | Liczba | Rozmiar pliku                                                 |
 | `file.tags`   | Lista  | Lista wszystkich tagów w treści pliku i metadanych początkowych |
 
@@ -249,7 +249,7 @@ Gdy baza jest otwarta w głównym obszarze treści, `this` wskazuje na właściw
 
 Gdy baza jest osadzona w innym pliku, `this` wskazuje na właściwości _osadzającego_ pliku (notatki lub Canvas, który zawiera bazę). Na przykład użycie `this.file.name` zwraca nazwę osadzającego pliku, a nie bazy.
 
-Gdy baza znajduje się na pasku bocznym, `this` odnosi się do aktywnego pliku w głównym obszarze treści. Pozwala to tworzyć zapytania oparte na aktywnym pliku. Na przykład możesz użyć `file.hasLink(this.file)`, aby odtworzyć panel linków zwrotnych.
+Gdy baza znajduje się na panelu bocznym, `this` odnosi się do aktywnego pliku w głównym obszarze treści. Pozwala to tworzyć zapytania oparte na aktywnym pliku. Na przykład możesz użyć `file.hasLink(this.file)`, aby odtworzyć panel linków zwrotnych.
 
 ## Operatory
 

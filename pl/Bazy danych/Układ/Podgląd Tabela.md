@@ -1,7 +1,7 @@
 ---
 permalink: bases/views/table
 ---
-Tabela to rodzaj [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do Baz danych|Bazach danych]].
+Tabela to rodzaj [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
 
 Wybierz ![[lucide-table.svg#icon]]  **Tabela** z menu podglądu, aby wyświetlić pliki jako tabelę z wierszem dla każdego pliku i kolumnami dla [[Atrybuty|atrybutów]] tego pliku.
 

@@ -19,7 +19,7 @@ Aby włączyć tryb ograniczony:
 2. W menu bocznym wybierz **Wtyczki społeczności**.
 3. Obok opcji **Tryb ograniczony** wybierz **Włącz**.
 
-Zainstalowane wtyczki pozostają w skarbcu nawet po włączeniu trybu ograniczonego, ale są ignorowane przez Obsidian.
+Zainstalowane wtyczki pozostają w sejfie nawet po włączeniu trybu ograniczonego, ale są ignorowane przez Obsidian.
 
 ## Możliwości wtyczek
 
