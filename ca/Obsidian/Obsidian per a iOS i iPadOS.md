@@ -46,7 +46,7 @@ Opcions de configuració del widget **Nota nova**:
 
 ![[ios-new-note-configuration.png|400]]
 
-Opcions de configuració del widget **Veure nota**.
+Opcions de configuració del widget **Veure nota**:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -62,22 +62,99 @@ Obsidian s'integra amb l'aplicació Dreceres d'Apple, permetent-te crear automat
 
 Les dreceres de captura són especialment útils per a la presa ràpida de notes, ja que et permeten afegir contingut a una nota en segon pla.
 
-## Extensió del full de compartir
+## Full de compartir
 
-Obsidian ofereix una extensió del full de compartir que pots utilitzar en altres aplicacions per enviar enllaços, text, imatges o documents a la teva cambra forta d'Obsidian.
+El full de compartir d'Obsidian et permet capturar contingut de pàgines web. També funciona amb aplicacions com YouTube i altres xarxes socials.
 
-Per compartir un enllaç des de Safari:
+> [!note]
+> - El full de compartir natiu està disponible a iOS i iPadOS 18 i versions posteriors.
+> - Les funcionalitats del full de compartir descrites en aquesta secció requereixen Obsidian 1.13.0 o posterior.
 
-1. Obre la pàgina web a Safari i toca el botó **Compartir**.
-2. Al menú de compartir, llisca cap a l'esquerra a la fila d'aplicacions, toca **Més** i després toca **Edita**.
-3. Activa **Obsidian** perquè aparegui al menú de compartir.
-4. Toca el botó **Afegir** al costat d'Obsidian per afegir-lo a **Preferits**.
-5. (Opcional) Arrossega el botó **Reordenar** al costat d'Obsidian per canviar la seva posició als Preferits.
-6. Toca **Fet**.
-7. De tornada al menú de compartir de Safari, toca **Obsidian**.
-8. Quan toquis Obsidian, apareixerà el full de compartir d'Obsidian i et permetrà compartir el contingut seleccionat a la teva cambra forta.
+Utilitza el full de compartir per enviar ràpidament contingut d'una altra aplicació a Obsidian:
+1. En una altra aplicació, toca el botó **Compartir**.
+2. Selecciona **Obsidian**.
+3. Escull una ubicació.
+4. Revisa o edita el contingut capturat.
+5. Toca **Desa**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Ubicacions
+
+Les ubicacions et permeten decidir on ha d'anar el contingut compartit abans de desar-lo.
+
+Les ubicacions poden capturar a:
+- **Nota nova** — Crea una nota nova en una cambra forta o carpeta.
+- **Nota diària** — Afegeix o antepon contingut a la nota diària d'avui.
+- **Nota marcada** — Afegeix o antepon contingut a una nota marcada.
+- **Nota** — Escull una nota existent a la teva cambra forta.
+- **Marcador nou** — Desa una URL compartida als marcadors d'Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Personalitzar ubicacions
+
+Pots crear ubicacions per a fluxos de treball habituals, com ara desar articles a una safata d'entrada, afegir cites a la teva nota diària o afegir enllaços als marcadors.
+
+Per personalitzar les ubicacions:
+
+1. Obre Obsidian des del full de compartir d'iOS.
+2. Toca la ubicació actual a la barra d'eines.
+3. Toca el botó **+** per crear una ubicació nova, o selecciona una ubicació existent per editar-la.
+4. Escull la cambra forta, el comportament i les opcions opcionals.
+
+Depenent del tipus de `Comportament`, pots configurar opcions com ara:
+- Carpeta
+- Plantilla
+- Grup de marcadors
+- Posició d'afegir o anteposar
+- Si els enllaços compartits capturen el **Text complet** o només la **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Utilitzar una plantilla en compartir
+
+Pots utilitzar una plantilla quan comparteixes contingut des del full de compartir. Les plantilles et permeten formatar el contingut web capturat amb detalls com el títol de la pàgina, l'autor, el lloc web d'origen i la data de publicació.
+
+Per configurar una ubicació amb una plantilla:
+
+1. Obre Obsidian des del full de compartir d'iOS.
+2. Toca la ubicació actual a la barra d'eines.
+3. Toca el botó **+** per crear una ubicació nova.
+4. Introdueix un nom per a la ubicació.
+5. Selecciona una cambra forta.
+6. Estableix el **Comportament** a **Nota nova**.
+7. A la secció **Opcional**, toca **Plantilla**.
+8. Selecciona una nota de la teva cambra forta per utilitzar-la com a plantilla.
+9. Toca **Desa** per desar la ubicació.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Quan comparteixes un enllaç utilitzant aquesta ubicació, Obsidian aplica primer la plantilla i després afegeix el contingut compartit.
+
+Marcadors de posició de plantilla compatibles:
+
+| Marcador de posició | Descripció |
+| --- | --- |
+| `{{author}}` | Autor de l'article |
+| `{{description}}` | Descripció o resum de l'article |
+| `{{domain}}` | Nom de domini del lloc web |
+| `{{favicon}}` | URL de la icona del lloc web |
+| `{{image}}` | URL de la imatge principal de l'article |
+| `{{published}}` | Data de publicació de l'article, utilitzant el format de data per defecte |
+| `{{published: YYYY-MM-DD}}` | Data de publicació utilitzant un format de data personalitzat |
+| `{{site}}` | Nom del lloc web |
+| `{{title}}` | Títol de l'article |
+| `{{wordCount}}` | Nombre total de paraules del contingut extret |
+
+També pots utilitzar els marcadors de posició estàndard de data i hora de les plantilles:
+
+| Marcador de posició | Descripció |
+| --- | --- |
+| `{{date}}` | Data actual |
+| `{{date: YYYY-MM-DD}}` | Data actual amb un format personalitzat |
+| `{{time}}` | Hora actual |
+| `{{time: HH:mm}}` | Hora actual amb un format personalitzat |
 
 ## Integració amb Siri
 

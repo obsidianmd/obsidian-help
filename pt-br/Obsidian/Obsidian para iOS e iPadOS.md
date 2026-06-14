@@ -48,7 +48,7 @@ Opções de configuração do widget **Nova Nota**:
 
 ![[ios-new-note-configuration.png|400]]
 
-Opções de configuração do widget **Visualizar Nota**.
+Opções de configuração do widget **Visualizar Nota**:
 
 ![[ios-view-note-configuration.png|400]]
 
@@ -64,22 +64,99 @@ O Obsidian se integra com o aplicativo Atalhos da Apple, permitindo criar automa
 
 Os atalhos de captura são particularmente úteis para anotações rápidas, pois permitem adicionar conteúdo a uma nota em segundo plano.
 
-## Extensão da Folha de Compartilhamento
+## Folha de Compartilhamento
 
-O Obsidian oferece uma Extensão de Folha de Compartilhamento que você pode usar em outros aplicativos para enviar links, texto, imagens ou documentos para o seu cofre do Obsidian.
+A Folha de Compartilhamento do Obsidian permite capturar conteúdo de páginas web. Também funciona com aplicativos como YouTube e outras redes sociais.
 
-Para compartilhar um link do Safari:
+> [!note]
+> - A Folha de Compartilhamento nativa está disponível no iOS e iPadOS 18 e superior.
+> - Os recursos da Folha de Compartilhamento descritos nesta seção requerem o Obsidian 1.13.0 ou posterior.
 
-1. Abra a página web no Safari e toque no botão **Compartilhar**.
-2. No menu de Compartilhamento, deslize para a esquerda na linha de aplicativos, toque em **Mais** e depois toque em **Editar**.
-3. Ative o **Obsidian** para que ele apareça no menu de Compartilhamento.
-4. Toque no botão **Adicionar** ao lado do Obsidian para adicioná-lo aos **Favoritos**.
-5. (Opcional) Arraste o botão **Reordenar** ao lado do Obsidian para alterar sua posição nos Favoritos.
-6. Toque em **Feito**.
-7. De volta ao menu de Compartilhamento do Safari, toque em **Obsidian**.
-8. Ao tocar em Obsidian, a folha de compartilhamento do Obsidian aparece e permite compartilhar o conteúdo selecionado para o seu cofre.
+Use a Folha de Compartilhamento para enviar rapidamente conteúdo de outro aplicativo para o Obsidian:
+1. Em outro aplicativo, toque no botão **Compartilhar**.
+2. Selecione **Obsidian**.
+3. Escolha um Local.
+4. Revise ou edite o conteúdo capturado.
+5. Toque em **Salvar**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Locais
+
+Os Locais permitem decidir para onde o conteúdo compartilhado deve ir antes de salvá-lo.
+
+Os Locais podem capturar para:
+- **Nova nota** — Criar uma nova nota em um cofre ou pasta.
+- **Nota diária** — Adicionar conteúdo ao final ou início da nota diária de hoje.
+- **Nota marcada** — Adicionar conteúdo ao final ou início de uma nota marcada.
+- **Nota** — Escolher uma nota existente no seu cofre.
+- **Novo marcador** — Salvar uma URL compartilhada nos marcadores do Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Personalizando Locais
+
+Você pode criar Locais para fluxos de trabalho comuns, como salvar artigos em uma caixa de entrada, adicionar citações à sua nota diária ou adicionar links aos marcadores.
+
+Para personalizar Locais:
+
+1. Abra o Obsidian a partir da Folha de Compartilhamento do iOS.
+2. Toque no Local atual na barra de ferramentas.
+3. Toque no botão **+** para criar um novo Local, ou selecione um Local existente para editar.
+4. Escolha o cofre, comportamento e configurações opcionais.
+
+Dependendo do tipo de `Comportamento`, você pode configurar opções como:
+- Pasta
+- Modelo
+- Grupo de marcadores
+- Posição de adicionar ao final ou início
+- Se os links compartilhados capturam o **Texto Completo** ou apenas a **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Usando um Modelo ao Compartilhar
+
+Você pode usar um modelo ao compartilhar conteúdo da Folha de Compartilhamento. Os modelos permitem formatar o conteúdo web capturado com detalhes como título da página, autor, site de origem e data de publicação.
+
+Para configurar um Local com um modelo:
+
+1. Abra o Obsidian a partir da Folha de Compartilhamento do iOS.
+2. Toque no Local atual na barra de ferramentas.
+3. Toque no botão **+** para criar um novo Local.
+4. Insira um nome para o Local.
+5. Selecione um cofre.
+6. Defina **Comportamento** como **Nova Nota**.
+7. Na seção **Opcional**, toque em **Modelo**.
+8. Selecione uma nota do seu cofre para usar como modelo.
+9. Toque em **Salvar** para salvar o Local.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Quando você compartilhar um link usando este Local, o Obsidian aplica o modelo primeiro e depois adiciona o conteúdo compartilhado.
+
+Marcadores de posição de modelo suportados:
+
+| Marcador de posição | Descrição |
+| --- | --- |
+| `{{author}}` | Autor do artigo |
+| `{{description}}` | Descrição ou resumo do artigo |
+| `{{domain}}` | Nome de domínio do site |
+| `{{favicon}}` | URL do favicon do site |
+| `{{image}}` | URL da imagem principal do artigo |
+| `{{published}}` | Data de publicação do artigo, usando o formato de data padrão |
+| `{{published: YYYY-MM-DD}}` | Data de publicação usando um formato de data personalizado |
+| `{{site}}` | Nome do site |
+| `{{title}}` | Título do artigo |
+| `{{wordCount}}` | Número total de palavras no conteúdo extraído |
+
+Você também pode usar marcadores de posição padrão de data e hora do modelo:
+
+| Marcador de posição | Descrição |
+| --- | --- |
+| `{{date}}` | Data atual |
+| `{{date: YYYY-MM-DD}}` | Data atual usando um formato personalizado |
+| `{{time}}` | Hora atual |
+| `{{time: HH:mm}}` | Hora atual usando um formato personalizado |
 
 ## Integração com Siri
 

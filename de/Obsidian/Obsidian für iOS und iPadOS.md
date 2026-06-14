@@ -62,22 +62,99 @@ Obsidian ist mit Apples Kurzbefehle-App integriert, sodass du leistungsstarke Au
 
 Erfassungskurzbefehle sind besonders nützlich für schnelle Notizen, da sie es ermöglichen, Inhalte im Hintergrund zu einer Notiz hinzuzufügen.
 
-## Teilen-Erweiterung
+## Teilen-Blatt
 
-Obsidian bietet eine Teilen-Erweiterung, die du in anderen Apps verwenden kannst, um Links, Text, Bilder oder Dokumente an deinen Obsidian-Vault zu senden.
+Das Teilen-Blatt von Obsidian ermöglicht dir, Inhalte von Webseiten zu erfassen. Es funktioniert auch mit Apps wie YouTube und anderen sozialen Netzwerken.
 
-So teilst du einen Link aus Safari:
+> [!note]
+> - Das native Teilen-Blatt ist ab iOS und iPadOS 18 und höher verfügbar.
+> - Die in diesem Abschnitt beschriebenen Funktionen des Teilen-Blatts erfordern Obsidian 1.13.0 oder neuer.
 
-1. Öffne die Webseite in Safari und tippe dann auf die **Teilen**-Taste.
-2. Wische im Teilen-Menü in der App-Reihe nach links, tippe auf **Mehr** und dann auf **Bearbeiten**.
-3. Aktiviere **Obsidian**, damit es im Teilen-Menü erscheint.
-4. Tippe auf die **Hinzufügen**-Taste neben Obsidian, um es zu den **Favoriten** hinzuzufügen.
-5. (Optional) Ziehe die **Neuordnen**-Taste neben Obsidian, um seine Position in den Favoriten zu ändern.
-6. Tippe auf **Fertig**.
-7. Tippe im Teilen-Menü von Safari auf **Obsidian**.
-8. Wenn du auf Obsidian tippst, erscheint das Obsidian-Teilen-Blatt und ermöglicht dir, den ausgewählten Inhalt in deinen Vault zu teilen.
+Verwende das Teilen-Blatt, um Inhalte schnell aus einer anderen App an Obsidian zu senden:
+1. Tippe in einer anderen App auf die **Teilen**-Taste.
+2. Wähle **Obsidian**.
+3. Wähle einen Speicherort.
+4. Überprüfe oder bearbeite den erfassten Inhalt.
+5. Tippe auf **Speichern**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Speicherorte
+
+Mit Speicherorten legst du fest, wohin der geteilte Inhalt gesendet werden soll, bevor du ihn speicherst.
+
+Speicherorte können erfassen in:
+- **Neue Notiz** — Eine neue Notiz in einem Vault oder Ordner erstellen.
+- **Tägliche Notiz** — Inhalt an die heutige Tägliche Notiz anhängen oder voranstellen.
+- **Lesezeichen-Notiz** — Inhalt an eine als Lesezeichen gesetzte Notiz anhängen oder voranstellen.
+- **Notiz** — Eine vorhandene Notiz in deinem Vault auswählen.
+- **Neues Lesezeichen** — Eine geteilte URL in den Obsidian-Lesezeichen speichern.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Speicherorte anpassen
+
+Du kannst Speicherorte für häufige Workflows erstellen, z. B. Artikel in einem Posteingang speichern, Zitate an deine Tägliche Notiz anhängen oder Links zu Lesezeichen hinzufügen.
+
+So passt du Speicherorte an:
+
+1. Öffne Obsidian über das iOS-Teilen-Blatt.
+2. Tippe auf den aktuellen Speicherort in der Symbolleiste.
+3. Tippe auf die **+**-Taste, um einen neuen Speicherort zu erstellen, oder wähle einen vorhandenen Speicherort zum Bearbeiten aus.
+4. Wähle den Vault, das Verhalten und optionale Einstellungen.
+
+Abhängig vom `Verhalten`-Typ kannst du Optionen konfigurieren wie:
+- Ordner
+- Vorlage
+- Lesezeichen-Gruppe
+- Position zum Anhängen oder Voranstellen
+- Ob geteilte Links den **Volltext** oder nur die **URL** erfassen
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Eine Vorlage beim Teilen verwenden
+
+Du kannst beim Teilen von Inhalten über das Teilen-Blatt eine Vorlage verwenden. Vorlagen ermöglichen es dir, erfasste Webinhalte mit Details wie Seitentitel, Autor, Quellwebsite und Veröffentlichungsdatum zu formatieren.
+
+So richtest du einen Speicherort mit einer Vorlage ein:
+
+1. Öffne Obsidian über das iOS-Teilen-Blatt.
+2. Tippe auf den aktuellen Speicherort in der Symbolleiste.
+3. Tippe auf die **+**-Taste, um einen neuen Speicherort zu erstellen.
+4. Gib einen Namen für den Speicherort ein.
+5. Wähle einen Vault.
+6. Setze **Verhalten** auf **Neue Notiz**.
+7. Tippe im Abschnitt **Optional** auf **Vorlage**.
+8. Wähle eine Notiz aus deinem Vault als Vorlage aus.
+9. Tippe auf **Speichern**, um den Speicherort zu speichern.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Wenn du einen Link über diesen Speicherort teilst, wendet Obsidian zuerst die Vorlage an und fügt dann den geteilten Inhalt hinzu.
+
+Unterstützte Vorlagen-Platzhalter:
+
+| Platzhalter | Beschreibung |
+| --- | --- |
+| `{{author}}` | Autor des Artikels |
+| `{{description}}` | Beschreibung oder Zusammenfassung des Artikels |
+| `{{domain}}` | Domainname der Website |
+| `{{favicon}}` | URL des Favicons der Website |
+| `{{image}}` | URL des Hauptbildes des Artikels |
+| `{{published}}` | Veröffentlichungsdatum des Artikels im Standarddatumsformat |
+| `{{published: YYYY-MM-DD}}` | Veröffentlichungsdatum in einem benutzerdefinierten Datumsformat |
+| `{{site}}` | Name der Website |
+| `{{title}}` | Titel des Artikels |
+| `{{wordCount}}` | Gesamtanzahl der Wörter im extrahierten Inhalt |
+
+Du kannst auch Standard-Vorlagen-Platzhalter für Datum und Uhrzeit verwenden:
+
+| Platzhalter | Beschreibung |
+| --- | --- |
+| `{{date}}` | Aktuelles Datum |
+| `{{date: YYYY-MM-DD}}` | Aktuelles Datum in einem benutzerdefinierten Format |
+| `{{time}}` | Aktuelle Uhrzeit |
+| `{{time: HH:mm}}` | Aktuelle Uhrzeit in einem benutzerdefinierten Format |
 
 ## Siri-Integration
 

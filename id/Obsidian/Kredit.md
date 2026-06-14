@@ -5,41 +5,58 @@ aliases:
 ---
 Nama-nama tidak dicantumkan berdasarkan jumlah kontribusi, tetapi secara abjad (atau setidaknya kami berusaha demikian!).
 
-## Tim
+## Tim inti
 
-### Pengembangan
+Tim inti yang membangun dan memelihara Obsidian.
 
-- Licat (Shida Li)<span class='flair mod-pop'>Obsidian office cat</span>
-- liam ([Liam Cain](https://liamca.in/)) <span class='flair mod-pop'>Maker of Calendar</span> <span class='flair mod-pop'>Plugin API Master</span> <span class='flair mod-pop'>Volcano Veteran</span>
-- joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair mod-pop'>Plugin API Master</span>
+- codedmart (Brandon Martin)
+- dharam (Dharam Kapila)
+- kepano ([Steph Ango](https://stephanango.com/))
+- Licat (Shida Li)
+- liam ([Liam Cain](https://liamca.in/)) <span class='flair'>Maker of Calendar</span> <span class='flair'>Plugin API Master</span> <span class='flair'>Volcano Veteran</span>
+- Silver ([Erica Xu](https://ericaxu.com))<span class='flair'>Team Little Silvers</span>
+- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair'>Sorcerous Support Dragon</span> <span class='flair'>TTRPG Enthusiast</span>
 - tgrosinger ([Tony Grosinger](https://grosinger.net))
+
+## Kontributor
+
+Pengembang paruh waktu yang membantu membangun Obsidian.
+
+- cmptr (Aaron Bell)
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 
-### Produk & Operasional
+## Peninjauan komunitas
 
-- Silver ([Erica Xu](https://ericaxu.com))<span class='flair mod-pop'>Team Little Silvers</span>
-- kepano ([Steph Ango](https://stephanango.com/))
-- Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair mod-pop'>Sorcerous Support Dragon</span> <span class='flair mod-pop'>TTRPG Enthusiast</span>
+Kontributor untuk proses dan alat peninjauan plugin/tema [Komunitas](https://community.obsidian.md/).
 
-## Moderator
+- Fevol
+- mnaoumov (Michael Naumov)
+- Saberzero1 (Emile Bangma)
+- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 
-- argentum<span class='flair mod-pop'>Team Little Silvers</span> <span class='flair mod-pop'>Linux master</span> <span class='flair mod-pop'>Zotero master</span> ^a4b3a2
-- cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair mod-pop'>Linux master</span>
-- koala<span class='flair mod-pop'>Extreme Bug Finder</span>
-- Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair mod-pop'>Roll for initiative!</span> <span class='flair mod-pop'>Non-techy Apple geek</span>
-- rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair mod-pop'>Forum master</span>
-- ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair mod-pop'>That funny guy</span> <span class='flair mod-pop'>Apple Fanboy</span> <span class='flair mod-pop'>Forum master</span>
-- WhiteNoise<span class='flair mod-pop'>Think Tank</span> <span class='flair mod-pop'>Zotero master</span> <span class='flair mod-pop'>Bug report exterminator</span>
-- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair mod-pop'>embedded-search ambassador</span>
-- Trainbuffer <span class='flair mod-pop'> ferroequinologist</span> <span class='flair mod-pop'>Travels by rail</span>
-- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair mod-pop'>Not <i>that</i> one</span>
-- Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair mod-pop'>Templater Templar</span><span class='flair mod-pop'>Board Gamer</span>
-- Carl the Turtle<span class='flair mod-pop'>Online 24/7</span> <span class='flair mod-pop'>Easily triggered</span> <span class='flair mod-pop'>Good and pure</span> <span class='flair mod-pop' style='background-color:#0a8c28'>Go green or go home</span>
+## Moderasi
 
-### Pensiun
+Moderator mengelola Forum Obsidian, Discord, dan Reddit.
 
-- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair mod-pop'>Halp Obsidian turned me into a dev</span>
-- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair mod-pop'>Bad Cop</span>
+- argentum<span class='flair'>Team Little Silvers</span> <span class='flair'>Linux master</span> <span class='flair'>Zotero master</span> ^a4b3a2
+- CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair'>embedded-search ambassador</span>
+- cotemaxime ([Maxime Côté](https://www.maximecote.me/))<span class='flair'>Linux master</span>
+- koala<span class='flair'>Extreme Bug Finder</span>
+- Leah ([Leah Ferguson](http://leahferguson.com))<span class='flair'>Roll for initiative!</span> <span class='flair'>Non-techy Apple geek</span>
+- rigmarole ([Chris Lesage](http://rigmarolestudio.com))<span class='flair'>Forum master</span>
+- Roam ([Roman Soriano](https://leftovers.blog/)) <span class='flair'>Not <i>that</i> one</span>
+- Trainbuffer <span class='flair'> ferroequinologist</span> <span class='flair'>Travels by rail</span>
+- WhiteNoise<span class='flair'>Think Tank</span> <span class='flair'>Zotero master</span> <span class='flair'>Bug report exterminator</span>
+- Carl the Turtle<span class='flair'>Online 24/7</span> <span class='flair'>Easily triggered</span> <span class='flair'>Good and pure</span> 
+
+## Alumni
+
+Moderator dan anggota tim sebelumnya yang telah beralih ke petualangan baru!
+
+- Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair'>Halp Obsidian turned me into a dev</span>
+- joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair'>Plugin API Master</span>
+- mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair'>Bad Cop</span>
+- ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair'>That funny guy</span> <span class='flair'>Apple Fanboy</span> <span class='flair'>Forum master</span>
 
 ## Inspirasi Plugin
 
@@ -54,10 +71,12 @@ Penghargaan kepada para pengembang plugin ini yang telah merintis fungsionalitas
 
 ## Build
 
-- jstone untuk memelihara build kami di flathub
+- jstone untuk memelihara build kami di Flathub
 - adamgibbins dan ran-dall untuk memelihara build kami di homebrew
 
 ## Penerjemah
+
+Lihat juga daftar lengkap [kontributor terjemahan](https://github.com/obsidianmd/obsidian-translations/graphs/contributors?from=7%2F31%2F2020).
 
 - Andrea Brandi (Italia)
 - Anne-Katrin aka Mephi (Jerman)
@@ -86,6 +105,10 @@ Penghargaan kepada para pengembang plugin ini yang telah merintis fungsionalitas
 - VKondakoff, Валерий Кондаков (Rusia)
 - yo-goto, ぱだわん (Jepang)
 - Zachary Shirmohammadli (Persia) 
+
+## Organisasi pendukung
+
+Organisasi yang mendukung Obsidian dengan [[Lisensi komersial]] ditampilkan di halaman [Enterprise](https://obsidian.md/enterprise/) kami. 
 
 ## Dokumentasi
 

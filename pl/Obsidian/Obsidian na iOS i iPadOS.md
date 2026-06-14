@@ -62,11 +62,13 @@ Obsidian integruje się z aplikacją Skróty firmy Apple, umożliwiając tworzen
 
 Skróty przechwytywania są szczególnie przydatne do szybkiego tworzenia notatek, ponieważ pozwalają dodawać treść do notatki w tle.
 
-## Rozszerzenie arkusza udostępniania
+## Arkusz udostępniania
 
 Obsidian oferuje rozszerzenie arkusza udostępniania, którego możesz używać w innych aplikacjach do wysyłania linków, tekstu, obrazów lub dokumentów do sejfu Obsidian.
 
-Aby udostępnić link z Safari:
+> [!note]
+> - Natywny arkusz udostępniania jest dostępny na iOS i iPadOS 18 i nowszych.
+> - Funkcje arkusza udostępniania opisane w tej sekcji wymagają Obsidian 1.13.0 lub nowszego.
 
 1. Otwórz stronę internetową w Safari, a następnie dotknij przycisku **Udostępnij**.
 2. W menu udostępniania przesuń palcem w lewo po rzędzie aplikacji, dotknij **Więcej**, a następnie dotknij **Edytuj**.
@@ -77,7 +79,84 @@ Aby udostępnić link z Safari:
 7. Z powrotem w menu udostępniania Safari dotknij **Obsidian**.
 8. Po dotknięciu Obsidian pojawi się arkusz udostępniania Obsidian, umożliwiający udostępnienie wybranej treści do sejfu.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Lokalizacje
+
+Lokalizacje pozwalają zdecydować, gdzie trafią udostępnione treści, zanim je zapiszesz.
+
+Lokalizacje mogą przechwytywać do:
+- **Nowa notatka** — Tworzy nową notatkę w skarbcu lub folderze.
+- **Dziennik** — Dołącza lub wstawia treść do dzisiejszego dziennika.
+- **Notatka z zakładek** — Dołącza lub wstawia treść do notatki z zakładek.
+- **Notatka** — Wybiera istniejącą notatkę w skarbcu.
+- **Nowa zakładka** — Zapisuje udostępniony URL w zakładkach Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Dostosowywanie lokalizacji
+
+Możesz tworzyć lokalizacje dla typowych przepływów pracy, np. zapisywanie artykułów do skrzynki odbiorczej, dołączanie cytatów do dziennika lub dodawanie linków do zakładek.
+
+Aby dostosować lokalizacje:
+
+1. Otwórz Obsidian z arkusza udostępniania iOS.
+2. Dotknij bieżącej lokalizacji na pasku narzędzi.
+3. Dotknij przycisku **+**, aby utworzyć nową lokalizację, lub wybierz istniejącą lokalizację do edycji.
+4. Wybierz skarbiec, zachowanie i opcjonalne ustawienia.
+
+W zależności od typu `Zachowanie` możesz skonfigurować opcje takie jak:
+- Folder
+- Szablon
+- Grupa zakładek
+- Pozycja dołączania lub wstawiania
+- Czy udostępniane linki przechwytują **Pełny tekst** czy tylko **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Używanie szablonu podczas udostępniania
+
+Możesz użyć szablonu podczas udostępniania treści z arkusza udostępniania. Szablony pozwalają formatować przechwycone treści internetowe z takimi szczegółami jak tytuł strony, autor, witryna źródłowa i data publikacji.
+
+Aby skonfigurować lokalizację z szablonem:
+
+1. Otwórz Obsidian z arkusza udostępniania iOS.
+2. Dotknij bieżącej lokalizacji na pasku narzędzi.
+3. Dotknij przycisku **+**, aby utworzyć nową lokalizację.
+4. Wprowadź nazwę lokalizacji.
+5. Wybierz skarbiec.
+6. Ustaw **Zachowanie** na **Nowa notatka**.
+7. W sekcji **Opcjonalne** dotknij **Szablon**.
+8. Wybierz notatkę ze skarbca, która posłuży jako szablon.
+9. Dotknij **Zapisz**, aby zapisać lokalizację.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Gdy udostępniasz link za pomocą tej lokalizacji, Obsidian najpierw stosuje szablon, a następnie dodaje udostępnioną treść.
+
+Obsługiwane symbole zastępcze szablonu:
+
+| Symbol zastępczy | Opis |
+| --- | --- |
+| `{{author}}` | Autor artykułu |
+| `{{description}}` | Opis lub podsumowanie artykułu |
+| `{{domain}}` | Nazwa domeny witryny |
+| `{{favicon}}` | URL faviconu witryny |
+| `{{image}}` | URL głównego obrazu artykułu |
+| `{{published}}` | Data publikacji artykułu w domyślnym formacie daty |
+| `{{published: YYYY-MM-DD}}` | Data publikacji w niestandardowym formacie daty |
+| `{{site}}` | Nazwa witryny |
+| `{{title}}` | Tytuł artykułu |
+| `{{wordCount}}` | Łączna liczba słów w wyodrębnionej treści |
+
+Możesz również użyć standardowych symboli zastępczych daty i godziny:
+
+| Symbol zastępczy | Opis |
+| --- | --- |
+| `{{date}}` | Bieżąca data |
+| `{{date: YYYY-MM-DD}}` | Bieżąca data w niestandardowym formacie |
+| `{{time}}` | Bieżąca godzina |
+| `{{time: HH:mm}}` | Bieżąca godzina w niestandardowym formacie |
 
 ## Integracja z Siri
 

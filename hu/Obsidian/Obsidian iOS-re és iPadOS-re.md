@@ -62,22 +62,99 @@ Az Obsidian integrálódik az Apple Parancsikonok alkalmazásával, lehetővé t
 
 A rögzítés parancsikonok különösen hasznosak a gyors jegyzeteléshez, mivel lehetővé teszik tartalom hozzáadását egy jegyzethez a háttérben.
 
-## Megosztás lap bővítmény
+## Megosztás lap
 
-Az Obsidian rendelkezik egy Megosztás lap bővítménnyel, amelyet más alkalmazásokban használhat hivatkozások, szövegek, képek vagy dokumentumok küldésére az Obsidian széfjébe.
+Az Obsidian Megosztás lapja lehetővé teszi tartalom rögzítését weboldalakról. Olyan alkalmazásokkal is működik, mint a YouTube és más közösségi hálózatok.
 
-Hivatkozás megosztása a Safariból:
+> [!note]
+> - A natív Megosztás lap iOS és iPadOS 18 vagy újabb verzión érhető el.
+> - Az ebben a részben ismertetett Megosztás lap funkciókhoz Obsidian 1.13.0 vagy újabb szükséges.
 
-1. Nyissa meg a weboldalt a Safariban, majd koppintson a **Megosztás** gombra.
-2. A Megosztás menüben húzza balra az alkalmazássort, koppintson a **Továbbiak** lehetőségre, majd a **Szerkesztés** gombra.
-3. Kapcsolja be az **Obsidian** opciót, hogy megjelenjen a Megosztás menüben.
-4. Koppintson az Obsidian melletti **Hozzáadás** gombra a **Kedvencek** közé való felvételhez.
-5. (Opcionális) Húzza az Obsidian melletti **Átrendezés** gombot a pozíciójának módosításához a Kedvencek között.
-6. Koppintson a **Kész** gombra.
-7. A Safari Megosztás menüjébe visszatérve koppintson az **Obsidian** lehetőségre.
-8. Amikor az Obsidianra koppint, megjelenik az Obsidian megosztási lap, amely lehetővé teszi a kiválasztott tartalom megosztását a széfjébe.
+A Megosztás lap segítségével gyorsan küldhet tartalmat egy másik alkalmazásból az Obsidianba:
+1. Egy másik alkalmazásban koppintson a **Megosztás** gombra.
+2. Válassza az **Obsidian** lehetőséget.
+3. Válasszon egy Helyet.
+4. Tekintse át vagy szerkessze a rögzített tartalmat.
+5. Koppintson a **Mentés** gombra.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Helyek
+
+A Helyek segítségével eldöntheti, hová kerüljön a megosztott tartalom a mentés előtt.
+
+A Helyek a következőkbe rögzíthetnek:
+- **Új jegyzet** — Új jegyzet létrehozása egy széfben vagy mappában.
+- **Napi jegyzet** — Tartalom hozzáfűzése vagy beszúrása a mai napi jegyzetbe.
+- **Könyvjelzőzött jegyzet** — Tartalom hozzáfűzése vagy beszúrása egy könyvjelzőzött jegyzetbe.
+- **Jegyzet** — Egy meglévő jegyzet kiválasztása a széfből.
+- **Új könyvjelző** — Megosztott URL mentése az Obsidian könyvjelzőkbe.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Helyek testreszabása
+
+Létrehozhat Helyeket gyakori munkafolyamatokhoz, például cikkek mentéséhez egy beérkezett üzenetek mappába, idézetek hozzáfűzéséhez a napi jegyzethez, vagy hivatkozások hozzáadásához a könyvjelzőkhöz.
+
+A Helyek testreszabásához:
+
+1. Nyissa meg az Obsidiant az iOS Megosztás lapról.
+2. Koppintson a jelenlegi Helyre az eszköztárban.
+3. Koppintson a **+** gombra új Hely létrehozásához, vagy válasszon egy meglévő Helyet a szerkesztéshez.
+4. Válassza ki a széfet, a viselkedést és az opcionális beállításokat.
+
+A `Viselkedés` típusától függően a következő opciókat konfigurálhatja:
+- Mappa
+- Sablon
+- Könyvjelző-csoport
+- Hozzáfűzés vagy beszúrás pozíciója
+- A megosztott hivatkozások **Teljes szöveget** vagy csak az **URL-t** rögzítsék-e
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Sablon használata megosztáskor
+
+Sablont használhat, amikor tartalmat oszt meg a Megosztás lapon keresztül. A sablonok lehetővé teszik a rögzített webes tartalom formázását olyan részletekkel, mint az oldal címe, szerzője, forrásoldalra és megjelenési dátuma.
+
+Hely beállítása sablonnal:
+
+1. Nyissa meg az Obsidiant az iOS Megosztás lapról.
+2. Koppintson a jelenlegi Helyre az eszköztárban.
+3. Koppintson a **+** gombra új Hely létrehozásához.
+4. Adjon nevet a Helynek.
+5. Válasszon egy széfet.
+6. Állítsa a **Viselkedés** opciót **Új jegyzet** értékre.
+7. Az **Opcionális** résznél koppintson a **Sablon** lehetőségre.
+8. Válasszon egy jegyzetet a széfből sablonként.
+9. Koppintson a **Mentés** gombra a Hely mentéséhez.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Amikor egy hivatkozást oszt meg ezzel a Hellyel, az Obsidian először a sablont alkalmazza, majd hozzáadja a megosztott tartalmat.
+
+Támogatott sablon helyőrzők:
+
+| Helyőrző | Leírás |
+| --- | --- |
+| `{{author}}` | A cikk szerzője |
+| `{{description}}` | A cikk leírása vagy összefoglalója |
+| `{{domain}}` | A weboldal domain neve |
+| `{{favicon}}` | A weboldal faviconjának URL-je |
+| `{{image}}` | A cikk fő képének URL-je |
+| `{{published}}` | A cikk megjelenési dátuma az alapértelmezett dátumformátumban |
+| `{{published: YYYY-MM-DD}}` | Megjelenési dátum egyéni dátumformátummal |
+| `{{site}}` | A weboldal neve |
+| `{{title}}` | A cikk címe |
+| `{{wordCount}}` | A kinyert tartalom összes szavainak száma |
+
+A szabványos sablon dátum és idő helyőrzőket is használhatja:
+
+| Helyőrző | Leírás |
+| --- | --- |
+| `{{date}}` | Aktuális dátum |
+| `{{date: YYYY-MM-DD}}` | Aktuális dátum egyéni formátummal |
+| `{{time}}` | Aktuális idő |
+| `{{time: HH:mm}}` | Aktuális idő egyéni formátummal |
 
 ## Siri integráció
 

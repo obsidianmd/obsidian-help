@@ -61,22 +61,99 @@ Obsidian sa integruje s aplikáciou Skratky od Apple, čo vám umožňuje vytvá
 
 Skratky na zachytávanie sú obzvlášť užitočné na rýchle zapisovanie poznámok, pretože umožňujú pridať obsah do poznámky na pozadí.
 
-## Rozšírenie zdieľania
+## Rozhranie zdieľania
 
-Obsidian ponúka rozšírenie zdieľania, ktoré môžete použiť v iných aplikáciách na odoslanie odkazov, textu, obrázkov alebo dokumentov do vášho trezoru Obsidian.
+Rozhranie zdieľania Obsidian vám umožňuje zachytávať obsah z webových stránok. Funguje aj s aplikáciami ako YouTube a ďalšími sociálnymi sieťami.
 
-Zdieľanie odkazu zo Safari:
+> [!note]
+> - Natívne rozhranie zdieľania je dostupné na iOS a iPadOS 18 a vyšších verziách.
+> - Funkcie rozhrania zdieľania popísané v tejto sekcii vyžadujú Obsidian 1.13.0 alebo novší.
 
-1. Otvorte webovú stránku v Safari a ťuknite na tlačidlo **Zdieľať**.
-2. V ponuke zdieľania potiahnite doľava cez riadok aplikácií, ťuknite na **Viac** a potom ťuknite na **Upraviť**.
-3. Zapnite **Obsidian**, aby sa zobrazil v ponuke zdieľania.
-4. Ťuknite na tlačidlo **Pridať** vedľa Obsidian a pridajte ho do **Obľúbených**.
-5. (Voliteľné) Potiahnite tlačidlo **Zmeniť poradie** vedľa Obsidian a zmeňte jeho pozíciu v Obľúbených.
-6. Ťuknite na **Hotovo**.
-7. Späť v ponuke zdieľania Safari ťuknite na **Obsidian**.
-8. Po ťuknutí na Obsidian sa zobrazí rozhranie zdieľania Obsidian, ktoré vám umožní zdieľať vybraný obsah do vášho trezoru.
+Použite rozhranie zdieľania na rýchle odoslanie obsahu z inej aplikácie do Obsidian:
+1. V inej aplikácii ťuknite na tlačidlo **Zdieľať**.
+2. Vyberte **Obsidian**.
+3. Zvoľte umiestnenie.
+4. Skontrolujte alebo upravte zachytený obsah.
+5. Ťuknite na **Uložiť**.
 
-![[ios-share-sheet.png|400]]
+![[ios-share-sheet-extension.png|400]]
+
+### Umiestnenia
+
+Umiestnenia vám umožňujú rozhodnúť, kam má zdieľaný obsah smerovať pred jeho uložením.
+
+Umiestnenia môžu zachytávať do:
+- **Nová poznámka** — Vytvoriť novú poznámku v trezore alebo priečinku.
+- **Denná poznámka** — Pripojiť alebo predradiť obsah do dnešnej dennej poznámky.
+- **Poznámka uložená ako záložka** — Pripojiť alebo predradiť obsah do poznámky uloženej ako záložka.
+- **Poznámka** — Vybrať existujúcu poznámku vo vašom trezore.
+- **Nová záložka** — Uložiť zdieľanú URL do záložiek Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Prispôsobenie umiestnení
+
+Môžete vytvárať umiestnenia pre bežné pracovné postupy, ako napríklad ukladanie článkov do priečinka prijatých, pripájanie citátov do dennej poznámky alebo pridávanie odkazov do záložiek.
+
+Prispôsobenie umiestnení:
+
+1. Otvorte Obsidian z rozhrania zdieľania iOS.
+2. Ťuknite na aktuálne umiestnenie v paneli nástrojov.
+3. Ťuknite na tlačidlo **+** pre vytvorenie nového umiestnenia, alebo vyberte existujúce umiestnenie na úpravu.
+4. Vyberte trezor, správanie a voliteľné nastavenia.
+
+V závislosti od typu `Správanie` môžete konfigurovať možnosti ako:
+- Priečinok
+- Šablóna
+- Skupina záložiek
+- Pozícia pripojenia alebo predradenia
+- Či zdieľané odkazy zachytávajú **Celý text** alebo iba **URL**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Použitie šablóny pri zdieľaní
+
+Pri zdieľaní obsahu z rozhrania zdieľania môžete použiť šablónu. Šablóny vám umožňujú formátovať zachytený webový obsah s detailmi ako názov stránky, autor, zdrojová webová stránka a dátum publikácie.
+
+Nastavenie umiestnenia so šablónou:
+
+1. Otvorte Obsidian z rozhrania zdieľania iOS.
+2. Ťuknite na aktuálne umiestnenie v paneli nástrojov.
+3. Ťuknite na tlačidlo **+** pre vytvorenie nového umiestnenia.
+4. Zadajte názov umiestnenia.
+5. Vyberte trezor.
+6. Nastavte **Správanie** na **Nová poznámka**.
+7. V sekcii **Voliteľné** ťuknite na **Šablóna**.
+8. Vyberte poznámku z vášho trezoru, ktorá sa použije ako šablóna.
+9. Ťuknite na **Uložiť** pre uloženie umiestnenia.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Keď zdieľate odkaz pomocou tohto umiestnenia, Obsidian najprv aplikuje šablónu a potom pridá zdieľaný obsah.
+
+Podporované zástupné symboly šablóny:
+
+| Zástupný symbol | Popis |
+| --- | --- |
+| `{{author}}` | Autor článku |
+| `{{description}}` | Popis alebo zhrnutie článku |
+| `{{domain}}` | Názov domény webovej stránky |
+| `{{favicon}}` | URL ikony webovej stránky |
+| `{{image}}` | URL hlavného obrázku článku |
+| `{{published}}` | Dátum publikácie článku v predvolenom formáte dátumu |
+| `{{published: YYYY-MM-DD}}` | Dátum publikácie vo vlastnom formáte dátumu |
+| `{{site}}` | Názov webovej stránky |
+| `{{title}}` | Názov článku |
+| `{{wordCount}}` | Celkový počet slov v extrahovanom obsahu |
+
+Môžete tiež použiť štandardné zástupné symboly šablóny pre dátum a čas:
+
+| Zástupný symbol | Popis |
+| --- | --- |
+| `{{date}}` | Aktuálny dátum |
+| `{{date: YYYY-MM-DD}}` | Aktuálny dátum vo vlastnom formáte |
+| `{{time}}` | Aktuálny čas |
+| `{{time: HH:mm}}` | Aktuálny čas vo vlastnom formáte |
 
 ## Integrácia so Siri
 
