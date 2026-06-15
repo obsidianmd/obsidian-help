@@ -71,7 +71,7 @@ To continue using Obsidian Sync, we suggest doing a full re-setup to be able to 
 
 ### Where do you host the servers for Obsidian Sync?
 
-Our data centers, powered by [DigitalOcean](https://www.digitalocean.com), provide geo-regional remote vault hosting options in the following locations:
+Obsidian Sync servers are hosted by [DigitalOcean](https://www.digitalocean.com) in the following regional locations:
 
 > [!abstract] Sync regions
 > **Automatic**: Your data center is chosen based on your IP location, at the time when you first set it up.
