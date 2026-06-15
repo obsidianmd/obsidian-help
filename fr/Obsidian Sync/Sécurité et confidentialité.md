@@ -4,7 +4,6 @@ description: Découvrez les considérations de sécurité et de confidentialité
 publish: true
 mobile: false
 localized: '2026-03-18'
-
 ---
 ## Chiffrement
 
@@ -69,7 +68,7 @@ Pour continuer à utiliser Obsidian Sync, nous vous suggérons d'effectuer une r
 
 ### Où hébergez-vous les serveurs pour Obsidian Sync ?
 
-Nos centres de données, alimentés par [DigitalOcean](https://www.digitalocean.com), offrent des options d'hébergement de coffres distants géo-régionaux dans les emplacements suivants :
+Les serveurs d'Obsidian Sync sont hébergés par [DigitalOcean](https://www.digitalocean.com) dans les emplacements régionaux suivants :
 
 > [!abstract] Régions de Sync
 > **Automatique** : Votre centre de données est choisi en fonction de la localisation de votre IP, au moment de la première configuration.

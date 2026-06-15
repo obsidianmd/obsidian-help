@@ -69,7 +69,7 @@ Untuk terus menggunakan Obsidian Sync, kami menyarankan melakukan pengaturan ula
 
 ### Di mana Anda menghosting server untuk Obsidian Sync?
 
-Pusat data kami, didukung oleh [DigitalOcean](https://www.digitalocean.com), menyediakan opsi hosting brankas jarak jauh berdasarkan wilayah geografis di lokasi berikut:
+Server Obsidian Sync dihosting oleh [DigitalOcean](https://www.digitalocean.com) di lokasi regional berikut:
 
 > [!abstract] Wilayah Sync
 > **Otomatis**: Pusat data Anda dipilih berdasarkan lokasi IP Anda, pada saat pertama kali Anda mengaturnya.

@@ -67,7 +67,7 @@ För att fortsätta använda Obsidian Sync rekommenderar vi att göra en fullst�
 
 ### Var driftar ni servrarna för Obsidian Sync?
 
-Våra datacenter, drivna av [DigitalOcean](https://www.digitalocean.com), erbjuder georegionala värdtjänstalternativ för fjärrvalv på följande platser:
+Obsidian Syncs servrar driftas av [DigitalOcean](https://www.digitalocean.com) på följande regionala platser:
 
 > [!abstract] Sync-regioner
 > **Automatisk**: Ditt datacenter väljs baserat på din IP-plats vid tidpunkten då du först konfigurerar det.

@@ -67,7 +67,7 @@ Jatkaaksesi Obsidian Syncin käyttöä suosittelemme tekemään täydellisen uud
 
 ### Missä isännöitte Obsidian Syncin palvelimia?
 
-Datakeskuksemme, joita ylläpitää [DigitalOcean](https://www.digitalocean.com), tarjoavat maantieteellisesti alueellisia etäholvin isännöintivaihtoehtoja seuraavissa sijainneissa:
+Obsidian Sync -palvelimia isännöi [DigitalOcean](https://www.digitalocean.com) seuraavissa alueellisissa sijainneissa:
 
 > [!abstract] Sync-alueet
 > **Automaattinen**: Datakeskus valitaan IP-sijaintisi perusteella sillä hetkellä, kun määrität sen ensimmäisen kerran.

@@ -67,7 +67,7 @@ Tuy nhiên, dữ liệu của bạn thường được lưu trữ an toàn tại
 
 ### Máy chủ Obsidian Sync được lưu trữ ở đâu?
 
-Các trung tâm dữ liệu của chúng tôi, được hỗ trợ bởi [DigitalOcean](https://www.digitalocean.com), cung cấp các tùy chọn lưu trữ kho từ xa theo khu vực địa lý tại các vị trí sau:
+Máy chủ Obsidian Sync được lưu trữ bởi [DigitalOcean](https://www.digitalocean.com) tại các vị trí khu vực sau:
 
 > [!abstract] Khu vực Sync
 > **Tự động**: Trung tâm dữ liệu được chọn dựa trên vị trí IP của bạn, tại thời điểm bạn thiết lập lần đầu.

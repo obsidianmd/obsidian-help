@@ -67,7 +67,7 @@ Para continuar usando Obsidian Sync, te sugerimos hacer una reconfiguración com
 
 ### ¿Dónde alojan los servidores de Obsidian Sync?
 
-Nuestros centros de datos, respaldados por [DigitalOcean](https://www.digitalocean.com), proporcionan opciones de alojamiento de bóvedas remotas geo-regionales en las siguientes ubicaciones:
+Los servidores de Obsidian Sync están alojados por [DigitalOcean](https://www.digitalocean.com) en las siguientes ubicaciones regionales:
 
 > [!abstract] Regiones de Sync
 > **Automático**: Tu centro de datos se elige según la ubicación de tu IP, en el momento en que lo configuras por primera vez.

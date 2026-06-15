@@ -67,7 +67,7 @@ Para continuar usando o Obsidian Sync, sugerimos fazer uma reconfiguração comp
 
 ### Onde vocês hospedam os servidores do Obsidian Sync?
 
-Nossos centros de dados, alimentados pela [DigitalOcean](https://www.digitalocean.com), oferecem opções de hospedagem de cofre remoto geo-regional nos seguintes locais:
+Os servidores do Obsidian Sync são hospedados pela [DigitalOcean](https://www.digitalocean.com) nos seguintes locais regionais:
 
 > [!abstract] Regiões do Sync
 > **Automático**: Seu centro de dados é escolhido com base na localização do seu IP, no momento em que você o configura pela primeira vez.

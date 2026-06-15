@@ -67,7 +67,7 @@ Om Obsidian Sync te blijven gebruiken, raden we aan een volledige herinrichting 
 
 ### Waar hosten jullie de servers voor Obsidian Sync?
 
-Onze datacenters, aangedreven door [DigitalOcean](https://www.digitalocean.com), bieden geo-regionale hostingopties voor externe kluizen op de volgende locaties:
+Obsidian Sync-servers worden gehost door [DigitalOcean](https://www.digitalocean.com) op de volgende regionale locaties:
 
 > [!abstract] Sync-regio's
 > **Automatisch**: Je datacenter wordt gekozen op basis van je IP-locatie, op het moment dat je het voor het eerst instelt.
