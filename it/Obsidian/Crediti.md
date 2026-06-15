@@ -30,7 +30,7 @@ Sviluppatori part-time che contribuiscono allo sviluppo di Obsidian.
 Collaboratori al processo e agli strumenti di revisione dei plugin/temi della [Community](https://community.obsidian.md/).
 
 - Fevol
-- mnaoumov (Michael Naumov)
+- mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - Saberzero1 (Emile Bangma)
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 

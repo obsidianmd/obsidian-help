@@ -28,7 +28,7 @@ Vývojári na čiastočný úväzok, ktorí pomáhajú vytvárať Obsidian.
 Prispievatelia do procesu a nástrojov revízie [komunitných](https://community.obsidian.md/) pluginov/tém.
 
 - Fevol
-- mnaoumov (Michael Naumov)
+- mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - Saberzero1 (Emile Bangma)
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 

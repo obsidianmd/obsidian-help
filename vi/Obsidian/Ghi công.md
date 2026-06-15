@@ -30,7 +30,7 @@ Các nhà phát triển bán thời gian giúp xây dựng Obsidian.
 Người đóng góp cho quy trình và công cụ đánh giá plugin/chủ đề [Cộng đồng](https://community.obsidian.md/).
 
 - Fevol
-- mnaoumov (Michael Naumov)
+- mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - Saberzero1 (Emile Bangma)
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 

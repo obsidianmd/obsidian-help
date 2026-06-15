@@ -28,7 +28,7 @@ Programadores a tempo parcial que ajudam a construir o Obsidian.
 Contribuidores para o processo e ferramentas de revisão de plugins/temas da [Comunidade](https://community.obsidian.md/).
 
 - Fevol
-- mnaoumov (Michael Naumov)
+- mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - Saberzero1 (Emile Bangma)
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 
