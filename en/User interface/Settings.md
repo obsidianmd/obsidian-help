@@ -190,6 +190,8 @@ Where newly created notes are placed. Options include:
 - **Same folder as current file** — Notes are created in the same folder as the currently active note.
 - **In the folder specified below** — Notes are created in a specific folder you choose.
 
+This setting doesn't apply when an [[Internal links|internal link]] includes a folder path. For example, creating `[[Projects/Three laws of motion]]` creates the note in the `Projects` folder relative to the vault root.
+
 ### Default location for new attachments
 
 Where newly added [[Attachments|attachments]] are placed. Options include:
