@@ -35,11 +35,7 @@ jobs:
           node-version: '22'
 
       - name: Install ob CLI
-        # TODO: unpin once a fixed obsidian-headless build is published.
-        # 0.0.10+ ship a cli.js built without the `publish-site-options` command
-        # (still in source/README, dropped from the bundled binary), which breaks
-        # scripts/sync-site-options.ts.
-        run: npm install -g obsidian-headless@0.0.8
+        run: npm install -g obsidian-headless@0.0.12
 
       - name: Set up ob auth
         run: |
