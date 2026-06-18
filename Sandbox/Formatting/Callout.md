@@ -65,7 +65,7 @@ Snippets and plugins can define custom callouts too, or overwrite the default op
 
 ```CSS
 .callout[data-callout="my-callout-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: icon-id;
     --callout-icon: '<svg>...custom svg...</svg>';
 }
