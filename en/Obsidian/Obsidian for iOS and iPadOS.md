@@ -149,6 +149,7 @@ Supported template placeholders:
 | `{{published: YYYY-MM-DD}}` | Publication date using a custom date format |
 | `{{site}}` | Name of the website |
 | `{{title}}` | Title of the article |
+| `{{url}}` | Article URL |
 | `{{wordCount}}` | Total number of words in the extracted content |
 
 You can also use standard template date and time placeholders:
