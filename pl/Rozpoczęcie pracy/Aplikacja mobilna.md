@@ -88,8 +88,8 @@ Po jej dotknięciu możesz przełączyć się na dowolną otwartą kartę. Może
 
 ### Czynności wstążki
 
-Aplikacja mobilna nie ma [[Menu wstążkowe|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
+Aplikacja mobilna nie ma [[Wstążka|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
 
-### Paski boczne
+### Panele boczne
 
-Szczegółowe informacje o działaniu pasków bocznych na urządzeniach mobilnych znajdziesz w sekcji [[Pasek boczny#Otwieranie ukrytych pasków bocznych#Urządzenia mobilne i mniejsze tablety|Otwieranie pasków bocznych na urządzeniach mobilnych]].
+Szczegółowe informacje o działaniu paneli bocznych na urządzeniach mobilnych znajdziesz w sekcji [[Panel boczny#Otwieranie ukrytych paneli bocznych#Urządzenia mobilne i mniejsze tablety|Otwieranie paneli bocznych na urządzeniach mobilnych]].

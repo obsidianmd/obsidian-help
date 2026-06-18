@@ -10,9 +10,9 @@ permalink: sandbox
 
 Sejf piaskownicy można otworzyć na kilka sposobów. We wszystkich przypadkach otwiera się on oddzielnie od bieżącego sejfu.
 
-**Lewy pasek boczny**
+**Lewy panel boczny**
 
-1. Rozwiń **lewy pasek boczny** ![[obsidian-icon-side-bar-left.svg#icon]].
+1. Rozwiń **lewy panel boczny** ![[obsidian-icon-side-bar-left.svg#icon]].
 2. Obok **przełącznika sejfów** naciśnij ikonę **Pomoc** ![[obsidian-icon-help.svg#icon]].
 3. Wybierz **Otwórz** obok opcji **Sejf piaskownicy**.
 

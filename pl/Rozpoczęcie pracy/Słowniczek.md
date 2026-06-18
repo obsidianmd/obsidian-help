@@ -5,11 +5,11 @@ Ten słowniczek zawiera powszechnie stosowaną terminologię Obsidian.
 
 ## Alias
 
-**Alias** to typ [[#Właściwość|właściwości]], który definiuje alternatywne nazwy dla [[#Notatka|notatki]].
+**Alias** to typ [[#Atrybut|atrybutu]], który definiuje alternatywne nazwy dla [[#Notatka|notatki]].
 
 ## Załącznik
 
-**Załącznik** to [[Obsługiwane formaty plików|obsługiwany format pliku]], który został utworzony poza skarbcem i dodany później.
+**Załącznik** to [[Obsługiwane formaty plików|obsługiwany format pliku]], który został utworzony poza sejfem i dodany później.
 
 ## Polecenie
 
@@ -21,7 +21,7 @@ Ten słowniczek zawiera powszechnie stosowaną terminologię Obsidian.
 
 ## Metadane początkowe
 
-Metadane początkowe to sposób definiowania [[#Właściwość|właściwości]] poprzez dodanie [YAML](https://yaml.org/) lub [JSON](https://www.json.org/) na początku notatki. Zobacz także [[Atrybuty#Format atrybutów|Format atrybutów]].
+Metadane początkowe to sposób definiowania [[#Atrybut|atrybutów]] poprzez dodanie [YAML](https://yaml.org/) lub [JSON](https://www.json.org/) na początku notatki. Zobacz także [[Atrybuty#Format atrybutów|Format atrybutów]].
 
 ## Graf
 
@@ -33,7 +33,7 @@ Metadane początkowe to sposób definiowania [[#Właściwość|właściwości]] 
 
 ## Link
 
-**Link** odwołuje się do innej notatki lub pliku. [[Łącza wewnętrzne|Link wewnętrzny]] wskazuje na plik znajdujący się w bieżącym skarbcu. [[Podstawowa składnia formatowania#Łącza zewnętrzne|Link zewnętrzny]] wskazuje na lokalizację poza skarbcem, zwykle stronę internetową.
+**Link** odwołuje się do innej notatki lub pliku. [[Łącza wewnętrzne|Link wewnętrzny]] wskazuje na plik znajdujący się w bieżącym sejfie. [[Podstawowa składnia formatowania#Łącza zewnętrzne|Link zewnętrzny]] wskazuje na lokalizację poza sejfem, zwykle stronę internetową.
 
 ## Obszar główny
 
@@ -45,7 +45,7 @@ Markdown to język znaczników do formatowania tekstu i główny format plików 
 
 ## Notatka
 
-**Notatka** to plik Markdown wewnątrz [[#Skarbiec|skarbca]].
+**Notatka** to plik Markdown wewnątrz [[#Sejf|sejfu]].
 
 ## Wtyczka
 
@@ -58,13 +58,13 @@ Możesz [stworzyć własną wtyczkę](https://docs.obsidian.md/Plugins/Getting+s
 
 ## Okno wyskakujące
 
-Domyślnie wszystkie notatki w skarbcu otwierają się w tym samym oknie aplikacji. **Okno wyskakujące** umożliwia otwieranie notatek z tego samego skarbca w oddzielnych oknach, na przykład w celu wyświetlenia na drugim ekranie.
+Domyślnie wszystkie notatki w sejfie otwierają się w tym samym oknie aplikacji. **Okno wyskakujące** umożliwia otwieranie notatek z tego samego sejfu w oddzielnych oknach, na przykład w celu wyświetlenia na drugim ekranie.
 
 Zobacz także [[Okna wyskakujące]].
 
-## Właściwość
+## Atrybut
 
-[[Atrybuty|Właściwości]] definiują dodatkowe informacje o notatce, takie jak termin realizacji lub autor.
+[[Atrybuty]] definiują dodatkowe informacje o notatce, takie jak termin realizacji lub autor.
 
 ## Wstążka
 
@@ -74,11 +74,11 @@ W wersji desktopowej jest to pionowy obszar znajdujący się po lewej stronie.
 
 W wersji mobilnej jest reprezentowana przez przycisk menu ![[lucide-menu.svg#icon]] na [[#Pasek stanu|pasku stanu]].
 
-## Pasek boczny
+## Panel boczny
 
-Obszar zawierający pomocnicze [[#Podgląd|podglądy]] zorganizowane jako [[#Karta|karty]]. Pasek boczny można podzielić na wiele [[#Grupa kart|grup kart]].
+Obszar zawierający pomocnicze [[#Podgląd|podglądy]] zorganizowane jako [[#Karta|karty]]. Panel boczny można podzielić na wiele [[#Grupa kart|grup kart]].
 
-Obsidian w wersji desktopowej posiada dwa paski boczne, po jednym z każdej strony [[#Obszar główny|obszaru głównego]]. Oba paski boczne są dostępne za pomocą ikon w lewym górnym i prawym górnym rogu aplikacji Obsidian, a także przez przesunięcie palcem w lewo lub w prawo. Ikona w prawym górnym rogu musi być przytrzymana, aby otworzyć okno.
+Obsidian w wersji desktopowej posiada dwa panele boczne, po jednym z każdej strony [[#Obszar główny|obszaru głównego]]. Oba panele boczne są dostępne za pomocą ikon w lewym górnym i prawym górnym rogu aplikacji Obsidian, a także przez przesunięcie palcem w lewo lub w prawo. Ikona w prawym górnym rogu musi być przytrzymana, aby otworzyć okno.
 
 ## Fragment
 
@@ -91,7 +91,7 @@ Obsidian w wersji desktopowej posiada dwa paski boczne, po jednym z każdej stro
 
 ## Karta
 
-**Karta** zawiera [[#Podgląd|podgląd]]. Karty można przenosić w obrębie [[#Obszar główny|obszaru głównego]] i [[#Pasek boczny|pasków bocznych]]. Zobacz także [[Karty]].
+**Karta** zawiera [[#Podgląd|podgląd]]. Karty można przenosić w obrębie [[#Obszar główny|obszaru głównego]] i [[#Panel boczny|paneli bocznych]]. Zobacz także [[Karty]].
 
 ## Grupa kart
 
@@ -105,18 +105,18 @@ Obsidian w wersji desktopowej posiada dwa paski boczne, po jednym z każdej stro
 
 **Motyw** zmienia wygląd aplikacji Obsidian za pomocą [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). Możesz nadpisywać części motywu za pomocą [[#Fragment|fragmentów]].
 
-## Skarbiec
+## Sejf
 
-`Aliasy: skarbiec lokalny, dane lokalne`
+`Aliasy: sejf lokalny, dane lokalne`
 
-**Skarbiec** to folder w systemie plików, który zawiera [[#Notatka|notatki]] oraz folder `.obsidian` z konfiguracją specyficzną dla Obsidian. Zobacz także [[Jak Obsidian przechowuje dane]].
+**Sejf** to folder w systemie plików, który zawiera [[#Notatka|notatki]] oraz folder `.obsidian` z konfiguracją specyficzną dla Obsidian. Zobacz także [[Jak Obsidian przechowuje dane]].
 
 ### Zdalny sejf
 
 `Aliasy: Dane zdalne`
 
-[[Sejfy lokalne i zdalne|Zdalny sejf]] to kopia twojego lokalnego skarbca, utrzymywana za pomocą [[Wprowadzenie do Obsidian Sync|Obsidian Sync]]. Dane zdalnego sejfu są aktualizowane na podstawie zmian w danych lokalnych.
+[[Sejfy lokalne i zdalne|Zdalny sejf]] to kopia twojego lokalnego sejfu, utrzymywana za pomocą [[Wprowadzenie do Obsidian Sync|Obsidian Sync]]. Dane zdalnego sejfu są aktualizowane na podstawie zmian w danych lokalnych.
 
 ## Podgląd
 
-**Podgląd** wyświetla informacje, na przykład [[Szukaj|podgląd wyszukiwania]].
+**Podgląd** wyświetla informacje, na przykład [[Wyszukiwarka|podgląd wyszukiwania]].

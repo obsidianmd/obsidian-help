@@ -1,7 +1,7 @@
 ---
 permalink: bases/views/list
 ---
-Lista to rodzaj [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do Baz danych|Bazach danych]].
+Lista to rodzaj [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
 
 Wybierz ![[lucide-list.svg#icon]]  **Lista** z menu podglądu, aby wyświetlić pliki jako [[Podstawowa składnia formatowania#Listy|listę]] ze znacznikami wypunktowanymi lub numerowanymi.
 

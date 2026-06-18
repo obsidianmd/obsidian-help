@@ -4,7 +4,7 @@ cssclasses:
   - reference
 description: 'Obsidian Sync oferuje klienta bezgłowego (headless) do synchronizacji sejfów bez korzystania z aplikacji desktopowej. Przydatny w potokach CI, agentach i zautomatyzowanych przepływach pracy. Synchronizuj najnowsze zmiany lub utrzymuj pliki stale aktualne.'
 ---
-[[Wprowadzenie do Obsidian Sync|Obsidian Sync]] oferuje klienta bezobsługowego do synchronizacji skarbców bez korzystania z aplikacji desktopowej. Przydatny w potokach CI, agentach i zautomatyzowanych przepływach pracy. Synchronizuj najnowsze zmiany lub utrzymuj pliki stale aktualne.
+[[Wprowadzenie do Obsidian Sync|Obsidian Sync]] oferuje klienta bezobsługowego do synchronizacji sejfów bez korzystania z aplikacji desktopowej. Przydatny w potokach CI, agentach i zautomatyzowanych przepływach pracy. Synchronizuj najnowsze zmiany lub utrzymuj pliki stale aktualne.
 
 Zainstaluj [[Bezobsługowy Sync|Obsidian Headless]] **(otwarta beta)**, aby korzystać z [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] z wiersza poleceń bez aplikacji desktopowej Obsidian. Bezobsługowy Sync wykorzystuje te same [[Bezpieczeństwo i prywatność|zabezpieczenia szyfrowania i prywatności]] co aplikacja desktopowa, w tym szyfrowanie end-to-end.
 
@@ -29,7 +29,7 @@ ob login
 # Wyświetl zdalne sejfy
 ob sync-list-remote
 
-# Skonfiguruj skarbiec do synchronizacji
+# Skonfiguruj sejf do synchronizacji
 cd ~/vaults/my-vault
 ob sync-setup --vault "My Vault"
 
@@ -48,7 +48,7 @@ Wyświetla listę wszystkich zdalnych sejfów dostępnych dla Twojego konta, w t
 
 ### `ob sync-list-local`
 
-Wyświetla listę lokalnie skonfigurowanych skarbców i ich ścieżek.
+Wyświetla listę lokalnie skonfigurowanych sejfów i ich ścieżek.
 
 ### `ob sync-create-remote`
 
@@ -67,7 +67,7 @@ ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--pass
 
 ### `ob sync-setup`
 
-Konfiguruje synchronizację między lokalnym skarbcem a zdalnym sejfem.
+Konfiguruje synchronizację między lokalnym sejfem a zdalnym sejfem.
 
 ```
 ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>] [--device-name <name>] [--config-dir <name>]
@@ -83,7 +83,7 @@ ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>]
 
 ### `ob sync`
 
-Uruchamia synchronizację dla skonfigurowanego skarbca.
+Uruchamia synchronizację dla skonfigurowanego sejfu.
 
 ```
 ob sync [--path <local-path>] [--continuous]
@@ -91,12 +91,12 @@ ob sync [--path <local-path>] [--continuous]
 
 | Opcja | Opis |
 | --- | --- |
-| `--path` | Ścieżka lokalnego skarbca (domyślnie: bieżący katalog) |
+| `--path` | Ścieżka lokalnego sejfu (domyślnie: bieżący katalog) |
 | `--continuous` | Uruchom ciągle, obserwując zmiany |
 
 ### `ob sync-config`
 
-Wyświetla lub zmienia [[Opcje synchronizacji i synchronizacja selektywna|opcje synchronizacji]] skarbca. Uruchom bez opcji, aby wyświetlić bieżącą konfigurację.
+Wyświetla lub zmienia [[Opcje synchronizacji i synchronizacja selektywna|opcje synchronizacji]] sejfu. Uruchom bez opcji, aby wyświetlić bieżącą konfigurację.
 
 ```
 ob sync-config [--path <local-path>] [options]
@@ -104,7 +104,7 @@ ob sync-config [--path <local-path>] [options]
 
 | Opcja                 | Opis                                                                                                                                                                                                           |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--path`              | Ścieżka lokalnego skarbca (domyślnie: bieżący katalog)                                                                                                                                                        |
+| `--path`              | Ścieżka lokalnego sejfu (domyślnie: bieżący katalog)                                                                                                                                                        |
 | `--mode`              | Tryb synchronizacji: `bidirectional` (domyślny), `pull-only` (tylko pobieranie, ignorowanie lokalnych zmian) lub `mirror-remote` (tylko pobieranie, cofanie lokalnych zmian)                                    |
 | `--conflict-strategy` | `merge` lub `conflict`                                                                                                                                                                                         |
 | `--file-types`        | Typy załączników do synchronizacji: `image`, `audio`, `video`, `pdf`, `unsupported` (rozdzielone przecinkami, puste aby wyczyścić)                                                                              |
@@ -115,7 +115,7 @@ ob sync-config [--path <local-path>] [options]
 
 ### `ob sync-status`
 
-Wyświetla status synchronizacji i konfigurację skarbca.
+Wyświetla status synchronizacji i konfigurację sejfu.
 
 ```
 ob sync-status [--path <local-path>]
@@ -123,7 +123,7 @@ ob sync-status [--path <local-path>]
 
 ### `ob sync-unlink`
 
-Rozłącza skarbiec od synchronizacji i usuwa zapisane dane uwierzytelniające.
+Rozłącza sejf od synchronizacji i usuwa zapisane dane uwierzytelniające.
 
 ```
 ob sync-unlink [--path <local-path>]

@@ -1756,7 +1756,7 @@ translation=Kompilacje
 
 [heading.credits/Translators]
 original=Translators
-translation=Tłumacze
+translation=Interpretere
 
 [heading.credits/Documentation]
 original=Documentation
@@ -3332,7 +3332,7 @@ translation=Losowe notatki
 
 [heading.cli/Search]
 original=Search
-translation=Szukaj
+translation=Wyszukiwarka
 
 [heading.cli/Tags]
 original=Tags

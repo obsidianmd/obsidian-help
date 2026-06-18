@@ -19,7 +19,7 @@ Istnieje kilka sposobów na otwarcie Szybkiego przełącznika, gdy jest włączo
 4. Naciśnij `Enter`, aby otworzyć wybraną notatkę.
 
 > [!info] 
-> Funkcja autouzupełniania przełącza się na prostszy algorytm wyników, gdy skarbiec osiągnie 10 000 elementów, aby utrzymać optymalną wydajność aplikacji.
+> Funkcja autouzupełniania przełącza się na prostszy algorytm wyników, gdy sejf osiągnie 10 000 elementów, aby utrzymać optymalną wydajność aplikacji.
 ^search-autocomplete-large
 
 Jeśli tekst nie pasuje do żadnej notatki, możesz nacisnąć `Enter`, aby utworzyć notatkę o takiej nazwie. Nawet jeśli tekst pasuje do jednej lub więcej podobnych notatek, nadal możesz utworzyć notatkę o dokładnie takiej nazwie, naciskając `Shift+Enter`.

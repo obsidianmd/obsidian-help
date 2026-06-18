@@ -3,7 +3,7 @@ permalink: import/csv
 ---
 Obsidian umożliwia importowanie danych z plików CSV za pomocą oficjalnej [[Importer|wtyczki Importer]]. Jest to przydatne, gdy masz dane tabelaryczne przechowywane w aplikacjach takich jak Excel, Google Sheets, Numbers, Notion lub Airtable.
 
-Import CSV generuje pliki Markdown dla każdego wiersza oraz plik [[Wprowadzenie do Baz danych|Bazy danych]], który wyświetla wszystkie zaimportowane pliki jako tabelę.
+Import CSV generuje pliki Markdown dla każdego wiersza oraz plik [[Wprowadzenie do baz danych|bazy danych]], który wyświetla wszystkie zaimportowane pliki jako tabelę.
 
 Jeśli importujesz notatki z konkretnej aplikacji, warto najpierw przejrzeć listę aplikacji obsługiwanych przez [[Importer|wtyczkę Importer]], aby sprawdzić, czy istnieje specjalny konwerter, który lepiej zachowa migrowane dane.
 
