@@ -48,7 +48,7 @@ When you report an issue, include the build version and the OS you're running it
 
 ## Switch back to public versions on desktop
 
-To switch back to using public versions (not early access) on desktop:
+To downgrade from an early access version to the latest public version on desktop:
 
 1. Disable early access versions.
    1. Open **[[Settings]]**.
@@ -63,7 +63,7 @@ To switch back to using public versions (not early access) on desktop:
 
 ## Switch back to public versions on mobile
 
-To switch back to using public versions (not early access) on mobile:
+To downgrade from an early access version to the latest public version on mobile:
 
 1. Back up your vault data
 2. Uninstall Obsidian
