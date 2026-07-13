@@ -29,7 +29,7 @@ Các nhà phát triển bán thời gian giúp xây dựng Obsidian.
 
 Người đóng góp cho quy trình và công cụ đánh giá plugin/chủ đề [Cộng đồng](https://community.obsidian.md/).
 
-- Fevol
+- Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>

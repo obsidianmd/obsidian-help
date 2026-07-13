@@ -27,7 +27,7 @@ Desarrolladores a tiempo parcial que ayudan a construir Obsidian.
 
 Colaboradores en el proceso y herramientas de revisión de complementos/temas de la [Comunidad](https://community.obsidian.md/).
 
-- Fevol
+- Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>

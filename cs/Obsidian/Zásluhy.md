@@ -27,7 +27,7 @@ Vývojáři na částečný úvazek, kteří pomáhají vytvářet Obsidian.
 
 Přispěvatelé do procesu a nástrojů pro recenzi [komunitních](https://community.obsidian.md/) pluginů/motivů.
 
-- Fevol
+- Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
