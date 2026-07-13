@@ -28,8 +28,8 @@ Deweloperzy pracujący w niepełnym wymiarze, którzy pomagają tworzyć Obsidia
 Współtwórcy procesu recenzji wtyczek/motywów [społeczności](https://community.obsidian.md/) oraz narzędzi.
 
 - Fevol
-- mnaoumov (Michael Naumov)
-- Saberzero1 (Emile Bangma)
+- mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
+- saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 
 ## Moderacja

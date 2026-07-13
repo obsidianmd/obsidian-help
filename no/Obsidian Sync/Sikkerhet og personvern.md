@@ -67,7 +67,7 @@ For å fortsette å bruke Obsidian Sync anbefaler vi å gjøre et fullstendig ny
 
 ### Hvor hoster dere serverne for Obsidian Sync?
 
-Våre datasentre, drevet av [DigitalOcean](https://www.digitalocean.com), tilbyr geo-regionale hostingalternativer for fjernhvelv på følgende steder:
+Obsidian Sync-servere hostes av [DigitalOcean](https://www.digitalocean.com) på følgende regionale steder:
 
 > [!abstract] Sync-regioner
 > **Automatisk**: Datasenteret ditt velges basert på din IP-plassering på tidspunktet du først konfigurerer det.

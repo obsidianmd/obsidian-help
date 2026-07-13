@@ -67,7 +67,7 @@ Az Obsidian Sync további használatához javasoljuk a teljes újrabeállítást
 
 ### Hol üzemeltetik az Obsidian Sync szervereit?
 
-Adatközpontjaink, amelyeket a [DigitalOcean](https://www.digitalocean.com) működtet, a következő helyszíneken kínálnak földrajzi régió szerinti távoli trezor tárhelyet:
+Az Obsidian Sync szervereit a [DigitalOcean](https://www.digitalocean.com) üzemelteti a következő regionális helyszíneken:
 
 > [!abstract] Sync régiók
 > **Automatikus**: Az adatközpont az Ön IP-címe alapján kerül kiválasztásra az első beállításkor.

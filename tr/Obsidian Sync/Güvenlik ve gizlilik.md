@@ -67,7 +67,7 @@ Obsidian Sync kullanmaya devam etmek için Sync sisteminize yeni cihazlar ekleye
 
 ### Obsidian Sync sunucularını nerede barındırıyorsunuz?
 
-[DigitalOcean](https://www.digitalocean.com) tarafından desteklenen veri merkezlerimiz, aşağıdaki konumlarda coğrafi bölgesel uzak kasa barındırma seçenekleri sunar:
+Obsidian Sync sunucuları, [DigitalOcean](https://www.digitalocean.com) tarafından aşağıdaki bölgesel konumlarda barındırılmaktadır:
 
 > [!abstract] Sync bölgeleri
 > **Otomatik**: Veri merkeziniz, ilk kurulum sırasında IP konumunuza göre seçilir.

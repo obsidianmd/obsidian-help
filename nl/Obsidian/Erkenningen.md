@@ -30,8 +30,8 @@ Deeltijdontwikkelaars die helpen Obsidian te bouwen.
 Bijdragers aan het [Community](https://community.obsidian.md/) plug-in/thema-reviewproces en -tools.
 
 - Fevol
-- mnaoumov (Michael Naumov)
-- Saberzero1 (Emile Bangma)
+- mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
+- saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 
 ## Moderatie

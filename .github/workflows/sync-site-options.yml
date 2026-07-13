@@ -17,7 +17,7 @@ jobs:
           node-version: '22'
 
       - name: Install ob CLI
-        run: npm install -g obsidian-headless
+        run: npm install -g obsidian-headless@0.0.12
 
       - name: Set up ob auth
         run: |

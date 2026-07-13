@@ -69,7 +69,7 @@ Per continuare a utilizzare Obsidian Sync, ti suggeriamo di eseguire una ri-conf
 
 ### Dove sono ospitati i server di Obsidian Sync?
 
-I nostri data center, alimentati da [DigitalOcean](https://www.digitalocean.com), offrono opzioni di hosting geo-regionale per i caveau remoti nelle seguenti posizioni:
+I server di Obsidian Sync sono ospitati da [DigitalOcean](https://www.digitalocean.com) nelle seguenti posizioni regionali:
 
 > [!abstract] Regioni Sync
 > **Automatica**: Il tuo data center viene scelto in base alla posizione del tuo IP al momento della prima configurazione.

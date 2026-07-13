@@ -67,7 +67,7 @@ Per continuar utilitzant Obsidian Sync, us suggerim fer una reconfiguració comp
 
 ### On allotgeu els servidors d'Obsidian Sync?
 
-Els nostres centres de dades, alimentats per [DigitalOcean](https://www.digitalocean.com), ofereixen opcions d'allotjament de cambres remotes georegionals a les següents ubicacions:
+Els servidors d'Obsidian Sync estan allotjats per [DigitalOcean](https://www.digitalocean.com) a les següents ubicacions regionals:
 
 > [!abstract] Regions de Sync
 > **Automàtic**: El vostre centre de dades es tria basant-se en la ubicació de la vostra IP, en el moment en què el configureu per primera vegada.

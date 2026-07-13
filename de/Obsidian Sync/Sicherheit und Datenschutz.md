@@ -67,7 +67,7 @@ Um Obsidian Sync weiter zu nutzen, empfehlen wir eine vollständige Neueinrichtu
 
 ### Wo werden die Server für Obsidian Sync gehostet?
 
-Unsere Rechenzentren, betrieben von [DigitalOcean](https://www.digitalocean.com), bieten geo-regionale Remote-Tresor-Hosting-Optionen an folgenden Standorten:
+Obsidian Sync-Server werden von [DigitalOcean](https://www.digitalocean.com) an folgenden regionalen Standorten gehostet:
 
 > [!abstract] Sync-Regionen
 > **Automatisch**: Dein Rechenzentrum wird basierend auf deinem IP-Standort zum Zeitpunkt der ersten Einrichtung ausgewählt.

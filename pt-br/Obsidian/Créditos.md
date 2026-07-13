@@ -28,8 +28,8 @@ Desenvolvedores de meio período que ajudam a construir o Obsidian.
 Contribuidores para o processo e ferramentas de revisão de plugins/temas da [Comunidade](https://community.obsidian.md/).
 
 - Fevol
-- mnaoumov (Michael Naumov)
-- Saberzero1 (Emile Bangma)
+- mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
+- saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 
 ## Moderação

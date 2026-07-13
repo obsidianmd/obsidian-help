@@ -67,7 +67,7 @@ Pro pokračování v používání Obsidian Sync doporučujeme provést kompletn
 
 ### Kde hostujete servery pro Obsidian Sync?
 
-Naše datová centra, poháněná [DigitalOcean](https://www.digitalocean.com), poskytují možnosti geo-regionálního hostingu vzdáleného trezoru v následujících lokalitách:
+Servery Obsidian Sync jsou hostovány u [DigitalOcean](https://www.digitalocean.com) v následujících regionálních lokalitách:
 
 > [!abstract] Oblasti Sync
 > **Automaticky**: Vaše datové centrum je vybráno na základě vaší IP lokace v okamžiku, kdy jej poprvé nastavíte.

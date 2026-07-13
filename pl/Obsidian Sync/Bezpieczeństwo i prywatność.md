@@ -67,7 +67,7 @@ Aby kontynuować korzystanie z Obsidian Sync, zalecamy przeprowadzenie pełnej p
 
 ### Gdzie hostujecie serwery Obsidian Sync?
 
-Nasze centra danych, obsługiwane przez [DigitalOcean](https://www.digitalocean.com), oferują opcje hostingu zdalnych sejfów w regionach geograficznych w następujących lokalizacjach:
+Serwery Obsidian Sync są hostowane przez [DigitalOcean](https://www.digitalocean.com) w następujących lokalizacjach regionalnych:
 
 > [!abstract] Regiony Sync
 > **Automatycznie**: Centrum danych jest wybierane na podstawie lokalizacji Twojego adresu IP w momencie pierwszej konfiguracji.
