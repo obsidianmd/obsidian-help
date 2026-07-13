@@ -38,6 +38,9 @@ Wyzwalacze szablonu pozwalają automatycznie wybierać szablon na podstawie adre
 
 Pierwsze dopasowanie na liście szablonów określa, który szablon zostanie użyty. Możesz przeciągać szablony w górę i w dół w ustawieniach Web Clipper, aby zmienić kolejność dopasowywania szablonów.
 
+> [!tip]- Ustaw szablon domyślny
+> Jeśli strona nie pasuje do żadnej reguły wyzwalania, Web Clipper używa pierwszego szablonu na liście. Umieść szablon, który chcesz stosować jako domyślny, na górze listy, aby był używany dla stron bez konkretnego dopasowania.
+
 #### Proste dopasowywanie URL
 
 Proste dopasowywanie wyzwala szablon, jeśli adres URL bieżącej strony *zaczyna się od* podanego wzorca. Na przykład:

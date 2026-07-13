@@ -38,6 +38,9 @@ Spouštěče šablon umožňují automaticky vybrat šablonu na základě URL ak
 
 První shoda v seznamu šablon určuje, která šablona bude použita. V nastavení Web Clipper můžete šablony přetahovat nahoru a dolů a měnit tak pořadí, ve kterém se šablony porovnávají.
 
+> [!tip]- Nastavení záložní šablony
+> Pokud stránka neodpovídá žádnému pravidlu spouštěče, Web Clipper použije první šablonu v seznamu. Šablonu, kterou chcete používat jako záložní, ponechte na začátku seznamu, aby byla použita pro stránky bez konkrétní shody.
+
 #### Jednoduché porovnávání URL
 
 Jednoduché porovnávání spustí šablonu, pokud URL aktuální stránky *začíná* daným vzorem. Například:

@@ -38,6 +38,9 @@ Os acionadores de modelo permitem selecionar automaticamente um modelo com base 
 
 A primeira correspondência na sua lista de modelos determina qual modelo é usado. Você pode arrastar modelos para cima e para baixo nas configurações do Web Clipper para alterar a ordem em que os modelos são correspondidos.
 
+> [!tip]- Definir um modelo padrão
+> Se uma página não corresponder a nenhuma regra de acionamento, o Web Clipper usa o primeiro modelo da sua lista. Mantenha o modelo que deseja como padrão no topo da lista para garantir que ele seja usado em páginas sem uma correspondência específica.
+
 #### Correspondência simples de URL
 
 A correspondência simples aciona um modelo se a URL da página atual *começar com* o padrão fornecido. Por exemplo:

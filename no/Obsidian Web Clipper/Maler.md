@@ -38,6 +38,9 @@ Malutløsere lar deg automatisk velge en mal basert på gjeldende side-URL eller
 
 Det første treffet i mallisten din bestemmer hvilken mal som brukes. Du kan dra maler opp og ned i Web Clipper-innstillinger for å endre rekkefølgen malene matches i.
 
+> [!tip]- Angi en reservemal
+> Hvis en side ikke matcher noen utløserregel, bruker Web Clipper den første malen i listen din. Hold malen du ønsker som reserve øverst i listen for å sikre at den brukes for sider uten et spesifikt treff.
+
 #### Enkel URL-matching
 
 Enkel matching utløser en mal hvis gjeldende side-URL *starter med* det gitte mønsteret. For eksempel:

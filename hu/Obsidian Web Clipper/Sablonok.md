@@ -38,6 +38,9 @@ A sablon-triggerek lehetővé teszik, hogy az aktuális oldal URL-je vagy [schem
 
 A sablonlistában az első egyezés határozza meg, melyik sablon kerül felhasználásra. A Web Clipper beállításaiban a sablonokat fel-le húzva módosíthatod az egyeztetés sorrendjét.
 
+> [!tip]- Tartalék sablon beállítása
+> Ha egy oldal egyetlen trigger szabálynak sem felel meg, a Web Clipper a listában szereplő első sablont használja. Tartsd a tartaléknak szánt sablont a lista tetején, hogy biztosan az kerüljön felhasználásra az egyedi egyezés nélküli oldalaknál.
+
 #### Egyszerű URL-egyeztetés
 
 Az egyszerű egyeztetés akkor aktiválja a sablont, ha az aktuális oldal URL-je *a megadott mintával kezdődik*. Például:

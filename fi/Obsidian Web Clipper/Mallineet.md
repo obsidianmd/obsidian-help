@@ -38,6 +38,9 @@ Mallin laukaisimet mahdollistavat mallin automaattisen valinnan nykyisen sivun U
 
 Ensimmäinen vastaavuus malliluettelossasi määrittää käytettävän mallin. Voit raahata malleja ylös ja alas Web Clipperin asetuksissa muuttaaksesi mallien täsmäytysjärjestystä.
 
+> [!tip]- Aseta varamalli
+> Jos sivu ei vastaa mitään laukaisusääntöä, Web Clipper käyttää luettelon ensimmäistä mallia. Pidä haluamasi varamalli luettelon yläosassa, jotta se käytetään sivuille, joille ei ole määritetty erityistä vastaavuutta.
+
 #### Yksinkertainen URL-täsmäytys
 
 Yksinkertainen täsmäytys laukaisee mallin, jos nykyisen sivun URL-osoite *alkaa* annetulla kaavalla. Esimerkiksi:
