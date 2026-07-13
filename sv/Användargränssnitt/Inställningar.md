@@ -187,6 +187,8 @@ Var nya anteckningar hamnar. Alternativen inkluderar:
 - **Samma mapp som filen ligger i** — Anteckningar skapas i samma mapp som den för närvarande aktiva anteckningen.
 - **I mappen som visas nedan** — Anteckningar skapas i en specifik mapp du väljer.
 
+Den här inställningen gäller inte när en [[Interna länkar|intern länk]] inkluderar en mappsökväg. Till exempel skapar `[[Projekt/Tre rörelselagar]]` anteckningen i mappen `Projekt` relativt till valvroten.
+
 ### Stället där nya bilagor hamnar
 
 Var nyligen tillagda [[Bilagor|bilagor]] placeras. Alternativen inkluderar:

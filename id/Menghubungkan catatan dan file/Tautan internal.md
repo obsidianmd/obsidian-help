@@ -24,6 +24,10 @@ Obsidian mendukung format tautan berikut:
 
 Contoh di atas adalah setara, dan keduanya tampil dengan cara yang sama di editor serta menaut ke catatan yang sama.
 
+Untuk menautkan ke catatan dalam folder, sertakan jalur folder sebelum nama catatan. Jalur folder dimulai dari root brankas dan menggunakan garis miring ke depan (`/`), bahkan di Windows: `[[Projects/Three laws of motion]]` atau `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Jika tautan mengarah ke catatan yang belum ada, Obsidian akan membuat catatan di jalur folder tersebut alih-alih menggunakan [[Pengaturan#Lokasi bawaan untuk catatan baru|lokasi bawaan untuk catatan baru]] Anda.
+
 > [!note] Catatan
 > Saat menggunakan format Markdown, pastikan untuk [mengenkode URL](https://en.wikipedia.org/wiki/Percent-encoding) tujuan tautan. Misalnya, spasi menjadi `%20`.
 

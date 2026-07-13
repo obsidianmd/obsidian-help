@@ -187,6 +187,8 @@ Speichert neue Notizen an diesem Ort. Die Optionen umfassen:
 - **Aktueller Ordner (bei geöffneter Notiz)** — Notizen werden im selben Ordner wie die aktuell aktive Notiz erstellt.
 - **Eigenen Ordner unten festlegen** — Notizen werden in einem bestimmten Ordner erstellt, den du auswählst.
 
+Diese Einstellung gilt nicht, wenn ein [[Interne Links|interner Link]] einen Ordnerpfad enthält. Zum Beispiel erstellt `[[Projekte/Drei Bewegungsgesetze]]` die Notiz im Ordner `Projekte` relativ zum Vault-Stammverzeichnis.
+
 ### Standardordner für neue Anhänge
 
 Wo neu hinzugefügte [[Anhänge]] abgelegt werden. Die Optionen umfassen:

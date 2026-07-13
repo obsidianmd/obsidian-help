@@ -187,6 +187,8 @@ Gdzie umieszczać nowo utworzone notatki. Opcje obejmują:
 - **W tym samym folderze, w którym znajduje się aktywny plik** — Notatki są tworzone w tym samym folderze co aktywna notatka.
 - **W folderze określonym poniżej** — Notatki są tworzone w wybranym folderze.
 
+To ustawienie nie dotyczy sytuacji, gdy [[Łącza wewnętrzne|łącze wewnętrzne]] zawiera ścieżkę folderu. Na przykład utworzenie `[[Projekty/Trzy prawa ruchu]]` tworzy notatkę w folderze `Projekty` względem katalogu głównego sejfu.
+
 ### Domyślna lokalizacja załączników
 
 Gdzie umieszczane są nowo dodane [[Załączniki|załączniki]]. Opcje obejmują:

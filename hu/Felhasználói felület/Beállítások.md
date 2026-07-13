@@ -187,6 +187,8 @@ Az új jegyzetek létrehozásának helye. A lehetőségek:
 - **Ugyanabban a mappában, ahol a fájl található** — A jegyzetek az aktuálisan aktív jegyzettel azonos mappában jönnek létre.
 - **A lent megadott mappában** — A jegyzetek egy Ön által kiválasztott megadott mappában jönnek létre.
 
+Ez a beállítás nem érvényes, ha egy [[Belső hivatkozások|belső hivatkozás]] mappa útvonalat tartalmaz. Például a `[[Projektek/A mozgás három törvénye]]` létrehozása a jegyzetet a széf gyökeréhez képest a `Projektek` mappában hozza létre.
+
 ### Új melléklet alapértelmezett helye
 
 Az újonnan hozzáadott [[Csatolmányok|csatolmányok]] elhelyezésének helye. A lehetőségek:

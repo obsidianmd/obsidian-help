@@ -187,6 +187,8 @@ Specifikujte kde se mají vytvářet nové poznámky. Možnosti zahrnují:
 - **Stejná složka ve které je aktuální soubor** — Poznámky se vytvářejí ve stejné složce jako aktuálně aktivní poznámka.
 - **Ve složce specifikované níže** — Poznámky se vytvářejí v konkrétní složce, kterou zvolíte.
 
+Toto nastavení se nepoužije, pokud [[Interní odkazy|interní odkaz]] obsahuje cestu ke složce. Například vytvořením `[[Projekty/Tři zákony pohybu]]` se poznámka vytvoří ve složce `Projekty` relativně ke kořenu trezoru.
+
 ### Výchozí umístění pro nové přílohy
 
 Kam se umisťují nově přidané [[Přílohy|přílohy]]. Možnosti zahrnují:

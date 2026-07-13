@@ -187,6 +187,8 @@ Onde colocar notas recém-criadas. As opções incluem:
 - **Na mesma pasta do ficheiro atual** — As notas são criadas na mesma pasta da nota atualmente ativa.
 - **Na pasta especificada abaixo** — As notas são criadas numa pasta específica que escolher.
 
+Esta definição não se aplica quando uma [[Ligações internas|ligação interna]] inclui um caminho de pasta. Por exemplo, criar `[[Projetos/Três leis do movimento]]` cria a nota na pasta `Projetos` relativa à raiz do cofre.
+
 ### Localização padrão para novos anexos
 
 Onde os [[Anexos|anexos]] recém-adicionados são colocados. As opções incluem:

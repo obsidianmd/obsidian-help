@@ -2,7 +2,7 @@
 permalink: links
 cssclasses:
   - soft-embed
-description: Apprenez à créer des liens vers des notes, des pièces jointes et d'autres fichiers depuis vos notes, à l'aide de liens internes.
+description: 'Apprenez à créer des liens vers des notes, des pièces jointes et d''autres fichiers depuis vos notes, à l''aide de liens internes.'
 publish: true
 mobile: true
 aliases:
@@ -23,6 +23,10 @@ Obsidian prend en charge les formats de liens suivants :
 - Markdown : `[Three laws of motion](Three%20laws%20of%20motion)` ou `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
 Les exemples ci-dessus sont équivalents ; ils s'affichent de la même manière dans l'éditeur et pointent vers la même note.
+
+Pour lier une note dans un dossier, incluez le chemin du dossier avant le nom de la note. Les chemins de dossier commencent à la racine du coffre et utilisent des barres obliques (`/`), même sous Windows : `[[Projects/Three laws of motion]]` ou `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Si le lien pointe vers une note qui n'existe pas encore, Obsidian crée la note à ce chemin de dossier au lieu d'utiliser votre [[Paramètres#Emplacement par défaut de la nouvelle note|emplacement par défaut pour les nouvelles notes]].
 
 > [!note] Note
 > Lorsque vous utilisez le format Markdown, assurez-vous d'[encoder l'URL](https://fr.wikipedia.org/wiki/Encodage-pourcent) de la destination du lien. Par exemple, les espaces deviennent `%20`.

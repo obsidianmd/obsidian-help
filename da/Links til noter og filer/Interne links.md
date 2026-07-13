@@ -11,7 +11,6 @@ permalink: links
 publish: true
 mobile: true
 ---
-
 Her kan du lære, hvordan du kan linke til noter, vedhæftninger, og andre filer i dine noter ved at benytte _interne links_. Ved at linke noter kan du danne et netværk af viden. ^b15695
 
 Obsidian kan automatisk opdatere interne links i din boks, når du omdøber en fil. Hvis du vil spørges hver gang, kan du deaktivere automatisk linkning under:
@@ -22,10 +21,14 @@ Obsidian kan automatisk opdatere interne links i din boks, når du omdøber en f
 
 Obsidian understøtter følgende link formater:
 
--   Wikilink: `[[De tre bevægelseslove]]`
--   Markdown: `[De tre bevægelseslove](De%20%tre%20%bevægelseslove.md)`
+-   Wikilink: `[[De tre bevægelseslove]]` eller `[[De tre bevægelseslove.md]]`
+-   Markdown: `[De tre bevægelseslove](De%20tre%20bevægelseslove)` eller `[De tre bevægelseslove](De%20tre%20bevægelseslove.md)`
 
 De to måder kan anvendes - De vil se ud på samme måde i visningstilstand og linke til den samme note.
+
+For at linke til en note i en mappe skal du inkludere mappestien før notens navn. Mappestier starter ved boksens rod og bruger skråstreger (`/`), selv på Windows: `[[Projekter/De tre bevægelseslove]]` eller `[De tre bevægelseslove](Projekter/De%20tre%20bevægelseslove.md)`.
+
+Hvis linket peger på en note, der endnu ikke eksisterer, opretter Obsidian noten på den angivne mappesti i stedet for at bruge din [[Indstillinger#Default location for new notes|standardplacering for nye noter]].
 
 > [!note]
 > Når du benytter Markdown formatet, så skal du sikre dig at [URL kode](https://en.wikipedia.org/wiki/Percent-encoding) linket til destinationen, så fx. mellemrums tegn erstattes med `%20`.
@@ -58,6 +61,9 @@ Du kan linke til alle [[Accepterede filformater|accepterede filformater]]; dog s
 
 > [!tip] Hvis du præfikser et internt link med et udråbstegn (!) så indlejrer du det linkede indhold. Se siden "[[Indlejr filer]]" for flere detaljer.
 
+> [!info] Ekskluderede filer
+> Filer, der matcher dine [[Indstillinger#Excluded files|Ekskluderede filer]]-mønstre, nedprioriteres i linkforslag, når du opretter interne links.
+
 ## Link til en overskrift i en note
 
 Du kan linke til en specifik overskrift i en note, hvilket kaldes et _anker link_.
@@ -66,7 +72,7 @@ Du kan linke til en specifik overskrift i en note, hvilket kaldes et _anker link
 
 For at oprette et link til en overskrift i den samme note, så skriv `[[#` for at se en liste af overskrifter i noten.
 
-Fx. `[[#Forhåndsvis en linket fil]]` vil oprette et link til [[#Forhåndsvis en linket fil]].
+Fx. `[[#Forhåndsvis en linket fil]]` vil oprette et link til [[#Forhåndsvis en linket fil]].
 
 **Opret link til en overskrift i en anden note***
 
@@ -78,7 +84,7 @@ Fx. `[[Obsidian#Links er førsteklasses borgere]]` vil oprette et link til [[Obs
 
 Du kan tilføje hashtags for hver underoevrskift du vil linke til.
 
-Fx. `[[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]]` vil oprette et link til [[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]].
+Fx. `[[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]]` vil oprette et link til [[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]].
 
 **Søg efter overskrifter i hele din boks**
 
@@ -186,4 +192,4 @@ Hvis du fx. ofte refererer til de `[[De tre bevægelseslove]]` som `[[3 love]]`,
 > [!note]
 > For at kunne forhåndsvise linkede filer skal du først aktivere: [[Forhåndsvisning af note]].
 
-For at forhåndsvise en linket fil skal du trykke `Ctrl` (eller `Cmd` på macOS) mens du fører musemarkøren over linket. Et popup vindue indeholdende forhåndsvisningen bliver vist ved siden af musemarkøren.
+For at forhåndsvise en linket fil skal du holde musen over et internt link. I redigeringstilstand skal du trykke `Ctrl` (eller `Cmd` på macOS) mens du fører musemarkøren over linket. Et popup vindue indeholdende forhåndsvisningen bliver vist ved siden af musemarkøren.

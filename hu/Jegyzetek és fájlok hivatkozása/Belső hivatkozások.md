@@ -21,6 +21,10 @@ Az Obsidian a következő hivatkozásformátumokat támogatja:
 
 A fenti példák egyenértékűek, és ugyanúgy jelennek meg a szerkesztőben, valamint ugyanarra a jegyzetre hivatkoznak.
 
+Ha egy mappában lévő jegyzetre szeretne hivatkozni, adja meg a mappa elérési útvonalát a jegyzet neve előtt. A mappa útvonalak a széf gyökerétől indulnak, és perjelet (`/`) használnak, még Windows rendszeren is: `[[Projects/Three laws of motion]]` vagy `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Ha a hivatkozás egy még nem létező jegyzetre mutat, az Obsidian a megadott mappa útvonalon hozza létre a jegyzetet az [[Beállítások#Új jegyzetek alapértelmezett helye|új jegyzetek alapértelmezett helye]] helyett.
+
 > [!note] Megjegyzés
 > A Markdown formátum használatakor ügyeljen arra, hogy a hivatkozás célját [URL-kódolja](https://en.wikipedia.org/wiki/Percent-encoding). Például a szóközök `%20` formátumúvá válnak.
 

@@ -189,6 +189,8 @@ Indica dove inserire le note appena create. Le opzioni includono:
 - **Stessa cartella del file** — Le note vengono create nella stessa cartella della nota attualmente attiva.
 - **Cartella personalizzata** — Le note vengono create in una cartella specifica a tua scelta.
 
+Questa impostazione non si applica quando un [[Collegamenti interni|collegamento interno]] include un percorso di cartella. Ad esempio, creando `[[Progetti/Tre leggi del moto]]` la nota viene creata nella cartella `Progetti` relativa alla radice del vault.
+
 ### Posizione predefinita dei nuovi allegati
 
 Dove vengono inseriti i nuovi [[Allegati|allegati]]. Le opzioni includono:

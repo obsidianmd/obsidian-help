@@ -187,6 +187,8 @@ Determine onde novas notas serão criadas. As opções incluem:
 - **Na mesma pasta que o arquivo atual** — As notas são criadas na mesma pasta da nota atualmente ativa.
 - **Na pasta especificada abaixo** — As notas são criadas em uma pasta específica que você escolher.
 
+Esta configuração não se aplica quando um [[Links internos|link interno]] inclui um caminho de pasta. Por exemplo, criar `[[Projetos/Três leis do movimento]]` cria a nota na pasta `Projetos` relativa à raiz do cofre.
+
 ### Pasta padrão para salvar novos arquivos
 
 Onde novos [[Anexos|anexos]] adicionados são colocados. As opções incluem:

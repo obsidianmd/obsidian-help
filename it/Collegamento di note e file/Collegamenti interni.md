@@ -23,6 +23,10 @@ Obsidian supporta i seguenti formati di collegamento:
 
 Gli esempi precedenti sono equivalenti, appaiono nello stesso modo nell'editor e collegano alla stessa nota.
 
+Per collegare una nota in una cartella, includi il percorso della cartella prima del nome della nota. I percorsi delle cartelle partono dalla radice del vault e utilizzano le barre oblique (`/`), anche su Windows: `[[Projects/Three laws of motion]]` o `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Se il collegamento punta a una nota che non esiste ancora, Obsidian crea la nota nel percorso della cartella specificato invece di utilizzare la [[Impostazioni#Posizione predefinita delle note|posizione predefinita per le nuove note]].
+
 > [!note] Nota
 > Quando si utilizza il formato Markdown, assicurati di [codificare l'URL](https://en.wikipedia.org/wiki/Percent-encoding) della destinazione del collegamento. Ad esempio, gli spazi vuoti diventano `%20`.
 

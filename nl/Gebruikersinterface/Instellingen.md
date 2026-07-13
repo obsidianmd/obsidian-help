@@ -187,6 +187,8 @@ Locatie waar nieuwe notities moeten bewaard. Opties zijn onder meer:
 - **Dezelfde map waarin het bestand zich bevindt** — Notities worden aangemaakt in dezelfde map als de huidige actieve notitie.
 - **In de onderstaande map** — Notities worden aangemaakt in een specifieke map die je kiest.
 
+Deze instelling is niet van toepassing wanneer een [[Interne koppelingen|interne koppeling]] een mappad bevat. Bijvoorbeeld, het aanmaken van `[[Projecten/Drie wetten van beweging]]` maakt de notitie aan in de map `Projecten` relatief ten opzichte van de kluishoofdmap.
+
 ### Standaard locatie voor nieuwe bijlagen
 
 Waar nieuw toegevoegde [[Bijlagen|bijlagen]] worden geplaatst. Opties zijn onder meer:

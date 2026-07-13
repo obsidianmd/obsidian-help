@@ -187,6 +187,8 @@ On es col·loquen les notes acabades de crear. Les opcions inclouen:
 - **Mateixa carpeta on es troba el fitxer** — Les notes es creen a la mateixa carpeta que la nota activa actual.
 - **Dins la carpeta especificada a continuació** — Les notes es creen en una carpeta específica que tries.
 
+Aquesta configuració no s'aplica quan un [[Enllaços interns|enllaç intern]] inclou un camí de carpeta. Per exemple, crear `[[Projectes/Tres lleis del moviment]]` crea la nota a la carpeta `Projectes` relativa a l'arrel de la cambra forta.
+
 ### Ubicació predeterminada per a nous fitxers adjunts
 
 On es col·loquen els [[Fitxers adjunts|fitxers adjunts]] acabats d'afegir. Les opcions inclouen:

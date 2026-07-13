@@ -21,6 +21,10 @@ Obsidian obsługuje następujące formaty łączy:
 
 Powyższe przykłady są równoważne — wyglądają tak samo w edytorze i prowadzą do tej samej notatki.
 
+Aby utworzyć łącze do notatki w folderze, dodaj ścieżkę folderu przed nazwą notatki. Ścieżki folderów zaczynają się od katalogu głównego skarbca i używają ukośników (`/`), nawet w systemie Windows: `[[Projects/Three laws of motion]]` lub `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Jeśli łącze wskazuje na notatkę, która jeszcze nie istnieje, Obsidian utworzy notatkę w podanej ścieżce folderu zamiast używać [[Ustawienia#Domyślna lokalizacja nowej notatki|domyślnej lokalizacji nowej notatki]].
+
 > [!note] Uwaga
 > Korzystając z formatu Markdown, upewnij się, że [kodujesz URL](https://en.wikipedia.org/wiki/Percent-encoding) w miejscu docelowym łącza. Na przykład spacje stają się `%20`.
 

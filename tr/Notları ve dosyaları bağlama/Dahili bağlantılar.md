@@ -21,6 +21,10 @@ Obsidian aşağıdaki bağlantı biçimlerini destekler:
 
 Yukarıdaki örnekler eşdeğerdir; düzenleyicide aynı şekilde görünürler ve aynı nota bağlantı verirler.
 
+Bir klasördeki bir nota bağlantı vermek için, not adından önce klasör yolunu ekleyin. Klasör yolları kasa kökünden başlar ve Windows'ta bile eğik çizgi (`/`) kullanır: `[[Projects/Three laws of motion]]` veya `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Bağlantı henüz var olmayan bir notu işaret ediyorsa, Obsidian notu [[Ayarlar#Yeni notlar için varsayılan yer|yeni notlar için varsayılan konumunuzu]] kullanmak yerine o klasör yolunda oluşturur.
+
 > [!note] Not
 > Markdown biçimini kullanırken, bağlantı hedefini [URL kodlaması](https://en.wikipedia.org/wiki/Percent-encoding) ile kodladığınızdan emin olun. Örneğin, boşluklar `%20` olur.
 

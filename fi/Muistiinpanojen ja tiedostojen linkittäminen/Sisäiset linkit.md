@@ -21,6 +21,10 @@ Obsidian tukee seuraavia linkkimuotoja:
 
 Yllä olevat esimerkit ovat samanarvoisia, ja ne näyttävät samalta muokkaimessa ja linkittävät samaan muistiinpanoon.
 
+Jos haluat linkittää kansiossa olevaan muistiinpanoon, lisää kansion polku ennen muistiinpanon nimeä. Kansiopolut alkavat holvin juuresta ja käyttävät kauttaviivoja (`/`), myös Windowsissa: `[[Projects/Three laws of motion]]` tai `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Jos linkki osoittaa muistiinpanoon, jota ei ole vielä olemassa, Obsidian luo muistiinpanon kyseiseen kansiopolkuun [[Asetukset#Uuden muistiinpanon oletussijainti|uusien muistiinpanojen oletussijainnin]] sijaan.
+
 > [!note] Huom
 > Kun käytät Markdown-muotoa, muista [URL-koodata](https://en.wikipedia.org/wiki/Percent-encoding) linkin kohde. Esimerkiksi välilyönneistä tulee `%20`.
 

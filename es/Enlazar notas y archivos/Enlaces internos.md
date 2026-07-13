@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Aprende cómo enlazar a notas, adjuntos y otros archivos desde tus notas, usando enlaces internos.
+description: 'Aprende cómo enlazar a notas, adjuntos y otros archivos desde tus notas, usando enlaces internos.'
 aliases:
   - How to/Enlace a bloques
   - How to/Enlace interno
@@ -23,6 +23,10 @@ Obsidian admite los siguientes formatos de enlace:
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` o `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
 Los ejemplos anteriores son equivalentes, y se muestran de la misma manera en el editor y enlazan a la misma nota.
+
+Para enlazar a una nota en una carpeta, incluye la ruta de la carpeta antes del nombre de la nota. Las rutas de carpeta comienzan en la raíz de la bóveda y usan barras diagonales (`/`), incluso en Windows: `[[Projects/Three laws of motion]]` o `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Si el enlace apunta a una nota que aún no existe, Obsidian creará la nota en esa ruta de carpeta en lugar de usar tu [[Configuración#Ubicación por defecto para nuevas notas|ubicación por defecto para nuevas notas]].
 
 > [!note] Nota
 > Al usar el formato Markdown, asegúrate de [codificar la URL](https://en.wikipedia.org/wiki/Percent-encoding) del destino del enlace. Por ejemplo, los espacios en blanco se convierten en `%20`.

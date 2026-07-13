@@ -190,6 +190,8 @@ Où les notes nouvellement créées sont placées. Les options incluent :
 - **Même dossier que le fichier actuel** — Les notes sont créées dans le même dossier que la note actuellement active.
 - **Dans le dossier spécifié ci-dessous** — Les notes sont créées dans un dossier spécifique que vous choisissez.
 
+Ce paramètre ne s'applique pas lorsqu'un [[Liens internes|lien interne]] inclut un chemin de dossier. Par exemple, créer `[[Projets/Trois lois du mouvement]]` crée la note dans le dossier `Projets` relatif à la racine du coffre.
+
 ### Emplacement par défaut pour les nouvelles pièces jointes
 
 Où les [[Pièces jointes|pièces jointes]] nouvellement ajoutées sont placées. Les options incluent :

@@ -189,6 +189,8 @@ Dónde se ubican los archivos nuevos. Las opciones incluyen:
 - **Misma carpeta donde está el archivo** — Las notas se crean en la misma carpeta que la nota activa actualmente.
 - **En la carpeta especificada abajo** — Las notas se crean en una carpeta específica que elijas.
 
+Este ajuste no se aplica cuando un [[Enlaces internos|enlace interno]] incluye una ruta de carpeta. Por ejemplo, al crear `[[Proyectos/Tres leyes del movimiento]]` se crea la nota en la carpeta `Proyectos` relativa a la raíz de la bóveda.
+
 ### Ubicación predeterminada para los archivos adjuntos nuevos
 
 Dónde se colocan los [[Archivos adjuntos|adjuntos]] recién añadidos. Las opciones incluyen:

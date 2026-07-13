@@ -21,6 +21,10 @@ Obsidian podporuje nasledujúce formáty odkazov:
 
 Uvedené príklady sú ekvivalentné a v editore sa zobrazujú rovnako a odkazujú na rovnakú poznámku.
 
+Pre odkaz na poznámku v priečinku uveďte cestu k priečinku pred názvom poznámky. Cesty k priečinkom začínajú v koreňovom adresári trezora a používajú lomky (`/`), aj v systéme Windows: `[[Projects/Three laws of motion]]` alebo `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Ak odkaz smeruje na poznámku, ktorá ešte neexistuje, Obsidian vytvorí poznámku na danej ceste priečinka namiesto použitia vášho [[Nastavenia#Predvolené umiestnenie novej poznámky|predvoleného umiestnenia pre nové poznámky]].
+
 > [!note] Poznámka
 > Pri použití formátu Markdown sa uistite, že cieľ odkazu je [URL kódovaný](https://en.wikipedia.org/wiki/Percent-encoding). Napríklad medzery sa zmenia na `%20`.
 

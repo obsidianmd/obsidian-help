@@ -187,6 +187,8 @@ Hvor nye notater plasseres. Alternativene inkluderer:
 - **Samme mappe som filen er i** — Notater opprettes i samme mappe som det aktive notatet.
 - **Egendefinert mappe (spesifisert nedenfor)** — Notater opprettes i en bestemt mappe du velger.
 
+Denne innstillingen gjelder ikke når en [[Interne lenker|intern lenke]] inkluderer en mappesti. For eksempel oppretter `[[Prosjekter/Tre lover om bevegelse]]` notatet i `Prosjekter`-mappen relativt til hvelvroten.
+
 ### Standard plassering for nye vedlegg
 
 Hvor nye [[Vedlegg|vedlegg]] plasseres. Alternativene inkluderer:

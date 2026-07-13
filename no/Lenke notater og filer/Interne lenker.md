@@ -21,6 +21,10 @@ Obsidian støtter følgende lenkeformater:
 
 Eksemplene ovenfor er likeverdige, og de vises på samme måte i redigeringsprogrammet og lenker til det samme notatet.
 
+For å lenke til et notat i en mappe, inkluder mappestien før notatnavnet. Mappestier starter ved hvelvroten og bruker skråstreker (`/`), selv på Windows: `[[Projects/Three laws of motion]]` eller `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Hvis lenken peker til et notat som ikke finnes ennå, oppretter Obsidian notatet på den mappestien i stedet for å bruke din [[Innstillinger#Standard plassering av nytt notat|standard plassering av nytt notat]].
+
 > [!note] Merknad
 > Når du bruker Markdown-formatet, sørg for å [URL-kode](https://en.wikipedia.org/wiki/Percent-encoding) lenkedestinasjonen. For eksempel blir mellomrom til `%20`.
 

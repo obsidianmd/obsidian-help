@@ -187,6 +187,8 @@ Kde sa umiestnia novo vytvorené poznámky. Možnosti zahŕňajú:
 - **Rovnaký priečinok v akom je aktuálny súbor** — Poznámky sa vytvárajú v rovnakom priečinku ako aktuálne aktívna poznámka.
 - **V priečinku uvedenom nižšie** — Poznámky sa vytvárajú v konkrétnom priečinku, ktorý si vyberiete.
 
+Toto nastavenie sa neuplatňuje, keď [[Interné odkazy|interný odkaz]] obsahuje cestu k priečinku. Napríklad vytvorenie `[[Projekty/Tri zákony pohybu]]` vytvorí poznámku v priečinku `Projekty` relatívne ku koreňu trezoru.
+
 ### Predvolené umiestnenie pre nové prílohy
 
 Kde sa umiestnia novo pridané [[Prílohy|prílohy]]. Možnosti zahŕňajú:

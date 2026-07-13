@@ -187,6 +187,8 @@ Yeni oluşturulan notların yerleştirileceği konum. Seçenekler:
 - **Dosyayla aynı klasör** — Notlar o anda etkin olan notla aynı klasörde oluşturulur.
 - **Aşağıda belirtilen klasöre** — Notlar seçtiğiniz belirli bir klasörde oluşturulur.
 
+Bu ayar, bir [[Dahili bağlantılar|dahili bağlantı]] klasör yolu içerdiğinde geçerli değildir. Örneğin, `[[Projeler/Üç hareket yasası]]` oluşturmak, notu kasa köküne göre `Projeler` klasöründe oluşturur.
+
 ### Yeni eklentiler için varsayılan klasör
 
 Yeni eklenen [[Ekler|eklerin]] yerleştirileceği konum. Seçenekler:

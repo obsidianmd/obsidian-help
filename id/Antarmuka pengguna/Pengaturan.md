@@ -189,6 +189,8 @@ Di mana menaruh setiap catatan yang baru dibuat. Opsi meliputi:
 - **Satu folder dengan berkas sekarang** — Catatan dibuat di folder yang sama dengan catatan yang sedang aktif.
 - **Dalam folder yang dikhususkan ini** — Catatan dibuat di folder spesifik yang Anda pilih.
 
+Pengaturan ini tidak berlaku ketika [[Tautan internal|tautan internal]] menyertakan jalur folder. Misalnya, membuat `[[Projects/Three laws of motion]]` akan membuat catatan di folder `Projects` relatif terhadap root brankas.
+
 ### Lokasi bawaan untuk lampiran baru
 
 Di mana [[Lampiran|lampiran]] yang baru ditambahkan ditempatkan. Opsi meliputi:

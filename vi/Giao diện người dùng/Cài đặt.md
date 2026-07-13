@@ -187,6 +187,8 @@ Nơi đặt các ghi chú mới được tạo. Các tùy chọn bao gồm:
 - **Cùng một thư mục với tệp** — Ghi chú được tạo trong cùng thư mục với ghi chú đang hoạt động hiện tại.
 - **Trong thư mục được chỉ định dưới đây** — Ghi chú được tạo trong một thư mục cụ thể mà bạn chọn.
 
+Cài đặt này không áp dụng khi [[Liên kết nội bộ|liên kết nội bộ]] bao gồm đường dẫn thư mục. Ví dụ, tạo `[[Projects/Three laws of motion]]` sẽ tạo ghi chú trong thư mục `Projects` tương đối với thư mục gốc của kho.
+
 ### Vị trí mặc định cho tệp đính kèm mới
 
 Nơi đặt các [[Tệp đính kèm|tệp đính kèm]] mới được thêm. Các tùy chọn bao gồm:

@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Erfahre, wie du mit internen Links auf Notizen, Anhänge und andere Dateien in deinen Notizen verweisen kannst.
+description: 'Erfahre, wie du mit internen Links auf Notizen, Anhänge und andere Dateien in deinen Notizen verweisen kannst.'
 ---
 Erfahre, wie du mit _internen Links_ auf Notizen, Anhänge und andere Dateien in deinen Notizen verweisen kannst. Durch das Verknüpfen von Notizen kannst du ein Wissensnetzwerk aufbauen. ^b15695
 
@@ -20,6 +20,10 @@ Obsidian unterstützt die folgenden Link-Formate:
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` oder `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
 Die obigen Beispiele sind gleichwertig, sie erscheinen im Editor auf die gleiche Weise und verweisen auf dieselbe Notiz.
+
+Um auf eine Notiz in einem Ordner zu verlinken, gib den Ordnerpfad vor dem Notiznamen an. Ordnerpfade beginnen am Vault-Stammverzeichnis und verwenden Schrägstriche (`/`), auch unter Windows: `[[Projects/Three laws of motion]]` oder `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Wenn der Link auf eine Notiz verweist, die noch nicht existiert, erstellt Obsidian die Notiz an diesem Ordnerpfad, anstatt deinen [[Einstellungen#Standardordner für neue Notizen|Standardordner für neue Notizen]] zu verwenden.
 
 > [!note] Hinweis
 > Wenn du das Markdown-Format verwendest, stelle sicher, dass du das Linkziel [URL-kodierst](https://en.wikipedia.org/wiki/Percent-encoding). Zum Beispiel werden Leerzeichen zu `%20`.

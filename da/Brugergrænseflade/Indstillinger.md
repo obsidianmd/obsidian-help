@@ -187,6 +187,8 @@ Hvor nye noter placeres. Mulighederne inkluderer:
 - **I Samme mappe som nuværende fil** — Noter oprettes i samme mappe som den aktuelt aktive note.
 - **I mappen angivet nedenfor** — Noter oprettes i en specifik mappe, du vælger.
 
+Denne indstilling gælder ikke, når et [[Interne links|internt link]] indeholder en mappesti. For eksempel opretter `[[Projekter/Tre bevægelseslove]]` noten i mappen `Projekter` relativt til boksens rod.
+
 ### Standardplacering for nye vedhæftninger
 
 Hvor nyligt tilføjede [[Vedhæftninger|vedhæftninger]] placeres. Mulighederne inkluderer:

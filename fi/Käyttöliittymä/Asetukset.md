@@ -187,6 +187,8 @@ Minne luodut muistiinpanot laitetaan. Vaihtoehdot ovat:
 - **Sama kansio kuin nykyisellä tiedostolla** — Muistiinpanot luodaan samaan kansioon kuin tällä hetkellä aktiivinen muistiinpano.
 - **Alla määritelty kansio** — Muistiinpanot luodaan valitsemaasi kansioon.
 
+Tämä asetus ei päde, kun [[Sisäiset linkit|sisäinen linkki]] sisältää kansiopolun. Esimerkiksi `[[Projektit/Kolme liikelakia]]` luo muistiinpanon `Projektit`-kansioon suhteessa holvin juureen.
+
 ### Uusien liitteiden oletussijainti
 
 Minne lisätyt [[Liitteet|liitteet]] sijoitetaan. Vaihtoehdot ovat:
