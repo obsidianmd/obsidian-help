@@ -88,9 +88,13 @@ These are messages detailing what was skipped, and potentially why.
 
 The file name uses a [special character or naming convention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) that the receiving operating system cannot store. Rename the file on its source device, then let Sync upload the renamed file again.
 
-For vaults synced across different operating systems, avoid characters that are commonly reserved by file systems, such as `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, and `|`. Names can also cause problems when they end with a space or period, or use Windows reserved device names such as `CON`, `PRN`, `AUX`, `NUL`, `COM1` through `COM9`, or `LPT1` through `LPT9`. For link-friendly note names, also avoid characters Obsidian uses for links, such as `#`, `^`, `[`, and `]`.
+For vaults synced across different operating systems, avoid the following in file and folder names:
 
-On Android, files with multiple periods `.` in their name can also be skipped. Some Android devices may also reject emoji in file names.
+- Characters commonly reserved by file systems, such as `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, and `|`
+- A space or period at the end of the name
+- Windows reserved device names, such as `CON`, `PRN`, `AUX`, `NUL`, `COM1` through `COM9`, or `LPT1` through `LPT9`
+- Characters Obsidian uses for links, such as `#`, `^`, `[`, and `]`, if you want link-friendly note names
+- Multiple periods `.` in a file name, or emoji, both of which some Android devices may reject
 
 When in doubt, use letters, numbers, regular spaces inside the name, hyphens `-`, underscores `_`, and one period before the file extension.
 
