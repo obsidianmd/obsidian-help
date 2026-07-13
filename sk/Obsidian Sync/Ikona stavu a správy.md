@@ -80,9 +80,17 @@ Toto sú správy popisujúce, čo bolo preskočené a prípadne prečo.
 
 **Nie je možné stiahnuť súbor s neplatným názvom**
 
-Súbor obsahuje [špeciálny znak alebo pomenovaciu konvenciu](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), ktorá nie je povolená na prijímajúcom operačnom systéme. Pre zjednodušenie môžete súbor na zdrojovom zariadení premenovať a odstrániť všetky špeciálne znaky okrem `-` a `_`.
+Názov súboru používa [špeciálny znak alebo pomenovaciu konvenciu](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), ktorú prijímajúci operačný systém nedokáže uložiť. Premenujte súbor na zdrojovom zariadení a nechajte Sync znova nahrať premenovaný súbor.
 
-Všimnite si, že to zahŕňa aj súbory s viacerými bodkami `.` v názve na zariadeniach s Androidom.
+Pre trezory synchronizované naprieč rôznymi operačnými systémami sa vyhnite nasledujúcemu v názvoch súborov a priečinkov:
+
+- Znaky bežne rezervované súborovými systémami, ako `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` a `|`
+- Medzera alebo bodka na konci názvu
+- Rezervované názvy zariadení vo Windows, ako `CON`, `PRN`, `AUX`, `NUL`, `COM1` až `COM9` alebo `LPT1` až `LPT9`
+- Znaky, ktoré Obsidian používa pre odkazy, ako `#`, `^`, `[` a `]`, ak chcete názvy poznámok kompatibilné s odkazmi
+- Viacero bodiek `.` v názve súboru alebo emoji, ktoré niektoré zariadenia s Androidom môžu odmietnuť
+
+V prípade pochybností používajte písmená, čísla, bežné medzery vnútri názvu, pomlčky `-`, podčiarkovníky `_` a jednu bodku pred príponou súboru.
 
 ### Správy o účte
 

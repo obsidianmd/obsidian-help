@@ -80,9 +80,17 @@ Ezek az üzenetek részletezik, mi lett kihagyva, és esetleg miért.
 
 **Unable to download file with illegal name**
 
-A fájl [speciális karaktert vagy elnevezési konvenciót](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) tartalmaz, amely nem engedélyezett a fogadó operációs rendszeren. Az egyszerűség kedvéért átnevezheti a fájlt a forráseszközön, eltávolítva minden speciális karaktert a `-` és `_` kivételével.
+A fájlnév olyan [speciális karaktert vagy elnevezési konvenciót](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) használ, amelyet a fogadó operációs rendszer nem tud tárolni. Nevezze át a fájlt a forráseszközön, majd hagyja, hogy a Sync újra feltöltse az átnevezett fájlt.
 
-Vegye figyelembe, hogy ez Android eszközökön a nevükben több pontot `.` tartalmazó fájlokra is vonatkozik.
+A különböző operációs rendszerek között szinkronizált széfek esetében kerülje a következőket a fájl- és mappanevekben:
+
+- A fájlrendszerek által általánosan foglalt karakterek, mint például `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` és `|`
+- Szóköz vagy pont a név végén
+- Windows által foglalt eszköznevek, mint például `CON`, `PRN`, `AUX`, `NUL`, `COM1`-től `COM9`-ig, vagy `LPT1`-től `LPT9`-ig
+- Az Obsidian által hivatkozásokhoz használt karakterek, mint például `#`, `^`, `[` és `]`, ha hivatkozásbarát jegyzetneveket szeretne
+- Több pont `.` a fájlnévben, vagy emoji, amelyeket egyes Android eszközök elutasíthatnak
+
+Ha bizonytalan, használjon betűket, számokat, normál szóközöket a név belsejében, kötőjeleket `-`, aláhúzásjeleket `_` és egyetlen pontot a fájlkiterjesztés előtt.
 
 ### Fiókkal kapcsolatos üzenetek
 

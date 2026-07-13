@@ -82,9 +82,17 @@ Questi sono messaggi che descrivono cosa è stato saltato, e potenzialmente perc
 
 **Unable to download file with illegal name**
 
-Il file contiene un [carattere speciale o una convenzione di denominazione](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) non consentiti dal sistema operativo ricevente. Per semplicità, puoi rinominare il file sul dispositivo di origine rimuovendo tutti i caratteri speciali tranne `-` e `_`.
+Il nome del file utilizza un [carattere speciale o una convenzione di denominazione](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) che il sistema operativo ricevente non può memorizzare. Rinomina il file sul dispositivo di origine, quindi lascia che Sync carichi nuovamente il file rinominato.
 
-Nota che questo include anche file con più punti `.` nel nome sui dispositivi Android.
+Per i vault sincronizzati tra diversi sistemi operativi, evita quanto segue nei nomi di file e cartelle:
+
+- Caratteri comunemente riservati dai file system, come `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` e `|`
+- Uno spazio o un punto alla fine del nome
+- Nomi di dispositivi riservati di Windows, come `CON`, `PRN`, `AUX`, `NUL`, da `COM1` a `COM9` o da `LPT1` a `LPT9`
+- Caratteri che Obsidian utilizza per i collegamenti, come `#`, `^`, `[` e `]`, se desideri nomi di note compatibili con i collegamenti
+- Più punti `.` nel nome di un file, o emoji, che alcuni dispositivi Android potrebbero rifiutare
+
+In caso di dubbio, utilizza lettere, numeri, spazi normali all'interno del nome, trattini `-`, trattini bassi `_` e un solo punto prima dell'estensione del file.
 
 ### Messaggi dell'account
 

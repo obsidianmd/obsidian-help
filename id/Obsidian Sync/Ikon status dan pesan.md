@@ -80,9 +80,17 @@ Ini adalah pesan yang merinci apa yang dilewati, dan kemungkinan alasannya.
 
 **Unable to download file with illegal name**
 
-File mengandung [karakter khusus atau konvensi penamaan](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) yang tidak diizinkan pada sistem operasi penerima. Untuk kemudahan, Anda dapat mengganti nama file pada perangkat sumbernya untuk menghapus semua karakter khusus kecuali `-` dan `_`.
+Nama file menggunakan [karakter khusus atau konvensi penamaan](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) yang tidak dapat disimpan oleh sistem operasi penerima. Ganti nama file pada perangkat sumbernya, lalu biarkan Sync mengunggah ulang file yang telah diganti namanya.
 
-Perhatikan bahwa ini juga mencakup file dengan beberapa titik `.` dalam namanya pada perangkat Android.
+Untuk brankas yang disinkronkan di berbagai sistem operasi, hindari hal berikut dalam nama file dan folder:
+
+- Karakter yang umumnya dicadangkan oleh sistem file, seperti `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, dan `|`
+- Spasi atau titik di akhir nama
+- Nama perangkat yang dicadangkan Windows, seperti `CON`, `PRN`, `AUX`, `NUL`, `COM1` hingga `COM9`, atau `LPT1` hingga `LPT9`
+- Karakter yang digunakan Obsidian untuk tautan, seperti `#`, `^`, `[`, dan `]`, jika Anda menginginkan nama catatan yang ramah tautan
+- Beberapa titik `.` dalam nama file, atau emoji, yang keduanya mungkin ditolak oleh beberapa perangkat Android
+
+Jika ragu, gunakan huruf, angka, spasi biasa di dalam nama, tanda hubung `-`, garis bawah `_`, dan satu titik sebelum ekstensi file.
 
 ### Pesan akun
 
