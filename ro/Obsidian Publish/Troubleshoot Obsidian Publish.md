@@ -1,35 +1,34 @@
 ---
-localized: null
 permalink: publish/troubleshoot
 publish: true
 mobile: true
-description: This page details some common problems that you may run into when using Obsidian Publish
+description: Această pagină detaliază unele probleme comune pe care le poți întâmpina la folosirea Obsidian Publish
 ---
-This page lists common issues you might encounter with [[Introduction to Obsidian Publish|Obsidian Publish]] and how to address them.
+Această pagină listează problemele comune pe care le poți întâmpina cu [[Introduction to Obsidian Publish|Obsidian Publish]] și cum să le rezolvi.
 
-Be sure to review [[Media files]] and [[Publish limitations|Publish limitations]] first.
+Asigură-te că treci mai întâi prin [[Media files|Fișiere media]] și [[Publish limitations|Limitările Publish]].
 
 ## General
 
-### Publishing notes
+### Publicarea notelor
 
-**I am receiving a hash error when trying to publish a note.**
+**Primesc o eroare de hash când încerc să public o notă.**
 
-Are you using a [[Community plugins|community plugin]] that edits the file's modified time upon update? If so, this plugin may be conflicting with Publish. Please issue a bug report to the plugin developer to resolve the issue.
+Folosești un [[Community plugins|modul comunitar]] care editează ora de modificare a fișierului la actualizare? Dacă da, acest modul poate intra în conflict cu Publish. Te rugăm să raportezi problema dezvoltatorului modulului pentru a o rezolva.
 
-**I am receiving an odd network error, and I have a very large Publish site.**
+**Primesc o eroare ciudată de rețea, iar site-ul meu Publish este foarte mare.**
 
-It is likely we need to examine your database. Please [[Help and support#Contact Obsidian support|contact Obsidian support]] for assistance.
+Este posibil să fie nevoie să examinăm baza ta de date. Te rugăm să [[Help and support#Contact Obsidian support|contactezi asistența Obsidian]] pentru ajutor.
 
-## CSS and themes
+## CSS și teme
 
-**My CSS in my [[Configuration folder]] does not work on Publish. Why?**
+**CSS-ul meu din [[Configuration folder|directorul de configurare]] nu funcționează pe Publish. De ce?**
 
-Publish does not read from the configuration folder. Instead, you'll need to create a `publish.css` file in the top-level directory of your publishing vault. You can learn more about this in [[Customize your site]].
+Publish nu citește din directorul de configurare. În schimb, trebuie să creezi un fișier `publish.css` în directorul de nivel superior al seifului tău publicat. Poți afla mai multe despre acest lucru în [[Customize your site|Personalizează-ți site-ul]].
 
-**My CSS does not look the same on Publish as it does in the app. Why?**
+**CSS-ul meu nu arată la fel pe Publish cum arată în aplicație. De ce?**
 
-Obsidian Publish's CSS is not exactly the same as in the application. We recommend [developing any CSS and themes](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes)specifically for Publish from the ground up.
+CSS-ul Obsidian Publish nu este exact identic cu cel din aplicație. Îți recomandăm să [dezvolți orice CSS și teme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes) special pentru Publish, de la zero.
 
-In _general_, what works for [[Views and editing mode#Reading view|Reading view]] has a strong likelihood of working on Publish.
+În _general_, ceea ce funcționează pentru [[Views and editing mode#Reading view|modul de citire]] are șanse mari să funcționeze și pe Publish.
 

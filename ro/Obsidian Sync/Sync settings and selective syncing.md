@@ -1,163 +1,162 @@
 ---
-localized: null
 permalink: sync/settings
 publish: true
 mobile: true
-description: This page explains the Sync settings and guides you in selecting which files to sync.
+description: Această pagină explică setările Sync și te ghidează în selectarea fișierelor pe care dorești să le sincronizezi.
 ---
 
-When you [[Plans and storage limits#Create a new remote vault|create a remote vault]] and [[Set up Obsidian Sync#Connect to a remote vault|connect to it]], the Sync Core plugin becomes the place for managing your remote vault.
+Când [[Plans and storage limits#Creează un nou seif la distanță|creezi un seif la distanță]] și te [[Set up Obsidian Sync#Conectează-te la un seif la distanță|conectezi la el]], modulul integrat Sync devine locul unde îți gestionezi seiful la distanță.
 
-## Sync settings
+## Setări Sync
 
-**Remote vault**  
-This section shows your currently connected remote vault. It includes a **Disconnect** button to disconnect from the remote vault and a **Manage** button to view all remote vaults your account has access to (including shared vaults via [[Collaborate on a shared vault|collaboration]]).
+**Seif la distanță**  
+Această secțiune afișează seiful tău la distanță conectat în prezent. Include un buton **Deconectează** pentru a te deconecta de la seiful la distanță și un buton **Gestionează** pentru a vizualiza toate seifurile la distanță la care contul tău are acces (inclusiv seifurile partajate prin [[Collaborate on a shared vault|colaborare]]).
 
-> [!warning]+ Remote vault in third-party sync service
-> If your remote vault is located in a third-party sync service, you will see a red error message. Follow the steps in [[Switch to Obsidian Sync]] to resolve this.
+> [!warning]+ Seif la distanță într-un serviciu de sincronizare terț
+> Dacă seiful tău la distanță se află într-un serviciu de sincronizare terț, vei vedea un mesaj de eroare roșu. Urmează pașii din [[Switch to Obsidian Sync]] pentru a rezolva această problemă.
 
-**Sync status**  
-Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
+**Starea sincronizării**  
+Afișează starea curentă de sincronizare a seifului la distanță. Această secțiune include fie un buton **Pauză**, fie un buton **Reia**, în funcție de stare.
 
-**Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]]. This setting is device specific, just like [[#Selective syncing]].
+**Numele dispozitivului**  
+Atribuie un nume unic dispozitivului care se sincronizează în prezent. Acest lucru te ajută să urmărești activitatea în [[Status icon and messages#Jurnalul de activitate Sync|jurnalul Sync]]. Această setare este specifică dispozitivului, la fel ca [[#Sincronizare selectivă]].
 
-**[[#Conflict resolution]]**
-Choose how to resolve conflicts when you modify a file on multiple devices. This setting is device specific, just like [[#Selective syncing]].
+**[[#Rezolvarea conflictelor]]**
+Alege modul de rezolvare a conflictelor atunci când modifici un fișier pe mai multe dispozitive. Această setare este specifică dispozitivului, la fel ca [[#Sincronizare selectivă]].
 
-**Deleted files**  
-Contains a button to **View** or **Restore** deleted files. For more details, see [[Version history]].
+**Fișiere șterse**  
+Conține un buton pentru **Vizualizare** sau **Restaurare** fișiere șterse. Pentru mai multe detalii, vezi [[Version history]].
 
-**Storage usage**  
-Displays a progress bar showing how much of your sync storage is used.
+**Utilizarea stocării**  
+Afișează o bară de progres care arată cât din stocarea ta Sync este folosită.
 
-> [!tip]- Server processing time
-> It may take up to 30 minutes for the current usage to update due to server-side processing.
+> [!tip]- Timp de procesare server
+> Poate dura până la 30 de minute pentru actualizarea utilizării curente, din cauza procesării pe partea de server.
 
-**Contact support**  
-Provides instructions on how to [[Help and support#Contact Obsidian support|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
+**Contactează asistența**  
+Oferă instrucțiuni despre cum să [[Help and support#Contact Obsidian support|contactezi asistența Obsidian]], inclusiv opțiuni pentru **Copiază informațiile de depanare** și **Trimite e-mail asistenței**.
 
-### Conflict resolution
+### Rezolvarea conflictelor
 
-Choose how to resolve conflicts when you modify a file on multiple devices before syncing. You can automatically merge changes or create separate conflict files for manual review. See [[Troubleshoot Obsidian Sync#Conflict resolution|Conflict resolution]] for details on how conflicts work and how to configure this setting.
+Alege modul de rezolvare a conflictelor atunci când modifici un fișier pe mai multe dispozitive înainte de sincronizare. Poți îmbina automat modificările sau poți crea fișiere separate de conflict pentru revizuire manuală. Vezi [[Troubleshoot Obsidian Sync#Rezolvarea conflictelor|Rezolvarea conflictelor]] pentru detalii despre modul în care funcționează conflictele și cum să configurezi această setare.
 
-> [!warning]+ Configure on each device
-> This setting must be configured separately on each device.
+> [!warning]+ Configurează pe fiecare dispozitiv
+> Această setare trebuie configurată separat pe fiecare dintre dispozitivele tale.
 
 ---
 
-You can also choose what to sync in the Sync Core plugin's settings. This section covers **selective sync** and **vault configuration sync**, along with their associated caveats.
+Poți alege, de asemenea, ce să sincronizezi din setările modulului integrat Sync. Această secțiune acoperă **sincronizarea selectivă** și **sincronizarea configurării seifului**, împreună cu precauțiile asociate.
 
-## Selective syncing
+## Sincronizare selectivă
 
-Files synced to your [[Local and remote vaults|remote vault]] contribute to your [[Frequently asked questions#How large can each remote vault be|storage limit]]. By default, Obsidian Sync activates **selective sync** for the following file types:
-- Images
+Fișierele sincronizate în [[Local and remote vaults|seiful tău la distanță]] contribuie la [[Frequently asked questions#Cât de mare poate fi fiecare seif la distanță|limita ta de stocare]]. Implicit, Obsidian Sync activează **sincronizarea selectivă** pentru următoarele tipuri de fișiere:
+- Imagini
 - Audio
-- Videos
-- PDFs
+- Videoclipuri
+- PDF-uri
 
-To sync additional file types, toggle the `Sync all other types` option.
+Pentru a sincroniza tipuri de fișiere suplimentare, comută opțiunea `Sincronizează toate celelalte tipuri`.
 
-The default **vault configuration sync** settings include:
-- Other file types
-- Main settings
-- Appearance
-- Themes and snippets
-- Hotkeys
-- Active core plugin list
-- Core plugin settings
+Setările implicite de **sincronizare a configurării seifului** includ:
+- Alte tipuri de fișiere
+- Setări principale
+- Aspect
+- Teme și fragmente de cod
+- Combinații de taste
+- Lista modulelor integrate active
+- Setările modulelor integrate
 
-To sync community plugins, manually enable **Active community plugin list** and **Installed community plugin list**.
+Pentru a sincroniza modulele comunitare, activează manual **Lista modulelor comunitare active** și **Lista modulelor comunitare instalate**.
 
-### Change the file types you want to sync
+### Modifică tipurile de fișiere pe care dorești să le sincronizezi
 
-1. Open **[[Settings]] → Sync**.
-2. Under **Selective sync**, enable the file types you want to sync.
-3. Restart the application to apply the new settings. On mobile or tablet, this may require a force-quit.
+1. Deschide **[[Settings]] → Sync**.
+2. La **Sincronizare selectivă**, activează tipurile de fișiere pe care dorești să le sincronizezi.
+3. Repornește aplicația pentru a aplica noile setări. Pe mobil sau tabletă, acest lucru poate necesita o închidere forțată.
 
-Note that your [[Plans and storage limits|Sync plan]] defines the maximum file size you can sync. The Standard plan allows syncing files up to 5 MB, while the Plus plan supports files up to 200 MB.
+Reține că [[Plans and storage limits|planul tău Sync]] definește dimensiunea maximă de fișier pe care o poți sincroniza. Planul Standard permite sincronizarea fișierelor de până la 5 MB, în timp ce planul Plus acceptă fișiere de până la 200 MB.
 
-> [!info]+ Excluded files remain in remote vault
-> Adding a file to the **Excluded files** list does not remove it from the remote vault if it has already been synced. Configure your Sync settings before syncing to avoid using unnecessary storage.
+> [!info]+ Fișierele excluse rămân în seiful la distanță
+> Adăugarea unui fișier în lista **Fișiere excluse** nu îl elimină din seiful la distanță dacă a fost deja sincronizat. Configurează-ți setările Sync înainte de sincronizare pentru a evita utilizarea inutilă a stocării.
 
-### Exclude a folder from syncing
+### Exclude un director din sincronizare
 
-By default, Obsidian syncs all files and folders in your vault. To exclude a specific folder from syncing:
-1. Open **[[Settings]] → Sync**.
-2. Next to **Excluded folders**, select **Manage**.
-3. Select the folder you want to exclude from the list.
-4. Select **Done**.
+Implicit, Obsidian sincronizează toate fișierele și directoarele din seiful tău. Pentru a exclude un anumit director din sincronizare:
+1. Deschide **[[Settings]] → Sync**.
+2. Lângă **Directoare excluse**, selectează **Gestionează**.
+3. Selectează directorul pe care dorești să-l excluzi din listă.
+4. Selectează **Gata**.
 
-To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] button next to the folder name.
+Pentru a elimina un director din lista de excluderi, selectează butonul ![[lucide-x.svg#icon]] de lângă numele directorului.
 
-#### Always excluded from sync
+#### Întotdeauna excluse din sincronizare
 
-##### File recovery snapshots
+##### Instantanee de recuperare a fișierelor
 
-The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]].
+Instantaneele din modulul [[File recovery]] nu sunt sincronizate prin Obsidian Sync, deoarece instantaneele sunt păstrate în [[How Obsidian stores data#Global settings|setările globale]].
 
-##### Hidden files and folders
+##### Fișiere și directoare ascunse
 
-Files and folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Configuration folder|configuration folder]] (`.obsidian`), which does sync.
+Fișierele și directoarele care încep cu un `.` sunt tratate ca ascunse și excluse din sincronizare. Singura excepție este [[Configuration folder|directorul de configurare]] al seifului (`.obsidian`), care se sincronizează.
 
-Common examples of hidden files and folders that are not synced:
+Exemple comune de fișiere și directoare ascunse care nu sunt sincronizate:
 - `.vscode`
 - `.git`
 - `.idea`
 - `.gitignore`
 
-##### Sync settings
+##### Setări Sync
 
-Sync settings do not sync across devices. You need to configure them separately on each device as needed.
+Setările Sync nu se sincronizează pe toate dispozitivele. Trebuie să le configurezi separat pe fiecare dispozitiv, după cum este necesar.
 
-## Updating your synced vault settings
+## Actualizarea setărilor seifului tău sincronizat
 
-To modify sync settings across multiple devices, follow these steps:
+Pentru a modifica setările de sincronizare pe mai multe dispozitive, urmează acești pași:
 
-> [!tip]- Primary and secondary devices
-> The terms "primary" and "secondary" devices are for clarity only. Sync does not differentiate between them.
+> [!tip]- Dispozitive primare și secundare
+> Termenii „primar” și „secundar” pentru dispozitive sunt folosiți doar pentru claritate. Sync nu face nicio diferență între ele.
 
-### Primary device
+### Dispozitivul principal
 
-The primary device acts as the source of truth. Changes made here are synced across all other devices.
+Dispozitivul principal acționează ca sursă de adevăr. Modificările făcute aici sunt sincronizate pe toate celelalte dispozitive.
 
-1. Go to **[[Settings]] → Sync**.
-2. Activate the desired settings under **Vault configuration sync**.
-3. Reload or restart Obsidian. On mobile or tablet, a force-quit may be required.
-4. Allow time for the settings to sync with your remote vault.
+1. Accesează **[[Settings]] → Sync**.
+2. Activează setările dorite la **Sincronizare configurare seif**.
+3. Reîncarcă sau repornește Obsidian. Pe mobil sau tabletă, poate fi necesară o închidere forțată.
+4. Așteaptă până când setările se sincronizează cu seiful tău la distanță.
 
-### Secondary device(s)
+### Dispozitivul(ele) secundar(e)
 
-Secondary devices (such as your phone) receive updates from the primary device.
+Dispozitivele secundare (precum telefonul tău) primesc actualizări de la dispozitivul principal.
 
-1. Go to **[[Settings]] → Sync**.
-2. Enable the necessary settings under **Vault configuration sync**.
-3. Wait for changes to download from the remote vault.
-4. Reload or restart the app to apply the synced settings. On mobile or tablet, a force-quit may be required.
+1. Accesează **[[Settings]] → Sync**.
+2. Activează setările necesare la **Sincronizare configurare seif**.
+3. Așteaptă ca modificările să se descarce din seiful la distanță.
+4. Reîncarcă sau repornește aplicația pentru a aplica setările sincronizate. Pe mobil sau tabletă, poate fi necesară o închidere forțată.
 
-### Reloading of settings
+### Reîncărcarea setărilor
 
-Certain settings can be hot reloaded, while others require a restart:
+Anumite setări pot fi reîncărcate instant (hot reload), în timp ce altele necesită o repornire:
 
-- **Hot-reloadable**: Most Obsidian configurations, including hotkeys and properties, appearance settings, and configurations for already-enabled core plugins.
-- **Requires reload**: CSS changes (e.g., [[CSS snippets]], [[Themes]]), graph view configurations, and core plugin states (e.g., enabling/disabling Daily Notes).
+- **Reîncărcabile instant**: Majoritatea configurațiilor Obsidian, inclusiv combinațiile de taste și proprietățile, setările de aspect și configurațiile pentru modulele integrate deja activate.
+- **Necesită reîncărcare**: Modificările CSS (de ex., [[CSS snippets|fragmente CSS]], [[Themes|teme]]), configurațiile afișajului grafic și stările modulelor integrate (de ex., activarea/dezactivarea Note zilnice).
 
-Community plugins typically do not support hot reloading and require a restart when new settings are applied.
+Modulele comunitare, de obicei, nu acceptă reîncărcarea instant și necesită o repornire atunci când sunt aplicate setări noi.
 
-> [!info]+ For plugin developers
-> Learn how to [integrate hot-reload functionality with Obsidian Sync](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange).
+> [!info]+ Pentru dezvoltatorii de module
+> Află cum să [integrezi funcționalitatea de reîncărcare instant cu Obsidian Sync](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange).
 
-## Settings profiles
+## Profiluri de setări
 
-Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] to the same remote vault, allowing you to create separate profiles (e.g., one for mobile, another for your laptop).
+Obsidian Sync poate sincroniza mai multe [[Configuration folder|directoare de configurare]] cu același seif la distanță, permițându-ți să creezi profiluri separate (de ex., unul pentru mobil, altul pentru laptop).
 
-### Create a settings profile
+### Creează un profil de setări
 
-To create a new settings profile:
+Pentru a crea un profil de setări nou:
 
-1. Open **[[Settings]] → Files and links**.
-2. Under **Override config folder**, enter a name for your profile, starting with a period (`.`), e.g., `.obsidian-mobile`.
-3. Relaunch Obsidian to apply the changes.
+1. Deschide **[[Settings]] → Fișiere și legături**.
+2. La **Suprascrie directorul de configurare**, introdu un nume pentru profilul tău, începând cu un punct (`.`), de ex., `.obsidian-mobile`.
+3. Repornește Obsidian pentru a aplica modificările.
 
-> [!info]+ Avoid redownloading plugins and themes
-> Changing the settings profile will require reconfiguring your sync settings. To avoid redownloading plugins and themes, copy your existing `.obsidian` folder and rename it to match your new profile (e.g., `.obsidian-mobile`) before making changes.
+> [!info]+ Evită redescărcarea modulelor și temelor
+> Schimbarea profilului de setări va necesita reconfigurarea setărilor tale Sync. Pentru a evita redescărcarea modulelor și temelor, copiază directorul `.obsidian` existent și redenumește-l pentru a se potrivi cu noul profil (de ex., `.obsidian-mobile`) înainte de a face modificări.

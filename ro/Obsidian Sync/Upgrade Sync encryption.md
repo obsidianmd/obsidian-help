@@ -1,43 +1,42 @@
 ---
-localized: null
 permalink: sync/migrate
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: 'Move your Sync vault to a different region, perform and encryption upgrade.'
+description: 'Mută-ți seiful Sync într-o altă regiune, efectuează un upgrade de criptare.'
 ---
-By default Obsidian Sync uses [[Obsidian Sync/Security and privacy#Encryption|end-to-end encryption]] for all your data. This guarantees that no one — not even the Obsidian team — can access your notes.
+Implicit, Obsidian Sync folosește [[Obsidian Sync/Security and privacy#Criptare|criptare integrală]] pentru toate datele tale. Aceasta garantează că nimeni — nici măcar echipa Obsidian — nu îți poate accesa notele.
 
-Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidian Sync/Security and privacy|security]] standards. If an encryption upgrade is available you will see an option titled **Upgrade vault encryption** in **Obsidian Settings → Sync**. This process also allows you to change your [[Sync regions|Sync region]].
+Obsidian face ocazional upgrade la criptarea Sync pentru a menține cele mai înalte standarde de [[Obsidian Sync/Security and privacy|securitate]]. Dacă este disponibil un upgrade de criptare, vei vedea o opțiune intitulată **Fă upgrade la criptarea seifului** în **Setări Obsidian → Sync**. Acest proces îți permite, de asemenea, să-ți schimbi [[Sync regions|regiunea Sync]].
 
-## Encryption versions
+## Versiuni de criptare
 
-All new vaults automatically use the latest encryption. Existing vaults can be upgraded using the migration assistant. Note that all devices must be using an Obsidian app version that supports the Sync encryption version you are migrating to.
+Toate seifurile noi folosesc automat cea mai recentă criptare. Seifurile existente pot fi actualizate folosind asistentul de migrare. Reține că toate dispozitivele trebuie să folosească o versiune a aplicației Obsidian care acceptă versiunea de criptare Sync la care migrezi.
 
-| Release date                                                            | Sync version | Minimum app version |
+| Data lansării                                                            | Versiune Sync | Versiune minimă aplicație |
 | ----------------------------------------------------------------------- | ------------ | ------------------- |
 | [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3            | 1.8.3               |
 | [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0            | 0.9.21              |
 
-## Upgrade encryption with the migration assistant
+## Fă upgrade la criptare cu asistentul de migrare
 
-Before you proceed, create a [[Back up your Obsidian files|backup]] of your vault to prevent any potential data loss. This process will permanently delete all data in your remote vault with the old encryption, including the version history.
+Înainte de a continua, creează o [[Back up your Obsidian files|copie de rezervă]] a seifului tău pentru a preveni orice pierdere potențială de date. Acest proces va șterge definitiv toate datele din seiful tău la distanță cu criptarea veche, inclusiv istoricul versiunilor.
 
-> [!danger] Migrations are destructive
+> [!danger] Migrările sunt distructive
 > 
-> **Always [[Back up your Obsidian files|back up]] your vault before proceeding with a migration.**
+> **Fă întotdeauna o [[Back up your Obsidian files|copie de rezervă]] a seifului tău înainte de a continua cu o migrare.**
 > 
-> When you migrate a remote vault your data will be replaced. This means:
+> Când migrezi un seif la distanță, datele tale vor fi înlocuite. Aceasta înseamnă că:
 > 
-> 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
-> 2. All [[Version history|version history]] for the vault will be lost.
+> 1. Datele de la distanță vor fi eliminate de pe serverele Obsidian, iar datele seifului vor fi reîncărcate în locul lor.
+> 2. Tot [[Version history|istoricul versiunilor]] pentru seif va fi pierdut.
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Click **Upgrade vault**. This option will only be visible if an upgrade is available for your remote vault.
-4. Double check your backups and click **Continue**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[Set up Obsidian Sync#Regional sync servers|region]] for your remote vault. 
-7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
-8. Once you re-upload your data with the new encryption, re-connect to the new Sync vault on your other devices.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, selectează **Sync**.
+3. Clic pe **Fă upgrade la seif**. Această opțiune va fi vizibilă doar dacă este disponibil un upgrade pentru seiful tău la distanță.
+4. Verifică din nou copiile tale de rezervă și clic pe **Continuă**.
+5. La **Numele seifului**, introdu numele seifului la distanță.
+6. La **Regiune**, alege [[Set up Obsidian Sync#Servere de sincronizare regionale|regiunea]] serverului pentru seiful tău la distanță.
+7. La **Parolă de criptare**, alege o parolă pentru seiful tău. Aceasta creează un seif criptat integral. Parola seifului este separată de contul tău Obsidian și poate fi diferită pentru fiecare dintre seifurile tale. Pentru mai multe informații, consultă [[Security and privacy]].
+8. Odată ce ai reîncărcat datele cu noua criptare, reconectează-te la noul seif Sync pe celelalte dispozitive ale tale.

@@ -1,11 +1,10 @@
 ---
-localized: null
 permalink: multiple-cursors
 ---
-Obsidian lets you edit text in multiple places at the same time using multiple cursors. You can add additional cursors by holding `Alt` (or `Option` on macOS) and selecting another position in the note.
+Obsidian vă permite să editați text în mai multe locuri simultan, folosind cursoare multiple. Puteți adăuga cursoare suplimentare ținând apăsat `Alt` (sau `Option` pe macOS) și selectând o altă poziție în notă.
 
-To remove a selection along with all additional cursors, click anywhere in the note without holding a key. You can also remove the selection by pressing `Escape`.
+Pentru a elimina o selecție, împreună cu toate cursoarele suplimentare, faceți clic oriunde în notă fără a ține apăsată o tastă. De asemenea, puteți elimina selecția apăsând `Escape`.
 
-## Rectangular selection
+## Selecție dreptunghiulară
 
-If you want to edit consecutive lines of text—for example, to turn paragraphs into list items—you can hold `Shift+Alt` (or `Shift+Option` on macOS) while dragging. You can also hold the middle mouse button while dragging.
+Dacă doriți să editați rânduri consecutive de text — de exemplu, pentru a transforma paragrafe în elemente de listă — puteți ține apăsat `Shift+Alt` (sau `Shift+Option` pe macOS) în timp ce trageți. De asemenea, puteți ține apăsat butonul din mijloc al mouse-ului în timp ce trageți.

@@ -1,71 +1,70 @@
 ---
-localized: null
 permalink: sync/switch
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Learn how to transition from your current syncing solution to Obsidian Sync.
+description: Află cum să treci de la soluția ta actuală de sincronizare la Obsidian Sync.
 ---
-Learn how to transition from your current syncing solution to Obsidian Sync.
+Află cum să treci de la soluția ta actuală de sincronizare la Obsidian Sync.
 
-> [!warning] Avoid using multiple solutions to sync the same files
-> We [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Back up your Obsidian files|backup]] strategy.
+> [!warning] Evită să folosești mai multe soluții pentru a sincroniza aceleași fișiere
+> [[Frequently asked questions#Pot folosi un serviciu de sincronizare terț împreună cu Obsidian Sync?|Nu recomandăm]] utilizarea Obsidian Sync împreună cu servicii de stocare în cloud (de ex. iCloud, Dropbox, OneDrive, Google Drive), deoarece acest lucru poate cauza conflicte. Totuși, serviciile de stocare în cloud pot juca un rol în strategia ta de [[Back up your Obsidian files|backup]].
 
-## Move your vault out of your third-party syncing service or cloud storage
+## Mută-ți seiful din serviciul tău de sincronizare terț sau din stocarea cloud
 
-If your vault is stored in any of the following locations, it's likely being synced by a third-party service:
+Dacă seiful tău este stocat în oricare dintre următoarele locații, este probabil să fie sincronizat de un serviciu terț:
 
-- **Windows**: `C:\Users\Username\Desktop` or `C:\Users\Username\Documents`
-- **macOS**: `/users/username/Desktop` or `/users/username/Documents`
-- **iOS**: The **iCloud** folder within the Files app
-- **Other**: Any folder under a syncing service, such as `Drive/my-vault`, `Dropbox/my-vault`, `pSync/my-vault`, etc.
+- **Windows**: `C:\Users\Username\Desktop` sau `C:\Users\Username\Documents`
+- **macOS**: `/users/username/Desktop` sau `/users/username/Documents`
+- **iOS**: Directorul **iCloud** din aplicația Files
+- **Altele**: Orice director aflat sub un serviciu de sincronizare, precum `Drive/my-vault`, `Dropbox/my-vault`, `pSync/my-vault`, etc.
 
-While Android and Linux tend to have fewer issues with this, it's still worth checking your vault location on these devices.
+Deși Android și Linux tind să aibă mai puține probleme de acest fel, tot merită să verifici locația seifului tău pe aceste dispozitive.
 
-> [!tip] If your current local vault is connected to a remote vault, Obsidian will try to detect if the vault is in a syncing service. If it is, you will see a message at the top of Obsidian Sync's settings.
+> [!tip] Dacă seiful tău local curent este conectat la un seif la distanță, Obsidian va încerca să detecteze dacă seiful se află într-un serviciu de sincronizare. Dacă este cazul, vei vedea un mesaj în partea de sus a setărilor Obsidian Sync.
 
-To avoid conflicts with syncing services, we recommend storing your Obsidian vaults in the following locations:
+Pentru a evita conflictele cu serviciile de sincronizare, recomandăm stocarea seifurilor tale Obsidian în următoarele locații:
 
-- **Windows**: Recommended locations in order:
-    1. `D:\` or any other non-C, non-network drive on your device
-    2. `C:\Vaults` (if you have permissions to use the C:\ drive)
-    3. `C:\Users\Username\Vaults` (if you must keep your vault within C:\Users\Username, make sure OneDrive is set not to remove files. OneDrive is generally less aggressive outside of `Desktop` and `Documents` folders.)
-- **macOS**: `/users/username/vaults`
-- **Linux**: No specific recommendation due to the variety of filesystems. Just ensure that Obsidian has full read/write access and that no syncing service manages the folder.
-- **iOS/iPadOS**: Store the vault **On My iPhone** or **On the Device**.
-- **Android**: Use the `Documents/` folder on your device.
+- **Windows**: Locații recomandate, în ordine:
+    1. `D:\` sau orice alt disc care nu este C și nu este de rețea, de pe dispozitivul tău
+    2. `C:\Vaults` (dacă ai permisiuni să folosești discul C:\)
+    3. `C:\Users\Username\Vaults` (dacă trebuie să-ți păstrezi seiful în C:\Users\Username, asigură-te că OneDrive este setat să nu elimine fișierele. OneDrive este, în general, mai puțin agresiv în afara directoarelor `Desktop` și `Documents`.)
+- **macOS**: `/users/username/vaults`
+- **Linux**: Nicio recomandare specifică, din cauza varietății sistemelor de fișiere. Asigură-te doar că Obsidian are acces complet de citire/scriere și că niciun serviciu de sincronizare nu gestionează directorul.
+- **iOS/iPadOS**: Stochează seiful **On My iPhone** sau **On the Device**.
+- **Android**: Folosește directorul `Documents/` de pe dispozitivul tău.
 
-## Move your vault using Obsidian on desktop
+## Mută-ți seiful folosind Obsidian pe desktop
 
 ![[Manage vaults#Move vault to a different folder]]
 
-## Move your vault on mobile
+## Mută-ți seiful pe mobil
 
-On mobile devices, Obsidian operates in a sandboxed environment, meaning you cannot move vaults within the app like you can on desktop.
+Pe dispozitivele mobile, Obsidian rulează într-un mediu izolat (sandboxed), ceea ce înseamnă că nu poți muta seifuri în cadrul aplicației așa cum poți face pe desktop.
 
 ### Android
 
-Android filesystems vary greatly by device, but generally, follow the same steps as you would to move your vault manually, ensuring it is removed from any syncing service on your device.
+Sistemele de fișiere Android variază foarte mult în funcție de dispozitiv, dar, în general, urmează aceiași pași pe care i-ai urma pentru a-ți muta manual seiful, asigurându-te că este eliminat din orice serviciu de sincronizare de pe dispozitivul tău.
 
-### iOS and iPadOS
+### iOS și iPadOS
 
-To move an existing iCloud vault to your device, follow these steps:
+Pentru a muta un seif iCloud existent pe dispozitivul tău, urmează acești pași:
 
-> [!note] If you already have the data on another device and have set up Obsidian Sync, it's recommended to [[Set up Obsidian Sync#Sync a remote vault on another device|set up a new local vault from Sync]] instead.
+> [!note] Dacă ai deja datele pe un alt dispozitiv și ai configurat Obsidian Sync, este recomandat să [[Set up Obsidian Sync#Sincronizează un seif la distanță pe alt dispozitiv|configurezi un nou seif local din Sync]] în schimb.
 
-- [[Back up your Obsidian files|Back up]] your vault.
-- Create a new vault on your device, ensuring **Save in iCloud Drive** is disabled.
-- Force quit the Obsidian app on all devices to pause Sync.
-- Open the **Files** app on your iOS/iPadOS device.
-- Long-press the vault folder under **iCloud Drive → Obsidian**, then select **Move**.
-- Move the vault to **On My iPhone/Device → Obsidian** and confirm that it's now visible.
-- Tap **Copy**.
-- Return to **iCloud Drive → Obsidian** and delete the old vault folder.
+- [[Back up your Obsidian files|Fă o copie de rezervă]] a seifului tău.
+- Creează un seif nou pe dispozitivul tău, asigurându-te că **Save in iCloud Drive** este dezactivat.
+- Forțează închiderea aplicației Obsidian pe toate dispozitivele pentru a pune Sync în pauză.
+- Deschide aplicația **Files** de pe dispozitivul tău iOS/iPadOS.
+- Apasă lung pe directorul seifului din **iCloud Drive → Obsidian**, apoi selectează **Move**.
+- Mută seiful în **On My iPhone/Device → Obsidian** și confirmă că este acum vizibil.
+- Apasă **Copy**.
+- Revino la **iCloud Drive → Obsidian** și șterge vechiul director al seifului.
 
-Once you reopen Obsidian, the vault should show a vault icon instead of a cloud icon, confirming it is no longer in iCloud Drive. Obsidian Sync will also no longer display the warning message within its settings.
+Odată ce redeschizi Obsidian, seiful ar trebui să afișeze o pictogramă de seif în loc de o pictogramă de cloud, confirmând că nu se mai află în iCloud Drive. Obsidian Sync nu va mai afișa nici mesajul de avertizare în setările sale.
 
-## Next steps
+## Pașii următori
 
-- Looking to get started with Obsidian Sync? [[Set up Obsidian Sync]]
-- Still need assistance? Check out [[Troubleshoot Obsidian Sync]]
+- Vrei să începi cu Obsidian Sync? [[Set up Obsidian Sync]]
+- Ai încă nevoie de ajutor? Consultă [[Troubleshoot Obsidian Sync]]

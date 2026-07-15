@@ -1,69 +1,68 @@
 ---
-localized: null
 permalink: 2fa
 ---
-If you have an [Obsidian account](https://obsidian.md/account) you can enable two-factor authentication (2FA) to protect your account with a second verification step.
+Dacă ai un [cont Obsidian](https://obsidian.md/account) poți activa autentificarea în doi factori (2FA) pentru a-ți proteja contul cu un al doilea pas de verificare.
 
-## Enable 2FA
+## Activează 2FA
 
-- Log into [your Obsidian account](https://obsidian.md/account/profile) from your web browser.
-- In the **Profile** section, go to **2-factor authentication** and select **Enable**.
-- A popup window will appear to prompt you to connect an authenticator app with either a **QR code** or a **setup key**.
+- Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/profile) din browserul web.
+- În secțiunea **Profil**, mergi la **Autentificare în doi factori** și selectează **Activează**.
+- Va apărea o fereastră pop-up care te va invita să conectezi o aplicație de autentificare fie cu un **cod QR**, fie cu o **cheie de configurare**.
 
-> [!hint]- Popular authentication applications
+> [!hint]- Aplicații populare de autentificare
 > - [Authy](https://authy.com)
 > - [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 > - [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)
 > - [iCloud Keychain](https://support.apple.com/en-gb/guide/iphone/ipha6173c19f/ios)
 
-- Once connected, your authenticator app will provide you a six digit code. Enter that code below the **QR code/setup key** section, in step 3.
-- Finally, enter your current password.
-- Select **Complete set up**.
-- The popup window will be replaced with a confirmation window and your recovery codes. Please download your recovery codes, as you will need these to unlock your account.
+- Odată conectată, aplicația ta de autentificare îți va oferi un cod din șase cifre. Introdu acest cod sub secțiunea **Cod QR/cheie de configurare**, la pasul 3.
+- În final, introdu parola curentă.
+- Selectează **Finalizează configurarea**.
+- Fereastra pop-up va fi înlocuită cu o fereastră de confirmare și codurile tale de recuperare. Te rugăm să descarci codurile de recuperare, deoarece vei avea nevoie de ele pentru a-ți debloca contul.
 
-Your 2FA is now set up.
+Autentificarea în doi factori este acum configurată.
 
-> [!warning]- QR code/setup key backups
-> If you decide to keep a backup of your **QR code** or **Setup key** in addition to your recovery codes, we strongly recommend keeping it in a password encrypted system.
+> [!warning]- Copii de rezervă pentru codul QR/cheia de configurare
+> Dacă decizi să păstrezi o copie de rezervă a **codului QR** sau a **cheii de configurare** pe lângă codurile de recuperare, îți recomandăm insistent să o păstrezi într-un sistem protejat prin parolă și criptat.
 
-## Generate recovery codes
+## Generează coduri de recuperare
 
-If you enabled 2FA before recovery codes were available, or if you want to refresh your recovery codes, follow these steps:
+Dacă ai activat 2FA înainte ca acele coduri de recuperare să fie disponibile, sau dacă vrei să-ți reînnoiești codurile de recuperare, urmează acești pași:
 
-- Log into [your Obsidian account](https://obsidian.md/account/profile) from your web browser.
-- Next to 2-factor authentication, select **Refresh recovery codes**.
-- In the popup window, enter your **password** and **6-digit authenticator code**.
-- A confirmation window will display your recovery codes. You have two options:
-    - **Copy recovery codes**: Copy the codes to paste elsewhere.
-    - **Download recovery codes**: Download a `obsidian-recovery-codes.txt` file containing your codes.
-- Select **Got it** to close the popup window.
+- Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/profile) din browserul web.
+- Lângă autentificarea în doi factori, selectează **Reînnoiește codurile de recuperare**.
+- În fereastra pop-up, introdu **parola** și **codul de autentificare din 6 cifre**.
+- O fereastră de confirmare îți va afișa codurile de recuperare. Ai două opțiuni:
+    - **Copiază codurile de recuperare**: Copiază codurile pentru a le lipi altundeva.
+    - **Descarcă codurile de recuperare**: Descarcă un fișier `obsidian-recovery-codes.txt` care conține codurile tale.
+- Selectează **Am înțeles** pentru a închide fereastra pop-up.
 
-You can use a recovery code **once** instead of your **6-digit authenticator code**. You can also refresh your recovery codes at any time.
+Poți folosi un cod de recuperare **o singură dată** în locul **codului de autentificare din 6 cifre**. De asemenea, poți reînnoi codurile de recuperare oricând.
 
-## Disable 2FA
+## Dezactivează 2FA
 
-- Log into [your Obsidian account](https://obsidian.md/account/profile) from your web browser.
-- In the **Profile** section, go to **2-factor authentication** and select **Disable**.
-- Enter your Obsidian Password.
-- Enter the current six digit code from your authentication app.
-- Select **Disable 2FA**.
-- You will be brought back to the Account management screen.
+- Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/profile) din browserul web.
+- În secțiunea **Profil**, mergi la **Autentificare în doi factori** și selectează **Dezactivează**.
+- Introdu parola ta Obsidian.
+- Introdu codul curent din șase cifre din aplicația ta de autentificare.
+- Selectează **Dezactivează 2FA**.
+- Vei fi adus înapoi la ecranul de gestionare a contului.
 
-The **2-factor authentication** setting will once again show an **Enable** button, indicating that 2FA has been disabled.
+Setarea **Autentificare în doi factori** va afișa din nou un buton **Activează**, indicând faptul că 2FA a fost dezactivată.
 
-## FAQ
+## Întrebări frecvente
 
-**I have enabled 2FA. Will I be logged out of my current Obsidian devices?**
-No. Enabling 2FA does not log you out everywhere for your convenience. If you need to, you can manually do that from your account page, and subsequently login again on each of your devices.
+**Am activat 2FA. Voi fi deconectat de pe dispozitivele mele Obsidian curente?**
+Nu. Activarea 2FA nu te deconectează peste tot, pentru confortul tău. Dacă este nevoie, poți face acest lucru manual din pagina contului tău, iar apoi te poți autentifica din nou pe fiecare dintre dispozitivele tale.
 
-**I enabled, then disabled 2FA. I would like to set it up again. Can I use the original QR code or setup key?**
-No. You will be provided a new **QR code** and new **Setup key** every time you initiate a new setup of 2FA.
+**Am activat, apoi am dezactivat 2FA. Aș vrea să o configurez din nou. Pot folosi codul QR sau cheia de configurare originale?**
+Nu. Vei primi un **cod QR** nou și o **cheie de configurare** nouă de fiecare dată când inițiezi o nouă configurare 2FA.
 
-**I have enabled 2FA. I have yet to be asked for it after several log-out/log-in attempts. Is this working?**
-Your browser cache may be allowing you to appear as if you are making changes to the page (such as logging in or out) when in actuality you are accessing the stored data. Try using a private browsing window to log-in to confirm 2FA is working.
+**Am activat 2FA. Nu mi s-a cerut încă după mai multe încercări de deconectare/autentificare. Funcționează corect?**
+Este posibil ca memoria cache a browserului să te facă să pari că faci modificări pe pagină (cum ar fi autentificarea sau deconectarea), când, de fapt, accesezi datele stocate. Încearcă să folosești o fereastră de navigare privată pentru autentificare, pentru a confirma că 2FA funcționează.
 
-If you continue to experience this behavior, please [submit a bug report](https://forum.obsidian.md/c/bug-reports/7).
+Dacă această situație persistă, te rugăm să [trimiți un raport de eroare](https://forum.obsidian.md/c/bug-reports/7).
 
-**I lost my recovery codes, authenticator, and everything needed to log into my account. What do I do?**
+**Mi-am pierdut codurile de recuperare, autentificatorul și tot ce am nevoie pentru a mă autentifica în cont. Ce fac?**
 
-If you've lost your recovery codes and authenticator, please email [support@obsidian.md](mailto:support@obsidian.md?subject=I%20lost%20my%202FA) for assistance in regaining access to your account.
+Dacă ți-ai pierdut codurile de recuperare și autentificatorul, te rugăm să trimiți un e-mail la [support@obsidian.md](mailto:support@obsidian.md?subject=I%20lost%20my%202FA) pentru asistență în recuperarea accesului la contul tău.

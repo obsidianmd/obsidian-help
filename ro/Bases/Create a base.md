@@ -1,36 +1,35 @@
 ---
-localized: null
 permalink: bases/create-base
 ---
-[[Introduction to Bases|Bases]] let you create database-like views of your notes. Here's how you can create a base and embed it in a note. Every base can have one or more [[Views|views]] to display information in different ways.
+[[Introduction to Bases|Bazele]] îți permit să creezi vizualizări de tip bază de date pentru notele tale. Iată cum poți crea o bază și cum o poți încorpora într-o notă. Fiecare bază poate avea una sau mai multe [[Views|vizualizări]] pentru a afișa informațiile în moduri diferite.
 
-## Create a new base
+## Creează o bază nouă
 
-**Command palette:**
+**Paleta de comenzi:**
 
-1. Open the **Command palette**.
-2. Select
-	- **Bases: Create new base** to create a base in the same folder as the active file.
-	- **Bases: Insert new base** to create a base and embed it in the current file.
+1. Deschide **Paleta de comenzi**.
+2. Selectează
+	- **Bases: Create new base** pentru a crea o bază în același director cu fișierul activ.
+	- **Bases: Insert new base** pentru a crea o bază și a o încorpora în fișierul curent.
 
-**File explorer:**
+**Exploratorul de fișiere:**
 
-1. In the File explorer, right-click the folder you want to create the base in.
-2. Select **New base**.
+1. În Exploratorul de fișiere, dă clic dreapta pe directorul în care vrei să creezi baza.
+2. Selectează **New base** (Bază nouă).
 
-**Ribbon:**
+**Panglică:**
 
-- In the vertical ribbon menu, select **Create new base** to create a base in the same folder as the active file.
+- În meniul vertical al panglicii, selectează **Create new base** (Creează o bază nouă) pentru a crea o bază în același director cu fișierul activ.
 
-## Embed a base
+## Încorporează o bază
 
-### Embed a base file
+### Încorporează un fișier bază
 
-You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. To specify the default view use `![[File.base#View]]`.
+Poți încorpora fișiere bază în [[Embed files|orice alt fișier]] folosind sintaxa `![[File.base]]`. Pentru a specifica vizualizarea implicită, folosește `![[File.base#View]]`.
 
-### Embed a base as a code block
+### Încorporează o bază ca bloc de cod
 
-Bases can also embedded directly into a note using a `base` code block and the [[Bases syntax|bases syntax]]. 
+Bazele pot fi de asemenea încorporate direct într-o notă folosind un bloc de cod `base` și [[Bases syntax|sintaxa bases]].
 
 ~~~yaml
 ```base

@@ -1,111 +1,110 @@
 ---
-localized: null
 permalink: links
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: 'Learn how to link to notes, attachments, and other files from your notes, using internal links.'
+description: 'Află cum să creezi legături către însemnări, atașamente și alte fișiere din însemnările tale, folosind legături interne.'
 ---
 
-Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
+Află cum să creezi legături către însemnări, atașamente și alte fișiere din însemnările tale, folosind _legături interne_. Prin legarea însemnărilor, poți crea o rețea de cunoștințe. ^b15695
 
-Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under: 
+Obsidian poate actualiza automat legăturile interne din seiful tău atunci când redenumești un fișier. Dacă preferi să fii întrebat în schimb, poți dezactiva această opțiune în:
 
-**[[Settings]]** → **[[Settings#Files and links|Files and links]]** → **[[Settings#Automatically update internal links|Automatically update internal links]]**.
+**[[Settings|Setări]]** → **[[Settings#Files and links|Fișiere și legături]]** → **[[Settings#Automatically update internal links|Actualizează automat legăturile interne]]**.
 
-## Supported formats for internal links
+## Formate acceptate pentru legăturile interne
 
-Obsidian supports the following link formats:
+Obsidian acceptă următoarele formate de legături:
 
-- Wikilink: `[[Three laws of motion]]` or `[[Three laws of motion.md]]`
-- Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` or `[Three laws of motion](Three%20laws%20of%20motion.md)`
+- Legătură wiki: `[[Three laws of motion]]` sau `[[Three laws of motion.md]]`
+- Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` sau `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
-The examples above are equivalent, and they appear the same way in the editor and links to the same note.
+Exemplele de mai sus sunt echivalente și apar la fel în editor, făcând legătura către aceeași însemnare.
 
-To link to a note in a folder, include the folder path before the note name. Folder paths start at the vault root and use forward slashes (`/`), even on Windows: `[[Projects/Three laws of motion]]` or `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+Pentru a crea o legătură către o însemnare dintr-un folder, include calea folderului înaintea numelui însemnării. Căile de folder pornesc de la rădăcina seifului și folosesc bare oblice (`/`), chiar și pe Windows: `[[Projects/Three laws of motion]]` sau `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
 
-If the link points to a note that doesn't exist yet, Obsidian creates the note at that folder path instead of using your [[Settings#Default location for new notes|default location for new notes]].
+Dacă legătura indică spre o însemnare care nu există încă, Obsidian creează însemnarea la acea cale de folder, în loc să folosească [[Settings#Default location for new notes|locul implicit pentru note noi]].
 
-> [!note] Note
-> When using the Markdown format, make sure to [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the link destination. For example, blank spaces become `%20`.
+> [!note] Notă
+> Când folosești formatul Markdown, asigură-te că faci [codare URL](https://en.wikipedia.org/wiki/Percent-encoding) pentru destinația legăturii. De exemplu, spațiile devin `%20`.
 
-By default, due to its more compact format, Obsidian generates links using the Wikilink format. If interoperability is important to you, you can disable Wikilinks and use Markdown links instead.
+Implicit, datorită formatului său mai compact, Obsidian generează legături folosind formatul de legătură wiki. Dacă interoperabilitatea este importantă pentru tine, poți dezactiva legăturile wiki și poți folosi în schimb legături Markdown.
 
-To use the Markdown format:
+Pentru a folosi formatul Markdown:
 
-1. Open **[[Settings]]**.
-2. Under **Files and Links**, disable **Use \[\[Wikilinks\]\]**.
+1. Deschide **[[Settings|Setări]]**.
+2. Sub **Fișiere și legături**, dezactivează **Permiteți folosirea legăturilor în format \[\[wiki\]\]**.
 
-Even if you disable the Wikilink format, you can still autocomplete links by typing two square brackets `[[`. When you select one of the suggested files, Obsidian instead generates a Markdown link.
+Chiar dacă dezactivezi formatul de legătură wiki, poți folosi în continuare completarea automată a legăturilor tastând două paranteze pătrate `[[`. Când selectezi unul dintre fișierele sugerate, Obsidian generează în schimb o legătură Markdown.
 
-> [!note] Invalid characters
-> A string which contains the following characters may not work as a link: `# | ^ : %% [[ ]]`. 
-> 
-> We recommend avoiding using those characters and practicing [safe filename practices](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names). 
+> [!note] Caractere nevalide
+> Un șir care conține următoarele caractere s-ar putea să nu funcționeze ca legătură: `# | ^ : %% [[ ]]`.
+>
+> Îți recomandăm să eviți folosirea acestor caractere și să respecți [practicile sigure pentru numele de fișiere](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names).
 
-## Link to a file
+## Creează o legătură către un fișier
 
-To create a link while in Editing view, use either of the following ways:
+Pentru a crea o legătură în timp ce te afli în afișajul de editare, folosește oricare dintre următoarele metode:
 
-- Type `[[` in the editor and then select the file you want to create a link to.
-- Select text in the editor and then type `[[`.
-- Open the [[Command palette]] and then select Add internal link.
+- Tastează `[[` în editor, apoi selectează fișierul către care vrei să creezi o legătură.
+- Selectează text în editor, apoi tastează `[[`.
+- Deschide [[Command palette|Paleta de comenzi]] și selectează Adaugă o legătură internă.
 
 ![[Quick switcher#^search-autocomplete-large]]
 
-While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
+Deși poți crea legături către oricare dintre [[Accepted file formats|formatele de fișiere acceptate]], legăturile către formate de fișiere altele decât Markdown trebuie să includă extensia fișierului, precum `[[Figure 1.png]]`.
 
-> [!tip] Prefixing an internal link with an exclamation mark (!) allows you to embed the linked content. For more details, see [[Embed Files]].
+> [!tip] Adăugarea unui semn de exclamare (!) în fața unei legături interne îți permite să încorporezi conținutul legat. Pentru mai multe detalii, vezi [[Embed Files|Încorporarea fișierelor]].
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns are deprioritized in link suggestions when creating internal links.
+> [!info] Fișiere excluse
+> Fișierele care se potrivesc tiparelor tale de [[Settings#Excluded files|fișiere excluse]] au prioritate mai mică în sugestiile de legături atunci când creezi legături interne.
 
-## Link to a heading in a note
+## Creează o legătură către un titlu dintr-o însemnare
 
-You can link to specific headings in notes, also known as _anchor links_.
+Poți crea legături către titluri specifice din însemnări, cunoscute și sub numele de _legături-ancoră_.
 
-**Linking to a heading within the same note**
+**Crearea unei legături către un titlu din aceeași însemnare**
 
-To link to a heading within the same note, type `[[#` to get a list of headings within the note to link to.
+Pentru a crea o legătură către un titlu din aceeași însemnare, tastează `[[#` pentru a obține o listă cu titlurile din însemnare către care poți crea o legătură.
 
-For example, `[[#Preview a linked file]]` will create a link to [[#Preview a linked file]].
+De exemplu, `[[#Preview a linked file]]` va crea o legătură către [[#Previzualizează un fișier legat]].
 
-**Linking to a heading in another note**
+**Crearea unei legături către un titlu dintr-o altă însemnare**
 
-To link to a heading in another note, add a hash (`#`) at the end of the link destination, followed by the heading text.
+Pentru a crea o legătură către un titlu dintr-o altă însemnare, adaugă un diez (`#`) la finalul destinației legăturii, urmat de textul titlului.
 
-For example, `[[About Obsidian#Links are first-class citizens]]` will create a link to [[About Obsidian#Links are first-class citizens]].
+De exemplu, `[[About Obsidian#Links are first-class citizens]]` va crea o legătură către [[About Obsidian#Links are first-class citizens]].
 
-**Linking to subheadings**
+**Crearea de legături către subtitluri**
 
-You can add multiple hash symbols for each subheading.
+Poți adăuga mai multe simboluri diez pentru fiecare subtitlu.
 
-For example, `[[Help and support#Questions and advice#Report bugs and request features]]` will create a link to [[Help and support#Questions and advice#Report bugs and request features]].
+De exemplu, `[[Help and support#Questions and advice#Report bugs and request features]]` va crea o legătură către [[Help and support#Questions and advice#Report bugs and request features]].
 
-**Searching for headers across the vault**
+**Căutarea titlurilor în întregul seif**
 
-To search for headers across the entire vault, use the `[[## header]]` syntax.
+Pentru a căuta titluri în întregul seif, folosește sintaxa `[[## header]]`.
 
-For example, `[[##` will search generically across the vault, whereas `[[## team]]` will search for all headers that contain the word _team_.
+De exemplu, `[[##` va căuta generic în întregul seif, în timp ce `[[## team]]` va căuta toate titlurile care conțin cuvântul _team_.
 
-> [!info]- Screenshot of searching for a heading link
+> [!info]- Captură de ecran cu căutarea unei legături către un titlu
 >
 > ![[internal-links-header.png#interface]]
 
-## Link to a block in a note
+## Creează o legătură către un bloc dintr-o însemnare
 
-A block is a unit of text in your note, such as a paragraph, block quote, or list item.
+Un bloc este o unitate de text din însemnarea ta, precum un paragraf, un citat sau un element de listă.
 
-You can link to a block by adding `#^` at the end of your link destination, followed by a unique block identifier. For example: `[[2023-01-01#^37066d]]`. Fortunately, you don't need to manually find the identifier—when you type the caret (`^`), a list of suggestions will appear, allowing you to select the correct block.
+Poți crea o legătură către un bloc adăugând `#^` la finalul destinației legăturii tale, urmat de un identificator unic de bloc. De exemplu: `[[2023-01-01#^37066d]]`. Din fericire, nu trebuie să găsești manual identificatorul — când tastezi accentul circumflex (`^`), va apărea o listă de sugestii, care îți permite să selectezi blocul corect.
 
-For *simple paragraphs*, place a blank space followed by a caret `^` and the block identifier at the end of the line:
+Pentru *paragrafe simple*, plasează un spațiu urmat de un accent circumflex `^` și identificatorul de bloc la finalul liniei:
 
 ```md
 The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place. ^37066d
 ```
 
-For *structured blocks* (lists, quotations, callouts, tables), the block identifier should be on a separate line, with a blank line before and after:
+Pentru *blocuri structurate* (liste, citate, explicații, tabele), identificatorul de bloc trebuie să fie pe o linie separată, cu o linie goală înainte și după:
 
 ```md
 > The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place.
@@ -115,7 +114,7 @@ For *structured blocks* (lists, quotations, callouts, tables), the block identif
 This is the tale of Gemmy, the Unhelpful assistant.  
 ```
 
-For *specific lines within a list*, the block identifier can be placed directly on a bullet point:
+Pentru *linii specifice dintr-o listă*, identificatorul de bloc poate fi plasat direct pe un element de listă:
 
 ```mathjax
 - Gemmy
@@ -124,61 +123,61 @@ For *specific lines within a list*, the block identifier can be placed directly 
 - Unhelpful assistant
 ```
 
-> [!warning] We do not support links to specific parts of quotations, callouts, and tables.
+> [!warning] Nu oferim suport pentru legături către părți specifice ale citatelor, explicațiilor și tabelelor.
 
-**Searching for blocks across the vault**
+**Căutarea blocurilor în întregul seif**
 
-You can also search for blocks to link to from across your vault using the `[[^^block]]` syntax. However, more items qualify as blocks compared to [[#Link to a heading in a note|heading links]], so this list will be much longer.
+Poți de asemenea să cauți blocuri către care să creezi o legătură din întregul tău seif folosind sintaxa `[[^^block]]`. Totuși, mai multe elemente se califică drept blocuri comparativ cu [[#Creează o legătură către un titlu dintr-o însemnare|legăturile către titluri]], astfel încât această listă va fi mult mai lungă.
 
-> [!info]- Screenshot of searching for a block link 
+> [!info]- Captură de ecran cu căutarea unei legături către un bloc
 > ![[link-block-heading.png#interface]]
 
-You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
+Poți de asemenea crea identificatori de bloc ușor de citit adăugând un spațiu urmat de un accent circumflex (`^`) și identificatorul. Identificatorii de bloc pot fi formați doar din litere latine, cifre și cratime.
 
-For example, add `^quote-of-the-day` at the end of a block:
+De exemplu, adaugă `^quote-of-the-day` la finalul unui bloc:
 
 ```md
 "You do not rise to the level of your goals. You fall to the level of your systems." by James Clear ^quote-of-the-day
 ```
 
-Now you can link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
+Acum poți crea o legătură către bloc tastând `[[2023-01-01#^quote-of-the-day]]`.
 
-> [!warning] Interoperability
-> Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.
+> [!warning] Interoperabilitate
+> Referințele către blocuri sunt specifice Obsidian și nu fac parte din formatul Markdown standard. Legăturile care conțin referințe către blocuri nu vor funcționa în afara Obsidian.
 
-## Change the link display text
+## Modifică textul afișat al legăturii
 
-By default, Obsidian will show the link text as it appears. For example:  
-- `[[Example]]` displays as [[Example]]  
-- `[[Example#Details]]` displays as [[Example#Details]]
+Implicit, Obsidian va afișa textul legăturii așa cum apare. De exemplu:
+- `[[Example]]` se afișează ca [[Example]]
+- `[[Example#Details]]` se afișează ca [[Example#Details]]
 
-You can change how a link is displayed by customizing its link text:
+Poți schimba modul în care este afișată o legătură personalizând textul acesteia:
 
-**Wikilink format**:  
-Use a vertical bar (`|`) to change the display text.
+**Format legătură wiki**:
+Folosește o bară verticală (`|`) pentru a schimba textul afișat.
 
-- `[[Example|Custom name]]` appears as [[Example|Custom name]]  
-- `[[Example#Details|Section name]]` appears as [[Example#Details|Section name]]
+- `[[Example|Custom name]]` apare ca [[Example|Custom name]]
+- `[[Example#Details|Section name]]` apare ca [[Example#Details|Section name]]
 
-**Markdown format**:  
-Use `[Display text](Link URL)` to customize how the link appears.
+**Format Markdown**:
+Folosește `[Display text](Link URL)` pentru a personaliza modul în care apare legătura.
 
-- `[Custom name](Example.md)` appears as [Custom name](Example.md)  
-- `[Section name](Example.md#Details)` appears as [Section name](Example.md#Details)
+- `[Custom name](Example.md)` apare ca [Custom name](Example.md)
+- `[Section name](Example.md#Details)` apare ca [Section name](Example.md#Details)
 
-This method is helpful for one-off situations where you want to change how a link looks in a specific context. If you want to set up an alternate link name that you can reuse throughout your vault, consider using an [[Aliases|alias]] instead. 
+Această metodă este utilă pentru situații punctuale în care vrei să schimbi modul în care arată o legătură într-un context specific. Dacă vrei să configurezi un nume alternativ pentru legătură pe care să-l poți reutiliza în întregul tău seif, ia în considerare folosirea unui [[Aliases|alias]] în schimb.
 
-For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 laws]]`, adding "3 laws" as an alias lets you type just that — no need to add custom display text each time.
+De exemplu, dacă te referi în mod regulat la `[[Three laws of motion]]` ca `[[The 3 laws]]`, adăugarea „3 laws” ca alias îți permite să tastezi doar acel text — fără să fie nevoie să adaugi text afișat personalizat de fiecare dată.
 
-> [!tip] Tip
-> Use [[#Change the link display text|link display text]] when you want to customize how a link looks *in a specific place*.  
-> 
-> Use [[Aliases|aliases]] when you want to refer to the same note using *different names* throughout your vault.
+> [!tip] Sfat
+> Folosește [[#Modifică textul afișat al legăturii|textul afișat al legăturii]] atunci când vrei să personalizezi modul în care arată o legătură *într-un anumit loc*.
+>
+> Folosește [[Aliases|alias-urile]] atunci când vrei să faci referire la aceeași însemnare folosind *nume diferite* în întregul tău seif.
 ^callout-internal-links-link-text
 
-## Preview a linked file
+## Previzualizează un fișier legat
 
-> [!note] Note
-> To preview linked files, you first need to enable [[Page preview]].
+> [!note] Notă
+> Pentru a previzualiza fișierele legate, trebuie mai întâi să activezi [[Page preview|Previzualizarea paginii]].
 
-To preview a linked file, hover over an internal link. While in editing mode, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
+Pentru a previzualiza un fișier legat, treci cu cursorul peste o legătură internă. În modul de editare, apasă `Ctrl` (sau `Cmd` pe macOS) în timp ce ții cursorul deasupra legăturii. O previzualizare a conținutului fișierului apare lângă cursor.

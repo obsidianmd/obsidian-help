@@ -1,75 +1,74 @@
 ---
-localized: null
 permalink: teams/security
 cssclasses:
   - soft-embed
 ---
-Our [Security](https://obsidian.md/security) page compiles information about how Obsidian approaches protecting your data. It is also the home for security audits completed by third parties.
+Pagina noastră [Security](https://obsidian.md/security) compilează informații despre modul în care Obsidian abordează protecția datelor dumneavoastră. Aceasta este, de asemenea, locul unde sunt publicate auditurile de securitate realizate de terți.
 
-## Considerations
+## Considerații
 
-Obsidian is designed to function as an offline and standalone application. Obsidian also supports custom plugins and themes. Additionally, we provide both official and unofficial support for various file syncing services.
+Obsidian este conceput să funcționeze ca aplicație offline și autonomă. Obsidian susține, de asemenea, module și teme personalizate. În plus, oferim asistență atât oficială, cât și neoficială pentru diverse servicii de sincronizare a fișierelor.
 
-If you do not intend to use community plugins or themes, or [[Introduction to Obsidian Sync|Obsidian Sync]] or [[Introduction to Obsidian Publish|Obsidian Publish]], your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
+Dacă nu intenționați să folosiți module comunitare sau teme, ori [[Introduction to Obsidian Sync|Obsidian Sync]] sau [[Introduction to Obsidian Publish|Obsidian Publish]], procedurile dumneavoastră standard de securizare a aplicațiilor se vor aplica. Totuși, dacă intenționați să folosiți oricare dintre aceste funcționalități, vă recomandăm să evaluați temeinic gradul lor de adecvare pentru locul dumneavoastră de muncă.
 
-## Community plugins and themes
+## Module comunitare și teme
 
-Please review the [[Plugin security]] page in addition to this section. 
+Vă rugăm să consultați pagina [[Plugin security|Securitatea modulelor]] pe lângă această secțiune.
 
-Obsidian automatically scans every version of a community plugin or theme in the [official directory](https://obsidian.md/plugins) for security vulnerabilities, code quality issues, and malware. Each project's directory page displays the results as a safety scorecard. Manual reviews continue for popular, featured, and flagged items. We do not review community items which have not been submitted to the official directory.
+Obsidian scanează automat fiecare versiune a unui modul comunitar sau a unei teme din [directorul oficial](https://obsidian.md/plugins) pentru vulnerabilități de securitate, probleme de calitate a codului și programe malițioase. Pagina de director a fiecărui proiect afișează rezultatele sub forma unui punctaj de siguranță. Revizuirile manuale continuă pentru elementele populare, promovate și semnalate. Nu revizuim elementele comunitare care nu au fost trimise către directorul oficial.
 
-We do not have a community store for [[CSS snippets]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
+Nu avem un magazin comunitar pentru [[CSS snippets|fragmentele CSS]]. Aceste fișiere sunt de obicei obținute din cadrul [comunității noastre Obsidian](https://obsidian.md/community) sau din depozite GitHub publice.
 
-We require bundling of assets in CSS snippets and themes. However, we have made an exception for [Google Fonts](https://fonts.google.com/) to maintain performance on mobile devices, where the impact of bundling fonts is more noticeable.
+Solicităm gruparea resurselor în fragmentele CSS și teme. Totuși, am făcut o excepție pentru [Google Fonts](https://fonts.google.com/) pentru a menține performanța pe dispozitivele mobile, unde impactul grupării fonturilor este mai vizibil.
 
-## Network and access
+## Rețea și acces
 
-While prioritizing the local-first approach of our application, Obsidian does make network calls based on the services and features you use. These network connections can be disabled via a domain firewall or application lockdown.
+Deși prioritizăm abordarea „local-first" a aplicației noastre, Obsidian efectuează apeluri de rețea în funcție de serviciile și funcționalitățile pe care le folosiți. Aceste conexiuni de rețea pot fi dezactivate printr-un firewall pentru domenii sau prin blocarea aplicației.
 
-Obsidian makes these network connections on HTTPS port 443.
+Obsidian realizează aceste conexiuni de rețea pe portul HTTPS 443.
 
-The following is a list of network connections Obsidian makes.
+Mai jos este o listă a conexiunilor de rețea pe care le realizează Obsidian.
 
-### Obsidian-sourced connections
+### Conexiuni provenite de la Obsidian
 
-- **Early access updates**: Uses `releases.obsidian.md`.
-- **Account and license management**: When accessing your Obsidian account in Settings and applying a Commercial License, we call `api.obsidian.md`.
-- **Obsidian Sync**: Used for syncing your notes across devices.
-	- `sync-xx.obsidian.md`, where `xx` is a number between 01-100.
+- **Actualizări cu acces timpuriu**: Folosește `releases.obsidian.md`.
+- **Gestionarea contului și a licenței**: Când accesați contul dumneavoastră Obsidian în Setări și aplicați o licență comercială, apelăm `api.obsidian.md`.
+- **Obsidian Sync**: Folosit pentru sincronizarea notițelor dumneavoastră între dispozitive.
+	- `sync-xx.obsidian.md`, unde `xx` este un număr între 01-100.
 - **Obsidian Publish**:
-    1. Backend: `publish-main.obsidian.md` and `publish-xx.obsidian.md`, where `xx` is a number.
+    1. Backend: `publish-main.obsidian.md` și `publish-xx.obsidian.md`, unde `xx` este un număr.
     2. Frontend: `publish.obsidian.md`.
 
-### GitHub-sourced connections
+### Conexiuni provenite de la GitHub
 
-Obsidian makes network requests to both `github.com` and `raw.githubusercontent.com`.
+Obsidian realizează solicitări de rețea atât către `github.com`, cât și către `raw.githubusercontent.com`.
 
-- **Public releases**: If automatic updates are enabled, Obsidian checks GitHub for public releases.
-- **Third-party themes and plugins**:
-    - A check is performed once every 12 hours from the app's startup time to fetch a file hosted on GitHub used for "plugin deprecations." This file helps remotely disable specific versions of plugins known to malfunction, cause data loss, or potentially be vulnerable or malicious.
-    - Enabled plugins may generate network traffic outside Obsidian and GitHub's control.
+- **Versiuni publice**: Dacă actualizările automate sunt activate, Obsidian verifică GitHub pentru versiuni publice.
+- **Teme și module terțe**:
+    - O verificare este efectuată o dată la 12 ore de la pornirea aplicației pentru a prelua un fișier găzduit pe GitHub, folosit pentru „dezactivări de module." Acest fișier ajută la dezactivarea de la distanță a anumitor versiuni de module cunoscute ca funcționând defectuos, cauzând pierderi de date sau fiind potențial vulnerabile ori malițioase.
+    - Modulele activate pot genera trafic de rețea în afara controlului Obsidian și GitHub.
 
-### Other connections
+### Alte conexiuni
 
-- **Embedded online content**: When opening notes that embed online content, such as an image (`![cat](https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg)`).
-- **DNS requests**: If a hostname needs to be resolved before establishing a connection, including DNS over HTTPS. Refer to [Chromium's documentation](https://source.chromium.org/chromium/chromium/src/+/main:net/dns/public/doh_provider_entry.cc;l=120?q=chrome.cloudflare-dns.com&ss=chromium) for more information.
+- **Conținut online încorporat**: La deschiderea notițelor care încorporează conținut online, cum ar fi o imagine (`![cat](https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg)`).
+- **Solicitări DNS**: Dacă un nume de gazdă trebuie rezolvat înainte de stabilirea unei conexiuni, inclusiv DNS prin HTTPS. Consultați [documentația Chromium](https://source.chromium.org/chromium/chromium/src/+/main:net/dns/public/doh_provider_entry.cc;l=120?q=chrome.cloudflare-dns.com&ss=chromium) pentru mai multe informații.
 
-## Frequently asked questions
+## Întrebări frecvente
 
-### Account security
+### Securitatea contului
 
-**Does Obsidian support Single Sign-On (SSO)?**
-Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Introduction to Obsidian Publish|Obsidian Publish]] or [[Introduction to Obsidian Sync|Obsidian Sync]].
+**Obsidian susține Single Sign-On (SSO)?**
+Obsidian nu susține SSO. În majoritatea cazurilor de utilizare, Obsidian nu necesită un cont sau o autentificare la locul dumneavoastră de muncă, cu excepția cazului în care folosiți [[Introduction to Obsidian Publish|Obsidian Publish]] sau [[Introduction to Obsidian Sync|Obsidian Sync]].
 
-**Does Obsidian support Multi-Factor Authentication (MFA)?**
-Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]] who have 2FA enabled will be required to confirm their 2FA key when they first log into the application.
+**Obsidian susține autentificarea cu mai mulți factori (MFA)?**
+Obsidian susține [[2-factor authentication|autentificarea în doi pași]] (2FA) pentru conturile Obsidian, dar nu susține 2FA pentru deschiderea și utilizarea aplicației de bază. Utilizatorii [[Introduction to Obsidian Sync|Obsidian Sync]] și [[Introduction to Obsidian Publish|Obsidian Publish]] care au 2FA activat vor trebui să confirme cheia lor 2FA la prima autentificare în aplicație.
 
-### Assessments and certifications
+### Evaluări și certificări
 
-**Will you accept security assessments from our company?**
-We require a minimum quoted purchase order amount before considering completing a security assessment. These assessments are often time-consuming and may not be applicable to offline applications like Obsidian, as they are typically geared towards cloud-based services.
+**Acceptați evaluări de securitate din partea companiei noastre?**
+Solicităm o sumă minimă cotată prin comandă de achiziție înainte de a lua în considerare realizarea unei evaluări de securitate. Aceste evaluări consumă adesea mult timp și pot să nu fie aplicabile aplicațiilor offline precum Obsidian, deoarece sunt de obicei orientate spre serviciile bazate pe cloud.
 
-However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Help and support#Contact Obsidian support|Obsidian support]] to inquire about this option.
+Totuși, puteți renunța la această sumă cotată prin comandă de achiziție acceptând să plătiți un avans. Vă rugăm să [[Help and support#Contact Obsidian support|contactați asistența Obsidian]] pentru a afla mai multe despre această opțiune.
 
-**Do you have any recognized certifications related to Information Security or quality standards, such as ISO27001, NIST, COBIT, or other ISO or CSA certifications?**
-Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits](https://obsidian.md/security).
+**Aveți certificări recunoscute legate de securitatea informației sau standarde de calitate, precum ISO27001, NIST, COBIT sau alte certificări ISO sau CSA?**
+Nu, deocamdată. Ar putea fi ceva ce vom explora în viitor, dar în prezent, ne concentrăm pe [auditurile noastre de securitate](https://obsidian.md/security).

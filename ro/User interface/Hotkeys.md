@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: hotkeys
 ---
 
-Hotkeys are customizable keyboard shortcuts for Obsidian commands. You can assign any keyboard combination to trigger commands like opening files, inserting templates, or toggling plugins.
+Combinațiile de taste sunt scurtături de la tastatură personalizabile pentru comenzile din Obsidian. Puteți asocia orice combinație de taste pentru a declanșa comenzi precum deschiderea fișierelor, inserarea șabloanelor sau activarea/dezactivarea modulelor.
 
-Hotkeys are different from [[Editing shortcuts|system keyboard shortcuts]] (like `Ctrl+C` for copy), which are provided by your operating system and cannot be customized in Obsidian.
+Combinațiile de taste sunt diferite de [[Editing shortcuts|scurtăturile de tastatură ale sistemului]] (precum `Ctrl+C` pentru copiere), care sunt oferite de sistemul dvs. de operare și nu pot fi personalizate în Obsidian.
 
-## View hotkeys
+## Vizualizarea combinațiilor de taste
 
-The fastest way to see the hotkey set for a command is to find the command in the [[Command palette]]. If there's a hotkey listed for that command, it's set.
+Cel mai rapid mod de a vedea combinația de taste asociată unei comenzi este să căutați comanda în [[Command palette]]. Dacă apare o combinație de taste listată pentru acea comandă, înseamnă că este setată.
 
-You can also view and manage all hotkeys in **[[Settings]] → Hotkeys**.
+De asemenea, puteți vizualiza și gestiona toate combinațiile de taste în **[[Settings]] → Combinații de taste**.
 
-## Set a hotkey
+## Setarea unei combinații de taste
 
-To add or modify a hotkey:
+Pentru a adăuga sau modifica o combinație de taste:
 
-1. Open **[[Settings]] → Hotkeys**.
-2. Find the command in the list or use the search filter.
-3. Select the plus (+) icon next to the command.
-4. Press the keyboard combination you want to use.
-5. Select **Save** to confirm.
+1. Deschideți **[[Settings]] → Combinații de taste**.
+2. Găsiți comanda în listă sau folosiți filtrul de căutare.
+3. Selectați pictograma plus (+) de lângă comandă.
+4. Apăsați combinația de taste pe care doriți să o folosiți.
+5. Selectați **Salvați** pentru a confirma.
 
-You can assign multiple hotkey combinations to a single command by selecting the plus (+) icon again after setting the first hotkey.
+Puteți asocia mai multe combinații de taste unei singure comenzi selectând din nou pictograma plus (+) după setarea primei combinații.
 
-## Remove a hotkey
+## Eliminarea unei combinații de taste
 
-To remove a hotkey:
+Pentru a elimina o combinație de taste:
 
-1. Open **[[Settings]] → Hotkeys**.
-2. Find the command with the hotkey you want to remove.
-3. Select the X icon next to the keyboard combination.
+1. Deschideți **[[Settings]] → Combinații de taste**.
+2. Găsiți comanda a cărei combinație de taste doriți să o eliminați.
+3. Selectați pictograma X de lângă combinația de taste.
 
-## Filter hotkeys
+## Filtrarea combinațiilor de taste
 
-To show only commands that have assigned hotkeys, select the filter icon in **[[Settings]] → Hotkeys**.
+Pentru a afișa doar comenzile care au combinații de taste asociate, selectați pictograma de filtrare din **[[Settings]] → Combinații de taste**.
 
-## Non-US keyboard layouts
+## Aranjamente de tastatură non-US
 
-Hotkeys are displayed as they would appear on a US keyboard layout. Even if the displayed combination doesn't match your keyboard layout, the hotkey will work based on the actual keys you pressed (as long as you don't change your keyboard layout).
+Combinațiile de taste sunt afișate așa cum ar apărea pe un aranjament de tastatură US. Chiar dacă combinația afișată nu corespunde aranjamentului dvs. de tastatură, combinația de taste va funcționa pe baza tastelor efective pe care le-ați apăsat (atât timp cât nu vă schimbați aranjamentul de tastatură).
 
-## Default keyboard shortcuts
+## Scurtături de tastatură implicite
 
-For a comprehensive list of default keyboard shortcuts for editing and navigation, see [[Editing shortcuts]].
+Pentru o listă completă a scurtăturilor de tastatură implicite pentru editare și navigare, consultați [[Editing shortcuts]].

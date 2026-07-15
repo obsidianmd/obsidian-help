@@ -1,103 +1,102 @@
 ---
-localized: null
 permalink: resources
 publish: true
 mobile: true
-description: 'Find support resources, report security or community violations, and learn how to contribute to Obsidian.'
+description: 'Găsește resurse de asistență, raportează probleme de securitate sau încălcări ale regulilor comunității și află cum poți contribui la Obsidian.'
 ---
 
-Find support resources, report security or community violations, and learn how to contribute to Obsidian.
+Găsește resurse de asistență, raportează probleme de securitate sau încălcări ale regulilor comunității și află cum poți contribui la Obsidian.
 
-## Questions and advice
+## Întrebări și sfaturi
 
-If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
+Dacă ai o întrebare despre modul de utilizare a Obsidian sau vrei să cunoști alți utilizatori Obsidian, te poți alătura uneia dintre canalele noastre comunitare:
 
-- [[Sandbox vault|Explore the Sandbox vault]]
-- [Join our Discord server](https://discord.gg/obsidianmd)
-- [Visit the forum](https://forum.obsidian.md/)
+- [[Sandbox vault|Explorează seiful Sandbox]]
+- [Alătură-te serverului nostru Discord](https://discord.gg/obsidianmd)
+- [Vizitează forumul](https://forum.obsidian.md/)
 
-### Report bugs and request features
+### Raportează erori și solicită funcționalități
 
-> [!tip]- Check for duplicates first
-> Before you request a new feature or report a bug, please look through the other posts to make sure someone else hasn't already submitted it.
+> [!tip]- Verifică mai întâi dacă există duplicate
+> Înainte de a solicita o funcționalitate nouă sau de a raporta o eroare, te rugăm să parcurgi celelalte postări pentru a te asigura că nimeni altcineva nu a trimis deja aceeași solicitare.
 
-If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
+Dacă dorești să sugerezi o funcționalitate în Obsidian, mergi la [Solicitări de funcționalități](https://forum.obsidian.md/c/feature-requests/8).
 
-If you want to report a bug in Obsidian, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
+Dacă dorești să raportezi o eroare în Obsidian, mergi la [Rapoarte de erori](https://forum.obsidian.md/c/bug-reports/7). Rapoartele de erori sunt mutate în [Cimitirul erorilor](https://forum.obsidian.md/c/bug-graveyard/12) odată ce sunt rezolvate.
 
-### Collect debug information
+### Colectează informații de depanare
 
-When you encounter a bug or need assistance from [[#Contact Obsidian support|Obsidian support]], providing debug information can be very helpful. Here's how to obtain it:
+Când întâmpini o eroare sau ai nevoie de asistență din partea [[#Contact Obsidian support|asistenței Obsidian]], furnizarea informațiilor de depanare poate fi foarte utilă. Iată cum le poți obține:
 
-1. Open the [[Command palette]].
-2. Type **Show debug info**.
-3. Select the highlighted **Show debug info** option.
-4. Select **Copy to clipboard**.
-5. Paste the copied information into your bug report or Obsidian support email.
+1. Deschide [[Command palette|Paleta de comenzi]].
+2. Scrie **Show debug info**.
+3. Selectează opțiunea evidențiată **Show debug info**.
+4. Selectează **Copiază în clipboard**.
+5. Lipește informațiile copiate în raportul tău de eroare sau în e-mailul către asistența Obsidian.
 
-### Check startup time
+### Verifică timpul de pornire
 
-You can check how long Obsidian takes to start by using the **Startup time** feature.
+Poți verifica cât timp îi ia lui Obsidian să pornească folosind funcția **Timp de pornire**.
 
-1. Open **[[Settings]] → General → Advanced**.
-2. Next to **Notify if startup takes longer than expected**, select the **timer icon**.
-3. A **Startup time** window will appear, showing detailed timing information:
-   - **Total app startup**: Overall launch time.
-   - **Initialization**: Time spent loading the app itself.
-   - **Vault**: Time to load your vault files.
-   - **Workspace**: Time to restore tabs and layout.
-   - **Core plugins**: Time used by active core plugins.
-4. You can select **Copy to clipboard** to copy the report for troubleshooting or sharing.
+1. Deschide **[[Settings|Setări]] → General → Avansat**.
+2. Lângă **Notifică dacă pornirea durează mai mult decât se așteaptă**, selectează **pictograma cronometru**.
+3. Va apărea o fereastră **Timp de pornire**, care afișează informații detaliate despre durată:
+   - **Pornirea totală a aplicației**: Timpul total de lansare.
+   - **Inițializare**: Timpul petrecut pentru încărcarea aplicației în sine.
+   - **Seif**: Timpul necesar pentru încărcarea fișierelor din seiful tău.
+   - **Spațiu de lucru**: Timpul necesar pentru restabilirea filelor și a aspectului.
+   - **Module integrate**: Timpul utilizat de modulele integrate active.
+4. Poți selecta **Copiază în clipboard** pentru a copia raportul în vederea depanării sau a partajării.
 
-Additionally, you can toggle **Notify if startup takes longer than expected** to receive a warning if startup is unusually slow.
+În plus, poți activa **Notifică dacă pornirea durează mai mult decât se așteaptă** pentru a primi un avertisment dacă pornirea este neobișnuit de lentă.
 
-### Capture console logs
+### Captează jurnalele consolei
 
-When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
+Când trebuie să raportezi o eroare legată de un modul Obsidian sau când ți se solicită de către [[#Contact Obsidian support|asistența Obsidian]] să furnizezi informații din jurnal, s-ar putea să fie nevoie să accesezi consola Obsidian din cadrul aplicației Obsidian. Iată cum să faci acest lucru, în funcție de sistemul de operare:
 
 - **Windows/Linux**: `Ctrl+Shift+I`
 - **macOS**: `Command+Option+I`
 
-> [!info]+ Alternative access method
-> If using the **Obsidian frame** Window frame style, you can also access the Obsidian console via the title menu. 
+> [!info]+ Metodă alternativă de acces
+> Dacă folosești stilul de fereastră **Cadru Obsidian**, poți accesa de asemenea consola Obsidian din meniul barei de titlu.
 
-Once you've opened the developer console:
+După ce ai deschis consola pentru dezvoltatori:
 
-1. Select **console** in the top menu.
-2. Choose the **errors** side menu option. Any errors will be displayed as `# errors`.
-3. Select one of the red error messages.
-4. Choose the option to **Save as...** This will save all the errors in the console.
-5. Save the log file to your device.
-6. Attach the log file to your bug report or Obsidian support email.
+1. Selectează **console** în meniul de sus.
+2. Alege opțiunea din meniul lateral **errors**. Orice eroare va fi afișată sub forma `# errors`.
+3. Selectează unul dintre mesajele de eroare roșii.
+4. Alege opțiunea **Save as...**. Aceasta va salva toate erorile din consolă.
+5. Salvează fișierul jurnal pe dispozitivul tău.
+6. Atașează fișierul jurnal la raportul tău de eroare sau la e-mailul către asistența Obsidian.
 
 ![[help-support-console-menu.png#interface|600]]
 
-> [!warning]+ Mobile console access
-> Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) to automatically generate the console log data in a markdown note.
+> [!warning]+ Accesul la consolă pe mobil
+> Dispozitivele mobile și tabletele au acces limitat la consolele lor de dezvoltator. Pentru acești utilizatori, recomandăm folosirea modulului comunitar [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) pentru a genera automat datele jurnalului consolei într-o notă markdown.
 
-### Contact Obsidian support
+### Contactează asistența Obsidian
 
-Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+Obsidian oferă asistență prin e-mail doar pentru întrebări legate de [[Commercial license|licențele comerciale]], contul tău, plată și serviciile suplimentare ([[Introduction to Obsidian Sync|Obsidian Sync]] și [[Introduction to Obsidian Publish|Obsidian Publish]]). Dacă ai nevoie de ajutor cu oricare dintre aceste subiecte, [trimite un e-mail echipei Obsidian](mailto:support@obsidian.md).
 
-## Report a security issue
+## Raportează o problemă de securitate
 
-If you've discovered a security issue in Obsidian, or if you suspect that a plugin is malicious, please [email the Obsidian team](mailto:support@obsidian.md).
+Dacă ai descoperit o problemă de securitate în Obsidian sau suspectezi că un modul este malițios, te rugăm să [trimiți un e-mail echipei Obsidian](mailto:support@obsidian.md).
 
-## Report a Code of Conduct violation
+## Raportează o încălcare a Codului de conduită
 
-Whether you're a victim or witness of a violation of our [[Community code of conduct]], you can report the incident to our moderator team
+Indiferent dacă ești victimă sau martor al unei încălcări a [[Community code of conduct|Codului nostru de conduită al comunității]], poți raporta incidentul echipei noastre de moderatori
 
-Report the incident on one of the following community channels:
+Raportează incidentul pe unul dintre următoarele canale comunitare:
 
-- [[Community code of conduct#Report on Discord|Report on Discord]]
-- [[Community code of conduct#Report on the forum|Report on the forum]]
+- [[Community code of conduct#Report on Discord|Raportează pe Discord]]
+- [[Community code of conduct#Report on the forum|Raportează pe forum]]
 
-## Contributing to Obsidian
+## Contribuie la Obsidian
 
-Interested in applying some skills and free time to Obsidian? Here is where we could really use your assistance:
+Ești interesat să-ți pui la dispoziție unele abilități și timp liber pentru Obsidian? Iată unde am avea cu adevărat nevoie de ajutorul tău:
 
-- Help your fellow Obsidian users out by answering questions on our [discord server](https://discord.gg/obsidianmd), our [forum](https://forum.obsidian.md/), or the [ObsidianMD](https://old.reddit.com/r/ObsidianMD/) reddit.
-- [[Developers]], we could really use your help on expanding our [Obsidian Developer Documentation](https://github.com/obsidianmd/obsidian-developer-docs). 
-- Do you know any written language besides English? Consider assisting with our [[Translations]] into other languages.
-- Is there something in these help docs that are out of date, or confusing? Grab the [[Style guide]] and submit an [issue and pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
-- If able, you can [[Financial contributions|financially contribute]] by utilizing one of our paid add-ons. 
+- Ajută-i pe ceilalți utilizatori Obsidian răspunzând la întrebări pe [serverul nostru discord](https://discord.gg/obsidianmd), pe [forumul nostru](https://forum.obsidian.md/) sau pe subreddit-ul [ObsidianMD](https://old.reddit.com/r/ObsidianMD/).
+- [[Developers|Dezvoltatori]], chiar am putea folosi ajutorul tău pentru extinderea [Documentației pentru dezvoltatori Obsidian](https://github.com/obsidianmd/obsidian-developer-docs).
+- Cunoști vreo altă limbă scrisă în afară de engleză? Ia în considerare să contribui la [[Translations|traducerile]] noastre în alte limbi.
+- Există ceva în aceste documente de ajutor care este depășit sau confuz? Consultă [[Style guide|ghidul de stil]] și trimite o [problemă și un pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
+- Dacă poți, poți [[Financial contributions|contribui financiar]] utilizând unul dintre serviciile noastre suplimentare plătite.

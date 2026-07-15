@@ -1,70 +1,69 @@
 ---
-localized: null
 permalink: backup
 ---
-If you haven't backed up your computer yet, start now! Obsidian's [[File recovery]] plugin is useful but limited. It can only recover a certain amount of data, and it stores recovery information per device. For more robust protection, we recommend that you implement a proper backup system.
+Dacă nu ați făcut încă o copie de siguranță a calculatorului, începeți acum! Modulul [[File recovery]] al Obsidian este util, dar limitat. Poate recupera doar o anumită cantitate de date și stochează informațiile de recuperare per dispozitiv. Pentru o protecție mai solidă, vă recomandăm să implementați un sistem propriu de copiere de siguranță.
 
-**Why back up your data?**
+**De ce să faceți o copie de siguranță a datelor?**
 
-By default, Obsidian stores your notes **locally** on your device, not in the cloud. This means the [data is fully yours](https://obsidian.md/about), giving you control over it. However, local storage can be affected by issues like corruption or data loss. It is never a matter of if, but when. Backing up your data protects against these inevitabilities and ensures you maintain control of your notes.
+Implicit, Obsidian vă stochează notele **local**, pe dispozitivul dumneavoastră, nu în cloud. Aceasta înseamnă că [datele vă aparțin în totalitate](https://obsidian.md/about), oferindu-vă control asupra lor. Totuși, stocarea locală poate fi afectată de probleme precum coruperea sau pierderea datelor. Nu este o chestiune de „dacă”, ci de „când”. Realizarea copiilor de siguranță vă protejează împotriva acestor situații inevitabile și vă asigură controlul asupra notelor.
 
-## Syncing is not a backup
+## Sincronizarea nu este o copie de siguranță
 
-Services like [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive, and Dropbox help you sync your notes across different devices. While they may offer features like [[Version history|note restoration]], **they are not designed for backups**. Syncing keeps your notes updated, but it doesn’t protect against data loss.
+Servicii precum [[Introduction to Obsidian Sync|Obsidian Sync]], iCloud, OneDrive și Dropbox vă ajută să sincronizați notele între diferite dispozitive. Deși pot oferi funcții precum [[Version history|restaurarea notelor]], **nu sunt concepute pentru copii de siguranță**. Sincronizarea vă menține notele actualizate, dar nu vă protejează împotriva pierderii datelor.
 
-- **Sync:** Syncing ensures your files are the same on all devices. When you change a file on one device, it updates on all synced devices. Syncing services do not have a "primary" device.
-- **Backup:** A backup saves a copy of your data in a different location to help recover it in case of data loss or corruption. Backups are not meant for real-time updates or collaboration.
+- **Sincronizare:** Sincronizarea asigură că fișierele dumneavoastră sunt identice pe toate dispozitivele. Când modificați un fișier pe un dispozitiv, acesta se actualizează pe toate dispozitivele sincronizate. Serviciile de sincronizare nu au un dispozitiv „principal”.
+- **Copie de siguranță:** O copie de siguranță salvează o copie a datelor dumneavoastră într-o altă locație, pentru a ajuta la recuperarea lor în caz de pierdere sau corupere a datelor. Copiile de siguranță nu sunt destinate actualizărilor în timp real sau colaborării.
 
-To properly back up your vault, use a dedicated backup tool that creates a one-way copy of your data. This tool will send your data to a safe backup location without changing the data on your device.
+Pentru a face corect o copie de siguranță a seifului, folosiți un instrument dedicat care creează o copie unidirecțională a datelor. Acest instrument va trimite datele dumneavoastră către o locație sigură de rezervă, fără a modifica datele de pe dispozitivul dumneavoastră.
 
-If you use multiple devices with syncing, choose **one device** to be your backup device. This is usually your main or "primary" device, the one you use the most. Note that most syncing services do not recognize any device as "primary"; this is just a concept to help you manage backups.
+Dacă folosiți mai multe dispozitive cu sincronizare, alegeți **un singur dispozitiv** care să fie dispozitivul dumneavoastră pentru copii de siguranță. De obicei, acesta este dispozitivul principal, cel pe care îl folosiți cel mai mult. Rețineți că majoritatea serviciilor de sincronizare nu recunosc niciun dispozitiv drept „principal”; acesta este doar un concept care vă ajută să gestionați copiile de siguranță.
 
-> [!Example] You use Obsidian Sync on your laptop, tablet, phone, and work desktop. You mostly use your vault on your work desktop, sometimes on your laptop, and rarely on your tablet or phone. In this case, your work desktop would be your "primary device" for backup.
+> [!Example] Folosiți Obsidian Sync pe laptop, tabletă, telefon și calculatorul de la serviciu. Vă folosiți seiful mai ales pe calculatorul de la serviciu, uneori pe laptop și rareori pe tabletă sau telefon. În acest caz, calculatorul de la serviciu ar fi „dispozitivul dumneavoastră principal” pentru copiile de siguranță.
 
-## Use community plugins
+## Folosiți module comunitare
 
-While the Obsidian Team cannot officially endorse any specific plugin, we recognize two [community plugins](https://community.obsidian.md/search?type=plugin&categories=backup) that have become popular among users for backing up their files:
+Deși Echipa Obsidian nu poate recomanda oficial niciun modul anume, recunoaștem două [module comunitare](https://community.obsidian.md/search?type=plugin&categories=backup) care au devenit populare printre utilizatori pentru a-și copia fișierele de rezervă:
 
-- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Use this plugin to back up your vault by committing its contents to a [Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). It's an effective way to version control your notes and ensure their safety on a remote server. However, please be aware that your data may be stored on an [[#Use cloud-based services|external hosting platform]] using this method.
-- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** This plugin lets you create local copies of your vault in a folder of your choice, with options for archival. You can even use a syncing folder, like a Dropbox folder, to combine local and cloud backups. This method **pairs well** with the backup options described below.
+- **[Obsidian Git](https://community.obsidian.md/plugins/obsidian-git):** Folosiți acest modul pentru a face o copie de siguranță a seifului, trimițând conținutul acestuia într-un [depozit Git](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository). Este o modalitate eficientă de a controla versiunile notelor și de a le asigura siguranța pe un server la distanță. Totuși, rețineți că datele dumneavoastră pot fi stocate pe o [[#Folosiți servicii bazate pe cloud|platformă de găzduire externă]] folosind această metodă.
+- **[Local Backup](https://community.obsidian.md/plugins/local-backup):** Acest modul vă permite să creați copii locale ale seifului într-un director la alegere, cu opțiuni de arhivare. Puteți folosi chiar și un director de sincronizare, precum un director Dropbox, pentru a combina copiile de siguranță locale cu cele din cloud. Această metodă **se potrivește bine** cu opțiunile de copiere de siguranță descrise mai jos.
 
-See the [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) category for more community plugin options.
+Consultați categoria [Backup](https://community.obsidian.md/search?type=plugin&categories=backup) pentru mai multe opțiuni de module comunitare.
 
-## Use cloud-based services
+## Folosiți servicii bazate pe cloud
 
-> [!info] It is not recommended that you keep your vault location in your chosen backup service.
+> [!info] Nu este recomandat să păstrați locația seifului în serviciul de copiere de siguranță ales.
 
-Keeping your backup in the cloud is an alternative and a complement to physical data storage, instead of an external hard drive or USB stick. An external hard drive or USB stick can be lost or damaged. The biggest advantage of storing files in the cloud is that they are available anytime, anywhere. The downside is, most backup services are owned by a private company.
+Păstrarea copiei de siguranță în cloud este o alternativă și un complement la stocarea fizică a datelor, în locul unui hard disk extern sau al unui stick USB. Un hard disk extern sau un stick USB se poate pierde sau deteriora. Cel mai mare avantaj al stocării fișierelor în cloud este că sunt disponibile oricând, de oriunde. Dezavantajul este că majoritatea serviciilor de copiere de siguranță sunt deținute de o companie privată.
 
-In terms of security, you should always pay close attention to access and security with cloud backups. [Worldbackupday](https://www.worldbackupday.com/en) keeps an up-to-date list of online backup services to consider using.
+În privința securității, ar trebui să acordați întotdeauna atenție sporită accesului și securității în cazul copiilor de siguranță din cloud. [Worldbackupday](https://www.worldbackupday.com/en) menține o listă actualizată de servicii de copiere de siguranță online pe care le puteți lua în considerare.
 
-## Use external drives
+## Folosiți unități externe
 
-**Hard drives and SSD drives**
-External hard drive backups are still valuable in an increasing cloud-based world, and are mainly used for data storage and computer backups. The biggest disadvantage of an external drive is that the drive can break down or get lost. The biggest advantage is that the storage space only needs to be purchased once. Using an external hard drive is often combined with a [[#Use computer backups|computer backup]].
+**Hard disk-uri și unități SSD**
+Copiile de siguranță pe hard disk extern rămân valoroase într-o lume tot mai orientată către cloud și sunt folosite în principal pentru stocarea datelor și copierea de siguranță a calculatorului. Cel mai mare dezavantaj al unei unități externe este că aceasta se poate defecta sau pierde. Cel mai mare avantaj este că spațiul de stocare trebuie achiziționat o singură dată. Folosirea unui hard disk extern este adesea combinată cu o [[#Folosiți copii de siguranță ale calculatorului|copie de siguranță a calculatorului]].
 
-**USB flash drives**
-Flash drives (also called thumb drives, memory sticks, or pen drives) are a simple and effective method for quick backups.
+**Stick-uri USB**
+Stick-urile USB (numite și memorii flash sau pen drive-uri) reprezintă o metodă simplă și eficientă pentru copii de siguranță rapide.
 
-1. Insert the flash drive into your computer or laptop.
-2. Ensure the device is recognized and mounted in your file system. If necessary, format the flash drive to be compatible with your filesystem.
-3. Copy your vault folder from its current location onto the flash drive.
-4. Safely unmount the flash drive.
-5. Remove the flash drive from your device.
+1. Introduceți stick-ul USB în calculator sau laptop.
+2. Asigurați-vă că dispozitivul este recunoscut și montat în sistemul de fișiere. Dacă este necesar, formatați stick-ul USB pentru a fi compatibil cu sistemul dumneavoastră de fișiere.
+3. Copiați directorul seifului din locația curentă pe stick-ul USB.
+4. Demontați în siguranță stick-ul USB.
+5. Scoateți stick-ul USB din dispozitiv.
 
-**NAS backup**
-For experienced users, backing up data on a NAS (Network Attached Storage) server is a good and secure method, as it has multiple hard drives and additional recovery mechanisms.
+**Copie de siguranță NAS**
+Pentru utilizatorii experimentați, realizarea unei copii de siguranță a datelor pe un server NAS (Network Attached Storage) este o metodă bună și sigură, deoarece dispune de mai multe hard disk-uri și mecanisme suplimentare de recuperare.
 
-> [!tip] If your external drive contains sensitive information, it is recommended to keep the external drive secure, such as in a secured room.
+> [!tip] Dacă unitatea externă conține informații sensibile, este recomandat să o păstrați într-un loc sigur, cum ar fi o încăpere securizată.
 
-## Use computer backups
+## Folosiți copii de siguranță ale calculatorului
 
-Your operating system itself offer the ability to help create backups, whether online in the cloud, or in an external drive.
+Sistemul de operare în sine oferă posibilitatea de a crea copii de siguranță, fie online în cloud, fie pe o unitate externă.
 
-- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Backup with OneDrive or an external drive.
-- **[Mac](https://support.apple.com/en-us/104984)**: Backup to an external device with Time Machine.
-- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` to a directory or drive of choice.
+- **[Windows](https://www.microsoft.com/en-us/windows/learning-center/back-up-files)**: Copie de siguranță cu OneDrive sau o unitate externă.
+- **[Mac](https://support.apple.com/en-us/104984)**: Copie de siguranță pe un dispozitiv extern cu Time Machine.
+- **[Linux](https://linuxize.com/post/how-to-use-rsync-for-local-and-remote-data-transfer-and-synchronization/)**: `rsync` către un director sau o unitate la alegere.
 
-## Next steps
+## Pașii următori
 
-This help page provides a brief overview of backup options, but it's not exhaustive. For more in-depth information, visit [Worldbackupday.com](https://www.worldbackupday.com/en) or ask other Obsidian users in [our community](https://obsidian.md/community) about their backup strategies!
+Această pagină de ajutor oferă o scurtă prezentare a opțiunilor de copiere de siguranță, dar nu este exhaustivă. Pentru informații mai detaliate, vizitați [Worldbackupday.com](https://www.worldbackupday.com/en) sau întrebați alți utilizatori Obsidian în [comunitatea noastră](https://obsidian.md/community) despre strategiile lor de copiere de siguranță!

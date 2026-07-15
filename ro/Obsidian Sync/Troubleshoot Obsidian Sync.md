@@ -1,98 +1,97 @@
 ---
-localized: null
 permalink: sync/troubleshoot
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
+description: Această pagină listează problemele mai puțin obișnuite pe care le poți întâlni cu Obsidian Sync și modul de rezolvare a acestora.
 ---
 
-This page lists uncommon issues you may encounter with [[Introduction to Obsidian Sync|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status icon and messages]] and [[Frequently asked questions]] pages.
+Această pagină listează problemele mai puțin obișnuite pe care le poți întâlni cu [[Introduction to Obsidian Sync|Obsidian Sync]] și modul de rezolvare a acestora. Înainte de a continua, recomandăm să consulți paginile [[Status icon and messages]] și [[Frequently asked questions]].
 
 ## General
 
-### Conflict resolution
+### Rezolvarea conflictelor
 
-A conflict happens when you change the same file on two or more devices before they sync. For example, you edit a note on your computer. Before that change uploads, you also change the same note on your phone.
+Un conflict apare atunci când modifici același fișier pe două sau mai multe dispozitive înainte ca acestea să se sincronizeze. De exemplu, editezi o notă pe computerul tău. Înainte ca acea modificare să fie încărcată, modifici și tu aceeași notă pe telefonul tău.
 
-Conflicts happen more often when you work offline. There are more changes and longer time between syncs, which increases the chance of conflicts.
+Conflictele apar mai des atunci când lucrezi offline. Există mai multe modificări și un interval mai lung între sincronizări, ceea ce crește șansele de conflicte.
 
-#### How Obsidian Sync handles conflicts
+#### Cum gestionează Obsidian Sync conflictele
 
-When Obsidian Sync finds a conflict, the result depends on the file type:
+Când Obsidian Sync detectează un conflict, rezultatul depinde de tipul fișierului:
 
-- **Markdown files**: Obsidian Sync merges the changes using Google's [diff-match-patch](https://github.com/google/diff-match-patch) algorithm.
-- **Other file types**: For all other files, including canvases, Obsidian uses a "last modified wins" approach. The most recently modified version replaces earlier versions.
+- **Fișiere Markdown**: Obsidian Sync îmbină modificările folosind algoritmul [diff-match-patch](https://github.com/google/diff-match-patch) al Google.
+- **Alte tipuri de fișiere**: Pentru toate celelalte fișiere, inclusiv pânzele, Obsidian folosește o abordare de tip „ultima modificare câștigă”. Versiunea modificată cel mai recent înlocuiește versiunile anterioare.
 
-For conflicts in Obsidian settings, such as plugin settings, Obsidian Sync merges the JSON files. It applies keys from the local JSON on top of the remote JSON.
+Pentru conflictele din setările Obsidian, precum setările modulelor, Obsidian Sync îmbină fișierele JSON. Aplică cheile din JSON-ul local peste JSON-ul de la distanță.
 
-#### Conflict resolution options
+#### Opțiuni de rezolvare a conflictelor
 
-Starting in Obsidian 1.9.7, you can choose how to handle conflicts. To configure this setting:
+Începând cu Obsidian 1.9.7, poți alege cum să gestionezi conflictele. Pentru a configura această setare:
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Under **[[Sync settings and selective syncing#Conflict resolution|Conflict resolution]]**, choose your preferred option:
-   - **Automatically merge** (default): Obsidian Sync combines all changes from different devices into a single file. This saves all edits, but it may sometimes create duplicate text or formatting problems. You will need to fix these manually.
-   - **Create conflict file**: When Obsidian finds conflicting changes, it creates a separate conflict file instead of merging automatically. You can then review both versions and merge them yourself. This gives you full control over the final result.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, selectează **Sync**.
+3. La **[[Sync settings and selective syncing#Rezolvarea conflictelor|Rezolvarea conflictelor]]**, alege opțiunea preferată:
+   - **Îmbinare automată** (implicit): Obsidian Sync combină toate modificările de pe diferite dispozitive într-un singur fișier. Aceasta salvează toate editările, dar poate crea uneori text duplicat sau probleme de formatare. Va trebui să le corectezi manual.
+   - **Creează fișier de conflict**: Când Obsidian detectează modificări aflate în conflict, creează un fișier separat de conflict în loc să le îmbine automat. Poți apoi revizui ambele versiuni și le poți îmbina tu însuți. Acest lucru îți oferă control total asupra rezultatului final.
 
-> [!warning]+ Configure on all devices
-> Conflict resolution settings are device-specific. You must configure your preferred option on each of your devices. This ensures the same behavior across all your synced devices.
+> [!warning]+ Configurează pe toate dispozitivele
+> Setările de rezolvare a conflictelor sunt specifice fiecărui dispozitiv. Trebuie să configurezi opțiunea preferată pe fiecare dintre dispozitivele tale. Acest lucru asigură același comportament pe toate dispozitivele tale sincronizate.
 
-**Conflict file naming pattern**
+**Model de denumire a fișierelor de conflict**
 
-When you use the "Create conflict file" option, Obsidian creates a new file with this naming pattern:
+Când folosești opțiunea „Creează fișier de conflict”, Obsidian creează un fișier nou cu acest model de denumire:
 
 ```
 original-note-name (Conflicted copy device-name YYYYMMDDHHMM).md
 ```
 
-For example, if a conflict happens in a note called `Meeting notes.md`, the conflict file might be named:
+De exemplu, dacă apare un conflict într-o notă numită `Meeting notes.md`, fișierul de conflict ar putea fi denumit:
 
 ```
 Meeting notes (Conflicted copy MyMacBook2 202411281430).md
 ```
 
-The conflict file contains the changes from the device where the conflict was detected. The original file keeps the remote version. You can compare both files and manually merge the content.
+Fișierul de conflict conține modificările de pe dispozitivul pe care a fost detectat conflictul. Fișierul original păstrează versiunea de la distanță. Poți compara ambele fișiere și îmbina manual conținutul.
 
-> [!info]+ Check the Sync log
-> To check when conflicts happened, open the [[Status icon and messages#Sync activity log|Sync log]]. Filter for "Merge Conflicts" or search for "Conflict".
+> [!info]+ Verifică jurnalul Sync
+> Pentru a verifica când au avut loc conflictele, deschide [[Status icon and messages#Jurnalul de activitate Sync|jurnalul Sync]]. Filtrează după „Conflicte de îmbinare” sau caută „Conflict”.
 
-###  Sync deleted a note I just created on two devices
+### Sync a șters o notă pe care tocmai am creat-o pe două dispozitive
 
-Obsidian Sync typically tries to [[#Conflict resolution|resolve conflicts]] by merging conflicting notes across devices. However, problems can happen for users who automatically create or change notes on startup. This includes [[Daily notes]] or when using the community plugin [Templater](https://github.com/SilentVoid13/Templater).
+Obsidian Sync încearcă de obicei să [[#Rezolvarea conflictelor|rezolve conflictele]] prin îmbinarea notelor aflate în conflict pe diferite dispozitive. Totuși, pot apărea probleme pentru utilizatorii care creează sau modifică automat note la pornire. Acest lucru include [[Daily notes|Notele zilnice]] sau atunci când folosești modulul comunitar [Templater](https://github.com/SilentVoid13/Templater).
 
-If you create a note locally on one device and, within a couple of minutes, Sync downloads a remote version of that same note, Sync will keep the remote version without merging the two. In this case, you can recover the local version using [[File recovery]].
+Dacă creezi o notă local pe un dispozitiv și, în câteva minute, Sync descarcă o versiune la distanță a aceleiași note, Sync va păstra versiunea de la distanță fără a le îmbina pe cele două. În acest caz, poți recupera versiunea locală folosind [[File recovery]].
 
-### Sync will not sync my plugins and settings updates
+### Sync nu îmi sincronizează actualizările modulelor și setărilor
 
-Obsidian [[Frequently asked questions#Does Obsidian Sync live-reload my settings?|does not live-reload all settings]]. After you update settings or plugins, you need to restart Obsidian on other devices to see the changes. On mobile devices, you may need to force-quit the app.
+Obsidian [[Frequently asked questions#Obsidian Sync reîncarcă automat setările mele?|nu reîncarcă instant toate setările]]. După ce actualizezi setările sau modulele, trebuie să repornești Obsidian pe celelalte dispozitive pentru a vedea modificările. Pe dispozitivele mobile, s-ar putea să fie nevoie să forțezi închiderea aplicației.
 
-> [!example]- Changing a theme
-> - On your primary device (usually a computer), you change your theme back to the default from a custom theme.
-> - The Sync log confirms the updated files were sent to the remote vault, but your mobile device still shows the custom theme.
-> - On the mobile device, check the Sync log to confirm receipt of the updated `appearance.json` file.
-> - Reload or restart Obsidian on the mobile device.
-> - After reloading or restarting, the mobile device should display the same theme as your computer.
+> [!example]- Schimbarea unei teme
+> - Pe dispozitivul tău principal (de obicei un computer), schimbi tema înapoi la cea implicită de la o temă personalizată.
+> - Jurnalul Sync confirmă că fișierele actualizate au fost trimise la seiful la distanță, dar dispozitivul tău mobil încă afișează tema personalizată.
+> - Pe dispozitivul mobil, verifică jurnalul Sync pentru a confirma primirea fișierului `appearance.json` actualizat.
+> - Reîncarcă sau repornește Obsidian pe dispozitivul mobil.
+> - După reîncărcare sau repornire, dispozitivul mobil ar trebui să afișeze aceeași temă ca și computerul tău.
 
-### My files keep disappearing from Sync as soon as I restore it
+### Fișierele mele continuă să dispară din Sync imediat ce le restaurez
 
-This issue is most common on Windows. Windows Defender may quarantine files with code blocks, which causes certain notes to disappear.
+Această problemă este cea mai frecventă pe Windows. Windows Defender poate pune în carantină fișiere cu blocuri de cod, ceea ce face ca anumite note să dispară.
 
-Another common cause is double-syncing. This happens when Obsidian Sync runs alongside another syncing service.
+O altă cauză comună este dubla sincronizare. Aceasta se întâmplă atunci când Obsidian Sync rulează alături de un alt serviciu de sincronizare.
 
-![[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage]]
+![[Switch to Obsidian Sync#Mută-ți seiful din serviciul tău de sincronizare terț sau din stocarea cloud]]
 
 ---
 
-Finally, this can happen when you restore a file on one device, but then it is removed from a secondary device. This happens when the filename has [[Status icon and messages#Skipped messages|illegal characters]].
+În sfârșit, acest lucru se poate întâmpla atunci când restaurezi un fișier pe un dispozitiv, dar apoi este eliminat de pe un dispozitiv secundar. Acest lucru se întâmplă când numele fișierului conține [[Status icon and messages#Mesaje omise|caractere nevalide]].
 
 ## Android
 
-**My device is deleting my attachments I receive through Sync**
+**Dispozitivul meu îmi șterge atașamentele pe care le primesc prin Sync**
 
-This issue is likely due to Google or Android Photos managing your attachments. To prevent the system from changing files received via Sync, add a `.nomedia` [file to your vault](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) on your Android device.
+Această problemă se datorează probabil faptului că Google sau Android Photos gestionează atașamentele tale. Pentru a preveni ca sistemul să modifice fișierele primite prin Sync, adaugă un [fișier `.nomedia` în seiful tău](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) pe dispozitivul tău Android.
 
-> [!tip]- Use a plugin
-> The community plugin [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) makes this easier. Install it on your Android phone. Note that `.nomedia` files are not synced across devices through Obsidian Sync.
+> [!tip]- Folosește un modul
+> Modulul comunitar [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) facilitează acest lucru. Instalează-l pe telefonul tău Android. Reține că fișierele `.nomedia` nu sunt sincronizate pe dispozitive prin Obsidian Sync.

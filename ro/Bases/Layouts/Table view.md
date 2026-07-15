@@ -1,101 +1,100 @@
 ---
-localized: null
 permalink: bases/views/table
 ---
-Table is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+Table este un tip de [[Views|vizualizare]] pe care îl poți folosi în [[Introduction to Bases|Baze]].
 
-Select ![[lucide-table.svg#icon]]  **Table** from the view menu to display files as a table with a row for each file, and columns for [[Properties]] of that file.
+Selectează ![[lucide-table.svg#icon]]  **Tabel** din meniul de vizualizare pentru a afișa fișierele ca un tabel cu un rând pentru fiecare fișier și coloane pentru [[Properties|proprietățile]] acelui fișier.
 
-![Example of a base showing a table view with a list of books](bases-noshadow.png#interface)
+![Exemplu de bază care afișează o vizualizare de tip tabel cu o listă de cărți](bases-noshadow.png#interface)
 
-## Settings
+## Setări
 
-Table view settings can be configured in [[Views#View settings|View settings]].
+Setările vizualizării de tip tabel pot fi configurate în [[Views#View settings|Setările vizualizării]].
 
-### Row height
+### Înălțimea rândului
 
-Row height lets you display more information. Choose between **short**, **medium**, **tall**, and **extra tall**.
+Înălțimea rândului îți permite să afișezi mai multe informații. Alege între **scurtă**, **medie**, **înaltă** și **extra înaltă**.
 
-## Summaries
+## Rezumate
 
-You can add summaries to a table column to quickly calculate values like totals, averages, or counts for the rows currently visible in the view.
+Poți adăuga rezumate unei coloane din tabel pentru a calcula rapid valori precum totaluri, medii sau numărători pentru rândurile vizibile în prezent în vizualizare.
 
-Summaries are tied to the view, not the base. Each view can show different summaries for the same column.
+Rezumatele sunt asociate vizualizării, nu bazei. Fiecare vizualizare poate afișa rezumate diferite pentru aceeași coloană.
 
-### Add a summary
+### Adaugă un rezumat
 
-1. Right-click the column header in a table view.
-2. Select ![[lucide-calculator.svg#icon]] **Summarize…**.
-3. Choose one of the built-in summary functions, or select ![[lucide-square-function.svg#icon]] **Add summary** to define your own.
+1. Dă clic dreapta pe antetul coloanei într-o vizualizare de tip tabel.
+2. Selectează ![[lucide-calculator.svg#icon]] **Rezumă…**.
+3. Alege una dintre funcțiile de rezumat incluse implicit, sau selectează ![[lucide-square-function.svg#icon]] **Adaugă rezumat** pentru a-ți defini propria funcție.
 
-The summary appears at the bottom of the column. When results are [[Views#Sort and group results|grouped]] the summary for each group is displayed at the top of the group.
+Rezumatul apare în partea de jos a coloanei. Când rezultatele sunt [[Views#Sort and group results|grupate]], rezumatul pentru fiecare grup este afișat în partea de sus a grupului.
 
-Once the summary bar is added you can add more summaries for other columns by clicking the summary cell. The summary bar is hidden if all summaries are removed.
+Odată adăugată bara de rezumat, poți adăuga mai multe rezumate pentru alte coloane dând clic pe celula de rezumat. Bara de rezumat este ascunsă dacă toate rezumatele sunt eliminate.
 
-### Built-in summaries
+### Rezumate incluse implicit
 
-The following summaries are available by default. Options may vary depending on the property type.
+Următoarele rezumate sunt disponibile implicit. Opțiunile pot varia în funcție de tipul proprietății.
 
-#### All property types
+#### Toate tipurile de proprietăți
 
-- **Empty**: count of rows with no value.
-- **Filled**: count of rows with a value.
-- **Unique**: number of distinct values.
+- **Empty**: numărul de rânduri fără valoare.
+- **Filled**: numărul de rânduri cu o valoare.
+- **Unique**: numărul de valori distincte.
 
-#### Numbers
+#### Numere
 
-- **Average**: average of all numeric values.
-- **Max**: largest value.
-- **Median**: median value.
-- **Min**: smallest value.
-- **Range**: difference between max and min.
-- **Stddev**: standard deviation.
-- **Sum**: total of all values.
+- **Average**: media tuturor valorilor numerice.
+- **Max**: cea mai mare valoare.
+- **Median**: valoarea mediană.
+- **Min**: cea mai mică valoare.
+- **Range**: diferența dintre valoarea maximă și cea minimă.
+- **Stddev**: deviația standard.
+- **Sum**: totalul tuturor valorilor.
 
-#### Dates
+#### Date calendaristice
 
-- **Earliest**: the smallest/oldest date.
-- **Latest**: the largest/most recent date.
-- **Range**: difference between earliest and latest.
+- **Earliest**: cea mai mică/veche dată.
+- **Latest**: cea mai mare/recentă dată.
+- **Range**: diferența dintre cea mai timpurie și cea mai recentă dată.
 
-#### Checkbox
+#### Casetă de bifat
 
-- **Checked**: number of rows where the checkbox is on.
-- **Unchecked**: number of rows where the checkbox is off.
+- **Checked**: numărul de rânduri unde caseta de bifat este activată.
+- **Unchecked**: numărul de rânduri unde caseta de bifat este dezactivată.
 
-### Custom summaries
+### Rezumate personalizate
 
-You can define your own summary using a formula:
+Poți defini propriul rezumat folosind o formulă:
 
-1. In the ![[lucide-calculator.svg#icon]] **Summarize…** menu, choose ![[lucide-square-function.svg#icon]] **Add summary**.
-2. Give the summary a name.
-3. Enter a formula. The formula runs over the list of values in that column (for example, using a [[Functions|function]] like `values.reduce(...)`).
-4. Save the summary.
+1. În meniul ![[lucide-calculator.svg#icon]] **Rezumă…**, alege ![[lucide-square-function.svg#icon]] **Adaugă rezumat**.
+2. Dă un nume rezumatului.
+3. Introdu o formulă. Formula rulează asupra listei de valori din acea coloană (de exemplu, folosind o [[Functions|funcție]] precum `values.reduce(...)`).
+4. Salvează rezumatul.
 
-Custom summaries are useful when you need a calculation that isn’t covered by the built-in options.
+Rezumatele personalizate sunt utile când ai nevoie de un calcul care nu este acoperit de opțiunile incluse implicit.
 
-## Shortcuts
+## Comenzi rapide
 
-You can quickly move around a table view using the following mouse and [[Editing shortcuts|keyboard shortcuts]].
+Te poți deplasa rapid într-o vizualizare de tip tabel folosind următoarele [[Editing shortcuts|combinații de mouse și taste]].
 
-- Shift-click creates a cell selection.
-- Right-click a cell selection to access additional actions for those files. 
+- Shift-clic creează o selecție de celule.
+- Clic dreapta pe o selecție de celule pentru a accesa acțiuni suplimentare pentru acele fișiere.
 
-| Action                                                                                                          | Shortcut            | macOS              |
+| Acțiune                                                                                                          | Combinație            | macOS              |
 | --------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------ |
-| Copy the selected cells                                                                                         | `Ctrl+C`            | `Cmd+C`            |
-| Paste the selected cells                                                                                        | `Ctrl+V`            | `Cmd+V`            |
-| Undo changes to properties                                                                                      | `Ctrl+Z`            | `Cmd+Z`            |
-| Redo changes to properties                                                                                      | `Ctrl+Shift+Z`      | `Cmd+Shift+Z`      |
-| Select all cells in the current group                                                                           | `Ctrl+A`            | `Cmd+A`            |
-| Select all cells in a given direction                                                                           | `Ctrl+Shift+Arrow`  | `Ctrl+Shift+Arrow` |
-| Select the column                                                                                               | `Ctrl+Space`        |                    |
-| Select the row                                                                                                  | `Shift+Space`       |                    |
-| Focus the current cell — for checkboxes, this toggles the checkbox, for formulas, this opens the formula editor | `Enter`             |                    |
-| Go to the first column                                                                                          | `Home`              |                    |
-| Go to the last column                                                                                           | `End`               |                    |
-| Navigate up and down by page height                                                                             | `PageUp`,`PageDown` |                    |
-| Clear the current cell selection                                                                                | `Esc`               |                    |
-| Clear the current cells                                                                                         | `Backspace`         |                    |
-| Go to the next cell                                                                                             | `Tab`               |                    |
-| Go to the previous cell                                                                                         | `Shift-Tab`         |                    |
+| Copiază celulele selectate                                                                                         | `Ctrl+C`            | `Cmd+C`            |
+| Lipește celulele selectate                                                                                        | `Ctrl+V`            | `Cmd+V`            |
+| Anulează modificările proprietăților                                                                                      | `Ctrl+Z`            | `Cmd+Z`            |
+| Refă modificările proprietăților                                                                                      | `Ctrl+Shift+Z`      | `Cmd+Shift+Z`      |
+| Selectează toate celulele din grupul curent                                                                           | `Ctrl+A`            | `Cmd+A`            |
+| Selectează toate celulele într-o direcție dată                                                                           | `Ctrl+Shift+Arrow`  | `Ctrl+Shift+Arrow` |
+| Selectează coloana                                                                                               | `Ctrl+Space`        |                    |
+| Selectează rândul                                                                                                  | `Shift+Space`       |                    |
+| Focalizează celula curentă — pentru casete de bifat, comută caseta de bifat, pentru formule, deschide editorul de formule | `Enter`             |                    |
+| Mergi la prima coloană                                                                                          | `Home`              |                    |
+| Mergi la ultima coloană                                                                                           | `End`               |                    |
+| Navighează în sus și în jos cu o pagină                                                                             | `PageUp`,`PageDown` |                    |
+| Elimină selecția de celule curentă                                                                                | `Esc`               |                    |
+| Golește celulele curente                                                                                         | `Backspace`         |                    |
+| Mergi la celula următoare                                                                                             | `Tab`               |                    |
+| Mergi la celula anterioară                                                                                         | `Shift-Tab`         |                    |

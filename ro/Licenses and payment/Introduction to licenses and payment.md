@@ -1,60 +1,59 @@
 ---
-localized: null
 permalink: payment
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian offers several services and licenses available for purchase.
+Obsidian oferă mai multe servicii și licențe disponibile pentru achiziționare.
 
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
-	- Sync notes across devices.
+	- Sincronizează notele pe mai multe dispozitive.
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
-	- Publish notes to the web.
+	- Publică note pe web.
 - [[Obsidian Credit]]
-	- Purchase and Gift Obsidian services.
+	- Achiziționează și oferă cadou servicii Obsidian.
 - [[Commercial license]]
-	- Support Obsidian and become a featured organization.
+	- Sprijină Obsidian și devino o organizație prezentată.
 - [[Catalyst license]]
-	- Support Obsidian and get early access versions.
+	- Sprijină Obsidian și obține versiuni cu acces timpuriu.
 
- [[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.
+ [[Education and non-profit discount|Reduceri]] sunt disponibile pentru Obsidian Sync și Publish pentru instituții de învățământ și organizații non-profit. Consultă [[Refund policy]] pentru mai multe informații.
 
-## Purchase a service or license
+## Achiziționează un serviciu sau o licență
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account).
-2. Navigate to the section corresponding to the item you wish to purchase:
-    1. **Obsidian Sync** can be found in the **Sync** section.
-    2. **Obsidian Publish** can be found in the **Publish** section.
-    3. **Obsidian Credit** can be found in the **Billing** section.
-    4. **Commercial licenses** can be found in the **License** section.
-    5. **Catalyst licenses** can be found in the **Catalyst** section.
-3. Click the purple **Buy** button to proceed with your purchase.
+1. Autentifică-te sau creează-ți [contul Obsidian](https://obsidian.md/account).
+2. Navighează la secțiunea corespunzătoare articolului pe care dorești să-l achiziționezi:
+    1. **Obsidian Sync** poate fi găsit în secțiunea **Sync**.
+    2. **Obsidian Publish** poate fi găsit în secțiunea **Publish**.
+    3. **Obsidian Credit** poate fi găsit în secțiunea **Billing**.
+    4. **Licențele comerciale** pot fi găsite în secțiunea **License**.
+    5. **Licențele Catalyst** pot fi găsite în secțiunea **Catalyst**.
+3. Dă clic pe butonul mov **Buy** pentru a continua achiziția.
 
-We accept the following payment methods: Stripe, PayPal, WeChat, and AliPay.
+Acceptăm următoarele metode de plată: Stripe, PayPal, WeChat și AliPay.
 
-> [!info] PayPal and fees
-> PayPal purchases will be processed in Canadian Dollars (CAD). You may incur a foreign transaction fee from your card issuer, and PayPal may charge a currency conversion fee.
+> [!info] PayPal și comisioane
+> Achizițiile prin PayPal vor fi procesate în dolari canadieni (CAD). Este posibil să suporți un comision pentru tranzacții externe din partea emitentului cardului tău, iar PayPal poate percepe un comision de conversie valutară.
 
-After completing your payment, you will receive a receipt from the service through which you made the purchase.
+După finalizarea plății, vei primi o chitanță de la serviciul prin care ai efectuat achiziția.
 
-## Generate an invoice
+## Generează o factură
 
-Obsidian generates an invoice for all purchases within your account. To retrieve your invoice:
+Obsidian generează o factură pentru toate achizițiile din contul tău. Pentru a-ți recupera factura:
 
-1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
-2. Go to the **Billing** section.
-3. Next to **Invoices and refunds**, select **View**.
-    1. If multiple invoices are available, select the invoice you want to review and click **View** or **Download**.
+1. Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/billing).
+2. Accesează secțiunea **Billing**.
+3. Lângă **Invoices and refunds**, selectează **View**.
+    1. Dacă sunt disponibile mai multe facturi, selectează factura pe care dorești să o consulți și dă clic pe **View** sau **Download**.
 
-### Editing an invoice
+### Editarea unei facturi
 
-If you need to edit information on the invoice, such as the billing address or VAT number, follow these steps:
+Dacă trebuie să editezi informații de pe factură, cum ar fi adresa de facturare sau numărul de TVA, urmează acești pași:
 
-1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
-2. Navigate to the **Billing** section.
-3. Next to **Invoices and refunds**, select **View**.
-    1. If multiple invoices are available, select the invoice you want to review and click **View**.
-4. In the **Bill To:** section, the text box will be editable.
-5. Make your edits, and then you can download your updated invoice.
+1. Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/billing).
+2. Navighează la secțiunea **Billing**.
+3. Lângă **Invoices and refunds**, selectează **View**.
+    1. Dacă sunt disponibile mai multe facturi, selectează factura pe care dorești să o consulți și dă clic pe **View**.
+4. În secțiunea **Bill To:**, caseta de text va fi editabilă.
+5. Fă modificările, apoi poți descărca factura actualizată.
 

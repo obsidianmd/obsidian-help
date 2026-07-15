@@ -1,12 +1,11 @@
 ---
-localized: null
 permalink: advanced-syntax
 ---
-Learn how to add advanced formatting syntax to your notes.
+Aflați cum să adăugați sintaxă de formatare avansată în notele dvs.
 
-## Tables
+## Tabele
 
-You can create tables using vertical bars (`|`) to separate columns and hyphens (`-`) to define headers. Here's an example:
+Puteți crea tabele folosind bare verticale (`|`) pentru a separa coloanele și cratime (`-`) pentru a defini antetele. Iată un exemplu:
 
 ```md
 | First name | Last name |
@@ -20,11 +19,11 @@ You can create tables using vertical bars (`|`) to separate columns and hyphens 
 | Max        | Planck    |
 | Marie      | Curie     |
 
-While the vertical bars on either side of the table are optional, including them is recommended for readability.
+Deși barele verticale de pe ambele părți ale tabelului sunt opționale, includerea lor este recomandată pentru lizibilitate.
 
-> [!tip] In _Live Preview_, you can right-click a table to add or delete columns and rows. You can also sort and move them using the context menu.
+> [!tip] În _Live Preview_, puteți face clic dreapta pe un tabel pentru a adăuga sau șterge coloane și rânduri. De asemenea, le puteți sorta și muta folosind meniul contextual.
 
-You can insert a table using the **Insert Table** command from the [[Command palette|Command Palette]] or by right-clicking and selecting _Insert → Table_. This will give you a basic, editable table:
+Puteți insera un tabel folosind comanda **Insert Table** din [[Command palette|Paleta de comenzi]] sau făcând clic dreapta și selectând _Insert → Table_. Astfel veți obține un tabel simplu, editabil:
 
 ```md
 |     |     |
@@ -32,7 +31,7 @@ You can insert a table using the **Insert Table** command from the [[Command p
 |     |     |
 ```
 
-Note that cells don't need perfect alignment, but the header row must contain at least two hyphens:
+Rețineți că celulele nu trebuie să fie aliniate perfect, dar rândul de antet trebuie să conțină cel puțin două cratime:
 
 ```md
 First name | Last name
@@ -42,17 +41,17 @@ Marie | Curie
 ```
 
 
-### Format content within a table
+### Formatați conținutul dintr-un tabel
 
-You can use [[basic formatting syntax]] to style content within a table.
+Puteți folosi [[basic formatting syntax|sintaxa de formatare de bază]] pentru a stiliza conținutul dintr-un tabel.
 
-| First column       | Second column                           |
+| Prima coloană       | A doua coloană                           |
 | ------------------ | --------------------------------------- |
-| [[Internal links]] | Link to a file _within_ your **vault**. |
+| [[Internal links]] | Legătură către un fișier _din interiorul_ **seifului** dvs. |
 | [[Embed files]]    | ![[Engelbart.jpg\|100]]                 |
 
-> [!note] Vertical bars in tables
-> If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+> [!note] Bare verticale în tabele
+> Dacă doriți să folosiți [[aliases]], sau să [[Basic formatting syntax#External images|redimensionați o imagine]] în tabelul dvs., trebuie să adăugați un `\` înaintea barei verticale.
 >
 > ```md
 > First column | Second column
@@ -60,11 +59,11 @@ You can use [[basic formatting syntax]] to style content within a table.
 > [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 > ```
 >
-> First column | Second column
+> Prima coloană | A doua coloană
 > -- | --
 > [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 
-Align text in columns by adding colons (`:`) to the header row. You can also align content in _Live Preview_ via the context menu.
+Aliniați textul în coloane adăugând două puncte (`:`) la rândul de antet. De asemenea, puteți alinia conținutul în _Live Preview_ prin meniul contextual.
 
 ```md
 Left-aligned text | Center-aligned text | Right-aligned text
@@ -72,18 +71,18 @@ Left-aligned text | Center-aligned text | Right-aligned text
 Content | Content | Content
 ```
 
-Left-aligned text | Center-aligned text | Right-aligned text
+Text aliniat la stânga | Text aliniat central | Text aliniat la dreapta
 :-- | :--: | --:
-Content | Content | Content
+Conținut | Conținut | Conținut
 
-## Diagram
+## Diagramă
 
-You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-js.github.io/). Mermaid supports a range of diagrams, such as [flow charts](https://mermaid.js.org/syntax/flowchart.html), [sequence diagrams](https://mermaid.js.org/syntax/sequenceDiagram.html), and [timelines](https://mermaid.js.org/syntax/timeline.html).
+Puteți adăuga diagrame și grafice în notele dvs., folosind [Mermaid](https://mermaid-js.github.io/). Mermaid acceptă o gamă largă de diagrame, precum [diagrame de flux](https://mermaid.js.org/syntax/flowchart.html), [diagrame de secvență](https://mermaid.js.org/syntax/sequenceDiagram.html) și [cronologii](https://mermaid.js.org/syntax/timeline.html).
 
-> [!tip] Tip
-> You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
+> [!tip] Sfat
+> Puteți încerca și [Editorul live](https://mermaid-js.github.io/mermaid-live-editor) al Mermaid pentru a vă ajuta să construiți diagrame înainte de a le include în notele dvs.
 
-To add a Mermaid diagram, create a `mermaid` [[Basic formatting syntax#Code blocks|code block]].
+Pentru a adăuga o diagramă Mermaid, creați un [[Basic formatting syntax#Code blocks|bloc de cod]] `mermaid`.
 
 ````md
 ```mermaid
@@ -117,9 +116,9 @@ graph TD
 Biology --> Chemistry
 ```
 
-### Linking files in a diagram
+### Conectarea fișierelor într-o diagramă
 
-You can create [[internal links]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
+Puteți crea [[internal links|legături interne]] în diagramele dvs. atașând clasa [`internal-link`](https://mermaid.js.org/syntax/flowchart.html#classes) la nodurile dvs.
 
 ````md
 ```mermaid
@@ -139,10 +138,10 @@ Biology --> Chemistry
 class Biology,Chemistry internal-link;
 ```
 
-> [!note] Note
-> Internal links from diagrams don't show up in the [[Graph view]].
+> [!note] Notă
+> Legăturile interne din diagrame nu apar în [[Graph view|afișajul grafic]].
 
-If you have many nodes in your diagrams, you can use the following snippet.
+Dacă aveți multe noduri în diagramele dvs., puteți folosi următorul fragment de cod.
 
 ````md
 ```mermaid
@@ -157,24 +156,24 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 ````
 
-This way, each letter node becomes an internal link, with the [node text](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) as the link text.
+Astfel, fiecare nod-literă devine o legătură internă, cu [textul nodului](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) drept text al legăturii.
 
-> [!note] Note
-> If you use special characters in your note names, you need to put the note name in double quotes.
+> [!note] Notă
+> Dacă folosiți caractere speciale în numele notelor dvs., trebuie să puneți numele notei între ghilimele duble.
 >
 > ```
 > class "⨳ special character" internal-link
 > ```
 >
-> Or, `A["⨳ special character"]`.
+> Sau, `A["⨳ special character"]`.
 
-For more information about creating diagrams, refer to the [official Mermaid docs](https://mermaid.js.org/intro/).
+Pentru mai multe informații despre crearea diagramelor, consultați [documentația oficială Mermaid](https://mermaid.js.org/intro/).
 
-## Math
+## Matematică
 
-You can add math expressions to your notes using [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) and the LaTeX notation.
+Puteți adăuga expresii matematice în notele dvs. folosind [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) și notația LaTeX.
 
-To add a MathJax expression to your note, surround it with double dollar signs (`$$`).
+Pentru a adăuga o expresie MathJax în nota dvs., încadrați-o cu semne dolar duble (`$$`).
 
 ```md
 $$
@@ -190,7 +189,7 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-You can also inline math expressions by wrapping it in `$` symbols.
+Puteți include și expresii matematice în text, încadrându-le cu semne `$`.
 
 ```md
 This is an inline math expression $e^{2i\pi} = 1$.
@@ -198,6 +197,6 @@ This is an inline math expression $e^{2i\pi} = 1$.
 
 This is an inline math expression $e^{2i\pi} = 1$.
 
-For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+Pentru mai multe informații despre sintaxă, consultați [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+Pentru o listă a pachetelor MathJax acceptate, consultați [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).

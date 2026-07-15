@@ -1,79 +1,78 @@
 ---
-localized: null
 permalink: sync/plans
 publish: true
 mobile: true
-description: Learn about the different plan options we have available for Obsidian Sync.
+description: Află mai multe despre opțiunile de planuri disponibile pentru Obsidian Sync.
 ---
 
-## Plans
+## Planuri
 
-To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.
+Pentru a-ți sincroniza notele cu [[Introduction to Obsidian Sync|Obsidian Sync]] ai nevoie de un plan de abonament. Poți achiziționa un plan Sync autentificându-te în [contul tău](https://obsidian.md/account/sync). Consultă [pagina Sync](https://obsidian.md/sync) pentru prețuri.
 
-Below is a comparison between the Standard plan and Plus plan:
+Mai jos este o comparație între planul Standard și planul Plus:
 
 |                                                  | Sync Standard | Sync Plus       |
 | ------------------------------------------------ | ------------- | --------------- |
-| Synced vaults                                    | 1             | 10              |
-| Maximum file size                                | 5 MB          | 200 MB          |
-| Total storage                                    | 1 GB          | 10 GB to 100 GB |
-| [[Version history]]                              | 1 month       | 12 months       |
-| Devices                                          | Unlimited     | Unlimited       |
-| [[Collaborate on a shared vault\|Shared vaults]] | Yes           | Yes             |
+| Seifuri sincronizate                                    | 1             | 10              |
+| Dimensiune maximă fișier                                | 5 MB          | 200 MB          |
+| Stocare totală                                    | 1 GB          | 10 GB până la 100 GB |
+| [[Version history\|Istoricul versiunilor]]                              | 1 lună       | 12 luni       |
+| Dispozitive                                          | Nelimitat     | Nelimitat       |
+| [[Collaborate on a shared vault\|Seifuri partajate]] | Da           | Da             |
 
-## Storage limits
+## Limite de stocare
 
-The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Frequently asked questions]] for more details.
+Cantitatea de date pe care le poți stoca folosind [[Introduction to Obsidian Sync|Obsidian Sync]] depinde de planul tău de abonament. Pe planul Sync Plus poți achiziționa stocare suplimentară de până la 100 GB prin [panoul de control al contului tău](https://obsidian.md/account/sync). Consultă [[Frequently asked questions]] pentru mai multe detalii.
 
-There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[attachments]] are also counted towards your account's storage limit.
+Există o limită de stocare unică la nivel de cont pentru toate notele de pe seifurile tale. [[Version history|Istoricul versiunilor]] și [[attachments|atașamentele]] se contorizează, de asemenea, în limita de stocare a contului tău.
 
-When you reach your account's storage limit, the Sync plugin will cease syncing files, and you will be prompted to prune your remote vault(s).
+Când atingi limita de stocare a contului tău, modulul Sync va opri sincronizarea fișierelor, iar tu vei fi solicitat să reduci dimensiunea seifului tău la distanță.
 
-### Identify and delete large files
+### Identifică și șterge fișierele mari
 
-To identify and delete large files from the vault:
+Pentru a identifica și șterge fișierele mari din seif:
 
-1. Open **[[Settings]] → Sync**.
-2. Select **View largest files** next to **Vault size over limit**. 
-	1. If you don’t see **Vault size over limit**, it means ==you haven’t hit the size limit== yet.
-3. Close the **View largest files** modal.
-4. Delete some of the large files you no longer need.
-5. Wait for Obsidian sync to finish the task. This can take a while.
-6. Open **[[Settings]] → Sync**.
-7. Select **Prune** next to **Vault size over limit**. This will remove the deleted files from the remote vault to free up space.
+1. Deschide **[[Settings]] → Sync**.
+2. Selectează **Vezi cele mai mari fișiere** lângă **Dimensiunea seifului depășește limita**.
+	1. Dacă nu vezi **Dimensiunea seifului depășește limita**, înseamnă că ==nu ai atins încă limita de dimensiune==.
+3. Închide fereastra modală **Vezi cele mai mari fișiere**.
+4. Șterge unele dintre fișierele mari de care nu mai ai nevoie.
+5. Așteaptă ca Obsidian Sync să termine sarcina. Acest lucru poate dura ceva timp.
+6. Deschide **[[Settings]] → Sync**.
+7. Selectează **Curăță** lângă **Dimensiunea seifului depășește limita**. Acest lucru va elimina fișierele șterse din seiful la distanță pentru a elibera spațiu.
 
-After the prune syncs to the server, Obsidian Sync should resume functioning.
+După ce operațiunea de curățare se sincronizează cu serverul, Obsidian Sync ar trebui să reia funcționarea.
 
-### Create a new remote vault
+### Creează un nou seif la distanță
 
-You can **create a new remote vault** to exclude large files before syncing. The version history for your files will be reset if you create a new remote vault. Please be sure that you don’t need version history for older files before proceeding.
+Poți **crea un nou seif la distanță** pentru a exclude fișierele mari înainte de sincronizare. Istoricul versiunilor pentru fișierele tale va fi resetat dacă creezi un nou seif la distanță. Asigură-te că nu ai nevoie de istoricul versiunilor pentru fișierele mai vechi înainte de a continua.
 
-To sync to a new remote vault, follow these steps:
+Pentru a sincroniza cu un nou seif la distanță, urmează acești pași:
 
-1. Open **[[Settings]] → Sync**.
-2. Select **Manage** next to **Remote vault**.
-3. Choose **Create new vault** and follow the steps to create it. If you run out of vaults, you might need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect]] from the current remote vault and [[Set up Obsidian Sync#Delete a remote vault|delete]] it first.
-4. Set up excluded files before you start syncing to the new remote vault.
-5. Restart Obsidian to apply your changes.
-6. Open **[[Settings]] → Sync**.
-7. Select resume to start syncing to the new remote vault.
+1. Deschide **[[Settings]] → Sync**.
+2. Selectează **Gestionează** lângă **Seif la distanță**.
+3. Alege **Creează seif nou** și urmează pașii pentru a-l crea. Dacă ai epuizat numărul de seifuri disponibile, s-ar putea să fie nevoie să te [[Set up Obsidian Sync#Deconectează-te de la un seif la distanță|deconectezi]] mai întâi de la seiful la distanță curent și să-l [[Set up Obsidian Sync#Șterge un seif la distanță|ștergi]].
+4. Configurează fișierele excluse înainte de a începe sincronizarea cu noul seif la distanță.
+5. Repornește Obsidian pentru a aplica modificările.
+6. Deschide **[[Settings]] → Sync**.
+7. Selectează reia pentru a începe sincronizarea cu noul seif la distanță.
 
-The new remote vault should be smaller than the previous vault, because of the absence of version history and excluded files.
+Noul seif la distanță ar trebui să fie mai mic decât cel anterior, datorită absenței istoricului versiunilor și a fișierelor excluse.
 
-## Upgrade your plan
+## Fă upgrade la planul tău
 
-You can upgrade your plan by logging into [your account dashboard](https://obsidian.md/account/sync). From there you will be able to upgrade your plan from Sync Standard to Sync Plus, and increase storage up to 100 GB.
+Poți face upgrade la planul tău autentificându-te în [panoul de control al contului tău](https://obsidian.md/account/sync). De acolo vei putea face upgrade de la Sync Standard la Sync Plus și poți crește stocarea până la 100 GB.
 
-## Downgrade your plan
+## Fă downgrade la planul tău
 
-If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. Currently, there's no direct method to remove specific files from an existing remote vault quickly. This is because attachments are retained in version history for up to two weeks, and version history counts towards your storage limit.
+Dacă dorești să faci downgrade la planul tău Sync, dar utilizarea stocării depășește limita noului plan, va trebui să eliberezi spațiu în seiful tău la distanță. În prezent, nu există o metodă directă pentru a elimina rapid anumite fișiere dintr-un seif la distanță existent. Acest lucru se întâmplă deoarece atașamentele sunt păstrate în istoricul versiunilor timp de până la două săptămâni, iar istoricul versiunilor se contorizează în limita ta de stocare.
 
-The quickest way to reduce your Sync storage usage is to create a new remote vault with attachments disabled, then delete the old remote vault that exceeds the storage limits. Be aware that you will lose version history by doing this.
+Cea mai rapidă modalitate de a reduce utilizarea stocării Sync este să creezi un nou seif la distanță cu atașamentele dezactivate, apoi să ștergi vechiul seif la distanță care depășește limitele de stocare. Reține că vei pierde istoricul versiunilor procedând astfel.
 
-If you are downgrading from Sync Plus to Sync Standard, you'll also need to reduce the number of vaults present to one before the downgrade will be permitted.
+Dacă faci downgrade de la Sync Plus la Sync Standard, va trebui, de asemenea, să reduci numărul de seifuri existente la unul singur înainte ca downgrade-ul să fie permis.
 
-### Preserve version history
+### Păstrează istoricul versiunilor
 
-Attachments are held in your [[version history]] for up to two weeks. If you plan to downgrade in the near future, you can start by removing attachments from your local vault. 
+Atașamentele sunt păstrate în [[version history|istoricul versiunilor]] timp de până la două săptămâni. Dacă intenționezi să faci downgrade în viitorul apropiat, poți începe prin a elimina atașamentele din seiful tău local.
 
-After two weeks these will be purged from the remote vault and will no longer count towards your storage limit. At this point you will be able to downgrade your plan while preserving the version history for other file types, such as Markdown files.
+După două săptămâni, acestea vor fi eliminate definitiv din seiful la distanță și nu se vor mai contoriza în limita ta de stocare. În acest moment vei putea face downgrade la planul tău, păstrând în același timp istoricul versiunilor pentru celelalte tipuri de fișiere, precum fișierele Markdown.

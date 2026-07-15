@@ -1,127 +1,126 @@
 ---
-localized: null
 permalink: bases/views
 ---
-Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
+Vizualizările îți permit să organizezi informațiile dintr-o [[Introduction to Bases|Bază]] în mai multe moduri. O bază poate conține mai multe vizualizări, iar fiecare vizualizare poate avea o configurație unică pentru afișarea, sortarea și filtrarea fișierelor.
 
-For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished".
+De exemplu, poate vrei să creezi o bază numită „Books” care are vizualizări separate pentru „Reading list” și „Recently finished”.
 
-## Toolbar
+## Bara de instrumente
 
-At the top of a base is a toolbar that lets you interact with views and their results.
+În partea de sus a unei baze se află o bară de instrumente care îți permite să interacționezi cu vizualizările și rezultatele lor.
 
-- ![[lucide-table.svg#icon]] **View menu** — create, edit, and switch views.
-- **Results** — limit, copy and export files.
-- ![[lucide-arrow-up-down.svg#icon]] **Sort** — sort and group files.
-- ![[lucide-list-filter.svg#icon]] **Filter** — filter files.
-- ![[lucide-list.svg#icon]] **Properties** — choose properties to display and create [[formulas]].
-- ![[lucide-search.svg#icon]] **Search** — search for items using their displayed properties.
-- ![[lucide-plus.svg#icon]] **New** — create a new file in the current view.
+- ![[lucide-table.svg#icon]] **Meniul vizualizare** — creează, editează și comută între vizualizări.
+- **Rezultate** — limitează, copiază și exportă fișiere.
+- ![[lucide-arrow-up-down.svg#icon]] **Sortare** — sortează și grupează fișiere.
+- ![[lucide-list-filter.svg#icon]] **Filtru** — filtrează fișiere.
+- ![[lucide-list.svg#icon]] **Proprietăți** — alege proprietățile de afișat și creează [[formulas|formule]].
+- ![[lucide-search.svg#icon]] **Caută** — caută elemente folosind proprietățile lor afișate.
+- ![[lucide-plus.svg#icon]] **Nou** — creează un fișier nou în vizualizarea curentă.
 
-## Add and switch views
+## Adăugarea și comutarea vizualizărilor
 
-There are two ways to add a view to a base:
+Există două moduri de a adăuga o vizualizare la o bază:
 
-- Click the view name in the top left and select ![[lucide-plus.svg#icon]] **Add view**.
-- Use the [[command palette]] and select **Bases: Add view**.
+- Dă clic pe numele vizualizării din partea stângă sus și selectează ![[lucide-plus.svg#icon]] **Adaugă vizualizare**.
+- Folosește [[command palette|paleta de comenzi]] și selectează **Bases: Add view**.
 
-The first view in your list of views will load by default. Drag views by their icon to change their order.
+Prima vizualizare din lista ta de vizualizări se va încărca implicit. Trage vizualizările de iconița lor pentru a le schimba ordinea.
 
-## View settings
+## Setările vizualizării
 
-Each view has its own configuration options. To edit view settings:
+Fiecare vizualizare are propriile opțiuni de configurare. Pentru a edita setările unei vizualizări:
 
-1. Click the view name in the top left.
-2. Click the right arrow next to the view you want to configure.
+1. Dă clic pe numele vizualizării din partea stângă sus.
+2. Dă clic pe săgeata dreapta de lângă vizualizarea pe care vrei să o configurezi.
 
-Alternatively *right-click* the view name in the base's toolbar to quickly access the view settings.
+Alternativ, dă *clic dreapta* pe numele vizualizării din bara de instrumente a bazei pentru a accesa rapid setările vizualizării.
 
-## Layout
+## Aspect
 
-Views can be displayed with different layouts including as  ![[lucide-table.svg#icon]] **table**, ![[lucide-list.svg#icon]] **list**, ![[lucide-layout-grid.svg#icon]] **cards**, and ![[lucide-map.svg#icon]] **map**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
+Vizualizările pot fi afișate cu aspecte diferite, inclusiv ca ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **listă**, ![[lucide-layout-grid.svg#icon]] **carduri** și ![[lucide-map.svg#icon]] **hartă**. Aspecte suplimentare pot fi adăugate prin [[Community plugins|module comunitare]]. Unele aspecte sunt încă în dezvoltare și necesită [[early access versions|versiuni cu acces timpuriu]] ale Obsidian.
 
-| Layout                | Description                                                                                   | App&nbsp;version |
+| Aspect                | Descriere                                                                                   | Versiune&nbsp;aplicație |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
-| [[Table view\|Table]] | Display files as rows in a table. Columns are populated from [[properties]] in your notes.    | 1.9              |
-| [[Cards view\|Cards]] | Display files as a grid of cards. Lets you create gallery-like views with images.             | 1.9              |
-| [[List view\|List]]   | Display files as a [[Basic formatting syntax#Lists\|list]] with bulleted or numbered markers. | 1.10             |
-| [[Map view\|Map]]     | Display files as pins on an interactive map. Requires the Maps plugin.                        | 1.10             |
+| [[Table view\|Tabel]] | Afișează fișierele ca rânduri într-un tabel. Coloanele sunt populate din [[properties|proprietăți]] din notele tale.    | 1.9              |
+| [[Cards view\|Carduri]] | Afișează fișierele ca o grilă de carduri. Îți permite să creezi vizualizări de tip galerie cu imagini.             | 1.9              |
+| [[List view\|Listă]]   | Afișează fișierele ca o [[Basic formatting syntax#Lists\|listă]] cu marcaje sub formă de puncte sau numere. | 1.10             |
+| [[Map view\|Hartă]]     | Afișează fișierele ca pini pe o hartă interactivă. Necesită modulul Maps.                        | 1.10             |
 
 
-## Filters
+## Filtre
 
-Open the ![[lucide-list-filter.svg#icon]] **Filter** menu at the top of a base to add filters.
+Deschide meniul ![[lucide-list-filter.svg#icon]] **Filtru** din partea de sus a unei baze pentru a adăuga filtre.
 
-A base without filters shows all the files in your vault. Filters narrow down the results to only show files that meet specific criteria. For example, you can use filters to only display files with a specific [[Tags|tag]] or within a specific folder. Many filter types are available.
+O bază fără filtre afișează toate fișierele din seiful tău. Filtrele restrâng rezultatele pentru a afișa doar fișierele care îndeplinesc criterii specifice. De exemplu, poți folosi filtre pentru a afișa doar fișierele cu o anumită [[Tags|etichetă]] sau dintr-un anumit director. Sunt disponibile multe tipuri de filtre.
 
-Filters can be applied to all views in a base, or just a single view by choosing from the two sections in the ![[lucide-list-filter.svg#icon]] **Filter** menu.
+Filtrele pot fi aplicate tuturor vizualizărilor dintr-o bază, sau doar unei singure vizualizări, alegând din cele două secțiuni ale meniului ![[lucide-list-filter.svg#icon]] **Filtru**.
 
-- **All views** applies filters to all views in the base.
-- **This view** applies filters to the active view.
+- **Toate vizualizările** aplică filtre tuturor vizualizărilor din bază.
+- **Această vizualizare** aplică filtre vizualizării active.
 
-#### Components of a filter
+#### Componentele unui filtru
 
-Filters have three components:
+Filtrele au trei componente:
 
-1. **Property** — lets you choose a [[Properties|property]] in your vault, including [[Bases syntax#File properties|file properties]].
-2. **Operator** — lets you choose how to compare the conditions. The list of available operators depends on the property type (text, date, number, etc) 
-3. **Value** — lets you choose the value you are comparing to. Values can include math and [[Functions|functions]].
+1. **Proprietate** — îți permite să alegi o [[Properties|proprietate]] din seiful tău, inclusiv [[Bases syntax#File properties|proprietăți ale fișierului]].
+2. **Operator** — îți permite să alegi cum să compari condițiile. Lista operatorilor disponibili depinde de tipul proprietății (text, dată, număr etc.)
+3. **Valoare** — îți permite să alegi valoarea cu care compari. Valorile pot include calcule matematice și [[Functions|funcții]].
 
-#### Conjunctions
+#### Conjuncții
 
-- **All the following are true** is an `and` statement — results will only be shown if *all* conditions in the filter group are met.
-- **Any of the following are true** is an `or` statement — results will be shown if *any* of the conditions in the filter group are met.
-- **None of the following are true** is a `not` statement — results will not be shown if *any* of the conditions in the filter group are met.
+- **Toate cele următoare sunt adevărate** este o instrucțiune `and` — rezultatele vor fi afișate doar dacă *toate* condițiile din grupul de filtre sunt îndeplinite.
+- **Oricare dintre cele următoare este adevărată** este o instrucțiune `or` — rezultatele vor fi afișate dacă *oricare* dintre condițiile din grupul de filtre este îndeplinită.
+- **Niciuna dintre cele următoare nu este adevărată** este o instrucțiune `not` — rezultatele nu vor fi afișate dacă *oricare* dintre condițiile din grupul de filtre este îndeplinită.
 
-#### Filter groups
+#### Grupuri de filtre
 
-Filter groups allow you to create more complex logic by creating combinations on conjunctions.
+Grupurile de filtre îți permit să creezi o logică mai complexă, creând combinații de conjuncții.
 
-#### Advanced filter editor
+#### Editorul avansat de filtre
 
-Click the code button ![[lucide-code-xml.svg#icon]] to use the **advanced filter** editor. This displays the raw [[Bases syntax|syntax]] for the filter, and can be used with more complex [[Functions|functions]] that cannot be displayed using the point-and-click interface.
+Dă clic pe butonul de cod ![[lucide-code-xml.svg#icon]] pentru a folosi editorul **filtru avansat**. Acesta afișează sintaxa brută [[Bases syntax|sintaxa]] a filtrului și poate fi folosit împreună cu [[Functions|funcții]] mai complexe care nu pot fi afișate folosind interfața de tip point-and-click.
 
-## Sort and group results
+## Sortarea și gruparea rezultatelor
 
-Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu to sort and group the results in a view.
+Deschide meniul ![[lucide-arrow-up-down.svg#icon]] **Sortare** pentru a sorta și grupa rezultatele dintr-o vizualizare.
 
-You can arrange results by one or more properties in ascending or descending order. This makes it easy to list notes by name, last edited time, or any other property — including formulas.
+Poți aranja rezultatele după una sau mai multe proprietăți, în ordine crescătoare sau descrescătoare. Acest lucru face ușoară listarea notelor după nume, data ultimei editări sau orice altă proprietate — inclusiv formule.
 
-You can also group results by a property to organize similar items into visually distinct sections. Currently, Obsidian supports grouping by only one property.
+Poți grupa și rezultatele după o proprietate, pentru a organiza elemente similare în secțiuni distincte vizual. În prezent, Obsidian acceptă gruparea după o singură proprietate.
 
-### Add a sort
+### Adaugă o sortare
 
-1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
-2. Choose the property you want to sort (or group) by.
-3. If you have multiple sorts, drag them up or down using the ![[lucide-grip-vertical.svg#icon]] grip handle to change their priority.
+1. Deschide meniul ![[lucide-arrow-up-down.svg#icon]] **Sortare** din partea de sus a vizualizării.
+2. Alege proprietatea după care vrei să sortezi (sau să grupezi).
+3. Dacă ai mai multe sortări, trage-le în sus sau în jos folosind mânerul ![[lucide-grip-vertical.svg#icon]] pentru a le schimba prioritatea.
 
-The options for ordering results depend on the property type:
+Opțiunile pentru ordonarea rezultatelor depind de tipul proprietății:
 
-- **Text**: sort *alphabetically* (A→Z) or in *reverse alphabetical order* (Z→A).
-- **Number**: sort from *smallest to largest* (0→1) or *largest to smallest* (1→0).
-- **Date and time**: sort by *old to new*, or *new to old*.
+- **Text**: sortare *alfabetică* (A→Z) sau în *ordine alfabetică inversă* (Z→A).
+- **Număr**: sortare de la *cel mai mic la cel mai mare* (0→1) sau de la *cel mai mare la cel mai mic* (1→0).
+- **Dată și oră**: sortare de la *cel mai vechi la cel mai nou*, sau de la *cel mai nou la cel mai vechi*.
 
-### Remove a sort
+### Elimină o sortare
 
-1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
-2. Click the ![[lucide-trash-2.svg#icon]] trash can button next to the sort or group you want to remove.
+1. Deschide meniul ![[lucide-arrow-up-down.svg#icon]] **Sortare** din partea de sus a vizualizării.
+2. Dă clic pe butonul ![[lucide-trash-2.svg#icon]] coș de gunoi de lângă sortarea sau gruparea pe care vrei să o elimini.
 
-## Limit, copy, and export results
+## Limitarea, copierea și exportarea rezultatelor
 
-### Limit results
+### Limitează rezultatele
 
-The *results* menu shows the number of results in view. Click the results button to limit the number of results, and access additional actions.
+Meniul *rezultate* afișează numărul de rezultate din vizualizare. Dă clic pe butonul rezultate pentru a limita numărul de rezultate și pentru a accesa acțiuni suplimentare.
 
-### Copy to clipboard
+### Copiază în clipboard
 
-This action copies the view to your clipboard. Once in your clipboard you can paste it into a Markdown file, or into other document apps including spreadsheets like Google Sheets, Excel, and Numbers.
+Această acțiune copiază vizualizarea în clipboard-ul tău. Odată aflată în clipboard, o poți lipi într-un fișier Markdown, sau în alte aplicații de documente, inclusiv foi de calcul precum Google Sheets, Excel și Numbers.
 
-### Export CSV
+### Exportă CSV
 
-This action saves a CSV of your current view.
+Această acțiune salvează un CSV al vizualizării tale curente.
 
-## Embed a view
+## Încorporează o vizualizare
 
-You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. The first view in the list will be used. You can change the order by dragging views in the view menu.
+Poți încorpora fișiere bază în [[Embed files|orice alt fișier]] folosind sintaxa `![[File.base]]`. Va fi folosită prima vizualizare din listă. Poți schimba ordinea trăgând vizualizările din meniul de vizualizare.
 
-To specify the default view for an embed use `![[File.base#View]]`.
+Pentru a specifica vizualizarea implicită pentru o încorporare, folosește `![[File.base#View]]`.

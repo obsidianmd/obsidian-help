@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: developers
 ---
-If you are a developer you can contribute to Obsidian in various ways.
+Dacă ești dezvoltator, poți contribui la Obsidian în diverse moduri.
 
-### Plugins and themes
+### Plugin-uri și teme
 
-You can develop [[Community plugins]] and [[Themes]] using Typescript and CSS. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+Poți dezvolta [[Community plugins]] și [[Themes]] folosind Typescript și CSS. Află mai multe accesând [Obsidian Developer Documentation](https://docs.obsidian.md).
 
-### Open source projects
+### Proiecte open source
 
-Obsidian develops and maintains several open source projects. You can submit pull requests with bug fixes and enhancements to the following GitHub repositories:
+Obsidian dezvoltă și menține mai multe proiecte open source. Poți trimite pull request-uri cu remedieri de erori și îmbunătățiri către următoarele repozitorii GitHub:
 
-- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), an open file format for infinite canvas data.
-- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), a plugin that converts data from a wide variety of formats to plain text Markdown files.
-- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), a plugin that displays maps in Obsidian Bases.
-- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), a browser extension for highlighting and capturing web pages to plain text Markdown files.
-- [Defuddle](https://github.com/kepano/defuddle) (MIT) the HTML-to-Markdown parser used by Obsidian Web Clipper.
+- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), un format de fișier deschis pentru date de pânză infinită.
+- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), un plugin care convertește date dintr-o mare varietate de formate în fișiere Markdown simple.
+- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), un plugin care afișează hărți în Obsidian Bases.
+- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), o extensie de browser pentru evidențierea și capturarea paginilor web în fișiere Markdown simple.
+- [Defuddle](https://github.com/kepano/defuddle) (MIT) analizatorul HTML-la-Markdown folosit de Obsidian Web Clipper.
 
-### Documentation
+### Documentație
 
-To help improve our [developer documentation](https://docs.obsidian.md/Home), submit a pull request to the [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs) repository.
+Pentru a ne ajuta să îmbunătățim [documentația pentru dezvoltatori](https://docs.obsidian.md/Home), trimite un pull request către repozitoriul [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs).
 
-To help improve this documentation, submit a pull request to the [obsidian-help](https://github.com/obsidianmd/obsidian-help) repository.
+Pentru a ne ajuta să îmbunătățim această documentație, trimite un pull request către repozitoriul [obsidian-help](https://github.com/obsidianmd/obsidian-help).
 
-### Community
+### Comunitate
 
-The [plugin-dev](https://discord.com/channels/686053708261228577/840286264964022302) channel on our official Discord server is where you can discuss plugin development and help other developers with their plugins.
+Canalul [plugin-dev](https://discord.com/channels/686053708261228577/840286264964022302) de pe serverul nostru oficial Discord este locul unde poți discuta despre dezvoltarea de plugin-uri și poți ajuta alți dezvoltatori cu plugin-urile lor.

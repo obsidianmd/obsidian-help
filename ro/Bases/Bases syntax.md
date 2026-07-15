@@ -1,18 +1,17 @@
 ---
-localized: null
 permalink: bases/syntax
 publish: true
 mobile: true
-description: This page provides an introduction to Bases syntax in Obsidian.
+description: Această pagină oferă o introducere în sintaxa Bases din Obsidian.
 ---
 
-When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
+Când [[Create a base|creezi o bază]] în Obsidian, aceasta este salvată ca fișier `.base`. Bazele sunt de obicei editate folosind interfața aplicației, dar sintaxa poate fi editată și manual, și încorporată într-un bloc de cod.
 
-The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and [[formulas]]. Bases must be valid YAML conforming to the schema defined below.
+Sintaxa [[Introduction to Bases|Baze]] definește [[Views|vizualizări]], filtre și [[formulas|formule]]. Bazele trebuie să fie YAML valid, conform schemei definite mai jos.
 
-## Example
+## Exemplu
 
-Here's an example of a base file. We'll walk through each section in detail.
+Iată un exemplu de fișier bază. Vom parcurge fiecare secțiune în detaliu.
 
 ```yaml
 filters:
@@ -59,17 +58,17 @@ views:
       formula.ppu: Average
 ```
 
-### Filters
+### Filtre
 
-By default a base includes every file in the vault. There is no `from` or `source` like in SQL or Dataview. The `filters` section lets you define conditions to narrow down the dataset.
+Implicit, o bază include toate fișierele din seif. Nu există `from` sau `source` ca în SQL sau Dataview. Secțiunea `filters` îți permite să definești condiții pentru a restrânge setul de date.
 
 ```yaml
-# Simple filter:
+# Filtru simplu:
 filters:
   and:
     - file.hasTag("tag")
 
-# Complex filter:
+# Filtru complex:
 filters:
   or:
     - file.hasTag("tag")
@@ -81,23 +80,23 @@ filters:
         - file.inFolder("Required Reading")
 ```
 
-There are two opportunities to apply filters:
+Există două locuri unde poți aplica filtre:
 
-1. At the global `filters` level (shown above) where they apply to all views in the base.
-2. At the `view` level where apply only to a specific view.
+1. La nivelul global `filters` (arătat mai sus), unde se aplică tuturor vizualizărilor din bază.
+2. La nivelul `view`, unde se aplică doar unei anumite vizualizări.
 
-These two sections are functionally equivalent and when evaluating for a view they will be concatenated with an `AND`.
+Aceste două secțiuni sunt echivalente din punct de vedere funcțional și, la evaluarea pentru o vizualizare, vor fi concatenate cu un `AND`.
 
-The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogeneous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
+Secțiunea `filters` conține fie o singură instrucțiune de filtrare sub formă de string, fie un obiect de filtrare definit recursiv. Obiectele de filtrare pot conține unul dintre `and`, `or` sau `not`. Aceste chei sunt o listă eterogenă de alte obiecte de filtrare sau instrucțiuni de filtrare sub formă de stringuri. O instrucțiune de filtrare este o linie care se evaluează ca adevărată sau falsă atunci când este aplicată unei note. Poate fi una dintre următoarele:
 
-- A basic comparison using standard arithmetic operators.
-- A function. A variety of [[Functions]] are built-in, and plugins can add additional functions.
+- O comparație de bază folosind operatori aritmetici standard.
+- O funcție. O varietate de [[Functions|funcții]] sunt incluse implicit, iar modulele pot adăuga funcții suplimentare.
 
-The syntax and available functions for filters and formulas are the same.
+Sintaxa și funcțiile disponibile pentru filtre și formule sunt aceleași.
 
-### Formulas
+### Formule
 
-The `formulas` section defines [[Formulas|formula properties]] that can be displayed across all views in the base file.
+Secțiunea `formulas` definește [[Formulas|proprietăți de tip formulă]] care pot fi afișate în toate vizualizările din fișierul bază.
 
 ```yaml
 formulas:
@@ -105,26 +104,26 @@ formulas:
   ppu: "(price / age).toFixed(2)"
 ```
 
-Formula properties support basic arithmetic operators and a variety of built-in [[Functions]]. In the future, plugins will be able to add functions for use in formulas.
+Proprietățile de tip formulă acceptă operatori aritmetici de bază și o varietate de [[Functions|funcții]] incluse implicit. Pe viitor, modulele vor putea adăuga funcții pentru a fi utilizate în formule.
 
-You can reference properties in different ways depending on their type:
+Poți face referire la proprietăți în moduri diferite, în funcție de tipul lor:
 
-- **Note properties** are properties defined in the note’s frontmatter. For example `note.price` or `note["price"]`.  
-  If no prefix is specified, the property is assumed to be a `note` property.
-- **File properties** describe the file itself.  
-  For example `file.size` or `file.ext`. You can also reference the file object directly, e.g., `file.hasLink()`.
-- **Formula properties** are other formulas in the base.  
-  Example `formula.formatted_price`.
+- **Proprietățile notei** sunt proprietăți definite în antetul notei (frontmatter). De exemplu `note.price` sau `note["price"]`.
+  Dacă nu este specificat niciun prefix, se presupune că proprietatea este o proprietate `note`.
+- **Proprietățile fișierului** descriu fișierul în sine.
+  De exemplu `file.size` sau `file.ext`. Poți face referire și direct la obiectul fișier, de exemplu, `file.hasLink()`.
+- **Proprietățile de tip formulă** sunt alte formule din bază.
+  Exemplu `formula.formatted_price`.
 
-A formula can use values from other formula properties, as long as there’s no circular reference.  
+O formulă poate folosi valori din alte proprietăți de tip formulă, atât timp cât nu există o referință circulară.
 
-Formula properties are always stored as strings in YAML, but their actual **output data type** is determined by the type of the underlying data and the return value of any functions used.
+Proprietățile de tip formulă sunt întotdeauna stocate ca stringuri în YAML, dar **tipul de date al rezultatului** este determinat de tipul datelor subiacente și de valoarea returnată de orice funcții utilizate.
 
-Note the use of nested quotes is necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
+Reține că utilizarea ghilimelelor imbricate este necesară pentru a include literali de text în câmpul YAML. Literalii de text trebuie să fie încadrați între ghilimele simple sau duble.
 
-### Properties
+### Proprietăți
 
-The `properties` section allows storing configuration information about each property. It is up to the individual view how to use these configuration values. For example, in tables the display name is used for the column headers.
+Secțiunea `properties` permite stocarea informațiilor de configurare despre fiecare proprietate. Rămâne la latitudinea fiecărei vizualizări cum să folosească aceste valori de configurare. De exemplu, în tabele, numele afișat este folosit pentru anteturile coloanelor.
 
 ```yaml
 properties:
@@ -136,44 +135,44 @@ properties:
     displayName: Extension
 ```
 
-Display names are not used in filters or formulas.
+Numele afișate nu sunt folosite în filtre sau formule.
 
-### Summaries
+### Rezumate
 
-The `summaries` section can be used to define custom summary formulas. In addition to defining summary formulas here, there are several default summary formulas available.
+Secțiunea `summaries` poate fi folosită pentru a defini formule de rezumat personalizate. Pe lângă definirea formulelor de rezumat aici, sunt disponibile mai multe formule de rezumat implicite.
 
 ```yaml
 summaries:
   customAverage: 'values.mean().round(3)'
 ```
 
-In this example, the `customAverage` formula is the same as the default `Average`, except the value is rounded to a different number of places. In summary formulas, the `values` key word is a list containing all of the values for that property across every note in the result set. The summary formula should return a single `Value`.
+În acest exemplu, formula `customAverage` este identică cu formula implicită `Average`, cu excepția faptului că valoarea este rotunjită la un alt număr de zecimale. În formulele de rezumat, cuvântul cheie `values` este o listă care conține toate valorile pentru acea proprietate, în fiecare notă din setul de rezultate. Formula de rezumat trebuie să returneze o singură `Value` (valoare).
 
-Note that this `summaries` section is different from the `summaries` section in the view config (explained below) where summary formulas as assigned to specific properties.
+Reține că această secțiune `summaries` este diferită de secțiunea `summaries` din configurația vizualizării (explicată mai jos), unde formulele de rezumat sunt asociate unor proprietăți specifice.
 
-#### Default Summary Formulas
+#### Formule de rezumat implicite
 
-| Name      | Input Type | Description                                                   |
+| Nume      | Tip de intrare | Descriere                                                   |
 | --------- | ---------- | ------------------------------------------------------------- |
-| Average   | Number     | The mathematical mean of all numbers from the input values.   |
-| Min       | Number     | The smallest number from the input values.                    |
-| Max       | Number     | The largest number from the input values.                     |
-| Sum       | Number     | The sum of all numbers in the input.                          |
-| Range     | Number     | The difference between `Max` and `Min`.                       |
-| Median    | Number     | The mathematical median of all numbers from the input values. |
-| Stddev    | Number     | The standard deviation of all numbers from the input values.  |
-| Earliest  | Date       | The earliest date from the input values.                      |
-| Latest    | Date       | The latest date from the input values.                        |
-| Range     | Date       | The difference between `Latest` and `Earliest`.               |
-| Checked   | Boolean    | The number of `true` values.                                  |
-| Unchecked | Boolean    | The number of `false` values.                                 |
-| Empty     | Any        | The number of values in the input that are empty.             |
-| Filled    | Any        | The number of values in the input that are not empty.         |
-| Unique    | Any        | The number of unique values in the input.                     |
+| Average   | Number     | Media matematică a tuturor numerelor din valorile de intrare.   |
+| Min       | Number     | Cel mai mic număr din valorile de intrare.                    |
+| Max       | Number     | Cel mai mare număr din valorile de intrare.                    |
+| Sum       | Number     | Suma tuturor numerelor din intrare.                          |
+| Range     | Number     | Diferența dintre `Max` și `Min`.                       |
+| Median    | Number     | Mediana matematică a tuturor numerelor din valorile de intrare. |
+| Stddev    | Number     | Deviația standard a tuturor numerelor din valorile de intrare.  |
+| Earliest  | Date       | Cea mai timpurie dată din valorile de intrare.                      |
+| Latest    | Date       | Cea mai recentă dată din valorile de intrare.                      |
+| Range     | Date       | Diferența dintre `Latest` și `Earliest`.               |
+| Checked   | Boolean    | Numărul valorilor `true`.                                  |
+| Unchecked | Boolean    | Numărul valorilor `false`.                                  |
+| Empty     | Any        | Numărul valorilor din intrare care sunt goale.             |
+| Filled    | Any        | Numărul valorilor din intrare care nu sunt goale.         |
+| Unique    | Any        | Numărul valorilor unice din intrare.                        |
 
-### Views
+### Vizualizări
 
-The `views` section defines how the data can be rendered. Each entry in the `views` list defines a separate view of the same data, and there can be as many different views as needed.
+Secțiunea `views` definește modul în care datele pot fi afișate. Fiecare intrare din lista `views` definește o vizualizare separată a acelorași date, și pot exista oricâte vizualizări diferite ai nevoie.
 
 ```yaml
 views:
@@ -199,167 +198,167 @@ views:
       formula.ppu: Average
 ```
 
-- `type` selects from the built-in and plugin-added view types.
-- `name` is the display name, and can be used to define the default view.
-- `filters` are exactly the same as described above, but apply only to the view.
-- `groupBy` specifies a property and sort direction. The value of the specified property for each row is used to place the row into groups.
-- `summaries` maps property names to a named summary. Summaries perform an aggregation on the property across all rows.
+- `type` selectează dintre tipurile de vizualizare incluse implicit și cele adăugate de module.
+- `name` este numele afișat și poate fi folosit pentru a defini vizualizarea implicită.
+- `filters` sunt exact la fel ca cele descrise mai sus, dar se aplică doar vizualizării respective.
+- `groupBy` specifică o proprietate și o direcție de sortare. Valoarea proprietății specificate pentru fiecare rând este folosită pentru a plasa rândul în grupuri.
+- `summaries` asociază numele proprietăților cu un rezumat denumit. Rezumatele efectuează o agregare a proprietății pentru toate rândurile.
 
-[[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to limit the number of rows or to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title.
+[[Views|Vizualizările]] pot adăuga date suplimentare pentru a stoca orice informație necesară pentru menținerea stării sau pentru afișarea corectă, însă autorii de module trebuie să aibă grijă să nu folosească chei deja utilizate de modulul de bază Bases. De exemplu, o vizualizare de tip tabel poate folosi acest lucru pentru a limita numărul de rânduri sau pentru a selecta ce coloană este folosită pentru sortarea rândurilor și în ce direcție. Un alt tip de vizualizare, precum o hartă, ar putea folosi acest lucru pentru a stabili ce proprietate din notă corespunde latitudinii și longitudinii și ce proprietate ar trebui afișată ca titlu al pinului.
 
-In the future, API will allow views to read and write these values, allowing the view to build its own interface for configuration.
+Pe viitor, un API va permite vizualizărilor să citească și să scrie aceste valori, permițându-le să își construiască propria interfață de configurare.
 
-## Properties
+## Proprietăți
 
-There are three kinds of properties used in bases:
+Există trei tipuri de proprietăți folosite în baze:
 
-1. **Note properties**, stored in frontmatter of Markdown files.
-2. **File properties**, accessible for all file types.
-3. **Formula properties**, defined in the `.base` file itself (see above).
+1. **Proprietățile notei**, stocate în antetul (frontmatter) fișierelor Markdown.
+2. **Proprietățile fișierului**, accesibile pentru toate tipurile de fișiere.
+3. **Proprietățile de tip formulă**, definite chiar în fișierul `.base` (vezi mai sus).
 
-### Note properties
+### Proprietățile notei
 
-[[Properties|Note properties]] are only available for Markdown files, and are stored in the YAML frontmatter of each note. These properties can be accessed using the format `note.author` or simply `author` as a shorthand.
+[[Properties|Proprietățile notei]] sunt disponibile doar pentru fișierele Markdown și sunt stocate în antetul YAML (frontmatter) al fiecărei note. Aceste proprietăți pot fi accesate folosind formatul `note.author` sau, prescurtat, simplu `author`.
 
-### File properties
+### Proprietățile fișierului
 
-File properties refer to the file currently being tested or evaluated. File properties are available for all [[Accepted file formats|file types]], including attachments.
+Proprietățile fișierului se referă la fișierul testat sau evaluat în acel moment. Proprietățile fișierului sunt disponibile pentru toate [[Accepted file formats|tipurile de fișiere]], inclusiv atașamentele.
 
-For example, a filter `file.ext == "md"` will be true for all Markdown files and false otherwise.
+De exemplu, un filtru `file.ext == "md"` va fi adevărat pentru toate fișierele Markdown și fals în rest.
 
-| Property      | Type   | Description                                                   |
+| Proprietate      | Tip   | Descriere                                                   |
 | ------------- | ------ | ------------------------------------------------------------- |
-| `file.backlinks`  | List   | List of backlink files. Note: This property is performance heavy. When possible, reverse the lookup and use `file.links`. Does not automatically refresh results when the vault is changed. |
-| `file.ctime`  | Date   | Created time                                                  |
-| `file.embeds` | List   | List of all embeds in the note                                |
-| `file.ext`    | String | File extension                                                |
-| `file.file`   | File   | File object, only usable in specific functions                |
-| `file.folder` | String | Path of the file folder                                       |
-| `file.links`  | List   | List of all internal links in the note, including frontmatter |
-| `file.mtime`  | Date   | Modified time                                                 |
-| `file.name`   | String | File name                                                     |
-| `file.path`   | String | Path of the file                                              |
-| `file.properties`   | Object | All properties on the file. Note: Does not automatically refresh results when the vault is changed. |
-| `file.size`   | Number | File size                                                     |
-| `file.tags`   | List   | List of all tags in the file content and frontmatter          |
+| `file.backlinks`  | List   | Lista fișierelor cu referințe. Notă: Această proprietate solicită intens performanța. Când este posibil, inversează căutarea și folosește `file.links`. Nu reîmprospătează automat rezultatele când seiful este modificat. |
+| `file.ctime`  | Date   | Data creării                                                  |
+| `file.embeds` | List   | Lista tuturor încorporărilor din notă                                |
+| `file.ext`    | String | Extensia fișierului                                                |
+| `file.file`   | File   | Obiectul fișier, utilizabil doar în funcții specifice                |
+| `file.folder` | String | Calea directorului fișierului                                       |
+| `file.links`  | List   | Lista tuturor legăturilor interne din notă, inclusiv din antet (frontmatter) |
+| `file.mtime`  | Date   | Data modificării                                                  |
+| `file.name`   | String | Numele fișierului                                                   |
+| `file.path`   | String | Calea fișierului                                                |
+| `file.properties`   | Object | Toate proprietățile fișierului. Notă: Nu reîmprospătează automat rezultatele când seiful este modificat. |
+| `file.size`   | Number | Dimensiunea fișierului                                                     |
+| `file.tags`   | List   | Lista tuturor etichetelor din conținutul și antetul fișierului          |
 
-### Access properties with `this`
+### Accesarea proprietăților cu `this`
 
-Use the `this` object to access file properties. What `this` refers to, will depend on where the base is displayed. 
+Folosește obiectul `this` pentru a accesa proprietățile fișierului. Ceea ce reprezintă `this` depinde de locul în care este afișată baza.
 
-When the base is opened in main content area, `this` points to properties of the base file itself. For example, using `this.file.folder` returns the folder path where the base is located.
+Când baza este deschisă în zona principală de conținut, `this` indică proprietățile fișierului bază însuși. De exemplu, folosind `this.file.folder` se returnează calea directorului în care se află baza.
 
-When the base is embedded in another file, `this` points to properties of the _embedding_ file (the note or Canvas that contains the base). For example, using `this.file.name` returns the name of the embedding file, not the base.
+Când baza este încorporată într-un alt fișier, `this` indică proprietățile fișierului care _încorporează_ baza (nota sau Pânza care conține baza). De exemplu, folosind `this.file.name` se returnează numele fișierului care încorporează baza, nu al bazei.
 
-When the base is in a sidebar, `this` refers to the active file in the main content area. This lets you create queries based on the active file. For example, you can use `file.hasLink(this.file)` to replicate the backlinks pane.
+Când baza este într-o bară laterală, `this` face referire la fișierul activ din zona principală de conținut. Acest lucru îți permite să creezi interogări bazate pe fișierul activ. De exemplu, poți folosi `file.hasLink(this.file)` pentru a replica panoul de referințe.
 
-## Operators
+## Operatori
 
-### Arithmetic operators
+### Operatori aritmetici
 
-Arithmetic operators perform arithmetic on numbers. For example, `radius * (2 * 3.14)`.
+Operatorii aritmetici efectuează operații aritmetice pe numere. De exemplu, `radius * (2 * 3.14)`.
 
-| Operator | Description |
+| Operator | Descriere |
 | -------- | ----------- |
 | `+`      | plus        |
 | `-`      | minus       |
-| `*`      | multiply    |
-| `/`      | divide      |
+| `*`      | înmulțire    |
+| `/`      | împărțire      |
 | `%`      | modulo      |
-| `( )`    | parenthesis |
+| `( )`    | paranteză |
 
-### Date arithmetic
+### Aritmetica datelor calendaristice
 
-Dates can be modified by adding and subtracting durations. Duration units accept multiple formats:
+Datele calendaristice pot fi modificate prin adunarea și scăderea unor durate. Unitățile de durată acceptă formate multiple:
 
-| Unit                     | Duration |
+| Unitate                     | Durată |
 | ------------------------ | -------- |
-| `y`, `year`, `years`     | year     |
-| `M`, `month`, `months`   | month    |
-| `d`, `day`, `days`       | day      |
-| `w`, `week`, `weeks`     | week     |
-| `h`, `hour`, `hours`     | hour     |
-| `m`, `minute`, `minutes` | minute   |
-| `s`, `second`, `seconds` | second   |
+| `y`, `year`, `years`     | an     |
+| `M`, `month`, `months`   | lună    |
+| `d`, `day`, `days`       | zi     |
+| `w`, `week`, `weeks`     | săptămână     |
+| `h`, `hour`, `hours`     | oră     |
+| `m`, `minute`, `minutes` | minut   |
+| `s`, `second`, `seconds` | secundă   |
 
-To modify or offset Date objects, use the `+` or `-` operator with a duration string. For example, `date + "1M"` adds 1 month to the date, while `date - "2h"` subtracts 2 hours from the date.
+Pentru a modifica sau decala obiectele Date, folosește operatorul `+` sau `-` împreună cu un string de durată. De exemplu, `date + "1M"` adaugă 1 lună la dată, în timp ce `date - "2h"` scade 2 ore din dată.
 
-The global [[Functions|function]] `today()` can be used to get the current date, and `now()` can be used to get the current date with time.
+[[Functions|Funcția]] globală `today()` poate fi folosită pentru a obține data curentă, iar `now()` poate fi folosită pentru a obține data curentă împreună cu ora.
 
-- `now() + "1 day"` returns a datetime exactly 24 hours from the time of execution.
-- `file.mtime > now() - "1 week"` returns `true` if the file was modified within the last week.
-- `date("2024-12-01") + "1M" + "4h" + "3m"` returns a Date object representing `2025-01-01 04:03:00`.
-- Subtract two dates to get the millisecond difference between the two, for example, `now() - file.ctime`.
-- To get the date portion of a Date with time, use `datetime.date()`.
-- To format a Date object, use the `format()` function, for example `datetime.format("YYYY-MM-DD")`.
+- `now() + "1 day"` returnează un datetime exact 24 de ore de la momentul execuției.
+- `file.mtime > now() - "1 week"` returnează `true` dacă fișierul a fost modificat în ultima săptămână.
+- `date("2024-12-01") + "1M" + "4h" + "3m"` returnează un obiect Date reprezentând `2025-01-01 04:03:00`.
+- Scade două date pentru a obține diferența în milisecunde dintre ele, de exemplu, `now() - file.ctime`.
+- Pentru a obține doar porțiunea de dată dintr-un obiect Date cu oră, folosește `datetime.date()`.
+- Pentru a formata un obiect Date, folosește funcția `format()`, de exemplu `datetime.format("YYYY-MM-DD")`.
 
-### Comparison operators
+### Operatori de comparație
 
-Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.
+Operatorii de comparație pot fi folosiți pentru a compara numere sau obiecte Date. Egal și diferit pot fi folosiți cu orice tip de valoare, nu doar cu numere și date.
 
-| Operator | Description              |
+| Operator | Descriere              |
 | -------- | ------------------------ |
-| `==`     | equals                   |
-| `!=`     | not equal                |
-| `>`      | greater than             |
-| `<`      | less than                |
-| `>=`     | greater than or equal to |
-| `<=`     | less than or equal to    |
+| `==`     | egal                   |
+| `!=`     | diferit                |
+| `>`      | mai mare decât             |
+| `<`      | mai mic decât             |
+| `>=`     | mai mare sau egal cu |
+| `<=`     | mai mic sau egal cu    |
 
-### Boolean operators
+### Operatori booleeni
 
-Boolean operators can be used to combine or invert logical values, resulting in a true or false value.
+Operatorii booleeni pot fi folosiți pentru a combina sau inversa valori logice, rezultând o valoare adevărată sau falsă.
 
-| Operator | Description |
+| Operator | Descriere |
 | -------- | ----------- |
-| `!`      | logical not |
-| `&&`     | logical and |
-| \|\|     | logical or  |
+| `!`      | negație logică |
+| `&&`     | și logic |
+| \|\|     | sau logic  |
 
-## Functions
+## Funcții
 
-See the [[Functions|list of functions]] that can be used in formulas and [[Views|filters]].
+Consultă [[Functions|lista de funcții]] care pot fi folosite în formule și [[Views|filtre]].
 
-## Types
+## Tipuri
 
-Bases have a type system which is used by formulas and filters to apply functions to properties.
+Bazele au un sistem de tipuri care este folosit de formule și filtre pentru a aplica funcții proprietăților.
 
-### Strings, numbers, and booleans
+### Stringuri, numere și valori booleene
 
-Strings, numbers, and booleans are "primitive" values which do not require a function to create.
+Stringurile, numerele și valorile booleene sunt valori „primitive” care nu necesită o funcție pentru a fi create.
 
-- Strings are enclosed in single or double quotes, for example `"message"`.
-- Numbers are written as digits, and may optionally be enclosed in parenthesis for clarity. For example, `1` or `(2.5)`.
-- Booleans are written as `true` or `false` without quotes.
+- Stringurile sunt încadrate între ghilimele simple sau duble, de exemplu `"message"`.
+- Numerele sunt scrise ca cifre și pot fi opțional încadrate între paranteze pentru claritate. De exemplu, `1` sau `(2.5)`.
+- Valorile booleene sunt scrise ca `true` sau `false`, fără ghilimele.
 
-### Dates and durations
+### Date calendaristice și durate
 
-Dates represent a specific date, or a date and time depending on the function used to create them, or that type that has been assigned to the [[Properties|property]].
+Datele calendaristice reprezintă o dată specifică, sau o dată și o oră, în funcție de funcția folosită pentru a le crea, sau de tipul care a fost atribuit [[Properties|proprietății]].
 
-- To construct a date, use the `date` function, for example `date("2025-01-01 12:00:00")`
-- To modify a date, add or remove a duration, for example `now() + "1 hour"` or `today() + "7d"`
-- Compare dates using comparison operators (e.g. `>` or `<`) and arithmetic operators (for example, `(now() + "1d") - now()` returns `86400000` milliseconds.)
-- To extract portions of a date, use the available fields (`now().hour`), or a convenience function (`now.time()`).
-- Many other [[Functions|fields and functions]] are available on date objects.
+- Pentru a construi o dată, folosește funcția `date`, de exemplu `date("2025-01-01 12:00:00")`
+- Pentru a modifica o dată, adaugă sau elimină o durată, de exemplu `now() + "1 hour"` sau `today() + "7d"`
+- Compară datele folosind operatori de comparație (de exemplu `>` sau `<`) și operatori aritmetici (de exemplu, `(now() + "1d") - now()` returnează `86400000` milisecunde.)
+- Pentru a extrage porțiuni dintr-o dată, folosește câmpurile disponibile (`now().hour`), sau o funcție convenabilă (`now.time()`).
+- Multe alte [[Functions|câmpuri și funcții]] sunt disponibile pe obiectele de tip dată.
 
-### Objects and lists
+### Obiecte și liste
 
-- Turn a single element into a list using the `list()` function. This is especially helpful for properties which may contain a mixture of lists or single values.
-- Access list elements using square brackets, and a 0-based index. For example, `property[0]` returns the first element from the list.
-- Access object elements using square brackets and the element name or dot notation. For example, `property.subprop` or `property["subprop"]`.
+- Transformă un singur element într-o listă folosind funcția `list()`. Acest lucru este util în special pentru proprietățile care pot conține fie liste, fie valori simple.
+- Accesează elementele listei folosind paranteze pătrate și un index bazat pe 0. De exemplu, `property[0]` returnează primul element din listă.
+- Accesează elementele obiectului folosind paranteze pătrate și numele elementului sau notația cu punct. De exemplu, `property.subprop` sau `property["subprop"]`.
 
-### Files and links
+### Fișiere și legături
 
-[[Link notes|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
+[[Link notes|Wikilinkurile]] din [[Properties|proprietățile din antet (frontmatter)]] sunt recunoscute automat ca obiecte Link. Legăturile vor fi afișate ca o legătură pe care se poate face clic în [[Views|vizualizare]].
 
-- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")` or `link("https://obsidian.md")`.
-- You can create a link from any string, for example, `link(file.ctime.date().toString())`.
-- To set the display text, pass in an optional string or icon as a second parameter, for example `link("filename", "display")` or `link("filename", icon("plus"))`.
+- Pentru a construi o legătură, folosește [[Functions|funcția]] globală `link`, de exemplu `link("filename")` sau `link("https://obsidian.md")`.
+- Poți crea o legătură din orice string, de exemplu, `link(file.ctime.date().toString())`.
+- Pentru a stabili textul afișat, transmite un string opțional sau o iconiță ca al doilea parametru, de exemplu `link("filename", "display")` sau `link("filename", icon("plus"))`.
 
-A File object can be turned into a link using `file.asLink()` with an optional display text.
+Un obiect File poate fi transformat într-o legătură folosind `file.asLink()` cu un text de afișare opțional.
 
-Links can be compared with `==` and `!=`. They are equivalent as long as they point to the same file, or if the file does not exist when looked up, their link text must be identical.
+Legăturile pot fi comparate cu `==` și `!=`. Ele sunt echivalente atât timp cât indică spre același fișier, sau, dacă fișierul nu există la momentul căutării, textul lor de legătură trebuie să fie identic.
 
-Links can be compared to files such as `file` or `this`. They will equate if the link resolves to the file. For example, `author == this`.
+Legăturile pot fi comparate cu fișiere, precum `file` sau `this`. Ele vor fi considerate egale dacă legătura se rezolvă la acel fișier. De exemplu, `author == this`.
 
-Links can also be checked in list contains, for example, `authors.contains(this)`.
+Legăturile pot fi verificate și în conținutul unei liste, de exemplu, `authors.contains(this)`.

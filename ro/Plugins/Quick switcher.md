@@ -1,35 +1,34 @@
 ---
-localized: null
 permalink: plugins/quick-switcher
-description: Quick switcher is a core plugin that lets you search and open notes using only your keyboard.
+description: Quick switcher este un modul integrat care îți permite să cauți și să deschizi note folosind doar tastatura.
 ---
-Quick switcher is a [[Core plugins|core plugin]] that lets you search and open notes using only your keyboard.
+Quick switcher este un [[Core plugins|modul integrat]] care îți permite să cauți și să deschizi note folosind doar tastatura.
 
-## Open Quick switcher
+## Deschide Comutarea rapidă
 
-There are several ways to open Quick Switcher, when it's enabled:
-- Press `Ctrl+O` (or `Cmd+O` on macOS) to open the Quick switcher;
-- In the ribbon, click **Open Quick switcher** ![[lucide-file-search.svg#icon]];
-- On mobile, when you're not editing a note, tap the plus icon at bottom center of the app.
+Există mai multe moduri de a deschide Comutarea rapidă, când este activată:
+- Apasă `Ctrl+O` (sau `Cmd+O` pe macOS) pentru a deschide Comutarea rapidă;
+- În panglică, dă clic pe **Open Quick switcher** ![[lucide-file-search.svg#icon]];
+- Pe mobil, când nu editezi o notă, atinge pictograma plus din centrul de jos al aplicației.
 
-## Open a note with Quick switcher
+## Deschide o notă cu Comutarea rapidă
 
-1. [[#Open Quick switcher]].
-2. Type to search for a note by name or alias.
-3. Navigate to the note using the arrow keys.
-4. Press `Enter` to open the selected note.
+1. [[#Deschide Comutarea rapidă]].
+2. Scrie pentru a căuta o notă după nume sau pseudonim.
+3. Navighează la notă folosind săgețile de la tastatură.
+4. Apasă `Enter` pentru a deschide nota selectată.
 
 > [!info] 
-> Autocomplete functionality switches to a simpler result algorithm when the vault reaches 10,000 items to maintain optimal application performance. 
+> Funcționalitatea de autocompletare trece la un algoritm de rezultate mai simplu atunci când seiful atinge 10.000 de elemente, pentru a menține performanța optimă a aplicației. 
 ^search-autocomplete-large
 
-If the text doesn't match any notes, you can press `Enter` to create a note with that name. Even if the text matches one or more similar notes, you can still create a note with the exact name by pressing `Shift+Enter`.
+Dacă textul nu se potrivește cu nicio notă, poți apăsa `Enter` pentru a crea o notă cu acel nume. Chiar dacă textul se potrivește cu una sau mai multe note similare, poți totuși crea o notă cu numele exact apăsând `Shift+Enter`.
 
-You can open the selected note in a new tab by pressing `Ctrl+Enter` (or `Cmd+Enter` on macOS).
+Poți deschide nota selectată într-o filă nouă apăsând `Ctrl+Enter` (sau `Cmd+Enter` pe macOS).
 
-> [!tip] Toggle between two notes
-> If the search term is empty, the Quick switcher shows the most recent notes. Toggle between two notes by opening the Quick switcher, pressing the `Down` arrow, and then pressing `Enter`.
+> [!tip] Comută între două note
+> Dacă termenul de căutare este gol, Comutarea rapidă arată cele mai recente note. Comută între două note deschizând Comutarea rapidă, apăsând săgeata `Jos`, apoi apăsând `Enter`.
 
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns are deprioritized in Quick switcher results.
+> [!info] Fișiere excluse
+> Fișierele care corespund tiparelor tale de [[Settings#Excluded files|Fișiere excluse]] sunt depriorizate în rezultatele Comutării rapide.

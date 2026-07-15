@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: credit
 ---
-Obsidian Credit is a type of prepaid credit that can be bought in advance and applied toward purchases of any Obsidian service or license. Obsidian Credit can be [[#Gifting|gifted]] to other Obsidian users, such as friends, family, and coworkers.
+Obsidian Credit este un tip de credit preplătit care poate fi achiziționat în avans și aplicat la achizițiile oricărui serviciu sau licențe Obsidian. Obsidian Credit poate fi [[#Oferire cadou|oferit cadou]] altor utilizatori Obsidian, cum ar fi prieteni, familie și colegi.
 
-Obsidian Credit will be applied before any payment is due, including auto-renewals. Obsidian Credit **is not** eligible for a refund per our [[Refund policy]].
+Obsidian Credit va fi aplicat înainte de orice plată scadentă, inclusiv reînnoirile automate. Obsidian Credit **nu** este eligibil pentru rambursare, conform [[Refund policy]].
 
-## Add credit
+## Adaugă credit
 
-1. Log into [your Obsidian account](https://obsidian.md/account/billing).
-2. In the [Billing](https://obsidian.md/account/billing) section, go to **Obsidian Credit** and choose **Buy credit**.
-3. Enter the amount of Obsidian Credit you want to buy. The amount is in US dollars.
-4. Proceed to pay for the credit with any of the supported payment methods.
+1. Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/billing).
+2. În secțiunea [Billing](https://obsidian.md/account/billing), mergi la **Obsidian Credit** și alege **Buy credit**.
+3. Introdu suma de Obsidian Credit pe care dorești să o cumperi. Suma este exprimată în dolari americani.
+4. Continuă cu plata creditului folosind oricare dintre metodele de plată acceptate.
 
-> [!Note] Sales tax
-> Any applicable [[sales tax]] will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
+> [!Note] Taxa pe vânzări
+> Orice [[sales tax]] aplicabilă va fi percepută atunci când efectuezi achiziția unui produs, cum ar fi Obsidian Sync, nu atunci când cumperi Obsidian Credit.
 >
-> If you plan to cover auto-renewals with your credit, please keep this factor in mind.
+> Dacă intenționezi să acoperi reînnoirile automate cu creditul tău, te rugăm să ții cont de acest aspect.
 
-## Gifting
+## Oferire cadou
 
-Although Obsidian is completely free to use, you can give the gift of Obsidian Credit to help someone get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]] or a [[Commercial license|Commercial license]] for using Obsidian at work.
+Deși Obsidian este complet gratuit, poți oferi cadou Obsidian Credit pentru a ajuta pe cineva să obțină un serviciu suplimentar precum [[Introduction to Obsidian Sync|Obsidian Sync]] sau o [[Commercial license|licență comercială]] pentru utilizarea Obsidian la locul de muncă.
 
-Please note that Obsidian Credit **cannot** be re-gifted once claimed. The original recipient will not be able to transfer or share it with others.
+Te rugăm să reții că Obsidian Credit **nu poate** fi oferit din nou cadou odată revendicat. Destinatarul inițial nu îl va putea transfera sau împărtăși cu alții.
 
-## Give Obsidian Credit
+## Oferă cadou Obsidian Credit
 
-In Obsidian, you don't gift a particular product, but rather Obsidian Credit that can be used towards anything. It's like an Obsidian gift card.
+În Obsidian, nu oferi cadou un anumit produs, ci mai degrabă Obsidian Credit, care poate fi folosit pentru orice. Este ca un card cadou Obsidian.
 
-1. If you don't already have [[Obsidian Credit]], you must first [[Obsidian Credit#Add credit|purchase credit]].
-2. Go to the [Billing](https://obsidian.md/account/billing) section of your account, and choose **Send credit**.
-3. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
-4. Click **Send gift** to complete the gifting. You will be sent an email confirmation.
-5. After you send out a gift, you can view it under **Billing → Gift history**. You can see the status of each gift, and cancel the ones that haven't been redeemed yet.
+1. Dacă nu ai deja [[Obsidian Credit]], trebuie mai întâi să [[Obsidian Credit#Adaugă credit|achiziționezi credit]].
+2. Accesează secțiunea [Billing](https://obsidian.md/account/billing) a contului tău și alege **Send credit**.
+3. Urmează instrucțiunile pentru a obține fie un link de revendicare pe care să ți-l trimiți ție însuți, fie pentru a ne lăsa să trimitem un e-mail anonimizat destinatarului.
+4. Dă clic pe **Send gift** pentru a finaliza oferirea cadoului. Vei primi un e-mail de confirmare.
+5. După ce trimiți un cadou, îl poți vizualiza sub **Billing → Gift history**. Poți vedea starea fiecărui cadou și poți anula pe cele care nu au fost încă revendicate.
 
-## Receiving Obsidian Credit
+## Primirea Obsidian Credit
 
-If you have received a redemption link or an anonymized email, follow these steps to redeem your Obsidian Credit:
+Dacă ai primit un link de revendicare sau un e-mail anonimizat, urmează acești pași pentru a-ți revendica Obsidian Credit:
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account/billing).
-2. Open the redemption link or click the link in your email.
-3. Confirm that you want to receive the credits.
-4. The credits will be deposited within your account, ready to be used.
+1. Autentifică-te sau creează-ți [contul Obsidian](https://obsidian.md/account/billing).
+2. Deschide linkul de revendicare sau dă clic pe linkul din e-mailul tău.
+3. Confirmă că dorești să primești creditele.
+4. Creditele vor fi depuse în contul tău, gata de utilizare.
 
-The purchaser will be notified that you have redeemed the Obsidian Credit.
+Cumpărătorul va fi notificat că ai revendicat Obsidian Credit.

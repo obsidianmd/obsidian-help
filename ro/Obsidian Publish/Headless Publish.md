@@ -1,134 +1,133 @@
 ---
-localized: null
 permalink: publish/headless
 cssclasses:
   - reference
-description: Obsidian Publish offers a headless client to publish vaults without using the desktop app. Useful for CI pipelines and automated workflows.
+description: Obsidian Publish oferă un client headless pentru a publica seifuri fără a folosi aplicația desktop. Util pentru pipeline-uri CI și fluxuri de lucru automatizate.
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] offers a headless client to publish vaults without using the desktop app. Useful for CI pipelines and automated workflows. Publish your latest changes on a schedule or as part of a build pipeline.
+[[Introduction to Obsidian Publish|Obsidian Publish]] oferă un client headless pentru a publica seifuri fără a folosi aplicația desktop. Util pentru pipeline-uri CI și fluxuri de lucru automatizate. Publică cele mai recente schimbări ale tale după un program stabilit sau ca parte a unui pipeline de build.
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Publish|Obsidian Publish]] from the command line without the Obsidian desktop app.
+Instalează [[Obsidian Headless]] **(beta deschisă)** pentru a interacționa cu [[Introduction to Obsidian Publish|Obsidian Publish]] din linia de comandă, fără aplicația desktop Obsidian.
 
-## Quick start
+## Start rapid
 
-Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
+Instalează [[Obsidian Headless|Obsidian Headless]] **(beta deschisă)**:
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Introduction to Obsidian Publish|Obsidian Publish subscription]].
+Trebuie să ai un [[Introduction to Obsidian Publish|abonament Obsidian Publish]] activ.
 
 ```shell
-# Login
+# Autentificare
 ob login
 
-# List your publish sites
+# Listează siteurile tale de publicare
 ob publish-list-sites
 
-# Connect a local vault to a publish site
+# Conectează un seif local la un site de publicare
 cd ~/vaults/my-vault
 ob publish-setup --site "my-site"
 
-# Preview changes without publishing
+# Previzualizează schimbările fără a publica
 ob publish --dry-run
 
-# Publish changes
+# Publică schimbările
 ob publish
 ```
 
-## Commands
+## Comenzi
 
 ### `ob publish-list-sites`
 
-List all Publish sites available to your account.
+Listează toate siteurile Publish disponibile pentru contul tău.
 
 ### `ob publish-create-site`
 
-Create a new Publish site.
+Creează un nou site Publish.
 
 ```
 ob publish-create-site --slug <slug>
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--slug` | URL identifier for your site (e.g. `my-notes` creates `publish.obsidian.md/my-notes`) |
+| `--slug` | Identificator URL pentru site-ul tău (de ex. `my-notes` creează `publish.obsidian.md/my-notes`) |
 
 ### `ob publish-setup`
 
-Connect a local vault to a Publish site.
+Conectează un seif local la un site Publish.
 
 ```
 ob publish-setup [--site <id-or-slug>] [--path <local-path>]
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--site` | Site ID or slug |
-| `--path` | Local vault path (default: current directory) |
+| `--site` | ID-ul sau slug-ul siteului |
+| `--path` | Calea seifului local (implicit: directorul curent) |
 
 ### `ob publish`
 
-Publish vault changes to your site. By default, only files with `publish: true` in their frontmatter are included.
+Publică schimbările seifului pe site-ul tău. Implicit, sunt incluse doar fișierele cu `publish: true` în frontmatter.
 
 ```
 ob publish [--path <local-path>] [--all] [--dry-run] [--yes]
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--all` | Include all files, not just those with a publish flag |
-| `--dry-run` | Show changes without publishing |
-| `--yes` | Publish without prompting for confirmation |
+| `--path` | Calea seifului local (implicit: directorul curent) |
+| `--all` | Include toate fișierele, nu doar cele cu un flag de publicare |
+| `--dry-run` | Afișează schimbările fără a publica |
+| `--yes` | Publică fără a cere confirmare |
 
 ### `ob publish-config`
 
-View or change include/exclude folder settings for a vault. Run with no options to display the current configuration.
+Vizualizează sau schimbă setările directoarelor incluse/excluse pentru un seif. Rulează fără opțiuni pentru a afișa configurația curentă.
 
 ```
 ob publish-config [--path <local-path>] [options]
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--includes` | Folders to include, comma-separated (empty string to clear) |
-| `--excludes` | Folders to exclude, comma-separated (empty string to clear) |
+| `--path` | Calea seifului local (implicit: directorul curent) |
+| `--includes` | Directoare de inclus, separate prin virgulă (șir gol pentru a șterge) |
+| `--excludes` | Directoare de exclus, separate prin virgulă (șir gol pentru a șterge) |
 
 ### `ob publish-site-options`
 
-View or update site-wide display and navigation settings. Run with no options to display the current settings.
+Vizualizează sau actualizează setările de afișare și navigare la nivel de site. Rulează fără opțiuni pentru a afișa setările curente.
 
 ```
 ob publish-site-options [--path <local-path>] [options]
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--site-name` | Site name |
-| `--index-file` | Home page file path |
-| `--logo` | Logo file path (empty string to clear) |
-| `--show-navigation` | Show navigation sidebar |
-| `--show-graph` | Show graph view |
-| `--show-outline` | Show table of contents |
-| `--show-search` | Show search |
-| `--show-backlinks` | Show backlinks |
-| `--show-hover-preview` | Show hover preview |
-| `--show-theme-toggle` | Show theme toggle |
-| `--default-theme` | Default theme: `light` or `dark` |
-| `--readable-line-length` | Readable line length |
-| `--strict-line-breaks` | Strict line breaks |
-| `--hide-title` | Hide inline title |
-| `--sliding-window` | Sliding window mode |
-| `--nav-order` | Navigation order, comma-separated paths (empty string to clear) |
-| `--nav-hidden` | Hidden navigation items, comma-separated paths (empty string to clear) |
+| `--path` | Calea seifului local (implicit: directorul curent) |
+| `--site-name` | Numele siteului |
+| `--index-file` | Calea fișierului paginii principale |
+| `--logo` | Calea fișierului siglă (șir gol pentru a șterge) |
+| `--show-navigation` | Afișează bara laterală de navigare |
+| `--show-graph` | Afișează afișajul grafic |
+| `--show-outline` | Afișează cuprinsul |
+| `--show-search` | Afișează căutarea |
+| `--show-backlinks` | Afișează referințele |
+| `--show-hover-preview` | Afișează previzualizarea plutitoare |
+| `--show-theme-toggle` | Afișează comutatorul de temă |
+| `--default-theme` | Tema implicită: `light` sau `dark` |
+| `--readable-line-length` | Lungimea lizibilă a rândului |
+| `--strict-line-breaks` | Întreruperi stricte de rând |
+| `--hide-title` | Ascunde titlul inline |
+| `--sliding-window` | Modul fereastră glisantă |
+| `--nav-order` | Ordinea de navigare, căi separate prin virgulă (șir gol pentru a șterge) |
+| `--nav-hidden` | Elemente de navigare ascunse, căi separate prin virgulă (șir gol pentru a șterge) |
 
 ### `ob publish-unlink`
 
-Disconnect a vault from a Publish site.
+Deconectează un seif de la un site Publish.
 
 ```
 ob publish-unlink [--path <local-path>]

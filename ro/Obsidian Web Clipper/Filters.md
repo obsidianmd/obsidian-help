@@ -1,383 +1,382 @@
 ---
-localized: null
 permalink: web-clipper/filters
 ---
-Filters allow you to modify [[variables]] in [[Obsidian Web Clipper/Templates|Web Clipper templates]]. Filters are applied to variables using the syntax `{{variable|filter}}`.
+Filtrele îți permit să modifici [[variables|variabilele]] din [[Obsidian Web Clipper/Templates|șabloanele Web Clipper]]. Filtrele sunt aplicate variabilelor folosind sintaxa `{{variable|filter}}`.
 
-- Filters work for any kind of [[Variables|variable]] including `prompt`, `meta`, `selector`, and `schema` variables.
-- Filters can be chained, e.g. `{{variable|filter1|filter2}}`, and are applied in the order they are added.
+- Filtrele funcționează pentru orice tip de [[Variables|variabilă]], inclusiv variabilele `prompt`, `meta`, `selector` și `schema`.
+- Filtrele pot fi înlănțuite, de ex. `{{variable|filter1|filter2}}`, și sunt aplicate în ordinea în care sunt adăugate.
 
-## Dates
+## Date calendaristice
 
-Convert and modify dates.
+Convertește și modifică date calendaristice.
 
 ### `date`
 
-Converts a date to the specified format, [see reference](https://day.js.org/docs/en/display/format).
+Convertește o dată în formatul specificat, [vezi referința](https://day.js.org/docs/en/display/format).
 
-- `{{date|date:"YYYY-MM-DD"}}` converts the current date to "YYYY-MM-DD".
-- Use `date:("outputFormat", "inputFormat")` to specify the input format, e.g. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` parses "12/01/2024" and returns `"2024-12-01"`.
+- `{{date|date:"YYYY-MM-DD"}}` convertește data curentă în „YYYY-MM-DD”.
+- Folosește `date:("outputFormat", "inputFormat")` pentru a specifica formatul de intrare, de ex. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` interpretează „12/01/2024” și returnează `"2024-12-01"`.
 
 ### `date_modify` 
 
-Modifies a date by adding or subtracting a specified amount of time, [see reference](https://day.js.org/docs/en/manipulate/add).
+Modifică o dată prin adăugarea sau scăderea unei perioade de timp specificate, [vezi referința](https://day.js.org/docs/en/manipulate/add).
 
-- `"2024-12-01"|date_modify:"+1 year"` returns `"2025-12-01"`
-- `"2024-12-01"|date_modify:"- 2 months"` returns `"2024-10-01"`
+- `"2024-12-01"|date_modify:"+1 year"` returnează `"2025-12-01"`
+- `"2024-12-01"|date_modify:"- 2 months"` returnează `"2024-10-01"`
 
 ### `duration`
 
-Converts ISO 8601 duration strings or seconds into formatted time strings. Uses tokens: `HH` (padded hours), `H` (hours), `mm` (padded minutes), `m` (minutes), `ss` (padded seconds), `s` (seconds).
+Convertește șiruri de durată ISO 8601 sau secunde în șiruri de timp formatate. Folosește simbolurile: `HH` (ore, cu zero în față), `H` (ore), `mm` (minute, cu zero în față), `m` (minute), `ss` (secunde, cu zero în față), `s` (secunde).
 
-- `"PT1H30M"|duration:"HH:mm:ss"` returns `"01:30:00"`.
-- `"3665"|duration:"H:mm:ss"` returns `"1:01:05"`.
-- Setting `duration` without any parameters uses `HH:mm:ss` over 1 hour, `mm:ss` under 1 hour.
-- Supports both ISO 8601 duration strings (e.g., `PT6702S`, `PT1H30M`) and plain seconds.
+- `"PT1H30M"|duration:"HH:mm:ss"` returnează `"01:30:00"`.
+- `"3665"|duration:"H:mm:ss"` returnează `"1:01:05"`.
+- Setarea `duration` fără parametri folosește `HH:mm:ss` peste 1 oră, `mm:ss` sub 1 oră.
+- Sunt acceptate atât șiruri de durată ISO 8601 (de ex., `PT6702S`, `PT1H30M`), cât și secunde simple.
 
-## Text conversion and capitalization
+## Conversia și capitalizarea textului
 
-Convert text strings from one format to another.
+Convertește șiruri de text dintr-un format în altul.
 
 ### `camel`
 
-Converts text to `camelCase`.
+Convertește textul în `camelCase`.
 
 ### `capitalize`
 
-Capitalizes the first character of the value and converts the rest to lowercase, e.g. `"hELLO wORLD"|capitalize` returns `"Hello world"`.
+Scrie cu majusculă primul caracter al valorii și convertește restul cu litere mici, de ex. `"hELLO wORLD"|capitalize` returnează `"Hello world"`.
 
 ### `decode_uri`
 
-Decodes a URI-encoded string, e.g. `"%E4%BD%A0%E5%A5%BD"|decode_uri` returns `"你好"`.
+Decodifică un șir codificat URI, de ex. `"%E4%BD%A0%E5%A5%BD"|decode_uri` returnează `"你好"`.
 
-- `"hello%20world"|decode_uri` returns `"hello world"`.
-- Returns the original string if decoding fails (e.g. malformed URI sequences).
+- `"hello%20world"|decode_uri` returnează `"hello world"`.
+- Returnează șirul original dacă decodificarea eșuează (de ex., secvențe URI incorecte).
 
 ### `kebab`
 
-Converts text to `kebab-case`.
+Convertește textul în `kebab-case`.
 
 ### `lower`
 
-Converts text to `lowercase`.
+Convertește textul cu litere mici.
 
 ### `pascal`
 
-Converts text to `PascalCase`.
+Convertește textul în `PascalCase`.
 
 ### `replace`
 
-Replaces occurrences of specified text:
+Înlocuiește aparițiile textului specificat:
 
-- Simple replacement: `"hello!"|replace:",":""` removes all commas.
-- Multiple replacements: `"hello world"|replace:("e":"a","o":"0")` returns `"hall0 w0rld"`.
-- Replacements are applied in the order they are specified.
-- To remove specified text, use `""` as the replacement value.
-- Special characters including `: | { } ( ) ' "` should be escaped with a backslash when used in the search term, e.g. `\:` to search for a literal colon.
+- Înlocuire simplă: `"hello!"|replace:",":""` elimină toate virgulele.
+- Înlocuiri multiple: `"hello world"|replace:("e":"a","o":"0")` returnează `"hall0 w0rld"`.
+- Înlocuirile sunt aplicate în ordinea în care sunt specificate.
+- Pentru a elimina textul specificat, folosește `""` ca valoare de înlocuire.
+- Caracterele speciale, inclusiv `: | { } ( ) ' "`, trebuie precedate de o bară oblică inversă atunci când sunt folosite în termenul de căutare, de ex. `\:` pentru a căuta un caracter două puncte literal.
 
-Regex is supported using JavaScript regex syntax:
+Expresiile regulate sunt acceptate folosind sintaxa regex din JavaScript:
 
-- Replace all vowels: `"hello world"|replace:"/[aeiou]/g":"*"` → `"h*ll* w*rld".`
-- Case-insensitive: `"HELLO world"|replace:"/hello/i":"hi"` → `"hi world".`
-- Multiple regex: `"hello world"|replace:("/[aeiou]/g":"*","/\s+/":"-")` → `"h*ll*-w*rld"`.
-- Available flags: `g` (global), `i` (case-insensitive), `m` (multiline), `s` (dotAll), `u` (unicode), `y` (sticky).
+- Înlocuiește toate vocalele: `"hello world"|replace:"/[aeiou]/g":"*"` → `"h*ll* w*rld".`
+- Insensibil la majuscule/minuscule: `"HELLO world"|replace:"/hello/i":"hi"` → `"hi world".`
+- Regex multiple: `"hello world"|replace:("/[aeiou]/g":"*","/\s+/":"-")` → `"h*ll*-w*rld"`.
+- Indicatori disponibili: `g` (global), `i` (insensibil la majuscule/minuscule), `m` (multilinie), `s` (dotAll), `u` (unicode), `y` (sticky).
 
 ### `safe_name`
 
-Converts text to a safe file name.
+Convertește textul într-un nume de fișier sigur.
 
-- By default, `safe_name` applies the most conservative sanitization rules.
-- OS-specific rules can be applied with `safe_name:os` where `os` can be `windows`, `mac`, or `linux` to only apply the rules for that operating system.
+- Implicit, `safe_name` aplică cele mai stricte reguli de curățare.
+- Se pot aplica reguli specifice sistemului de operare cu `safe_name:os`, unde `os` poate fi `windows`, `mac` sau `linux`, pentru a aplica doar regulile pentru acel sistem de operare.
 
 ### `snake`
 
-Converts text to `snake_case`.
+Convertește textul în `snake_case`.
 
 ### `title`
 
-Converts text to `Title Case`, e.g. `"hello world"|title` returns `"Hello World"`.
+Convertește textul în `Title Case` (fiecare cuvânt cu majusculă), de ex. `"hello world"|title` returnează `"Hello World"`.
 
 ### `trim`
 
-Removes white space from both ends of a string.
+Elimină spațiile albe de la ambele capete ale unui șir.
 
-- `"  hello world  "|trim` returns `"hello world"`.
+- `"  hello world  "|trim` returnează `"hello world"`.
 
 ### `uncamel`
 
-Converts camelCase or PascalCase to space-separated words, which you can further format with other filters like `title` or `capitalize`.
+Convertește camelCase sau PascalCase în cuvinte separate prin spații, pe care le poți formata în continuare cu alte filtre precum `title` sau `capitalize`.
 
-- `"camelCase"|uncamel` returns `"camel case"`.
-- `"PascalCase"|uncamel` returns `"pascal case"`.
+- `"camelCase"|uncamel` returnează `"camel case"`.
+- `"PascalCase"|uncamel` returnează `"pascal case"`.
 
 ### `upper`
 
-Converts a value to uppercase, e.g. `"hello world"|upper` returns `"HELLO WORLD"`.
+Convertește o valoare cu majuscule, de ex. `"hello world"|upper` returnează `"HELLO WORLD"`.
 
-## Text formatting
+## Formatarea textului
 
-Apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] to text.
+Aplică [[Basic formatting syntax]] și [[Advanced formatting syntax]] textului.
 
 ### `blockquote` 
 
-Adds a Markdown quote prefix (`> `) to each line of the input.
+Adaugă un prefix Markdown de citat (`> `) la fiecare linie din intrare.
 
 ### `callout`
 
-Creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("type", "title", foldState)}}`
+Creează o [[Callouts|explicație]] cu parametri opționali: `{{variable|callout:("type", "title", foldState)}}`
 
-- `type` is the callout type, and defaults to "info"
-- `title` is the callout title, and defaults to empty
-- `foldState` is a boolean to set the fold state (true for folded, false for unfolded, null for not foldable)
+- `type` este tipul explicației și are valoarea implicită „info”
+- `title` este titlul explicației și are valoarea implicită goală
+- `foldState` este un boolean care stabilește starea de pliere (true pentru pliat, false pentru depliat, null pentru nepliabil)
 
 ### `footnote`
 
-Converts an array or object into a list of Markdown footnotes.
+Convertește un array sau un obiect într-o listă de note de subsol Markdown.
 
-- For arrays: `["first item","second item"]|footnote` returns: `[^1]: first item` etc.
-- For objects: `{"First Note": "Content 1", "Second Note": "Content 2"}|footnote` returns: `[^first-note]: Content 1` etc.
+- Pentru array-uri: `["first item","second item"]|footnote` returnează: `[^1]: first item` etc.
+- Pentru obiecte: `{"First Note": "Content 1", "Second Note": "Content 2"}|footnote` returnează: `[^first-note]: Content 1` etc.
 
 ### `fragment_link`
 
-Converts strings and arrays into [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments) links. Defaults to "link" for the link text.
+Convertește șiruri și array-uri în legături [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments). Implicit folosește „link” ca text al legăturii.
 
-- `highlights|fragment_link` returns `Highlight content [link](text-fragment-url)`
-- `highlights|fragment_link:"custom title"` returns `Highlight content [custom title](text-fragment-url)`
+- `highlights|fragment_link` returnează `Highlight content [link](text-fragment-url)`
+- `highlights|fragment_link:"custom title"` returnează `Highlight content [custom title](text-fragment-url)`
 
 ### `image` 
 
-Converts strings, arrays, or objects into Markdown image syntax.
+Convertește șiruri, array-uri sau obiecte în sintaxă Markdown pentru imagini.
 
-- For strings: `"image.jpg"|image:"alt text"` returns `![alt text](image.jpg)`.
-- For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returns an array of Markdown image strings with the same alt text for all images.
-- For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object keys.
+- Pentru șiruri: `"image.jpg"|image:"alt text"` returnează `![alt text](image.jpg)`.
+- Pentru array-uri: `["image1.jpg","image2.jpg"]|image:"alt text"` returnează un array de șiruri Markdown pentru imagini, cu același text alternativ pentru toate imaginile.
+- Pentru obiecte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnează șiruri Markdown pentru imagini cu textul alternativ preluat din cheile obiectului.
 
 ### `link`
 
-Converts strings, arrays, or objects into Markdown link syntax (not to be confused with [[Filters#`wikilink`|wikilink]]).
+Convertește șiruri, array-uri sau obiecte în sintaxă Markdown pentru legături (a nu se confunda cu [[Filters#`wikilink`|wikilink]]).
 
-- For strings: `"url"|link:"author"` returns `[author](url)`.
-- For arrays: `["url1","url2"]|link:"author"` returns an array of Markdown links with the same text for all links.
-- For objects: `{"url1": "Author 1", "url2": "Author 2"}|link` returns Markdown links with the text that matches the object keys.
+- Pentru șiruri: `"url"|link:"author"` returnează `[author](url)`.
+- Pentru array-uri: `["url1","url2"]|link:"author"` returnează un array de legături Markdown cu același text pentru toate legăturile.
+- Pentru obiecte: `{"url1": "Author 1", "url2": "Author 2"}|link` returnează legături Markdown cu textul care corespunde cheilor obiectului.
 
 ### `list`
 
-Converts an array to a Markdown list.
+Convertește un array într-o listă Markdown.
 
-- `list` to convert to a bullet list.
-- `list:task` to convert to a task list.
-- `list:numbered` to convert to a numbered list.
-- `list:numbered-task` to convert to a task list with numbers.
+- `list` pentru a converti într-o listă cu marcatori.
+- `list:task` pentru a converti într-o listă de sarcini.
+- `list:numbered` pentru a converti într-o listă numerotată.
+- `list:numbered-task` pentru a converti într-o listă de sarcini numerotată.
 
 ### `table`
 
-Converts an array or array of objects into a [[Advanced formatting syntax#Tables|Markdown table]]:
+Convertește un array sau un array de obiecte într-un [[Advanced formatting syntax#Tables|tabel Markdown]]:
 
-- For an array of objects, it uses the object keys as headers.
-- For an array of arrays, it creates a table with each nested array as a row.
-- For a simple array, it creates a single-column table with "Value" as the header.
-- Custom column headers can be specified using: `table:("Column 1", "Column 2", "Column 3")`. When used with a simple array, it automatically breaks the data into rows based on the number of columns specified.
+- Pentru un array de obiecte, folosește cheile obiectului ca antete.
+- Pentru un array de array-uri, creează un tabel cu fiecare array imbricat ca un rând.
+- Pentru un array simplu, creează un tabel cu o singură coloană, cu „Value” ca antet.
+- Antetele de coloană personalizate pot fi specificate folosind: `table:("Column 1", "Column 2", "Column 3")`. Când e folosit cu un array simplu, împarte automat datele în rânduri în funcție de numărul de coloane specificat.
 
 ### `wikilink`
 
-Converts strings, arrays, or objects into Obsidian [[Link notes|wikilink]] syntax.
+Convertește șiruri, array-uri sau obiecte în sintaxă Obsidian [[Link notes|wikilink]].
 
-- For strings: `"page"|wikilink` returns `[[page]]`.
-- For strings with alias: `"page"|wikilink:"alias"` returns `[[page|alias]]`.
-- For arrays: `["page1","page2"]|wikilink` returns an array of wikilinks without aliases.
-- For arrays with alias: `["page1","page2"]|wikilink:"alias"` returns an array of wikilinks with the same alias for all links.
-- For objects: `{"page1": "alias1", "page2": "alias2"}|wikilink` returns wikilinks with the keys as page names and values as aliases.
+- Pentru șiruri: `"page"|wikilink` returnează `[[page]]`.
+- Pentru șiruri cu alias: `"page"|wikilink:"alias"` returnează `[[page|alias]]`.
+- Pentru array-uri: `["page1","page2"]|wikilink` returnează un array de wikilink-uri fără aliasuri.
+- Pentru array-uri cu alias: `["page1","page2"]|wikilink:"alias"` returnează un array de wikilink-uri cu același alias pentru toate legăturile.
+- Pentru obiecte: `{"page1": "alias1", "page2": "alias2"}|wikilink` returnează wikilink-uri cu cheile ca nume de pagini și valorile ca aliasuri.
 
-## Numbers
+## Numere
 
 ### `calc`
 
-Performs basic arithmetic operations on numbers.
+Efectuează operații aritmetice de bază pe numere.
 
-- Supports operators: `+`, `-`, `*`, `/`, `**` (or `^`) for exponentiation.
-- Example: `5|calc:"+10"` returns `15`.
-- Example: `2|calc:"**3"` returns `8` (2 cubed).
-- Returns the original string if the input is not a number.
+- Acceptă operatorii: `+`, `-`, `*`, `/`, `**` (sau `^`) pentru ridicare la putere.
+- Exemplu: `5|calc:"+10"` returnează `15`.
+- Exemplu: `2|calc:"**3"` returnează `8` (2 la puterea a treia).
+- Returnează șirul original dacă intrarea nu este un număr.
 
 ### `length`
 
-Returns the length of strings, arrays, or number of keys in objects.
+Returnează lungimea șirurilor, a array-urilor sau numărul de chei din obiecte.
 
-- For strings: `"hello"|length` returns `5`.
-- For arrays: `["a","b","c"]|length` returns `3`.
-- For objects: `{"a":1,"b":2}|length` returns `2`.
+- Pentru șiruri: `"hello"|length` returnează `5`.
+- Pentru array-uri: `["a","b","c"]|length` returnează `3`.
+- Pentru obiecte: `{"a":1,"b":2}|length` returnează `2`.
 
 ### `round`
 
-Rounds a number to the nearest integer or to a specified number of decimal places.
+Rotunjește un număr la cel mai apropiat întreg sau la un număr specificat de zecimale.
 
-- Without parameters: `3.7|round` returns `4`.
-- With decimal places specified: `3.14159|round:2` returns `3.14`.
+- Fără parametri: `3.7|round` returnează `4`.
+- Cu zecimale specificate: `3.14159|round:2` returnează `3.14`.
 
-## HTML processing
+## Procesare HTML
 
-Process HTML content and convert HTML to Markdown. Note that your input [[Variables|variable]] must contain HTML content, e.g. using `{{fullHtml}}`, `{{contentHtml}}` or a `{{selectorHtml:}}` variable.
+Procesează conținut HTML și convertește HTML în Markdown. Reține că [[Variables|variabila]] ta de intrare trebuie să conțină conținut HTML, de ex. folosind `{{fullHtml}}`, `{{contentHtml}}` sau o variabilă `{{selectorHtml:}}`.
 
 ### `markdown` 
 
-Converts a string to an [[Obsidian Flavored Markdown]] formatted string.
+Convertește un șir într-un șir formatat [[Obsidian Flavored Markdown]].
 
-- Useful when combined with variables that return HTML such as `{{contentHtml}}`, `{{fullHtml}}`, and selector variables like `{{selectorHtml:cssSelector}}`.
+- Util atunci când este combinat cu variabile care returnează HTML, precum `{{contentHtml}}`, `{{fullHtml}}` și variabile selector precum `{{selectorHtml:cssSelector}}`.
 
 ### `remove_attr` 
 
-Removes only the specified HTML attributes from tags.
+Elimină doar atributele HTML specificate din etichete.
 
-- Example: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returns `<div id="example">Content</div>`.
-- Multiple attributes: `{{fullHtml|remove_attr:("class,style,id")}}`
+- Exemplu: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returnează `<div id="example">Content</div>`.
+- Atribute multiple: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
 
-Removes the specified HTML elements and their content from a string.
+Elimină elementele HTML specificate și conținutul lor dintr-un șir.
 
-- Supports tag name, class, or id, e.g. `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
-- To remove only HTML tags or attributes without removing the content use the `strip_tags` or `strip_attr` filters.
+- Acceptă nume de etichetă, clasă sau id, de ex. `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
+- Pentru a elimina doar etichetele sau atributele HTML fără a elimina conținutul, folosește filtrele `strip_tags` sau `strip_attr`.
 
 ### `remove_tags` 
 
-Removes only the specified HTML tags. Keeps the content of the tags.
+Elimină doar etichetele HTML specificate. Păstrează conținutul etichetelor.
 
-- Example: `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` returns `"<p>Hello world!</p>"`.
-- Multiple tags: `{{fullHtml|remove_tags:("a,em,strong")}}`
+- Exemplu: `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` returnează `"<p>Hello world!</p>"`.
+- Etichete multiple: `{{fullHtml|remove_tags:("a,em,strong")}}`
 
 ### `replace_tags`
 
-Replaces HTML tags, maintaining the content and attributes of the tag.
+Înlocuiește etichete HTML, păstrând conținutul și atributele etichetei.
 
-- `{{fullHtml|replace_tags:"strong":"h2"}}` replaces all `<strong>` tags with `<h2>`.
+- `{{fullHtml|replace_tags:"strong":"h2"}}` înlocuiește toate etichetele `<strong>` cu `<h2>`.
 
 ### `strip_attr`
 
-Removes **all** HTML attributes from a string.
+Elimină **toate** atributele HTML dintr-un șir.
 
-- Use `strip_attr:("class, id")` to keep specific attributes.
-- Example: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returns `<div id="example">Content</div>`.
+- Folosește `strip_attr:("class, id")` pentru a păstra atribute specifice.
+- Exemplu: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnează `<div id="example">Content</div>`.
 
 ### `strip_md`
 
-Removes **all** Markdown formatting and returns a plain text string, e.g. turning `**text**` into `text`.
+Elimină **toată** formatarea Markdown și returnează un șir de text simplu, de ex. transformă `**text**` în `text`.
 
-- Turns formatted text into unformatted plain text, including bold, italic, highlights, headers, code, blockquotes, tables, task lists, and wikilinks.
-- Entirely removes tables, footnotes, images, and HTML elements.
+- Transformă textul formatat în text simplu, neformatat, inclusiv aldin, cursiv, evidențieri, titluri, cod, citate, tabele, liste de sarcini și wikilink-uri.
+- Elimină în întregime tabelele, notele de subsol, imaginile și elementele HTML.
 
 ### `strip_tags`
 
-Removes **all** HTML tags from a string. Content within the tag is preserved.
+Elimină **toate** etichetele HTML dintr-un șir. Conținutul din interiorul etichetei este păstrat.
 
-- Use `strip_tags:("p,strong,em")` to keep specific tags.
-- Example: `"<p>Hello <b>world</b>!</p>"|strip_tags:("b")` returns `Hello <b>world</b>!`.
+- Folosește `strip_tags:("p,strong,em")` pentru a păstra etichete specifice.
+- Exemplu: `"<p>Hello <b>world</b>!</p>"|strip_tags:("b")` returnează `Hello <b>world</b>!`.
 
-## Arrays and objects
+## Array-uri și obiecte
 
-Process arrays and objects.
+Procesează array-uri și obiecte.
 
 ### `first` 
 
-Returns the first element of an array as a string.
+Returnează primul element al unui array ca șir.
 
-- `["a","b","c"]|first` returns `"a"`.
-- If the input is not an array, it returns the input unchanged.
+- `["a","b","c"]|first` returnează `"a"`.
+- Dacă intrarea nu este un array, returnează intrarea neschimbată.
 
 ### `join`
 
-Combines elements of an array into a string.
+Combină elementele unui array într-un șir.
 
-- `["a","b","c"]|join` returns `"a,b,c"`.
-- A custom separator can be specified: `["a","b","c"]|join:" "` returns `"a b c"`. Use `join:"\n"` to separate elements with a line break.
-- It can be useful after `split` or `slice`: `"a,b,c,d"|split:","|slice:1,3|join:" "` returns `"b c"`.
+- `["a","b","c"]|join` returnează `"a,b,c"`.
+- Se poate specifica un separator personalizat: `["a","b","c"]|join:" "` returnează `"a b c"`. Folosește `join:"\n"` pentru a separa elementele printr-o întrerupere de linie.
+- Poate fi util după `split` sau `slice`: `"a,b,c,d"|split:","|slice:1,3|join:" "` returnează `"b c"`.
 
 ### `last`
 
-Returns the last element of an array as a string.
+Returnează ultimul element al unui array ca șir.
 
-- `["a","b","c"]|last` returns `"c"`.
-- If the input is not an array, it returns the input unchanged.
+- `["a","b","c"]|last` returnează `"c"`.
+- Dacă intrarea nu este un array, returnează intrarea neschimbată.
 
 ### `map`
 
-Applies a transformation to each element of an array using the syntax `map:item => item.property` or `map:item => item.nested.property` for nested properties.
+Aplică o transformare fiecărui element al unui array folosind sintaxa `map:item => item.property` sau `map:item => item.nested.property` pentru proprietăți imbricate.
 
-- `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` returns `["obsidian", "amethyst"]`.
-- Use parentheses for object literals and complex expressions: `map:item => ({key: value})`, e.g.: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})`  returns `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`.
+- `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` returnează `["obsidian", "amethyst"]`.
+- Folosește paranteze pentru literale de obiect și expresii complexe: `map:item => ({key: value})`, de ex.: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})`  returnează `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`.
 
-String literals are also supported, e.g. `["rock", "pop"]|map:item => "genres/${item}"` returns `["genres/rock", "genres/pop"]`.
+Sunt acceptate și literalele de tip șir, de ex. `["rock", "pop"]|map:item => "genres/${item}"` returnează `["genres/rock", "genres/pop"]`.
 
-Combine `map` with the `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`. For string literal maps, use `${str}` in the template, e.g. `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"`.
+Combină `map` cu filtrul `template`, de ex. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`. Pentru mapările cu literale de tip șir, folosește `${str}` în template, de ex. `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"`.
 
-Note: Built-in filters cannot be used inside `map`. This means that, for example, trimming each value of an array cannot be done with `map`.
+Notă: filtrele native nu pot fi folosite în interiorul `map`. Aceasta înseamnă că, de exemplu, eliminarea spațiilor de la fiecare valoare a unui array nu poate fi făcută cu `map`.
 
 ### `merge`
 
-Adds new values to an array.
+Adaugă valori noi la un array.
 
-- For arrays: `["a","b"]|merge:("c","d")` returns `["a","b","c","d"]`.
-- Single value: `["a","b"]|merge:"c"` returns `["a","b","c"]`.
-- If input is not an array, it creates a new array: `"a"|merge:("b","c")` returns `["a","b","c"]`.
-- Values can be quoted: `["a"]|merge:('b,"c,d",e')` returns `["a","b","c,d","e"]`.
+- Pentru array-uri: `["a","b"]|merge:("c","d")` returnează `["a","b","c","d"]`.
+- Valoare singulară: `["a","b"]|merge:"c"` returnează `["a","b","c"]`.
+- Dacă intrarea nu este un array, creează un array nou: `"a"|merge:("b","c")` returnează `["a","b","c"]`.
+- Valorile pot fi puse între ghilimele: `["a"]|merge:('b,"c,d",e')` returnează `["a","b","c,d","e"]`.
 
 ### `nth`
 
-Keeps nth items in an array using CSS-style nth-child syntax and group patterns. All positions are 1-based (first item is position 1).
+Păstrează al n-lea element dintr-un array folosind sintaxă nth-child în stil CSS și modele de grup. Toate pozițiile sunt indexate de la 1 (primul element este poziția 1).
 
-- `array|nth:3` keeps only the 3rd element.
-- `array|nth:3n` keeps every 3rd element (3, 6, 9, etc.).
-- `array|nth:n+3` keeps the 3rd and all following elements.
+- `array|nth:3` păstrează doar al 3-lea element.
+- `array|nth:3n` păstrează fiecare al 3-lea element (3, 6, 9 etc.).
+- `array|nth:n+3` păstrează al 3-lea element și pe toate cele care urmează.
 
-Group pattern syntax for repeating structures:
+Sintaxa modelelor de grup pentru structuri repetitive:
 
-- `array|nth:1,2,3:5` keeps positions 1, 2, 3 from each group of 5 items. Example: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returns `[1,2,3,6,7,8]`.
+- `array|nth:1,2,3:5` păstrează pozițiile 1, 2, 3 din fiecare grup de 5 elemente. Exemplu: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returnează `[1,2,3,6,7,8]`.
 
 ### `object`
 
-Manipulates object data:
+Manipulează date de tip obiect:
 
-- `object:array` converts an object to an array of key-value pairs.
-- `object:keys` returns an array of the object's keys.
-- `object:values` returns an array of the object's values.
-- Example: `{"a":1,"b":2}|object:array` returns `[["a",1],["b",2]]`.
+- `object:array` convertește un obiect într-un array de perechi cheie-valoare.
+- `object:keys` returnează un array cu cheile obiectului.
+- `object:values` returnează un array cu valorile obiectului.
+- Exemplu: `{"a":1,"b":2}|object:array` returnează `[["a",1],["b",2]]`.
 
 ### `slice`
 
-Extracts a portion of a string or array.
+Extrage o porțiune dintr-un șir sau array.
 
-- For strings: `"hello"|slice:1,4` returns `"ell"`.
-- For arrays: `["a","b","c","d"]|slice:1,3` returns `["b","c"]`.
-- If only one parameter is provided, it slices from that index to the end: `"hello"|slice:2` returns `"llo"`.
-- Negative indices count from the end: `"hello"|slice:-3` returns `"llo"`.
-- The second parameter is exclusive: `"hello"|slice:1,4` includes characters at indices 1, 2, and 3.
-- Using a negative second parameter excludes elements from the end: `"hello"|slice:0,-2` returns `"hel"`.
+- Pentru șiruri: `"hello"|slice:1,4` returnează `"ell"`.
+- Pentru array-uri: `["a","b","c","d"]|slice:1,3` returnează `["b","c"]`.
+- Dacă este furnizat un singur parametru, se face felierea de la acel index până la sfârșit: `"hello"|slice:2` returnează `"llo"`.
+- Indicii negativi se numără de la sfârșit: `"hello"|slice:-3` returnează `"llo"`.
+- Al doilea parametru este exclusiv: `"hello"|slice:1,4` include caracterele de la indicii 1, 2 și 3.
+- Folosirea unui al doilea parametru negativ exclude elementele de la sfârșit: `"hello"|slice:0,-2` returnează `"hel"`.
 
 ### `split`
 
-Divides a string into an array of substrings.
+Împarte un șir într-un array de subșiruri.
 
-- `"a,b,c"|split:","` returns `["a","b","c"]`.
-- `"hello world"|split:" "` returns `["hello","world"]`.
-- If no separator is provided, it splits on every character: `"hello"|split` returns `["h","e","l","l","o"]`.
-- Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c"]`.
+- `"a,b,c"|split:","` returnează `["a","b","c"]`.
+- `"hello world"|split:" "` returnează `["hello","world"]`.
+- Dacă nu este furnizat niciun separator, se face împărțirea pe fiecare caracter: `"hello"|split` returnează `["h","e","l","l","o"]`.
+- Expresiile regulate pot fi folosite ca separatori: `"a1b2c3"|split:[0-9]` returnează `["a","b","c"]`.
 
 ### `template`
 
-Applies a template string to an object or array of objects, using the syntax `object|template:"Template with ${variable}"`.
+Aplică un șir de tip șablon unui obiect sau unui array de obiecte, folosind sintaxa `object|template:"Template with ${variable}"`.
 
-- Access nested properties: `{"gem":{"name":"Obsidian"}}|template:"${gem.name}"` returns `"Obsidian"`.
-- For objects: `{"gem":"obsidian","hardness":5}|template:"${gem} has a hardness of ${hardness}"` returns `"obsidian has a hardness of 5"`.
-- For arrays: `[{"gem":"obsidian","hardness":5},{"gem":"amethyst","hardness":7}]|template:"- ${gem} has a hardness of ${hardness}\n"` returns a formatted list.
+- Accesează proprietăți imbricate: `{"gem":{"name":"Obsidian"}}|template:"${gem.name}"` returnează `"Obsidian"`.
+- Pentru obiecte: `{"gem":"obsidian","hardness":5}|template:"${gem} has a hardness of ${hardness}"` returnează `"obsidian has a hardness of 5"`.
+- Pentru array-uri: `[{"gem":"obsidian","hardness":5},{"gem":"amethyst","hardness":7}]|template:"- ${gem} has a hardness of ${hardness}\n"` returnează o listă formatată.
 
-Works with string literals from `map` using `${str}`:
+Funcționează cu literale de tip șir din `map` folosind `${str}`:
 
-- Example: `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"` returns a formatted list.
+- Exemplu: `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"` returnează o listă formatată.
 
 ### `unique`
 
-Removes duplicate values from arrays and objects.
+Elimină valorile duplicate din array-uri și obiecte.
 
-- For arrays of primitives: `[1,2,2,3,3]|unique` returns `[1,2,3]`.
-- For arrays of objects: `[{"a":1},{"b":2},{"a":1}]|unique` returns `[{"a":1},{"b":2}]`.
-- For objects it removes properties with duplicate values, keeping the last occurrence's key.
-- For strings it returns the input unchanged.
+- Pentru array-uri de valori primitive: `[1,2,2,3,3]|unique` returnează `[1,2,3]`.
+- Pentru array-uri de obiecte: `[{"a":1},{"b":2},{"a":1}]|unique` returnează `[{"a":1},{"b":2}]`.
+- Pentru obiecte, elimină proprietățile cu valori duplicate, păstrând cheia ultimei apariții.
+- Pentru șiruri, returnează intrarea neschimbată.

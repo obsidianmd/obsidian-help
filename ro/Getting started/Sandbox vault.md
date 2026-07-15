@@ -1,28 +1,27 @@
 ---
-localized: null
 permalink: sandbox
 ---
-**Obsidian’s sandbox vault** is a feature that lets you explore various functionalities without affecting your existing data. This vault is helpful both as a learning tool and for debugging issues. It helps determine if a problem is caused by a plugin, theme, or the application itself.
+**Seiful sandbox al Obsidian** este o funcție care vă permite să explorați diverse funcționalități fără a vă afecta datele existente. Acest seif este util atât ca instrument de învățare, cât și pentru depanarea problemelor. Vă ajută să determinați dacă o problemă este cauzată de un modul, o temă sau de aplicația în sine.
 
-> [!note] The sandbox vault is not available on mobile devices. However, you can download a copy from the [Obsidian Help](https://github.com/obsidianmd/obsidian-help) repository for use on mobile.
+> [!note] Seiful sandbox nu este disponibil pe dispozitivele mobile. Totuși, puteți descărca o copie din depozitul [Obsidian Help](https://github.com/obsidianmd/obsidian-help) pentru a-l folosi pe mobil.
 
 
-## Opening the sandbox vault
+## Deschiderea seifului sandbox
 
-You can open the sandbox vault in multiple ways. In all cases, it opens separately from your current vault.
+Puteți deschide seiful sandbox în mai multe moduri. În toate cazurile, acesta se deschide separat de seiful dumneavoastră curent.
 
-**Left Sidebar**
+**Bara laterală stângă**
 
-1. Expand the **left sidebar** ![[obsidian-icon-side-bar-left.svg#icon]].
-2. Next to the **vault switcher**, press the **Help** icon ![[obsidian-icon-help.svg#icon]].
-3. Select **Open** next to the **Sandbox vault** option.
+1. Extindeți **bara laterală stângă** ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Lângă **comutatorul de seifuri**, apăsați pictograma **Ajutor** ![[obsidian-icon-help.svg#icon]].
+3. Selectați **Deschidere** lângă opțiunea **Seif sandbox**.
 
-**Command Palette**
+**Paleta de comenzi**
 
-1. Enable the **command palette** core plugin.
-2. Open the **command palette**.
-3. Search for **Open sandbox vault**.
-4. Press **Enter** or select the item to open the sandbox vault.
-## Close the sandbox vault
+1. Activați modulul integrat **paleta de comenzi**.
+2. Deschideți **paleta de comenzi**.
+3. Căutați **Deschide seiful sandbox**.
+4. Apăsați **Enter** sau selectați elementul pentru a deschide seiful sandbox.
+## Închiderea seifului sandbox
 
-To close the sandbox vault, close the **Obsidian Sandbox** vault window.
+Pentru a închide seiful sandbox, închideți fereastra seifului **Obsidian Sandbox**.

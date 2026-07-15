@@ -1,24 +1,23 @@
 ---
-localized: null
 permalink: folding
 publish: true
 mobile: false
-description: Learn how to get a better overview of large notes by using folding to hide parts of the note
+description: Aflați cum să obțineți o imagine de ansamblu mai bună asupra notelor mari folosind plierea pentru a ascunde părți din notă
 ---
 
-Learn how to get a better overview of large notes by using _folding_ to hide parts of the note. Folding is useful when creating outlines for your notes and when you want to focus on what you're working on at the moment.
+Aflați cum să obțineți o imagine de ansamblu mai bună asupra notelor mari folosind _plierea_ pentru a ascunde părți din notă. Plierea este utilă atunci când creați sumare pentru notele dvs. și atunci când doriți să vă concentrați pe ceea ce lucrați în acel moment.
 
-You can fold headings and indented lists by hovering the mouse cursor over the section you want to fold, and then selecting the arrow on the left. Folded sections show an arrow regardless of if you hover it or not.
+Puteți plia titluri și liste indentate poziționând cursorul mouse-ului deasupra secțiunii pe care doriți să o pliați, apoi selectând săgeata din stânga. Secțiunile pliate afișează o săgeată indiferent dacă treceți cu mouse-ul peste ele sau nu.
 
-Folding is turned on by default. To turn off folding, open **[[Settings]]** → **Editor**, and then turn off **Fold indent** or **Fold heading**, depending on your needs.
+Plierea este activată implicit. Pentru a dezactiva plierea, deschideți **[[Settings]]** → **Editor**, apoi dezactivați **Permiteți plierea indentărilor** sau **Permiteți plierea titlurilor**, în funcție de nevoile dvs.
 
-To toggle all sections at the same time, use the following commands:
+Pentru a comuta toate secțiunile în același timp, folosiți următoarele comenzi:
 
-- To collapse all sections, open the [[Command palette]], and then select **Fold all headings and lists**.
-- To expand all sections, open the [[Command palette]], and then select **Unfold all headings and lists**.
+- Pentru a plia toate secțiunile, deschideți [[Command palette|Paleta de comenzi]], apoi selectați **Pliați toate titlurile și listele**.
+- Pentru a extinde toate secțiunile, deschideți [[Command palette|Paleta de comenzi]], apoi selectați **Extindeți toate titlurile și listele**.
 
-> [!tip] Tip
-> If you prefer to fold using your keyboard, you can assign [[Hotkeys|hotkeys]] to the **Fold less** and **Fold more** commands.
+> [!tip] Sfat
+> Dacă preferați să pliați folosind tastatura, puteți atribui [[Hotkeys|combinații de taste]] comenzilor **Pliați mai puțin** și **Pliați mai mult**.
 >
-> - **Fold less** unfolds the section at the text cursor.
-> - **Fold more** folds the section or list that contains the text cursor.
+> - **Pliați mai puțin** depliază secțiunea de la cursorul de text.
+> - **Pliați mai mult** pliază secțiunea sau lista care conține cursorul de text.

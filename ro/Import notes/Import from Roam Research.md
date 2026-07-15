@@ -1,30 +1,29 @@
 ---
-localized: null
 permalink: import/roam
 ---
-Obsidian lets you easily migrate your notes from Roam Research  using the [[Importer|Importer plugin]]. This will convert your Roam data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi cu ușurință notele din Roam Research folosind [[Importer|modulul Importer]]. Acest lucru îți va converti datele din Roam în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
-## Export your data from Roam Research
+## Exportă-ți datele din Roam Research
 
-1. In Roam Research, click on **More actions** ( `•••` ) in the upper-right corner, and then select **Export All**.
+1. În Roam Research, apasă pe **More actions** ( `•••` ) din colțul din dreapta sus, apoi selectează **Export All**.
    
    ![[Roam-exporting.png#interface]]
-2. In **Export Format**, select "JSON", and then select **Export All** to download an archive with your notes.
+2. La **Export Format**, selectează „JSON”, apoi selectează **Export All** pentru a descărca o arhivă cu notele tale.
 
-## Import your Roam Research data into Obsidian
+## Importă-ți datele din Roam Research în Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Roam Research (.json).**
-6. Select the location of your `.json` file.
-7. Under **Output folder**, choose where your files should import.
-8. If you want to also import attachments, toggle **Download all attachments**.
-9. Click **Import** and wait until import is complete.
-10. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** alege **Roam Research (.json).**
+6. Selectează locația fișierului tău `.json`.
+7. La **Director de ieșire**, alege unde ar trebui importate fișierele tale.
+8. Dacă dorești să imporți și atașamentele, activează **Download all attachments**.
+9. Apasă **Importă** și așteaptă până când importul este finalizat.
+10. Ai terminat!
 
 ![[Roam-Importer-importing.png]]
 

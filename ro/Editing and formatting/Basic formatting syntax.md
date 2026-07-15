@@ -1,16 +1,15 @@
 ---
-localized: null
 permalink: syntax
 publish: true
 mobile: true
-description: 'Learn how to apply basic formatting to your notes in Obsidian, using Markdown.'
+description: 'Aflați cum să aplicați formatare de bază notelor dvs. în Obsidian, folosind Markdown.'
 ---
 
-Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
+Aflați cum să aplicați formatare de bază notelor dvs., folosind [Markdown](https://daringfireball.net/projects/markdown/). Pentru sintaxă de formatare mai avansată, consultați [[Advanced formatting syntax]].
 
-## Paragraphs
+## Paragrafe
 
-To create paragraphs in Markdown, use a **blank line** to separate blocks of text. Each block of text separated by a blank line is treated as a distinct paragraph.
+Pentru a crea paragrafe în Markdown, folosiți un **rând gol** pentru a separa blocurile de text. Fiecare bloc de text separat printr-un rând gol este tratat ca un paragraf distinct.
 
 ```md
 This is a paragraph.
@@ -18,14 +17,14 @@ This is a paragraph.
 This is another paragraph.
 ```
 
-This is a paragraph.
+Acesta este un paragraf.
 
-This is another paragraph.
+Acesta este un alt paragraf.
 
-A blank line between lines of text creates separate paragraphs. This is the default behavior in Markdown.
+Un rând gol între rândurile de text creează paragrafe separate. Acesta este comportamentul implicit în Markdown.
 
-> [!tip]- Multiple blank spaces
-> Multiple adjacent blank spaces within and between paragraphs collapse into a single space when displayed in [[Views and editing mode#Reading view|Reading view]] or on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+> [!tip]- Spații goale multiple
+> Mai multe spații goale adiacente, în cadrul paragrafelor sau între ele, se restrâng la un singur spațiu atunci când sunt afișate în [[Views and editing mode#Reading view|Modul de citire]] sau pe site-urile [[Introduction to Obsidian Publish|Obsidian Publish]].
 > 
 > ```md
 > Multiple          adjacent          spaces
@@ -35,58 +34,58 @@ A blank line between lines of text creates separate paragraphs. This is the defa
 > and multiple newlines between paragraphs.
 > ```
 > 
-> > Multiple          adjacent          spaces
+> > Mai multe          spații          adiacente
 > > 
 > > 
 > > 
-> > and multiple newlines between paragraphs.
+> > și mai multe rânduri noi între paragrafe.
 > 
-> If you want to prevent spaces from collapsing or add multiple blank spaces, you can use the `&nbsp;` (non-breaking space) or `<br>` (line break) HTML tags.
+> Dacă doriți să preveniți restrângerea spațiilor sau să adăugați mai multe spații goale, puteți folosi etichetele HTML `&nbsp;` (spațiu neîntreruptibil) sau `<br>` (întrerupere de rând).
 
-### Line breaks
+### Întreruperi de rând
 
-By default in Obsidian, pressing `Enter` once will create a new line in your note, but this is treated as a *continuation* of the same paragraph in the rendered output, following typical Markdown behavior. To insert a line break *within* a paragraph without starting a new paragraph, you can either:
+Implicit în Obsidian, apăsarea tastei `Enter` o singură dată va crea un rând nou în nota dvs., dar acesta este tratat ca o *continuare* a aceluiași paragraf în rezultatul afișat, urmând comportamentul tipic Markdown. Pentru a insera o întrerupere de rând *în interiorul* unui paragraf fără a începe un paragraf nou, puteți fie:
 
-- Add **two spaces** at the end of a line before pressing `Enter`, or
-- Use the shortcut `Shift+Enter` to directly insert a line break.
+- Să adăugați **două spații** la sfârșitul unui rând înainte de a apăsa `Enter`, fie
+- Să folosiți comanda rapidă `Shift+Enter` pentru a insera direct o întrerupere de rând.
 
-> [!question]- Why don't multiple `Enter` presses create more line breaks in reading view?
-> In Markdown, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break. This is how Markdown handles text by default, ensuring that paragraphs flow naturally without unexpected breaks​.
+> [!question]- De ce apăsările multiple ale tastei `Enter` nu creează mai multe întreruperi de rând în modul de citire?
+> În Markdown, o singură apăsare a tastei `Enter` este ignorată, iar apăsările consecutive multiple ale tastei `Enter` au ca rezultat doar un singur paragraf nou. Acest comportament este în concordanță cu regula de încadrare flexibilă (soft wrap) a Markdown, prin care rândurile goale suplimentare nu generează întreruperi de rând sau paragrafe suplimentare — ele se restrâng într-o singură separare de paragraf. Acesta este modul implicit în care Markdown gestionează textul, asigurându-se că paragrafele curg în mod natural, fără întreruperi neașteptate.
 
-Obsidian includes a **[[Settings#Strict line breaks|Strict line breaks]]** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
+Obsidian include o setare **[[Settings#Strict line breaks|Afișați spațiile de un singur rând]]**, care face ca Obsidian să respecte specificația Markdown standard pentru întreruperile de rând.
 
-To enable this feature:
+Pentru a activa această funcție:
 
-1. Open **[[Settings]]**.
-2. Go to the **Editor** tab.
-3. Enable **Strict Line Breaks**.
+1. Deschideți **[[Settings]]**.
+2. Accesați fila **Editor**.
+3. Activați **Strict Line Breaks**.
 
-When **Strict Line Breaks** is enabled in Obsidian, line breaks have three distinct behaviors depending on how the lines are separated:
+Când **Strict Line Breaks** este activată în Obsidian, întreruperile de rând au trei comportamente distincte, în funcție de modul în care sunt separate rândurile:
 
-**Single return with no spaces**: A single `Enter` with no trailing spaces will combine the two separate lines into a single line when rendered.
+**O singură apăsare Enter, fără spații**: O singură apăsare a tastei `Enter`, fără spații finale, va combina cele două rânduri separate într-un singur rând la afișare.
 
 ```md
 line one
 line two
 ```
 
-Renders as:
+Se afișează astfel:
 
-line one line two
+rândul unu rândul doi
 
-**Single return with two or more trailing spaces**: If you add two or more spaces at the end of the first line before pressing `Enter`, the two lines remain part of the same paragraph, but are broken by a line break (HTML `<br>` element). We'll use two underscores to stand in for spaces in this example.
+**O singură apăsare Enter cu două sau mai multe spații finale**: Dacă adăugați două sau mai multe spații la sfârșitul primului rând înainte de a apăsa `Enter`, cele două rânduri rămân parte din același paragraf, dar sunt întrerupte de o întrerupere de rând (elementul HTML `<br>`). Vom folosi două liniuțe de subliniere pentru a reprezenta spațiile în acest exemplu.
 
 ```md
 line three__  
 line four
 ```
 
-Renders as:
+Se afișează astfel:
 
-line three<br>
-line four
+rândul trei<br>
+rândul patru
 
-**Double return (with or without trailing spaces)**: Pressing `Enter` twice (or more) separates the lines into two distinct paragraphs (HTML `<p>` elements), regardless of whether you add spaces at the end of the first line.
+**Dublă apăsare Enter (cu sau fără spații finale)**: Apăsarea tastei `Enter` de două ori (sau mai multe) separă rândurile în două paragrafe distincte (elemente HTML `<p>`), indiferent dacă adăugați spații la sfârșitul primului rând.
 
 ```md
 line five
@@ -94,14 +93,14 @@ line five
 line six
 ```
 
-Renders as:
+Se afișează astfel:
 
-<p>line five</p>
-<p>line six</p>
+<p>rândul cinci</p>
+<p>rândul șase</p>
 
-## Headings
+## Titluri
 
-To create a heading, add up to six `#` symbols before your heading text. The number of `#` symbols sets the level of the heading (as shown in the [[Outline]]).
+Pentru a crea un titlu, adăugați până la șase simboluri `#` înaintea textului titlului. Numărul de simboluri `#` stabilește nivelul titlului (așa cum este afișat în [[Outline|Sumar]]).
 
 ```md
 # This is a heading 1
@@ -113,50 +112,50 @@ To create a heading, add up to six `#` symbols before your heading text. The num
 ```
 
 %% These headings use HTML to avoid cluttering the Outline/Table of contents %%
-<h1>This is a heading 1</h1>
-<h2>This is a heading 2</h2>
-<h3>This is a heading 3</h3>
-<h4>This is a heading 4</h4>
-<h5>This is a heading 5</h5>
-<h6>This is a heading 6</h6>
+<h1>Acesta este un titlu de nivel 1</h1>
+<h2>Acesta este un titlu de nivel 2</h2>
+<h3>Acesta este un titlu de nivel 3</h3>
+<h4>Acesta este un titlu de nivel 4</h4>
+<h5>Acesta este un titlu de nivel 5</h5>
+<h6>Acesta este un titlu de nivel 6</h6>
 
-## Bold, italics, highlights
+## Aldin, cursiv, evidențieri
 
-Text formatting can also be applied using [[Editing shortcuts]].
+Formatarea textului poate fi aplicată și folosind [[Editing shortcuts|comenzile rapide de editare]].
 
-| Style | Syntax | Example | Output |
+| Stil | Sintaxă | Exemplu | Rezultat |
 |-|-|-|-|
-| Bold | `** **` or `__ __` | `**Bold text**` | **Bold text** |
-| Italic | `* *` or `_ _`  | `*Italic text*` | *Italic text* |
-| Strikethrough | `~~ ~~` |  `~~Striked out text~~` | ~~Striked out text~~ |
-| Highlight | `== ==` |  `==Highlighted text==` | ==Highlighted text== |
-| Bold and nested italic | `** **` and `_ _`  | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
-| Bold and italic | `*** ***` or `___ ___` |  `***Bold and italic text***` | ***Bold and italic text*** |
+| Îngroșat | `** **` sau `__ __` | `**Bold text**` | **Text îngroșat** |
+| Cursiv | `* *` sau `_ _`  | `*Italic text*` | *Text cursiv* |
+| Tăiat | `~~ ~~` |  `~~Striked out text~~` | ~~Text tăiat~~ |
+| Evidențiat | `== ==` |  `==Highlighted text==` | ==Text evidențiat== |
+| Îngroșat și cursiv imbricat | `** **` și `_ _`  | `**Bold text and _nested italic_ text**` | **Text îngroșat cu _cursiv imbricat_** |
+| Îngroșat și cursiv | `*** ***` sau `___ ___` |  `***Bold and italic text***` | ***Text îngroșat și cursiv*** |
 
-Formatting can be forced to display in plain text by adding a backslash `\` in front of it.
+Formatarea poate fi forțată să se afișeze ca text simplu prin adăugarea unei bare oblice inverse `\` înaintea ei.
 
-\*\*This line will not be bold\*\*
+\*\*Acest rând nu va fi îngroșat\*\*
 
 ```markdown
 \*\*This line will not be bold\*\*
 ```
 
-\**This line will be italic and show the asterisks*\*
+\**Acest rând va fi cursiv și va afișa asteriscurile*\*
 
 ```markdown
 \**This line will be italic and show the asterisks*\*
 ```
 
-## Internal links
+## Legături interne
 
-Obsidian supports two formats for [[internal links]] between notes:
+Obsidian acceptă două formate pentru [[internal links|legăturile interne]] dintre note:
 
 - Wikilink: `[[Three laws of motion]]`
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
-## External links
+## Legături externe
 
-If you want to link to an external URL, you can create an inline link by surrounding the link text in brackets (`[ ]`), and then the URL in parentheses (`( )`).
+Dacă doriți să creați o legătură către un URL extern, puteți crea o legătură în text prin încadrarea textului legăturii în paranteze drepte (`[ ]`), urmat de URL în paranteze rotunde (`( )`).
 
 ```md
 [Obsidian Help](https://help.obsidian.md)
@@ -164,29 +163,29 @@ If you want to link to an external URL, you can create an inline link by surroun
 
 [Obsidian Help](https://help.obsidian.md)
 
-You can also create external links to files in other vaults, by linking to an [[Obsidian URI|Obsidian URI]].
+Puteți crea, de asemenea, legături externe către fișiere din alte seifuri, creând o legătură către un [[Obsidian URI|URI Obsidian]].
 
 ```md
 [Note](obsidian://open?vault=MainVault&file=Note.md)
 ```
 
-### Escape blank spaces in links
+### Excludeți spațiile goale în legături
 
-If your URL contains blank spaces, you must escape them by replacing them with `%20`.
+Dacă URL-ul dvs. conține spații goale, trebuie să le excludeți înlocuindu-le cu `%20`.
 
 ```md
 [My Note](obsidian://open?vault=MainVault&file=My%20Note.md)
 ```
 
-You can also escape the URL by wrapping it with angled brackets (`< >`).
+Puteți exclude URL-ul și încadrându-l cu paranteze unghiulare (`< >`).
 
 ```md
 [My Note](<obsidian://open?vault=MainVault&file=My Note.md>)
 ```
 
-## External images
+## Imagini externe
 
-You can add images with external URLs, by adding a `!` symbol before an [[#External links|external link]].
+Puteți adăuga imagini cu URL-uri externe, adăugând un simbol `!` înaintea unei [[#External links|legături externe]].
 
 ```md
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -194,24 +193,24 @@ You can add images with external URLs, by adding a `!` symbol before an [[#Exter
 
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
-You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+Puteți schimba dimensiunile imaginii, adăugând `|640x480` la destinația legăturii, unde 640 este lățimea și 480 este înălțimea.
 
 ```md
 ![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-If you only specify the width, the image scales according to its original aspect ratio. For example:
+Dacă specificați doar lățimea, imaginea se scalează în funcție de raportul de aspect original. De exemplu:
 
 ```md
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-> [!tip]- Tip
-> If you want to add an image from inside your vault, you can also [[Embed files#Embed an image in a note|embed an image in a note]].
+> [!tip]- Sfat
+> Dacă doriți să adăugați o imagine din interiorul seifului dvs., puteți și [[Embed files#Embed an image in a note|încorpora o imagine într-o notă]].
 
-## Quotes
+## Citate
 
-You can quote text by adding a `>` symbols before the text.
+Puteți cita text adăugând simboluri `>` înaintea textului.
 
 ```md
 > Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
@@ -219,16 +218,16 @@ You can quote text by adding a `>` symbols before the text.
 \- Doug Engelbart, 1961
 ```
 
-> Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
+> Ființele umane se confruntă cu probleme din ce în ce mai complexe și mai urgente, iar eficiența lor în abordarea acestor probleme este esențială pentru stabilitatea și progresul continuu al societății.
 
 \- Doug Engelbart, 1961
 
-> [!tip]- Tip
-> You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
+> [!tip]- Sfat
+> Puteți transforma citatul dvs. într-o [[Callouts|explicație]] adăugând `[!info]` ca prim rând într-un citat.
 
-## Lists
+## Liste
 
-You can create an unordered list by adding a `-`, `*`, or `+` before the text.
+Puteți crea o listă neordonată adăugând un `-`, `*` sau `+` înaintea textului.
 
 ```md
 - First list item
@@ -236,11 +235,11 @@ You can create an unordered list by adding a `-`, `*`, or `+` before the text.
 - Third list item
 ```
 
-- First list item
-- Second list item
-- Third list item
+- Primul element din listă
+- Al doilea element din listă
+- Al treilea element din listă
 
-To create an ordered list, start each line with a number followed by a `.` or `)` symbol.
+Pentru a crea o listă ordonată, începeți fiecare rând cu un număr urmat de un simbol `.` sau `)`.
 
 ```md
 1. First list item
@@ -248,9 +247,9 @@ To create an ordered list, start each line with a number followed by a `.` or `)
 3. Third list item
 ```
 
-1. First list item
-2. Second list item
-3. Third list item
+1. Primul element din listă
+2. Al doilea element din listă
+3. Al treilea element din listă
 
 ```md
 1) First list item
@@ -258,11 +257,11 @@ To create an ordered list, start each line with a number followed by a `.` or `)
 3) Third list item
 ```
 
-1) First list item
-2) Second list item
-3) Third list item
+1) Primul element din listă
+2) Al doilea element din listă
+3) Al treilea element din listă
 
-You can use `Shift+Enter` to insert a [[#Line breaks|line break]] within an ordered list without altering the numbering.
+Puteți folosi `Shift+Enter` pentru a insera o [[#Line breaks|întrerupere de rând]] într-o listă ordonată, fără a modifica numerotarea.
 
 ```md
 1. First list item
@@ -275,22 +274,22 @@ You can use `Shift+Enter` to insert a [[#Line breaks|line break]] within an orde
 6. Sixth list item
 ```
 
-### Task lists
+### Liste de sarcini
 
-To create a task list, start each list item with a hyphen and space followed by `[ ]`.
+Pentru a crea o listă de sarcini, începeți fiecare element din listă cu o cratimă și un spațiu, urmate de `[ ]`.
 
 ```md
 - [x] This is a completed task.
 - [ ] This is an incomplete task.
 ```
 
-- [x] This is a completed task.
-- [ ] This is an incomplete task.
+- [x] Aceasta este o sarcină finalizată.
+- [ ] Aceasta este o sarcină nefinalizată.
 
-You can toggle a task in Reading view by selecting the checkbox.
+Puteți comuta o sarcină în modul de citire selectând caseta de bifare.
 
-> [!tip]- Tip
-> You can use any character inside the brackets to mark it as complete.
+> [!tip]- Sfat
+> Puteți folosi orice caracter în interiorul parantezelor pătrate pentru a o marca drept finalizată.
 >
 > ```md
 > - [x] Milk
@@ -298,15 +297,15 @@ You can toggle a task in Reading view by selecting the checkbox.
 > - [-] Eggs
 > ```
 >
-> - [x] Milk
-> - [?] Eggs
-> - [-] Eggs
+> - [x] Lapte
+> - [?] Ouă
+> - [-] Ouă
 
-### Nesting lists
+### Imbricarea listelor
 
-You can nest any type of list—ordered, unordered, or task lists—under any other type of list.
+Puteți imbrica orice tip de listă — ordonată, neordonată sau de sarcini — sub orice alt tip de listă.
 
-To create a nested list, indent one or more list items. You can mix list types within a nested structure:
+Pentru a crea o listă imbricată, indentați unul sau mai multe elemente din listă. Puteți combina tipuri de liste într-o structură imbricată:
 
 ```md
 1. First list item
@@ -315,12 +314,12 @@ To create a nested list, indent one or more list items. You can mix list types w
    - Unordered nested list item
 ```
 
-1. First list item
-   1. Ordered nested list item
-2. Second list item
-   - Unordered nested list item
+1. Primul element din listă
+   1. Element imbricat ordonat
+2. Al doilea element din listă
+   - Element imbricat neordonat
 
-Similarly, you can create a nested task list by indenting one or more list items:
+În mod similar, puteți crea o listă de sarcini imbricată prin indentarea unuia sau mai multor elemente din listă:
 
 ```md
 - [ ] Task item 1
@@ -329,16 +328,16 @@ Similarly, you can create a nested task list by indenting one or more list items
 	- [ ] Subtask 1
 ```
 
-- [ ] Task item 1
-	- [ ] Subtask 1
-- [ ] Task item 2
-	- [ ] Subtask 1
+- [ ] Sarcina 1
+	- [ ] Subsarcina 1
+- [ ] Sarcina 2
+	- [ ] Subsarcina 1
 
-Use `Tab` or `Shift+Tab` to indent or unindent selected list items to easily organize them.
+Folosiți `Tab` sau `Shift+Tab` pentru a indenta sau dezindenta elementele selectate din listă, pentru a le organiza mai ușor.
 
-## Horizontal rule
+## Linie orizontală
 
-You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
+Puteți folosi trei sau mai multe steluțe `***`, cratime `---` sau liniuțe de subliniere `___` pe propriul rând pentru a adăuga o bară orizontală. Puteți separa simbolurile și cu spații.
 
 ```md
 ***
@@ -354,25 +353,25 @@ _ _ _
 
 ***
 
-## Code
+## Cod
 
-You can format code both inline within a sentence, or in its own block.
+Puteți formata codul atât în text, în cadrul unei propoziții, cât și în propriul bloc.
 
-### Inline code
+### Cod în text
 
-You can format code within a sentence using single backticks.
+Puteți formata codul în text folosind ghilimele oblice simple (backtick).
 
 ```md
 Text inside `backticks` on a line will be formatted like code.
 ```
 
-Text inside `backticks` on a line will be formatted like code.
+Textul dintre `ghilimele oblice` pe un rând va fi formatat ca un cod.
 
-If you want to put backticks in an inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
+Dacă doriți să puneți ghilimele oblice într-un bloc de cod în text, încadrați-le cu ghilimele oblice duble, astfel: cod în text ``cu o ghilimea oblică ` în interior``.
 
-### Code blocks
+### Blocuri de cod
 
-To format code as a block, enclose it with three or more backticks or three or more tildes.
+Pentru a formata codul ca bloc, încadrați-l cu trei sau mai multe ghilimele oblice sau trei sau mai multe tilde.
 
 ~~~
 `````
@@ -388,12 +387,12 @@ cd ~/Desktop
 cd ~/Desktop
 `````
 
-You can also create a code block by indenting the text using `Tab` or 4 blank spaces.
+Puteți crea, de asemenea, un bloc de cod indentând textul folosind `Tab` sau 4 spații goale.
 `````md
     cd ~/Desktop
 `````
 
-You can add syntax highlighting to a code block, by adding a language code after the first set of backticks.
+Puteți adăuga evidențiere de sintaxă unui bloc de cod, adăugând un cod de limbaj după primul set de ghilimele oblice.
 
 ~~~md
 `````js
@@ -412,16 +411,16 @@ function fancyAlert(arg) {
 }
 `````
 
-Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
+Obsidian folosește Prism pentru evidențierea sintaxei. Pentru mai multe informații, consultați [Limbaje acceptate](https://prismjs.com/#supported-languages).
 
-> [!info]+ PrismJS and editing views
-> [[Views and editing mode#Source mode|Source mode]] and [[Views and editing mode#Live Preview|Live Preview]] do not support PrismJS, and may render syntax highlighting differently.
+> [!info]+ PrismJS și modurile de editare
+> [[Views and editing mode#Source mode|Modul sursă]] și [[Views and editing mode#Live Preview|Live Preview]] nu acceptă PrismJS și pot afișa evidențierea sintaxei diferit.
 
-#### Nesting code blocks
+#### Imbricarea blocurilor de cod
 
-When you need to include a code block inside another code block (for example, when documenting how to use code blocks), you can use more than three backticks or tildes for the outer code block.
+Când trebuie să includeți un bloc de cod în interiorul altui bloc de cod (de exemplu, atunci când documentați modul de utilizare a blocurilor de cod), puteți folosi mai mult de trei ghilimele oblice sau tilde pentru blocul de cod exterior.
 
-To nest code blocks, use four or more backticks (or tildes) for the outer block, while the inner block uses three:
+Pentru a imbrica blocuri de cod, folosiți patru sau mai multe ghilimele oblice (sau tilde) pentru blocul exterior, în timp ce blocul interior folosește trei:
 `````md
 ````md
 Here's how to create a code block:
@@ -431,7 +430,7 @@ console.log("Hello world")
 ````
 `````
 
-You can also mix backticks and tildes. This is particularly useful when working with code that generates other code blocks:
+Puteți combina și ghilimele oblice cu tilde. Acest lucru este util în special atunci când lucrați cu cod care generează alte blocuri de cod:
 `````md
 ````md
 ```dataviewjs
@@ -445,13 +444,13 @@ graph TD
 ````
 `````
 
-The key principle is that the outer code block must use **more** fence characters (backticks or tildes) than any inner code block, or use a different fence character type.
+Principiul-cheie este că blocul de cod exterior trebuie să folosească **mai multe** caractere de delimitare (ghilimele oblice sau tilde) decât orice bloc de cod interior, sau să folosească un tip diferit de caracter de delimitare.
 
-## Footnotes
+## Note de subsol
 
-You can add footnotes[^footnote] to your notes using the following syntax:
+Puteți adăuga note de subsol[^footnote] în notele dvs. folosind sintaxa următoare:
 
-[^footnote]: This is a footnote.
+[^footnote]: Aceasta este o notă de subsol.
 
 ```md
 This is a simple footnote[^1].
@@ -462,20 +461,20 @@ This is a simple footnote[^1].
 [^note]: Named footnotes still appear as numbers, but can make it easier to identify and link references.
 ```
 
-You can also inline footnotes in a sentence. Note that the caret goes outside the brackets.
+Puteți include note de subsol și direct în text, într-o propoziție. Rețineți că accentul circumflex se plasează în afara parantezelor pătrate.
 
 ```md
 You can also use inline footnotes. ^[This is an inline footnote.]
 ```
 
-> [!note] Note
-> Inline footnotes only work in reading view, not in Live Preview.
+> [!note] Notă
+> Notele de subsol incluse în text funcționează doar în modul de citire, nu și în Live Preview.
 
-Use the [[Footnotes view]] to see all footnotes in a note.
+Folosiți [[Footnotes view|modul de vizualizare a notelor de subsol]] pentru a vedea toate notele de subsol dintr-o notă.
 
-## Comments
+## Comentarii
 
-You can add comments by wrapping text with `%%`. Comments are only visible in Editing view.
+Puteți adăuga comentarii încadrând textul cu `%%`. Comentariile sunt vizibile doar în modul de editare.
 
 ```md
 This is an %%inline%% comment.
@@ -487,35 +486,35 @@ Block comments can span multiple lines.
 %%
 ```
 
-## Escaping Markdown Syntax
+## Excluderea sintaxei Markdown
 
-In some cases, you may need to display special characters in Markdown, such as `*`, `_`, or `#`, without triggering their formatting. To display these characters literally, place a backslash (`\`) before them.
+În unele cazuri, poate fi necesar să afișați caractere speciale în Markdown, precum `*`, `_` sau `#`, fără a declanșa formatarea acestora. Pentru a afișa aceste caractere literal, plasați o bară oblică inversă (`\`) înaintea lor.
 
-> [!example] Common characters to escape
+> [!example] Caractere comune de exclus
 > 
-> - Asterisk: `\*`
-> - Underscore: `\_`
-> - Hashtag: `\#`
-> - Backtick: `` \` ``
-> - Pipe (used in tables): `\|`
-> - Tilde: `\~`
+> - Asterisc: `\*`
+> - Liniuță de subliniere: `\_`
+> - Diez: `\#`
+> - Ghilimea oblică: `` \` ``
+> - Bară verticală (folosită în tabele): `\|`
+> - Tildă: `\~`
 
 ```md
 \*This text will not be italicized\*.
 ```
 
-\*This text will not be italicized\*.
+\*Acest text nu va fi cursiv\*.
 
-When working with numbered lists, you may need to escape the period after the number to prevent automatic list formatting. Place the backslash (`\`) before the period, **not** before the number.
+Când lucrați cu liste numerotate, poate fi necesar să excludeți punctul de după număr pentru a preveni formatarea automată a listei. Plasați bara oblică inversă (`\`) înaintea punctului, **nu** înaintea numărului.
 
 ```md
 1\. This won't be a list item.
 ```
 
-1\. This won't be a list item.
+1\. Acesta nu va fi un element de listă.
 
-## Learn more
+## Aflați mai multe
 
-To learn more advanced formatting syntax, such as tables, diagrams, and math expressions, refer to [[Advanced formatting syntax]].
+Pentru a afla mai multe despre sintaxa de formatare avansată, precum tabele, diagrame și expresii matematice, consultați [[Advanced formatting syntax]].
 
-To learn more about how Obsidian parses Markdown, refer to [[Obsidian Flavored Markdown]].
+Pentru a afla mai multe despre modul în care Obsidian interpretează Markdown, consultați [[Obsidian Flavored Markdown]].

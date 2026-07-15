@@ -1,237 +1,236 @@
 ---
-localized: null
 permalink: sync-notes
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: How to sync your Obsidian notes across devices and platforms.
+description: Cum să vă sincronizați notele Obsidian pe toate dispozitivele și platformele.
 ---
-Obsidian stores notes locally on your device so you always have access to them, even offline. To access your notes on multiple devices you need to set up a sync method.
+Obsidian vă stochează notele local, pe dispozitivul dumneavoastră, astfel încât aveți întotdeauna acces la ele, chiar și offline. Pentru a vă accesa notele pe mai multe dispozitive, trebuie să configurați o metodă de sincronizare.
 
-This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
+Acest ghid acoperă metodele comune de sincronizare, inclusiv sfaturi pentru a evita pierderea datelor și pentru a asigura o experiență lină.
 
-We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect your data.
+Vă recomandăm de asemenea să citiți [[Back up your Obsidian files|ghidul nostru de copiere de siguranță]] pentru a vă proteja datele.
 
-## Syncing methods
+## Metode de sincronizare
 
-With Obsidian your data is simply stored as files in a folder called a [[Local and remote vaults|vault]]. This means there are many ways to sync your data.
+Cu Obsidian, datele dumneavoastră sunt stocate pur și simplu sub formă de fișiere într-un director numit [[Local and remote vaults|seif]]. Aceasta înseamnă că există numeroase modalități de a vă sincroniza datele.
 
-These are a few commonly used sync methods reported by members of the Obsidian community:
+Acestea sunt câteva metode de sincronizare folosite frecvent, raportate de membrii comunității Obsidian:
 
-1. **First-party sync**: [[#Obsidian Sync]]
-2. **Third-party cloud sync**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
-3. **Local sync**: [[#Syncthing]]
-4. **Version control**: [[#Git]] and [[#Working Copy]]
+1. **Sincronizare de la prima parte**: [[#Obsidian Sync]]
+2. **Sincronizare cloud de la terți**: [[#iCloud]], [[#OneDrive]] și [[#Google Drive]]
+3. **Sincronizare locală**: [[#Syncthing]]
+4. **Control al versiunilor**: [[#Git]] și [[#Working Copy]]
 
-Dozens of alternative syncing options can be found in the [Community plugins directory](https://community.obsidian.md/search?type=plugin&categories=syncing).
+Zeci de opțiuni alternative de sincronizare pot fi găsite în [directorul de module comunitare](https://community.obsidian.md/search?type=plugin&categories=syncing).
 
 ## Obsidian Sync
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
+**Sisteme recomandate**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-The most straightforward and officially supported sync method is our first-party solution: [[Introduction to Obsidian Sync|Obsidian Sync]].
+Cea mai simplă și oficial acceptată metodă de sincronizare este soluția noastră de la prima parte: [[Introduction to Obsidian Sync|Obsidian Sync]].
 
-Obsidian Sync keeps your vaults synced across all devices by using an off-site remote vault to make copies of your data. A local copy remains on your devices at all times.
+Obsidian Sync vă menține seifurile sincronizate pe toate dispozitivele, folosind un seif la distanță pentru a crea copii ale datelor dumneavoastră. O copie locală rămâne întotdeauna pe dispozitivele dumneavoastră.
 
-Follow the [[Set up Obsidian Sync|setup guide]] to configure Obsidian Sync.
+Urmați [[Set up Obsidian Sync|ghidul de configurare]] pentru a configura Obsidian Sync.
 
 ## iCloud
 
-**Recommended systems**: `macOS`, `iOS`, `iPadOS`
+**Sisteme recomandate**: `macOS`, `iOS`, `iPadOS`
 
-iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive on Windows** may lead to file duplication or corruption.
+iCloud poate fi folosit pentru a sincroniza seifuri între iOS și macOS. Totuși, **iCloud Drive pe Windows** poate duce la duplicarea sau coruperea fișierelor.
 
-**How to create and store your vault in iCloud Drive**:
+**Cum să creați și să stocați seiful dumneavoastră în iCloud Drive**:
 
-- **Enable iCloud Drive**:
-    - On macOS: Go to **System Preferences → Apple ID → iCloud → iCloud Drive**.
-    - On iOS: Go to **Settings → [Your Name] → iCloud → iCloud Drive**.
-- **Create a new vault in iCloud**:
-    - On macOS:
-        1. Open **Obsidian** and select **Create new vault**.
-        2. In the file picker, navigate to **iCloud Drive → Obsidian**.
-        3. Create a folder for your vault and name it.
-        4. Select **Create** to finish.
-    - On iOS:
-        1. Open **Obsidian** and tap **Create new vault**.
-        2. Enter a name for your vault.
-        3. Toggle on **Store in iCloud**.
-        4. Tap **Create**.
-- **Open the vault on another Apple device**: 
-    - On another macOS or iOS device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **iCloud Drive → Obsidian**.
+- **Activați iCloud Drive**:
+    - Pe macOS: Accesați **System Preferences → Apple ID → iCloud → iCloud Drive**.
+    - Pe iOS: Accesați **Settings → [Numele dumneavoastră] → iCloud → iCloud Drive**.
+- **Creați un seif nou în iCloud**:
+    - Pe macOS:
+        1. Deschideți **Obsidian** și selectați **Creare seif nou**.
+        2. În selectorul de fișiere, navigați la **iCloud Drive → Obsidian**.
+        3. Creați un director pentru seiful dumneavoastră și denumiți-l.
+        4. Selectați **Creare** pentru a finaliza.
+    - Pe iOS:
+        1. Deschideți **Obsidian** și apăsați **Creare seif nou**.
+        2. Introduceți un nume pentru seiful dumneavoastră.
+        3. Activați **Stocare în iCloud**.
+        4. Apăsați **Creare**.
+- **Deschideți seiful pe un alt dispozitiv Apple**:
+    - Pe alt dispozitiv macOS sau iOS, deschideți **Obsidian**, mergeți la [[Manage vaults|comutatorul de seifuri]] și selectați **Deschideți directorul ca seif**. Navigați la **iCloud Drive → Obsidian**.
 
-> [!warning]+ iOS and iPadOS folder location
-> When using iCloud on mobile devices, ensure your vault is stored in the correct location: `iCloud Drive/Obsidian/[Your Vault Name]`.
+> [!warning]+ Locația directorului pe iOS și iPadOS
+> Când folosiți iCloud pe dispozitive mobile, asigurați-vă că seiful dumneavoastră este stocat în locația corectă: `iCloud Drive/Obsidian/[Numele seifului dumneavoastră]`.
 > 
-> Vaults should be inside the **Obsidian** folder within iCloud Drive. The folder on the right with the Obsidian icon is correct. Do not use the plain folder without the app icon.
+> Seifurile trebuie să se afle în directorul **Obsidian** din iCloud Drive. Directorul din dreapta, cu pictograma Obsidian, este cel corect. Nu folosiți directorul simplu, fără pictograma aplicației.
 > 
 > ![[iCloud-folder-location.png#interface]]
 > 
-> To verify your vault location, open the **Files** app, tap **Browse**, select **iCloud Drive** under **Locations**, and confirm your vault is inside the **Obsidian** folder. If your vault is in a different location, you may experience syncing issues.
+> Pentru a verifica locația seifului dumneavoastră, deschideți aplicația **Files**, apăsați **Browse**, selectați **iCloud Drive** sub **Locations** și confirmați că seiful dumneavoastră se află în directorul **Obsidian**. Dacă seiful dumneavoastră se află într-o locație diferită, este posibil să întâmpinați probleme de sincronizare.
 
-> [!tip] Best practices
-> - For **macOS 14 (Sonoma) and earlier**: Disable **Optimize Mac Storage** in iCloud settings to prevent files from being offloaded. This setting affects all iCloud storage on the device, not just Obsidian.
-> - For **macOS 15 (Sequoia)**: Right-click the **Obsidian** folder in iCloud Drive and select **Keep Downloaded**.
+> [!tip] Bune practici
+> - Pentru **macOS 14 (Sonoma) și versiuni anterioare**: Dezactivați **Optimize Mac Storage** din setările iCloud pentru a preveni descărcarea fișierelor de pe dispozitiv. Această setare afectează întreaga stocare iCloud a dispozitivului, nu doar Obsidian.
+> - Pentru **macOS 15 (Sequoia)**: Apăsați clic dreapta pe directorul **Obsidian** din iCloud Drive și selectați **Keep Downloaded**.
 
 ## OneDrive
 
-**Recommended systems**: `Windows`, `macOS` (limited functionality on Android)
+**Sisteme recomandate**: `Windows`, `macOS` (funcționalitate limitată pe Android)
 
-[OneDrive](https://support.microsoft.com/en-us/office/Sync-with-OneDrive-bb89981b-e382-4969-b8fd-d413a90b6db3#ID0EAABAAA=Set_up) is a popular cloud storage option for Windows and macOS users. However, it has limitations on Android and isn't officially supported for syncing Obsidian vaults on iOS.
+[OneDrive](https://support.microsoft.com/en-us/office/Sync-with-OneDrive-bb89981b-e382-4969-b8fd-d413a90b6db3#ID0EAABAAA=Set_up) este o opțiune populară de stocare în cloud pentru utilizatorii Windows și macOS. Totuși, are limitări pe Android și nu este acceptat oficial pentru sincronizarea seifurilor Obsidian pe iOS.
 
-> [!info] Keep files available offline
-> Before using OneDrive for syncing, ensure that your vault folder is marked as **Always keep on this device**. This prevents OneDrive from offloading files and causing Obsidian to think they are missing.
+> [!info] Păstrați fișierele disponibile offline
+> Înainte de a folosi OneDrive pentru sincronizare, asigurați-vă că directorul seifului dumneavoastră este marcat ca **Always keep on this device**. Aceasta previne descărcarea fișierelor de către OneDrive și evită ca Obsidian să considere că lipsesc.
 
-**How to create and store your vault in OneDrive**:
+**Cum să creați și să stocați seiful dumneavoastră în OneDrive**:
 
-1. **Set up OneDrive**:
-   - On Windows: Sign in through the OneDrive app or your Microsoft account.
-   - On macOS: Download the OneDrive app and sign in.
-2. **Create a new vault in OneDrive**:
-   - On Windows/macOS:
-     1. Open **File Explorer** (Windows) or **Finder** (macOS) and navigate to **OneDrive → Documents**.
-     2. Create a new folder (e.g., \"Obsidian Vault\").
-     3. Open **Obsidian**, select **Create new vault**, and select the OneDrive folder.
-3. **Open the vault on another device**:
-   - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **OneDrive → Documents**.
+1. **Configurați OneDrive**:
+   - Pe Windows: Autentificați-vă prin aplicația OneDrive sau contul dumneavoastră Microsoft.
+   - Pe macOS: Descărcați aplicația OneDrive și autentificați-vă.
+2. **Creați un seif nou în OneDrive**:
+   - Pe Windows/macOS:
+     1. Deschideți **File Explorer** (Windows) sau **Finder** (macOS) și navigați la **OneDrive → Documents**.
+     2. Creați un director nou (de exemplu, „Obsidian Vault”).
+     3. Deschideți **Obsidian**, selectați **Creare seif nou** și selectați directorul OneDrive.
+3. **Deschideți seiful pe alt dispozitiv**:
+   - Pe alt dispozitiv, deschideți **Obsidian**, mergeți la [[Manage vaults|comutatorul de seifuri]] și selectați **Deschideți directorul ca seif**. Navigați la **OneDrive → Documents**.
 
-> [!info] Android syncing
-> OneDrive may not function well for Android syncing. Consider using apps like [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) or [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
+> [!info] Sincronizare pe Android
+> OneDrive poate să nu funcționeze bine pentru sincronizarea pe Android. Luați în considerare aplicații precum [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) sau [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
 
-> [!tip] Best practices
-> - Always keep your vault files **Available Offline** by right-clicking the folder and selecting **Always keep on this device**.
-> - Avoid using OneDrive's **Files On-Demand** feature for vaults to prevent syncing issues.
+> [!tip] Bune practici
+> - Păstrați întotdeauna fișierele seifului **Available Offline**, apăsând clic dreapta pe director și selectând **Always keep on this device**.
+> - Evitați folosirea funcției **Files On-Demand** din OneDrive pentru seifuri, pentru a preveni problemele de sincronizare.
 
 ## Google Drive
 
-**Recommended systems**: `Windows`, `macOS`, `Android` (limited functionality on iOS)
+**Sisteme recomandate**: `Windows`, `macOS`, `Android` (funcționalitate limitată pe iOS)
 
-[Google Drive](https://support.google.com/drive/answer/10838124?hl=en) is another popular cloud storage solution. Although it's not officially supported for syncing Obsidian vaults, you can use third-party apps and plugins to sync across devices.
+[Google Drive](https://support.google.com/drive/answer/10838124?hl=en) este o altă soluție populară de stocare în cloud. Deși nu este acceptat oficial pentru sincronizarea seifurilor Obsidian, puteți folosi aplicații și module terțe pentru a sincroniza pe mai multe dispozitive.
 
-> [!info] iOS support
-> Google Drive is not officially supported for syncing Obsidian vaults on iOS. Consider using a third-party solution or plugin to sync on iOS.
+> [!info] Suport iOS
+> Google Drive nu este acceptat oficial pentru sincronizarea seifurilor Obsidian pe iOS. Luați în considerare o soluție sau un modul terț pentru sincronizare pe iOS.
 
-**How to create and store your vault in Google Drive**:
+**Cum să creați și să stocați seiful dumneavoastră în Google Drive**:
 
-1. **Set up Google Drive**:
-    - On Windows or macOS: Download the Google Drive app and sign in.
-    - On Android: Ensure Google Drive is enabled and signed in.
-2. **Create a new vault in Google Drive**:
-    - On Windows/macOS:
-        1. Open **File Explorer** (Windows) or **Finder** (macOS) and navigate to **Google Drive**.
-        2. Create a new folder (e.g., \"Obsidian Vault\").
-        3. Open **Obsidian**, select **Create new vault**, and select the Google Drive folder.
-3. **Open the vault on another device**:
-    - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to your Google Drive folder.
+1. **Configurați Google Drive**:
+    - Pe Windows sau macOS: Descărcați aplicația Google Drive și autentificați-vă.
+    - Pe Android: Asigurați-vă că Google Drive este activat și autentificat.
+2. **Creați un seif nou în Google Drive**:
+    - Pe Windows/macOS:
+        1. Deschideți **File Explorer** (Windows) sau **Finder** (macOS) și navigați la **Google Drive**.
+        2. Creați un director nou (de exemplu, „Obsidian Vault”).
+        3. Deschideți **Obsidian**, selectați **Creare seif nou** și selectați directorul Google Drive.
+3. **Deschideți seiful pe alt dispozitiv**:
+    - Pe alt dispozitiv, deschideți **Obsidian**, mergeți la [[Manage vaults|comutatorul de seifuri]] și selectați **Deschideți directorul ca seif**. Navigați la directorul dumneavoastră Google Drive.
 
-> [!tip] Best practices
-> - Set vault files to **Available Offline** in Google Drive to avoid syncing issues due to offloading.
-> - For iOS, consider alternative methods like [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]], or use the **Remotely Save** plugin.
+> [!tip] Bune practici
+> - Setați fișierele seifului ca **Available Offline** în Google Drive pentru a evita problemele de sincronizare cauzate de descărcare.
+> - Pentru iOS, luați în considerare metode alternative precum [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]] sau folosiți modulul **Remotely Save**.
 
 ## Syncthing
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`
+**Sisteme recomandate**: `Windows`, `macOS`, `Linux`
 
-Syncthing is a decentralized file synchronization tool that doesn't rely on cloud storage. It syncs your vault directly between devices over the network or internet.
+Syncthing este un instrument descentralizat de sincronizare a fișierelor, care nu se bazează pe stocarea în cloud. Vă sincronizează seiful direct între dispozitive, prin rețea sau internet.
 
-> [!info]+ Android support
-> The official Syncthing Android app is no longer maintained. However, a community fork called [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) continues active development and can be used on Android devices.
+> [!info]+ Suport Android
+> Aplicația oficială Syncthing pentru Android nu mai este întreținută. Totuși, o ramificație comunitară numită [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) continuă dezvoltarea activă și poate fi folosită pe dispozitivele Android.
 
-**How to create and store your vault using Syncthing**:
+**Cum să creați și să stocați seiful dumneavoastră folosind Syncthing**:
 
-1. **Set up Syncthing**:
-   - Install Syncthing on each device. Refer to the [Syncthing website](https://syncthing.net/) for installation guides.
-   - On Android, install [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) from the GitHub releases or F-Droid.
-2. **Create and configure a shared folder**:
-   - On all devices:
-     1. Open Syncthing and create a shared folder. Set the folder path to your Obsidian vault.
-     2. Ensure the same folder is selected on all devices.
-     3. Configure folder syncing preferences (e.g., **Send & Receive** for bidirectional syncing).
-3. **Open the vault in Obsidian**:
-   - Once the folder is synced across devices, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**.
+1. **Configurați Syncthing**:
+   - Instalați Syncthing pe fiecare dispozitiv. Consultați [site-ul Syncthing](https://syncthing.net/) pentru ghiduri de instalare.
+   - Pe Android, instalați [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) din lansările de pe GitHub sau din F-Droid.
+2. **Creați și configurați un director partajat**:
+   - Pe toate dispozitivele:
+     1. Deschideți Syncthing și creați un director partajat. Setați calea directorului către seiful dumneavoastră Obsidian.
+     2. Asigurați-vă că același director este selectat pe toate dispozitivele.
+     3. Configurați preferințele de sincronizare a directorului (de exemplu, **Send & Receive** pentru sincronizare bidirecțională).
+3. **Deschideți seiful în Obsidian**:
+   - După ce directorul este sincronizat pe toate dispozitivele, deschideți **Obsidian**, mergeți la [[Manage vaults|comutatorul de seifuri]] și selectați **Deschideți directorul ca seif**.
 
-> [!info] Device availability
-> Syncthing works best when at least one device is always on to ensure continuous syncing.
+> [!info] Disponibilitatea dispozitivelor
+> Syncthing funcționează cel mai bine atunci când cel puțin un dispozitiv este mereu pornit, pentru a asigura sincronizarea continuă.
 
-> [!tip] Best practices
-> - For local syncing, ensure all devices are connected to the same network.
-> - Exclude `.obsidian` from syncing if you want separate settings on each device.
-> - Use ignore patterns to avoid syncing temporary or backup files.
+> [!tip] Bune practici
+> - Pentru sincronizarea locală, asigurați-vă că toate dispozitivele sunt conectate la aceeași rețea.
+> - Excludeți `.obsidian` din sincronizare dacă doriți setări separate pe fiecare dispozitiv.
+> - Folosiți tipare de excludere (ignore patterns) pentru a evita sincronizarea fișierelor temporare sau de rezervă.
 
 ## Git
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`
+**Sisteme recomandate**: `Windows`, `macOS`, `Linux`
 
-**Git** is a version control system that allows you to track changes, collaborate with others, and sync your vaults through repositories like GitHub, GitLab, or a self-hosted server.
+**Git** este un sistem de control al versiunilor care vă permite să urmăriți modificările, să colaborați cu alții și să vă sincronizați seifurile prin depozite precum GitHub, GitLab sau un server găzduit propriu.
 
-**How to sync your vault using Git**:
+**Cum să vă sincronizați seiful folosind Git**:
 
-1. **Set up a remote repository**:
-    - Create a repository on a Git hosting platform (e.g., GitHub, GitLab, or a self-hosted server).
-2. **Sync your vault**:
-    1. Open a terminal or Git GUI (e.g., GitKraken, Sourcetree).
-    2. Initialize a Git repository in your vault folder using `git init`.
-    3. Add the remote repository: `git remote add origin [URL]`.
-    4. Commit your changes: `git add .` and `git commit -m \"Your message\"`.
-    5. Push the changes: `git push origin main`.
-3. **Pull changes on other devices**:
-    - Clone the repository on another device and pull changes using `git pull origin main`.
+1. **Configurați un depozit la distanță**:
+    - Creați un depozit pe o platformă de găzduire Git (de exemplu, GitHub, GitLab sau un server găzduit propriu).
+2. **Sincronizați-vă seiful**:
+    1. Deschideți un terminal sau o interfață grafică Git (de exemplu, GitKraken, Sourcetree).
+    2. Inițializați un depozit Git în directorul seifului dumneavoastră folosind `git init`.
+    3. Adăugați depozitul la distanță: `git remote add origin [URL]`.
+    4. Confirmați modificările: `git add .` și `git commit -m \"Your message\"`.
+    5. Trimiteți modificările: `git push origin main`.
+3. **Extrageți modificările pe alte dispozitive**:
+    - Clonați depozitul pe alt dispozitiv și extrageți modificările folosind `git pull origin main`.
 
-> [!info] Manual syncing required
-> Git provides strong version control, but syncing isn't automatic. You must manually push and pull changes.
+> [!info] Este necesară sincronizarea manuală
+> Git oferă un control al versiunilor solid, dar sincronizarea nu este automată. Trebuie să trimiteți și să extrageți modificările manual.
 
-## iPhone and iPad syncing
+## Sincronizarea pe iPhone și iPad
 
-**Recommended options**:
+**Opțiuni recomandate**:
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud]]
 
-> [!info] Avoid mixing sync services
-> Avoid syncing the same vault across multiple services (e.g., using both Obsidian Sync and iCloud simultaneously) to prevent data conflicts or corruption.
+> [!info] Evitați combinarea serviciilor de sincronizare
+> Evitați sincronizarea aceluiași seif pe mai multe servicii simultan (de exemplu, folosind atât Obsidian Sync, cât și iCloud) pentru a preveni conflictele sau coruperea datelor.
 
-**Unsupported options**:
-The following services aren't officially supported on iOS, but users have found workarounds using third-party tools or plugins:
+**Opțiuni neacceptate**:
+Următoarele servicii nu sunt acceptate oficial pe iOS, dar unii utilizatori au găsit soluții alternative folosind instrumente sau module terțe:
 
 - Dropbox
 - Google Drive
 - OneDrive
 - Syncthing
 
-Some users have successfully used plugins like **Remotely Save** or **LiveSync** to sync vaults on iOS. However, these methods aren't officially supported, and results may vary.
+Unii utilizatori au folosit cu succes module precum **Remotely Save** sau **LiveSync** pentru a sincroniza seifuri pe iOS. Totuși, aceste metode nu sunt acceptate oficial, iar rezultatele pot varia.
 
 ### Working Copy
 
-**Recommended systems**: `iOS`
-**Requires**: [[#Git]]
+**Sisteme recomandate**: `iOS`
+**Necesită**: [[#Git]]
 
-**Working Copy** is a Git client for iOS that allows you to clone, commit, and push changes to a Git repository. It works well for syncing Obsidian vaults via Git, though some features require a paid in-app purchase.
+**Working Copy** este un client Git pentru iOS care vă permite să clonați, să confirmați și să trimiteți modificări către un depozit Git. Funcționează bine pentru sincronizarea seifurilor Obsidian prin Git, deși unele funcții necesită o achiziție plătită în aplicație.
 
-**How to sync your vault using Working Copy**:
+**Cum să vă sincronizați seiful folosind Working Copy**:
 
-1. **Install Working Copy**:
-    - Download the **[Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807)** app on your iPhone or iPad.
-2. **Clone your Git repository**:
-    - Open Working Copy, tap **Add Repository**, and enter your repository URL (e.g., GitHub, GitLab).
-3. **Link repository to Obsidian**:
-    - Link the cloned repository folder to an empty vault in **Obsidian**.
-4. **Commit and push changes**:
-    - After editing notes in Obsidian, use Working Copy to **Commit** and **Push** changes to the remote repository.
-    - On other devices, pull changes using Git to sync the vault.
+1. **Instalați Working Copy**:
+    - Descărcați aplicația **[Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807)** pe iPhone sau iPad.
+2. **Clonați depozitul dumneavoastră Git**:
+    - Deschideți Working Copy, apăsați **Add Repository** și introduceți URL-ul depozitului dumneavoastră (de exemplu, GitHub, GitLab).
+3. **Conectați depozitul la Obsidian**:
+    - Conectați directorul depozitului clonat la un seif gol în **Obsidian**.
+4. **Confirmați și trimiteți modificările**:
+    - După ce editați note în Obsidian, folosiți Working Copy pentru a **Commit** și **Push** modificările către depozitul la distanță.
+    - Pe alte dispozitive, extrageți modificările folosind Git pentru a sincroniza seiful.
 
-> [!info] Community usage
-> While Working Copy isn't officially supported, many users have successfully used it to sync vaults with Git.
+> [!info] Utilizare în comunitate
+> Deși Working Copy nu este acceptat oficial, mulți utilizatori l-au folosit cu succes pentru a sincroniza seifuri cu Git.
 
-## Frequently asked questions
+## Întrebări frecvente
 
-**Why is my preferred syncing service not officially supported?**
+**De ce serviciul meu de sincronizare preferat nu este acceptat oficial?**
 
-Unlike some note-taking apps that access one file at a time, Obsidian requires access to the entire vault for its features (e.g., updating links when renaming a file). This makes it difficult for some services to function reliably with Obsidian.
+Spre deosebire de unele aplicații de luat notițe care accesează câte un fișier o dată, Obsidian necesită acces la întregul seif pentru funcțiile sale (de exemplu, actualizarea legăturilor la redenumirea unui fișier). Acest lucru face dificilă funcționarea fiabilă a unor servicii cu Obsidian.
 
-**Why do I need to keep files "Available Offline"?**
+**De ce trebuie să păstrez fișierele „Available Offline”?**
 
-If services like OneDrive or iCloud offload files (e.g., using **Files On-Demand** or **Optimize Mac Storage**), Obsidian can't access them, causing sync issues. Mark your vault folder as **Always keep on this device** (OneDrive) or ensure **Keep Downloaded** is enabled (iCloud).
+Dacă serviciile precum OneDrive sau iCloud descarcă fișierele de pe dispozitiv (de exemplu, folosind **Files On-Demand** sau **Optimize Mac Storage**), Obsidian nu le mai poate accesa, cauzând probleme de sincronizare. Marcați directorul seifului dumneavoastră ca **Always keep on this device** (OneDrive) sau asigurați-vă că **Keep Downloaded** este activat (iCloud).
 
-**How do I manage different configurations for my vaults?**
+**Cum gestionez configurații diferite pentru seifurile mele?**
 
-Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Config folders]] feature.
+Obsidian vă permite să personalizați directorul de configurare pe dispozitiv, folosind funcția [[Configuration folder|Directoare de configurare]].

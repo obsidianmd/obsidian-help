@@ -1,23 +1,22 @@
 ---
-localized: null
 permalink: plugins/importer
 cssclasses:
   - list-cards
   - soft-embed
 publish: true
 mobile: true
-description: Importer helps you migrate to Obsidian from various apps and formats.
+description: Importer te ajută să migrezi la Obsidian din diverse aplicații și formate.
 ---
 
-Importer helps you migrate to Obsidian from various apps and formats. See the [[Import notes]] guide for detail.
+Importer te ajută să migrezi la Obsidian din diverse aplicații și formate. Consultă ghidul [[Import notes]] pentru detalii.
 
-Importer is an official [[Community plugins|Community plugin]] made by the Obsidian team, with contributions to [our open source code](https://github.com/obsidianmd/obsidian-importer). You can contribute by adding additional import formats. [See contribution guide.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
+Importer este un [[Community plugins|modul comunitar]] oficial realizat de echipa Obsidian, cu contribuții la [codul nostru open source](https://github.com/obsidianmd/obsidian-importer). Poți contribui adăugând formate de import suplimentare. [Consultă ghidul de contribuție.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
 
-## Install Importer
+## Instalează Importer
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
-2. Download and enable [Importer](obsidian://show-plugin?id=obsidian-importer) from the list
+1. Urmează instrucțiunile din [[Community plugins#Instalează un modul comunitar]]
+2. Descarcă și activează [Importer](obsidian://show-plugin?id=obsidian-importer) din listă
 
-![[Import notes#Import from other apps and file formats]]
+![[Import notes#Import din alte aplicații și formate de fișiere]]
 
-![[Import notes#More formats]]
+![[Import notes#Mai multe formate]]

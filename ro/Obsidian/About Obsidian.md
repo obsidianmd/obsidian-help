@@ -1,63 +1,62 @@
 ---
-localized: null
 permalink: obsidian
 ---
-## What is Obsidian
+## Ce este Obsidian
 
-Obsidian is both a Markdown editor and a knowledge base app.
+Obsidian este atât un editor Markdown, cât și o aplicație de bază de cunoștințe.
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
+Folosit în modul cel mai simplu, poți edita și previzualiza fișiere Markdown. Însă adevărata sa putere constă în gestionarea unei baze de cunoștințe dens interconectate.
 
-How do we start creating a network, you ask? Let's first start making some [[Internal links]]!
+Cum începem să creăm o rețea, te întrebi? Hai să începem mai întâi prin a face câteva [[Internal links]]!
 
-## How we're different
+## Cum suntem diferiți
 
-### You own and control your data
+### Îți deții și controlezi datele
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+Credem în textul simplu (plain text) pentru ceva atât de important precum baza ta de cunoștințe. Nu vrei să-ți pui propriul creier în seama altcuiva, nu-i așa? Tratează-ți al doilea creier în același fel.
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+Sync este doar un utilitar care facilitează lucrul pe mai multe dispozitive, datele vor locui întotdeauna în principal pe hard diskul tău.
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+Când sistemul de fișiere înlocuiește norul (cloud), obții opțiuni flexibile pentru a lucra cu fișierele tale: le poți face copii de rezervă cu Dropbox, poți folosi Git pentru versionare sau poți cripta discul pentru securitate. Orice funcționează pe sistemul tău de fișiere va funcționa și pe baza ta de cunoștințe Obsidian.
 
-### Links are first-class citizens
+### Legăturile sunt cetățeni de prim rang
 
-Links and connections are crucial to discovering the relations between what we know.
+Legăturile și conexiunile sunt esențiale pentru a descoperi relațiile dintre lucrurile pe care le știm.
 
-Obsidian greatly values this, and encourages it with [[Internal links]] and [[Graph view]], among other things.
+Obsidian pune mare preț pe acest lucru și îl încurajează prin [[Internal links]] și [[Graph view]], printre altele.
 
-As John Locke puts it...
+Așa cum spune John Locke...
 
-> The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
+> Actele minții, prin care aceasta își exercită puterea asupra ideilor simple, sunt în principal aceste trei:
 >
-> 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
-> 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
-> 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
+> 1. Combinarea mai multor idei simple într-una compusă, și astfel se formează toate ideile complexe.
+> 2. A doua este aducerea a două idei, fie simple, fie complexe, împreună, și așezarea lor una lângă alta pentru a le privi dintr-odată, fără a le uni într-una singură, prin care se obțin toate ideile de relații.
+> 3. A treia este separarea lor de toate celelalte idei care le însoțesc în existența lor reală: aceasta se numește abstractizare, și astfel se formează toate ideile sale generale.
 
  \- John Locke, An Essay Concerning Human Understanding (1690)
 
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+Ierarhia ne oferă nr. 1, iar legăturile ne oferă nr. 2. Încă nu suntem siguri ce presupune nr. 3 în contextul luării de notițe, dar ar putea avea legătură cu programarea sau macro-urile.
 
-### Your own toolkit
+### Propriul tău set de instrumente
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+Luarea de notițe este o activitate profund personală. În mod natural, nu există o singură soluție universală pentru toată lumea.
 
-Instead of providing you with an opinionated and assembled product, [[About Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+În loc să-ți oferim un produs preconceput și asamblat, [[About Obsidian]] îți oferă o fundație și numeroase blocuri funcționale de construcție pentru a descoperi și a-ți construi propria soluție.
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+Fundația constă în capacitatea de a vizualiza fișiere, de a le edita și de a le căuta. Pentru minimaliști, asta este suficient.
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+Pe lângă asta, poți adăuga blocuri de construcție izolate și independente pentru a adăuga funcționalități la modul tău de a lua notițe:
 
-- If you're taking class notes, [[Audio recorder]] and LaTeX math might be useful;
-- If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
-- If you're a researcher, [[Graph view]] and [[Word count]] might be essential to your toolkit.
+- Dacă iei notițe de curs, [[Audio recorder]] și matematica LaTeX ar putea fi utile;
+- Dacă iei notițe de lucru, [[Slides]] și [[Backlinks]] pot fi utile;
+- Dacă ești cercetător, [[Graph view]] și [[Word count]] ar putea fi esențiale pentru setul tău de instrumente.
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+Nu ne așteptăm ca modulele să fie soluția universală care rezolvă toate problemele, dar ne apropie mai mult decât o soluție monolitică, fără toate funcțiile de care nu ai nevoie aglomerând interfața.
 
-We support [[CSS snippets]], [[Themes]], and [[Community plugins]], which enable even more interface customization and support less common use cases.
+Susținem [[CSS snippets]], [[Themes]] și [[Community plugins]], care permit o personalizare și mai mare a interfeței și susțin cazuri de utilizare mai puțin comune.
 
-## Follow our development
+## Urmărește dezvoltarea noastră
 
-Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://obsidian.md/roadmap/) to see what we're working on.
+Curios cum continuăm să facem din Obsidian cel mai bun și mai rafinat instrument pentru procesarea gândirii? Consultă [foaia noastră de parcurs](https://obsidian.md/roadmap/) pentru a vedea la ce lucrăm.
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
+Contul nostru de Twitter este [@obsdmd](https://twitter.com/obsdmd), nu ezita să ne urmărești. Postăm în principal despre actualizări ale produsului.

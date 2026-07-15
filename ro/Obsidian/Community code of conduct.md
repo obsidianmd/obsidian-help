@@ -1,155 +1,154 @@
 ---
-localized: null
 permalink: community-code-of-conduct
 publish: true
 mobile: true
-description: This page details the rules that apply to all Obsidian community spaces.
+description: Această pagină detaliază regulile care se aplică tuturor spațiilor comunității Obsidian.
 ---
 
-## The rules
+## Regulile
 
-The following behaviors are not tolerated within the official Obsidian community channels, including the [Forum](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd), and [Reddit](https://reddit.com/r/ObsidianMD).
+Următoarele comportamente nu sunt tolerate în cadrul canalelor oficiale ale comunității Obsidian, inclusiv [Forum](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd) și [Reddit](https://reddit.com/r/ObsidianMD).
 
-### Serious offenses
+### Încălcări grave
 
-Users committing these offenses will be immediately banned from all official Obsidian community channels. Timeouts may be applied while the ban is being processed.
+Utilizatorii care comit aceste încălcări vor fi excluși imediat din toate canalele oficiale ale comunității Obsidian. Se pot aplica suspendări temporare în timp ce excluderea este procesată.
 
-#### Harassment
+#### Hărțuire
 
-Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
+Hărțuirea include comentarii verbale ofensatoare legate de gen, orientare sexuală, dizabilitate, aspect fizic, dimensiunea corpului, rasă sau religie, precum și imagini cu conținut sexual în spații publice, intimidare deliberată, urmărire, hărțuire prin fotografiere sau înregistrare, contact fizic nepotrivit și atenție sexuală sau romantică nedorită.
 
-#### Threats
+#### Amenințări
 
-We don't tolerate any threats, physically or verbally. For example, threatening to publicize sensitive information about someone's personal life.
+Nu tolerăm niciun fel de amenințări, fizice sau verbale. De exemplu, amenințarea de a face publice informații sensibile despre viața personală a cuiva.
 
-#### Blatant -isms
+#### Discriminare flagrantă ("-isme")
 
-This includes saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
+Aceasta include afirmații explicit rasiste, sexiste, homofobe etc. De exemplu, susținerea că anumite persoane sunt mai puțin inteligente din cauza genului, rasei sau religiei lor. Micile greșeli făcute într-o conversație nu constituie încălcări ale codului de conduită. Totuși, repetarea unei afirmații după ce ți-a fost semnalată, sau antagonizarea ori contrazicerea persoanei care ți-a semnalat prejudecata subtilă este considerată o încălcare minoră.
 
-### Other offenses
+### Alte încălcări
 
-Users who commit these offenses will receive a timeout and/or a warning. Repeated violations or failure to comply may result in a ban from official Obsidian community channels.
+Utilizatorii care comit aceste încălcări vor primi o suspendare temporară și/sau un avertisment. Încălcările repetate sau nerespectarea acestora pot duce la excluderea din canalele oficiale ale comunității Obsidian.
 
-Examples of **Other offenses** include:
+Exemple de **alte încălcări** includ:
 
-- The use of inappropriate images, including in a community member's avatar
-- The use of inappropriate language or profanity, including in a community member's nickname
+- Utilizarea de imagini nepotrivite, inclusiv în avatarul unui membru al comunității
+- Utilizarea de limbaj nepotrivit sau vulgar, inclusiv în porecla unui membru al comunității
 
-#### Belligerence
+#### Comportament belicos
 
-Belligerence is deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they're not a real programmer or that they don't belong.
+Comportamentul belicos înseamnă a încerca în mod deliberat să-i faci pe ceilalți să se simtă rău, jigniri, izolarea sau excluderea altora prin ridiculizare. De exemplu, a spune cuiva că nu este un programator adevărat sau că nu are ce căuta acolo.
 
-#### Being especially unpleasant
+#### A fi deosebit de neplăcut
 
-For example, if we've received reports from multiple members of annoying or rude behavior.
+De exemplu, dacă am primit sesizări din partea mai multor membri cu privire la un comportament enervant sau nepoliticos.
 
-#### Unsolicited messages to community members
+#### Mesaje nesolicitate către membrii comunității
 
-This is a large and active community. Please be respectful of others' attention and time by avoiding unsolicited tagging, "pinging", or direct messaging of staff, moderators, and fellow community members for general questions, bug reports, or feature requests. This guideline will be enforced on a spirit-of-the-rule basis.
+Aceasta este o comunitate mare și activă. Te rugăm să respecți atenția și timpul celorlalți, evitând etichetarea nesolicitată, „pingul” sau mesajele directe către staff, moderatori și alți membri ai comunității pentru întrebări generale, rapoarte de erori sau cereri de funcționalități. Această regulă va fi aplicată în spiritul, nu doar în litera ei.
 
-**When pinging is appropriate**: Only ping community members when replying to their messages or when they have explicitly requested to be notified about specific topics.
+**Când este potrivit un „ping”**: Ping-uiește membrii comunității doar atunci când răspunzi mesajelor lor sau atunci când aceștia au cerut explicit să fie notificați cu privire la anumite subiecte.
 
-**Direct messages**: Only send direct messages if you have received explicit permission to do so publicly in the server.
+**Mesaje directe**: Trimite mesaje directe doar dacă ai primit permisiune explicită să faci acest lucru public, pe server.
 
-**Community plugins and themes**: For bug reports and feature requests, please open a GitHub issue rather than pinging the developer in Discord.
+**Module și teme ale comunității**: Pentru rapoarte de erori și cereri de funcționalități, te rugăm să deschizi un issue pe GitHub, în loc să-l „ping-uiești” pe dezvoltator pe Discord.
 
-**Security concerns**: If you have a security issue to report about the application, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+**Probleme de securitate**: Dacă ai o problemă de securitate de raportat cu privire la aplicație, te rugăm să [[Help and support#Contact Obsidian support|contactezi suportul Obsidian]].
 
-Instructions for reporting violations of our code of conduct can be found below in [[#Report violations]]. We appreciate your cooperation in following these guidelines to maintain a positive and respectful environment within the Obsidian community.
+Instrucțiuni pentru raportarea încălcărilor codului nostru de conduită pot fi găsite mai jos, la [[#raportează încălcări]]. Îți apreciem cooperarea în respectarea acestor reguli, pentru a menține un mediu pozitiv și respectuos în cadrul comunității Obsidian.
 
-### Other behaviors
+### Alte comportamente
 
-The following behaviors, while not resulting in an immediate ban or warning, are strongly discouraged. Engaging in them may lead to a timeout and a reminder to review this code of conduct. Additionally, these actions greatly increase the risk of [[#being especially unpleasant]].
+Următoarele comportamente, deși nu duc la o excludere sau un avertisment imediat, sunt puternic descurajate. Practicarea lor poate duce la o suspendare temporară și la o reamintire de a revizui acest cod de conduită. În plus, aceste acțiuni cresc considerabil riscul de [[#a fi deosebit de neplăcut]].
 
 #### Sea-lioning
 
-[Sea-lioning](https://en.wikipedia.org/wiki/Sealioning) means continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
+[Sea-lioning](https://en.wikipedia.org/wiki/Sealioning) înseamnă urmărirea continuă a unei agende prin chestionarea și provocarea altor membri. Provocările și întrebările individuale sunt adesea perfect acceptabile, dar în cazul sea-lioning-ului, acestea se acumulează la niveluri nesănătoase, creând o conversație ostilă și negativă.
 
-#### "Feed me"
+#### „Hrănește-mă”
 
-"Feed me" means asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
+„Hrănește-mă” înseamnă a le cere altora să-ți rezolve problemele fără să depui niciun efort din partea ta. Acest lucru este deosebit de grav atunci când rezolvarea problemei nu este banală, iar utilizatorul se roagă de altcineva să facă treaba în locul lui.
 
-#### Campaigning
+#### Insistență repetată
 
-Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don't post the same question in multiple places in short time frames, and don't ask developers for the same features or bug fixes repeatedly.
+Insistența repetată înseamnă a face aceleași cereri în mod continuu. Aceasta se aplică atât cererilor de funcționalități, cât și cererilor de ajutor. Nu posta aceeași întrebare în mai multe locuri, în intervale scurte de timp, și nu le cere dezvoltatorilor aceleași funcționalități sau remedieri în mod repetat.
 
-#### Excessive self promotion
+#### Auto-promovare excesivă
 
-We encourage sharing what you’ve made for Obsidian—guides, videos, utilities, tools, and more. It’s awesome to see what folks in the community are creating. As a content creator, it’s natural to link to your own work, and we provide a place for that in the `#content-update` channel on our [[Help and support#Questions and advice|Discord]].
+Încurajăm împărtășirea a ceea ce ai creat pentru Obsidian — ghiduri, videoclipuri, utilitare, instrumente și altele. Este minunat să vedem ce creează oamenii din comunitate. Ca și creator de conținut, este firesc să faci trimitere către propria muncă, iar noi oferim un loc pentru asta pe canalul `#content-update` de pe [[Help and support#Questions and advice|Discord-ul nostru]].
 
-But there are limits.
+Dar există limite.
 
-**Exclusive** self-promotion refers to promoting or linking your own (or others’) content or initiatives without otherwise participating in the community. If your only purpose here is to drop links or solicit attention for external projects, we won’t allow it. Depending on the situation, links may be removed and warnings may be given.
+Auto-promovarea **exclusivă** se referă la promovarea sau distribuirea de linkuri către propriul conținut (sau al altora) ori inițiative, fără a participa altfel la comunitate. Dacă singurul tău scop aici este să postezi linkuri sau să soliciți atenție pentru proiecte externe, nu vom permite acest lucru. În funcție de situație, linkurile pot fi eliminate și pot fi acordate avertismente.
 
-**Excessive** self-promotion is a judgment call made by moderators and staff. We expect folks to engage meaningfully before promoting their work. Please be respectful—when in doubt, participate more than you promote. We reserve the right to remove content that doesn’t align with this guideline.
+Auto-promovarea **excesivă** este o decizie de judecată luată de moderatori și staff. Ne așteptăm ca oamenii să se implice cu adevărat în comunitate înainte de a-și promova munca. Te rugăm să fii respectuos — la îndoială, participă mai mult decât promovezi. Ne rezervăm dreptul de a elimina conținutul care nu respectă această regulă.
 
-Promotional content must also be relevant to Obsidian. That includes anything that supports, enhances, or integrates with Obsidian—but not unrelated personal projects.
+Conținutul promoțional trebuie, de asemenea, să fie relevant pentru Obsidian. Aceasta include orice susține, îmbunătățește sau se integrează cu Obsidian — dar nu proiecte personale fără legătură.
 
-Lastly, paid content will always receive additional scrutiny, as the potential for conflict of interest is higher.
+În cele din urmă, conținutul plătit va primi întotdeauna o atenție suplimentară, deoarece potențialul de conflict de interese este mai mare.
 
-#### Spamming
+#### Spam
 
-Do not directly message any of our community member without asking for consent first. It's okay to ask publicly if you have a question.
+Nu trimite mesaje directe niciunui membru al comunității noastre fără a-i cere mai întâi consimțământul. Este în regulă să întrebi public dacă ai o întrebare.
 
-Similarly, posting invite links (e.g. to other Discord servers, unrelated communities, or private groups) is not allowed. These often come across as spammy, derail discussion, and create moderation issues.
+De asemenea, postarea de linkuri de invitație (de exemplu, către alte servere Discord, comunități fără legătură sau grupuri private) nu este permisă. Acestea sunt adesea percepute ca spam, deraiază discuția și creează probleme de moderare.
 
-## Encouraged behaviors
+## Comportamente încurajate
 
-Over the years of running the official Obsidian community channels, we've noticed some behaviors that positively contribute to the community.
+De-a lungul anilor de administrare a canalelor oficiale ale comunității Obsidian, am observat câteva comportamente care contribuie pozitiv la comunitate.
 
-If you're looking to improve your communication skills as well as becoming a better community citizen, consider doing the following:
+Dacă vrei să-ți îmbunătățești abilitățile de comunicare, precum și să devii un cetățean mai bun al comunității, ia în calcul următoarele:
 
-- **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
-- **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Don't judge others for their choices.
-- **Step away when heated**: the community is a place for us to grow together, not a debate competition. If a discussion escalates into an argument, try your best to step away and leave the conversation.
+- **Încearcă înainte de a întreba**: înainte de a cere ajutor, te rugăm mai întâi să cauți în documentația de ajutor și în istoricul Discord/forum pentru a vedea dacă întrebarea a mai fost pusă. Ajută-i pe ceilalți să te ajute, împărtășind ce ai încercat deja.
+- **Păstrează o minte deschisă**: din cauza gradului ridicat de personalizare a Obsidian, este posibil ca unii oameni să aibă o configurație sau un flux de lucru complet diferit de al tău. Nu judeca alegerile celorlalți.
+- **Îndepărtează-te când discuția se înflăcărează**: comunitatea este un loc în care creștem împreună, nu o competiție de dezbateri. Dacă o discuție escaladează într-o ceartă, încearcă din răsputeri să te retragi și să părăsești conversația.
 
-## Motivation
+## Motivație
 
-We at Obsidian want to create the best community for knowledge management. We want everyone to be able to seek help, help others, and share their experience, without fear or embarrassment.
+Noi, cei de la Obsidian, vrem să creăm cea mai bună comunitate pentru gestionarea cunoștințelor. Vrem ca toată lumea să poată cere ajutor, să ajute pe alții și să-și împărtășească experiența, fără teamă sau jenă.
 
-In order to get there, all of our members are expected to be nice to each other in all interactions, whether it's on our Discord server or on our forum.
+Pentru a ajunge acolo, ne așteptăm ca toți membrii noștri să fie amabili unii cu alții în toate interacțiunile, fie că este vorba de serverul nostru Discord sau de forumul nostru.
 
-"Be nice" is a vague instruction, though. To make sure we're on the same page what's nice and what's not, we've adopted the code of conduct above.
+„Fii amabil” este totuși o instrucțiune vagă. Pentru a ne asigura că suntem pe aceeași lungime de undă în privința a ceea ce este amabil și ce nu, am adoptat codul de conduită de mai sus.
 
-As the community grows, we can't rely on all members to be nice, although the vast majority of our members show exceptional respect towards each other. Adopting a more formal code of conduct — and enforcing it — helps maintain a vital and healthy community.
+Pe măsură ce comunitatea crește, nu ne putem baza pe faptul că toți membrii vor fi amabili, deși marea majoritate a membrilor noștri arată respect excepțional unii față de alții. Adoptarea unui cod de conduită mai formal — și aplicarea lui — ajută la menținerea unei comunități vitale și sănătoase.
 
-## Report violations
+## Raportează încălcări
 
-The Code of Conduct is enforced by our moderators, but we can’t monitor every interaction across the official Obsidian community channels. That’s why we rely on members like you to help us maintain a respectful and welcoming space by reporting any violations you witness.
+Codul de conduită este aplicat de moderatorii noștri, dar nu putem monitoriza fiecare interacțiune din canalele oficiale ale comunității Obsidian. De aceea, ne bazăm pe membri ca tine, pentru a ne ajuta să menținem un spațiu respectuos și primitor, raportând orice încălcare pe care o observi.
 
-Even if you’re not directly involved, you’re encouraged to report any concerning behavior. We’ll keep your identity as confidential as possible.
+Chiar dacă nu ești direct implicat, te încurajăm să raportezi orice comportament îngrijorător. Îți vom păstra identitatea confidențială pe cât posibil.
 
-If your report is related to a security concern with Obsidian itself, please [[Help and support#Contact Obsidian support|email Obsidian support]] directly.
+Dacă raportul tău este legat de o problemă de securitate cu privire la Obsidian în sine, te rugăm să [[Help and support#Contact Obsidian support|trimiți direct un e-mail suportului Obsidian]].
 
-### Report on Discord
+### Raportează pe Discord
 
-In any channel (preferably the one where the issue occurred), type:
-`/moderation report @username [brief reason here]` Your message will disappear immediately, and a report will be sent to the moderation team.
+În orice canal (de preferință cel în care a avut loc problema), scrie:
+`/moderation report @username [motiv pe scurt aici]` Mesajul tău va dispărea imediat, iar un raport va fi trimis echipei de moderare.
 
-You can also use the Discord App Launcher button (the four-shapes icon in the chat bar) to access Carl-bot’s moderation commands if you’re unsure of the exact syntax.
+Poți folosi și butonul App Launcher din Discord (iconița cu patru forme din bara de chat) pentru a accesa comenzile de moderare ale Carl-bot, dacă nu ești sigur de sintaxa exactă.
 
-If the `/moderation report` command doesn’t work, you can also send a direct message to the **OMG Moderators** bot. Just make sure your DMs are enabled for the server so the bot can respond.
+Dacă comanda `/moderation report` nu funcționează, poți trimite și un mesaj direct botului **OMG Moderators**. Asigură-te doar că ai mesajele directe (DM) activate pentru server, astfel încât botul să poată răspunde.
 
-### Report on the forum
+### Raportează pe forum
 
-Please flag the relevant conversation with a reason, and our moderators will investigate.
+Te rugăm să semnalezi conversația relevantă cu un motiv, iar moderatorii noștri vor investiga.
 
-## Enforcement
+## Aplicarea regulilor
 
-> [!abstract] Summary
-> A verified serious offense results in an immediate ban.
-> A verified other offense results in a warning; after that a second verified violation results in a ban.
+> [!abstract] Rezumat
+> O încălcare gravă confirmată duce la o excludere imediată.
+> O altă încălcare confirmată duce la un avertisment; după aceea, o a doua încălcare confirmată duce la o excludere.
 
-If our moderators witness or receive a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from the official Obsidian community channels.
+Dacă moderatorii noștri observă sau primesc un raport despre [[#încălcări grave]], vom contacta persoana în cauză pentru a discuta cu ea și a verifica ce s-a întâmplat. Dacă este confirmat, aceasta va fi eliminată din canalele oficiale ale comunității Obsidian.
 
-If our moderators witness or receive a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from the official Obsidian community channels.
+Dacă moderatorii noștri observă sau primesc un raport despre [[#alte încălcări]], vom contacta membrul implicat pentru a-i explica de ce comportamentul său a fost inacceptabil și îl vom avertiza că o a doua încălcare a codului de conduită va duce la eliminarea sa din canalele oficiale ale comunității Obsidian.
 
-## Appealing a ban
+## Contestarea unei excluderi
 
-If you believe you were banned in error, you may [[Help and support#Contact Obsidian support|contact Obsidian support]] with your Discord, Forum, or Reddit username, along with the date of the ban. A member of the Obsidian team will review your case with the moderating team and provide a decision once the review is complete.
+Dacă crezi că ai fost exclus din greșeală, poți [[Help and support#Contact Obsidian support|contacta suportul Obsidian]] cu numele tău de utilizator de Discord, Forum sau Reddit, împreună cu data excluderii. Un membru al echipei Obsidian îți va analiza cazul împreună cu echipa de moderare și va oferi o decizie odată ce analiza este finalizată.
 
-Please note that all appeal decisions are final and cannot be further appealed.
+Te rugăm să reții că toate deciziile de contestare sunt finale și nu pot fi contestate din nou.
 
-## Credits
+## Mulțumiri
 
-Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
+Codul nostru de conduită se bazează în mare măsură pe [Codul de conduită al Recurse Center](https://www.recurse.com/code-of-conduct).

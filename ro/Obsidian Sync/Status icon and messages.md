@@ -1,140 +1,139 @@
 ---
-localized: null
 permalink: sync/messages
 publish: true
 mobile: true
-description: This page explains the Obsidian Sync status icons and provides details about the sync activity log.
+description: Această pagină explică pictogramele de stare Obsidian Sync și oferă detalii despre jurnalul de activitate al sincronizării.
 ---
 
-Obsidian Sync provides several elements to indicate sync status, mainly the [[#Sync status icon]] and [[#Sync activity log]]. Details about version control in Obsidian Sync are covered in the [[Version history]] page.
+Obsidian Sync oferă mai multe elemente pentru a indica starea sincronizării, în principal [[#Pictograma de stare Sync]] și [[#Jurnalul de activitate Sync]]. Detaliile despre controlul versiunilor în Obsidian Sync sunt tratate pe pagina [[Version history]].
 
-## Sync status icon
+## Pictograma de stare Sync
 
-The Sync status icon is located in the [[Status bar]] on the desktop version and in the [[Sidebar#Open hidden sidebars|right sidebar]] on mobile and tablet. The icon reflects various sync states:
+Pictograma de stare Sync se află în [[Status bar|bara de stare]] pe versiunea desktop și în [[Sidebar#Open hidden sidebars|bara laterală din dreapta]] pe mobil și tabletă. Pictograma reflectă diverse stări de sincronizare:
 
-- ![[obsidian-icon-sync-synced.svg#icon]] **Synced**: Obsidian Sync has fully synced your files. This icon is typically green.
-- ![[obsidian-icon-sync-syncing.svg#icon]] **Syncing**: Obsidian is currently updating the remote vault. This icon is usually purple.
-- ![[obsidian-icon-sync-paused.svg#icon]] **Paused**: Syncing has been paused, but Obsidian is still connected to the remote vault. The icon is typically purple.
-- ![[obsidian-icon-sync-disconnected.svg#icon]] **Disconnected**: The Sync core plugin is active, but the [[Local and remote vaults|local vault]] is not connected to a remote vault. This icon is typically red.
+- ![[obsidian-icon-sync-synced.svg#icon]] **Sincronizat**: Obsidian Sync ți-a sincronizat complet fișierele. Această pictogramă este de obicei verde.
+- ![[obsidian-icon-sync-syncing.svg#icon]] **Se sincronizează**: Obsidian actualizează în prezent seiful la distanță. Această pictogramă este de obicei violet.
+- ![[obsidian-icon-sync-paused.svg#icon]] **În pauză**: Sincronizarea a fost pusă în pauză, dar Obsidian este încă conectat la seiful la distanță. Pictograma este de obicei violet.
+- ![[obsidian-icon-sync-disconnected.svg#icon]] **Deconectat**: Modulul integrat Sync este activ, dar [[Local and remote vaults|seiful local]] nu este conectat la un seif la distanță. Această pictogramă este de obicei roșie.
 
-Clicking or tapping the icon opens a context menu with the following options:
-- ![[obsidian-icon-sync-paused.svg#icon]] Pause (or ![[lucide-circle-play.svg#icon]] Resume if paused)
-- ![[lucide-history.svg#icon]] [[Version history]] (Greyed out if not viewing a note)
-- ![[lucide-align-left.svg#icon]] Open [[#Sync activity log|Sync log]]
-- ![[lucide-trash-2.svg#icon]] [[Version history#Restore a deleted file|Deleted files]]
-- ![[lucide-cog.svg#icon]] [[Sync settings and selective syncing|Sync settings]]
+Făcând clic sau atingând pictograma se deschide un meniu contextual cu următoarele opțiuni:
+- ![[obsidian-icon-sync-paused.svg#icon]] Pauză (sau ![[lucide-circle-play.svg#icon]] Reia dacă este în pauză)
+- ![[lucide-history.svg#icon]] [[Version history]] (Estompat dacă nu vizualizezi o notă)
+- ![[lucide-align-left.svg#icon]] Deschide [[#Jurnalul de activitate Sync|Jurnalul Sync]]
+- ![[lucide-trash-2.svg#icon]] [[Version history#Restaurează un fișier șters|Fișiere șterse]]
+- ![[lucide-cog.svg#icon]] [[Sync settings and selective syncing|Setări Sync]]
 
-## Sync activity log
+## Jurnalul de activitate Sync
 
-Obsidian Sync includes a detailed sync log that tracks all interactions between your local files and the remote vault. The log shows uploads, downloads, deletions, and any issues like merge conflicts or connectivity problems.
+Obsidian Sync include un jurnal de sincronizare detaliat care urmărește toate interacțiunile dintre fișierele tale locale și seiful la distanță. Jurnalul afișează încărcările, descărcările, ștergerile și orice probleme, precum conflictele de îmbinare sau problemele de conectivitate.
 
-**Access the activity log:**
-- Click the sync status icon in the status bar
-- Go to **[[Settings]] → Sync → Activity log**
-- Use **Command palette → Sync: Open activity log**
+**Accesează jurnalul de activitate:**
+- Clic pe pictograma de stare Sync din bara de stare
+- Accesează **[[Settings]] → Sync → Jurnal de activitate**
+- Folosește **Paleta de comenzi → Sync: Deschide jurnalul de activitate**
 
-The log provides timestamps and details for each sync operation, making it useful for troubleshooting sync issues.
+Jurnalul oferă marcaje temporale și detalii pentru fiecare operațiune de sincronizare, fiind util pentru depanarea problemelor de sincronizare.
 
-> [!warning] The Sync log does not persist after Obsidian is closed. If you encounter an issue, ensure you copy the log _before_ closing the app.
+> [!warning] Jurnalul Sync nu persistă după închiderea Obsidian. Dacă întâmpini o problemă, asigură-te că copiezi jurnalul _înainte_ de a închide aplicația.
 
-The log categorizes messages into the following types:
+Jurnalul clasifică mesajele în următoarele tipuri:
 
-- [[#General messages]]
-- [[#Error messages]]
-- [[#Skipped messages]]
-- [[#Account messages]]
+- [[#Mesaje generale]]
+- [[#Mesaje de eroare]]
+- [[#Mesaje omise]]
+- [[#Mesaje de cont]]
 
-You can filter the Sync log by **All**, **Errors**, **Skipped**, and **Merge Conflicts**. Additionally, you can search the Sync log using the search box in the Sync window.
+Poți filtra jurnalul Sync după **Toate**, **Erori**, **Omise** și **Conflicte de îmbinare**. În plus, poți căuta în jurnalul Sync folosind caseta de căutare din fereastra Sync.
 
-> [!summary] We have included some of the likely messages you have come across below. The list is not exhaustive. If you are experiencing an issue and have a sync log message you are not sure about, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> [!summary] Am inclus mai jos câteva dintre mesajele posibile pe care le-ai putea întâlni. Lista nu este exhaustivă. Dacă întâmpini o problemă și ai un mesaj din jurnalul Sync de care nu ești sigur, [[Help and support#Contact Obsidian support|contactează asistența Obsidian]].
 
-### General messages
+### Mesaje generale
 
-These are common day-to-day messages you might encounter. 
+Acestea sunt mesaje comune, întâlnite zi de zi.
 
-**Connecting to server**  
-Obsidian is trying to connect to your remote vault's [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Sync server]].
+**Se conectează la server**  
+Obsidian încearcă să se conecteze la [[Obsidian Sync/Security and privacy#Unde pot găsi serverul meu Sync curent și unde este găzduit?|serverul Sync]] al seifului tău la distanță.
 
-**Connected to server. Detecting changes...**  
-Obsidian has established a connection and is comparing the local vault with the remote vault to determine if changes are needed.
+**Conectat la server. Se detectează modificările...**  
+Obsidian a stabilit o conexiune și compară seiful local cu seiful la distanță pentru a determina dacă sunt necesare modificări.
 
-> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> [!info] Acest mesaj poate indica, de asemenea, alte probleme Sync potențiale. Dacă îl vezi în mod repetat și crezi că mai sunt elemente de sincronizat, [[Help and support#Contact Obsidian support|contactează asistența Obsidian]].
 
-**Fully synced**  
-- The local and remote vaults are fully synchronized.
+**Sincronizat complet**  
+- Seifurile local și la distanță sunt complet sincronizate.
 
-**Merging conflicted file**  
-A conflict was detected during syncing, and the file was merged rather than overwritten. See [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for more information. If the merge is unwanted, you can restore previous versions via [[Version history]] or [[File recovery]].
+**Se îmbină fișierul aflat în conflict**  
+A fost detectat un conflict în timpul sincronizării, iar fișierul a fost îmbinat în loc să fie suprascris. Consultă [[Troubleshoot Obsidian Sync#Rezolvarea conflictelor|rezolvarea conflictelor]] pentru mai multe informații. Dacă îmbinarea este nedorită, poți restaura versiuni anterioare prin [[Version history]] sau [[File recovery]].
 
-**Rejected server change**  
-The changes on the remote vault are older than the version on your local device, so the local version is kept and the remote change is ignored. 
+**Modificare de server respinsă**  
+Modificările din seiful la distanță sunt mai vechi decât versiunea de pe dispozitivul tău local, așa că versiunea locală este păstrată, iar modificarea de la distanță este ignorată.
 
-### Error messages
+### Mesaje de eroare
 
-These are messages detailing an error in syncing a file.
+Acestea sunt mesaje care detaliază o eroare la sincronizarea unui fișier.
 
-**Out of memory**  
-This issue typically occurs on mobile devices when there isn't enough storage space or memory available to download a file. It's most common with large files, such as videos.
+**Memorie insuficientă**  
+Această problemă apare de obicei pe dispozitivele mobile atunci când nu există suficient spațiu de stocare sau memorie disponibilă pentru a descărca un fișier. Este cel mai frecventă la fișierele mari, precum videoclipurile.
 
-### Skipped messages
+### Mesaje omise
 
-These are messages detailing what was skipped, and potentially why. 
+Acestea sunt mesaje care detaliază ce a fost omis și, posibil, de ce.
 
-**Unable to download file with illegal name**
+**Fișierul nu poate fi descărcat din cauza unui nume nevalid**
 
-The file name uses a [special character or naming convention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) that the receiving operating system cannot store. Rename the file on its source device, then let Sync upload the renamed file again.
+Numele fișierului folosește un [caracter special sau o convenție de denumire](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) pe care sistemul de operare destinatar nu îl poate stoca. Redenumește fișierul pe dispozitivul sursă, apoi lasă Sync să încarce din nou fișierul redenumit.
 
-For vaults synced across different operating systems, avoid the following in file and folder names:
+Pentru seifurile sincronizate pe diferite sisteme de operare, evită următoarele în numele de fișiere și directoare:
 
-- Characters commonly reserved by file systems, such as `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, and `|`
-- A space or period at the end of the name
-- Windows reserved device names, such as `CON`, `PRN`, `AUX`, `NUL`, `COM1` through `COM9`, or `LPT1` through `LPT9`
-- Characters Obsidian uses for links, such as `#`, `^`, `[`, and `]`, if you want link-friendly note names
-- Multiple periods `.` in a file name, or emoji, both of which some Android devices may reject
+- Caractere frecvent rezervate de sistemele de fișiere, precum `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` și `|`
+- Un spațiu sau punct la finalul numelui
+- Nume de dispozitive rezervate de Windows, precum `CON`, `PRN`, `AUX`, `NUL`, `COM1` până la `COM9` sau `LPT1` până la `LPT9`
+- Caractere pe care Obsidian le folosește pentru legături, precum `#`, `^`, `[` și `]`, dacă dorești nume de note compatibile cu legăturile
+- Mai multe puncte `.` într-un nume de fișier, sau emoji, ambele fiind posibil respinse de unele dispozitive Android
 
-When in doubt, use letters, numbers, regular spaces inside the name, hyphens `-`, underscores `_`, and one period before the file extension.
+Dacă ai dubii, folosește litere, cifre, spații obișnuite în interiorul numelui, cratime `-`, underscore `_` și un singur punct înainte de extensia fișierului.
 
-### Account messages
+### Mesaje de cont
 
-These are messages related to a change in your subscription or account. 
+Acestea sunt mesaje legate de o modificare a abonamentului sau contului tău.
 
-**Vault limit exceeded**  
-Your account has exceeded the [[Frequently asked questions#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
+**Limita seifului a fost depășită**  
+Contul tău a depășit [[Frequently asked questions#Cât de mare poate fi fiecare seif la distanță|dimensiunea maximă de stocare]]. Atașamentele și istoricul versiunilor contribuie la această dimensiune. Chiar dacă seiful tău pare mai mic decât limita, versiunile mai vechi și fișierele îl pot depăși.
 
-To reduce vault size:
-1. Open **[[Settings]] → Sync**.
-2. Use the options under **Vault size over limit** to remove large files.
+Pentru a reduce dimensiunea seifului:
+1. Deschide **[[Settings]] → Sync**.
+2. Folosește opțiunile de la **Dimensiunea seifului depășește limita** pentru a elimina fișierele mari.
 
-**Vault not found**  
+**Seif negăsit**  
 `{"res":"err","msg":"Vault not found."}`
 
-This error may occur in these cases:
+Această eroare poate apărea în următoarele cazuri:
 
-1. The vault was deleted from another device.
-2. The sync subscription was inactive for over 30 days, causing the remote vault to be removed.
-3. The subscription was canceled or refunded, resulting in the remote vault's deletion.
+1. Seiful a fost șters de pe alt dispozitiv.
+2. Abonamentul Sync a fost inactiv timp de peste 30 de zile, ceea ce a cauzat eliminarea seifului la distanță.
+3. Abonamentul a fost anulat sau rambursat, rezultând în ștergerea seifului la distanță.
  
-In these cases, you'll need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
+În aceste cazuri, va trebui să te [[Set up Obsidian Sync#Deconectează-te de la un seif la distanță|deconectezi de la seiful la distanță]] și să [[Set up Obsidian Sync#Creează un nou seif la distanță|creezi un nou seif la distanță]], asigurându-te că datele tale locale sunt păstrate.
 
-**Failed to authenticate: Your subscription to Obsidian Sync has expired**  
-Your account is now in a fully expired status as we were unable to process the payment on file. 
+**Autentificare eșuată: Abonamentul tău la Obsidian Sync a expirat**  
+Contul tău este acum într-o stare complet expirată, deoarece nu am putut procesa plata înregistrată.
 
-To continue using Obsidian Sync, you will need to resubscribe within [your account](https://obsidian.md/account/sync).
+Pentru a continua să folosești Obsidian Sync, va trebui să te reabonezi din [contul tău](https://obsidian.md/account/sync).
 
-**Failed to authenticate: Not logged in**
+**Autentificare eșuată: Neautentificat**
 
-Obsidian Sync has detected that you are not currently logged in. You will need to log back in on the app in the [[Settings#General#Account|Account]] section of **[[Settings]]**.
+Obsidian Sync a detectat că nu ești autentificat în prezent. Va trebui să te autentifici din nou în aplicație, în secțiunea [[Settings#General#Account|Cont]] din **[[Settings]]**.
 
-In some cases, a community plugin can also prevent Obsidian Sync from being able to confirm your account's login status. Please enter **[[Plugin security#Restricted mode|Restricted mode]]** and try again. 
+În unele cazuri, un modul comunitar poate, de asemenea, împiedica Obsidian Sync să poată confirma starea de autentificare a contului tău. Te rugăm să activezi **[[Plugin security#Restricted mode|Modul restricționat]]** și să încerci din nou.
 
-### Network messages
+### Mesaje de rețea
 
-**Disconnected from server**
+**Deconectat de la server**
 `Unable to connect to server`
 
-Obsidian Sync has disconnected from the Sync server for an unknown reason. Sync will attempt to reconnect to the server periodically.
+Obsidian Sync s-a deconectat de la serverul Sync dintr-un motiv necunoscut. Sync va încerca să se reconecteze periodic la server.
 
-On iOS, this message displays as the following error:
+Pe iOS, acest mesaj apare sub forma următoarei erori:
 `Null is not an object (evaluating 'this.socket.send')`
 
-It means exactly the same as the `Unable to connect to server` message, and is not in any way indication that something else is wrong. 
+Are exact aceeași semnificație ca mesajul `Unable to connect to server` și nu indică în niciun fel că altceva ar fi în neregulă.

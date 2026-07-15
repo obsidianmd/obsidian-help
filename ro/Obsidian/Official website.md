@@ -1,10 +1,9 @@
 ---
-localized: null
 permalink: official-site
 ---
-Obsidian’s official website is at https://obsidian.md
+Site-ul oficial al Obsidian este https://obsidian.md
 
-There you can:
+Acolo poți:
 
-- [Download](https://obsidian.md/download) the latest installer if your installer version is old.
-- Register an account, and access your [account dashboard](https://obsidian.md/account), if you want to purchase [[Catalyst license]], [[Commercial license]], [[Introduction to Obsidian Sync|Obsidian Sync]], or [[Introduction to Obsidian Publish|Obsidian Publish]].
+- [Descărca](https://obsidian.md/download) cel mai recent instalator, dacă versiunea ta de instalare este veche.
+- Înregistra un cont și accesa [panoul contului tău](https://obsidian.md/account), dacă vrei să achiziționezi [[Catalyst license]], [[Commercial license]], [[Introduction to Obsidian Sync|Obsidian Sync]] sau [[Introduction to Obsidian Publish|Obsidian Publish]].

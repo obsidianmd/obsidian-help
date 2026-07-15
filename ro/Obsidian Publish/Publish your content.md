@@ -1,80 +1,79 @@
 ---
-localized: null
 permalink: publish/publish
 publish: true
 mobile: true
-description: Learn how to publish your content using Obsidian Publish
+description: Află cum să-ți publici conținutul folosind Obsidian Publish
 ---
 
-This page explains how to manage your published content. To learn how to customize your site's styling, see [[Customize your site]].
+Această pagină explică cum să-ți administrezi conținutul publicat. Pentru a afla cum să personalizezi stilul site-ului tău, vezi [[Customize your site|Personalizează-ți site-ul]].
 
-## Prerequisites
+## Cerințe prealabile
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
-- The **Publish** core plugin is [[Set up Obsidian Publish#Enable Obsidian Publish|enabled]].
-- A [[Manage sites#Create a new site|Publish site]] is created.
+- Un cont Obsidian. Dacă nu ai unul, [înscrie-te acum](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
+- Un abonament activ Obsidian Publish. Dacă nu ai unul, abonează-te din [tabloul de bord al contului tău](https://obsidian.md/account/publish).
+- Modulul integrat **Publish** este [[Set up Obsidian Publish#Enable Obsidian Publish|activat]].
+- Un [[Manage sites#Create a new site|site Publish]] este creat.
 
-## Publish notes
+## Publică note
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, select **NEW** to view all unpublished notes.
-3. Select the notes you want to publish.
-4. Select **Publish**.
+1. În **Panglică**, selectează **Publică schimbările** ![[lucide-send.svg#icon]].
+2. În fereastra de dialog **Publică schimbările**, selectează **NOU** pentru a vedea toate notele nepublicate.
+3. Selectează notele pe care vrei să le publici.
+4. Selectează **Publică**.
 
-## Unpublish notes
+## Anulează publicarea notelor
 
-Notes remain in your local vault even after you unpublish them.
+Notele rămân în seiful tău local chiar și după ce anulezi publicarea lor.
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, select **UNCHANGED** to view all published notes.
-3. Select the notes you want to unpublish.
-4. Select **Publish**.
+1. În **Panglică**, selectează **Publică schimbările** ![[lucide-send.svg#icon]].
+2. În fereastra de dialog **Publică schimbările**, selectează **NESCHIMBAT** pentru a vedea toate notele publicate.
+3. Selectează notele a căror publicare vrei să o anulezi.
+4. Selectează **Publică**.
 
-## Update a published note
+## Actualizează o notă publicată
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, select **CHANGED** to view all modified notes since the last publish.
-3. Select the notes you want to update.
-4. Select **Publish**.
+1. În **Panglică**, selectează **Publică schimbările** ![[lucide-send.svg#icon]].
+2. În fereastra de dialog **Publică schimbările**, selectează **SCHIMBAT** pentru a vedea toate notele modificate de la ultima publicare.
+3. Selectează notele pe care vrei să le actualizezi.
+4. Selectează **Publică**.
 
-> [!hint] Deleting renamed or removed notes and images from Publish happens in this step. You must manually select the checkbox to delete this data, as it is not automatically selected for safety.
+> [!hint] Ștergerea notelor și imaginilor redenumite sau eliminate din Publish se întâmplă la acest pas. Trebuie să bifezi manual căsuța pentru a șterge aceste date, deoarece nu este selectată automat din motive de siguranță.
 
-## Publish linked data
+## Publică date conectate
 
-When publishing notes containing links to other notes or embedded images, broken links may occur unless the linked notes are also published. **Obsidian Publish** helps prevent this by automatically selecting media linked from the notes you’ve already chosen.
+Când publici note care conțin legături către alte note sau imagini încorporate, pot apărea legături întrerupte, cu excepția cazului în care sunt publicate și notele conectate. **Obsidian Publish** ajută la prevenirea acestui lucru, selectând automat fișierele media conectate la notele pe care le-ai ales deja.
 
-To include all linked notes, select **Add linked** in the **Publish changes** dialog.
+Pentru a include toate notele conectate, selectează **Adaugă legătură** în fereastra de dialog **Publică schimbările**.
 
-Before publishing, review the updated selection to ensure it doesn’t include any data you’re not ready to publish.
+Înainte de a publica, revizuiește selecția actualizată pentru a te asigura că nu include date pe care nu ești pregătit să le publici.
 
-> [!tip] The **Add linked** function respects any exclusions defined in [[#Ignore data]].
+> [!tip] Funcția **Adaugă legătură** respectă orice excludere definită în [[#Ignoră date]].
 
-## Automatically select data to publish
+## Selectează automat datele de publicat
 
-Set `publish: true` in the [[Properties]] of a note to automatically include it for publishing as either a new or changed note.
+Setează `publish: true` în [[Properties|Proprietățile]] unei note pentru a o include automat pentru publicare, fie ca notă nouă, fie ca notă schimbată.
 
-You can also automatically select notes and linked images in specific folders by adding them as **Included** folders:
+Poți selecta automat și note și imagini conectate din directoare specifice, adăugându-le ca directoare **Incluse**:
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** ![[lucide-filter.svg#icon]] icon.
-3. In the **Included folders** section, select **Manage**.
-4. Choose the folders you want to include from the suggester.
-5. The folder is added to the included list.
-6. Select **Done** when finished.
+1. În **Panglică**, selectează **Publică schimbările** ![[lucide-send.svg#icon]] sau deschide [[Command palette|Paleta de comenzi]] și scrie **Publish: Publish changes...**.
+2. Selectează pictograma **Gestionează filtrele de publicare** ![[lucide-filter.svg#icon]].
+3. În secțiunea **Directoare incluse**, selectează **Gestionează**.
+4. Alege directoarele pe care vrei să le incluzi din sugestii.
+5. Directorul este adăugat la lista de includere.
+6. Selectează **Gata** când ai terminat.
 
-### Ignore data
+### Ignoră date
 
-To ignore a note in Obsidian Publish, set `publish: false` in the [[Properties]] of the note. The note no longer appears in the list of notes to publish.
+Pentru a ignora o notă în Obsidian Publish, setează `publish: false` în [[Properties|Proprietățile]] notei. Nota nu va mai apărea în lista notelor de publicat.
 
-You can also auto-ignore notes and images in specific folders by adding them as **Excluded** folders:
+Poți ignora automat și note și imagini din directoare specifice, adăugându-le ca directoare **Excluse**:
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** ![[lucide-filter.svg#icon]] icon.
-3. In the **Excluded folders** section, select **Manage**.
-4. Choose the folders you want to exclude from the suggester.
-5. The folder is added to the excluded list.
-6. Select **Done** when finished.
+1. În **Panglică**, selectează **Publică schimbările** ![[lucide-send.svg#icon]] sau deschide [[Command palette|Paleta de comenzi]] și scrie **Publish: Publish changes...**.
+2. Selectează pictograma **Gestionează filtrele de publicare** ![[lucide-filter.svg#icon]].
+3. În secțiunea **Directoare excluse**, selectează **Gestionează**.
+4. Alege directoarele pe care vrei să le excluzi din sugestii.
+5. Directorul este adăugat la lista de excludere.
+6. Selectează **Gata** când ai terminat.
 
-> [!note] `publish: true` overrides excluded folders
-> If a file has `publish: true`, it will still be published even if it is in a folder or filter that is excluded. This is because `publish: true` gives more specific control.
+> [!note] `publish: true` are prioritate față de directoarele excluse
+> Dacă un fișier are `publish: true`, va fi publicat totuși chiar dacă se află într-un director sau filtru exclus. Acest lucru se întâmplă deoarece `publish: true` oferă un control mai specific.

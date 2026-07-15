@@ -1,32 +1,31 @@
 ---
-localized: null
 permalink: drag-and-drop
 ---
-There are many ways to drag and drop elements in Obsidian. This includes tabs, files, folders, and content.
+Există multe modalități de a trage și plasa elemente în Obsidian. Acestea includ file, fișiere, directoare și conținut.
 
-### Drag tabs
+### Tragerea filelor
 
-- You can [[Tabs#Arrange tabs|arrange tabs]] and split tab groups in the main content area and in [[Sidebar|sidebars]].
+- Puteți [[Tabs#Rearanjarea filelor|rearanja filele]] și împărți grupurile de file în zona principală de conținut și în [[Sidebar|barele laterale]].
 
-### Drag sources
+### Surse de tragere
 
-- You can drag a file, or multiple files from the [[file explorer]].
-- You can drag a file from a [[search]] result.
-- You can drag a file from [[backlinks]] or unlinked references.
-- You can drag a file from a link inside the note, in preview mode.
+- Puteți trage un fișier sau mai multe fișiere din [[file explorer]].
+- Puteți trage un fișier dintr-un rezultat al [[search]].
+- Puteți trage un fișier din [[backlinks]] sau din mențiuni nelegate.
+- Puteți trage un fișier dintr-o legătură aflată în interiorul notei, în modul de previzualizare.
 
-### Drop destinations
+### Destinații de plasare
 
-- You can drop a file on a tab header to open the file there. Hold `Alt` (or `Shift` on macOS) to drop anywhere in the tab.
-- You can drop a file on a folder in the [[file explorer]] to move the file there.
-- You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using Markdown links.
-- You can drop a file on the [[Bookmarks]] tab to bookmark it.
+- Puteți plasa un fișier pe antetul unei file pentru a-l deschide acolo. Țineți apăsat `Alt` (sau `Shift` pe macOS) pentru a-l plasa oriunde în filă.
+- Puteți plasa un fișier pe un director din [[file explorer]] pentru a muta fișierul acolo.
+- Puteți plasa un fișier într-un editor pentru a-l insera ca legătură. Legătura generată respectă și preferințele dvs., cum ar fi căile relative sau utilizarea legăturilor Markdown.
+- Puteți plasa un fișier pe fila [[Bookmarks]] pentru a-l adăuga la marcaje.
 
-### Dragging from outside Obsidian
+### Tragerea din afara Obsidian
 
-- You can drag any HTML content from the browser into Obsidian to automatically convert them into Markdown
-- You can drag and drop any files from your native file explorer to have Obsidian import (make a copy of) those files in your vault's attachment folder and insert them as internal links. Hold `Ctrl` on Windows/Linux or `Option` on macOS to create `file:///` absolute links to those files instead of importing a copy.
+- Puteți trage orice conținut HTML din browser în Obsidian pentru a-l converti automat în Markdown
+- Puteți trage și plasa orice fișiere din exploratorul de fișiere nativ al sistemului dvs. pentru ca Obsidian să importe (să facă o copie a) acele fișiere în directorul de atașamente al seifului dvs. și să le insereze ca legături interne. Țineți apăsat `Ctrl` pe Windows/Linux sau `Option` pe macOS pentru a crea în schimb legături absolute `file:///` către acele fișiere, în loc să importați o copie.
 
-### Dropping files outside Obsidian
+### Plasarea fișierelor în afara Obsidian
 
-- This creates an `obsidian://` URL in the external application for the Obsidian note that you dragged.
+- Aceasta creează un URL `obsidian://` în aplicația externă pentru nota Obsidian pe care ați tras-o.

@@ -1,7 +1,6 @@
 ---
-localized: null
 permalink: plugins/footnotes
 ---
-Footnotes view is a [[Core plugins|core plugin]] that lists all footnotes in the active note.
+Footnotes view este un [[Core plugins|modul integrat]] care listează toate notele de subsol din nota activă.
 
-Click a footnote to edit its text. You can also navigate to the footnote's position in the note.
+Dă clic pe o notă de subsol pentru a-i edita textul. Poți naviga și la poziția notei de subsol în cadrul notei.

@@ -1,49 +1,48 @@
 ---
-localized: null
 permalink: configuration-folder
 publish: true
 mobile: true
-description: Learn how to access and manage your configuration folder on desktop and mobile devices.
+description: Aflați cum să accesați și să gestionați directorul de configurare pe desktop și pe dispozitivele mobile.
 ---
 
-Obsidian's configuration folder contains all the settings files pertaining to your [[Manage vaults|vault]].
+Directorul de configurare al Obsidian conține toate fișierele de setări aferente [[Manage vaults|seifului]] dumneavoastră.
 
-By default, your configuration folder is named `.obsidian` and placed in the vault folder. When using a syncing service, or if you wish to test different profiles in the same vault, you may want to change your config folder. 
+Implicit, directorul de configurare se numește `.obsidian` și este plasat în directorul seifului. Când folosiți un serviciu de sincronizare sau dacă doriți să testați profiluri diferite în același seif, este posibil să doriți să schimbați directorul de configurare.
 
-## Access your configuration folder
+## Accesați directorul de configurare
 
 ### Desktop
 
-On desktop, the `.obsidian` folder is located in your vault folder. You can access it through your system file manager.
+Pe desktop, directorul `.obsidian` este localizat în directorul seifului. Îl puteți accesa prin managerul de fișiere al sistemului.
 
-### Mobile
+### Mobil
 
-Accessing the configuration folder differs by platform:
+Accesarea directorului de configurare diferă în funcție de platformă:
 
-**iOS and iPadOS**
+**iOS și iPadOS**
 
-There is no default way to access the `.obsidian` folder on iOS or iPadOS. To view and edit hidden files and folders, you'll need a third-party app such as:
+Nu există o modalitate implicită de a accesa directorul `.obsidian` pe iOS sau iPadOS. Pentru a vizualiza și edita fișiere și directoare ascunse, veți avea nevoie de o aplicație terță precum:
 
-- **Taio** — Free app with basic features for viewing and editing folder and file names.
-- **Textastic** — Paid app with advanced file editing capabilities.
+- **Taio** — aplicație gratuită cu funcții de bază pentru vizualizarea și editarea numelor de directoare și fișiere.
+- **Textastic** — aplicație contra cost cu funcții avansate de editare a fișierelor.
 
 **Android**
 
-To access the `.obsidian` folder on Android:
+Pentru a accesa directorul `.obsidian` pe Android:
 
-1. Open your system file manager.
-2. Enable the "Show hidden files" toggle in the settings.
-3. Navigate to your vault folder. The `.obsidian` folder will appear at the top level.
+1. Deschideți managerul de fișiere al sistemului.
+2. Activați comutatorul „Afișează fișierele ascunse” din setări.
+3. Navigați la directorul seifului dumneavoastră. Directorul `.obsidian` va apărea la nivelul superior.
 
-> [!tip]- Alternative file managers
-> If your default file manager doesn't have a "Show hidden files" option, install a file manager app that includes this feature.
+> [!tip]- Manageri de fișiere alternativi
+> Dacă managerul de fișiere implicit nu are opțiunea „Afișează fișierele ascunse”, instalați o aplicație de gestionare a fișierelor care include această funcție.
 
-## Change your configuration folder
+## Schimbați directorul de configurare
 
-To set your config folder:
+Pentru a seta directorul de configurare:
 
-1. Open **[[Settings]] → Files and Links**.
-2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-awesome`.
-3. Relaunch Obsidian to have the changes take effect. 
+1. Deschideți **[[Settings]] → Fișiere și legături**.
+2. La **Suprascrie directorul de configurare**, introduceți numele profilului dumneavoastră, începând cu un punct (`.`). De exemplu, `.obsidian-awesome`.
+3. Relansați Obsidian pentru ca modificările să intre în vigoare.
 
-> [!info] Any settings within your config folder will not transfer to your new config folder. However, your prior config folder will remain within your vault folder.
+> [!info] Setările din directorul dumneavoastră de configurare nu vor fi transferate în noul director de configurare. Totuși, directorul de configurare anterior va rămâne în directorul seifului dumneavoastră.

@@ -1,35 +1,34 @@
 ---
-localized: null
 permalink: teams/publish
 cssclasses:
   - soft-embed
 ---
-Obsidian makes it easy to create and edit wikis, knowledge bases, documentation, and other types of websites. It can be used as an editing tool or CMS for both internal and external sites.
+Obsidian facilitează crearea și editarea de wiki-uri, baze de cunoștințe, documentație și alte tipuri de site-uri web. Poate fi folosit ca instrument de editare sau CMS atât pentru site-uri interne, cât și externe.
 
-## Publishing tools and services
+## Instrumente și servicii de publicare
 
-You can create public and private sites using the official [[Introduction to Obsidian Publish|Obsidian Publish]] service, and publish directly from the Obsidian app.
+Puteți crea site-uri publice și private folosind serviciul oficial [[Introduction to Obsidian Publish|Obsidian Publish]] și puteți publica direct din aplicația Obsidian.
 
-Obsidian also works with a variety of third-party publishing tools. Obsidian is compatible with most static site generators (SSGs) such as Jekyll, Hugo, Astro, and Quartz. Community plugins allow you to publish to other services such as Confluence, Jira, and more.
+Obsidian funcționează, de asemenea, cu o varietate de instrumente de publicare terțe. Obsidian este compatibil cu majoritatea generatoarelor de site-uri statice (SSG), precum Jekyll, Hugo, Astro și Quartz. Modulele comunitare vă permit să publicați către alte servicii, precum Confluence, Jira și altele.
 
-## Advanced collaboration for Obsidian Publish
+## Colaborare avansată pentru Obsidian Publish
 
-For more information on setting up an [[Introduction to Obsidian Publish|Obsidian Publish]] site, please review the following articles:
+Pentru mai multe informații despre configurarea unui site [[Introduction to Obsidian Publish|Obsidian Publish]], consultați următoarele articole:
 
 - [[Introduction to Obsidian Publish]]
 - [[Collaborate on a Publish site]]
 - [[Publish limitations]]
 
-If you are part of a larger team, you may need to pair Obsidian Publish with a more advanced version control system, such as Git. You can combine Publish with an external version control system, or use it in conjunction with a syncing service like [[Introduction to Obsidian Sync|Obsidian Sync]] to keep changes in sync across multiple users.
+Dacă faceți parte dintr-o echipă mai mare, s-ar putea să fie nevoie să combinați Obsidian Publish cu un sistem de control al versiunilor mai avansat, cum ar fi Git. Puteți combina Publish cu un sistem extern de control al versiunilor sau îl puteți folosi împreună cu un serviciu de sincronizare precum [[Introduction to Obsidian Sync|Obsidian Sync]] pentru a menține modificările sincronizate între mai mulți utilizatori.
 
-For example, this documentation site is hosted and Obsidian Publish and version control is managed via a public [GitHub repository](https://github.com/obsidianmd/obsidian-help).
+De exemplu, acest site de documentație este găzduit pe Obsidian Publish, iar controlul versiunilor este gestionat printr-un [depozit GitHub](https://github.com/obsidianmd/obsidian-help) public.
 
 ### Media
 
-Obsidian Publish is designed to primarily process plain text files and smaller images, presenting them on a website for viewing. Obsidian Publish is not designed to host large file size media, such as high-resolution image galleries and videos. For this we recommend hosting your assets on a dedicated CDN.
+Obsidian Publish este conceput în principal pentru a procesa fișiere text simplu și imagini de dimensiuni mai mici, prezentându-le pe un site web pentru vizualizare. Obsidian Publish nu este conceput pentru a găzdui conținut media de dimensiuni mari, precum galerii de imagini de înaltă rezoluție și materiale video. Pentru aceasta vă recomandăm să găzduiți resursele pe un CDN dedicat.
 
-### Frequently asked questions
+### Întrebări frecvente
 
-**Does every employee need to purchase a Publish subscription?**
-No. Only the site owner needs to purchase an Obsidian Publish subscription.
+**Fiecare angajat trebuie să achiziționeze un abonament Publish?**
+Nu. Doar proprietarul site-ului trebuie să achiziționeze un abonament Obsidian Publish.
 

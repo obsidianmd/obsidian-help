@@ -1,52 +1,51 @@
 ---
-localized: null
 permalink: import/onenote
 ---
-Obsidian lets you easily migrate your notes from Microsoft OneNote using the [[Importer|Importer plugin]]. This will convert your OneNote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi cu ușurință notele din Microsoft OneNote folosind [[Importer|modulul Importer]]. Acest lucru îți va converti datele din OneNote în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
-> [!Warning]
-> Only notebooks owned by your personal account can be imported. Shared notes, or accounts from work and school accounts are not supported.
+> [!Warning] Avertisment
+> Pot fi importate doar notebook-urile deținute de contul tău personal. Notele partajate sau conturile de serviciu ori de școală nu sunt acceptate.
 
-## Import your OneNote data into Obsidian
+## Importă-ți datele din OneNote în Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Microsoft OneNote**.
-6. Click **Sign in** to open your web browser to the Microsoft sign-in page. Enter the credentials for your Microsoft account which contains your OneNote Notebooks. More information about the Microsoft sign-in process is available below.
-7. Click **Accept** to grant Obsidian permission to view your OneNote Notebooks.
-8. Click **Open Link** to allow your browser to redirect you to the Obsidian app.
-9. In the Obsidian app, the Importer dialog will now display that you are signed in and list your OneNote Notebooks and Sections. Check the sections you wish to import.
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** alege **Microsoft OneNote**.
+6. Apasă **Sign in** pentru a deschide browserul web la pagina de autentificare Microsoft. Introdu datele de autentificare pentru contul tău Microsoft care conține notebook-urile OneNote. Mai multe informații despre procesul de autentificare Microsoft sunt disponibile mai jos.
+7. Apasă **Accept** pentru a acorda Obsidian permisiunea de a vedea notebook-urile tale OneNote.
+8. Apasă **Open Link** pentru a permite browserului tău să te redirecționeze către aplicația Obsidian.
+9. În aplicația Obsidian, fereastra de dialog Importer va afișa acum că ești autentificat și va lista notebook-urile și secțiunile tale OneNote. Bifează secțiunile pe care dorești să le imporți.
 
 ![[OneNote-Importer-Select-Sections.png]]
 
-10. Click **Import** and wait until import is complete.
-11. You're done!
+10. Apasă **Importă** și așteaptă până când importul este finalizat.
+11. Ai terminat!
 
-## Troubleshooting
+## Depanare
 
-### No sections or notebooks appear
+### Nu apar secțiuni sau notebook-uri
 
-Make sure that the notebooks you're trying to import are synced to OneDrive and visible in OneNote Web. They must be owned by you (shared notebooks written by others are unsupported).
+Asigură-te că notebook-urile pe care încerci să le imporți sunt sincronizate cu OneDrive și vizibile în OneNote Web. Trebuie să fie deținute de tine (notebook-urile partajate scrise de alții nu sunt acceptate).
 
-If a specific section is missing, make sure it's not a locked section — those are invisible without removing the lock first.
+Dacă lipsește o anumită secțiune, asigură-te că nu este o secțiune blocată — acestea sunt invizibile fără a elimina mai întâi blocarea.
 
-### Imported notes are empty or missing content
+### Notele importate sunt goale sau lipsesc conținut
 
-This issue may occur on notebooks that you rarely use. To solve the issue follow these steps:
+Această problemă poate apărea la notebook-urile pe care le folosești rar. Pentru a rezolva problema, urmează acești pași:
 
-1. Open [OneNote Web](https://onenote.com/notebooks) in your browser.
-2. **Right click** on the Notebooks which are missing content.
-3. Select **Export Notebook** from the menu.
-4. **Unzip** the file you've just downloaded into a folder.
-5. Upload your OneNote notebooks [here](https://www.onenote.com/notebooks/exportimport?toImport=true).
-6. Open **Obsidian Importer** and try importing again
+1. Deschide [OneNote Web](https://onenote.com/notebooks) în browserul tău.
+2. Apasă **clic dreapta** pe notebook-urile cărora le lipsește conținut.
+3. Selectează **Export Notebook** din meniu.
+4. **Dezarhivează** fișierul pe care tocmai l-ai descărcat, într-un director.
+5. Încarcă notebook-urile tale OneNote [aici](https://www.onenote.com/notebooks/exportimport?toImport=true).
+6. Deschide **Obsidian Importer** și încearcă din nou importul
 
-If you've followed these tips and your issue remains unresolved, it's possible that there is a temporary problem with Microsoft servers. If that's the case, wait a few minutes and try again. If the problem persists, please open an issue on the [Obsidian Importer GitHub repository](https://github.com/obsidianmd/obsidian-importer/issues).
+Dacă ai urmat aceste sfaturi și problema persistă, este posibil să existe o problemă temporară cu serverele Microsoft. Dacă este cazul, așteaptă câteva minute și încearcă din nou. Dacă problema persistă, deschide o problemă pe [depozitul GitHub al Obsidian Importer](https://github.com/obsidianmd/obsidian-importer/issues).
 
-## Privacy
+## Confidențialitate
 
-The Obsidian Importer plugin uses [OAuth](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) to authenticate with your Microsoft account and import your OneNote notebooks. This grants a short term access token to your account which is used only from your computer and is never stored. After the import completes you may optionally revoke the token from the [Microsoft apps & services page](https://account.live.com/consent/Manage). 
+Modulul Obsidian Importer folosește [OAuth](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) pentru a se autentifica cu contul tău Microsoft și a importa notebook-urile tale OneNote. Acest lucru acordă un token de acces pe termen scurt către contul tău, care este folosit doar de pe computerul tău și nu este niciodată stocat. După finalizarea importului, poți opțional să revoci token-ul din [pagina Microsoft apps & services](https://account.live.com/consent/Manage). 

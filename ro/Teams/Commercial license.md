@@ -1,82 +1,81 @@
 ---
-localized: null
 permalink: teams/license
 ---
-Obsidian is free to use and is 100% user-supported. Organizations can choose to support Obsidian by purchasing Commercial licenses.
+Obsidian este gratuit de utilizat și este susținut 100% de utilizatori. Organizațiile pot alege să susțină Obsidian achiziționând licențe comerciale.
 
-Organizations that support Obsidian can be featured on our [Enterprise page](https://obsidian.md/enterprise/) by purchasing 25 or more licenses.
+Organizațiile care susțin Obsidian pot fi prezentate pe [pagina noastră Enterprise](https://obsidian.md/enterprise/) achiziționând 25 sau mai multe licențe.
 
-Commercial licenses **are not** eligible for a refund per our [[Refund policy]].
+Licențele comerciale **nu sunt** eligibile pentru rambursare conform [[Refund policy|politicii noastre de rambursare]].
 
-## Purchase a commercial license
+## Achiziționați o licență comercială
 
-Obsidian offers two methods for [purchasing](https://obsidian.md/pricing) a commercial license.
+Obsidian oferă două metode de [achiziție](https://obsidian.md/pricing) a unei licențe comerciale.
 
-**Purchasing using an Obsidian account**
+**Achiziție folosind un cont Obsidian**
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account/commercial).
-2. Go to the **License** section.
-3. Click **Buy license** and select the number of seats to purchase.
-4. Complete the payment process.
-5. Your license key will be displayed and can be activated using the steps below.
+1. Autentificați-vă sau creați [contul dumneavoastră Obsidian](https://obsidian.md/account/commercial).
+2. Accesați secțiunea **License**.
+3. Faceți clic pe **Buy license** și selectați numărul de locuri de achiziționat.
+4. Finalizați procesul de plată.
+5. Cheia dumneavoastră de licență va fi afișată și poate fi activată urmând pașii de mai jos.
 
-If you need an invoice for this transaction, you can [[Introduction to licenses and payment#Generate an invoice|generate an invoice]].
+Dacă aveți nevoie de o factură pentru această tranzacție, puteți [[Introduction to licenses and payment#Generate an invoice|genera o factură]].
 
-**Purchasing using a purchase order**
+**Achiziție folosind o comandă de achiziție**
 
-For purchases using a purchase order (PO), contact [[Help and support#Contact Obsidian support|Obsidian support]].
+Pentru achiziții realizate printr-o comandă de achiziție (PO), contactați [[Help and support#Contact Obsidian support|asistența Obsidian]].
 
-Your PO must include:
+Comanda dumneavoastră de achiziție trebuie să includă:
 
-- Legal Name of Your Company ("bill to" name)
-- Billing Address
-- VAT Number (optional)
-- Payment Terms (default is NET 30 days)
-- PO/Reference Number
-- Delivery Email for Licenses
-- Invoice Email for POs
-- **Preferred Payment Method**: Wire/ACH, Credit Card, or PayPal
+- Denumirea legală a companiei dumneavoastră (numele „facturare către")
+- Adresa de facturare
+- Numărul de TVA (opțional)
+- Termenii de plată (implicit este NET 30 de zile)
+- Numărul comenzii de achiziție/referință
+- Adresa de e-mail pentru livrarea licențelor
+- Adresa de e-mail pentru factura aferentă comenzii de achiziție
+- **Metoda de plată preferată**: Transfer bancar/ACH, card de credit sau PayPal
 
-> [!info] Purchasing a commercial license does not include [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), or a [Catalyst license](https://obsidian.md/account/catalyst).
+> [!info] Achiziționarea unei licențe comerciale nu include [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish) sau o [licență Catalyst](https://obsidian.md/account/catalyst).
 
-## Apply a commercial license
+## Aplicați o licență comercială
 
-To optionally apply a commercial license to your Obsidian installation follow the steps below. Note that applying a commercial license does not provide any functional benefits within the app.
+Pentru a aplica opțional o licență comercială instalării dumneavoastră Obsidian, urmați pașii de mai jos. Rețineți că aplicarea unei licențe comerciale nu oferă niciun beneficiu funcțional în cadrul aplicației.
 
-1. Open the Obsidian app.
-2. Go to **[[Settings]] → General → Commercial license**.
-3. Click **Activate** and enter your license key.
-4. You're done! The app is now licensed for commercial use.
+1. Deschideți aplicația Obsidian.
+2. Accesați **[[Settings]] → General → Commercial license**.
+3. Faceți clic pe **Activate** și introduceți cheia de licență.
+4. Gata! Aplicația este acum licențiată pentru uz comercial.
 
-## Supporting organizations
+## Organizații susținătoare
 
-If your organization has purchased at least 25 commercial licenses, you can request to be featured as a [supporting organization](https://obsidian.md/enterprise/). If you would like your organization to be added or removed from the page, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+Dacă organizația dumneavoastră a achiziționat cel puțin 25 de licențe comerciale, puteți solicita să fiți prezentați ca [organizație susținătoare](https://obsidian.md/enterprise/). Dacă doriți ca organizația dumneavoastră să fie adăugată sau eliminată de pe pagină, vă rugăm să [[Help and support#Contact Obsidian support|contactați asistența Obsidian]].
 
-Your logo should be provided as an SVG file, filling a 32 by 32 pixel square, and using only white, with no background color.
+Logo-ul dumneavoastră trebuie furnizat ca fișier SVG, care umple un pătrat de 32 pe 32 de pixeli, folosind exclusiv culoarea albă, fără culoare de fundal.
 
-## Frequently asked questions
+## Întrebări frecvente
 
-**Can I buy a license for myself, or do I have to ask my company to buy it for me?**
-Yes. You can buy a license for yourself by going to your [Account dashboard](https://obsidian.md/account/commercial). Most companies allow you to submit an expense report for the purchase.
+**Pot cumpăra o licență pentru mine, sau trebuie să îi cer companiei mele să o cumpere pentru mine?**
+Da. Puteți cumpăra o licență pentru dumneavoastră accesând [panoul de control al contului](https://obsidian.md/account/commercial). Majoritatea companiilor vă permit să depuneți un raport de cheltuieli pentru achiziție.
 
-Some companies may have a different procurement process. Reach out to your IT department to determine their specific procedures. 
+Unele companii pot avea un proces de achiziție diferit. Contactați departamentul dumneavoastră IT pentru a afla procedurile specifice.
 
-**What business name should I use if I'm purchasing the license myself?**
-Use your company's name for the license if you expect to be reimbursed by your company. 
+**Ce denumire de companie ar trebui să folosesc dacă achiziționez licența eu însumi?**
+Folosiți numele companiei dumneavoastră pentru licență dacă vă așteptați să fiți rambursat de companie.
 
-Otherwise, use your legal name as the business name.
+În caz contrar, folosiți numele dumneavoastră legal ca denumire a companiei.
 
-**Can I purchase a commercial license for multiple employees?**
-Yes. You can purchase multiple commercial license seats through your [Account dashboard](https://obsidian.md/account/commercial). There is no need for each employee to have their own Obsidian account, you can use a single admin account to purchase all the seats.
+**Pot achiziționa o licență comercială pentru mai mulți angajați?**
+Da. Puteți achiziționa mai multe locuri de licență comercială prin [panoul de control al contului](https://obsidian.md/account/commercial). Nu este nevoie ca fiecare angajat să aibă propriul cont Obsidian, puteți folosi un singur cont de administrator pentru a achiziționa toate locurile.
 
-After purchasing the license, you will receive a license key which you can send to employees to activate their license — see instructions above to activate the license.
+După achiziționarea licenței, veți primi o cheie de licență pe care o puteți trimite angajaților pentru a-și activa licența — consultați instrucțiunile de mai sus pentru activarea licenței.
 
-**Am I required to purchase a commercial license for every employee?**
-No. Obsidian is 100% free to use and so there is no minimum seat count purchase required. 
+**Sunt obligat să achiziționez o licență comercială pentru fiecare angajat?**
+Nu. Obsidian este 100% gratuit de utilizat, așadar nu există un număr minim obligatoriu de locuri de achiziționat.
 
-**Can I use the commercial license I purchased on both my work phone and work computer?**
-Yes. The commercial license is charged per seat count, not per device. This means you can use the same license key on all your individual work devices.
+**Pot folosi licența comercială achiziționată atât pe telefonul de serviciu, cât și pe computerul de serviciu?**
+Da. Licența comercială este taxată pe număr de locuri, nu pe dispozitiv. Aceasta înseamnă că puteți folosi aceeași cheie de licență pe toate dispozitivele dumneavoastră individuale de serviciu.
 
-**I work in a highly secure environment, in an air-gapped network. How do I apply my commercial license?**
-In such specialized environments, you don't need to apply the commercial license directly to your installation.
+**Lucrez într-un mediu extrem de securizat, într-o rețea izolată (air-gapped). Cum aplic licența comercială?**
+În astfel de medii specializate, nu este nevoie să aplicați licența comercială direct pe instalarea dumneavoastră.
 

@@ -1,123 +1,122 @@
 ---
-localized: null
 permalink: glossary
 ---
-This glossary includes common Obsidian terminology.
+Acest glosar include termeni comuni din terminologia Obsidian.
 
-## Alias
+## Pseudonim
 
-An **alias** is a type of [[#property]] that defines alternative names for a [[#note]].
+Un **pseudonim** este un tip de [[#proprietate]] care definește nume alternative pentru o [[#notă]].
 
-## Attachment
+## Atașament
 
-An **attachment** is an [[Accepted file formats|accepted file format]] that was created outside of the vault and added later.
+Un **atașament** este un [[Accepted file formats|format de fișier acceptat]] care a fost creat în afara seifului și adăugat ulterior.
 
-## Command
+## Comandă
 
-A **command** is an action that can be performed either by selecting it from the [[Command palette]] or by assigning it to a [[#hotkey]].
+O **comandă** este o acțiune care poate fi efectuată fie selectând-o din [[Command palette]], fie asignând-o unei [[#combinație de taste]].
 
-## Embed
+## Încorporare
 
-**Embedding** means replacing a reference to external content with the content itself, for example to include an image in your note. See also [[Embed files]].
+**Încorporarea** înseamnă înlocuirea unei referințe către conținut extern cu conținutul propriu-zis, de exemplu pentru a include o imagine în nota dumneavoastră. Consultați și [[Embed files]].
 
 ## Frontmatter
 
-Frontmatter is a way to define [[#property|properties]] by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Properties#Property format|Property format]].
+Frontmatter este o modalitate de a defini [[#proprietate|proprietăți]] prin adăugarea de [YAML](https://yaml.org/) sau [JSON](https://www.json.org/) în partea de sus a notei. Consultați și [[Properties#Formatul proprietății|Formatul proprietății]].
 
-## Graph
+## Grafic
 
-A **graph** is a visualization that highlights connections between [[#note|notes]]. See also [[Graph view]].
+Un **grafic** este o reprezentare vizuală care evidențiază conexiunile dintre [[#notă|note]]. Consultați și [[Graph view]].
 
-## Hotkey
+## Combinație de taste
 
-A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Hotkeys]] and [[Hotkeys|How to/Use hotkeys]].
+O **combinație de taste** este o comandă rapidă de tastatură pentru o [[#comandă]]. Consultați și [[Hotkeys]] și [[Hotkeys|Cum să/Folosiți combinațiile de taste]].
 
-## Link
+## Legătură
 
-A **link** references another note or file. An [[Internal links|internal link]] points to a file located in the current vault. An [[Basic formatting syntax#External links|external link]] points to a location outside the vault, typically a web page.
+O **legătură** face referire la o altă notă sau la un alt fișier. O [[Internal links|legătură internă]] indică spre un fișier aflat în seiful curent. O [[Basic formatting syntax#External links|legătură externă]] indică spre o locație din afara seifului, de obicei o pagină web.
 
-## Main area
+## Zona principală
 
-The **main area** is the central area of the Obsidian app, where you primarily edit [[#note|notes]].
+**Zona principală** este zona centrală a aplicației Obsidian, unde vă editați în principal [[#notă|notele]].
 
 ## Markdown
 
-Markdown is a markup language for formatting text and the primary file format used for notes in Obsidian, `.md` files. See also [[Basic formatting syntax]].
+Markdown este un limbaj de marcare pentru formatarea textului și formatul principal de fișier folosit pentru note în Obsidian, fișierele `.md`. Consultați și [[Basic formatting syntax]].
 
-## Note
+## Notă
 
-A **note** is a Markdown file inside a [[#vault]].
+O **notă** este un fișier Markdown aflat într-un [[#seif]].
 
-## Plugin
+## Modul
 
-A **plugin** extends Obsidian with additional features.
+Un **modul** extinde Obsidian cu funcții suplimentare.
 
-- [[Core plugins]] are written by the Obsidian team and included by default.
-- [[Community plugins]] are written by third-party plugin developers and need to be [[Community plugins#Install a community plugin|installed]] before you can use them.
+- [[Core plugins|Modulele integrate]] sunt scrise de echipa Obsidian și incluse implicit.
+- [[Community plugins|Modulele comunitare]] sunt scrise de dezvoltatori terți și trebuie [[Community plugins#Instalarea unui modul comunitar|instalate]] înainte de a le putea folosi.
 
-You can [build your own plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Puteți [să vă creați propriul modul](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
-## Pop-out window
+## Fereastră detașată
 
-By default, all notes within a vault opens in the same app window. A **pop-out window** lets you open notes from the same vault in separate windows, for example to display on a second screen.
+Implicit, toate notele dintr-un seif se deschid în aceeași fereastră a aplicației. O **fereastră detașată** vă permite să deschideți note din același seif în ferestre separate, de exemplu pentru a le afișa pe un al doilea ecran.
 
-See also [[Pop-out windows]].
+Consultați și [[Pop-out windows]].
 
-## Property
+## Proprietate
 
-[[Properties|Properties]] define additional information about a note, such as a due date or author.
+[[Properties|Proprietățile]] definesc informații suplimentare despre o notă, cum ar fi o dată limită sau un autor.
 
-## Ribbon
+## Panglică
 
-The **ribbon** functions as a container for frequently used action icons. 
+**Panglica** funcționează ca un container pentru pictogramele de acțiuni utilizate frecvent.
 
-In the desktop version, it's the vertical area situated on the far left. 
+În versiunea pentru desktop, aceasta este zona verticală situată în extrema stângă.
 
-In the mobile version, it's represented by a menu button ![[lucide-menu.svg#icon]] on the [[#status bar|status bar]].
+În versiunea mobilă, este reprezentată de un buton de meniu ![[lucide-menu.svg#icon]] pe [[#bara de stare|bara de stare]].
 
-## Sidebar
+## Bară laterală
 
-An area that contains supporting [[#view|views]] organized as [[#tab|tabs]]. A sidebar can be split into multiple [[#tab group|tab groups]]. 
+O zonă care conține [[#vizualizare|vizualizări]] auxiliare organizate ca [[#filă|file]]. O bară laterală poate fi împărțită în mai multe [[#grup de file|grupuri de file]].
 
-Obsidian desktop has two sidebars, one on each side of the [[#main area]]. Both sidebars can be accessed by icons in the upper-left and upper-right corners in the Obsidian app, in addition to swiping left or right. The upper-right icon must be held to open the window.
+Obsidian pentru desktop are două bare laterale, câte una de fiecare parte a [[#zona principală]]. Ambele bare laterale pot fi accesate prin pictogramele din colțurile din stânga sus și dreapta sus ale aplicației Obsidian, pe lângă gestul de glisare la stânga sau la dreapta. Pictograma din dreapta sus trebuie ținută apăsată pentru a deschide fereastra.
 
-## Snippet
+## Fragment
 
-A **snippet**, or [[CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time.
+Un **fragment**, sau [[CSS snippets|fragment CSS]], modifică aspectul Obsidian, la fel ca o [[#temă]]. Spre deosebire de teme, puteți aplica mai multe fragmente simultan.
 
-## Status bar
+## Bara de stare
 
-The **status bar** in the Obsidian application shows you essential statistics and statuses. In the desktop version, you'll find it in the bottom-right corner, while on mobile devices, it's positioned along the bottom of the app.
+**Bara de stare** din aplicația Obsidian vă arată statistici și stări esențiale. În versiunea pentru desktop, o găsiți în colțul din dreapta jos, iar pe dispozitivele mobile este poziționată de-a lungul părții de jos a aplicației.
 
 
-## Tab
+## Filă
 
-A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]]. See also [[Tabs]].
+O **filă** conține o [[#vizualizare]]. Filele pot fi repoziționate în [[#zona principală]] și în [[#bară laterală|barele laterale]]. Consultați și [[Tabs]].
 
-## Tab group
+## Grup de file
 
-A **tab group** is a collection of [[#tab|tabs]] in the [[#main area]]. Tabs in a tab group can be stacked.
+Un **grup de file** este o colecție de [[#filă|file]] din [[#zona principală]]. Filele dintr-un grup de file pot fi stivuite.
 
-## Tag
+## Etichetă
 
-A **tag** is a word that starts with a hash (`#`), for example `#book`. Tags are primarily used to find related [[#note|notes]].
+O **etichetă** este un cuvânt care începe cu diez (`#`), de exemplu `#carte`. Etichetele sunt folosite în principal pentru a găsi [[#notă|note]] înrudite.
 
-## Theme
+## Temă
 
-A **theme** changes the appearance of the Obsidian app using [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). You can override parts of a theme using [[#snippet|snippets]].
+O **temă** modifică aspectul aplicației Obsidian folosind [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). Puteți suprascrie părți ale unei teme folosind [[#fragment|fragmente]].
 
-## Vault
+## Seif
 
 `Aliases: local vault, local data`
 
-A **vault** is a folder on your file system which contains [[#note|notes]] and an `.obsidian` folder with Obsidian-specific configuration. See also [[How Obsidian stores data]].
+Un **seif** este un director din sistemul dumneavoastră de fișiere care conține [[#notă|note]] și un director `.obsidian` cu configurația specifică Obsidian. Consultați și [[How Obsidian stores data]].
 
-### Remote vault
+### Seif la distanță
 
 `Aliases: Remote data`
 
-A [[Local and remote vaults|remote vault]] is a copy of your local vault that is maintained with [[Introduction to Obsidian Sync|Obsidian Sync]]. The remote vault data is updated based on changes to local data. 
+Un [[Local and remote vaults|seif la distanță]] este o copie a seifului dumneavoastră local, menținută cu [[Introduction to Obsidian Sync|Obsidian Sync]]. Datele seifului la distanță sunt actualizate pe baza modificărilor din datele locale.
 
-## View
+## Vizualizare
 
-A **view** displays information, for example the [[Search|Search view]].
+O **vizualizare** afișează informații, de exemplu [[Search|vizualizarea Caută]].

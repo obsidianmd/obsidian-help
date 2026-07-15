@@ -1,12 +1,11 @@
 ---
-localized: null
 permalink: import
 cssclasses:
   - list-cards
 ---
-Apps come and go, but your data should last. Obsidian uses non-proprietary plain text Markdown files stored locally on your device. You have total control over your data, which means you can use Obsidian offline and switch to another app easily if you ever need to.
+Aplicațiile vin și pleacă, dar datele dumneavoastră ar trebui să dureze. Obsidian folosește fișiere Markdown text simplu, neproprietare, stocate local pe dispozitivul dumneavoastră. Aveți control total asupra datelor dumneavoastră, ceea ce înseamnă că puteți folosi Obsidian offline și puteți trece cu ușurință la o altă aplicație, dacă va fi vreodată nevoie.
 
-## Import from other apps and file formats
+## Importați din alte aplicații și formate de fișiere
 
 - <span class="icon-app icon-notion"></span> [[Import from Notion|Notion]]
 - <span class="icon-app icon-onenote"></span> [[Import from Microsoft OneNote|Microsoft OneNote]]
@@ -17,17 +16,17 @@ Apps come and go, but your data should last. Obsidian uses non-proprietary plain
 - <span class="icon-app icon-bear"></span> [[Import from Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Import from Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Import from Roam Research|Roam Research]]
-- <span class="icon-app icon-html"></span> [[Import HTML files|HTML files]]
+- <span class="icon-app icon-html"></span> [[Import HTML files|Fișiere HTML]]
 - <span class="icon-app icon-md"></span> [[Import CSV files]]
-- <span class="icon-app icon-md"></span> [[Import Markdown files|Markdown files]]
-- <span class="icon-app icon-md"></span> [[Import Textbundle files|Textbundle files]]
-- <span class="icon-app icon-md"></span> [[Import Zettelkasten notes|Zettelkasten notes]]
+- <span class="icon-app icon-md"></span> [[Import Markdown files|Fișiere Markdown]]
+- <span class="icon-app icon-md"></span> [[Import Textbundle files|Fișiere Textbundle]]
+- <span class="icon-app icon-md"></span> [[Import Zettelkasten notes|Note Zettelkasten]]
 
-## More formats
+## Mai multe formate
 
-Don't see your app? You can request it or contribute to the [open-source repository](https://github.com/obsidianmd/obsidian-importer) for the [[Importer]] plugin.
+Nu vă găsiți aplicația? O puteți solicita sau puteți contribui la [depozitul open-source](https://github.com/obsidianmd/obsidian-importer) pentru modulul [[Importer]].
 
-Additional guides have been shared by our community that may help you migrate to Obsidian: 
+Comunitatea noastră a distribuit ghiduri suplimentare care vă pot ajuta să migrați la Obsidian:
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)

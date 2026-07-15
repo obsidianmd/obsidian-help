@@ -1,22 +1,21 @@
 ---
-localized: null
 permalink: publish/permalinks
 ---
-You can rename the URL to your notes, using _permalinks_.
+Poți redenumi URL-ul notelor tale, folosind _permalinkuri_.
 
-For example, you can turn this:
+De exemplu, poți transforma asta:
 
 ```
 https://publish.obsidian.md/username/Company/About+us
 ```
 
-Into this:
+În asta:
 
 ```
 https://publish.obsidian.md/username/about
 ```
 
-To create a permalink for a note, add the `permalink` property to your [[Properties]].
+Pentru a crea un permalink pentru o notă, adaugă proprietatea `permalink` în [[Properties|Proprietățile]] tale.
 
 ```yaml
 ---
@@ -24,22 +23,22 @@ permalink: about
 ---
 ```
 
-If someone visits a note using the original URL, they'll be automatically redirected to the permalink.
+Dacă cineva vizitează o notă folosind URL-ul original, va fi redirecționat automat către permalink.
 
-## Redirect old notes
+## Redirecționează notele vechi
 
-Renaming and removing notes is a natural part of maintaining a living vault. While Obsidian automatically updates links when you move a note within your local vault, other websites may still link to your old notes on your published [[Introduction to Obsidian Publish|Obsidian Publish]] site. You can redirect readers from one note to another.
+Redenumirea și eliminarea notelor fac parte din menținerea unui seif viu. Deși Obsidian actualizează automat legăturile atunci când muți o notă în cadrul seifului tău local, alte site-uri web pot continua să facă legătura către notele tale vechi de pe site-ul [[Introduction to Obsidian Publish|Obsidian Publish]] publicat. Poți redirecționa cititorii de la o notă la alta.
 
-Imagine you want to move a note from one folder to another:
+Imaginează-ți că vrei să muți o notă dintr-un director în altul:
 
 - **Guides**
-  - ~~Making friends.md~~ (removed)
+  - ~~Making friends.md~~ (eliminat)
 - **Tutorials**
-  - *How to make friends.md* (added)
+  - *How to make friends.md* (adăugat)
 
-After you move the note, Obsidian automatically updates all links within the vault. However, if you publish the change to your Publish site, any links to `/Guides/Making+friends` will result in a 404.
+După ce muți nota, Obsidian actualizează automat toate legăturile din cadrul seifului. Totuși, dacă publici schimbarea pe site-ul tău Publish, orice legătură către `/Guides/Making+friends` va rezulta într-o eroare 404.
 
-To redirect readers from `/Guides/Making+friends` to `/Tutorials/How+to+make+friends`, you need to add an [[Aliases|alias]] in `How to make friends.md`, the note you want to redirect to.
+Pentru a redirecționa cititorii de la `/Guides/Making+friends` la `/Tutorials/How+to+make+friends`, trebuie să adaugi un [[Aliases|pseudonim]] în `How to make friends.md`, nota către care vrei să redirecționezi.
 
 ```md
 ---
@@ -50,9 +49,9 @@ alias: Guides/Making friends
 ```
 
 > [!important] Important
-> Make sure that you include the full path to the old note in the alias. While using only the note name as an alias works in your local vault, Publish needs the full path to the note to be able to redirect to it.
+> Asigură-te că incluzi calea completă către nota veche în pseudonim. Deși folosirea doar a numelui notei ca pseudonim funcționează în seiful tău local, Publish are nevoie de calea completă către notă pentru a putea redirecționa către ea.
 
-You can redirect multiple notes by adding an alias for each.
+Poți redirecționa mai multe note adăugând câte un pseudonim pentru fiecare.
 
 ```md
 ---

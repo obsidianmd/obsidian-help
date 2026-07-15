@@ -1,15 +1,14 @@
 ---
-localized: null
 permalink: publish/social-share
 ---
-Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Properties]], you can customize how your notes appear in the preview.
+Multe rețele sociale afișează o previzualizare bogată a site-ului tău atunci când un utilizator partajează o legătură către acesta. Folosind [[Properties|Proprietăți]], poți personaliza modul în care apar notele tale în previzualizare.
 
-> [!warning] Warning
-> The tags overridden in this section are **only** visible by web crawlers. Regular web browsers are served the unmodified page for performance.
+> [!warning] Avertisment
+> Etichetele suprascrise în această secțiune sunt **vizibile doar** de către roboții web (web crawlers). Browserele web obișnuite primesc pagina nemodificată, pentru performanță.
 
-## Description
+## Descriere
 
-Obsidian automatically generates a description based on the note content, but you can provide your own using `description`.
+Obsidian generează automat o descriere pe baza conținutului notei, dar poți furniza propria descriere folosind `description`.
 
 ```yaml
 ---
@@ -17,14 +16,14 @@ description: An introduction to our solar system.
 ---
 ```
 
-> [!note] Meta tags
-> `description` overrides the auto-generated description in `<meta name="description" content="...">` and the equivalents for `og:description` and `twitter:description`.
+> [!note] Etichete meta
+> `description` suprascrie descrierea generată automat în `<meta name="description" content="...">` și echivalentele pentru `og:description` și `twitter:description`.
 
-## Image
+## Imagine
 
-You can use a custom image for the link preview, by adding `image` or `cover` with a path to the image. The image must be uploaded to Publish. 
+Poți folosi o imagine personalizată pentru previzualizarea legăturii, adăugând `image` sau `cover` cu o cale către imagine. Imaginea trebuie încărcată pe Publish. 
 
-The path can be an absolute path from the root of your vault:
+Calea poate fi o cale absolută din rădăcina seifului tău:
 
 ```yaml
 ---
@@ -33,7 +32,7 @@ cover: "Attachments/Cover image.png"
 ```
 
 
-The path to the image is case sensitive. In our prior example, we have a path to an image named `Cover image.png`. The below path will not work, because it is using the wrong case.
+Calea către imagine ține cont de majuscule și minuscule. În exemplul nostru anterior, avem o cale către o imagine numită `Cover image.png`. Calea de mai jos nu va funcționa, deoarece folosește majusculele greșite.
 
 ```yaml
 ---
@@ -42,7 +41,7 @@ cover: "Attachments/cover Image.png"
 ```
 
 
-In place of an absolute path in your vault, you may also use an external url:
+În locul unei căi absolute din seiful tău, poți folosi și un URL extern:
 
 ```yaml
 ---
@@ -51,7 +50,7 @@ image: "https://example.com/cover%20image.png"
 ```
 
 
-`image` and `cover` are identical. Only use one of them.
+`image` și `cover` sunt identice. Folosește doar una dintre ele.
 
-> [!note] Meta tags
-> `image` and `cover` overrides the auto-generated image in `<meta property="og:image" content="...">`.
+> [!note] Etichete meta
+> `image` și `cover` suprascriu imaginea generată automat în `<meta property="og:image" content="...">`.

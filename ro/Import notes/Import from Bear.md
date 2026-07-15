@@ -1,30 +1,29 @@
 ---
-localized: null
 permalink: import/bear
 ---
-Obsidian lets you easily migrate your notes from Bear using the [[Importer|Importer plugin]]. This will convert your Bear data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi cu ușurință notele din Bear folosind [[Importer|modulul Importer]]. Acest lucru îți va converti datele din Bear în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
-## Export your data from Bear
+## Exportă-ți datele din Bear
 
-Obsidian uses Bear's backup format `.bear2bk` files. You can find Bear's instructions for creating the backup [on Bear's website](https://bear.app/faq/backup-restore/). 
+Obsidian folosește formatul de copie de rezervă al Bear, fișiere `.bear2bk`. Poți găsi instrucțiunile Bear pentru crearea copiei de rezervă [pe site-ul Bear](https://bear.app/faq/backup-restore/). 
 
-1. Open Bear.
-2. Create a backup
-	1. On macOS: **File** → **Backup notes**.
-	2. On iOS: click the more menu (⋮) at the top of the sidebar and choose **Backup all notes**.
-3. Choose a location for your backup file.
-4. Click **Export notes**.
-5. You should now have one `.bear2bk` file that contains all your notes.
+1. Deschide Bear.
+2. Creează o copie de rezervă
+	1. Pe macOS: **File** → **Backup notes**.
+	2. Pe iOS: apasă meniul suplimentar (⋮) din partea de sus a barei laterale și alege **Backup all notes**.
+3. Alege o locație pentru fișierul copiei de rezervă.
+4. Apasă **Export notes**.
+5. Ar trebui să ai acum un fișier `.bear2bk` care conține toate notele tale.
 
-## Import your Bear data into Obsidian
+## Importă-ți datele din Bear în Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Bear (.bear2bk)**.
-6. Select the location of your Bear backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** alege **Bear (.bear2bk)**.
+6. Selectează locația fișierului tău de rezervă Bear.
+7. Apasă **Importă** și așteaptă până când importul este finalizat.
+8. Ai terminat!

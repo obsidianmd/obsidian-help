@@ -1,26 +1,25 @@
 ---
-localized: null
 permalink: plugins/slides
 ---
-Slides is a [[Core plugins|core plugin]] that lets you create presentations from your notes. To start a presentation:
+Slides este un [[Core plugins|modul integrat]] care îți permite să creezi prezentări din notele tale. Pentru a începe o prezentare:
 
-**File menu:**
+**Meniul fișier:**
 
-- Right-click the tab of a note and click **Start presentation**.
+- Dă clic dreapta pe fila unei note și dă clic pe **Start presentation**.
 
-**Command palette:**
+**Paleta de comenzi:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Start presentation** command.
-3. Press `Enter` with the command selected to start a presentation using the active note.
+1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+2. Caută comanda **Start presentation**.
+3. Apasă `Enter` cu comanda selectată pentru a începe o prezentare folosind nota activă.
 
-To navigate between slides, click the left and right arrows in the bottom-right corner, or press the left and right arrow keys on your keyboard.
+Pentru a naviga între diapozitive, dă clic pe săgețile stânga și dreapta din colțul din dreapta jos, sau apasă tastele săgeată stânga și dreapta de pe tastatură.
 
-You can also advance to the next slide by pressing Spacebar.
+Poți avansa la diapozitivul următor și apăsând bara de spațiu.
 
-To stop the presentation, press `Escape` or click the cross in the upper-right corner of the presentation.
+Pentru a opri prezentarea, apasă `Escape` sau dă clic pe crucea din colțul din dreapta sus al prezentării.
 
-You can use any valid Markdown file as a presentation. To separate slides, enter `---` at the start of a line surrounded by newlines.
+Poți folosi orice fișier Markdown valid ca prezentare. Pentru a separa diapozitivele, introdu `---` la începutul unei linii, încadrat de linii goale.
 
 ```md
 # Presentations using Slides

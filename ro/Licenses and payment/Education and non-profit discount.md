@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: discounts
 cssclasses:
   - soft-embed
 ---
-Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
+Obsidian oferă în prezent două tipuri de reduceri: pentru educație și pentru organizații non-profit. Ambele îți oferă o reducere de 40% la serviciile noastre suplimentare [[Introduction to Obsidian Sync|Obsidian Sync]] și [[Introduction to Obsidian Publish|Obsidian Publish]].
 
-## How to apply
+## Cum aplici
 
-1. Go to [your account dashboard](https://obsidian.md/account/billing).
-2. Under **Billing**, find the **Discount** section, and click on the **Apply** link.
-3. Select a discount type depending on your situation, fill out your **educational or organization email** (not your account email).
-4. Click **Send application**.
-5. In your school or organization email inbox, you should get an email from us to verify your email address. Click on the link to verify.
-6. You might get instantly approved for the discount. If not, our team will try to review your application within 3 business days.
-7. You’ll get an email when your discount gets approved.
+1. Accesează [tabloul de bord al contului tău](https://obsidian.md/account/billing).
+2. Sub **Billing**, găsește secțiunea **Discount** și dă clic pe linkul **Apply**.
+3. Selectează un tip de reducere în funcție de situația ta și completează **adresa de e-mail a instituției de învățământ sau a organizației** (nu adresa de e-mail a contului tău).
+4. Dă clic pe **Send application**.
+5. În căsuța de e-mail a școlii sau organizației tale, ar trebui să primești un e-mail de la noi pentru a-ți verifica adresa. Dă clic pe link pentru a o verifica.
+6. Este posibil să fii aprobat instantaneu pentru reducere. Dacă nu, echipa noastră va încerca să analizeze cererea ta în termen de 3 zile lucrătoare.
+7. Vei primi un e-mail când reducerea ta este aprobată.
 
-Congratulations! Now you’ll see the discount when you try to purchase Obsidian Sync or Publish.
+Felicitări! Acum vei vedea reducerea atunci când încerci să achiziționezi Obsidian Sync sau Publish.
 
-## How to renew
+## Cum reînnoiești
 
-Once you have an active discount, you can see how it will expire under **Billing → Discount** of [your account](https://obsidian.md/account/billing).
+Odată ce ai o reducere activă, poți vedea când expiră sub **Billing → Discount** din [contul tău](https://obsidian.md/account/billing).
 
-A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
+Cu o săptămână înainte de expirarea reducerii, vei primi un e-mail de reamintire pentru a o reînnoi. Poți urma aceiași pași din secțiunea „[[#Cum aplici]]” pentru a reînnoi reducerea, dacă încă îndeplinești condițiile.
 
-## Frequently asked questions
+## Întrebări frecvente
 
-**Who is eligible?**
-If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount. If you run or work at a non-profit organization, you generally qualify for non-profit discount.
+**Cine este eligibil?**
+Dacă ești student sau membru al corpului didactic al unei instituții de învățământ, cum ar fi o universitate sau un liceu, în general îndeplinești condițiile pentru reducerea de educație. Dacă conduci sau lucrezi la o organizație non-profit, în general îndeplinești condițiile pentru reducerea non-profit.
 
-**How long does the application process take?**
-If your application isn't approved instantly after verifying your email, our team will review it. It will take up to 3 business days. No need to check again, we will send an email when your account is approved. Thank you for your patience!
+**Cât durează procesul de aplicare?**
+Dacă cererea ta nu este aprobată instantaneu după verificarea e-mailului, echipa noastră o va analiza. Acest lucru poate dura până la 3 zile lucrătoare. Nu este nevoie să verifici din nou, îți vom trimite un e-mail când contul tău este aprobat. Îți mulțumim pentru răbdare!
 
-**Do these discounts work with early bird pricing?**
-Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
+**Aceste reduceri funcționează cu prețul de lansare timpurie (early bird)?**
+Îți mulțumim că ai fost un cumpărător timpuriu! Niciuna dintre aceste reduceri nu se cumulează cu prețul early bird, deoarece early bird este probabil cea mai mare reducere pe care o vom oferi vreodată.
 
-If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
+Dacă ai beneficiat deja de prețul early bird, în general nu are rost să aplici pentru reduceri. Dar ține cont de faptul că prețul early bird este separat pentru Sync și Publish, așa că, dacă ai ratat prețul early bird pentru unul dintre ele, s-ar putea totuși să vrei să aplici pentru o reducere.
 
-**What if my educational or non-profit organization doesn't provide an email address?**
-In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
+**Ce se întâmplă dacă instituția mea de învățământ sau organizația non-profit nu oferă o adresă de e-mail?**
+În acest caz, poți trimite alte forme de verificare, cum ar fi legitimația de student, foaia matricolă sau legitimația de angajat, către [[Help and support#Contactează asistența Obsidian|asistența Obsidian]]. Nu uita să incluzi și adresa de e-mail a contului tău Obsidian. Echipa noastră va analiza cererea ta și îți va răspunde. Îți mulțumim pentru răbdare!
 
-### Refunds
+### Rambursări
 
 ![[Refund policy#^discount-then-refund]]
 

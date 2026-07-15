@@ -1,54 +1,53 @@
 ---
-localized: null
 permalink: data-storage
 publish: true
 mobile: true
-description: This page explains how Obsidian stores its data on your device.
+description: Această pagină explică modul în care Obsidian stochează datele pe dispozitivul dumneavoastră.
 ---
 
-Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.
+Obsidian stochează notele dumneavoastră sub formă de fișiere text simplu [[Basic formatting syntax|formatate în Markdown]] într-un _seif_. Un seif este un director din sistemul dumneavoastră de fișiere local, inclusiv orice subdirectoare.
 
-Because notes are plain text files, you can use other text editors and file managers to edit and manage notes. Obsidian automatically refreshes your vault to keep up with any external changes.
+Deoarece notele sunt fișiere text simplu, puteți folosi alte editoare de text și manageri de fișiere pentru a edita și gestiona notele. Obsidian actualizează automat seiful dumneavoastră pentru a ține pasul cu orice modificări externe.
 
-You can create a vault anywhere your operating system allows. Obsidian syncs with [[Introduction to Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git, and many other third-party services.
+Puteți crea un seif oriunde vă permite sistemul de operare. Obsidian se sincronizează cu [[Introduction to Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git și multe alte servicii terțe.
 
-You can open multiple folders as individual vaults, for example to separate notes for work and school.
+Puteți deschide mai multe directoare ca seifuri individuale, de exemplu pentru a separa notele pentru muncă și pentru școală.
 
-> [!warning] Vaults within vaults
-> Because [[Internal links]] are local to a vault, we recommend that you don't create vaults within vaults. Links may not be updated correctly.
+> [!warning] Seifuri în interiorul seifurilor
+> Deoarece [[Internal links|legăturile interne]] sunt locale unui seif, vă recomandăm să nu creați seifuri în interiorul altor seifuri. Este posibil ca legăturile să nu fie actualizate corect.
 
-## Vault settings
+## Setările seifului
 
-Obsidian creates an `.obsidian` [[configuration folder]] in the root folder of the vault, which contains preferences specific to that vault, such as [[hotkeys]], [[themes]], and [[community plugins]].
+Obsidian creează un [[configuration folder|director de configurare]] `.obsidian` în directorul rădăcină al seifului, care conține preferințele specifice acelui seif, precum [[hotkeys|combinațiile de taste]], [[themes|temele]] și [[community plugins|modulele comunitare]].
 
-By default, most operating systems hide folders that start with a period (`.`), so you may need to update the settings for your file manager to see it.
+Implicit, majoritatea sistemelor de operare ascund directoarele care încep cu un punct (`.`), așa că este posibil să trebuiască să actualizați setările managerului de fișiere pentru a-l vedea.
 
-- **macOS**: In Finder, press `Cmd+Shift+.` (period) to show hidden files.
-- **Windows**: [Show hidden files](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
-+ **GNU/Linux:** In most File Explorers, press `Ctrl + h` to show hidden files.
+- **macOS**: În Finder, apăsați `Cmd+Shift+.` (punct) pentru a afișa fișierele ascunse.
+- **Windows**: [Afișați fișierele ascunse](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
++ **GNU/Linux:** În majoritatea managerilor de fișiere, apăsați `Ctrl + h` pentru a afișa fișierele ascunse.
 
-> [!tip] Adding `.obsidian` to Git
-> The `.obsidian/workspace.json` and `.obsidian/workspaces.json` files store the current workspace layout and update whenever you open a new file. If you use [Git](https://git-scm.com) to manage your vault, you might want to add these files to `.gitignore`.
+> [!tip] Adăugarea `.obsidian` în Git
+> Fișierele `.obsidian/workspace.json` și `.obsidian/workspaces.json` stochează configurația curentă a spațiului de lucru și se actualizează de fiecare dată când deschideți un fișier nou. Dacă folosiți [Git](https://git-scm.com) pentru a gestiona seiful dumneavoastră, ați putea dori să adăugați aceste fișiere în `.gitignore`.
 
-## Global settings
+## Setări globale
 
-Obsidian stores global settings in a system folder. The location of the system folder depends on the operating system you're using.
+Obsidian stochează setările globale într-un director de sistem. Locația directorului de sistem depinde de sistemul de operare pe care îl folosiți.
 
 - **macOS**: `/Users/yourusername/Library/Application Support/obsidian`
 - **Windows**: `%APPDATA%\Obsidian\`
-- **Linux**: `$XDG_CONFIG_HOME/obsidian/` or `~/.config/obsidian/`
+- **Linux**: `$XDG_CONFIG_HOME/obsidian/` sau `~/.config/obsidian/`
 
-> [!warning] Don't create a vault in the system folder. This may lead to corrupted data or data loss.
+> [!warning] Nu creați un seif în directorul de sistem. Acest lucru poate duce la coruperea sau pierderea datelor.
 
 ## IndexedDB
 
-IndexedDB is a low-level, client-side database that Obsidian uses for backend storage. It helps maintain the state of [[Introduction to Obsidian Sync|Obsidian Sync]] connections, and preserves the [[#Metadata cache]] when the application is closed. 
+IndexedDB este o bază de date de nivel scăzut, de tip client, pe care Obsidian o folosește pentru stocarea din spate (backend). Aceasta ajută la menținerea stării conexiunilor [[Introduction to Obsidian Sync|Obsidian Sync]] și păstrează [[#Cache-ul de metadate|cache-ul de metadate]] atunci când aplicația este închisă.
 
-> [!warning] If Apple's [Lockdown Mode](<https://support.apple.com/en-us/105120>) is enabled and Obsidian is not excluded, these database files will not save, requiring reindexing each time the app starts.
+> [!warning] Dacă [modul Lockdown](<https://support.apple.com/en-us/105120>) al Apple este activat și Obsidian nu este exclus, aceste fișiere de bază de date nu se vor salva, ceea ce va necesita reindexare de fiecare dată când aplicația pornește.
 
-### Metadata cache
+### Cache-ul de metadate
 
-In order to provide a fast experience while using the app, Obsidian maintains a local record of metadata about the files in your vault called the **metadata cache**. This metadata powers many things across the app, from the Graph view to the Outline view.
+Pentru a oferi o experiență rapidă în timpul utilizării aplicației, Obsidian menține o evidență locală a metadatelor despre fișierele din seiful dumneavoastră, numită **cache-ul de metadate**. Aceste metadate alimentează multe funcții din aplicație, de la afișajul grafic până la sumar.
 
-Obsidian keeps this cache in sync with the files in your vault, but it is possible for the data to get out of sync with the underlying files. In the event that this happens to your vault, you can rebuild your metadata cache from the app settings in the *Files and links* section.
+Obsidian menține acest cache sincronizat cu fișierele din seiful dumneavoastră, dar este posibil ca datele să se desincronizeze de fișierele subiacente. În cazul în care acest lucru se întâmplă în seiful dumneavoastră, puteți reconstrui cache-ul de metadate din setările aplicației, în secțiunea *Fișiere și legături*.
 

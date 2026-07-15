@@ -1,31 +1,30 @@
 ---
-localized: null
 permalink: workspace
 publish: true
 mobile: true
-description: Learn about the Obsidian workspace and its core components on desktop and mobile.
+description: Aflați despre spațiul de lucru Obsidian și componentele sale de bază pe desktop și pe mobil.
 ---
 
-The workspace is the main container for all the components that make up the Obsidian interface. It consists of different elements arranged around your notes, allowing you to customize how you view and interact with your content.
+Spațiul de lucru este containerul principal pentru toate componentele care alcătuiesc interfața Obsidian. Acesta este alcătuit din diverse elemente aranjate în jurul notelor dvs., permițându-vă să personalizați modul în care vizualizați și interacționați cu conținutul dvs.
 
 ## Desktop
 
-In the Obsidian desktop app the workspace includes:
+În aplicația desktop Obsidian, spațiul de lucru include:
 
-- [[Ribbon]] running vertically on the left side of the app
-- [[Sidebar|Sidebars]] on the left and right side (can be collapsed)
-    - [[Sidebar#Tab groups|Sidebar tab groups]] (can be split vertically)
-    - [[Sidebar#Tabs|Sidebar tabs]]
-- [[Tabs#Organize your tabs and windows|Tab groups]] in the central content area (can be split vertically or horizontally)
+- [[Ribbon]], care rulează vertical pe partea stângă a aplicației
+- [[Sidebar|Bare laterale]] pe partea stângă și dreaptă (pot fi restrânse)
+    - [[Sidebar#Tab groups|Grupurile de file din bara laterală]] (pot fi împărțite vertical)
+    - [[Sidebar#Tabs|Filele din bara laterală]]
+- [[Tabs#Organize your tabs and windows|Grupuri de file]] în zona principală de conținut (pot fi împărțite vertical sau orizontal)
     - [[Tabs]]
-- [[Status bar]] in the bottom right corner
+- [[Status bar]] în colțul din dreapta jos
 
-## Mobile
+## Mobil
 
-In the Obsidian mobile app the workspace includes:
+În aplicația mobilă Obsidian, spațiul de lucru include:
 
-- [[Tabs]] managed from the tab counter in the [[Mobile app#Navigation bar|Navigation bar]]
-- [[Sidebar|Sidebars]] (opened using left and right swipe gestures)
-- [[Mobile app#Navigation bar|Navigation bar]] at the bottom of the screen
-- [[Ribbon|Ribbon menu]] in the Navigation bar (contains customizable actions)
-- [[Mobile app|Editor toolbar]] above the keyboard when editing
+- [[Tabs]], gestionate din contorul de file din [[Mobile app#Navigation bar|Bara de navigare]]
+- [[Sidebar|Bare laterale]] (deschise folosind gesturi de glisare la stânga și la dreapta)
+- [[Mobile app#Navigation bar|Bara de navigare]] din partea de jos a ecranului
+- [[Ribbon|Meniul panglicii]] în bara de navigare (conține acțiuni personalizabile)
+- [[Mobile app|Bara de instrumente a editorului]] deasupra tastaturii atunci când editați

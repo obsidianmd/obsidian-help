@@ -1,126 +1,125 @@
 ---
-localized: null
 permalink: plugins/bookmarks
 ---
-Bookmarks is a [[Core plugins|core plugin]] that lets you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
+Bookmarks este un [[Core plugins|modul integrat]] care îți permite să accesezi rapid elementele pe care le folosești des. Un marcaj este o „scurtătură” care te duce imediat la elementul marcat.
 
-You can add bookmarks to the following:
+Poți adăuga marcaje pentru următoarele:
 
-- Files
-- Folders
-- Graphs
-- Searches
-- Headings
-- Blocks
-- Links
+- Fișiere
+- Directoare
+- Grafice
+- Căutări
+- Titluri
+- Blocuri
+- Legături
 
-Open a bookmark by selecting it in the Bookmarks tab.
+Deschide un marcaj selectându-l în fila Marcaje.
 
-You can reorder bookmarks by selecting and dragging them.
+Poți reordona marcajele selectându-le și trăgându-le.
 
-You can bookmark items and organize them into _bookmark groups_ to find them easier. You can expand and collapse bookmark groups to show or hide the bookmarks in them.
+Poți marca elemente și le poți organiza în _grupuri de marcaje_ pentru a le găsi mai ușor. Poți extinde și restrânge grupurile de marcaje pentru a afișa sau ascunde marcajele din ele.
 
-> [!todo]- Show bookmarks
-> You can find your bookmarked items by clicking **Bookmarks** ![[lucide-bookmark.svg#icon]] in the left sidebar.
+> [!todo]- Afișează marcajele
+> Poți găsi elementele marcate dând clic pe **Marcaje** ![[lucide-bookmark.svg#icon]] în bara laterală stângă.
 >
-> Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Command palette]].
+> Sau, deschide fila Marcaje rulând **Bookmarks: Show bookmarks** din [[Command palette|Paleta de comenzi]].
 
-## Add a bookmark
+## Adaugă un marcaj
 
-Adding a bookmark opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
+Adăugarea unui marcaj deschide dialogul **Add bookmark**, unde poți seta un titlu opțional și îl poți atribui unui grup de marcaje.
 
-When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instead lets you edit the bookmark.
+Când marchezi un element, **Add bookmark** devine **Edit bookmark** și îți permite să editezi marcajul.
 
-> [!todo]- Bookmark a file
+> [!todo]- Marchează un fișier
 >
-> **Bookmarks**:
+> **Marcaje**:
 >
-> - Select **Bookmark the active tab** ![[lucide-bookmark-plus.svg#icon]] at the top of the Bookmarks tab.
+> - Selectează **Bookmark the active tab** ![[lucide-bookmark-plus.svg#icon]] în partea de sus a filei Marcaje.
 >
-> **File explorer**:
+> **Explorator de fișiere**:
 >
-> - Right-click a file in [[File explorer]] and click **Bookmark**.
+> - Dă clic dreapta pe un fișier în [[File explorer|Explorator de fișiere]] și dă clic pe **Bookmark**.
 >
-> **Command palette**:
+> **Paleta de comenzi**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-> 2. Search for the **Bookmark** command.
-> 3. Press `Enter` with the command selected to add a bookmark.
+> 1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+> 2. Caută comanda **Bookmark**.
+> 3. Apasă `Enter` cu comanda selectată pentru a adăuga un marcaj.
 
-> [!todo]- Bookmark a folder
+> [!todo]- Marchează un director
 >
-> **File explorer**:
+> **Explorator de fișiere**:
 >
-> - Right-click a folder in [[File explorer]] and click **Bookmark**.
+> - Dă clic dreapta pe un director în [[File explorer|Explorator de fișiere]] și dă clic pe **Bookmark**.
 
-> [!todo]- Bookmark a search term
+> [!todo]- Marchează un termen de căutare
 >
-> **Search**:
+> **Caută**:
 >
-> 1. Enter a [[Search#Search terms|search term]].
-> 2. Under the search field, select the three dots icon next to the number of results.
-> 3. Select **Bookmark**.
+> 1. Introdu un [[Search#Search terms|termen de căutare]].
+> 2. Sub câmpul de căutare, selectează pictograma cu trei puncte de lângă numărul de rezultate.
+> 3. Selectează **Bookmark**.
 
-> [!todo]- Bookmark a graph
-> To bookmark a graph, right-click the tab with the graph view and select **Bookmark**.
+> [!todo]- Marchează un grafic
+> Pentru a marca un grafic, dă clic dreapta pe fila cu afișajul grafic și selectează **Bookmark**.
 >
-> You can't bookmark local graphs.
+> Nu poți marca grafice locale.
 
-> [!todo]- Bookmark a heading
-> To bookmark a heading, right-click the heading and select **Bookmark this heading**.
+> [!todo]- Marchează un titlu
+> Pentru a marca un titlu, dă clic dreapta pe titlu și selectează **Bookmark this heading**.
 >
-> **Command palette**:
+> **Paleta de comenzi**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-> 2. Select the **Bookmark heading under cursor** command.
+> 1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+> 2. Selectează comanda **Bookmark heading under cursor**.
 
-> [!todo]- Bookmark a block
+> [!todo]- Marchează un bloc
 >
-> **Command palette**:
+> **Paleta de comenzi**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-> 2. Select the **Bookmark block under cursor** command.
+> 1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+> 2. Selectează comanda **Bookmark block under cursor**.
 
-> [!todo]- Bookmark a link
+> [!todo]- Marchează o legătură
 >
-> 1. Enable [[Web viewer]] in [[Core plugins]].
-> 2. Open [[Web viewer]] and navigate to the link you wish to bookmark.
-> 3. In the address bar, select the three dots icon next to the reader icon.
-> 4. Select **Bookmark**.
+> 1. Activează [[Web viewer|Vizualizatorul web]] în [[Core plugins|Module integrate]].
+> 2. Deschide [[Web viewer|Vizualizatorul web]] și navighează la legătura pe care vrei să o marchezi.
+> 3. În bara de adresă, selectează pictograma cu trei puncte de lângă pictograma de citire.
+> 4. Selectează **Bookmark**.
 >
-> **Command palette**:
+> **Paleta de comenzi**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) within the [[Web viewer]] pane to open the [[Command palette]].
-> 2. Select the **Bookmark** command.
+> 1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) în panoul [[Web viewer|Vizualizator web]] pentru a deschide [[Command palette|Paleta de comenzi]].
+> 2. Selectează comanda **Bookmark**.
 
-## Remove a bookmark
+## Elimină un marcaj
 
-In the Bookmarks tab, right-click the bookmark and select **Remove**.
+În fila Marcaje, dă clic dreapta pe marcaj și selectează **Remove**.
 
-You can also remove a bookmark from the **Edit bookmark** dialog.
+Poți elimina un marcaj și din dialogul **Edit bookmark**.
 
-## Add a bookmark group
+## Adaugă un grup de marcaje
 
-**Bookmarks**:
+**Marcaje**:
 
-- Select **New bookmark group** ![[lucide-folder-plus.svg#icon]] at the top of the Bookmarks tab.
+- Selectează **New bookmark group** ![[lucide-folder-plus.svg#icon]] în partea de sus a filei Marcaje.
 
-To move a bookmark to another group, select and drag it to the group you want to move it to.
+Pentru a muta un marcaj într-un alt grup, selectează-l și trage-l în grupul în care vrei să-l muți.
 
-## Remove a bookmark group
+## Elimină un grup de marcaje
 
-To remove a bookmark group and all bookmarks in it, right-click the bookmark group and select **Remove**.
+Pentru a elimina un grup de marcaje și toate marcajele din el, dă clic dreapta pe grupul de marcaje și selectează **Remove**.
 
-## Bookmark multiple files
+## Marchează mai multe fișiere
 
-You can add multiple bookmarks at the same time.
+Poți adăuga mai multe marcaje în același timp.
 
-**File explorer**:
+**Explorator de fișiere**:
 
-1. Select multiple files by pressing `Alt` and selecting each file, or press `Shift` to select a range of files.
-2. Right-click one of the selected files and then select **Bookmark**.
+1. Selectează mai multe fișiere apăsând `Alt` și selectând fiecare fișier, sau apasă `Shift` pentru a selecta un interval de fișiere.
+2. Dă clic dreapta pe unul dintre fișierele selectate și apoi selectează **Bookmark**.
 
-**Tab group options**:
+**Opțiunile grupului de file**:
 
-1. In the upper-right corner of a tab group, select the down arrow.
-2. Select **Bookmark 3 tabs**, where 3 is the number of tabs in the tab group.
+1. În colțul din dreapta sus al unui grup de file, selectează săgeata în jos.
+2. Selectează **Bookmark 3 tabs**, unde 3 este numărul de file din grupul de file.

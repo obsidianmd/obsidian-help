@@ -1,121 +1,119 @@
 ---
-localized: null
 permalink: web-clipper/variables
 ---
-[[Obsidian Web Clipper/Templates|Web Clipper templates]] can use variables to automatically pre-populate data from the page in a template. Variables can be used in the **note name**, **note location**, **properties**, and **note content**. Variables can also be modified using [[filters]].
+[[Obsidian Web Clipper/Templates|Șabloanele Web Clipper]] pot folosi variabile pentru a popula automat date de pe pagină într-un șablon. Variabilele pot fi folosite în **numele notei**, **locația notei**, **proprietăți** și **conținutul notei**. Variabilele pot fi de asemenea modificate folosind [[filters|filtre]].
 
-Use the `...` icon in the [[Introduction to Obsidian Web Clipper|Web Clipper]] extension to access the current page variables for use in templates. There are five types of variables you can use:
+Folosește pictograma `...` din extensia [[Introduction to Obsidian Web Clipper|Web Clipper]] pentru a accesa variabilele paginii curente, pe care le poți folosi în șabloane. Există cinci tipuri de variabile pe care le poți folosi:
 
-- [[Variables#Preset variables|Preset variables]]
-- [[Variables#Prompt variables|Prompt variables]]
-- [[Variables#Meta variables|Meta variables]]
-- [[Variables#Selector variables|Selector variables]]
-- [[Variables#Schema.org variables|Schema.org variables]]
+- [[Variables#Preset variables|Variabile prestabilite]]
+- [[Variables#Prompt variables|Variabile prompt]]
+- [[Variables#Meta variables|Variabile meta]]
+- [[Variables#Selector variables|Variabile selector]]
+- [[Variables#Schema.org variables|Variabile Schema.org]]
 
-## Preset variables
+## Variabile prestabilite
 
-Preset variables are automatically generated based on the page content. These typically work for most websites.
+Variabilele prestabilite sunt generate automat pe baza conținutului paginii. Acestea funcționează de obicei pentru majoritatea site-urilor web.
 
-The main content variable is `{{content}}`, which contains the article content, or the [[Highlighter|highlights]], or the selection if there is any selected text on the page. Note that `{{content}}` attempts to extract the main content of the page, which may not always be what you want. In that case, you can use other preset variables or selector variables to extract the content you need.
+Variabila principală de conținut este `{{content}}`, care conține conținutul articolului, [[Highlighter|evidențierile]] sau selecția, dacă există text selectat pe pagină. Reține că `{{content}}` încearcă să extragă conținutul principal al paginii, ceea ce nu este întotdeauna ceea ce îți dorești. În acest caz, poți folosi alte variabile prestabilite sau variabile selector pentru a extrage conținutul de care ai nevoie.
 
-| Variable            | Description                                                                            |
+| Variabilă            | Descriere                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Author of the page                                                                     |
-| `{{content}}`       | Article content, [[Highlighter\|highlights]], or selection, in Markdown format |
-| `{{contentHtml}}`   | Article content, [[Highlighter\|highlights]], or selection, in HTML format     |
-| `{{date}}`          | Current date, can be formatted using the `date` filter                                 |
-| `{{description}}`   | Description or excerpt                                                                 |
-| `{{domain}}`        | Domain                                                                                 |
-| `{{favicon}}`       | Favicon URL                                                                            |
-| `{{fullHtml}}`      | Unprocessed HTML for the full page content                                             |
-| `{{highlights}}`    | [[Highlighter\|Highlights]] with text and timestamps                           |
-| `{{image}}`         | Social share image URL                                                                 |
-| `{{published}}`     | Published date, can be formatted using the `date` filter                               |
-| `{{selection}}`     | Selection in Markdown format                                                           |
-| `{{selectionHtml}}` | Selection in HTML format                                                               |
-| `{{site}}`          | Site name or publisher                                                                 |
-| `{{title}}`         | Title of the page                                                                      |
-| `{{time}}`          | Current date and time                                                                  |
-| `{{url}}`           | Current URL                                                                            |
-| `{{words}}`         | Word count                                                                             |
+| `{{author}}`        | Autorul paginii                                                                     |
+| `{{content}}`       | Conținutul articolului, [[Highlighter\|evidențierile]] sau selecția, în format Markdown |
+| `{{contentHtml}}`   | Conținutul articolului, [[Highlighter\|evidențierile]] sau selecția, în format HTML     |
+| `{{date}}`          | Data curentă, poate fi formatată folosind filtrul `date`                                 |
+| `{{description}}`   | Descriere sau rezumat                                                                 |
+| `{{domain}}`        | Domeniu                                                                                 |
+| `{{favicon}}`       | Adresa URL a favicon-ului                                                                            |
+| `{{fullHtml}}`      | HTML neprocesat pentru întregul conținut al paginii                                             |
+| `{{highlights}}`    | [[Highlighter\|Evidențieri]] cu text și marcaje de timp                           |
+| `{{image}}`         | Adresa URL a imaginii pentru partajare pe rețele sociale                                                                 |
+| `{{published}}`     | Data publicării, poate fi formatată folosind filtrul `date`                               |
+| `{{selection}}`     | Selecția în format Markdown                                                           |
+| `{{selectionHtml}}` | Selecția în format HTML                                                               |
+| `{{site}}`          | Numele site-ului sau al editorului                                                                 |
+| `{{title}}`         | Titlul paginii                                                                      |
+| `{{time}}`          | Data și ora curente                                                                  |
+| `{{url}}`           | Adresa URL curentă                                                                            |
+| `{{words}}`         | Numărul de cuvinte                                                                             |
 
-## Prompt variables
+## Variabile prompt
 
-Prompt variables leverage language models to extract and modify data using natural language. Prompt variables require [[Interpreter|Interpreter]] to be enabled and configured.
+Variabilele prompt folosesc modele de limbaj pentru a extrage și modifica date folosind limbaj natural. Variabilele prompt necesită ca [[Interpreter|Interpreter]] să fie activat și configurat.
 
-Prompt variables use the syntax `{{"a summary of the page"}}`. The double quotes around the prompt are important and distinguish prompts from preset variables. Prompt responses can be post-processed with [[filters]], e.g. `{{"a summary of the page"|blockquote}}`.
+Variabilele prompt folosesc sintaxa `{{"a summary of the page"}}`. Ghilimelele duble din jurul prompt-ului sunt importante și disting prompturile de variabilele prestabilite. Răspunsurile la prompturi pot fi procesate ulterior cu [[filters|filtre]], de ex. `{{"a summary of the page"|blockquote}}`.
 
-### When to use prompt variables
+### Când să folosești variabile prompt
 
-Prompt variables have the benefit of being extremely flexible and easy to write, however they come with several tradeoffs: they are slower to run, and may have cost and privacy considerations depending on the [[Interpreter#Models|provider]] you choose.
+Variabilele prompt au avantajul de a fi extrem de flexibile și ușor de scris, dar vin cu mai multe compromisuri: rulează mai lent și pot avea implicații de cost și confidențialitate, în funcție de [[Interpreter#Models|furnizorul]] pe care îl alegi.
 
-Unlike other variable types, prompt variables need to be processed by an external language model, so they are replaced only once [[Interpreter|Interpreter]] has run.
+Spre deosebire de alte tipuri de variabile, variabilele prompt trebuie să fie procesate de un model de limbaj extern, deci sunt înlocuite doar după ce [[Interpreter|Interpreter]] a rulat.
 
-It is best to *not* use prompt variables if the data you want to extract is in a consistent format that could be extracted with other variable types. 
+Este mai bine să *nu* folosești variabile prompt dacă datele pe care vrei să le extragi sunt într-un format consecvent care ar putea fi extras cu alte tipuri de variabile. 
 
-On the other hand, prompt variables can be useful if the data you want to extract is an *inconsistent* format across websites. For example, you can make a [[Obsidian Web Clipper/Templates|template]] to save books that is agnostic of the book site. Prompt variables like `{{"author of the book"}}` will work across any book site, whereas selector variables typically only work for one site.
+Pe de altă parte, variabilele prompt pot fi utile dacă datele pe care vrei să le extragi au un format *inconsecvent* pe diferite site-uri web. De exemplu, poți crea un [[Obsidian Web Clipper/Templates|șablon]] pentru a salva cărți care este independent de site-ul de cărți. Variabilele prompt precum `{{"author of the book"}}` vor funcționa pe orice site de cărți, în timp ce variabilele selector funcționează de obicei doar pentru un singur site.
 
-### Examples
+### Exemple
 
-Prompts can use almost any natural language query. Depending on the model you use, prompts can query or translate data across languages.
+Prompturile pot folosi aproape orice interogare în limbaj natural. În funcție de modelul pe care îl folosești, prompturile pot interoga sau traduce date în diferite limbi.
 
-- `{{"a three bullet point summary, translated to French"}}` to extract bullet points about the page, and translate them to French.
-- `{{"un resumé de la page en trois points"}}` to extract three bullet points using a prompt in French.
+- `{{"a three bullet point summary, translated to French"}}` pentru a extrage puncte cheie despre pagină și a le traduce în franceză.
+- `{{"un resumé de la page en trois points"}}` pentru a extrage trei puncte cheie folosind un prompt în franceză.
 
-Prompts can transform page content into JSON that can be manipulated with [[Filters|filters]]. For example:
+Prompturile pot transforma conținutul paginii în JSON, care poate fi manipulat cu [[Filters|filtre]]. De exemplu:
 
 ```
 {{"return a JSON object for each tweet, that includes the author, tweet_text, date in YYYY-MM-DD format, and images array (if there are any)"|map:tweet => ({text: tweet.tweet_text, author: tweet.author, date: tweet.date})|template:"${text}\n— [[@${author}]], [[${date}]]\n"}}
 ```
 
 
-## Meta variables
+## Variabile meta
 
-Meta variables allow you to extract data from [meta elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) in the page, including [Open Graph](https://ogp.me/) data used to populate social share previews.
+Variabilele meta îți permit să extragi date din [elementele meta](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) ale paginii, inclusiv datele [Open Graph](https://ogp.me/) folosite pentru a popula previzualizările de partajare pe rețele sociale.
 
-- `{{meta:name}}` returns the content of the meta name tag with the given name, e.g. `{{meta:name:description}}` for the `description` meta tag.
-- `{{meta:property}}` returns the content of the meta property tag with the given property, e.g. `{{meta:property:og:title}}` for the `og:title` meta tag.
+- `{{meta:name}}` returnează conținutul etichetei meta name cu numele dat, de ex. `{{meta:name:description}}` pentru eticheta meta `description`.
+- `{{meta:property}}` returnează conținutul etichetei meta property cu proprietatea dată, de ex. `{{meta:property:og:title}}` pentru eticheta meta `og:title`.
 
-## Selector variables
+## Variabile selector
 
-Selector variables allow you to extract text content from elements on the page using [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators).
+Variabilele selector îți permit să extragi conținut text din elementele paginii folosind [selectori CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators).
 
-The syntax is `{{selector:cssSelector?attribute}}`, where `?attribute` is optional. If no attribute is specified, the text content of the element is returned. You can also use `{{selectorHtml:cssSelector}}` to get the HTML content of the element. Selector variables tend to work best on a specific website or set of websites that have consistent HTML structure.
+Sintaxa este `{{selector:cssSelector?attribute}}`, unde `?attribute` este opțional. Dacă nu este specificat niciun atribut, este returnat conținutul text al elementului. Poți de asemenea folosi `{{selectorHtml:cssSelector}}` pentru a obține conținutul HTML al elementului. Variabilele selector tind să funcționeze cel mai bine pe un site web specific sau pe un set de site-uri web cu structură HTML consecventă.
 
-- `{{selector:h1}}` returns text content of any `h1` elements on the page.
-- `{{selector:.author}}` returns text content of any `.author` elements on the page.
-- `{{selector:img.hero?src}}` returns the `src` attribute of the image with class `hero`.
-- `{{selector:a.main-link?href}}` returns the `href` attribute of the anchor tag with class `main-link`.
-- `{{selectorHtml:body|markdown}}` returns the entire HTML of the `body` element, converted to Markdown using the `markdown` [[Filters#HTML processing|filter]].
-- Nested CSS selectors and combinators are supported if you need more specificity.
-- If multiple elements match the selector, an array is returned, which you can process with [[Filters#Arrays and objects|array and object filters]] like `join` or `map`.
+- `{{selector:h1}}` returnează conținutul text al oricăror elemente `h1` de pe pagină.
+- `{{selector:.author}}` returnează conținutul text al oricăror elemente `.author` de pe pagină.
+- `{{selector:img.hero?src}}` returnează atributul `src` al imaginii cu clasa `hero`.
+- `{{selector:a.main-link?href}}` returnează atributul `href` al etichetei ancoră cu clasa `main-link`.
+- `{{selectorHtml:body|markdown}}` returnează întregul HTML al elementului `body`, convertit în Markdown folosind [[Filters#HTML processing|filtrul]] `markdown`.
+- Selectorii CSS imbricați și combinatorii sunt acceptați dacă ai nevoie de mai multă specificitate.
+- Dacă mai multe elemente se potrivesc cu selectorul, este returnat un array, pe care îl poți procesa cu [[Filters#Arrays and objects|filtre pentru array-uri și obiecte]] precum `join` sau `map`.
 
-Selector variables can also be used directly in [[Logic|template logic]]:
+Variabilele selector pot fi de asemenea folosite direct în [[Logic|logica șablonului]]:
 
-- In loops: `{% for comment in selector:.comment %}...{% endfor %}`
-- In conditionals: `{% if selector:.premium-badge %}...{% endif %}`
-- In variable assignment: `{% set items = selector:.list-item %}`
+- În bucle: `{% for comment in selector:.comment %}...{% endfor %}`
+- În condiționale: `{% if selector:.premium-badge %}...{% endif %}`
+- În atribuirea variabilelor: `{% set items = selector:.list-item %}`
 
-## Schema.org variables
+## Variabile Schema.org
 
-Schema variables allow you to extract data from [schema.org](https://schema.org/) JSON-LD on the page. Schema.org data can also be used to automatically [[Obsidian Web Clipper/Templates#Schema.org matching|trigger a template]].
+Variabilele schema îți permit să extragi date din JSON-LD [schema.org](https://schema.org/) prezent pe pagină. Datele schema.org pot fi de asemenea folosite pentru a [[Obsidian Web Clipper/Templates#Schema.org matching|declanșa automat un șablon]].
 
-- `{{schema:@Type:key}}` returns the value of the key from the schema.
-- `{{schema:@Type:parent.child}}` returns the value of a nested property.
-- `{{schema:@Type:arrayKey}}` returns the first item in an array.
-- `{{schema:@Type:arrayKey[index].property}}` returns the item at the specified index in an array.
-- `{{schema:@Type:arrayKey[*].property}}` returns a specific property from all items in an array.
+- `{{schema:@Type:key}}` returnează valoarea cheii din schemă.
+- `{{schema:@Type:parent.child}}` returnează valoarea unei proprietăți imbricate.
+- `{{schema:@Type:arrayKey}}` returnează primul element dintr-un array.
+- `{{schema:@Type:arrayKey[index].property}}` returnează elementul de la indexul specificat dintr-un array.
+- `{{schema:@Type:arrayKey[*].property}}` returnează o proprietate specifică din toate elementele unui array.
 
-You can also use a shorthand notation without specifying the schema type:
+Poți de asemenea folosi o notație prescurtată fără a specifica tipul de schemă:
 
-- `{{schema:author}}` will match the first `author` property found in any schema type.
-- `{{schema:name}}` will match the first `name` property found in any schema type.
+- `{{schema:author}}` se va potrivi cu prima proprietate `author` găsită în orice tip de schemă.
+- `{{schema:name}}` se va potrivi cu prima proprietate `name` găsită în orice tip de schemă.
 
-This shorthand is particularly useful when you don't know or don't care about the specific schema type, but you know the property name you're looking for.
+Această prescurtare este utilă în special atunci când nu știi sau nu îți pasă de tipul specific de schemă, dar știi numele proprietății pe care o cauți.
 
-Nested properties and array access work as well, both with and without the schema `@Type` specified:
+Proprietățile imbricate și accesul la array-uri funcționează la fel de bine, atât cu, cât și fără tipul de schemă `@Type` specificat:
 
-- `{{schema:author.name}}` will find the first `author` property and then access its `name` sub-property.
-- `{{schema:author[0].name}}` will access the `name` of the first author in an array of authors.
-- `{{schema:author[*].name}}` will return an array of all author names.
-
+- `{{schema:author.name}}` va găsi prima proprietate `author` și apoi va accesa sub-proprietatea `name` a acesteia.
+- `{{schema:author[0].name}}` va accesa `name`-ul primului autor dintr-un array de autori.
+- `{{schema:author[*].name}}` va returna un array cu toate numele autorilor.

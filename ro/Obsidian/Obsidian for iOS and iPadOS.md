@@ -1,177 +1,176 @@
 ---
-localized: null
 permalink: ios
 ---
-The Obsidian mobile app for iOS and iPadOS brings powerful note-taking capabilities to your iPhone and iPad. You can download it from the [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
+Aplicația mobilă Obsidian pentru iOS și iPadOS aduce funcții puternice de luare de notițe pe iPhone-ul și iPad-ul tău. O poți descărca din [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
 
-This page covers iOS-specific features including widgets, Siri integration, and Shortcuts. 
+Această pagină acoperă funcțiile specifice iOS, inclusiv widget-uri, integrarea cu Siri și Scurtăturile (Shortcuts). 
 
 ## Sync
 
-For information on syncing notes between devices, please see [[Sync your notes across devices]].
+Pentru informații despre sincronizarea notelor între dispozitive, te rugăm să consulți [[Sync your notes across devices]].
 
-## Widgets
+## Widget-uri
 
-Obsidian for iOS offers several widgets to take quick actions on your vault.
+Obsidian pentru iOS oferă mai multe widget-uri pentru a efectua acțiuni rapide asupra seifului tău.
 
-> [!note] Note
-> Widgets are available on iOS and iPadOS 18 and higher.
-> Widgets are not available when using "Require Face ID" to unlock the app.
+> [!note] Notă
+> Widget-urile sunt disponibile pe iOS și iPadOS 18 și versiuni mai noi.
+> Widget-urile nu sunt disponibile atunci când se folosește „Necesită Face ID” pentru a debloca aplicația.
 
 
-### Lock Screen and Control Center widgets
+### Widget-uri pentru ecranul de blocare și Centrul de control
 
-Lock Screen and Control Center widgets allow you to:
-- Create a new note
-- Open a specific note
-- Open daily note
-- Open search
-- Open Obsidian
+Widget-urile pentru ecranul de blocare și Centrul de control îți permit să:
+- Creezi o notă nouă
+- Deschizi o notă anume
+- Deschizi nota zilnică
+- Deschizi căutarea
+- Deschizi Obsidian
 
-### Home Screen widgets
+### Widget-uri pentru ecranul de start
 
-Home Screen widgets allow you to:
-- Create a note
-- View a note
-- Open your daily note
+Widget-urile pentru ecranul de start îți permit să:
+- Creezi o notă
+- Vizualizezi o notă
+- Deschizi nota ta zilnică
 
-### Customizing widgets
+### Personalizarea widget-urilor
 
-You can customize widgets to suit your workflow, such as choosing which vault to use or specifying a particular note to open.
+Poți personaliza widget-urile pentru a se potrivi fluxului tău de lucru, cum ar fi alegerea seifului de folosit sau specificarea unei anumite note de deschis.
 
-- **Home Screen widgets:** Tap and hold the widget, then select **Edit Widget**.
-- **Lock Screen widgets:** Touch and hold your Lock Screen, tap **Customize**, select the Lock Screen, then tap the widget you want to customize.
-- **Control Center widgets:** Open Control Center, tap the **+** button at the top left to begin editing, then tap the widget you want to customize.
+- **Widget-uri pentru ecranul de start:** Apasă și menține apăsat widget-ul, apoi selectează **Editează widget**.
+- **Widget-uri pentru ecranul de blocare:** Atinge și menține apăsat ecranul de blocare, apasă **Personalizează**, selectează ecranul de blocare, apoi apasă widget-ul pe care vrei să-l personalizezi.
+- **Widget-uri pentru Centrul de control:** Deschide Centrul de control, apasă butonul **+** din stânga sus pentru a începe editarea, apoi apasă widget-ul pe care vrei să-l personalizezi.
 
-**New Note** widget configuration options:
+Opțiuni de configurare pentru widget-ul **Notă nouă**:
 
 ![[ios-new-note-configuration.png|400]]
 
-**View Note** widget configuration options:
+Opțiuni de configurare pentru widget-ul **Vizualizează notă**:
 
 ![[ios-view-note-configuration.png|400]]
 
-## Shortcuts
+## Scurtături
 
-Obsidian integrates with Apple's Shortcuts app, allowing you to create powerful automations. Available shortcuts include:
+Obsidian se integrează cu aplicația Shortcuts de la Apple, permițându-ți să creezi automatizări puternice. Scurtăturile disponibile includ:
 
-- **Open a note** — Open a specific note in your vault
-- **Create a new note** — Create a new note in your vault
-- **Open daily note** — Jump directly to today's daily note
-- **Capture to Daily Note** — Append or prepend text to the daily note without opening the Obsidian app
-- **Capture to Bookmark** — Append or prepend text to a bookmarked note without opening the Obsidian app
+- **Deschide o notă** — Deschide o notă anume din seiful tău
+- **Creează o notă nouă** — Creează o notă nouă în seiful tău
+- **Deschide nota zilnică** — Sari direct la nota ta zilnică de astăzi
+- **Captează în nota zilnică** — Adaugă text la începutul sau sfârșitul notei zilnice fără a deschide aplicația Obsidian
+- **Captează în marcaj** — Adaugă text la începutul sau sfârșitul unei note marcate fără a deschide aplicația Obsidian
 
-Capture shortcuts are particularly useful for quick note-taking, as they allow you to add content to a note in the background.
+Scurtăturile de captare sunt deosebit de utile pentru luarea rapidă de notițe, deoarece îți permit să adaugi conținut la o notă în fundal.
 
-## Share Sheet
+## Meniul de partajare (Share Sheet)
 
-Obsidian's Share Sheet lets you capture content from web pages. It also works with apps like YouTube and other social networks.
+Meniul de partajare al Obsidian îți permite să captezi conținut din pagini web. De asemenea, funcționează cu aplicații precum YouTube și alte rețele sociale.
 
 > [!note]
-> - The native Share Sheet is available on iOS and iPadOS 18 and higher.
-> - The Share Sheet features described in this section require Obsidian 1.13.0 or later.
+> - Meniul de partajare nativ este disponibil pe iOS și iPadOS 18 și versiuni mai noi.
+> - Funcțiile meniului de partajare descrise în această secțiune necesită Obsidian 1.13.0 sau o versiune mai nouă.
 
-Use the Share Sheet to quickly send content from another app to Obsidian:
-1. In another app, tap the **Share** button.
-2. Select **Obsidian**.
-3. Choose a Location.
-4. Review or edit the captured content.
-5. Tap **Save**.
+Folosește meniul de partajare pentru a trimite rapid conținut dintr-o altă aplicație în Obsidian:
+1. Într-o altă aplicație, apasă butonul **Partajează**.
+2. Selectează **Obsidian**.
+3. Alege o locație.
+4. Revizuiește sau editează conținutul captat.
+5. Apasă **Salvează**.
 
 ![[ios-share-sheet-extension.png|400]]
 
-### Locations
+### Locații
 
-Locations let you decide where the shared content should go before you save it.
+Locațiile îți permit să decizi unde ar trebui să ajungă conținutul partajat, înainte de a-l salva.
 
-Locations can capture to:
-- **New note** — Create a new note in a vault or folder.
-- **Daily note** — Append or prepend content to today's daily note.
-- **Bookmarked note** — Append or prepend content to a bookmarked note.
-- **Note** — Choose an existing note in your vault.
-- **New bookmark** — Save a shared URL to Obsidian bookmarks.
+Locațiile pot capta către:
+- **Notă nouă** — Creează o notă nouă într-un seif sau folder.
+- **Notă zilnică** — Adaugă conținut la începutul sau sfârșitul notei zilnice de astăzi.
+- **Notă marcată** — Adaugă conținut la începutul sau sfârșitul unei note marcate.
+- **Notă** — Alege o notă existentă din seiful tău.
+- **Marcaj nou** — Salvează un URL partajat în marcajele Obsidian.
 
 ![[ios-share-sheet-locations.png|400]]
 
-### Customizing Locations
+### Personalizarea locațiilor
 
-You can create Locations for common workflows, such as saving articles to an inbox, appending quotes to your daily note, or adding links to bookmarks.
+Poți crea locații pentru fluxuri de lucru comune, cum ar fi salvarea articolelor într-un inbox, adăugarea de citate la nota ta zilnică sau adăugarea de linkuri la marcaje.
 
-To customize Locations:
+Pentru a personaliza locațiile:
 
-1. Open Obsidian from the iOS Share Sheet.
-2. Tap the current Location in the toolbar.
-3. Tap the **+** button to create a new Location, or select an existing Location to edit.
-4. Choose the vault, behavior, and optional settings.
+1. Deschide Obsidian din meniul de partajare iOS.
+2. Apasă locația curentă din bara de instrumente.
+3. Apasă butonul **+** pentru a crea o locație nouă, sau selectează o locație existentă pentru a o edita.
+4. Alege seiful, comportamentul și setările opționale.
 
-Depending on the `Behavior` type, you can configure options such as:
+În funcție de tipul `Comportament`, poți configura opțiuni precum:
 - Folder
-- Template
-- Bookmark group
-- Append or prepend position
-- Whether shared links capture **Full Text** or only the **URL**
+- Șablon
+- Grup de marcaje
+- Poziția de adăugare (la început sau la sfârșit)
+- Dacă linkurile partajate captează **textul integral** sau doar **URL-ul**
 
 ![[ios-share-sheet-add-location.png|400]]
 
-### Using a Template When Sharing
+### Folosirea unui șablon la partajare
 
-You can use a template when sharing content from the Share Sheet. Templates let you format captured web content with details such as the page title, author, source website, and publication date.
+Poți folosi un șablon atunci când partajezi conținut din meniul de partajare. Șabloanele îți permit să formatezi conținutul web captat cu detalii precum titlul paginii, autorul, site-ul sursă și data publicării.
 
-To set up a Location with a template:
+Pentru a configura o locație cu un șablon:
 
-1. Open Obsidian from the iOS Share Sheet.
-2. Tap the current Location in the toolbar.
-3. Tap the **+** button to create a new Location.
-4. Enter a name for the Location.
-5. Select a vault.
-6. Set **Behavior** to **New Note**.
-7. In the **Optional** section, tap **Template**.
-8. Select a note from your vault to use as the template.
-9. Tap **Save** to save the Location.
+1. Deschide Obsidian din meniul de partajare iOS.
+2. Apasă locația curentă din bara de instrumente.
+3. Apasă butonul **+** pentru a crea o locație nouă.
+4. Introdu un nume pentru locație.
+5. Selectează un seif.
+6. Setează **Comportament** la **Notă nouă**.
+7. În secțiunea **Opțional**, apasă **Șablon**.
+8. Selectează o notă din seiful tău pentru a o folosi drept șablon.
+9. Apasă **Salvează** pentru a salva locația.
 
 ![[ios-share-sheet-set-template.png|400]]
 
-When you share a link using this Location, Obsidian applies the template first, then adds the shared content.
+Când partajezi un link folosind această locație, Obsidian aplică mai întâi șablonul, apoi adaugă conținutul partajat.
 
-Supported template placeholders:
+Substituenți de șablon acceptați:
 
-| Placeholder | Description |
+| Substituent | Descriere |
 | --- | --- |
-| `{{author}}` | Author of the article |
-| `{{description}}` | Description or summary of the article |
-| `{{domain}}` | Domain name of the website |
-| `{{favicon}}` | URL of the website's favicon |
-| `{{image}}` | URL of the article's main image |
-| `{{published}}` | Publication date of the article, using the default date format |
-| `{{published: YYYY-MM-DD}}` | Publication date using a custom date format |
-| `{{site}}` | Name of the website |
-| `{{title}}` | Title of the article |
-| `{{url}}` | Article URL |
-| `{{wordCount}}` | Total number of words in the extracted content |
+| `{{author}}` | Autorul articolului |
+| `{{description}}` | Descrierea sau rezumatul articolului |
+| `{{domain}}` | Numele de domeniu al site-ului |
+| `{{favicon}}` | URL-ul favicon-ului site-ului |
+| `{{image}}` | URL-ul imaginii principale a articolului |
+| `{{published}}` | Data publicării articolului, folosind formatul implicit de dată |
+| `{{published: YYYY-MM-DD}}` | Data publicării, folosind un format de dată personalizat |
+| `{{site}}` | Numele site-ului |
+| `{{title}}` | Titlul articolului |
+| `{{url}}` | URL-ul articolului |
+| `{{wordCount}}` | Numărul total de cuvinte din conținutul extras |
 
-You can also use standard template date and time placeholders:
+Poți folosi și substituenții standard de dată și oră ai șabloanelor:
 
-| Placeholder | Description |
+| Substituent | Descriere |
 | --- | --- |
-| `{{date}}` | Current date |
-| `{{date: YYYY-MM-DD}}` | Current date using a custom format |
-| `{{time}}` | Current time |
-| `{{time: HH:mm}}` | Current time using a custom format |
+| `{{date}}` | Data curentă |
+| `{{date: YYYY-MM-DD}}` | Data curentă, folosind un format personalizat |
+| `{{time}}` | Ora curentă |
+| `{{time: HH:mm}}` | Ora curentă, folosind un format personalizat |
 
-## Siri integration
+## Integrarea cu Siri
 
-You can use Siri voice commands to interact with Obsidian:
+Poți folosi comenzi vocale Siri pentru a interacționa cu Obsidian:
 
-- "Capture using Obsidian"
-- "Capture to Obsidian"
-- "Open my daily note in Obsidian"
-- "Search in Obsidian"
+- „Capture using Obsidian”
+- „Capture to Obsidian”
+- „Open my daily note in Obsidian”
+- „Search in Obsidian”
 
-## Spotlight integration
+## Integrarea cu Spotlight
 
-When you search for "Obsidian" in iOS Spotlight, you'll see quick actions:
-- New Note
-- Search
-- Daily Note
+Când cauți „Obsidian” în Spotlight pe iOS, vei vedea acțiuni rapide:
+- Notă nouă
+- Caută
+- Notă zilnică
 
 

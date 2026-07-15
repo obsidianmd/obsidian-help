@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: plugins/unique-note
 ---
-Unique note creator is a [[Core plugins|core plugin]] that lets you create notes with time-based names, also known as Zettelkasten notes.
+Unique note creator este un [[Core plugins|modul integrat]] care îți permite să creezi note cu nume bazate pe timp, cunoscute și ca note Zettelkasten.
 
-For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note creator creates a note with `202401010945` as its name. If a note with the same name exists, the new note uses the next available timestamp.
+De exemplu, dacă creezi o notă nouă la 09:45 pe 1 ianuarie 2024, Unique note creator creează o notă cu numele `202401010945`. Dacă există deja o notă cu același nume, nota nouă folosește următorul marcaj temporal disponibil.
 
-## Create a unique note
+## Creează o notă unică
 
-**Ribbon:**
+**Panglică:**
 
-- In the ribbon, click **Create new unique note** ![[obsidian-icon-sheets-in-box.svg#icon]].
+- În panglică, dă clic pe **Create new unique note** ![[obsidian-icon-sheets-in-box.svg#icon]].
 
-**Command palette:**
+**Paleta de comenzi:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Create new unique note** command.
-3. Press `Enter` with the command selected.
+1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+2. Caută comanda **Create new unique note**.
+3. Apasă `Enter` cu comanda selectată.
 
-## Create unique notes from a template
+## Creează note unice dintr-un șablon
 
-By default, new unique notes are empty. To use another file as a template:
+Implicit, notele unice noi sunt goale. Pentru a folosi un alt fișier ca șablon:
 
-- Open **[[Settings]]**.
-- In the sidebar, click **Core plugins → Unique note creator**.
-- In **Template file location**, enter the file you want to use as template.
+- Deschide **[[Settings|Setări]]**.
+- În bara laterală, dă clic pe **Core plugins → Unique note creator**.
+- În **Template file location**, introdu fișierul pe care vrei să-l folosești ca șablon.
 
-For more information about how to write templates, refer to [[Plugins/Templates]].
+Pentru mai multe informații despre cum să scrii șabloane, consultă [[Plugins/Templates|Șabloane]].

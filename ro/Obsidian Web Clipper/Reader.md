@@ -1,41 +1,40 @@
 ---
-localized: null
 permalink: web-clipper/reader
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] includes a built-in reading mode called **Reader** that strips away clutter from web pages, presenting only the main article content in a clean, readable format.
+[[Introduction to Obsidian Web Clipper|Web Clipper]] include un mod de citire integrat numit **Reader**, care elimină elementele care distrag atenția de pe paginile web, prezentând doar conținutul principal al articolului într-un format curat, ușor de citit.
 
-## Activate reading mode
+## Activează modul de citire
 
-You can activate Reader in several ways:
+Poți activa Reader în mai multe moduri:
 
-- ![[lucide-book-icon.svg#icon]] **Book icon** in the extension panel.
-- **Keyboard shortcut** customizable in the extension settings.
-- **Context menu** by right-clicking the web page you are visiting.
+- ![[lucide-book-icon.svg#icon]] **Pictograma de carte** din panoul extensiei.
+- **Scurtătură de tastatură**, personalizabilă în setările extensiei.
+- **Meniul contextual**, prin clic dreapta pe pagina web pe care o vizitezi.
 
-You can also set the ![[obsidian.svg#icon]] extension button to open Reader in one click. In the Web Clipper settings go to **General** → **Behavior** → **Open behavior** and choose **Reader**.
+Poți de asemenea seta butonul extensiei ![[obsidian.svg#icon]] să deschidă Reader dintr-un singur clic. În setările Web Clipper mergi la **General** → **Comportament** → **Comportament la deschidere** și alege **Reader**.
 
-All of the options above also allow you to exit Reader and restore the original page.
+Toate opțiunile de mai sus îți permit de asemenea să ieși din Reader și să restabilești pagina originală.
 
-## How it works
+## Cum funcționează
 
-Reader extracts the main content from the page. The original page is replaced with a clean reading view that includes:
+Reader extrage conținutul principal din pagină. Pagina originală este înlocuită cu o vizualizare de citire curată care include:
 
-- The article title, author, publication date, and source domain.
-- The main article content, with images and formatting preserved.
-- An outline in the sidebar for articles with multiple headings.
-- Syntax highlighting for code blocks.
-- Footnote popovers that display inline when clicked.
+- Titlul articolului, autorul, data publicării și domeniul sursă.
+- Conținutul principal al articolului, cu imaginile și formatarea păstrate.
+- Un sumar în bara laterală pentru articolele cu mai multe titluri.
+- Evidențierea sintaxei pentru blocurile de cod.
+- Ferestre pop-up pentru notele de subsol, care se afișează în linie când sunt apăsate.
 
-## Customize your reading view
+## Personalizează-ți vizualizarea de citire
 
-Customize your Reader experience in the extension settings. Some options are also available within Reader mode by clicking the ![[lucide-case-sensitive.svg#icon]] icon.
+Personalizează-ți experiența Reader în setările extensiei. Unele opțiuni sunt disponibile și în modul Reader, dând clic pe pictograma ![[lucide-case-sensitive.svg#icon]].
 
-| Setting          | Description                         |
+| Setare          | Descriere                         |
 | ---------------- | ----------------------------------- |
-| Font             | Add fonts installed on your system. |
-| Font size        | Adjust the text size.               |
-| Line&nbsp;height | Spacing between lines.              |
-| Line&nbsp;width  | Maximum width of the content area.  |
-| Appearance       | Choose light or dark appearance.    |
-| Theme            | Choose the colors.                  |
-| Custom CSS       | Additional CSS applied to the page. |
+| Font             | Adaugă fonturi instalate pe sistemul tău. |
+| Dimensiune font        | Ajustează dimensiunea textului.               |
+| Înălțimea&nbsp;liniei | Spațierea dintre linii.              |
+| Lățimea&nbsp;liniei  | Lățimea maximă a zonei de conținut.  |
+| Aspect       | Alege aspectul deschis sau întunecat.    |
+| Temă            | Alege culorile.                  |
+| CSS personalizat       | CSS suplimentar aplicat paginii. |

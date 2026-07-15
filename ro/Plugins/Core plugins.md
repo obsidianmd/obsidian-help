@@ -1,91 +1,90 @@
 ---
-localized: null
 permalink: plugins
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: 'This page lists the core plugins that come installed with Obsidian, and community plugins they also maintain.'
+description: 'Această pagină listează modulele integrate care vin instalate cu Obsidian, precum și modulele comunitare pe care echipa Obsidian le întreține.'
 ---
 
-This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team, and are included within the application.
+Această pagină listează modulele integrate care vin instalate cu Obsidian. Modulele integrate sunt construite și întreținute oficial de echipa Obsidian și sunt incluse în aplicație.
 
-Some core plugins are disabled by default. You can enable them under **[[Settings]] → Core plugins**.
+Unele module integrate sunt dezactivate implicit. Le poți activa sub **[[Settings|Setări]] → Module integrate**.
 
-The Obsidian team also maintains the development of certain [[#Other plugins|open-source community plugins]].
+Echipa Obsidian întreține și dezvoltarea anumitor [[#Alte module|module comunitare open-source]].
 
-> [!tip] Community plugins
-> If you can't find the plugin you're looking here, check out some of the [[Community plugins|plugins built by the community]]. You can also [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) yourself.
+> [!tip] Module comunitare
+> Dacă nu găsești aici modulul pe care îl cauți, aruncă o privire la unele dintre [[Community plugins|modulele create de comunitate]]. Poți și să [construiești tu însuți un modul](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
-### All core plugins
+### Toate modulele integrate
 
 - [[Audio recorder]]
-	- Record and save audio recordings directly in a note.
-- [[Backlinks]]
-	- See all the links and unlinked mentions of a note.
-- [[Introduction to Bases|Bases]]
-	- Create custom views that let you edit, sort, and filter files using their properties.
-- [[Bookmarks]]
-	- Save links to notes, headings, searches, and more.
-- [[Canvas]]
-	- Organize notes visually with an infinite space to lay out ideas.
-- [[Command palette]]
-	- Quickly access commands from your keyboard.
-- [[Daily notes]]
-	- Create and open notes based on the current date.
-- [[File explorer]]
-	- Browse files and folders inside your vault.
+	- Înregistrează și salvează înregistrări audio direct într-o notă.
+- [[Backlinks|Referințe]]
+	- Vezi toate legăturile și mențiunile fără legături ale unei note.
+- [[Introduction to Bases|Baze]]
+	- Creează afișaje personalizate care îți permit să editezi, sortezi și filtrezi fișiere folosind proprietățile lor.
+- [[Bookmarks|Marcaje]]
+	- Salvează legături către note, titluri, căutări și altele.
+- [[Canvas|Pânză]]
+	- Organizează notele vizual, cu un spațiu infinit pentru a-ți aranja ideile.
+- [[Command palette|Paleta de comenzi]]
+	- Accesează rapid comenzi de la tastatură.
+- [[Daily notes|Note zilnice]]
+	- Creează și deschide note pe baza datei curente.
+- [[File explorer|Explorator de fișiere]]
+	- Răsfoiește fișierele și directoarele din seiful tău.
 - [[File recovery]]
-	-  Recover your work from regular snapshots.
+	-  Recuperează-ți munca din instantanee periodice.
 - [[Footnotes view]]
-	- Show a list of footnotes from the current note.
+	- Afișează o listă cu notele de subsol din nota curentă.
 - [[Format converter]]
-	- Convert Markdown from other apps to Obsidian format.
-- [[Graph view]]
-	- Visualize relationships between notes in your vault.
+	- Convertește Markdown din alte aplicații în formatul Obsidian.
+- [[Graph view|Afișaj grafic]]
+	- Vizualizează relațiile dintre notele din seiful tău.
 - [[Note composer]]
-	- Merge two notes or split one into two.
-- [[Outgoing links]]
-	- Show all links for the active note.
-- [[Outline]]
-	- Show the table of contents for the active note.
+	- Îmbină două note sau împarte una în două.
+- [[Outgoing links|Legături de ieșire]]
+	- Afișează toate legăturile pentru nota activă.
+- [[Outline|Sumar]]
+	- Afișează cuprinsul pentru nota activă.
 - [[Page preview]]
-	- Preview the contents of a note by hovering over links.
+	- Previzualizează conținutul unei note trecând cursorul peste legături.
 - [[Properties view]]
-	- List all the properties in your vault, and see properties for the active note.
+	- Listează toate proprietățile din seiful tău și vezi proprietățile pentru nota activă.
 - [[Introduction to Obsidian Publish|Publish]]
-	- Host your notes as a website, wiki or documentation.
-- [[Quick switcher]]
-	- Search, create and open notes from your keyboard.
-- [[Random note]]
-	- Opens a random note in your vault.
-- [[Search]]
-	- Find files in your vault.
-- [[Slash commands]]
-	- Perform commands inside the editor using the `/` key.
+	- Găzduiește-ți notele ca site web, wiki sau documentație.
+- [[Quick switcher|Comutare rapidă]]
+	- Caută, creează și deschide note de la tastatură.
+- [[Random note|Notă aleatorie]]
+	- Deschide o notă aleatorie din seiful tău.
+- [[Search|Caută]]
+	- Găsește fișiere în seiful tău.
+- [[Slash commands|Comenzi slash]]
+	- Execută comenzi în editor folosind tasta `/`.
 - [[Slides]]
-	- Create a presentation from your notes.
+	- Creează o prezentare din notele tale.
 - [[Introduction to Obsidian Sync|Sync]]
-	- Sync your notes across devices.
-- [[Tags view|Tags view]]
-	- List all the tags in your vault.
-- [[Plugins/Templates|Templates]]
-	- Insert pre-defined content into your notes.
+	- Sincronizează-ți notele pe mai multe dispozitive.
+- [[Tags view|Etichete]]
+	- Listează toate etichetele din seiful tău.
+- [[Plugins/Templates|Șabloane]]
+	- Inserează conținut predefinit în notele tale.
 - [[Unique note creator]]
-	- Create a unique note using a time-coded title.
+	- Creează o notă unică folosind un titlu cu marcaj temporal.
 - [[Web viewer]]
-	- Open external links in Obsidian.
+	- Deschide legături externe în Obsidian.
 - [[Word count]]
-	- Display the number of words and characters.
-- [[Workspaces]]
-	- Save layouts and switch between them.
+	- Afișează numărul de cuvinte și caractere.
+- [[Workspaces|Spații de lucru]]
+	- Salvează aranjamente și comută între ele.
 
-### Other plugins
+### Alte module
 
-The Obsidian team also maintains plugins available through the Community plugin store:
+Echipa Obsidian întreține și module disponibile prin magazinul de module comunitare:
 
 - [[Importer]]
-	- Convert files from various apps and formats to Obsidian.
+	- Convertește fișiere din diverse aplicații și formate în Obsidian.
 - [[Map view|Maps]]
-	- Add a map view to Obsidian Bases.
+	- Adaugă un afișaj hartă la Bazele Obsidian.

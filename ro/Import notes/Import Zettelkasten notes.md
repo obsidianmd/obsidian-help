@@ -1,22 +1,21 @@
 ---
-localized: null
 permalink: import/zettelkasten
 ---
-If you've been using the Zettelkasten method to name and link your notes, you may need to convert links from `[[UID]]` to `[[UID My note title]]`.
+Dacă ai folosit metoda Zettelkasten pentru a denumi și lega notele, s-ar putea să trebuiască să convertești legăturile din `[[UID]]` în `[[UID Titlul notei mele]]`.
 
-For example, if you have a note with the name `202301011230 My note title` and link to it from another note using only the UID, `[[202301011230]]`. Since Obsidian uses the full name of the note to resolve internal links, links like these will break.
+De exemplu, dacă ai o notă cu numele `202301011230 Titlul notei mele` și faci o legătură către ea dintr-o altă notă folosind doar UID-ul, `[[202301011230]]`. Deoarece Obsidian folosește numele complet al notei pentru a rezolva legăturile interne, astfel de legături se vor rupe.
 
-To update all `[[UID]]` links in your vault to use the full name of the note instead, use the [[Format converter]].
+Pentru a actualiza toate legăturile `[[UID]]` din seiful tău, astfel încât să folosească numele complet al notei, folosește [[Format converter]].
 
-1. Open **[[Settings]]**.
-2. Under **Core plugins**, enable **Format converter** and close the Settings window.
-3. In the ribbon, on the left side of the app window, select **Open format convert** ![[lucide-binary.svg#icon]].
-4. Enable **Zettelkasten link fixer**.
-5. Select **Start conversion**. This will convert all the notes in your entire vault.
+1. Deschide **[[Settings]]**.
+2. La **Module integrate**, activează **Convertorul de format** și închide fereastra Setări.
+3. În panglică, în partea stângă a ferestrei aplicației, selectează **Deschide convertorul de format** ![[lucide-binary.svg#icon]].
+4. Activează **Reparator de legături Zettelkasten**.
+5. Selectează **Începe conversia**. Aceasta va converti toate notele din întregul tău seif.
 
-> [!tip] Zettelkasten link beautifier
-> [[Format converter]] can also beautify your links by removing the UID from the display name. For example, `[[UID]]` converts to `[[UID My note title|My note title]]`.
+> [!tip] Îmbunătățitor de legături Zettelkasten
+> [[Format converter]] poate, de asemenea, să îți înfrumusețeze legăturile eliminând UID-ul din numele afișat. De exemplu, `[[UID]]` se convertește în `[[UID Titlul notei mele|Titlul notei mele]]`.
 >
-> To beautify your Zettelkasten links, enable **Zettelkasten link beautifier** in the format converter window.
+> Pentru a-ți înfrumuseța legăturile Zettelkasten, activează **Îmbunătățitor de legături Zettelkasten** în fereastra convertorului de format.
 
-You can also use the [[Unique note creator]] to create Zettelkasten notes in Obsidian.
+Poți folosi și [[Unique note creator]] pentru a crea note Zettelkasten în Obsidian.

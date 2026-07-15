@@ -1,24 +1,23 @@
 ---
-localized: null
 permalink: import/craft
 ---
-Obsidian lets you migrate your notes from Craft. This will convert your Craft data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi notele din Craft. Acest lucru îți va converti datele din Craft în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
-## Export your data from Craft
+## Exportă-ți datele din Craft
 
-Open the Craft app on your desktop computer:
+Deschide aplicația Craft de pe computerul tău:
 
-1. Go to the "Organize", or "All Documents" view
-2. Click on the three-dot menu
-3. Select the Export option.
-4. Choose Markdown.
+1. Mergi la vizualizarea „Organize” sau „All Documents”
+2. Apasă meniul cu trei puncte
+3. Selectează opțiunea Export.
+4. Alege Markdown.
 
-Depending on the number of notes you have in Craft, this process may take a while.
+În funcție de numărul de note pe care le ai în Craft, acest proces poate dura ceva timp.
 
-## Import your Craft data into Obsidian
+## Importă-ți datele din Craft în Obsidian
 
-From here you can follow the [[Import Markdown files]] instructions.
+De aici poți urma instrucțiunile din [[Import Markdown files]].
 
-## Troubleshooting
+## Depanare
 
-Craft Docs uses non-standard syntax for certain links. You can find resources to migrate those on the [Importer GitHub repo](https://github.com/obsidianmd/obsidian-importer/issues/27).
+Craft Docs folosește o sintaxă non-standard pentru anumite legături. Poți găsi resurse pentru a le migra pe [depozitul GitHub al Importer](https://github.com/obsidianmd/obsidian-importer/issues/27).

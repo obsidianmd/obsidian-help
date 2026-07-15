@@ -1,181 +1,180 @@
 ---
-localized: null
 permalink: formulas
-description: 'Formulas allow you to create calculated properties using data from other properties. You can perform calculations, manipulate text, work with dates, and more.'
+description: 'Formulele îți permit să creezi proprietăți calculate folosind date din alte proprietăți. Poți efectua calcule, poți manipula text, poți lucra cu date calendaristice și multe altele.'
 ---
-Formulas allow you to create calculated properties in [[Introduction to Bases|Bases]] using data from other [[Properties|properties]]. You can perform calculations, manipulate text, work with dates, and more. 
+Formulele îți permit să creezi proprietăți calculate în [[Introduction to Bases|Baze]], folosind date din alte [[Properties|proprietăți]]. Poți efectua calcule, poți manipula text, poți lucra cu date calendaristice și multe altele.
 
-## What formulas can do
+## Ce pot face formulele
 
-Formulas can help you:
+Formulele te pot ajuta să:
 
-- **Calculate values**, add prices, compute totals, or perform math operations.
-- **Manipulate text**, combine strings, change case, or extract substrings.
-- **Work with dates**, calculate time differences, format dates, or determine deadlines.
-- **Apply logic**, use conditional statements to display different values.
-- **Process lists**, filter, sort, map, or aggregate list data.
+- **Calculezi valori**, adaugi prețuri, calculezi totaluri sau efectuezi operații matematice.
+- **Manipulezi text**, combini stringuri, schimbi tipul de literă sau extragi substringuri.
+- **Lucrezi cu date calendaristice**, calculezi diferențe de timp, formatezi date sau determini termene limită.
+- **Aplici logică**, folosești instrucțiuni condiționale pentru a afișa valori diferite.
+- **Procesezi liste**, filtrezi, sortezi, mapezi sau agregi date sub formă de listă.
 
-## Create a formula property
+## Creează o proprietate de tip formulă
 
-To create a formula property:
+Pentru a crea o proprietate de tip formulă:
 
-1. In your base, click **Properties** in the toolbar.
-2. Click **Add formula** at the bottom of the menu.
-3. Enter a name for your formula property.
-4. Type your formula in the **Formula** field.
-5. Close the dialog.
+1. În baza ta, dă clic pe **Proprietăți** din bara de instrumente.
+2. Dă clic pe **Adaugă formulă** din partea de jos a meniului.
+3. Introdu un nume pentru proprietatea ta de tip formulă.
+4. Scrie formula ta în câmpul **Formulă**.
+5. Închide dialogul.
 
-The formula editor will autocomplete [[Functions|function]] and property names as you type to validate your formula syntax. A green checkmark appears when your formula is valid.
+Editorul de formule va completa automat numele [[Functions|funcțiilor]] și ale proprietăților pe măsură ce scrii, pentru a valida sintaxa formulei tale. O bifă verde apare atunci când formula ta este validă.
 
-Once created, you can use a formula property like any other property in your base. Add it to [[Views|views]], use it in filters, sort by it, and more.
+Odată creată, poți folosi o proprietate de tip formulă la fel ca orice altă proprietate din baza ta. Adaug-o la [[Views|vizualizări]], folosește-o în filtre, sortează după ea și multe altele.
 
-## Write a formula
+## Scrie o formulă
 
-In the formula editor, type an expression using properties, operators, and functions.
+În editorul de formule, scrie o expresie folosind proprietăți, operatori și funcții.
 
-### Reference properties
+### Fă referire la proprietăți
 
-You can reference different types of properties in your formulas:
+Poți face referire la diferite tipuri de proprietăți în formulele tale:
 
-- **Note properties** — Properties from a note's [[Properties|frontmatter]].
-- **File properties** — Built-in properties like `file.name`, `file.size`, or `file.mtime`.
-- **Formula properties** — Other formulas using `formula.formula_name`.
+- **Proprietățile notei** — Proprietăți din [[Properties|antetul (frontmatter)]] unei note.
+- **Proprietățile fișierului** — Proprietăți incluse implicit, precum `file.name`, `file.size` sau `file.mtime`.
+- **Proprietățile de tip formulă** — Alte formule, folosind `formula.formula_name`.
 
-**Examples:**
+**Exemple:**
 
-- `price * quantity` — multiply two note properties
-- `file.name + " - " + description` — combine file name with a note property
-- `formula.price_per_unit * 1.1` — use another formula property
+- `price * quantity` — înmulțește două proprietăți ale notei
+- `file.name + " - " + description` — combină numele fișierului cu o proprietate a notei
+- `formula.price_per_unit * 1.1` — folosește o altă proprietate de tip formulă
 
-### Use operators
+### Folosește operatori
 
-**Arithmetic operators** perform math on numbers:
+**Operatorii aritmetici** efectuează operații matematice pe numere:
 
-- `price + tax` — add
-- `price - discount` — subtract
-- `price * quantity` — multiply
-- `price / quantity` — divide
-- `(part / whole) * 100` — use parentheses for order of operations
+- `price + tax` — adunare
+- `price - discount` — scădere
+- `price * quantity` — înmulțire
+- `price / quantity` — împărțire
+- `(part / whole) * 100` — folosește paranteze pentru ordinea operațiilor
 
-**Comparison operators** compare values:
+**Operatorii de comparație** compară valori:
 
-- `price > 100` — greater than
-- `age < 18` — less than
-- `status == "Done"` — equals
-- `status != "Done"` — not equals
-- `file.mtime > now() - '7d'` — compare dates
+- `price > 100` — mai mare decât
+- `age < 18` — mai mic decât
+- `status == "Done"` — egal
+- `status != "Done"` — diferit
+- `file.mtime > now() - '7d'` — compară date calendaristice
 
-**Boolean operators** combine logical conditions:
+**Operatorii booleeni** combină condiții logice:
 
-- `!completed` — not
-- `price > 0 && quantity > 0` — and
-- `urgent || important` — or
+- `!completed` — negație
+- `price > 0 && quantity > 0` — și
+- `urgent || important` — sau
 
-Learn more in [[Bases syntax#Operators|Bases syntax]].
+Află mai multe în [[Bases syntax#Operators|Sintaxa Bases]].
 
-### Use functions
+### Folosește funcții
 
-Functions perform operations on values. The available functions depend on the type of value you're working with. See the complete list of [[Functions]].
+Funcțiile efectuează operații pe valori. Funcțiile disponibile depind de tipul valorii cu care lucrezi. Consultă lista completă de [[Functions|funcții]].
 
-**Common function categories:**
+**Categorii comune de funcții:**
 
-- **Global functions** — `if()`, `now()`, `date()`, `link()`, `max()`, `min()`
-- **String functions** — `contains()`, `replace()`, `split()`, `lower()`, `title()`
-- **Number functions** — `round()`, `ceil()`, `floor()`, `abs()`, `toFixed()`
-- **Date functions** — `format()`, `relative()`, `date()`, `time()`
-- **List functions** — `filter()`, `map()`, `sort()`, `join()`, `unique()`
+- **Funcții globale** — `if()`, `now()`, `date()`, `link()`, `max()`, `min()`
+- **Funcții pentru stringuri** — `contains()`, `replace()`, `split()`, `lower()`, `title()`
+- **Funcții pentru numere** — `round()`, `ceil()`, `floor()`, `abs()`, `toFixed()`
+- **Funcții pentru date calendaristice** — `format()`, `relative()`, `date()`, `time()`
+- **Funcții pentru liste** — `filter()`, `map()`, `sort()`, `join()`, `unique()`
 
-**Examples:**
+**Exemple:**
 
-- `if(price, "$" + price.toFixed(2), "")` to define a conditional with number formatting.
-- `file.name.lower()` to convert to lowercase.
-- `tags.contains("urgent")` to check if the tags list contains a value.
-- `due_date.format("YYYY-MM-DD")` to format a date.
+- `if(price, "$" + price.toFixed(2), "")` pentru a defini o condiție cu formatare numerică.
+- `file.name.lower()` pentru a converti la litere mici.
+- `tags.contains("urgent")` pentru a verifica dacă lista de etichete conține o valoare.
+- `due_date.format("YYYY-MM-DD")` pentru a formata o dată.
 
-## Formula examples
+## Exemple de formule
 
-### Calculate a deadline
+### Calculează un termen limită
 
-Set a project's due date as 2 weeks after the start date:
+Stabilește data scadentă a unui proiect ca fiind 2 săptămâni după data de început:
 
 ```js
 start_date + "2w"
 ```
 
-### Display overdue status
+### Afișează statusul de întârziere
 
-Show "Overdue" if the due date has passed and status is not "Done":
+Afișează „Overdue” dacă data scadentă a trecut, iar statusul nu este „Done”:
 
 ```js
 if(due_date < now() && status != "Done", "Overdue", "")
 ```
 
-### Format currency
+### Formatează moneda
 
-Display a price with 2 decimal places and currency symbol:
+Afișează un preț cu 2 zecimale și simbolul monedei:
 
 ```js
 if(price, "$" + price.toFixed(2), "")
 ```
 
-### Count list items
+### Numără elementele dintr-o listă
 
-Count the number of items in a list property:
+Numără câte elemente sunt într-o proprietate de tip listă:
 
 ```js
 tasks.length
 ```
 
-### Calculate priority score
+### Calculează un scor de prioritate
 
-Combine multiple factors into a priority score:
+Combină mai mulți factori într-un scor de prioritate:
 
 ```js
 (impact * urgency) / effort
 ```
 
-### Combine text fields
+### Combină câmpuri de text
 
-Create a full name from first and last name:
+Creează un nume complet din prenume și nume de familie:
 
 ```js
 first_name + " " + last_name
 ```
 
-### Calculate total cost
+### Calculează costul total
 
-Multiply monthly cost by number of months owned:
+Înmulțește costul lunar cu numărul de luni deținute:
 
 ```js
 monthlyUses * formula.Owned.round()
 ```
 
-## Data types
+## Tipuri de date
 
-Formulas work with different types of data:
+Formulele lucrează cu diferite tipuri de date:
 
-- **Strings** — Text enclosed in quotes: `"hello"` or `'world'`
-- **Numbers** — Numeric values: `42`, `3.14`, `(2 + 2)`
-- **Booleans** — True or false: `true`, `false`
-- **Dates** — Created with `date()`, `today()`, or `now()`
-- **Lists** — Collections of values: `[1, 2, 3]`
-- **Objects** — Key-value pairs: `{"name": "value"}`
+- **Stringuri** — Text încadrat în ghilimele: `"hello"` sau `'world'`
+- **Numere** — Valori numerice: `42`, `3.14`, `(2 + 2)`
+- **Valori booleene** — Adevărat sau fals: `true`, `false`
+- **Date calendaristice** — Create cu `date()`, `today()` sau `now()`
+- **Liste** — Colecții de valori: `[1, 2, 3]`
+- **Obiecte** — Perechi cheie-valoare: `{"name": "value"}`
 
-The output type of a formula is determined by the data and functions used.
+Tipul rezultatului unei formule este determinat de datele și funcțiile folosite.
 
-## Reference other formulas
+## Fă referire la alte formule
 
-Formulas can reference other formulas, creating derived calculations. For example, if you have a formula called `price_per_unit`:
+Formulele pot face referire la alte formule, creând calcule derivate. De exemplu, dacă ai o formulă numită `price_per_unit`:
 
 ```js
 price / quantity
 ```
 
-You can reference it in another formula:
+Poți face referire la ea într-o altă formulă:
 
 ```js
 formula.price_per_unit * 1.1
 ```
 
-> [!warning] Avoid circular references
-> A formula cannot reference itself directly or indirectly through other formulas.
+> [!warning] Evită referințele circulare
+> O formulă nu poate face referire la ea însăși, direct sau indirect, prin intermediul altor formule.

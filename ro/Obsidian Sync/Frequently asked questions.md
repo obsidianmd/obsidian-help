@@ -1,83 +1,82 @@
 ---
-localized: null
 permalink: sync/faq
 publish: true
 mobile: true
-description: This page lists some of the common questions related to questions and limitations for Obsidian Sync.
+description: Această pagină listează câteva dintre întrebările frecvente legate de întrebări și limitări pentru Obsidian Sync.
 ---
 
-This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
+Această pagină listează câteva dintre întrebările frecvente legate de întrebări și limitări pentru [[Introduction to Obsidian Sync|Obsidian Sync]].
 
 ## General
 
-### What operating systems does Obsidian Sync support?
+### Ce sisteme de operare acceptă Obsidian Sync?
 
-Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
+Obsidian Sync este acceptat pe orice platformă pe care poate rula Obsidian. În prezent, acestea sunt Windows, macOS, Linux, Android și iOS.
 
-### Does Obsidian work with Apple's Lockdown Mode?
+### Funcționează Obsidian cu Modul de blocare (Lockdown Mode) de la Apple?
 
-Obsidian can be used in [Lockdown Mode](https://support.apple.com/en-us/105120) as long as Obsidian is added as an exclusion.
+Obsidian poate fi folosit în [Modul de blocare](https://support.apple.com/en-us/105120) atât timp cât Obsidian este adăugat ca excepție.
 
-### What type of data is synced?
+### Ce tip de date sunt sincronizate?
 
-By default your Obsidian notes, images, and your [[Configuration folder]] are synced. 
+Implicit, sunt sincronizate notele tale Obsidian, imaginile și [[Configuration folder|directorul de configurare]].
 
-You can add additional syncing options of PDF's, audio files, video files, and other files when you [[Sync settings and selective syncing]].
+Poți adăuga opțiuni suplimentare de sincronizare pentru fișiere PDF, audio, video și alte fișiere atunci când configurezi [[Sync settings and selective syncing]].
 
-### How much storage do I have?
+### Câtă stocare am la dispoziție?
 
-The storage limit depends on your Obsidian [[Plans and storage limits#Plans|Sync plan]]. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
+Limita de stocare depinde de [[Plans and storage limits#Planuri|planul tău Sync]]. Cantitatea maximă de stocare este de 100 GB. Această limită de stocare include [[Version history|istoricul versiunilor]].
 
-You can view **Storage usage** in the Obsidian app by going to **[[Settings]] → Sync**.
+Poți vedea **Utilizarea stocării** în aplicația Obsidian accesând **[[Settings]] → Sync**.
 
-### How many remote vaults can I have?  
+### Câte seifuri la distanță pot avea?
 
-The number of remote vaults you can have is determined based on your [[Plans and storage limits#Plans|Sync plan]]. The Standard plan includes 1 vault, the Plus plan includes 10 vaults. Vaults shared with you do not count towards your vault limit.
+Numărul de seifuri la distanță pe care le poți avea este determinat de [[Plans and storage limits#Planuri|planul tău Sync]]. Planul Standard include 1 seif, planul Plus include 10 seifuri. Seifurile partajate cu tine nu se contorizează în limita ta de seifuri.
 
-### How large can each remote vault be?
+### Cât de mare poate fi fiecare seif la distanță?
 
-There is no per-vault limit. The storage limit is tied to your used account and can be applied across all your vaults.
+Nu există o limită per seif. Limita de stocare este legată de contul tău și poate fi aplicată pe toate seifurile tale.
 
-### How many people can I share a remote vault with?
+### Cu câte persoane pot partaja un seif la distanță?
 
-You can [[Collaborate on a shared vault|share a remote vault]] with up to 20 people.
+Poți [[Collaborate on a shared vault|partaja un seif la distanță]] cu până la 20 de persoane.
 
-### How large can each file be?
+### Cât de mare poate fi fiecare fișier?
 
-The maximum file size depends on your [[Plans and storage limits|Obsidian Sync plan]]. For the Standard plan the limit is 5 MB. For the Plus plan the limit is 200 MB per file.
+Dimensiunea maximă a fișierului depinde de [[Plans and storage limits|planul tău Obsidian Sync]]. Pentru planul Standard limita este de 5 MB. Pentru planul Plus limita este de 200 MB per fișier.
 
-### Is my data being synced in the background?
+### Datele mele sunt sincronizate în fundal?
 
-No, files are only synced when Obsidian is running.
+Nu, fișierele sunt sincronizate doar atunci când Obsidian rulează.
 
-### Does Obsidian Sync live-reload my settings?
+### Obsidian Sync reîncarcă automat setările mele?
 
-Obsidian Sync can automatically reload certain settings, but there are some limitations. For more details, refer to [[Sync settings and selective syncing#Reloading of settings|Reloading of settings]].
+Obsidian Sync poate reîncărca automat anumite setări, dar există unele limitări. Pentru mai multe detalii, consultă [[Sync settings and selective syncing#Reîncărcarea setărilor|Reîncărcarea setărilor]].
 
-### Can I use a third-party sync with Obsidian Sync?
+### Pot folosi un serviciu de sincronizare terț împreună cu Obsidian Sync?
 
-We do not recommend using a third-party sync service alongside Obsidian Sync. Using the a third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
+Nu recomandăm utilizarea unui serviciu de sincronizare terț alături de Obsidian Sync. Folosirea unui serviciu terț și a Obsidian Sync pe mai multe dispozitive poate duce la conflicte, rezultând în fișiere duplicate sau corupte.
 
-Cloud storage services like OneDrive and Dropbox offer "Files on-demand" or "Online-only files" features, which download files only when needed and remove them locally to save space. However, since these files are not always available locally, Obsidian Sync will interpret them as deleted, leading to their removal from your remote vault.
- 
-To avoid these issues, disable on-demand downloads when using Obsidian Sync with services like OneDrive or Dropbox. You will need to ensure that the third-party service settings are configured to always keep files on the device.
+Serviciile de stocare în cloud precum OneDrive și Dropbox oferă funcții precum „Fișiere la cerere” sau „Fișiere doar online”, care descarcă fișierele doar atunci când este nevoie și le elimină local pentru a economisi spațiu. Totuși, deoarece aceste fișiere nu sunt întotdeauna disponibile local, Obsidian Sync le va interpreta ca fiind șterse, ceea ce va duce la eliminarea lor din seiful tău la distanță.
 
-## Data retention
+Pentru a evita aceste probleme, dezactivează descărcările la cerere atunci când folosești Obsidian Sync împreună cu servicii precum OneDrive sau Dropbox. Va trebui să te asiguri că setările serviciului terț sunt configurate să păstreze întotdeauna fișierele pe dispozitiv.
 
-These are commonly asked questions on Obsidian's data retention. For more in depth answers, see [[Obsidian Sync/Security and privacy|Security and privacy]].
+## Reținerea datelor
 
-### How long do you keep the version history?
+Acestea sunt întrebări frecvent adresate despre reținerea datelor de către Obsidian. Pentru răspunsuri mai detaliate, vezi [[Obsidian Sync/Security and privacy|Securitate și confidențialitate]].
 
-[[Version history]] depends on your [[Plans and storage limits|Obsidian Sync plan]]. On the Standard plan your notes are retained for 1 month. On the Plus plan your notes are retained for 12 months. After this period of time the older versions are deleted.
+### Cât timp păstrați istoricul versiunilor?
 
-Older versions of [[Attachments|attachments]] are stored for two weeks.
+[[Version history|Istoricul versiunilor]] depinde de [[Plans and storage limits|planul tău Obsidian Sync]]. Pe planul Standard, notele tale sunt păstrate timp de 1 lună. Pe planul Plus, notele tale sunt păstrate timp de 12 luni. După această perioadă, versiunile mai vechi sunt șterse.
 
-### How long do you keep my data after my subscription expires?
+Versiunile mai vechi ale [[Attachments|atașamentelor]] sunt stocate timp de două săptămâni.
 
-We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
+### Cât timp păstrați datele mele după expirarea abonamentului?
 
-As long as you renew within one month, there should be no impact on your usage. If you renew after a month, when your remote vaults have been removed, you can [[Set up Obsidian Sync|create a new remote vault]] and connect your local vault.
+Păstrăm datele din seifurile tale la distanță, inclusiv istoricul versiunilor, timp de o lună după expirarea abonamentului. Seifurile locale de pe dispozitivele tale nu sunt afectate.
 
-### Do you keep my data if I refund my subscription service?
+Atât timp cât reînnoiești abonamentul în decurs de o lună, nu ar trebui să existe niciun impact asupra utilizării tale. Dacă reînnoiești după o lună, când seifurile tale la distanță au fost eliminate, poți [[Set up Obsidian Sync|crea un nou seif la distanță]] și conecta seiful tău local.
 
-No. The data is deleted immediately from Obsidian Sync servers. Data in your [[Local and remote vaults|local vault]] is not affected.
+### Păstrați datele mele dacă solicit rambursarea abonamentului?
+
+Nu. Datele sunt șterse imediat de pe serverele Obsidian Sync. Datele din [[Local and remote vaults|seiful tău local]] nu sunt afectate.

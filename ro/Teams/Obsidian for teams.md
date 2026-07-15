@@ -1,36 +1,35 @@
 ---
-localized: null
 permalink: teams
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian can be used as a note-taking application for individuals, and as a collaboration tool for your team.
+Obsidian poate fi folosit ca aplicație de luare a notițelor pentru persoane individuale, precum și ca instrument de colaborare pentru echipa dumneavoastră.
 
-## Use Obsidian with your team
+## Folosiți Obsidian cu echipa dumneavoastră
 
 - [[Commercial license]]
-	- Support Obsidian by purchasing a commercial license.
-- [[Deploy Obsidian across your team|Deploy Obsidian]]
-	- How to install, update, and customize Obsidian across your team.
+	- Susțineți Obsidian achiziționând o licență comercială.
+- [[Deploy Obsidian across your team|Implementarea Obsidian]]
+	- Cum să instalați, actualizați și personalizați Obsidian pentru întreaga echipă.
 - [[Syncing for teams]]
-	- How to sync data across your team.
+	- Cum să sincronizați datele în cadrul echipei dumneavoastră.
 - [[Publishing for teams]]
-	- How to publish data from your team's vault.
+	- Cum să publicați date din seiful echipei dumneavoastră.
 
-## Important resources
+## Resurse importante
 
-Below are important links to relevant parts of our main website, and are listed here for quick access. 
+Mai jos sunt legături importante către secțiuni relevante ale site-ului nostru principal, listate aici pentru acces rapid.
 
-- [Purchase our products](https://obsidian.md/pricing)
-	- Purchase a Commercial license, Sync, or Publish
-- [Report a bug](https://forum.obsidian.md/c/bug-reports/7)
-	- Report an application issue
-- [Request a new feature](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
-	- Report a feature request
-- [License overview](https://obsidian.md/license)
-	- Review our license overview in plain English
-- [Terms of Service](https://obsidian.md/terms)
-	- Review our latest Terms of Service
-- [Privacy Policy](https://obsidian.md/privacy)
-	- Review our privacy policy
+- [Achiziționați produsele noastre](https://obsidian.md/pricing)
+	- Achiziționați o licență comercială, Sync sau Publish
+- [Raportați o eroare](https://forum.obsidian.md/c/bug-reports/7)
+	- Raportați o problemă a aplicației
+- [Solicitați o funcționalitate nouă](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
+	- Trimiteți o solicitare de funcționalitate
+- [Prezentare generală a licenței](https://obsidian.md/license)
+	- Consultați prezentarea generală a licenței noastre, explicată simplu
+- [Termeni și condiții](https://obsidian.md/terms)
+	- Consultați cei mai recenți Termeni și condiții
+- [Politica de confidențialitate](https://obsidian.md/privacy)
+	- Consultați politica noastră de confidențialitate

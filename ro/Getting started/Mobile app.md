@@ -1,97 +1,96 @@
 ---
-localized: null
 permalink: mobile
 cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: 'Learn about mobile-specific features in Obsidian, including the mobile toolbar, quick actions, and navigation bar.'
+description: 'Aflați despre funcțiile specifice dispozitivelor mobile din Obsidian, inclusiv bara de instrumente mobilă, acțiunile rapide și bara de navigare.'
 ---
 
-Obsidian mobile apps are available for [[Obsidian for iOS and iPadOS|iOS and iPadOS]] and [[Obsidian for Android|Android]]. You can download them from the [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) and [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
+Aplicațiile mobile Obsidian sunt disponibile pentru [[Obsidian for iOS and iPadOS|iOS și iPadOS]] și [[Obsidian for Android|Android]]. Le puteți descărca din [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) și [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 
-Obsidian works similarly on mobile as it does on desktop, but has a few unique features such as widgets, toolbar, and quick action.
+Obsidian funcționează similar pe mobil ca pe desktop, dar are câteva funcții unice, precum widget-uri, bara de instrumente și acțiunea rapidă.
 
-## Widgets, shortcuts, and Siri
+## Widget-uri, comenzi rapide și Siri
 
-For OS-specific features, see the following pages:
+Pentru funcții specifice sistemului de operare, consultați următoarele pagini:
 
-- [[Obsidian for iOS and iPadOS|iOS and iPadOS]]
+- [[Obsidian for iOS and iPadOS|iOS și iPadOS]]
 - [[Obsidian for Android|Android]]
 
 
-## Mobile toolbar
+## Bara de instrumente mobilă
 
-Mobile toolbar is a customization toolbar for editing notes.
+Bara de instrumente mobilă este o bară de instrumente personalizabilă pentru editarea notelor.
 
-When editing a note, you will notice a row of icons at the bottom of the app. The default arrangement of actions provides quick access to commonly used functionalities. You can customize them as well.
+Când editați o notă, veți observa un rând de pictograme în partea de jos a aplicației. Aranjamentul implicit al acțiunilor oferă acces rapid la funcționalitățile folosite frecvent. Le puteți personaliza și dumneavoastră.
 
-> [!tip] Scroll the toolbar
-> If you have lots of actions on the toolbar, you can swipe left and right on the toolbar to reveal more actions.
+> [!tip] Derulați bara de instrumente
+> Dacă aveți multe acțiuni pe bara de instrumente, puteți glisa la stânga și la dreapta pe bară pentru a dezvălui mai multe acțiuni.
 
-### Customize mobile toolbar
+### Personalizați bara de instrumente mobilă
 
-In the mobile toolbar, tap **Configure mobile toolbar** ![[lucide-wrench.svg#icon]]  to open the interface to customize it.
+În bara de instrumente mobilă, apăsați **Configurați bara de instrumente mobilă** ![[lucide-wrench.svg#icon]] pentru a deschide interfața de personalizare.
 
-Alternatively, you can do it in Settings.
+Alternativ, o puteți face din Setări.
 
-1. Open Settings.
-2. Choose **Mobile**.
-3. Under **Manage toolbar options**, add, remove, or reorder the available options.
+1. Deschideți Setări.
+2. Alegeți **Mobil**.
+3. Sub **Gestionați opțiunile barei de instrumente**, adăugați, eliminați sau reordonați opțiunile disponibile.
 
-### Add command to mobile toolbar
+### Adăugați o comandă pe bara de instrumente mobilă
 
-By default, the options that are available to be added to the toolbar are editing options like "Add internal link" or "Add tag".
+Implicit, opțiunile disponibile pentru a fi adăugate pe bara de instrumente sunt opțiuni de editare precum „Adăugați o legătură internă” sau „Adăugați o etichetă”.
 
-In addition to that, you can add global commands like "Change theme".
+Pe lângă acestea, puteți adăuga comenzi globale precum „Schimbați tema”.
 
-1. Find **Manage toolbar options** under **[[Settings]]** → **Mobile**.
-2. Scroll to the very bottom, find **Add global command**.
-3. Type the name of the command you wish to add.
-4. Select the command you’ll like to add.
-5. The new command gets added to the end of the toolbar.
+1. Găsiți **Gestionați opțiunile barei de instrumente** sub **[[Settings]]** → **Mobil**.
+2. Derulați până în partea de jos, găsiți **Adăugați o comandă globală**.
+3. Introduceți numele comenzii pe care doriți să o adăugați.
+4. Selectați comanda pe care doriți să o adăugați.
+5. Noua comandă este adăugată la finalul barei de instrumente.
 
-## Quick Action
+## Acțiunea rapidă
 
-On the mobile app, you can define one action that gets invoked by pulling down from the top of the app, similar to how you would pull to refresh on social media apps.
+Pe aplicația mobilă, puteți defini o acțiune care este declanșată tragând în jos din partea de sus a aplicației, similar cu gestul de reîmprospătare de pe aplicațiile de socializare.
 
-Quick Action defaults to open [[Command palette]].
+Acțiunea rapidă are implicit ca funcție deschiderea [[Command palette]].
 
-### Customize Quick Action
+### Personalizați acțiunea rapidă
 
-1. Open Settings.
-2. Under **Options**, choose **Toolbar**.
-3. Under **Configure mobile Quick Action**, tap **Configure**.
-4. Type the name of the command.
-5. Select the command you’d like to set.
-6. Close the setting page.
+1. Deschideți Setări.
+2. Sub **Opțiuni**, alegeți **Bara de instrumente**.
+3. Sub **Configurați acțiunea rapidă mobilă**, apăsați **Configurare**.
+4. Introduceți numele comenzii.
+5. Selectați comanda pe care doriți să o setați.
+6. Închideți pagina de setări.
 
-Now, when you pull down from the top, the new Quick Action will be invoked.
+Acum, când trageți în jos din partea de sus, noua acțiune rapidă va fi declanșată.
 
-## Navigation bar
+## Bara de navigare
 
-The navigation bar on mobile helps you navigate the app. The navigation bar shows up when you’re not editing the app.
+Bara de navigare de pe mobil vă ajută să navigați prin aplicație. Bara de navigare apare atunci când nu editați în aplicație.
 
-With the **Toggle keyboard** toolbar option, you can close the mobile toolbar and switch to the navigation bar instead.
+Cu opțiunea de bară de instrumente **Comutați tastatura**, puteți închide bara de instrumente mobilă și trece la bara de navigare.
 
-### Go back or forward
+### Mergeți înainte sau înapoi
 
-On the navigation bar, the first two options helps you go back ![[lucide-chevron-left.svg#icon]] or forward ![[lucide-chevron-right.svg#icon]]. If one of the options is not available, the icon is greyed out.
+Pe bara de navigare, primele două opțiuni vă ajută să mergeți înapoi ![[lucide-chevron-left.svg#icon]] sau înainte ![[lucide-chevron-right.svg#icon]]. Dacă una dintre opțiuni nu este disponibilă, pictograma este estompată.
 
-### Create or find note
+### Creați sau găsiți o notă
 
-The middle plus in circle icon lets you create a new note or switch to an existing note. This is equivalent to opening [[Quick switcher]].
+Pictograma cu plus în cerc din mijloc vă permite să creați o notă nouă sau să treceți la o notă existentă. Aceasta este echivalentă cu deschiderea [[Quick switcher]].
 
-### Tab management
+### Gestionarea filelor
 
-The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box and indicates how many tabs open.
+A doua pictogramă din dreapta vă arată câte file sunt deschise în prezent. Pictograma arată ca un număr într-un chenar și indică numărul de file deschise.
 
-When you tap it, you’ll be able to switch to any open tab. You can also open a new tab.
+Când apăsați pe ea, veți putea trece la orice filă deschisă. Puteți deschide și o filă nouă.
 
-### Ribbon actions
+### Acțiunile panglicii
 
-The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** ![[lucide-menu.svg#icon]], the last option on the navigation bar.
+Aplicația mobilă nu are [[Ribbon]]. În schimb, acțiunile panglicii vor fi disponibile când apăsați **Deschideți meniul** ![[lucide-menu.svg#icon]], ultima opțiune de pe bara de navigare.
 
-### Sidebars
+### Barele laterale
 
-For detailed information about how sidebars work on mobile, see [[Sidebar#Open hidden sidebars#Mobile and smaller tablets|Opening sidebars on mobile]].
+Pentru informații detaliate despre modul de funcționare al barelor laterale pe mobil, consultați [[Sidebar#Deschiderea barelor laterale ascunse#Mobil și tablete mai mici|Deschiderea barelor laterale pe mobil]].

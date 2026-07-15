@@ -1,72 +1,71 @@
 ---
-localized: null
 permalink: edit-and-read
 ---
 
-Obsidian lets you control how you read and edit notes written in Markdown using _views_ and _modes_.
+Obsidian vă permite să controlați modul în care citiți și editați notele scrise în Markdown folosind _moduri de afișare_ și _moduri de editare_.
 
-- **Views** toggle between reading and editing your notes.
-- **Modes** control how Markdown appears while you're editing.
+- **Modurile de afișare** comută între citirea și editarea notelor dvs.
+- **Modurile de editare** controlează modul în care apare Markdown în timp ce editați.
 
-> [!note] Note
-> By default, Obsidian opens new tabs in editing mode. You can change this under **[[Settings]] → Editor → Default view for new tabs**.
+> [!note] Notă
+> Implicit, Obsidian deschide filele noi în modul de editare. Puteți schimba acest lucru din **[[Settings]] → Editor → Alegeți modul implicit al filelor nou create**.
 
-## Reading view
+## Modul de citire
 
-*Reading view* shows your note without Markdown syntax, offering a clean, readable format for focused review.
+*Modul de citire* vă afișează nota fără sintaxă Markdown, oferind un format curat, ușor de citit, pentru o analiză concentrată.
 
-To switch to *Reading view*:
+Pentru a comuta la *modul de citire*:
 
-- Click the view switcher ![[lucide-book-icon.svg#icon]] in the upper-right corner of the editor.
-- Or click the interactive status icon ![[lucide-edit-3.svg#icon]] or ![[lucide-code-xml.svg#icon]] in the status bar and select **Reading view**.
-- Or press `Ctrl+E` (`Cmd+E` on macOS).
+- Faceți clic pe comutatorul de mod ![[lucide-book-icon.svg#icon]] din colțul din dreapta sus al editorului.
+- Sau faceți clic pe pictograma interactivă de stare ![[lucide-edit-3.svg#icon]] sau ![[lucide-code-xml.svg#icon]] din bara de stare și selectați **Modul de citire**.
+- Sau apăsați `Ctrl+E` (`Cmd+E` pe macOS).
 
-> [!note] Note
-> Enable **[[Settings]] → Appearance → Show tab title bar** to see the view switcher icon.  
+> [!note] Notă
+> Activați **[[Settings]] → Appearance → Show tab title bar** pentru a vedea pictograma comutatorului de mod.  
 > 
-> If that is disabled, turn on **[[Settings]] → Editor → Show editing mode in status bar** to toggle views from the status bar.
+> Dacă aceasta este dezactivată, activați **[[Settings]] → Editor → Show editing mode in status bar** pentru a comuta modurile de afișare din bara de stare.
 
-> [!tip] View side-by-side  
-> To open a note in both *Editing* and *Reading view* at the same time, hold `Ctrl` (or `Cmd` on macOS) and click the view switcher.
+> [!tip] Vizualizare unul lângă altul  
+> Pentru a deschide o notă atât în *modul de editare*, cât și în *modul de citire* simultan, țineți apăsat `Ctrl` (sau `Cmd` pe macOS) și faceți clic pe comutatorul de mod.
 
-## Editing view
+## Modul de editare
 
-*Editing view* lets you make changes to your note.
+*Modul de editare* vă permite să faceți modificări la nota dvs.
 
-While in *Editing view*, the *Editing mode* defines, how Markdown is displayed. You can choose one of two *Editing modes*: *Live Preview* or *Source mode*.
+În *modul de editare*, *modul de editare a formatării* stabilește modul în care este afișat Markdown. Puteți alege unul dintre cele două *moduri de editare a formatării*: *Live Preview* sau *modul sursă*.
 
 ### Live Preview
 
-*Live Preview* shows formatted text inline while hiding most Markdown syntax. When your cursor enters formatted content, the underlying syntax becomes visible for editing.
+*Live Preview* afișează textul formatat direct în notă, ascunzând cea mai mare parte a sintaxei Markdown. Când cursorul dvs. intră în conținut formatat, sintaxa de bază devine vizibilă pentru editare.
 
-To switch to *Live Preview*:
+Pentru a comuta la *Live Preview*:
 
-- Click the view switcher ![[lucide-edit-3.svg#icon]] in the upper-right corner of the editor.
-- Or click the interactive status icon ![[lucide-book-icon.svg#icon]] or ![[lucide-code-xml.svg#icon]] in the status bar and select **Live Preview**.
-- Or press `Ctrl+E` (`Cmd+E` on macOS).
-- Or use the [[Command palette|command]] **Toggle Reading view**.
+- Faceți clic pe comutatorul de mod ![[lucide-edit-3.svg#icon]] din colțul din dreapta sus al editorului.
+- Sau faceți clic pe pictograma interactivă de stare ![[lucide-book-icon.svg#icon]] sau ![[lucide-code-xml.svg#icon]] din bara de stare și selectați **Live Preview**.
+- Sau apăsați `Ctrl+E` (`Cmd+E` pe macOS).
+- Sau folosiți [[Command palette|comanda]] **Comutați modul de citire**.
 
-> [!note] Note
-> By default, editing view is set to *Live Preview*. You can change this under **[[Settings]] → Editor → Default editing mode**.
+> [!note] Notă
+> Implicit, modul de editare este setat la *Live Preview*. Puteți schimba acest lucru din **[[Settings]] → Editor → Alegeți modul de editare implicit**.
 
-> [!tip] In many cases, Live Preview can eliminate the need to switch to [[#Reading view]].
+> [!tip] În multe cazuri, Live Preview poate elimina necesitatea de a comuta la [[#Reading view|modul de citire]].
 
-### Source mode
+### Modul sursă
 
-*Source mode* displays all Markdown syntax exactly as written. Use it if you prefer plain text or need precise formatting control.
+*Modul sursă* afișează toată sintaxa Markdown exact așa cum a fost scrisă. Folosiți-l dacă preferați text simplu sau aveți nevoie de control precis asupra formatării.
 
-To switch to *Source mode*:
-- Click the interactive status icon ![[lucide-book-icon.svg#icon]] or ![[lucide-edit-3.svg#icon]]  in the status bar and select **Source mode**.
+Pentru a comuta la *modul sursă*:
+- Faceți clic pe pictograma interactivă de stare ![[lucide-book-icon.svg#icon]] sau ![[lucide-edit-3.svg#icon]] din bara de stare și selectați **Modul sursă**.
 
-> [!note] Note
-> By default, editing view is set to *Live Preview*. Change this to *Source mode* under **[[Settings]] → Editor → Default editing mode**.
+> [!note] Notă
+> Implicit, modul de editare este setat la *Live Preview*. Schimbați acest lucru la *modul sursă* din **[[Settings]] → Editor → Alegeți modul de editare implicit**.
 > 
-> To switch to *Source mode*, now additionally you can:
+> Pentru a comuta la *modul sursă*, acum puteți suplimentar:
 > 
-> - Click the view switcher ![[lucide-edit-3.svg#icon]] in the upper right corner of your note.
-> - Or press `Ctrl+E` (`Cmd+E` on macOS).
-> - Or use the [[Command palette|command]] **Toggle Reading view**.
+> - Faceți clic pe comutatorul de mod ![[lucide-edit-3.svg#icon]] din colțul din dreapta sus al notei dvs.
+> - Sau apăsați `Ctrl+E` (`Cmd+E` pe macOS).
+> - Sau folosiți [[Command palette|comanda]] **Comutați modul de citire**.
 
-> [!tip] Toggle *Editing mode*
-> To toggle between *Live Preview* and *Source mode* quickly, you can set a [[Hotkeys|Hotkey]] for the [[Command palette|command]] **Toggle Live Preview/Source mode**.
+> [!tip] Comutați *modul de editare*
+> Pentru a comuta rapid între *Live Preview* și *modul sursă*, puteți seta o [[Hotkeys|combinație de taste]] pentru comanda **Comutați modul previzualizare în direct/sursă** din [[Command palette|Paleta de comenzi]].
 

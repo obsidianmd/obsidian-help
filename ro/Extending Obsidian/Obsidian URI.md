@@ -1,192 +1,191 @@
 ---
-localized: null
 permalink: uri
 ---
-Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
+Obsidian URI este un protocol URI personalizat acceptat de Obsidian, care vă permite să declanșați diverse acțiuni, cum ar fi deschiderea unei note sau crearea unei note. Obsidian URI permite automatizarea și fluxuri de lucru între aplicații.
 
-## URI format
+## Formatul URI
 
-Obsidian URIs use the following format:
+URI-urile Obsidian folosesc următorul format:
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-The `action` parameter is the action that you would like to perform. Available actions include:
+Parametrul `action` este acțiunea pe care doriți să o efectuați. Acțiunile disponibile includ:
 
-- `open` to open a note.
-- `new` to create or add to an existing note.
-- `daily` to create or open your daily note.
-- `unique` to create a new unique note.
-- `search` to open a search.
-- `choose-vault` to open the vault manager.
+- `open` pentru a deschide o notă.
+- `new` pentru a crea sau adăuga la o notă existentă.
+- `daily` pentru a crea sau deschide nota zilnică.
+- `unique` pentru a crea o notă unică nouă.
+- `search` pentru a deschide o căutare.
+- `choose-vault` pentru a deschide administratorul de seifuri.
 
-> [!warning] Encoding
-> Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+> [!warning] Codificare
+> Asigurați-vă că valorile sunt codificate corect ca URI. De exemplu, caracterele de bară oblică `/` trebuie codificate ca `%2F`, iar caracterele spațiu trebuie codificate ca `%20`.
 > 
- This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding).
+ Acest lucru este deosebit de important deoarece un caracter „rezervat” codificat incorect poate strica interpretarea URI-ului. [Consultați aici pentru detalii](https://en.wikipedia.org/wiki/Percent-encoding).
 
-## Open note
+## Deschide notă
 
-The `open` action opens an Obsidian vault, or opens a file within that vault.
+Acțiunea `open` deschide un seif Obsidian sau un fișier din interiorul acelui seif.
 
-### Examples
+### Exemple
 
 - `obsidian://open?vault=my%20vault`
-  This opens the vault `my vault`. If the vault is already open, focus on the window.
+  Aceasta deschide seiful `my vault`. Dacă seiful este deja deschis, va aduce fereastra în prim-plan.
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-  This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+  Aceasta deschide seiful identificat prin ID-ul `ef6ca3e3b524d22f`.
 - `obsidian://open?vault=my%20vault&file=my%20note`
-  This opens the note `my note.md` in the vault `my vault`, assuming the file exists.
+  Aceasta deschide nota `my note.md` în seiful `my vault`, presupunând că fișierul există.
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-  This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+  Aceasta va căuta orice seif care conține calea `/home/user/my vault/path/to/my note`. Apoi, restul căii este transmis parametrului `file`. De exemplu, dacă există un seif la `/home/user/my vault`, aceasta ar fi echivalentă cu parametrul `file` setat la `path/to/my note`.
 
 
-> [!tip] Open a heading or block
-> With proper URI encoding, you can navigate to a heading or block within a note. `Note%23Heading` would navigate to the heading called "Heading", whereas `Note%23%5EBlock` would navigate to the block called "Block".
+> [!tip] Deschideți un titlu sau un bloc
+> Cu o codificare URI corectă, puteți naviga către un titlu sau un bloc dintr-o notă. `Note%23Heading` ar naviga către titlul numit „Heading”, în timp ce `Note%23%5EBlock` ar naviga către blocul numit „Block”.
 
-### Parameters
+### Parametri
 
-- `vault` can be either the vault name or the vault ID[^1].
-- `file` can be either a file name, or a path from the vault root to the specified file. If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-  - Using this parameter will override both `vault` and `file`.
-  - This will cause the app to search for the most specific vault which contains the specified file path.
-  - Then the rest of the path replaces the `file` parameter.
-- `prepend` will add to the top of the file and attempt to merge properties.
-- `append` will add to the end of the file and also attempt to merge properties.
-- `paneType` (optional) determines where the note will be opened in the UI.
-  - if not present, the last active tab is replaced.
-  - `paneType=tab` open in a new tab.
-  - `paneType=split` open in a new tab group.
-  - `paneType=window` open in a pop-out window (Desktop only).
+- `vault` poate fi fie numele seifului, fie ID-ul seifului[^1].
+- `file` poate fi fie un nume de fișier, fie o cale din rădăcina seifului către fișierul specificat. Dacă extensia fișierului este `md`, extensia poate fi omisă.
+- `path` o cale absolută din sistemul de fișiere către un fișier.
+  - Folosirea acestui parametru va suprascrie atât `vault`, cât și `file`.
+  - Aceasta va determina aplicația să caute cel mai specific seif care conține calea fișierului specificat.
+  - Apoi restul căii înlocuiește parametrul `file`.
+- `prepend` va adăuga la începutul fișierului și va încerca să îmbine proprietățile.
+- `append` va adăuga la sfârșitul fișierului și, de asemenea, va încerca să îmbine proprietățile.
+- `paneType` (opțional) determină unde va fi deschisă nota în interfață.
+  - dacă nu este prezent, ultima filă activă este înlocuită.
+  - `paneType=tab` deschide într-o filă nouă.
+  - `paneType=split` deschide într-un grup de file nou.
+  - `paneType=window` deschide într-o fereastră separată (doar pe Desktop).
 
-## Create note
+## Creează notă
 
-The `new` action, creates a new note in the vault, optionally with some content.
+Acțiunea `new` creează o notă nouă în seif, opțional cu un conținut.
 
-### Examples
+### Exemple
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-  This opens the vault `my vault`, and creates a new note called `my note`.
+  Aceasta deschide seiful `my vault` și creează o notă nouă numită `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-  This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+  Aceasta deschide seiful `my vault` și creează o notă nouă la `path/to/my note`.
 
-### Parameters
+### Parametri
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `file` a vault absolute path, including the name. Will override `name` if specified.
-- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `silent` (optional) include this parameter if you don't want to open the new note.
-- `append` (optional) include this parameter to append to an existing file if one exists.
-- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` poate fi fie numele seifului, fie ID-ul seifului[^1]. La fel ca la acțiunea `open`.
+- `name` numele fișierului care va fi creat. Dacă acesta este specificat, locația fișierului va fi aleasă în funcție de preferințele dumneavoastră „Locația implicită pentru notele noi”.
+- `file` o cale absolută din seif, incluzând numele. Va suprascrie `name` dacă este specificat.
+- `path` o cale absolută globală. Funcționează similar cu opțiunea `path` din acțiunea `open`, care va suprascrie atât `vault`, cât și `file`.
+- `paneType` (opțional) determină unde va fi deschisă nota în interfață. La fel ca la acțiunea `open`.
+- `content` (opțional) conținutul notei.
+- `clipboard` (opțional) folosește conținutul clipboard-ului în locul specificării `content`.
+- `silent` (opțional) includeți acest parametru dacă nu doriți să deschideți noua notă.
+- `append` (opțional) includeți acest parametru pentru a adăuga la un fișier existent, dacă există unul.
+- `overwrite` (opțional) suprascrie un fișier existent, dacă există unul, dar numai dacă `append` nu este setat.
+- `x-success` (opțional) consultați [[#Folosirea parametrilor x-callback-url]].
 
-## Create or open daily note
+## Creează sau deschide nota zilnică
 
-The `daily` action creates or opens your daily note. The [[Daily notes]] plugin must be enabled.
+Acțiunea `daily` creează sau deschide nota zilnică. Modulul [[Daily notes]] trebuie să fie activat.
 
-### Examples
+### Exemple
 
 - `obsidian://daily?vault=my%20vault`
-  This opens the vault `my vault`, and creates or opens the daily note.
+  Aceasta deschide seiful `my vault` și creează sau deschide nota zilnică.
 
-### Parameters
+### Parametri
 
-The `daily` action accepts the same parameters as the `new` action.
+Acțiunea `daily` acceptă aceiași parametri ca acțiunea `new`.
 
-## Unique Note
+## Notă unică
 
-The `unique` action creates a new unique note in the vault. The [[Plugins/Unique note creator|Unique note creator]] plugin must be enabled.
+Acțiunea `unique` creează o notă unică nouă în seif. Modulul [[Plugins/Unique note creator|Creator de note unice]] trebuie să fie activat.
 
-### Examples
+### Exemple
 
 - `obsidian://unique?vault=my%20vault`
-  This opens the vault `my vault`, and creates a new unique note.
+  Aceasta deschide seiful `my vault` și creează o notă unică nouă.
 - - `obsidian://unique?vault=my%20vault&content=Hello%20World`
-  This opens the vault `my vault`, and creates a new unique note with the content `Hello World`.
+  Aceasta deschide seiful `my vault` și creează o notă unică nouă cu conținutul `Hello World`.
 
-### Parameters
+### Parametri
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` poate fi fie numele seifului, fie ID-ul seifului[^1]. La fel ca la acțiunea `open`.
+- `paneType` (opțional) determină unde va fi deschisă nota în interfață. La fel ca la acțiunea `open`.
+- `content` (opțional) conținutul notei.
+- `clipboard` (opțional) folosește conținutul clipboard-ului în locul specificării `content`.
+- `x-success` (opțional) consultați [[#Folosirea parametrilor x-callback-url]].
 
-## Open search
+## Deschide căutarea
 
-The `search` action opens [[Search]] in the specified vault, and optionally perform a search term.
+Acțiunea `search` deschide [[Search]] în seiful specificat și, opțional, efectuează o căutare.
 
-### Examples
+### Exemple
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Search]].
+  Aceasta deschide seiful `my vault` și deschide [[Search]].
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
+  Aceasta deschide seiful `my vault`, deschide [[Search]] și efectuează o căutare pentru `Obsidian`.
 
-### Parameters
+### Parametri
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `query` (optional) The search term to perform.
+- `vault` poate fi fie numele seifului, fie ID-ul seifului[^1]. La fel ca la acțiunea `open`.
+- `query` (opțional) termenul de căutare de efectuat.
 
-## Open Vault Manager
+## Deschide administratorul de seifuri
 
-The `choose-vault` action opens the [[Manage vaults|vault manager]].
+Acțiunea `choose-vault` deschide [[Manage vaults|administratorul de seifuri]].
 
-### Examples
+### Exemple
 
 - `obsidian://choose-vault`
 
-## Integrate with Hook
+## Integrare cu Hook
 
-This Obsidian URI action is to be used with [Hook](https://hookproductivity.com/). 
+Această acțiune Obsidian URI este destinată utilizării cu [Hook](https://hookproductivity.com/). 
 
-### Example
+### Exemplu
 
 `obsidian://hook-get-address`
 
-### Parameters
+### Parametri
 
-- `vault` (optional) can be either the vault name, or the vault ID[^1]. If not provided, the current or last focused vault will be used.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
-- `x-error` (optional) see [[#Use x-callback-url parameters]].
+- `vault` (opțional) poate fi fie numele seifului, fie ID-ul seifului[^1]. Dacă nu este furnizat, va fi folosit seiful curent sau ultimul focalizat.
+- `x-success` (opțional) consultați [[#Folosirea parametrilor x-callback-url]].
+- `x-error` (opțional) consultați [[#Folosirea parametrilor x-callback-url]].
 
-If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a Markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
+Dacă `x-success` este definit, acest API îl va folosi drept x-callback-url. În caz contrar, va copia o legătură Markdown a notei curente focalizate în clipboard, sub forma unei adrese URL `obsidian://open`.
 
-## Use x-callback-url parameters
+## Folosirea parametrilor x-callback-url
 
-Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it's provided, Obsidian will provide the following to the `x-success` callback:
+Unele terminale acceptă parametrii x-callback-url `x-success` și `x-error`. Când este furnizat, Obsidian va oferi următoarele către callback-ul `x-success`:
 
-- `name` the name of the file, without the file extension.
-- `url` the `obsidian://` URI for this file.
-- `file` (desktop only) the `file://` URL for this file.
+- `name` numele fișierului, fără extensia fișierului.
+- `url` URI-ul `obsidian://` pentru acest fișier.
+- `file` (doar pe desktop) adresa URL `file://` pentru acest fișier.
 
-For example, if Obsidian receives
-`obsidian://.....x-success=myapp://x-callback-url`, the response would be `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
+De exemplu, dacă Obsidian primește
+`obsidian://.....x-success=myapp://x-callback-url`, răspunsul ar fi `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
 
-## Shorthand formats
+## Formate prescurtate
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+Pe lângă formatele de mai sus, mai există două formate „prescurtate” disponibile pentru deschiderea seifurilor și fișierelor:
 
-1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
-2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
+1. `obsidian://vault/my vault/my note` este echivalent cu `obsidian://open?vault=my%20vault&file=my%20note`.
+2. `obsidian:///absolute/path/to/my note` este echivalent cu `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
 
-## Troubleshooting
+## Depanare
 
-### Register Obsidian URI
+### Înregistrarea Obsidian URI
 
-On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
+Pe Windows și macOS, rularea aplicației o singură dată ar trebui să fie suficientă pentru a înregistra protocolul Obsidian URI pe computerul dumneavoastră.
 
-On Linux, it is a much more involved process:
+Pe Linux, este un proces mult mai complex:
 
-1. Ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
-2. Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-3. If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+1. Asigurați-vă că creați un fișier `obsidian.desktop`. [Consultați aici pentru detalii](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
+2. Asigurați-vă că fișierul desktop specifică câmpul `Exec` ca `Exec=executable %u`. `%u` este folosit pentru a transmite URI-urile `obsidian://` către aplicație.
+3. Dacă folosiți programul de instalare AppImage, este posibil să fie nevoie să îl dezarhivați folosind `Obsidian-x.y.z.AppImage --appimage-extract`. Apoi asigurați-vă că directiva `Exec` indică spre executabilul dezarhivat.
 
 
-[^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.
+[^1]: ID-ul seifului este codul aleatoriu de 16 caractere atribuit seifului, de exemplu `ef6ca3e3b524d22f`. Acest ID este unic pentru fiecare director de pe computerul dumneavoastră. ID-ul poate fi găsit deschizând comutatorul de seifuri și selectând „Copiază ID-ul seifului” din meniul contextual al seifului dorit.

@@ -1,101 +1,100 @@
 ---
-localized: null
 permalink: android
 ---
 
-The Obsidian mobile app for Android brings powerful note-taking capabilities to your Android device. You can download it from [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) or as an [APK file](https://obsidian.md/download).
-It supports Android versions 5.1 and above.
+Aplicația mobilă Obsidian pentru Android aduce funcții puternice de luare de notițe pe dispozitivul tău Android. O poți descărca din [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) sau ca [fișier APK](https://obsidian.md/download).
+Suportă versiunile Android 5.1 și mai noi.
 
-This page covers Android-specific features including widgets, Quick Settings integration, and shortcuts.
+Această pagină acoperă funcțiile specifice Android, inclusiv widget-uri, integrarea cu Setările rapide și scurtăturile.
 
 ## Sync
 
-To sync your notes with Obsidian on Android see [[Sync your notes across devices]].
+Pentru a sincroniza notele tale cu Obsidian pe Android, vezi [[Sync your notes across devices]].
 
-## Vault location
+## Locația seifului
 
-When you launch Obsidian on Android, you'll be asked to choose where your vault data should be stored. You can choose **device storage** (recommended) or **app storage**.
+Când lansezi Obsidian pe Android, ți se va cere să alegi unde ar trebui stocate datele seifului tău. Poți alege **stocarea pe dispozitiv** (recomandat) sau **stocarea în aplicație**.
 
-### Device storage
+### Stocarea pe dispozitiv
 
-With the **device storage** option, your data is stored in a shared location on your device. This allows your Obsidian vault to be accessed by other apps and services, such as third-party [[Sync your notes across devices|sync]] tools.
+Cu opțiunea **stocare pe dispozitiv**, datele tale sunt stocate într-o locație partajată pe dispozitivul tău. Acest lucru permite ca seiful tău Obsidian să fie accesat de alte aplicații și servicii, cum ar fi instrumentele terțe de [[Sync your notes across devices|sincronizare]].
 
-This is the recommended option because it offers better compatibility with sync tools and ensures your data persists even if you uninstall the app. However, this option requires additional permissions to access your device's files.
+Aceasta este opțiunea recomandată, deoarece oferă o compatibilitate mai bună cu instrumentele de sincronizare și asigură că datele tale persistă chiar dacă dezinstalezi aplicația. Totuși, această opțiune necesită permisiuni suplimentare pentru a accesa fișierele dispozitivului tău.
 
-Due to limitations with Android, Obsidian will request "All files" access to function reliably. Google recommends this for apps like Obsidian which are considered "document management apps". [Learn more](https://developer.android.com/training/data-storage/manage-all-files).
+Din cauza limitărilor Android, Obsidian va solicita acces „Toate fișierele” pentru a funcționa în mod fiabil. Google recomandă acest lucru pentru aplicații precum Obsidian, considerate „aplicații de gestionare a documentelor”. [Află mai multe](https://developer.android.com/training/data-storage/manage-all-files).
 
-The app only uses this permission to help you access your data on your device. Your data is never accessible to us. To learn more about how we protect your data and ensure your privacy, visit our [Security page](https://obsidian.md/security).
+Aplicația folosește această permisiune doar pentru a te ajuta să-ți accesezi datele de pe dispozitiv. Datele tale nu ne sunt niciodată accesibile nouă. Pentru a afla mai multe despre cum îți protejăm datele și îți asigurăm confidențialitatea, vizitează pagina noastră de [Securitate](https://obsidian.md/security).
 
-### App storage
+### Stocarea în aplicație
 
-With the **app storage** option, your data is stored in Obsidian’s private app storage. This keeps your data isolated from other apps for added privacy.
+Cu opțiunea **stocare în aplicație**, datele tale sunt stocate în spațiul de stocare privat al aplicației Obsidian. Astfel, datele tale rămân izolate de alte aplicații, pentru confidențialitate sporită.
 
-This is a good option if you're not using any external sync tools and prefer tighter app-level sandboxing for your notes.
+Aceasta este o opțiune bună dacă nu folosești niciun instrument extern de sincronizare și preferi o izolare mai strictă la nivel de aplicație pentru notele tale.
 
-With this option you can use [[Introduction to Obsidian Sync|Obsidian Sync]] and third-party syncing plugins available through [[Community plugins]], but you cannot use tools like Syncthing that rely on shared storage.
+Cu această opțiune poți folosi [[Introduction to Obsidian Sync|Obsidian Sync]] și module de sincronizare terțe disponibile prin [[Community plugins]], dar nu poți folosi instrumente precum Syncthing, care se bazează pe stocare partajată.
 
-> [!warning] Uninstalling Obsidian will delete your local notes if you are using app storage
-> If you use the **App storage** option your local vault data will be deleted if you uninstall the app. Your Obsidian vault data on other devices will not be deleted.
+> [!warning] Dezinstalarea Obsidian îți va șterge notele locale dacă folosești stocarea în aplicație
+> Dacă folosești opțiunea **Stocare în aplicație**, datele locale ale seifului tău vor fi șterse dacă dezinstalezi aplicația. Datele seifului tău Obsidian de pe alte dispozitive nu vor fi șterse.
 
-## Widgets
+## Widget-uri
 
-Obsidian for Android offers several widget options to quickly access your vaults and notes from your home screen. Available widgets include:
+Obsidian pentru Android oferă mai multe opțiuni de widget-uri pentru a accesa rapid seifurile și notele tale de pe ecranul de start. Widget-urile disponibile includ:
 
-- **Open Note** — Open a specific note
-- **New Note** — Create a new note
-- **Search** — Launch a search query
-- **Daily Note** — Open your daily note
-- **Open Obsidian** — Launch the app
+- **Deschide o notă** — Deschide o notă anume
+- **Notă nouă** — Creează o notă nouă
+- **Caută** — Lansează o interogare de căutare
+- **Notă zilnică** — Deschide nota ta zilnică
+- **Deschide Obsidian** — Lansează aplicația
 
-> [!note] Note
-> These widgets are static, and do not show any previews of the selected note or vault.
+> [!note] Notă
+> Aceste widget-uri sunt statice și nu afișează nicio previzualizare a notei sau seifului selectat.
 
-To add widgets to your home screen:
-1. Tap and hold anywhere on your home screen
-2. Select "Widgets"
-3. Find Obsidian, then select a widget that you want to use.
+Pentru a adăuga widget-uri pe ecranul tău de start:
+1. Apasă și menține apăsat oriunde pe ecranul de start
+2. Selectează „Widget-uri”
+3. Găsește Obsidian, apoi selectează widget-ul pe care vrei să-l folosești.
 
-> [!note] Note
-> Obsidian widgets can be resized. To resize a widget, tap and hold it, then drag the resizing handles.
+> [!note] Notă
+> Widget-urile Obsidian pot fi redimensionate. Pentru a redimensiona un widget, apasă și menține apăsat pe el, apoi trage mânerele de redimensionare.
 
-You can add multiple widgets of the same type to open different files or trigger different search queries. 
+Poți adăuga mai multe widget-uri de același tip pentru a deschide fișiere diferite sau a declanșa interogări de căutare diferite. 
 
-To configure a widget, long-press it on your home screen, then find an "Edit" or "Configure" option. This will allow you to specify the specific parameters required for that widget's on-tap action to work, like File or Path, Search Query, and Vault Name.
+Pentru a configura un widget, apasă lung pe el pe ecranul tău de start, apoi găsește o opțiune „Editează” sau „Configurează”. Aceasta îți va permite să specifici parametrii necesari pentru ca acțiunea widget-ului la apăsare să funcționeze, cum ar fi Fișier sau Cale, Interogare de căutare și Numele seifului.
 
-See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android Widgets.
+Consultă acest [articol de suport Google](https://support.google.com/android/answer/9450271?hl=en) pentru mai multe informații despre widget-urile Android.
 
-## Quick Settings tiles
+## Plăcuțe Setări rapide
 
-Requires Android 7.0 or higher.
+Necesită Android 7.0 sau o versiune mai nouă.
 
-Add an Obsidian Quick Settings tile for fast access to the app from your notification shade. Works on your Home Screen and Lock Screen.
+Adaugă o plăcuță Obsidian în Setările rapide pentru acces rapid la aplicație din zona de notificări. Funcționează atât pe ecranul de start, cât și pe ecranul de blocare.
 
-> [!note] Note
-> Unlike app widgets, you can only add one Quick Settings tile of the same type.
+> [!note] Notă
+> Spre deosebire de widget-urile aplicației, poți adăuga o singură plăcuță Setări rapide de același tip.
 
-To add a quick settings tile to your notification shade:
+Pentru a adăuga o plăcuță Setări rapide în zona de notificări:
 
-1. Access your notification shade, typically by swiping down from your status bar. Note: you may need to swipe one more time in order to see more options.
-2. In the Quick Settings tiles, select "Edit" - this is usually the same section where toggles like Wi-Fi, Bluetooth, and Orientation Lock are located.
-3. Find and select an Obsidian Quick Settings tile, then rearrange it to your liking.
-4. To configure a Quick Settings tile, tap and hold it to bring up the configuration screen.
+1. Accesează zona de notificări, de obicei trăgând în jos din bara de stare. Notă: s-ar putea să fie nevoie să tragi încă o dată pentru a vedea mai multe opțiuni.
+2. În plăcuțele Setări rapide, selectează „Editează” — de obicei aceeași secțiune unde se află comutatoare precum Wi-Fi, Bluetooth și Blocarea orientării.
+3. Găsește și selectează o plăcuță Obsidian Setări rapide, apoi rearanjeaz-o după cum dorești.
+4. Pentru a configura o plăcuță Setări rapide, apasă și menține apăsat pe ea pentru a deschide ecranul de configurare.
 
-See this  [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
+Consultă acest [articol de suport Google](https://support.google.com/android/answer/9083864?hl=en) pentru mai multe informații despre Setările rapide Android.
 
-## Shortcuts
+## Scurtături
 
-Requires Android 7.1 or higher.
+Necesită Android 7.1 sau o versiune mai nouă.
 
-Obsidian provides app shortcuts that can be accessed in several ways:
+Obsidian oferă scurtături de aplicație care pot fi accesate în mai multe moduri:
 
-- Long-press the Obsidian app icon
-- Drag the shortcut icon to your home screen
-- Access via the search bar on your launcher (available on most device vendors)
+- Apasă lung pe iconița aplicației Obsidian
+- Trage iconița scurtăturii pe ecranul tău de start
+- Accesează prin bara de căutare din lansatorul tău (disponibilă la majoritatea producătorilor de dispozitive)
 
-Available shortcuts:
+Scurtături disponibile:
 
-- **Open note** — Open a specific note in your vault
-- **Daily note** — Jump directly to today's daily note
+- **Deschide o notă** — Deschide o notă anume din seiful tău
+- **Notă zilnică** — Sari direct la nota ta zilnică de astăzi
 
-> [!note] Note
-> Shortcuts in Obsidian 1.11 are not configurable and will be overhauled in later versions to offer more dynamic options tailored to your specific notes.
+> [!note] Notă
+> Scurtăturile din Obsidian 1.11 nu sunt configurabile și vor fi revizuite în versiuni ulterioare pentru a oferi opțiuni mai dinamice, adaptate notelor tale specifice.

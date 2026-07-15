@@ -1,50 +1,49 @@
 ---
-localized: null
 permalink: plugins/file-recovery
 publish: true
 mobile: true
-description: File Recovery helps protect your work from unintentional data loss by automatically saving snapshots of your notes at regular intervals.
+description: File Recovery te ajută să-ți protejezi munca de pierderi accidentale de date, salvând automat instantanee ale notelor tale la intervale regulate.
 ---
 
-File recovery is a [[Core plugins|core plugin]] that protects your work from accidental deletions, file corruption, or unwanted changes by automatically saving complete snapshots of your notes at regular intervals. File recovery is not a complete backup solution, and we recommend also [[Back up your Obsidian files|backing up]] your Obsidian files separately.
+File recovery este un [[Core plugins|modul integrat]] care îți protejează munca de ștergeri accidentale, coruperea fișierelor sau modificări nedorite, salvând automat instantanee complete ale notelor tale la intervale regulate. File recovery nu este o soluție completă de backup și îți recomandăm să faci și [[Back up your Obsidian files|copii de siguranță]] pentru fișierele tale Obsidian, separat.
 
-To avoid taking up [[#Storage and performance|too much space]], Obsidian keeps snapshots for a certain number of days before deleting them. Snapshots capture the full content of your files, not just changes, allowing you to restore any previous version.
+Pentru a evita ocuparea a [[#Stocare și performanță|prea mult spațiu]], Obsidian păstrează instantaneele pentru un anumit număr de zile înainte de a le șterge. Instantaneele captează conținutul complet al fișierelor tale, nu doar modificările, permițându-ți să restaurezi orice versiune anterioară.
 
 > [!info]+ Info
-> By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **[[Settings]] → Core plugins → File recovery**.
+> Implicit, instantaneele sunt salvate la un interval minim de 5 minute între ele și sunt păstrate timp de 7 zile. Poți configura ambele intervale sub **[[Settings|Setări]] → Module integrate → File recovery**.
 
-Snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
+Instantaneele sunt păstrate în [[How Obsidian stores data#Global settings|setările globale]], în afara seifului, pentru a ține cont de pierderea datelor legate de seif. Aceasta înseamnă că instantaneele sunt stocate cu calea absolută către notă. Dacă ți-ai mutat seiful recent, s-ar putea să fie nevoie să-l muți înapoi la locația unde se afla atunci când a fost făcut instantaneul.
 
-> [!tip] If you are using [[Introduction to Obsidian Sync|Obsidian Sync]] or [[Sync your notes across devices|other syncing services]], File recovery snapshots will not sync between devices. Snapshots are device-specific and remain local to each device.
+> [!tip] Dacă folosești [[Introduction to Obsidian Sync|Obsidian Sync]] sau [[Sync your notes across devices|alte servicii de sincronizare]], instantaneele File recovery nu se vor sincroniza între dispozitive. Instantaneele sunt specifice fiecărui dispozitiv și rămân locale pe acel dispozitiv.
 
-## Recover a snapshot
+## Recuperează un instantaneu
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **File recovery** under **Core plugins**.
-3. Under **Snapshots**, select **View**.
-4. In the file name field, start typing the name of the file you want to recover, and you will see a suggestion list.
-5. Select the file, press Enter, and you'll see a list of snapshots available.
-6. Select the snapshot you want to recover.
-    1. If you wish to copy and paste into a new note, select the **Copy** button.
-    2. If you wish to restore the file completely, select the **Restore** button.
-7. You can optionally show the differences between snapshots by toggling **Show changes**. This displays what content was added, removed, or modified between snapshot versions.
+1. Deschide **[[Settings|Setări]]**.
+2. În bara laterală, selectează **File recovery** sub **Module integrate**.
+3. Sub **Snapshots**, selectează **View**.
+4. În câmpul cu numele fișierului, începe să scrii numele fișierului pe care vrei să-l recuperezi și vei vedea o listă de sugestii.
+5. Selectează fișierul, apasă Enter și vei vedea o listă cu instantaneele disponibile.
+6. Selectează instantaneul pe care vrei să-l recuperezi.
+    1. Dacă vrei să copiezi și să lipești într-o notă nouă, selectează butonul **Copy**.
+    2. Dacă vrei să restaurezi complet fișierul, selectează butonul **Restore**.
+7. Poți opțional afișa diferențele dintre instantanee comutând **Show changes**. Aceasta afișează ce conținut a fost adăugat, eliminat sau modificat între versiunile instantaneelor.
 
-## Clear snapshot history
+## Golește istoricul instantaneelor
 
-> [!danger] Clearing the snapshot history irreversibly deletes all snapshots in your vault.
+> [!danger] Golirea istoricului instantaneelor șterge ireversibil toate instantaneele din seiful tău.
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **File recovery** under **Core plugins**.
-3. Under **Clear history**, select **Clear**.
-4. Confirm that you want to delete all snapshots, by clicking **Clear**.
+1. Deschide **[[Settings|Setări]]**.
+2. În bara laterală, selectează **File recovery** sub **Module integrate**.
+3. Sub **Clear history**, selectează **Clear**.
+4. Confirmă că vrei să ștergi toate instantaneele, dând clic pe **Clear**.
 
-## Storage and performance
+## Stocare și performanță
 
-File recovery snapshots typically use minimal disk space, as they only store changed files. However, in vaults with many large files or frequent edits, snapshots can accumulate over time. Monitor your storage usage and adjust the retention period if needed.
+Instantaneele File recovery folosesc de obicei un spațiu minim pe disc, deoarece stochează doar fișierele modificate. Totuși, în seifuri cu multe fișiere mari sau editări frecvente, instantaneele se pot acumula în timp. Monitorizează-ți utilizarea spațiului de stocare și ajustează perioada de păstrare dacă este necesar.
 
-## Limitations
+## Limitări
 
-- **Apple lockdown mode**: This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
-- **File types**: Only `.md` and `.canvas` files can be restored using File recovery.
-- **Vault location**: If you move your vault to a different location without using the [[Manage vaults#Move vault to a different folder|vault switcher]], existing snapshots may not be accessible.
+- **Modul blocare Apple**: Această funcție nu este disponibilă pe dispozitivele Apple cu [modul Lockdown](https://support.apple.com/en-us/105120) activat, decât dacă Obsidian este exceptat.
+- **Tipuri de fișiere**: Doar fișierele `.md` și `.canvas` pot fi restaurate folosind File recovery.
+- **Locația seifului**: Dacă îți muți seiful într-o locație diferită fără să folosești [[Manage vaults#Move vault to a different folder|comutatorul de seifuri]], este posibil ca instantaneele existente să nu mai fie accesibile.
 

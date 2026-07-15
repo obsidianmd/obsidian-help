@@ -1,55 +1,54 @@
 ---
-localized: null
 permalink: sync/collaborate
 publish: true
 mobile: true
-description: This page details how you can collaborate with other Obsidian Sync users.
+description: Această pagină detaliază modul în care poți colabora cu alți utilizatori Obsidian Sync.
 ---
-With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
+Cu [[Introduction to Obsidian Sync|Obsidian Sync]] poți colabora la un seif partajat împreună cu echipa ta.
 
-All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Frequently asked questions#How many remote vaults can I have?|vault limit]].
+Toți colaboratorii trebuie să aibă un abonament Sync activ pentru a accesa un seif partajat. Alăturarea la un seif partajat nu se contorizează în [[Frequently asked questions#Câte seifuri la distanță pot avea?|limita ta de seifuri]].
 
-If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
+Dacă seiful la distanță este [[Obsidian Sync/Security and privacy|criptat integral]], colaboratorii trebuie să introducă parola de criptare atunci când configurează seiful.
 
-## Manage users
+## Gestionează utilizatorii
 
-### Add users
+### Adaugă utilizatori
 
-To invite a user to share a remote vault:
+Pentru a invita un utilizator să partajeze un seif la distanță:
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the remote vault you want to share, select **Manage sharing** ![[lucide-users.svg#icon]].
-5. In **Invite user**, enter the email of the user you want to invite.
-6. Select **Add**.
+1. Deschide **[[Settings]]**.
+2. În meniul lateral, selectează **Sync**.
+3. Lângă **Seif la distanță**, selectează **Gestionează**.
+4. Lângă seiful la distanță pe care dorești să-l partajezi, selectează **Gestionează partajarea** ![[lucide-users.svg#icon]].
+5. La **Invită utilizator**, introdu adresa de e-mail a utilizatorului pe care dorești să-l inviți.
+6. Selectează **Adaugă**.
 
-### Remove users
+### Elimină utilizatori
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the user you want to remove access from, select **Remove user** ![[lucide-x.svg#icon]].
+1. Deschide **[[Settings]]**.
+2. În meniul lateral, selectează **Sync**.
+3. Lângă **Seif la distanță**, selectează **Gestionează**.
+4. Lângă utilizatorul căruia dorești să-i elimini accesul, selectează **Elimină utilizator** ![[lucide-x.svg#icon]].
 
-## Collaborate with your team
+## Colaborează cu echipa ta
 
-### Permissions
+### Permisiuni
 
-Fine-grained permissions are not supported yet. All collaborators receive the same permissions as the vault owner, with one exception: only the vault owner can invite collaborators.
+Permisiunile granulare nu sunt încă acceptate. Toți colaboratorii primesc aceleași permisiuni ca proprietarul seifului, cu o singură excepție: doar proprietarul seifului poate invita colaboratori.
 
-### Live editing
+### Editare live
 
-Shared vaults allow teams to work together on a set of files, however Obsidian does not yet support collaborative live editing on the same file. You will not see the other user's cursor, and their edits will only appear once the changes are synced.
+Seifurile partajate permit echipelor să lucreze împreună la un set de fișiere, însă Obsidian nu acceptă încă editarea live colaborativă a aceluiași fișier. Nu vei vedea cursorul celuilalt utilizator, iar modificările sale vor apărea doar după ce sunt sincronizate.
 
-If multiple users are editing the same file at the same time, [[Troubleshoot Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
+Dacă mai mulți utilizatori editează același fișier în același timp, [[Troubleshoot Obsidian Sync#Rezolvarea conflictelor|modificările vor fi îmbinate]] în timpul procesului de sincronizare. Modificările pot fi vizualizate și restaurate folosind [[Version history]].
 
 ![[version-history-collaboration.png]]^version-history-image
 
-## Limitations
+## Limitări
 
-Be aware that Obsidian Sync has [[Frequently asked questions|Limitations]] that may affect your team:
+Ține cont de faptul că Obsidian Sync are [[Frequently asked questions|limitări]] care îți pot afecta echipa:
 
-- The maximum number of collaborators on a shared vault is 20 users.
-- The maximum file size for attachments depends on the [[Plans and storage limits|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
+- Numărul maxim de colaboratori la un seif partajat este de 20 de utilizatori.
+- Dimensiunea maximă de fișier pentru atașamente depinde de [[Plans and storage limits|planul]] gazdei seifului tău la distanță, fiind de 5 MB pentru planul Standard și 200 MB pentru planul Plus.
 
-Learn more about [[Syncing for teams]].
+Află mai multe despre [[Syncing for teams]].

@@ -1,120 +1,119 @@
 ---
-localized: null
 permalink: plugins/search
 publish: true
 mobile: true
-description: Search is a core plugin that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
+description: Search este un modul integrat care te ajută să găsești date în seiful tău Obsidian, folosind termeni de căutare și operatori pentru a restrânge rezultatele.
 ---
 
-Search is a [[Core plugins|core plugin]] that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
+Search este un [[Core plugins|modul integrat]] care te ajută să găsești date în seiful tău Obsidian, folosind termeni de căutare și operatori pentru a restrânge rezultatele.
 
-By default, you can find Search in the left sidebar ![[lucide-search.svg#icon]]. You can also open Search by pressing `Ctrl+Shift+F` (Windows/Linux) or `Command+Shift+F` (macOS).
+Implicit, poți găsi Caută în bara laterală stângă ![[lucide-search.svg#icon]]. Poți deschide și Caută apăsând `Ctrl+Shift+F` (Windows/Linux) sau `Command+Shift+F` (macOS).
 
-- **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
-- **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
+- **Caută textul selectat**: Dacă selectezi text în editor și deschizi Caută cu combinația de taste, Caută îți arată rezultatele căutării pentru textul selectat.
+- **Caută termeni de căutare recenți**: Deschide Caută cu un termen de căutare gol pentru a lista termenii de căutare recenți. Dă clic pe oricare dintre ei pentru a-l folosi din nou.
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Search results.
+> [!info] Fișiere excluse
+> Fișierele care corespund tiparelor tale de [[Settings#Excluded files|Fișiere excluse]] nu vor apărea în rezultatele căutării.
 
-## Search terms
+## Termeni de căutare
 
-A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. Obsidian only searches the contents of notes and canvases.
+Un termen de căutare este cuvântul sau fraza pe care o introduci în câmpul de căutare. Să înveți cum să scrii termeni de căutare eficient te poate ajuta să găsești rapid ceea ce cauți, chiar și în seifuri mari. Obsidian caută doar în conținutul notelor și al pânzelor.
 
-> [!tip]- Searching paths and filenames
-> By default, you can only search the paths and filenames of notes and canvases. To search for a path or filename of any file in the vault, use the `path` or `file` operator.
+> [!tip]- Căutarea căilor și numelor de fișiere
+> Implicit, poți căuta doar căile și numele de fișiere ale notelor și pânzelor. Pentru a căuta o cale sau un nume de fișier al oricărui fișier din seif, folosește operatorul `path` sau `file`.
 
-Each word in the search term is matched independently within each file. To search for an exact phrase, surround it with quotes, for example `"star wars"`. To search for quoted text within an exact phrase, you can _escape_ the quotes by adding a backslash (`\`) in front of the quote, for example `"they said \"hello\" to each other"`.
+Fiecare cuvânt din termenul de căutare este potrivit independent în fiecare fișier. Pentru a căuta o frază exactă, încadreaz-o cu ghilimele, de exemplu `"star wars"`. Pentru a căuta text cu ghilimele în interiorul unei fraze exacte, poți _evada_ ghilimelele adăugând o bară oblică inversă (`\`) în fața ghilimelei, de exemplu `"they said \"hello\" to each other"`.
 
-You can control whether to return files that contain _all_ the words in your search term, or _any_ of the words:
+Poți controla dacă se returnează fișierele care conțin _toate_ cuvintele din termenul de căutare, sau _oricare_ dintre cuvinte:
 
-- `meeting work` returns files that contain both `meeting` and `work`.
-- `meeting OR work` returns files that contain either `meeting` or `work`.
+- `meeting work` returnează fișierele care conțin atât `meeting`, cât și `work`.
+- `meeting OR work` returnează fișierele care conțin fie `meeting`, fie `work`.
 
-You can even combine the two in the same search term.
+Poți combina chiar și cele două în același termen de căutare.
 
-- `meeting work OR meetup personal` returns files for work meetings and personal meetups.
+- `meeting work OR meetup personal` returnează fișierele pentru întâlniri de lucru și întâlniri personale.
 
-You can use parentheses to control the priority of each expression.
+Poți folosi paranteze pentru a controla prioritatea fiecărei expresii.
 
-- `meeting (work OR meetup) personal` returns files that contain `meeting`, `personal`, and either `work` or `meetup`.
+- `meeting (work OR meetup) personal` returnează fișierele care conțin `meeting`, `personal` și fie `work`, fie `meetup`.
 
-To exclude, or negate, a word from the search results, add a hyphen (`-`) in front of it:
+Pentru a exclude, sau a nega, un cuvânt din rezultatele căutării, adaugă o cratimă (`-`) în fața lui:
 
-- `meeting -work` returns files that contain `meeting` but not `work`.
+- `meeting -work` returnează fișierele care conțin `meeting`, dar nu `work`.
 
-You can exclude multiple expressions:
+Poți exclude mai multe expresii:
 
-- `meeting -work -meetup` returns files that contain `meeting` but not `work` or `meetup`.
+- `meeting -work -meetup` returnează fișierele care conțin `meeting`, dar nu `work` sau `meetup`.
 
-You can exclude a combination of expressions using parentheses:
+Poți exclude o combinație de expresii folosind paranteze:
 
-- `meeting -(work meetup)` returns files that contain `meeting` but not _both_ `work` and `meetup`.
+- `meeting -(work meetup)` returnează fișierele care conțin `meeting`, dar nu _ambele_ `work` și `meetup`.
 
-To filter results using the less than (`<`) and greater than (`>`) operators, surround them with square brackets (`[]`) or quotes (`""`):
+Pentru a filtra rezultatele folosind operatorii mai mic decât (`<`) și mai mare decât (`>`), încadrează-i cu paranteze pătrate (`[]`) sau ghilimele (`""`):
 
-- `meeting [duration:<5]` returns files where meeting is present, and duration is less than 5.
-- `meeting [duration:>5]` returns files where meeting is present, and duration is greater than 5.
+- `meeting [duration:<5]` returnează fișierele în care apare meeting, iar durata este mai mică de 5.
+- `meeting [duration:>5]` returnează fișierele în care apare meeting, iar durata este mai mare de 5.
 
-> [!tip]- Explain search term
-> If you need to troubleshoot a complex search term, you can click **Explain search term** in Search for an explanation of your search term.
+> [!tip]- Explică termenul de căutare
+> Dacă trebuie să depanezi un termen de căutare complex, poți da clic pe **Explain search term** în Caută pentru o explicație a termenului tău de căutare.
 
-## Search operators
+## Operatori de căutare
 
-Search operators enable more fine-grained search terms to filter your results even more.
+Operatorii de căutare permit termeni de căutare mai precisi, pentru a-ți filtra rezultatele și mai mult.
 
-Some operators even allow you to add a nested search term within parentheses, for example: `task:(call OR email)`.
+Unii operatori îți permit chiar să adaugi un termen de căutare imbricat între paranteze, de exemplu: `task:(call OR email)`.
 
-| Search operator | Description                                                                                                                                                                                                                                                                                                        |
+| Operator de căutare | Descriere                                                                                                                                                                                                                                                                                                        |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `file:`         | Find text in filename. Matches any file in the vault.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                                                                                    |
-| `path:`         | Find text in file path. Matches any file in the vault.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                                                                                   |
-| `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                                                                                                                      |
-| `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                                                                                                                           |
-| `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                                                                                                                            |
-| `tag:`          | Find tag in file.<p/>Example: `tag:#work`.<p/>Keep in mind that searching for `tag:#work` will not return results for `#myjob/work`.<br /><br />**Note**: Since `tag:` ignores matches in code blocks and in non-Markdown content, it's often faster and more accurate than a normal full-text search for `#work`. |
-| `line:`         | Find files that contain at least one line matching `x`.<p/>Example: `line:(mix flour)`.<p/><br>**Note:** Using `-line` negates the search, meaning it will find files where no line matches `x`.                                                                                                                   |
-| `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish.                                                                                               |
-| `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                                                                                                                     |
-| `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                                                                                                                 |
-| `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                                                                                                             |
-| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                                                                                                                |
+| `file:`         | Găsește text în numele fișierului. Se potrivește cu orice fișier din seif.<p/>Exemplu: `file:.jpg` sau `file:202209`.                                                                                                                                                                                                                    |
+| `path:`         | Găsește text în calea fișierului. Se potrivește cu orice fișier din seif.<p/>Exemplu: `path:"Daily notes/2022-07"`.                                                                                                                                                                                                                   |
+| `content:`      | Găsește text în conținutul fișierului.<p/>Exemplu: `content:"happy cat"`.                                                                                                                                                                                                                                                      |
+| `match-case:`   | Potrivire sensibilă la majuscule/minuscule.<p/>Exemplu: `match-case:HappyCat`.                                                                                                                                                                                                                                                           |
+| `ignore-case:`  | Potrivire insensibilă la majuscule/minuscule.<p/>Exemplu: `ignore-case:ikea`.                                                                                                                                                                                                                                                          |
+| `tag:`          | Găsește eticheta într-un fișier.<p/>Exemplu: `tag:#work`.<p/>Ține minte că a căuta `tag:#work` nu va returna rezultate pentru `#myjob/work`.<br /><br />**Notă**: Deoarece `tag:` ignoră potrivirile din blocurile de cod și din conținutul non-Markdown, este adesea mai rapid și mai precis decât o căutare obișnuită a textului complet pentru `#work`. |
+| `line:`         | Găsește fișierele care conțin cel puțin o linie ce se potrivește cu `x`.<p/>Exemplu: `line:(mix flour)`.<p/><br>**Notă:** Folosirea `-line` neagă căutarea, adică va găsi fișierele în care nicio linie nu se potrivește cu `x`.                                                                                                                   |
+| `block:`        | Găsește potriviri în același bloc.<p/>Exemplu: `block:(dog cat)`.<p/>**Notă**: Deoarece `block:` necesită ca Caută să analizeze conținutul Markdown din fiecare fișier, poate face ca termenul tău de căutare să dureze mai mult să se finalizeze.                                                                                               |
+| `section:`      | Găsește potriviri în aceeași secțiune (textul dintre două titluri).<p/>Exemplu: `section:(dog cat)`.                                                                                                                                                                                                                     |
+| `task:`         | Găsește potriviri într-o [[Basic formatting syntax#Task lists\|sarcină]], analizate bloc cu bloc.<p/>Exemplu: `task:call`.                                                                                                                                                                                                 |
+| `task-todo:`    | Găsește potriviri într-o [[Basic formatting syntax#Task lists\|sarcină]] *neterminată*, analizate bloc cu bloc.<p/>Exemplu: `task-todo:call`.                                                                                                                                                                             |
+| `task-done:`    | Găsește potriviri într-o [[Basic formatting syntax#Task lists\|sarcină]] *terminată*, analizate bloc cu bloc.<p/>Exemplu: `task-done:call`.                                                                                                                                                                                |
 
-## Search properties
+## Caută proprietăți
 
-You can use data stored in [[Properties]] in your search terms.
+Poți folosi datele stocate în [[Properties|Proprietăți]] în termenii tăi de căutare.
 
-Use brackets around a property name `[property]` to return files with that property:
+Folosește paranteze pătrate în jurul unui nume de proprietate `[property]` pentru a returna fișierele cu acea proprietate:
 
-- `[aliases]` returns files that contain the `aliases` property
+- `[aliases]` returnează fișierele care conțin proprietatea `aliases`
 
-Use brackets and a colon `[property:value]` to return files with that property and value:
+Folosește paranteze pătrate și două puncte `[property:value]` pentru a returna fișierele cu acea proprietate și valoare:
 
-- `[aliases:Name]` returns files where the `aliases` property value is `Name`
+- `[aliases:Name]` returnează fișierele în care valoarea proprietății `aliases` este `Name`
 
-Use `null` as a value to find properties that have no value:
+Folosește `null` ca valoare pentru a găsi proprietățile care nu au nicio valoare:
 
-- `[aliases:null]` returns files where the `aliases` property exists but has no value
+- `[aliases:null]` returnează fișierele în care proprietatea `aliases` există, dar nu are nicio valoare
 
-> [!info]+ Empty values
-> The `null` operator works when a property is empty (e.g., `aliases: `), but not when the property contains empty quotes (`""`) or empty brackets (`[]`).
+> [!info]+ Valori goale
+> Operatorul `null` funcționează atunci când o proprietate este goală (de ex., `aliases: `), dar nu și atunci când proprietatea conține ghilimele goale (`""`) sau paranteze pătrate goale (`[]`).
 
-Both property and value allow sub-queries, such as parentheses for grouping, the `OR` operator, double-quotes for exact matching, and regex.
+Atât proprietatea, cât și valoarea permit subinterogări, precum paranteze pentru grupare, operatorul `OR`, ghilimele duble pentru potrivire exactă și expresii regulate.
 
-- `[status:Draft OR Published]` returns files where the `status` property value is `Draft` or `Published`
+- `[status:Draft OR Published]` returnează fișierele în care valoarea proprietății `status` este `Draft` sau `Published`
 
-## Change case sensitivity
+## Schimbă sensibilitatea la majuscule/minuscule
 
-By default, search terms are not case sensitive. If you want to search for the exact case of your search term, select **Match case** ![[obsidian-icon-upper-lowercase.svg#icon]] inside the search bar.
+Implicit, termenii de căutare nu sunt sensibili la majuscule/minuscule. Dacă vrei să cauți exact cu majusculele/minusculele termenului tău de căutare, selectează **Match case** ![[obsidian-icon-upper-lowercase.svg#icon]] în interiorul barei de căutare.
 
-This setting can be toggled. If **Match case** icon is highlighted, that means you’re currently doing a case sensitive search.
+Această setare poate fi comutată. Dacă pictograma **Match case** este evidențiată, înseamnă că faci în prezent o căutare sensibilă la majuscule/minuscule.
 
-## Change result sort order
+## Schimbă ordinea de sortare a rezultatelor
 
-1. Enter a [[#Search terms|search term]].
-2. Under the search field, select the dropdown on the right.
-3. Select the sort order you want. Default is "File name (A to Z)".
+1. Introdu un [[#Termeni de căutare|termen de căutare]].
+2. Sub câmpul de căutare, selectează meniul derulant din dreapta.
+3. Selectează ordinea de sortare dorită. Implicit este „File name (A to Z)”.
 
-The following options are available:
+Sunt disponibile următoarele opțiuni:
 
 - File name (A to Z)
 - File name (Z to A)
@@ -123,40 +122,40 @@ The following options are available:
 - Created time (new to old)
 - Created time (old to new)
 
-## Copy search results
+## Copiază rezultatele căutării
 
-1. Enter a [[#Search terms|search term]].
-2. Under the search field, select the three dots icon next to the number of results.
-3. Select **Copy search results**.
+1. Introdu un [[#Termeni de căutare|termen de căutare]].
+2. Sub câmpul de căutare, selectează pictograma cu trei puncte de lângă numărul de rezultate.
+3. Selectează **Copy search results**.
 
-## Use regular expressions
+## Folosește expresii regulate
 
-A regular expression is a set of characters that describe a text pattern. To use regular expressions in your search term, surround the expression with forward slashes (`/`).
+O expresie regulată este un set de caractere care descrie un tipar de text. Pentru a folosi expresii regulate în termenul tău de căutare, încadrează expresia cu bare oblice (`/`).
 
-- `/\d{4}-\d{2}-\d{2}/` matches an ISO 8601 date, such as 2022-01-01.
+- `/\d{4}-\d{2}-\d{2}/` se potrivește cu o dată în format ISO 8601, precum 2022-01-01.
 
-You can even combine regular expressions with search operators:
+Poți combina chiar și expresii regulate cu operatori de căutare:
 
-- `path:/\d{4}-\d{2}-\d{2}/` returns files with a date in the file path.
+- `path:/\d{4}-\d{2}-\d{2}/` returnează fișierele cu o dată în calea fișierului.
 
-For more information on how to write regular expressions, refer to FreeCodeCamp's [Practical Regex guide](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/) or Mozilla's [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+Pentru mai multe informații despre cum să scrii expresii regulate, consultă ghidul [Practical Regex guide](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/) de la FreeCodeCamp sau pagina [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) de la Mozilla.
 
-> [!info]+ JavaScript-flavored regular expressions
-> Regular expressions come in different flavors that may look different from each other. Obsidian uses JavaScript-flavored regular expressions.
+> [!info]+ Expresii regulate în stil JavaScript
+> Expresiile regulate vin în diferite variante care pot arăta diferit unele față de altele. Obsidian folosește expresii regulate în stil JavaScript.
 
-## Configure search settings
+## Configurează setările de căutare
 
-To configure Search, select **Search settings** ![[lucide-sliders-horizontal.svg#icon]] on the right side of the search bar to see the toggles.
+Pentru a configura Caută, selectează **Search settings** ![[lucide-sliders-horizontal.svg#icon]] în partea dreaptă a barei de căutare pentru a vedea comutatoarele.
 
-| Setting                 | Description                                                                 |
+| Setare                 | Descriere                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| **Explain search term** | Breaks down the search terms and explains it in plain text.                 |
-| **Collapse results**    | Toggles whether to show the search context.                                 |
-| **Show more context**   | Expands the search result to show more text around the match.               |
+| **Explain search term** | Descompune termenii de căutare și îi explică în text simplu.                 |
+| **Collapse results**    | Comută afișarea contextului căutării.                                 |
+| **Show more context**   | Extinde rezultatul căutării pentru a arăta mai mult text în jurul potrivirii.               |
 
-## Embed search results in a note
+## Încorporează rezultatele căutării într-o notă
 
-To embed search results in a note, add a `query` code block:
+Pentru a încorpora rezultatele căutării într-o notă, adaugă un bloc de cod `query`:
 
 ````
 ```query
@@ -164,6 +163,6 @@ embed OR search
 ```
 ````
 
-[[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
+[[Introduction to Obsidian Publish|Obsidian Publish]] nu acceptă [[Publish limitations#Caută|rezultate de căutare]] încorporate. Pentru a vedea un exemplu live, folosește blocul de cod de mai sus în interiorul seifului tău.
 
 ![[search-query-rendered.png]]

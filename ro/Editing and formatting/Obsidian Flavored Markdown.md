@@ -1,19 +1,18 @@
 ---
-localized: null
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: 'Learn about Obsidian Flavored Markdown, including supported extensions and how Markdown interacts with HTML elements.'
+description: 'Aflați despre Obsidian Flavored Markdown, inclusiv extensiile acceptate și modul în care Markdown interacționează cu elementele HTML.'
 ---
 
-Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[Basic formatting syntax|Markdown]].
+Obsidian tinde spre capabilitate maximă fără a strica formatele existente. Ca urmare, folosim o combinație de variante de [[Basic formatting syntax|Markdown]].
 
-Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), and [LaTeX](https://www.latex-project.org/). 
+Obsidian acceptă [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/) și [LaTeX](https://www.latex-project.org/). 
 
-> [!tip]- Markdown inside HTML
-> Obsidian does not render Markdown syntax inside HTML elements. This is an intentional design choice for performance optimization and to keep parser complexity low when managing large documents.
+> [!tip]- Markdown în interiorul HTML
+> Obsidian nu afișează sintaxa Markdown în interiorul elementelor HTML. Aceasta este o alegere de proiectare intenționată pentru optimizarea performanței și pentru a menține complexitatea analizorului de sintaxă scăzută atunci când se gestionează documente mari.
 >
-> For example, Markdown formatting like `**bold**` or `` `code` `` will not be processed inside `<div>`, `<span>`, `<table>`, or any other HTML tags.
+> De exemplu, formatarea Markdown precum `**bold**` sau `` `code` `` nu va fi procesată în interiorul etichetelor `<div>`, `<span>`, `<table>` sau al oricăror alte etichete HTML.
 >
 > ```md
 > <div>
@@ -21,20 +20,20 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 > </div>
 > ```
 
-### Supported Markdown extensions
+### Extensii Markdown acceptate
 
-| Syntax          | Description                                                           |
+| Sintaxă          | Descriere                                                           |
 | --------------- | --------------------------------------------------------------------- |
-| `[[Link]]`      | [[Internal links]]                                                    |
-| `![[Link]]`     | [[Embed files]]                                                       |
-| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
-| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
-| `[^id]`         | [[Basic formatting syntax#Footnotes\|Footnotes]]                      |
-| `%%Text%%`      | [[Basic formatting syntax#Comments\|Comments]]                        |
-| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Strikethroughs]] |
-| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |
-| `` ``` ``       | [[Basic formatting syntax#Code blocks\|Code blocks]]                  |
-| `- [ ]`         | [[Basic formatting syntax#Task lists\|Incomplete task]]               |
-| `- [x]`         | [[Basic formatting syntax#Task lists\|Completed task]]                |
-| `> [!note]`     | [[Callouts]]                                                          |
-| (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |
+| `[[Link]]`      | [[Internal links|Legături interne]]                                                    |
+| `![[Link]]`     | [[Embed files|Încorporarea fișierelor]]                                                       |
+| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Referințe la blocuri]]        |
+| `^id`           | [[Internal links#Link to a block in a note\|Definirea unui bloc]]        |
+| `[^id]`         | [[Basic formatting syntax#Footnotes\|Note de subsol]]                      |
+| `%%Text%%`      | [[Basic formatting syntax#Comments\|Comentarii]]                        |
+| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Tăiere text]] |
+| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Evidențieri]]     |
+| `` ``` ``       | [[Basic formatting syntax#Code blocks\|Blocuri de cod]]                  |
+| `- [ ]`         | [[Basic formatting syntax#Task lists\|Sarcină nefinalizată]]               |
+| `- [x]`         | [[Basic formatting syntax#Task lists\|Sarcină finalizată]]                |
+| `> [!note]`     | [[Callouts|Explicații]]                                                          |
+| (vezi legătura)      | [[Advanced formatting syntax#Tables\|Tabele]]                         |

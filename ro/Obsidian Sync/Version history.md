@@ -1,147 +1,146 @@
 ---
-localized: null
 permalink: sync/version-history
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Obsidian Sync keeps a record of all changes made to your notes and regularly checks for updates and creates new versions of your notes.
+description: Obsidian Sync păstrează o evidență a tuturor modificărilor făcute notelor tale și verifică periodic actualizările, creând versiuni noi ale notelor tale.
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Sync settings and selective syncing|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
+[[Introduction to Obsidian Sync|Obsidian Sync]] verifică periodic actualizările pentru [[Sync settings and selective syncing|fișierele tale sincronizate]], păstrând o evidență a oricăror modificări. Acestea sunt stocate ca intrări noi în [[#Istoricul versiunilor]]. Aceste informații pot fi accesate în câteva moduri:
 
-- [[#Sync history]]
-- [[#Version history]]
+- [[#Istoricul de sincronizare]]
+- [[#Istoricul versiunilor]]
 
-While not part of Obsidian Sync, a local version history is also available on each device if the [[File recovery]] plugin is enabled.
+Deși nu face parte din Obsidian Sync, un istoric local al versiunilor este de asemenea disponibil pe fiecare dispozitiv dacă modulul [[File recovery]] este activat.
 
-## Sync history
+## Istoricul de sincronizare
 
-The Sync history (or Sync sidebar) feature, introduced in Obsidian version 1.7, allows you to quickly view recently created or modified notes and attachments that have been synced. You can also think of it as an _editing_ history.
+Funcția de istoric al sincronizării (sau bara laterală Sync), introdusă în Obsidian versiunea 1.7, îți permite să vizualizezi rapid notele și atașamentele recent create sau modificate care au fost sincronizate. O poți considera și ca un istoric de _editare_.
 
-In the sidebar, you can select an item to open its file in your active window. The items also have context menus, allowing you to perform actions such as moving the file or viewing its [[#Notes and attachments|Version history]].
+În bara laterală, poți selecta un element pentru a-i deschide fișierul în fereastra ta activă. Elementele au, de asemenea, meniuri contextuale, permițându-ți să efectuezi acțiuni precum mutarea fișierului sau vizualizarea [[#Note și atașamente|istoricului versiunilor]] acestuia.
 
-> [!compatibility] Desktop-only feature
-> When you hover over a synced file in the sidebar, you can see who last edited the file. This is especially useful if you are [[Collaborate on a shared vault|collaborating]] on a shared vault.
+> [!compatibility] Funcție doar pentru desktop
+> Când treci cu mouse-ul peste un fișier sincronizat în bara laterală, poți vedea cine a editat ultima dată fișierul. Acest lucru este util în special dacă [[Collaborate on a shared vault|colaborezi]] la un seif partajat.
 
 > [!tip] 
-> Settings and deleted items will not appear in the Sync history sidebar. These can be found in the [[#Notes and attachments|Version history]] instead.
+> Setările și elementele șterse nu vor apărea în bara laterală a istoricului de sincronizare. Acestea pot fi găsite în schimb în [[#Note și atașamente|istoricul versiunilor]].
 
-### Show Sync history
+### Afișează istoricul de sincronizare
 
-When you enable the [[Introduction to Obsidian Sync|Sync]] core plugin, Sync history is automatically enabled but does not appear in the sidebar by default. You will need to manually add it using a command or a hotkey.
+Când activezi modulul integrat [[Introduction to Obsidian Sync|Sync]], istoricul de sincronizare este activat automat, dar nu apare implicit în bara laterală. Va trebui să-l adaugi manual folosind o comandă sau o combinație de taste.
 
-#### Enable via Command palette
+#### Activează prin Paleta de comenzi
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] Această opțiune necesită activarea modulului integrat [[Command palette|Paleta de comenzi]].
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**Desktop/Tabletă** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette**. ![[lucide-terminal.svg#icon]]
-2. Type "Sync".
-3. Select the "Sync: Show Sync history" option.
+1. Deschide **Paleta de comenzi**. ![[lucide-terminal.svg#icon]]
+2. Tastează „Sync”.
+3. Selectează opțiunea „Sync: Show Sync history”.
 
-Sync history will then appear in the [[Sidebar|right sidebar]].
+Istoricul de sincronizare va apărea apoi în [[Sidebar|bara laterală din dreapta]].
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**Mobil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
-2. Open the **Command palette**. ![[lucide-terminal.svg#icon]]
-3. Type "Sync".
-4. Select the "Sync: Show Sync history" option.
+1. Deschide [[Ribbon|Panglica]] ![[lucide-menu.svg#icon]].
+2. Deschide **Paleta de comenzi**. ![[lucide-terminal.svg#icon]]
+3. Tastează „Sync”.
+4. Selectează opțiunea „Sync: Show Sync history”.
 
-Sync history will then appear as a dropdown option in the [[Sidebar|right sidebar]].
+Istoricul de sincronizare va apărea apoi ca o opțiune derulantă în [[Sidebar|bara laterală din dreapta]].
 
-#### Enable via Hotkey
+#### Activează prin combinație de taste
 
-1. Open **[[Settings]]**.
-2. In the **Options** category, select **Hotkeys**.
-3. In the hotkeys search bar, type "Sync".
-4. Next to "Sync: Show Sync history," assign your preferred hotkey.
+1. Deschide **[[Settings]]**.
+2. În categoria **Opțiuni**, selectează **Combinații de taste**.
+3. În bara de căutare a combinațiilor de taste, tastează „Sync”.
+4. Lângă „Sync: Show Sync history”, atribuie combinația de taste preferată.
 
-## Version history
+## Istoricul versiunilor
 
-In addition to the [[#Sync history]], Obsidian also maintains a version history for restoring notes and attachments. If you accidentally delete a note or want to revert to a previous version, you can restore it from the version history.
+Pe lângă [[#Istoricul de sincronizare]], Obsidian menține, de asemenea, un istoric al versiunilor pentru restaurarea notelor și atașamentelor. Dacă ștergi accidental o notă sau dorești să revii la o versiune anterioară, o poți restaura din istoricul versiunilor.
 
-The retention period for your version history depends on your [[Plans and storage limits|Obsidian Sync plan]]. On the Standard plan, notes are retained for 1 month, while on the Plus plan, they are kept for 12 months. After this period, older versions of your notes are deleted. 
+Perioada de păstrare pentru istoricul versiunilor tale depinde de [[Plans and storage limits|planul tău Obsidian Sync]]. Pe planul Standard, notele sunt păstrate timp de 1 lună, în timp ce pe planul Plus sunt păstrate timp de 12 luni. După această perioadă, versiunile mai vechi ale notelor tale sunt șterse.
 
-For [[Attachments|attachments]], older versions are stored for <u>two weeks</u>.
+Pentru [[Attachments|atașamente]], versiunile mai vechi sunt stocate timp de <u>două săptămâni</u>.
 
 ![[Collaborate on a shared vault#^version-history-image]]
 
-### Notes and attachments
+### Note și atașamente
 
-The process for restoring both notes and attachments is the same. 
+Procesul de restaurare atât pentru note, cât și pentru atașamente este identic.
 
-#### View version history of a file
+#### Vizualizează istoricul versiunilor unui fișier
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Select **Open version history**.
-3. Select the version of the note you want to view on the left. The contents will be displayed on the right. 
+**Desktop/Tabletă** ![[lucide-monitor-check.svg#icon]]
+1. În **Exploratorul de fișiere**, selectează nota pe care dorești să o restaurezi.
+2. Selectează **Deschide istoricul versiunilor**.
+3. Selectează versiunea notei pe care dorești să o vizualizezi din stânga. Conținutul va fi afișat în dreapta.
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Long press to bring up the context menu.
-3. Select **Open version history**.
-4. In the pop-up menu, select the version of the note you want to view. 
-5. Once selected, the contents of the note will be available to review.
+**Mobil** ![[obsidian-icon-smartphone.svg#icon]]
+1. În **Exploratorul de fișiere**, selectează nota pe care dorești să o restaurezi.
+2. Apasă lung pentru a afișa meniul contextual.
+3. Selectează **Deschide istoricul versiunilor**.
+4. În meniul pop-up, selectează versiunea notei pe care dorești să o vizualizezi.
+5. Odată selectată, conținutul notei va fi disponibil pentru revizuire.
 
-#### View version history of a deleted or renamed file
+#### Vizualizează istoricul versiunilor unui fișier șters sau redenumit
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Next to **Deleted files**, select **View**.
-4. Select the note you want to view the version history for.
-5. In the version history pop-up, select the version of the note you want to view on the left. 
+1. Deschide **[[Settings]]**.
+2. În bara laterală, sub **Module integrate**, selectează **Sync**.
+3. Lângă **Fișiere șterse**, selectează **Vizualizare**.
+4. Selectează nota pentru care dorești să vizualizezi istoricul versiunilor.
+5. În fereastra pop-up a istoricului versiunilor, selectează versiunea notei pe care dorești să o vizualizezi din stânga.
 
-#### Restore a previous version of a file
+#### Restaurează o versiune anterioară a unui fișier
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Select **Open version history**.
-3. Select the version of the note you want to restore on the left. The contents will be displayed on the right.
-4. Select the **Restore** button.
-5. The note contents will be replaced with the restored version.
+**Desktop/Tabletă** ![[lucide-monitor-check.svg#icon]]
+1. În **Exploratorul de fișiere**, selectează nota pe care dorești să o restaurezi.
+2. Selectează **Deschide istoricul versiunilor**.
+3. Selectează versiunea notei pe care dorești să o restaurezi din stânga. Conținutul va fi afișat în dreapta.
+4. Selectează butonul **Restaurează**.
+5. Conținutul notei va fi înlocuit cu versiunea restaurată.
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Long press to bring up the context menu.
-3. Select **Open version history**.
-4. In the pop-up menu, select the version of the note you want to restore.
-5. Once selected, the contents of the note will be available to review.
-6. Select the **Restore** button.
-7. The note contents will be replaced with the restored version.
+**Mobil** ![[obsidian-icon-smartphone.svg#icon]]
+1. În **Exploratorul de fișiere**, selectează nota pe care dorești să o restaurezi.
+2. Apasă lung pentru a afișa meniul contextual.
+3. Selectează **Deschide istoricul versiunilor**.
+4. În meniul pop-up, selectează versiunea notei pe care dorești să o restaurezi.
+5. Odată selectată, conținutul notei va fi disponibil pentru revizuire.
+6. Selectează butonul **Restaurează**.
+7. Conținutul notei va fi înlocuit cu versiunea restaurată.
 
-#### Restore a deleted file
+#### Restaurează un fișier șters
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Next to **Deleted files**, select **View**.
-4. Choose the note you want to restore.
-5. In the list of versions to the left, select the version you want to restore.
-6. Select the **Restore** button on the right.
-7. The note will be restored to its original location in the filesystem.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, sub **Module integrate**, selectează **Sync**.
+3. Lângă **Fișiere șterse**, selectează **Vizualizare**.
+4. Alege nota pe care dorești să o restaurezi.
+5. În lista de versiuni din stânga, selectează versiunea pe care dorești să o restaurezi.
+6. Selectează butonul **Restaurează** din dreapta.
+7. Nota va fi restaurată la locația sa originală din sistemul de fișiere.
 
-> [!tip] You can select multiple notes with **bulk restore** by selecting the checkboxes, or using `shift+click`. These files will not be able to be reviewed in this menu. 
+> [!tip] Poți selecta mai multe note cu **restaurare în masă** bifând casetele de selectare sau folosind `shift+clic`. Aceste fișiere nu vor putea fi revizuite în acest meniu.
 
-### Settings history
+### Istoricul setărilor
 
-Obsidian Sync also keeps track of the changes made to your vault configuration settings. 
+Obsidian Sync păstrează, de asemenea, o evidență a modificărilor făcute setărilor de configurare ale seifului tău.
 
-#### View version history of a setting
+#### Vizualizează istoricul versiunilor unei setări
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Navigate down to **Vault configuration sync**. 
-4. Select the **View** button next to **[[Settings]] version history**.
-5. In the **[[Settings]] File** pop-up, choose a settings file you want to view.  
+1. Deschide **[[Settings]]**.
+2. În bara laterală, sub **Module integrate**, selectează **Sync**.
+3. Navighează în jos la **Sincronizare configurare seif**.
+4. Selectează butonul **Vizualizare** lângă **Istoricul versiunilor [[Settings]]**.
+5. În fereastra pop-up **Fișier [[Settings]]**, alege un fișier de setări pe care dorești să-l vizualizezi.
 
-#### Restore a previous version of a setting
+#### Restaurează o versiune anterioară a unei setări
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins**, select **Sync**.
-3. Navigate down to **Vault configuration sync**. 
-4. Select the **View** button next to **[[Settings]] version history**.
-5. In the **[[Settings]] File** pop-up, choose a settings file you want to view.  
-6. In the changes window, select the **Restore** button.
-7. Reload or restart Obsidian to have the setting take effect. For more details, refer to the instructions in [[Set up Obsidian Sync#Adjust Obsidian Sync settings|Adjust Obsidian Sync settings]].
+1. Deschide **[[Settings]]**.
+2. În bara laterală, sub **Module integrate**, selectează **Sync**.
+3. Navighează în jos la **Sincronizare configurare seif**.
+4. Selectează butonul **Vizualizare** lângă **Istoricul versiunilor [[Settings]]**.
+5. În fereastra pop-up **Fișier [[Settings]]**, alege un fișier de setări pe care dorești să-l vizualizezi.
+6. În fereastra modificărilor, selectează butonul **Restaurează**.
+7. Reîncarcă sau repornește Obsidian pentru ca setarea să intre în efect. Pentru mai multe detalii, consultă instrucțiunile din [[Set up Obsidian Sync#Ajustează setările Obsidian Sync|Ajustează setările Obsidian Sync]].

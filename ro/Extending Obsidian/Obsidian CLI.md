@@ -1,50 +1,49 @@
 ---
-localized: null
 permalink: cli
-description: Anything you can do in Obsidian can be done from the command line.
+description: Orice puteți face în Obsidian poate fi făcut din linia de comandă.
 ---
-Obsidian CLI is a command line interface that lets you control Obsidian from your terminal for scripting, automation, and integration with external tools.
+Obsidian CLI este o interfață de linie de comandă care vă permite să controlați Obsidian din terminal, pentru scripting, automatizare și integrare cu instrumente externe.
 
-Anything you can do in Obsidian you can do from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more.
+Orice puteți face în Obsidian puteți face din linia de comandă. Obsidian CLI include chiar [[#Comenzi pentru dezvoltatori|comenzi pentru dezvoltatori]] pentru a accesa instrumentele de dezvoltare, a inspecta elemente, a face capturi de ecran, a reîncărca module și multe altele.
 
 ![[obsidian-cli.mp4#interface]]
 
-> [!warning] Requires Obsidian 1.12 installer
-> Using the CLI requires the Obsidian 1.12 installer. See the [[Update Obsidian#Installer updates|installer version update guide]].
+> [!warning] Necesită pachetul de instalare Obsidian 1.12
+> Utilizarea CLI necesită pachetul de instalare Obsidian 1.12. Consultați [[Update Obsidian#Actualizări ale pachetului de instalare|ghidul de actualizare a versiunii pachetului de instalare]].
 
-## Install Obsidian CLI
+## Instalați Obsidian CLI
 
-Upgrade to the latest [[Update Obsidian|Obsidian installer version]] (1.12.7+).
+Actualizați la cea mai recentă [[Update Obsidian|versiune a pachetului de instalare Obsidian]] (1.12.7+).
 
-Enable Obsidian CLI in Obsidian:
+Activați Obsidian CLI în Obsidian:
 
-1. Go to **Settings** → **General**.
-2. Enable **Command line interface**.
-3. Follow the prompt to register Obsidian CLI.
+1. Mergeți la **Setări** → **General**.
+2. Activați **Interfață în linie de comandă**.
+3. Urmați instrucțiunile pentru a înregistra Obsidian CLI.
 
-If you run into issues installing Obsidian CLI see [[#Troubleshooting]].
+Dacă întâmpinați probleme la instalarea Obsidian CLI, consultați [[#Depanare]].
 
-## Get started
+## Primii pași
 
-Obsidian CLI supports both single commands and a terminal user interface (TUI) with interactive help and autocomplete.
+Obsidian CLI acceptă atât comenzi individuale, cât și o interfață de utilizator în terminal (TUI) cu ajutor interactiv și completare automată.
 
-> [!info] Obsidian app must be running
-> Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
+> [!info] Aplicația Obsidian trebuie să ruleze
+> Obsidian CLI necesită ca aplicația Obsidian să ruleze. Dacă Obsidian nu rulează, prima comandă pe care o executați lansează Obsidian.
 >
-> Looking to sync without the desktop app? See [[Obsidian Headless|Obsidian Headless]].
+> Doriți să sincronizați fără aplicația desktop? Consultați [[Obsidian Headless|Obsidian Headless]].
 
-### Run a command
+### Rulați o comandă
 
-Run an individual command without opening the TUI:
+Rulați o comandă individuală fără a deschide TUI:
 
 ```shell
 # Run the help command
 obsidian help
 ```
 
-### Use the terminal interface
+### Folosiți interfața de terminal
 
-Use the TUI by entering `obsidian`. Subsequent commands can be entered without `obsidian`.
+Folosiți TUI introducând `obsidian`. Comenzile ulterioare pot fi introduse fără `obsidian`.
 
 ```shell
 # Open the TUI, then run help
@@ -52,13 +51,13 @@ obsidian
 help
 ```
 
-The TUI supports autocomplete, command history, and reverse search. Use `Ctrl+R` to search your command history. See [[#Keyboard shortcuts]] for all available shortcuts.
+TUI acceptă completare automată, istoric al comenzilor și căutare inversă. Folosiți `Ctrl+R` pentru a căuta în istoricul comenzilor. Consultați [[#Combinații de taste]] pentru toate combinațiile disponibile.
 
-## Examples
+## Exemple
 
-Here are a few examples of what Obsidian CLI can do.
+Iată câteva exemple din ceea ce poate face Obsidian CLI.
 
-### Everyday use
+### Utilizare zilnică
 
 ```shell
 # Open today's daily note
@@ -86,9 +85,9 @@ obsidian tags counts
 obsidian diff file=README from=1 to=3
 ```
 
-### For developers
+### Pentru dezvoltatori
 
-Many [[#Developer commands]] are available for plugin and theme development. These commands allow agentic coding tools to automatically test and debug.
+Multe [[#Comenzi pentru dezvoltatori]] sunt disponibile pentru dezvoltarea de module și teme. Aceste comenzi permit instrumentelor agentice de programare să testeze și să depaneze automat.
 
 ```shell
 # Open developer tools
@@ -104,56 +103,56 @@ obsidian dev:screenshot path=screenshot.png
 obsidian eval code="app.vault.getFiles().length"
 ```
 
-## How to
+## Ghid rapid
 
-### Use parameters and flags
+### Folosiți parametri și marcaje
 
-Commands can use **parameters** and **flags**. Most commands do not require any parameters or flags. Required parameters are marked as `required`. For example:
+Comenzile pot folosi **parametri** și **marcaje**. Majoritatea comenzilor nu necesită niciun parametru sau marcaj. Parametrii obligatorii sunt marcați ca `required`. De exemplu:
 
 ```shell
 # Create a new note using the default "Untitled" name
 obsidian create
 ```
 
-A **parameter** takes a value, written as `parameter=value`. If the value has spaces, wrap it in quotes:
+Un **parametru** primește o valoare, scrisă ca `parameter=value`. Dacă valoarea conține spații, încadrați-o în ghilimele:
 
 ```shell
 # Create a new note called "Note" with content "Hello world"
 obsidian create name=Note content="Hello world"
 ```
 
-A **flag** is a boolean switch with no value. Include it to turn it on, for example `open` and `overwrite` are flags:
+Un **marcaj** este un comutator boolean fără valoare. Includeți-l pentru a-l activa; de exemplu, `open` și `overwrite` sunt marcaje:
 
 ```shell
 # Create a note and open it
 obsidian create name=Note content="Hello" open overwrite
 ```
 
-For multiline content use `\n` for newline. Use `\t` for tab.
+Pentru conținut pe mai multe linii, folosiți `\n` pentru linie nouă. Folosiți `\t` pentru tab.
 
 ```bash
 obsidian create name=Note content="# Title\n\nBody text"
 ```
 
-### Target a vault
+### Vizați un seif
 
-If your terminal's current working directory is a vault folder, that vault is used by default. Otherwise, the currently active vault is used.
+Dacă directorul de lucru curent al terminalului este un director de seif, acel seif este folosit implicit. În caz contrar, este folosit seiful activ în prezent.
 
-Use `vault=<name>` or `vault=<id>` to target a specific vault. This must be the first parameter before your command:
+Folosiți `vault=<name>` sau `vault=<id>` pentru a viza un seif anume. Acesta trebuie să fie primul parametru înaintea comenzii:
 
 ```shell
 obsidian vault=Notes daily
 obsidian vault="My Vault" search query="test"
 ```
 
-In the TUI, use `vault:open <name>` or `<id>` to switch to a different vault.
+În TUI, folosiți `vault:open <name>` sau `<id>` pentru a comuta la un alt seif.
 
-### Target a file
+### Vizați un fișier
 
-Many commands accept `file` and `path` parameters to target a specific file. If neither is provided, the command defaults to the active file.
+Multe comenzi acceptă parametrii `file` și `path` pentru a viza un fișier anume. Dacă niciunul nu este specificat, comanda se aplică implicit fișierului activ.
 
-- `file=<name>` resolves the file using the same link resolution as [[Internal links|wikilinks]], matching by file name without requiring the full path or extension.
-- `path=<path>` requires the exact path from the vault root, e.g. `folder/note.md`.
+- `file=<name>` rezolvă fișierul folosind aceeași rezolvare a legăturilor ca [[Internal links|legăturile interne]], potrivind după numele fișierului, fără a necesita calea completă sau extensia.
+- `path=<path>` necesită calea exactă din rădăcina seifului, de ex. `folder/note.md`.
 
 ```shell
 # These are equivalent if "Recipe.md" is the only file with that name
@@ -161,9 +160,9 @@ obsidian read file=Recipe
 obsidian read path="Templates/Recipe.md"
 ```
 
-### Copy output
+### Copiați rezultatul
 
-Add `--copy` to any command to copy the output to the clipboard:
+Adăugați `--copy` la orice comandă pentru a copia rezultatul în clipboard:
 
 ```shell
 read --copy
@@ -171,44 +170,44 @@ search query="TODO" --copy
 ```
 
 
-## General commands
+## Comenzi generale
 
 ### `help`
 
-Show list of all available commands.
+Afișează lista tuturor comenzilor disponibile.
 
-| Parameter   | Description                       |
-| ----------- | --------------------------------- |
-| `<command>` | Show help for a specific command. |
+| Parametru   | Descriere                                |
+| ----------- | ----------------------------------------- |
+| `<command>` | Afișează ajutor pentru o comandă anume. |
 
 ### `version`
 
-Show Obsidian version.
+Afișează versiunea Obsidian.
 
 ### `reload`
 
-Reload the app window.
+Reîncarcă fereastra aplicației.
 
 ### `restart`
 
-Restart the app.
+Repornește aplicația.
 
 
-## Bases
+## Baze
 
-Commands for [[Introduction to Bases|Bases]].
+Comenzi pentru [[Introduction to Bases|Baze]].
 
 ### `bases`
 
-List all `.base` files in the vault.
+Listează toate fișierele `.base` din seif.
 
 ### `base:views`
 
-List views in the current base file.
+Listează vizualizările din fișierul de bază curent.
 
 ### `base:create`
 
-Create a new item in a base. Defaults to the active base view if no file is specified.
+Creează un element nou într-o bază. Implicit se folosește vizualizarea activă a bazei dacă nu este specificat niciun fișier.
 
 ```bash
 file=<name>        # base file name
@@ -223,7 +222,7 @@ newtab             # open in new tab
 
 ### `base:query`
 
-Query a base and return results.
+Interoghează o bază și returnează rezultatele.
 
 ```bash
 file=<name>                    # base file name
@@ -232,13 +231,13 @@ view=<name>                    # view name to query
 format=json|csv|tsv|md|paths   # output format (default: json)
 ```
 
-## Bookmarks
+## Marcaje
 
-Commands for [[Bookmarks]].
+Comenzi pentru [[Bookmarks]].
 
 ### `bookmarks`
 
-List bookmarks.
+Listează marcajele.
 
 ```bash
 total              # return bookmark count
@@ -248,7 +247,7 @@ format=json|tsv|csv  # output format (default: tsv)
 
 ### `bookmark`
 
-Add a bookmark.
+Adaugă un marcaj.
 
 ```bash
 file=<path>        # file to bookmark
@@ -259,13 +258,13 @@ url=<url>          # URL to bookmark
 title=<title>      # bookmark title
 ```
 
-## Command palette
+## Paleta de comenzi
 
-Commands for [[Command palette]] and [[Hotkeys]]. This includes all commands registered by plugins.
+Comenzi pentru [[Command palette]] și [[Hotkeys]]. Aceasta include toate comenzile înregistrate de module.
 
 ### `commands`
 
-List available command IDs.
+Listează ID-urile comenzilor disponibile.
 
 ```bash
 filter=<prefix>    # filter by ID prefix
@@ -273,7 +272,7 @@ filter=<prefix>    # filter by ID prefix
 
 ### `command`
 
-Execute an Obsidian command.
+Execută o comandă Obsidian.
 
 ```bash
 id=<command-id>    # (required) command ID to execute
@@ -281,7 +280,7 @@ id=<command-id>    # (required) command ID to execute
 
 ### `hotkeys`
 
-List hotkeys for all commands.
+Listează combinațiile de taste pentru toate comenzile.
 
 ```bash
 total              # return hotkey count
@@ -291,7 +290,7 @@ format=json|tsv|csv  # output format (default: tsv)
 
 ### `hotkey`
 
-Get hotkey for a command.
+Obține combinația de taste pentru o comandă.
 
 ```bash
 id=<command-id>    # (required) command ID
@@ -299,13 +298,13 @@ id=<command-id>    # (required) command ID
 verbose            # show if custom or default
 ```
 
-## Daily notes
+## Note zilnice
 
-Commands for [[Daily notes]].
+Comenzi pentru [[Daily notes]].
 
 ### `daily`
 
-Open daily note.
+Deschide nota zilnică.
 
 ```bash
 paneType=tab|split|window    # pane type to open in
@@ -313,15 +312,15 @@ paneType=tab|split|window    # pane type to open in
 
 ### `daily:path`
 
-Get daily note path. Returns the expected path even if the file hasn't been created yet.
+Obține calea notei zilnice. Returnează calea așteptată chiar dacă fișierul nu a fost încă creat.
 
 ### `daily:read`
 
-Read daily note contents.
+Citește conținutul notei zilnice.
 
 ### `daily:append`
 
-Append content to daily note.
+Adaugă conținut la finalul notei zilnice.
 
 ```bash
 content=<text>     # (required) content to append
@@ -333,7 +332,7 @@ open               # open file after adding
 
 ### `daily:prepend`
 
-Prepend content to daily note.
+Adaugă conținut la începutul notei zilnice.
 
 ```bash
 content=<text>     # (required) content to prepend
@@ -343,11 +342,11 @@ inline             # prepend without newline
 open               # open file after adding
 ```
 
-## File history
+## Istoricul fișierelor
 
 ### `diff`
 
-List or compare versions from local [[File recovery]] and [[Introduction to Obsidian Sync|Sync]]. Versions are numbered from newest to oldest.
+Listează sau compară versiuni din [[File recovery]] locală și [[Introduction to Obsidian Sync|Sync]]. Versiunile sunt numerotate de la cea mai nouă la cea mai veche.
 
 ```bash
 file=<name>          # file name
@@ -357,7 +356,7 @@ to=<n>               # version number to diff to
 filter=local|sync    # filter by version source
 ```
 
-**Examples:**
+**Exemple:**
 
 ```shell
 # List all versions of the active file
@@ -378,7 +377,7 @@ diff filter=sync
 
 ### `history`
 
-List versions from [[File recovery]] only. See [[#Sync|sync:history]] for the equivalent Sync command.
+Listează versiunile doar din [[File recovery]]. Consultați [[#Sync|sync:history]] pentru comanda echivalentă din Sync.
 
 ```bash
 file=<name>        # file name
@@ -387,11 +386,11 @@ path=<path>        # file path
 
 ### `history:list`
 
-List all files with local history.
+Listează toate fișierele cu istoric local.
 
 ### `history:read`
 
-Read a local history version.
+Citește o versiune din istoricul local.
 
 ```bash
 file=<name>        # file name
@@ -401,7 +400,7 @@ version=<n>        # version number (default: 1)
 
 ### `history:restore`
 
-Restore a local history version.
+Restaurează o versiune din istoricul local.
 
 ```bash
 file=<name>        # file name
@@ -411,25 +410,25 @@ version=<n>        # (required) version number
 
 ### `history:open`
 
-Open file recovery.
+Deschide recuperarea fișierelor.
 
 ```bash
 file=<name>        # file name
 path=<path>        # file path
 ```
 
-## Files and folders
+## Fișiere și directoare
 
 ### `file`
 
-Show file info (default: active file).
+Afișează informații despre fișier (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
 path=<path>        # file path
 ```
 
-Example:
+Exemplu:
 
 ```
 path       Notes/Recipe.md
@@ -442,7 +441,7 @@ modified   1700001000000
 
 ### `files`
 
-List files in the vault.
+Listează fișierele din seif.
 
 ```bash
 folder=<path>      # filter by folder
@@ -453,7 +452,7 @@ total              # return file count
 
 ### `folder`
 
-Show folder info.
+Afișează informații despre director.
 
 ```bash
 path=<path>              # (required) folder path
@@ -462,7 +461,7 @@ info=files|folders|size  # return specific info only
 
 ### `folders`
 
-List folders in the vault.
+Listează directoarele din seif.
 
 ```bash
 folder=<path>      # filter by parent folder
@@ -472,7 +471,7 @@ total              # return folder count
 
 ### `open`
 
-Open a file.
+Deschide un fișier.
 
 ```bash
 file=<name>        # file name
@@ -483,7 +482,7 @@ newtab             # open in new tab
 
 ### `create`
 
-Create or overwrite a file.
+Creează sau suprascrie un fișier.
 
 ```bash
 name=<name>        # file name
@@ -498,7 +497,7 @@ newtab             # open in new tab
 
 ### `read`
 
-Read file contents (default: active file).
+Citește conținutul fișierului (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -507,7 +506,7 @@ path=<path>        # file path
 
 ### `append`
 
-Append content to a file (default: active file).
+Adaugă conținut la finalul unui fișier (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -519,7 +518,7 @@ inline             # append without newline
 
 ### `prepend`
 
-Prepend content after frontmatter (default: active file).
+Adaugă conținut după frontmatter (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -531,7 +530,7 @@ inline             # prepend without newline
 
 ### `move`
 
-Move or rename a file (default: active file). This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+Mută sau redenumește un fișier (implicit: fișierul activ). Aceasta va actualiza automat [[internal links]] dacă opțiunea este activată în [[Settings#Actualizează automat legăturile interne|setările seifului]].
 
 ```bash
 file=<name>        # file name
@@ -541,7 +540,7 @@ to=<path>          # (required) destination folder or path
 
 ### `rename`
 
-Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time. This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+Redenumește un fișier (implicit: fișierul activ). Extensia fișierului este păstrată automat dacă este omisă din noul nume. Folosiți [[#`move`|move]] pentru a redenumi și muta un fișier în același timp. Aceasta va actualiza automat [[internal links]] dacă opțiunea este activată în [[Settings#Actualizează automat legăturile interne|setările seifului]].
 
 ```bash
 file=<name>        # file name
@@ -551,7 +550,7 @@ name=<name>        # (required) new file name
 
 ### `delete`
 
-Delete a file (default: active file, trash by default).
+Șterge un fișier (implicit: fișierul activ, implicit mutat la coșul de gunoi).
 
 ```bash
 file=<name>        # file name
@@ -560,13 +559,13 @@ path=<path>        # file path
 permanent          # skip trash, delete permanently
 ```
 
-## Links
+## Legături
 
-Commands for [[Backlinks]] and [[Outgoing links]].
+Comenzi pentru [[Backlinks]] și [[Outgoing links]].
 
 ### `backlinks`
 
-List backlinks to a file (default: active file).
+Listează referințele către un fișier (implicit: fișierul activ).
 
 ```bash
 file=<name>        # target file name
@@ -579,7 +578,7 @@ format=json|tsv|csv  # output format (default: tsv)
 
 ### `links`
 
-List outgoing links from a file (default: active file).
+Listează legăturile de ieșire dintr-un fișier (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -590,7 +589,7 @@ total              # return link count
 
 ### `unresolved`
 
-List unresolved links in vault.
+Listează legăturile nerezolvate din seif.
 
 ```bash
 total              # return unresolved link count
@@ -601,7 +600,7 @@ format=json|tsv|csv  # output format (default: tsv)
 
 ### `orphans`
 
-List files with no incoming links.
+Listează fișierele fără legături de intrare.
 
 ```bash
 total              # return orphan count
@@ -609,19 +608,19 @@ total              # return orphan count
 
 ### `deadends`
 
-List files with no outgoing links.
+Listează fișierele fără legături de ieșire.
 
 ```bash
 total              # return dead-end count
 ```
 
-## Outline
+## Sumar
 
-Commands for [[Outline]].
+Comenzi pentru [[Outline]].
 
 ### `outline`
 
-Show headings for the current file.
+Afișează titlurile pentru fișierul curent.
 
 ```bash
 file=<name>        # file name
@@ -631,13 +630,13 @@ format=tree|md|json  # output format (default: tree)
 total              # return heading count
 ```
 
-## Plugins
+## Module
 
-Commands for [[Core plugins]] and [[Community plugins]].
+Comenzi pentru [[Core plugins]] și [[Community plugins]].
 
 ### `plugins`
 
-List installed plugins.
+Listează modulele instalate.
 
 ```bash
 filter=core|community  # filter by plugin type
@@ -648,7 +647,7 @@ format=json|tsv|csv    # output format (default: tsv)
 
 ### `plugins:enabled`
 
-List enabled plugins.
+Listează modulele activate.
 
 ```bash
 filter=core|community  # filter by plugin type
@@ -659,7 +658,7 @@ format=json|tsv|csv    # output format (default: tsv)
 
 ### `plugins:restrict`
 
-Toggle or check restricted mode.
+Comută sau verifică modul restricționat.
 
 ```bash
 on                 # enable restricted mode
@@ -668,7 +667,7 @@ off                # disable restricted mode
 
 ### `plugin`
 
-Get plugin info.
+Obține informații despre modul.
 
 ```bash
 id=<plugin-id>     # (required) plugin ID
@@ -676,7 +675,7 @@ id=<plugin-id>     # (required) plugin ID
 
 ### `plugin:enable`
 
-Enable a plugin.
+Activează un modul.
 
 ```bash
 id=<id>                # (required) plugin ID
@@ -685,7 +684,7 @@ filter=core|community  # plugin type
 
 ### `plugin:disable`
 
-Disable a plugin.
+Dezactivează un modul.
 
 ```bash
 id=<id>                # (required) plugin ID
@@ -694,7 +693,7 @@ filter=core|community  # plugin type
 
 ### `plugin:install`
 
-Install a community plugin.
+Instalează un modul al comunității.
 
 ```bash
 id=<id>            # (required) plugin ID
@@ -704,7 +703,7 @@ enable             # enable after install
 
 ### `plugin:uninstall`
 
-Uninstall a community plugin.
+Dezinstalează un modul al comunității.
 
 ```bash
 id=<id>            # (required) plugin ID
@@ -712,19 +711,19 @@ id=<id>            # (required) plugin ID
 
 ### `plugin:reload`
 
-Reload a plugin (for developers).
+Reîncarcă un modul (pentru dezvoltatori).
 
 ```bash
 id=<id>            # (required) plugin ID
 ```
 
-## Properties
+## Proprietăți
 
-Commands related to [[Properties]].
+Comenzi legate de [[Properties]].
 
 ### `aliases`
 
-List aliases in the vault. Use `active` or `file`/`path` to show aliases for a specific file.
+Listează aliasurile din seif. Folosiți `active` sau `file`/`path` pentru a afișa aliasurile unui anumit fișier.
 
 ```bash
 file=<name>        # file name
@@ -737,7 +736,7 @@ active             # show aliases for active file
 
 ### `properties`
 
-List properties in the vault. Use `active` or `file`/`path` to show properties for a specific file.
+Listează proprietățile din seif. Folosiți `active` sau `file`/`path` pentru a afișa proprietățile unui anumit fișier.
 
 ```bash
 file=<name>        # show properties for file
@@ -753,7 +752,7 @@ active             # show properties for active file
 
 ### `property:set`
 
-Set a property on a file (default: active file).
+Setează o proprietate pe un fișier (implicit: fișierul activ).
 
 ```bash
 name=<name>                                    # (required) property name
@@ -765,7 +764,7 @@ path=<path>                                    # file path
 
 ### `property:remove`
 
-Remove a property from a file (default: active file).
+Elimină o proprietate de pe un fișier (implicit: fișierul activ).
 
 ```bash
 name=<name>        # (required) property name
@@ -775,7 +774,7 @@ path=<path>        # file path
 
 ### `property:read`
 
-Read a property value from a file (default: active file).
+Citește valoarea unei proprietăți dintr-un fișier (implicit: fișierul activ).
 
 ```bash
 name=<name>        # (required) property name
@@ -785,15 +784,15 @@ path=<path>        # file path
 
 ## Publish
 
-Commands for [[Introduction to Obsidian Publish|Obsidian Publish]].
+Comenzi pentru [[Introduction to Obsidian Publish|Obsidian Publish]].
 
 ### `publish:site`
 
-Show publish site info (slug, URL).
+Afișează informații despre site-ul Publish (slug, URL).
 
 ### `publish:list`
 
-List published files.
+Listează fișierele publicate.
 
 ```bash
 total              # return published file count
@@ -801,7 +800,7 @@ total              # return published file count
 
 ### `publish:status`
 
-List publish changes.
+Listează modificările pentru Publish.
 
 ```bash
 total              # return change count
@@ -812,7 +811,7 @@ deleted            # show deleted files only
 
 ### `publish:add`
 
-Publish a file or all changed files (default: active file).
+Publică un fișier sau toate fișierele modificate (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -823,7 +822,7 @@ changed            # publish all changed files
 
 ### `publish:remove`
 
-Unpublish a file (default: active file).
+Anulează publicarea unui fișier (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -832,20 +831,20 @@ path=<path>        # file path
 
 ### `publish:open`
 
-Open file on published site (default: active file).
+Deschide fișierul pe site-ul publicat (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
 path=<path>        # file path
 ```
 
-## Random notes
+## Note aleatorii
 
-Commands for [[Random note]].
+Comenzi pentru [[Random note]].
 
 ### `random`
 
-Open a random note.
+Deschide o notă aleatorie.
 
 ```bash
 folder=<path>      # limit to folder
@@ -855,19 +854,19 @@ newtab             # open in new tab
 
 ### `random:read`
 
-Read a random note (includes path).
+Citește o notă aleatorie (include calea).
 
 ```bash
 folder=<path>      # limit to folder
 ```
 
-## Search
+## Caută
 
-Commands for [[Search]].
+Comenzi pentru [[Search]].
 
 ### `search`
 
-Search vault for text. Returns matching file paths.
+Caută text în seif. Returnează căile fișierelor care se potrivesc.
 
 ```bash
 query=<text>       # (required) search query
@@ -881,7 +880,7 @@ case               # case sensitive
 
 ### `search:context`
 
-Search with matching line context. Returns grep-style `path:line: text` output.
+Caută cu contextul liniei care se potrivește. Returnează un rezultat în stil grep, `path:line: text`.
 
 ```bash
 query=<text>       # (required) search query
@@ -894,7 +893,7 @@ case               # case sensitive
 
 ### `search:open`
 
-Open search view.
+Deschide vizualizarea de căutare.
 
 ```bash
 query=<text>       # initial search query
@@ -902,14 +901,14 @@ query=<text>       # initial search query
 
 ## Sync
 
-Commands for [[Introduction to Obsidian Sync|Obsidian Sync]].
+Comenzi pentru [[Introduction to Obsidian Sync|Obsidian Sync]].
 
-> [!tip] Sync without the desktop app
-> These commands control Sync within the running Obsidian app. To sync vaults from the command line without the desktop app, see [[Headless Sync]].
+> [!tip] Sincronizare fără aplicația desktop
+> Aceste comenzi controlează Sync în cadrul aplicației Obsidian care rulează. Pentru a sincroniza seifuri din linia de comandă fără aplicația desktop, consultați [[Headless Sync]].
 
 ### `sync`
 
-Pause or resume sync.
+Pune pauză sau reia sincronizarea.
 
 ```bash
 on                 # resume sync
@@ -918,11 +917,11 @@ off                # pause sync
 
 ### `sync:status`
 
-Show sync status and usage.
+Afișează starea și utilizarea Sync.
 
 ### `sync:history`
 
-List sync version history for a file (default: active file).
+Listează istoricul versiunilor Sync pentru un fișier (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -933,7 +932,7 @@ total              # return version count
 
 ### `sync:read`
 
-Read a sync version (default: active file).
+Citește o versiune Sync (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -943,7 +942,7 @@ version=<n>        # (required) version number
 
 ### `sync:restore`
 
-Restore a sync version (default: active file).
+Restaurează o versiune Sync (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -953,7 +952,7 @@ version=<n>        # (required) version number
 
 ### `sync:open`
 
-Open sync history (default: active file).
+Deschide istoricul Sync (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -962,19 +961,19 @@ path=<path>        # file path
 
 ### `sync:deleted`
 
-List deleted files in sync.
+Listează fișierele șterse din Sync.
 
 ```bash
 total              # return deleted file count
 ```
 
-## Tags
+## Etichete
 
-Commands for [[Tags]].
+Comenzi pentru [[Tags]].
 
 ### `tags`
 
-List tags in the vault. Use `active` or `file`/`path` to show tags for a specific file.
+Listează etichetele din seif. Folosiți `active` sau `file`/`path` pentru a afișa etichetele unui anumit fișier.
 
 ```bash
 file=<name>        # file name
@@ -989,7 +988,7 @@ active             # show tags for active file
 
 ### `tag`
 
-Get tag info.
+Obține informații despre o etichetă.
 
 ```bash
 name=<tag>         # (required) tag name
@@ -998,13 +997,13 @@ total              # return occurrence count
 verbose            # include file list and count
 ```
 
-## Tasks
+## Sarcini
 
-Commands for task management.
+Comenzi pentru gestionarea sarcinilor.
 
 ### `tasks`
 
-List tasks in the vault. Use `active` or `file`/`path` to show tasks for a specific file.
+Listează sarcinile din seif. Folosiți `active` sau `file`/`path` pentru a afișa sarcinile unui anumit fișier.
 
 ```bash
 file=<name>        # filter by file name
@@ -1020,7 +1019,7 @@ active             # show tasks for active file
 daily              # show tasks from daily note
 ```
 
-**Examples:**
+**Exemple:**
 
 ```bash
 # List all tasks in the vault
@@ -1047,7 +1046,7 @@ tasks 'status=?'
 
 ### `task`
 
-Show or update a task.
+Afișează sau actualizează o sarcină.
 
 ```bash
 ref=<path:line>    # task reference (path:line)
@@ -1062,7 +1061,7 @@ done               # mark as done
 todo               # mark as todo
 ```
 
-**Examples:**
+**Exemple:**
 
 ```bash
 # Show task info
@@ -1083,13 +1082,13 @@ task daily line=3 done            # Mark daily note task as done
 ```
 
 
-## Templates
+## Șabloane
 
-Commands for [[Plugins/Templates|Templates]].
+Comenzi pentru [[Plugins/Templates|Șabloane]].
 
 ### `templates`
 
-List templates.
+Listează șabloanele.
 
 ```bash
 total              # return template count
@@ -1097,7 +1096,7 @@ total              # return template count
 
 ### `template:read`
 
-Read template content.
+Citește conținutul unui șablon.
 
 ```bash
 name=<template>    # (required) template name
@@ -1108,23 +1107,23 @@ resolve            # resolve template variables
 
 ### `template:insert`
 
-Insert template into active file.
+Inserează un șablon în fișierul activ.
 
 ```bash
 name=<template>    # (required) template name
 ```
 
-**Notes:**
-- `resolve` option processes `{{date}}`, `{{time}}`, `{{title}}` variables
-- Use `create path=<path> template=<name>` to create a file with a template
+**Note:**
+- Opțiunea `resolve` procesează variabilele `{{date}}`, `{{time}}`, `{{title}}`
+- Folosiți `create path=<path> template=<name>` pentru a crea un fișier folosind un șablon
 
-## Themes and snippets
+## Teme și fragmente
 
-Commands for [[Themes]] and [[CSS snippets]].
+Comenzi pentru [[Themes]] și [[CSS snippets]].
 
 ### `themes`
 
-List installed themes.
+Listează temele instalate.
 
 ```bash
 versions           # include version numbers
@@ -1132,7 +1131,7 @@ versions           # include version numbers
 
 ### `theme`
 
-Show active theme or get info.
+Afișează tema activă sau obține informații.
 
 ```bash
 name=<name>        # theme name for details
@@ -1140,7 +1139,7 @@ name=<name>        # theme name for details
 
 ### `theme:set`
 
-Set active theme.
+Setează tema activă.
 
 ```bash
 name=<name>        # (required) theme name (empty for default)
@@ -1148,7 +1147,7 @@ name=<name>        # (required) theme name (empty for default)
 
 ### `theme:install`
 
-Install a community theme.
+Instalează o temă a comunității.
 
 ```bash
 name=<name>        # (required) theme name
@@ -1158,7 +1157,7 @@ enable             # activate after install
 
 ### `theme:uninstall`
 
-Uninstall a theme.
+Dezinstalează o temă.
 
 ```bash
 name=<name>        # (required) theme name
@@ -1166,15 +1165,15 @@ name=<name>        # (required) theme name
 
 ### `snippets`
 
-List installed CSS snippets.
+Listează fragmentele CSS instalate.
 
 ### `snippets:enabled`
 
-List enabled CSS snippets.
+Listează fragmentele CSS activate.
 
 ### `snippet:enable`
 
-Enable a CSS snippet.
+Activează un fragment CSS.
 
 ```bash
 name=<name>        # (required) snippet name
@@ -1182,19 +1181,19 @@ name=<name>        # (required) snippet name
 
 ### `snippet:disable`
 
-Disable a CSS snippet.
+Dezactivează un fragment CSS.
 
 ```bash
 name=<name>        # (required) snippet name
 ```
 
-## Unique notes
+## Note unice
 
-Commands for [[Unique note creator]].
+Comenzi pentru [[Unique note creator]].
 
 ### `unique`
 
-Create unique note.
+Creează o notă unică.
 
 ```bash
 name=<text>        # note name
@@ -1204,11 +1203,11 @@ paneType=tab|split|window    # pane type to open in
 open               # open file after creating
 ```
 
-## Vault
+## Seif
 
 ### `vault`
 
-Show vault info.
+Afișează informații despre seif.
 
 ```bash
 info=name|path|files|folders|size  # return specific info only
@@ -1216,7 +1215,7 @@ info=name|path|files|folders|size  # return specific info only
 
 ### `vaults`
 
-List known vaults.
+Listează seifurile cunoscute.
 
 ```bash
 total              # return vault count
@@ -1225,19 +1224,19 @@ verbose            # include vault paths
 
 ### `vault:open`
 
-Switch to a different vault (TUI only).
+Comută la un alt seif (doar TUI).
 
 ```bash
 name=<name>        # (required) vault name
 ```
 
-## Web viewer
+## Vizualizator web
 
-Commands for [[Web viewer]].
+Comenzi pentru [[Web viewer]].
 
 ### `web`
 
-Open URL in web viewer.
+Deschide un URL în vizualizatorul web.
 
 ```bash
 url=<url>          # (required) URL to open
@@ -1245,13 +1244,13 @@ url=<url>          # (required) URL to open
 newtab             # open in new tab
 ```
 
-## Wordcount
+## Număr de cuvinte
 
-Commands for [[Word count]].
+Comenzi pentru [[Word count]].
 
 ### `wordcount`
 
-Count words and characters (default: active file).
+Numără cuvintele și caracterele (implicit: fișierul activ).
 
 ```bash
 file=<name>        # file name
@@ -1261,13 +1260,13 @@ words              # return word count only
 characters         # return character count only
 ```
 
-## Workspace
+## Spațiu de lucru
 
-Commands for [[Workspace]] and the [[Workspaces]] plugin.
+Comenzi pentru [[Workspace]] și modulul [[Workspaces]].
 
 ### `workspace`
 
-Show workspace tree.
+Afișează structura spațiului de lucru.
 
 ```bash
 ids                # include workspace item IDs
@@ -1275,7 +1274,7 @@ ids                # include workspace item IDs
 
 ### `workspaces`
 
-List saved workspaces.
+Listează spațiile de lucru salvate.
 
 ```bash
 total              # return workspace count
@@ -1283,7 +1282,7 @@ total              # return workspace count
 
 ### `workspace:save`
 
-Save current layout as workspace.
+Salvează aspectul curent ca spațiu de lucru.
 
 ```bash
 name=<name>        # workspace name
@@ -1291,7 +1290,7 @@ name=<name>        # workspace name
 
 ### `workspace:load`
 
-Load a saved workspace.
+Încarcă un spațiu de lucru salvat.
 
 ```bash
 name=<name>        # (required) workspace name
@@ -1299,7 +1298,7 @@ name=<name>        # (required) workspace name
 
 ### `workspace:delete`
 
-Delete a saved workspace.
+Șterge un spațiu de lucru salvat.
 
 ```bash
 name=<name>        # (required) workspace name
@@ -1307,7 +1306,7 @@ name=<name>        # (required) workspace name
 
 ### `tabs`
 
-List open tabs.
+Listează filele deschise.
 
 ```bash
 ids                # include tab IDs
@@ -1315,7 +1314,7 @@ ids                # include tab IDs
 
 ### `tab:open`
 
-Open a new tab.
+Deschide o filă nouă.
 
 ```bash
 group=<id>         # tab group ID
@@ -1325,23 +1324,23 @@ view=<type>        # view type to open
 
 ### `recents`
 
-List recently opened files.
+Listează fișierele deschise recent.
 
 ```bash
 total              # return recent file count
 ```
 
-## Developer commands
+## Comenzi pentru dezvoltatori
 
-Commands to help you develop [[Community plugins]] and [[Themes]]. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+Comenzi care vă ajută să dezvoltați [[Community plugins]] și [[Themes]]. Aflați mai multe accesând [Obsidian Developer Documentation](https://docs.obsidian.md).
 
 ### `devtools`
 
-Toggle Electron dev tools.
+Comută instrumentele de dezvoltare Electron.
 
 ### `dev:debug`
 
-Attach/detach Chrome DevTools Protocol debugger.
+Atașează/detașează depanatorul Chrome DevTools Protocol.
 
 ```bash
 on                 # attach debugger
@@ -1350,7 +1349,7 @@ off                # detach debugger
 
 ### `dev:cdp`
 
-Run a Chrome DevTools Protocol command.
+Rulează o comandă Chrome DevTools Protocol.
 
 ```bash
 method=<CDP.method>  # (required) CDP method to call
@@ -1359,7 +1358,7 @@ params=<json>        # method parameters as JSON
 
 ### `dev:errors`
 
-Show captured JavaScript errors.
+Afișează erorile JavaScript captate.
 
 ```bash
 clear              # clear the error buffer
@@ -1367,7 +1366,7 @@ clear              # clear the error buffer
 
 ### `dev:screenshot`
 
-Take a screenshot (returns base64 PNG).
+Face o captură de ecran (returnează PNG codificat base64).
 
 ```bash
 path=<filename>    # output file path
@@ -1375,7 +1374,7 @@ path=<filename>    # output file path
 
 ### `dev:console`
 
-Show captured console messages.
+Afișează mesajele din consolă captate.
 
 ```bash
 limit=<n>                        # max messages to show (default 50)
@@ -1386,7 +1385,7 @@ clear                            # clear the console buffer
 
 ### `dev:css`
 
-Inspect CSS with source locations.
+Inspectează CSS cu locațiile sursă.
 
 ```bash
 selector=<css>     # (required) CSS selector
@@ -1395,7 +1394,7 @@ prop=<name>        # filter by property name
 
 ### `dev:dom`
 
-Query DOM elements.
+Interoghează elemente DOM.
 
 ```bash
 selector=<css>     # (required) CSS selector
@@ -1410,7 +1409,7 @@ all                # return all matches instead of first
 
 ### `dev:mobile`
 
-Toggle mobile emulation.
+Comută emularea mobilă.
 
 ```bash
 on                 # enable mobile emulation
@@ -1419,117 +1418,116 @@ off                # disable mobile emulation
 
 ### `eval`
 
-Execute JavaScript and return result.
+Execută JavaScript și returnează rezultatul.
 
 ```bash
 code=<javascript>  # (required) JavaScript code to execute
 ```
 
-## Keyboard shortcuts
+## Combinații de taste
 
-These shortcuts are available in the [[#Use the terminal interface|TUI]].
+Aceste combinații sunt disponibile în [[#Folosiți interfața de terminal|TUI]].
 
-### Navigation
+### Navigare
 
-| Action                                                | Shortcut       |
-| ----------------------------------------------------- | -------------- |
-| Move cursor left                                      | `←` / `Ctrl+B` |
-| Move cursor right (accepts suggestion at end of line) | `→` / `Ctrl+F` |
-| Jump to start of line                                 | `Ctrl+A`       |
-| Jump to end of line                                   | `Ctrl+E`       |
-| Move back one word                                    | `Alt+B`        |
-| Move forward one word                                 | `Alt+F`        |
+| Acțiune                                                      | Combinație       |
+| ------------------------------------------------------------- | -------------- |
+| Mută cursorul la stânga                                       | `←` / `Ctrl+B` |
+| Mută cursorul la dreapta (acceptă sugestia la sfârșitul liniei) | `→` / `Ctrl+F` |
+| Sari la începutul liniei                                       | `Ctrl+A`       |
+| Sari la sfârșitul liniei                                       | `Ctrl+E`       |
+| Mută cu un cuvânt înapoi                                       | `Alt+B`        |
+| Mută cu un cuvânt înainte                                      | `Alt+F`        |
 
-### Editing
+### Editare
 
-| Action                  | Shortcut                   |
-| ----------------------- | -------------------------- |
-| Delete to start of line | `Ctrl+U`                   |
-| Delete to end of line   | `Ctrl+K`                   |
-| Delete previous word    | `Ctrl+W` / `Alt+Backspace` |
+| Acțiune                       | Combinație                   |
+| ------------------------------ | --------------------------- |
+| Șterge până la începutul liniei | `Ctrl+U`                   |
+| Șterge până la sfârșitul liniei | `Ctrl+K`                   |
+| Șterge cuvântul anterior        | `Ctrl+W` / `Alt+Backspace` |
 
-### Autocomplete
+### Completare automată
 
-| Action                                             | Shortcut    |
-| -------------------------------------------------- | ----------- |
-| Enter suggestion mode / accept selected suggestion | `Tab`       |
-| Exit suggestion mode                               | `Shift+Tab` |
-| Enter suggestion mode (from fresh input)           | `↓`         |
-| Accept first/selected suggestion (at end of line)  | `→`         |
+| Acțiune                                                        | Combinație    |
+| ---------------------------------------------------------------- | ----------- |
+| Intră în modul de sugestii / acceptă sugestia selectată         | `Tab`       |
+| Ieși din modul de sugestii                                       | `Shift+Tab` |
+| Intră în modul de sugestii (de la o intrare nouă)                | `↓`         |
+| Acceptă prima sugestie/sugestia selectată (la sfârșitul liniei) | `→`         |
 
-### History
+### Istoric
 
-| Action                                                     | Shortcut       |
-| ---------------------------------------------------------- | -------------- |
-| Previous history entry / navigate suggestions up           | `↑` / `Ctrl+P` |
-| Next history entry / navigate suggestions down             | `↓` / `Ctrl+N` |
-| Reverse history search (type to filter, `Ctrl+R` to cycle) | `Ctrl+R`       |
+| Acțiune                                                              | Combinație       |
+| ---------------------------------------------------------------------- | -------------- |
+| Intrarea anterioară din istoric / navighează în sugestii în sus       | `↑` / `Ctrl+P` |
+| Intrarea următoare din istoric / navighează în sugestii în jos        | `↓` / `Ctrl+N` |
+| Căutare inversă în istoric (tastați pentru a filtra, `Ctrl+R` pentru a parcurge) | `Ctrl+R`       |
 
-### Other
+### Altele
 
-| Action                                                 | Shortcut            |
+| Acțiune                                                | Combinație            |
 | ------------------------------------------------------ | ------------------- |
-| Execute command or accept suggestion                   | `Enter`             |
-| Undo autocomplete / exit suggestion mode / clear input | `Escape`            |
-| Clear screen                                           | `Ctrl+L`            |
-| Exit                                                   | `Ctrl+C` / `Ctrl+D` |
+| Execută comanda sau acceptă sugestia                   | `Enter`             |
+| Anulează completarea automată / iese din modul de sugestii / golește intrarea | `Escape`            |
+| Golește ecranul                                        | `Ctrl+L`            |
+| Ieșire                                                 | `Ctrl+C` / `Ctrl+D` |
 
-## Troubleshooting
+## Depanare
 
-If you are having trouble running Obsidian CLI:
+Dacă aveți probleme la rularea Obsidian CLI:
 
-- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.12.7 or above).
-- If you just updated Obsidian from an earlier version, turn off the CLI setting and turn it back on again, then allow Obsidian to perform the automatic PATH registration.
-- Restart your terminal after registering the CLI for the PATH changes to take effect.
-- Obsidian must be running. The CLI connects to the running Obsidian instance.
+- Asigurați-vă că folosiți cea mai recentă [[Update Obsidian|versiune a pachetului de instalare Obsidian]] (1.12.7 sau mai recentă).
+- Dacă tocmai ați actualizat Obsidian de la o versiune anterioară, dezactivați setarea CLI și reactivați-o, apoi permiteți Obsidian să efectueze înregistrarea automată în PATH.
+- Reporniți terminalul după înregistrarea CLI pentru ca modificările PATH să aibă efect.
+- Obsidian trebuie să ruleze. CLI se conectează la instanța Obsidian care rulează.
 
 ### Windows
 
-Obsidian CLI on Windows requires the Obsidian 1.12.7+ installer. See [[Update Obsidian|Installer version update]].
+Obsidian CLI pe Windows necesită pachetul de instalare Obsidian 1.12.7+. Consultați [[Update Obsidian|Actualizarea versiunii pachetului de instalare]].
 
-Windows uses a terminal redirector that connects Obsidian to stdin/stdout properly. This is necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs on Windows. When you install Obsidian 1.12.7+ the `Obsidian.com` terminal redirector will be added in the folder where you installed the `Obsidian.exe` file.
+Windows folosește un redirector de terminal care conectează Obsidian corect la stdin/stdout. Acest lucru este necesar deoarece Obsidian rulează în mod normal ca o aplicație GUI, incompatibilă cu ieșirile de terminal pe Windows. Când instalați Obsidian 1.12.7+, redirectorul de terminal `Obsidian.com` va fi adăugat în directorul unde ați instalat fișierul `Obsidian.exe`.
 
-The CLI registration adds Obsidian into your user's PATH variable, which takes only takes effect after you re-start the terminal.
+Înregistrarea CLI adaugă Obsidian în variabila PATH a utilizatorului, ceea ce are efect doar după repornirea terminalului.
 
 ### macOS
 
-The CLI registration creates a symlink at `/usr/local/bin/obsidian` pointing to the CLI binary bundled inside the app. This requires administrator privileges — you will be prompted via a system dialog.
+Înregistrarea CLI creează o legătură simbolică la `/usr/local/bin/obsidian` care indică spre binarul CLI inclus în aplicație. Acest lucru necesită privilegii de administrator — vi se va solicita confirmarea printr-un dialog de sistem.
 
-Check that the symlink exists and points to the correct binary:
+Verificați că legătura simbolică există și indică spre binarul corect:
 
 ```
 ls -l /usr/local/bin/obsidian
 ```
 
-If the symlink is missing, create it manually:
+Dacă legătura simbolică lipsește, creați-o manual:
 
 ```
 sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-> [!note] If you previously registered the CLI with an older version of Obsidian, you may have a leftover PATH entry in `~/.zprofile`. The new registration process removes this automatically, but if it remains, you can safely delete the lines starting with `# Added by Obsidian` from `~/.zprofile`.
+> [!note] Dacă ați înregistrat anterior CLI cu o versiune mai veche de Obsidian, este posibil să aveți o intrare PATH rămasă în `~/.zprofile`. Noul proces de înregistrare o elimină automat, dar dacă aceasta rămâne, puteți șterge în siguranță liniile care încep cu `# Added by Obsidian` din `~/.zprofile`.
 
 ### Linux
 
-The CLI registration copies the CLI binary to `~/.local/bin/obsidian`. This is done because some Linux installation methods run from temporary directories that cannot be symlinked persistently.
+Înregistrarea CLI copiază binarul CLI în `~/.local/bin/obsidian`. Acest lucru se face deoarece unele metode de instalare pe Linux rulează din directoare temporare care nu pot fi legate simbolic în mod persistent.
 
-Make sure `~/.local/bin` is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc` if it isn't:
+Asigurați-vă că `~/.local/bin` este în PATH. Adăugați următoarea linie în `~/.bashrc` sau `~/.zshrc` dacă nu este deja prezentă:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Check that the binary exists:
+Verificați că binarul există:
 
 ```
 ls -l ~/.local/bin/obsidian
 ```
 
-If the binary is missing, copy it manually from the Obsidian installation directory:
+Dacă binarul lipsește, copiați-l manual din directorul de instalare Obsidian:
 
 ```
 cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
 chmod 755 ~/.local/bin/obsidian
 ```
-
 

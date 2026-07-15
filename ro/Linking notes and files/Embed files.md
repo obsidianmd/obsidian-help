@@ -1,39 +1,38 @@
 ---
-localized: null
 permalink: embeds
 cssclasses:
   - soft-embed
-description: Learn how to embed files from your vault in your notes to reuse content across multiple places.
+description: Află cum să încorporezi fișiere din seiful tău în însemnările tale pentru a reutiliza conținut în mai multe locuri.
 ---
 
-Embedded files display their content inline in a note and stay up to date when the source file changes.
+Fișierele încorporate își afișează conținutul direct în cadrul unei însemnări și rămân actualizate atunci când fișierul sursă se schimbă.
 
-To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Internal links|Internal link]]. You can embed files in any of the [[Accepted file formats]].
+Pentru a încorpora un fișier din seiful tău, adaugă un semn de exclamare (`!`) în fața unei [[Internal links|legături interne]]. Poți încorpora fișiere în oricare dintre [[Accepted file formats|formatele de fișiere acceptate]].
 
-> [!tip]- Drag and drop embed
-> On desktop, you can also drag and drop supported files directly into your note to embed them automatically.
+> [!tip]- Încorporare prin tragere și plasare
+> Pe desktop, poți de asemenea să tragi și să plasezi fișierele acceptate direct în însemnarea ta pentru a le încorpora automat.
 
-## Embed a note in another note
+## Încorporează o însemnare în altă însemnare
 
-To embed a note:
+Pentru a încorpora o însemnare:
 
 ```md
 ![[Internal links]]
 ```
 
-You can also embed specific [[Internal links#Link to a heading in a note|headings]] and [[Internal links#Link to a block in a note|blocks]].
+Poți încorpora și anumite [[Internal links#Creează o legătură către un titlu dintr-o însemnare|titluri]] și [[Internal links#Creează o legătură către un bloc dintr-o însemnare|blocuri]].
 
 ```md
 ![[Internal links#^b15695]]
 ```
 
-The text below is an example of an embedded block:
+Textul de mai jos este un exemplu de bloc încorporat:
 
 ![[Internal links#^b15695]]
 
-## Embed an image in a note
+## Încorporează o imagine într-o însemnare
 
-To embed an image:
+Pentru a încorpora o imagine:
 
 ```md
 ![[Engelbart.jpg]]
@@ -41,17 +40,17 @@ To embed an image:
 
 ![[Engelbart.jpg#outline]]
 
-You can change the image dimensions by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+Poți schimba dimensiunile imaginii adăugând `|640x480` la destinația legăturii, unde 640 este lățimea, iar 480 este înălțimea.
 
 ```md
 ![[Engelbart.jpg|100x145]]
 ```
 
-If you only specify the width, the image scales proportionally. For example, `![[Engelbart.jpg|100]]`.
+Dacă specifici doar lățimea, imaginea se scalează proporțional. De exemplu, `![[Engelbart.jpg|100]]`.
 
 ![[Engelbart.jpg#outline|100]]
 
-You can also embed an externally hosted image by using a Markdown link. You can control the width and height using the same syntax as a wikilink.
+Poți încorpora și o imagine găzduită extern folosind o legătură Markdown. Poți controla lățimea și înălțimea folosind aceeași sintaxă ca la o legătură wiki.
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -59,9 +58,9 @@ You can also embed an externally hosted image by using a Markdown link. You can 
 
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 
-## Embed an audio file in a note
+## Încorporează un fișier audio într-o însemnare
 
-To embed an audio file:
+Pentru a încorpora un fișier audio:
 
 ```md
 ![[Excerpt from Mother of All Demos (1968).ogg]]
@@ -69,40 +68,40 @@ To embed an audio file:
 
 ![[Excerpt from Mother of All Demos (1968).ogg]]
 
-## Embed a PDF in a note
+## Încorporează un PDF într-o însemnare
 
-To embed a PDF:
+Pentru a încorpora un PDF:
 
 ```md
 ![[Document.pdf]]
 ```
 
-You can also open a specific page in the PDF by adding `#page=N` to the link destination, where `N` is the number of the page:
+Poți deschide și o anumită pagină din PDF adăugând `#page=N` la destinația legăturii, unde `N` este numărul paginii:
 
 ```md
 ![[Document.pdf#page=3]]
 ```
 
-You can also specify the height in pixels for the embedded PDF viewer by adding `#height=[number]` to the link. For example:
+Poți specifica și înălțimea în pixeli pentru vizualizatorul de PDF încorporat adăugând `#height=[number]` la legătură. De exemplu:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
 
-## Embed a canvas in a note
+## Încorporează o pânză într-o însemnare
 
-To embed a [[Canvas|canvas]]:
+Pentru a încorpora o [[Canvas|pânză]]:
 
 ```md
 ![[My canvas.canvas]]
 ```
 
-> [!info]+ Canvas embeds show shapes only
-> Embedded canvases display shapes but not the text inside cards. To view the full canvas, open it directly.
+> [!info]+ Pânzele încorporate afișează doar formele
+> Pânzele încorporate afișează formele, dar nu și textul din interiorul cardurilor. Pentru a vedea pânza completă, deschide-o direct.
 
-## Embed a list in a note
+## Încorporează o listă într-o însemnare
 
-To embed a list from a different note, first add a [[Internal links#Link to a block in a note|block identifier]] to your list:
+Pentru a încorpora o listă dintr-o altă însemnare, adaugă mai întâi un [[Internal links#Creează o legătură către un bloc dintr-o însemnare|identificator de bloc]] la lista ta:
 
 ```md
 
@@ -112,12 +111,12 @@ To embed a list from a different note, first add a [[Internal links#Link to a bl
 ^my-list-id
 ```
 
-Then link to the list using the block identifier:
+Apoi creează o legătură către listă folosind identificatorul de bloc:
 
 ```md
 ![[My note#^my-list-id]]
 ```
 
-## Embed search results
+## Încorporează rezultatele căutării
 
 ![[Search#Embed search results in a note]]

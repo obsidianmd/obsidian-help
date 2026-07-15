@@ -1,47 +1,46 @@
 ---
-localized: null
 permalink: appearance
 ---
-### Color scheme
+### Schemă de culori
 
-Obsidian comes with two color schemes, light and dark. By default, the color scheme is set to adapt to your operating system. You can change this by going to **[[Settings]] → Appearance**.
+Obsidian vine cu două scheme de culori, deschisă și închisă. Implicit, schema de culori este setată să se adapteze la sistemul dvs. de operare. Puteți schimba această setare accesând **[[Settings]] → Personalizare**.
 
-### Custom themes
+### Teme personalizate
 
-You can change the appearance of Obsidian by using [[themes|custom themes]]. Browse hundreds of community-made themes by going to **[[Settings]] → Appearance**, then click **Manage** to view and install themes.
+Puteți schimba aspectul aplicației Obsidian folosind [[themes|teme personalizate]]. Răsfoiți sute de teme create de comunitate accesând **[[Settings]] → Personalizare**, apoi apăsați **Gestionați** pentru a vizualiza și instala teme.
 
-You can also tweak themes using [[CSS snippets]] and [build your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
+Puteți, de asemenea, ajusta temele folosind [[CSS snippets]] și [să vă construiți propria temă](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
 
-### Custom app icon
+### Pictogramă personalizată a aplicației
 
-You can change the Obsidian desktop app icon. Try the icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/) to customize the icon colors to your liking.
+Puteți schimba pictograma aplicației desktop Obsidian. Încercați editorul de pictograme prezentat pe [blogul nostru](https://obsidian.md/blog/new-obsidian-icon/) pentru a personaliza culorile pictogramei după preferințe.
 
-To change the Obsidian app icon, follow these steps:
+Pentru a schimba pictograma aplicației Obsidian, urmați acești pași:
 
-1. Open **[[Settings]]**.
-2. Select **Appearance** on the left.
-3. Scroll down to the **Advanced** section.
-4. Under **Custom app icon** click **Choose** .
-5. Pick your desired icon from your filesystem.  Accepted file formats are `.icns`, `.ico`, `.png`, and `.svg`.
-6. Click **Relaunch**.
-7. After Obsidian restarts, your new icon should appear in the taskbar on desktop and on your screen on mobile.
+1. Deschideți **[[Settings]]**.
+2. Selectați **Personalizare** în partea stângă.
+3. Derulați în jos până la secțiunea **Avansat**.
+4. Sub **Pictogramă personalizată a aplicației**, apăsați **Alegeți** .
+5. Alegeți pictograma dorită din sistemul dvs. de fișiere.  Formatele de fișier acceptate sunt `.icns`, `.ico`, `.png` și `.svg`.
+6. Apăsați **Relansați**.
+7. După repornirea Obsidian, noua pictogramă ar trebui să apară în bara de sarcini pe desktop și pe ecranul dvs. pe mobil.
 
-> [!tip] Custom app icon in the  Windows taskbar 
-> For certain Windows operating systems, an extra step may be needed to adjust the custom app icon in the taskbar.
+> [!tip] Pictograma personalizată a aplicației în bara de sarcini Windows 
+> Pentru anumite sisteme de operare Windows, ar putea fi necesar un pas suplimentar pentru a ajusta pictograma personalizată a aplicației în bara de sarcini.
 > 
-> Follow these steps:
-> - Right-click the Obsidian icon on your taskbar or desktop shortcut.
-> - Right-click the name Obsidian (skip this step for the desktop icon).
-> - Choose **Properties**.
-> - Click **Change Icon**.
-> - Locate the icon on your file system.
-> - Click **OK**.
+> Urmați acești pași:
+> - Faceți clic dreapta pe pictograma Obsidian din bara de sarcini sau de pe comanda rapidă de pe desktop.
+> - Faceți clic dreapta pe numele Obsidian (omiteți acest pas pentru pictograma de pe desktop).
+> - Alegeți **Proprietăți**.
+> - Apăsați **Schimbă pictograma**.
+> - Localizați pictograma în sistemul dvs. de fișiere.
+> - Apăsați **OK**.
 > 
-> Afterward, you have the option to either restart `explorer.exe` within the task manager or restart your computer to apply the changes you made.
+> Ulterior, aveți opțiunea fie de a reporni `explorer.exe` din managerul de activități, fie de a reporni computerul pentru a aplica modificările efectuate.
 
-### Translucency
+### Translucență
 
-On MacOS you can make the Obsidian window translucent by enabling this option in the settings **Appearance** tab.
+Pe MacOS puteți face fereastra Obsidian translucidă activând această opțiune în fila **Personalizare** din setări.
 
-> [!info]- Windows and translucency
-> The Obsidian team removed translucency in Windows for version 1.15.11 due to Electron's removal of the feature.
+> [!info]- Windows și translucența
+> Echipa Obsidian a eliminat translucența pentru Windows începând cu versiunea 1.15.11, din cauza eliminării acestei funcționalități din Electron.

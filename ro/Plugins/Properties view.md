@@ -1,20 +1,19 @@
 ---
-localized: null
 permalink: plugins/properties
 publish: true
 mobile: true
-description: Properties view is a core plugin that adds two sidebar views that you can use to manage Properties.
+description: Properties view este un modul integrat care adaugă două afișaje în bara laterală pe care le poți folosi pentru a gestiona Proprietățile.
 ---
 
-Properties view is a [[Core plugins|core plugin]] that adds two sidebar views that you can use to manage [[Properties]]:
+Properties view este un [[Core plugins|modul integrat]] care adaugă două afișaje în bara laterală pe care le poți folosi pentru a gestiona [[Properties|Proprietățile]]:
 
-- **File properties** shows a view of the properties for the active note.
-- **All properties** shows a list of all the properties in your vault and their type.
+- **Proprietățile fișierului** arată un afișaj al proprietăților pentru nota activă.
+- **Toate proprietățile** arată o listă cu toate proprietățile din seiful tău și tipul lor.
 
-## All properties view
+## Afișajul tuturor proprietăților
 
-With the "All properties" view you can:
+Cu afișajul „Toate proprietățile” poți:
 
-- Sort properties by name or by frequency (total number of uses in your vault).
-- Click a property to open [[Search]] view with the [[Search#Search properties|property search]] syntax pre-filled.
-- Right-click a property to rename it globally.
+- Sortezi proprietățile după nume sau după frecvență (numărul total de utilizări din seiful tău).
+- Dai clic pe o proprietate pentru a deschide afișajul [[Search|Caută]] cu sintaxa de [[Search#Search properties|căutare după proprietăți]] precompletată.
+- Dai clic dreapta pe o proprietate pentru a o redenumi global.

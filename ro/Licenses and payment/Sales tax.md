@@ -1,35 +1,34 @@
 ---
-localized: null
 permalink: sales-tax
 ---
-In some jurisdictions, Obsidian is required to collect sales taxes on behalf of customers purchasing software licenses and services. Sales taxes may apply to [[Commercial license|Commercial licenses]], [[Introduction to Obsidian Sync|Obsidian Sync]], and [[Introduction to Obsidian Publish|Obsidian Publish]]. Sales taxes generally do not apply to [[Obsidian Credit]] and [[Catalyst license|Catalyst]] though exceptions do apply.
+În unele jurisdicții, Obsidian este obligat să colecteze taxe pe vânzări în numele clienților care achiziționează licențe și servicii software. Taxele pe vânzări se pot aplica [[Commercial license|licențelor comerciale]], [[Introduction to Obsidian Sync|Obsidian Sync]] și [[Introduction to Obsidian Publish|Obsidian Publish]]. Taxele pe vânzări în general nu se aplică pentru [[Obsidian Credit]] și [[Catalyst license|Catalyst]], deși pot exista excepții.
 
-To determine the taxes applied to your purchase, we use the country and postal code you provide at checkout or in the Billing section of your dashboard. This information is stored on your account so that we can accurately charge sales tax if there is a change in tax law or other requirements that obligate us to do so.
+Pentru a determina taxele aplicate achiziției tale, folosim țara și codul poștal pe care le furnizezi la finalizarea comenzii sau în secțiunea Billing a tabloului tău de bord. Aceste informații sunt stocate în contul tău, astfel încât să putem percepe corect taxa pe vânzări dacă apare o modificare a legislației fiscale sau alte cerințe care ne obligă să facem acest lucru.
 
-## Tax exemption
+## Scutire de taxe
 
-Depending on your country and status, you may be exempt from taxes by submitting your Tax Identification Number (TIN), VAT Number, VAT ID, or tax exemption certificate.
+În funcție de țara și statutul tău, poți fi scutit de taxe prin trimiterea numărului tău de identificare fiscală (TIN), a numărului de TVA, a codului de identificare TVA sau a certificatului de scutire de taxe.
 
-You can apply for a tax exemption via the Billing section of your [Account dashboard](https://obsidian.md/account/billing). If your application is approved, future purchases will not be charged taxes.
+Poți solicita o scutire de taxe prin secțiunea Billing din [tabloul de bord al contului tău](https://obsidian.md/account/billing). Dacă cererea ta este aprobată, achizițiile viitoare nu vor fi taxate.
 
-### Applying for an exemption
+### Solicitarea unei scutiri
 
-1. Log into your [Obsidian account](https://obsidian.md/account/billing).
-2. Navigate to the [Billing](https://obsidian.md/account/billing) section.
-3. To the right of _Tax Exemption_, select the **Manage** button.
-4. In the pop-up window:
-    1. Enter your country.
-    2. Enter your postal code, if applicable.
+1. Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/billing).
+2. Navighează la secțiunea [Billing](https://obsidian.md/account/billing).
+3. În dreapta secțiunii _Tax Exemption_, selectează butonul **Manage**.
+4. În fereastra pop-up:
+    1. Introdu țara ta.
+    2. Introdu codul tău poștal, dacă este cazul.
 
-Depending on your country, you may be required to submit a VAT number, or tax exemption certificate.
+În funcție de țara ta, este posibil să ți se solicite să trimiți un număr de TVA sau un certificat de scutire de taxe.
 
-- VAT number
-	- Enter your VAT number and select **Save** to submit your application.
-- Tax exemption certificate
-	1. Under _Tax exemption certificate_, select the **Browse** button to choose your sales tax exemption certificate from your device. Ensure the file is in `.pdf` format and is less than 3 MB.
-	2. After choosing the file, select **Upload** to submit your application.
+- Număr de TVA
+	- Introdu numărul tău de TVA și selectează **Save** pentru a-ți trimite cererea.
+- Certificat de scutire de taxe
+	1. Sub _Tax exemption certificate_, selectează butonul **Browse** pentru a alege certificatul tău de scutire de taxă pe vânzări de pe dispozitivul tău. Asigură-te că fișierul este în format `.pdf` și are mai puțin de 3 MB.
+	2. După ce alegi fișierul, selectează **Upload** pentru a-ți trimite cererea.
 
-The verification process may be instantaneous depending on your location. Once approved, future purchases will not be charged taxes.
+Procesul de verificare poate fi instantaneu, în funcție de locația ta. Odată aprobat, achizițiile viitoare nu vor fi taxate.
 
-> [!note] Note: applying for a tax exemption will also update your billing address to the postal code you chose.
+> [!note] Notă: solicitarea unei scutiri de taxe va actualiza, de asemenea, adresa ta de facturare cu codul poștal pe care l-ai ales.
 

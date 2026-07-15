@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: attachments
 ---
-You can import [[Accepted file formats]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system. Attachments can be [[Embed files|embedded]].
+Puteți importa [[Accepted file formats|fișiere]], sau _atașamente_, în seiful dvs., precum imagini, fișiere audio sau PDF-uri. Atașamentele sunt fișiere obișnuite pe care le puteți accesa folosind sistemul dvs. de fișiere. Atașamentele pot fi [[Embed files|încorporate]].
 
-## Add an attachment
+## Adăugați un atașament
 
-You can add attachments to your vault in multiple ways. Only [[Accepted file formats]] can be added.
+Puteți adăuga atașamente în seiful dvs. în mai multe moduri. Doar [[Accepted file formats|formatele de fișier acceptate]] pot fi adăugate.
 
-> [!todo]- Copy and paste attachments
-> You can paste attachments directly into your notes. Obsidian creates a file with the pasted content in the default attachment location and [[Embed files|embeds]] it in the note.
+> [!todo]- Copiați și lipiți atașamente
+> Puteți lipi atașamente direct în notele dvs. Obsidian creează un fișier cu conținutul lipit în locația implicită pentru atașamente și îl [[Embed files|încorporează]] în notă.
 
-> [!todo]- Drag and drop attachments
-> If you drag a file from your file system into an open editor, Obsidian copies the file to the default attachment location and [[Embed files|embeds]] it in the note.
+> [!todo]- Trageți și plasați atașamente
+> Dacă trageți un fișier din sistemul dvs. de fișiere într-un editor deschis, Obsidian copiază fișierul în locația implicită pentru atașamente și îl [[Embed files|încorporează]] în notă.
 
- > [!todo]- Download attachments to vault folder
- > You can download an attachment directly to your vault, for example if you  [[Import notes#More formats|import from your browser]], or from other apps that saves files directly to your file system.
+ > [!todo]- Descărcați atașamente în directorul seifului
+ > Puteți descărca un atașament direct în seiful dvs., de exemplu dacă [[Import notes#More formats|importați din browser]], sau din alte aplicații care salvează fișiere direct în sistemul dvs. de fișiere.
 
-## Change default attachment location
+## Schimbați locația implicită pentru atașamente
 
-By default, attachments are added to the root of your vault.
+Implicit, atașamentele sunt adăugate în directorul rădăcină al seifului dvs.
 
-You can change the default attachment location under **[[Settings]] → Files & Links → Default location for new attachments**.
+Puteți schimba locația implicită pentru atașamente din **[[Settings]] → Fișiere și legături → Alegeți directorul implicit pentru atașamente noi**.
 
-- **Vault folder** adds the attachment to the root of your vault.
-- **In the folder specified below** adds the attachment to a specified folder.
-- **Same folder as current file** adds the attachment to the same folder as the note you added it to.
-- **In subfolder under current folder** adds attachments to a specified folder next to the note you added the attachment to. If it doesn't exist, Obsidian creates it when you add an attachment.
+- **În directorul rădăcină al seifului** adaugă atașamentul în directorul rădăcină al seifului dvs.
+- **În directorul menționat mai jos** adaugă atașamentul într-un director specificat.
+- **În același director în care se află însemnarea** adaugă atașamentul în același director cu nota în care l-ați adăugat.
+- **Într-un subdirector al directorului actual** adaugă atașamentele într-un director specificat, alături de nota în care ați adăugat atașamentul. Dacă acesta nu există, Obsidian îl creează atunci când adăugați un atașament.

@@ -1,90 +1,89 @@
 ---
-localized: null
 permalink: plugins/graph
 publish: true
 mobile: true
-description: Graph view is a core plugin that lets you visualize the relationships between the notes in your vault.
+description: Graph view este un modul integrat care îți permite să vizualizezi relațiile dintre notele din seiful tău.
 ---
-Graph view is a [[Core plugins|core plugin]] that lets you visualize the relationships between the notes in your vault.
+Graph view este un [[Core plugins|modul integrat]] care îți permite să vizualizezi relațiile dintre notele din seiful tău.
 
-To open the Graph view, click **Open graph view** in the [[Ribbon]].
+Pentru a deschide Afișajul grafic, dă clic pe **Open graph view** din [[Ribbon|Panglică]].
 
-- Circles represent notes, or _nodes_.
-- Lines represent [[Internal links]] between two nodes.
+- Cercurile reprezintă notele, sau _nodurile_.
+- Liniile reprezintă [[Internal links|legăturile interne]] dintre două noduri.
 
-The more nodes that reference a given node, the bigger it gets.
+Cu cât mai multe noduri fac referire la un anumit nod, cu atât acesta devine mai mare.
 
-To interact with notes in the graph:
+Pentru a interacționa cu notele din grafic:
 
-- Hover over each circle to highlight that note's connections.
-- Click a note in the graph to open that note.
-- Right-click a note to open a context menu with the actions available for that note.
+- Plasează cursorul deasupra fiecărui cerc pentru a evidenția conexiunile acelei note.
+- Dă clic pe o notă din grafic pentru a o deschide.
+- Dă clic dreapta pe o notă pentru a deschide un meniu contextual cu acțiunile disponibile pentru acea notă.
 
-To navigate around the graph:
+Pentru a naviga în jurul graficului:
 
-- Zoom in and out using the scroll wheel on your mouse, or using the `+` and `-` keys.
-- Move the graph around by dragging it with your mouse cursor, or using the arrow keys.
+- Mărește și micșorează folosind rotița mouse-ului, sau folosind tastele `+` și `-`.
+- Mută graficul trăgându-l cu cursorul mouse-ului, sau folosind săgețile de la tastatură.
 
-You can hold Shift while using the keyboard to speed up the movements.
+Poți ține apăsat Shift în timp ce folosești tastatura pentru a accelera mișcările.
 
-## Settings
+## Setări
 
-To open the graph settings, click the cog icon in the upper-right corner of the graph view.
+Pentru a deschide setările graficului, dă clic pe pictograma roată dințată din colțul din dreapta sus al afișajului grafic.
 
-Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
+Dă clic pe **Restore default settings** în colțul din dreapta sus al panoului de setări pentru a reseta orice modificări făcute.
 
-### Filters
+### Filtre
 
-This section controls what nodes to show in the graph.
+Această secțiune controlează ce noduri sunt afișate în grafic.
 
-- **Search files** lets you filter notes based on a search term. To learn about how you can write more advanced search terms, refer to [[Search]].
-- **Tags** toggles whether to show tags in the graph.
-- **Attachments** toggles whether to show attachments in the graph.
-- **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help limit your graph to notes that you actually have in your vault.
-- **Orphans** toggles whether to show notes without any links.
+- **Search files** îți permite să filtrezi notele pe baza unui termen de căutare. Pentru a afla cum poți scrie termeni de căutare mai avansați, consultă [[Search|Caută]].
+- **Tags** comută afișarea etichetelor în grafic.
+- **Attachments** comută afișarea atașamentelor în grafic.
+- **Existing files only** comută afișarea notelor care există în seiful tău. Deoarece o notă nu trebuie să existe pentru a face legătura către ea, acest lucru te poate ajuta să limitezi graficul la notele pe care le ai efectiv în seiful tău.
+- **Orphans** comută afișarea notelor fără nicio legătură.
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Graph view.
+> [!info] Fișiere excluse
+> Fișierele care corespund tiparelor tale de [[Settings#Excluded files|Fișiere excluse]] nu vor apărea în Afișajul grafic.
 
-### Groups
+### Grupuri
 
-Create groups of notes to distinguish them from each other using color.
+Creează grupuri de note pentru a le distinge unele de altele folosind culoarea.
 
-To create a new group:
+Pentru a crea un grup nou:
 
-1. Click **New group**.
-2. In the search box, type a search term for the notes you want to add to the group.
-3. Click the colored circle to give the group a color.
+1. Dă clic pe **New group**.
+2. În câmpul de căutare, scrie un termen de căutare pentru notele pe care vrei să le adaugi în grup.
+3. Dă clic pe cercul colorat pentru a da o culoare grupului.
 
-To learn about how you can write more advanced search terms, refer to [[Search]].
+Pentru a afla cum poți scrie termeni de căutare mai avansați, consultă [[Search|Caută]].
 
-### Display
+### Afișare
 
-This section controls how to visualize nodes and links in the graph.
+Această secțiune controlează cum sunt vizualizate nodurile și legăturile în grafic.
 
-- **Arrows** toggles whether to show the direction of each link.
-- **Text fade threshold** controls the text transparency for the name of each note.
-- **Node size** controls the size of the circle representing each note.
-- **Link thickness** controls the line width for each link.
-- **Animate** starts a [[#Start a time-lapse animation|time-lapse animation]].
+- **Arrows** comută afișarea direcției fiecărei legături.
+- **Text fade threshold** controlează transparența textului pentru numele fiecărei note.
+- **Node size** controlează mărimea cercului care reprezintă fiecare notă.
+- **Link thickness** controlează grosimea liniei pentru fiecare legătură.
+- **Animate** pornește o [[#Pornește o animație de tip time-lapse|animație de tip time-lapse]].
 
-### Forces
+### Forțe
 
-This section controls the forces that act on each node in the graph.
+Această secțiune controlează forțele care acționează asupra fiecărui nod din grafic.
 
-- **Center force** controls how compact the graph is. A higher value creates a more circular graph.
-- **Repel force** controls how much a node pushes other nodes away from it.
-- **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
-- **Link distance** controls the length of the lines between each note.
+- **Center force** controlează cât de compact este graficul. O valoare mai mare creează un grafic mai circular.
+- **Repel force** controlează cât de mult respinge un nod celelalte noduri.
+- **Link force** controlează tracțiunea pe fiecare legătură. Dacă legătura ar fi o bandă de cauciuc, forța legăturii controlează cât de strânsă sau de lejeră este banda.
+- **Link distance** controlează lungimea liniilor dintre fiecare notă.
 
-## Start a time-lapse animation
+## Pornește o animație de tip time-lapse
 
-Notes and attachments appear in chronological order based on their creation time.
+Notele și atașamentele apar în ordine cronologică, pe baza momentului creării lor.
 
 ![[obsidian-graph-view.png#interface]]
 
-## Local Graph
+## Afișaj grafic local
 
-To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
+Pentru a deschide un afișaj grafic local, folosește comanda **Open local graph**. În timp ce afișajul grafic arată toate notele din seiful tău, un afișaj grafic local îți arată notele conectate la nota activă.
 
-The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local Graph Filter Settings panel.
+Afișajul grafic local poate folosi toate [[#Setări|setările]] disponibile pentru afișajul grafic global. În plus, poți schimba adâncimea graficului local. Fiecare nivel de adâncime va afișa notele conectate la notele dezvăluite la nivelul anterior. Pentru a controla adâncimea afișajului grafic local, folosește cursorul din partea de sus a panoului de filtre al afișajului grafic local.

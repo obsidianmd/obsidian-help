@@ -1,39 +1,38 @@
 ---
-localized: null
 permalink: bases/views/cards
 ---
-Cards is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+Cards este un tip de [[Views|vizualizare]] pe care îl poți folosi în [[Introduction to Bases|Baze]].
 
-Select ![[lucide-layout-grid.svg#icon]]  **Cards** from the view menu to display files as a gallery-like grid layout with optional cover images.
+Selectează ![[lucide-layout-grid.svg#icon]]  **Carduri** din meniul de vizualizare pentru a afișa fișierele într-un aspect de tip grilă asemănător unei galerii, cu imagini de copertă opționale.
 
-## Settings
+## Setări
 
-Card view settings can be configured in [[Views#View settings|View settings]].
+Setările vizualizării de tip carduri pot fi configurate în [[Views#View settings|Setările vizualizării]].
 
-- Card size
-- Image property
-- Image fit
-- Image aspect ration
+- Dimensiunea cardului
+- Proprietatea de imagine
+- Încadrarea imaginii
+- Raportul de aspect al imaginii
 
-### Card size
+### Dimensiunea cardului
 
-Defines the width of a card.
+Definește lățimea unui card.
 
-### Image property
+### Proprietatea de imagine
 
-Cards support an optional cover image, which is [[Properties|property]] that's displayed as an image at the top of the card. The property can be any of the following:
+Cardurile acceptă o imagine de copertă opțională, care este o [[Properties|proprietate]] afișată ca imagine în partea de sus a cardului. Proprietatea poate fi oricare dintre următoarele:
 
-- A link to a local [[Attachments|attachment]] `"[[link/to/attachment.jpg]]"`
-- An external link (URL)
-- A hex color code (`#000000`)
+- O legătură către un [[Attachments|atașament]] local `"[[link/to/attachment.jpg]]"`
+- O legătură externă (URL)
+- Un cod de culoare hexazecimal (`#000000`)
 
-### Image fit
+### Încadrarea imaginii
 
-If you have an image property configured, this option will determine how the image should be displayed in the card.
+Dacă ai configurată o proprietate de imagine, această opțiune determină modul în care imaginea trebuie afișată în card.
 
-- **Cover:** The image fills the card's content box. If it does not fit, the image will be cropped.
-- **Contain:** The image is scaled until it fits within the card's content box. The image will not be cropped.
+- **Acoperire:** Imaginea umple caseta de conținut a cardului. Dacă nu se încadrează, imaginea va fi decupată.
+- **Conținere:** Imaginea este redimensionată până se încadrează în caseta de conținut a cardului. Imaginea nu va fi decupată.
 
-### Image aspect ratio
+### Raportul de aspect al imaginii
 
-The height of the cover image is determined by its aspect ratio. The default aspect ratio is 1:1 meaning all your images will be square. Adjust this option to make the image shorter or taller.
+Înălțimea imaginii de copertă este determinată de raportul ei de aspect. Raportul de aspect implicit este 1:1, ceea ce înseamnă că toate imaginile tale vor fi pătrate. Ajustează această opțiune pentru a face imaginea mai scundă sau mai înaltă.

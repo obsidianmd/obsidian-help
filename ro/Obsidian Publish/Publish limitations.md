@@ -1,49 +1,48 @@
 ---
-localized: null
 permalink: publish/limitations
 ---
 
-> [!tip] Members of our awesome community have devised workarounds for some of these limitations. For more information, please visit our [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) thread on the Obsidian forums.
+> [!tip] Membri ai comunității noastre minunate au găsit soluții pentru unele dintre aceste limitări. Pentru mai multe informații, te rugăm să vizitezi subiectul nostru [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) de pe forumurile Obsidian.
 
-## Community plugins
+## Module comunitare
 
-Obsidian Publish has minimal support for [[Community plugins]]. 
+Obsidian Publish are suport minim pentru [[Community plugins|module comunitare]]. 
 
-Plugins which output in raw markdown, such as the Waypoint plugin, are compatible with Publish because they do not require the application to render their data. 
+Modulele care generează markdown brut, precum modulul Waypoint, sunt compatibile cu Publish deoarece nu necesită randarea datelor lor de către aplicație. 
 
-Whereas a plugin that requires a plugin codeblock to render, such as Dataview or Fantasy Statblocks, will not work by default in Publish. 
+În schimb, un modul care necesită un bloc de cod de modul pentru randare, precum Dataview sau Fantasy Statblocks, nu va funcționa implicit pe Publish. 
 
-## Graph
+## Afișaj grafic
 
-Publish offers basic color customization for its graph view using CSS. You can modify the node colors in your `publish.css` file by utilizing the [Graph View CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
+Publish oferă personalizare de bază a culorilor pentru afișajul său grafic folosind CSS. Poți modifica culorile nodurilor în fișierul tău `publish.css` utilizând [variabilele CSS ale afișajului grafic](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
-Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Graph view]].
+Reține că afișajul grafic publicat nu suportă opțiunile complete de sortare și vizualizare disponibile în [[Graph view|afișajul grafic]] al aplicației.
 
-## Media files
+## Fișiere media
 
-Obsidian Publish is not optimized for streaming video or large audio files. We include some best practices for handling your [[Media files|media files]] in these documents. 
+Obsidian Publish nu este optimizat pentru streaming de video sau fișiere audio de mari dimensiuni. Includem câteva bune practici pentru gestionarea [[Media files|fișierelor media]] în aceste documente. 
 
-To improve the experience for your visitors, we recommend that you instead use a video hosting service, such as YouTube or Vimeo.
+Pentru a îmbunătăți experiența vizitatorilor tăi, îți recomandăm să folosești în schimb un serviciu de găzduire video, precum YouTube sau Vimeo.
 
-You can upload files **up to 50mb** in size to your Publish site. ^publish-media-limit
+Poți încărca fișiere de **până la 50 MB** pe site-ul tău Publish. ^publish-media-limit
 
-## PDFs
+## PDF-uri
 
-On mobile devices, tablets, and computers with small screens, you may encounter issues where an embedded PDF won't load or only the first page is displayed. This is due to limitations with the PDF Renderer on mobile devices. 
+Pe dispozitive mobile, tablete și computere cu ecrane mici, poți întâmpina probleme în care un PDF încorporat nu se încarcă sau este afișată doar prima pagină. Acest lucru se datorează limitărilor motorului de randare PDF pe dispozitivele mobile. 
 
-For content aimed at mobile users, we suggest providing links to PDFs hosted externally or including internal links that allow users to download the PDF directly to their device.
+Pentru conținut destinat utilizatorilor de mobil, sugerăm să oferi legături către PDF-uri găzduite extern sau să incluzi legături interne care permit utilizatorilor să descarce PDF-ul direct pe dispozitivul lor.
 
-## Search
+## Căutare
 
-Publish has basic support for searching plain text in published content. Preference for search results is given to:
+Publish are suport de bază pentru căutarea de text simplu în conținutul publicat. Preferința pentru rezultatele căutării este acordată:
 
-- File names
-- Aliases
-- Header names
+- Numelor fișierelor
+- Pseudonimelor
+- Numelor titlurilor
 
-After searching the above for matches, the search will then include plain text of the published notes.
+După căutarea potrivirilor în cele de mai sus, căutarea va include apoi textul simplu al notelor publicate.
 
-To improve the searchability of your published site, it is recommended to use descriptive file names, incorporate multiple aliases, and select header names that accurately reflect the content.
+Pentru a îmbunătăți capacitatea de căutare a site-ului tău publicat, se recomandă să folosești nume de fișiere descriptive, să incorporezi mai multe pseudonime și să selectezi nume de titluri care reflectă cu acuratețe conținutul.
 
-Additionally, Publish does not currently support the application's [[Search#Embed search results in a note|embedded search results]] feature.
+În plus, Publish nu suportă în prezent funcția aplicației de [[Search#Embed search results in a note|rezultate de căutare încorporate]].
 

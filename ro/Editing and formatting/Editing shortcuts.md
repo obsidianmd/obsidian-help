@@ -1,133 +1,132 @@
 ---
-localized: null
 permalink: editing-shortcuts
 ---
 
-This page lists default keyboard shortcuts for navigating and editing text in Obsidian. These shortcuts are provided by your operating system or the framework Obsidian is built on, and cannot be customized within Obsidian.
+Această pagină listează combinațiile de taste implicite pentru navigarea și editarea textului în Obsidian. Aceste combinații de taste sunt oferite de sistemul dvs. de operare sau de platforma pe care este construit Obsidian și nu pot fi personalizate din Obsidian.
 
-For customizable keyboard shortcuts for Obsidian commands, see [[Hotkeys]].
+Pentru combinații de taste personalizabile pentru comenzile Obsidian, consultați [[Hotkeys]].
 
-## Windows and Linux shortcuts
+## Combinații de taste pentru Windows și Linux
 
-### Common actions
+### Acțiuni comune
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 |-|-|
-| Copy | `Ctrl+C` |
-| Cut | `Ctrl+X` |
-| Paste | `Ctrl+V` |
-| Paste without formatting | `Ctrl+Shift+V` |
-| Undo | `Ctrl+Z` |
-| Redo | `Ctrl+Shift+Z` or `Ctrl+Y` |
-| Copy paragraph | `Ctrl+C` (with no selected text) |
-| Cut paragraph | `Ctrl+X` (with no selected text) |
+| Copiere | `Ctrl+C` |
+| Decupare | `Ctrl+X` |
+| Lipire | `Ctrl+V` |
+| Lipire fără formatare | `Ctrl+Shift+V` |
+| Anulare | `Ctrl+Z` |
+| Refacere | `Ctrl+Shift+Z` sau `Ctrl+Y` |
+| Copiere paragraf | `Ctrl+C` (fără text selectat) |
+| Decupare paragraf | `Ctrl+X` (fără text selectat) |
 
-### Text editing
+### Editarea textului
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 |-|-|
-| Insert new line| `Enter` |
-| Delete the previous character | `Backspace` |
-| Delete the next character | `Delete` |
-| Delete the previous word | `Ctrl+Backspace` |
-| Delete the next word | `Ctrl+Delete` |
-| Delete the current line | `Ctrl+Shift+K` (with no selected text) |
+| Inserare rând nou| `Enter` |
+| Ștergerea caracterului anterior | `Backspace` |
+| Ștergerea caracterului următor | `Delete` |
+| Ștergerea cuvântului anterior | `Ctrl+Backspace` |
+| Ștergerea cuvântului următor | `Ctrl+Delete` |
+| Ștergerea rândului curent | `Ctrl+Shift+K` (fără text selectat) |
 
-### Text navigation
+### Navigarea în text
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 |-|-|
-| Move the cursor one character | `Left/→` |
-| Move the cursor to the beginning of the previous word | `Ctrl+←` |
-| Move the cursor to the end of the next word | `Ctrl+→` |
-| Move the cursor to the beginning of the current line | `Home` |
-| Move the cursor to the end of the current line | `End` |
-| Move the cursor to the previous line | `↑` |
-| Move the cursor to the next line | `↓` |
-| Move the cursor to the beginning of the note | `Ctrl+Home` |
-| Move the cursor to the end of the note | `Ctrl+End` |
-| Move the cursor up one page | `Page up` |
-| Move the cursor down one page | `Page down` |
+| Deplasarea cursorului cu un caracter | `Left/→` |
+| Deplasarea cursorului la începutul cuvântului anterior | `Ctrl+←` |
+| Deplasarea cursorului la sfârșitul cuvântului următor | `Ctrl+→` |
+| Deplasarea cursorului la începutul rândului curent | `Home` |
+| Deplasarea cursorului la sfârșitul rândului curent | `End` |
+| Deplasarea cursorului la rândul anterior | `↑` |
+| Deplasarea cursorului la rândul următor | `↓` |
+| Deplasarea cursorului la începutul notei | `Ctrl+Home` |
+| Deplasarea cursorului la sfârșitul notei | `Ctrl+End` |
+| Deplasarea cursorului cu o pagină în sus | `Page up` |
+| Deplasarea cursorului cu o pagină în jos | `Page down` |
 
-### Text selection
+### Selectarea textului
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 |-|-|
-| Simplify selection | `Escape` |
-| Select all | `Ctrl+A` |
-| Extend selection one character | `Shift+Left/→` |
-| Extend selection to the beginning of the previous word | `Ctrl+Shift+←` |
-| Extend selection to the end of the next word | `Ctrl+Shift+→` |
-| Extend selection to the beginning of the current line | `Shift+Home` |
-| Extend selection to the end of the current line | `Shift+End` |
-| Extend selection to the beginning of the note | `Ctrl+Shift+Home` |
-| Extend selection to the end of the note | `Ctrl+Shift+End` |
-| Extend selection one page up | `Shift+Page up` |
-| Extend selection one page down | `Shift+Page down` |
+| Simplificarea selecției | `Escape` |
+| Selectare totală | `Ctrl+A` |
+| Extinderea selecției cu un caracter | `Shift+Left/→` |
+| Extinderea selecției la începutul cuvântului anterior | `Ctrl+Shift+←` |
+| Extinderea selecției la sfârșitul cuvântului următor | `Ctrl+Shift+→` |
+| Extinderea selecției la începutul rândului curent | `Shift+Home` |
+| Extinderea selecției la sfârșitul rândului curent | `Shift+End` |
+| Extinderea selecției la începutul notei | `Ctrl+Shift+Home` |
+| Extinderea selecției la sfârșitul notei | `Ctrl+Shift+End` |
+| Extinderea selecției cu o pagină în sus | `Shift+Page up` |
+| Extinderea selecției cu o pagină în jos | `Shift+Page down` |
 
-## macOS shortcuts
+## Combinații de taste pentru macOS
 
-### Common actions
+### Acțiuni comune
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 |-|-|
-| Copy | `Cmd+C` |
-| Cut | `Cmd+X` |
-| Paste | `Cmd+V` |
-| Paste without formatting | `Cmd+Shift+V` |
-| Undo | `Cmd+Z` |
-| Redo | `Cmd+Shift+Z` |
-| Copy paragraph | `Cmd+C` (with no selected text) |
-| Cut paragraph | `Cmd+X` (with no selected text) |
+| Copiere | `Cmd+C` |
+| Decupare | `Cmd+X` |
+| Lipire | `Cmd+V` |
+| Lipire fără formatare | `Cmd+Shift+V` |
+| Anulare | `Cmd+Z` |
+| Refacere | `Cmd+Shift+Z` |
+| Copiere paragraf | `Cmd+C` (fără text selectat) |
+| Decupare paragraf | `Cmd+X` (fără text selectat) |
 
-### Text formatting
+### Formatarea textului
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 | ---- | ---- |
-| Bold text | `Cmd+B` |
-| Italic text | `Cmd+I` |
+| Text îngroșat | `Cmd+B` |
+| Text cursiv | `Cmd+I` |
 
-### Text editing
+### Editarea textului
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 |-|-|
-| Insert new line| `Enter` |
-| Delete the previous character | `Backspace` |
-| Delete the next character | `Delete` |
-| Delete the previous word | `Option+Backspace` |
-| Delete the next word | `Option+Delete` |
-| Delete to the beginning of the current line | `Cmd+Backspace` |
-| Delete to the end of the current line | `Cmd+Delete` |
-| Delete the current line | `Cmd+Shift+K` (with no selected text) |
+| Inserare rând nou| `Enter` |
+| Ștergerea caracterului anterior | `Backspace` |
+| Ștergerea caracterului următor | `Delete` |
+| Ștergerea cuvântului anterior | `Option+Backspace` |
+| Ștergerea cuvântului următor | `Option+Delete` |
+| Ștergerea până la începutul rândului curent | `Cmd+Backspace` |
+| Ștergerea până la sfârșitul rândului curent | `Cmd+Delete` |
+| Ștergerea rândului curent | `Cmd+Shift+K` (fără text selectat) |
 
-### Text navigation
+### Navigarea în text
 
-| Action | Shortcut |
+| Acțiune | Combinație de taste |
 |-|-|
-| Move the cursor one character | `Left/→` |
-| Move the cursor to the beginning of the previous word | `Option+←` |
-| Move the cursor to the end of the next word | `Option+→` |
-| Move the cursor to the beginning of the current line | `Cmd+←` |
-| Move the cursor to the end of the current line | `Cmd+→` |
-| Move the cursor to the previous line | `↑` |
-| Move the cursor to the next line | `↓` |
-| Move the cursor to the beginning of the note | `Cmd+↑` |
-| Move the cursor to the end of the note | `Cmd+↓` |
-| Move the cursor up one page | `Fn+↑` |
-| Move the cursor down one page | `Fn+↓` |
+| Deplasarea cursorului cu un caracter | `Left/→` |
+| Deplasarea cursorului la începutul cuvântului anterior | `Option+←` |
+| Deplasarea cursorului la sfârșitul cuvântului următor | `Option+→` |
+| Deplasarea cursorului la începutul rândului curent | `Cmd+←` |
+| Deplasarea cursorului la sfârșitul rândului curent | `Cmd+→` |
+| Deplasarea cursorului la rândul anterior | `↑` |
+| Deplasarea cursorului la rândul următor | `↓` |
+| Deplasarea cursorului la începutul notei | `Cmd+↑` |
+| Deplasarea cursorului la sfârșitul notei | `Cmd+↓` |
+| Deplasarea cursorului cu o pagină în sus | `Fn+↑` |
+| Deplasarea cursorului cu o pagină în jos | `Fn+↓` |
 
-### Text selection
+### Selectarea textului
 
-| Action                                                 | Shortcut                   |
+| Acțiune                                                 | Combinație de taste                   |
 | ------------------------------------------------------ | -------------------------- |
-| Simplify selection                                     | `Escape`                   |
-| Select all                                             | `Cmd+A`                    |
-| Extend selection one character                         | `Shift+Left/→`   |
-| Extend selection to the beginning of the previous word | `Option+Shift+←`  |
-| Extend selection to the end of the next word           | `Option+Shift+→` |
-| Extend selection to the beginning of the current line  | `Cmd+Shift+←`              |
-| Extend selection to the end of the current line        | `Cmd+Shift+→`    |
-| Extend selection to the beginning of the note          | `Cmd+Shift+↑`       |
-| Extend selection to the end of the note                | `Cmd+Shift+↓`     |
-| Extend selection one page up                           | `Ctrl+Shift+↑`      |
-| Extend selection one page down                         | `Ctrl+Shift+↓`    |
+| Simplificarea selecției                                     | `Escape`                   |
+| Selectare totală                                             | `Cmd+A`                    |
+| Extinderea selecției cu un caracter                         | `Shift+Left/→`   |
+| Extinderea selecției la începutul cuvântului anterior | `Option+Shift+←`  |
+| Extinderea selecției la sfârșitul cuvântului următor           | `Option+Shift+→` |
+| Extinderea selecției la începutul rândului curent  | `Cmd+Shift+←`              |
+| Extinderea selecției la sfârșitul rândului curent        | `Cmd+Shift+→`    |
+| Extinderea selecției la începutul notei          | `Cmd+Shift+↑`       |
+| Extinderea selecției la sfârșitul notei                | `Cmd+Shift+↓`     |
+| Extinderea selecției cu o pagină în sus                           | `Ctrl+Shift+↑`      |
+| Extinderea selecției cu o pagină în jos                         | `Ctrl+Shift+↓`    |

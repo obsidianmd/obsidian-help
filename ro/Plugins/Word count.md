@@ -1,10 +1,9 @@
 ---
-localized: null
 permalink: plugins/word-count
-description: Learn about the Word Count core plugin.
+description: Află mai multe despre modulul integrat Word Count.
 ---
-Word count is a [[Core plugins|core plugin]] that displays the number of words and characters of the active note.
+Word count este un [[Core plugins|modul integrat]] care afișează numărul de cuvinte și caractere ale notei active.
 
-On desktop word count appears in the [[status bar]]. On mobile, word count appears at the top of the right sidebar.
+Pe desktop, numărul de cuvinte apare în [[status bar|bara de status]]. Pe mobil, numărul de cuvinte apare în partea de sus a barei laterale drepte.
 
-Word count supports CJK languages (Chinese, Japanese, and Korean), which don't use spaces to separate words.
+Word count acceptă limbile CJK (chineză, japoneză și coreeană), care nu folosesc spații pentru a separa cuvintele.

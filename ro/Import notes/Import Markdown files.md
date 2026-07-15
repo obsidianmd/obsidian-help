@@ -1,14 +1,13 @@
 ---
-localized: null
 permalink: import/markdown
 ---
-Obsidian uses Markdown `.md` files as the primary format for notes. This makes it easy to import Markdown files into Obsidian. Many apps can edit Markdown files or export to this format.
+Obsidian folosește fișiere Markdown `.md` ca format principal pentru note. Acest lucru face ușoară importarea fișierelor Markdown în Obsidian. Multe aplicații pot edita fișiere Markdown sau pot exporta în acest format.
 
-There are several ways to add Markdown files to your Obsidian vault:
+Există mai multe moduri de a adăuga fișiere Markdown în seiful tău Obsidian:
 
-1. Drag and drop files or folders into the [[File explorer]] window
-2. Use your system file browser (e.g. Windows Explorer or Finder on macOS), and move your files directly into the Obsidian vault folder.
+1. Trage și plasează fișiere sau directoare în fereastra [[File explorer]]
+2. Folosește browserul de fișiere al sistemului tău (de exemplu Windows Explorer sau Finder pe macOS) și mută fișierele direct în directorul seifului Obsidian.
 
-### Converting from other flavors of Markdown
+### Conversia din alte variante de Markdown
 
-Obsidian uses [[Obsidian Flavored Markdown]]. Some apps use slightly different Markdown syntax. You can use [[Format converter]] to convert your files to Obsidian's Markdown syntax. 
+Obsidian folosește [[Obsidian Flavored Markdown]]. Unele aplicații folosesc o sintaxă Markdown ușor diferită. Poți folosi [[Format converter]] pentru a-ți converti fișierele la sintaxa Markdown a Obsidian. 

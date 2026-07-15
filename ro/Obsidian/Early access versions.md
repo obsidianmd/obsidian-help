@@ -1,70 +1,69 @@
 ---
-localized: null
 permalink: early-access
 ---
 
-Get early access to upcoming releases by enabling _early access versions_. Early access versions are only available to users with a [[Catalyst license]].
+Obține acces timpuriu la lansările viitoare activând _versiunile cu acces timpuriu_. Versiunile cu acces timpuriu sunt disponibile doar utilizatorilor cu o [[Catalyst license]].
 
-> [!warning] Warning
-> Early access versions are beta releases. They include new features but may be less stable. Don't enable early access versions if you prefer a more reliable experience.
+> [!warning] Avertisment
+> Versiunile cu acces timpuriu sunt versiuni beta. Includ funcționalități noi, dar pot fi mai puțin stabile. Nu activa versiunile cu acces timpuriu dacă preferi o experiență mai fiabilă.
 > 
-> Be aware that community plugin and theme developers receive early access versions at the same time as everyone else. Be patient with developers who need to make updates to support new features.
+> Reține că dezvoltatorii de module și teme din comunitate primesc versiunile cu acces timpuriu în același timp cu toți ceilalți. Ai răbdare cu dezvoltatorii care trebuie să facă actualizări pentru a susține funcționalitățile noi.
 
-## Enable early access versions for desktop
+## Activează versiunile cu acces timpuriu pe desktop
 
-To receive early access versions as soon as they're available, follow these steps:
+Pentru a primi versiunile cu acces timpuriu imediat ce sunt disponibile, urmează acești pași:
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your Account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Once signed in, return to **[[Settings]]**.
-7. In the sidebar, select **General**.
-8. Under **App**, enable **Receive early access versions**.
-9. Click **Check for updates** and then **Relaunch**.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, selectează **General**.
+3. Sub **Cont → Contul tău**, selectează **Autentificare**.
+4. La **E-mail**, introdu adresa ta de e-mail.
+5. La **Parolă**, introdu parola ta.
+6. Odată autentificat, revino la **[[Settings]]**.
+7. În bara laterală, selectează **General**.
+8. Sub **Aplicație**, activează **Primește versiuni cu acces timpuriu**.
+9. Apasă **Verifică actualizările** și apoi **Relansează**.
 
-## Install early access versions on mobile devices
+## Instalează versiuni cu acces timpuriu pe dispozitive mobile
 
-To find instructions on how to install early access versions on your mobile device, follow these steps:
+Pentru a găsi instrucțiuni despre cum să instalezi versiuni cu acces timpuriu pe dispozitivul tău mobil, urmează acești pași:
 
-1. Download and install [Discord](<https://discord.com>).
-2. Join the [Obsidian Discord server](https://discord.gg/obsidianmd).
-3. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
-4. In the `#insider-welcome` channel, you will find instructions for accessing your download based on your device type.
+1. Descarcă și instalează [Discord](<https://discord.com>).
+2. Alătură-te [serverului Discord Obsidian](https://discord.gg/obsidianmd).
+3. [[Catalyst license#Get your Discord badge|Obține insigna ta de Discord]] pentru a accesa canalele pentru inițiați.
+4. În canalul `#insider-welcome`, vei găsi instrucțiuni pentru accesarea descărcării în funcție de tipul dispozitivului tău.
 
-## Report issues and other feedback
+## Raportează probleme și alte sugestii
 
-If you discover an issue in an early access version, consider reporting it to the Obsidian team. Before you report an issue, search the [forum](https://forum.obsidian.md/) or Discord to see if someone has already reported it.
+Dacă descoperi o problemă într-o versiune cu acces timpuriu, ia în considerare raportarea ei către echipa Obsidian. Înainte de a raporta o problemă, caută pe [forum](https://forum.obsidian.md/) sau Discord pentru a vedea dacă cineva a raportat-o deja.
 
-To report an issue, use one of the following channels:
+Pentru a raporta o problemă, folosește unul dintre următoarele canale:
 
-- On Discord, report the issue in the respective `#insider-release` channel.
-- In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
+- Pe Discord, raportează problema în canalul `#insider-release` corespunzător.
+- Pe forum, creează un subiect nou în [Rapoarte de erori](https://forum.obsidian.md/c/bug-reports/7).
 
-When you report an issue, include the build version and the OS you're running it on. You can find the build version under **[[Settings]] → About → App → Current version**.
+Când raportezi o problemă, include versiunea de build și sistemul de operare pe care rulezi. Poți găsi versiunea de build sub **[[Settings]] → Despre → Aplicație → Versiune curentă**.
 
-## Switch back to public versions on desktop
+## Revino la versiunile publice pe desktop
 
-To switch back to using public versions (not early access) on desktop:
+Pentru a reveni la versiunile publice (nu de acces timpuriu) pe desktop:
 
-1. Disable early access versions.
-   1. Open **[[Settings]]**.
-   2. In the sidebar, select **General**.
-   3. Under **App**, disable **Receive early access versions**.
-2. Close Obsidian.
-3. Delete the `obsidian-VERSION.asar` file, where `VERSION` is the Obsidian version.
+1. Dezactivează versiunile cu acces timpuriu.
+   1. Deschide **[[Settings]]**.
+   2. În bara laterală, selectează **General**.
+   3. Sub **Aplicație**, dezactivează **Primește versiuni cu acces timpuriu**.
+2. Închide Obsidian.
+3. Șterge fișierul `obsidian-VERSION.asar`, unde `VERSION` este versiunea Obsidian.
    - Windows: `%APPDATA%\obsidian\obsidian-VERSION.asar`
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
-4. Restart Obsidian.
+4. Repornește Obsidian.
 
-## Switch back to public versions on mobile
+## Revino la versiunile publice pe mobil
 
-To switch back to using public versions (not early access) on mobile:
+Pentru a reveni la versiunile publice (nu de acces timpuriu) pe mobil:
 
-1. Back up your vault data
-2. Uninstall Obsidian
-3. Reinstall Obsidian either from the Play Store or Apple App store
-4. Restore your vault data from your backups
-5. Open Obsidian
+1. Fă o copie de rezervă a datelor seifului tău
+2. Dezinstalează Obsidian
+3. Reinstalează Obsidian fie din Play Store, fie din Apple App Store
+4. Restaurează datele seifului tău din copiile de rezervă
+5. Deschide Obsidian

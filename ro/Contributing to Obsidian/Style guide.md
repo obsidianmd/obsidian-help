@@ -1,458 +1,457 @@
 ---
-localized: null
 permalink: style-guide
 publish: true
 mobile: true
-description: This page explains the style guide for writing our support documentation.
+description: Această pagină explică ghidul de stil pentru redactarea documentației noastre de asistență.
 ---
 
-The Obsidian documentation follows the style guidelines listed on this page. These guidelines are based on industry best practices, particularly the [Google developer documentation style guide](<https://developers.google.com/style>) and [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/). For edge cases not covered below, consult those external guides as secondary references.
+Documentația Obsidian respectă liniile directoare de stil listate pe această pagină. Aceste linii directoare se bazează pe cele mai bune practici din industrie, în special pe [Google developer documentation style guide](<https://developers.google.com/style>) și [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/). Pentru cazuri particulare care nu sunt acoperite mai jos, consultă acele ghiduri externe ca referințe secundare.
 
-> [!tip]- Contribute
-> Most of the documentation existed before this style guide did.
+> [!tip]- Contribuie
+> Cea mai mare parte a documentației a existat înainte de acest ghid de stil.
 > 
-> If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) and submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
+> Dacă găsești vreo încălcare a acestui ghid de stil, te rugăm să [creezi o problemă (issue)](https://github.com/obsidianmd/obsidian-docs/issues/new) și să trimiți un pull request către [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
 
-## Terminology and grammar
+## Terminologie și gramatică
 
-### Language style
+### Stilul limbii
 
-For our English documentation, it is recommended to use [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) to better serve our worldwide audience and to assist with [[#Translations]]. This means:
+Pentru documentația noastră în limba engleză, se recomandă folosirea [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) pentru a servi mai bine publicul nostru din întreaga lume și pentru a ajuta la [[#Traduceri]]. Aceasta înseamnă:
 
-- Avoiding idioms and culturally-specific expressions
-- Using active voice and direct sentence construction
-- Preferring simple, common words over complex terminology
-- Being explicit rather than implied
-- For spelling conventions, use American English (e.g., 'organize' not 'organise').
+- Evitarea idiomurilor și a expresiilor specifice unei culturi
+- Folosirea vocii active și a construcțiilor de propoziții directe
+- Preferarea cuvintelor simple, comune, în locul terminologiei complexe
+- Fiind explicit, nu implicit
+- Pentru convențiile de ortografie, folosește engleza americană (de exemplu, „organize” nu „organise”).
 
-### Terms
+### Termeni
 
-- Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
-- Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
-- Prefer "sync" or "syncing" over "synchronise" or "synchronising".
-- Prefer "search term" over "search query".
-- Prefer "heading" over "header" when referring to a text that introduces a section.
-- Prefer "maximum" over "max" and "minimum" over "min".
+- Preferă „combinație de taste” în locul „hotkey”. Folosește Hotkey doar atunci când te referi la funcția specifică.
+- Preferă „aplicația Obsidian” pe mobil și „aplicația Obsidian” pe desktop.
+- Preferă „sincronizare” sau „sincronizează” în locul „sincronizare” (evită formele nestandard).
+- Preferă „termen de căutare” în locul „interogare de căutare”.
+- Preferă „titlu” în locul „antet” atunci când te referi la un text care introduce o secțiune.
+- Preferă „maxim” în locul „max” și „minim” în locul „min”.
 
-### Product names
+### Nume de produse
 
-Obsidian product names start with "Obsidian", for example "Obsidian Publish" and "Obsidian Sync".
+Numele produselor Obsidian încep cu „Obsidian”, de exemplu „Obsidian Publish” și „Obsidian Sync”.
 
-If a paragraph becomes overly repetitive, you can use the short form in subsequent references.
+Dacă un paragraf devine excesiv de repetitiv, poți folosi forma scurtă în referințele ulterioare.
 
-For example:
+De exemplu:
 
-_To allow device-specific configuration, Obsidian Sync doesn't sync its own settings. You need to configure Sync for each of your devices._
+_Pentru a permite configurarea specifică fiecărui dispozitiv, Obsidian Sync nu își sincronizează propriile setări. Trebuie să configurezi Sync pentru fiecare dintre dispozitivele tale._
 
-### UI and interactions
+### Interfață și interacțiuni
 
-- Use **bold** to indicate button text
-- Prefer "select" over "tap" or "click".
-	- For mobile-specific instructions, "tap" is acceptable when describing touch interactions as "click" is not available.
-- Prefer "sidebar" over "side bar".
-- Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
+- Folosește **aldin** pentru a indica textul unui buton
+- Preferă „selectează” în locul „atinge” sau „apasă”.
+	- Pentru instrucțiuni specifice mobilului, „atinge” este acceptabil atunci când descrii interacțiuni tactile, deoarece „apasă” (click) nu este disponibil.
+- Preferă „bară laterală” în locul „bară de margine”.
+- Preferă „efectuează” în locul „invocă” și „execută” atunci când te referi la comenzi sau acțiuni.
 
-When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**[[Settings]] → Community plugins**".
+Atunci când te referi la mai multe interacțiuni ale interfeței într-o secvență, folosește simbolul → (U+2192). De exemplu, „**[[Settings]] → Community plugins**”.
 
-### Notes, files, and folders
+### Note, fișiere și foldere
 
-- Use "note" when referring to a Markdown file in the vault.
-- Use "file" when referring to other file extensions than Markdown.
-- Prefer "note name" over "note title".
-- Prefer "active note" over "current note".
-- Prefer "folder" over "directory".
-- Prefer "file type" over "file format", unless specifically referring to the data format of the file content.
+- Folosește „notă” atunci când te referi la un fișier Markdown din boltă.
+- Folosește „fișier” atunci când te referi la alte extensii de fișier decât Markdown.
+- Preferă „numele notei” în locul „titlul notei”.
+- Preferă „nota activă” în locul „nota curentă”.
+- Preferă „folder” în locul „director”.
+- Preferă „tip de fișier” în locul „format de fișier”, cu excepția cazului în care te referi în mod specific la formatul de date al conținutului fișierului.
 
-When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
+Atunci când te muți între note, folosește „deschide” dacă destinația este ascunsă și „comută” dacă atât nota sursă, cât și cea de destinație sunt deschise în ecrane separate.
 
-### Reference documentation for settings
+### Documentație de referință pentru setări
 
-When possible, any settings should be documented within Obsidian using a descriptive text. Avoid documenting a specific setting in Obsidian Help unless:
+Atunci când este posibil, orice setare ar trebui documentată în Obsidian folosind un text descriptiv. Evită documentarea unei setări specifice în Ajutor Obsidian, cu excepția cazului în care:
 
-- It requires more in-depth knowledge on how and when to use it.
-- It's commonly misused or asked about.
-- It _drastically_ changes the user experience.
+- Necesită cunoștințe mai aprofundate despre cum și când să fie folosită.
+- Este frecvent utilizată greșit sau frecvent întrebată.
+- _Schimbă drastic_ experiența utilizatorului.
 
-Consider using a tip callout if you want to draw attention to a specific setting.
+Ia în considerare folosirea unei explicații de tip sfat dacă vrei să atragi atenția asupra unei setări specifice.
 
-### Directional terms
+### Termeni de direcție
 
-Hyphenate directional terms when using them as adjectives. Avoid hyphenation when direction is used as a noun.
+Cratimă termenii de direcție atunci când sunt folosiți ca adjective. Evită cratima atunci când direcția este folosită ca substantiv.
 
-**Recommended:**
+**Recomandat:**
 
-- Select **[[Settings]]** in the bottom-left corner.
-- Select **[[Settings]]** in the bottom left.
+- Selectează **[[Settings]]** în colțul din stânga jos.
+- Selectează **[[Settings]]** în stânga jos.
 
-**Not recommended:**
+**Nerecomandat:**
 
-- Select **[[Settings]]** in the bottom left corner.
-- Select **[[Settings]]** in the bottom-left.
+- Selectează **[[Settings]]** în colțul stânga jos.
+- Selectează **[[Settings]]** în stânga-jos.
 
-Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
+Preferă „stânga sus” și „dreapta sus” în locul „sus-stânga” și „sus-dreapta”.
 
-Don't indicate a direction when referring to settings. The location of the settings control depends on the device.
+Nu indica o direcție atunci când te referi la setări. Locația controlului de setări depinde de dispozitiv.
 
-**Recommended:**
+**Recomandat:**
 
-- Next to **Pick remote vault**, select **Choose**.
+- Lângă **Alege bolta la distanță**, selectează **Alege**.
 
-**Not recommended:**
+**Nerecomandat:**
 
-- To the right of **Pick remote vault**, select **Choose**.
+- În dreapta lui **Alege bolta la distanță**, selectează **Alege**.
 
-When describing vertical direction in UI elements, use "above" and "below" for spatial relationships. Avoid "up" and "down" as they're ambiguous in different contexts.
+Atunci când descrii direcția verticală în elementele interfeței, folosește „deasupra” și „dedesubt” pentru relații spațiale. Evită „sus” și „jos” deoarece sunt ambigue în contexte diferite.
 
-**Recommended:**
+**Recomandat:**
 
-- The search box appears above the file list.
-- Additional options are available below.
+- Caseta de căutare apare deasupra listei de fișiere.
+- Opțiuni suplimentare sunt disponibile mai jos.
 
-**Not recommended:**
+**Nerecomandat:**
 
-- The search box is up from the file list.
-- More options are down below.
+- Caseta de căutare este sus, de la lista de fișiere.
+- Mai multe opțiuni sunt jos, mai jos.
 
-### Instructions
+### Instrucțiuni
 
-Use imperatives for the names of guides, section headings, and step-by-step instructions. The imperative mood is concise and action-oriented, which is more straightforward for users following instructions.
+Folosește imperativul pentru numele ghidurilor, titlurile secțiunilor și instrucțiunile pas cu pas. Modul imperativ este concis și orientat spre acțiune, ceea ce este mai direct pentru utilizatorii care urmează instrucțiuni.
 
-- Prefer "Set up" over "Setting up"
-- Prefer "Move a file" over "Moving a file"
-- Prefer "Import your notes" over "Importing your notes"
+- Preferă „Configurează” în locul „Configurarea”
+- Preferă „Mută un fișier” în locul „Mutarea unui fișier”
+- Preferă „Importă-ți notele” în locul „Importarea notelor tale”
 
-### Sentence case
+### Scriere cu literă mică (sentence case)
 
-Prefer *sentence case* over *title case* for headings, buttons, and titles. When referencing UI elements always match the case of the text in the UI.
+Preferă *scrierea cu literă mică* (sentence case) în locul *scrierii cu majusculă la fiecare cuvânt* (title case) pentru titluri, butoane și denumiri. Atunci când faci referire la elemente ale interfeței, potrivește întotdeauna forma textului din interfață.
 
-**Recommended:**
+**Recomandat:**
 
-- How Obsidian stores data
+- Cum stochează Obsidian datele
 
-**Not recommended:**
+**Nerecomandat:**
 
-- How Obsidian Stores Data
+- Cum Stochează Obsidian Datele
 
-### Examples
+### Exemple
 
-Prefer realistic examples over nonsense terms.
+Preferă exemple realiste în locul termenilor fără sens.
 
-**Recommended:**
+**Recomandat:**
 
 - `task:(call OR schedule)`
 
-**Not recommended:**
+**Nerecomandat:**
 
 - `task:(foo OR bar)`
 
-### Key names and keyboard shortcuts
+### Nume de taste și combinații de taste
 
-When referring to keyboard keys and shortcuts, use consistent notation.
+Atunci când te referi la tastele și combinațiile de taste ale tastaturii, folosește o notație consecventă.
 
-**Individual key names:**
+**Nume de taste individuale:**
 
-When referring to a character on the keyboard by name, add the character between parentheses right after the name.
+Atunci când te referi la un caracter de pe tastatură după nume, adaugă caracterul între paranteze imediat după nume.
 
-**Recommended:**
+**Recomandat:**
 
-- Press the hyphen (-) key to add a dash.
-- Use the question mark (?) to search.
+- Apasă tasta cratimă (-) pentru a adăuga o linie.
+- Folosește semnul întrebării (?) pentru a căuta.
 
-**Not recommended:**
+**Nerecomandat:**
 
-- Press the hyphen key to add a dash.
-- Use the ? to search.
-- Add a `-` in front of the word.
+- Apasă tasta cratimă pentru a adăuga o linie.
+- Folosește ? pentru a căuta.
+- Adaugă un `-` în fața cuvântului.
 
-**Keyboard shortcuts:**
+**Combinații de taste:**
 
-Format keyboard shortcuts with no spaces around the plus sign. When a shortcut differs between operating systems, specify both.
+Formatează combinațiile de taste fără spații în jurul semnului plus. Atunci când o combinație diferă între sistemele de operare, specifică-le pe amândouă.
 
-**Recommended:**
+**Recomandat:**
 
-- Press `Ctrl+Z` (Windows) or `Command+Z` (macOS) to undo.
-- Press `Escape` to close this window.
-- Use `Tab` to move between fields.
+- Apasă `Ctrl+Z` (Windows) sau `Command+Z` (macOS) pentru a anula.
+- Apasă `Escape` pentru a închide această fereastră.
+- Folosește `Tab` pentru a te deplasa între câmpuri.
 
-**Not recommended:**
+**Nerecomandat:**
 
-- Press `Cmd+Z` to undo.
-- Press `Ctrl + Z` (with spaces) to undo.
-- Press `Ctrl/Cmd+Z` to undo.
+- Apasă `Cmd+Z` pentru a anula.
+- Apasă `Ctrl + Z` (cu spații) pentru a anula.
+- Apasă `Ctrl/Cmd+Z` pentru a anula.
 
-For shortcuts that are identical across all platforms, you don't need to specify the OS. If you're unsure whether a shortcut differs by platform, specify the OS to be safe. Windows and Linux typically use the same shortcuts.
+Pentru combinațiile care sunt identice pe toate platformele, nu este nevoie să specifici sistemul de operare. Dacă nu ești sigur dacă o combinație diferă în funcție de platformă, specifică sistemul de operare pentru siguranță. Windows și Linux folosesc de obicei aceleași combinații.
 
 ### Markdown
 
-Use newlines between Markdown blocks:
+Folosește linii noi între blocurile Markdown:
 
-**Recommended:**
-
-```md
-# Heading 1
-
-This is a section.
-
-1. First item
-2. Second item
-3. Third item
-```
-
-**Not recommended:**
+**Recomandat:**
 
 ```md
-# Heading 1
-This is a section.
-1. First item
-2. Second item
-3. Third item
+# Titlu 1
+
+Aceasta este o secțiune.
+
+1. Primul element
+2. Al doilea element
+3. Al treilea element
 ```
 
-**Em dashes in lists:**
+**Nerecomandat:**
 
-Use em dashes (—) to separate bolded terms from their descriptions in bullet lists. Do not use em dashes in simple nested bullet lists with links.
-
-**Recommended:**
-
-- **View menu** — create, edit, and switch views.
-- **Calculate values** — add prices, compute totals, or perform math operations.
-
-**Not recommended:**
-
-- [[Create a base]] — Learn how to create and embed a base.
-
-### Images
-
-Use "**width** x **height** pixels" for describing image or screen dimensions.
-
-**Example:**
-
-Recommended image dimensions: 1920 x 1080 pixels.
-
-## Information structure
-
-### Callout types
-
-Use callouts strategically to highlight specific types of information:
-
-**Tip** (`[!tip]-`) - Practical advice or best practices that enhance the user's workflow. Use for shortcuts, workarounds, or non-essential but helpful information. These callouts start out collapsed.
-
-**Info** (`[!info]+`) - Additional context, background information, or clarifications. Use when information adds understanding but isn't required to complete a task. These callouts start out open.
-
-**Warning** (`[!warning]+`) - Important cautions that prevent data loss, errors, or unintended consequences. Use sparingly for genuinely risky situations. These callouts should never be collapsed.
-
-**Example** (`[!example]-`) - General asides or supplementary details. Use for tangential information that some users may find relevant. These callouts start out collapsed.
-
-**Examples:**
 ```md
-> [!tip]- Use keyboard shortcuts
-> You can speed up your workflow by memorizing the most-used shortcuts.
-
-> [!info]+ This is a paid addon
-> This feature requires a paid subscription to use.
-
-> [!warning]+ This action cannot be undone
-> Deleting a vault is permanent. Consider exporting your notes first.
-
-> [!example]- Advanced usage
-> You can also configure this setting via the Graph menu.
+# Titlu 1
+Aceasta este o secțiune.
+1. Primul element
+2. Al doilea element
+3. Al treilea element
 ```
 
-### Lists vs. prose
+**Liniuțe lungi (em dash) în liste:**
 
-Use lists when presenting discrete items that don't have strong sequential or causal relationships. Use prose and paragraphs when items build on each other, require explanation, or benefit from narrative flow.
+Folosește liniuțe lungi (—) pentru a separa termenii îngroșați de descrierile lor în listele cu marcatori. Nu folosi liniuțe lungi în liste imbricate simple cu legături.
 
-**Use a list for:**
-- A set of unrelated features
-- Installation requirements
-- Configuration options
-- Troubleshooting steps
+**Recomandat:**
 
-**Use prose for:**
-- Explanations of how something works
-- Workflows with dependencies
-- Conceptual overviews
-- Guidance requiring context
+- **Meniul Vizualizare** — creează, editează și comută vizualizări.
+- **Calculează valori** — adaugă prețuri, calculează totaluri sau efectuează operații matematice.
 
-### Tables
+**Nerecomandat:**
 
-Use tables to compare features, versions, or related data points where alignment aids understanding. Avoid tables for simple lists or single-column data.
+- [[Create a base]] — Află cum să creezi și să integrezi o bază.
 
-**Good use case:**
+### Imagini
 
-| Feature | Mobile | Desktop |
+Folosește „**lățime** x **înălțime** pixeli” pentru a descrie dimensiunile unei imagini sau ale ecranului.
+
+**Exemplu:**
+
+Dimensiuni recomandate pentru imagine: 1920 x 1080 pixeli.
+
+## Structura informației
+
+### Tipuri de explicații (callout)
+
+Folosește explicații (callout) în mod strategic pentru a evidenția tipuri specifice de informații:
+
+**Sfat** (`[!tip]-`) - Sfaturi practice sau bune practici care îmbunătățesc fluxul de lucru al utilizatorului. Folosește pentru scurtături, soluții alternative sau informații utile, dar neesențiale. Aceste explicații încep pliate.
+
+**Informație** (`[!info]+`) - Context suplimentar, informații de fundal sau clarificări. Folosește atunci când informația adaugă înțelegere, dar nu este necesară pentru a finaliza o sarcină. Aceste explicații încep deschise.
+
+**Avertisment** (`[!warning]+`) - Avertismente importante care previn pierderea de date, erori sau consecințe neintenționate. Folosește cu moderație, pentru situații cu adevărat riscante. Aceste explicații nu trebuie niciodată pliate.
+
+**Exemplu** (`[!example]-`) - Digresiuni generale sau detalii suplimentare. Folosește pentru informații tangențiale pe care unii utilizatori le-ar putea găsi relevante. Aceste explicații încep pliate.
+
+**Exemple:**
+```md
+> [!tip]- Folosește combinații de taste
+> Poți accelera fluxul de lucru memorând cele mai folosite combinații.
+
+> [!info]+ Acesta este un modul suplimentar cu plată
+> Această funcție necesită un abonament cu plată pentru a fi folosită.
+
+> [!warning]+ Această acțiune nu poate fi anulată
+> Ștergerea unei bolți este permanentă. Ia în considerare exportarea notelor tale mai întâi.
+
+> [!example]- Utilizare avansată
+> Poți configura, de asemenea, această setare prin meniul Afișaj grafic.
+```
+
+### Liste vs. text continuu
+
+Folosește liste atunci când prezinți elemente discrete care nu au relații puternice secvențiale sau cauzale. Folosește text continuu și paragrafe atunci când elementele se construiesc unele pe baza altora, necesită explicații sau beneficiază de un flux narativ.
+
+**Folosește o listă pentru:**
+- Un set de funcții fără legătură între ele
+- Cerințe de instalare
+- Opțiuni de configurare
+- Pași de depanare
+
+**Folosește text continuu pentru:**
+- Explicații despre cum funcționează ceva
+- Fluxuri de lucru cu dependențe
+- Prezentări conceptuale generale
+- Îndrumări care necesită context
+
+### Tabele
+
+Folosește tabele pentru a compara funcții, versiuni sau puncte de date conexe, acolo unde alinierea ajută la înțelegere. Evită tabelele pentru liste simple sau date cu o singură coloană.
+
+**Exemplu bun de utilizare:**
+
+| Funcție | Mobil | Desktop |
 |---------|--------|---------|
-| Sync | Yes | Yes |
-| Plugins | No | Yes |
-| Themes | Limited | Full |
+| Sync | Da | Da |
+| Plugin-uri | Nu | Da |
+| Teme | Limitat | Complet |
 
-### Cross-references
+### Trimiteri încrucișate
 
-Use internal wiki links (`[[Note name]]`) liberally to help users navigate related topics. However, avoid over-linking:
+Folosește legături wiki interne (`[[Nume notă]]`) cu generozitate pentru a ajuta utilizatorii să navigheze subiecte conexe. Totuși, evită supra-legarea:
 
-- Don't link the same term multiple times in a single page
-- Link only when the referenced page provides significant added context
-- Use descriptive link text when helpful: `[[Note name#Section|descriptive text]]`
+- Nu lega același termen de mai multe ori pe aceeași pagină
+- Fă legătura doar atunci când pagina referită oferă context semnificativ suplimentar
+- Folosește text de legătură descriptiv atunci când este util: `[[Nume notă#Secțiune|text descriptiv]]`
 
-**Example:**
+**Exemplu:**
 
-First mention: "Learn about [[Introduction to Obsidian Sync|Obsidian Sync]] to keep your vault updated across devices."
-Later mention: "You can configure Sync for each device separately."
+Prima mențiune: „Află despre [[Introduction to Obsidian Sync|Obsidian Sync]] pentru a-ți menține bolta actualizată pe toate dispozitivele.”
+Mențiune ulterioară: „Poți configura Sync separat pentru fiecare dispozitiv.”
 
-### Platform-specific content
+### Conținut specific platformei
 
-When documenting features that differ between platforms, use section headings to organize the content.
+Atunci când documentezi funcții care diferă între platforme, folosește titluri de secțiune pentru a organiza conținutul.
 
-Use `Desktop` and `Mobile` as subsection headings to separate platform-specific instructions or features.
+Folosește `Desktop` și `Mobil` ca titluri de subsecțiune pentru a separa instrucțiunile sau funcțiile specifice platformei.
 
-**Recommended:**
+**Recomandat:**
 ```md
-## Customizing the ribbon
+## Personalizarea panglicii
 
 ### Desktop
 
-On the desktop version, you can customize the ribbon as follows:
+În versiunea desktop, poți personaliza panglica astfel:
 
-- Rearrange the order of ribbon actions by dragging and dropping the icons.
-- To hide specific actions, right-click on an empty space and uncheck the actions you want to hide.
+- Rearanjează ordinea acțiunilor din panglică trăgând și plasând pictogramele.
+- Pentru a ascunde acțiuni specifice, dă clic dreapta pe un spațiu gol și debifează acțiunile pe care vrei să le ascunzi.
 
-### Mobile
+### Mobil
 
-In the mobile version, you can customize the ribbon through settings:
+În versiunea mobilă, poți personaliza panglica prin setări:
 
-1. Open **[[Settings]]**.
-2. Navigate to **Appearance**.
-3. Click **Manage** under **Ribbon menu**.
+1. Deschide **[[Settings]]**.
+2. Navighează la **Aspect**.
+3. Apasă **Gestionează** sub **Meniul panglicii**.
 ```
 
-> [!info]+ When to create sections?
-> Only create separate sections if content significantly differs. If instructions are largely the same with minor variations, use inline notes instead.
+> [!info]+ Când să creezi secțiuni?
+> Creează secțiuni separate doar dacă conținutul diferă semnificativ. Dacă instrucțiunile sunt în mare parte aceleași, cu variații minore, folosește note inline în schimb.
 
-## Icons and images
+## Pictograme și imagini
 
-Include icons and images when they make it easier to explain things that are hard to describe with words, or when you need to show important parts of the Obsidian application. You can save images in the `Attachments` folder.
+Include pictograme și imagini atunci când fac mai ușoară explicarea unor lucruri greu de descris în cuvinte sau atunci când trebuie să arăți părți importante ale aplicației Obsidian. Poți salva imagini în folderul `Attachments`.
 
-- The image should make the text it accompanies easier to understand.
+- Imaginea ar trebui să facă textul pe care îl însoțește mai ușor de înțeles.
 
- **Example**: Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
+ **Exemplu**: Odată activat, pluginul [[Word count]] va crea o intrare nouă pe bara de stare din partea de jos.
  
 ![[Style-guide-zoomed-example.png#interface|300]]
 
-- Images should be in either `.png` or `.svg` format.
-- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embed files#Embed an image in a note|embedding an image in a note]].
-- In rare cases, you may want to place especially large or complex images in a [[Callouts#Foldable callouts|folded callout]]. 
-- For pop-up windows or modals, the image should show the entire Obsidian application window.
+- Imaginile ar trebui să fie în format `.png` sau `.svg`.
+- Dacă o imagine pare prea mare în notă, fă-o mai mică în afara Obsidian sau ajustează-i dimensiunile așa cum este explicat în [[Embed files#Embed an image in a note|integrarea unei imagini într-o notă]].
+- În cazuri rare, s-ar putea să vrei să plasezi imagini deosebit de mari sau complexe într-o [[Callouts#Foldable callouts|explicație pliabilă]]. 
+- Pentru ferestre pop-up sau ferestre modale, imaginea ar trebui să arate întreaga fereastră a aplicației Obsidian.
  ![[Style-guide-modal-example.png#interface]]
 
-### Icons
+### Pictograme
 
-[Lucide](https://lucide.dev/icons/) and custom Obsidian icons can be used alongside detailed elements to provide a visual representation of a feature.
+[Lucide](https://lucide.dev/icons/) și pictogramele personalizate Obsidian pot fi folosite alături de elemente detaliate pentru a oferi o reprezentare vizuală a unei funcții.
 
-**Example:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
+**Exemplu:** În panglica din stânga, selectează **Creează o pânză nouă** ![[lucide-layout-dashboard.svg#icon]] pentru a crea o pânză în același folder cu fișierul activ.
 
-**Guidelines for icons**
+**Linii directoare pentru pictograme**
 
-- Store icons in the `Attachments/icons` folder.
-- Add the prefix `lucide-` before the Lucide icon name.
-- Add the prefix `obsidian-icon-` before the Obsidian icon name.
+- Stochează pictogramele în folderul `Attachments/icons`.
+- Adaugă prefixul `lucide-` înaintea numelui pictogramei Lucide.
+- Adaugă prefixul `obsidian-icon-` înaintea numelui pictogramei Obsidian.
 
-**Example:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
+**Exemplu:** Pictograma pentru crearea unei pânze noi ar trebui să fie denumită `lucide-layout-dashboard`.
 
-- Use the SVG version of the icons available.
-- Icons should be `18` pixels in width, `18` pixels in height, and have a stroke width of `1.5`. You can adjust these settings in the SVG data.
+- Folosește versiunea SVG a pictogramelor disponibile.
+- Pictogramele ar trebui să aibă `18` pixeli lățime, `18` pixeli înălțime și o grosime a conturului de `1.5`. Poți ajusta aceste setări în datele SVG.
 
-> [!info]- Adjusting size and stroke in an SVG
+> [!info]- Ajustarea dimensiunii și a conturului într-un SVG
 > ```html
 > <svg xmlns="http://www.w3.org/2000/svg" width="WIDTH" height="HEIGHT" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="STROKE-WIDTH" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
 >```
 
-- Utilize the `icon` anchor in embedded images, to tweak the spacing around the icon so that it aligns neatly with the text in the vicinity.
-- Icons should be surrounded by parenthesis. ![[lucide-cog.svg#icon]]
+- Folosește ancora `icon` în imaginile integrate, pentru a ajusta spațierea din jurul pictogramei astfel încât să se alinieze corect cu textul din vecinătate.
+- Pictogramele ar trebui să fie încadrate de paranteze. ![[lucide-cog.svg#icon]]
 
-**Example**: `![[lucide-cog.svg#icon]]`
+**Exemplu**: `![[lucide-cog.svg#icon]]`
 
-### Image anchor tags
+### Etichete de ancorare pentru imagini
 
-Image anchors tags are available to add decorative changes to the embedded images. 
+Etichetele de ancorare pentru imagini sunt disponibile pentru a adăuga modificări decorative imaginilor integrate. 
 
-> [!warning] Live preview warning
-> The icon anchor tags will not display correctly in **Live preview.** Use **Reading view** to confirm the anchor tag has been applied. 
+> [!warning] Avertisment pentru Vizualizare live
+> Etichetele de ancorare pentru pictograme nu se vor afișa corect în **Vizualizare live.** Folosește **Vizualizarea de citire** pentru a confirma că eticheta de ancorare a fost aplicată. 
 
-**Icon**
+**Pictogramă**
 
 `![[lucide-menu.svg#icon]]`
 
-The icon anchor tag ensures correct vertical alignment for icons used to indicate interface elements.
+Eticheta de ancorare pentru pictogramă asigură alinierea verticală corectă pentru pictogramele folosite pentru a indica elemente ale interfeței.
 
-The first menu icon uses the anchor tag ![[lucide-menu.svg#icon]], while the second menu icon ( ![[lucide-menu.svg]] ) does not.
+Prima pictogramă de meniu folosește eticheta de ancorare ![[lucide-menu.svg#icon]], în timp ce a doua pictogramă de meniu ( ![[lucide-menu.svg]] ) nu o folosește.
 
-**Interface**
+**Interfață**
 
 `![[Vault picker.png#interface]]`
 
-The interface anchor tag adds a decorative box shadow around the image. In the first image, the interface anchor tag is applied.
+Eticheta de ancorare pentru interfață adaugă o umbră decorativă în jurul imaginii. În prima imagine, eticheta de ancorare pentru interfață este aplicată.
 ![[Vault picker.png#interface]]
-In contrast, the second image does not have the interface anchor applied.
+În schimb, a doua imagine nu are eticheta de ancorare pentru interfață aplicată.
 
 ![[Vault picker.png]]
 
-**Outline**
+**Sumar**
 
 `![[Backlinks.png#outline]]`
 
-The outline anchor tag adds a subtle border around the image. In the first image, the outline anchor tag is applied. 
+Eticheta de ancorare pentru sumar adaugă un chenar subtil în jurul imaginii. În prima imagine, eticheta de ancorare pentru sumar este aplicată. 
 
-> [!tip] Observe the lower left of the image to see the difference.
+> [!tip] Observă partea stângă jos a imaginii pentru a vedea diferența.
 
 ![[Backlinks.png#outline]]
 
-The second image lacks the outline anchor tag.
+A doua imagine nu are eticheta de ancorare pentru sumar.
 
 ![[Backlinks.png]]
 
-### Optimization
+### Optimizare
 
-Images slow the loading time of the page, and take valuable [[Introduction to Obsidian Publish|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
+Imaginile încetinesc timpul de încărcare a paginii și ocupă spațiu de stocare valoros pe [[Introduction to Obsidian Publish|Publish]]. Optimizarea imaginilor permite reducerea dimensiunii fișierului, dar menține integritatea vizuală a imaginii. 
 
-Both images and icons should be optimized.
+Atât imaginile, cât și pictogramele ar trebui optimizate.
 
-> [!info] Tools for optimizing images
-> Here are a some recommended programs for reducing the size of your images.
+> [!info] Instrumente pentru optimizarea imaginilor
+> Iată câteva programe recomandate pentru reducerea dimensiunii imaginilor tale.
 > - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
 > - **macOS:** [ImageOptim](https://imageoptim.com/)
 > - **Linux/Unix** [Trimage](https://trimage.org)
 > 
-> We recommend an optimization rate of 65-75%.
+> Recomandăm o rată de optimizare de 65-75%.
 
-## Layout
+## Aspect
 
-### Broken links
+### Legături nefuncționale
 
-Before submitting your Pull Request, please check for any broken links in the documentation of the translation you are working on, and correct them. Broken links can occur naturally over time, so verifying their accuracy helps maintain the quality of the documentation.
+Înainte de a trimite Pull Request-ul tău, te rugăm să verifici dacă există legături nefuncționale în documentația traducerii la care lucrezi și să le corectezi. Legăturile nefuncționale pot apărea în mod natural în timp, așa că verificarea acurateței lor ajută la menținerea calității documentației.
 
-You can check for broken links using [[Community plugins]] or tools available in your IDE.
+Poți verifica legăturile nefuncționale folosind [[Community plugins]] sau instrumente disponibile în IDE-ul tău.
 
-### Descriptions
+### Descrieri
 
-This documentation is edited on GitHub and hosted online via [[Introduction to Obsidian Publish|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
+Această documentație este editată pe GitHub și găzduită online prin [[Introduction to Obsidian Publish|Obsidian Publish]], care include [[Social media link previews#Description|descrieri]] pentru cardurile pentru rețele sociale și alte elemente de [[SEO]].
 
-If the page you are working on does not have a `description` [[Properties|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page's content.
+Dacă pagina la care lucrezi nu are o [[Properties|proprietate]] `description`, te rugăm să adaugi una. Descrierea ar trebui să aibă 150 de caractere sau mai puțin și să ofere un rezumat obiectiv al conținutului paginii.
 
-**Good**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
-**Could be tweaked**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.
+**Bine**: Învață să creezi șabloane care captează și organizează automat metadatele paginilor web cu Web Clipper.
+**Ar putea fi îmbunătățit**: Învață cum să creezi șabloane care captează și organizează automat metadatele din paginile web cu Web Clipper.
 
-### Directions
+### Direcții
 
-When writing or rewriting [[#Instructions]] on how to perform an action within the app, be sure to include steps for both the mobile and desktop versions.
+Atunci când scrii sau rescrii [[#Instrucțiuni]] despre cum să efectuezi o acțiune în aplicație, asigură-te că incluzi pași atât pentru versiunea mobilă, cât și pentru cea desktop.
 
-If you do not have access to a mobile or desktop device, please mention this when submitting your Pull Request.
+Dacă nu ai acces la un dispozitiv mobil sau desktop, te rugăm să menționezi acest lucru atunci când trimiți Pull Request-ul tău.
 
-## Translations
+## Traduceri
 
-  Translate the entirety of the content when completing a translation. This includes and is not limited to:
+  Tradu întregul conținut atunci când finalizezi o traducere. Aceasta include, dar nu se limitează la:
 
-- Note names
-- Folder names
-- Aliases
-- Attachment names
-- Alt link text
+- Numele notelor
+- Numele folderelor
+- Alias-uri
+- Numele atașamentelor
+- Textul alternativ al legăturilor

@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: web-clipper/troubleshoot
 ---
-If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
+Dacă întâmpini probleme cu [[Introduction to Obsidian Web Clipper|Web Clipper]], poți obține ajutor prin [canalul oficial de Discord](https://discord.com/channels/686053708261228577/1285652864089198672). Poți de asemenea raporta erori pe [repozitoriul GitHub](https://github.com/obsidianmd/obsidian-clipper).
 
 ## General
 
-### Some content is missing
+### Lipsește o parte din conținut
 
-By default, Web Clipper tries to intelligently capture content from the page. However it may not be successful in doing so across all websites.
+Implicit, Web Clipper încearcă să capteze inteligent conținutul de pe pagină. Cu toate acestea, s-ar putea să nu reușească acest lucru pe toate site-urile web.
 
-Web Clipper uses [Defuddle](https://github.com/kepano/defuddle) to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/kepano/defuddle) to Defuddle.
+Web Clipper folosește [Defuddle](https://github.com/kepano/defuddle) pentru a capta doar conținutul principal al paginii. Acesta exclude antetul, subsolul și alte elemente, dar uneori poate fi excesiv de conservator și poate elimina conținut pe care vrei să îl păstrezi. Poți [raporta erori](https://github.com/kepano/defuddle) către Defuddle.
 
-To bypass Defuddle in Web Clipper use the following methods:
+Pentru a ocoli Defuddle în Web Clipper, folosește următoarele metode:
 
-- Select text, or use `Cmd/Ctrl+A` to select all text.
-- [[Highlighter|Highlight content]] to choose exactly what you want to capture.
-- Use a [[Obsidian Web Clipper/Templates|custom template]] for the site.
+- Selectează text, sau folosește `Cmd/Ctrl+A` pentru a selecta tot textul.
+- [[Highlighter|Evidențiază conținutul]] pentru a alege exact ce vrei să captezi.
+- Folosește un [[Obsidian Web Clipper/Templates|șablon personalizat]] pentru site.
 
-### No content appears in Obsidian
+### Niciun conținut nu apare în Obsidian
 
-If you don't see any content in Obsidian when you click **Add to Obsidian**:
+Dacă nu vezi niciun conținut în Obsidian atunci când dai clic pe **Adaugă în Obsidian**:
 
-- Check for errors in the Obsidian [[Help and support#Capture console logs|developer console]].
-- Check that your vault name in Web Clipper settings exactly matches your *vault name* in Obsidian *not the vault path*.
-- Check that the folder name is correctly formatted.
+- Verifică dacă există erori în [[Help and support#Capture console logs|consola pentru dezvoltatori]] a Obsidian.
+- Verifică dacă numele seifului din setările Web Clipper corespunde exact cu *numele seifului* tău din Obsidian, *nu calea seifului*.
+- Verifică dacă numele directorului este formatat corect.
 
 ## Linux
 
-#### Obsidian does not open
+#### Obsidian nu se deschide
 
-- Make sure the [[Obsidian URI]] protocol [[Obsidian URI#Register Obsidian URI|is registered]].
-- If you are using Firefox you may need to [register it the browser settings](https://kb.mozillazine.org/Register_protocol).
+- Asigură-te că protocolul [[Obsidian URI]] [[Obsidian URI#Register Obsidian URI|este înregistrat]].
+- Dacă folosești Firefox, s-ar putea să fie nevoie să-l [înregistrezi în setările browserului](https://kb.mozillazine.org/Register_protocol).
 
-#### Obsidian opens but only the file name is saved
+#### Obsidian se deschide, dar se salvează doar numele fișierului
 
-It is likely that Obsidian cannot access your clipboard. Clipboard access is necessary to pass data from your browser to Obsidian. Your configuration can affect how apps are sandboxed, and clipboard permissions.
+Este probabil ca Obsidian să nu poată accesa clipboard-ul. Accesul la clipboard este necesar pentru a transmite date din browser către Obsidian. Configurația ta poate afecta modul în care aplicațiile sunt izolate (sandboxed) și permisiunile de clipboard.
 
-If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused. This preference may be in your tiling window manager, e.g. Hyprland or Sway.
+Dacă folosești Wayland, asigură-te că Obsidian are permisiunile de a citi clipboard-ul atunci când aplicația nu este focalizată. Această preferință se poate afla în managerul tău de ferestre tiling, de ex. Hyprland sau Sway.
 
-If you use Hyprland:
+Dacă folosești Hyprland:
 
 ```ini
 # ~/.config/hypr/hyprland.conf
@@ -48,33 +47,33 @@ misc {
 }
 ```
 
-If you use Sway:
+Dacă folosești Sway:
 
 ```ini
 # ~/.config/sway/config
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
-- If you use KDE go to to **System Settings** → **Window Management** → **Window Rules** and allow Obsidian to take focus, [[web-clipper-kde.png|see screenshot]].
-- As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
+- Dacă folosești Flatpak, ia în considerare încercarea unei [versiuni Obsidian susținute oficial](https://obsidian.md/download).
+- Dacă folosești KDE, mergi la **Setările sistemului** → **Gestionarea ferestrelor** → **Reguli de fereastră** și permite-i lui Obsidian să preia focalizarea, [[web-clipper-kde.png|vezi captura de ecran]].
+- Ca soluție de rezervă, încearcă să comuți la **Modul vechi (Legacy)** în **Setările Web Clipper** → **General**. Aceasta va ocoli clipboard-ul și va salva conținutul direct prin URI. Reține că aceasta va limita numărul de caractere care pot fi salvate, în funcție de browserul și distribuția Linux pe care le folosești.
 
-## iOS and iPadOS
+## iOS și iPadOS
 
-To enable the Web Clipper extension for Safari:
+Pentru a activa extensia Web Clipper pentru Safari:
 
-1. Go to Safari, tap the leftmost button in the browser URL bar, it looks like a rectangle with lines beneath it.
-2. Tap **Manage Extensions**.
-3. Enable **Obsidian Web Clipper** in the Extensions list.
-4. Exit the menu.
-5. To use the extension **tap the puzzle piece icon** in the URL bar.
+1. Mergi la Safari, apasă butonul din stânga barei de adrese URL a browserului, care arată ca un dreptunghi cu linii dedesubt.
+2. Apasă **Gestionează extensiile**.
+3. Activează **Obsidian Web Clipper** în lista de extensii.
+4. Ieși din meniu.
+5. Pentru a folosi extensia, **apasă pictograma de puzzle** din bara de adrese URL.
 
-To allow Web Clipper to run on all websites:
+Pentru a permite Web Clipper să funcționeze pe toate site-urile web:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Safari** →  **Extensions**.
-2. Under **Permissions** allow it to run on all websites.
+1. Mergi la **[[Settings|Setări]]** iOS →  **Aplicații** →  **Safari** →  **Extensii**.
+2. Sub **Permisiuni**, permite-i să funcționeze pe toate site-urile web.
 
-To allow Obsidian to always receive Web Clipper content:
+Pentru a permite Obsidian să primească întotdeauna conținut de la Web Clipper:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Obsidian**.
-2. Set **Paste from other apps** to **Allow**.
+1. Mergi la **[[Settings|Setări]]** iOS →  **Aplicații** →  **Obsidian**.
+2. Setează **Lipește din alte aplicații** pe **Permite**.

@@ -1,27 +1,26 @@
 ---
-localized: null
 permalink: sync/headless
 cssclasses:
   - reference
-description: 'Obsidian Sync offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.'
+description: 'Obsidian Sync oferă un client headless pentru sincronizarea seifurilor fără a folosi aplicația desktop. Util pentru pipeline-uri CI, agenți și fluxuri de lucru automatizate. Sincronizează cele mai recente modificări sau menține fișierele actualizate în mod continuu.'
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
+[[Introduction to Obsidian Sync|Obsidian Sync]] oferă un client headless pentru sincronizarea seifurilor fără a folosi aplicația desktop. Util pentru pipeline-uri CI, agenți și fluxuri de lucru automatizate. Sincronizează cele mai recente modificări sau menține fișierele actualizate în mod continuu.
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Headless Sync uses the same [[Security and privacy|encryption and privacy protections]] as the desktop app, including end-to-end encryption.
+Instalează [[Obsidian Headless]] **(beta deschisă)** pentru a interacționa cu [[Introduction to Obsidian Sync|Obsidian Sync]] din linia de comandă, fără aplicația desktop Obsidian. Headless Sync folosește aceleași [[Security and privacy|protecții de criptare și confidențialitate]] ca aplicația desktop, inclusiv criptarea integrală.
 
-## Quick start
+## Pornire rapidă
 
-> [!error] Back up your data before you start
-> 1. Always back up your data before you start in case anything unexpected happens.
-> 2. Do not use *both* the desktop app Sync and Headless Sync on the same device, as it can cause data conflicts. Only use one sync method per device.
+> [!error] Fă o copie de rezervă a datelor tale înainte de a începe
+> 1. Fă întotdeauna o copie de rezervă a datelor tale înainte de a începe, în cazul în care apare ceva neașteptat.
+> 2. Nu folosi *simultan* Sync din aplicația desktop și Headless Sync pe același dispozitiv, deoarece poate cauza conflicte de date. Folosește o singură metodă de sincronizare per dispozitiv.
 
-Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
+Instalează [[Obsidian Headless|Obsidian Headless]] **(beta deschisă)**:
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Plans and storage limits|Obsidian Sync subscription]].
+Trebuie să ai un [[Plans and storage limits|abonament Obsidian Sync]] activ.
 
 ```shell
 # Login
@@ -41,82 +40,82 @@ ob sync
 ob sync --continuous
 ```
 
-## Commands
+## Comenzi
 
 ### `ob sync-list-remote`
 
-List all remote vaults available to your account, including shared vaults.
+Listează toate seifurile la distanță disponibile pentru contul tău, inclusiv seifurile partajate.
 
 ### `ob sync-list-local`
 
-List locally configured vaults and their paths.
+Listează seifurile configurate local și căile lor.
 
 ### `ob sync-create-remote`
 
-Create a new remote vault.
+Creează un nou seif la distanță.
 
 ```
 ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--password <password>] [--region <region>]
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--name` | Vault name (required) |
-| `--encryption` | `standard` for managed encryption, `e2ee` for end-to-end encryption |
-| `--password` | End-to-end encryption password (prompted if omitted) |
-| `--region` | Server [[Sync regions\|region]] (automatic if omitted) |
+| `--name` | Numele seifului (obligatoriu) |
+| `--encryption` | `standard` pentru criptare gestionată, `e2ee` pentru criptare integrală |
+| `--password` | Parola de criptare integrală (solicitată dacă este omisă) |
+| `--region` | [[Sync regions\|Regiunea]] serverului (automată dacă este omisă) |
 
 ### `ob sync-setup`
 
-Set up sync between a local vault and a remote vault.
+Configurează sincronizarea între un seif local și un seif la distanță.
 
 ```
 ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>] [--device-name <name>] [--config-dir <name>]
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--vault` | Remote vault ID or name (required) |
-| `--path` | Local directory (default: current directory) |
-| `--password` | E2E encryption password (prompted if omitted) |
-| `--device-name` | Device name shown in [[Version history\|sync version history]] |
-| `--config-dir` | [[Configuration folder\|Config directory]] name (default: `.obsidian`) |
+| `--vault` | ID-ul sau numele seifului la distanță (obligatoriu) |
+| `--path` | Directorul local (implicit: directorul curent) |
+| `--password` | Parola de criptare integrală (solicitată dacă este omisă) |
+| `--device-name` | Numele dispozitivului afișat în [[Version history\|istoricul versiunilor de sincronizare]] |
+| `--config-dir` | Numele [[Configuration folder\|directorului de configurare]] (implicit: `.obsidian`) |
 
 ### `ob sync`
 
-Run sync for a configured vault.
+Rulează sincronizarea pentru un seif configurat.
 
 ```
 ob sync [--path <local-path>] [--continuous]
 ```
 
-| Option | Description |
+| Opțiune | Descriere |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--continuous` | Run continuously, watching for changes |
+| `--path` | Calea locală a seifului (implicit: directorul curent) |
+| `--continuous` | Rulează continuu, monitorizând modificările |
 
 ### `ob sync-config`
 
-View or change [[Sync settings and selective syncing|sync settings]] for a vault. Run with no options to display the current configuration.
+Vizualizează sau modifică [[Sync settings and selective syncing|setările de sincronizare]] pentru un seif. Rulează fără opțiuni pentru a afișa configurația curentă.
 
 ```
 ob sync-config [--path <local-path>] [options]
 ```
 
-| Option                | Description                                                                                                                                                                                                    |
+| Opțiune                | Descriere                                                                                                                                                                                                    |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--path`              | Local vault path (default: current directory)                                                                                                                                                                  |
-| `--mode`              | Sync mode: `bidirectional` (default), `pull-only` (only download, ignore local changes), or `mirror-remote` (only download, revert local changes)                                                              |
-| `--conflict-strategy` | `merge` or `conflict`                                                                                                                                                                                          |
-| `--file-types`        | Attachment types to sync: `image`, `audio`, `video`, `pdf`, `unsupported` (comma-separated, empty to clear)                                                                                                    |
-| `--configs`           | Config categories to sync: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (comma-separated, empty to disable config syncing) |
-| `--excluded-folders`  | Folders to exclude (comma-separated, empty to clear)                                                                                                                                                           |
-| `--device-name`       | Device name to identify this client in the sync version history                                                                                                                                                |
-| `--config-dir`        | Config directory name (default: `.obsidian`)                                                                                                                                                                   |
+| `--path`              | Calea locală a seifului (implicit: directorul curent)                                                                                                                                                                  |
+| `--mode`              | Modul de sincronizare: `bidirectional` (implicit), `pull-only` (doar descarcă, ignoră modificările locale) sau `mirror-remote` (doar descarcă, anulează modificările locale)                                                              |
+| `--conflict-strategy` | `merge` sau `conflict`                                                                                                                                                                                          |
+| `--file-types`        | Tipurile de atașamente de sincronizat: `image`, `audio`, `video`, `pdf`, `unsupported` (separate prin virgulă, gol pentru a șterge lista)                                                                                                    |
+| `--configs`           | Categoriile de configurare de sincronizat: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (separate prin virgulă, gol pentru a dezactiva sincronizarea configurației) |
+| `--excluded-folders`  | Directoare de exclus (separate prin virgulă, gol pentru a șterge lista)                                                                                                                                                                           |
+| `--device-name`       | Numele dispozitivului pentru a identifica acest client în istoricul versiunilor de sincronizare                                                                                                                                                |
+| `--config-dir`        | Numele directorului de configurare (implicit: `.obsidian`)                                                                                                                                                                   |
 
 ### `ob sync-status`
 
-Show sync status and configuration for a vault.
+Afișează starea și configurația de sincronizare pentru un seif.
 
 ```
 ob sync-status [--path <local-path>]
@@ -124,21 +123,21 @@ ob sync-status [--path <local-path>]
 
 ### `ob sync-unlink`
 
-Disconnect a vault from sync and remove stored credentials.
+Deconectează un seif de la sincronizare și elimină acreditările stocate.
 
 ```
 ob sync-unlink [--path <local-path>]
 ```
 
-## Native modules
+## Module native
 
-Obsidian Headless includes a prebuilt native addon for setting file creation time (birthtime) on Windows and macOS. This preserves original creation timestamps when downloading files from the server.
+Obsidian Headless include un modul complementar nativ precompilat pentru setarea orei de creare a fișierelor (birthtime) pe Windows și macOS. Acesta păstrează marcajele temporale originale de creare atunci când descarci fișiere de pe server.
 
-The addon targets N-API version 3, so the compiled binaries are ABI-stable and work across Node.js versions without recompilation.
+Modulul complementar vizează versiunea N-API 3, astfel încât binarele compilate sunt stabile la nivel de ABI și funcționează pe toate versiunile Node.js fără a fi necesară recompilarea.
 
-On Linux, birthtime is not supported — the addon is not included and sync operates normally without it.
+Pe Linux, birthtime nu este acceptat — modulul complementar nu este inclus, iar sincronizarea funcționează normal fără el.
 
-Prebuilt binaries are included for:
+Sunt incluse binare precompilate pentru:
 
 - `win32-x64`
 - `win32-arm64`

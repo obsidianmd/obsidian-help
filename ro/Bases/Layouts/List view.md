@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: bases/views/list
 ---
-List is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+List este un tip de [[Views|vizualizare]] pe care îl poți folosi în [[Introduction to Bases|Baze]].
 
-Select ![[lucide-list.svg#icon]]  **List** from the view menu to display files as a [[Basic formatting syntax#Lists|list]] with bulleted or numbered markers.
+Selectează ![[lucide-list.svg#icon]]  **Listă** din meniul de vizualizare pentru a afișa fișierele ca o [[Basic formatting syntax#Lists|listă]] cu marcaje sub formă de puncte sau numere.
 
-## Settings
+## Setări
 
-List view settings can be configured in [[Views#View settings|View settings]].
+Setările vizualizării de tip listă pot fi configurate în [[Views#View settings|Setările vizualizării]].
 
-- Markers: bullets, numbers or none
-- Indent properties
-- Separators for properties
+- Marcaje: puncte, numere sau niciunul
+- Indentarea proprietăților
+- Separatori pentru proprietăți
 
-### Markers
+### Marcaje
 
-Choose the type of list marker your want to use: bullets, numbers, or none.
+Alege tipul de marcaj de listă pe care vrei să îl folosești: puncte, numere sau niciunul.
 
-### Indent properties
+### Indentarea proprietăților
 
-When toggled on, any properties you select in the **Properties** menu will be displayed as indented items for the primary list item.
+Când este activată, orice proprietăți pe care le selectezi în meniul **Proprietăți** vor fi afișate ca elemente indentate sub elementul principal al listei.
 
-To change your primary list item, move a property in the **Properties** menu to the top, by dragging it or using the `Alt + Up/Down` shortcut.
+Pentru a schimba elementul principal al listei, mută o proprietate în meniul **Proprietăți** în partea de sus, trăgând-o sau folosind comanda rapidă `Alt + Up/Down`.
 
-### Separators
+### Separatori
 
-When **nested properties** is toggled off, this setting defines a character to separate the properties for each list item. Defaults to a comma.
+Când **proprietăți imbricate** este dezactivat, această setare definește un caracter care separă proprietățile pentru fiecare element din listă. Valoarea implicită este virgula.

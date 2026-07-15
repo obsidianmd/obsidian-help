@@ -1,16 +1,15 @@
 ---
-localized: null
 permalink: bases/functions
 publish: true
 mobile: true
-description: This page details the functions used in Obsidian Bases to manipulate data from properties in filters and formulas.
+description: Această pagină detaliază funcțiile folosite în Obsidian Bases pentru a manipula datele din proprietăți, în filtre și formule.
 ---
 
-Functions are used in [[Introduction to Bases|Bases]] to manipulate data from [[properties]] in [[Views#Filters|filters]] and [[formulas]]. See the [[Bases syntax|bases syntax]] reference to learn more about how you can use functions.
+Funcțiile sunt folosite în [[Introduction to Bases|Baze]] pentru a manipula date din [[properties|proprietăți]] în [[Views#Filters|filtre]] și [[formulas|formule]]. Consultă referința [[Bases syntax|sintaxa bases]] pentru a afla mai multe despre cum poți folosi funcțiile.
 
-Bases functions follow JavaScript behavior. For complete reference documentation, refer to [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+Funcțiile Bases urmează comportamentul JavaScript. Pentru documentație de referință completă, consultă [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 
-Aside from [[Functions#Global|Global]] functions, most functions depend on the type of value you want to modify:
+Pe lângă funcțiile [[Functions#Global|Global]], majoritatea funcțiilor depind de tipul valorii pe care vrei să o modifici:
 
 - [[Functions#Any type|Any]]
 - [[Functions#Date type|Date]]
@@ -24,597 +23,597 @@ Aside from [[Functions#Global|Global]] functions, most functions depend on the t
 
 ## Global
 
-Global functions are used without a type.
+Funcțiile globale sunt folosite fără un tip.
 
 ### `escapeHTML()`
 
 `escapeHTML(html: string): string`
 
-- Escapes special characters in a string to make it safe for inclusion in HTML.
+- Escapează caracterele speciale dintr-un string pentru a-l face sigur pentru includerea în HTML.
 
 ### `date()`
 
 `date(date: string): date`
 
-- `date(string): date` parses the provided string and returns a date object.
-- The `date` string should be in the format `YYYY-MM-DD HH:mm:ss`.
+- `date(string): date` analizează stringul furnizat și returnează un obiect de tip dată.
+- Stringul `date` trebuie să fie în formatul `YYYY-MM-DD HH:mm:ss`.
 
 ### `duration()`
 
 `duration(value: string): duration`
 
-- Parses a string as a duration. See the [[Bases syntax#Date arithmetic|date arithmetic section]] for the `value` string format.
-- Explicit parsing is not needed for date arithmetic (for example, `now() + '1d'`), but is needed when performing arithmetic on durations (for example, `now() + (duration('1d') * 2)`).
-- When performing arithmetic on durations with scalars, the duration must be on the left. For example `duration('5h') * 2`, instead of `2 * duration('5h')`.
+- Analizează un string ca o durată. Consultă secțiunea [[Bases syntax#Date arithmetic|aritmetica datelor calendaristice]] pentru formatul stringului `value`.
+- Analizarea explicită nu este necesară pentru aritmetica datelor calendaristice (de exemplu, `now() + '1d'`), dar este necesară atunci când efectuezi operații aritmetice pe durate (de exemplu, `now() + (duration('1d') * 2)`).
+- Când efectuezi operații aritmetice pe durate cu scalari, durata trebuie să fie în stânga. De exemplu `duration('5h') * 2`, în loc de `2 * duration('5h')`.
 
 ### `file()`
 
 `file(path: string | file | url): file`
 
-- Returns a file object for the given file or path.
-- Example: `file(link("[[filename]]"))` or `file("path to file")`.
+- Returnează un obiect de tip fișier pentru fișierul sau calea specificată.
+- Exemplu: `file(link("[[filename]]"))` sau `file("path to file")`.
 
 ### `html()`
 
 `html(html: string): html`
 
-- Converts a string into a code snippet that renders as HTML.
+- Convertește un string într-un fragment de cod care se afișează ca HTML.
 
 ### `if()`
 
 `if(condition: any, trueResult: any, falseResult?: any): any`
 
-- `condition` is the expression to evaluate.
-- `trueResult` is the output if `condition` is true.
-- `falseResult` is the optional output if `condition` is false. If omitted, defaults to `null`.
-- Returns `trueResult` if `condition` is true or truthy, otherwise returns `falseResult`.
-- Example: `if(isModified, "Modified", "Unmodified")`
+- `condition` este expresia de evaluat.
+- `trueResult` este rezultatul dacă `condition` este adevărată.
+- `falseResult` este rezultatul opțional dacă `condition` este falsă. Dacă este omis, valoarea implicită este `null`.
+- Returnează `trueResult` dacă `condition` este adevărată (true) sau truthy, altfel returnează `falseResult`.
+- Exemplu: `if(isModified, "Modified", "Unmodified")`
 
 ### `image()`
 
 `image(path: string | file | url): image`
 
-- Returns an image object that renders the image in the view.
-- Example: `image(image-property)` or `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
+- Returnează un obiect de tip imagine care afișează imaginea în vizualizare.
+- Exemplu: `image(image-property)` sau `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
 `icon(name: string): icon`
 
-- Returns a value that will render as an icon in a view. The icon name must match a supported Lucide icon.
-- Example: `icon("arrow-right")`.
+- Returnează o valoare care se va afișa ca o iconiță într-o vizualizare. Numele iconiței trebuie să corespundă unei iconițe Lucide acceptate.
+- Exemplu: `icon("arrow-right")`.
 
 ### `link()`
 
 `link(path: string | file, display?: value): Link`
 
-- Parses a string `path` and returns a Link object that renders as a link to the given path.
-- Optionally provide the `display` parameter to set the link display text.
+- Analizează un string `path` și returnează un obiect Link care se afișează ca o legătură către calea dată.
+- Opțional, furnizează parametrul `display` pentru a stabili textul de afișare al legăturii.
 
 ### `list()`
 
 `list(element: any): List`
 
-- If the provided element is a list, returns it unmodified.
-- Otherwise, wraps the provided `element` in a list, creating a list with a single element.
-- Use this function when a property contains a mix of strings or lists across the vault.
-- Example: `list("value")` returns `["value"]`.
+- Dacă elementul furnizat este o listă, o returnează nemodificată.
+- Altfel, încadrează elementul `element` furnizat într-o listă, creând o listă cu un singur element.
+- Folosește această funcție când o proprietate conține un amestec de stringuri sau liste în cadrul seifului.
+- Exemplu: `list("value")` returnează `["value"]`.
 
 ### `max()`
 
 `max(value1: number, value2: number...): number`
 
-- Returns the largest of all the provided numbers.
+- Returnează cel mai mare dintre toate numerele furnizate.
 
 ### `min()`
 
 `min(value1: number, value2: number...): number`
 
-- Returns the smallest of all the provided numbers.
+- Returnează cel mai mic dintre toate numerele furnizate.
 
 ### `now()`
 
 `now(): date`
 
-- Returns a date object for the current moment.
+- Returnează un obiect de tip dată pentru momentul curent.
 
 ### `number()`
 
 `number(input: any): number`
 
-- Attempts to return the provided value as a number.
-- Returns date objects as milliseconds since the Unix epoch.
-- Returns booleans as `1` or `0`.
-- Parses strings as numbers, and returns an error if the string is not a valid number.
-- Example: `number("3.4")` returns `3.4`.
+- Încearcă să returneze valoarea furnizată ca un număr.
+- Returnează obiectele de tip dată ca milisecunde de la epoca Unix.
+- Returnează valorile booleene ca `1` sau `0`.
+- Analizează stringurile ca numere și returnează o eroare dacă stringul nu este un număr valid.
+- Exemplu: `number("3.4")` returnează `3.4`.
 
 ### `today()`
 
 `today(): date`
 
-- Returns a date object for the current date. The time portion is set to midnight.
+- Returnează un obiect de tip dată pentru data curentă. Porțiunea de oră este setată la miezul nopții.
 
 ### `random()`
 
 `random(): number`
 
-- Returns a random number between 0 and 1.
-- The number generation refreshes whenever a view is loaded. Navigating between views changes the random number.
+- Returnează un număr aleatoriu între 0 și 1.
+- Generarea numărului se reîmprospătează de fiecare dată când o vizualizare este încărcată. Navigarea între vizualizări schimbă numărul aleatoriu.
 
 ## Any type
 
-Functions you can use with any value. This includes strings (e.g. `"hello"`), numbers (e.g. `42`), lists (e.g. `[1,2,3]`), objects, and more.
+Funcții pe care le poți folosi cu orice valoare. Aceasta include stringuri (de exemplu, `"hello"`), numere (de exemplu, `42`), liste (de exemplu, `[1,2,3]`), obiecte și multe altele.
 
 ### `isTruthy()`
 
 `any.isTruthy(): boolean`
 
-- Returns the value coerced into a boolean.
-- Example: `1.isTruthy()` returns `true`.
+- Returnează valoarea convertită într-un boolean.
+- Exemplu: `1.isTruthy()` returnează `true`.
 
 ### `isType()`
 
 `any.isType(type: string): boolean`
 
-- Returns true if the value is of the provided type.
-- Example: `"example".isType("string")` and `true.isType("boolean")` both return true.
+- Returnează true dacă valoarea este de tipul furnizat.
+- Exemplu: `"example".isType("string")` și `true.isType("boolean")` returnează amândouă true.
 
 ### `toString()`
 
 `any.toString(): string`
 
-- Returns the string representation of any value.
-- Example: `123.toString()` returns `"123"`.
+- Returnează reprezentarea sub formă de string a oricărei valori.
+- Exemplu: `123.toString()` returnează `"123"`.
 
 ## Date type
 
-Functions you can use with a date and time such as `date("2025-05-27")`. Date comparisons can be done using [[Bases syntax#Date arithmetic|date arithmetic]].
+Funcții pe care le poți folosi cu o dată și oră, precum `date("2025-05-27")`. Comparațiile de date pot fi efectuate folosind [[Bases syntax#Date arithmetic|aritmetica datelor calendaristice]].
 
-### Fields
+### Câmpuri
 
-The following fields are available for dates:
+Următoarele câmpuri sunt disponibile pentru datele calendaristice:
 
-| Field              | Type     | Description                  |
+| Câmp              | Tip     | Descriere                  |
 | ------------------ | -------- | ---------------------------- |
-| `date.year`        | `number` | The year of the date         |
-| `date.month`       | `number` | The month of the date (1–12) |
-| `date.day`         | `number` | The day of the month         |
-| `date.hour`        | `number` | The hour (0–23)              |
-| `date.minute`      | `number` | The minute (0–59)            |
-| `date.second`      | `number` | The second (0–59)            |
-| `date.millisecond` | `number` | The millisecond (0–999)      |
+| `date.year`        | `number` | Anul datei         |
+| `date.month`       | `number` | Luna datei (1–12) |
+| `date.day`         | `number` | Ziua din lună         |
+| `date.hour`        | `number` | Ora (0–23)              |
+| `date.minute`      | `number` | Minutul (0–59)              |
+| `date.second`      | `number` | Secunda (0–59)              |
+| `date.millisecond` | `number` | Milisecunda (0–999)      |
 
 ### `date()`
 
 `date.date(): date`
 
-- Returns a date object with the time removed.
-- Example: `now().date().format("YYYY-MM-DD HH:mm:ss")` returns a string such as "2025-12-31 00:00:00".
+- Returnează un obiect de tip dată cu ora eliminată.
+- Exemplu: `now().date().format("YYYY-MM-DD HH:mm:ss")` returnează un string precum "2025-12-31 00:00:00".
 
 ### `format()`
 
 `date.format(format: string): string`
 
-- `format` is the format string (e.g., `"YYYY-MM-DD"`).
-- Returns the date formatted as specified by a Moment.js format string.
-- Example: `date.format("YYYY-MM-DD")` returns `"2025-05-27"`.
+- `format` este stringul de format (de exemplu, `"YYYY-MM-DD"`).
+- Returnează data formatată conform unui string de format Moment.js.
+- Exemplu: `date.format("YYYY-MM-DD")` returnează `"2025-05-27"`.
 
 ### `time()`
 
 `date.time(): string`
 
-- Returns the time portion as a string.
-- Example: `now().time()` returns a string such as "23:59:59".
+- Returnează porțiunea de oră sub formă de string.
+- Exemplu: `now().time()` returnează un string precum "23:59:59".
 
 ### `relative()`
 
 `date.relative(): string`
 
-- Returns a readable comparison of the date to the current datetime.
-- Example: `file.mtime.relative()` returns a value such as `3 days ago`.
+- Returnează o comparație lizibilă a datei cu data și ora curente.
+- Exemplu: `file.mtime.relative()` returnează o valoare precum `3 days ago`.
 
 ### `isEmpty()`
 
 `date.isEmpty(): boolean`
 
-- Returns false.
+- Returnează false.
 
 ## String type
 
-Functions you can use with a sequence of characters such as `"hello"`.
+Funcții pe care le poți folosi cu o secvență de caractere, precum `"hello"`.
 
-### Fields
+### Câmpuri
 
-| Field           | Type     | Description                            |
-| --------------- | -------- | -------------------------------------- |
-| `string.length` | `number` | The number of characters in the string |
+| Câmp           | Tip     | Descriere                            |
+| --------------- | -------- | --------------------------------------- |
+| `string.length` | `number` | Numărul de caractere din string |
 
 ### `contains()`
 
 `string.contains(value: string): boolean`
 
-- `value` is the substring to search for.
-- Returns true if the string contains `value`.
-- Example: `"hello".contains("ell")` returns `true`.
+- `value` este substringul căutat.
+- Returnează true dacă stringul conține `value`.
+- Exemplu: `"hello".contains("ell")` returnează `true`.
 
 ### `containsAll()`
 
 `string.containsAll(...values: string): boolean`
 
-- `values` are one or more substrings to search for.
-- Returns true if the string contains all of the `values`.
-- Example: `"hello".containsAll("h", "e")` returns `true`.
+- `values` sunt unul sau mai multe substringuri căutate.
+- Returnează true dacă stringul conține toate valorile `values`.
+- Exemplu: `"hello".containsAll("h", "e")` returnează `true`.
 
 ### `containsAny()`
 
 `string.containsAny(...values: string): boolean`
 
-- `values` are one or more substrings to search for.
-- Returns true if the string contains at least one of the `values`.
-- Example: `"hello".containsAny("x", "y", "e")` returns `true`.
+- `values` sunt unul sau mai multe substringuri căutate.
+- Returnează true dacă stringul conține cel puțin una dintre valorile `values`.
+- Exemplu: `"hello".containsAny("x", "y", "e")` returnează `true`.
 
 ### `endsWith()`
 
 `string.endsWith(query: string): boolean`
 
-- `query` is the string to check at the end.
-- Returns true if this string ends with `query`.
-- Example: `"hello".endsWith("lo")` returns `true`.
+- `query` este stringul de verificat la final.
+- Returnează true dacă acest string se termină cu `query`.
+- Exemplu: `"hello".endsWith("lo")` returnează `true`.
 
 ### `isEmpty()`
 
 `string.isEmpty(): boolean`
 
-- Returns true if the string has no characters, or is not present.
-- Example: `"Hello world".isEmpty()` returns `false`.
-- Example: `"".isEmpty()` returns `true`.
+- Returnează true dacă stringul nu are caractere sau nu este prezent.
+- Exemplu: `"Hello world".isEmpty()` returnează `false`.
+- Exemplu: `"".isEmpty()` returnează `true`.
 
 ### `lower()`
 
 `string.lower(): string`
 
-- Returns the string converted to lower case.
+- Returnează stringul convertit la litere mici.
 
 ### `replace()`
 
 `string.replace(pattern: string | Regexp, replacement: string): string`
 
-- `pattern` is the value to search for in the target string.
-- `replacement` is the value to replace found patterns with. When `pattern` is a Regexp, you can reference capture groups in `replacement` using `$1`, `$2`, and so on.
-- If `pattern` is a string, all occurrences of the pattern will be replaced.
-- If `pattern` is a Regexp, the `g` flag determines if only the first or if all occurrences are replaced.
-- Example: `"a:b:c:d".replace(/:/, "-")` returns `"a-b:c:d"`, whereas `"a:b:c:d".replace(/:/g, "-")` returns `"a-b-c-d"`.
-- Example with capture groups: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` returns `"Smith, John"`.
+- `pattern` este valoarea căutată în stringul țintă.
+- `replacement` este valoarea cu care sunt înlocuite tiparele găsite. Când `pattern` este un Regexp, poți face referire la grupurile de captură din `replacement` folosind `$1`, `$2` și așa mai departe.
+- Dacă `pattern` este un string, toate aparițiile tiparului vor fi înlocuite.
+- Dacă `pattern` este un Regexp, marcajul `g` determină dacă este înlocuită doar prima apariție sau toate aparițiile.
+- Exemplu: `"a:b:c:d".replace(/:/, "-")` returnează `"a-b:c:d"`, în timp ce `"a:b:c:d".replace(/:/g, "-")` returnează `"a-b-c-d"`.
+- Exemplu cu grupuri de captură: `"John Smith".replace(/(\w+) (\w+)/, "$2, $1")` returnează `"Smith, John"`.
 
 ### `repeat()`
 
 `string.repeat(count: number): string`
 
-- `count` is the number of times to repeat the string.
-- Example: `"123".repeat(2)` returns `"123123"`.
+- `count` este numărul de repetări ale stringului.
+- Exemplu: `"123".repeat(2)` returnează `"123123"`.
 
 ### `reverse()`
 
 `string.reverse(): string`
 
-- Reverses the string.
-- Example: `"hello".reverse()` returns `"olleh"`.
+- Inversează stringul.
+- Exemplu: `"hello".reverse()` returnează `"olleh"`.
 
 ### `slice()`
 
 `string.slice(start: number, end?: number): string`
 
-- `start` is the inclusive start index.
-- `end` is the optional exclusive end index.
-- Returns a substring from `start` (inclusive) to `end` (exclusive).
-- Example: `"hello".slice(1, 4)` returns `"ell"`.
-- If `end` is omitted, slices to the end of the string.
+- `start` este indexul de început, inclusiv.
+- `end` este indexul opțional de sfârșit, exclusiv.
+- Returnează un substring de la `start` (inclusiv) până la `end` (exclusiv).
+- Exemplu: `"hello".slice(1, 4)` returnează `"ell"`.
+- Dacă `end` este omis, se extrage până la sfârșitul stringului.
 
 ### `split()`
 
 `string.split(separator: string | Regexp, n?: number): list`
 
-- `separator` is the delimiter for splitting the string.
-- `n` is an optional number. If provided, the result will have the first `n` elements.
-- Returns a list of substrings.
-- Example: `"a,b,c,d".split(",", 3)` or `"a,b,c,d".split(/,/, 3)` returns `["a", "b", "c"]`.
+- `separator` este delimitatorul folosit pentru a împărți stringul.
+- `n` este un număr opțional. Dacă este furnizat, rezultatul va avea primele `n` elemente.
+- Returnează o listă de substringuri.
+- Exemplu: `"a,b,c,d".split(",", 3)` sau `"a,b,c,d".split(/,/, 3)` returnează `["a", "b", "c"]`.
 
 ### `startsWith()`
 
 `string.startsWith(query: string): boolean`
 
-- `query` is the string to check at the beginning.
-- Returns true if this string starts with `query`.
-- Example: `"hello".startsWith("he")` returns `true`.
+- `query` este stringul de verificat la început.
+- Returnează true dacă acest string începe cu `query`.
+- Exemplu: `"hello".startsWith("he")` returnează `true`.
 
 ### `title()`
 
 `string.title(): string`
 
-- Converts the string to title case (first letter of each word capitalized).
-- Example: `"hello world".title()` returns `"Hello World"`.
+- Convertește stringul la formatul „Title Case” (prima literă a fiecărui cuvânt scrisă cu majusculă).
+- Exemplu: `"hello world".title()` returnează `"Hello World"`.
 
 ### `trim()`
 
 `string.trim(): string`
 
-- Removes whitespace from both ends of the string.
-- Example: `"  hi  ".trim()` returns `"hi"`.
+- Elimină spațiile albe de la ambele capete ale stringului.
+- Exemplu: `"  hi  ".trim()` returnează `"hi"`.
 
 ## Number type
 
-Functions you can use with numeric values such as `42`, `3.14`.
+Funcții pe care le poți folosi cu valori numerice, precum `42`, `3.14`.
 
 ### `abs()`
 
 `number.abs(): number`
 
-- Returns the absolute value of the number.
-- Example: `(-5).abs()` returns `5`.
+- Returnează valoarea absolută a numărului.
+- Exemplu: `(-5).abs()` returnează `5`.
 
 ### `ceil()`
 
 `number.ceil(): number`
 
-- Rounds the number up to the nearest integer.
-- Example: `(2.1).ceil()` returns `3`.
+- Rotunjește numărul la cel mai apropiat număr întreg superior.
+- Exemplu: `(2.1).ceil()` returnează `3`.
 
 ### `floor()`
 
 `number.floor(): number`
 
-- Rounds the number down to the nearest integer.
-- Example: `(2.9).floor()` returns `2`.
+- Rotunjește numărul la cel mai apropiat număr întreg inferior.
+- Exemplu: `(2.9).floor()` returnează `2`.
 
 ### `isEmpty()`
 
 `number.isEmpty(): boolean`
 
-- Returns true if the number is not present.
-- Example: `5.isEmpty()` returns `false`.
+- Returnează true dacă numărul nu este prezent.
+- Exemplu: `5.isEmpty()` returnează `false`.
 
 ### `round()`
 
 `number.round(digits: number): number`
 
-- Rounds the number to the nearest integer.
-- Optionally, provide a `digits` parameter to round to that number of decimal places.
-- Example: `(2.5).round()` returns `3`, and `(2.3333).round(2)` returns `2.33`.
+- Rotunjește numărul la cel mai apropiat număr întreg.
+- Opțional, furnizează un parametru `digits` pentru a rotunji la acel număr de zecimale.
+- Exemplu: `(2.5).round()` returnează `3`, iar `(2.3333).round(2)` returnează `2.33`.
 
 ### `toFixed()`
 
 `number.toFixed(precision: number): string`
 
-- `precision` is the number of decimal places.
-- Returns a string with the number in fixed-point notation.
-- Example: `(3.14159).toFixed(2)` returns `"3.14"`.
+- `precision` este numărul de zecimale.
+- Returnează un string cu numărul în notație cu punct fix.
+- Exemplu: `(3.14159).toFixed(2)` returnează `"3.14"`.
 
 ## List type
 
-Functions you can use with an ordered list of elements such as `[1, 2, 3]`.
+Funcții pe care le poți folosi cu o listă ordonată de elemente, precum `[1, 2, 3]`.
 
-### Fields
+### Câmpuri
 
-| Field         | Type     | Description                        |
-| ------------- | -------- | ---------------------------------- |
-| `list.length` | `number` | The number of elements in the list |
+| Câmp         | Tip     | Descriere                        |
+| ------------- | -------- | ----------------------------------- |
+| `list.length` | `number` | Numărul de elemente din listă |
 
 ### `contains()`
 
 `list.contains(value: any): boolean`
 
-- `value` is the element to search for.
-- Returns true if the list contains `value`.
-- Example: `[1,2,3].contains(2)` returns `true`.
+- `value` este elementul căutat.
+- Returnează true dacă lista conține `value`.
+- Exemplu: `[1,2,3].contains(2)` returnează `true`.
 
 ### `containsAll()`
 
 `list.containsAll(...values: any): boolean`
 
-- `values` are one or more elements to search for.
-- Returns true if the list contains all of the `values`.
-- Example: `[1,2,3].containsAll(2,3)` returns `true`.
+- `values` sunt unul sau mai multe elemente căutate.
+- Returnează true dacă lista conține toate valorile `values`.
+- Exemplu: `[1,2,3].containsAll(2,3)` returnează `true`.
 
 ### `containsAny()`
 
 `list.containsAny(...values: any): boolean`
 
-- `values` are one or more elements to search for.
-- Returns true if the list contains at least one of the `values`.
-- Example: `[1,2,3].containsAny(3,4)` returns `true`.
+- `values` sunt unul sau mai multe elemente căutate.
+- Returnează true dacă lista conține cel puțin una dintre valorile `values`.
+- Exemplu: `[1,2,3].containsAny(3,4)` returnează `true`.
 
 ### `filter()`
 
 `list.filter(value: Boolean): list`
 
-- Filters the list and keeps only elements where the expression is true.
-- `value` is the value of an item in the list.
-- `index` is the index of the current value.
-- Example: `[1,2,3,4].filter(value > 2)` returns `[3,4]`.
+- Filtrează lista și păstrează doar elementele pentru care expresia este adevărată.
+- `value` este valoarea unui element din listă.
+- `index` este indexul valorii curente.
+- Exemplu: `[1,2,3,4].filter(value > 2)` returnează `[3,4]`.
 
 ### `flat()`
 
 `list.flat(): list`
 
-- Flattens a nested list into a single list.
-- Example: `[1,[2,3]].flat()` returns `[1,2,3]`.
+- Aplatizează o listă imbricată într-o singură listă.
+- Exemplu: `[1,[2,3]].flat()` returnează `[1,2,3]`.
 
 ### `isEmpty()`
 
 `list.isEmpty(): boolean`
 
-- Returns true if the list has no elements.
-- Example: `[1,2,3].isEmpty()` returns `false`.
+- Returnează true dacă lista nu are elemente.
+- Exemplu: `[1,2,3].isEmpty()` returnează `false`.
 
 ### `join()`
 
 `list.join(separator: string): string`
 
-- `separator` is the string to insert between elements.
-- Joins all list elements into a single string.
-- Example: `[1,2,3].join(",")` returns `"1,2,3"`.
+- `separator` este stringul de inserat între elemente.
+- Combină toate elementele listei într-un singur string.
+- Exemplu: `[1,2,3].join(",")` returnează `"1,2,3"`.
 
 ### `map()`
 
 `list.map(value: Any): list`
 
-- Transforms each element of the list using an expression.
-- `value` is the value of an item in the list.
-- `index` is the index of the current value.
-- Example: `[1,2,3,4].map(value + 1)` returns `[2,3,4,5]`.
+- Transformă fiecare element al listei folosind o expresie.
+- `value` este valoarea unui element din listă.
+- `index` este indexul valorii curente.
+- Exemplu: `[1,2,3,4].map(value + 1)` returnează `[2,3,4,5]`.
 
 ### `reduce()`
 
 `list.reduce(expression: Any, acc: Any): Any`
 
-- Reduces the list to a single value by running an expression for each element. The expression must return the next value of `acc`. Use `value` for the current element, `index` for its position, and `acc` for the accumulated result so far.
-- `expression` is evaluated for every element in the list.
-- `value` is the value of the current item in the list.
-- `index` is the index of the current item.
-- `acc` is the accumulated value so far.
-- Example (sum): `[1,2,3].reduce(acc + value, 0)` returns `6`.
-- Example (max): `values.filter(value.isType("number")).reduce(if(acc == null || value > acc, value, acc), null)` returns the largest number, or `null` if none.
+- Reduce lista la o singură valoare, rulând o expresie pentru fiecare element. Expresia trebuie să returneze următoarea valoare a lui `acc`. Folosește `value` pentru elementul curent, `index` pentru poziția lui și `acc` pentru rezultatul acumulat până în acel moment.
+- `expression` este evaluată pentru fiecare element din listă.
+- `value` este valoarea elementului curent din listă.
+- `index` este indexul elementului curent.
+- `acc` este valoarea acumulată până în acel moment.
+- Exemplu (sumă): `[1,2,3].reduce(acc + value, 0)` returnează `6`.
+- Exemplu (maxim): `values.filter(value.isType("number")).reduce(if(acc == null || value > acc, value, acc), null)` returnează cel mai mare număr, sau `null` dacă nu există niciunul.
 
 ### `reverse()`
 
 `list.reverse(): list`
 
-- Reverses the list in place.
-- Example: `[1,2,3].reverse()` returns `[3,2,1]`.
+- Inversează lista în același loc.
+- Exemplu: `[1,2,3].reverse()` returnează `[3,2,1]`.
 
 ### `slice()`
 
 `list.slice(start: number, end?: number): list`
 
-- `start` is the inclusive start index.
-- `end` is the optional exclusive end index.
-- Returns a shallow copy of a portion of the list from `start` (inclusive) to `end` (exclusive).
-- Example: `[1,2,3,4].slice(1,3)` returns `[2,3]`.
-- If `end` is omitted, slices to the end of the list.
+- `start` este indexul de început, inclusiv.
+- `end` este indexul opțional de sfârșit, exclusiv.
+- Returnează o copie superficială a unei porțiuni din listă, de la `start` (inclusiv) până la `end` (exclusiv).
+- Exemplu: `[1,2,3,4].slice(1,3)` returnează `[2,3]`.
+- Dacă `end` este omis, se extrage până la sfârșitul listei.
 
 ### `sort()`
 
 `list.sort(): list`
 
-- Sorts list elements from smallest to largest.
-- Example: `[3, 1, 2].sort()` returns `[1, 2, 3]`.
-- Example: `["c", "a", "b"].sort()` returns `["a", "b", "c"]`.
+- Sortează elementele listei de la cel mai mic la cel mai mare.
+- Exemplu: `[3, 1, 2].sort()` returnează `[1, 2, 3]`.
+- Exemplu: `["c", "a", "b"].sort()` returnează `["a", "b", "c"]`.
 
 ### `unique()`
 
 `list.unique(): list`
 
-- Removes duplicate elements.
-- Example: `[1,2,2,3].unique()` returns `[1,2,3]`.
+- Elimină elementele duplicate.
+- Exemplu: `[1,2,2,3].unique()` returnează `[1,2,3]`.
 
 ## Link type
 
-Functions you can use on a link. Links can be created from a file (`file.asLink()`) or a path (`link("path")`).
+Funcții pe care le poți folosi pe o legătură. Legăturile pot fi create dintr-un fișier (`file.asLink()`) sau dintr-o cale (`link("path")`).
 
 ### `asFile()`
 
 `link.asFile(): file`
 
-- Returns a file object if the link refers to a valid local file.
-- Example: `link("[[filename]]").asFile()`.
+- Returnează un obiect de tip fișier dacă legătura face referire la un fișier local valid.
+- Exemplu: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Returns `true` if the file represented by `link` has a link to `file`.
+- Returnează `true` dacă fișierul reprezentat de `link` are o legătură către `file`.
 
 ## File type
 
-Functions you can use with a file in the vault.
+Funcții pe care le poți folosi cu un fișier din seif.
 
-### Fields
+### Câmpuri
 
-The following fields are available for files:
+Următoarele câmpuri sunt disponibile pentru fișiere:
 
-| Field             | Type     | Description                                             |
-| ----------------- | -------- | ------------------------------------------------------- |
-| `file.name`       | `string` | The name of this file.                                  |
-| `file.basename`   | `string` | The name of this file without the file extension.       |
-| `file.path`       | `string` | The full path to this file, relative to the vault root. |
-| `file.folder`     | `string` | The full path to the parent folder.                     |
-| `file.ext`        | `string` | The file extension for this file.                       |
-| `file.size`       | `number` | The size of this file, in bytes.                        |
-| `file.properties` | `object` | The note properties for this file.                      |
-| `file.tags`       | `list`   | The tags for this file. Includes inline tags.           |
-| `file.links`      | `list`   | The internal links within this file.                    |
-| `file.ctime`      | `date`   | Timestamp of when this file was created.                |
-| `file.mtime`      | `date`   | Timestamp of when this file was last modified.          |
+| Câmp             | Tip     | Descriere                                             |
+| ----------------- | -------- | --------------------------------------------------------- |
+| `file.name`       | `string` | Numele acestui fișier.                                  |
+| `file.basename`   | `string` | Numele acestui fișier fără extensie.       |
+| `file.path`       | `string` | Calea completă către acest fișier, relativă la rădăcina seifului. |
+| `file.folder`     | `string` | Calea completă către directorul părinte.                     |
+| `file.ext`        | `string` | Extensia acestui fișier.                       |
+| `file.size`       | `number` | Dimensiunea acestui fișier, în octeți.                        |
+| `file.properties` | `object` | Proprietățile notei pentru acest fișier.                      |
+| `file.tags`       | `list`   | Etichetele acestui fișier. Include etichetele din text.           |
+| `file.links`      | `list`   | Legăturile interne din acest fișier.                    |
+| `file.ctime`      | `date`   | Marcajul de timp al creării acestui fișier.                |
+| `file.mtime`      | `date`   | Marcajul de timp al ultimei modificări a acestui fișier.          |
 
 ### `asLink()`
 
 `file.asLink(display?: string): Link`
 
-- `display` is optional display text for the link.
-- Returns a Link object that renders as a functioning link.
-- Example: `file.asLink()`
+- `display` este textul de afișare opțional pentru legătură.
+- Returnează un obiect Link care se afișează ca o legătură funcțională.
+- Exemplu: `file.asLink()`
 
 ### `hasLink()`
 
 `file.hasLink(otherFile: file | string): boolean`
 
-- `otherFile` is another file object or string path to check.
-- Returns true if `file` links to `otherFile`.
-- Example: `file.hasLink(otherFile)` returns `true` if there’s a link from `file` to `otherFile`.
+- `otherFile` este un alt obiect de tip fișier sau cale de tip string de verificat.
+- Returnează true dacă `file` face legătura către `otherFile`.
+- Exemplu: `file.hasLink(otherFile)` returnează `true` dacă există o legătură de la `file` la `otherFile`.
 
 ### `hasProperty()`
 
 `file.hasProperty(name: string): boolean`
 
-- Returns `true` if the file has the given property.
+- Returnează `true` dacă fișierul are proprietatea dată.
 
 ### `hasTag()`
 
 `file.hasTag(...values: string): boolean`
 
-- `values` are one or more tag names.
-- Returns true if the file has any of the tags in `values`.
-- Example: `file.hasTag("tag1", "tag2")` returns `true` if the file has tag `#tag1` or `#tag2`. It also includes any [[Tags#Nested tags|nested tags]], such as `#tag1/a` or `#tag2/b`.
+- `values` sunt unul sau mai multe nume de etichete.
+- Returnează true dacă fișierul are oricare dintre etichetele din `values`.
+- Exemplu: `file.hasTag("tag1", "tag2")` returnează `true` dacă fișierul are eticheta `#tag1` sau `#tag2`. Include și orice [[Tags#Nested tags|etichete imbricate]], precum `#tag1/a` sau `#tag2/b`.
 
 ### `inFolder()`
 
 `file.inFolder(folder: string): boolean`
 
-- `folder` is the folder name to check.
-- Returns true if the file is in the specified folder or one of its sub-folders.
-- Example: `file.inFolder("notes")` returns `true`.
+- `folder` este numele directorului de verificat.
+- Returnează true dacă fișierul se află în directorul specificat sau într-unul dintre subdirectoarele sale.
+- Exemplu: `file.inFolder("notes")` returnează `true`.
 
 ## Object type
 
-Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
+Funcții pe care le poți folosi cu o colecție de perechi cheie-valoare, precum `{"a": 1, "b": 2}`.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
-- Returns true if the object has no own properties.
-- Example: `{}.isEmpty()` returns `true`.
+- Returnează true dacă obiectul nu are proprietăți proprii.
+- Exemplu: `{}.isEmpty()` returnează `true`.
 
 ### `keys()`
 
 `object.keys(): list`
 
-- Returns a list containing the keys of the object.
+- Returnează o listă care conține cheile obiectului.
 
 ### `values()`
 
 `object.values(): list`
 
-- Returns a list containing the values of the object.
+- Returnează o listă care conține valorile obiectului.
 
 ## Regular expression type
 
-Functions you can use with a regular expression pattern. Example: `/abc/`.
+Funcții pe care le poți folosi cu un tipar de expresie regulată. Exemplu: `/abc/`.
 
 ### `matches()`
 
 `regexp.matches(value: string): boolean`
 
-- `value` is the string to test.
-- Returns true if the regular expression matches `value`.
-- Example: `/abc/.matches("abcde")` returns `true`.
+- `value` este stringul de testat.
+- Returnează true dacă expresia regulată se potrivește cu `value`.
+- Exemplu: `/abc/.matches("abcde")` returnează `true`.

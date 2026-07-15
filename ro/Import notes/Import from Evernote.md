@@ -1,58 +1,57 @@
 ---
-localized: null
 permalink: import/evernote
 ---
-Obsidian lets you easily migrate your notes from Evernote using the [[Importer|Importer plugin]]. This will convert your Evernote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi cu ușurință notele din Evernote folosind [[Importer|modulul Importer]]. Acest lucru îți va converti datele din Evernote în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
-## Export your data from Evernote
+## Exportă-ți datele din Evernote
 
-Obsidian uses Evernote's export format `.enex` files.
+Obsidian folosește formatul de export al Evernote, fișiere `.enex`.
 
-You can find Evernote's instructions for exporting your data [on Evernote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method lets you export entire notebooks in the desktop client.
+Poți găsi instrucțiunile Evernote pentru exportul datelor tale [pe site-ul Evernote](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). Această metodă îți permite să exporți notebook-uri întregi din clientul desktop.
 
-1. Go to the Notebooks screen.
-2. Click on **More actions** ( `•••` ) and choose **Export Notebook...**
-3. Select **ENEX** as the file format.
-3. Choose a location for your exported `.enex` file.
+1. Mergi la ecranul Notebooks.
+2. Apasă pe **More actions** ( `•••` ) și alege **Export Notebook...**
+3. Selectează **ENEX** ca format de fișier.
+3. Alege o locație pentru fișierul `.enex` exportat.
 
-## Import your Evernote data into Obsidian
+## Importă-ți datele din Evernote în Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Evernote (.enex)**.
-6. Select the location of your Evernote backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** alege **Evernote (.enex)**.
+6. Selectează locația fișierului tău de rezervă Evernote.
+7. Apasă **Importă** și așteaptă până când importul este finalizat.
+8. Ai terminat!
 
-## Advanced import options
+## Opțiuni avansate de import
 
-### Maintain tag hierarchy
+### Menține ierarhia etichetelor
 
-Evernote export does not keep the tag hierarchy. To keep your tag hierarchy, you can "flatten" tags separated by "/". For example, assuming that you have the following tag structure: 
+Exportul din Evernote nu păstrează ierarhia etichetelor. Pentru a păstra ierarhia etichetelor tale, poți „aplatiza” etichetele separate prin „/”. De exemplu, presupunând că ai următoarea structură de etichete: 
 
 ```
 ParentTag
     ChildTag
 ```
 
-What you need to do to keep tags related in Obsidian is:
+Ce trebuie să faci pentru a păstra etichetele asociate în Obsidian este:
 
-1. Right-click on the ChildTag.
-2. Select "Rename."
-3. Rename it as `ParentTag/ChildTag`.
+1. Apasă clic dreapta pe ChildTag.
+2. Selectează „Rename.”
+3. Redenumește-o `ParentTag/ChildTag`.
 
-### Handling notebook stacks
+### Gestionarea stivelor de notebook-uri
 
-Since the export process is limited to single notebooks, the default export file lacks information about notebook stacks. However, the importer can recognize patterns in the enex file name to recreate notebook stacks as folders.
+Deoarece procesul de export este limitat la notebook-uri individuale, fișierul de export implicit nu conține informații despre stivele de notebook-uri. Totuși, modulul de import poate recunoaște tipare în numele fișierului enex pentru a recrea stivele de notebook-uri sub formă de directoare.
 
-Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, you can recreate a notebook stack by renaming the enex file to ```Stack1@@@NotebookA```.
+Presupunând că ai un notebook numit ```NotebookA``` într-o stivă numită ```Stack1```, poți recrea o stivă de notebook-uri redenumind fișierul enex în ```Stack1@@@NotebookA```.
 
-This results in the converted notes being generated within the Stack1/NotebookA folder.
+Rezultatul este că notele convertite vor fi generate în directorul Stack1/NotebookA.
 
-### More options
+### Mai multe opțiuni
 
-For more advanced import options from Evernote you can also try [importing via Yarle](https://github.com/akosbalasko/yarle).
+Pentru opțiuni de import mai avansate din Evernote, poți încerca și [importul prin Yarle](https://github.com/akosbalasko/yarle).

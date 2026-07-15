@@ -1,43 +1,42 @@
 ---
-localized: null
 permalink: web-clipper/highlight
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] lets you highlight text on web pages, and select the elements you want to save to Obsidian. Highlights are saved so you can see them when you return to a page.
+[[Introduction to Obsidian Web Clipper|Web Clipper]] îți permite să evidențiezi text pe paginile web și să selectezi elementele pe care vrei să le salvezi în Obsidian. Evidențierile sunt salvate astfel încât să le poți vedea când revii la o pagină.
 
-Highlights can be saved to Obsidian using the extension. You can define highlighter options in the extension settings.
+Evidențierile pot fi salvate în Obsidian folosind extensia. Poți defini opțiunile pentru evidențiere în setările extensiei.
 
 <div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/f2674kdaot?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
-## Use the highlighter
+## Folosește evidențierea
 
-Highlighter can be used on live web pages pages or [[Reader]]. In the Reader view, creating a text selection gives you the option to highlight it.
+Evidențierea poate fi folosită pe pagini web live sau în [[Reader]]. În vizualizarea Reader, crearea unei selecții de text îți oferă opțiunea de a o evidenția.
 
-You can also automatically add selections to your highlights, by activating the highlighter:
+Poți de asemenea adăuga automat selecțiile la evidențierile tale, activând evidențierea:
 
-- ![[lucide-highlighter.svg#icon]] **Highlighter icon** in the extension panel or Reader toolbar.
-- **Keyboard shortcut** customizable in the extension settings.
-- **Context menu** by right-clicking the web page you are visiting.
+- ![[lucide-highlighter.svg#icon]] **Pictograma de evidențiere** din panoul extensiei sau bara de instrumente Reader.
+- **Scurtătură de tastatură**, personalizabilă în setările extensiei.
+- **Meniul contextual**, prin clic dreapta pe pagina web pe care o vizitezi.
 
-Once Highlighter turned is on, any selected text, images, and elements will be added to your highlights. All the methods above also allow you to exit the highlighter.
+După ce evidențierea este activată, orice text, imagine sau element selectat va fi adăugat la evidențierile tale. Toate metodele de mai sus îți permit de asemenea să ieși din modul de evidențiere.
 
-## Add highlights to notes
+## Adaugă evidențieri în note
 
-There are three options for how highlights can be inserted into your clipped notes:
+Există trei opțiuni pentru modul în care evidențierile pot fi introduse în notele tale salvate:
 
-- **Highlight the page content** — adds highlights directly to the text with the [[Obsidian Flavored Markdown|syntax]] `==highlight==`.
-- **Replace the page content** — returns a list of highlights, without any of the page content.
-- **Do nothing** — returns the original content without highlights.
+- **Evidențiază conținutul paginii** — adaugă evidențierile direct în text folosind [[Obsidian Flavored Markdown|sintaxa]] `==evidențiere==`.
+- **Înlocuiește conținutul paginii** — returnează o listă de evidențieri, fără niciun conținut al paginii.
+- **Nu face nimic** — returnează conținutul original fără evidențieri.
  
-These options change the `{{content}}` [[Variables|variable]] in your template. You can also add highlights directly to your template using the `{{highlights}}` variable, for example:
+Aceste opțiuni schimbă [[Variables|variabila]] `{{content}}` din șablonul tău. Poți de asemenea adăuga evidențieri direct în șablonul tău folosind variabila `{{highlights}}`, de exemplu:
 
 ```
 {{highlights|map: item => item.text|join:"\n\n"}}
 ```
 
-## View and search highlights
+## Vizualizează și caută evidențieri
 
-All the highlights you create can be viewed in your Highlights page. You can open this page by going to **Settings** → **Highlighter**.
+Toate evidențierile create de tine pot fi vizualizate în pagina ta de evidențieri. Poți deschide această pagină accesând **Setări** → **Evidențiere**.
 
-## Export highlights
+## Exportă evidențieri
 
-Highlights can be exported to a `.json` file, either in the Settings page or in the Highlights page.
+Evidențierile pot fi exportate într-un fișier `.json`, fie din pagina de setări, fie din pagina de evidențieri.

@@ -1,25 +1,24 @@
 ---
-localized: null
 permalink: plugins/outgoing-links
 publish: true
 mobile: false
-description: 'Outgoing links is a core plugin that shows links from the active note at a glance, as well as potential links to be made.'
+description: 'Outgoing links este un modul integrat care arată dintr-o privire legăturile din nota activă, precum și posibilele legături care ar putea fi create.'
 ---
-Outgoing links is a [[Core plugins|core plugin]] that shows links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
+Outgoing links este un [[Core plugins|modul integrat]] care arată dintr-o privire legăturile din nota activă, precum și posibilele legături care ar putea fi create. Este similar cu modulul [[Backlinks|Referințe]], care în schimb îți arată legăturile _de intrare_ către nota activă.
 
-The Outgoing links tab ![[obsidian-icon-links-going-out.svg#icon]] is available in the right sidebar and contains the following sections:
+Fila Legături de ieșire ![[obsidian-icon-links-going-out.svg#icon]] este disponibilă în bara laterală dreaptă și conține următoarele secțiuni:
 
-- **Links** lists all links in the active note. Click a link to open the linked note.
-- **Unlinked mentions** lists any text in the active note that matches the name or [[Aliases|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
+- **Legături** listează toate legăturile din nota activă. Dă clic pe o legătură pentru a deschide nota conectată.
+- **Mențiuni fără legături** listează orice text din nota activă care se potrivește cu numele sau [[Aliases|pseudonimul]] unei alte note din seiful tău. Mențiunile fără legături te ajută să descoperi legături de care nu erai încă conștient.
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Unlinked mentions.
+> [!info] Fișiere excluse
+> Fișierele care corespund tiparelor tale de [[Settings#Excluded files|Fișiere excluse]] nu vor apărea în Mențiuni fără legături.
 
-To create a link from an unlinked mention, click the button with the note's name.
+Pentru a crea o legătură dintr-o mențiune fără legături, dă clic pe butonul cu numele notei.
 
-> [!tip] Tip
-> Unlinked mentions can refer to different notes with the same name. To show the full path of the note, hover over the button with the note's name.
+> [!tip] Sfat
+> Mențiunile fără legături se pot referi la note diferite cu același nume. Pentru a vedea calea completă a notei, plasează cursorul deasupra butonului cu numele notei.
 
-> [!note] Code blocks
-> While you can create a link from an unlinked mention inside a code block, due to the nature of code blocks, links don't show up under the Links section.
+> [!note] Blocuri de cod
+> Deși poți crea o legătură dintr-o mențiune fără legături aflată într-un bloc de cod, din cauza naturii blocurilor de cod, legăturile nu apar în secțiunea Legături.
 

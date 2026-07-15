@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: publish/analytics
 ---
-## Prerequisites
+## Cerințe prealabile
 
-To use analytics on your [[Introduction to Obsidian Publish|Obsidian Publish]] site, you need a [[Custom domains|custom domain]].
+Pentru a folosi analitice pe site-ul tău [[Introduction to Obsidian Publish|Obsidian Publish]], ai nevoie de un [[Custom domains|domeniu personalizat]].
 
 > [!important] Important
-> Before you enable analytics, make sure that your local laws and regulations allow you to track your visitors. Depending the tools you use, you may need to add a consent banner to your site.
+> Înainte de a activa analiticele, asigură-te că legile și reglementările locale îți permit să urmărești vizitatorii. În funcție de instrumentele folosite, s-ar putea să fie nevoie să adaugi un banner de consimțământ pe site-ul tău.
 
 ## Google Analytics
 
-To enable Google Analytics for your Obsidian Publish site:
+Pentru a activa Google Analytics pentru site-ul tău Obsidian Publish:
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. In **Google Analytics tracking code**, enter your tracking code.
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. În fereastra de dialog **Publică schimbările**, apasă pe **Schimbă opțiunile siteului** ![[lucide-cog.svg#icon]].
+3. La **Cod de tracking Google Analytics**, introdu codul tău de tracking.
 
-To use Google Tag Manager instead of Google Analytics, use custom JavaScript to add your own scripts.
+Pentru a folosi Google Tag Manager în locul Google Analytics, folosește JavaScript personalizat pentru a-ți adăuga propriile scripturi.
 
-## Plausible, Fathom, and other analytics services
+## Plausible, Fathom și alte servicii de analitice
 
-You can add most analytics services to your site via your [[Customize your site|publish.js]] file. Make sure to replace `yourdomain.com` with your domain, and the script `src` with the script from your analytics provide.
+Poți adăuga majoritatea serviciilor de analitice pe site-ul tău prin fișierul [[Customize your site|publish.js]]. Asigură-te că înlocuiești `yourdomain.com` cu domeniul tău, iar `src`-ul scriptului cu scriptul primit de la furnizorul tău de analitice.
 
-Here is an example using [Plausible Analytics](https://plausible.io/)
+Iată un exemplu folosind [Plausible Analytics](https://plausible.io/)
 
 ```js
 var analyticsScript = document.createElement('script');
@@ -33,7 +32,7 @@ analyticsScript.src = 'https://plausible.io/js/plausible.js';
 document.head.appendChild(analyticsScript);
 ```
 
- The same approach can be used for [Fathom Analytics](https://usefathom.com/). Note the change from `data-domain` to `data-site` — different analytics providers may have a different format for how the script should be inserted.
+ Aceeași abordare poate fi folosită pentru [Fathom Analytics](https://usefathom.com/). Observă schimbarea de la `data-domain` la `data-site` — furnizori diferiți de analitice pot avea un format diferit pentru modul în care scriptul trebuie inserat.
 
 ```javascript
 var fathom = analyticsScript.createElement('script');
@@ -43,6 +42,6 @@ analyticsScript.src = 'https://cdn.usefathom.com/script.js';
 document.head.appendChild(analyticsScript);
 ```
 
-## Troubleshooting
+## Depanare
 
-To verify that your site is using your analytics service, disable any ad-blocking browser extensions, such as uBlock Origin, that may block the tracking script from running.
+Pentru a verifica dacă site-ul tău folosește serviciul tău de analitice, dezactivează orice extensie de blocare a reclamelor din browser, cum ar fi uBlock Origin, care ar putea împiedica rularea scriptului de urmărire.

@@ -1,52 +1,51 @@
 ---
-localized: null
 permalink: plugins/format-converter
 publish: true
 mobile: true
-description: Format converter is a core plugin that lets you convert Markdown from other applications to Obsidian format.
+description: Format converter este un modul integrat care îți permite să convertești Markdown din alte aplicații în formatul Obsidian.
 ---
 
-Format converter is a [[Core plugins|core plugin]] that lets you convert Markdown from other applications to Obsidian format. It also lets you convert certain [[Properties]] to new required formats. 
+Format converter este un [[Core plugins|modul integrat]] care îți permite să convertești Markdown din alte aplicații în formatul Obsidian. De asemenea, îți permite să convertești anumite [[Properties|Proprietăți]] la noile formate necesare. 
 
-> [!warning] Warning
-> Format converter converts your entire vault based on your settings. [[Back up your Obsidian files]] before you perform the conversion.
+> [!warning] Avertisment
+> Format converter îți convertește întregul seif pe baza setărilor tale. Fă o [[Back up your Obsidian files|copie de siguranță]] înainte de a efectua conversia.
 
-To convert all notes in your vault:
+Pentru a converti toate notele din seiful tău:
 
-1. In [[Command palette]], select **Open format converter**. This can also be found in the [[Ribbon]] with the  **Open format converter** ![[lucide-binary.svg#icon]] icon.
-2. Enable the formats you want to convert.
-3. Click **Start conversion**.
+1. În [[Command palette|Paleta de comenzi]], selectează **Open format converter**. Acesta poate fi găsit și în [[Ribbon|Panglică]], cu pictograma **Open format converter** ![[lucide-binary.svg#icon]].
+2. Activează formatele pe care vrei să le convertești.
+3. Dă clic pe **Start conversion**.
 
-For more information, refer to [[Basic formatting syntax]].
+Pentru mai multe informații, consultă [[Basic formatting syntax]].
 
-## Supported formats
+## Formate acceptate
 
 ### Roam Research
 
-The Format converter can convert the following Roam Research syntax:
+Format converter poate converti următoarea sintaxă Roam Research:
 
-- **Tags**: Converts `#tag` and `#[[tag]]` to `[[tag]]`
-- **Highlights**: Converts `^^highlight^^` to `==highlight==`
-- **TODO items**: Converts `{{[[TODO]]}}` to `[ ]`
+- **Etichete**: Convertește `#tag` și `#[[tag]]` în `[[tag]]`
+- **Evidențieri**: Convertește `^^highlight^^` în `==highlight==`
+- **Elemente TODO**: Convertește `{{[[TODO]]}}` în `[ ]`
 
 ### Bear
 
-The Format converter can convert the following Bear syntax:
+Format converter poate converti următoarea sintaxă Bear:
 
-- **Highlights**: Converts `::highlight::` to `==highlight==`
+- **Evidențieri**: Convertește `::highlight::` în `==highlight==`
 
 ### Zettelkasten
 
-The Format converter can convert the following Zettelkasten syntax:
+Format converter poate converti următoarea sintaxă Zettelkasten:
 
-- **Full links**: Converts `[[UID]]` to `[[UID File Name]]`
-- **Pretty links**: Converts `[[UID]]` to `[[UID File Name|File Name]]`
+- **Legături complete**: Convertește `[[UID]]` în `[[UID File Name]]`
+- **Legături simplificate**: Convertește `[[UID]]` în `[[UID File Name|File Name]]`
 
-### [[Properties]]
+### [[Properties|Proprietăți]]
 
-As of Obsidian `1.9.3`, the Format converter can convert [[Properties#Deprecated properties|deprecated property]] formats to the current format:
+Începând cu Obsidian `1.9.3`, Format converter poate converti formatele de [[Properties#Deprecated properties|proprietăți depreciate]] la formatul curent:
 
-**Aliases**
+**Pseudonime (Aliases)**
 
 ```yaml
 # Before
@@ -59,7 +58,7 @@ aliases:
   - My Note Title
 ```
 
-**Tags**
+**Etichete**
 
 ```yaml
 # Before
@@ -73,7 +72,7 @@ tags:
   - important
 ```
 
-**CSS Classes**
+**Clase CSS**
 
 ```yaml
 # Before

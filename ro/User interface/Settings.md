@@ -1,389 +1,388 @@
 ---
-localized: null
 permalink: settings
 publish: true
 mobile: true
-description: Learn how to customize Obsidian through the Settings interface.
+description: Aflați cum să personalizați Obsidian prin interfața de Setări.
 ---
 
-Settings allow you to customize your Obsidian experience. Configure general options, editor preferences, appearance, keyboard shortcuts, and manage both core and community plugins.
+Setările vă permit să personalizați experiența dvs. Obsidian. Configurați opțiuni generale, preferințele editorului, personalizarea, combinațiile de taste și gestionați atât modulele de bază, cât și cele comunitare.
 
-## Open Settings
+## Deschiderea Setărilor
 
 ### Desktop
 
-In the [[Sidebar#Open hidden sidebars|left sidebar]], select **[[Settings]]** ![[lucide-cog.svg#icon]]. You can also open Settings with the [[Command palette]].
+În [[Sidebar#Deschiderea barelor laterale ascunse|bara laterală stângă]], selectați **[[Settings]]** ![[lucide-cog.svg#icon]]. De asemenea, puteți deschide Setările folosind [[Command palette]].
 
-### Mobile
+### Mobil
 
-In the left sidebar, select **[[Settings]]** ![[lucide-cog.svg#icon]].
+În bara laterală stângă, selectați **[[Settings]]** ![[lucide-cog.svg#icon]].
 
-## Settings organization
+## Organizarea setărilor
 
-Settings are organized into the following categories:
+Setările sunt organizate în următoarele categorii:
 
-- **Options** — Core application settings including [[#General]], [[#Editor]], [[#Files and links]], [[#Appearance]], and [[#Hotkeys]].
-- **[[Core plugins]]** — Built-in plugins that come with Obsidian.
-- **[[Community plugins]]** — Third-party plugins installed from the community.
+- **Opțiuni** — Setările de bază ale aplicației, incluzând [[#General]], [[#Editor]], [[#Files and links]], [[#Appearance]] și [[#Hotkeys]].
+- **[[Core plugins]]** — Module încorporate, incluse implicit în Obsidian.
+- **[[Community plugins]]** — Module terțe instalate din comunitate.
 
 ## General
 
-The General page contains version information, update settings, language preferences, and account management.
+Pagina General conține informații despre versiune, setări de actualizare, preferințe de limbă și gestionarea contului.
 
-### Version and updates
+### Versiune și actualizări
 
-View your current Obsidian version and installer version at the top of the page. Select **Check for updates** to manually check for new versions, or select **[Read the changelog](<https://obsidian.md/changelog/>)** to view release notes.
+Vizualizați versiunea curentă a Obsidian și versiunea programului de instalare în partea de sus a paginii. Selectați **Verificați actualizările** pentru a căuta manual versiuni noi, sau selectați **[Citiți jurnalul de modificări](<https://obsidian.md/changelog/>)** pentru a vedea notele de lansare.
 
-**Automatic updates**
+**Actualizări automate**
 
-When enabled, Obsidian automatically checks for new versions and notifies you when updates are available.
+Atunci când este activată, Obsidian verifică automat versiunile noi și vă notifică atunci când sunt disponibile actualizări.
 
-**Receive early access versions**
+**Primiți versiuni cu acces timpuriu**
 
-Auto-update to the latest [[Early access versions]]. These versions include new features but may be less stable.
+Actualizare automată la cele mai recente [[Early access versions]]. Aceste versiuni includ funcționalități noi, dar pot fi mai puțin stabile.
 
-> [!info]+ Catalyst license required
-> This option is only available for users with a [[Catalyst license]].
+> [!info]+ Necesită licență Catalyst
+> Această opțiune este disponibilă doar pentru utilizatorii cu o [[Catalyst license]].
 
-### Language
+### Limbă
 
-Select your preferred language for the Obsidian interface. Select **[[Translations|Learn how to add a new language to Obsidian]]** to contribute a translation.
+Selectați limba preferată pentru interfața Obsidian. Selectați **[[Translations|Aflați cum să adăugați o limbă nouă în Obsidian]]** pentru a contribui cu o traducere.
 
-### Help
+### Ajutor
 
-Select **[[Home|Open]]** to access help resources, including documentation, community forums, and troubleshooting guides.
+Selectați **[[Home|Deschide]]** pentru a accesa resurse de ajutor, inclusiv documentație, forumuri ale comunității și ghiduri de depanare.
 
-### Account
+### Cont
 
-Manage your Obsidian account and licenses.
+Gestionați contul și licențele dvs. Obsidian.
 
-**Your account**
+**Contul dvs.**
 
-View your account information, including username and email. Select **[Manage](https://obsidian.md/account)** to access account settings, or select **Log out** to sign out on the app.
+Vizualizați informațiile contului dvs., inclusiv numele de utilizator și adresa de e-mail. Selectați **[Gestionați](https://obsidian.md/account)** pentru a accesa setările contului, sau selectați **Deconectare** pentru a vă delogare din aplicație.
 
-**Catalyst license**
+**Licență Catalyst**
 
-View your Catalyst license status. If you have an active [[Catalyst license]], your license tier appears here.
+Vizualizați starea licenței dvs. Catalyst. Dacă aveți o [[Catalyst license]] activă, nivelul licenței dvs. apare aici.
 
-**Commercial license**
+**Licență comercială**
 
-If you support [Obsidian for work](<https://obsidian.md/blog/free-for-work/>), select **Activate** to enter a commercial license key, or select **[Purchase](https://obsidian.md/account/commercial)** to buy a license. Select **[[Commercial license|Learn more]]** for information about Commercial licenses.
+Dacă susțineți [Obsidian pentru companii](<https://obsidian.md/blog/free-for-work/>), selectați **Activați** pentru a introduce o cheie de licență comercială, sau selectați **[Cumpărați](https://obsidian.md/account/commercial)** pentru a achiziționa o licență. Selectați **[[Commercial license|Aflați mai multe]]** pentru informații despre licențele comerciale.
 
-### Advanced
+### Avansat
 
-#### Notify if startup takes longer than expected
+#### Notifică dacă pornirea durează mai mult decât se așteaptă
 
-When enabled, Obsidian displays a notification if startup is unusually slow. The notification includes diagnostic information about what's causing the delay. Select the timer icon ![[lucide-timer.svg#icon]] next to this setting to [[Help and support#Check startup time|check your startup time]].
+Atunci când este activată, Obsidian afișează o notificare dacă pornirea este neobișnuit de lentă. Notificarea include informații de diagnosticare despre cauza întârzierii. Selectați pictograma de cronometru ![[lucide-timer.svg#icon]] de lângă această setare pentru a [[Help and support#Verificarea timpului de pornire|verifica timpul de pornire]].
 
 ## Editor
 
-The Editor page contains settings for how you view and edit notes.
+Pagina Editor conține setări pentru modul în care vizualizați și editați notele.
 
-### Always focus new tabs
+### Comutați întotdeauna la filele nou create
 
-When you open a link in a new tab, switch to it immediately.
+Atunci când deschideți o legătură într-o filă nouă, comutați imediat la aceasta.
 
-### Default view for new tabs
+### Alegeți modul implicit al filelor nou create
 
-The default view that a new Markdown file tab gets opened in. Choose between [[Views and editing mode#Reading view|Reading view]] or [[Views and editing mode#Editing view|Editing view]].
+Modul implicit în care se deschide o filă Markdown nou creată. Alegeți între [[Views and editing mode#Modul de citire|Modul de citire]] sau [[Views and editing mode#Modul de editare|Modul de editare]].
 
-### Default editing mode
+### Modul de editare implicit
 
-The default editing mode a new tab will start with. Choose between [[Views and editing mode#Live Preview|Live preview]] or [[Views and editing mode#Source mode|Source mode]].
+Modul de editare implicit cu care va porni o filă nouă. Alegeți între [[Views and editing mode#Modul de previzualizare în direct|Modul de previzualizare în direct]] sau [[Views and editing mode#Modul sursă|Modul sursă]].
 
-### Show editing mode in status bar
+### Afișați modul de editare în bara de stare
 
-Show the editing mode toggle in the [[Status bar|status bar]].
+Afișați comutatorul modului de editare în [[Status bar|bara de stare]].
 
-### Display
+### Afișaj
 
-#### Readable line length
+#### Lungimea lizibilă a liniei
 
-Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
+Limitați lungimea maximă a liniei. Mai puțin conținut încape pe ecran, dar blocurile lungi de text sunt mai lizibile.
 
-#### Strict line breaks
+#### Întreruperi de linie stricte
 
-Markdown specs ignore single [[Basic formatting syntax#Line breaks|Line breaks]] in reading view. Turn this off to make single line breaks visible.
+Specificațiile Markdown ignoră [[Basic formatting syntax#Întreruperi de linie|întreruperile de linie]] simple în modul de citire. Dezactivați această opțiune pentru a face vizibile întreruperile de linie simple.
 
-#### Properties in document
+#### Proprietăți în document
 
-Choose how [[Properties|properties]] are displayed at the top of notes. Select **source** to show properties as raw YAML.
+Alegeți modul în care sunt afișate [[Properties|proprietățile]] în partea de sus a notelor. Selectați **sursă** pentru a afișa proprietățile ca YAML brut.
 
-#### Fold heading
+#### Plierea titlurilor
 
-[[Folding|Fold]] all content under a heading by selecting the collapse icon next to it.
+[[Folding|Pliați]] tot conținutul aflat sub un titlu selectând pictograma de restrângere de lângă acesta.
 
-### Fold indent
+### Permiteți plierea indentărilor
 
-[[Folding|Fold]] part of an indentation, such as lists, by selecting the collapse icon.
+[[Folding|Pliați]] o parte a unei indentări, precum listele, selectând pictograma de restrângere.
 
-#### Show line numbers
+#### Afișați numerele liniilor
 
-Show line numbers in the gutter.
+Afișați numerele liniilor în marginea editorului.
 
-#### Show indentation guides
+#### Afișați ghidurile de indentare
 
-Show vertical relationship lines between list items.
+Afișați liniile de relație verticală dintre elementele listei.
 
-#### Right-to-left (RTL)
+#### De la dreapta la stânga (RTL)
 
-Sets the default text direction of notes to right-to-left.
+Setează direcția implicită a textului notelor de la dreapta la stânga.
 
-#### Auto-pair brackets
+#### Împerechere automată a parantezelor
 
-Pair brackets and quotes automatically.
+Împerechează automat parantezele și ghilimelele.
 
-#### Auto-pair Markdown syntax
+#### Împerechere automată a sintaxei Markdown
 
-Pair symbols automatically for bold, italic, code, and more.
+Împerechează automat simbolurile pentru text îngroșat, cursiv, cod și altele.
 
-#### Smart lists
+#### Liste inteligente
 
-Automatically set indentation and place list items correctly.
+Setează automat indentarea și plasează corect elementele listei.
 
-#### Indent using tabs
+#### Indentați folosind tab-uri
 
-Use tabs to indent by pressing the Tab key. Turn this off to indent using 4 spaces.
+Folosiți taste de tabulare pentru a indenta atunci când apăsați tasta Tab. Dezactivați pentru a indenta folosind 4 spații.
 
-#### Convert pasted HTML to Markdown
+#### Convertiți codul HTML lipit în Markdown
 
-Automatically convert HTML to Markdown when pasting and drag-and-drop from web pages. 
+Convertește automat codul HTML în Markdown atunci când este lipit sau tras și plasat de pe pagini web. 
 
-Use `Ctrl/Cmd+Shift+V` to paste HTML without converting.
+Folosiți `Ctrl/Cmd+Shift+V` pentru a lipi codul HTML fără a-l converti.
 
-### Behavior
+### Comportament
 
-#### Spellcheck
+#### Verificatorul ortografic
 
-Turn on the spellchecker. Select the gear icon to remove saved items from the custom dictionary.
+Activați verificatorul ortografic. Selectați pictograma roată dințată pentru a elimina elementele salvate din dicționarul personalizat.
 
-#### Spellcheck languages
+#### Limbile verificatorului ortografic
 
-**Windows and Linux:**
+**Windows și Linux:**
 
-Choose the languages for the spellchecker to use. Select the plus (+) icon to add languages. To remove a language, select the X next to it.
+Alegeți limbile pe care le va folosi verificatorul ortografic. Selectați pictograma plus (+) pentru a adăuga limbi. Pentru a elimina o limbă, selectați X-ul de lângă aceasta.
 
 **macOS:**
 
-The native spellchecker automatically detects the language used by the OS.
+Verificatorul ortografic nativ detectează automat limba folosită de sistemul de operare.
 
-#### Indent visual width
+#### Setați dimensiunea caracterului de tabulație
 
-Number of spaces a tab character will render as.
+Numărul de spații pe care îl va reprezenta un caracter de tabulație.
 
-### Advanced
+### Avansat
 
-#### Vim key bindings
+#### Activați modul Vim
 
-Use Vim key bindings when editing.
+Folosiți combinațiile de taste Vim la editare.
 
-## Files and links
+## Fișiere și legături
 
-The Files and links page contains settings for file management, links, and vault behavior.
+Pagina Fișiere și legături conține setări pentru gestionarea fișierelor, legături și comportamentul seifului.
 
-### Default location for new notes
+### Locația implicită pentru notele noi
 
-Where newly created notes are placed. Options include:
+Unde sunt plasate notele nou create. Opțiunile includ:
 
-- **Vault folder** — Notes are created in the root of your vault.
-- **Same folder as current file** — Notes are created in the same folder as the currently active note.
-- **In the folder specified below** — Notes are created in a specific folder you choose.
+- **Directorul seifului** — Notele sunt create în rădăcina seifului dvs.
+- **Același director ca fișierul curent** — Notele sunt create în același director ca nota activă curentă.
+- **În directorul specificat mai jos** — Notele sunt create într-un director specific ales de dvs.
 
-This setting doesn't apply when an [[Internal links|internal link]] includes a folder path. For example, creating `[[Projects/Three laws of motion]]` creates the note in the `Projects` folder relative to the vault root.
+Această setare nu se aplică atunci când o [[Internal links|legătură internă]] include o cale de director. De exemplu, crearea `[[Projects/Three laws of motion]]` creează nota în directorul `Projects`, relativ la rădăcina seifului.
 
-### Default location for new attachments
+### Locația implicită pentru atașamentele noi
 
-Where newly added [[Attachments|attachments]] are placed. Options include:
+Unde sunt plasate [[Attachments|atașamentele]] nou adăugate. Opțiunile includ:
 
-- **Vault folder** — Attachments are placed in the root of your vault.
-- **In the folder specified below** — Attachments are placed in a specific folder you choose.
-- **Same folder as current file** — Attachments are placed in the same folder as the currently active note.
-- **In subfolder under current folder** — Attachments are placed in a subfolder within the current note's folder.
+- **Directorul seifului** — Atașamentele sunt plasate în rădăcina seifului dvs.
+- **În directorul specificat mai jos** — Atașamentele sunt plasate într-un director specific ales de dvs.
+- **Același director ca fișierul curent** — Atașamentele sunt plasate în același director ca nota activă curentă.
+- **Într-un subdirector din directorul curent** — Atașamentele sunt plasate într-un subdirector din directorul notei curente.
 
-### Links
+### Legături
 
-#### New link format
+#### Formatul noilor legături
 
-What links to insert when auto-generating [[Internal links|internal links]]. Options include:
+Ce legături se inserează la generarea automată a [[Internal links|legăturilor interne]]. Opțiunile includ:
 
-- **Shortest path when possible** — Uses the shortest unique path to the linked file.
-- **Relative path to file** — Uses a path relative to the current file.
-- **Absolute path in vault** — Uses the full path from the vault root.
+- **Cea mai scurtă cale posibilă** — Folosește cea mai scurtă cale unică către fișierul legat.
+- **Cale relativă la fișier** — Folosește o cale relativă la fișierul curent.
+- **Cale absolută în seif** — Folosește calea completă de la rădăcina seifului.
 
-#### Automatically update internal links
+#### Actualizați automat legăturile interne
 
-When enabled, Obsidian automatically updates internal links when you rename a file. Turn this off to be prompted to update links after renaming.
+Atunci când este activată, Obsidian actualizează automat legăturile interne atunci când redenumiți un fișier. Dezactivați pentru a fi întrebat dacă doriți să actualizați legăturile după redenumire.
 
-#### Use Wikilinks
+#### Permiteți utilizarea legăturilor wiki
 
-Auto-generate Wikilinks for `[[links]]` and `![[images]]` instead of Markdown links and images. Disable this option to generate Markdown links instead.
+Generați automat legături wiki pentru `[[legături]]` și `![[imagini]]` în locul legăturilor și imaginilor Markdown. Dezactivați această opțiune pentru a genera în schimb legături Markdown.
 
-#### Show all file types
+#### Permiteți afișarea fișierelor indiferent de extensia acestora
 
-Show files with any extension even if Obsidian can't open them natively, so you can link to them and see them in File Explorer and Quick Switcher.
+Afișați fișierele cu orice extensie, chiar dacă Obsidian nu le poate deschide nativ, astfel încât să puteți crea legături către ele și să le vedeți în Exploratorul de fișiere și în Comutatorul rapid.
 
-### Trash
+### Coș de gunoi
 
-#### Confirm file deletion
+#### Confirmați ștergerea fișierelor
 
-Ask before deleting a file.
+Cereți confirmare înainte de a șterge un fișier.
 
-#### Deleted files
+#### Alegeți destinația fișierelor șterse
 
-What happens to a file after you delete it. Options include:
+Ce se întâmplă cu un fișier după ce îl ștergeți. Opțiunile includ:
 
-- **Move to system trash** — Files are moved to your operating system's trash.
-- **Move to Obsidian trash** — Files are moved to the `.trash` folder in your vault.
-- **Permanently delete** — Files are permanently deleted and cannot be recovered.
+- **Se mută în coșul de gunoi al sistemului de operare** — Fișierele sunt mutate în coșul de gunoi al sistemului dvs. de operare.
+- **Se mută în coșul de gunoi al aplicației Obsidian** — Fișierele sunt mutate în directorul `.trash` din seiful dvs.
+- **Se șterg permanent** — Fișierele sunt șterse definitiv și nu pot fi recuperate.
 
-### Advanced
+### Avansat
 
-#### Excluded files
+#### Alegeți fișierele care să fie excluse
 
-Excluded files will be hidden in [[Search]], [[Graph View]], and Unlinked Mentions ([[Backlinks]] and [[Outgoing links]]), and less noticeable in [[Quick Switcher ]] and link suggestions. Select **Manage** to configure excluded files.
+Fișierele excluse vor fi ascunse în [[Search]], [[Graph View]] și în Mențiunile nelegate ([[Backlinks]] și [[Outgoing links]]), și mai puțin vizibile în [[Quick Switcher ]] și în sugestiile de legături. Selectați **Gestionați** pentru a configura fișierele excluse.
 
-#### Override config folder
+#### Suprascrieți directorul configurației
 
-Use a different [[Configuration folder|config folder]] than the default one. Must start with a dot.
+Folosiți un [[Configuration folder|director de configurare]] diferit de cel implicit. Trebuie să înceapă cu un punct.
 
-#### Allow URI callbacks
+#### Permiteți apelurile URI de retur
 
-Enable the use of x-callback-url through x-success or x-error when handling [[Obsidian URI|Obsidian URIs]]. 
+Activați utilizarea x-callback-url prin x-success sau x-error la gestionarea [[Obsidian URI|URI-urilor Obsidian]]. 
 
-#### Rebuild vault cache
+#### Reconstruiți cache-ul seifului
 
-Rebuilds the vault's [[How Obsidian stores data#Metadata cache|metadata cache]]. Rebuilding the cache could take a few seconds to a few minutes depending on the size of your vault. Select **Rebuild** to start the process.
+Reconstruiește [[How Obsidian stores data#Cache-ul de metadate|cache-ul de metadate]] al seifului. Reconstruirea cache-ului poate dura de la câteva secunde până la câteva minute, în funcție de dimensiunea seifului dvs. Selectați **Reconstruiți** pentru a începe procesul.
 
-## Appearance
+## Personalizare
 
-The Appearance page contains settings for customizing how Obsidian looks.
+Pagina Personalizare conține setări pentru a personaliza aspectul Obsidian.
 
-### Base color scheme
+### Alegeți schema de culoare implicită
 
-Choose Obsidian's default color scheme. Options include:
+Alegeți schema de culoare implicită a Obsidian. Opțiunile includ:
 
-- **Adapt to system** — Matches your operating system's light or dark mode.
-- **Light** — Uses light mode.
-- **Dark** — Uses dark mode.
+- **Se adaptează la sistem** — Se potrivește cu modul deschis sau întunecat al sistemului dvs. de operare.
+- **Deschis** — Folosește modul deschis.
+- **Întunecat** — Folosește modul întunecat.
 
-### Accent color
+### Alegeți culoarea de accent
 
-Choose the accent color used throughout the app. Select the color picker or reset icon to customize.
+Alegeți culoarea de accent folosită în întreaga aplicație. Selectați selectorul de culoare sau pictograma de resetare pentru a personaliza.
 
-### Themes
+### Gestionați temele
 
-Manage installed [[Themes|themes]] and browse community themes. Select **Manage** to view and install themes. The dropdown shows your currently active theme. The folder icon ![[lucide-folder-open.svg#icon]] opens the themes folder in your [[Configuration folder|configuration folder]].
+Gestionați [[Themes|temele]] instalate și răsfoiți temele comunitare. Selectați **Gestionați** pentru a vizualiza și instala teme. Meniul derulant afișează tema activă curentă. Pictograma de director ![[lucide-folder-open.svg#icon]] deschide directorul temelor din [[Configuration folder|directorul de configurare]] al dvs.
 
-### Current community themes
+### Numărul curent de teme comunitare
 
-Displays the number of community themes you have installed.
+Afișează numărul de teme comunitare pe care le aveți instalate.
 
 ### Font
 
-#### Interface font
+#### Fontul interfeței
 
-Set base font for all of Obsidian. Select **Manage** to choose a custom font or enter a font name.
+Setează fontul de bază pentru întreaga aplicație Obsidian. Selectați **Gestionați** pentru a alege un font personalizat sau a introduce un nume de font.
 
-#### Text font
+#### Fontul textului
 
-Set font for editing and reading views. Select **Manage** to choose a custom font or enter a font name.
+Setează fontul pentru vizualizările de editare și citire. Selectați **Gestionați** pentru a alege un font personalizat sau a introduce un nume de font.
 
-#### Monospace font
+#### Fontul monospațiat
 
-Set font for places like code blocks and frontmatter. Select **Manage** to choose a custom font or enter a font name.
+Setează fontul pentru locuri precum blocurile de cod și proprietățile. Selectați **Gestionați** pentru a alege un font personalizat sau a introduce un nume de font.
 
-#### Font size
+#### Alegeți dimensiunea fontului
 
-Font size in pixels that affects editing and reading views. Adjust using the slider.
+Dimensiunea fontului în pixeli, care afectează vizualizările de editare și citire. Ajustați folosind cursorul.
 
-#### Quick font size adjustment
+#### Reglați rapid dimensiunea fontului
 
-Adjust the font size using `Ctrl+Scroll` (Windows/Linux) or `Cmd+Scroll` (macOS), or using the trackpad pinch-zoom gesture.
+Ajustați dimensiunea fontului folosind `Ctrl+Scroll` (Windows/Linux) sau `Cmd+Scroll` (macOS), sau folosind gestul de zoom cu ciupire pe trackpad.
 
-### Interface
+### Interfață
 
-#### Show inline title
+#### Afișați titlul inline
 
-Displays the filename as an editable title inline with the file contents. The inline title acts as a heading within Obsidian but does not add a heading to your note.
+Afișează numele fișierului ca titlu editabil, integrat cu conținutul fișierului. Titlul inline funcționează ca un titlu în cadrul Obsidian, dar nu adaugă un titlu în nota dvs.
 
-#### Show tab title bar
+#### Afișați bara de titlu a filei
 
-Display the header at the top of every tab.
+Afișează antetul din partea de sus a fiecărei file.
 
-#### Show ribbon
+#### Afișează panglica
 
-Display vertical toolbar on the side of the window. Learn more about the [[Ribbon|ribbon]].
+Afișează bara de instrumente verticală de pe partea laterală a ferestrei. Aflați mai multe despre [[Ribbon|panglică]].
 
-#### Ribbon menu configuration
+#### Configurarea meniului panglicii
 
-Configure what commands appear in the ribbon menu. Select **Manage** to customize.
+Configurați ce comenzi apar în meniul panglicii. Selectați **Gestionați** pentru a personaliza.
 
-> [!info]+ Mobile ribbon configuration
-> On mobile, ribbon customization works differently. See [[Ribbon#Mobile|Ribbon customization on mobile]] for details.
+> [!info]+ Configurarea panglicii pe mobil
+> Pe mobil, personalizarea panglicii funcționează diferit. Consultați [[Ribbon#Mobil|Personalizarea panglicii pe mobil]] pentru detalii.
 
-### Advanced
+### Avansat
 
-#### Zoom level
+#### Alegeți nivelul de zoom
 
-Controls the overall zoom level of the app. Adjust using the slider.
+Controlează nivelul general de zoom al aplicației. Ajustați folosind cursorul.
 
-#### Native menus
+#### Utilizați meniurile native
 
-Menus throughout the app will match the operating system. They will not be affected by your theme.
+Meniurile din întreaga aplicație se vor potrivi cu sistemul de operare. Nu vor fi afectate de tema dvs.
 
-#### Window frame style
+#### Alegeți stilul cadrului ferestrei
 
-Determines the styling of the title bar of Obsidian windows. Requires a full restart to take effect. Options include:
+Stabilește stilul barei de titlu a ferestrelor Obsidian. Necesită o repornire completă pentru a avea efect. Opțiunile includ:
 
-- **Obsidian frame** — Uses Obsidian's custom window frame.
-- **Native frame** — Uses your operating system's default window frame.
-- **Hidden frame** — Hides the title bar completely.
+- **Cadru Obsidian** — Folosește cadrul de fereastră personalizat al Obsidian.
+- **Cadru nativ** — Folosește cadrul de fereastră implicit al sistemului dvs. de operare.
+- **Cadru ascuns** — Ascunde complet bara de titlu.
 
-#### Custom app icon
+#### Pictogramă personalizată a aplicației
 
-Set a custom icon for the app. Select **Choose** to pick an icon file (`.icns`, `.ico`, `.png`, or `.svg`). Learn more about [[Appearance#Custom app icon|custom app icons]].
+Setați o pictogramă personalizată pentru aplicație. Selectați **Alegeți** pentru a selecta un fișier de pictogramă (`.icns`, `.ico`, `.png` sau `.svg`). Aflați mai multe despre [[Appearance#Pictogramă personalizată a aplicației|pictogramele personalizate ale aplicației]].
 
-#### Translucent window
+#### Fereastră translucidă
 
-Turn on translucency effect to enhance a sense of depth. Best used with dark mode. Not supported on Linux.
+Activați efectul de translucență pentru a spori senzația de profunzime. Se folosește cel mai bine cu modul întunecat. Nu este acceptat pe Linux.
 
-> [!info]+ macOS only
-> This feature is primarily designed for macOS. Learn more about [[Appearance#Translucency|translucency]].
+> [!info]+ Doar pe macOS
+> Această funcționalitate este concepută în principal pentru macOS. Aflați mai multe despre [[Appearance#Translucență|translucență]].
 
-#### Hardware acceleration
+#### Activați accelerarea grafică la nivel hardware
 
-Turns on Hardware Acceleration, which uses your GPU to make Obsidian smoother. If you turn this off, app performance can be severely degraded but may solve some rare issues. 
+Activează accelerarea hardware, care folosește GPU-ul dvs. pentru a face Obsidian mai fluid. Dacă dezactivați această opțiune, performanța aplicației poate fi grav afectată, dar acest lucru poate rezolva unele probleme rare.
 
-### CSS snippets
+### Fragmente CSS
 
-Manage and view [[CSS snippets|CSS snippets]] stored in your vault. CSS Snippets are stored in `/vault/.obsidian/snippets/`. Select the refresh icon to reload snippets, or the folder icon ![[lucide-folder-open.svg#icon]] to open the snippets folder.
+Gestionați și vizualizați [[CSS snippets|fragmentele CSS]] stocate în seiful dvs. Fragmentele CSS sunt stocate în `/vault/.obsidian/snippets/`. Selectați pictograma de reîmprospătare pentru a reîncărca fragmentele, sau pictograma de director ![[lucide-folder-open.svg#icon]] pentru a deschide directorul fragmentelor.
 
-## Hotkeys
+## Combinații de taste
 
-The [[Hotkeys]] page allows you to view, set, and customize [[Editing shortcuts|keyboard shortcuts]] for commands in Obsidian.
+Pagina [[Hotkeys]] vă permite să vizualizați, să setați și să personalizați [[Editing shortcuts|combinațiile de taste]] pentru comenzile din Obsidian.
 
-Use the search bar to filter commands, and select the filter icon to show only commands with assigned hotkeys. To add a hotkey, select the plus (+) icon next to a command. To remove a hotkey, select the X icon next to the keyboard combination.
+Folosiți bara de căutare pentru a filtra comenzile și selectați pictograma de filtrare pentru a afișa doar comenzile cu combinații de taste asociate. Pentru a adăuga o combinație de taste, selectați pictograma plus (+) de lângă o comandă. Pentru a elimina o combinație de taste, selectați pictograma X de lângă combinația de taste.
 
-## Core plugins
+## Module de bază
 
-[[Core plugins]] are built-in plugins that come with Obsidian. Each plugin adds specific functionality to the app.
+[[Core plugins]] sunt module încorporate, incluse implicit în Obsidian. Fiecare modul adaugă o funcționalitate specifică aplicației.
 
-To enable or disable a core plugin, select the toggle next to the plugin name. Select the plus ![[lucide-plus-circle.svg#icon]] icon to view the [[Hotkeys]] for the plugin. Select the settings ![[lucide-settings.svg#icon]] icon to open the plugin's settings page.
+Pentru a activa sau dezactiva un modul de bază, selectați comutatorul de lângă numele modulului. Selectați pictograma plus ![[lucide-plus-circle.svg#icon]] pentru a vizualiza [[Hotkeys]] pentru modul. Selectați pictograma de setări ![[lucide-settings.svg#icon]] pentru a deschide pagina de setări a modulului.
 
-Use the search bar to filter plugins by name.
+Folosiți bara de căutare pentru a filtra modulele după nume.
 
-## Community plugins
+## Module comunitare
 
-[[Community plugins]] are third-party plugins created by the Obsidian community. Browse and install plugins by selecting **Browse**.
+[[Community plugins]] sunt module terțe create de comunitatea Obsidian. Răsfoiți și instalați module selectând **Răsfoiți**.
 
-### Restricted mode
+### Modul restricționat
 
-[[Plugin security#Restricted mode|Restricted mode]] disables all community plugins for security. Select **Turn on and reload** to enable restricted mode.
+[[Plugin security#Modul restricționat|Modul restricționat]] dezactivează toate modulele comunitare, din motive de securitate. Selectați **Activați și reîncărcați** pentru a activa modul restricționat.
 
-### Current plugins
+### Module curente
 
-Displays the number of community plugins you have installed. Select **Check for updates** to check for plugin updates.
+Afișează numărul de module comunitare pe care le aveți instalate. Selectați **Verificați actualizările** pentru a căuta actualizări ale modulelor.
 
-### Installed plugins
+### Module instalate
 
-View and manage your installed community plugins. Use the search bar to filter plugins by name. Each plugin has icons for settings, hotkeys, funding, uninstalling, and a toggle to enable or disable it.
+Vizualizați și gestionați modulele comunitare instalate. Folosiți bara de căutare pentru a filtra modulele după nume. Fiecare modul are pictograme pentru setări, combinații de taste, finanțare, dezinstalare, precum și un comutator pentru activare sau dezactivare.

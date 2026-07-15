@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: import/apple-journal
 ---
-Obsidian lets you easily migrate your journal entries from Apple Journal using the [[Importer|Importer plugin]]. 
-This will convert your journals to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi cu ușurință însemnările din jurnalul Apple Journal folosind [[Importer|modulul Importer]]. 
+Acest lucru îți va converti jurnalele în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
-## Export your data from Apple Journal
+## Exportă-ți datele din Apple Journal
 
-### On iPhone
-Follow the instructions for [Print and export entries in Journal on iPhone](https://support.apple.com/guide/iphone/print-and-export-entries-iph4cad323fe/ios#iph1edf66806):
+### Pe iPhone
+Urmează instrucțiunile pentru [Print and export entries in Journal on iPhone](https://support.apple.com/guide/iphone/print-and-export-entries-iph4cad323fe/ios#iph1edf66806):
 
-1. Go to the Journal app on your iPhone.
-2. Choose a journal or tap All Entries.
-3. Tap the More button at the top of the screen.
-4. Tap Export, then choose Export.
-5. Choose a location, then tap the Selected button.
+1. Deschide aplicația Journal de pe iPhone.
+2. Alege un jurnal sau atinge All Entries.
+3. Atinge butonul More din partea de sus a ecranului.
+4. Atinge Export, apoi alege Export.
+5. Alege o locație, apoi atinge butonul Selected.
 
-### On Mac (Tahoe)
-Follow the instructions for [Print and export entries in Journal on Mac](https://support.apple.com/guide/journal/print-and-export-entries-dev883fc2329/mac#devc24a8f09a):
+### Pe Mac (Tahoe)
+Urmează instrucțiunile pentru [Print and export entries in Journal on Mac](https://support.apple.com/guide/journal/print-and-export-entries-dev883fc2329/mac#devc24a8f09a):
 
-1. Go to the Journal app on your Mac.
-2. Go to File > Export, then choose Export.
+1. Deschide aplicația Journal de pe Mac.
+2. Mergi la File > Export, apoi alege Export.
 
-## Import Apple Journal data into Obsidian
+## Importă datele din Apple Journal în Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format**, choose **Apple Journal (HTML Export)**.
-6. In **Files to import**, select the folder with exported data, usually _AppleJournalEntries_, or individual files from _Entries_.
-7. Review and edit the other import options.
-8. Select Import and wait until import is complete
-9. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier**, alege **Apple Journal (export HTML)**.
+6. La **Fișiere de importat**, selectează directorul cu datele exportate, de obicei _AppleJournalEntries_, sau fișiere individuale din _Entries_.
+7. Revizuiește și modifică celelalte opțiuni de import.
+8. Selectează Importă și așteaptă până când importul este finalizat
+9. Ai terminat!
 
 
-## Supported content
+## Conținut acceptat
 
-The plugin can import Journal metadata as frontmatter, such as _state-of-mind_, _contacts_, _location_, and _workout-route_.
+Modulul poate importa metadatele din Journal ca antet YAML, precum _state-of-mind_, _contacts_, _location_ și _workout-route_.
 
-> [!note] Note
-> The plugin does not import resources. Attachments like photos, videos, and audio recordings are ignored.
+> [!note] Notă
+> Modulul nu importă resurse. Atașamentele precum fotografii, videoclipuri și înregistrări audio sunt ignorate.

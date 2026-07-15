@@ -1,128 +1,127 @@
 ---
-localized: null
 permalink: import/notion
 ---
-Obsidian lets you easily migrate your notes from Notion using the [[Importer|Importer plugin]]. This will convert your Notion data to durable Markdown files that you can use offline with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi cu ușurință notele din Notion folosind [[Importer|modulul Importer]]. Acest lucru îți va converti datele din Notion în fișiere Markdown durabile, pe care le poți folosi offline cu Obsidian și cu multe alte aplicații.
 
-Obsidian offers two ways to import your Notion data:
+Obsidian oferă două moduri de a-ți importa datele din Notion:
 
-1. **API import** preserves your entire workspace including Databases and formulas which are converted to [[Introduction to Bases|Bases]], but requires a Notion integration token and an internet connection.
-2. **File import** does not preserve Databases but does not require an API token or internet connection.
+1. **Importul prin API** păstrează întregul tău spațiu de lucru, inclusiv bazele de date și formulele, care sunt convertite în [[Introduction to Bases|Baze]], dar necesită un token de integrare Notion și o conexiune la internet.
+2. **Importul de fișiere** nu păstrează bazele de date, dar nu necesită un token de API sau o conexiune la internet.
 
-## API import
+## Importul prin API
 
-### Create a Notion API integration token
+### Creează un token de integrare API Notion
 
-To access your Notion data via the API you need an integration token. This step takes about 2 minutes to complete.
+Pentru a accesa datele tale din Notion prin API, ai nevoie de un token de integrare. Acest pas durează aproximativ 2 minute.
 
-The token is a long string of numbers and letters typically starting with `ntn_...` that will allow you to download your data from Notion.
+Token-ul este un șir lung de cifre și litere, care de obicei începe cu `ntn_...`, care îți va permite să îți descarci datele din Notion.
 
-1. Sign into your [Notion Integrations](https://www.notion.so/profile/integrations/internal) dashboard.
-2. Choose **New integration**.
+1. Conectează-te la panoul tău [Notion Integrations](https://www.notion.so/profile/integrations/internal).
+2. Alege **New integration**.
 
 ![[notion-integration.png#interface]]
 
-2. Give your integration a name, e.g. "Personal". Any name can be used.
-3. Choose the workspace you want to export.
-4. Click **Save** and continue to **Configure integration settings**.
-5. In the **Configuration** tab your API token is accessible in the **Internal Integration Secret** field. 
-6. Select **Show** then **Copy**.
-7. Save the token to a safe place like your password manager.
+2. Dă integrării tale un nume, de exemplu „Personal”. Poate fi folosit orice nume.
+3. Alege spațiul de lucru pe care dorești să îl exporți.
+4. Apasă **Save** și continuă la **Configure integration settings**.
+5. În tab-ul **Configuration**, token-ul tău API este accesibil în câmpul **Internal Integration Secret**. 
+6. Selectează **Show**, apoi **Copy**.
+7. Salvează token-ul într-un loc sigur, precum administratorul tău de parole.
 
 ![[notion-token.png#interface]]
 
-Next, give your integration access to the Notion pages and databases you want to import.
+Apoi, acordă integrării tale acces la paginile și bazele de date Notion pe care dorești să le imporți.
 
-1. Go to the **Access** tab of the integration you just created.
-2. Click **Edit access**.
-3. Add the pages and databases that you want to import.
+1. Mergi la tab-ul **Access** al integrării pe care tocmai ai creat-o.
+2. Apasă **Edit access**.
+3. Adaugă paginile și bazele de date pe care dorești să le imporți.
 
-You can now convert your data using Obsidian Importer.
+Acum îți poți converti datele folosind Obsidian Importer.
 
-### Import your Notion data via API
+### Importă-ți datele din Notion prin API
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** select **Notion (API)**
-6. Under **API token**, paste your **Internal Integration Secret** from Notion.
-7. Click **Load** to choose the databases and pages you want to import.
-8. Review and edit the import options.
-9. Select **Import** and wait until import is complete
-10. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** selectează **Notion (API)**
+6. La **API token**, inserează **Internal Integration Secret**-ul tău din Notion.
+7. Apasă **Load** pentru a alege bazele de date și paginile pe care dorești să le imporți.
+8. Revizuiește și modifică opțiunile de import.
+9. Selectează **Importă** și așteaptă până când importul este finalizat
+10. Ai terminat!
 
-### Limitations
+### Limitări
 
-> [!info] API import is new
-> The Notion API importer is new. Because of the complexity of Notion workspaces, some edge cases may not have been considered. If you encounter issues with the conversion, [submit a bug report](https://github.com/obsidianmd/obsidian-importer/issues) so we can improve it. 
+> [!info] Importul prin API este nou
+> Importul prin API din Notion este nou. Din cauza complexității spațiilor de lucru Notion, este posibil ca unele cazuri limită să nu fi fost luate în considerare. Dacă întâmpini probleme cu conversia, [trimite un raport de eroare](https://github.com/obsidianmd/obsidian-importer/issues) ca să îl putem îmbunătăți. 
 
-Due to Notion API rate limits, importing large workspaces may take considerable time. Please be patient.
+Din cauza limitelor de rată ale API-ului Notion, importul spațiilor de lucru mari poate dura considerabil. Te rugăm să ai răbdare.
 
-Due to limitations in the Notion API some data is not available or cannot converted:
+Din cauza limitărilor API-ului Notion, unele date nu sunt disponibile sau nu pot fi convertite:
 
-- Only the primary view for each database is imported.
-- [Linked data sources](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) are not imported: *"Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!"*
-- `People` functions: `name()` and `email()`
-- `Text` functions: `style()` and `unstyle()`
+- Este importată doar vizualizarea principală pentru fiecare bază de date.
+- [Sursele de date conectate](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) nu sunt importate: *„Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!”*
+- Funcțiile `People`: `name()` și `email()`
+- Funcțiile `Text`: `style()` și `unstyle()`
 
-Additionally, Importer will make the following changes:
+În plus, Importer va face următoarele modificări:
 
-- Pages without child pages or databases will be imported as `[filename].md` instead of `[filename]/[filename].md`.
-- Databases are always represented as folders named `[database name]` with a `[database name].base` file inside.
+- Paginile fără pagini sau baze de date subordonate vor fi importate ca `[nume-fișier].md` în loc de `[nume-fișier]/[nume-fișier].md`.
+- Bazele de date sunt întotdeauna reprezentate ca directoare numite `[nume bază de date]`, cu un fișier `[nume bază de date].base` în interior.
 
-## File import
+## Importul de fișiere
 
-File import is alternative way to import your Notion data. This method does not preserve Databases but it does not require an API token or internet connection.
+Importul de fișiere este o metodă alternativă de a-ți importa datele din Notion. Această metodă nu păstrează bazele de date, dar nu necesită un token de API sau o conexiune la internet.
 
-### Export your data from Notion
+### Exportă-ți datele din Notion
 
-To prepare your data for import, you will need to export your entire workspace using Notion's HTML export format. We recommend that you do not use Notion's Markdown export as it omits important data. You must have admin access to the Notion workspace to export all workspace content.
+Pentru a-ți pregăti datele pentru import, va trebui să îți exporți întregul spațiu de lucru folosind formatul de export HTML al Notion. Îți recomandăm să nu folosești exportul Markdown al Notion, deoarece omite date importante. Trebuie să ai acces de administrator la spațiul de lucru Notion pentru a exporta tot conținutul spațiului de lucru.
 
-1. Go to **[[Settings]]** at the top of the Notion sidebar.
-2. Under **Workspace** select **General**.
-3. Find and select **Export all workspace content**.
-4. Under **Export format** select **HTML**.
-5. Choose **Include everything**.
-6. Enable **Create folders for subpages**.
-7. You will receive a `.zip` file via email or directly in the browser.
+1. Mergi la **[[Settings]]** din partea de sus a barei laterale Notion.
+2. La **Workspace** selectează **General**.
+3. Găsește și selectează **Export all workspace content**.
+4. La **Export format** selectează **HTML**.
+5. Alege **Include everything**.
+6. Activează **Create folders for subpages**.
+7. Vei primi un fișier `.zip` prin email sau direct în browser.
 
 ![[notion-export.png#interface]]
 
 ![[notion-export-2.png#interface]]
 
-### Import your Notion .zip file
+### Importă-ți fișierul .zip din Notion
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** select **Notion (.zip)**
-6. Choose the `.zip` file with Notion files you want to import. *It's recommended to import all your Notion at once so internal links can be reconciled correctly.*
-7. _Optionally_, select a folder for the import Your Notion pages and databases will be nested inside this folder.
-8. Enable **Save parent pages in subfolders** to keep the Notion structure. *Note that in Notion you can write content in Folders, this is not possible in Obsidian and these pages will be added as a subpage under the folder.*
-9. Select **Import** and wait until import is complete
-10. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** selectează **Notion (.zip)**
+6. Alege fișierul `.zip` cu fișierele Notion pe care dorești să le imporți. *Este recomandat să îți imporți tot conținutul din Notion o singură dată, astfel încât legăturile interne să poată fi reconciliate corect.*
+7. _Opțional_, selectează un director pentru import. Paginile și bazele de date Notion vor fi imbricate în acest director.
+8. Activează **Save parent pages in subfolders** pentru a păstra structura Notion. *Reține că în Notion poți scrie conținut în directoare, ceea ce nu este posibil în Obsidian, iar aceste pagini vor fi adăugate ca subpagină în cadrul directorului.*
+9. Selectează **Importă** și așteaptă până când importul este finalizat
+10. Ai terminat!
 
-### Troubleshooting
+### Depanare
 
-If you run into issues while importing from Notion:
+Dacă întâmpini probleme la importul din Notion:
 
-- Make sure you use **HTML** as the export format in Notion, **not Markdown**.
-- If Obsidian appears to freeze during import, disable community plugins and try again.
+- Asigură-te că folosești **HTML** ca format de export în Notion, **nu Markdown**.
+- Dacă Obsidian pare să se blocheze în timpul importului, dezactivează modulele comunitare și încearcă din nou.
 
-Run into something else? Search [the Importer repository](https://github.com/obsidianmd/obsidian-importer/issues) to see if others have experienced it.
+Ai întâmpinat altceva? Caută în [depozitul Importer](https://github.com/obsidianmd/obsidian-importer/issues) pentru a vedea dacă alții au întâmpinat aceeași problemă.
 
-#### Importing large workspaces
+#### Importul spațiilor de lucru mari
 
-If you are importing a workspace with multiple gigabytes of data, the export from Notion may contain nested `.zip` files. In this case you may see an import error message that looks something like this:
+Dacă imporți un spațiu de lucru cu mai mulți gigabytes de date, exportul din Notion poate conține fișiere `.zip` imbricate. În acest caz, poți vedea un mesaj de eroare de import care arată cam așa:
 
 ```
 Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
-If you see this error, you can unzip the file from Notion, and then import the nested `Export-{id}-Part-1.zip`  files.
+Dacă vezi această eroare, poți dezarhiva fișierul din Notion și apoi poți importa fișierele `Export-{id}-Part-1.zip` imbricate.

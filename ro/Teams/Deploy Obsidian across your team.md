@@ -1,53 +1,52 @@
 ---
-localized: null
 permalink: teams/deploy
 cssclasses:
   - soft-embed
 ---
-Obsidian runs as a local application on each of your team member's devices. It is designed to work both online and offline, securely and privately, and give you total control over your team's data. Obsidian is not available as a web-based application, therefore you will need to deploy the app to your team members.
+Obsidian rulează ca aplicație locală pe fiecare dintre dispozitivele membrilor echipei dumneavoastră. Este proiectat să funcționeze atât online, cât și offline, în siguranță și confidențial, oferindu-vă control total asupra datelor echipei dumneavoastră. Obsidian nu este disponibil ca aplicație bazată pe web, așadar va trebui să implementați aplicația pentru membrii echipei dumneavoastră.
 
-## Install and update Obsidian
+## Instalați și actualizați Obsidian
 
-Your team can download Obsidian from our [Download page](https://obsidian.md/download). Releases are also available on our [GitHub releases page](https://github.com/obsidianmd/obsidian-releases/releases) which includes links to [the changelog](https://obsidian.md/changelog/).
+Echipa dumneavoastră poate descărca Obsidian de pe [pagina noastră de descărcare](https://obsidian.md/download). Versiunile sunt disponibile și pe [pagina noastră de versiuni GitHub](https://github.com/obsidianmd/obsidian-releases/releases), care include legături către [jurnalul de modificări](https://obsidian.md/changelog/).
 
-> [!tip] For Windows users who need a system installer, the Universal `.exe` includes the option to install Obsidian for all users.
+> [!tip] Pentru utilizatorii Windows care au nevoie de un program de instalare la nivel de sistem, fișierul Universal `.exe` include opțiunea de a instala Obsidian pentru toți utilizatorii.
 
-If automatic updates are enabled in the app, future versions will be installed automatically when users restart Obsidian. Additionally, we recommend periodically performing [[Update Obsidian#Installer updates|installer updates]] to receive the latest updates to the Electron framework, including security fixes.
+Dacă actualizările automate sunt activate în aplicație, versiunile viitoare vor fi instalate automat când utilizatorii repornesc Obsidian. În plus, vă recomandăm să efectuați periodic [[Update Obsidian#Installer updates|actualizări ale programului de instalare]] pentru a primi cele mai recente actualizări ale framework-ului Electron, inclusiv remedieri de securitate.
 
-If you are looking how to limit network access to Obsidian during this process, review [[Security considerations for teams#Network and access|network and access]].
+Dacă doriți să aflați cum să limitați accesul la rețea pentru Obsidian în timpul acestui proces, consultați secțiunea [[Security considerations for teams#Network and access|rețea și acces]].
 
-## Customizing Obsidian
+## Personalizarea Obsidian
 
-Obsidian is easy to modify to suit your team's needs. With an extensive API and a large ecosystem of users, Obsidian offers access to numerous plugins, themes, and complementary tools.
+Obsidian este ușor de modificat pentru a se potrivi nevoilor echipei dumneavoastră. Cu un API extins și un ecosistem vast de utilizatori, Obsidian oferă acces la numeroase module, teme și instrumente complementare.
 
-For security-related questions concerning these topics, please refer to [[Security considerations for teams]].
+Pentru întrebări legate de securitate privind aceste subiecte, consultați [[Security considerations for teams|Considerații de securitate pentru echipe]].
 
-### Configuration folders
+### Dosare de configurare
 
-The [[Configuration folder]] is where an Obsidian [[Glossary#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Configuration folder#Change your configuration folder|change the configuration folder]] name according to your preference.
+[[Configuration folder|Dosarul de configurare]] este locul în care un [[Glossary#Vault|seif]] Obsidian își stochează setările aplicației. Implicit, acest dosar se numește `.obsidian`, dar aveți flexibilitatea de a [[Configuration folder#Change your configuration folder|schimba numele dosarului de configurare]] după preferință.
 
-We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
+Vă recomandăm să creați un șablon standardizat al dosarului de configurare, care să fie implementat pe toate dispozitivele echipei dumneavoastră.
 
-### Plugins
+### Module
 
-[[Core plugins]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
+[[Core plugins|Modulele integrate]] sunt funcționalități opționale create de echipa Obsidian. Aceste funcționalități sunt integrate în codul de bază al aplicației și pot fi activate sau dezactivate.
 
-[[Community plugins]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
+[[Community plugins|Modulele comunitare]] sunt funcționalități terțe adăugate aplicației Obsidian și pot fi instalate din directorul comunității. Modulele terțe folosesc [API-ul Obsidian](https://github.com/obsidianmd/obsidian-api). Modulele sunt localizate în dosarul `.obsidian/plugins` din cadrul unui seif și pot fi instalate manual în această locație.
 
-### Themes and snippets
+### Teme și fragmente
 
-[[Themes]] visually alter the Obsidian interface. Like plugins, themes can be downloaded from our community directory. Themes are located in the `.obsidian/themes` folder within a vault.
+[[Themes|Temele]] modifică vizual interfața Obsidian. La fel ca modulele, temele pot fi descărcate din directorul nostru al comunității. Temele sunt localizate în dosarul `.obsidian/themes` din cadrul unui seif.
 
-[[CSS snippets|Snippets]] are small `.css` files that visually modify aspects of the Obsidian interface. In some cases, it can also add functional enhancements. Snippets are located in the `.obsidian/snippets` folder within a vault.
+[[CSS snippets|Fragmentele]] sunt fișiere `.css` mici care modifică vizual aspecte ale interfeței Obsidian. În unele cazuri, pot adăuga și îmbunătățiri funcționale. Fragmentele sunt localizate în dosarul `.obsidian/snippets` din cadrul unui seif.
 
-## Frequently asked questions
+## Întrebări frecvente
 
-For questions about account management and security, please refer to [[Security considerations for teams#Account security|account security]].
+Pentru întrebări despre gestionarea conturilor și securitate, consultați secțiunea [[Security considerations for teams#Account security|securitatea contului]].
 
-### Deployment
+### Implementare
 
-**Can I deploy licenses across multiple installations?**
-Currently, we do not support deploying licenses via a deployment script, such as in a `.json` file. If you're interested in this feature for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**Pot implementa licențe pe mai multe instalări?**
+În prezent, nu susținem implementarea licențelor printr-un script de implementare, cum ar fi un fișier `.json`. Dacă sunteți interesat de această funcționalitate pentru echipa dumneavoastră, vă rugăm să trimiteți o [solicitare de funcționalitate](https://forum.obsidian.md/c/feature-requests/8).
 
-**Can Obsidian lock certain features or configurations via a setting or an application flag?**
-Currently you can do this by blocking edit access to the `.obsidian` folder, or specific files and folders within it, described above. If you're interested in more access controls for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**Poate Obsidian să blocheze anumite funcționalități sau configurații printr-o setare sau un indicator al aplicației?**
+În prezent puteți face acest lucru blocând accesul de editare la dosarul `.obsidian`, sau la fișiere și dosare specifice din interiorul acestuia, așa cum s-a descris mai sus. Dacă sunteți interesat de mai multe controale de acces pentru echipa dumneavoastră, vă rugăm să trimiteți o [solicitare de funcționalitate](https://forum.obsidian.md/c/feature-requests/8).

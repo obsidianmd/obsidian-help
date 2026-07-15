@@ -1,14 +1,13 @@
 ---
-localized: null
 permalink: callouts
 publish: true
 mobile: true
-description: This page details how to use callouts to include additional content without breaking the flow of your notes.
+description: Această pagină detaliază modul de utilizare a explicațiilor pentru a include conținut suplimentar fără a întrerupe fluxul notelor dvs.
 ---
 
-Use callouts to include additional content without breaking the flow of your notes.
+Folosiți explicații pentru a include conținut suplimentar fără a întrerupe fluxul notelor dvs.
 
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]]. Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
+Pentru a crea o explicație, adăugați `[!info]` pe primul rând al unui citat, unde `info` este _identificatorul de tip_. Identificatorul de tip determină aspectul și comportamentul explicației. Pentru a vedea toate tipurile disponibile, consultați [[#Supported types]]. Explicațiile sunt de asemenea acceptate nativ pe [[Introduction to Obsidian Publish|Obsidian Publish]].
 
 ```markdown
 > [!info] Here's a callout title
@@ -17,55 +16,55 @@ To create a callout, add `[!info]` to the first line of a blockquote, where `inf
 > ![[Engelbart.jpg]]
 ```
 
-> [!info] Here's a callout title
-> Here's a callout block.
-> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
+> [!info] Iată titlul unei explicații
+> Iată un bloc de explicație.
+> Acesta acceptă **Markdown**, [[Internal links|Wikilink-uri]] și [[Embed files|încorporări]]!
 > ![[Engelbart.jpg]]
 
-You can insert a default `[!note]` callout using the `Insert callout` [[Command palette|command]]. The cursor automatically positions in the callout name field, letting you delete the default name and type a new one before editing the content.
+Puteți insera o explicație implicită de tip `[!note]` folosind [[Command palette|comanda]] `Insert callout`. Cursorul se poziționează automat în câmpul cu numele explicației, permițându-vă să ștergeți numele implicit și să introduceți unul nou înainte de a edita conținutul.
 
-To wrap existing content in a callout, select the text (including lists, code blocks, etc.) and run the `Insert callout` command. The selected content will be automatically enclosed in the callout.
+Pentru a încadra conținutul existent într-o explicație, selectați textul (inclusiv liste, blocuri de cod etc.) și rulați comanda `Insert callout`. Conținutul selectat va fi încadrat automat în explicație.
 
-In [[Views and editing mode#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
+În [[Views and editing mode#Live Preview|Live Preview]], puteți de asemenea să faceți clic dreapta pe numele explicației pentru a schimba tipul acesteia.
 
 
-### Change the title
+### Schimbați titlul
 
-By default, the title of the callout is its type identifier in title case. You can change it by adding text after the type identifier:
+Implicit, titlul explicației este identificatorul său de tip, scris cu majuscule inițiale. Îl puteți schimba adăugând text după identificatorul de tip:
 
 ```markdown
 > [!tip] Callouts can have custom titles
 > Like this one.
 ```
 
-> [!tip] Callouts can have custom titles
-> Like this one.
+> [!tip] Explicațiile pot avea titluri personalizate
+> Ca aceasta.
 
-You can even omit the body to create title-only callouts:
+Puteți chiar omite conținutul, pentru a crea explicații doar cu titlu:
 
 ```markdown
 > [!tip] Title-only callout
 ```
 
-> [!tip] Title-only callout
+> [!tip] Explicație doar cu titlu
 
-### Foldable callouts
+### Explicații pliabile
 
-You can make a callout foldable by adding a plus (`+`) or a minus (`-`) directly after the type identifier.
+Puteți face o explicație pliabilă adăugând un plus (`+`) sau un minus (`-`) imediat după identificatorul de tip.
 
-A plus sign expands the callout by default, and a minus sign collapses it instead.
+Semnul plus extinde explicația implicit, iar semnul minus o pliază în schimb.
 
 ```markdown
 > [!faq]- Are callouts foldable?
 > Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
 ```
 
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when collapsed.
+> [!faq]- Explicațiile sunt pliabile?
+> Da! Într-o explicație pliabilă, conținutul este ascuns atunci când explicația este pliată.
 
-### Nested callouts
+### Explicații imbricate
 
-You can nest callouts in multiple levels.
+Puteți imbrica explicații pe mai multe niveluri.
 
 ```markdown
 > [!question] Can callouts be nested?
@@ -73,15 +72,15 @@ You can nest callouts in multiple levels.
 > > > [!example]  You can even use multiple layers of nesting.
 ```
 
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+> [!question] Pot fi imbricate explicațiile?
+> > [!todo] Da, pot!
+> > > [!example]  Puteți folosi chiar și mai multe niveluri de imbricare.
 
-### Customize callouts
+### Personalizați explicațiile
 
-[[CSS snippets]] and [[Community plugins]] can define custom callouts, or even overwrite the default configuration.
+[[CSS snippets|Fragmentele CSS]] și [[Community plugins|modulele comunității]] pot defini explicații personalizate sau chiar suprascrie configurația implicită.
 
-To define a custom callout, create the following CSS block:
+Pentru a defini o explicație personalizată, creați următorul bloc CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
@@ -90,29 +89,29 @@ To define a custom callout, create the following CSS block:
 }
 ```
 
-The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
+Valoarea atributului `data-callout` este identificatorul de tip pe care doriți să îl folosiți, de exemplu `[!custom-question-type]`.
 
-- `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
-- `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element. 
+- `--callout-color` definește culoarea de fundal folosind numere (0–255) pentru roșu, verde și albastru.
+- `--callout-icon` poate fi un ID de pictogramă de la [lucide.dev](https://lucide.dev), sau un element SVG. 
 
-> [!warning] Note about lucide icon versions
-> Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
+> [!warning] Notă despre versiunile pictogramelor lucide
+> Obsidian actualizează periodic pictogramele Lucide. Versiunea curentă inclusă este afișată mai jos; folosiți-le pe acestea sau pictograme mai vechi în explicațiile personalizate.
 > ![[Credits#^lucide]]
 
-> [!tip] SVG icons
-> Instead of using a Lucide icon, you can also use a SVG element as the callout icon.
+> [!tip] Pictograme SVG
+> În loc să folosiți o pictogramă Lucide, puteți folosi și un element SVG ca pictogramă a explicației.
 >
 > ```css
 > --callout-icon: '<svg>...custom svg...</svg>';
 > ```
 
-### Supported types
+### Tipuri acceptate
 
-You can use several callout types and aliases. Each type comes with a different background color and icon.
+Puteți folosi mai multe tipuri de explicații și alias-uri. Fiecare tip vine cu o culoare de fundal și o pictogramă diferite.
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout in Live Preview mode.
+Pentru a folosi aceste stiluri implicite, înlocuiți `info` din exemple cu oricare dintre aceste tipuri, precum `[!tip]` sau `[!warning]`. Tipurile de explicații pot fi schimbate și făcând clic dreapta pe o explicație în modul Live Preview.
 
-Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
+Cu excepția cazului în care [[#Customize callouts|le personalizați]], orice tip neacceptat revine implicit la tipul `note`. Identificatorul de tip nu ține cont de majuscule și minuscule.
 
 > [!note]
 > ```md
@@ -128,7 +127,7 @@ Unless you [[#Customize callouts]], any unsupported type defaults to the `note` 
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `summary`, `tldr`
+Alias-uri: `summary`, `tldr`
 
 ---
 
@@ -154,7 +153,7 @@ Aliases: `summary`, `tldr`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `hint`, `important`
+Alias-uri: `hint`, `important`
 
 ---
 
@@ -164,7 +163,7 @@ Aliases: `hint`, `important`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `check`, `done`
+Alias-uri: `check`, `done`
 
 ---
 
@@ -174,7 +173,7 @@ Aliases: `check`, `done`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `help`, `faq`
+Alias-uri: `help`, `faq`
 
 ---
 
@@ -184,7 +183,7 @@ Aliases: `help`, `faq`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `caution`, `attention`
+Alias-uri: `caution`, `attention`
 
 ---
 
@@ -194,7 +193,7 @@ Aliases: `caution`, `attention`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `fail`, `missing`
+Alias-uri: `fail`, `missing`
 
 ---
 

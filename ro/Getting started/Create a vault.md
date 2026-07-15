@@ -1,28 +1,27 @@
 ---
-localized: null
 permalink: vault
 ---
-A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects.
+Un seif este un director în sistemul dumneavoastră local de fișiere în care Obsidian vă stochează notele. Puteți păstra toate notele într-un singur seif sau puteți crea mai multe seifuri, câte unul pentru fiecare dintre proiectele dumneavoastră diferite.
 
-The first time you open Obsidian, you'll be asked to add a new vault. You have two options, either create a new empty vault, or use an existing folder.
+Prima dată când deschideți Obsidian, vi se va cere să adăugați un seif nou. Aveți două opțiuni: fie creați un seif nou și gol, fie folosiți un director existent.
 
-## Create empty vault
+## Creați un seif gol
 
-To create a new empty vault:
+Pentru a crea un seif nou și gol:
 
-1. To the right of **Create new vault**, click **Create**.
-2. In **Vault name**, enter the name of your vault.
-3. Click **Browse** to select where your new vault will be created.
-4. Click **Create**.
+1. În dreptul opțiunii **Creați un seif nou**, apăsați **Creare**.
+2. La **Numele seifului**, introduceți numele seifului dumneavoastră.
+3. Apăsați **Răsfoire** pentru a selecta unde va fi creat noul dumneavoastră seif.
+4. Apăsați **Creare**.
 
-## Open existing folder
+## Deschideți un director existent
 
-If you already have a folder that you want to use as your vault:
+Dacă aveți deja un director pe care doriți să îl folosiți drept seif:
 
-1. To the right of **Open folder as vault**, click **Open**.
-2. In the file browser, select the folder you want to use as your vault.
-3. Click **Open**.
+1. În dreptul opțiunii **Deschideți directorul ca seif**, apăsați **Deschidere**.
+2. În browserul de fișiere, selectați directorul pe care doriți să îl folosiți drept seif.
+3. Apăsați **Deschidere**.
 
-If you want to know more about how vaults work, learn how [[How Obsidian stores data]].
+Dacă doriți să aflați mai multe despre modul de funcționare al seifurilor, aflați cum [[How Obsidian stores data]].
 
-Now that you've set up your vault, you're ready to [[Create your first note]].
+Acum că v-ați configurat seiful, sunteți gata să [[Create your first note]].

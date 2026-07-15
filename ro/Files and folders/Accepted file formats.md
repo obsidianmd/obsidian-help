@@ -1,32 +1,31 @@
 ---
-localized: null
 permalink: file-formats
 publish: true
 mobile: true
-description: This page describes the accepted file formats within Obsidian.
+description: Această pagină descrie formatele de fișiere acceptate în Obsidian.
 ---
 
-Obsidian supports the following file types:
+Obsidian acceptă următoarele tipuri de fișiere:
 
 - **Markdown**: `.md`  
-- **Bases:** `.base`
-- **JSON Canvas**: `.canvas` ([Learn more](https://jsoncanvas.org/))  
-- **Images**: `.avif`, `.bmp`, `.gif`, `.jpeg`, `.jpg`, `.png`, `.svg`, `.webp`  
+- **Baze:** `.base`
+- **JSON Canvas**: `.canvas` ([Aflați mai multe](https://jsoncanvas.org/))  
+- **Imagini**: `.avif`, `.bmp`, `.gif`, `.jpeg`, `.jpg`, `.png`, `.svg`, `.webp`  
 - **Audio**: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`  
 - **Video**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
 - **PDF**: `.pdf`  
 
-You can extend Obsidian to support other file formats using [[Community plugins]].
+Puteți extinde Obsidian pentru a accepta alte formate de fișiere folosind [[Community plugins]].
 
-### Embed files
+### Încorporarea fișierelor
 
-Many file types — including images, audio, video, and PDFs — can be embedded directly into your notes.
+Multe tipuri de fișiere — inclusiv imagini, audio, video și PDF-uri — pot fi încorporate direct în notele dumneavoastră.
 
-- On **Desktop**, drag and drop a supported file into a note to embed it automatically.  
-- On **Mobile**, use the attachment options to insert or link a file.
+- Pe **Desktop**, trageți și plasați un fișier acceptat într-o notă pentru a-l încorpora automat.  
+- Pe **Mobil**, folosiți opțiunile de atașare pentru a insera sau lega un fișier.
 
-See [[Embed files]] for more embedding options and syntax.
+Consultați [[Embed files]] pentru mai multe opțiuni și sintaxă de încorporare.
 
 > [!NOTE]
-> Support for audio, video, and other files depends on the codecs available on your device.
+> Suportul pentru fișiere audio, video și alte tipuri de fișiere depinde de codecurile disponibile pe dispozitivul dumneavoastră.
 

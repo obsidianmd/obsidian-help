@@ -1,19 +1,18 @@
 ---
-localized: null
 permalink: plugins/audio-recorder
 ---
-Audio recorder is a [[Core plugins|core plugin]] that lets you record and save audio in an Obsidian note. With the Audio recorder plugin, you can record details from a lecture, meeting, or other important situations where you can't type fast enough.
+Audio recorder este un [[Core plugins|modul integrat]] care îți permite să înregistrezi și să salvezi sunet într-o notă Obsidian. Cu modulul Audio recorder, poți înregistra detalii dintr-o prelegere, o întâlnire sau alte situații importante în care nu poți scrie suficient de repede.
 
-> [!note] Note
-> Before you get started, make sure that your computer has a microphone configured and ready to use.
+> [!note] Notă
+> Înainte de a începe, asigură-te că ai un microfon configurat și pregătit de utilizare pe computer.
 
-## Record audio in a note
+## Înregistrează sunet într-o notă
 
-1. Create a new note or open an existing note.
-2. In the ribbon, click **Start/stop recording** ![[lucide-mic.svg#icon]] to start recording. The recording starts as soon as the icon changes color.
-3. Click the icon again to stop the recording and add it to your note.
+1. Creează o notă nouă sau deschide o notă existentă.
+2. În panglică, dă clic pe **Start/stop recording** ![[lucide-mic.svg#icon]] pentru a începe înregistrarea. Înregistrarea începe imediat ce pictograma își schimbă culoarea.
+3. Dă clic din nou pe pictogramă pentru a opri înregistrarea și a o adăuga în notă.
 
-Obsidian saves the recorded audio file to your vault and [[Embed files|embeds]] it at the end of the active note.
+Obsidian salvează fișierul audio înregistrat în seiful tău și îl [[Embed files|încorporează]] la finalul notei active.
 
-> [!note] Note
-> Audio recordings remain in your vault even after you remove them from your note. If you want to remove the recording from your computer, you can use the [[File explorer]] to delete the file.
+> [!note] Notă
+> Înregistrările audio rămân în seiful tău chiar și după ce le elimini din notă. Dacă vrei să elimini înregistrarea de pe computer, poți folosi [[File explorer|Exploratorul de fișiere]] pentru a șterge fișierul.

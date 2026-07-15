@@ -1,13 +1,12 @@
 ---
-localized: null
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: 'With the Backlinks plugin, you can see all the backlinks for the active note.'
+description: 'Cu modulul Referințe, poți vedea toate referințele pentru nota activă.'
 ---
-With the Backlinks [[Core plugins|plugin]], you can see all the _backlinks_ for the active note.
+Cu modulul [[Core plugins|Referințe]], poți vedea toate _referințele_ pentru nota activă.
 
-A backlink for a note is a link from another note to that note. In the following example, the "Three laws of motion" note contains a link to the "Isaac Newton" note. The corresponding backlink would link from "Isaac Newton" back to "Three laws of motion".
+O referință pentru o notă este o legătură dintr-o altă notă către acea notă. În exemplul următor, nota „Cele trei legi ale mișcării” conține o legătură către nota „Isaac Newton”. Referința corespunzătoare ar face legătura de la „Isaac Newton” înapoi la „Cele trei legi ale mișcării”.
 
 ```mermaid
 flowchart LR
@@ -18,50 +17,50 @@ flowchart LR
   newton --backlink--> laws
 ```
 
-Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
+Referințele pot fi utile pentru a găsi notele care fac trimitere la nota pe care o scrii. Imaginează-ți dacă ai putea lista referințele pentru orice site de pe internet.
 
-## Show backlinks
+## Afișează referințele
 
-The Backlinks plugin displays the backlinks for the active tabs. There are two collapsible sections: **Linked mentions** and **Unlinked mentions**.
+Modulul Referințe afișează referințele pentru filele active. Există două secțiuni pliabile: **Mențiuni conectate** și **Mențiuni fără legături**.
 
-- **Linked mentions** are backlinks to the notes that contain an internal link to the active note.
-- **Unlinked mentions** are backlinks to any unlinked occurrence of the name of the active note.
+- **Mențiuni conectate** sunt referințe către notele care conțin o legătură internă către nota activă.
+- **Mențiuni fără legături** sunt referințe către orice apariție neconectată a numelui notei active.
 
-It provides the following options:
+Oferă următoarele opțiuni:
 
-- **Collapse results** toggles whether to expand each note to display the mentions in it.
-- **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
-- **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search term, refer to [[Search]].
+- **Restrânge rezultatele** comută dacă fiecare notă este extinsă pentru a afișa mențiunile din ea.
+- **Extinde contextul** comută dacă paragraful care conține mențiunea este trunchiat sau afișat complet.
+- **Schimbă ordinea de sortare** determină modul în care sunt sortate mențiunile.
+- **Afișează filtrul de căutare** comută un câmp de text care îți permite să filtrezi mențiunile. Pentru mai multe informații despre cum să construiești un termen de căutare, consultă [[Search|Caută]].
 
-## View backlinks for a note
+## Vezi referințele pentru o notă
 
-To view the backlinks for the active note, click the **Backlinks** ![[obsidian-icon-links-coming-in.svg#icon]] tab in the right sidebar.
+Pentru a vedea referințele pentru nota activă, dă clic pe fila **Referințe** ![[obsidian-icon-links-coming-in.svg#icon]] din bara laterală dreaptă.
 
-> [!note] Note
-> If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks** command.
+> [!note] Notă
+> Dacă nu vezi fila Referințe, o poți face vizibilă deschizând [[Command palette|Paleta de comenzi]] și rulând comanda **Backlinks: Show backlinks**.
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Unlinked mentions.
+> [!info] Fișiere excluse
+> Fișierele care corespund tiparelor tale de [[Settings#Excluded files|Fișiere excluse]] nu vor apărea în Mențiuni fără legături.
 
-## See backlinks of a specific note
+## Vezi referințele unei anumite note
 
-The backlinks tab lists backlinks for the active note and updates when you switch to a different note. If you want to see the backlinks for a specific note, regardless of whether it's active or note, you can open a _linked_ backlinks tab.
+Fila de referințe listează referințele pentru nota activă și se actualizează atunci când treci la o altă notă. Dacă vrei să vezi referințele pentru o anumită notă, indiferent dacă este activă sau nu, poți deschide o filă de referințe _conectată_.
 
-To open a linked backlinks tab:
+Pentru a deschide o filă de referințe conectată:
 
-1. Open the [[Command palette]].
-2. Select **Backlinks: Open backlinks for the current note**.
+1. Deschide [[Command palette|Paleta de comenzi]].
+2. Selectează **Backlinks: Open backlinks for the current note**.
 
-A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
+Se deschide o filă separată lângă nota activă. Fila arată o pictogramă de legătură pentru a te anunța că este conectată la o notă.
 
-## Show backlinks in a note
+## Afișează referințele într-o notă
 
-Instead of showing the backlinks in a separate tab, you can show the backlinks at the bottom of your note.
+În loc să afișezi referințele într-o filă separată, le poți afișa în partea de jos a notei tale.
 
-To show backlinks in a note:
+Pentru a afișa referințele într-o notă:
 
-1. Open the [[Command palette]].
-2. Select **Backlinks: Toggle backlinks in document**.
+1. Deschide [[Command palette|Paleta de comenzi]].
+2. Selectează **Backlinks: Toggle backlinks in document**.
 
-Or, enable **Backlink in document** under the Backlinks plugin options to automatically toggle backlinks when you open a new note.
+Sau, activează **Backlink in document** în opțiunile modulului Referințe pentru a comuta automat referințele atunci când deschizi o notă nouă.

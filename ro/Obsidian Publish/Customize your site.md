@@ -1,34 +1,33 @@
 ---
-localized: null
 permalink: publish/customize
 publish: true
-description: Learn how to customize the appearance and style of your Obsidian Publish site.
+description: Află cum să personalizezi aspectul și stilul site-ului tău Obsidian Publish.
 ---
-This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.
+Această pagină explică cum poți personaliza modul în care arată și se simte site-ul tău [[Introduction to Obsidian Publish|Obsidian Publish]].
 
-## Static assets
+## Fișiere statice
 
-You can customize your site by [[Publish your content#Publish notes|publishing]] the following files to your site:
+Poți personaliza site-ul tău [[Publish your content#Publish notes|publicând]] următoarele fișiere pe site-ul tău:
 
-- `publish.css` to add custom CSS
-- `publish.js` to add custom JavaScript
-- `favicon-32x32.png` to set the favicon
+- `publish.css` pentru a adăuga CSS personalizat
+- `publish.js` pentru a adăuga JavaScript personalizat
+- `favicon-32x32.png` pentru a seta favicon-ul
 
-**Notes:**
+**Note:**
 
-- [CSS variables for Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) can be found on on our Documentation site.
-- Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
-- Both `publish.css` and `publish.js` must be located in the root directory (`/`) of your vault.
-- By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
-- To use custom JavaScript with `publish.js`, you need to [[Custom domains]].
+- [Variabilele CSS pentru Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) pot fi găsite pe site-ul nostru de documentație.
+- Deoarece Obsidian nu suportă fișiere CSS sau JavaScript, trebuie să folosești o altă aplicație pentru a le crea și edita.
+- Atât `publish.css`, cât și `publish.js` trebuie să se afle în directorul rădăcină (`/`) al seifului tău.
+- Implicit, `publish.css` și `publish.js` nu apar în exploratorul de fișiere, dar poți totuși să le publici din fereastra de dialog **Publică schimbările**.
+- Pentru a folosi JavaScript personalizat cu `publish.js`, ai nevoie de un [[Custom domains|domeniu personalizat]].
 
-For favicons, Obsidian Publish supports the following naming conventions, where `32` represents the icon's dimensions in pixels:
+Pentru favicon-uri, Obsidian Publish suportă următoarele convenții de denumire, unde `32` reprezintă dimensiunile pictogramei în pixeli:
 
 - `favicon-32.png`
 - `favicon-32x32.png`
 - `favicon.ico`
 
-We recommend that you provide one or more of the following dimensions:
+Îți recomandăm să furnizezi una sau mai multe dintre următoarele dimensiuni:
 
 - `favicon-32x32.png`
 - `favicon-128x128.png`
@@ -38,80 +37,80 @@ We recommend that you provide one or more of the following dimensions:
 - `favicon-192x192.png`
 - `favicon-196x196.png`
 
-You have flexibility in placing favicons anywhere within the vault, as long as they are published to your site.
+Ai libertatea de a plasa favicon-urile oriunde în seif, atâta timp cât sunt publicate pe site-ul tău.
 
-## Use a community theme
+## Folosește o temă comunitară
 
-To use one of the community themes for your site:
+Pentru a folosi una dintre temele comunitare pentru site-ul tău:
 
-1. Open your vault in the default file explorer for your OS.
-2. Go to the vault settings folder (default: `.obsidian`).
-3. Open the `themes` folder.
-4. Copy the CSS file for the theme you want to use for your site.
-5. Paste the file into the root folder of your vault.
-6. Rename the CSS file to `publish.css`.
-7. [[Publish your content#Publish notes|Publish]] `publish.css`.
+1. Deschide seiful tău în exploratorul de fișiere implicit al sistemului tău de operare.
+2. Mergi la directorul de setări al seifului (implicit: `.obsidian`).
+3. Deschide directorul `themes`.
+4. Copiază fișierul CSS al temei pe care vrei să o folosești pentru site-ul tău.
+5. Lipește fișierul în directorul rădăcină al seifului tău.
+6. Redenumește fișierul CSS în `publish.css`.
+7. [[Publish your content#Publish notes|Publică]] `publish.css`.
 
-**Notes:**
+**Note:**
 
-- If the style doesn’t update within a few minutes, try refreshing your browser cache.
-- You can switch between light and dark mode in the [[Manage sites#View site options|site options]].
-- Many community themes use **Style Settings** for custom styling, but these settings do not work on Obsidian Publish.
+- Dacă stilul nu se actualizează în câteva minute, încearcă să reîmprospătezi memoria cache a browserului.
+- Poți comuta între modul luminos și modul întunecat în [[Manage sites#View site options|opțiunile siteului]].
+- Multe teme comunitare folosesc **Style Settings** pentru stilizare personalizată, dar aceste setări nu funcționează pe Obsidian Publish.
 
-> [!tip] Developing themes
-> Can't find the theme for you? Learn how to [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) yourself.
+> [!tip] Dezvoltarea temelor
+> Nu găsești tema potrivită pentru tine? Află cum să [construiești o temă Publish](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) chiar tu.
 
-## Enable UI features
+## Activează funcții de interfață
 
-You can toggle several UI features for your site, such as the graph view or a table of contents.
+Poți comuta mai multe funcții de interfață pentru site-ul tău, precum afișajul grafic sau un cuprins.
 
-Browse the available UI features under the **Reading experience** and **Components** sections in the [[Manage sites#View site options|site options]]
+Răsfoiește funcțiile de interfață disponibile în secțiunile **Experiența de citire** și **Componente** din [[Manage sites#View site options|opțiunile siteului]]
 
-### Customize navigation
+### Personalizează navigarea
 
-Within Obsidian Publish, you have the ability to customize the navigation order and display of files and folders within the Publish [[File explorer]]. Navigation items are listed in published order by default. Notes not published will not appear within this pane.
+În cadrul Obsidian Publish, ai posibilitatea să personalizezi ordinea de navigare și afișarea fișierelor și directoarelor din [[File explorer|exploratorul de fișiere]] Publish. Elementele de navigare sunt listate implicit în ordinea publicării. Notele nepublicate nu vor apărea în acest panou.
 
-#### Accessing Customize navigation options
+#### Accesarea opțiunilor de personalizare a navigării
 
-1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, select **Change site options** ![[lucide-cog.svg#icon]].
-3. Under **Components settings**, next to **Customize navigation**, select the **manage** button. 
+1. În [[Ribbon|Panglică]], selectează **Publică schimbările** ![[lucide-send.svg#icon]] sau deschide [[Command palette|Paleta de comenzi]] și scrie **Publish: Publish changes...**
+2. În fereastra de dialog **Publică schimbările**, selectează **Schimbă opțiunile siteului** ![[lucide-cog.svg#icon]].
+3. Sub **Setările componentelor**, lângă **Personalizează navigarea**, selectează butonul **gestionează**. 
 
-A new pop-up window titled **Navigation** will appear over your **Change site options** window.
+O nouă fereastră pop-up intitulată **Navigare** va apărea peste fereastra **Schimbă opțiunile siteului**.
 
-#### Adjust navigation items
+#### Ajustează elementele de navigare
 
-In the section labeled **Navigation preview**, you can adjust the display order of your published content.
+În secțiunea etichetată **Previzualizare navigare**, poți ajusta ordinea de afișare a conținutului tău publicat.
 
-1. Select the folder or note you want to adjust.
-2. Drag the note or folder up or down until it is your desired place.
-3. In the lower right of the **Navigation** window, select **Done**. 
+1. Selectează directorul sau nota pe care vrei să o ajustezi.
+2. Trage nota sau directorul în sus sau în jos până ajunge în locul dorit.
+3. În partea dreaptă jos a ferestrei **Navigare**, selectează **Gata**. 
 
-Publish will send your navigation changes to your site. 
+Publish va trimite schimbările tale de navigare către site-ul tău. 
 
-#### Hide and unhide navigation items
+#### Ascunde și afișează elemente de navigare
 
-If there are notes or folders you have published, but you do not want visible within your Navigation, you can opt to hide those items instead. 
+Dacă există note sau directoare pe care le-ai publicat, dar pe care nu vrei să le vezi în navigare, poți opta să le ascunzi. 
 
-1. Select the folder or note you want to adjust.
-2. Right click and select **Hide in navigation**. The item should now disappear from the **Navigation preview**.
-3. In the lower right of the **Navigation** window, select **Done**. 
+1. Selectează directorul sau nota pe care vrei să o ajustezi.
+2. Apasă click-dreapta și selectează **Ascunde din navigare**. Elementul ar trebui să dispară acum din **Previzualizare navigare**.
+3. În partea dreaptă jos a ferestrei **Navigare**, selectează **Gata**. 
 
-Publish will send your navigation changes to your site. 
+Publish va trimite schimbările tale de navigare către site-ul tău. 
 
-> [!tip] You can **Show hidden** files by selecting the checkbox to the right of the **Navigation Preview** title
+> [!tip] Poți **afișa elementele ascunse** selectând căsuța de bifare din dreapta titlului **Previzualizare navigare**
 
-## FAQ
+## Întrebări frecvente
 
-**Can I move files from one folder to another within the Navigation?**
+**Pot muta fișiere dintr-un director în altul în cadrul navigării?**
 
-No. The file navigation structure for notes within folders needs to be maintained. You can adjust note order within folders (including the vault root), and folder order within other folders. 
+Nu. Structura de navigare a fișierelor pentru notele din directoare trebuie păstrată. Poți ajusta ordinea notelor în cadrul directoarelor (inclusiv rădăcina seifului), precum și ordinea directoarelor în cadrul altor directoare. 
 
-**Can I edit the order of multiple notes and folders before selecting Done?**
+**Pot edita ordinea mai multor note și directoare înainte de a selecta Gata?**
 
-Yes.
+Da.
 
-**How do I revert these changes?**
+**Cum revin la aceste schimbări?**
 
-- **Display order**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Navigation item display order**. This will restore your navigation items to alphabetical order.
-- **Hidden status**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Hide pages or folders from navigation**. This will restore your hidden navigation items to a visible state.
+- **Ordinea de afișare**: Selectează pictograma **Restaurare implicită** (săgeata de rotire în sens invers acelor de ceasornic) de lângă **Ordinea de afișare a elementelor de navigare**. Aceasta va restaura elementele tale de navigare la ordinea alfabetică.
+- **Starea de ascundere**: Selectează pictograma **Restaurare implicită** (săgeata de rotire în sens invers acelor de ceasornic) de lângă **Ascunde pagini sau directoare din navigare**. Aceasta va readuce elementele de navigare ascunse la o stare vizibilă.

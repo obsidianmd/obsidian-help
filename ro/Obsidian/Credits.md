@@ -1,12 +1,11 @@
 ---
-localized: null
 permalink: credits
 ---
-Names aren't listed by amount of contribution, but alphabetically (or at least we try!).
+Numele nu sunt listate în funcție de nivelul contribuției, ci alfabetic (sau cel puțin așa încercăm!).
 
-## Core team
+## Echipa principală
 
-The core team that builds and maintains Obsidian.
+Echipa principală care construiește și întreține Obsidian.
 
 - codedmart (Brandon Martin)
 - dharam (Dharam Kapila)
@@ -17,25 +16,25 @@ The core team that builds and maintains Obsidian.
 - Sigrunixia ([Rebbecca Bishop](https://tenebrousdragon.com/home))<span class='flair'>Sorcerous Support Dragon</span> <span class='flair'>TTRPG Enthusiast</span>
 - tgrosinger ([Tony Grosinger](https://grosinger.net))
 
-## Contributors
+## Contribuitori
 
-Part-time developers that help build Obsidian.
+Dezvoltatori part-time care ajută la construirea Obsidian.
 
 - cmptr (Aaron Bell)
 - mgmeyers ([Matthew Meyers](https://matthewmeye.rs/))
 
-## Community review
+## Recenzia comunității
 
-Contributors to the [Community](https://community.obsidian.md/) plugin/theme review process and tools.
+Contribuitori la procesul și instrumentele de recenzie a modulelor/temelor din [Comunitate](https://community.obsidian.md/).
 
 - Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
 
-## Moderation
+## Moderare
 
-Moderators manage the Obsidian Forum, Discord, and Reddit.
+Moderatorii gestionează Forumul Obsidian, Discord și Reddit.
 
 - argentum<span class='flair'>Team Little Silvers</span> <span class='flair'>Linux master</span> <span class='flair'>Zotero master</span> ^a4b3a2
 - CawlinTeffid ([Colin Tedford](https://colintedford.com/)) <span class='flair'>embedded-search ambassador</span>
@@ -48,34 +47,34 @@ Moderators manage the Obsidian Forum, Discord, and Reddit.
 - WhiteNoise<span class='flair'>Think Tank</span> <span class='flair'>Zotero master</span> <span class='flair'>Bug report exterminator</span>
 - Carl the Turtle<span class='flair'>Online 24/7</span> <span class='flair'>Easily triggered</span> <span class='flair'>Good and pure</span> 
 
-## Alumni
+## Foști membri
 
-Past moderators and team members who have moved on to new adventures!
+Foști moderatori și membri ai echipei care au trecut spre noi aventuri!
 
 - Eleanor ([Eleanor Konik](https://eleanorkonik.com))<span class='flair'>Halp Obsidian turned me into a dev</span>
 - joethei ([Johannes Theiner](https://joethei.xyz/)) <span class='flair'>Plugin API Master</span>
 - mediapathic ([Steen Comer](http://mediapathic.net/))<span class='flair'>Bad Cop</span>
 - ryanjamurphy ([Ryan](https://fulcra.design/) [J. A. Murphy](https://axle.design/))<span class='flair'>That funny guy</span> <span class='flair'>Apple Fanboy</span> <span class='flair'>Forum master</span>
 
-## Plugin inspirations
+## Inspirații pentru module
 
-Credits to these plugin developers for pioneering functionality that were adapted into Obsidian:
+Mulțumiri acestor dezvoltatori de module pentru pionieratul funcționalităților adaptate ulterior în Obsidian:
 
-- pjeby for the Hotkey Helper plugin
-- javalent for the Admonition plugin
-- javalent for the Settings Search plugin
-- NothingIsLost for CodeMirror 6 improvements
-- mgmeyers for the Indentation Guides plugin
-- blacksmithgu for Dataview
+- pjeby pentru modulul Hotkey Helper
+- javalent pentru modulul Admonition
+- javalent pentru modulul Settings Search
+- NothingIsLost pentru îmbunătățirile aduse CodeMirror 6
+- mgmeyers pentru modulul Indentation Guides
+- blacksmithgu pentru Dataview
 
-## Builds
+## Compilări
 
-- jstone for maintaining our builds on Flathub
-- adamgibbins and ran-dall for maintaining our builds on homebrew
+- jstone pentru întreținerea build-urilor noastre pe Flathub
+- adamgibbins și ran-dall pentru întreținerea build-urilor noastre pe homebrew
 
-## Translators
+## Traducători
 
-See also the full list of [translation contributors](https://github.com/obsidianmd/obsidian-translations/graphs/contributors?from=7%2F31%2F2020).
+Vezi și lista completă a [contribuitorilor la traduceri](https://github.com/obsidianmd/obsidian-translations/graphs/contributors?from=7%2F31%2F2020).
 
 - Andrea Brandi (Italian)
 - Anne-Katrin aka Mephi (German)
@@ -105,27 +104,27 @@ See also the full list of [translation contributors](https://github.com/obsidian
 - yo-goto, ぱだわん (Japanese)
 - Zachary Shirmohammadli (Persian) 
 
-## Supporting organizations
+## Organizații susținătoare
 
-Organizations that support Obsidian with a [[Commercial license]] are featured on our [Enterprise](https://obsidian.md/enterprise/) page. 
+Organizațiile care susțin Obsidian cu o [[Commercial license]] sunt prezentate pe pagina noastră [Enterprise](https://obsidian.md/enterprise/). 
 
-## Documentation
+## Documentație
 
-The first version of the help vault was written by Silver. Later part of it was written by [@mediapathic](http://mediapathic.net), with a big help from Reggie. We also got corrections from the many pairs of eyes in the Discord and forum community.
+Prima versiune a seifului de ajutor a fost scrisă de Silver. O parte ulterioară a fost scrisă de [@mediapathic](http://mediapathic.net), cu un ajutor important din partea lui Reggie. Am primit, de asemenea, corecturi de la multe perechi de ochi din comunitatea Discord și forum.
 
-The docs was maintained by [Marcus Olsson](https://marcus.se.net/) for a while. Currently it’s maintained by the Obsidian team.
+Documentația a fost întreținută de [Marcus Olsson](https://marcus.se.net/) o vreme. În prezent este întreținută de echipa Obsidian.
 
-We now accept pull requests to the help vault in [our docs repo](https://github.com/obsidianmd/obsidian-docs/). Issues are welcome.
+Acum acceptăm pull request-uri către seiful de ajutor în [repository-ul nostru de documentație](https://github.com/obsidianmd/obsidian-docs/). Issue-urile sunt binevenite.
 
-### Add your name
+### Adaugă-ți numele
 
-If you're a translator, please make a pull request to add "Your Name (contributed language)" to the section above. Please keep the list of names alphabetical, thanks!
+Dacă ești traducător, te rugăm să faci un pull request pentru a adăuga „Numele tău (limba la care ai contribuit)” la secțiunea de mai sus. Te rugăm să păstrezi lista de nume în ordine alfabetică, mulțumim!
 
-If your name isn't in English and can't be alphabetically listed, use this format: `your-github-username, [your name in your language] (Language name)`.
+Dacă numele tău nu este în engleză și nu poate fi listat alfabetic, folosește acest format: `numele-tau-de-utilizator-github, [numele tău în limba ta] (Numele limbii)`.
 
-## Third party acknowledgements
+## Mulțumiri pentru terți
 
-Obsidian uses the open source libraries below (in alphabetical order):
+Obsidian folosește bibliotecile open source de mai jos (în ordine alfabetică):
 
 ### Capacitor
 
@@ -235,10 +234,10 @@ Version `2.7.0`
 ISC License
 Copyright Eemeli Aro <eemeli@gmail.com>
 
-## Previous logo
+## Logo-ul anterior
 
-The Obsidian logo used before v1.3.5 was adapted from:
+Logo-ul Obsidian folosit înainte de v1.3.5 a fost adaptat din:
 
 [Crystal shard icon](https://icon-icons.com/icon/Crystal-Shard/88819)
-By [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
-License: Attribution 3.0 Unported (CC BY 3.0)
+De [Chanut is Industries](https://icon-icons.com/users/W52nHhY3W1VlvwyJTwS4d/icon-sets/ "Designer")
+Licență: Attribution 3.0 Unported (CC BY 3.0)

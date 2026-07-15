@@ -1,27 +1,26 @@
 ---
-localized: null
 permalink: html
 publish: true
 mobile: true
-description: 'Learn how to use HTML in Obsidian, including limitations with Markdown rendering, and HTML block requirements.'
+description: 'Aflați cum să folosiți HTML în Obsidian, inclusiv limitările privind afișarea Markdown și cerințele blocurilor HTML.'
 ---
 
-Obsidian supports HTML to allow you to display your notes the way you want, or even [[Embed web pages|embed web pages]]. Allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes. 
+Obsidian acceptă HTML pentru a vă permite să vă afișați notele așa cum doriți, sau chiar să [[Embed web pages|încorporați pagini web]]. Permiterea HTML în notele dvs. vine cu riscuri. Pentru a preveni ca un cod rău-intenționat să provoace daune, Obsidian _sanitizează_ orice cod HTML din notele dvs. 
 
 > [!example] 
-> The `<script>` element normally lets you run JavaScript whenever it loads. If Obsidian didn't sanitize HTML, an attacker could convince you to paste a text containing JavaScript that extracts sensitive information from your computer and sends it back to them.
+> Elementul `<script>` vă permite în mod normal să rulați JavaScript de fiecare dată când se încarcă. Dacă Obsidian nu ar sanitiza HTML-ul, un atacator ar putea să vă convingă să lipiți un text ce conține JavaScript care extrage informații sensibile de pe calculatorul dvs. și le trimite înapoi către el.
 
-That said, since Markdown syntax does not support all forms of styling, using sanitized HTML can be yet another way of enhancing the quality of your notes. We've included some of the more common usages of HTML.
+Cu toate acestea, deoarece sintaxa Markdown nu acceptă toate formele de stilizare, folosirea HTML sanitizat poate fi o altă modalitate de a îmbunătăți calitatea notelor dvs. Am inclus câteva dintre cele mai comune utilizări ale HTML.
 
-## HTML limitations
+## Limitări HTML
 
-Obsidian has specific limitations when using HTML in your notes:
+Obsidian are limitări specifice atunci când folosiți HTML în notele dvs.:
 
-### No Markdown inside HTML
+### Fără Markdown în interiorul HTML
 
-Obsidian does not render Markdown syntax inside HTML elements. This is an intentional design choice for performance optimization and to keep parser complexity low when managing large documents.
+Obsidian nu afișează sintaxa Markdown în interiorul elementelor HTML. Aceasta este o alegere de proiectare intenționată pentru optimizarea performanței și pentru a menține complexitatea analizorului de sintaxă scăzută atunci când se gestionează documente mari.
 
-For example, this will not work as expected:
+De exemplu, acest lucru nu va funcționa așa cum vă așteptați:
 
 ```md
 <div>
@@ -29,11 +28,11 @@ This **will not** be bold and this `will not` be code.
 </div>
 ```
 
-### HTML blocks must be self-contained
+### Blocurile HTML trebuie să fie autonome
 
-HTML blocks must be complete and cannot contain blank lines within them. Blank lines will break the HTML block.
+Blocurile HTML trebuie să fie complete și nu pot conține rânduri goale în interiorul lor. Rândurile goale vor întrerupe blocul HTML.
 
-This will work:
+Acest lucru va funcționa:
 
 ```md
 <table>
@@ -43,7 +42,7 @@ This will work:
 </table>
 ```
 
-This will not work correctly:
+Acest lucru nu va funcționa corect:
 
 ```md
 <table>
@@ -57,29 +56,29 @@ This will not work correctly:
 </table>
 ```
 
-### When Markdown appears to work in HTML
+### Când Markdown pare să funcționeze în HTML
 
-Some inline HTML tags like `<span>` or `<a>` have limited functionality and may appear to render Markdown, but this is not actually what's happening. The Markdown is being processed outside of the HTML context.
+Unele etichete HTML în text, precum `<span>` sau `<a>`, au funcționalitate limitată și pot părea să afișeze Markdown, dar nu acesta este de fapt ceea ce se întâmplă. Markdown este procesat în afara contextului HTML.
 
-For more details on how Obsidian handles Markdown, see [[Obsidian Flavored Markdown]].
+Pentru mai multe detalii despre modul în care Obsidian gestionează Markdown, consultați [[Obsidian Flavored Markdown]].
 
-## Common HTML usage
+## Utilizări comune ale HTML
 
-> [!info] More details on using `<iframe>` can be found in [[Embed web pages]].
+> [!info] Mai multe detalii despre folosirea `<iframe>` pot fi găsite în [[Embed web pages]].
 
-### Comments
+### Comentarii
 
-[[Basic formatting syntax#Comments|Markdown comments]] are the preferred way of adding hidden comments within your notes. However some methods of converting Markdown notes, such as [Pandoc](https://pandoc.org), have limited support of Markdown comments. In those instances, you can use a `<!-- HTML Comment -->` instead!
+[[Basic formatting syntax#Comments|Comentariile Markdown]] sunt modalitatea preferată de a adăuga comentarii ascunse în notele dvs. Cu toate acestea, unele metode de conversie a notelor Markdown, precum [Pandoc](https://pandoc.org), au suport limitat pentru comentariile Markdown. În acele cazuri, puteți folosi în schimb un `<!-- HTML Comment -->`!
 
-### Underline
+### Subliniere
 
-If you need to quickly underline an item in your notes, you can use `<u>Example</u>` to create <u>your underlined text</u>.
+Dacă trebuie să subliniați rapid un element în notele dvs., puteți folosi `<u>Example</u>` pentru a crea <u>text subliniat</u>.
 
 ### Span/Div
 
-Span and div tags can be used to apply custom classes from a [[CSS snippets|CSS snippet]], or custom defined styling, onto a selected area of text. For example, using `<span style="font-family: cursive">your text</span>` can allow you to quickly <span style="font-family: cursive">change your font</span>.
+Etichetele span și div pot fi folosite pentru a aplica clase personalizate dintr-un [[CSS snippets|fragment CSS]], sau stilizare definită personalizat, pe o zonă de text selectată. De exemplu, folosind `<span style="font-family: cursive">your text</span>` puteți schimba rapid <span style="font-family: cursive">fontul textului dvs.</span>.
 
-## Strikethrough
+## Tăiat
 
-Need to strike <s>some text</s>? Use `<s>this</s>` to strike it out.
+Trebuie să tăiați <s>niște text</s>? Folosiți `<s>this</s>` pentru a-l tăia.
 

@@ -1,38 +1,37 @@
 ---
-localized: null
 permalink: plugins/command-palette
 ---
-The Command palette [[Core plugins|plugin]] lets you run any command directly from your keyboard. It also lets you explore all the available commands and their [[Hotkeys|keyboard shortcuts]].
+Modulul [[Core plugins|Paleta de comenzi]] îți permite să rulezi orice comandă direct de la tastatură. De asemenea, îți permite să explorezi toate comenzile disponibile și [[Hotkeys|combinațiile de taste]] ale acestora.
 
-To run a command from the Command palette:
+Pentru a rula o comandă din Paleta de comenzi:
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette. You can also open it from the [[Ribbon]] with Command palette icon ![[lucide-terminal.svg#icon]]. 
-2. Type the name of the command you want to run.
-3. Navigate to the command using the arrow keys.
-4. Press `Enter`.
+1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide Paleta de comenzi. O poți deschide și din [[Ribbon|Panglică]] cu pictograma Paletei de comenzi ![[lucide-terminal.svg#icon]]. 
+2. Scrie numele comenzii pe care vrei să o rulezi.
+3. Navighează la comandă folosind săgețile de la tastatură.
+4. Apasă `Enter`.
 
-> [!tip] Tip
-> The Command palette supports _fuzzy matching_, allowing you to search for commands even if you don't know their exact names. For example, typing "scf" will find the **S**ave **c**urrent **f**ile command.
+> [!tip] Sfat
+> Paleta de comenzi acceptă _potrivire aproximativă_ (fuzzy matching), permițându-ți să cauți comenzi chiar dacă nu le știi numele exact. De exemplu, scriind „scf” vei găsi comanda **S**alvează fișierul **c**urrent (**S**ave **c**urrent **f**ile).
 
-As of **version 1.8.3**, recently used commands appear at the top of the Command palette. However, these recently used commands are still subject to the _fuzzy matching_ algorithm. When you start filtering, shorter commands will be prioritized over recently used ones.
+Începând cu **versiunea 1.8.3**, comenzile folosite recent apar în partea de sus a Paletei de comenzi. Totuși, aceste comenzi folosite recent sunt încă supuse algoritmului de _potrivire aproximativă_. Când începi să filtrezi, comenzile mai scurte vor fi prioritizate față de cele folosite recent.
 
-## Pinned commands
+## Comenzi fixate
 
-You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
+Poți fixa comenzile folosite frecvent în partea de sus a Paletei de comenzi pentru a le accesa rapid fără să fie nevoie să le scrii numele.
 
-> [!tip] Tip
-> If you want to quickly run frequently used commands, you can also [[Hotkeys#Set a hotkey|set hotkeys]] for them.
+> [!tip] Sfat
+> Dacă vrei să rulezi rapid comenzi folosite frecvent, poți și [[Hotkeys#Set a hotkey|să le setezi combinații de taste]].
 
-### Pin a command
+### Fixează o comandă
 
-1. Open **[[Settings]]**.
-2. In the sidebar, click **Command palette** under **Plugin options**.
-3. Next to **New pinned command**, click **Select a command**.
-4. Select the command you want to pin from the list.
-5. Press `Enter`.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, dă clic pe **Command palette** sub **Opțiunile modulului**.
+3. Lângă **New pinned command**, dă clic pe **Select a command**.
+4. Selectează comanda pe care vrei să o fixezi din listă.
+5. Apasă `Enter`.
 
-### Unpin a command
+### Anulează fixarea unei comenzi
 
-1. Open **[[Settings]]**.
-2. In the sidebar, click **Command palette** under **Plugin options**.
-3. Under **Pinned commands**, click the cross icon next to the command you want to unpin.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, dă clic pe **Command palette** sub **Opțiunile modulului**.
+3. Sub **Pinned commands**, dă clic pe pictograma cruce de lângă comanda pe care vrei să o defixezi.

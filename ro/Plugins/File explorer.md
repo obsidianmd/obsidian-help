@@ -1,100 +1,99 @@
 ---
-localized: null
 permalink: plugins/file-explorer
 publish: true
 mobile: true
-description: File explorer is a core plugin that lets you manage files and folders inside your vault.
+description: File explorer este un modul integrat care îți permite să gestionezi fișiere și directoare în seiful tău.
 ---
 
-File explorer is a [[Core plugins|core plugin]] that lets you manage files and folders inside your vault. You can browse notes and other [[Accepted file formats]] in your vault and perform many common file operations:
+File explorer este un [[Core plugins|modul integrat]] care îți permite să gestionezi fișiere și directoare în seiful tău. Poți răsfoi note și alte [[Accepted file formats|formate de fișiere acceptate]] din seiful tău și poți efectua multe operațiuni comune cu fișierele:
 
-- Create, delete, and rename files and folders.
-- Move files and folders with drag and drop.
-- Use the context menu to access all available operations.
+- Creează, șterge și redenumește fișiere și directoare.
+- Mută fișiere și directoare prin tragere și plasare.
+- Folosește meniul contextual pentru a accesa toate operațiunile disponibile.
 
-> [!tip]- Drag and drop files
-> You can drag a file from the File explorer into your note to create a link to it, or drag a file into a folder in the File explorer to copy it.
+> [!tip]- Tragere și plasare a fișierelor
+> Poți trage un fișier din Exploratorul de fișiere în nota ta pentru a crea o legătură către el, sau poți trage un fișier într-un director din Exploratorul de fișiere pentru a-l copia.
 
-## Create a new note
+## Creează o notă nouă
 
-To create a new note in the default location for new notes:
+Pentru a crea o notă nouă în locația implicită pentru note noi:
 
-1. Click **New note** ![[lucide-pen-line.svg#icon]] at the top of the File explorer.
-2. Type the name of the note, and then press Enter.
+1. Dă clic pe **New note** ![[lucide-pen-line.svg#icon]] în partea de sus a Exploratorului de fișiere.
+2. Scrie numele notei, apoi apasă Enter.
 
-> [!tip]- Change default location
-> You can change the default location for new notes under **[[Settings]] → [[Settings#Files and links|Files and links]] → [[Settings#Default location for new notes|Default location for new notes]]**.
+> [!tip]- Schimbă locația implicită
+> Poți schimba locația implicită pentru note noi sub **[[Settings|Setări]] → [[Settings#Files and links|Fișiere și legături]] → [[Settings#Default location for new notes|Locația implicită pentru note noi]]**.
 
-To create a new note in a specific folder:
+Pentru a crea o notă nouă într-un director anume:
 
-1. Right-click the folder and then click **New note**.
-2. Type the name of the note, and then press Enter.
+1. Dă clic dreapta pe director, apoi dă clic pe **New note**.
+2. Scrie numele notei, apoi apasă Enter.
 
-## Create a new folder
+## Creează un director nou
 
-To create a new folder in the root of your vault:
+Pentru a crea un director nou în rădăcina seifului tău:
 
-1. Click **New folder** ![[lucide-folder-plus.svg#icon]] at the top of the File explorer.
-2. Type the name of the folder, and then press Enter.
+1. Dă clic pe **New folder** ![[lucide-folder-plus.svg#icon]] în partea de sus a Exploratorului de fișiere.
+2. Scrie numele directorului, apoi apasă Enter.
 
-To create a subfolder:
+Pentru a crea un subdirector:
 
-1. Right-click the folder you want to create the subfolder in, and then click **New folder**.
-2. Type the name of the folder, and then press Enter.
+1. Dă clic dreapta pe directorul în care vrei să creezi subdirectorul, apoi dă clic pe **New folder**.
+2. Scrie numele directorului, apoi apasă Enter.
 
-## Change sort order
+## Schimbă ordinea de sortare
 
-To change the sort order of your files:
+Pentru a schimba ordinea de sortare a fișierelor tale:
 
-1.  Select **Change sort order** ![[lucide-arrow-up-narrow-wide.svg#icon]] at the top of the File explorer.
-2. Choose how you want to sort your files. You can sort in ascending or descending order by file name, modified time, or created time.
+1.  Selectează **Change sort order** ![[lucide-arrow-up-narrow-wide.svg#icon]] în partea de sus a Exploratorului de fișiere.
+2. Alege cum vrei să-ți sortezi fișierele. Poți sorta în ordine crescătoare sau descrescătoare după numele fișierului, ora modificării sau ora creării.
 
-## Auto-reveal active file
+## Dezvăluie automat fișierul activ
 
-When you open a note, File explorer can automatically scroll to and highlight that note in the folder tree. This helps you keep track of where your active note is located within your vault.
+Când deschizi o notă, Exploratorul de fișiere poate derula automat la acea notă și o poate evidenția în structura de directoare. Acest lucru te ajută să urmărești unde se află nota ta activă în seiful tău.
 
-To toggle auto-reveal:
+Pentru a comuta dezvăluirea automată:
 
-- Select **Auto-reveal active file** ![[lucide-gallery-vertical.svg#icon]] at the top of the File explorer.
+- Selectează **Auto-reveal active file** ![[lucide-gallery-vertical.svg#icon]] în partea de sus a Exploratorului de fișiere.
 
-When enabled, the File explorer will automatically follow and reveal the currently open note.
+Când este activată, Exploratorul de fișiere va urmări automat și va dezvălui nota deschisă în prezent.
 
-## Expand or collapse all folders
+## Extinde sau restrânge toate directoarele
 
-You can expand or collapse all folders in the File explorer at once.
+Poți extinde sau restrânge toate directoarele din Exploratorul de fișiere deodată.
 
-To expand all folders:
+Pentru a extinde toate directoarele:
 
-- Select **Expand all** ![[lucide-chevrons-up-down.svg#icon]] at the top of the File explorer.
+- Selectează **Expand all** ![[lucide-chevrons-up-down.svg#icon]] în partea de sus a Exploratorului de fișiere.
 
-To collapse all folders:
+Pentru a restrânge toate directoarele:
 
-- Select **Collapse all** ![[lucide-chevrons-down-up.svg#icon]] at the top of the File explorer.
+- Selectează **Collapse all** ![[lucide-chevrons-down-up.svg#icon]] în partea de sus a Exploratorului de fișiere.
 
-## Delete a file or folder
+## Șterge un fișier sau un director
 
-1. Right-click the file you want to delete, and then click **Delete**.
-2. If prompted to confirm that you want to delete the file, click **Delete**.
+1. Dă clic dreapta pe fișierul pe care vrei să-l ștergi, apoi dă clic pe **Delete**.
+2. Dacă ți se cere să confirmi că vrei să ștergi fișierul, dă clic pe **Delete**.
 
-For more information, refer to [[Manage notes#Delete a note|Delete a note]].
+Pentru mai multe informații, consultă [[Manage notes#Delete a note|Șterge o notă]].
 
-## Rename a file or folder
+## Redenumește un fișier sau un director
 
-1. Right-click the file you want to rename, and then click **Rename**.
-2. Type the new name, and then press Enter.
+1. Dă clic dreapta pe fișierul pe care vrei să-l redenumești, apoi dă clic pe **Rename**.
+2. Scrie noul nume, apoi apasă Enter.
 
-For more information, refer to [[Manage notes#Rename a note|Rename a note]].
+Pentru mai multe informații, consultă [[Manage notes#Rename a note|Redenumește o notă]].
 
-## Move a file or folder
+## Mută un fișier sau un director
 
-To move a file or folder, you can use drag-and-drop or the context menu.
+Pentru a muta un fișier sau un director, poți folosi tragere și plasare sau meniul contextual.
 
-**Drag and drop:**
+**Tragere și plasare:**
 
-- Drag a file or folder to the folder you want to move it to.
-- With `Alt-Click` (Windows/Linux) or `Opt-Click` (macOS) you can select multiple individual files and drag them to another folder. If they're all in a row, you can use `Shift-Click` for it.
+- Trage un fișier sau un director în directorul în care vrei să-l muți.
+- Cu `Alt-Click` (Windows/Linux) sau `Opt-Click` (macOS) poți selecta mai multe fișiere individuale și le poți trage într-un alt director. Dacă sunt toate consecutive, poți folosi `Shift-Click` pentru asta.
 
-**Context menu:**
+**Meniul contextual:**
 
-1. Right-click a file, and then select **Move file to...**.
-2. Search for the name of the folder you want to move the file to, and then select it from the list.
+1. Dă clic dreapta pe un fișier, apoi selectează **Move file to...**.
+2. Caută numele directorului în care vrei să muți fișierul, apoi selectează-l din listă.

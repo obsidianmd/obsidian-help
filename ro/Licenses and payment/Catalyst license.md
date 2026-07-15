@@ -1,59 +1,58 @@
 ---
-localized: null
 permalink: catalyst
 ---
-The Catalyst license is a one-time purchase that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
+Licența Catalyst este o achiziție unică ce îți oferă acces timpuriu la versiunile beta și te ajută să susții dezvoltarea continuă a Obsidian. Poți sprijini Obsidian [achiziționând o licență Catalyst](https://obsidian.md/buy/catalyst). 
 
-Benefits include:
+Beneficiile includ:
 
-- Early access to [[#Enable early access versions|new versions]] of Obsidian
-- Access to exclusive [[#Join our Insider channels|Insider channels]].
-- Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
+- Acces timpuriu la [[#Activează versiunile cu acces timpuriu|versiuni noi]] ale Obsidian
+- Acces la [[#Alătură-te canalelor noastre Insider|canale Insider]] exclusive.
+- [[#Obține insigna pe forum|Insigne pe forum]] și [[#Obține insigna pe Discord|insigne pe Discord]] exclusive.
 
-## Catalyst tiers
+## Nivelurile Catalyst
 
-There are three tiers of Catalyst based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
+Există trei niveluri de Catalyst în funcție de suma pe care o contribui: *Insider*, *Supporter* și *VIP*.
 
-| Benefits                                 | Insider | Supporter |   VIP    |
-| ---------------------------------------- | :-----: | :-------: | :------: |
-| Early access to new versions             |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channels |    ✓    |     ✓     |    ✓     |
-| Access to exclusive lounge channel       |         |     ✓     |    ✓     |
-| Insider badge                            |    ✓    |           |          |
-| Supporter badge                          |         |     ✓     |          |
-| VIP badge                                |         |           |    ✓     |
-| **Contribution (USD)**                   | **$25** |  **$50**  | **$100** |
+| Beneficii                                    | Insider | Supporter |   VIP    |
+| --------------------------------------------- | :-----: | :-------: | :------: |
+| Acces timpuriu la versiuni noi                |    ✓    |     ✓     |    ✓     |
+| Acces la canale de dezvoltare exclusive       |    ✓    |     ✓     |    ✓     |
+| Acces la canalul exclusiv de tip lounge       |         |     ✓     |    ✓     |
+| Insignă Insider                               |    ✓    |           |          |
+| Insignă Supporter                             |         |     ✓     |          |
+| Insignă VIP                                   |         |           |    ✓     |
+| **Contribuție (USD)**                         | **$25** |  **$50**  | **$100** |
 
 
-> [!info] Upgrade your Catalyst tier
-> If you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
+> [!info] Actualizează-ți nivelul Catalyst
+> Dacă deții deja o licență Catalyst, poți face upgrade la un nivel Catalyst superior plătind diferența de preț dintre nivelul actual și cel nou.
 
-## Access Catalyst benefits
+## Accesează beneficiile Catalyst
 
-Once you've purchased a Catalyst license, you can access a range of benefits. Learn how to enable them here.
+După ce ai achiziționat o licență Catalyst, poți accesa o gamă de beneficii. Află aici cum să le activezi.
 
-### Get your forum badge
+### Obține insigna pe forum
 
-**Note:** To connect your Obsidian account and your forum account, you must use the same email address for both accounts.
+**Notă:** Pentru a-ți conecta contul Obsidian cu contul de forum, trebuie să folosești aceeași adresă de e-mail pentru ambele conturi.
 
-1. If you haven't already, join our [forum](https://forum.obsidian.md/).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get forum badge**.
+1. Dacă nu ai făcut-o deja, alătură-te [forumului](https://forum.obsidian.md/) nostru.
+2. Accesează [tabloul de bord al contului tău Obsidian](https://obsidian.md/account/catalyst).
+3. Sub **Catalyst**, selectează **Get forum badge**.
 
-### Get your Discord badge
+### Obține insigna pe Discord
 
-1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get Discord badge**.
+1. Dacă nu ai făcut-o deja, alătură-te [serverului nostru de Discord](https://discord.gg/veuWUTm).
+2. Accesează [tabloul de bord al contului tău Obsidian](https://obsidian.md/account/catalyst).
+3. Sub **Catalyst**, selectează **Get Discord badge**.
 
-### Join our Insider channels
+### Alătură-te canalelor noastre Insider
 
-Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels. You automatically join the Insider channels after you [[#Get your Discord badge]].
+Membrii Insider pot discuta cu echipa Obsidian și cu alți membri Insider în canalele noastre exclusive de Discord. Te alături automat canalelor Insider după ce [[#Obține insigna pe Discord|obții insigna pe Discord]].
 
-- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) for discussions with Catalyst members.
-- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) for the latest early access releases on desktop.
-- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) for the latest early access releases on mobile.
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) pentru discuții cu membrii Catalyst.
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) pentru cele mai noi versiuni cu acces timpuriu pe desktop.
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) pentru cele mai noi versiuni cu acces timpuriu pe mobil.
 
-### Enable early access versions
+### Activează versiunile cu acces timpuriu
 
-Learn how to receive [[Early access versions]].
+Află cum să primești [[Early access versions]].

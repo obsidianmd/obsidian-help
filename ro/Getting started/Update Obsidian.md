@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: updates
 ---
 
-Obsidian's updating process is different on mobile and desktop devices.
+Procesul de actualizare al Obsidian diferă între dispozitivele mobile și cele desktop.
 
-Obsidian on desktop devices regularly checks for new updates. If automatic updates are enabled, the application will update on restart. Obsidian needs periodic [[#Installer updates|installer updates]], which require downloading and running the installer.
+Obsidian pe dispozitivele desktop verifică periodic dacă există actualizări noi. Dacă actualizările automate sunt activate, aplicația se va actualiza la repornire. Obsidian are nevoie periodic de [[#Actualizări ale instalatorului|actualizări ale instalatorului]], care necesită descărcarea și rularea instalatorului.
 
-On mobile devices, Obsidian is updated through the device's app store. The installer version is the same as the app version. Obsidian does not feature auto-update.
+Pe dispozitivele mobile, Obsidian se actualizează prin magazinul de aplicații al dispozitivului. Versiunea instalatorului este identică cu versiunea aplicației. Obsidian nu dispune de actualizare automată pe mobil.
 
-## Check for updates and view version
+## Verificați actualizările și vizualizați versiunea
 
-Open **[[Settings]] → General**.
+Deschideți **[[Settings]] → General**.
 
-You can find the current versions of the app and installer at the top of the page.
+Puteți găsi versiunile curente ale aplicației și ale instalatorului în partea de sus a paginii.
 
 ![[application-installer-current-version.png#interface]]
 
-To check for updates, select **Check for updates**. If there are new updates, Obsidian will offer to relaunch. Select **Relaunch** to apply any available updates.
+Pentru a verifica actualizările, selectați **Verificați actualizările**. Dacă există actualizări noi, Obsidian vă va oferi opțiunea de a reporni. Selectați **Repornire** pentru a aplica actualizările disponibile.
 
-## Disable automatic updates
+## Dezactivați actualizările automate
 
-If you prefer to update Obsidian manually, you can disable automatic updates.
+Dacă preferați să actualizați Obsidian manual, puteți dezactiva actualizările automate.
 
-1. Open **[[Settings]] → General**.
-2. Disable **Automatic updates**.
+1. Deschideți **[[Settings]] → General**.
+2. Dezactivați **Actualizări automate**.
 
-## Installer updates
+## Actualizări ale instalatorului
 
-On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will inform you when you need to update the installer version of Obsidian to keep things working. This is the version of Electron, the framework on which Obsidian is built, and it cannot be updated by the automatic update process. 
+Pe desktop, [notele de lansare](https://obsidian.md/changelog/) ale Obsidian vă vor informa atunci când trebuie să actualizați versiunea instalatorului Obsidian pentru ca totul să continue să funcționeze. Aceasta este versiunea Electron, framework-ul pe care este construit Obsidian, iar aceasta nu poate fi actualizată prin procesul de actualizare automată.
 
-A community plugin or theme may require an installer update to access newer features that are not available in older versions of Electron, and may ask you to update the installer version of Obsidian before Obsidian itself asks.
+Un modul comunitar sau o temă poate necesita o actualizare a instalatorului pentru a accesa funcții noi care nu sunt disponibile în versiunile mai vechi de Electron și vă poate cere să actualizați versiunea instalatorului Obsidian înainte ca Obsidian însuși să o solicite.
 
-To update the installer version of Obsidian:
+Pentru a actualiza versiunea instalatorului Obsidian:
 
-1. Navigate to https://obsidian.md/download.
-2. Select the **Download** button.
-3. Close Obsidian, if open.
-4. Proceed as detailed in [[Download and install Obsidian]].
+1. Navigați la https://obsidian.md/download.
+2. Selectați butonul **Descărcare**.
+3. Închideți Obsidian, dacă este deschis.
+4. Continuați conform detaliilor din [[Download and install Obsidian]].
 
-Your installer update is now complete.
+Actualizarea instalatorului dumneavoastră este acum finalizată.
 
 > [!tip] 
-> You **do not** need to uninstall Obsidian to update the installer version.
+> **Nu** trebuie să dezinstalați Obsidian pentru a actualiza versiunea instalatorului.

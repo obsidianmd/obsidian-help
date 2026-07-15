@@ -1,124 +1,123 @@
 ---
-localized: null
 permalink: tabs
 publish: true
 mobile: true
-description: 'Learn how to open, organize, and manage tabs in Obsidian, including pinning, stacking, and linked views.'
+description: 'Aflați cum să deschideți, organizați și gestionați filele în Obsidian, inclusiv fixarea, stivuirea și vizualizările legate.'
 ---
 
-Tabs in Obsidian work much like tabs in other apps, such as web browsers.
+Filele din Obsidian funcționează la fel ca filele din alte aplicații, precum browserele web.
 
-You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the app.
+Puteți deschide oricâte file doriți în Obsidian. Puteți, de asemenea, să rearanjați filele pentru a crea aranjamente personalizate care persistă până data viitoare când deschideți aplicația.
 
-> [!note] Mobile tabs
-> On mobile, you can manage open tabs from the tab counter in the [[Mobile app#Navigation bar|Navigation bar]].
+> [!note] File pe mobil
+> Pe mobil, puteți gestiona filele deschise din contorul de file aflat în [[Mobile app#Navigation bar|Bara de navigare]].
 
-## Open a new tab
+## Deschiderea unei file noi
 
-At the top of the application window, next to the last tab on the right, select **New tab** ![[lucide-plus.svg#icon]]. Or, use a keyboard shortcut:
+În partea de sus a ferestrei aplicației, lângă ultima filă din dreapta, selectați **Filă nouă** ![[lucide-plus.svg#icon]]. Sau, folosiți o combinație de taste:
 
-- **Windows and Linux:** `Ctrl+t`
+- **Windows și Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
 
-## Open a link
+## Deschiderea unei legături
 
-Select a link in Obsidian to open it in the active tab.
+Selectați o legătură în Obsidian pentru a o deschide în fila activă.
 
-To open a link in a new tab, press `Ctrl` (or `Cmd` on macOS) and select the link.
+Pentru a deschide o legătură într-o filă nouă, apăsați `Ctrl` (sau `Cmd` pe macOS) și selectați legătura.
 
-The following are all the modifier keys you can use to open links in various ways:
+Următoarele sunt toate tastele modificatoare pe care le puteți folosi pentru a deschide legături în diverse moduri:
 
-|Action|MacOS|Windows/Linux|
+|Acțiune|MacOS|Windows/Linux|
 |---|---|---|
-|**Navigate**|_None_|_None_|
-|**New Tab**|`⌘` (+ `Shift` in Source Mode)|`Ctrl` (+ `Shift` in Source Mode)|
-|**New Tab Group**|`⌘` `⌥`| `Ctrl` `Alt`|
-|**New Window**|`⌘` `⌥` `Shift`|`Ctrl` `Alt` `Shift`|
+|**Navigare**|_Fără_|_Fără_|
+|**Filă nouă**|`⌘` (+ `Shift` în modul sursă)|`Ctrl` (+ `Shift` în modul sursă)|
+|**Grup de file nou**|`⌘` `⌥`| `Ctrl` `Alt`|
+|**Fereastră nouă**|`⌘` `⌥` `Shift`|`Ctrl` `Alt` `Shift`|
 
-## Organize your tabs and windows
+## Organizarea filelor și ferestrelor
 
-Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate [[Pop-out windows|pop-out window]].
+Fiecare filă aparține unui _grup de file_. Puteți trage și plasa filele pentru a le rearanja în cadrul unui grup de file, pentru a le muta într-un alt grup de file sau pentru a crea un grup de file nou. Pe desktop, puteți trage filele în afara ferestrei lor pentru a le deschide într-o [[Pop-out windows|fereastră detașabilă]] separată.
 
-Tabs in sidebars only show the icon. Hover over the icon to show a tooltip with the tab title.
+Filele din barele laterale afișează doar pictograma. Treceți cursorul peste pictogramă pentru a afișa un indiciu cu titlul filei.
 
-### Arrange tabs
+### Rearanjarea filelor
 
-To change the order of your tabs, drag the tab along the tabs in the tab group.
+Pentru a schimba ordinea filelor dvs., trageți fila de-a lungul filelor din grupul de file.
 
-As you drag a tab, _drop zones_—areas onto which you can move the tab—become highlighted. The drop zone determines where to insert the tab. Some tabs can only be in one of the sidebars.
+Pe măsură ce trageți o filă, _zonele de plasare_ — zonele în care puteți muta fila — devin evidențiate. Zona de plasare determină unde va fi inserată fila. Unele file pot fi doar în una dintre barele laterale.
 
-### Split a tab group
+### Împărțirea unui grup de file
 
-Right-click a tab and select **Split right** or **Split down** to create a new tab group with that tab.
+Faceți clic dreapta pe o filă și selectați **Împărțiți la dreapta** sau **Împărțiți în jos** pentru a crea un grup de file nou cu acea filă.
 
-You can also split a tab group by dragging a tab to the bottom of another tab.
+Puteți, de asemenea, împărți un grup de file trăgând o filă în partea de jos a altei file.
 
-### Resize a tab group
+### Redimensionarea unui grup de file
 
-To resize a tab group, hover the cursor over an edge of the tab group. The edge becomes highlighted when it can be dragged to resize.
+Pentru a redimensiona un grup de file, treceți cursorul peste marginea grupului de file. Marginea devine evidențiată atunci când poate fi trasă pentru redimensionare.
 
-You can resize sidebars similarly to make more space for the tab groups in the middle.
+Puteți redimensiona barele laterale în mod similar, pentru a face mai mult loc grupurilor de file din mijloc.
 
-### Move tab to a new window
+### Mutarea unei file într-o fereastră nouă
 
-**Drag and drop:**
+**Tragere și plasare:**
 
-- Select and drag the tab outside of the application window to open it in a new window.
+- Selectați și trageți fila în afara ferestrei aplicației pentru a o deschide într-o fereastră nouă.
 
-**Command palette:**
+**Paleta de comenzi:**
 
-- Open the Command Palette, and select **Move current tab to new window**.
+- Deschideți Paleta de comenzi și selectați **Mută fila curentă într-o fereastră nouă**.
 
-### Move a tab to a different window
+### Mutarea unei file într-o altă fereastră
 
-To move a tab to another existing window, drag the tab to the window you want to move it to.
+Pentru a muta o filă într-o altă fereastră existentă, trageți fila către fereastra în care doriți să o mutați.
 
-### Pin a tab
+### Fixarea unei file
 
-To pin a tab in the main editor, right-click the tab and select **Pin**. Links in a pinned tab always open in a separate tab.
+Pentru a fixa o filă în editorul principal, faceți clic dreapta pe filă și selectați **Fixați**. Legăturile dintr-o filă fixată se deschid întotdeauna într-o filă separată.
 
-To unpin a pinned tab in the main editor, right-click the tab and select **Unpin**.
+Pentru a anula fixarea unei file fixate în editorul principal, faceți clic dreapta pe filă și selectați **Anulați fixarea**.
 
-To pin or unpin a tab in the sidebar, see [[Sidebar#Pin tabs|pinning tabs in the sidebar]].
+Pentru a fixa sau anula fixarea unei file în bara laterală, consultați [[Sidebar#Fixarea filelor|fixarea filelor în bara laterală]].
 
-## Switch to a different tab
+## Comutarea la o altă filă
 
-Select a tab to switch to it. Or, use a keyboard shortcut:
+Selectați o filă pentru a comuta la ea. Sau, folosiți o combinație de taste:
 
-| Switch To                 | MacOS            | Windows/Linux        |
+| Comutați la                | MacOS            | Windows/Linux        |
 |---------------------------|------------------|----------------------|
-| **Next tab**              | `⌃`+`⇥`         | `Ctrl`+`Tab`         |
-| **Previous tab**          | `⌃`+`⇧`+`⇥`    | `Ctrl`+`Shift`+`Tab` |
-| **First tab on the left** | `⌘`+`1`          | `Ctrl`+`1`           |
-| **2nd to 8th tab**        | `⌘`+`2`..`8`     | `Ctrl`+`2`..`8`      |
-| **Last tab on the right** | `⌘`+`9`          | `Ctrl`+`9`           |
-| **Recently closed tab**   | `⌘`+`⇧`+`t`     | `Ctrl`+`Shift`+`t`   |
+| **Fila următoare**              | `⌃`+`⇥`         | `Ctrl`+`Tab`         |
+| **Fila anterioară**          | `⌃`+`⇧`+`⇥`    | `Ctrl`+`Shift`+`Tab` |
+| **Prima filă din stânga** | `⌘`+`1`          | `Ctrl`+`1`           |
+| **A 2-a până la a 8-a filă**        | `⌘`+`2`..`8`     | `Ctrl`+`2`..`8`      |
+| **Ultima filă din dreapta** | `⌘`+`9`          | `Ctrl`+`9`           |
+| **Fila închisă recent**   | `⌘`+`⇧`+`t`     | `Ctrl`+`Shift`+`t`   |
 
-## Stack tab groups
+## Stivuirea grupurilor de file
 
-You can stack tabs to slide them over other tabs in the same tab group.
+Puteți stivui filele pentru a le face să alunece peste alte file din același grup de file.
 
-To stack notes, select the down arrow at the upper right corner of the tab group, and then select **Stack notes**.
+Pentru a stivui notele, selectați săgeata în jos din colțul din dreapta sus al grupului de file, apoi selectați **Stivuiește notele**.
 
 ![tab-stacks](https://user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif)
 
-Tab stacks are inspired by [Andy Matuschak's sliding notes](https://notes.andymatuschak.org/).
+Stivele de file sunt inspirate de [notele glisante ale lui Andy Matuschak](https://notes.andymatuschak.org/).
 
-## Linked views
+## Vizualizări legate
 
-_Linked views_ are tabs that reference a different tab. When the content of the referenced tab changes, the linked view changes as well.
+_Vizualizările legate_ sunt file care fac referire la o altă filă. Atunci când conținutul filei referite se schimbă, vizualizarea legată se schimbă și ea.
 
-For note tabs, you can use the following plugins as linked views:
+Pentru filele de note, puteți folosi următoarele module ca vizualizări legate:
 
-- [[Graph view]] (local)
+- [[Graph view]] (locală)
 - [[Backlinks]]
 - [[Outline]]
 
-To open a linked view for a note tab:
+Pentru a deschide o vizualizare legată pentru o filă de notă:
 
-1. Select **More options** ![[lucide-more-horizontal.svg#icon]] in the upper right corner of the note.
-2. Under **Open linked view**, select the linked view you want to open.
+1. Selectați **Mai multe opțiuni** ![[lucide-more-horizontal.svg#icon]] din colțul din dreapta sus al notei.
+2. Sub **Deschide vizualizarea legată**, selectați vizualizarea legată pe care doriți să o deschideți.
 
-## Save layouts
+## Salvarea aranjamentelor
 
-You can save and restore window layouts using the [[Workspaces]] plugin.
+Puteți salva și restaura aranjamentele ferestrelor folosind modulul [[Workspaces]].

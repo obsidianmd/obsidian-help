@@ -1,92 +1,91 @@
 ---
-localized: null
 permalink: publish/sites
 ---
-This page explains how to manage [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+Această pagină explică cum să administrezi siteurile [[Introduction to Obsidian Publish|Obsidian Publish]].
 
-A site is a collection of notes that's hosted by Obsidian Publish and available online, either through a Obsidian Publish address or a [[Custom domains|custom domain]].
+Un site este o colecție de note găzduită de Obsidian Publish și disponibilă online, fie printr-o adresă Obsidian Publish, fie printr-un [[Custom domains|domeniu personalizat]].
 
-## Create a new site
+## Creează un site nou
 
-> [!note] The number of sites that you can have at the same time is determined by your Obsidian Publish subscription. Before you create a new site, make sure that your subscription allows it.
+> [!note] Numărul de siteuri pe care le poți avea în același timp este determinat de abonamentul tău Obsidian Publish. Înainte de a crea un site nou, asigură-te că abonamentul tău îl permite.
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. If you already have an existing site, click **Switch site** ![[lucide-repeat.svg#icon]].
-3. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from publish.obsidian.md/my-amazing-site.
-4. Click **Create**.
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. Dacă ai deja un site existent, apasă pe **Comută la alt site** ![[lucide-repeat.svg#icon]].
+3. La **ID-ul siteului**, introdu calea pe care o vrei pentru site-ul tău. De exemplu, un site cu ID-ul `my-amazing-site` este disponibil la publish.obsidian.md/my-amazing-site.
+4. Apasă pe **Creează**.
 
-## Delete an existing site
+## Șterge un site existent
 
-> [!note] Notes remain in your vault even after you delete a site.
+> [!note] Notele rămân în seiful tău chiar și după ce ștergi un site.
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. Click **Switch site** ![[lucide-repeat.svg#icon]].
-3. Click **Delete site** ![[lucide-x.svg#icon]] to the right of the site you want to delete.
-4. Click **Delete** to confirm.
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. Apasă pe **Comută la alt site** ![[lucide-repeat.svg#icon]].
+3. Apasă pe **Șterge siteul** ![[lucide-x.svg#icon]] din dreapta siteului pe care vrei să-l ștergi.
+4. Apasă pe **Șterge** pentru a confirma.
 
-## Switch between sites
+## Comută între siteuri
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. Click **Switch site** ![[lucide-repeat.svg#icon]].
-3. Click **Choose** to the right of the site you want to switch to.
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. Apasă pe **Comută la alt site** ![[lucide-repeat.svg#icon]].
+3. Apasă pe **Alege** din dreapta siteului la care vrei să comuți.
 
-## Change the site ID
+## Schimbă ID-ul siteului
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. Click **Switch site** ![[lucide-repeat.svg#icon]].
-3. Click **Edit site ID** ![[lucide-edit-3.svg#icon]] to the right of the site you want to edit.
-4. In **Site ID**, enter the new ID for your site.
-5. Click **Change**.
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. Apasă pe **Comută la alt site** ![[lucide-repeat.svg#icon]].
+3. Apasă pe **Editează ID-ul siteului** ![[lucide-edit-3.svg#icon]] din dreapta siteului pe care vrei să-l editezi.
+4. La **ID-ul siteului**, introdu noul ID pentru site-ul tău.
+5. Apasă pe **Schimbă**.
 
-## View site options
+## Vizualizează opțiunile siteului
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. În fereastra de dialog **Publică schimbările**, apasă pe **Schimbă opțiunile siteului** ![[lucide-cog.svg#icon]].
 
-## Site options
+## Opțiunile siteului
 
 ### General
 
-| Option                          | Type   | Description                                                                                                                |
+| Opțiune                          | Tip   | Descriere                                                                                                                |
 | ------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------- |
-| Site Name                       | Input  | The public name and title of your Obsidian Publish site.                                                                   |
-| Homepage File                   | Input  | The location of the markdown file you want to act as your landing page.                                                    |
-| Logo                            | Input  | The image you want to act as your site banner. The image must [[Publish your content#Publish notes\|be published]]. |
-| Site Collaboration              | Button | Declare other users you want to have access to edit your published notes. Users must have an Obsidian account.             |
-| Custom Domain                   | Button | [[Custom domains]]                                                                                                         |
-| Disallow search engine indexing | Toggle | Prevent respectful search engines from crawling your site by adding a `robots.txt` file.                                   |
+| Numele siteului                       | Câmp  | Numele public și titlul site-ului tău Obsidian Publish.                                                                   |
+| Pagina principală                   | Câmp  | Locația fișierului markdown pe care vrei să acționeze ca pagină de start.                                                    |
+| Siglă                            | Câmp  | Imaginea pe care vrei să o folosești ca banner pentru site-ul tău. Imaginea trebuie [[Publish your content#Publică note\|să fie publicată]]. |
+| Colaborare pe site              | Buton | Declară alți utilizatori cărora vrei să le acorzi acces pentru a-ți edita notele publicate. Utilizatorii trebuie să aibă un cont Obsidian.             |
+| Domeniu personalizat                   | Buton | [[Custom domains|Domenii personalizate]]                                                                                                         |
+| Nu permite indexarea de către motoarele de căutare | Comutator | Împiedică motoarele de căutare respectuoase să-ți indexeze site-ul, adăugând un fișier `robots.txt`.                                   |
 
-### Appearance
+### Aparență
 
-| Option            | Type     | Description                                                                               |
+| Opțiune            | Tip     | Descriere                                                                               |
 |-------------------|----------|-------------------------------------------------------------------------------------------|
-| Theme             | Dropdown | Choose how your theme presents on your site; **Light**, **Dark**, or **Adapt to System**. |
-| Light/Dark Toggle | Toggle   | Allow users to toggle **Light**/**Dark** mode with a toggle button on your site.          |
+| Tema             | Meniu derulant | Alege cum este afișată tema pe site-ul tău; **Luminoasă**, **Întunecată** sau **Adaptare la sistem**. |
+| Comutator luminos/întunecat | Comutator   | Permite utilizatorilor să comute între modul **luminos**/**întunecat** cu un buton de pe site-ul tău.          |
 
-## Reading experience
+## Experiența de citire
 
-| Option               | Type   | Description                                                                                |
+| Opțiune               | Tip   | Descriere                                                                                |
 |----------------------|--------|--------------------------------------------------------------------------------------------|
-| Show hover preview   | Toggle | Enable or disable the ability of page preview when hovering over an active, internal link. |
-| Hide page title      | Toggle | Enable or disable the inline title of a published note to be displayed.                    |
-| Readable line length | Toggle | Enable or disable readable line length within your site.                                   |
-| Strict line breaks   | Toggle | Enable or disable single line breaks from being displayed on your site.                    |
-| Stack Pages          | Toggle | Enable or disable [[Tabs#Stack tab groups\|Stacked tabs]] on your site.    |
+| Afișează previzualizarea plutitoare   | Comutator | Activează sau dezactivează previzualizarea paginii la trecerea cursorului peste o legătură internă activă. |
+| Ascunde titlul paginii      | Comutator | Activează sau dezactivează afișarea titlului inline al unei note publicate.                    |
+| Lungimea lizibilă a rândului | Comutator | Activează sau dezactivează lungimea lizibilă a rândului pe site-ul tău.                                   |
+| Întreruperi stricte de rând   | Comutator | Activează sau dezactivează afișarea întreruperilor de rând simple pe site-ul tău.                    |
+| Stivuiește paginile          | Comutator | Activează sau dezactivează [[Tabs#Stivuiește grupurile de file|filele stivuite]] pe site-ul tău.    |
 
-### Components
+### Componente
 
-| Option                 | Type   | Description                                                                                                                          |
+| Opțiune                 | Tip   | Descriere                                                                                                                          |
 |------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Show navigation        | Toggle | Enable or disable the [[File explorer]] view on your publish site.                                                                   |
-| Customize navigation   | Button | [[Customize your site#Customize navigation\|Customize]] the order of how your files are listed if **Show navigation** is toggled on. |
-| Show search bar        | Toggle | Enable or disable a search bar on your site.                                                                                         |
-| Show graph view        | Toggle | Enable or disable the graph view within the right sidebar of your site.                                                              |
-| Show table of contents | Toggle | Enable or disable the [[Outline\|Table of contents]] view on your site.                                                              |
-| Show backlinks         | Toggle | Enable or disable [[Backlinks]] on your site.                                                                                        |
+| Afișează navigarea        | Comutator | Activează sau dezactivează afișajul [[File explorer|exploratorul de fișiere]] pe site-ul tău Publish.                                                                   |
+| Personalizează navigarea   | Buton | [[Customize your site#Personalizează navigarea\|Personalizează]] ordinea în care sunt listate fișierele tale, dacă **Afișează navigarea** este activat. |
+| Afișează bara de căutare        | Comutator | Activează sau dezactivează o bară de căutare pe site-ul tău.                                                                         |
+| Afișează afișajul grafic        | Comutator | Activează sau dezactivează afișajul grafic din bara laterală dreaptă a site-ului tău.                                                              |
+| Afișează cuprinsul | Comutator | Activează sau dezactivează afișajul [[Outline|cuprinsului]] pe site-ul tău.                                                              |
+| Afișează referințele         | Comutator | Activează sau dezactivează [[Backlinks|referințele]] pe site-ul tău.                                                                        |
 
-### Other site settings
+### Alte setări ale site-ului
 
-| Option                         | Type   | Description                                            |
+| Opțiune                         | Tip   | Descriere                                            |
 | ------------------------------ | ------ | ------------------------------------------------------ |
-| Passwords                      | Button | [[Obsidian Publish/Security and privacy#Add a site password\|Set a password]] to restrict access to your entire site. |
-| Google Analytics tracking code | Input  | **Custom Domain Url Only**. Place your Google Analytics site tracking code here.                                                       |
+| Parole                      | Buton | [[Obsidian Publish/Security and privacy#Adaugă o parolă pentru site\|Setează o parolă]] pentru a restricționa accesul la întregul tău site. |
+| Cod de tracking Google Analytics | Câmp  | **Doar pentru URL-ul domeniului personalizat**. Introdu aici codul tău de tracking Google Analytics.                                                       |

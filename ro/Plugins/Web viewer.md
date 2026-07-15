@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: plugins/web-viewer
 ---
-Web viewer is a [[Core plugins|core plugin]] that lets you open external links within Obsidian on desktop. This lets you reading link content without leaving the app and makes multitasking on web research projects easier.
+Web viewer este un [[Core plugins|modul integrat]] care îți permite să deschizi legături externe în Obsidian pe desktop. Astfel poți citi conținutul legăturilor fără să părăsești aplicația, ceea ce facilitează multitasking-ul pe proiecte de cercetare web.
 
-External links open as a [[Tabs|tab]] which you can rearrange, split, and open in a [[pop-out windows|pop-out window]]. Any web page cards embedded in [[canvas]] files can be opened as web viewer tabs.
+Legăturile externe se deschid ca [[Tabs|filă]], pe care o poți rearanja, împărți și deschide într-o [[pop-out windows|fereastră separată]]. Orice card cu pagină web încorporat în fișiere [[canvas]] poate fi deschis ca filă Web viewer.
 
-Web viewer is not a replacement for your primary browser. Web viewer provides a quick way to access web pages for research within Obsidian. However, it does not offer the full functionality, security controls, or extensibility of a dedicated browser.
+Web viewer nu este un înlocuitor pentru browserul tău principal. Web viewer oferă un mod rapid de a accesa pagini web pentru cercetare în interiorul Obsidian. Totuși, nu oferă funcționalitatea completă, controalele de securitate sau extensibilitatea unui browser dedicat.
 
-## Reader view
+## Modul cititor
 
-Click the glasses icon to view a plain text version of the web page. This feature works by cleaning the content using Mozilla's Readability library developed for Firefox.
+Dă clic pe pictograma cu ochelari pentru a vedea o versiune de text simplu a paginii web. Această funcție curăță conținutul folosind biblioteca Readability de la Mozilla, dezvoltată pentru Firefox.
 
-## Save to vault
+## Salvează în seif
 
-Click the more actions icon to save a web page to your vault. You can customize the save page location by going to **[[Settings]]** → **Web viewer**.
+Dă clic pe pictograma mai multe acțiuni pentru a salva o pagină web în seiful tău. Poți personaliza locația de salvare a paginii mergând la **[[Settings|Setări]]** → **Web viewer**.
 
-## Ad blocking
+## Blocarea reclamelor
 
-Web viewer blocks ads by default. You can customize ad blocking rules by adding lists such as [Easylist](https://easylist.to/). 
+Web viewer blochează reclamele implicit. Poți personaliza regulile de blocare a reclamelor adăugând liste precum [Easylist](https://easylist.to/). 
 
-## Security
+## Securitate
 
-If you use third-party Obsidian plugins, we recommend using your primary browser for sensitive tasks and password-protected websites instead of Web viewer.
+Dacă folosești module Obsidian terțe, îți recomandăm să folosești browserul tău principal pentru sarcini sensibile și site-uri protejate prin parolă, în loc de Web viewer.
 
-Web viewer is based on the same [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) feature that lets you embed web pages in [[Canvas]]. Web viewer has been [independently audited](https://obsidian.md/blog/cure53-second-client-audit/) to verify that it has been safely implemented.
+Web viewer se bazează pe aceeași funcție [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) care îți permite să încorporezi pagini web în [[Canvas]]. Web viewer a fost [auditat independent](https://obsidian.md/blog/cure53-second-client-audit/) pentru a verifica dacă a fost implementat în siguranță.
 
-Obsidian plugins [[Plugin security#Plugin capabilities|are not sandboxed]] and have deep control over the app. This design enables powerful functionality but also comes with security trade-offs. While Obsidian is running, third-party plugins have full access to cookies in Web viewer.
+Modulele Obsidian [[Plugin security#Plugin capabilities|nu sunt izolate (sandboxed)]] și au control profund asupra aplicației. Acest design permite funcționalități puternice, dar vine și cu compromisuri de securitate. În timp ce Obsidian rulează, modulele terțe au acces complet la cookie-urile din Web viewer.

@@ -1,79 +1,78 @@
 ---
-localized: null
 permalink: ribbon
 publish: true
 mobile: true
-description: 'Learn how to use the ribbon, a space for common commands in Obsidian, and customize it on desktop and mobile.'
+description: 'Aflați cum să folosiți panglica, un spațiu pentru comenzile obișnuite din Obsidian, și cum să o personalizați pe desktop și pe mobil.'
 ---
 
-The ribbon functions as a space for common commands within Obsidian. 
+Panglica funcționează ca un spațiu pentru comenzile obișnuite din Obsidian. 
 
-On desktop, it's located in the [[Sidebar#Open hidden sidebars|left Sidebar]] and remains visible even when the left Sidebar is closed. 
+Pe desktop, aceasta se află în [[Sidebar#Deschiderea barelor laterale ascunse|bara laterală stângă]] și rămâne vizibilă chiar și atunci când bara laterală stângă este închisă. 
 
-On mobile, you can access the [[Mobile app#Ribbon actions|Ribbon Actions]] by tapping the **Menu option** ![[lucide-menu.svg#icon]] at the bottom-right corner of the app when you're not editing a note.
+Pe mobil, puteți accesa [[Mobile app#Acțiunile panglicii|Acțiunile panglicii]] atingând **opțiunea Meniu** ![[lucide-menu.svg#icon]] din colțul din dreapta jos al aplicației atunci când nu editați o notă.
 
-## Actions
+## Acțiuni
 
-Each action is represented by an icon in the ribbon. Hovering over these icons will display a tooltip, while selecting them will activate the associated action. On mobile, you can tap these icons to activate them.
+Fiecare acțiune este reprezentată printr-o pictogramă în panglică. Trecerea cursorului peste aceste pictograme va afișa un indiciu, iar selectarea lor va activa acțiunea asociată. Pe mobil, puteți atinge aceste pictograme pentru a le activa.
 
-1. Open **[[Manage vaults|Vault switcher]]** ![[obsidian-icon-vault-switcher.svg#icon]].
-2. Access **help** ![[lucide-help-circle.svg#icon]].
-3. Open **[[Settings]]** ![[lucide-settings.svg#icon]].
+1. Deschideți **[[Manage vaults|comutatorul de seifuri]]** ![[obsidian-icon-vault-switcher.svg#icon]].
+2. Accesați **ajutorul** ![[lucide-help-circle.svg#icon]].
+3. Deschideți **[[Settings]]** ![[lucide-settings.svg#icon]].
 
-In the mobile version, you can configure a quick access action on the ribbon. For more information, see the [[#Mobile|mobile section]] and [[Mobile app]].
+În versiunea mobilă, puteți configura o acțiune de acces rapid pe panglică. Pentru mai multe informații, consultați [[#Mobil|secțiunea despre mobil]] și [[Mobile app]].
 
-## Customize the ribbon
+## Personalizarea panglicii
 
-Your customized ribbon layout is remembered across sessions. It synchronizes with other devices and the mobile app when app settings (in the `workspace.json` and `workspace-mobile.json` files) are synchronized.
+Aranjamentul personalizat al panglicii dvs. este reținut între sesiuni. Acesta se sincronizează cu celelalte dispozitive și cu aplicația mobilă atunci când setările aplicației (din fișierele `workspace.json` și `workspace-mobile.json`) sunt sincronizate.
 
 ### Desktop
 
-On the desktop version, you can customize the ribbon as follows:
+În versiunea desktop, puteți personaliza panglica astfel:
 
-- Rearrange the order of ribbon actions by dragging and dropping the icons.
-- To hide specific actions, right-click on an empty space within the ribbon and uncheck the actions you want to hide.
+- Reordonați acțiunile din panglică trăgând și plasând pictogramele.
+- Pentru a ascunde anumite acțiuni, faceți clic dreapta pe un spațiu gol din panglică și debifați acțiunile pe care doriți să le ascundeți.
 
-#### Hide the ribbon
+#### Ascunderea panglicii
 
-You can hide the ribbon in two ways:
+Puteți ascunde panglica în două moduri:
 
-- Right-click on the ribbon and select **Hide ribbon**.
-- Open **[[Settings]]** → **Appearance**, scroll down to **Advanced**, and disable **Show ribbon**.
+- Faceți clic dreapta pe panglică și selectați **Ascunde panglica**.
+- Deschideți **[[Settings]]** → **Personalizare**, derulați în jos până la **Avansat** și dezactivați **Afișează panglica**.
 
-#### Show the ribbon
+#### Afișarea panglicii
 
-If you have hidden the ribbon and want to display it again:
+Dacă ați ascuns panglica și doriți să o afișați din nou:
 
-1. Open **[[Settings]]** → **Appearance**.
-2. Scroll down to **Advanced**.
-3. Enable **Show ribbon**.
-4. The ribbon will appear again on the left side of the window.
+1. Deschideți **[[Settings]]** → **Personalizare**.
+2. Derulați în jos până la **Avansat**.
+3. Activați **Afișează panglica**.
+4. Panglica va apărea din nou în partea stângă a ferestrei.
 
-> [!tip] Custom CSS
-> If you're using a community theme or custom CSS, make sure it does not hide the ribbon through custom style rules.
+> [!tip] CSS personalizat
+> Dacă folosiți o temă comunitară sau CSS personalizat, asigurați-vă că acestea nu ascund panglica prin reguli de stil personalizate.
 
-### Mobile
+### Mobil
 
-In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the ribbon menu. To access these customizations, follow these steps:
+În versiunea mobilă a Obsidian, puteți efectua acțiuni de acces rapid, puteți reordona elementele și puteți personaliza meniul panglicii. Pentru a accesa aceste personalizări, urmați acești pași:
 
-1. Open Obsidian's **[[Settings]]** ![[lucide-cog.svg#icon]].
-2. Navigate to the **appearance** section.
-3. Scroll down to the **advanced** options.
-4. Select the **Manage** button under the **Ribbon menu** item.
+1. Deschideți **[[Settings]]** ![[lucide-cog.svg#icon]] din Obsidian.
+2. Navigați la secțiunea **personalizare**.
+3. Derulați în jos până la opțiunile **avansate**.
+4. Selectați butonul **Gestionați** de sub elementul **Meniul panglicii**.
 
-#### Quick access
+#### Acces rapid
 
-By default, the quick access option is set to "Open ribbon menu" on a *short press*. If you choose another option as your quick access:
+Implicit, opțiunea de acces rapid este setată la „Deschide meniul panglicii” la o *apăsare scurtă*. Dacă alegeți o altă opțiune ca acces rapid:
 
-- The selected option will be triggered with a *short press*.
-- The ribbon menu access will change to a *long press*.
+- Opțiunea selectată va fi declanșată printr-o *apăsare scurtă*.
+- Accesul la meniul panglicii se va schimba într-o *apăsare lungă*.
 
-> [!info] Quick access options depend on the Obsidian settings and core plugins you have enabled.
+> [!info] Opțiunile de acces rapid depind de setările Obsidian și de modulele de bază pe care le aveți activate.
 
-#### Rearrange and visibility
+#### Reordonare și vizibilitate
 
-To change the order of items in the ribbon menu, press and hold the **drag-and-drop** ![[lucide-menu.svg#icon]] button and move the selected item up or down.
+Pentru a schimba ordinea elementelor din meniul panglicii, apăsați și țineți butonul de **tragere și plasare** ![[lucide-menu.svg#icon]] și mutați elementul selectat în sus sau în jos.
 
-You can show or hide items in the ribbon menu using the red **remove** ![[lucide-minus-circle.svg#icon]] or green **add** ![[lucide-plus-circle.svg#icon]] buttons to toggle their visibility.
+Puteți afișa sau ascunde elemente din meniul panglicii folosind butoanele roșu **elimină** ![[lucide-minus-circle.svg#icon]] sau verde **adaugă** ![[lucide-plus-circle.svg#icon]] pentru a le comuta vizibilitatea.
  
  ![[ribbon-rearrange-visibility.jpeg#interface]]

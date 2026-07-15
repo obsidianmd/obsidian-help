@@ -1,41 +1,40 @@
 ---
-localized: null
 permalink: pop-out-windows
-description: Learn how to open files in separate pop-out windows.
+description: Aflați cum să deschideți fișiere în ferestre separate, detașabile.
 ---
 
-> [!compatibility] This feature is only available on Desktop.
+> [!compatibility] Această funcționalitate este disponibilă doar pe Desktop.
 
-You can open separate _pop-out_ windows in Obsidian. Each pop-out window is associated with its respective vault window. If you close a vault window, all of its pop-out windows will close as well.
+Puteți deschide ferestre separate _detașabile_ (pop-out) în Obsidian. Fiecare fereastră detașabilă este asociată cu fereastra seifului din care provine. Dacă închideți o fereastră a seifului, toate ferestrele sale detașabile se vor închide de asemenea.
 
-Files can only be moved between windows associated with the same vault.
+Fișierele pot fi mutate doar între ferestre asociate aceluiași seif.
 
-## Open a file in a new window
+## Deschiderea unui fișier într-o fereastră nouă
 
-**File explorer:**
+**Exploratorul de fișiere:**
 
-In the [[File explorer]], right-click a note and select **Open in new window**.
+În [[File explorer]], faceți clic dreapta pe o notă și selectați **Deschide într-o fereastră nouă**.
 
-**Command palette:**
+**Paleta de comenzi:**
 
-In the [[Command palette]], select **Open current tab in new window**.
+În [[Command palette]], selectați **Deschide fila curentă într-o fereastră nouă**.
 
-**Tab:**
+**Filă:**
 
-Right-click a tab and select **Open in new window**. Alternatively, select **More options** ![[lucide-ellipsis-vertical.svg#icon]] in the upper-right corner of the editor, then choose **Open in new window**.
+Faceți clic dreapta pe o filă și selectați **Deschide într-o fereastră nouă**. Alternativ, selectați **Mai multe opțiuni** ![[lucide-ellipsis-vertical.svg#icon]] din colțul din dreapta sus al editorului, apoi alegeți **Deschide într-o fereastră nouă**.
 
-> [!tip] You can also right-click a link in the editor and select **Open in new window**.
+> [!tip] De asemenea, puteți face clic dreapta pe o legătură din editor și selecta **Deschide într-o fereastră nouă**.
 
-## Move a file to a different window
+## Mutarea unui fișier într-o altă fereastră
 
-**File explorer:**
+**Exploratorul de fișiere:**
 
-In the [[File explorer]], drag the file to a tab group in the destination window.
+În [[File explorer]], trageți fișierul într-un grup de file din fereastra de destinație.
 
-**Command palette:**
+**Paleta de comenzi:**
 
-In the [[Command palette]], select **Move current tab in new window**.
+În [[Command palette]], selectați **Mută fila curentă într-o fereastră nouă**.
 
-**Tab:**
+**Filă:**
 
-Drag the tab to a tab group in the destination window. Alternatively, right-click a tab and select **Move to new window**.
+Trageți fila într-un grup de file din fereastra de destinație. Alternativ, faceți clic dreapta pe o filă și selectați **Mută într-o fereastră nouă**.

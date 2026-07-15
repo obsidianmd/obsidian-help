@@ -1,17 +1,16 @@
 ---
-localized: null
 permalink: web-clipper/logic
-description: 'Use conditionals, loops, and variable assignment in Web Clipper templates.'
+description: 'Folosește condiționale, bucle și atribuirea variabilelor în șabloanele Web Clipper.'
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] supports template logic for conditionals, loops, and variable assignment. This syntax is inspired by [Twig](https://twig.symfony.com/) and [Liquid](https://shopify.github.io/liquid/) templating languages.
+[[Introduction to Obsidian Web Clipper|Web Clipper]] acceptă logică de șablon pentru condiționale, bucle și atribuirea variabilelor. Această sintaxă este inspirată din limbajele de șabloane [Twig](https://twig.symfony.com/) și [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Requires the latest version
-> Logic features require Obsidian Web Clipper 1.0.0 which has not been approved on all extension stores yet.
+> [!warning] Necesită cea mai recentă versiune
+> Funcțiile de logică necesită Obsidian Web Clipper 1.0.0, care nu a fost încă aprobată în toate magazinele de extensii.
 
-## Conditionals
+## Condiționale
 
-Use `{% if %}` to conditionally include content based on variables or expressions.
+Folosește `{% if %}` pentru a include condiționat conținut pe baza variabilelor sau expresiilor.
 
 ```twig
 {% if author %}
@@ -19,7 +18,7 @@ Author: {{author}}
 {% endif %}
 ```
 
-Use `{% else %}` to provide fallback content, and `{% elseif %}` to chain multiple conditions:
+Folosește `{% else %}` pentru a oferi conținut alternativ, și `{% elseif %}` pentru a înlănțui mai multe condiții:
 
 ```twig
 {% if status == "published" %}
@@ -31,49 +30,49 @@ Unknown status
 {% endif %}
 ```
 
-### Comparison operators
+### Operatori de comparație
 
-The following comparison operators are supported:
+Sunt acceptați următorii operatori de comparație:
 
-| Operator | Description |
+| Operator | Descriere |
 |----------|-------------|
-| `==` | Equal to |
-| `!=` | Not equal to |
-| `>` | Greater than |
-| `<` | Less than |
-| `>=` | Greater than or equal to |
-| `<=` | Less than or equal to |
-| `contains` | Check if string contains substring, or array contains value |
+| `==` | Egal cu |
+| `!=` | Diferit de |
+| `>` | Mai mare decât |
+| `<` | Mai mic decât |
+| `>=` | Mai mare sau egal cu |
+| `<=` | Mai mic sau egal cu |
+| `contains` | Verifică dacă un șir conține un subșir, sau dacă un array conține o valoare |
 
-Examples:
-- `{% if title == "Home" %}` — string equality
-- `{% if price >= 100 %}` — numeric comparison
-- `{% if title contains "Review" %}` — substring check
-- `{% if tags contains "important" %}` — array membership
+Exemple:
+- `{% if title == "Home" %}` — egalitate de șiruri
+- `{% if price >= 100 %}` — comparație numerică
+- `{% if title contains "Review" %}` — verificare de subșir
+- `{% if tags contains "important" %}` — apartenență la array
 
-### Logical operators
+### Operatori logici
 
-Combine conditions using logical operators:
+Combină condiții folosind operatori logici:
 
-| Operator | Alternative | Description                         |
+| Operator | Alternativă | Descriere                         |
 | -------- | ----------- | ----------------------------------- |
-| `and`    | `&&`        | Both conditions must be true        |
-| `or`     | \|\|        | At least one condition must be true |
-| `not`    | `!`         | Negates a condition                 |
+| `and`    | `&&`        | Ambele condiții trebuie să fie adevărate |
+| `or`     | \|\|        | Cel puțin o condiție trebuie să fie adevărată |
+| `not`    | `!`         | Neagă o condiție |
 
-Examples:
-- `{% if author and published %}` — both must exist
-- `{% if draft or archived %}` — either condition
-- `{% if not hidden %}` — negation
-- `{% if (premium or featured) and published %}` — grouped conditions
+Exemple:
+- `{% if author and published %}` — ambele trebuie să existe
+- `{% if draft or archived %}` — oricare dintre condiții
+- `{% if not hidden %}` — negație
+- `{% if (premium or featured) and published %}` — condiții grupate
 
-### Truthiness
+### Valoare de adevăr
 
-When a variable is used without a comparison operator, it's evaluated for "truthiness":
+Când o variabilă este folosită fără un operator de comparație, este evaluată pentru „valoarea de adevăr”:
 
-- `false`, `null`, `undefined`, empty string `""`, and `0` are considered **falsy**.
-- Empty arrays `[]` are considered **falsy**.
-- Everything else is **truthy**.
+- `false`, `null`, `undefined`, șirul gol `""` și `0` sunt considerate **false**.
+- Array-urile goale `[]` sunt considerate **false**.
+- Orice altceva este considerat **adevărat**.
 
 ```twig
 {% if content %}
@@ -81,68 +80,68 @@ Has content
 {% endif %}
 ```
 
-## Assign a variable
+## Atribuirea unei variabile
 
-Use `{% set %}` to create or modify variables within your template:
+Folosește `{% set %}` pentru a crea sau modifica variabile în cadrul șablonului tău:
 
 ```twig
 {% set slug = title|lower|replace:" ":"-" %}
 File: {{slug}}.md
 ```
 
-Variables can be set to:
-- Other variables: `{% set name = author %}`
-- Literals: `{% set count = 5 %}` or `{% set label = "Draft" %}`
-- Expressions with filters: `{% set excerpt = content|truncate:100 %}`
-- Selector results: `{% set comments = selector:.comment %}`
+Variabilele pot fi setate la:
+- Alte variabile: `{% set name = author %}`
+- Valori literale: `{% set count = 5 %}` sau `{% set label = "Draft" %}`
+- Expresii cu filtre: `{% set excerpt = content|truncate:100 %}`
+- Rezultate ale selectorilor: `{% set comments = selector:.comment %}`
 
-Variables set with `{% set %}` can be used in subsequent template logic and in `{{variable}}` output.
+Variabilele setate cu `{% set %}` pot fi folosite în logica ulterioară a șablonului și în ieșirea `{{variable}}`.
 
-## Fallbacks
+## Valori alternative (fallback)
 
-Use the `??` operator to provide fallback values when a variable is empty or undefined:
+Folosește operatorul `??` pentru a oferi valori alternative când o variabilă este goală sau nedefinită:
 
 ```twig
 {{title ?? "Untitled"}}
 ```
 
-If `title` is empty, undefined, or falsy, the fallback value `"Untitled"` will be used instead.
+Dacă `title` este goală, nedefinită sau falsă, va fi folosită în schimb valoarea alternativă `"Untitled"`.
 
-This is a shorthand for the equivalent `if` statement:
+Aceasta este o prescurtare pentru instrucțiunea `if` echivalentă:
 
 ```twig
 {% if title %}{{title}}{% else %}Untitled{% endif %}
 ```
 
-### Chaining fallbacks
+### Înlănțuirea valorilor alternative
 
-You can chain multiple fallbacks:
+Poți înlănțui mai multe valori alternative:
 
 ```twig
 {{title ?? headline ?? "No title"}}
 ```
 
-This will use `title` if available, otherwise `headline`, otherwise the string `"No title"`.
+Aceasta va folosi `title` dacă este disponibilă, altfel `headline`, altfel șirul `"No title"`.
 
-### With filters
+### Cu filtre
 
-Filters bind more tightly than `??`, so filters are applied before the fallback check:
+Filtrele au prioritate mai mare decât `??`, deci filtrele sunt aplicate înainte de verificarea valorii alternative:
 
 ```twig
 {{title|upper ?? "UNTITLED"}}
 ```
 
-This applies `upper` to `title` first, then falls back to `"UNTITLED"` if the result is empty. To apply filters to the fallback value, use parentheses or separate expressions:
+Aceasta aplică mai întâi `upper` variabilei `title`, apoi revine la valoarea alternativă `"UNTITLED"` dacă rezultatul este gol. Pentru a aplica filtre valorii alternative, folosește paranteze sau expresii separate:
 
 ```twig
 {{title ?? "Untitled"|lower}}
 ```
 
-This will use `title` if available, otherwise apply `lower` to the fallback, resulting in `"untitled"`.
+Aceasta va folosi `title` dacă este disponibilă, altfel va aplica `lower` valorii alternative, rezultând `"untitled"`.
 
-## Loops
+## Bucle
 
-Use `{% for %}` to iterate over arrays:
+Folosește `{% for %}` pentru a itera prin array-uri:
 
 ```twig
 {% for item in schema:author %}
@@ -150,24 +149,24 @@ Use `{% for %}` to iterate over arrays:
 {% endfor %}
 ```
 
-### Loop sources
+### Surse pentru bucle
 
-You can loop over:
-- Schema arrays: `{% for item in schema:author %}`
-- Selector results: `{% for comment in selector:.comment %}`
-- Variables set earlier: `{% set items = selector:.item %}{% for item in items %}`
+Poți itera prin:
+- Array-uri de schemă: `{% for item in schema:author %}`
+- Rezultate ale selectorilor: `{% for comment in selector:.comment %}`
+- Variabile setate anterior: `{% set items = selector:.item %}{% for item in items %}`
 
-### Loop variables
+### Variabile de buclă
 
-Inside a loop, you have access to a `loop` object with the following properties:
+În interiorul unei bucle, ai acces la un obiect `loop` cu următoarele proprietăți:
 
-| Variable | Description |
+| Variabilă | Descriere |
 |----------|-------------|
-| `loop.index` | Current iteration (1-indexed) |
-| `loop.index0` | Current iteration (0-indexed) |
-| `loop.first` | `true` if first iteration |
-| `loop.last` | `true` if last iteration |
-| `loop.length` | Total number of items |
+| `loop.index` | Iterația curentă (indexată de la 1) |
+| `loop.index0` | Iterația curentă (indexată de la 0) |
+| `loop.first` | `true` dacă este prima iterație |
+| `loop.last` | `true` dacă este ultima iterație |
+| `loop.length` | Numărul total de elemente |
 
 ```twig
 {% for tag in tags %}
@@ -176,7 +175,7 @@ Inside a loop, you have access to a `loop` object with the following properties:
 {% endfor %}
 ```
 
-For backwards compatibility, you can also use `item_index` (where `item` is your iterator variable name) to get the 0-indexed position:
+Pentru compatibilitate retroactivă, poți folosi de asemenea `item_index` (unde `item` este numele variabilei tale de iterator) pentru a obține poziția indexată de la 0:
 
 ```twig
 {% for tag in tags %}
@@ -184,16 +183,16 @@ For backwards compatibility, you can also use `item_index` (where `item` is your
 {% endfor %}
 ```
 
-### Accessing array items by index
+### Accesarea elementelor unui array după index
 
-Use bracket notation to access array elements by index:
+Folosește notația cu paranteze drepte pentru a accesa elemente ale unui array după index:
 
 ```twig
 {{items[0]}}
 {{items[loop.index0]}}
 ```
 
-This is useful when you need to access items from multiple arrays in parallel:
+Aceasta este utilă când trebuie să accesezi elemente din mai multe array-uri în paralel:
 
 ```twig
 {% set transcripts = selector:.transcript-text %}
@@ -204,16 +203,16 @@ This is useful when you need to access items from multiple arrays in parallel:
 {% endfor %}
 ```
 
-Bracket notation also works with object properties:
+Notația cu paranteze drepte funcționează de asemenea cu proprietăți de obiect:
 
 ```twig
 {{user["name"]}}
 {{data["my-key"]}}
 ```
 
-### Nested loops
+### Bucle imbricate
 
-Loops can be nested for complex data structures:
+Buclele pot fi imbricate pentru structuri de date complexe:
 
 ```twig
 {% for section in sections %}
@@ -224,9 +223,9 @@ Loops can be nested for complex data structures:
 {% endfor %}
 ```
 
-## Combine logic
+## Combinarea logicii
 
-Conditionals and loops can be combined:
+Condiționalele și buclele pot fi combinate:
 
 ```twig
 {% for item in items %}
@@ -236,11 +235,11 @@ Conditionals and loops can be combined:
 {% endfor %}
 ```
 
-## Evaluation order
+## Ordinea de evaluare
 
-Template logic is processed in the following order:
+Logica șablonului este procesată în următoarea ordine:
 
-1. **Template logic** — `{% if %}`, `{% for %}`, `{% set %}`, and `{{variables}}` are evaluated first
-2. **Prompt variables** — [[Variables#Prompt variables|Prompt variables]] like `{{"summarize this"|prompt}}` are sent to the Interpreter after template logic is complete
+1. **Logica șablonului** — `{% if %}`, `{% for %}`, `{% set %}` și `{{variables}}` sunt evaluate primele
+2. **Variabile prompt** — [[Variables#Prompt variables|Variabilele prompt]] precum `{{"summarize this"|prompt}}` sunt trimise către Interpreter după ce logica șablonului este completă
 
-This means you can use template logic to construct prompts dynamically, but prompt results are not available for use in conditionals or loops.
+Aceasta înseamnă că poți folosi logica șablonului pentru a construi prompturi dinamic, dar rezultatele prompturilor nu sunt disponibile pentru a fi folosite în condiționale sau bucle.

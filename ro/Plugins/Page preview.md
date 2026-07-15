@@ -1,12 +1,11 @@
 ---
-localized: null
 permalink: plugins/page-preview
 ---
-Page preview is a [[Core plugins|core plugin]] that lets you preview a page when you hover the cursor over an internal link, without needing to navigate to that page.
+Page preview este un [[Core plugins|modul integrat]] care îți permite să previzualizezi o pagină atunci când plasezi cursorul peste o legătură internă, fără să fie nevoie să navighezi la acea pagină.
 
-By default, hovering over a link will preview that file in [[File explorer]], [[Search]], [[Backlinks]], and more. To preview a page while in Editing view, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link.
+Implicit, plasarea cursorului deasupra unei legături va previzualiza acel fișier în [[File explorer|Exploratorul de fișiere]], [[Search|Caută]], [[Backlinks|Referințe]] și altele. Pentru a previzualiza o pagină în timp ce ești în Modul de editare, apasă `Ctrl` (sau `Cmd` pe macOS) în timp ce plasezi cursorul deasupra legăturii.
 
-There is also an option to require `Ctrl` (or `Cmd` on macOS) while hovering to see the file. The settings for this option are under Core plugins > Page preview.
+Există și o opțiune de a solicita `Ctrl` (sau `Cmd` pe macOS) în timp ce plasezi cursorul pentru a vedea fișierul. Setările pentru această opțiune se află sub Module integrate > Page preview.
 
 > [!hint]
-> Preview is **on by default**. Toggling the plugin option will **turn the behavior off**.
+> Previzualizarea este **activată implicit**. Comutarea opțiunii modulului va **dezactiva comportamentul**.

@@ -1,79 +1,78 @@
 ---
-localized: null
 permalink: community-plugins
 mobile: false
-description: Learn how to extend Obsidian with plugins built by the community.
+description: Aflați cum să extindeți Obsidian cu module create de comunitate.
 ---
-Learn how to extend Obsidian with plugins built by the community. Use plugins to adapt Obsidian to fit your specific needs, such as support for additional file formats or integrating with a third-party service.
+Aflați cum să extindeți Obsidian cu module create de comunitate. Folosiți module pentru a adapta Obsidian la nevoile dumneavoastră specifice, cum ar fi suportul pentru formate de fișiere suplimentare sau integrarea cu un serviciu terț.
 
-> [!warning] Warning
-> Community plugins run third-party code on your behalf that could potentially do harm. To learn more about what the Obsidian team does to prevent harmful plugins, refer to [[Plugin security]].
+> [!warning] Avertisment
+> Modulele comunității rulează cod terț în numele dumneavoastră, care ar putea potențial cauza daune. Pentru a afla mai multe despre ce face echipa Obsidian pentru a preveni modulele dăunătoare, consultați [[Plugin security]].
 
-## Browse community plugins
+## Răsfoiți modulele comunității
 
-1. Open **[[Settings]]**.
-2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode|Restricted Mode]].
-3. Select **Browse** to list all available community plugins.
+1. Deschideți **[[Settings]]**.
+2. Selectați **Activează modulele comunității**. Pentru mai multe informații, consultați [[Plugin security#Modul restricționat|Modul restricționat]].
+3. Selectați **Răsfoiți** pentru a lista toate modulele comunității disponibile.
 
-Use the text box to filter plugins based on their name, author, and description.
+Folosiți caseta de text pentru a filtra modulele după nume, autor și descriere.
 
-You can also browse available plugins in your browser, by heading to [community.obsidian.md](https://community.obsidian.md).
+Puteți răsfoi de asemenea modulele disponibile în browser, accesând [community.obsidian.md](https://community.obsidian.md).
 
-## Install a community plugin
+## Instalați un modul al comunității
 
-To install a community plugin, you must first turn off [[Plugin security#Restricted mode|Restricted Mode]].
+Pentru a instala un modul al comunității, trebuie mai întâi să dezactivați [[Plugin security#Modul restricționat|Modul restricționat]].
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Community plugins**.
-3. Select **Browse** to explore available community plugins.
-4. Select the plugin you want to install.
-5. Select **Install**.
+1. Deschideți **[[Settings]]**.
+2. În meniul lateral, selectați **Module ale comunității**.
+3. Selectați **Răsfoiți** pentru a explora modulele comunității disponibile.
+4. Selectați modulul pe care doriți să îl instalați.
+5. Selectați **Instalați**.
 
-To use an installed plugin, you need to enable it.
+Pentru a folosi un modul instalat, trebuie să îl activați.
 
-## Enable a community plugin
+## Activați un modul al comunității
 
-Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **[[Settings]] → Community plugins → Installed plugins**.
+Fie selectați **Activează** imediat după instalare, fie activați-l din lista de module ale comunității din **[[Settings]] → Module ale comunității → Module instalate**.
 
-## Update plugins
+## Actualizați modulele
 
-For security purposes, community plugins don't update automatically. You can either update all plugins at once, or update individual plugins.
+Din motive de securitate, modulele comunității nu se actualizează automat. Puteți fie actualiza toate modulele deodată, fie actualiza module individuale.
 
-To update all your plugins:
+Pentru a actualiza toate modulele:
 
-1. Open **[[Settings]]**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+1. Deschideți **[[Settings]]**.
+2. Sub **Module ale comunității → Module curente**, selectați **Verifică actualizări**.
+3. Dacă sunt disponibile actualizări, selectați **Actualizează tot**.
 
-To update an individual plugin:
+Pentru a actualiza un modul individual:
 
-1. Open **[[Settings]]**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. Under **Installed plugins**, select **Update** next to the plugin you want to update.
+1. Deschideți **[[Settings]]**.
+2. Sub **Module ale comunității → Module curente**, selectați **Verifică actualizări**.
+3. Sub **Module instalate**, selectați **Actualizează** lângă modulul pe care doriți să îl actualizați.
 
-## Uninstall a community plugin
+## Dezinstalați un modul al comunității
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Community plugins**.
-3. Under **Installed plugins**, select the trash ![[lucide-trash-2.svg#icon]] icon next to the plugin you want to uninstall.
-4. Select **Uninstall** to confirm.
+1. Deschideți **[[Settings]]**.
+2. În meniul lateral, selectați **Module ale comunității**.
+3. Sub **Module instalate**, selectați pictograma coșului de gunoi ![[lucide-trash-2.svg#icon]] de lângă modulul pe care doriți să îl dezinstalați.
+4. Selectați **Dezinstalează** pentru a confirma.
 
-## Manage installed plugins
+## Gestionați modulele instalate
 
-Under **[[Settings]] → Community plugins → Installed plugins**, each plugin has several icons for managing it:
+Sub **[[Settings]] → Module ale comunității → Module instalate**, fiecare modul are mai multe pictograme pentru gestionare:
 
-- **[[Settings]]** ![[lucide-settings.svg#icon]] — Open the plugin's settings page if it has configurable options.
-- **[[Hotkeys]]** ![[lucide-plus-circle.svg#icon]] — Set keyboard shortcuts for the plugin's commands.
-- **Funding** ![[lucide-heart.svg#icon]] — View the plugin author's funding URL to support their work.
-- **Uninstall** ![[lucide-trash-2.svg#icon]] — Remove the plugin from your vault.
-- **Toggle** — Enable or disable the plugin without uninstalling it.
+- **[[Settings]]** ![[lucide-settings.svg#icon]] — Deschide pagina de setări a modulului dacă acesta are opțiuni configurabile.
+- **[[Hotkeys]]** ![[lucide-plus-circle.svg#icon]] — Setați combinații de taste pentru comenzile modulului.
+- **Finanțare** ![[lucide-heart.svg#icon]] — Vizualizați adresa URL de finanțare a autorului modulului pentru a-i susține munca.
+- **Dezinstalează** ![[lucide-trash-2.svg#icon]] — Elimină modulul din seif.
+- **Comutator** — Activează sau dezactivează modulul fără a-l dezinstala.
 
-You can also:
+De asemenea, puteți:
 
-- Select the **refresh** icon to reload all plugins.
-- Select the **folder** ![[lucide-folder-open.svg#icon]] icon to open the plugins folder in your [[Configuration folder|configuration folder]].
-- Use the **search bar** to filter plugins by name.
+- Selecta pictograma de **reîmprospătare** pentru a reîncărca toate modulele.
+- Selecta pictograma **director** ![[lucide-folder-open.svg#icon]] pentru a deschide directorul modulelor din [[Configuration folder|directorul de configurare]].
+- Folosi **bara de căutare** pentru a filtra modulele după nume.
 
-## Learn more
+## Aflați mai multe
 
-Ready to build your own community plugin? Learn how to [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Sunteți gata să construiți propriul modul al comunității? Aflați cum să [construiți un modul](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

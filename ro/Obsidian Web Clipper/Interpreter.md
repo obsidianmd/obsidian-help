@@ -1,132 +1,131 @@
 ---
-localized: null
 permalink: web-clipper/interpreter
 ---
-Interpreter is a [[Introduction to Obsidian Web Clipper|Web Clipper]] feature that lets you interact with web pages using natural language. Interpreter helps you capture and modify data that you want to save to Obsidian. For example:
+Interpreter este o funcție [[Introduction to Obsidian Web Clipper|Web Clipper]] care îți permite să interacționezi cu paginile web folosind limbaj natural. Interpreter te ajută să capturezi și să modifici datele pe care vrei să le salvezi în Obsidian. De exemplu:
 
-- Extract specific text fragments.
-- Summarize or explain information.
-- Convert text from one format to another.
-- Translate text to a different language.
+- Extrage fragmente specifice de text.
+- Rezumă sau explică informații.
+- Convertește textul dintr-un format în altul.
+- Traduce textul într-o altă limbă.
 
-Interpreter leverages language models to process information on a web page, and return results using [[Variables]] that you can add to your [[Obsidian Web Clipper/Templates|Web Clipper Templates]].
+Interpreter folosește modele de limbaj pentru a procesa informațiile de pe o pagină web și returnează rezultate folosind [[Variables|variabile]] pe care le poți adăuga în [[Obsidian Web Clipper/Templates|șabloanele Web Clipper]].
 
 <div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/8j5qu8twj1?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
 
-## Examples of prompts
+## Exemple de prompturi
 
-Prompts use the [[Variables|variable]] syntax `{{"your prompt"}}`. You can use this syntax with any natural language query, e.g.
+Prompturile folosesc sintaxa de [[Variables|variabilă]] `{{"your prompt"}}`. Poți folosi această sintaxă cu orice interogare în limbaj natural, de ex.
 
-- `{{"a summary of the page"}}` to extract a summary of the page.
-- `{{"a three bullet point summary, translated to French"}}` to extract bullet points about the page, and translate them to French.
-- `{{"un resumé de la page en trois points"}}` to extract three bullet points using a prompt in French.
+- `{{"a summary of the page"}}` pentru a extrage un rezumat al paginii.
+- `{{"a three bullet point summary, translated to French"}}` pentru a extrage puncte cheie despre pagină și a le traduce în franceză.
+- `{{"un resumé de la page en trois points"}}` pentru a extrage trei puncte cheie folosind un prompt în franceză.
 
-The output of your prompts can be further manipulated using [[Filters]]. Filters are processed after the prompt response is received from the model. For example: `{{"a summary of the page"|blockquote}}` will turn the response into a blockquote.
+Rezultatul prompturilor tale poate fi manipulat în continuare folosind [[Filters|filtre]]. Filtrele sunt procesate după ce răspunsul la prompt este primit de la model. De exemplu: `{{"a summary of the page"|blockquote}}` va transforma răspunsul într-un citat.
 
-## Get started
+## Primii pași
 
-Interpreter works with almost any language model provider, including options that run privately on your device. To set up Interpreter:
+Interpreter funcționează cu aproape orice furnizor de model de limbaj, inclusiv opțiuni care rulează privat pe dispozitivul tău. Pentru a configura Interpreter:
 
-1. Go to the **Interpreter** section in Web Clipper settings.
-2. Toggle on **Enable Interpreter**.
-3. Configure your provider and model, see [[Interpreter#Models|models]] section below.
-4. Add [[Variables|prompt variables]] to your [[Obsidian Web Clipper/Templates|templates]].
-5. If your template includes prompt variables, the Interpreter section will be visible when you [[Clip web pages|clip a page]]. Click **interpret** to process the prompt variables.
+1. Mergi la secțiunea **Interpreter** din setările Web Clipper.
+2. Activează comutatorul **Activează Interpreter**.
+3. Configurează furnizorul și modelul tău, vezi secțiunea [[Interpreter#Models|modele]] de mai jos.
+4. Adaugă [[Variables|variabile prompt]] la [[Obsidian Web Clipper/Templates|șabloanele]] tale.
+5. Dacă șablonul tău include variabile prompt, secțiunea Interpreter va fi vizibilă atunci când [[Clip web pages|salvezi o pagină]]. Dă clic pe **interpretează** pentru a procesa variabilele prompt.
 
-## How it works
+## Cum funcționează
 
-When Interpreter is enabled *and* your template contains [[Variables#Prompt variables|prompt variables]], a new Interpreter section is displayed in the extension window, above the **Add to Obsidian** button. This section lets you select a model and run Interpreter for the current page.
+Când Interpreter este activat *și* șablonul tău conține [[Variables#Prompt variables|variabile prompt]], o nouă secțiune Interpreter este afișată în fereastra extensiei, deasupra butonului **Adaugă în Obsidian**. Această secțiune îți permite să selectezi un model și să rulezi Interpreter pentru pagina curentă.
 
-When you click **interpret**, Interpreter sends the page context to your selected model, along with *all* the prompts in your template in one request. Depending on the model provider you choose, this can be an external call or local to your device. The model evaluates your prompts against the page context, and returns its responses. Interpreter then replaces the prompt variables with the response data.
+Când dai clic pe **interpretează**, Interpreter trimite contextul paginii către modelul selectat, împreună cu *toate* prompturile din șablonul tău, într-o singură cerere. În funcție de furnizorul de model pe care îl alegi, aceasta poate fi un apel extern sau unul local pe dispozitivul tău. Modelul evaluează prompturile tale în raport cu contextul paginii și returnează răspunsurile sale. Interpreter apoi înlocuiește variabilele prompt cu datele din răspuns.
 
-The whole process can take milliseconds or more than 30 seconds depending on the model you use and the amount of data you are processing.
+Întregul proces poate dura milisecunde sau mai mult de 30 de secunde, în funcție de modelul folosit și de cantitatea de date pe care o procesezi.
 
 ## Context
 
-The term *context* refers to the page data that Interpreter uses to process prompts. The smaller the context, the faster Interpreter runs. 
+Termenul *context* se referă la datele paginii pe care Interpreter le folosește pentru a procesa prompturile. Cu cât contextul este mai mic, cu atât Interpreter rulează mai rapid. 
 
-By default, Interpreter uses the entire page HTML as its context, however this can make prompts slower and more expensive than necessary.
+Implicit, Interpreter folosește întregul HTML al paginii ca și context, însă acest lucru poate face ca prompturile să fie mai lente și mai costisitoare decât este necesar.
 
-You can override the default context in Interpreter **Advanced settings** and define context per [[Obsidian Web Clipper/Templates|template]].
+Poți suprascrie contextul implicit în **Setările avansate** ale Interpreter și poți defini contextul pentru fiecare [[Obsidian Web Clipper/Templates|șablon]] în parte.
 
-To define a more targeted context use [[Variables#Selector variables|selector variables]] (or other variable types) to interpret a section of the page. For example, you could use the following selector variable in your template's Interpreter context:
+Pentru a defini un context mai bine țintit, folosește [[Variables#Selector variables|variabile selector]] (sau alte tipuri de variabile) pentru a interpreta o secțiune a paginii. De exemplu, ai putea folosi următoarea variabilă selector în contextul Interpreter al șablonului tău:
 
 ```
 {{selectorHtml:#main}}
 ```
 
- This would only run Interpreter on the `#main` element of a web page, if it exists. [[Filters#HTML processing|HTML processing filters]] like `remove_html`, `strip_tags` and `strip_attr` can be useful to further reduce the context length and speed up processing.
+ Aceasta ar rula Interpreter doar pe elementul `#main` al unei pagini web, dacă acesta există. [[Filters#HTML processing|Filtrele de procesare HTML]] precum `remove_html`, `strip_tags` și `strip_attr` pot fi utile pentru a reduce și mai mult lungimea contextului și a accelera procesarea.
 
-## Models
+## Modele
 
-> [!warning] Privacy
-> By using a third-party model provider you agree to their terms and privacy policy. Interpreter requests are sent directly to the provider you choose. Obsidian does not gather or store any data about your requests.
+> [!warning] Confidențialitate
+> Prin folosirea unui furnizor terț de model, ești de acord cu termenii și politica sa de confidențialitate. Cererile Interpreter sunt trimise direct către furnizorul pe care îl alegi. Obsidian nu colectează și nu stochează nicio dată despre cererile tale.
 
-### Preset providers
+### Furnizori prestabiliți
 
-Interpreter includes several preset providers. To use these providers you need an API key which you can get by logging into your provider's account. You will also need to decide which model(s) to use.
+Interpreter include mai mulți furnizori prestabiliți. Pentru a folosi acești furnizori ai nevoie de o cheie API pe care o poți obține autentificându-te în contul furnizorului tău. Va trebui de asemenea să decizi ce model(e) să folosești.
 
-| Provider           | API&nbsp;key                                                | Models                                                                               |
+| Furnizor           | Cheie&nbsp;API                                                | Modele                                                                               |
 | ------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Anthropic          | [API&nbsp;key](https://console.anthropic.com/settings/keys) | [Models](https://docs.anthropic.com/en/docs/about-claude/models)                     |
-| Azure&nbsp;OpenAI  | [API&nbsp;key](https://oai.azure.com/portal/)               | [Models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) |
-| DeepSeek           | [API key](https://platform.deepseek.com/api_keys)           | [Models](https://api-docs.deepseek.com/quick_start/pricing)                          |
-| Google&nbsp;Gemini | [API&nbsp;key](https://aistudio.google.com/apikey)          | [Models](https://ai.google.dev/gemini-api/docs/models/gemini)                        |
-| Hugging Face       | [API key](https://huggingface.co/settings/tokens)           | [Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)   |
-| Meta               | [API key](https://llama.developer.meta.com)                 | [Models](https://llama.developer.meta.com/docs/models)                               |
-| Ollama             | n/a                                                         | [Models](https://ollama.com/search)                                                  |
-| OpenAI             | [API&nbsp;key](https://platform.openai.com/api-keys)        | [Models](https://platform.openai.com/docs/models)                                    |
-| OpenRouter         | [API&nbsp;key](https://openrouter.ai/settings/keys)         | [Models](https://openrouter.ai/models)                                               |
-| Perplexity         | [API key](https://www.perplexity.ai/settings/api)           | [Models](https://docs.perplexity.ai/guides/model-cards)                              |
-| xAI Grok           | [API key](https://console.x.ai/team/default/api-keys)       | [Models](https://docs.x.ai/docs/models)                                              |
+| Anthropic          | [Cheie&nbsp;API](https://console.anthropic.com/settings/keys) | [Modele](https://docs.anthropic.com/en/docs/about-claude/models)                     |
+| Azure&nbsp;OpenAI  | [Cheie&nbsp;API](https://oai.azure.com/portal/)               | [Modele](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) |
+| DeepSeek           | [Cheie API](https://platform.deepseek.com/api_keys)           | [Modele](https://api-docs.deepseek.com/quick_start/pricing)                          |
+| Google&nbsp;Gemini | [Cheie&nbsp;API](https://aistudio.google.com/apikey)          | [Modele](https://ai.google.dev/gemini-api/docs/models/gemini)                        |
+| Hugging Face       | [Cheie API](https://huggingface.co/settings/tokens)           | [Modele](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)   |
+| Meta               | [Cheie API](https://llama.developer.meta.com)                 | [Modele](https://llama.developer.meta.com/docs/models)                               |
+| Ollama             | n/a                                                         | [Modele](https://ollama.com/search)                                                  |
+| OpenAI             | [Cheie&nbsp;API](https://platform.openai.com/api-keys)        | [Modele](https://platform.openai.com/docs/models)                                    |
+| OpenRouter         | [Cheie&nbsp;API](https://openrouter.ai/settings/keys)         | [Modele](https://openrouter.ai/models)                                               |
+| Perplexity         | [Cheie API](https://www.perplexity.ai/settings/api)           | [Modele](https://docs.perplexity.ai/guides/model-cards)                              |
+| xAI Grok           | [Cheie API](https://console.x.ai/team/default/api-keys)       | [Modele](https://docs.x.ai/docs/models)                                              |
 
-### Choosing a model
+### Alegerea unui model
 
-In general we recommend using small models with Web Clipper because they are faster and perform fairly accurately for this task. Examples of smaller models include **Anthropic's Claude Haiku**, **Google Gemini Flash**, **Llama** with 3B or 8B parameters, or **OpenAI's Mini** series of models.
+În general, recomandăm folosirea modelelor mici cu Web Clipper deoarece sunt mai rapide și au o precizie destul de bună pentru această sarcină. Exemple de modele mai mici includ **Claude Haiku de la Anthropic**, **Google Gemini Flash**, **Llama** cu 3B sau 8B parametri, sau seria de modele **Mini** de la OpenAI.
 
-### Custom providers and models
+### Furnizori și modele personalizate
 
-To add a custom provider and/or model go to Web Clipper **[[Settings]]** → **Interpreter**:
+Pentru a adăuga un furnizor și/sau un model personalizat, mergi la **[[Settings|Setările]]** Web Clipper → **Interpreter**:
 
-- **Add provider** to configure preset and custom providers.
-- **Add model** to configure preset and custom models.
+- **Adaugă furnizor** pentru a configura furnizori prestabiliți și personalizați.
+- **Adaugă model** pentru a configura modele prestabilite și personalizate.
 
-When adding a custom provider, we recommend that you use their chat completions endpoint for the **Base URL** — it typically ends with `/chat/completions`.
+Când adaugi un furnizor personalizat, îți recomandăm să folosești punctul lor final pentru finalizarea conversațiilor (chat completions) ca **URL de bază** — de obicei se termină cu `/chat/completions`.
 
-### Local models
+### Modele locale
 
-Interpreter can use local models which offer greater privacy and offline compatibility. Several options for running local models exist. One of the easiest to configure is Ollama.
+Interpreter poate folosi modele locale, care oferă o confidențialitate mai mare și compatibilitate offline. Există mai multe opțiuni pentru rularea modelelor locale. Una dintre cele mai ușor de configurat este Ollama.
 
 #### Ollama
 
-[Ollama](https://ollama.com/) lets you run language models locally and privately on your device. 
+[Ollama](https://ollama.com/) îți permite să rulezi modele de limbaj local și privat pe dispozitivul tău. 
 
-Once you have downloaded and installed Ollama, add Ollama using **Add provider** in Interpreter settings. Ollama does not require an API key. Then choose a model from the [model list](https://ollama.com/search). For example if you want to use [Llama 3.2](https://ollama.com/library/llama3.2), click **Add model**, then:
+După ce ai descărcat și instalat Ollama, adaugă Ollama folosind **Adaugă furnizor** în setările Interpreter. Ollama nu necesită o cheie API. Apoi alege un model din [lista de modele](https://ollama.com/search). De exemplu, dacă vrei să folosești [Llama 3.2](https://ollama.com/library/llama3.2), dă clic pe **Adaugă model**, apoi:
 
-- **Provider:** Ollama
-- **Display name:** Llama 3.2, this value is customizable.
-- **Model ID:** `llama3.2`, this must exactly match the model ID from Olllama.
+- **Furnizor:** Ollama
+- **Nume afișat:** Llama 3.2, această valoare este personalizabilă.
+- **ID model:** `llama3.2`, aceasta trebuie să corespundă exact cu ID-ul modelului din Ollama.
 
-**Start the Ollama server**
+**Pornește serverul Ollama**
 
-To allow a browser extension to interact with Ollama you must [give it explicit instruction](https://github.com/ollama/ollama/issues/2308) when running the server, or else you will see a `403` error. 
+Pentru a permite unei extensii de browser să interacționeze cu Ollama, trebuie să [oferi o instrucțiune explicită](https://github.com/ollama/ollama/issues/2308) atunci când rulezi serverul, altfel vei vedea o eroare `403`. 
 
-Close the Ollama app, and run the following command in your terminal. The protocol should be changed to your browser's extension protocol if you don't use Chrome or Firefox.
+Închide aplicația Ollama și rulează următoarea comandă în terminalul tău. Protocolul trebuie schimbat cu protocolul extensiei browserului tău dacă nu folosești Chrome sau Firefox.
 
 ```
 OLLAMA_ORIGINS=moz-extension://*,chrome-extension://*,safari-web-extension://* ollama serve
 ```
 
-Then run your model with Ollama the normal way, e.g.
+Apoi rulează modelul tău cu Ollama în mod obișnuit, de ex.
 
 ```
 ollama run llama3.2
 ```
 
-**Context length**
+**Lungimea contextului**
 
-Ollama's context window defaults to 2048 tokens. This is the maximum number of tokens for the message and response. When clipping a long web page you can easily exceed this limit. Ollama will silently fail and return irrelevant results. Some options:
+Fereastra de context a Ollama este implicit de 2048 de jetoane (tokens). Acesta este numărul maxim de jetoane pentru mesaj și răspuns. Când salvezi o pagină web lungă, poți depăși cu ușurință această limită. Ollama va eșua silențios și va returna rezultate irelevante. Câteva opțiuni:
 
-- Increase Ollama's `num_ctx` parameter. Be mindful that longer context requires more memory.
-- Use the [[#Context]] field in your template to provide a more targeted section of the page, or trim the context using a [[Filters|filter]] e.g. `{{content|slice:0,1000}}`.
+- Crește parametrul `num_ctx` al Ollama. Ține cont că un context mai lung necesită mai multă memorie.
+- Folosește câmpul [[#Context]] din șablonul tău pentru a oferi o secțiune mai bine țintită a paginii, sau reduce contextul folosind un [[Filters|filtru]], de ex. `{{content|slice:0,1000}}`.

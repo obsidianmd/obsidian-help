@@ -1,7 +1,6 @@
 ---
-localized: null
 permalink: plugins/random-note
 ---
-Random note is a [[Core plugins|core plugin]] that opens a random note within your vault. Rediscover notes to add new insights, or link to recently added notes.
+Random note este un [[Core plugins|modul integrat]] care deschide o notă aleatorie din seiful tău. Redescoperă note pentru a adăuga perspective noi, sau fă legături către notele adăugate recent.
 
-To open a random note, click **Open random note** ![[obsidian-icon-dice.svg#icon]] in the [[Ribbon]].
+Pentru a deschide o notă aleatorie, dă clic pe **Open random note** ![[obsidian-icon-dice.svg#icon]] în [[Ribbon|Panglică]].

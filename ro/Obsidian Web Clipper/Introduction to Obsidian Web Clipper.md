@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: web-clipper
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian Web Clipper is a free browser extension that lets you highlight pages and save web content to your vault.
+Obsidian Web Clipper este o extensie de browser gratuită care îți permite să evidențiezi pagini și să salvezi conținut web în seiful tău.
 
-## Install Web Clipper
+## Instalează Web Clipper
 
-Get the Obsidian Web Clipper extension from the official directory for your browser:
+Obține extensia Obsidian Web Clipper din directorul oficial pentru browserul tău:
 
 - [Chrome Web Store](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
-	- For Chrome, Brave, Arc, Orion, and other Chromium-based browsers.
+	- Pentru Chrome, Brave, Arc, Orion și alte browsere bazate pe Chromium.
 - [Firefox Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/web-clipper-obsidian/)
-	- For Firefox and Firefox Mobile.
+	- Pentru Firefox și Firefox Mobile.
 - [Safari Extensions](https://apps.apple.com/us/app/obsidian-web-clipper/id6720708363)
-	- For macOS, iOS, and iPadOS.
+	- Pentru macOS, iOS și iPadOS.
 - [Edge Add-Ons](https://microsoftedge.microsoft.com/addons/detail/obsidian-web-clipper/eigdjhmgnaaeaonimdklocfekkaanfme)
-	- For Microsoft Edge.
+	- Pentru Microsoft Edge.
 
-## How to use Web Clipper
+## Cum se folosește Web Clipper
 
 - [[Clip web pages]]
-	- Get started and learn how to save content from pages.
-- [[Highlighter|Highlighter]]
-	- Highlight important passages and select elements you want to save.
+	- Începe și învață cum să salvezi conținut de pe pagini.
+- [[Highlighter|Evidențiere]]
+	- Evidențiază pasaje importante și selectează elementele pe care vrei să le salvezi.
 - [[Reader|Reader]]
-	- Read web pages in a clean, distraction-free view.
+	- Citește pagini web într-o vizualizare curată, fără elemente care distrag atenția.
 - [[Interpreter|Interpreter]]
-	- Use natural language prompts to capture and modify data on a page.
-- [[Troubleshoot Web Clipper|Troubleshooting]]
-	- Resolve common issues with Web Clipper.
-- [[Obsidian Web Clipper/Templates|Templates]]
-	- Create custom templates for specific websites.
+	- Folosește prompturi în limbaj natural pentru a captura și modifica date de pe o pagină.
+- [[Troubleshoot Web Clipper|Depanare]]
+	- Rezolvă probleme comune cu Web Clipper.
+- [[Obsidian Web Clipper/Templates|Șabloane]]
+	- Creează șabloane personalizate pentru site-uri web specifice.
 - [[Variables]]
-	- Pre-populate page data in your template.
+	- Populează automat datele paginii în șablonul tău.
 - [[Filters]]
-	- Modify the output of template variables.
+	- Modifică rezultatul variabilelor de șablon.
 - [[Logic]]
-	- Use conditionals, loops, and set variables in templates.
+	- Folosește condiționale, bucle și variabile setate în șabloane.
 
-## Privacy
+## Confidențialitate
 
-Obsidian Web Clipper saves content locally to your Obsidian vault and follows our [privacy policy](https://obsidian.md/privacy). Your data is not collected, and we do not gather any usage metrics. The code is [open source](https://github.com/obsidianmd/obsidian-clipper) and auditable.
+Obsidian Web Clipper salvează conținutul local în seiful tău Obsidian și respectă [politica noastră de confidențialitate](https://obsidian.md/privacy). Datele tale nu sunt colectate și nu adunăm nicio măsurătoare de utilizare. Codul este [open source](https://github.com/obsidianmd/obsidian-clipper) și poate fi auditat.

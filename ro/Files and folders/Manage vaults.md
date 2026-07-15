@@ -1,82 +1,81 @@
 ---
-localized: null
 permalink: manage-vaults
 ---
-A **vault** is a folder on your file system which contains your notes, [[attachments]], and the [[configuration folder]] with Obsidian-specific settings. For more information on vaults, refer to [[How Obsidian stores data]].
+Un **seif** este un director din sistemul dumneavoastră de fișiere care conține notele, [[attachments|atașamentele]] și [[configuration folder|directorul de configurare]] cu setările specifice Obsidian. Pentru mai multe informații despre seifuri, consultați [[How Obsidian stores data]].
 
-You can manage your vaults using the **Vault switcher**. The *Vault profile* opens the first time you open Obsidian.
+Puteți gestiona seifurile folosind **comutatorul de seifuri**. *Profilul seifului* se deschide prima dată când deschideți Obsidian.
 
-To open the vault switcher from an existing vault, select **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] at the bottom of the [[Sidebar|left sidebar]]. Or, select **Open another vault** from the [[command palette]].
+Pentru a deschide comutatorul de seifuri dintr-un seif existent, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]] din partea de jos a [[Sidebar|barei laterale stângi]]. Sau, selectați **Deschide alt seif** din [[command palette|paleta de comenzi]].
 
-## Create new vault
+## Creați un seif nou
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-3. To the right of **Create new vault**, select **Create**.
-4. In **Vault name**, enter the name of your vault.
-5. Click **Browse** to select where your new vault will be created.
-6. Click **Create**.
+1. Pe computerul dumneavoastră, deschideți Obsidian.
+2. În partea din stânga jos, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]].
+3. Va apărea un meniu contextual. Selectați **Gestionează seifurile...**.
+3. În dreapta opțiunii **Creează seif nou**, selectați **Creează**.
+4. La **Numele seifului**, introduceți numele seifului dumneavoastră.
+5. Faceți clic pe **Răsfoiește** pentru a selecta locul unde va fi creat noul seif.
+6. Faceți clic pe **Creează**.
 
-## Create vault from an existing folder
+## Creați un seif dintr-un director existent
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-3. At the right of **Open folder as vault**, click **Open**.
-4. In the file browser, select the folder you want to use as your vault.
-5. Click **Open**.
+1. Pe computerul dumneavoastră, deschideți Obsidian.
+2. În partea din stânga jos, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]].
+3. Va apărea un meniu contextual. Selectați **Gestionează seifurile...**.
+3. În dreapta opțiunii **Deschide directorul ca seif**, faceți clic pe **Deschide**.
+4. În navigatorul de fișiere, selectați directorul pe care doriți să-l folosiți ca seif.
+5. Faceți clic pe **Deschide**.
 
-> [!tip] Open vault from Obsidian Sync
-> If you want to open a remote vault using Obsidian Sync, refer to [[Set up Obsidian Sync]].
+> [!tip] Deschideți un seif din Obsidian Sync
+> Dacă doriți să deschideți un seif la distanță folosind Obsidian Sync, consultați [[Set up Obsidian Sync]].
 
-## Rename vault
+## Redenumiți seiful
 
-Since the name of a vault and the underlying folder are the same, renaming a vault also renames the folder.
+Deoarece numele unui seif și directorul subiacent sunt identice, redenumirea unui seif redenumește și directorul.
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to rename.
-5. Select **Rename vault**.
-6. Enter the new name for the vault, and press `Enter`.
+1. Pe computerul dumneavoastră, deschideți Obsidian.
+2. În partea din stânga jos, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]].
+3. Va apărea un meniu contextual. Selectați **Gestionează seifurile...**.
+4. În lista de seifuri, selectați **Mai multe opțiuni** ![[lucide-more-horizontal.svg#icon]] lângă seiful pe care doriți să-l redenumiți.
+5. Selectați **Redenumește seiful**.
+6. Introduceți noul nume pentru seif și apăsați `Enter`.
 
-## Move vault to a different folder
+## Mutați seiful într-un alt director
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-4. Close the current vault window, leaving the **Manage Vaults** window open.
-5. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to move.
-6. Select **Move vault**, and then select the new location.
+1. Pe computerul dumneavoastră, deschideți Obsidian.
+2. În partea din stânga jos, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]].
+3. Va apărea un meniu contextual. Selectați **Gestionează seifurile...**.
+4. Închideți fereastra seifului curent, lăsând deschisă fereastra **Gestionează seifurile**.
+5. În lista de seifuri, selectați **Mai multe opțiuni** ![[lucide-more-horizontal.svg#icon]] lângă seiful pe care doriți să-l mutați.
+6. Selectați **Mută seiful**, apoi selectați noua locație.
 
-Some operating systems do not allow the vault to be moved with the Vault Switcher. In these cases, you will need to move your vault manually:
+Unele sisteme de operare nu permit mutarea seifului cu ajutorul comutatorului de seifuri. În aceste cazuri, va trebui să mutați seiful manual:
 
-1. Close Obsidian.
-2. Move your vault folder to a new location, avoiding folders synced by other services.
-3. Reopen Obsidian.
-4. Click the **Vault profile** icon at the bottom left ![[lucide-chevrons-up-down.svg#icon]].
-5. From the pop-up menu, select **Manage Vaults...**.
-6. Next to **Open folder as vault**, click **Open**.
-7. Navigate to and select your new vault folder.
-8. Click **Open**.
-9. Verify that the vault contents are unchanged. If necessary, re-enable community plugins by navigating to **[[Settings]] → Community Plugins → Turn restricted mode off**.
+1. Închideți Obsidian.
+2. Mutați directorul seifului într-o nouă locație, evitând directoarele sincronizate de alte servicii.
+3. Redeschideți Obsidian.
+4. Faceți clic pe pictograma **Profilul seifului** din partea din stânga jos ![[lucide-chevrons-up-down.svg#icon]].
+5. Din meniul contextual, selectați **Gestionează seifurile...**.
+6. Lângă **Deschide directorul ca seif**, faceți clic pe **Deschide**.
+7. Navigați la noul director al seifului și selectați-l.
+8. Faceți clic pe **Deschide**.
+9. Verificați dacă conținutul seifului este neschimbat. Dacă este necesar, reactivați modulele comunitare navigând la **[[Settings]] → Module comunitare → Dezactivează modul restricționat**.
 
-## Remove vault
+## Eliminați seiful
 
-Removing a vault only removes it from the vault list. 
+Eliminarea unui seif doar îl elimină din lista de seifuri.
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to move.
-5. Select **Remove from list**.
+1. Pe computerul dumneavoastră, deschideți Obsidian.
+2. În partea din stânga jos, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]].
+3. Va apărea un meniu contextual. Selectați **Gestionează seifurile...**.
+4. În lista de seifuri, selectați **Mai multe opțiuni** ![[lucide-more-horizontal.svg#icon]] lângă seiful pe care doriți să-l mutați.
+5. Selectați **Elimină din listă**.
 
-## Transfer settings to another vault
+## Transferați setările către un alt seif
 
-To use the same settings for another vault, use your preferred file manager (or terminal) to copy the `.obsidian` folder from the root of the source vault to the root of the destination vault.
+Pentru a folosi aceleași setări pentru un alt seif, folosiți managerul de fișiere preferat (sau terminalul) pentru a copia directorul `.obsidian` din rădăcina seifului sursă în rădăcina seifului destinație.
 
-You may need to restart Obsidian to apply the changes.
+Este posibil să fie necesar să reporniți Obsidian pentru a aplica modificările.
 
-> [!note] Where do I find the `.obsidian` folder?
-> By default, most operating systems hide folders starting with a period (`.`). For more information about the `.obsidian` folder and how to access it, refer to [[How Obsidian stores data#Vault settings|vault settings]] and [[Configuration folder|config folders]].
+> [!note] Unde găsesc directorul `.obsidian`?
+> Implicit, majoritatea sistemelor de operare ascund directoarele care încep cu un punct (`.`). Pentru mai multe informații despre directorul `.obsidian` și cum să-l accesați, consultați [[How Obsidian stores data#Setările seifului|setările seifului]] și [[Configuration folder|directoarele de configurare]].

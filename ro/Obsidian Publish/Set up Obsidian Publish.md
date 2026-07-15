@@ -1,111 +1,110 @@
 ---
-localized: null
 permalink: publish/setup
 mobile: true
-description: 'In this guide, you''ll enable Obsidian Publish for your vault, create a site, and publish your notes to it.'
+description: 'În acest ghid, vei activa Obsidian Publish pentru seiful tău, vei crea un site și îți vei publica notele pe acesta.'
 ---
-In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+În acest ghid, vei activa [[Introduction to Obsidian Publish|Obsidian Publish]] pentru seiful tău, vei crea un site și îți vei publica notele pe acesta.
 
-## Prerequisites
+## Cerințe prealabile
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
+- Un cont Obsidian. Dacă nu ai unul, [înscrie-te acum](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
+- Un abonament activ Obsidian Publish. Dacă nu ai unul, abonează-te din [tabloul de bord al contului tău](https://obsidian.md/account/publish).
 
-## Log in with your Obsidian account
+## Autentifică-te cu contul tău Obsidian
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Click **Login**.
+1. Deschide **[[Settings|Setări]]**.
+2. În bara laterală, selectează **General**.
+3. Sub **Cont → Contul tău**, selectează **Autentificare**.
+4. La **E-mail**, introdu adresa ta de e-mail.
+5. La **Parolă**, introdu parola ta.
+6. Apasă pe **Autentificare**.
 
-## Enable Obsidian Publish
+## Activează Obsidian Publish
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Core plugins**.
-3. Enable **Publish**.
+1. Deschide **[[Settings|Setări]]**.
+2. În bara laterală, selectează **Module integrate**.
+3. Activează **Publish**.
 
-### Open Publish
+### Deschide Publish
 
-You can access Publish through the following options: the command palette, a hotkey, or the ribbon.
+Poți accesa Publish prin următoarele opțiuni: paleta de comenzi, o combinație de taste sau panglica.
 
-#### Open via Command palette
+#### Deschide prin Paleta de comenzi
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] Această opțiune necesită ca modulul integrat [[Command palette|Paleta de comenzi]] să fie activat.
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**Desktop/Tabletă** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette** ![[lucide-terminal.svg#icon]].
-2. Type "Publish".
-3. Select the **Publish: Publish changes...** option.
+1. Deschide **Paleta de comenzi** ![[lucide-terminal.svg#icon]].
+2. Scrie „Publish”.
+3. Selectează opțiunea **Publish: Publish changes...**.
 
-The **Publish changes** window will appear in a new pop-up.
+Fereastra **Publică schimbările** va apărea într-un nou pop-up.
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**Mobil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
-2. Open the **Command palette** ![[lucide-terminal.svg#icon]].
-3. Type "Publish".
-4. Select the **Publish: Publish changes...** option.
+1. Deschide [[Ribbon|Panglica]] ![[lucide-menu.svg#icon]].
+2. Deschide **Paleta de comenzi** ![[lucide-terminal.svg#icon]].
+3. Scrie „Publish”.
+4. Selectează opțiunea **Publish: Publish changes...**.
 
-The **Publish changes** menu will appear as a slide-up.
+Meniul **Publică schimbările** va apărea ca un panou glisant.
 
-#### Open via hotkey
+#### Deschide prin combinație de taste
 
-1. Open **[[Settings]]**.
-2. In the **Options** category, select **Hotkeys**.
-3. In the hotkey search bar, type "Publish".
-4. Next to **Publish: Publish changes...**, assign your preferred hotkey.
-5. Close **[[Settings]]**.
-6. Use your hotkey to open **Publish changes**.
+1. Deschide **[[Settings|Setări]]**.
+2. În categoria **Opțiuni**, selectează **Combinații de taste**.
+3. În bara de căutare a combinațiilor de taste, scrie „Publish”.
+4. Lângă **Publish: Publish changes...**, atribuie combinația de taste preferată.
+5. Închide **[[Settings|Setări]]**.
+6. Folosește combinația de taste pentru a deschide **Publică schimbările**.
 
-#### Open via ribbon
+#### Deschide prin panglică
 
-You can also access Obsidian Publish via the [[ribbon]].
+Poți accesa Obsidian Publish și prin [[ribbon|panglică]].
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**Desktop/Tabletă** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the left [[Sidebar]] ![[obsidian-icon-side-bar-left.svg#icon]].
-2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.
+1. Deschide [[Sidebar|bara laterală]] stângă ![[obsidian-icon-side-bar-left.svg#icon]].
+2. Selectează pictograma **Publică schimbările** ![[lucide-send.svg#icon]].
 
-The **Publish changes** window will appear in a new pop-up.
+Fereastra **Publică schimbările** va apărea într-un nou pop-up.
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**Mobil** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
-2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.
+1. Deschide [[Ribbon|Panglica]] ![[lucide-menu.svg#icon]].
+2. Selectează pictograma **Publică schimbările** ![[lucide-send.svg#icon]].
 
-The **Publish changes** menu will appear as a slide-up.
+Meniul **Publică schimbările** va apărea ca un panou glisant.
 
-## Create a new site
+## Creează un site nou
 
-1. [[#Open Publish]]
-2. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from `publish.obsidian.md/my-amazing-site`.
-3. Select **Create**.
-### Set a site name
+1. [[#Deschide Publish]]
+2. La **ID-ul siteului**, introdu calea pe care o vrei pentru site-ul tău. De exemplu, un site cu ID-ul `my-amazing-site` este disponibil la `publish.obsidian.md/my-amazing-site`.
+3. Selectează **Creează**.
+### Setează un nume pentru site
 
-1. [[#Open Publish]]
-2. Select **Change site options** ![[lucide-cog.svg#icon]].
-3. In **Site name**, under **General**, enter the name of your site.
-4. Select **Save site settings**.
+1. [[#Deschide Publish]]
+2. Selectează **Schimbă opțiunile siteului** ![[lucide-cog.svg#icon]].
+3. La **Numele siteului**, sub **General**, introdu numele site-ului tău.
+4. Selectează **Salvează setările siteului**.
 
-> [!abstract] **Further reading**: [[Manage sites]], [[Customize your site]]
+> [!abstract] **Lectură suplimentară**: [[Manage sites|Administrează siteurile]], [[Customize your site|Personalizează-ți site-ul]]
  
-## Select notes to publish
+## Selectează notele de publicat
 
-1. [[#Open Publish]]
-2. Select **NEW** to view all the notes you haven’t published yet.
-3. Choose the notes you want to publish.
-4. Select **Publish**.
+1. [[#Deschide Publish]]
+2. Selectează **NOU** pentru a vedea toate notele pe care nu le-ai publicat încă.
+3. Alege notele pe care vrei să le publici.
+4. Selectează **Publică**.
 
-> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
+> [!abstract] **Lectură suplimentară**: [[Publish your content|Publică-ți conținutul]], [[Obsidian Publish/Security and privacy|Securitate și confidențialitate]], [[Publish limitations|Limitările Publish]]
 
-You've configured an Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
+Ai configurat un site Obsidian Publish și ți-ai publicat primele note. Mergi la adresa site-ului pe care ai configurat-o mai devreme în acest ghid și începe să-l împărtășești cu cititorii tăi.
 
-## Next steps
+## Pași următori
 
-Now that you've published your first notes, you might want to:
-- Set up a custom domain for your site: [[Custom domains]]
-- Learn about advanced site customization: [[Customize your site]]
-- Find out how to add social media cards: [[Social media link previews]]
+Acum că ți-ai publicat primele note, ai putea vrea să:
+- Configurezi un domeniu personalizat pentru site-ul tău: [[Custom domains|Domenii personalizate]]
+- Afli despre personalizarea avansată a site-ului: [[Customize your site|Personalizează-ți site-ul]]
+- Afli cum să adaugi carduri pentru rețele sociale: [[Social media link previews|Previzualizări pentru rețele sociale]]

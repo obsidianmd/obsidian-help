@@ -1,32 +1,31 @@
 ---
-localized: null
 permalink: plugins/daily-notes
 ---
 
-Daily notes is a [[Core plugins|core plugin]] that opens a note based on today's date, or creates it if it doesn't exist. Use daily notes to create journals, to-do lists, or daily logs for things you discovered during the day.
+Daily notes este un [[Core plugins|modul integrat]] care deschide o notă pe baza datei de azi sau o creează dacă nu există. Folosește notele zilnice pentru a crea jurnale, liste de sarcini sau evidențe zilnice ale lucrurilor pe care le-ai descoperit în timpul zilei.
 
-To open today's daily note, either:
+Pentru a deschide nota zilnică de azi, fie:
 
-- Click **Open today's daily note** ![[lucide-calendar.svg#icon]] in the [[Ribbon|ribbon]].
-- Run **Open today's daily note** from the [[Command palette]].
-- [[Hotkeys#Set a hotkey|Use a hotkey]] for the **Open today's daily note** command.
+- Dă clic pe **Open today's daily note** ![[lucide-calendar.svg#icon]] în [[Ribbon|panglică]].
+- Rulează **Open today's daily note** din [[Command palette|Paleta de comenzi]].
+- [[Hotkeys#Set a hotkey|Folosește o combinație de taste]] pentru comanda **Open today's daily note**.
 
-By default, Obsidian creates a new empty note named after today's date in the YYYY-MM-DD format.
+Implicit, Obsidian creează o notă nouă, goală, denumită după data de azi, în formatul YYYY-MM-DD.
 
-> [!tip] If you prefer to have your daily notes in a separate folder, you can set the <u>New file location</u> under plugin options to change where Obsidian creates new daily notes.
+> [!tip] Dacă preferi să ai notele zilnice într-un director separat, poți seta <u>Locația pentru fișiere noi</u> în opțiunile modulului pentru a schimba unde creează Obsidian notele zilnice noi.
 
-> [!example]- Automatic subfolders
-> You can automatically organize your daily notes into folders using the **Date format** feature.
+> [!example]- Subdirectoare automate
+> Îți poți organiza automat notele zilnice în directoare folosind funcția **Format dată**.
 > 
-> For instance, if you set the date format as `YYYY/MMMM/YYYY-MMM-DD`, your notes will be created as `2023/January/2023-Jan-01`. 
+> De exemplu, dacă setezi formatul datei ca `YYYY/MMMM/YYYY-MMM-DD`, notele tale vor fi create ca `2023/January/2023-Jan-01`. 
 > 
-> You can explore more formatting options on the [momentJS](https://momentjs.com/docs/#/displaying/format/) documentation site.
+> Poți explora mai multe opțiuni de formatare pe site-ul de documentație [momentJS](https://momentjs.com/docs/#/displaying/format/).
 
-## Create a daily note from template
+## Creează o notă zilnică dintr-un șablon
 
-If your daily notes have the same structure, you can use a [[Plugins/Templates|template]] to add pre-defined content to your daily notes when you create them.
+Dacă notele tale zilnice au aceeași structură, poți folosi un [[Plugins/Templates|șablon]] pentru a adăuga conținut predefinit la notele zilnice atunci când le creezi.
 
-1. Create a new note named "Daily template" with the following text (or whatever makes sense to you!):
+1. Creează o notă nouă numită „Daily template” cu următorul text (sau orice altceva are sens pentru tine!):
 
    ```md
    # {{date:YYYY-MM-DD}}
@@ -36,15 +35,15 @@ If your daily notes have the same structure, you can use a [[Plugins/Templates|t
    - [ ]
    ```
 
-2. Open **[[Settings]]**.
-3. In the sidebar, click **Daily notes** under **Plugin options**.
-4. In the text box next to **Template file location**, select the "Daily template" note.
+2. Deschide **[[Settings]]**.
+3. În bara laterală, dă clic pe **Daily notes** sub **Opțiunile modulului**.
+4. În câmpul de text de lângă **Template file location**, selectează nota „Daily template”.
 
-Obsidian uses the template the next time you create a new daily note.
+Obsidian folosește șablonul data următoare când creezi o notă zilnică nouă.
 
-## Daily notes and properties
+## Notele zilnice și proprietățile
 
-When the Daily notes plugin is activated and a date property is present within any note, Obsidian will automatically attempt to generate a link to the daily note for that specific day. For instance, if a note titled `example.md` includes a date property like `2023-01-01`, this date will transform into a clickable link in the [[Views and editing mode#Live Preview|live preview]] section.
+Când modulul Daily notes este activat și o proprietate de tip dată este prezentă în orice notă, Obsidian va încerca automat să genereze o legătură către nota zilnică pentru acea zi anume. De exemplu, dacă o notă numită `example.md` include o proprietate de tip dată precum `2023-01-01`, această dată se va transforma într-o legătură pe care se poate da clic, în secțiunea [[Views and editing mode#Live Preview|previzualizare în direct]].
 
 ![[daily-notes-and-date-properties.png#interface|300]]
 ^daily-notes-date

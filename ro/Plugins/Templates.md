@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: plugins/templates
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Templates is a core plugin that lets you insert pre-defined snippets of text into your active note.
+description: Templates este un modul integrat care îți permite să inserezi fragmente de text predefinite în nota activă.
 ---
 
-Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined snippets of text into your active note.
+Templates este un [[Core plugins|modul integrat]] care îți permite să inserezi fragmente de text predefinite în nota activă.
 
-## Set your template folder
+## Setează directorul de șabloane
 
-1. In the bottom-left corner, select **[[Settings]]** ![[lucide-cog.svg#icon]].
-2. Under **Core plugins → Templates → Template folder location**, enter the folder containing your templates.
+1. În colțul din stânga jos, selectează **[[Settings|Setări]]** ![[lucide-cog.svg#icon]].
+2. Sub **Module integrate → Templates → Template folder location**, introdu directorul care conține șabloanele tale.
 
-## Template variables
+## Variabile de șablon
 
-You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
+Poți adăuga informații dinamice în șabloanele tale, folosind _variabile de șablon_. Când inserezi un șablon care conține o variabilă de șablon, Templates o înlocuiește cu valoarea corespunzătoare.
 
-| Variable    | Description                                     |
+| Variabilă    | Descriere                                     |
 |-------------|-------------------------------------------------|
-| `{{title}}` | Title of the active note.                       |
-| `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
-| `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
+| `{{title}}` | Titlul notei active.                       |
+| `{{date}}`  | Data de azi. **Format implicit:** `YYYY-MM-DD`. |
+| `{{time}}`  | Ora curentă. **Format implicit:** `HH:mm`.      |
 
-Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
+Atât `{{date}}`, cât și `{{time}}` îți permit să schimbi formatul implicit folosind un _șir de format_.
 
-To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
+Pentru a seta un șir de format, adaugă două puncte (`:`) urmate de un șir de [jetoane de format Moment.js](https://momentjs.com/docs/#/displaying/format/), de exemplu `{{date:YYYY-MM-DD}}`.
 
-You can use `{{date}}` and `{{time}}` with format strings in the same way, for example `{{time:YYYY-MM-DD}}`.
+Poți folosi `{{date}}` și `{{time}}` cu șiruri de format în același mod, de exemplu `{{time:YYYY-MM-DD}}`.
 
-You can change the default date and time formats under **[[Settings]] → Core plugins → Templates → Date format** and **[[Settings]] → Core plugins → Templates → Time format**. ^template-settings-date-time-formatting
+Poți schimba formatele implicite de dată și oră sub **[[Settings|Setări]] → Module integrate → Templates → Date format** și **[[Settings|Setări]] → Module integrate → Templates → Time format**. ^template-settings-date-time-formatting
 
-> [!tip]- Use date and time variables in other plugins
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
+> [!tip]- Folosește variabilele de dată și oră în alte module
+> Poți folosi variabilele de șablon `{{date}}` și `{{time}}` și în modulele [[Daily notes|Note zilnice]] și [[Unique note creator]].
 
-## Create a template
+## Creează un șablon
 
-In the [[#Set your template folder|template folder]], [[Manage notes#Create a new note|create a note]] containing the text you want to appear when you use the template. You can use [[#Template variables|template variables]] for dynamic text like the current date.
+În [[#Setează directorul de șabloane|directorul de șabloane]], [[Manage notes#Create a new note|creează o notă]] care conține textul pe care vrei să-l vezi apărând atunci când folosești șablonul. Poți folosi [[#Variabile de șablon|variabilele de șablon]] pentru text dinamic, cum ar fi data curentă.
 
-For example, here's a template for study notes:
+De exemplu, iată un șablon pentru note de studiu:
 
 ```markdown
 ---
@@ -72,28 +71,28 @@ tags:
 - [[]]
 ```
 
-> [!warning]+ Edit templates in Source mode
-> In [[Views and editing mode#Live Preview|Live Preview]], the **Properties in document** panel can overwrite template variables that do not have quotation marks.
+> [!warning]+ Editează șabloanele în Modul sursă
+> În [[Views and editing mode#Live Preview|Previzualizare în direct]], panoul **Proprietăți în document** poate suprascrie variabilele de șablon care nu au ghilimele.
 >
-> To avoid this, edit templates in [[Views and editing mode#Source mode|Source mode]], or set **[[Settings]] → Editor → [[Settings#Properties in document|Properties in document]]** to **Source**.
+> Pentru a evita acest lucru, editează șabloanele în [[Views and editing mode#Source mode|Mod sursă]], sau setează **[[Settings|Setări]] → Editor → [[Settings#Properties in document|Proprietăți în document]]** la **Sursă**.
 
-## Insert a template into the active note
+## Inserează un șablon în nota activă
 
-> [!todo] [[#Set your template folder]] before inserting a template.
+> [!todo] [[#Setează directorul de șabloane]] înainte de a insera un șablon.
 
-1. In the ribbon, select **Insert template**.
-2. Select the template to insert at the cursor position in the active note.
+1. În panglică, selectează **Insert template**.
+2. Selectează șablonul de inserat la poziția cursorului în nota activă.
 
-To insert a template using the [[Command palette]] or [[Hotkeys#Set a hotkey|a custom keyboard shortcut]], use the command `Templates: Insert template`.
+Pentru a insera un șablon folosind [[Command palette|Paleta de comenzi]] sau [[Hotkeys#Set a hotkey|o combinație de taste personalizată]], folosește comanda `Templates: Insert template`.
 
-The content of the template is inserted at your current cursor position. If your cursor is not in the note body, the content is inserted at your last cursor position.
+Conținutul șablonului este inserat la poziția curentă a cursorului tău. Dacă cursorul tău nu este în corpul notei, conținutul este inserat la ultima poziție a cursorului tău.
 
-### Template properties
+### Proprietățile șablonului
 
 ![[Properties#^templates-properties]]
 
-## Insert current date and time into the active note
+## Inserează data și ora curente în nota activă
 
-Use the commands `Templates: Insert current date` and `Templates: Insert current time` to insert the current date and time at your current cursor position. Like the `Insert template` command, you can also perform these with the Command palette or a custom keyboard shortcut.
+Folosește comenzile `Templates: Insert current date` și `Templates: Insert current time` pentru a insera data și ora curente la poziția curentă a cursorului tău. La fel ca și comanda `Insert template`, poți executa și aceste comenzi folosind Paleta de comenzi sau o combinație de taste personalizată.
 
-The inserted date and time uses the [[#^template-settings-date-time-formatting|formatting set in the plugin settings]].
+Data și ora inserate folosesc [[#^template-settings-date-time-formatting|formatarea setată în opțiunile modulului]].

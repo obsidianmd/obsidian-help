@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: import/csv
 ---
-Obsidian lets you import data from CSV files using the official [[Importer|Importer plugin]]. This is useful if you have data tabular stored in apps such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+Obsidian îți permite să imporți date din fișiere CSV folosind [[Importer|modulul Importer]] oficial. Acest lucru este util dacă ai date tabelare stocate în aplicații precum Excel, Google Sheets, Numbers, Notion sau Airtable.
 
-CSV import generates Markdown files for each row and a [[Introduction to Bases|Base]] file that displays all the imported files as a table.
+Importul CSV generează fișiere Markdown pentru fiecare rând și un fișier [[Introduction to Bases|Bază]] care afișează toate fișierele importate sub formă de tabel.
 
-If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
+Dacă imporți note dintr-o aplicație anume, s-ar putea să vrei să consulți mai întâi lista aplicațiilor acceptate de [[Importer|modulul Importer]] pentru a verifica dacă există un convertor specific care va păstra mai bine datele pe care le migrezi.
 
-## Create notes from CSV data in Obsidian
+## Creează note din date CSV în Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **CSV (.csv).**
-6. Select the location of your CSV file.
-7. Click **Import** to configure how data in your CSV file will be converted to notes with [[Properties]].
-8. Click **Continue** and wait until import is complete.
-9. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** alege **CSV (.csv).**
+6. Selectează locația fișierului tău CSV.
+7. Apasă **Importă** pentru a configura modul în care datele din fișierul tău CSV vor fi convertite în note cu [[Properties]].
+8. Apasă **Continuă** și așteaptă până când importul este finalizat.
+9. Ai terminat!
 
-## Configure how CSV fields are imported
+## Configurează modul în care sunt importate câmpurile CSV
 
-In the second step of the CSV import, you can choose how data is imported using a template.
+În a doua etapă a importului CSV, poți alege cum sunt importate datele folosind un șablon.
 
-Each column in your CSV file is attributed a variable called `{{column_name}}` which represents the name of the header in your file. You can use this variable to define the note's title, location, content, and [[Properties|properties]].
+Fiecărei coloane din fișierul tău CSV îi este atribuită o variabilă numită `{{column_name}}`, care reprezintă numele antetului din fișierul tău. Poți folosi această variabilă pentru a defini titlul, locația, conținutul și [[Properties]] notei.

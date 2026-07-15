@@ -1,33 +1,32 @@
 ---
-localized: null
 permalink: import/google-keep
 ---
-Obsidian lets you easily migrate your notes from Google Keep using the [[Importer|Importer plugin]]. This will convert your Google Keep data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian îți permite să îți migrezi cu ușurință notele din Google Keep folosind [[Importer|modulul Importer]]. Acest lucru îți va converti datele din Google Keep în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
-## Export your data from Google Keep
+## Exportă-ți datele din Google Keep
 
-1. Go to [Google Takeout](https://takeout.google.com/settings/takeout) and log into your Google account.
-2. Click **Deselect all** in the top right corner.
-3. Scroll down and select **Keep** from the list. 
-4. Scroll down to the bottom of the page and click **Next step**.
-5. On the next screen, click the **Create export** button.
-6. Download the `.zip` file once it is available.
+1. Mergi la [Google Takeout](https://takeout.google.com/settings/takeout) și conectează-te la contul tău Google.
+2. Apasă **Deselectează tot** în colțul din dreapta sus.
+3. Derulează în jos și selectează **Keep** din listă. 
+4. Derulează până la finalul paginii și apasă **Pasul următor**.
+5. Pe ecranul următor, apasă butonul **Creează export**.
+6. Descarcă fișierul `.zip` odată ce este disponibil.
 
-## Import your Google Keep data into Obsidian
+## Importă-ți datele din Google Keep în Obsidian
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+Vei avea nevoie de modulul oficial Obsidian [[Importer]], pe care îl poți [instala aici](obsidian://show-plugin?id=obsidian-importer).
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Google Keep (.zip).**
-6. Select the location of your `.zip` file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. Deschide **[[Settings]]**.
+2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
+3. Activează modulul Importer.
+4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+5. La **Format fișier** alege **Google Keep (.zip).**
+6. Selectează locația fișierului tău `.zip`.
+7. Apasă **Importă** și așteaptă până când importul este finalizat.
+8. Ai terminat!
 
-### Supported features
+### Funcții acceptate
 
-- All checklists will import as top-level items because Google Keep doesn't export indentation information.
-- Reminders and user assignments on notes will not be imported because these features are not supported by Obsidian.
-- All other information should import as a combination of content and tags.
+- Toate listele de verificare vor fi importate ca elemente de nivel superior, deoarece Google Keep nu exportă informații despre indentare.
+- Mementourile și atribuirile către utilizatori de pe note nu vor fi importate, deoarece aceste funcții nu sunt acceptate de Obsidian.
+- Toate celelalte informații ar trebui importate ca o combinație de conținut și etichete.

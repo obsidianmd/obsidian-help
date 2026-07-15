@@ -1,41 +1,40 @@
 ---
-localized: null
 permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: 'Create database-like views of your notes, formatted as tables or cards. Edit, sort, and filter files using their properties.'
+description: 'Creează vizualizări de tip bază de date pentru notele tale, formatate ca tabele sau carduri. Editează, sortează și filtrează fișierele folosind proprietățile lor.'
 ---
-Bases is a [[Core plugins|core plugin]] that lets you create database-like views of your notes. Using a base you can view, edit, sort, and filter files and their [[Properties|properties]]. Bases can help you organize everything from projects to travel plans, reading lists, and more.
+Bases este un [[Core plugins|modul integrat]] care îți permite să creezi vizualizări de tip bază de date pentru notele tale. Folosind o bază, poți vizualiza, edita, sorta și filtra fișiere și [[Properties|proprietățile]] lor. Bazele te pot ajuta să organizezi orice, de la proiecte până la planuri de călătorie, liste de lectură și multe altele.
 
-Each base can have several [[Views|views]] with different layouts such as tables and cards. Below is an example of table view where each row is a file, and each column is a property of that file.
+Fiecare bază poate avea mai multe [[Views|vizualizări]] cu aspecte diferite, precum tabele și carduri. Mai jos este un exemplu de vizualizare de tip tabel, unde fiecare rând este un fișier, iar fiecare coloană este o proprietate a acelui fișier.
 
-![Example of a base showing a table view with a list of books](bases-noshadow.png#interface)
+![Exemplu de bază care afișează o vizualizare de tip tabel cu o listă de cărți](bases-noshadow.png#interface)
 
-All the data in Obsidian Bases is stored in your local [[Basic formatting syntax|Markdown]] files and their [[properties]]. The views are described by the [[Bases syntax]], which can be saved as a `.base` file or [[Create a base#Embed a base|embedded]] in code blocks within your Markdown files.
+Toate datele din Obsidian Bases sunt stocate în fișierele tale [[Basic formatting syntax|Markdown]] locale și în [[properties|proprietățile]] lor. Vizualizările sunt descrise de [[Bases syntax|sintaxa Bases]], care poate fi salvată ca fișier `.base` sau [[Create a base#Embed a base|încorporată]] în blocuri de cod din fișierele tale Markdown.
 
-## How to use bases
+## Cum se folosesc bazele
 
 - [[Create a base]]
-	- Learn how to create and embed a base.
+	- Află cum să creezi și să încorporezi o bază.
 - [[Views]]
-	- Explore layouts, filter, sort, and group properties.
+	- Explorează aspectele, filtrarea, sortarea și gruparea proprietăților.
 - [[Formulas]]
-	- Create calculations using data from other properties.
+	- Creează calcule folosind date din alte proprietăți.
 - [[Functions]]
-	- Functions you can use in formulas and filters.
+	- Funcții pe care le poți folosi în formule și filtre.
 - [[Bases syntax]]
-	- How base files are formatted.
+	- Cum sunt formatate fișierele bază.
 
-## View types
+## Tipuri de vizualizări
 
-View can be displayed with different layouts. Additional layouts can be added by [[Community plugins]].
+Vizualizările pot fi afișate cu aspecte diferite. Aspecte suplimentare pot fi adăugate prin [[Community plugins|module comunitare]].
 
-- [[Table view|Table]]
-	- Display files as rows with columns that show properties of those files.
-- [[List view|List]]
-	- Display files as a list with bulleted or numbered markers.
-- [[Cards view|Cards]]
-	- Display files as a grid. Lets you create gallery-like views with images.
-- [[Map view|Map]]
-	- Display files as pins on an interactive map.
+- [[Table view|Tabel]]
+	- Afișează fișierele ca rânduri cu coloane care arată proprietățile acelor fișiere.
+- [[List view|Listă]]
+	- Afișează fișierele ca o listă cu marcaje sub formă de puncte sau numere.
+- [[Cards view|Carduri]]
+	- Afișează fișierele ca o grilă. Îți permite să creezi vizualizări de tip galerie cu imagini.
+- [[Map view|Hartă]]
+	- Afișează fișierele ca pini pe o hartă interactivă.

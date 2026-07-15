@@ -1,47 +1,46 @@
 ---
-localized: null
 permalink: manage-notes
 publish: true
 mobile: false
 description: null
 ---
-You can manage files and folders in several ways, using [[Hotkeys]], [[Command palette|commands]], or [[File explorer]].
+Puteți gestiona fișiere și directoare în mai multe moduri, folosind [[Hotkeys|combinațiile de taste]], [[Command palette|comenzile]] sau [[File explorer|exploratorul de fișiere]].
 
-## Create a new note
+## Creați o notă nouă
 
-To create a new file:
+Pentru a crea un fișier nou:
 
-1. Press `Ctrl+N` (or `Cmd+N` on macOS).
-2. Enter the name of the note and then press `Enter` to start editing the note.
+1. Apăsați `Ctrl+N` (sau `Cmd+N` pe macOS).
+2. Introduceți numele notei, apoi apăsați `Enter` pentru a începe editarea notei.
 
-You can also create notes using [[File explorer#Create a new note|File explorer]], or by selecting **Create new note** from the [[Command palette]].
+Puteți crea note și folosind [[File explorer#Creați o notă nouă|exploratorul de fișiere]], sau selectând **Creează notă nouă** din [[Command palette|paleta de comenzi]].
 
-> [!hint] System character limitation
-> Obsidian will respect the filename limitations of the operating system you create the note on. If you plan to [[Sync your notes across devices|sync your notes across devices]], make sure your filenames are [safe for other operating systems](https://stackoverflow.com/q/1976007).
+> [!hint] Limitarea caracterelor la nivel de sistem
+> Obsidian va respecta limitările de nume de fișier ale sistemului de operare pe care creați nota. Dacă intenționați să [[Sync your notes across devices|sincronizați notele între dispozitive]], asigurați-vă că numele fișierelor sunt [sigure pentru alte sisteme de operare](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
-## Rename a note
+## Redenumiți o notă
 
-To rename an active note:
+Pentru a redenumi o notă activă:
 
-1. Select the name of the note at the top of the editor (or press `F2`).
-2. Enter the new name and then press `Enter`.
+1. Selectați numele notei din partea de sus a editorului (sau apăsați `F2`).
+2. Introduceți noul nume, apoi apăsați `Enter`.
 
-When you rename a file, Obsidian automatically updates all the links to that file.
+Când redenumiți un fișier, Obsidian actualizează automat toate legăturile către acel fișier.
 
-You can rename a note or folder without opening it, by using [[File explorer#Rename a file or folder|File explorer]]
+Puteți redenumi o notă sau un director fără a-l deschide, folosind [[File explorer#Redenumiți un fișier sau un director|exploratorul de fișiere]]
 
-## Delete a note
+## Ștergeți o notă
 
-To delete a note, select **More options → Delete file** at the upper right of an active note.
+Pentru a șterge o notă, selectați **Mai multe opțiuni → Șterge fișierul** din partea din dreapta sus a unei note active.
 
-Or, select **Delete current file** from the [[Command palette]].
+Sau, selectați **Șterge fișierul curent** din [[Command palette|paleta de comenzi]].
 
-You can also delete a note or folder, using the [[File explorer#Delete a file or folder|File explorer]].
+Puteți șterge de asemenea o notă sau un director folosind [[File explorer#Ștergeți un fișier sau un director|exploratorul de fișiere]].
 
-> [!note] What happens to files after I delete them?
-> To change what happens to deleted files, select one of the following options under **[[Settings]] → Files & Links**:
+> [!note] Ce se întâmplă cu fișierele după ce le șterg?
+> Pentru a schimba ce se întâmplă cu fișierele șterse, selectați una din următoarele opțiuni din **[[Settings]] → Fișiere și legături**:
 >
-> - **System trash**: By default, deleted files end up in the system trash for your operating system. To restore a file, use your preferred file manager.
-> - **Obsidian trash**: You can send deleted files to a `.trash` folder in your vault.
-> - **Permanently delete**: Files are immediately deleted without any means to restore them.
+> - **Coșul de gunoi al sistemului**: Implicit, fișierele șterse ajung în coșul de gunoi al sistemului de operare. Pentru a restaura un fișier, folosiți managerul de fișiere preferat.
+> - **Coșul de gunoi al Obsidian**: Puteți trimite fișierele șterse într-un director `.trash` din seiful dumneavoastră.
+> - **Ștergere permanentă**: Fișierele sunt șterse imediat, fără nicio posibilitate de restaurare.

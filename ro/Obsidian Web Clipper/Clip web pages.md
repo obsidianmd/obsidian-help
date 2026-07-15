@@ -1,64 +1,62 @@
 ---
-localized: null
 permalink: web-clipper/capture
 ---
-Once you install the [[Introduction to Obsidian Web Clipper|Web Clipper]] browser extension, you can access it in several ways, depending on your browser:
+După ce instalezi extensia de browser [[Introduction to Obsidian Web Clipper|Web Clipper]], o poți accesa în mai multe moduri, în funcție de browserul tău:
 
-1. The Obsidian icon in your browser toolbar.
-2. Hotkeys, to activate the extension from your keyboard.
-3. Context menu, by right-clicking the web page you are visiting.
+1. Pictograma Obsidian din bara de instrumente a browserului.
+2. Combinații de taste, pentru a activa extensia de la tastatură.
+3. Meniul contextual, prin clic dreapta pe pagina web pe care o vizitezi.
 
-To save a page to Obsidian click the **Add to Obsidian** button.
+Pentru a salva o pagină în Obsidian, dă clic pe butonul **Adaugă în Obsidian**.
 
-## Capture a page
+## Capturează o pagină
 
-When you open the extension, Web Clipper extracts data from the current web page following the settings in your [[Obsidian Web Clipper/Templates|template]]. You can create your own templates, and customize the output using [[variables]] and [[filters]].
+Când deschizi extensia, Web Clipper extrage date din pagina web curentă urmând setările din [[Obsidian Web Clipper/Templates|șablonul]] tău. Poți crea propriile șabloane și personaliza rezultatul folosind [[variables|variabile]] și [[filters|filtre]].
 
-By default Web Clipper attempts to intelligently extract only the main article content, excluding other elements on the page. However, you can override this behavior in the following ways:
+În mod implicit, Web Clipper încearcă să extragă în mod inteligent doar conținutul principal al articolului, excluzând celelalte elemente de pe pagină. Cu toate acestea, poți suprascrie acest comportament în următoarele moduri:
 
-- If a custom template is present it uses your template.
-- If a selection is present, it uses the selection. You can use `Ctrl/Cmd+A` to select the entire page.
-- If any [[Highlighter|highlights]] are present, it uses the highlights.
+- Dacă există un șablon personalizat, se folosește șablonul tău.
+- Dacă există o selecție, se folosește selecția. Poți folosi `Ctrl/Cmd+A` pentru a selecta întreaga pagină.
+- Dacă există [[Highlighter|evidențieri]], se folosesc evidențierile.
 
-## Download images
+## Descarcă imagini
 
-Images are not automatically downloaded when you use Web Clipper. Instead, images link to their web-based URL. This saves space in your vault but it means the images will not be accessible offline, or if the URL stops working.
+Imaginile nu sunt descărcate automat când folosești Web Clipper. În schimb, imaginile fac trimitere către adresa lor URL de pe web. Acest lucru economisește spațiu în seiful tău, dar înseamnă că imaginile nu vor fi accesibile offline sau dacă adresa URL nu mai funcționează.
 
-You can download images for any file in Obsidian using the [[Command palette|command]] named **Download attachments for current file**. This command can also be mapped to a hotkey in Obsidian.
+Poți descărca imaginile pentru orice fișier din Obsidian folosind [[Command palette|comanda]] numită **Descarcă atașamentele pentru fișierul curent**. Această comandă poate fi de asemenea asociată cu o combinație de taste în Obsidian.
 
-## Hotkeys
+## Combinații de taste
 
-Web Clipper includes keyboard shortcuts you can use to speed up your workflow. To change key mappings go to **Web Clipper Settings** → **General** and follow the instructions for your browser. Mappings can be changed for all browsers except Safari which does not support editing hotkeys.
+Web Clipper include scurtături de tastatură pe care le poți folosi pentru a-ți accelera fluxul de lucru. Pentru a schimba asocierile de taste, mergi la **Setările Web Clipper** → **General** și urmează instrucțiunile pentru browserul tău. Asocierile pot fi schimbate pentru toate browserele, cu excepția Safari, care nu permite editarea combinațiilor de taste.
 
-| Action             | macOS         | Windows/Linux  |
-| ------------------ | ------------- | -------------- |
-| Open clipper       | `Cmd+Shift+O` | `Ctrl+Shift+O` |
-| Quick clip         | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Toggle highlighter | `Opt+Shift+H` | `Alt+Shift+H`  |
-| Toggle reader      | `Opt+Shift+R` | `Alt+Shift+R`  |
+| Acțiune                | macOS         | Windows/Linux  |
+| ----------------------- | ------------- | -------------- |
+| Deschide clipper-ul     | `Cmd+Shift+O` | `Ctrl+Shift+O` |
+| Captură rapidă          | `Opt+Shift+O` | `Alt+Shift+O`  |
+| Comută evidențierea     | `Opt+Shift+H` | `Alt+Shift+H`  |
+| Comută modul de citire  | `Opt+Shift+R` | `Alt+Shift+R`  |
 
-## Interface functionality
+## Funcționalitatea interfeței
 
-The Web Clipper interface is divided into four sections:
+Interfața Web Clipper este împărțită în patru secțiuni:
 
-1. **Header** where you can switch templates, turn on [[Highlighter|highlighting]], [[Reader|read mode]],  and access settings.
-2. **Properties** shows the [[Properties|metadata]] extracted from the page that will be saved as [[Properties]] in Obsidian.
-3. **Note content** that will be saved to Obsidian.
-4. **Footer** allows you select the vault and folder, and add to Obsidian.
+1. **Antet**, unde poți schimba șabloanele, poți activa [[Highlighter|evidențierea]], [[Reader|modul de citire]] și poți accesa setările.
+2. **Proprietăți**, care afișează [[Properties|metadatele]] extrase din pagină ce vor fi salvate ca [[Properties|Proprietăți]] în Obsidian.
+3. **Conținutul notei** care va fi salvat în Obsidian.
+4. **Subsol**, care îți permite să selectezi seiful și directorul și să adaugi în Obsidian.
 
-Header functionality includes:
+Funcționalitatea antetului include:
 
-- ![[lucide-chevrons-up-down.svg#icon]] **Template** switcher to use saved [[Obsidian Web Clipper/Templates|templates]] added in the extension settings.
-- ![[lucide-more-horizontal.svg#icon]] **More** button to display page variables you can use in templates.
-- ![[lucide-highlighter.svg#icon]] **Highlighter** button to turn on [[Highlighter|highlighting]].
-- ![[lucide-book-icon.svg#icon]] **Reader** button to turn on [[Reader|reading view]].
-- ![[lucide-picture-in-picture-2.svg#icon]] **Embed** button to move Web Clipper from the popup into the page.
-- ![[lucide-settings.svg#icon]] **Settings** button to open the extension settings.
+- ![[lucide-chevrons-up-down.svg#icon]] Selectorul de **șabloane** pentru a folosi [[Obsidian Web Clipper/Templates|șabloanele]] salvate, adăugate în setările extensiei.
+- ![[lucide-more-horizontal.svg#icon]] Butonul **Mai multe** pentru a afișa variabilele paginii pe care le poți folosi în șabloane.
+- ![[lucide-highlighter.svg#icon]] Butonul **Evidențiere** pentru a activa [[Highlighter|evidențierea]].
+- ![[lucide-book-icon.svg#icon]] Butonul **Reader** pentru a activa [[Reader|modul de citire]].
+- ![[lucide-picture-in-picture-2.svg#icon]] Butonul **Încorporare** pentru a muta Web Clipper din fereastra pop-up direct în pagină.
+- ![[lucide-settings.svg#icon]] Butonul **Setări** pentru a deschide setările extensiei.
 
-Footer functionality includes:
+Funcționalitatea subsolului include:
 
-- **Add to Obsidian** button to save data to Obsidian.
-- **Vault** dropdown to switch between saved vaults added in Web Clipper settings.
-- **Folder** field to define which folder to save to.
-- **Interpreter** to run [[Interpreter|natural language prompts]] on the page.
-
+- Butonul **Adaugă în Obsidian** pentru a salva datele în Obsidian.
+- Meniul derulant **Seif** pentru a comuta între seifurile salvate, adăugate în setările Web Clipper.
+- Câmpul **Director** pentru a defini în ce director se salvează.
+- **Interpreter** pentru a rula [[Interpreter|prompturi în limbaj natural]] pe pagină.

@@ -1,74 +1,73 @@
 ---
-localized: null
 permalink: plugins/note-composer
 ---
-Note composer is a [[Core plugins|core plugin]] that lets you merge two notes or extract part of a note into a new note.
+Note composer este un [[Core plugins|modul integrat]] care îți permite să îmbini două note sau să extragi o parte dintr-o notă într-o notă nouă.
 
-## Merge notes
+## Îmbină note
 
-Merging notes adds a note to another and removes the first one. Note composer updates all links to reference the merged note.
+Îmbinarea notelor adaugă o notă la alta și o elimină pe prima. Note composer actualizează toate legăturile pentru a face referire la nota îmbinată.
 
-When you select the note to merge into, you can choose between the following methods:
+Când selectezi nota în care vrei să îmbini, poți alege dintre următoarele metode:
 
-- `Enter`: Adds the source note at the _end_ to the destination note.
-- `Shift+Enter`: Adds the source note at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the content of the source note.
+- `Enter`: Adaugă nota sursă la _sfârșitul_ notei destinație.
+- `Shift+Enter`: Adaugă nota sursă la _începutul_ notei destinație.
+- `Ctrl+Enter` (sau `Cmd+Enter` pe macOS): Creează o notă nouă cu conținutul notei sursă.
 
-To merge the active note with another note in your vault:
+Pentru a îmbina nota activă cu o altă notă din seiful tău:
 
-**File explorer**
+**Explorator de fișiere**
 
-1. In the File explorer, right-click the note you want to merge.
-2. Click **Merge entire file with...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
+1. În Exploratorul de fișiere, dă clic dreapta pe nota pe care vrei să o îmbini.
+2. Dă clic pe **Merge entire file with...**.
+3. Selectează nota în care vrei să o îmbini.
+4. Dă clic pe **Merge** pentru a confirma.
 
-**Command palette**
+**Paleta de comenzi**
 
-1. Open the [[Command palette]].
-2. Select **Note composer: Merge current file with another file...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
+1. Deschide [[Command palette|Paleta de comenzi]].
+2. Selectează **Note composer: Merge current file with another file...**.
+3. Selectează nota în care vrei să o îmbini.
+4. Dă clic pe **Merge** pentru a confirma.
 
-> [!tip] Tip
-> By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[File recovery]] plugin.
+> [!tip] Sfat
+> Implicit, Note composer îți cere confirmarea atunci când îmbini note. Dacă dezactivezi confirmarea și îmbini o notă din greșeală, o poți totuși recupera cu modulul [[File recovery]].
 
-## Extract note
+## Extrage o notă
 
-When you select the note to extract the selection into, you can choose between the following methods:
+Când selectezi nota în care vrei să extragi selecția, poți alege dintre următoarele metode:
 
-- `Enter`: Adds the selected text at the _end_ to the destination note.
-- `Shift+Enter`: Adds the selected text at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the selected text.
+- `Enter`: Adaugă textul selectat la _sfârșitul_ notei destinație.
+- `Shift+Enter`: Adaugă textul selectat la _începutul_ notei destinație.
+- `Ctrl+Enter` (sau `Cmd+Enter` pe macOS): Creează o notă nouă cu textul selectat.
 
-To extract text into a new note:
+Pentru a extrage text într-o notă nouă:
 
 **Editor**
 
-1. While in the **Editing view**, select the text you want to extract.
-2. Right-click the selected text.
-3. Click **Extract current selection...**.
-4. Select the note you want to extract into.
+1. În **Modul de editare**, selectează textul pe care vrei să-l extragi.
+2. Dă clic dreapta pe textul selectat.
+3. Dă clic pe **Extract current selection...**.
+4. Selectează nota în care vrei să extragi.
 
-**Command palette**
+**Paleta de comenzi**
 
-1. While in the **Editing view**, select the text you want to extract.
-2. Open the [[Command palette]].
-3. Select **Note composer: Extract current selection...**.
-4. Select the note you want to extract into.
+1. În **Modul de editare**, selectează textul pe care vrei să-l extragi.
+2. Deschide [[Command palette|Paleta de comenzi]].
+3. Selectează **Note composer: Extract current selection...**.
+4. Selectează nota în care vrei să extragi.
 
-> [!tip] Tip
-> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Embed files|embed]] the destination note, or to leave nothing behind.
+> [!tip] Sfat
+> Implicit, Note composer înlocuiește textul extras cu o legătură către nota destinație. În setări, poți schimba și să [[Embed files|încorporezi]] nota destinație în loc, sau să nu lași nimic în urmă.
 
-## Template file
+## Fișier șablon
 
-By configuring a template, you can customize the content before you add it to the new note. To use a template, enter a **Template file location** in the plugin settings.
+Configurând un șablon, poți personaliza conținutul înainte de a-l adăuga la nota nouă. Pentru a folosi un șablon, introdu o **Locație a fișierului șablon** în setările modulului.
 
-The template can contain the following variables:
+Șablonul poate conține următoarele variabile:
 
-| Variable          | Description                                                                                                                                              |
+| Variabilă         | Descriere                                                                                                                                              |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `{{content}}`     | The content to merge, or the extracted text selection. If you don't include this variable, Note composer adds the content at the bottom of the template. |
-| `{{fromTitle}}`   | Name of the source note.                                                                                                                                 |
-| `{{newTitle}}`    | Name of the destination note. For example, to add the file name as a heading at the top of the file.                                                     |
-| `{{date:FORMAT}}` | Creation date of the new note. For example, `{{date:YYYY-MM-DD}}`.                                                                                       |
+| `{{content}}`     | Conținutul de îmbinat, sau textul selectat extras. Dacă nu incluzi această variabilă, Note composer adaugă conținutul la finalul șablonului. |
+| `{{fromTitle}}`   | Numele notei sursă.                                                                                                                                 |
+| `{{newTitle}}`    | Numele notei destinație. De exemplu, pentru a adăuga numele fișierului ca titlu în partea de sus a fișierului.                                                     |
+| `{{date:FORMAT}}` | Data creării noii note. De exemplu, `{{date:YYYY-MM-DD}}`.                                                                                                       |

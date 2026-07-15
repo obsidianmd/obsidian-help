@@ -1,14 +1,13 @@
 ---
-localized: null
 permalink: tags
 ---
-Tags are keywords or topics that help you quickly find the notes you want.
+Etichetele sunt cuvinte-cheie sau subiecte care vă ajută să găsiți rapid notele pe care le doriți.
 
-## Add a tag to a note
+## Adăugați o etichetă la o notă
 
-To create a tag, enter a hash symbol (`#`) in the editor, followed by a keyword. For example, `#meeting`.
+Pentru a crea o etichetă, introduceți un simbol diez (`#`) în editor, urmat de un cuvânt-cheie. De exemplu, `#meeting`.
 
-You can also add tags using the `tags` [[Properties|property]]. Tags in YAML should always be formatted as a list:
+Puteți adăuga etichete și folosind [[Properties|proprietatea]] `tags`. Etichetele în YAML trebuie formatate întotdeauna ca o listă:
 
 ```yaml
 ---
@@ -18,44 +17,44 @@ tags:
 ---
 ```
 
-## Find notes using tags
+## Găsiți note folosind etichete
 
-To find notes using the [[Search]] plugin, use the `tag` [[Search#Search operators|search operator]] in your search term, for example `tag:#meeting`.
+Pentru a găsi note folosind modulul [[Search|Căutare]], folosiți [[Search#Search operators|operatorul de căutare]] `tag` în termenul dvs. de căutare, de exemplu `tag:#meeting`.
 
-You can also search for tags by clicking on them in your notes.
+Puteți căuta etichete și făcând clic pe ele în notele dvs.
 
-To find notes using the [[Tags view|Tags view]] plugin, select **Tags: Show tags** in the [[Command palette]], and then select the tag you want to search for.
+Pentru a găsi note folosind modulul [[Tags view|Etichete]], selectați **Tags: Show tags** din [[Command palette|Paleta de comenzi]], apoi selectați eticheta pe care doriți să o căutați.
 
-## Nested tags
+## Etichete imbricate
 
-Nested tags define tag hierarchies that make it easier to find and filter related tags.
+Etichetele imbricate definesc ierarhii de etichete care fac mai ușoară găsirea și filtrarea etichetelor înrudite.
 
-Create nested tags by using forward slashes (`/`) in the tag name, for example `#inbox/to-read` and `#inbox/processing`.
+Creați etichete imbricate folosind bare oblice (`/`) în numele etichetei, de exemplu `#inbox/to-read` și `#inbox/processing`.
 
-- In [[Search]], `tag:inbox` will match `#inbox` as well as all nested tags such as `#inbox/to-read`.  
-- In the [[Tags view]], nested tags are shown as belonging to their parent tag.  
-- In [[Introduction to Bases|Bases]], nested tags are recognized by the [[Functions#hasTag|`hasTag`]] function, so `file.hasTag("a")` will match both `#a` and `#a/b`.  
+- În [[Search|Căutare]], `tag:inbox` se va potrivi cu `#inbox`, precum și cu toate etichetele imbricate, precum `#inbox/to-read`.  
+- În [[Tags view|modul de vizualizare a etichetelor]], etichetele imbricate sunt afișate ca aparținând etichetei părinte.  
+- În [[Introduction to Bases|Baze]], etichetele imbricate sunt recunoscute de funcția [[Functions#hasTag|`hasTag`]], astfel încât `file.hasTag("a")` se va potrivi atât cu `#a`, cât și cu `#a/b`.  
 
-## Tag format
+## Formatul etichetelor
 
-You can use any of the following characters in your tags:
+Puteți folosi oricare dintre următoarele caractere în etichetele dvs.:
 
-- Alphabetical letters
-- Numbers
-- Underscore (`_`)
-- Hyphen (`-`)
-- Forward slash (`/`) for [[#Nested tags]]
-- Commonly accepted Unicode characters, including emojis and other symbols
+- Litere alfabetice
+- Numere
+- Liniuță de subliniere (`_`)
+- Cratimă (`-`)
+- Bară oblică (`/`) pentru [[#Nested tags|etichete imbricate]]
+- Caractere Unicode acceptate în mod obișnuit, inclusiv emoji și alte simboluri
 
-Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
+Etichetele trebuie să conțină cel puțin un caracter nenumeric. De exemplu, #1984 nu este o etichetă validă, dar #y1984 este.
 
-Tags are case-insensitive. For example, #tag and #TAG will be treated as identical.
+Etichetele nu țin cont de majuscule și minuscule. De exemplu, #tag și #TAG vor fi tratate ca identice.
 
 > [!note] 
-> Tags will display with the casing they are first created with in the [[Tags view]]. 
-> For example, creating #Tag and then #TAG will display #Tag for both. 
+> Etichetele vor fi afișate cu forma de scriere (majuscule/minuscule) cu care au fost create prima dată, în [[Tags view|modul de vizualizare a etichetelor]]. 
+> De exemplu, crearea #Tag și apoi #TAG va afișa #Tag pentru ambele. 
 
-Tags can't contain blank spaces. To separate two or more words, you can instead use the following formats:
+Etichetele nu pot conține spații goale. Pentru a separa două sau mai multe cuvinte, puteți folosi în schimb următoarele formate:
 
 - #camelCase
 - #PascalCase

@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: themes
 ---
 
-Learn how to change the look and feel of Obsidian using themes built by the community.
+Aflați cum să schimbați aspectul și senzația Obsidian folosind teme create de comunitate.
 
-## Browse themes
+## Răsfoiți temele
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage** to list all available community themes.
+1. Deschideți **[[Settings]]**.
+2. Sub **Aspect → Teme**, selectați **Gestionează** pentru a lista toate temele comunității disponibile.
 
-## Install a new theme
+## Instalați o temă nouă
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Install and use**.
+1. Deschideți **[[Settings]]**.
+2. Sub **Aspect → Teme**, selectați **Gestionează**.
+3. Selectați tema pe care doriți să o folosiți, apoi selectați **Instalează și folosește**.
 
-Obsidian installs the theme and immediately applies it. To revert back to the default theme, select **Stop using this theme**.
+Obsidian instalează tema și o aplică imediat. Pentru a reveni la tema implicită, selectați **Nu mai folosi această temă**.
 
-## Update themes
+## Actualizați temele
 
-Themes don't update automatically. You can either update all themes at once, or update individual themes.
+Temele nu se actualizează automat. Puteți fie actualiza toate temele deodată, fie actualiza teme individuale.
 
-To update all your themes:
+Pentru a actualiza toate temele:
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Current community themes**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+1. Deschideți **[[Settings]]**.
+2. Sub **Aspect → Teme ale comunității curente**, selectați **Verifică actualizări**.
+3. Dacă sunt disponibile actualizări, selectați **Actualizează tot**.
 
-To update an individual theme:
+Pentru a actualiza o temă individuală:
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to update, and then select **Check for updates**.
-4. If an update is available, select **Update**.
+1. Deschideți **[[Settings]]**.
+2. Sub **Aspect → Teme**, selectați **Gestionează**.
+3. Selectați tema pe care doriți să o actualizați, apoi selectați **Verifică actualizări**.
+4. Dacă este disponibilă o actualizare, selectați **Actualizează**.
 
-## Uninstall an existing theme
+## Dezinstalați o temă existentă
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Uninstall**.
+1. Deschideți **[[Settings]]**.
+2. Sub **Aspect → Teme**, selectați **Gestionează**.
+3. Selectați tema pe care doriți să o folosiți, apoi selectați **Dezinstalează**.
 
-## Learn more
+## Aflați mai multe
 
-Ready to build your own theme? Learn how to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) or create [[CSS snippets]].
+Sunteți gata să construiți propria temă? Aflați cum să [construiți o temă](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) sau creați [[CSS snippets]].

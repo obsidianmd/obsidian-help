@@ -1,254 +1,253 @@
 ---
-localized: null
 permalink: plugins/canvas
-description: 'Canvas is a core plugin for visual note-taking. Arrange and connect notes, images, and other files in a 2D space.'
+description: 'Canvas este un modul integrat pentru notițe vizuale. Aranjează și conectează notițe, imagini și alte fișiere într-un spațiu 2D.'
 ---
-Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
+Canvas este un [[Core plugins|modul integrat]] pentru notițe vizuale. Îți oferă un spațiu infinit pentru a aranja notele și a le conecta cu alte note, atașamente și pagini web.
 
-Arranging your notes in a 2D space helps you see and understand the connections between them. Connect notes with lines and group related ones together.
+Aranjarea notelor tale într-un spațiu 2D te ajută să vezi și să înțelegi conexiunile dintre ele. Conectează notele cu linii și grupează-le pe cele înrudite.
 
-Obsidian saves canvases as `.canvas` files using the open [JSON Canvas](https://jsoncanvas.org/) format.
+Obsidian salvează pânzele ca fișiere `.canvas` folosind formatul deschis [JSON Canvas](https://jsoncanvas.org/).
 
-## Create a new canvas
+## Creează o pânză nouă
 
-To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
+Pentru a începe să folosești Canvas, trebuie mai întâi să creezi un fișier care să conțină pânza ta. Poți crea o pânză nouă folosind următoarele metode.
 
-**Command palette:**
+**Paleta de comenzi:**
 
-1. Open the [[Command palette]].
-2. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
+1. Deschide [[Command palette|Paleta de comenzi]].
+2. Selectează **Canvas: Create new canvas** pentru a crea o pânză în același director cu fișierul activ.
 
-**File explorer:**
+**Exploratorul de fișiere:**
 
-- In the [[File explorer]], right-click the folder you want to create the canvas in.
-- Select **New canvas**.
+- În [[File explorer|Exploratorul de fișiere]], dă clic dreapta pe directorul în care vrei să creezi pânza.
+- Selectează **New canvas**.
 
-**Ribbon:**
+**Panglică:**
 
-- In the vertical ribbon menu, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
+- În meniul vertical al panglicii, selectează **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] pentru a crea o pânză în același director cu fișierul activ.
 
-> [!note] The .canvas file extension
-> Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
+> [!note] Extensia de fișier .canvas
+> Obsidian stochează datele pânzei tale ca fișiere `.canvas`, folosind un format de fișier deschis numit [JSON Canvas](https://jsoncanvas.org/).
 
-## Add cards
+## Adaugă carduri
 
-You can drag files into your canvas from Obsidian or from other applications. For example, Markdown files, images, audio, PDFs, or even unrecognized file types.
+Poți trage fișiere în pânza ta din Obsidian sau din alte aplicații. De exemplu, fișiere Markdown, imagini, sunet, PDF-uri sau chiar tipuri de fișiere nerecunoscute.
 
-### Add text cards
+### Adaugă carduri de text
 
-You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks the same way as in a note.
+Poți adăuga carduri doar de text, care nu fac trimitere la un fișier. Poți folosi Markdown, legături și blocuri de cod la fel ca într-o notă.
 
-To add a new text card to your canvas:
+Pentru a adăuga un card de text nou în pânza ta:
 
-- Select or drag the blank file icon at the bottom of the canvas.
+- Selectează sau trage pictograma de fișier gol din partea de jos a pânzei.
 
-You can also add text cards by double-clicking on the canvas.
+Poți adăuga carduri de text și dând dublu clic pe pânză.
 
-To convert a text card to a file:
+Pentru a converti un card de text într-un fișier:
 
-1. Right-click the text card and then select **Convert to file...**.
-2. Enter the note name and then select **Save**.
+1. Dă clic dreapta pe cardul de text și apoi selectează **Convert to file...**.
+2. Introdu numele notei și apoi selectează **Save**.
 
-> [!note] Text-only cards and backlinks
-> Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
+> [!note] Cardurile doar de text și referințele
+> Cardurile doar de text nu apar în [[Backlinks|Referințe]]. Pentru a le face să apară, trebuie să le convertești în fișiere.
 
-### Add cards from notes
+### Adaugă carduri din note
 
-To add a note from your vault to your canvas:
+Pentru a adăuga o notă din seiful tău în pânza ta:
 
-1. Select or drag the document icon at the bottom of the canvas.
-2. Select the note you want to add.
+1. Selectează sau trage pictograma de document din partea de jos a pânzei.
+2. Selectează nota pe care vrei să o adaugi.
 
-You can also add notes from the canvas context menu:
+Poți adăuga note și din meniul contextual al pânzei:
 
-1. Right-click the canvas and then select **Add note from vault**.
-2. Select the note you want to add.
+1. Dă clic dreapta pe pânză și apoi selectează **Add note from vault**.
+2. Selectează nota pe care vrei să o adaugi.
 
-You can also drag notes from the [[File explorer]] into the canvas.
+Poți trage note și din [[File explorer|Exploratorul de fișiere]] în pânză.
 
-### Add cards from media
+### Adaugă carduri din fișiere media
 
-To add media from your vault to your canvas:
+Pentru a adăuga conținut media din seiful tău în pânza ta:
 
-1. Select or drag the image file icon at the bottom of the canvas.
-2. Select the media file you want to add.
+1. Selectează sau trage pictograma de fișier imagine din partea de jos a pânzei.
+2. Selectează fișierul media pe care vrei să-l adaugi.
 
-You can also add media from the canvas context menu:
+Poți adăuga fișiere media și din meniul contextual al pânzei:
 
-1. Right-click the canvas and then select **Add media from vault**.
-2. Select the media file you want to add.
+1. Dă clic dreapta pe pânză și apoi selectează **Add media from vault**.
+2. Selectează fișierul media pe care vrei să-l adaugi.
 
-You can also drag media files from the [[File explorer]] into the canvas.
+Poți trage fișiere media și din [[File explorer|Exploratorul de fișiere]] în pânză.
 
-### Add cards from web pages
+### Adaugă carduri din pagini web
 
-To embed a web page in your canvas:
+Pentru a încorpora o pagină web în pânza ta:
 
-1. Right-click the canvas and then select **Add web page**.
-2. Enter the URL to the web page and then select **Save**.
+1. Dă clic dreapta pe pânză și apoi selectează **Add web page**.
+2. Introdu adresa URL a paginii web și apoi selectează **Save**.
 
-You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
+Poți, de asemenea, să selectezi o adresă URL în browserul tău și apoi să o tragi în pânză pentru a o încorpora într-un card.
 
-To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open in browser**.
+Pentru a deschide pagina web în browserul tău, apasă `Ctrl` (sau `Cmd` pe macOS) și selectează eticheta cardului. Sau, dă clic dreapta pe card și selectează **Open in browser**.
 
-### Add cards from folders
+### Adaugă carduri din directoare
 
-Drag a folder from the [[File explorer]] to add all files in that folder to the canvas.
+Trage un director din [[File explorer|Exploratorul de fișiere]] pentru a adăuga toate fișierele din acel director în pânză.
 
-### Edit a card
+### Editează un card
 
-Double-click on a text or note card to start editing it. Select anywhere outside the card to stop editing it. You can also press `Escape` to stop editing a card.
+Dă dublu clic pe un card de text sau de notă pentru a începe să-l editezi. Selectează oriunde în afara cardului pentru a opri editarea. Poți apăsa și `Escape` pentru a opri editarea unui card.
 
-You can also edit a card by right-clicking it and selecting **Edit**.
+Poți edita un card și dând clic dreapta pe el și selectând **Edit**.
 
-### Delete a card
+### Șterge un card
 
-Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` on macOS).
+Elimină cardurile selectate dând clic dreapta pe oricare dintre ele și apoi selectând **Delete**. Sau, apasă `Backspace` (sau `Delete` pe macOS).
 
-You can also select **Remove** ![[lucide-trash-2.svg#icon]] in the selection controls above your selection.
+Poți selecta și **Remove** ![[lucide-trash-2.svg#icon]] în controalele de selecție de deasupra selecției tale.
 
-### Swap cards
+### Înlocuiește carduri
 
-You can swap a note or media card for another card of the same type.
+Poți înlocui un card de notă sau media cu un alt card de același tip.
 
-To swap a note card:
+Pentru a înlocui un card de notă:
 
-1. Right-click the card you want to replace.
-2. Select **Swap file**.
-3. Select the note you want to replace with.
+1. Dă clic dreapta pe cardul pe care vrei să-l înlocuiești.
+2. Selectează **Swap file**.
+3. Selectează nota cu care vrei să-l înlocuiești.
 
-## Select cards
+## Selectează carduri
 
-Select individual cards, or drag a selection around multiple cards.
+Selectează carduri individuale sau trage o selecție în jurul mai multor carduri.
 
-You can also add and remove cards from an existing selection by pressing `Shift` and selecting them.
+Poți adăuga și elimina carduri dintr-o selecție existentă apăsând `Shift` și selectându-le.
 
-Press `Ctrl+a` (or `Cmd+a` on macOS) to select all cards in the canvas.
+Apasă `Ctrl+a` (sau `Cmd+a` pe macOS) pentru a selecta toate cardurile din pânză.
 
-To scroll the content of a card, you first need to select it.
+Pentru a derula conținutul unui card, trebuie mai întâi să-l selectezi.
 
-### Arrange cards
+### Aranjează carduri
 
-Drag a selected card to move it.
+Trage un card selectat pentru a-l muta.
 
-Press `Alt` (or `Option` on macOS) and drag to duplicate the selection.
+Apasă `Alt` (sau `Option` pe macOS) și trage pentru a duplica selecția.
 
-You can press `Shift` while dragging to only move in one direction.
+Poți apăsa `Shift` în timp ce tragi pentru a muta doar într-o singură direcție.
 
-Press `Space` while moving a selection to disable snapping.
+Apasă `Space` în timp ce muți o selecție pentru a dezactiva alinierea automată.
 
-Selecting a card moves it to the front.
+Selectarea unui card îl mută în prim-plan.
 
-### Resize a card
+### Redimensionează un card
 
-Drag any of a card's edges to resize it.
+Trage oricare dintre marginile unui card pentru a-l redimensiona.
 
-You can press `Space` while resizing to disable snapping.
+Poți apăsa `Space` în timp ce redimensionezi pentru a dezactiva alinierea automată.
 
-To maintain the aspect ratio while resizing, press `Shift` while resizing.
+Pentru a păstra raportul de aspect în timpul redimensionării, apasă `Shift` în timp ce redimensionezi.
 
-## Connect cards
+## Conectează carduri
 
-Draw lines between cards to show relationships. Add colors and labels to describe how they relate.
+Trasează linii între carduri pentru a arăta relații. Adaugă culori și etichete pentru a descrie modul în care se relaționează.
 
-### Connect two cards
+### Conectează două carduri
 
-To connect two cards with a directed line:
+Pentru a conecta două carduri cu o linie direcționată:
 
-1. Hover the cursor over one of the edges of a card until you see a filled circle.
-2. Drag the circle to the edge of a different card to connect them.
+1. Plasează cursorul deasupra uneia dintre marginile unui card până vezi un cerc plin.
+2. Trage cercul spre marginea unui alt card pentru a le conecta.
 
-> [!tip]- Create a card from a new connection
-> If you drag the line without connecting it to another card, you can create a new card at the other end.
+> [!tip]- Creează un card dintr-o conexiune nouă
+> Dacă tragi linia fără să o conectezi la alt card, poți crea un card nou la celălalt capăt.
 
-### Disconnect two cards
+### Deconectează două carduri
 
-To remove the connection between two cards:
+Pentru a elimina conexiunea dintre două carduri:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag one of the circles from the card without connecting it to another.
+1. Plasează cursorul deasupra unei linii de conexiune până apar două cercuri mici pe linie.
+2. Trage unul dintre cercuri de pe card fără să-l conectezi la alt card.
 
-You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, select the line and then press `Backspace` (or `Delete` on macOS).
+Poți deconecta două carduri și dând clic dreapta pe linia dintre ele și apoi selectând **Remove**. Sau, selectează linia și apoi apasă `Backspace` (sau `Delete` pe macOS).
 
-### Connect a card to a different card
+### Conectează un card la un card diferit
 
-To move one of the ends of a connection line:
+Pentru a muta unul dintre capetele unei linii de conexiune:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag the circle to another card to reconnect it.
+1. Plasează cursorul deasupra unei linii de conexiune până apar două cercuri mici pe linie.
+2. Trage cercul spre un alt card pentru a-l reconecta.
 
-### Navigate a connection
+### Navighează o conexiune
 
-If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then selecting **Go to target** or **Go to source**.
+Dacă două carduri conectate sunt la mare distanță, poți naviga la sursa sau la ținta conexiunii dând clic dreapta pe linie și apoi selectând **Go to target** sau **Go to source**.
 
-### Add a label to a connection
+### Adaugă o etichetă la o conexiune
 
-You can add a label to a line to describe the relationship between two cards.
+Poți adăuga o etichetă la o linie pentru a descrie relația dintre două carduri.
 
-To label a connection:
+Pentru a eticheta o conexiune:
 
-1. Double-click the line.
-2. Enter the label and then press `Escape` or select anywhere on the canvas.
+1. Dă dublu clic pe linie.
+2. Introdu eticheta și apoi apasă `Escape` sau selectează oriunde pe pânză.
 
-You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
+Poți eticheta o conexiune și selectând-o și apoi selectând **Edit label** din controalele de selecție.
 
-To edit a connection label, double-click on the line, or right-click the line and then select **Edit label**.
+Pentru a edita eticheta unei conexiuni, dă dublu clic pe linie sau dă clic dreapta pe linie și apoi selectează **Edit label**.
 
-### Change the color of a card or connection
+### Schimbă culoarea unui card sau a unei conexiuni
 
-1. Select the cards or connections you want to color.
-2. In the selection controls, select **Set color** ![[lucide-palette.svg#icon]].
-3. Select a color.
+1. Selectează cardurile sau conexiunile pe care vrei să le colorezi.
+2. În controalele de selecție, selectează **Set color** ![[lucide-palette.svg#icon]].
+3. Selectează o culoare.
 
-## Group cards
+## Grupează carduri
 
-### Group selected cards
+### Grupează cardurile selectate
 
-To create an empty group:
+Pentru a crea un grup gol:
 
-- Right-click the canvas and then select **Create group**.
+- Dă clic dreapta pe pânză și apoi selectează **Create group**.
 
-To group related cards:
+Pentru a grupa carduri înrudite:
 
-1. Select the cards.
-2. Right-click any of the selected cards and then select **Create group**.
+1. Selectează cardurile.
+2. Dă clic dreapta pe oricare dintre cardurile selectate și apoi selectează **Create group**.
 
-**Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
+**Redenumește grupul:** Dă dublu clic pe numele grupului pentru a-l edita, apoi apasă `Enter` pentru a salva.
 
-## Navigate the canvas
+## Navighează pe pânză
 
-Use panning and zooming to move across the canvas.
+Folosește deplasarea și mărirea/micșorarea pentru a te deplasa pe pânză.
 
-### Pan the canvas
+### Deplasează-te pe pânză
 
-To move the canvas vertically and horizontally, also known as _panning_, you can use any of the following approaches:
+Pentru a muta pânza vertical și orizontal, cunoscut și sub numele de _panning_, poți folosi oricare dintre următoarele metode:
 
-- Press `Space` and drag the canvas.
-- Drag the canvas using the middle mouse button.
-- Scroll the mouse to pan vertically, and press `Shift` while scrolling to pan horizontally.
+- Apasă `Space` și trage pânza.
+- Trage pânza folosind butonul din mijloc al mouse-ului.
+- Derulează mouse-ul pentru a te deplasa vertical și apasă `Shift` în timp ce derulezi pentru a te deplasa orizontal.
 
-### Zoom the canvas
+### Mărește sau micșorează pânza
 
-To zoom the canvas, press `Space` or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ![[lucide-plus.svg#icon]] and **Zoom out** ![[lucide-minus.svg#icon]] from the zoom controls in the upper-right corner.
+Pentru a mări sau micșora pânza, apasă `Space` sau `Ctrl` (sau `Cmd` pe macOS) și derulează cu rotița mouse-ului. Sau, selectează **Zoom in** ![[lucide-plus.svg#icon]] și **Zoom out** ![[lucide-minus.svg#icon]] din controalele de mărire din colțul din dreapta sus.
 
-#### Zoom to fit
+#### Mărește pentru a se potrivi
 
-To zoom the canvas so that every item is visible, select **Zoom to fit** ![[lucide-maximize.svg#icon]]. Or, use the keyboard shortcut `Shift+1`.
+Pentru a mări pânza astfel încât fiecare element să fie vizibil, selectează **Zoom to fit** ![[lucide-maximize.svg#icon]]. Sau, folosește combinația de taste `Shift+1`.
 
-#### Zoom to selection
+#### Mărește la selecție
 
-To zoom the canvas so that all selected items are visible, right-click a selected card and then select **Zoom to selection**. Or, press `Shift+2`.
+Pentru a mări pânza astfel încât toate elementele selectate să fie vizibile, dă clic dreapta pe un card selectat și apoi selectează **Zoom to selection**. Sau, apasă `Shift+2`.
 
-#### Reset zoom
+#### Resetează mărirea
 
-To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
+Pentru a readuce nivelul de mărire la valoarea implicită, selectează **Reset zoom** în controalele de mărire din colțul din dreapta sus.
 
-## Embed a canvas
+## Încorporează o pânză
 
-You can embed a canvas in a note using the standard embed syntax. For more information, refer to [[Embed files#Embed a canvas in a note|Embed a canvas in a note]].
+Poți încorpora o pânză într-o notă folosind sintaxa standard de încorporare. Pentru mai multe informații, consultă [[Embed files#Embed a canvas in a note|Încorporează o pânză într-o notă]].
 
-## Advanced tips
+## Sfaturi avansate
 
-We have made some quick videos to demonstrate some advanced use cases of Canvas.
+Am realizat câteva videoclipuri scurte pentru a demonstra câteva cazuri de utilizare avansată a modulului Canvas.
 
-You can [view all 72 tips here](https://obsidian.md/canvas#protips). The tip videos are only visible on desktop.
+Poți [vedea toate cele 72 de sfaturi aici](https://obsidian.md/canvas#protips). Videoclipurile cu sfaturi sunt vizibile doar pe desktop.

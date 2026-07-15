@@ -1,37 +1,36 @@
 ---
-localized: null
 permalink: sync/region
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Move your Sync vault to a different region.
+description: Mută-ți seiful Sync într-o altă regiune.
 ---
-When you create a [[Local and remote vaults|remote vault]] through [[Introduction to Obsidian Sync|Obsidian Sync]] your data is encrypted and stored on one of Obsidian's regional Sync servers. This guide explains how to move your Sync vault to a different regional server.
+Când creezi un [[Local and remote vaults|seif la distanță]] prin [[Introduction to Obsidian Sync|Obsidian Sync]], datele tale sunt criptate și stocate pe unul dintre serverele regionale Sync ale Obsidian. Acest ghid explică modul în care poți muta seiful tău Sync pe un alt server regional.
 
-## Available regions
+## Regiuni disponibile
 
-The following regions are available with Obsidian Sync. We recommend using **Automatic** or choosing a location close to you to reduce latency and make the syncing process faster.
+Următoarele regiuni sunt disponibile cu Obsidian Sync. Recomandăm să folosești **Automat** sau să alegi o locație apropiată de tine pentru a reduce latența și a face procesul de sincronizare mai rapid.
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
-## Change Sync region
+## Schimbă regiunea Sync
 
-To change your remote vault's region, you will need to recreate your vault on a different Sync server. Note you can also change regions by using the [[Upgrade Sync encryption]] migration assistant, if your remote vault is on an older version.
+Pentru a schimba regiunea seifului tău la distanță, va trebui să-ți recreezi seiful pe un alt server Sync. Reține că poți schimba și regiunile folosind asistentul de migrare [[Upgrade Sync encryption]], dacă seiful tău la distanță se află pe o versiune mai veche.
 
-> [!danger] Migrations are destructive
+> [!danger] Migrările sunt distructive
 > 
-> **Always [[Back up your Obsidian files|back up]] your vault before proceeding with a migration.**
+> **Fă întotdeauna o [[Back up your Obsidian files|copie de rezervă]] a seifului tău înainte de a continua cu o migrare.**
 > 
-> When you migrate a remote vault your data will be replaced. This means:
+> Când migrezi un seif la distanță, datele tale vor fi înlocuite. Aceasta înseamnă că:
 > 
-> 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
-> 2. All [[Version history|version history]] for the vault will be lost.
+> 1. Datele de la distanță vor fi eliminate de pe serverele Obsidian, iar datele seifului vor fi reîncărcate în locul lor.
+> 2. Tot [[Version history|istoricul versiunilor]] pentru seif va fi pierdut.
 
-![[Set up Obsidian Sync#Disconnect from a remote vault]]
+![[Set up Obsidian Sync#Deconectează-te de la un seif la distanță]]
 
-If you are on the [[Plans and storage limits|Standard Plan]], you will also need to [[Set up Obsidian Sync#Delete a remote vault|delete your remote vault]] before proceeding.
+Dacă folosești [[Plans and storage limits|planul Standard]], va trebui, de asemenea, să [[Set up Obsidian Sync#Șterge un seif la distanță|ștergi seiful tău la distanță]] înainte de a continua.
 
-![[Set up Obsidian Sync#Create a new remote vault]]
+![[Set up Obsidian Sync#Creează un nou seif la distanță]]
 
-Additionally, you can [[Set up Obsidian Sync#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region.
+În plus, poți [[Set up Obsidian Sync#Șterge un seif la distanță|șterge vechiul tău seif la distanță]] odată ce ai confirmat trecerea la noul tău seif la distanță și la regiunea lui.

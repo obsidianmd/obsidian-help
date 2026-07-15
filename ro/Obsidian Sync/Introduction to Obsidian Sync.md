@@ -1,52 +1,51 @@
 ---
-localized: null
 permalink: sync
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: Obsidian Sync is an add-on service that allows you to privately sync your notes across devices.
+description: Obsidian Sync este un serviciu suplimentar care îți permite să îți sincronizezi notele în mod privat pe toate dispozitivele.
 ---
 
-[Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to privately sync your notes across devices.
+[Obsidian Sync](https://obsidian.md/sync) este un serviciu suplimentar care îți permite să îți sincronizezi notele în mod privat pe toate dispozitivele.
 
-## How to use Obsidian Sync
+## Cum se folosește Obsidian Sync
 
 - [[Set up Obsidian Sync]]
-	- Set up Sync on all your devices.
-- [[Switch to Obsidian Sync|Switch to Obsidian Sync]]
-	- Prepare your Obsidian vault to use Sync.
-- [[Sync settings and selective syncing|Selective sync]]
-	- Configure which files and settings to sync.
+	- Configurează Sync pe toate dispozitivele tale.
+- [[Switch to Obsidian Sync|Trecerea la Obsidian Sync]]
+	- Pregătește-ți seiful Obsidian pentru a folosi Sync.
+- [[Sync settings and selective syncing|Sincronizare selectivă]]
+	- Configurează ce fișiere și setări să fie sincronizate.
 - [[Plans and storage limits]]
-	- Learn about Sync subscription plans.
-- [[Plans and storage limits|Remote vault storage]]
-	- Manage your remote vault storage.
+	- Află mai multe despre planurile de abonament Sync.
+- [[Plans and storage limits|Stocare seif la distanță]]
+	- Gestionează stocarea seifului tău la distanță.
 - [[Version history]]
-	- View or restore previous versions of a note.
+	- Vizualizează sau restaurează versiuni anterioare ale unei note.
 - [[Status icon and messages]]
-	- Overview of the Sync log and status icons.
+	- Prezentare generală a jurnalului și pictogramelor de stare Sync.
 - [[Security and privacy]]
-	- How Obsidian keeps your Sync data safe.
-- [[Collaborate on a shared vault|Collaboration]]
-	- Add team members to a shared vault.
+	- Cum păstrează Obsidian în siguranță datele tale Sync.
+- [[Collaborate on a shared vault|Colaborare]]
+	- Adaugă membri ai echipei la un seif partajat.
 - [[Back up your Obsidian files]]
-	- Back up your vault using third-party tools.
+	- Fă o copie de rezervă a seifului tău folosind instrumente terțe.
 - [[Sync regions]]
-	- Move your Sync vault to a different regional server.
+	- Mută-ți seiful Sync pe un alt server regional.
 - [[Headless Sync]]
-	- Sync your vaults from the command line without the desktop app.
+	- Sincronizează-ți seifurile din linia de comandă, fără aplicația desktop.
 - [[Troubleshoot Obsidian Sync]]
-	- Common syncing issues and solutions.
+	- Probleme comune de sincronizare și soluții.
 
 ## Important
 
-If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Switch to Obsidian Sync|fully migrating to Obsidian Sync]].
+Dacă folosești Obsidian Sync împreună cu alți furnizori de stocare în cloud, precum Dropbox, Google Drive sau OneDrive, te rugăm să [[Back up your Obsidian files|faci o copie de rezervă a fișierelor tale Obsidian]] pentru a preveni conflictele de sincronizare. Recomandăm cu tărie [[Switch to Obsidian Sync|trecerea completă la Obsidian Sync]].
 
-See [[Frequently asked questions]] for frequently asked questions, and more details about Obsidian Sync.
+Vezi [[Frequently asked questions]] pentru întrebări frecvente și mai multe detalii despre Obsidian Sync.
 
-> [!warning] This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
+> [!warning] Această funcție nu este disponibilă pe dispozitivele Apple cu [Modul de blocare](https://support.apple.com/en-us/105120) activat, cu excepția cazului în care Obsidian este exceptat.
 
-Are you having unexpected interruptions in your Sync service? Check the [server status](https://status.obsidian.md) here.
+Ai întreruperi neașteptate în serviciul tău Sync? Verifică [starea serverului](https://status.obsidian.md) aici.
  

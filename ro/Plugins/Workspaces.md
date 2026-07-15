@@ -1,53 +1,52 @@
 ---
-localized: null
 permalink: plugins/workspaces
 ---
-Workspaces is a [[Core plugins|core plugin]] that  lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
+Workspaces este un [[Core plugins|modul integrat]] care  îți permite să gestionezi și să comuti între diferite aranjamente ale aplicației, în funcție de sarcina ta, de exemplu jurnalizare, citire sau scriere.
 
-A workspace contains information about open files and tabs, and the width and visibility of each sidebar.
+Un spațiu de lucru conține informații despre fișierele și filele deschise, precum și lățimea și vizibilitatea fiecărei bare laterale.
 
-## Save a workspace
+## Salvează un spațiu de lucru
 
-**Ribbon:**
+**Panglică:**
 
-1. In the ribbon, click **Manage workspace layouts** ![[lucide-panels-top-left.svg#icon]].
-2. Enter a name for the workspace.
-3. Select **Save**.
+1. În panglică, dă clic pe **Manage workspace layouts** ![[lucide-panels-top-left.svg#icon]].
+2. Introdu un nume pentru spațiul de lucru.
+3. Selectează **Save**.
 
-**Command palette:**
+**Paleta de comenzi:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Enter a name for the workspace.
-5. Select **Save**.
+1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+2. Caută comanda **Manage workspace layouts**.
+3. Apasă `Enter` cu comanda selectată.
+4. Introdu un nume pentru spațiul de lucru.
+5. Selectează **Save**.
 
-To update an existing workspace, save the workspace with the same name as the workspace you want to update.
+Pentru a actualiza un spațiu de lucru existent, salvează spațiul de lucru cu același nume ca cel pe care vrei să-l actualizezi.
 
-## Load a workspace
+## Încarcă un spațiu de lucru
 
-**Ribbon:**
+**Panglică:**
 
-1. In the ribbon, click **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]].
-2. Next to the workspace you want to load, select **Load**.
+1. În panglică, dă clic pe **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]].
+2. Lângă spațiul de lucru pe care vrei să-l încarci, selectează **Load**.
 
-**Command palette:**
+**Paleta de comenzi:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Select the workspace to load.
+1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+2. Caută comanda **Manage workspace layouts**.
+3. Apasă `Enter` cu comanda selectată.
+4. Selectează spațiul de lucru de încărcat.
 
-## Delete a workspace
+## Șterge un spațiu de lucru
 
-**Ribbon:**
+**Panglică:**
 
-1. In the ribbon, click **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]].
-2. Next to the workspace you want to delete, select **Delete layout** ![[lucide-x.svg#icon]].
+1. În panglică, dă clic pe **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]].
+2. Lângă spațiul de lucru pe care vrei să-l ștergi, selectează **Delete layout** ![[lucide-x.svg#icon]].
 
-**Command palette:**
+**Paleta de comenzi:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Next to the workspace you want to delete, select **Delete layout** ![[lucide-x.svg#icon]].
+1. Apasă `Ctrl+P` (sau `Cmd+P` pe macOS) pentru a deschide [[Command palette|Paleta de comenzi]].
+2. Caută comanda **Manage workspace layouts**.
+3. Apasă `Enter` cu comanda selectată.
+4. Lângă spațiul de lucru pe care vrei să-l ștergi, selectează **Delete layout** ![[lucide-x.svg#icon]].

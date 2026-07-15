@@ -1,31 +1,30 @@
 ---
-localized: null
 permalink: sync/vault-types
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: This page describes the differences between local and remote vaults in practice.
+description: Această pagină descrie diferențele dintre seifurile locale și cele la distanță în practică.
 ---
 
-If you want to use your notes on different devices, one of the options you have is to [[Sync your notes across devices]]. Obsidian offers one such service, [[Introduction to Obsidian Sync|Obsidian Sync]], that works differently than other syncing services, like [[Sync your notes across devices#iCloud|iCloud]] and [[Sync your notes across devices#OneDrive|OneDrive]].
+Dacă dorești să îți folosești notele pe diferite dispozitive, una dintre opțiunile pe care le ai este să [[Sync your notes across devices|îți sincronizezi notele pe toate dispozitivele]]. Obsidian oferă un astfel de serviciu, [[Introduction to Obsidian Sync|Obsidian Sync]], care funcționează diferit față de alte servicii de sincronizare, precum [[Sync your notes across devices#iCloud|iCloud]] și [[Sync your notes across devices#OneDrive|OneDrive]].
 
-Here are some key terms:
+Iată câțiva termeni-cheie:
 
-- A **vault** is a folder on your file system which contains notes and an `.obsidian` folder with Obsidian-specific configuration.
-- A **local vault** is the copy of your vault that exists on each of your devices. When using sync services, you connect these local vaults to enable synchronization.
-- A **remote vault** is centralized storage that local vaults connect to directly through Obsidian Sync.
+- Un **seif** este un director în sistemul tău de fișiere care conține note și un director `.obsidian` cu configurația specifică Obsidian.
+- Un **seif local** este copia seifului tău care există pe fiecare dintre dispozitivele tale. Când folosești servicii de sincronizare, conectezi aceste seifuri locale pentru a activa sincronizarea.
+- Un **seif la distanță** este o stocare centralizată la care seifurile locale se conectează direct prin Obsidian Sync.
 
-There are two common approaches to syncing:
+Există două abordări comune ale sincronizării:
 
-- **[[#File-based sync services]]**: Local vaults must be in monitored folders, sync happens through the file system
-- **[[#Obsidian Sync|Remote vaults]]**: Centralized storage that local vaults connect to directly through Obsidian
+- **[[#Servicii de sincronizare bazate pe fișiere]]**: Seifurile locale trebuie să se afle în directoare monitorizate, sincronizarea are loc prin intermediul sistemului de fișiere
+- **[[#Obsidian Sync|Seifuri la distanță]]**: Stocare centralizată la care seifurile locale se conectează direct prin Obsidian
 
-## File-based sync services
+## Servicii de sincronizare bazate pe fișiere
 
-Services like Dropbox, Google Drive, iCloud, and OneDrive are folder-based. These services monitor specific folders and automatically sync any files placed within them. Files must be in the designated cloud-service folders to sync. With file-based sync services, your local vault acts as just another folder being monitored. There is no dedicated remote vault - instead, the cloud storage serves as a passthrough, copying files between local vaults on different devices.
+Servicii precum Dropbox, Google Drive, iCloud și OneDrive funcționează pe bază de directoare. Aceste servicii monitorizează anumite directoare și sincronizează automat orice fișiere plasate în ele. Fișierele trebuie să se afle în directoarele desemnate ale serviciului cloud pentru a fi sincronizate. La serviciile de sincronizare bazate pe fișiere, seiful tău local acționează pur și simplu ca un alt director monitorizat. Nu există un seif la distanță dedicat — în schimb, stocarea cloud funcționează ca un intermediar, copiind fișierele între seifurile locale de pe diferite dispozitive.
 
-The diagram below shows a simplified version of how these services work:
+Diagrama de mai jos arată o versiune simplificată a modului în care funcționează aceste servicii:
 
 ```mermaid
 graph TD
@@ -52,15 +51,15 @@ graph TD
     style G fill:#a1dab4
 ```
 
-If the cloud service has background syncing, then some of these processes may be happening even when you are not actively using the applications to view the files. These services monitor specific folders and automatically sync any files placed within them. Files must be in the designated cloud-service folders to sync.
+Dacă serviciul cloud dispune de sincronizare în fundal, atunci unele dintre aceste procese se pot desfășura chiar și atunci când nu folosești activ aplicațiile pentru a vizualiza fișierele. Aceste servicii monitorizează anumite directoare și sincronizează automat orice fișiere plasate în ele. Fișierele trebuie să se afle în directoarele desemnate ale serviciului cloud pentru a fi sincronizate.
 
 ## Obsidian Sync
 
-Obsidian Sync allows you to create a remote vault that serves as centralized storage through its [[Introduction to Obsidian Sync|Obsidian Sync]] service. This allows you to choose almost any folder on any of your devices to store your files - whether on an external hard drive, in `C:\`, or in App storage on Android.
+Obsidian Sync îți permite să creezi un seif la distanță care servește drept stocare centralizată prin serviciul [[Introduction to Obsidian Sync|Obsidian Sync]]. Acest lucru îți permite să alegi aproape orice director de pe oricare dintre dispozitivele tale pentru a-ți stoca fișierele — fie pe un hard disk extern, în `C:\`, fie în stocarea aplicației pe Android.
 
-However, we do have a list of recommended locations for your local vault if you also use [[#File-based sync services]] on the same device - mainly, anywhere that is not in a [[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage|third-party syncing service]].
+Totuși, avem o listă de locații recomandate pentru seiful tău local dacă folosești și [[#Servicii de sincronizare bazate pe fișiere|servicii de sincronizare bazate pe fișiere]] pe același dispozitiv — în principal, orice loc care nu se află într-un [[Switch to Obsidian Sync#Mută-ți seiful din serviciul tău de sincronizare terț sau din stocarea cloud|serviciu de sincronizare terț]].
 
-The diagram below shows a simplified version of how Obsidian Sync works:
+Diagrama de mai jos arată o versiune simplificată a modului în care funcționează Obsidian Sync:
 
 ```mermaid
 graph TD
@@ -86,26 +85,26 @@ graph TD
    style T fill:#fdcc8a
 ```
 
-The strength of this system becomes more apparent with more device types. [[#File-based sync services]] can be implemented inconsistently across operating systems, and mobile devices have their own rules with how applications can be sandboxed and power throttled, which makes it much harder for traditional file-based services to work seamlessly.
+Punctele forte ale acestui sistem devin mai evidente pe măsură ce apar mai multe tipuri de dispozitive. [[#Servicii de sincronizare bazate pe fișiere|Serviciile de sincronizare bazate pe fișiere]] pot fi implementate inconsecvent pe diferite sisteme de operare, iar dispozitivele mobile au propriile reguli privind modul în care aplicațiile pot fi izolate (sandboxed) și limitate la nivel de consum de energie, ceea ce face mult mai dificilă funcționarea fără cusur a serviciilor tradiționale bazate pe fișiere.
 
-With Obsidian Sync, the service handles synchronization directly through the application, providing consistent behavior regardless of device type or operating system limitations, while prioritizing keeping a local copy of your data as a [[Back up your Obsidian files|soft backup]].
+Cu Obsidian Sync, serviciul gestionează sincronizarea direct prin aplicație, oferind un comportament consecvent indiferent de tipul dispozitivului sau de limitările sistemului de operare, prioritizând în același timp păstrarea unei copii locale a datelor tale ca [[Back up your Obsidian files|copie de rezervă suplimentară]].
 
-### Sync behavior
+### Comportamentul sincronizării
 
-When you make changes to files in your local vault, Obsidian Sync detects these changes and uploads them to the remote vault. Other devices connected to the same remote vault will then download these changes and apply them to their local vaults. Obsidian Sync tracks changes at the file level and only transfers the files that have been modified, rather than syncing entire folders. This reduces bandwidth usage and sync time.
+Când faci modificări la fișiere în seiful tău local, Obsidian Sync detectează aceste modificări și le încarcă în seiful la distanță. Celelalte dispozitive conectate la același seif la distanță vor descărca apoi aceste modificări și le vor aplica seifurilor lor locale. Obsidian Sync urmărește modificările la nivel de fișier și transferă doar fișierele care au fost modificate, în loc să sincronizeze directoare întregi. Acest lucru reduce utilizarea lățimii de bandă și timpul de sincronizare.
 
-When conflicts occur or when you need to control which files sync, Obsidian Sync provides specific mechanisms to handle these situations:
+Când apar conflicte sau când trebuie să controlezi ce fișiere se sincronizează, Obsidian Sync oferă mecanisme specifice pentru a gestiona aceste situații:
 
-![[Troubleshoot Obsidian Sync#Conflict resolution|Conflict resolution]]
+![[Troubleshoot Obsidian Sync#Rezolvarea conflictelor|Rezolvarea conflictelor]]
 
-![[Sync settings and selective syncing#Selective syncing#Exclude a folder from syncing]]
+![[Sync settings and selective syncing#Sincronizare selectivă#Exclude un director din sincronizare]]
 
-### Offline behavior
+### Comportamentul offline
 
-Changes made while offline are queued and sync automatically when your device reconnects to the internet and Obsidian is open. Your local vault remains fully functional during offline periods.
+Modificările făcute în timp ce ești offline sunt puse în așteptare și se sincronizează automat când dispozitivul tău se reconectează la internet, iar Obsidian este deschis. Seiful tău local rămâne complet funcțional în perioadele offline.
 
-## Next steps
+## Pașii următori
 
-- [[Set up Obsidian Sync]] to get started with remote vaults.
-- [[Switch to Obsidian Sync]] if you're currently using file-based sync and want to use Obsidian Sync.
-- [[Sync your notes across devices|Explore other sync options]] if you're still deciding.
+- [[Set up Obsidian Sync]] pentru a începe cu seifurile la distanță.
+- [[Switch to Obsidian Sync]] dacă folosești în prezent sincronizarea bazată pe fișiere și dorești să treci la Obsidian Sync.
+- [[Sync your notes across devices|Explorează alte opțiuni de sincronizare]] dacă încă te decizi.

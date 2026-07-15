@@ -1,52 +1,51 @@
 ---
-localized: null
 permalink: publish/security
 ---
-You can choose the notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
+Poți alege notele pe care vrei să le publici pe [[Introduction to Obsidian Publish|Obsidian Publish]]. Restul notelor tale rămân în siguranță în seiful tău.
 
-Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
+Doar notele pe care alegi să le publici sunt trimise pe serverele Obsidian, iar orice notă a cărei publicare o anulezi este eliminată.
 
-## Password protection
+## Protecție prin parolă
 
-For improved access control on your publish site, apply a site password. Visitors will be prompted for a password when attempting to access it. If you decide to remove the site password later, the entire site will become visible to the public again.
+Pentru un control de acces îmbunătățit pe site-ul tău Publish, aplică o parolă pentru site. Vizitatorii vor fi întrebați de o parolă atunci când încearcă să-l acceseze. Dacă decizi să elimini ulterior parola site-ului, întregul site va deveni din nou vizibil publicului.
 
-> [!warning] Individual password protection for published notes is currently not supported.
+> [!warning] Protecția prin parolă individuală pentru notele publicate nu este momentan suportată.
 
-### Add a site password
+### Adaugă o parolă pentru site
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-4. Click **New password**.
-5. In **Password**, enter a password for your site.
-6. (Optional) In **Nickname**, enter a nickname for the password, for example, the person you want to give site access to.
-7. Click **Add this password**.
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. În fereastra de dialog **Publică schimbările**, apasă pe **Schimbă opțiunile siteului** ![[lucide-cog.svg#icon]].
+3. Sub **Alte setări ale site-ului**, lângă **Parole**, apasă pe **Gestionează**.
+4. Apasă pe **Parolă nouă**.
+5. La **Parolă**, introdu o parolă pentru site-ul tău.
+6. (Opțional) La **Pseudonim**, introdu un pseudonim pentru parolă, de exemplu, persoana căreia vrei să-i acorzi acces la site.
+7. Apasă pe **Adaugă această parolă**.
 
-### Remove a site password
+### Elimină o parolă de pe site
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-5. Click the cross-icon next to the password you want to delete.
+1. În panglică, în partea stângă a ferestrei aplicației, apasă pe **Publică schimbările** ![[lucide-send.svg#icon]].
+2. În fereastra de dialog **Publică schimbările**, apasă pe **Schimbă opțiunile siteului** ![[lucide-cog.svg#icon]].
+3. Sub **Alte setări ale site-ului**, lângă **Parole**, apasă pe **Gestionează**.
+5. Apasă pe pictograma X de lângă parola pe care vrei să o ștergi.
 
-## Data collection
-### Visitor data
+## Colectarea datelor
+### Datele vizitatorilor
 
-By default, Obsidian Publish **does not** collect visitor data, store cookies, or process personal information. However you can implement analytics or log other user data by [[Customize your site|customizing your site]].
+Implicit, Obsidian Publish **nu** colectează date despre vizitatori, nu stochează cookie-uri și nu procesează informații personale. Totuși, poți implementa analitice sau înregistra alte date ale utilizatorilor prin [[Customize your site|personalizarea site-ului tău]].
 
-As the site owner, you are responsible for complying with GDPR and privacy regulations in your region. This includes creating your own notification banner, which can be implemented using publish.js, and adding a privacy policy page to your site.
+Ca proprietar al site-ului, ești responsabil pentru respectarea GDPR și a reglementărilor de confidențialitate din regiunea ta. Aceasta include crearea propriului tău banner de notificare, care poate fi implementat folosind publish.js, precum și adăugarea unei pagini de politică de confidențialitate pe site-ul tău.
 
-## Access
+## Acces
 
-Obsidian contracts with [Cloudflare](https://www.cloudflare.com) to provide site hosting for our Publish sites. The servers are hosted in San Francisco, CA.
+Obsidian colaborează cu [Cloudflare](https://www.cloudflare.com) pentru a oferi găzduire pentru siteurile noastre Publish. Serverele sunt găzduite în San Francisco, CA.
 
-### Managing access to Obsidian Publish on your network
+### Administrarea accesului la Obsidian Publish în rețeaua ta
 
-To regulate access to Obsidian Publish on your network, you need to manage the following domains:
+Pentru a reglementa accesul la Obsidian Publish în rețeaua ta, trebuie să administrezi următoarele domenii:
 
 - Frontend: `publish.obsidian.md`
 - Backend: `publish-main.obsidian.md`
 
-Additionally, the backend services employ the following subdomains: `publish-xx.obsidian.md`, where `xx` is a number ranging from `1 - 100`.
+În plus, serviciile de backend folosesc următoarele subdomenii: `publish-xx.obsidian.md`, unde `xx` este un număr cuprins între `1 - 100`.
 
-> [!tip] If your firewall system supports it, we recommend whitelisting `publish-*.obsidian.md` to accommodate our continuous expansion of subdomains.
+> [!tip] Dacă sistemul tău de firewall suportă acest lucru, îți recomandăm să adaugi pe lista albă `publish-*.obsidian.md` pentru a ține cont de extinderea continuă a subdomeniilor noastre.

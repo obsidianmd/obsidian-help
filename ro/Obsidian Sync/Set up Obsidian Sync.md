@@ -1,184 +1,183 @@
 ---
-localized: null
 permalink: sync/setup
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: You've purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+description: Ai achiziționat Obsidian Sync și ești gata să începi. Acest ghid te va ajuta să configurezi și să ajustezi setările Obsidian Sync pentru utilizarea zilnică.
 ---
-You purchased Obsidian Sync and are ready to get started. This guide will help you set up and adjust your Obsidian Sync settings for daily use.
+Ai achiziționat Obsidian Sync și ești gata să începi. Acest ghid te va ajuta să configurezi și să ajustezi setările Obsidian Sync pentru utilizarea zilnică.
 
-- **New to Obsidian Sync?** See: [[#Set up Obsidian Sync for the first time]]
-- **Connecting a second device?** See: [[#Sync a remote vault on another device]]
-- **Need to make changes?** See: [[#Manage your remote vaults]]
+- **Ești nou la Obsidian Sync?** Vezi: [[#Configurează Obsidian Sync pentru prima dată]]
+- **Conectezi un al doilea dispozitiv?** Vezi: [[#Sincronizează un seif la distanță pe alt dispozitiv]]
+- **Trebuie să faci modificări?** Vezi: [[#Gestionează-ți seifurile la distanță]]
 
-## Set up Obsidian Sync for the first time
+## Configurează Obsidian Sync pentru prima dată
 
-In this section, you'll create a new [[Local and remote vaults|remote vault]] and connect it to an existing local vault. You don't need to create a new, empty local vault to use Obsidian Sync for this purpose.
+În această secțiune, vei crea un nou [[Local and remote vaults|seif la distanță]] și îl vei conecta la un seif local existent. Nu este nevoie să creezi un seif local nou, gol, pentru a folosi Obsidian Sync în acest scop.
 
-> [!info] Is your current vault in an iCloud, OneDrive, Dropbox, or other syncing folder? If **yes**, or you are **unsure**, please read [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|this]] and [[Switch to Obsidian Sync]] before proceeding.
+> [!info] Seiful tău actual se află într-un director iCloud, OneDrive, Dropbox sau alt director de sincronizare? Dacă **da**, sau nu ești **sigur**, te rugăm să citești [[Frequently asked questions#Pot folosi un serviciu de sincronizare terț împreună cu Obsidian Sync?|acest articol]] și [[Switch to Obsidian Sync]] înainte de a continua.
 
-**Prerequisites**
+**Cerințe preliminare**
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
-- An active Obsidian Sync [[Plans and storage limits|subscription]]. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/sync).
-- **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files. A syncing service is not a backup. 
+- Un cont Obsidian. Dacă nu ai unul, [înscrie-te acum](https://obsidian.md/auth?returnto=%2Faccount%2Fsync#signup).
+- Un [[Plans and storage limits|abonament]] Obsidian Sync activ. Dacă nu ai unul, abonează-te din [panoul de control al contului tău](https://obsidian.md/account/sync).
+- **Recomandat**: Un [[Back up your Obsidian files|sistem de backup]] pentru fișierele tale Obsidian. Un serviciu de sincronizare nu este o copie de rezervă.
 
-### Log in with your Obsidian account
+### Autentifică-te cu contul tău Obsidian
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your Account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Select **Login**.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, selectează **General**.
+3. Sub **Cont → Contul tău**, selectează **Autentificare**.
+4. La **E-mail**, introdu adresa ta de e-mail.
+5. La **Parolă**, introdu parola ta.
+6. Selectează **Autentificare**.
 
-### Enable Obsidian Sync
+### Activează Obsidian Sync
 
-1. Open **[[Settings]]**.
-2. In the sidebar under **Options**, select **Core Plugins**.
-3. Toggle **Sync**.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, sub **Opțiuni**, selectează **Module integrate**.
+3. Comută **Sync**.
 
-### Create a new remote vault
+### Creează un nou seif la distanță
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Next to **Remote vault**, select **Choose**.
-4. Select **Create new vault**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[Set up Obsidian Sync#Regional sync servers|region]] for your remote vault. 
-7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
-8. Select **Create**.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, selectează **Sync**.
+3. Lângă **Seif la distanță**, selectează **Alege**.
+4. Selectează **Creează seif nou**.
+5. La **Numele seifului**, introdu numele seifului la distanță.
+6. La **Regiune**, alege [[Set up Obsidian Sync#Servere de sincronizare regionale|regiunea]] serverului pentru seiful tău la distanță.
+7. La **Parolă de criptare**, alege o parolă pentru seiful tău. Aceasta creează un seif criptat integral. Parola seifului este separată de contul tău Obsidian și poate fi diferită pentru fiecare dintre seifurile tale. Pentru mai multe informații, consultă [[Security and privacy]].
+8. Selectează **Creează**.
 
-### Connect to a remote vault
+### Conectează-te la un seif la distanță
 
-1. Select **Connect** next to your newly created vault.
-2. Enter the password you configured for the vault in the **Encryption password** field if you opted into [[Obsidian Sync/Security and privacy#What does end-to-end encryption mean?|end-to-end encryption]].
-3. Select **Unlock vault**.
-4. **Do not start syncing yet.** Check your sync settings in [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]].
-    - If you wish to start syncing immediately, move onto [[#Begin syncing with Obsidian Sync|begin syncing with Obsidian Sync]].
-5. If you haven't already, close or dismiss the pop-up window prompting you to **Exclude Folders** and **Start Syncing**. Proceed to the next step.
+1. Selectează **Conectează** lângă seiful nou creat.
+2. Introdu parola configurată pentru seif în câmpul **Parolă de criptare**, dacă ai optat pentru [[Obsidian Sync/Security and privacy#Ce înseamnă criptarea integrală?|criptare integrală]].
+3. Selectează **Deblochează seiful**.
+4. **Nu începe încă sincronizarea.** Verifică-ți setările de sincronizare la [[#Ajustează setările Obsidian Sync|ajustează setările Obsidian Sync]].
+    - Dacă dorești să începi sincronizarea imediat, treci la [[#Începe sincronizarea cu Obsidian Sync|începe sincronizarea cu Obsidian Sync]].
+5. Dacă nu ai făcut-o deja, închide sau ignoră fereastra pop-up care te solicită să **Excluzi directoare** și să **Începi sincronizarea**. Continuă la pasul următor.
 
-#### Adjust Obsidian Sync settings
+#### Ajustează setările Obsidian Sync
 
-1. Navigate to **[[Settings]]** → **Sync** if needed.
-2. If a device name has not been added, add one to make reading your Sync logs easier!
-3. Toggle the settings under **Selective Sync** and **Vault configuration sync** to indicate which items should be synced to and from the remote vault.
-    - **Note**: If you recently disconnected from a remote vault and are reconnecting without an application restart, some settings may already be toggled on.
-4. If you make changes to any settings, restart Obsidian completely.
-5. Once Obsidian is restarted, return to **[[Settings]]** → **Sync**.
+1. Navighează la **[[Settings]]** → **Sync**, dacă este necesar.
+2. Dacă nu a fost adăugat un nume de dispozitiv, adaugă unul pentru a facilita citirea jurnalelor tale Sync!
+3. Comută setările de la **Sincronizare selectivă** și **Sincronizare configurare seif** pentru a indica ce elemente ar trebui sincronizate către și de la seiful la distanță.
+    - **Notă**: Dacă te-ai deconectat recent de la un seif la distanță și te reconectezi fără a reporni aplicația, este posibil ca unele setări să fie deja activate.
+4. Dacă faci modificări la orice setare, repornește complet Obsidian.
+5. După repornirea Obsidian, revino la **[[Settings]]** → **Sync**.
 
-#### Begin syncing with Obsidian Sync
+#### Începe sincronizarea cu Obsidian Sync
 
-If you are beginning syncing after connecting to a remote vault, you will see a **Start Syncing** button. Select this button to begin syncing.
+Dacă începi sincronizarea după conectarea la un seif la distanță, vei vedea un buton **Începe sincronizarea**. Selectează acest buton pentru a începe sincronizarea.
 
-If you are beginning syncing after adjusting Obsidian Sync's settings and restarting the application, you will see a **Resume** button within Sync's settings. Select this button to begin syncing.
+Dacă începi sincronizarea după ajustarea setărilor Obsidian Sync și repornirea aplicației, vei vedea un buton **Reia** în setările Sync. Selectează acest buton pentru a începe sincronizarea.
 
-> [!done] Syncing status
-> When Obsidian Sync completes, a green circle with a checkmark ![[obsidian-icon-sync-synced.svg#icon]] appears in the bottom-right corner (desktop) or in the right sidebar (mobile). The Sync log will also display "Fully Synced" as one its most recent message.
+> [!done] Starea sincronizării
+> Când Obsidian Sync termină, un cerc verde cu o bifă ![[obsidian-icon-sync-synced.svg#icon]] apare în colțul din dreapta jos (desktop) sau în bara laterală din dreapta (mobil). Jurnalul Sync va afișa, de asemenea, „Sincronizat complet” ca unul dintre cele mai recente mesaje.
 >
-> For more details on sync statuses, refer to [[Status icon and messages]].
+> Pentru mai multe detalii despre stările de sincronizare, consultă [[Status icon and messages]].
 ^obsidian-sync-status
 
-To connect other devices to your newly created and synced remote vault, move onto [[Set up Obsidian Sync#Sync a remote vault on another device|Sync a remote vault on another device]].
+Pentru a conecta alte dispozitive la seiful tău nou creat și sincronizat, treci la [[Set up Obsidian Sync#Sincronizează un seif la distanță pe alt dispozitiv|Sincronizează un seif la distanță pe alt dispozitiv]].
 
-To learn more about settings and files, move onto [[Sync settings and selective syncing]].
+Pentru a afla mai multe despre setări și fișiere, treci la [[Sync settings and selective syncing]].
 
-## Sync a remote vault on another device
+## Sincronizează un seif la distanță pe alt dispozitiv
 
-In this section, you have already created a remote vault, and uploaded data to it. Now, you want to connect your other devices to it. 
+În această secțiune, ai creat deja un seif la distanță și ai încărcat date în el. Acum, dorești să-ți conectezi celelalte dispozitive la el.
 
-**Prerequisites**
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/account#mode=signup).
-- An active Obsidian Sync subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account).
-- Sync enabled within the [[Core plugins]] settings. 
-- An active remote vault. If you have not yet made one, please create a [[Set up Obsidian Sync#Create a new remote vault|remote vault]] first.
-- **Recommended**: A [[Back up your Obsidian files|backup system]] in place for your Obsidian files on your most-used device. A syncing service is not a backup. 
+**Cerințe preliminare**
+- Un cont Obsidian. Dacă nu ai unul, [înscrie-te acum](https://obsidian.md/account#mode=signup).
+- Un abonament Obsidian Sync activ. Dacă nu ai unul, abonează-te din [panoul de control al contului tău](https://obsidian.md/account).
+- Sync activat în setările [[Core plugins]].
+- Un seif la distanță activ. Dacă nu ai creat încă unul, te rugăm mai întâi să creezi un [[Set up Obsidian Sync#Creează un nou seif la distanță|seif la distanță]].
+- **Recomandat**: Un [[Back up your Obsidian files|sistem de backup]] pentru fișierele tale Obsidian pe dispozitivul cel mai folosit. Un serviciu de sincronizare nu este o copie de rezervă.
 
-### Sync your vault from the vault switcher
+### Sincronizează-ți seiful din comutatorul de seifuri
 
-If you have freshly installed Obsidian, when you open the program you will be presented with the [[Manage vaults|Vault switcher]]. To create a new local vault from the contents of a remote vault, you will want to perform the following steps.
+Dacă ai instalat recent Obsidian, când deschizi programul vei fi întâmpinat de [[Manage vaults|comutatorul de seifuri]]. Pentru a crea un nou seif local din conținutul unui seif la distanță, va trebui să urmezi pașii de mai jos.
 
-1. Open Obsidian (assuming this is your first time opening it)
-2. Select one of the options depending upon your installation:
-	1. **Desktop**: In the section that says Open vault from Obsidian Sync, choose **Setup**
-	2. **Mobile/Tablet**: **Setup Obsidian Sync**
-3. Login with your Obsidian User account
-	1. If [[2-factor authentication|2FA]] is set up, enter your 2FA code.
-4. You will be asked to choose which remote vault you want to sync to this device. Select **Connect**.
-5. You will be asked to choose a name for the local vault that will be created on the device to hold this data. Enter the name of your choice. 
-	1. If you use [[Obsidian URI]]s, you will want to use the same name as the local vault on your other device. 
-6. Select **Create**.
-7. The remove vaults window will pop-up momentary as Obsidian Sync connects to your server and validates the subscription. It will then present you a *Setup Connection* window. 
-	1. It is highly recommended that you close or swipe down from this window, and [[#Adjust Obsidian Sync settings|adjust Obsidian Sync settings]] first.
-	2. If you change any Sync Settings, please reload or restart Obsidian.
+1. Deschide Obsidian (presupunând că este prima dată când îl deschizi)
+2. Selectează una dintre opțiuni, în funcție de instalarea ta:
+	1. **Desktop**: În secțiunea care spune Deschide seif din Obsidian Sync, alege **Configurare**
+	2. **Mobil/Tabletă**: **Configurează Obsidian Sync**
+3. Autentifică-te cu contul tău de utilizator Obsidian
+	1. Dacă [[2-factor authentication|autentificarea în doi pași]] este configurată, introdu codul tău 2FA.
+4. Ți se va cere să alegi ce seif la distanță dorești să sincronizezi cu acest dispozitiv. Selectează **Conectează**.
+5. Ți se va cere să alegi un nume pentru seiful local care va fi creat pe dispozitiv pentru a stoca aceste date. Introdu numele dorit.
+	1. Dacă folosești [[Obsidian URI]]-uri, va trebui să folosești același nume ca seiful local de pe celălalt dispozitiv al tău.
+6. Selectează **Creează**.
+7. Fereastra seifurilor la distanță va apărea momentan pe măsură ce Obsidian Sync se conectează la serverul tău și validează abonamentul. Apoi îți va afișa o fereastră *Configurare conexiune*.
+	1. Este recomandat să închizi sau să glisezi în jos această fereastră și să [[#Ajustează setările Obsidian Sync|ajustezi setările Obsidian Sync]] mai întâi.
+	2. Dacă modifici orice setare Sync, te rugăm să reîncarci sau să repornești Obsidian.
 
-### Sync your vault from Obsidian Settings
+### Sincronizează-ți seiful din Setările Obsidian
 
-If you have already created a local vault on this device, and you want to connect this local vault to a remote vault, the instructions are very similar to [[#Set up Obsidian Sync for the first time]].
+Dacă ai creat deja un seif local pe acest dispozitiv și dorești să conectezi acest seif local la un seif la distanță, instrucțiunile sunt foarte similare cu [[#Configurează Obsidian Sync pentru prima dată|Configurează Obsidian Sync pentru prima dată]].
 
-![[Set up Obsidian Sync#Log in with your Obsidian account]]
+![[Set up Obsidian Sync#Autentifică-te cu contul tău Obsidian]]
 
-![[Set up Obsidian Sync#Enable Obsidian Sync]]
+![[Set up Obsidian Sync#Activează Obsidian Sync]]
 
-#### Connect to a remote vault
+#### Conectează-te la un seif la distanță
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Next to **Pick remote vault**, click **Choose**.
-4. Click **Connect** next to the remote vault you want to connect to.
-5. In **Encryption password**, enter the password for your vault, if you have one.
-6. You will be prompted to start Syncing. It is recommended to wait and adjust your sync settings first. If you do want to sync the entire vault to the device as is, you may **Start Syncing**. 
+1. Deschide **[[Settings]]**.
+2. În bara laterală, selectează **Sync**.
+3. Lângă **Alege seiful la distanță**, clic pe **Alege**.
+4. Clic pe **Conectează** lângă seiful la distanță la care dorești să te conectezi.
+5. La **Parolă de criptare**, introdu parola pentru seiful tău, dacă ai una.
+6. Vei fi solicitat să începi sincronizarea. Este recomandat să aștepți și să-ți ajustezi mai întâi setările de sincronizare. Dacă dorești să sincronizezi întregul seif pe dispozitiv așa cum este, poți selecta **Începe sincronizarea**.
 
-> [!warning] If the vault on your device already contains some notes (not recommended), you'll be warned that those notes will be merged before proceeding. Conflicts will be resolved through [[Troubleshoot Obsidian Sync#Conflict resolution|Sync's conflict resolution]].
+> [!warning] Dacă seiful de pe dispozitivul tău conține deja niște note (nerecomandat), vei fi avertizat că acele note vor fi îmbinate înainte de a continua. Conflictele vor fi rezolvate prin [[Troubleshoot Obsidian Sync#Rezolvarea conflictelor|rezolvarea conflictelor Sync]].
 
-![[Set up Obsidian Sync#Adjust Obsidian Sync settings]]
+![[Set up Obsidian Sync#Ajustează setările Obsidian Sync]]
 
-![[Set up Obsidian Sync#Begin syncing with Obsidian Sync]]
+![[Set up Obsidian Sync#Începe sincronizarea cu Obsidian Sync]]
 
-## Manage your remote vaults
+## Gestionează-ți seifurile la distanță
 
-You have created and connected to a remote vault. You may have also synced this remote vault to multiple devices. This section goes over some of the other common instructions you may need in managing this remote vault.
+Ai creat și te-ai conectat la un seif la distanță. Este posibil să fi sincronizat, de asemenea, acest seif la distanță pe mai multe dispozitive. Această secțiune trece în revistă alte instrucțiuni comune de care s-ar putea să ai nevoie pentru gestionarea acestui seif la distanță.
 
-### Disconnect from a remote vault
+### Deconectează-te de la un seif la distanță
 
-1. Open Obsidian's **[[Settings]]**.
-2. Select **Sync** in the sidebar.
-3. Click the **Disconnect** button next to Remote vaults.
+1. Deschide **[[Settings]]** din Obsidian.
+2. Selectează **Sync** în bara laterală.
+3. Clic pe butonul **Deconectează** lângă seifurile la distanță.
 
-You are now disconnected from the remote vault and are no longer syncing on this device.
+Ești acum deconectat de la seiful la distanță și nu mai sincronizezi pe acest dispozitiv.
 
-### Delete a remote vault
+### Șterge un seif la distanță
 
-> [!tip] Deleting a remote vault will not delete your local data on your device.
+> [!tip] Ștergerea unui seif la distanță nu va șterge datele tale locale de pe dispozitiv.
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Select **Manage** next to Remote vaults. A window will open with your list of remote vaults.
-4. Select the trash can icon ![[lucide-trash-2.svg#icon]] next to the remote vault you want to delete.
-5. Confirm the deletion by selecting the red **Delete** button.
-6. Your remote vault has been deleted.
+1. Deschide **[[Settings]]**.
+2. În bara laterală, selectează **Sync**.
+3. Selectează **Gestionează** lângă Seifuri la distanță. Se va deschide o fereastră cu lista ta de seifuri la distanță.
+4. Selectează pictograma coșului de gunoi ![[lucide-trash-2.svg#icon]] lângă seiful la distanță pe care dorești să-l ștergi.
+5. Confirmă ștergerea selectând butonul roșu **Șterge**.
+6. Seiful tău la distanță a fost șters.
 
-> [!info] If there is no trash can icon visible you may need to first disconnect from the remote vault. Once disconnected, select the **Choose** button to open the list of remote vaults.
+> [!info] Dacă nu este vizibilă nicio pictogramă de coș de gunoi, s-ar putea să fie nevoie mai întâi să te deconectezi de la seiful la distanță. Odată deconectat, selectează butonul **Alege** pentru a deschide lista de seifuri la distanță.
 
-### Regional sync servers
+### Servere de sincronizare regionale
 
-Obsidian Sync lets you choose the hosting location for your remote vault. If you're using version `1.4.16` or older of Obsidian, the location will be automatically chosen for you.
+Obsidian Sync îți permite să alegi locația de găzduire pentru seiful tău la distanță. Dacă folosești versiunea `1.4.16` sau mai veche a Obsidian, locația va fi aleasă automat pentru tine.
 
-If you're unsure where your current vault's region is, check out [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Where can I find my current Sync server and where is it hosted?]] for guidance.
+Dacă nu ești sigur unde este regiunea seifului tău curent, consultă [[Obsidian Sync/Security and privacy#Unde pot găsi serverul meu Sync curent și unde este găzduit?|Unde pot găsi serverul meu Sync curent și unde este găzduit?]] pentru îndrumare.
 
 ![[sync-regional-sync-servers.png#interface|300]]
 
-After selecting a location, your data center **cannot** be moved to a different server without re-uploading your data. To change regions, follow the [[Sync regions|follow vault Sync regions guide]].
+După selectarea unei locații, centrul tău de date **nu poate** fi mutat pe un alt server fără reîncărcarea datelor tale. Pentru a schimba regiunile, urmează [[Sync regions|ghidul de regiuni Sync ale seifului]].
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
-## Next steps
+## Pașii următori
 
-Here are some suggested documents to read next.
+Iată câteva documente sugerate pentru citire ulterioară.
 
-- Explore more about [[Sync settings and selective syncing|selecting files and settings to sync]].
-- Learn what happens if your remote vault [[Version history|fill up]].
-- [[Collaborate on a shared vault]] with another Obsidian Sync user.
-- Check out the [[Frequently asked questions|Sync FAQ]] for some answers to common questions.
+- Explorează mai multe despre [[Sync settings and selective syncing|selectarea fișierelor și setărilor de sincronizat]].
+- Află ce se întâmplă dacă seiful tău la distanță [[Version history|se umple]].
+- [[Collaborate on a shared vault|Colaborează]] cu un alt utilizator Obsidian Sync.
+- Consultă [[Frequently asked questions|întrebările frecvente Sync]] pentru răspunsuri la întrebări comune.

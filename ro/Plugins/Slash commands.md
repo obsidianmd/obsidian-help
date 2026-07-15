@@ -1,17 +1,16 @@
 ---
-localized: null
 permalink: plugins/slash-commands
 ---
-Slash commands is a [[Core plugins|core plugin]] that lets you perform commands in the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
+Slash commands este un [[Core plugins|modul integrat]] care îți permite să execuți comenzi în editor scriind o bară oblică (`/`) la începutul unei linii sau după orice spațiu gol.
 
-To run a command using Slash commands:
+Pentru a rula o comandă folosind Comenzile slash:
 
-1. In the editor, type a forward slash (`/`).
-2. Enter the name of the command you want to run to search the list of available commands.
-3. Navigate to the command using the arrow keys.
-4. Press Enter.
+1. În editor, scrie o bară oblică (`/`).
+2. Introdu numele comenzii pe care vrei să o rulezi pentru a căuta în lista comenzilor disponibile.
+3. Navighează la comandă folosind săgețile de la tastatură.
+4. Apasă Enter.
 
-To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
+Pentru a ieși din căutarea comenzilor slash fără să invoci o comandă, apasă `Esc` sau tasta `Space`.
 
-> [!TIP] Fuzzy matching
-> Like the [[Command palette]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
+> [!TIP] Potrivire aproximativă
+> La fel ca [[Command palette|Paleta de comenzi]], Comenzile slash acceptă potrivire aproximativă (fuzzy matching), care îți permite să cauți comenzi chiar dacă nu le știi numele exact. De exemplu, scrie „scf” pentru a găsi comanda **Save current file**.

@@ -1,13 +1,12 @@
 ---
-localized: null
 permalink: status-bar
 ---
-The status bar shows small bits of information in the bottom right corner of the window. That includes helpful information about the current file, the current vault, or the current status like time and date.
+Bara de stare afișează mici informații în colțul din dreapta jos al ferestrei. Acestea includ informații utile despre fișierul curent, seiful curent sau starea curentă, precum ora și data.
 
 ![[status-bar-desktop.png#interface]]
 
-Status items are added both by [[Core plugins|core plugins]] and [[community plugins]]. Some items are interactive but some are purely informational. 
+Elementele barei de stare sunt adăugate atât de [[Core plugins|modulele de bază]], cât și de [[community plugins]]. Unele elemente sunt interactive, dar altele sunt pur informative. 
 
-For example, the [[word count]] plugin adds the word and character count that’s not clickable, and the [[Introduction to Obsidian Sync|Sync plugin]] adds an icon that both shows the sync status as well as shows the sync log upon being clicked. 
+De exemplu, modulul [[word count]] adaugă numărul de cuvinte și caractere, care nu este apăsabil, iar [[Introduction to Obsidian Sync|modulul Sync]] adaugă o pictogramă care arată atât starea sincronizării, cât și jurnalul de sincronizare atunci când este apăsată. 
 
-The desktop version of the status bar pictured above features information about the [[Backlinks|backlinks]] present, the current [[Views and editing mode#Editing view|editor view]], and the current word and character count from the word count plugin.
+Versiunea desktop a barei de stare prezentată mai sus include informații despre [[Backlinks|referințele]] prezente, [[Views and editing mode#Editing view|modul de editare]] curent și numărul curent de cuvinte și caractere din modulul de numărare a cuvintelor.

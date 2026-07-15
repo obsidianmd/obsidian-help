@@ -1,23 +1,22 @@
 ---
-localized: null
 permalink: bases/views/map
 ---
-Map is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]]. It requires installing the [Maps plugin](obsidian://show-plugin?id=maps).
+Map este un tip de [[Views|vizualizare]] pe care îl poți folosi în [[Introduction to Bases|Baze]]. Necesită instalarea modulului [Maps](obsidian://show-plugin?id=maps).
 
-Select ![[lucide-map.svg#icon]]  **Map** from the view menu to display files as an interactive map with markers for each file, and a preview that displays properties of that file.
+Selectează ![[lucide-map.svg#icon]]  **Hartă** din meniul de vizualizare pentru a afișa fișierele ca o hartă interactivă cu marcaje pentru fiecare fișier și o previzualizare care afișează proprietățile acelui fișier.
 
 ![[bases-map-places.png#interface]]
 
-## Install the Maps plugin
+## Instalează modulul Maps
 
-Map views require Obsidian 1.10. The [Maps plugin](obsidian://show-plugin?id=maps) is an official [[Community plugins|community plugin]] that you can download separately.
+Vizualizările de tip hartă necesită Obsidian 1.10. Modulul [Maps](obsidian://show-plugin?id=maps) este un [[Community plugins|modul comunitar]] oficial pe care îl poți descărca separat.
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
-2. Download and enable [Maps](obsidian://show-plugin?id=maps) from the list
+1. Urmează instrucțiunile din [[Community plugins#Install a community plugin]]
+2. Descarcă și activează [Maps](obsidian://show-plugin?id=maps) din listă
 
-## Example
+## Exemplu
 
-To start, try creating a note called **Eiffel Tower** and copy the following properties into it:
+Pentru a începe, încearcă să creezi o notă numită **Eiffel Tower** și copiază următoarele proprietăți în ea:
 
 ```yaml
 ---
@@ -31,98 +30,98 @@ tags:
 ---
 ```
 
-Here's what the code above means:
+Iată ce înseamnă codul de mai sus:
 
-| Property      | Value                    |                                                                                                                                                      |
+| Proprietate      | Valoare                    |                                                                                                                                                      |
 | ------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `coordinates` | `48.85837`<br>`2.294481` | Coordinates are stored as `latitude, longitude`. You can get coordinates by right-clicking a location on the map and selecting **Copy coordinates**. |
-| `icon`        | `landmark`               | The name of an icon from the [Lucide library](https://lucide.dev/).                                                                                  |
-| `color`       | `red`                    | A valid CSS value: hex, RGB, named color, etc.                                                                                                       |
-| `tags`        | `places`                 | The tag we'll use to find map markers in our base.                                                                                                   |
-Now create a map view with a filter for the tag `places` and set marker coordinates, icon, and color using the properties listed above. 
+| `coordinates` | `48.85837`<br>`2.294481` | Coordonatele sunt stocate ca `latitudine, longitudine`. Poți obține coordonatele dând clic dreapta pe o locație de pe hartă și selectând **Copiază coordonatele**. |
+| `icon`        | `landmark`               | Numele unei iconițe din [biblioteca Lucide](https://lucide.dev/).                                                                                  |
+| `color`       | `red`                    | O valoare CSS validă: hexazecimal, RGB, culoare denumită etc.                                                                                                       |
+| `tags`        | `places`                 | Eticheta pe care o vom folosi pentru a găsi marcajele hărții în baza noastră.                                                                                                   |
+Acum creează o vizualizare de tip hartă cu un filtru pentru eticheta `places` și stabilește coordonatele, iconița și culoarea marcajelor folosind proprietățile listate mai sus.
 
-You can also open these [example files](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) in Obsidian to see working map views with markers, icons, and colors already configured.
+Poți deschide și aceste [fișiere exemplu](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) în Obsidian pentru a vedea vizualizări de tip hartă funcționale, cu marcaje, iconițe și culori deja configurate.
 
-## Settings
+## Setări
 
-Map view settings can be configured in [[Views#View settings|View settings]].
+Setările vizualizării de tip hartă pot fi configurate în [[Views#View settings|Setările vizualizării]].
 
-- Embedded height
-- Center coordinates
-- Zoom constraints
-- Marker coordinates, color, and icon
-- Background
+- Înălțimea încorporării
+- Coordonatele centrului
+- Constrângerile de zoom
+- Coordonatele, culoarea și iconița marcajelor
+- Fundal
 
-### Markers
+### Marcaje
 
-#### Coordinates
+#### Coordonate
 
-To display pins on the map go to the [[Views#View settings|view settings]] and select a **marker coordinates** property. The property must contain latitude and longitude coordinates. The following formats are accepted:
+Pentru a afișa pini pe hartă, mergi la [[Views#View settings|setările vizualizării]] și selectează o proprietate pentru **coordonatele marcajului**. Proprietatea trebuie să conțină coordonate de latitudine și longitudine. Sunt acceptate următoarele formate:
 
 ```yaml
-# Text property
+# Proprietate de tip text
 coordinates: "lat, lng"
 
-# List property
+# Proprietate de tip listă
 coordinates:
   - "lat"
   - "lng"
 ```
 
-If you store coordinates as separate `latitude` and `longitude` properties you can combine them with a [[Bases syntax#Formulas|formula]] property by defining it as an array of coordinates using the following formula: `[latitude, longitude]`.
+Dacă stochezi coordonatele ca proprietăți separate `latitude` și `longitude`, le poți combina cu o proprietate de tip [[Bases syntax#Formulas|formulă]], definind-o ca un array de coordonate folosind următoarea formulă: `[latitude, longitude]`.
 
-#### Icons
+#### Iconițe
 
-Add icons to markers by defining a **marker icons** property. For example, you can add a property called `icon` to your notes and give it values like `landmark` or `utensils` from Obsidian's built-in [Lucide library](https://lucide.dev/icons/).
+Adaugă iconițe marcajelor definind o proprietate pentru **iconițele marcajelor**. De exemplu, poți adăuga o proprietate numită `icon` notelor tale și îi poți da valori precum `landmark` sau `utensils` din [biblioteca Lucide](https://lucide.dev/icons/) inclusă în Obsidian.
 
-##### Use a formula to define icons
+##### Folosește o formulă pentru a defini iconițe
 
-Let's say you want all restaurants to have the same icon on the map:
+Să presupunem că vrei ca toate restaurantele să aibă aceeași iconiță pe hartă:
 
-1. Create a note called **Restaurants** and add a property called `icon` with the value `utensils`. 
-2. Give restaurant notes a property called `type` that links to the `[[Restaurants]]` note.
-3. Add a formula property called `Type icon` to your base with the following code:
+1. Creează o notă numită **Restaurants** și adaugă o proprietate numită `icon` cu valoarea `utensils`.
+2. Dă notelor de restaurant o proprietate numită `type` care face legătura către nota `[[Restaurants]]`.
+3. Adaugă o proprietate de tip formulă numită `Type icon` în baza ta, cu următorul cod:
 	```js
 	list(type)[0].asFile().properties.icon
 	```
-4. Choose the `Type icon` as your marker icon in the view settings.
+4. Alege `Type icon` ca iconiță de marcaj în setările vizualizării.
 
-Voilà! Now your map will display icons from the the *type* of the place, not the place itself.
+Voilà! Acum harta ta va afișa iconițe în funcție de *tipul* locului, nu de locul în sine.
 
-#### Colors
+#### Culori
 
-Set the color of markers. Accepts values as RGB `rgb(0,0,0)`, HEX `#000`, or CSS variables like `var(--color-blue)`. Like in the icon example above you can use a formula property to define colors dynamically.
+Stabilește culoarea marcajelor. Acceptă valori sub formă de RGB `rgb(0,0,0)`, HEX `#000`, sau variabile CSS precum `var(--color-blue)`. La fel ca în exemplul cu iconițele de mai sus, poți folosi o proprietate de tip formulă pentru a defini culorile în mod dinamic.
 
-### Background
+### Fundal
 
-#### Map tiles
+#### Plăci de hartă (map tiles)
 
-Map tiles are a standard way to display digital maps. There are several services you can use to customize maps with unique styles, colors, and fonts. Maps support both raster and vector tiles, and accepts most tile URLs, including TileJSON URLs.
+Plăcile de hartă sunt o metodă standard de afișare a hărților digitale. Există mai multe servicii pe care le poți folosi pentru a personaliza hărțile cu stiluri, culori și fonturi unice. Maps acceptă atât plăci raster, cât și vectoriale, și acceptă majoritatea URL-urilor de plăci, inclusiv URL-uri TileJSON.
 
-[OpenFreeMap](https://openfreemap.org/) offers a few styles you can use for free. Try using one of the following URLs in the **Map tiles** setting:
+[OpenFreeMap](https://openfreemap.org/) oferă câteva stiluri pe care le poți folosi gratuit. Încearcă să folosești unul dintre următoarele URL-uri în setarea **Plăci de hartă**:
 
-| Name     | URL                                              |
+| Nume     | URL                                              |
 | -------- | ------------------------------------------------ |
 | Dark     | `https://tiles.openfreemap.org/styles/dark`      |
 | Positron | `https://tiles.openfreemap.org/styles/positron`  |
 | Liberty  | ``https://tiles.openfreemap.org/styles/liberty`` |
-#### Useful links
+#### Legături utile
 
-- [Maputnik](https://maputnik.github.io/) for customizing map tiles.
-- [Protomaps](https://protomaps.com/) for self-hosting map tiles.
-- Other hosted services with free tiers include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
+- [Maputnik](https://maputnik.github.io/) pentru personalizarea plăcilor de hartă.
+- [Protomaps](https://protomaps.com/) pentru găzduirea proprie a plăcilor de hartă.
+- Alte servicii găzduite cu niveluri gratuite includ [MapTiler](https://www.maptiler.com/) și [Mapbox](https://www.mapbox.com/).
 
 
-## Tips
+## Sfaturi
 
-You can link to popular mapping services using [[Formulas]]. For example your pin can show a link to Google Maps using the following formula:
+Poți face legătura către servicii populare de hărți folosind [[Formulas|Formule]]. De exemplu, pinul tău poate afișa o legătură către Google Maps folosind următoarea formulă:
 
 ```js
 link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google Maps")
 ```
 
-## Troubleshooting
+## Depanare
 
-If the map appears blank when you first load the Maps plugin, try [[Update Obsidian|updating the Obsidian installer version]].
+Dacă harta apare goală când încarci pentru prima dată modulul Maps, încearcă să [[Update Obsidian|actualizezi versiunea de instalare a Obsidian]].
 
-The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is open source. You can help by contributing bug reports, feature requests and pull requests.
+Modulul [Maps](https://github.com/obsidianmd/obsidian-maps) este open source. Poți ajuta contribuind cu rapoarte de erori, cereri de funcționalități și pull request-uri.

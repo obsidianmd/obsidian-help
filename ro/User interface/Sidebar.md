@@ -1,80 +1,79 @@
 ---
-localized: null
 permalink: sidebar
 publish: true
 mobile: true
-description: Learn about Obsidian's left and right sidebars and how to manage tabs and tab groups.
+description: Aflați despre barele laterale stânga și dreapta din Obsidian și cum să gestionați filele și grupurile de file.
 ---
 
-Obsidian has two sidebars: a left sidebar and a right sidebar. Sidebars hold tabs created by plugins, such as [[Backlinks]], [[Outgoing links]], and the [[File explorer]]. On desktop, you can also drag notes into the sidebar to keep them visible alongside your main editor. 
+Obsidian are două bare laterale: o bară laterală stângă și o bară laterală dreaptă. Barele laterale conțin file create de module, precum [[Backlinks]], [[Outgoing links]] și [[File explorer]]. Pe desktop, puteți, de asemenea, să trageți notele în bara laterală pentru a le păstra vizibile alături de editorul dvs. principal. 
 
-On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+Pe desktop și tabletele mai mari, bara laterală stângă include [[Ribbon]]. Pe mobil și tabletele mai mici, barele laterale sunt [[#Deschiderea barelor laterale ascunse|restrânse implicit]]. 
 
-## Open hidden sidebars
+## Deschiderea barelor laterale ascunse
 
-### Desktop and larger tablets
+### Desktop și tablete mai mari
 
-On desktop and larger tablets, open a collapsed sidebar by selecting the left expand ![[obsidian-icon-side-bar-left.svg#icon]] or right expand ![[obsidian-icon-side-bar-right.svg#icon]] icon.
+Pe desktop și tabletele mai mari, deschideți o bară laterală restrânsă selectând pictograma de extindere stânga ![[obsidian-icon-side-bar-left.svg#icon]] sau extindere dreapta ![[obsidian-icon-side-bar-right.svg#icon]].
 
-### Mobile and smaller tablets
+### Mobil și tablete mai mici
 
-On mobile and smaller tablets, you can open hidden sidebars in the following ways:
+Pe mobil și tabletele mai mici, puteți deschide barele laterale ascunse în următoarele moduri:
 
-- Swipe left or right
-- Select the left expand ![[obsidian-icon-side-bar-left.svg#icon]] icon (left sidebar only)
-- Use the *Toggle left* or *Toggle right* [[Command palette]] options. 
+- Glisați spre stânga sau spre dreapta
+- Selectați pictograma de extindere stânga ![[obsidian-icon-side-bar-left.svg#icon]] (doar pentru bara laterală stângă)
+- Folosiți opțiunile *Comutare stânga* sau *Comutare dreapta* din [[Command palette]]. 
 
-## Tabs
+## File
 
-By default, plugins create new tabs instead of new [[#Tab groups]].
+Implicit, modulele creează file noi în loc de [[#Tab groups]] noi.
 
-You can switch between tabs by selecting on the icon. A tooltip appears to help you identify tabs.
+Puteți comuta între file selectând pictograma. Un indiciu apare pentru a vă ajuta să identificați filele.
 
-In each pane, you can only see one tab at any given moment. Some actions automatically bring a tab into view. For example, when you select a tag, its tab opens.
+În fiecare panou, puteți vedea o singură filă la un moment dat. Unele acțiuni aduc automat o filă în vizor. De exemplu, atunci când selectați o etichetă, fila acesteia se deschide.
 
-### Open or reopen tabs
+### Deschiderea sau redeschiderea filelor
 
-There are several ways to add tabs to your sidebars:
+Există mai multe modalități de a adăuga file în barele laterale:
 
-- **Enable a plugin**: Many plugins automatically create sidebar tabs when enabled. Go to **Settings → Community plugins** (or **Core plugins**) and enable the plugin for the tab you want.
-- **Run a command**: Use the [[Command palette]] to search for commands that open specific tabs. For example, search for "Backlinks" or "Outgoing links" to open those tabs.
-- **Drag a note** (desktop only): On desktop, you can drag a note from the [[File explorer]] or from an editor tab into the sidebar to open it there.
+- **Activați un modul**: Multe module creează automat file în bara laterală atunci când sunt activate. Accesați **Setări → Module comunitare** (sau **Module de bază**) și activați modulul pentru fila pe care o doriți.
+- **Rulați o comandă**: Folosiți [[Command palette]] pentru a căuta comenzi care deschid file specifice. De exemplu, căutați „Referințe” sau „Legături de ieșire” pentru a deschide acele file.
+- **Trageți o notă** (doar pe desktop): Pe desktop, puteți trage o notă din [[File explorer]] sau dintr-o filă de editor în bara laterală pentru a o deschide acolo.
 
-If you've closed a tab and want to get it back, these same methods will reopen it.
+Dacă ați închis o filă și doriți să o recuperați, aceleași metode o vor redeschide.
 
-### Close tabs
+### Închiderea filelor
 
-Some tabs can be closed via the right-click menu, while others cannot. If you don't want to see a tab that can't be closed, consider disabling the relevant plugin or collapsing the sidebar by selecting the arrow icon.
+Unele file pot fi închise prin meniul de clic dreapta, în timp ce altele nu pot. Dacă nu doriți să vedeți o filă care nu poate fi închisă, luați în considerare dezactivarea modulului aferent sau restrângerea barei laterale selectând pictograma săgeată.
 
-### Rearrange tabs
+### Rearanjarea filelor
 
-You can drag and drop tab icons to rearrange them within a group of tabs.
+Puteți trage și plasa pictogramele filelor pentru a le rearanja în cadrul unui grup de file.
 
-On desktop, you can also drag tabs from the sidebar into the main editor area to open them there.
+Pe desktop, puteți, de asemenea, să trageți filele din bara laterală în zona principală a editorului pentru a le deschide acolo.
 
-### Pin tabs
+### Fixarea filelor
 
-You can pin a tab in the sidebar to control how it updates when you interact with other parts of the app.
+Puteți fixa o filă în bara laterală pentru a controla modul în care se actualizează atunci când interacționați cu alte părți ale aplicației.
 
-To pin or unpin a tab to the sidebar, drag the tab over to or from the sidebar. 
+Pentru a fixa sau anula fixarea unei file în bara laterală, trageți fila către sau dinspre bara laterală. 
 
-The behavior of a pinned tab within the sidebar depends on its content type:
+Comportamentul unei file fixate în bara laterală depinde de tipul conținutului acesteia:
 
-- **Notes and Bases**: A pinned note or base tab stays in place. New notes open as separate tabs in the main editor instead of replacing the pinned tab.
-- **Panes** (like [[Backlinks]] or [[Outgoing links]]): A pinned pane stays focused on the last selected note. Selecting a different note does not update the pinned pane.
+- **Note și Baze**: O filă fixată de tip notă sau bază rămâne pe loc. Notele noi se deschid ca file separate în editorul principal, în loc să înlocuiască fila fixată.
+- **Panouri** (precum [[Backlinks]] sau [[Outgoing links]]): Un panou fixat rămâne concentrat pe ultima notă selectată. Selectarea unei alte note nu actualizează panoul fixat.
 
-For information about pinning tabs in the main editor, see [[Tabs#Pin a tab|Pin a tab]].
+Pentru informații despre fixarea filelor în editorul principal, consultați [[Tabs#Fixarea unei file|Fixarea unei file]].
 
-## Tab groups
+## Grupuri de file
 
-You can have multiple tab groups in the sidebar.
+Puteți avea mai multe grupuri de file în bara laterală.
 
-### Create tab groups
+### Crearea grupurilor de file
 
-To create a new tab group, drag the icon of a tab above or below a current tab group. The highlighted area indicates where the new tab group will be created.
+Pentru a crea un grup de file nou, trageți pictograma unei file deasupra sau dedesubtul unui grup de file existent. Zona evidențiată indică locul unde va fi creat noul grup de file.
 
-### Close tab groups
+### Închiderea grupurilor de file
 
-To close a tab group, you can [[#Close tabs|close all tabs in it]], or drag all tabs in the group by their icons and drop them into existing tab groups.
+Pentru a închide un grup de file, puteți [[#Închiderea filelor|închide toate filele din el]] sau puteți trage toate filele din grup, folosind pictogramele lor, și le puteți plasa în grupuri de file existente.
 
-When only the tab area of a tab group is highlighted, the tab being dragged will merge with other tabs in that group.
+Atunci când doar zona filelor unui grup este evidențiată, fila trasă se va îmbina cu celelalte file din acel grup.

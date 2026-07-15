@@ -1,37 +1,36 @@
 ---
-localized: null
 permalink: publish/media
 cssclasses:
   - soft-embed
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] lets you host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Accepted file formats|accepted file formats]].
+[[Introduction to Obsidian Publish|Obsidian Publish]] îți permite să găzduiești note și diverse tipuri de fișiere media, inclusiv imagini și clipuri video, cu o limită de 4 GB per site. Pentru mai multe detalii, consultă [[Accepted file formats|formatele de fișiere acceptate]].
 
 ![[Publish limitations#^publish-media-limit]]
 
-This page provides tips to help you optimize your media files hosted on Publish.
+Această pagină oferă sfaturi pentru a te ajuta să-ți optimizezi fișierele media găzduite pe Publish.
 
-## Images
+## Imagini
 
-When uploading images directly to Publish, it's best to use `.svg`, `.webp`, and `.png` formats. We also recommend optimizing all images to reduce their file size while preserving visual quality.
+Când încarci imagini direct pe Publish, este cel mai bine să folosești formatele `.svg`, `.webp` și `.png`. De asemenea, îți recomandăm să optimizezi toate imaginile pentru a le reduce dimensiunea fișierului, păstrând totodată calitatea vizuală.
 
-![[Style guide#Optimization]]
+![[Style guide#Optimizare]]
 
-If you're using an external service to host an image, we still recommend sizing the image as needed according to our [[Embed files#Embed an image in a note|embedding instructions]].
+Dacă folosești un serviciu extern pentru a găzdui o imagine, îți recomandăm în continuare să dimensionezi imaginea după nevoie, conform [[Embed files#Embed an image in a note|instrucțiunilor noastre de încorporare]].
 
-## PDFs
+## PDF-uri
 
-PDFs come in various sizes and complexities. To optimize the performance of embedded PDFs in Publish, we recommend [compressing the files](https://www.adobe.com/acrobat/hub/how-to-make-pdfs-smaller.html) and removing any unnecessary images. Most PDF editors offer these capabilities.
+PDF-urile vin în diverse dimensiuni și complexități. Pentru a optimiza performanța PDF-urilor încorporate în Publish, îți recomandăm [să comprimi fișierele](https://www.adobe.com/acrobat/hub/how-to-make-pdfs-smaller.html) și să elimini orice imagini inutile. Majoritatea editoarelor de PDF oferă aceste funcționalități.
 
-## Videos and audio
+## Videoclipuri și audio
 
-Publish is not optimized for hosting large videos, GIFs, or audio files. Embedding internally hosted and linked videos is not recommended if you plan to host numerous files of these types.
+Publish nu este optimizat pentru găzduirea videoclipurilor mari, a GIF-urilor sau a fișierelor audio. Încorporarea videoclipurilor găzduite intern și legate nu este recomandată dacă intenționezi să găzduiești numeroase fișiere de acest tip.
 
-For hosting a limited number of files, we recommend using the following formats:
+Pentru găzduirea unui număr limitat de fișiere, îți recomandăm să folosești următoarele formate:
 
 **Video**
 - `.mp4`
 - `.webm`
-- `.hevc` or `.av1` _(Note: Not widely supported)_
+- `.hevc` sau `.av1` _(Notă: nu este pe larg suportat)_
 
 Audio
 - `.aac`

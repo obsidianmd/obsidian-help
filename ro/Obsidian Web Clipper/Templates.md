@@ -1,69 +1,68 @@
 ---
-localized: null
 permalink: web-clipper/templates
-description: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
+description: Învață să creezi șabloane care captează și organizează automat metadatele paginilor web cu Web Clipper.
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] allows you to create templates that automatically capture and organize metadata from web pages. Example templates are available in the [clipper-templates repo](https://github.com/kepano/clipper-templates). 
+[[Introduction to Obsidian Web Clipper|Web Clipper]] îți permite să creezi șabloane care captează și organizează automat metadate din paginile web. Șabloane exemplu sunt disponibile în [repozitoriul clipper-templates](https://github.com/kepano/clipper-templates). 
 
-## Create or edit a template
+## Creează sau editează un șablon
 
-To **create** a template go to Web Clipper settings and click the **New template** button in the sidebar. You can also **duplicate** a template in the **More** actions menu in the top right corner.
+Pentru a **crea** un șablon, mergi la setările Web Clipper și dă clic pe butonul **Șablon nou** din bara laterală. Poți de asemenea **duplica** un șablon din meniul de acțiuni **Mai multe**, din colțul din dreapta sus.
 
-To **edit** a template choose a template from the sidebar. Your changes will be saved automatically.
+Pentru a **edita** un șablon, alege un șablon din bara laterală. Modificările tale vor fi salvate automat.
 
-Templates make use of [[Variables]] and [[Filters]], which allow you to tailor how content will be saved.
+Șabloanele folosesc [[Variables|variabile]] și [[Filters|filtre]], care îți permit să adaptezi modul în care va fi salvat conținutul.
 
-## Import and export Web Clipper templates
+## Importă și exportă șabloane Web Clipper
 
-To import a template:
+Pentru a importa un șablon:
 
-1. Open the extension and click the **[[Settings]]** cog icon.
-2. Go to any template in the list.
-3. Click **Import** in the top right or drag and drop your `.json` template file(s) anywhere in the template area.
+1. Deschide extensia și dă clic pe pictograma roată dințată **[[Settings|Setări]]**.
+2. Mergi la orice șablon din listă.
+3. Dă clic pe **Importă** din colțul din dreapta sus sau trage și plasează fișierul (fișierele) `.json` cu șablonul oriunde în zona șablonului.
 
-To export a template click **Export** in the top right. This will download the template `.json` file. You can also copy the template data to your clipboard via the **More** menu.
+Pentru a exporta un șablon, dă clic pe **Exportă** din colțul din dreapta sus. Aceasta va descărca fișierul `.json` al șablonului. Poți de asemenea copia datele șablonului în clipboard prin meniul **Mai multe**.
 
-## Template settings
+## Setările șablonului
 
-### Behavior
+### Comportament
 
-Define how content from Web Clipper will be added to Obsidian:
+Definește modul în care conținutul din Web Clipper va fi adăugat în Obsidian:
 
-- **Create a new note**
-- **Add to an existing note**, at the top or bottom
-- **Add to daily note**, at the top or bottom (requires the [[daily notes]] plugin to be active)
+- **Creează o notă nouă**
+- **Adaugă la o notă existentă**, la început sau la sfârșit
+- **Adaugă la nota zilnică**, la început sau la sfârșit (necesită ca modulul [[daily notes|note zilnice]] să fie activ)
 
-### Automatically trigger a template
+### Declanșează automat un șablon
 
-Template triggers allow you to automatically select a template based on the current page URL or [schema.org](https://schema.org/) data. You can define multiple rules for each template, separated by a new line.
+Declanșatoarele de șablon îți permit să selectezi automat un șablon în funcție de adresa URL a paginii curente sau de datele [schema.org](https://schema.org/). Poți defini mai multe reguli pentru fiecare șablon, separate printr-o linie nouă.
 
-The first match in your template list determines which template is used. You can drag templates up and down in Web Clipper settings to change the order in which templates are matched.
+Prima potrivire din lista ta de șabloane determină ce șablon este folosit. Poți trage șabloanele în sus și în jos în setările Web Clipper pentru a schimba ordinea în care sunt potrivite.
 
-> [!tip]- Set a fallback template
-> If a page doesn't match any trigger rule, Web Clipper uses the first template in your list. Keep the template you want as your fallback at the top of the list to ensure it's used for pages without a specific match.
+> [!tip]- Setează un șablon de rezervă
+> Dacă o pagină nu se potrivește cu nicio regulă de declanșare, Web Clipper folosește primul șablon din lista ta. Păstrează șablonul pe care îl vrei ca rezervă în partea de sus a listei pentru a te asigura că este folosit pentru pagini fără o potrivire specifică.
 
-#### Simple URL matching
+#### Potrivire simplă a URL-ului
 
-Simple matching triggers a template if the current page URL *starts with* the given pattern. For example:
+Potrivirea simplă declanșează un șablon dacă adresa URL a paginii curente *începe cu* modelul dat. De exemplu:
 
-- `https://obsidian.md` will match any URL that starts with this text.
+- `https://obsidian.md` se va potrivi cu orice URL care începe cu acest text.
 
-#### Regular expression matching
+#### Potrivire cu expresii regulate
 
-You can trigger templates based on more complex URL patterns using regular expressions. Enclose your regex pattern in forward slashes (`/`). Remember to escape special characters in regex patterns (like `.` and `/`) with a backslash (`\`). For example:
+Poți declanșa șabloane pe baza unor modele de URL mai complexe folosind expresii regulate. Încadrează-ți modelul regex între bare oblice (`/`). Nu uita să pui o bară oblică inversă (`\`) înaintea caracterelor speciale din modelele regex (precum `.` și `/`). De exemplu:
 
-- `/^https:\/\/www\.imdb\.com\/title\/tt\d+\/reference\/?$/` will match any IMDB reference page.
+- `/^https:\/\/www\.imdb\.com\/title\/tt\d+\/reference\/?$/` se va potrivi cu orice pagină de referință IMDB.
 
-#### Schema.org matching
+#### Potrivire schema.org
 
-You can trigger templates based on [schema.org](https://schema.org/) data present on the page. Use the `schema:` prefix followed by the schema key you want to match. You can optionally specify an expected value. For example:
+Poți declanșa șabloane pe baza datelor [schema.org](https://schema.org/) prezente pe pagină. Folosește prefixul `schema:` urmat de cheia de schemă pe care vrei să o potrivești. Poți specifica opțional o valoare așteptată. De exemplu:
 
-- `schema:@Recipe` will match pages where the schema type is "Recipe".
-- `schema:@Recipe.name` will match pages where `@Recipe.name` is present.
-- `schema:@Recipe.name=Cookie` will match pages where `@Recipe.name` is "Cookie".
+- `schema:@Recipe` se va potrivi cu paginile unde tipul de schemă este „Recipe”.
+- `schema:@Recipe.name` se va potrivi cu paginile unde `@Recipe.name` este prezent.
+- `schema:@Recipe.name=Cookie` se va potrivi cu paginile unde `@Recipe.name` este „Cookie”.
 
-Schema.org values can also be used to [[Variables#Schema.org variables|pre-populate data in templates]].
+Valorile schema.org pot fi de asemenea folosite pentru a [[Variables#Schema.org variables|popula automat date în șabloane]].
 
-### Interpreter context
+### Contextul Interpreter
 
-When [[Interpreter|Interpreter]] is enabled, you can use [[Variables#Prompt variables|prompt variables]] to extract page content with natural language. For each template you can define the [[Interpreter#Context|context]] that Interpreter has access to. 
+Când [[Interpreter|Interpreter]] este activat, poți folosi [[Variables#Prompt variables|variabile prompt]] pentru a extrage conținutul paginii folosind limbaj natural. Pentru fiecare șablon poți defini [[Interpreter#Context|contextul]] la care Interpreter are acces. 

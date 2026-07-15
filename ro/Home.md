@@ -1,55 +1,54 @@
 ---
-localized: null
 permalink: /
 cssclasses:
   - list-cards
   - hide-title
   - list-cards-mobile-full
 ---
-# Obsidian Help
+# Ajutor Obsidian
 
-Welcome to the official Obsidian Help site, where you can find tips and guides on how to use [Obsidian](https://obsidian.md). For API documentation visit the [Obsidian Developer Docs](https://docs.obsidian.md/).
+Bine ai venit pe site-ul oficial de ajutor Obsidian, unde poți găsi sfaturi și ghiduri despre cum să folosești [Obsidian](https://obsidian.md). Pentru documentația API vizitează [Obsidian Developer Docs](https://docs.obsidian.md/).
 
 
-## Get started
+## Primii pași
 
-Learn the basics of note-taking with Obsidian:
+Învață elementele de bază ale notării cu Obsidian:
 
-1. [[Download and install Obsidian]]
-2. [[Create a vault]]
-3. [[Create your first note]]
-4. [[Link notes]]
-5. [[Import notes]]
-6. [[Sync your notes across devices]]
+1. [[Download and install Obsidian|Descarcă și instalează Obsidian]]
+2. [[Create a vault|Creează un depozit]]
+3. [[Create your first note|Creează prima ta notă]]
+4. [[Link notes|Leagă note]]
+5. [[Import notes|Importă note]]
+6. [[Sync your notes across devices|Sincronizează-ți notele pe toate dispozitivele]]
 
-## Extend Obsidian
+## Extinde Obsidian
 
-With thousands of plugins and themes, you can shape Obsidian to fit your way of thinking.
+Cu mii de plugin-uri și teme, poți modela Obsidian după modul tău de gândire.
 
-- [[Core plugins]]
-	- Choose which built-in features of Obsidian you want to turn on or off.
-- [[Community plugins]]
-	- Enable more workflows and capabilities with features built by Obsidian users.
-- [[Themes]]
-	- Customize the look and feel of Obsidian with community-made color schemes.
-- [[CSS snippets]]
-	- Make small changes to the interface on top of your Obsidian theme.
+- [[Core plugins|Plugin-uri de bază]]
+	- Alege ce funcții native ale Obsidian vrei să activezi sau să dezactivezi.
+- [[Community plugins|Plugin-uri ale comunității]]
+	- Activează mai multe fluxuri de lucru și capabilități cu funcții create de utilizatorii Obsidian.
+- [[Themes|Teme]]
+	- Personalizează aspectul Obsidian cu scheme de culori create de comunitate.
+- [[CSS snippets|Fragmente CSS]]
+	- Fă mici modificări interfeței peste tema ta Obsidian.
 - [[Introduction to Obsidian Web Clipper|Web Clipper]]
-	- Highlight web pages and save content to Obsidian using our browser extension.
+	- Evidențiază pagini web și salvează conținut în Obsidian folosind extensia noastră de browser.
 - [[Obsidian CLI]]
-	- Control Obsidian from your terminal using the command line interface.
+	- Controlează Obsidian din terminal folosind interfața de linie de comandă.
 
-## Add-on services
+## Servicii suplimentare
 
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
-	- A safe and secure way to synchronize your notes across any device and OS.
+	- O modalitate sigură și securizată de a-ți sincroniza notele pe orice dispozitiv și sistem de operare.
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
-	- Publish your notes as a wiki, knowledge base, documentation, or digital garden.
+	- Publică-ți notele ca wiki, bază de cunoștințe, documentație sau grădină digitală.
 
-## Contribute
+## Contribuie
 
-If you find any mistakes or missing information on this site, you can contribute improvements and translations via [the GitHub repo](https://github.com/obsidianmd/obsidian-docs/).
+Dacă găsești greșeli sau informații lipsă pe acest site, poți contribui cu îmbunătățiri și traduceri prin [repository-ul GitHub](https://github.com/obsidianmd/obsidian-docs/).
 
-If you want to contribute to Obsidian financially, consider a [[Catalyst license]] which offers early access to beta versions, or a [[Commercial license]] to show your organization's support.
+Dacă vrei să contribui financiar la Obsidian, ia în considerare o [[Catalyst license|licență Catalyst]], care oferă acces timpuriu la versiunile beta, sau o [[Commercial license|licență comercială]] pentru a arăta susținerea organizației tale.
 
-See the [[Credits]] to get to know all the amazing people who make Obsidian possible.
+Consultă [[Credits|Mulțumiri]] pentru a-i cunoaște pe toți oamenii minunați care fac posibil Obsidian.

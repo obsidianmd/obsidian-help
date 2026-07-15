@@ -1,5 +1,4 @@
 ---
-localized: null
 permalink: create-note
 cssclasses:
   - soft-embed
@@ -7,15 +6,15 @@ publish: true
 mobile: false
 description: null
 ---
-Notes in Obsidian are stored as plain text files. This means your data is durable and not locked into a proprietary format. By writing your notes in plain text, they'll outlive any app—even Obsidian itself.
+Notele din Obsidian sunt stocate ca fișiere text simplu. Aceasta înseamnă că datele dumneavoastră sunt durabile și nu sunt blocate într-un format proprietar. Scriindu-vă notele în text simplu, acestea vor supraviețui oricărei aplicații — chiar și Obsidian însuși.
 
-## Create a new note
+## Creați o notă nouă
 
-To create a new note:
+Pentru a crea o notă nouă:
 
-1. Press `Ctrl+N` (or `Cmd+N` on macOS) on your keyboard.
-2. Type "Obsidian" as the name of your note and press `Enter`.
-3. Copy and paste the following text into your note:
+1. Apăsați `Ctrl+N` (sau `Cmd+N` pe macOS) de pe tastatură.
+2. Introduceți „Obsidian” ca nume al notei și apăsați `Enter`.
+3. Copiați și lipiți următorul text în nota dumneavoastră:
 
 ```md
 Obsidian is the private and flexible writing app that adapts to the way you think.
@@ -23,22 +22,22 @@ Obsidian is the private and flexible writing app that adapts to the way you thin
 
 ![[Manage notes#^blockquote-system-limitation]]
 
-## Formatting text
+## Formatarea textului
 
-Obsidian supports [[Basic formatting syntax|Markdown]] syntax to make text bold, italic, and add links and headings.
+Obsidian acceptă sintaxa [[Basic formatting syntax|Markdown]] pentru a face textul aldin, cursiv și pentru a adăuga legături și titluri.
 
-1. Copy and paste the following text at the top of the Obsidian note:
+1. Copiați și lipiți următorul text în partea de sus a notei Obsidian:
 
-   > \# Sharpen your thinking.
+   > \# Ascuțiți-vă gândirea.
 
-   The hash symbol (`#`) turns a line of text into a heading.
+   Simbolul diez (`#`) transformă o linie de text într-un titlu.
 
-2. In your note, select any text and press `Ctrl+B` (or `Cmd+B` on macOS) to make it bold.
+2. În nota dumneavoastră, selectați orice text și apăsați `Ctrl+B` (sau `Cmd+B` pe macOS) pentru a-l face aldin.
 
-To learn more about how to format your notes using Markdown, refer to [[Basic formatting syntax]].
+Pentru a afla mai multe despre cum să vă formatați notele folosind Markdown, consultați [[Basic formatting syntax]].
 
-## Learn more
+## Aflați mai multe
 
-Learn how to [[Link notes|link notes]] to create a network of connected thoughts.
+Aflați cum să [[Link notes|conectați notele]] pentru a crea o rețea de gânduri conectate.
 
-You may also want to check out the [[Sandbox vault]] to explore other features of the application.
+De asemenea, ați putea vizita [[Sandbox vault]] pentru a explora alte funcții ale aplicației.

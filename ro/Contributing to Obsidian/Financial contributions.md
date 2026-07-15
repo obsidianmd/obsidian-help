@@ -1,13 +1,12 @@
 ---
-localized: null
 permalink: financial-contributions
 ---
-This page explains the ways you can support the development of Obsidian financially.
+Această pagină explică modurile în care poți susține financiar dezvoltarea Obsidian.
 
-One of the best ways to support the team is through one or more of our paid products.
+Una dintre cele mai bune modalități de a susține echipa este printr-unul sau mai multe dintre produsele noastre cu plată.
 
-- If you need to sync notes across your devices, consider a subscription for [[Introduction to Obsidian Sync|Obsidian Sync]].
-- If you want to publish your notes to the world, consider a subscription for [[Introduction to Obsidian Publish|Obsidian Publish]].
-- If you use Obsidian at work, consider supporting Obsidian by purchasing a [[Commercial license|Commercial license]].
+- Dacă ai nevoie să sincronizezi note pe mai multe dispozitive, ia în considerare un abonament pentru [[Introduction to Obsidian Sync|Obsidian Sync]].
+- Dacă vrei să îți publici notele pentru lume, ia în considerare un abonament pentru [[Introduction to Obsidian Publish|Obsidian Publish]].
+- Dacă folosești Obsidian la locul de muncă, ia în considerare susținerea Obsidian prin achiziționarea unei [[Commercial license|licențe comerciale]].
 
-We understand that you might not be interested in any of our other paid products right now, though we'd love to know how we can change that! If you still want to support Obsidian, consider getting a [[Catalyst license]].
+Înțelegem că s-ar putea să nu fii interesat acum de niciunul dintre celelalte produse cu plată, deși ne-ar plăcea să știm cum putem schimba acest lucru! Dacă tot vrei să susții Obsidian, ia în considerare obținerea unei [[Catalyst license]].
