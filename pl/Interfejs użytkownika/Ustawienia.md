@@ -10,11 +10,11 @@ Ustawienia pozwalają dostosować Obsidian do własnych potrzeb. Konfiguruj ogó
 
 ### Komputer
 
-Na [[Pasek boczny#Otwieranie ukrytych pasków bocznych|lewym pasku bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
+Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|lewym panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
 
 ### Urządzenia mobilne
 
-Na lewym pasku bocznym wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]].
+Na lewym panelu bocznym wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]].
 
 ## Organizacja ustawień
 
@@ -218,7 +218,7 @@ Automatycznie generuj odnośniki wiki dla `[[łączy]]` i `![[obrazów]]` zamias
 
 #### Pokaż wszystkie typy plików
 
-Pokaż pliki z dowolnym rozszerzeniem, nawet jeśli Obsidian nie może ich otworzyć, dzięki czemu można utworzyć do nich łącza i zobaczyć je w eksploratorze plików i w oknie szybkiego wyboru.
+Pokaż pliki z dowolnym rozszerzeniem, nawet jeśli Obsidian nie może ich otworzyć, dzięki czemu można utworzyć do nich łącza i zobaczyć je w przeglądarce plików i w oknie szybkiego wyboru.
 
 ### Kosz
 
@@ -238,7 +238,7 @@ Co zrobić z plikami po ich usunięciu. Opcje obejmują:
 
 #### Pominięte pliki
 
-Pominięte pliki będą ukryte w [[Szukaj|wyszukiwaniu]], [[Podgląd grafu|widoku grafu]] oraz w niepowiązanych wzmiankach ([[Linki zwrotne]] i [[Łącza wychodzące]]), a także mniej widoczne w [[Okno szybkiego wyboru|szybkim przełączniku]] i podpowiedziach łączy. Wybierz **Zarządzaj**, aby skonfigurować pominięte pliki.
+Pominięte pliki będą ukryte w [[Wyszukiwarka|wyszukiwaniu]], [[Podgląd grafu|podglądu grafu]] oraz w niepowiązanych wzmiankach ([[Linki zwrotne]] i [[Łącza wychodzące]]), a także mniej widoczne w [[Okno szybkiego wyboru|szybkim przełączniku]] i podpowiedziach łączy. Wybierz **Zarządzaj**, aby skonfigurować pominięte pliki.
 
 #### Zastąp folder konfiguracji
 
@@ -308,16 +308,16 @@ Wyświetla nazwę pliku jako edytowalny tytuł w linii z zawartością pliku. Ty
 
 Wyświetla tytuł na górze każdej karty.
 
-#### Wyświetl menu wstążkowe
+#### Wyświetl menu wstążki
 
-Wyświetla pionowy pasek narzędzi z boku okna. Dowiedz się więcej o [[Menu wstążkowe|wstążce]].
+Wyświetla pionowy pasek narzędzi z boku okna. Dowiedz się więcej o [[Wstążka|wstążce]].
 
-#### Konfiguracja menu wstążkowego
+#### Konfiguracja menu wstążki
 
-Wybierz elementy wyświetlane w menu wstążkowym. Wybierz **Zarządzaj**, aby dostosować.
+Wybierz elementy wyświetlane w menu wstążki. Wybierz **Zarządzaj**, aby dostosować.
 
 > [!info]+ Konfiguracja wstążki na urządzeniach mobilnych
-> Na urządzeniach mobilnych dostosowywanie wstążki działa inaczej. Zobacz [[Menu wstążkowe#Urządzenia mobilne|Dostosowywanie wstążki na urządzeniach mobilnych]], aby uzyskać szczegóły.
+> Na urządzeniach mobilnych dostosowywanie wstążki działa inaczej. Zobacz [[Wstążka#Urządzenia mobilne|Dostosowywanie wstążki na urządzeniach mobilnych]], aby uzyskać szczegóły.
 
 ### Zaawansowane
 

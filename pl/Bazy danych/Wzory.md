@@ -2,7 +2,7 @@
 permalink: formulas
 description: 'Formuły pozwalają tworzyć obliczane właściwości na podstawie danych z innych właściwości. Możesz wykonywać obliczenia, manipulować tekstem, pracować z datami i nie tylko.'
 ---
-Wzory umożliwiają tworzenie obliczanych atrybutów w [[Wprowadzenie do Baz danych|Bazach danych]] z wykorzystaniem danych z innych [[Atrybuty|atrybutów]]. Możesz wykonywać obliczenia, manipulować tekstem, pracować z datami i nie tylko.
+Wzory umożliwiają tworzenie obliczanych atrybutów w [[Wprowadzenie do baz danych|bazach danych]] z wykorzystaniem danych z innych [[Atrybuty|atrybutów]]. Możesz wykonywać obliczenia, manipulować tekstem, pracować z datami i nie tylko.
 
 ## Co potrafią wzory
 
@@ -70,7 +70,7 @@ W wzorach możesz odwoływać się do różnych typów atrybutów:
 - `price > 0 && quantity > 0` — i
 - `urgent || important` — lub
 
-Dowiedz się więcej w [[Składnia Baz danych#Operatory|Składnia Baz danych]].
+Dowiedz się więcej w [[Składnia baz danych#Operatory|Składnia baz danych]].
 
 ### Używanie funkcji
 

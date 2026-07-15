@@ -11,7 +11,7 @@ Informacje o synchronizowaniu notatek między urządzeniami znajdziesz w artykul
 
 ## Widżety
 
-Obsidian na iOS oferuje kilka widżetów umożliwiających szybkie działania na skarbcu.
+Obsidian na iOS oferuje kilka widżetów umożliwiających szybkie działania na sejfie.
 
 > [!note] Uwaga
 > Widżety są dostępne na iOS i iPadOS 18 i nowszych.
@@ -36,7 +36,7 @@ Widżety ekranu głównego umożliwiają:
 
 ### Dostosowywanie widżetów
 
-Możesz dostosować widżety do swojego przepływu pracy, np. wybierając skarbiec lub wskazując konkretną notatkę do otwarcia.
+Możesz dostosować widżety do swojego przepływu pracy, np. wybierając sejf lub wskazując konkretną notatkę do otwarcia.
 
 - **Widżety ekranu głównego:** Dotknij i przytrzymaj widżet, a następnie wybierz **Edytuj widżet**.
 - **Widżety ekranu blokady:** Dotknij i przytrzymaj ekran blokady, dotknij **Dostosuj**, wybierz ekran blokady, a następnie dotknij widżetu, który chcesz dostosować.
@@ -54,8 +54,8 @@ Opcje konfiguracji widżetu **Podgląd notatki**:
 
 Obsidian integruje się z aplikacją Skróty firmy Apple, umożliwiając tworzenie zaawansowanych automatyzacji. Dostępne skróty obejmują:
 
-- **Otwórz notatkę** — Otwiera konkretną notatkę w skarbcu
-- **Stwórz nową notatkę** — Tworzy nową notatkę w skarbcu
+- **Otwórz notatkę** — Otwiera konkretną notatkę w sejfie
+- **Stwórz nową notatkę** — Tworzy nową notatkę w sejfie
 - **Otwórz dziennik** — Przechodzi bezpośrednio do dzisiejszego dziennika
 - **Przechwyć do dziennika** — Dołącza lub wstawia tekst do dziennika bez otwierania aplikacji Obsidian
 - **Przechwyć do zakładki** — Dołącza lub wstawia tekst do notatki z zakładek bez otwierania aplikacji Obsidian
@@ -64,18 +64,20 @@ Skróty przechwytywania są szczególnie przydatne do szybkiego tworzenia notate
 
 ## Arkusz udostępniania
 
-Arkusz udostępniania Obsidian pozwala przechwytywać treści ze stron internetowych. Działa również z aplikacjami takimi jak YouTube i inne sieci społecznościowe.
+Obsidian oferuje rozszerzenie arkusza udostępniania, którego możesz używać w innych aplikacjach do wysyłania linków, tekstu, obrazów lub dokumentów do sejfu Obsidian.
 
 > [!note]
 > - Natywny arkusz udostępniania jest dostępny na iOS i iPadOS 18 i nowszych.
 > - Funkcje arkusza udostępniania opisane w tej sekcji wymagają Obsidian 1.13.0 lub nowszego.
 
-Użyj arkusza udostępniania, aby szybko wysłać treść z innej aplikacji do Obsidian:
-1. W innej aplikacji dotknij przycisku **Udostępnij**.
-2. Wybierz **Obsidian**.
-3. Wybierz lokalizację.
-4. Przejrzyj lub edytuj przechwyconą treść.
-5. Dotknij **Zapisz**.
+1. Otwórz stronę internetową w Safari, a następnie dotknij przycisku **Udostępnij**.
+2. W menu udostępniania przesuń palcem w lewo po rzędzie aplikacji, dotknij **Więcej**, a następnie dotknij **Edytuj**.
+3. Włącz **Obsidian**, aby pojawiło się w menu udostępniania.
+4. Dotknij przycisku **Dodaj** obok Obsidian, aby dodać go do **Ulubionych**.
+5. (Opcjonalne) Przeciągnij przycisk **Zmień kolejność** obok Obsidian, aby zmienić jego pozycję w Ulubionych.
+6. Dotknij **Gotowe**.
+7. Z powrotem w menu udostępniania Safari dotknij **Obsidian**.
+8. Po dotknięciu Obsidian pojawi się arkusz udostępniania Obsidian, umożliwiający udostępnienie wybranej treści do sejfu.
 
 ![[ios-share-sheet-extension.png|400]]
 
@@ -170,5 +172,5 @@ Możesz używać poleceń głosowych Siri do interakcji z Obsidian:
 
 Gdy wyszukujesz „Obsidian" w iOS Spotlight, zobaczysz szybkie akcje:
 - Nowa notatka
-- Szukaj
+- Wyszukiwarka
 - Dziennik

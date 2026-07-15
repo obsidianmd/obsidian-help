@@ -66,7 +66,7 @@ obsidian daily
 # Dodaj zadanie do dziennika
 obsidian daily:append content="- [ ] Kupić zakupy"
 
-# Przeszukaj skarbiec
+# Przeszukaj sejf
 obsidian search query="notatki ze spotkań"
 
 # Odczytaj aktywny plik
@@ -78,7 +78,7 @@ obsidian tasks daily
 # Utwórz nową notatkę z szablonu
 obsidian create name="Podróż do Paryża" template=Podróż
 
-# Wylistuj wszystkie tagi w skarbcu z liczbą wystąpień
+# Wylistuj wszystkie tagi w sejfie z liczbą wystąpień
 obsidian tags counts
 
 # Porównaj dwie wersje pliku
@@ -134,25 +134,25 @@ Dla treści wieloliniowej użyj `\n` jako nowej linii. Użyj `\t` jako tabulator
 obsidian create name=Notatka content="# Tytuł\n\nTreść tekstu"
 ```
 
-### Wskazanie skarbca
+### Wskazanie sejfu
 
-Jeśli bieżący katalog roboczy terminala jest folderem skarbca, ten skarbiec jest używany domyślnie. W przeciwnym razie używany jest aktualnie aktywny skarbiec.
+Jeśli bieżący katalog roboczy terminala jest folderem sejfu, ten sejf jest używany domyślnie. W przeciwnym razie używany jest aktualnie aktywny sejf.
 
-Użyj `vault=<nazwa>` lub `vault=<id>`, aby wskazać konkretny skarbiec. Musi to być pierwszy parametr przed poleceniem:
+Użyj `vault=<nazwa>` lub `vault=<id>`, aby wskazać konkretny sejf. Musi to być pierwszy parametr przed poleceniem:
 
 ```shell
 obsidian vault=Notatki daily
-obsidian vault="Mój Skarbiec" search query="test"
+obsidian vault="Mój Sejf" search query="test"
 ```
 
-W TUI użyj `vault:open <nazwa>` lub `<id>`, aby przełączyć się na inny skarbiec.
+W TUI użyj `vault:open <nazwa>` lub `<id>`, aby przełączyć się na inny sejf.
 
 ### Wskazanie pliku
 
 Wiele poleceń akceptuje parametry `file` i `path`, aby wskazać konkretny plik. Jeśli żaden nie zostanie podany, polecenie domyślnie odnosi się do aktywnego pliku.
 
 - `file=<nazwa>` rozwiązuje plik używając tej samej rozdzielczości linków co [[Łącza wewnętrzne|odnośniki wiki]], dopasowując po nazwie pliku bez wymagania pełnej ścieżki lub rozszerzenia.
-- `path=<ścieżka>` wymaga dokładnej ścieżki od katalogu głównego skarbca, np. `folder/notatka.md`.
+- `path=<ścieżka>` wymaga dokładnej ścieżki od katalogu głównego sejfu, np. `folder/notatka.md`.
 
 ```shell
 # Te polecenia są równoważne, jeśli "Przepis.md" jest jedynym plikiem o tej nazwie
@@ -195,11 +195,11 @@ Uruchom ponownie aplikację.
 
 ## Bazy danych
 
-Polecenia dla [[Wprowadzenie do Baz danych|Baz danych]].
+Polecenia dla [[Wprowadzenie do baz danych|baz danych]].
 
 ### `bases`
 
-Wylistuj wszystkie pliki `.base` w skarbcu.
+Wylistuj wszystkie pliki `.base` w sejfie.
 
 ### `base:views`
 
@@ -441,7 +441,7 @@ modified   1700001000000
 
 ### `files`
 
-Wylistuj pliki w skarbcu.
+Wylistuj pliki w sejfie.
 
 ```bash
 folder=<path>      # filtruj po folderze
@@ -461,7 +461,7 @@ info=files|folders|size  # zwróć tylko konkretne informacje
 
 ### `folders`
 
-Wylistuj foldery w skarbcu.
+Wylistuj foldery w sejfie.
 
 ```bash
 folder=<path>      # filtruj po folderze nadrzędnym
@@ -530,7 +530,7 @@ inline             # dołącz bez nowej linii
 
 ### `move`
 
-Przenieś lub zmień nazwę pliku (domyślnie: aktywny plik). Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|ustawieniach skarbca]].
+Przenieś lub zmień nazwę pliku (domyślnie: aktywny plik). Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|ustawieniach sejfu]].
 
 ```bash
 file=<name>        # nazwa pliku
@@ -540,7 +540,7 @@ to=<path>          # (required) folder docelowy lub ścieżka
 
 ### `rename`
 
-Zmień nazwę pliku (domyślnie: aktywny plik). Rozszerzenie pliku jest zachowywane automatycznie, jeśli zostanie pominięte w nowej nazwie. Użyj [[#`move`|move]], aby zmienić nazwę i przenieść plik jednocześnie. Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|ustawieniach skarbca]].
+Zmień nazwę pliku (domyślnie: aktywny plik). Rozszerzenie pliku jest zachowywane automatycznie, jeśli zostanie pominięte w nowej nazwie. Użyj [[#`move`|move]], aby zmienić nazwę i przenieść plik jednocześnie. Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|ustawieniach sejfu]].
 
 ```bash
 file=<name>        # nazwa pliku
@@ -589,7 +589,7 @@ total              # zwróć liczbę łączy
 
 ### `unresolved`
 
-Wylistuj nierozwiązane łącza w skarbcu.
+Wylistuj nierozwiązane łącza w sejfie.
 
 ```bash
 total              # zwróć liczbę nierozwiązanych łączy
@@ -723,7 +723,7 @@ Polecenia związane z [[Atrybuty]].
 
 ### `aliases`
 
-Wylistuj aliasy w skarbcu. Użyj `active` lub `file`/`path`, aby pokazać aliasy dla konkretnego pliku.
+Wylistuj aliasy w sejfie. Użyj `active` lub `file`/`path`, aby pokazać aliasy dla konkretnego pliku.
 
 ```bash
 file=<name>        # nazwa pliku
@@ -736,7 +736,7 @@ active             # pokaż aliasy aktywnego pliku
 
 ### `properties`
 
-Wylistuj atrybuty w skarbcu. Użyj `active` lub `file`/`path`, aby pokazać atrybuty dla konkretnego pliku.
+Wylistuj atrybuty w sejfie. Użyj `active` lub `file`/`path`, aby pokazać atrybuty dla konkretnego pliku.
 
 ```bash
 file=<name>        # pokaż atrybuty dla pliku
@@ -860,13 +860,13 @@ Odczytaj losową notatkę (zawiera ścieżkę).
 folder=<path>      # ogranicz do folderu
 ```
 
-## Szukaj
+## Wyszukiwarka
 
-Polecenia dla [[Szukaj]].
+Polecenia dla [[Wyszukiwarka]].
 
 ### `search`
 
-Przeszukaj skarbiec pod kątem tekstu. Zwraca pasujące ścieżki plików.
+Przeszukaj sejf pod kątem tekstu. Zwraca pasujące ścieżki plików.
 
 ```bash
 query=<text>       # (required) zapytanie wyszukiwania
@@ -904,7 +904,7 @@ query=<text>       # początkowe zapytanie wyszukiwania
 Polecenia dla [[Wprowadzenie do Obsidian Sync|Obsidian Sync]].
 
 > [!tip] Synchronizacja bez aplikacji desktopowej
-> Te polecenia kontrolują Sync w uruchomionej aplikacji Obsidian. Aby synchronizować skarbce z wiersza poleceń bez aplikacji desktopowej, zobacz [[Bezobsługowy Sync]].
+> Te polecenia kontrolują Sync w uruchomionej aplikacji Obsidian. Aby synchronizować sejfy z wiersza poleceń bez aplikacji desktopowej, zobacz [[Bezobsługowy Sync]].
 
 ### `sync`
 
@@ -973,7 +973,7 @@ Polecenia dla [[Tagi]].
 
 ### `tags`
 
-Wylistuj tagi w skarbcu. Użyj `active` lub `file`/`path`, aby pokazać tagi dla konkretnego pliku.
+Wylistuj tagi w sejfie. Użyj `active` lub `file`/`path`, aby pokazać tagi dla konkretnego pliku.
 
 ```bash
 file=<name>        # nazwa pliku
@@ -1003,7 +1003,7 @@ Polecenia do zarządzania zadaniami.
 
 ### `tasks`
 
-Wylistuj zadania w skarbcu. Użyj `active` lub `file`/`path`, aby pokazać zadania dla konkretnego pliku.
+Wylistuj zadania w sejfie. Użyj `active` lub `file`/`path`, aby pokazać zadania dla konkretnego pliku.
 
 ```bash
 file=<name>        # filtruj po nazwie pliku
@@ -1022,10 +1022,10 @@ daily              # pokaż zadania z dziennika
 **Przykłady:**
 
 ```bash
-# Wylistuj wszystkie zadania w skarbcu
+# Wylistuj wszystkie zadania w sejfie
 tasks
 
-# Wylistuj nieukończone zadania w skarbcu
+# Wylistuj nieukończone zadania w sejfie
 tasks todo
 
 # Wylistuj ukończone zadania z konkretnego pliku
@@ -1203,11 +1203,11 @@ paneType=tab|split|window    # typ panelu do otwarcia
 open               # otwórz plik po utworzeniu
 ```
 
-## Skarbiec
+## Sejf
 
 ### `vault`
 
-Pokaż informacje o skarbcu.
+Pokaż informacje o sejfie.
 
 ```bash
 info=name|path|files|folders|size  # zwróć tylko konkretne informacje
@@ -1215,19 +1215,19 @@ info=name|path|files|folders|size  # zwróć tylko konkretne informacje
 
 ### `vaults`
 
-Wylistuj znane skarbce.
+Wylistuj znane sejfy.
 
 ```bash
-total              # zwróć liczbę skarbców
-verbose            # uwzględnij ścieżki skarbców
+total              # zwróć liczbę sejfów
+verbose            # uwzględnij ścieżki sejfów
 ```
 
 ### `vault:open`
 
-Przełącz na inny skarbiec (tylko TUI).
+Przełącz na inny sejf (tylko TUI).
 
 ```bash
-name=<name>        # (required) nazwa skarbca
+name=<name>        # (required) nazwa sejfu
 ```
 
 ## Przeglądarka internetowa
@@ -1260,16 +1260,16 @@ words              # zwróć tylko liczbę słów
 characters         # zwróć tylko liczbę znaków
 ```
 
-## Obszar roboczy
+## Przestrzeń robocza
 
-Polecenia dla [[Obszar roboczy]] i wtyczki [[Obszary robocze]].
+Polecenia dla [[Przestrzeń robocza]] i wtyczki [[Obszary robocze]].
 
 ### `workspace`
 
-Pokaż drzewo obszaru roboczego.
+Pokaż drzewo przestrzeni roboczej.
 
 ```bash
-ids                # uwzględnij ID elementów obszaru roboczego
+ids                # uwzględnij ID elementów przestrzeni roboczej
 ```
 
 ### `workspaces`
@@ -1282,26 +1282,26 @@ total              # zwróć liczbę obszarów roboczych
 
 ### `workspace:save`
 
-Zapisz bieżący układ jako obszar roboczy.
+Zapisz bieżący układ jako przestrzeń robocza.
 
 ```bash
-name=<name>        # nazwa obszaru roboczego
+name=<name>        # nazwa przestrzeni roboczej
 ```
 
 ### `workspace:load`
 
-Wczytaj zapisany obszar roboczy.
+Wczytaj zapisany przestrzeń robocza.
 
 ```bash
-name=<name>        # (required) nazwa obszaru roboczego
+name=<name>        # (required) nazwa przestrzeni roboczej
 ```
 
 ### `workspace:delete`
 
-Usuń zapisany obszar roboczy.
+Usuń zapisany przestrzeń robocza.
 
 ```bash
-name=<name>        # (required) nazwa obszaru roboczego
+name=<name>        # (required) nazwa przestrzeni roboczej
 ```
 
 ### `tabs`

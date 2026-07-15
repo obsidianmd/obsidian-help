@@ -13,7 +13,7 @@ Obsidian rozwija i utrzymuje kilka projektów open source. Możesz przesyłać p
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), otwarty format pliku do danych nieskończonego płótna.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), wtyczka konwertująca dane z różnych formatów na pliki Markdown w zwykłym tekście.
-- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), wtyczka wyświetlająca mapy w Bazach danych Obsidian.
+- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), wtyczka wyświetlająca mapy w bazach danych Obsidian.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), rozszerzenie przeglądarki do wyróżniania i przechwytywania stron internetowych do plików Markdown w zwykłym tekście.
 - [Defuddle](https://github.com/kepano/defuddle) (MIT), parser HTML-do-Markdown używany przez Obsidian Web Clipper.
 

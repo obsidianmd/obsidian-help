@@ -5,7 +5,7 @@ Obsidian umożliwia łatwe przeniesienie notatek z Notion za pomocą [[Importer|
 
 Obsidian oferuje dwa sposoby importowania danych z Notion:
 
-1. **Import przez API** zachowuje cały obszar roboczy, w tym bazy danych i formuły, które są konwertowane na [[Wprowadzenie do Baz danych|Bazy danych]], ale wymaga tokenu integracji Notion i połączenia z internetem.
+1. **Import przez API** zachowuje cały przestrzeń robocza, w tym bazy danych i formuły, które są konwertowane na [[Wprowadzenie do baz danych|bazy danych]], ale wymaga tokenu integracji Notion i połączenia z internetem.
 2. **Import plików** nie zachowuje baz danych, ale nie wymaga tokenu API ani połączenia z internetem.
 
 ## Import przez API
@@ -22,7 +22,7 @@ Token to długi ciąg liczb i liter, zwykle zaczynający się od `ntn_...`, któ
 ![[notion-integration.png#interface]]
 
 2. Nadaj integracji nazwę, np. „Personal". Można użyć dowolnej nazwy.
-3. Wybierz obszar roboczy, który chcesz wyeksportować.
+3. Wybierz przestrzeń robocza, który chcesz wyeksportować.
 4. Kliknij **Save** i przejdź do **Configure integration settings**.
 5. Na karcie **Configuration** token API jest dostępny w polu **Internal Integration Secret**.
 6. Wybierz **Show**, a następnie **Copy**.
@@ -78,9 +78,9 @@ Import plików to alternatywny sposób importowania danych z Notion. Ta metoda n
 
 ### Eksportowanie danych z Notion
 
-Aby przygotować dane do importu, musisz wyeksportować cały obszar roboczy za pomocą formatu eksportu HTML w Notion. Zalecamy nieużywanie eksportu Markdown z Notion, ponieważ pomija on ważne dane. Musisz mieć uprawnienia administratora do obszaru roboczego Notion, aby wyeksportować całą zawartość.
+Aby przygotować dane do importu, musisz wyeksportować cały przestrzeń robocza za pomocą formatu eksportu HTML w Notion. Zalecamy nieużywanie eksportu Markdown z Notion, ponieważ pomija on ważne dane. Musisz mieć uprawnienia administratora do przestrzeni roboczej Notion, aby wyeksportować całą zawartość.
 
-1. Przejdź do **[[Ustawienia]]** u góry paska bocznego Notion.
+1. Przejdź do **[[Ustawienia]]** u góry panelu bocznego Notion.
 2. W sekcji **Workspace** wybierz **General**.
 3. Znajdź i wybierz **Export all workspace content**.
 4. W polu **Export format** wybierz **HTML**.
@@ -118,7 +118,7 @@ Napotkałeś inny problem? Przeszukaj [repozytorium Importer](https://github.com
 
 #### Importowanie dużych obszarów roboczych
 
-Jeśli importujesz obszar roboczy o rozmiarze wielu gigabajtów, eksport z Notion może zawierać zagnieżdżone pliki `.zip`. W takim przypadku możesz zobaczyć komunikat o błędzie importu wyglądający mniej więcej tak:
+Jeśli importujesz przestrzeń robocza o rozmiarze wielu gigabajtów, eksport z Notion może zawierać zagnieżdżone pliki `.zip`. W takim przypadku możesz zobaczyć komunikat o błędzie importu wyglądający mniej więcej tak:
 
 ```
 Import failed {id}.zip/{id}-Part-1.zip undefined.

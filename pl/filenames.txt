@@ -32,7 +32,7 @@ translation=Tworzenie kopii zapasowej plików Obsidian
 
 [file.bases]
 original=Introduction to Bases
-translation=Wprowadzenie do Baz danych
+translation=Wprowadzenie do baz danych
 
 [file.bases/create-base]
 original=Create a base
@@ -44,7 +44,7 @@ translation=Funkcje
 
 [file.bases/syntax]
 original=Bases syntax
-translation=Składnia Baz danych
+translation=Składnia baz danych
 
 [file.bases/views]
 original=Views
@@ -256,7 +256,7 @@ translation=Zarządzanie notatkami
 
 [file.manage-vaults]
 original=Manage vaults
-translation=Zarządzaj skarbcami
+translation=Zarządzaj sejfami
 
 [file.mobile]
 original=Mobile app
@@ -316,7 +316,7 @@ translation=Dziennik
 
 [file.plugins/file-explorer]
 original=File explorer
-translation=Eksplorator plików
+translation=Przeglądarka plików
 
 [file.plugins/file-recovery]
 original=File recovery
@@ -368,11 +368,11 @@ translation=Losowa notatka
 
 [file.plugins/search]
 original=Search
-translation=Szukaj
+translation=Wyszukiwarka
 
 [file.plugins/slash-commands]
 original=Slash commands
-translation=Ukośnik komend
+translation=Ukośnik poleceń
 
 [file.plugins/slides]
 original=Slides
@@ -484,7 +484,7 @@ translation=Pomoc i wsparcie
 
 [file.ribbon]
 original=Ribbon
-translation=Menu wstążkowe
+translation=Wstążka
 
 [file.sales-tax]
 original=Sales tax
@@ -500,7 +500,7 @@ translation=Ustawienia
 
 [file.sidebar]
 original=Sidebar
-translation=Pasek boczny
+translation=Panel boczny
 
 [file.snippets]
 original=CSS snippets
@@ -656,7 +656,7 @@ translation=Zakreślacz
 
 [file.web-clipper/interpreter]
 original=Interpreter
-translation=Tłumacz
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic
@@ -680,11 +680,19 @@ translation=Zmienne
 
 [file.workspace]
 original=Workspace
-translation=Obszar roboczy
+translation=Przestrzeń robocza
 
 [folder.audio]
 original=audio
 translation=audio
+
+[folder.Attachments]
+original=Attachments
+translation=Załączniki
+
+[folder.Bases]
+original=Bases
+translation=Bazy danych
 
 [folder.Changelog]
 original=Changelog

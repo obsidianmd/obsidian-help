@@ -40,15 +40,15 @@ Główną zmienną treści jest `{{content}}`, która zawiera treść artykułu,
 
 ## Zmienne promptów
 
-Zmienne promptów wykorzystują modele językowe do wyodrębniania i modyfikowania danych za pomocą języka naturalnego. Zmienne promptów wymagają włączenia i skonfigurowania [[Tłumacz|Tłumacza]].
+Zmienne promptów wykorzystują modele językowe do wyodrębniania i modyfikowania danych za pomocą języka naturalnego. Zmienne promptów wymagają włączenia i skonfigurowania [[Interpreter|Interpretera]].
 
 Zmienne promptów używają składni `{{"podsumowanie strony"}}`. Cudzysłowy wokół promptu są ważne i odróżniają prompty od zmiennych wstępnie zdefiniowanych. Odpowiedzi promptów mogą być przetwarzane za pomocą [[Filtry|filtrów]], np. `{{"podsumowanie strony"|blockquote}}`.
 
 ### Kiedy używać zmiennych promptów
 
-Zmienne promptów mają tę zaletę, że są niezwykle elastyczne i łatwe do napisania, jednak wiążą się z kilkoma kompromisami: wolniej się wykonują i mogą wiązać się z kosztami oraz kwestiami prywatności w zależności od wybranego [[Tłumacz#Modele|operatora]].
+Zmienne promptów mają tę zaletę, że są niezwykle elastyczne i łatwe do napisania, jednak wiążą się z kilkoma kompromisami: wolniej się wykonują i mogą wiązać się z kosztami oraz kwestiami prywatności w zależności od wybranego [[Interpreter#Modele|operatora]].
 
-W przeciwieństwie do innych typów zmiennych, zmienne promptów muszą być przetworzone przez zewnętrzny model językowy, więc są zastępowane dopiero po uruchomieniu [[Tłumacz|Tłumacza]].
+W przeciwieństwie do innych typów zmiennych, zmienne promptów muszą być przetworzone przez zewnętrzny model językowy, więc są zastępowane dopiero po uruchomieniu [[Interpreter|Interpretera]].
 
 Najlepiej *nie* używać zmiennych promptów, jeśli dane, które chcesz wyodrębnić, mają spójny format, który można wyodrębnić za pomocą innych typów zmiennych.
 

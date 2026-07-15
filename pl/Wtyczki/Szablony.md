@@ -71,9 +71,9 @@ tags:
 ```
 
 > [!warning]+ Edytuj szablony w trybie źródłowym
-> W trybie [[Widoki i tryby edycji#Podgląd na żywo|podglądu na żywo]] panel **Atrybuty pliku** może nadpisać zmienne szablonów, które nie mają cudzysłowów.
+> W trybie [[Podglądy i tryb edycji#Podgląd na żywo|podglądu na żywo]] panel **Atrybuty pliku** może nadpisać zmienne szablonów, które nie mają cudzysłowów.
 >
-> Aby tego uniknąć, edytuj szablony w [[Widoki i tryby edycji#Tryb źródłowy|trybie źródłowym]] lub ustaw **[[Ustawienia]] → Edytor → [[Ustawienia#Atrybuty pliku|Atrybuty pliku]]** na **Kod**.
+> Aby tego uniknąć, edytuj szablony w [[Podglądy i tryb edycji#Tryb źródłowy|trybie źródłowym]] lub ustaw **[[Ustawienia]] → Edytor → [[Ustawienia#Atrybuty pliku|Atrybuty pliku]]** na **Kod**.
 
 ## Wstawianie szablonu do aktywnej notatki
 

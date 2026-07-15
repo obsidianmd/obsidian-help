@@ -1,7 +1,7 @@
 ---
 permalink: bases/views
 ---
-Podglądy pozwalają organizować informacje w [[Wprowadzenie do Baz danych|bazie danych]] na wiele sposobów. Baza może zawierać kilka podglądów, a każdy podgląd może mieć unikalną konfigurację wyświetlania, sortowania i filtrowania plików.
+Podglądy pozwalają organizować informacje w [[Wprowadzenie do baz danych|bazie danych]] na wiele sposobów. Baza może zawierać kilka podglądów, a każdy podgląd może mieć unikalną konfigurację wyświetlania, sortowania i filtrowania plików.
 
 Na przykład możesz chcieć stworzyć bazę o nazwie „Książki", która ma osobne podglądy dla „Listy do przeczytania" i „Ostatnio ukończone".
 
@@ -51,7 +51,7 @@ Podglądy mogą być wyświetlane z różnymi układami, w tym jako ![[lucide-ta
 
 Otwórz menu ![[lucide-list-filter.svg#icon]] **Filtr** na górze bazy, aby dodać filtry.
 
-Baza bez filtrów pokazuje wszystkie pliki w skarbcu. Filtry zawężają wyniki, aby wyświetlać tylko pliki spełniające określone kryteria. Na przykład możesz użyć filtrów, aby wyświetlać tylko pliki z określonym [[Tagi|tagiem]] lub w określonym folderze. Dostępnych jest wiele typów filtrów.
+Baza bez filtrów pokazuje wszystkie pliki w sejfie. Filtry zawężają wyniki, aby wyświetlać tylko pliki spełniające określone kryteria. Na przykład możesz użyć filtrów, aby wyświetlać tylko pliki z określonym [[Tagi|tagiem]] lub w określonym folderze. Dostępnych jest wiele typów filtrów.
 
 Filtry mogą być stosowane do wszystkich podglądów w bazie lub tylko do jednego podglądu, wybierając z dwóch sekcji w menu ![[lucide-list-filter.svg#icon]] **Filtr**.
 
@@ -62,7 +62,7 @@ Filtry mogą być stosowane do wszystkich podglądów w bazie lub tylko do jedne
 
 Filtry mają trzy komponenty:
 
-1. **Atrybut** — pozwala wybrać [[Atrybuty|atrybut]] w skarbcu, w tym [[Składnia Baz danych#Atrybuty|atrybuty plików]].
+1. **Atrybut** — pozwala wybrać [[Atrybuty|atrybut]] w sejfie, w tym [[Składnia baz danych#Atrybuty|atrybuty plików]].
 2. **Operator** — pozwala wybrać sposób porównywania warunków. Lista dostępnych operatorów zależy od rodzaju atrybutu (tekst, data, liczba itp.).
 3. **Wartość** — pozwala wybrać wartość do porównania. Wartości mogą zawierać wyrażenia matematyczne i [[Funkcje|funkcje]].
 
@@ -78,7 +78,7 @@ Grupy filtrów pozwalają tworzyć bardziej złożoną logikę przez tworzenie k
 
 #### Zaawansowany edytor filtrów
 
-Kliknij przycisk kodu ![[lucide-code-xml.svg#icon]], aby użyć edytora **filtrowania zaawansowanego**. Wyświetla on surową [[Składnia Baz danych|składnię]] filtra i może być używany z bardziej złożonymi [[Funkcje|funkcjami]], których nie można wyświetlić za pomocą interfejsu graficznego.
+Kliknij przycisk kodu ![[lucide-code-xml.svg#icon]], aby użyć edytora **filtrowania zaawansowanego**. Wyświetla on surową [[Składnia baz danych|składnię]] filtra i może być używany z bardziej złożonymi [[Funkcje|funkcjami]], których nie można wyświetlić za pomocą interfejsu graficznego.
 
 ## Sortowanie i grupowanie wyników
 

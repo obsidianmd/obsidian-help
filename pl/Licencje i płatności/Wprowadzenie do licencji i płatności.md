@@ -25,10 +25,10 @@ Obsidian oferuje kilka usług i licencji dostępnych do zakupu.
 2. Przejdź do sekcji odpowiadającej produktowi, który chcesz zakupić:
     1. **Obsidian Sync** znajduje się w sekcji **Sync**.
     2. **Obsidian Publish** znajduje się w sekcji **Publish**.
-    3. **Obsidian Credit** znajduje się w sekcji **Billing**.
+    3. **Środki Obsidian** znajdują się w sekcji **Rozliczenia**.
     4. **Licencje komercyjne** znajdują się w sekcji **License**.
     5. **Licencje Catalyst** znajdują się w sekcji **Catalyst**.
-3. Kliknij fioletowy przycisk **Buy**, aby kontynuować zakup.
+3. Kliknij fioletowy przycisk **Kup**, aby kontynuować zakup.
 
 Akceptujemy następujące metody płatności: Stripe, PayPal, WeChat i AliPay.
 
@@ -42,17 +42,17 @@ Po zakończeniu płatności otrzymasz potwierdzenie od serwisu, za pośrednictwe
 Obsidian generuje fakturę dla wszystkich zakupów na Twoim koncie. Aby pobrać fakturę:
 
 1. Zaloguj się do [swojego konta Obsidian](https://obsidian.md/account/billing).
-2. Przejdź do sekcji **Billing**.
-3. Obok **Invoices and refunds** wybierz **View**.
-    1. Jeśli dostępnych jest kilka faktur, wybierz tę, którą chcesz przejrzeć, i kliknij **View** lub **Download**.
+2. Przejdź do sekcji **Rozliczenia**.
+3. Obok **Faktury i zwroty** wybierz **Wyświetl**.
+    1. Jeśli dostępnych jest kilka faktur, wybierz tę, którą chcesz przejrzeć, i kliknij **Wyświetl** lub **Pobierz**.
 
 ### Edytowanie faktury
 
 Jeśli musisz zmienić informacje na fakturze, takie jak adres rozliczeniowy lub numer VAT, wykonaj następujące kroki:
 
 1. Zaloguj się do [swojego konta Obsidian](https://obsidian.md/account/billing).
-2. Przejdź do sekcji **Billing**.
-3. Obok **Invoices and refunds** wybierz **View**.
-    1. Jeśli dostępnych jest kilka faktur, wybierz tę, którą chcesz przejrzeć, i kliknij **View**.
-4. W sekcji **Bill To:** pole tekstowe będzie edytowalne.
+2. Przejdź do sekcji **Rozliczenia**.
+3. Obok **Faktury i zwroty** wybierz **Wyświetl**.
+    1. Jeśli dostępnych jest kilka faktur, wybierz tę, którą chcesz przejrzeć, i kliknij **Wyświetl**.
+4. W sekcji **Dane nabywcy:** pole tekstowe będzie edytowalne.
 5. Wprowadź zmiany, a następnie możesz pobrać zaktualizowaną fakturę.

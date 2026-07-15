@@ -382,16 +382,18 @@ for (const entry of fs.readdirSync(enDir, { withFileTypes: true })) {
 
 // ─── Attachments sync ────────────────────────────────────────────────────────
 // Copy any attachment from en/Attachments/ that doesn't already exist in the
-// locale's Attachments/. Translators can replace files at the same path.
+// locale's translated Attachments folder. Translators can replace files at the
+// same path.
 
 const enAttachDir = path.join(enDir, "Attachments");
-const localeAttachDir = path.join(localeDir, "Attachments");
+const localeAttachDir = path.join(localeDir, filenamesMap.folders["Attachments"] ?? "Attachments");
 let attachCopied = 0;
 let attachDeleted = 0;
 
 if (fs.existsSync(enAttachDir)) {
   function syncAttachments(srcDir: string, destDir: string) {
     for (const entry of fs.readdirSync(srcDir, { withFileTypes: true })) {
+      if (entry.name.startsWith(".")) continue; // skip OS junk (.DS_Store, etc.)
       const srcPath = path.join(srcDir, entry.name);
       const destPath = path.join(destDir, entry.name);
       if (entry.isDirectory()) {
@@ -413,6 +415,7 @@ if (fs.existsSync(enAttachDir)) {
   function pruneAttachments(locDir: string, enDir: string) {
     if (!fs.existsSync(locDir)) return;
     for (const entry of fs.readdirSync(locDir, { withFileTypes: true })) {
+      if (entry.name.startsWith(".")) continue; // skip OS junk (.DS_Store, etc.)
       const locPath = path.join(locDir, entry.name);
       const enPath = path.join(enDir, entry.name);
       if (entry.isDirectory()) {

@@ -2,11 +2,11 @@
 permalink: bases/functions
 publish: true
 mobile: true
-description: Ta strona opisuje funkcje używane w Obsidian Bases do manipulowania danymi z właściwości w filtrach i formułach.
+description: Ta strona opisuje funkcje używane w bazach danych Obsidian do manipulowania danymi z właściwości w filtrach i formułach.
 ---
-Funkcje są używane w [[Wprowadzenie do Baz danych|Bazach danych]] do manipulowania danymi z [[Atrybuty|właściwości]] w [[Podglądy#Filtry|filtrach]] i [[Wzory|wzorach]]. Zapoznaj się z referencją [[Składnia Baz danych|składni baz danych]], aby dowiedzieć się więcej o tym, jak możesz używać funkcji.
+Funkcje są używane w [[Wprowadzenie do baz danych|bazach danych]] do manipulowania danymi z [[Atrybuty|właściwości]] w [[Podglądy#Filtry|filtrach]] i [[Wzory|wzorach]]. Zapoznaj się z referencją [[Składnia baz danych|składni baz danych]], aby dowiedzieć się więcej o tym, jak możesz używać funkcji.
 
-Funkcje Baz danych zachowują się zgodnie z JavaScript. Pełną dokumentację referencyjną znajdziesz na stronie [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
+Funkcje baz danych zachowują się zgodnie z JavaScript. Pełną dokumentację referencyjną znajdziesz na stronie [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 
 Poza funkcjami [[Funkcje#Globalne|Globalnymi]], większość funkcji zależy od typu wartości, którą chcesz zmodyfikować:
 
@@ -41,7 +41,7 @@ Funkcje globalne są używane bez typu.
 
 `duration(value: string): duration`
 
-- Parsuje ciąg znaków jako czas trwania. Zobacz [[Składnia Baz danych#Arytmetyka dat|sekcję arytmetyki dat]] dla formatu ciągu `value`.
+- Parsuje ciąg znaków jako czas trwania. Zobacz [[Składnia baz danych#Arytmetyka dat|sekcję arytmetyki dat]] dla formatu ciągu `value`.
 - Jawne parsowanie nie jest potrzebne podczas wykonywania arytmetyki dat (na przykład `now() + '1d'`), ale jest potrzebne podczas wykonywania arytmetyki na czasach trwania (na przykład `now() + (duration('1d') * 2)`).
 - Podczas wykonywania arytmetyki na czasach trwania ze skalarami, czas trwania musi być po lewej stronie. Na przykład `duration('5h') * 2`, zamiast `2 * duration('5h')`.
 
@@ -95,7 +95,7 @@ Funkcje globalne są używane bez typu.
 
 - Jeśli podany element jest listą, zwraca go bez zmian.
 - W przeciwnym razie opakowuje podany `element` w listę, tworząc listę z jednym elementem.
-- Użyj tej funkcji, gdy właściwość zawiera mieszankę ciągów znaków lub list w całym skarbcu.
+- Użyj tej funkcji, gdy właściwość zawiera mieszankę ciągów znaków lub list w całym sejfie.
 - Przykład: `list("value")` zwraca `["value"]`.
 
 ### `max()`
@@ -166,7 +166,7 @@ Funkcje, których możesz używać z dowolną wartością. Obejmuje to ciągi zn
 
 ## Typ data
 
-Funkcje, których możesz używać z datą i czasem, takim jak `date("2025-05-27")`. Porównania dat można wykonywać za pomocą [[Składnia Baz danych#Arytmetyka dat|arytmetyki dat]].
+Funkcje, których możesz używać z datą i czasem, takim jak `date("2025-05-27")`. Porównania dat można wykonywać za pomocą [[Składnia baz danych#Arytmetyka dat|arytmetyki dat]].
 
 ### Pola
 
@@ -524,7 +524,7 @@ Funkcje, których możesz używać na linku. Linki mogą być tworzone z pliku (
 
 ## Typ plik
 
-Funkcje, których możesz używać z plikiem w skarbcu.
+Funkcje, których możesz używać z plikiem w sejfie.
 
 ### Pola
 
@@ -534,7 +534,7 @@ Następujące pola są dostępne dla plików:
 | ----------------- | -------- | ------------------------------------------------------------------- |
 | `file.name`       | `string` | Nazwa tego pliku.                                                   |
 | `file.basename`   | `string` | Nazwa tego pliku bez rozszerzenia.                                  |
-| `file.path`       | `string` | Pełna ścieżka do tego pliku, względem katalogu głównego skarbca.    |
+| `file.path`       | `string` | Pełna ścieżka do tego pliku, względem katalogu głównego sejfu.    |
 | `file.folder`     | `string` | Pełna ścieżka do folderu nadrzędnego.                               |
 | `file.ext`        | `string` | Rozszerzenie tego pliku.                                            |
 | `file.size`       | `number` | Rozmiar tego pliku w bajtach.                                       |

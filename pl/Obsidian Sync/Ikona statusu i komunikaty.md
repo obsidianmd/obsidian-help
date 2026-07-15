@@ -8,7 +8,7 @@ Obsidian Sync dostarcza kilka elementów wskazujących status synchronizacji, g�
 
 ## Ikona statusu synchronizacji
 
-Ikona statusu synchronizacji znajduje się na [[Pasek stanu|pasku stanu]] w wersji desktopowej oraz na [[Pasek boczny#Otwieranie ukrytych pasków bocznych|prawym pasku bocznym]] na urządzeniach mobilnych i tabletach. Ikona odzwierciedla różne stany synchronizacji:
+Ikona statusu synchronizacji znajduje się na [[Pasek stanu|pasku stanu]] w wersji desktopowej oraz na [[Panel boczny#Otwieranie ukrytych paneli bocznych|prawym panelu bocznym]] na urządzeniach mobilnych i tabletach. Ikona odzwierciedla różne stany synchronizacji:
 
 - ![[obsidian-icon-sync-synced.svg#icon]] **Zsynchronizowane**: Obsidian Sync w pełni zsynchronizował Twoje pliki. Ta ikona jest zazwyczaj zielona.
 - ![[obsidian-icon-sync-syncing.svg#icon]] **Synchronizowanie**: Obsidian aktualnie aktualizuje zdalny sejf. Ta ikona jest zazwyczaj fioletowa.

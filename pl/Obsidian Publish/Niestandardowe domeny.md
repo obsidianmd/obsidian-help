@@ -44,7 +44,7 @@ Poniższe kroki opisują użycie CloudFlare do konfiguracji niestandardowej dome
 **Obsidian:**
 
 1. Otwórz Obsidian na swoim komputerze.
-2. Na [[Menu wstążkowe|wstążce]] po lewej stronie kliknij **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+2. Na [[Wstążka|wstążce]] po lewej stronie kliknij **Opublikuj zmiany** ![[lucide-send.svg#icon]].
 3. W sekcji **Opublikuj zmiany** wybierz **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 4. Obok **Niestandardowa domena** wybierz **Ustaw**.
 5. W polu **Niestandardowy URL** wpisz adres URL swojej domeny lub subdomeny. Upewnij się, że nie wpisujesz `www.` w polu niestandardowego URL.

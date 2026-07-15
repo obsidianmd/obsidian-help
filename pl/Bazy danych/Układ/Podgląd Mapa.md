@@ -1,7 +1,7 @@
 ---
 permalink: bases/views/map
 ---
-Mapa to typ [[Podglądy|podglądu]], którego możesz używać w [[Wprowadzenie do Baz danych|Bazach danych]]. Wymaga zainstalowania [wtyczki Maps](obsidian://show-plugin?id=maps).
+Mapa to typ [[Podglądy|podglądu]], którego możesz używać w [[Wprowadzenie do baz danych|bazach danych]]. Wymaga zainstalowania [wtyczki Maps](obsidian://show-plugin?id=maps).
 
 Wybierz ![[lucide-map.svg#icon]]  **Mapa** z menu podglądu, aby wyświetlić pliki jako interaktywną mapę ze znacznikami dla każdego pliku oraz podglądem wyświetlającym właściwości danego pliku.
 
@@ -68,7 +68,7 @@ coordinates:
   - "lng"
 ```
 
-Jeśli przechowujesz współrzędne jako oddzielne właściwości `latitude` i `longitude`, możesz je połączyć za pomocą właściwości [[Składnia Baz danych#Wzory|wzoru]], definiując ją jako tablicę współrzędnych przy użyciu następującego wzoru: `[latitude, longitude]`.
+Jeśli przechowujesz współrzędne jako oddzielne właściwości `latitude` i `longitude`, możesz je połączyć za pomocą właściwości [[Składnia baz danych#Wzory|wzoru]], definiując ją jako tablicę współrzędnych przy użyciu następującego wzoru: `[latitude, longitude]`.
 
 #### Ikony
 

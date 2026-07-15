@@ -80,7 +80,7 @@ Pamiętaj, że Twój [[Plany i limity przechowywania|plan Sync]] określa maksym
 
 ### Pomijanie folderu podczas synchronizacji
 
-Domyślnie Obsidian synchronizuje wszystkie pliki i foldery w Twoim skarbcu. Aby pominąć określony folder podczas synchronizacji:
+Domyślnie Obsidian synchronizuje wszystkie pliki i foldery w Twoim sejfie. Aby pominąć określony folder podczas synchronizacji:
 1. Otwórz **[[Ustawienia]] → Sync**.
 2. Obok **Pominięte foldery** wybierz **Zarządzaj**.
 3. Wybierz folder, który chcesz pominąć z listy.
@@ -96,7 +96,7 @@ Kopie zapasowe we wtyczce [[Odzyskiwanie plików]] nie są synchronizowane przez
 
 ##### Ukryte pliki i foldery
 
-Pliki i foldery zaczynające się od `.` są traktowane jako ukryte i pomijane podczas synchronizacji. Jedynym wyjątkiem jest [[Folder konfiguracji|folder konfiguracji]] skarbca (`.obsidian`), który jest synchronizowany.
+Pliki i foldery zaczynające się od `.` są traktowane jako ukryte i pomijane podczas synchronizacji. Jedynym wyjątkiem jest [[Folder konfiguracji|folder konfiguracji]] sejfu (`.obsidian`), który jest synchronizowany.
 
 Typowe przykłady ukrytych plików i folderów, które nie są synchronizowane:
 - `.vscode`
@@ -108,7 +108,7 @@ Typowe przykłady ukrytych plików i folderów, które nie są synchronizowane:
 
 Ustawienia synchronizacji nie są synchronizowane między urządzeniami. Musisz je skonfigurować oddzielnie na każdym urządzeniu w zależności od potrzeb.
 
-## Aktualizacja ustawień synchronizowanego skarbca
+## Aktualizacja ustawień synchronizowanego sejfu
 
 Aby zmodyfikować ustawienia synchronizacji na wielu urządzeniach, wykonaj następujące kroki:
 
@@ -138,7 +138,7 @@ Urządzenia dodatkowe (takie jak telefon) otrzymują aktualizacje z urządzenia 
 Niektóre ustawienia mogą być ładowane na gorąco, podczas gdy inne wymagają ponownego uruchomienia:
 
 - **Ładowanie na gorąco**: Większość konfiguracji Obsidian, w tym skróty klawiszowe i właściwości, ustawienia wyglądu oraz konfiguracje już włączonych wbudowanych wtyczek.
-- **Wymagane ponowne uruchomienie**: Zmiany CSS (np. [[Snippety CSS]], [[Motywy]]), konfiguracje widoku grafu oraz stany wbudowanych wtyczek (np. włączanie/wyłączanie Dziennika).
+- **Wymagane ponowne uruchomienie**: Zmiany CSS (np. [[Snippety CSS]], [[Motywy]]), konfiguracje podglądu grafu oraz stany wbudowanych wtyczek (np. włączanie/wyłączanie Dziennika).
 
 Wtyczki społeczności zazwyczaj nie obsługują ładowania na gorąco i wymagają ponownego uruchomienia po zastosowaniu nowych ustawień.
 
