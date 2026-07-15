@@ -144,6 +144,7 @@ Podporované zástupné symboly šablóny:
 | `{{published: YYYY-MM-DD}}` | Dátum publikácie vo vlastnom formáte dátumu |
 | `{{site}}` | Názov webovej stránky |
 | `{{title}}` | Názov článku |
+| `{{url}}` | URL článku |
 | `{{wordCount}}` | Celkový počet slov v extrahovanom obsahu |
 
 Môžete tiež použiť štandardné zástupné symboly šablóny pre dátum a čas:

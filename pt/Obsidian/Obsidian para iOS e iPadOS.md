@@ -147,6 +147,7 @@ Marcadores de posição suportados no modelo:
 | `{{published: YYYY-MM-DD}}` | Data de publicação usando um formato de data personalizado |
 | `{{site}}` | Nome do site |
 | `{{title}}` | Título do artigo |
+| `{{url}}` | URL do artigo |
 | `{{wordCount}}` | Número total de palavras no conteúdo extraído |
 
 Também pode usar os marcadores de posição padrão de data e hora do modelo:

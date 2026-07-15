@@ -145,6 +145,7 @@ Platshållare som stöds i mallar:
 | `{{published: YYYY-MM-DD}}` | Publiceringsdatum med anpassat datumformat |
 | `{{site}}` | Webbplatsens namn |
 | `{{title}}` | Artikelns titel |
+| `{{url}}` | Artikelns URL |
 | `{{wordCount}}` | Totalt antal ord i det extraherade innehållet |
 
 Du kan även använda standardplatshållare för datum och tid i mallar:

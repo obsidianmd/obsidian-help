@@ -145,6 +145,7 @@ Các placeholder mẫu được hỗ trợ:
 | `{{published: YYYY-MM-DD}}` | Ngày xuất bản sử dụng định dạng ngày tùy chỉnh |
 | `{{site}}` | Tên của trang web |
 | `{{title}}` | Tiêu đề của bài viết |
+| `{{url}}` | URL bài viết |
 | `{{wordCount}}` | Tổng số từ trong nội dung đã trích xuất |
 
 Bạn cũng có thể sử dụng các placeholder ngày và giờ mẫu tiêu chuẩn:

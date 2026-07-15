@@ -145,6 +145,7 @@ Ondersteunde sjabloonvariabelen:
 | `{{published: YYYY-MM-DD}}` | Publicatiedatum in een aangepast datumformaat |
 | `{{site}}` | Naam van de website |
 | `{{title}}` | Titel van het artikel |
+| `{{url}}` | Artikel-URL |
 | `{{wordCount}}` | Totaal aantal woorden in de geëxtraheerde inhoud |
 
 Je kunt ook standaard sjabloonvariabelen voor datum en tijd gebruiken:

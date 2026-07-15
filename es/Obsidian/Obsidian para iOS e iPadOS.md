@@ -145,6 +145,7 @@ Marcadores de posición compatibles en las plantillas:
 | `{{published: YYYY-MM-DD}}` | Fecha de publicación usando un formato de fecha personalizado |
 | `{{site}}` | Nombre del sitio web |
 | `{{title}}` | Título del artículo |
+| `{{url}}` | URL del artículo |
 | `{{wordCount}}` | Número total de palabras en el contenido extraído |
 
 También puedes usar los marcadores de posición estándar de fecha y hora de las plantillas:

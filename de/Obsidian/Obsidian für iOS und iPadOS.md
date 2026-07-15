@@ -145,6 +145,7 @@ Unterstützte Vorlagen-Platzhalter:
 | `{{published: YYYY-MM-DD}}` | Veröffentlichungsdatum in einem benutzerdefinierten Datumsformat |
 | `{{site}}` | Name der Website |
 | `{{title}}` | Titel des Artikels |
+| `{{url}}` | Artikel-URL |
 | `{{wordCount}}` | Gesamtanzahl der Wörter im extrahierten Inhalt |
 
 Du kannst auch Standard-Vorlagen-Platzhalter für Datum und Uhrzeit verwenden:

@@ -147,6 +147,7 @@ Segnaposto supportati nel modello:
 | `{{published: YYYY-MM-DD}}` | Data di pubblicazione con formato data personalizzato |
 | `{{site}}` | Nome del sito web |
 | `{{title}}` | Titolo dell'articolo |
+| `{{url}}` | URL dell'articolo |
 | `{{wordCount}}` | Numero totale di parole nel contenuto estratto |
 
 Puoi anche usare i segnaposto standard per data e ora del modello:

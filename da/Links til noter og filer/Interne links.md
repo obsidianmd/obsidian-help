@@ -28,7 +28,7 @@ De to måder kan anvendes - De vil se ud på samme måde i visningstilstand og l
 
 For at linke til en note i en mappe skal du inkludere mappestien før notens navn. Mappestier starter ved boksens rod og bruger skråstreger (`/`), selv på Windows: `[[Projekter/De tre bevægelseslove]]` eller `[De tre bevægelseslove](Projekter/De%20tre%20bevægelseslove.md)`.
 
-Hvis linket peger på en note, der endnu ikke eksisterer, opretter Obsidian noten på den angivne mappesti i stedet for at bruge din [[Indstillinger#Default location for new notes|standardplacering for nye noter]].
+Hvis linket peger på en note, der endnu ikke eksisterer, opretter Obsidian noten på den angivne mappesti i stedet for at bruge din [[Indstillinger#Standardplacering for nye noter|standardplacering for nye noter]].
 
 > [!note]
 > Når du benytter Markdown formatet, så skal du sikre dig at [URL kode](https://en.wikipedia.org/wiki/Percent-encoding) linket til destinationen, så fx. mellemrums tegn erstattes med `%20`.
@@ -62,7 +62,7 @@ Du kan linke til alle [[Accepterede filformater|accepterede filformater]]; dog s
 > [!tip] Hvis du præfikser et internt link med et udråbstegn (!) så indlejrer du det linkede indhold. Se siden "[[Indlejr filer]]" for flere detaljer.
 
 > [!info] Ekskluderede filer
-> Filer, der matcher dine [[Indstillinger#Excluded files|Ekskluderede filer]]-mønstre, nedprioriteres i linkforslag, når du opretter interne links.
+> Filer, der matcher dine [[Indstillinger#Ekskluderede filer|Ekskluderede filer]]-mønstre, nedprioriteres i linkforslag, når du opretter interne links.
 
 ## Link til en overskrift i en note
 

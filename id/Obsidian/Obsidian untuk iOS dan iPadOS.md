@@ -147,6 +147,7 @@ Placeholder templat yang didukung:
 | `{{published: YYYY-MM-DD}}` | Tanggal publikasi menggunakan format tanggal kustom |
 | `{{site}}` | Nama situs web |
 | `{{title}}` | Judul artikel |
+| `{{url}}` | URL artikel |
 | `{{wordCount}}` | Jumlah total kata dalam konten yang diekstrak |
 
 Anda juga dapat menggunakan placeholder tanggal dan waktu templat standar:

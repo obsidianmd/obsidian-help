@@ -145,6 +145,7 @@ Marcadors de posició de plantilla compatibles:
 | `{{published: YYYY-MM-DD}}` | Data de publicació utilitzant un format de data personalitzat |
 | `{{site}}` | Nom del lloc web |
 | `{{title}}` | Títol de l'article |
+| `{{url}}` | URL de l'article |
 | `{{wordCount}}` | Nombre total de paraules del contingut extret |
 
 També pots utilitzar els marcadors de posició estàndard de data i hora de les plantilles:

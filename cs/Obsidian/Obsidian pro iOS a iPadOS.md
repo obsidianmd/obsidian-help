@@ -144,6 +144,7 @@ Podporované zástupné symboly šablony:
 | `{{published: YYYY-MM-DD}}` | Datum publikace ve vlastním formátu data |
 | `{{site}}` | Název webu |
 | `{{title}}` | Název článku |
+| `{{url}}` | URL článku |
 | `{{wordCount}}` | Celkový počet slov v extrahovaném obsahu |
 
 Můžete také použít standardní zástupné symboly šablony pro datum a čas:

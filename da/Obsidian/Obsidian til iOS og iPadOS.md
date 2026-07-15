@@ -147,6 +147,7 @@ Understøttede skabelonpladsholdere:
 | `{{published: YYYY-MM-DD}}` | Udgivelsesdato med brugerdefineret datoformat |
 | `{{site}}` | Webstedets navn |
 | `{{title}}` | Artiklens titel |
+| `{{url}}` | Artiklens URL |
 | `{{wordCount}}` | Samlet antal ord i det udtrukne indhold |
 
 Du kan også bruge standard skabelonpladsholdere for dato og tid:

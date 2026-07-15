@@ -145,6 +145,7 @@ Desteklenen şablon yer tutucuları:
 | `{{published: YYYY-MM-DD}}` | Özel tarih biçimi kullanan yayın tarihi |
 | `{{site}}` | Web sitesinin adı |
 | `{{title}}` | Makalenin başlığı |
+| `{{url}}` | Makale URL'si |
 | `{{wordCount}}` | Çıkarılan içerikteki toplam kelime sayısı |
 
 Standart şablon tarih ve saat yer tutucularını da kullanabilirsiniz:

@@ -145,6 +145,7 @@ Obsługiwane symbole zastępcze szablonu:
 | `{{published: YYYY-MM-DD}}` | Data publikacji w niestandardowym formacie daty |
 | `{{site}}` | Nazwa witryny |
 | `{{title}}` | Tytuł artykułu |
+| `{{url}}` | URL artykułu |
 | `{{wordCount}}` | Łączna liczba słów w wyodrębnionej treści |
 
 Możesz również użyć standardowych symboli zastępczych daty i godziny:

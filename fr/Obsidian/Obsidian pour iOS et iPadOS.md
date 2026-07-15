@@ -145,6 +145,7 @@ Variables de modèle prises en charge :
 | `{{published: YYYY-MM-DD}}` | Date de publication utilisant un format de date personnalisé |
 | `{{site}}` | Nom du site web |
 | `{{title}}` | Titre de l'article |
+| `{{url}}` | URL de l'article |
 | `{{wordCount}}` | Nombre total de mots dans le contenu extrait |
 
 Vous pouvez également utiliser les variables de modèle standard pour la date et l'heure :

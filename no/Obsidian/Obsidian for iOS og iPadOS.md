@@ -146,6 +146,7 @@ Støttede mal-plassholdere:
 | `{{published: YYYY-MM-DD}}` | Publiseringsdato med egendefinert datoformat |
 | `{{site}}` | Navn på nettstedet |
 | `{{title}}` | Tittel på artikkelen |
+| `{{url}}` | Artikkelens URL |
 | `{{wordCount}}` | Totalt antall ord i det uttrukne innholdet |
 
 Du kan også bruke standard mal-plassholdere for dato og tid:

@@ -144,6 +144,7 @@ Tuetut pohjan paikanvaraajat:
 | `{{published: YYYY-MM-DD}}` | Julkaisupäivämäärä mukautetulla muodolla |
 | `{{site}}` | Verkkosivuston nimi |
 | `{{title}}` | Artikkelin otsikko |
+| `{{url}}` | Artikkelin URL |
 | `{{wordCount}}` | Kaapatun sisällön sanojen kokonaismäärä |
 
 Voit myös käyttää vakiomuotoisia päivämäärän ja ajan paikanvaraajia:

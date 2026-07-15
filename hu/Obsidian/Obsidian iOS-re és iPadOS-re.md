@@ -145,6 +145,7 @@ Támogatott sablon helyőrzők:
 | `{{published: YYYY-MM-DD}}` | Megjelenési dátum egyéni dátumformátummal |
 | `{{site}}` | A weboldal neve |
 | `{{title}}` | A cikk címe |
+| `{{url}}` | A cikk URL-je |
 | `{{wordCount}}` | A kinyert tartalom összes szavainak száma |
 
 A szabványos sablon dátum és idő helyőrzőket is használhatja:
