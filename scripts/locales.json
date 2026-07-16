@@ -24,6 +24,7 @@
   { "code": "pt",    "label": "Português",                          "base": "https://obsidian.md/pt/help" },
   { "code": "pt-BR", "dir": "pt-br", "label": "Português (Brasil)",  "base": "https://obsidian.md/pt-BR/help" },
   { "code": "sk",    "label": "Slovenčina",           "base": "https://obsidian.md/sk/help" },
+  { "code": "ro",    "label": "Română",               "base": "https://obsidian.md/ro/help" },
   { "code": "ru",    "label": "Русский",              "base": "https://obsidian.md/ru/help" },
   { "code": "sv",    "label": "Svenska",              "base": "https://obsidian.md/sv/help" },
   { "code": "th",    "label": "ภาษาไทย",              "base": "https://obsidian.md/th/help" },
