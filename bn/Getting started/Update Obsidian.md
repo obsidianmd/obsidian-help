@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: updates
 ---
 
-Obsidian's updating process is different on mobile and desktop devices.
+Obsidian-এর আপডেট প্রক্রিয়া মোবাইল এবং ডেস্কটপ ডিভাইসে ভিন্ন।
 
-Obsidian on desktop devices regularly checks for new updates. If automatic updates are enabled, the application will update on restart. Obsidian needs periodic [[#Installer updates|installer updates]], which require downloading and running the installer.
+ডেস্কটপ ডিভাইসে Obsidian নিয়মিত নতুন আপডেটের জন্য পরীক্ষা করে। স্বয়ংক্রিয় আপডেট সক্রিয় থাকলে, অ্যাপ্লিকেশনটি পুনরায় চালু হওয়ার সময় আপডেট হবে। Obsidian-এর নিয়মিত [[#Installer updates|ইনস্টলার আপডেট]] প্রয়োজন হয়, যার জন্য ইনস্টলারটি ডাউনলোড ও চালাতে হয়।
 
-On mobile devices, Obsidian is updated through the device's app store. The installer version is the same as the app version. Obsidian does not feature auto-update.
+মোবাইল ডিভাইসে, Obsidian ডিভাইসের অ্যাপ স্টোরের মাধ্যমে আপডেট হয়। ইনস্টলার সংস্করণটি অ্যাপ সংস্করণের সমান। Obsidian-এ স্বয়ংক্রিয়-আপডেট বৈশিষ্ট্য নেই।
 
-## Check for updates and view version
+## আপডেট পরীক্ষা করুন এবং সংস্করণ দেখুন
 
-Open **[[Settings]] → General**.
+**[[Settings]] → সাধারণ** খুলুন।
 
-You can find the current versions of the app and installer at the top of the page.
+আপনি পৃষ্ঠার শীর্ষে অ্যাপ এবং ইনস্টলারের বর্তমান সংস্করণ খুঁজে পাবেন।
 
 ![[application-installer-current-version.png#interface]]
 
-To check for updates, select **Check for updates**. If there are new updates, Obsidian will offer to relaunch. Select **Relaunch** to apply any available updates.
+আপডেটের জন্য পরীক্ষা করতে, **আপডেট অনুসন্ধান করুন** নির্বাচন করুন। নতুন আপডেট থাকলে, Obsidian পুনরায় চালু করার প্রস্তাব দেবে। উপলব্ধ যেকোনো আপডেট প্রয়োগ করতে **পুনরায় চালু করুন** নির্বাচন করুন।
 
-## Disable automatic updates
+## স্বয়ংক্রিয় আপডেট নিষ্ক্রিয় করুন
 
-If you prefer to update Obsidian manually, you can disable automatic updates.
+আপনি যদি ম্যানুয়ালি Obsidian আপডেট করতে পছন্দ করেন, তাহলে আপনি স্বয়ংক্রিয় আপডেট নিষ্ক্রিয় করতে পারেন।
 
-1. Open **[[Settings]] → General**.
-2. Disable **Automatic updates**.
+1. **[[Settings]] → সাধারণ** খুলুন।
+2. **স্বয়ংক্রিয় আপডেট** নিষ্ক্রিয় করুন।
 
-## Installer updates
+## ইনস্টলার আপডেট
 
-On desktop, Obsidian's [release notes](https://obsidian.md/changelog/) will inform you when you need to update the installer version of Obsidian to keep things working. This is the version of Electron, the framework on which Obsidian is built, and it cannot be updated by the automatic update process. 
+ডেস্কটপে, Obsidian-এর জিনিসগুলো কার্যকর রাখতে যখন আপনাকে Obsidian-এর ইনস্টলার সংস্করণ আপডেট করতে হবে তখন [রিলিজ নোট](https://obsidian.md/changelog/) আপনাকে জানাবে। এটি হলো Electron-এর সংস্করণ, যে ফ্রেমওয়ার্কের উপর Obsidian তৈরি, এবং এটি স্বয়ংক্রিয় আপডেট প্রক্রিয়া দিয়ে আপডেট করা যায় না।
 
-A community plugin or theme may require an installer update to access newer features that are not available in older versions of Electron, and may ask you to update the installer version of Obsidian before Obsidian itself asks.
+একটি কমিউনিটি প্লাগইন বা থিমের পুরনো সংস্করণের Electron-এ উপলব্ধ নয় এমন নতুন বৈশিষ্ট্য অ্যাক্সেস করতে ইনস্টলার আপডেটের প্রয়োজন হতে পারে, এবং Obsidian নিজে জিজ্ঞাসা করার আগেই এটি আপনাকে Obsidian-এর ইনস্টলার সংস্করণ আপডেট করতে বলতে পারে।
 
-To update the installer version of Obsidian:
+Obsidian-এর ইনস্টলার সংস্করণ আপডেট করতে:
 
-1. Navigate to https://obsidian.md/download.
-2. Select the **Download** button.
-3. Close Obsidian, if open.
-4. Proceed as detailed in [[Download and install Obsidian]].
+1. https://obsidian.md/download-এ যান।
+2. **Download** বাটনটি নির্বাচন করুন।
+3. Obsidian খোলা থাকলে বন্ধ করুন।
+4. [[Download and install Obsidian]]-এ বিস্তারিত বর্ণনার মতো এগিয়ে যান।
 
-Your installer update is now complete.
+আপনার ইনস্টলার আপডেট এখন সম্পন্ন।
 
 > [!tip] 
-> You **do not** need to uninstall Obsidian to update the installer version.
+> ইনস্টলার সংস্করণ আপডেট করতে আপনার Obsidian আনইনস্টল করার **প্রয়োজন নেই**।

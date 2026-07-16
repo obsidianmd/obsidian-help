@@ -1,38 +1,37 @@
 ---
-localized: null
 permalink: plugins/command-palette
 ---
-The Command palette [[Core plugins|plugin]] lets you run any command directly from your keyboard. It also lets you explore all the available commands and their [[Hotkeys|keyboard shortcuts]].
+কমান্ড প্যালেট [[Core plugins|প্লাগইন]] আপনাকে আপনার কীবোর্ড থেকে সরাসরি যেকোনো কমান্ড চালাতে দেয়। এটি আপনাকে সব উপলব্ধ কমান্ড এবং তাদের [[Hotkeys|কীবোর্ড শর্টকাট]] অন্বেষণ করতেও দেয়।
 
-To run a command from the Command palette:
+কমান্ড প্যালেট থেকে একটি কমান্ড চালাতে:
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the Command palette. You can also open it from the [[Ribbon]] with Command palette icon ![[lucide-terminal.svg#icon]]. 
-2. Type the name of the command you want to run.
-3. Navigate to the command using the arrow keys.
-4. Press `Enter`.
+1. কমান্ড প্যালেট খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন। আপনি [[Ribbon|রিবন]] থেকে কমান্ড প্যালেট আইকন ![[lucide-terminal.svg#icon]] দিয়েও এটি খুলতে পারেন। 
+2. আপনি যে কমান্ডটি চালাতে চান তার নাম টাইপ করুন।
+3. অ্যারো কী ব্যবহার করে কমান্ডে নেভিগেট করুন।
+4. `Enter` চাপুন।
 
-> [!tip] Tip
-> The Command palette supports _fuzzy matching_, allowing you to search for commands even if you don't know their exact names. For example, typing "scf" will find the **S**ave **c**urrent **f**ile command.
+> [!tip] টিপ
+> কমান্ড প্যালেট _ফাজি ম্যাচিং_ সমর্থন করে, যা আপনাকে সঠিক নাম না জানলেও কমান্ড অনুসন্ধান করতে দেয়। উদাহরণস্বরূপ, "scf" টাইপ করলে **S**ave **c**urrent **f**ile কমান্ডটি খুঁজে পাওয়া যাবে।
 
-As of **version 1.8.3**, recently used commands appear at the top of the Command palette. However, these recently used commands are still subject to the _fuzzy matching_ algorithm. When you start filtering, shorter commands will be prioritized over recently used ones.
+**সংস্করণ 1.8.3** অনুযায়ী, সম্প্রতি ব্যবহৃত কমান্ডগুলি কমান্ড প্যালেটের শীর্ষে প্রদর্শিত হয়। তবে, এই সম্প্রতি ব্যবহৃত কমান্ডগুলি এখনও _ফাজি ম্যাচিং_ অ্যালগরিদমের অধীন। আপনি ফিল্টার করা শুরু করলে, সম্প্রতি ব্যবহৃত কমান্ডগুলির চেয়ে ছোট কমান্ডগুলি অগ্রাধিকার পাবে।
 
-## Pinned commands
+## পিন করা কমান্ড
 
-You can pin frequently used commands at the top of the Command palette to quickly access them without having to type their name.
+আপনি প্রায়ই ব্যবহৃত কমান্ডগুলি নাম টাইপ না করেই দ্রুত অ্যাক্সেস করতে কমান্ড প্যালেটের শীর্ষে পিন করতে পারেন।
 
-> [!tip] Tip
-> If you want to quickly run frequently used commands, you can also [[Hotkeys#Set a hotkey|set hotkeys]] for them.
+> [!tip] টিপ
+> আপনি যদি প্রায়ই ব্যবহৃত কমান্ডগুলি দ্রুত চালাতে চান, তাহলে আপনি সেগুলির জন্য [[Hotkeys#হট-কিই সেট করা|হট-কিই সেট]]ও করতে পারেন।
 
-### Pin a command
+### একটি কমান্ড পিন করুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, click **Command palette** under **Plugin options**.
-3. Next to **New pinned command**, click **Select a command**.
-4. Select the command you want to pin from the list.
-5. Press `Enter`.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Plugin options**-এর অধীনে **Command palette**-এ ক্লিক করুন।
+3. **New pinned command**-এর পাশে, **Select a command**-এ ক্লিক করুন।
+4. তালিকা থেকে আপনি যে কমান্ডটি পিন করতে চান তা নির্বাচন করুন।
+5. `Enter` চাপুন।
 
-### Unpin a command
+### একটি কমান্ড আনপিন করুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, click **Command palette** under **Plugin options**.
-3. Under **Pinned commands**, click the cross icon next to the command you want to unpin.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Plugin options**-এর অধীনে **Command palette**-এ ক্লিক করুন।
+3. **Pinned commands**-এর অধীনে, আপনি যে কমান্ডটি আনপিন করতে চান তার পাশের ক্রস আইকনে ক্লিক করুন।

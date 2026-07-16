@@ -1,47 +1,46 @@
 ---
-localized: null
 permalink: appearance
 ---
-### Color scheme
+### কালার স্কিম
 
-Obsidian comes with two color schemes, light and dark. By default, the color scheme is set to adapt to your operating system. You can change this by going to **[[Settings]] → Appearance**.
+Obsidian-এ দুটি কালার স্কিম আছে, লাইট এবং ডার্ক। ডিফল্টভাবে, কালার স্কিম আপনার অপারেটিং সিস্টেমের সাথে খাপ খাইয়ে নেওয়ার জন্য সেট করা থাকে। এটি পরিবর্তন করতে **[[Settings]] → Appearance**-এ যান।
 
-### Custom themes
+### কাস্টম থিম
 
-You can change the appearance of Obsidian by using [[themes|custom themes]]. Browse hundreds of community-made themes by going to **[[Settings]] → Appearance**, then click **Manage** to view and install themes.
+আপনি [[themes|কাস্টম থিম]] ব্যবহার করে Obsidian-এর চেহারা পরিবর্তন করতে পারেন। **[[Settings]] → Appearance**-এ গিয়ে, তারপর ইনস্টল করা থিম দেখতে ও নতুন থিম দেখতে **Manage** ক্লিক করে কমিউনিটির তৈরি শত শত থিম ব্রাউজ করুন।
 
-You can also tweak themes using [[CSS snippets]] and [build your own theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
+আপনি [[CSS snippets]] ব্যবহার করে থিম কাস্টমাইজ করতে পারেন এবং [নিজের থিম তৈরি করতে পারেন](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)।
 
-### Custom app icon
+### কাস্টম অ্যাপ আইকন
 
-You can change the Obsidian desktop app icon. Try the icon editor featured on [our blog](https://obsidian.md/blog/new-obsidian-icon/) to customize the icon colors to your liking.
+আপনি Obsidian ডেস্কটপ অ্যাপের আইকন পরিবর্তন করতে পারেন। আইকনের রঙ আপনার পছন্দ অনুযায়ী কাস্টমাইজ করতে [আমাদের ব্লগে](https://obsidian.md/blog/new-obsidian-icon/) প্রকাশিত আইকন এডিটর ব্যবহার করে দেখুন।
 
-To change the Obsidian app icon, follow these steps:
+Obsidian অ্যাপের আইকন পরিবর্তন করতে, নিচের ধাপগুলো অনুসরণ করুন:
 
-1. Open **[[Settings]]**.
-2. Select **Appearance** on the left.
-3. Scroll down to the **Advanced** section.
-4. Under **Custom app icon** click **Choose** .
-5. Pick your desired icon from your filesystem.  Accepted file formats are `.icns`, `.ico`, `.png`, and `.svg`.
-6. Click **Relaunch**.
-7. After Obsidian restarts, your new icon should appear in the taskbar on desktop and on your screen on mobile.
+1. **[[Settings]]** খুলুন।
+2. বাঁ দিকে **Appearance** নির্বাচন করুন।
+3. স্ক্রল করে **Advanced** সেকশনে যান।
+4. **Custom app icon**-এর নিচে **Choose** ক্লিক করুন।
+5. আপনার ফাইলসিস্টেম থেকে পছন্দের আইকন বেছে নিন। গ্রহণযোগ্য ফাইল ফরম্যাট হলো `.icns`, `.ico`, `.png`, এবং `.svg`।
+6. **Relaunch** ক্লিক করুন।
+7. Obsidian পুনরায় চালু হওয়ার পর, ডেস্কটপে টাস্কবারে এবং মোবাইলে আপনার স্ক্রিনে নতুন আইকনটি দেখা যাবে।
 
-> [!tip] Custom app icon in the  Windows taskbar 
-> For certain Windows operating systems, an extra step may be needed to adjust the custom app icon in the taskbar.
+> [!tip] Windows টাস্কবারে কাস্টম অ্যাপ আইকন
+> নির্দিষ্ট কিছু Windows অপারেটিং সিস্টেমে, টাস্কবারে কাস্টম অ্যাপ আইকন সামঞ্জস্য করতে একটি অতিরিক্ত ধাপ প্রয়োজন হতে পারে।
 > 
-> Follow these steps:
-> - Right-click the Obsidian icon on your taskbar or desktop shortcut.
-> - Right-click the name Obsidian (skip this step for the desktop icon).
-> - Choose **Properties**.
-> - Click **Change Icon**.
-> - Locate the icon on your file system.
-> - Click **OK**.
+> নিচের ধাপগুলো অনুসরণ করুন:
+> - আপনার টাস্কবার বা ডেস্কটপ শর্টকাটে Obsidian আইকনে রাইট-ক্লিক করুন।
+> - Obsidian নামে রাইট-ক্লিক করুন (ডেস্কটপ আইকনের জন্য এই ধাপ এড়িয়ে যান)।
+> - **Properties** নির্বাচন করুন।
+> - **Change Icon** ক্লিক করুন।
+> - আপনার ফাইল সিস্টেমে আইকনটি খুঁজে বের করুন।
+> - **OK** ক্লিক করুন।
 > 
-> Afterward, you have the option to either restart `explorer.exe` within the task manager or restart your computer to apply the changes you made.
+> এরপর, আপনি টাস্ক ম্যানেজারে `explorer.exe` পুনরায় চালু করতে পারেন অথবা আপনার পরিবর্তনগুলো কার্যকর করতে কম্পিউটার পুনরায় চালু করতে পারেন।
 
-### Translucency
+### স্বচ্ছতা (Translucency)
 
-On MacOS you can make the Obsidian window translucent by enabling this option in the settings **Appearance** tab.
+MacOS-এ আপনি সেটিংসের **Appearance** ট্যাবে এই অপশন সক্রিয় করে Obsidian উইন্ডো স্বচ্ছ করতে পারেন।
 
-> [!info]- Windows and translucency
-> The Obsidian team removed translucency in Windows for version 1.15.11 due to Electron's removal of the feature.
+> [!info]- Windows এবং স্বচ্ছতা
+> Electron-এর ফিচারটি সরিয়ে ফেলার কারণে, Obsidian টিম সংস্করণ 1.15.11-এর জন্য Windows-এ স্বচ্ছতা সরিয়ে দিয়েছে।

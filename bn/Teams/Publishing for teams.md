@@ -1,35 +1,33 @@
 ---
-localized: null
 permalink: teams/publish
 cssclasses:
   - soft-embed
 ---
-Obsidian makes it easy to create and edit wikis, knowledge bases, documentation, and other types of websites. It can be used as an editing tool or CMS for both internal and external sites.
+Obsidian উইকি, নলেজ বেস, ডকুমেন্টেশন এবং অন্যান্য ধরনের ওয়েবসাইট তৈরি ও সম্পাদনা করা সহজ করে তোলে। এটি অভ্যন্তরীণ এবং বাহ্যিক উভয় সাইটের জন্য একটি সম্পাদনা টুল বা CMS হিসেবে ব্যবহার করা যেতে পারে।
 
-## Publishing tools and services
+## পাবলিশিং টুল এবং পরিষেবা
 
-You can create public and private sites using the official [[Introduction to Obsidian Publish|Obsidian Publish]] service, and publish directly from the Obsidian app.
+আপনি অফিসিয়াল [[Introduction to Obsidian Publish|Obsidian Publish]] পরিষেবা ব্যবহার করে পাবলিক এবং প্রাইভেট সাইট তৈরি করতে পারেন, এবং সরাসরি Obsidian অ্যাপ থেকে পাবলিশ করতে পারেন।
 
-Obsidian also works with a variety of third-party publishing tools. Obsidian is compatible with most static site generators (SSGs) such as Jekyll, Hugo, Astro, and Quartz. Community plugins allow you to publish to other services such as Confluence, Jira, and more.
+Obsidian বিভিন্ন তৃতীয় পক্ষের পাবলিশিং টুলের সাথেও কাজ করে। Obsidian বেশিরভাগ স্ট্যাটিক সাইট জেনারেটরের (SSG) সাথে সামঞ্জস্যপূর্ণ, যেমন Jekyll, Hugo, Astro এবং Quartz। কমিউনিটি প্লাগইনের মাধ্যমে আপনি Confluence, Jira এবং আরো অনেক পরিষেবায় পাবলিশ করতে পারেন।
 
-## Advanced collaboration for Obsidian Publish
+## Obsidian Publish-এর জন্য উন্নত সহযোগিতা
 
-For more information on setting up an [[Introduction to Obsidian Publish|Obsidian Publish]] site, please review the following articles:
+একটি [[Introduction to Obsidian Publish|Obsidian Publish]] সাইট সেট আপ করার বিষয়ে আরো তথ্যের জন্য, দয়া করে নিম্নলিখিত আর্টিকেলগুলো পর্যালোচনা করুন:
 
 - [[Introduction to Obsidian Publish]]
 - [[Collaborate on a Publish site]]
 - [[Publish limitations]]
 
-If you are part of a larger team, you may need to pair Obsidian Publish with a more advanced version control system, such as Git. You can combine Publish with an external version control system, or use it in conjunction with a syncing service like [[Introduction to Obsidian Sync|Obsidian Sync]] to keep changes in sync across multiple users.
+আপনি যদি একটি বড় দলের অংশ হন, তাহলে আপনার Obsidian Publish-কে Git-এর মতো একটি আরো উন্নত ভার্সন কন্ট্রোল সিস্টেমের সাথে যুক্ত করার প্রয়োজন হতে পারে। আপনি একটি বাহ্যিক ভার্সন কন্ট্রোল সিস্টেমের সাথে Publish একত্রিত করতে পারেন, অথবা একাধিক ব্যবহারকারীর মধ্যে পরিবর্তনগুলো সিঙ্ক রাখতে [[Introduction to Obsidian Sync|Obsidian Sync]]-এর মতো একটি সিঙ্কিং পরিষেবার সাথে এটি ব্যবহার করতে পারেন।
 
-For example, this documentation site is hosted and Obsidian Publish and version control is managed via a public [GitHub repository](https://github.com/obsidianmd/obsidian-help).
+উদাহরণস্বরূপ, এই ডকুমেন্টেশন সাইটটি Obsidian Publish-এ হোস্ট করা হয় এবং একটি পাবলিক [GitHub রিপোজিটরির](https://github.com/obsidianmd/obsidian-help) মাধ্যমে ভার্সন কন্ট্রোল পরিচালনা করা হয়।
 
-### Media
+### মিডিয়া
 
-Obsidian Publish is designed to primarily process plain text files and smaller images, presenting them on a website for viewing. Obsidian Publish is not designed to host large file size media, such as high-resolution image galleries and videos. For this we recommend hosting your assets on a dedicated CDN.
+Obsidian Publish মূলত প্লেইন টেক্সট ফাইল এবং ছোট ছবি প্রক্রিয়া করে সেগুলো একটি ওয়েবসাইটে দেখার জন্য উপস্থাপন করতে ডিজাইন করা হয়েছে। Obsidian Publish বড় ফাইল সাইজের মিডিয়া, যেমন উচ্চ-রেজোলিউশনের ইমেজ গ্যালারি এবং ভিডিও হোস্ট করার জন্য ডিজাইন করা হয়নি। এর জন্য আমরা আপনার অ্যাসেট একটি ডেডিকেটেড CDN-এ হোস্ট করার পরামর্শ দিই।
 
-### Frequently asked questions
+### প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী
 
-**Does every employee need to purchase a Publish subscription?**
-No. Only the site owner needs to purchase an Obsidian Publish subscription.
-
+**প্রতিটি কর্মচারীর কি একটি Publish সাবস্ক্রিপশন কেনার প্রয়োজন আছে?**
+না। শুধুমাত্র সাইটের মালিকেরই একটি Obsidian Publish সাবস্ক্রিপশন কেনার প্রয়োজন।

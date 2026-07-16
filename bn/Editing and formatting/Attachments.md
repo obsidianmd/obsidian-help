@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: attachments
 ---
-You can import [[Accepted file formats]], or _attachments_, to your vault, such as images, audio files, or PDFs. Attachments are regular files that you can access using your file system. Attachments can be [[Embed files|embedded]].
+আপনি আপনার ভল্টে [[Accepted file formats|_অ্যাটাচমেন্ট_]] আমদানি করতে পারেন, যেমন ছবি, অডিও ফাইল, বা পিডিএফ। অ্যাটাচমেন্ট হলো সাধারণ ফাইল যা আপনি আপনার ফাইল সিস্টেম ব্যবহার করে অ্যাক্সেস করতে পারেন। অ্যাটাচমেন্ট [[Embed files|এমবেড]] করা যায়।
 
-## Add an attachment
+## অ্যাটাচমেন্ট যোগ করা
 
-You can add attachments to your vault in multiple ways. Only [[Accepted file formats]] can be added.
+আপনি একাধিক উপায়ে আপনার ভল্টে অ্যাটাচমেন্ট যোগ করতে পারেন। শুধুমাত্র [[Accepted file formats|গ্রহণযোগ্য ফাইল ফরম্যাট]] যোগ করা যাবে।
 
-> [!todo]- Copy and paste attachments
-> You can paste attachments directly into your notes. Obsidian creates a file with the pasted content in the default attachment location and [[Embed files|embeds]] it in the note.
+> [!todo]- অ্যাটাচমেন্ট কপি ও পেস্ট করা
+> আপনি সরাসরি আপনার নোটে অ্যাটাচমেন্ট পেস্ট করতে পারেন। Obsidian পেস্ট করা কনটেন্ট দিয়ে ডিফল্ট অ্যাটাচমেন্ট লোকেশনে একটি ফাইল তৈরি করে এবং সেটি নোটে [[Embed files|এমবেড]] করে।
 
-> [!todo]- Drag and drop attachments
-> If you drag a file from your file system into an open editor, Obsidian copies the file to the default attachment location and [[Embed files|embeds]] it in the note.
+> [!todo]- অ্যাটাচমেন্ট ড্র্যাগ ও ড্রপ করা
+> যদি আপনি আপনার ফাইল সিস্টেম থেকে একটি ফাইল খোলা এডিটরে টেনে আনেন, তাহলে Obsidian ফাইলটি ডিফল্ট অ্যাটাচমেন্ট লোকেশনে কপি করে এবং সেটি নোটে [[Embed files|এমবেড]] করে।
 
- > [!todo]- Download attachments to vault folder
- > You can download an attachment directly to your vault, for example if you  [[Import notes#More formats|import from your browser]], or from other apps that saves files directly to your file system.
+ > [!todo]- ভল্ট ফোল্ডারে অ্যাটাচমেন্ট ডাউনলোড করা
+ > আপনি সরাসরি আপনার ভল্টে একটি অ্যাটাচমেন্ট ডাউনলোড করতে পারেন, উদাহরণস্বরূপ যদি আপনি [[Import notes#More formats|আপনার ব্রাউজার থেকে ইম্পোর্ট করেন]], অথবা এমন অন্যান্য অ্যাপ থেকে যা সরাসরি আপনার ফাইল সিস্টেমে ফাইল সংরক্ষণ করে।
 
-## Change default attachment location
+## ডিফল্ট অ্যাটাচমেন্ট লোকেশন পরিবর্তন করা
 
-By default, attachments are added to the root of your vault.
+ডিফল্টভাবে, অ্যাটাচমেন্ট আপনার ভল্টের রুটে যোগ করা হয়।
 
-You can change the default attachment location under **[[Settings]] → Files & Links → Default location for new attachments**.
+আপনি **[[Settings]] → Files & Links → Default location for new attachments**-এর অধীনে ডিফল্ট অ্যাটাচমেন্ট লোকেশন পরিবর্তন করতে পারেন।
 
-- **Vault folder** adds the attachment to the root of your vault.
-- **In the folder specified below** adds the attachment to a specified folder.
-- **Same folder as current file** adds the attachment to the same folder as the note you added it to.
-- **In subfolder under current folder** adds attachments to a specified folder next to the note you added the attachment to. If it doesn't exist, Obsidian creates it when you add an attachment.
+- **Vault folder** অ্যাটাচমেন্টটিকে আপনার ভল্টের রুটে যোগ করে।
+- **In the folder specified below** অ্যাটাচমেন্টটিকে একটি নির্দিষ্ট ফোল্ডারে যোগ করে।
+- **Same folder as current file** অ্যাটাচমেন্টটিকে যে নোটে আপনি এটি যোগ করেছেন, সেই একই ফোল্ডারে যোগ করে।
+- **In subfolder under current folder** অ্যাটাচমেন্টটিকে যে নোটে আপনি এটি যোগ করেছেন, তার পাশে একটি নির্দিষ্ট ফোল্ডারে যোগ করে। যদি সেটি বিদ্যমান না থাকে, তাহলে আপনি একটি অ্যাটাচমেন্ট যোগ করার সময় Obsidian সেটি তৈরি করে।

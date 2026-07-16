@@ -1,49 +1,48 @@
 ---
-localized: null
 permalink: configuration-folder
 publish: true
 mobile: true
-description: Learn how to access and manage your configuration folder on desktop and mobile devices.
+description: ডেস্কটপ এবং মোবাইল ডিভাইসে আপনার কনফিগারেশন ফোল্ডার কীভাবে অ্যাক্সেস ও পরিচালনা করবেন তা জানুন।
 ---
 
-Obsidian's configuration folder contains all the settings files pertaining to your [[Manage vaults|vault]].
+Obsidian-এর কনফিগারেশন ফোল্ডারে আপনার [[Manage vaults|ভল্ট]] সংক্রান্ত সমস্ত সেটিংস ফাইল থাকে।
 
-By default, your configuration folder is named `.obsidian` and placed in the vault folder. When using a syncing service, or if you wish to test different profiles in the same vault, you may want to change your config folder. 
+ডিফল্টভাবে, আপনার কনফিগারেশন ফোল্ডারের নাম `.obsidian` এবং এটি ভল্ট ফোল্ডারের মধ্যে থাকে। কোনো সিঙ্ক পরিষেবা ব্যবহার করার সময়, অথবা একই ভল্টে ভিন্ন ভিন্ন প্রোফাইল পরীক্ষা করতে চাইলে, আপনি হয়তো আপনার কনফিগ ফোল্ডার পরিবর্তন করতে চাইবেন। 
 
-## Access your configuration folder
+## আপনার কনফিগারেশন ফোল্ডার অ্যাক্সেস করুন
 
-### Desktop
+### ডেস্কটপ
 
-On desktop, the `.obsidian` folder is located in your vault folder. You can access it through your system file manager.
+ডেস্কটপে, `.obsidian` ফোল্ডারটি আপনার ভল্ট ফোল্ডারের মধ্যে অবস্থিত। আপনি আপনার সিস্টেমের ফাইল ম্যানেজারের মাধ্যমে এটি অ্যাক্সেস করতে পারেন।
 
-### Mobile
+### মোবাইল
 
-Accessing the configuration folder differs by platform:
+প্ল্যাটফর্মভেদে কনফিগারেশন ফোল্ডার অ্যাক্সেস করার পদ্ধতি ভিন্ন হয়:
 
-**iOS and iPadOS**
+**iOS এবং iPadOS**
 
-There is no default way to access the `.obsidian` folder on iOS or iPadOS. To view and edit hidden files and folders, you'll need a third-party app such as:
+iOS বা iPadOS-এ `.obsidian` ফোল্ডার অ্যাক্সেস করার কোনো ডিফল্ট উপায় নেই। লুকানো ফাইল ও ফোল্ডার দেখতে এবং সম্পাদনা করতে, আপনার একটি থার্ড-পার্টি অ্যাপ প্রয়োজন হবে, যেমন:
 
-- **Taio** — Free app with basic features for viewing and editing folder and file names.
-- **Textastic** — Paid app with advanced file editing capabilities.
+- **Taio** — ফোল্ডার ও ফাইলের নাম দেখা এবং সম্পাদনার মৌলিক বৈশিষ্ট্যসহ একটি বিনামূল্যের অ্যাপ।
+- **Textastic** — উন্নত ফাইল সম্পাদনা সক্ষমতাসহ একটি পেইড অ্যাপ।
 
 **Android**
 
-To access the `.obsidian` folder on Android:
+Android-এ `.obsidian` ফোল্ডার অ্যাক্সেস করতে:
 
-1. Open your system file manager.
-2. Enable the "Show hidden files" toggle in the settings.
-3. Navigate to your vault folder. The `.obsidian` folder will appear at the top level.
+1. আপনার সিস্টেম ফাইল ম্যানেজার খুলুন।
+2. সেটিংসে "লুকানো ফাইল দেখান" টগলটি চালু করুন।
+3. আপনার ভল্ট ফোল্ডারে যান। `.obsidian` ফোল্ডারটি সর্বোচ্চ স্তরে দেখা যাবে।
 
-> [!tip]- Alternative file managers
-> If your default file manager doesn't have a "Show hidden files" option, install a file manager app that includes this feature.
+> [!tip]- বিকল্প ফাইল ম্যানেজার
+> আপনার ডিফল্ট ফাইল ম্যানেজারে যদি "লুকানো ফাইল দেখান" অপশন না থাকে, তাহলে এই বৈশিষ্ট্যসহ একটি ফাইল ম্যানেজার অ্যাপ ইনস্টল করুন।
 
-## Change your configuration folder
+## আপনার কনফিগারেশন ফোল্ডার পরিবর্তন করুন
 
-To set your config folder:
+আপনার কনফিগ ফোল্ডার সেট করতে:
 
-1. Open **[[Settings]] → Files and Links**.
-2. In **Override config folder**, type the name of your profile, starting with a period (`.`). For example, `.obsidian-awesome`.
-3. Relaunch Obsidian to have the changes take effect. 
+1. **[[Settings]] → Files and Links** খুলুন।
+2. **Override config folder**-এ, একটি পিরিয়ড (`.`) দিয়ে শুরু করে আপনার প্রোফাইলের নাম টাইপ করুন। উদাহরণস্বরূপ, `.obsidian-awesome`।
+3. পরিবর্তনগুলো কার্যকর করতে Obsidian পুনরায় চালু করুন। 
 
-> [!info] Any settings within your config folder will not transfer to your new config folder. However, your prior config folder will remain within your vault folder.
+> [!info] আপনার কনফিগ ফোল্ডারের মধ্যে থাকা কোনো সেটিংস আপনার নতুন কনফিগ ফোল্ডারে স্থানান্তরিত হবে না। তবে, আপনার পূর্ববর্তী কনফিগ ফোল্ডারটি আপনার ভল্ট ফোল্ডারের মধ্যেই থেকে যাবে।

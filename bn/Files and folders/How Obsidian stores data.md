@@ -1,54 +1,53 @@
 ---
-localized: null
 permalink: data-storage
 publish: true
 mobile: true
-description: This page explains how Obsidian stores its data on your device.
+description: এই পৃষ্ঠায় ব্যাখ্যা করা হয়েছে যে Obsidian কীভাবে আপনার ডিভাইসে তার ডেটা সংরক্ষণ করে।
 ---
 
-Obsidian stores your notes as [[Basic formatting syntax|Markdown-formatted]] plain text files in a _vault_. A vault is a folder on your local file system, including any subfolders.
+Obsidian আপনার নোটগুলো [[Basic formatting syntax|Markdown-ফরম্যাটেড]] প্লেইন টেক্সট ফাইল হিসেবে একটি _ভল্টে_ সংরক্ষণ করে। একটি ভল্ট হলো আপনার স্থানীয় ফাইল সিস্টেমের একটি ফোল্ডার, এর যেকোনো সাবফোল্ডার সহ।
 
-Because notes are plain text files, you can use other text editors and file managers to edit and manage notes. Obsidian automatically refreshes your vault to keep up with any external changes.
+যেহেতু নোটগুলো প্লেইন টেক্সট ফাইল, আপনি নোট সম্পাদনা ও পরিচালনার জন্য অন্যান্য টেক্সট এডিটর এবং ফাইল ম্যানেজার ব্যবহার করতে পারেন। বাইরের যেকোনো পরিবর্তনের সাথে তাল মিলিয়ে চলতে Obsidian স্বয়ংক্রিয়ভাবে আপনার ভল্ট রিফ্রেশ করে।
 
-You can create a vault anywhere your operating system allows. Obsidian syncs with [[Introduction to Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git, and many other third-party services.
+আপনার অপারেটিং সিস্টেম যেখানে অনুমতি দেয়, সেখানেই আপনি একটি ভল্ট তৈরি করতে পারেন। Obsidian [[Introduction to Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git এবং আরও অনেক থার্ড-পার্টি পরিষেবার সাথে সিঙ্ক করে।
 
-You can open multiple folders as individual vaults, for example to separate notes for work and school.
+আপনি একাধিক ফোল্ডারকে পৃথক পৃথক ভল্ট হিসেবে খুলতে পারেন, যেমন কাজ ও পড়াশোনার নোট আলাদা রাখার জন্য।
 
-> [!warning] Vaults within vaults
-> Because [[Internal links]] are local to a vault, we recommend that you don't create vaults within vaults. Links may not be updated correctly.
+> [!warning] ভল্টের মধ্যে ভল্ট
+> যেহেতু [[Internal links]] একটি ভল্টের মধ্যে স্থানীয়, তাই আমরা সুপারিশ করি যে আপনি ভল্টের মধ্যে ভল্ট তৈরি করবেন না। এতে লিঙ্কগুলো সঠিকভাবে আপডেট নাও হতে পারে।
 
-## Vault settings
+## ভল্ট সেটিংস
 
-Obsidian creates an `.obsidian` [[configuration folder]] in the root folder of the vault, which contains preferences specific to that vault, such as [[hotkeys]], [[themes]], and [[community plugins]].
+Obsidian ভল্টের মূল (root) ফোল্ডারে একটি `.obsidian` [[configuration folder|কনফিগারেশন ফোল্ডার]] তৈরি করে, যাতে সেই নির্দিষ্ট ভল্টের জন্য প্রযোজ্য পছন্দসমূহ থাকে, যেমন [[hotkeys|হট-কিই]], [[themes|থিম]] এবং [[community plugins|কমিউনিটি প্লাগইন]]।
 
-By default, most operating systems hide folders that start with a period (`.`), so you may need to update the settings for your file manager to see it.
+ডিফল্টভাবে, বেশিরভাগ অপারেটিং সিস্টেম পিরিয়ড (`.`) দিয়ে শুরু হওয়া ফোল্ডারগুলো লুকিয়ে রাখে, তাই এটি দেখতে আপনাকে আপনার ফাইল ম্যানেজারের সেটিংস পরিবর্তন করতে হতে পারে।
 
-- **macOS**: In Finder, press `Cmd+Shift+.` (period) to show hidden files.
-- **Windows**: [Show hidden files](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
-+ **GNU/Linux:** In most File Explorers, press `Ctrl + h` to show hidden files.
+- **macOS**: Finder-এ, লুকানো ফাইল দেখাতে `Cmd+Shift+.` (পিরিয়ড) চাপুন।
+- **Windows**: [লুকানো ফাইল দেখান](https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2)
++ **GNU/Linux:** বেশিরভাগ ফাইল এক্সপ্লোরারে, লুকানো ফাইল দেখাতে `Ctrl + h` চাপুন।
 
-> [!tip] Adding `.obsidian` to Git
-> The `.obsidian/workspace.json` and `.obsidian/workspaces.json` files store the current workspace layout and update whenever you open a new file. If you use [Git](https://git-scm.com) to manage your vault, you might want to add these files to `.gitignore`.
+> [!tip] `.obsidian`-কে Git-এ যুক্ত করা
+> `.obsidian/workspace.json` এবং `.obsidian/workspaces.json` ফাইলগুলো বর্তমান ওয়ার্কস্পেস লেআউট সংরক্ষণ করে এবং আপনি যখনই কোনো নতুন ফাইল খোলেন তখন আপডেট হয়। আপনার ভল্ট পরিচালনার জন্য [Git](https://git-scm.com) ব্যবহার করলে, আপনি হয়তো এই ফাইলগুলোকে `.gitignore`-এ যুক্ত করতে চাইবেন।
 
-## Global settings
+## গ্লোবাল সেটিংস
 
-Obsidian stores global settings in a system folder. The location of the system folder depends on the operating system you're using.
+Obsidian গ্লোবাল সেটিংস একটি সিস্টেম ফোল্ডারে সংরক্ষণ করে। সিস্টেম ফোল্ডারের অবস্থান আপনি কোন অপারেটিং সিস্টেম ব্যবহার করছেন তার ওপর নির্ভর করে।
 
 - **macOS**: `/Users/yourusername/Library/Application Support/obsidian`
 - **Windows**: `%APPDATA%\Obsidian\`
-- **Linux**: `$XDG_CONFIG_HOME/obsidian/` or `~/.config/obsidian/`
+- **Linux**: `$XDG_CONFIG_HOME/obsidian/` অথবা `~/.config/obsidian/`
 
-> [!warning] Don't create a vault in the system folder. This may lead to corrupted data or data loss.
+> [!warning] সিস্টেম ফোল্ডারে ভল্ট তৈরি করবেন না। এতে ডেটা নষ্ট হয়ে যাওয়া বা হারিয়ে যাওয়ার ঝুঁকি থাকতে পারে।
 
 ## IndexedDB
 
-IndexedDB is a low-level, client-side database that Obsidian uses for backend storage. It helps maintain the state of [[Introduction to Obsidian Sync|Obsidian Sync]] connections, and preserves the [[#Metadata cache]] when the application is closed. 
+IndexedDB হলো একটি লো-লেভেল, ক্লায়েন্ট-সাইড ডেটাবেস যা Obsidian ব্যাকএন্ড স্টোরেজের জন্য ব্যবহার করে। এটি [[Introduction to Obsidian Sync|Obsidian Sync]] সংযোগের অবস্থা বজায় রাখতে সাহায্য করে, এবং অ্যাপ্লিকেশন বন্ধ থাকা অবস্থায় [[#Metadata cache|মেটাডেটা ক্যাশ]] সংরক্ষণ করে রাখে। 
 
-> [!warning] If Apple's [Lockdown Mode](<https://support.apple.com/en-us/105120>) is enabled and Obsidian is not excluded, these database files will not save, requiring reindexing each time the app starts.
+> [!warning] যদি Apple-এর [লকডাউন মোড](<https://support.apple.com/en-us/105120>) সক্রিয় থাকে এবং Obsidian বাদ না দেওয়া হয়, তাহলে এই ডেটাবেস ফাইলগুলো সংরক্ষিত হবে না, ফলে অ্যাপ চালু হওয়ার প্রতিবার পুনরায় ইনডেক্স করতে হবে।
 
-### Metadata cache
+### মেটাডেটা ক্যাশ
 
-In order to provide a fast experience while using the app, Obsidian maintains a local record of metadata about the files in your vault called the **metadata cache**. This metadata powers many things across the app, from the Graph view to the Outline view.
+অ্যাপ ব্যবহারের সময় দ্রুত অভিজ্ঞতা প্রদানের জন্য, Obsidian আপনার ভল্টের ফাইলগুলো সম্পর্কে মেটাডেটার একটি স্থানীয় রেকর্ড বজায় রাখে, যাকে বলা হয় **মেটাডেটা ক্যাশ**। এই মেটাডেটা অ্যাপ জুড়ে অনেক কিছু চালিত করে, গ্রাফ ভিউ থেকে শুরু করে রূপরেখা ভিউ পর্যন্ত।
 
-Obsidian keeps this cache in sync with the files in your vault, but it is possible for the data to get out of sync with the underlying files. In the event that this happens to your vault, you can rebuild your metadata cache from the app settings in the *Files and links* section.
+Obsidian এই ক্যাশটিকে আপনার ভল্টের ফাইলগুলোর সাথে সিঙ্কে রাখে, তবে ডেটা অন্তর্নিহিত ফাইলগুলোর সাথে সিঙ্কের বাইরে চলে যাওয়া সম্ভব। আপনার ভল্টে এমনটি ঘটলে, আপনি *Files and links* বিভাগের অ্যাপ সেটিংস থেকে আপনার মেটাডেটা ক্যাশ পুনর্নির্মাণ করতে পারেন।
 

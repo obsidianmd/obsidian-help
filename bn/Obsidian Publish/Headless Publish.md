@@ -1,23 +1,22 @@
 ---
-localized: null
 permalink: publish/headless
 cssclasses:
   - reference
-description: Obsidian Publish offers a headless client to publish vaults without using the desktop app. Useful for CI pipelines and automated workflows.
+description: Obsidian Publish ডেস্কটপ অ্যাপ ব্যবহার না করে ভল্ট প্রকাশ করার জন্য একটি হেডলেস ক্লায়েন্ট সরবরাহ করে। CI পাইপলাইন এবং স্বয়ংক্রিয় ওয়ার্কফ্লোর জন্য উপযোগী।
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] offers a headless client to publish vaults without using the desktop app. Useful for CI pipelines and automated workflows. Publish your latest changes on a schedule or as part of a build pipeline.
+[[Introduction to Obsidian Publish|Obsidian Publish]] ডেস্কটপ অ্যাপ ব্যবহার না করে ভল্ট প্রকাশ করার জন্য একটি হেডলেস ক্লায়েন্ট সরবরাহ করে। CI পাইপলাইন এবং স্বয়ংক্রিয় ওয়ার্কফ্লোর জন্য উপযোগী। একটি নির্ধারিত সময়সূচি অনুযায়ী বা একটি বিল্ড পাইপলাইনের অংশ হিসেবে আপনার সর্বশেষ পরিবর্তনগুলো প্রকাশ করুন।
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Publish|Obsidian Publish]] from the command line without the Obsidian desktop app.
+Obsidian ডেস্কটপ অ্যাপ ছাড়াই কমান্ড লাইন থেকে [[Introduction to Obsidian Publish|Obsidian Publish]]-এর সাথে ইন্টার‍্যাক্ট করতে [[Obsidian Headless]] **(ওপেন বিটা)** ইনস্টল করুন।
 
-## Quick start
+## দ্রুত শুরু
 
-Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
+[[Obsidian Headless|Obsidian Headless]] **(ওপেন বিটা)** ইনস্টল করুন:
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Introduction to Obsidian Publish|Obsidian Publish subscription]].
+আপনার একটি সক্রিয় [[Introduction to Obsidian Publish|Obsidian Publish সাবস্ক্রিপশন]] থাকতে হবে।
 
 ```shell
 # Login
@@ -37,98 +36,98 @@ ob publish --dry-run
 ob publish
 ```
 
-## Commands
+## কমান্ড
 
 ### `ob publish-list-sites`
 
-List all Publish sites available to your account.
+আপনার অ্যাকাউন্টের জন্য উপলব্ধ সকল Publish সাইটের তালিকা দেখায়।
 
 ### `ob publish-create-site`
 
-Create a new Publish site.
+একটি নতুন Publish সাইট তৈরি করে।
 
 ```
 ob publish-create-site --slug <slug>
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--slug` | URL identifier for your site (e.g. `my-notes` creates `publish.obsidian.md/my-notes`) |
+| `--slug` | আপনার সাইটের জন্য URL শনাক্তকারী (যেমন `my-notes` তৈরি করে `publish.obsidian.md/my-notes`) |
 
 ### `ob publish-setup`
 
-Connect a local vault to a Publish site.
+একটি স্থানীয় ভল্টকে একটি Publish সাইটের সাথে সংযুক্ত করে।
 
 ```
 ob publish-setup [--site <id-or-slug>] [--path <local-path>]
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--site` | Site ID or slug |
-| `--path` | Local vault path (default: current directory) |
+| `--site` | সাইট ID বা স্লাগ |
+| `--path` | স্থানীয় ভল্টের পাথ (ডিফল্ট: বর্তমান ডিরেক্টরি) |
 
 ### `ob publish`
 
-Publish vault changes to your site. By default, only files with `publish: true` in their frontmatter are included.
+আপনার সাইটে ভল্টের পরিবর্তনগুলো প্রকাশ করে। ডিফল্টভাবে, শুধুমাত্র যে ফাইলগুলোর ফ্রন্টম্যাটারে `publish: true` আছে সেগুলো অন্তর্ভুক্ত করা হয়।
 
 ```
 ob publish [--path <local-path>] [--all] [--dry-run] [--yes]
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--all` | Include all files, not just those with a publish flag |
-| `--dry-run` | Show changes without publishing |
-| `--yes` | Publish without prompting for confirmation |
+| `--path` | স্থানীয় ভল্টের পাথ (ডিফল্ট: বর্তমান ডিরেক্টরি) |
+| `--all` | শুধুমাত্র publish ফ্ল্যাগযুক্ত ফাইল নয়, সব ফাইল অন্তর্ভুক্ত করুন |
+| `--dry-run` | প্রকাশ না করেই পরিবর্তনগুলো দেখান |
+| `--yes` | নিশ্চিতকরণ ছাড়া প্রকাশ করুন |
 
 ### `ob publish-config`
 
-View or change include/exclude folder settings for a vault. Run with no options to display the current configuration.
+একটি ভল্টের জন্য include/exclude ফোল্ডার সেটিংস দেখুন বা পরিবর্তন করুন। বর্তমান কনফিগারেশন দেখতে কোনো অপশন ছাড়াই চালান।
 
 ```
 ob publish-config [--path <local-path>] [options]
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--includes` | Folders to include, comma-separated (empty string to clear) |
-| `--excludes` | Folders to exclude, comma-separated (empty string to clear) |
+| `--path` | স্থানীয় ভল্টের পাথ (ডিফল্ট: বর্তমান ডিরেক্টরি) |
+| `--includes` | অন্তর্ভুক্ত করার ফোল্ডার, কমা দিয়ে আলাদা করা (খালি করতে ফাঁকা স্ট্রিং দিন) |
+| `--excludes` | বাদ দেওয়ার ফোল্ডার, কমা দিয়ে আলাদা করা (খালি করতে ফাঁকা স্ট্রিং দিন) |
 
 ### `ob publish-site-options`
 
-View or update site-wide display and navigation settings. Run with no options to display the current settings.
+একটি ভল্টের জন্য সাইট-ব্যাপী প্রদর্শন ও নেভিগেশন সেটিংস দেখুন বা আপডেট করুন। বর্তমান সেটিংস দেখতে কোনো অপশন ছাড়াই চালান।
 
 ```
 ob publish-site-options [--path <local-path>] [options]
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--site-name` | Site name |
-| `--index-file` | Home page file path |
-| `--logo` | Logo file path (empty string to clear) |
-| `--show-navigation` | Show navigation sidebar |
-| `--show-graph` | Show graph view |
-| `--show-outline` | Show table of contents |
-| `--show-search` | Show search |
-| `--show-backlinks` | Show backlinks |
-| `--show-hover-preview` | Show hover preview |
-| `--show-theme-toggle` | Show theme toggle |
-| `--default-theme` | Default theme: `light` or `dark` |
-| `--readable-line-length` | Readable line length |
-| `--strict-line-breaks` | Strict line breaks |
-| `--hide-title` | Hide inline title |
-| `--sliding-window` | Sliding window mode |
-| `--nav-order` | Navigation order, comma-separated paths (empty string to clear) |
-| `--nav-hidden` | Hidden navigation items, comma-separated paths (empty string to clear) |
+| `--path` | স্থানীয় ভল্টের পাথ (ডিফল্ট: বর্তমান ডিরেক্টরি) |
+| `--site-name` | সাইটের নাম |
+| `--index-file` | হোমপেজ ফাইলের পাথ |
+| `--logo` | লোগো ফাইলের পাথ (খালি করতে ফাঁকা স্ট্রিং দিন) |
+| `--show-navigation` | নেভিগেশন সাইডবার দেখান |
+| `--show-graph` | গ্রাফ ভিউ দেখান |
+| `--show-outline` | সূচিপত্র দেখান |
+| `--show-search` | অনুসন্ধান দেখান |
+| `--show-backlinks` | ব্যাকলিঙ্ক দেখান |
+| `--show-hover-preview` | হোভার প্রিভিউ দেখান |
+| `--show-theme-toggle` | থিম টগল দেখান |
+| `--default-theme` | ডিফল্ট থিম: `light` বা `dark` |
+| `--readable-line-length` | পাঠযোগ্য লাইন দৈর্ঘ্য |
+| `--strict-line-breaks` | যথাযথ লাইন বিরতি |
+| `--hide-title` | ইনলাইন শিরোনাম লুকান |
+| `--sliding-window` | স্লাইডিং উইন্ডো মোড |
+| `--nav-order` | নেভিগেশন ক্রম, কমা দিয়ে আলাদা করা পাথ (খালি করতে ফাঁকা স্ট্রিং দিন) |
+| `--nav-hidden` | লুকানো নেভিগেশন আইটেম, কমা দিয়ে আলাদা করা পাথ (খালি করতে ফাঁকা স্ট্রিং দিন) |
 
 ### `ob publish-unlink`
 
-Disconnect a vault from a Publish site.
+একটি ভল্টকে একটি Publish সাইট থেকে বিচ্ছিন্ন করে।
 
 ```
 ob publish-unlink [--path <local-path>]

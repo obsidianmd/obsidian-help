@@ -1,82 +1,80 @@
 ---
-localized: null
 permalink: teams/license
 ---
-Obsidian is free to use and is 100% user-supported. Organizations can choose to support Obsidian by purchasing Commercial licenses.
+Obsidian ব্যবহার করা বিনামূল্যে এবং এটি ১০০% ব্যবহারকারী-সমর্থিত। প্রতিষ্ঠানগুলি Commercial লাইসেন্স কিনে Obsidian-কে সমর্থন করতে বেছে নিতে পারে।
 
-Organizations that support Obsidian can be featured on our [Enterprise page](https://obsidian.md/enterprise/) by purchasing 25 or more licenses.
+যেসব প্রতিষ্ঠান ২৫টি বা তার বেশি লাইসেন্স কিনে Obsidian-কে সমর্থন করে, তাদের আমাদের [Enterprise পেজে](https://obsidian.md/enterprise/) তুলে ধরা হতে পারে।
 
-Commercial licenses **are not** eligible for a refund per our [[Refund policy]].
+আমাদের [[Refund policy]] অনুযায়ী Commercial লাইসেন্স রিফান্ডের জন্য যোগ্য **নয়**।
 
-## Purchase a commercial license
+## একটি কমার্শিয়াল লাইসেন্স কিনুন
 
-Obsidian offers two methods for [purchasing](https://obsidian.md/pricing) a commercial license.
+Commercial লাইসেন্স [কেনার](https://obsidian.md/pricing) জন্য Obsidian দুটি পদ্ধতি অফার করে।
 
-**Purchasing using an Obsidian account**
+**Obsidian অ্যাকাউন্ট ব্যবহার করে কেনা**
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account/commercial).
-2. Go to the **License** section.
-3. Click **Buy license** and select the number of seats to purchase.
-4. Complete the payment process.
-5. Your license key will be displayed and can be activated using the steps below.
+1. লগ ইন করুন বা [আপনার Obsidian অ্যাকাউন্ট](https://obsidian.md/account/commercial) তৈরি করুন।
+2. **License** বিভাগে যান।
+3. **Buy license**-এ ক্লিক করুন এবং কতগুলো সিট কিনতে চান তা নির্বাচন করুন।
+4. পেমেন্ট প্রক্রিয়া সম্পন্ন করুন।
+5. আপনার লাইসেন্স কী প্রদর্শিত হবে এবং নিচের ধাপগুলি ব্যবহার করে সক্রিয় করা যাবে।
 
-If you need an invoice for this transaction, you can [[Introduction to licenses and payment#Generate an invoice|generate an invoice]].
+এই লেনদেনের জন্য যদি আপনার একটি ইনভয়েস প্রয়োজন হয়, তাহলে আপনি [[Introduction to licenses and payment#Generate an invoice|একটি ইনভয়েস তৈরি করতে পারেন]]।
 
-**Purchasing using a purchase order**
+**পারচেজ অর্ডার ব্যবহার করে কেনা**
 
-For purchases using a purchase order (PO), contact [[Help and support#Contact Obsidian support|Obsidian support]].
+পারচেজ অর্ডার (PO) ব্যবহার করে কেনার জন্য, [[Help and support#Contact Obsidian support|Obsidian সাপোর্টে]] যোগাযোগ করুন।
 
-Your PO must include:
+আপনার PO-তে অবশ্যই থাকতে হবে:
 
-- Legal Name of Your Company ("bill to" name)
-- Billing Address
-- VAT Number (optional)
-- Payment Terms (default is NET 30 days)
-- PO/Reference Number
-- Delivery Email for Licenses
-- Invoice Email for POs
-- **Preferred Payment Method**: Wire/ACH, Credit Card, or PayPal
+- আপনার কোম্পানির আইনি নাম ("bill to" নাম)
+- বিলিং ঠিকানা
+- VAT নম্বর (ঐচ্ছিক)
+- পেমেন্টের শর্তাবলী (ডিফল্ট হল NET ৩০ দিন)
+- PO/রেফারেন্স নম্বর
+- লাইসেন্সের জন্য ডেলিভারি ইমেইল
+- PO-র জন্য ইনভয়েস ইমেইল
+- **পছন্দের পেমেন্ট পদ্ধতি**: Wire/ACH, ক্রেডিট কার্ড, অথবা PayPal
 
-> [!info] Purchasing a commercial license does not include [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), or a [Catalyst license](https://obsidian.md/account/catalyst).
+> [!info] একটি কমার্শিয়াল লাইসেন্স কেনার মধ্যে [Obsidian Sync](https://obsidian.md/sync), [Obsidian Publish](https://obsidian.md/publish), বা একটি [Catalyst লাইসেন্স](https://obsidian.md/account/catalyst) অন্তর্ভুক্ত থাকে না।
 
-## Apply a commercial license
+## একটি কমার্শিয়াল লাইসেন্স প্রয়োগ করুন
 
-To optionally apply a commercial license to your Obsidian installation follow the steps below. Note that applying a commercial license does not provide any functional benefits within the app.
+আপনার Obsidian ইনস্টলেশনে ঐচ্ছিকভাবে একটি কমার্শিয়াল লাইসেন্স প্রয়োগ করতে নিচের ধাপগুলো অনুসরণ করুন। লক্ষ্য করুন যে কমার্শিয়াল লাইসেন্স প্রয়োগ করলে অ্যাপের মধ্যে কোনো কার্যকরী সুবিধা পাওয়া যায় না।
 
-1. Open the Obsidian app.
-2. Go to **[[Settings]] → General → Commercial license**.
-3. Click **Activate** and enter your license key.
-4. You're done! The app is now licensed for commercial use.
+1. Obsidian অ্যাপ খুলুন।
+2. **[[Settings]] → General → Commercial license**-এ যান।
+3. **Activate**-এ ক্লিক করুন এবং আপনার লাইসেন্স কী লিখুন।
+4. আপনার কাজ শেষ! অ্যাপটি এখন কমার্শিয়াল ব্যবহারের জন্য লাইসেন্সপ্রাপ্ত।
 
-## Supporting organizations
+## সহায়ক প্রতিষ্ঠান
 
-If your organization has purchased at least 25 commercial licenses, you can request to be featured as a [supporting organization](https://obsidian.md/enterprise/). If you would like your organization to be added or removed from the page, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+যদি আপনার প্রতিষ্ঠান অন্তত ২৫টি কমার্শিয়াল লাইসেন্স কিনে থাকে, তাহলে আপনি একটি [সহায়ক প্রতিষ্ঠান](https://obsidian.md/enterprise/) হিসেবে তুলে ধরা হওয়ার অনুরোধ করতে পারেন। আপনি যদি চান আপনার প্রতিষ্ঠানকে পেজে যোগ করা হোক বা সরিয়ে দেওয়া হোক, তাহলে দয়া করে [[Help and support#Contact Obsidian support|Obsidian সাপোর্টে যোগাযোগ করুন]]।
 
-Your logo should be provided as an SVG file, filling a 32 by 32 pixel square, and using only white, with no background color.
+আপনার লোগো একটি SVG ফাইল হিসেবে প্রদান করা উচিত, যা ৩২ বাই ৩২ পিক্সেলের একটি বর্গক্ষেত্র পূর্ণ করে এবং শুধুমাত্র সাদা রঙ ব্যবহার করে, কোনো ব্যাকগ্রাউন্ড রঙ ছাড়া।
 
-## Frequently asked questions
+## প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী
 
-**Can I buy a license for myself, or do I have to ask my company to buy it for me?**
-Yes. You can buy a license for yourself by going to your [Account dashboard](https://obsidian.md/account/commercial). Most companies allow you to submit an expense report for the purchase.
+**আমি কি নিজের জন্য একটি লাইসেন্স কিনতে পারি, নাকি আমাকে আমার কোম্পানিকে এটি কেনার জন্য বলতে হবে?**
+হ্যাঁ। আপনি আপনার [অ্যাকাউন্ট ড্যাশবোর্ডে](https://obsidian.md/account/commercial) গিয়ে নিজের জন্য একটি লাইসেন্স কিনতে পারেন। বেশিরভাগ কোম্পানি ক্রয়ের জন্য একটি এক্সপেন্স রিপোর্ট জমা দেওয়ার অনুমতি দেয়।
 
-Some companies may have a different procurement process. Reach out to your IT department to determine their specific procedures. 
+কিছু কোম্পানির ভিন্ন সংগ্রহ প্রক্রিয়া থাকতে পারে। তাদের নির্দিষ্ট পদ্ধতি জানতে আপনার IT বিভাগের সাথে যোগাযোগ করুন।
 
-**What business name should I use if I'm purchasing the license myself?**
-Use your company's name for the license if you expect to be reimbursed by your company. 
+**আমি যদি নিজে লাইসেন্স কিনি, তাহলে কোন ব্যবসায়িক নাম ব্যবহার করা উচিত?**
+আপনি যদি আপনার কোম্পানির কাছ থেকে অর্থ ফেরত পাওয়ার আশা করেন, তাহলে লাইসেন্সের জন্য আপনার কোম্পানির নাম ব্যবহার করুন।
 
-Otherwise, use your legal name as the business name.
+অন্যথায়, আপনার আইনি নাম ব্যবসায়িক নাম হিসেবে ব্যবহার করুন।
 
-**Can I purchase a commercial license for multiple employees?**
-Yes. You can purchase multiple commercial license seats through your [Account dashboard](https://obsidian.md/account/commercial). There is no need for each employee to have their own Obsidian account, you can use a single admin account to purchase all the seats.
+**আমি কি একাধিক কর্মচারীর জন্য একটি কমার্শিয়াল লাইসেন্স কিনতে পারি?**
+হ্যাঁ। আপনি আপনার [অ্যাকাউন্ট ড্যাশবোর্ডের](https://obsidian.md/account/commercial) মাধ্যমে একাধিক কমার্শিয়াল লাইসেন্স সিট কিনতে পারেন। প্রতিটি কর্মচারীর নিজস্ব Obsidian অ্যাকাউন্ট থাকার প্রয়োজন নেই, আপনি সমস্ত সিট কিনতে একটি একক অ্যাডমিন অ্যাকাউন্ট ব্যবহার করতে পারেন।
 
-After purchasing the license, you will receive a license key which you can send to employees to activate their license — see instructions above to activate the license.
+লাইসেন্স কেনার পর, আপনি একটি লাইসেন্স কী পাবেন যা আপনি কর্মচারীদের কাছে তাদের লাইসেন্স সক্রিয় করার জন্য পাঠাতে পারেন — লাইসেন্স সক্রিয় করার নির্দেশাবলীর জন্য উপরে দেখুন।
 
-**Am I required to purchase a commercial license for every employee?**
-No. Obsidian is 100% free to use and so there is no minimum seat count purchase required. 
+**আমাকে কি প্রতিটি কর্মচারীর জন্য একটি কমার্শিয়াল লাইসেন্স কিনতে হবে?**
+না। Obsidian ব্যবহার করা ১০০% বিনামূল্যে, তাই কোনো ন্যূনতম সিট সংখ্যা কেনার প্রয়োজন নেই।
 
-**Can I use the commercial license I purchased on both my work phone and work computer?**
-Yes. The commercial license is charged per seat count, not per device. This means you can use the same license key on all your individual work devices.
+**আমি যে কমার্শিয়াল লাইসেন্স কিনেছি তা কি আমার কাজের ফোন এবং কাজের কম্পিউটার উভয়েই ব্যবহার করতে পারি?**
+হ্যাঁ। কমার্শিয়াল লাইসেন্সের মূল্য প্রতি সিট অনুযায়ী নেওয়া হয়, প্রতি ডিভাইস অনুযায়ী নয়। এর মানে হল আপনি আপনার সমস্ত ব্যক্তিগত কাজের ডিভাইসে একই লাইসেন্স কী ব্যবহার করতে পারবেন।
 
-**I work in a highly secure environment, in an air-gapped network. How do I apply my commercial license?**
-In such specialized environments, you don't need to apply the commercial license directly to your installation.
-
+**আমি একটি উচ্চ-নিরাপত্তাযুক্ত পরিবেশে, একটি এয়ার-গ্যাপড নেটওয়ার্কে কাজ করি। আমি কীভাবে আমার কমার্শিয়াল লাইসেন্স প্রয়োগ করব?**
+এই ধরনের বিশেষায়িত পরিবেশে, আপনার ইনস্টলেশনে সরাসরি কমার্শিয়াল লাইসেন্স প্রয়োগ করার প্রয়োজন নেই।

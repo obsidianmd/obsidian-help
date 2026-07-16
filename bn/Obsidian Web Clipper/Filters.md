@@ -1,383 +1,382 @@
 ---
-localized: null
 permalink: web-clipper/filters
 ---
-Filters allow you to modify [[variables]] in [[Obsidian Web Clipper/Templates|Web Clipper templates]]. Filters are applied to variables using the syntax `{{variable|filter}}`.
+ফিল্টার আপনাকে [[Obsidian Web Clipper/Templates|Web Clipper টেমপ্লেটে]] [[variables]] পরিবর্তন করতে দেয়। `{{variable|filter}}` সিনট্যাক্স ব্যবহার করে ভেরিয়েবলে ফিল্টার প্রয়োগ করা হয়।
 
-- Filters work for any kind of [[Variables|variable]] including `prompt`, `meta`, `selector`, and `schema` variables.
-- Filters can be chained, e.g. `{{variable|filter1|filter2}}`, and are applied in the order they are added.
+- `prompt`, `meta`, `selector`, এবং `schema` ভেরিয়েবলসহ যেকোনো ধরনের [[Variables|ভেরিয়েবলের]] জন্য ফিল্টার কাজ করে।
+- ফিল্টার চেইন করা যায়, যেমন `{{variable|filter1|filter2}}`, এবং সেগুলো যে ক্রমে যোগ করা হয় সেই ক্রমে প্রয়োগ হয়।
 
-## Dates
+## তারিখ
 
-Convert and modify dates.
+তারিখ রূপান্তর ও পরিবর্তন করুন।
 
 ### `date`
 
-Converts a date to the specified format, [see reference](https://day.js.org/docs/en/display/format).
+একটি তারিখকে নির্দিষ্ট ফরম্যাটে রূপান্তর করে, [রেফারেন্স দেখুন](https://day.js.org/docs/en/display/format)।
 
-- `{{date|date:"YYYY-MM-DD"}}` converts the current date to "YYYY-MM-DD".
-- Use `date:("outputFormat", "inputFormat")` to specify the input format, e.g. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` parses "12/01/2024" and returns `"2024-12-01"`.
+- `{{date|date:"YYYY-MM-DD"}}` বর্তমান তারিখকে "YYYY-MM-DD"-তে রূপান্তর করে।
+- ইনপুট ফরম্যাট নির্দিষ্ট করতে `date:("outputFormat", "inputFormat")` ব্যবহার করুন, যেমন `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` "12/01/2024" পার্স করে `"2024-12-01"` ফেরত দেয়।
 
 ### `date_modify` 
 
-Modifies a date by adding or subtracting a specified amount of time, [see reference](https://day.js.org/docs/en/manipulate/add).
+একটি তারিখে নির্দিষ্ট পরিমাণ সময় যোগ বা বিয়োগ করে পরিবর্তন করে, [রেফারেন্স দেখুন](https://day.js.org/docs/en/manipulate/add)।
 
-- `"2024-12-01"|date_modify:"+1 year"` returns `"2025-12-01"`
-- `"2024-12-01"|date_modify:"- 2 months"` returns `"2024-10-01"`
+- `"2024-12-01"|date_modify:"+1 year"` ফেরত দেয় `"2025-12-01"`
+- `"2024-12-01"|date_modify:"- 2 months"` ফেরত দেয় `"2024-10-01"`
 
 ### `duration`
 
-Converts ISO 8601 duration strings or seconds into formatted time strings. Uses tokens: `HH` (padded hours), `H` (hours), `mm` (padded minutes), `m` (minutes), `ss` (padded seconds), `s` (seconds).
+ISO 8601 duration স্ট্রিং বা সেকেন্ডকে ফরম্যাট করা সময়ের স্ট্রিংয়ে রূপান্তর করে। টোকেন ব্যবহার করে: `HH` (প্যাডেড ঘণ্টা), `H` (ঘণ্টা), `mm` (প্যাডেড মিনিট), `m` (মিনিট), `ss` (প্যাডেড সেকেন্ড), `s` (সেকেন্ড)।
 
-- `"PT1H30M"|duration:"HH:mm:ss"` returns `"01:30:00"`.
-- `"3665"|duration:"H:mm:ss"` returns `"1:01:05"`.
-- Setting `duration` without any parameters uses `HH:mm:ss` over 1 hour, `mm:ss` under 1 hour.
-- Supports both ISO 8601 duration strings (e.g., `PT6702S`, `PT1H30M`) and plain seconds.
+- `"PT1H30M"|duration:"HH:mm:ss"` ফেরত দেয় `"01:30:00"`।
+- `"3665"|duration:"H:mm:ss"` ফেরত দেয় `"1:01:05"`।
+- কোনো প্যারামিটার ছাড়া `duration` সেট করলে ১ ঘণ্টার বেশি হলে `HH:mm:ss`, ১ ঘণ্টার কম হলে `mm:ss` ব্যবহার করে।
+- ISO 8601 duration স্ট্রিং (যেমন, `PT6702S`, `PT1H30M`) এবং সাধারণ সেকেন্ড উভয়ই সমর্থন করে।
 
-## Text conversion and capitalization
+## টেক্সট রূপান্তর ও ক্যাপিটালাইজেশন
 
-Convert text strings from one format to another.
+টেক্সট স্ট্রিং এক ফরম্যাট থেকে অন্য ফরম্যাটে রূপান্তর করুন।
 
 ### `camel`
 
-Converts text to `camelCase`.
+টেক্সটকে `camelCase`-এ রূপান্তর করে।
 
 ### `capitalize`
 
-Capitalizes the first character of the value and converts the rest to lowercase, e.g. `"hELLO wORLD"|capitalize` returns `"Hello world"`.
+মানের প্রথম অক্ষর ক্যাপিটালাইজ করে এবং বাকিটা ছোট হাতের অক্ষরে রূপান্তর করে, যেমন `"hELLO wORLD"|capitalize` ফেরত দেয় `"Hello world"`।
 
 ### `decode_uri`
 
-Decodes a URI-encoded string, e.g. `"%E4%BD%A0%E5%A5%BD"|decode_uri` returns `"你好"`.
+একটি URI-এনকোডেড স্ট্রিং ডিকোড করে, যেমন `"%E4%BD%A0%E5%A5%BD"|decode_uri` ফেরত দেয় `"你好"`।
 
-- `"hello%20world"|decode_uri` returns `"hello world"`.
-- Returns the original string if decoding fails (e.g. malformed URI sequences).
+- `"hello%20world"|decode_uri` ফেরত দেয় `"hello world"`।
+- ডিকোডিং ব্যর্থ হলে (যেমন ত্রুটিপূর্ণ URI সিকোয়েন্স) মূল স্ট্রিং ফেরত দেয়।
 
 ### `kebab`
 
-Converts text to `kebab-case`.
+টেক্সটকে `kebab-case`-এ রূপান্তর করে।
 
 ### `lower`
 
-Converts text to `lowercase`.
+টেক্সটকে `lowercase`-এ রূপান্তর করে।
 
 ### `pascal`
 
-Converts text to `PascalCase`.
+টেক্সটকে `PascalCase`-এ রূপান্তর করে।
 
 ### `replace`
 
-Replaces occurrences of specified text:
+নির্দিষ্ট টেক্সটের উপস্থিতি প্রতিস্থাপন করে:
 
-- Simple replacement: `"hello!"|replace:",":""` removes all commas.
-- Multiple replacements: `"hello world"|replace:("e":"a","o":"0")` returns `"hall0 w0rld"`.
-- Replacements are applied in the order they are specified.
-- To remove specified text, use `""` as the replacement value.
-- Special characters including `: | { } ( ) ' "` should be escaped with a backslash when used in the search term, e.g. `\:` to search for a literal colon.
+- সাধারণ প্রতিস্থাপন: `"hello!"|replace:",":""` সব কমা সরিয়ে দেয়।
+- একাধিক প্রতিস্থাপন: `"hello world"|replace:("e":"a","o":"0")` ফেরত দেয় `"hall0 w0rld"`।
+- নির্দিষ্ট করা ক্রমেই প্রতিস্থাপন প্রয়োগ হয়।
+- নির্দিষ্ট টেক্সট সরাতে, প্রতিস্থাপন মান হিসেবে `""` ব্যবহার করুন।
+- সার্চ টার্মে ব্যবহারের সময় `: | { } ( ) ' "`-সহ বিশেষ অক্ষরগুলো ব্যাকস্ল্যাশ দিয়ে এস্কেপ করা উচিত, যেমন একটি সাধারণ কোলন খুঁজতে `\:`।
 
-Regex is supported using JavaScript regex syntax:
+JavaScript regex সিনট্যাক্স ব্যবহার করে regex সমর্থিত:
 
-- Replace all vowels: `"hello world"|replace:"/[aeiou]/g":"*"` → `"h*ll* w*rld".`
-- Case-insensitive: `"HELLO world"|replace:"/hello/i":"hi"` → `"hi world".`
-- Multiple regex: `"hello world"|replace:("/[aeiou]/g":"*","/\s+/":"-")` → `"h*ll*-w*rld"`.
-- Available flags: `g` (global), `i` (case-insensitive), `m` (multiline), `s` (dotAll), `u` (unicode), `y` (sticky).
+- সব স্বরবর্ণ প্রতিস্থাপন করুন: `"hello world"|replace:"/[aeiou]/g":"*"` → `"h*ll* w*rld".`
+- কেস-ইনসেনসিটিভ: `"HELLO world"|replace:"/hello/i":"hi"` → `"hi world".`
+- একাধিক regex: `"hello world"|replace:("/[aeiou]/g":"*","/\s+/":"-")` → `"h*ll*-w*rld"`।
+- উপলব্ধ ফ্ল্যাগ: `g` (গ্লোবাল), `i` (কেস-ইনসেনসিটিভ), `m` (মাল্টিলাইন), `s` (dotAll), `u` (ইউনিকোড), `y` (স্টিকি)।
 
 ### `safe_name`
 
-Converts text to a safe file name.
+টেক্সটকে একটি নিরাপদ ফাইল নামে রূপান্তর করে।
 
-- By default, `safe_name` applies the most conservative sanitization rules.
-- OS-specific rules can be applied with `safe_name:os` where `os` can be `windows`, `mac`, or `linux` to only apply the rules for that operating system.
+- ডিফল্টভাবে, `safe_name` সবচেয়ে রক্ষণশীল স্যানিটাইজেশন নিয়ম প্রয়োগ করে।
+- OS-নির্দিষ্ট নিয়ম প্রয়োগ করতে `safe_name:os` ব্যবহার করা যায় যেখানে `os` হতে পারে `windows`, `mac`, বা `linux`, শুধুমাত্র সেই অপারেটিং সিস্টেমের নিয়ম প্রয়োগ করতে।
 
 ### `snake`
 
-Converts text to `snake_case`.
+টেক্সটকে `snake_case`-এ রূপান্তর করে।
 
 ### `title`
 
-Converts text to `Title Case`, e.g. `"hello world"|title` returns `"Hello World"`.
+টেক্সটকে `Title Case`-এ রূপান্তর করে, যেমন `"hello world"|title` ফেরত দেয় `"Hello World"`।
 
 ### `trim`
 
-Removes white space from both ends of a string.
+একটি স্ট্রিংয়ের উভয় প্রান্ত থেকে হোয়াইট স্পেস সরিয়ে দেয়।
 
-- `"  hello world  "|trim` returns `"hello world"`.
+- `"  hello world  "|trim` ফেরত দেয় `"hello world"`।
 
 ### `uncamel`
 
-Converts camelCase or PascalCase to space-separated words, which you can further format with other filters like `title` or `capitalize`.
+camelCase বা PascalCase-কে স্পেস দিয়ে আলাদা করা শব্দে রূপান্তর করে, যা আপনি `title` বা `capitalize`-এর মতো অন্যান্য ফিল্টার দিয়ে আরও ফরম্যাট করতে পারেন।
 
-- `"camelCase"|uncamel` returns `"camel case"`.
-- `"PascalCase"|uncamel` returns `"pascal case"`.
+- `"camelCase"|uncamel` ফেরত দেয় `"camel case"`।
+- `"PascalCase"|uncamel` ফেরত দেয় `"pascal case"`।
 
 ### `upper`
 
-Converts a value to uppercase, e.g. `"hello world"|upper` returns `"HELLO WORLD"`.
+একটি মানকে বড় হাতের অক্ষরে রূপান্তর করে, যেমন `"hello world"|upper` ফেরত দেয় `"HELLO WORLD"`।
 
-## Text formatting
+## টেক্সট ফরম্যাটিং
 
-Apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] to text.
+টেক্সটে [[Basic formatting syntax]] এবং [[Advanced formatting syntax]] প্রয়োগ করুন।
 
 ### `blockquote` 
 
-Adds a Markdown quote prefix (`> `) to each line of the input.
+ইনপুটের প্রতিটি লাইনে একটি Markdown কোট প্রিফিক্স (`> `) যোগ করে।
 
 ### `callout`
 
-Creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("type", "title", foldState)}}`
+ঐচ্ছিক প্যারামিটারসহ একটি [[Callouts|কলাউট]] তৈরি করে: `{{variable|callout:("type", "title", foldState)}}`
 
-- `type` is the callout type, and defaults to "info"
-- `title` is the callout title, and defaults to empty
-- `foldState` is a boolean to set the fold state (true for folded, false for unfolded, null for not foldable)
+- `type` হলো কলাউট ধরন, এবং ডিফল্টভাবে "info"
+- `title` হলো কলাউটের শিরোনাম, এবং ডিফল্টভাবে খালি
+- `foldState` একটি বুলিয়ান যা ফোল্ড অবস্থা নির্ধারণ করে (folded-এর জন্য true, unfolded-এর জন্য false, ফোল্ড করা না গেলে null)
 
 ### `footnote`
 
-Converts an array or object into a list of Markdown footnotes.
+একটি অ্যারে বা অবজেক্টকে Markdown ফুটনোটের তালিকায় রূপান্তর করে।
 
-- For arrays: `["first item","second item"]|footnote` returns: `[^1]: first item` etc.
-- For objects: `{"First Note": "Content 1", "Second Note": "Content 2"}|footnote` returns: `[^first-note]: Content 1` etc.
+- অ্যারের জন্য: `["first item","second item"]|footnote` ফেরত দেয়: `[^1]: first item` ইত্যাদি।
+- অবজেক্টের জন্য: `{"First Note": "Content 1", "Second Note": "Content 2"}|footnote` ফেরত দেয়: `[^first-note]: Content 1` ইত্যাদি।
 
 ### `fragment_link`
 
-Converts strings and arrays into [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments) links. Defaults to "link" for the link text.
+স্ট্রিং ও অ্যারেকে [টেক্সট ফ্র্যাগমেন্ট](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments) লিঙ্কে রূপান্তর করে। লিঙ্ক টেক্সটের জন্য ডিফল্টভাবে "link" ব্যবহার করে।
 
-- `highlights|fragment_link` returns `Highlight content [link](text-fragment-url)`
-- `highlights|fragment_link:"custom title"` returns `Highlight content [custom title](text-fragment-url)`
+- `highlights|fragment_link` ফেরত দেয় `Highlight content [link](text-fragment-url)`
+- `highlights|fragment_link:"custom title"` ফেরত দেয় `Highlight content [custom title](text-fragment-url)`
 
 ### `image` 
 
-Converts strings, arrays, or objects into Markdown image syntax.
+স্ট্রিং, অ্যারে, বা অবজেক্টকে Markdown ছবির সিনট্যাক্সে রূপান্তর করে।
 
-- For strings: `"image.jpg"|image:"alt text"` returns `![alt text](image.jpg)`.
-- For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returns an array of Markdown image strings with the same alt text for all images.
-- For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object keys.
+- স্ট্রিংয়ের জন্য: `"image.jpg"|image:"alt text"` ফেরত দেয় `![alt text](image.jpg)`।
+- অ্যারের জন্য: `["image1.jpg","image2.jpg"]|image:"alt text"` সব ছবির জন্য একই alt text-সহ Markdown ছবির স্ট্রিংয়ের একটি অ্যারে ফেরত দেয়।
+- অবজেক্টের জন্য: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` অবজেক্টের কি থেকে alt text-সহ Markdown ছবির স্ট্রিং ফেরত দেয়।
 
 ### `link`
 
-Converts strings, arrays, or objects into Markdown link syntax (not to be confused with [[Filters#`wikilink`|wikilink]]).
+স্ট্রিং, অ্যারে, বা অবজেক্টকে Markdown লিঙ্ক সিনট্যাক্সে রূপান্তর করে ([[Filters#`wikilink`|wikilink]]-এর সাথে গুলিয়ে ফেলবেন না)।
 
-- For strings: `"url"|link:"author"` returns `[author](url)`.
-- For arrays: `["url1","url2"]|link:"author"` returns an array of Markdown links with the same text for all links.
-- For objects: `{"url1": "Author 1", "url2": "Author 2"}|link` returns Markdown links with the text that matches the object keys.
+- স্ট্রিংয়ের জন্য: `"url"|link:"author"` ফেরত দেয় `[author](url)`।
+- অ্যারের জন্য: `["url1","url2"]|link:"author"` সব লিঙ্কের জন্য একই টেক্সট-সহ Markdown লিঙ্কের একটি অ্যারে ফেরত দেয়।
+- অবজেক্টের জন্য: `{"url1": "Author 1", "url2": "Author 2"}|link` অবজেক্টের কি-এর সাথে মিলে যাওয়া টেক্সট-সহ Markdown লিঙ্ক ফেরত দেয়।
 
 ### `list`
 
-Converts an array to a Markdown list.
+একটি অ্যারেকে Markdown তালিকায় রূপান্তর করে।
 
-- `list` to convert to a bullet list.
-- `list:task` to convert to a task list.
-- `list:numbered` to convert to a numbered list.
-- `list:numbered-task` to convert to a task list with numbers.
+- `list` বুলেট তালিকায় রূপান্তর করতে।
+- `list:task` টাস্ক তালিকায় রূপান্তর করতে।
+- `list:numbered` নম্বরযুক্ত তালিকায় রূপান্তর করতে।
+- `list:numbered-task` নম্বরসহ টাস্ক তালিকায় রূপান্তর করতে।
 
 ### `table`
 
-Converts an array or array of objects into a [[Advanced formatting syntax#Tables|Markdown table]]:
+একটি অ্যারে বা অবজেক্টের অ্যারেকে একটি [[Advanced formatting syntax#টেবিল|Markdown টেবিলে]] রূপান্তর করে:
 
-- For an array of objects, it uses the object keys as headers.
-- For an array of arrays, it creates a table with each nested array as a row.
-- For a simple array, it creates a single-column table with "Value" as the header.
-- Custom column headers can be specified using: `table:("Column 1", "Column 2", "Column 3")`. When used with a simple array, it automatically breaks the data into rows based on the number of columns specified.
+- অবজেক্টের অ্যারের জন্য, এটি অবজেক্টের কি-গুলো হেডার হিসেবে ব্যবহার করে।
+- অ্যারের অ্যারের জন্য, এটি প্রতিটি নেস্টেড অ্যারেকে একটি সারি হিসেবে ব্যবহার করে একটি টেবিল তৈরি করে।
+- একটি সাধারণ অ্যারের জন্য, এটি "Value"-কে হেডার হিসেবে ব্যবহার করে একটি একক-কলাম টেবিল তৈরি করে।
+- `table:("Column 1", "Column 2", "Column 3")` ব্যবহার করে কাস্টম কলাম হেডার নির্দিষ্ট করা যায়। একটি সাধারণ অ্যারের সাথে ব্যবহার করা হলে, এটি নির্দিষ্ট কলাম সংখ্যার ভিত্তিতে ডেটাকে স্বয়ংক্রিয়ভাবে সারিতে ভাগ করে।
 
 ### `wikilink`
 
-Converts strings, arrays, or objects into Obsidian [[Link notes|wikilink]] syntax.
+স্ট্রিং, অ্যারে, বা অবজেক্টকে Obsidian [[Link notes|উইকিলিঙ্ক]] সিনট্যাক্সে রূপান্তর করে।
 
-- For strings: `"page"|wikilink` returns `[[page]]`.
-- For strings with alias: `"page"|wikilink:"alias"` returns `[[page|alias]]`.
-- For arrays: `["page1","page2"]|wikilink` returns an array of wikilinks without aliases.
-- For arrays with alias: `["page1","page2"]|wikilink:"alias"` returns an array of wikilinks with the same alias for all links.
-- For objects: `{"page1": "alias1", "page2": "alias2"}|wikilink` returns wikilinks with the keys as page names and values as aliases.
+- স্ট্রিংয়ের জন্য: `"page"|wikilink` ফেরত দেয় `[[page]]`।
+- অ্যালিয়াসসহ স্ট্রিংয়ের জন্য: `"page"|wikilink:"alias"` ফেরত দেয় `[[page|alias]]`।
+- অ্যারের জন্য: `["page1","page2"]|wikilink` অ্যালিয়াস ছাড়া উইকিলিঙ্কের একটি অ্যারে ফেরত দেয়।
+- অ্যালিয়াসসহ অ্যারের জন্য: `["page1","page2"]|wikilink:"alias"` সব লিঙ্কের জন্য একই অ্যালিয়াস-সহ উইকিলিঙ্কের একটি অ্যারে ফেরত দেয়।
+- অবজেক্টের জন্য: `{"page1": "alias1", "page2": "alias2"}|wikilink` কি-গুলোকে পেজের নাম এবং মানগুলোকে অ্যালিয়াস হিসেবে ব্যবহার করে উইকিলিঙ্ক ফেরত দেয়।
 
-## Numbers
+## সংখ্যা
 
 ### `calc`
 
-Performs basic arithmetic operations on numbers.
+সংখ্যার উপর সাধারণ গাণিতিক অপারেশন সম্পাদন করে।
 
-- Supports operators: `+`, `-`, `*`, `/`, `**` (or `^`) for exponentiation.
-- Example: `5|calc:"+10"` returns `15`.
-- Example: `2|calc:"**3"` returns `8` (2 cubed).
-- Returns the original string if the input is not a number.
+- অপারেটর সমর্থন করে: `+`, `-`, `*`, `/`, এক্সপোনেন্টের জন্য `**` (বা `^`)।
+- উদাহরণ: `5|calc:"+10"` ফেরত দেয় `15`।
+- উদাহরণ: `2|calc:"**3"` ফেরত দেয় `8` (2-এর কিউব)।
+- ইনপুট সংখ্যা না হলে মূল স্ট্রিং ফেরত দেয়।
 
 ### `length`
 
-Returns the length of strings, arrays, or number of keys in objects.
+স্ট্রিং, অ্যারের দৈর্ঘ্য, বা অবজেক্টের কি সংখ্যা ফেরত দেয়।
 
-- For strings: `"hello"|length` returns `5`.
-- For arrays: `["a","b","c"]|length` returns `3`.
-- For objects: `{"a":1,"b":2}|length` returns `2`.
+- স্ট্রিংয়ের জন্য: `"hello"|length` ফেরত দেয় `5`।
+- অ্যারের জন্য: `["a","b","c"]|length` ফেরত দেয় `3`।
+- অবজেক্টের জন্য: `{"a":1,"b":2}|length` ফেরত দেয় `2`।
 
 ### `round`
 
-Rounds a number to the nearest integer or to a specified number of decimal places.
+একটি সংখ্যাকে নিকটতম পূর্ণসংখ্যায় বা নির্দিষ্ট সংখ্যক দশমিক স্থানে রাউন্ড করে।
 
-- Without parameters: `3.7|round` returns `4`.
-- With decimal places specified: `3.14159|round:2` returns `3.14`.
+- প্যারামিটার ছাড়া: `3.7|round` ফেরত দেয় `4`।
+- দশমিক স্থান নির্দিষ্ট করা থাকলে: `3.14159|round:2` ফেরত দেয় `3.14`।
 
-## HTML processing
+## HTML প্রসেসিং
 
-Process HTML content and convert HTML to Markdown. Note that your input [[Variables|variable]] must contain HTML content, e.g. using `{{fullHtml}}`, `{{contentHtml}}` or a `{{selectorHtml:}}` variable.
+HTML কন্টেন্ট প্রক্রিয়া করুন এবং HTML-কে Markdown-এ রূপান্তর করুন। মনে রাখবেন আপনার ইনপুট [[Variables|ভেরিয়েবলে]] অবশ্যই HTML কন্টেন্ট থাকতে হবে, যেমন `{{fullHtml}}`, `{{contentHtml}}` বা একটি `{{selectorHtml:}}` ভেরিয়েবল ব্যবহার করে।
 
 ### `markdown` 
 
-Converts a string to an [[Obsidian Flavored Markdown]] formatted string.
+একটি স্ট্রিংকে [[Obsidian Flavored Markdown]] ফরম্যাট করা স্ট্রিংয়ে রূপান্তর করে।
 
-- Useful when combined with variables that return HTML such as `{{contentHtml}}`, `{{fullHtml}}`, and selector variables like `{{selectorHtml:cssSelector}}`.
+- `{{contentHtml}}`, `{{fullHtml}}`, এবং `{{selectorHtml:cssSelector}}`-এর মতো সিলেক্টর ভেরিয়েবলের মতো HTML ফেরত দেওয়া ভেরিয়েবলের সাথে একত্রে ব্যবহার করলে কার্যকর।
 
 ### `remove_attr` 
 
-Removes only the specified HTML attributes from tags.
+শুধুমাত্র নির্দিষ্ট HTML অ্যাট্রিবিউটগুলো ট্যাগ থেকে সরিয়ে দেয়।
 
-- Example: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returns `<div id="example">Content</div>`.
-- Multiple attributes: `{{fullHtml|remove_attr:("class,style,id")}}`
+- উদাহরণ: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` ফেরত দেয় `<div id="example">Content</div>`।
+- একাধিক অ্যাট্রিবিউট: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
 
-Removes the specified HTML elements and their content from a string.
+একটি স্ট্রিং থেকে নির্দিষ্ট HTML এলিমেন্ট এবং তাদের কন্টেন্ট সরিয়ে দেয়।
 
-- Supports tag name, class, or id, e.g. `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
-- To remove only HTML tags or attributes without removing the content use the `strip_tags` or `strip_attr` filters.
+- ট্যাগ নাম, ক্লাস, বা id সমর্থন করে, যেমন `{{fullHtml|remove_html:("img,.class-name,#element-id")}}`
+- কন্টেন্ট না সরিয়ে শুধুমাত্র HTML ট্যাগ বা অ্যাট্রিবিউট সরাতে `strip_tags` বা `strip_attr` ফিল্টার ব্যবহার করুন।
 
 ### `remove_tags` 
 
-Removes only the specified HTML tags. Keeps the content of the tags.
+শুধুমাত্র নির্দিষ্ট HTML ট্যাগগুলো সরিয়ে দেয়। ট্যাগের কন্টেন্ট রেখে দেয়।
 
-- Example: `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` returns `"<p>Hello world!</p>"`.
-- Multiple tags: `{{fullHtml|remove_tags:("a,em,strong")}}`
+- উদাহরণ: `"<p>Hello <b>world</b>!</p>"|remove_tags:"b"` ফেরত দেয় `"<p>Hello world!</p>"`।
+- একাধিক ট্যাগ: `{{fullHtml|remove_tags:("a,em,strong")}}`
 
 ### `replace_tags`
 
-Replaces HTML tags, maintaining the content and attributes of the tag.
+HTML ট্যাগ প্রতিস্থাপন করে, ট্যাগের কন্টেন্ট এবং অ্যাট্রিবিউট বজায় রাখে।
 
-- `{{fullHtml|replace_tags:"strong":"h2"}}` replaces all `<strong>` tags with `<h2>`.
+- `{{fullHtml|replace_tags:"strong":"h2"}}` সব `<strong>` ট্যাগ `<h2>` দিয়ে প্রতিস্থাপন করে।
 
 ### `strip_attr`
 
-Removes **all** HTML attributes from a string.
+একটি স্ট্রিং থেকে **সব** HTML অ্যাট্রিবিউট সরিয়ে দেয়।
 
-- Use `strip_attr:("class, id")` to keep specific attributes.
-- Example: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returns `<div id="example">Content</div>`.
+- নির্দিষ্ট অ্যাট্রিবিউট রাখতে `strip_attr:("class, id")` ব্যবহার করুন।
+- উদাহরণ: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` ফেরত দেয় `<div id="example">Content</div>`।
 
 ### `strip_md`
 
-Removes **all** Markdown formatting and returns a plain text string, e.g. turning `**text**` into `text`.
+**সব** Markdown ফরম্যাটিং সরিয়ে একটি প্লেইন টেক্সট স্ট্রিং ফেরত দেয়, যেমন `**text**`-কে `text`-এ রূপান্তর করে।
 
-- Turns formatted text into unformatted plain text, including bold, italic, highlights, headers, code, blockquotes, tables, task lists, and wikilinks.
-- Entirely removes tables, footnotes, images, and HTML elements.
+- ফরম্যাট করা টেক্সটকে আনফরম্যাটেড প্লেইন টেক্সটে রূপান্তর করে, বোল্ড, ইটালিক, হাইলাইট, হেডার, কোড, ব্লককোট, টেবিল, টাস্ক তালিকা, এবং উইকিলিঙ্কসহ।
+- টেবিল, ফুটনোট, ছবি, এবং HTML এলিমেন্ট সম্পূর্ণভাবে সরিয়ে দেয়।
 
 ### `strip_tags`
 
-Removes **all** HTML tags from a string. Content within the tag is preserved.
+একটি স্ট্রিং থেকে **সব** HTML ট্যাগ সরিয়ে দেয়। ট্যাগের ভেতরের কন্টেন্ট রক্ষিত থাকে।
 
-- Use `strip_tags:("p,strong,em")` to keep specific tags.
-- Example: `"<p>Hello <b>world</b>!</p>"|strip_tags:("b")` returns `Hello <b>world</b>!`.
+- নির্দিষ্ট ট্যাগ রাখতে `strip_tags:("p,strong,em")` ব্যবহার করুন।
+- উদাহরণ: `"<p>Hello <b>world</b>!</p>"|strip_tags:("b")` ফেরত দেয় `Hello <b>world</b>!`।
 
-## Arrays and objects
+## অ্যারে এবং অবজেক্ট
 
-Process arrays and objects.
+অ্যারে ও অবজেক্ট প্রক্রিয়া করুন।
 
 ### `first` 
 
-Returns the first element of an array as a string.
+একটি অ্যারের প্রথম এলিমেন্ট স্ট্রিং হিসেবে ফেরত দেয়।
 
-- `["a","b","c"]|first` returns `"a"`.
-- If the input is not an array, it returns the input unchanged.
+- `["a","b","c"]|first` ফেরত দেয় `"a"`।
+- ইনপুট অ্যারে না হলে, ইনপুট অপরিবর্তিত ফেরত দেয়।
 
 ### `join`
 
-Combines elements of an array into a string.
+একটি অ্যারের এলিমেন্টগুলো একটি স্ট্রিংয়ে একত্রিত করে।
 
-- `["a","b","c"]|join` returns `"a,b,c"`.
-- A custom separator can be specified: `["a","b","c"]|join:" "` returns `"a b c"`. Use `join:"\n"` to separate elements with a line break.
-- It can be useful after `split` or `slice`: `"a,b,c,d"|split:","|slice:1,3|join:" "` returns `"b c"`.
+- `["a","b","c"]|join` ফেরত দেয় `"a,b,c"`।
+- একটি কাস্টম সেপারেটর নির্দিষ্ট করা যায়: `["a","b","c"]|join:" "` ফেরত দেয় `"a b c"`। লাইন ব্রেক দিয়ে এলিমেন্ট আলাদা করতে `join:"\n"` ব্যবহার করুন।
+- `split` বা `slice`-এর পরে এটি কার্যকর হতে পারে: `"a,b,c,d"|split:","|slice:1,3|join:" "` ফেরত দেয় `"b c"`।
 
 ### `last`
 
-Returns the last element of an array as a string.
+একটি অ্যারের শেষ এলিমেন্ট স্ট্রিং হিসেবে ফেরত দেয়।
 
-- `["a","b","c"]|last` returns `"c"`.
-- If the input is not an array, it returns the input unchanged.
+- `["a","b","c"]|last` ফেরত দেয় `"c"`।
+- ইনপুট অ্যারে না হলে, ইনপুট অপরিবর্তিত ফেরত দেয়।
 
 ### `map`
 
-Applies a transformation to each element of an array using the syntax `map:item => item.property` or `map:item => item.nested.property` for nested properties.
+`map:item => item.property` অথবা নেস্টেড প্রপার্টির জন্য `map:item => item.nested.property` সিনট্যাক্স ব্যবহার করে একটি অ্যারের প্রতিটি এলিমেন্টে একটি রূপান্তর প্রয়োগ করে।
 
-- `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` returns `["obsidian", "amethyst"]`.
-- Use parentheses for object literals and complex expressions: `map:item => ({key: value})`, e.g.: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})`  returns `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`.
+- `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => item.gem` ফেরত দেয় `["obsidian", "amethyst"]`।
+- অবজেক্ট লিটারেল এবং জটিল এক্সপ্রেশনের জন্য বন্ধনী ব্যবহার করুন: `map:item => ({key: value})`, যেমন: `[{gem: "obsidian", color: "black"}, {gem: "amethyst", color: "purple"}]|map:item => ({name: item.gem, color: item.color})` ফেরত দেয় `[{name: "obsidian", color: "black"}, {name: "amethyst", color: "purple"}]`।
 
-String literals are also supported, e.g. `["rock", "pop"]|map:item => "genres/${item}"` returns `["genres/rock", "genres/pop"]`.
+স্ট্রিং লিটারেলও সমর্থিত, যেমন `["rock", "pop"]|map:item => "genres/${item}"` ফেরত দেয় `["genres/rock", "genres/pop"]`।
 
-Combine `map` with the `template` filter, e.g. `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`. For string literal maps, use `${str}` in the template, e.g. `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"`.
+`map`-কে `template` ফিল্টারের সাথে একত্রে ব্যবহার করুন, যেমন `map:item => ({name: ${item.gem}, color: item.color})|template:"- ${name} is ${color}\n"`। স্ট্রিং লিটারেল ম্যাপের জন্য, টেমপ্লেটে `${str}` ব্যবহার করুন, যেমন `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"`।
 
-Note: Built-in filters cannot be used inside `map`. This means that, for example, trimming each value of an array cannot be done with `map`.
+মনে রাখবেন: `map`-এর ভেতরে বিল্ট-ইন ফিল্টার ব্যবহার করা যায় না। এর মানে হলো, উদাহরণস্বরূপ, একটি অ্যারের প্রতিটি মান ট্রিম করা `map` দিয়ে করা যায় না।
 
 ### `merge`
 
-Adds new values to an array.
+একটি অ্যারেতে নতুন মান যোগ করে।
 
-- For arrays: `["a","b"]|merge:("c","d")` returns `["a","b","c","d"]`.
-- Single value: `["a","b"]|merge:"c"` returns `["a","b","c"]`.
-- If input is not an array, it creates a new array: `"a"|merge:("b","c")` returns `["a","b","c"]`.
-- Values can be quoted: `["a"]|merge:('b,"c,d",e')` returns `["a","b","c,d","e"]`.
+- অ্যারের জন্য: `["a","b"]|merge:("c","d")` ফেরত দেয় `["a","b","c","d"]`।
+- একক মান: `["a","b"]|merge:"c"` ফেরত দেয় `["a","b","c"]`।
+- ইনপুট অ্যারে না হলে, এটি একটি নতুন অ্যারে তৈরি করে: `"a"|merge:("b","c")` ফেরত দেয় `["a","b","c"]`।
+- মান কোট করা যায়: `["a"]|merge:('b,"c,d",e')` ফেরত দেয় `["a","b","c,d","e"]`।
 
 ### `nth`
 
-Keeps nth items in an array using CSS-style nth-child syntax and group patterns. All positions are 1-based (first item is position 1).
+CSS-স্টাইল nth-child সিনট্যাক্স এবং গ্রুপ প্যাটার্ন ব্যবহার করে একটি অ্যারের n-তম আইটেমগুলো রাখে। সব পজিশন ১-ভিত্তিক (প্রথম আইটেমের পজিশন ১)।
 
-- `array|nth:3` keeps only the 3rd element.
-- `array|nth:3n` keeps every 3rd element (3, 6, 9, etc.).
-- `array|nth:n+3` keeps the 3rd and all following elements.
+- `array|nth:3` শুধুমাত্র ৩য় এলিমেন্ট রাখে।
+- `array|nth:3n` প্রতিটি ৩য় এলিমেন্ট রাখে (৩, ৬, ৯, ইত্যাদি)।
+- `array|nth:n+3` ৩য় এবং পরবর্তী সব এলিমেন্ট রাখে।
 
-Group pattern syntax for repeating structures:
+পুনরাবৃত্তিমূলক গঠনের জন্য গ্রুপ প্যাটার্ন সিনট্যাক্স:
 
-- `array|nth:1,2,3:5` keeps positions 1, 2, 3 from each group of 5 items. Example: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returns `[1,2,3,6,7,8]`.
+- `array|nth:1,2,3:5` প্রতিটি ৫টি আইটেমের গ্রুপ থেকে পজিশন ১, ২, ৩ রাখে। উদাহরণ: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` ফেরত দেয় `[1,2,3,6,7,8]`।
 
 ### `object`
 
-Manipulates object data:
+অবজেক্ট ডেটা পরিবর্তন করে:
 
-- `object:array` converts an object to an array of key-value pairs.
-- `object:keys` returns an array of the object's keys.
-- `object:values` returns an array of the object's values.
-- Example: `{"a":1,"b":2}|object:array` returns `[["a",1],["b",2]]`.
+- `object:array` একটি অবজেক্টকে কি-ভ্যালু জোড়ার একটি অ্যারেতে রূপান্তর করে।
+- `object:keys` অবজেক্টের কি-গুলোর একটি অ্যারে ফেরত দেয়।
+- `object:values` অবজেক্টের মানগুলোর একটি অ্যারে ফেরত দেয়।
+- উদাহরণ: `{"a":1,"b":2}|object:array` ফেরত দেয় `[["a",1],["b",2]]`।
 
 ### `slice`
 
-Extracts a portion of a string or array.
+একটি স্ট্রিং বা অ্যারের একটি অংশ বের করে।
 
-- For strings: `"hello"|slice:1,4` returns `"ell"`.
-- For arrays: `["a","b","c","d"]|slice:1,3` returns `["b","c"]`.
-- If only one parameter is provided, it slices from that index to the end: `"hello"|slice:2` returns `"llo"`.
-- Negative indices count from the end: `"hello"|slice:-3` returns `"llo"`.
-- The second parameter is exclusive: `"hello"|slice:1,4` includes characters at indices 1, 2, and 3.
-- Using a negative second parameter excludes elements from the end: `"hello"|slice:0,-2` returns `"hel"`.
+- স্ট্রিংয়ের জন্য: `"hello"|slice:1,4` ফেরত দেয় `"ell"`।
+- অ্যারের জন্য: `["a","b","c","d"]|slice:1,3` ফেরত দেয় `["b","c"]`।
+- শুধুমাত্র একটি প্যারামিটার দেওয়া হলে, এটি সেই ইনডেক্স থেকে শেষ পর্যন্ত স্লাইস করে: `"hello"|slice:2` ফেরত দেয় `"llo"`।
+- নেগেটিভ ইনডেক্স শেষ থেকে গণনা করে: `"hello"|slice:-3` ফেরত দেয় `"llo"`।
+- দ্বিতীয় প্যারামিটারটি এক্সক্লুসিভ: `"hello"|slice:1,4`-এ ইনডেক্স ১, ২, এবং ৩-এর অক্ষর অন্তর্ভুক্ত।
+- নেগেটিভ দ্বিতীয় প্যারামিটার ব্যবহার করলে শেষ থেকে এলিমেন্ট বাদ যায়: `"hello"|slice:0,-2` ফেরত দেয় `"hel"`।
 
 ### `split`
 
-Divides a string into an array of substrings.
+একটি স্ট্রিংকে সাবস্ট্রিংয়ের একটি অ্যারেতে ভাগ করে।
 
-- `"a,b,c"|split:","` returns `["a","b","c"]`.
-- `"hello world"|split:" "` returns `["hello","world"]`.
-- If no separator is provided, it splits on every character: `"hello"|split` returns `["h","e","l","l","o"]`.
-- Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c"]`.
+- `"a,b,c"|split:","` ফেরত দেয় `["a","b","c"]`।
+- `"hello world"|split:" "` ফেরত দেয় `["hello","world"]`।
+- কোনো সেপারেটর দেওয়া না হলে, এটি প্রতিটি অক্ষরে ভাগ করে: `"hello"|split` ফেরত দেয় `["h","e","l","l","o"]`।
+- রেগুলার এক্সপ্রেশন সেপারেটর হিসেবে ব্যবহার করা যায়: `"a1b2c3"|split:[0-9]` ফেরত দেয় `["a","b","c"]`।
 
 ### `template`
 
-Applies a template string to an object or array of objects, using the syntax `object|template:"Template with ${variable}"`.
+`object|template:"Template with ${variable}"` সিনট্যাক্স ব্যবহার করে একটি অবজেক্ট বা অবজেক্টের অ্যারেতে একটি টেমপ্লেট স্ট্রিং প্রয়োগ করে।
 
-- Access nested properties: `{"gem":{"name":"Obsidian"}}|template:"${gem.name}"` returns `"Obsidian"`.
-- For objects: `{"gem":"obsidian","hardness":5}|template:"${gem} has a hardness of ${hardness}"` returns `"obsidian has a hardness of 5"`.
-- For arrays: `[{"gem":"obsidian","hardness":5},{"gem":"amethyst","hardness":7}]|template:"- ${gem} has a hardness of ${hardness}\n"` returns a formatted list.
+- নেস্টেড প্রপার্টি অ্যাক্সেস করুন: `{"gem":{"name":"Obsidian"}}|template:"${gem.name}"` ফেরত দেয় `"Obsidian"`।
+- অবজেক্টের জন্য: `{"gem":"obsidian","hardness":5}|template:"${gem} has a hardness of ${hardness}"` ফেরত দেয় `"obsidian has a hardness of 5"`।
+- অ্যারের জন্য: `[{"gem":"obsidian","hardness":5},{"gem":"amethyst","hardness":7}]|template:"- ${gem} has a hardness of ${hardness}\n"` একটি ফরম্যাট করা তালিকা ফেরত দেয়।
 
-Works with string literals from `map` using `${str}`:
+`map` থেকে স্ট্রিং লিটারেলের সাথে `${str}` ব্যবহার করে কাজ করে:
 
-- Example: `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"` returns a formatted list.
+- উদাহরণ: `["rock", "pop"]|map:item => "genres/${item}"|template:"- ${str}"` একটি ফরম্যাট করা তালিকা ফেরত দেয়।
 
 ### `unique`
 
-Removes duplicate values from arrays and objects.
+অ্যারে ও অবজেক্ট থেকে ডুপ্লিকেট মান সরিয়ে দেয়।
 
-- For arrays of primitives: `[1,2,2,3,3]|unique` returns `[1,2,3]`.
-- For arrays of objects: `[{"a":1},{"b":2},{"a":1}]|unique` returns `[{"a":1},{"b":2}]`.
-- For objects it removes properties with duplicate values, keeping the last occurrence's key.
-- For strings it returns the input unchanged.
+- প্রিমিটিভের অ্যারের জন্য: `[1,2,2,3,3]|unique` ফেরত দেয় `[1,2,3]`।
+- অবজেক্টের অ্যারের জন্য: `[{"a":1},{"b":2},{"a":1}]|unique` ফেরত দেয় `[{"a":1},{"b":2}]`।
+- অবজেক্টের জন্য এটি ডুপ্লিকেট মানসহ প্রপার্টি সরিয়ে দেয়, শেষবার ঘটা কি রাখে।
+- স্ট্রিংয়ের জন্য এটি ইনপুট অপরিবর্তিত ফেরত দেয়।

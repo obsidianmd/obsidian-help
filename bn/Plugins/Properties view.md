@@ -1,20 +1,19 @@
 ---
-localized: null
 permalink: plugins/properties
 publish: true
 mobile: true
-description: Properties view is a core plugin that adds two sidebar views that you can use to manage Properties.
+description: প্রপার্টি ভিউ একটি কোর প্লাগইন যা দুটি সাইডবার ভিউ যোগ করে যা আপনি প্রপার্টি পরিচালনা করতে ব্যবহার করতে পারেন।
 ---
 
-Properties view is a [[Core plugins|core plugin]] that adds two sidebar views that you can use to manage [[Properties]]:
+প্রপার্টি ভিউ একটি [[Core plugins|কোর প্লাগইন]] যা [[Properties]] পরিচালনা করতে ব্যবহারযোগ্য দুটি সাইডবার ভিউ যোগ করে:
 
-- **File properties** shows a view of the properties for the active note.
-- **All properties** shows a list of all the properties in your vault and their type.
+- **File properties** সক্রিয় নোটের প্রপার্টিগুলির একটি ভিউ দেখায়।
+- **All properties** আপনার ভল্টের সব প্রপার্টি এবং তাদের টাইপের একটি তালিকা দেখায়।
 
-## All properties view
+## All properties ভিউ
 
-With the "All properties" view you can:
+"All properties" ভিউ দিয়ে আপনি করতে পারেন:
 
-- Sort properties by name or by frequency (total number of uses in your vault).
-- Click a property to open [[Search]] view with the [[Search#Search properties|property search]] syntax pre-filled.
-- Right-click a property to rename it globally.
+- নাম বা ফ্রিকোয়েন্সি (আপনার ভল্টে ব্যবহারের মোট সংখ্যা) অনুযায়ী প্রপার্টি সাজান।
+- [[Search#প্রপার্টি অনুসন্ধান|প্রপার্টি অনুসন্ধান]] সিনট্যাক্স পূর্বে পূরণ করা অবস্থায় [[Search]] ভিউ খুলতে একটি প্রপার্টিতে ক্লিক করুন।
+- একটি প্রপার্টির নাম গ্লোবালি পরিবর্তন করতে সেটিতে ডান-ক্লিক করুন।

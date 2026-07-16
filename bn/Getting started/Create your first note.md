@@ -1,5 +1,4 @@
 ---
-localized: null
 permalink: create-note
 cssclasses:
   - soft-embed
@@ -7,15 +6,15 @@ publish: true
 mobile: false
 description: null
 ---
-Notes in Obsidian are stored as plain text files. This means your data is durable and not locked into a proprietary format. By writing your notes in plain text, they'll outlive any app—even Obsidian itself.
+Obsidian-এ নোটগুলো প্লেইন টেক্সট ফাইল হিসেবে সংরক্ষিত হয়। এর মানে হলো আপনার ডেটা টেকসই এবং কোনো মালিকানাধীন ফরম্যাটে আবদ্ধ নয়। প্লেইন টেক্সটে আপনার নোট লেখার মাধ্যমে, সেগুলো যেকোনো অ্যাপ—এমনকি Obsidian নিজেও—এর চেয়ে বেশি দিন টিকে থাকবে।
 
-## Create a new note
+## একটি নতুন নোট তৈরি করুন
 
-To create a new note:
+একটি নতুন নোট তৈরি করতে:
 
-1. Press `Ctrl+N` (or `Cmd+N` on macOS) on your keyboard.
-2. Type "Obsidian" as the name of your note and press `Enter`.
-3. Copy and paste the following text into your note:
+1. আপনার কীবোর্ডে `Ctrl+N` (বা macOS-এ `Cmd+N`) চাপুন।
+2. আপনার নোটের নাম হিসেবে "Obsidian" লিখুন এবং `Enter` চাপুন।
+3. নিচের লেখাটি কপি করে আপনার নোটে পেস্ট করুন:
 
 ```md
 Obsidian is the private and flexible writing app that adapts to the way you think.
@@ -23,22 +22,22 @@ Obsidian is the private and flexible writing app that adapts to the way you thin
 
 ![[Manage notes#^blockquote-system-limitation]]
 
-## Formatting text
+## টেক্সট ফরম্যাট করা
 
-Obsidian supports [[Basic formatting syntax|Markdown]] syntax to make text bold, italic, and add links and headings.
+টেক্সটকে বোল্ড, ইটালিক করতে এবং লিঙ্ক ও হেডিং যোগ করতে Obsidian [[Basic formatting syntax|Markdown]] সিনট্যাক্স সমর্থন করে।
 
-1. Copy and paste the following text at the top of the Obsidian note:
+1. Obsidian নোটের উপরে নিচের লেখাটি কপি করে পেস্ট করুন:
 
    > \# Sharpen your thinking.
 
-   The hash symbol (`#`) turns a line of text into a heading.
+   হ্যাশ চিহ্ন (`#`) একটি লাইনের টেক্সটকে একটি হেডিংয়ে পরিণত করে।
 
-2. In your note, select any text and press `Ctrl+B` (or `Cmd+B` on macOS) to make it bold.
+2. আপনার নোটে, যেকোনো টেক্সট নির্বাচন করুন এবং এটিকে বোল্ড করতে `Ctrl+B` (বা macOS-এ `Cmd+B`) চাপুন।
 
-To learn more about how to format your notes using Markdown, refer to [[Basic formatting syntax]].
+Markdown ব্যবহার করে আপনার নোট কীভাবে ফরম্যাট করবেন সে সম্পর্কে আরও জানতে, [[Basic formatting syntax]] দেখুন।
 
-## Learn more
+## আরও জানুন
 
-Learn how to [[Link notes|link notes]] to create a network of connected thoughts.
+সংযুক্ত চিন্তার একটি নেটওয়ার্ক তৈরি করতে কীভাবে [[Link notes|নোট লিঙ্ক করবেন]] তা জানুন।
 
-You may also want to check out the [[Sandbox vault]] to explore other features of the application.
+আপনি অ্যাপ্লিকেশনটির অন্যান্য বৈশিষ্ট্য অন্বেষণ করতে [[Sandbox vault]]ও দেখতে পারেন।

@@ -1,69 +1,68 @@
 ---
-localized: null
 permalink: 2fa
 ---
-If you have an [Obsidian account](https://obsidian.md/account) you can enable two-factor authentication (2FA) to protect your account with a second verification step.
+আপনার যদি একটি [Obsidian অ্যাকাউন্ট](https://obsidian.md/account) থাকে, তাহলে আপনি আপনার অ্যাকাউন্টকে একটি অতিরিক্ত ভেরিফিকেশন ধাপ দিয়ে সুরক্ষিত করতে দ্বি-স্তর প্রমাণীকরণ (2FA) চালু করতে পারেন।
 
-## Enable 2FA
+## 2FA চালু করুন
 
-- Log into [your Obsidian account](https://obsidian.md/account/profile) from your web browser.
-- In the **Profile** section, go to **2-factor authentication** and select **Enable**.
-- A popup window will appear to prompt you to connect an authenticator app with either a **QR code** or a **setup key**.
+- আপনার ওয়েব ব্রাউজার থেকে [আপনার Obsidian অ্যাকাউন্টে](https://obsidian.md/account/profile) লগ ইন করুন।
+- **Profile** বিভাগে, **2-factor authentication**-এ যান এবং **Enable** নির্বাচন করুন।
+- একটি পপআপ উইন্ডো আপনাকে **QR কোড** অথবা **সেটআপ কী** দিয়ে একটি অথেনটিকেটর অ্যাপ সংযুক্ত করতে বলবে।
 
-> [!hint]- Popular authentication applications
+> [!hint]- জনপ্রিয় অথেনটিকেশন অ্যাপ্লিকেশন
 > - [Authy](https://authy.com)
 > - [Google Authenticator](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2)
 > - [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app)
 > - [iCloud Keychain](https://support.apple.com/en-gb/guide/iphone/ipha6173c19f/ios)
 
-- Once connected, your authenticator app will provide you a six digit code. Enter that code below the **QR code/setup key** section, in step 3.
-- Finally, enter your current password.
-- Select **Complete set up**.
-- The popup window will be replaced with a confirmation window and your recovery codes. Please download your recovery codes, as you will need these to unlock your account.
+- সংযোগ হয়ে গেলে, আপনার অথেনটিকেটর অ্যাপ আপনাকে ছয় সংখ্যার একটি কোড দেবে। ধাপ ৩-এ **QR কোড/সেটআপ কী** বিভাগের নিচে সেই কোডটি লিখুন।
+- সবশেষে, আপনার বর্তমান পাসওয়ার্ড লিখুন।
+- **Complete set up** নির্বাচন করুন।
+- পপআপ উইন্ডোটি একটি নিশ্চিতকরণ উইন্ডো এবং আপনার রিকভারি কোড দিয়ে প্রতিস্থাপিত হবে। অনুগ্রহ করে আপনার রিকভারি কোড ডাউনলোড করে নিন, কারণ আপনার অ্যাকাউন্ট আনলক করতে এগুলোর প্রয়োজন হবে।
 
-Your 2FA is now set up.
+আপনার 2FA এখন সেট আপ হয়ে গেছে।
 
-> [!warning]- QR code/setup key backups
-> If you decide to keep a backup of your **QR code** or **Setup key** in addition to your recovery codes, we strongly recommend keeping it in a password encrypted system.
+> [!warning]- QR কোড/সেটআপ কী ব্যাকআপ
+> আপনি যদি রিকভারি কোডের পাশাপাশি আপনার **QR কোড** বা **সেটআপ কী**-এরও একটি ব্যাকআপ রাখার সিদ্ধান্ত নেন, তাহলে আমরা একে পাসওয়ার্ড-এনক্রিপ্টেড কোনো সিস্টেমে রাখার জোরালো পরামর্শ দিই।
 
-## Generate recovery codes
+## রিকভারি কোড তৈরি করুন
 
-If you enabled 2FA before recovery codes were available, or if you want to refresh your recovery codes, follow these steps:
+রিকভারি কোড উপলব্ধ হওয়ার আগেই যদি আপনি 2FA চালু করে থাকেন, অথবা আপনি যদি আপনার রিকভারি কোড রিফ্রেশ করতে চান, তাহলে এই ধাপগুলো অনুসরণ করুন:
 
-- Log into [your Obsidian account](https://obsidian.md/account/profile) from your web browser.
-- Next to 2-factor authentication, select **Refresh recovery codes**.
-- In the popup window, enter your **password** and **6-digit authenticator code**.
-- A confirmation window will display your recovery codes. You have two options:
-    - **Copy recovery codes**: Copy the codes to paste elsewhere.
-    - **Download recovery codes**: Download a `obsidian-recovery-codes.txt` file containing your codes.
-- Select **Got it** to close the popup window.
+- আপনার ওয়েব ব্রাউজার থেকে [আপনার Obsidian অ্যাকাউন্টে](https://obsidian.md/account/profile) লগ ইন করুন।
+- 2-factor authentication-এর পাশে, **Refresh recovery codes** নির্বাচন করুন।
+- পপআপ উইন্ডোতে, আপনার **পাসওয়ার্ড** এবং **৬-সংখ্যার অথেনটিকেটর কোড** লিখুন।
+- একটি নিশ্চিতকরণ উইন্ডো আপনার রিকভারি কোড প্রদর্শন করবে। আপনার দুটি বিকল্প রয়েছে:
+    - **Copy recovery codes**: কোডগুলো কপি করে অন্য কোথাও পেস্ট করুন।
+    - **Download recovery codes**: আপনার কোডসহ একটি `obsidian-recovery-codes.txt` ফাইল ডাউনলোড করুন।
+- পপআপ উইন্ডোটি বন্ধ করতে **Got it** নির্বাচন করুন।
 
-You can use a recovery code **once** instead of your **6-digit authenticator code**. You can also refresh your recovery codes at any time.
+আপনি আপনার **৬-সংখ্যার অথেনটিকেটর কোডের** পরিবর্তে একটি রিকভারি কোড **একবার** ব্যবহার করতে পারেন। আপনি যেকোনো সময় আপনার রিকভারি কোডও রিফ্রেশ করতে পারেন।
 
-## Disable 2FA
+## 2FA বন্ধ করুন
 
-- Log into [your Obsidian account](https://obsidian.md/account/profile) from your web browser.
-- In the **Profile** section, go to **2-factor authentication** and select **Disable**.
-- Enter your Obsidian Password.
-- Enter the current six digit code from your authentication app.
-- Select **Disable 2FA**.
-- You will be brought back to the Account management screen.
+- আপনার ওয়েব ব্রাউজার থেকে [আপনার Obsidian অ্যাকাউন্টে](https://obsidian.md/account/profile) লগ ইন করুন।
+- **Profile** বিভাগে, **2-factor authentication**-এ যান এবং **Disable** নির্বাচন করুন।
+- আপনার Obsidian পাসওয়ার্ড লিখুন।
+- আপনার অথেনটিকেশন অ্যাপ থেকে বর্তমান ছয় সংখ্যার কোডটি লিখুন।
+- **Disable 2FA** নির্বাচন করুন।
+- আপনাকে অ্যাকাউন্ট ম্যানেজমেন্ট স্ক্রিনে ফিরিয়ে নিয়ে যাওয়া হবে।
 
-The **2-factor authentication** setting will once again show an **Enable** button, indicating that 2FA has been disabled.
+**2-factor authentication** সেটিংটি আবার একটি **Enable** বাটন দেখাবে, যা নির্দেশ করে যে 2FA বন্ধ করা হয়েছে।
 
-## FAQ
+## সাধারণ জিজ্ঞাসা
 
-**I have enabled 2FA. Will I be logged out of my current Obsidian devices?**
-No. Enabling 2FA does not log you out everywhere for your convenience. If you need to, you can manually do that from your account page, and subsequently login again on each of your devices.
+**আমি 2FA চালু করেছি। আমার বর্তমান Obsidian ডিভাইসগুলো থেকে কি আমাকে লগ আউট করে দেওয়া হবে?**
+না। আপনার সুবিধার জন্য 2FA চালু করলে আপনাকে সব জায়গা থেকে লগ আউট করা হয় না। প্রয়োজন হলে, আপনি নিজে আপনার অ্যাকাউন্ট পেজ থেকে এটি করতে পারেন এবং পরে প্রতিটি ডিভাইসে আবার লগ ইন করতে পারেন।
 
-**I enabled, then disabled 2FA. I would like to set it up again. Can I use the original QR code or setup key?**
-No. You will be provided a new **QR code** and new **Setup key** every time you initiate a new setup of 2FA.
+**আমি 2FA চালু করে পরে বন্ধ করে দিয়েছিলাম। এখন আবার সেট আপ করতে চাই। আমি কি আগের QR কোড বা সেটআপ কী ব্যবহার করতে পারি?**
+না। প্রতিবার নতুন করে 2FA সেটআপ শুরু করলে আপনাকে একটি নতুন **QR কোড** এবং নতুন **সেটআপ কী** দেওয়া হবে।
 
-**I have enabled 2FA. I have yet to be asked for it after several log-out/log-in attempts. Is this working?**
-Your browser cache may be allowing you to appear as if you are making changes to the page (such as logging in or out) when in actuality you are accessing the stored data. Try using a private browsing window to log-in to confirm 2FA is working.
+**আমি 2FA চালু করেছি। কয়েকবার লগ-আউট/লগ-ইন করার পরও আমাকে এটি জিজ্ঞাসা করা হয়নি। এটি কি কাজ করছে?**
+আপনার ব্রাউজার ক্যাশের কারণে মনে হতে পারে যে আপনি পেজে পরিবর্তন করছেন (যেমন লগ ইন বা লগ আউট করা), যদিও বাস্তবে আপনি সংরক্ষিত ডেটা অ্যাক্সেস করছেন। 2FA কাজ করছে কিনা তা নিশ্চিত করতে একটি প্রাইভেট ব্রাউজিং উইন্ডো ব্যবহার করে লগ ইন করার চেষ্টা করুন।
 
-If you continue to experience this behavior, please [submit a bug report](https://forum.obsidian.md/c/bug-reports/7).
+আপনি যদি এই সমস্যা অব্যাহত থাকতে দেখেন, তাহলে অনুগ্রহ করে একটি [বাগ রিপোর্ট জমা দিন](https://forum.obsidian.md/c/bug-reports/7)।
 
-**I lost my recovery codes, authenticator, and everything needed to log into my account. What do I do?**
+**আমি আমার রিকভারি কোড, অথেনটিকেটর, এবং আমার অ্যাকাউন্টে লগ ইন করার জন্য প্রয়োজনীয় সবকিছু হারিয়ে ফেলেছি। এখন আমি কী করব?**
 
-If you've lost your recovery codes and authenticator, please email [support@obsidian.md](mailto:support@obsidian.md?subject=I%20lost%20my%202FA) for assistance in regaining access to your account.
+আপনি যদি আপনার রিকভারি কোড এবং অথেনটিকেটর হারিয়ে ফেলে থাকেন, তাহলে অনুগ্রহ করে আপনার অ্যাকাউন্টে অ্যাক্সেস ফিরে পেতে সহায়তার জন্য [support@obsidian.md](mailto:support@obsidian.md?subject=I%20lost%20my%202FA)-এ ইমেইল করুন।

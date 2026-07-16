@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: web-clipper/troubleshoot
 ---
-If you encounter issues with [[Introduction to Obsidian Web Clipper|Web Clipper]] you can get help via the [official Discord channel](https://discord.com/channels/686053708261228577/1285652864089198672). You can also report bugs on the [GitHub repo](https://github.com/obsidianmd/obsidian-clipper).
+[[Introduction to Obsidian Web Clipper|Web Clipper]]-এ কোনো সমস্যায় পড়লে আপনি [অফিসিয়াল Discord চ্যানেলের](https://discord.com/channels/686053708261228577/1285652864089198672) মাধ্যমে সাহায্য পেতে পারেন। আপনি [GitHub রিপোতে](https://github.com/obsidianmd/obsidian-clipper) বাগও রিপোর্ট করতে পারেন।
 
-## General
+## সাধারণ
 
-### Some content is missing
+### কিছু কন্টেন্ট অনুপস্থিত
 
-By default, Web Clipper tries to intelligently capture content from the page. However it may not be successful in doing so across all websites.
+ডিফল্টভাবে, Web Clipper পেজ থেকে বুদ্ধিমত্তার সাথে কন্টেন্ট সংগ্রহ করার চেষ্টা করে। তবে এটি সব ওয়েবসাইটে সফল নাও হতে পারে।
 
-Web Clipper uses [Defuddle](https://github.com/kepano/defuddle) to capture only the main content of the page. This excludes header, footer, and other elements, but sometimes it can be overly conservative and remove content that you want to keep. You can [report bugs](https://github.com/kepano/defuddle) to Defuddle.
+Web Clipper পেজের শুধুমাত্র মূল কন্টেন্ট সংগ্রহ করতে [Defuddle](https://github.com/kepano/defuddle) ব্যবহার করে। এটি হেডার, ফুটার, এবং অন্যান্য এলিমেন্ট বাদ দেয়, তবে কখনো কখনো এটি অতিরিক্ত সতর্ক হয়ে গিয়ে আপনি রাখতে চান এমন কন্টেন্টও সরিয়ে ফেলতে পারে। আপনি Defuddle-এ [বাগ রিপোর্ট করতে](https://github.com/kepano/defuddle) পারেন।
 
-To bypass Defuddle in Web Clipper use the following methods:
+Web Clipper-এ Defuddle এড়িয়ে যেতে নিচের পদ্ধতিগুলো ব্যবহার করুন:
 
-- Select text, or use `Cmd/Ctrl+A` to select all text.
-- [[Highlighter|Highlight content]] to choose exactly what you want to capture.
-- Use a [[Obsidian Web Clipper/Templates|custom template]] for the site.
+- টেক্সট নির্বাচন করুন, অথবা সব টেক্সট নির্বাচন করতে `Cmd/Ctrl+A` ব্যবহার করুন।
+- আপনি সঠিকভাবে কী ক্যাপচার করতে চান তা বেছে নিতে [[Highlighter|কন্টেন্ট হাইলাইট করুন]]।
+- সাইটের জন্য একটি [[Obsidian Web Clipper/Templates|কাস্টম টেমপ্লেট]] ব্যবহার করুন।
 
-### No content appears in Obsidian
+### Obsidian-এ কোনো কন্টেন্ট দেখা যায় না
 
-If you don't see any content in Obsidian when you click **Add to Obsidian**:
+আপনি **Add to Obsidian**-এ ক্লিক করার পর Obsidian-এ কোনো কন্টেন্ট না দেখলে:
 
-- Check for errors in the Obsidian [[Help and support#Capture console logs|developer console]].
-- Check that your vault name in Web Clipper settings exactly matches your *vault name* in Obsidian *not the vault path*.
-- Check that the folder name is correctly formatted.
+- Obsidian-এর [[Help and support#কনসোল লগ ক্যাপচার করুন|ডেভেলপার কনসোলে]] কোনো এরর আছে কিনা তা পরীক্ষা করুন।
+- Web Clipper সেটিংসে আপনার ভল্টের নাম Obsidian-এর *ভল্টের নামের* সাথে হুবহু মিলছে কিনা তা পরীক্ষা করুন, *ভল্টের পাথ নয়*।
+- ফোল্ডারের নাম সঠিকভাবে ফরম্যাট করা আছে কিনা তা পরীক্ষা করুন।
 
 ## Linux
 
-#### Obsidian does not open
+#### Obsidian খোলে না
 
-- Make sure the [[Obsidian URI]] protocol [[Obsidian URI#Register Obsidian URI|is registered]].
-- If you are using Firefox you may need to [register it the browser settings](https://kb.mozillazine.org/Register_protocol).
+- [[Obsidian URI]] প্রোটোকল [[Obsidian URI#Obsidian URI নিবন্ধন করুন|রেজিস্টার করা আছে]] কিনা তা নিশ্চিত করুন।
+- আপনি যদি Firefox ব্যবহার করেন তাহলে আপনাকে [ব্রাউজার সেটিংসে এটি রেজিস্টার করতে](https://kb.mozillazine.org/Register_protocol) হতে পারে।
 
-#### Obsidian opens but only the file name is saved
+#### Obsidian খোলে কিন্তু শুধু ফাইলের নাম সংরক্ষিত হয়
 
-It is likely that Obsidian cannot access your clipboard. Clipboard access is necessary to pass data from your browser to Obsidian. Your configuration can affect how apps are sandboxed, and clipboard permissions.
+এর সম্ভাব্য কারণ হলো Obsidian আপনার ক্লিপবোর্ড অ্যাক্সেস করতে পারছে না। আপনার ব্রাউজার থেকে Obsidian-এ ডেটা পাঠাতে ক্লিপবোর্ড অ্যাক্সেস প্রয়োজন। আপনার কনফিগারেশন অ্যাপগুলো কীভাবে স্যান্ডবক্স করা হয়েছে এবং ক্লিপবোর্ড অনুমতি কেমন তা প্রভাবিত করতে পারে।
 
-If you use Wayland, make sure that Obsidian has the permissions to read the clipboard when the app is not focused. This preference may be in your tiling window manager, e.g. Hyprland or Sway.
+আপনি Wayland ব্যবহার করলে, নিশ্চিত করুন যে অ্যাপটি ফোকাসে না থাকা অবস্থায়ও Obsidian-এর ক্লিপবোর্ড পড়ার অনুমতি আছে। এই প্রেফারেন্সটি আপনার টাইলিং উইন্ডো ম্যানেজারে থাকতে পারে, যেমন Hyprland বা Sway।
 
-If you use Hyprland:
+আপনি Hyprland ব্যবহার করলে:
 
 ```ini
 # ~/.config/hypr/hyprland.conf
@@ -48,33 +47,33 @@ misc {
 }
 ```
 
-If you use Sway:
+আপনি Sway ব্যবহার করলে:
 
 ```ini
 # ~/.config/sway/config
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
-- If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
-- If you use KDE go to to **System Settings** → **Window Management** → **Window Rules** and allow Obsidian to take focus, [[web-clipper-kde.png|see screenshot]].
-- As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.
+- আপনি Flatpak ব্যবহার করলে একটি [অফিসিয়ালি সমর্থিত Obsidian সংস্করণ](https://obsidian.md/download) চেষ্টা করে দেখুন।
+- আপনি KDE ব্যবহার করলে **System Settings** → **Window Management** → **Window Rules**-এ গিয়ে Obsidian-কে ফোকাস নেওয়ার অনুমতি দিন, [[web-clipper-kde.png|স্ক্রিনশট দেখুন]]।
+- বিকল্প হিসেবে, **Web Clipper Settings** → **General**-এ **Legacy mode**-এ পরিবর্তন করে দেখুন। এটি ক্লিপবোর্ড এড়িয়ে সরাসরি URI-এর মাধ্যমে কন্টেন্ট সংরক্ষণ করবে। মনে রাখবেন এটি আপনার ব্রাউজার ও Linux ডিস্ট্রিবিউশনের উপর নির্ভর করে ক্লিপ করা যায় এমন অক্ষরের সংখ্যা সীমিত করবে।
 
-## iOS and iPadOS
+## iOS এবং iPadOS
 
-To enable the Web Clipper extension for Safari:
+Safari-এর জন্য Web Clipper এক্সটেনশন সক্রিয় করতে:
 
-1. Go to Safari, tap the leftmost button in the browser URL bar, it looks like a rectangle with lines beneath it.
-2. Tap **Manage Extensions**.
-3. Enable **Obsidian Web Clipper** in the Extensions list.
-4. Exit the menu.
-5. To use the extension **tap the puzzle piece icon** in the URL bar.
+1. Safari-তে যান, ব্রাউজার URL বারের সবচেয়ে বাঁদিকের বাটনে ট্যাপ করুন, এটি দেখতে নিচে কয়েকটি রেখাসহ একটি আয়তক্ষেত্রের মতো।
+2. **Manage Extensions**-এ ট্যাপ করুন।
+3. এক্সটেনশন তালিকায় **Obsidian Web Clipper** সক্রিয় করুন।
+4. মেনু থেকে বের হন।
+5. এক্সটেনশনটি ব্যবহার করতে **URL বারে পাজল পিস আইকনে ট্যাপ করুন**।
 
-To allow Web Clipper to run on all websites:
+সব ওয়েবসাইটে Web Clipper চালানোর অনুমতি দিতে:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Safari** →  **Extensions**.
-2. Under **Permissions** allow it to run on all websites.
+1. iOS **[[Settings]]** → **Apps** → **Safari** → **Extensions**-এ যান।
+2. **Permissions**-এর অধীনে এটিকে সব ওয়েবসাইটে চালানোর অনুমতি দিন।
 
-To allow Obsidian to always receive Web Clipper content:
+Obsidian যাতে সবসময় Web Clipper কন্টেন্ট পায় তা নিশ্চিত করতে:
 
-1. Go to iOS **[[Settings]]** →  **Apps** →  **Obsidian**.
-2. Set **Paste from other apps** to **Allow**.
+1. iOS **[[Settings]]** → **Apps** → **Obsidian**-এ যান।
+2. **Paste from other apps** কে **Allow**-এ নির্ধারণ করুন।

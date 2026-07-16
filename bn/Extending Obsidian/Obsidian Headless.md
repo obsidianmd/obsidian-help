@@ -1,52 +1,51 @@
 ---
-localized: null
 permalink: headless
-description: Obsidian Headless is a command line client for Obsidian services. Sync your vaults without the desktop app.
+description: Obsidian Headless হলো Obsidian পরিষেবার জন্য একটি কমান্ড লাইন ক্লায়েন্ট। ডেস্কটপ অ্যাপ ছাড়াই আপনার ভল্ট সিঙ্ক করুন।
 ---
-Obsidian Headless **(open beta)** is a headless client for Obsidian services. It lets you [[Headless Sync|sync vaults]] from the command line without the desktop app, with all the speed, privacy, and end-to-end encryption benefits of [[Introduction to Obsidian Sync|Obsidian Sync]].
+Obsidian Headless **(ওপেন বেটা)** হলো Obsidian পরিষেবার জন্য একটি হেডলেস ক্লায়েন্ট। এটি আপনাকে [[Introduction to Obsidian Sync|Obsidian Sync]] এর গতি, প্রাইভেসি এবং এন্ড-টু-এন্ড এনক্রিপশনের সব সুবিধা সহ, ডেস্কটপ অ্যাপ ছাড়াই কমান্ড লাইন থেকে [[Headless Sync|ভল্ট সিঙ্ক]] করতে দেয়।
 
-Reasons you might use Obsidian Headless:
+আপনি যেসব কারণে Obsidian Headless ব্যবহার করতে পারেন:
 
-- Automate remote backups.
-- Automate publishing a website.
-- Give agentic tools access to a vault without access to your full computer.
-- Sync a shared team vault to a server that feeds other tools.
-- Run scheduled automations e.g. aggregate daily notes into weekly summaries, auto-tag, etc.
+- রিমোট ব্যাকআপ স্বয়ংক্রিয় করা।
+- একটি ওয়েবসাইট প্রকাশ স্বয়ংক্রিয় করা।
+- আপনার সম্পূর্ণ কম্পিউটারে অ্যাক্সেস না দিয়ে এজেন্টিক টুলগুলোকে একটি ভল্টে অ্যাক্সেস দেওয়া।
+- অন্যান্য টুলে ফিড করা একটি সার্ভারে একটি শেয়ার করা টিম ভল্ট সিঙ্ক করা।
+- নির্ধারিত অটোমেশন চালানো, যেমন সাপ্তাহিক সারাংশে দৈনিক নোট একত্রিত করা, স্বয়ংক্রিয়ভাবে ট্যাগ করা, ইত্যাদি।
 
-> [!info] Obsidian Headless vs Obsidian CLI
-> [[Obsidian CLI]] controls the Obsidian desktop app from your terminal. Obsidian Headless is a standalone client that runs independently, no desktop app required.
+> [!info] Obsidian Headless বনাম Obsidian CLI
+> [[Obsidian CLI]] আপনার টার্মিনাল থেকে Obsidian ডেস্কটপ অ্যাপ নিয়ন্ত্রণ করে। Obsidian Headless একটি স্বতন্ত্র ক্লায়েন্ট যা স্বাধীনভাবে চলে, কোনো ডেস্কটপ অ্যাপের প্রয়োজন হয় না।
 
-## Install
+## ইনস্টল করুন
 
-Obsidian Headless **(open beta)** requires Node.js 22 or later. Install it from [npm](https://www.npmjs.com/package/obsidian-headless):
+Obsidian Headless **(ওপেন বেটা)** এর জন্য Node.js 22 বা তার পরবর্তী সংস্করণের প্রয়োজন। এটি [npm](https://www.npmjs.com/package/obsidian-headless) থেকে ইনস্টল করুন:
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-## Authentication
+## অথেন্টিকেশন
 
-### Log in
+### লগ ইন করুন
 
 ```shell
 ob login
 ```
 
-If already logged in, `ob login` displays your account info. To switch accounts, pass `--email` and/or `--password` to log in again.
+যদি ইতিমধ্যে লগ ইন করা থাকে, তাহলে `ob login` আপনার অ্যাকাউন্টের তথ্য প্রদর্শন করে। অ্যাকাউন্ট পরিবর্তন করতে, আবার লগ ইন করতে `--email` এবং/অথবা `--password` পাস করুন।
 
 ```
 ob login [--email <email>] [--password <password>] [--mfa <code>]
 ```
 
-All options are interactive when omitted — email and password are prompted, and 2FA is requested automatically if enabled on the account.
+সব অপশন বাদ দিলে ইন্টারেক্টিভ হয়ে যায় — ইমেইল এবং পাসওয়ার্ড জিজ্ঞাসা করা হয়, এবং অ্যাকাউন্টে সক্রিয় থাকলে 2FA স্বয়ংক্রিয়ভাবে অনুরোধ করা হয়।
 
-To log out and clear stored credentials:
+লগ আউট করে সংরক্ষিত ক্রেডেনশিয়াল মুছে ফেলতে:
 
 ```shell
 ob logout
 ```
 
-## Services
+## পরিষেবা
 
-- [[Headless Sync]]: use [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the desktop app.
-- [[Headless Publish]]: use [[Introduction to Obsidian Publish|Obsidian Publish]] from the command line without the desktop app.
+- [[Headless Sync]]: ডেস্কটপ অ্যাপ ছাড়াই কমান্ড লাইন থেকে [[Introduction to Obsidian Sync|Obsidian Sync]] ব্যবহার করুন।
+- [[Headless Publish]]: ডেস্কটপ অ্যাপ ছাড়াই কমান্ড লাইন থেকে [[Introduction to Obsidian Publish|Obsidian Publish]] ব্যবহার করুন।

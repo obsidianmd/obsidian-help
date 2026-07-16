@@ -1,22 +1,21 @@
 ---
-localized: null
 permalink: import/zettelkasten
 ---
-If you've been using the Zettelkasten method to name and link your notes, you may need to convert links from `[[UID]]` to `[[UID My note title]]`.
+আপনি যদি আপনার নোটের নামকরণ এবং লিঙ্ক করার জন্য Zettelkasten পদ্ধতি ব্যবহার করে থাকেন, তাহলে আপনাকে `[[UID]]` থেকে `[[UID My note title]]`-এ লিঙ্কগুলি রূপান্তর করতে হতে পারে।
 
-For example, if you have a note with the name `202301011230 My note title` and link to it from another note using only the UID, `[[202301011230]]`. Since Obsidian uses the full name of the note to resolve internal links, links like these will break.
+উদাহরণস্বরূপ, যদি আপনার `202301011230 My note title` নামের একটি নোট থাকে এবং অন্য একটি নোট থেকে শুধুমাত্র UID, `[[202301011230]]` ব্যবহার করে এটির সাথে লিঙ্ক করেন। যেহেতু Obsidian অভ্যন্তরীণ লিঙ্ক সমাধান করতে নোটের সম্পূর্ণ নাম ব্যবহার করে, তাই এই ধরনের লিঙ্ক ভেঙে যাবে।
 
-To update all `[[UID]]` links in your vault to use the full name of the note instead, use the [[Format converter]].
+আপনার ভল্টে থাকা সমস্ত `[[UID]]` লিঙ্ককে পরিবর্তে নোটের সম্পূর্ণ নাম ব্যবহার করার জন্য আপডেট করতে, [[Format converter]] ব্যবহার করুন।
 
-1. Open **[[Settings]]**.
-2. Under **Core plugins**, enable **Format converter** and close the Settings window.
-3. In the ribbon, on the left side of the app window, select **Open format convert** ![[lucide-binary.svg#icon]].
-4. Enable **Zettelkasten link fixer**.
-5. Select **Start conversion**. This will convert all the notes in your entire vault.
+1. **[[Settings]]** খুলুন।
+2. **Core plugins**-এর অধীনে, **Format converter** চালু করুন এবং Settings উইন্ডো বন্ধ করুন।
+3. অ্যাপ উইন্ডোর বাম দিকে থাকা রিবনে, **Open format convert** ![[lucide-binary.svg#icon]] নির্বাচন করুন।
+4. **Zettelkasten link fixer** চালু করুন।
+5. **Start conversion** নির্বাচন করুন। এটি আপনার সম্পূর্ণ ভল্টের সমস্ত নোট রূপান্তরিত করবে।
 
-> [!tip] Zettelkasten link beautifier
-> [[Format converter]] can also beautify your links by removing the UID from the display name. For example, `[[UID]]` converts to `[[UID My note title|My note title]]`.
+> [!tip] Zettelkasten লিঙ্ক বিউটিফায়ার
+> [[Format converter]] প্রদর্শনী নাম থেকে UID সরিয়ে আপনার লিঙ্কগুলিকেও সুন্দর করে তুলতে পারে। উদাহরণস্বরূপ, `[[UID]]` রূপান্তরিত হয়ে `[[UID My note title|My note title]]` হয়।
 >
-> To beautify your Zettelkasten links, enable **Zettelkasten link beautifier** in the format converter window.
+> আপনার Zettelkasten লিঙ্কগুলি সুন্দর করতে, ফরম্যাট কনভার্টার উইন্ডোতে **Zettelkasten link beautifier** চালু করুন।
 
-You can also use the [[Unique note creator]] to create Zettelkasten notes in Obsidian.
+Obsidian-এ Zettelkasten নোট তৈরি করতে আপনি [[Unique note creator]]-ও ব্যবহার করতে পারেন।

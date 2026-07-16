@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: import/apple-notes
 ---
-Obsidian lets you easily migrate your notes from Apple Notes using the [[Importer|Importer plugin]]. This will convert your Apple Notes data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian আপনাকে [[Importer|Importer প্লাগইন]] ব্যবহার করে সহজেই Apple Notes থেকে আপনার নোট মাইগ্রেট করতে দেয়। এটি আপনার Apple Notes ডেটাকে টেকসই Markdown ফাইলে রূপান্তরিত করবে, যা আপনি Obsidian এবং আরও অনেক অ্যাপের সাথে ব্যবহার করতে পারবেন।
 
-Currently, Importer only supports migrating from Apple Notes on macOS. It is not available on iOS yet.
+বর্তমানে, Importer শুধুমাত্র macOS-এ Apple Notes থেকে মাইগ্রেশন সমর্থন করে। এটি এখনও iOS-এ উপলব্ধ নয়।
 
-## Import Apple Notes data into Obsidian
+## Obsidian-এ Apple Notes ডেটা ইম্পোর্ট করুন
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+আপনার অফিসিয়াল Obsidian [[Importer]] প্লাগইন প্রয়োজন হবে, যা আপনি [এখানে ইনস্টল করতে পারেন](obsidian://show-plugin?id=obsidian-importer)।
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Apple Notes**.
-6. Click **Import**.
-7. Click **Open** on the popup that appears titled `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
-8. Wait until import is complete. 
-9. You're done!
+1. **[[Settings]]** খুলুন।
+2. **Community Plugins**-এ যান এবং [Importer ইনস্টল করুন](obsidian://show-plugin?id=obsidian-importer)।
+3. Importer প্লাগইন চালু করুন।
+4. কমান্ড প্যালেট বা রিবন আইকন ব্যবহার করে **Importer** প্লাগইন খুলুন।
+5. **File format**-এর অধীনে **Apple Notes** নির্বাচন করুন।
+6. **Import**-এ ক্লিক করুন।
+7. `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data` শিরোনামের পপআপে **Open**-এ ক্লিক করুন।
+8. ইম্পোর্ট সম্পূর্ণ না হওয়া পর্যন্ত অপেক্ষা করুন। 
+9. আপনার কাজ শেষ!
 
-## Supported content
+## সমর্থিত কনটেন্ট
 
-The Obsidian Importer plugin supports virtually all Apple Notes content types. This includes tables, images, drawings, scans, PDFs, and links introduced in iOS 17.
+Obsidian Importer প্লাগইন প্রায় সমস্ত Apple Notes কনটেন্ট টাইপ সমর্থন করে। এর মধ্যে রয়েছে টেবিল, ছবি, অঙ্কন, স্ক্যান, PDF, এবং iOS 17-এ প্রবর্তিত লিঙ্ক।
 
 > [!Warning]
-> Password-protected notes are encrypted by Apple, so must be unlocked before importing them. Any locked notes will be skipped.
+> পাসওয়ার্ড-সুরক্ষিত নোট Apple দ্বারা এনক্রিপ্ট করা থাকে, তাই ইম্পোর্ট করার আগে সেগুলি আনলক করতে হবে। যেকোনো লক করা নোট বাদ দেওয়া হবে।
 
-### Scans
+### স্ক্যান
 
-Apple stores scans in a variety of formats depending on how they were created. To preserve the original data, this means they'll be exported differently.
+Apple স্ক্যানগুলি কীভাবে তৈরি হয়েছিল তার উপর নির্ভর করে বিভিন্ন ফরম্যাটে সংরক্ষণ করে। মূল ডেটা সংরক্ষণ করার জন্য, এর মানে হলো সেগুলি ভিন্নভাবে এক্সপোর্ট হবে।
 
-* Scans created or viewed on older versions of macOS or iOS will be exported as a series of uncropped images.
-* Scans created or viewed on newer versions of macOS or iOS will usually be exported as cropped images.
-* Scans that have been edited using the features introduced in iOS 17 will usually be exported as PDFs.
+* macOS বা iOS-এর পুরনো সংস্করণে তৈরি বা দেখা স্ক্যানগুলি ক্রপ না করা ছবির একটি সিরিজ হিসেবে এক্সপোর্ট হবে।
+* macOS বা iOS-এর নতুন সংস্করণে তৈরি বা দেখা স্ক্যানগুলি সাধারণত ক্রপ করা ছবি হিসেবে এক্সপোর্ট হবে।
+* iOS 17-এ প্রবর্তিত ফিচার ব্যবহার করে সম্পাদিত স্ক্যানগুলি সাধারণত PDF হিসেবে এক্সপোর্ট হবে।
 
-## Alternate export methods
+## বিকল্প এক্সপোর্ট পদ্ধতি
 
-Apple does not provide a native option to export your notes. However several third-party tools exist such as [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) by Chintan Ghate. Please be aware that most tools are limited in what data they will export from Apple Notes and might not provide the most compatible output data. These tools work best if your Apple Notes are primarily text-only, and have few attachments or special features such as drawings and scans.
+Apple আপনার নোট এক্সপোর্ট করার জন্য কোনো নেটিভ বিকল্প প্রদান করে না। তবে Chintan Ghate-এর তৈরি [Exporter](https://apps.apple.com/us/app/exporter/id1099120373)-এর মতো বেশ কিছু তৃতীয়-পক্ষের টুল রয়েছে। মনে রাখবেন যে বেশিরভাগ টুল Apple Notes থেকে কী ডেটা এক্সপোর্ট করবে তাতে সীমাবদ্ধ থাকতে পারে এবং সবচেয়ে সামঞ্জস্যপূর্ণ আউটপুট ডেটা নাও দিতে পারে। আপনার Apple Notes যদি মূলত শুধু-টেক্সট হয়, এবং এতে সংযুক্তি বা অঙ্কন ও স্ক্যানের মতো বিশেষ ফিচার কম থাকে, তাহলে এই টুলগুলি সবচেয়ে ভালো কাজ করে।
 
-Depending on the tool you used, the export may be in Markdown format or HTML format. Follow instructions based on the file format you exported to: 
+আপনি যে টুল ব্যবহার করেছেন তার উপর নির্ভর করে, এক্সপোর্ট Markdown ফরম্যাট বা HTML ফরম্যাটে হতে পারে। আপনি যে ফাইল ফরম্যাটে এক্সপোর্ট করেছেন তার উপর ভিত্তি করে নির্দেশাবলী অনুসরণ করুন: 
 
 - [[Import HTML files]]
 - [[Import Markdown files]]

@@ -1,163 +1,162 @@
 ---
-localized: null
 permalink: sync/settings
 publish: true
 mobile: true
-description: This page explains the Sync settings and guides you in selecting which files to sync.
+description: এই পৃষ্ঠায় Sync সেটিংস ব্যাখ্যা করা হয়েছে এবং কোন ফাইল সিঙ্ক করবেন তা নির্বাচনে আপনাকে গাইড করে।
 ---
 
-When you [[Plans and storage limits#Create a new remote vault|create a remote vault]] and [[Set up Obsidian Sync#Connect to a remote vault|connect to it]], the Sync Core plugin becomes the place for managing your remote vault.
+আপনি যখন একটি [[Plans and storage limits#Create a new remote vault|রিমোট ভল্ট তৈরি করেন]] এবং [[Set up Obsidian Sync#Connect to a remote vault|এর সাথে সংযুক্ত হন]], তখন Sync কোর প্লাগইনটি আপনার রিমোট ভল্ট পরিচালনার জায়গা হয়ে ওঠে।
 
-## Sync settings
+## Sync সেটিংস
 
 **Remote vault**  
-This section shows your currently connected remote vault. It includes a **Disconnect** button to disconnect from the remote vault and a **Manage** button to view all remote vaults your account has access to (including shared vaults via [[Collaborate on a shared vault|collaboration]]).
+এই সেকশনে আপনার বর্তমানে সংযুক্ত রিমোট ভল্ট দেখানো হয়। এতে রিমোট ভল্ট থেকে সংযোগ বিচ্ছিন্ন করার জন্য একটি **Disconnect** বাটন এবং আপনার অ্যাকাউন্টের অ্যাক্সেস আছে এমন সব রিমোট ভল্ট (শেয়ার্ড ভল্ট সহ, [[Collaborate on a shared vault|সহযোগিতার]] মাধ্যমে) দেখার জন্য একটি **Manage** বাটন রয়েছে।
 
-> [!warning]+ Remote vault in third-party sync service
-> If your remote vault is located in a third-party sync service, you will see a red error message. Follow the steps in [[Switch to Obsidian Sync]] to resolve this.
+> [!warning]+ থার্ড-পার্টি সিঙ্ক সার্ভিসে রিমোট ভল্ট
+> আপনার রিমোট ভল্ট যদি একটি থার্ড-পার্টি সিঙ্ক সার্ভিসে অবস্থিত হয়, তাহলে আপনি একটি লাল এরর বার্তা দেখতে পাবেন। এটি সমাধান করতে [[Switch to Obsidian Sync]]-এর পদক্ষেপগুলো অনুসরণ করুন।
 
 **Sync status**  
-Displays the current sync status of the remote vault. This section includes either a **Pause** or **Resume** button, depending on the status.
+রিমোট ভল্টের বর্তমান সিঙ্ক স্ট্যাটাস প্রদর্শন করে। এই সেকশনে স্ট্যাটাসের উপর নির্ভর করে একটি **Pause** বা **Resume** বাটন অন্তর্ভুক্ত থাকে।
 
 **Device name**  
-Assign a unique name to the device currently syncing. This helps track activity in the [[Status icon and messages#Sync activity log|sync log]]. This setting is device specific, just like [[#Selective syncing]].
+বর্তমানে সিঙ্ক করা ডিভাইসকে একটি অনন্য নাম দিন। এটি [[Status icon and messages#Sync activity log|সিঙ্ক লগে]] অ্যাক্টিভিটি ট্র্যাক করতে সাহায্য করে। এই সেটিংটি [[#Selective syncing]]-এর মতোই ডিভাইস-নির্দিষ্ট।
 
 **[[#Conflict resolution]]**
-Choose how to resolve conflicts when you modify a file on multiple devices. This setting is device specific, just like [[#Selective syncing]].
+আপনি যখন একাধিক ডিভাইসে একটি ফাইল পরিবর্তন করেন তখন কনফ্লিক্ট কীভাবে সমাধান করবেন তা বেছে নিন। এই সেটিংটি [[#Selective syncing]]-এর মতোই ডিভাইস-নির্দিষ্ট।
 
 **Deleted files**  
-Contains a button to **View** or **Restore** deleted files. For more details, see [[Version history]].
+মুছে ফেলা ফাইল **View** বা **Restore** করার জন্য একটি বাটন রয়েছে। আরও বিস্তারিত জানতে দেখুন [[Version history]]।
 
 **Storage usage**  
-Displays a progress bar showing how much of your sync storage is used.
+আপনার সিঙ্ক স্টোরেজের কতটা ব্যবহৃত হয়েছে তা দেখানোর একটি প্রোগ্রেস বার প্রদর্শন করে।
 
-> [!tip]- Server processing time
-> It may take up to 30 minutes for the current usage to update due to server-side processing.
+> [!tip]- সার্ভার প্রসেসিং সময়
+> সার্ভার-সাইড প্রসেসিংয়ের কারণে বর্তমান ব্যবহার আপডেট হতে ৩০ মিনিট পর্যন্ত সময় লাগতে পারে।
 
 **Contact support**  
-Provides instructions on how to [[Help and support#Contact Obsidian support|contact Obsidian support]], including options to **Copy debug info** and **Email support**.
+**Copy debug info** এবং **Email support** সহ [[Help and support#Contact Obsidian support|Obsidian সাপোর্টের সাথে যোগাযোগ]] করার নির্দেশনা প্রদান করে।
 
-### Conflict resolution
+### কনফ্লিক্ট রেজোলিউশন
 
-Choose how to resolve conflicts when you modify a file on multiple devices before syncing. You can automatically merge changes or create separate conflict files for manual review. See [[Troubleshoot Obsidian Sync#Conflict resolution|Conflict resolution]] for details on how conflicts work and how to configure this setting.
+সিঙ্ক করার আগে আপনি যখন একাধিক ডিভাইসে একটি ফাইল পরিবর্তন করেন তখন কনফ্লিক্ট কীভাবে সমাধান করবেন তা বেছে নিন। আপনি স্বয়ংক্রিয়ভাবে পরিবর্তনগুলো মার্জ করতে পারেন অথবা ম্যানুয়াল পর্যালোচনার জন্য আলাদা কনফ্লিক্ট ফাইল তৈরি করতে পারেন। কনফ্লিক্ট কীভাবে কাজ করে এবং এই সেটিং কীভাবে কনফিগার করবেন সে সম্পর্কে বিস্তারিত জানতে দেখুন [[Troubleshoot Obsidian Sync#Conflict resolution|Conflict resolution]]।
 
-> [!warning]+ Configure on each device
-> This setting must be configured separately on each device.
+> [!warning]+ প্রতিটি ডিভাইসে কনফিগার করুন
+> এই সেটিংটি প্রতিটি ডিভাইসে আলাদাভাবে কনফিগার করতে হবে।
 
 ---
 
-You can also choose what to sync in the Sync Core plugin's settings. This section covers **selective sync** and **vault configuration sync**, along with their associated caveats.
+Sync কোর প্লাগইনের সেটিংসে আপনি কী সিঙ্ক করবেন তাও বেছে নিতে পারেন। এই সেকশনে **selective sync** এবং **vault configuration sync**, এবং তাদের সম্পর্কিত সতর্কতা নিয়ে আলোচনা করা হয়েছে।
 
-## Selective syncing
+## সিলেক্টিভ সিঙ্কিং
 
-Files synced to your [[Local and remote vaults|remote vault]] contribute to your [[Frequently asked questions#How large can each remote vault be|storage limit]]. By default, Obsidian Sync activates **selective sync** for the following file types:
-- Images
-- Audio
-- Videos
-- PDFs
+আপনার [[Local and remote vaults|রিমোট ভল্টে]] সিঙ্ক করা ফাইলগুলো আপনার [[Frequently asked questions#How large can each remote vault be|স্টোরেজ সীমার]] মধ্যে অবদান রাখে। ডিফল্টভাবে, Obsidian Sync নিম্নলিখিত ফাইলের ধরনের জন্য **selective sync** সক্রিয় করে:
+- ছবি
+- অডিও
+- ভিডিও
+- PDF
 
-To sync additional file types, toggle the `Sync all other types` option.
+অতিরিক্ত ফাইলের ধরন সিঙ্ক করতে, `Sync all other types` অপশনটি টগল করুন।
 
-The default **vault configuration sync** settings include:
-- Other file types
-- Main settings
+ডিফল্ট **vault configuration sync** সেটিংসে অন্তর্ভুক্ত:
+- অন্যান্য ফাইলের ধরন
+- Main সেটিংস
 - Appearance
-- Themes and snippets
-- Hotkeys
-- Active core plugin list
-- Core plugin settings
+- থিম এবং স্নিপেট
+- হট-কিই
+- সক্রিয় কোর প্লাগইনের তালিকা
+- কোর প্লাগইন সেটিংস
 
-To sync community plugins, manually enable **Active community plugin list** and **Installed community plugin list**.
+কমিউনিটি প্লাগইন সিঙ্ক করতে, ম্যানুয়ালি **Active community plugin list** এবং **Installed community plugin list** সক্রিয় করুন।
 
-### Change the file types you want to sync
+### আপনি যে ফাইলের ধরন সিঙ্ক করতে চান তা পরিবর্তন করুন
 
-1. Open **[[Settings]] → Sync**.
-2. Under **Selective sync**, enable the file types you want to sync.
-3. Restart the application to apply the new settings. On mobile or tablet, this may require a force-quit.
+1. **[[Settings]] → Sync** খুলুন।
+2. **Selective sync**-এর অধীনে, আপনি যে ফাইলের ধরন সিঙ্ক করতে চান তা সক্রিয় করুন।
+3. নতুন সেটিংস প্রয়োগ করতে অ্যাপ্লিকেশন পুনরায় চালু করুন। মোবাইল বা ট্যাবলেটে, এর জন্য ফোর্স-কুইট প্রয়োজন হতে পারে।
 
-Note that your [[Plans and storage limits|Sync plan]] defines the maximum file size you can sync. The Standard plan allows syncing files up to 5 MB, while the Plus plan supports files up to 200 MB.
+মনে রাখবেন আপনার [[Plans and storage limits|Sync প্ল্যান]] আপনি সর্বোচ্চ কত সাইজের ফাইল সিঙ্ক করতে পারবেন তা নির্ধারণ করে। স্ট্যান্ডার্ড প্ল্যান ৫ MB পর্যন্ত ফাইল সিঙ্ক করতে দেয়, যেখানে প্লাস প্ল্যান ২০০ MB পর্যন্ত ফাইল সমর্থন করে।
 
-> [!info]+ Excluded files remain in remote vault
-> Adding a file to the **Excluded files** list does not remove it from the remote vault if it has already been synced. Configure your Sync settings before syncing to avoid using unnecessary storage.
+> [!info]+ বাদ দেওয়া ফাইল রিমোট ভল্টে থেকে যায়
+> **Excluded files** তালিকায় একটি ফাইল যুক্ত করলে, ফাইলটি ইতিমধ্যে সিঙ্ক হয়ে থাকলে এটি রিমোট ভল্ট থেকে সরে না। অপ্রয়োজনীয় স্টোরেজ ব্যবহার এড়াতে সিঙ্ক করার আগে আপনার Sync সেটিংস কনফিগার করুন।
 
-### Exclude a folder from syncing
+### সিঙ্কিং থেকে একটি ফোল্ডার বাদ দিন
 
-By default, Obsidian syncs all files and folders in your vault. To exclude a specific folder from syncing:
-1. Open **[[Settings]] → Sync**.
-2. Next to **Excluded folders**, select **Manage**.
-3. Select the folder you want to exclude from the list.
-4. Select **Done**.
+ডিফল্টভাবে, Obsidian আপনার ভল্টের সব ফাইল এবং ফোল্ডার সিঙ্ক করে। একটি নির্দিষ্ট ফোল্ডার সিঙ্কিং থেকে বাদ দিতে:
+1. **[[Settings]] → Sync** খুলুন।
+2. **Excluded folders**-এর পাশে, **Manage** নির্বাচন করুন।
+3. তালিকা থেকে আপনি যে ফোল্ডারটি বাদ দিতে চান তা নির্বাচন করুন।
+4. **Done** নির্বাচন করুন।
 
-To remove a folder from the exclusion list, select the ![[lucide-x.svg#icon]] button next to the folder name.
+বর্জন তালিকা থেকে একটি ফোল্ডার সরাতে, ফোল্ডারের নামের পাশে ![[lucide-x.svg#icon]] বাটন নির্বাচন করুন।
 
-#### Always excluded from sync
+#### সিঙ্ক থেকে সবসময় বাদ দেওয়া হয়
 
-##### File recovery snapshots
+##### File recovery স্ন্যাপশট
 
-The snapshots in the [[File recovery]] plugin are not synced via Obsidian Sync, as snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]].
+[[File recovery]] প্লাগইনের স্ন্যাপশটগুলো Obsidian Sync-এর মাধ্যমে সিঙ্ক হয় না, কারণ স্ন্যাপশটগুলো [[How Obsidian stores data#Global settings|Global settings]]-এ রাখা হয়।
 
-##### Hidden files and folders
+##### লুকানো ফাইল এবং ফোল্ডার
 
-Files and folders beginning with a `.` are treated as hidden and excluded from sync. The only exception is the vault's [[Configuration folder|configuration folder]] (`.obsidian`), which does sync.
+`.` দিয়ে শুরু হওয়া ফাইল এবং ফোল্ডারগুলোকে লুকানো হিসেবে বিবেচনা করা হয় এবং সিঙ্ক থেকে বাদ দেওয়া হয়। একমাত্র ব্যতিক্রম হল ভল্টের [[Configuration folder|কনফিগারেশন ফোল্ডার]] (`.obsidian`), যা সিঙ্ক হয়।
 
-Common examples of hidden files and folders that are not synced:
+সিঙ্ক না হওয়া লুকানো ফাইল এবং ফোল্ডারের সাধারণ উদাহরণ:
 - `.vscode`
 - `.git`
 - `.idea`
 - `.gitignore`
 
-##### Sync settings
+##### Sync সেটিংস
 
-Sync settings do not sync across devices. You need to configure them separately on each device as needed.
+Sync সেটিংস ডিভাইস জুড়ে সিঙ্ক হয় না। প্রয়োজন অনুযায়ী আপনাকে প্রতিটি ডিভাইসে আলাদাভাবে সেগুলো কনফিগার করতে হবে।
 
-## Updating your synced vault settings
+## আপনার সিঙ্ক করা ভল্ট সেটিংস আপডেট করা
 
-To modify sync settings across multiple devices, follow these steps:
+একাধিক ডিভাইস জুড়ে সিঙ্ক সেটিংস পরিবর্তন করতে, এই পদক্ষেপগুলো অনুসরণ করুন:
 
-> [!tip]- Primary and secondary devices
-> The terms "primary" and "secondary" devices are for clarity only. Sync does not differentiate between them.
+> [!tip]- প্রাথমিক এবং সেকেন্ডারি ডিভাইস
+> "প্রাথমিক" এবং "সেকেন্ডারি" ডিভাইস শব্দগুলো শুধুমাত্র স্পষ্টতার জন্য। Sync তাদের মধ্যে পার্থক্য করে না।
 
-### Primary device
+### প্রাথমিক ডিভাইস
 
-The primary device acts as the source of truth. Changes made here are synced across all other devices.
+প্রাথমিক ডিভাইসটি সত্যের উৎস হিসেবে কাজ করে। এখানে করা পরিবর্তনগুলো অন্য সব ডিভাইসে সিঙ্ক হয়।
 
-1. Go to **[[Settings]] → Sync**.
-2. Activate the desired settings under **Vault configuration sync**.
-3. Reload or restart Obsidian. On mobile or tablet, a force-quit may be required.
-4. Allow time for the settings to sync with your remote vault.
+1. **[[Settings]] → Sync**-এ যান।
+2. **Vault configuration sync**-এর অধীনে কাঙ্ক্ষিত সেটিংস সক্রিয় করুন।
+3. Obsidian রিলোড বা পুনরায় চালু করুন। মোবাইল বা ট্যাবলেটে, ফোর্স-কুইট প্রয়োজন হতে পারে।
+4. সেটিংস আপনার রিমোট ভল্টের সাথে সিঙ্ক হওয়ার জন্য সময় দিন।
 
-### Secondary device(s)
+### সেকেন্ডারি ডিভাইস
 
-Secondary devices (such as your phone) receive updates from the primary device.
+সেকেন্ডারি ডিভাইস (যেমন আপনার ফোন) প্রাথমিক ডিভাইস থেকে আপডেট গ্রহণ করে।
 
-1. Go to **[[Settings]] → Sync**.
-2. Enable the necessary settings under **Vault configuration sync**.
-3. Wait for changes to download from the remote vault.
-4. Reload or restart the app to apply the synced settings. On mobile or tablet, a force-quit may be required.
+1. **[[Settings]] → Sync**-এ যান।
+2. **Vault configuration sync**-এর অধীনে প্রয়োজনীয় সেটিংস সক্রিয় করুন।
+3. রিমোট ভল্ট থেকে পরিবর্তন ডাউনলোড হওয়ার জন্য অপেক্ষা করুন।
+4. সিঙ্ক করা সেটিংস প্রয়োগ করতে অ্যাপ রিলোড বা পুনরায় চালু করুন। মোবাইল বা ট্যাবলেটে, ফোর্স-কুইট প্রয়োজন হতে পারে।
 
-### Reloading of settings
+### সেটিংস রিলোডিং
 
-Certain settings can be hot reloaded, while others require a restart:
+কিছু সেটিংস হট রিলোড করা যায়, আবার অন্যদের জন্য রিস্টার্ট প্রয়োজন:
 
-- **Hot-reloadable**: Most Obsidian configurations, including hotkeys and properties, appearance settings, and configurations for already-enabled core plugins.
-- **Requires reload**: CSS changes (e.g., [[CSS snippets]], [[Themes]]), graph view configurations, and core plugin states (e.g., enabling/disabling Daily Notes).
+- **হট-রিলোডেবল**: বেশিরভাগ Obsidian কনফিগারেশন, হট-কিই এবং প্রপার্টি, appearance সেটিংস, এবং ইতিমধ্যে সক্রিয় কোর প্লাগইনের কনফিগারেশন সহ।
+- **রিলোড প্রয়োজন**: CSS পরিবর্তন (যেমন, [[CSS snippets]], [[Themes]]), গ্রাফ ভিউ কনফিগারেশন, এবং কোর প্লাগইনের অবস্থা (যেমন, দৈনিক নোট সক্রিয়/নিষ্ক্রিয় করা)।
 
-Community plugins typically do not support hot reloading and require a restart when new settings are applied.
+কমিউনিটি প্লাগইন সাধারণত হট রিলোডিং সমর্থন করে না এবং নতুন সেটিংস প্রয়োগ করা হলে একটি রিস্টার্ট প্রয়োজন হয়।
 
-> [!info]+ For plugin developers
-> Learn how to [integrate hot-reload functionality with Obsidian Sync](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange).
+> [!info]+ প্লাগইন ডেভেলপারদের জন্য
+> [Obsidian Sync-এর সাথে হট-রিলোড ফাংশনালিটি ইন্টিগ্রেট করতে](https://docs.obsidian.md/Reference/TypeScript+API/Plugin/onExternalSettingsChange) কীভাবে করবেন জানুন।
 
-## Settings profiles
+## সেটিংস প্রোফাইল
 
-Obsidian Sync can sync multiple [[Configuration folder|configuration folders]] to the same remote vault, allowing you to create separate profiles (e.g., one for mobile, another for your laptop).
+Obsidian Sync একই রিমোট ভল্টে একাধিক [[Configuration folder|কনফিগারেশন ফোল্ডার]] সিঙ্ক করতে পারে, যা আপনাকে আলাদা প্রোফাইল তৈরি করতে দেয় (যেমন, একটি মোবাইলের জন্য, আরেকটি আপনার ল্যাপটপের জন্য)।
 
-### Create a settings profile
+### একটি সেটিংস প্রোফাইল তৈরি করুন
 
-To create a new settings profile:
+একটি নতুন সেটিংস প্রোফাইল তৈরি করতে:
 
-1. Open **[[Settings]] → Files and links**.
-2. Under **Override config folder**, enter a name for your profile, starting with a period (`.`), e.g., `.obsidian-mobile`.
-3. Relaunch Obsidian to apply the changes.
+1. **[[Settings]] → Files and links** খুলুন।
+2. **Override config folder**-এর অধীনে, একটি পিরিয়ড (`.`) দিয়ে শুরু করে আপনার প্রোফাইলের জন্য একটি নাম লিখুন, যেমন, `.obsidian-mobile`।
+3. পরিবর্তনগুলো প্রয়োগ করতে Obsidian পুনরায় চালু করুন।
 
-> [!info]+ Avoid redownloading plugins and themes
-> Changing the settings profile will require reconfiguring your sync settings. To avoid redownloading plugins and themes, copy your existing `.obsidian` folder and rename it to match your new profile (e.g., `.obsidian-mobile`) before making changes.
+> [!info]+ প্লাগইন এবং থিম পুনরায় ডাউনলোড করা এড়িয়ে চলুন
+> সেটিংস প্রোফাইল পরিবর্তন করলে আপনার সিঙ্ক সেটিংস পুনরায় কনফিগার করতে হবে। প্লাগইন এবং থিম পুনরায় ডাউনলোড করা এড়াতে, পরিবর্তন করার আগে আপনার বিদ্যমান `.obsidian` ফোল্ডারের কপি করুন এবং এটির নাম পরিবর্তন করে আপনার নতুন প্রোফাইলের সাথে মেলান (যেমন, `.obsidian-mobile`)।

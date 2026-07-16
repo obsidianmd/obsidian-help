@@ -1,91 +1,90 @@
 ---
-localized: null
 permalink: plugins
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: 'This page lists the core plugins that come installed with Obsidian, and community plugins they also maintain.'
+description: 'এই পাতায় Obsidian-এর সাথে ইনস্টল করা কোর প্লাগইনগুলি এবং তারা রক্ষণাবেক্ষণ করা কমিউনিটি প্লাগইনগুলি তালিকাবদ্ধ করা হয়েছে।'
 ---
 
-This page lists the core plugins that come installed with Obsidian. Core plugins are officially built and supported by the Obsidian team, and are included within the application.
+এই পাতায় Obsidian-এর সাথে ইনস্টল করা কোর প্লাগইনগুলি তালিকাবদ্ধ করা হয়েছে। কোর প্লাগইনগুলি Obsidian টিম দ্বারা আনুষ্ঠানিকভাবে তৈরি এবং সমর্থিত, এবং এগুলি অ্যাপ্লিকেশনের সাথে অন্তর্ভুক্ত থাকে।
 
-Some core plugins are disabled by default. You can enable them under **[[Settings]] → Core plugins**.
+কিছু কোর প্লাগইন ডিফল্টভাবে নিষ্ক্রিয় থাকে। আপনি **[[Settings]] → Core plugins**-এর অধীনে সেগুলি সক্রিয় করতে পারেন।
 
-The Obsidian team also maintains the development of certain [[#Other plugins|open-source community plugins]].
+Obsidian টিম নির্দিষ্ট কিছু [[#Other plugins|ওপেন-সোর্স কমিউনিটি প্লাগইনের]] বিকাশও রক্ষণাবেক্ষণ করে।
 
-> [!tip] Community plugins
-> If you can't find the plugin you're looking here, check out some of the [[Community plugins|plugins built by the community]]. You can also [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) yourself.
+> [!tip] কমিউনিটি প্লাগইন
+> আপনি যদি এখানে খুঁজছেন এমন প্লাগইনটি খুঁজে না পান, তাহলে [[Community plugins|কমিউনিটি দ্বারা তৈরি প্লাগইনগুলি]] দেখুন। আপনি নিজেও [একটি প্লাগইন তৈরি করতে](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) পারেন।
 
-### All core plugins
+### সব কোর প্লাগইন
 
 - [[Audio recorder]]
-	- Record and save audio recordings directly in a note.
+	- সরাসরি একটি নোটে অডিও রেকর্ডিং রেকর্ড এবং সংরক্ষণ করুন।
 - [[Backlinks]]
-	- See all the links and unlinked mentions of a note.
-- [[Introduction to Bases|Bases]]
-	- Create custom views that let you edit, sort, and filter files using their properties.
+	- একটি নোটের সব লিঙ্ক এবং লিঙ্কবিহীন উল্লেখ দেখুন।
+- [[Introduction to Bases|বেসেস]]
+	- প্রপার্টি ব্যবহার করে ফাইল সম্পাদনা, সাজানো এবং ফিল্টার করতে দেয় এমন কাস্টম ভিউ তৈরি করুন।
 - [[Bookmarks]]
-	- Save links to notes, headings, searches, and more.
+	- নোট, হেডিং, অনুসন্ধান এবং আরও অনেক কিছুর লিঙ্ক সংরক্ষণ করুন।
 - [[Canvas]]
-	- Organize notes visually with an infinite space to lay out ideas.
+	- ধারণা সাজানোর জন্য অসীম স্পেস দিয়ে নোটগুলিকে ভিজ্যুয়ালভাবে সংগঠিত করুন।
 - [[Command palette]]
-	- Quickly access commands from your keyboard.
+	- আপনার কীবোর্ড থেকে দ্রুত কমান্ডে প্রবেশ করুন।
 - [[Daily notes]]
-	- Create and open notes based on the current date.
+	- বর্তমান তারিখের উপর ভিত্তি করে নোট তৈরি এবং খুলুন।
 - [[File explorer]]
-	- Browse files and folders inside your vault.
+	- আপনার ভল্টের ভেতরে ফাইল এবং ফোল্ডার ব্রাউজ করুন।
 - [[File recovery]]
-	-  Recover your work from regular snapshots.
+	-  নিয়মিত স্ন্যাপশট থেকে আপনার কাজ পুনরুদ্ধার করুন।
 - [[Footnotes view]]
-	- Show a list of footnotes from the current note.
+	- বর্তমান নোটের পাদটীকার একটি তালিকা দেখান।
 - [[Format converter]]
-	- Convert Markdown from other apps to Obsidian format.
+	- অন্য অ্যাপ থেকে Markdown-কে Obsidian ফরম্যাটে রূপান্তর করুন।
 - [[Graph view]]
-	- Visualize relationships between notes in your vault.
+	- আপনার ভল্টের নোটগুলির মধ্যেকার সম্পর্ক ভিজ্যুয়ালাইজ করুন।
 - [[Note composer]]
-	- Merge two notes or split one into two.
+	- দুটি নোট মার্জ করুন বা একটিকে দুটিতে বিভক্ত করুন।
 - [[Outgoing links]]
-	- Show all links for the active note.
+	- সক্রিয় নোটের জন্য সব লিঙ্ক দেখান।
 - [[Outline]]
-	- Show the table of contents for the active note.
+	- সক্রিয় নোটের বিষয়সূচি দেখান।
 - [[Page preview]]
-	- Preview the contents of a note by hovering over links.
+	- লিঙ্কের উপর হোভার করে একটি নোটের বিষয়বস্তু প্রিভিউ করুন।
 - [[Properties view]]
-	- List all the properties in your vault, and see properties for the active note.
+	- আপনার ভল্টের সব প্রপার্টি তালিকাবদ্ধ করুন, এবং সক্রিয় নোটের প্রপার্টি দেখুন।
 - [[Introduction to Obsidian Publish|Publish]]
-	- Host your notes as a website, wiki or documentation.
+	- আপনার নোটগুলিকে একটি ওয়েবসাইট, উইকি বা ডকুমেন্টেশন হিসেবে হোস্ট করুন।
 - [[Quick switcher]]
-	- Search, create and open notes from your keyboard.
+	- আপনার কীবোর্ড থেকে নোট অনুসন্ধান, তৈরি এবং খুলুন।
 - [[Random note]]
-	- Opens a random note in your vault.
+	- আপনার ভল্টে একটি রান্ডম নোট খোলে।
 - [[Search]]
-	- Find files in your vault.
+	- আপনার ভল্টে ফাইল খুঁজুন।
 - [[Slash commands]]
-	- Perform commands inside the editor using the `/` key.
+	- `/` কী ব্যবহার করে এডিটরের ভেতরে কমান্ড সম্পাদন করুন।
 - [[Slides]]
-	- Create a presentation from your notes.
+	- আপনার নোট থেকে একটি প্রেজেন্টেশন তৈরি করুন।
 - [[Introduction to Obsidian Sync|Sync]]
-	- Sync your notes across devices.
-- [[Tags view|Tags view]]
-	- List all the tags in your vault.
-- [[Plugins/Templates|Templates]]
-	- Insert pre-defined content into your notes.
+	- আপনার ডিভাইস জুড়ে আপনার নোট সিঙ্ক করুন।
+- [[Tags view|ট্যাগ প্যান]]
+	- আপনার ভল্টের সব ট্যাগ তালিকাবদ্ধ করুন।
+- [[Plugins/Templates|টেমপ্লেট]]
+	- আপনার নোটে পূর্ব-নির্ধারিত বিষয়বস্তু সন্নিবেশ করুন।
 - [[Unique note creator]]
-	- Create a unique note using a time-coded title.
+	- একটি সময়-কোডেড শিরোনাম ব্যবহার করে একটি অনন্য নোট তৈরি করুন।
 - [[Web viewer]]
-	- Open external links in Obsidian.
+	- Obsidian-এ বহিরাগত লিঙ্ক খুলুন।
 - [[Word count]]
-	- Display the number of words and characters.
+	- শব্দ এবং অক্ষরের সংখ্যা প্রদর্শন করুন।
 - [[Workspaces]]
-	- Save layouts and switch between them.
+	- লেআউট সংরক্ষণ করুন এবং তাদের মধ্যে স্যুইচ করুন।
 
-### Other plugins
+### অন্যান্য প্লাগইন
 
-The Obsidian team also maintains plugins available through the Community plugin store:
+Obsidian টিম কমিউনিটি প্লাগইন স্টোরের মাধ্যমে উপলব্ধ প্লাগইনগুলিও রক্ষণাবেক্ষণ করে:
 
 - [[Importer]]
-	- Convert files from various apps and formats to Obsidian.
-- [[Map view|Maps]]
-	- Add a map view to Obsidian Bases.
+	- বিভিন্ন অ্যাপ এবং ফরম্যাট থেকে ফাইলগুলিকে Obsidian-এ রূপান্তর করুন।
+- [[Map view|ম্যাপ]]
+	- Obsidian Bases-এ একটি ম্যাপ ভিউ যোগ করুন।

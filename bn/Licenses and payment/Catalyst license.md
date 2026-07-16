@@ -1,59 +1,58 @@
 ---
-localized: null
 permalink: catalyst
 ---
-The Catalyst license is a one-time purchase that gives you early access to beta versions and helps support continued development of Obsidian. You can support Obsidian by [purchasing a Catalyst license](https://obsidian.md/buy/catalyst). 
+Catalyst লাইসেন্স হলো একটি একবার-কেনা পণ্য, যা আপনাকে বিটা সংস্করণে আগাম অ্যাক্সেস দেয় এবং Obsidian-এর চলমান উন্নয়নে সহায়তা করে। আপনি [Catalyst লাইসেন্স কিনে](https://obsidian.md/buy/catalyst) Obsidian-কে সমর্থন করতে পারেন। 
 
-Benefits include:
+সুবিধাসমূহের মধ্যে রয়েছে:
 
-- Early access to [[#Enable early access versions|new versions]] of Obsidian
-- Access to exclusive [[#Join our Insider channels|Insider channels]].
-- Exclusive [[#Get your forum badge|forum badges]] and [[#Get your Discord badge|Discord badges]].
+- Obsidian-এর [[#Enable early access versions|নতুন সংস্করণে]] আগাম অ্যাক্সেস
+- এক্সক্লুসিভ [[#Join our Insider channels|Insider চ্যানেলে]] অ্যাক্সেস।
+- এক্সক্লুসিভ [[#Get your forum badge|ফোরাম ব্যাজ]] এবং [[#Get your Discord badge|Discord ব্যাজ]]।
 
-## Catalyst tiers
+## Catalyst স্তর
 
-There are three tiers of Catalyst based on the amount you contribute: *Insider*, *Supporter*, and *VIP*.
+আপনার অবদানের পরিমাণের ভিত্তিতে Catalyst-এর তিনটি স্তর রয়েছে: *Insider*, *Supporter*, এবং *VIP*।
 
-| Benefits                                 | Insider | Supporter |   VIP    |
+| সুবিধা                                   | Insider | Supporter |   VIP    |
 | ---------------------------------------- | :-----: | :-------: | :------: |
-| Early access to new versions             |    ✓    |     ✓     |    ✓     |
-| Access to exclusive development channels |    ✓    |     ✓     |    ✓     |
-| Access to exclusive lounge channel       |         |     ✓     |    ✓     |
-| Insider badge                            |    ✓    |           |          |
-| Supporter badge                          |         |     ✓     |          |
-| VIP badge                                |         |           |    ✓     |
-| **Contribution (USD)**                   | **$25** |  **$50**  | **$100** |
+| নতুন সংস্করণে আগাম অ্যাক্সেস              |    ✓    |     ✓     |    ✓     |
+| এক্সক্লুসিভ ডেভেলপমেন্ট চ্যানেলে অ্যাক্সেস |    ✓    |     ✓     |    ✓     |
+| এক্সক্লুসিভ লাউঞ্জ চ্যানেলে অ্যাক্সেস      |         |     ✓     |    ✓     |
+| Insider ব্যাজ                            |    ✓    |           |          |
+| Supporter ব্যাজ                          |         |     ✓     |          |
+| VIP ব্যাজ                                |         |           |    ✓     |
+| **অবদান (USD)**                          | **$25** |  **$50**  | **$100** |
 
 
-> [!info] Upgrade your Catalyst tier
-> If you already own a Catalyst license, you can upgrade to a higher Catalyst tier by paying the price difference between your current and the new tier.
+> [!info] আপনার Catalyst স্তর আপগ্রেড করুন
+> আপনার কাছে ইতিমধ্যে একটি Catalyst লাইসেন্স থাকলে, বর্তমান ও নতুন স্তরের মধ্যকার মূল্যের পার্থক্য পরিশোধ করে আপনি উচ্চতর Catalyst স্তরে আপগ্রেড করতে পারেন।
 
-## Access Catalyst benefits
+## Catalyst সুবিধা অ্যাক্সেস করুন
 
-Once you've purchased a Catalyst license, you can access a range of benefits. Learn how to enable them here.
+একবার আপনি একটি Catalyst লাইসেন্স কিনে ফেললে, আপনি বিভিন্ন সুবিধা অ্যাক্সেস করতে পারবেন। সেগুলো কীভাবে সক্রিয় করবেন তা এখানে জানুন।
 
-### Get your forum badge
+### আপনার ফোরাম ব্যাজ নিন
 
-**Note:** To connect your Obsidian account and your forum account, you must use the same email address for both accounts.
+**নোট:** আপনার Obsidian অ্যাকাউন্ট এবং ফোরাম অ্যাকাউন্ট সংযুক্ত করতে, উভয় অ্যাকাউন্টের জন্য একই ইমেইল ঠিকানা ব্যবহার করতে হবে।
 
-1. If you haven't already, join our [forum](https://forum.obsidian.md/).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get forum badge**.
+1. যদি এখনও করে না থাকেন, আমাদের [ফোরামে](https://forum.obsidian.md/) যোগ দিন।
+2. আপনার [Obsidian অ্যাকাউন্ট ড্যাশবোর্ডে](https://obsidian.md/account/catalyst) যান।
+3. **Catalyst**-এর অধীনে, **Get forum badge** নির্বাচন করুন।
 
-### Get your Discord badge
+### আপনার Discord ব্যাজ নিন
 
-1. If you haven't already, join our [Discord server](https://discord.gg/veuWUTm).
-2. Go to your [Obsidian account dashboard](https://obsidian.md/account/catalyst).
-3. Under **Catalyst**, select **Get Discord badge**.
+1. যদি এখনও করে না থাকেন, আমাদের [Discord সার্ভারে](https://discord.gg/veuWUTm) যোগ দিন।
+2. আপনার [Obsidian অ্যাকাউন্ট ড্যাশবোর্ডে](https://obsidian.md/account/catalyst) যান।
+3. **Catalyst**-এর অধীনে, **Get Discord badge** নির্বাচন করুন।
 
-### Join our Insider channels
+### আমাদের Insider চ্যানেলে যোগ দিন
 
-Insiders can chat with the Obsidian team and other Insiders in our exclusive Discord channels. You automatically join the Insider channels after you [[#Get your Discord badge]].
+Insider-রা আমাদের এক্সক্লুসিভ Discord চ্যানেলে Obsidian টিম এবং অন্যান্য Insider-দের সাথে চ্যাট করতে পারেন। [[#Get your Discord badge]]-এর পর আপনি স্বয়ংক্রিয়ভাবে Insider চ্যানেলে যুক্ত হয়ে যাবেন।
 
-- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) for discussions with Catalyst members.
-- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) for the latest early access releases on desktop.
-- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) for the latest early access releases on mobile.
+- [vip-lounge](https://discord.com/channels/686053708261228577/714234422379151400) — Catalyst সদস্যদের সাথে আলোচনার জন্য।
+- [insider-desktop-release](https://discord.com/channels/686053708261228577/716028884885307432) — ডেস্কটপে সর্বশেষ আগাম অ্যাক্সেস রিলিজের জন্য।
+- [insider-mobile-release](https://discord.com/channels/686053708261228577/817515900349448202) — মোবাইলে সর্বশেষ আগাম অ্যাক্সেস রিলিজের জন্য।
 
-### Enable early access versions
+### আগাম অ্যাক্সেস সংস্করণ সক্রিয় করুন
 
-Learn how to receive [[Early access versions]].
+[[Early access versions]] কীভাবে পাবেন তা জানুন।

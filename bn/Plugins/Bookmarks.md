@@ -1,126 +1,125 @@
 ---
-localized: null
 permalink: plugins/bookmarks
 ---
-Bookmarks is a [[Core plugins|core plugin]] that lets you quickly access items that you use often. A bookmark is a "shortcut" that immediately takes you the bookmarked item.
+Bookmarks একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে প্রায়ই ব্যবহৃত আইটেমগুলিতে দ্রুত প্রবেশ করতে দেয়। একটি বুকমার্ক হলো একটি "শর্টকাট" যা সাথে সাথে আপনাকে বুকমার্ক করা আইটেমে নিয়ে যায়।
 
-You can add bookmarks to the following:
+আপনি নিম্নলিখিতগুলিতে বুকমার্ক যোগ করতে পারেন:
 
-- Files
-- Folders
-- Graphs
-- Searches
-- Headings
-- Blocks
-- Links
+- ফাইল
+- ফোল্ডার
+- গ্রাফ
+- অনুসন্ধান
+- হেডিং
+- ব্লক
+- লিঙ্ক
 
-Open a bookmark by selecting it in the Bookmarks tab.
+Bookmarks ট্যাবে একটি বুকমার্ক নির্বাচন করে সেটি খুলুন।
 
-You can reorder bookmarks by selecting and dragging them.
+আপনি বুকমার্কগুলি নির্বাচন করে টেনে নিয়ে পুনরায় সাজাতে পারেন।
 
-You can bookmark items and organize them into _bookmark groups_ to find them easier. You can expand and collapse bookmark groups to show or hide the bookmarks in them.
+আপনি আইটেমগুলি বুকমার্ক করতে পারেন এবং সহজে খুঁজে পেতে সেগুলিকে _বুকমার্ক গ্রুপে_ সংগঠিত করতে পারেন। আপনি বুকমার্ক গ্রুপগুলিতে থাকা বুকমার্কগুলি দেখাতে বা লুকাতে সেগুলি প্রসারিত এবং সংকুচিত করতে পারেন।
 
-> [!todo]- Show bookmarks
-> You can find your bookmarked items by clicking **Bookmarks** ![[lucide-bookmark.svg#icon]] in the left sidebar.
+> [!todo]- বুকমার্ক দেখান
+> আপনি বাম সাইডবারে **Bookmarks** ![[lucide-bookmark.svg#icon]]-এ ক্লিক করে আপনার বুকমার্ক করা আইটেমগুলি খুঁজে পেতে পারেন।
 >
-> Or, open the Bookmarks tab by running **Bookmarks: Show bookmarks** from the [[Command palette]].
+> অথবা, [[Command palette]] থেকে **Bookmarks: Show bookmarks** চালিয়ে Bookmarks ট্যাব খুলুন।
 
-## Add a bookmark
+## একটি বুকমার্ক যোগ করুন
 
-Adding a bookmark opens the **Add bookmark** dialog where you can set an optional title and assign it to a bookmark group.
+একটি বুকমার্ক যোগ করলে **Add bookmark** ডায়ালগ খোলে যেখানে আপনি একটি ঐচ্ছিক শিরোনাম সেট করতে এবং এটি একটি বুকমার্ক গ্রুপে নির্ধারণ করতে পারেন।
 
-When you bookmark an item, **Add bookmark** becomes **Edit bookmark** and instead lets you edit the bookmark.
+আপনি যখন একটি আইটেম বুকমার্ক করেন, তখন **Add bookmark** পরিবর্তিত হয়ে **Edit bookmark** হয়ে যায় এবং পরিবর্তে আপনাকে বুকমার্কটি সম্পাদনা করতে দেয়।
 
-> [!todo]- Bookmark a file
+> [!todo]- একটি ফাইল বুকমার্ক করুন
 >
 > **Bookmarks**:
 >
-> - Select **Bookmark the active tab** ![[lucide-bookmark-plus.svg#icon]] at the top of the Bookmarks tab.
+> - Bookmarks ট্যাবের উপরে **Bookmark the active tab** ![[lucide-bookmark-plus.svg#icon]] নির্বাচন করুন।
 >
 > **File explorer**:
 >
-> - Right-click a file in [[File explorer]] and click **Bookmark**.
+> - [[File explorer]]-এ একটি ফাইলে ডান-ক্লিক করুন এবং **Bookmark**-এ ক্লিক করুন।
 >
 > **Command palette**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-> 2. Search for the **Bookmark** command.
-> 3. Press `Enter` with the command selected to add a bookmark.
+> 1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+> 2. **Bookmark** কমান্ডটি খুঁজুন।
+> 3. একটি বুকমার্ক যোগ করতে কমান্ডটি নির্বাচিত অবস্থায় `Enter` চাপুন।
 
-> [!todo]- Bookmark a folder
+> [!todo]- একটি ফোল্ডার বুকমার্ক করুন
 >
 > **File explorer**:
 >
-> - Right-click a folder in [[File explorer]] and click **Bookmark**.
+> - [[File explorer]]-এ একটি ফোল্ডারে ডান-ক্লিক করুন এবং **Bookmark**-এ ক্লিক করুন।
 
-> [!todo]- Bookmark a search term
+> [!todo]- একটি অনুসন্ধান টার্ম বুকমার্ক করুন
 >
 > **Search**:
 >
-> 1. Enter a [[Search#Search terms|search term]].
-> 2. Under the search field, select the three dots icon next to the number of results.
-> 3. Select **Bookmark**.
+> 1. একটি [[Search#অনুসন্ধান টার্ম|অনুসন্ধান টার্ম]] লিখুন।
+> 2. অনুসন্ধান ক্ষেত্রের নিচে, ফলাফলের সংখ্যার পাশের তিনটি বিন্দু আইকন নির্বাচন করুন।
+> 3. **Bookmark** নির্বাচন করুন।
 
-> [!todo]- Bookmark a graph
-> To bookmark a graph, right-click the tab with the graph view and select **Bookmark**.
+> [!todo]- একটি গ্রাফ বুকমার্ক করুন
+> একটি গ্রাফ বুকমার্ক করতে, গ্রাফ ভিউ সহ ট্যাবে ডান-ক্লিক করুন এবং **Bookmark** নির্বাচন করুন।
 >
-> You can't bookmark local graphs.
+> আপনি লোকাল গ্রাফ বুকমার্ক করতে পারবেন না।
 
-> [!todo]- Bookmark a heading
-> To bookmark a heading, right-click the heading and select **Bookmark this heading**.
->
-> **Command palette**:
->
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-> 2. Select the **Bookmark heading under cursor** command.
-
-> [!todo]- Bookmark a block
+> [!todo]- একটি হেডিং বুকমার্ক করুন
+> একটি হেডিং বুকমার্ক করতে, হেডিংয়ে ডান-ক্লিক করুন এবং **Bookmark this heading** নির্বাচন করুন।
 >
 > **Command palette**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-> 2. Select the **Bookmark block under cursor** command.
+> 1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+> 2. **Bookmark heading under cursor** কমান্ডটি নির্বাচন করুন।
 
-> [!todo]- Bookmark a link
->
-> 1. Enable [[Web viewer]] in [[Core plugins]].
-> 2. Open [[Web viewer]] and navigate to the link you wish to bookmark.
-> 3. In the address bar, select the three dots icon next to the reader icon.
-> 4. Select **Bookmark**.
+> [!todo]- একটি ব্লক বুকমার্ক করুন
 >
 > **Command palette**:
 >
-> 1. Press `Ctrl+P` (or `Cmd+P` on macOS) within the [[Web viewer]] pane to open the [[Command palette]].
-> 2. Select the **Bookmark** command.
+> 1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+> 2. **Bookmark block under cursor** কমান্ডটি নির্বাচন করুন।
 
-## Remove a bookmark
+> [!todo]- একটি লিঙ্ক বুকমার্ক করুন
+>
+> 1. [[Core plugins]]-এ [[Web viewer]] সক্রিয় করুন।
+> 2. [[Web viewer]] খুলুন এবং যে লিঙ্কটি বুকমার্ক করতে চান সেখানে যান।
+> 3. ঠিকানা বারে, রিডার আইকনের পাশের তিনটি বিন্দু আইকন নির্বাচন করুন।
+> 4. **Bookmark** নির্বাচন করুন।
+>
+> **Command palette**:
+>
+> 1. [[Web viewer]] প্যানেলের ভেতরে [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+> 2. **Bookmark** কমান্ডটি নির্বাচন করুন।
 
-In the Bookmarks tab, right-click the bookmark and select **Remove**.
+## একটি বুকমার্ক সরান
 
-You can also remove a bookmark from the **Edit bookmark** dialog.
+Bookmarks ট্যাবে, বুকমার্কটিতে ডান-ক্লিক করুন এবং **Remove** নির্বাচন করুন।
 
-## Add a bookmark group
+আপনি **Edit bookmark** ডায়ালগ থেকেও একটি বুকমার্ক সরাতে পারেন।
+
+## একটি বুকমার্ক গ্রুপ যোগ করুন
 
 **Bookmarks**:
 
-- Select **New bookmark group** ![[lucide-folder-plus.svg#icon]] at the top of the Bookmarks tab.
+- Bookmarks ট্যাবের উপরে **New bookmark group** ![[lucide-folder-plus.svg#icon]] নির্বাচন করুন।
 
-To move a bookmark to another group, select and drag it to the group you want to move it to.
+একটি বুকমার্ককে অন্য গ্রুপে সরাতে, সেটি নির্বাচন করে যে গ্রুপে সরাতে চান সেখানে টেনে নিয়ে যান।
 
-## Remove a bookmark group
+## একটি বুকমার্ক গ্রুপ সরান
 
-To remove a bookmark group and all bookmarks in it, right-click the bookmark group and select **Remove**.
+একটি বুকমার্ক গ্রুপ এবং তার সব বুকমার্ক সরাতে, বুকমার্ক গ্রুপটিতে ডান-ক্লিক করুন এবং **Remove** নির্বাচন করুন।
 
-## Bookmark multiple files
+## একাধিক ফাইল বুকমার্ক করুন
 
-You can add multiple bookmarks at the same time.
+আপনি একই সাথে একাধিক বুকমার্ক যোগ করতে পারেন।
 
 **File explorer**:
 
-1. Select multiple files by pressing `Alt` and selecting each file, or press `Shift` to select a range of files.
-2. Right-click one of the selected files and then select **Bookmark**.
+1. `Alt` চেপে প্রতিটি ফাইল নির্বাচন করে, অথবা ফাইলের একটি পরিসর নির্বাচন করতে `Shift` চেপে একাধিক ফাইল নির্বাচন করুন।
+2. নির্বাচিত ফাইলগুলির একটিতে ডান-ক্লিক করুন এবং তারপর **Bookmark** নির্বাচন করুন।
 
 **Tab group options**:
 
-1. In the upper-right corner of a tab group, select the down arrow.
-2. Select **Bookmark 3 tabs**, where 3 is the number of tabs in the tab group.
+1. একটি ট্যাব গ্রুপের উপরের-ডানদিকের কোণে, নিচের দিকের তীর নির্বাচন করুন।
+2. **Bookmark 3 tabs** নির্বাচন করুন, যেখানে 3 হলো ট্যাব গ্রুপে থাকা ট্যাবের সংখ্যা।

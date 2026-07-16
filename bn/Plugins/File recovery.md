@@ -1,50 +1,49 @@
 ---
-localized: null
 permalink: plugins/file-recovery
 publish: true
 mobile: true
-description: File Recovery helps protect your work from unintentional data loss by automatically saving snapshots of your notes at regular intervals.
+description: File Recovery নিয়মিত বিরতিতে আপনার নোটের স্বয়ংক্রিয়ভাবে স্ন্যাপশট সংরক্ষণ করে অনিচ্ছাকৃত ডেটা ক্ষতি থেকে আপনার কাজ রক্ষা করতে সহায়তা করে।
 ---
 
-File recovery is a [[Core plugins|core plugin]] that protects your work from accidental deletions, file corruption, or unwanted changes by automatically saving complete snapshots of your notes at regular intervals. File recovery is not a complete backup solution, and we recommend also [[Back up your Obsidian files|backing up]] your Obsidian files separately.
+ফাইল পুনরুদ্ধার একটি [[Core plugins|কোর প্লাগইন]] যা নিয়মিত বিরতিতে আপনার নোটের সম্পূর্ণ স্ন্যাপশট স্বয়ংক্রিয়ভাবে সংরক্ষণ করে দুর্ঘটনাজনিত মোছা, ফাইল দুর্নীতি, বা অবাঞ্ছিত পরিবর্তন থেকে আপনার কাজ রক্ষা করে। ফাইল পুনরুদ্ধার একটি সম্পূর্ণ ব্যাকআপ সমাধান নয়, এবং আমরা আপনার Obsidian ফাইলগুলি [[Back up your Obsidian files|পৃথকভাবে ব্যাকআপ]] করারও সুপারিশ করি।
 
-To avoid taking up [[#Storage and performance|too much space]], Obsidian keeps snapshots for a certain number of days before deleting them. Snapshots capture the full content of your files, not just changes, allowing you to restore any previous version.
+[[#Storage and performance|খুব বেশি জায়গা]] দখল এড়াতে, Obsidian একটি নির্দিষ্ট সংখ্যক দিনের জন্য স্ন্যাপশট রাখে এবং তারপর সেগুলি মুছে দেয়। স্ন্যাপশটগুলি শুধু পরিবর্তন নয়, আপনার ফাইলগুলির সম্পূর্ণ বিষয়বস্তু ধারণ করে, যা আপনাকে যেকোনো পূর্ববর্তী সংস্করণ পুনরুদ্ধার করতে দেয়।
 
-> [!info]+ Info
-> By default, snapshots are saved a minimum of 5 minutes from each other, and kept for 7 days. You can configure both intervals under **[[Settings]] → Core plugins → File recovery**.
+> [!info]+ তথ্য
+> ডিফল্টভাবে, স্ন্যাপশটগুলি একে অপরের থেকে ন্যূনতম ৫ মিনিট ব্যবধানে সংরক্ষিত হয় এবং ৭ দিন রাখা হয়। আপনি **[[Settings]] → Core plugins → File recovery**-এর অধীনে উভয় ব্যবধান কনফিগার করতে পারেন।
 
-Snapshots are kept in the [[How Obsidian stores data#Global settings|Global settings]], outside of the vault, to account for vault-related data loss. This means that snapshots are stored with the absolute path to the note. If you've moved your vault recently, you may need to move it back to the location where it was when the snapshot was taken.
+ভল্ট-সম্পর্কিত ডেটা ক্ষতির হিসাব রাখতে, স্ন্যাপশটগুলি ভল্টের বাইরে, [[How Obsidian stores data#Global settings|Global settings]]-এ রাখা হয়। এর অর্থ স্ন্যাপশটগুলি নোটের সম্পূর্ণ পাথ সহ সংরক্ষিত হয়। আপনি যদি সম্প্রতি আপনার ভল্ট সরিয়ে থাকেন, তাহলে স্ন্যাপশট নেওয়ার সময় এটি যেখানে ছিল সেখানে আপনাকে এটি ফিরিয়ে নিতে হতে পারে।
 
-> [!tip] If you are using [[Introduction to Obsidian Sync|Obsidian Sync]] or [[Sync your notes across devices|other syncing services]], File recovery snapshots will not sync between devices. Snapshots are device-specific and remain local to each device.
+> [!tip] আপনি যদি [[Introduction to Obsidian Sync|Obsidian Sync]] বা [[Sync your notes across devices|অন্য সিঙ্কিং সার্ভিস]] ব্যবহার করেন, তাহলে ফাইল পুনরুদ্ধার স্ন্যাপশটগুলি ডিভাইসগুলির মধ্যে সিঙ্ক হবে না। স্ন্যাপশটগুলি ডিভাইস-নির্দিষ্ট এবং প্রতিটি ডিভাইসে স্থানীয় থাকে।
 
-## Recover a snapshot
+## একটি স্ন্যাপশট পুনরুদ্ধার করুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **File recovery** under **Core plugins**.
-3. Under **Snapshots**, select **View**.
-4. In the file name field, start typing the name of the file you want to recover, and you will see a suggestion list.
-5. Select the file, press Enter, and you'll see a list of snapshots available.
-6. Select the snapshot you want to recover.
-    1. If you wish to copy and paste into a new note, select the **Copy** button.
-    2. If you wish to restore the file completely, select the **Restore** button.
-7. You can optionally show the differences between snapshots by toggling **Show changes**. This displays what content was added, removed, or modified between snapshot versions.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Core plugins**-এর অধীনে **File recovery** নির্বাচন করুন।
+3. **Snapshots**-এর অধীনে, **View** নির্বাচন করুন।
+4. ফাইলের নাম ক্ষেত্রে, আপনি যে ফাইলটি পুনরুদ্ধার করতে চান তার নাম টাইপ করা শুরু করুন, এবং আপনি একটি সাজেশন তালিকা দেখতে পাবেন।
+5. ফাইলটি নির্বাচন করুন, Enter চাপুন, এবং আপনি উপলব্ধ স্ন্যাপশটের একটি তালিকা দেখতে পাবেন।
+6. আপনি যে স্ন্যাপশটটি পুনরুদ্ধার করতে চান সেটি নির্বাচন করুন।
+    1. আপনি যদি একটি নতুন নোটে কপি এবং পেস্ট করতে চান, তাহলে **Copy** বোতামটি নির্বাচন করুন।
+    2. আপনি যদি ফাইলটি সম্পূর্ণভাবে পুনরুদ্ধার করতে চান, তাহলে **Restore** বোতামটি নির্বাচন করুন।
+7. আপনি ঐচ্ছিকভাবে **Show changes** টগল করে স্ন্যাপশটগুলির মধ্যে পার্থক্য দেখাতে পারেন। এটি স্ন্যাপশট সংস্করণগুলির মধ্যে কী বিষয়বস্তু যোগ, সরানো, বা পরিবর্তন করা হয়েছে তা প্রদর্শন করে।
 
-## Clear snapshot history
+## স্ন্যাপশট ইতিহাস সাফ করুন
 
-> [!danger] Clearing the snapshot history irreversibly deletes all snapshots in your vault.
+> [!danger] স্ন্যাপশট ইতিহাস সাফ করলে আপনার ভল্টের সব স্ন্যাপশট অপরিবর্তনীয়ভাবে মুছে যায়।
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **File recovery** under **Core plugins**.
-3. Under **Clear history**, select **Clear**.
-4. Confirm that you want to delete all snapshots, by clicking **Clear**.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Core plugins**-এর অধীনে **File recovery** নির্বাচন করুন।
+3. **Clear history**-এর অধীনে, **Clear** নির্বাচন করুন।
+4. **Clear**-এ ক্লিক করে নিশ্চিত করুন যে আপনি সব স্ন্যাপশট মুছতে চান।
 
-## Storage and performance
+## স্টোরেজ এবং কর্মক্ষমতা
 
-File recovery snapshots typically use minimal disk space, as they only store changed files. However, in vaults with many large files or frequent edits, snapshots can accumulate over time. Monitor your storage usage and adjust the retention period if needed.
+ফাইল পুনরুদ্ধার স্ন্যাপশটগুলি সাধারণত ন্যূনতম ডিস্ক স্পেস ব্যবহার করে, কারণ সেগুলি শুধুমাত্র পরিবর্তিত ফাইল সংরক্ষণ করে। তবে, অনেক বড় ফাইল বা ঘন ঘন সম্পাদনা থাকা ভল্টে, স্ন্যাপশটগুলি সময়ের সাথে জমা হতে পারে। আপনার স্টোরেজ ব্যবহার পর্যবেক্ষণ করুন এবং প্রয়োজনে রিটেনশন সময়কাল সামঞ্জস্য করুন।
 
-## Limitations
+## সীমাবদ্ধতা
 
-- **Apple lockdown mode**: This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
-- **File types**: Only `.md` and `.canvas` files can be restored using File recovery.
-- **Vault location**: If you move your vault to a different location without using the [[Manage vaults#Move vault to a different folder|vault switcher]], existing snapshots may not be accessible.
+- **Apple lockdown mode**: [Lockdown mode](https://support.apple.com/en-us/105120) সক্রিয় থাকা Apple ডিভাইসে এই বৈশিষ্ট্যটি উপলব্ধ নয়, যদি না Obsidian-কে অব্যাহতি দেওয়া হয়।
+- **ফাইল টাইপ**: শুধুমাত্র `.md` এবং `.canvas` ফাইল ফাইল পুনরুদ্ধার ব্যবহার করে পুনরুদ্ধার করা যায়।
+- **ভল্টের অবস্থান**: আপনি যদি [[Manage vaults#Move vault to a different folder|ভল্ট সুইচার]] ব্যবহার না করে আপনার ভল্ট অন্য অবস্থানে সরান, তাহলে বিদ্যমান স্ন্যাপশটগুলি অ্যাক্সেসযোগ্য নাও হতে পারে।
 

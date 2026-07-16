@@ -1,60 +1,59 @@
 ---
-localized: null
 permalink: link-notes
 ---
-While Obsidian is great for taking notes, the true power of Obsidian lies in being able to link your notes together. By understanding how one piece of information relates to another, you can improve your ability to remember them and to form deeper insights. In this guide, you'll learn how to create and navigate links in Obsidian.
+নোট নেওয়ার জন্য Obsidian দুর্দান্ত হলেও, Obsidian-এর প্রকৃত শক্তি নিহিত আপনার নোটগুলোকে একসাথে লিঙ্ক করার ক্ষমতায়। একটি তথ্যের টুকরো অন্যটির সাথে কীভাবে সম্পর্কিত তা বুঝে, আপনি সেগুলো মনে রাখার এবং গভীরতর অন্তর্দৃষ্টি তৈরি করার ক্ষমতা বাড়াতে পারেন। এই গাইডে, আপনি শিখবেন কীভাবে Obsidian-এ লিঙ্ক তৈরি ও নেভিগেট করতে হয়।
 
-## Create a link
+## একটি লিঙ্ক তৈরি করুন
 
-In this step, you'll create two notes and link them together using the \[\[double bracket syntax\]\].
+এই ধাপে, আপনি দুটি নোট তৈরি করবেন এবং \[\[ডাবল ব্র্যাকেট সিনট্যাক্স\]\] ব্যবহার করে সেগুলো একসাথে লিঙ্ক করবেন।
 
-1. [[Create your first note|Create a note]] with the name "Three laws of motion":
+1. "Three laws of motion" নামে একটি নোট [[Create your first note|তৈরি করুন]]:
 
    > The laws of motion are three laws stated by Isaac Newton, that describe the relationship between the motion of an object, and the forces acting on it.
 
-2. Create another note with the name "Law of Inertia" with the following text:
+2. নিচের টেক্সট সহ "Law of Inertia" নামে আরেকটি নোট তৈরি করুন:
 
    > The Law of Inertia is one of the
 
-3. At the end of the sentence, press the left square bracket (`[`) twice on your keyboard.
-4. Type "three" to find the first note you created.
-5. Press `Enter` to create a link to the highlighted note.
+3. বাক্যের শেষে, আপনার কীবোর্ডে বাম স্কয়ার ব্র্যাকেট (`[`) দুবার চাপুন।
+4. আপনার তৈরি করা প্রথম নোটটি খুঁজে পেতে "three" লিখুন।
+5. হাইলাইট করা নোটে লিঙ্ক তৈরি করতে `Enter` চাপুন।
 
    > The Law of Inertia is one of the \[\[Three laws of motion\]\]
 
-Open the "Three laws of motion" note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
+`Ctrl` (বা macOS-এ `Cmd`) চেপে ধরে লিঙ্কে ক্লিক করে "Three laws of motion" নোটটি খুলুন।
 
-## Create a link to a non-existing note
+## একটি অস্তিত্বহীন নোটে লিঙ্ক তৈরি করুন
 
-You can create links to notes that don't exist yet, for when you want to dive into a topic at a later time.
+আপনি এমন নোটে লিঙ্ক তৈরি করতে পারেন যেগুলো এখনো নেই, যখন আপনি পরে কোনো বিষয়ে গভীরভাবে যেতে চান।
 
-1. In your "Three laws of motion" note, select the text "Isaac Newton".
-2. Press the left square bracket (`[`) twice on your keyboard to create a link. The second link has a more muted color to indicate that the note doesn't exist yet.
-3. Create the note by clicking on the link while pressing `Ctrl` (or `Cmd` on macOS).
+1. আপনার "Three laws of motion" নোটে, "Isaac Newton" টেক্সটটি নির্বাচন করুন।
+2. একটি লিঙ্ক তৈরি করতে আপনার কীবোর্ডে বাম স্কয়ার ব্র্যাকেট (`[`) দুবার চাপুন। দ্বিতীয় লিঙ্কের রঙ আরও ম্লান, যা নির্দেশ করে যে নোটটি এখনো নেই।
+3. `Ctrl` (বা macOS-এ `Cmd`) চেপে ধরে লিঙ্কে ক্লিক করে নোটটি তৈরি করুন।
 
-## Navigate between notes
+## নোটের মধ্যে নেভিগেট করুন
 
-As you've seen in the previous steps, you can click a link while pressing `Ctrl` (or `Cmd` on macOS) to go to the linked note.
+আগের ধাপগুলোতে আপনি যেমন দেখেছেন, লিঙ্ক করা নোটে যেতে আপনি `Ctrl` (বা macOS-এ `Cmd`) চেপে ধরে একটি লিঙ্কে ক্লিক করতে পারেন।
 
-Another way to navigate between notes is through _backlinks_. A backlink lets you navigate in the opposite direction of an existing link.
+আপনার নোটের মধ্যে নেভিগেট করার আরেকটি উপায় হলো _ব্যাকলিঙ্ক_ এর মাধ্যমে। একটি ব্যাকলিঙ্ক আপনাকে একটি বিদ্যমান লিঙ্কের বিপরীত দিকে নেভিগেট করতে দেয়।
 
-1. Open the "Isaac Newton" note.
-2. In the right sidebar, click the **Backlinks** tab.
-3. Under **Linked mentions**, click the mention in "Three laws of motion" to go to that note.
+1. "Isaac Newton" নোটটি খুলুন।
+2. ডান সাইডবারে, **ব্যাকলিঙ্ক** ট্যাবে ক্লিক করুন।
+3. **লিঙ্ক করা মেনশন**-এর অধীনে, সেই নোটে যেতে "Three laws of motion"-এর উল্লেখে ক্লিক করুন।
 
-Another way to navigate between your notes is by using a visual representation of how your notes are connected.
+আপনার নোটের মধ্যে নেভিগেট করার আরেকটি উপায় হলো আপনার নোটগুলো কীভাবে সংযুক্ত তার একটি ভিজ্যুয়াল প্রতিনিধিত্ব ব্যবহার করা।
 
-**Desktop**
-1. In the upper-right corner of the note, click **More options** ![[lucide-more-horizontal.svg#icon]].
-2. Select **Open linked view**.
-3. Select **Open local graph**.
-4. Click any of the nodes in the graph to navigate to that note.
+**ডেস্কটপ**
+1. নোটের উপরের-ডান কোণায়, **আরও অপশন** ![[lucide-more-horizontal.svg#icon]] ক্লিক করুন।
+2. **লিঙ্ক করা ভিউ খুলুন** নির্বাচন করুন।
+3. **লোকাল গ্রাফ খুলুন** নির্বাচন করুন।
+4. সেই নোটে নেভিগেট করতে গ্রাফের যেকোনো নোডে ক্লিক করুন।
 
-**Mobile**
-1. In the top of the note, select **More options** ![[lucide-more-horizontal.svg#icon]].
-2. Select **Open local graph**.
-3. Click any of the nodes in the graph to navigate to that note.
+**মোবাইল**
+1. নোটের শীর্ষে, **আরও অপশন** ![[lucide-more-horizontal.svg#icon]] নির্বাচন করুন।
+2. **লোকাল গ্রাফ খুলুন** নির্বাচন করুন।
+3. সেই নোটে নেভিগেট করতে গ্রাফের যেকোনো নোডে ক্লিক করুন।
 
-## Learn more
+## আরও জানুন
 
-Understanding how your notes are connected becomes increasingly more difficult as your vault grows. Learn how to use the [[graph view]] to gain deeper insights from your knowledge base.
+আপনার ভল্ট বড় হওয়ার সাথে সাথে আপনার নোটগুলো কীভাবে সংযুক্ত তা বোঝা ক্রমশ কঠিন হয়ে ওঠে। আপনার জ্ঞানভাণ্ডার থেকে গভীরতর অন্তর্দৃষ্টি পেতে [[graph view]] কীভাবে ব্যবহার করবেন তা জানুন।

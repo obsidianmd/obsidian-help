@@ -1,74 +1,73 @@
 ---
-localized: null
 permalink: plugins/note-composer
 ---
-Note composer is a [[Core plugins|core plugin]] that lets you merge two notes or extract part of a note into a new note.
+নোট কম্পোজার একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে দুটি নোট মার্জ করতে বা একটি নোটের অংশ একটি নতুন নোটে বের করে নিতে দেয়।
 
-## Merge notes
+## নোট মার্জ করুন
 
-Merging notes adds a note to another and removes the first one. Note composer updates all links to reference the merged note.
+নোট মার্জ করলে একটি নোটকে অন্যটির সাথে যোগ করা হয় এবং প্রথমটি সরিয়ে দেওয়া হয়। নোট কম্পোজার মার্জ করা নোটটি উল্লেখ করার জন্য সব লিঙ্ক আপডেট করে।
 
-When you select the note to merge into, you can choose between the following methods:
+আপনি যে নোটে মার্জ করতে নির্বাচন করবেন, তখন আপনি নিম্নলিখিত পদ্ধতিগুলির মধ্যে বেছে নিতে পারেন:
 
-- `Enter`: Adds the source note at the _end_ to the destination note.
-- `Shift+Enter`: Adds the source note at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the content of the source note.
+- `Enter`: উৎস নোটটি গন্তব্য নোটের _শেষে_ যোগ করে।
+- `Shift+Enter`: উৎস নোটটি গন্তব্য নোটের _শুরুতে_ যোগ করে।
+- `Ctrl+Enter` (বা macOS-এ `Cmd+Enter`): উৎস নোটের বিষয়বস্তু দিয়ে একটি নতুন নোট তৈরি করে।
 
-To merge the active note with another note in your vault:
+সক্রিয় নোটটি আপনার ভল্টের অন্য একটি নোটের সাথে মার্জ করতে:
 
 **File explorer**
 
-1. In the File explorer, right-click the note you want to merge.
-2. Click **Merge entire file with...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
+1. File explorer-এ, আপনি যে নোটটি মার্জ করতে চান সেটিতে ডান-ক্লিক করুন।
+2. **Merge entire file with...**-এ ক্লিক করুন।
+3. আপনি যে নোটে মার্জ করতে চান তা নির্বাচন করুন।
+4. নিশ্চিত করতে **Merge**-এ ক্লিক করুন।
 
 **Command palette**
 
-1. Open the [[Command palette]].
-2. Select **Note composer: Merge current file with another file...**.
-3. Select the note you want to merge into.
-4. Click **Merge** to confirm.
+1. [[Command palette]] খুলুন।
+2. **Note composer: Merge current file with another file...** নির্বাচন করুন।
+3. আপনি যে নোটে মার্জ করতে চান তা নির্বাচন করুন।
+4. নিশ্চিত করতে **Merge**-এ ক্লিক করুন।
 
-> [!tip] Tip
-> By default, Note composer asks you to confirm when merging notes. If you disable the confirmation, and you merge a note by mistake, you can still recover it with the [[File recovery]] plugin.
+> [!tip] টিপ
+> ডিফল্টভাবে, নোট কম্পোজার নোট মার্জ করার সময় আপনাকে নিশ্চিত করতে বলে। আপনি নিশ্চিতকরণ নিষ্ক্রিয় করলে এবং ভুলবশত একটি নোট মার্জ করে ফেললে, আপনি এখনও [[File recovery]] প্লাগইন দিয়ে এটি পুনরুদ্ধার করতে পারেন।
 
-## Extract note
+## নোট বের করুন
 
-When you select the note to extract the selection into, you can choose between the following methods:
+আপনি যে নোটে নির্বাচনটি বের করে নেবেন তা নির্বাচন করার সময়, আপনি নিম্নলিখিত পদ্ধতিগুলির মধ্যে বেছে নিতে পারেন:
 
-- `Enter`: Adds the selected text at the _end_ to the destination note.
-- `Shift+Enter`: Adds the selected text at the _start_ of the destination note.
-- `Ctrl+Enter` (or `Cmd+Enter` on macOS): Creates a new note with the selected text.
+- `Enter`: নির্বাচিত টেক্সটটি গন্তব্য নোটের _শেষে_ যোগ করে।
+- `Shift+Enter`: নির্বাচিত টেক্সটটি গন্তব্য নোটের _শুরুতে_ যোগ করে।
+- `Ctrl+Enter` (বা macOS-এ `Cmd+Enter`): নির্বাচিত টেক্সট দিয়ে একটি নতুন নোট তৈরি করে।
 
-To extract text into a new note:
+একটি নতুন নোটে টেক্সট বের করতে:
 
 **Editor**
 
-1. While in the **Editing view**, select the text you want to extract.
-2. Right-click the selected text.
-3. Click **Extract current selection...**.
-4. Select the note you want to extract into.
+1. **Editing view**-এ থাকাকালীন, আপনি যে টেক্সটটি বের করতে চান তা নির্বাচন করুন।
+2. নির্বাচিত টেক্সটে ডান-ক্লিক করুন।
+3. **Extract current selection...**-এ ক্লিক করুন।
+4. আপনি যে নোটে বের করতে চান তা নির্বাচন করুন।
 
 **Command palette**
 
-1. While in the **Editing view**, select the text you want to extract.
-2. Open the [[Command palette]].
-3. Select **Note composer: Extract current selection...**.
-4. Select the note you want to extract into.
+1. **Editing view**-এ থাকাকালীন, আপনি যে টেক্সটটি বের করতে চান তা নির্বাচন করুন।
+2. [[Command palette]] খুলুন।
+3. **Note composer: Extract current selection...** নির্বাচন করুন।
+4. আপনি যে নোটে বের করতে চান তা নির্বাচন করুন।
 
-> [!tip] Tip
-> By default, Note composer replaces the extracted text with a link to the destination note. Under settings, you can also change to instead [[Embed files|embed]] the destination note, or to leave nothing behind.
+> [!tip] টিপ
+> ডিফল্টভাবে, নোট কম্পোজার বের করা টেক্সটটিকে গন্তব্য নোটের একটি লিঙ্ক দিয়ে প্রতিস্থাপন করে। সেটিংসের অধীনে, আপনি এর পরিবর্তে গন্তব্য নোটটি [[Embed files|এম্বেড]] করতে, বা কিছুই না রেখে দিতেও পরিবর্তন করতে পারেন।
 
-## Template file
+## টেমপ্লেট ফাইল
 
-By configuring a template, you can customize the content before you add it to the new note. To use a template, enter a **Template file location** in the plugin settings.
+একটি টেমপ্লেট কনফিগার করে, আপনি নতুন নোটে যোগ করার আগে বিষয়বস্তু কাস্টমাইজ করতে পারেন। একটি টেমপ্লেট ব্যবহার করতে, প্লাগইন সেটিংসে একটি **Template file location** লিখুন।
 
-The template can contain the following variables:
+টেমপ্লেটটিতে নিম্নলিখিত ভেরিয়েবলগুলি থাকতে পারে:
 
-| Variable          | Description                                                                                                                                              |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `{{content}}`     | The content to merge, or the extracted text selection. If you don't include this variable, Note composer adds the content at the bottom of the template. |
-| `{{fromTitle}}`   | Name of the source note.                                                                                                                                 |
-| `{{newTitle}}`    | Name of the destination note. For example, to add the file name as a heading at the top of the file.                                                     |
-| `{{date:FORMAT}}` | Creation date of the new note. For example, `{{date:YYYY-MM-DD}}`.                                                                                       |
+| ভেরিয়েবল          | বিবরণ                                                                                                                                              |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| `{{content}}`     | মার্জ করার বিষয়বস্তু, বা বের করা টেক্সট নির্বাচন। আপনি যদি এই ভেরিয়েবলটি অন্তর্ভুক্ত না করেন, তাহলে নোট কম্পোজার টেমপ্লেটের নিচে বিষয়বস্তু যোগ করে। |
+| `{{fromTitle}}`   | উৎস নোটের নাম।                                                                                                                                 |
+| `{{newTitle}}`    | গন্তব্য নোটের নাম। উদাহরণস্বরূপ, ফাইলের শীর্ষে একটি হেডিং হিসেবে ফাইলের নাম যোগ করতে।                                                     |
+| `{{date:FORMAT}}` | নতুন নোটের তৈরির তারিখ। উদাহরণস্বরূপ, `{{date:YYYY-MM-DD}}`।                                                                                       |

@@ -1,21 +1,20 @@
 ---
-localized: null
 permalink: aliases
 cssclasses:
   - soft-embed
 ---
 
-If you want to reference a file using different names, consider adding _aliases_ to the note. An alias is an alternative name for a note.
+আপনি যদি বিভিন্ন নাম ব্যবহার করে একটি ফাইল উল্লেখ করতে চান, তাহলে নোটে _অ্যালিয়াস_ যোগ করার কথা বিবেচনা করুন। অ্যালিয়াস হলো একটি নোটের একটি বিকল্প নাম।
 
-Use aliases for things like acronyms, nicknames, or to refer to a note in a different language.
+সংক্ষিপ্ত রূপ, ডাকনাম, অথবা ভিন্ন ভাষায় একটি নোট উল্লেখ করার মতো ক্ষেত্রে অ্যালিয়াস ব্যবহার করুন।
 
-If you're only trying to change how a link looks in one place, see how to [[Internal links#Change the link display text|Change the link display text]] instead.
+আপনি যদি শুধুমাত্র একটি জায়গায় লিঙ্কটি কেমন দেখাচ্ছে তা পরিবর্তন করতে চান, তাহলে এর পরিবর্তে দেখুন কীভাবে [[Internal links#লিঙ্ক প্রদর্শন টেক্সট পরিবর্তন করুন|লিঙ্ক প্রদর্শন টেক্সট পরিবর্তন করুন]]।
 
 ![[Internal links#^callout-internal-links-link-text]]
 
-## Add an alias to a note
+## একটি নোটে অ্যালিয়াস যোগ করুন
 
-To add an alias for a note, add `aliases` property in the note [[Properties]]. Aliases should always be formatted as a list in YAML.
+একটি নোটের জন্য অ্যালিয়াস যোগ করতে, নোট [[Properties]]-এ `aliases` প্রপার্টি যোগ করুন। অ্যালিয়াসগুলি সবসময় YAML-এ একটি তালিকা হিসেবে ফরম্যাট করা উচিত।
 
 ```md
 ---
@@ -28,22 +27,23 @@ aliases:
 # Dog
 ```
 
-## Link to a note using an alias
+## অ্যালিয়াস ব্যবহার করে একটি নোটে লিঙ্ক করুন
 
-To link to a note using an alias:
+অ্যালিয়াস ব্যবহার করে একটি নোটে লিঙ্ক করতে:
 
-1. Start typing the alias in an [[Internal links|internal link]]. Any alias shows up in the list of suggestions, with a curved arrow icon next to it.
-2. Press `Enter` to select the alias.
+1. একটি [[Internal links|অভ্যন্তরীণ লিঙ্ক]]-এ অ্যালিয়াসটি টাইপ করা শুরু করুন। যেকোনো অ্যালিয়াস পরামর্শের তালিকায় দেখা যাবে, এর পাশে একটি বাঁকা তীর আইকন সহ।
+2. অ্যালিয়াসটি নির্বাচন করতে `Enter` চাপুন।
 
-Obsidian creates the link with the alias as its custom display text, for example `[[Artificial Intelligence|AI]]`.
+Obsidian অ্যালিয়াসটিকে এর কাস্টম প্রদর্শন টেক্সট হিসেবে ব্যবহার করে লিঙ্ক তৈরি করে, যেমন `[[Artificial Intelligence|AI]]`।
 
-> [!note] Note
-> Rather than just using the alias as the link destination (`[[AI]]`), Obsidian uses the `[[Artificial Intelligence|AI]]` link format to ensure interoperability with other applications using the Wikilink format.
+> [!note] নোট
+> শুধুমাত্র অ্যালিয়াসটিকে লিঙ্ক গন্তব্য হিসেবে ব্যবহার করার পরিবর্তে (`[[AI]]`), Obsidian `[[Artificial Intelligence|AI]]` লিঙ্ক ফরম্যাট ব্যবহার করে, যাতে Wikilink ফরম্যাট ব্যবহারকারী অন্যান্য অ্যাপ্লিকেশনের সাথে ইন্টারঅপারেবিলিটি নিশ্চিত করা যায়।
 
-## Find unlinked mentions for an alias
+## একটি অ্যালিয়াসের অলিঙ্কযুক্ত উল্লেখ খুঁজুন
 
-By using [[Backlinks]], you can find unlinked mentions of aliases.
+[[Backlinks]] ব্যবহার করে, আপনি অ্যালিয়াসের অলিঙ্কযুক্ত উল্লেখগুলি খুঁজে পেতে পারেন।
 
-For example, after setting "AI" as an alias for "Artificial intelligence", you can see mentions of "AI" in other notes.
+উদাহরণস্বরূপ, "Artificial intelligence"-এর জন্য "AI"-কে অ্যালিয়াস হিসেবে সেট করার পর, আপনি অন্যান্য নোটে "AI"-এর উল্লেখ দেখতে পাবেন।
 
-If you link an unlinked mention to an alias, Obsidian turns the mention into an [[Internal links|internal link]] with the alias as its display text.
+আপনি যদি একটি অলিঙ্কযুক্ত উল্লেখকে একটি অ্যালিয়াসে লিঙ্ক করেন, তাহলে Obsidian সেই উল্লেখটিকে অ্যালিয়াসকে প্রদর্শন টেক্সট হিসেবে ব্যবহার করে একটি [[Internal links|অভ্যন্তরীণ লিঙ্কে]] পরিণত করে।
+</content>

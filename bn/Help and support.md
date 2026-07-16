@@ -1,103 +1,102 @@
 ---
-localized: null
 permalink: resources
 publish: true
 mobile: true
-description: 'Find support resources, report security or community violations, and learn how to contribute to Obsidian.'
+description: 'সহায়তা সংক্রান্ত সম্পদ খুঁজুন, নিরাপত্তা বা কমিউনিটি সংক্রান্ত লঙ্ঘনের রিপোর্ট করুন এবং Obsidian-এ কীভাবে অবদান রাখবেন তা জানুন।'
 ---
 
-Find support resources, report security or community violations, and learn how to contribute to Obsidian.
+সহায়তা সংক্রান্ত সম্পদ খুঁজুন, নিরাপত্তা বা কমিউনিটি সংক্রান্ত লঙ্ঘনের রিপোর্ট করুন এবং Obsidian-এ কীভাবে অবদান রাখবেন তা জানুন।
 
-## Questions and advice
+## প্রশ্ন এবং পরামর্শ
 
-If you have a question about how to use Obsidian, or want to get to know other Obsidian users, you can join one of our community channels:
+Obsidian কীভাবে ব্যবহার করবেন সে সম্পর্কে যদি আপনার কোনো প্রশ্ন থাকে, অথবা অন্যান্য Obsidian ব্যবহারকারীদের সাথে পরিচিত হতে চান, তাহলে আপনি আমাদের কমিউনিটি চ্যানেলগুলোর যেকোনো একটিতে যোগ দিতে পারেন:
 
-- [[Sandbox vault|Explore the Sandbox vault]]
-- [Join our Discord server](https://discord.gg/obsidianmd)
-- [Visit the forum](https://forum.obsidian.md/)
+- [[Sandbox vault|Sandbox ভল্ট এক্সপ্লোর করুন]]
+- [আমাদের Discord সার্ভারে যোগ দিন](https://discord.gg/obsidianmd)
+- [ফোরাম দেখুন](https://forum.obsidian.md/)
 
-### Report bugs and request features
+### বাগ রিপোর্ট করুন এবং ফিচারের অনুরোধ করুন
 
-> [!tip]- Check for duplicates first
-> Before you request a new feature or report a bug, please look through the other posts to make sure someone else hasn't already submitted it.
+> [!tip]- প্রথমে ডুপ্লিকেট যাচাই করুন
+> নতুন কোনো ফিচারের অনুরোধ করার বা বাগ রিপোর্ট করার আগে, দয়া করে অন্যান্য পোস্টগুলো দেখে নিশ্চিত হন যে অন্য কেউ ইতিমধ্যে এটি জমা দেননি।
 
-If you want to suggest a feature in Obsidian, head over to [Feature requests](https://forum.obsidian.md/c/feature-requests/8).
+Obsidian-এ কোনো ফিচার প্রস্তাব করতে চাইলে, [ফিচারের অনুরোধ](https://forum.obsidian.md/c/feature-requests/8) পেজে যান।
 
-If you want to report a bug in Obsidian, head over to [Bug reports](https://forum.obsidian.md/c/bug-reports/7). Bug reports are moved to the [Bug graveyard](https://forum.obsidian.md/c/bug-graveyard/12) once they're resolved.
+Obsidian-এ কোনো বাগ রিপোর্ট করতে চাইলে, [বাগ রিপোর্ট](https://forum.obsidian.md/c/bug-reports/7) পেজে যান। বাগ রিপোর্টগুলো সমাধান হয়ে গেলে সেগুলো [বাগ গ্রেভইয়ার্ড](https://forum.obsidian.md/c/bug-graveyard/12)-এ স্থানান্তরিত হয়।
 
-### Collect debug information
+### ডিবাগ তথ্য সংগ্রহ করুন
 
-When you encounter a bug or need assistance from [[#Contact Obsidian support|Obsidian support]], providing debug information can be very helpful. Here's how to obtain it:
+আপনি যখন কোনো বাগের সম্মুখীন হন বা [[#Contact Obsidian support|Obsidian সহায়তা]]র কাছ থেকে সহায়তা প্রয়োজন হয়, তখন ডিবাগ তথ্য প্রদান করা খুবই সহায়ক হতে পারে। এটি সংগ্রহ করার পদ্ধতি নিচে দেওয়া হলো:
 
-1. Open the [[Command palette]].
-2. Type **Show debug info**.
-3. Select the highlighted **Show debug info** option.
-4. Select **Copy to clipboard**.
-5. Paste the copied information into your bug report or Obsidian support email.
+1. [[Command palette]] খুলুন।
+2. **Show debug info** টাইপ করুন।
+3. হাইলাইট হওয়া **Show debug info** অপশনটি নির্বাচন করুন।
+4. **Copy to clipboard** নির্বাচন করুন।
+5. কপি করা তথ্য আপনার বাগ রিপোর্ট বা Obsidian সহায়তা ইমেইলে পেস্ট করুন।
 
-### Check startup time
+### স্টার্টআপ সময় যাচাই করুন
 
-You can check how long Obsidian takes to start by using the **Startup time** feature.
+**Startup time** ফিচারটি ব্যবহার করে আপনি জানতে পারবেন Obsidian চালু হতে কত সময় নেয়।
 
-1. Open **[[Settings]] → General → Advanced**.
-2. Next to **Notify if startup takes longer than expected**, select the **timer icon**.
-3. A **Startup time** window will appear, showing detailed timing information:
-   - **Total app startup**: Overall launch time.
-   - **Initialization**: Time spent loading the app itself.
-   - **Vault**: Time to load your vault files.
-   - **Workspace**: Time to restore tabs and layout.
-   - **Core plugins**: Time used by active core plugins.
-4. You can select **Copy to clipboard** to copy the report for troubleshooting or sharing.
+1. **[[Settings]] → General → Advanced** খুলুন।
+2. **Notify if startup takes longer than expected**-এর পাশে, **টাইমার আইকন** নির্বাচন করুন।
+3. একটি **Startup time** উইন্ডো প্রদর্শিত হবে, যেখানে বিস্তারিত সময়ের তথ্য দেখানো হবে:
+   - **Total app startup**: সামগ্রিক লঞ্চের সময়।
+   - **Initialization**: অ্যাপটি লোড হতে ব্যয় হওয়া সময়।
+   - **Vault**: আপনার ভল্ট ফাইল লোড হতে যে সময় লাগে।
+   - **Workspace**: ট্যাব এবং লেআউট পুনরুদ্ধার করতে যে সময় লাগে।
+   - **Core plugins**: সক্রিয় কোর প্লাগইনগুলো দ্বারা ব্যবহৃত সময়।
+4. ট্রাবলশুটিং বা শেয়ার করার জন্য রিপোর্টটি কপি করতে আপনি **Copy to clipboard** নির্বাচন করতে পারেন।
 
-Additionally, you can toggle **Notify if startup takes longer than expected** to receive a warning if startup is unusually slow.
+এছাড়াও, স্টার্টআপ অস্বাভাবিকভাবে ধীর হলে সতর্কতা পেতে আপনি **Notify if startup takes longer than expected** টগল করতে পারেন।
 
-### Capture console logs
+### কনসোল লগ ক্যাপচার করুন
 
-When you need to report a bug related to an Obsidian plugin or when requested by [[#Contact Obsidian support|Obsidian support]] to provide log information, you may need to access the Obsidian console from within the Obsidian application. Here’s how to do it based on your operating system:
+Obsidian প্লাগইন সংক্রান্ত কোনো বাগ রিপোর্ট করার প্রয়োজন হলে বা [[#Contact Obsidian support|Obsidian সহায়তা]] থেকে লগ তথ্য প্রদানের অনুরোধ করা হলে, আপনার Obsidian অ্যাপ্লিকেশনের ভেতর থেকে Obsidian কনসোল অ্যাক্সেস করার প্রয়োজন হতে পারে। আপনার অপারেটিং সিস্টেম অনুযায়ী এটি করার পদ্ধতি এখানে দেওয়া হলো:
 
 - **Windows/Linux**: `Ctrl+Shift+I`
 - **macOS**: `Command+Option+I`
 
-> [!info]+ Alternative access method
-> If using the **Obsidian frame** Window frame style, you can also access the Obsidian console via the title menu. 
+> [!info]+ বিকল্প অ্যাক্সেস পদ্ধতি
+> আপনি যদি **Obsidian frame** উইন্ডো ফ্রেম স্টাইল ব্যবহার করেন, তাহলে টাইটেল মেনুর মাধ্যমেও আপনি Obsidian কনসোল অ্যাক্সেস করতে পারেন। 
 
-Once you've opened the developer console:
+ডেভেলপার কনসোল খোলার পর:
 
-1. Select **console** in the top menu.
-2. Choose the **errors** side menu option. Any errors will be displayed as `# errors`.
-3. Select one of the red error messages.
-4. Choose the option to **Save as...** This will save all the errors in the console.
-5. Save the log file to your device.
-6. Attach the log file to your bug report or Obsidian support email.
+1. উপরের মেনুতে **console** নির্বাচন করুন।
+2. **errors** সাইড মেনু অপশনটি বেছে নিন। যেকোনো ত্রুটি `# errors` হিসেবে প্রদর্শিত হবে।
+3. লাল রঙের ত্রুটি বার্তাগুলোর যেকোনো একটি নির্বাচন করুন।
+4. **Save as...** অপশনটি বেছে নিন। এটি কনসোলের সমস্ত ত্রুটি সংরক্ষণ করবে।
+5. লগ ফাইলটি আপনার ডিভাইসে সংরক্ষণ করুন।
+6. লগ ফাইলটি আপনার বাগ রিপোর্ট বা Obsidian সহায়তা ইমেইলের সাথে সংযুক্ত করুন।
 
 ![[help-support-console-menu.png#interface|600]]
 
-> [!warning]+ Mobile console access
-> Mobile devices and tablets have limited access to their developer consoles. For these users, we recommend using the community plugin [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) to automatically generate the console log data in a markdown note.
+> [!warning]+ মোবাইল কনসোল অ্যাক্সেস
+> মোবাইল ডিভাইস এবং ট্যাবলেটে তাদের ডেভেলপার কনসোলে সীমিত অ্যাক্সেস থাকে। এই ব্যবহারকারীদের জন্য, আমরা মার্কডাউন নোটে স্বয়ংক্রিয়ভাবে কনসোল লগ ডেটা তৈরি করতে কমিউনিটি প্লাগইন [Logstravaganza](https://community.obsidian.md/plugins/logstravaganza) ব্যবহার করার পরামর্শ দিই।
 
-### Contact Obsidian support
+### Obsidian সহায়তার সাথে যোগাযোগ করুন
 
-Obsidian offers email support only for inquiries about [[Commercial license|commercial licenses]], your account, payment, and add-on services ([[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]]). If you need help with any of those topics, [email the Obsidian team](mailto:support@obsidian.md).
+Obsidian শুধুমাত্র [[Commercial license|কমার্শিয়াল লাইসেন্স]], আপনার অ্যাকাউন্ট, পেমেন্ট এবং অ্যাড-অন পরিষেবা ([[Introduction to Obsidian Sync|Obsidian Sync]] এবং [[Introduction to Obsidian Publish|Obsidian Publish]]) সংক্রান্ত জিজ্ঞাসার জন্য ইমেইল সহায়তা প্রদান করে। এই বিষয়গুলোর যেকোনোটির জন্য সাহায্যের প্রয়োজন হলে, [Obsidian টিমকে ইমেইল করুন](mailto:support@obsidian.md)।
 
-## Report a security issue
+## নিরাপত্তা সংক্রান্ত সমস্যা রিপোর্ট করুন
 
-If you've discovered a security issue in Obsidian, or if you suspect that a plugin is malicious, please [email the Obsidian team](mailto:support@obsidian.md).
+আপনি যদি Obsidian-এ কোনো নিরাপত্তা সংক্রান্ত সমস্যা আবিষ্কার করেন, অথবা কোনো প্লাগইনকে ক্ষতিকর বলে সন্দেহ করেন, তাহলে দয়া করে [Obsidian টিমকে ইমেইল করুন](mailto:support@obsidian.md)।
 
-## Report a Code of Conduct violation
+## আচরণবিধি লঙ্ঘনের রিপোর্ট করুন
 
-Whether you're a victim or witness of a violation of our [[Community code of conduct]], you can report the incident to our moderator team
+আপনি যদি আমাদের [[Community code of conduct]]-এর কোনো লঙ্ঘনের শিকার হন বা তার সাক্ষী হন, তাহলে আপনি আমাদের মডারেটর টিমের কাছে ঘটনাটি রিপোর্ট করতে পারেন
 
-Report the incident on one of the following community channels:
+নিম্নলিখিত কমিউনিটি চ্যানেলগুলোর যেকোনো একটিতে ঘটনাটি রিপোর্ট করুন:
 
-- [[Community code of conduct#Report on Discord|Report on Discord]]
-- [[Community code of conduct#Report on the forum|Report on the forum]]
+- [[Community code of conduct#Report on Discord|Discord-এ রিপোর্ট করুন]]
+- [[Community code of conduct#Report on the forum|ফোরামে রিপোর্ট করুন]]
 
-## Contributing to Obsidian
+## Obsidian-এ অবদান রাখা
 
-Interested in applying some skills and free time to Obsidian? Here is where we could really use your assistance:
+Obsidian-এ কিছু দক্ষতা এবং অবসর সময় প্রয়োগ করতে আগ্রহী? এখানে আমরা সত্যিই আপনার সহায়তা ব্যবহার করতে পারি:
 
-- Help your fellow Obsidian users out by answering questions on our [discord server](https://discord.gg/obsidianmd), our [forum](https://forum.obsidian.md/), or the [ObsidianMD](https://old.reddit.com/r/ObsidianMD/) reddit.
-- [[Developers]], we could really use your help on expanding our [Obsidian Developer Documentation](https://github.com/obsidianmd/obsidian-developer-docs). 
-- Do you know any written language besides English? Consider assisting with our [[Translations]] into other languages.
-- Is there something in these help docs that are out of date, or confusing? Grab the [[Style guide]] and submit an [issue and pull request](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc).
-- If able, you can [[Financial contributions|financially contribute]] by utilizing one of our paid add-ons. 
+- আমাদের [discord সার্ভার](https://discord.gg/obsidianmd), আমাদের [ফোরাম](https://forum.obsidian.md/), অথবা [ObsidianMD](https://old.reddit.com/r/ObsidianMD/) রেডিটে প্রশ্নের উত্তর দিয়ে আপনার সহকর্মী Obsidian ব্যবহারকারীদের সাহায্য করুন।
+- [[Developers]], আমাদের [Obsidian Developer Documentation](https://github.com/obsidianmd/obsidian-developer-docs) সম্প্রসারণে আপনার সাহায্য আমাদের সত্যিই প্রয়োজন। 
+- ইংরেজি ছাড়াও আপনি কি অন্য কোনো ভাষা জানেন? অন্যান্য ভাষায় আমাদের [[Translations|অনুবাদ]] কাজে সহায়তা করার কথা বিবেচনা করুন।
+- এই সহায়তা নথিতে এমন কিছু কি আছে যা পুরনো হয়ে গেছে, বা বিভ্রান্তিকর? [[Style guide|স্টাইল গাইড]] দেখুন এবং একটি [ইস্যু ও পুল রিকোয়েস্ট](https://github.com/obsidianmd/obsidian-help/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) জমা দিন।
+- সম্ভব হলে, আপনি আমাদের যেকোনো একটি পেইড অ্যাড-অন ব্যবহার করে [[Financial contributions|আর্থিক অবদান]] রাখতে পারেন। 

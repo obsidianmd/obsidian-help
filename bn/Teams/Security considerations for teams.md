@@ -1,75 +1,74 @@
 ---
-localized: null
 permalink: teams/security
 cssclasses:
   - soft-embed
 ---
-Our [Security](https://obsidian.md/security) page compiles information about how Obsidian approaches protecting your data. It is also the home for security audits completed by third parties.
+আমাদের [Security](https://obsidian.md/security) পেজে Obsidian কীভাবে আপনার ডেটা সুরক্ষিত করার পন্থা অবলম্বন করে সে সম্পর্কে তথ্য সংকলিত করা হয়েছে। এটি তৃতীয় পক্ষ দ্বারা সম্পন্ন নিরাপত্তা অডিটের হোমও।
 
-## Considerations
+## বিবেচ্য বিষয়
 
-Obsidian is designed to function as an offline and standalone application. Obsidian also supports custom plugins and themes. Additionally, we provide both official and unofficial support for various file syncing services.
+Obsidian একটি অফলাইন এবং স্বতন্ত্র অ্যাপ্লিকেশন হিসেবে কাজ করার জন্য ডিজাইন করা হয়েছে। Obsidian কাস্টম প্লাগইন এবং থিমও সমর্থন করে। এছাড়াও, আমরা বিভিন্ন ফাইল সিঙ্কিং পরিষেবার জন্য অফিসিয়াল এবং আনঅফিসিয়াল উভয় সমর্থন প্রদান করি।
 
-If you do not intend to use community plugins or themes, or [[Introduction to Obsidian Sync|Obsidian Sync]] or [[Introduction to Obsidian Publish|Obsidian Publish]], your standard procedures for securing applications will apply. However, if you plan to use any of these features, we recommend thoroughly evaluating their suitability for your workplace.
+আপনি যদি কমিউনিটি প্লাগইন বা থিম, অথবা [[Introduction to Obsidian Sync|Obsidian Sync]] বা [[Introduction to Obsidian Publish|Obsidian Publish]] ব্যবহার করার ইচ্ছা না করেন, তাহলে অ্যাপ্লিকেশন সুরক্ষিত করার জন্য আপনার প্রমিত পদ্ধতি প্রযোজ্য হবে। তবে, আপনি যদি এই বৈশিষ্ট্যগুলির যেকোনো একটি ব্যবহার করার পরিকল্পনা করেন, তাহলে আমরা আপনার কর্মক্ষেত্রের জন্য এগুলোর উপযুক্ততা সম্পূর্ণরূপে মূল্যায়ন করার পরামর্শ দিই।
 
-## Community plugins and themes
+## কমিউনিটি প্লাগইন এবং থিম
 
-Please review the [[Plugin security]] page in addition to this section. 
+এই বিভাগের পাশাপাশি [[Plugin security]] পেজটিও পর্যালোচনা করুন।
 
-Obsidian automatically scans every version of a community plugin or theme in the [official directory](https://obsidian.md/plugins) for security vulnerabilities, code quality issues, and malware. Each project's directory page displays the results as a safety scorecard. Manual reviews continue for popular, featured, and flagged items. We do not review community items which have not been submitted to the official directory.
+Obsidian [অফিসিয়াল ডিরেক্টরিতে](https://obsidian.md/plugins) থাকা প্রতিটি কমিউনিটি প্লাগইন বা থিমের প্রতিটি সংস্করণ নিরাপত্তা দুর্বলতা, কোড গুণমান সমস্যা এবং ম্যালওয়্যারের জন্য স্বয়ংক্রিয়ভাবে স্ক্যান করে। প্রতিটি প্রকল্পের ডিরেক্টরি পেজে ফলাফলগুলো একটি নিরাপত্তা স্কোরকার্ড হিসেবে প্রদর্শিত হয়। জনপ্রিয়, ফিচার্ড এবং ফ্ল্যাগ করা আইটেমগুলোর জন্য ম্যানুয়াল পর্যালোচনা অব্যাহত থাকে। অফিসিয়াল ডিরেক্টরিতে জমা দেওয়া হয়নি এমন কমিউনিটি আইটেমগুলো আমরা পর্যালোচনা করি না।
 
-We do not have a community store for [[CSS snippets]]. These files are typically obtained from within our [Obsidian Community](https://obsidian.md/community) or from public GitHub repositories.
+[[CSS snippets]]-এর জন্য আমাদের কোনো কমিউনিটি স্টোর নেই। এই ফাইলগুলো সাধারণত আমাদের [Obsidian Community](https://obsidian.md/community)-এর মধ্য থেকে অথবা পাবলিক GitHub রিপোজিটরি থেকে সংগ্রহ করা হয়।
 
-We require bundling of assets in CSS snippets and themes. However, we have made an exception for [Google Fonts](https://fonts.google.com/) to maintain performance on mobile devices, where the impact of bundling fonts is more noticeable.
+আমরা CSS স্নিপেট এবং থিমে অ্যাসেট বান্ডলিং করার প্রয়োজনীয়তা রাখি। তবে, [Google Fonts](https://fonts.google.com/)-এর ক্ষেত্রে আমরা একটি ব্যতিক্রম রেখেছি, যাতে মোবাইল ডিভাইসে কর্মক্ষমতা বজায় থাকে, যেখানে ফন্ট বান্ডলিং করার প্রভাব বেশি লক্ষণীয়।
 
-## Network and access
+## নেটওয়ার্ক এবং অ্যাক্সেস
 
-While prioritizing the local-first approach of our application, Obsidian does make network calls based on the services and features you use. These network connections can be disabled via a domain firewall or application lockdown.
+আমাদের অ্যাপ্লিকেশনের লোকাল-ফার্স্ট পদ্ধতিকে অগ্রাধিকার দেওয়ার পাশাপাশি, আপনি যে পরিষেবা এবং বৈশিষ্ট্যগুলো ব্যবহার করেন তার উপর ভিত্তি করে Obsidian নেটওয়ার্ক কল করে। এই নেটওয়ার্ক সংযোগগুলো একটি ডোমেইন ফায়ারওয়াল বা অ্যাপ্লিকেশন লকডাউনের মাধ্যমে নিষ্ক্রিয় করা যেতে পারে।
 
-Obsidian makes these network connections on HTTPS port 443.
+Obsidian HTTPS পোর্ট ৪৪৩-এ এই নেটওয়ার্ক সংযোগগুলো করে।
 
-The following is a list of network connections Obsidian makes.
+নিচে Obsidian যে নেটওয়ার্ক সংযোগগুলো করে তার একটি তালিকা দেওয়া হল।
 
-### Obsidian-sourced connections
+### Obsidian-সোর্সড সংযোগ
 
-- **Early access updates**: Uses `releases.obsidian.md`.
-- **Account and license management**: When accessing your Obsidian account in Settings and applying a Commercial License, we call `api.obsidian.md`.
-- **Obsidian Sync**: Used for syncing your notes across devices.
-	- `sync-xx.obsidian.md`, where `xx` is a number between 01-100.
+- **আর্লি অ্যাক্সেস আপডেট**: `releases.obsidian.md` ব্যবহার করে।
+- **অ্যাকাউন্ট এবং লাইসেন্স ব্যবস্থাপনা**: Settings-এ আপনার Obsidian অ্যাকাউন্ট অ্যাক্সেস করার সময় এবং একটি Commercial License প্রয়োগ করার সময়, আমরা `api.obsidian.md`-এ কল করি।
+- **Obsidian Sync**: আপনার ডিভাইসগুলোর মধ্যে আপনার নোট সিঙ্ক করতে ব্যবহৃত হয়।
+	- `sync-xx.obsidian.md`, যেখানে `xx` হল ০১-১০০ এর মধ্যে একটি সংখ্যা।
 - **Obsidian Publish**:
-    1. Backend: `publish-main.obsidian.md` and `publish-xx.obsidian.md`, where `xx` is a number.
-    2. Frontend: `publish.obsidian.md`.
+    1. ব্যাকএন্ড: `publish-main.obsidian.md` এবং `publish-xx.obsidian.md`, যেখানে `xx` একটি সংখ্যা।
+    2. ফ্রন্টএন্ড: `publish.obsidian.md`।
 
-### GitHub-sourced connections
+### GitHub-সোর্সড সংযোগ
 
-Obsidian makes network requests to both `github.com` and `raw.githubusercontent.com`.
+Obsidian `github.com` এবং `raw.githubusercontent.com` উভয়ের সাথে নেটওয়ার্ক অনুরোধ করে।
 
-- **Public releases**: If automatic updates are enabled, Obsidian checks GitHub for public releases.
-- **Third-party themes and plugins**:
-    - A check is performed once every 12 hours from the app's startup time to fetch a file hosted on GitHub used for "plugin deprecations." This file helps remotely disable specific versions of plugins known to malfunction, cause data loss, or potentially be vulnerable or malicious.
-    - Enabled plugins may generate network traffic outside Obsidian and GitHub's control.
+- **পাবলিক রিলিজ**: স্বয়ংক্রিয় আপডেট সক্রিয় থাকলে, Obsidian পাবলিক রিলিজের জন্য GitHub পরীক্ষা করে।
+- **তৃতীয় পক্ষের থিম এবং প্লাগইন**:
+    - অ্যাপ চালু হওয়ার সময় থেকে প্রতি ১২ ঘণ্টায় একবার একটি চেক করা হয়, যাতে GitHub-এ হোস্ট করা "প্লাগইন ডিপ্রিকেশন" ফাইলটি আনা যায়। এই ফাইলটি খারাপ আচরণ করা, ডেটা হারানোর কারণ হওয়া, অথবা সম্ভাব্যভাবে ঝুঁকিপূর্ণ বা ক্ষতিকারক বলে জানা প্লাগইনের নির্দিষ্ট সংস্করণগুলো দূরবর্তীভাবে নিষ্ক্রিয় করতে সাহায্য করে।
+    - সক্রিয় প্লাগইনগুলো Obsidian এবং GitHub-এর নিয়ন্ত্রণের বাইরে নেটওয়ার্ক ট্রাফিক তৈরি করতে পারে।
 
-### Other connections
+### অন্যান্য সংযোগ
 
-- **Embedded online content**: When opening notes that embed online content, such as an image (`![cat](https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg)`).
-- **DNS requests**: If a hostname needs to be resolved before establishing a connection, including DNS over HTTPS. Refer to [Chromium's documentation](https://source.chromium.org/chromium/chromium/src/+/main:net/dns/public/doh_provider_entry.cc;l=120?q=chrome.cloudflare-dns.com&ss=chromium) for more information.
+- **এমবেডেড অনলাইন কনটেন্ট**: এমন নোট খোলার সময় যাতে অনলাইন কনটেন্ট এমবেড করা থাকে, যেমন একটি ছবি (`![cat](https://upload.wikimedia.org/wikipedia/commons/0/0b/Cat_poster_1.jpg)`)।
+- **DNS অনুরোধ**: সংযোগ স্থাপনের আগে যদি একটি হোস্টনেম রিসলভ করার প্রয়োজন হয়, যার মধ্যে DNS over HTTPS-ও অন্তর্ভুক্ত। আরো তথ্যের জন্য [Chromium-এর ডকুমেন্টেশন](https://source.chromium.org/chromium/chromium/src/+/main:net/dns/public/doh_provider_entry.cc;l=120?q=chrome.cloudflare-dns.com&ss=chromium) দেখুন।
 
-## Frequently asked questions
+## প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী
 
-### Account security
+### অ্যাকাউন্ট নিরাপত্তা
 
-**Does Obsidian support Single Sign-On (SSO)?**
-Obsidian does not support SSO. In most use cases, Obsidian does not require an account or sign-on in your workplace, unless you are using [[Introduction to Obsidian Publish|Obsidian Publish]] or [[Introduction to Obsidian Sync|Obsidian Sync]].
+**Obsidian কি সিঙ্গেল সাইন-অন (SSO) সমর্থন করে?**
+Obsidian SSO সমর্থন করে না। বেশিরভাগ ব্যবহারের ক্ষেত্রে, আপনি যদি [[Introduction to Obsidian Publish|Obsidian Publish]] বা [[Introduction to Obsidian Sync|Obsidian Sync]] ব্যবহার না করেন, তাহলে Obsidian-এর জন্য আপনার কর্মক্ষেত্রে অ্যাকাউন্ট বা সাইন-অনের প্রয়োজন হয় না।
 
-**Does Obsidian support Multi-Factor Authentication (MFA)?**
-Obsidian supports [[2-factor authentication]] (2FA) for Obsidian accounts, but it does not support 2FA for opening and using the base application. Users of [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]] who have 2FA enabled will be required to confirm their 2FA key when they first log into the application.
+**Obsidian কি মাল্টি-ফ্যাক্টর অথেন্টিকেশন (MFA) সমর্থন করে?**
+Obsidian অ্যাকাউন্টের জন্য Obsidian [[2-factor authentication]] (2FA) সমর্থন করে, কিন্তু বেস অ্যাপ্লিকেশন খোলা এবং ব্যবহার করার জন্য এটি 2FA সমর্থন করে না। [[Introduction to Obsidian Sync|Obsidian Sync]] এবং [[Introduction to Obsidian Publish|Obsidian Publish]]-এর ব্যবহারকারী যাদের 2FA সক্রিয় করা আছে, তাদের অ্যাপ্লিকেশনে প্রথমবার লগ ইন করার সময় তাদের 2FA কী নিশ্চিত করতে হবে।
 
-### Assessments and certifications
+### মূল্যায়ন এবং সার্টিফিকেশন
 
-**Will you accept security assessments from our company?**
-We require a minimum quoted purchase order amount before considering completing a security assessment. These assessments are often time-consuming and may not be applicable to offline applications like Obsidian, as they are typically geared towards cloud-based services.
+**আপনারা কি আমাদের কোম্পানির থেকে নিরাপত্তা মূল্যায়ন গ্রহণ করবেন?**
+নিরাপত্তা মূল্যায়ন সম্পন্ন করা বিবেচনা করার আগে আমাদের একটি ন্যূনতম উদ্ধৃত পারচেজ অর্ডার পরিমাণ প্রয়োজন। এই মূল্যায়নগুলো প্রায়শই সময়সাপেক্ষ এবং Obsidian-এর মতো অফলাইন অ্যাপ্লিকেশনের জন্য প্রযোজ্য নাও হতে পারে, কারণ এগুলো সাধারণত ক্লাউড-ভিত্তিক পরিষেবার জন্য তৈরি করা হয়।
 
-However, you can waive this quoted purchase order amount by agreeing to pay a retainer fee. Please contact [[Help and support#Contact Obsidian support|Obsidian support]] to inquire about this option.
+তবে, একটি রিটেইনার ফি প্রদানে সম্মত হয়ে আপনি এই উদ্ধৃত পারচেজ অর্ডার পরিমাণ মওকুফ করতে পারেন। এই বিকল্প সম্পর্কে জিজ্ঞাসা করতে দয়া করে [[Help and support#Contact Obsidian support|Obsidian সাপোর্টে যোগাযোগ করুন]]।
 
-**Do you have any recognized certifications related to Information Security or quality standards, such as ISO27001, NIST, COBIT, or other ISO or CSA certifications?**
-Not at this time. It may be something we explore in the future, but for now, our focus is on our [security audits](https://obsidian.md/security).
+**তথ্য নিরাপত্তা বা গুণমান মান সম্পর্কিত কোনো স্বীকৃত সার্টিফিকেশন আছে কি, যেমন ISO27001, NIST, COBIT, বা অন্যান্য ISO বা CSA সার্টিফিকেশন?**
+এই মুহূর্তে নেই। এটি ভবিষ্যতে আমরা অন্বেষণ করতে পারি এমন কিছু হতে পারে, তবে আপাতত, আমাদের মনোযোগ আমাদের [নিরাপত্তা অডিটের](https://obsidian.md/security) উপর।

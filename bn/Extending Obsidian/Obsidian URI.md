@@ -1,192 +1,191 @@
 ---
-localized: null
 permalink: uri
 ---
-Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
+Obsidian URI হলো Obsidian দ্বারা সমর্থিত একটি কাস্টম URI প্রোটোকল যা আপনাকে নোট খোলা বা নোট তৈরি করার মতো বিভিন্ন অ্যাকশন ট্রিগার করতে দেয়। Obsidian URI অটোমেশন এবং ক্রস-অ্যাপ ওয়ার্কফ্লো সক্ষম করে।
 
-## URI format
+## URI ফরম্যাট
 
-Obsidian URIs use the following format:
+Obsidian URI নিম্নলিখিত ফরম্যাট ব্যবহার করে:
 
 ```
 obsidian://action?param1=value&param2=value
 ```
 
-The `action` parameter is the action that you would like to perform. Available actions include:
+`action` প্যারামিটারটি হলো সেই অ্যাকশন যা আপনি সম্পাদন করতে চান। উপলব্ধ অ্যাকশনগুলোর মধ্যে রয়েছে:
 
-- `open` to open a note.
-- `new` to create or add to an existing note.
-- `daily` to create or open your daily note.
-- `unique` to create a new unique note.
-- `search` to open a search.
-- `choose-vault` to open the vault manager.
+- `open` একটি নোট খুলতে।
+- `new` একটি নোট তৈরি করতে বা বিদ্যমান নোটে যোগ করতে।
+- `daily` আপনার দৈনিক নোট তৈরি করতে বা খুলতে।
+- `unique` একটি নতুন ইউনিক নোট তৈরি করতে।
+- `search` একটি অনুসন্ধান খুলতে।
+- `choose-vault` ভল্ট ম্যানেজার খুলতে।
 
-> [!warning] Encoding
-> Ensure that your values are properly URI encoded. For example, forward slash characters `/` must be encoded as `%2F` and space characters must be encoded as `%20`.
+> [!warning] এনকোডিং
+> নিশ্চিত করুন যে আপনার মানগুলো সঠিকভাবে URI এনকোড করা আছে। উদাহরণস্বরূপ, ফরওয়ার্ড স্ল্যাশ অক্ষর `/` অবশ্যই `%2F` হিসেবে এনকোড করতে হবে এবং স্পেস অক্ষর অবশ্যই `%20` হিসেবে এনকোড করতে হবে।
 > 
- This is especially important because an improperly encoded "reserved" character may break the interpretation of the URI. [See here for details](https://en.wikipedia.org/wiki/Percent-encoding).
+ এটি বিশেষভাবে গুরুত্বপূর্ণ কারণ একটি অনুপযুক্তভাবে এনকোড করা "রিজার্ভড" অক্ষর URI-এর ব্যাখ্যা ভেঙে দিতে পারে। [বিস্তারিত জানতে এখানে দেখুন](https://en.wikipedia.org/wiki/Percent-encoding)।
 
-## Open note
+## নোট খুলুন
 
-The `open` action opens an Obsidian vault, or opens a file within that vault.
+`open` অ্যাকশনটি একটি Obsidian ভল্ট খোলে, অথবা সেই ভল্টের ভেতরে একটি ফাইল খোলে।
 
-### Examples
+### উদাহরণ
 
 - `obsidian://open?vault=my%20vault`
-  This opens the vault `my vault`. If the vault is already open, focus on the window.
+  এটি `my vault` ভল্টটি খোলে। যদি ভল্টটি ইতিমধ্যে খোলা থাকে, তাহলে উইন্ডোতে ফোকাস করে।
 - `obsidian://open?vault=ef6ca3e3b524d22f`
-  This opens the vault identified by the ID `ef6ca3e3b524d22f`.
+  এটি `ef6ca3e3b524d22f` আইডি দ্বারা চিহ্নিত ভল্টটি খোলে।
 - `obsidian://open?vault=my%20vault&file=my%20note`
-  This opens the note `my note.md` in the vault `my vault`, assuming the file exists.
+  এটি `my vault` ভল্টে `my note.md` নোটটি খোলে, যদি ফাইলটি বিদ্যমান থাকে।
 - `obsidian://open?path=%2Fhome%2Fuser%2Fmy%20vault%2Fpath%2Fto%2Fmy%20note`
-  This will look for any vault that contains the path `/home/user/my vault/path/to/my note`. Then, the rest of the path is passed to the `file` parameter. For example, if a vault exists at `/home/user/my vault`, then this would be equivalent to `file` parameter set to `path/to/my note`.
+  এটি এমন যেকোনো ভল্ট খুঁজবে যাতে `/home/user/my vault/path/to/my note` পাথটি রয়েছে। এরপর, পাথের বাকি অংশ `file` প্যারামিটারে পাস করা হয়। উদাহরণস্বরূপ, যদি `/home/user/my vault` তে একটি ভল্ট বিদ্যমান থাকে, তাহলে এটি `path/to/my note` তে সেট করা `file` প্যারামিটারের সমতুল্য হবে।
 
 
-> [!tip] Open a heading or block
-> With proper URI encoding, you can navigate to a heading or block within a note. `Note%23Heading` would navigate to the heading called "Heading", whereas `Note%23%5EBlock` would navigate to the block called "Block".
+> [!tip] একটি হেডিং বা ব্লক খুলুন
+> সঠিক URI এনকোডিং দিয়ে, আপনি একটি নোটের ভেতরে একটি হেডিং বা ব্লকে নেভিগেট করতে পারেন। `Note%23Heading` "Heading" নামক হেডিংয়ে নেভিগেট করবে, যেখানে `Note%23%5EBlock` "Block" নামক ব্লকে নেভিগেট করবে।
 
-### Parameters
+### প্যারামিটার
 
-- `vault` can be either the vault name or the vault ID[^1].
-- `file` can be either a file name, or a path from the vault root to the specified file. If the file extension is `md`, the extension can be omitted.
-- `path` an absolute file system path to a file.
-  - Using this parameter will override both `vault` and `file`.
-  - This will cause the app to search for the most specific vault which contains the specified file path.
-  - Then the rest of the path replaces the `file` parameter.
-- `prepend` will add to the top of the file and attempt to merge properties.
-- `append` will add to the end of the file and also attempt to merge properties.
-- `paneType` (optional) determines where the note will be opened in the UI.
-  - if not present, the last active tab is replaced.
-  - `paneType=tab` open in a new tab.
-  - `paneType=split` open in a new tab group.
-  - `paneType=window` open in a pop-out window (Desktop only).
+- `vault` হয় ভল্টের নাম অথবা ভল্ট আইডি[^1] হতে পারে।
+- `file` হয় একটি ফাইল নাম, অথবা ভল্ট রুট থেকে নির্দিষ্ট ফাইলের একটি পাথ হতে পারে। যদি ফাইল এক্সটেনশন `md` হয়, তাহলে এক্সটেনশনটি বাদ দেওয়া যেতে পারে।
+- `path` একটি ফাইলের সম্পূর্ণ ফাইল সিস্টেম পাথ।
+  - এই প্যারামিটারটি ব্যবহার করলে `vault` এবং `file` উভয়কেই ওভাররাইড করবে।
+  - এটি অ্যাপকে নির্দিষ্ট ফাইল পাথ ধারণকারী সবচেয়ে নির্দিষ্ট ভল্ট খুঁজতে বাধ্য করবে।
+  - এরপর পাথের বাকি অংশ `file` প্যারামিটারের জায়গা নেয়।
+- `prepend` ফাইলের শীর্ষে যোগ করবে এবং প্রপার্টি মার্জ করার চেষ্টা করবে।
+- `append` ফাইলের শেষে যোগ করবে এবং প্রপার্টি মার্জ করারও চেষ্টা করবে।
+- `paneType` (ঐচ্ছিক) নির্ধারণ করে UI-তে নোটটি কোথায় খোলা হবে।
+  - উপস্থিত না থাকলে, শেষ সক্রিয় ট্যাবটি প্রতিস্থাপিত হয়।
+  - `paneType=tab` একটি নতুন ট্যাবে খোলে।
+  - `paneType=split` একটি নতুন ট্যাব গ্রুপে খোলে।
+  - `paneType=window` একটি পপ-আউট উইন্ডোতে খোলে (শুধুমাত্র ডেস্কটপ)।
 
-## Create note
+## নোট তৈরি করুন
 
-The `new` action, creates a new note in the vault, optionally with some content.
+`new` অ্যাকশনটি ভল্টে একটি নতুন নোট তৈরি করে, ঐচ্ছিকভাবে কিছু কনটেন্ট সহ।
 
-### Examples
+### উদাহরণ
 
 - `obsidian://new?vault=my%20vault&name=my%20note`
-  This opens the vault `my vault`, and creates a new note called `my note`.
+  এটি `my vault` ভল্টটি খোলে, এবং `my note` নামে একটি নতুন নোট তৈরি করে।
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
-  This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+  এটি `my vault` ভল্টটি খোলে, এবং `path/to/my note` তে একটি নতুন নোট তৈরি করে।
 
-### Parameters
+### প্যারামিটার
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `name` the file name to be created. If this is specified, the file location will be chosen based on your "Default location for new notes" preferences.
-- `file` a vault absolute path, including the name. Will override `name` if specified.
-- `path` a globally absolute path. Works similar to the `path` option in the `open` action, which will override both `vault` and `file`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `silent` (optional) include this parameter if you don't want to open the new note.
-- `append` (optional) include this parameter to append to an existing file if one exists.
-- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` হয় ভল্টের নাম, অথবা ভল্ট আইডি[^1] হতে পারে। `open` অ্যাকশনের মতোই।
+- `name` তৈরি করার জন্য ফাইলের নাম। যদি এটি নির্দিষ্ট করা থাকে, তাহলে আপনার "নতুন নোটের জন্য ডিফল্ট অবস্থান" পছন্দ অনুযায়ী ফাইলের অবস্থান নির্বাচন করা হবে।
+- `file` নাম সহ একটি ভল্ট-সম্পূর্ণ পাথ। যদি নির্দিষ্ট করা থাকে তাহলে `name` কে ওভাররাইড করবে।
+- `path` একটি বৈশ্বিকভাবে সম্পূর্ণ পাথ। `open` অ্যাকশনে `path` অপশনের মতোই কাজ করে, যা `vault` এবং `file` উভয়কেই ওভাররাইড করবে।
+- `paneType` (ঐচ্ছিক) নির্ধারণ করে UI-তে নোটটি কোথায় খোলা হবে। `open` অ্যাকশনের মতোই।
+- `content` (ঐচ্ছিক) নোটের কনটেন্ট।
+- `clipboard` (ঐচ্ছিক) `content` নির্দিষ্ট করার পরিবর্তে ক্লিপবোর্ডের কনটেন্ট ব্যবহার করে।
+- `silent` (ঐচ্ছিক) যদি আপনি নতুন নোটটি খুলতে না চান তাহলে এই প্যারামিটারটি অন্তর্ভুক্ত করুন।
+- `append` (ঐচ্ছিক) যদি একটি বিদ্যমান ফাইল থাকে তাহলে তার সাথে যোগ করতে এই প্যারামিটারটি অন্তর্ভুক্ত করুন।
+- `overwrite` (ঐচ্ছিক) যদি একটি বিদ্যমান ফাইল থাকে তাহলে তা ওভাররাইট করে, তবে শুধুমাত্র তখনই যদি `append` সেট করা না থাকে।
+- `x-success` (ঐচ্ছিক) দেখুন [[#Use x-callback-url parameters]]।
 
-## Create or open daily note
+## দৈনিক নোট তৈরি করুন বা খুলুন
 
-The `daily` action creates or opens your daily note. The [[Daily notes]] plugin must be enabled.
+`daily` অ্যাকশনটি আপনার দৈনিক নোট তৈরি করে বা খোলে। [[Daily notes]] প্লাগইন অবশ্যই সক্রিয় থাকতে হবে।
 
-### Examples
+### উদাহরণ
 
 - `obsidian://daily?vault=my%20vault`
-  This opens the vault `my vault`, and creates or opens the daily note.
+  এটি `my vault` ভল্টটি খোলে, এবং দৈনিক নোট তৈরি করে বা খোলে।
 
-### Parameters
+### প্যারামিটার
 
-The `daily` action accepts the same parameters as the `new` action.
+`daily` অ্যাকশনটি `new` অ্যাকশনের মতো একই প্যারামিটার গ্রহণ করে।
 
-## Unique Note
+## ইউনিক নোট
 
-The `unique` action creates a new unique note in the vault. The [[Plugins/Unique note creator|Unique note creator]] plugin must be enabled.
+`unique` অ্যাকশনটি ভল্টে একটি নতুন ইউনিক নোট তৈরি করে। [[Plugins/Unique note creator|Unique note creator]] প্লাগইন অবশ্যই সক্রিয় থাকতে হবে।
 
-### Examples
+### উদাহরণ
 
 - `obsidian://unique?vault=my%20vault`
-  This opens the vault `my vault`, and creates a new unique note.
+  এটি `my vault` ভল্টটি খোলে, এবং একটি নতুন ইউনিক নোট তৈরি করে।
 - - `obsidian://unique?vault=my%20vault&content=Hello%20World`
-  This opens the vault `my vault`, and creates a new unique note with the content `Hello World`.
+  এটি `my vault` ভল্টটি খোলে, এবং `Hello World` কনটেন্ট সহ একটি নতুন ইউনিক নোট তৈরি করে।
 
-### Parameters
+### প্যারামিটার
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `paneType` (optional) determines where the note will be opened in the UI. Same as action `open`.
-- `content` (optional) the contents of the note.
-- `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
+- `vault` হয় ভল্টের নাম, অথবা ভল্ট আইডি[^1] হতে পারে। `open` অ্যাকশনের মতোই।
+- `paneType` (ঐচ্ছিক) নির্ধারণ করে UI-তে নোটটি কোথায় খোলা হবে। `open` অ্যাকশনের মতোই।
+- `content` (ঐচ্ছিক) নোটের কনটেন্ট।
+- `clipboard` (ঐচ্ছিক) `content` নির্দিষ্ট করার পরিবর্তে ক্লিপবোর্ডের কনটেন্ট ব্যবহার করে।
+- `x-success` (ঐচ্ছিক) দেখুন [[#Use x-callback-url parameters]]।
 
-## Open search
+## অনুসন্ধান খুলুন
 
-The `search` action opens [[Search]] in the specified vault, and optionally perform a search term.
+`search` অ্যাকশনটি নির্দিষ্ট ভল্টে [[Search]] খোলে, এবং ঐচ্ছিকভাবে একটি অনুসন্ধান টার্ম সম্পাদন করে।
 
-### Examples
+### উদাহরণ
 
 - `obsidian://search?vault=my%20vault`
-  This opens the vault `my vault`, and opens [[Search]].
+  এটি `my vault` ভল্টটি খোলে, এবং [[Search]] খোলে।
 - `obsidian://search?vault=my%20vault&query=Obsidian`
-  This opens the vault `my vault`, opens [[Search]], and performs a search for `Obsidian`.
+  এটি `my vault` ভল্টটি খোলে, [[Search]] খোলে, এবং `Obsidian` এর জন্য একটি অনুসন্ধান সম্পাদন করে।
 
-### Parameters
+### প্যারামিটার
 
-- `vault` can be either the vault name, or the vault ID[^1]. Same as action `open`.
-- `query` (optional) The search term to perform.
+- `vault` হয় ভল্টের নাম, অথবা ভল্ট আইডি[^1] হতে পারে। `open` অ্যাকশনের মতোই।
+- `query` (ঐচ্ছিক) সম্পাদন করার জন্য অনুসন্ধান টার্ম।
 
-## Open Vault Manager
+## ভল্ট ম্যানেজার খুলুন
 
-The `choose-vault` action opens the [[Manage vaults|vault manager]].
+`choose-vault` অ্যাকশনটি [[Manage vaults|ভল্ট ম্যানেজার]] খোলে।
 
-### Examples
+### উদাহরণ
 
 - `obsidian://choose-vault`
 
-## Integrate with Hook
+## Hook এর সাথে একত্রীকরণ
 
-This Obsidian URI action is to be used with [Hook](https://hookproductivity.com/). 
+এই Obsidian URI অ্যাকশনটি [Hook](https://hookproductivity.com/) এর সাথে ব্যবহার করার জন্য।
 
-### Example
+### উদাহরণ
 
 `obsidian://hook-get-address`
 
-### Parameters
+### প্যারামিটার
 
-- `vault` (optional) can be either the vault name, or the vault ID[^1]. If not provided, the current or last focused vault will be used.
-- `x-success` (optional) see [[#Use x-callback-url parameters]].
-- `x-error` (optional) see [[#Use x-callback-url parameters]].
+- `vault` (ঐচ্ছিক) হয় ভল্টের নাম, অথবা ভল্ট আইডি[^1] হতে পারে। যদি প্রদান করা না হয়, বর্তমান বা সর্বশেষ ফোকাস করা ভল্ট ব্যবহার করা হবে।
+- `x-success` (ঐচ্ছিক) দেখুন [[#Use x-callback-url parameters]]।
+- `x-error` (ঐচ্ছিক) দেখুন [[#Use x-callback-url parameters]]।
 
-If `x-success` is defined, this API will use it as the x-callback-url. Otherwise, it will copy a Markdown link of the current focused note to the clipboard, as an `obsidian://open` URL.
+যদি `x-success` নির্ধারিত থাকে, এই API এটিকে x-callback-url হিসেবে ব্যবহার করবে। অন্যথায়, এটি বর্তমান ফোকাস করা নোটের একটি Markdown লিঙ্ক ক্লিপবোর্ডে কপি করবে, একটি `obsidian://open` URL হিসেবে।
 
-## Use x-callback-url parameters
+## x-callback-url প্যারামিটার ব্যবহার করুন
 
-Some endpoints will accept the x-callback-url parameters `x-success` and `x-error`. When it's provided, Obsidian will provide the following to the `x-success` callback:
+কিছু এন্ডপয়েন্ট x-callback-url প্যারামিটার `x-success` এবং `x-error` গ্রহণ করবে। যখন এটি প্রদান করা হয়, Obsidian `x-success` কলব্যাকে নিম্নলিখিতগুলো প্রদান করবে:
 
-- `name` the name of the file, without the file extension.
-- `url` the `obsidian://` URI for this file.
-- `file` (desktop only) the `file://` URL for this file.
+- `name` ফাইল এক্সটেনশন ছাড়া ফাইলের নাম।
+- `url` এই ফাইলের জন্য `obsidian://` URI।
+- `file` (শুধুমাত্র ডেস্কটপ) এই ফাইলের জন্য `file://` URL।
 
-For example, if Obsidian receives
-`obsidian://.....x-success=myapp://x-callback-url`, the response would be `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
+উদাহরণস্বরূপ, যদি Obsidian পায়
+`obsidian://.....x-success=myapp://x-callback-url`, তাহলে প্রতিক্রিয়া হবে `myapp://x-callback-url?name=...&url=obsidian%3A%2F%2Fopen...&file=file%3A%2F%2F...`
 
-## Shorthand formats
+## শর্টহ্যান্ড ফরম্যাট
 
-In addition to the formats above, there are two more "shorthand" formats available to open vaults and files:
+উপরের ফরম্যাটগুলো ছাড়াও, ভল্ট এবং ফাইল খোলার জন্য আরও দুটি "শর্টহ্যান্ড" ফরম্যাট উপলব্ধ:
 
-1. `obsidian://vault/my vault/my note` is equivalent to `obsidian://open?vault=my%20vault&file=my%20note`.
-2. `obsidian:///absolute/path/to/my note` is equivalent to `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
+1. `obsidian://vault/my vault/my note` হলো `obsidian://open?vault=my%20vault&file=my%20note` এর সমতুল্য।
+2. `obsidian:///absolute/path/to/my note` হলো `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note` এর সমতুল্য।
 
-## Troubleshooting
+## সমস্যা সমাধান
 
-### Register Obsidian URI
+### Obsidian URI নিবন্ধন করুন
 
-On Windows and macOS, running the app once should be sufficient to register the Obsidian URI protocol on your computer.
+Windows এবং macOS-এ, আপনার কম্পিউটারে Obsidian URI প্রোটোকল নিবন্ধন করার জন্য একবার অ্যাপটি চালানো যথেষ্ট হওয়া উচিত।
 
-On Linux, it is a much more involved process:
+Linux-এ, এটি একটি অনেক বেশি জটিল প্রক্রিয়া:
 
-1. Ensure you create a `obsidian.desktop` file. [See here for details](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files).
-2. Ensure that your desktop file specifies the `Exec` field as `Exec=executable %u`. The `%u` is used to pass the `obsidian://` URIs to the app.
-3. If you're using the AppImage installer, you may have to unpack it using `Obsidian-x.y.z.AppImage --appimage-extract`. Then make sure the `Exec` directive points to the unpacked executable.
+1. নিশ্চিত করুন আপনি একটি `obsidian.desktop` ফাইল তৈরি করেছেন। [বিস্তারিত জানতে এখানে দেখুন](https://developer.gnome.org/documentation/guidelines/maintainer/integrating.html#desktop-files)।
+2. নিশ্চিত করুন আপনার ডেস্কটপ ফাইলে `Exec` ফিল্ড `Exec=executable %u` হিসেবে নির্দিষ্ট করা আছে। `%u` টি অ্যাপে `obsidian://` URI পাস করতে ব্যবহৃত হয়।
+3. যদি আপনি AppImage ইনস্টলার ব্যবহার করেন, তাহলে আপনাকে `Obsidian-x.y.z.AppImage --appimage-extract` ব্যবহার করে এটি আনপ্যাক করতে হতে পারে। এরপর নিশ্চিত করুন `Exec` নির্দেশনাটি আনপ্যাক করা এক্সিকিউটেবলের দিকে নির্দেশ করে।
 
 
-[^1]: Vault ID is the random 16-character code assigned to the vault, for example `ef6ca3e3b524d22f`. This ID is unique per folder on your computer. The ID can be found by opening the vault switcher and clicking "Copy vault ID" in the context menu for the desired vault.
+[^1]: ভল্ট আইডি হলো ভল্টের সাথে বরাদ্দ করা এলোমেলো 16-অক্ষরের কোড, উদাহরণস্বরূপ `ef6ca3e3b524d22f`। এই আইডি আপনার কম্পিউটারের প্রতিটি ফোল্ডারের জন্য অনন্য। ভল্ট সুইচার খুলে এবং পছন্দের ভল্টের কনটেক্সট মেনুতে "Copy vault ID" ক্লিক করে আইডিটি খুঁজে পাওয়া যায়।

@@ -1,17 +1,16 @@
 ---
-localized: null
 permalink: web-clipper/logic
-description: 'Use conditionals, loops, and variable assignment in Web Clipper templates.'
+description: 'Web Clipper টেমপ্লেটে কন্ডিশনাল, লুপ, এবং ভেরিয়েবল অ্যাসাইনমেন্ট ব্যবহার করুন।'
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] supports template logic for conditionals, loops, and variable assignment. This syntax is inspired by [Twig](https://twig.symfony.com/) and [Liquid](https://shopify.github.io/liquid/) templating languages.
+[[Introduction to Obsidian Web Clipper|Web Clipper]] কন্ডিশনাল, লুপ, এবং ভেরিয়েবল অ্যাসাইনমেন্টের জন্য টেমপ্লেট লজিক সমর্থন করে। এই সিনট্যাক্স [Twig](https://twig.symfony.com/) এবং [Liquid](https://shopify.github.io/liquid/) টেমপ্লেটিং ভাষা দ্বারা অনুপ্রাণিত।
 
 
-> [!warning] Requires the latest version
-> Logic features require Obsidian Web Clipper 1.0.0 which has not been approved on all extension stores yet.
+> [!warning] সর্বশেষ সংস্করণ প্রয়োজন
+> লজিক ফিচারের জন্য Obsidian Web Clipper 1.0.0 প্রয়োজন যা এখনো সব এক্সটেনশন স্টোরে অনুমোদিত হয়নি।
 
-## Conditionals
+## কন্ডিশনাল
 
-Use `{% if %}` to conditionally include content based on variables or expressions.
+ভেরিয়েবল বা এক্সপ্রেশনের ভিত্তিতে শর্তসাপেক্ষে কন্টেন্ট অন্তর্ভুক্ত করতে `{% if %}` ব্যবহার করুন।
 
 ```twig
 {% if author %}
@@ -19,7 +18,7 @@ Author: {{author}}
 {% endif %}
 ```
 
-Use `{% else %}` to provide fallback content, and `{% elseif %}` to chain multiple conditions:
+ফলব্যাক কন্টেন্ট প্রদান করতে `{% else %}` ব্যবহার করুন, এবং একাধিক শর্ত চেইন করতে `{% elseif %}` ব্যবহার করুন:
 
 ```twig
 {% if status == "published" %}
@@ -31,49 +30,49 @@ Unknown status
 {% endif %}
 ```
 
-### Comparison operators
+### তুলনা অপারেটর
 
-The following comparison operators are supported:
+নিচের তুলনা অপারেটরগুলো সমর্থিত:
 
-| Operator | Description |
+| অপারেটর | বিবরণ |
 |----------|-------------|
-| `==` | Equal to |
-| `!=` | Not equal to |
-| `>` | Greater than |
-| `<` | Less than |
-| `>=` | Greater than or equal to |
-| `<=` | Less than or equal to |
-| `contains` | Check if string contains substring, or array contains value |
+| `==` | সমান |
+| `!=` | সমান নয় |
+| `>` | চেয়ে বড় |
+| `<` | চেয়ে ছোট |
+| `>=` | চেয়ে বড় বা সমান |
+| `<=` | চেয়ে ছোট বা সমান |
+| `contains` | স্ট্রিংয়ে সাবস্ট্রিং আছে কিনা, বা অ্যারেতে মান আছে কিনা তা যাচাই করে |
 
-Examples:
-- `{% if title == "Home" %}` — string equality
-- `{% if price >= 100 %}` — numeric comparison
-- `{% if title contains "Review" %}` — substring check
-- `{% if tags contains "important" %}` — array membership
+উদাহরণ:
+- `{% if title == "Home" %}` — স্ট্রিং সমতা
+- `{% if price >= 100 %}` — সংখ্যাগত তুলনা
+- `{% if title contains "Review" %}` — সাবস্ট্রিং যাচাই
+- `{% if tags contains "important" %}` — অ্যারে সদস্যপদ
 
-### Logical operators
+### লজিক্যাল অপারেটর
 
-Combine conditions using logical operators:
+লজিক্যাল অপারেটর ব্যবহার করে শর্ত একত্রিত করুন:
 
-| Operator | Alternative | Description                         |
+| অপারেটর | বিকল্প | বিবরণ                         |
 | -------- | ----------- | ----------------------------------- |
-| `and`    | `&&`        | Both conditions must be true        |
-| `or`     | \|\|        | At least one condition must be true |
-| `not`    | `!`         | Negates a condition                 |
+| `and`    | `&&`        | উভয় শর্ত সত্য হতে হবে        |
+| `or`     | \|\|        | অন্তত একটি শর্ত সত্য হতে হবে |
+| `not`    | `!`         | একটি শর্তকে নেগেট করে                 |
 
-Examples:
-- `{% if author and published %}` — both must exist
-- `{% if draft or archived %}` — either condition
-- `{% if not hidden %}` — negation
-- `{% if (premium or featured) and published %}` — grouped conditions
+উদাহরণ:
+- `{% if author and published %}` — উভয়ই থাকতে হবে
+- `{% if draft or archived %}` — যেকোনো একটি শর্ত
+- `{% if not hidden %}` — নেগেশন
+- `{% if (premium or featured) and published %}` — গ্রুপ করা শর্ত
 
-### Truthiness
+### সত্যতা (Truthiness)
 
-When a variable is used without a comparison operator, it's evaluated for "truthiness":
+কোনো তুলনা অপারেটর ছাড়া একটি ভেরিয়েবল ব্যবহার করা হলে, এটি "সত্যতার" জন্য মূল্যায়ন করা হয়:
 
-- `false`, `null`, `undefined`, empty string `""`, and `0` are considered **falsy**.
-- Empty arrays `[]` are considered **falsy**.
-- Everything else is **truthy**.
+- `false`, `null`, `undefined`, খালি স্ট্রিং `""`, এবং `0`-কে **অসত্য (falsy)** ধরা হয়।
+- খালি অ্যারে `[]`-কে **অসত্য** ধরা হয়।
+- বাকি সবকিছু **সত্য (truthy)**।
 
 ```twig
 {% if content %}
@@ -81,68 +80,68 @@ Has content
 {% endif %}
 ```
 
-## Assign a variable
+## একটি ভেরিয়েবল অ্যাসাইন করুন
 
-Use `{% set %}` to create or modify variables within your template:
+আপনার টেমপ্লেটের মধ্যে ভেরিয়েবল তৈরি বা পরিবর্তন করতে `{% set %}` ব্যবহার করুন:
 
 ```twig
 {% set slug = title|lower|replace:" ":"-" %}
 File: {{slug}}.md
 ```
 
-Variables can be set to:
-- Other variables: `{% set name = author %}`
-- Literals: `{% set count = 5 %}` or `{% set label = "Draft" %}`
-- Expressions with filters: `{% set excerpt = content|truncate:100 %}`
-- Selector results: `{% set comments = selector:.comment %}`
+ভেরিয়েবল নিচের যেকোনো কিছুতে সেট করা যায়:
+- অন্য ভেরিয়েবল: `{% set name = author %}`
+- লিটারেল: `{% set count = 5 %}` অথবা `{% set label = "Draft" %}`
+- ফিল্টারসহ এক্সপ্রেশন: `{% set excerpt = content|truncate:100 %}`
+- সিলেক্টর ফলাফল: `{% set comments = selector:.comment %}`
 
-Variables set with `{% set %}` can be used in subsequent template logic and in `{{variable}}` output.
+`{% set %}` দিয়ে সেট করা ভেরিয়েবল পরবর্তী টেমপ্লেট লজিকে এবং `{{variable}}` আউটপুটে ব্যবহার করা যায়।
 
-## Fallbacks
+## ফলব্যাক
 
-Use the `??` operator to provide fallback values when a variable is empty or undefined:
+একটি ভেরিয়েবল খালি বা undefined হলে ফলব্যাক মান প্রদান করতে `??` অপারেটর ব্যবহার করুন:
 
 ```twig
 {{title ?? "Untitled"}}
 ```
 
-If `title` is empty, undefined, or falsy, the fallback value `"Untitled"` will be used instead.
+`title` খালি, undefined, বা অসত্য হলে, পরিবর্তে ফলব্যাক মান `"Untitled"` ব্যবহার করা হবে।
 
-This is a shorthand for the equivalent `if` statement:
+এটি সমতুল্য `if` স্টেটমেন্টের একটি সংক্ষিপ্ত রূপ:
 
 ```twig
 {% if title %}{{title}}{% else %}Untitled{% endif %}
 ```
 
-### Chaining fallbacks
+### ফলব্যাক চেইন করা
 
-You can chain multiple fallbacks:
+আপনি একাধিক ফলব্যাক চেইন করতে পারেন:
 
 ```twig
 {{title ?? headline ?? "No title"}}
 ```
 
-This will use `title` if available, otherwise `headline`, otherwise the string `"No title"`.
+এটি `title` উপলব্ধ থাকলে সেটি ব্যবহার করবে, না থাকলে `headline`, তাও না থাকলে `"No title"` স্ট্রিং ব্যবহার করবে।
 
-### With filters
+### ফিল্টার সহ
 
-Filters bind more tightly than `??`, so filters are applied before the fallback check:
+ফিল্টার `??`-এর চেয়ে বেশি শক্তভাবে বাঁধা থাকে, তাই ফলব্যাক পরীক্ষার আগে ফিল্টার প্রয়োগ করা হয়:
 
 ```twig
 {{title|upper ?? "UNTITLED"}}
 ```
 
-This applies `upper` to `title` first, then falls back to `"UNTITLED"` if the result is empty. To apply filters to the fallback value, use parentheses or separate expressions:
+এটি প্রথমে `title`-এ `upper` প্রয়োগ করে, তারপর ফলাফল খালি হলে `"UNTITLED"`-এ ফিরে যায়। ফলব্যাক মানে ফিল্টার প্রয়োগ করতে, বন্ধনী বা আলাদা এক্সপ্রেশন ব্যবহার করুন:
 
 ```twig
 {{title ?? "Untitled"|lower}}
 ```
 
-This will use `title` if available, otherwise apply `lower` to the fallback, resulting in `"untitled"`.
+এটি `title` উপলব্ধ থাকলে সেটি ব্যবহার করবে, না থাকলে ফলব্যাকে `lower` প্রয়োগ করবে, ফলাফল হবে `"untitled"`।
 
-## Loops
+## লুপ
 
-Use `{% for %}` to iterate over arrays:
+অ্যারের উপর ইটারেট করতে `{% for %}` ব্যবহার করুন:
 
 ```twig
 {% for item in schema:author %}
@@ -150,24 +149,24 @@ Use `{% for %}` to iterate over arrays:
 {% endfor %}
 ```
 
-### Loop sources
+### লুপের উৎস
 
-You can loop over:
-- Schema arrays: `{% for item in schema:author %}`
-- Selector results: `{% for comment in selector:.comment %}`
-- Variables set earlier: `{% set items = selector:.item %}{% for item in items %}`
+আপনি নিচের উপর লুপ করতে পারেন:
+- স্কিমা অ্যারে: `{% for item in schema:author %}`
+- সিলেক্টর ফলাফল: `{% for comment in selector:.comment %}`
+- আগে সেট করা ভেরিয়েবল: `{% set items = selector:.item %}{% for item in items %}`
 
-### Loop variables
+### লুপ ভেরিয়েবল
 
-Inside a loop, you have access to a `loop` object with the following properties:
+একটি লুপের ভেতরে, আপনার নিচের প্রপার্টিসহ একটি `loop` অবজেক্টে প্রবেশাধিকার রয়েছে:
 
-| Variable | Description |
+| ভেরিয়েবল | বিবরণ |
 |----------|-------------|
-| `loop.index` | Current iteration (1-indexed) |
-| `loop.index0` | Current iteration (0-indexed) |
-| `loop.first` | `true` if first iteration |
-| `loop.last` | `true` if last iteration |
-| `loop.length` | Total number of items |
+| `loop.index` | বর্তমান ইটারেশন (১-ইনডেক্সড) |
+| `loop.index0` | বর্তমান ইটারেশন (০-ইনডেক্সড) |
+| `loop.first` | প্রথম ইটারেশন হলে `true` |
+| `loop.last` | শেষ ইটারেশন হলে `true` |
+| `loop.length` | মোট আইটেম সংখ্যা |
 
 ```twig
 {% for tag in tags %}
@@ -176,7 +175,7 @@ Inside a loop, you have access to a `loop` object with the following properties:
 {% endfor %}
 ```
 
-For backwards compatibility, you can also use `item_index` (where `item` is your iterator variable name) to get the 0-indexed position:
+পশ্চাদগামী সামঞ্জস্যের জন্য, ০-ইনডেক্সড পজিশন পেতে আপনি `item_index`-ও ব্যবহার করতে পারেন (যেখানে `item` আপনার ইটারেটর ভেরিয়েবলের নাম):
 
 ```twig
 {% for tag in tags %}
@@ -184,16 +183,16 @@ For backwards compatibility, you can also use `item_index` (where `item` is your
 {% endfor %}
 ```
 
-### Accessing array items by index
+### ইনডেক্স দিয়ে অ্যারে আইটেম অ্যাক্সেস করা
 
-Use bracket notation to access array elements by index:
+ইনডেক্স দিয়ে অ্যারে এলিমেন্ট অ্যাক্সেস করতে ব্র্যাকেট নোটেশন ব্যবহার করুন:
 
 ```twig
 {{items[0]}}
 {{items[loop.index0]}}
 ```
 
-This is useful when you need to access items from multiple arrays in parallel:
+আপনার একসাথে একাধিক অ্যারে থেকে আইটেম অ্যাক্সেস করার প্রয়োজন হলে এটি কার্যকর:
 
 ```twig
 {% set transcripts = selector:.transcript-text %}
@@ -204,16 +203,16 @@ This is useful when you need to access items from multiple arrays in parallel:
 {% endfor %}
 ```
 
-Bracket notation also works with object properties:
+ব্র্যাকেট নোটেশন অবজেক্ট প্রপার্টির সাথেও কাজ করে:
 
 ```twig
 {{user["name"]}}
 {{data["my-key"]}}
 ```
 
-### Nested loops
+### নেস্টেড লুপ
 
-Loops can be nested for complex data structures:
+জটিল ডেটা স্ট্রাকচারের জন্য লুপ নেস্ট করা যায়:
 
 ```twig
 {% for section in sections %}
@@ -224,9 +223,9 @@ Loops can be nested for complex data structures:
 {% endfor %}
 ```
 
-## Combine logic
+## লজিক একত্রিত করুন
 
-Conditionals and loops can be combined:
+কন্ডিশনাল এবং লুপ একত্রিত করা যায়:
 
 ```twig
 {% for item in items %}
@@ -236,11 +235,11 @@ Conditionals and loops can be combined:
 {% endfor %}
 ```
 
-## Evaluation order
+## মূল্যায়নের ক্রম
 
-Template logic is processed in the following order:
+টেমপ্লেট লজিক নিচের ক্রমে প্রক্রিয়া করা হয়:
 
-1. **Template logic** — `{% if %}`, `{% for %}`, `{% set %}`, and `{{variables}}` are evaluated first
-2. **Prompt variables** — [[Variables#Prompt variables|Prompt variables]] like `{{"summarize this"|prompt}}` are sent to the Interpreter after template logic is complete
+1. **টেমপ্লেট লজিক** — `{% if %}`, `{% for %}`, `{% set %}`, এবং `{{variables}}` প্রথমে মূল্যায়ন করা হয়
+2. **প্রম্পট ভেরিয়েবল** — টেমপ্লেট লজিক সম্পূর্ণ হওয়ার পরে `{{"summarize this"|prompt}}`-এর মতো [[Variables#প্রম্পট ভেরিয়েবল|প্রম্পট ভেরিয়েবল]] Interpreter-এ পাঠানো হয়
 
-This means you can use template logic to construct prompts dynamically, but prompt results are not available for use in conditionals or loops.
+এর মানে হলো আপনি প্রম্পট গতিশীলভাবে তৈরি করতে টেমপ্লেট লজিক ব্যবহার করতে পারেন, তবে প্রম্পটের ফলাফল কন্ডিশনাল বা লুপে ব্যবহারের জন্য উপলব্ধ নয়।

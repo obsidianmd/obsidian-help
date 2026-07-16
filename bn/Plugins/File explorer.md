@@ -1,100 +1,99 @@
 ---
-localized: null
 permalink: plugins/file-explorer
 publish: true
 mobile: true
-description: File explorer is a core plugin that lets you manage files and folders inside your vault.
+description: ফাইল এক্সপ্লোরার একটি কোর প্লাগইন যা আপনাকে আপনার ভল্টের ভেতরে ফাইল এবং ফোল্ডার পরিচালনা করতে দেয়।
 ---
 
-File explorer is a [[Core plugins|core plugin]] that lets you manage files and folders inside your vault. You can browse notes and other [[Accepted file formats]] in your vault and perform many common file operations:
+ফাইল এক্সপ্লোরার একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে আপনার ভল্টের ভেতরে ফাইল এবং ফোল্ডার পরিচালনা করতে দেয়। আপনি আপনার ভল্টে নোট এবং অন্যান্য [[Accepted file formats]] ব্রাউজ করতে পারেন এবং অনেক সাধারণ ফাইল অপারেশন সম্পাদন করতে পারেন:
 
-- Create, delete, and rename files and folders.
-- Move files and folders with drag and drop.
-- Use the context menu to access all available operations.
+- ফাইল এবং ফোল্ডার তৈরি, মোছা এবং নাম পরিবর্তন করুন।
+- ড্র্যাগ অ্যান্ড ড্রপ দিয়ে ফাইল এবং ফোল্ডার সরান।
+- সব উপলব্ধ অপারেশনে প্রবেশের জন্য কনটেক্সট মেনু ব্যবহার করুন।
 
-> [!tip]- Drag and drop files
-> You can drag a file from the File explorer into your note to create a link to it, or drag a file into a folder in the File explorer to copy it.
+> [!tip]- ফাইল ড্র্যাগ অ্যান্ড ড্রপ করুন
+> আপনি একটি লিঙ্ক তৈরি করতে ফাইল এক্সপ্লোরার থেকে একটি ফাইল আপনার নোটে টেনে আনতে পারেন, অথবা এটি কপি করতে ফাইল এক্সপ্লোরারে একটি ফাইলকে একটি ফোল্ডারে টেনে আনতে পারেন।
 
-## Create a new note
+## একটি নতুন নোট তৈরি করুন
 
-To create a new note in the default location for new notes:
+নতুন নোটের জন্য ডিফল্ট অবস্থানে একটি নতুন নোট তৈরি করতে:
 
-1. Click **New note** ![[lucide-pen-line.svg#icon]] at the top of the File explorer.
-2. Type the name of the note, and then press Enter.
+1. ফাইল এক্সপ্লোরারের উপরে **New note** ![[lucide-pen-line.svg#icon]]-এ ক্লিক করুন।
+2. নোটের নাম টাইপ করুন, এবং তারপর Enter চাপুন।
 
-> [!tip]- Change default location
-> You can change the default location for new notes under **[[Settings]] → [[Settings#Files and links|Files and links]] → [[Settings#Default location for new notes|Default location for new notes]]**.
+> [!tip]- ডিফল্ট অবস্থান পরিবর্তন করুন
+> আপনি **[[Settings]] → [[Settings#Files and links|Files and links]] → [[Settings#Default location for new notes|Default location for new notes]]**-এর অধীনে নতুন নোটের জন্য ডিফল্ট অবস্থান পরিবর্তন করতে পারেন।
 
-To create a new note in a specific folder:
+একটি নির্দিষ্ট ফোল্ডারে একটি নতুন নোট তৈরি করতে:
 
-1. Right-click the folder and then click **New note**.
-2. Type the name of the note, and then press Enter.
+1. ফোল্ডারে ডান-ক্লিক করুন এবং তারপর **New note**-এ ক্লিক করুন।
+2. নোটের নাম টাইপ করুন, এবং তারপর Enter চাপুন।
 
-## Create a new folder
+## একটি নতুন ফোল্ডার তৈরি করুন
 
-To create a new folder in the root of your vault:
+আপনার ভল্টের রুটে একটি নতুন ফোল্ডার তৈরি করতে:
 
-1. Click **New folder** ![[lucide-folder-plus.svg#icon]] at the top of the File explorer.
-2. Type the name of the folder, and then press Enter.
+1. ফাইল এক্সপ্লোরারের উপরে **New folder** ![[lucide-folder-plus.svg#icon]]-এ ক্লিক করুন।
+2. ফোল্ডারের নাম টাইপ করুন, এবং তারপর Enter চাপুন।
 
-To create a subfolder:
+একটি সাবফোল্ডার তৈরি করতে:
 
-1. Right-click the folder you want to create the subfolder in, and then click **New folder**.
-2. Type the name of the folder, and then press Enter.
+1. আপনি যে ফোল্ডারে সাবফোল্ডার তৈরি করতে চান সেখানে ডান-ক্লিক করুন, এবং তারপর **New folder**-এ ক্লিক করুন।
+2. ফোল্ডারের নাম টাইপ করুন, এবং তারপর Enter চাপুন।
 
-## Change sort order
+## সাজানোর ক্রম পরিবর্তন করুন
 
-To change the sort order of your files:
+আপনার ফাইলগুলির সাজানোর ক্রম পরিবর্তন করতে:
 
-1.  Select **Change sort order** ![[lucide-arrow-up-narrow-wide.svg#icon]] at the top of the File explorer.
-2. Choose how you want to sort your files. You can sort in ascending or descending order by file name, modified time, or created time.
+1.  ফাইল এক্সপ্লোরারের উপরে **Change sort order** ![[lucide-arrow-up-narrow-wide.svg#icon]] নির্বাচন করুন।
+2. আপনি কীভাবে আপনার ফাইলগুলি সাজাতে চান তা বেছে নিন। আপনি ফাইলের নাম, পরিবর্তনের সময়, বা তৈরির সময় অনুযায়ী ঊর্ধ্বক্রম বা নিম্নক্রমে সাজাতে পারেন।
 
-## Auto-reveal active file
+## সক্রিয় ফাইল স্বয়ংক্রিয়ভাবে প্রকাশ করুন
 
-When you open a note, File explorer can automatically scroll to and highlight that note in the folder tree. This helps you keep track of where your active note is located within your vault.
+আপনি একটি নোট খুললে, ফাইল এক্সপ্লোরার স্বয়ংক্রিয়ভাবে ফোল্ডার ট্রিতে সেই নোটে স্ক্রল করে এবং হাইলাইট করতে পারে। এটি আপনাকে আপনার ভল্টের ভেতরে আপনার সক্রিয় নোট কোথায় অবস্থিত তা ট্র্যাক রাখতে সহায়তা করে।
 
-To toggle auto-reveal:
+স্বয়ংক্রিয়-প্রকাশ টগল করতে:
 
-- Select **Auto-reveal active file** ![[lucide-gallery-vertical.svg#icon]] at the top of the File explorer.
+- ফাইল এক্সপ্লোরারের উপরে **Auto-reveal active file** ![[lucide-gallery-vertical.svg#icon]] নির্বাচন করুন।
 
-When enabled, the File explorer will automatically follow and reveal the currently open note.
+সক্রিয় থাকলে, ফাইল এক্সপ্লোরার স্বয়ংক্রিয়ভাবে বর্তমানে খোলা নোটটি অনুসরণ করবে এবং প্রকাশ করবে।
 
-## Expand or collapse all folders
+## সব ফোল্ডার প্রসারিত বা সংকুচিত করুন
 
-You can expand or collapse all folders in the File explorer at once.
+আপনি একবারে ফাইল এক্সপ্লোরারের সব ফোল্ডার প্রসারিত বা সংকুচিত করতে পারেন।
 
-To expand all folders:
+সব ফোল্ডার প্রসারিত করতে:
 
-- Select **Expand all** ![[lucide-chevrons-up-down.svg#icon]] at the top of the File explorer.
+- ফাইল এক্সপ্লোরারের উপরে **Expand all** ![[lucide-chevrons-up-down.svg#icon]] নির্বাচন করুন।
 
-To collapse all folders:
+সব ফোল্ডার সংকুচিত করতে:
 
-- Select **Collapse all** ![[lucide-chevrons-down-up.svg#icon]] at the top of the File explorer.
+- ফাইল এক্সপ্লোরারের উপরে **Collapse all** ![[lucide-chevrons-down-up.svg#icon]] নির্বাচন করুন।
 
-## Delete a file or folder
+## একটি ফাইল বা ফোল্ডার মুছুন
 
-1. Right-click the file you want to delete, and then click **Delete**.
-2. If prompted to confirm that you want to delete the file, click **Delete**.
+1. আপনি যে ফাইলটি মুছতে চান সেটিতে ডান-ক্লিক করুন, এবং তারপর **Delete**-এ ক্লিক করুন।
+2. আপনি ফাইলটি মুছতে চান কিনা তা নিশ্চিত করতে বলা হলে, **Delete**-এ ক্লিক করুন।
 
-For more information, refer to [[Manage notes#Delete a note|Delete a note]].
+আরও তথ্যের জন্য, [[Manage notes#Delete a note|একটি নোট মুছুন]] দেখুন।
 
-## Rename a file or folder
+## একটি ফাইল বা ফোল্ডারের নাম পরিবর্তন করুন
 
-1. Right-click the file you want to rename, and then click **Rename**.
-2. Type the new name, and then press Enter.
+1. আপনি যে ফাইলটির নাম পরিবর্তন করতে চান সেটিতে ডান-ক্লিক করুন, এবং তারপর **Rename**-এ ক্লিক করুন।
+2. নতুন নাম টাইপ করুন, এবং তারপর Enter চাপুন।
 
-For more information, refer to [[Manage notes#Rename a note|Rename a note]].
+আরও তথ্যের জন্য, [[Manage notes#Rename a note|একটি নোটের নাম পরিবর্তন করুন]] দেখুন।
 
-## Move a file or folder
+## একটি ফাইল বা ফোল্ডার সরান
 
-To move a file or folder, you can use drag-and-drop or the context menu.
+একটি ফাইল বা ফোল্ডার সরাতে, আপনি ড্র্যাগ-অ্যান্ড-ড্রপ বা কনটেক্সট মেনু ব্যবহার করতে পারেন।
 
-**Drag and drop:**
+**ড্র্যাগ অ্যান্ড ড্রপ:**
 
-- Drag a file or folder to the folder you want to move it to.
-- With `Alt-Click` (Windows/Linux) or `Opt-Click` (macOS) you can select multiple individual files and drag them to another folder. If they're all in a row, you can use `Shift-Click` for it.
+- একটি ফাইল বা ফোল্ডার যেখানে সরাতে চান সেই ফোল্ডারে টেনে আনুন।
+- `Alt-Click` (Windows/Linux) বা `Opt-Click` (macOS) দিয়ে আপনি একাধিক পৃথক ফাইল নির্বাচন করে অন্য ফোল্ডারে টেনে আনতে পারেন। যদি সেগুলি সব একটি সারিতে থাকে, তাহলে আপনি এর জন্য `Shift-Click` ব্যবহার করতে পারেন।
 
-**Context menu:**
+**কনটেক্সট মেনু:**
 
-1. Right-click a file, and then select **Move file to...**.
-2. Search for the name of the folder you want to move the file to, and then select it from the list.
+1. একটি ফাইলে ডান-ক্লিক করুন, এবং তারপর **Move file to...** নির্বাচন করুন।
+2. আপনি যে ফোল্ডারে ফাইলটি সরাতে চান তার নাম খুঁজুন, এবং তারপর তালিকা থেকে সেটি নির্বাচন করুন।

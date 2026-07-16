@@ -1,63 +1,62 @@
 ---
-localized: null
 permalink: obsidian
 ---
-## What is Obsidian
+## Obsidian কী
 
-Obsidian is both a Markdown editor and a knowledge base app.
+Obsidian একইসাথে একটি Markdown এডিটর এবং একটি নলেজ বেস অ্যাপ।
 
-Used in the most basic way, you can edit and preview Markdown files. But its true power lies in managing a densely networked knowledge base.
+সবচেয়ে সাধারণভাবে ব্যবহার করলে, আপনি Markdown ফাইল সম্পাদনা এবং প্রিভিউ করতে পারবেন। কিন্তু এর প্রকৃত শক্তি নিহিত রয়েছে ঘনভাবে সংযুক্ত একটি নলেজ বেস পরিচালনায়।
 
-How do we start creating a network, you ask? Let's first start making some [[Internal links]]!
+কীভাবে আমরা একটি নেটওয়ার্ক তৈরি করা শুরু করব, জিজ্ঞাসা করছেন? চলুন প্রথমে কিছু [[Internal links]] তৈরি করা শুরু করি!
 
-## How we're different
+## আমরা কীভাবে ভিন্ন
 
-### You own and control your data
+### আপনার ডেটার মালিকানা ও নিয়ন্ত্রণ আপনারই থাকে
 
-We believe in plain text for something as important as your knowledge base. You don't want to put your own brain over someone else's neck, do you? Treat your second brain the same way.
+আমরা বিশ্বাস করি যে আপনার নলেজ বেসের মতো গুরুত্বপূর্ণ কিছুর জন্য প্লেইন টেক্সট ব্যবহার করা উচিত। আপনি কি চান আপনার নিজের মস্তিষ্ক অন্য কারো হাতে তুলে দিতে? আপনার দ্বিতীয় মস্তিষ্ককেও একইভাবে ব্যবহার করুন।
 
-Sync is only a utility to facilitate working on multiple devices, the data will always primarily live on your hard disk.
+Sync শুধুমাত্র একাধিক ডিভাইসে কাজ করা সহজ করার একটি সরঞ্জাম, ডেটা সবসময় প্রধানত আপনার হার্ড ডিস্কেই থাকবে।
 
-When the file system replaces the cloud, you get flexible options to work with your files: you can back them up with Dropbox, use Git to do versioning, or encrypt your disk for security. Whatever works on your file system will work on your Obsidian knowledge base.
+যখন ক্লাউডের পরিবর্তে ফাইল সিস্টেম ব্যবহৃত হয়, তখন আপনি আপনার ফাইল নিয়ে কাজ করার ক্ষেত্রে নমনীয় বিকল্প পান: আপনি Dropbox দিয়ে সেগুলোর ব্যাকআপ নিতে পারেন, ভার্সনিং করার জন্য Git ব্যবহার করতে পারেন, অথবা সুরক্ষার জন্য আপনার ডিস্ক এনক্রিপ্ট করতে পারেন। আপনার ফাইল সিস্টেমে যা কিছু কাজ করে, তা আপনার Obsidian নলেজ বেসেও কাজ করবে।
 
-### Links are first-class citizens
+### লিঙ্ক প্রথম শ্রেণির নাগরিক
 
-Links and connections are crucial to discovering the relations between what we know.
+আমরা যা জানি তার মধ্যেকার সম্পর্ক আবিষ্কার করার জন্য লিঙ্ক এবং সংযোগ অত্যন্ত গুরুত্বপূর্ণ।
 
-Obsidian greatly values this, and encourages it with [[Internal links]] and [[Graph view]], among other things.
+Obsidian এটিকে অত্যন্ত গুরুত্ব দেয় এবং [[Internal links]] ও [[Graph view]]-সহ আরও অনেক কিছুর মাধ্যমে এটিকে উৎসাহিত করে।
 
-As John Locke puts it...
+জন লক যেমনটা বলেছেন...
 
-> The acts of the mind, wherein it exerts its power over simple ideas, are chiefly these three:
+> মনের যে কাজগুলোর মাধ্যমে এটি সরল ধারণার ওপর তার শক্তি প্রয়োগ করে, সেগুলো মূলত এই তিনটি:
 >
-> 1. Combining several simple ideas into one compound one, and thus all complex ideas are made.
-> 2. The second is bringing two ideas, whether simple or complex, together, and setting them by one another so as to take a view of them at once, without uniting them into one, by which it gets all its ideas of relations.
-> 3. The third is separating them from all other ideas that accompany them in their real existence: this is called abstraction, and thus all its general ideas are made.
+> ১. একাধিক সরল ধারণাকে একটি যৌগিক ধারণায় একত্রিত করা, এবং এভাবেই সমস্ত জটিল ধারণা তৈরি হয়।
+> ২. দ্বিতীয়টি হলো দুটি ধারণাকে, সেগুলো সরল হোক বা জটিল, একসাথে নিয়ে এসে একে অপরের পাশে রাখা যাতে একসাথে একবারে সেগুলোকে দেখা যায়, একত্রিত না করেই — যার মাধ্যমে এটি সম্পর্কের সমস্ত ধারণা লাভ করে।
+> ৩. তৃতীয়টি হলো সেগুলোকে বাস্তব অস্তিত্বে তাদের সাথে থাকা অন্য সব ধারণা থেকে আলাদা করা: একে বিমূর্তকরণ বলা হয়, এবং এভাবেই এর সমস্ত সাধারণ ধারণা তৈরি হয়।
 
- \- John Locke, An Essay Concerning Human Understanding (1690)
+ \- জন লক, An Essay Concerning Human Understanding (১৬৯০)
 
-Hierarchy gives us No. 1, and linking gives us No. 2. We're still unsure what No. 3 entails in the context of note-taking, but it might have something to do with programming or macros.
+শ্রেণিবিন্যাস আমাদের নং ১ দেয়, আর লিঙ্কিং আমাদের নং ২ দেয়। নোট নেওয়ার প্রেক্ষাপটে নং ৩ ঠিক কী বোঝায় তা আমরা এখনও নিশ্চিত নই, তবে সম্ভবত এর সাথে প্রোগ্রামিং বা ম্যাক্রোর কোনো সম্পর্ক থাকতে পারে।
 
-### Your own toolkit
+### আপনার নিজস্ব টুলকিট
 
-Note-taking is a highly personal activity. Naturally there is no single all-encompassing solution for everyone.
+নোট নেওয়া একটি অত্যন্ত ব্যক্তিগত কাজ। স্বাভাবিকভাবেই সবার জন্য একটিমাত্র সর্বজনীন সমাধান নেই।
 
-Instead of providing you with an opinionated and assembled product, [[About Obsidian]] gives you a foundation and numerous functional building blocks  to discover and build your own solution.
+আপনাকে একটি নির্দিষ্ট মতামতযুক্ত ও পূর্ব-সাজানো পণ্য দেওয়ার পরিবর্তে, [[About Obsidian]] আপনাকে একটি ভিত্তি এবং অসংখ্য কার্যকরী বিল্ডিং ব্লক দেয়, যা দিয়ে আপনি নিজের সমাধান খুঁজে বের করে তৈরি করতে পারবেন।
 
-The foundation is to be able to view files, edit them, and search them. For the minimalist, that's enough.
+এই ভিত্তি হলো ফাইল দেখা, সম্পাদনা করা এবং অনুসন্ধান করার সক্ষমতা। ন্যূনতমবাদীদের জন্য এটুকুই যথেষ্ট।
 
-On top of that, you can add isolated, independent building blocks to add features to your note-taking:
+এর উপরে, আপনি আপনার নোট নেওয়ার কাজে বৈশিষ্ট্য যোগ করতে আলাদা, স্বাধীন বিল্ডিং ব্লক যোগ করতে পারেন:
 
-- If you're taking class notes, [[Audio recorder]] and LaTeX math might be useful;
-- If you're taking work notes, [[Slides]] and [[Backlinks]] may come in handy;
-- If you're a researcher, [[Graph view]] and [[Word count]] might be essential to your toolkit.
+- আপনি যদি ক্লাসের নোট নেন, তাহলে [[Audio recorder]] এবং LaTeX ম্যাথ কাজে আসতে পারে;
+- আপনি যদি কাজের নোট নেন, তাহলে [[Slides]] এবং [[Backlinks]] উপকারী হতে পারে;
+- আপনি যদি একজন গবেষক হন, তাহলে [[Graph view]] এবং [[Word count]] আপনার টুলকিটের জন্য অপরিহার্য হতে পারে।
 
-We don't expect plugins to be the silver bullet to solve all the problems, but it does get us closer than a monolith solution, without all the features that you don't need cluttering the interface.
+আমরা আশা করি না যে প্লাগইনগুলো সব সমস্যার সমাধানের জন্য একটি জাদুকরী উপায় হবে, তবে এটি একটি একক বৃহৎ সমাধানের চেয়ে আমাদের কাছাকাছি নিয়ে যায়, যেখানে আপনার প্রয়োজন নেই এমন সব বৈশিষ্ট্য দিয়ে ইন্টারফেস আটকে থাকে না।
 
-We support [[CSS snippets]], [[Themes]], and [[Community plugins]], which enable even more interface customization and support less common use cases.
+আমরা [[CSS snippets]], [[Themes]], এবং [[Community plugins]] সমর্থন করি, যা ইন্টারফেস কাস্টমাইজেশন আরও সহজ করে এবং কম প্রচলিত ব্যবহারক্ষেত্রগুলোকে সমর্থন করে।
 
-## Follow our development
+## আমাদের ডেভেলপমেন্ট অনুসরণ করুন
 
-Curious how we continue to make Obsidian the best and most refined tool for thought-processing? Check out our [roadmap](https://obsidian.md/roadmap/) to see what we're working on.
+Obsidian-কে চিন্তা-প্রক্রিয়াকরণের সবচেয়ে সেরা ও পরিমার্জিত টুল বানিয়ে রাখতে আমরা কীভাবে কাজ চালিয়ে যাচ্ছি তা নিয়ে কৌতূহলী? আমরা কী নিয়ে কাজ করছি তা দেখতে আমাদের [রোডম্যাপ](https://obsidian.md/roadmap/) দেখুন।
 
-Our Twitter handle is [@obsdmd](https://twitter.com/obsdmd), feel free to follow. We mostly tweet about product updates.
+আমাদের টুইটার হ্যান্ডেল হলো [@obsdmd](https://twitter.com/obsdmd), স্বাচ্ছন্দ্যে ফলো করুন। আমরা মূলত পণ্যের আপডেট নিয়ে টুইট করি।

@@ -1,32 +1,31 @@
 ---
-localized: null
 permalink: file-formats
 publish: true
 mobile: true
-description: This page describes the accepted file formats within Obsidian.
+description: এই পৃষ্ঠায় Obsidian-এর মধ্যে গ্রহণযোগ্য ফাইল ফরম্যাটগুলো বর্ণনা করা হয়েছে।
 ---
 
-Obsidian supports the following file types:
+Obsidian নিম্নলিখিত ফাইল টাইপগুলো সমর্থন করে:
 
 - **Markdown**: `.md`  
 - **Bases:** `.base`
-- **JSON Canvas**: `.canvas` ([Learn more](https://jsoncanvas.org/))  
-- **Images**: `.avif`, `.bmp`, `.gif`, `.jpeg`, `.jpg`, `.png`, `.svg`, `.webp`  
-- **Audio**: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`  
-- **Video**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
+- **JSON Canvas**: `.canvas` ([আরও জানুন](https://jsoncanvas.org/))  
+- **ছবি**: `.avif`, `.bmp`, `.gif`, `.jpeg`, `.jpg`, `.png`, `.svg`, `.webp`  
+- **অডিও**: `.flac`, `.m4a`, `.mp3`, `.ogg`, `.wav`, `.webm`, `.3gp`  
+- **ভিডিও**: `.mkv`, `.mov`, `.mp4`, `.ogv`, `.webm`  
 - **PDF**: `.pdf`  
 
-You can extend Obsidian to support other file formats using [[Community plugins]].
+আপনি [[Community plugins]] ব্যবহার করে অন্যান্য ফাইল ফরম্যাট সমর্থন করার জন্য Obsidian-কে সম্প্রসারিত করতে পারেন।
 
-### Embed files
+### ফাইল এমবেড করা
 
-Many file types — including images, audio, video, and PDFs — can be embedded directly into your notes.
+ছবি, অডিও, ভিডিও এবং PDF সহ অনেক ফাইল টাইপ সরাসরি আপনার নোটের মধ্যে এমবেড করা যায়।
 
-- On **Desktop**, drag and drop a supported file into a note to embed it automatically.  
-- On **Mobile**, use the attachment options to insert or link a file.
+- **ডেস্কটপে**, একটি সমর্থিত ফাইল টেনে এনে নোটের মধ্যে ছেড়ে দিলে সেটি স্বয়ংক্রিয়ভাবে এমবেড হয়ে যাবে।  
+- **মোবাইলে**, কোনো ফাইল সন্নিবেশ বা লিঙ্ক করতে অ্যাটাচমেন্ট অপশন ব্যবহার করুন।
 
-See [[Embed files]] for more embedding options and syntax.
+আরও এমবেডিং অপশন ও সিনট্যাক্সের জন্য দেখুন [[Embed files]]।
 
 > [!NOTE]
-> Support for audio, video, and other files depends on the codecs available on your device.
+> অডিও, ভিডিও এবং অন্যান্য ফাইলের জন্য সমর্থন আপনার ডিভাইসে উপলব্ধ কোডেকের ওপর নির্ভর করে।
 

@@ -1,55 +1,54 @@
 ---
-localized: null
 permalink: snippets
 publish: true
 mobile: true
-description: Learn how to change parts of the Obsidian app’s appearance without creating a full theme.
+description: সম্পূর্ণ থিম তৈরি না করে Obsidian অ্যাপের চেহারার কিছু অংশ কীভাবে পরিবর্তন করবেন তা জানুন।
 ---
-Learn how to modify aspects of the Obsidian application's appearance without needing to [build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme). 
+সম্পূর্ণ [একটি থিম তৈরি](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) না করেই Obsidian অ্যাপ্লিকেশনের চেহারার কিছু দিক কীভাবে পরিবর্তন করবেন তা জানুন।
 
-> [!tip] If you're looking for guidance on handling CSS for [[Introduction to Obsidian Publish|Obsidian Publish]], be sure to review [[Customize your site]].
+> [!tip] যদি আপনি [[Introduction to Obsidian Publish|Obsidian Publish]] এর জন্য CSS পরিচালনা করার নির্দেশনা খুঁজছেন, তাহলে অবশ্যই [[Customize your site]] পর্যালোচনা করুন।
 
-CSS is a language that controls how HTML looks. By adding CSS snippets, you can change parts of the Obsidian user interface, like the size and color of headings. Obsidian has [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) that help you customize the interface easily.
+CSS হলো একটি ভাষা যা HTML কেমন দেখাবে তা নিয়ন্ত্রণ করে। CSS স্নিপেট যোগ করে, আপনি Obsidian ইউজার ইন্টারফেসের অংশ পরিবর্তন করতে পারেন, যেমন হেডিংয়ের আকার এবং রং। Obsidian-এ [CSS ভ্যারিয়েবল](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) রয়েছে যা আপনাকে সহজে ইন্টারফেস কাস্টমাইজ করতে সাহায্য করে।
 
-Obsidian looks for CSS snippets inside the vault's [[Configuration folder|configuration folder]].
+Obsidian ভল্টের [[Configuration folder|কনফিগারেশন ফোল্ডারের]] ভেতরে CSS স্নিপেট খোঁজে।
 
-## Adding a snippet
+## একটি স্নিপেট যোগ করা
 
-To add a CSS snippet on **Desktop** ![[lucide-monitor-check.svg#icon]], follow these steps:
+**ডেস্কটপ** ![[lucide-monitor-check.svg#icon]] এ একটি CSS স্নিপেট যোগ করতে, এই ধাপগুলো অনুসরণ করুন:
 
-1. Open **[[Settings]]** ![[lucide-settings.svg#icon]].
-2. Under **Appearance → CSS snippets**, select **Open snippets folder** ![[lucide-folder-open.svg#icon]].
-3. In the snippets folder, create a CSS file that contains your snippet.
-4. In Obsidian, under **Appearance → CSS snippets**, select **Reload snippets** ![[lucide-refresh-cw.svg#icon]] to see the snippet in the list.
-5. Enable snippet by clicking the toggle.
+1. **[[Settings]]** ![[lucide-settings.svg#icon]] খুলুন।
+2. **অ্যাপিয়ারেন্স → CSS স্নিপেট** এর অধীনে, **স্নিপেট ফোল্ডার খুলুন** ![[lucide-folder-open.svg#icon]] নির্বাচন করুন।
+3. স্নিপেট ফোল্ডারে, আপনার স্নিপেট থাকা একটি CSS ফাইল তৈরি করুন।
+4. Obsidian-এ, **অ্যাপিয়ারেন্স → CSS স্নিপেট** এর অধীনে, তালিকায় স্নিপেটটি দেখতে **স্নিপেট রিলোড করুন** ![[lucide-refresh-cw.svg#icon]] নির্বাচন করুন।
+5. টগলে ক্লিক করে স্নিপেট সক্রিয় করুন।
 
-To add a CSS snippet on **Mobile/Tablet** ![[obsidian-icon-smartphone.svg#icon]], you can follow these steps:
+**মোবাইল/ট্যাবলেট** ![[obsidian-icon-smartphone.svg#icon]] এ একটি CSS স্নিপেট যোগ করতে, আপনি এই ধাপগুলো অনুসরণ করতে পারেন:
 
-1. Open a file manager and find your vault. You can check the vault’s location in _Manage vaults…_ by tapping your vault and looking at the path.
-2. Open the [[Configuration folder]] and create a folder called `snippets` if it doesn’t exist.
-3. Add your CSS snippet to this folder.
-4. Open Obsidian's **[[Settings]]** ![[lucide-settings.svg#icon]].
-5. Select **Appearance** on the left.
-6. Scroll down to the **CSS snippets** section.
-7. Tap **Reload snippets** ![[lucide-refresh-cw.svg#icon]] to refresh the list.
-8. Tap the toggle to enable the snippet.
+1. একটি ফাইল ম্যানেজার খুলুন এবং আপনার ভল্ট খুঁজুন। আপনার ভল্টে ট্যাপ করে এবং পাথটি দেখে _ভল্ট পরিচালনা করুন…_ এ আপনি ভল্টের অবস্থান পরীক্ষা করতে পারেন।
+2. [[Configuration folder]] খুলুন এবং যদি `snippets` নামে কোনো ফোল্ডার না থাকে তবে একটি তৈরি করুন।
+3. আপনার CSS স্নিপেটটি এই ফোল্ডারে যোগ করুন।
+4. Obsidian-এর **[[Settings]]** ![[lucide-settings.svg#icon]] খুলুন।
+5. বাম দিকে **অ্যাপিয়ারেন্স** নির্বাচন করুন।
+6. স্ক্রল করে **CSS স্নিপেট** সেকশনে যান।
+7. তালিকা রিফ্রেশ করতে **স্নিপেট রিলোড করুন** ![[lucide-refresh-cw.svg#icon]] ট্যাপ করুন।
+8. স্নিপেট সক্রিয় করতে টগলে ট্যাপ করুন।
 
-Alternately, you can
-- [[Sync your notes across devices|Sync]] any changes with your syncing service.
-- Use a community plugin to create a snippet from within Obsidian. 
+বিকল্পভাবে, আপনি
+- আপনার সিঙ্কিং সার্ভিসের সাথে যেকোনো পরিবর্তন [[Sync your notes across devices|Sync]] করতে পারেন।
+- Obsidian-এর ভেতর থেকে একটি স্নিপেট তৈরি করতে একটি কমিউনিটি প্লাগইন ব্যবহার করতে পারেন।
 
-Once enabled, Obsidian will automatically detect changes to CSS snippets and apply them when you save the file. 
+একবার সক্রিয় হলে, Obsidian স্বয়ংক্রিয়ভাবে CSS স্নিপেটের পরিবর্তন সনাক্ত করবে এবং ফাইলটি সেভ করার সাথে সাথে সেগুলো প্রয়োগ করবে।
 
-> [!tip] You don’t need to restart Obsidian for changes to take effect. However, you might need to use the [[Command palette]] command to Reload Obsidian without saving to see changes in the current theme or note.
+> [!tip] পরিবর্তনগুলো কার্যকর হতে আপনার Obsidian পুনরায় চালু করার প্রয়োজন নেই। তবে, বর্তমান থিম বা নোটে পরিবর্তনগুলো দেখতে আপনাকে সেভ ছাড়াই Obsidian রিলোড করতে [[Command palette]] কমান্ড ব্যবহার করতে হতে পারে।
 
-## Writing CSS for Obsidian
+## Obsidian-এর জন্য CSS লেখা
 
-Obsidian offers several methods that make writing CSS easier and more powerful.
+Obsidian বেশ কিছু পদ্ধতি অফার করে যা CSS লেখাকে সহজ এবং আরও শক্তিশালী করে তোলে।
 
-It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) to easily modify parts of Obsidian and a built-in [[Properties#Property types|property type]] to change the appearance of one or several notes.
+এতে Obsidian-এর অংশ সহজে পরিবর্তন করার জন্য প্রচুর [CSS ভ্যারিয়েবল](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables) এবং একটি বা একাধিক নোটের চেহারা পরিবর্তন করার জন্য একটি বিল্ট-ইন [[Properties#Property types|প্রপার্টি টাইপ]] রয়েছে।
 
-> [!example] Variables
-> Create a file called `headers.css` with the following content to change the colors of the six [[Basic formatting syntax#Headings|heading levels]] to a rainbow:
+> [!example] ভ্যারিয়েবল
+> ছয়টি [[Basic formatting syntax#Headings|হেডিং লেভেলের]] রং একটি রংধনুতে পরিবর্তন করতে নিচের কনটেন্ট সহ `headers.css` নামে একটি ফাইল তৈরি করুন:
 >
 > ```css
 > body {
@@ -62,8 +61,8 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > }
 > ```
 
-> [!example] CSS classes
-> Assign the name of a custom CSS class (or a list of CSS classes) to a predefined [[Properties|property]] `cssclasses` to make one or more notes look different from others.
+> [!example] CSS ক্লাস
+> এক বা একাধিক নোটকে অন্যদের থেকে আলাদা দেখাতে একটি কাস্টম CSS ক্লাসের (বা CSS ক্লাসের একটি তালিকা) নাম পূর্বনির্ধারিত [[Properties|প্রপার্টি]] `cssclasses` এ বরাদ্দ করুন।
 > 
 > **CSS**:
 > ```css
@@ -73,21 +72,21 @@ It has a host of [CSS variables](https://docs.obsidian.md/Reference/CSS+variable
 > }
 > ```
 > 
-> **YAML/Properties**:
+> **YAML/প্রপার্টি**:
 > ```yaml
 > cssclasses:
 >  - red-border
 > ```
 > 
-> In every note that contains the value `red-border` in the `cssclasses` property, images are displayed with a red border.
+> `cssclasses` প্রপার্টিতে `red-border` মান রয়েছে এমন প্রতিটি নোটে, ছবিগুলো লাল বর্ডার সহ প্রদর্শিত হয়।
 
-To ensure that the CSS file is valid and formatted correctly, we advise validating it with a tool like [CSS Validation Service](https://jigsaw.w3.org/css-validator/), as invalid CSS will not work.
+CSS ফাইলটি সঠিক এবং যথাযথভাবে ফরম্যাট করা কিনা তা নিশ্চিত করতে, আমরা [CSS ভ্যালিডেশন সার্ভিস](https://jigsaw.w3.org/css-validator/) এর মতো একটি টুল দিয়ে এটি যাচাই করার পরামর্শ দিই, কারণ অবৈধ CSS কাজ করবে না।
 
-## Learn more
+## আরও জানুন
 
-- If you're new to CSS, check out [Learn to style HTML using CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
-- For more information about styling Obsidian, see:
-  - [About styling](https://docs.obsidian.md/Reference/CSS+variables/About+styling)
-  - [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
-  - [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme)
+- আপনি যদি CSS-এ নতুন হন, তাহলে Mozilla-এর [CSS ব্যবহার করে HTML স্টাইল করা শিখুন](https://developer.mozilla.org/en-US/docs/Learn/CSS) দেখুন।
+- Obsidian স্টাইল করার বিষয়ে আরও তথ্যের জন্য দেখুন:
+  - [স্টাইলিং সম্পর্কে](https://docs.obsidian.md/Reference/CSS+variables/About+styling)
+  - [একটি থিম তৈরি করুন](https://docs.obsidian.md/Themes/App+themes/Build+a+theme)
+  - [একটি Publish থিম তৈরি করুন](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme)
   - [Obsidian CSS Inspector workflow](https://forum.obsidian.md/t/obsidian-css-inspector-workflow/58178)

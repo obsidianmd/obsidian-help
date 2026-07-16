@@ -1,26 +1,25 @@
 ---
-localized: null
 permalink: plugins/slides
 ---
-Slides is a [[Core plugins|core plugin]] that lets you create presentations from your notes. To start a presentation:
+স্লাইড একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে আপনার নোট থেকে প্রেজেন্টেশন তৈরি করতে দেয়। একটি প্রেজেন্টেশন শুরু করতে:
 
 **File menu:**
 
-- Right-click the tab of a note and click **Start presentation**.
+- একটি নোটের ট্যাবে ডান-ক্লিক করুন এবং **Start presentation**-এ ক্লিক করুন।
 
 **Command palette:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Start presentation** command.
-3. Press `Enter` with the command selected to start a presentation using the active note.
+1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+2. **Start presentation** কমান্ডটি খুঁজুন।
+3. সক্রিয় নোট ব্যবহার করে একটি প্রেজেন্টেশন শুরু করতে কমান্ডটি নির্বাচিত অবস্থায় `Enter` চাপুন।
 
-To navigate between slides, click the left and right arrows in the bottom-right corner, or press the left and right arrow keys on your keyboard.
+স্লাইডগুলির মধ্যে নেভিগেট করতে, নিচের-ডানদিকের কোণে বাম এবং ডান তীরে ক্লিক করুন, অথবা আপনার কীবোর্ডে বাম এবং ডান অ্যারো কী চাপুন।
 
-You can also advance to the next slide by pressing Spacebar.
+আপনি Spacebar চেপে পরবর্তী স্লাইডেও যেতে পারেন।
 
-To stop the presentation, press `Escape` or click the cross in the upper-right corner of the presentation.
+প্রেজেন্টেশনটি বন্ধ করতে, `Escape` চাপুন বা প্রেজেন্টেশনের উপরের-ডানদিকের কোণে ক্রসে ক্লিক করুন।
 
-You can use any valid Markdown file as a presentation. To separate slides, enter `---` at the start of a line surrounded by newlines.
+আপনি একটি প্রেজেন্টেশন হিসেবে যেকোনো বৈধ Markdown ফাইল ব্যবহার করতে পারেন। স্লাইড আলাদা করতে, নতুন লাইনে ঘেরা একটি লাইনের শুরুতে `---` লিখুন।
 
 ```md
 # Presentations using Slides

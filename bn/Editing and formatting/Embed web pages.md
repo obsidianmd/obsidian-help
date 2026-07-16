@@ -1,24 +1,23 @@
 ---
-localized: null
 permalink: embed-web-pages
 ---
-Learn how to use the [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) HTML element to embed web pages in your notes.
+আপনার নোটে ওয়েব পেজ এমবেড করতে কীভাবে [iframe](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe) HTML এলিমেন্ট ব্যবহার করবেন তা জানুন।
 
-To embed a web page, add the following in your note and replace the placeholder text with the URL of the web page you want to embed:
+একটি ওয়েব পেজ এমবেড করতে, আপনার নোটে নিচেরটি যোগ করুন এবং প্লেসহোল্ডার টেক্সটটিকে আপনি যে ওয়েব পেজটি এমবেড করতে চান তার URL দিয়ে প্রতিস্থাপন করুন:
 
 ```html
 <iframe src="INSERT YOUR URL HERE"></iframe>
 ```
 
-> [!note] Note
-> Some websites don't allow you to embed them. Instead, they may provide URLs that are meant for embedding them. If the website doesn't support embedding, try searching for the name of the website followed by "embed iframe". For example, "youtube embed iframe".
+> [!note] নোট
+> কিছু ওয়েবসাইট আপনাকে সেগুলো এমবেড করার অনুমতি দেয় না। এর পরিবর্তে, তারা এমবেড করার জন্য নির্দিষ্ট URL প্রদান করতে পারে। যদি ওয়েবসাইটটি এমবেডিং সমর্থন না করে, তাহলে ওয়েবসাইটের নামের পরে "embed iframe" যোগ করে সার্চ করার চেষ্টা করুন। উদাহরণস্বরূপ, "youtube embed iframe"।
 
-> [!tip] Tip
-> If you're using [[Canvas]], you can embed a web page in a card. For more information, refer to [[Canvas#Add cards from web pages]].
+> [!tip] টিপ
+> যদি আপনি [[Canvas]] ব্যবহার করেন, তাহলে আপনি একটি কার্ডে একটি ওয়েব পেজ এমবেড করতে পারেন। আরও তথ্যের জন্য, [[Canvas#Add cards from web pages]] দেখুন।
 
-## Embed a YouTube video
+## একটি YouTube ভিডিও এমবেড করা
 
-To embed a YouTube video, use the same Markdown syntax as [[Basic formatting syntax#External images|external images]]:
+একটি YouTube ভিডিও এমবেড করতে, [[Basic formatting syntax#External images|এক্সটার্নাল ছবির]] মতো একই Markdown সিনট্যাক্স ব্যবহার করুন:
 
 ```md
 ![](https://www.youtube.com/watch?v=NnTvZWp5Q7o)
@@ -26,9 +25,9 @@ To embed a YouTube video, use the same Markdown syntax as [[Basic formatting syn
 
 ![](https://www.youtube.com/watch?v=NnTvZWp5Q7o)
 
-## Embed a tweet
+## একটি টুইট এমবেড করা
 
-To embed a tweet, use the same Markdown syntax as [[Basic formatting syntax#External images|external images]]:
+একটি টুইট এমবেড করতে, [[Basic formatting syntax#External images|এক্সটার্নাল ছবির]] মতো একই Markdown সিনট্যাক্স ব্যবহার করুন:
 
 ```md
 ![](https://twitter.com/obsdmd/status/1580548874246443010)

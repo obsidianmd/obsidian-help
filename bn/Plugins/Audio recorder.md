@@ -1,19 +1,18 @@
 ---
-localized: null
 permalink: plugins/audio-recorder
 ---
-Audio recorder is a [[Core plugins|core plugin]] that lets you record and save audio in an Obsidian note. With the Audio recorder plugin, you can record details from a lecture, meeting, or other important situations where you can't type fast enough.
+অডিও রেকর্ডার একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে একটি Obsidian নোটে অডিও রেকর্ড এবং সংরক্ষণ করতে দেয়। অডিও রেকর্ডার প্লাগইন দিয়ে আপনি একটি লেকচার, মিটিং, বা অন্য কোনো গুরুত্বপূর্ণ পরিস্থিতির বিবরণ রেকর্ড করতে পারেন যেখানে আপনি যথেষ্ট দ্রুত টাইপ করতে পারেন না।
 
-> [!note] Note
-> Before you get started, make sure that your computer has a microphone configured and ready to use.
+> [!note] নোট
+> শুরু করার আগে নিশ্চিত করুন যে আপনার কম্পিউটারে একটি মাইক্রোফোন কনফিগার করা এবং ব্যবহারের জন্য প্রস্তুত আছে।
 
-## Record audio in a note
+## একটি নোটে অডিও রেকর্ড করুন
 
-1. Create a new note or open an existing note.
-2. In the ribbon, click **Start/stop recording** ![[lucide-mic.svg#icon]] to start recording. The recording starts as soon as the icon changes color.
-3. Click the icon again to stop the recording and add it to your note.
+1. একটি নতুন নোট তৈরি করুন বা একটি বিদ্যমান নোট খুলুন।
+2. রিবনে, রেকর্ডিং শুরু করতে **Start/stop recording** ![[lucide-mic.svg#icon]]-এ ক্লিক করুন। আইকনের রং পরিবর্তন হওয়া মাত্রই রেকর্ডিং শুরু হয়।
+3. রেকর্ডিং বন্ধ করতে এবং এটি আপনার নোটে যোগ করতে আইকনে আবার ক্লিক করুন।
 
-Obsidian saves the recorded audio file to your vault and [[Embed files|embeds]] it at the end of the active note.
+Obsidian রেকর্ড করা অডিও ফাইলটি আপনার ভল্টে সংরক্ষণ করে এবং সক্রিয় নোটের শেষে এটি [[Embed files|এম্বেড]] করে।
 
-> [!note] Note
-> Audio recordings remain in your vault even after you remove them from your note. If you want to remove the recording from your computer, you can use the [[File explorer]] to delete the file.
+> [!note] নোট
+> নোট থেকে সরিয়ে ফেলার পরেও অডিও রেকর্ডিংগুলি আপনার ভল্টে থেকে যায়। আপনি যদি আপনার কম্পিউটার থেকে রেকর্ডিংটি সরিয়ে ফেলতে চান, তাহলে ফাইলটি মুছতে আপনি [[File explorer]] ব্যবহার করতে পারেন।

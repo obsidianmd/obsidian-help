@@ -1,17 +1,16 @@
 ---
-localized: null
 permalink: plugins/slash-commands
 ---
-Slash commands is a [[Core plugins|core plugin]] that lets you perform commands in the editor by typing a forward slash (`/`) at the beginning of a line or after any blank space.
+স্ল্যাশ কমান্ড একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে একটি লাইনের শুরুতে বা যেকোনো ফাঁকা স্পেসের পরে একটি ফরওয়ার্ড স্ল্যাশ (`/`) টাইপ করে এডিটরে কমান্ড সম্পাদন করতে দেয়।
 
-To run a command using Slash commands:
+স্ল্যাশ কমান্ড ব্যবহার করে একটি কমান্ড চালাতে:
 
-1. In the editor, type a forward slash (`/`).
-2. Enter the name of the command you want to run to search the list of available commands.
-3. Navigate to the command using the arrow keys.
-4. Press Enter.
+1. এডিটরে, একটি ফরওয়ার্ড স্ল্যাশ (`/`) টাইপ করুন।
+2. উপলব্ধ কমান্ডগুলির তালিকা অনুসন্ধান করতে আপনি যে কমান্ডটি চালাতে চান তার নাম লিখুন।
+3. অ্যারো কী ব্যবহার করে কমান্ডে নেভিগেট করুন।
+4. Enter চাপুন।
 
-To exit the Slash command search without invoking a command, press `Esc` or the `Space` key.
+কোনো কমান্ড চালু না করে স্ল্যাশ কমান্ড অনুসন্ধান থেকে বের হতে, `Esc` বা `Space` কী চাপুন।
 
-> [!TIP] Fuzzy matching
-> Like the [[Command palette]], Slash commands supports fuzzy matching which lets you search commands even if you don't know their exact names. For example, type "scf" to find the **Save current file** command.
+> [!TIP] ফাজি ম্যাচিং
+> [[Command palette]]-এর মতো, স্ল্যাশ কমান্ড ফাজি ম্যাচিং সমর্থন করে যা আপনাকে সঠিক নাম না জানলেও কমান্ড অনুসন্ধান করতে দেয়। উদাহরণস্বরূপ, **Save current file** কমান্ডটি খুঁজে পেতে "scf" টাইপ করুন।

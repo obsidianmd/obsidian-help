@@ -1,23 +1,22 @@
 ---
-localized: null
 permalink: plugins/importer
 cssclasses:
   - list-cards
   - soft-embed
 publish: true
 mobile: true
-description: Importer helps you migrate to Obsidian from various apps and formats.
+description: Importer আপনাকে বিভিন্ন অ্যাপ এবং ফরম্যাট থেকে Obsidian-এ মাইগ্রেট করতে সাহায্য করে।
 ---
 
-Importer helps you migrate to Obsidian from various apps and formats. See the [[Import notes]] guide for detail.
+Importer আপনাকে বিভিন্ন অ্যাপ এবং ফরম্যাট থেকে Obsidian-এ মাইগ্রেট করতে সাহায্য করে। বিস্তারিত জানতে [[Import notes]] গাইড দেখুন।
 
-Importer is an official [[Community plugins|Community plugin]] made by the Obsidian team, with contributions to [our open source code](https://github.com/obsidianmd/obsidian-importer). You can contribute by adding additional import formats. [See contribution guide.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
+Importer হলো Obsidian টিম দ্বারা তৈরি একটি অফিসিয়াল [[Community plugins|Community plugin]], যাতে [আমাদের ওপেন সোর্স কোডে](https://github.com/obsidianmd/obsidian-importer) অবদান রাখা যায়। আপনি অতিরিক্ত ইম্পোর্ট ফরম্যাট যোগ করে অবদান রাখতে পারেন। [অবদান গাইড দেখুন।](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
 
-## Install Importer
+## Importer ইনস্টল করুন
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
-2. Download and enable [Importer](obsidian://show-plugin?id=obsidian-importer) from the list
+1. [[Community plugins#Install a community plugin]]-এ নির্দেশাবলী অনুসরণ করুন
+2. তালিকা থেকে [Importer](obsidian://show-plugin?id=obsidian-importer) ডাউনলোড করে চালু করুন
 
-![[Import notes#Import from other apps and file formats]]
+![[Import notes#অন্যান্য অ্যাপ এবং ফাইল ফরম্যাট থেকে আমদানি করুন]]
 
-![[Import notes#More formats]]
+![[Import notes#আরও ফরম্যাট]]

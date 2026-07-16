@@ -1,80 +1,79 @@
 ---
-localized: null
 permalink: publish/publish
 publish: true
 mobile: true
-description: Learn how to publish your content using Obsidian Publish
+description: Obsidian Publish ব্যবহার করে কীভাবে আপনার কনটেন্ট প্রকাশ করবেন তা জানুন
 ---
 
-This page explains how to manage your published content. To learn how to customize your site's styling, see [[Customize your site]].
+এই পৃষ্ঠায় ব্যাখ্যা করা হয়েছে কীভাবে আপনার প্রকাশিত কনটেন্ট পরিচালনা করবেন। আপনার সাইটের স্টাইলিং কীভাবে কাস্টমাইজ করবেন তা জানতে, [[Customize your site]] দেখুন।
 
-## Prerequisites
+## পূর্বশর্ত
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
-- The **Publish** core plugin is [[Set up Obsidian Publish#Enable Obsidian Publish|enabled]].
-- A [[Manage sites#Create a new site|Publish site]] is created.
+- একটি Obsidian অ্যাকাউন্ট। যদি আপনার একটি না থাকে, [এখনই সাইন আপ করুন](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup)।
+- একটি সক্রিয় Obsidian Publish সাবস্ক্রিপশন। যদি আপনার একটি না থাকে, [আপনার অ্যাকাউন্ট ড্যাশবোর্ড](https://obsidian.md/account/publish) থেকে সাবস্ক্রাইব করুন।
+- **Publish** কোর প্লাগইন [[Set up Obsidian Publish#Enable Obsidian Publish|চালু]] করা আছে।
+- একটি [[Manage sites#Create a new site|Publish সাইট]] তৈরি করা হয়েছে।
 
-## Publish notes
+## নোট প্রকাশ করুন
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, select **NEW** to view all unpublished notes.
-3. Select the notes you want to publish.
-4. Select **Publish**.
+1. **Ribbon**-এ, **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন।
+2. **Publish changes** ডায়ালগে, সব অপ্রকাশিত নোট দেখতে **NEW** নির্বাচন করুন।
+3. আপনি যে নোটগুলো প্রকাশ করতে চান তা নির্বাচন করুন।
+4. **Publish** নির্বাচন করুন।
 
-## Unpublish notes
+## নোট অপ্রকাশিত করুন
 
-Notes remain in your local vault even after you unpublish them.
+নোট অপ্রকাশিত করার পরেও সেগুলো আপনার স্থানীয় ভল্টে থেকে যায়।
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, select **UNCHANGED** to view all published notes.
-3. Select the notes you want to unpublish.
-4. Select **Publish**.
+1. **Ribbon**-এ, **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন।
+2. **Publish changes** ডায়ালগে, সব প্রকাশিত নোট দেখতে **UNCHANGED** নির্বাচন করুন।
+3. আপনি যে নোটগুলো অপ্রকাশিত করতে চান তা নির্বাচন করুন।
+4. **Publish** নির্বাচন করুন।
 
-## Update a published note
+## একটি প্রকাশিত নোট আপডেট করুন
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, select **CHANGED** to view all modified notes since the last publish.
-3. Select the notes you want to update.
-4. Select **Publish**.
+1. **Ribbon**-এ, **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন।
+2. **Publish changes** ডায়ালগে, শেষ প্রকাশের পর থেকে সংশোধিত সব নোট দেখতে **CHANGED** নির্বাচন করুন।
+3. আপনি যে নোটগুলো আপডেট করতে চান তা নির্বাচন করুন।
+4. **Publish** নির্বাচন করুন।
 
-> [!hint] Deleting renamed or removed notes and images from Publish happens in this step. You must manually select the checkbox to delete this data, as it is not automatically selected for safety.
+> [!hint] Publish থেকে নাম পরিবর্তন করা বা অপসারিত নোট এবং ছবি মোছার কাজ এই ধাপে হয়। এই ডেটা মুছতে আপনাকে চেকবক্সটি নিজে নির্বাচন করতে হবে, কারণ নিরাপত্তার জন্য এটি স্বয়ংক্রিয়ভাবে নির্বাচিত থাকে না।
 
-## Publish linked data
+## লিঙ্কড ডেটা প্রকাশ করুন
 
-When publishing notes containing links to other notes or embedded images, broken links may occur unless the linked notes are also published. **Obsidian Publish** helps prevent this by automatically selecting media linked from the notes you’ve already chosen.
+অন্য নোটের লিঙ্ক বা এম্বেড করা ছবিসহ নোট প্রকাশ করার সময়, যদি লিঙ্ক করা নোটগুলোও প্রকাশ করা না হয় তাহলে ভাঙা লিঙ্কের সমস্যা হতে পারে। **Obsidian Publish** আপনি ইতিমধ্যে নির্বাচন করা নোট থেকে লিঙ্ক করা মিডিয়া স্বয়ংক্রিয়ভাবে নির্বাচন করে এটি এড়াতে সাহায্য করে।
 
-To include all linked notes, select **Add linked** in the **Publish changes** dialog.
+সব লিঙ্ক করা নোট অন্তর্ভুক্ত করতে, **Publish changes** ডায়ালগে **Add linked** নির্বাচন করুন।
 
-Before publishing, review the updated selection to ensure it doesn’t include any data you’re not ready to publish.
+প্রকাশ করার আগে, আপনি প্রস্তুত নন এমন কোনো ডেটা যাতে অন্তর্ভুক্ত না হয় তা নিশ্চিত করতে আপডেট করা নির্বাচনটি পর্যালোচনা করুন।
 
-> [!tip] The **Add linked** function respects any exclusions defined in [[#Ignore data]].
+> [!tip] **Add linked** ফাংশনটি [[#Ignore data]]-এ নির্ধারিত যেকোনো বর্জন মেনে চলে।
 
-## Automatically select data to publish
+## স্বয়ংক্রিয়ভাবে প্রকাশের জন্য ডেটা নির্বাচন করুন
 
-Set `publish: true` in the [[Properties]] of a note to automatically include it for publishing as either a new or changed note.
+একটি নোটকে নতুন বা পরিবর্তিত নোট হিসেবে স্বয়ংক্রিয়ভাবে প্রকাশের জন্য অন্তর্ভুক্ত করতে নোটের [[Properties|প্রপার্টি]]-তে `publish: true` সেট করুন।
 
-You can also automatically select notes and linked images in specific folders by adding them as **Included** folders:
+আপনি নির্দিষ্ট ফোল্ডারগুলোকে **Included** ফোল্ডার হিসেবে যোগ করে সেগুলোর নোট এবং লিঙ্কড ছবিও স্বয়ংক্রিয়ভাবে নির্বাচন করতে পারেন:
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** ![[lucide-filter.svg#icon]] icon.
-3. In the **Included folders** section, select **Manage**.
-4. Choose the folders you want to include from the suggester.
-5. The folder is added to the included list.
-6. Select **Done** when finished.
+1. **Ribbon**-এ, **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন অথবা [[Command palette|কমান্ড প্যালেট]] খুলে **Publish: Publish changes...** টাইপ করুন।
+2. **Manage publish filters** ![[lucide-filter.svg#icon]] আইকন নির্বাচন করুন।
+3. **Included folders** বিভাগে, **Manage** নির্বাচন করুন।
+4. সাজেস্টার থেকে আপনি যে ফোল্ডারগুলো অন্তর্ভুক্ত করতে চান তা বেছে নিন।
+5. ফোল্ডারটি অন্তর্ভুক্ত তালিকায় যোগ করা হয়।
+6. শেষ হলে **Done** নির্বাচন করুন।
 
-### Ignore data
+### ডেটা উপেক্ষা করুন
 
-To ignore a note in Obsidian Publish, set `publish: false` in the [[Properties]] of the note. The note no longer appears in the list of notes to publish.
+Obsidian Publish-এ একটি নোট উপেক্ষা করতে, নোটের [[Properties|প্রপার্টি]]-তে `publish: false` সেট করুন। নোটটি আর প্রকাশের নোটের তালিকায় দেখা যাবে না।
 
-You can also auto-ignore notes and images in specific folders by adding them as **Excluded** folders:
+আপনি নির্দিষ্ট ফোল্ডারগুলোকে **Excluded** ফোল্ডার হিসেবে যোগ করে সেগুলোর নোট এবং ছবিও স্বয়ংক্রিয়ভাবে উপেক্ষা করতে পারেন:
 
-1. In **Ribbon**, select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**.
-2. Select the **Manage publish filters** ![[lucide-filter.svg#icon]] icon.
-3. In the **Excluded folders** section, select **Manage**.
-4. Choose the folders you want to exclude from the suggester.
-5. The folder is added to the excluded list.
-6. Select **Done** when finished.
+1. **Ribbon**-এ, **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন অথবা [[Command palette|কমান্ড প্যালেট]] খুলে **Publish: Publish changes...** টাইপ করুন।
+2. **Manage publish filters** ![[lucide-filter.svg#icon]] আইকন নির্বাচন করুন।
+3. **Excluded folders** বিভাগে, **Manage** নির্বাচন করুন।
+4. সাজেস্টার থেকে আপনি যে ফোল্ডারগুলো বাদ দিতে চান তা বেছে নিন।
+5. ফোল্ডারটি বর্জিত তালিকায় যোগ করা হয়।
+6. শেষ হলে **Done** নির্বাচন করুন।
 
-> [!note] `publish: true` overrides excluded folders
-> If a file has `publish: true`, it will still be published even if it is in a folder or filter that is excluded. This is because `publish: true` gives more specific control.
+> [!note] `publish: true` বর্জিত ফোল্ডারকে অগ্রাহ্য করে
+> যদি কোনো ফাইলে `publish: true` থাকে, তাহলে এটি একটি বর্জিত ফোল্ডার বা ফিল্টারে থাকলেও প্রকাশিত হবে। কারণ `publish: true` আরও নির্দিষ্ট নিয়ন্ত্রণ দেয়।

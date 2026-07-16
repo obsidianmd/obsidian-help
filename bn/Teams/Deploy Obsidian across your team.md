@@ -1,53 +1,52 @@
 ---
-localized: null
 permalink: teams/deploy
 cssclasses:
   - soft-embed
 ---
-Obsidian runs as a local application on each of your team member's devices. It is designed to work both online and offline, securely and privately, and give you total control over your team's data. Obsidian is not available as a web-based application, therefore you will need to deploy the app to your team members.
+Obsidian আপনার দলের সদস্যদের প্রতিটি ডিভাইসে একটি লোকাল অ্যাপ্লিকেশন হিসেবে চলে। এটি অনলাইন এবং অফলাইন উভয়ভাবেই, নিরাপদে এবং ব্যক্তিগতভাবে কাজ করার জন্য ডিজাইন করা হয়েছে এবং আপনার দলের ডেটার উপর সম্পূর্ণ নিয়ন্ত্রণ প্রদান করে। Obsidian একটি ওয়েব-ভিত্তিক অ্যাপ্লিকেশন হিসেবে উপলব্ধ নয়, তাই আপনাকে আপনার দলের সদস্যদের কাছে অ্যাপটি ডিপ্লয় করতে হবে।
 
-## Install and update Obsidian
+## Obsidian ইনস্টল এবং আপডেট করুন
 
-Your team can download Obsidian from our [Download page](https://obsidian.md/download). Releases are also available on our [GitHub releases page](https://github.com/obsidianmd/obsidian-releases/releases) which includes links to [the changelog](https://obsidian.md/changelog/).
+আপনার দল আমাদের [ডাউনলোড পেজ](https://obsidian.md/download) থেকে Obsidian ডাউনলোড করতে পারে। রিলিজগুলো আমাদের [GitHub রিলিজ পেজেও](https://github.com/obsidianmd/obsidian-releases/releases) উপলব্ধ, যেখানে [চেঞ্জলগের](https://obsidian.md/changelog/) লিঙ্কও অন্তর্ভুক্ত রয়েছে।
 
-> [!tip] For Windows users who need a system installer, the Universal `.exe` includes the option to install Obsidian for all users.
+> [!tip] যেসব Windows ব্যবহারকারীর একটি সিস্টেম ইনস্টলারের প্রয়োজন, তাদের জন্য Universal `.exe`-এ সব ব্যবহারকারীর জন্য Obsidian ইনস্টল করার বিকল্প অন্তর্ভুক্ত রয়েছে।
 
-If automatic updates are enabled in the app, future versions will be installed automatically when users restart Obsidian. Additionally, we recommend periodically performing [[Update Obsidian#Installer updates|installer updates]] to receive the latest updates to the Electron framework, including security fixes.
+অ্যাপে স্বয়ংক্রিয় আপডেট সক্রিয় থাকলে, ব্যবহারকারীরা Obsidian পুনরায় চালু করলে ভবিষ্যতের সংস্করণগুলো স্বয়ংক্রিয়ভাবে ইনস্টল হবে। এছাড়াও, আমরা Electron ফ্রেমওয়ার্কের সর্বশেষ আপডেট, নিরাপত্তা ফিক্স সহ, পেতে পর্যায়ক্রমে [[Update Obsidian#Installer updates|ইনস্টলার আপডেট]] সম্পাদন করার পরামর্শ দিই।
 
-If you are looking how to limit network access to Obsidian during this process, review [[Security considerations for teams#Network and access|network and access]].
+এই প্রক্রিয়া চলাকালীন Obsidian-এ নেটওয়ার্ক অ্যাক্সেস কীভাবে সীমিত করবেন তা জানতে চাইলে, [[Security considerations for teams#Network and access|নেটওয়ার্ক এবং অ্যাক্সেস]] পর্যালোচনা করুন।
 
-## Customizing Obsidian
+## Obsidian কাস্টমাইজ করা
 
-Obsidian is easy to modify to suit your team's needs. With an extensive API and a large ecosystem of users, Obsidian offers access to numerous plugins, themes, and complementary tools.
+Obsidian আপনার দলের প্রয়োজন অনুযায়ী পরিবর্তন করা সহজ। একটি বিস্তৃত API এবং ব্যবহারকারীদের একটি বড় ইকোসিস্টেমের সাথে, Obsidian অসংখ্য প্লাগইন, থিম এবং পরিপূরক টুলে অ্যাক্সেস প্রদান করে।
 
-For security-related questions concerning these topics, please refer to [[Security considerations for teams]].
+এই বিষয়গুলো সম্পর্কিত নিরাপত্তা-সংক্রান্ত প্রশ্নের জন্য, দয়া করে [[Security considerations for teams]] দেখুন।
 
-### Configuration folders
+### কনফিগারেশন ফোল্ডার
 
-The [[Configuration folder]] is where an Obsidian [[Glossary#Vault|vault]] stores its application settings. By default, this folder is named `.obsidian`, but you have the flexibility to [[Configuration folder#Change your configuration folder|change the configuration folder]] name according to your preference.
+[[Configuration folder|কনফিগারেশন ফোল্ডার]] হল যেখানে একটি Obsidian [[Glossary#Vault|ভল্ট]] তার অ্যাপ্লিকেশন সেটিংস সংরক্ষণ করে। ডিফল্টভাবে, এই ফোল্ডারের নাম `.obsidian`, কিন্তু আপনার পছন্দ অনুযায়ী [[Configuration folder#Change your configuration folder|কনফিগারেশন ফোল্ডারের নাম পরিবর্তন করার]] সুবিধা আপনার আছে।
 
-We recommend creating a standardized template of the configuration folder to be deployed across your team's devices.
+আমরা আপনার দলের ডিভাইসগুলোতে ডিপ্লয় করার জন্য কনফিগারেশন ফোল্ডারের একটি স্ট্যান্ডার্ড টেমপ্লেট তৈরি করার পরামর্শ দিই।
 
-### Plugins
+### প্লাগইন
 
-[[Core plugins]] are optional features created by the Obsidian team. These features are integrated in the core application codebase and can be turned on or off.
+[[Core plugins|কোর প্লাগইন]] হল Obsidian টিম দ্বারা তৈরি ঐচ্ছিক বৈশিষ্ট্য। এই বৈশিষ্ট্যগুলো মূল অ্যাপ্লিকেশন কোডবেসে সংহত করা আছে এবং চালু বা বন্ধ করা যায়।
 
-[[Community plugins]] are third-party features added to the Obsidian application, and can be installed via the community directory. Third-party plugins leverage the [Obsidian API](https://github.com/obsidianmd/obsidian-api). Plugins are located in the `.obsidian/plugins` folder within a vault, and can be installed manually at this location.
+[[Community plugins|কমিউনিটি প্লাগইন]] হল Obsidian অ্যাপ্লিকেশনে যোগ করা তৃতীয় পক্ষের বৈশিষ্ট্য, এবং কমিউনিটি ডিরেক্টরির মাধ্যমে ইনস্টল করা যায়। তৃতীয় পক্ষের প্লাগইনগুলো [Obsidian API](https://github.com/obsidianmd/obsidian-api) ব্যবহার করে। প্লাগইনগুলো একটি ভল্টের `.obsidian/plugins` ফোল্ডারে অবস্থিত এবং এই অবস্থানে ম্যানুয়ালি ইনস্টল করা যায়।
 
-### Themes and snippets
+### থিম এবং স্নিপেট
 
-[[Themes]] visually alter the Obsidian interface. Like plugins, themes can be downloaded from our community directory. Themes are located in the `.obsidian/themes` folder within a vault.
+[[Themes|থিম]] দৃশ্যতভাবে Obsidian ইন্টারফেস পরিবর্তন করে। প্লাগইনের মতো, থিমও আমাদের কমিউনিটি ডিরেক্টরি থেকে ডাউনলোড করা যায়। থিমগুলো একটি ভল্টের `.obsidian/themes` ফোল্ডারে অবস্থিত।
 
-[[CSS snippets|Snippets]] are small `.css` files that visually modify aspects of the Obsidian interface. In some cases, it can also add functional enhancements. Snippets are located in the `.obsidian/snippets` folder within a vault.
+[[CSS snippets|স্নিপেট]] হল ছোট `.css` ফাইল যা Obsidian ইন্টারফেসের দৃশ্যমান দিকগুলো পরিবর্তন করে। কিছু ক্ষেত্রে, এটি কার্যকরী উন্নতিও যোগ করতে পারে। স্নিপেটগুলো একটি ভল্টের `.obsidian/snippets` ফোল্ডারে অবস্থিত।
 
-## Frequently asked questions
+## প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী
 
-For questions about account management and security, please refer to [[Security considerations for teams#Account security|account security]].
+অ্যাকাউন্ট ব্যবস্থাপনা এবং নিরাপত্তা সম্পর্কিত প্রশ্নের জন্য, দয়া করে [[Security considerations for teams#Account security|অ্যাকাউন্ট নিরাপত্তা]] দেখুন।
 
-### Deployment
+### ডিপ্লয়মেন্ট
 
-**Can I deploy licenses across multiple installations?**
-Currently, we do not support deploying licenses via a deployment script, such as in a `.json` file. If you're interested in this feature for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**আমি কি একাধিক ইনস্টলেশনে লাইসেন্স ডিপ্লয় করতে পারি?**
+বর্তমানে, আমরা একটি `.json` ফাইলের মতো একটি ডিপ্লয়মেন্ট স্ক্রিপ্টের মাধ্যমে লাইসেন্স ডিপ্লয় করা সমর্থন করি না। আপনি যদি আপনার দলের জন্য এই বৈশিষ্ট্যে আগ্রহী হন, তাহলে দয়া করে একটি [ফিচার অনুরোধ](https://forum.obsidian.md/c/feature-requests/8) জমা দিন।
 
-**Can Obsidian lock certain features or configurations via a setting or an application flag?**
-Currently you can do this by blocking edit access to the `.obsidian` folder, or specific files and folders within it, described above. If you're interested in more access controls for your team, please submit a [feature request](https://forum.obsidian.md/c/feature-requests/8). 
+**Obsidian কি একটি সেটিং বা অ্যাপ্লিকেশন ফ্ল্যাগের মাধ্যমে নির্দিষ্ট বৈশিষ্ট্য বা কনফিগারেশন লক করতে পারে?**
+বর্তমানে আপনি উপরে বর্ণিত `.obsidian` ফোল্ডার, বা এর মধ্যে নির্দিষ্ট ফাইল ও ফোল্ডারে সম্পাদনা অ্যাক্সেস ব্লক করে এটি করতে পারেন। আপনার দলের জন্য আরো অ্যাক্সেস নিয়ন্ত্রণে আগ্রহী হলে, দয়া করে একটি [ফিচার অনুরোধ](https://forum.obsidian.md/c/feature-requests/8) জমা দিন।

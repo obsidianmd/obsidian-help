@@ -1,16 +1,15 @@
 ---
-localized: null
 permalink: syntax
 publish: true
 mobile: true
-description: 'Learn how to apply basic formatting to your notes in Obsidian, using Markdown.'
+description: 'জানুন কীভাবে Markdown ব্যবহার করে Obsidian-এ আপনার নোটে বেসিক ফরম্যাটিং প্রয়োগ করবেন।'
 ---
 
-Learn how to apply basic formatting to your notes, using [Markdown](https://daringfireball.net/projects/markdown/). For more advanced formatting syntax, refer to [[Advanced formatting syntax]].
+[Markdown](https://daringfireball.net/projects/markdown/) ব্যবহার করে আপনার নোটে কীভাবে বেসিক ফরম্যাটিং প্রয়োগ করবেন তা জানুন। আরও অ্যাডভান্সড ফরম্যাটিং সিনট্যাক্সের জন্য, [[Advanced formatting syntax]] দেখুন।
 
-## Paragraphs
+## অনুচ্ছেদ
 
-To create paragraphs in Markdown, use a **blank line** to separate blocks of text. Each block of text separated by a blank line is treated as a distinct paragraph.
+Markdown-এ অনুচ্ছেদ তৈরি করতে, টেক্সটের ব্লকগুলো আলাদা করতে একটি **খালি লাইন** ব্যবহার করুন। খালি লাইন দিয়ে আলাদা করা প্রতিটি টেক্সট ব্লককে একটি স্বতন্ত্র অনুচ্ছেদ হিসেবে গণ্য করা হয়।
 
 ```md
 This is a paragraph.
@@ -22,10 +21,10 @@ This is a paragraph.
 
 This is another paragraph.
 
-A blank line between lines of text creates separate paragraphs. This is the default behavior in Markdown.
+টেক্সটের লাইনগুলোর মধ্যে একটি খালি লাইন আলাদা অনুচ্ছেদ তৈরি করে। এটি Markdown-এর ডিফল্ট আচরণ।
 
-> [!tip]- Multiple blank spaces
-> Multiple adjacent blank spaces within and between paragraphs collapse into a single space when displayed in [[Views and editing mode#Reading view|Reading view]] or on [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+> [!tip]- একাধিক খালি স্পেস
+> অনুচ্ছেদের মধ্যে এবং অনুচ্ছেদগুলোর মধ্যে একাধিক পাশাপাশি খালি স্পেস [[Views and editing mode#Reading view|রিডিং ভিউ]]-এ বা [[Introduction to Obsidian Publish|Obsidian Publish]] সাইটে প্রদর্শনের সময় একটি মাত্র স্পেসে সংকুচিত হয়ে যায়।
 > 
 > ```md
 > Multiple          adjacent          spaces
@@ -41,52 +40,52 @@ A blank line between lines of text creates separate paragraphs. This is the defa
 > > 
 > > and multiple newlines between paragraphs.
 > 
-> If you want to prevent spaces from collapsing or add multiple blank spaces, you can use the `&nbsp;` (non-breaking space) or `<br>` (line break) HTML tags.
+> যদি আপনি স্পেসগুলোকে সংকুচিত হওয়া থেকে আটকাতে চান বা একাধিক খালি স্পেস যোগ করতে চান, তাহলে আপনি `&nbsp;` (নন-ব্রেকিং স্পেস) বা `<br>` (লাইন ব্রেক) HTML ট্যাগ ব্যবহার করতে পারেন।
 
-### Line breaks
+### লাইন ব্রেক
 
-By default in Obsidian, pressing `Enter` once will create a new line in your note, but this is treated as a *continuation* of the same paragraph in the rendered output, following typical Markdown behavior. To insert a line break *within* a paragraph without starting a new paragraph, you can either:
+Obsidian-এ ডিফল্টভাবে, একবার `Enter` চাপলে আপনার নোটে একটি নতুন লাইন তৈরি হয়, কিন্তু সাধারণ Markdown আচরণ অনুসরণ করে রেন্ডার করা আউটপুটে এটিকে একই অনুচ্ছেদের *ধারাবাহিকতা* হিসেবে গণ্য করা হয়। কোনো নতুন অনুচ্ছেদ শুরু না করে একটি অনুচ্ছেদের *মধ্যে* লাইন ব্রেক যোগ করতে, আপনি এই দুটির যেকোনো একটি করতে পারেন:
 
-- Add **two spaces** at the end of a line before pressing `Enter`, or
-- Use the shortcut `Shift+Enter` to directly insert a line break.
+- `Enter` চাপার আগে লাইনের শেষে **দুটি স্পেস** যোগ করুন, অথবা
+- সরাসরি লাইন ব্রেক যোগ করতে `Shift+Enter` শর্টকাট ব্যবহার করুন।
 
-> [!question]- Why don't multiple `Enter` presses create more line breaks in reading view?
-> In Markdown, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break. This is how Markdown handles text by default, ensuring that paragraphs flow naturally without unexpected breaks​.
+> [!question]- রিডিং ভিউতে একাধিক `Enter` চাপলে কেন আরও লাইন ব্রেক তৈরি হয় না?
+> Markdown-এ, একটি একক `Enter`-কে উপেক্ষা করা হয়, এবং একাধিক পরপর `Enter` চাপলেও শুধু একটি নতুন অনুচ্ছেদ তৈরি হয়। এই আচরণটি Markdown-এর সফট র‍্যাপ নিয়মের সাথে সামঞ্জস্যপূর্ণ, যেখানে অতিরিক্ত খালি লাইন অতিরিক্ত লাইন ব্রেক বা অনুচ্ছেদ তৈরি করে না—সেগুলো একটি মাত্র অনুচ্ছেদ ব্রেকে সংকুচিত হয়ে যায়। ডিফল্টভাবে Markdown টেক্সট এভাবেই পরিচালনা করে, যাতে অনুচ্ছেদগুলো অপ্রত্যাশিত ব্রেক ছাড়াই স্বাভাবিকভাবে প্রবাহিত হয়।
 
-Obsidian includes a **[[Settings#Strict line breaks|Strict line breaks]]** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
+Obsidian-এ একটি **[[Settings#Strict line breaks|Strict line breaks]]** সেটিং রয়েছে, যা Obsidian-কে লাইন ব্রেকের জন্য স্ট্যান্ডার্ড Markdown স্পেসিফিকেশন অনুসরণ করায়।
 
-To enable this feature:
+এই ফিচারটি সক্রিয় করতে:
 
-1. Open **[[Settings]]**.
-2. Go to the **Editor** tab.
-3. Enable **Strict Line Breaks**.
+1. **[[Settings]]** খুলুন।
+2. **Editor** ট্যাবে যান।
+3. **Strict Line Breaks** সক্রিয় করুন।
 
-When **Strict Line Breaks** is enabled in Obsidian, line breaks have three distinct behaviors depending on how the lines are separated:
+Obsidian-এ যখন **Strict Line Breaks** সক্রিয় থাকে, তখন লাইনগুলো কীভাবে আলাদা করা হয়েছে তার উপর নির্ভর করে লাইন ব্রেকের তিনটি ভিন্ন আচরণ থাকে:
 
-**Single return with no spaces**: A single `Enter` with no trailing spaces will combine the two separate lines into a single line when rendered.
+**কোনো স্পেস ছাড়া একক রিটার্ন**: কোনো ট্রেইলিং স্পেস ছাড়া একটি একক `Enter` রেন্ডার করার সময় দুটি আলাদা লাইনকে একটি লাইনে একত্রিত করে দেয়।
 
 ```md
 line one
 line two
 ```
 
-Renders as:
+রেন্ডার হয়:
 
 line one line two
 
-**Single return with two or more trailing spaces**: If you add two or more spaces at the end of the first line before pressing `Enter`, the two lines remain part of the same paragraph, but are broken by a line break (HTML `<br>` element). We'll use two underscores to stand in for spaces in this example.
+**দুই বা তার বেশি ট্রেইলিং স্পেসসহ একক রিটার্ন**: যদি আপনি `Enter` চাপার আগে প্রথম লাইনের শেষে দুই বা তার বেশি স্পেস যোগ করেন, তাহলে দুটি লাইন একই অনুচ্ছেদের অংশ থেকে যায়, কিন্তু একটি লাইন ব্রেক (HTML `<br>` এলিমেন্ট) দিয়ে বিভক্ত হয়। এই উদাহরণে আমরা স্পেসের প্রতিনিধিত্ব করতে দুটি আন্ডারস্কোর ব্যবহার করব।
 
 ```md
 line three__  
 line four
 ```
 
-Renders as:
+রেন্ডার হয়:
 
 line three<br>
 line four
 
-**Double return (with or without trailing spaces)**: Pressing `Enter` twice (or more) separates the lines into two distinct paragraphs (HTML `<p>` elements), regardless of whether you add spaces at the end of the first line.
+**ডাবল রিটার্ন (ট্রেইলিং স্পেসসহ বা ছাড়া)**: `Enter` দুইবার (বা তার বেশি) চাপলে, প্রথম লাইনের শেষে স্পেস যোগ করা হয়েছে কিনা তা নির্বিশেষে, লাইনগুলো দুটি স্বতন্ত্র অনুচ্ছেদে (HTML `<p>` এলিমেন্ট) বিভক্ত হয়।
 
 ```md
 line five
@@ -94,14 +93,14 @@ line five
 line six
 ```
 
-Renders as:
+রেন্ডার হয়:
 
 <p>line five</p>
 <p>line six</p>
 
-## Headings
+## হেডিং
 
-To create a heading, add up to six `#` symbols before your heading text. The number of `#` symbols sets the level of the heading (as shown in the [[Outline]]).
+একটি হেডিং তৈরি করতে, আপনার হেডিং টেক্সটের আগে সর্বোচ্চ ছয়টি `#` চিহ্ন যোগ করুন। `#` চিহ্নের সংখ্যা হেডিংয়ের লেভেল নির্ধারণ করে ([[Outline|রূপরেখা]]-এ দেখানো হয়েছে)।
 
 ```md
 # This is a heading 1
@@ -120,9 +119,9 @@ To create a heading, add up to six `#` symbols before your heading text. The num
 <h5>This is a heading 5</h5>
 <h6>This is a heading 6</h6>
 
-## Bold, italics, highlights
+## বোল্ড, ইটালিক, হাইলাইট
 
-Text formatting can also be applied using [[Editing shortcuts]].
+[[Editing shortcuts]] ব্যবহার করেও টেক্সট ফরম্যাটিং প্রয়োগ করা যায়।
 
 | Style | Syntax | Example | Output |
 |-|-|-|-|
@@ -133,7 +132,7 @@ Text formatting can also be applied using [[Editing shortcuts]].
 | Bold and nested italic | `** **` and `_ _`  | `**Bold text and _nested italic_ text**` | **Bold text and _nested italic_ text** |
 | Bold and italic | `*** ***` or `___ ___` |  `***Bold and italic text***` | ***Bold and italic text*** |
 
-Formatting can be forced to display in plain text by adding a backslash `\` in front of it.
+ফরম্যাটিংয়ের সামনে একটি ব্যাকস্ল্যাশ `\` যোগ করে সেটিকে প্লেইন টেক্সট হিসেবে দেখানো যায়।
 
 \*\*This line will not be bold\*\*
 
@@ -147,16 +146,16 @@ Formatting can be forced to display in plain text by adding a backslash `\` in f
 \**This line will be italic and show the asterisks*\*
 ```
 
-## Internal links
+## ইন্টার্নাল লিঙ্ক
 
-Obsidian supports two formats for [[internal links]] between notes:
+নোটগুলোর মধ্যে [[internal links|ইন্টার্নাল লিঙ্ক]]-এর জন্য Obsidian দুটি ফরম্যাট সমর্থন করে:
 
 - Wikilink: `[[Three laws of motion]]`
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
-## External links
+## এক্সটার্নাল লিঙ্ক
 
-If you want to link to an external URL, you can create an inline link by surrounding the link text in brackets (`[ ]`), and then the URL in parentheses (`( )`).
+যদি আপনি একটি এক্সটার্নাল URL-এ লিঙ্ক করতে চান, তাহলে আপনি লিঙ্ক টেক্সটকে ব্র্যাকেটে (`[ ]`) মুড়িয়ে এবং তারপর প্যারেনথেসিসে (`( )`) URL রেখে একটি ইনলাইন লিঙ্ক তৈরি করতে পারেন।
 
 ```md
 [Obsidian Help](https://help.obsidian.md)
@@ -164,29 +163,29 @@ If you want to link to an external URL, you can create an inline link by surroun
 
 [Obsidian Help](https://help.obsidian.md)
 
-You can also create external links to files in other vaults, by linking to an [[Obsidian URI|Obsidian URI]].
+আপনি একটি [[Obsidian URI|Obsidian URI]]-তে লিঙ্ক করে অন্য ভল্টের ফাইলেও এক্সটার্নাল লিঙ্ক তৈরি করতে পারেন।
 
 ```md
 [Note](obsidian://open?vault=MainVault&file=Note.md)
 ```
 
-### Escape blank spaces in links
+### লিঙ্কের মধ্যে খালি স্পেস এস্কেপ করা
 
-If your URL contains blank spaces, you must escape them by replacing them with `%20`.
+যদি আপনার URL-এ খালি স্পেস থাকে, তাহলে সেগুলোকে `%20` দিয়ে প্রতিস্থাপন করে এস্কেপ করতে হবে।
 
 ```md
 [My Note](obsidian://open?vault=MainVault&file=My%20Note.md)
 ```
 
-You can also escape the URL by wrapping it with angled brackets (`< >`).
+আপনি অ্যাঙ্গেল ব্র্যাকেট (`< >`) দিয়ে মুড়িয়েও URL এস্কেপ করতে পারেন।
 
 ```md
 [My Note](<obsidian://open?vault=MainVault&file=My Note.md>)
 ```
 
-## External images
+## এক্সটার্নাল ছবি
 
-You can add images with external URLs, by adding a `!` symbol before an [[#External links|external link]].
+একটি [[#External links|এক্সটার্নাল লিঙ্ক]]-এর আগে একটি `!` চিহ্ন যোগ করে আপনি এক্সটার্নাল URL সহ ছবি যোগ করতে পারেন।
 
 ```md
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -194,24 +193,24 @@ You can add images with external URLs, by adding a `!` symbol before an [[#Exter
 
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
-You can change the image dimensions, by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+আপনি লিঙ্কের গন্তব্যে `|640x480` যোগ করে ছবির মাত্রা পরিবর্তন করতে পারেন, যেখানে 640 হলো প্রস্থ এবং 480 হলো উচ্চতা।
 
 ```md
 ![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-If you only specify the width, the image scales according to its original aspect ratio. For example:
+যদি আপনি শুধুমাত্র প্রস্থ উল্লেখ করেন, তাহলে ছবিটি তার মূল অ্যাসপেক্ট রেশিও অনুযায়ী স্কেল হয়। উদাহরণস্বরূপ:
 
 ```md
 ![Engelbart|100](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 ```
 
-> [!tip]- Tip
-> If you want to add an image from inside your vault, you can also [[Embed files#Embed an image in a note|embed an image in a note]].
+> [!tip]- টিপ
+> যদি আপনি আপনার ভল্টের ভেতর থেকে একটি ছবি যোগ করতে চান, তাহলে আপনি [[Embed files#Embed an image in a note|নোটে একটি ছবি এমবেডও]] করতে পারেন।
 
-## Quotes
+## উদ্ধৃতি
 
-You can quote text by adding a `>` symbols before the text.
+টেক্সটের আগে একটি `>` চিহ্ন যোগ করে আপনি টেক্সট উদ্ধৃত করতে পারেন।
 
 ```md
 > Human beings face ever more complex and urgent problems, and their effectiveness in dealing with these problems is a matter that is critical to the stability and continued progress of society.
@@ -223,12 +222,12 @@ You can quote text by adding a `>` symbols before the text.
 
 \- Doug Engelbart, 1961
 
-> [!tip]- Tip
-> You can turn your quote into a [[Callouts|callout]] by adding `[!info]` as the first line in a quote.
+> [!tip]- টিপ
+> উদ্ধৃতির প্রথম লাইনে `[!info]` যোগ করে আপনি আপনার উদ্ধৃতিকে একটি [[Callouts|কলাউটে]] পরিণত করতে পারেন।
 
-## Lists
+## তালিকা
 
-You can create an unordered list by adding a `-`, `*`, or `+` before the text.
+টেক্সটের আগে একটি `-`, `*`, বা `+` যোগ করে আপনি একটি আনঅর্ডার্ড তালিকা তৈরি করতে পারেন।
 
 ```md
 - First list item
@@ -240,7 +239,7 @@ You can create an unordered list by adding a `-`, `*`, or `+` before the text.
 - Second list item
 - Third list item
 
-To create an ordered list, start each line with a number followed by a `.` or `)` symbol.
+একটি অর্ডার্ড তালিকা তৈরি করতে, প্রতিটি লাইন একটি সংখ্যা দিয়ে শুরু করুন, তারপর একটি `.` বা `)` চিহ্ন দিন।
 
 ```md
 1. First list item
@@ -262,7 +261,7 @@ To create an ordered list, start each line with a number followed by a `.` or `)
 2) Second list item
 3) Third list item
 
-You can use `Shift+Enter` to insert a [[#Line breaks|line break]] within an ordered list without altering the numbering.
+একটি অর্ডার্ড তালিকার মধ্যে নম্বরিং পরিবর্তন না করে [[#Line breaks|লাইন ব্রেক]] যোগ করতে আপনি `Shift+Enter` ব্যবহার করতে পারেন।
 
 ```md
 1. First list item
@@ -275,9 +274,9 @@ You can use `Shift+Enter` to insert a [[#Line breaks|line break]] within an orde
 6. Sixth list item
 ```
 
-### Task lists
+### টাস্ক তালিকা
 
-To create a task list, start each list item with a hyphen and space followed by `[ ]`.
+একটি টাস্ক তালিকা তৈরি করতে, প্রতিটি তালিকা আইটেম একটি হাইফেন ও স্পেস দিয়ে শুরু করুন, তারপর `[ ]` দিন।
 
 ```md
 - [x] This is a completed task.
@@ -287,10 +286,10 @@ To create a task list, start each list item with a hyphen and space followed by 
 - [x] This is a completed task.
 - [ ] This is an incomplete task.
 
-You can toggle a task in Reading view by selecting the checkbox.
+আপনি চেকবক্স নির্বাচন করে রিডিং ভিউতে একটি টাস্ক টগল করতে পারেন।
 
-> [!tip]- Tip
-> You can use any character inside the brackets to mark it as complete.
+> [!tip]- টিপ
+> কোনো টাস্ককে সম্পূর্ণ হিসেবে চিহ্নিত করতে আপনি ব্র্যাকেটের ভেতরে যেকোনো অক্ষর ব্যবহার করতে পারেন।
 >
 > ```md
 > - [x] Milk
@@ -302,11 +301,11 @@ You can toggle a task in Reading view by selecting the checkbox.
 > - [?] Eggs
 > - [-] Eggs
 
-### Nesting lists
+### তালিকা নেস্ট করা
 
-You can nest any type of list—ordered, unordered, or task lists—under any other type of list.
+আপনি যেকোনো ধরনের তালিকা—অর্ডার্ড, আনঅর্ডার্ড, বা টাস্ক তালিকা—অন্য যেকোনো ধরনের তালিকার নিচে নেস্ট করতে পারেন।
 
-To create a nested list, indent one or more list items. You can mix list types within a nested structure:
+একটি নেস্টেড তালিকা তৈরি করতে, এক বা একাধিক তালিকা আইটেম ইনডেন্ট করুন। আপনি একটি নেস্টেড কাঠামোর মধ্যে বিভিন্ন ধরনের তালিকা মিশ্রিত করতে পারেন:
 
 ```md
 1. First list item
@@ -320,7 +319,7 @@ To create a nested list, indent one or more list items. You can mix list types w
 2. Second list item
    - Unordered nested list item
 
-Similarly, you can create a nested task list by indenting one or more list items:
+একইভাবে, এক বা একাধিক তালিকা আইটেম ইনডেন্ট করে আপনি একটি নেস্টেড টাস্ক তালিকা তৈরি করতে পারেন:
 
 ```md
 - [ ] Task item 1
@@ -334,11 +333,11 @@ Similarly, you can create a nested task list by indenting one or more list items
 - [ ] Task item 2
 	- [ ] Subtask 1
 
-Use `Tab` or `Shift+Tab` to indent or unindent selected list items to easily organize them.
+নির্বাচিত তালিকা আইটেমগুলো সহজে সাজানোর জন্য ইনডেন্ট বা আনইনডেন্ট করতে `Tab` বা `Shift+Tab` ব্যবহার করুন।
 
-## Horizontal rule
+## অনুভূমিক রেখা
 
-You can use three or more stars `***`, hyphens `---`, or underscore `___` on its own line to add a horizontal bar. You can also separate symbols using spaces.
+একটি অনুভূমিক দণ্ড যোগ করতে আপনি নিজস্ব লাইনে তিন বা তার বেশি তারকা চিহ্ন `***`, হাইফেন `---`, বা আন্ডারস্কোর `___` ব্যবহার করতে পারেন। আপনি স্পেস দিয়ে চিহ্নগুলো আলাদাও করতে পারেন।
 
 ```md
 ***
@@ -354,13 +353,13 @@ _ _ _
 
 ***
 
-## Code
+## কোড
 
-You can format code both inline within a sentence, or in its own block.
+আপনি একটি বাক্যের মধ্যে ইনলাইনভাবে, অথবা নিজস্ব ব্লকে, উভয়ভাবেই কোড ফরম্যাট করতে পারেন।
 
-### Inline code
+### ইনলাইন কোড
 
-You can format code within a sentence using single backticks.
+একক ব্যাকটিক ব্যবহার করে আপনি একটি বাক্যের মধ্যে কোড ফরম্যাট করতে পারেন।
 
 ```md
 Text inside `backticks` on a line will be formatted like code.
@@ -368,11 +367,11 @@ Text inside `backticks` on a line will be formatted like code.
 
 Text inside `backticks` on a line will be formatted like code.
 
-If you want to put backticks in an inline code block, surround it with double backticks like so: inline ``code with a backtick ` inside``.
+যদি আপনি একটি ইনলাইন কোড ব্লকে ব্যাকটিক রাখতে চান, তাহলে এটিকে এভাবে ডাবল ব্যাকটিক দিয়ে ঘিরে দিন: inline ``code with a backtick ` inside``.
 
-### Code blocks
+### কোড ব্লক
 
-To format code as a block, enclose it with three or more backticks or three or more tildes.
+কোডকে একটি ব্লক হিসেবে ফরম্যাট করতে, এটিকে তিন বা তার বেশি ব্যাকটিক বা তিন বা তার বেশি টিল্ডা দিয়ে ঘিরে দিন।
 
 ~~~
 `````
@@ -388,12 +387,12 @@ cd ~/Desktop
 cd ~/Desktop
 `````
 
-You can also create a code block by indenting the text using `Tab` or 4 blank spaces.
+আপনি `Tab` বা 4টি খালি স্পেস দিয়ে টেক্সট ইনডেন্ট করেও একটি কোড ব্লক তৈরি করতে পারেন।
 `````md
     cd ~/Desktop
 `````
 
-You can add syntax highlighting to a code block, by adding a language code after the first set of backticks.
+প্রথম সেট ব্যাকটিকের পরে একটি ল্যাঙ্গুয়েজ কোড যোগ করে আপনি একটি কোড ব্লকে সিনট্যাক্স হাইলাইটিং যোগ করতে পারেন।
 
 ~~~md
 `````js
@@ -412,16 +411,16 @@ function fancyAlert(arg) {
 }
 `````
 
-Obsidian uses Prism for syntax highlighting. For more information, refer to [Supported languages](https://prismjs.com/#supported-languages).
+সিনট্যাক্স হাইলাইটিংয়ের জন্য Obsidian Prism ব্যবহার করে। আরও তথ্যের জন্য, [Supported languages](https://prismjs.com/#supported-languages) দেখুন।
 
-> [!info]+ PrismJS and editing views
-> [[Views and editing mode#Source mode|Source mode]] and [[Views and editing mode#Live Preview|Live Preview]] do not support PrismJS, and may render syntax highlighting differently.
+> [!info]+ PrismJS এবং এডিটিং ভিউ
+> [[Views and editing mode#Source mode|সোর্স মোড]] এবং [[Views and editing mode#Live Preview|লাইভ প্রিভিউ]] PrismJS সমর্থন করে না, এবং সিনট্যাক্স হাইলাইটিং ভিন্নভাবে রেন্ডার করতে পারে।
 
-#### Nesting code blocks
+#### কোড ব্লক নেস্ট করা
 
-When you need to include a code block inside another code block (for example, when documenting how to use code blocks), you can use more than three backticks or tildes for the outer code block.
+যখন আপনার একটি কোড ব্লকের ভেতরে আরেকটি কোড ব্লক অন্তর্ভুক্ত করার প্রয়োজন হয় (উদাহরণস্বরূপ, কোড ব্লক কীভাবে ব্যবহার করতে হয় তা ডকুমেন্ট করার সময়), তখন আপনি বাইরের কোড ব্লকের জন্য তিনটির বেশি ব্যাকটিক বা টিল্ডা ব্যবহার করতে পারেন।
 
-To nest code blocks, use four or more backticks (or tildes) for the outer block, while the inner block uses three:
+কোড ব্লক নেস্ট করতে, বাইরের ব্লকের জন্য চার বা তার বেশি ব্যাকটিক (বা টিল্ডা) ব্যবহার করুন, আর ভেতরের ব্লকে তিনটি ব্যবহার করুন:
 `````md
 ````md
 Here's how to create a code block:
@@ -431,7 +430,7 @@ console.log("Hello world")
 ````
 `````
 
-You can also mix backticks and tildes. This is particularly useful when working with code that generates other code blocks:
+আপনি ব্যাকটিক এবং টিল্ডা মিশিয়েও ব্যবহার করতে পারেন। এটি বিশেষভাবে কার্যকর যখন আপনি এমন কোড নিয়ে কাজ করেন যা অন্য কোড ব্লক তৈরি করে:
 `````md
 ````md
 ```dataviewjs
@@ -445,11 +444,11 @@ graph TD
 ````
 `````
 
-The key principle is that the outer code block must use **more** fence characters (backticks or tildes) than any inner code block, or use a different fence character type.
+মূল নীতিটি হলো বাইরের কোড ব্লকে ভেতরের যেকোনো কোড ব্লকের চেয়ে **বেশি** ফেন্স অক্ষর (ব্যাকটিক বা টিল্ডা) থাকতে হবে, অথবা ভিন্ন ধরনের ফেন্স অক্ষর ব্যবহার করতে হবে।
 
-## Footnotes
+## ফুটনোট
 
-You can add footnotes[^footnote] to your notes using the following syntax:
+আপনি নিচের সিনট্যাক্স ব্যবহার করে আপনার নোটে ফুটনোট[^footnote] যোগ করতে পারেন:
 
 [^footnote]: This is a footnote.
 
@@ -462,20 +461,20 @@ This is a simple footnote[^1].
 [^note]: Named footnotes still appear as numbers, but can make it easier to identify and link references.
 ```
 
-You can also inline footnotes in a sentence. Note that the caret goes outside the brackets.
+আপনি একটি বাক্যে ফুটনোটও ইনলাইনভাবে যোগ করতে পারেন। লক্ষ্য করুন, ক্যারেট চিহ্নটি ব্র্যাকেটের বাইরে থাকে।
 
 ```md
 You can also use inline footnotes. ^[This is an inline footnote.]
 ```
 
-> [!note] Note
-> Inline footnotes only work in reading view, not in Live Preview.
+> [!note] নোট
+> ইনলাইন ফুটনোট শুধুমাত্র রিডিং ভিউতে কাজ করে, লাইভ প্রিভিউতে নয়।
 
-Use the [[Footnotes view]] to see all footnotes in a note.
+একটি নোটের সমস্ত ফুটনোট দেখতে [[Footnotes view]] ব্যবহার করুন।
 
-## Comments
+## কমেন্ট
 
-You can add comments by wrapping text with `%%`. Comments are only visible in Editing view.
+আপনি টেক্সটকে `%%` দিয়ে মুড়িয়ে কমেন্ট যোগ করতে পারেন। কমেন্ট শুধুমাত্র এডিটিং ভিউতে দৃশ্যমান হয়।
 
 ```md
 This is an %%inline%% comment.
@@ -487,18 +486,18 @@ Block comments can span multiple lines.
 %%
 ```
 
-## Escaping Markdown Syntax
+## Markdown সিনট্যাক্স এস্কেপ করা
 
-In some cases, you may need to display special characters in Markdown, such as `*`, `_`, or `#`, without triggering their formatting. To display these characters literally, place a backslash (`\`) before them.
+কিছু ক্ষেত্রে, আপনার হয়তো Markdown-এ বিশেষ অক্ষর প্রদর্শন করার প্রয়োজন হতে পারে, যেমন `*`, `_`, বা `#`, তাদের ফরম্যাটিং ট্রিগার না করে। এই অক্ষরগুলো আক্ষরিক অর্থে প্রদর্শন করতে, তাদের আগে একটি ব্যাকস্ল্যাশ (`\`) রাখুন।
 
-> [!example] Common characters to escape
+> [!example] এস্কেপ করার সাধারণ অক্ষর
 > 
-> - Asterisk: `\*`
-> - Underscore: `\_`
-> - Hashtag: `\#`
-> - Backtick: `` \` ``
-> - Pipe (used in tables): `\|`
-> - Tilde: `\~`
+> - Asterisk: `\*`
+> - Underscore: `\_`
+> - Hashtag: `\#`
+> - Backtick: `` \` ``
+> - Pipe (used in tables): `\|`
+> - Tilde: `\~`
 
 ```md
 \*This text will not be italicized\*.
@@ -506,7 +505,7 @@ In some cases, you may need to display special characters in Markdown, such as 
 
 \*This text will not be italicized\*.
 
-When working with numbered lists, you may need to escape the period after the number to prevent automatic list formatting. Place the backslash (`\`) before the period, **not** before the number.
+সংখ্যাযুক্ত তালিকা নিয়ে কাজ করার সময়, স্বয়ংক্রিয় তালিকা ফরম্যাটিং এড়াতে আপনার সংখ্যার পরে পিরিয়ড এস্কেপ করার প্রয়োজন হতে পারে। ব্যাকস্ল্যাশ (`\`) সংখ্যার **আগে নয়**, পিরিয়ডের আগে রাখুন।
 
 ```md
 1\. This won't be a list item.
@@ -514,8 +513,8 @@ When working with numbered lists, you may need to escape the period after the nu
 
 1\. This won't be a list item.
 
-## Learn more
+## আরও জানুন
 
-To learn more advanced formatting syntax, such as tables, diagrams, and math expressions, refer to [[Advanced formatting syntax]].
+টেবিল, ডায়াগ্রাম, এবং গাণিতিক এক্সপ্রেশনের মতো আরও অ্যাডভান্সড ফরম্যাটিং সিনট্যাক্স সম্পর্কে জানতে, [[Advanced formatting syntax]] দেখুন।
 
-To learn more about how Obsidian parses Markdown, refer to [[Obsidian Flavored Markdown]].
+Obsidian কীভাবে Markdown পার্স করে সে সম্পর্কে আরও জানতে, [[Obsidian Flavored Markdown]] দেখুন।

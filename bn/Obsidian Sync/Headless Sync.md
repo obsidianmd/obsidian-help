@@ -1,122 +1,121 @@
 ---
-localized: null
 permalink: sync/headless
 cssclasses:
   - reference
-description: 'Obsidian Sync offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.'
+description: 'Obsidian Sync ডেস্কটপ অ্যাপ ব্যবহার না করেই ভল্ট সিঙ্ক করার জন্য একটি হেডলেস ক্লায়েন্ট প্রদান করে। CI পাইপলাইন, এজেন্ট এবং স্বয়ংক্রিয় ওয়ার্কফ্লোর জন্য উপযোগী। সর্বশেষ পরিবর্তনগুলো সিঙ্ক করুন অথবা ফাইলগুলো ক্রমাগত আপ টু ডেট রাখুন।'
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] offers a headless client to sync vaults without using the desktop app. Useful for CI pipelines, agents, and automated workflows. Sync the latest changes or keep files continuously up to date.
+[[Introduction to Obsidian Sync|Obsidian Sync]] ডেস্কটপ অ্যাপ ব্যবহার না করেই ভল্ট সিঙ্ক করার জন্য একটি হেডলেস ক্লায়েন্ট প্রদান করে। CI পাইপলাইন, এজেন্ট এবং স্বয়ংক্রিয় ওয়ার্কফ্লোর জন্য উপযোগী। সর্বশেষ পরিবর্তনগুলো সিঙ্ক করুন অথবা ফাইলগুলো ক্রমাগত আপ টু ডেট রাখুন।
 
-Install [[Obsidian Headless]] **(open beta)** to interact with [[Introduction to Obsidian Sync|Obsidian Sync]] from the command line without the Obsidian desktop app. Headless Sync uses the same [[Security and privacy|encryption and privacy protections]] as the desktop app, including end-to-end encryption.
+Obsidian ডেস্কটপ অ্যাপ ছাড়াই কমান্ড লাইন থেকে [[Introduction to Obsidian Sync|Obsidian Sync]]-এর সাথে ইন্টারঅ্যাক্ট করতে [[Obsidian Headless]] **(ওপেন বিটা)** ইনস্টল করুন। Headless Sync ডেস্কটপ অ্যাপের মতোই একই [[Security and privacy|এনক্রিপশন এবং প্রাইভেসি সুরক্ষা]] ব্যবহার করে, এন্ড-টু-এন্ড এনক্রিপশন সহ।
 
-## Quick start
+## দ্রুত শুরু
 
-> [!error] Back up your data before you start
-> 1. Always back up your data before you start in case anything unexpected happens.
-> 2. Do not use *both* the desktop app Sync and Headless Sync on the same device, as it can cause data conflicts. Only use one sync method per device.
+> [!error] শুরু করার আগে আপনার ডেটা ব্যাকআপ করুন
+> 1. অপ্রত্যাশিত কিছু ঘটলে সেই ক্ষেত্রে শুরু করার আগে সবসময় আপনার ডেটা ব্যাকআপ করুন।
+> 2. একই ডিভাইসে ডেস্কটপ অ্যাপ Sync এবং Headless Sync *উভয়ই* একসাথে ব্যবহার করবেন না, কারণ এতে ডেটা কনফ্লিক্ট হতে পারে। প্রতি ডিভাইসে শুধুমাত্র একটি সিঙ্ক পদ্ধতি ব্যবহার করুন।
 
-Install [[Obsidian Headless|Obsidian Headless]] **(open beta)**:
+[[Obsidian Headless|Obsidian Headless]] **(ওপেন বিটা)** ইনস্টল করুন:
 
 ```shell
 npm install -g obsidian-headless
 ```
 
-You must have an active [[Plans and storage limits|Obsidian Sync subscription]].
+আপনার একটি সক্রিয় [[Plans and storage limits|Obsidian Sync সাবস্ক্রিপশন]] থাকতে হবে।
 
 ```shell
-# Login
+# লগইন
 ob login
 
-# List your remote vaults
+# আপনার রিমোট ভল্টের তালিকা দেখুন
 ob sync-list-remote
 
-# Set up a vault for syncing
+# সিঙ্কিংয়ের জন্য একটি ভল্ট সেটআপ করুন
 cd ~/vaults/my-vault
 ob sync-setup --vault "My Vault"
 
-# Run a one-time sync
+# একটি এককালীন সিঙ্ক চালান
 ob sync
 
-# Run continuous sync (watches for changes)
+# ক্রমাগত সিঙ্ক চালান (পরিবর্তনের জন্য নজর রাখে)
 ob sync --continuous
 ```
 
-## Commands
+## কমান্ড
 
 ### `ob sync-list-remote`
 
-List all remote vaults available to your account, including shared vaults.
+শেয়ার্ড ভল্ট সহ, আপনার অ্যাকাউন্টের কাছে উপলব্ধ সব রিমোট ভল্টের তালিকা দেখান।
 
 ### `ob sync-list-local`
 
-List locally configured vaults and their paths.
+স্থানীয়ভাবে কনফিগার করা ভল্ট এবং তাদের পাথের তালিকা দেখান।
 
 ### `ob sync-create-remote`
 
-Create a new remote vault.
+একটি নতুন রিমোট ভল্ট তৈরি করুন।
 
 ```
 ob sync-create-remote --name "Vault Name" [--encryption <standard|e2ee>] [--password <password>] [--region <region>]
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--name` | Vault name (required) |
-| `--encryption` | `standard` for managed encryption, `e2ee` for end-to-end encryption |
-| `--password` | End-to-end encryption password (prompted if omitted) |
-| `--region` | Server [[Sync regions\|region]] (automatic if omitted) |
+| `--name` | ভল্টের নাম (আবশ্যক) |
+| `--encryption` | ম্যানেজড এনক্রিপশনের জন্য `standard`, এন্ড-টু-এন্ড এনক্রিপশনের জন্য `e2ee` |
+| `--password` | এন্ড-টু-এন্ড এনক্রিপশন পাসওয়ার্ড (বাদ দিলে জিজ্ঞাসা করা হবে) |
+| `--region` | সার্ভার [[Sync regions\|অঞ্চল]] (বাদ দিলে স্বয়ংক্রিয়) |
 
 ### `ob sync-setup`
 
-Set up sync between a local vault and a remote vault.
+একটি লোকাল ভল্ট এবং একটি রিমোট ভল্টের মধ্যে সিঙ্ক সেটআপ করুন।
 
 ```
 ob sync-setup --vault <id-or-name> [--path <local-path>] [--password <password>] [--device-name <name>] [--config-dir <name>]
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--vault` | Remote vault ID or name (required) |
-| `--path` | Local directory (default: current directory) |
-| `--password` | E2E encryption password (prompted if omitted) |
-| `--device-name` | Device name shown in [[Version history\|sync version history]] |
-| `--config-dir` | [[Configuration folder\|Config directory]] name (default: `.obsidian`) |
+| `--vault` | রিমোট ভল্টের আইডি বা নাম (আবশ্যক) |
+| `--path` | লোকাল ডিরেক্টরি (ডিফল্ট: বর্তমান ডিরেক্টরি) |
+| `--password` | E2E এনক্রিপশন পাসওয়ার্ড (বাদ দিলে জিজ্ঞাসা করা হবে) |
+| `--device-name` | [[Version history\|সিঙ্ক ভার্সন ইতিহাসে]] প্রদর্শিত ডিভাইসের নাম |
+| `--config-dir` | [[Configuration folder\|কনফিগ ডিরেক্টরি]]-এর নাম (ডিফল্ট: `.obsidian`) |
 
 ### `ob sync`
 
-Run sync for a configured vault.
+একটি কনফিগার করা ভল্টের জন্য সিঙ্ক চালান।
 
 ```
 ob sync [--path <local-path>] [--continuous]
 ```
 
-| Option | Description |
+| অপশন | বিবরণ |
 | --- | --- |
-| `--path` | Local vault path (default: current directory) |
-| `--continuous` | Run continuously, watching for changes |
+| `--path` | লোকাল ভল্টের পাথ (ডিফল্ট: বর্তমান ডিরেক্টরি) |
+| `--continuous` | ক্রমাগত চালান, পরিবর্তনের জন্য নজর রাখুন |
 
 ### `ob sync-config`
 
-View or change [[Sync settings and selective syncing|sync settings]] for a vault. Run with no options to display the current configuration.
+একটি ভল্টের জন্য [[Sync settings and selective syncing|সিঙ্ক সেটিংস]] দেখুন বা পরিবর্তন করুন। বর্তমান কনফিগারেশন প্রদর্শনের জন্য কোনো অপশন ছাড়াই চালান।
 
 ```
 ob sync-config [--path <local-path>] [options]
 ```
 
-| Option                | Description                                                                                                                                                                                                    |
+| অপশন                | বিবরণ                                                                                                                                                                                                    |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--path`              | Local vault path (default: current directory)                                                                                                                                                                  |
-| `--mode`              | Sync mode: `bidirectional` (default), `pull-only` (only download, ignore local changes), or `mirror-remote` (only download, revert local changes)                                                              |
-| `--conflict-strategy` | `merge` or `conflict`                                                                                                                                                                                          |
-| `--file-types`        | Attachment types to sync: `image`, `audio`, `video`, `pdf`, `unsupported` (comma-separated, empty to clear)                                                                                                    |
-| `--configs`           | Config categories to sync: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (comma-separated, empty to disable config syncing) |
-| `--excluded-folders`  | Folders to exclude (comma-separated, empty to clear)                                                                                                                                                           |
-| `--device-name`       | Device name to identify this client in the sync version history                                                                                                                                                |
-| `--config-dir`        | Config directory name (default: `.obsidian`)                                                                                                                                                                   |
+| `--path`              | লোকাল ভল্টের পাথ (ডিফল্ট: বর্তমান ডিরেক্টরি)                                                                                                                                                                  |
+| `--mode`              | সিঙ্ক মোড: `bidirectional` (ডিফল্ট), `pull-only` (শুধুমাত্র ডাউনলোড করে, লোকাল পরিবর্তন উপেক্ষা করে), অথবা `mirror-remote` (শুধুমাত্র ডাউনলোড করে, লোকাল পরিবর্তন ফিরিয়ে দেয়)                              |
+| `--conflict-strategy` | `merge` অথবা `conflict`                                                                                                                                                                                          |
+| `--file-types`        | সিঙ্ক করার জন্য অ্যাটাচমেন্টের ধরন: `image`, `audio`, `video`, `pdf`, `unsupported` (কমা দিয়ে আলাদা করা, খালি রাখলে ক্লিয়ার হবে)                                                                                                                    |
+| `--configs`           | সিঙ্ক করার জন্য কনফিগ ক্যাটাগরি: `app`, `appearance`, `appearance-data`, `hotkey`, `core-plugin`, `core-plugin-data`, `community-plugin`, `community-plugin-data` (কমা দিয়ে আলাদা করা, কনফিগ সিঙ্কিং নিষ্ক্রিয় করতে খালি রাখুন) |
+| `--excluded-folders`  | বাদ দেওয়ার জন্য ফোল্ডার (কমা দিয়ে আলাদা করা, খালি রাখলে ক্লিয়ার হবে)                                                                                                                           |
+| `--device-name`       | সিঙ্ক ভার্সন ইতিহাসে এই ক্লায়েন্টটি শনাক্ত করার জন্য ডিভাইসের নাম                                                                                                                                                |
+| `--config-dir`        | কনফিগ ডিরেক্টরির নাম (ডিফল্ট: `.obsidian`)                                                                                                                                                                   |
 
 ### `ob sync-status`
 
-Show sync status and configuration for a vault.
+একটি ভল্টের সিঙ্ক স্ট্যাটাস এবং কনফিগারেশন দেখান।
 
 ```
 ob sync-status [--path <local-path>]
@@ -124,21 +123,21 @@ ob sync-status [--path <local-path>]
 
 ### `ob sync-unlink`
 
-Disconnect a vault from sync and remove stored credentials.
+সিঙ্ক থেকে একটি ভল্টের সংযোগ বিচ্ছিন্ন করুন এবং সংরক্ষিত ক্রেডেনশিয়াল সরিয়ে ফেলুন।
 
 ```
 ob sync-unlink [--path <local-path>]
 ```
 
-## Native modules
+## নেটিভ মডিউল
 
-Obsidian Headless includes a prebuilt native addon for setting file creation time (birthtime) on Windows and macOS. This preserves original creation timestamps when downloading files from the server.
+Obsidian Headless-এ Windows এবং macOS-এ ফাইল তৈরির সময় (birthtime) সেট করার জন্য একটি প্রি-বিল্ট নেটিভ অ্যাডঅন অন্তর্ভুক্ত রয়েছে। এটি সার্ভার থেকে ফাইল ডাউনলোড করার সময় মূল তৈরির টাইমস্ট্যাম্প সংরক্ষণ করে।
 
-The addon targets N-API version 3, so the compiled binaries are ABI-stable and work across Node.js versions without recompilation.
+অ্যাডঅনটি N-API ভার্সন 3-কে লক্ষ্য করে তৈরি করা, তাই কম্পাইল করা বাইনারিগুলো ABI-স্থিতিশীল এবং পুনরায় কম্পাইল না করেই Node.js-এর বিভিন্ন ভার্সন জুড়ে কাজ করে।
 
-On Linux, birthtime is not supported — the addon is not included and sync operates normally without it.
+Linux-এ, birthtime সমর্থিত নয় — অ্যাডঅনটি অন্তর্ভুক্ত করা হয় না এবং এটি ছাড়াই সিঙ্ক স্বাভাবিকভাবে কাজ করে।
 
-Prebuilt binaries are included for:
+নিম্নলিখিতগুলোর জন্য প্রি-বিল্ট বাইনারি অন্তর্ভুক্ত রয়েছে:
 
 - `win32-x64`
 - `win32-arm64`

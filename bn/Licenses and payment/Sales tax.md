@@ -1,35 +1,34 @@
 ---
-localized: null
 permalink: sales-tax
 ---
-In some jurisdictions, Obsidian is required to collect sales taxes on behalf of customers purchasing software licenses and services. Sales taxes may apply to [[Commercial license|Commercial licenses]], [[Introduction to Obsidian Sync|Obsidian Sync]], and [[Introduction to Obsidian Publish|Obsidian Publish]]. Sales taxes generally do not apply to [[Obsidian Credit]] and [[Catalyst license|Catalyst]] though exceptions do apply.
+কিছু কিছু এখতিয়ারে, সফটওয়্যার লাইসেন্স এবং সেবা কেনা গ্রাহকদের পক্ষ থেকে Obsidian-কে সেলস ট্যাক্স সংগ্রহ করতে হয়। সেলস ট্যাক্স [[Commercial license|Commercial লাইসেন্স]], [[Introduction to Obsidian Sync|Obsidian Sync]], এবং [[Introduction to Obsidian Publish|Obsidian Publish]]-এর ক্ষেত্রে প্রযোজ্য হতে পারে। সেলস ট্যাক্স সাধারণত [[Obsidian Credit]] এবং [[Catalyst license|Catalyst]]-এর ক্ষেত্রে প্রযোজ্য হয় না, যদিও ব্যতিক্রম প্রযোজ্য হতে পারে।
 
-To determine the taxes applied to your purchase, we use the country and postal code you provide at checkout or in the Billing section of your dashboard. This information is stored on your account so that we can accurately charge sales tax if there is a change in tax law or other requirements that obligate us to do so.
+আপনার ক্রয়ের ক্ষেত্রে কী কর প্রযোজ্য তা নির্ধারণ করতে, আমরা চেকআউটে বা আপনার ড্যাশবোর্ডের Billing বিভাগে আপনার দেওয়া দেশ এবং পোস্টাল কোড ব্যবহার করি। এই তথ্য আপনার অ্যাকাউন্টে সংরক্ষিত থাকে, যাতে কর আইন বা অন্যান্য প্রয়োজনীয়তায় কোনো পরিবর্তন হলে আমরা সঠিকভাবে সেলস ট্যাক্স চার্জ করতে পারি।
 
-## Tax exemption
+## কর অব্যাহতি
 
-Depending on your country and status, you may be exempt from taxes by submitting your Tax Identification Number (TIN), VAT Number, VAT ID, or tax exemption certificate.
+আপনার দেশ ও অবস্থার উপর নির্ভর করে, আপনার ট্যাক্স আইডেন্টিফিকেশন নম্বর (TIN), VAT নম্বর, VAT ID, অথবা কর অব্যাহতি সনদ জমা দিয়ে আপনি করের ক্ষেত্রে অব্যাহতি পেতে পারেন।
 
-You can apply for a tax exemption via the Billing section of your [Account dashboard](https://obsidian.md/account/billing). If your application is approved, future purchases will not be charged taxes.
+আপনি আপনার [অ্যাকাউন্ট ড্যাশবোর্ডের](https://obsidian.md/account/billing) Billing বিভাগের মাধ্যমে কর অব্যাহতির জন্য আবেদন করতে পারেন। আপনার আবেদন অনুমোদিত হলে, ভবিষ্যতের ক্রয়ে কোনো কর চার্জ করা হবে না।
 
-### Applying for an exemption
+### অব্যাহতির জন্য আবেদন করা
 
-1. Log into your [Obsidian account](https://obsidian.md/account/billing).
-2. Navigate to the [Billing](https://obsidian.md/account/billing) section.
-3. To the right of _Tax Exemption_, select the **Manage** button.
-4. In the pop-up window:
-    1. Enter your country.
-    2. Enter your postal code, if applicable.
+1. আপনার [Obsidian অ্যাকাউন্টে](https://obsidian.md/account/billing) লগ ইন করুন।
+2. [Billing](https://obsidian.md/account/billing) বিভাগে যান।
+3. _Tax Exemption_-এর ডান পাশে, **Manage** বোতাম নির্বাচন করুন।
+4. পপ-আপ উইন্ডোতে:
+    1. আপনার দেশ লিখুন।
+    2. প্রযোজ্য হলে, আপনার পোস্টাল কোড লিখুন।
 
-Depending on your country, you may be required to submit a VAT number, or tax exemption certificate.
+আপনার দেশের উপর নির্ভর করে, আপনাকে একটি VAT নম্বর বা কর অব্যাহতি সনদ জমা দিতে হতে পারে।
 
-- VAT number
-	- Enter your VAT number and select **Save** to submit your application.
-- Tax exemption certificate
-	1. Under _Tax exemption certificate_, select the **Browse** button to choose your sales tax exemption certificate from your device. Ensure the file is in `.pdf` format and is less than 3 MB.
-	2. After choosing the file, select **Upload** to submit your application.
+- VAT নম্বর
+	- আপনার VAT নম্বর লিখুন এবং আপনার আবেদন জমা দিতে **Save** নির্বাচন করুন।
+- কর অব্যাহতি সনদ
+	1. _Tax exemption certificate_-এর অধীনে, আপনার ডিভাইস থেকে আপনার সেলস ট্যাক্স অব্যাহতি সনদ নির্বাচন করতে **Browse** বোতাম নির্বাচন করুন। নিশ্চিত করুন যে ফাইলটি `.pdf` ফরম্যাটে এবং ৩ MB-এর কম আকারের।
+	2. ফাইলটি নির্বাচন করার পর, আপনার আবেদন জমা দিতে **Upload** নির্বাচন করুন।
 
-The verification process may be instantaneous depending on your location. Once approved, future purchases will not be charged taxes.
+আপনার অবস্থানের উপর নির্ভর করে যাচাইকরণ প্রক্রিয়া তাৎক্ষণিক হতে পারে। অনুমোদিত হয়ে গেলে, ভবিষ্যতের ক্রয়ে কোনো কর চার্জ করা হবে না।
 
-> [!note] Note: applying for a tax exemption will also update your billing address to the postal code you chose.
+> [!note] নোট: কর অব্যাহতির জন্য আবেদন করলে আপনার বিলিং ঠিকানাও আপনি নির্বাচিত পোস্টাল কোডে হালনাগাদ হয়ে যাবে।
 

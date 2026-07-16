@@ -1,55 +1,54 @@
 ---
-localized: null
 permalink: sync/collaborate
 publish: true
 mobile: true
-description: This page details how you can collaborate with other Obsidian Sync users.
+description: এই পৃষ্ঠায় বর্ণনা করা হয়েছে কীভাবে আপনি অন্যান্য Obsidian Sync ব্যবহারকারীদের সাথে সহযোগিতা করতে পারেন।
 ---
-With [[Introduction to Obsidian Sync|Obsidian Sync]] you can collaborate on a shared vault with your team.
+[[Introduction to Obsidian Sync|Obsidian Sync]]-এর মাধ্যমে আপনি আপনার টিমের সাথে একটি শেয়ার্ড ভল্টে সহযোগিতা করতে পারেন।
 
-All collaborators must have an active Sync subscription to access a shared vault. Joining a shared vault does not count towards your [[Frequently asked questions#How many remote vaults can I have?|vault limit]].
+একটি শেয়ার্ড ভল্ট ব্যবহার করতে সব সহযোগীর একটি সক্রিয় Sync সাবস্ক্রিপশন থাকা আবশ্যক। শেয়ার্ড ভল্টে যোগদান করা আপনার [[Frequently asked questions#How many remote vaults can I have?|ভল্ট সীমার]] মধ্যে গণনা করা হয় না।
 
-If the remote vault is [[Obsidian Sync/Security and privacy|end-to-end encrypted]], collaborators must enter the encryption password when they set up the vault.
+রিমোট ভল্টটি যদি [[Obsidian Sync/Security and privacy|এন্ড-টু-এন্ড এনক্রিপ্টেড]] হয়, তাহলে সহযোগীদের ভল্ট সেটআপ করার সময় এনক্রিপশন পাসওয়ার্ড লিখতে হবে।
 
-## Manage users
+## ব্যবহারকারী পরিচালনা করুন
 
-### Add users
+### ব্যবহারকারী যুক্ত করুন
 
-To invite a user to share a remote vault:
+একটি শেয়ার্ড রিমোট ভল্টে একজন ব্যবহারকারীকে আমন্ত্রণ জানাতে:
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the remote vault you want to share, select **Manage sharing** ![[lucide-users.svg#icon]].
-5. In **Invite user**, enter the email of the user you want to invite.
-6. Select **Add**.
+1. **[[Settings]]** খুলুন।
+2. সাইড মেনুতে, **Sync** নির্বাচন করুন।
+3. **Remote vault**-এর পাশে, **Manage** নির্বাচন করুন।
+4. আপনি যে রিমোট ভল্টটি শেয়ার করতে চান তার পাশে, **Manage sharing** ![[lucide-users.svg#icon]] নির্বাচন করুন।
+5. **Invite user**-এ, আপনি যে ব্যবহারকারীকে আমন্ত্রণ জানাতে চান তার ইমেইল লিখুন।
+6. **Add** নির্বাচন করুন।
 
-### Remove users
+### ব্যবহারকারী সরান
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Sync**.
-3. Next to **Remote vault**, select **Manage**.
-4. Next to the user you want to remove access from, select **Remove user** ![[lucide-x.svg#icon]].
+1. **[[Settings]]** খুলুন।
+2. সাইড মেনুতে, **Sync** নির্বাচন করুন।
+3. **Remote vault**-এর পাশে, **Manage** নির্বাচন করুন।
+4. আপনি যে ব্যবহারকারীর অ্যাক্সেস সরাতে চান তার পাশে, **Remove user** ![[lucide-x.svg#icon]] নির্বাচন করুন।
 
-## Collaborate with your team
+## আপনার টিমের সাথে সহযোগিতা করুন
 
-### Permissions
+### পারমিশন
 
-Fine-grained permissions are not supported yet. All collaborators receive the same permissions as the vault owner, with one exception: only the vault owner can invite collaborators.
+সূক্ষ্ম-স্তরের পারমিশন এখনও সমর্থিত নয়। সব সহযোগী ভল্টের মালিকের সমান পারমিশন পান, একটি ব্যতিক্রম বাদে: শুধুমাত্র ভল্টের মালিক সহযোগীদের আমন্ত্রণ জানাতে পারেন।
 
-### Live editing
+### লাইভ এডিটিং
 
-Shared vaults allow teams to work together on a set of files, however Obsidian does not yet support collaborative live editing on the same file. You will not see the other user's cursor, and their edits will only appear once the changes are synced.
+শেয়ার্ড ভল্ট টিমগুলোকে একসাথে ফাইলের একটি সেট নিয়ে কাজ করতে দেয়, তবে Obsidian এখনও একই ফাইলে সহযোগিতামূলক লাইভ এডিটিং সমর্থন করে না। আপনি অন্য ব্যবহারকারীর কার্সার দেখতে পাবেন না, এবং তাদের এডিট শুধুমাত্র পরিবর্তন সিঙ্ক হওয়ার পরেই দেখা যাবে।
 
-If multiple users are editing the same file at the same time, [[Troubleshoot Obsidian Sync#Conflict resolution|changes will be merged]] during the syncing process. Changes can be viewed and restored using [[Version history]].
+একাধিক ব্যবহারকারী যদি একই সময়ে একই ফাইল এডিট করেন, তাহলে সিঙ্কিং প্রক্রিয়ার সময় [[Troubleshoot Obsidian Sync#Conflict resolution|পরিবর্তনগুলো মার্জ করা হবে]]। [[Version history]] ব্যবহার করে পরিবর্তনগুলো দেখা এবং পুনরুদ্ধার করা যায়।
 
 ![[version-history-collaboration.png]]^version-history-image
 
-## Limitations
+## সীমাবদ্ধতা
 
-Be aware that Obsidian Sync has [[Frequently asked questions|Limitations]] that may affect your team:
+মনে রাখবেন Obsidian Sync-এর [[Frequently asked questions|সীমাবদ্ধতা]] রয়েছে যা আপনার টিমকে প্রভাবিত করতে পারে:
 
-- The maximum number of collaborators on a shared vault is 20 users.
-- The maximum file size for attachments depends on the [[Plans and storage limits|plan]] of your remote vault host, with 5 MB for the Standard Plan and 200 MB for the Plus Plan.
+- একটি শেয়ার্ড ভল্টে সর্বোচ্চ ২০ জন সহযোগী থাকতে পারেন।
+- অ্যাটাচমেন্টের সর্বোচ্চ ফাইলের আকার আপনার রিমোট ভল্ট হোস্টের [[Plans and storage limits|প্ল্যানের]] উপর নির্ভর করে, স্ট্যান্ডার্ড প্ল্যানের জন্য ৫ MB এবং প্লাস প্ল্যানের জন্য ২০০ MB।
 
-Learn more about [[Syncing for teams]].
+আরও জানুন [[Syncing for teams]] সম্পর্কে।

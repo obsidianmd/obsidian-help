@@ -1,11 +1,10 @@
 ---
-localized: null
 permalink: multiple-cursors
 ---
-Obsidian lets you edit text in multiple places at the same time using multiple cursors. You can add additional cursors by holding `Alt` (or `Option` on macOS) and selecting another position in the note.
+Obsidian আপনাকে একাধিক কার্সর ব্যবহার করে একই সময়ে একাধিক জায়গায় টেক্সট সম্পাদনা করতে দেয়। আপনি `Alt` (macOS-এ `Option`) চেপে ধরে নোটের অন্য একটি অবস্থান নির্বাচন করে অতিরিক্ত কার্সর যোগ করতে পারেন।
 
-To remove a selection along with all additional cursors, click anywhere in the note without holding a key. You can also remove the selection by pressing `Escape`.
+সব অতিরিক্ত কার্সরসহ একটি নির্বাচন সরাতে, কোনো কী চেপে না ধরে নোটের যেকোনো জায়গায় ক্লিক করুন। আপনি `Escape` চেপেও নির্বাচন সরাতে পারেন।
 
-## Rectangular selection
+## আয়তাকার নির্বাচন
 
-If you want to edit consecutive lines of text—for example, to turn paragraphs into list items—you can hold `Shift+Alt` (or `Shift+Option` on macOS) while dragging. You can also hold the middle mouse button while dragging.
+যদি আপনি টেক্সটের পরপর কয়েকটি লাইন সম্পাদনা করতে চান—উদাহরণস্বরূপ, অনুচ্ছেদগুলোকে তালিকা আইটেমে পরিণত করতে—তাহলে আপনি ড্র্যাগ করার সময় `Shift+Alt` (macOS-এ `Shift+Option`) চেপে ধরে রাখতে পারেন। আপনি ড্র্যাগ করার সময় মাউসের মাঝের বোতামও চেপে ধরে রাখতে পারেন।

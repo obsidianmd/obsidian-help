@@ -1,7 +1,6 @@
 ---
-localized: null
 permalink: plugins/footnotes
 ---
-Footnotes view is a [[Core plugins|core plugin]] that lists all footnotes in the active note.
+পাদটীকা ভিউ একটি [[Core plugins|কোর প্লাগইন]] যা সক্রিয় নোটের সব পাদটীকা তালিকাবদ্ধ করে।
 
-Click a footnote to edit its text. You can also navigate to the footnote's position in the note.
+একটি পাদটীকার টেক্সট সম্পাদনা করতে সেটিতে ক্লিক করুন। আপনি নোটে পাদটীকার অবস্থানেও নেভিগেট করতে পারেন।

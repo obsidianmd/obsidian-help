@@ -1,177 +1,175 @@
 ---
-localized: null
 permalink: ios
 ---
-The Obsidian mobile app for iOS and iPadOS brings powerful note-taking capabilities to your iPhone and iPad. You can download it from the [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
+iOS এবং iPadOS-এর জন্য Obsidian মোবাইল অ্যাপ আপনার iPhone ও iPad-এ শক্তিশালী নোট-নেওয়ার সক্ষমতা নিয়ে আসে। আপনি এটি [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) থেকে ডাউনলোড করতে পারেন।
 
-This page covers iOS-specific features including widgets, Siri integration, and Shortcuts. 
+এই পাতায় iOS-নির্দিষ্ট ফিচারগুলো নিয়ে আলোচনা করা হয়েছে, যার মধ্যে রয়েছে উইজেট, Siri ইন্টিগ্রেশন, এবং Shortcuts। 
 
 ## Sync
 
-For information on syncing notes between devices, please see [[Sync your notes across devices]].
+ডিভাইসগুলোর মধ্যে নোট সিঙ্ক করা সম্পর্কে তথ্যের জন্য, অনুগ্রহ করে [[Sync your notes across devices]] দেখুন।
 
-## Widgets
+## উইজেট
 
-Obsidian for iOS offers several widgets to take quick actions on your vault.
+আপনার ভল্টে দ্রুত পদক্ষেপ নিতে iOS-এর জন্য Obsidian বেশ কয়েকটি উইজেট প্রদান করে।
 
-> [!note] Note
-> Widgets are available on iOS and iPadOS 18 and higher.
-> Widgets are not available when using "Require Face ID" to unlock the app.
+> [!note] নোট
+> উইজেট iOS এবং iPadOS 18 এবং তার ওপরের ভার্সনে উপলব্ধ।
+> অ্যাপ আনলক করার জন্য "Require Face ID" ব্যবহার করার সময় উইজেট উপলব্ধ নয়।
 
 
-### Lock Screen and Control Center widgets
+### লক স্ক্রিন এবং কন্ট্রোল সেন্টার উইজেট
 
-Lock Screen and Control Center widgets allow you to:
-- Create a new note
-- Open a specific note
-- Open daily note
-- Open search
-- Open Obsidian
+লক স্ক্রিন এবং কন্ট্রোল সেন্টার উইজেট দিয়ে আপনি:
+- একটি নতুন নোট তৈরি করতে পারবেন
+- একটি নির্দিষ্ট নোট খুলতে পারবেন
+- দৈনিক নোট খুলতে পারবেন
+- অনুসন্ধান খুলতে পারবেন
+- Obsidian খুলতে পারবেন
 
-### Home Screen widgets
+### হোম স্ক্রিন উইজেট
 
-Home Screen widgets allow you to:
-- Create a note
-- View a note
-- Open your daily note
+হোম স্ক্রিন উইজেট দিয়ে আপনি:
+- একটি নোট তৈরি করতে পারবেন
+- একটি নোট দেখতে পারবেন
+- আপনার দৈনিক নোট খুলতে পারবেন
 
-### Customizing widgets
+### উইজেট কাস্টমাইজ করা
 
-You can customize widgets to suit your workflow, such as choosing which vault to use or specifying a particular note to open.
+আপনার কর্মপ্রবাহ অনুযায়ী উইজেট কাস্টমাইজ করতে পারবেন, যেমন কোন ভল্ট ব্যবহার করবেন তা বেছে নেওয়া বা কোনো নির্দিষ্ট নোট খোলার জন্য নির্দিষ্ট করা।
 
-- **Home Screen widgets:** Tap and hold the widget, then select **Edit Widget**.
-- **Lock Screen widgets:** Touch and hold your Lock Screen, tap **Customize**, select the Lock Screen, then tap the widget you want to customize.
-- **Control Center widgets:** Open Control Center, tap the **+** button at the top left to begin editing, then tap the widget you want to customize.
+- **হোম স্ক্রিন উইজেট:** উইজেটটিতে ট্যাপ করে ধরে রাখুন, তারপর **Edit Widget** নির্বাচন করুন।
+- **লক স্ক্রিন উইজেট:** আপনার লক স্ক্রিন স্পর্শ করে ধরে রাখুন, **Customize** ট্যাপ করুন, লক স্ক্রিন নির্বাচন করুন, তারপর আপনি যে উইজেটটি কাস্টমাইজ করতে চান সেটিতে ট্যাপ করুন।
+- **কন্ট্রোল সেন্টার উইজেট:** কন্ট্রোল সেন্টার খুলুন, সম্পাদনা শুরু করতে উপরের বাম দিকে **+** বাটনে ট্যাপ করুন, তারপর আপনি যে উইজেটটি কাস্টমাইজ করতে চান সেটিতে ট্যাপ করুন।
 
-**New Note** widget configuration options:
+**New Note** উইজেট কনফিগারেশন অপশন:
 
 ![[ios-new-note-configuration.png|400]]
 
-**View Note** widget configuration options:
+**View Note** উইজেট কনফিগারেশন অপশন:
 
 ![[ios-view-note-configuration.png|400]]
 
 ## Shortcuts
 
-Obsidian integrates with Apple's Shortcuts app, allowing you to create powerful automations. Available shortcuts include:
+Obsidian অ্যাপল-এর Shortcuts অ্যাপের সাথে ইন্টিগ্রেট হয়, যা দিয়ে আপনি শক্তিশালী অটোমেশন তৈরি করতে পারবেন। উপলব্ধ শর্টকাটের মধ্যে রয়েছে:
 
-- **Open a note** — Open a specific note in your vault
-- **Create a new note** — Create a new note in your vault
-- **Open daily note** — Jump directly to today's daily note
-- **Capture to Daily Note** — Append or prepend text to the daily note without opening the Obsidian app
-- **Capture to Bookmark** — Append or prepend text to a bookmarked note without opening the Obsidian app
+- **Open a note** — আপনার ভল্টে একটি নির্দিষ্ট নোট খুলুন
+- **Create a new note** — আপনার ভল্টে একটি নতুন নোট তৈরি করুন
+- **Open daily note** — সরাসরি আজকের দৈনিক নোটে যান
+- **Capture to Daily Note** — Obsidian অ্যাপ না খুলেই দৈনিক নোটে টেক্সট যোগ করুন (শুরুতে বা শেষে)
+- **Capture to Bookmark** — Obsidian অ্যাপ না খুলেই কোনো বুকমার্ক করা নোটে টেক্সট যোগ করুন (শুরুতে বা শেষে)
 
-Capture shortcuts are particularly useful for quick note-taking, as they allow you to add content to a note in the background.
+ক্যাপচার শর্টকাটগুলো দ্রুত নোট নেওয়ার জন্য বিশেষভাবে উপযোগী, কারণ এগুলো ব্যাকগ্রাউন্ডে একটি নোটে কনটেন্ট যোগ করার সুযোগ দেয়।
 
-## Share Sheet
+## শেয়ার শিট
 
-Obsidian's Share Sheet lets you capture content from web pages. It also works with apps like YouTube and other social networks.
+Obsidian-এর শেয়ার শিট দিয়ে আপনি ওয়েব পেজ থেকে কনটেন্ট ক্যাপচার করতে পারেন। এটি YouTube এবং অন্যান্য সোশ্যাল নেটওয়ার্কের মতো অ্যাপের সাথেও কাজ করে।
 
 > [!note]
-> - The native Share Sheet is available on iOS and iPadOS 18 and higher.
-> - The Share Sheet features described in this section require Obsidian 1.13.0 or later.
+> - নেটিভ শেয়ার শিট iOS এবং iPadOS 18 এবং তার ওপরের ভার্সনে উপলব্ধ।
+> - এই বিভাগে বর্ণিত শেয়ার শিট ফিচারগুলোর জন্য Obsidian 1.13.0 বা তার পরের ভার্সন প্রয়োজন।
 
-Use the Share Sheet to quickly send content from another app to Obsidian:
-1. In another app, tap the **Share** button.
-2. Select **Obsidian**.
-3. Choose a Location.
-4. Review or edit the captured content.
-5. Tap **Save**.
+অন্য কোনো অ্যাপ থেকে Obsidian-এ দ্রুত কনটেন্ট পাঠাতে শেয়ার শিট ব্যবহার করুন:
+1. অন্য কোনো অ্যাপে, **Share** বাটনে ট্যাপ করুন।
+2. **Obsidian** নির্বাচন করুন।
+3. একটি Location বেছে নিন।
+4. ক্যাপচার করা কনটেন্ট পর্যালোচনা বা সম্পাদনা করুন।
+5. **Save** ট্যাপ করুন।
 
 ![[ios-share-sheet-extension.png|400]]
 
 ### Locations
 
-Locations let you decide where the shared content should go before you save it.
+Locations আপনাকে সেভ করার আগে শেয়ার করা কনটেন্ট কোথায় যাবে তা ঠিক করার সুযোগ দেয়।
 
-Locations can capture to:
-- **New note** — Create a new note in a vault or folder.
-- **Daily note** — Append or prepend content to today's daily note.
-- **Bookmarked note** — Append or prepend content to a bookmarked note.
-- **Note** — Choose an existing note in your vault.
-- **New bookmark** — Save a shared URL to Obsidian bookmarks.
+Locations যেখানে ক্যাপচার করতে পারে:
+- **New note** — একটি ভল্ট বা ফোল্ডারে একটি নতুন নোট তৈরি করুন।
+- **Daily note** — আজকের দৈনিক নোটে কনটেন্ট যোগ করুন (শুরুতে বা শেষে)।
+- **Bookmarked note** — কোনো বুকমার্ক করা নোটে কনটেন্ট যোগ করুন (শুরুতে বা শেষে)।
+- **Note** — আপনার ভল্টে বিদ্যমান একটি নোট বেছে নিন।
+- **New bookmark** — একটি শেয়ার করা URL Obsidian বুকমার্কে সংরক্ষণ করুন।
 
 ![[ios-share-sheet-locations.png|400]]
 
-### Customizing Locations
+### Locations কাস্টমাইজ করা
 
-You can create Locations for common workflows, such as saving articles to an inbox, appending quotes to your daily note, or adding links to bookmarks.
+সাধারণ কর্মপ্রবাহের জন্য আপনি Locations তৈরি করতে পারেন, যেমন ইনবক্সে আর্টিকেল সেভ করা, আপনার দৈনিক নোটে উক্তি যোগ করা, বা বুকমার্কে লিঙ্ক যোগ করা।
 
-To customize Locations:
+Locations কাস্টমাইজ করতে:
 
-1. Open Obsidian from the iOS Share Sheet.
-2. Tap the current Location in the toolbar.
-3. Tap the **+** button to create a new Location, or select an existing Location to edit.
-4. Choose the vault, behavior, and optional settings.
+1. iOS শেয়ার শিট থেকে Obsidian খুলুন।
+2. টুলবারে বর্তমান Location-এ ট্যাপ করুন।
+3. একটি নতুন Location তৈরি করতে **+** বাটনে ট্যাপ করুন, অথবা কোনো বিদ্যমান Location সম্পাদনা করতে সেটি নির্বাচন করুন।
+4. ভল্ট, আচরণ, এবং ঐচ্ছিক সেটিং বেছে নিন।
 
-Depending on the `Behavior` type, you can configure options such as:
+`Behavior`-এর ধরন অনুযায়ী, আপনি নিম্নলিখিত অপশনগুলো কনফিগার করতে পারেন:
 - Folder
 - Template
 - Bookmark group
-- Append or prepend position
-- Whether shared links capture **Full Text** or only the **URL**
+- Append বা prepend পজিশন
+- শেয়ার করা লিঙ্ক **Full Text** নাকি শুধুমাত্র **URL** ক্যাপচার করবে কিনা
 
 ![[ios-share-sheet-add-location.png|400]]
 
-### Using a Template When Sharing
+### শেয়ার করার সময় একটি টেমপ্লেট ব্যবহার করা
 
-You can use a template when sharing content from the Share Sheet. Templates let you format captured web content with details such as the page title, author, source website, and publication date.
+শেয়ার শিট থেকে কনটেন্ট শেয়ার করার সময় আপনি একটি টেমপ্লেট ব্যবহার করতে পারেন। টেমপ্লেট দিয়ে আপনি পেজের শিরোনাম, লেখক, উৎস ওয়েবসাইট, এবং প্রকাশের তারিখের মতো বিস্তারিত তথ্যসহ ক্যাপচার করা ওয়েব কনটেন্ট ফরম্যাট করতে পারবেন।
 
-To set up a Location with a template:
+একটি টেমপ্লেট দিয়ে একটি Location সেট আপ করতে:
 
-1. Open Obsidian from the iOS Share Sheet.
-2. Tap the current Location in the toolbar.
-3. Tap the **+** button to create a new Location.
-4. Enter a name for the Location.
-5. Select a vault.
-6. Set **Behavior** to **New Note**.
-7. In the **Optional** section, tap **Template**.
-8. Select a note from your vault to use as the template.
-9. Tap **Save** to save the Location.
+1. iOS শেয়ার শিট থেকে Obsidian খুলুন।
+2. টুলবারে বর্তমান Location-এ ট্যাপ করুন।
+3. একটি নতুন Location তৈরি করতে **+** বাটনে ট্যাপ করুন।
+4. Location-এর জন্য একটি নাম লিখুন।
+5. একটি ভল্ট নির্বাচন করুন।
+6. **Behavior** সেট করুন **New Note**-এ।
+7. **Optional** বিভাগে, **Template** ট্যাপ করুন।
+8. টেমপ্লেট হিসেবে ব্যবহার করার জন্য আপনার ভল্ট থেকে একটি নোট নির্বাচন করুন।
+9. Location সংরক্ষণ করতে **Save** ট্যাপ করুন।
 
 ![[ios-share-sheet-set-template.png|400]]
 
-When you share a link using this Location, Obsidian applies the template first, then adds the shared content.
+আপনি এই Location ব্যবহার করে কোনো লিঙ্ক শেয়ার করলে, Obsidian প্রথমে টেমপ্লেট প্রয়োগ করে, তারপর শেয়ার করা কনটেন্ট যোগ করে।
 
-Supported template placeholders:
+সমর্থিত টেমপ্লেট প্লেসহোল্ডার:
 
-| Placeholder | Description |
+| প্লেসহোল্ডার | বর্ণনা |
 | --- | --- |
-| `{{author}}` | Author of the article |
-| `{{description}}` | Description or summary of the article |
-| `{{domain}}` | Domain name of the website |
-| `{{favicon}}` | URL of the website's favicon |
-| `{{image}}` | URL of the article's main image |
-| `{{published}}` | Publication date of the article, using the default date format |
-| `{{published: YYYY-MM-DD}}` | Publication date using a custom date format |
-| `{{site}}` | Name of the website |
-| `{{title}}` | Title of the article |
-| `{{url}}` | Article URL |
-| `{{wordCount}}` | Total number of words in the extracted content |
+| `{{author}}` | আর্টিকেলের লেখক |
+| `{{description}}` | আর্টিকেলের বর্ণনা বা সারসংক্ষেপ |
+| `{{domain}}` | ওয়েবসাইটের ডোমেইন নাম |
+| `{{favicon}}` | ওয়েবসাইটের ফেভিকনের URL |
+| `{{image}}` | আর্টিকেলের মূল ছবির URL |
+| `{{published}}` | ডিফল্ট তারিখ ফরম্যাট ব্যবহার করে আর্টিকেলের প্রকাশের তারিখ |
+| `{{published: YYYY-MM-DD}}` | কাস্টম তারিখ ফরম্যাট ব্যবহার করে প্রকাশের তারিখ |
+| `{{site}}` | ওয়েবসাইটের নাম |
+| `{{title}}` | আর্টিকেলের শিরোনাম |
+| `{{url}}` | আর্টিকেলের URL |
+| `{{wordCount}}` | এক্সট্র্যাক্ট করা কনটেন্টে মোট শব্দসংখ্যা |
 
-You can also use standard template date and time placeholders:
+আপনি স্ট্যান্ডার্ড টেমপ্লেট তারিখ ও সময়ের প্লেসহোল্ডারও ব্যবহার করতে পারেন:
 
-| Placeholder | Description |
+| প্লেসহোল্ডার | বর্ণনা |
 | --- | --- |
-| `{{date}}` | Current date |
-| `{{date: YYYY-MM-DD}}` | Current date using a custom format |
-| `{{time}}` | Current time |
-| `{{time: HH:mm}}` | Current time using a custom format |
+| `{{date}}` | বর্তমান তারিখ |
+| `{{date: YYYY-MM-DD}}` | কাস্টম ফরম্যাট ব্যবহার করে বর্তমান তারিখ |
+| `{{time}}` | বর্তমান সময় |
+| `{{time: HH:mm}}` | কাস্টম ফরম্যাট ব্যবহার করে বর্তমান সময় |
 
-## Siri integration
+## Siri ইন্টিগ্রেশন
 
-You can use Siri voice commands to interact with Obsidian:
+Obsidian-এর সাথে মিথস্ক্রিয়া করতে আপনি Siri ভয়েস কমান্ড ব্যবহার করতে পারেন:
 
 - "Capture using Obsidian"
 - "Capture to Obsidian"
 - "Open my daily note in Obsidian"
 - "Search in Obsidian"
 
-## Spotlight integration
+## Spotlight ইন্টিগ্রেশন
 
-When you search for "Obsidian" in iOS Spotlight, you'll see quick actions:
+আপনি যখন iOS Spotlight-এ "Obsidian" অনুসন্ধান করবেন, তখন আপনি কিছু দ্রুত পদক্ষেপ দেখতে পাবেন:
 - New Note
 - Search
 - Daily Note
-
 

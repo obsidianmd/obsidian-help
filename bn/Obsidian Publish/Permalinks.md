@@ -1,22 +1,21 @@
 ---
-localized: null
 permalink: publish/permalinks
 ---
-You can rename the URL to your notes, using _permalinks_.
+আপনি _পার্মালিঙ্ক_ ব্যবহার করে আপনার নোটের URL-এর নাম পরিবর্তন করতে পারেন।
 
-For example, you can turn this:
+উদাহরণস্বরূপ, আপনি এটিকে
 
 ```
 https://publish.obsidian.md/username/Company/About+us
 ```
 
-Into this:
+এভাবে পরিবর্তন করতে পারেন
 
 ```
 https://publish.obsidian.md/username/about
 ```
 
-To create a permalink for a note, add the `permalink` property to your [[Properties]].
+একটি নোটের জন্য পার্মালিঙ্ক তৈরি করতে, আপনার [[Properties|প্রপার্টি]]-তে `permalink` প্রপার্টি যোগ করুন।
 
 ```yaml
 ---
@@ -24,22 +23,22 @@ permalink: about
 ---
 ```
 
-If someone visits a note using the original URL, they'll be automatically redirected to the permalink.
+কেউ যদি মূল URL ব্যবহার করে একটি নোট দেখতে যায়, তাহলে তারা স্বয়ংক্রিয়ভাবে পার্মালিঙ্কে রিডাইরেক্ট হয়ে যাবে।
 
-## Redirect old notes
+## পুরনো নোট রিডাইরেক্ট করুন
 
-Renaming and removing notes is a natural part of maintaining a living vault. While Obsidian automatically updates links when you move a note within your local vault, other websites may still link to your old notes on your published [[Introduction to Obsidian Publish|Obsidian Publish]] site. You can redirect readers from one note to another.
+একটি জীবন্ত ভল্ট রক্ষণাবেক্ষণের স্বাভাবিক অংশ হলো নোটের নাম পরিবর্তন ও অপসারণ। যদিও Obsidian স্থানীয় ভল্টের মধ্যে একটি নোট সরানোর সময় স্বয়ংক্রিয়ভাবে লিঙ্কগুলো আপডেট করে, অন্যান্য ওয়েবসাইট তখনও আপনার প্রকাশিত [[Introduction to Obsidian Publish|Obsidian Publish]] সাইটের পুরনো নোটে লিঙ্ক করতে পারে। আপনি পাঠকদের একটি নোট থেকে অন্য নোটে রিডাইরেক্ট করতে পারেন।
 
-Imagine you want to move a note from one folder to another:
+কল্পনা করুন আপনি একটি নোট এক ফোল্ডার থেকে অন্য ফোল্ডারে সরাতে চান:
 
 - **Guides**
-  - ~~Making friends.md~~ (removed)
+  - ~~Making friends.md~~ (সরানো হয়েছে)
 - **Tutorials**
-  - *How to make friends.md* (added)
+  - *How to make friends.md* (যোগ করা হয়েছে)
 
-After you move the note, Obsidian automatically updates all links within the vault. However, if you publish the change to your Publish site, any links to `/Guides/Making+friends` will result in a 404.
+নোটটি সরানোর পর, Obsidian স্বয়ংক্রিয়ভাবে ভল্টের মধ্যে থাকা সকল লিঙ্ক আপডেট করে। তবে, আপনি যদি এই পরিবর্তনটি আপনার Publish সাইটে প্রকাশ করেন, তাহলে `/Guides/Making+friends`-এর যেকোনো লিঙ্ক একটি 404-এর ফলাফল দেবে।
 
-To redirect readers from `/Guides/Making+friends` to `/Tutorials/How+to+make+friends`, you need to add an [[Aliases|alias]] in `How to make friends.md`, the note you want to redirect to.
+পাঠকদের `/Guides/Making+friends` থেকে `/Tutorials/How+to+make+friends`-এ রিডাইরেক্ট করতে, আপনাকে `How to make friends.md`-এ, অর্থাৎ যে নোটে আপনি রিডাইরেক্ট করতে চান তাতে, একটি [[Aliases|উপনাম]] যোগ করতে হবে।
 
 ```md
 ---
@@ -49,10 +48,10 @@ alias: Guides/Making friends
 # How to make friends
 ```
 
-> [!important] Important
-> Make sure that you include the full path to the old note in the alias. While using only the note name as an alias works in your local vault, Publish needs the full path to the note to be able to redirect to it.
+> [!important] গুরুত্বপূর্ণ
+> নিশ্চিত করুন যে আপনি উপনামে পুরনো নোটের সম্পূর্ণ পাথ অন্তর্ভুক্ত করেছেন। যদিও আপনার স্থানীয় ভল্টে শুধুমাত্র নোটের নাম উপনাম হিসেবে ব্যবহার করলেও কাজ করে, নোটে রিডাইরেক্ট করতে Publish-এর নোটের সম্পূর্ণ পাথ প্রয়োজন।
 
-You can redirect multiple notes by adding an alias for each.
+আপনি প্রতিটির জন্য একটি উপনাম যোগ করে একাধিক নোট রিডাইরেক্ট করতে পারেন।
 
 ```md
 ---

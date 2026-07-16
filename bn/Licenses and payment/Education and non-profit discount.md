@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: discounts
 cssclasses:
   - soft-embed
 ---
-Obsidian currently offers two types of discounts: education and non-profit. They both give you 40% off our add-on services [[Introduction to Obsidian Sync|Obsidian Sync]] and [[Introduction to Obsidian Publish|Obsidian Publish]].
+Obsidian বর্তমানে দুই ধরনের ছাড় দিয়ে থাকে: শিক্ষা এবং অলাভজনক (non-profit)। উভয়ই আমাদের অ্যাড-অন সেবা [[Introduction to Obsidian Sync|Obsidian Sync]] এবং [[Introduction to Obsidian Publish|Obsidian Publish]]-এ ৪০% ছাড় দেয়।
 
-## How to apply
+## কীভাবে আবেদন করবেন
 
-1. Go to [your account dashboard](https://obsidian.md/account/billing).
-2. Under **Billing**, find the **Discount** section, and click on the **Apply** link.
-3. Select a discount type depending on your situation, fill out your **educational or organization email** (not your account email).
-4. Click **Send application**.
-5. In your school or organization email inbox, you should get an email from us to verify your email address. Click on the link to verify.
-6. You might get instantly approved for the discount. If not, our team will try to review your application within 3 business days.
-7. You’ll get an email when your discount gets approved.
+1. [আপনার অ্যাকাউন্ট ড্যাশবোর্ডে](https://obsidian.md/account/billing) যান।
+2. **Billing**-এর অধীনে, **Discount** বিভাগটি খুঁজে বের করুন এবং **Apply** লিঙ্কে ক্লিক করুন।
+3. আপনার পরিস্থিতি অনুযায়ী একটি ছাড়ের ধরন নির্বাচন করুন, আপনার **শিক্ষাপ্রতিষ্ঠান বা প্রতিষ্ঠানের ইমেইল** (আপনার অ্যাকাউন্ট ইমেইল নয়) দিয়ে পূরণ করুন।
+4. **Send application** ক্লিক করুন।
+5. আপনার স্কুল বা প্রতিষ্ঠানের ইমেইল ইনবক্সে, আপনার ইমেইল ঠিকানা যাচাই করার জন্য আমাদের কাছ থেকে একটি ইমেইল পাওয়া উচিত। যাচাই করতে লিঙ্কে ক্লিক করুন।
+6. আপনি হয়তো তাৎক্ষণিকভাবে ছাড়ের জন্য অনুমোদিত হতে পারেন। যদি না হয়, আমাদের টিম ৩ কার্যদিবসের মধ্যে আপনার আবেদন পর্যালোচনা করার চেষ্টা করবে।
+7. আপনার ছাড় অনুমোদিত হলে আপনি একটি ইমেইল পাবেন।
 
-Congratulations! Now you’ll see the discount when you try to purchase Obsidian Sync or Publish.
+অভিনন্দন! এখন Obsidian Sync বা Publish কেনার চেষ্টা করলে আপনি ছাড়টি দেখতে পাবেন।
 
-## How to renew
+## কীভাবে নবায়ন করবেন
 
-Once you have an active discount, you can see how it will expire under **Billing → Discount** of [your account](https://obsidian.md/account/billing).
+একবার আপনার একটি সক্রিয় ছাড় থাকলে, [আপনার অ্যাকাউন্টের](https://obsidian.md/account/billing) **Billing → Discount**-এর অধীনে আপনি দেখতে পারবেন এটি কখন মেয়াদোত্তীর্ণ হবে।
 
-A week before your discount expires, you will get an email reminder to renew it. You can follow the same steps in "[[#How to apply]]" to renew the discount, if you still qualify for it.
+আপনার ছাড় মেয়াদোত্তীর্ণ হওয়ার এক সপ্তাহ আগে, নবায়ন করার জন্য আপনি একটি স্মারক ইমেইল পাবেন। আপনি যদি এখনও এর যোগ্য থাকেন, তবে ছাড়টি নবায়ন করতে "[[#How to apply|কীভাবে আবেদন করবেন]]"-এ বর্ণিত একই পদক্ষেপ অনুসরণ করতে পারেন।
 
-## Frequently asked questions
+## সাধারণ জিজ্ঞাসা
 
-**Who is eligible?**
-If you are a student or faculty member of an education organization like a university or a high school, you generally qualify for education discount. If you run or work at a non-profit organization, you generally qualify for non-profit discount.
+**কারা যোগ্য?**
+আপনি যদি বিশ্ববিদ্যালয় বা উচ্চ বিদ্যালয়ের মতো কোনো শিক্ষা প্রতিষ্ঠানের শিক্ষার্থী বা শিক্ষক হন, তাহলে সাধারণত আপনি শিক্ষা ছাড়ের জন্য যোগ্য হবেন। আপনি যদি কোনো অলাভজনক প্রতিষ্ঠান পরিচালনা করেন বা সেখানে কর্মরত থাকেন, তাহলে সাধারণত আপনি অলাভজনক ছাড়ের জন্য যোগ্য হবেন।
 
-**How long does the application process take?**
-If your application isn't approved instantly after verifying your email, our team will review it. It will take up to 3 business days. No need to check again, we will send an email when your account is approved. Thank you for your patience!
+**আবেদন প্রক্রিয়ায় কতক্ষণ সময় লাগে?**
+আপনার ইমেইল যাচাই করার পর যদি আপনার আবেদন তাৎক্ষণিকভাবে অনুমোদিত না হয়, তাহলে আমাদের টিম এটি পর্যালোচনা করবে। এতে সর্বোচ্চ ৩ কার্যদিবস সময় লাগবে। আবার চেক করার প্রয়োজন নেই, আপনার অ্যাকাউন্ট অনুমোদিত হলে আমরা একটি ইমেইল পাঠাবো। ধৈর্য ধরার জন্য ধন্যবাদ!
 
-**Do these discounts work with early bird pricing?**
-Thanks for being an early bird! None of these discounts stack with the early bird pricing, as early bird is likely the highest discount we’ll ever give out.
+**এই ছাড়গুলো কি আর্লি বার্ড মূল্যের সাথে কাজ করে?**
+আর্লি বার্ড হওয়ার জন্য ধন্যবাদ! এই ছাড়গুলোর কোনোটিই আর্লি বার্ড মূল্যের সাথে যুক্ত হয় না, কারণ আর্লি বার্ড সম্ভবত সর্বোচ্চ ছাড় যা আমরা কখনো দেব।
 
-If you’re already an early bird, there’s generally no point in applying for discounts. But keep in mind that early bird pricing is separate for Sync and Publish, so if you missed early bird pricing for one of them, you may still want to apply for a discount.
+আপনি যদি ইতিমধ্যে আর্লি বার্ড হয়ে থাকেন, তাহলে সাধারণত ছাড়ের জন্য আবেদন করার কোনো মানে নেই। তবে মনে রাখবেন, Sync এবং Publish-এর জন্য আর্লি বার্ড মূল্য আলাদা, তাই যদি আপনি এর একটির জন্য আর্লি বার্ড মূল্য মিস করে থাকেন, তাহলেও আপনি ছাড়ের জন্য আবেদন করতে চাইতে পারেন।
 
-**What if my educational or non-profit organization doesn't provide an email address?**
-In that case, you can send other forms of verification such as student ID card, transcript, or employee ID card to the [[Help and support#Contact Obsidian support|Obsidian support]]. Be sure to include your Obsidian account email address too. Our team will review your application and get back to you. Thank you for your patience!
+**আমার শিক্ষা বা অলাভজনক প্রতিষ্ঠান যদি কোনো ইমেইল ঠিকানা না দেয়, তাহলে কী হবে?**
+সেক্ষেত্রে, আপনি [[Help and support#Contact Obsidian support|Obsidian সাপোর্টে]] শিক্ষার্থী পরিচয়পত্র, ট্রান্সক্রিপ্ট, বা কর্মচারী পরিচয়পত্রের মতো অন্যান্য যাচাইকরণের প্রমাণ পাঠাতে পারেন। আপনার Obsidian অ্যাকাউন্ট ইমেইল ঠিকানাও অন্তর্ভুক্ত করতে ভুলবেন না। আমাদের টিম আপনার আবেদন পর্যালোচনা করে আপনার সাথে যোগাযোগ করবে। ধৈর্য ধরার জন্য ধন্যবাদ!
 
-### Refunds
+### ফেরত
 
 ![[Refund policy#^discount-then-refund]]
 

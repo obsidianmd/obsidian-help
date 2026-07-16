@@ -1,17 +1,16 @@
 ---
-localized: null
 permalink: plugins/tags
 ---
-Tags view is a [[Core plugins|core plugin]] that lists all tags in your vault and the number of notes for each tag.
+ট্যাগ প্যান একটি [[Core plugins|কোর প্লাগইন]] যা আপনার ভল্টের সব ট্যাগ এবং প্রতিটি ট্যাগের নোটের সংখ্যা তালিকাবদ্ধ করে।
 
-Click a tag to search for it using [[Search]].
+[[Search]] ব্যবহার করে একটি ট্যাগ অনুসন্ধান করতে সেটিতে ক্লিক করুন।
 
-To toggle a tag in the search term, click the tag while pressing `Ctrl` (or `Cmd` on macOS).
+অনুসন্ধান টার্মে একটি ট্যাগ টগল করতে, `Ctrl` (বা macOS-এ `Cmd`) চেপে ট্যাগে ক্লিক করুন।
 
-The plugin provides the following options:
+প্লাগইনটি নিম্নলিখিত বিকল্পগুলি প্রদান করে:
 
-- **Change sort order** determines whether to sort the tags by **Tag name** or **Frequency**.
-- **Show nested tags** toggles whether to display nested tags as a tree or as a flat list.
-- **Expand all** and **Collapse all** expands and collapses the nested tags hierarchy.
+- **Change sort order** নির্ধারণ করে যে ট্যাগগুলি **Tag name** বা **Frequency** অনুযায়ী সাজানো হবে কিনা।
+- **Show nested tags** নেস্টেড ট্যাগগুলি একটি ট্রি হিসেবে নাকি একটি ফ্ল্যাট তালিকা হিসেবে প্রদর্শন করা হবে তা টগল করে।
+- **Expand all** এবং **Collapse all** নেস্টেড ট্যাগ হায়ারার্কি প্রসারিত এবং সংকুচিত করে।
 
-You can choose to expand or collapse each nested level separately by clicking the arrow next to it.
+আপনি প্রতিটি নেস্টেড স্তরের পাশের তীরে ক্লিক করে আলাদাভাবে প্রসারিত বা সংকুচিত করতে পারেন।

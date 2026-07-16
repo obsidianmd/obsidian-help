@@ -1,121 +1,119 @@
 ---
-localized: null
 permalink: web-clipper/variables
 ---
-[[Obsidian Web Clipper/Templates|Web Clipper templates]] can use variables to automatically pre-populate data from the page in a template. Variables can be used in the **note name**, **note location**, **properties**, and **note content**. Variables can also be modified using [[filters]].
+[[Obsidian Web Clipper/Templates|Web Clipper টেমপ্লেট]] টেমপ্লেটে পেজের ডেটা স্বয়ংক্রিয়ভাবে পূর্ব-পূরণ করতে ভেরিয়েবল ব্যবহার করতে পারে। ভেরিয়েবল **note name**, **note location**, **properties**, এবং **note content**-এ ব্যবহার করা যায়। [[filters]] ব্যবহার করেও ভেরিয়েবল পরিবর্তন করা যায়।
 
-Use the `...` icon in the [[Introduction to Obsidian Web Clipper|Web Clipper]] extension to access the current page variables for use in templates. There are five types of variables you can use:
+টেমপ্লেটে ব্যবহারের জন্য বর্তমান পেজের ভেরিয়েবল অ্যাক্সেস করতে [[Introduction to Obsidian Web Clipper|Web Clipper]] এক্সটেনশনে `...` আইকন ব্যবহার করুন। আপনি পাঁচ ধরনের ভেরিয়েবল ব্যবহার করতে পারেন:
 
-- [[Variables#Preset variables|Preset variables]]
-- [[Variables#Prompt variables|Prompt variables]]
-- [[Variables#Meta variables|Meta variables]]
-- [[Variables#Selector variables|Selector variables]]
-- [[Variables#Schema.org variables|Schema.org variables]]
+- [[Variables#প্রিসেট ভেরিয়েবল|প্রিসেট ভেরিয়েবল]]
+- [[Variables#প্রম্পট ভেরিয়েবল|প্রম্পট ভেরিয়েবল]]
+- [[Variables#মেটা ভেরিয়েবল|মেটা ভেরিয়েবল]]
+- [[Variables#সিলেক্টর ভেরিয়েবল|সিলেক্টর ভেরিয়েবল]]
+- [[Variables#Schema.org ভেরিয়েবল|Schema.org ভেরিয়েবল]]
 
-## Preset variables
+## প্রিসেট ভেরিয়েবল
 
-Preset variables are automatically generated based on the page content. These typically work for most websites.
+পেজের কন্টেন্টের ভিত্তিতে প্রিসেট ভেরিয়েবল স্বয়ংক্রিয়ভাবে তৈরি হয়। এগুলো সাধারণত বেশিরভাগ ওয়েবসাইটে কাজ করে।
 
-The main content variable is `{{content}}`, which contains the article content, or the [[Highlighter|highlights]], or the selection if there is any selected text on the page. Note that `{{content}}` attempts to extract the main content of the page, which may not always be what you want. In that case, you can use other preset variables or selector variables to extract the content you need.
+মূল কন্টেন্ট ভেরিয়েবল হলো `{{content}}`, যাতে আর্টিকেল কন্টেন্ট, [[Highlighter|হাইলাইট]], অথবা পেজে কোনো টেক্সট নির্বাচিত থাকলে সেই নির্বাচন থাকে। মনে রাখবেন `{{content}}` পেজের মূল কন্টেন্ট বের করার চেষ্টা করে, যা সবসময় আপনি যা চান তা নাও হতে পারে। সেক্ষেত্রে, আপনি প্রয়োজনীয় কন্টেন্ট বের করতে অন্যান্য প্রিসেট ভেরিয়েবল বা সিলেক্টর ভেরিয়েবল ব্যবহার করতে পারেন।
 
-| Variable            | Description                                                                            |
+| ভেরিয়েবল            | বিবরণ                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Author of the page                                                                     |
-| `{{content}}`       | Article content, [[Highlighter\|highlights]], or selection, in Markdown format |
-| `{{contentHtml}}`   | Article content, [[Highlighter\|highlights]], or selection, in HTML format     |
-| `{{date}}`          | Current date, can be formatted using the `date` filter                                 |
-| `{{description}}`   | Description or excerpt                                                                 |
-| `{{domain}}`        | Domain                                                                                 |
-| `{{favicon}}`       | Favicon URL                                                                            |
-| `{{fullHtml}}`      | Unprocessed HTML for the full page content                                             |
-| `{{highlights}}`    | [[Highlighter\|Highlights]] with text and timestamps                           |
-| `{{image}}`         | Social share image URL                                                                 |
-| `{{published}}`     | Published date, can be formatted using the `date` filter                               |
-| `{{selection}}`     | Selection in Markdown format                                                           |
-| `{{selectionHtml}}` | Selection in HTML format                                                               |
-| `{{site}}`          | Site name or publisher                                                                 |
-| `{{title}}`         | Title of the page                                                                      |
-| `{{time}}`          | Current date and time                                                                  |
-| `{{url}}`           | Current URL                                                                            |
-| `{{words}}`         | Word count                                                                             |
+| `{{author}}`        | পেজের লেখক                                                                     |
+| `{{content}}`       | Markdown ফরম্যাটে আর্টিকেল কন্টেন্ট, [[Highlighter\|হাইলাইট]], বা নির্বাচন |
+| `{{contentHtml}}`   | HTML ফরম্যাটে আর্টিকেল কন্টেন্ট, [[Highlighter\|হাইলাইট]], বা নির্বাচন     |
+| `{{date}}`          | বর্তমান তারিখ, `date` ফিল্টার দিয়ে ফরম্যাট করা যায়                                 |
+| `{{description}}`   | বিবরণ বা সারাংশ                                                                 |
+| `{{domain}}`        | ডোমেইন                                                                                 |
+| `{{favicon}}`       | ফেভিকন URL                                                                            |
+| `{{fullHtml}}`      | পুরো পেজ কন্টেন্টের অপ্রক্রিয়াকৃত HTML                                             |
+| `{{highlights}}`    | টেক্সট ও টাইমস্ট্যাম্পসহ [[Highlighter\|হাইলাইট]]                           |
+| `{{image}}`         | সোশ্যাল শেয়ার ছবির URL                                                                 |
+| `{{published}}`     | প্রকাশের তারিখ, `date` ফিল্টার দিয়ে ফরম্যাট করা যায়                               |
+| `{{selection}}`     | Markdown ফরম্যাটে নির্বাচন                                                           |
+| `{{selectionHtml}}` | HTML ফরম্যাটে নির্বাচন                                                               |
+| `{{site}}`          | সাইটের নাম বা প্রকাশক                                                                 |
+| `{{title}}`         | পেজের শিরোনাম                                                                      |
+| `{{time}}`          | বর্তমান তারিখ ও সময়                                                                  |
+| `{{url}}`           | বর্তমান URL                                                                            |
+| `{{words}}`         | শব্দ সংখ্যা                                                                             |
 
-## Prompt variables
+## প্রম্পট ভেরিয়েবল
 
-Prompt variables leverage language models to extract and modify data using natural language. Prompt variables require [[Interpreter|Interpreter]] to be enabled and configured.
+প্রম্পট ভেরিয়েবল প্রাকৃতিক ভাষা ব্যবহার করে ডেটা বের করতে এবং পরিবর্তন করতে ভাষা মডেল ব্যবহার করে। প্রম্পট ভেরিয়েবল ব্যবহারের জন্য [[Interpreter|Interpreter]] সক্রিয় ও কনফিগার করা প্রয়োজন।
 
-Prompt variables use the syntax `{{"a summary of the page"}}`. The double quotes around the prompt are important and distinguish prompts from preset variables. Prompt responses can be post-processed with [[filters]], e.g. `{{"a summary of the page"|blockquote}}`.
+প্রম্পট ভেরিয়েবল `{{"a summary of the page"}}` সিনট্যাক্স ব্যবহার করে। প্রম্পটের চারপাশে ডাবল কোটেশন গুরুত্বপূর্ণ এবং প্রিসেট ভেরিয়েবল থেকে প্রম্পটকে আলাদা করে। প্রম্পট রেসপন্স [[filters]] দিয়ে পরে প্রক্রিয়া করা যায়, যেমন `{{"a summary of the page"|blockquote}}`।
 
-### When to use prompt variables
+### কখন প্রম্পট ভেরিয়েবল ব্যবহার করবেন
 
-Prompt variables have the benefit of being extremely flexible and easy to write, however they come with several tradeoffs: they are slower to run, and may have cost and privacy considerations depending on the [[Interpreter#Models|provider]] you choose.
+প্রম্পট ভেরিয়েবলের সুবিধা হলো এটি অত্যন্ত নমনীয় এবং লেখা সহজ, তবে এর সাথে কিছু ট্রেডঅফও রয়েছে: এগুলো চালাতে বেশি সময় লাগে, এবং আপনার বেছে নেওয়া [[Interpreter#মডেল|প্রোভাইডারের]] উপর নির্ভর করে খরচ ও গোপনীয়তার বিষয়ও থাকতে পারে।
 
-Unlike other variable types, prompt variables need to be processed by an external language model, so they are replaced only once [[Interpreter|Interpreter]] has run.
+অন্যান্য ভেরিয়েবল ধরনের বিপরীতে, প্রম্পট ভেরিয়েবল একটি বাহ্যিক ভাষা মডেল দ্বারা প্রক্রিয়া করতে হয়, তাই [[Interpreter|Interpreter]] চলার পরেই এগুলো প্রতিস্থাপিত হয়।
 
-It is best to *not* use prompt variables if the data you want to extract is in a consistent format that could be extracted with other variable types. 
+আপনি যে ডেটা বের করতে চান তা যদি একটি সামঞ্জস্যপূর্ণ ফরম্যাটে থাকে যা অন্যান্য ভেরিয়েবল ধরন দিয়ে বের করা যায়, তাহলে প্রম্পট ভেরিয়েবল ব্যবহার *না* করাই ভালো।
 
-On the other hand, prompt variables can be useful if the data you want to extract is an *inconsistent* format across websites. For example, you can make a [[Obsidian Web Clipper/Templates|template]] to save books that is agnostic of the book site. Prompt variables like `{{"author of the book"}}` will work across any book site, whereas selector variables typically only work for one site.
+অন্যদিকে, আপনি যে ডেটা বের করতে চান তা যদি বিভিন্ন ওয়েবসাইটে *অসামঞ্জস্যপূর্ণ* ফরম্যাটে থাকে তাহলে প্রম্পট ভেরিয়েবল কার্যকর হতে পারে। উদাহরণস্বরূপ, আপনি বই সংরক্ষণের জন্য এমন একটি [[Obsidian Web Clipper/Templates|টেমপ্লেট]] তৈরি করতে পারেন যা যেকোনো বইয়ের সাইটে কাজ করবে। `{{"author of the book"}}`-এর মতো প্রম্পট ভেরিয়েবল যেকোনো বইয়ের সাইটে কাজ করবে, যেখানে সিলেক্টর ভেরিয়েবল সাধারণত শুধুমাত্র একটি সাইটের জন্য কাজ করে।
 
-### Examples
+### উদাহরণ
 
-Prompts can use almost any natural language query. Depending on the model you use, prompts can query or translate data across languages.
+প্রম্পটে প্রায় যেকোনো প্রাকৃতিক ভাষার কোয়েরি ব্যবহার করা যায়। আপনি যে মডেল ব্যবহার করছেন তার উপর নির্ভর করে, প্রম্পট বিভিন্ন ভাষায় ডেটা কোয়েরি বা অনুবাদ করতে পারে।
 
-- `{{"a three bullet point summary, translated to French"}}` to extract bullet points about the page, and translate them to French.
-- `{{"un resumé de la page en trois points"}}` to extract three bullet points using a prompt in French.
+- `{{"a three bullet point summary, translated to French"}}` পেজ সম্পর্কে বুলেট পয়েন্ট বের করতে, এবং সেগুলো ফরাসি ভাষায় অনুবাদ করতে।
+- `{{"un resumé de la page en trois points"}}` ফরাসি ভাষায় প্রম্পট ব্যবহার করে তিনটি বুলেট পয়েন্ট বের করতে।
 
-Prompts can transform page content into JSON that can be manipulated with [[Filters|filters]]. For example:
+প্রম্পট পেজের কন্টেন্টকে JSON-এ রূপান্তর করতে পারে যা [[Filters|ফিল্টার]] দিয়ে পরিবর্তন করা যায়। উদাহরণস্বরূপ:
 
 ```
 {{"return a JSON object for each tweet, that includes the author, tweet_text, date in YYYY-MM-DD format, and images array (if there are any)"|map:tweet => ({text: tweet.tweet_text, author: tweet.author, date: tweet.date})|template:"${text}\n— [[@${author}]], [[${date}]]\n"}}
 ```
 
 
-## Meta variables
+## মেটা ভেরিয়েবল
 
-Meta variables allow you to extract data from [meta elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) in the page, including [Open Graph](https://ogp.me/) data used to populate social share previews.
+মেটা ভেরিয়েবল আপনাকে পেজের [meta এলিমেন্ট](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) থেকে ডেটা বের করতে দেয়, এর মধ্যে সোশ্যাল শেয়ার প্রিভিউ পূরণ করতে ব্যবহৃত [Open Graph](https://ogp.me/) ডেটাও রয়েছে।
 
-- `{{meta:name}}` returns the content of the meta name tag with the given name, e.g. `{{meta:name:description}}` for the `description` meta tag.
-- `{{meta:property}}` returns the content of the meta property tag with the given property, e.g. `{{meta:property:og:title}}` for the `og:title` meta tag.
+- `{{meta:name}}` প্রদত্ত নামের meta name ট্যাগের কন্টেন্ট ফেরত দেয়, যেমন `description` meta ট্যাগের জন্য `{{meta:name:description}}`।
+- `{{meta:property}}` প্রদত্ত প্রপার্টির meta property ট্যাগের কন্টেন্ট ফেরত দেয়, যেমন `og:title` meta ট্যাগের জন্য `{{meta:property:og:title}}`।
 
-## Selector variables
+## সিলেক্টর ভেরিয়েবল
 
-Selector variables allow you to extract text content from elements on the page using [CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators).
+সিলেক্টর ভেরিয়েবল আপনাকে [CSS সিলেক্টর](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors/Selectors_and_combinators) ব্যবহার করে পেজের এলিমেন্ট থেকে টেক্সট কন্টেন্ট বের করতে দেয়।
 
-The syntax is `{{selector:cssSelector?attribute}}`, where `?attribute` is optional. If no attribute is specified, the text content of the element is returned. You can also use `{{selectorHtml:cssSelector}}` to get the HTML content of the element. Selector variables tend to work best on a specific website or set of websites that have consistent HTML structure.
+সিনট্যাক্সটি হলো `{{selector:cssSelector?attribute}}`, যেখানে `?attribute` ঐচ্ছিক। কোনো অ্যাট্রিবিউট নির্দিষ্ট না করা হলে, এলিমেন্টের টেক্সট কন্টেন্ট ফেরত দেওয়া হয়। এলিমেন্টের HTML কন্টেন্ট পেতে আপনি `{{selectorHtml:cssSelector}}`-ও ব্যবহার করতে পারেন। সিলেক্টর ভেরিয়েবল সাধারণত একটি নির্দিষ্ট ওয়েবসাইট বা সামঞ্জস্যপূর্ণ HTML স্ট্রাকচারযুক্ত ওয়েবসাইটের সেটে সবচেয়ে ভালো কাজ করে।
 
-- `{{selector:h1}}` returns text content of any `h1` elements on the page.
-- `{{selector:.author}}` returns text content of any `.author` elements on the page.
-- `{{selector:img.hero?src}}` returns the `src` attribute of the image with class `hero`.
-- `{{selector:a.main-link?href}}` returns the `href` attribute of the anchor tag with class `main-link`.
-- `{{selectorHtml:body|markdown}}` returns the entire HTML of the `body` element, converted to Markdown using the `markdown` [[Filters#HTML processing|filter]].
-- Nested CSS selectors and combinators are supported if you need more specificity.
-- If multiple elements match the selector, an array is returned, which you can process with [[Filters#Arrays and objects|array and object filters]] like `join` or `map`.
+- `{{selector:h1}}` পেজের যেকোনো `h1` এলিমেন্টের টেক্সট কন্টেন্ট ফেরত দেয়।
+- `{{selector:.author}}` পেজের যেকোনো `.author` এলিমেন্টের টেক্সট কন্টেন্ট ফেরত দেয়।
+- `{{selector:img.hero?src}}` `hero` ক্লাসযুক্ত ছবির `src` অ্যাট্রিবিউট ফেরত দেয়।
+- `{{selector:a.main-link?href}}` `main-link` ক্লাসযুক্ত অ্যাঙ্কর ট্যাগের `href` অ্যাট্রিবিউট ফেরত দেয়।
+- `{{selectorHtml:body|markdown}}` `body` এলিমেন্টের পুরো HTML ফেরত দেয়, যা `markdown` [[Filters#HTML প্রসেসিং|ফিল্টার]] দিয়ে Markdown-এ রূপান্তরিত হয়।
+- আরও নির্দিষ্টতার প্রয়োজন হলে নেস্টেড CSS সিলেক্টর ও কম্বিনেটর সমর্থিত।
+- একাধিক এলিমেন্ট সিলেক্টরের সাথে মিলে গেলে, একটি অ্যারে ফেরত দেওয়া হয়, যা আপনি `join` বা `map`-এর মতো [[Filters#অ্যারে এবং অবজেক্ট|অ্যারে ও অবজেক্ট ফিল্টার]] দিয়ে প্রক্রিয়া করতে পারেন।
 
-Selector variables can also be used directly in [[Logic|template logic]]:
+সিলেক্টর ভেরিয়েবল সরাসরি [[Logic|টেমপ্লেট লজিকেও]] ব্যবহার করা যায়:
 
-- In loops: `{% for comment in selector:.comment %}...{% endfor %}`
-- In conditionals: `{% if selector:.premium-badge %}...{% endif %}`
-- In variable assignment: `{% set items = selector:.list-item %}`
+- লুপে: `{% for comment in selector:.comment %}...{% endfor %}`
+- কন্ডিশনালে: `{% if selector:.premium-badge %}...{% endif %}`
+- ভেরিয়েবল অ্যাসাইনমেন্টে: `{% set items = selector:.list-item %}`
 
-## Schema.org variables
+## Schema.org ভেরিয়েবল
 
-Schema variables allow you to extract data from [schema.org](https://schema.org/) JSON-LD on the page. Schema.org data can also be used to automatically [[Obsidian Web Clipper/Templates#Schema.org matching|trigger a template]].
+Schema ভেরিয়েবল আপনাকে পেজের [schema.org](https://schema.org/) JSON-LD থেকে ডেটা বের করতে দেয়। Schema.org ডেটা স্বয়ংক্রিয়ভাবে [[Obsidian Web Clipper/Templates#Schema.org ম্যাচিং|একটি টেমপ্লেট ট্রিগার করতে]]ও ব্যবহার করা যায়।
 
-- `{{schema:@Type:key}}` returns the value of the key from the schema.
-- `{{schema:@Type:parent.child}}` returns the value of a nested property.
-- `{{schema:@Type:arrayKey}}` returns the first item in an array.
-- `{{schema:@Type:arrayKey[index].property}}` returns the item at the specified index in an array.
-- `{{schema:@Type:arrayKey[*].property}}` returns a specific property from all items in an array.
+- `{{schema:@Type:key}}` স্কিমা থেকে কি-এর মান ফেরত দেয়।
+- `{{schema:@Type:parent.child}}` একটি নেস্টেড প্রপার্টির মান ফেরত দেয়।
+- `{{schema:@Type:arrayKey}}` একটি অ্যারের প্রথম আইটেম ফেরত দেয়।
+- `{{schema:@Type:arrayKey[index].property}}` একটি অ্যারের নির্দিষ্ট ইনডেক্সের আইটেম ফেরত দেয়।
+- `{{schema:@Type:arrayKey[*].property}}` একটি অ্যারের সব আইটেম থেকে একটি নির্দিষ্ট প্রপার্টি ফেরত দেয়।
 
-You can also use a shorthand notation without specifying the schema type:
+আপনি স্কিমা ধরন নির্দিষ্ট না করে একটি শর্টহ্যান্ড নোটেশনও ব্যবহার করতে পারেন:
 
-- `{{schema:author}}` will match the first `author` property found in any schema type.
-- `{{schema:name}}` will match the first `name` property found in any schema type.
+- `{{schema:author}}` যেকোনো স্কিমা ধরনে পাওয়া প্রথম `author` প্রপার্টির সাথে মিলবে।
+- `{{schema:name}}` যেকোনো স্কিমা ধরনে পাওয়া প্রথম `name` প্রপার্টির সাথে মিলবে।
 
-This shorthand is particularly useful when you don't know or don't care about the specific schema type, but you know the property name you're looking for.
+আপনি নির্দিষ্ট স্কিমা ধরন সম্পর্কে না জানলে বা তা নিয়ে চিন্তিত না হলে, এবং শুধু প্রপার্টির নামটি জানলে এই শর্টহ্যান্ড বিশেষভাবে কার্যকর।
 
-Nested properties and array access work as well, both with and without the schema `@Type` specified:
+নেস্টেড প্রপার্টি এবং অ্যারে অ্যাক্সেস উভয়ই কাজ করে, স্কিমা `@Type` নির্দিষ্ট করা থাকুক বা না থাকুক:
 
-- `{{schema:author.name}}` will find the first `author` property and then access its `name` sub-property.
-- `{{schema:author[0].name}}` will access the `name` of the first author in an array of authors.
-- `{{schema:author[*].name}}` will return an array of all author names.
-
+- `{{schema:author.name}}` প্রথম `author` প্রপার্টি খুঁজে বের করবে এবং তারপর এর `name` সাব-প্রপার্টি অ্যাক্সেস করবে।
+- `{{schema:author[0].name}}` লেখকদের অ্যারের প্রথম লেখকের `name` অ্যাক্সেস করবে।
+- `{{schema:author[*].name}}` সব লেখকের নামের একটি অ্যারে ফেরত দেবে।

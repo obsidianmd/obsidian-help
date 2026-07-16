@@ -1,12 +1,11 @@
 ---
-localized: null
 permalink: plugins/page-preview
 ---
-Page preview is a [[Core plugins|core plugin]] that lets you preview a page when you hover the cursor over an internal link, without needing to navigate to that page.
+পৃষ্টার প্রিভিউ একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে একটি অভ্যন্তরীণ লিঙ্কের উপর কার্সর হোভার করলে সেই পেজে নেভিগেট না করেই একটি পৃষ্টার প্রিভিউ করতে দেয়।
 
-By default, hovering over a link will preview that file in [[File explorer]], [[Search]], [[Backlinks]], and more. To preview a page while in Editing view, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link.
+ডিফল্টভাবে, একটি লিঙ্কের উপর হোভার করলে [[File explorer]], [[Search]], [[Backlinks]], এবং আরও অন্যান্য জায়গায় সেই ফাইলটি প্রিভিউ হবে। Editing view-তে থাকাকালীন একটি পৃষ্টার প্রিভিউ করতে, লিঙ্কের উপর কার্সর হোভার করার সময় `Ctrl` (বা macOS-এ `Cmd`) চাপুন।
 
-There is also an option to require `Ctrl` (or `Cmd` on macOS) while hovering to see the file. The settings for this option are under Core plugins > Page preview.
+ফাইলটি দেখার জন্য হোভার করার সময় `Ctrl` (বা macOS-এ `Cmd`) প্রয়োজন করার একটি অপশনও রয়েছে। এই অপশনের সেটিংস Core plugins > Page preview-এর অধীনে রয়েছে।
 
 > [!hint]
-> Preview is **on by default**. Toggling the plugin option will **turn the behavior off**.
+> প্রিভিউ **ডিফল্টভাবে চালু** থাকে। প্লাগইন অপশনটি টগল করলে এই আচরণ **বন্ধ** হয়ে যাবে।

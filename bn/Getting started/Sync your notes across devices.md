@@ -1,237 +1,236 @@
 ---
-localized: null
 permalink: sync-notes
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: How to sync your Obsidian notes across devices and platforms.
+description: বিভিন্ন ডিভাইস ও প্ল্যাটফর্মে আপনার Obsidian নোট কীভাবে সিঙ্ক করবেন।
 ---
-Obsidian stores notes locally on your device so you always have access to them, even offline. To access your notes on multiple devices you need to set up a sync method.
+Obsidian আপনার ডিভাইসে স্থানীয়ভাবে নোট সংরক্ষণ করে যাতে আপনি সবসময় সেগুলোতে প্রবেশাধিকার পান, এমনকি অফলাইনেও। একাধিক ডিভাইসে আপনার নোট অ্যাক্সেস করতে আপনার একটি সিঙ্ক পদ্ধতি সেট আপ করতে হবে।
 
-This guide covers common sync methods, including tips to avoid data loss and ensure a smooth experience.
+এই গাইডে সাধারণ সিঙ্ক পদ্ধতিগুলো আলোচনা করা হয়েছে, ডেটা হারানো এড়ানো এবং একটি সাবলীল অভিজ্ঞতা নিশ্চিত করার টিপসসহ।
 
-We also recommend reading our [[Back up your Obsidian files|backup guide]] to protect your data.
+আপনার ডেটা সুরক্ষিত রাখতে আমরা আমাদের [[Back up your Obsidian files|ব্যাকআপ গাইড]] পড়ারও পরামর্শ দিই।
 
-## Syncing methods
+## সিঙ্কিং পদ্ধতি
 
-With Obsidian your data is simply stored as files in a folder called a [[Local and remote vaults|vault]]. This means there are many ways to sync your data.
+Obsidian-এ আপনার ডেটা কেবল একটি [[Local and remote vaults|ভল্ট]] নামক ফোল্ডারে ফাইল হিসেবে সংরক্ষিত থাকে। এর মানে হলো আপনার ডেটা সিঙ্ক করার অনেক উপায় রয়েছে।
 
-These are a few commonly used sync methods reported by members of the Obsidian community:
+Obsidian কমিউনিটির সদস্যদের রিপোর্ট করা কিছু সাধারণভাবে ব্যবহৃত সিঙ্ক পদ্ধতি এখানে দেওয়া হলো:
 
-1. **First-party sync**: [[#Obsidian Sync]]
-2. **Third-party cloud sync**: [[#iCloud]], [[#OneDrive]], and [[#Google Drive]]
-3. **Local sync**: [[#Syncthing]]
-4. **Version control**: [[#Git]] and [[#Working Copy]]
+1. **প্রথম-পক্ষের সিঙ্ক**: [[#Obsidian Sync]]
+2. **তৃতীয়-পক্ষের ক্লাউড সিঙ্ক**: [[#iCloud]], [[#OneDrive]], এবং [[#Google Drive]]
+3. **স্থানীয় সিঙ্ক**: [[#Syncthing]]
+4. **ভার্সন নিয়ন্ত্রণ**: [[#Git]] এবং [[#Working Copy]]
 
-Dozens of alternative syncing options can be found in the [Community plugins directory](https://community.obsidian.md/search?type=plugin&categories=syncing).
+[কমিউনিটি প্লাগইন ডিরেক্টরিতে](https://community.obsidian.md/search?type=plugin&categories=syncing) ডজনখানেক বিকল্প সিঙ্কিং বিকল্প পাওয়া যায়।
 
 ## Obsidian Sync
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
+**সুপারিশকৃত সিস্টেম**: `Windows`, `macOS`, `Linux`, `iOS`, `Android`
 
-The most straightforward and officially supported sync method is our first-party solution: [[Introduction to Obsidian Sync|Obsidian Sync]].
+সবচেয়ে সহজ এবং আনুষ্ঠানিকভাবে সমর্থিত সিঙ্ক পদ্ধতি হলো আমাদের প্রথম-পক্ষের সমাধান: [[Introduction to Obsidian Sync|Obsidian Sync]]।
 
-Obsidian Sync keeps your vaults synced across all devices by using an off-site remote vault to make copies of your data. A local copy remains on your devices at all times.
+Obsidian Sync আপনার ডেটার কপি তৈরি করতে একটি অফ-সাইট রিমোট ভল্ট ব্যবহার করে আপনার ভল্টগুলো সব ডিভাইসে সিঙ্ক রাখে। আপনার ডিভাইসে সবসময় একটি স্থানীয় কপি থেকে যায়।
 
-Follow the [[Set up Obsidian Sync|setup guide]] to configure Obsidian Sync.
+Obsidian Sync কনফিগার করতে [[Set up Obsidian Sync|সেটআপ গাইড]] অনুসরণ করুন।
 
 ## iCloud
 
-**Recommended systems**: `macOS`, `iOS`, `iPadOS`
+**সুপারিশকৃত সিস্টেম**: `macOS`, `iOS`, `iPadOS`
 
-iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive on Windows** may lead to file duplication or corruption.
+iOS এবং macOS-এর মধ্যে ভল্ট সিঙ্ক করতে iCloud ব্যবহার করা যেতে পারে। তবে, **Windows-এ iCloud Drive** ফাইল ডুপ্লিকেশন বা দুর্নীতির কারণ হতে পারে।
 
-**How to create and store your vault in iCloud Drive**:
+**কীভাবে আপনার ভল্ট iCloud Drive-এ তৈরি ও সংরক্ষণ করবেন**:
 
-- **Enable iCloud Drive**:
-    - On macOS: Go to **System Preferences → Apple ID → iCloud → iCloud Drive**.
-    - On iOS: Go to **Settings → [Your Name] → iCloud → iCloud Drive**.
-- **Create a new vault in iCloud**:
-    - On macOS:
-        1. Open **Obsidian** and select **Create new vault**.
-        2. In the file picker, navigate to **iCloud Drive → Obsidian**.
-        3. Create a folder for your vault and name it.
-        4. Select **Create** to finish.
-    - On iOS:
-        1. Open **Obsidian** and tap **Create new vault**.
-        2. Enter a name for your vault.
-        3. Toggle on **Store in iCloud**.
-        4. Tap **Create**.
-- **Open the vault on another Apple device**: 
-    - On another macOS or iOS device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **iCloud Drive → Obsidian**.
+- **iCloud Drive সক্রিয় করুন**:
+    - macOS-এ: **System Preferences → Apple ID → iCloud → iCloud Drive**-এ যান।
+    - iOS-এ: **Settings → [আপনার নাম] → iCloud → iCloud Drive**-এ যান।
+- **iCloud-এ একটি নতুন ভল্ট তৈরি করুন**:
+    - macOS-এ:
+        1. **Obsidian** খুলুন এবং **নতুন ভল্ট তৈরি করুন** নির্বাচন করুন।
+        2. ফাইল পিকারে, **iCloud Drive → Obsidian**-এ নেভিগেট করুন।
+        3. আপনার ভল্টের জন্য একটি ফোল্ডার তৈরি করুন এবং এর নামকরণ করুন।
+        4. শেষ করতে **তৈরি করুন** নির্বাচন করুন।
+    - iOS-এ:
+        1. **Obsidian** খুলুন এবং **নতুন ভল্ট তৈরি করুন** ট্যাপ করুন।
+        2. আপনার ভল্টের একটি নাম লিখুন।
+        3. **Store in iCloud** টগল অন করুন।
+        4. **তৈরি করুন** ট্যাপ করুন।
+- **অন্য একটি Apple ডিভাইসে ভল্ট খুলুন**:
+    - অন্য একটি macOS বা iOS ডিভাইসে, **Obsidian** খুলুন, [[Manage vaults|ভল্ট সুইচার]]-এ যান, এবং **ফোল্ডারকে ভল্ট হিসেবে খুলুন** নির্বাচন করুন। **iCloud Drive → Obsidian**-এ নেভিগেট করুন।
 
-> [!warning]+ iOS and iPadOS folder location
-> When using iCloud on mobile devices, ensure your vault is stored in the correct location: `iCloud Drive/Obsidian/[Your Vault Name]`.
-> 
-> Vaults should be inside the **Obsidian** folder within iCloud Drive. The folder on the right with the Obsidian icon is correct. Do not use the plain folder without the app icon.
-> 
+> [!warning]+ iOS এবং iPadOS ফোল্ডার অবস্থান
+> মোবাইল ডিভাইসে iCloud ব্যবহার করার সময়, নিশ্চিত করুন আপনার ভল্ট সঠিক অবস্থানে সংরক্ষিত আছে: `iCloud Drive/Obsidian/[আপনার ভল্টের নাম]`।
+>
+> ভল্টগুলো iCloud Drive-এর মধ্যে **Obsidian** ফোল্ডারের ভেতরে থাকা উচিত। Obsidian আইকনসহ ডানদিকের ফোল্ডারটি সঠিক। অ্যাপ আইকনবিহীন সাধারণ ফোল্ডারটি ব্যবহার করবেন না।
+>
 > ![[iCloud-folder-location.png#interface]]
-> 
-> To verify your vault location, open the **Files** app, tap **Browse**, select **iCloud Drive** under **Locations**, and confirm your vault is inside the **Obsidian** folder. If your vault is in a different location, you may experience syncing issues.
+>
+> আপনার ভল্টের অবস্থান যাচাই করতে, **Files** অ্যাপ খুলুন, **Browse** ট্যাপ করুন, **Locations**-এর অধীনে **iCloud Drive** নির্বাচন করুন, এবং নিশ্চিত করুন আপনার ভল্ট **Obsidian** ফোল্ডারের ভেতরে আছে। আপনার ভল্ট যদি অন্য কোনো অবস্থানে থাকে, তাহলে আপনি সিঙ্কিং সমস্যার সম্মুখীন হতে পারেন।
 
-> [!tip] Best practices
-> - For **macOS 14 (Sonoma) and earlier**: Disable **Optimize Mac Storage** in iCloud settings to prevent files from being offloaded. This setting affects all iCloud storage on the device, not just Obsidian.
-> - For **macOS 15 (Sequoia)**: Right-click the **Obsidian** folder in iCloud Drive and select **Keep Downloaded**.
+> [!tip] সর্বোত্তম অনুশীলন
+> - **macOS 14 (Sonoma) এবং তার আগের সংস্করণের জন্য**: ফাইল অফলোড হওয়া প্রতিরোধ করতে iCloud সেটিংসে **Optimize Mac Storage** নিষ্ক্রিয় করুন। এই সেটিং শুধু Obsidian নয়, ডিভাইসের সব iCloud সংরক্ষণকে প্রভাবিত করে।
+> - **macOS 15 (Sequoia)-এর জন্য**: iCloud Drive-এ **Obsidian** ফোল্ডারে ডান-ক্লিক করুন এবং **Keep Downloaded** নির্বাচন করুন।
 
 ## OneDrive
 
-**Recommended systems**: `Windows`, `macOS` (limited functionality on Android)
+**সুপারিশকৃত সিস্টেম**: `Windows`, `macOS` (Android-এ সীমিত কার্যকারিতা)
 
-[OneDrive](https://support.microsoft.com/en-us/office/Sync-with-OneDrive-bb89981b-e382-4969-b8fd-d413a90b6db3#ID0EAABAAA=Set_up) is a popular cloud storage option for Windows and macOS users. However, it has limitations on Android and isn't officially supported for syncing Obsidian vaults on iOS.
+[OneDrive](https://support.microsoft.com/en-us/office/Sync-with-OneDrive-bb89981b-e382-4969-b8fd-d413a90b6db3#ID0EAABAAA=Set_up) Windows এবং macOS ব্যবহারকারীদের জন্য একটি জনপ্রিয় ক্লাউড সংরক্ষণ বিকল্প। তবে, এটির Android-এ সীমাবদ্ধতা রয়েছে এবং iOS-এ Obsidian ভল্ট সিঙ্ক করার জন্য আনুষ্ঠানিকভাবে সমর্থিত নয়।
 
-> [!info] Keep files available offline
-> Before using OneDrive for syncing, ensure that your vault folder is marked as **Always keep on this device**. This prevents OneDrive from offloading files and causing Obsidian to think they are missing.
+> [!info] ফাইল অফলাইনে উপলব্ধ রাখুন
+> সিঙ্কের জন্য OneDrive ব্যবহার করার আগে, নিশ্চিত করুন আপনার ভল্ট ফোল্ডারটি **Always keep on this device** হিসেবে চিহ্নিত করা আছে। এটি OneDrive-কে ফাইল অফলোড করা এবং Obsidian-কে সেগুলো অনুপস্থিত মনে করানো থেকে প্রতিরোধ করে।
 
-**How to create and store your vault in OneDrive**:
+**কীভাবে আপনার ভল্ট OneDrive-এ তৈরি ও সংরক্ষণ করবেন**:
 
-1. **Set up OneDrive**:
-   - On Windows: Sign in through the OneDrive app or your Microsoft account.
-   - On macOS: Download the OneDrive app and sign in.
-2. **Create a new vault in OneDrive**:
-   - On Windows/macOS:
-     1. Open **File Explorer** (Windows) or **Finder** (macOS) and navigate to **OneDrive → Documents**.
-     2. Create a new folder (e.g., \"Obsidian Vault\").
-     3. Open **Obsidian**, select **Create new vault**, and select the OneDrive folder.
-3. **Open the vault on another device**:
-   - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to **OneDrive → Documents**.
+1. **OneDrive সেট আপ করুন**:
+   - Windows-এ: OneDrive অ্যাপ বা আপনার Microsoft অ্যাকাউন্টের মাধ্যমে সাইন ইন করুন।
+   - macOS-এ: OneDrive অ্যাপ ডাউনলোড করুন এবং সাইন ইন করুন।
+2. **OneDrive-এ একটি নতুন ভল্ট তৈরি করুন**:
+   - Windows/macOS-এ:
+     1. **File Explorer** (Windows) বা **Finder** (macOS) খুলুন এবং **OneDrive → Documents**-এ নেভিগেট করুন।
+     2. একটি নতুন ফোল্ডার তৈরি করুন (যেমন, "Obsidian Vault")।
+     3. **Obsidian** খুলুন, **নতুন ভল্ট তৈরি করুন** নির্বাচন করুন, এবং OneDrive ফোল্ডারটি নির্বাচন করুন।
+3. **অন্য একটি ডিভাইসে ভল্ট খুলুন**:
+   - অন্য একটি ডিভাইসে, **Obsidian** খুলুন, [[Manage vaults|ভল্ট সুইচার]]-এ যান, এবং **ফোল্ডারকে ভল্ট হিসেবে খুলুন** নির্বাচন করুন। **OneDrive → Documents**-এ নেভিগেট করুন।
 
-> [!info] Android syncing
-> OneDrive may not function well for Android syncing. Consider using apps like [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) or [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite).
+> [!info] Android সিঙ্কিং
+> OneDrive Android সিঙ্কিং-এর জন্য ভালোভাবে কাজ নাও করতে পারে। [Dropsync](https://play.google.com/store/apps/details?id=com.ttxapps.dropsync) বা [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite)-এর মতো অ্যাপ ব্যবহার করার কথা বিবেচনা করুন।
 
-> [!tip] Best practices
-> - Always keep your vault files **Available Offline** by right-clicking the folder and selecting **Always keep on this device**.
-> - Avoid using OneDrive's **Files On-Demand** feature for vaults to prevent syncing issues.
+> [!tip] সর্বোত্তম অনুশীলন
+> - ফোল্ডারে ডান-ক্লিক করে এবং **Always keep on this device** নির্বাচন করে আপনার ভল্ট ফাইল সবসময় **Available Offline** রাখুন।
+> - সিঙ্কিং সমস্যা এড়াতে ভল্টের জন্য OneDrive-এর **Files On-Demand** বৈশিষ্ট্য ব্যবহার করা এড়িয়ে চলুন।
 
 ## Google Drive
 
-**Recommended systems**: `Windows`, `macOS`, `Android` (limited functionality on iOS)
+**সুপারিশকৃত সিস্টেম**: `Windows`, `macOS`, `Android` (iOS-এ সীমিত কার্যকারিতা)
 
-[Google Drive](https://support.google.com/drive/answer/10838124?hl=en) is another popular cloud storage solution. Although it's not officially supported for syncing Obsidian vaults, you can use third-party apps and plugins to sync across devices.
+[Google Drive](https://support.google.com/drive/answer/10838124?hl=en) আরেকটি জনপ্রিয় ক্লাউড সংরক্ষণ সমাধান। যদিও এটি Obsidian ভল্ট সিঙ্ক করার জন্য আনুষ্ঠানিকভাবে সমর্থিত নয়, আপনি ডিভাইসের মধ্যে সিঙ্ক করতে তৃতীয়-পক্ষের অ্যাপ এবং প্লাগইন ব্যবহার করতে পারেন।
 
-> [!info] iOS support
-> Google Drive is not officially supported for syncing Obsidian vaults on iOS. Consider using a third-party solution or plugin to sync on iOS.
+> [!info] iOS সমর্থন
+> Google Drive iOS-এ Obsidian ভল্ট সিঙ্ক করার জন্য আনুষ্ঠানিকভাবে সমর্থিত নয়। iOS-এ সিঙ্ক করতে একটি তৃতীয়-পক্ষের সমাধান বা প্লাগইন ব্যবহার করার কথা বিবেচনা করুন।
 
-**How to create and store your vault in Google Drive**:
+**কীভাবে আপনার ভল্ট Google Drive-এ তৈরি ও সংরক্ষণ করবেন**:
 
-1. **Set up Google Drive**:
-    - On Windows or macOS: Download the Google Drive app and sign in.
-    - On Android: Ensure Google Drive is enabled and signed in.
-2. **Create a new vault in Google Drive**:
-    - On Windows/macOS:
-        1. Open **File Explorer** (Windows) or **Finder** (macOS) and navigate to **Google Drive**.
-        2. Create a new folder (e.g., \"Obsidian Vault\").
-        3. Open **Obsidian**, select **Create new vault**, and select the Google Drive folder.
-3. **Open the vault on another device**:
-    - On another device, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**. Navigate to your Google Drive folder.
+1. **Google Drive সেট আপ করুন**:
+    - Windows বা macOS-এ: Google Drive অ্যাপ ডাউনলোড করুন এবং সাইন ইন করুন।
+    - Android-এ: নিশ্চিত করুন Google Drive সক্রিয় এবং সাইন ইন করা আছে।
+2. **Google Drive-এ একটি নতুন ভল্ট তৈরি করুন**:
+    - Windows/macOS-এ:
+        1. **File Explorer** (Windows) বা **Finder** (macOS) খুলুন এবং **Google Drive**-এ নেভিগেট করুন।
+        2. একটি নতুন ফোল্ডার তৈরি করুন (যেমন, "Obsidian Vault")।
+        3. **Obsidian** খুলুন, **নতুন ভল্ট তৈরি করুন** নির্বাচন করুন, এবং Google Drive ফোল্ডারটি নির্বাচন করুন।
+3. **অন্য একটি ডিভাইসে ভল্ট খুলুন**:
+    - অন্য একটি ডিভাইসে, **Obsidian** খুলুন, [[Manage vaults|ভল্ট সুইচার]]-এ যান, এবং **ফোল্ডারকে ভল্ট হিসেবে খুলুন** নির্বাচন করুন। আপনার Google Drive ফোল্ডারে নেভিগেট করুন।
 
-> [!tip] Best practices
-> - Set vault files to **Available Offline** in Google Drive to avoid syncing issues due to offloading.
-> - For iOS, consider alternative methods like [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]], or use the **Remotely Save** plugin.
+> [!tip] সর্বোত্তম অনুশীলন
+> - অফলোডিং-এর কারণে সিঙ্কিং সমস্যা এড়াতে Google Drive-এ ভল্ট ফাইলগুলোকে **Available Offline** হিসেবে সেট করুন।
+> - iOS-এর জন্য, [[Introduction to Obsidian Sync|Obsidian Sync]], [[#iCloud]]-এর মতো বিকল্প পদ্ধতি বিবেচনা করুন, অথবা **Remotely Save** প্লাগইন ব্যবহার করুন।
 
 ## Syncthing
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`
+**সুপারিশকৃত সিস্টেম**: `Windows`, `macOS`, `Linux`
 
-Syncthing is a decentralized file synchronization tool that doesn't rely on cloud storage. It syncs your vault directly between devices over the network or internet.
+Syncthing একটি বিকেন্দ্রীভূত ফাইল সিঙ্ক্রোনাইজেশন টুল যা ক্লাউড সংরক্ষণের উপর নির্ভর করে না। এটি নেটওয়ার্ক বা ইন্টারনেটের মাধ্যমে সরাসরি ডিভাইসের মধ্যে আপনার ভল্ট সিঙ্ক করে।
 
-> [!info]+ Android support
-> The official Syncthing Android app is no longer maintained. However, a community fork called [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) continues active development and can be used on Android devices.
+> [!info]+ Android সমর্থন
+> অফিসিয়াল Syncthing Android অ্যাপটি আর রক্ষণাবেক্ষণ করা হয় না। তবে, [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) নামে একটি কমিউনিটি ফর্ক সক্রিয় উন্নয়ন চালিয়ে যাচ্ছে এবং Android ডিভাইসে ব্যবহার করা যেতে পারে।
 
-**How to create and store your vault using Syncthing**:
+**কীভাবে Syncthing ব্যবহার করে আপনার ভল্ট তৈরি ও সংরক্ষণ করবেন**:
 
-1. **Set up Syncthing**:
-   - Install Syncthing on each device. Refer to the [Syncthing website](https://syncthing.net/) for installation guides.
-   - On Android, install [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) from the GitHub releases or F-Droid.
-2. **Create and configure a shared folder**:
-   - On all devices:
-     1. Open Syncthing and create a shared folder. Set the folder path to your Obsidian vault.
-     2. Ensure the same folder is selected on all devices.
-     3. Configure folder syncing preferences (e.g., **Send & Receive** for bidirectional syncing).
-3. **Open the vault in Obsidian**:
-   - Once the folder is synced across devices, open **Obsidian**, go to the [[Manage vaults|Vault switcher]], and select **Open folder as vault**.
+1. **Syncthing সেট আপ করুন**:
+   - প্রতিটি ডিভাইসে Syncthing ইনস্টল করুন। ইনস্টলেশন গাইডের জন্য [Syncthing ওয়েবসাইট](https://syncthing.net/) দেখুন।
+   - Android-এ, GitHub রিলিজ বা F-Droid থেকে [Syncthing-Fork](https://github.com/Catfriend1/syncthing-android) ইনস্টল করুন।
+2. **একটি শেয়ার করা ফোল্ডার তৈরি ও কনফিগার করুন**:
+   - সব ডিভাইসে:
+     1. Syncthing খুলুন এবং একটি শেয়ার করা ফোল্ডার তৈরি করুন। ফোল্ডারের পথ আপনার Obsidian ভল্টে সেট করুন।
+     2. নিশ্চিত করুন সব ডিভাইসে একই ফোল্ডার নির্বাচিত আছে।
+     3. ফোল্ডার সিঙ্কিং পছন্দসমূহ কনফিগার করুন (যেমন, দ্বিমুখী সিঙ্কিংয়ের জন্য **Send & Receive**)।
+3. **Obsidian-এ ভল্ট খুলুন**:
+   - একবার ফোল্ডারটি ডিভাইসগুলোর মধ্যে সিঙ্ক হয়ে গেলে, **Obsidian** খুলুন, [[Manage vaults|ভল্ট সুইচার]]-এ যান, এবং **ফোল্ডারকে ভল্ট হিসেবে খুলুন** নির্বাচন করুন।
 
-> [!info] Device availability
-> Syncthing works best when at least one device is always on to ensure continuous syncing.
+> [!info] ডিভাইসের উপলব্ধতা
+> Syncthing সবচেয়ে ভালো কাজ করে যখন অবিচ্ছিন্ন সিঙ্কিং নিশ্চিত করতে অন্তত একটি ডিভাইস সবসময় চালু থাকে।
 
-> [!tip] Best practices
-> - For local syncing, ensure all devices are connected to the same network.
-> - Exclude `.obsidian` from syncing if you want separate settings on each device.
-> - Use ignore patterns to avoid syncing temporary or backup files.
+> [!tip] সর্বোত্তম অনুশীলন
+> - স্থানীয় সিঙ্কিংয়ের জন্য, নিশ্চিত করুন সব ডিভাইস একই নেটওয়ার্কে সংযুক্ত আছে।
+> - প্রতিটি ডিভাইসে আলাদা সেটিং রাখতে চাইলে সিঙ্কিং থেকে `.obsidian` বাদ দিন।
+> - অস্থায়ী বা ব্যাকআপ ফাইল সিঙ্ক করা এড়াতে ইগনোর প্যাটার্ন ব্যবহার করুন।
 
 ## Git
 
-**Recommended systems**: `Windows`, `macOS`, `Linux`
+**সুপারিশকৃত সিস্টেম**: `Windows`, `macOS`, `Linux`
 
-**Git** is a version control system that allows you to track changes, collaborate with others, and sync your vaults through repositories like GitHub, GitLab, or a self-hosted server.
+**Git** একটি ভার্সন নিয়ন্ত্রণ সিস্টেম যা আপনাকে পরিবর্তন ট্র্যাক করতে, অন্যদের সাথে সহযোগিতা করতে, এবং GitHub, GitLab, বা একটি সেলফ-হোস্টেড সার্ভারের মতো রিপোজিটরির মাধ্যমে আপনার ভল্ট সিঙ্ক করতে দেয়।
 
-**How to sync your vault using Git**:
+**কীভাবে Git ব্যবহার করে আপনার ভল্ট সিঙ্ক করবেন**:
 
-1. **Set up a remote repository**:
-    - Create a repository on a Git hosting platform (e.g., GitHub, GitLab, or a self-hosted server).
-2. **Sync your vault**:
-    1. Open a terminal or Git GUI (e.g., GitKraken, Sourcetree).
-    2. Initialize a Git repository in your vault folder using `git init`.
-    3. Add the remote repository: `git remote add origin [URL]`.
-    4. Commit your changes: `git add .` and `git commit -m \"Your message\"`.
-    5. Push the changes: `git push origin main`.
-3. **Pull changes on other devices**:
-    - Clone the repository on another device and pull changes using `git pull origin main`.
+1. **একটি রিমোট রিপোজিটরি সেট আপ করুন**:
+    - একটি Git হোস্টিং প্ল্যাটফর্মে (যেমন, GitHub, GitLab, বা একটি সেলফ-হোস্টেড সার্ভার) একটি রিপোজিটরি তৈরি করুন।
+2. **আপনার ভল্ট সিঙ্ক করুন**:
+    1. একটি টার্মিনাল বা Git GUI (যেমন, GitKraken, Sourcetree) খুলুন।
+    2. `git init` ব্যবহার করে আপনার ভল্ট ফোল্ডারে একটি Git রিপোজিটরি ইনিশিয়ালাইজ করুন।
+    3. রিমোট রিপোজিটরি যোগ করুন: `git remote add origin [URL]`।
+    4. আপনার পরিবর্তনগুলো কমিট করুন: `git add .` এবং `git commit -m "Your message"`।
+    5. পরিবর্তনগুলো পুশ করুন: `git push origin main`।
+3. **অন্য ডিভাইসে পরিবর্তনগুলো পুল করুন**:
+    - অন্য একটি ডিভাইসে রিপোজিটরিটি ক্লোন করুন এবং `git pull origin main` ব্যবহার করে পরিবর্তনগুলো পুল করুন।
 
-> [!info] Manual syncing required
-> Git provides strong version control, but syncing isn't automatic. You must manually push and pull changes.
+> [!info] ম্যানুয়াল সিঙ্কিং প্রয়োজন
+> Git শক্তিশালী ভার্সন নিয়ন্ত্রণ প্রদান করে, কিন্তু সিঙ্কিং স্বয়ংক্রিয় নয়। আপনাকে ম্যানুয়ালি পরিবর্তনগুলো পুশ এবং পুল করতে হবে।
 
-## iPhone and iPad syncing
+## iPhone এবং iPad সিঙ্কিং
 
-**Recommended options**:
+**সুপারিশকৃত বিকল্প**:
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 - [[#iCloud]]
 
-> [!info] Avoid mixing sync services
-> Avoid syncing the same vault across multiple services (e.g., using both Obsidian Sync and iCloud simultaneously) to prevent data conflicts or corruption.
+> [!info] সিঙ্ক পরিষেবা মিশ্রিত করা এড়িয়ে চলুন
+> ডেটা দ্বন্দ্ব বা দুর্নীতি প্রতিরোধ করতে একাধিক পরিষেবা জুড়ে একই ভল্ট সিঙ্ক করা এড়িয়ে চলুন (যেমন, একই সাথে Obsidian Sync এবং iCloud উভয় ব্যবহার করা)।
 
-**Unsupported options**:
-The following services aren't officially supported on iOS, but users have found workarounds using third-party tools or plugins:
+**অসমর্থিত বিকল্প**:
+নিচের পরিষেবাগুলো iOS-এ আনুষ্ঠানিকভাবে সমর্থিত নয়, তবে ব্যবহারকারীরা তৃতীয়-পক্ষের টুল বা প্লাগইন ব্যবহার করে সমাধান খুঁজে পেয়েছেন:
 
 - Dropbox
 - Google Drive
 - OneDrive
 - Syncthing
 
-Some users have successfully used plugins like **Remotely Save** or **LiveSync** to sync vaults on iOS. However, these methods aren't officially supported, and results may vary.
+কিছু ব্যবহারকারী iOS-এ ভল্ট সিঙ্ক করতে সফলভাবে **Remotely Save** বা **LiveSync**-এর মতো প্লাগইন ব্যবহার করেছেন। তবে, এই পদ্ধতিগুলো আনুষ্ঠানিকভাবে সমর্থিত নয়, এবং ফলাফল ভিন্ন হতে পারে।
 
 ### Working Copy
 
-**Recommended systems**: `iOS`
-**Requires**: [[#Git]]
+**সুপারিশকৃত সিস্টেম**: `iOS`
+**প্রয়োজন**: [[#Git]]
 
-**Working Copy** is a Git client for iOS that allows you to clone, commit, and push changes to a Git repository. It works well for syncing Obsidian vaults via Git, though some features require a paid in-app purchase.
+**Working Copy** হলো iOS-এর জন্য একটি Git ক্লায়েন্ট যা আপনাকে একটি Git রিপোজিটরিতে ক্লোন, কমিট, এবং পুশ করতে দেয়। এটি Git-এর মাধ্যমে Obsidian ভল্ট সিঙ্ক করার জন্য ভালোভাবে কাজ করে, যদিও কিছু বৈশিষ্ট্যের জন্য একটি পেইড ইন-অ্যাপ ক্রয়ের প্রয়োজন হয়।
 
-**How to sync your vault using Working Copy**:
+**কীভাবে Working Copy ব্যবহার করে আপনার ভল্ট সিঙ্ক করবেন**:
 
-1. **Install Working Copy**:
-    - Download the **[Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807)** app on your iPhone or iPad.
-2. **Clone your Git repository**:
-    - Open Working Copy, tap **Add Repository**, and enter your repository URL (e.g., GitHub, GitLab).
-3. **Link repository to Obsidian**:
-    - Link the cloned repository folder to an empty vault in **Obsidian**.
-4. **Commit and push changes**:
-    - After editing notes in Obsidian, use Working Copy to **Commit** and **Push** changes to the remote repository.
-    - On other devices, pull changes using Git to sync the vault.
+1. **Working Copy ইনস্টল করুন**:
+    - আপনার iPhone বা iPad-এ **[Working Copy](https://apps.apple.com/us/app/working-copy-git-client/id896694807)** অ্যাপ ডাউনলোড করুন।
+2. **আপনার Git রিপোজিটরি ক্লোন করুন**:
+    - Working Copy খুলুন, **Add Repository** ট্যাপ করুন, এবং আপনার রিপোজিটরির URL লিখুন (যেমন, GitHub, GitLab)।
+3. **রিপোজিটরিটি Obsidian-এর সাথে লিঙ্ক করুন**:
+    - ক্লোন করা রিপোজিটরি ফোল্ডারটি **Obsidian**-এ একটি খালি ভল্টের সাথে লিঙ্ক করুন।
+4. **পরিবর্তনগুলো কমিট এবং পুশ করুন**:
+    - Obsidian-এ নোট সম্পাদনার পর, রিমোট রিপোজিটরিতে পরিবর্তনগুলো **Commit** এবং **Push** করতে Working Copy ব্যবহার করুন।
+    - অন্য ডিভাইসে, ভল্ট সিঙ্ক করতে Git ব্যবহার করে পরিবর্তনগুলো পুল করুন।
 
-> [!info] Community usage
-> While Working Copy isn't officially supported, many users have successfully used it to sync vaults with Git.
+> [!info] কমিউনিটি ব্যবহার
+> Working Copy আনুষ্ঠানিকভাবে সমর্থিত না হলেও, অনেক ব্যবহারকারী সফলভাবে এটি Git-এর সাথে ভল্ট সিঙ্ক করতে ব্যবহার করেছেন।
 
-## Frequently asked questions
+## সচরাচর জিজ্ঞাসিত প্রশ্ন
 
-**Why is my preferred syncing service not officially supported?**
+**আমার পছন্দের সিঙ্কিং পরিষেবা কেন আনুষ্ঠানিকভাবে সমর্থিত নয়?**
 
-Unlike some note-taking apps that access one file at a time, Obsidian requires access to the entire vault for its features (e.g., updating links when renaming a file). This makes it difficult for some services to function reliably with Obsidian.
+কিছু নোট-নেওয়ার অ্যাপ একবারে একটি ফাইল অ্যাক্সেস করে, তার বিপরীতে Obsidian-এর বৈশিষ্ট্যগুলোর জন্য (যেমন, একটি ফাইলের নাম পরিবর্তন করার সময় লিঙ্ক আপডেট করা) সম্পূর্ণ ভল্টে প্রবেশাধিকার প্রয়োজন। এটি কিছু পরিষেবার জন্য Obsidian-এর সাথে নির্ভরযোগ্যভাবে কাজ করা কঠিন করে তোলে।
 
-**Why do I need to keep files "Available Offline"?**
+**আমার কেন ফাইলগুলোকে "Available Offline" রাখতে হবে?**
 
-If services like OneDrive or iCloud offload files (e.g., using **Files On-Demand** or **Optimize Mac Storage**), Obsidian can't access them, causing sync issues. Mark your vault folder as **Always keep on this device** (OneDrive) or ensure **Keep Downloaded** is enabled (iCloud).
+OneDrive বা iCloud-এর মতো পরিষেবাগুলো যদি ফাইল অফলোড করে (যেমন, **Files On-Demand** বা **Optimize Mac Storage** ব্যবহার করে), তাহলে Obsidian সেগুলো অ্যাক্সেস করতে পারে না, যা সিঙ্কিং সমস্যা সৃষ্টি করে। আপনার ভল্ট ফোল্ডারকে **Always keep on this device** (OneDrive) হিসেবে চিহ্নিত করুন অথবা নিশ্চিত করুন **Keep Downloaded** (iCloud) সক্রিয় আছে।
 
-**How do I manage different configurations for my vaults?**
+**আমি কীভাবে আমার ভল্টের জন্য বিভিন্ন কনফিগারেশন পরিচালনা করব?**
 
-Obsidian allows you to customize the configuration folder per device using the [[Configuration folder|Config folders]] feature.
+[[Configuration folder|কনফিগ ফোল্ডার]] বৈশিষ্ট্য ব্যবহার করে Obsidian আপনাকে প্রতিটি ডিভাইসের জন্য কনফিগারেশন ফোল্ডার কাস্টমাইজ করতে দেয়।

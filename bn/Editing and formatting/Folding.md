@@ -1,24 +1,23 @@
 ---
-localized: null
 permalink: folding
 publish: true
 mobile: false
-description: Learn how to get a better overview of large notes by using folding to hide parts of the note
+description: বড় নোটের একটি ভালো ওভারভিউ পেতে কীভাবে ফোল্ডিং ব্যবহার করে নোটের অংশ লুকাবেন তা জানুন
 ---
 
-Learn how to get a better overview of large notes by using _folding_ to hide parts of the note. Folding is useful when creating outlines for your notes and when you want to focus on what you're working on at the moment.
+বড় নোটের একটি ভালো ওভারভিউ পেতে কীভাবে _ফোল্ডিং_ ব্যবহার করে নোটের অংশ লুকাবেন তা জানুন। ফোল্ডিং তখন কার্যকর, যখন আপনি আপনার নোটের জন্য রূপরেখা তৈরি করেন এবং যখন আপনি এই মুহূর্তে যা নিয়ে কাজ করছেন তার উপর মনোযোগ দিতে চান।
 
-You can fold headings and indented lists by hovering the mouse cursor over the section you want to fold, and then selecting the arrow on the left. Folded sections show an arrow regardless of if you hover it or not.
+আপনি যে অংশটি ভাঁজ করতে চান তার উপর মাউস কার্সর হোভার করে এবং তারপর বাম দিকের তীর চিহ্ন নির্বাচন করে হেডিং এবং ইনডেন্ট করা তালিকা ভাঁজ করতে পারেন। ভাঁজ করা অংশগুলো হোভার করা হোক বা না হোক, একটি তীর চিহ্ন দেখায়।
 
-Folding is turned on by default. To turn off folding, open **[[Settings]]** → **Editor**, and then turn off **Fold indent** or **Fold heading**, depending on your needs.
+ফোল্ডিং ডিফল্টভাবে চালু থাকে। ফোল্ডিং বন্ধ করতে, **[[Settings]]** → **Editor** খুলুন, এবং তারপর আপনার প্রয়োজন অনুযায়ী **Fold indent** বা **Fold heading** বন্ধ করুন।
 
-To toggle all sections at the same time, use the following commands:
+একই সময়ে সব অংশ টগল করতে, নিচের কমান্ডগুলো ব্যবহার করুন:
 
-- To collapse all sections, open the [[Command palette]], and then select **Fold all headings and lists**.
-- To expand all sections, open the [[Command palette]], and then select **Unfold all headings and lists**.
+- সব অংশ সংকুচিত করতে, [[Command palette]] খুলুন, এবং তারপর **Fold all headings and lists** নির্বাচন করুন।
+- সব অংশ প্রসারিত করতে, [[Command palette]] খুলুন, এবং তারপর **Unfold all headings and lists** নির্বাচন করুন।
 
-> [!tip] Tip
-> If you prefer to fold using your keyboard, you can assign [[Hotkeys|hotkeys]] to the **Fold less** and **Fold more** commands.
+> [!tip] টিপ
+> যদি আপনি আপনার কীবোর্ড ব্যবহার করে ভাঁজ করতে পছন্দ করেন, তাহলে আপনি **Fold less** এবং **Fold more** কমান্ডে [[Hotkeys|হট-কিই]] বরাদ্দ করতে পারেন।
 >
-> - **Fold less** unfolds the section at the text cursor.
-> - **Fold more** folds the section or list that contains the text cursor.
+> - **Fold less** টেক্সট কার্সরে থাকা অংশটি প্রসারিত করে।
+> - **Fold more** টেক্সট কার্সর ধারণকারী অংশ বা তালিকাটি ভাঁজ করে।

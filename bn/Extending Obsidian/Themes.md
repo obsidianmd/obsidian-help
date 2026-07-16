@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: themes
 ---
 
-Learn how to change the look and feel of Obsidian using themes built by the community.
+কমিউনিটি দ্বারা তৈরি থিম ব্যবহার করে কীভাবে Obsidian-এর চেহারা এবং অনুভূতি পরিবর্তন করবেন তা জানুন।
 
-## Browse themes
+## থিম অনুসন্ধান করুন
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage** to list all available community themes.
+1. **[[Settings]]** খুলুন।
+2. **অ্যাপিয়ারেন্স → থিম** এর অধীনে, সব উপলব্ধ কমিউনিটি থিমের তালিকা দেখতে **পরিচালনা করুন** নির্বাচন করুন।
 
-## Install a new theme
+## একটি নতুন থিম ইনস্টল করুন
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Install and use**.
+1. **[[Settings]]** খুলুন।
+2. **অ্যাপিয়ারেন্স → থিম** এর অধীনে, **পরিচালনা করুন** নির্বাচন করুন।
+3. আপনি যে থিমটি ব্যবহার করতে চান তা নির্বাচন করুন, এবং তারপর **ইনস্টল করে ব্যবহার করুন** নির্বাচন করুন।
 
-Obsidian installs the theme and immediately applies it. To revert back to the default theme, select **Stop using this theme**.
+Obsidian থিমটি ইনস্টল করে এবং সঙ্গে সঙ্গে এটি প্রয়োগ করে। ডিফল্ট থিমে ফিরে যেতে, **এই থিম ব্যবহার বন্ধ করুন** নির্বাচন করুন।
 
-## Update themes
+## থিম আপডেট করুন
 
-Themes don't update automatically. You can either update all themes at once, or update individual themes.
+থিমগুলো স্বয়ংক্রিয়ভাবে আপডেট হয় না। আপনি একসাথে সব থিম আপডেট করতে পারেন, অথবা পৃথক পৃথক থিম আপডেট করতে পারেন।
 
-To update all your themes:
+আপনার সব থিম আপডেট করতে:
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Current community themes**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+1. **[[Settings]]** খুলুন।
+2. **অ্যাপিয়ারেন্স → বর্তমান কমিউনিটি থিম** এর অধীনে, **আপডেট অনুসন্ধান করুন** নির্বাচন করুন।
+3. যদি আপডেট উপলব্ধ থাকে, **সব আপডেট করুন** নির্বাচন করুন।
 
-To update an individual theme:
+একটি নির্দিষ্ট থিম আপডেট করতে:
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to update, and then select **Check for updates**.
-4. If an update is available, select **Update**.
+1. **[[Settings]]** খুলুন।
+2. **অ্যাপিয়ারেন্স → থিম** এর অধীনে, **পরিচালনা করুন** নির্বাচন করুন।
+3. আপনি যে থিমটি আপডেট করতে চান তা নির্বাচন করুন, এবং তারপর **আপডেট অনুসন্ধান করুন** নির্বাচন করুন।
+4. যদি একটি আপডেট উপলব্ধ থাকে, **আপডেট** নির্বাচন করুন।
 
-## Uninstall an existing theme
+## একটি বিদ্যমান থিম আনইনস্টল করুন
 
-1. Open **[[Settings]]**.
-2. Under **Appearance → Themes**, select **Manage**.
-3. Select the theme you want to use, and then select **Uninstall**.
+1. **[[Settings]]** খুলুন।
+2. **অ্যাপিয়ারেন্স → থিম** এর অধীনে, **পরিচালনা করুন** নির্বাচন করুন।
+3. আপনি যে থিমটি ব্যবহার করতে চান তা নির্বাচন করুন, এবং তারপর **আনইনস্টল** নির্বাচন করুন।
 
-## Learn more
+## আরও জানুন
 
-Ready to build your own theme? Learn how to [Build a theme](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) or create [[CSS snippets]].
+নিজের থিম তৈরি করতে প্রস্তুত? [একটি থিম তৈরি করুন](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) সম্পর্কে জানুন বা [[CSS snippets]] তৈরি করুন।

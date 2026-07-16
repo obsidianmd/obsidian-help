@@ -1,35 +1,34 @@
 ---
-localized: null
 permalink: plugins/quick-switcher
-description: Quick switcher is a core plugin that lets you search and open notes using only your keyboard.
+description: কুইক সুইচার একটি কোর প্লাগইন যা আপনাকে শুধুমাত্র কীবোর্ড ব্যবহার করে নোট অনুসন্ধান এবং খুলতে দেয়।
 ---
-Quick switcher is a [[Core plugins|core plugin]] that lets you search and open notes using only your keyboard.
+কুইক সুইচার একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে শুধুমাত্র কীবোর্ড ব্যবহার করে নোট অনুসন্ধান এবং খুলতে দেয়।
 
-## Open Quick switcher
+## কুইক সুইচার খুলুন
 
-There are several ways to open Quick Switcher, when it's enabled:
-- Press `Ctrl+O` (or `Cmd+O` on macOS) to open the Quick switcher;
-- In the ribbon, click **Open Quick switcher** ![[lucide-file-search.svg#icon]];
-- On mobile, when you're not editing a note, tap the plus icon at bottom center of the app.
+কুইক সুইচার সক্রিয় থাকলে, এটি খোলার বেশ কয়েকটি উপায় রয়েছে:
+- কুইক সুইচার খুলতে `Ctrl+O` (বা macOS-এ `Cmd+O`) চাপুন;
+- রিবনে, **Open Quick switcher** ![[lucide-file-search.svg#icon]]-এ ক্লিক করুন;
+- মোবাইলে, আপনি যখন কোনো নোট সম্পাদনা করছেন না তখন অ্যাপের নিচের কেন্দ্রে প্লাস আইকনে ট্যাপ করুন।
 
-## Open a note with Quick switcher
+## কুইক সুইচার দিয়ে একটি নোট খুলুন
 
-1. [[#Open Quick switcher]].
-2. Type to search for a note by name or alias.
-3. Navigate to the note using the arrow keys.
-4. Press `Enter` to open the selected note.
+1. [[#কুইক সুইচার খুলুন]]।
+2. নাম বা উপনাম দিয়ে একটি নোট অনুসন্ধান করতে টাইপ করুন।
+3. অ্যারো কী ব্যবহার করে নোটে নেভিগেট করুন।
+4. নির্বাচিত নোটটি খুলতে `Enter` চাপুন।
 
 > [!info] 
-> Autocomplete functionality switches to a simpler result algorithm when the vault reaches 10,000 items to maintain optimal application performance. 
+> অ্যাপ্লিকেশনের সর্বোত্তম কর্মক্ষমতা বজায় রাখতে ভল্ট ১০,০০০ আইটেমে পৌঁছালে অটোকমপ্লিট কার্যকারিতা একটি সরল ফলাফল অ্যালগরিদমে স্যুইচ করে। 
 ^search-autocomplete-large
 
-If the text doesn't match any notes, you can press `Enter` to create a note with that name. Even if the text matches one or more similar notes, you can still create a note with the exact name by pressing `Shift+Enter`.
+টেক্সটটি কোনো নোটের সাথে না মিললে, আপনি সেই নামে একটি নোট তৈরি করতে `Enter` চাপতে পারেন। টেক্সটটি একটি বা একাধিক অনুরূপ নোটের সাথে মিললেও, আপনি `Shift+Enter` চেপে ঠিক সেই নামে একটি নোট তৈরি করতে পারেন।
 
-You can open the selected note in a new tab by pressing `Ctrl+Enter` (or `Cmd+Enter` on macOS).
+আপনি `Ctrl+Enter` (বা macOS-এ `Cmd+Enter`) চেপে নির্বাচিত নোটটি একটি নতুন ট্যাবে খুলতে পারেন।
 
-> [!tip] Toggle between two notes
-> If the search term is empty, the Quick switcher shows the most recent notes. Toggle between two notes by opening the Quick switcher, pressing the `Down` arrow, and then pressing `Enter`.
+> [!tip] দুটি নোটের মধ্যে টগল করুন
+> অনুসন্ধান টার্মটি খালি থাকলে, কুইক সুইচার সবচেয়ে সাম্প্রতিক নোটগুলি দেখায়। কুইক সুইচার খুলে, `Down` অ্যারো চেপে, এবং তারপর `Enter` চেপে দুটি নোটের মধ্যে টগল করুন।
 
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns are deprioritized in Quick switcher results.
+> [!info] বাদ দেয়া ফাইল
+> আপনার [[Settings#Excluded files|বাদ দেয়া ফাইল]] প্যাটার্নের সাথে মিলে যাওয়া ফাইলগুলি কুইক সুইচার ফলাফলে কম অগ্রাধিকার পায়।

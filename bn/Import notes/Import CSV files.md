@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: import/csv
 ---
-Obsidian lets you import data from CSV files using the official [[Importer|Importer plugin]]. This is useful if you have data tabular stored in apps such as Excel, Google Sheets, Numbers, Notion, or Airtable.
+Obsidian আপনাকে অফিসিয়াল [[Importer|Importer প্লাগইন]] ব্যবহার করে CSV ফাইল থেকে ডেটা ইম্পোর্ট করতে দেয়। এটি তখন কাজে আসে যখন আপনার কাছে Excel, Google Sheets, Numbers, Notion, বা Airtable-এর মতো অ্যাপে সংরক্ষিত টেবুলার ডেটা থাকে।
 
-CSV import generates Markdown files for each row and a [[Introduction to Bases|Base]] file that displays all the imported files as a table.
+CSV ইম্পোর্ট প্রতিটি সারির জন্য Markdown ফাইল এবং সমস্ত ইম্পোর্ট করা ফাইলকে একটি টেবিল হিসেবে প্রদর্শন করে এমন একটি [[Introduction to Bases|Base]] ফাইল তৈরি করে।
 
-If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
+আপনি যদি কোনো নির্দিষ্ট অ্যাপ থেকে নোট ইম্পোর্ট করছেন, তাহলে প্রথমে [[Importer|Importer প্লাগইন]] দ্বারা সমর্থিত অ্যাপের তালিকা পর্যালোচনা করে দেখে নিতে পারেন যে কোনো নির্দিষ্ট কনভার্টার আছে কিনা যা আপনার মাইগ্রেট করা ডেটা আরও ভালোভাবে সংরক্ষণ করবে।
 
-## Create notes from CSV data in Obsidian
+## Obsidian-এ CSV ডেটা থেকে নোট তৈরি করুন
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+আপনার অফিসিয়াল Obsidian [[Importer]] প্লাগইন প্রয়োজন হবে, যা আপনি [এখানে ইনস্টল করতে পারেন](obsidian://show-plugin?id=obsidian-importer)।
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **CSV (.csv).**
-6. Select the location of your CSV file.
-7. Click **Import** to configure how data in your CSV file will be converted to notes with [[Properties]].
-8. Click **Continue** and wait until import is complete.
-9. You're done!
+1. **[[Settings]]** খুলুন।
+2. **Community Plugins**-এ যান এবং [Importer ইনস্টল করুন](obsidian://show-plugin?id=obsidian-importer)।
+3. Importer প্লাগইন চালু করুন।
+4. কমান্ড প্যালেট বা রিবন আইকন ব্যবহার করে **Importer** প্লাগইন খুলুন।
+5. **File format**-এর অধীনে **CSV (.csv)** নির্বাচন করুন।
+6. আপনার CSV ফাইলের অবস্থান নির্বাচন করুন।
+7. আপনার CSV ফাইলের ডেটা কীভাবে [[Properties]]-সহ নোটে রূপান্তরিত হবে তা কনফিগার করতে **Import**-এ ক্লিক করুন।
+8. **Continue**-এ ক্লিক করুন এবং ইম্পোর্ট সম্পূর্ণ না হওয়া পর্যন্ত অপেক্ষা করুন।
+9. আপনার কাজ শেষ!
 
-## Configure how CSV fields are imported
+## CSV ফিল্ড কীভাবে ইম্পোর্ট করা হয় তা কনফিগার করুন
 
-In the second step of the CSV import, you can choose how data is imported using a template.
+CSV ইম্পোর্টের দ্বিতীয় ধাপে, আপনি একটি টেমপ্লেট ব্যবহার করে ডেটা কীভাবে ইম্পোর্ট করা হবে তা বেছে নিতে পারেন।
 
-Each column in your CSV file is attributed a variable called `{{column_name}}` which represents the name of the header in your file. You can use this variable to define the note's title, location, content, and [[Properties|properties]].
+আপনার CSV ফাইলের প্রতিটি কলামকে `{{column_name}}` নামের একটি ভেরিয়েবল দেওয়া হয় যা আপনার ফাইলের হেডারের নাম প্রতিনিধিত্ব করে। আপনি এই ভেরিয়েবলটি নোটের শিরোনাম, অবস্থান, কনটেন্ট এবং [[Properties|প্রপার্টি]] নির্ধারণ করতে ব্যবহার করতে পারেন।

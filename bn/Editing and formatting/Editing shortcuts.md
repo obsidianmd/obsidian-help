@@ -1,133 +1,132 @@
 ---
-localized: null
 permalink: editing-shortcuts
 ---
 
-This page lists default keyboard shortcuts for navigating and editing text in Obsidian. These shortcuts are provided by your operating system or the framework Obsidian is built on, and cannot be customized within Obsidian.
+এই পাতায় Obsidian-এ টেক্সট নেভিগেট এবং সম্পাদনার জন্য ডিফল্ট কীবোর্ড শর্টকাটের তালিকা দেওয়া হয়েছে। এই শর্টকাটগুলো আপনার অপারেটিং সিস্টেম বা Obsidian যে ফ্রেমওয়ার্কের উপর তৈরি, তা দ্বারা প্রদান করা হয়, এবং Obsidian-এর মধ্যে এগুলো কাস্টমাইজ করা যায় না।
 
-For customizable keyboard shortcuts for Obsidian commands, see [[Hotkeys]].
+Obsidian কমান্ডের জন্য কাস্টমাইজযোগ্য কীবোর্ড শর্টকাটের জন্য, [[Hotkeys]] দেখুন।
 
-## Windows and Linux shortcuts
+## Windows এবং Linux শর্টকাট
 
-### Common actions
+### সাধারণ কার্যক্রম
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 |-|-|
-| Copy | `Ctrl+C` |
-| Cut | `Ctrl+X` |
-| Paste | `Ctrl+V` |
-| Paste without formatting | `Ctrl+Shift+V` |
-| Undo | `Ctrl+Z` |
-| Redo | `Ctrl+Shift+Z` or `Ctrl+Y` |
-| Copy paragraph | `Ctrl+C` (with no selected text) |
-| Cut paragraph | `Ctrl+X` (with no selected text) |
+| কপি | `Ctrl+C` |
+| কাট | `Ctrl+X` |
+| পেস্ট | `Ctrl+V` |
+| ফরম্যাটিং ছাড়া পেস্ট | `Ctrl+Shift+V` |
+| পূর্বাবস্থা | `Ctrl+Z` |
+| পুনরায় করা | `Ctrl+Shift+Z` or `Ctrl+Y` |
+| অনুচ্ছেদ কপি করা | `Ctrl+C` (নির্বাচিত টেক্সট ছাড়া) |
+| অনুচ্ছেদ কাট করা | `Ctrl+X` (নির্বাচিত টেক্সট ছাড়া) |
 
-### Text editing
+### টেক্সট সম্পাদনা
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 |-|-|
-| Insert new line| `Enter` |
-| Delete the previous character | `Backspace` |
-| Delete the next character | `Delete` |
-| Delete the previous word | `Ctrl+Backspace` |
-| Delete the next word | `Ctrl+Delete` |
-| Delete the current line | `Ctrl+Shift+K` (with no selected text) |
+| নতুন লাইন যোগ করা | `Enter` |
+| পূর্ববর্তী অক্ষর মুছে ফেলা | `Backspace` |
+| পরবর্তী অক্ষর মুছে ফেলা | `Delete` |
+| পূর্ববর্তী শব্দ মুছে ফেলা | `Ctrl+Backspace` |
+| পরবর্তী শব্দ মুছে ফেলা | `Ctrl+Delete` |
+| বর্তমান লাইন মুছে ফেলা | `Ctrl+Shift+K` (নির্বাচিত টেক্সট ছাড়া) |
 
-### Text navigation
+### টেক্সট নেভিগেশন
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 |-|-|
-| Move the cursor one character | `Left/→` |
-| Move the cursor to the beginning of the previous word | `Ctrl+←` |
-| Move the cursor to the end of the next word | `Ctrl+→` |
-| Move the cursor to the beginning of the current line | `Home` |
-| Move the cursor to the end of the current line | `End` |
-| Move the cursor to the previous line | `↑` |
-| Move the cursor to the next line | `↓` |
-| Move the cursor to the beginning of the note | `Ctrl+Home` |
-| Move the cursor to the end of the note | `Ctrl+End` |
-| Move the cursor up one page | `Page up` |
-| Move the cursor down one page | `Page down` |
+| কার্সরকে একটি অক্ষর সরানো | `Left/→` |
+| কার্সরকে পূর্ববর্তী শব্দের শুরুতে সরানো | `Ctrl+←` |
+| কার্সরকে পরবর্তী শব্দের শেষে সরানো | `Ctrl+→` |
+| কার্সরকে বর্তমান লাইনের শুরুতে সরানো | `Home` |
+| কার্সরকে বর্তমান লাইনের শেষে সরানো | `End` |
+| কার্সরকে পূর্ববর্তী লাইনে সরানো | `↑` |
+| কার্সরকে পরবর্তী লাইনে সরানো | `↓` |
+| কার্সরকে নোটের শুরুতে সরানো | `Ctrl+Home` |
+| কার্সরকে নোটের শেষে সরানো | `Ctrl+End` |
+| কার্সরকে একটি পৃষ্ঠা উপরে সরানো | `Page up` |
+| কার্সরকে একটি পৃষ্ঠা নিচে সরানো | `Page down` |
 
-### Text selection
+### টেক্সট নির্বাচন
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 |-|-|
-| Simplify selection | `Escape` |
-| Select all | `Ctrl+A` |
-| Extend selection one character | `Shift+Left/→` |
-| Extend selection to the beginning of the previous word | `Ctrl+Shift+←` |
-| Extend selection to the end of the next word | `Ctrl+Shift+→` |
-| Extend selection to the beginning of the current line | `Shift+Home` |
-| Extend selection to the end of the current line | `Shift+End` |
-| Extend selection to the beginning of the note | `Ctrl+Shift+Home` |
-| Extend selection to the end of the note | `Ctrl+Shift+End` |
-| Extend selection one page up | `Shift+Page up` |
-| Extend selection one page down | `Shift+Page down` |
+| নির্বাচন সরলীকরণ করা | `Escape` |
+| সব নির্বাচন করা | `Ctrl+A` |
+| নির্বাচন একটি অক্ষর বাড়ানো | `Shift+Left/→` |
+| নির্বাচন পূর্ববর্তী শব্দের শুরু পর্যন্ত বাড়ানো | `Ctrl+Shift+←` |
+| নির্বাচন পরবর্তী শব্দের শেষ পর্যন্ত বাড়ানো | `Ctrl+Shift+→` |
+| নির্বাচন বর্তমান লাইনের শুরু পর্যন্ত বাড়ানো | `Shift+Home` |
+| নির্বাচন বর্তমান লাইনের শেষ পর্যন্ত বাড়ানো | `Shift+End` |
+| নির্বাচন নোটের শুরু পর্যন্ত বাড়ানো | `Ctrl+Shift+Home` |
+| নির্বাচন নোটের শেষ পর্যন্ত বাড়ানো | `Ctrl+Shift+End` |
+| নির্বাচন এক পৃষ্ঠা উপরে বাড়ানো | `Shift+Page up` |
+| নির্বাচন এক পৃষ্ঠা নিচে বাড়ানো | `Shift+Page down` |
 
-## macOS shortcuts
+## macOS শর্টকাট
 
-### Common actions
+### সাধারণ কার্যক্রম
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 |-|-|
-| Copy | `Cmd+C` |
-| Cut | `Cmd+X` |
-| Paste | `Cmd+V` |
-| Paste without formatting | `Cmd+Shift+V` |
-| Undo | `Cmd+Z` |
-| Redo | `Cmd+Shift+Z` |
-| Copy paragraph | `Cmd+C` (with no selected text) |
-| Cut paragraph | `Cmd+X` (with no selected text) |
+| কপি | `Cmd+C` |
+| কাট | `Cmd+X` |
+| পেস্ট | `Cmd+V` |
+| ফরম্যাটিং ছাড়া পেস্ট | `Cmd+Shift+V` |
+| পূর্বাবস্থা | `Cmd+Z` |
+| পুনরায় করা | `Cmd+Shift+Z` |
+| অনুচ্ছেদ কপি করা | `Cmd+C` (নির্বাচিত টেক্সট ছাড়া) |
+| অনুচ্ছেদ কাট করা | `Cmd+X` (নির্বাচিত টেক্সট ছাড়া) |
 
-### Text formatting
+### টেক্সট ফরম্যাটিং
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 | ---- | ---- |
-| Bold text | `Cmd+B` |
-| Italic text | `Cmd+I` |
+| বোল্ড টেক্সট | `Cmd+B` |
+| ইটালিক টেক্সট | `Cmd+I` |
 
-### Text editing
+### টেক্সট সম্পাদনা
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 |-|-|
-| Insert new line| `Enter` |
-| Delete the previous character | `Backspace` |
-| Delete the next character | `Delete` |
-| Delete the previous word | `Option+Backspace` |
-| Delete the next word | `Option+Delete` |
-| Delete to the beginning of the current line | `Cmd+Backspace` |
-| Delete to the end of the current line | `Cmd+Delete` |
-| Delete the current line | `Cmd+Shift+K` (with no selected text) |
+| নতুন লাইন যোগ করা | `Enter` |
+| পূর্ববর্তী অক্ষর মুছে ফেলা | `Backspace` |
+| পরবর্তী অক্ষর মুছে ফেলা | `Delete` |
+| পূর্ববর্তী শব্দ মুছে ফেলা | `Option+Backspace` |
+| পরবর্তী শব্দ মুছে ফেলা | `Option+Delete` |
+| বর্তমান লাইনের শুরু পর্যন্ত মুছে ফেলা | `Cmd+Backspace` |
+| বর্তমান লাইনের শেষ পর্যন্ত মুছে ফেলা | `Cmd+Delete` |
+| বর্তমান লাইন মুছে ফেলা | `Cmd+Shift+K` (নির্বাচিত টেক্সট ছাড়া) |
 
-### Text navigation
+### টেক্সট নেভিগেশন
 
-| Action | Shortcut |
+| কার্যক্রম | শর্টকাট |
 |-|-|
-| Move the cursor one character | `Left/→` |
-| Move the cursor to the beginning of the previous word | `Option+←` |
-| Move the cursor to the end of the next word | `Option+→` |
-| Move the cursor to the beginning of the current line | `Cmd+←` |
-| Move the cursor to the end of the current line | `Cmd+→` |
-| Move the cursor to the previous line | `↑` |
-| Move the cursor to the next line | `↓` |
-| Move the cursor to the beginning of the note | `Cmd+↑` |
-| Move the cursor to the end of the note | `Cmd+↓` |
-| Move the cursor up one page | `Fn+↑` |
-| Move the cursor down one page | `Fn+↓` |
+| কার্সরকে একটি অক্ষর সরানো | `Left/→` |
+| কার্সরকে পূর্ববর্তী শব্দের শুরুতে সরানো | `Option+←` |
+| কার্সরকে পরবর্তী শব্দের শেষে সরানো | `Option+→` |
+| কার্সরকে বর্তমান লাইনের শুরুতে সরানো | `Cmd+←` |
+| কার্সরকে বর্তমান লাইনের শেষে সরানো | `Cmd+→` |
+| কার্সরকে পূর্ববর্তী লাইনে সরানো | `↑` |
+| কার্সরকে পরবর্তী লাইনে সরানো | `↓` |
+| কার্সরকে নোটের শুরুতে সরানো | `Cmd+↑` |
+| কার্সরকে নোটের শেষে সরানো | `Cmd+↓` |
+| কার্সরকে একটি পৃষ্ঠা উপরে সরানো | `Fn+↑` |
+| কার্সরকে একটি পৃষ্ঠা নিচে সরানো | `Fn+↓` |
 
-### Text selection
+### টেক্সট নির্বাচন
 
-| Action                                                 | Shortcut                   |
+| কার্যক্রম                                                 | শর্টকাট                   |
 | ------------------------------------------------------ | -------------------------- |
-| Simplify selection                                     | `Escape`                   |
-| Select all                                             | `Cmd+A`                    |
-| Extend selection one character                         | `Shift+Left/→`   |
-| Extend selection to the beginning of the previous word | `Option+Shift+←`  |
-| Extend selection to the end of the next word           | `Option+Shift+→` |
-| Extend selection to the beginning of the current line  | `Cmd+Shift+←`              |
-| Extend selection to the end of the current line        | `Cmd+Shift+→`    |
-| Extend selection to the beginning of the note          | `Cmd+Shift+↑`       |
-| Extend selection to the end of the note                | `Cmd+Shift+↓`     |
-| Extend selection one page up                           | `Ctrl+Shift+↑`      |
-| Extend selection one page down                         | `Ctrl+Shift+↓`    |
+| নির্বাচন সরলীকরণ করা                                    | `Escape`                   |
+| সব নির্বাচন করা                                          | `Cmd+A`                    |
+| নির্বাচন একটি অক্ষর বাড়ানো                              | `Shift+Left/→`   |
+| নির্বাচন পূর্ববর্তী শব্দের শুরু পর্যন্ত বাড়ানো            | `Option+Shift+←`  |
+| নির্বাচন পরবর্তী শব্দের শেষ পর্যন্ত বাড়ানো               | `Option+Shift+→` |
+| নির্বাচন বর্তমান লাইনের শুরু পর্যন্ত বাড়ানো              | `Cmd+Shift+←`              |
+| নির্বাচন বর্তমান লাইনের শেষ পর্যন্ত বাড়ানো               | `Cmd+Shift+→`    |
+| নির্বাচন নোটের শুরু পর্যন্ত বাড়ানো                       | `Cmd+Shift+↑`       |
+| নির্বাচন নোটের শেষ পর্যন্ত বাড়ানো                        | `Cmd+Shift+↓`     |
+| নির্বাচন এক পৃষ্ঠা উপরে বাড়ানো                           | `Ctrl+Shift+↑`      |
+| নির্বাচন এক পৃষ্ঠা নিচে বাড়ানো                           | `Ctrl+Shift+↓`    |

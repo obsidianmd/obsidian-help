@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: plugins/web-viewer
 ---
-Web viewer is a [[Core plugins|core plugin]] that lets you open external links within Obsidian on desktop. This lets you reading link content without leaving the app and makes multitasking on web research projects easier.
+ওয়েব ভিউয়ার একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে ডেস্কটপে Obsidian-এর ভেতরেই বহিরাগত লিঙ্ক খুলতে দেয়। এটি আপনাকে অ্যাপ থেকে বের না হয়ে লিঙ্কের বিষয়বস্তু পড়তে দেয় এবং ওয়েব রিসার্চ প্রজেক্টে মাল্টিটাস্কিং সহজ করে তোলে।
 
-External links open as a [[Tabs|tab]] which you can rearrange, split, and open in a [[pop-out windows|pop-out window]]. Any web page cards embedded in [[canvas]] files can be opened as web viewer tabs.
+বহিরাগত লিঙ্কগুলি একটি [[Tabs|ট্যাব]] হিসেবে খোলে যা আপনি পুনরায় সাজাতে, বিভক্ত করতে, এবং একটি [[pop-out windows|পপ-আউট উইন্ডোতে]] খুলতে পারেন। [[canvas]] ফাইলে এম্বেড করা যেকোনো ওয়েব পেজ কার্ড ওয়েব ভিউয়ার ট্যাব হিসেবে খোলা যেতে পারে।
 
-Web viewer is not a replacement for your primary browser. Web viewer provides a quick way to access web pages for research within Obsidian. However, it does not offer the full functionality, security controls, or extensibility of a dedicated browser.
+ওয়েব ভিউয়ার আপনার প্রাথমিক ব্রাউজারের বিকল্প নয়। ওয়েব ভিউয়ার Obsidian-এর ভেতরে রিসার্চের জন্য ওয়েব পেজে দ্রুত প্রবেশের একটি উপায় প্রদান করে। তবে, এটি একটি ডেডিকেটেড ব্রাউজারের সম্পূর্ণ কার্যকারিতা, নিরাপত্তা নিয়ন্ত্রণ, বা এক্সটেনসিবিলিটি প্রদান করে না।
 
-## Reader view
+## রিডার ভিউ
 
-Click the glasses icon to view a plain text version of the web page. This feature works by cleaning the content using Mozilla's Readability library developed for Firefox.
+একটি ওয়েব পেজের প্লেইন টেক্সট সংস্করণ দেখতে চশমার আইকনে ক্লিক করুন। এই বৈশিষ্ট্যটি Firefox-এর জন্য তৈরি Mozilla-এর Readability লাইব্রেরি ব্যবহার করে বিষয়বস্তু পরিষ্কার করে কাজ করে।
 
-## Save to vault
+## ভল্টে সংরক্ষণ করুন
 
-Click the more actions icon to save a web page to your vault. You can customize the save page location by going to **[[Settings]]** → **Web viewer**.
+আপনার ভল্টে একটি ওয়েব পেজ সংরক্ষণ করতে আরও কার্যক্রম আইকনে ক্লিক করুন। আপনি **[[Settings]]** → **Web viewer**-এ গিয়ে সংরক্ষণের পেজ অবস্থান কাস্টমাইজ করতে পারেন।
 
-## Ad blocking
+## অ্যাড ব্লকিং
 
-Web viewer blocks ads by default. You can customize ad blocking rules by adding lists such as [Easylist](https://easylist.to/). 
+ওয়েব ভিউয়ার ডিফল্টভাবে বিজ্ঞাপন ব্লক করে। আপনি [Easylist](https://easylist.to/)-এর মতো তালিকা যোগ করে অ্যাড ব্লকিং নিয়ম কাস্টমাইজ করতে পারেন।
 
-## Security
+## নিরাপত্তা
 
-If you use third-party Obsidian plugins, we recommend using your primary browser for sensitive tasks and password-protected websites instead of Web viewer.
+আপনি যদি তৃতীয় পক্ষের Obsidian প্লাগইন ব্যবহার করেন, তাহলে আমরা সংবেদনশীল কাজ এবং পাসওয়ার্ড-সুরক্ষিত ওয়েবসাইটের জন্য ওয়েব ভিউয়ারের পরিবর্তে আপনার প্রাথমিক ব্রাউজার ব্যবহার করার সুপারিশ করি।
 
-Web viewer is based on the same [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) feature that lets you embed web pages in [[Canvas]]. Web viewer has been [independently audited](https://obsidian.md/blog/cure53-second-client-audit/) to verify that it has been safely implemented.
+ওয়েব ভিউয়ার একই [Chromium](https://developer.chrome.com/docs/apps/reference/webviewTag) বৈশিষ্ট্যের উপর ভিত্তি করে তৈরি যা আপনাকে [[Canvas]]-এ ওয়েব পেজ এম্বেড করতে দেয়। ওয়েব ভিউয়ার নিরাপদভাবে বাস্তবায়িত হয়েছে তা যাচাই করতে [স্বাধীনভাবে অডিট করা হয়েছে](https://obsidian.md/blog/cure53-second-client-audit/)।
 
-Obsidian plugins [[Plugin security#Plugin capabilities|are not sandboxed]] and have deep control over the app. This design enables powerful functionality but also comes with security trade-offs. While Obsidian is running, third-party plugins have full access to cookies in Web viewer.
+Obsidian প্লাগইনগুলি [[Plugin security#প্লাগইনের সক্ষমতা|স্যান্ডবক্সড নয়]] এবং অ্যাপের উপর গভীর নিয়ন্ত্রণ রাখে। এই ডিজাইন শক্তিশালী কার্যকারিতা সক্ষম করে কিন্তু নিরাপত্তা ট্রেড-অফও নিয়ে আসে। Obsidian চলাকালীন, তৃতীয় পক্ষের প্লাগইনগুলির ওয়েব ভিউয়ারের কুকিতে সম্পূর্ণ প্রবেশাধিকার থাকে।

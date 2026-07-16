@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: credit
 ---
-Obsidian Credit is a type of prepaid credit that can be bought in advance and applied toward purchases of any Obsidian service or license. Obsidian Credit can be [[#Gifting|gifted]] to other Obsidian users, such as friends, family, and coworkers.
+Obsidian Credit হলো একধরনের প্রিপেইড ক্রেডিট যা আগে থেকে কেনা যায় এবং যেকোনো Obsidian সেবা বা লাইসেন্স কেনার সময় প্রয়োগ করা যায়। Obsidian Credit অন্যান্য Obsidian ব্যবহারকারী, যেমন বন্ধু, পরিবার এবং সহকর্মীদের [[#Gifting|উপহার]] হিসেবে দেওয়া যায়।
 
-Obsidian Credit will be applied before any payment is due, including auto-renewals. Obsidian Credit **is not** eligible for a refund per our [[Refund policy]].
+যেকোনো পেমেন্টের আগে, স্বয়ংক্রিয়-নবায়ন সহ, Obsidian Credit প্রয়োগ করা হবে। আমাদের [[Refund policy|ফেরত নীতি]] অনুযায়ী Obsidian Credit ফেরতের **যোগ্য নয়**।
 
-## Add credit
+## ক্রেডিট যোগ করুন
 
-1. Log into [your Obsidian account](https://obsidian.md/account/billing).
-2. In the [Billing](https://obsidian.md/account/billing) section, go to **Obsidian Credit** and choose **Buy credit**.
-3. Enter the amount of Obsidian Credit you want to buy. The amount is in US dollars.
-4. Proceed to pay for the credit with any of the supported payment methods.
+1. [আপনার Obsidian অ্যাকাউন্টে](https://obsidian.md/account/billing) লগ ইন করুন।
+2. [Billing](https://obsidian.md/account/billing) বিভাগে, **Obsidian Credit**-এ যান এবং **Buy credit** নির্বাচন করুন।
+3. আপনি যে পরিমাণ Obsidian Credit কিনতে চান তা লিখুন। পরিমাণটি মার্কিন ডলারে।
+4. সমর্থিত যেকোনো পেমেন্ট পদ্ধতি দিয়ে ক্রেডিটের জন্য পেমেন্ট এগিয়ে নিন।
 
-> [!Note] Sales tax
-> Any applicable [[sales tax]] will be charged when you make a purchase of a product, such as Obsidian Sync, not when you buy Obsidian Credit.
+> [!Note] সেলস ট্যাক্স
+> কোনো পণ্য, যেমন Obsidian Sync কেনার সময় প্রযোজ্য যেকোনো [[Sales tax|সেলস ট্যাক্স]] চার্জ করা হবে, Obsidian Credit কেনার সময় নয়।
 >
-> If you plan to cover auto-renewals with your credit, please keep this factor in mind.
+> আপনি যদি আপনার ক্রেডিট দিয়ে স্বয়ংক্রিয়-নবায়ন কভার করার পরিকল্পনা করেন, তাহলে অনুগ্রহ করে এই বিষয়টি মাথায় রাখুন।
 
-## Gifting
+## উপহার দেওয়া
 
-Although Obsidian is completely free to use, you can give the gift of Obsidian Credit to help someone get an add-on service like [[Introduction to Obsidian Sync|Obsidian Sync]] or a [[Commercial license|Commercial license]] for using Obsidian at work.
+যদিও Obsidian সম্পূর্ণ বিনামূল্যে ব্যবহার করা যায়, আপনি কাউকে [[Introduction to Obsidian Sync|Obsidian Sync]]-এর মতো একটি অ্যাড-অন সেবা বা কাজে Obsidian ব্যবহারের জন্য একটি [[Commercial license|Commercial লাইসেন্স]] পেতে সাহায্য করতে Obsidian Credit উপহার দিতে পারেন।
 
-Please note that Obsidian Credit **cannot** be re-gifted once claimed. The original recipient will not be able to transfer or share it with others.
+দয়া করে লক্ষ্য করুন, একবার দাবি করা হয়ে গেলে Obsidian Credit **পুনরায় উপহার দেওয়া যায় না**। মূল প্রাপক এটি অন্য কারো কাছে স্থানান্তর বা শেয়ার করতে পারবেন না।
 
-## Give Obsidian Credit
+## Obsidian Credit উপহার দিন
 
-In Obsidian, you don't gift a particular product, but rather Obsidian Credit that can be used towards anything. It's like an Obsidian gift card.
+Obsidian-এ, আপনি কোনো নির্দিষ্ট পণ্য উপহার দেন না, বরং এমন Obsidian Credit উপহার দেন যা যেকোনো কিছুর জন্য ব্যবহার করা যায়। এটি অনেকটা একটি Obsidian গিফট কার্ডের মতো।
 
-1. If you don't already have [[Obsidian Credit]], you must first [[Obsidian Credit#Add credit|purchase credit]].
-2. Go to the [Billing](https://obsidian.md/account/billing) section of your account, and choose **Send credit**.
-3. Follow the instructions to either get a redeem link to send yourself, or have us send an anonymized email to the recipient.
-4. Click **Send gift** to complete the gifting. You will be sent an email confirmation.
-5. After you send out a gift, you can view it under **Billing → Gift history**. You can see the status of each gift, and cancel the ones that haven't been redeemed yet.
+1. আপনার কাছে যদি ইতিমধ্যে [[Obsidian Credit]] না থাকে, তাহলে আপনাকে প্রথমে [[Obsidian Credit#Add credit|ক্রেডিট কিনতে]] হবে।
+2. আপনার অ্যাকাউন্টের [Billing](https://obsidian.md/account/billing) বিভাগে যান এবং **Send credit** নির্বাচন করুন।
+3. নিজের কাছে পাঠানোর জন্য একটি রিডিম লিঙ্ক পেতে, অথবা আমাদের কাছে প্রাপকের কাছে একটি বেনামী ইমেইল পাঠাতে দেওয়ার নির্দেশাবলী অনুসরণ করুন।
+4. উপহার দেওয়া সম্পন্ন করতে **Send gift**-এ ক্লিক করুন। আপনাকে একটি ইমেইল নিশ্চিতকরণ পাঠানো হবে।
+5. একটি উপহার পাঠানোর পর, আপনি এটি **Billing → Gift history**-এর অধীনে দেখতে পারবেন। আপনি প্রতিটি উপহারের অবস্থা দেখতে পারেন, এবং যেগুলো এখনো রিডিম করা হয়নি সেগুলো বাতিল করতে পারেন।
 
-## Receiving Obsidian Credit
+## Obsidian Credit গ্রহণ করা
 
-If you have received a redemption link or an anonymized email, follow these steps to redeem your Obsidian Credit:
+আপনি যদি একটি রিডেম্পশন লিঙ্ক বা একটি বেনামী ইমেইল পেয়ে থাকেন, তাহলে আপনার Obsidian Credit রিডিম করতে এই পদক্ষেপগুলো অনুসরণ করুন:
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account/billing).
-2. Open the redemption link or click the link in your email.
-3. Confirm that you want to receive the credits.
-4. The credits will be deposited within your account, ready to be used.
+1. লগ ইন করুন বা [আপনার Obsidian অ্যাকাউন্ট](https://obsidian.md/account/billing) তৈরি করুন।
+2. রিডেম্পশন লিঙ্কটি খুলুন অথবা আপনার ইমেইলে থাকা লিঙ্কে ক্লিক করুন।
+3. আপনি ক্রেডিট গ্রহণ করতে চান তা নিশ্চিত করুন।
+4. ক্রেডিটগুলো আপনার অ্যাকাউন্টে জমা হবে, ব্যবহারের জন্য প্রস্তুত।
 
-The purchaser will be notified that you have redeemed the Obsidian Credit.
+ক্রেতাকে জানানো হবে যে আপনি Obsidian Credit রিডিম করেছেন।

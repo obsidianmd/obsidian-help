@@ -1,79 +1,78 @@
 ---
-localized: null
 permalink: sync/plans
 publish: true
 mobile: true
-description: Learn about the different plan options we have available for Obsidian Sync.
+description: Obsidian Sync-এর জন্য আমাদের উপলব্ধ বিভিন্ন প্ল্যান অপশন সম্পর্কে জানুন।
 ---
 
-## Plans
+## প্ল্যান
 
-To sync your notes with [[Introduction to Obsidian Sync|Obsidian Sync]] you need a subscription plan. You can purchase a Sync plan by logging into [your account](https://obsidian.md/account/sync). See the [Sync landing page](https://obsidian.md/sync) for pricing.
+[[Introduction to Obsidian Sync|Obsidian Sync]]-এর মাধ্যমে আপনার নোট সিঙ্ক করতে আপনার একটি সাবস্ক্রিপশন প্ল্যান প্রয়োজন। আপনি [your account](https://obsidian.md/account/sync)-এ লগইন করে একটি Sync প্ল্যান কিনতে পারেন। মূল্যের জন্য দেখুন [Sync landing page](https://obsidian.md/sync)।
 
-Below is a comparison between the Standard plan and Plus plan:
+নিচে স্ট্যান্ডার্ড প্ল্যান এবং প্লাস প্ল্যানের মধ্যে একটি তুলনা দেওয়া হল:
 
 |                                                  | Sync Standard | Sync Plus       |
 | ------------------------------------------------ | ------------- | --------------- |
-| Synced vaults                                    | 1             | 10              |
-| Maximum file size                                | 5 MB          | 200 MB          |
-| Total storage                                    | 1 GB          | 10 GB to 100 GB |
-| [[Version history]]                              | 1 month       | 12 months       |
-| Devices                                          | Unlimited     | Unlimited       |
-| [[Collaborate on a shared vault\|Shared vaults]] | Yes           | Yes             |
+| সিঙ্কড ভল্ট                                    | ১             | ১০              |
+| সর্বোচ্চ ফাইলের আকার                                | ৫ MB          | ২০০ MB          |
+| মোট স্টোরেজ                                    | ১ GB          | ১০ GB থেকে ১০০ GB |
+| [[Version history]]                              | ১ মাস       | ১২ মাস       |
+| ডিভাইস                                          | সীমাহীন     | সীমাহীন       |
+| [[Collaborate on a shared vault\|Shared vaults]] | হ্যাঁ           | হ্যাঁ             |
 
-## Storage limits
+## স্টোরেজ সীমা
 
-The amount of data you can store using [[Introduction to Obsidian Sync|Obsidian Sync]] depends on your subscription plan. On the Sync Plus plan you can purchase additional storage up to 100 GB via [your account dashboard](https://obsidian.md/account/sync). See [[Frequently asked questions]] for more details.
+[[Introduction to Obsidian Sync|Obsidian Sync]] ব্যবহার করে আপনি কত ডেটা সংরক্ষণ করতে পারবেন তা আপনার সাবস্ক্রিপশন প্ল্যানের উপর নির্ভর করে। Sync Plus প্ল্যানে আপনি [your account dashboard](https://obsidian.md/account/sync)-এর মাধ্যমে ১০০ GB পর্যন্ত অতিরিক্ত স্টোরেজ কিনতে পারেন। আরও বিস্তারিত জানতে দেখুন [[Frequently asked questions]]।
 
-There is a single account-wide storage limit for all notes across your vaults. [[Version history]] and [[attachments]] are also counted towards your account's storage limit.
+আপনার সব ভল্ট জুড়ে সব নোটের জন্য একটি একক অ্যাকাউন্ট-ওয়াইড স্টোরেজ সীমা রয়েছে। [[Version history]] এবং [[attachments]]ও আপনার অ্যাকাউন্টের স্টোরেজ সীমার মধ্যে গণনা করা হয়।
 
-When you reach your account's storage limit, the Sync plugin will cease syncing files, and you will be prompted to prune your remote vault(s).
+আপনি যখন আপনার অ্যাকাউন্টের স্টোরেজ সীমায় পৌঁছান, তখন Sync প্লাগইন ফাইল সিঙ্ক করা বন্ধ করে দেবে, এবং আপনাকে আপনার রিমোট ভল্ট(গুলো) প্রুন করতে বলা হবে।
 
-### Identify and delete large files
+### বড় ফাইল শনাক্ত করুন এবং মুছে ফেলুন
 
-To identify and delete large files from the vault:
+ভল্ট থেকে বড় ফাইল শনাক্ত করতে এবং মুছে ফেলতে:
 
-1. Open **[[Settings]] → Sync**.
-2. Select **View largest files** next to **Vault size over limit**. 
-	1. If you don’t see **Vault size over limit**, it means ==you haven’t hit the size limit== yet.
-3. Close the **View largest files** modal.
-4. Delete some of the large files you no longer need.
-5. Wait for Obsidian sync to finish the task. This can take a while.
-6. Open **[[Settings]] → Sync**.
-7. Select **Prune** next to **Vault size over limit**. This will remove the deleted files from the remote vault to free up space.
+1. **[[Settings]] → Sync** খুলুন।
+2. **Vault size over limit**-এর পাশে **View largest files** নির্বাচন করুন।
+	1. আপনি যদি **Vault size over limit** না দেখেন, তার মানে ==আপনি এখনও সাইজ সীমায় পৌঁছাননি==।
+3. **View largest files** মোডাল বন্ধ করুন।
+4. আর প্রয়োজন নেই এমন কিছু বড় ফাইল মুছে ফেলুন।
+5. Obsidian sync-এর কাজ শেষ হওয়ার জন্য অপেক্ষা করুন। এতে কিছুটা সময় লাগতে পারে।
+6. **[[Settings]] → Sync** খুলুন।
+7. **Vault size over limit**-এর পাশে **Prune** নির্বাচন করুন। এটি রিমোট ভল্ট থেকে মুছে ফেলা ফাইলগুলো সরিয়ে দিয়ে জায়গা খালি করবে।
 
-After the prune syncs to the server, Obsidian Sync should resume functioning.
+প্রুন সার্ভারে সিঙ্ক হওয়ার পর, Obsidian Sync আবার কাজ শুরু করবে।
 
-### Create a new remote vault
+### একটি নতুন রিমোট ভল্ট তৈরি করুন
 
-You can **create a new remote vault** to exclude large files before syncing. The version history for your files will be reset if you create a new remote vault. Please be sure that you don’t need version history for older files before proceeding.
+সিঙ্ক করার আগে বড় ফাইলগুলো বাদ দিতে আপনি **একটি নতুন রিমোট ভল্ট তৈরি করতে** পারেন। আপনি যদি একটি নতুন রিমোট ভল্ট তৈরি করেন, তাহলে আপনার ফাইলগুলোর ভার্সন ইতিহাস রিসেট হয়ে যাবে। এগিয়ে যাওয়ার আগে নিশ্চিত হয়ে নিন যে আপনার পুরনো ফাইলের জন্য ভার্সন ইতিহাসের প্রয়োজন নেই।
 
-To sync to a new remote vault, follow these steps:
+একটি নতুন রিমোট ভল্টে সিঙ্ক করতে, এই পদক্ষেপগুলো অনুসরণ করুন:
 
-1. Open **[[Settings]] → Sync**.
-2. Select **Manage** next to **Remote vault**.
-3. Choose **Create new vault** and follow the steps to create it. If you run out of vaults, you might need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect]] from the current remote vault and [[Set up Obsidian Sync#Delete a remote vault|delete]] it first.
-4. Set up excluded files before you start syncing to the new remote vault.
-5. Restart Obsidian to apply your changes.
-6. Open **[[Settings]] → Sync**.
-7. Select resume to start syncing to the new remote vault.
+1. **[[Settings]] → Sync** খুলুন।
+2. **Remote vault**-এর পাশে **Manage** নির্বাচন করুন।
+3. **Create new vault** বেছে নিন এবং এটি তৈরি করতে পদক্ষেপগুলো অনুসরণ করুন। আপনার যদি ভল্ট শেষ হয়ে যায়, তাহলে আপনাকে বর্তমান রিমোট ভল্ট থেকে [[Set up Obsidian Sync#Disconnect from a remote vault|সংযোগ বিচ্ছিন্ন]] করতে এবং এটি প্রথমে [[Set up Obsidian Sync#Delete a remote vault|মুছে ফেলতে]] হতে পারে।
+4. নতুন রিমোট ভল্টে সিঙ্ক শুরু করার আগে বাদ দেওয়া ফাইল সেটআপ করুন।
+5. আপনার পরিবর্তনগুলো প্রয়োগ করতে Obsidian পুনরায় চালু করুন।
+6. **[[Settings]] → Sync** খুলুন।
+7. নতুন রিমোট ভল্টে সিঙ্ক শুরু করতে resume নির্বাচন করুন।
 
-The new remote vault should be smaller than the previous vault, because of the absence of version history and excluded files.
+নতুন রিমোট ভল্ট আগের ভল্টের চেয়ে ছোট হওয়া উচিত, কারণ এতে ভার্সন ইতিহাস এবং বাদ দেওয়া ফাইল নেই।
 
-## Upgrade your plan
+## আপনার প্ল্যান আপগ্রেড করুন
 
-You can upgrade your plan by logging into [your account dashboard](https://obsidian.md/account/sync). From there you will be able to upgrade your plan from Sync Standard to Sync Plus, and increase storage up to 100 GB.
+আপনি [your account dashboard](https://obsidian.md/account/sync)-এ লগইন করে আপনার প্ল্যান আপগ্রেড করতে পারেন। সেখান থেকে আপনি Sync Standard থেকে Sync Plus-এ আপগ্রেড করতে পারবেন, এবং ১০০ GB পর্যন্ত স্টোরেজ বাড়াতে পারবেন।
 
-## Downgrade your plan
+## আপনার প্ল্যান ডাউনগ্রেড করুন
 
-If you want to downgrade your Sync plan but your storage use exceeds the new plan's limit, you will need to free up space in your remote vault. Currently, there's no direct method to remove specific files from an existing remote vault quickly. This is because attachments are retained in version history for up to two weeks, and version history counts towards your storage limit.
+আপনি যদি আপনার Sync প্ল্যান ডাউনগ্রেড করতে চান কিন্তু আপনার স্টোরেজ ব্যবহার নতুন প্ল্যানের সীমা অতিক্রম করে, তাহলে আপনাকে আপনার রিমোট ভল্টে জায়গা খালি করতে হবে। বর্তমানে, একটি বিদ্যমান রিমোট ভল্ট থেকে দ্রুত নির্দিষ্ট ফাইল সরানোর কোনো সরাসরি পদ্ধতি নেই। এর কারণ হল অ্যাটাচমেন্টগুলো দুই সপ্তাহ পর্যন্ত ভার্সন ইতিহাসে রাখা হয়, এবং ভার্সন ইতিহাস আপনার স্টোরেজ সীমার মধ্যে গণনা করা হয়।
 
-The quickest way to reduce your Sync storage usage is to create a new remote vault with attachments disabled, then delete the old remote vault that exceeds the storage limits. Be aware that you will lose version history by doing this.
+আপনার Sync স্টোরেজ ব্যবহার কমানোর দ্রুততম উপায় হল অ্যাটাচমেন্ট নিষ্ক্রিয় করে একটি নতুন রিমোট ভল্ট তৈরি করা, তারপর স্টোরেজ সীমা অতিক্রমকারী পুরনো রিমোট ভল্ট মুছে ফেলা। মনে রাখবেন এটি করলে আপনি ভার্সন ইতিহাস হারাবেন।
 
-If you are downgrading from Sync Plus to Sync Standard, you'll also need to reduce the number of vaults present to one before the downgrade will be permitted.
+আপনি যদি Sync Plus থেকে Sync Standard-এ ডাউনগ্রেড করছেন, তাহলে ডাউনগ্রেড অনুমোদিত হওয়ার আগে আপনাকে বিদ্যমান ভল্টের সংখ্যাও একটিতে কমাতে হবে।
 
-### Preserve version history
+### ভার্সন ইতিহাস সংরক্ষণ করুন
 
-Attachments are held in your [[version history]] for up to two weeks. If you plan to downgrade in the near future, you can start by removing attachments from your local vault. 
+অ্যাটাচমেন্টগুলো আপনার [[version history]]-তে দুই সপ্তাহ পর্যন্ত রাখা হয়। আপনি যদি নিকট ভবিষ্যতে ডাউনগ্রেড করার পরিকল্পনা করেন, তাহলে আপনি আপনার লোকাল ভল্ট থেকে অ্যাটাচমেন্ট সরিয়ে শুরু করতে পারেন।
 
-After two weeks these will be purged from the remote vault and will no longer count towards your storage limit. At this point you will be able to downgrade your plan while preserving the version history for other file types, such as Markdown files.
+দুই সপ্তাহ পরে এগুলো রিমোট ভল্ট থেকে মুছে ফেলা হবে এবং আর আপনার স্টোরেজ সীমার মধ্যে গণনা করা হবে না। এই সময়ে আপনি Markdown ফাইলের মতো অন্যান্য ফাইলের ধরনের জন্য ভার্সন ইতিহাস সংরক্ষণ করে আপনার প্ল্যান ডাউনগ্রেড করতে পারবেন।

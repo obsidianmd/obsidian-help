@@ -1,43 +1,42 @@
 ---
-localized: null
 permalink: sync/migrate
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: 'Move your Sync vault to a different region, perform and encryption upgrade.'
+description: 'আপনার Sync ভল্টকে একটি ভিন্ন অঞ্চলে সরান, এনক্রিপশন আপগ্রেড সম্পন্ন করুন।'
 ---
-By default Obsidian Sync uses [[Obsidian Sync/Security and privacy#Encryption|end-to-end encryption]] for all your data. This guarantees that no one — not even the Obsidian team — can access your notes.
+ডিফল্টভাবে Obsidian Sync আপনার সব ডেটার জন্য [[Obsidian Sync/Security and privacy#Encryption|এন্ড-টু-এন্ড এনক্রিপশন]] ব্যবহার করে। এটি নিশ্চিত করে যে কেউ — এমনকি Obsidian টিমও — আপনার নোট অ্যাক্সেস করতে পারবে না।
 
-Obsidian occasionally upgrades Sync encryption to maintain the highest [[Obsidian Sync/Security and privacy|security]] standards. If an encryption upgrade is available you will see an option titled **Upgrade vault encryption** in **Obsidian Settings → Sync**. This process also allows you to change your [[Sync regions|Sync region]].
+সর্বোচ্চ [[Obsidian Sync/Security and privacy|নিরাপত্তা]] মান বজায় রাখতে Obsidian মাঝে মাঝে Sync এনক্রিপশন আপগ্রেড করে। যদি একটি এনক্রিপশন আপগ্রেড উপলব্ধ থাকে, তাহলে আপনি **Obsidian Settings → Sync**-এ **Upgrade vault encryption** শিরোনামের একটি অপশন দেখতে পাবেন। এই প্রক্রিয়া আপনাকে আপনার [[Sync regions|Sync অঞ্চল]] পরিবর্তন করতেও দেয়।
 
-## Encryption versions
+## এনক্রিপশন ভার্সন
 
-All new vaults automatically use the latest encryption. Existing vaults can be upgraded using the migration assistant. Note that all devices must be using an Obsidian app version that supports the Sync encryption version you are migrating to.
+সব নতুন ভল্ট স্বয়ংক্রিয়ভাবে সর্বশেষ এনক্রিপশন ব্যবহার করে। বিদ্যমান ভল্টগুলো মাইগ্রেশন সহায়ক ব্যবহার করে আপগ্রেড করা যায়। মনে রাখবেন আপনি যে Sync এনক্রিপশন ভার্সনে মাইগ্রেট করছেন তা সমর্থন করে এমন একটি Obsidian অ্যাপ ভার্সন সব ডিভাইসে ব্যবহার করা আবশ্যক।
 
-| Release date                                                            | Sync version | Minimum app version |
+| প্রকাশের তারিখ                                                            | Sync ভার্সন | সর্বনিম্ন অ্যাপ ভার্সন |
 | ----------------------------------------------------------------------- | ------------ | ------------------- |
 | [2025-08-22](https://obsidian.md/changelog/2025-08-22-sync/)            | 3            | 1.8.3               |
 | [2020-12-07](https://obsidian.md/changelog/2020-12-07-desktop-v0.9.21/) | 0            | 0.9.21              |
 
-## Upgrade encryption with the migration assistant
+## মাইগ্রেশন সহায়ক দিয়ে এনক্রিপশন আপগ্রেড করুন
 
-Before you proceed, create a [[Back up your Obsidian files|backup]] of your vault to prevent any potential data loss. This process will permanently delete all data in your remote vault with the old encryption, including the version history.
+এগিয়ে যাওয়ার আগে, যেকোনো সম্ভাব্য ডেটা ক্ষতি প্রতিরোধ করতে আপনার ভল্টের একটি [[Back up your Obsidian files|ব্যাকআপ]] তৈরি করুন। এই প্রক্রিয়া পুরনো এনক্রিপশনযুক্ত আপনার রিমোট ভল্টের সব ডেটা, ভার্সন ইতিহাস সহ, স্থায়ীভাবে মুছে ফেলবে।
 
-> [!danger] Migrations are destructive
+> [!danger] মাইগ্রেশন ধ্বংসাত্মক
 > 
-> **Always [[Back up your Obsidian files|back up]] your vault before proceeding with a migration.**
+> **মাইগ্রেশন শুরু করার আগে সবসময় আপনার ভল্ট [[Back up your Obsidian files|ব্যাকআপ]] করুন।**
 > 
-> When you migrate a remote vault your data will be replaced. This means:
+> আপনি যখন একটি রিমোট ভল্ট মাইগ্রেট করেন, তখন আপনার ডেটা প্রতিস্থাপিত হবে। এর মানে:
 > 
-> 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
-> 2. All [[Version history|version history]] for the vault will be lost.
+> 1. Obsidian সার্ভার থেকে রিমোট ডেটা সরিয়ে ফেলা হবে, এবং তার জায়গায় ভল্টের ডেটা পুনরায় আপলোড করা হবে।
+> 2. ভল্টের সব [[Version history|ভার্সন ইতিহাস]] হারিয়ে যাবে।
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Click **Upgrade vault**. This option will only be visible if an upgrade is available for your remote vault.
-4. Double check your backups and click **Continue**.
-5. In **Vault name**, enter the name of the remote vault.
-6. In **Region**, choose your server [[Set up Obsidian Sync#Regional sync servers|region]] for your remote vault. 
-7. In **Encryption password**, choose a password for your vault. This creates an end-to-end encrypted vault. The vault password is separate from your Obsidian account and can be different for each of your vaults. For more information, refer to [[Security and privacy]].
-8. Once you re-upload your data with the new encryption, re-connect to the new Sync vault on your other devices.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Sync** নির্বাচন করুন।
+3. **Upgrade vault** ক্লিক করুন। এই অপশনটি শুধুমাত্র তখনই দৃশ্যমান হবে যদি আপনার রিমোট ভল্টের জন্য একটি আপগ্রেড উপলব্ধ থাকে।
+4. আপনার ব্যাকআপ আবার যাচাই করুন এবং **Continue** ক্লিক করুন।
+5. **Vault name**-এ, রিমোট ভল্টের নাম লিখুন।
+6. **Region**-এ, আপনার রিমোট ভল্টের জন্য আপনার সার্ভার [[Set up Obsidian Sync#Regional sync servers|অঞ্চল]] বেছে নিন।
+7. **Encryption password**-এ, আপনার ভল্টের জন্য একটি পাসওয়ার্ড বেছে নিন। এটি একটি এন্ড-টু-এন্ড এনক্রিপ্টেড ভল্ট তৈরি করে। ভল্টের পাসওয়ার্ড আপনার Obsidian অ্যাকাউন্ট থেকে আলাদা এবং আপনার প্রতিটি ভল্টের জন্য ভিন্ন হতে পারে। আরও তথ্যের জন্য, দেখুন [[Security and privacy]]।
+8. নতুন এনক্রিপশন দিয়ে আপনার ডেটা পুনরায় আপলোড করার পর, আপনার অন্যান্য ডিভাইসে নতুন Sync ভল্টের সাথে পুনরায় সংযোগ করুন।

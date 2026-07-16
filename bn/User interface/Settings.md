@@ -1,389 +1,388 @@
 ---
-localized: null
 permalink: settings
 publish: true
 mobile: true
-description: Learn how to customize Obsidian through the Settings interface.
+description: Settings ইন্টারফেসের মাধ্যমে Obsidian কাস্টমাইজ করার পদ্ধতি জানুন।
 ---
 
-Settings allow you to customize your Obsidian experience. Configure general options, editor preferences, appearance, keyboard shortcuts, and manage both core and community plugins.
+Settings আপনাকে আপনার Obsidian অভিজ্ঞতা কাস্টমাইজ করতে দেয়। সাধারণ অপশন, এডিটর পছন্দ, অ্যাপিয়ারেন্স, কীবোর্ড শর্টকাট কনফিগার করুন এবং কোর ও কমিউনিটি উভয় প্লাগইন পরিচালনা করুন।
 
-## Open Settings
+## Settings খোলা
 
-### Desktop
+### ডেস্কটপ
 
-In the [[Sidebar#Open hidden sidebars|left sidebar]], select **[[Settings]]** ![[lucide-cog.svg#icon]]. You can also open Settings with the [[Command palette]].
+[[Sidebar#Open hidden sidebars|বাঁ সাইডবারে]], **[[Settings]]** ![[lucide-cog.svg#icon]] নির্বাচন করুন। আপনি [[Command palette|কমান্ড প্যালেট]] দিয়েও Settings খুলতে পারেন।
 
-### Mobile
+### মোবাইল
 
-In the left sidebar, select **[[Settings]]** ![[lucide-cog.svg#icon]].
+বাঁ সাইডবারে, **[[Settings]]** ![[lucide-cog.svg#icon]] নির্বাচন করুন।
 
-## Settings organization
+## Settings-এর সংগঠন
 
-Settings are organized into the following categories:
+Settings নিম্নলিখিত বিভাগে সংগঠিত:
 
-- **Options** — Core application settings including [[#General]], [[#Editor]], [[#Files and links]], [[#Appearance]], and [[#Hotkeys]].
-- **[[Core plugins]]** — Built-in plugins that come with Obsidian.
-- **[[Community plugins]]** — Third-party plugins installed from the community.
+- **Options** — [[#General]], [[#Editor]], [[#Files and links]], [[#Appearance]], এবং [[#Hotkeys]] সহ কোর অ্যাপ্লিকেশন সেটিংস।
+- **[[Core plugins]]** — Obsidian-এর সাথে আসা বিল্ট-ইন প্লাগইন।
+- **[[Community plugins]]** — কমিউনিটি থেকে ইনস্টল করা থার্ড-পার্টি প্লাগইন।
 
 ## General
 
-The General page contains version information, update settings, language preferences, and account management.
+General পৃষ্ঠায় সংস্করণের তথ্য, আপডেট সেটিংস, ভাষার পছন্দ এবং অ্যাকাউন্ট ব্যবস্থাপনা রয়েছে।
 
-### Version and updates
+### সংস্করণ ও আপডেট
 
-View your current Obsidian version and installer version at the top of the page. Select **Check for updates** to manually check for new versions, or select **[Read the changelog](<https://obsidian.md/changelog/>)** to view release notes.
+পৃষ্ঠার শীর্ষে আপনার বর্তমান Obsidian সংস্করণ এবং ইনস্টলার সংস্করণ দেখুন। নতুন সংস্করণ ম্যানুয়ালি পরীক্ষা করতে **Check for updates** নির্বাচন করুন, অথবা রিলিজ নোট দেখতে **[চেঞ্জলগ পড়ুন](<https://obsidian.md/changelog/>)** নির্বাচন করুন।
 
 **Automatic updates**
 
-When enabled, Obsidian automatically checks for new versions and notifies you when updates are available.
+সক্রিয় থাকলে, Obsidian স্বয়ংক্রিয়ভাবে নতুন সংস্করণ পরীক্ষা করে এবং আপডেট পাওয়া গেলে আপনাকে জানায়।
 
 **Receive early access versions**
 
-Auto-update to the latest [[Early access versions]]. These versions include new features but may be less stable.
+সর্বশেষ [[Early access versions]]-এ স্বয়ংক্রিয়ভাবে আপডেট হয়। এই সংস্করণগুলোতে নতুন ফিচার থাকে কিন্তু এগুলো কম স্থিতিশীল হতে পারে।
 
-> [!info]+ Catalyst license required
-> This option is only available for users with a [[Catalyst license]].
+> [!info]+ Catalyst license প্রয়োজন
+> এই অপশনটি শুধুমাত্র [[Catalyst license]] থাকা ব্যবহারকারীদের জন্য উপলব্ধ।
 
 ### Language
 
-Select your preferred language for the Obsidian interface. Select **[[Translations|Learn how to add a new language to Obsidian]]** to contribute a translation.
+Obsidian ইন্টারফেসের জন্য আপনার পছন্দের ভাষা নির্বাচন করুন। একটি অনুবাদে অবদান রাখতে **[[Translations|Obsidian-এ নতুন ভাষা যোগ করার পদ্ধতি জানুন]]** নির্বাচন করুন।
 
 ### Help
 
-Select **[[Home|Open]]** to access help resources, including documentation, community forums, and troubleshooting guides.
+ডকুমেন্টেশন, কমিউনিটি ফোরাম, এবং সমস্যা সমাধানের গাইড সহ সাহায্যকারী রিসোর্সে প্রবেশ করতে **[[Home|Open]]** নির্বাচন করুন।
 
 ### Account
 
-Manage your Obsidian account and licenses.
+আপনার Obsidian অ্যাকাউন্ট এবং লাইসেন্স পরিচালনা করুন।
 
 **Your account**
 
-View your account information, including username and email. Select **[Manage](https://obsidian.md/account)** to access account settings, or select **Log out** to sign out on the app.
+ব্যবহারকারীর নাম এবং ইমেইল সহ আপনার অ্যাকাউন্টের তথ্য দেখুন। অ্যাকাউন্ট সেটিংসে প্রবেশ করতে **[Manage](https://obsidian.md/account)** নির্বাচন করুন, অথবা অ্যাপে সাইন আউট করতে **Log out** নির্বাচন করুন।
 
 **Catalyst license**
 
-View your Catalyst license status. If you have an active [[Catalyst license]], your license tier appears here.
+আপনার Catalyst license-এর অবস্থা দেখুন। আপনার সক্রিয় [[Catalyst license]] থাকলে, আপনার লাইসেন্স টিয়ার এখানে দেখা যাবে।
 
 **Commercial license**
 
-If you support [Obsidian for work](<https://obsidian.md/blog/free-for-work/>), select **Activate** to enter a commercial license key, or select **[Purchase](https://obsidian.md/account/commercial)** to buy a license. Select **[[Commercial license|Learn more]]** for information about Commercial licenses.
+আপনি যদি [Obsidian for work](<https://obsidian.md/blog/free-for-work/>)-কে সমর্থন করেন, তাহলে কমার্শিয়াল লাইসেন্স কী দিতে **Activate** নির্বাচন করুন, অথবা একটি লাইসেন্স কিনতে **[Purchase](https://obsidian.md/account/commercial)** নির্বাচন করুন। কমার্শিয়াল লাইসেন্স সম্পর্কে তথ্যের জন্য **[[Commercial license|আরও জানুন]]** নির্বাচন করুন।
 
 ### Advanced
 
 #### Notify if startup takes longer than expected
 
-When enabled, Obsidian displays a notification if startup is unusually slow. The notification includes diagnostic information about what's causing the delay. Select the timer icon ![[lucide-timer.svg#icon]] next to this setting to [[Help and support#Check startup time|check your startup time]].
+সক্রিয় থাকলে, স্টার্টআপ অস্বাভাবিকভাবে ধীর হলে Obsidian একটি নোটিফিকেশন প্রদর্শন করে। নোটিফিকেশনে বিলম্বের কারণ সম্পর্কিত ডায়াগনস্টিক তথ্য থাকে। আপনার [[Help and support#Check startup time|স্টার্টআপ সময় পরীক্ষা করতে]] এই সেটিংসের পাশের টাইমার আইকন ![[lucide-timer.svg#icon]] নির্বাচন করুন।
 
 ## Editor
 
-The Editor page contains settings for how you view and edit notes.
+Editor পৃষ্ঠায় নোট দেখা এবং সম্পাদনা করার সেটিংস রয়েছে।
 
 ### Always focus new tabs
 
-When you open a link in a new tab, switch to it immediately.
+আপনি যখন কোনো নতুন ট্যাবে একটি লিঙ্ক খোলেন, তখন তাৎক্ষণিকভাবে সেটিতে চলে যায়।
 
 ### Default view for new tabs
 
-The default view that a new Markdown file tab gets opened in. Choose between [[Views and editing mode#Reading view|Reading view]] or [[Views and editing mode#Editing view|Editing view]].
+নতুন Markdown ফাইল ট্যাব যে ডিফল্ট ভিউতে খোলে। [[Views and editing mode#Reading view|Reading view]] অথবা [[Views and editing mode#Editing view|Editing view]]-এর মধ্যে বেছে নিন।
 
 ### Default editing mode
 
-The default editing mode a new tab will start with. Choose between [[Views and editing mode#Live Preview|Live preview]] or [[Views and editing mode#Source mode|Source mode]].
+নতুন ট্যাব যে ডিফল্ট সম্পাদনা মোডে শুরু হবে। [[Views and editing mode#Live Preview|Live preview]] অথবা [[Views and editing mode#Source mode|Source mode]]-এর মধ্যে বেছে নিন।
 
 ### Show editing mode in status bar
 
-Show the editing mode toggle in the [[Status bar|status bar]].
+[[Status bar|স্ট্যাটাস বারে]] সম্পাদনা মোড টগল দেখান।
 
 ### Display
 
 #### Readable line length
 
-Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
+সর্বোচ্চ লাইনের দৈর্ঘ্য সীমিত করুন। কম কনটেন্ট স্ক্রিনে আঁটে, কিন্তু লেখার দীর্ঘ অংশ আরও সহজপাঠ্য হয়।
 
 #### Strict line breaks
 
-Markdown specs ignore single [[Basic formatting syntax#Line breaks|Line breaks]] in reading view. Turn this off to make single line breaks visible.
+Markdown স্পেসিফিকেশন রিডিং ভিউতে একক [[Basic formatting syntax#Line breaks|লাইন ব্রেক]] উপেক্ষা করে। একক লাইন ব্রেক দৃশ্যমান করতে এটি বন্ধ করুন।
 
 #### Properties in document
 
-Choose how [[Properties|properties]] are displayed at the top of notes. Select **source** to show properties as raw YAML.
+নোটের শীর্ষে [[Properties|প্রপার্টি]] কীভাবে প্রদর্শিত হবে তা বেছে নিন। প্রপার্টি র র YAML হিসেবে দেখাতে **source** নির্বাচন করুন।
 
 #### Fold heading
 
-[[Folding|Fold]] all content under a heading by selecting the collapse icon next to it.
+কোনো হেডিং-এর পাশের কোলাপ্স আইকন নির্বাচন করে সেই হেডিং-এর নিচের সব কনটেন্ট [[Folding|ফোল্ড]] করুন।
 
 ### Fold indent
 
-[[Folding|Fold]] part of an indentation, such as lists, by selecting the collapse icon.
+কোলাপ্স আইকন নির্বাচন করে ইন্ডেন্টেশনের একটি অংশ, যেমন তালিকা, [[Folding|ফোল্ড]] করুন।
 
 #### Show line numbers
 
-Show line numbers in the gutter.
+গাটারে লাইন নম্বর দেখান।
 
 #### Show indentation guides
 
-Show vertical relationship lines between list items.
+তালিকার আইটেমগুলোর মধ্যে উলম্ব সম্পর্কসূচক রেখা দেখান।
 
 #### Right-to-left (RTL)
 
-Sets the default text direction of notes to right-to-left.
+নোটের ডিফল্ট টেক্সট দিক ডান-থেকে-বাঁ সেট করে।
 
 #### Auto-pair brackets
 
-Pair brackets and quotes automatically.
+বন্ধনী এবং উদ্ধৃতি চিহ্ন স্বয়ংক্রিয়ভাবে জোড়া করে।
 
 #### Auto-pair Markdown syntax
 
-Pair symbols automatically for bold, italic, code, and more.
+বোল্ড, ইটালিক, কোড এবং আরও অনেক কিছুর জন্য চিহ্ন স্বয়ংক্রিয়ভাবে জোড়া করে।
 
 #### Smart lists
 
-Automatically set indentation and place list items correctly.
+স্বয়ংক্রিয়ভাবে ইন্ডেন্টেশন সেট করে এবং তালিকার আইটেম সঠিকভাবে বসায়।
 
 #### Indent using tabs
 
-Use tabs to indent by pressing the Tab key. Turn this off to indent using 4 spaces.
+Tab কী চেপে ইন্ডেন্ট করতে ট্যাব ব্যবহার করুন। 4টি স্পেস দিয়ে ইন্ডেন্ট করতে এটি বন্ধ করুন।
 
 #### Convert pasted HTML to Markdown
 
-Automatically convert HTML to Markdown when pasting and drag-and-drop from web pages. 
+ওয়েব পেজ থেকে পেস্ট এবং ড্র্যাগ-অ্যান্ড-ড্রপ করার সময় HTML-কে স্বয়ংক্রিয়ভাবে Markdown-এ রূপান্তর করে।
 
-Use `Ctrl/Cmd+Shift+V` to paste HTML without converting.
+রূপান্তর ছাড়া HTML পেস্ট করতে `Ctrl/Cmd+Shift+V` ব্যবহার করুন।
 
 ### Behavior
 
 #### Spellcheck
 
-Turn on the spellchecker. Select the gear icon to remove saved items from the custom dictionary.
+বানান পরীক্ষক সক্রিয় করুন। কাস্টম ডিকশনারি থেকে সংরক্ষিত আইটেম সরাতে গিয়ার আইকন নির্বাচন করুন।
 
 #### Spellcheck languages
 
-**Windows and Linux:**
+**Windows এবং Linux:**
 
-Choose the languages for the spellchecker to use. Select the plus (+) icon to add languages. To remove a language, select the X next to it.
+বানান পরীক্ষক যে ভাষাগুলো ব্যবহার করবে তা বেছে নিন। ভাষা যোগ করতে প্লাস (+) আইকন নির্বাচন করুন। কোনো ভাষা সরাতে, তার পাশের X নির্বাচন করুন।
 
 **macOS:**
 
-The native spellchecker automatically detects the language used by the OS.
+নেটিভ বানান পরীক্ষক স্বয়ংক্রিয়ভাবে OS দ্বারা ব্যবহৃত ভাষা শনাক্ত করে।
 
 #### Indent visual width
 
-Number of spaces a tab character will render as.
+একটি ট্যাব অক্ষর যত স্পেসের সমান দেখাবে তার সংখ্যা।
 
 ### Advanced
 
 #### Vim key bindings
 
-Use Vim key bindings when editing.
+সম্পাদনার সময় Vim কী বাইন্ডিং ব্যবহার করুন।
 
 ## Files and links
 
-The Files and links page contains settings for file management, links, and vault behavior.
+Files and links পৃষ্ঠায় ফাইল ব্যবস্থাপনা, লিঙ্ক, এবং ভল্টের আচরণ সংক্রান্ত সেটিংস রয়েছে।
 
 ### Default location for new notes
 
-Where newly created notes are placed. Options include:
+নতুন তৈরি করা নোট কোথায় রাখা হবে। অপশনগুলোর মধ্যে রয়েছে:
 
-- **Vault folder** — Notes are created in the root of your vault.
-- **Same folder as current file** — Notes are created in the same folder as the currently active note.
-- **In the folder specified below** — Notes are created in a specific folder you choose.
+- **Vault folder** — নোট আপনার ভল্টের রুটে তৈরি হয়।
+- **Same folder as current file** — বর্তমানে সক্রিয় নোটের মতো একই ফোল্ডারে নোট তৈরি হয়।
+- **In the folder specified below** — আপনার বেছে নেওয়া একটি নির্দিষ্ট ফোল্ডারে নোট তৈরি হয়।
 
-This setting doesn't apply when an [[Internal links|internal link]] includes a folder path. For example, creating `[[Projects/Three laws of motion]]` creates the note in the `Projects` folder relative to the vault root.
+কোনো [[Internal links|ইন্টার্নাল লিঙ্কে]] ফোল্ডারের পাথ থাকলে এই সেটিং প্রযোজ্য হয় না। উদাহরণস্বরূপ, `[[Projects/Three laws of motion]]` তৈরি করলে ভল্টের রুটের সাপেক্ষে `Projects` ফোল্ডারে নোটটি তৈরি হয়।
 
 ### Default location for new attachments
 
-Where newly added [[Attachments|attachments]] are placed. Options include:
+নতুন যোগ করা [[Attachments|অ্যাটাচমেন্ট]] কোথায় রাখা হবে। অপশনগুলোর মধ্যে রয়েছে:
 
-- **Vault folder** — Attachments are placed in the root of your vault.
-- **In the folder specified below** — Attachments are placed in a specific folder you choose.
-- **Same folder as current file** — Attachments are placed in the same folder as the currently active note.
-- **In subfolder under current folder** — Attachments are placed in a subfolder within the current note's folder.
+- **Vault folder** — অ্যাটাচমেন্ট আপনার ভল্টের রুটে রাখা হয়।
+- **In the folder specified below** — আপনার বেছে নেওয়া একটি নির্দিষ্ট ফোল্ডারে অ্যাটাচমেন্ট রাখা হয়।
+- **Same folder as current file** — বর্তমানে সক্রিয় নোটের মতো একই ফোল্ডারে অ্যাটাচমেন্ট রাখা হয়।
+- **In subfolder under current folder** — বর্তমান নোটের ফোল্ডারের মধ্যে একটি সাবফোল্ডারে অ্যাটাচমেন্ট রাখা হয়।
 
 ### Links
 
 #### New link format
 
-What links to insert when auto-generating [[Internal links|internal links]]. Options include:
+স্বয়ংক্রিয়ভাবে তৈরি করা [[Internal links|ইন্টার্নাল লিঙ্কে]] কোন ধরনের লিঙ্ক সন্নিবেশ করা হবে। অপশনগুলোর মধ্যে রয়েছে:
 
-- **Shortest path when possible** — Uses the shortest unique path to the linked file.
-- **Relative path to file** — Uses a path relative to the current file.
-- **Absolute path in vault** — Uses the full path from the vault root.
+- **Shortest path when possible** — লিঙ্ক করা ফাইলের সবচেয়ে ছোট ইউনিক পাথ ব্যবহার করে।
+- **Relative path to file** — বর্তমান ফাইলের সাপেক্ষে একটি পাথ ব্যবহার করে।
+- **Absolute path in vault** — ভল্টের রুট থেকে সম্পূর্ণ পাথ ব্যবহার করে।
 
 #### Automatically update internal links
 
-When enabled, Obsidian automatically updates internal links when you rename a file. Turn this off to be prompted to update links after renaming.
+সক্রিয় থাকলে, আপনি কোনো ফাইলের নাম পরিবর্তন করলে Obsidian স্বয়ংক্রিয়ভাবে ইন্টার্নাল লিঙ্ক আপডেট করে। নাম পরিবর্তনের পর লিঙ্ক আপডেট করার অনুরোধ পেতে এটি বন্ধ করুন।
 
 #### Use Wikilinks
 
-Auto-generate Wikilinks for `[[links]]` and `![[images]]` instead of Markdown links and images. Disable this option to generate Markdown links instead.
+Markdown লিঙ্ক এবং ছবির পরিবর্তে `[[links]]` ও `![[images]]`-এর জন্য স্বয়ংক্রিয়ভাবে উইকিলিঙ্ক তৈরি করে। এর বদলে Markdown লিঙ্ক তৈরি করতে এই অপশনটি নিষ্ক্রিয় করুন।
 
 #### Show all file types
 
-Show files with any extension even if Obsidian can't open them natively, so you can link to them and see them in File Explorer and Quick Switcher.
+Obsidian নেটিভভাবে খুলতে না পারলেও যেকোনো এক্সটেনশনের ফাইল দেখান, যাতে আপনি সেগুলোতে লিঙ্ক করতে পারেন এবং ফাইল এক্সপ্লোরার ও কুইক সুইচারে সেগুলো দেখতে পারেন।
 
 ### Trash
 
 #### Confirm file deletion
 
-Ask before deleting a file.
+কোনো ফাইল মুছে ফেলার আগে জিজ্ঞাসা করুন।
 
 #### Deleted files
 
-What happens to a file after you delete it. Options include:
+কোনো ফাইল মুছে ফেলার পর সেটির কী হয়। অপশনগুলোর মধ্যে রয়েছে:
 
-- **Move to system trash** — Files are moved to your operating system's trash.
-- **Move to Obsidian trash** — Files are moved to the `.trash` folder in your vault.
-- **Permanently delete** — Files are permanently deleted and cannot be recovered.
+- **Move to system trash** — ফাইলগুলো আপনার অপারেটিং সিস্টেমের ট্র্যাশে সরানো হয়।
+- **Move to Obsidian trash** — ফাইলগুলো আপনার ভল্টের `.trash` ফোল্ডারে সরানো হয়।
+- **Permanently delete** — ফাইলগুলো স্থায়ীভাবে মুছে ফেলা হয় এবং পুনরুদ্ধার করা যায় না।
 
 ### Advanced
 
 #### Excluded files
 
-Excluded files will be hidden in [[Search]], [[Graph View]], and Unlinked Mentions ([[Backlinks]] and [[Outgoing links]]), and less noticeable in [[Quick Switcher ]] and link suggestions. Select **Manage** to configure excluded files.
+বাদ দেওয়া ফাইলগুলো [[Search|অনুসন্ধান]], [[Graph View|গ্রাফ ভিউ]], এবং আনলিঙ্কড মেনশনসে ([[Backlinks|ব্যাকলিঙ্ক]] এবং [[Outgoing links|আউটগোয়িং লিঙ্ক]]) লুকানো থাকবে, এবং [[Quick Switcher ]] ও লিঙ্ক সাজেশনে কম নজরে পড়বে। বাদ দেওয়া ফাইল কনফিগার করতে **Manage** নির্বাচন করুন।
 
 #### Override config folder
 
-Use a different [[Configuration folder|config folder]] than the default one. Must start with a dot.
+ডিফল্টের চেয়ে ভিন্ন একটি [[Configuration folder|কনফিগ ফোল্ডার]] ব্যবহার করুন। এটি অবশ্যই একটি ডট দিয়ে শুরু হতে হবে।
 
 #### Allow URI callbacks
 
-Enable the use of x-callback-url through x-success or x-error when handling [[Obsidian URI|Obsidian URIs]]. 
+[[Obsidian URI|Obsidian URI]] হ্যান্ডেল করার সময় x-success বা x-error-এর মাধ্যমে x-callback-url ব্যবহার সক্রিয় করুন।
 
 #### Rebuild vault cache
 
-Rebuilds the vault's [[How Obsidian stores data#Metadata cache|metadata cache]]. Rebuilding the cache could take a few seconds to a few minutes depending on the size of your vault. Select **Rebuild** to start the process.
+ভল্টের [[How Obsidian stores data#Metadata cache|মেটাডেটা ক্যাশ]] পুনর্নির্মাণ করে। আপনার ভল্টের আকার অনুযায়ী ক্যাশ পুনর্নির্মাণে কয়েক সেকেন্ড থেকে কয়েক মিনিট সময় লাগতে পারে। প্রক্রিয়াটি শুরু করতে **Rebuild** নির্বাচন করুন।
 
 ## Appearance
 
-The Appearance page contains settings for customizing how Obsidian looks.
+Appearance পৃষ্ঠায় Obsidian-এর চেহারা কাস্টমাইজ করার সেটিংস রয়েছে।
 
 ### Base color scheme
 
-Choose Obsidian's default color scheme. Options include:
+Obsidian-এর ডিফল্ট কালার স্কিম বেছে নিন। অপশনগুলোর মধ্যে রয়েছে:
 
-- **Adapt to system** — Matches your operating system's light or dark mode.
-- **Light** — Uses light mode.
-- **Dark** — Uses dark mode.
+- **Adapt to system** — আপনার অপারেটিং সিস্টেমের লাইট বা ডার্ক মোডের সাথে মেলে।
+- **Light** — লাইট মোড ব্যবহার করে।
+- **Dark** — ডার্ক মোড ব্যবহার করে।
 
 ### Accent color
 
-Choose the accent color used throughout the app. Select the color picker or reset icon to customize.
+সারা অ্যাপ জুড়ে ব্যবহৃত অ্যাকসেন্ট রঙ বেছে নিন। কাস্টমাইজ করতে কালার পিকার বা রিসেট আইকন নির্বাচন করুন।
 
 ### Themes
 
-Manage installed [[Themes|themes]] and browse community themes. Select **Manage** to view and install themes. The dropdown shows your currently active theme. The folder icon ![[lucide-folder-open.svg#icon]] opens the themes folder in your [[Configuration folder|configuration folder]].
+ইনস্টল করা [[Themes|থিম]] পরিচালনা করুন এবং কমিউনিটি থিম ব্রাউজ করুন। থিম দেখতে ও ইনস্টল করতে **Manage** নির্বাচন করুন। ড্রপডাউনে আপনার বর্তমান সক্রিয় থিম দেখা যায়। ফোল্ডার আইকন ![[lucide-folder-open.svg#icon]] আপনার [[Configuration folder|কনফিগারেশন ফোল্ডারে]] থিম ফোল্ডার খোলে।
 
 ### Current community themes
 
-Displays the number of community themes you have installed.
+আপনার ইনস্টল করা কমিউনিটি থিমের সংখ্যা দেখায়।
 
 ### Font
 
 #### Interface font
 
-Set base font for all of Obsidian. Select **Manage** to choose a custom font or enter a font name.
+সমস্ত Obsidian-এর জন্য বেস ফন্ট সেট করুন। কাস্টম ফন্ট বেছে নিতে বা ফন্টের নাম লিখতে **Manage** নির্বাচন করুন।
 
 #### Text font
 
-Set font for editing and reading views. Select **Manage** to choose a custom font or enter a font name.
+সম্পাদনা ও রিডিং ভিউয়ের জন্য ফন্ট সেট করুন। কাস্টম ফন্ট বেছে নিতে বা ফন্টের নাম লিখতে **Manage** নির্বাচন করুন।
 
 #### Monospace font
 
-Set font for places like code blocks and frontmatter. Select **Manage** to choose a custom font or enter a font name.
+কোড ব্লক এবং ফ্রন্টম্যাটারের মতো জায়গার জন্য ফন্ট সেট করুন। কাস্টম ফন্ট বেছে নিতে বা ফন্টের নাম লিখতে **Manage** নির্বাচন করুন।
 
 #### Font size
 
-Font size in pixels that affects editing and reading views. Adjust using the slider.
+পিক্সেলে ফন্টের আকার যা সম্পাদনা ও রিডিং ভিউকে প্রভাবিত করে। স্লাইডার ব্যবহার করে সামঞ্জস্য করুন।
 
 #### Quick font size adjustment
 
-Adjust the font size using `Ctrl+Scroll` (Windows/Linux) or `Cmd+Scroll` (macOS), or using the trackpad pinch-zoom gesture.
+`Ctrl+Scroll` (Windows/Linux) বা `Cmd+Scroll` (macOS) ব্যবহার করে, অথবা ট্র্যাকপ্যাড পিঞ্চ-জুম জেসচার ব্যবহার করে ফন্টের আকার সামঞ্জস্য করুন।
 
 ### Interface
 
 #### Show inline title
 
-Displays the filename as an editable title inline with the file contents. The inline title acts as a heading within Obsidian but does not add a heading to your note.
+ফাইলের নাম নোটের কনটেন্টের সাথে সম্পাদনাযোগ্য শিরোনাম হিসেবে ইনলাইনে প্রদর্শন করে। ইনলাইন শিরোনাম Obsidian-এর মধ্যে একটি হেডিং হিসেবে কাজ করে কিন্তু আপনার নোটে কোনো হেডিং যোগ করে না।
 
 #### Show tab title bar
 
-Display the header at the top of every tab.
+প্রতিটি ট্যাবের শীর্ষে হেডার প্রদর্শন করে।
 
 #### Show ribbon
 
-Display vertical toolbar on the side of the window. Learn more about the [[Ribbon|ribbon]].
+উইন্ডোর পাশে উলম্ব টুলবার প্রদর্শন করে। [[Ribbon|রিবন]] সম্পর্কে আরও জানুন।
 
 #### Ribbon menu configuration
 
-Configure what commands appear in the ribbon menu. Select **Manage** to customize.
+রিবন মেনুতে কোন কমান্ডগুলো দেখা যাবে তা কনফিগার করুন। কাস্টমাইজ করতে **Manage** নির্বাচন করুন।
 
-> [!info]+ Mobile ribbon configuration
-> On mobile, ribbon customization works differently. See [[Ribbon#Mobile|Ribbon customization on mobile]] for details.
+> [!info]+ মোবাইল রিবন কনফিগারেশন
+> মোবাইলে, রিবন কাস্টমাইজেশন ভিন্নভাবে কাজ করে। বিস্তারিত জানতে [[Ribbon#Mobile|মোবাইলে রিবন কাস্টমাইজেশন]] দেখুন।
 
 ### Advanced
 
 #### Zoom level
 
-Controls the overall zoom level of the app. Adjust using the slider.
+অ্যাপের সামগ্রিক জুম লেভেল নিয়ন্ত্রণ করে। স্লাইডার ব্যবহার করে সামঞ্জস্য করুন।
 
 #### Native menus
 
-Menus throughout the app will match the operating system. They will not be affected by your theme.
+অ্যাপ জুড়ে মেনুগুলো অপারেটিং সিস্টেমের সাথে মিলবে। এগুলো আপনার থিম দ্বারা প্রভাবিত হবে না।
 
 #### Window frame style
 
-Determines the styling of the title bar of Obsidian windows. Requires a full restart to take effect. Options include:
+Obsidian উইন্ডোর টাইটেল বারের স্টাইল নির্ধারণ করে। কার্যকর হতে সম্পূর্ণ পুনরায় চালু করা প্রয়োজন। অপশনগুলোর মধ্যে রয়েছে:
 
-- **Obsidian frame** — Uses Obsidian's custom window frame.
-- **Native frame** — Uses your operating system's default window frame.
-- **Hidden frame** — Hides the title bar completely.
+- **Obsidian frame** — Obsidian-এর কাস্টম উইন্ডো ফ্রেম ব্যবহার করে।
+- **Native frame** — আপনার অপারেটিং সিস্টেমের ডিফল্ট উইন্ডো ফ্রেম ব্যবহার করে।
+- **Hidden frame** — টাইটেল বার সম্পূর্ণভাবে লুকিয়ে ফেলে।
 
 #### Custom app icon
 
-Set a custom icon for the app. Select **Choose** to pick an icon file (`.icns`, `.ico`, `.png`, or `.svg`). Learn more about [[Appearance#Custom app icon|custom app icons]].
+অ্যাপের জন্য একটি কাস্টম আইকন সেট করুন। আইকন ফাইল (`.icns`, `.ico`, `.png`, অথবা `.svg`) বেছে নিতে **Choose** নির্বাচন করুন। [[Appearance#Custom app icon|কাস্টম অ্যাপ আইকন]] সম্পর্কে আরও জানুন।
 
 #### Translucent window
 
-Turn on translucency effect to enhance a sense of depth. Best used with dark mode. Not supported on Linux.
+গভীরতার অনুভূতি বাড়াতে স্বচ্ছতা এফেক্ট সক্রিয় করুন। ডার্ক মোডের সাথে ব্যবহার করলে সবচেয়ে ভালো ফল পাওয়া যায়। Linux-এ সমর্থিত নয়।
 
-> [!info]+ macOS only
-> This feature is primarily designed for macOS. Learn more about [[Appearance#Translucency|translucency]].
+> [!info]+ শুধুমাত্র macOS
+> এই ফিচারটি মূলত macOS-এর জন্য ডিজাইন করা হয়েছে। [[Appearance#Translucency|স্বচ্ছতা]] সম্পর্কে আরও জানুন।
 
 #### Hardware acceleration
 
-Turns on Hardware Acceleration, which uses your GPU to make Obsidian smoother. If you turn this off, app performance can be severely degraded but may solve some rare issues. 
+হার্ডওয়্যার অ্যাক্সিলারেশন চালু করে, যা Obsidian-কে আরও মসৃণ করতে আপনার GPU ব্যবহার করে। আপনি এটি বন্ধ করলে অ্যাপের পারফরম্যান্স উল্লেখযোগ্যভাবে খারাপ হতে পারে, কিন্তু এটি কিছু বিরল সমস্যা সমাধান করতে পারে।
 
 ### CSS snippets
 
-Manage and view [[CSS snippets|CSS snippets]] stored in your vault. CSS Snippets are stored in `/vault/.obsidian/snippets/`. Select the refresh icon to reload snippets, or the folder icon ![[lucide-folder-open.svg#icon]] to open the snippets folder.
+আপনার ভল্টে সংরক্ষিত [[CSS snippets|CSS snippets]] পরিচালনা ও দেখুন। CSS Snippets `/vault/.obsidian/snippets/`-এ সংরক্ষিত থাকে। স্নিপেট পুনরায় লোড করতে রিফ্রেশ আইকন নির্বাচন করুন, অথবা স্নিপেট ফোল্ডার খুলতে ফোল্ডার আইকন ![[lucide-folder-open.svg#icon]] নির্বাচন করুন।
 
 ## Hotkeys
 
-The [[Hotkeys]] page allows you to view, set, and customize [[Editing shortcuts|keyboard shortcuts]] for commands in Obsidian.
+[[Hotkeys]] পৃষ্ঠা আপনাকে Obsidian-এর কমান্ডগুলোর জন্য [[Editing shortcuts|কীবোর্ড শর্টকাট]] দেখতে, সেট করতে এবং কাস্টমাইজ করতে দেয়।
 
-Use the search bar to filter commands, and select the filter icon to show only commands with assigned hotkeys. To add a hotkey, select the plus (+) icon next to a command. To remove a hotkey, select the X icon next to the keyboard combination.
+কমান্ড ফিল্টার করতে অনুসন্ধান বার ব্যবহার করুন, এবং শুধুমাত্র নির্ধারিত হট-কিই থাকা কমান্ড দেখাতে ফিল্টার আইকন নির্বাচন করুন। হট-কিই যোগ করতে, কমান্ডের পাশের প্লাস (+) আইকন নির্বাচন করুন। হট-কিই সরাতে, কীবোর্ড কম্বিনেশনের পাশের X আইকন নির্বাচন করুন।
 
 ## Core plugins
 
-[[Core plugins]] are built-in plugins that come with Obsidian. Each plugin adds specific functionality to the app.
+[[Core plugins]] হলো Obsidian-এর সাথে আসা বিল্ট-ইন প্লাগইন। প্রতিটি প্লাগইন অ্যাপে নির্দিষ্ট কার্যকারিতা যোগ করে।
 
-To enable or disable a core plugin, select the toggle next to the plugin name. Select the plus ![[lucide-plus-circle.svg#icon]] icon to view the [[Hotkeys]] for the plugin. Select the settings ![[lucide-settings.svg#icon]] icon to open the plugin's settings page.
+কোনো কোর প্লাগইন সক্রিয় বা নিষ্ক্রিয় করতে, প্লাগইনের নামের পাশের টগল নির্বাচন করুন। প্লাগইনের জন্য [[Hotkeys]] দেখতে প্লাস ![[lucide-plus-circle.svg#icon]] আইকন নির্বাচন করুন। প্লাগইনের সেটিংস পৃষ্ঠা খুলতে সেটিংস ![[lucide-settings.svg#icon]] আইকন নির্বাচন করুন।
 
-Use the search bar to filter plugins by name.
+নাম দিয়ে প্লাগইন ফিল্টার করতে অনুসন্ধান বার ব্যবহার করুন।
 
 ## Community plugins
 
-[[Community plugins]] are third-party plugins created by the Obsidian community. Browse and install plugins by selecting **Browse**.
+[[Community plugins]] হলো Obsidian কমিউনিটির তৈরি থার্ড-পার্টি প্লাগইন। **Browse** নির্বাচন করে প্লাগইন ব্রাউজ করুন এবং ইনস্টল করুন।
 
 ### Restricted mode
 
-[[Plugin security#Restricted mode|Restricted mode]] disables all community plugins for security. Select **Turn on and reload** to enable restricted mode.
+[[Plugin security#Restricted mode|Restricted mode]] নিরাপত্তার জন্য সব কমিউনিটি প্লাগইন নিষ্ক্রিয় করে। রেস্ট্রিক্টেড মোড সক্রিয় করতে **Turn on and reload** নির্বাচন করুন।
 
 ### Current plugins
 
-Displays the number of community plugins you have installed. Select **Check for updates** to check for plugin updates.
+আপনার ইনস্টল করা কমিউনিটি প্লাগইনের সংখ্যা দেখায়। প্লাগইন আপডেট পরীক্ষা করতে **Check for updates** নির্বাচন করুন।
 
 ### Installed plugins
 
-View and manage your installed community plugins. Use the search bar to filter plugins by name. Each plugin has icons for settings, hotkeys, funding, uninstalling, and a toggle to enable or disable it.
+আপনার ইনস্টল করা কমিউনিটি প্লাগইন দেখুন ও পরিচালনা করুন। নাম দিয়ে প্লাগইন ফিল্টার করতে অনুসন্ধান বার ব্যবহার করুন। প্রতিটি প্লাগইনে সেটিংস, হট-কিই, ফান্ডিং, আনইনস্টল করার আইকন এবং সক্রিয়/নিষ্ক্রিয় করার একটি টগল থাকে।

@@ -1,132 +1,131 @@
 ---
-localized: null
 permalink: web-clipper/interpreter
 ---
-Interpreter is a [[Introduction to Obsidian Web Clipper|Web Clipper]] feature that lets you interact with web pages using natural language. Interpreter helps you capture and modify data that you want to save to Obsidian. For example:
+Interpreter হলো [[Introduction to Obsidian Web Clipper|Web Clipper]]-এর একটি ফিচার যা আপনাকে প্রাকৃতিক ভাষা ব্যবহার করে ওয়েব পেজের সাথে ইন্টার‍্যাক্ট করতে দেয়। Interpreter আপনাকে Obsidian-এ সংরক্ষণ করতে চান এমন ডেটা ক্যাপচার এবং পরিবর্তন করতে সাহায্য করে। উদাহরণস্বরূপ:
 
-- Extract specific text fragments.
-- Summarize or explain information.
-- Convert text from one format to another.
-- Translate text to a different language.
+- নির্দিষ্ট টেক্সট অংশ বের করুন।
+- তথ্য সংক্ষিপ্ত করুন বা ব্যাখ্যা করুন।
+- এক ফরম্যাট থেকে অন্য ফরম্যাটে টেক্সট রূপান্তর করুন।
+- টেক্সট অন্য ভাষায় অনুবাদ করুন।
 
-Interpreter leverages language models to process information on a web page, and return results using [[Variables]] that you can add to your [[Obsidian Web Clipper/Templates|Web Clipper Templates]].
+Interpreter একটি ওয়েব পেজের তথ্য প্রক্রিয়া করতে ভাষা মডেল ব্যবহার করে, এবং [[Variables]] ব্যবহার করে ফলাফল ফেরত দেয় যা আপনি আপনার [[Obsidian Web Clipper/Templates|Web Clipper টেমপ্লেটে]] যোগ করতে পারেন।
 
 <div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/8j5qu8twj1?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
 
-## Examples of prompts
+## প্রম্পটের উদাহরণ
 
-Prompts use the [[Variables|variable]] syntax `{{"your prompt"}}`. You can use this syntax with any natural language query, e.g.
+প্রম্পটগুলো `{{"your prompt"}}` [[Variables|ভেরিয়েবল]] সিনট্যাক্স ব্যবহার করে। আপনি যেকোনো প্রাকৃতিক ভাষার কোয়েরির সাথে এই সিনট্যাক্স ব্যবহার করতে পারেন, যেমন:
 
-- `{{"a summary of the page"}}` to extract a summary of the page.
-- `{{"a three bullet point summary, translated to French"}}` to extract bullet points about the page, and translate them to French.
-- `{{"un resumé de la page en trois points"}}` to extract three bullet points using a prompt in French.
+- `{{"a summary of the page"}}` পেজের একটি সারসংক্ষেপ বের করতে।
+- `{{"a three bullet point summary, translated to French"}}` পেজ সম্পর্কে বুলেট পয়েন্ট বের করতে, এবং সেগুলো ফরাসি ভাষায় অনুবাদ করতে।
+- `{{"un resumé de la page en trois points"}}` ফরাসি ভাষায় প্রম্পট ব্যবহার করে তিনটি বুলেট পয়েন্ট বের করতে।
 
-The output of your prompts can be further manipulated using [[Filters]]. Filters are processed after the prompt response is received from the model. For example: `{{"a summary of the page"|blockquote}}` will turn the response into a blockquote.
+আপনার প্রম্পটের আউটপুট [[Filters]] ব্যবহার করে আরও পরিবর্তন করা যায়। মডেল থেকে প্রম্পট রেসপন্স পাওয়ার পরে ফিল্টার প্রক্রিয়া করা হয়। উদাহরণস্বরূপ: `{{"a summary of the page"|blockquote}}` রেসপন্সটিকে একটি ব্লককোটে রূপান্তরিত করবে।
 
-## Get started
+## শুরু করুন
 
-Interpreter works with almost any language model provider, including options that run privately on your device. To set up Interpreter:
+Interpreter প্রায় সব ভাষা মডেল প্রোভাইডারের সাথে কাজ করে, এমনকি যেগুলো আপনার ডিভাইসে ব্যক্তিগতভাবে চলে সেগুলোসহ। Interpreter সেট আপ করতে:
 
-1. Go to the **Interpreter** section in Web Clipper settings.
-2. Toggle on **Enable Interpreter**.
-3. Configure your provider and model, see [[Interpreter#Models|models]] section below.
-4. Add [[Variables|prompt variables]] to your [[Obsidian Web Clipper/Templates|templates]].
-5. If your template includes prompt variables, the Interpreter section will be visible when you [[Clip web pages|clip a page]]. Click **interpret** to process the prompt variables.
+1. Web Clipper সেটিংসে **Interpreter** বিভাগে যান।
+2. **Enable Interpreter** টগল অন করুন।
+3. আপনার প্রোভাইডার এবং মডেল কনফিগার করুন, নিচের [[Interpreter#মডেল|মডেল]] বিভাগ দেখুন।
+4. আপনার [[Obsidian Web Clipper/Templates|টেমপ্লেটে]] [[Variables|প্রম্পট ভেরিয়েবল]] যোগ করুন।
+5. আপনার টেমপ্লেটে প্রম্পট ভেরিয়েবল থাকলে, আপনি যখন [[Clip web pages|একটি পেজ ক্লিপ করবেন]] তখন Interpreter বিভাগটি দেখা যাবে। প্রম্পট ভেরিয়েবল প্রক্রিয়া করতে **interpret**-এ ক্লিক করুন।
 
-## How it works
+## এটি কীভাবে কাজ করে
 
-When Interpreter is enabled *and* your template contains [[Variables#Prompt variables|prompt variables]], a new Interpreter section is displayed in the extension window, above the **Add to Obsidian** button. This section lets you select a model and run Interpreter for the current page.
+Interpreter সক্রিয় *এবং* আপনার টেমপ্লেটে [[Variables#প্রম্পট ভেরিয়েবল|প্রম্পট ভেরিয়েবল]] থাকলে, **Add to Obsidian** বাটনের উপরে এক্সটেনশন উইন্ডোতে একটি নতুন Interpreter বিভাগ প্রদর্শিত হয়। এই বিভাগ থেকে আপনি একটি মডেল নির্বাচন করতে পারেন এবং বর্তমান পেজের জন্য Interpreter চালাতে পারেন।
 
-When you click **interpret**, Interpreter sends the page context to your selected model, along with *all* the prompts in your template in one request. Depending on the model provider you choose, this can be an external call or local to your device. The model evaluates your prompts against the page context, and returns its responses. Interpreter then replaces the prompt variables with the response data.
+আপনি **interpret**-এ ক্লিক করলে, Interpreter পেজের কনটেক্সট, আপনার টেমপ্লেটের *সব* প্রম্পটসহ, একটি রিকোয়েস্টে আপনার নির্বাচিত মডেলে পাঠায়। আপনার বেছে নেওয়া মডেল প্রোভাইডারের উপর নির্ভর করে, এটি একটি বাহ্যিক কল বা আপনার ডিভাইসে স্থানীয়ভাবে সম্পন্ন হতে পারে। মডেলটি পেজের কনটেক্সটের বিপরীতে আপনার প্রম্পটগুলো মূল্যায়ন করে, এবং তার রেসপন্স ফেরত দেয়। এরপর Interpreter প্রম্পট ভেরিয়েবলগুলোকে রেসপন্স ডেটা দিয়ে প্রতিস্থাপন করে।
 
-The whole process can take milliseconds or more than 30 seconds depending on the model you use and the amount of data you are processing.
+আপনি যে মডেল ব্যবহার করছেন এবং প্রক্রিয়া করা ডেটার পরিমাণের উপর নির্ভর করে পুরো প্রক্রিয়াটি মিলিসেকেন্ড বা ৩০ সেকেন্ডের বেশি সময় নিতে পারে।
 
-## Context
+## কনটেক্সট
 
-The term *context* refers to the page data that Interpreter uses to process prompts. The smaller the context, the faster Interpreter runs. 
+*কনটেক্সট* শব্দটি সেই পেজের ডেটা বোঝায় যা Interpreter প্রম্পট প্রক্রিয়া করতে ব্যবহার করে। কনটেক্সট যত ছোট, Interpreter তত দ্রুত চলে।
 
-By default, Interpreter uses the entire page HTML as its context, however this can make prompts slower and more expensive than necessary.
+ডিফল্টভাবে, Interpreter তার কনটেক্সট হিসেবে পুরো পেজের HTML ব্যবহার করে, তবে এতে প্রম্পট প্রয়োজনের চেয়ে বেশি ধীর এবং ব্যয়বহুল হতে পারে।
 
-You can override the default context in Interpreter **Advanced settings** and define context per [[Obsidian Web Clipper/Templates|template]].
+আপনি Interpreter-এর **Advanced settings**-এ ডিফল্ট কনটেক্সট পরিবর্তন করতে পারেন এবং প্রতিটি [[Obsidian Web Clipper/Templates|টেমপ্লেটের]] জন্য কনটেক্সট নির্ধারণ করতে পারেন।
 
-To define a more targeted context use [[Variables#Selector variables|selector variables]] (or other variable types) to interpret a section of the page. For example, you could use the following selector variable in your template's Interpreter context:
+পেজের একটি অংশ ব্যাখ্যা করতে আরও নির্দিষ্ট কনটেক্সট নির্ধারণ করতে [[Variables#সিলেক্টর ভেরিয়েবল|সিলেক্টর ভেরিয়েবল]] (বা অন্যান্য ভেরিয়েবল ধরন) ব্যবহার করুন। উদাহরণস্বরূপ, আপনি আপনার টেমপ্লেটের Interpreter কনটেক্সটে নিচের সিলেক্টর ভেরিয়েবল ব্যবহার করতে পারেন:
 
 ```
 {{selectorHtml:#main}}
 ```
 
- This would only run Interpreter on the `#main` element of a web page, if it exists. [[Filters#HTML processing|HTML processing filters]] like `remove_html`, `strip_tags` and `strip_attr` can be useful to further reduce the context length and speed up processing.
+ এটি শুধুমাত্র একটি ওয়েব পেজের `#main` এলিমেন্টে Interpreter চালাবে, যদি এটি বিদ্যমান থাকে। কনটেক্সটের দৈর্ঘ্য আরও কমাতে এবং প্রক্রিয়াকরণ দ্রুত করতে `remove_html`, `strip_tags` এবং `strip_attr`-এর মতো [[Filters#HTML প্রসেসিং|HTML প্রসেসিং ফিল্টার]] কার্যকর হতে পারে।
 
-## Models
+## মডেল
 
-> [!warning] Privacy
-> By using a third-party model provider you agree to their terms and privacy policy. Interpreter requests are sent directly to the provider you choose. Obsidian does not gather or store any data about your requests.
+> [!warning] গোপনীয়তা
+> একটি তৃতীয় পক্ষের মডেল প্রোভাইডার ব্যবহার করে আপনি তাদের শর্তাবলী এবং গোপনীয়তা নীতিতে সম্মত হচ্ছেন। Interpreter রিকোয়েস্টগুলো সরাসরি আপনার বেছে নেওয়া প্রোভাইডারের কাছে পাঠানো হয়। Obsidian আপনার রিকোয়েস্ট সম্পর্কে কোনো ডেটা সংগ্রহ বা সংরক্ষণ করে না।
 
-### Preset providers
+### প্রিসেট প্রোভাইডার
 
-Interpreter includes several preset providers. To use these providers you need an API key which you can get by logging into your provider's account. You will also need to decide which model(s) to use.
+Interpreter-এ বেশ কিছু প্রিসেট প্রোভাইডার অন্তর্ভুক্ত আছে। এই প্রোভাইডারগুলো ব্যবহার করতে আপনার একটি API কি প্রয়োজন যা আপনি আপনার প্রোভাইডারের অ্যাকাউন্টে লগইন করে পেতে পারেন। আপনাকে কোন মডেল(গুলো) ব্যবহার করবেন তাও ঠিক করতে হবে।
 
-| Provider           | API&nbsp;key                                                | Models                                                                               |
+| প্রোভাইডার           | API&nbsp;কি                                                | মডেল                                                                               |
 | ------------------ | ----------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Anthropic          | [API&nbsp;key](https://console.anthropic.com/settings/keys) | [Models](https://docs.anthropic.com/en/docs/about-claude/models)                     |
-| Azure&nbsp;OpenAI  | [API&nbsp;key](https://oai.azure.com/portal/)               | [Models](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) |
-| DeepSeek           | [API key](https://platform.deepseek.com/api_keys)           | [Models](https://api-docs.deepseek.com/quick_start/pricing)                          |
-| Google&nbsp;Gemini | [API&nbsp;key](https://aistudio.google.com/apikey)          | [Models](https://ai.google.dev/gemini-api/docs/models/gemini)                        |
-| Hugging Face       | [API key](https://huggingface.co/settings/tokens)           | [Models](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)   |
-| Meta               | [API key](https://llama.developer.meta.com)                 | [Models](https://llama.developer.meta.com/docs/models)                               |
-| Ollama             | n/a                                                         | [Models](https://ollama.com/search)                                                  |
-| OpenAI             | [API&nbsp;key](https://platform.openai.com/api-keys)        | [Models](https://platform.openai.com/docs/models)                                    |
-| OpenRouter         | [API&nbsp;key](https://openrouter.ai/settings/keys)         | [Models](https://openrouter.ai/models)                                               |
-| Perplexity         | [API key](https://www.perplexity.ai/settings/api)           | [Models](https://docs.perplexity.ai/guides/model-cards)                              |
-| xAI Grok           | [API key](https://console.x.ai/team/default/api-keys)       | [Models](https://docs.x.ai/docs/models)                                              |
+| Anthropic          | [API&nbsp;কি](https://console.anthropic.com/settings/keys) | [মডেল](https://docs.anthropic.com/en/docs/about-claude/models)                     |
+| Azure&nbsp;OpenAI  | [API&nbsp;কি](https://oai.azure.com/portal/)               | [মডেল](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models) |
+| DeepSeek           | [API কি](https://platform.deepseek.com/api_keys)           | [মডেল](https://api-docs.deepseek.com/quick_start/pricing)                          |
+| Google&nbsp;Gemini | [API&nbsp;কি](https://aistudio.google.com/apikey)          | [মডেল](https://ai.google.dev/gemini-api/docs/models/gemini)                        |
+| Hugging Face       | [API কি](https://huggingface.co/settings/tokens)           | [মডেল](https://huggingface.co/models?pipeline_tag=text-generation&sort=trending)   |
+| Meta               | [API কি](https://llama.developer.meta.com)                 | [মডেল](https://llama.developer.meta.com/docs/models)                               |
+| Ollama             | প্রযোজ্য নয়                                                         | [মডেল](https://ollama.com/search)                                                  |
+| OpenAI             | [API&nbsp;কি](https://platform.openai.com/api-keys)        | [মডেল](https://platform.openai.com/docs/models)                                    |
+| OpenRouter         | [API&nbsp;কি](https://openrouter.ai/settings/keys)         | [মডেল](https://openrouter.ai/models)                                               |
+| Perplexity         | [API কি](https://www.perplexity.ai/settings/api)           | [মডেল](https://docs.perplexity.ai/guides/model-cards)                              |
+| xAI Grok           | [API কি](https://console.x.ai/team/default/api-keys)       | [মডেল](https://docs.x.ai/docs/models)                                              |
 
-### Choosing a model
+### একটি মডেল বেছে নেওয়া
 
-In general we recommend using small models with Web Clipper because they are faster and perform fairly accurately for this task. Examples of smaller models include **Anthropic's Claude Haiku**, **Google Gemini Flash**, **Llama** with 3B or 8B parameters, or **OpenAI's Mini** series of models.
+সাধারণভাবে আমরা Web Clipper-এর সাথে ছোট মডেল ব্যবহারের পরামর্শ দিই কারণ সেগুলো দ্রুত কাজ করে এবং এই কাজের জন্য মোটামুটি সঠিকভাবে পারফর্ম করে। ছোট মডেলের উদাহরণের মধ্যে রয়েছে **Anthropic-এর Claude Haiku**, **Google Gemini Flash**, ৩B বা ৮B প্যারামিটারযুক্ত **Llama**, অথবা **OpenAI-এর Mini** সিরিজের মডেল।
 
-### Custom providers and models
+### কাস্টম প্রোভাইডার এবং মডেল
 
-To add a custom provider and/or model go to Web Clipper **[[Settings]]** → **Interpreter**:
+একটি কাস্টম প্রোভাইডার এবং/অথবা মডেল যোগ করতে Web Clipper **[[Settings]]** → **Interpreter**-এ যান:
 
-- **Add provider** to configure preset and custom providers.
-- **Add model** to configure preset and custom models.
+- প্রিসেট এবং কাস্টম প্রোভাইডার কনফিগার করতে **Add provider**।
+- প্রিসেট এবং কাস্টম মডেল কনফিগার করতে **Add model**।
 
-When adding a custom provider, we recommend that you use their chat completions endpoint for the **Base URL** — it typically ends with `/chat/completions`.
+একটি কাস্টম প্রোভাইডার যোগ করার সময়, আমরা পরামর্শ দিই যে আপনি **Base URL**-এর জন্য তাদের চ্যাট কমপ্লিশন এন্ডপয়েন্ট ব্যবহার করুন — এটি সাধারণত `/chat/completions` দিয়ে শেষ হয়।
 
-### Local models
+### স্থানীয় মডেল
 
-Interpreter can use local models which offer greater privacy and offline compatibility. Several options for running local models exist. One of the easiest to configure is Ollama.
+Interpreter স্থানীয় মডেল ব্যবহার করতে পারে যা আরও বেশি গোপনীয়তা এবং অফলাইন সামঞ্জস্য প্রদান করে। স্থানীয় মডেল চালানোর জন্য বেশ কিছু বিকল্প রয়েছে। কনফিগার করা সবচেয়ে সহজগুলোর একটি হলো Ollama।
 
 #### Ollama
 
-[Ollama](https://ollama.com/) lets you run language models locally and privately on your device. 
+[Ollama](https://ollama.com/) আপনাকে আপনার ডিভাইসে স্থানীয়ভাবে এবং ব্যক্তিগতভাবে ভাষা মডেল চালাতে দেয়।
 
-Once you have downloaded and installed Ollama, add Ollama using **Add provider** in Interpreter settings. Ollama does not require an API key. Then choose a model from the [model list](https://ollama.com/search). For example if you want to use [Llama 3.2](https://ollama.com/library/llama3.2), click **Add model**, then:
+আপনি Ollama ডাউনলোড ও ইনস্টল করার পর, Interpreter সেটিংসে **Add provider** ব্যবহার করে Ollama যোগ করুন। Ollama-এর কোনো API কি প্রয়োজন নেই। এরপর [মডেল তালিকা](https://ollama.com/search) থেকে একটি মডেল বেছে নিন। উদাহরণস্বরূপ আপনি [Llama 3.2](https://ollama.com/library/llama3.2) ব্যবহার করতে চাইলে, **Add model**-এ ক্লিক করুন, তারপর:
 
 - **Provider:** Ollama
-- **Display name:** Llama 3.2, this value is customizable.
-- **Model ID:** `llama3.2`, this must exactly match the model ID from Olllama.
+- **Display name:** Llama 3.2, এই মানটি কাস্টমাইজযোগ্য।
+- **Model ID:** `llama3.2`, এটি অবশ্যই Ollama-এর মডেল ID-এর সাথে হুবহু মিলতে হবে।
 
-**Start the Ollama server**
+**Ollama সার্ভার চালু করুন**
 
-To allow a browser extension to interact with Ollama you must [give it explicit instruction](https://github.com/ollama/ollama/issues/2308) when running the server, or else you will see a `403` error. 
+একটি ব্রাউজার এক্সটেনশনকে Ollama-এর সাথে ইন্টার‍্যাক্ট করার অনুমতি দিতে সার্ভার চালানোর সময় আপনাকে অবশ্যই [স্পষ্ট নির্দেশনা দিতে হবে](https://github.com/ollama/ollama/issues/2308), নাহলে আপনি একটি `403` এরর দেখবেন।
 
-Close the Ollama app, and run the following command in your terminal. The protocol should be changed to your browser's extension protocol if you don't use Chrome or Firefox.
+Ollama অ্যাপটি বন্ধ করুন, এবং আপনার টার্মিনালে নিচের কমান্ডটি চালান। আপনি Chrome বা Firefox ব্যবহার না করলে প্রোটোকলটি আপনার ব্রাউজারের এক্সটেনশন প্রোটোকলে পরিবর্তন করতে হবে।
 
 ```
 OLLAMA_ORIGINS=moz-extension://*,chrome-extension://*,safari-web-extension://* ollama serve
 ```
 
-Then run your model with Ollama the normal way, e.g.
+এরপর স্বাভাবিক উপায়ে Ollama দিয়ে আপনার মডেল চালান, যেমন:
 
 ```
 ollama run llama3.2
 ```
 
-**Context length**
+**কনটেক্সটের দৈর্ঘ্য**
 
-Ollama's context window defaults to 2048 tokens. This is the maximum number of tokens for the message and response. When clipping a long web page you can easily exceed this limit. Ollama will silently fail and return irrelevant results. Some options:
+Ollama-এর কনটেক্সট উইন্ডো ডিফল্টভাবে ২০৪৮ টোকেন। এটি মেসেজ এবং রেসপন্সের জন্য সর্বোচ্চ টোকেন সংখ্যা। একটি দীর্ঘ ওয়েব পেজ ক্লিপ করার সময় আপনি সহজেই এই সীমা অতিক্রম করতে পারেন। Ollama নীরবে ব্যর্থ হবে এবং অপ্রাসঙ্গিক ফলাফল ফেরত দেবে। কিছু বিকল্প:
 
-- Increase Ollama's `num_ctx` parameter. Be mindful that longer context requires more memory.
-- Use the [[#Context]] field in your template to provide a more targeted section of the page, or trim the context using a [[Filters|filter]] e.g. `{{content|slice:0,1000}}`.
+- Ollama-এর `num_ctx` প্যারামিটার বাড়ান। মনে রাখবেন দীর্ঘ কনটেক্সটের জন্য আরও বেশি মেমরি প্রয়োজন।
+- পেজের আরও নির্দিষ্ট অংশ দিতে আপনার টেমপ্লেটে [[#কনটেক্সট]] ফিল্ড ব্যবহার করুন, অথবা একটি [[Filters|ফিল্টার]] ব্যবহার করে কনটেক্সট ছোট করুন, যেমন `{{content|slice:0,1000}}`।

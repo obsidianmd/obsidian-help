@@ -1,181 +1,180 @@
 ---
-localized: null
 permalink: formulas
-description: 'Formulas allow you to create calculated properties using data from other properties. You can perform calculations, manipulate text, work with dates, and more.'
+description: 'ফর্মুলা আপনাকে অন্যান্য প্রপার্টির ডেটা ব্যবহার করে হিসাবকৃত প্রপার্টি তৈরি করতে দেয়। আপনি হিসাব করতে, টেক্সট পরিবর্তন করতে, তারিখ নিয়ে কাজ করতে পারেন, এবং আরও অনেক কিছু।'
 ---
-Formulas allow you to create calculated properties in [[Introduction to Bases|Bases]] using data from other [[Properties|properties]]. You can perform calculations, manipulate text, work with dates, and more. 
+ফর্মুলা আপনাকে অন্যান্য [[Properties|প্রপার্টির]] ডেটা ব্যবহার করে [[Introduction to Bases|Bases]]-এ হিসাবকৃত প্রপার্টি তৈরি করতে দেয়। আপনি হিসাব করতে, টেক্সট পরিবর্তন করতে, তারিখ নিয়ে কাজ করতে পারেন, এবং আরও অনেক কিছু।
 
-## What formulas can do
+## ফর্মুলা যা করতে পারে
 
-Formulas can help you:
+ফর্মুলা আপনাকে সাহায্য করতে পারে:
 
-- **Calculate values**, add prices, compute totals, or perform math operations.
-- **Manipulate text**, combine strings, change case, or extract substrings.
-- **Work with dates**, calculate time differences, format dates, or determine deadlines.
-- **Apply logic**, use conditional statements to display different values.
-- **Process lists**, filter, sort, map, or aggregate list data.
+- **মান হিসাব করতে**, দাম যোগ করতে, মোট হিসাব করতে, বা গাণিতিক অপারেশন করতে।
+- **টেক্সট পরিবর্তন করতে**, স্ট্রিং একত্রিত করতে, কেস পরিবর্তন করতে, বা সাব-স্ট্রিং বের করতে।
+- **তারিখ নিয়ে কাজ করতে**, সময়ের পার্থক্য হিসাব করতে, তারিখ ফরম্যাট করতে, বা সময়সীমা নির্ধারণ করতে।
+- **লজিক প্রয়োগ করতে**, বিভিন্ন মান প্রদর্শনের জন্য শর্তসাপেক্ষ স্টেটমেন্ট ব্যবহার করতে।
+- **লিস্ট প্রসেস করতে**, লিস্ট ডেটা ফিল্টার, সাজানো, ম্যাপ, বা একত্রিত (aggregate) করতে।
 
-## Create a formula property
+## একটি ফর্মুলা প্রপার্টি তৈরি করুন
 
-To create a formula property:
+একটি ফর্মুলা প্রপার্টি তৈরি করতে:
 
-1. In your base, click **Properties** in the toolbar.
-2. Click **Add formula** at the bottom of the menu.
-3. Enter a name for your formula property.
-4. Type your formula in the **Formula** field.
-5. Close the dialog.
+1. আপনার বেসে, টুলবারে **প্রপার্টি** ক্লিক করুন।
+2. মেনুর নিচে **Add formula** ক্লিক করুন।
+3. আপনার ফর্মুলা প্রপার্টির জন্য একটি নাম লিখুন।
+4. **Formula** ফিল্ডে আপনার ফর্মুলা টাইপ করুন।
+5. ডায়ালগটি বন্ধ করুন।
 
-The formula editor will autocomplete [[Functions|function]] and property names as you type to validate your formula syntax. A green checkmark appears when your formula is valid.
+ফর্মুলা এডিটর আপনি টাইপ করার সময় আপনার ফর্মুলা সিনট্যাক্স যাচাই করতে [[Functions|ফাংশন]] এবং প্রপার্টির নাম স্বয়ংসম্পূর্ণ (autocomplete) করবে। আপনার ফর্মুলা সঠিক হলে একটি সবুজ চেকমার্ক দেখা যাবে।
 
-Once created, you can use a formula property like any other property in your base. Add it to [[Views|views]], use it in filters, sort by it, and more.
+একবার তৈরি হয়ে গেলে, আপনি একটি ফর্মুলা প্রপার্টি আপনার বেসের অন্য যেকোনো প্রপার্টির মতোই ব্যবহার করতে পারেন। এটি [[Views|ভিউয়ে]] যোগ করুন, ফিল্টারে ব্যবহার করুন, এটি দিয়ে সাজান, এবং আরও অনেক কিছু।
 
-## Write a formula
+## একটি ফর্মুলা লিখুন
 
-In the formula editor, type an expression using properties, operators, and functions.
+ফর্মুলা এডিটরে, প্রপার্টি, অপারেটর এবং ফাংশন ব্যবহার করে একটি এক্সপ্রেশন টাইপ করুন।
 
-### Reference properties
+### প্রপার্টি রেফারেন্স করা
 
-You can reference different types of properties in your formulas:
+আপনি আপনার ফর্মুলায় বিভিন্ন ধরনের প্রপার্টি রেফারেন্স করতে পারেন:
 
-- **Note properties** — Properties from a note's [[Properties|frontmatter]].
-- **File properties** — Built-in properties like `file.name`, `file.size`, or `file.mtime`.
-- **Formula properties** — Other formulas using `formula.formula_name`.
+- **নোট প্রপার্টি** — একটি নোটের [[Properties|ফ্রন্টম্যাটার]] থেকে প্রপার্টি।
+- **ফাইল প্রপার্টি** — `file.name`, `file.size`, বা `file.mtime`-এর মতো বিল্ট-ইন প্রপার্টি।
+- **ফর্মুলা প্রপার্টি** — `formula.formula_name` ব্যবহার করে অন্য ফর্মুলা।
 
-**Examples:**
+**উদাহরণ:**
 
-- `price * quantity` — multiply two note properties
-- `file.name + " - " + description` — combine file name with a note property
-- `formula.price_per_unit * 1.1` — use another formula property
+- `price * quantity` — দুটি নোট প্রপার্টি গুণ করা
+- `file.name + " - " + description` — ফাইলের নামের সাথে একটি নোট প্রপার্টি একত্রিত করা
+- `formula.price_per_unit * 1.1` — অন্য একটি ফর্মুলা প্রপার্টি ব্যবহার করা
 
-### Use operators
+### অপারেটর ব্যবহার করুন
 
-**Arithmetic operators** perform math on numbers:
+**গাণিতিক অপারেটর** সংখ্যার উপর গণিত করে:
 
-- `price + tax` — add
-- `price - discount` — subtract
-- `price * quantity` — multiply
-- `price / quantity` — divide
-- `(part / whole) * 100` — use parentheses for order of operations
+- `price + tax` — যোগ
+- `price - discount` — বিয়োগ
+- `price * quantity` — গুণ
+- `price / quantity` — ভাগ
+- `(part / whole) * 100` — অপারেশনের ক্রম নির্ধারণের জন্য বন্ধনী ব্যবহার করুন
 
-**Comparison operators** compare values:
+**তুলনামূলক অপারেটর** মান তুলনা করে:
 
-- `price > 100` — greater than
-- `age < 18` — less than
-- `status == "Done"` — equals
-- `status != "Done"` — not equals
-- `file.mtime > now() - '7d'` — compare dates
+- `price > 100` — বড়
+- `age < 18` — ছোট
+- `status == "Done"` — সমান
+- `status != "Done"` — অসমান
+- `file.mtime > now() - '7d'` — তারিখ তুলনা করা
 
-**Boolean operators** combine logical conditions:
+**বুলিয়ান অপারেটর** লজিক্যাল শর্তগুলো একত্রিত করে:
 
-- `!completed` — not
-- `price > 0 && quantity > 0` — and
-- `urgent || important` — or
+- `!completed` — না (not)
+- `price > 0 && quantity > 0` — এবং (and)
+- `urgent || important` — অথবা (or)
 
-Learn more in [[Bases syntax#Operators|Bases syntax]].
+আরও জানুন [[Bases syntax#Operators|বেসেস সিনট্যাক্সে]]।
 
-### Use functions
+### ফাংশন ব্যবহার করুন
 
-Functions perform operations on values. The available functions depend on the type of value you're working with. See the complete list of [[Functions]].
+ফাংশন মানের উপর অপারেশন করে। উপলব্ধ ফাংশন আপনি যে ধরনের মান নিয়ে কাজ করছেন তার উপর নির্ভর করে। সম্পূর্ণ [[Functions]] তালিকা দেখুন।
 
-**Common function categories:**
+**সাধারণ ফাংশন বিভাগ:**
 
-- **Global functions** — `if()`, `now()`, `date()`, `link()`, `max()`, `min()`
-- **String functions** — `contains()`, `replace()`, `split()`, `lower()`, `title()`
-- **Number functions** — `round()`, `ceil()`, `floor()`, `abs()`, `toFixed()`
-- **Date functions** — `format()`, `relative()`, `date()`, `time()`
-- **List functions** — `filter()`, `map()`, `sort()`, `join()`, `unique()`
+- **গ্লোবাল ফাংশন** — `if()`, `now()`, `date()`, `link()`, `max()`, `min()`
+- **স্ট্রিং ফাংশন** — `contains()`, `replace()`, `split()`, `lower()`, `title()`
+- **সংখ্যা ফাংশন** — `round()`, `ceil()`, `floor()`, `abs()`, `toFixed()`
+- **তারিখ ফাংশন** — `format()`, `relative()`, `date()`, `time()`
+- **লিস্ট ফাংশন** — `filter()`, `map()`, `sort()`, `join()`, `unique()`
 
-**Examples:**
+**উদাহরণ:**
 
-- `if(price, "$" + price.toFixed(2), "")` to define a conditional with number formatting.
-- `file.name.lower()` to convert to lowercase.
-- `tags.contains("urgent")` to check if the tags list contains a value.
-- `due_date.format("YYYY-MM-DD")` to format a date.
+- `if(price, "$" + price.toFixed(2), "")` সংখ্যা ফরম্যাটিং সহ একটি শর্তসাপেক্ষ স্টেটমেন্ট নির্ধারণ করতে।
+- `file.name.lower()` লোয়ারকেসে রূপান্তর করতে।
+- `tags.contains("urgent")` ট্যাগ লিস্টে একটি মান আছে কিনা যাচাই করতে।
+- `due_date.format("YYYY-MM-DD")` একটি তারিখ ফরম্যাট করতে।
 
-## Formula examples
+## ফর্মুলার উদাহরণ
 
-### Calculate a deadline
+### একটি ডেডলাইন হিসাব করুন
 
-Set a project's due date as 2 weeks after the start date:
+একটি প্রজেক্টের শেষ তারিখ শুরুর তারিখ থেকে ২ সপ্তাহ পরে নির্ধারণ করুন:
 
 ```js
 start_date + "2w"
 ```
 
-### Display overdue status
+### বিলম্বিত অবস্থা প্রদর্শন করুন
 
-Show "Overdue" if the due date has passed and status is not "Done":
+শেষ তারিখ পার হয়ে গেলে এবং স্ট্যাটাস "Done" না হলে "Overdue" দেখান:
 
 ```js
 if(due_date < now() && status != "Done", "Overdue", "")
 ```
 
-### Format currency
+### কারেন্সি ফরম্যাট করুন
 
-Display a price with 2 decimal places and currency symbol:
+২টি দশমিক স্থান এবং কারেন্সি চিহ্নসহ একটি দাম প্রদর্শন করুন:
 
 ```js
 if(price, "$" + price.toFixed(2), "")
 ```
 
-### Count list items
+### লিস্ট আইটেম গণনা করুন
 
-Count the number of items in a list property:
+একটি লিস্ট প্রপার্টিতে থাকা আইটেমের সংখ্যা গণনা করুন:
 
 ```js
 tasks.length
 ```
 
-### Calculate priority score
+### প্রায়োরিটি স্কোর হিসাব করুন
 
-Combine multiple factors into a priority score:
+একাধিক ফ্যাক্টরকে একটি প্রায়োরিটি স্কোরে একত্রিত করুন:
 
 ```js
 (impact * urgency) / effort
 ```
 
-### Combine text fields
+### টেক্সট ফিল্ড একত্রিত করুন
 
-Create a full name from first and last name:
+প্রথম নাম ও শেষ নাম থেকে একটি পূর্ণ নাম তৈরি করুন:
 
 ```js
 first_name + " " + last_name
 ```
 
-### Calculate total cost
+### মোট খরচ হিসাব করুন
 
-Multiply monthly cost by number of months owned:
+মালিকানার মাসের সংখ্যা দিয়ে মাসিক খরচ গুণ করুন:
 
 ```js
 monthlyUses * formula.Owned.round()
 ```
 
-## Data types
+## ডেটা টাইপ
 
-Formulas work with different types of data:
+ফর্মুলা বিভিন্ন ধরনের ডেটা নিয়ে কাজ করে:
 
-- **Strings** — Text enclosed in quotes: `"hello"` or `'world'`
-- **Numbers** — Numeric values: `42`, `3.14`, `(2 + 2)`
-- **Booleans** — True or false: `true`, `false`
-- **Dates** — Created with `date()`, `today()`, or `now()`
-- **Lists** — Collections of values: `[1, 2, 3]`
-- **Objects** — Key-value pairs: `{"name": "value"}`
+- **স্ট্রিং** — উদ্ধৃতি চিহ্নের মধ্যে থাকা টেক্সট: `"hello"` বা `'world'`
+- **সংখ্যা** — সাংখ্যিক মান: `42`, `3.14`, `(2 + 2)`
+- **বুলিয়ান** — সত্য বা মিথ্যা: `true`, `false`
+- **তারিখ** — `date()`, `today()`, বা `now()` দিয়ে তৈরি
+- **লিস্ট** — মানের সংকলন: `[1, 2, 3]`
+- **অবজেক্ট** — কী-ভ্যালু জোড়া: `{"name": "value"}`
 
-The output type of a formula is determined by the data and functions used.
+একটি ফর্মুলার আউটপুট টাইপ ব্যবহৃত ডেটা ও ফাংশন দ্বারা নির্ধারিত হয়।
 
-## Reference other formulas
+## অন্যান্য ফর্মুলা রেফারেন্স করুন
 
-Formulas can reference other formulas, creating derived calculations. For example, if you have a formula called `price_per_unit`:
+ফর্মুলা অন্যান্য ফর্মুলা রেফারেন্স করতে পারে, যা ডেরাইভড হিসাব তৈরি করে। উদাহরণস্বরূপ, যদি আপনার `price_per_unit` নামে একটি ফর্মুলা থাকে:
 
 ```js
 price / quantity
 ```
 
-You can reference it in another formula:
+আপনি এটি অন্য একটি ফর্মুলায় রেফারেন্স করতে পারেন:
 
 ```js
 formula.price_per_unit * 1.1
 ```
 
-> [!warning] Avoid circular references
-> A formula cannot reference itself directly or indirectly through other formulas.
+> [!warning] সার্কুলার রেফারেন্স এড়িয়ে চলুন
+> একটি ফর্মুলা নিজেকে সরাসরি বা অন্য ফর্মুলার মাধ্যমে পরোক্ষভাবে রেফারেন্স করতে পারে না।

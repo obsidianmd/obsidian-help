@@ -1,25 +1,24 @@
 ---
-localized: null
 permalink: import/html
 ---
-Obsidian lets you easily import individual HTML files and entire folders of HTML files using the official [[Importer|Importer plugin]]. This is useful if you want to save whole websites to [[Obsidian Flavored Markdown|Markdown]] format, or if you want to import data from a tool that exports to HTML. 
+Obsidian আপনাকে অফিসিয়াল [[Importer|Importer প্লাগইন]] ব্যবহার করে সহজেই পৃথক HTML ফাইল এবং HTML ফাইলের সম্পূর্ণ ফোল্ডার ইম্পোর্ট করতে দেয়। এটি তখন কাজে আসে যখন আপনি সম্পূর্ণ ওয়েবসাইট [[Obsidian Flavored Markdown|Markdown]] ফরম্যাটে সংরক্ষণ করতে চান, অথবা এমন কোনো টুল থেকে ডেটা ইম্পোর্ট করতে চান যা HTML-এ এক্সপোর্ট করে। 
 
-If you are importing notes from a specific app, you may want to first review the list of apps supported by [[Importer|Importer plugin]] to check if there is a specific converter that will better preserve the data you are migrating.
+আপনি যদি কোনো নির্দিষ্ট অ্যাপ থেকে নোট ইম্পোর্ট করছেন, তাহলে প্রথমে [[Importer|Importer প্লাগইন]] দ্বারা সমর্থিত অ্যাপের তালিকা পর্যালোচনা করে দেখে নিতে পারেন যে কোনো নির্দিষ্ট কনভার্টার আছে কিনা যা আপনার মাইগ্রেট করা ডেটা আরও ভালোভাবে সংরক্ষণ করবে।
 
-## Import HTML data into Obsidian
+## Obsidian-এ HTML ডেটা ইম্পোর্ট করুন
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+আপনার অফিসিয়াল Obsidian [[Importer]] প্লাগইন প্রয়োজন হবে, যা আপনি [এখানে ইনস্টল করতে পারেন](obsidian://show-plugin?id=obsidian-importer)।
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **HTML (.html).**
-6. Select the location of your HTML files or folders.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. **[[Settings]]** খুলুন।
+2. **Community Plugins**-এ যান এবং [Importer ইনস্টল করুন](obsidian://show-plugin?id=obsidian-importer)।
+3. Importer প্লাগইন চালু করুন।
+4. কমান্ড প্যালেট বা রিবন আইকন ব্যবহার করে **Importer** প্লাগইন খুলুন।
+5. **File format**-এর অধীনে **HTML (.html)** নির্বাচন করুন।
+6. আপনার HTML ফাইল বা ফোল্ডারের অবস্থান নির্বাচন করুন।
+7. **Import**-এ ক্লিক করুন এবং ইম্পোর্ট সম্পূর্ণ না হওয়া পর্যন্ত অপেক্ষা করুন।
+8. আপনার কাজ শেষ!
 
-### Import settings
+### ইম্পোর্ট সেটিংস
 
-- **Attachment size limit**: Skip importing attachments larger than the specified size.
-- **Minimum image size**: Skip importing images smaller than the specified size in either dimension. Can be used to skip icons and logos.
+- **Attachment size limit**: নির্দিষ্ট আকারের চেয়ে বড় সংযুক্তি ইম্পোর্ট করা বাদ দিন।
+- **Minimum image size**: উভয় মাত্রায় নির্দিষ্ট আকারের চেয়ে ছোট ছবি ইম্পোর্ট করা বাদ দিন। আইকন এবং লোগো বাদ দিতে এটি ব্যবহার করা যেতে পারে।

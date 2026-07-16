@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: plugins/templates
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Templates is a core plugin that lets you insert pre-defined snippets of text into your active note.
+description: টেমপ্লেট একটি কোর প্লাগইন যা আপনাকে আপনার সক্রিয় নোটে পূর্ব-নির্ধারিত টেক্সট স্নিপেট সন্নিবেশ করতে দেয়।
 ---
 
-Templates is a [[Core plugins|core plugin]] that lets you insert pre-defined snippets of text into your active note.
+টেমপ্লেট একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে আপনার সক্রিয় নোটে পূর্ব-নির্ধারিত টেক্সট স্নিপেট সন্নিবেশ করতে দেয়।
 
-## Set your template folder
+## আপনার টেমপ্লেট ফোল্ডার সেট করুন
 
-1. In the bottom-left corner, select **[[Settings]]** ![[lucide-cog.svg#icon]].
-2. Under **Core plugins → Templates → Template folder location**, enter the folder containing your templates.
+1. নিচের-বামদিকের কোণে, **[[Settings]]** ![[lucide-cog.svg#icon]] নির্বাচন করুন।
+2. **Core plugins → Templates → Template folder location**-এর অধীনে, আপনার টেমপ্লেট ধারণকারী ফোল্ডারটি লিখুন।
 
-## Template variables
+## টেমপ্লেট ভেরিয়েবল
 
-You can add dynamic information to your templates, using _template variables_. When you insert a template containing a template variable, Templates replaces it with its corresponding value.
+আপনি _টেমপ্লেট ভেরিয়েবল_ ব্যবহার করে আপনার টেমপ্লেটে ডাইনামিক তথ্য যোগ করতে পারেন। আপনি যখন একটি টেমপ্লেট ভেরিয়েবল ধারণকারী একটি টেমপ্লেট সন্নিবেশ করেন, তখন টেমপ্লেট প্লাগইন এটিকে তার সংশ্লিষ্ট মান দিয়ে প্রতিস্থাপন করে।
 
-| Variable    | Description                                     |
+| ভেরিয়েবল    | বিবরণ                                     |
 |-------------|-------------------------------------------------|
-| `{{title}}` | Title of the active note.                       |
-| `{{date}}`  | Today's date. **Default format:** `YYYY-MM-DD`. |
-| `{{time}}`  | Current time. **Default format:** `HH:mm`.      |
+| `{{title}}` | সক্রিয় নোটের শিরোনাম।                       |
+| `{{date}}`  | আজকের তারিখ। **ডিফল্ট ফরম্যাট:** `YYYY-MM-DD`। |
+| `{{time}}`  | বর্তমান সময়। **ডিফল্ট ফরম্যাট:** `HH:mm`।      |
 
-Both `{{date}}` and `{{time}}` allow you to change the default format using a _format string_.
+`{{date}}` এবং `{{time}}` উভয়ই আপনাকে একটি _ফরম্যাট স্ট্রিং_ ব্যবহার করে ডিফল্ট ফরম্যাট পরিবর্তন করতে দেয়।
 
-To set a format string, add a colon (`:`) followed by a string of [Moment.js format tokens](https://momentjs.com/docs/#/displaying/format/), for example `{{date:YYYY-MM-DD}}`.
+একটি ফরম্যাট স্ট্রিং সেট করতে, [Moment.js ফরম্যাট টোকেন](https://momentjs.com/docs/#/displaying/format/)-এর একটি স্ট্রিং অনুসরণ করে একটি কোলন (`:`) যোগ করুন, উদাহরণস্বরূপ `{{date:YYYY-MM-DD}}`।
 
-You can use `{{date}}` and `{{time}}` with format strings in the same way, for example `{{time:YYYY-MM-DD}}`.
+আপনি `{{date}}` এবং `{{time}}` একইভাবে ফরম্যাট স্ট্রিং দিয়ে ব্যবহার করতে পারেন, উদাহরণস্বরূপ `{{time:YYYY-MM-DD}}`।
 
-You can change the default date and time formats under **[[Settings]] → Core plugins → Templates → Date format** and **[[Settings]] → Core plugins → Templates → Time format**. ^template-settings-date-time-formatting
+আপনি **[[Settings]] → Core plugins → Templates → Date format** এবং **[[Settings]] → Core plugins → Templates → Time format**-এর অধীনে ডিফল্ট তারিখ এবং সময়ের ফরম্যাট পরিবর্তন করতে পারেন। ^template-settings-date-time-formatting
 
-> [!tip]- Use date and time variables in other plugins
-> You can also use the `{{date}}` and `{{time}}` template variables in the [[Daily notes]] and [[Unique note creator]] plugins.
+> [!tip]- অন্যান্য প্লাগইনে তারিখ এবং সময় ভেরিয়েবল ব্যবহার করুন
+> আপনি [[Daily notes]] এবং [[Unique note creator]] প্লাগইনেও `{{date}}` এবং `{{time}}` টেমপ্লেট ভেরিয়েবল ব্যবহার করতে পারেন।
 
-## Create a template
+## একটি টেমপ্লেট তৈরি করুন
 
-In the [[#Set your template folder|template folder]], [[Manage notes#Create a new note|create a note]] containing the text you want to appear when you use the template. You can use [[#Template variables|template variables]] for dynamic text like the current date.
+[[#আপনার টেমপ্লেট ফোল্ডার সেট করুন|টেমপ্লেট ফোল্ডারে]], আপনি টেমপ্লেট ব্যবহার করার সময় যে টেক্সট প্রদর্শিত হতে চান তা ধারণ করে একটি [[Manage notes#Create a new note|নোট তৈরি করুন]]। বর্তমান তারিখের মতো ডাইনামিক টেক্সটের জন্য আপনি [[#টেমপ্লেট ভেরিয়েবল|টেমপ্লেট ভেরিয়েবল]] ব্যবহার করতে পারেন।
 
-For example, here's a template for study notes:
+উদাহরণস্বরূপ, এখানে অধ্যয়ন নোটের জন্য একটি টেমপ্লেট রয়েছে:
 
 ```markdown
 ---
@@ -72,28 +71,28 @@ tags:
 - [[]]
 ```
 
-> [!warning]+ Edit templates in Source mode
-> In [[Views and editing mode#Live Preview|Live Preview]], the **Properties in document** panel can overwrite template variables that do not have quotation marks.
+> [!warning]+ সোর্স মোডে টেমপ্লেট সম্পাদনা করুন
+> [[Views and editing mode#লাইভ প্রিভিউ|লাইভ প্রিভিউ]]-তে, **Properties in document** প্যানেল উদ্ধৃতি চিহ্ন ছাড়া টেমপ্লেট ভেরিয়েবল ওভাররাইট করতে পারে।
 >
-> To avoid this, edit templates in [[Views and editing mode#Source mode|Source mode]], or set **[[Settings]] → Editor → [[Settings#Properties in document|Properties in document]]** to **Source**.
+> এটি এড়াতে, [[Views and editing mode#সোর্স মোড|সোর্স মোডে]] টেমপ্লেট সম্পাদনা করুন, অথবা **[[Settings]] → Editor → [[Settings#Properties in document|Properties in document]]** **Source**-এ সেট করুন।
 
-## Insert a template into the active note
+## সক্রিয় নোটে একটি টেমপ্লেট সন্নিবেশ করুন
 
-> [!todo] [[#Set your template folder]] before inserting a template.
+> [!todo] টেমপ্লেট সন্নিবেশ করার আগে [[#আপনার টেমপ্লেট ফোল্ডার সেট করুন]]।
 
-1. In the ribbon, select **Insert template**.
-2. Select the template to insert at the cursor position in the active note.
+1. রিবনে, **Insert template** নির্বাচন করুন।
+2. সক্রিয় নোটে কার্সরের অবস্থানে সন্নিবেশ করতে টেমপ্লেটটি নির্বাচন করুন।
 
-To insert a template using the [[Command palette]] or [[Hotkeys#Set a hotkey|a custom keyboard shortcut]], use the command `Templates: Insert template`.
+[[Command palette]] বা [[Hotkeys#হট-কিই সেট করা|একটি কাস্টম কীবোর্ড শর্টকাট]] ব্যবহার করে একটি টেমপ্লেট সন্নিবেশ করতে, `Templates: Insert template` কমান্ডটি ব্যবহার করুন।
 
-The content of the template is inserted at your current cursor position. If your cursor is not in the note body, the content is inserted at your last cursor position.
+টেমপ্লেটের বিষয়বস্তু আপনার বর্তমান কার্সর অবস্থানে সন্নিবেশ করা হয়। আপনার কার্সর নোটের বডিতে না থাকলে, বিষয়বস্তুটি আপনার শেষ কার্সর অবস্থানে সন্নিবেশ করা হয়।
 
-### Template properties
+### টেমপ্লেট প্রপার্টি
 
 ![[Properties#^templates-properties]]
 
-## Insert current date and time into the active note
+## সক্রিয় নোটে বর্তমান তারিখ এবং সময় সন্নিবেশ করুন
 
-Use the commands `Templates: Insert current date` and `Templates: Insert current time` to insert the current date and time at your current cursor position. Like the `Insert template` command, you can also perform these with the Command palette or a custom keyboard shortcut.
+আপনার বর্তমান কার্সর অবস্থানে বর্তমান তারিখ এবং সময় সন্নিবেশ করতে `Templates: Insert current date` এবং `Templates: Insert current time` কমান্ড ব্যবহার করুন। `Insert template` কমান্ডের মতো, আপনি এগুলিও কমান্ড প্যালেট বা একটি কাস্টম কীবোর্ড শর্টকাট দিয়ে সম্পাদন করতে পারেন।
 
-The inserted date and time uses the [[#^template-settings-date-time-formatting|formatting set in the plugin settings]].
+সন্নিবেশ করা তারিখ এবং সময় [[#^template-settings-date-time-formatting|প্লাগইন সেটিংসে সেট করা ফরম্যাটিং]] ব্যবহার করে।

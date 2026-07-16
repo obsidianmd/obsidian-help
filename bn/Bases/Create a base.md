@@ -1,36 +1,35 @@
 ---
-localized: null
 permalink: bases/create-base
 ---
-[[Introduction to Bases|Bases]] let you create database-like views of your notes. Here's how you can create a base and embed it in a note. Every base can have one or more [[Views|views]] to display information in different ways.
+[[Introduction to Bases|Bases]] আপনাকে আপনার নোটগুলোর ডেটাবেসের মতো ভিউ তৈরি করতে দেয়। এখানে দেখুন কীভাবে আপনি একটি বেস তৈরি করে সেটি একটি নোটে এম্বেড করতে পারেন। প্রতিটি বেসে তথ্য বিভিন্নভাবে প্রদর্শনের জন্য এক বা একাধিক [[Views|ভিউ]] থাকতে পারে।
 
-## Create a new base
+## নতুন বেস তৈরি করুন
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-1. Open the **Command palette**.
-2. Select
-	- **Bases: Create new base** to create a base in the same folder as the active file.
-	- **Bases: Insert new base** to create a base and embed it in the current file.
+1. **কমান্ড প্যালেট** খুলুন।
+2. নির্বাচন করুন
+	- **Bases: Create new base** সক্রিয় ফাইলের একই ফোল্ডারে একটি বেস তৈরি করতে।
+	- **Bases: Insert new base** একটি বেস তৈরি করে বর্তমান ফাইলে এম্বেড করতে।
 
-**File explorer:**
+**ফাইল এক্সপ্লোরার:**
 
-1. In the File explorer, right-click the folder you want to create the base in.
-2. Select **New base**.
+1. ফাইল এক্সপ্লোরারে, যে ফোল্ডারে আপনি বেস তৈরি করতে চান সেটিতে ডান-ক্লিক করুন।
+2. **New base** নির্বাচন করুন।
 
-**Ribbon:**
+**রিবন:**
 
-- In the vertical ribbon menu, select **Create new base** to create a base in the same folder as the active file.
+- উলম্ব রিবন মেনুতে, সক্রিয় ফাইলের একই ফোল্ডারে একটি বেস তৈরি করতে **Create new base** নির্বাচন করুন।
 
-## Embed a base
+## একটি বেস এম্বেড করুন
 
-### Embed a base file
+### একটি বেস ফাইল এম্বেড করুন
 
-You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. To specify the default view use `![[File.base#View]]`.
+আপনি `![[File.base]]` সিনট্যাক্স ব্যবহার করে [[Embed files|অন্য যেকোনো ফাইলে]] বেস ফাইল এম্বেড করতে পারেন। ডিফল্ট ভিউ নির্দিষ্ট করতে `![[File.base#View]]` ব্যবহার করুন।
 
-### Embed a base as a code block
+### কোড ব্লক হিসেবে একটি বেস এম্বেড করুন
 
-Bases can also embedded directly into a note using a `base` code block and the [[Bases syntax|bases syntax]]. 
+`base` কোড ব্লক এবং [[Bases syntax|বেসেস সিনট্যাক্স]] ব্যবহার করে বেসেসকে সরাসরি একটি নোটেও এম্বেড করা যায়।
 
 ~~~yaml
 ```base
@@ -42,4 +41,3 @@ views:
     name: Table
 ```
 ~~~
-

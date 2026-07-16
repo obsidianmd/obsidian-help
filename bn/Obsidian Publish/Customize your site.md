@@ -1,34 +1,33 @@
 ---
-localized: null
 permalink: publish/customize
 publish: true
-description: Learn how to customize the appearance and style of your Obsidian Publish site.
+description: আপনার Obsidian Publish সাইটের চেহারা ও স্টাইল কীভাবে কাস্টমাইজ করবেন তা জানুন।
 ---
-This page explains how you can customize how your [[Introduction to Obsidian Publish|Obsidian Publish]] site looks and feels.
+এই পৃষ্ঠায় ব্যাখ্যা করা হয়েছে কীভাবে আপনি আপনার [[Introduction to Obsidian Publish|Obsidian Publish]] সাইটের চেহারা ও অনুভূতি কাস্টমাইজ করতে পারেন।
 
-## Static assets
+## স্ট্যাটিক অ্যাসেট
 
-You can customize your site by [[Publish your content#Publish notes|publishing]] the following files to your site:
+নিচের ফাইলগুলো আপনার সাইটে [[Publish your content#Publish notes|প্রকাশ]] করে আপনি আপনার সাইট কাস্টমাইজ করতে পারেন:
 
-- `publish.css` to add custom CSS
-- `publish.js` to add custom JavaScript
-- `favicon-32x32.png` to set the favicon
+- কাস্টম CSS যোগ করতে `publish.css`
+- কাস্টম JavaScript যোগ করতে `publish.js`
+- ফেভিকন সেট করতে `favicon-32x32.png`
 
-**Notes:**
+**নোট:**
 
-- [CSS variables for Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) can be found on on our Documentation site.
-- Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
-- Both `publish.css` and `publish.js` must be located in the root directory (`/`) of your vault.
-- By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
-- To use custom JavaScript with `publish.js`, you need to [[Custom domains]].
+- [Publish-এর জন্য CSS ভেরিয়েবল](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) আমাদের ডকুমেন্টেশন সাইটে পাওয়া যাবে।
+- যেহেতু Obsidian CSS বা JavaScript ফাইল সমর্থন করে না, আপনাকে সেগুলো তৈরি ও সম্পাদনা করতে অন্য একটি অ্যাপ্লিকেশন ব্যবহার করতে হবে।
+- `publish.css` এবং `publish.js` উভয়কেই অবশ্যই আপনার ভল্টের রুট ডিরেক্টরিতে (`/`) থাকতে হবে।
+- ডিফল্টভাবে, `publish.css` এবং `publish.js` ফাইল এক্সপ্লোরারে দেখা যায় না, কিন্তু আপনি তারপরও **Publish changes** ডায়ালগ থেকে এগুলো প্রকাশ করতে পারবেন।
+- `publish.js`-এর সাথে কাস্টম JavaScript ব্যবহার করতে, আপনার একটি [[Custom domains|কাস্টম ডোমেইন]] প্রয়োজন।
 
-For favicons, Obsidian Publish supports the following naming conventions, where `32` represents the icon's dimensions in pixels:
+ফেভিকনের জন্য, Obsidian Publish নিচের নামকরণ পদ্ধতি সমর্থন করে, যেখানে `32` আইকনের পিক্সেলে মাত্রা প্রতিনিধিত্ব করে:
 
 - `favicon-32.png`
 - `favicon-32x32.png`
 - `favicon.ico`
 
-We recommend that you provide one or more of the following dimensions:
+আমরা সুপারিশ করি যে আপনি নিচের এক বা একাধিক মাত্রা সরবরাহ করুন:
 
 - `favicon-32x32.png`
 - `favicon-128x128.png`
@@ -38,80 +37,80 @@ We recommend that you provide one or more of the following dimensions:
 - `favicon-192x192.png`
 - `favicon-196x196.png`
 
-You have flexibility in placing favicons anywhere within the vault, as long as they are published to your site.
+আপনার ভল্টের যেকোনো স্থানে ফেভিকন রাখার নমনীয়তা আপনার আছে, যতক্ষণ পর্যন্ত সেগুলো আপনার সাইটে প্রকাশিত হয়।
 
-## Use a community theme
+## একটি কমিউনিটি থিম ব্যবহার করুন
 
-To use one of the community themes for your site:
+আপনার সাইটের জন্য একটি কমিউনিটি থিম ব্যবহার করতে:
 
-1. Open your vault in the default file explorer for your OS.
-2. Go to the vault settings folder (default: `.obsidian`).
-3. Open the `themes` folder.
-4. Copy the CSS file for the theme you want to use for your site.
-5. Paste the file into the root folder of your vault.
-6. Rename the CSS file to `publish.css`.
-7. [[Publish your content#Publish notes|Publish]] `publish.css`.
+1. আপনার OS-এর ডিফল্ট ফাইল এক্সপ্লোরারে আপনার ভল্ট খুলুন।
+2. ভল্টের সেটিংস ফোল্ডারে যান (ডিফল্ট: `.obsidian`)।
+3. `themes` ফোল্ডার খুলুন।
+4. আপনি যে থিমটি আপনার সাইটের জন্য ব্যবহার করতে চান তার CSS ফাইল কপি করুন।
+5. ফাইলটি আপনার ভল্টের রুট ফোল্ডারে পেস্ট করুন।
+6. CSS ফাইলটির নাম পরিবর্তন করে `publish.css` করুন।
+7. `publish.css` [[Publish your content#Publish notes|প্রকাশ করুন]]।
 
-**Notes:**
+**নোট:**
 
-- If the style doesn’t update within a few minutes, try refreshing your browser cache.
-- You can switch between light and dark mode in the [[Manage sites#View site options|site options]].
-- Many community themes use **Style Settings** for custom styling, but these settings do not work on Obsidian Publish.
+- যদি স্টাইল কয়েক মিনিটের মধ্যে আপডেট না হয়, আপনার ব্রাউজার ক্যাশে রিফ্রেশ করার চেষ্টা করুন।
+- আপনি [[Manage sites#View site options|সাইট অপশন]]-এ লাইট এবং ডার্ক মোডের মধ্যে পরিবর্তন করতে পারেন।
+- অনেক কমিউনিটি থিম কাস্টম স্টাইলিংয়ের জন্য **Style Settings** ব্যবহার করে, কিন্তু এই সেটিংস Obsidian Publish-এ কাজ করে না।
 
-> [!tip] Developing themes
-> Can't find the theme for you? Learn how to [Build a Publish theme](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) yourself.
+> [!tip] থিম তৈরি করা
+> আপনার জন্য থিম খুঁজে পাচ্ছেন না? নিজে কীভাবে [একটি Publish থিম তৈরি করবেন](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/Build+a+Publish+theme) তা জানুন।
 
-## Enable UI features
+## UI বৈশিষ্ট্য চালু করুন
 
-You can toggle several UI features for your site, such as the graph view or a table of contents.
+আপনি আপনার সাইটের জন্য বেশ কিছু UI বৈশিষ্ট্য টগল করতে পারেন, যেমন গ্রাফ ভিউ বা একটি সূচিপত্র।
 
-Browse the available UI features under the **Reading experience** and **Components** sections in the [[Manage sites#View site options|site options]]
+[[Manage sites#View site options|সাইট অপশন]]-এর **Reading experience** এবং **Components** বিভাগে উপলব্ধ UI বৈশিষ্ট্যগুলো দেখুন
 
-### Customize navigation
+### নেভিগেশন কাস্টমাইজ করুন
 
-Within Obsidian Publish, you have the ability to customize the navigation order and display of files and folders within the Publish [[File explorer]]. Navigation items are listed in published order by default. Notes not published will not appear within this pane.
+Obsidian Publish-এর মধ্যে, আপনার Publish [[File explorer|ফাইল এক্সপ্লোরার]]-এর মধ্যে ফাইল ও ফোল্ডারের নেভিগেশন ক্রম ও প্রদর্শন কাস্টমাইজ করার সুবিধা আপনার আছে। নেভিগেশন আইটেমগুলো ডিফল্টভাবে প্রকাশের ক্রমানুসারে তালিকাভুক্ত থাকে। প্রকাশিত হয়নি এমন নোট এই প্যানেলে দেখা যাবে না।
 
-#### Accessing Customize navigation options
+#### নেভিগেশন কাস্টমাইজ করার অপশনে প্রবেশ করা
 
-1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, select **Change site options** ![[lucide-cog.svg#icon]].
-3. Under **Components settings**, next to **Customize navigation**, select the **manage** button. 
+1. [[Ribbon|রিবনে]], **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন অথবা [[Command palette|কমান্ড প্যালেট]] খুলে **Publish: Publish changes...** টাইপ করুন
+2. **Publish changes** ডায়ালগে, **Change site options** ![[lucide-cog.svg#icon]] নির্বাচন করুন।
+3. **Components settings**-এর অধীনে, **Customize navigation**-এর পাশে, **manage** বোতাম নির্বাচন করুন। 
 
-A new pop-up window titled **Navigation** will appear over your **Change site options** window.
+আপনার **Change site options** উইন্ডোর উপরে **Navigation** শিরোনামের একটি নতুন পপ-আপ উইন্ডো দেখা যাবে।
 
-#### Adjust navigation items
+#### নেভিগেশন আইটেম সামঞ্জস্য করুন
 
-In the section labeled **Navigation preview**, you can adjust the display order of your published content.
+**Navigation preview** লেবেলযুক্ত বিভাগে, আপনি আপনার প্রকাশিত কনটেন্টের প্রদর্শন ক্রম সামঞ্জস্য করতে পারেন।
 
-1. Select the folder or note you want to adjust.
-2. Drag the note or folder up or down until it is your desired place.
-3. In the lower right of the **Navigation** window, select **Done**. 
+1. আপনি যে ফোল্ডার বা নোট সামঞ্জস্য করতে চান তা নির্বাচন করুন।
+2. নোট বা ফোল্ডারটি আপনার কাঙ্ক্ষিত স্থানে না পৌঁছানো পর্যন্ত উপরে বা নিচে টেনে আনুন।
+3. **Navigation** উইন্ডোর নিচের ডানদিকে, **Done** নির্বাচন করুন। 
 
-Publish will send your navigation changes to your site. 
+Publish আপনার নেভিগেশন পরিবর্তনগুলো আপনার সাইটে পাঠাবে। 
 
-#### Hide and unhide navigation items
+#### নেভিগেশন আইটেম লুকান এবং দেখান
 
-If there are notes or folders you have published, but you do not want visible within your Navigation, you can opt to hide those items instead. 
+আপনি যদি এমন কোনো নোট বা ফোল্ডার প্রকাশ করে থাকেন, কিন্তু সেগুলো আপনার নেভিগেশনে দৃশ্যমান করতে না চান, তাহলে আপনি সেই আইটেমগুলো লুকানোর বিকল্প বেছে নিতে পারেন। 
 
-1. Select the folder or note you want to adjust.
-2. Right click and select **Hide in navigation**. The item should now disappear from the **Navigation preview**.
-3. In the lower right of the **Navigation** window, select **Done**. 
+1. আপনি যে ফোল্ডার বা নোট সামঞ্জস্য করতে চান তা নির্বাচন করুন।
+2. ডান-ক্লিক করুন এবং **Hide in navigation** নির্বাচন করুন। আইটেমটি এখন **Navigation preview** থেকে অদৃশ্য হয়ে যাওয়ার কথা।
+3. **Navigation** উইন্ডোর নিচের ডানদিকে, **Done** নির্বাচন করুন। 
 
-Publish will send your navigation changes to your site. 
+Publish আপনার নেভিগেশন পরিবর্তনগুলো আপনার সাইটে পাঠাবে। 
 
-> [!tip] You can **Show hidden** files by selecting the checkbox to the right of the **Navigation Preview** title
+> [!tip] **Navigation Preview** শিরোনামের ডানদিকের চেকবক্স নির্বাচন করে আপনি **Show hidden** ফাইলগুলো দেখতে পারেন
 
-## FAQ
+## সাধারণ জিজ্ঞাসা
 
-**Can I move files from one folder to another within the Navigation?**
+**আমি কি নেভিগেশনের মধ্যে একটি ফোল্ডার থেকে অন্য ফোল্ডারে ফাইল সরাতে পারি?**
 
-No. The file navigation structure for notes within folders needs to be maintained. You can adjust note order within folders (including the vault root), and folder order within other folders. 
+না। ফোল্ডারের মধ্যে থাকা নোটগুলোর ফাইল নেভিগেশন কাঠামো বজায় রাখতে হবে। আপনি ফোল্ডারের মধ্যে (ভল্ট রুট সহ) নোটের ক্রম, এবং অন্য ফোল্ডারের মধ্যে ফোল্ডারের ক্রম সামঞ্জস্য করতে পারেন। 
 
-**Can I edit the order of multiple notes and folders before selecting Done?**
+**Done নির্বাচন করার আগে আমি কি একাধিক নোট ও ফোল্ডারের ক্রম সম্পাদনা করতে পারি?**
 
-Yes.
+হ্যাঁ।
 
-**How do I revert these changes?**
+**আমি কীভাবে এই পরিবর্তনগুলো ফিরিয়ে আনব?**
 
-- **Display order**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Navigation item display order**. This will restore your navigation items to alphabetical order.
-- **Hidden status**: Select the **Restore Default** icon (counter clockwise rotate arrow) next to **Hide pages or folders from navigation**. This will restore your hidden navigation items to a visible state.
+- **প্রদর্শন ক্রম**: **Navigation item display order**-এর পাশে **Restore Default** আইকন (ঘড়ির কাঁটার বিপরীত দিকে ঘোরানো তীর) নির্বাচন করুন। এটি আপনার নেভিগেশন আইটেমগুলোকে বর্ণানুক্রমিক ক্রমে পুনরুদ্ধার করবে।
+- **লুকানো অবস্থা**: **Hide pages or folders from navigation**-এর পাশে **Restore Default** আইকন (ঘড়ির কাঁটার বিপরীত দিকে ঘোরানো তীর) নির্বাচন করুন। এটি আপনার লুকানো নেভিগেশন আইটেমগুলোকে দৃশ্যমান অবস্থায় পুনরুদ্ধার করবে।

@@ -1,13 +1,12 @@
 ---
-localized: null
 permalink: plugins/backlinks
 publish: true
 mobile: false
-description: 'With the Backlinks plugin, you can see all the backlinks for the active note.'
+description: 'Backlinks প্লাগইন দিয়ে আপনি সক্রিয় নোটের জন্য সব ব্যাকলিঙ্ক দেখতে পারেন।'
 ---
-With the Backlinks [[Core plugins|plugin]], you can see all the _backlinks_ for the active note.
+Backlinks [[Core plugins|প্লাগইন]] দিয়ে আপনি সক্রিয় নোটের জন্য সব _ব্যাকলিঙ্ক_ দেখতে পারেন।
 
-A backlink for a note is a link from another note to that note. In the following example, the "Three laws of motion" note contains a link to the "Isaac Newton" note. The corresponding backlink would link from "Isaac Newton" back to "Three laws of motion".
+একটি নোটের ব্যাকলিঙ্ক হলো অন্য একটি নোট থেকে সেই নোটের একটি লিঙ্ক। নিচের উদাহরণে, "Three laws of motion" নোটে "Isaac Newton" নোটের একটি লিঙ্ক রয়েছে। সংশ্লিষ্ট ব্যাকলিঙ্কটি "Isaac Newton" থেকে "Three laws of motion"-এ ফিরে লিঙ্ক করবে।
 
 ```mermaid
 flowchart LR
@@ -18,50 +17,50 @@ flowchart LR
   newton --backlink--> laws
 ```
 
-Backlinks can be useful to find notes that reference the note you're writing. Just imagine if you could list the backlinks for any website on the internet.
+ব্যাকলিঙ্ক আপনার লেখা নোটটির উল্লেখ করা নোটগুলি খুঁজে পেতে সহায়ক হতে পারে। একবার কল্পনা করুন যে আপনি যদি ইন্টারনেটের যেকোনো ওয়েবসাইটের জন্য ব্যাকলিঙ্ক তালিকাবদ্ধ করতে পারতেন।
 
-## Show backlinks
+## ব্যাকলিঙ্ক দেখান
 
-The Backlinks plugin displays the backlinks for the active tabs. There are two collapsible sections: **Linked mentions** and **Unlinked mentions**.
+Backlinks প্লাগইন সক্রিয় ট্যাবগুলির জন্য ব্যাকলিঙ্ক প্রদর্শন করে। এখানে দুটি সংকোচনযোগ্য বিভাগ রয়েছে: **Linked mentions** এবং **Unlinked mentions**।
 
-- **Linked mentions** are backlinks to the notes that contain an internal link to the active note.
-- **Unlinked mentions** are backlinks to any unlinked occurrence of the name of the active note.
+- **Linked mentions** হলো সেই নোটগুলির ব্যাকলিঙ্ক যেগুলিতে সক্রিয় নোটের একটি অভ্যন্তরীণ লিঙ্ক রয়েছে।
+- **Unlinked mentions** হলো সক্রিয় নোটের নামের যেকোনো লিঙ্কবিহীন উল্লেখের ব্যাকলিঙ্ক।
 
-It provides the following options:
+এটি নিম্নলিখিত বিকল্পগুলি প্রদান করে:
 
-- **Collapse results** toggles whether to expand each note to display the mentions in it.
-- **Show more context** toggles whether to truncate or display the full paragraph that contains the mention.
-- **Change sort order** determines how to sort the mentions.
-- **Show search filter** toggles a text field that lets you filter the mentions. For more information on how to build a search term, refer to [[Search]].
+- **Collapse results** টগল করে যে প্রতিটি নোটে থাকা উল্লেখগুলি প্রদর্শনের জন্য বিস্তৃত করা হবে কিনা।
+- **Show more context** টগল করে যে উল্লেখ ধারণকারী পুরো অনুচ্ছেদটি সংক্ষিপ্ত করা হবে নাকি সম্পূর্ণ প্রদর্শন করা হবে।
+- **Change sort order** নির্ধারণ করে যে উল্লেখগুলি কীভাবে সাজানো হবে।
+- **Show search filter** একটি টেক্সট ফিল্ড টগল করে যা আপনাকে উল্লেখগুলি ফিল্টার করতে দেয়। একটি অনুসন্ধান টার্ম তৈরি করার বিষয়ে আরও তথ্যের জন্য, [[Search]] দেখুন।
 
-## View backlinks for a note
+## একটি নোটের ব্যাকলিঙ্ক দেখুন
 
-To view the backlinks for the active note, click the **Backlinks** ![[obsidian-icon-links-coming-in.svg#icon]] tab in the right sidebar.
+সক্রিয় নোটের ব্যাকলিঙ্ক দেখতে, ডানদিকের সাইডবারে **Backlinks** ![[obsidian-icon-links-coming-in.svg#icon]] ট্যাবে ক্লিক করুন।
 
-> [!note] Note
-> If you can't see the Backlinks tab, you can make it visible by opening the [[Command palette]] and running the **Backlinks: Show backlinks** command.
+> [!note] নোট
+> আপনি যদি Backlinks ট্যাবটি দেখতে না পান, তাহলে [[Command palette]] খুলে **Backlinks: Show backlinks** কমান্ডটি চালিয়ে এটি দৃশ্যমান করতে পারেন।
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Unlinked mentions.
+> [!info] বাদ দেয়া ফাইল
+> আপনার [[Settings#Excluded files|বাদ দেয়া ফাইল]] প্যাটার্নের সাথে মিলে যাওয়া ফাইলগুলি Unlinked mentions-এ প্রদর্শিত হবে না।
 
-## See backlinks of a specific note
+## একটি নির্দিষ্ট নোটের ব্যাকলিঙ্ক দেখুন
 
-The backlinks tab lists backlinks for the active note and updates when you switch to a different note. If you want to see the backlinks for a specific note, regardless of whether it's active or note, you can open a _linked_ backlinks tab.
+Backlinks ট্যাবটি সক্রিয় নোটের ব্যাকলিঙ্ক তালিকাবদ্ধ করে এবং আপনি অন্য নোটে স্যুইচ করলে আপডেট হয়। আপনি যদি একটি নির্দিষ্ট নোটের ব্যাকলিঙ্ক দেখতে চান, সেটি সক্রিয় থাকুক বা না থাকুক, তাহলে আপনি একটি _লিঙ্কড_ ব্যাকলিঙ্ক ট্যাব খুলতে পারেন।
 
-To open a linked backlinks tab:
+একটি লিঙ্কড ব্যাকলিঙ্ক ট্যাব খুলতে:
 
-1. Open the [[Command palette]].
-2. Select **Backlinks: Open backlinks for the current note**.
+1. [[Command palette]] খুলুন।
+2. **Backlinks: Open backlinks for the current note** নির্বাচন করুন।
 
-A separate tab opens next to your active note. The tab shows a link icon to let you know it's linked to a note.
+আপনার সক্রিয় নোটের পাশে একটি পৃথক ট্যাব খোলে। ট্যাবটি একটি নোটের সাথে লিঙ্কড আছে তা জানাতে একটি লিঙ্ক আইকন দেখায়।
 
-## Show backlinks in a note
+## একটি নোটে ব্যাকলিঙ্ক দেখান
 
-Instead of showing the backlinks in a separate tab, you can show the backlinks at the bottom of your note.
+একটি পৃথক ট্যাবে ব্যাকলিঙ্ক দেখানোর পরিবর্তে, আপনি আপনার নোটের নিচে ব্যাকলিঙ্ক দেখাতে পারেন।
 
-To show backlinks in a note:
+একটি নোটে ব্যাকলিঙ্ক দেখাতে:
 
-1. Open the [[Command palette]].
-2. Select **Backlinks: Toggle backlinks in document**.
+1. [[Command palette]] খুলুন।
+2. **Backlinks: Toggle backlinks in document** নির্বাচন করুন।
 
-Or, enable **Backlink in document** under the Backlinks plugin options to automatically toggle backlinks when you open a new note.
+অথবা, আপনি একটি নতুন নোট খুললে স্বয়ংক্রিয়ভাবে ব্যাকলিঙ্ক টগল করতে Backlinks প্লাগইন বিকল্পের অধীনে **Backlink in document** সক্রিয় করুন।

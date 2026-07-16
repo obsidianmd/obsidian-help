@@ -1,23 +1,22 @@
 ---
-localized: null
 permalink: bases/views/map
 ---
-Map is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]]. It requires installing the [Maps plugin](obsidian://show-plugin?id=maps).
+Map হলো [[Introduction to Bases|Bases]]-এ ব্যবহার করা যায় এমন এক ধরনের [[Views|ভিউ]]। এর জন্য [Maps প্লাগইন](obsidian://show-plugin?id=maps) ইনস্টল করা প্রয়োজন।
 
-Select ![[lucide-map.svg#icon]]  **Map** from the view menu to display files as an interactive map with markers for each file, and a preview that displays properties of that file.
+ভিউ মেনু থেকে ![[lucide-map.svg#icon]]  **Map** নির্বাচন করে ফাইলগুলোকে প্রতিটি ফাইলের জন্য মার্কারসহ একটি ইন্টারঅ্যাক্টিভ ম্যাপ হিসেবে প্রদর্শন করুন, এবং সেই ফাইলের প্রপার্টি প্রদর্শনকারী একটি প্রিভিউ।
 
 ![[bases-map-places.png#interface]]
 
-## Install the Maps plugin
+## Maps প্লাগইন ইনস্টল করুন
 
-Map views require Obsidian 1.10. The [Maps plugin](obsidian://show-plugin?id=maps) is an official [[Community plugins|community plugin]] that you can download separately.
+ম্যাপ ভিউয়ের জন্য Obsidian 1.10 প্রয়োজন। [Maps প্লাগইন](obsidian://show-plugin?id=maps) একটি অফিসিয়াল [[Community plugins|কমিউনিটি প্লাগইন]] যা আপনি আলাদাভাবে ডাউনলোড করতে পারেন।
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
-2. Download and enable [Maps](obsidian://show-plugin?id=maps) from the list
+1. [[Community plugins#Install a community plugin]]-এর নির্দেশনা অনুসরণ করুন
+2. তালিকা থেকে [Maps](obsidian://show-plugin?id=maps) ডাউনলোড করে সক্রিয় করুন
 
-## Example
+## উদাহরণ
 
-To start, try creating a note called **Eiffel Tower** and copy the following properties into it:
+শুরু করতে, **Eiffel Tower** নামে একটি নোট তৈরি করার চেষ্টা করুন এবং নিচের প্রপার্টিগুলো এতে কপি করুন:
 
 ```yaml
 ---
@@ -31,98 +30,98 @@ tags:
 ---
 ```
 
-Here's what the code above means:
+উপরের কোডের অর্থ এখানে দেওয়া হলো:
 
-| Property      | Value                    |                                                                                                                                                      |
+| প্রপার্টি      | মান                    |                                                                                                                                                      |
 | ------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `coordinates` | `48.85837`<br>`2.294481` | Coordinates are stored as `latitude, longitude`. You can get coordinates by right-clicking a location on the map and selecting **Copy coordinates**. |
-| `icon`        | `landmark`               | The name of an icon from the [Lucide library](https://lucide.dev/).                                                                                  |
-| `color`       | `red`                    | A valid CSS value: hex, RGB, named color, etc.                                                                                                       |
-| `tags`        | `places`                 | The tag we'll use to find map markers in our base.                                                                                                   |
-Now create a map view with a filter for the tag `places` and set marker coordinates, icon, and color using the properties listed above. 
+| `coordinates` | `48.85837`<br>`2.294481` | কোঅর্ডিনেট `latitude, longitude` হিসেবে সংরক্ষিত থাকে। ম্যাপে একটি লোকেশনে ডান-ক্লিক করে **Copy coordinates** নির্বাচন করে আপনি কোঅর্ডিনেট পেতে পারেন। |
+| `icon`        | `landmark`               | [Lucide লাইব্রেরির](https://lucide.dev/) একটি আইকনের নাম।                                                                                                  |
+| `color`       | `red`                    | একটি বৈধ CSS মান: হেক্স, RGB, নামযুক্ত রং, ইত্যাদি।                                                                                                       |
+| `tags`        | `places`                 | আমাদের বেসে ম্যাপ মার্কার খুঁজতে আমরা যে ট্যাগ ব্যবহার করব।                                                                                                   |
+এখন `places` ট্যাগের জন্য একটি ফিল্টারসহ একটি ম্যাপ ভিউ তৈরি করুন এবং উপরে তালিকাভুক্ত প্রপার্টি ব্যবহার করে মার্কার কোঅর্ডিনেট, আইকন এবং রং নির্ধারণ করুন।
 
-You can also open these [example files](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) in Obsidian to see working map views with markers, icons, and colors already configured.
+মার্কার, আইকন এবং রংসহ ইতিমধ্যে কনফিগার করা কার্যকরী ম্যাপ ভিউ দেখতে আপনি Obsidian-এ এই [উদাহরণ ফাইলগুলোও](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) খুলতে পারেন।
 
-## Settings
+## সেটিংস
 
-Map view settings can be configured in [[Views#View settings|View settings]].
+ম্যাপ ভিউয়ের সেটিংস [[Views#View settings|ভিউ সেটিংসে]] কনফিগার করা যায়।
 
-- Embedded height
-- Center coordinates
-- Zoom constraints
-- Marker coordinates, color, and icon
-- Background
+- এম্বেডেড উচ্চতা
+- কেন্দ্রীয় কোঅর্ডিনেট
+- জুম সীমাবদ্ধতা
+- মার্কার কোঅর্ডিনেট, রং, এবং আইকন
+- ব্যাকগ্রাউন্ড
 
-### Markers
+### মার্কার
 
-#### Coordinates
+#### কোঅর্ডিনেট
 
-To display pins on the map go to the [[Views#View settings|view settings]] and select a **marker coordinates** property. The property must contain latitude and longitude coordinates. The following formats are accepted:
+ম্যাপে পিন প্রদর্শন করতে [[Views#View settings|ভিউ সেটিংসে]] যান এবং একটি **মার্কার কোঅর্ডিনেট** প্রপার্টি নির্বাচন করুন। প্রপার্টিতে অবশ্যই অক্ষাংশ ও দ্রাঘিমাংশের কোঅর্ডিনেট থাকতে হবে। নিম্নলিখিত ফরম্যাটগুলো গ্রহণ করা হয়:
 
 ```yaml
-# Text property
+# টেক্সট প্রপার্টি
 coordinates: "lat, lng"
 
-# List property
+# লিস্ট প্রপার্টি
 coordinates:
   - "lat"
   - "lng"
 ```
 
-If you store coordinates as separate `latitude` and `longitude` properties you can combine them with a [[Bases syntax#Formulas|formula]] property by defining it as an array of coordinates using the following formula: `[latitude, longitude]`.
+আপনি যদি কোঅর্ডিনেট আলাদা `latitude` এবং `longitude` প্রপার্টি হিসেবে সংরক্ষণ করেন, তাহলে নিম্নলিখিত ফর্মুলা ব্যবহার করে কোঅর্ডিনেটের একটি অ্যারে হিসেবে এটি সংজ্ঞায়িত করে একটি [[Bases syntax#Formulas|ফর্মুলা]] প্রপার্টির সাথে সেগুলো একত্রিত করতে পারেন: `[latitude, longitude]`।
 
-#### Icons
+#### আইকন
 
-Add icons to markers by defining a **marker icons** property. For example, you can add a property called `icon` to your notes and give it values like `landmark` or `utensils` from Obsidian's built-in [Lucide library](https://lucide.dev/icons/).
+একটি **মার্কার আইকন** প্রপার্টি সংজ্ঞায়িত করে মার্কারে আইকন যোগ করুন। উদাহরণস্বরূপ, আপনি আপনার নোটে `icon` নামে একটি প্রপার্টি যোগ করতে পারেন এবং Obsidian-এর বিল্ট-ইন [Lucide লাইব্রেরি](https://lucide.dev/icons/) থেকে `landmark` বা `utensils`-এর মতো মান দিতে পারেন।
 
-##### Use a formula to define icons
+##### আইকন সংজ্ঞায়িত করতে একটি ফর্মুলা ব্যবহার করুন
 
-Let's say you want all restaurants to have the same icon on the map:
+ধরুন আপনি চান সব রেস্তোরাঁর ম্যাপে একই আইকন থাকুক:
 
-1. Create a note called **Restaurants** and add a property called `icon` with the value `utensils`. 
-2. Give restaurant notes a property called `type` that links to the `[[Restaurants]]` note.
-3. Add a formula property called `Type icon` to your base with the following code:
+1. **Restaurants** নামে একটি নোট তৈরি করুন এবং `utensils` মানসহ `icon` নামে একটি প্রপার্টি যোগ করুন।
+2. রেস্তোরাঁর নোটগুলোতে `type` নামে একটি প্রপার্টি দিন যা `[[Restaurants]]` নোটে লিঙ্ক করে।
+3. নিম্নলিখিত কোডসহ আপনার বেসে `Type icon` নামে একটি ফর্মুলা প্রপার্টি যোগ করুন:
 	```js
 	list(type)[0].asFile().properties.icon
 	```
-4. Choose the `Type icon` as your marker icon in the view settings.
+4. ভিউ সেটিংসে আপনার মার্কার আইকন হিসেবে `Type icon` বেছে নিন।
 
-Voilà! Now your map will display icons from the the *type* of the place, not the place itself.
+Voilà! এখন আপনার ম্যাপে জায়গাটি নিজে থেকে নয়, বরং জায়গার *type* থেকে আইকন প্রদর্শিত হবে।
 
-#### Colors
+#### রং
 
-Set the color of markers. Accepts values as RGB `rgb(0,0,0)`, HEX `#000`, or CSS variables like `var(--color-blue)`. Like in the icon example above you can use a formula property to define colors dynamically.
+মার্কারের রং নির্ধারণ করুন। RGB `rgb(0,0,0)`, HEX `#000`, বা `var(--color-blue)`-এর মতো CSS ভেরিয়েবল হিসেবে মান গ্রহণ করে। উপরের আইকনের উদাহরণের মতো, আপনি রং গতিশীলভাবে সংজ্ঞায়িত করতে একটি ফর্মুলা প্রপার্টি ব্যবহার করতে পারেন।
 
-### Background
+### ব্যাকগ্রাউন্ড
 
-#### Map tiles
+#### ম্যাপ টাইলস
 
-Map tiles are a standard way to display digital maps. There are several services you can use to customize maps with unique styles, colors, and fonts. Maps support both raster and vector tiles, and accepts most tile URLs, including TileJSON URLs.
+ম্যাপ টাইলস হলো ডিজিটাল ম্যাপ প্রদর্শনের একটি প্রমিত উপায়। অনন্য স্টাইল, রং এবং ফন্টসহ ম্যাপ কাস্টমাইজ করতে ব্যবহার করা যায় এমন বেশ কিছু সার্ভিস রয়েছে। Maps র‍্যাস্টার ও ভেক্টর টাইলস উভয়ই সমর্থন করে, এবং TileJSON URL সহ বেশিরভাগ টাইল URL গ্রহণ করে।
 
-[OpenFreeMap](https://openfreemap.org/) offers a few styles you can use for free. Try using one of the following URLs in the **Map tiles** setting:
+[OpenFreeMap](https://openfreemap.org/) কিছু স্টাইল বিনামূল্যে ব্যবহারের সুযোগ দেয়। **Map tiles** সেটিংসে নিচের URL-গুলোর যেকোনো একটি ব্যবহার করে দেখুন:
 
-| Name     | URL                                              |
+| নাম     | URL                                              |
 | -------- | ------------------------------------------------ |
 | Dark     | `https://tiles.openfreemap.org/styles/dark`      |
 | Positron | `https://tiles.openfreemap.org/styles/positron`  |
 | Liberty  | ``https://tiles.openfreemap.org/styles/liberty`` |
-#### Useful links
+#### দরকারি লিঙ্ক
 
-- [Maputnik](https://maputnik.github.io/) for customizing map tiles.
-- [Protomaps](https://protomaps.com/) for self-hosting map tiles.
-- Other hosted services with free tiers include [MapTiler](https://www.maptiler.com/) and [Mapbox](https://www.mapbox.com/).
+- ম্যাপ টাইলস কাস্টমাইজ করার জন্য [Maputnik](https://maputnik.github.io/)।
+- ম্যাপ টাইলস নিজে হোস্ট করার জন্য [Protomaps](https://protomaps.com/)।
+- বিনামূল্যে ব্যবহারের সুযোগসহ অন্যান্য হোস্টেড সার্ভিসের মধ্যে রয়েছে [MapTiler](https://www.maptiler.com/) এবং [Mapbox](https://www.mapbox.com/)।
 
 
-## Tips
+## টিপস
 
-You can link to popular mapping services using [[Formulas]]. For example your pin can show a link to Google Maps using the following formula:
+আপনি [[Formulas|ফর্মুলা]] ব্যবহার করে জনপ্রিয় ম্যাপিং সার্ভিসের লিঙ্ক দিতে পারেন। উদাহরণস্বরূপ নিম্নলিখিত ফর্মুলা ব্যবহার করে আপনার পিন Google Maps-এর একটি লিঙ্ক দেখাতে পারে:
 
 ```js
 link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google Maps")
 ```
 
-## Troubleshooting
+## সমস্যা সমাধান
 
-If the map appears blank when you first load the Maps plugin, try [[Update Obsidian|updating the Obsidian installer version]].
+Maps প্লাগইন প্রথমবার লোড করার সময় ম্যাপটি খালি দেখালে, [[Update Obsidian|Obsidian ইনস্টলার সংস্করণ আপডেট করার]] চেষ্টা করুন।
 
-The [Maps plugin](https://github.com/obsidianmd/obsidian-maps) is open source. You can help by contributing bug reports, feature requests and pull requests.
+[Maps প্লাগইন](https://github.com/obsidianmd/obsidian-maps) ওপেন সোর্স। বাগ রিপোর্ট, ফিচার রিকোয়েস্ট এবং পুল রিকোয়েস্ট দিয়ে আপনি অবদান রাখতে পারেন।

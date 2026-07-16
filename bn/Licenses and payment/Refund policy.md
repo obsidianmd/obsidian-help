@@ -1,42 +1,41 @@
 ---
-localized: null
 permalink: refunds
 cssclasses:
   - soft-embed
 ---
-We offer full refunds within 7 days of purchase with no questions asked for the following services:
+আমরা নিম্নলিখিত সেবাগুলোর জন্য ক্রয়ের ৭ দিনের মধ্যে কোনো প্রশ্ন ছাড়াই সম্পূর্ণ ফেরত প্রদান করি:
 
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
 
-> [!Warning] Non-refundable purchases
-> Some purchases are **not** refundable:
+> [!Warning] অ-ফেরতযোগ্য ক্রয়
+> কিছু ক্রয় ফেরতযোগ্য **নয়**:
 > 
-> - [[Catalyst license|Catalyst licenses]] and [[Commercial license|Commercial licenses]] are not refundable. They are intended to support Obsidian development and are not services.
-> - [[Obsidian Credit]] is not refundable because credit can be transferred to another account.
+> - [[Catalyst license|Catalyst লাইসেন্স]] এবং [[Commercial license|Commercial লাইসেন্স]] ফেরতযোগ্য নয়। এগুলো Obsidian-এর উন্নয়নকে সমর্থন করার উদ্দেশ্যে তৈরি এবং কোনো সেবা নয়।
+> - [[Obsidian Credit]] ফেরতযোগ্য নয়, কারণ ক্রেডিট অন্য একটি অ্যাকাউন্টে স্থানান্তর করা যায়।
 
-> [!tip] Talk to a human
-> If you have any trouble with a transaction, or you need a refund past 7 days after purchase due to exceptional circumstances, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> [!tip] একজন মানুষের সাথে কথা বলুন
+> আপনার যদি কোনো লেনদেনে সমস্যা হয়, অথবা ব্যতিক্রমী পরিস্থিতির কারণে ক্রয়ের ৭ দিন পরও ফেরত প্রয়োজন হয়, তাহলে [[Help and support#Contact Obsidian support|Obsidian সাপোর্টের সাথে যোগাযোগ করুন]]।
 
-## Request a refund
+## একটি ফেরত অনুরোধ করুন
 
-1. Log into [your Obsidian account](https://obsidian.md/account/billing).
-2. Under **Billing → Invoices and refunds**, select **View**.
-3. Next to the payments you want a refund for, if you’re qualified for a refund, you’ll see a link to **Get refund**. Click on the click.
-4. Your service will be removed and any auto-renewals will be cancelled as well. If you confirm to proceed, click **Request refund**.
+1. [আপনার Obsidian অ্যাকাউন্টে](https://obsidian.md/account/billing) লগ ইন করুন।
+2. **Billing → Invoices and refunds**-এর অধীনে, **View** নির্বাচন করুন।
+3. আপনি যে পেমেন্টগুলোর জন্য ফেরত চান তার পাশে, আপনি যোগ্য হলে **Get refund** লিঙ্ক দেখতে পাবেন। লিঙ্কে ক্লিক করুন।
+4. আপনার সেবা সরিয়ে ফেলা হবে এবং যেকোনো স্বয়ংক্রিয়-নবায়নও বাতিল করা হবে। এগিয়ে যেতে নিশ্চিত করলে, **Request refund**-এ ক্লিক করুন।
 
-## Frequently asked questions
+## সাধারণ জিজ্ঞাসা
 
-**What happens if I refund my service?**
-Refunding an Obsidian Sync or Obsidian Publish subscription results in the deletion of any remote vaults or publish sites, which cannot be retrieved even if you subscribe again. However, your local data on your devices will remain unaffected.
+**আমি যদি আমার সেবা ফেরত দিই তাহলে কী হবে?**
+Obsidian Sync বা Obsidian Publish সাবস্ক্রিপশন ফেরত দিলে যেকোনো রিমোট ভল্ট বা পাবলিশ সাইট মুছে ফেলা হয়, যা আপনি আবার সাবস্ক্রাইব করলেও পুনরুদ্ধার করা যাবে না। তবে, আপনার ডিভাইসে থাকা লোকাল ডেটা অপরিবর্তিত থাকবে।
 
-**What if I miss a payment and my subscription expires? Will I lose my remote vault data?**
-No, your data is retained in such cases for 30 days. If you do not resubscribe within that period, your remote vault or publish site data will be deleted. Your local data will remain unaffected.
+**আমি যদি একটি পেমেন্ট মিস করি এবং আমার সাবস্ক্রিপশন মেয়াদোত্তীর্ণ হয়ে যায়? আমি কি আমার রিমোট ভল্ট ডেটা হারাবো?**
+না, এমন ক্ষেত্রে আপনার ডেটা ৩০ দিনের জন্য সংরক্ষিত থাকে। এই সময়ের মধ্যে আপনি যদি পুনরায় সাবস্ক্রাইব না করেন, তাহলে আপনার রিমোট ভল্ট বা পাবলিশ সাইট ডেটা মুছে ফেলা হবে। আপনার লোকাল ডেটা অপরিবর্তিত থাকবে।
 
-**If I qualify for a discount but have paid for my subscription in the past 7 days, what should I do?**
-Please contact [[Help and support#Contact Obsidian support|Obsidian support]] so we can assess your options.
+**যদি আমি একটি ছাড়ের জন্য যোগ্য হই কিন্তু গত ৭ দিনে আমার সাবস্ক্রিপশনের জন্য পেমেন্ট করে থাকি, তাহলে আমার কী করা উচিত?**
+আমরা যেন আপনার বিকল্পগুলো মূল্যায়ন করতে পারি, তার জন্য দয়া করে [[Help and support#Contact Obsidian support|Obsidian সাপোর্টের সাথে যোগাযোগ করুন]]।
 ^discount-then-refund
 
-**I purchased my subscription a few weeks ago and now qualify for a discount. Can I get a partial refund?**
-We understand that some may have purchased Sync or Publish without discounts, either due to being unaware of the discount or not qualifying for it at the time. Unfortunately, we do not offer refunds in such cases. However, future renewals will automatically apply the discount if the discount is still valid.
+**আমি কয়েক সপ্তাহ আগে আমার সাবস্ক্রিপশন কিনেছি এবং এখন একটি ছাড়ের জন্য যোগ্য। আমি কি আংশিক ফেরত পেতে পারি?**
+আমরা বুঝি যে কেউ কেউ ছাড় সম্পর্কে অজানা থাকার কারণে বা তখন যোগ্য না হওয়ার কারণে ছাড় ছাড়াই Sync বা Publish কিনে থাকতে পারেন। দুর্ভাগ্যবশত, আমরা এমন ক্ষেত্রে ফেরত প্রদান করি না। তবে, ছাড় এখনও বৈধ থাকলে ভবিষ্যতের নবায়নে এটি স্বয়ংক্রিয়ভাবে প্রয়োগ করা হবে।
 ^purchase-then-discount-then-refund

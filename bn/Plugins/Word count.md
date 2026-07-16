@@ -1,10 +1,9 @@
 ---
-localized: null
 permalink: plugins/word-count
-description: Learn about the Word Count core plugin.
+description: শব্দ গণনা কোর প্লাগইন সম্পর্কে জানুন।
 ---
-Word count is a [[Core plugins|core plugin]] that displays the number of words and characters of the active note.
+শব্দ গণনা একটি [[Core plugins|কোর প্লাগইন]] যা সক্রিয় নোটের শব্দ এবং অক্ষরের সংখ্যা প্রদর্শন করে।
 
-On desktop word count appears in the [[status bar]]. On mobile, word count appears at the top of the right sidebar.
+ডেস্কটপে শব্দ গণনা [[status bar]]-এ প্রদর্শিত হয়। মোবাইলে, শব্দ গণনা ডানদিকের সাইডবারের শীর্ষে প্রদর্শিত হয়।
 
-Word count supports CJK languages (Chinese, Japanese, and Korean), which don't use spaces to separate words.
+শব্দ গণনা CJK ভাষা (চীনা, জাপানি, এবং কোরিয়ান) সমর্থন করে, যা শব্দ আলাদা করতে স্পেস ব্যবহার করে না।

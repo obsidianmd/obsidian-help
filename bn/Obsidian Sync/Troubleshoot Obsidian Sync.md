@@ -1,98 +1,97 @@
 ---
-localized: null
 permalink: sync/troubleshoot
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: This page lists uncommon issues you may encounter with Obsidian Sync and how to resolve them.
+description: এই পৃষ্ঠায় Obsidian Sync-এর সাথে আপনি সম্মুখীন হতে পারেন এমন অস্বাভাবিক সমস্যা এবং সেগুলো কীভাবে সমাধান করবেন তা তালিকাভুক্ত করা হয়েছে।
 ---
 
-This page lists uncommon issues you may encounter with [[Introduction to Obsidian Sync|Obsidian Sync]] and how to resolve them. Before proceeding, we recommend reviewing the [[Status icon and messages]] and [[Frequently asked questions]] pages.
+এই পৃষ্ঠায় [[Introduction to Obsidian Sync|Obsidian Sync]]-এর সাথে আপনি সম্মুখীন হতে পারেন এমন অস্বাভাবিক সমস্যা এবং সেগুলো কীভাবে সমাধান করবেন তা তালিকাভুক্ত করা হয়েছে। এগিয়ে যাওয়ার আগে, আমরা [[Status icon and messages]] এবং [[Frequently asked questions]] পৃষ্ঠাগুলো পর্যালোচনা করার পরামর্শ দিই।
 
-## General
+## সাধারণ
 
-### Conflict resolution
+### কনফ্লিক্ট রেজোলিউশন
 
-A conflict happens when you change the same file on two or more devices before they sync. For example, you edit a note on your computer. Before that change uploads, you also change the same note on your phone.
+দুই বা ততোধিক ডিভাইসে সিঙ্ক হওয়ার আগে আপনি যখন একই ফাইল পরিবর্তন করেন তখন একটি কনফ্লিক্ট ঘটে। উদাহরণস্বরূপ, আপনি আপনার কম্পিউটারে একটি নোট এডিট করেন। সেই পরিবর্তন আপলোড হওয়ার আগে, আপনি আপনার ফোনেও একই নোট পরিবর্তন করেন।
 
-Conflicts happen more often when you work offline. There are more changes and longer time between syncs, which increases the chance of conflicts.
+আপনি অফলাইনে কাজ করলে কনফ্লিক্ট বেশি ঘটে। বেশি পরিবর্তন এবং সিঙ্কের মধ্যে দীর্ঘ সময় থাকে, যা কনফ্লিক্টের সম্ভাবনা বাড়ায়।
 
-#### How Obsidian Sync handles conflicts
+#### Obsidian Sync কীভাবে কনফ্লিক্ট পরিচালনা করে
 
-When Obsidian Sync finds a conflict, the result depends on the file type:
+Obsidian Sync যখন একটি কনফ্লিক্ট খুঁজে পায়, তখন ফলাফল ফাইলের ধরনের উপর নির্ভর করে:
 
-- **Markdown files**: Obsidian Sync merges the changes using Google's [diff-match-patch](https://github.com/google/diff-match-patch) algorithm.
-- **Other file types**: For all other files, including canvases, Obsidian uses a "last modified wins" approach. The most recently modified version replaces earlier versions.
+- **Markdown ফাইল**: Obsidian Sync Google-এর [diff-match-patch](https://github.com/google/diff-match-patch) অ্যালগরিদম ব্যবহার করে পরিবর্তনগুলো মার্জ করে।
+- **অন্যান্য ফাইলের ধরন**: ক্যানভাস সহ অন্যান্য সব ফাইলের জন্য, Obsidian একটি "শেষ পরিবর্তনটি জেতে" পদ্ধতি ব্যবহার করে। সবচেয়ে সাম্প্রতিক পরিবর্তিত ভার্সনটি আগের ভার্সনগুলো প্রতিস্থাপন করে।
 
-For conflicts in Obsidian settings, such as plugin settings, Obsidian Sync merges the JSON files. It applies keys from the local JSON on top of the remote JSON.
+প্লাগইন সেটিংসের মতো Obsidian সেটিংসে কনফ্লিক্টের জন্য, Obsidian Sync JSON ফাইল মার্জ করে। এটি রিমোট JSON-এর উপরে লোকাল JSON থেকে কী প্রয়োগ করে।
 
-#### Conflict resolution options
+#### কনফ্লিক্ট রেজোলিউশন অপশন
 
-Starting in Obsidian 1.9.7, you can choose how to handle conflicts. To configure this setting:
+Obsidian 1.9.7 থেকে, আপনি কনফ্লিক্ট কীভাবে পরিচালনা করবেন তা বেছে নিতে পারেন। এই সেটিং কনফিগার করতে:
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Sync**.
-3. Under **[[Sync settings and selective syncing#Conflict resolution|Conflict resolution]]**, choose your preferred option:
-   - **Automatically merge** (default): Obsidian Sync combines all changes from different devices into a single file. This saves all edits, but it may sometimes create duplicate text or formatting problems. You will need to fix these manually.
-   - **Create conflict file**: When Obsidian finds conflicting changes, it creates a separate conflict file instead of merging automatically. You can then review both versions and merge them yourself. This gives you full control over the final result.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Sync** নির্বাচন করুন।
+3. **[[Sync settings and selective syncing#Conflict resolution|Conflict resolution]]**-এর অধীনে, আপনার পছন্দের অপশন বেছে নিন:
+   - **Automatically merge** (ডিফল্ট): Obsidian Sync বিভিন্ন ডিভাইস থেকে সব পরিবর্তন একটি একক ফাইলে একত্রিত করে। এটি সব এডিট সংরক্ষণ করে, তবে এটি কখনো কখনো ডুপ্লিকেট টেক্সট বা ফরম্যাটিং সমস্যা তৈরি করতে পারে। আপনাকে এগুলো ম্যানুয়ালি ঠিক করতে হবে।
+   - **Create conflict file**: Obsidian যখন কনফ্লিক্টিং পরিবর্তন খুঁজে পায়, তখন এটি স্বয়ংক্রিয়ভাবে মার্জ করার পরিবর্তে একটি আলাদা কনফ্লিক্ট ফাইল তৈরি করে। তারপর আপনি উভয় ভার্সন পর্যালোচনা করে নিজে মার্জ করতে পারেন। এটি চূড়ান্ত ফলাফলের উপর আপনাকে সম্পূর্ণ নিয়ন্ত্রণ দেয়।
 
-> [!warning]+ Configure on all devices
-> Conflict resolution settings are device-specific. You must configure your preferred option on each of your devices. This ensures the same behavior across all your synced devices.
+> [!warning]+ সব ডিভাইসে কনফিগার করুন
+> কনফ্লিক্ট রেজোলিউশন সেটিংস ডিভাইস-নির্দিষ্ট। আপনার প্রতিটি ডিভাইসে আপনার পছন্দের অপশন কনফিগার করতে হবে। এটি নিশ্চিত করে আপনার সব সিঙ্ক করা ডিভাইসে একই আচরণ থাকবে।
 
-**Conflict file naming pattern**
+**কনফ্লিক্ট ফাইলের নামকরণ প্যাটার্ন**
 
-When you use the "Create conflict file" option, Obsidian creates a new file with this naming pattern:
+আপনি যখন "Create conflict file" অপশন ব্যবহার করেন, তখন Obsidian এই নামকরণ প্যাটার্ন সহ একটি নতুন ফাইল তৈরি করে:
 
 ```
 original-note-name (Conflicted copy device-name YYYYMMDDHHMM).md
 ```
 
-For example, if a conflict happens in a note called `Meeting notes.md`, the conflict file might be named:
+উদাহরণস্বরূপ, `Meeting notes.md` নামের একটি নোটে যদি একটি কনফ্লিক্ট ঘটে, তাহলে কনফ্লিক্ট ফাইলটির নাম হতে পারে:
 
 ```
 Meeting notes (Conflicted copy MyMacBook2 202411281430).md
 ```
 
-The conflict file contains the changes from the device where the conflict was detected. The original file keeps the remote version. You can compare both files and manually merge the content.
+কনফ্লিক্ট ফাইলে সেই ডিভাইসের পরিবর্তনগুলো থাকে যেখানে কনফ্লিক্টটি শনাক্ত করা হয়েছিল। মূল ফাইলটি রিমোট ভার্সন ধরে রাখে। আপনি উভয় ফাইল তুলনা করতে পারেন এবং কন্টেন্ট ম্যানুয়ালি মার্জ করতে পারেন।
 
-> [!info]+ Check the Sync log
-> To check when conflicts happened, open the [[Status icon and messages#Sync activity log|Sync log]]. Filter for "Merge Conflicts" or search for "Conflict".
+> [!info]+ Sync লগ চেক করুন
+> কখন কনফ্লিক্ট হয়েছে তা চেক করতে, [[Status icon and messages#Sync activity log|Sync log]] খুলুন। "Merge Conflicts" দিয়ে ফিল্টার করুন বা "Conflict" অনুসন্ধান করুন।
 
-###  Sync deleted a note I just created on two devices
+### দুটি ডিভাইসে আমি সদ্য তৈরি করা একটি নোট Sync মুছে ফেলেছে
 
-Obsidian Sync typically tries to [[#Conflict resolution|resolve conflicts]] by merging conflicting notes across devices. However, problems can happen for users who automatically create or change notes on startup. This includes [[Daily notes]] or when using the community plugin [Templater](https://github.com/SilentVoid13/Templater).
+Obsidian Sync সাধারণত ডিভাইস জুড়ে কনফ্লিক্টিং নোট মার্জ করে [[#Conflict resolution|কনফ্লিক্ট সমাধান করার]] চেষ্টা করে। তবে, স্টার্টআপে স্বয়ংক্রিয়ভাবে নোট তৈরি বা পরিবর্তনকারী ব্যবহারকারীদের জন্য সমস্যা হতে পারে। এতে [[Daily notes]] অথবা কমিউনিটি প্লাগইন [Templater](https://github.com/SilentVoid13/Templater) ব্যবহার করার সময় অন্তর্ভুক্ত।
 
-If you create a note locally on one device and, within a couple of minutes, Sync downloads a remote version of that same note, Sync will keep the remote version without merging the two. In this case, you can recover the local version using [[File recovery]].
+আপনি যদি একটি ডিভাইসে স্থানীয়ভাবে একটি নোট তৈরি করেন এবং, কয়েক মিনিটের মধ্যে, Sync একই নোটের একটি রিমোট ভার্সন ডাউনলোড করে, তাহলে Sync দুটি মার্জ না করে রিমোট ভার্সনটি রাখবে। এই ক্ষেত্রে, আপনি [[File recovery]] ব্যবহার করে লোকাল ভার্সন পুনরুদ্ধার করতে পারেন।
 
-### Sync will not sync my plugins and settings updates
+### Sync আমার প্লাগইন এবং সেটিংস আপডেট সিঙ্ক করবে না
 
-Obsidian [[Frequently asked questions#Does Obsidian Sync live-reload my settings?|does not live-reload all settings]]. After you update settings or plugins, you need to restart Obsidian on other devices to see the changes. On mobile devices, you may need to force-quit the app.
+Obsidian [[Frequently asked questions#Does Obsidian Sync live-reload my settings?|সব সেটিংস লাইভ-রিলোড করে না]]। সেটিংস বা প্লাগইন আপডেট করার পর, পরিবর্তনগুলো দেখতে আপনাকে অন্য ডিভাইসে Obsidian পুনরায় চালু করতে হবে। মোবাইল ডিভাইসে, আপনাকে অ্যাপটি ফোর্স-কুইট করতে হতে পারে।
 
-> [!example]- Changing a theme
-> - On your primary device (usually a computer), you change your theme back to the default from a custom theme.
-> - The Sync log confirms the updated files were sent to the remote vault, but your mobile device still shows the custom theme.
-> - On the mobile device, check the Sync log to confirm receipt of the updated `appearance.json` file.
-> - Reload or restart Obsidian on the mobile device.
-> - After reloading or restarting, the mobile device should display the same theme as your computer.
+> [!example]- একটি থিম পরিবর্তন করা
+> - আপনার প্রাথমিক ডিভাইসে (সাধারণত একটি কম্পিউটার), আপনি একটি কাস্টম থিম থেকে আপনার থিম ডিফল্টে ফিরিয়ে আনেন।
+> - Sync লগ নিশ্চিত করে যে আপডেট করা ফাইলগুলো রিমোট ভল্টে পাঠানো হয়েছে, তবে আপনার মোবাইল ডিভাইস এখনও কাস্টম থিম দেখাচ্ছে।
+> - মোবাইল ডিভাইসে, আপডেট করা `appearance.json` ফাইল প্রাপ্তি নিশ্চিত করতে Sync লগ চেক করুন।
+> - মোবাইল ডিভাইসে Obsidian রিলোড বা পুনরায় চালু করুন।
+> - রিলোড বা পুনরায় চালু করার পর, মোবাইল ডিভাইসে আপনার কম্পিউটারের মতোই একই থিম প্রদর্শিত হওয়া উচিত।
 
-### My files keep disappearing from Sync as soon as I restore it
+### আমি এটি পুনরুদ্ধার করার সাথে সাথেই আমার ফাইল Sync থেকে অদৃশ্য হয়ে যাচ্ছে
 
-This issue is most common on Windows. Windows Defender may quarantine files with code blocks, which causes certain notes to disappear.
+এই সমস্যাটি Windows-এ সবচেয়ে সাধারণ। Windows Defender কোড ব্লক সহ ফাইল কোয়ারেন্টাইন করতে পারে, যার ফলে নির্দিষ্ট নোট অদৃশ্য হয়ে যায়।
 
-Another common cause is double-syncing. This happens when Obsidian Sync runs alongside another syncing service.
+আরেকটি সাধারণ কারণ হল ডাবল-সিঙ্কিং। এটি ঘটে যখন Obsidian Sync অন্য একটি সিঙ্কিং সার্ভিসের পাশাপাশি চলে।
 
 ![[Switch to Obsidian Sync#Move your vault out of your third-party syncing service or cloud storage]]
 
 ---
 
-Finally, this can happen when you restore a file on one device, but then it is removed from a secondary device. This happens when the filename has [[Status icon and messages#Skipped messages|illegal characters]].
+সবশেষে, এটি ঘটতে পারে যখন আপনি একটি ডিভাইসে একটি ফাইল পুনরুদ্ধার করেন, কিন্তু তারপর এটি একটি সেকেন্ডারি ডিভাইস থেকে সরিয়ে ফেলা হয়। এটি ঘটে যখন ফাইলের নামে [[Status icon and messages#Skipped messages|অবৈধ অক্ষর]] থাকে।
 
 ## Android
 
-**My device is deleting my attachments I receive through Sync**
+**Sync-এর মাধ্যমে প্রাপ্ত আমার অ্যাটাচমেন্ট আমার ডিভাইস মুছে ফেলছে**
 
-This issue is likely due to Google or Android Photos managing your attachments. To prevent the system from changing files received via Sync, add a `.nomedia` [file to your vault](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) on your Android device.
+এই সমস্যাটি সম্ভবত Google বা Android Photos আপনার অ্যাটাচমেন্ট পরিচালনা করার কারণে ঘটছে। Sync-এর মাধ্যমে প্রাপ্ত ফাইল সিস্টেমকে পরিবর্তন করা থেকে বিরত রাখতে, আপনার Android ডিভাইসে আপনার ভল্টে একটি `.nomedia` [ফাইল](https://support.google.com/android/thread/60342076/what-are-these-nomedia-files?hl=en) যুক্ত করুন।
 
-> [!tip]- Use a plugin
-> The community plugin [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) makes this easier. Install it on your Android phone. Note that `.nomedia` files are not synced across devices through Obsidian Sync.
+> [!tip]- একটি প্লাগইন ব্যবহার করুন
+> কমিউনিটি প্লাগইন [Android Nomedia](https://community.obsidian.md/plugins/android-nomedia) এটি সহজ করে তোলে। আপনার Android ফোনে এটি ইনস্টল করুন। মনে রাখবেন `.nomedia` ফাইলগুলো Obsidian Sync-এর মাধ্যমে ডিভাইস জুড়ে সিঙ্ক হয় না।

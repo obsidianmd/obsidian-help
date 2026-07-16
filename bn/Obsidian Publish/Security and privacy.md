@@ -1,52 +1,51 @@
 ---
-localized: null
 permalink: publish/security
 ---
-You can choose the notes you want to publish to [[Introduction to Obsidian Publish|Obsidian Publish]]. The rest of your notes stay safe in your vault.
+আপনি [[Introduction to Obsidian Publish|Obsidian Publish]]-এ কোন নোটগুলো প্রকাশ করতে চান তা বেছে নিতে পারেন। বাকি নোটগুলো আপনার ভল্টে নিরাপদ থাকে।
 
-Only the notes you choose to publish are sent to Obsidian's servers, and any notes you unpublish are removed.
+শুধুমাত্র আপনি যে নোটগুলো প্রকাশ করার জন্য বেছে নেন সেগুলোই Obsidian-এর সার্ভারে পাঠানো হয়, এবং আপনি যেসব নোট অপ্রকাশিত করেন সেগুলো সরিয়ে ফেলা হয়।
 
-## Password protection
+## পাসওয়ার্ড সুরক্ষা
 
-For improved access control on your publish site, apply a site password. Visitors will be prompted for a password when attempting to access it. If you decide to remove the site password later, the entire site will become visible to the public again.
+আপনার publish সাইটে উন্নত অ্যাক্সেস নিয়ন্ত্রণের জন্য, একটি সাইট পাসওয়ার্ড প্রয়োগ করুন। দর্শকরা এটি অ্যাক্সেস করার চেষ্টা করলে তাদের একটি পাসওয়ার্ড দিতে বলা হবে। আপনি পরে যদি সাইট পাসওয়ার্ড মুছে ফেলার সিদ্ধান্ত নেন, তাহলে সম্পূর্ণ সাইটটি আবার জনসাধারণের কাছে দৃশ্যমান হয়ে যাবে।
 
-> [!warning] Individual password protection for published notes is currently not supported.
+> [!warning] প্রকাশিত নোটগুলোর জন্য পৃথক পাসওয়ার্ড সুরক্ষা বর্তমানে সমর্থিত নয়।
 
-### Add a site password
+### একটি সাইট পাসওয়ার্ড যোগ করুন
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-4. Click **New password**.
-5. In **Password**, enter a password for your site.
-6. (Optional) In **Nickname**, enter a nickname for the password, for example, the person you want to give site access to.
-7. Click **Add this password**.
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. **Publish changes** ডায়ালগে, **Change site options** ![[lucide-cog.svg#icon]]-এ ক্লিক করুন।
+3. **Other site settings**-এর অধীনে, **Passwords**-এর পাশে, **Manage**-এ ক্লিক করুন।
+4. **New password**-এ ক্লিক করুন।
+5. **Password**-এ, আপনার সাইটের জন্য একটি পাসওয়ার্ড লিখুন।
+6. (ঐচ্ছিক) **Nickname**-এ, পাসওয়ার্ডের জন্য একটি ডাকনাম লিখুন, উদাহরণস্বরূপ, যাকে আপনি সাইট অ্যাক্সেস দিতে চান তার নাম।
+7. **Add this password**-এ ক্লিক করুন।
 
-### Remove a site password
+### একটি সাইট পাসওয়ার্ড সরান
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Under **Other site settings**, next to **Passwords**, click **Manage**.
-5. Click the cross-icon next to the password you want to delete.
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. **Publish changes** ডায়ালগে, **Change site options** ![[lucide-cog.svg#icon]]-এ ক্লিক করুন।
+3. **Other site settings**-এর অধীনে, **Passwords**-এর পাশে, **Manage**-এ ক্লিক করুন।
+5. আপনি যে পাসওয়ার্ডটি মুছতে চান তার পাশের ক্রস-আইকনে ক্লিক করুন।
 
-## Data collection
-### Visitor data
+## ডেটা সংগ্রহ
+### দর্শকের ডেটা
 
-By default, Obsidian Publish **does not** collect visitor data, store cookies, or process personal information. However you can implement analytics or log other user data by [[Customize your site|customizing your site]].
+ডিফল্টভাবে, Obsidian Publish দর্শকের ডেটা সংগ্রহ **করে না**, কুকি সংরক্ষণ করে না, বা ব্যক্তিগত তথ্য প্রক্রিয়া করে না। তবে আপনি [[Customize your site|আপনার সাইট কাস্টমাইজ করে]] অ্যানালিটিক্স প্রয়োগ করতে পারেন বা অন্যান্য ব্যবহারকারীর ডেটা লগ করতে পারেন।
 
-As the site owner, you are responsible for complying with GDPR and privacy regulations in your region. This includes creating your own notification banner, which can be implemented using publish.js, and adding a privacy policy page to your site.
+সাইটের মালিক হিসেবে, আপনার অঞ্চলে GDPR এবং গোপনীয়তা বিধিমালা মেনে চলার দায়িত্ব আপনার। এর মধ্যে রয়েছে আপনার নিজস্ব নোটিফিকেশন ব্যানার তৈরি করা, যা publish.js ব্যবহার করে বাস্তবায়ন করা যায়, এবং আপনার সাইটে একটি গোপনীয়তা নীতির পৃষ্ঠা যোগ করা।
 
-## Access
+## অ্যাক্সেস
 
-Obsidian contracts with [Cloudflare](https://www.cloudflare.com) to provide site hosting for our Publish sites. The servers are hosted in San Francisco, CA.
+Obsidian আমাদের Publish সাইটগুলোর জন্য সাইট হোস্টিং সরবরাহ করতে [Cloudflare](https://www.cloudflare.com)-এর সাথে চুক্তিবদ্ধ। সার্ভারগুলো সান ফ্রান্সিসকো, CA-তে হোস্ট করা হয়।
 
-### Managing access to Obsidian Publish on your network
+### আপনার নেটওয়ার্কে Obsidian Publish-এর অ্যাক্সেস পরিচালনা করা
 
-To regulate access to Obsidian Publish on your network, you need to manage the following domains:
+আপনার নেটওয়ার্কে Obsidian Publish-এর অ্যাক্সেস নিয়ন্ত্রণ করতে, আপনাকে নিচের ডোমেইনগুলো পরিচালনা করতে হবে:
 
-- Frontend: `publish.obsidian.md`
-- Backend: `publish-main.obsidian.md`
+- ফ্রন্টএন্ড: `publish.obsidian.md`
+- ব্যাকএন্ড: `publish-main.obsidian.md`
 
-Additionally, the backend services employ the following subdomains: `publish-xx.obsidian.md`, where `xx` is a number ranging from `1 - 100`.
+এছাড়াও, ব্যাকএন্ড সেবাগুলো নিচের সাবডোমেইনগুলো ব্যবহার করে: `publish-xx.obsidian.md`, যেখানে `xx` হলো `1 - 100` পরিসরের একটি সংখ্যা।
 
-> [!tip] If your firewall system supports it, we recommend whitelisting `publish-*.obsidian.md` to accommodate our continuous expansion of subdomains.
+> [!tip] যদি আপনার ফায়ারওয়াল সিস্টেম এটি সমর্থন করে, আমরা আমাদের সাবডোমেইনের ক্রমাগত সম্প্রসারণ মিটিয়ে নিতে `publish-*.obsidian.md`-কে হোয়াইটলিস্ট করার সুপারিশ করি।

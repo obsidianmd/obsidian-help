@@ -1,32 +1,31 @@
 ---
-localized: null
 permalink: drag-and-drop
 ---
-There are many ways to drag and drop elements in Obsidian. This includes tabs, files, folders, and content.
+Obsidian-এ উপাদানগুলো ড্র্যাগ ও ড্রপ করার অনেক উপায় আছে। এর মধ্যে রয়েছে ট্যাব, ফাইল, ফোল্ডার এবং কনটেন্ট।
 
-### Drag tabs
+### ট্যাব ড্র্যাগ করা
 
-- You can [[Tabs#Arrange tabs|arrange tabs]] and split tab groups in the main content area and in [[Sidebar|sidebars]].
+- আপনি মূল কনটেন্ট এলাকায় এবং [[Sidebar|সাইডবারে]] [[Tabs#Arrange tabs|ট্যাব সাজাতে]] এবং ট্যাব গ্রুপ বিভক্ত করতে পারেন।
 
-### Drag sources
+### ড্র্যাগের উৎস
 
-- You can drag a file, or multiple files from the [[file explorer]].
-- You can drag a file from a [[search]] result.
-- You can drag a file from [[backlinks]] or unlinked references.
-- You can drag a file from a link inside the note, in preview mode.
+- আপনি [[file explorer|ফাইল এক্সপ্লোরার]] থেকে একটি ফাইল, বা একাধিক ফাইল ড্র্যাগ করতে পারেন।
+- আপনি একটি [[search|অনুসন্ধান]] ফলাফল থেকে একটি ফাইল ড্র্যাগ করতে পারেন।
+- আপনি [[backlinks|ব্যাকলিঙ্ক]] বা আনলিঙ্কড রেফারেন্স থেকে একটি ফাইল ড্র্যাগ করতে পারেন।
+- আপনি প্রিভিউ মোডে নোটের ভেতরের একটি লিঙ্ক থেকে একটি ফাইল ড্র্যাগ করতে পারেন।
 
-### Drop destinations
+### ড্রপ গন্তব্য
 
-- You can drop a file on a tab header to open the file there. Hold `Alt` (or `Shift` on macOS) to drop anywhere in the tab.
-- You can drop a file on a folder in the [[file explorer]] to move the file there.
-- You can drop a file into an editor to insert it as a link. The generated link also follows your preferences, such as relative paths, or using Markdown links.
-- You can drop a file on the [[Bookmarks]] tab to bookmark it.
+- আপনি একটি ট্যাব হেডারের ওপর ফাইল ড্রপ করলে সেটি সেখানে খুলবে। ট্যাবের যেকোনো জায়গায় ড্রপ করতে `Alt` (বা macOS-এ `Shift`) চেপে ধরে রাখুন।
+- আপনি [[file explorer|ফাইল এক্সপ্লোরারে]] একটি ফোল্ডারের ওপর ফাইল ড্রপ করলে ফাইলটি সেখানে সরানো হবে।
+- আপনি এডিটরে একটি ফাইল ড্রপ করলে সেটি লিঙ্ক হিসেবে যুক্ত হবে। তৈরি হওয়া লিঙ্কটিও আপনার পছন্দ অনুসরণ করে, যেমন আপেক্ষিক পাথ, বা Markdown লিঙ্ক ব্যবহার।
+- আপনি [[Bookmarks]] ট্যাবে একটি ফাইল ড্রপ করলে সেটি বুকমার্ক হয়ে যাবে।
 
-### Dragging from outside Obsidian
+### Obsidian-এর বাইরে থেকে ড্র্যাগ করা
 
-- You can drag any HTML content from the browser into Obsidian to automatically convert them into Markdown
-- You can drag and drop any files from your native file explorer to have Obsidian import (make a copy of) those files in your vault's attachment folder and insert them as internal links. Hold `Ctrl` on Windows/Linux or `Option` on macOS to create `file:///` absolute links to those files instead of importing a copy.
+- আপনি ব্রাউজার থেকে যেকোনো HTML কনটেন্ট Obsidian-এ ড্র্যাগ করে স্বয়ংক্রিয়ভাবে Markdown-এ রূপান্তর করতে পারেন
+- আপনি আপনার নেটিভ ফাইল এক্সপ্লোরার থেকে যেকোনো ফাইল ড্র্যাগ ও ড্রপ করে Obsidian-কে সেই ফাইলগুলো আপনার ভল্টের অ্যাটাচমেন্ট ফোল্ডারে ইম্পোর্ট (কপি) করাতে পারেন এবং সেগুলোকে ইন্টার্নাল লিঙ্ক হিসেবে যুক্ত করাতে পারেন। কপি ইম্পোর্ট করার পরিবর্তে সেই ফাইলগুলোর `file:///` অ্যাবসোলিউট লিঙ্ক তৈরি করতে Windows/Linux-এ `Ctrl` অথবা macOS-এ `Option` চেপে ধরুন।
 
-### Dropping files outside Obsidian
+### Obsidian-এর বাইরে ফাইল ড্রপ করা
 
-- This creates an `obsidian://` URL in the external application for the Obsidian note that you dragged.
+- এটি আপনার ড্র্যাগ করা Obsidian নোটের জন্য বাইরের অ্যাপ্লিকেশনে একটি `obsidian://` URL তৈরি করে।

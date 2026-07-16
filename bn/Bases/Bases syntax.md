@@ -1,18 +1,17 @@
 ---
-localized: null
 permalink: bases/syntax
 publish: true
 mobile: true
-description: This page provides an introduction to Bases syntax in Obsidian.
+description: এই পাতাটি Obsidian-এ Bases সিনট্যাক্সের একটি পরিচিতি প্রদান করে।
 ---
 
-When you [[Create a base|create a base]] in Obsidian, it is saved as a `.base` file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.
+Obsidian-এ যখন আপনি একটি [[Create a base|বেস তৈরি করেন]], এটি একটি `.base` ফাইল হিসেবে সংরক্ষিত হয়। বেসেস সাধারণত অ্যাপ ইন্টারফেস ব্যবহার করে সম্পাদনা করা হয়, তবে সিনট্যাক্সটি ম্যানুয়ালিও সম্পাদনা করা যায় এবং একটি কোড ব্লকে এম্বেড করা যায়।
 
-The [[Introduction to Bases|Bases]] syntax defines [[Views]], filters, and [[formulas]]. Bases must be valid YAML conforming to the schema defined below.
+[[Introduction to Bases|Bases]] সিনট্যাক্স [[Views]], ফিল্টার এবং [[formulas|ফর্মুলা]] সংজ্ঞায়িত করে। বেসেস অবশ্যই নিচে সংজ্ঞায়িত স্কিমা অনুসারী বৈধ YAML হতে হবে।
 
-## Example
+## উদাহরণ
 
-Here's an example of a base file. We'll walk through each section in detail.
+এখানে একটি বেস ফাইলের উদাহরণ দেওয়া হলো। আমরা প্রতিটি অংশ বিস্তারিতভাবে দেখব।
 
 ```yaml
 filters:
@@ -59,17 +58,17 @@ views:
       formula.ppu: Average
 ```
 
-### Filters
+### ফিল্টার
 
-By default a base includes every file in the vault. There is no `from` or `source` like in SQL or Dataview. The `filters` section lets you define conditions to narrow down the dataset.
+ডিফল্টরূপে একটি বেস ভল্টের প্রতিটি ফাইল অন্তর্ভুক্ত করে। SQL বা Dataview-এর মতো এখানে কোনো `from` বা `source` নেই। `filters` বিভাগ আপনাকে ডেটাসেট সংকুচিত করার জন্য শর্ত নির্ধারণ করতে দেয়।
 
 ```yaml
-# Simple filter:
+# সহজ ফিল্টার:
 filters:
   and:
     - file.hasTag("tag")
 
-# Complex filter:
+# জটিল ফিল্টার:
 filters:
   or:
     - file.hasTag("tag")
@@ -81,23 +80,23 @@ filters:
         - file.inFolder("Required Reading")
 ```
 
-There are two opportunities to apply filters:
+ফিল্টার প্রয়োগ করার দুটি সুযোগ আছে:
 
-1. At the global `filters` level (shown above) where they apply to all views in the base.
-2. At the `view` level where apply only to a specific view.
+1. গ্লোবাল `filters` স্তরে (উপরে দেখানো হয়েছে) যেখানে এগুলো বেসের সব ভিউতে প্রযোজ্য হয়।
+2. `view` স্তরে যেখানে এগুলো শুধুমাত্র একটি নির্দিষ্ট ভিউতে প্রযোজ্য হয়।
 
-These two sections are functionally equivalent and when evaluating for a view they will be concatenated with an `AND`.
+এই দুটি বিভাগ কার্যকরীভাবে সমতুল্য, এবং একটি ভিউয়ের জন্য মূল্যায়ন করার সময় এগুলো একটি `AND` দিয়ে একত্রিত করা হবে।
 
-The `filters` section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of `and`, `or`, or `not`. These keys are a heterogeneous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:
+`filters` বিভাগে একটি স্ট্রিং হিসেবে একটি একক ফিল্টার স্টেটমেন্ট, অথবা একটি রিকার্সিভভাবে সংজ্ঞায়িত ফিল্টার অবজেক্ট থাকে। ফিল্টার অবজেক্টে `and`, `or`, বা `not`-এর যেকোনো একটি থাকতে পারে। এই কী-গুলো অন্যান্য ফিল্টার অবজেক্ট বা স্ট্রিংয়ে থাকা ফিল্টার স্টেটমেন্টের একটি ভিন্নধর্মী তালিকা। একটি ফিল্টার স্টেটমেন্ট এমন একটি লাইন যা একটি নোটে প্রয়োগ করা হলে সত্য বা মিথ্যা হিসেবে মূল্যায়িত হয়। এটি নিচের যেকোনো একটি হতে পারে:
 
-- A basic comparison using standard arithmetic operators.
-- A function. A variety of [[Functions]] are built-in, and plugins can add additional functions.
+- স্ট্যান্ডার্ড গাণিতিক অপারেটর ব্যবহার করে একটি মৌলিক তুলনা।
+- একটি ফাংশন। বিভিন্ন ধরনের [[Functions]] বিল্ট-ইন থাকে, এবং প্লাগইন অতিরিক্ত ফাংশন যোগ করতে পারে।
 
-The syntax and available functions for filters and formulas are the same.
+ফিল্টার এবং ফর্মুলার জন্য সিনট্যাক্স ও উপলব্ধ ফাংশন একই।
 
-### Formulas
+### ফর্মুলা
 
-The `formulas` section defines [[Formulas|formula properties]] that can be displayed across all views in the base file.
+`formulas` বিভাগে [[Formulas|ফর্মুলা প্রপার্টি]] সংজ্ঞায়িত করা হয় যা বেস ফাইলের সব ভিউতে প্রদর্শিত হতে পারে।
 
 ```yaml
 formulas:
@@ -105,26 +104,26 @@ formulas:
   ppu: "(price / age).toFixed(2)"
 ```
 
-Formula properties support basic arithmetic operators and a variety of built-in [[Functions]]. In the future, plugins will be able to add functions for use in formulas.
+ফর্মুলা প্রপার্টি মৌলিক গাণিতিক অপারেটর এবং বিভিন্ন বিল্ট-ইন [[Functions]] সমর্থন করে। ভবিষ্যতে, প্লাগইনগুলো ফর্মুলায় ব্যবহারের জন্য ফাংশন যোগ করতে পারবে।
 
-You can reference properties in different ways depending on their type:
+আপনি প্রপার্টির ধরন অনুযায়ী বিভিন্ন উপায়ে সেগুলো রেফারেন্স করতে পারেন:
 
-- **Note properties** are properties defined in the note’s frontmatter. For example `note.price` or `note["price"]`.  
-  If no prefix is specified, the property is assumed to be a `note` property.
-- **File properties** describe the file itself.  
-  For example `file.size` or `file.ext`. You can also reference the file object directly, e.g., `file.hasLink()`.
-- **Formula properties** are other formulas in the base.  
-  Example `formula.formatted_price`.
+- **নোট প্রপার্টি** নোটের ফ্রন্টম্যাটারে সংজ্ঞায়িত প্রপার্টি। উদাহরণস্বরূপ `note.price` বা `note["price"]`।
+  কোনো প্রিফিক্স নির্দিষ্ট না করা হলে, প্রপার্টিটিকে একটি `note` প্রপার্টি হিসেবে ধরে নেওয়া হয়।
+- **ফাইল প্রপার্টি** ফাইল নিজেই বর্ণনা করে।
+  উদাহরণস্বরূপ `file.size` বা `file.ext`। আপনি ফাইল অবজেক্টও সরাসরি রেফারেন্স করতে পারেন, যেমন `file.hasLink()`।
+- **ফর্মুলা প্রপার্টি** বেসের অন্যান্য ফর্মুলা।
+  উদাহরণ `formula.formatted_price`।
 
-A formula can use values from other formula properties, as long as there’s no circular reference.  
+কোনো সার্কুলার রেফারেন্স না থাকলে একটি ফর্মুলা অন্য ফর্মুলা প্রপার্টির মান ব্যবহার করতে পারে।
 
-Formula properties are always stored as strings in YAML, but their actual **output data type** is determined by the type of the underlying data and the return value of any functions used.
+ফর্মুলা প্রপার্টি সবসময় YAML-এ স্ট্রিং হিসেবে সংরক্ষিত হয়, তবে এগুলোর প্রকৃত **আউটপুট ডেটা টাইপ** অন্তর্নিহিত ডেটার ধরন এবং ব্যবহৃত যেকোনো ফাংশনের রিটার্ন মান দ্বারা নির্ধারিত হয়।
 
-Note the use of nested quotes is necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.
+লক্ষ্য করুন, YAML ফিল্ডে টেক্সট লিটারেল অন্তর্ভুক্ত করার জন্য নেস্টেড কোটেশন ব্যবহার করা প্রয়োজন। টেক্সট লিটারেল অবশ্যই একক বা দ্বৈত কোটেশন চিহ্নের মধ্যে থাকতে হবে।
 
-### Properties
+### প্রপার্টি
 
-The `properties` section allows storing configuration information about each property. It is up to the individual view how to use these configuration values. For example, in tables the display name is used for the column headers.
+`properties` বিভাগ প্রতিটি প্রপার্টি সম্পর্কে কনফিগারেশন তথ্য সংরক্ষণ করতে দেয়। এই কনফিগারেশন মানগুলো কীভাবে ব্যবহার করা হবে তা পৃথক ভিউয়ের উপর নির্ভর করে। উদাহরণস্বরূপ, টেবিলে কলাম হেডারের জন্য প্রদর্শনের নাম ব্যবহার করা হয়।
 
 ```yaml
 properties:
@@ -136,44 +135,44 @@ properties:
     displayName: Extension
 ```
 
-Display names are not used in filters or formulas.
+প্রদর্শনের নাম ফিল্টার বা ফর্মুলায় ব্যবহৃত হয় না।
 
-### Summaries
+### সারসংক্ষেপ (Summaries)
 
-The `summaries` section can be used to define custom summary formulas. In addition to defining summary formulas here, there are several default summary formulas available.
+`summaries` বিভাগ কাস্টম সারসংক্ষেপ ফর্মুলা সংজ্ঞায়িত করতে ব্যবহার করা যায়। এখানে সারসংক্ষেপ ফর্মুলা সংজ্ঞায়িত করার পাশাপাশি, বেশ কিছু ডিফল্ট সারসংক্ষেপ ফর্মুলাও পাওয়া যায়।
 
 ```yaml
 summaries:
   customAverage: 'values.mean().round(3)'
 ```
 
-In this example, the `customAverage` formula is the same as the default `Average`, except the value is rounded to a different number of places. In summary formulas, the `values` key word is a list containing all of the values for that property across every note in the result set. The summary formula should return a single `Value`.
+এই উদাহরণে, `customAverage` ফর্মুলাটি ডিফল্ট `Average`-এর মতোই, শুধু মানটি ভিন্ন সংখ্যক স্থানে রাউন্ড করা হয়েছে। সারসংক্ষেপ ফর্মুলায়, `values` কীওয়ার্ডটি এমন একটি লিস্ট যাতে ফলাফল সেটের প্রতিটি নোট জুড়ে সেই প্রপার্টির সব মান থাকে। সারসংক্ষেপ ফর্মুলার একটি একক `Value` রিটার্ন করা উচিত।
 
-Note that this `summaries` section is different from the `summaries` section in the view config (explained below) where summary formulas as assigned to specific properties.
+লক্ষ্য করুন, এই `summaries` বিভাগটি ভিউ কনফিগারেশনের `summaries` বিভাগ থেকে ভিন্ন (নিচে ব্যাখ্যা করা হয়েছে) যেখানে সারসংক্ষেপ ফর্মুলা নির্দিষ্ট প্রপার্টিতে বরাদ্দ করা হয়।
 
-#### Default Summary Formulas
+#### ডিফল্ট সারসংক্ষেপ ফর্মুলা
 
-| Name      | Input Type | Description                                                   |
+| নাম      | ইনপুট টাইপ | বর্ণনা                                                   |
 | --------- | ---------- | ------------------------------------------------------------- |
-| Average   | Number     | The mathematical mean of all numbers from the input values.   |
-| Min       | Number     | The smallest number from the input values.                    |
-| Max       | Number     | The largest number from the input values.                     |
-| Sum       | Number     | The sum of all numbers in the input.                          |
-| Range     | Number     | The difference between `Max` and `Min`.                       |
-| Median    | Number     | The mathematical median of all numbers from the input values. |
-| Stddev    | Number     | The standard deviation of all numbers from the input values.  |
-| Earliest  | Date       | The earliest date from the input values.                      |
-| Latest    | Date       | The latest date from the input values.                        |
-| Range     | Date       | The difference between `Latest` and `Earliest`.               |
-| Checked   | Boolean    | The number of `true` values.                                  |
-| Unchecked | Boolean    | The number of `false` values.                                 |
-| Empty     | Any        | The number of values in the input that are empty.             |
-| Filled    | Any        | The number of values in the input that are not empty.         |
-| Unique    | Any        | The number of unique values in the input.                     |
+| Average   | সংখ্যা     | ইনপুট মান থেকে সব সংখ্যার গাণিতিক গড়।   |
+| Min       | সংখ্যা     | ইনপুট মান থেকে সবচেয়ে ছোট সংখ্যা।                    |
+| Max       | সংখ্যা     | ইনপুট মান থেকে সবচেয়ে বড় সংখ্যা।                     |
+| Sum       | সংখ্যা     | ইনপুটের সব সংখ্যার যোগফল।                          |
+| Range     | সংখ্যা     | `Max` এবং `Min`-এর মধ্যে পার্থক্য।                       |
+| Median    | সংখ্যা     | ইনপুট মান থেকে সব সংখ্যার গাণিতিক মধ্যক। |
+| Stddev    | সংখ্যা     | ইনপুট মান থেকে সব সংখ্যার স্ট্যান্ডার্ড ডেভিয়েশন।  |
+| Earliest  | তারিখ       | ইনপুট মান থেকে সবচেয়ে পুরনো তারিখ।                      |
+| Latest    | তারিখ       | ইনপুট মান থেকে সবচেয়ে সাম্প্রতিক তারিখ।                        |
+| Range     | তারিখ       | `Latest` এবং `Earliest`-এর মধ্যে পার্থক্য।               |
+| Checked   | বুলিয়ান    | `true` মানের সংখ্যা।                                  |
+| Unchecked | বুলিয়ান    | `false` মানের সংখ্যা।                                |
+| Empty     | যেকোনো      | ইনপুটে খালি মানের সংখ্যা।             |
+| Filled    | যেকোনো      | ইনপুটে খালি নয় এমন মানের সংখ্যা।         |
+| Unique    | যেকোনো      | ইনপুটে ইউনিক মানের সংখ্যা।             |
 
-### Views
+### ভিউ
 
-The `views` section defines how the data can be rendered. Each entry in the `views` list defines a separate view of the same data, and there can be as many different views as needed.
+`views` বিভাগ ডেটা কীভাবে রেন্ডার করা যায় তা সংজ্ঞায়িত করে। `views` তালিকার প্রতিটি এন্ট্রি একই ডেটার একটি পৃথক ভিউ সংজ্ঞায়িত করে, এবং প্রয়োজন অনুসারে যত ইচ্ছা ভিন্ন ভিউ থাকতে পারে।
 
 ```yaml
 views:
@@ -199,167 +198,167 @@ views:
       formula.ppu: Average
 ```
 
-- `type` selects from the built-in and plugin-added view types.
-- `name` is the display name, and can be used to define the default view.
-- `filters` are exactly the same as described above, but apply only to the view.
-- `groupBy` specifies a property and sort direction. The value of the specified property for each row is used to place the row into groups.
-- `summaries` maps property names to a named summary. Summaries perform an aggregation on the property across all rows.
+- `type` বিল্ট-ইন এবং প্লাগইন-যোগ করা ভিউ টাইপ থেকে বেছে নেয়।
+- `name` হলো প্রদর্শনের নাম, এবং ডিফল্ট ভিউ সংজ্ঞায়িত করতে ব্যবহার করা যায়।
+- `filters` উপরে বর্ণিতভাবেই ঠিক একই, তবে শুধুমাত্র সেই ভিউতে প্রযোজ্য হয়।
+- `groupBy` একটি প্রপার্টি এবং সাজানোর দিক নির্দিষ্ট করে। প্রতিটি সারির নির্দিষ্ট প্রপার্টির মান সারিটিকে গ্রুপে স্থাপন করতে ব্যবহৃত হয়।
+- `summaries` প্রপার্টির নামকে একটি নামযুক্ত সারসংক্ষেপের সাথে ম্যাপ করে। সারসংক্ষেপ সব সারি জুড়ে প্রপার্টির উপর একত্রীকরণ (aggregation) সম্পাদন করে।
 
-[[Views]] can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to limit the number of rows or to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title.
+স্টেট বজায় রাখতে বা সঠিকভাবে রেন্ডার করতে প্রয়োজনীয় যেকোনো তথ্য সংরক্ষণের জন্য [[Views]] অতিরিক্ত ডেটা যোগ করতে পারে, তবে প্লাগইন লেখকদের সতর্ক থাকতে হবে যেন কোর Bases প্লাগইন ইতিমধ্যে ব্যবহার করা কী পুনরায় ব্যবহার না করা হয়। উদাহরণস্বরূপ, একটি টেবিল ভিউ এটি ব্যবহার করতে পারে সারির সংখ্যা সীমিত করতে বা সারি সাজানোর জন্য কোন কলাম ব্যবহার করা হবে এবং কোন দিকে তা বেছে নিতে। একটি ভিন্ন ভিউ টাইপ যেমন ম্যাপ, নোটের কোন প্রপার্টি অক্ষাংশ ও দ্রাঘিমাংশের সাথে সংশ্লিষ্ট এবং কোন প্রপার্টি পিন শিরোনাম হিসেবে প্রদর্শিত হবে তা ম্যাপ করার জন্য এটি ব্যবহার করতে পারে।
 
-In the future, API will allow views to read and write these values, allowing the view to build its own interface for configuration.
+ভবিষ্যতে, API ভিউগুলোকে এই মানগুলো পড়তে ও লিখতে দেবে, যা কনফিগারেশনের জন্য নিজস্ব ইন্টারফেস তৈরি করতে ভিউকে সক্ষম করবে।
 
-## Properties
+## প্রপার্টি
 
-There are three kinds of properties used in bases:
+বেসেসে ব্যবহৃত তিন ধরনের প্রপার্টি রয়েছে:
 
-1. **Note properties**, stored in frontmatter of Markdown files.
-2. **File properties**, accessible for all file types.
-3. **Formula properties**, defined in the `.base` file itself (see above).
+1. **নোট প্রপার্টি**, Markdown ফাইলের ফ্রন্টম্যাটারে সংরক্ষিত।
+2. **ফাইল প্রপার্টি**, সব ফাইল টাইপের জন্য প্রবেশযোগ্য।
+3. **ফর্মুলা প্রপার্টি**, `.base` ফাইলের মধ্যেই সংজ্ঞায়িত (উপরে দেখুন)।
 
-### Note properties
+### নোট প্রপার্টি
 
-[[Properties|Note properties]] are only available for Markdown files, and are stored in the YAML frontmatter of each note. These properties can be accessed using the format `note.author` or simply `author` as a shorthand.
+[[Properties|নোট প্রপার্টি]] শুধুমাত্র Markdown ফাইলের জন্য উপলব্ধ, এবং প্রতিটি নোটের YAML ফ্রন্টম্যাটারে সংরক্ষিত থাকে। এই প্রপার্টিগুলো `note.author` ফরম্যাট, অথবা সংক্ষেপে শুধু `author` ব্যবহার করে অ্যাক্সেস করা যায়।
 
-### File properties
+### ফাইল প্রপার্টি
 
-File properties refer to the file currently being tested or evaluated. File properties are available for all [[Accepted file formats|file types]], including attachments.
+ফাইল প্রপার্টি বর্তমানে পরীক্ষা বা মূল্যায়ন করা হচ্ছে এমন ফাইলকে নির্দেশ করে। অ্যাটাচমেন্টসহ সব [[Accepted file formats|ফাইল টাইপের]] জন্য ফাইল প্রপার্টি উপলব্ধ।
 
-For example, a filter `file.ext == "md"` will be true for all Markdown files and false otherwise.
+উদাহরণস্বরূপ, একটি ফিল্টার `file.ext == "md"` সব Markdown ফাইলের জন্য সত্য হবে এবং অন্যথায় মিথ্যা।
 
-| Property      | Type   | Description                                                   |
+| প্রপার্টি      | টাইপ   | বর্ণনা                                                   |
 | ------------- | ------ | ------------------------------------------------------------- |
-| `file.backlinks`  | List   | List of backlink files. Note: This property is performance heavy. When possible, reverse the lookup and use `file.links`. Does not automatically refresh results when the vault is changed. |
-| `file.ctime`  | Date   | Created time                                                  |
-| `file.embeds` | List   | List of all embeds in the note                                |
-| `file.ext`    | String | File extension                                                |
-| `file.file`   | File   | File object, only usable in specific functions                |
-| `file.folder` | String | Path of the file folder                                       |
-| `file.links`  | List   | List of all internal links in the note, including frontmatter |
-| `file.mtime`  | Date   | Modified time                                                 |
-| `file.name`   | String | File name                                                     |
-| `file.path`   | String | Path of the file                                              |
-| `file.properties`   | Object | All properties on the file. Note: Does not automatically refresh results when the vault is changed. |
-| `file.size`   | Number | File size                                                     |
-| `file.tags`   | List   | List of all tags in the file content and frontmatter          |
+| `file.backlinks`  | লিস্ট   | ব্যাকলিঙ্ক ফাইলের লিস্ট। দ্রষ্টব্য: এই প্রপার্টি পারফরম্যান্সের দিক থেকে ভারী। যেখানে সম্ভব, লুকআপটি বিপরীত করে `file.links` ব্যবহার করুন। ভল্ট পরিবর্তিত হলে এটি স্বয়ংক্রিয়ভাবে ফলাফল রিফ্রেশ করে না। |
+| `file.ctime`  | তারিখ   | তৈরির সময়                                                  |
+| `file.embeds` | লিস্ট   | নোটের সব এম্বেডের লিস্ট                                |
+| `file.ext`    | স্ট্রিং | ফাইল এক্সটেনশন                                                |
+| `file.file`   | ফাইল   | ফাইল অবজেক্ট, শুধুমাত্র নির্দিষ্ট ফাংশনে ব্যবহারযোগ্য                |
+| `file.folder` | স্ট্রিং | ফাইল ফোল্ডারের পাথ                                       |
+| `file.links`  | লিস্ট   | নোটের সব ইন্টারনাল লিঙ্কের লিস্ট, ফ্রন্টম্যাটারসহ |
+| `file.mtime`  | তারিখ   | পরিবর্তনের সময়                                                  |
+| `file.name`   | স্ট্রিং | ফাইলের নাম                                                     |
+| `file.path`   | স্ট্রিং | ফাইলের পাথ                                                     |
+| `file.properties`   | অবজেক্ট | ফাইলের সব প্রপার্টি। দ্রষ্টব্য: ভল্ট পরিবর্তিত হলে এটি স্বয়ংক্রিয়ভাবে ফলাফল রিফ্রেশ করে না। |
+| `file.size`   | সংখ্যা | ফাইলের আকার                                                     |
+| `file.tags`   | লিস্ট   | ফাইলের কনটেন্ট ও ফ্রন্টম্যাটারে থাকা সব ট্যাগের লিস্ট          |
 
-### Access properties with `this`
+### `this` দিয়ে প্রপার্টি অ্যাক্সেস করা
 
-Use the `this` object to access file properties. What `this` refers to, will depend on where the base is displayed. 
+ফাইল প্রপার্টি অ্যাক্সেস করতে `this` অবজেক্ট ব্যবহার করুন। `this` কী নির্দেশ করে তা নির্ভর করবে বেসটি কোথায় প্রদর্শিত হচ্ছে তার উপর।
 
-When the base is opened in main content area, `this` points to properties of the base file itself. For example, using `this.file.folder` returns the folder path where the base is located.
+যখন বেসটি মূল কনটেন্ট অংশে খোলা থাকে, `this` বেস ফাইলের নিজস্ব প্রপার্টিকে নির্দেশ করে। উদাহরণস্বরূপ, `this.file.folder` ব্যবহার করলে বেসটি যে ফোল্ডারে অবস্থিত তার পাথ ফেরত দেয়।
 
-When the base is embedded in another file, `this` points to properties of the _embedding_ file (the note or Canvas that contains the base). For example, using `this.file.name` returns the name of the embedding file, not the base.
+যখন বেসটি অন্য একটি ফাইলে এম্বেড করা থাকে, `this` _এম্বেডিং_ ফাইলের (বেস ধারণকারী নোট বা ক্যানভাস) প্রপার্টিকে নির্দেশ করে। উদাহরণস্বরূপ, `this.file.name` ব্যবহার করলে এটি বেসের নয়, এম্বেডিং ফাইলের নাম ফেরত দেয়।
 
-When the base is in a sidebar, `this` refers to the active file in the main content area. This lets you create queries based on the active file. For example, you can use `file.hasLink(this.file)` to replicate the backlinks pane.
+যখন বেসটি একটি সাইডবারে থাকে, `this` মূল কনটেন্ট অংশে সক্রিয় ফাইলকে নির্দেশ করে। এটি আপনাকে সক্রিয় ফাইলের উপর ভিত্তি করে কোয়েরি তৈরি করতে দেয়। উদাহরণস্বরূপ, আপনি ব্যাকলিঙ্ক প্যানেল পুনরায় তৈরি করতে `file.hasLink(this.file)` ব্যবহার করতে পারেন।
 
-## Operators
+## অপারেটর
 
-### Arithmetic operators
+### গাণিতিক অপারেটর
 
-Arithmetic operators perform arithmetic on numbers. For example, `radius * (2 * 3.14)`.
+গাণিতিক অপারেটর সংখ্যার উপর গণিত করে। উদাহরণস্বরূপ, `radius * (2 * 3.14)`।
 
-| Operator | Description |
+| অপারেটর | বর্ণনা |
 | -------- | ----------- |
-| `+`      | plus        |
-| `-`      | minus       |
-| `*`      | multiply    |
-| `/`      | divide      |
-| `%`      | modulo      |
-| `( )`    | parenthesis |
+| `+`      | যোগ        |
+| `-`      | বিয়োগ       |
+| `*`      | গুণ    |
+| `/`      | ভাগ      |
+| `%`      | মডুলো      |
+| `( )`    | বন্ধনী |
 
-### Date arithmetic
+### তারিখ গণিত
 
-Dates can be modified by adding and subtracting durations. Duration units accept multiple formats:
+তারিখ পরিবর্তন করা যায় সময়কাল (duration) যোগ ও বিয়োগ করে। সময়কালের এককগুলো একাধিক ফরম্যাট গ্রহণ করে:
 
-| Unit                     | Duration |
+| একক                     | সময়কাল |
 | ------------------------ | -------- |
-| `y`, `year`, `years`     | year     |
-| `M`, `month`, `months`   | month    |
-| `d`, `day`, `days`       | day      |
-| `w`, `week`, `weeks`     | week     |
-| `h`, `hour`, `hours`     | hour     |
-| `m`, `minute`, `minutes` | minute   |
-| `s`, `second`, `seconds` | second   |
+| `y`, `year`, `years`     | বছর     |
+| `M`, `month`, `months`   | মাস    |
+| `d`, `day`, `days`       | দিন     |
+| `w`, `week`, `weeks`     | সপ্তাহ    |
+| `h`, `hour`, `hours`     | ঘণ্টা   |
+| `m`, `minute`, `minutes` | মিনিট  |
+| `s`, `second`, `seconds` | সেকেন্ড   |
 
-To modify or offset Date objects, use the `+` or `-` operator with a duration string. For example, `date + "1M"` adds 1 month to the date, while `date - "2h"` subtracts 2 hours from the date.
+Date অবজেক্ট পরিবর্তন বা অফসেট করতে, একটি সময়কালের স্ট্রিংসহ `+` বা `-` অপারেটর ব্যবহার করুন। উদাহরণস্বরূপ, `date + "1M"` তারিখে ১ মাস যোগ করে, যেখানে `date - "2h"` তারিখ থেকে ২ ঘণ্টা বিয়োগ করে।
 
-The global [[Functions|function]] `today()` can be used to get the current date, and `now()` can be used to get the current date with time.
+গ্লোবাল [[Functions|ফাংশন]] `today()` বর্তমান তারিখ পেতে ব্যবহার করা যায়, এবং `now()` সময়সহ বর্তমান তারিখ পেতে ব্যবহার করা যায়।
 
-- `now() + "1 day"` returns a datetime exactly 24 hours from the time of execution.
-- `file.mtime > now() - "1 week"` returns `true` if the file was modified within the last week.
-- `date("2024-12-01") + "1M" + "4h" + "3m"` returns a Date object representing `2025-01-01 04:03:00`.
-- Subtract two dates to get the millisecond difference between the two, for example, `now() - file.ctime`.
-- To get the date portion of a Date with time, use `datetime.date()`.
-- To format a Date object, use the `format()` function, for example `datetime.format("YYYY-MM-DD")`.
+- `now() + "1 day"` এক্সিকিউশনের সময় থেকে ঠিক ২৪ ঘণ্টা পরের একটি ডেটটাইম ফেরত দেয়।
+- `file.mtime > now() - "1 week"` ফাইলটি গত এক সপ্তাহে পরিবর্তিত হয়ে থাকলে `true` ফেরত দেয়।
+- `date("2024-12-01") + "1M" + "4h" + "3m"` একটি Date অবজেক্ট ফেরত দেয় যা `2025-01-01 04:03:00` প্রতিনিধিত্ব করে।
+- দুটি তারিখ বিয়োগ করলে সেগুলোর মধ্যে মিলিসেকেন্ডের পার্থক্য পাওয়া যায়, উদাহরণস্বরূপ, `now() - file.ctime`।
+- সময়সহ একটি Date-এর তারিখ অংশ পেতে, `datetime.date()` ব্যবহার করুন।
+- একটি Date অবজেক্ট ফরম্যাট করতে, `format()` ফাংশন ব্যবহার করুন, উদাহরণস্বরূপ `datetime.format("YYYY-MM-DD")`।
 
-### Comparison operators
+### তুলনামূলক অপারেটর
 
-Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.
+তুলনামূলক অপারেটর সংখ্যা, বা Date অবজেক্ট তুলনা করতে ব্যবহার করা যায়। সমান ও অসমান শুধু সংখ্যা ও তারিখ নয়, যেকোনো ধরনের মানের সাথে ব্যবহার করা যায়।
 
-| Operator | Description              |
+| অপারেটর | বর্ণনা              |
 | -------- | ------------------------ |
-| `==`     | equals                   |
-| `!=`     | not equal                |
-| `>`      | greater than             |
-| `<`      | less than                |
-| `>=`     | greater than or equal to |
-| `<=`     | less than or equal to    |
+| `==`     | সমান                   |
+| `!=`     | অসমান                |
+| `>`      | বড়             |
+| `<`      | ছোট              |
+| `>=`     | বড় বা সমান |
+| `<=`     | ছোট বা সমান    |
 
-### Boolean operators
+### বুলিয়ান অপারেটর
 
-Boolean operators can be used to combine or invert logical values, resulting in a true or false value.
+বুলিয়ান অপারেটর লজিক্যাল মান একত্রিত বা বিপরীত করতে ব্যবহার করা যায়, যা একটি সত্য বা মিথ্যা মানে পরিণত হয়।
 
-| Operator | Description |
+| অপারেটর | বর্ণনা |
 | -------- | ----------- |
-| `!`      | logical not |
-| `&&`     | logical and |
-| \|\|     | logical or  |
+| `!`      | লজিক্যাল না |
+| `&&`     | লজিক্যাল এবং |
+| \|\|     | লজিক্যাল অথবা  |
 
-## Functions
+## ফাংশন
 
-See the [[Functions|list of functions]] that can be used in formulas and [[Views|filters]].
+ফর্মুলা এবং [[Views|ফিল্টারে]] ব্যবহার করা যায় এমন [[Functions|ফাংশনের তালিকা]] দেখুন।
 
-## Types
+## টাইপ
 
-Bases have a type system which is used by formulas and filters to apply functions to properties.
+বেসেসের একটি টাইপ সিস্টেম রয়েছে যা প্রপার্টিতে ফাংশন প্রয়োগ করতে ফর্মুলা ও ফিল্টার দ্বারা ব্যবহৃত হয়।
 
-### Strings, numbers, and booleans
+### স্ট্রিং, সংখ্যা, এবং বুলিয়ান
 
-Strings, numbers, and booleans are "primitive" values which do not require a function to create.
+স্ট্রিং, সংখ্যা, এবং বুলিয়ান "প্রিমিটিভ" মান যা তৈরি করতে কোনো ফাংশনের প্রয়োজন হয় না।
 
-- Strings are enclosed in single or double quotes, for example `"message"`.
-- Numbers are written as digits, and may optionally be enclosed in parenthesis for clarity. For example, `1` or `(2.5)`.
-- Booleans are written as `true` or `false` without quotes.
+- স্ট্রিং একক বা দ্বৈত কোটেশন চিহ্নের মধ্যে থাকে, উদাহরণস্বরূপ `"message"`।
+- সংখ্যা ডিজিট আকারে লেখা হয়, এবং স্পষ্টতার জন্য ঐচ্ছিকভাবে বন্ধনীর মধ্যে থাকতে পারে। উদাহরণস্বরূপ, `1` বা `(2.5)`।
+- বুলিয়ান কোটেশন ছাড়া `true` বা `false` হিসেবে লেখা হয়।
 
-### Dates and durations
+### তারিখ এবং সময়কাল
 
-Dates represent a specific date, or a date and time depending on the function used to create them, or that type that has been assigned to the [[Properties|property]].
+Date তৈরি করতে ব্যবহৃত ফাংশনের উপর নির্ভর করে, অথবা [[Properties|প্রপার্টিতে]] বরাদ্দ করা টাইপের উপর নির্ভর করে, একটি নির্দিষ্ট তারিখ, বা তারিখ ও সময় উপস্থাপন করে।
 
-- To construct a date, use the `date` function, for example `date("2025-01-01 12:00:00")`
-- To modify a date, add or remove a duration, for example `now() + "1 hour"` or `today() + "7d"`
-- Compare dates using comparison operators (e.g. `>` or `<`) and arithmetic operators (for example, `(now() + "1d") - now()` returns `86400000` milliseconds.)
-- To extract portions of a date, use the available fields (`now().hour`), or a convenience function (`now.time()`).
-- Many other [[Functions|fields and functions]] are available on date objects.
+- একটি তারিখ তৈরি করতে, `date` ফাংশন ব্যবহার করুন, উদাহরণস্বরূপ `date("2025-01-01 12:00:00")`
+- একটি তারিখ পরিবর্তন করতে, একটি সময়কাল যোগ বা বাদ দিন, উদাহরণস্বরূপ `now() + "1 hour"` বা `today() + "7d"`
+- তুলনামূলক অপারেটর (যেমন `>` বা `<`) এবং গাণিতিক অপারেটর ব্যবহার করে তারিখ তুলনা করুন (উদাহরণস্বরূপ, `(now() + "1d") - now()` `86400000` মিলিসেকেন্ড ফেরত দেয়।)
+- একটি তারিখের অংশ বের করতে, উপলব্ধ ফিল্ড (`now().hour`), বা একটি সুবিধাজনক ফাংশন (`now.time()`) ব্যবহার করুন।
+- Date অবজেক্টে আরও অনেক [[Functions|ফিল্ড ও ফাংশন]] উপলব্ধ।
 
-### Objects and lists
+### অবজেক্ট ও লিস্ট
 
-- Turn a single element into a list using the `list()` function. This is especially helpful for properties which may contain a mixture of lists or single values.
-- Access list elements using square brackets, and a 0-based index. For example, `property[0]` returns the first element from the list.
-- Access object elements using square brackets and the element name or dot notation. For example, `property.subprop` or `property["subprop"]`.
+- `list()` ফাংশন ব্যবহার করে একটি একক উপাদানকে লিস্টে রূপান্তর করুন। এটি এমন প্রপার্টির জন্য বিশেষভাবে সহায়ক যেগুলোতে লিস্ট বা একক মানের মিশ্রণ থাকতে পারে।
+- স্কয়ার ব্র্যাকেট এবং একটি 0-ইনডেক্স ব্যবহার করে লিস্টের উপাদান অ্যাক্সেস করুন। উদাহরণস্বরূপ, `property[0]` লিস্টের প্রথম উপাদান ফেরত দেয়।
+- স্কয়ার ব্র্যাকেট এবং উপাদানের নাম, অথবা ডট নোটেশন ব্যবহার করে অবজেক্টের উপাদান অ্যাক্সেস করুন। উদাহরণস্বরূপ, `property.subprop` বা `property["subprop"]`।
 
-### Files and links
+### ফাইল ও লিঙ্ক
 
-[[Link notes|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
+[[Properties|ফ্রন্টম্যাটার প্রপার্টিতে]] থাকা [[Link notes|উইকিলিঙ্ক]] স্বয়ংক্রিয়ভাবে Link অবজেক্ট হিসেবে চিহ্নিত হয়। লিঙ্ক [[Views|ভিউতে]] ক্লিকযোগ্য লিঙ্ক হিসেবে রেন্ডার হবে।
 
-- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")` or `link("https://obsidian.md")`.
-- You can create a link from any string, for example, `link(file.ctime.date().toString())`.
-- To set the display text, pass in an optional string or icon as a second parameter, for example `link("filename", "display")` or `link("filename", icon("plus"))`.
+- একটি লিঙ্ক তৈরি করতে, গ্লোবাল `link` [[Functions|ফাংশন]] ব্যবহার করুন, উদাহরণস্বরূপ `link("filename")` বা `link("https://obsidian.md")`।
+- আপনি যেকোনো স্ট্রিং থেকে একটি লিঙ্ক তৈরি করতে পারেন, উদাহরণস্বরূপ, `link(file.ctime.date().toString())`।
+- প্রদর্শনের টেক্সট নির্ধারণ করতে, দ্বিতীয় প্যারামিটার হিসেবে একটি ঐচ্ছিক স্ট্রিং বা আইকন পাস করুন, উদাহরণস্বরূপ `link("filename", "display")` বা `link("filename", icon("plus"))`।
 
-A File object can be turned into a link using `file.asLink()` with an optional display text.
+`file.asLink()` ব্যবহার করে একটি File অবজেক্টকে একটি ঐচ্ছিক প্রদর্শনের টেক্সটসহ লিঙ্কে রূপান্তর করা যায়।
 
-Links can be compared with `==` and `!=`. They are equivalent as long as they point to the same file, or if the file does not exist when looked up, their link text must be identical.
+লিঙ্ক `==` এবং `!=` দিয়ে তুলনা করা যায়। এগুলো সমতুল্য যতক্ষণ পর্যন্ত এগুলো একই ফাইল নির্দেশ করে, অথবা লুকআপের সময় ফাইলটি বিদ্যমান না থাকলে, এদের লিঙ্ক টেক্সট অবশ্যই অভিন্ন হতে হবে।
 
-Links can be compared to files such as `file` or `this`. They will equate if the link resolves to the file. For example, `author == this`.
+লিঙ্ক `file` বা `this`-এর মতো ফাইলের সাথে তুলনা করা যায়। লিঙ্কটি ফাইলে রেজলভ হলে এগুলো সমতুল্য হবে। উদাহরণস্বরূপ, `author == this`।
 
-Links can also be checked in list contains, for example, `authors.contains(this)`.
+লিস্ট কনটেইনসেও লিঙ্ক যাচাই করা যায়, উদাহরণস্বরূপ, `authors.contains(this)`।

@@ -1,140 +1,139 @@
 ---
-localized: null
 permalink: sync/messages
 publish: true
 mobile: true
-description: This page explains the Obsidian Sync status icons and provides details about the sync activity log.
+description: এই পৃষ্ঠায় Obsidian Sync স্ট্যাটাস আইকন ব্যাখ্যা করা হয়েছে এবং সিঙ্ক অ্যাক্টিভিটি লগ সম্পর্কে বিস্তারিত প্রদান করা হয়েছে।
 ---
 
-Obsidian Sync provides several elements to indicate sync status, mainly the [[#Sync status icon]] and [[#Sync activity log]]. Details about version control in Obsidian Sync are covered in the [[Version history]] page.
+Obsidian Sync সিঙ্ক স্ট্যাটাস নির্দেশ করতে বেশ কয়েকটি উপাদান প্রদান করে, প্রধানত [[#Sync status icon]] এবং [[#Sync activity log]]। Obsidian Sync-এ ভার্সন কন্ট্রোল সম্পর্কে বিস্তারিত [[Version history]] পৃষ্ঠায় আলোচনা করা হয়েছে।
 
-## Sync status icon
+## সিঙ্ক স্ট্যাটাস আইকন
 
-The Sync status icon is located in the [[Status bar]] on the desktop version and in the [[Sidebar#Open hidden sidebars|right sidebar]] on mobile and tablet. The icon reflects various sync states:
+Sync স্ট্যাটাস আইকনটি ডেস্কটপ ভার্সনে [[Status bar]]-এ এবং মোবাইল ও ট্যাবলেটে [[Sidebar#Open hidden sidebars|ডানদিকের সাইডবারে]] অবস্থিত। আইকনটি বিভিন্ন সিঙ্ক অবস্থা প্রতিফলিত করে:
 
-- ![[obsidian-icon-sync-synced.svg#icon]] **Synced**: Obsidian Sync has fully synced your files. This icon is typically green.
-- ![[obsidian-icon-sync-syncing.svg#icon]] **Syncing**: Obsidian is currently updating the remote vault. This icon is usually purple.
-- ![[obsidian-icon-sync-paused.svg#icon]] **Paused**: Syncing has been paused, but Obsidian is still connected to the remote vault. The icon is typically purple.
-- ![[obsidian-icon-sync-disconnected.svg#icon]] **Disconnected**: The Sync core plugin is active, but the [[Local and remote vaults|local vault]] is not connected to a remote vault. This icon is typically red.
+- ![[obsidian-icon-sync-synced.svg#icon]] **Synced**: Obsidian Sync আপনার ফাইলগুলো সম্পূর্ণরূপে সিঙ্ক করেছে। এই আইকনটি সাধারণত সবুজ হয়।
+- ![[obsidian-icon-sync-syncing.svg#icon]] **Syncing**: Obsidian বর্তমানে রিমোট ভল্ট আপডেট করছে। এই আইকনটি সাধারণত বেগুনি হয়।
+- ![[obsidian-icon-sync-paused.svg#icon]] **Paused**: সিঙ্কিং বিরতি দেওয়া হয়েছে, তবে Obsidian এখনও রিমোট ভল্টের সাথে সংযুক্ত। আইকনটি সাধারণত বেগুনি হয়।
+- ![[obsidian-icon-sync-disconnected.svg#icon]] **Disconnected**: Sync কোর প্লাগইনটি সক্রিয়, তবে [[Local and remote vaults|লোকাল ভল্ট]] কোনো রিমোট ভল্টের সাথে সংযুক্ত নয়। এই আইকনটি সাধারণত লাল হয়।
 
-Clicking or tapping the icon opens a context menu with the following options:
-- ![[obsidian-icon-sync-paused.svg#icon]] Pause (or ![[lucide-circle-play.svg#icon]] Resume if paused)
-- ![[lucide-history.svg#icon]] [[Version history]] (Greyed out if not viewing a note)
-- ![[lucide-align-left.svg#icon]] Open [[#Sync activity log|Sync log]]
-- ![[lucide-trash-2.svg#icon]] [[Version history#Restore a deleted file|Deleted files]]
-- ![[lucide-cog.svg#icon]] [[Sync settings and selective syncing|Sync settings]]
+আইকনে ক্লিক বা ট্যাপ করলে নিম্নলিখিত অপশন সহ একটি কনটেক্সট মেনু খোলে:
+- ![[obsidian-icon-sync-paused.svg#icon]] Pause (অথবা বিরতি দেওয়া থাকলে ![[lucide-circle-play.svg#icon]] Resume)
+- ![[lucide-history.svg#icon]] [[Version history]] (কোনো নোট দেখা না হলে ধূসর হয়ে যায়)
+- ![[lucide-align-left.svg#icon]] [[#Sync activity log|Sync log]] খুলুন
+- ![[lucide-trash-2.svg#icon]] [[Version history#Restore a deleted file|মুছে ফেলা ফাইল]]
+- ![[lucide-cog.svg#icon]] [[Sync settings and selective syncing|Sync সেটিংস]]
 
-## Sync activity log
+## সিঙ্ক অ্যাক্টিভিটি লগ
 
-Obsidian Sync includes a detailed sync log that tracks all interactions between your local files and the remote vault. The log shows uploads, downloads, deletions, and any issues like merge conflicts or connectivity problems.
+Obsidian Sync-এ একটি বিস্তারিত সিঙ্ক লগ অন্তর্ভুক্ত রয়েছে যা আপনার লোকাল ফাইল এবং রিমোট ভল্টের মধ্যে সব ইন্টারঅ্যাকশন ট্র্যাক করে। লগটি আপলোড, ডাউনলোড, ডিলিশন, এবং মার্জ কনফ্লিক্ট বা সংযোগ সমস্যার মতো যেকোনো সমস্যা দেখায়।
 
-**Access the activity log:**
-- Click the sync status icon in the status bar
-- Go to **[[Settings]] → Sync → Activity log**
-- Use **Command palette → Sync: Open activity log**
+**অ্যাক্টিভিটি লগ অ্যাক্সেস করুন:**
+- স্ট্যাটাস বারে সিঙ্ক স্ট্যাটাস আইকনে ক্লিক করুন
+- **[[Settings]] → Sync → Activity log**-এ যান
+- **কমান্ড প্যালেট → Sync: Open activity log** ব্যবহার করুন
 
-The log provides timestamps and details for each sync operation, making it useful for troubleshooting sync issues.
+লগটি প্রতিটি সিঙ্ক অপারেশনের জন্য টাইমস্ট্যাম্প এবং বিস্তারিত প্রদান করে, যা সিঙ্ক সমস্যা সমাধানের জন্য উপযোগী।
 
-> [!warning] The Sync log does not persist after Obsidian is closed. If you encounter an issue, ensure you copy the log _before_ closing the app.
+> [!warning] Obsidian বন্ধ হওয়ার পর Sync লগ টিকে থাকে না। আপনি যদি কোনো সমস্যার সম্মুখীন হন, তাহলে অ্যাপ বন্ধ করার _আগে_ লগটি কপি করে নিন।
 
-The log categorizes messages into the following types:
+লগটি বার্তাগুলোকে নিম্নলিখিত প্রকারে শ্রেণীবদ্ধ করে:
 
 - [[#General messages]]
 - [[#Error messages]]
 - [[#Skipped messages]]
 - [[#Account messages]]
 
-You can filter the Sync log by **All**, **Errors**, **Skipped**, and **Merge Conflicts**. Additionally, you can search the Sync log using the search box in the Sync window.
+আপনি Sync লগ **All**, **Errors**, **Skipped**, এবং **Merge Conflicts** দিয়ে ফিল্টার করতে পারেন। এছাড়াও, আপনি Sync উইন্ডোতে সার্চ বক্স ব্যবহার করে Sync লগ অনুসন্ধান করতে পারেন।
 
-> [!summary] We have included some of the likely messages you have come across below. The list is not exhaustive. If you are experiencing an issue and have a sync log message you are not sure about, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> [!summary] আপনার সম্মুখীন হতে পারে এমন কিছু সম্ভাব্য বার্তা নিচে অন্তর্ভুক্ত করা হয়েছে। তালিকাটি সম্পূর্ণ নয়। আপনি যদি কোনো সমস্যার সম্মুখীন হন এবং আপনি নিশ্চিত নন এমন একটি সিঙ্ক লগ বার্তা থাকে, তাহলে [[Help and support#Contact Obsidian support|Obsidian সাপোর্টের সাথে যোগাযোগ করুন]]।
 
-### General messages
+### সাধারণ বার্তা
 
-These are common day-to-day messages you might encounter. 
+এগুলো সাধারণ দৈনন্দিন বার্তা যা আপনি সম্মুখীন হতে পারেন।
 
 **Connecting to server**  
-Obsidian is trying to connect to your remote vault's [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Sync server]].
+Obsidian আপনার রিমোট ভল্টের [[Obsidian Sync/Security and privacy#Where can I find my current Sync server and where is it hosted?|Sync সার্ভারে]] সংযুক্ত হওয়ার চেষ্টা করছে।
 
 **Connected to server. Detecting changes...**  
-Obsidian has established a connection and is comparing the local vault with the remote vault to determine if changes are needed.
+Obsidian একটি সংযোগ স্থাপন করেছে এবং পরিবর্তন প্রয়োজন কিনা তা নির্ধারণ করতে লোকাল ভল্টকে রিমোট ভল্টের সাথে তুলনা করছে।
 
-> [!info] This message can also indicate other potential Sync issues. If you see it repeatedly and believe there are still items to sync, [[Help and support#Contact Obsidian support|contact Obsidian support]].
+> [!info] এই বার্তাটি অন্যান্য সম্ভাব্য Sync সমস্যাও নির্দেশ করতে পারে। আপনি যদি এটি বারবার দেখেন এবং মনে করেন এখনও সিঙ্ক করার জন্য আইটেম রয়েছে, তাহলে [[Help and support#Contact Obsidian support|Obsidian সাপোর্টের সাথে যোগাযোগ করুন]]।
 
 **Fully synced**  
-- The local and remote vaults are fully synchronized.
+- লোকাল এবং রিমোট ভল্ট সম্পূর্ণরূপে সিঙ্ক্রোনাইজড।
 
 **Merging conflicted file**  
-A conflict was detected during syncing, and the file was merged rather than overwritten. See [[Troubleshoot Obsidian Sync#Conflict resolution|conflict resolution]] for more information. If the merge is unwanted, you can restore previous versions via [[Version history]] or [[File recovery]].
+সিঙ্কিংয়ের সময় একটি কনফ্লিক্ট শনাক্ত করা হয়েছে, এবং ফাইলটি ওভাররাইট না করে মার্জ করা হয়েছে। আরও তথ্যের জন্য দেখুন [[Troubleshoot Obsidian Sync#Conflict resolution|কনফ্লিক্ট রেজোলিউশন]]। মার্জটি অবাঞ্ছিত হলে, আপনি [[Version history]] বা [[File recovery]]-এর মাধ্যমে আগের ভার্সন পুনরুদ্ধার করতে পারেন।
 
 **Rejected server change**  
-The changes on the remote vault are older than the version on your local device, so the local version is kept and the remote change is ignored. 
+রিমোট ভল্টের পরিবর্তনগুলো আপনার লোকাল ডিভাইসের ভার্সনের চেয়ে পুরনো, তাই লোকাল ভার্সন রাখা হয়েছে এবং রিমোট পরিবর্তন উপেক্ষা করা হয়েছে।
 
-### Error messages
+### এরর বার্তা
 
-These are messages detailing an error in syncing a file.
+এগুলো একটি ফাইল সিঙ্ক করার সময় একটি এরর বিস্তারিত করে এমন বার্তা।
 
 **Out of memory**  
-This issue typically occurs on mobile devices when there isn't enough storage space or memory available to download a file. It's most common with large files, such as videos.
+এই সমস্যাটি সাধারণত মোবাইল ডিভাইসে ঘটে যখন একটি ফাইল ডাউনলোড করার জন্য পর্যাপ্ত স্টোরেজ স্থান বা মেমরি উপলব্ধ থাকে না। এটি ভিডিওর মতো বড় ফাইলের ক্ষেত্রে সবচেয়ে সাধারণ।
 
-### Skipped messages
+### স্কিপড বার্তা
 
-These are messages detailing what was skipped, and potentially why. 
+এগুলো কী স্কিপ করা হয়েছে, এবং সম্ভবত কেন তা বিস্তারিত করে এমন বার্তা।
 
 **Unable to download file with illegal name**
 
-The file name uses a [special character or naming convention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) that the receiving operating system cannot store. Rename the file on its source device, then let Sync upload the renamed file again.
+ফাইলের নামে একটি [বিশেষ অক্ষর বা নামকরণ কনভেনশন](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) ব্যবহার করা হয়েছে যা প্রাপক অপারেটিং সিস্টেম সংরক্ষণ করতে পারে না। ফাইলটি এর সোর্স ডিভাইসে রিনেম করুন, তারপর Sync-কে রিনেম করা ফাইলটি আবার আপলোড করতে দিন।
 
-For vaults synced across different operating systems, avoid the following in file and folder names:
+বিভিন্ন অপারেটিং সিস্টেম জুড়ে সিঙ্ক করা ভল্টের জন্য, ফাইল এবং ফোল্ডারের নামে নিম্নলিখিতগুলো এড়িয়ে চলুন:
 
-- Characters commonly reserved by file systems, such as `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, and `|`
-- A space or period at the end of the name
-- Windows reserved device names, such as `CON`, `PRN`, `AUX`, `NUL`, `COM1` through `COM9`, or `LPT1` through `LPT9`
-- Characters Obsidian uses for links, such as `#`, `^`, `[`, and `]`, if you want link-friendly note names
-- Multiple periods `.` in a file name, or emoji, both of which some Android devices may reject
+- সাধারণত ফাইল সিস্টেম দ্বারা সংরক্ষিত অক্ষর, যেমন `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>`, এবং `|`
+- নামের শেষে একটি স্পেস বা পিরিয়ড
+- Windows সংরক্ষিত ডিভাইসের নাম, যেমন `CON`, `PRN`, `AUX`, `NUL`, `COM1` থেকে `COM9`, বা `LPT1` থেকে `LPT9`
+- Obsidian লিঙ্কের জন্য ব্যবহৃত অক্ষর, যেমন `#`, `^`, `[`, এবং `]`, যদি আপনি লিঙ্ক-বান্ধব নোটের নাম চান
+- একটি ফাইলের নামে একাধিক পিরিয়ড `.`, অথবা ইমোজি, যা কিছু Android ডিভাইস প্রত্যাখ্যান করতে পারে
 
-When in doubt, use letters, numbers, regular spaces inside the name, hyphens `-`, underscores `_`, and one period before the file extension.
+সন্দেহ থাকলে, নামের ভেতরে অক্ষর, সংখ্যা, সাধারণ স্পেস, হাইফেন `-`, আন্ডারস্কোর `_`, এবং ফাইল এক্সটেনশনের আগে একটি পিরিয়ড ব্যবহার করুন।
 
-### Account messages
+### অ্যাকাউন্ট বার্তা
 
-These are messages related to a change in your subscription or account. 
+এগুলো আপনার সাবস্ক্রিপশন বা অ্যাকাউন্টে পরিবর্তন সম্পর্কিত বার্তা।
 
 **Vault limit exceeded**  
-Your account has exceeded the [[Frequently asked questions#How large can each remote vault be|maximum storage size]]. Attachments and version history contribute to this size. Even if your vault seems smaller than the limit, older versions and files can push it over.
+আপনার অ্যাকাউন্ট [[Frequently asked questions#How large can each remote vault be|সর্বোচ্চ স্টোরেজ সাইজ]] অতিক্রম করেছে। অ্যাটাচমেন্ট এবং ভার্সন ইতিহাস এই সাইজে অবদান রাখে। আপনার ভল্ট সীমার চেয়ে ছোট মনে হলেও, পুরনো ভার্সন এবং ফাইল এটিকে সীমার উপরে ঠেলে দিতে পারে।
 
-To reduce vault size:
-1. Open **[[Settings]] → Sync**.
-2. Use the options under **Vault size over limit** to remove large files.
+ভল্টের সাইজ কমাতে:
+1. **[[Settings]] → Sync** খুলুন।
+2. বড় ফাইল সরাতে **Vault size over limit**-এর অধীনে অপশনগুলো ব্যবহার করুন।
 
 **Vault not found**  
 `{"res":"err","msg":"Vault not found."}`
 
-This error may occur in these cases:
+এই এরর নিম্নলিখিত ক্ষেত্রে ঘটতে পারে:
 
-1. The vault was deleted from another device.
-2. The sync subscription was inactive for over 30 days, causing the remote vault to be removed.
-3. The subscription was canceled or refunded, resulting in the remote vault's deletion.
+1. ভল্টটি অন্য একটি ডিভাইস থেকে মুছে ফেলা হয়েছিল।
+2. সিঙ্ক সাবস্ক্রিপশন ৩০ দিনের বেশি সময় ধরে নিষ্ক্রিয় ছিল, যার ফলে রিমোট ভল্ট সরিয়ে ফেলা হয়েছে।
+3. সাবস্ক্রিপশন বাতিল বা রিফান্ড করা হয়েছিল, যার ফলে রিমোট ভল্ট মুছে ফেলা হয়েছে।
  
-In these cases, you'll need to [[Set up Obsidian Sync#Disconnect from a remote vault|disconnect from the remote vault]] and [[Set up Obsidian Sync#Create a new remote vault|create a new remote vault]], ensuring your local data is preserved.
+এই ক্ষেত্রে, আপনার লোকাল ডেটা সংরক্ষিত আছে তা নিশ্চিত করে আপনাকে [[Set up Obsidian Sync#Disconnect from a remote vault|রিমোট ভল্ট থেকে সংযোগ বিচ্ছিন্ন]] করতে এবং [[Set up Obsidian Sync#Create a new remote vault|একটি নতুন রিমোট ভল্ট তৈরি]] করতে হবে।
 
 **Failed to authenticate: Your subscription to Obsidian Sync has expired**  
-Your account is now in a fully expired status as we were unable to process the payment on file. 
+আমরা ফাইলে থাকা পেমেন্ট প্রক্রিয়া করতে অক্ষম হওয়ায় আপনার অ্যাকাউন্ট এখন সম্পূর্ণরূপে মেয়াদ শেষ অবস্থায় আছে।
 
-To continue using Obsidian Sync, you will need to resubscribe within [your account](https://obsidian.md/account/sync).
+Obsidian Sync ব্যবহার চালিয়ে যেতে, আপনাকে [your account](https://obsidian.md/account/sync)-এ পুনরায় সাবস্ক্রাইব করতে হবে।
 
 **Failed to authenticate: Not logged in**
 
-Obsidian Sync has detected that you are not currently logged in. You will need to log back in on the app in the [[Settings#General#Account|Account]] section of **[[Settings]]**.
+Obsidian Sync শনাক্ত করেছে যে আপনি বর্তমানে লগইন করা নেই। আপনাকে **[[Settings]]**-এর [[Settings#General#Account|Account]] সেকশনে অ্যাপে আবার লগ ইন করতে হবে।
 
-In some cases, a community plugin can also prevent Obsidian Sync from being able to confirm your account's login status. Please enter **[[Plugin security#Restricted mode|Restricted mode]]** and try again. 
+কিছু ক্ষেত্রে, একটি কমিউনিটি প্লাগইনও Obsidian Sync-কে আপনার অ্যাকাউন্টের লগইন স্ট্যাটাস নিশ্চিত করা থেকে বিরত রাখতে পারে। অনুগ্রহ করে **[[Plugin security#Restricted mode|Restricted mode]]**-এ প্রবেশ করুন এবং আবার চেষ্টা করুন।
 
-### Network messages
+### নেটওয়ার্ক বার্তা
 
 **Disconnected from server**
 `Unable to connect to server`
 
-Obsidian Sync has disconnected from the Sync server for an unknown reason. Sync will attempt to reconnect to the server periodically.
+Obsidian Sync একটি অজানা কারণে Sync সার্ভার থেকে সংযোগ বিচ্ছিন্ন হয়েছে। Sync পর্যায়ক্রমে সার্ভারে পুনরায় সংযুক্ত হওয়ার চেষ্টা করবে।
 
-On iOS, this message displays as the following error:
+iOS-এ, এই বার্তাটি নিম্নলিখিত এরর হিসেবে প্রদর্শিত হয়:
 `Null is not an object (evaluating 'this.socket.send')`
 
-It means exactly the same as the `Unable to connect to server` message, and is not in any way indication that something else is wrong. 
+এটি ঠিক `Unable to connect to server` বার্তার মতোই একই অর্থ বহন করে, এবং এটি কোনোভাবেই অন্য কিছু ভুল আছে এমন ইঙ্গিত নয়।

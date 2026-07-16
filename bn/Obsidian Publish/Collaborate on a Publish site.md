@@ -1,51 +1,50 @@
 ---
-localized: null
 permalink: publish/collaborate
 publish: true
 mobile: true
-description: Learn how to collaborate with other Obsidian users on your Obsidian Publish site.
+description: অন্যান্য Obsidian ব্যবহারকারীদের সাথে কীভাবে আপনার Obsidian Publish সাইটে সহযোগিতা করবেন তা জানুন।
 ---
-Learn how to collaborate on your [[Introduction to Obsidian Publish|Obsidian Publish]] site with other Obsidian users. By adding your friends and colleagues as collaborators, they can publish changes to your site.
+অন্যান্য Obsidian ব্যবহারকারীদের সাথে আপনার [[Introduction to Obsidian Publish|Obsidian Publish]] সাইটে কীভাবে সহযোগিতা করবেন তা জানুন। আপনার বন্ধু ও সহকর্মীদের সহযোগী হিসেবে যোগ করলে, তারা আপনার সাইটে পরিবর্তন প্রকাশ করতে পারবে।
 
-Only the site owner needs an active subscription for Obsidian Publish. Collaborators only need an [Obsidian account](https://obsidian.md/account).
+শুধুমাত্র সাইটের মালিকের Obsidian Publish-এর একটি সক্রিয় সাবস্ক্রিপশন থাকতে হবে। সহযোগীদের কেবল একটি [Obsidian account](https://obsidian.md/account) থাকলেই চলবে।
 
-> [!warning] Before you publish changes to a shared site, make sure to [[#Sync changes between collaborators|sync changes between collaborators]]. Otherwise, you risk overwriting changes from other collaborators.
+> [!warning] একটি শেয়ার করা সাইটে পরিবর্তন প্রকাশ করার আগে, নিশ্চিত করুন যে আপনি [[#Sync changes between collaborators|সহযোগীদের মধ্যে পরিবর্তনগুলো সিঙ্ক করেছেন]]। অন্যথায়, আপনি অন্যান্য সহযোগীদের পরিবর্তন মুছে ফেলার ঝুঁকিতে পড়বেন।
 
-## Add a collaborator to a site
+## একটি সাইটে সহযোগী যোগ করুন
 
-1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Next to **Site collaboration**, select **Manage**.
-4. In **Invite user**, enter the email of the collaborator.
-5. Select **Add**.
+1. [[Ribbon|রিবনে]], **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন অথবা [[Command palette|কমান্ড প্যালেট]] খুলে **Publish: Publish changes...** টাইপ করুন
+2. **Publish changes** ডায়ালগে, **Change site options** ![[lucide-cog.svg#icon]]-এ ক্লিক করুন।
+3. **Site collaboration**-এর পাশে, **Manage** নির্বাচন করুন।
+4. **Invite user**-এ, সহযোগীর ইমেইল লিখুন।
+5. **Add** নির্বাচন করুন।
 
-## Remove a collaborator from a site
+## একটি সাইট থেকে সহযোগী সরান
 
-1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. Next to **Site collaboration**, select **Manage**.
-4. Next to the collaborator you want to remove, select **Remove user** ![[lucide-x.svg#icon]].
+1. [[Ribbon|রিবনে]], **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন অথবা [[Command palette|কমান্ড প্যালেট]] খুলে **Publish: Publish changes...** টাইপ করুন
+2. **Publish changes** ডায়ালগে, **Change site options** ![[lucide-cog.svg#icon]]-এ ক্লিক করুন।
+3. **Site collaboration**-এর পাশে, **Manage** নির্বাচন করুন।
+4. আপনি যে সহযোগীকে সরাতে চান তার পাশে, **Remove user** ![[lucide-x.svg#icon]] নির্বাচন করুন।
 
-## Sync changes between collaborators
+## সহযোগীদের মধ্যে পরিবর্তন সিঙ্ক করুন
 
-Obsidian Publish doesn't sync published changes between local vaults automatically. Instead, collaborators need to manually sync changes from other collaborators.
+Obsidian Publish স্বয়ংক্রিয়ভাবে স্থানীয় ভল্টগুলোর মধ্যে প্রকাশিত পরিবর্তন সিঙ্ক করে না। এর পরিবর্তে, সহযোগীদের অন্য সহযোগীদের পরিবর্তন ম্যানুয়ালি সিঙ্ক করতে হয়।
 
-To update a local note with changes from the live site:
+লাইভ সাইটের পরিবর্তন দিয়ে একটি স্থানীয় নোট আপডেট করতে:
 
-1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
-2. Right-click or long-press the change you want to sync, and then select **Use live version**. **This will overwrite the note in your local vault.**
+1. [[Ribbon|রিবনে]], **Publish changes** ![[lucide-send.svg#icon]] নির্বাচন করুন অথবা [[Command palette|কমান্ড প্যালেট]] খুলে **Publish: Publish changes...** টাইপ করুন
+2. আপনি যে পরিবর্তনটি সিঙ্ক করতে চান তাতে ডান-ক্লিক করুন বা দীর্ঘ চাপ দিন, তারপর **Use live version** নির্বাচন করুন। **এটি আপনার স্থানীয় ভল্টের নোটটি ওভাররাইট করবে।**
 
-> [!tip] We recommend that you use another tool to sync changes between vaults, such as [[Introduction to Obsidian Sync|Obsidian Sync]] or [git](https://git-scm.com/).
+> [!tip] আমরা সুপারিশ করি যে ভল্টগুলোর মধ্যে পরিবর্তন সিঙ্ক করতে আপনি অন্য একটি টুল ব্যবহার করুন, যেমন [[Introduction to Obsidian Sync|Obsidian Sync]] বা [git](https://git-scm.com/)।
 
-## Permissions
+## অনুমতি
 
-The following table lists the available site permissions for owners and collaborators:
+নিচের টেবিলে মালিক ও সহযোগীদের জন্য উপলব্ধ সাইট অনুমতিগুলোর তালিকা দেওয়া হলো:
 
-| Action                             | Collaborator | Owner |
+| কাজ                                 | সহযোগী       | মালিক |
 |------------------------------------|:------------:|:-----:|
-| Publish new pages                  | ✓            | ✓     |
-| Publish changes to published pages | ✓            | ✓     |
-| Unpublish pages                    | ✓            | ✓     |
-| Configure site options             |              | ✓     |
-| Manage permissions                 |              | ✓     |
+| নতুন পৃষ্ঠা প্রকাশ করা                  | ✓            | ✓     |
+| প্রকাশিত পৃষ্ঠায় পরিবর্তন প্রকাশ করা | ✓            | ✓     |
+| পৃষ্ঠা অপ্রকাশিত করা                    | ✓            | ✓     |
+| সাইট অপশন কনফিগার করা             |              | ✓     |
+| অনুমতি পরিচালনা করা                 |              | ✓     |
 

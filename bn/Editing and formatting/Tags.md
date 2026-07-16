@@ -1,14 +1,13 @@
 ---
-localized: null
 permalink: tags
 ---
-Tags are keywords or topics that help you quickly find the notes you want.
+ট্যাগ হলো কিওয়ার্ড বা বিষয়, যা আপনাকে প্রয়োজনীয় নোট দ্রুত খুঁজে পেতে সাহায্য করে।
 
-## Add a tag to a note
+## একটি নোটে ট্যাগ যোগ করা
 
-To create a tag, enter a hash symbol (`#`) in the editor, followed by a keyword. For example, `#meeting`.
+একটি ট্যাগ তৈরি করতে, এডিটরে একটি হ্যাশ চিহ্ন (`#`) লিখুন, তারপর একটি কিওয়ার্ড দিন। উদাহরণস্বরূপ, `#meeting`।
 
-You can also add tags using the `tags` [[Properties|property]]. Tags in YAML should always be formatted as a list:
+আপনি `tags` [[Properties|প্রপার্টি]] ব্যবহার করেও ট্যাগ যোগ করতে পারেন। YAML-এ ট্যাগ সবসময় একটি তালিকা হিসেবে ফরম্যাট করা উচিত:
 
 ```yaml
 ---
@@ -18,44 +17,44 @@ tags:
 ---
 ```
 
-## Find notes using tags
+## ট্যাগ ব্যবহার করে নোট খুঁজে পাওয়া
 
-To find notes using the [[Search]] plugin, use the `tag` [[Search#Search operators|search operator]] in your search term, for example `tag:#meeting`.
+[[Search|অনুসন্ধান]] প্লাগইন ব্যবহার করে নোট খুঁজে পেতে, আপনার অনুসন্ধান শব্দে `tag` [[Search#Search operators|অনুসন্ধান অপারেটর]] ব্যবহার করুন, উদাহরণস্বরূপ `tag:#meeting`।
 
-You can also search for tags by clicking on them in your notes.
+আপনি আপনার নোটে ট্যাগে ক্লিক করেও ট্যাগ খুঁজতে পারেন।
 
-To find notes using the [[Tags view|Tags view]] plugin, select **Tags: Show tags** in the [[Command palette]], and then select the tag you want to search for.
+[[Tags view|ট্যাগ ভিউ]] প্লাগইন ব্যবহার করে নোট খুঁজে পেতে, [[Command palette|কমান্ড প্যালেটে]] **Tags: Show tags** নির্বাচন করুন, এবং তারপর আপনি যে ট্যাগটি খুঁজতে চান সেটি নির্বাচন করুন।
 
-## Nested tags
+## নেস্টেড ট্যাগ
 
-Nested tags define tag hierarchies that make it easier to find and filter related tags.
+নেস্টেড ট্যাগ ট্যাগ হায়ারার্কি নির্ধারণ করে, যা সম্পর্কিত ট্যাগ খুঁজে পাওয়া এবং ফিল্টার করা সহজ করে তোলে।
 
-Create nested tags by using forward slashes (`/`) in the tag name, for example `#inbox/to-read` and `#inbox/processing`.
+ট্যাগের নামে ফরওয়ার্ড স্ল্যাশ (`/`) ব্যবহার করে নেস্টেড ট্যাগ তৈরি করুন, উদাহরণস্বরূপ `#inbox/to-read` এবং `#inbox/processing`।
 
-- In [[Search]], `tag:inbox` will match `#inbox` as well as all nested tags such as `#inbox/to-read`.  
-- In the [[Tags view]], nested tags are shown as belonging to their parent tag.  
-- In [[Introduction to Bases|Bases]], nested tags are recognized by the [[Functions#hasTag|`hasTag`]] function, so `file.hasTag("a")` will match both `#a` and `#a/b`.  
+- [[Search|অনুসন্ধানে]], `tag:inbox` `#inbox`-এর পাশাপাশি `#inbox/to-read`-এর মতো সব নেস্টেড ট্যাগের সাথেও মিলবে।  
+- [[Tags view|ট্যাগ ভিউতে]], নেস্টেড ট্যাগগুলোকে তাদের প্যারেন্ট ট্যাগের অন্তর্গত হিসেবে দেখানো হয়।  
+- [[Introduction to Bases|বেসেসে]], নেস্টেড ট্যাগ [[Functions#hasTag|`hasTag`]] ফাংশন দ্বারা শনাক্ত করা হয়, তাই `file.hasTag("a")` `#a` এবং `#a/b` উভয়ের সাথেই মিলবে।  
 
-## Tag format
+## ট্যাগের ফরম্যাট
 
-You can use any of the following characters in your tags:
+আপনি আপনার ট্যাগে নিচের যেকোনো অক্ষর ব্যবহার করতে পারেন:
 
-- Alphabetical letters
-- Numbers
-- Underscore (`_`)
-- Hyphen (`-`)
-- Forward slash (`/`) for [[#Nested tags]]
-- Commonly accepted Unicode characters, including emojis and other symbols
+- আলফাবেটিক অক্ষর
+- সংখ্যা
+- আন্ডারস্কোর (`_`)
+- হাইফেন (`-`)
+- [[#Nested tags|নেস্টেড ট্যাগের]] জন্য ফরওয়ার্ড স্ল্যাশ (`/`)
+- সাধারণভাবে গৃহীত ইউনিকোড অক্ষর, ইমোজি এবং অন্যান্য চিহ্নসহ
 
-Tags must contain at least one non-numerical character. For example, #1984 isn't a valid tag, but #y1984 is.
+ট্যাগে অন্তত একটি নন-নিউমেরিক্যাল অক্ষর থাকতেই হবে। উদাহরণস্বরূপ, #1984 একটি বৈধ ট্যাগ নয়, কিন্তু #y1984 বৈধ।
 
-Tags are case-insensitive. For example, #tag and #TAG will be treated as identical.
+ট্যাগ কেস-ইনসেনসিটিভ। উদাহরণস্বরূপ, #tag এবং #TAG একই হিসেবে গণ্য করা হবে।
 
 > [!note] 
-> Tags will display with the casing they are first created with in the [[Tags view]]. 
-> For example, creating #Tag and then #TAG will display #Tag for both. 
+> ট্যাগ [[Tags view|ট্যাগ ভিউতে]] প্রথমে যে কেসিং দিয়ে তৈরি করা হয়েছে সেটি নিয়েই প্রদর্শিত হবে। 
+> উদাহরণস্বরূপ, প্রথমে #Tag এবং পরে #TAG তৈরি করলে উভয়ের জন্যই #Tag প্রদর্শিত হবে। 
 
-Tags can't contain blank spaces. To separate two or more words, you can instead use the following formats:
+ট্যাগে খালি স্পেস থাকতে পারে না। দুই বা তার বেশি শব্দ আলাদা করতে, আপনি পরিবর্তে নিচের ফরম্যাটগুলো ব্যবহার করতে পারেন:
 
 - #camelCase
 - #PascalCase

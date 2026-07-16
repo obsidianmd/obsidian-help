@@ -1,37 +1,36 @@
 ---
-localized: null
 permalink: sync/region
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Move your Sync vault to a different region.
+description: আপনার Sync ভল্টকে একটি ভিন্ন অঞ্চলে সরান।
 ---
-When you create a [[Local and remote vaults|remote vault]] through [[Introduction to Obsidian Sync|Obsidian Sync]] your data is encrypted and stored on one of Obsidian's regional Sync servers. This guide explains how to move your Sync vault to a different regional server.
+আপনি যখন [[Introduction to Obsidian Sync|Obsidian Sync]]-এর মাধ্যমে একটি [[Local and remote vaults|রিমোট ভল্ট]] তৈরি করেন, তখন আপনার ডেটা এনক্রিপ্ট করা হয় এবং Obsidian-এর আঞ্চলিক Sync সার্ভারগুলোর একটিতে সংরক্ষণ করা হয়। এই গাইডে ব্যাখ্যা করা হয়েছে কীভাবে আপনার Sync ভল্টকে একটি ভিন্ন আঞ্চলিক সার্ভারে সরাতে হয়।
 
-## Available regions
+## উপলব্ধ অঞ্চল
 
-The following regions are available with Obsidian Sync. We recommend using **Automatic** or choosing a location close to you to reduce latency and make the syncing process faster.
+Obsidian Sync-এর সাথে নিম্নলিখিত অঞ্চলগুলো উপলব্ধ। লেটেন্সি কমাতে এবং সিঙ্কিং প্রক্রিয়া দ্রুততর করতে আমরা **Automatic** ব্যবহার করার অথবা আপনার কাছাকাছি একটি লোকেশন বেছে নেওয়ার পরামর্শ দিই।
 
 ![[Obsidian Sync/Security and privacy#^sync-geo-regions]]
 
-## Change Sync region
+## Sync অঞ্চল পরিবর্তন করুন
 
-To change your remote vault's region, you will need to recreate your vault on a different Sync server. Note you can also change regions by using the [[Upgrade Sync encryption]] migration assistant, if your remote vault is on an older version.
+আপনার রিমোট ভল্টের অঞ্চল পরিবর্তন করতে, আপনাকে একটি ভিন্ন Sync সার্ভারে আপনার ভল্ট পুনরায় তৈরি করতে হবে। মনে রাখবেন আপনি [[Upgrade Sync encryption]] মাইগ্রেশন সহায়ক ব্যবহার করেও অঞ্চল পরিবর্তন করতে পারেন, যদি আপনার রিমোট ভল্ট একটি পুরনো ভার্সনে থাকে।
 
-> [!danger] Migrations are destructive
+> [!danger] মাইগ্রেশন ধ্বংসাত্মক
 > 
-> **Always [[Back up your Obsidian files|back up]] your vault before proceeding with a migration.**
+> **মাইগ্রেশন শুরু করার আগে সবসময় আপনার ভল্ট [[Back up your Obsidian files|ব্যাকআপ]] করুন।**
 > 
-> When you migrate a remote vault your data will be replaced. This means:
+> আপনি যখন একটি রিমোট ভল্ট মাইগ্রেট করেন, তখন আপনার ডেটা প্রতিস্থাপিত হবে। এর মানে:
 > 
-> 1. Remote data will be removed from Obsidian servers, and vault data will be re-uploaded in its place.
-> 2. All [[Version history|version history]] for the vault will be lost.
+> 1. Obsidian সার্ভার থেকে রিমোট ডেটা সরিয়ে ফেলা হবে, এবং তার জায়গায় ভল্টের ডেটা পুনরায় আপলোড করা হবে।
+> 2. ভল্টের সব [[Version history|ভার্সন ইতিহাস]] হারিয়ে যাবে।
 
 ![[Set up Obsidian Sync#Disconnect from a remote vault]]
 
-If you are on the [[Plans and storage limits|Standard Plan]], you will also need to [[Set up Obsidian Sync#Delete a remote vault|delete your remote vault]] before proceeding.
+আপনি যদি [[Plans and storage limits|স্ট্যান্ডার্ড প্ল্যানে]] থাকেন, তাহলে এগিয়ে যাওয়ার আগে আপনাকে [[Set up Obsidian Sync#Delete a remote vault|আপনার রিমোট ভল্ট মুছে ফেলতে]] হবে।
 
 ![[Set up Obsidian Sync#Create a new remote vault]]
 
-Additionally, you can [[Set up Obsidian Sync#Delete a remote vault|delete your old remote vault]] once you have confirmed transition to your new remote vault and its region.
+এছাড়াও, আপনার নতুন রিমোট ভল্ট এবং এর অঞ্চলে স্থানান্তর নিশ্চিত হওয়ার পর আপনি [[Set up Obsidian Sync#Delete a remote vault|আপনার পুরনো রিমোট ভল্ট মুছে ফেলতে]] পারেন।

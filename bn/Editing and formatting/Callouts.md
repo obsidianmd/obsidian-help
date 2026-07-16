@@ -1,14 +1,13 @@
 ---
-localized: null
 permalink: callouts
 publish: true
 mobile: true
-description: This page details how to use callouts to include additional content without breaking the flow of your notes.
+description: এই পাতায় বিস্তারিতভাবে বর্ণনা করা হয়েছে কীভাবে আপনার নোটের প্রবাহ ব্যাহত না করে অতিরিক্ত কনটেন্ট অন্তর্ভুক্ত করতে কলাউট ব্যবহার করবেন।
 ---
 
-Use callouts to include additional content without breaking the flow of your notes.
+আপনার নোটের প্রবাহ ব্যাহত না করে অতিরিক্ত কনটেন্ট অন্তর্ভুক্ত করতে কলাউট ব্যবহার করুন।
 
-To create a callout, add `[!info]` to the first line of a blockquote, where `info` is the _type identifier_. The type identifier determines how the callout looks and feels. To see all available types, refer to [[#Supported types]]. Callouts are also supported natively on [[Introduction to Obsidian Publish|Obsidian Publish]].
+একটি কলাউট তৈরি করতে, একটি ব্লককোটের প্রথম লাইনে `[!info]` যোগ করুন, যেখানে `info` হলো _টাইপ আইডেন্টিফায়ার_। টাইপ আইডেন্টিফায়ার নির্ধারণ করে কলাউটটি কেমন দেখাবে এবং কেমন অনুভূত হবে। সমস্ত উপলব্ধ টাইপ দেখতে, [[#Supported types]] দেখুন। [[Introduction to Obsidian Publish|Obsidian Publish]]-এও কলাউট নেটিভভাবে সমর্থিত।
 
 ```markdown
 > [!info] Here's a callout title
@@ -17,55 +16,55 @@ To create a callout, add `[!info]` to the first line of a blockquote, where `inf
 > ![[Engelbart.jpg]]
 ```
 
-> [!info] Here's a callout title
-> Here's a callout block.
-> It supports **Markdown**, [[Internal links|Wikilinks]] and [[Embed files|embeds]]!
+> [!info] এখানে একটি কলাউট শিরোনাম
+> এখানে একটি কলাউট ব্লক।
+> এটি **Markdown**, [[Internal links|উইকিলিঙ্ক]] এবং [[Embed files|এমবেড]] সমর্থন করে!
 > ![[Engelbart.jpg]]
 
-You can insert a default `[!note]` callout using the `Insert callout` [[Command palette|command]]. The cursor automatically positions in the callout name field, letting you delete the default name and type a new one before editing the content.
+আপনি `Insert callout` [[Command palette|কমান্ড]] ব্যবহার করে একটি ডিফল্ট `[!note]` কলাউট যোগ করতে পারেন। কার্সর স্বয়ংক্রিয়ভাবে কলাউট নাম ফিল্ডে অবস্থান নেয়, যাতে আপনি কনটেন্ট সম্পাদনার আগে ডিফল্ট নামটি মুছে একটি নতুন নাম টাইপ করতে পারেন।
 
-To wrap existing content in a callout, select the text (including lists, code blocks, etc.) and run the `Insert callout` command. The selected content will be automatically enclosed in the callout.
+বিদ্যমান কনটেন্টকে একটি কলাউটে মুড়িয়ে রাখতে, টেক্সটটি (তালিকা, কোড ব্লক ইত্যাদিসহ) নির্বাচন করুন এবং `Insert callout` কমান্ড চালান। নির্বাচিত কনটেন্ট স্বয়ংক্রিয়ভাবে কলাউটে আবদ্ধ হয়ে যাবে।
 
-In [[Views and editing mode#Live Preview|Live Preview]], you can also right-click the callout name to change the callout type.
+[[Views and editing mode#Live Preview|লাইভ প্রিভিউ]]-এ, আপনি কলাউট টাইপ পরিবর্তন করতে কলাউট নামে রাইট-ক্লিকও করতে পারেন।
 
 
-### Change the title
+### শিরোনাম পরিবর্তন করা
 
-By default, the title of the callout is its type identifier in title case. You can change it by adding text after the type identifier:
+ডিফল্টভাবে, কলাউটের শিরোনাম হয় টাইটেল কেসে তার টাইপ আইডেন্টিফায়ার। টাইপ আইডেন্টিফায়ারের পরে টেক্সট যোগ করে আপনি এটি পরিবর্তন করতে পারেন:
 
 ```markdown
 > [!tip] Callouts can have custom titles
 > Like this one.
 ```
 
-> [!tip] Callouts can have custom titles
-> Like this one.
+> [!tip] কলাউটে কাস্টম শিরোনাম থাকতে পারে
+> এই একটির মতো।
 
-You can even omit the body to create title-only callouts:
+আপনি টাইটেল-অনলি কলাউট তৈরি করতে বডিও বাদ দিতে পারেন:
 
 ```markdown
 > [!tip] Title-only callout
 ```
 
-> [!tip] Title-only callout
+> [!tip] শুধুমাত্র শিরোনামযুক্ত কলাউট
 
-### Foldable callouts
+### ভাঁজযোগ্য কলাউট
 
-You can make a callout foldable by adding a plus (`+`) or a minus (`-`) directly after the type identifier.
+টাইপ আইডেন্টিফায়ারের ঠিক পরে একটি প্লাস (`+`) বা মাইনাস (`-`) যোগ করে আপনি একটি কলাউটকে ভাঁজযোগ্য করতে পারেন।
 
-A plus sign expands the callout by default, and a minus sign collapses it instead.
+একটি প্লাস চিহ্ন ডিফল্টভাবে কলাউটটি প্রসারিত করে, আর একটি মাইনাস চিহ্ন এটিকে পরিবর্তে ভাঁজ করে দেয়।
 
 ```markdown
 > [!faq]- Are callouts foldable?
 > Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
 ```
 
-> [!faq]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden when collapsed.
+> [!faq]- কলাউট কি ভাঁজযোগ্য?
+> হ্যাঁ! একটি ভাঁজযোগ্য কলাউটে, কলাউটটি ভাঁজ করা থাকলে কনটেন্ট লুকানো থাকে।
 
-### Nested callouts
+### নেস্টেড কলাউট
 
-You can nest callouts in multiple levels.
+আপনি একাধিক স্তরে কলাউট নেস্ট করতে পারেন।
 
 ```markdown
 > [!question] Can callouts be nested?
@@ -73,15 +72,15 @@ You can nest callouts in multiple levels.
 > > > [!example]  You can even use multiple layers of nesting.
 ```
 
-> [!question] Can callouts be nested?
-> > [!todo] Yes!, they can.
-> > > [!example]  You can even use multiple layers of nesting.
+> [!question] কলাউট কি নেস্ট করা যায়?
+> > [!todo] হ্যাঁ!, তা করা যায়।
+> > > [!example]  আপনি এমনকি নেস্টিংয়ের একাধিক স্তরও ব্যবহার করতে পারেন।
 
-### Customize callouts
+### কলাউট কাস্টমাইজ করা
 
-[[CSS snippets]] and [[Community plugins]] can define custom callouts, or even overwrite the default configuration.
+[[CSS snippets]] এবং [[Community plugins]] কাস্টম কলাউট নির্ধারণ করতে পারে, এমনকি ডিফল্ট কনফিগারেশনও ওভাররাইট করতে পারে।
 
-To define a custom callout, create the following CSS block:
+একটি কাস্টম কলাউট নির্ধারণ করতে, নিচের CSS ব্লকটি তৈরি করুন:
 
 ```css
 .callout[data-callout="custom-question-type"] {
@@ -90,29 +89,29 @@ To define a custom callout, create the following CSS block:
 }
 ```
 
-The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
+`data-callout` অ্যাট্রিবিউটের মান হলো সেই টাইপ আইডেন্টিফায়ার যা আপনি ব্যবহার করতে চান, উদাহরণস্বরূপ `[!custom-question-type]`।
 
-- `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
-- `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element. 
+- `--callout-color` লাল, সবুজ, এবং নীলের জন্য সংখ্যা (0–255) ব্যবহার করে ব্যাকগ্রাউন্ড রং নির্ধারণ করে।
+- `--callout-icon` [lucide.dev](https://lucide.dev) থেকে একটি আইকন ID, অথবা একটি SVG এলিমেন্ট হতে পারে। 
 
-> [!warning] Note about lucide icon versions
-> Obsidian updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
+> [!warning] Lucide আইকন ভার্সন সম্পর্কে নোট
+> Obsidian পর্যায়ক্রমে Lucide আইকন আপডেট করে। বর্তমান ভার্সন নিচে দেখানো হয়েছে; কাস্টম কলাউটে এই বা এর আগের আইকনগুলো ব্যবহার করুন।
 > ![[Credits#^lucide]]
 
-> [!tip] SVG icons
-> Instead of using a Lucide icon, you can also use a SVG element as the callout icon.
+> [!tip] SVG আইকন
+> Lucide আইকন ব্যবহার করার পরিবর্তে, আপনি কলাউট আইকন হিসেবে একটি SVG এলিমেন্টও ব্যবহার করতে পারেন।
 >
 > ```css
 > --callout-icon: '<svg>...custom svg...</svg>';
 > ```
 
-### Supported types
+### সমর্থিত টাইপ
 
-You can use several callout types and aliases. Each type comes with a different background color and icon.
+আপনি বিভিন্ন কলাউট টাইপ এবং তাদের উপনাম ব্যবহার করতে পারেন। প্রতিটি টাইপের সাথে একটি ভিন্ন ব্যাকগ্রাউন্ড রং এবং আইকন থাকে।
 
-To use these default styles, replace `info` in the examples with any of these types, such as `[!tip]` or `[!warning]`. Callout types can also be changed by right-clicking a callout in Live Preview mode.
+এই ডিফল্ট স্টাইল ব্যবহার করতে, উদাহরণে `info`-কে এই যেকোনো টাইপ দিয়ে প্রতিস্থাপন করুন, যেমন `[!tip]` বা `[!warning]`। লাইভ প্রিভিউ মোডে একটি কলাউটে রাইট-ক্লিক করেও কলাউট টাইপ পরিবর্তন করা যায়।
 
-Unless you [[#Customize callouts]], any unsupported type defaults to the `note` type. The type identifier is case-insensitive.
+আপনি [[#Customize callouts]] না করলে, যেকোনো অসমর্থিত টাইপ ডিফল্টভাবে `note` টাইপে ফিরে যায়। টাইপ আইডেন্টিফায়ার কেস-ইনসেনসিটিভ।
 
 > [!note]
 > ```md
@@ -128,7 +127,7 @@ Unless you [[#Customize callouts]], any unsupported type defaults to the `note` 
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `summary`, `tldr`
+উপনাম: `summary`, `tldr`
 
 ---
 
@@ -154,7 +153,7 @@ Aliases: `summary`, `tldr`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `hint`, `important`
+উপনাম: `hint`, `important`
 
 ---
 
@@ -164,7 +163,7 @@ Aliases: `hint`, `important`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `check`, `done`
+উপনাম: `check`, `done`
 
 ---
 
@@ -174,7 +173,7 @@ Aliases: `check`, `done`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `help`, `faq`
+উপনাম: `help`, `faq`
 
 ---
 
@@ -184,7 +183,7 @@ Aliases: `help`, `faq`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `caution`, `attention`
+উপনাম: `caution`, `attention`
 
 ---
 
@@ -194,7 +193,7 @@ Aliases: `caution`, `attention`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Aliases: `fail`, `missing`
+উপনাম: `fail`, `missing`
 
 ---
 
@@ -204,7 +203,7 @@ Aliases: `fail`, `missing`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Alias: `error`
+উপনাম: `error`
 
 ---
 
@@ -230,4 +229,4 @@ Alias: `error`
 > > Lorem ipsum dolor sit amet
 > ```
 
-Alias: `cite`
+উপনাম: `cite`

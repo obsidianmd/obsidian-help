@@ -1,120 +1,119 @@
 ---
-localized: null
 permalink: plugins/search
 publish: true
 mobile: true
-description: Search is a core plugin that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
+description: অনুসন্ধান একটি কোর প্লাগইন যা অনুসন্ধান টার্ম এবং অপারেটর ব্যবহার করে ফলাফল সংকীর্ণ করে আপনার Obsidian ভল্টে ডেটা খুঁজে পেতে সাহায্য করে।
 ---
 
-Search is a [[Core plugins|core plugin]] that helps you find data in your Obsidian vault by using search terms and operators to narrow down results.
+অনুসন্ধান একটি [[Core plugins|কোর প্লাগইন]] যা অনুসন্ধান টার্ম এবং অপারেটর ব্যবহার করে ফলাফল সংকীর্ণ করে আপনার Obsidian ভল্টে ডেটা খুঁজে পেতে সাহায্য করে।
 
-By default, you can find Search in the left sidebar ![[lucide-search.svg#icon]]. You can also open Search by pressing `Ctrl+Shift+F` (Windows/Linux) or `Command+Shift+F` (macOS).
+ডিফল্টভাবে, আপনি বাম সাইডবারে ![[lucide-search.svg#icon]] অনুসন্ধান খুঁজে পাবেন। আপনি `Ctrl+Shift+F` (Windows/Linux) বা `Command+Shift+F` (macOS) চেপে অনুসন্ধানও খুলতে পারেন।
 
-- **Search selected text**: If you select text in the editor and open Search with the keyboard shortcut, Search shows you the search results for the selected text.
-- **Search recent search terms**: Open Search with an empty search term to list recent search terms. Click any of them to use the search term again.
+- **নির্বাচিত টেক্সট অনুসন্ধান করুন**: আপনি যদি এডিটরে টেক্সট নির্বাচন করেন এবং কীবোর্ড শর্টকাট দিয়ে অনুসন্ধান খোলেন, তাহলে অনুসন্ধান আপনাকে নির্বাচিত টেক্সটের জন্য অনুসন্ধান ফলাফল দেখায়।
+- **সাম্প্রতিক অনুসন্ধান টার্ম অনুসন্ধান করুন**: সাম্প্রতিক অনুসন্ধান টার্মের একটি তালিকা দেখতে একটি খালি অনুসন্ধান টার্ম দিয়ে অনুসন্ধান খুলুন। সেই টার্মটি আবার ব্যবহার করতে সেগুলির যেকোনো একটিতে ক্লিক করুন।
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Search results.
+> [!info] বাদ দেয়া ফাইল
+> আপনার [[Settings#Excluded files|বাদ দেয়া ফাইল]] প্যাটার্নের সাথে মিলে যাওয়া ফাইলগুলি অনুসন্ধান ফলাফলে প্রদর্শিত হবে না।
 
-## Search terms
+## অনুসন্ধান টার্ম
 
-A search term is the word or phrase that you enter in the search field. Learning how to write search terms effectively can help you quickly find what you're looking for, even in large vaults. Obsidian only searches the contents of notes and canvases.
+একটি অনুসন্ধান টার্ম হলো সেই শব্দ বা বাক্যাংশ যা আপনি অনুসন্ধান ক্ষেত্রে লেখেন। কার্যকরভাবে অনুসন্ধান টার্ম লেখা শেখা আপনাকে বড় ভল্টেও দ্রুত যা খুঁজছেন তা খুঁজে পেতে সাহায্য করতে পারে। Obsidian শুধুমাত্র নোট এবং ক্যানভাসের বিষয়বস্তু অনুসন্ধান করে।
 
-> [!tip]- Searching paths and filenames
-> By default, you can only search the paths and filenames of notes and canvases. To search for a path or filename of any file in the vault, use the `path` or `file` operator.
+> [!tip]- পাথ এবং ফাইলের নাম অনুসন্ধান করা
+> ডিফল্টভাবে, আপনি শুধুমাত্র নোট এবং ক্যানভাসের পাথ এবং ফাইলের নাম অনুসন্ধান করতে পারেন। ভল্টে যেকোনো ফাইলের পাথ বা ফাইলের নাম অনুসন্ধান করতে, `path` বা `file` অপারেটর ব্যবহার করুন।
 
-Each word in the search term is matched independently within each file. To search for an exact phrase, surround it with quotes, for example `"star wars"`. To search for quoted text within an exact phrase, you can _escape_ the quotes by adding a backslash (`\`) in front of the quote, for example `"they said \"hello\" to each other"`.
+অনুসন্ধান টার্মের প্রতিটি শব্দ প্রতিটি ফাইলের ভেতরে আলাদাভাবে মিলানো হয়। একটি সঠিক বাক্যাংশ অনুসন্ধান করতে, এটিকে উদ্ধৃতি চিহ্ন দিয়ে ঘিরে দিন, উদাহরণস্বরূপ `"star wars"`। একটি সঠিক বাক্যাংশের ভেতরে উদ্ধৃত টেক্সট অনুসন্ধান করতে, আপনি উদ্ধৃতি চিহ্নের সামনে একটি ব্যাকস্ল্যাশ (`\`) যোগ করে সেগুলি _এসকেপ_ করতে পারেন, উদাহরণস্বরূপ `"they said \"hello\" to each other"`।
 
-You can control whether to return files that contain _all_ the words in your search term, or _any_ of the words:
+আপনি নিয়ন্ত্রণ করতে পারেন যে আপনার অনুসন্ধান টার্মের _সব_ শব্দ ধারণকারী ফাইলগুলি ফেরত দেওয়া হবে, নাকি শব্দগুলির _যেকোনো একটি_:
 
-- `meeting work` returns files that contain both `meeting` and `work`.
-- `meeting OR work` returns files that contain either `meeting` or `work`.
+- `meeting work` `meeting` এবং `work` উভয়ই ধারণকারী ফাইল ফেরত দেয়।
+- `meeting OR work` `meeting` বা `work` যেকোনো একটি ধারণকারী ফাইল ফেরত দেয়।
 
-You can even combine the two in the same search term.
+আপনি একই অনুসন্ধান টার্মে দুটিকে একত্রিতও করতে পারেন।
 
-- `meeting work OR meetup personal` returns files for work meetings and personal meetups.
+- `meeting work OR meetup personal` কাজের মিটিং এবং ব্যক্তিগত মিটআপের জন্য ফাইল ফেরত দেয়।
 
-You can use parentheses to control the priority of each expression.
+প্রতিটি এক্সপ্রেশনের অগ্রাধিকার নিয়ন্ত্রণ করতে আপনি বন্ধনী ব্যবহার করতে পারেন।
 
-- `meeting (work OR meetup) personal` returns files that contain `meeting`, `personal`, and either `work` or `meetup`.
+- `meeting (work OR meetup) personal` এমন ফাইল ফেরত দেয় যেগুলিতে `meeting`, `personal`, এবং `work` বা `meetup` যেকোনো একটি রয়েছে।
 
-To exclude, or negate, a word from the search results, add a hyphen (`-`) in front of it:
+অনুসন্ধান ফলাফল থেকে একটি শব্দ বাদ দিতে, বা নেগেট করতে, তার সামনে একটি হাইফেন (`-`) যোগ করুন:
 
-- `meeting -work` returns files that contain `meeting` but not `work`.
+- `meeting -work` `meeting` ধারণকারী কিন্তু `work` নয় এমন ফাইল ফেরত দেয়।
 
-You can exclude multiple expressions:
+আপনি একাধিক এক্সপ্রেশন বাদ দিতে পারেন:
 
-- `meeting -work -meetup` returns files that contain `meeting` but not `work` or `meetup`.
+- `meeting -work -meetup` `meeting` ধারণকারী কিন্তু `work` বা `meetup` নয় এমন ফাইল ফেরত দেয়।
 
-You can exclude a combination of expressions using parentheses:
+আপনি বন্ধনী ব্যবহার করে এক্সপ্রেশনের একটি সংমিশ্রণ বাদ দিতে পারেন:
 
-- `meeting -(work meetup)` returns files that contain `meeting` but not _both_ `work` and `meetup`.
+- `meeting -(work meetup)` `meeting` ধারণকারী কিন্তু `work` এবং `meetup` _উভয়ই_ নয় এমন ফাইল ফেরত দেয়।
 
-To filter results using the less than (`<`) and greater than (`>`) operators, surround them with square brackets (`[]`) or quotes (`""`):
+কম (`<`) এবং বেশি (`>`) অপারেটর ব্যবহার করে ফলাফল ফিল্টার করতে, সেগুলিকে বর্গাকার বন্ধনী (`[]`) বা উদ্ধৃতি চিহ্ন (`""`) দিয়ে ঘিরে দিন:
 
-- `meeting [duration:<5]` returns files where meeting is present, and duration is less than 5.
-- `meeting [duration:>5]` returns files where meeting is present, and duration is greater than 5.
+- `meeting [duration:<5]` এমন ফাইল ফেরত দেয় যেখানে meeting উপস্থিত, এবং duration 5-এর কম।
+- `meeting [duration:>5]` এমন ফাইল ফেরত দেয় যেখানে meeting উপস্থিত, এবং duration 5-এর বেশি।
 
-> [!tip]- Explain search term
-> If you need to troubleshoot a complex search term, you can click **Explain search term** in Search for an explanation of your search term.
+> [!tip]- অনুসন্ধান টার্ম ব্যাখ্যা করুন
+> আপনার যদি একটি জটিল অনুসন্ধান টার্ম সমাধান করতে হয়, তাহলে আপনার অনুসন্ধান টার্মের একটি ব্যাখ্যার জন্য অনুসন্ধানে **Explain search term**-এ ক্লিক করতে পারেন।
 
-## Search operators
+## অনুসন্ধান অপারেটর
 
-Search operators enable more fine-grained search terms to filter your results even more.
+অনুসন্ধান অপারেটর আরও সূক্ষ্ম অনুসন্ধান টার্ম সক্ষম করে যাতে আপনি আপনার ফলাফল আরও ফিল্টার করতে পারেন।
 
-Some operators even allow you to add a nested search term within parentheses, for example: `task:(call OR email)`.
+কিছু অপারেটর এমনকি আপনাকে বন্ধনীর ভেতরে একটি নেস্টেড অনুসন্ধান টার্ম যোগ করতে দেয়, উদাহরণস্বরূপ: `task:(call OR email)`।
 
-| Search operator | Description                                                                                                                                                                                                                                                                                                        |
+| অনুসন্ধান অপারেটর | বিবরণ                                                                                                                                                                                                                                                                                                        |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `file:`         | Find text in filename. Matches any file in the vault.<p/>Example: `file:.jpg` or `file:202209`.                                                                                                                                                                                                                    |
-| `path:`         | Find text in file path. Matches any file in the vault.<p/>Example: `path:"Daily notes/2022-07"`.                                                                                                                                                                                                                   |
-| `content:`      | Find text in file content.<p/>Example: `content:"happy cat"`.                                                                                                                                                                                                                                                      |
-| `match-case:`   | Case-sensitive match.<p/>Example: `match-case:HappyCat`.                                                                                                                                                                                                                                                           |
-| `ignore-case:`  | Case-insensitive match.<p/>Example: `ignore-case:ikea`.                                                                                                                                                                                                                                                            |
-| `tag:`          | Find tag in file.<p/>Example: `tag:#work`.<p/>Keep in mind that searching for `tag:#work` will not return results for `#myjob/work`.<br /><br />**Note**: Since `tag:` ignores matches in code blocks and in non-Markdown content, it's often faster and more accurate than a normal full-text search for `#work`. |
-| `line:`         | Find files that contain at least one line matching `x`.<p/>Example: `line:(mix flour)`.<p/><br>**Note:** Using `-line` negates the search, meaning it will find files where no line matches `x`.                                                                                                                   |
-| `block:`        | Find matches in the same block.<p/>Example: `block:(dog cat)`.<p/>**Note**: Since `block:` requires Search to parse the Markdown content in every file, it can cause your search term to take longer time to finish.                                                                                               |
-| `section:`      | Find matches in the same section (text between two headings).<p/>Example: `section:(dog cat)`.                                                                                                                                                                                                                     |
-| `task:`         | Find matches in a [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task:call`.                                                                                                                                                                                                 |
-| `task-todo:`    | Find matches in an *uncompleted* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-todo:call`.                                                                                                                                                                             |
-| `task-done:`    | Find matches in a *completed* [[Basic formatting syntax#Task lists\|task]] on a block-by-block basis.<p/>Example: `task-done:call`.                                                                                                                                                                                |
+| `file:`         | ফাইলের নামে টেক্সট খুঁজুন। ভল্টের যেকোনো ফাইলের সাথে মেলে।<p/>উদাহরণ: `file:.jpg` বা `file:202209`।                                                                                                                                                                                                                    |
+| `path:`         | ফাইলের পাথে টেক্সট খুঁজুন। ভল্টের যেকোনো ফাইলের সাথে মেলে।<p/>উদাহরণ: `path:"Daily notes/2022-07"`।                                                                                                                                                                                                                   |
+| `content:`      | ফাইলের বিষয়বস্তুতে টেক্সট খুঁজুন।<p/>উদাহরণ: `content:"happy cat"`।                                                                                                                                                                                                                                                      |
+| `match-case:`   | কেস-সেনসিটিভ মিল।<p/>উদাহরণ: `match-case:HappyCat`।                                                                                                                                                                                                                                                           |
+| `ignore-case:`  | কেস-ইনসেনসিটিভ মিল।<p/>উদাহরণ: `ignore-case:ikea`।                                                                                                                                                                                                                                                            |
+| `tag:`          | ফাইলে ট্যাগ খুঁজুন।<p/>উদাহরণ: `tag:#work`।<p/>মনে রাখবেন `tag:#work` অনুসন্ধান করলে `#myjob/work`-এর জন্য ফলাফল পাওয়া যাবে না।<br /><br />**নোট**: যেহেতু `tag:` কোড ব্লক এবং নন-Markdown বিষয়বস্তুতে মিল উপেক্ষা করে, এটি প্রায়ই `#work`-এর জন্য একটি সাধারণ পূর্ণ-টেক্সট অনুসন্ধানের চেয়ে দ্রুত এবং আরও সঠিক। |
+| `line:`         | এমন ফাইল খুঁজুন যেগুলিতে অন্তত একটি লাইন `x`-এর সাথে মেলে।<p/>উদাহরণ: `line:(mix flour)`।<p/><br>**নোট:** `-line` ব্যবহার করলে অনুসন্ধানটি নেগেট হয়, অর্থাৎ এটি এমন ফাইল খুঁজবে যেখানে কোনো লাইন `x`-এর সাথে মেলে না।                                                                                                                   |
+| `block:`        | একই ব্লকে মিল খুঁজুন।<p/>উদাহরণ: `block:(dog cat)`।<p/>**নোট**: যেহেতু `block:`-এর জন্য অনুসন্ধানকে প্রতিটি ফাইলে Markdown বিষয়বস্তু পার্স করতে হয়, এটি আপনার অনুসন্ধান টার্মকে শেষ হতে বেশি সময় নিতে পারে।                                                                                               |
+| `section:`      | একই সেকশনে (দুটি হেডিংয়ের মধ্যেকার টেক্সট) মিল খুঁজুন।<p/>উদাহরণ: `section:(dog cat)`।                                                                                                                                                                                                                     |
+| `task:`         | একটি ব্লক-বাই-ব্লক ভিত্তিতে একটি [[Basic formatting syntax#টাস্ক তালিকা\|টাস্কে]] মিল খুঁজুন।<p/>উদাহরণ: `task:call`।                                                                                                                                                                                                 |
+| `task-todo:`    | একটি ব্লক-বাই-ব্লক ভিত্তিতে একটি *অসম্পূর্ণ* [[Basic formatting syntax#টাস্ক তালিকা\|টাস্কে]] মিল খুঁজুন।<p/>উদাহরণ: `task-todo:call`।                                                                                                                                                                             |
+| `task-done:`    | একটি ব্লক-বাই-ব্লক ভিত্তিতে একটি *সম্পূর্ণ* [[Basic formatting syntax#টাস্ক তালিকা\|টাস্কে]] মিল খুঁজুন।<p/>উদাহরণ: `task-done:call`।                                                                                                                                                                                |
 
-## Search properties
+## প্রপার্টি অনুসন্ধান
 
-You can use data stored in [[Properties]] in your search terms.
+আপনি আপনার অনুসন্ধান টার্মে [[Properties]]-এ সংরক্ষিত ডেটা ব্যবহার করতে পারেন।
 
-Use brackets around a property name `[property]` to return files with that property:
+একটি প্রপার্টি সহ ফাইল ফেরত দিতে একটি প্রপার্টির নামের চারপাশে বন্ধনী ব্যবহার করুন `[property]`:
 
-- `[aliases]` returns files that contain the `aliases` property
+- `[aliases]` `aliases` প্রপার্টি ধারণকারী ফাইল ফেরত দেয়
 
-Use brackets and a colon `[property:value]` to return files with that property and value:
+একটি প্রপার্টি এবং মান সহ ফাইল ফেরত দিতে বন্ধনী এবং একটি কোলন ব্যবহার করুন `[property:value]`:
 
-- `[aliases:Name]` returns files where the `aliases` property value is `Name`
+- `[aliases:Name]` এমন ফাইল ফেরত দেয় যেখানে `aliases` প্রপার্টির মান `Name`
 
-Use `null` as a value to find properties that have no value:
+কোনো মান নেই এমন প্রপার্টি খুঁজতে মান হিসেবে `null` ব্যবহার করুন:
 
-- `[aliases:null]` returns files where the `aliases` property exists but has no value
+- `[aliases:null]` এমন ফাইল ফেরত দেয় যেখানে `aliases` প্রপার্টি বিদ্যমান কিন্তু কোনো মান নেই
 
-> [!info]+ Empty values
-> The `null` operator works when a property is empty (e.g., `aliases: `), but not when the property contains empty quotes (`""`) or empty brackets (`[]`).
+> [!info]+ খালি মান
+> `null` অপারেটরটি তখনই কাজ করে যখন একটি প্রপার্টি খালি থাকে (যেমন, `aliases: `), কিন্তু যখন প্রপার্টিতে খালি উদ্ধৃতি চিহ্ন (`""`) বা খালি বন্ধনী (`[]`) থাকে তখন নয়।
 
-Both property and value allow sub-queries, such as parentheses for grouping, the `OR` operator, double-quotes for exact matching, and regex.
+প্রপার্টি এবং মান উভয়ই সাব-কোয়েরি সমর্থন করে, যেমন গ্রুপিংয়ের জন্য বন্ধনী, `OR` অপারেটর, সঠিক মিলের জন্য ডাবল-উদ্ধৃতি, এবং রেগেক্স।
 
-- `[status:Draft OR Published]` returns files where the `status` property value is `Draft` or `Published`
+- `[status:Draft OR Published]` এমন ফাইল ফেরত দেয় যেখানে `status` প্রপার্টির মান `Draft` বা `Published`
 
-## Change case sensitivity
+## কেস সেনসিটিভিটি পরিবর্তন করুন
 
-By default, search terms are not case sensitive. If you want to search for the exact case of your search term, select **Match case** ![[obsidian-icon-upper-lowercase.svg#icon]] inside the search bar.
+ডিফল্টভাবে, অনুসন্ধান টার্ম কেস সেনসিটিভ নয়। আপনি যদি আপনার অনুসন্ধান টার্মের ঠিক কেস অনুসন্ধান করতে চান, তাহলে অনুসন্ধান বারের ভেতরে **Match case** ![[obsidian-icon-upper-lowercase.svg#icon]] নির্বাচন করুন।
 
-This setting can be toggled. If **Match case** icon is highlighted, that means you’re currently doing a case sensitive search.
+এই সেটিং টগল করা যায়। যদি **Match case** আইকনটি হাইলাইট করা থাকে, তার অর্থ আপনি বর্তমানে একটি কেস সেনসিটিভ অনুসন্ধান করছেন।
 
-## Change result sort order
+## ফলাফলের সাজানোর ক্রম পরিবর্তন করুন
 
-1. Enter a [[#Search terms|search term]].
-2. Under the search field, select the dropdown on the right.
-3. Select the sort order you want. Default is "File name (A to Z)".
+1. একটি [[#অনুসন্ধান টার্ম|অনুসন্ধান টার্ম]] লিখুন।
+2. অনুসন্ধান ক্ষেত্রের নিচে, ডানদিকের ড্রপডাউন নির্বাচন করুন।
+3. আপনি যে সাজানোর ক্রম চান তা নির্বাচন করুন। ডিফল্ট হলো "File name (A to Z)"।
 
-The following options are available:
+নিম্নলিখিত অপশনগুলি উপলব্ধ:
 
 - File name (A to Z)
 - File name (Z to A)
@@ -123,40 +122,40 @@ The following options are available:
 - Created time (new to old)
 - Created time (old to new)
 
-## Copy search results
+## অনুসন্ধান ফলাফল কপি করুন
 
-1. Enter a [[#Search terms|search term]].
-2. Under the search field, select the three dots icon next to the number of results.
-3. Select **Copy search results**.
+1. একটি [[#অনুসন্ধান টার্ম|অনুসন্ধান টার্ম]] লিখুন।
+2. অনুসন্ধান ক্ষেত্রের নিচে, ফলাফলের সংখ্যার পাশের তিনটি বিন্দু আইকন নির্বাচন করুন।
+3. **Copy search results** নির্বাচন করুন।
 
-## Use regular expressions
+## রেগুলার এক্সপ্রেশন ব্যবহার করুন
 
-A regular expression is a set of characters that describe a text pattern. To use regular expressions in your search term, surround the expression with forward slashes (`/`).
+একটি রেগুলার এক্সপ্রেশন হলো অক্ষরের একটি সেট যা একটি টেক্সট প্যাটার্ন বর্ণনা করে। আপনার অনুসন্ধান টার্মে রেগুলার এক্সপ্রেশন ব্যবহার করতে, এক্সপ্রেশনটিকে ফরওয়ার্ড স্ল্যাশ (`/`) দিয়ে ঘিরে দিন।
 
-- `/\d{4}-\d{2}-\d{2}/` matches an ISO 8601 date, such as 2022-01-01.
+- `/\d{4}-\d{2}-\d{2}/` একটি ISO 8601 তারিখের সাথে মেলে, যেমন 2022-01-01।
 
-You can even combine regular expressions with search operators:
+আপনি এমনকি রেগুলার এক্সপ্রেশনকে অনুসন্ধান অপারেটরের সাথে একত্রিতও করতে পারেন:
 
-- `path:/\d{4}-\d{2}-\d{2}/` returns files with a date in the file path.
+- `path:/\d{4}-\d{2}-\d{2}/` ফাইলের পাথে একটি তারিখ সহ ফাইল ফেরত দেয়।
 
-For more information on how to write regular expressions, refer to FreeCodeCamp's [Practical Regex guide](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/) or Mozilla's [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+কীভাবে রেগুলার এক্সপ্রেশন লিখতে হয় সে সম্পর্কে আরও তথ্যের জন্য, FreeCodeCamp-এর [Practical Regex guide](https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/) বা Mozilla-এর [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) দেখুন।
 
-> [!info]+ JavaScript-flavored regular expressions
-> Regular expressions come in different flavors that may look different from each other. Obsidian uses JavaScript-flavored regular expressions.
+> [!info]+ JavaScript-শৈলীর রেগুলার এক্সপ্রেশন
+> রেগুলার এক্সপ্রেশন বিভিন্ন শৈলীতে আসে যা একে অপরের থেকে ভিন্ন দেখাতে পারে। Obsidian JavaScript-শৈলীর রেগুলার এক্সপ্রেশন ব্যবহার করে।
 
-## Configure search settings
+## অনুসন্ধান সেটিংস কনফিগার করুন
 
-To configure Search, select **Search settings** ![[lucide-sliders-horizontal.svg#icon]] on the right side of the search bar to see the toggles.
+অনুসন্ধান কনফিগার করতে, টগলগুলি দেখতে অনুসন্ধান বারের ডানদিকে **Search settings** ![[lucide-sliders-horizontal.svg#icon]] নির্বাচন করুন।
 
-| Setting                 | Description                                                                 |
+| সেটিং                 | বিবরণ                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| **Explain search term** | Breaks down the search terms and explains it in plain text.                 |
-| **Collapse results**    | Toggles whether to show the search context.                                 |
-| **Show more context**   | Expands the search result to show more text around the match.               |
+| **Explain search term** | অনুসন্ধান টার্মগুলি ভেঙে সরল টেক্সটে ব্যাখ্যা করে।                 |
+| **Collapse results**    | অনুসন্ধান কনটেক্সট দেখানো হবে কিনা তা টগল করে।                                 |
+| **Show more context**   | মিলের চারপাশে আরও টেক্সট দেখাতে অনুসন্ধান ফলাফল প্রসারিত করে।               |
 
-## Embed search results in a note
+## একটি নোটে অনুসন্ধান ফলাফল এম্বেড করুন
 
-To embed search results in a note, add a `query` code block:
+একটি নোটে অনুসন্ধান ফলাফল এম্বেড করতে, একটি `query` কোড ব্লক যোগ করুন:
 
 ````
 ```query
@@ -164,6 +163,6 @@ embed OR search
 ```
 ````
 
-[[Introduction to Obsidian Publish|Obsidian Publish]] doesn't support embedded [[Publish limitations#Search|search results]]. To see a live rendered example, use the code block above within your vault.
+[[Introduction to Obsidian Publish|Obsidian Publish]] এম্বেডেড [[Publish limitations#অনুসন্ধান|অনুসন্ধান ফলাফল]] সমর্থন করে না। একটি লাইভ রেন্ডার করা উদাহরণ দেখতে, আপনার ভল্টের ভেতরে উপরের কোড ব্লকটি ব্যবহার করুন।
 
 ![[search-query-rendered.png]]

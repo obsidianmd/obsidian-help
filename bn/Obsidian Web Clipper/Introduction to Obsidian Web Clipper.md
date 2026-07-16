@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: web-clipper
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian Web Clipper is a free browser extension that lets you highlight pages and save web content to your vault.
+Obsidian Web Clipper একটি বিনামূল্যের ব্রাউজার এক্সটেনশন যা আপনাকে পেজ হাইলাইট করতে এবং ওয়েব কন্টেন্ট আপনার ভল্টে সংরক্ষণ করতে দেয়।
 
-## Install Web Clipper
+## Web Clipper ইনস্টল করুন
 
-Get the Obsidian Web Clipper extension from the official directory for your browser:
+আপনার ব্রাউজারের জন্য অফিসিয়াল ডিরেক্টরি থেকে Obsidian Web Clipper এক্সটেনশনটি সংগ্রহ করুন:
 
 - [Chrome Web Store](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
-	- For Chrome, Brave, Arc, Orion, and other Chromium-based browsers.
+	- Chrome, Brave, Arc, Orion, এবং অন্যান্য Chromium-ভিত্তিক ব্রাউজারের জন্য।
 - [Firefox Add-Ons](https://addons.mozilla.org/en-US/firefox/addon/web-clipper-obsidian/)
-	- For Firefox and Firefox Mobile.
+	- Firefox এবং Firefox Mobile-এর জন্য।
 - [Safari Extensions](https://apps.apple.com/us/app/obsidian-web-clipper/id6720708363)
-	- For macOS, iOS, and iPadOS.
+	- macOS, iOS, এবং iPadOS-এর জন্য।
 - [Edge Add-Ons](https://microsoftedge.microsoft.com/addons/detail/obsidian-web-clipper/eigdjhmgnaaeaonimdklocfekkaanfme)
-	- For Microsoft Edge.
+	- Microsoft Edge-এর জন্য।
 
-## How to use Web Clipper
+## Web Clipper কীভাবে ব্যবহার করবেন
 
 - [[Clip web pages]]
-	- Get started and learn how to save content from pages.
+	- শুরু করুন এবং পেজ থেকে কন্টেন্ট সংরক্ষণ করা শিখুন।
 - [[Highlighter|Highlighter]]
-	- Highlight important passages and select elements you want to save.
+	- গুরুত্বপূর্ণ অংশ হাইলাইট করুন এবং যে এলিমেন্টগুলো সংরক্ষণ করতে চান তা নির্বাচন করুন।
 - [[Reader|Reader]]
-	- Read web pages in a clean, distraction-free view.
+	- ওয়েব পেজ পরিষ্কার, মনোযোগ-বিচ্যুতিহীন ভিউতে পড়ুন।
 - [[Interpreter|Interpreter]]
-	- Use natural language prompts to capture and modify data on a page.
-- [[Troubleshoot Web Clipper|Troubleshooting]]
-	- Resolve common issues with Web Clipper.
-- [[Obsidian Web Clipper/Templates|Templates]]
-	- Create custom templates for specific websites.
+	- পেজের ডেটা ক্যাপচার এবং পরিবর্তন করতে প্রাকৃতিক ভাষার প্রম্পট ব্যবহার করুন।
+- [[Troubleshoot Web Clipper|সমস্যা সমাধান]]
+	- Web Clipper-এর সাধারণ সমস্যাগুলোর সমাধান করুন।
+- [[Obsidian Web Clipper/Templates|টেমপ্লেট]]
+	- নির্দিষ্ট ওয়েবসাইটের জন্য কাস্টম টেমপ্লেট তৈরি করুন।
 - [[Variables]]
-	- Pre-populate page data in your template.
+	- আপনার টেমপ্লেটে পেজের ডেটা পূর্ব-পূরণ করুন।
 - [[Filters]]
-	- Modify the output of template variables.
+	- টেমপ্লেট ভেরিয়েবলের আউটপুট পরিবর্তন করুন।
 - [[Logic]]
-	- Use conditionals, loops, and set variables in templates.
+	- টেমপ্লেটে কন্ডিশনাল, লুপ এবং ভেরিয়েবল সেট ব্যবহার করুন।
 
-## Privacy
+## গোপনীয়তা
 
-Obsidian Web Clipper saves content locally to your Obsidian vault and follows our [privacy policy](https://obsidian.md/privacy). Your data is not collected, and we do not gather any usage metrics. The code is [open source](https://github.com/obsidianmd/obsidian-clipper) and auditable.
+Obsidian Web Clipper কন্টেন্ট স্থানীয়ভাবে আপনার Obsidian ভল্টে সংরক্ষণ করে এবং আমাদের [গোপনীয়তা নীতি](https://obsidian.md/privacy) অনুসরণ করে। আপনার ডেটা সংগ্রহ করা হয় না, এবং আমরা কোনো ব্যবহারের মেট্রিক্স সংগ্রহ করি না। কোডটি [ওপেন সোর্স](https://github.com/obsidianmd/obsidian-clipper) এবং যাচাইযোগ্য।

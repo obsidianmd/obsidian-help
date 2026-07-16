@@ -1,10 +1,9 @@
 ---
-localized: null
 permalink: official-site
 ---
-Obsidian’s official website is at https://obsidian.md
+Obsidian-এর অফিসিয়াল ওয়েবসাইট হলো https://obsidian.md
 
-There you can:
+সেখানে আপনি:
 
-- [Download](https://obsidian.md/download) the latest installer if your installer version is old.
-- Register an account, and access your [account dashboard](https://obsidian.md/account), if you want to purchase [[Catalyst license]], [[Commercial license]], [[Introduction to Obsidian Sync|Obsidian Sync]], or [[Introduction to Obsidian Publish|Obsidian Publish]].
+- আপনার ইনস্টলার ভার্সন পুরনো হলে সর্বশেষ ইনস্টলার [ডাউনলোড](https://obsidian.md/download) করতে পারবেন।
+- একটি অ্যাকাউন্ট নিবন্ধন করতে পারবেন এবং [[Catalyst license]], [[Commercial license]], [[Introduction to Obsidian Sync|Obsidian Sync]], অথবা [[Introduction to Obsidian Publish|Obsidian Publish]] কিনতে চাইলে আপনার [অ্যাকাউন্ট ড্যাশবোর্ড](https://obsidian.md/account) ব্যবহার করতে পারবেন।

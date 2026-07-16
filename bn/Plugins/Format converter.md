@@ -1,50 +1,49 @@
 ---
-localized: null
 permalink: plugins/format-converter
 publish: true
 mobile: true
-description: Format converter is a core plugin that lets you convert Markdown from other applications to Obsidian format.
+description: Markdown ফরম্যাট ইম্পোর্টার একটি কোর প্লাগইন যা আপনাকে অন্য অ্যাপ্লিকেশন থেকে Markdown-কে Obsidian ফরম্যাটে রূপান্তর করতে দেয়।
 ---
 
-Format converter is a [[Core plugins|core plugin]] that lets you convert Markdown from other applications to Obsidian format. It also lets you convert certain [[Properties]] to new required formats. 
+Markdown ফরম্যাট ইম্পোর্টার একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে অন্য অ্যাপ্লিকেশন থেকে Markdown-কে Obsidian ফরম্যাটে রূপান্তর করতে দেয়। এটি আপনাকে নির্দিষ্ট [[Properties]]-কে নতুন প্রয়োজনীয় ফরম্যাটে রূপান্তর করতেও দেয়। 
 
-> [!warning] Warning
-> Format converter converts your entire vault based on your settings. [[Back up your Obsidian files]] before you perform the conversion.
+> [!warning] সতর্কতা
+> Markdown ফরম্যাট ইম্পোর্টার আপনার সেটিংসের উপর ভিত্তি করে আপনার সম্পূর্ণ ভল্ট রূপান্তর করে। রূপান্তর সম্পাদনের আগে [[Back up your Obsidian files]] করুন।
 
-To convert all notes in your vault:
+আপনার ভল্টের সব নোট রূপান্তর করতে:
 
-1. In [[Command palette]], select **Open format converter**. This can also be found in the [[Ribbon]] with the  **Open format converter** ![[lucide-binary.svg#icon]] icon.
-2. Enable the formats you want to convert.
-3. Click **Start conversion**.
+1. [[Command palette]]-এ, **Open format converter** নির্বাচন করুন। এটি [[Ribbon]]-এও **Open format converter** ![[lucide-binary.svg#icon]] আইকন দিয়ে পাওয়া যায়।
+2. আপনি যে ফরম্যাটগুলি রূপান্তর করতে চান তা সক্রিয় করুন।
+3. **Start conversion**-এ ক্লিক করুন।
 
-For more information, refer to [[Basic formatting syntax]].
+আরও তথ্যের জন্য, [[Basic formatting syntax]] দেখুন।
 
-## Supported formats
+## সমর্থিত ফরম্যাট
 
 ### Roam Research
 
-The Format converter can convert the following Roam Research syntax:
+Markdown ফরম্যাট ইম্পোর্টার নিম্নলিখিত Roam Research সিনট্যাক্স রূপান্তর করতে পারে:
 
-- **Tags**: Converts `#tag` and `#[[tag]]` to `[[tag]]`
-- **Highlights**: Converts `^^highlight^^` to `==highlight==`
-- **TODO items**: Converts `{{[[TODO]]}}` to `[ ]`
+- **ট্যাগ**: `#tag` এবং `#[[tag]]`-কে `[[tag]]`-এ রূপান্তর করে
+- **হাইলাইট**: `^^highlight^^`-কে `==highlight==`-এ রূপান্তর করে
+- **TODO আইটেম**: `{{[[TODO]]}}`-কে `[ ]`-এ রূপান্তর করে
 
 ### Bear
 
-The Format converter can convert the following Bear syntax:
+Markdown ফরম্যাট ইম্পোর্টার নিম্নলিখিত Bear সিনট্যাক্স রূপান্তর করতে পারে:
 
-- **Highlights**: Converts `::highlight::` to `==highlight==`
+- **হাইলাইট**: `::highlight::`-কে `==highlight==`-এ রূপান্তর করে
 
 ### Zettelkasten
 
-The Format converter can convert the following Zettelkasten syntax:
+Markdown ফরম্যাট ইম্পোর্টার নিম্নলিখিত Zettelkasten সিনট্যাক্স রূপান্তর করতে পারে:
 
-- **Full links**: Converts `[[UID]]` to `[[UID File Name]]`
-- **Pretty links**: Converts `[[UID]]` to `[[UID File Name|File Name]]`
+- **সম্পূর্ণ লিঙ্ক**: `[[UID]]`-কে `[[UID File Name]]`-এ রূপান্তর করে
+- **প্রেটি লিঙ্ক**: `[[UID]]`-কে `[[UID File Name|File Name]]`-এ রূপান্তর করে
 
 ### [[Properties]]
 
-As of Obsidian `1.9.3`, the Format converter can convert [[Properties#Deprecated properties|deprecated property]] formats to the current format:
+Obsidian `1.9.3` অনুযায়ী, Markdown ফরম্যাট ইম্পোর্টার [[Properties#ডেপ্রিকেটেড প্রপার্টি|ডেপ্রিকেটেড প্রপার্টি]] ফরম্যাটগুলিকে বর্তমান ফরম্যাটে রূপান্তর করতে পারে:
 
 **Aliases**
 

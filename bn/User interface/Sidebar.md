@@ -1,80 +1,79 @@
 ---
-localized: null
 permalink: sidebar
 publish: true
 mobile: true
-description: Learn about Obsidian's left and right sidebars and how to manage tabs and tab groups.
+description: Obsidian-এর বাঁ ও ডান সাইডবার এবং ট্যাব ও ট্যাব গ্রুপ পরিচালনার পদ্ধতি সম্পর্কে জানুন।
 ---
 
-Obsidian has two sidebars: a left sidebar and a right sidebar. Sidebars hold tabs created by plugins, such as [[Backlinks]], [[Outgoing links]], and the [[File explorer]]. On desktop, you can also drag notes into the sidebar to keep them visible alongside your main editor. 
+Obsidian-এ দুটি সাইডবার রয়েছে: একটি বাঁ সাইডবার এবং একটি ডান সাইডবার। সাইডবারে প্লাগইন দ্বারা তৈরি ট্যাব থাকে, যেমন [[Backlinks]], [[Outgoing links]], এবং [[File explorer]]। ডেস্কটপে, আপনি নোটগুলোকে আপনার মূল এডিটরের পাশে দৃশ্যমান রাখতে সাইডবারেও ড্র্যাগ করতে পারেন।
 
-On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+ডেস্কটপ এবং বড় ট্যাবলেটে, বাঁ সাইডবারে [[Ribbon]] অন্তর্ভুক্ত থাকে। মোবাইল এবং ছোট ট্যাবলেটে, সাইডবারগুলো ডিফল্টভাবে [[#Open hidden sidebars|সংকুচিত থাকে]]।
 
-## Open hidden sidebars
+## লুকানো সাইডবার খোলা
 
-### Desktop and larger tablets
+### ডেস্কটপ এবং বড় ট্যাবলেট
 
-On desktop and larger tablets, open a collapsed sidebar by selecting the left expand ![[obsidian-icon-side-bar-left.svg#icon]] or right expand ![[obsidian-icon-side-bar-right.svg#icon]] icon.
+ডেস্কটপ এবং বড় ট্যাবলেটে, বাঁ প্রসারণ ![[obsidian-icon-side-bar-left.svg#icon]] বা ডান প্রসারণ ![[obsidian-icon-side-bar-right.svg#icon]] আইকন নির্বাচন করে একটি সংকুচিত সাইডবার খুলুন।
 
-### Mobile and smaller tablets
+### মোবাইল এবং ছোট ট্যাবলেট
 
-On mobile and smaller tablets, you can open hidden sidebars in the following ways:
+মোবাইল এবং ছোট ট্যাবলেটে, আপনি নিম্নলিখিত উপায়ে লুকানো সাইডবার খুলতে পারেন:
 
-- Swipe left or right
-- Select the left expand ![[obsidian-icon-side-bar-left.svg#icon]] icon (left sidebar only)
-- Use the *Toggle left* or *Toggle right* [[Command palette]] options. 
+- বাঁ বা ডান দিকে সোয়াইপ করুন
+- বাঁ প্রসারণ ![[obsidian-icon-side-bar-left.svg#icon]] আইকন নির্বাচন করুন (শুধুমাত্র বাঁ সাইডবারের জন্য)
+- *Toggle left* বা *Toggle right* [[Command palette|কমান্ড প্যালেট]] অপশন ব্যবহার করুন।
 
-## Tabs
+## ট্যাব
 
-By default, plugins create new tabs instead of new [[#Tab groups]].
+ডিফল্টভাবে, প্লাগইন নতুন [[#Tab groups]]-এর পরিবর্তে নতুন ট্যাব তৈরি করে।
 
-You can switch between tabs by selecting on the icon. A tooltip appears to help you identify tabs.
+আইকনে নির্বাচন করে আপনি ট্যাবগুলোর মধ্যে সুইচ করতে পারেন। ট্যাব শনাক্ত করতে সাহায্য করার জন্য একটি টুলটিপ দেখা যায়।
 
-In each pane, you can only see one tab at any given moment. Some actions automatically bring a tab into view. For example, when you select a tag, its tab opens.
+প্রতিটি পেনে, যেকোনো মুহূর্তে আপনি শুধুমাত্র একটি ট্যাব দেখতে পারেন। কিছু অ্যাকশন স্বয়ংক্রিয়ভাবে একটি ট্যাবকে দৃশ্যে নিয়ে আসে। উদাহরণস্বরূপ, আপনি একটি ট্যাগ নির্বাচন করলে, সেটির ট্যাব খোলে।
 
-### Open or reopen tabs
+### ট্যাব খোলা বা পুনরায় খোলা
 
-There are several ways to add tabs to your sidebars:
+আপনার সাইডবারে ট্যাব যোগ করার বেশ কয়েকটি উপায় রয়েছে:
 
-- **Enable a plugin**: Many plugins automatically create sidebar tabs when enabled. Go to **Settings → Community plugins** (or **Core plugins**) and enable the plugin for the tab you want.
-- **Run a command**: Use the [[Command palette]] to search for commands that open specific tabs. For example, search for "Backlinks" or "Outgoing links" to open those tabs.
-- **Drag a note** (desktop only): On desktop, you can drag a note from the [[File explorer]] or from an editor tab into the sidebar to open it there.
+- **একটি প্লাগইন সক্রিয় করুন**: অনেক প্লাগইন সক্রিয় হলে স্বয়ংক্রিয়ভাবে সাইডবার ট্যাব তৈরি করে। **Settings → Community plugins** (বা **Core plugins**)-এ যান এবং আপনি যে ট্যাবটি চান তার জন্য প্লাগইনটি সক্রিয় করুন।
+- **একটি কমান্ড চালান**: নির্দিষ্ট ট্যাব খোলে এমন কমান্ড খুঁজতে [[Command palette|কমান্ড প্যালেট]] ব্যবহার করুন। উদাহরণস্বরূপ, সেই ট্যাবগুলো খুলতে "Backlinks" বা "Outgoing links" অনুসন্ধান করুন।
+- **একটি নোট ড্র্যাগ করুন** (শুধুমাত্র ডেস্কটপ): ডেস্কটপে, আপনি [[File explorer|ফাইল এক্সপ্লোরার]] থেকে বা একটি এডিটর ট্যাব থেকে একটি নোট সাইডবারে ড্র্যাগ করে সেখানে খুলতে পারেন।
 
-If you've closed a tab and want to get it back, these same methods will reopen it.
+আপনি যদি কোনো ট্যাব বন্ধ করে দিয়ে থাকেন এবং সেটি ফিরিয়ে আনতে চান, তাহলে একই পদ্ধতিগুলো ব্যবহার করে সেটি আবার খুলবে।
 
-### Close tabs
+### ট্যাব বন্ধ করা
 
-Some tabs can be closed via the right-click menu, while others cannot. If you don't want to see a tab that can't be closed, consider disabling the relevant plugin or collapsing the sidebar by selecting the arrow icon.
+কিছু ট্যাব রাইট-ক্লিক মেনুর মাধ্যমে বন্ধ করা যায়, আবার কিছু যায় না। আপনি যদি বন্ধ করা যায় না এমন কোনো ট্যাব দেখতে না চান, তাহলে সংশ্লিষ্ট প্লাগইনটি নিষ্ক্রিয় করা বা তীর আইকন নির্বাচন করে সাইডবার সংকুচিত করার কথা বিবেচনা করুন।
 
-### Rearrange tabs
+### ট্যাব পুনর্বিন্যাস করা
 
-You can drag and drop tab icons to rearrange them within a group of tabs.
+আপনি একটি ট্যাব গ্রুপের মধ্যে ট্যাব আইকন ড্র্যাগ ও ড্রপ করে সেগুলো পুনর্বিন্যাস করতে পারেন।
 
-On desktop, you can also drag tabs from the sidebar into the main editor area to open them there.
+ডেস্কটপে, আপনি সাইডবার থেকে মূল এডিটর এলাকায় ট্যাব ড্র্যাগ করেও সেগুলো সেখানে খুলতে পারেন।
 
-### Pin tabs
+### ট্যাব পিন করা
 
-You can pin a tab in the sidebar to control how it updates when you interact with other parts of the app.
+আপনি অ্যাপের অন্যান্য অংশের সাথে ইন্টারঅ্যাক্ট করার সময় সাইডবারের একটি ট্যাব কীভাবে আপডেট হবে তা নিয়ন্ত্রণ করতে সেটি পিন করতে পারেন।
 
-To pin or unpin a tab to the sidebar, drag the tab over to or from the sidebar. 
+সাইডবারে কোনো ট্যাব পিন বা আনপিন করতে, ট্যাবটি সাইডবারে বা সাইডবার থেকে বাইরে ড্র্যাগ করুন।
 
-The behavior of a pinned tab within the sidebar depends on its content type:
+সাইডবারের মধ্যে একটি পিন করা ট্যাবের আচরণ তার কনটেন্টের ধরনের ওপর নির্ভর করে:
 
-- **Notes and Bases**: A pinned note or base tab stays in place. New notes open as separate tabs in the main editor instead of replacing the pinned tab.
-- **Panes** (like [[Backlinks]] or [[Outgoing links]]): A pinned pane stays focused on the last selected note. Selecting a different note does not update the pinned pane.
+- **নোট এবং বেসেস**: একটি পিন করা নোট বা বেস ট্যাব একই জায়গায় থাকে। নতুন নোট পিন করা ট্যাবটি প্রতিস্থাপন করার পরিবর্তে মূল এডিটরে আলাদা ট্যাব হিসেবে খোলে।
+- **পেন** (যেমন [[Backlinks]] বা [[Outgoing links]]): একটি পিন করা পেন সর্বশেষ নির্বাচিত নোটে ফোকাস রাখে। একটি ভিন্ন নোট নির্বাচন করলে পিন করা পেনটি আপডেট হয় না।
 
-For information about pinning tabs in the main editor, see [[Tabs#Pin a tab|Pin a tab]].
+মূল এডিটরে ট্যাব পিন করা সম্পর্কে তথ্যের জন্য, [[Tabs#Pin a tab|Pin a tab]] দেখুন।
 
-## Tab groups
+## ট্যাব গ্রুপ
 
-You can have multiple tab groups in the sidebar.
+আপনি সাইডবারে একাধিক ট্যাব গ্রুপ রাখতে পারেন।
 
-### Create tab groups
+### ট্যাব গ্রুপ তৈরি করা
 
-To create a new tab group, drag the icon of a tab above or below a current tab group. The highlighted area indicates where the new tab group will be created.
+একটি নতুন ট্যাব গ্রুপ তৈরি করতে, একটি ট্যাবের আইকনকে বর্তমান ট্যাব গ্রুপের ওপরে বা নিচে ড্র্যাগ করুন। হাইলাইট করা এলাকাটি নির্দেশ করে যে নতুন ট্যাব গ্রুপটি কোথায় তৈরি হবে।
 
-### Close tab groups
+### ট্যাব গ্রুপ বন্ধ করা
 
-To close a tab group, you can [[#Close tabs|close all tabs in it]], or drag all tabs in the group by their icons and drop them into existing tab groups.
+একটি ট্যাব গ্রুপ বন্ধ করতে, আপনি [[#Close tabs|তার সব ট্যাব বন্ধ করতে পারেন]], অথবা গ্রুপের সব ট্যাব তাদের আইকন ধরে ড্র্যাগ করে বিদ্যমান ট্যাব গ্রুপে ড্রপ করতে পারেন।
 
-When only the tab area of a tab group is highlighted, the tab being dragged will merge with other tabs in that group.
+যখন কোনো ট্যাব গ্রুপের শুধুমাত্র ট্যাব এলাকাটি হাইলাইট হয়, তখন ড্র্যাগ করা ট্যাবটি সেই গ্রুপের অন্যান্য ট্যাবের সাথে মিশে যাবে।

@@ -1,41 +1,40 @@
 ---
-localized: null
 permalink: web-clipper/reader
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] includes a built-in reading mode called **Reader** that strips away clutter from web pages, presenting only the main article content in a clean, readable format.
+[[Introduction to Obsidian Web Clipper|Web Clipper]]-এ **Reader** নামে একটি বিল্ট-ইন রিডিং মোড রয়েছে যা ওয়েব পেজ থেকে অপ্রয়োজনীয় অংশ সরিয়ে দেয়, এবং শুধুমাত্র মূল আর্টিকেল কন্টেন্ট একটি পরিষ্কার, পঠনযোগ্য ফরম্যাটে উপস্থাপন করে।
 
-## Activate reading mode
+## রিডিং মোড সক্রিয় করুন
 
-You can activate Reader in several ways:
+আপনি বিভিন্নভাবে Reader সক্রিয় করতে পারেন:
 
-- ![[lucide-book-icon.svg#icon]] **Book icon** in the extension panel.
-- **Keyboard shortcut** customizable in the extension settings.
-- **Context menu** by right-clicking the web page you are visiting.
+- ![[lucide-book-icon.svg#icon]] এক্সটেনশন প্যানেলে **Book আইকন**।
+- এক্সটেনশন সেটিংসে কাস্টমাইজযোগ্য **কীবোর্ড শর্টকাট**।
+- আপনি যে ওয়েব পেজে আছেন সেখানে ডান-ক্লিক করে **কনটেক্সট মেনু**।
 
-You can also set the ![[obsidian.svg#icon]] extension button to open Reader in one click. In the Web Clipper settings go to **General** → **Behavior** → **Open behavior** and choose **Reader**.
+আপনি এক ক্লিকে Reader খুলতে ![[obsidian.svg#icon]] এক্সটেনশন বাটনও নির্ধারণ করতে পারেন। Web Clipper সেটিংসে **General** → **Behavior** → **Open behavior**-এ গিয়ে **Reader** নির্বাচন করুন।
 
-All of the options above also allow you to exit Reader and restore the original page.
+উপরের সব অপশনই Reader থেকে বের হয়ে মূল পেজ ফিরিয়ে আনার সুযোগ দেয়।
 
-## How it works
+## এটি কীভাবে কাজ করে
 
-Reader extracts the main content from the page. The original page is replaced with a clean reading view that includes:
+Reader পেজ থেকে মূল কন্টেন্ট সংগ্রহ করে। মূল পেজের পরিবর্তে একটি পরিষ্কার রিডিং ভিউ প্রদর্শিত হয় যাতে থাকে:
 
-- The article title, author, publication date, and source domain.
-- The main article content, with images and formatting preserved.
-- An outline in the sidebar for articles with multiple headings.
-- Syntax highlighting for code blocks.
-- Footnote popovers that display inline when clicked.
+- আর্টিকেলের শিরোনাম, লেখক, প্রকাশের তারিখ, এবং সোর্স ডোমেইন।
+- ছবি ও ফরম্যাটিং অক্ষুণ্ণ রেখে মূল আর্টিকেল কন্টেন্ট।
+- একাধিক হেডিং থাকা আর্টিকেলের জন্য সাইডবারে একটি রূপরেখা।
+- কোড ব্লকের জন্য সিনট্যাক্স হাইলাইটিং।
+- ক্লিক করলে ইনলাইনে প্রদর্শিত ফুটনোট পপওভার।
 
-## Customize your reading view
+## আপনার রিডিং ভিউ কাস্টমাইজ করুন
 
-Customize your Reader experience in the extension settings. Some options are also available within Reader mode by clicking the ![[lucide-case-sensitive.svg#icon]] icon.
+এক্সটেনশন সেটিংসে আপনার Reader অভিজ্ঞতা কাস্টমাইজ করুন। কিছু অপশন ![[lucide-case-sensitive.svg#icon]] আইকনে ক্লিক করে Reader মোডের ভেতরেও পাওয়া যায়।
 
-| Setting          | Description                         |
+| সেটিং             | বিবরণ                         |
 | ---------------- | ----------------------------------- |
-| Font             | Add fonts installed on your system. |
-| Font size        | Adjust the text size.               |
-| Line&nbsp;height | Spacing between lines.              |
-| Line&nbsp;width  | Maximum width of the content area.  |
-| Appearance       | Choose light or dark appearance.    |
-| Theme            | Choose the colors.                  |
-| Custom CSS       | Additional CSS applied to the page. |
+| Font             | আপনার সিস্টেমে ইনস্টল করা ফন্ট যোগ করুন। |
+| Font size        | টেক্সটের আকার সামঞ্জস্য করুন।               |
+| Line&nbsp;height | লাইনগুলোর মধ্যে ব্যবধান।              |
+| Line&nbsp;width  | কন্টেন্ট এলাকার সর্বোচ্চ প্রস্থ।  |
+| Appearance       | হালকা বা গাঢ় রূপ বেছে নিন।    |
+| Theme            | রঙ বেছে নিন।                  |
+| Custom CSS       | পেজে প্রয়োগ করা অতিরিক্ত CSS। |

@@ -1,192 +1,191 @@
 ---
-localized: null
 permalink: style-guide
 publish: true
 mobile: true
-description: This page explains the style guide for writing our support documentation.
+description: এই পাতায় আমাদের সাপোর্ট ডকুমেন্টেশন লেখার স্টাইল গাইড ব্যাখ্যা করা হয়েছে।
 ---
 
-The Obsidian documentation follows the style guidelines listed on this page. These guidelines are based on industry best practices, particularly the [Google developer documentation style guide](<https://developers.google.com/style>) and [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/). For edge cases not covered below, consult those external guides as secondary references.
+Obsidian ডকুমেন্টেশন এই পাতায় তালিকাভুক্ত স্টাইল নির্দেশিকা অনুসরণ করে। এই নির্দেশিকাগুলো শিল্পের সেরা চর্চার উপর ভিত্তি করে তৈরি, বিশেষত [Google developer documentation style guide](<https://developers.google.com/style>) এবং [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/)। নিচে উল্লেখ না থাকা ব্যতিক্রমী ক্ষেত্রগুলোর জন্য, সেই বাহ্যিক নির্দেশিকাগুলো গৌণ রেফারেন্স হিসেবে ব্যবহার করুন।
 
-> [!tip]- Contribute
-> Most of the documentation existed before this style guide did.
+> [!tip]- অবদান রাখুন
+> এই স্টাইল গাইড তৈরির আগে থেকেই বেশিরভাগ ডকুমেন্টেশন বিদ্যমান ছিল।
 > 
-> If you find any violations of this style guide, please [create an issue](https://github.com/obsidianmd/obsidian-docs/issues/new) and submit a pull request to [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
+> যদি আপনি এই স্টাইল গাইডের কোনো লঙ্ঘন খুঁজে পান, তাহলে অনুগ্রহ করে একটি [ইস্যু তৈরি করুন](https://github.com/obsidianmd/obsidian-docs/issues/new) এবং [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs)-এ একটি পুল রিকোয়েস্ট জমা দিন।
 
-## Terminology and grammar
+## পরিভাষা এবং ব্যাকরণ
 
-### Language style
+### ভাষার স্টাইল
 
-For our English documentation, it is recommended to use [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) to better serve our worldwide audience and to assist with [[#Translations]]. This means:
+আমাদের ইংরেজি ডকুমেন্টেশনের জন্য, আমাদের বিশ্বব্যাপী দর্শকদের আরও ভালোভাবে সেবা দিতে এবং [[#অনুবাদ]]-এ সহায়তা করতে [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) ব্যবহার করার পরামর্শ দেওয়া হয়। এর অর্থ হলো:
 
-- Avoiding idioms and culturally-specific expressions
-- Using active voice and direct sentence construction
-- Preferring simple, common words over complex terminology
-- Being explicit rather than implied
-- For spelling conventions, use American English (e.g., 'organize' not 'organise').
+- ভাষাগত প্রবাদ এবং সংস্কৃতি-নির্দিষ্ট অভিব্যক্তি এড়িয়ে চলা
+- সক্রিয় ভয়েস এবং সরাসরি বাক্য গঠন ব্যবহার করা
+- জটিল পরিভাষার পরিবর্তে সহজ, সাধারণ শব্দ পছন্দ করা
+- ইঙ্গিতপূর্ণ না হয়ে স্পষ্টভাবে বলা
+- বানান রীতির ক্ষেত্রে, আমেরিকান ইংরেজি ব্যবহার করুন (যেমন, 'organise' নয়, 'organize')।
 
-### Terms
+### পরিভাষা
 
-- Prefer "keyboard shortcut" over "hotkey". Use Hotkey when referring to the specific feature.
-- Prefer "the Obsidian app" on mobile, and "the Obsidian application" on desktop.
-- Prefer "sync" or "syncing" over "synchronise" or "synchronising".
-- Prefer "search term" over "search query".
-- Prefer "heading" over "header" when referring to a text that introduces a section.
-- Prefer "maximum" over "max" and "minimum" over "min".
+- "hotkey"-এর চেয়ে "keyboard shortcut" পছন্দ করুন। নির্দিষ্ট ফিচার উল্লেখ করার সময় Hotkey ব্যবহার করুন।
+- মোবাইলে "the Obsidian app" এবং ডেস্কটপে "the Obsidian application" পছন্দ করুন।
+- "synchronise" বা "synchronising"-এর চেয়ে "sync" বা "syncing" পছন্দ করুন।
+- "search query"-এর চেয়ে "search term" পছন্দ করুন।
+- কোনো অংশের ভূমিকা দেওয়া টেক্সটকে নির্দেশ করার সময় "header"-এর চেয়ে "heading" পছন্দ করুন।
+- "max"-এর চেয়ে "maximum" এবং "min"-এর চেয়ে "minimum" পছন্দ করুন।
 
-### Product names
+### পণ্যের নাম
 
-Obsidian product names start with "Obsidian", for example "Obsidian Publish" and "Obsidian Sync".
+Obsidian-এর পণ্যের নাম "Obsidian" দিয়ে শুরু হয়, যেমন "Obsidian Publish" এবং "Obsidian Sync"।
 
-If a paragraph becomes overly repetitive, you can use the short form in subsequent references.
+যদি কোনো অনুচ্ছেদ অতিরিক্ত পুনরাবৃত্তিমূলক হয়ে যায়, তাহলে পরবর্তী উল্লেখগুলোতে সংক্ষিপ্ত রূপ ব্যবহার করতে পারেন।
 
-For example:
+উদাহরণস্বরূপ:
 
-_To allow device-specific configuration, Obsidian Sync doesn't sync its own settings. You need to configure Sync for each of your devices._
+_ডিভাইস-নির্দিষ্ট কনফিগারেশনের সুযোগ দিতে, Obsidian Sync নিজের সেটিংস সিঙ্ক করে না। আপনাকে আপনার প্রতিটি ডিভাইসের জন্য Sync কনফিগার করতে হবে।_
 
-### UI and interactions
+### UI এবং ইন্টারঅ্যাকশন
 
-- Use **bold** to indicate button text
-- Prefer "select" over "tap" or "click".
-	- For mobile-specific instructions, "tap" is acceptable when describing touch interactions as "click" is not available.
-- Prefer "sidebar" over "side bar".
-- Prefer "perform" over "invoke" and "execute" when referring to commands or actions.
+- বাটনের টেক্সট নির্দেশ করতে **বোল্ড** ব্যবহার করুন
+- "tap" বা "click"-এর চেয়ে "select" পছন্দ করুন।
+	- মোবাইল-নির্দিষ্ট নির্দেশাবলীর জন্য, টাচ ইন্টারঅ্যাকশন বর্ণনা করার সময় "tap" গ্রহণযোগ্য, কারণ "click" পাওয়া যায় না।
+- "side bar"-এর চেয়ে "sidebar" পছন্দ করুন।
+- কমান্ড বা অ্যাকশন উল্লেখ করার সময় "invoke" এবং "execute"-এর চেয়ে "perform" পছন্দ করুন।
 
-When referring to multiple UI interactions in a sequence, use the → (U+2192) symbol. For example, "**[[Settings]] → Community plugins**".
+একটি ধারাবাহিকতায় একাধিক UI ইন্টারঅ্যাকশন উল্লেখ করার সময়, → (U+2192) চিহ্ন ব্যবহার করুন। উদাহরণস্বরূপ, "**[[Settings]] → Community plugins**"।
 
-### Notes, files, and folders
+### নোট, ফাইল এবং ফোল্ডার
 
-- Use "note" when referring to a Markdown file in the vault.
-- Use "file" when referring to other file extensions than Markdown.
-- Prefer "note name" over "note title".
-- Prefer "active note" over "current note".
-- Prefer "folder" over "directory".
-- Prefer "file type" over "file format", unless specifically referring to the data format of the file content.
+- ভল্টের একটি Markdown ফাইল উল্লেখ করার সময় "note" ব্যবহার করুন।
+- Markdown ব্যতীত অন্যান্য ফাইল এক্সটেনশন উল্লেখ করার সময় "file" ব্যবহার করুন।
+- "note title"-এর চেয়ে "note name" পছন্দ করুন।
+- "current note"-এর চেয়ে "active note" পছন্দ করুন।
+- "directory"-এর চেয়ে "folder" পছন্দ করুন।
+- ফাইলের বিষয়বস্তুর ডেটা ফরম্যাট নির্দিষ্টভাবে উল্লেখ না করলে, "file format"-এর চেয়ে "file type" পছন্দ করুন।
 
-When moving between notes, use "open" if the destination is hidden, and "switch" if both source and destination notes are open in separate splits.
+নোটগুলোর মধ্যে সরানোর সময়, গন্তব্য লুকানো থাকলে "open" এবং উৎস ও গন্তব্য উভয় নোট আলাদা স্প্লিটে খোলা থাকলে "switch" ব্যবহার করুন।
 
-### Reference documentation for settings
+### সেটিংসের জন্য রেফারেন্স ডকুমেন্টেশন
 
-When possible, any settings should be documented within Obsidian using a descriptive text. Avoid documenting a specific setting in Obsidian Help unless:
+যখনই সম্ভব, যেকোনো সেটিংস একটি বর্ণনামূলক টেক্সট ব্যবহার করে Obsidian-এর মধ্যেই ডকুমেন্ট করা উচিত। নিচের কারণ ছাড়া Obsidian Help-এ কোনো নির্দিষ্ট সেটিংস ডকুমেন্ট করা এড়িয়ে চলুন:
 
-- It requires more in-depth knowledge on how and when to use it.
-- It's commonly misused or asked about.
-- It _drastically_ changes the user experience.
+- এটি কীভাবে এবং কখন ব্যবহার করতে হয় তার আরও গভীর জ্ঞান প্রয়োজন।
+- এটি সাধারণত ভুলভাবে ব্যবহৃত হয় বা এ সম্পর্কে প্রায়ই জিজ্ঞাসা করা হয়।
+- এটি ব্যবহারকারীর অভিজ্ঞতাকে _নাটকীয়ভাবে_ পরিবর্তন করে।
 
-Consider using a tip callout if you want to draw attention to a specific setting.
+কোনো নির্দিষ্ট সেটিংসের দিকে মনোযোগ আকর্ষণ করতে চাইলে একটি টিপ কলাউট ব্যবহার করার কথা বিবেচনা করুন।
 
-### Directional terms
+### দিকনির্দেশক পরিভাষা
 
-Hyphenate directional terms when using them as adjectives. Avoid hyphenation when direction is used as a noun.
+দিকনির্দেশক পরিভাষা বিশেষণ হিসেবে ব্যবহার করার সময় হাইফেন যোগ করুন। দিক একটি বিশেষ্য হিসেবে ব্যবহৃত হলে হাইফেন ব্যবহার এড়িয়ে চলুন।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
-- Select **[[Settings]]** in the bottom-left corner.
-- Select **[[Settings]]** in the bottom left.
+- নিচের-বাম কোণে **[[Settings]]** নির্বাচন করুন।
+- নিচের বামে **[[Settings]]** নির্বাচন করুন।
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
-- Select **[[Settings]]** in the bottom left corner.
-- Select **[[Settings]]** in the bottom-left.
+- নিচের বাম কোণে **[[Settings]]** নির্বাচন করুন।
+- নিচের-বামে **[[Settings]]** নির্বাচন করুন।
 
-Prefer "upper-left" and "upper-right" over "top-left" and "top-right".
+"top-left" এবং "top-right"-এর চেয়ে "upper-left" এবং "upper-right" পছন্দ করুন।
 
-Don't indicate a direction when referring to settings. The location of the settings control depends on the device.
+সেটিংস উল্লেখ করার সময় দিক নির্দেশ করবেন না। সেটিংস কন্ট্রোলের অবস্থান ডিভাইসের উপর নির্ভর করে।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
-- Next to **Pick remote vault**, select **Choose**.
+- **Pick remote vault**-এর পাশে, **Choose** নির্বাচন করুন।
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
-- To the right of **Pick remote vault**, select **Choose**.
+- **Pick remote vault**-এর ডানদিকে, **Choose** নির্বাচন করুন।
 
-When describing vertical direction in UI elements, use "above" and "below" for spatial relationships. Avoid "up" and "down" as they're ambiguous in different contexts.
+UI উপাদানে উল্লম্ব দিক বর্ণনা করার সময়, স্থানিক সম্পর্কের জন্য "above" এবং "below" ব্যবহার করুন। "up" এবং "down" এড়িয়ে চলুন, কারণ বিভিন্ন প্রসঙ্গে এগুলো অস্পষ্ট।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
-- The search box appears above the file list.
-- Additional options are available below.
+- সার্চ বক্সটি ফাইল তালিকার উপরে দেখা যায়।
+- নিচে অতিরিক্ত বিকল্প পাওয়া যায়।
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
-- The search box is up from the file list.
-- More options are down below.
+- সার্চ বক্সটি ফাইল তালিকা থেকে উপরে।
+- আরও বিকল্প নিচে রয়েছে।
 
-### Instructions
+### নির্দেশাবলী
 
-Use imperatives for the names of guides, section headings, and step-by-step instructions. The imperative mood is concise and action-oriented, which is more straightforward for users following instructions.
+গাইডের নাম, সেকশন হেডিং এবং ধাপে ধাপে নির্দেশাবলীর জন্য অনুজ্ঞাসূচক (imperative) ব্যবহার করুন। অনুজ্ঞাসূচক মুড সংক্ষিপ্ত এবং কর্মমুখী, যা নির্দেশনা অনুসরণকারী ব্যবহারকারীদের জন্য আরও সহজবোধ্য।
 
-- Prefer "Set up" over "Setting up"
-- Prefer "Move a file" over "Moving a file"
-- Prefer "Import your notes" over "Importing your notes"
+- "Setting up"-এর চেয়ে "Set up" পছন্দ করুন
+- "Moving a file"-এর চেয়ে "Move a file" পছন্দ করুন
+- "Importing your notes"-এর চেয়ে "Import your notes" পছন্দ করুন
 
-### Sentence case
+### বাক্যের কেস
 
-Prefer *sentence case* over *title case* for headings, buttons, and titles. When referencing UI elements always match the case of the text in the UI.
+হেডিং, বাটন এবং শিরোনামের জন্য *টাইটেল কেস*-এর চেয়ে *সেন্টেন্স কেস* পছন্দ করুন। UI উপাদান উল্লেখ করার সময় সবসময় UI-এর টেক্সটের কেসের সাথে মিল রাখুন।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
 - How Obsidian stores data
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
 - How Obsidian Stores Data
 
-### Examples
+### উদাহরণ
 
-Prefer realistic examples over nonsense terms.
+অর্থহীন শব্দের চেয়ে বাস্তবসম্মত উদাহরণ পছন্দ করুন।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
 - `task:(call OR schedule)`
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
 - `task:(foo OR bar)`
 
-### Key names and keyboard shortcuts
+### কী-এর নাম এবং কীবোর্ড শর্টকাট
 
-When referring to keyboard keys and shortcuts, use consistent notation.
+কীবোর্ডের কী এবং শর্টকাট উল্লেখ করার সময়, ধারাবাহিক নোটেশন ব্যবহার করুন।
 
-**Individual key names:**
+**পৃথক কী-এর নাম:**
 
-When referring to a character on the keyboard by name, add the character between parentheses right after the name.
+কীবোর্ডের কোনো অক্ষরকে নাম দিয়ে উল্লেখ করার সময়, নামের ঠিক পরে বন্ধনীর মধ্যে অক্ষরটি যোগ করুন।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
-- Press the hyphen (-) key to add a dash.
-- Use the question mark (?) to search.
+- ড্যাশ যোগ করতে হাইফেন (-) কী চাপুন।
+- অনুসন্ধান করতে প্রশ্নবোধক চিহ্ন (?) ব্যবহার করুন।
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
-- Press the hyphen key to add a dash.
-- Use the ? to search.
-- Add a `-` in front of the word.
+- ড্যাশ যোগ করতে হাইফেন কী চাপুন।
+- অনুসন্ধান করতে ? ব্যবহার করুন।
+- শব্দের সামনে একটি `-` যোগ করুন।
 
-**Keyboard shortcuts:**
+**কীবোর্ড শর্টকাট:**
 
-Format keyboard shortcuts with no spaces around the plus sign. When a shortcut differs between operating systems, specify both.
+প্লাস চিহ্নের চারপাশে কোনো স্পেস ছাড়া কীবোর্ড শর্টকাট ফরম্যাট করুন। অপারেটিং সিস্টেমের মধ্যে শর্টকাট ভিন্ন হলে, উভয়টি উল্লেখ করুন।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
-- Press `Ctrl+Z` (Windows) or `Command+Z` (macOS) to undo.
-- Press `Escape` to close this window.
-- Use `Tab` to move between fields.
+- পূর্বাবস্থায় ফেরাতে `Ctrl+Z` (Windows) বা `Command+Z` (macOS) চাপুন।
+- এই উইন্ডো বন্ধ করতে `Escape` চাপুন।
+- ফিল্ডের মধ্যে সরাতে `Tab` ব্যবহার করুন।
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
-- Press `Cmd+Z` to undo.
-- Press `Ctrl + Z` (with spaces) to undo.
-- Press `Ctrl/Cmd+Z` to undo.
+- পূর্বাবস্থায় ফেরাতে `Cmd+Z` চাপুন।
+- পূর্বাবস্থায় ফেরাতে `Ctrl + Z` (স্পেস সহ) চাপুন।
+- `Ctrl/Cmd+Z` চাপুন।
 
-For shortcuts that are identical across all platforms, you don't need to specify the OS. If you're unsure whether a shortcut differs by platform, specify the OS to be safe. Windows and Linux typically use the same shortcuts.
+সব প্ল্যাটফর্মে অভিন্ন শর্টকাটের জন্য, OS উল্লেখ করার প্রয়োজন নেই। যদি আপনি নিশ্চিত না হন যে কোনো শর্টকাট প্ল্যাটফর্মভেদে ভিন্ন কিনা, তাহলে নিরাপদ থাকতে OS উল্লেখ করুন। Windows এবং Linux সাধারণত একই শর্টকাট ব্যবহার করে।
 
 ### Markdown
 
-Use newlines between Markdown blocks:
+Markdown ব্লকের মধ্যে নিউলাইন ব্যবহার করুন:
 
-**Recommended:**
+**সুপারিশকৃত:**
 
 ```md
 # Heading 1
@@ -198,7 +197,7 @@ This is a section.
 3. Third item
 ```
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
 ```md
 # Heading 1
@@ -208,42 +207,42 @@ This is a section.
 3. Third item
 ```
 
-**Em dashes in lists:**
+**তালিকায় এম ড্যাশ:**
 
-Use em dashes (—) to separate bolded terms from their descriptions in bullet lists. Do not use em dashes in simple nested bullet lists with links.
+বুলেট তালিকায় বোল্ড করা পরিভাষা এবং তাদের বর্ণনা আলাদা করতে এম ড্যাশ (—) ব্যবহার করুন। লিঙ্কসহ সাধারণ নেস্টেড বুলেট তালিকায় এম ড্যাশ ব্যবহার করবেন না।
 
-**Recommended:**
+**সুপারিশকৃত:**
 
-- **View menu** — create, edit, and switch views.
-- **Calculate values** — add prices, compute totals, or perform math operations.
+- **View menu** — ভিউ তৈরি, সম্পাদনা এবং পরিবর্তন করুন।
+- **Calculate values** — দাম যোগ করুন, মোট গণনা করুন, বা গাণিতিক কার্যক্রম সম্পাদন করুন।
 
-**Not recommended:**
+**অনুপযুক্ত:**
 
-- [[Create a base]] — Learn how to create and embed a base.
+- [[Create a base]] — একটি বেস তৈরি এবং এমবেড করা শিখুন।
 
-### Images
+### ছবি
 
-Use "**width** x **height** pixels" for describing image or screen dimensions.
+ছবি বা স্ক্রিনের মাত্রা বর্ণনা করার জন্য "**width** x **height** pixels" ব্যবহার করুন।
 
-**Example:**
+**উদাহরণ:**
 
-Recommended image dimensions: 1920 x 1080 pixels.
+সুপারিশকৃত ছবির মাত্রা: 1920 x 1080 pixels।
 
-## Information structure
+## তথ্যের কাঠামো
 
-### Callout types
+### কলাউটের ধরন
 
-Use callouts strategically to highlight specific types of information:
+নির্দিষ্ট ধরনের তথ্য হাইলাইট করতে কৌশলগতভাবে কলাউট ব্যবহার করুন:
 
-**Tip** (`[!tip]-`) - Practical advice or best practices that enhance the user's workflow. Use for shortcuts, workarounds, or non-essential but helpful information. These callouts start out collapsed.
+**Tip** (`[!tip]-`) - কর্মপ্রবাহ উন্নত করে এমন বাস্তবিক পরামর্শ বা সেরা চর্চা। শর্টকাট, বিকল্প সমাধান, বা অত্যাবশ্যক নয় কিন্তু সহায়ক তথ্যের জন্য ব্যবহার করুন। এই কলাউটগুলো ভাঁজ করা অবস্থায় শুরু হয়।
 
-**Info** (`[!info]+`) - Additional context, background information, or clarifications. Use when information adds understanding but isn't required to complete a task. These callouts start out open.
+**Info** (`[!info]+`) - অতিরিক্ত প্রসঙ্গ, পটভূমির তথ্য, বা স্পষ্টীকরণ। তথ্য বোঝাপড়া বাড়ালেও কাজ সম্পন্ন করার জন্য প্রয়োজনীয় না হলে ব্যবহার করুন। এই কলাউটগুলো খোলা অবস্থায় শুরু হয়।
 
-**Warning** (`[!warning]+`) - Important cautions that prevent data loss, errors, or unintended consequences. Use sparingly for genuinely risky situations. These callouts should never be collapsed.
+**Warning** (`[!warning]+`) - ডেটা ক্ষতি, ত্রুটি, বা অনিচ্ছাকৃত পরিণতি প্রতিরোধকারী গুরুত্বপূর্ণ সতর্কতা। প্রকৃতপক্ষে ঝুঁকিপূর্ণ পরিস্থিতির জন্য মিতব্যয়ীভাবে ব্যবহার করুন। এই কলাউটগুলো কখনও ভাঁজ করা উচিত নয়।
 
-**Example** (`[!example]-`) - General asides or supplementary details. Use for tangential information that some users may find relevant. These callouts start out collapsed.
+**Example** (`[!example]-`) - সাধারণ প্রাসঙ্গিক তথ্য বা সম্পূরক বিবরণ। কিছু ব্যবহারকারীর কাছে প্রাসঙ্গিক মনে হতে পারে এমন পার্শ্বীয় তথ্যের জন্য ব্যবহার করুন। এই কলাউটগুলো ভাঁজ করা অবস্থায় শুরু হয়।
 
-**Examples:**
+**উদাহরণ:**
 ```md
 > [!tip]- Use keyboard shortcuts
 > You can speed up your workflow by memorizing the most-used shortcuts.
@@ -258,27 +257,27 @@ Use callouts strategically to highlight specific types of information:
 > You can also configure this setting via the Graph menu.
 ```
 
-### Lists vs. prose
+### তালিকা বনাম গদ্য
 
-Use lists when presenting discrete items that don't have strong sequential or causal relationships. Use prose and paragraphs when items build on each other, require explanation, or benefit from narrative flow.
+এমন পৃথক আইটেম উপস্থাপন করার সময় তালিকা ব্যবহার করুন যাদের মধ্যে শক্তিশালী ধারাবাহিক বা কার্যকারণ সম্পর্ক নেই। আইটেমগুলো একে অপরের উপর ভিত্তি করে গড়ে উঠলে, ব্যাখ্যার প্রয়োজন হলে, বা বর্ণনামূলক প্রবাহ থেকে উপকৃত হলে গদ্য এবং অনুচ্ছেদ ব্যবহার করুন।
 
-**Use a list for:**
-- A set of unrelated features
-- Installation requirements
-- Configuration options
-- Troubleshooting steps
+**তালিকা ব্যবহার করুন এর জন্য:**
+- সম্পর্কহীন ফিচারের একটি সেট
+- ইনস্টলেশনের প্রয়োজনীয়তা
+- কনফিগারেশন বিকল্প
+- সমস্যা সমাধানের ধাপ
 
-**Use prose for:**
-- Explanations of how something works
-- Workflows with dependencies
-- Conceptual overviews
-- Guidance requiring context
+**গদ্য ব্যবহার করুন এর জন্য:**
+- কোনো কিছু কীভাবে কাজ করে তার ব্যাখ্যা
+- নির্ভরতাযুক্ত কর্মপ্রবাহ
+- ধারণাগত সারসংক্ষেপ
+- প্রসঙ্গ প্রয়োজন এমন নির্দেশনা
 
-### Tables
+### টেবিল
 
-Use tables to compare features, versions, or related data points where alignment aids understanding. Avoid tables for simple lists or single-column data.
+ফিচার, সংস্করণ, বা সম্পর্কিত ডেটা পয়েন্ট তুলনা করতে টেবিল ব্যবহার করুন যেখানে সারিবদ্ধতা বোঝাপড়ায় সহায়তা করে। সাধারণ তালিকা বা একক-কলাম ডেটার জন্য টেবিল এড়িয়ে চলুন।
 
-**Good use case:**
+**ভালো ব্যবহারের ক্ষেত্র:**
 
 | Feature | Mobile | Desktop |
 |---------|--------|---------|
@@ -286,26 +285,26 @@ Use tables to compare features, versions, or related data points where alignment
 | Plugins | No | Yes |
 | Themes | Limited | Full |
 
-### Cross-references
+### ক্রস-রেফারেন্স
 
-Use internal wiki links (`[[Note name]]`) liberally to help users navigate related topics. However, avoid over-linking:
+ব্যবহারকারীদের সম্পর্কিত বিষয়ে নেভিগেট করতে সাহায্য করার জন্য অভ্যন্তরীণ উইকি লিঙ্ক (`[[Note name]]`) অবাধে ব্যবহার করুন। তবে, অতিরিক্ত-লিঙ্কিং এড়িয়ে চলুন:
 
-- Don't link the same term multiple times in a single page
-- Link only when the referenced page provides significant added context
-- Use descriptive link text when helpful: `[[Note name#Section|descriptive text]]`
+- একই পৃষ্ঠায় একই টার্মকে একাধিকবার লিঙ্ক করবেন না
+- রেফারেন্স করা পৃষ্ঠাটি উল্লেখযোগ্য অতিরিক্ত প্রসঙ্গ প্রদান করলেই কেবল লিঙ্ক করুন
+- সহায়ক হলে বর্ণনামূলক লিঙ্ক টেক্সট ব্যবহার করুন: `[[Note name#Section|descriptive text]]`
 
-**Example:**
+**উদাহরণ:**
 
-First mention: "Learn about [[Introduction to Obsidian Sync|Obsidian Sync]] to keep your vault updated across devices."
-Later mention: "You can configure Sync for each device separately."
+প্রথম উল্লেখ: "আপনার ভল্ট সকল ডিভাইসে হালনাগাদ রাখতে [[Introduction to Obsidian Sync|Obsidian Sync]] সম্পর্কে জানুন।"
+পরবর্তী উল্লেখ: "আপনি প্রতিটি ডিভাইসের জন্য আলাদাভাবে Sync কনফিগার করতে পারেন।"
 
-### Platform-specific content
+### প্ল্যাটফর্ম-নির্দিষ্ট কনটেন্ট
 
-When documenting features that differ between platforms, use section headings to organize the content.
+প্ল্যাটফর্মের মধ্যে ভিন্ন হয় এমন ফিচার ডকুমেন্ট করার সময়, কনটেন্ট সংগঠিত করতে সেকশন হেডিং ব্যবহার করুন।
 
-Use `Desktop` and `Mobile` as subsection headings to separate platform-specific instructions or features.
+প্ল্যাটফর্ম-নির্দিষ্ট নির্দেশাবলী বা ফিচার আলাদা করতে সাবসেকশন হেডিং হিসেবে `Desktop` এবং `Mobile` ব্যবহার করুন।
 
-**Recommended:**
+**সুপারিশকৃত:**
 ```md
 ## Customizing the ribbon
 
@@ -325,134 +324,134 @@ In the mobile version, you can customize the ribbon through settings:
 3. Click **Manage** under **Ribbon menu**.
 ```
 
-> [!info]+ When to create sections?
-> Only create separate sections if content significantly differs. If instructions are largely the same with minor variations, use inline notes instead.
+> [!info]+ কখন সেকশন তৈরি করবেন?
+> কনটেন্ট উল্লেখযোগ্যভাবে ভিন্ন হলেই শুধুমাত্র আলাদা সেকশন তৈরি করুন। নির্দেশাবলী মূলত একই রকম হলে সামান্য তারতম্যসহ, ইনলাইন নোট ব্যবহার করুন।
 
-## Icons and images
+## আইকন এবং ছবি
 
-Include icons and images when they make it easier to explain things that are hard to describe with words, or when you need to show important parts of the Obsidian application. You can save images in the `Attachments` folder.
+শব্দে বর্ণনা করা কঠিন এমন বিষয় সহজে ব্যাখ্যা করার জন্য, বা আপনাকে Obsidian অ্যাপ্লিকেশনের গুরুত্বপূর্ণ অংশ দেখাতে হলে আইকন এবং ছবি অন্তর্ভুক্ত করুন। আপনি `Attachments` ফোল্ডারে ছবি সংরক্ষণ করতে পারেন।
 
-- The image should make the text it accompanies easier to understand.
+- ছবিটি যে টেক্সটের সাথে থাকে সেটি বোঝা সহজ করে তুলতে হবে।
 
- **Example**: Once enabled, the [[Word count]] plugin will create a new entry on your bottom statusbar.
+ **উদাহরণ**: চালু করা হলে, [[Word count]] প্লাগইন আপনার নিচের স্ট্যাটাসবারে একটি নতুন এন্ট্রি তৈরি করবে।
  
 ![[Style-guide-zoomed-example.png#interface|300]]
 
-- Images should be in either `.png` or `.svg` format.
-- If an image looks too big in the note, make it smaller outside of Obsidian, or adjust its dimensions as explained in [[Embed files#Embed an image in a note|embedding an image in a note]].
-- In rare cases, you may want to place especially large or complex images in a [[Callouts#Foldable callouts|folded callout]]. 
-- For pop-up windows or modals, the image should show the entire Obsidian application window.
+- ছবি `.png` বা `.svg` ফরম্যাটে থাকা উচিত।
+- যদি কোনো ছবি নোটে খুব বড় দেখায়, তাহলে Obsidian-এর বাইরে সেটি ছোট করুন, অথবা [[Embed files#একটি নোটে ছবি এমবেড করা|একটি নোটে ছবি এমবেড করার]] ব্যাখ্যা অনুযায়ী এর মাত্রা সামঞ্জস্য করুন।
+- বিরল ক্ষেত্রে, আপনি বিশেষভাবে বড় বা জটিল ছবি একটি [[Callouts#ভাঁজযোগ্য কলাউট|ভাঁজ করা কলাউটে]] রাখতে চাইতে পারেন।
+- পপ-আপ উইন্ডো বা মোডালের জন্য, ছবিতে সম্পূর্ণ Obsidian অ্যাপ্লিকেশন উইন্ডো দেখানো উচিত।
  ![[Style-guide-modal-example.png#interface]]
 
-### Icons
+### আইকন
 
-[Lucide](https://lucide.dev/icons/) and custom Obsidian icons can be used alongside detailed elements to provide a visual representation of a feature.
+কোনো ফিচারের ভিজ্যুয়াল উপস্থাপনা দিতে বিস্তারিত উপাদানের পাশাপাশি [Lucide](https://lucide.dev/icons/) এবং কাস্টম Obsidian আইকন ব্যবহার করা যেতে পারে।
 
-**Example:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
+**উদাহরণ:** বাম দিকের রিবনে, সক্রিয় ফাইলের একই ফোল্ডারে একটি ক্যানভাস তৈরি করতে **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] নির্বাচন করুন।
 
-**Guidelines for icons**
+**আইকনের জন্য নির্দেশিকা**
 
-- Store icons in the `Attachments/icons` folder.
-- Add the prefix `lucide-` before the Lucide icon name.
-- Add the prefix `obsidian-icon-` before the Obsidian icon name.
+- `Attachments/icons` ফোল্ডারে আইকন সংরক্ষণ করুন।
+- Lucide আইকনের নামের আগে `lucide-` প্রিফিক্স যোগ করুন।
+- Obsidian আইকনের নামের আগে `obsidian-icon-` প্রিফিক্স যোগ করুন।
 
-**Example:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
+**উদাহরণ:** নতুন ক্যানভাস তৈরির আইকনের নাম হওয়া উচিত `lucide-layout-dashboard`।
 
-- Use the SVG version of the icons available.
-- Icons should be `18` pixels in width, `18` pixels in height, and have a stroke width of `1.5`. You can adjust these settings in the SVG data.
+- উপলব্ধ আইকনগুলোর SVG সংস্করণ ব্যবহার করুন।
+- আইকনগুলোর প্রস্থ `18` পিক্সেল, উচ্চতা `18` পিক্সেল এবং স্ট্রোক প্রস্থ `1.5` হওয়া উচিত। আপনি SVG ডেটাতে এই সেটিংসগুলো সামঞ্জস্য করতে পারেন।
 
-> [!info]- Adjusting size and stroke in an SVG
+> [!info]- একটি SVG-তে আকার এবং স্ট্রোক সামঞ্জস্য করা
 > ```html
 > <svg xmlns="http://www.w3.org/2000/svg" width="WIDTH" height="HEIGHT" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="STROKE-WIDTH" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></svg>
 >```
 
-- Utilize the `icon` anchor in embedded images, to tweak the spacing around the icon so that it aligns neatly with the text in the vicinity.
-- Icons should be surrounded by parenthesis. ![[lucide-cog.svg#icon]]
+- এমবেড করা ছবিতে `icon` অ্যাঙ্কর ব্যবহার করুন, যাতে আইকনের চারপাশের স্পেসিং সামঞ্জস্য করে আশেপাশের টেক্সটের সাথে এটি সুন্দরভাবে মিলে যায়।
+- আইকনগুলো বন্ধনী দিয়ে ঘেরা থাকা উচিত। ![[lucide-cog.svg#icon]]
 
-**Example**: `![[lucide-cog.svg#icon]]`
+**উদাহরণ**: `![[lucide-cog.svg#icon]]`
 
-### Image anchor tags
+### ইমেজ অ্যাঙ্কর ট্যাগ
 
-Image anchors tags are available to add decorative changes to the embedded images. 
+এমবেড করা ছবিতে সাজসজ্জামূলক পরিবর্তন যোগ করার জন্য ইমেজ অ্যাঙ্কর ট্যাগ পাওয়া যায়।
 
-> [!warning] Live preview warning
-> The icon anchor tags will not display correctly in **Live preview.** Use **Reading view** to confirm the anchor tag has been applied. 
+> [!warning] লাইভ প্রিভিউ সতর্কতা
+> আইকন অ্যাঙ্কর ট্যাগ **Live preview**-এ সঠিকভাবে প্রদর্শিত হবে না। অ্যাঙ্কর ট্যাগটি প্রয়োগ হয়েছে কিনা তা নিশ্চিত করতে **Reading view** ব্যবহার করুন।
 
-**Icon**
+**আইকন**
 
 `![[lucide-menu.svg#icon]]`
 
-The icon anchor tag ensures correct vertical alignment for icons used to indicate interface elements.
+আইকন অ্যাঙ্কর ট্যাগ ইন্টারফেস উপাদান নির্দেশ করতে ব্যবহৃত আইকনগুলোর সঠিক উল্লম্ব প্রান্তিককরণ নিশ্চিত করে।
 
-The first menu icon uses the anchor tag ![[lucide-menu.svg#icon]], while the second menu icon ( ![[lucide-menu.svg]] ) does not.
+প্রথম মেনু আইকনটি অ্যাঙ্কর ট্যাগ ব্যবহার করে ![[lucide-menu.svg#icon]], অন্যদিকে দ্বিতীয় মেনু আইকনটি ( ![[lucide-menu.svg]] ) ব্যবহার করে না।
 
-**Interface**
+**ইন্টারফেস**
 
 `![[Vault picker.png#interface]]`
 
-The interface anchor tag adds a decorative box shadow around the image. In the first image, the interface anchor tag is applied.
+ইন্টারফেস অ্যাঙ্কর ট্যাগ ছবির চারপাশে একটি সাজসজ্জামূলক বক্স শ্যাডো যোগ করে। প্রথম ছবিতে, ইন্টারফেস অ্যাঙ্কর ট্যাগ প্রয়োগ করা হয়েছে।
 ![[Vault picker.png#interface]]
-In contrast, the second image does not have the interface anchor applied.
+বিপরীতে, দ্বিতীয় ছবিতে ইন্টারফেস অ্যাঙ্কর প্রয়োগ করা হয়নি।
 
 ![[Vault picker.png]]
 
-**Outline**
+**রূপরেখা**
 
 `![[Backlinks.png#outline]]`
 
-The outline anchor tag adds a subtle border around the image. In the first image, the outline anchor tag is applied. 
+আউটলাইন অ্যাঙ্কর ট্যাগ ছবির চারপাশে একটি সূক্ষ্ম বর্ডার যোগ করে। প্রথম ছবিতে, আউটলাইন অ্যাঙ্কর ট্যাগ প্রয়োগ করা হয়েছে।
 
-> [!tip] Observe the lower left of the image to see the difference.
+> [!tip] পার্থক্য দেখতে ছবির নিচের বামে লক্ষ্য করুন।
 
 ![[Backlinks.png#outline]]
 
-The second image lacks the outline anchor tag.
+দ্বিতীয় ছবিতে আউটলাইন অ্যাঙ্কর ট্যাগ নেই।
 
 ![[Backlinks.png]]
 
-### Optimization
+### অপ্টিমাইজেশন
 
-Images slow the loading time of the page, and take valuable [[Introduction to Obsidian Publish|Publish]] storage space. Optimizing images allows a reduction in file size, but maintains the visual integrity of the image. 
+ছবি পাতা লোড হওয়ার সময় ধীর করে দেয়, এবং মূল্যবান [[Introduction to Obsidian Publish|Publish]] স্টোরেজ স্পেস নেয়। ছবি অপ্টিমাইজ করলে ফাইলের আকার কমে, কিন্তু ছবির ভিজ্যুয়াল অখণ্ডতা বজায় থাকে।
 
-Both images and icons should be optimized.
+ছবি এবং আইকন উভয়ই অপ্টিমাইজ করা উচিত।
 
-> [!info] Tools for optimizing images
-> Here are a some recommended programs for reducing the size of your images.
+> [!info] ছবি অপ্টিমাইজ করার টুল
+> এখানে আপনার ছবির আকার কমানোর জন্য কিছু সুপারিশকৃত প্রোগ্রাম দেওয়া হলো।
 > - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
 > - **macOS:** [ImageOptim](https://imageoptim.com/)
 > - **Linux/Unix** [Trimage](https://trimage.org)
 > 
-> We recommend an optimization rate of 65-75%.
+> আমরা 65-75% অপ্টিমাইজেশন হার সুপারিশ করি।
 
-## Layout
+## লেআউট
 
-### Broken links
+### ভাঙা লিঙ্ক
 
-Before submitting your Pull Request, please check for any broken links in the documentation of the translation you are working on, and correct them. Broken links can occur naturally over time, so verifying their accuracy helps maintain the quality of the documentation.
+আপনার পুল রিকোয়েস্ট জমা দেওয়ার আগে, অনুগ্রহ করে আপনি যে অনুবাদে কাজ করছেন তার ডকুমেন্টেশনে কোনো ভাঙা লিঙ্ক আছে কিনা তা যাচাই করুন এবং সেগুলো সংশোধন করুন। সময়ের সাথে সাথে ভাঙা লিঙ্ক স্বাভাবিকভাবেই তৈরি হতে পারে, তাই তাদের নির্ভুলতা যাচাই করা ডকুমেন্টেশনের মান বজায় রাখতে সহায়তা করে।
 
-You can check for broken links using [[Community plugins]] or tools available in your IDE.
+আপনি [[Community plugins|কমিউনিটি প্লাগইন]] বা আপনার IDE-তে উপলব্ধ টুল ব্যবহার করে ভাঙা লিঙ্ক পরীক্ষা করতে পারেন।
 
-### Descriptions
+### বর্ণনা
 
-This documentation is edited on GitHub and hosted online via [[Introduction to Obsidian Publish|Obsidian Publish]], which includes [[Social media link previews#Description|descriptions]] for social cards and other [[SEO]] elements.
+এই ডকুমেন্টেশন GitHub-এ সম্পাদনা করা হয় এবং [[Introduction to Obsidian Publish|Obsidian Publish]]-এর মাধ্যমে অনলাইনে হোস্ট করা হয়, যাতে সোশ্যাল কার্ড এবং অন্যান্য [[SEO]] উপাদানের জন্য [[Social media link previews#বর্ণনা|বর্ণনা]] অন্তর্ভুক্ত থাকে।
 
-If the page you are working on does not have a `description` [[Properties|property]], please add one. The description should be 150 characters or fewer and provide an objective summary of the page's content.
+আপনি যে পাতায় কাজ করছেন তাতে যদি কোনো `description` [[Properties|প্রপার্টি]] না থাকে, তাহলে অনুগ্রহ করে একটি যোগ করুন। বর্ণনাটি 150 অক্ষর বা তার কম হওয়া উচিত এবং পাতার কনটেন্টের একটি বস্তুনিষ্ঠ সারসংক্ষেপ প্রদান করা উচিত।
 
-**Good**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
-**Could be tweaked**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.
+**ভালো**: Web Clipper দিয়ে স্বয়ংক্রিয়ভাবে ওয়েব পেজ মেটাডেটা ক্যাপচার এবং সংগঠিত করে এমন টেমপ্লেট তৈরি করতে শিখুন।
+**উন্নত করা যেতে পারে**: Web Clipper দিয়ে ওয়েব পেজ থেকে মেটাডেটা স্বয়ংক্রিয়ভাবে কীভাবে ক্যাপচার এবং সংগঠিত করতে টেমপ্লেট তৈরি করবেন তা শিখুন।
 
-### Directions
+### নির্দেশনা
 
-When writing or rewriting [[#Instructions]] on how to perform an action within the app, be sure to include steps for both the mobile and desktop versions.
+অ্যাপের মধ্যে কোনো অ্যাকশন সম্পাদন করার [[#নির্দেশাবলী]] লেখা বা পুনর্লিখন করার সময়, মোবাইল এবং ডেস্কটপ উভয় সংস্করণের জন্য ধাপ অন্তর্ভুক্ত করতে ভুলবেন না।
 
-If you do not have access to a mobile or desktop device, please mention this when submitting your Pull Request.
+যদি আপনার মোবাইল বা ডেস্কটপ ডিভাইসে অ্যাক্সেস না থাকে, তাহলে আপনার পুল রিকোয়েস্ট জমা দেওয়ার সময় এটি উল্লেখ করুন।
 
-## Translations
+## অনুবাদ
 
-  Translate the entirety of the content when completing a translation. This includes and is not limited to:
+  অনুবাদ সম্পন্ন করার সময় সম্পূর্ণ কনটেন্ট অনুবাদ করুন। এতে অন্তর্ভুক্ত এবং সীমাবদ্ধ নয়:
 
-- Note names
-- Folder names
-- Aliases
-- Attachment names
-- Alt link text
+- নোটের নাম
+- ফোল্ডারের নাম
+- এলিয়াস
+- অ্যাটাচমেন্টের নাম
+- অল্ট লিঙ্ক টেক্সট

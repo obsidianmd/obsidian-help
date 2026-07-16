@@ -1,47 +1,46 @@
 ---
-localized: null
 permalink: manage-notes
 publish: true
 mobile: false
 description: null
 ---
-You can manage files and folders in several ways, using [[Hotkeys]], [[Command palette|commands]], or [[File explorer]].
+আপনি বিভিন্নভাবে ফাইল ও ফোল্ডার পরিচালনা করতে পারেন, [[Hotkeys|হট-কিই]], [[Command palette|কমান্ড]], অথবা [[File explorer|ফাইল এক্সপ্লোরার]] ব্যবহার করে।
 
-## Create a new note
+## একটি নতুন নোট তৈরি করুন
 
-To create a new file:
+একটি নতুন ফাইল তৈরি করতে:
 
-1. Press `Ctrl+N` (or `Cmd+N` on macOS).
-2. Enter the name of the note and then press `Enter` to start editing the note.
+1. `Ctrl+N` (অথবা macOS-এ `Cmd+N`) চাপুন।
+2. নোটের নাম লিখুন এবং নোট সম্পাদনা শুরু করতে `Enter` চাপুন।
 
-You can also create notes using [[File explorer#Create a new note|File explorer]], or by selecting **Create new note** from the [[Command palette]].
+আপনি [[File explorer#Create a new note|ফাইল এক্সপ্লোরার]] ব্যবহার করে, অথবা [[Command palette|কমান্ড প্যালেট]] থেকে **Create new note** নির্বাচন করেও নোট তৈরি করতে পারেন।
 
-> [!hint] System character limitation
-> Obsidian will respect the filename limitations of the operating system you create the note on. If you plan to [[Sync your notes across devices|sync your notes across devices]], make sure your filenames are [safe for other operating systems](https://stackoverflow.com/q/1976007).
+> [!hint] সিস্টেম অক্ষর সীমাবদ্ধতা
+> আপনি যে অপারেটিং সিস্টেমে নোটটি তৈরি করছেন, Obsidian সেই সিস্টেমের ফাইলনেম সংক্রান্ত সীমাবদ্ধতা মেনে চলবে। আপনি যদি [[Sync your notes across devices|আপনার নোট একাধিক ডিভাইস জুড়ে সিঙ্ক]] করার পরিকল্পনা করেন, তাহলে নিশ্চিত করুন যে আপনার ফাইলনেমগুলো [অন্যান্য অপারেটিং সিস্টেমের জন্য নিরাপদ](https://stackoverflow.com/q/1976007)।
 ^blockquote-system-limitation
 
-## Rename a note
+## একটি নোটের নাম পরিবর্তন করুন
 
-To rename an active note:
+একটি সক্রিয় নোটের নাম পরিবর্তন করতে:
 
-1. Select the name of the note at the top of the editor (or press `F2`).
-2. Enter the new name and then press `Enter`.
+1. এডিটরের উপরে নোটের নাম নির্বাচন করুন (অথবা `F2` চাপুন)।
+2. নতুন নাম লিখুন এবং `Enter` চাপুন।
 
-When you rename a file, Obsidian automatically updates all the links to that file.
+আপনি যখন কোনো ফাইলের নাম পরিবর্তন করেন, Obsidian স্বয়ংক্রিয়ভাবে সেই ফাইলের সমস্ত লিঙ্ক আপডেট করে দেয়।
 
-You can rename a note or folder without opening it, by using [[File explorer#Rename a file or folder|File explorer]]
+আপনি [[File explorer#Rename a file or folder|ফাইল এক্সপ্লোরার]] ব্যবহার করে, কোনো নোট বা ফোল্ডার না খুলেই তার নাম পরিবর্তন করতে পারেন।
 
-## Delete a note
+## একটি নোট মুছে ফেলুন
 
-To delete a note, select **More options → Delete file** at the upper right of an active note.
+একটি নোট মুছতে, সক্রিয় নোটের উপরের ডানদিকে **More options → Delete file** নির্বাচন করুন।
 
-Or, select **Delete current file** from the [[Command palette]].
+অথবা, [[Command palette|কমান্ড প্যালেট]] থেকে **Delete current file** নির্বাচন করুন।
 
-You can also delete a note or folder, using the [[File explorer#Delete a file or folder|File explorer]].
+আপনি [[File explorer#Delete a file or folder|ফাইল এক্সপ্লোরার]] ব্যবহার করেও কোনো নোট বা ফোল্ডার মুছতে পারেন।
 
-> [!note] What happens to files after I delete them?
-> To change what happens to deleted files, select one of the following options under **[[Settings]] → Files & Links**:
+> [!note] ফাইল মুছে ফেলার পর সেগুলোর কী হয়?
+> মোছা ফাইলের সাথে কী ঘটবে তা পরিবর্তন করতে, **[[Settings]] → Files & Links**-এর অধীনে নিম্নলিখিত অপশনগুলোর একটি নির্বাচন করুন:
 >
-> - **System trash**: By default, deleted files end up in the system trash for your operating system. To restore a file, use your preferred file manager.
-> - **Obsidian trash**: You can send deleted files to a `.trash` folder in your vault.
-> - **Permanently delete**: Files are immediately deleted without any means to restore them.
+> - **System trash**: ডিফল্টভাবে, মোছা ফাইলগুলো আপনার অপারেটিং সিস্টেমের সিস্টেম ট্র্যাশে চলে যায়। একটি ফাইল পুনরুদ্ধার করতে, আপনার পছন্দের ফাইল ম্যানেজার ব্যবহার করুন।
+> - **Obsidian trash**: আপনি মোছা ফাইলগুলো আপনার ভল্টের একটি `.trash` ফোল্ডারে পাঠাতে পারেন।
+> - **Permanently delete**: ফাইলগুলো তৎক্ষণাৎ মুছে ফেলা হয়, পুনরুদ্ধারের কোনো উপায় ছাড়াই।

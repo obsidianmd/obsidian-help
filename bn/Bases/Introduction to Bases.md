@@ -1,41 +1,40 @@
 ---
-localized: null
 permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: 'Create database-like views of your notes, formatted as tables or cards. Edit, sort, and filter files using their properties.'
+description: 'আপনার নোটগুলোর ডেটাবেসের মতো ভিউ তৈরি করুন, টেবিল বা কার্ড হিসেবে ফরম্যাট করা। তাদের প্রপার্টি ব্যবহার করে ফাইল সম্পাদনা, সাজানো ও ফিল্টার করুন।'
 ---
-Bases is a [[Core plugins|core plugin]] that lets you create database-like views of your notes. Using a base you can view, edit, sort, and filter files and their [[Properties|properties]]. Bases can help you organize everything from projects to travel plans, reading lists, and more.
+Bases একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে আপনার নোটগুলোর ডেটাবেসের মতো ভিউ তৈরি করতে দেয়। একটি বেস ব্যবহার করে আপনি ফাইল এবং তাদের [[Properties|প্রপার্টি]] দেখতে, সম্পাদনা করতে, সাজাতে এবং ফিল্টার করতে পারেন। Bases আপনাকে প্রজেক্ট থেকে শুরু করে ভ্রমণ পরিকল্পনা, পড়ার তালিকা এবং আরও অনেক কিছু সংগঠিত করতে সাহায্য করতে পারে।
 
-Each base can have several [[Views|views]] with different layouts such as tables and cards. Below is an example of table view where each row is a file, and each column is a property of that file.
+প্রতিটি বেসে টেবিল ও কার্ডসের মতো বিভিন্ন লেআউটসহ একাধিক [[Views|ভিউ]] থাকতে পারে। নিচে একটি টেবিল ভিউয়ের উদাহরণ দেওয়া হলো যেখানে প্রতিটি সারি একটি ফাইল, এবং প্রতিটি কলাম সেই ফাইলের একটি প্রপার্টি।
 
-![Example of a base showing a table view with a list of books](bases-noshadow.png#interface)
+![বইয়ের তালিকাসহ একটি টেবিল ভিউ দেখানো একটি বেসের উদাহরণ](bases-noshadow.png#interface)
 
-All the data in Obsidian Bases is stored in your local [[Basic formatting syntax|Markdown]] files and their [[properties]]. The views are described by the [[Bases syntax]], which can be saved as a `.base` file or [[Create a base#Embed a base|embedded]] in code blocks within your Markdown files.
+Obsidian Bases-এর সব ডেটা আপনার স্থানীয় [[Basic formatting syntax|Markdown]] ফাইল এবং তাদের [[properties|প্রপার্টিতে]] সংরক্ষিত থাকে। ভিউগুলো [[Bases syntax]] দ্বারা বর্ণিত হয়, যা একটি `.base` ফাইল হিসেবে সংরক্ষণ করা যায় বা আপনার Markdown ফাইলের মধ্যে কোড ব্লকে [[Create a base#Embed a base|এম্বেড]] করা যায়।
 
-## How to use bases
+## বেসেস কীভাবে ব্যবহার করবেন
 
 - [[Create a base]]
-	- Learn how to create and embed a base.
+	- কীভাবে একটি বেস তৈরি ও এম্বেড করবেন তা জানুন।
 - [[Views]]
-	- Explore layouts, filter, sort, and group properties.
+	- লেআউট, ফিল্টার, সাজানো, এবং প্রপার্টি গ্রুপ করা এক্সপ্লোর করুন।
 - [[Formulas]]
-	- Create calculations using data from other properties.
+	- অন্যান্য প্রপার্টির ডেটা ব্যবহার করে হিসাব তৈরি করুন।
 - [[Functions]]
-	- Functions you can use in formulas and filters.
+	- ফর্মুলা ও ফিল্টারে ব্যবহার করা যায় এমন ফাংশন।
 - [[Bases syntax]]
-	- How base files are formatted.
+	- বেস ফাইল কীভাবে ফরম্যাট করা হয়।
 
-## View types
+## ভিউ টাইপ
 
-View can be displayed with different layouts. Additional layouts can be added by [[Community plugins]].
+ভিউ বিভিন্ন লেআউটে প্রদর্শিত হতে পারে। [[Community plugins|কমিউনিটি প্লাগইন]] দিয়ে আরও লেআউট যোগ করা যায়।
 
-- [[Table view|Table]]
-	- Display files as rows with columns that show properties of those files.
-- [[List view|List]]
-	- Display files as a list with bulleted or numbered markers.
-- [[Cards view|Cards]]
-	- Display files as a grid. Lets you create gallery-like views with images.
-- [[Map view|Map]]
-	- Display files as pins on an interactive map.
+- [[Table view|টেবিল]]
+	- ফাইলগুলোকে সারি হিসেবে প্রদর্শন করে যেখানে কলামে সেই ফাইলগুলোর প্রপার্টি দেখানো হয়।
+- [[List view|লিস্ট]]
+	- ফাইলগুলোকে বুলেট বা সংখ্যাযুক্ত মার্কারসহ একটি লিস্ট হিসেবে প্রদর্শন করে।
+- [[Cards view|কার্ডস]]
+	- ফাইলগুলোকে একটি গ্রিড হিসেবে প্রদর্শন করে। ছবি ব্যবহার করে গ্যালারির মতো ভিউ তৈরি করতে দেয়।
+- [[Map view|ম্যাপ]]
+	- ফাইলগুলোকে একটি ইন্টারঅ্যাক্টিভ ম্যাপে পিন হিসেবে প্রদর্শন করে।

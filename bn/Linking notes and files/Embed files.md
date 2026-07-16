@@ -1,39 +1,38 @@
 ---
-localized: null
 permalink: embeds
 cssclasses:
   - soft-embed
-description: Learn how to embed files from your vault in your notes to reuse content across multiple places.
+description: আপনার ভল্টের ফাইলগুলিকে আপনার নোটে এম্বেড করে একাধিক জায়গায় কন্টেন্ট পুনরায় ব্যবহার করবেন কীভাবে তা শিখুন।
 ---
 
-Embedded files display their content inline in a note and stay up to date when the source file changes.
+এম্বেড করা ফাইলগুলি একটি নোটের মধ্যে তাদের কন্টেন্ট প্রদর্শন করে এবং সোর্স ফাইল পরিবর্তিত হলে আপ টু ডেট থাকে।
 
-To embed a file in your vault, add an exclamation mark (`!`) in front of an [[Internal links|Internal link]]. You can embed files in any of the [[Accepted file formats]].
+আপনার ভল্টে একটি ফাইল এম্বেড করতে, একটি [[Internal links|অভ্যন্তরীণ লিঙ্কের]] সামনে একটি বিস্ময়সূচক চিহ্ন (`!`) যোগ করুন। আপনি [[Accepted file formats]]-এর যেকোনো একটিতে ফাইল এম্বেড করতে পারেন।
 
-> [!tip]- Drag and drop embed
-> On desktop, you can also drag and drop supported files directly into your note to embed them automatically.
+> [!tip]- ড্র্যাগ এবং ড্রপ এম্বেড
+> ডেস্কটপে, আপনি সমর্থিত ফাইলগুলি সরাসরি আপনার নোটে ড্র্যাগ এবং ড্রপ করেও স্বয়ংক্রিয়ভাবে সেগুলি এম্বেড করতে পারেন।
 
-## Embed a note in another note
+## একটি নোটকে অন্য নোটে এম্বেড করুন
 
-To embed a note:
+একটি নোট এম্বেড করতে:
 
 ```md
 ![[Internal links]]
 ```
 
-You can also embed specific [[Internal links#Link to a heading in a note|headings]] and [[Internal links#Link to a block in a note|blocks]].
+আপনি নির্দিষ্ট [[Internal links#একটি নোটে একটি হেডিং-এ লিঙ্ক করুন|হেডিং]] এবং [[Internal links#একটি নোটে একটি ব্লকে লিঙ্ক করুন|ব্লকও]] এম্বেড করতে পারেন।
 
 ```md
 ![[Internal links#^b15695]]
 ```
 
-The text below is an example of an embedded block:
+নিচের টেক্সটটি একটি এম্বেড করা ব্লকের উদাহরণ:
 
 ![[Internal links#^b15695]]
 
-## Embed an image in a note
+## একটি নোটে একটি ছবি এম্বেড করুন
 
-To embed an image:
+একটি ছবি এম্বেড করতে:
 
 ```md
 ![[Engelbart.jpg]]
@@ -41,17 +40,17 @@ To embed an image:
 
 ![[Engelbart.jpg#outline]]
 
-You can change the image dimensions by adding `|640x480` to the link destination, where 640 is the width and 480 is the height.
+আপনি লিঙ্ক গন্তব্যে `|640x480` যোগ করে ছবির মাত্রা পরিবর্তন করতে পারেন, যেখানে 640 হলো প্রস্থ এবং 480 হলো উচ্চতা।
 
 ```md
 ![[Engelbart.jpg|100x145]]
 ```
 
-If you only specify the width, the image scales proportionally. For example, `![[Engelbart.jpg|100]]`.
+আপনি যদি শুধুমাত্র প্রস্থ নির্দিষ্ট করেন, তাহলে ছবিটি সমানুপাতিকভাবে স্কেল হয়। উদাহরণস্বরূপ, `![[Engelbart.jpg|100]]`।
 
 ![[Engelbart.jpg#outline|100]]
 
-You can also embed an externally hosted image by using a Markdown link. You can control the width and height using the same syntax as a wikilink.
+আপনি Markdown লিঙ্ক ব্যবহার করে বাহ্যিকভাবে হোস্ট করা একটি ছবিও এম্বেড করতে পারেন। আপনি wikilink-এর মতো একই সিনট্যাক্স ব্যবহার করে প্রস্থ এবং উচ্চতা নিয়ন্ত্রণ করতে পারেন।
 
 ```md
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
@@ -59,9 +58,9 @@ You can also embed an externally hosted image by using a Markdown link. You can 
 
 ![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 
-## Embed an audio file in a note
+## একটি নোটে একটি অডিও ফাইল এম্বেড করুন
 
-To embed an audio file:
+একটি অডিও ফাইল এম্বেড করতে:
 
 ```md
 ![[Excerpt from Mother of All Demos (1968).ogg]]
@@ -69,40 +68,40 @@ To embed an audio file:
 
 ![[Excerpt from Mother of All Demos (1968).ogg]]
 
-## Embed a PDF in a note
+## একটি নোটে একটি PDF এম্বেড করুন
 
-To embed a PDF:
+একটি PDF এম্বেড করতে:
 
 ```md
 ![[Document.pdf]]
 ```
 
-You can also open a specific page in the PDF by adding `#page=N` to the link destination, where `N` is the number of the page:
+আপনি লিঙ্ক গন্তব্যে `#page=N` যোগ করে PDF-এর একটি নির্দিষ্ট পৃষ্ঠাও খুলতে পারেন, যেখানে `N` হলো পৃষ্ঠার সংখ্যা:
 
 ```md
 ![[Document.pdf#page=3]]
 ```
 
-You can also specify the height in pixels for the embedded PDF viewer by adding `#height=[number]` to the link. For example:
+আপনি লিঙ্কে `#height=[number]` যোগ করে এম্বেড করা PDF ভিউয়ারের জন্য পিক্সেলে উচ্চতাও নির্দিষ্ট করতে পারেন। উদাহরণস্বরূপ:
 
 ```md
 ![[Document.pdf#height=400]]
 ```
 
-## Embed a canvas in a note
+## একটি নোটে একটি ক্যানভাস এম্বেড করুন
 
-To embed a [[Canvas|canvas]]:
+একটি [[Canvas|ক্যানভাস]] এম্বেড করতে:
 
 ```md
 ![[My canvas.canvas]]
 ```
 
-> [!info]+ Canvas embeds show shapes only
-> Embedded canvases display shapes but not the text inside cards. To view the full canvas, open it directly.
+> [!info]+ ক্যানভাস এম্বেড শুধুমাত্র আকার দেখায়
+> এম্বেড করা ক্যানভাসগুলি আকার প্রদর্শন করে কিন্তু কার্ডের ভিতরের টেক্সট নয়। সম্পূর্ণ ক্যানভাস দেখতে, এটি সরাসরি খুলুন।
 
-## Embed a list in a note
+## একটি নোটে একটি তালিকা এম্বেড করুন
 
-To embed a list from a different note, first add a [[Internal links#Link to a block in a note|block identifier]] to your list:
+একটি ভিন্ন নোট থেকে একটি তালিকা এম্বেড করতে, প্রথমে আপনার তালিকায় একটি [[Internal links#একটি নোটে একটি ব্লকে লিঙ্ক করুন|ব্লক আইডেন্টিফায়ার]] যোগ করুন:
 
 ```md
 
@@ -112,12 +111,13 @@ To embed a list from a different note, first add a [[Internal links#Link to a bl
 ^my-list-id
 ```
 
-Then link to the list using the block identifier:
+তারপর ব্লক আইডেন্টিফায়ার ব্যবহার করে তালিকাটিতে লিঙ্ক করুন:
 
 ```md
 ![[My note#^my-list-id]]
 ```
 
-## Embed search results
+## অনুসন্ধান ফলাফল এম্বেড করুন
 
-![[Search#Embed search results in a note]]
+![[Search#একটি নোটে অনুসন্ধান ফলাফল এম্বেড করুন]]
+</content>

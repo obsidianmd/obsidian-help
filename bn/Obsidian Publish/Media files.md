@@ -1,39 +1,38 @@
 ---
-localized: null
 permalink: publish/media
 cssclasses:
   - soft-embed
 ---
-[[Introduction to Obsidian Publish|Obsidian Publish]] lets you host notes and various media types, including images and video clips, with a limit of 4 GB per site. For more details, please refer to our [[Accepted file formats|accepted file formats]].
+[[Introduction to Obsidian Publish|Obsidian Publish]] আপনাকে নোট এবং ছবি ও ভিডিও ক্লিপসহ বিভিন্ন ধরনের মিডিয়া হোস্ট করতে দেয়, প্রতি সাইটে ৪ GB সীমা সহ। আরও বিস্তারিত জানতে, দয়া করে আমাদের [[Accepted file formats|গৃহীত ফাইল ফরম্যাট]] দেখুন।
 
 ![[Publish limitations#^publish-media-limit]]
 
-This page provides tips to help you optimize your media files hosted on Publish.
+Publish-এ হোস্ট করা আপনার মিডিয়া ফাইল অপ্টিমাইজ করতে সাহায্যের জন্য এই পৃষ্ঠায় কিছু টিপস দেওয়া হলো।
 
-## Images
+## ছবি
 
-When uploading images directly to Publish, it's best to use `.svg`, `.webp`, and `.png` formats. We also recommend optimizing all images to reduce their file size while preserving visual quality.
+সরাসরি Publish-এ ছবি আপলোড করার সময়, `.svg`, `.webp`, এবং `.png` ফরম্যাট ব্যবহার করা ভালো। আমরা ভিজ্যুয়াল মান বজায় রেখে ফাইলের আকার কমাতে সব ছবি অপ্টিমাইজ করারও সুপারিশ করি।
 
 ![[Style guide#Optimization]]
 
-If you're using an external service to host an image, we still recommend sizing the image as needed according to our [[Embed files#Embed an image in a note|embedding instructions]].
+আপনি যদি একটি ছবি হোস্ট করতে বাইরের কোনো সেবা ব্যবহার করেন, তাহলেও আমরা আমাদের [[Embed files#Embed an image in a note|এম্বেড নির্দেশনা]] অনুযায়ী প্রয়োজনমতো ছবির আকার নির্ধারণ করার সুপারিশ করি।
 
-## PDFs
+## PDF
 
-PDFs come in various sizes and complexities. To optimize the performance of embedded PDFs in Publish, we recommend [compressing the files](https://www.adobe.com/acrobat/hub/how-to-make-pdfs-smaller.html) and removing any unnecessary images. Most PDF editors offer these capabilities.
+PDF নানা আকার ও জটিলতায় আসে। Publish-এ এম্বেড করা PDF-এর পারফরম্যান্স অপ্টিমাইজ করতে, আমরা [ফাইলগুলো সংকুচিত করা](https://www.adobe.com/acrobat/hub/how-to-make-pdfs-smaller.html) এবং যেকোনো অপ্রয়োজনীয় ছবি সরিয়ে ফেলার সুপারিশ করি। বেশিরভাগ PDF সম্পাদক এই সুবিধাগুলো দিয়ে থাকে।
 
-## Videos and audio
+## ভিডিও এবং অডিও
 
-Publish is not optimized for hosting large videos, GIFs, or audio files. Embedding internally hosted and linked videos is not recommended if you plan to host numerous files of these types.
+Publish বড় ভিডিও, GIF, বা অডিও ফাইল হোস্ট করার জন্য অপ্টিমাইজ করা নয়। আপনি যদি এই ধরনের অনেকগুলো ফাইল হোস্ট করার পরিকল্পনা করেন, তাহলে অভ্যন্তরীণভাবে হোস্ট ও লিঙ্ক করা ভিডিও এম্বেড করা সুপারিশযোগ্য নয়।
 
-For hosting a limited number of files, we recommend using the following formats:
+সীমিত সংখ্যক ফাইল হোস্ট করার জন্য, আমরা নিচের ফরম্যাটগুলো ব্যবহারের সুপারিশ করি:
 
-**Video**
+**ভিডিও**
 - `.mp4`
 - `.webm`
-- `.hevc` or `.av1` _(Note: Not widely supported)_
+- `.hevc` বা `.av1` _(নোট: ব্যাপকভাবে সমর্থিত নয়)_
 
-Audio
+অডিও
 - `.aac`
 - `.mp3`
 - `.opus`

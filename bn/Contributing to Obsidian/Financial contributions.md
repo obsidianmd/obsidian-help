@@ -1,13 +1,12 @@
 ---
-localized: null
 permalink: financial-contributions
 ---
-This page explains the ways you can support the development of Obsidian financially.
+এই পাতায় ব্যাখ্যা করা হয়েছে যে আপনি কীভাবে আর্থিকভাবে Obsidian-এর উন্নয়নে সহায়তা করতে পারেন।
 
-One of the best ways to support the team is through one or more of our paid products.
+টিমকে সহায়তা করার সবচেয়ে ভালো উপায়গুলোর একটি হলো আমাদের এক বা একাধিক পেইড পণ্য ব্যবহার করা।
 
-- If you need to sync notes across your devices, consider a subscription for [[Introduction to Obsidian Sync|Obsidian Sync]].
-- If you want to publish your notes to the world, consider a subscription for [[Introduction to Obsidian Publish|Obsidian Publish]].
-- If you use Obsidian at work, consider supporting Obsidian by purchasing a [[Commercial license|Commercial license]].
+- যদি আপনার ডিভাইসজুড়ে নোট সিঙ্ক করার প্রয়োজন হয়, তাহলে [[Introduction to Obsidian Sync|Obsidian Sync]]-এর জন্য একটি সাবস্ক্রিপশন বিবেচনা করুন।
+- যদি আপনি আপনার নোট বিশ্বের কাছে প্রকাশ করতে চান, তাহলে [[Introduction to Obsidian Publish|Obsidian Publish]]-এর জন্য একটি সাবস্ক্রিপশন বিবেচনা করুন।
+- যদি আপনি কর্মক্ষেত্রে Obsidian ব্যবহার করেন, তাহলে একটি [[Commercial license|কমার্শিয়াল লাইসেন্স]] কিনে Obsidian-কে সহায়তা করার কথা বিবেচনা করুন।
 
-We understand that you might not be interested in any of our other paid products right now, though we'd love to know how we can change that! If you still want to support Obsidian, consider getting a [[Catalyst license]].
+আমরা বুঝি যে হয়তো এই মুহূর্তে আমাদের অন্য কোনো পেইড পণ্যে আপনার আগ্রহ নেই, তবে আমরা জানতে চাই কীভাবে আমরা তা পরিবর্তন করতে পারি! তবুও যদি আপনি Obsidian-কে সহায়তা করতে চান, তাহলে একটি [[Catalyst license]] নেওয়ার কথা বিবেচনা করুন।

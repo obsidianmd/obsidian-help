@@ -1,8 +1,7 @@
 ---
-localized: null
 permalink: language
 ---
 
-The Obsidian interface has been translated to various languages by [[Credits#Translators|our amazing volunteer translators]]. You can change the interface language either in **[[Settings]]** ![[lucide-settings.svg#icon]] → **General** or when you create a new vault.
+Obsidian ইন্টারফেসটি [[Credits#Translators|আমাদের অসাধারণ স্বেচ্ছাসেবক অনুবাদকদের]] দ্বারা বিভিন্ন ভাষায় অনুবাদ করা হয়েছে। আপনি **[[Settings]]** ![[lucide-settings.svg#icon]] → **General**-এ অথবা নতুন ভল্ট তৈরি করার সময় ইন্টারফেসের ভাষা পরিবর্তন করতে পারেন।
 
-Is your language missing from the list? Are you seeing untranslated snippets of text? [[Translations|Help us translate Obsidian into your language]].
+আপনার ভাষা কি তালিকায় নেই? অনুবাদ না হওয়া টেক্সট স্নিপেট দেখছেন? [[Translations|Obsidian-কে আপনার ভাষায় অনুবাদ করতে আমাদের সাহায্য করুন]]।

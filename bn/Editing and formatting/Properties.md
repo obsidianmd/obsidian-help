@@ -1,136 +1,135 @@
 ---
-localized: null
 permalink: properties
 cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: 'Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers.'
+description: 'প্রপার্টি আপনাকে একটি নোট সম্পর্কে তথ্য সংগঠিত করতে দেয়। প্রপার্টিতে টেক্সট, লিঙ্ক, তারিখ, চেকবক্স, এবং সংখ্যার মতো গঠনবদ্ধ ডেটা থাকে।'
 ---
 
-Properties allow you to organize information about a note. Properties contain structured data such as text, links, dates, checkboxes, and numbers. Properties can also be used in combination with [[Community plugins]] that can do useful things with your structured data.
+প্রপার্টি আপনাকে একটি নোট সম্পর্কে তথ্য সংগঠিত করতে দেয়। প্রপার্টিতে টেক্সট, লিঙ্ক, তারিখ, চেকবক্স, এবং সংখ্যার মতো গঠনবদ্ধ ডেটা থাকে। প্রপার্টি [[Community plugins|কমিউনিটি প্লাগইনের]] সাথে মিলিয়েও ব্যবহার করা যায়, যা আপনার গঠনবদ্ধ ডেটা দিয়ে দরকারি কাজ করতে পারে।
 
-## Add properties to a note
+## নোটে প্রপার্টি যোগ করা
 
-There are several ways to add a property to a note:
+একটি নোটে প্রপার্টি যোগ করার একাধিক উপায় রয়েছে:
 
-- Use the **Add file property** [[Command palette|command]].
-- Use the **`Cmd/Ctrl+;`** [[Hotkeys|hotkey]].
-- Choose **Add file property** from the **More actions** menu (brought up by the three dots icon or by right-clicking the tab).
-- Type `---` at the very beginning of a file.
+- **Add file property** [[Command palette|কমান্ড]] ব্যবহার করুন।
+- **`Cmd/Ctrl+;`** [[Hotkeys|হট-কি]] ব্যবহার করুন।
+- **More actions** মেনু থেকে (তিনটি ডট আইকন বা ট্যাবে রাইট-ক্লিক করে দেখানো হয়) **Add file property** নির্বাচন করুন।
+- ফাইলের একদম শুরুতে `---` টাইপ করুন।
 
-Once you add a property, a row will appear at the top of the file with two inputs: the property _name_ and the property _value_.
+একবার আপনি একটি প্রপার্টি যোগ করলে, ফাইলের উপরে দুটি ইনপুটসহ একটি সারি দেখা যাবে: প্রপার্টি _নাম_ এবং প্রপার্টি _মান_।
 
-For the name, you can choose anything you like. Obsidian provides several default properties: `tags`, `cssclasses`, and `aliases`.
+নামের জন্য, আপনি যেকোনো কিছু বেছে নিতে পারেন। Obsidian বেশ কয়েকটি ডিফল্ট প্রপার্টি প্রদান করে: `tags`, `cssclasses`, এবং `aliases`।
 
-Once you choose the property name, you can give it a value.
+প্রপার্টির নাম বেছে নেওয়ার পর, আপনি এটিকে একটি মান দিতে পারেন।
 
-### Property types
+### প্রপার্টির ধরন
 
-In addition to a name and value, properties also have a _type_. A property's type determines what kind of values it can store and how Obsidian handles them. To change the type of a property, click the type icon next to the property name and select a different option. You can also manage property types using the [[Properties view]] core plugin.
+নাম এবং মান ছাড়াও, প্রপার্টির একটি _ধরন_ থাকে। একটি প্রপার্টির ধরন নির্ধারণ করে এটি কোন ধরনের মান সংরক্ষণ করতে পারে এবং Obsidian সেগুলো কীভাবে পরিচালনা করে। একটি প্রপার্টির ধরন পরিবর্তন করতে, প্রপার্টি নামের পাশের ধরন আইকনে ক্লিক করুন এবং একটি ভিন্ন অপশন নির্বাচন করুন। আপনি [[Properties view]] কোর প্লাগইন ব্যবহার করেও প্রপার্টির ধরন পরিচালনা করতে পারেন।
 
-Obsidian supports the following property types:
+Obsidian নিচের প্রপার্টির ধরনগুলো সমর্থন করে:
 
-- **[[#Text]]**
-- **[[#List]]**
-- **[[#Number]]**
-- **[[#Checkbox]]**
-- **[[#Date]]**
-- **[[#Date & time]]**
-- **[[#Tags]]**
+- **[[#Text|অক্ষর]]**
+- **[[#List|তালিকা]]**
+- **[[#Number|সংখ্যা]]**
+- **[[#Checkbox|চেকবক্স]]**
+- **[[#Date|তারিখ]]**
+- **[[#Date & time|তারিখ ও সময়]]**
+- **[[#Tags|ট্যাগ]]**
 
-Once a property type is assigned to a property name, all properties with that name across your vault will use the same type.
+একটি প্রপার্টির নামে একবার প্রপার্টির ধরন নির্ধারণ করা হলে, আপনার ভল্টের সেই নামের সব প্রপার্টি একই ধরন ব্যবহার করবে।
 
-## Advanced uses
+## অ্যাডভান্সড ব্যবহার
 
-### Search properties
+### প্রপার্টি অনুসন্ধান করা
 
-Properties have their own [[Search|search syntax]] that you can use alongside other search terms and operators. [[Search#Search properties|See search syntax for properties]].
+প্রপার্টির নিজস্ব [[Search|অনুসন্ধান সিনট্যাক্স]] রয়েছে যা আপনি অন্যান্য অনুসন্ধান শব্দ এবং অপারেটরের সাথে একসাথে ব্যবহার করতে পারেন। [[Search#Search properties|প্রপার্টির জন্য অনুসন্ধান সিনট্যাক্স দেখুন]]।
 
-### Templates
+### টেমপ্লেট
 
-You can add properties to [[Plugins/Templates|Templates]].
+আপনি [[Plugins/Templates|টেমপ্লেটে]] প্রপার্টি যোগ করতে পারেন।
 
-When you insert a template into the active note, all the properties from the template will be added to the note. Obsidian will also merge any properties that exist in your note with properties in the template. ^templates-properties
+যখন আপনি সক্রিয় নোটে একটি টেমপ্লেট সন্নিবেশ করেন, তখন টেমপ্লেটের সব প্রপার্টি নোটে যোগ করা হবে। Obsidian আপনার নোটে থাকা প্রপার্টিগুলোকেও টেমপ্লেটের প্রপার্টির সাথে একত্র করবে। ^templates-properties
 
-### Rename properties
+### প্রপার্টির নাম পরিবর্তন করা
 
-You can rename a property by right-clicking it in the [[Properties view|All properties view]].
+আপনি [[Properties view|সব প্রপার্টি ভিউ]]-এ রাইট-ক্লিক করে একটি প্রপার্টির নাম পরিবর্তন করতে পারেন।
 
-### Display modes
+### প্রদর্শন মোড
 
-You can change how properties are displayed in your note by going to  **[[Settings]] → Editor → Properties in document**. The options are:
+আপনার নোটে প্রপার্টি কীভাবে প্রদর্শিত হবে তা পরিবর্তন করতে **[[Settings]] → Editor → Properties in document**-এ যান। অপশনগুলো হলো:
 
-- **Visible** (default) – displays properties at the top of the note, if there are any.
-- **Hidden** – hides properties, can still be displayed in the sidebar via [[Properties view]].
-- **Source** – displays properties in plain text YAML format.
+- **Visible** (ডিফল্ট) – যদি কোনো প্রপার্টি থাকে, তাহলে নোটের উপরে সেগুলো প্রদর্শন করে।
+- **Hidden** – প্রপার্টি লুকিয়ে রাখে, তবে [[Properties view]]-এর মাধ্যমে সাইডবারে এখনও প্রদর্শন করা যায়।
+- **Source** – প্রপার্টিগুলো প্লেইন টেক্সট YAML ফরম্যাটে প্রদর্শন করে।
 
-### CSS snippets
+### CSS স্নিপেট
 
-You can use [[CSS snippets]] to change the appearance of specific notes.
+নির্দিষ্ট নোটের চেহারা পরিবর্তন করতে আপনি [[CSS snippets]] ব্যবহার করতে পারেন।
 
-### Not supported
+### সমর্থিত নয়
 
-A few features are not currently supported in Obsidian:
+কিছু ফিচার বর্তমানে Obsidian-এ সমর্থিত নয়:
 
-- **Nested properties**: To view nested properties, we recommend using the [[Views and editing mode#Source mode|source mode]].
-- **Bulk-editing properties**: For in-depth bulk editing outside of [[Properties view]], we recommend using bulk-editing tools like VSCode, scripts, and community plugins.
-- **Markdown in properties**: This is an intentional limitation as properties are meant for small, atomic bits of information that are both human and machine readable.
+- **নেস্টেড প্রপার্টি**: নেস্টেড প্রপার্টি দেখতে, আমরা [[Views and editing mode#Source mode|সোর্স মোড]] ব্যবহারের পরামর্শ দিই।
+- **প্রপার্টির বাল্ক-এডিটিং**: [[Properties view]]-এর বাইরে গভীর বাল্ক এডিটিংয়ের জন্য, আমরা VSCode, স্ক্রিপ্ট, এবং কমিউনিটি প্লাগইনের মতো বাল্ক-এডিটিং টুল ব্যবহারের পরামর্শ দিই।
+- **প্রপার্টিতে Markdown**: এটি একটি ইচ্ছাকৃত সীমাবদ্ধতা, কারণ প্রপার্টি ছোট, স্বতন্ত্র তথ্যের টুকরার জন্য তৈরি করা হয়েছে যা মানুষ এবং মেশিন উভয়ের জন্যই পাঠযোগ্য।
 
-## Hotkeys
+## হট-কিই
 
-### Add a property
+### একটি প্রপার্টি যোগ করা
 
-| Action | Hotkey |
+| কার্যক্রম | হট-কি |
 |---|---|
-|Add new property|`Cmd + ;`|
+|নতুন প্রপার্টি যোগ করা|`Cmd + ;`|
 
-### Navigate between properties
+### প্রপার্টির মধ্যে নেভিগেট করা
 
-When a property is focused 
+যখন একটি প্রপার্টি ফোকাস করা থাকে 
 
-| Action | Hotkey |
+| কার্যক্রম | হট-কি |
 |---|---|
-|Focus next property|`Down arrow` or `Tab`|
-|Focus previous property|`Up arrow` or `Shift+Tab`|
-|Jump to editor|`Alt+Down arrow`|
+|পরবর্তী প্রপার্টি ফোকাস করা|`Down arrow` or `Tab`|
+|পূর্ববর্তী প্রপার্টি ফোকাস করা|`Up arrow` or `Shift+Tab`|
+|এডিটরে যাওয়া|`Alt+Down arrow`|
 
-### Select properties
+### প্রপার্টি নির্বাচন করা
 
-| Action | Hotkey |
+| কার্যক্রম | হট-কি |
 |---|---|
-|Extend selection upwards|`Shift+Up arrow`|
-|Extend selection downwards|`Shift+Down arrow`|
-|Select all|`Cmd+A`|
+|নির্বাচন উপরের দিকে বাড়ানো|`Shift+Up arrow`|
+|নির্বাচন নিচের দিকে বাড়ানো|`Shift+Down arrow`|
+|সব নির্বাচন করা|`Cmd+A`|
 
-### Edit properties
+### প্রপার্টি সম্পাদনা করা
 
-| Action | Hotkey |
+| কার্যক্রম | হট-কি |
 |---|---|
-|Edit property name|`Left arrow`|
-|Edit property value|`Right arrow`|
-|Focus property|`Escape`|
-|Delete property|`Cmd+Backspace`<br><br>if any properties are selected, it will delete the selection instead.|
-|Undo|`Cmd+Z`|
-|Redo|`Cmd+Shift+Z`|
+|প্রপার্টির নাম সম্পাদনা করা|`Left arrow`|
+|প্রপার্টির মান সম্পাদনা করা|`Right arrow`|
+|প্রপার্টি ফোকাস করা|`Escape`|
+|প্রপার্টি মুছে ফেলা|`Cmd+Backspace`<br><br>যদি কোনো প্রপার্টি নির্বাচিত থাকে, তাহলে এটি পরিবর্তে নির্বাচনটি মুছে ফেলবে।|
+|পূর্বাবস্থা|`Cmd+Z`|
+|পুনরায় করা|`Cmd+Shift+Z`|
 
-### Vim (advanced)
+### Vim (অ্যাডভান্সড)
 
-| Action | Hotkey |
+| কার্যক্রম | হট-কি |
 |---|---|
-|Move down|`j`|
-|Move up|`k`|
-|Focus key|`h`|
-|Focus value|`l`|
-|Focus value (Cursor at end)|`A`|
-|Focus value (Cursor at beginning)|`i`|
-|Create new property|`o`|
+|নিচে সরানো|`j`|
+|উপরে সরানো|`k`|
+|কী ফোকাস করা|`h`|
+|মান ফোকাস করা|`l`|
+|মান ফোকাস করা (কার্সর শেষে)|`A`|
+|মান ফোকাস করা (কার্সর শুরুতে)|`i`|
+|নতুন প্রপার্টি তৈরি করা|`o`|
 
-## Property format
+## প্রপার্টির ফরম্যাট
 
-Properties are stored in [YAML](https://yaml.org/) format at the top of the file. YAML is a popular format that is easy for both humans and computers to read.
+প্রপার্টি ফাইলের উপরে [YAML](https://yaml.org/) ফরম্যাটে সংরক্ষিত হয়। YAML একটি জনপ্রিয় ফরম্যাট যা মানুষ এবং কম্পিউটার উভয়ের জন্যই পড়া সহজ।
 
-Property names are separated from their values by a colon followed by a space:
+প্রপার্টির নাম এবং তার মান একটি কোলনের পরে একটি স্পেস দিয়ে আলাদা করা হয়:
 
 ```yaml
 ---
@@ -138,15 +137,15 @@ name: value
 ---
 ```
 
-While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tags` property.
+প্রতিটি নাম-মান জোড়ার ক্রম গুরুত্বপূর্ণ না হলেও, একটি নোটের মধ্যে প্রতিটি নাম অবশ্যই অনন্য হতে হবে। উদাহরণস্বরূপ, আপনার একাধিক `tags` প্রপার্টি থাকতে পারবে না।
 
-Values can be [[#Text|text]], [[#Number|numbers]], [[#Checkbox|checkboxes]], [[#Date|dates]], [[#Date & time|dates and times]], or [[#List|lists]].
+মান হতে পারে [[#Text|টেক্সট]], [[#Number|সংখ্যা]], [[#Checkbox|চেকবক্স]], [[#Date|তারিখ]], [[#Date & time|তারিখ ও সময়]], বা [[#List|তালিকা]]।
 
-### Text
+### অক্ষর
 
-Text properties contain a single line of text. Markdown formatting is not rendered in text properties. Hashtags do not create tags when used in text properties.
+অক্ষর প্রপার্টিতে টেক্সটের একটি মাত্র লাইন থাকে। অক্ষর প্রপার্টিতে Markdown ফরম্যাটিং রেন্ডার করা হয় না। অক্ষর প্রপার্টিতে ব্যবহৃত হ্যাশট্যাগ ট্যাগ তৈরি করে না।
 
-Text properties can contain URLs and [[Internal links]] using the `[[Link]]` syntax. [[Internal links]] in text properties must be surrounded with quotes. Obsidian will automatically add these if you manually enter internal links into properties, but be careful to add them when using templating plugins.
+অক্ষর প্রপার্টিতে `[[Link]]` সিনট্যাক্স ব্যবহার করে URL এবং [[Internal links|ইন্টার্নাল লিঙ্ক]] থাকতে পারে। অক্ষর প্রপার্টিতে থাকা [[Internal links|ইন্টার্নাল লিঙ্ক]] অবশ্যই কোটেশনের মধ্যে থাকতে হবে। আপনি যদি ম্যানুয়ালি প্রপার্টিতে ইন্টার্নাল লিঙ্ক প্রবেশ করান, তাহলে Obsidian স্বয়ংক্রিয়ভাবে এগুলো যোগ করে দেবে, তবে টেমপ্লেটিং প্লাগইন ব্যবহার করার সময় এগুলো যোগ করতে সতর্ক থাকুন।
 
 ```yaml
 ---
@@ -156,11 +155,11 @@ url: https://www.example.com
 ---
 ```
 
-### List
+### তালিকা
 
-List properties contain multiple values. Each value in a list appears on its own line, preceded by a hyphen (-) and a space.
+তালিকা প্রপার্টিতে একাধিক মান থাকে। তালিকার প্রতিটি মান তার নিজস্ব লাইনে, একটি হাইফেন (-) এবং একটি স্পেস দিয়ে শুরু হয়ে, প্রদর্শিত হয়।
 
-List values can contain text, numbers, and [[Internal links]]. When using [[Internal links]] in list properties, surround them with quotes.
+তালিকার মানে টেক্সট, সংখ্যা, এবং [[Internal links|ইন্টার্নাল লিঙ্ক]] থাকতে পারে। তালিকা প্রপার্টিতে [[Internal links|ইন্টার্নাল লিঙ্ক]] ব্যবহার করার সময়, সেগুলোকে কোটেশনের মধ্যে রাখুন।
 
 ```yaml
 ---
@@ -174,9 +173,9 @@ links:
 ---
 ```
 
-### Number
+### সংখ্যা
 
-Number type properties must always be a literal number, not an expression with operators. Integers and decimals are both allowed.
+সংখ্যা ধরনের প্রপার্টি সবসময় একটি প্রকৃত সংখ্যা হতে হবে, অপারেটরসহ কোনো এক্সপ্রেশন নয়। পূর্ণসংখ্যা এবং দশমিক—দুটোই অনুমোদিত।
 
 ```yaml
 ---
@@ -185,9 +184,9 @@ pie: 3.14
 ---
 ```
 
-### Checkbox
+### চেকবক্স
 
-Checkbox properties are either `true` or `false`. In Live Preview, this displays as a checkbox.
+চেকবক্স প্রপার্টি হয় `true` অথবা `false`। লাইভ প্রিভিউতে, এটি একটি চেকবক্স হিসেবে প্রদর্শিত হয়।
 
 ```yaml
 ---
@@ -196,9 +195,9 @@ reply: false
 last: # Inderminate value; often treated as false
 ```
 
-### Date
+### তারিখ
 
-Date properties are stored in the following format: 
+তারিখ প্রপার্টি নিচের ফরম্যাটে সংরক্ষিত হয়: 
 
 ```yaml
 ---
@@ -206,7 +205,7 @@ date: 2020-08-21
 ---
 ```
 
-The date picker follows your operating system's default date and time format. You can change it in your system preferences: 
+তারিখ পিকার আপনার অপারেটিং সিস্টেমের ডিফল্ট তারিখ ও সময় ফরম্যাট অনুসরণ করে। আপনি আপনার সিস্টেম প্রেফারেন্সে এটি পরিবর্তন করতে পারেন: 
 
 > [!info]- Windows
 > **[[Settings]] → Time & Language → Language & Region → Regional Format → Change Formats**
@@ -218,13 +217,13 @@ The date picker follows your operating system's default date and time format. Yo
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
-With the [[Daily notes]] plugin enabled, the date property will additionally function as an internal link to the corresponding daily note for that date.
+[[Daily notes|দৈনিক নোট]] প্লাগইন সক্রিয় থাকলে, তারিখ প্রপার্টিটি সেই তারিখের সংশ্লিষ্ট দৈনিক নোটের একটি ইন্টার্নাল লিঙ্ক হিসেবেও কাজ করবে।
 
 ![[Daily notes#^daily-notes-date]]
 
-### Date & time
+### তারিখ ও সময়
 
-Date & time properties include both a date and a specific time, stored in the following format:
+তারিখ ও সময় প্রপার্টিতে একটি তারিখ এবং একটি নির্দিষ্ট সময় উভয়ই অন্তর্ভুক্ত থাকে, যা নিচের ফরম্যাটে সংরক্ষিত হয়:
 
 ```yaml
 ---
@@ -232,13 +231,13 @@ time: 2020-08-21T10:30:00
 ---
 ```
 
-Like [[#Date|date properties]], the date and time picker follows your operating system's default format. You can change it in your system preferences.
+[[#Date|তারিখ প্রপার্টির]] মতো, তারিখ ও সময় পিকার আপনার অপারেটিং সিস্টেমের ডিফল্ট ফরম্যাট অনুসরণ করে। আপনি আপনার সিস্টেম প্রেফারেন্সে এটি পরিবর্তন করতে পারেন।
 
-### Tags
+### ট্যাগ
 
-Tags properties are a special property type used exclusively by the `tags` property. This property type cannot be assigned to other properties.
+ট্যাগ প্রপার্টি একটি বিশেষ প্রপার্টির ধরন যা শুধুমাত্র `tags` প্রপার্টি ব্যবহার করে। এই প্রপার্টির ধরনটি অন্য প্রপার্টিতে বরাদ্দ করা যায় না।
 
-Tags properties are formatted as a list, with each tag on its own line preceded by a hyphen (-) and a space. 
+ট্যাগ প্রপার্টি একটি তালিকা হিসেবে ফরম্যাট করা হয়, যেখানে প্রতিটি ট্যাগ তার নিজস্ব লাইনে, একটি হাইফেন (-) এবং একটি স্পেস দিয়ে শুরু হয়ে থাকে। 
 
 ```yaml
 ---
@@ -249,11 +248,11 @@ tags:
 ---
 ```
 
-The `tags` property is one of Obsidian's [[#Default properties]]. See [[Tags]] for more information about using tags in Obsidian.
+`tags` প্রপার্টিটি Obsidian-এর [[#Default properties|ডিফল্ট প্রপার্টির]] একটি। Obsidian-এ ট্যাগ ব্যবহার সম্পর্কে আরও তথ্যের জন্য [[Tags]] দেখুন।
 
-### JSON properties
+### JSON প্রপার্টি
 
-While we recommend using YAML to define properties, you can also define properties using [JSON](https://www.json.org/):
+আমরা প্রপার্টি নির্ধারণে YAML ব্যবহারের পরামর্শ দিলেও, আপনি [JSON](https://www.json.org/) ব্যবহার করেও প্রপার্টি নির্ধারণ করতে পারেন:
 
 ```json
 ---
@@ -264,38 +263,38 @@ While we recommend using YAML to define properties, you can also define properti
 ---
 ```
 
-Note that the JSON block will be read, interpreted, and saved as YAML.
+লক্ষ্য করুন যে JSON ব্লকটি পড়া, ব্যাখ্যা করা, এবং YAML হিসেবে সংরক্ষণ করা হবে।
 
-## Default properties
+## ডিফল্ট প্রপার্টি
 
-Obsidian comes with a set of default properties:
+Obsidian ডিফল্ট প্রপার্টির একটি সেট সহ আসে:
 
 | Property     | Type | Description                                                  |
 | ------------ | ---- | ------------------------------------------------------------ |
-| `tags`       | List | See [[Editing and formatting/Tags\|Tags]].                   |
-| `aliases`    | List | See [[Aliases]].                                             |
-| `cssclasses` | List | Allows you to style individual notes using [[CSS snippets]]. |
+| `tags`       | List | দেখুন [[Editing and formatting/Tags\|ট্যাগ]]।                   |
+| `aliases`    | List | দেখুন [[Aliases]]।                                             |
+| `cssclasses` | List | [[CSS snippets]] ব্যবহার করে পৃথক নোট স্টাইল করার সুযোগ দেয়। |
 
-### Properties for Obsidian Publish
+### Obsidian Publish-এর জন্য প্রপার্টি
 
-The following default properties can be used with [[Introduction to Obsidian Publish|Obsidian Publish]]:
+নিচের ডিফল্ট প্রপার্টিগুলো [[Introduction to Obsidian Publish|Obsidian Publish]]-এর সাথে ব্যবহার করা যায়:
 
 | Property      | Description                                                                                                |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| `publish`     | See [[Publish your content#Automatically select data to publish\|Automatically select data to publish]]. |
-| `permalink`   | See [[Permalinks\|Permalinks]].                                                                            |
-| `description` | See [[Social media link previews#Description\|Description]].                                               |
-| `image`       | See [[Social media link previews#Image\|Image]].                                                           |
-| `cover`       | See [[Social media link previews#Image\|Image]].                                                           |
+| `publish`     | দেখুন [[Publish your content#Automatically select data to publish\|প্রকাশের জন্য স্বয়ংক্রিয়ভাবে ডেটা নির্বাচন করা]]। |
+| `permalink`   | দেখুন [[Permalinks\|পার্মালিঙ্ক]]।                                                                            |
+| `description` | দেখুন [[Social media link previews#Description\|Description]]।                                               |
+| `image`       | দেখুন [[Social media link previews#Image\|Image]]।                                                           |
+| `cover`       | দেখুন [[Social media link previews#Image\|Image]]।                                                           |
 
-### Deprecated properties
+### ডেপ্রিকেটেড প্রপার্টি
 
-These properties were deprecated in Obsidian 1.4 and should be replaced with their modern equivalents. Support for them as [[#Default properties]] is dropped in Obsidian 1.9.
+এই প্রপার্টিগুলো Obsidian 1.4-এ ডেপ্রিকেটেড করা হয়েছে এবং সেগুলোকে তাদের আধুনিক সমতুল্য দিয়ে প্রতিস্থাপন করা উচিত। [[#Default properties|ডিফল্ট প্রপার্টি]] হিসেবে এগুলোর সমর্থন Obsidian 1.9-এ বাদ দেওয়া হয়েছে।
 
 | Property | Description |
 |-|-|
-| `tag` | Deprecated alias for `tags`. |
-| `alias` | Deprecated alias for `aliases`. |
-| `cssclass` | Deprecated alias for `cssclasses`. |
+| `tag` | `tags`-এর জন্য ডেপ্রিকেটেড উপনাম। |
+| `alias` | `aliases`-এর জন্য ডেপ্রিকেটেড উপনাম। |
+| `cssclass` | `cssclasses`-এর জন্য ডেপ্রিকেটেড উপনাম। |
 
-> [!tip] If you need to convert your files in your vault to the [[#Default properties]] format, you can use [[Format converter]] to change your vault en masse.
+> [!tip] যদি আপনার ভল্টের ফাইলগুলোকে [[#Default properties|ডিফল্ট প্রপার্টি]] ফরম্যাটে রূপান্তর করার প্রয়োজন হয়, তাহলে আপনার পুরো ভল্ট একসাথে পরিবর্তন করতে আপনি [[Format converter]] ব্যবহার করতে পারেন।

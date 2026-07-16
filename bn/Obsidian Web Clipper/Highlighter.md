@@ -1,43 +1,42 @@
 ---
-localized: null
 permalink: web-clipper/highlight
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] lets you highlight text on web pages, and select the elements you want to save to Obsidian. Highlights are saved so you can see them when you return to a page.
+[[Introduction to Obsidian Web Clipper|Web Clipper]] আপনাকে ওয়েব পেজে টেক্সট হাইলাইট করতে দেয়, এবং Obsidian-এ সংরক্ষণ করতে চান এমন এলিমেন্ট নির্বাচন করতে দেয়। হাইলাইটগুলো সংরক্ষিত থাকে যাতে আপনি পেজে ফিরে এলে সেগুলো দেখতে পান।
 
-Highlights can be saved to Obsidian using the extension. You can define highlighter options in the extension settings.
+এক্সটেনশনটি ব্যবহার করে হাইলাইটগুলো Obsidian-এ সংরক্ষণ করা যায়। আপনি এক্সটেনশন সেটিংসে হাইলাইটার অপশন নির্ধারণ করতে পারেন।
 
 <div style="padding:62.29% 0 0 0;position:relative;"><div class="interface" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/f2674kdaot?web_component=true&seo=false" title="2026-04-22 Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="100%" height="100%"></iframe></div></div>
 
-## Use the highlighter
+## হাইলাইটার ব্যবহার করুন
 
-Highlighter can be used on live web pages pages or [[Reader]]. In the Reader view, creating a text selection gives you the option to highlight it.
+হাইলাইটার লাইভ ওয়েব পেজে অথবা [[Reader]]-এ ব্যবহার করা যায়। Reader ভিউতে, টেক্সট নির্বাচন করলে আপনাকে সেটি হাইলাইট করার অপশন দেওয়া হয়।
 
-You can also automatically add selections to your highlights, by activating the highlighter:
+আপনি হাইলাইটার সক্রিয় করে আপনার নির্বাচনগুলো স্বয়ংক্রিয়ভাবে হাইলাইটে যোগও করতে পারেন:
 
-- ![[lucide-highlighter.svg#icon]] **Highlighter icon** in the extension panel or Reader toolbar.
-- **Keyboard shortcut** customizable in the extension settings.
-- **Context menu** by right-clicking the web page you are visiting.
+- ![[lucide-highlighter.svg#icon]] এক্সটেনশন প্যানেল বা Reader টুলবারে **Highlighter আইকন**।
+- এক্সটেনশন সেটিংসে কাস্টমাইজযোগ্য **কীবোর্ড শর্টকাট**।
+- আপনি যে ওয়েব পেজে আছেন সেখানে ডান-ক্লিক করে **কনটেক্সট মেনু**।
 
-Once Highlighter turned is on, any selected text, images, and elements will be added to your highlights. All the methods above also allow you to exit the highlighter.
+একবার Highlighter চালু হলে, যেকোনো নির্বাচিত টেক্সট, ছবি এবং এলিমেন্ট আপনার হাইলাইটে যোগ হবে। উপরের সব পদ্ধতিই হাইলাইটার থেকে বের হওয়ার সুযোগও দেয়।
 
-## Add highlights to notes
+## নোটে হাইলাইট যোগ করুন
 
-There are three options for how highlights can be inserted into your clipped notes:
+আপনার ক্লিপ করা নোটে হাইলাইট কীভাবে যোগ করা হবে তার তিনটি বিকল্প রয়েছে:
 
-- **Highlight the page content** — adds highlights directly to the text with the [[Obsidian Flavored Markdown|syntax]] `==highlight==`.
-- **Replace the page content** — returns a list of highlights, without any of the page content.
-- **Do nothing** — returns the original content without highlights.
+- **Highlight the page content** — [[Obsidian Flavored Markdown|সিনট্যাক্স]] `==highlight==` দিয়ে সরাসরি টেক্সটে হাইলাইট যোগ করে।
+- **Replace the page content** — পেজের কোনো কন্টেন্ট ছাড়াই হাইলাইটের একটি তালিকা ফেরত দেয়।
+- **Do nothing** — হাইলাইট ছাড়া মূল কন্টেন্ট ফেরত দেয়।
  
-These options change the `{{content}}` [[Variables|variable]] in your template. You can also add highlights directly to your template using the `{{highlights}}` variable, for example:
+এই অপশনগুলো আপনার টেমপ্লেটে `{{content}}` [[Variables|ভেরিয়েবল]] পরিবর্তন করে। আপনি `{{highlights}}` ভেরিয়েবল ব্যবহার করে সরাসরি আপনার টেমপ্লেটেও হাইলাইট যোগ করতে পারেন, উদাহরণস্বরূপ:
 
 ```
 {{highlights|map: item => item.text|join:"\n\n"}}
 ```
 
-## View and search highlights
+## হাইলাইট দেখুন এবং অনুসন্ধান করুন
 
-All the highlights you create can be viewed in your Highlights page. You can open this page by going to **Settings** → **Highlighter**.
+আপনার তৈরি করা সব হাইলাইট Highlights পেজে দেখা যায়। **Settings** → **Highlighter**-এ গিয়ে আপনি এই পেজটি খুলতে পারেন।
 
-## Export highlights
+## হাইলাইট এক্সপোর্ট করুন
 
-Highlights can be exported to a `.json` file, either in the Settings page or in the Highlights page.
+হাইলাইটগুলো Settings পেজ বা Highlights পেজ থেকে একটি `.json` ফাইলে এক্সপোর্ট করা যায়।

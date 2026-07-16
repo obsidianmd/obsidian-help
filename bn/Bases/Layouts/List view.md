@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: bases/views/list
 ---
-List is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+List হলো [[Introduction to Bases|Bases]]-এ ব্যবহার করা যায় এমন এক ধরনের [[Views|ভিউ]]।
 
-Select ![[lucide-list.svg#icon]]  **List** from the view menu to display files as a [[Basic formatting syntax#Lists|list]] with bulleted or numbered markers.
+ভিউ মেনু থেকে ![[lucide-list.svg#icon]]  **List** নির্বাচন করে ফাইলগুলোকে বুলেট বা সংখ্যাযুক্ত মার্কারসহ একটি [[Basic formatting syntax#Lists|লিস্ট]] হিসেবে প্রদর্শন করুন।
 
-## Settings
+## সেটিংস
 
-List view settings can be configured in [[Views#View settings|View settings]].
+লিস্ট ভিউয়ের সেটিংস [[Views#View settings|ভিউ সেটিংসে]] কনফিগার করা যায়।
 
-- Markers: bullets, numbers or none
-- Indent properties
-- Separators for properties
+- মার্কার: বুলেট, সংখ্যা বা কোনোটিই না
+- ইনডেন্ট প্রপার্টি
+- প্রপার্টির জন্য সেপারেটর
 
-### Markers
+### মার্কার
 
-Choose the type of list marker your want to use: bullets, numbers, or none.
+আপনি কোন ধরনের লিস্ট মার্কার ব্যবহার করতে চান তা বেছে নিন: বুলেট, সংখ্যা, বা কোনোটিই না।
 
-### Indent properties
+### ইনডেন্ট প্রপার্টি
 
-When toggled on, any properties you select in the **Properties** menu will be displayed as indented items for the primary list item.
+চালু থাকলে, **Properties** মেনুতে আপনার বেছে নেওয়া যেকোনো প্রপার্টি প্রাথমিক লিস্ট আইটেমের জন্য ইনডেন্ট করা আইটেম হিসেবে প্রদর্শিত হবে।
 
-To change your primary list item, move a property in the **Properties** menu to the top, by dragging it or using the `Alt + Up/Down` shortcut.
+আপনার প্রাথমিক লিস্ট আইটেম পরিবর্তন করতে, **Properties** মেনুতে একটি প্রপার্টি টেনে এনে, অথবা `Alt + Up/Down` শর্টকাট ব্যবহার করে সবার উপরে সরান।
 
-### Separators
+### সেপারেটর
 
-When **nested properties** is toggled off, this setting defines a character to separate the properties for each list item. Defaults to a comma.
+**nested properties** বন্ধ থাকলে, এই সেটিং প্রতিটি লিস্ট আইটেমের প্রপার্টিগুলো আলাদা করতে একটি অক্ষর নির্ধারণ করে। ডিফল্ট হলো একটি কমা।

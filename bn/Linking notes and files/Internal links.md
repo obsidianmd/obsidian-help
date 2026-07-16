@@ -1,111 +1,110 @@
 ---
-localized: null
 permalink: links
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: 'Learn how to link to notes, attachments, and other files from your notes, using internal links.'
+description: 'অভ্যন্তরীণ লিঙ্ক ব্যবহার করে আপনার নোট থেকে নোট, সংযুক্তি এবং অন্যান্য ফাইলে কীভাবে লিঙ্ক করবেন তা শিখুন।'
 ---
 
-Learn how to link to notes, attachments, and other files from your notes, using _internal links_. By linking notes, you can create a network of knowledge. ^b15695
+_অভ্যন্তরীণ লিঙ্ক_ ব্যবহার করে আপনার নোট থেকে নোট, সংযুক্তি এবং অন্যান্য ফাইলে কীভাবে লিঙ্ক করবেন তা শিখুন। নোটগুলি লিঙ্ক করে, আপনি জ্ঞানের একটি নেটওয়ার্ক তৈরি করতে পারেন। ^b15695
 
-Obsidian can automatically update internal links in your vault when you rename a file. If you want to be prompted instead, you can disable it under: 
+আপনি যখন একটি ফাইলের নাম পরিবর্তন করেন, তখন Obsidian স্বয়ংক্রিয়ভাবে আপনার ভল্টের অভ্যন্তরীণ লিঙ্কগুলি আপডেট করতে পারে। আপনি যদি পরিবর্তে প্রম্পট করতে চান, তাহলে আপনি এটি নিষ্ক্রিয় করতে পারেন এখানে:
 
-**[[Settings]]** → **[[Settings#Files and links|Files and links]]** → **[[Settings#Automatically update internal links|Automatically update internal links]]**.
+**[[Settings]]** → **[[Settings#Files and links|ফাইল এবং লিঙ্কস]]** → **[[Settings#Automatically update internal links|অভ্যন্তরীণ লিঙ্ক সবসময় আপডেট করুন]]**।
 
-## Supported formats for internal links
+## অভ্যন্তরীণ লিঙ্কের জন্য সমর্থিত ফরম্যাট
 
-Obsidian supports the following link formats:
+Obsidian নিম্নলিখিত লিঙ্ক ফরম্যাটগুলি সমর্থন করে:
 
-- Wikilink: `[[Three laws of motion]]` or `[[Three laws of motion.md]]`
-- Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` or `[Three laws of motion](Three%20laws%20of%20motion.md)`
+- Wikilink: `[[Three laws of motion]]` অথবা `[[Three laws of motion.md]]`
+- Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` অথবা `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
-The examples above are equivalent, and they appear the same way in the editor and links to the same note.
+উপরের উদাহরণগুলি সমতুল্য, এবং সেগুলি সম্পাদকে একইভাবে প্রদর্শিত হয় এবং একই নোটে লিঙ্ক করে।
 
-To link to a note in a folder, include the folder path before the note name. Folder paths start at the vault root and use forward slashes (`/`), even on Windows: `[[Projects/Three laws of motion]]` or `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+একটি ফোল্ডারের মধ্যে একটি নোটে লিঙ্ক করতে, নোটের নামের আগে ফোল্ডার পাথ অন্তর্ভুক্ত করুন। ফোল্ডার পাথ ভল্ট রুট থেকে শুরু হয় এবং ফরওয়ার্ড স্ল্যাশ (`/`) ব্যবহার করে, এমনকি Windows-এও: `[[Projects/Three laws of motion]]` অথবা `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`।
 
-If the link points to a note that doesn't exist yet, Obsidian creates the note at that folder path instead of using your [[Settings#Default location for new notes|default location for new notes]].
+যদি লিঙ্কটি এমন একটি নোটের দিকে নির্দেশ করে যা এখনো তৈরি হয়নি, তাহলে Obsidian আপনার [[Settings#Default location for new notes|নতুন নোটের ডিফল্ট অবস্থান]] ব্যবহার না করে সেই ফোল্ডার পাথে নোটটি তৈরি করে।
 
-> [!note] Note
-> When using the Markdown format, make sure to [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the link destination. For example, blank spaces become `%20`.
+> [!note] নোট
+> Markdown ফরম্যাট ব্যবহার করার সময়, নিশ্চিত করুন যে আপনি লিঙ্ক গন্তব্যটি [URL এনকোড](https://en.wikipedia.org/wiki/Percent-encoding) করেছেন। উদাহরণস্বরূপ, ফাঁকা স্থান `%20`-এ পরিণত হয়।
 
-By default, due to its more compact format, Obsidian generates links using the Wikilink format. If interoperability is important to you, you can disable Wikilinks and use Markdown links instead.
+ডিফল্টভাবে, এর আরও কম্প্যাক্ট ফরম্যাটের কারণে, Obsidian Wikilink ফরম্যাট ব্যবহার করে লিঙ্ক তৈরি করে। যদি ইন্টারঅপারেবিলিটি আপনার কাছে গুরুত্বপূর্ণ হয়, তাহলে আপনি Wikilinks নিষ্ক্রিয় করে পরিবর্তে Markdown লিঙ্ক ব্যবহার করতে পারেন।
 
-To use the Markdown format:
+Markdown ফরম্যাট ব্যবহার করতে:
 
-1. Open **[[Settings]]**.
-2. Under **Files and Links**, disable **Use \[\[Wikilinks\]\]**.
+1. **[[Settings]]** খুলুন।
+2. **ফাইল এবং লিঙ্কস**-এর অধীনে, **\[\[Wikilinks\]\] ব্যবহার করুন** নিষ্ক্রিয় করুন।
 
-Even if you disable the Wikilink format, you can still autocomplete links by typing two square brackets `[[`. When you select one of the suggested files, Obsidian instead generates a Markdown link.
+আপনি Wikilink ফরম্যাট নিষ্ক্রিয় করলেও, আপনি এখনও দুটি স্কোয়ার ব্র্যাকেট `[[` টাইপ করে লিঙ্ক অটোকমপ্লিট করতে পারেন। আপনি প্রস্তাবিত ফাইলগুলির মধ্যে একটি নির্বাচন করলে, Obsidian পরিবর্তে একটি Markdown লিঙ্ক তৈরি করে।
 
-> [!note] Invalid characters
-> A string which contains the following characters may not work as a link: `# | ^ : %% [[ ]]`. 
-> 
-> We recommend avoiding using those characters and practicing [safe filename practices](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names). 
+> [!note] অবৈধ অক্ষর
+> নিম্নলিখিত অক্ষরগুলি ধারণকারী একটি স্ট্রিং লিঙ্ক হিসেবে কাজ নাও করতে পারে: `# | ^ : %% [[ ]]`।
+>
+> আমরা সেই অক্ষরগুলি ব্যবহার এড়িয়ে চলার এবং [নিরাপদ ফাইলের নাম নির্ধারণের অনুশীলন](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) অনুসরণ করার পরামর্শ দিই।
 
-## Link to a file
+## একটি ফাইলে লিঙ্ক করুন
 
-To create a link while in Editing view, use either of the following ways:
+সম্পাদনা ভিউতে থাকাকালীন একটি লিঙ্ক তৈরি করতে, নিম্নলিখিত যেকোনো একটি উপায় ব্যবহার করুন:
 
-- Type `[[` in the editor and then select the file you want to create a link to.
-- Select text in the editor and then type `[[`.
-- Open the [[Command palette]] and then select Add internal link.
+- সম্পাদকে `[[` টাইপ করুন এবং তারপর আপনি যে ফাইলে লিঙ্ক তৈরি করতে চান তা নির্বাচন করুন।
+- সম্পাদকে টেক্সট নির্বাচন করুন এবং তারপর `[[` টাইপ করুন।
+- [[Command palette]] খুলুন এবং তারপর Add internal link নির্বাচন করুন।
 
 ![[Quick switcher#^search-autocomplete-large]]
 
-While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
+আপনি [[Accepted file formats]]-এর যেকোনো একটিতে লিঙ্ক করতে পারলেও, Markdown ছাড়া অন্যান্য ফাইল ফরম্যাটের লিঙ্কে একটি ফাইল এক্সটেনশন অন্তর্ভুক্ত করা প্রয়োজন, যেমন `[[Figure 1.png]]`।
 
-> [!tip] Prefixing an internal link with an exclamation mark (!) allows you to embed the linked content. For more details, see [[Embed Files]].
+> [!tip] একটি অভ্যন্তরীণ লিঙ্কের সামনে একটি বিস্ময়সূচক চিহ্ন (!) যোগ করলে আপনি লিঙ্ক করা কন্টেন্ট এম্বেড করতে পারবেন। আরও বিস্তারিত জানতে, দেখুন [[Embed Files]]।
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns are deprioritized in link suggestions when creating internal links.
+> [!info] বাদ দেয়া ফাইল
+> আপনার [[Settings#Excluded files|বাদ দেয়া ফাইলগুলি]] প্যাটার্নের সাথে মিলে যাওয়া ফাইলগুলি অভ্যন্তরীণ লিঙ্ক তৈরি করার সময় লিঙ্ক পরামর্শে কম অগ্রাধিকার পায়।
 
-## Link to a heading in a note
+## একটি নোটে একটি হেডিং-এ লিঙ্ক করুন
 
-You can link to specific headings in notes, also known as _anchor links_.
+আপনি নোটের নির্দিষ্ট হেডিংগুলিতে লিঙ্ক করতে পারেন, যা _অ্যাঙ্কর লিঙ্ক_ নামেও পরিচিত।
 
-**Linking to a heading within the same note**
+**একই নোটের মধ্যে একটি হেডিং-এ লিঙ্ক করা**
 
-To link to a heading within the same note, type `[[#` to get a list of headings within the note to link to.
+একই নোটের মধ্যে একটি হেডিং-এ লিঙ্ক করতে, নোটের মধ্যে লিঙ্ক করার জন্য হেডিংগুলির একটি তালিকা পেতে `[[#` টাইপ করুন।
 
-For example, `[[#Preview a linked file]]` will create a link to [[#Preview a linked file]].
+উদাহরণস্বরূপ, `[[#Preview a linked file]]` [[#একটি লিঙ্ক করা ফাইল প্রিভিউ করুন]]-এ একটি লিঙ্ক তৈরি করবে।
 
-**Linking to a heading in another note**
+**অন্য একটি নোটে একটি হেডিং-এ লিঙ্ক করা**
 
-To link to a heading in another note, add a hash (`#`) at the end of the link destination, followed by the heading text.
+অন্য একটি নোটে একটি হেডিং-এ লিঙ্ক করতে, লিঙ্ক গন্তব্যের শেষে একটি হ্যাশ (`#`) যোগ করুন, তারপর হেডিং টেক্সট।
 
-For example, `[[About Obsidian#Links are first-class citizens]]` will create a link to [[About Obsidian#Links are first-class citizens]].
+উদাহরণস্বরূপ, `[[About Obsidian#Links are first-class citizens]]` [[About Obsidian#লিঙ্কগুলি প্রথম-শ্রেণীর নাগরিক]]-এ একটি লিঙ্ক তৈরি করবে।
 
-**Linking to subheadings**
+**সাবহেডিংয়ে লিঙ্ক করা**
 
-You can add multiple hash symbols for each subheading.
+আপনি প্রতিটি সাবহেডিংয়ের জন্য একাধিক হ্যাশ চিহ্ন যোগ করতে পারেন।
 
-For example, `[[Help and support#Questions and advice#Report bugs and request features]]` will create a link to [[Help and support#Questions and advice#Report bugs and request features]].
+উদাহরণস্বরূপ, `[[Help and support#Questions and advice#Report bugs and request features]]` [[Help and support#প্রশ্ন এবং পরামর্শ#বাগ রিপোর্ট করুন এবং ফিচার অনুরোধ করুন]]-এ একটি লিঙ্ক তৈরি করবে।
 
-**Searching for headers across the vault**
+**সমগ্র ভল্ট জুড়ে হেডার অনুসন্ধান করা**
 
-To search for headers across the entire vault, use the `[[## header]]` syntax.
+সমগ্র ভল্ট জুড়ে হেডার অনুসন্ধান করতে, `[[## header]]` সিনট্যাক্স ব্যবহার করুন।
 
-For example, `[[##` will search generically across the vault, whereas `[[## team]]` will search for all headers that contain the word _team_.
+উদাহরণস্বরূপ, `[[##` সমগ্র ভল্ট জুড়ে সাধারণভাবে অনুসন্ধান করবে, যেখানে `[[## team]]` _team_ শব্দটি ধারণকারী সমস্ত হেডার অনুসন্ধান করবে।
 
-> [!info]- Screenshot of searching for a heading link
+> [!info]- একটি হেডিং লিঙ্ক অনুসন্ধান করার স্ক্রিনশট
 >
 > ![[internal-links-header.png#interface]]
 
-## Link to a block in a note
+## একটি নোটে একটি ব্লকে লিঙ্ক করুন
 
-A block is a unit of text in your note, such as a paragraph, block quote, or list item.
+একটি ব্লক হলো আপনার নোটে টেক্সটের একটি একক, যেমন একটি প্যারাগ্রাফ, ব্লক কোট, বা তালিকার আইটেম।
 
-You can link to a block by adding `#^` at the end of your link destination, followed by a unique block identifier. For example: `[[2023-01-01#^37066d]]`. Fortunately, you don't need to manually find the identifier—when you type the caret (`^`), a list of suggestions will appear, allowing you to select the correct block.
+আপনি আপনার লিঙ্ক গন্তব্যের শেষে `#^` যোগ করে, তারপর একটি অনন্য ব্লক আইডেন্টিফায়ার যোগ করে একটি ব্লকে লিঙ্ক করতে পারেন। উদাহরণস্বরূপ: `[[2023-01-01#^37066d]]`। সৌভাগ্যবশত, আপনাকে ম্যানুয়ালি আইডেন্টিফায়ার খুঁজে বের করতে হবে না—আপনি ক্যারেট (`^`) টাইপ করলে, সঠিক ব্লকটি নির্বাচন করার জন্য একটি পরামর্শের তালিকা প্রদর্শিত হবে।
 
-For *simple paragraphs*, place a blank space followed by a caret `^` and the block identifier at the end of the line:
+*সাধারণ প্যারাগ্রাফের* জন্য, লাইনের শেষে একটি ফাঁকা স্থানের পরে একটি ক্যারেট `^` এবং ব্লক আইডেন্টিফায়ার রাখুন:
 
 ```md
 The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place. ^37066d
 ```
 
-For *structured blocks* (lists, quotations, callouts, tables), the block identifier should be on a separate line, with a blank line before and after:
+*কাঠামোগত ব্লকের* জন্য (তালিকা, উদ্ধৃতি, কলাউট, টেবিল), ব্লক আইডেন্টিফায়ারটি একটি পৃথক লাইনে থাকা উচিত, আগে ও পরে একটি ফাঁকা লাইন সহ:
 
 ```md
 > The quick purple gem dashes through the paragraph with blazing speed. Pen in hand and a paperclip in the other, Gemmy works toward her goal of making the world of note-taking a happier place.
@@ -115,7 +114,7 @@ For *structured blocks* (lists, quotations, callouts, tables), the block identif
 This is the tale of Gemmy, the Unhelpful assistant.  
 ```
 
-For *specific lines within a list*, the block identifier can be placed directly on a bullet point:
+*তালিকার নির্দিষ্ট লাইনের* জন্য, ব্লক আইডেন্টিফায়ারটি সরাসরি একটি বুলেট পয়েন্টে রাখা যেতে পারে:
 
 ```mathjax
 - Gemmy
@@ -124,61 +123,62 @@ For *specific lines within a list*, the block identifier can be placed directly 
 - Unhelpful assistant
 ```
 
-> [!warning] We do not support links to specific parts of quotations, callouts, and tables.
+> [!warning] আমরা উদ্ধৃতি, কলাউট এবং টেবিলের নির্দিষ্ট অংশের লিঙ্ক সমর্থন করি না।
 
-**Searching for blocks across the vault**
+**সমগ্র ভল্ট জুড়ে ব্লক অনুসন্ধান করা**
 
-You can also search for blocks to link to from across your vault using the `[[^^block]]` syntax. However, more items qualify as blocks compared to [[#Link to a heading in a note|heading links]], so this list will be much longer.
+আপনি `[[^^block]]` সিনট্যাক্স ব্যবহার করে আপনার সমগ্র ভল্ট জুড়ে লিঙ্ক করার জন্য ব্লকও অনুসন্ধান করতে পারেন। তবে, [[#একটি নোটে একটি হেডিং-এ লিঙ্ক করুন|হেডিং লিঙ্কের]] তুলনায় আরও বেশি আইটেম ব্লক হিসেবে যোগ্য, তাই এই তালিকাটি অনেক বেশি লম্বা হবে।
 
-> [!info]- Screenshot of searching for a block link 
+> [!info]- একটি ব্লক লিঙ্ক অনুসন্ধান করার স্ক্রিনশট
 > ![[link-block-heading.png#interface]]
 
-You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
+আপনি একটি ফাঁকা স্থানের পরে একটি ক্যারেট (`^`) এবং আইডেন্টিফায়ার যোগ করে মানুষের পাঠযোগ্য ব্লক আইডেন্টিফায়ারও তৈরি করতে পারেন। ব্লক আইডেন্টিফায়ার শুধুমাত্র ল্যাটিন অক্ষর, সংখ্যা এবং ড্যাশ নিয়ে গঠিত হতে পারে।
 
-For example, add `^quote-of-the-day` at the end of a block:
+উদাহরণস্বরূপ, একটি ব্লকের শেষে `^quote-of-the-day` যোগ করুন:
 
 ```md
 "You do not rise to the level of your goals. You fall to the level of your systems." by James Clear ^quote-of-the-day
 ```
 
-Now you can link to the block by typing `[[2023-01-01#^quote-of-the-day]]`.
+এখন আপনি `[[2023-01-01#^quote-of-the-day]]` টাইপ করে ব্লকটিতে লিঙ্ক করতে পারেন।
 
-> [!warning] Interoperability
-> Block references are specific to Obsidian and not part of the standard Markdown format. Links containing block references won't work outside of Obsidian.
+> [!warning] ইন্টারঅপারেবিলিটি
+> ব্লক রেফারেন্স Obsidian-এর জন্য নির্দিষ্ট এবং স্ট্যান্ডার্ড Markdown ফরম্যাটের অংশ নয়। ব্লক রেফারেন্স ধারণকারী লিঙ্কগুলি Obsidian-এর বাইরে কাজ করবে না।
 
-## Change the link display text
+## লিঙ্ক প্রদর্শন টেক্সট পরিবর্তন করুন
 
-By default, Obsidian will show the link text as it appears. For example:  
-- `[[Example]]` displays as [[Example]]  
-- `[[Example#Details]]` displays as [[Example#Details]]
+ডিফল্টভাবে, Obsidian লিঙ্ক টেক্সটটি যেভাবে দেখা যায় সেভাবেই দেখাবে। উদাহরণস্বরূপ:
+- `[[Example]]` [[Example]] হিসেবে প্রদর্শিত হয়
+- `[[Example#Details]]` [[Example#Details]] হিসেবে প্রদর্শিত হয়
 
-You can change how a link is displayed by customizing its link text:
+আপনি এর লিঙ্ক টেক্সট কাস্টমাইজ করে একটি লিঙ্ক কীভাবে প্রদর্শিত হয় তা পরিবর্তন করতে পারেন:
 
-**Wikilink format**:  
-Use a vertical bar (`|`) to change the display text.
+**Wikilink ফরম্যাট**:
+প্রদর্শন টেক্সট পরিবর্তন করতে একটি উল্লম্ব বার (`|`) ব্যবহার করুন।
 
-- `[[Example|Custom name]]` appears as [[Example|Custom name]]  
-- `[[Example#Details|Section name]]` appears as [[Example#Details|Section name]]
+- `[[Example|Custom name]]` [[Example|Custom name]] হিসেবে প্রদর্শিত হয়
+- `[[Example#Details|Section name]]` [[Example#Details|Section name]] হিসেবে প্রদর্শিত হয়
 
-**Markdown format**:  
-Use `[Display text](Link URL)` to customize how the link appears.
+**Markdown ফরম্যাট**:
+লিঙ্কটি কীভাবে প্রদর্শিত হয় তা কাস্টমাইজ করতে `[Display text](Link URL)` ব্যবহার করুন।
 
-- `[Custom name](Example.md)` appears as [Custom name](Example.md)  
-- `[Section name](Example.md#Details)` appears as [Section name](Example.md#Details)
+- `[Custom name](Example.md)` [Custom name](Example.md) হিসেবে প্রদর্শিত হয়
+- `[Section name](Example.md#Details)` [Section name](Example.md#Details) হিসেবে প্রদর্শিত হয়
 
-This method is helpful for one-off situations where you want to change how a link looks in a specific context. If you want to set up an alternate link name that you can reuse throughout your vault, consider using an [[Aliases|alias]] instead. 
+এই পদ্ধতিটি এককালীন পরিস্থিতির জন্য সহায়ক যেখানে আপনি একটি নির্দিষ্ট প্রসঙ্গে একটি লিঙ্ক কীভাবে দেখাচ্ছে তা পরিবর্তন করতে চান। আপনি যদি আপনার সমগ্র ভল্ট জুড়ে পুনরায় ব্যবহার করতে পারেন এমন একটি বিকল্প লিঙ্ক নাম সেট আপ করতে চান, তাহলে পরিবর্তে একটি [[Aliases|অ্যালিয়াস]] ব্যবহার করার কথা বিবেচনা করুন।
 
-For example, if you regularly refer to `[[Three laws of motion]]` as `[[The 3 laws]]`, adding "3 laws" as an alias lets you type just that — no need to add custom display text each time.
+উদাহরণস্বরূপ, আপনি যদি নিয়মিত `[[Three laws of motion]]`-কে `[[The 3 laws]]` হিসেবে উল্লেখ করেন, তাহলে "3 laws"-কে অ্যালিয়াস হিসেবে যোগ করলে আপনি শুধু সেটাই টাইপ করতে পারবেন—প্রতিবার কাস্টম প্রদর্শন টেক্সট যোগ করার প্রয়োজন নেই।
 
-> [!tip] Tip
-> Use [[#Change the link display text|link display text]] when you want to customize how a link looks *in a specific place*.  
-> 
-> Use [[Aliases|aliases]] when you want to refer to the same note using *different names* throughout your vault.
+> [!tip] টিপ
+> আপনি যখন একটি নির্দিষ্ট জায়গায় *একটি লিঙ্ক কেমন দেখাচ্ছে* তা কাস্টমাইজ করতে চান, তখন [[#লিঙ্ক প্রদর্শন টেক্সট পরিবর্তন করুন|লিঙ্ক প্রদর্শন টেক্সট]] ব্যবহার করুন।
+>
+> আপনি যখন আপনার সমগ্র ভল্ট জুড়ে *ভিন্ন নাম* ব্যবহার করে একই নোট উল্লেখ করতে চান, তখন [[Aliases|অ্যালিয়াস]] ব্যবহার করুন।
 ^callout-internal-links-link-text
 
-## Preview a linked file
+## একটি লিঙ্ক করা ফাইল প্রিভিউ করুন
 
-> [!note] Note
-> To preview linked files, you first need to enable [[Page preview]].
+> [!note] নোট
+> লিঙ্ক করা ফাইল প্রিভিউ করতে, আপনাকে প্রথমে [[Page preview|পৃষ্টার প্রিভিউ]] সক্ষম করতে হবে।
 
-To preview a linked file, hover over an internal link. While in editing mode, press `Ctrl` (or `Cmd` on macOS) while hovering the cursor over the link. A preview of the file content appears next to the cursor.
+একটি লিঙ্ক করা ফাইল প্রিভিউ করতে, একটি অভ্যন্তরীণ লিঙ্কের উপর হোভার করুন। সম্পাদনা মোডে থাকাকালীন, লিঙ্কের উপর কার্সার হোভার করার সময় `Ctrl` (অথবা macOS-এ `Cmd`) চাপুন। কার্সারের পাশে ফাইলের কন্টেন্টের একটি প্রিভিউ প্রদর্শিত হয়।
+</content>

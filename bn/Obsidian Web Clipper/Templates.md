@@ -1,69 +1,68 @@
 ---
-localized: null
 permalink: web-clipper/templates
-description: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
+description: Web Clipper দিয়ে স্বয়ংক্রিয়ভাবে ওয়েব পেজের মেটাডেটা সংগ্রহ ও সংগঠিত করার টেমপ্লেট তৈরি করা শিখুন।
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] allows you to create templates that automatically capture and organize metadata from web pages. Example templates are available in the [clipper-templates repo](https://github.com/kepano/clipper-templates). 
+[[Introduction to Obsidian Web Clipper|Web Clipper]] আপনাকে টেমপ্লেট তৈরি করতে দেয় যা ওয়েব পেজ থেকে স্বয়ংক্রিয়ভাবে মেটাডেটা সংগ্রহ ও সংগঠিত করে। [clipper-templates রিপোতে](https://github.com/kepano/clipper-templates) উদাহরণ টেমপ্লেট পাওয়া যায়।
 
-## Create or edit a template
+## একটি টেমপ্লেট তৈরি বা সম্পাদনা করুন
 
-To **create** a template go to Web Clipper settings and click the **New template** button in the sidebar. You can also **duplicate** a template in the **More** actions menu in the top right corner.
+একটি টেমপ্লেট **তৈরি** করতে Web Clipper সেটিংসে যান এবং সাইডবারে **New template** বাটনে ক্লিক করুন। উপরের ডানদিকের কোণায় **More** অ্যাকশন মেনু থেকে আপনি একটি টেমপ্লেট **ডুপ্লিকেটও** করতে পারেন।
 
-To **edit** a template choose a template from the sidebar. Your changes will be saved automatically.
+একটি টেমপ্লেট **সম্পাদনা** করতে সাইডবার থেকে একটি টেমপ্লেট বেছে নিন। আপনার পরিবর্তনগুলো স্বয়ংক্রিয়ভাবে সংরক্ষিত হবে।
 
-Templates make use of [[Variables]] and [[Filters]], which allow you to tailor how content will be saved.
+টেমপ্লেটগুলো [[Variables]] এবং [[Filters]] ব্যবহার করে, যা আপনাকে কন্টেন্ট কীভাবে সংরক্ষিত হবে তা মানানসই করতে দেয়।
 
-## Import and export Web Clipper templates
+## Web Clipper টেমপ্লেট ইমপোর্ট ও এক্সপোর্ট করুন
 
-To import a template:
+একটি টেমপ্লেট ইমপোর্ট করতে:
 
-1. Open the extension and click the **[[Settings]]** cog icon.
-2. Go to any template in the list.
-3. Click **Import** in the top right or drag and drop your `.json` template file(s) anywhere in the template area.
+1. এক্সটেনশন খুলুন এবং **[[Settings]]** কগ আইকনে ক্লিক করুন।
+2. তালিকা থেকে যেকোনো টেমপ্লেটে যান।
+3. উপরের ডানদিকে **Import**-এ ক্লিক করুন অথবা আপনার `.json` টেমপ্লেট ফাইল(গুলো) টেমপ্লেট এলাকায় যেকোনো জায়গায় টেনে এনে ছেড়ে দিন।
 
-To export a template click **Export** in the top right. This will download the template `.json` file. You can also copy the template data to your clipboard via the **More** menu.
+একটি টেমপ্লেট এক্সপোর্ট করতে উপরের ডানদিকে **Export**-এ ক্লিক করুন। এটি টেমপ্লেট `.json` ফাইলটি ডাউনলোড করবে। আপনি **More** মেনু দিয়ে টেমপ্লেট ডেটা ক্লিপবোর্ডেও কপি করতে পারেন।
 
-## Template settings
+## টেমপ্লেট সেটিংস
 
 ### Behavior
 
-Define how content from Web Clipper will be added to Obsidian:
+Web Clipper থেকে কন্টেন্ট Obsidian-এ কীভাবে যোগ হবে তা নির্ধারণ করুন:
 
 - **Create a new note**
-- **Add to an existing note**, at the top or bottom
-- **Add to daily note**, at the top or bottom (requires the [[daily notes]] plugin to be active)
+- **Add to an existing note**, উপরে বা নিচে
+- **Add to daily note**, উপরে বা নিচে ([[daily notes]] প্লাগইন সক্রিয় থাকা আবশ্যক)
 
-### Automatically trigger a template
+### একটি টেমপ্লেট স্বয়ংক্রিয়ভাবে ট্রিগার করুন
 
-Template triggers allow you to automatically select a template based on the current page URL or [schema.org](https://schema.org/) data. You can define multiple rules for each template, separated by a new line.
+টেমপ্লেট ট্রিগার আপনাকে বর্তমান পেজের URL বা [schema.org](https://schema.org/) ডেটার ভিত্তিতে স্বয়ংক্রিয়ভাবে একটি টেমপ্লেট নির্বাচন করতে দেয়। আপনি প্রতিটি টেমপ্লেটের জন্য একাধিক নিয়ম নির্ধারণ করতে পারেন, একটি নতুন লাইন দিয়ে আলাদা করে।
 
-The first match in your template list determines which template is used. You can drag templates up and down in Web Clipper settings to change the order in which templates are matched.
+আপনার টেমপ্লেট তালিকায় প্রথম মিলটি কোন টেমপ্লেট ব্যবহার করা হবে তা নির্ধারণ করে। টেমপ্লেট মেলানোর ক্রম পরিবর্তন করতে আপনি Web Clipper সেটিংসে টেমপ্লেটগুলো উপরে-নিচে টেনে আনতে পারেন।
 
-> [!tip]- Set a fallback template
-> If a page doesn't match any trigger rule, Web Clipper uses the first template in your list. Keep the template you want as your fallback at the top of the list to ensure it's used for pages without a specific match.
+> [!tip]- একটি ফলব্যাক টেমপ্লেট সেট করুন
+> কোনো পেজ কোনো ট্রিগার নিয়মের সাথে না মিললে, Web Clipper আপনার তালিকার প্রথম টেমপ্লেটটি ব্যবহার করে। নির্দিষ্ট কোনো মিল ছাড়া পেজের জন্য আপনি যে টেমপ্লেটটি ফলব্যাক হিসেবে চান সেটি তালিকার শীর্ষে রাখুন তা নিশ্চিত করতে।
 
-#### Simple URL matching
+#### সাধারণ URL ম্যাচিং
 
-Simple matching triggers a template if the current page URL *starts with* the given pattern. For example:
+বর্তমান পেজের URL প্রদত্ত প্যাটার্ন দিয়ে *শুরু হলে* সাধারণ ম্যাচিং একটি টেমপ্লেট ট্রিগার করে। উদাহরণস্বরূপ:
 
-- `https://obsidian.md` will match any URL that starts with this text.
+- `https://obsidian.md` এই টেক্সট দিয়ে শুরু হওয়া যেকোনো URL-এর সাথে মিলবে।
 
-#### Regular expression matching
+#### রেগুলার এক্সপ্রেশন ম্যাচিং
 
-You can trigger templates based on more complex URL patterns using regular expressions. Enclose your regex pattern in forward slashes (`/`). Remember to escape special characters in regex patterns (like `.` and `/`) with a backslash (`\`). For example:
+আপনি রেগুলার এক্সপ্রেশন ব্যবহার করে আরও জটিল URL প্যাটার্নের ভিত্তিতে টেমপ্লেট ট্রিগার করতে পারেন। আপনার regex প্যাটার্নটি ফরওয়ার্ড স্ল্যাশে (`/`) আবদ্ধ করুন। regex প্যাটার্নে বিশেষ অক্ষর (যেমন `.` এবং `/`) একটি ব্যাকস্ল্যাশ (`\`) দিয়ে এস্কেপ করতে ভুলবেন না। উদাহরণস্বরূপ:
 
-- `/^https:\/\/www\.imdb\.com\/title\/tt\d+\/reference\/?$/` will match any IMDB reference page.
+- `/^https:\/\/www\.imdb\.com\/title\/tt\d+\/reference\/?$/` যেকোনো IMDB রেফারেন্স পেজের সাথে মিলবে।
 
-#### Schema.org matching
+#### Schema.org ম্যাচিং
 
-You can trigger templates based on [schema.org](https://schema.org/) data present on the page. Use the `schema:` prefix followed by the schema key you want to match. You can optionally specify an expected value. For example:
+আপনি পেজে উপস্থিত [schema.org](https://schema.org/) ডেটার ভিত্তিতে টেমপ্লেট ট্রিগার করতে পারেন। আপনি যে স্কিমা কি-এর সাথে মেলাতে চান তার পরে `schema:` প্রিফিক্স ব্যবহার করুন। আপনি ঐচ্ছিকভাবে একটি প্রত্যাশিত মান নির্দিষ্ট করতে পারেন। উদাহরণস্বরূপ:
 
-- `schema:@Recipe` will match pages where the schema type is "Recipe".
-- `schema:@Recipe.name` will match pages where `@Recipe.name` is present.
-- `schema:@Recipe.name=Cookie` will match pages where `@Recipe.name` is "Cookie".
+- `schema:@Recipe` স্কিমা ধরন "Recipe" হলে সেই পেজের সাথে মিলবে।
+- `schema:@Recipe.name` `@Recipe.name` উপস্থিত থাকা পেজের সাথে মিলবে।
+- `schema:@Recipe.name=Cookie` `@Recipe.name` "Cookie" হওয়া পেজের সাথে মিলবে।
 
-Schema.org values can also be used to [[Variables#Schema.org variables|pre-populate data in templates]].
+[[Variables#Schema.org ভেরিয়েবল|টেমপ্লেটে ডেটা পূর্ব-পূরণ করতে]]ও Schema.org মান ব্যবহার করা যায়।
 
-### Interpreter context
+### Interpreter কনটেক্সট
 
-When [[Interpreter|Interpreter]] is enabled, you can use [[Variables#Prompt variables|prompt variables]] to extract page content with natural language. For each template you can define the [[Interpreter#Context|context]] that Interpreter has access to. 
+[[Interpreter|Interpreter]] সক্রিয় থাকলে, প্রাকৃতিক ভাষা দিয়ে পেজের কন্টেন্ট বের করতে আপনি [[Variables#প্রম্পট ভেরিয়েবল|প্রম্পট ভেরিয়েবল]] ব্যবহার করতে পারেন। প্রতিটি টেমপ্লেটের জন্য আপনি [[Interpreter#কনটেক্সট|কনটেক্সট]] নির্ধারণ করতে পারেন যেটিতে Interpreter-এর প্রবেশাধিকার থাকবে।

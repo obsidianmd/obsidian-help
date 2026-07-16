@@ -1,169 +1,168 @@
 ---
-localized: null
 permalink: cli
-description: Anything you can do in Obsidian can be done from the command line.
+description: Obsidian-এ আপনি যা কিছু করতে পারেন তা কমান্ড লাইন থেকেও করা যায়।
 ---
-Obsidian CLI is a command line interface that lets you control Obsidian from your terminal for scripting, automation, and integration with external tools.
+Obsidian CLI হলো একটি কমান্ড লাইন ইন্টারফেস যা আপনাকে স্ক্রিপ্টিং, অটোমেশন এবং বাহ্যিক টুলের সাথে একত্রীকরণের জন্য আপনার টার্মিনাল থেকে Obsidian নিয়ন্ত্রণ করতে দেয়।
 
-Anything you can do in Obsidian you can do from the command line. Obsidian CLI even includes [[#Developer commands|developer commands]] to access developer tools, inspect elements, take screenshots, reload plugins, and more.
+Obsidian-এ আপনি যা কিছু করতে পারেন তা কমান্ড লাইন থেকেও করতে পারেন। Obsidian CLI-তে ডেভেলপার টুল অ্যাক্সেস করা, এলিমেন্ট পরিদর্শন করা, স্ক্রিনশট নেওয়া, প্লাগইন রিলোড করা, এবং আরও অনেক কিছুর জন্য [[#Developer commands|ডেভেলপার কমান্ড]] পর্যন্ত অন্তর্ভুক্ত রয়েছে।
 
 ![[obsidian-cli.mp4#interface]]
 
-> [!warning] Requires Obsidian 1.12 installer
-> Using the CLI requires the Obsidian 1.12 installer. See the [[Update Obsidian#Installer updates|installer version update guide]].
+> [!warning] Obsidian 1.12 ইনস্টলার প্রয়োজন
+> CLI ব্যবহার করতে Obsidian 1.12 ইনস্টলার প্রয়োজন। দেখুন [[Update Obsidian#Installer updates|ইনস্টলার সংস্করণ আপডেট গাইড]]।
 
-## Install Obsidian CLI
+## Obsidian CLI ইনস্টল করুন
 
-Upgrade to the latest [[Update Obsidian|Obsidian installer version]] (1.12.7+).
+সর্বশেষ [[Update Obsidian|Obsidian ইনস্টলার সংস্করণে]] (1.12.7+) আপগ্রেড করুন।
 
-Enable Obsidian CLI in Obsidian:
+Obsidian-এ Obsidian CLI সক্রিয় করুন:
 
-1. Go to **Settings** → **General**.
-2. Enable **Command line interface**.
-3. Follow the prompt to register Obsidian CLI.
+1. **সেটিংস** → **সাধারণ** এ যান।
+2. **কমান্ড লাইন ইন্টারফেস** সক্রিয় করুন।
+3. Obsidian CLI নিবন্ধন করতে প্রম্পট অনুসরণ করুন।
 
-If you run into issues installing Obsidian CLI see [[#Troubleshooting]].
+Obsidian CLI ইনস্টল করার সময় সমস্যা হলে [[#Troubleshooting|সমস্যা সমাধান]] দেখুন।
 
-## Get started
+## শুরু করুন
 
-Obsidian CLI supports both single commands and a terminal user interface (TUI) with interactive help and autocomplete.
+Obsidian CLI একক কমান্ড এবং ইন্টারেক্টিভ সহায়তা ও অটোকমপ্লিট সহ একটি টার্মিনাল ইউজার ইন্টারফেস (TUI) উভয়ই সমর্থন করে।
 
-> [!info] Obsidian app must be running
-> Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
+> [!info] Obsidian অ্যাপ অবশ্যই চালু থাকতে হবে
+> Obsidian CLI-এর জন্য Obsidian অ্যাপ চালু থাকা প্রয়োজন। যদি Obsidian চালু না থাকে, তাহলে আপনার চালানো প্রথম কমান্ডটি Obsidian চালু করে।
 >
-> Looking to sync without the desktop app? See [[Obsidian Headless|Obsidian Headless]].
+> ডেস্কটপ অ্যাপ ছাড়াই সিঙ্ক করতে চান? দেখুন [[Obsidian Headless|Obsidian Headless]]।
 
-### Run a command
+### একটি কমান্ড চালান
 
-Run an individual command without opening the TUI:
+TUI না খুলে একটি পৃথক কমান্ড চালান:
 
 ```shell
-# Run the help command
+# help কমান্ড চালান
 obsidian help
 ```
 
-### Use the terminal interface
+### টার্মিনাল ইন্টারফেস ব্যবহার করুন
 
-Use the TUI by entering `obsidian`. Subsequent commands can be entered without `obsidian`.
+`obsidian` লিখে TUI ব্যবহার করুন। পরবর্তী কমান্ডগুলো `obsidian` ছাড়াই লেখা যায়।
 
 ```shell
-# Open the TUI, then run help
+# TUI খুলুন, তারপর help চালান
 obsidian
 help
 ```
 
-The TUI supports autocomplete, command history, and reverse search. Use `Ctrl+R` to search your command history. See [[#Keyboard shortcuts]] for all available shortcuts.
+TUI অটোকমপ্লিট, কমান্ড হিস্টোরি এবং রিভার্স সার্চ সমর্থন করে। আপনার কমান্ড হিস্টোরি অনুসন্ধান করতে `Ctrl+R` ব্যবহার করুন। সব উপলব্ধ শর্টকাটের জন্য [[#Keyboard shortcuts|কীবোর্ড শর্টকাট]] দেখুন।
 
-## Examples
+## উদাহরণ
 
-Here are a few examples of what Obsidian CLI can do.
+Obsidian CLI যা করতে পারে তার কয়েকটি উদাহরণ এখানে দেওয়া হলো।
 
-### Everyday use
+### দৈনন্দিন ব্যবহার
 
 ```shell
-# Open today's daily note
+# আজকের দৈনিক নোট খুলুন
 obsidian daily
 
-# Add a task to your daily note
+# আপনার দৈনিক নোটে একটি টাস্ক যোগ করুন
 obsidian daily:append content="- [ ] Buy groceries"
 
-# Search your vault
+# আপনার ভল্ট অনুসন্ধান করুন
 obsidian search query="meeting notes"
 
-# Read the active file
+# সক্রিয় ফাইল পড়ুন
 obsidian read
 
-# List all tasks from your daily note
+# আপনার দৈনিক নোট থেকে সব টাস্ক তালিকাভুক্ত করুন
 obsidian tasks daily
 
-# Create a new note from a template
+# একটি টেমপ্লেট থেকে একটি নতুন নোট তৈরি করুন
 obsidian create name="Trip to Paris" template=Travel
 
-# List all tags in your vault with counts
+# গণনা সহ আপনার ভল্টের সব ট্যাগ তালিকাভুক্ত করুন
 obsidian tags counts
 
-# Compare two versions of a file
+# একটি ফাইলের দুটি সংস্করণ তুলনা করুন
 obsidian diff file=README from=1 to=3
 ```
 
-### For developers
+### ডেভেলপারদের জন্য
 
-Many [[#Developer commands]] are available for plugin and theme development. These commands allow agentic coding tools to automatically test and debug.
+প্লাগইন এবং থিম ডেভেলপমেন্টের জন্য অনেক [[#Developer commands|ডেভেলপার কমান্ড]] উপলব্ধ। এই কমান্ডগুলো এজেন্টিক কোডিং টুলগুলোকে স্বয়ংক্রিয়ভাবে পরীক্ষা ও ডিবাগ করতে দেয়।
 
 ```shell
-# Open developer tools
+# ডেভেলপার টুল খুলুন
 obsidian devtools
 
-# Reload a community plugin you're developing
+# আপনি যে কমিউনিটি প্লাগইন তৈরি করছেন তা রিলোড করুন
 obsidian plugin:reload id=my-plugin
 
-# Take a screenshot of the app
+# অ্যাপের একটি স্ক্রিনশট নিন
 obsidian dev:screenshot path=screenshot.png
 
-# Run JavaScript in the app console
+# অ্যাপ কনসোলে JavaScript চালান
 obsidian eval code="app.vault.getFiles().length"
 ```
 
-## How to
+## কীভাবে করবেন
 
-### Use parameters and flags
+### প্যারামিটার এবং ফ্ল্যাগ ব্যবহার করুন
 
-Commands can use **parameters** and **flags**. Most commands do not require any parameters or flags. Required parameters are marked as `required`. For example:
+কমান্ডগুলো **প্যারামিটার** এবং **ফ্ল্যাগ** ব্যবহার করতে পারে। বেশিরভাগ কমান্ডের কোনো প্যারামিটার বা ফ্ল্যাগের প্রয়োজন হয় না। প্রয়োজনীয় প্যারামিটারগুলো `required` হিসেবে চিহ্নিত করা থাকে। উদাহরণস্বরূপ:
 
 ```shell
-# Create a new note using the default "Untitled" name
+# ডিফল্ট "Untitled" নাম ব্যবহার করে একটি নতুন নোট তৈরি করুন
 obsidian create
 ```
 
-A **parameter** takes a value, written as `parameter=value`. If the value has spaces, wrap it in quotes:
+একটি **প্যারামিটার** একটি মান নেয়, যা `parameter=value` হিসেবে লেখা হয়। যদি মানের মধ্যে স্পেস থাকে, তাহলে এটি উদ্ধৃতিতে মুড়ে দিন:
 
 ```shell
-# Create a new note called "Note" with content "Hello world"
+# "Hello world" কনটেন্ট সহ "Note" নামে একটি নতুন নোট তৈরি করুন
 obsidian create name=Note content="Hello world"
 ```
 
-A **flag** is a boolean switch with no value. Include it to turn it on, for example `open` and `overwrite` are flags:
+একটি **ফ্ল্যাগ** হলো মান ছাড়া একটি বুলিয়ান সুইচ। এটি চালু করতে এটি অন্তর্ভুক্ত করুন, উদাহরণস্বরূপ `open` এবং `overwrite` হলো ফ্ল্যাগ:
 
 ```shell
-# Create a note and open it
+# একটি নোট তৈরি করুন এবং এটি খুলুন
 obsidian create name=Note content="Hello" open overwrite
 ```
 
-For multiline content use `\n` for newline. Use `\t` for tab.
+মাল্টিলাইন কনটেন্টের জন্য নতুন লাইনের জন্য `\n` ব্যবহার করুন। ট্যাবের জন্য `\t` ব্যবহার করুন।
 
 ```bash
 obsidian create name=Note content="# Title\n\nBody text"
 ```
 
-### Target a vault
+### একটি ভল্ট টার্গেট করুন
 
-If your terminal's current working directory is a vault folder, that vault is used by default. Otherwise, the currently active vault is used.
+যদি আপনার টার্মিনালের বর্তমান ওয়ার্কিং ডিরেক্টরি একটি ভল্ট ফোল্ডার হয়, তাহলে ডিফল্টভাবে সেই ভল্টটি ব্যবহার করা হয়। অন্যথায়, বর্তমানে সক্রিয় ভল্টটি ব্যবহার করা হয়।
 
-Use `vault=<name>` or `vault=<id>` to target a specific vault. This must be the first parameter before your command:
+একটি নির্দিষ্ট ভল্ট টার্গেট করতে `vault=<name>` অথবা `vault=<id>` ব্যবহার করুন। এটি অবশ্যই আপনার কমান্ডের আগে প্রথম প্যারামিটার হতে হবে:
 
 ```shell
 obsidian vault=Notes daily
 obsidian vault="My Vault" search query="test"
 ```
 
-In the TUI, use `vault:open <name>` or `<id>` to switch to a different vault.
+TUI-তে, একটি ভিন্ন ভল্টে পরিবর্তন করতে `vault:open <name>` অথবা `<id>` ব্যবহার করুন।
 
-### Target a file
+### একটি ফাইল টার্গেট করুন
 
-Many commands accept `file` and `path` parameters to target a specific file. If neither is provided, the command defaults to the active file.
+একটি নির্দিষ্ট ফাইল টার্গেট করতে অনেক কমান্ড `file` এবং `path` প্যারামিটার গ্রহণ করে। যদি কোনোটিই প্রদান করা না হয়, তাহলে কমান্ডটি ডিফল্টভাবে সক্রিয় ফাইল ব্যবহার করে।
 
-- `file=<name>` resolves the file using the same link resolution as [[Internal links|wikilinks]], matching by file name without requiring the full path or extension.
-- `path=<path>` requires the exact path from the vault root, e.g. `folder/note.md`.
+- `file=<name>` [[Internal links|উইকিলিঙ্কের]] মতো একই লিঙ্ক রেজোলিউশন ব্যবহার করে ফাইলটি রেজলভ করে, সম্পূর্ণ পাথ বা এক্সটেনশন ছাড়াই ফাইল নাম দিয়ে ম্যাচ করে।
+- `path=<path>` এর জন্য ভল্ট রুট থেকে সঠিক পাথ প্রয়োজন, যেমন `folder/note.md`।
 
 ```shell
-# These are equivalent if "Recipe.md" is the only file with that name
+# যদি "Recipe.md" একমাত্র ফাইল হয় যার এই নাম রয়েছে তাহলে এগুলো সমতুল্য
 obsidian read file=Recipe
 obsidian read path="Templates/Recipe.md"
 ```
 
-### Copy output
+### আউটপুট কপি করুন
 
-Add `--copy` to any command to copy the output to the clipboard:
+আউটপুট ক্লিপবোর্ডে কপি করতে যেকোনো কমান্ডে `--copy` যোগ করুন:
 
 ```shell
 read --copy
@@ -171,265 +170,265 @@ search query="TODO" --copy
 ```
 
 
-## General commands
+## সাধারণ কমান্ড
 
 ### `help`
 
-Show list of all available commands.
+সব উপলব্ধ কমান্ডের তালিকা দেখান।
 
-| Parameter   | Description                       |
+| প্যারামিটার | বিবরণ                                  |
 | ----------- | --------------------------------- |
-| `<command>` | Show help for a specific command. |
+| `<command>` | একটি নির্দিষ্ট কমান্ডের জন্য সহায়তা দেখান। |
 
 ### `version`
 
-Show Obsidian version.
+Obsidian সংস্করণ দেখান।
 
 ### `reload`
 
-Reload the app window.
+অ্যাপ উইন্ডো রিলোড করুন।
 
 ### `restart`
 
-Restart the app.
+অ্যাপ পুনরায় চালু করুন।
 
 
 ## Bases
 
-Commands for [[Introduction to Bases|Bases]].
+[[Introduction to Bases|Bases]] এর জন্য কমান্ড।
 
 ### `bases`
 
-List all `.base` files in the vault.
+ভল্টের সব `.base` ফাইল তালিকাভুক্ত করুন।
 
 ### `base:views`
 
-List views in the current base file.
+বর্তমান base ফাইলের ভিউ তালিকাভুক্ত করুন।
 
 ### `base:create`
 
-Create a new item in a base. Defaults to the active base view if no file is specified.
+একটি base-এ একটি নতুন আইটেম তৈরি করুন। যদি কোনো ফাইল নির্দিষ্ট করা না থাকে তাহলে ডিফল্টভাবে সক্রিয় base ভিউ ব্যবহার করে।
 
 ```bash
-file=<name>        # base file name
-path=<path>        # base file path
-view=<name>        # view name
-name=<name>        # new file name
-content=<text>     # initial content
+file=<name>        # base ফাইলের নাম
+path=<path>        # base ফাইলের পাথ
+view=<name>        # ভিউয়ের নাম
+name=<name>        # নতুন ফাইলের নাম
+content=<text>     # প্রাথমিক কনটেন্ট
 
-open               # open file after creating
-newtab             # open in new tab
+open               # তৈরির পরে ফাইল খুলুন
+newtab             # নতুন ট্যাবে খুলুন
 ```
 
 ### `base:query`
 
-Query a base and return results.
+একটি base কোয়েরি করুন এবং ফলাফল ফেরত দিন।
 
 ```bash
-file=<name>                    # base file name
-path=<path>                    # base file path
-view=<name>                    # view name to query
-format=json|csv|tsv|md|paths   # output format (default: json)
+file=<name>                    # base ফাইলের নাম
+path=<path>                    # base ফাইলের পাথ
+view=<name>                    # কোয়েরি করার ভিউয়ের নাম
+format=json|csv|tsv|md|paths   # আউটপুট ফরম্যাট (ডিফল্ট: json)
 ```
 
 ## Bookmarks
 
-Commands for [[Bookmarks]].
+[[Bookmarks]] এর জন্য কমান্ড।
 
 ### `bookmarks`
 
-List bookmarks.
+বুকমার্ক তালিকাভুক্ত করুন।
 
 ```bash
-total              # return bookmark count
-verbose            # include bookmark types
-format=json|tsv|csv  # output format (default: tsv)
+total              # বুকমার্কের সংখ্যা ফেরত দিন
+verbose            # বুকমার্কের ধরন অন্তর্ভুক্ত করুন
+format=json|tsv|csv  # আউটপুট ফরম্যাট (ডিফল্ট: tsv)
 ```
 
 ### `bookmark`
 
-Add a bookmark.
+একটি বুকমার্ক যোগ করুন।
 
 ```bash
-file=<path>        # file to bookmark
-subpath=<subpath>  # subpath (heading or block) within file
-folder=<path>      # folder to bookmark
-search=<query>     # search query to bookmark
-url=<url>          # URL to bookmark
-title=<title>      # bookmark title
+file=<path>        # বুকমার্ক করার ফাইল
+subpath=<subpath>  # ফাইলের মধ্যে সাবপাথ (হেডিং বা ব্লক)
+folder=<path>      # বুকমার্ক করার ফোল্ডার
+search=<query>     # বুকমার্ক করার অনুসন্ধান কোয়েরি
+url=<url>          # বুকমার্ক করার URL
+title=<title>      # বুকমার্কের শিরোনাম
 ```
 
 ## Command palette
 
-Commands for [[Command palette]] and [[Hotkeys]]. This includes all commands registered by plugins.
+[[Command palette]] এবং [[Hotkeys]] এর জন্য কমান্ড। এতে প্লাগইন দ্বারা নিবন্ধিত সব কমান্ড অন্তর্ভুক্ত।
 
 ### `commands`
 
-List available command IDs.
+উপলব্ধ কমান্ড আইডি তালিকাভুক্ত করুন।
 
 ```bash
-filter=<prefix>    # filter by ID prefix
+filter=<prefix>    # আইডি প্রিফিক্স দিয়ে ফিল্টার করুন
 ```
 
 ### `command`
 
-Execute an Obsidian command.
+একটি Obsidian কমান্ড চালান।
 
 ```bash
-id=<command-id>    # (required) command ID to execute
+id=<command-id>    # (প্রয়োজনীয়) চালানোর জন্য কমান্ড আইডি
 ```
 
 ### `hotkeys`
 
-List hotkeys for all commands.
+সব কমান্ডের জন্য হট-কিই তালিকাভুক্ত করুন।
 
 ```bash
-total              # return hotkey count
-verbose            # show if hotkey is custom
-format=json|tsv|csv  # output format (default: tsv)
+total              # হট-কিইর সংখ্যা ফেরত দিন
+verbose            # হট-কিই কাস্টম কিনা তা দেখান
+format=json|tsv|csv  # আউটপুট ফরম্যাট (ডিফল্ট: tsv)
 ```
 
 ### `hotkey`
 
-Get hotkey for a command.
+একটি কমান্ডের জন্য হট-কিই পান।
 
 ```bash
-id=<command-id>    # (required) command ID
+id=<command-id>    # (প্রয়োজনীয়) কমান্ড আইডি
 
-verbose            # show if custom or default
+verbose            # কাস্টম নাকি ডিফল্ট তা দেখান
 ```
 
 ## Daily notes
 
-Commands for [[Daily notes]].
+[[Daily notes]] এর জন্য কমান্ড।
 
 ### `daily`
 
-Open daily note.
+দৈনিক নোট খুলুন।
 
 ```bash
-paneType=tab|split|window    # pane type to open in
+paneType=tab|split|window    # খোলার জন্য পেন টাইপ
 ```
 
 ### `daily:path`
 
-Get daily note path. Returns the expected path even if the file hasn't been created yet.
+দৈনিক নোটের পাথ পান। ফাইলটি এখনও তৈরি না হলেও প্রত্যাশিত পাথ ফেরত দেয়।
 
 ### `daily:read`
 
-Read daily note contents.
+দৈনিক নোটের কনটেন্ট পড়ুন।
 
 ### `daily:append`
 
-Append content to daily note.
+দৈনিক নোটে কনটেন্ট যোগ করুন।
 
 ```bash
-content=<text>     # (required) content to append
-paneType=tab|split|window    # pane type to open in
+content=<text>     # (প্রয়োজনীয়) যোগ করার কনটেন্ট
+paneType=tab|split|window    # খোলার জন্য পেন টাইপ
 
-inline             # append without newline
-open               # open file after adding
+inline             # নতুন লাইন ছাড়াই যোগ করুন
+open               # যোগ করার পরে ফাইল খুলুন
 ```
 
 ### `daily:prepend`
 
-Prepend content to daily note.
+দৈনিক নোটের শুরুতে কনটেন্ট যোগ করুন।
 
 ```bash
-content=<text>     # (required) content to prepend
-paneType=tab|split|window    # pane type to open in
+content=<text>     # (প্রয়োজনীয়) শুরুতে যোগ করার কনটেন্ট
+paneType=tab|split|window    # খোলার জন্য পেন টাইপ
 
-inline             # prepend without newline
-open               # open file after adding
+inline             # নতুন লাইন ছাড়াই যোগ করুন
+open               # যোগ করার পরে ফাইল খুলুন
 ```
 
 ## File history
 
 ### `diff`
 
-List or compare versions from local [[File recovery]] and [[Introduction to Obsidian Sync|Sync]]. Versions are numbered from newest to oldest.
+স্থানীয় [[File recovery]] এবং [[Introduction to Obsidian Sync|Sync]] থেকে সংস্করণ তালিকাভুক্ত করুন বা তুলনা করুন। সংস্করণগুলো নতুন থেকে পুরাতন ক্রমে সংখ্যায়িত।
 
 ```bash
-file=<name>          # file name
-path=<path>          # file path
-from=<n>             # version number to diff from
-to=<n>               # version number to diff to
-filter=local|sync    # filter by version source
+file=<name>          # ফাইলের নাম
+path=<path>          # ফাইলের পাথ
+from=<n>             # যে সংস্করণ থেকে ডিফ করতে হবে
+to=<n>               # যে সংস্করণ পর্যন্ত ডিফ করতে হবে
+filter=local|sync    # সংস্করণের উৎস দিয়ে ফিল্টার করুন
 ```
 
-**Examples:**
+**উদাহরণ:**
 
 ```shell
-# List all versions of the active file
+# সক্রিয় ফাইলের সব সংস্করণ তালিকাভুক্ত করুন
 diff
 
-# List all versions of a specific file
+# একটি নির্দিষ্ট ফাইলের সব সংস্করণ তালিকাভুক্ত করুন
 diff file=Recipe
 
-# Compare the latest version to the current file
+# সর্বশেষ সংস্করণকে বর্তমান ফাইলের সাথে তুলনা করুন
 diff file=Recipe from=1
 
-# Compare two versions
+# দুটি সংস্করণ তুলনা করুন
 diff file=Recipe from=2 to=1
 
-# Only show Sync versions
+# শুধুমাত্র Sync সংস্করণ দেখান
 diff filter=sync
 ```
 
 ### `history`
 
-List versions from [[File recovery]] only. See [[#Sync|sync:history]] for the equivalent Sync command.
+শুধুমাত্র [[File recovery]] থেকে সংস্করণ তালিকাভুক্ত করুন। সমতুল্য Sync কমান্ডের জন্য [[#Sync|sync:history]] দেখুন।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ### `history:list`
 
-List all files with local history.
+স্থানীয় হিস্টোরি সহ সব ফাইল তালিকাভুক্ত করুন।
 
 ### `history:read`
 
-Read a local history version.
+একটি স্থানীয় হিস্টোরি সংস্করণ পড়ুন।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # version number (default: 1)
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+version=<n>        # সংস্করণ সংখ্যা (ডিফল্ট: 1)
 ```
 
 ### `history:restore`
 
-Restore a local history version.
+একটি স্থানীয় হিস্টোরি সংস্করণ পুনরুদ্ধার করুন।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+version=<n>        # (প্রয়োজনীয়) সংস্করণ সংখ্যা
 ```
 
 ### `history:open`
 
-Open file recovery.
+ফাইল রিকভারি খুলুন।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ## Files and folders
 
 ### `file`
 
-Show file info (default: active file).
+ফাইলের তথ্য দেখান (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
-Example:
+উদাহরণ:
 
 ```
 path       Notes/Recipe.md
@@ -442,1094 +441,1093 @@ modified   1700001000000
 
 ### `files`
 
-List files in the vault.
+ভল্টের ফাইল তালিকাভুক্ত করুন।
 
 ```bash
-folder=<path>      # filter by folder
-ext=<extension>    # filter by extension
+folder=<path>      # ফোল্ডার দিয়ে ফিল্টার করুন
+ext=<extension>    # এক্সটেনশন দিয়ে ফিল্টার করুন
 
-total              # return file count
+total              # ফাইলের সংখ্যা ফেরত দিন
 ```
 
 ### `folder`
 
-Show folder info.
+ফোল্ডারের তথ্য দেখান।
 
 ```bash
-path=<path>              # (required) folder path
-info=files|folders|size  # return specific info only
+path=<path>              # (প্রয়োজনীয়) ফোল্ডারের পাথ
+info=files|folders|size  # শুধুমাত্র নির্দিষ্ট তথ্য ফেরত দিন
 ```
 
 ### `folders`
 
-List folders in the vault.
+ভল্টের ফোল্ডার তালিকাভুক্ত করুন।
 
 ```bash
-folder=<path>      # filter by parent folder
+folder=<path>      # প্যারেন্ট ফোল্ডার দিয়ে ফিল্টার করুন
 
-total              # return folder count
+total              # ফোল্ডারের সংখ্যা ফেরত দিন
 ```
 
 ### `open`
 
-Open a file.
+একটি ফাইল খুলুন।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 
-newtab             # open in new tab
+newtab             # নতুন ট্যাবে খুলুন
 ```
 
 ### `create`
 
-Create or overwrite a file.
+একটি ফাইল তৈরি করুন বা ওভাররাইট করুন।
 
 ```bash
-name=<name>        # file name
-path=<path>        # file path
-content=<text>     # initial content
-template=<name>    # template to use
+name=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+content=<text>     # প্রাথমিক কনটেন্ট
+template=<name>    # ব্যবহার করার টেমপ্লেট
 
-overwrite          # overwrite if file exists
-open               # open file after creating
-newtab             # open in new tab
+overwrite          # ফাইল থাকলে ওভাররাইট করুন
+open               # তৈরির পরে ফাইল খুলুন
+newtab             # নতুন ট্যাবে খুলুন
 ```
 
 ### `read`
 
-Read file contents (default: active file).
+ফাইলের কনটেন্ট পড়ুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ### `append`
 
-Append content to a file (default: active file).
+একটি ফাইলে কনটেন্ট যোগ করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-content=<text>     # (required) content to append
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+content=<text>     # (প্রয়োজনীয়) যোগ করার কনটেন্ট
 
-inline             # append without newline
+inline             # নতুন লাইন ছাড়াই যোগ করুন
 ```
 
 ### `prepend`
 
-Prepend content after frontmatter (default: active file).
+ফ্রন্টম্যাটারের পরে কনটেন্ট যোগ করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-content=<text>     # (required) content to prepend
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+content=<text>     # (প্রয়োজনীয়) শুরুতে যোগ করার কনটেন্ট
 
-inline             # prepend without newline
+inline             # নতুন লাইন ছাড়াই যোগ করুন
 ```
 
 ### `move`
 
-Move or rename a file (default: active file). This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+একটি ফাইল সরান বা নাম পরিবর্তন করুন (ডিফল্ট: সক্রিয় ফাইল)। যদি আপনার [[Settings#Automatically update internal links|ভল্ট সেটিংসে]] চালু থাকে, তাহলে এটি স্বয়ংক্রিয়ভাবে [[internal links|অভ্যন্তরীণ লিঙ্ক]] আপডেট করবে।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-to=<path>          # (required) destination folder or path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+to=<path>          # (প্রয়োজনীয়) গন্তব্য ফোল্ডার বা পাথ
 ```
 
 ### `rename`
 
-Rename a file (default: active file). The file extension is preserved automatically if omitted from the new name. Use [[#`move`|move]] to rename and move a file at the same time. This will automatically update [[internal links]] if turned on in your [[Settings#Automatically update internal links|vault settings]].
+একটি ফাইলের নাম পরিবর্তন করুন (ডিফল্ট: সক্রিয় ফাইল)। নতুন নাম থেকে ফাইল এক্সটেনশন বাদ দিলে এটি স্বয়ংক্রিয়ভাবে সংরক্ষিত থাকে। একই সাথে একটি ফাইলের নাম পরিবর্তন ও সরাতে [[#`move`|move]] ব্যবহার করুন। যদি আপনার [[Settings#Automatically update internal links|ভল্ট সেটিংসে]] চালু থাকে, তাহলে এটি স্বয়ংক্রিয়ভাবে [[internal links|অভ্যন্তরীণ লিঙ্ক]] আপডেট করবে।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-name=<name>        # (required) new file name
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+name=<name>        # (প্রয়োজনীয়) নতুন ফাইলের নাম
 ```
 
 ### `delete`
 
-Delete a file (default: active file, trash by default).
+একটি ফাইল মুছুন (ডিফল্ট: সক্রিয় ফাইল, ডিফল্টভাবে ট্র্যাশে)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 
-permanent          # skip trash, delete permanently
+permanent          # ট্র্যাশ বাদ দিয়ে স্থায়ীভাবে মুছুন
 ```
 
 ## Links
 
-Commands for [[Backlinks]] and [[Outgoing links]].
+[[Backlinks]] এবং [[Outgoing links]] এর জন্য কমান্ড।
 
 ### `backlinks`
 
-List backlinks to a file (default: active file).
+একটি ফাইলের ব্যাকলিঙ্ক তালিকাভুক্ত করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # target file name
-path=<path>        # target file path
+file=<name>        # টার্গেট ফাইলের নাম
+path=<path>        # টার্গেট ফাইলের পাথ
 
-counts             # include link counts
-total              # return backlink count
-format=json|tsv|csv  # output format (default: tsv)
+counts             # লিঙ্ক সংখ্যা অন্তর্ভুক্ত করুন
+total              # ব্যাকলিঙ্কের সংখ্যা ফেরত দিন
+format=json|tsv|csv  # আউটপুট ফরম্যাট (ডিফল্ট: tsv)
 ```
 
 ### `links`
 
-List outgoing links from a file (default: active file).
+একটি ফাইল থেকে আউটগোয়িং লিঙ্ক তালিকাভুক্ত করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 
-total              # return link count
+total              # লিঙ্ক সংখ্যা ফেরত দিন
 ```
 
 ### `unresolved`
 
-List unresolved links in vault.
+ভল্টে অমীমাংসিত লিঙ্ক তালিকাভুক্ত করুন।
 
 ```bash
-total              # return unresolved link count
-counts             # include link counts
-verbose            # include source files
-format=json|tsv|csv  # output format (default: tsv)
+total              # অমীমাংসিত লিঙ্ক সংখ্যা ফেরত দিন
+counts             # লিঙ্ক সংখ্যা অন্তর্ভুক্ত করুন
+verbose            # সোর্স ফাইল অন্তর্ভুক্ত করুন
+format=json|tsv|csv  # আউটপুট ফরম্যাট (ডিফল্ট: tsv)
 ```
 
 ### `orphans`
 
-List files with no incoming links.
+কোনো ইনকামিং লিঙ্ক নেই এমন ফাইল তালিকাভুক্ত করুন।
 
 ```bash
-total              # return orphan count
+total              # অরফানের সংখ্যা ফেরত দিন
 ```
 
 ### `deadends`
 
-List files with no outgoing links.
+কোনো আউটগোয়িং লিঙ্ক নেই এমন ফাইল তালিকাভুক্ত করুন।
 
 ```bash
-total              # return dead-end count
+total              # ডেড-এন্ডের সংখ্যা ফেরত দিন
 ```
 
 ## Outline
 
-Commands for [[Outline]].
+[[Outline]] এর জন্য কমান্ড।
 
 ### `outline`
 
-Show headings for the current file.
+বর্তমান ফাইলের জন্য হেডিং দেখান।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-format=tree|md|json  # output format (default: tree)
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+format=tree|md|json  # আউটপুট ফরম্যাট (ডিফল্ট: tree)
 
-total              # return heading count
+total              # হেডিং সংখ্যা ফেরত দিন
 ```
 
 ## Plugins
 
-Commands for [[Core plugins]] and [[Community plugins]].
+[[Core plugins]] এবং [[Community plugins]] এর জন্য কমান্ড।
 
 ### `plugins`
 
-List installed plugins.
+ইনস্টল করা প্লাগইন তালিকাভুক্ত করুন।
 
 ```bash
-filter=core|community  # filter by plugin type
+filter=core|community  # প্লাগইনের ধরন দিয়ে ফিল্টার করুন
 
-versions               # include version numbers
-format=json|tsv|csv    # output format (default: tsv)
+versions               # সংস্করণ সংখ্যা অন্তর্ভুক্ত করুন
+format=json|tsv|csv    # আউটপুট ফরম্যাট (ডিফল্ট: tsv)
 ```
 
 ### `plugins:enabled`
 
-List enabled plugins.
+সক্রিয় প্লাগইন তালিকাভুক্ত করুন।
 
 ```bash
-filter=core|community  # filter by plugin type
+filter=core|community  # প্লাগইনের ধরন দিয়ে ফিল্টার করুন
 
-versions               # include version numbers
-format=json|tsv|csv    # output format (default: tsv)
+versions               # সংস্করণ সংখ্যা অন্তর্ভুক্ত করুন
+format=json|tsv|csv    # আউটপুট ফরম্যাট (ডিফল্ট: tsv)
 ```
 
 ### `plugins:restrict`
 
-Toggle or check restricted mode.
+নিয়ন্ত্রিত মোড টগল করুন বা পরীক্ষা করুন।
 
 ```bash
-on                 # enable restricted mode
-off                # disable restricted mode
+on                 # নিয়ন্ত্রিত মোড সক্রিয় করুন
+off                # নিয়ন্ত্রিত মোড নিষ্ক্রিয় করুন
 ```
 
 ### `plugin`
 
-Get plugin info.
+প্লাগইনের তথ্য পান।
 
 ```bash
-id=<plugin-id>     # (required) plugin ID
+id=<plugin-id>     # (প্রয়োজনীয়) প্লাগইন আইডি
 ```
 
 ### `plugin:enable`
 
-Enable a plugin.
+একটি প্লাগইন সক্রিয় করুন।
 
 ```bash
-id=<id>                # (required) plugin ID
-filter=core|community  # plugin type
+id=<id>                # (প্রয়োজনীয়) প্লাগইন আইডি
+filter=core|community  # প্লাগইনের ধরন
 ```
 
 ### `plugin:disable`
 
-Disable a plugin.
+একটি প্লাগইন নিষ্ক্রিয় করুন।
 
 ```bash
-id=<id>                # (required) plugin ID
-filter=core|community  # plugin type
+id=<id>                # (প্রয়োজনীয়) প্লাগইন আইডি
+filter=core|community  # প্লাগইনের ধরন
 ```
 
 ### `plugin:install`
 
-Install a community plugin.
+একটি কমিউনিটি প্লাগইন ইনস্টল করুন।
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (প্রয়োজনীয়) প্লাগইন আইডি
 
-enable             # enable after install
+enable             # ইনস্টলের পরে সক্রিয় করুন
 ```
 
 ### `plugin:uninstall`
 
-Uninstall a community plugin.
+একটি কমিউনিটি প্লাগইন আনইনস্টল করুন।
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (প্রয়োজনীয়) প্লাগইন আইডি
 ```
 
 ### `plugin:reload`
 
-Reload a plugin (for developers).
+একটি প্লাগইন রিলোড করুন (ডেভেলপারদের জন্য)।
 
 ```bash
-id=<id>            # (required) plugin ID
+id=<id>            # (প্রয়োজনীয়) প্লাগইন আইডি
 ```
 
 ## Properties
 
-Commands related to [[Properties]].
+[[Properties]] সম্পর্কিত কমান্ড।
 
 ### `aliases`
 
-List aliases in the vault. Use `active` or `file`/`path` to show aliases for a specific file.
+ভল্টের এলিয়াস তালিকাভুক্ত করুন। একটি নির্দিষ্ট ফাইলের এলিয়াস দেখাতে `active` অথবা `file`/`path` ব্যবহার করুন।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 
-total              # return alias count
-verbose            # include file paths
-active             # show aliases for active file
+total              # এলিয়াসের সংখ্যা ফেরত দিন
+verbose            # ফাইলের পাথ অন্তর্ভুক্ত করুন
+active             # সক্রিয় ফাইলের এলিয়াস দেখান
 ```
 
 ### `properties`
 
-List properties in the vault. Use `active` or `file`/`path` to show properties for a specific file.
+ভল্টের প্রপার্টি তালিকাভুক্ত করুন। একটি নির্দিষ্ট ফাইলের প্রপার্টি দেখাতে `active` অথবা `file`/`path` ব্যবহার করুন।
 
 ```bash
-file=<name>        # show properties for file
-path=<path>        # show properties for path
-name=<name>        # get specific property count
-sort=count         # sort by count (default: name)
-format=yaml|json|tsv  # output format (default: yaml)
+file=<name>        # ফাইলের জন্য প্রপার্টি দেখান
+path=<path>        # পাথের জন্য প্রপার্টি দেখান
+name=<name>        # নির্দিষ্ট প্রপার্টি সংখ্যা পান
+sort=count         # সংখ্যা দিয়ে সাজান (ডিফল্ট: name)
+format=yaml|json|tsv  # আউটপুট ফরম্যাট (ডিফল্ট: yaml)
 
-total              # return property count
-counts             # include occurrence counts
-active             # show properties for active file
+total              # প্রপার্টি সংখ্যা ফেরত দিন
+counts             # ব্যবহারের সংখ্যা অন্তর্ভুক্ত করুন
+active             # সক্রিয় ফাইলের প্রপার্টি দেখান
 ```
 
 ### `property:set`
 
-Set a property on a file (default: active file).
+একটি ফাইলে একটি প্রপার্টি সেট করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-name=<name>                                    # (required) property name
-value=<value>                                  # (required) property value
-type=text|list|number|checkbox|date|datetime   # property type
-file=<name>                                    # file name
-path=<path>                                    # file path
+name=<name>                                    # (প্রয়োজনীয়) প্রপার্টির নাম
+value=<value>                                  # (প্রয়োজনীয়) প্রপার্টির মান
+type=text|list|number|checkbox|date|datetime   # প্রপার্টির ধরন
+file=<name>                                    # ফাইলের নাম
+path=<path>                                    # ফাইলের পাথ
 ```
 
 ### `property:remove`
 
-Remove a property from a file (default: active file).
+একটি ফাইল থেকে একটি প্রপার্টি সরান (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-name=<name>        # (required) property name
-file=<name>        # file name
-path=<path>        # file path
+name=<name>        # (প্রয়োজনীয়) প্রপার্টির নাম
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ### `property:read`
 
-Read a property value from a file (default: active file).
+একটি ফাইল থেকে একটি প্রপার্টির মান পড়ুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-name=<name>        # (required) property name
-file=<name>        # file name
-path=<path>        # file path
+name=<name>        # (প্রয়োজনীয়) প্রপার্টির নাম
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ## Publish
 
-Commands for [[Introduction to Obsidian Publish|Obsidian Publish]].
+[[Introduction to Obsidian Publish|Obsidian Publish]] এর জন্য কমান্ড।
 
 ### `publish:site`
 
-Show publish site info (slug, URL).
+পাবলিশ সাইটের তথ্য দেখান (স্লাগ, URL)।
 
 ### `publish:list`
 
-List published files.
+প্রকাশিত ফাইল তালিকাভুক্ত করুন।
 
 ```bash
-total              # return published file count
+total              # প্রকাশিত ফাইলের সংখ্যা ফেরত দিন
 ```
 
 ### `publish:status`
 
-List publish changes.
+পাবলিশ পরিবর্তন তালিকাভুক্ত করুন।
 
 ```bash
-total              # return change count
-new                # show new files only
-changed            # show changed files only
-deleted            # show deleted files only
+total              # পরিবর্তনের সংখ্যা ফেরত দিন
+new                # শুধুমাত্র নতুন ফাইল দেখান
+changed            # শুধুমাত্র পরিবর্তিত ফাইল দেখান
+deleted            # শুধুমাত্র মুছে ফেলা ফাইল দেখান
 ```
 
 ### `publish:add`
 
-Publish a file or all changed files (default: active file).
+একটি ফাইল বা সব পরিবর্তিত ফাইল প্রকাশ করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 
-changed            # publish all changed files
+changed            # সব পরিবর্তিত ফাইল প্রকাশ করুন
 ```
 
 ### `publish:remove`
 
-Unpublish a file (default: active file).
+একটি ফাইল অপ্রকাশিত করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ### `publish:open`
 
-Open file on published site (default: active file).
+প্রকাশিত সাইটে ফাইল খুলুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ## Random notes
 
-Commands for [[Random note]].
+[[Random note]] এর জন্য কমান্ড।
 
 ### `random`
 
-Open a random note.
+একটি র‍্যান্ডম নোট খুলুন।
 
 ```bash
-folder=<path>      # limit to folder
+folder=<path>      # ফোল্ডারে সীমাবদ্ধ করুন
 
-newtab             # open in new tab
+newtab             # নতুন ট্যাবে খুলুন
 ```
 
 ### `random:read`
 
-Read a random note (includes path).
+একটি র‍্যান্ডম নোট পড়ুন (পাথ অন্তর্ভুক্ত)।
 
 ```bash
-folder=<path>      # limit to folder
+folder=<path>      # ফোল্ডারে সীমাবদ্ধ করুন
 ```
 
 ## Search
 
-Commands for [[Search]].
+[[Search]] এর জন্য কমান্ড।
 
 ### `search`
 
-Search vault for text. Returns matching file paths.
+টেক্সটের জন্য ভল্ট অনুসন্ধান করুন। ম্যাচ করা ফাইলের পাথ ফেরত দেয়।
 
 ```bash
-query=<text>       # (required) search query
-path=<folder>      # limit to folder
-limit=<n>          # max files
-format=text|json   # output format (default: text)
+query=<text>       # (প্রয়োজনীয়) অনুসন্ধান কোয়েরি
+path=<folder>      # ফোল্ডারে সীমাবদ্ধ করুন
+limit=<n>          # সর্বোচ্চ ফাইল
+format=text|json   # আউটপুট ফরম্যাট (ডিফল্ট: text)
 
-total              # return match count
-case               # case sensitive
+total              # ম্যাচের সংখ্যা ফেরত দিন
+case               # কেস সেনসিটিভ
 ```
 
 ### `search:context`
 
-Search with matching line context. Returns grep-style `path:line: text` output.
+ম্যাচিং লাইন কনটেক্সট সহ অনুসন্ধান করুন। grep-স্টাইল `path:line: text` আউটপুট ফেরত দেয়।
 
 ```bash
-query=<text>       # (required) search query
-path=<folder>      # limit to folder
-limit=<n>          # max files
-format=text|json   # output format (default: text)
+query=<text>       # (প্রয়োজনীয়) অনুসন্ধান কোয়েরি
+path=<folder>      # ফোল্ডারে সীমাবদ্ধ করুন
+limit=<n>          # সর্বোচ্চ ফাইল
+format=text|json   # আউটপুট ফরম্যাট (ডিফল্ট: text)
 
-case               # case sensitive
+case               # কেস সেনসিটিভ
 ```
 
 ### `search:open`
 
-Open search view.
+অনুসন্ধান ভিউ খুলুন।
 
 ```bash
-query=<text>       # initial search query
+query=<text>       # প্রাথমিক অনুসন্ধান কোয়েরি
 ```
 
 ## Sync
 
-Commands for [[Introduction to Obsidian Sync|Obsidian Sync]].
+[[Introduction to Obsidian Sync|Obsidian Sync]] এর জন্য কমান্ড।
 
-> [!tip] Sync without the desktop app
-> These commands control Sync within the running Obsidian app. To sync vaults from the command line without the desktop app, see [[Headless Sync]].
+> [!tip] ডেস্কটপ অ্যাপ ছাড়াই সিঙ্ক
+> এই কমান্ডগুলো চলমান Obsidian অ্যাপের মধ্যে Sync নিয়ন্ত্রণ করে। ডেস্কটপ অ্যাপ ছাড়াই কমান্ড লাইন থেকে ভল্ট সিঙ্ক করতে, [[Headless Sync]] দেখুন।
 
 ### `sync`
 
-Pause or resume sync.
+সিঙ্ক থামান বা পুনরায় শুরু করুন।
 
 ```bash
-on                 # resume sync
-off                # pause sync
+on                 # সিঙ্ক পুনরায় শুরু করুন
+off                # সিঙ্ক থামান
 ```
 
 ### `sync:status`
 
-Show sync status and usage.
+সিঙ্কের স্ট্যাটাস এবং ব্যবহার দেখান।
 
 ### `sync:history`
 
-List sync version history for a file (default: active file).
+একটি ফাইলের জন্য সিঙ্ক সংস্করণ হিস্টোরি তালিকাভুক্ত করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 
-total              # return version count
+total              # সংস্করণ সংখ্যা ফেরত দিন
 ```
 
 ### `sync:read`
 
-Read a sync version (default: active file).
+একটি সিঙ্ক সংস্করণ পড়ুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+version=<n>        # (প্রয়োজনীয়) সংস্করণ সংখ্যা
 ```
 
 ### `sync:restore`
 
-Restore a sync version (default: active file).
+একটি সিঙ্ক সংস্করণ পুনরুদ্ধার করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-version=<n>        # (required) version number
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+version=<n>        # (প্রয়োজনীয়) সংস্করণ সংখ্যা
 ```
 
 ### `sync:open`
 
-Open sync history (default: active file).
+সিঙ্ক হিস্টোরি খুলুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 ```
 
 ### `sync:deleted`
 
-List deleted files in sync.
+সিঙ্কে মুছে ফেলা ফাইল তালিকাভুক্ত করুন।
 
 ```bash
-total              # return deleted file count
+total              # মুছে ফেলা ফাইলের সংখ্যা ফেরত দিন
 ```
 
 ## Tags
 
-Commands for [[Tags]].
+[[Tags]] এর জন্য কমান্ড।
 
 ### `tags`
 
-List tags in the vault. Use `active` or `file`/`path` to show tags for a specific file.
+ভল্টের ট্যাগ তালিকাভুক্ত করুন। একটি নির্দিষ্ট ফাইলের ট্যাগ দেখাতে `active` অথবা `file`/`path` ব্যবহার করুন।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
-sort=count         # sort by count (default: name)
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+sort=count         # সংখ্যা দিয়ে সাজান (ডিফল্ট: name)
 
-total              # return tag count
-counts             # include tag counts
-format=json|tsv|csv  # output format (default: tsv)
-active             # show tags for active file
+total              # ট্যাগের সংখ্যা ফেরত দিন
+counts             # ট্যাগের সংখ্যা অন্তর্ভুক্ত করুন
+format=json|tsv|csv  # আউটপুট ফরম্যাট (ডিফল্ট: tsv)
+active             # সক্রিয় ফাইলের ট্যাগ দেখান
 ```
 
 ### `tag`
 
-Get tag info.
+ট্যাগের তথ্য পান।
 
 ```bash
-name=<tag>         # (required) tag name
+name=<tag>         # (প্রয়োজনীয়) ট্যাগের নাম
 
-total              # return occurrence count
-verbose            # include file list and count
+total              # ব্যবহারের সংখ্যা ফেরত দিন
+verbose            # ফাইলের তালিকা এবং সংখ্যা অন্তর্ভুক্ত করুন
 ```
 
 ## Tasks
 
-Commands for task management.
+টাস্ক ম্যানেজমেন্টের জন্য কমান্ড।
 
 ### `tasks`
 
-List tasks in the vault. Use `active` or `file`/`path` to show tasks for a specific file.
+ভল্টের টাস্ক তালিকাভুক্ত করুন। একটি নির্দিষ্ট ফাইলের টাস্ক দেখাতে `active` অথবা `file`/`path` ব্যবহার করুন।
 
 ```bash
-file=<name>        # filter by file name
-path=<path>        # filter by file path
-status="<char>"    # filter by status character
+file=<name>        # ফাইলের নাম দিয়ে ফিল্টার করুন
+path=<path>        # ফাইলের পাথ দিয়ে ফিল্টার করুন
+status="<char>"    # স্ট্যাটাস অক্ষর দিয়ে ফিল্টার করুন
 
-total              # return task count
-done               # show completed tasks
-todo               # show incomplete tasks
-verbose            # group by file with line numbers
-format=json|tsv|csv  # output format (default: text)
-active             # show tasks for active file
-daily              # show tasks from daily note
+total              # টাস্কের সংখ্যা ফেরত দিন
+done               # সম্পন্ন টাস্ক দেখান
+todo               # অসম্পূর্ণ টাস্ক দেখান
+verbose            # লাইন নম্বর সহ ফাইল অনুযায়ী গ্রুপ করুন
+format=json|tsv|csv  # আউটপুট ফরম্যাট (ডিফল্ট: text)
+active             # সক্রিয় ফাইলের টাস্ক দেখান
+daily              # দৈনিক নোট থেকে টাস্ক দেখান
 ```
 
-**Examples:**
+**উদাহরণ:**
 
 ```bash
-# List all tasks in the vault
+# ভল্টের সব টাস্ক তালিকাভুক্ত করুন
 tasks
 
-# List incomplete tasks in the vault
+# ভল্টের অসম্পূর্ণ টাস্ক তালিকাভুক্ত করুন
 tasks todo
 
-# List completed tasks from a specific file
+# একটি নির্দিষ্ট ফাইল থেকে সম্পন্ন টাস্ক তালিকাভুক্ত করুন
 tasks file=Recipe done
 
-# List tasks from today's daily note
+# আজকের দৈনিক নোট থেকে টাস্ক তালিকাভুক্ত করুন
 tasks daily
 
-# Count tasks in daily note
+# দৈনিক নোটে টাস্কের সংখ্যা গণনা করুন
 tasks daily total
 
-# List tasks with file paths and line numbers
+# ফাইলের পাথ এবং লাইন নম্বর সহ টাস্ক তালিকাভুক্ত করুন
 tasks verbose
 
-# Filter by custom status (quote special chars)
+# কাস্টম স্ট্যাটাস দিয়ে ফিল্টার করুন (বিশেষ অক্ষর উদ্ধৃত করুন)
 tasks 'status=?'
 ```
 
 ### `task`
 
-Show or update a task.
+একটি টাস্ক দেখান বা আপডেট করুন।
 
 ```bash
-ref=<path:line>    # task reference (path:line)
-file=<name>        # file name
-path=<path>        # file path
-line=<n>           # line number
-status="<char>"    # set status character
+ref=<path:line>    # টাস্ক রেফারেন্স (path:line)
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
+line=<n>           # লাইন নম্বর
+status="<char>"    # স্ট্যাটাস অক্ষর সেট করুন
 
-toggle             # toggle task status
-daily              # daily note
-done               # mark as done
-todo               # mark as todo
+toggle             # টাস্কের স্ট্যাটাস টগল করুন
+daily              # দৈনিক নোট
+done               # সম্পন্ন হিসেবে চিহ্নিত করুন
+todo               # করণীয় হিসেবে চিহ্নিত করুন
 ```
 
-**Examples:**
+**উদাহরণ:**
 
 ```bash
-# Show task info
+# টাস্কের তথ্য দেখান
 task file=Recipe line=8
 task ref="Recipe.md:8"
 
-# Toggle task completion
+# টাস্ক সম্পন্ন হওয়া টগল করুন
 task ref="Recipe.md:8" toggle
 
-# Toggle task in daily note
+# দৈনিক নোটে টাস্ক টগল করুন
 task daily line=3 toggle
 
-# Set task status
+# টাস্কের স্ট্যাটাস সেট করুন
 task file=Recipe line=8 done      # → [x]
 task file=Recipe line=8 todo      # → [ ]
 task file=Recipe line=8 status=-  # → [-]
-task daily line=3 done            # Mark daily note task as done
+task daily line=3 done            # দৈনিক নোটের টাস্ক সম্পন্ন হিসেবে চিহ্নিত করুন
 ```
 
 
 ## Templates
 
-Commands for [[Plugins/Templates|Templates]].
+[[Plugins/Templates|Templates]] এর জন্য কমান্ড।
 
 ### `templates`
 
-List templates.
+টেমপ্লেট তালিকাভুক্ত করুন।
 
 ```bash
-total              # return template count
+total              # টেমপ্লেটের সংখ্যা ফেরত দিন
 ```
 
 ### `template:read`
 
-Read template content.
+টেমপ্লেটের কনটেন্ট পড়ুন।
 
 ```bash
-name=<template>    # (required) template name
-title=<title>      # title for variable resolution
+name=<template>    # (প্রয়োজনীয়) টেমপ্লেটের নাম
+title=<title>      # ভ্যারিয়েবল রেজোলিউশনের জন্য শিরোনাম
 
-resolve            # resolve template variables
+resolve            # টেমপ্লেট ভ্যারিয়েবল রেজলভ করুন
 ```
 
 ### `template:insert`
 
-Insert template into active file.
+সক্রিয় ফাইলে টেমপ্লেট সন্নিবেশ করুন।
 
 ```bash
-name=<template>    # (required) template name
+name=<template>    # (প্রয়োজনীয়) টেমপ্লেটের নাম
 ```
 
-**Notes:**
-- `resolve` option processes `{{date}}`, `{{time}}`, `{{title}}` variables
-- Use `create path=<path> template=<name>` to create a file with a template
+**নোট:**
+- `resolve` অপশন `{{date}}`, `{{time}}`, `{{title}}` ভ্যারিয়েবল প্রক্রিয়া করে
+- একটি টেমপ্লেট দিয়ে একটি ফাইল তৈরি করতে `create path=<path> template=<name>` ব্যবহার করুন
 
 ## Themes and snippets
 
-Commands for [[Themes]] and [[CSS snippets]].
+[[Themes]] এবং [[CSS snippets]] এর জন্য কমান্ড।
 
 ### `themes`
 
-List installed themes.
+ইনস্টল করা থিম তালিকাভুক্ত করুন।
 
 ```bash
-versions           # include version numbers
+versions           # সংস্করণ সংখ্যা অন্তর্ভুক্ত করুন
 ```
 
 ### `theme`
 
-Show active theme or get info.
+সক্রিয় থিম দেখান বা তথ্য পান।
 
 ```bash
-name=<name>        # theme name for details
+name=<name>        # বিস্তারিত জানার জন্য থিমের নাম
 ```
 
 ### `theme:set`
 
-Set active theme.
+সক্রিয় থিম সেট করুন।
 
 ```bash
-name=<name>        # (required) theme name (empty for default)
+name=<name>        # (প্রয়োজনীয়) থিমের নাম (ডিফল্টের জন্য খালি রাখুন)
 ```
 
 ### `theme:install`
 
-Install a community theme.
+একটি কমিউনিটি থিম ইনস্টল করুন।
 
 ```bash
-name=<name>        # (required) theme name
+name=<name>        # (প্রয়োজনীয়) থিমের নাম
 
-enable             # activate after install
+enable             # ইনস্টলের পরে সক্রিয় করুন
 ```
 
 ### `theme:uninstall`
 
-Uninstall a theme.
+একটি থিম আনইনস্টল করুন।
 
 ```bash
-name=<name>        # (required) theme name
+name=<name>        # (প্রয়োজনীয়) থিমের নাম
 ```
 
 ### `snippets`
 
-List installed CSS snippets.
+ইনস্টল করা CSS স্নিপেট তালিকাভুক্ত করুন।
 
 ### `snippets:enabled`
 
-List enabled CSS snippets.
+সক্রিয় CSS স্নিপেট তালিকাভুক্ত করুন।
 
 ### `snippet:enable`
 
-Enable a CSS snippet.
+একটি CSS স্নিপেট সক্রিয় করুন।
 
 ```bash
-name=<name>        # (required) snippet name
+name=<name>        # (প্রয়োজনীয়) স্নিপেটের নাম
 ```
 
 ### `snippet:disable`
 
-Disable a CSS snippet.
+একটি CSS স্নিপেট নিষ্ক্রিয় করুন।
 
 ```bash
-name=<name>        # (required) snippet name
+name=<name>        # (প্রয়োজনীয়) স্নিপেটের নাম
 ```
 
 ## Unique notes
 
-Commands for [[Unique note creator]].
+[[Unique note creator]] এর জন্য কমান্ড।
 
 ### `unique`
 
-Create unique note.
+ইউনিক নোট তৈরি করুন।
 
 ```bash
-name=<text>        # note name
-content=<text>     # initial content
-paneType=tab|split|window    # pane type to open in
+name=<text>        # নোটের নাম
+content=<text>     # প্রাথমিক কনটেন্ট
+paneType=tab|split|window    # খোলার জন্য পেন টাইপ
 
-open               # open file after creating
+open               # তৈরির পরে ফাইল খুলুন
 ```
 
 ## Vault
 
 ### `vault`
 
-Show vault info.
+ভল্টের তথ্য দেখান।
 
 ```bash
-info=name|path|files|folders|size  # return specific info only
+info=name|path|files|folders|size  # শুধুমাত্র নির্দিষ্ট তথ্য ফেরত দিন
 ```
 
 ### `vaults`
 
-List known vaults.
+পরিচিত ভল্ট তালিকাভুক্ত করুন।
 
 ```bash
-total              # return vault count
-verbose            # include vault paths
+total              # ভল্টের সংখ্যা ফেরত দিন
+verbose            # ভল্টের পাথ অন্তর্ভুক্ত করুন
 ```
 
 ### `vault:open`
 
-Switch to a different vault (TUI only).
+একটি ভিন্ন ভল্টে পরিবর্তন করুন (শুধুমাত্র TUI)।
 
 ```bash
-name=<name>        # (required) vault name
+name=<name>        # (প্রয়োজনীয়) ভল্টের নাম
 ```
 
 ## Web viewer
 
-Commands for [[Web viewer]].
+[[Web viewer]] এর জন্য কমান্ড।
 
 ### `web`
 
-Open URL in web viewer.
+Web viewer-এ URL খুলুন।
 
 ```bash
-url=<url>          # (required) URL to open
+url=<url>          # (প্রয়োজনীয়) খোলার জন্য URL
 
-newtab             # open in new tab
+newtab             # নতুন ট্যাবে খুলুন
 ```
 
 ## Wordcount
 
-Commands for [[Word count]].
+[[Word count]] এর জন্য কমান্ড।
 
 ### `wordcount`
 
-Count words and characters (default: active file).
+শব্দ এবং অক্ষর গণনা করুন (ডিফল্ট: সক্রিয় ফাইল)।
 
 ```bash
-file=<name>        # file name
-path=<path>        # file path
+file=<name>        # ফাইলের নাম
+path=<path>        # ফাইলের পাথ
 
-words              # return word count only
-characters         # return character count only
+words              # শুধুমাত্র শব্দ সংখ্যা ফেরত দিন
+characters         # শুধুমাত্র অক্ষর সংখ্যা ফেরত দিন
 ```
 
 ## Workspace
 
-Commands for [[Workspace]] and the [[Workspaces]] plugin.
+[[Workspace]] এবং [[Workspaces]] প্লাগইনের জন্য কমান্ড।
 
 ### `workspace`
 
-Show workspace tree.
+ওয়ার্কস্পেস ট্রি দেখান।
 
 ```bash
-ids                # include workspace item IDs
+ids                # ওয়ার্কস্পেস আইটেম আইডি অন্তর্ভুক্ত করুন
 ```
 
 ### `workspaces`
 
-List saved workspaces.
+সংরক্ষিত ওয়ার্কস্পেস তালিকাভুক্ত করুন।
 
 ```bash
-total              # return workspace count
+total              # ওয়ার্কস্পেসের সংখ্যা ফেরত দিন
 ```
 
 ### `workspace:save`
 
-Save current layout as workspace.
+বর্তমান লেআউট ওয়ার্কস্পেস হিসেবে সংরক্ষণ করুন।
 
 ```bash
-name=<name>        # workspace name
+name=<name>        # ওয়ার্কস্পেসের নাম
 ```
 
 ### `workspace:load`
 
-Load a saved workspace.
+একটি সংরক্ষিত ওয়ার্কস্পেস লোড করুন।
 
 ```bash
-name=<name>        # (required) workspace name
+name=<name>        # (প্রয়োজনীয়) ওয়ার্কস্পেসের নাম
 ```
 
 ### `workspace:delete`
 
-Delete a saved workspace.
+একটি সংরক্ষিত ওয়ার্কস্পেস মুছুন।
 
 ```bash
-name=<name>        # (required) workspace name
+name=<name>        # (প্রয়োজনীয়) ওয়ার্কস্পেসের নাম
 ```
 
 ### `tabs`
 
-List open tabs.
+খোলা ট্যাব তালিকাভুক্ত করুন।
 
 ```bash
-ids                # include tab IDs
+ids                # ট্যাব আইডি অন্তর্ভুক্ত করুন
 ```
 
 ### `tab:open`
 
-Open a new tab.
+একটি নতুন ট্যাব খুলুন।
 
 ```bash
-group=<id>         # tab group ID
-file=<path>        # file to open
-view=<type>        # view type to open
+group=<id>         # ট্যাব গ্রুপ আইডি
+file=<path>        # খোলার জন্য ফাইল
+view=<type>        # খোলার জন্য ভিউ টাইপ
 ```
 
 ### `recents`
 
-List recently opened files.
+সম্প্রতি খোলা ফাইল তালিকাভুক্ত করুন।
 
 ```bash
-total              # return recent file count
+total              # সাম্প্রতিক ফাইলের সংখ্যা ফেরত দিন
 ```
 
 ## Developer commands
 
-Commands to help you develop [[Community plugins]] and [[Themes]]. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+[[Community plugins]] এবং [[Themes]] তৈরি করতে সাহায্যকারী কমান্ড। [Obsidian ডেভেলপার ডকুমেন্টেশনে](https://docs.obsidian.md) গিয়ে আরও জানুন।
 
 ### `devtools`
 
-Toggle Electron dev tools.
+Electron dev tools টগল করুন।
 
 ### `dev:debug`
 
-Attach/detach Chrome DevTools Protocol debugger.
+Chrome DevTools Protocol ডিবাগার সংযুক্ত/বিচ্ছিন্ন করুন।
 
 ```bash
-on                 # attach debugger
-off                # detach debugger
+on                 # ডিবাগার সংযুক্ত করুন
+off                # ডিবাগার বিচ্ছিন্ন করুন
 ```
 
 ### `dev:cdp`
 
-Run a Chrome DevTools Protocol command.
+একটি Chrome DevTools Protocol কমান্ড চালান।
 
 ```bash
-method=<CDP.method>  # (required) CDP method to call
-params=<json>        # method parameters as JSON
+method=<CDP.method>  # (প্রয়োজনীয়) কল করার জন্য CDP মেথড
+params=<json>        # JSON হিসেবে মেথড প্যারামিটার
 ```
 
 ### `dev:errors`
 
-Show captured JavaScript errors.
+ক্যাপচার করা JavaScript এরর দেখান।
 
 ```bash
-clear              # clear the error buffer
+clear              # এরর বাফার পরিষ্কার করুন
 ```
 
 ### `dev:screenshot`
 
-Take a screenshot (returns base64 PNG).
+একটি স্ক্রিনশট নিন (base64 PNG ফেরত দেয়)।
 
 ```bash
-path=<filename>    # output file path
+path=<filename>    # আউটপুট ফাইল পাথ
 ```
 
 ### `dev:console`
 
-Show captured console messages.
+ক্যাপচার করা কনসোল বার্তা দেখান।
 
 ```bash
-limit=<n>                        # max messages to show (default 50)
-level=log|warn|error|info|debug  # filter by log level
+limit=<n>                        # দেখানোর সর্বোচ্চ বার্তা (ডিফল্ট 50)
+level=log|warn|error|info|debug  # লগ লেভেল দিয়ে ফিল্টার করুন
 
-clear                            # clear the console buffer
+clear                            # কনসোল বাফার পরিষ্কার করুন
 ```
 
 ### `dev:css`
 
-Inspect CSS with source locations.
+সোর্স অবস্থান সহ CSS পরিদর্শন করুন।
 
 ```bash
-selector=<css>     # (required) CSS selector
-prop=<name>        # filter by property name
+selector=<css>     # (প্রয়োজনীয়) CSS সিলেক্টর
+prop=<name>        # প্রপার্টি নাম দিয়ে ফিল্টার করুন
 ```
 
 ### `dev:dom`
 
-Query DOM elements.
+DOM এলিমেন্ট কোয়েরি করুন।
 
 ```bash
-selector=<css>     # (required) CSS selector
-attr=<name>        # get attribute value
-css=<prop>         # get CSS property value
+selector=<css>     # (প্রয়োজনীয়) CSS সিলেক্টর
+attr=<name>        # অ্যাট্রিবিউটের মান পান
+css=<prop>         # CSS প্রপার্টির মান পান
 
-total              # return element count
-text               # return text content
-inner              # return innerHTML instead of outerHTML
-all                # return all matches instead of first
+total              # এলিমেন্টের সংখ্যা ফেরত দিন
+text               # টেক্সট কনটেন্ট ফেরত দিন
+inner              # outerHTML এর পরিবর্তে innerHTML ফেরত দিন
+all                # শুধু প্রথমটির পরিবর্তে সব ম্যাচ ফেরত দিন
 ```
 
 ### `dev:mobile`
 
-Toggle mobile emulation.
+মোবাইল এমুলেশন টগল করুন।
 
 ```bash
-on                 # enable mobile emulation
-off                # disable mobile emulation
+on                 # মোবাইল এমুলেশন সক্রিয় করুন
+off                # মোবাইল এমুলেশন নিষ্ক্রিয় করুন
 ```
 
 ### `eval`
 
-Execute JavaScript and return result.
+JavaScript চালান এবং ফলাফল ফেরত দিন।
 
 ```bash
-code=<javascript>  # (required) JavaScript code to execute
+code=<javascript>  # (প্রয়োজনীয়) চালানোর জন্য JavaScript কোড
 ```
 
 ## Keyboard shortcuts
 
-These shortcuts are available in the [[#Use the terminal interface|TUI]].
+এই শর্টকাটগুলো [[#Use the terminal interface|TUI]] তে উপলব্ধ।
 
-### Navigation
+### নেভিগেশন
 
-| Action                                                | Shortcut       |
+| অ্যাকশন                                                | শর্টকাট       |
 | ----------------------------------------------------- | -------------- |
-| Move cursor left                                      | `←` / `Ctrl+B` |
-| Move cursor right (accepts suggestion at end of line) | `→` / `Ctrl+F` |
-| Jump to start of line                                 | `Ctrl+A`       |
-| Jump to end of line                                   | `Ctrl+E`       |
-| Move back one word                                    | `Alt+B`        |
-| Move forward one word                                 | `Alt+F`        |
+| কার্সার বামে সরান                                      | `←` / `Ctrl+B` |
+| কার্সার ডানে সরান (লাইনের শেষে সাজেশন গ্রহণ করে)        | `→` / `Ctrl+F` |
+| লাইনের শুরুতে যান                                      | `Ctrl+A`       |
+| লাইনের শেষে যান                                        | `Ctrl+E`       |
+| এক শব্দ পেছনে যান                                      | `Alt+B`        |
+| এক শব্দ সামনে যান                                      | `Alt+F`        |
 
-### Editing
+### সম্পাদনা
 
-| Action                  | Shortcut                   |
+| অ্যাকশন                  | শর্টকাট                   |
 | ----------------------- | -------------------------- |
-| Delete to start of line | `Ctrl+U`                   |
-| Delete to end of line   | `Ctrl+K`                   |
-| Delete previous word    | `Ctrl+W` / `Alt+Backspace` |
+| লাইনের শুরু পর্যন্ত মুছুন | `Ctrl+U`                   |
+| লাইনের শেষ পর্যন্ত মুছুন   | `Ctrl+K`                   |
+| আগের শব্দ মুছুন           | `Ctrl+W` / `Alt+Backspace` |
 
-### Autocomplete
+### অটোকমপ্লিট
 
-| Action                                             | Shortcut    |
+| অ্যাকশন                                             | শর্টকাট    |
 | -------------------------------------------------- | ----------- |
-| Enter suggestion mode / accept selected suggestion | `Tab`       |
-| Exit suggestion mode                               | `Shift+Tab` |
-| Enter suggestion mode (from fresh input)           | `↓`         |
-| Accept first/selected suggestion (at end of line)  | `→`         |
+| সাজেশন মোডে প্রবেশ করুন / নির্বাচিত সাজেশন গ্রহণ করুন | `Tab`       |
+| সাজেশন মোড থেকে বের হন                               | `Shift+Tab` |
+| সাজেশন মোডে প্রবেশ করুন (নতুন ইনপুট থেকে)              | `↓`         |
+| প্রথম/নির্বাচিত সাজেশন গ্রহণ করুন (লাইনের শেষে)         | `→`         |
 
-### History
+### হিস্টোরি
 
-| Action                                                     | Shortcut       |
+| অ্যাকশন                                                     | শর্টকাট       |
 | ---------------------------------------------------------- | -------------- |
-| Previous history entry / navigate suggestions up           | `↑` / `Ctrl+P` |
-| Next history entry / navigate suggestions down             | `↓` / `Ctrl+N` |
-| Reverse history search (type to filter, `Ctrl+R` to cycle) | `Ctrl+R`       |
+| আগের হিস্টোরি এন্ট্রি / সাজেশন উপরে নেভিগেট করুন             | `↑` / `Ctrl+P` |
+| পরবর্তী হিস্টোরি এন্ট্রি / সাজেশন নিচে নেভিগেট করুন           | `↓` / `Ctrl+N` |
+| রিভার্স হিস্টোরি সার্চ (ফিল্টার করতে লিখুন, সাইকেল করতে `Ctrl+R`) | `Ctrl+R`       |
 
-### Other
+### অন্যান্য
 
-| Action                                                 | Shortcut            |
+| অ্যাকশন                                                 | শর্টকাট            |
 | ------------------------------------------------------ | ------------------- |
-| Execute command or accept suggestion                   | `Enter`             |
-| Undo autocomplete / exit suggestion mode / clear input | `Escape`            |
-| Clear screen                                           | `Ctrl+L`            |
-| Exit                                                   | `Ctrl+C` / `Ctrl+D` |
+| কমান্ড চালান বা সাজেশন গ্রহণ করুন                         | `Enter`             |
+| অটোকমপ্লিট আনডু করুন / সাজেশন মোড থেকে বের হন / ইনপুট পরিষ্কার করুন | `Escape`            |
+| স্ক্রিন পরিষ্কার করুন                                     | `Ctrl+L`            |
+| প্রস্থান করুন                                            | `Ctrl+C` / `Ctrl+D` |
 
 ## Troubleshooting
 
-If you are having trouble running Obsidian CLI:
+যদি আপনার Obsidian CLI চালাতে সমস্যা হয়:
 
-- Make sure you are using the latest [[Update Obsidian|Obsidian installer version]] (1.12.7 or above).
-- If you just updated Obsidian from an earlier version, turn off the CLI setting and turn it back on again, then allow Obsidian to perform the automatic PATH registration.
-- Restart your terminal after registering the CLI for the PATH changes to take effect.
-- Obsidian must be running. The CLI connects to the running Obsidian instance.
+- নিশ্চিত করুন আপনি সর্বশেষ [[Update Obsidian|Obsidian ইনস্টলার সংস্করণ]] (1.12.7 বা তার পরে) ব্যবহার করছেন।
+- যদি আপনি সবেমাত্র Obsidian একটি পুরোনো সংস্করণ থেকে আপডেট করে থাকেন, তাহলে CLI সেটিং বন্ধ করে আবার চালু করুন, এরপর Obsidian কে স্বয়ংক্রিয় PATH নিবন্ধন করার অনুমতি দিন।
+- PATH পরিবর্তনগুলো কার্যকর হওয়ার জন্য CLI নিবন্ধনের পরে আপনার টার্মিনাল পুনরায় চালু করুন।
+- Obsidian অবশ্যই চালু থাকতে হবে। CLI চলমান Obsidian ইনস্ট্যান্সের সাথে সংযোগ করে।
 
 ### Windows
 
-Obsidian CLI on Windows requires the Obsidian 1.12.7+ installer. See [[Update Obsidian|Installer version update]].
+Windows-এ Obsidian CLI-এর জন্য Obsidian 1.12.7+ ইনস্টলার প্রয়োজন। দেখুন [[Update Obsidian|ইনস্টলার সংস্করণ আপডেট]]।
 
-Windows uses a terminal redirector that connects Obsidian to stdin/stdout properly. This is necessary because Obsidian normally runs as a GUI app which is incompatible with terminal outputs on Windows. When you install Obsidian 1.12.7+ the `Obsidian.com` terminal redirector will be added in the folder where you installed the `Obsidian.exe` file.
+Windows একটি টার্মিনাল রিডাইরেক্টর ব্যবহার করে যা Obsidian কে সঠিকভাবে stdin/stdout এর সাথে সংযুক্ত করে। এটি প্রয়োজনীয় কারণ Obsidian সাধারণত একটি GUI অ্যাপ হিসেবে চলে যা Windows-এ টার্মিনাল আউটপুটের সাথে সামঞ্জস্যপূর্ণ নয়। যখন আপনি Obsidian 1.12.7+ ইনস্টল করেন তখন `Obsidian.com` টার্মিনাল রিডাইরেক্টরটি সেই ফোল্ডারে যোগ করা হবে যেখানে আপনি `Obsidian.exe` ফাইলটি ইনস্টল করেছেন।
 
-The CLI registration adds Obsidian into your user's PATH variable, which takes only takes effect after you re-start the terminal.
+CLI নিবন্ধন আপনার ইউজারের PATH ভ্যারিয়েবলে Obsidian যোগ করে, যা টার্মিনাল পুনরায় চালু করার পরেই কার্যকর হয়।
 
 ### macOS
 
-The CLI registration creates a symlink at `/usr/local/bin/obsidian` pointing to the CLI binary bundled inside the app. This requires administrator privileges — you will be prompted via a system dialog.
+CLI নিবন্ধন `/usr/local/bin/obsidian` এ একটি সিমলিংক তৈরি করে যা অ্যাপের ভেতরে বান্ডিল করা CLI বাইনারির দিকে নির্দেশ করে। এর জন্য অ্যাডমিনিস্ট্রেটর সুবিধা প্রয়োজন — আপনাকে একটি সিস্টেম ডায়ালগের মাধ্যমে জিজ্ঞাসা করা হবে।
 
-Check that the symlink exists and points to the correct binary:
+সিমলিংকটি বিদ্যমান আছে এবং সঠিক বাইনারির দিকে নির্দেশ করছে কিনা তা পরীক্ষা করুন:
 
 ```
 ls -l /usr/local/bin/obsidian
 ```
 
-If the symlink is missing, create it manually:
+যদি সিমলিংকটি অনুপস্থিত থাকে, তাহলে ম্যানুয়ালি এটি তৈরি করুন:
 
 ```
 sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-> [!note] If you previously registered the CLI with an older version of Obsidian, you may have a leftover PATH entry in `~/.zprofile`. The new registration process removes this automatically, but if it remains, you can safely delete the lines starting with `# Added by Obsidian` from `~/.zprofile`.
+> [!note] যদি আপনি পূর্বে Obsidian-এর একটি পুরোনো সংস্করণ দিয়ে CLI নিবন্ধন করে থাকেন, তাহলে আপনার `~/.zprofile` এ একটি পুরোনো PATH এন্ট্রি থাকতে পারে। নতুন নিবন্ধন প্রক্রিয়া এটি স্বয়ংক্রিয়ভাবে সরিয়ে দেয়, তবে যদি এটি থেকে যায়, তাহলে আপনি নিরাপদে `~/.zprofile` থেকে `# Added by Obsidian` দিয়ে শুরু হওয়া লাইনগুলো মুছে ফেলতে পারেন।
 
 ### Linux
 
-The CLI registration copies the CLI binary to `~/.local/bin/obsidian`. This is done because some Linux installation methods run from temporary directories that cannot be symlinked persistently.
+CLI নিবন্ধন CLI বাইনারিটিকে `~/.local/bin/obsidian` এ কপি করে। এটি করা হয় কারণ কিছু Linux ইনস্টলেশন পদ্ধতি টেম্পোরারি ডিরেক্টরি থেকে চলে যা স্থায়ীভাবে সিমলিংক করা যায় না।
 
-Make sure `~/.local/bin` is in your PATH. Add the following to your `~/.bashrc` or `~/.zshrc` if it isn't:
+নিশ্চিত করুন `~/.local/bin` আপনার PATH এ আছে। যদি না থাকে তাহলে আপনার `~/.bashrc` অথবা `~/.zshrc` এ নিম্নলিখিতটি যোগ করুন:
 
 ```
 export PATH="$PATH:$HOME/.local/bin"
 ```
 
-Check that the binary exists:
+বাইনারিটি বিদ্যমান কিনা তা পরীক্ষা করুন:
 
 ```
 ls -l ~/.local/bin/obsidian
 ```
 
-If the binary is missing, copy it manually from the Obsidian installation directory:
+যদি বাইনারিটি অনুপস্থিত থাকে, তাহলে Obsidian ইনস্টলেশন ডিরেক্টরি থেকে ম্যানুয়ালি এটি কপি করুন:
 
 ```
 cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
 chmod 755 ~/.local/bin/obsidian
 ```
-
 

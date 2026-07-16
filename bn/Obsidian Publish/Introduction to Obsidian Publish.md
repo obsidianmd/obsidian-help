@@ -1,34 +1,33 @@
 ---
-localized: null
 permalink: publish
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
 
-[Obsidian Publish](https://obsidian.md/publish) is a cloud-based hosting service that lets you publish your notes as a wiki, knowledge base, documentation, or digital garden.
+[Obsidian Publish](https://obsidian.md/publish) একটি ক্লাউড-ভিত্তিক হোস্টিং সেবা যা আপনাকে আপনার নোটগুলো একটি উইকি, নলেজ বেস, ডকুমেন্টেশন, বা ডিজিটাল গার্ডেন হিসেবে প্রকাশ করতে দেয়।
 
-Select the notes you want to share with the world, press **Publish**, and we'll host it at `publish.obsidian.md/your-site`
+আপনি যে নোটগুলো বিশ্বের সাথে শেয়ার করতে চান তা নির্বাচন করুন, **Publish**-এ চাপুন, এবং আমরা সেটি `publish.obsidian.md/your-site`-এ হোস্ট করব
 
-If you're reading this on [help.obsidian.md](https://help.obsidian.md), you're already looking at a site that uses Obsidian Publish! You can see the vault on [GitHub](https://github.com/obsidianmd/obsidian-docs).
+আপনি যদি এটি [help.obsidian.md](https://help.obsidian.md)-এ পড়ছেন, তাহলে আপনি ইতিমধ্যেই এমন একটি সাইট দেখছেন যা Obsidian Publish ব্যবহার করে! আপনি [GitHub](https://github.com/obsidianmd/obsidian-docs)-এ ভল্টটি দেখতে পারেন।
 
-## How to use Obsidian Publish
+## Obsidian Publish কীভাবে ব্যবহার করবেন
 
 - [[Set up Obsidian Publish]]
-	- Get started with Obsidian Publish.
+	- Obsidian Publish দিয়ে শুরু করুন।
 - [[Manage sites]]
-	- Learn how to manage multiple Publish sites.
+	- একাধিক Publish সাইট কীভাবে পরিচালনা করবেন তা জানুন।
 - [[Collaborate on a Publish site]]
-	- Share a Publish site with collaborators.
+	- সহযোগীদের সাথে একটি Publish সাইট শেয়ার করুন।
 - [[Customize your site]]
-	- Customize your Publish site.
+	- আপনার Publish সাইট কাস্টমাইজ করুন।
 - [[Custom domains|Custom domains]]
-	- Set up Publish with your own domain.
+	- আপনার নিজের ডোমেইন দিয়ে Publish সেট আপ করুন।
 - [[Permalinks]]
-	- Define permanent URLs for pages.
+	- পৃষ্ঠার জন্য স্থায়ী URL নির্ধারণ করুন।
 - [[Analytics]]
-	- Set up analytics for your site.
+	- আপনার সাইটের জন্য অ্যানালিটিক্স সেট আপ করুন।
 - [[SEO]]
-	- Search engine optimization for Publish.
+	- Publish-এর জন্য সার্চ ইঞ্জিন অপ্টিমাইজেশন।
 - [[Security and privacy]]
-	- How we keep your data safe.
+	- আমরা কীভাবে আপনার ডেটা নিরাপদ রাখি।

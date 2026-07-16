@@ -1,52 +1,51 @@
 ---
-localized: null
 permalink: sync
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 publish: true
 mobile: true
-description: Obsidian Sync is an add-on service that allows you to privately sync your notes across devices.
+description: Obsidian Sync একটি অ্যাড-অন সার্ভিস যা আপনাকে ডিভাইসগুলোর মধ্যে ব্যক্তিগতভাবে আপনার নোট সিঙ্ক করতে দেয়।
 ---
 
-[Obsidian Sync](https://obsidian.md/sync) is an add-on service that allows you to privately sync your notes across devices.
+[Obsidian Sync](https://obsidian.md/sync) একটি অ্যাড-অন সার্ভিস যা আপনাকে ডিভাইসগুলোর মধ্যে ব্যক্তিগতভাবে আপনার নোট সিঙ্ক করতে দেয়।
 
-## How to use Obsidian Sync
+## Obsidian Sync কীভাবে ব্যবহার করবেন
 
 - [[Set up Obsidian Sync]]
-	- Set up Sync on all your devices.
+	- আপনার সব ডিভাইসে Sync সেটআপ করুন।
 - [[Switch to Obsidian Sync|Switch to Obsidian Sync]]
-	- Prepare your Obsidian vault to use Sync.
+	- Sync ব্যবহারের জন্য আপনার Obsidian ভল্ট প্রস্তুত করুন।
 - [[Sync settings and selective syncing|Selective sync]]
-	- Configure which files and settings to sync.
+	- কোন ফাইল এবং সেটিংস সিঙ্ক হবে তা কনফিগার করুন।
 - [[Plans and storage limits]]
-	- Learn about Sync subscription plans.
+	- Sync সাবস্ক্রিপশন প্ল্যান সম্পর্কে জানুন।
 - [[Plans and storage limits|Remote vault storage]]
-	- Manage your remote vault storage.
+	- আপনার রিমোট ভল্ট স্টোরেজ পরিচালনা করুন।
 - [[Version history]]
-	- View or restore previous versions of a note.
+	- একটি নোটের আগের ভার্সনগুলো দেখুন বা পুনরুদ্ধার করুন।
 - [[Status icon and messages]]
-	- Overview of the Sync log and status icons.
+	- Sync লগ এবং স্ট্যাটাস আইকনের একটি সংক্ষিপ্ত বিবরণ।
 - [[Security and privacy]]
-	- How Obsidian keeps your Sync data safe.
+	- Obsidian কীভাবে আপনার Sync ডেটা নিরাপদ রাখে।
 - [[Collaborate on a shared vault|Collaboration]]
-	- Add team members to a shared vault.
+	- একটি শেয়ার্ড ভল্টে টিম সদস্য যুক্ত করুন।
 - [[Back up your Obsidian files]]
-	- Back up your vault using third-party tools.
+	- থার্ড-পার্টি টুল ব্যবহার করে আপনার ভল্ট ব্যাকআপ করুন।
 - [[Sync regions]]
-	- Move your Sync vault to a different regional server.
+	- আপনার Sync ভল্টকে একটি ভিন্ন আঞ্চলিক সার্ভারে সরান।
 - [[Headless Sync]]
-	- Sync your vaults from the command line without the desktop app.
+	- ডেস্কটপ অ্যাপ ছাড়াই কমান্ড লাইন থেকে আপনার ভল্ট সিঙ্ক করুন।
 - [[Troubleshoot Obsidian Sync]]
-	- Common syncing issues and solutions.
+	- সাধারণ সিঙ্কিং সমস্যা এবং সমাধান।
 
-## Important
+## গুরুত্বপূর্ণ
 
-If you are using Obsidian Sync alongside other cloud storage providers, such as Dropbox, Google Drive, or OneDrive, please [[Back up your Obsidian files]] to prevent sync conflicts. We strongly recommend [[Switch to Obsidian Sync|fully migrating to Obsidian Sync]].
+আপনি যদি Dropbox, Google Drive, বা OneDrive-এর মতো অন্যান্য ক্লাউড স্টোরেজ প্রদানকারীর পাশাপাশি Obsidian Sync ব্যবহার করেন, তাহলে সিঙ্ক কনফ্লিক্ট প্রতিরোধ করতে অনুগ্রহ করে [[Back up your Obsidian files]] দেখুন। আমরা দৃঢ়ভাবে [[Switch to Obsidian Sync|সম্পূর্ণরূপে Obsidian Sync-এ মাইগ্রেট করার]] পরামর্শ দিই।
 
-See [[Frequently asked questions]] for frequently asked questions, and more details about Obsidian Sync.
+Obsidian Sync সম্পর্কে প্রায়শই জিজ্ঞাসিত প্রশ্ন এবং আরও বিস্তারিত জানতে দেখুন [[Frequently asked questions]]।
 
-> [!warning] This feature is unavailable on Apple devices with [Lockdown mode](https://support.apple.com/en-us/105120) enabled unless Obsidian is exempted.
+> [!warning] [Lockdown mode](https://support.apple.com/en-us/105120) সক্রিয় থাকা Apple ডিভাইসে এই ফিচারটি উপলব্ধ নয়, যদি না Obsidian-কে ব্যতিক্রম হিসেবে যুক্ত করা হয়।
 
-Are you having unexpected interruptions in your Sync service? Check the [server status](https://status.obsidian.md) here.
+আপনার Sync সার্ভিসে অপ্রত্যাশিত বিঘ্ন ঘটছে? এখানে [server status](https://status.obsidian.md) চেক করুন।
  

@@ -1,12 +1,11 @@
 ---
-localized: null
 permalink: advanced-syntax
 ---
-Learn how to add advanced formatting syntax to your notes.
+আপনার নোটে কীভাবে অ্যাডভান্সড ফরম্যাটিং সিনট্যাক্স যোগ করবেন তা জানুন।
 
-## Tables
+## টেবিল
 
-You can create tables using vertical bars (`|`) to separate columns and hyphens (`-`) to define headers. Here's an example:
+আপনি কলাম আলাদা করতে উল্লম্ব রেখা (`|`) এবং হেডার নির্ধারণ করতে হাইফেন (`-`) ব্যবহার করে টেবিল তৈরি করতে পারেন। এখানে একটি উদাহরণ দেওয়া হলো:
 
 ```md
 | First name | Last name |
@@ -20,11 +19,11 @@ You can create tables using vertical bars (`|`) to separate columns and hyphens 
 | Max        | Planck    |
 | Marie      | Curie     |
 
-While the vertical bars on either side of the table are optional, including them is recommended for readability.
+টেবিলের দুই পাশের উল্লম্ব রেখাগুলো ঐচ্ছিক হলেও, পড়তে সুবিধার জন্য সেগুলো অন্তর্ভুক্ত করার পরামর্শ দেওয়া হয়।
 
-> [!tip] In _Live Preview_, you can right-click a table to add or delete columns and rows. You can also sort and move them using the context menu.
+> [!tip] _লাইভ প্রিভিউ_-এ, আপনি একটি টেবিলে রাইট-ক্লিক করে কলাম বা সারি যোগ বা মুছে ফেলতে পারেন। কনটেক্সট মেনু ব্যবহার করে আপনি সেগুলো সাজাতে এবং সরাতেও পারেন।
 
-You can insert a table using the **Insert Table** command from the [[Command palette|Command Palette]] or by right-clicking and selecting _Insert → Table_. This will give you a basic, editable table:
+আপনি [[Command palette|কমান্ড প্যালেট]] থেকে **Insert Table** কমান্ড ব্যবহার করে, অথবা রাইট-ক্লিক করে _Insert → Table_ নির্বাচন করে একটি টেবিল যোগ করতে পারেন। এতে আপনি একটি সাধারণ, সম্পাদনাযোগ্য টেবিল পাবেন:
 
 ```md
 |     |     |
@@ -32,7 +31,7 @@ You can insert a table using the **Insert Table** command from the [[Command p
 |     |     |
 ```
 
-Note that cells don't need perfect alignment, but the header row must contain at least two hyphens:
+লক্ষ্য করুন যে সেলগুলোতে নিখুঁত অ্যালাইনমেন্টের প্রয়োজন নেই, তবে হেডার সারিতে অন্তত দুটি হাইফেন থাকতেই হবে:
 
 ```md
 First name | Last name
@@ -42,17 +41,17 @@ Marie | Curie
 ```
 
 
-### Format content within a table
+### টেবিলের মধ্যে কনটেন্ট ফরম্যাট করা
 
-You can use [[basic formatting syntax]] to style content within a table.
+আপনি টেবিলের মধ্যে কনটেন্ট স্টাইল করতে [[basic formatting syntax|বেসিক ফরম্যাটিং সিনট্যাক্স]] ব্যবহার করতে পারেন।
 
 | First column       | Second column                           |
 | ------------------ | --------------------------------------- |
-| [[Internal links]] | Link to a file _within_ your **vault**. |
+| [[Internal links]] | আপনার **ভল্টের** _মধ্যে_ থাকা একটি ফাইলের লিঙ্ক। |
 | [[Embed files]]    | ![[Engelbart.jpg\|100]]                 |
 
-> [!note] Vertical bars in tables
-> If you want to use [[aliases]], or to [[Basic formatting syntax#External images|resize an image]] in your table, you need to add a `\` before the vertical bar.
+> [!note] টেবিলে উল্লম্ব রেখা
+> যদি আপনি টেবিলে [[aliases|উপনাম]] ব্যবহার করতে চান, অথবা [[Basic formatting syntax#External images|একটি ছবির আকার পরিবর্তন]] করতে চান, তাহলে উল্লম্ব রেখার আগে একটি `\` যোগ করতে হবে।
 >
 > ```md
 > First column | Second column
@@ -64,7 +63,7 @@ You can use [[basic formatting syntax]] to style content within a table.
 > -- | --
 > [[Basic formatting syntax\|Markdown syntax]] | ![[Engelbart.jpg\|200]]
 
-Align text in columns by adding colons (`:`) to the header row. You can also align content in _Live Preview_ via the context menu.
+হেডার সারিতে কোলন (`:`) যোগ করে কলামে টেক্সট অ্যালাইন করুন। আপনি _লাইভ প্রিভিউ_-এও কনটেক্সট মেনুর মাধ্যমে কনটেন্ট অ্যালাইন করতে পারেন।
 
 ```md
 Left-aligned text | Center-aligned text | Right-aligned text
@@ -76,14 +75,14 @@ Left-aligned text | Center-aligned text | Right-aligned text
 :-- | :--: | --:
 Content | Content | Content
 
-## Diagram
+## ডায়াগ্রাম
 
-You can add diagrams and charts to your notes, using [Mermaid](https://mermaid-js.github.io/). Mermaid supports a range of diagrams, such as [flow charts](https://mermaid.js.org/syntax/flowchart.html), [sequence diagrams](https://mermaid.js.org/syntax/sequenceDiagram.html), and [timelines](https://mermaid.js.org/syntax/timeline.html).
+আপনি [Mermaid](https://mermaid-js.github.io/) ব্যবহার করে আপনার নোটে ডায়াগ্রাম এবং চার্ট যোগ করতে পারেন। Mermaid বিভিন্ন ধরনের ডায়াগ্রাম সমর্থন করে, যেমন [ফ্লো চার্ট](https://mermaid.js.org/syntax/flowchart.html), [সিকোয়েন্স ডায়াগ্রাম](https://mermaid.js.org/syntax/sequenceDiagram.html), এবং [টাইমলাইন](https://mermaid.js.org/syntax/timeline.html)।
 
-> [!tip] Tip
-> You can also try Mermaid's [Live Editor](https://mermaid-js.github.io/mermaid-live-editor) to help you build diagrams before you include them in your notes.
+> [!tip] টিপ
+> নোটে অন্তর্ভুক্ত করার আগে ডায়াগ্রাম তৈরিতে সাহায্য করতে আপনি Mermaid-এর [লাইভ এডিটর](https://mermaid-js.github.io/mermaid-live-editor)-ও ব্যবহার করে দেখতে পারেন।
 
-To add a Mermaid diagram, create a `mermaid` [[Basic formatting syntax#Code blocks|code block]].
+একটি Mermaid ডায়াগ্রাম যোগ করতে, একটি `mermaid` [[Basic formatting syntax#Code blocks|কোড ব্লক]] তৈরি করুন।
 
 ````md
 ```mermaid
@@ -117,9 +116,9 @@ graph TD
 Biology --> Chemistry
 ```
 
-### Linking files in a diagram
+### ডায়াগ্রামে ফাইল লিঙ্ক করা
 
-You can create [[internal links]] in your diagrams by attaching the `internal-link` [class](https://mermaid.js.org/syntax/flowchart.html#classes) to your nodes.
+আপনার নোডগুলোতে `internal-link` [ক্লাস](https://mermaid.js.org/syntax/flowchart.html#classes) যুক্ত করে আপনি আপনার ডায়াগ্রামে [[internal links|ইন্টার্নাল লিঙ্ক]] তৈরি করতে পারেন।
 
 ````md
 ```mermaid
@@ -139,10 +138,10 @@ Biology --> Chemistry
 class Biology,Chemistry internal-link;
 ```
 
-> [!note] Note
-> Internal links from diagrams don't show up in the [[Graph view]].
+> [!note] নোট
+> ডায়াগ্রামের ইন্টার্নাল লিঙ্কগুলো [[Graph view|গ্রাফ ভিউ]]-এ দেখা যায় না।
 
-If you have many nodes in your diagrams, you can use the following snippet.
+আপনার ডায়াগ্রামে যদি অনেক নোড থাকে, তাহলে আপনি নিচের স্নিপেটটি ব্যবহার করতে পারেন।
 
 ````md
 ```mermaid
@@ -157,24 +156,24 @@ class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
 ```
 ````
 
-This way, each letter node becomes an internal link, with the [node text](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) as the link text.
+এভাবে, প্রতিটি অক্ষর-নোড একটি ইন্টার্নাল লিঙ্কে পরিণত হয়, যেখানে [নোড টেক্সট](https://mermaid.js.org/syntax/flowchart.html#a-node-with-text) লিঙ্ক টেক্সট হিসেবে কাজ করে।
 
-> [!note] Note
-> If you use special characters in your note names, you need to put the note name in double quotes.
+> [!note] নোট
+> যদি আপনি আপনার নোটের নামে বিশেষ অক্ষর ব্যবহার করেন, তাহলে নোটের নামটি ডাবল কোটেশনের মধ্যে রাখতে হবে।
 >
 > ```
 > class "⨳ special character" internal-link
 > ```
 >
-> Or, `A["⨳ special character"]`.
+> অথবা, `A["⨳ special character"]`।
 
-For more information about creating diagrams, refer to the [official Mermaid docs](https://mermaid.js.org/intro/).
+ডায়াগ্রাম তৈরি সম্পর্কে আরও তথ্যের জন্য, [অফিসিয়াল Mermaid ডকুমেন্টেশন](https://mermaid.js.org/intro/) দেখুন।
 
-## Math
+## ম্যাথ
 
-You can add math expressions to your notes using [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) and the LaTeX notation.
+আপনি [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) এবং LaTeX নোটেশন ব্যবহার করে আপনার নোটে গাণিতিক এক্সপ্রেশন যোগ করতে পারেন।
 
-To add a MathJax expression to your note, surround it with double dollar signs (`$$`).
+আপনার নোটে একটি MathJax এক্সপ্রেশন যোগ করতে, এটিকে ডাবল ডলার চিহ্ন (`$$`) দিয়ে ঘিরে দিন।
 
 ```md
 $$
@@ -190,7 +189,7 @@ c & d
 \end{vmatrix}=ad-bc
 $$
 
-You can also inline math expressions by wrapping it in `$` symbols.
+আপনি `$` চিহ্নের মধ্যে মুড়িয়ে ইনলাইন গাণিতিক এক্সপ্রেশনও তৈরি করতে পারেন।
 
 ```md
 This is an inline math expression $e^{2i\pi} = 1$.
@@ -198,6 +197,6 @@ This is an inline math expression $e^{2i\pi} = 1$.
 
 This is an inline math expression $e^{2i\pi} = 1$.
 
-For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
+সিনট্যাক্স সম্পর্কে আরও তথ্যের জন্য, [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) দেখুন।
 
-For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+সমর্থিত MathJax প্যাকেজের একটি তালিকার জন্য, [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html) দেখুন।

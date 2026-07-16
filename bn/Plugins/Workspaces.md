@@ -1,53 +1,52 @@
 ---
-localized: null
 permalink: plugins/workspaces
 ---
-Workspaces is a [[Core plugins|core plugin]] that  lets you manage and switch between different application layouts depending on your task, for example journaling, reading, or writing.
+ওয়ার্কস্পেস একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে আপনার কাজের উপর নির্ভর করে বিভিন্ন অ্যাপ্লিকেশন লেআউট পরিচালনা এবং তাদের মধ্যে স্যুইচ করতে দেয়, উদাহরণস্বরূপ জার্নালিং, পড়া, বা লেখা।
 
-A workspace contains information about open files and tabs, and the width and visibility of each sidebar.
+একটি ওয়ার্কস্পেসে খোলা ফাইল এবং ট্যাব সম্পর্কিত তথ্য, এবং প্রতিটি সাইডবারের প্রস্থ এবং দৃশ্যমানতা থাকে।
 
-## Save a workspace
+## একটি ওয়ার্কস্পেস সংরক্ষণ করুন
 
-**Ribbon:**
+**রিবন:**
 
-1. In the ribbon, click **Manage workspace layouts** ![[lucide-panels-top-left.svg#icon]].
-2. Enter a name for the workspace.
-3. Select **Save**.
+1. রিবনে, **Manage workspace layouts** ![[lucide-panels-top-left.svg#icon]]-এ ক্লিক করুন।
+2. ওয়ার্কস্পেসের জন্য একটি নাম লিখুন।
+3. **Save** নির্বাচন করুন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Enter a name for the workspace.
-5. Select **Save**.
+1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+2. **Manage workspace layouts** কমান্ডটি খুঁজুন।
+3. কমান্ডটি নির্বাচিত অবস্থায় `Enter` চাপুন।
+4. ওয়ার্কস্পেসের জন্য একটি নাম লিখুন।
+5. **Save** নির্বাচন করুন।
 
-To update an existing workspace, save the workspace with the same name as the workspace you want to update.
+একটি বিদ্যমান ওয়ার্কস্পেস আপডেট করতে, আপনি যে ওয়ার্কস্পেসটি আপডেট করতে চান তার একই নাম দিয়ে ওয়ার্কস্পেসটি সংরক্ষণ করুন।
 
-## Load a workspace
+## একটি ওয়ার্কস্পেস লোড করুন
 
-**Ribbon:**
+**রিবন:**
 
-1. In the ribbon, click **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]].
-2. Next to the workspace you want to load, select **Load**.
+1. রিবনে, **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]]-এ ক্লিক করুন।
+2. আপনি যে ওয়ার্কস্পেসটি লোড করতে চান তার পাশে, **Load** নির্বাচন করুন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Select the workspace to load.
+1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+2. **Manage workspace layouts** কমান্ডটি খুঁজুন।
+3. কমান্ডটি নির্বাচিত অবস্থায় `Enter` চাপুন।
+4. লোড করতে চান এমন ওয়ার্কস্পেসটি নির্বাচন করুন।
 
-## Delete a workspace
+## একটি ওয়ার্কস্পেস মুছুন
 
-**Ribbon:**
+**রিবন:**
 
-1. In the ribbon, click **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]].
-2. Next to the workspace you want to delete, select **Delete layout** ![[lucide-x.svg#icon]].
+1. রিবনে, **Manage workspace layouts**  ![[lucide-panels-top-left.svg#icon]]-এ ক্লিক করুন।
+2. আপনি যে ওয়ার্কস্পেসটি মুছতে চান তার পাশে, **Delete layout** ![[lucide-x.svg#icon]] নির্বাচন করুন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Manage workspace layouts** command.
-3. Press `Enter` with the command selected.
-4. Next to the workspace you want to delete, select **Delete layout** ![[lucide-x.svg#icon]].
+1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+2. **Manage workspace layouts** কমান্ডটি খুঁজুন।
+3. কমান্ডটি নির্বাচিত অবস্থায় `Enter` চাপুন।
+4. আপনি যে ওয়ার্কস্পেসটি মুছতে চান তার পাশে, **Delete layout** ![[lucide-x.svg#icon]] নির্বাচন করুন।

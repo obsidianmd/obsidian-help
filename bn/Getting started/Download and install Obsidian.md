@@ -1,78 +1,77 @@
 ---
-localized: null
 permalink: install
 ---
-Obsidian is available for all major desktop and mobile platforms. These are all the supported ways to download and install Obsidian.
+Obsidian সব প্রধান ডেস্কটপ এবং মোবাইল প্ল্যাটফর্মের জন্য উপলব্ধ। এগুলো হলো Obsidian ডাউনলোড ও ইনস্টল করার সমস্ত সমর্থিত উপায়।
 
-## Install Obsidian on Windows
+## Windows-এ Obsidian ইনস্টল করুন
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Windows**, click **Universal** to download the installation file.
-3. Open the installation file and follow the instructions.
-4. Open Obsidian the same way you would open any other application.
+1. আপনার ব্রাউজার খুলুন এবং [Download Obsidian](https://obsidian.md/download)-এ যান।
+2. **Windows**-এর অধীনে, ইনস্টলেশন ফাইল ডাউনলোড করতে **Universal** ক্লিক করুন।
+3. ইনস্টলেশন ফাইলটি খুলুন এবং নির্দেশাবলী অনুসরণ করুন।
+4. অন্য যেকোনো অ্যাপ্লিকেশন খোলার মতো একইভাবে Obsidian খুলুন।
 
-## Install Obsidian on macOS
+## macOS-এ Obsidian ইনস্টল করুন
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **macOS**, click **Universal** to download the installation file.
-3. Open the installation file.
-4. In the window that opens, drag Obsidian to the Applications folder.
-5. Open Obsidian the same way you would open any other application.
+1. আপনার ব্রাউজার খুলুন এবং [Download Obsidian](https://obsidian.md/download)-এ যান।
+2. **macOS**-এর অধীনে, ইনস্টলেশন ফাইল ডাউনলোড করতে **Universal** ক্লিক করুন।
+3. ইনস্টলেশন ফাইলটি খুলুন।
+4. যে উইন্ডো খুলবে, সেখানে Obsidian-কে Applications ফোল্ডারে টেনে আনুন।
+5. অন্য যেকোনো অ্যাপ্লিকেশন খোলার মতো একইভাবে Obsidian খুলুন।
 
-## Install Obsidian on Linux
+## Linux-এ Obsidian ইনস্টল করুন
 
-If you use Linux, you can install Obsidian in several ways. Follow the instructions for the packaging system that you're using.
+আপনি যদি Linux ব্যবহার করেন, তাহলে আপনি বিভিন্ন উপায়ে Obsidian ইনস্টল করতে পারেন। আপনি যে প্যাকেজিং সিস্টেম ব্যবহার করছেন তার জন্য নির্দেশাবলী অনুসরণ করুন।
 
-### Install Obsidian using Snap
+### Snap ব্যবহার করে Obsidian ইনস্টল করুন
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Linux**, click **Snap** to download the installation file.
-3. Open a terminal and navigate to the folder where you downloaded the installation file.
-4. In the terminal, run the following command to install the Snap package: (the `--dangerous` flag is required because Canonical, the company who created Snap, didn't review our package, the `--classic` flag allows Obsidian to access outside of the sandbox, where your notes are stored)
+1. আপনার ব্রাউজার খুলুন এবং [Download Obsidian](https://obsidian.md/download)-এ যান।
+2. **Linux**-এর অধীনে, ইনস্টলেশন ফাইল ডাউনলোড করতে **Snap** ক্লিক করুন।
+3. একটি টার্মিনাল খুলুন এবং আপনি যে ফোল্ডারে ইনস্টলেশন ফাইলটি ডাউনলোড করেছেন সেখানে যান।
+4. টার্মিনালে, Snap প্যাকেজ ইনস্টল করতে নিচের কমান্ডটি চালান: (`--dangerous` ফ্ল্যাগটি প্রয়োজন কারণ Canonical, যে কোম্পানি Snap তৈরি করেছে, আমাদের প্যাকেজ পর্যালোচনা করেনি, `--classic` ফ্ল্যাগটি Obsidian-কে স্যান্ডবক্সের বাইরে প্রবেশাধিকার দেয়, যেখানে আপনার নোট সংরক্ষিত থাকে)
 
    ```bash
    snap install obsidian_<version>_<arch>.snap --dangerous --classic
    ```
 
-5. Open Obsidian the same way you would open any other application.
+5. অন্য যেকোনো অ্যাপ্লিকেশন খোলার মতো একইভাবে Obsidian খুলুন।
 
-### Install Obsidian using AppImage
+### AppImage ব্যবহার করে Obsidian ইনস্টল করুন
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Linux**, click **AppImage** to download the installation file.
-3. Open a terminal and navigate to the folder where you downloaded the installation file.
-4. In the terminal, run the following command to open Obsidian:
+1. আপনার ব্রাউজার খুলুন এবং [Download Obsidian](https://obsidian.md/download)-এ যান।
+2. **Linux**-এর অধীনে, ইনস্টলেশন ফাইল ডাউনলোড করতে **AppImage** ক্লিক করুন।
+3. একটি টার্মিনাল খুলুন এবং আপনি যে ফোল্ডারে ইনস্টলেশন ফাইলটি ডাউনলোড করেছেন সেখানে যান।
+4. Obsidian খুলতে টার্মিনালে নিচের কমান্ডটি চালান:
 
    ```bash
    chmod u+x Obsidian-<version>.AppImage
    ./Obsidian-<version>.AppImage --no-sandbox
    ```
-Note: On Chromebooks, the `libnss3-dev` package must be installed or you may receive the error `error while loading shared libraries: libnss3.so: cannot open shared object file: No such file or directory`.
+মনে রাখবেন: Chromebook-এ, `libnss3-dev` প্যাকেজটি ইনস্টল করা থাকতে হবে অন্যথায় আপনি `error while loading shared libraries: libnss3.so: cannot open shared object file: No such file or directory` ত্রুটিটি পেতে পারেন।
 
-### Install Obsidian using Flatpak
+### Flatpak ব্যবহার করে Obsidian ইনস্টল করুন
 
-1. In your terminal, run the following command to install Obsidian:
+1. আপনার টার্মিনালে, Obsidian ইনস্টল করতে নিচের কমান্ডটি চালান:
 
    ```bash
    flatpak install flathub md.obsidian.Obsidian
    ```
 
-2. Open Obsidian by running the following command:
+2. নিচের কমান্ডটি চালিয়ে Obsidian খুলুন:
 
    ```bash
    flatpak run md.obsidian.Obsidian
    ```
 
-## Install Obsidian on Android
+## Android-এ Obsidian ইনস্টল করুন
 
-1. Find Obsidian on the [Play Store](https://play.google.com/store/apps/details?id=md.obsidian).
-2. Tap **Install** to download the app.
-3. Open Obsidian the same way you would open any other app.
+1. [Play Store](https://play.google.com/store/apps/details?id=md.obsidian)-এ Obsidian খুঁজুন।
+2. অ্যাপটি ডাউনলোড করতে **Install** ট্যাপ করুন।
+3. অন্য যেকোনো অ্যাপ খোলার মতো একইভাবে Obsidian খুলুন।
 
-You can optionally download the APK for Android from the [Download Obsidian](https://obsidian.md/download) page.
+আপনি ঐচ্ছিকভাবে [Download Obsidian](https://obsidian.md/download) পৃষ্ঠা থেকে Android-এর জন্য APK ডাউনলোড করতে পারেন।
 
-## Install Obsidian on iPhone and iPad
+## iPhone এবং iPad-এ Obsidian ইনস্টল করুন
 
-1. Find Obsidian on the [App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
-2. Tap **Get** to download the app.
-3. Open Obsidian the same way you would open any other app.
+1. [App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442)-এ Obsidian খুঁজুন।
+2. অ্যাপটি ডাউনলোড করতে **Get** ট্যাপ করুন।
+3. অন্য যেকোনো অ্যাপ খোলার মতো একইভাবে Obsidian খুলুন।

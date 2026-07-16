@@ -1,35 +1,33 @@
 ---
-localized: null
 permalink: publish/troubleshoot
 publish: true
 mobile: true
-description: This page details some common problems that you may run into when using Obsidian Publish
+description: এই পৃষ্ঠায় Obsidian Publish ব্যবহার করার সময় আপনি যেসব সাধারণ সমস্যায় পড়তে পারেন সেগুলোর বিস্তারিত দেওয়া আছে
 ---
-This page lists common issues you might encounter with [[Introduction to Obsidian Publish|Obsidian Publish]] and how to address them.
+এই পৃষ্ঠায় [[Introduction to Obsidian Publish|Obsidian Publish]]-এ আপনি যেসব সাধারণ সমস্যার সম্মুখীন হতে পারেন এবং সেগুলো কীভাবে সমাধান করবেন তার তালিকা দেওয়া আছে।
 
-Be sure to review [[Media files]] and [[Publish limitations|Publish limitations]] first.
+প্রথমে [[Media files]] এবং [[Publish limitations|Publish limitations]] পর্যালোচনা করে নিন।
 
-## General
+## সাধারণ
 
-### Publishing notes
+### নোট প্রকাশ করা
 
-**I am receiving a hash error when trying to publish a note.**
+**একটি নোট প্রকাশ করার চেষ্টা করার সময় আমি একটি হ্যাশ ত্রুটি পাচ্ছি।**
 
-Are you using a [[Community plugins|community plugin]] that edits the file's modified time upon update? If so, this plugin may be conflicting with Publish. Please issue a bug report to the plugin developer to resolve the issue.
+আপনি কি এমন একটি [[Community plugins|কমিউনিটি প্লাগইন]] ব্যবহার করছেন যা আপডেটের সময় ফাইলের পরিবর্তিত সময় সম্পাদনা করে? যদি তাই হয়, তাহলে এই প্লাগইনটি Publish-এর সাথে দ্বন্দ্বে জড়িয়ে পড়তে পারে। সমস্যাটি সমাধান করতে দয়া করে প্লাগইন ডেভেলপারের কাছে একটি বাগ রিপোর্ট জমা দিন।
 
-**I am receiving an odd network error, and I have a very large Publish site.**
+**আমি একটি অস্বাভাবিক নেটওয়ার্ক ত্রুটি পাচ্ছি, এবং আমার একটি অনেক বড় Publish সাইট রয়েছে।**
 
-It is likely we need to examine your database. Please [[Help and support#Contact Obsidian support|contact Obsidian support]] for assistance.
+সম্ভবত আমাদের আপনার ডেটাবেস পরীক্ষা করা প্রয়োজন। সাহায্যের জন্য দয়া করে [[Help and support#Contact Obsidian support|Obsidian সাপোর্টের সাথে যোগাযোগ করুন]]।
 
-## CSS and themes
+## CSS এবং থিম
 
-**My CSS in my [[Configuration folder]] does not work on Publish. Why?**
+**আমার [[Configuration folder|কনফিগারেশন ফোল্ডার]]-এর CSS Publish-এ কাজ করছে না। কেন?**
 
-Publish does not read from the configuration folder. Instead, you'll need to create a `publish.css` file in the top-level directory of your publishing vault. You can learn more about this in [[Customize your site]].
+Publish কনফিগারেশন ফোল্ডার থেকে পড়ে না। এর পরিবর্তে, আপনাকে আপনার publishing ভল্টের সর্বোচ্চ-স্তরের ডিরেক্টরিতে একটি `publish.css` ফাইল তৈরি করতে হবে। এ সম্পর্কে আরও জানতে [[Customize your site]] দেখুন।
 
-**My CSS does not look the same on Publish as it does in the app. Why?**
+**আমার CSS অ্যাপে যেমন দেখায় Publish-এ ঠিক তেমন দেখাচ্ছে না। কেন?**
 
-Obsidian Publish's CSS is not exactly the same as in the application. We recommend [developing any CSS and themes](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes)specifically for Publish from the ground up.
+Obsidian Publish-এর CSS অ্যাপ্লিকেশনের মতো ঠিক একই নয়। আমরা সুপারিশ করি যে আপনি Publish-এর জন্য বিশেষভাবে শুরু থেকে [যেকোনো CSS এবং থিম তৈরি করুন](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes)।
 
-In _general_, what works for [[Views and editing mode#Reading view|Reading view]] has a strong likelihood of working on Publish.
-
+_সাধারণভাবে_, [[Views and editing mode#Reading view|Reading view]]-এ যা কাজ করে তা Publish-এও কাজ করার সম্ভাবনা বেশি।

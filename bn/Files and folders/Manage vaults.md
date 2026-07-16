@@ -1,82 +1,81 @@
 ---
-localized: null
 permalink: manage-vaults
 ---
-A **vault** is a folder on your file system which contains your notes, [[attachments]], and the [[configuration folder]] with Obsidian-specific settings. For more information on vaults, refer to [[How Obsidian stores data]].
+একটি **ভল্ট** হলো আপনার ফাইল সিস্টেমের একটি ফোল্ডার, যাতে আপনার নোট, [[attachments|অ্যাটাচমেন্ট]], এবং Obsidian-নির্দিষ্ট সেটিংসসহ [[configuration folder|কনফিগারেশন ফোল্ডার]] থাকে। ভল্ট সম্পর্কে আরও তথ্যের জন্য, দেখুন [[How Obsidian stores data]]।
 
-You can manage your vaults using the **Vault switcher**. The *Vault profile* opens the first time you open Obsidian.
+আপনি **ভল্ট সুইচার** ব্যবহার করে আপনার ভল্টগুলো পরিচালনা করতে পারেন। আপনি প্রথমবার Obsidian খোলার সময় *ভল্ট প্রোফাইল* খোলে।
 
-To open the vault switcher from an existing vault, select **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] at the bottom of the [[Sidebar|left sidebar]]. Or, select **Open another vault** from the [[command palette]].
+একটি বিদ্যমান ভল্ট থেকে ভল্ট সুইচার খুলতে, [[Sidebar|বাম সাইডবারের]] নিচে **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] নির্বাচন করুন। অথবা, [[command palette|কমান্ড প্যালেট]] থেকে **Open another vault** নির্বাচন করুন।
 
-## Create new vault
+## নতুন ভল্ট তৈরি করুন
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-3. To the right of **Create new vault**, select **Create**.
-4. In **Vault name**, enter the name of your vault.
-5. Click **Browse** to select where your new vault will be created.
-6. Click **Create**.
+1. আপনার কম্পিউটারে, Obsidian খুলুন।
+2. নিচে বামদিকে, **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] নির্বাচন করুন।
+3. একটি কনটেক্সট মেনু খুলবে। **Manage Vaults...** নির্বাচন করুন।
+3. **Create new vault**-এর ডানদিকে, **Create** নির্বাচন করুন।
+4. **Vault name**-এ, আপনার ভল্টের নাম লিখুন।
+5. আপনার নতুন ভল্ট কোথায় তৈরি হবে তা নির্বাচন করতে **Browse** ক্লিক করুন।
+6. **Create** ক্লিক করুন।
 
-## Create vault from an existing folder
+## বিদ্যমান ফোল্ডার থেকে ভল্ট তৈরি করুন
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-3. At the right of **Open folder as vault**, click **Open**.
-4. In the file browser, select the folder you want to use as your vault.
-5. Click **Open**.
+1. আপনার কম্পিউটারে, Obsidian খুলুন।
+2. নিচে বামদিকে, **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] নির্বাচন করুন।
+3. একটি কনটেক্সট মেনু খুলবে। **Manage Vaults...** নির্বাচন করুন।
+3. **Open folder as vault**-এর ডানদিকে, **Open** ক্লিক করুন।
+4. ফাইল ব্রাউজারে, যে ফোল্ডারটি আপনি আপনার ভল্ট হিসেবে ব্যবহার করতে চান তা নির্বাচন করুন।
+5. **Open** ক্লিক করুন।
 
-> [!tip] Open vault from Obsidian Sync
-> If you want to open a remote vault using Obsidian Sync, refer to [[Set up Obsidian Sync]].
+> [!tip] Obsidian Sync থেকে ভল্ট খুলুন
+> আপনি যদি Obsidian Sync ব্যবহার করে একটি দূরবর্তী (remote) ভল্ট খুলতে চান, তাহলে দেখুন [[Set up Obsidian Sync]]।
 
-## Rename vault
+## ভল্টের নাম পরিবর্তন করুন
 
-Since the name of a vault and the underlying folder are the same, renaming a vault also renames the folder.
+যেহেতু একটি ভল্টের নাম এবং তার অন্তর্নিহিত ফোল্ডার একই, তাই ভল্টের নাম পরিবর্তন করলে ফোল্ডারটির নামও পরিবর্তিত হয়।
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to rename.
-5. Select **Rename vault**.
-6. Enter the new name for the vault, and press `Enter`.
+1. আপনার কম্পিউটারে, Obsidian খুলুন।
+2. নিচে বামদিকে, **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] নির্বাচন করুন।
+3. একটি কনটেক্সট মেনু খুলবে। **Manage Vaults...** নির্বাচন করুন।
+4. ভল্ট তালিকায়, আপনি যে ভল্টের নাম পরিবর্তন করতে চান তার পাশে **More options** ![[lucide-more-horizontal.svg#icon]] নির্বাচন করুন।
+5. **Rename vault** নির্বাচন করুন।
+6. ভল্টের জন্য নতুন নাম লিখুন এবং `Enter` চাপুন।
 
-## Move vault to a different folder
+## ভল্ট অন্য ফোল্ডারে স্থানান্তর করুন
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-4. Close the current vault window, leaving the **Manage Vaults** window open.
-5. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to move.
-6. Select **Move vault**, and then select the new location.
+1. আপনার কম্পিউটারে, Obsidian খুলুন।
+2. নিচে বামদিকে, **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] নির্বাচন করুন।
+3. একটি কনটেক্সট মেনু খুলবে। **Manage Vaults...** নির্বাচন করুন।
+4. বর্তমান ভল্ট উইন্ডো বন্ধ করুন, তবে **Manage Vaults** উইন্ডোটি খোলা রাখুন।
+5. ভল্ট তালিকায়, আপনি যে ভল্ট স্থানান্তর করতে চান তার পাশে **More options** ![[lucide-more-horizontal.svg#icon]] নির্বাচন করুন।
+6. **Move vault** নির্বাচন করুন, এবং তারপর নতুন অবস্থান নির্বাচন করুন।
 
-Some operating systems do not allow the vault to be moved with the Vault Switcher. In these cases, you will need to move your vault manually:
+কিছু অপারেটিং সিস্টেম ভল্ট সুইচার দিয়ে ভল্ট স্থানান্তর করার অনুমতি দেয় না। এসব ক্ষেত্রে, আপনাকে নিজে ম্যানুয়ালি আপনার ভল্ট স্থানান্তর করতে হবে:
 
-1. Close Obsidian.
-2. Move your vault folder to a new location, avoiding folders synced by other services.
-3. Reopen Obsidian.
-4. Click the **Vault profile** icon at the bottom left ![[lucide-chevrons-up-down.svg#icon]].
-5. From the pop-up menu, select **Manage Vaults...**.
-6. Next to **Open folder as vault**, click **Open**.
-7. Navigate to and select your new vault folder.
-8. Click **Open**.
-9. Verify that the vault contents are unchanged. If necessary, re-enable community plugins by navigating to **[[Settings]] → Community Plugins → Turn restricted mode off**.
+1. Obsidian বন্ধ করুন।
+2. আপনার ভল্ট ফোল্ডারটি নতুন অবস্থানে সরান, অন্য কোনো পরিষেবা দ্বারা সিঙ্ক করা ফোল্ডার এড়িয়ে চলুন।
+3. Obsidian আবার খুলুন।
+4. নিচে বামদিকে **Vault profile** আইকনে ক্লিক করুন ![[lucide-chevrons-up-down.svg#icon]]।
+5. পপ-আপ মেনু থেকে, **Manage Vaults...** নির্বাচন করুন।
+6. **Open folder as vault**-এর পাশে, **Open** ক্লিক করুন।
+7. আপনার নতুন ভল্ট ফোল্ডারে গিয়ে সেটি নির্বাচন করুন।
+8. **Open** ক্লিক করুন।
+9. যাচাই করুন যে ভল্টের বিষয়বস্তু অপরিবর্তিত আছে। প্রয়োজনে, **[[Settings]] → Community Plugins → Turn restricted mode off**-এ গিয়ে কমিউনিটি প্লাগইন পুনরায় সক্রিয় করুন।
 
-## Remove vault
+## ভল্ট মুছুন
 
-Removing a vault only removes it from the vault list. 
+একটি ভল্ট মুছে ফেলা শুধু সেটিকে ভল্ট তালিকা থেকে সরিয়ে দেয়। 
 
-1. On your computer, open Obsidian.
-2. At the bottom left, select the **Vault profile** ![[lucide-chevrons-up-down.svg#icon]].
-3. A context menu will pop up. Select **Manage Vaults...**.
-4. In the vault list, select **More options** ![[lucide-more-horizontal.svg#icon]] next to the vault you want to move.
-5. Select **Remove from list**.
+1. আপনার কম্পিউটারে, Obsidian খুলুন।
+2. নিচে বামদিকে, **Vault profile** ![[lucide-chevrons-up-down.svg#icon]] নির্বাচন করুন।
+3. একটি কনটেক্সট মেনু খুলবে। **Manage Vaults...** নির্বাচন করুন।
+4. ভল্ট তালিকায়, আপনি যে ভল্ট স্থানান্তর করতে চান তার পাশে **More options** ![[lucide-more-horizontal.svg#icon]] নির্বাচন করুন।
+5. **Remove from list** নির্বাচন করুন।
 
-## Transfer settings to another vault
+## অন্য একটি ভল্টে সেটিংস স্থানান্তর করুন
 
-To use the same settings for another vault, use your preferred file manager (or terminal) to copy the `.obsidian` folder from the root of the source vault to the root of the destination vault.
+অন্য একটি ভল্টের জন্য একই সেটিংস ব্যবহার করতে, উৎস ভল্টের মূল (root) অবস্থান থেকে `.obsidian` ফোল্ডারটি গন্তব্য ভল্টের মূল অবস্থানে কপি করতে আপনার পছন্দের ফাইল ম্যানেজার (অথবা টার্মিনাল) ব্যবহার করুন।
 
-You may need to restart Obsidian to apply the changes.
+পরিবর্তনগুলো প্রয়োগ করতে আপনাকে Obsidian পুনরায় চালু করতে হতে পারে।
 
-> [!note] Where do I find the `.obsidian` folder?
-> By default, most operating systems hide folders starting with a period (`.`). For more information about the `.obsidian` folder and how to access it, refer to [[How Obsidian stores data#Vault settings|vault settings]] and [[Configuration folder|config folders]].
+> [!note] `.obsidian` ফোল্ডার কোথায় পাব?
+> ডিফল্টভাবে, বেশিরভাগ অপারেটিং সিস্টেম পিরিয়ড (`.`) দিয়ে শুরু হওয়া ফোল্ডার লুকিয়ে রাখে। `.obsidian` ফোল্ডার এবং সেটি কীভাবে অ্যাক্সেস করবেন সে সম্পর্কে আরও তথ্যের জন্য, দেখুন [[How Obsidian stores data#Vault settings|ভল্ট সেটিংস]] এবং [[Configuration folder|কনফিগ ফোল্ডার]]।

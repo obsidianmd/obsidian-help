@@ -1,72 +1,71 @@
 ---
-localized: null
 permalink: edit-and-read
 ---
 
-Obsidian lets you control how you read and edit notes written in Markdown using _views_ and _modes_.
+Obsidian আপনাকে _ভিউ_ এবং _মোড_ ব্যবহার করে Markdown-এ লেখা নোট কীভাবে পড়বেন এবং সম্পাদনা করবেন তা নিয়ন্ত্রণ করতে দেয়।
 
-- **Views** toggle between reading and editing your notes.
-- **Modes** control how Markdown appears while you're editing.
+- **ভিউ** আপনার নোট পড়া এবং সম্পাদনার মধ্যে টগল করে।
+- **মোড** নিয়ন্ত্রণ করে আপনি যখন সম্পাদনা করছেন তখন Markdown কেমন দেখায়।
 
-> [!note] Note
-> By default, Obsidian opens new tabs in editing mode. You can change this under **[[Settings]] → Editor → Default view for new tabs**.
+> [!note] নোট
+> ডিফল্টভাবে, Obsidian নতুন ট্যাব এডিটিং মোডে খোলে। আপনি এটি **[[Settings]] → Editor → Default view for new tabs**-এর অধীনে পরিবর্তন করতে পারেন।
 
-## Reading view
+## রিডিং ভিউ
 
-*Reading view* shows your note without Markdown syntax, offering a clean, readable format for focused review.
+*রিডিং ভিউ* Markdown সিনট্যাক্স ছাড়া আপনার নোট দেখায়, যা মনোযোগসহকারে পর্যালোচনার জন্য একটি পরিষ্কার, পাঠযোগ্য ফরম্যাট প্রদান করে।
 
-To switch to *Reading view*:
+*রিডিং ভিউতে* স্যুইচ করতে:
 
-- Click the view switcher ![[lucide-book-icon.svg#icon]] in the upper-right corner of the editor.
-- Or click the interactive status icon ![[lucide-edit-3.svg#icon]] or ![[lucide-code-xml.svg#icon]] in the status bar and select **Reading view**.
-- Or press `Ctrl+E` (`Cmd+E` on macOS).
+- এডিটরের উপরের ডান কোণে ভিউ সুইচার ![[lucide-book-icon.svg#icon]]-এ ক্লিক করুন।
+- অথবা স্ট্যাটাস বারে ইন্টারঅ্যাকটিভ স্ট্যাটাস আইকন ![[lucide-edit-3.svg#icon]] বা ![[lucide-code-xml.svg#icon]]-এ ক্লিক করে **Reading view** নির্বাচন করুন।
+- অথবা `Ctrl+E` (macOS-এ `Cmd+E`) চাপুন।
 
-> [!note] Note
-> Enable **[[Settings]] → Appearance → Show tab title bar** to see the view switcher icon.  
+> [!note] নোট
+> ভিউ সুইচার আইকন দেখতে **[[Settings]] → Appearance → Show tab title bar** সক্রিয় করুন।  
 > 
-> If that is disabled, turn on **[[Settings]] → Editor → Show editing mode in status bar** to toggle views from the status bar.
+> যদি সেটি বন্ধ থাকে, তাহলে স্ট্যাটাস বার থেকে ভিউ টগল করতে **[[Settings]] → Editor → Show editing mode in status bar** চালু করুন।
 
-> [!tip] View side-by-side  
-> To open a note in both *Editing* and *Reading view* at the same time, hold `Ctrl` (or `Cmd` on macOS) and click the view switcher.
+> [!tip] পাশাপাশি দেখুন  
+> একটি নোট একই সময়ে *এডিটিং* এবং *রিডিং ভিউ* উভয়েতেই খুলতে, `Ctrl` (macOS-এ `Cmd`) চেপে ধরে ভিউ সুইচারে ক্লিক করুন।
 
-## Editing view
+## এডিটিং ভিউ
 
-*Editing view* lets you make changes to your note.
+*এডিটিং ভিউ* আপনাকে আপনার নোটে পরিবর্তন করতে দেয়।
 
-While in *Editing view*, the *Editing mode* defines, how Markdown is displayed. You can choose one of two *Editing modes*: *Live Preview* or *Source mode*.
+*এডিটিং ভিউতে* থাকা অবস্থায়, *এডিটিং মোড* নির্ধারণ করে Markdown কীভাবে প্রদর্শিত হয়। আপনি দুটি *এডিটিং মোডের* যেকোনো একটি বেছে নিতে পারেন: *লাইভ প্রিভিউ* বা *সোর্স মোড*।
 
-### Live Preview
+### লাইভ প্রিভিউ
 
-*Live Preview* shows formatted text inline while hiding most Markdown syntax. When your cursor enters formatted content, the underlying syntax becomes visible for editing.
+*লাইভ প্রিভিউ* বেশিরভাগ Markdown সিনট্যাক্স লুকিয়ে রেখে ইনলাইনে ফরম্যাট করা টেক্সট দেখায়। আপনার কার্সর ফরম্যাট করা কনটেন্টে প্রবেশ করলে, অন্তর্নিহিত সিনট্যাক্স সম্পাদনার জন্য দৃশ্যমান হয়ে ওঠে।
 
-To switch to *Live Preview*:
+*লাইভ প্রিভিউতে* স্যুইচ করতে:
 
-- Click the view switcher ![[lucide-edit-3.svg#icon]] in the upper-right corner of the editor.
-- Or click the interactive status icon ![[lucide-book-icon.svg#icon]] or ![[lucide-code-xml.svg#icon]] in the status bar and select **Live Preview**.
-- Or press `Ctrl+E` (`Cmd+E` on macOS).
-- Or use the [[Command palette|command]] **Toggle Reading view**.
+- এডিটরের উপরের ডান কোণে ভিউ সুইচার ![[lucide-edit-3.svg#icon]]-এ ক্লিক করুন।
+- অথবা স্ট্যাটাস বারে ইন্টারঅ্যাকটিভ স্ট্যাটাস আইকন ![[lucide-book-icon.svg#icon]] বা ![[lucide-code-xml.svg#icon]]-এ ক্লিক করে **Live Preview** নির্বাচন করুন।
+- অথবা `Ctrl+E` (macOS-এ `Cmd+E`) চাপুন।
+- অথবা [[Command palette|কমান্ড]] **Toggle Reading view** ব্যবহার করুন।
 
-> [!note] Note
-> By default, editing view is set to *Live Preview*. You can change this under **[[Settings]] → Editor → Default editing mode**.
+> [!note] নোট
+> ডিফল্টভাবে, এডিটিং ভিউ *লাইভ প্রিভিউ*-এ সেট করা থাকে। আপনি এটি **[[Settings]] → Editor → Default editing mode**-এর অধীনে পরিবর্তন করতে পারেন।
 
-> [!tip] In many cases, Live Preview can eliminate the need to switch to [[#Reading view]].
+> [!tip] অনেক ক্ষেত্রে, লাইভ প্রিভিউ [[#Reading view|রিডিং ভিউতে]] স্যুইচ করার প্রয়োজনীয়তা দূর করতে পারে।
 
-### Source mode
+### সোর্স মোড
 
-*Source mode* displays all Markdown syntax exactly as written. Use it if you prefer plain text or need precise formatting control.
+*সোর্স মোড* যেভাবে লেখা হয়েছে ঠিক সেভাবেই সব Markdown সিনট্যাক্স প্রদর্শন করে। যদি আপনি প্লেইন টেক্সট পছন্দ করেন বা নিখুঁত ফরম্যাটিং নিয়ন্ত্রণের প্রয়োজন হয়, তাহলে এটি ব্যবহার করুন।
 
-To switch to *Source mode*:
-- Click the interactive status icon ![[lucide-book-icon.svg#icon]] or ![[lucide-edit-3.svg#icon]]  in the status bar and select **Source mode**.
+*সোর্স মোডে* স্যুইচ করতে:
+- স্ট্যাটাস বারে ইন্টারঅ্যাকটিভ স্ট্যাটাস আইকন ![[lucide-book-icon.svg#icon]] বা ![[lucide-edit-3.svg#icon]]-এ ক্লিক করে **Source mode** নির্বাচন করুন।
 
-> [!note] Note
-> By default, editing view is set to *Live Preview*. Change this to *Source mode* under **[[Settings]] → Editor → Default editing mode**.
+> [!note] নোট
+> ডিফল্টভাবে, এডিটিং ভিউ *লাইভ প্রিভিউ*-এ সেট করা থাকে। এটি **[[Settings]] → Editor → Default editing mode**-এর অধীনে *সোর্স মোডে* পরিবর্তন করুন।
 > 
-> To switch to *Source mode*, now additionally you can:
+> *সোর্স মোডে* স্যুইচ করতে, এখন অতিরিক্তভাবে আপনি এগুলোও করতে পারেন:
 > 
-> - Click the view switcher ![[lucide-edit-3.svg#icon]] in the upper right corner of your note.
-> - Or press `Ctrl+E` (`Cmd+E` on macOS).
-> - Or use the [[Command palette|command]] **Toggle Reading view**.
+> - আপনার নোটের উপরের ডান কোণে ভিউ সুইচার ![[lucide-edit-3.svg#icon]]-এ ক্লিক করুন।
+> - অথবা `Ctrl+E` (macOS-এ `Cmd+E`) চাপুন।
+> - অথবা [[Command palette|কমান্ড]] **Toggle Reading view** ব্যবহার করুন।
 
-> [!tip] Toggle *Editing mode*
-> To toggle between *Live Preview* and *Source mode* quickly, you can set a [[Hotkeys|Hotkey]] for the [[Command palette|command]] **Toggle Live Preview/Source mode**.
+> [!tip] *এডিটিং মোড* টগল করা
+> দ্রুত *লাইভ প্রিভিউ* এবং *সোর্স মোডের* মধ্যে টগল করতে, আপনি [[Command palette|কমান্ড]] **Toggle Live Preview/Source mode**-এর জন্য একটি [[Hotkeys|হট-কি]] সেট করতে পারেন।
 

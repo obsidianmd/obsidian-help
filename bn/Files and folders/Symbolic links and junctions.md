@@ -1,17 +1,16 @@
 ---
-localized: null
 permalink: symlinks
 ---
-You can use [symbolic links](https://en.wikipedia.org/wiki/Symbolic_link) (symlinks) and [junctions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) in your vault to store files outside the vault and [[How Obsidian stores data#Global settings|system folder]].
+আপনার ভল্ট এবং [[How Obsidian stores data#Global settings|সিস্টেম ফোল্ডারের]] বাইরে ফাইল সংরক্ষণ করতে আপনি আপনার ভল্টে [সিম্বলিক লিঙ্ক](https://en.wikipedia.org/wiki/Symbolic_link) (সিমলিঙ্ক) এবং [জাংশন](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions) ব্যবহার করতে পারেন।
 
-> [!danger] Use at your own risk
-> We strongly advise against using symbolic links. By using symbolic links and junctions in your vault, you risk losing or corrupting your data, or crashing Obsidian. Make sure you perform regular back-ups of your vault and settings.
+> [!danger] নিজ দায়িত্বে ব্যবহার করুন
+> আমরা সিম্বলিক লিঙ্ক ব্যবহার না করার জোরালো পরামর্শ দিই। আপনার ভল্টে সিম্বলিক লিঙ্ক এবং জাংশন ব্যবহার করলে, আপনার ডেটা হারানো বা নষ্ট হয়ে যাওয়ার, অথবা Obsidian ক্র্যাশ হওয়ার ঝুঁকি থাকে। নিশ্চিত করুন যে আপনি নিয়মিতভাবে আপনার ভল্ট এবং সেটিংসের ব্যাকআপ নিচ্ছেন।
 
-Below are some limitations or issues we are aware of that you may want to keep in mind:
+নিচে কিছু সীমাবদ্ধতা বা সমস্যা দেওয়া হলো যা আমরা জানি এবং যা আপনার মনে রাখা প্রয়োজন হতে পারে:
 
-- Symlink loops are disallowed, to prevent crashing Obsidian due to an infinite loop.
-- Symlink targets must be fully disjoint from the vault root or any other symlink targets. Disjoint means one folder doesn't contain another, or vice versa. Obsidian ignores any symlink to a parent folder of the vault, or from one folder in the vault to another folder in the same vault. It is a safeguard to ensure you don't end up with duplicated files in your vault, which could cause links to become ambiguous.
-- Symlinks may not play well with Obsidian sync, or _any other kind of sync_. If the target of a symlink is itself a folder that's synced by a different Obsidian vault, you could (potentially) end up with sync conflicts or data loss. Some sync tools, such as Git, don't follow symlinks, but rather sync the _path_ the symlink points to, which may produce undesirable results if you share your vault with other people that way.
-- Obsidian's file manager can't move files across device boundaries, so if you symlink to a folder on a different drive from your vault, you won't be able to drag files between that folder and other folders using Obsidian's file explorer. (You'll need to use your OS's explorer for such moves, and Obsidian will see the move as a deletion and the creation of a new file. It will also _not_ update any links that depended on the path of that file.)
-- File symlinks (as opposed to folder symlinks) _may_ work, but aren't officially supported at this time. Changes performed outside of Obsidian aren't watched for, so if you change the file directly, Obsidian won't detect the change, update search indexes, etc.
-- Symlinking things under the `.obsidian/` folder in order to share them between vaults **has a high chance of corrupting your settings**, unless you _really_ know what you're doing. If you decide to go this way, at least have backups.
+- সিমলিঙ্ক লুপ অনুমোদিত নয়, যাতে অসীম লুপের কারণে Obsidian ক্র্যাশ হওয়া প্রতিরোধ করা যায়।
+- সিমলিঙ্ক টার্গেটগুলোকে ভল্টের মূল (root) অথবা অন্য যেকোনো সিমলিঙ্ক টার্গেট থেকে সম্পূর্ণভাবে বিচ্ছিন্ন (disjoint) হতে হবে। বিচ্ছিন্ন মানে হলো একটি ফোল্ডার অন্যটিকে ধারণ করে না, বা তার বিপরীতটিও নয়। Obsidian ভল্টের একটি প্যারেন্ট ফোল্ডারের দিকে নির্দেশকারী কোনো সিমলিঙ্ক, অথবা ভল্টের একটি ফোল্ডার থেকে ভল্টেরই অন্য ফোল্ডারের দিকে নির্দেশকারী সিমলিঙ্ক উপেক্ষা করে। এটি একটি সুরক্ষা ব্যবস্থা, যাতে আপনার ভল্টে ডুপ্লিকেট ফাইল তৈরি না হয়, যা লিঙ্কগুলোকে অস্পষ্ট (ambiguous) করে তুলতে পারে।
+- সিমলিঙ্ক Obsidian sync-এর সাথে, অথবা _অন্য যেকোনো ধরনের সিঙ্কের_ সাথে ভালোভাবে কাজ নাও করতে পারে। যদি একটি সিমলিঙ্কের টার্গেট নিজেই এমন একটি ফোল্ডার হয় যা অন্য একটি Obsidian ভল্ট দ্বারা সিঙ্ক করা হয়, তাহলে আপনি (সম্ভাব্যভাবে) সিঙ্ক দ্বন্দ্ব বা ডেটা হারানোর মুখোমুখি হতে পারেন। Git-এর মতো কিছু সিঙ্ক টুল সিমলিঙ্ক অনুসরণ করে না, বরং সিমলিঙ্কটি যে _পাথের_ দিকে নির্দেশ করে সেটি সিঙ্ক করে, যা অন্যদের সাথে এভাবে ভল্ট শেয়ার করলে অবাঞ্ছিত ফলাফল তৈরি করতে পারে।
+- Obsidian-এর ফাইল ম্যানেজার ডিভাইসের সীমানা অতিক্রম করে ফাইল স্থানান্তর করতে পারে না, তাই আপনি যদি আপনার ভল্ট থেকে ভিন্ন একটি ড্রাইভের ফোল্ডারে সিমলিঙ্ক করেন, তাহলে আপনি Obsidian-এর ফাইল এক্সপ্লোরার ব্যবহার করে সেই ফোল্ডার এবং অন্যান্য ফোল্ডারের মধ্যে ফাইল টেনে আনতে পারবেন না। (এই ধরনের স্থানান্তরের জন্য আপনাকে আপনার OS-এর এক্সপ্লোরার ব্যবহার করতে হবে, এবং Obsidian এই স্থানান্তরকে একটি মুছে ফেলা এবং একটি নতুন ফাইল তৈরি হিসেবে দেখবে। এটি সেই ফাইলের পাথের ওপর নির্ভরশীল কোনো লিঙ্কও _আপডেট করবে না_।)
+- ফাইল সিমলিঙ্ক (ফোল্ডার সিমলিঙ্কের বিপরীতে) কাজ _করতে পারে_, তবে এই মুহূর্তে সরকারিভাবে সমর্থিত নয়। Obsidian-এর বাইরে করা পরিবর্তনগুলো পর্যবেক্ষণ করা হয় না, তাই আপনি যদি ফাইলটি সরাসরি পরিবর্তন করেন, Obsidian সেই পরিবর্তন শনাক্ত করবে না, অনুসন্ধান সূচি আপডেট করবে না, ইত্যাদি।
+- ভল্টগুলোর মধ্যে শেয়ার করার জন্য `.obsidian/` ফোল্ডারের অধীনে জিনিস সিমলিঙ্ক করলে **আপনার সেটিংস নষ্ট হওয়ার সম্ভাবনা অনেক বেশি থাকে**, যদি না আপনি _সত্যিই_ জানেন যে আপনি কী করছেন। আপনি যদি এভাবে করার সিদ্ধান্ত নেন, অন্তত ব্যাকআপ রাখুন।

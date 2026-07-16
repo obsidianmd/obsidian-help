@@ -1,45 +1,44 @@
 ---
-localized: null
 permalink: import/apple-journal
 ---
-Obsidian lets you easily migrate your journal entries from Apple Journal using the [[Importer|Importer plugin]]. 
-This will convert your journals to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian আপনাকে [[Importer|Importer প্লাগইন]] ব্যবহার করে সহজেই Apple Journal থেকে আপনার জার্নাল এন্ট্রি মাইগ্রেট করতে দেয়। 
+এটি আপনার জার্নালগুলিকে টেকসই Markdown ফাইলে রূপান্তরিত করবে, যা আপনি Obsidian এবং আরও অনেক অ্যাপের সাথে ব্যবহার করতে পারবেন।
 
-## Export your data from Apple Journal
+## Apple Journal থেকে আপনার ডেটা এক্সপোর্ট করুন
 
-### On iPhone
-Follow the instructions for [Print and export entries in Journal on iPhone](https://support.apple.com/guide/iphone/print-and-export-entries-iph4cad323fe/ios#iph1edf66806):
+### iPhone-এ
+[iPhone-এ Journal-এ এন্ট্রি প্রিন্ট ও এক্সপোর্ট করা](https://support.apple.com/guide/iphone/print-and-export-entries-iph4cad323fe/ios#iph1edf66806) সম্পর্কিত নির্দেশাবলী অনুসরণ করুন:
 
-1. Go to the Journal app on your iPhone.
-2. Choose a journal or tap All Entries.
-3. Tap the More button at the top of the screen.
-4. Tap Export, then choose Export.
-5. Choose a location, then tap the Selected button.
+1. আপনার iPhone-এ Journal অ্যাপে যান।
+2. একটি জার্নাল বেছে নিন অথবা All Entries-এ ট্যাপ করুন।
+3. স্ক্রিনের শীর্ষে থাকা More বাটনে ট্যাপ করুন।
+4. Export-এ ট্যাপ করুন, তারপর Export নির্বাচন করুন।
+5. একটি অবস্থান বেছে নিন, তারপর Selected বাটনে ট্যাপ করুন।
 
-### On Mac (Tahoe)
-Follow the instructions for [Print and export entries in Journal on Mac](https://support.apple.com/guide/journal/print-and-export-entries-dev883fc2329/mac#devc24a8f09a):
+### Mac-এ (Tahoe)
+[Mac-এ Journal-এ এন্ট্রি প্রিন্ট ও এক্সপোর্ট করা](https://support.apple.com/guide/journal/print-and-export-entries-dev883fc2329/mac#devc24a8f09a) সম্পর্কিত নির্দেশাবলী অনুসরণ করুন:
 
-1. Go to the Journal app on your Mac.
-2. Go to File > Export, then choose Export.
+1. আপনার Mac-এ Journal অ্যাপে যান।
+2. File > Export-এ যান, তারপর Export নির্বাচন করুন।
 
-## Import Apple Journal data into Obsidian
+## Obsidian-এ Apple Journal ডেটা ইম্পোর্ট করুন
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+আপনার অফিসিয়াল Obsidian [[Importer]] প্লাগইন প্রয়োজন হবে, যা আপনি [এখানে ইনস্টল করতে পারেন](obsidian://show-plugin?id=obsidian-importer)।
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format**, choose **Apple Journal (HTML Export)**.
-6. In **Files to import**, select the folder with exported data, usually _AppleJournalEntries_, or individual files from _Entries_.
-7. Review and edit the other import options.
-8. Select Import and wait until import is complete
-9. You're done!
+1. **[[Settings]]** খুলুন।
+2. **Community Plugins**-এ যান এবং [Importer ইনস্টল করুন](obsidian://show-plugin?id=obsidian-importer)।
+3. Importer প্লাগইন চালু করুন।
+4. কমান্ড প্যালেট বা রিবন আইকন ব্যবহার করে **Importer** প্লাগইন খুলুন।
+5. **File format**-এর অধীনে, **Apple Journal (HTML Export)** নির্বাচন করুন।
+6. **Files to import**-এ, এক্সপোর্ট করা ডেটাসহ ফোল্ডারটি নির্বাচন করুন, সাধারণত _AppleJournalEntries_, অথবা _Entries_ থেকে পৃথক ফাইল।
+7. অন্যান্য ইম্পোর্ট বিকল্পগুলি পর্যালোচনা ও সম্পাদনা করুন।
+8. Import নির্বাচন করুন এবং ইম্পোর্ট সম্পূর্ণ না হওয়া পর্যন্ত অপেক্ষা করুন
+9. আপনার কাজ শেষ!
 
 
-## Supported content
+## সমর্থিত কনটেন্ট
 
-The plugin can import Journal metadata as frontmatter, such as _state-of-mind_, _contacts_, _location_, and _workout-route_.
+প্লাগইনটি Journal মেটাডেটা ফ্রন্টম্যাটার হিসেবে ইম্পোর্ট করতে পারে, যেমন _state-of-mind_, _contacts_, _location_, এবং _workout-route_।
 
-> [!note] Note
-> The plugin does not import resources. Attachments like photos, videos, and audio recordings are ignored.
+> [!note] নোট
+> প্লাগইনটি রিসোর্স ইম্পোর্ট করে না। ছবি, ভিডিও, এবং অডিও রেকর্ডিংয়ের মতো সংযুক্তি উপেক্ষা করা হয়।

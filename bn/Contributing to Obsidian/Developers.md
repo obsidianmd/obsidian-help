@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: developers
 ---
-If you are a developer you can contribute to Obsidian in various ways.
+আপনি যদি একজন ডেভেলপার হন, তাহলে আপনি বিভিন্নভাবে Obsidian-এ অবদান রাখতে পারেন।
 
-### Plugins and themes
+### প্লাগইন এবং থিম
 
-You can develop [[Community plugins]] and [[Themes]] using Typescript and CSS. Learn more by heading to the [Obsidian Developer Documentation](https://docs.obsidian.md).
+আপনি Typescript এবং CSS ব্যবহার করে [[Community plugins|কমিউনিটি প্লাগইন]] এবং [[Themes|থিম]] তৈরি করতে পারেন। [Obsidian Developer Documentation](https://docs.obsidian.md)-এ গিয়ে আরও জানুন।
 
-### Open source projects
+### ওপেন সোর্স প্রকল্প
 
-Obsidian develops and maintains several open source projects. You can submit pull requests with bug fixes and enhancements to the following GitHub repositories:
+Obsidian বেশ কয়েকটি ওপেন সোর্স প্রকল্প তৈরি ও রক্ষণাবেক্ষণ করে। আপনি নিচের GitHub রিপোজিটরিগুলোতে বাগ ফিক্স এবং উন্নতির জন্য পুল রিকোয়েস্ট জমা দিতে পারেন:
 
-- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), an open file format for infinite canvas data.
-- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), a plugin that converts data from a wide variety of formats to plain text Markdown files.
-- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), a plugin that displays maps in Obsidian Bases.
-- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), a browser extension for highlighting and capturing web pages to plain text Markdown files.
-- [Defuddle](https://github.com/kepano/defuddle) (MIT) the HTML-to-Markdown parser used by Obsidian Web Clipper.
+- [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), অসীম ক্যানভাস ডেটার জন্য একটি ওপেন ফাইল ফরম্যাট।
+- [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), একটি প্লাগইন যা বিভিন্ন ধরনের ফরম্যাটের ডেটাকে প্লেইন টেক্সট Markdown ফাইলে রূপান্তরিত করে।
+- [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), একটি প্লাগইন যা Obsidian বেসেস-এ মানচিত্র প্রদর্শন করে।
+- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), একটি ব্রাউজার এক্সটেনশন যা ওয়েব পেজ হাইলাইট এবং ক্যাপচার করে প্লেইন টেক্সট Markdown ফাইলে পরিণত করে।
+- [Defuddle](https://github.com/kepano/defuddle) (MIT), HTML-থেকে-Markdown পার্সার যা Obsidian Web Clipper ব্যবহার করে।
 
-### Documentation
+### ডকুমেন্টেশন
 
-To help improve our [developer documentation](https://docs.obsidian.md/Home), submit a pull request to the [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs) repository.
+আমাদের [ডেভেলপার ডকুমেন্টেশন](https://docs.obsidian.md/Home) উন্নত করতে সাহায্য করার জন্য, [obsidian-developer-docs](https://github.com/obsidianmd/obsidian-developer-docs) রিপোজিটরিতে একটি পুল রিকোয়েস্ট জমা দিন।
 
-To help improve this documentation, submit a pull request to the [obsidian-help](https://github.com/obsidianmd/obsidian-help) repository.
+এই ডকুমেন্টেশন উন্নত করতে সাহায্য করার জন্য, [obsidian-help](https://github.com/obsidianmd/obsidian-help) রিপোজিটরিতে একটি পুল রিকোয়েস্ট জমা দিন।
 
-### Community
+### কমিউনিটি
 
-The [plugin-dev](https://discord.com/channels/686053708261228577/840286264964022302) channel on our official Discord server is where you can discuss plugin development and help other developers with their plugins.
+আমাদের অফিসিয়াল Discord সার্ভারের [plugin-dev](https://discord.com/channels/686053708261228577/840286264964022302) চ্যানেলে আপনি প্লাগইন ডেভেলপমেন্ট নিয়ে আলোচনা করতে পারেন এবং অন্যান্য ডেভেলপারদের তাদের প্লাগইনে সাহায্য করতে পারেন।

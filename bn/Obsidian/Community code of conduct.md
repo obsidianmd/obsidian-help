@@ -1,155 +1,154 @@
 ---
-localized: null
 permalink: community-code-of-conduct
 publish: true
 mobile: true
-description: This page details the rules that apply to all Obsidian community spaces.
+description: এই পাতায় সমস্ত Obsidian কমিউনিটি স্পেসে প্রযোজ্য নিয়মাবলী বিস্তারিতভাবে দেওয়া হয়েছে।
 ---
 
-## The rules
+## নিয়মাবলী
 
-The following behaviors are not tolerated within the official Obsidian community channels, including the [Forum](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd), and [Reddit](https://reddit.com/r/ObsidianMD).
+[ফোরাম](https://forum.obsidian.md), [Discord](https://discord.gg/obsidianmd), এবং [Reddit](https://reddit.com/r/ObsidianMD)-সহ অফিসিয়াল Obsidian কমিউনিটি চ্যানেলগুলোর মধ্যে নিম্নলিখিত আচরণগুলো সহ্য করা হয় না।
 
-### Serious offenses
+### গুরুতর অপরাধ
 
-Users committing these offenses will be immediately banned from all official Obsidian community channels. Timeouts may be applied while the ban is being processed.
+এই ধরনের অপরাধ করলে ব্যবহারকারীদের সাথে সাথে সকল অফিসিয়াল Obsidian কমিউনিটি চ্যানেল থেকে নিষিদ্ধ করা হবে। নিষেধাজ্ঞা প্রক্রিয়াকরণের সময় টাইমআউট প্রয়োগ করা হতে পারে।
 
-#### Harassment
+#### হয়রানি
 
-Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, or religion, as well as sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, inappropriate physical contact, and unwelcome sexual or romantic attention.
+হয়রানির মধ্যে রয়েছে লিঙ্গ, যৌন প্রবণতা, প্রতিবন্ধিতা, শারীরিক গঠন, শরীরের আকার, জাতি, বা ধর্ম সম্পর্কিত আপত্তিকর মৌখিক মন্তব্য, পাশাপাশি জনসমক্ষে যৌন ছবি, ইচ্ছাকৃত ভয় দেখানো, স্টকিং, অনুসরণ করা, হয়রানিমূলক ফটোগ্রাফি বা রেকর্ডিং, অনুচিত শারীরিক স্পর্শ, এবং অবাঞ্ছিত যৌন বা রোমান্টিক মনোযোগ।
 
-#### Threats
+#### হুমকি
 
-We don't tolerate any threats, physically or verbally. For example, threatening to publicize sensitive information about someone's personal life.
+আমরা শারীরিক বা মৌখিক কোনো ধরনের হুমকি সহ্য করি না। যেমন, কারও ব্যক্তিগত জীবন সম্পর্কে সংবেদনশীল তথ্য প্রকাশ করার হুমকি দেওয়া।
 
-#### Blatant -isms
+#### স্পষ্ট বৈষম্যমূলক মন্তব্য
 
-This includes saying things that are explicitly racist, sexist, homophobic, etc. For example, arguing that some people are less intelligent because of their gender, race or religion. Small mistakes made in conversation aren't code of conduct violations. However, repeating something after it has been pointed out to you, or antagonizing or arguing with someone who has pointed out your subtle -ism is considered a minor offense.
+এর মধ্যে রয়েছে স্পষ্টভাবে বর্ণবাদী, লিঙ্গবৈষম্যমূলক, সমকামী-বিদ্বেষী ইত্যাদি কথা বলা। যেমন, কারও লিঙ্গ, জাতি বা ধর্মের কারণে তারা কম বুদ্ধিমান — এমন যুক্তি দেওয়া। কথোপকথনে করা ছোটখাটো ভুল আচরণবিধি লঙ্ঘন নয়। তবে, একবার বলার পরে সেই ভুলের পুনরাবৃত্তি করা, বা যিনি আপনার সূক্ষ্ম বৈষম্যমূলক মন্তব্য চিহ্নিত করেছেন তার সাথে বাগবিতণ্ডা বা তর্ক করাকে সামান্য অপরাধ হিসেবে বিবেচনা করা হয়।
 
-### Other offenses
+### অন্যান্য অপরাধ
 
-Users who commit these offenses will receive a timeout and/or a warning. Repeated violations or failure to comply may result in a ban from official Obsidian community channels.
+এই ধরনের অপরাধ করলে ব্যবহারকারীরা টাইমআউট এবং/অথবা সতর্কতা পাবেন। বারবার লঙ্ঘন করলে বা মেনে না চললে অফিসিয়াল Obsidian কমিউনিটি চ্যানেল থেকে নিষিদ্ধ করা হতে পারে।
 
-Examples of **Other offenses** include:
+**অন্যান্য অপরাধের** উদাহরণের মধ্যে রয়েছে:
 
-- The use of inappropriate images, including in a community member's avatar
-- The use of inappropriate language or profanity, including in a community member's nickname
+- অনুচিত ছবি ব্যবহার করা, যার মধ্যে কোনো কমিউনিটি সদস্যের অ্যাভাটারও অন্তর্ভুক্ত
+- অনুচিত ভাষা বা অশ্লীল শব্দ ব্যবহার করা, যার মধ্যে কোনো কমিউনিটি সদস্যের ডাকনামও অন্তর্ভুক্ত
 
-#### Belligerence
+#### বিদ্বেষপূর্ণ আচরণ
 
-Belligerence is deliberately attempting to make others feel bad, name-calling, singling out others for derision or exclusion. For example, telling someone they're not a real programmer or that they don't belong.
+বিদ্বেষপূর্ণ আচরণ বলতে ইচ্ছাকৃতভাবে অন্যদের খারাপ অনুভব করানো, কটাক্ষ করা, অন্যদের উপহাস বা বাদ দেওয়ার জন্য আলাদা করাকে বোঝায়। যেমন, কাউকে বলা যে সে প্রকৃত প্রোগ্রামার নয় বা সে এখানকার নয়।
 
-#### Being especially unpleasant
+#### বিশেষভাবে অপ্রীতিকর আচরণ
 
-For example, if we've received reports from multiple members of annoying or rude behavior.
+যেমন, আমরা যদি একাধিক সদস্যের কাছ থেকে বিরক্তিকর বা অভদ্র আচরণের রিপোর্ট পাই।
 
-#### Unsolicited messages to community members
+#### কমিউনিটি সদস্যদের অনাকাঙ্ক্ষিত বার্তা
 
-This is a large and active community. Please be respectful of others' attention and time by avoiding unsolicited tagging, "pinging", or direct messaging of staff, moderators, and fellow community members for general questions, bug reports, or feature requests. This guideline will be enforced on a spirit-of-the-rule basis.
+এটি একটি বৃহৎ ও সক্রিয় কমিউনিটি। সাধারণ প্রশ্ন, বাগ রিপোর্ট, বা ফিচার রিকোয়েস্টের জন্য স্টাফ, মডারেটর, এবং সহ-কমিউনিটি সদস্যদের অযাচিত ট্যাগ করা, "পিং" করা, বা সরাসরি বার্তা পাঠানো এড়িয়ে গিয়ে অন্যদের মনোযোগ ও সময়কে সম্মান করুন। এই নির্দেশিকা নিয়মের মূল উদ্দেশ্য অনুযায়ী প্রয়োগ করা হবে।
 
-**When pinging is appropriate**: Only ping community members when replying to their messages or when they have explicitly requested to be notified about specific topics.
+**কখন পিং করা উপযুক্ত**: শুধুমাত্র কারও বার্তার উত্তর দেওয়ার সময় অথবা তারা যখন নির্দিষ্ট বিষয়ে অবহিত হতে স্পষ্টভাবে অনুরোধ করেছেন, তখনই কমিউনিটি সদস্যদের পিং করুন।
 
-**Direct messages**: Only send direct messages if you have received explicit permission to do so publicly in the server.
+**সরাসরি বার্তা**: সার্ভারে প্রকাশ্যে এই বিষয়ে স্পষ্ট অনুমতি পেলেই কেবল সরাসরি বার্তা পাঠান।
 
-**Community plugins and themes**: For bug reports and feature requests, please open a GitHub issue rather than pinging the developer in Discord.
+**কমিউনিটি প্লাগইন এবং থিম**: বাগ রিপোর্ট এবং ফিচার রিকোয়েস্টের জন্য, অনুগ্রহ করে Discord-এ ডেভেলপারকে পিং করার পরিবর্তে একটি GitHub ইস্যু খুলুন।
 
-**Security concerns**: If you have a security issue to report about the application, please [[Help and support#Contact Obsidian support|contact Obsidian support]].
+**নিরাপত্তা সংক্রান্ত উদ্বেগ**: অ্যাপ্লিকেশন সম্পর্কে কোনো নিরাপত্তা সমস্যা রিপোর্ট করতে চাইলে, অনুগ্রহ করে [[Help and support#Contact Obsidian support|Obsidian সহায়তার সাথে যোগাযোগ করুন]]।
 
-Instructions for reporting violations of our code of conduct can be found below in [[#Report violations]]. We appreciate your cooperation in following these guidelines to maintain a positive and respectful environment within the Obsidian community.
+আমাদের আচরণবিধি লঙ্ঘনের রিপোর্ট করার নির্দেশাবলী নিচে [[#Report violations|লঙ্ঘন রিপোর্ট করুন]] বিভাগে পাওয়া যাবে। Obsidian কমিউনিটির মধ্যে একটি ইতিবাচক ও সম্মানজনক পরিবেশ বজায় রাখতে এই নির্দেশিকা মেনে চলার জন্য আপনার সহযোগিতাকে আমরা কৃতজ্ঞতার সাথে গ্রহণ করি।
 
-### Other behaviors
+### অন্যান্য আচরণ
 
-The following behaviors, while not resulting in an immediate ban or warning, are strongly discouraged. Engaging in them may lead to a timeout and a reminder to review this code of conduct. Additionally, these actions greatly increase the risk of [[#being especially unpleasant]].
+নিম্নলিখিত আচরণগুলো, যদিও সরাসরি নিষেধাজ্ঞা বা সতর্কতার কারণ হয় না, তবুও এগুলোকে জোরালোভাবে নিরুৎসাহিত করা হয়। এতে জড়িত হলে টাইমআউট এবং এই আচরণবিধি পর্যালোচনা করার একটি অনুস্মারক পাওয়া যেতে পারে। এছাড়াও, এই কর্মকাণ্ডগুলো [[#being especially unpleasant|বিশেষভাবে অপ্রীতিকর আচরণের]] ঝুঁকি অনেকাংশে বাড়িয়ে দেয়।
 
-#### Sea-lioning
+#### সি-লায়নিং
 
-[Sea-lioning](https://en.wikipedia.org/wiki/Sealioning) means continuously pursuing an agenda by questioning and provoking other members. Individual provocations and questions are often perfectly acceptable, but in the case of sea-lioning, they accumulate to unhealthy levels, creating a hostile and negative conversation.
+[সি-লায়নিং](https://en.wikipedia.org/wiki/Sealioning) বলতে বোঝায় অন্য সদস্যদের প্রশ্ন করে ও উস্কানি দিয়ে ক্রমাগত কোনো এজেন্ডা অনুসরণ করা। পৃথকভাবে উস্কানি ও প্রশ্ন প্রায়শই সম্পূর্ণভাবে গ্রহণযোগ্য হয়, তবে সি-লায়নিং-এর ক্ষেত্রে এগুলো অস্বাস্থ্যকর মাত্রায় জমা হয়ে, একটি প্রতিকূল ও নেতিবাচক কথোপকথন তৈরি করে।
 
-#### "Feed me"
+#### "ফিড মি"
 
-"Feed me" means asking others to solve problems for you without putting in any effort yourself. This is particularly egregious when the problem-solving is non-trivial and yet the user begs for someone else to do the work for them.
+"ফিড মি" বলতে বোঝায় নিজে কোনো প্রচেষ্টা না করেই অন্যদের কাছে আপনার সমস্যার সমাধান চাওয়া। এটি বিশেষভাবে গুরুতর হয়ে ওঠে যখন সমস্যার সমাধান সহজ নয়, তারপরও ব্যবহারকারী অন্য কাউকে দিয়ে সেই কাজ করিয়ে নেওয়ার জন্য অনুনয় করে।
 
-#### Campaigning
+#### ক্যাম্পেইনিং
 
-Campaigning is continuously making the same requests. This applies to both feature requests and to requests for help. Don't post the same question in multiple places in short time frames, and don't ask developers for the same features or bug fixes repeatedly.
+ক্যাম্পেইনিং বলতে ক্রমাগত একই অনুরোধ করাকে বোঝায়। এটি ফিচার রিকোয়েস্ট এবং সাহায্যের অনুরোধ উভয় ক্ষেত্রেই প্রযোজ্য। অল্প সময়ের মধ্যে একাধিক জায়গায় একই প্রশ্ন পোস্ট করবেন না, এবং ডেভেলপারদের কাছে বারবার একই ফিচার বা বাগ ফিক্সের জন্য অনুরোধ করবেন না।
 
-#### Excessive self promotion
+#### অতিরিক্ত স্ব-প্রচার
 
-We encourage sharing what you’ve made for Obsidian—guides, videos, utilities, tools, and more. It’s awesome to see what folks in the community are creating. As a content creator, it’s natural to link to your own work, and we provide a place for that in the `#content-update` channel on our [[Help and support#Questions and advice|Discord]].
+আমরা Obsidian-এর জন্য আপনি যা তৈরি করেছেন — গাইড, ভিডিও, ইউটিলিটি, টুল, এবং আরও অনেক কিছু — তা শেয়ার করতে উৎসাহিত করি। কমিউনিটির মানুষেরা কী তৈরি করছে তা দেখা দারুণ ব্যাপার। একজন কনটেন্ট ক্রিয়েটর হিসেবে, নিজের কাজের লিঙ্ক দেওয়া স্বাভাবিক, এবং এর জন্য আমরা আমাদের [[Help and support#Questions and advice|Discord]]-এর `#content-update` চ্যানেলে একটি জায়গা দিয়েছি।
 
-But there are limits.
+তবে এর সীমা রয়েছে।
 
-**Exclusive** self-promotion refers to promoting or linking your own (or others’) content or initiatives without otherwise participating in the community. If your only purpose here is to drop links or solicit attention for external projects, we won’t allow it. Depending on the situation, links may be removed and warnings may be given.
+**একচেটিয়া** স্ব-প্রচার বলতে বোঝায় কমিউনিটিতে অন্য কোনোভাবে অংশগ্রহণ না করে নিজের (বা অন্যদের) কনটেন্ট বা উদ্যোগ প্রচার বা লিঙ্ক করা। যদি এখানে আপনার একমাত্র উদ্দেশ্য হয় লিঙ্ক ফেলে দেওয়া বা বাহ্যিক প্রজেক্টের জন্য মনোযোগ চাওয়া, তাহলে আমরা তা অনুমোদন করব না। পরিস্থিতি অনুযায়ী, লিঙ্ক মুছে ফেলা হতে পারে এবং সতর্কতা দেওয়া হতে পারে।
 
-**Excessive** self-promotion is a judgment call made by moderators and staff. We expect folks to engage meaningfully before promoting their work. Please be respectful—when in doubt, participate more than you promote. We reserve the right to remove content that doesn’t align with this guideline.
+**অতিরিক্ত** স্ব-প্রচার নির্ধারণ করা মডারেটর ও স্টাফদের বিচারবিবেচনার বিষয়। কাজের প্রচার করার আগে অর্থবহভাবে অংশগ্রহণ করার প্রত্যাশা আমরা রাখি। অনুগ্রহ করে সম্মানজনক থাকুন — সন্দেহ হলে, প্রচারের চেয়ে বেশি অংশগ্রহণ করুন। এই নির্দেশিকার সাথে সামঞ্জস্যপূর্ণ নয় এমন কনটেন্ট মুছে ফেলার অধিকার আমরা সংরক্ষণ করি।
 
-Promotional content must also be relevant to Obsidian. That includes anything that supports, enhances, or integrates with Obsidian—but not unrelated personal projects.
+প্রচারমূলক কনটেন্ট অবশ্যই Obsidian-এর সাথে প্রাসঙ্গিক হতে হবে। এর মধ্যে রয়েছে Obsidian-কে সমর্থন করে, উন্নত করে, বা এর সাথে ইন্টিগ্রেট হয় এমন যেকোনো কিছু — তবে অপ্রাসঙ্গিক ব্যক্তিগত প্রজেক্ট নয়।
 
-Lastly, paid content will always receive additional scrutiny, as the potential for conflict of interest is higher.
+সবশেষে, স্বার্থের দ্বন্দ্বের সম্ভাবনা বেশি থাকায় পেইড কনটেন্ট সবসময় অতিরিক্ত যাচাইয়ের মুখোমুখি হবে।
 
-#### Spamming
+#### স্প্যামিং
 
-Do not directly message any of our community member without asking for consent first. It's okay to ask publicly if you have a question.
+আমাদের কোনো কমিউনিটি সদস্যকে আগে সম্মতি না নিয়ে সরাসরি বার্তা পাঠাবেন না। প্রকাশ্যে প্রশ্ন করা ঠিক আছে, যদি আপনার কোনো প্রশ্ন থাকে।
 
-Similarly, posting invite links (e.g. to other Discord servers, unrelated communities, or private groups) is not allowed. These often come across as spammy, derail discussion, and create moderation issues.
+একইভাবে, ইনভাইট লিঙ্ক পোস্ট করা (যেমন, অন্যান্য Discord সার্ভার, অপ্রাসঙ্গিক কমিউনিটি, বা ব্যক্তিগত গ্রুপের) অনুমোদিত নয়। এগুলো প্রায়শই স্প্যামের মতো মনে হয়, আলোচনাকে বিপথে নিয়ে যায়, এবং মডারেশন সমস্যা তৈরি করে।
 
-## Encouraged behaviors
+## উৎসাহিত আচরণ
 
-Over the years of running the official Obsidian community channels, we've noticed some behaviors that positively contribute to the community.
+অফিসিয়াল Obsidian কমিউনিটি চ্যানেল পরিচালনা করার বছরগুলোতে, আমরা লক্ষ্য করেছি কিছু আচরণ কমিউনিটিতে ইতিবাচক অবদান রাখে।
 
-If you're looking to improve your communication skills as well as becoming a better community citizen, consider doing the following:
+আপনি যদি আপনার যোগাযোগ দক্ষতা উন্নত করতে এবং একজন আরও ভালো কমিউনিটি সদস্য হতে চান, তাহলে নিচেরগুলো বিবেচনা করুন:
 
-- **Try before asking**: before asking for help, please first try searching the help docs and Discord/forum history to see if the question has already been asked. Help others help you, by sharing what you've already tried.
-- **Keep an open mind**: because of how customizable Obsidian can be, some people might have a completely different set-up or workflow from you. Don't judge others for their choices.
-- **Step away when heated**: the community is a place for us to grow together, not a debate competition. If a discussion escalates into an argument, try your best to step away and leave the conversation.
+- **সাহায্য চাওয়ার আগে চেষ্টা করুন**: সাহায্য চাওয়ার আগে, অনুগ্রহ করে প্রথমে সাহায্য ডকুমেন্টেশন এবং Discord/ফোরাম ইতিহাস খুঁজে দেখুন যে প্রশ্নটি ইতিমধ্যে জিজ্ঞাসা করা হয়েছে কিনা। আপনি যা ইতিমধ্যে চেষ্টা করেছেন তা শেয়ার করে অন্যদের আপনাকে সাহায্য করতে সাহায্য করুন।
+- **খোলা মন রাখুন**: Obsidian যেভাবে কাস্টমাইজ করা যায়, তাতে কারও কারও সেটআপ বা কর্মপ্রবাহ আপনার থেকে সম্পূর্ণ ভিন্ন হতে পারে। অন্যদের পছন্দের জন্য বিচার করবেন না।
+- **উত্তেজিত হলে সরে দাঁড়ান**: কমিউনিটি একসাথে বেড়ে ওঠার জায়গা, কোনো তর্ক প্রতিযোগিতা নয়। যদি কোনো আলোচনা তর্কে পরিণত হয়, তাহলে সর্বোচ্চ চেষ্টা করুন সরে দাঁড়িয়ে কথোপকথন ত্যাগ করতে।
 
-## Motivation
+## উদ্দেশ্য
 
-We at Obsidian want to create the best community for knowledge management. We want everyone to be able to seek help, help others, and share their experience, without fear or embarrassment.
+আমরা Obsidian-এ নলেজ ম্যানেজমেন্টের জন্য সেরা কমিউনিটি তৈরি করতে চাই। আমরা চাই প্রত্যেকে ভয় বা লজ্জা ছাড়াই সাহায্য চাইতে, অন্যদের সাহায্য করতে, এবং তাদের অভিজ্ঞতা শেয়ার করতে পারুক।
 
-In order to get there, all of our members are expected to be nice to each other in all interactions, whether it's on our Discord server or on our forum.
+সেখানে পৌঁছানোর জন্য, আমাদের সব সদস্যের কাছ থেকে আশা করা হয় যে তারা সব ধরনের মিথস্ক্রিয়ায় একে অপরের সাথে ভালো ব্যবহার করবে, তা আমাদের Discord সার্ভারে হোক বা আমাদের ফোরামে।
 
-"Be nice" is a vague instruction, though. To make sure we're on the same page what's nice and what's not, we've adopted the code of conduct above.
+"ভালো ব্যবহার করুন" একটি অস্পষ্ট নির্দেশনা, যদিও। কোনটি ভালো আর কোনটি নয় তা নিয়ে আমরা সবাই একমত আছি তা নিশ্চিত করতে, আমরা উপরের আচরণবিধি গ্রহণ করেছি।
 
-As the community grows, we can't rely on all members to be nice, although the vast majority of our members show exceptional respect towards each other. Adopting a more formal code of conduct — and enforcing it — helps maintain a vital and healthy community.
+কমিউনিটি বাড়ার সাথে সাথে, আমরা সব সদস্যের ভালো ব্যবহারের ওপর নির্ভর করতে পারি না, যদিও আমাদের অধিকাংশ সদস্য একে অপরের প্রতি অসাধারণ সম্মান প্রদর্শন করেন। একটি আরও আনুষ্ঠানিক আচরণবিধি গ্রহণ করা — এবং তা প্রয়োগ করা — একটি প্রাণবন্ত ও সুস্থ কমিউনিটি বজায় রাখতে সাহায্য করে।
 
-## Report violations
+## লঙ্ঘন রিপোর্ট করুন
 
-The Code of Conduct is enforced by our moderators, but we can’t monitor every interaction across the official Obsidian community channels. That’s why we rely on members like you to help us maintain a respectful and welcoming space by reporting any violations you witness.
+আচরণবিধি আমাদের মডারেটরদের দ্বারা প্রয়োগ করা হয়, তবে আমরা অফিসিয়াল Obsidian কমিউনিটি চ্যানেলগুলোতে প্রতিটি মিথস্ক্রিয়া পর্যবেক্ষণ করতে পারি না। এই কারণেই আপনার মতো সদস্যদের ওপর আমরা নির্ভর করি, যাতে আপনি প্রত্যক্ষ করা যেকোনো লঙ্ঘন রিপোর্ট করে আমাদের একটি সম্মানজনক ও স্বাগত জানানোর মতো পরিবেশ বজায় রাখতে সাহায্য করেন।
 
-Even if you’re not directly involved, you’re encouraged to report any concerning behavior. We’ll keep your identity as confidential as possible.
+আপনি সরাসরি জড়িত না থাকলেও, আপনাকে যেকোনো উদ্বেগজনক আচরণ রিপোর্ট করতে উৎসাহিত করা হয়। আমরা আপনার পরিচয় যতটা সম্ভব গোপন রাখব।
 
-If your report is related to a security concern with Obsidian itself, please [[Help and support#Contact Obsidian support|email Obsidian support]] directly.
+আপনার রিপোর্ট যদি Obsidian নিজের কোনো নিরাপত্তা উদ্বেগের সাথে সম্পর্কিত হয়, তাহলে সরাসরি [[Help and support#Contact Obsidian support|Obsidian সহায়তায় ইমেইল করুন]]।
 
-### Report on Discord
+### Discord-এ রিপোর্ট করুন
 
-In any channel (preferably the one where the issue occurred), type:
-`/moderation report @username [brief reason here]` Your message will disappear immediately, and a report will be sent to the moderation team.
+যেকোনো চ্যানেলে (পছন্দনীয়ভাবে যেখানে সমস্যাটি ঘটেছে), লিখুন:
+`/moderation report @username [সংক্ষিপ্ত কারণ এখানে লিখুন]` আপনার বার্তা সাথে সাথে অদৃশ্য হয়ে যাবে, এবং মডারেশন টিমের কাছে একটি রিপোর্ট পাঠানো হবে।
 
-You can also use the Discord App Launcher button (the four-shapes icon in the chat bar) to access Carl-bot’s moderation commands if you’re unsure of the exact syntax.
+আপনি যদি সঠিক সিনট্যাক্স নিয়ে নিশ্চিত না হন, তাহলে Carl-bot-এর মডারেশন কমান্ডগুলো অ্যাক্সেস করতে Discord App Launcher বাটনও (চ্যাট বারে থাকা চার-আকৃতির আইকন) ব্যবহার করতে পারেন।
 
-If the `/moderation report` command doesn’t work, you can also send a direct message to the **OMG Moderators** bot. Just make sure your DMs are enabled for the server so the bot can respond.
+`/moderation report` কমান্ড কাজ না করলে, আপনি **OMG Moderators** বটকে সরাসরি একটি বার্তাও পাঠাতে পারেন। শুধু নিশ্চিত করুন যে সার্ভারের জন্য আপনার DM চালু আছে, যাতে বট সাড়া দিতে পারে।
 
-### Report on the forum
+### ফোরামে রিপোর্ট করুন
 
-Please flag the relevant conversation with a reason, and our moderators will investigate.
+অনুগ্রহ করে সংশ্লিষ্ট কথোপকথনটি একটি কারণসহ ফ্ল্যাগ করুন, এবং আমাদের মডারেটররা তা তদন্ত করবেন।
 
-## Enforcement
+## প্রয়োগ
 
-> [!abstract] Summary
-> A verified serious offense results in an immediate ban.
-> A verified other offense results in a warning; after that a second verified violation results in a ban.
+> [!abstract] সারসংক্ষেপ
+> একটি যাচাইকৃত গুরুতর অপরাধের ফলে সাথে সাথে নিষেধাজ্ঞা দেওয়া হয়।
+> একটি যাচাইকৃত অন্যান্য অপরাধের ফলে একটি সতর্কতা দেওয়া হয়; তারপর দ্বিতীয় যাচাইকৃত লঙ্ঘনের ফলে নিষেধাজ্ঞা দেওয়া হয়।
 
-If our moderators witness or receive a report about [[#serious offenses]], we will contact the offender to have a conversation with them and verify what has happened. If verified, they will be removed from the official Obsidian community channels.
+আমাদের মডারেটররা যদি [[#serious offenses|গুরুতর অপরাধ]] প্রত্যক্ষ করেন বা এই সম্পর্কে কোনো রিপোর্ট পান, তাহলে আমরা অপরাধীর সাথে যোগাযোগ করে তার সাথে কথা বলব এবং কী ঘটেছে তা যাচাই করব। যাচাই হয়ে গেলে, তাদের অফিসিয়াল Obsidian কমিউনিটি চ্যানেল থেকে সরিয়ে দেওয়া হবে।
 
-If our moderators witness or receive a report about [[#other offenses]], we will contact the member involved to explain why their behavior was unacceptable, and warn them that a second code of conduct violation will result in us removing them from the official Obsidian community channels.
+আমাদের মডারেটররা যদি [[#other offenses|অন্যান্য অপরাধ]] প্রত্যক্ষ করেন বা এই সম্পর্কে কোনো রিপোর্ট পান, তাহলে আমরা সংশ্লিষ্ট সদস্যের সাথে যোগাযোগ করে তাদের আচরণ কেন গ্রহণযোগ্য নয় তা ব্যাখ্যা করব এবং তাদের সতর্ক করব যে দ্বিতীয় আচরণবিধি লঙ্ঘনের ফলে আমরা তাদের অফিসিয়াল Obsidian কমিউনিটি চ্যানেল থেকে সরিয়ে দেব।
 
-## Appealing a ban
+## নিষেধাজ্ঞার আপিল
 
-If you believe you were banned in error, you may [[Help and support#Contact Obsidian support|contact Obsidian support]] with your Discord, Forum, or Reddit username, along with the date of the ban. A member of the Obsidian team will review your case with the moderating team and provide a decision once the review is complete.
+আপনি যদি মনে করেন ভুলবশত আপনাকে নিষিদ্ধ করা হয়েছে, তাহলে আপনি আপনার Discord, ফোরাম, বা Reddit ইউজারনেম এবং নিষেধাজ্ঞার তারিখসহ [[Help and support#Contact Obsidian support|Obsidian সহায়তার সাথে যোগাযোগ করতে]] পারেন। Obsidian টিমের একজন সদস্য মডারেটিং টিমের সাথে আপনার কেস পর্যালোচনা করবেন এবং পর্যালোচনা সম্পূর্ণ হলে একটি সিদ্ধান্ত জানাবেন।
 
-Please note that all appeal decisions are final and cannot be further appealed.
+অনুগ্রহ করে মনে রাখবেন যে সব আপিলের সিদ্ধান্ত চূড়ান্ত এবং এর বিরুদ্ধে আর আপিল করা যাবে না।
 
-## Credits
+## কৃতিত্ব
 
-Our Code of Conduct is heavily based on [Recurse Center's Code of Conduct](https://www.recurse.com/code-of-conduct).
+আমাদের আচরণবিধি মূলত [Recurse Center-এর আচরণবিধির](https://www.recurse.com/code-of-conduct) ওপর ভিত্তি করে তৈরি।

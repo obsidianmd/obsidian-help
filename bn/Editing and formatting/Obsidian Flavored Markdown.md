@@ -1,19 +1,18 @@
 ---
-localized: null
 permalink: obsidian-flavored-markdown
 publish: true
 mobile: true
-description: 'Learn about Obsidian Flavored Markdown, including supported extensions and how Markdown interacts with HTML elements.'
+description: 'Obsidian Flavored Markdown সম্পর্কে জানুন, এতে সমর্থিত এক্সটেনশন এবং Markdown কীভাবে HTML এলিমেন্টের সাথে সম্পর্কিত হয় সেসহ।'
 ---
 
-Obsidian strives for maximum capability without breaking any existing formats. As a result, we use a combination of flavors of [[Basic formatting syntax|Markdown]].
+Obsidian বিদ্যমান কোনো ফরম্যাট না ভেঙে সর্বোচ্চ সক্ষমতার জন্য চেষ্টা করে। ফলস্বরূপ, আমরা [[Basic formatting syntax|Markdown]]-এর বিভিন্ন ভার্সনের সমন্বয় ব্যবহার করি।
 
-Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), and [LaTeX](https://www.latex-project.org/). 
+Obsidian [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), এবং [LaTeX](https://www.latex-project.org/) সমর্থন করে। 
 
-> [!tip]- Markdown inside HTML
-> Obsidian does not render Markdown syntax inside HTML elements. This is an intentional design choice for performance optimization and to keep parser complexity low when managing large documents.
+> [!tip]- HTML-এর মধ্যে Markdown
+> Obsidian HTML এলিমেন্টের ভেতরে Markdown সিনট্যাক্স রেন্ডার করে না। এটি পারফরম্যান্স অপ্টিমাইজেশনের জন্য এবং বড় ডকুমেন্ট পরিচালনা করার সময় পার্সার জটিলতা কম রাখার জন্য একটি ইচ্ছাকৃত ডিজাইন সিদ্ধান্ত।
 >
-> For example, Markdown formatting like `**bold**` or `` `code` `` will not be processed inside `<div>`, `<span>`, `<table>`, or any other HTML tags.
+> উদাহরণস্বরূপ, `**bold**` বা `` `code` ``-এর মতো Markdown ফরম্যাটিং `<div>`, `<span>`, `<table>`, বা অন্য কোনো HTML ট্যাগের ভেতরে প্রক্রিয়াজাত হবে না।
 >
 > ```md
 > <div>
@@ -21,20 +20,20 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 > </div>
 > ```
 
-### Supported Markdown extensions
+### সমর্থিত Markdown এক্সটেনশন
 
 | Syntax          | Description                                                           |
 | --------------- | --------------------------------------------------------------------- |
 | `[[Link]]`      | [[Internal links]]                                                    |
 | `![[Link]]`     | [[Embed files]]                                                       |
-| `![[Link#^id]]` | [[Internal links#Link to a block in a note\|Block references]]        |
-| `^id`           | [[Internal links#Link to a block in a note\|Defining a block]]        |
-| `[^id]`         | [[Basic formatting syntax#Footnotes\|Footnotes]]                      |
-| `%%Text%%`      | [[Basic formatting syntax#Comments\|Comments]]                        |
-| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|Strikethroughs]] |
-| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|Highlights]]     |
-| `` ``` ``       | [[Basic formatting syntax#Code blocks\|Code blocks]]                  |
-| `- [ ]`         | [[Basic formatting syntax#Task lists\|Incomplete task]]               |
-| `- [x]`         | [[Basic formatting syntax#Task lists\|Completed task]]                |
+| `![[Link#^id]]` | [[Internal links#নোটে একটি ব্লকে লিঙ্ক করা\|ব্লক রেফারেন্স]]        |
+| `^id`           | [[Internal links#নোটে একটি ব্লকে লিঙ্ক করা\|একটি ব্লক নির্ধারণ করা]]        |
+| `[^id]`         | [[Basic formatting syntax#Footnotes\|ফুটনোট]]                      |
+| `%%Text%%`      | [[Basic formatting syntax#Comments\|কমেন্ট]]                        |
+| `~~Text~~`      | [[Basic formatting syntax#Bold, italics, highlights\|স্ট্রাইকথ্রু]] |
+| `==Text==`      | [[Basic formatting syntax#Bold, italics, highlights\|হাইলাইট]]     |
+| `` ``` ``       | [[Basic formatting syntax#Code blocks\|কোড ব্লক]]                  |
+| `- [ ]`         | [[Basic formatting syntax#Task lists\|অসম্পূর্ণ টাস্ক]]               |
+| `- [x]`         | [[Basic formatting syntax#Task lists\|সম্পূর্ণ টাস্ক]]                |
 | `> [!note]`     | [[Callouts]]                                                          |
-| (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |
+| (see link)      | [[Advanced formatting syntax#Tables\|টেবিল]]                         |

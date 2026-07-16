@@ -1,70 +1,69 @@
 ---
-localized: null
 permalink: early-access
 ---
 
-Get early access to upcoming releases by enabling _early access versions_. Early access versions are only available to users with a [[Catalyst license]].
+_আর্লি অ্যাক্সেস ভার্সন_ চালু করে আসন্ন রিলিজে আগেভাগে অ্যাক্সেস পান। আর্লি অ্যাক্সেস ভার্সন শুধুমাত্র [[Catalyst license]] থাকা ব্যবহারকারীদের জন্য উপলব্ধ।
 
-> [!warning] Warning
-> Early access versions are beta releases. They include new features but may be less stable. Don't enable early access versions if you prefer a more reliable experience.
+> [!warning] সতর্কবার্তা
+> আর্লি অ্যাক্সেস ভার্সন হলো বিটা রিলিজ। এগুলোতে নতুন ফিচার অন্তর্ভুক্ত থাকে, তবে এগুলো কম স্থিতিশীল হতে পারে। আপনি যদি অধিক নির্ভরযোগ্য অভিজ্ঞতা পছন্দ করেন, তাহলে আর্লি অ্যাক্সেস ভার্সন চালু করবেন না।
 > 
-> Be aware that community plugin and theme developers receive early access versions at the same time as everyone else. Be patient with developers who need to make updates to support new features.
+> মনে রাখবেন, কমিউনিটি প্লাগইন এবং থিম ডেভেলপাররা সবার মতো একই সময়ে আর্লি অ্যাক্সেস ভার্সন পান। নতুন ফিচার সমর্থন করার জন্য যেসব ডেভেলপারের আপডেট করতে হয়, তাদের ব্যাপারে ধৈর্য ধরুন।
 
-## Enable early access versions for desktop
+## ডেস্কটপের জন্য আর্লি অ্যাক্সেস ভার্সন চালু করুন
 
-To receive early access versions as soon as they're available, follow these steps:
+আর্লি অ্যাক্সেস ভার্সন উপলব্ধ হওয়ার সাথে সাথে পেতে, এই ধাপগুলো অনুসরণ করুন:
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your Account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Once signed in, return to **[[Settings]]**.
-7. In the sidebar, select **General**.
-8. Under **App**, enable **Receive early access versions**.
-9. Click **Check for updates** and then **Relaunch**.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **General** নির্বাচন করুন।
+3. **Account → Your Account**-এর অধীনে, **Log in** নির্বাচন করুন।
+4. **Email**-এ, আপনার ইমেইল লিখুন।
+5. **Password**-এ, আপনার পাসওয়ার্ড লিখুন।
+6. সাইন ইন হয়ে গেলে, **[[Settings]]**-এ ফিরে যান।
+7. সাইডবারে, **General** নির্বাচন করুন।
+8. **App**-এর অধীনে, **Receive early access versions** চালু করুন।
+9. **Check for updates** এবং তারপর **Relaunch** ক্লিক করুন।
 
-## Install early access versions on mobile devices
+## মোবাইল ডিভাইসে আর্লি অ্যাক্সেস ভার্সন ইনস্টল করুন
 
-To find instructions on how to install early access versions on your mobile device, follow these steps:
+আপনার মোবাইল ডিভাইসে আর্লি অ্যাক্সেস ভার্সন কীভাবে ইনস্টল করবেন তার নির্দেশাবলী খুঁজে পেতে, এই ধাপগুলো অনুসরণ করুন:
 
-1. Download and install [Discord](<https://discord.com>).
-2. Join the [Obsidian Discord server](https://discord.gg/obsidianmd).
-3. [[Catalyst license#Get your Discord badge|Get your Discord badge]] to access insider channels.
-4. In the `#insider-welcome` channel, you will find instructions for accessing your download based on your device type.
+1. [Discord](<https://discord.com>) ডাউনলোড ও ইনস্টল করুন।
+2. [Obsidian Discord সার্ভারে](https://discord.gg/obsidianmd) যোগ দিন।
+3. ইনসাইডার চ্যানেলগুলোতে অ্যাক্সেস পেতে [[Catalyst license#Get your Discord badge|আপনার Discord ব্যাজ নিন]]।
+4. `#insider-welcome` চ্যানেলে, আপনার ডিভাইসের ধরন অনুযায়ী ডাউনলোড অ্যাক্সেস করার নির্দেশাবলী পাবেন।
 
-## Report issues and other feedback
+## সমস্যা এবং অন্যান্য মতামত রিপোর্ট করুন
 
-If you discover an issue in an early access version, consider reporting it to the Obsidian team. Before you report an issue, search the [forum](https://forum.obsidian.md/) or Discord to see if someone has already reported it.
+আপনি যদি কোনো আর্লি অ্যাক্সেস ভার্সনে কোনো সমস্যা খুঁজে পান, তাহলে তা Obsidian টিমকে রিপোর্ট করার কথা বিবেচনা করুন। কোনো সমস্যা রিপোর্ট করার আগে, ইতিমধ্যে কেউ এটি রিপোর্ট করেছেন কিনা তা দেখতে [ফোরাম](https://forum.obsidian.md/) অথবা Discord-এ অনুসন্ধান করুন।
 
-To report an issue, use one of the following channels:
+একটি সমস্যা রিপোর্ট করতে, নিচের যেকোনো একটি মাধ্যম ব্যবহার করুন:
 
-- On Discord, report the issue in the respective `#insider-release` channel.
-- In the forum, create a new topic under [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
+- Discord-এ, সংশ্লিষ্ট `#insider-release` চ্যানেলে সমস্যাটি রিপোর্ট করুন।
+- ফোরামে, [Bug reports](https://forum.obsidian.md/c/bug-reports/7)-এর অধীনে একটি নতুন টপিক তৈরি করুন।
 
-When you report an issue, include the build version and the OS you're running it on. You can find the build version under **[[Settings]] → About → App → Current version**.
+কোনো সমস্যা রিপোর্ট করার সময়, বিল্ড ভার্সন এবং আপনি যে OS-এ এটি চালাচ্ছেন তা অন্তর্ভুক্ত করুন। আপনি **[[Settings]] → About → App → Current version**-এর অধীনে বিল্ড ভার্সন খুঁজে পেতে পারেন।
 
-## Switch back to public versions on desktop
+## ডেস্কটপে পাবলিক ভার্সনে ফিরে যান
 
-To switch back to using public versions (not early access) on desktop:
+ডেস্কটপে পাবলিক ভার্সন (আর্লি অ্যাক্সেস নয়) ব্যবহারে ফিরে যেতে:
 
-1. Disable early access versions.
-   1. Open **[[Settings]]**.
-   2. In the sidebar, select **General**.
-   3. Under **App**, disable **Receive early access versions**.
-2. Close Obsidian.
-3. Delete the `obsidian-VERSION.asar` file, where `VERSION` is the Obsidian version.
+1. আর্লি অ্যাক্সেস ভার্সন বন্ধ করুন।
+   1. **[[Settings]]** খুলুন।
+   2. সাইডবারে, **General** নির্বাচন করুন।
+   3. **App**-এর অধীনে, **Receive early access versions** বন্ধ করুন।
+2. Obsidian বন্ধ করুন।
+3. `obsidian-VERSION.asar` ফাইলটি মুছে ফেলুন, যেখানে `VERSION` হলো Obsidian ভার্সন।
    - Windows: `%APPDATA%\obsidian\obsidian-VERSION.asar`
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
-4. Restart Obsidian.
+4. Obsidian পুনরায় চালু করুন।
 
-## Switch back to public versions on mobile
+## মোবাইলে পাবলিক ভার্সনে ফিরে যান
 
-To switch back to using public versions (not early access) on mobile:
+মোবাইলে পাবলিক ভার্সন (আর্লি অ্যাক্সেস নয়) ব্যবহারে ফিরে যেতে:
 
-1. Back up your vault data
-2. Uninstall Obsidian
-3. Reinstall Obsidian either from the Play Store or Apple App store
-4. Restore your vault data from your backups
-5. Open Obsidian
+1. আপনার ভল্টের ডেটা ব্যাকআপ করুন
+2. Obsidian আনইনস্টল করুন
+3. Play Store অথবা Apple App Store থেকে Obsidian পুনরায় ইনস্টল করুন
+4. আপনার ব্যাকআপ থেকে ভল্টের ডেটা পুনরুদ্ধার করুন
+5. Obsidian খুলুন

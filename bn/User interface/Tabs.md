@@ -1,124 +1,123 @@
 ---
-localized: null
 permalink: tabs
 publish: true
 mobile: true
-description: 'Learn how to open, organize, and manage tabs in Obsidian, including pinning, stacking, and linked views.'
+description: 'Obsidian-এ ট্যাব পিন করা, স্ট্যাক করা এবং লিঙ্কড ভিউ সহ, খোলা, সংগঠিত করা এবং পরিচালনা করার পদ্ধতি জানুন।'
 ---
 
-Tabs in Obsidian work much like tabs in other apps, such as web browsers.
+Obsidian-এর ট্যাবগুলো ওয়েব ব্রাউজারের মতো অন্যান্য অ্যাপের ট্যাবের মতোই কাজ করে।
 
-You can open as many tabs as you want in Obsidian. You can also arrange tabs to create custom layouts that persist until the next time you open the app.
+আপনি Obsidian-এ যত খুশি ট্যাব খুলতে পারেন। আপনি পরবর্তীতে যতবার অ্যাপ খুলবেন ততক্ষণ পর্যন্ত টিকে থাকা কাস্টম লেআউট তৈরি করতে ট্যাবও সাজাতে পারেন।
 
-> [!note] Mobile tabs
-> On mobile, you can manage open tabs from the tab counter in the [[Mobile app#Navigation bar|Navigation bar]].
+> [!note] মোবাইল ট্যাব
+> মোবাইলে, আপনি [[Mobile app#Navigation bar|নেভিগেশন বারের]] ট্যাব কাউন্টার থেকে খোলা ট্যাব পরিচালনা করতে পারেন।
 
-## Open a new tab
+## নতুন ট্যাব খোলা
 
-At the top of the application window, next to the last tab on the right, select **New tab** ![[lucide-plus.svg#icon]]. Or, use a keyboard shortcut:
+অ্যাপ্লিকেশন উইন্ডোর শীর্ষে, ডান দিকের শেষ ট্যাবের পাশে, **New tab** ![[lucide-plus.svg#icon]] নির্বাচন করুন। অথবা, একটি কীবোর্ড শর্টকাট ব্যবহার করুন:
 
-- **Windows and Linux:** `Ctrl+t`
+- **Windows এবং Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
 
-## Open a link
+## একটি লিঙ্ক খোলা
 
-Select a link in Obsidian to open it in the active tab.
+সক্রিয় ট্যাবে একটি লিঙ্ক খুলতে Obsidian-এ সেটি নির্বাচন করুন।
 
-To open a link in a new tab, press `Ctrl` (or `Cmd` on macOS) and select the link.
+কোনো লিঙ্ক নতুন ট্যাবে খুলতে, `Ctrl` (বা macOS-এ `Cmd`) চেপে ধরে লিঙ্কটি নির্বাচন করুন।
 
-The following are all the modifier keys you can use to open links in various ways:
+লিঙ্ক বিভিন্নভাবে খুলতে আপনি নিম্নলিখিত মডিফায়ার কী ব্যবহার করতে পারেন:
 
-|Action|MacOS|Windows/Linux|
+|অ্যাকশন|MacOS|Windows/Linux|
 |---|---|---|
-|**Navigate**|_None_|_None_|
-|**New Tab**|`⌘` (+ `Shift` in Source Mode)|`Ctrl` (+ `Shift` in Source Mode)|
+|**Navigate**|_কোনোটি নয়_|_কোনোটি নয়_|
+|**New Tab**|`⌘` (+ Source Mode-এ `Shift`)|`Ctrl` (+ Source Mode-এ `Shift`)|
 |**New Tab Group**|`⌘` `⌥`| `Ctrl` `Alt`|
 |**New Window**|`⌘` `⌥` `Shift`|`Ctrl` `Alt` `Shift`|
 
-## Organize your tabs and windows
+## আপনার ট্যাব এবং উইন্ডো সংগঠিত করা
 
-Every tab belongs to a _tab group_. You can drag and drop tabs to rearrange them within a tab group, move them to a different tab group, or create a new tab group. On desktop, you can drag tabs out of their window to open them in a separate [[Pop-out windows|pop-out window]].
+প্রতিটি ট্যাব একটি _ট্যাব গ্রুপের_ অন্তর্গত। আপনি ট্যাব গ্রুপের মধ্যে ট্যাবগুলো পুনর্বিন্যাস করতে, একটি ভিন্ন ট্যাব গ্রুপে সরাতে, বা একটি নতুন ট্যাব গ্রুপ তৈরি করতে ড্র্যাগ ও ড্রপ করতে পারেন। ডেস্কটপে, আপনি একটি আলাদা [[Pop-out windows|পপ-আউট উইন্ডোতে]] খুলতে তাদের উইন্ডো থেকে ট্যাব বাইরে ড্র্যাগ করতে পারেন।
 
-Tabs in sidebars only show the icon. Hover over the icon to show a tooltip with the tab title.
+সাইডবারের ট্যাবগুলো শুধুমাত্র আইকন দেখায়। ট্যাবের শিরোনাম সহ একটি টুলটিপ দেখতে আইকনের ওপর হোভার করুন।
 
-### Arrange tabs
+### ট্যাব সাজানো
 
-To change the order of your tabs, drag the tab along the tabs in the tab group.
+আপনার ট্যাবের ক্রম পরিবর্তন করতে, ট্যাব গ্রুপের মধ্যে ট্যাবটিকে ড্র্যাগ করুন।
 
-As you drag a tab, _drop zones_—areas onto which you can move the tab—become highlighted. The drop zone determines where to insert the tab. Some tabs can only be in one of the sidebars.
+আপনি একটি ট্যাব ড্র্যাগ করার সময়, _ড্রপ জোন_ — যেসব এলাকায় আপনি ট্যাবটি সরাতে পারেন — হাইলাইট হয়ে ওঠে। ড্রপ জোনটি নির্ধারণ করে ট্যাবটি কোথায় সন্নিবেশিত হবে। কিছু ট্যাব শুধুমাত্র সাইডবারগুলোর একটিতেই থাকতে পারে।
 
-### Split a tab group
+### একটি ট্যাব গ্রুপ বিভক্ত করা
 
-Right-click a tab and select **Split right** or **Split down** to create a new tab group with that tab.
+সেই ট্যাব দিয়ে একটি নতুন ট্যাব গ্রুপ তৈরি করতে একটি ট্যাবে রাইট-ক্লিক করে **Split right** বা **Split down** নির্বাচন করুন।
 
-You can also split a tab group by dragging a tab to the bottom of another tab.
+আপনি অন্য ট্যাবের নিচে একটি ট্যাব ড্র্যাগ করেও একটি ট্যাব গ্রুপ বিভক্ত করতে পারেন।
 
-### Resize a tab group
+### একটি ট্যাব গ্রুপের আকার পরিবর্তন করা
 
-To resize a tab group, hover the cursor over an edge of the tab group. The edge becomes highlighted when it can be dragged to resize.
+একটি ট্যাব গ্রুপের আকার পরিবর্তন করতে, ট্যাব গ্রুপের কোনো প্রান্তের ওপর কার্সার নিয়ে যান। প্রান্তটি হাইলাইট হয়ে ওঠে যখন সেটি আকার পরিবর্তনের জন্য ড্র্যাগ করা যায়।
 
-You can resize sidebars similarly to make more space for the tab groups in the middle.
+মাঝখানের ট্যাব গ্রুপের জন্য আরও জায়গা তৈরি করতে আপনি একইভাবে সাইডবারের আকারও পরিবর্তন করতে পারেন।
 
-### Move tab to a new window
+### একটি ট্যাব নতুন উইন্ডোতে সরানো
 
-**Drag and drop:**
+**ড্র্যাগ ও ড্রপ:**
 
-- Select and drag the tab outside of the application window to open it in a new window.
+- অ্যাপ্লিকেশন উইন্ডোর বাইরে একটি নতুন উইন্ডোতে খুলতে ট্যাবটি নির্বাচন করে বাইরে ড্র্যাগ করুন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-- Open the Command Palette, and select **Move current tab to new window**.
+- কমান্ড প্যালেট খুলুন, এবং **Move current tab to new window** নির্বাচন করুন।
 
-### Move a tab to a different window
+### একটি ট্যাব ভিন্ন উইন্ডোতে সরানো
 
-To move a tab to another existing window, drag the tab to the window you want to move it to.
+একটি ট্যাব অন্য বিদ্যমান উইন্ডোতে সরাতে, ট্যাবটি সেই উইন্ডোতে ড্র্যাগ করুন যেখানে আপনি সেটি সরাতে চান।
 
-### Pin a tab
+### একটি ট্যাব পিন করা
 
-To pin a tab in the main editor, right-click the tab and select **Pin**. Links in a pinned tab always open in a separate tab.
+মূল এডিটরে একটি ট্যাব পিন করতে, ট্যাবে রাইট-ক্লিক করে **Pin** নির্বাচন করুন। একটি পিন করা ট্যাবের লিঙ্কগুলো সবসময় একটি আলাদা ট্যাবে খোলে।
 
-To unpin a pinned tab in the main editor, right-click the tab and select **Unpin**.
+মূল এডিটরে একটি পিন করা ট্যাব আনপিন করতে, ট্যাবে রাইট-ক্লিক করে **Unpin** নির্বাচন করুন।
 
-To pin or unpin a tab in the sidebar, see [[Sidebar#Pin tabs|pinning tabs in the sidebar]].
+সাইডবারে একটি ট্যাব পিন বা আনপিন করতে, [[Sidebar#Pin tabs|সাইডবারে ট্যাব পিন করা]] দেখুন।
 
-## Switch to a different tab
+## একটি ভিন্ন ট্যাবে সুইচ করা
 
-Select a tab to switch to it. Or, use a keyboard shortcut:
+একটি ট্যাবে সুইচ করতে সেটি নির্বাচন করুন। অথবা, একটি কীবোর্ড শর্টকাট ব্যবহার করুন:
 
-| Switch To                 | MacOS            | Windows/Linux        |
+| যে ট্যাবে সুইচ করবেন           | MacOS            | Windows/Linux        |
 |---------------------------|------------------|----------------------|
-| **Next tab**              | `⌃`+`⇥`         | `Ctrl`+`Tab`         |
-| **Previous tab**          | `⌃`+`⇧`+`⇥`    | `Ctrl`+`Shift`+`Tab` |
-| **First tab on the left** | `⌘`+`1`          | `Ctrl`+`1`           |
-| **2nd to 8th tab**        | `⌘`+`2`..`8`     | `Ctrl`+`2`..`8`      |
-| **Last tab on the right** | `⌘`+`9`          | `Ctrl`+`9`           |
-| **Recently closed tab**   | `⌘`+`⇧`+`t`     | `Ctrl`+`Shift`+`t`   |
+| **পরবর্তী ট্যাব**              | `⌃`+`⇥`         | `Ctrl`+`Tab`         |
+| **পূর্ববর্তী ট্যাব**          | `⌃`+`⇧`+`⇥`    | `Ctrl`+`Shift`+`Tab` |
+| **বাঁ দিকের প্রথম ট্যাব** | `⌘`+`1`          | `Ctrl`+`1`           |
+| **২য় থেকে ৮ম ট্যাব**        | `⌘`+`2`..`8`     | `Ctrl`+`2`..`8`      |
+| **ডান দিকের শেষ ট্যাব** | `⌘`+`9`          | `Ctrl`+`9`           |
+| **সম্প্রতি বন্ধ করা ট্যাব**   | `⌘`+`⇧`+`t`     | `Ctrl`+`Shift`+`t`   |
 
-## Stack tab groups
+## ট্যাব গ্রুপ স্ট্যাক করা
 
-You can stack tabs to slide them over other tabs in the same tab group.
+আপনি একই ট্যাব গ্রুপের অন্য ট্যাবের ওপর স্লাইড করতে ট্যাবগুলো স্ট্যাক করতে পারেন।
 
-To stack notes, select the down arrow at the upper right corner of the tab group, and then select **Stack notes**.
+নোট স্ট্যাক করতে, ট্যাব গ্রুপের ওপরের ডান কোণে নিচের দিকের তীর নির্বাচন করুন, তারপর **Stack notes** নির্বাচন করুন।
 
 ![tab-stacks](https://user-images.githubusercontent.com/693981/188205363-0f24b2a5-3706-4a8c-b38b-7a66baa68ce6.gif)
 
-Tab stacks are inspired by [Andy Matuschak's sliding notes](https://notes.andymatuschak.org/).
+ট্যাব স্ট্যাকগুলো [Andy Matuschak-এর স্লাইডিং নোট থেকে](https://notes.andymatuschak.org/) অনুপ্রাণিত।
 
-## Linked views
+## লিঙ্কড ভিউ
 
-_Linked views_ are tabs that reference a different tab. When the content of the referenced tab changes, the linked view changes as well.
+_লিঙ্কড ভিউ_ হলো এমন ট্যাব যা একটি ভিন্ন ট্যাবকে রেফারেন্স করে। রেফারেন্স করা ট্যাবের কনটেন্ট পরিবর্তিত হলে, লিঙ্কড ভিউও পরিবর্তিত হয়।
 
-For note tabs, you can use the following plugins as linked views:
+নোট ট্যাবের জন্য, আপনি নিম্নলিখিত প্লাগইনগুলো লিঙ্কড ভিউ হিসেবে ব্যবহার করতে পারেন:
 
-- [[Graph view]] (local)
-- [[Backlinks]]
-- [[Outline]]
+- [[Graph view|গ্রাফ ভিউ]] (লোকাল)
+- [[Backlinks|ব্যাকলিঙ্ক]]
+- [[Outline|রূপরেখা]]
 
-To open a linked view for a note tab:
+একটি নোট ট্যাবের জন্য লিঙ্কড ভিউ খুলতে:
 
-1. Select **More options** ![[lucide-more-horizontal.svg#icon]] in the upper right corner of the note.
-2. Under **Open linked view**, select the linked view you want to open.
+1. নোটের ওপরের ডান কোণে **More options** ![[lucide-more-horizontal.svg#icon]] নির্বাচন করুন।
+2. **Open linked view**-এর অধীনে, আপনি যে লিঙ্কড ভিউটি খুলতে চান তা নির্বাচন করুন।
 
-## Save layouts
+## লেআউট সংরক্ষণ করা
 
-You can save and restore window layouts using the [[Workspaces]] plugin.
+আপনি [[Workspaces]] প্লাগইন ব্যবহার করে উইন্ডোর লেআউট সংরক্ষণ ও পুনরুদ্ধার করতে পারেন।

@@ -1,27 +1,26 @@
 ---
-localized: null
 permalink: html
 publish: true
 mobile: true
-description: 'Learn how to use HTML in Obsidian, including limitations with Markdown rendering, and HTML block requirements.'
+description: 'Markdown রেন্ডারিংয়ের সীমাবদ্ধতা এবং HTML ব্লকের প্রয়োজনীয়তাসহ, Obsidian-এ কীভাবে HTML ব্যবহার করবেন তা জানুন।'
 ---
 
-Obsidian supports HTML to allow you to display your notes the way you want, or even [[Embed web pages|embed web pages]]. Allowing HTML inside your notes comes with risks. To prevent malicious code from doing harm, Obsidian _sanitizes_ any HTML in your notes. 
+Obsidian HTML সমর্থন করে, যাতে আপনি আপনার নোট আপনার পছন্দমতো প্রদর্শন করতে পারেন, এমনকি [[Embed web pages|ওয়েব পেজ এমবেড]]ও করতে পারেন। আপনার নোটের মধ্যে HTML অনুমোদন করার সাথে ঝুঁকিও যুক্ত থাকে। ক্ষতিকর কোড যেন ক্ষতি করতে না পারে তা প্রতিরোধ করতে, Obsidian আপনার নোটের যেকোনো HTML _স্যানিটাইজ_ করে। 
 
 > [!example] 
-> The `<script>` element normally lets you run JavaScript whenever it loads. If Obsidian didn't sanitize HTML, an attacker could convince you to paste a text containing JavaScript that extracts sensitive information from your computer and sends it back to them.
+> `<script>` এলিমেন্ট সাধারণত লোড হওয়ার সময় যেকোনো JavaScript চালানোর অনুমতি দেয়। যদি Obsidian HTML স্যানিটাইজ না করত, তাহলে একজন আক্রমণকারী আপনাকে এমন একটি টেক্সট পেস্ট করতে রাজি করাতে পারত যাতে JavaScript থাকে যা আপনার কম্পিউটার থেকে সংবেদনশীল তথ্য বের করে তাদের কাছে ফেরত পাঠায়।
 
-That said, since Markdown syntax does not support all forms of styling, using sanitized HTML can be yet another way of enhancing the quality of your notes. We've included some of the more common usages of HTML.
+তা সত্ত্বেও, যেহেতু Markdown সিনট্যাক্স সব ধরনের স্টাইলিং সমর্থন করে না, তাই স্যানিটাইজড HTML ব্যবহার করা আপনার নোটের মান বাড়ানোর আরেকটি উপায় হতে পারে। আমরা HTML-এর কিছু বেশি প্রচলিত ব্যবহার অন্তর্ভুক্ত করেছি।
 
-## HTML limitations
+## HTML-এর সীমাবদ্ধতা
 
-Obsidian has specific limitations when using HTML in your notes:
+আপনার নোটে HTML ব্যবহার করার সময় Obsidian-এর নির্দিষ্ট সীমাবদ্ধতা রয়েছে:
 
-### No Markdown inside HTML
+### HTML-এর ভেতরে Markdown নেই
 
-Obsidian does not render Markdown syntax inside HTML elements. This is an intentional design choice for performance optimization and to keep parser complexity low when managing large documents.
+Obsidian HTML এলিমেন্টের ভেতরে Markdown সিনট্যাক্স রেন্ডার করে না। এটি পারফরম্যান্স অপ্টিমাইজেশনের জন্য এবং বড় ডকুমেন্ট পরিচালনা করার সময় পার্সার জটিলতা কম রাখার জন্য একটি ইচ্ছাকৃত ডিজাইন সিদ্ধান্ত।
 
-For example, this will not work as expected:
+উদাহরণস্বরূপ, এটি প্রত্যাশিতভাবে কাজ করবে না:
 
 ```md
 <div>
@@ -29,11 +28,11 @@ This **will not** be bold and this `will not` be code.
 </div>
 ```
 
-### HTML blocks must be self-contained
+### HTML ব্লক অবশ্যই স্বয়ংসম্পূর্ণ হতে হবে
 
-HTML blocks must be complete and cannot contain blank lines within them. Blank lines will break the HTML block.
+HTML ব্লক অবশ্যই সম্পূর্ণ হতে হবে এবং এর মধ্যে খালি লাইন থাকতে পারবে না। খালি লাইন HTML ব্লককে ভেঙে দেবে।
 
-This will work:
+এটি কাজ করবে:
 
 ```md
 <table>
@@ -43,7 +42,7 @@ This will work:
 </table>
 ```
 
-This will not work correctly:
+এটি সঠিকভাবে কাজ করবে না:
 
 ```md
 <table>
@@ -57,29 +56,29 @@ This will not work correctly:
 </table>
 ```
 
-### When Markdown appears to work in HTML
+### HTML-এ Markdown কাজ করছে বলে মনে হলে
 
-Some inline HTML tags like `<span>` or `<a>` have limited functionality and may appear to render Markdown, but this is not actually what's happening. The Markdown is being processed outside of the HTML context.
+`<span>` বা `<a>`-এর মতো কিছু ইনলাইন HTML ট্যাগের সীমিত কার্যকারিতা থাকে এবং মনে হতে পারে যে সেগুলো Markdown রেন্ডার করছে, কিন্তু আসলে এটি ঘটছে না। Markdown-টি HTML কনটেক্সটের বাইরে প্রক্রিয়াজাত হচ্ছে।
 
-For more details on how Obsidian handles Markdown, see [[Obsidian Flavored Markdown]].
+Obsidian কীভাবে Markdown পরিচালনা করে সে সম্পর্কে আরও বিস্তারিত জানতে, [[Obsidian Flavored Markdown]] দেখুন।
 
-## Common HTML usage
+## সাধারণ HTML ব্যবহার
 
-> [!info] More details on using `<iframe>` can be found in [[Embed web pages]].
+> [!info] `<iframe>` ব্যবহারের আরও বিস্তারিত [[Embed web pages]]-এ পাওয়া যাবে।
 
-### Comments
+### কমেন্ট
 
-[[Basic formatting syntax#Comments|Markdown comments]] are the preferred way of adding hidden comments within your notes. However some methods of converting Markdown notes, such as [Pandoc](https://pandoc.org), have limited support of Markdown comments. In those instances, you can use a `<!-- HTML Comment -->` instead!
+আপনার নোটে লুকানো কমেন্ট যোগ করার পছন্দের উপায় হলো [[Basic formatting syntax#Comments|Markdown কমেন্ট]]। তবে Markdown নোট রূপান্তরের কিছু পদ্ধতি, যেমন [Pandoc](https://pandoc.org), Markdown কমেন্টের সীমিত সমর্থন প্রদান করে। সেসব ক্ষেত্রে, আপনি পরিবর্তে `<!-- HTML Comment -->` ব্যবহার করতে পারেন!
 
-### Underline
+### আন্ডারলাইন
 
-If you need to quickly underline an item in your notes, you can use `<u>Example</u>` to create <u>your underlined text</u>.
+যদি আপনার নোটে দ্রুত কোনো আইটেম আন্ডারলাইন করার প্রয়োজন হয়, তাহলে আপনি <u>আপনার আন্ডারলাইন করা টেক্সট</u> তৈরি করতে `<u>Example</u>` ব্যবহার করতে পারেন।
 
 ### Span/Div
 
-Span and div tags can be used to apply custom classes from a [[CSS snippets|CSS snippet]], or custom defined styling, onto a selected area of text. For example, using `<span style="font-family: cursive">your text</span>` can allow you to quickly <span style="font-family: cursive">change your font</span>.
+Span এবং div ট্যাগ ব্যবহার করে [[CSS snippets|CSS স্নিপেট]] থেকে কাস্টম ক্লাস, অথবা কাস্টম নির্ধারিত স্টাইলিং, টেক্সটের একটি নির্বাচিত অংশে প্রয়োগ করা যায়। উদাহরণস্বরূপ, `<span style="font-family: cursive">your text</span>` ব্যবহার করে আপনি দ্রুত <span style="font-family: cursive">আপনার ফন্ট পরিবর্তন</span> করতে পারেন।
 
-## Strikethrough
+## স্ট্রাইকথ্রু
 
-Need to strike <s>some text</s>? Use `<s>this</s>` to strike it out.
+<s>কিছু টেক্সট</s> কেটে দিতে চান? এটিকে কেটে দিতে `<s>this</s>` ব্যবহার করুন।
 

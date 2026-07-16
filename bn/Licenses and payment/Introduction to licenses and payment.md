@@ -1,60 +1,59 @@
 ---
-localized: null
 permalink: payment
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian offers several services and licenses available for purchase.
+Obsidian কেনার জন্য বেশ কিছু সেবা ও লাইসেন্স প্রদান করে।
 
 - [[Introduction to Obsidian Sync|Obsidian Sync]]
-	- Sync notes across devices.
+	- ডিভাইসজুড়ে নোট সিঙ্ক করুন।
 - [[Introduction to Obsidian Publish|Obsidian Publish]]
-	- Publish notes to the web.
+	- নোট ওয়েবে প্রকাশ করুন।
 - [[Obsidian Credit]]
-	- Purchase and Gift Obsidian services.
+	- Obsidian সেবা কিনুন এবং উপহার দিন।
 - [[Commercial license]]
-	- Support Obsidian and become a featured organization.
+	- Obsidian-কে সমর্থন করুন এবং একটি ফিচার্ড প্রতিষ্ঠান হয়ে উঠুন।
 - [[Catalyst license]]
-	- Support Obsidian and get early access versions.
+	- Obsidian-কে সমর্থন করুন এবং আগাম অ্যাক্সেস সংস্করণ পান।
 
- [[Education and non-profit discount|Discounts]] are available for Obsidian Sync and Publish for educational and non-profit organizations. See our [[Refund policy]] for more information.
+ শিক্ষা ও অলাভজনক প্রতিষ্ঠানের জন্য Obsidian Sync এবং Publish-এ [[Education and non-profit discount|ছাড়]] পাওয়া যায়। আরও তথ্যের জন্য আমাদের [[Refund policy|ফেরত নীতি]] দেখুন।
 
-## Purchase a service or license
+## একটি সেবা বা লাইসেন্স কিনুন
 
-1. Log in or create [your Obsidian account](https://obsidian.md/account).
-2. Navigate to the section corresponding to the item you wish to purchase:
-    1. **Obsidian Sync** can be found in the **Sync** section.
-    2. **Obsidian Publish** can be found in the **Publish** section.
-    3. **Obsidian Credit** can be found in the **Billing** section.
-    4. **Commercial licenses** can be found in the **License** section.
-    5. **Catalyst licenses** can be found in the **Catalyst** section.
-3. Click the purple **Buy** button to proceed with your purchase.
+1. লগ ইন করুন বা [আপনার Obsidian অ্যাকাউন্ট](https://obsidian.md/account) তৈরি করুন।
+2. আপনি যে আইটেমটি কিনতে চান তার সংশ্লিষ্ট বিভাগে যান:
+    1. **Obsidian Sync** পাওয়া যাবে **Sync** বিভাগে।
+    2. **Obsidian Publish** পাওয়া যাবে **Publish** বিভাগে।
+    3. **Obsidian Credit** পাওয়া যাবে **Billing** বিভাগে।
+    4. **Commercial লাইসেন্স** পাওয়া যাবে **License** বিভাগে।
+    5. **Catalyst লাইসেন্স** পাওয়া যাবে **Catalyst** বিভাগে।
+3. আপনার ক্রয় প্রক্রিয়া চালিয়ে যেতে বেগুনি রঙের **Buy** বোতামে ক্লিক করুন।
 
-We accept the following payment methods: Stripe, PayPal, WeChat, and AliPay.
+আমরা নিম্নলিখিত পেমেন্ট পদ্ধতিগুলো গ্রহণ করি: Stripe, PayPal, WeChat, এবং AliPay।
 
-> [!info] PayPal and fees
-> PayPal purchases will be processed in Canadian Dollars (CAD). You may incur a foreign transaction fee from your card issuer, and PayPal may charge a currency conversion fee.
+> [!info] PayPal এবং ফি
+> PayPal-এর মাধ্যমে করা ক্রয় কানাডিয়ান ডলারে (CAD) প্রক্রিয়া করা হবে। আপনার কার্ড ইস্যুকারী প্রতিষ্ঠান থেকে একটি বিদেশি লেনদেন ফি চার্জ হতে পারে, এবং PayPal একটি মুদ্রা রূপান্তর ফি চার্জ করতে পারে।
 
-After completing your payment, you will receive a receipt from the service through which you made the purchase.
+আপনার পেমেন্ট সম্পন্ন হওয়ার পর, আপনি যে সেবার মাধ্যমে ক্রয়টি করেছেন তার কাছ থেকে একটি রসিদ পাবেন।
 
-## Generate an invoice
+## একটি ইনভয়েস তৈরি করুন
 
-Obsidian generates an invoice for all purchases within your account. To retrieve your invoice:
+আপনার অ্যাকাউন্টের মধ্যে সব ক্রয়ের জন্য Obsidian একটি ইনভয়েস তৈরি করে। আপনার ইনভয়েস পেতে:
 
-1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
-2. Go to the **Billing** section.
-3. Next to **Invoices and refunds**, select **View**.
-    1. If multiple invoices are available, select the invoice you want to review and click **View** or **Download**.
+1. [আপনার Obsidian অ্যাকাউন্টে](https://obsidian.md/account/billing) লগ ইন করুন।
+2. **Billing** বিভাগে যান।
+3. **Invoices and refunds**-এর পাশে, **View** নির্বাচন করুন।
+    1. একাধিক ইনভয়েস উপলব্ধ থাকলে, আপনি যেটি পর্যালোচনা করতে চান সেটি নির্বাচন করুন এবং **View** বা **Download**-এ ক্লিক করুন।
 
-### Editing an invoice
+### একটি ইনভয়েস সম্পাদনা করা
 
-If you need to edit information on the invoice, such as the billing address or VAT number, follow these steps:
+আপনার যদি ইনভয়েসের তথ্য সম্পাদনা করার প্রয়োজন হয়, যেমন বিলিং ঠিকানা বা VAT নম্বর, তাহলে এই পদক্ষেপগুলো অনুসরণ করুন:
 
-1. Log in to [your Obsidian account](https://obsidian.md/account/billing).
-2. Navigate to the **Billing** section.
-3. Next to **Invoices and refunds**, select **View**.
-    1. If multiple invoices are available, select the invoice you want to review and click **View**.
-4. In the **Bill To:** section, the text box will be editable.
-5. Make your edits, and then you can download your updated invoice.
+1. [আপনার Obsidian অ্যাকাউন্টে](https://obsidian.md/account/billing) লগ ইন করুন।
+2. **Billing** বিভাগে যান।
+3. **Invoices and refunds**-এর পাশে, **View** নির্বাচন করুন।
+    1. একাধিক ইনভয়েস উপলব্ধ থাকলে, আপনি যেটি পর্যালোচনা করতে চান সেটি নির্বাচন করুন এবং **View**-এ ক্লিক করুন।
+4. **Bill To:** বিভাগে, টেক্সট বক্সটি সম্পাদনাযোগ্য হবে।
+5. আপনার সম্পাদনা করুন, এরপর আপনি আপনার হালনাগাদকৃত ইনভয়েসটি ডাউনলোড করতে পারবেন।
 

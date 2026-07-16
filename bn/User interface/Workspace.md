@@ -1,31 +1,30 @@
 ---
-localized: null
 permalink: workspace
 publish: true
 mobile: true
-description: Learn about the Obsidian workspace and its core components on desktop and mobile.
+description: ডেস্কটপ ও মোবাইলে Obsidian ওয়ার্কস্পেস এবং এর মূল উপাদান সম্পর্কে জানুন।
 ---
 
-The workspace is the main container for all the components that make up the Obsidian interface. It consists of different elements arranged around your notes, allowing you to customize how you view and interact with your content.
+ওয়ার্কস্পেস হলো Obsidian ইন্টারফেস গঠনকারী সব উপাদানের মূল কন্টেইনার। এটি আপনার নোটগুলোকে ঘিরে সাজানো বিভিন্ন উপাদান নিয়ে গঠিত, যা আপনাকে আপনার কনটেন্ট কীভাবে দেখবেন এবং তার সাথে কীভাবে ইন্টারঅ্যাক্ট করবেন তা কাস্টমাইজ করতে দেয়।
 
-## Desktop
+## ডেস্কটপ
 
-In the Obsidian desktop app the workspace includes:
+Obsidian ডেস্কটপ অ্যাপে ওয়ার্কস্পেসে অন্তর্ভুক্ত রয়েছে:
 
-- [[Ribbon]] running vertically on the left side of the app
-- [[Sidebar|Sidebars]] on the left and right side (can be collapsed)
-    - [[Sidebar#Tab groups|Sidebar tab groups]] (can be split vertically)
-    - [[Sidebar#Tabs|Sidebar tabs]]
-- [[Tabs#Organize your tabs and windows|Tab groups]] in the central content area (can be split vertically or horizontally)
+- অ্যাপের বাঁ পাশে উলম্বভাবে চলমান [[Ribbon|রিবন]]
+- বাঁ ও ডান পাশে [[Sidebar|সাইডবার]] (সংকুচিত করা যায়)
+    - [[Sidebar#Tab groups|সাইডবার ট্যাব গ্রুপ]] (উলম্বভাবে বিভক্ত করা যায়)
+    - [[Sidebar#Tabs|সাইডবার ট্যাব]]
+- কেন্দ্রীয় কনটেন্ট এলাকায় [[Tabs#Organize your tabs and windows|ট্যাব গ্রুপ]] (উলম্বভাবে বা অনুভূমিকভাবে বিভক্ত করা যায়)
     - [[Tabs]]
-- [[Status bar]] in the bottom right corner
+- নিচের-ডান কোণে [[Status bar|স্ট্যাটাস বার]]
 
-## Mobile
+## মোবাইল
 
-In the Obsidian mobile app the workspace includes:
+Obsidian মোবাইল অ্যাপে ওয়ার্কস্পেসে অন্তর্ভুক্ত রয়েছে:
 
-- [[Tabs]] managed from the tab counter in the [[Mobile app#Navigation bar|Navigation bar]]
-- [[Sidebar|Sidebars]] (opened using left and right swipe gestures)
-- [[Mobile app#Navigation bar|Navigation bar]] at the bottom of the screen
-- [[Ribbon|Ribbon menu]] in the Navigation bar (contains customizable actions)
-- [[Mobile app|Editor toolbar]] above the keyboard when editing
+- [[Mobile app#Navigation bar|নেভিগেশন বারের]] ট্যাব কাউন্টার থেকে পরিচালিত [[Tabs|ট্যাব]]
+- [[Sidebar|সাইডবার]] (বাঁ ও ডান সোয়াইপ জেসচার দিয়ে খোলা হয়)
+- স্ক্রিনের নিচে [[Mobile app#Navigation bar|নেভিগেশন বার]]
+- নেভিগেশন বারে [[Ribbon|রিবন মেনু]] (কাস্টমাইজযোগ্য অ্যাকশন থাকে)
+- সম্পাদনার সময় কীবোর্ডের ওপরে [[Mobile app|এডিটর টুলবার]]

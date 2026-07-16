@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: publish/analytics
 ---
-## Prerequisites
+## পূর্বশর্ত
 
-To use analytics on your [[Introduction to Obsidian Publish|Obsidian Publish]] site, you need a [[Custom domains|custom domain]].
+আপনার [[Introduction to Obsidian Publish|Obsidian Publish]] সাইটে অ্যানালিটিক্স ব্যবহার করতে হলে আপনার একটি [[Custom domains|কাস্টম ডোমেইন]] প্রয়োজন।
 
-> [!important] Important
-> Before you enable analytics, make sure that your local laws and regulations allow you to track your visitors. Depending the tools you use, you may need to add a consent banner to your site.
+> [!important] গুরুত্বপূর্ণ
+> অ্যানালিটিক্স চালু করার আগে নিশ্চিত করুন যে আপনার স্থানীয় আইন ও বিধিমালা আপনার দর্শকদের ট্র্যাক করার অনুমতি দেয়। আপনি যে টুল ব্যবহার করছেন তার উপর নির্ভর করে, আপনাকে আপনার সাইটে একটি সম্মতি ব্যানার (কনসেন্ট ব্যানার) যোগ করতে হতে পারে।
 
 ## Google Analytics
 
-To enable Google Analytics for your Obsidian Publish site:
+আপনার Obsidian Publish সাইটের জন্য Google Analytics চালু করতে:
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
-3. In **Google Analytics tracking code**, enter your tracking code.
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. **Publish changes** ডায়ালগে, **Change site options** ![[lucide-cog.svg#icon]]-এ ক্লিক করুন।
+3. **Google Analytics tracking code**-এ, আপনার ট্র্যাকিং কোড লিখুন।
 
-To use Google Tag Manager instead of Google Analytics, use custom JavaScript to add your own scripts.
+Google Analytics-এর পরিবর্তে Google Tag Manager ব্যবহার করতে, আপনার নিজের স্ক্রিপ্ট যোগ করতে কাস্টম JavaScript ব্যবহার করুন।
 
-## Plausible, Fathom, and other analytics services
+## Plausible, Fathom, এবং অন্যান্য অ্যানালিটিক্স সেবা
 
-You can add most analytics services to your site via your [[Customize your site|publish.js]] file. Make sure to replace `yourdomain.com` with your domain, and the script `src` with the script from your analytics provide.
+আপনি আপনার [[Customize your site|publish.js]] ফাইলের মাধ্যমে বেশিরভাগ অ্যানালিটিক্স সেবা আপনার সাইটে যোগ করতে পারেন। `yourdomain.com`-এর জায়গায় আপনার নিজের ডোমেইন এবং স্ক্রিপ্টের `src`-এর জায়গায় আপনার অ্যানালিটিক্স প্রোভাইডারের দেওয়া স্ক্রিপ্ট বসাতে ভুলবেন না।
 
-Here is an example using [Plausible Analytics](https://plausible.io/)
+এখানে [Plausible Analytics](https://plausible.io/) ব্যবহারের একটি উদাহরণ দেওয়া হলো
 
 ```js
 var analyticsScript = document.createElement('script');
@@ -33,7 +32,7 @@ analyticsScript.src = 'https://plausible.io/js/plausible.js';
 document.head.appendChild(analyticsScript);
 ```
 
- The same approach can be used for [Fathom Analytics](https://usefathom.com/). Note the change from `data-domain` to `data-site` — different analytics providers may have a different format for how the script should be inserted.
+ [Fathom Analytics](https://usefathom.com/)-এর জন্যও একই পদ্ধতি ব্যবহার করা যায়। লক্ষ্য করুন `data-domain`-এর জায়গায় `data-site` ব্যবহার করা হয়েছে — বিভিন্ন অ্যানালিটিক্স প্রোভাইডারের স্ক্রিপ্ট বসানোর ধরন ভিন্ন হতে পারে।
 
 ```javascript
 var fathom = analyticsScript.createElement('script');
@@ -43,6 +42,6 @@ analyticsScript.src = 'https://cdn.usefathom.com/script.js';
 document.head.appendChild(analyticsScript);
 ```
 
-## Troubleshooting
+## সমস্যা সমাধান
 
-To verify that your site is using your analytics service, disable any ad-blocking browser extensions, such as uBlock Origin, that may block the tracking script from running.
+আপনার সাইট আপনার অ্যানালিটিক্স সেবা ব্যবহার করছে কিনা যাচাই করতে, uBlock Origin-এর মতো যেকোনো বিজ্ঞাপন-ব্লকিং ব্রাউজার এক্সটেনশন বন্ধ করুন, যা ট্র্যাকিং স্ক্রিপ্ট চলতে বাধা দিতে পারে।

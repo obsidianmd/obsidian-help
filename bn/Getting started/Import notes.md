@@ -1,12 +1,11 @@
 ---
-localized: null
 permalink: import
 cssclasses:
   - list-cards
 ---
-Apps come and go, but your data should last. Obsidian uses non-proprietary plain text Markdown files stored locally on your device. You have total control over your data, which means you can use Obsidian offline and switch to another app easily if you ever need to.
+অ্যাপ আসে এবং যায়, কিন্তু আপনার ডেটা টিকে থাকা উচিত। Obsidian আপনার ডিভাইসে স্থানীয়ভাবে সংরক্ষিত অ-মালিকানাধীন প্লেইন টেক্সট Markdown ফাইল ব্যবহার করে। আপনার ডেটার উপর আপনার সম্পূর্ণ নিয়ন্ত্রণ আছে, যার মানে আপনি Obsidian অফলাইনে ব্যবহার করতে পারেন এবং প্রয়োজনে সহজেই অন্য অ্যাপে স্যুইচ করতে পারেন।
 
-## Import from other apps and file formats
+## অন্যান্য অ্যাপ এবং ফাইল ফরম্যাট থেকে আমদানি করুন
 
 - <span class="icon-app icon-notion"></span> [[Import from Notion|Notion]]
 - <span class="icon-app icon-onenote"></span> [[Import from Microsoft OneNote|Microsoft OneNote]]
@@ -23,11 +22,11 @@ Apps come and go, but your data should last. Obsidian uses non-proprietary plain
 - <span class="icon-app icon-md"></span> [[Import Textbundle files|Textbundle files]]
 - <span class="icon-app icon-md"></span> [[Import Zettelkasten notes|Zettelkasten notes]]
 
-## More formats
+## আরও ফরম্যাট
 
-Don't see your app? You can request it or contribute to the [open-source repository](https://github.com/obsidianmd/obsidian-importer) for the [[Importer]] plugin.
+আপনার অ্যাপটি দেখতে পাচ্ছেন না? আপনি এটির জন্য অনুরোধ করতে পারেন অথবা [[Importer]] প্লাগইনের জন্য [ওপেন-সোর্স রিপোজিটরিতে](https://github.com/obsidianmd/obsidian-importer) অবদান রাখতে পারেন।
 
-Additional guides have been shared by our community that may help you migrate to Obsidian: 
+আমাদের কমিউনিটি কর্তৃক শেয়ার করা অতিরিক্ত গাইড রয়েছে যা আপনাকে Obsidian-এ স্থানান্তরিত হতে সাহায্য করতে পারে:
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)

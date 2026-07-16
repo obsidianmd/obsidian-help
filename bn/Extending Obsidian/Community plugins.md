@@ -1,79 +1,78 @@
 ---
-localized: null
 permalink: community-plugins
 mobile: false
-description: Learn how to extend Obsidian with plugins built by the community.
+description: কমিউনিটি দ্বারা তৈরি প্লাগইন দিয়ে কীভাবে Obsidian প্রসারিত করবেন তা জানুন।
 ---
-Learn how to extend Obsidian with plugins built by the community. Use plugins to adapt Obsidian to fit your specific needs, such as support for additional file formats or integrating with a third-party service.
+কমিউনিটি দ্বারা তৈরি প্লাগইন দিয়ে কীভাবে Obsidian প্রসারিত করবেন তা জানুন। অতিরিক্ত ফাইল ফরম্যাটের জন্য সহায়তা বা তৃতীয়-পক্ষের কোনো সার্ভিসের সাথে একত্রীকরণের মতো আপনার নির্দিষ্ট চাহিদা অনুযায়ী Obsidian মানিয়ে নিতে প্লাগইন ব্যবহার করুন।
 
-> [!warning] Warning
-> Community plugins run third-party code on your behalf that could potentially do harm. To learn more about what the Obsidian team does to prevent harmful plugins, refer to [[Plugin security]].
+> [!warning] সতর্কতা
+> কমিউনিটি প্লাগইনগুলো আপনার পক্ষ থেকে তৃতীয়-পক্ষের কোড চালায়, যা সম্ভাব্যভাবে ক্ষতিকর হতে পারে। ক্ষতিকর প্লাগইন প্রতিরোধে Obsidian টিম কী করে তা সম্পর্কে আরও জানতে, [[Plugin security]] দেখুন।
 
-## Browse community plugins
+## কমিউনিটি প্লাগইন অনুসন্ধান করুন
 
-1. Open **[[Settings]]**.
-2. Select **Turn on community plugins**. For more information, refer to [[Plugin security#Restricted mode|Restricted Mode]].
-3. Select **Browse** to list all available community plugins.
+1. **[[Settings]]** খুলুন।
+2. **কমিউনিটি প্লাগইন চালু করুন** নির্বাচন করুন। আরও তথ্যের জন্য, [[Plugin security#Restricted mode|নিয়ন্ত্রিত মোড]] দেখুন।
+3. সব উপলব্ধ কমিউনিটি প্লাগইনের তালিকা দেখতে **ব্রাউজ** নির্বাচন করুন।
 
-Use the text box to filter plugins based on their name, author, and description.
+প্লাগইনের নাম, লেখক এবং বিবরণের ভিত্তিতে ফিল্টার করতে টেক্সট বক্স ব্যবহার করুন।
 
-You can also browse available plugins in your browser, by heading to [community.obsidian.md](https://community.obsidian.md).
+আপনি আপনার ব্রাউজারেও উপলব্ধ প্লাগইনগুলো দেখতে পারেন, এর জন্য [community.obsidian.md](https://community.obsidian.md) দেখুন।
 
-## Install a community plugin
+## একটি কমিউনিটি প্লাগইন ইনস্টল করুন
 
-To install a community plugin, you must first turn off [[Plugin security#Restricted mode|Restricted Mode]].
+একটি কমিউনিটি প্লাগইন ইনস্টল করতে, আপনাকে প্রথমে [[Plugin security#Restricted mode|নিয়ন্ত্রিত মোড]] বন্ধ করতে হবে।
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Community plugins**.
-3. Select **Browse** to explore available community plugins.
-4. Select the plugin you want to install.
-5. Select **Install**.
+1. **[[Settings]]** খুলুন।
+2. সাইড মেনুতে, **কমিউনিটি প্লাগইন** নির্বাচন করুন।
+3. উপলব্ধ কমিউনিটি প্লাগইনগুলো দেখতে **ব্রাউজ** নির্বাচন করুন।
+4. যে প্লাগইনটি ইনস্টল করতে চান তা নির্বাচন করুন।
+5. **ইনস্টল** নির্বাচন করুন।
 
-To use an installed plugin, you need to enable it.
+ইনস্টল করা প্লাগইন ব্যবহার করতে, আপনাকে সেটি সক্রিয় করতে হবে।
 
-## Enable a community plugin
+## একটি কমিউনিটি প্লাগইন সক্রিয় করুন
 
-Either select **Enable** directly after installing it, or enable it from the list of Community plugins under **[[Settings]] → Community plugins → Installed plugins**.
+প্লাগইন ইনস্টল করার পরে সরাসরি **সক্রিয় করুন** নির্বাচন করুন, অথবা **[[Settings]] → কমিউনিটি প্লাগইন → ইনস্টল করা প্লাগইন** এর অধীনে কমিউনিটি প্লাগইনের তালিকা থেকে এটি সক্রিয় করুন।
 
-## Update plugins
+## প্লাগইন আপডেট করুন
 
-For security purposes, community plugins don't update automatically. You can either update all plugins at once, or update individual plugins.
+নিরাপত্তার স্বার্থে, কমিউনিটি প্লাগইনগুলো স্বয়ংক্রিয়ভাবে আপডেট হয় না। আপনি একসাথে সব প্লাগইন আপডেট করতে পারেন, অথবা পৃথক পৃথক প্লাগইন আপডেট করতে পারেন।
 
-To update all your plugins:
+আপনার সব প্লাগইন আপডেট করতে:
 
-1. Open **[[Settings]]**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. If updates are available, select **Update all**.
+1. **[[Settings]]** খুলুন।
+2. **কমিউনিটি প্লাগইন → বর্তমান প্লাগইন** এর অধীনে, **আপডেট অনুসন্ধান করুন** নির্বাচন করুন।
+3. যদি আপডেট উপলব্ধ থাকে, **সব আপডেট করুন** নির্বাচন করুন।
 
-To update an individual plugin:
+একটি নির্দিষ্ট প্লাগইন আপডেট করতে:
 
-1. Open **[[Settings]]**.
-2. Under **Community plugins → Current plugins**, select **Check for updates**.
-3. Under **Installed plugins**, select **Update** next to the plugin you want to update.
+1. **[[Settings]]** খুলুন।
+2. **কমিউনিটি প্লাগইন → বর্তমান প্লাগইন** এর অধীনে, **আপডেট অনুসন্ধান করুন** নির্বাচন করুন।
+3. **ইনস্টল করা প্লাগইন** এর অধীনে, যে প্লাগইনটি আপডেট করতে চান তার পাশে **আপডেট** নির্বাচন করুন।
 
-## Uninstall a community plugin
+## একটি কমিউনিটি প্লাগইন আনইনস্টল করুন
 
-1. Open **[[Settings]]**.
-2. In the side menu, select **Community plugins**.
-3. Under **Installed plugins**, select the trash ![[lucide-trash-2.svg#icon]] icon next to the plugin you want to uninstall.
-4. Select **Uninstall** to confirm.
+1. **[[Settings]]** খুলুন।
+2. সাইড মেনুতে, **কমিউনিটি প্লাগইন** নির্বাচন করুন।
+3. **ইনস্টল করা প্লাগইন** এর অধীনে, যে প্লাগইনটি আনইনস্টল করতে চান তার পাশে ট্র্যাশ ![[lucide-trash-2.svg#icon]] আইকন নির্বাচন করুন।
+4. নিশ্চিত করতে **আনইনস্টল** নির্বাচন করুন।
 
-## Manage installed plugins
+## ইনস্টল করা প্লাগইন পরিচালনা করুন
 
-Under **[[Settings]] → Community plugins → Installed plugins**, each plugin has several icons for managing it:
+**[[Settings]] → কমিউনিটি প্লাগইন → ইনস্টল করা প্লাগইন** এর অধীনে, প্রতিটি প্লাগইন পরিচালনার জন্য বেশ কিছু আইকন রয়েছে:
 
-- **[[Settings]]** ![[lucide-settings.svg#icon]] — Open the plugin's settings page if it has configurable options.
-- **[[Hotkeys]]** ![[lucide-plus-circle.svg#icon]] — Set keyboard shortcuts for the plugin's commands.
-- **Funding** ![[lucide-heart.svg#icon]] — View the plugin author's funding URL to support their work.
-- **Uninstall** ![[lucide-trash-2.svg#icon]] — Remove the plugin from your vault.
-- **Toggle** — Enable or disable the plugin without uninstalling it.
+- **[[Settings]]** ![[lucide-settings.svg#icon]] — যদি প্লাগইনের কনফিগারযোগ্য অপশন থাকে, তাহলে এর সেটিংস পেজ খুলুন।
+- **[[Hotkeys]]** ![[lucide-plus-circle.svg#icon]] — প্লাগইনের কমান্ডগুলোর জন্য কীবোর্ড শর্টকাট সেট করুন।
+- **ফান্ডিং** ![[lucide-heart.svg#icon]] — প্লাগইন লেখকের কাজে সহায়তা করতে তার ফান্ডিং URL দেখুন।
+- **আনইনস্টল** ![[lucide-trash-2.svg#icon]] — আপনার ভল্ট থেকে প্লাগইনটি সরিয়ে ফেলুন।
+- **টগল** — আনইনস্টল না করেই প্লাগইনটি সক্রিয় বা নিষ্ক্রিয় করুন।
 
-You can also:
+আপনি আরও করতে পারেন:
 
-- Select the **refresh** icon to reload all plugins.
-- Select the **folder** ![[lucide-folder-open.svg#icon]] icon to open the plugins folder in your [[Configuration folder|configuration folder]].
-- Use the **search bar** to filter plugins by name.
+- সব প্লাগইন পুনরায় লোড করতে **রিফ্রেশ** আইকন নির্বাচন করুন।
+- আপনার [[Configuration folder|কনফিগারেশন ফোল্ডারে]] প্লাগইন ফোল্ডারটি খুলতে **ফোল্ডার** ![[lucide-folder-open.svg#icon]] আইকন নির্বাচন করুন।
+- নাম অনুযায়ী প্লাগইন ফিল্টার করতে **সার্চ বার** ব্যবহার করুন।
 
-## Learn more
+## আরও জানুন
 
-Ready to build your own community plugin? Learn how to [Build a plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+নিজের কমিউনিটি প্লাগইন তৈরি করতে প্রস্তুত? [একটি প্লাগইন তৈরি করুন](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) সম্পর্কে জানুন।

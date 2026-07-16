@@ -1,49 +1,48 @@
 ---
-localized: null
 permalink: publish/limitations
 ---
 
-> [!tip] Members of our awesome community have devised workarounds for some of these limitations. For more information, please visit our [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) thread on the Obsidian forums.
+> [!tip] আমাদের চমৎকার কমিউনিটির সদস্যরা এই সীমাবদ্ধতাগুলোর কিছুর জন্য বিকল্প সমাধান তৈরি করেছেন। আরও তথ্যের জন্য, দয়া করে Obsidian ফোরামে আমাদের [Publish Resources](https://forum.obsidian.md/t/obsidian-publish-resources/74582) থ্রেড দেখুন।
 
-## Community plugins
+## কমিউনিটি প্লাগইন
 
-Obsidian Publish has minimal support for [[Community plugins]]. 
+Obsidian Publish-এ [[Community plugins|কমিউনিটি প্লাগইন]]-এর জন্য সর্বনিম্ন সমর্থন রয়েছে। 
 
-Plugins which output in raw markdown, such as the Waypoint plugin, are compatible with Publish because they do not require the application to render their data. 
+যেসব প্লাগইন কাঁচা মার্কডাউনে আউটপুট দেয়, যেমন Waypoint প্লাগইন, সেগুলো Publish-এর সাথে সামঞ্জস্যপূর্ণ কারণ তাদের ডেটা রেন্ডার করার জন্য অ্যাপ্লিকেশনের প্রয়োজন হয় না। 
 
-Whereas a plugin that requires a plugin codeblock to render, such as Dataview or Fantasy Statblocks, will not work by default in Publish. 
+অন্যদিকে, যে প্লাগইনের রেন্ডার করার জন্য একটি প্লাগইন কোডব্লক প্রয়োজন, যেমন Dataview বা Fantasy Statblocks, তা ডিফল্টভাবে Publish-এ কাজ করবে না। 
 
-## Graph
+## গ্রাফ
 
-Publish offers basic color customization for its graph view using CSS. You can modify the node colors in your `publish.css` file by utilizing the [Graph View CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
+Publish CSS ব্যবহার করে তার গ্রাফ ভিউয়ের জন্য মৌলিক রং কাস্টমাইজেশন প্রদান করে। আপনি [Graph View CSS ভেরিয়েবল](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph) ব্যবহার করে আপনার `publish.css` ফাইলে নোডের রং পরিবর্তন করতে পারেন।
 
-Note that the published graph does not support the comprehensive sorting and viewing options available in the application's [[Graph view]].
+লক্ষ্য করুন যে প্রকাশিত গ্রাফ অ্যাপ্লিকেশনের [[Graph view|গ্রাফ ভিউ]]-এ উপলব্ধ সম্পূর্ণ সাজানো ও দেখার অপশন সমর্থন করে না।
 
-## Media files
+## মিডিয়া ফাইল
 
-Obsidian Publish is not optimized for streaming video or large audio files. We include some best practices for handling your [[Media files|media files]] in these documents. 
+Obsidian Publish স্ট্রিমিং ভিডিও বা বড় অডিও ফাইলের জন্য অপ্টিমাইজ করা নয়। আপনার [[Media files|মিডিয়া ফাইল]] পরিচালনার জন্য আমরা এই ডকুমেন্টে কিছু সর্বোত্তম অনুশীলন অন্তর্ভুক্ত করেছি। 
 
-To improve the experience for your visitors, we recommend that you instead use a video hosting service, such as YouTube or Vimeo.
+আপনার দর্শকদের জন্য অভিজ্ঞতা উন্নত করতে, আমরা সুপারিশ করি যে আপনি এর পরিবর্তে YouTube বা Vimeo-এর মতো একটি ভিডিও হোস্টিং সেবা ব্যবহার করুন।
 
-You can upload files **up to 50mb** in size to your Publish site. ^publish-media-limit
+আপনি আপনার Publish সাইটে **সর্বোচ্চ 50mb** আকারের ফাইল আপলোড করতে পারেন। ^publish-media-limit
 
-## PDFs
+## PDF
 
-On mobile devices, tablets, and computers with small screens, you may encounter issues where an embedded PDF won't load or only the first page is displayed. This is due to limitations with the PDF Renderer on mobile devices. 
+মোবাইল ডিভাইস, ট্যাবলেট, এবং ছোট স্ক্রিনযুক্ত কম্পিউটারে, আপনি এমন সমস্যায় পড়তে পারেন যেখানে একটি এম্বেড করা PDF লোড হয় না বা শুধুমাত্র প্রথম পৃষ্ঠা প্রদর্শিত হয়। এটি মোবাইল ডিভাইসের PDF রেন্ডারারের সীমাবদ্ধতার কারণে হয়ে থাকে। 
 
-For content aimed at mobile users, we suggest providing links to PDFs hosted externally or including internal links that allow users to download the PDF directly to their device.
+মোবাইল ব্যবহারকারীদের লক্ষ্য করে তৈরি কনটেন্টের জন্য, আমরা পরামর্শ দিই যে আপনি বাইরে হোস্ট করা PDF-এর লিঙ্ক দিন অথবা এমন অভ্যন্তরীণ লিঙ্ক অন্তর্ভুক্ত করুন যা ব্যবহারকারীদের সরাসরি তাদের ডিভাইসে PDF ডাউনলোড করতে দেয়।
 
-## Search
+## অনুসন্ধান
 
-Publish has basic support for searching plain text in published content. Preference for search results is given to:
+Publish প্রকাশিত কনটেন্টে সাধারণ টেক্সট অনুসন্ধানের জন্য মৌলিক সমর্থন প্রদান করে। অনুসন্ধান ফলাফলে অগ্রাধিকার দেওয়া হয়:
 
-- File names
-- Aliases
-- Header names
+- ফাইলের নাম
+- উপনাম
+- হেডারের নাম
 
-After searching the above for matches, the search will then include plain text of the published notes.
+উপরের বিষয়গুলোতে মিল খোঁজার পর, অনুসন্ধান তখন প্রকাশিত নোটগুলোর সাধারণ টেক্সট অন্তর্ভুক্ত করবে।
 
-To improve the searchability of your published site, it is recommended to use descriptive file names, incorporate multiple aliases, and select header names that accurately reflect the content.
+আপনার প্রকাশিত সাইটের সন্ধানযোগ্যতা উন্নত করতে, বর্ণনামূলক ফাইলের নাম ব্যবহার করা, একাধিক উপনাম যুক্ত করা, এবং এমন হেডারের নাম নির্বাচন করা সুপারিশ করা হয় যা কনটেন্টকে যথাযথভাবে প্রতিফলিত করে।
 
-Additionally, Publish does not currently support the application's [[Search#Embed search results in a note|embedded search results]] feature.
+এছাড়াও, Publish বর্তমানে অ্যাপ্লিকেশনের [[Search#Embed search results in a note|এম্বেড করা অনুসন্ধান ফলাফল]] বৈশিষ্ট্য সমর্থন করে না।
 

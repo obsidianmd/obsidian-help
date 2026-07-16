@@ -1,39 +1,38 @@
 ---
-localized: null
 permalink: bases/views/cards
 ---
-Cards is a type of [[Views|view]] you can use in [[Introduction to Bases|Bases]].
+Cards হলো [[Introduction to Bases|Bases]]-এ ব্যবহার করা যায় এমন এক ধরনের [[Views|ভিউ]]।
 
-Select ![[lucide-layout-grid.svg#icon]]  **Cards** from the view menu to display files as a gallery-like grid layout with optional cover images.
+ভিউ মেনু থেকে ![[lucide-layout-grid.svg#icon]]  **Cards** নির্বাচন করে ফাইলগুলোকে ঐচ্ছিক কভার ছবিসহ একটি গ্যালারির মতো গ্রিড লেআউট হিসেবে প্রদর্শন করুন।
 
-## Settings
+## সেটিংস
 
-Card view settings can be configured in [[Views#View settings|View settings]].
+কার্ড ভিউয়ের সেটিংস [[Views#View settings|ভিউ সেটিংসে]] কনফিগার করা যায়।
 
-- Card size
-- Image property
-- Image fit
-- Image aspect ration
+- কার্ডের আকার
+- ছবির প্রপার্টি
+- ছবির ফিট
+- ছবির অ্যাসপেক্ট রেশিও
 
-### Card size
+### কার্ডের আকার
 
-Defines the width of a card.
+একটি কার্ডের প্রস্থ নির্ধারণ করে।
 
-### Image property
+### ছবির প্রপার্টি
 
-Cards support an optional cover image, which is [[Properties|property]] that's displayed as an image at the top of the card. The property can be any of the following:
+কার্ডস একটি ঐচ্ছিক কভার ছবি সমর্থন করে, যেটি একটি [[Properties|প্রপার্টি]] যা কার্ডের উপরে একটি ছবি হিসেবে প্রদর্শিত হয়। প্রপার্টিটি নিম্নলিখিত যেকোনো একটি হতে পারে:
 
-- A link to a local [[Attachments|attachment]] `"[[link/to/attachment.jpg]]"`
-- An external link (URL)
-- A hex color code (`#000000`)
+- একটি স্থানীয় [[Attachments|অ্যাটাচমেন্টের]] লিঙ্ক `"[[link/to/attachment.jpg]]"`
+- একটি বাহ্যিক লিঙ্ক (URL)
+- একটি হেক্স কালার কোড (`#000000`)
 
-### Image fit
+### ছবির ফিট
 
-If you have an image property configured, this option will determine how the image should be displayed in the card.
+আপনার একটি ছবির প্রপার্টি কনফিগার করা থাকলে, এই অপশনটি নির্ধারণ করবে কার্ডে ছবিটি কীভাবে প্রদর্শিত হবে।
 
-- **Cover:** The image fills the card's content box. If it does not fit, the image will be cropped.
-- **Contain:** The image is scaled until it fits within the card's content box. The image will not be cropped.
+- **Cover:** ছবিটি কার্ডের কনটেন্ট বক্স পূরণ করে। এটি না মিললে, ছবিটি ক্রপ করা হবে।
+- **Contain:** ছবিটি কার্ডের কনটেন্ট বক্সের মধ্যে ফিট হওয়া পর্যন্ত স্কেল করা হয়। ছবিটি ক্রপ করা হবে না।
 
-### Image aspect ratio
+### ছবির অ্যাসপেক্ট রেশিও
 
-The height of the cover image is determined by its aspect ratio. The default aspect ratio is 1:1 meaning all your images will be square. Adjust this option to make the image shorter or taller.
+কভার ছবির উচ্চতা এর অ্যাসপেক্ট রেশিও দ্বারা নির্ধারিত হয়। ডিফল্ট অ্যাসপেক্ট রেশিও 1:1, অর্থাৎ আপনার সব ছবি বর্গাকার হবে। ছবিটিকে ছোট বা বড় করতে এই অপশন সামঞ্জস্য করুন।

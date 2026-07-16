@@ -1,25 +1,24 @@
 ---
-localized: null
 permalink: plugins/outgoing-links
 publish: true
 mobile: false
-description: 'Outgoing links is a core plugin that shows links from the active note at a glance, as well as potential links to be made.'
+description: 'আউটগোয়িং লিঙ্ক একটি কোর প্লাগইন যা সক্রিয় নোট থেকে লিঙ্কগুলি এক নজরে দেখায়, সেই সাথে তৈরি করা যেতে পারে এমন সম্ভাব্য লিঙ্কগুলিও দেখায়।'
 ---
-Outgoing links is a [[Core plugins|core plugin]] that shows links from the active note at a glance, as well as potential links to be made. It's similar to the [[Backlinks]] plugin, which instead shows you _incoming_ links to the active note.
+আউটগোয়িং লিঙ্ক একটি [[Core plugins|কোর প্লাগইন]] যা সক্রিয় নোট থেকে লিঙ্কগুলি এক নজরে দেখায়, সেই সাথে তৈরি করা যেতে পারে এমন সম্ভাব্য লিঙ্কগুলিও দেখায়। এটি [[Backlinks]] প্লাগইনের মতো, যা পরিবর্তে আপনাকে সক্রিয় নোটের _ইনকামিং_ লিঙ্ক দেখায়।
 
-The Outgoing links tab ![[obsidian-icon-links-going-out.svg#icon]] is available in the right sidebar and contains the following sections:
+আউটগোয়িং লিঙ্ক ট্যাব ![[obsidian-icon-links-going-out.svg#icon]] ডানদিকের সাইডবারে উপলব্ধ এবং এতে নিম্নলিখিত বিভাগগুলি রয়েছে:
 
-- **Links** lists all links in the active note. Click a link to open the linked note.
-- **Unlinked mentions** lists any text in the active note that matches the name or [[Aliases|alias]] of another note in your vault. Unlinked mentions helps you discover links you aren't aware of yet.
+- **Links** সক্রিয় নোটের সব লিঙ্ক তালিকাবদ্ধ করে। লিঙ্ক করা নোটটি খুলতে একটি লিঙ্কে ক্লিক করুন।
+- **Unlinked mentions** সক্রিয় নোটের যেকোনো টেক্সট তালিকাবদ্ধ করে যা আপনার ভল্টের অন্য একটি নোটের নাম বা [[Aliases|উপনামের]] সাথে মিলে যায়। Unlinked mentions আপনাকে এখনও অজানা লিঙ্কগুলি আবিষ্কার করতে সাহায্য করে।
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Unlinked mentions.
+> [!info] বাদ দেয়া ফাইল
+> আপনার [[Settings#Excluded files|বাদ দেয়া ফাইল]] প্যাটার্নের সাথে মিলে যাওয়া ফাইলগুলি Unlinked mentions-এ প্রদর্শিত হবে না।
 
-To create a link from an unlinked mention, click the button with the note's name.
+একটি লিঙ্কবিহীন উল্লেখ থেকে একটি লিঙ্ক তৈরি করতে, নোটের নাম সহ বোতামটিতে ক্লিক করুন।
 
-> [!tip] Tip
-> Unlinked mentions can refer to different notes with the same name. To show the full path of the note, hover over the button with the note's name.
+> [!tip] টিপ
+> লিঙ্কবিহীন উল্লেখগুলি একই নামের বিভিন্ন নোটকে উল্লেখ করতে পারে। নোটের সম্পূর্ণ পাথ দেখাতে, নোটের নাম সহ বোতামের উপর হোভার করুন।
 
-> [!note] Code blocks
-> While you can create a link from an unlinked mention inside a code block, due to the nature of code blocks, links don't show up under the Links section.
+> [!note] কোড ব্লক
+> যদিও আপনি একটি কোড ব্লকের ভেতরে একটি লিঙ্কবিহীন উল্লেখ থেকে একটি লিঙ্ক তৈরি করতে পারেন, কোড ব্লকের প্রকৃতির কারণে, লিঙ্কগুলি Links বিভাগের অধীনে প্রদর্শিত হয় না।
 

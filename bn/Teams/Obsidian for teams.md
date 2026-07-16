@@ -1,36 +1,35 @@
 ---
-localized: null
 permalink: teams
 cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian can be used as a note-taking application for individuals, and as a collaboration tool for your team.
+Obsidian ব্যক্তিগত ব্যবহারকারীদের জন্য একটি নোট-গ্রহণ অ্যাপ্লিকেশন হিসেবে এবং আপনার দলের জন্য একটি সহযোগিতা টুল হিসেবেও ব্যবহার করা যেতে পারে।
 
-## Use Obsidian with your team
+## আপনার দলের সাথে Obsidian ব্যবহার করুন
 
 - [[Commercial license]]
-	- Support Obsidian by purchasing a commercial license.
-- [[Deploy Obsidian across your team|Deploy Obsidian]]
-	- How to install, update, and customize Obsidian across your team.
+	- একটি কমার্শিয়াল লাইসেন্স কিনে Obsidian-কে সমর্থন করুন।
+- [[Deploy Obsidian across your team|Obsidian ডিপ্লয় করুন]]
+	- আপনার দলের মধ্যে Obsidian কীভাবে ইনস্টল, আপডেট এবং কাস্টমাইজ করবেন।
 - [[Syncing for teams]]
-	- How to sync data across your team.
+	- আপনার দলের মধ্যে ডেটা কীভাবে সিঙ্ক করবেন।
 - [[Publishing for teams]]
-	- How to publish data from your team's vault.
+	- আপনার দলের ভল্ট থেকে ডেটা কীভাবে পাবলিশ করবেন।
 
-## Important resources
+## গুরুত্বপূর্ণ রিসোর্স
 
-Below are important links to relevant parts of our main website, and are listed here for quick access. 
+নিচে আমাদের মূল ওয়েবসাইটের প্রাসঙ্গিক অংশের গুরুত্বপূর্ণ লিঙ্কগুলো দেওয়া হল, যা দ্রুত অ্যাক্সেসের জন্য এখানে তালিকাভুক্ত করা হয়েছে।
 
-- [Purchase our products](https://obsidian.md/pricing)
-	- Purchase a Commercial license, Sync, or Publish
-- [Report a bug](https://forum.obsidian.md/c/bug-reports/7)
-	- Report an application issue
-- [Request a new feature](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
-	- Report a feature request
-- [License overview](https://obsidian.md/license)
-	- Review our license overview in plain English
-- [Terms of Service](https://obsidian.md/terms)
-	- Review our latest Terms of Service
-- [Privacy Policy](https://obsidian.md/privacy)
-	- Review our privacy policy
+- [আমাদের পণ্য কিনুন](https://obsidian.md/pricing)
+	- একটি Commercial লাইসেন্স, Sync, বা Publish কিনুন
+- [একটি বাগ রিপোর্ট করুন](https://forum.obsidian.md/c/bug-reports/7)
+	- একটি অ্যাপ্লিকেশন সমস্যা রিপোর্ট করুন
+- [একটি নতুন ফিচারের অনুরোধ করুন](https://forum.obsidian.md/tags/c/feature-requests/8/commercial)
+	- একটি ফিচার অনুরোধ রিপোর্ট করুন
+- [লাইসেন্স ওভারভিউ](https://obsidian.md/license)
+	- সহজ ইংরেজিতে আমাদের লাইসেন্স ওভারভিউ পর্যালোচনা করুন
+- [পরিষেবার শর্তাবলী](https://obsidian.md/terms)
+	- আমাদের সর্বশেষ পরিষেবার শর্তাবলী পর্যালোচনা করুন
+- [গোপনীয়তা নীতি](https://obsidian.md/privacy)
+	- আমাদের গোপনীয়তা নীতি পর্যালোচনা করুন

@@ -1,92 +1,91 @@
 ---
-localized: null
 permalink: publish/sites
 ---
-This page explains how to manage [[Introduction to Obsidian Publish|Obsidian Publish]] sites.
+এই পৃষ্ঠায় ব্যাখ্যা করা হয়েছে কীভাবে [[Introduction to Obsidian Publish|Obsidian Publish]] সাইট পরিচালনা করতে হয়।
 
-A site is a collection of notes that's hosted by Obsidian Publish and available online, either through a Obsidian Publish address or a [[Custom domains|custom domain]].
+একটি সাইট হলো নোটগুলোর একটি সংগ্রহ যা Obsidian Publish দ্বারা হোস্ট করা হয় এবং অনলাইনে উপলব্ধ থাকে, হয় একটি Obsidian Publish ঠিকানার মাধ্যমে অথবা একটি [[Custom domains|কাস্টম ডোমেইন]]-এর মাধ্যমে।
 
-## Create a new site
+## একটি নতুন সাইট তৈরি করুন
 
-> [!note] The number of sites that you can have at the same time is determined by your Obsidian Publish subscription. Before you create a new site, make sure that your subscription allows it.
+> [!note] একই সময়ে আপনি কতগুলো সাইট রাখতে পারবেন তা আপনার Obsidian Publish সাবস্ক্রিপশন দ্বারা নির্ধারিত হয়। একটি নতুন সাইট তৈরি করার আগে, নিশ্চিত করুন যে আপনার সাবস্ক্রিপশন এটির অনুমতি দেয়।
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. If you already have an existing site, click **Switch site** ![[lucide-repeat.svg#icon]].
-3. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from publish.obsidian.md/my-amazing-site.
-4. Click **Create**.
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. যদি আপনার আগে থেকেই একটি সাইট থাকে, তাহলে **Switch site** ![[lucide-repeat.svg#icon]]-এ ক্লিক করুন।
+3. **Site ID**-এ, আপনি আপনার সাইটের জন্য যে পাথ চান তা লিখুন। উদাহরণস্বরূপ, `my-amazing-site` ID-যুক্ত একটি সাইট publish.obsidian.md/my-amazing-site-এ উপলব্ধ থাকবে।
+4. **Create**-এ ক্লিক করুন।
 
-## Delete an existing site
+## একটি বিদ্যমান সাইট মুছুন
 
-> [!note] Notes remain in your vault even after you delete a site.
+> [!note] একটি সাইট মুছে ফেলার পরেও নোটগুলো আপনার ভল্টে থেকে যায়।
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. Click **Switch site** ![[lucide-repeat.svg#icon]].
-3. Click **Delete site** ![[lucide-x.svg#icon]] to the right of the site you want to delete.
-4. Click **Delete** to confirm.
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. **Switch site** ![[lucide-repeat.svg#icon]]-এ ক্লিক করুন।
+3. আপনি যে সাইটটি মুছতে চান তার ডানদিকে **Delete site** ![[lucide-x.svg#icon]]-এ ক্লিক করুন।
+4. নিশ্চিত করতে **Delete**-এ ক্লিক করুন।
 
-## Switch between sites
+## সাইটগুলোর মধ্যে পরিবর্তন করুন
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. Click **Switch site** ![[lucide-repeat.svg#icon]].
-3. Click **Choose** to the right of the site you want to switch to.
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. **Switch site** ![[lucide-repeat.svg#icon]]-এ ক্লিক করুন।
+3. আপনি যে সাইটে পরিবর্তন করতে চান তার ডানদিকে **Choose**-এ ক্লিক করুন।
 
-## Change the site ID
+## সাইট ID পরিবর্তন করুন
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. Click **Switch site** ![[lucide-repeat.svg#icon]].
-3. Click **Edit site ID** ![[lucide-edit-3.svg#icon]] to the right of the site you want to edit.
-4. In **Site ID**, enter the new ID for your site.
-5. Click **Change**.
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. **Switch site** ![[lucide-repeat.svg#icon]]-এ ক্লিক করুন।
+3. আপনি যে সাইটটি সম্পাদনা করতে চান তার ডানদিকে **Edit site ID** ![[lucide-edit-3.svg#icon]]-এ ক্লিক করুন।
+4. **Site ID**-এ, আপনার সাইটের জন্য নতুন ID লিখুন।
+5. **Change**-এ ক্লিক করুন।
 
-## View site options
+## সাইট অপশন দেখুন
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
-2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
+1. উইন্ডোর বাম পাশে রিবনে, **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+2. **Publish changes** ডায়ালগে, **Change site options** ![[lucide-cog.svg#icon]]-এ ক্লিক করুন।
 
-## Site options
+## সাইট অপশন
 
-### General
+### সাধারণ
 
-| Option                          | Type   | Description                                                                                                                |
+| অপশন                          | ধরন   | বিবরণ                                                                                                                |
 | ------------------------------- | ------ | -------------------------------------------------------------------------------------------------------------------------- |
-| Site Name                       | Input  | The public name and title of your Obsidian Publish site.                                                                   |
-| Homepage File                   | Input  | The location of the markdown file you want to act as your landing page.                                                    |
-| Logo                            | Input  | The image you want to act as your site banner. The image must [[Publish your content#Publish notes\|be published]]. |
-| Site Collaboration              | Button | Declare other users you want to have access to edit your published notes. Users must have an Obsidian account.             |
-| Custom Domain                   | Button | [[Custom domains]]                                                                                                         |
-| Disallow search engine indexing | Toggle | Prevent respectful search engines from crawling your site by adding a `robots.txt` file.                                   |
+| Site Name                       | ইনপুট  | আপনার Obsidian Publish সাইটের সর্বজনীন নাম ও শিরোনাম।                                                                   |
+| Homepage File                   | ইনপুট  | আপনার ল্যান্ডিং পেজ হিসেবে কাজ করবে এমন মার্কডাউন ফাইলের অবস্থান।                                                    |
+| Logo                            | ইনপুট  | যে ছবিটি আপনার সাইট ব্যানার হিসেবে কাজ করবে। ছবিটি অবশ্যই [[Publish your content#Publish notes\|প্রকাশিত]] থাকতে হবে। |
+| Site Collaboration              | বোতাম | অন্য যেসব ব্যবহারকারীকে আপনার প্রকাশিত নোট সম্পাদনার অনুমতি দিতে চান তাদের ঘোষণা করুন। ব্যবহারকারীদের একটি Obsidian অ্যাকাউন্ট থাকতে হবে।             |
+| Custom Domain                   | বোতাম | [[Custom domains]]                                                                                                         |
+| Disallow search engine indexing | টগল | একটি `robots.txt` ফাইল যোগ করে সম্মানজনক সার্চ ইঞ্জিনগুলোকে আপনার সাইট ক্রল করা থেকে বিরত রাখুন।                                   |
 
-### Appearance
+### চেহারা
 
-| Option            | Type     | Description                                                                               |
+| অপশন            | ধরন     | বিবরণ                                                                               |
 |-------------------|----------|-------------------------------------------------------------------------------------------|
-| Theme             | Dropdown | Choose how your theme presents on your site; **Light**, **Dark**, or **Adapt to System**. |
-| Light/Dark Toggle | Toggle   | Allow users to toggle **Light**/**Dark** mode with a toggle button on your site.          |
+| Theme             | ড্রপডাউন | আপনার সাইটে থিমটি কীভাবে উপস্থাপিত হবে তা বেছে নিন; **Light**, **Dark**, অথবা **Adapt to System**। |
+| Light/Dark Toggle | টগল   | আপনার সাইটে টগল বোতামের মাধ্যমে ব্যবহারকারীদের **Light**/**Dark** মোড পরিবর্তনের অনুমতি দিন।          |
 
-## Reading experience
+## পঠন অভিজ্ঞতা
 
-| Option               | Type   | Description                                                                                |
+| অপশন               | ধরন   | বিবরণ                                                                                |
 |----------------------|--------|--------------------------------------------------------------------------------------------|
-| Show hover preview   | Toggle | Enable or disable the ability of page preview when hovering over an active, internal link. |
-| Hide page title      | Toggle | Enable or disable the inline title of a published note to be displayed.                    |
-| Readable line length | Toggle | Enable or disable readable line length within your site.                                   |
-| Strict line breaks   | Toggle | Enable or disable single line breaks from being displayed on your site.                    |
-| Stack Pages          | Toggle | Enable or disable [[Tabs#Stack tab groups\|Stacked tabs]] on your site.    |
+| Show hover preview   | টগল | একটি সক্রিয়, অভ্যন্তরীণ লিঙ্কের ওপর হোভার করলে পৃষ্ঠা প্রিভিউর সুবিধা চালু বা বন্ধ করুন। |
+| Hide page title      | টগল | একটি প্রকাশিত নোটের ইনলাইন শিরোনাম প্রদর্শিত হওয়া চালু বা বন্ধ করুন।                    |
+| Readable line length | টগল | আপনার সাইটে পাঠযোগ্য লাইন দৈর্ঘ্য চালু বা বন্ধ করুন।                                   |
+| Strict line breaks   | টগল | আপনার সাইটে একক লাইন বিরতি প্রদর্শিত হওয়া চালু বা বন্ধ করুন।                    |
+| Stack Pages          | টগল | আপনার সাইটে [[Tabs#Stack tab groups\|স্ট্যাকড ট্যাব]] চালু বা বন্ধ করুন।    |
 
-### Components
+### উপাদান
 
-| Option                 | Type   | Description                                                                                                                          |
+| অপশন                 | ধরন   | বিবরণ                                                                                                                          |
 |------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Show navigation        | Toggle | Enable or disable the [[File explorer]] view on your publish site.                                                                   |
-| Customize navigation   | Button | [[Customize your site#Customize navigation\|Customize]] the order of how your files are listed if **Show navigation** is toggled on. |
-| Show search bar        | Toggle | Enable or disable a search bar on your site.                                                                                         |
-| Show graph view        | Toggle | Enable or disable the graph view within the right sidebar of your site.                                                              |
-| Show table of contents | Toggle | Enable or disable the [[Outline\|Table of contents]] view on your site.                                                              |
-| Show backlinks         | Toggle | Enable or disable [[Backlinks]] on your site.                                                                                        |
+| Show navigation        | টগল | আপনার publish সাইটে [[File explorer|ফাইল এক্সপ্লোরার]] ভিউ চালু বা বন্ধ করুন।                                                                   |
+| Customize navigation   | বোতাম | **Show navigation** চালু থাকলে আপনার ফাইলগুলো কীভাবে তালিকাভুক্ত হয় তার ক্রম [[Customize your site#Customize navigation\|কাস্টমাইজ]] করুন। |
+| Show search bar        | টগল | আপনার সাইটে একটি সার্চ বার চালু বা বন্ধ করুন।                                                                                         |
+| Show graph view        | টগল | আপনার সাইটের ডান সাইডবারে গ্রাফ ভিউ চালু বা বন্ধ করুন।                                                              |
+| Show table of contents | টগল | আপনার সাইটে [[Outline|সূচিপত্র]] ভিউ চালু বা বন্ধ করুন।                                                              |
+| Show backlinks         | টগল | আপনার সাইটে [[Backlinks|ব্যাকলিঙ্ক]] চালু বা বন্ধ করুন।                                                                                        |
 
-### Other site settings
+### অন্যান্য সাইট সেটিংস
 
-| Option                         | Type   | Description                                            |
+| অপশন                         | ধরন   | বিবরণ                                            |
 | ------------------------------ | ------ | ------------------------------------------------------ |
-| Passwords                      | Button | [[Obsidian Publish/Security and privacy#Add a site password\|Set a password]] to restrict access to your entire site. |
-| Google Analytics tracking code | Input  | **Custom Domain Url Only**. Place your Google Analytics site tracking code here.                                                       |
+| Passwords                      | বোতাম | আপনার সম্পূর্ণ সাইটে অ্যাক্সেস সীমিত করতে [[Obsidian Publish/Security and privacy#Add a site password\|একটি পাসওয়ার্ড সেট করুন]]। |
+| Google Analytics tracking code | ইনপুট  | **শুধুমাত্র কাস্টম ডোমেইন URL**। এখানে আপনার Google Analytics সাইট ট্র্যাকিং কোড রাখুন।                                                       |

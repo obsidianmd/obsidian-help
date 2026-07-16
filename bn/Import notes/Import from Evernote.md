@@ -1,58 +1,57 @@
 ---
-localized: null
 permalink: import/evernote
 ---
-Obsidian lets you easily migrate your notes from Evernote using the [[Importer|Importer plugin]]. This will convert your Evernote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian আপনাকে [[Importer|Importer প্লাগইন]] ব্যবহার করে সহজেই Evernote থেকে আপনার নোট মাইগ্রেট করতে দেয়। এটি আপনার Evernote ডেটাকে টেকসই Markdown ফাইলে রূপান্তরিত করবে, যা আপনি Obsidian এবং আরও অনেক অ্যাপের সাথে ব্যবহার করতে পারবেন।
 
-## Export your data from Evernote
+## Evernote থেকে আপনার ডেটা এক্সপোর্ট করুন
 
-Obsidian uses Evernote's export format `.enex` files.
+Obsidian Evernote-এর এক্সপোর্ট ফরম্যাট `.enex` ফাইল ব্যবহার করে।
 
-You can find Evernote's instructions for exporting your data [on Evernote's website](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML). This method lets you export entire notebooks in the desktop client.
+আপনি [Evernote-এর ওয়েবসাইটে](https://help.evernote.com/hc/en-us/articles/209005557-Export-notes-and-notebooks-as-ENEX-or-HTML) আপনার ডেটা এক্সপোর্ট করার নির্দেশাবলী খুঁজে পাবেন। এই পদ্ধতিতে আপনি ডেস্কটপ ক্লায়েন্টে সম্পূর্ণ নোটবুক এক্সপোর্ট করতে পারবেন।
 
-1. Go to the Notebooks screen.
-2. Click on **More actions** ( `•••` ) and choose **Export Notebook...**
-3. Select **ENEX** as the file format.
-3. Choose a location for your exported `.enex` file.
+1. Notebooks স্ক্রিনে যান।
+2. **More actions** ( `•••` ) এ ক্লিক করুন এবং **Export Notebook...** নির্বাচন করুন
+3. ফাইল ফরম্যাট হিসেবে **ENEX** নির্বাচন করুন।
+3. আপনার এক্সপোর্ট করা `.enex` ফাইলের জন্য একটি অবস্থান বেছে নিন।
 
-## Import your Evernote data into Obsidian
+## Obsidian-এ আপনার Evernote ডেটা ইম্পোর্ট করুন
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+আপনার অফিসিয়াল Obsidian [[Importer]] প্লাগইন প্রয়োজন হবে, যা আপনি [এখানে ইনস্টল করতে পারেন](obsidian://show-plugin?id=obsidian-importer)।
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Evernote (.enex)**.
-6. Select the location of your Evernote backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. **[[Settings]]** খুলুন।
+2. **Community Plugins**-এ যান এবং [Importer ইনস্টল করুন](obsidian://show-plugin?id=obsidian-importer)।
+3. Importer প্লাগইন চালু করুন।
+4. কমান্ড প্যালেট বা রিবন আইকন ব্যবহার করে **Importer** প্লাগইন খুলুন।
+5. **File format**-এর অধীনে **Evernote (.enex)** নির্বাচন করুন।
+6. আপনার Evernote ব্যাকআপ ফাইলের অবস্থান নির্বাচন করুন।
+7. **Import**-এ ক্লিক করুন এবং ইম্পোর্ট সম্পূর্ণ না হওয়া পর্যন্ত অপেক্ষা করুন।
+8. আপনার কাজ শেষ!
 
-## Advanced import options
+## উন্নত ইম্পোর্ট বিকল্প
 
-### Maintain tag hierarchy
+### ট্যাগ হায়ারার্কি বজায় রাখুন
 
-Evernote export does not keep the tag hierarchy. To keep your tag hierarchy, you can "flatten" tags separated by "/". For example, assuming that you have the following tag structure: 
+Evernote এক্সপোর্ট ট্যাগ হায়ারার্কি বজায় রাখে না। আপনার ট্যাগ হায়ারার্কি বজায় রাখতে, আপনি "/" দ্বারা পৃথক করা ট্যাগগুলিকে "ফ্ল্যাটেন" করতে পারেন। উদাহরণস্বরূপ, ধরে নিন আপনার নিচের মতো একটি ট্যাগ কাঠামো আছে: 
 
 ```
 ParentTag
     ChildTag
 ```
 
-What you need to do to keep tags related in Obsidian is:
+Obsidian-এ ট্যাগগুলিকে সম্পর্কিত রাখতে আপনাকে যা করতে হবে তা হলো:
 
-1. Right-click on the ChildTag.
-2. Select "Rename."
-3. Rename it as `ParentTag/ChildTag`.
+1. ChildTag-এ ডান-ক্লিক করুন।
+2. "Rename" নির্বাচন করুন।
+3. এটির নাম পরিবর্তন করে `ParentTag/ChildTag` করুন।
 
-### Handling notebook stacks
+### নোটবুক স্ট্যাক পরিচালনা করা
 
-Since the export process is limited to single notebooks, the default export file lacks information about notebook stacks. However, the importer can recognize patterns in the enex file name to recreate notebook stacks as folders.
+যেহেতু এক্সপোর্ট প্রক্রিয়া একক নোটবুকের মধ্যে সীমাবদ্ধ, তাই ডিফল্ট এক্সপোর্ট ফাইলে নোটবুক স্ট্যাক সম্পর্কে তথ্য থাকে না। তবে, ইম্পোর্টার enex ফাইলের নামে প্যাটার্ন সনাক্ত করে নোটবুক স্ট্যাককে ফোল্ডার হিসেবে পুনরায় তৈরি করতে পারে।
 
-Assuming that you have a notebook called ```NotebookA``` in a stack called ```Stack1```, you can recreate a notebook stack by renaming the enex file to ```Stack1@@@NotebookA```.
+ধরে নিন আপনার `Stack1` নামের একটি স্ট্যাকে `NotebookA` নামের একটি নোটবুক আছে, আপনি enex ফাইলের নাম পরিবর্তন করে `Stack1@@@NotebookA` করে একটি নোটবুক স্ট্যাক পুনরায় তৈরি করতে পারেন।
 
-This results in the converted notes being generated within the Stack1/NotebookA folder.
+এর ফলে রূপান্তরিত নোটগুলি Stack1/NotebookA ফোল্ডারের মধ্যে তৈরি হবে।
 
-### More options
+### আরও বিকল্প
 
-For more advanced import options from Evernote you can also try [importing via Yarle](https://github.com/akosbalasko/yarle).
+Evernote থেকে আরও উন্নত ইম্পোর্ট বিকল্পের জন্য আপনি [Yarle-এর মাধ্যমে ইম্পোর্ট করাও](https://github.com/akosbalasko/yarle) চেষ্টা করতে পারেন।

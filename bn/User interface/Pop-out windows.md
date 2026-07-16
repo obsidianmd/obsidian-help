@@ -1,41 +1,40 @@
 ---
-localized: null
 permalink: pop-out-windows
-description: Learn how to open files in separate pop-out windows.
+description: আলাদা পপ-আউট উইন্ডোতে ফাইল খোলার পদ্ধতি জানুন।
 ---
 
-> [!compatibility] This feature is only available on Desktop.
+> [!compatibility] এই ফিচারটি শুধুমাত্র ডেস্কটপে উপলব্ধ।
 
-You can open separate _pop-out_ windows in Obsidian. Each pop-out window is associated with its respective vault window. If you close a vault window, all of its pop-out windows will close as well.
+আপনি Obsidian-এ আলাদা _পপ-আউট_ উইন্ডো খুলতে পারেন। প্রতিটি পপ-আউট উইন্ডো তার নিজ ভল্ট উইন্ডোর সাথে যুক্ত থাকে। আপনি যদি কোনো ভল্ট উইন্ডো বন্ধ করেন, তাহলে তার সব পপ-আউট উইন্ডোও বন্ধ হয়ে যাবে।
 
-Files can only be moved between windows associated with the same vault.
+ফাইল শুধুমাত্র একই ভল্টের সাথে যুক্ত উইন্ডোগুলোর মধ্যেই সরানো যায়।
 
-## Open a file in a new window
+## নতুন উইন্ডোতে একটি ফাইল খোলা
 
-**File explorer:**
+**ফাইল এক্সপ্লোরার:**
 
-In the [[File explorer]], right-click a note and select **Open in new window**.
+[[File explorer|ফাইল এক্সপ্লোরারে]], একটি নোটে রাইট-ক্লিক করে **Open in new window** নির্বাচন করুন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-In the [[Command palette]], select **Open current tab in new window**.
+[[Command palette|কমান্ড প্যালেটে]], **Open current tab in new window** নির্বাচন করুন।
 
-**Tab:**
+**ট্যাব:**
 
-Right-click a tab and select **Open in new window**. Alternatively, select **More options** ![[lucide-ellipsis-vertical.svg#icon]] in the upper-right corner of the editor, then choose **Open in new window**.
+একটি ট্যাবে রাইট-ক্লিক করে **Open in new window** নির্বাচন করুন। এছাড়াও, এডিটরের উপরের ডান কোণে **More options** ![[lucide-ellipsis-vertical.svg#icon]] নির্বাচন করে, তারপর **Open in new window** বেছে নিন।
 
-> [!tip] You can also right-click a link in the editor and select **Open in new window**.
+> [!tip] আপনি এডিটরে একটি লিঙ্কে রাইট-ক্লিক করেও **Open in new window** নির্বাচন করতে পারেন।
 
-## Move a file to a different window
+## একটি ফাইল ভিন্ন উইন্ডোতে সরানো
 
-**File explorer:**
+**ফাইল এক্সপ্লোরার:**
 
-In the [[File explorer]], drag the file to a tab group in the destination window.
+[[File explorer|ফাইল এক্সপ্লোরারে]], ফাইলটি গন্তব্য উইন্ডোর একটি ট্যাব গ্রুপে ড্র্যাগ করুন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-In the [[Command palette]], select **Move current tab in new window**.
+[[Command palette|কমান্ড প্যালেটে]], **Move current tab in new window** নির্বাচন করুন।
 
-**Tab:**
+**ট্যাব:**
 
-Drag the tab to a tab group in the destination window. Alternatively, right-click a tab and select **Move to new window**.
+ট্যাবটি গন্তব্য উইন্ডোর একটি ট্যাব গ্রুপে ড্র্যাগ করুন। এছাড়াও, একটি ট্যাবে রাইট-ক্লিক করে **Move to new window** বেছে নিন।

@@ -1,147 +1,146 @@
 ---
-localized: null
 permalink: sync/version-history
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Obsidian Sync keeps a record of all changes made to your notes and regularly checks for updates and creates new versions of your notes.
+description: Obsidian Sync আপনার নোটে করা সব পরিবর্তনের একটি রেকর্ড রাখে এবং নিয়মিত আপডেটের জন্য চেক করে এবং আপনার নোটের নতুন ভার্সন তৈরি করে।
 ---
-[[Introduction to Obsidian Sync|Obsidian Sync]] regularly checks for updates to your [[Sync settings and selective syncing|synced files]], keeping a record of any changes. These are stored as new entries in the [[#Version history]]. This information can be accessed in a few ways:
+[[Introduction to Obsidian Sync|Obsidian Sync]] নিয়মিতভাবে আপনার [[Sync settings and selective syncing|সিঙ্ক করা ফাইলে]] আপডেটের জন্য চেক করে, যেকোনো পরিবর্তনের একটি রেকর্ড রাখে। এগুলো [[#Version history]]-এ নতুন এন্ট্রি হিসেবে সংরক্ষণ করা হয়। এই তথ্যটি কয়েকটি উপায়ে অ্যাক্সেস করা যায়:
 
 - [[#Sync history]]
 - [[#Version history]]
 
-While not part of Obsidian Sync, a local version history is also available on each device if the [[File recovery]] plugin is enabled.
+Obsidian Sync-এর অংশ না হলেও, [[File recovery]] প্লাগইন সক্রিয় থাকলে প্রতিটি ডিভাইসে একটি লোকাল ভার্সন ইতিহাসও উপলব্ধ থাকে।
 
 ## Sync history
 
-The Sync history (or Sync sidebar) feature, introduced in Obsidian version 1.7, allows you to quickly view recently created or modified notes and attachments that have been synced. You can also think of it as an _editing_ history.
+Obsidian ভার্সন 1.7-এ চালু হওয়া Sync history (বা Sync sidebar) ফিচারটি আপনাকে সিঙ্ক করা সাম্প্রতিক তৈরি বা পরিবর্তিত নোট এবং অ্যাটাচমেন্ট দ্রুত দেখতে দেয়। আপনি এটিকে একটি _এডিটিং_ ইতিহাস হিসেবেও ভাবতে পারেন।
 
-In the sidebar, you can select an item to open its file in your active window. The items also have context menus, allowing you to perform actions such as moving the file or viewing its [[#Notes and attachments|Version history]].
+সাইডবারে, আপনি আপনার সক্রিয় উইন্ডোতে এর ফাইল খুলতে একটি আইটেম নির্বাচন করতে পারেন। আইটেমগুলোতে কনটেক্সট মেনুও রয়েছে, যা আপনাকে ফাইল সরানো বা এর [[#Notes and attachments|Version history]] দেখার মতো কাজ করতে দেয়।
 
-> [!compatibility] Desktop-only feature
-> When you hover over a synced file in the sidebar, you can see who last edited the file. This is especially useful if you are [[Collaborate on a shared vault|collaborating]] on a shared vault.
+> [!compatibility] শুধুমাত্র-ডেস্কটপ ফিচার
+> সাইডবারে একটি সিঙ্ক করা ফাইলের উপর হোভার করলে, আপনি দেখতে পারেন কে সর্বশেষ ফাইলটি এডিট করেছে। আপনি যদি একটি শেয়ার্ড ভল্টে [[Collaborate on a shared vault|সহযোগিতা]] করছেন তাহলে এটি বিশেষভাবে উপযোগী।
 
 > [!tip] 
-> Settings and deleted items will not appear in the Sync history sidebar. These can be found in the [[#Notes and attachments|Version history]] instead.
+> সেটিংস এবং মুছে ফেলা আইটেমগুলো Sync history সাইডবারে দেখা যাবে না। এগুলো পরিবর্তে [[#Notes and attachments|Version history]]-এ পাওয়া যাবে।
 
-### Show Sync history
+### Sync history দেখান
 
-When you enable the [[Introduction to Obsidian Sync|Sync]] core plugin, Sync history is automatically enabled but does not appear in the sidebar by default. You will need to manually add it using a command or a hotkey.
+আপনি যখন [[Introduction to Obsidian Sync|Sync]] কোর প্লাগইন সক্রিয় করেন, তখন Sync history স্বয়ংক্রিয়ভাবে সক্রিয় হয় তবে ডিফল্টভাবে সাইডবারে প্রদর্শিত হয় না। আপনাকে একটি কমান্ড বা হট-কি ব্যবহার করে ম্যানুয়ালি এটি যুক্ত করতে হবে।
 
-#### Enable via Command palette
+#### কমান্ড প্যালেটের মাধ্যমে সক্রিয় করুন
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] এই অপশনের জন্য [[Command palette]] কোর প্লাগইন সক্রিয় থাকা প্রয়োজন।
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**ডেস্কটপ/ট্যাবলেট** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette**. ![[lucide-terminal.svg#icon]]
-2. Type "Sync".
-3. Select the "Sync: Show Sync history" option.
+1. **কমান্ড প্যালেট** খুলুন। ![[lucide-terminal.svg#icon]]
+2. "Sync" টাইপ করুন।
+3. "Sync: Show Sync history" অপশনটি নির্বাচন করুন।
 
-Sync history will then appear in the [[Sidebar|right sidebar]].
+তারপর Sync history [[Sidebar|ডানদিকের সাইডবারে]] প্রদর্শিত হবে।
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**মোবাইল** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
-2. Open the **Command palette**. ![[lucide-terminal.svg#icon]]
-3. Type "Sync".
-4. Select the "Sync: Show Sync history" option.
+1. [[Ribbon]] ![[lucide-menu.svg#icon]] খুলুন।
+2. **কমান্ড প্যালেট** খুলুন। ![[lucide-terminal.svg#icon]]
+3. "Sync" টাইপ করুন।
+4. "Sync: Show Sync history" অপশনটি নির্বাচন করুন।
 
-Sync history will then appear as a dropdown option in the [[Sidebar|right sidebar]].
+তারপর Sync history [[Sidebar|ডানদিকের সাইডবারে]] একটি ড্রপডাউন অপশন হিসেবে প্রদর্শিত হবে।
 
-#### Enable via Hotkey
+#### হট-কি এর মাধ্যমে সক্রিয় করুন
 
-1. Open **[[Settings]]**.
-2. In the **Options** category, select **Hotkeys**.
-3. In the hotkeys search bar, type "Sync".
-4. Next to "Sync: Show Sync history," assign your preferred hotkey.
+1. **[[Settings]]** খুলুন।
+2. **Options** ক্যাটাগরিতে, **Hotkeys** নির্বাচন করুন।
+3. হট-কি অনুসন্ধান বারে, "Sync" টাইপ করুন।
+4. "Sync: Show Sync history"-এর পাশে, আপনার পছন্দের হট-কি নির্ধারণ করুন।
 
 ## Version history
 
-In addition to the [[#Sync history]], Obsidian also maintains a version history for restoring notes and attachments. If you accidentally delete a note or want to revert to a previous version, you can restore it from the version history.
+[[#Sync history]] ছাড়াও, Obsidian নোট এবং অ্যাটাচমেন্ট পুনরুদ্ধারের জন্য একটি ভার্সন ইতিহাসও বজায় রাখে। আপনি যদি ভুলবশত একটি নোট মুছে ফেলেন বা আগের একটি ভার্সনে ফিরে যেতে চান, তাহলে আপনি এটি ভার্সন ইতিহাস থেকে পুনরুদ্ধার করতে পারেন।
 
-The retention period for your version history depends on your [[Plans and storage limits|Obsidian Sync plan]]. On the Standard plan, notes are retained for 1 month, while on the Plus plan, they are kept for 12 months. After this period, older versions of your notes are deleted. 
+আপনার ভার্সন ইতিহাসের রিটেনশন সময়কাল আপনার [[Plans and storage limits|Obsidian Sync প্ল্যানের]] উপর নির্ভর করে। স্ট্যান্ডার্ড প্ল্যানে, নোট ১ মাসের জন্য রাখা হয়, যেখানে প্লাস প্ল্যানে, সেগুলো ১২ মাসের জন্য রাখা হয়। এই সময়ের পর, আপনার নোটের পুরনো ভার্সনগুলো মুছে ফেলা হয়।
 
-For [[Attachments|attachments]], older versions are stored for <u>two weeks</u>.
+[[Attachments|অ্যাটাচমেন্টের]] জন্য, পুরনো ভার্সনগুলো <u>দুই সপ্তাহের</u> জন্য সংরক্ষণ করা হয়।
 
 ![[Collaborate on a shared vault#^version-history-image]]
 
-### Notes and attachments
+### নোট এবং অ্যাটাচমেন্ট
 
-The process for restoring both notes and attachments is the same. 
+নোট এবং অ্যাটাচমেন্ট উভয়ই পুনরুদ্ধার করার প্রক্রিয়া একই।
 
-#### View version history of a file
+#### একটি ফাইলের ভার্সন ইতিহাস দেখুন
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Select **Open version history**.
-3. Select the version of the note you want to view on the left. The contents will be displayed on the right. 
+**ডেস্কটপ/ট্যাবলেট** ![[lucide-monitor-check.svg#icon]]
+1. **File explorer**-এ, আপনি যে নোটটি পুনরুদ্ধার করতে চান তা নির্বাচন করুন।
+2. **Open version history** নির্বাচন করুন।
+3. বাম দিকে আপনি যে নোটের ভার্সনটি দেখতে চান তা নির্বাচন করুন। কন্টেন্টটি ডানদিকে প্রদর্শিত হবে।
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Long press to bring up the context menu.
-3. Select **Open version history**.
-4. In the pop-up menu, select the version of the note you want to view. 
-5. Once selected, the contents of the note will be available to review.
+**মোবাইল** ![[obsidian-icon-smartphone.svg#icon]]
+1. **File explorer**-এ, আপনি যে নোটটি পুনরুদ্ধার করতে চান তা নির্বাচন করুন।
+2. কনটেক্সট মেনু আনতে দীর্ঘক্ষণ চাপুন।
+3. **Open version history** নির্বাচন করুন।
+4. পপ-আপ মেনুতে, আপনি যে নোটের ভার্সনটি দেখতে চান তা নির্বাচন করুন।
+5. নির্বাচন করার পর, নোটের কন্টেন্ট পর্যালোচনার জন্য উপলব্ধ হবে।
 
-#### View version history of a deleted or renamed file
+#### একটি মুছে ফেলা বা রিনেম করা ফাইলের ভার্সন ইতিহাস দেখুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Next to **Deleted files**, select **View**.
-4. Select the note you want to view the version history for.
-5. In the version history pop-up, select the version of the note you want to view on the left. 
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Core plugins**-এর অধীনে, **Sync** নির্বাচন করুন।
+3. **Deleted files**-এর পাশে, **View** নির্বাচন করুন।
+4. আপনি যে নোটের ভার্সন ইতিহাস দেখতে চান তা নির্বাচন করুন।
+5. ভার্সন ইতিহাস পপ-আপে, বাম দিকে আপনি যে নোটের ভার্সনটি দেখতে চান তা নির্বাচন করুন।
 
-#### Restore a previous version of a file
+#### একটি ফাইলের আগের ভার্সন পুনরুদ্ধার করুন
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Select **Open version history**.
-3. Select the version of the note you want to restore on the left. The contents will be displayed on the right.
-4. Select the **Restore** button.
-5. The note contents will be replaced with the restored version.
+**ডেস্কটপ/ট্যাবলেট** ![[lucide-monitor-check.svg#icon]]
+1. **File explorer**-এ, আপনি যে নোটটি পুনরুদ্ধার করতে চান তা নির্বাচন করুন।
+2. **Open version history** নির্বাচন করুন।
+3. বাম দিকে আপনি যে নোটের ভার্সনটি পুনরুদ্ধার করতে চান তা নির্বাচন করুন। কন্টেন্টটি ডানদিকে প্রদর্শিত হবে।
+4. **Restore** বাটন নির্বাচন করুন।
+5. নোটের কন্টেন্ট পুনরুদ্ধার করা ভার্সন দিয়ে প্রতিস্থাপিত হবে।
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
-1. In the **File explorer**, select the note you want to restore.
-2. Long press to bring up the context menu.
-3. Select **Open version history**.
-4. In the pop-up menu, select the version of the note you want to restore.
-5. Once selected, the contents of the note will be available to review.
-6. Select the **Restore** button.
-7. The note contents will be replaced with the restored version.
+**মোবাইল** ![[obsidian-icon-smartphone.svg#icon]]
+1. **File explorer**-এ, আপনি যে নোটটি পুনরুদ্ধার করতে চান তা নির্বাচন করুন।
+2. কনটেক্সট মেনু আনতে দীর্ঘক্ষণ চাপুন।
+3. **Open version history** নির্বাচন করুন।
+4. পপ-আপ মেনুতে, আপনি যে নোটের ভার্সনটি পুনরুদ্ধার করতে চান তা নির্বাচন করুন।
+5. নির্বাচন করার পর, নোটের কন্টেন্ট পর্যালোচনার জন্য উপলব্ধ হবে।
+6. **Restore** বাটন নির্বাচন করুন।
+7. নোটের কন্টেন্ট পুনরুদ্ধার করা ভার্সন দিয়ে প্রতিস্থাপিত হবে।
 
-#### Restore a deleted file
+#### একটি মুছে ফেলা ফাইল পুনরুদ্ধার করুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Next to **Deleted files**, select **View**.
-4. Choose the note you want to restore.
-5. In the list of versions to the left, select the version you want to restore.
-6. Select the **Restore** button on the right.
-7. The note will be restored to its original location in the filesystem.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Core plugins**-এর অধীনে, **Sync** নির্বাচন করুন।
+3. **Deleted files**-এর পাশে, **View** নির্বাচন করুন।
+4. আপনি যে নোটটি পুনরুদ্ধার করতে চান তা বেছে নিন।
+5. বাম দিকের ভার্সন তালিকায়, আপনি যে ভার্সনটি পুনরুদ্ধার করতে চান তা নির্বাচন করুন।
+6. ডানদিকে **Restore** বাটন নির্বাচন করুন।
+7. নোটটি ফাইলসিস্টেমে এর মূল অবস্থানে পুনরুদ্ধার করা হবে।
 
-> [!tip] You can select multiple notes with **bulk restore** by selecting the checkboxes, or using `shift+click`. These files will not be able to be reviewed in this menu. 
+> [!tip] আপনি চেকবক্স নির্বাচন করে, বা `shift+click` ব্যবহার করে **bulk restore**-এর মাধ্যমে একাধিক নোট নির্বাচন করতে পারেন। এই ফাইলগুলো এই মেনুতে পর্যালোচনা করা যাবে না।
 
-### Settings history
+### সেটিংস ইতিহাস
 
-Obsidian Sync also keeps track of the changes made to your vault configuration settings. 
+Obsidian Sync আপনার ভল্ট কনফিগারেশন সেটিংসে করা পরিবর্তনগুলোরও ট্র্যাক রাখে।
 
-#### View version history of a setting
+#### একটি সেটিংয়ের ভার্সন ইতিহাস দেখুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins***, select **Sync**.
-3. Navigate down to **Vault configuration sync**. 
-4. Select the **View** button next to **[[Settings]] version history**.
-5. In the **[[Settings]] File** pop-up, choose a settings file you want to view.  
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Core plugins**-এর অধীনে, **Sync** নির্বাচন করুন।
+3. **Vault configuration sync**-এ নিচে নেভিগেট করুন।
+4. **[[Settings]] version history**-এর পাশে **View** বাটন নির্বাচন করুন।
+5. **[[Settings]] File** পপ-আপে, আপনি যে সেটিংস ফাইলটি দেখতে চান তা বেছে নিন।
 
-#### Restore a previous version of a setting
+#### একটি সেটিংয়ের আগের ভার্সন পুনরুদ্ধার করুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, under **Core plugins**, select **Sync**.
-3. Navigate down to **Vault configuration sync**. 
-4. Select the **View** button next to **[[Settings]] version history**.
-5. In the **[[Settings]] File** pop-up, choose a settings file you want to view.  
-6. In the changes window, select the **Restore** button.
-7. Reload or restart Obsidian to have the setting take effect. For more details, refer to the instructions in [[Set up Obsidian Sync#Adjust Obsidian Sync settings|Adjust Obsidian Sync settings]].
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Core plugins**-এর অধীনে, **Sync** নির্বাচন করুন।
+3. **Vault configuration sync**-এ নিচে নেভিগেট করুন।
+4. **[[Settings]] version history**-এর পাশে **View** বাটন নির্বাচন করুন।
+5. **[[Settings]] File** পপ-আপে, আপনি যে সেটিংস ফাইলটি দেখতে চান তা বেছে নিন।
+6. পরিবর্তনের উইন্ডোতে, **Restore** বাটন নির্বাচন করুন।
+7. সেটিং কার্যকর হওয়ার জন্য Obsidian রিলোড বা পুনরায় চালু করুন। আরও বিস্তারিত জানতে, [[Set up Obsidian Sync#Adjust Obsidian Sync settings|আপনার Sync সেটিংস সমন্বয় করা]]-এ নির্দেশাবলী দেখুন।

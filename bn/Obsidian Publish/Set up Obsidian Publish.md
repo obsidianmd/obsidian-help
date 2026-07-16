@@ -1,111 +1,110 @@
 ---
-localized: null
 permalink: publish/setup
 mobile: true
-description: 'In this guide, you''ll enable Obsidian Publish for your vault, create a site, and publish your notes to it.'
+description: 'এই গাইডে, আপনি আপনার ভল্টের জন্য Obsidian Publish চালু করবেন, একটি সাইট তৈরি করবেন, এবং সেখানে আপনার নোট প্রকাশ করবেন।'
 ---
-In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish]] for your vault, create a site, and publish your notes to it.
+এই গাইডে, আপনি আপনার ভল্টের জন্য [[Introduction to Obsidian Publish|Obsidian Publish]] চালু করবেন, একটি সাইট তৈরি করবেন, এবং সেখানে আপনার নোট প্রকাশ করবেন।
 
-## Prerequisites
+## পূর্বশর্ত
 
-- An Obsidian account. If you don't have one, [sign up now](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup).
-- An active Obsidian Publish subscription. If you don't have one, subscribe from [your account dashboard](https://obsidian.md/account/publish).
+- একটি Obsidian অ্যাকাউন্ট। যদি আপনার একটি না থাকে, [এখনই সাইন আপ করুন](https://obsidian.md/auth?returnto=%2Faccount%2Fpublish#signup)।
+- একটি সক্রিয় Obsidian Publish সাবস্ক্রিপশন। যদি আপনার একটি না থাকে, [আপনার অ্যাকাউন্ট ড্যাশবোর্ড](https://obsidian.md/account/publish) থেকে সাবস্ক্রাইব করুন।
 
-## Log in with your Obsidian account
+## আপনার Obsidian অ্যাকাউন্ট দিয়ে লগ ইন করুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **General**.
-3. Under **Account → Your account**, select **Log in**.
-4. In **Email**, enter your email.
-5. In **Password**, enter your password.
-6. Click **Login**.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **General** নির্বাচন করুন।
+3. **Account → Your account**-এর অধীনে, **Log in** নির্বাচন করুন।
+4. **Email**-এ, আপনার ইমেইল লিখুন।
+5. **Password**-এ, আপনার পাসওয়ার্ড লিখুন।
+6. **Login**-এ ক্লিক করুন।
 
-## Enable Obsidian Publish
+## Obsidian Publish চালু করুন
 
-1. Open **[[Settings]]**.
-2. In the sidebar, select **Core plugins**.
-3. Enable **Publish**.
+1. **[[Settings]]** খুলুন।
+2. সাইডবারে, **Core plugins** নির্বাচন করুন।
+3. **Publish** চালু করুন।
 
-### Open Publish
+### Publish খুলুন
 
-You can access Publish through the following options: the command palette, a hotkey, or the ribbon.
+আপনি নিচের অপশনগুলোর মাধ্যমে Publish অ্যাক্সেস করতে পারেন: কমান্ড প্যালেট, একটি হট-কি, অথবা রিবন।
 
-#### Open via Command palette
+#### কমান্ড প্যালেটের মাধ্যমে খুলুন
 
-> [!info] This option requires the [[Command palette]] core plugin to be enabled.
+> [!info] এই অপশনের জন্য [[Command palette|কমান্ড প্যালেট]] কোর প্লাগইন চালু থাকা প্রয়োজন।
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**ডেস্কটপ/ট্যাবলেট** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the **Command palette** ![[lucide-terminal.svg#icon]].
-2. Type "Publish".
-3. Select the **Publish: Publish changes...** option.
+1. **কমান্ড প্যালেট** ![[lucide-terminal.svg#icon]] খুলুন।
+2. "Publish" টাইপ করুন।
+3. **Publish: Publish changes...** অপশন নির্বাচন করুন।
 
-The **Publish changes** window will appear in a new pop-up.
+**Publish changes** উইন্ডোটি একটি নতুন পপ-আপে দেখা যাবে।
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**মোবাইল** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
-2. Open the **Command palette** ![[lucide-terminal.svg#icon]].
-3. Type "Publish".
-4. Select the **Publish: Publish changes...** option.
+1. [[Ribbon|রিবন]] ![[lucide-menu.svg#icon]] খুলুন।
+2. **কমান্ড প্যালেট** ![[lucide-terminal.svg#icon]] খুলুন।
+3. "Publish" টাইপ করুন।
+4. **Publish: Publish changes...** অপশন নির্বাচন করুন।
 
-The **Publish changes** menu will appear as a slide-up.
+**Publish changes** মেনুটি একটি স্লাইড-আপ হিসেবে দেখা যাবে।
 
-#### Open via hotkey
+#### হট-কির মাধ্যমে খুলুন
 
-1. Open **[[Settings]]**.
-2. In the **Options** category, select **Hotkeys**.
-3. In the hotkey search bar, type "Publish".
-4. Next to **Publish: Publish changes...**, assign your preferred hotkey.
-5. Close **[[Settings]]**.
-6. Use your hotkey to open **Publish changes**.
+1. **[[Settings]]** খুলুন।
+2. **Options** বিভাগে, **Hotkeys** নির্বাচন করুন।
+3. হট-কি অনুসন্ধান বারে, "Publish" টাইপ করুন।
+4. **Publish: Publish changes...**-এর পাশে, আপনার পছন্দের হট-কি নির্ধারণ করুন।
+5. **[[Settings]]** বন্ধ করুন।
+6. **Publish changes** খুলতে আপনার হট-কি ব্যবহার করুন।
 
-#### Open via ribbon
+#### রিবনের মাধ্যমে খুলুন
 
-You can also access Obsidian Publish via the [[ribbon]].
+আপনি [[ribbon|রিবন]]-এর মাধ্যমেও Obsidian Publish অ্যাক্সেস করতে পারেন।
 
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
+**ডেস্কটপ/ট্যাবলেট** ![[lucide-monitor-check.svg#icon]]
 
-1. Open the left [[Sidebar]] ![[obsidian-icon-side-bar-left.svg#icon]].
-2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.
+1. বাম [[Sidebar|সাইডবার]] ![[obsidian-icon-side-bar-left.svg#icon]] খুলুন।
+2. **Publish changes** ![[lucide-send.svg#icon]] আইকন নির্বাচন করুন।
 
-The **Publish changes** window will appear in a new pop-up.
+**Publish changes** উইন্ডোটি একটি নতুন পপ-আপে দেখা যাবে।
 
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+**মোবাইল** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
-2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.
+1. [[Ribbon|রিবন]] ![[lucide-menu.svg#icon]] খুলুন।
+2. **Publish changes** ![[lucide-send.svg#icon]] আইকন নির্বাচন করুন।
 
-The **Publish changes** menu will appear as a slide-up.
+**Publish changes** মেনুটি একটি স্লাইড-আপ হিসেবে দেখা যাবে।
 
-## Create a new site
-
-1. [[#Open Publish]]
-2. In **Site ID**, enter the path you want for your site. For example, a site with the ID `my-amazing-site` is available from `publish.obsidian.md/my-amazing-site`.
-3. Select **Create**.
-### Set a site name
+## একটি নতুন সাইট তৈরি করুন
 
 1. [[#Open Publish]]
-2. Select **Change site options** ![[lucide-cog.svg#icon]].
-3. In **Site name**, under **General**, enter the name of your site.
-4. Select **Save site settings**.
+2. **Site ID**-এ, আপনি আপনার সাইটের জন্য যে পাথ চান তা লিখুন। উদাহরণস্বরূপ, `my-amazing-site` ID-যুক্ত একটি সাইট `publish.obsidian.md/my-amazing-site`-এ উপলব্ধ থাকবে।
+3. **Create** নির্বাচন করুন।
+### একটি সাইটের নাম নির্ধারণ করুন
 
-> [!abstract] **Further reading**: [[Manage sites]], [[Customize your site]]
+1. [[#Open Publish]]
+2. **Change site options** ![[lucide-cog.svg#icon]] নির্বাচন করুন।
+3. **General**-এর অধীনে **Site name**-এ, আপনার সাইটের নাম লিখুন।
+4. **Save site settings** নির্বাচন করুন।
+
+> [!abstract] **আরও পড়ুন**: [[Manage sites]], [[Customize your site]]
  
-## Select notes to publish
+## প্রকাশের জন্য নোট নির্বাচন করুন
 
 1. [[#Open Publish]]
-2. Select **NEW** to view all the notes you haven’t published yet.
-3. Choose the notes you want to publish.
-4. Select **Publish**.
+2. আপনি এখনো প্রকাশ করেননি এমন সব নোট দেখতে **NEW** নির্বাচন করুন।
+3. আপনি যে নোটগুলো প্রকাশ করতে চান তা বেছে নিন।
+4. **Publish** নির্বাচন করুন।
 
-> [!abstract] **Further reading**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
+> [!abstract] **আরও পড়ুন**: [[Publish your content]], [[Obsidian Publish/Security and privacy|Security and privacy]], [[Publish limitations|Publish limitations]]
 
-You've configured an Obsidian Publish site and published your first notes. Head over to the site address you configured earlier in this guide, and start sharing it with your readers.
+আপনি একটি Obsidian Publish সাইট কনফিগার করেছেন এবং আপনার প্রথম নোটগুলো প্রকাশ করেছেন। এই গাইডে আগে কনফিগার করা সাইটের ঠিকানায় যান, এবং আপনার পাঠকদের সাথে এটি শেয়ার করা শুরু করুন।
 
-## Next steps
+## পরবর্তী ধাপ
 
-Now that you've published your first notes, you might want to:
-- Set up a custom domain for your site: [[Custom domains]]
-- Learn about advanced site customization: [[Customize your site]]
-- Find out how to add social media cards: [[Social media link previews]]
+এখন যেহেতু আপনি আপনার প্রথম নোটগুলো প্রকাশ করেছেন, আপনি হয়তো চাইতে পারেন:
+- আপনার সাইটের জন্য একটি কাস্টম ডোমেইন সেট আপ করা: [[Custom domains]]
+- উন্নত সাইট কাস্টমাইজেশন সম্পর্কে জানা: [[Customize your site]]
+- সোশ্যাল মিডিয়া কার্ড কীভাবে যোগ করবেন তা জানা: [[Social media link previews]]

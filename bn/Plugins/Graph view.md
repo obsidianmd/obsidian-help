@@ -1,90 +1,89 @@
 ---
-localized: null
 permalink: plugins/graph
 publish: true
 mobile: true
-description: Graph view is a core plugin that lets you visualize the relationships between the notes in your vault.
+description: গ্রাফ ভিউ একটি কোর প্লাগইন যা আপনাকে আপনার ভল্টের নোটগুলির মধ্যেকার সম্পর্ক ভিজ্যুয়ালাইজ করতে দেয়।
 ---
-Graph view is a [[Core plugins|core plugin]] that lets you visualize the relationships between the notes in your vault.
+গ্রাফ ভিউ একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে আপনার ভল্টের নোটগুলির মধ্যেকার সম্পর্ক ভিজ্যুয়ালাইজ করতে দেয়।
 
-To open the Graph view, click **Open graph view** in the [[Ribbon]].
+গ্রাফ ভিউ খুলতে, [[Ribbon]]-এ **Open graph view**-এ ক্লিক করুন।
 
-- Circles represent notes, or _nodes_.
-- Lines represent [[Internal links]] between two nodes.
+- বৃত্তগুলি নোট, বা _নোড_ প্রতিনিধিত্ব করে।
+- রেখাগুলি দুটি নোডের মধ্যে [[Internal links]] প্রতিনিধিত্ব করে।
 
-The more nodes that reference a given node, the bigger it gets.
+একটি নির্দিষ্ট নোডকে যত বেশি নোড উল্লেখ করে, সেটি তত বড় হয়ে যায়।
 
-To interact with notes in the graph:
+গ্রাফে নোটগুলির সাথে ইন্টারঅ্যাক্ট করতে:
 
-- Hover over each circle to highlight that note's connections.
-- Click a note in the graph to open that note.
-- Right-click a note to open a context menu with the actions available for that note.
+- সেই নোটের সংযোগগুলি হাইলাইট করতে প্রতিটি বৃত্তের উপর হোভার করুন।
+- সেই নোটটি খুলতে গ্রাফে একটি নোটে ক্লিক করুন।
+- সেই নোটের জন্য উপলব্ধ কার্যক্রম সহ একটি কনটেক্সট মেনু খুলতে একটি নোটে ডান-ক্লিক করুন।
 
-To navigate around the graph:
+গ্রাফের চারপাশে নেভিগেট করতে:
 
-- Zoom in and out using the scroll wheel on your mouse, or using the `+` and `-` keys.
-- Move the graph around by dragging it with your mouse cursor, or using the arrow keys.
+- আপনার মাউসের স্ক্রল হুইল ব্যবহার করে, অথবা `+` এবং `-` কী ব্যবহার করে জুম ইন এবং আউট করুন।
+- আপনার মাউস কার্সর দিয়ে টেনে, অথবা অ্যারো কী ব্যবহার করে গ্রাফটি ইতস্তত সরান।
 
-You can hold Shift while using the keyboard to speed up the movements.
+আপনি নড়াচড়া দ্রুত করতে কীবোর্ড ব্যবহার করার সময় Shift চেপে ধরে রাখতে পারেন।
 
-## Settings
+## সেটিংস
 
-To open the graph settings, click the cog icon in the upper-right corner of the graph view.
+গ্রাফ সেটিংস খুলতে, গ্রাফ ভিউয়ের উপরের-ডানদিকের কোণে কগ আইকনে ক্লিক করুন।
 
-Click **Restore default settings** in the upper-right corner of the settings box to reset any changes you make.
+আপনার করা যেকোনো পরিবর্তন রিসেট করতে সেটিংস বক্সের উপরের-ডানদিকের কোণে **Restore default settings**-এ ক্লিক করুন।
 
-### Filters
+### ফিল্টার
 
-This section controls what nodes to show in the graph.
+এই বিভাগটি গ্রাফে কোন নোড দেখানো হবে তা নিয়ন্ত্রণ করে।
 
-- **Search files** lets you filter notes based on a search term. To learn about how you can write more advanced search terms, refer to [[Search]].
-- **Tags** toggles whether to show tags in the graph.
-- **Attachments** toggles whether to show attachments in the graph.
-- **Existing files only** toggles whether to show notes that exists in your vault. Since a note doesn't need to exist to link to it, this can help limit your graph to notes that you actually have in your vault.
-- **Orphans** toggles whether to show notes without any links.
+- **Search files** আপনাকে একটি অনুসন্ধান টার্মের উপর ভিত্তি করে নোট ফিল্টার করতে দেয়। আরও উন্নত অনুসন্ধান টার্ম কীভাবে লিখবেন তা জানতে, [[Search]] দেখুন।
+- **Tags** গ্রাফে ট্যাগ দেখানো হবে কিনা তা টগল করে।
+- **Attachments** গ্রাফে সংযুক্তি দেখানো হবে কিনা তা টগল করে।
+- **Existing files only** আপনার ভল্টে বিদ্যমান নোট দেখানো হবে কিনা তা টগল করে। যেহেতু একটি নোট বিদ্যমান না থাকলেও এটিকে লিঙ্ক করা যায়, এটি আপনার গ্রাফকে আপনার ভল্টে প্রকৃতপক্ষে থাকা নোটগুলিতে সীমাবদ্ধ রাখতে সাহায্য করতে পারে।
+- **Orphans** কোনো লিঙ্ক ছাড়া নোট দেখানো হবে কিনা তা টগল করে।
 
-> [!info] Excluded files
-> Files matching your [[Settings#Excluded files|Excluded files]] patterns will not appear in Graph view.
+> [!info] বাদ দেয়া ফাইল
+> আপনার [[Settings#Excluded files|বাদ দেয়া ফাইল]] প্যাটার্নের সাথে মিলে যাওয়া ফাইলগুলি গ্রাফ ভিউতে প্রদর্শিত হবে না।
 
-### Groups
+### গ্রুপ
 
-Create groups of notes to distinguish them from each other using color.
+রং ব্যবহার করে নোটগুলিকে একে অপর থেকে আলাদা করতে নোটের গ্রুপ তৈরি করুন।
 
-To create a new group:
+একটি নতুন গ্রুপ তৈরি করতে:
 
-1. Click **New group**.
-2. In the search box, type a search term for the notes you want to add to the group.
-3. Click the colored circle to give the group a color.
+1. **New group**-এ ক্লিক করুন।
+2. অনুসন্ধান বক্সে, আপনি যে নোটগুলি গ্রুপে যোগ করতে চান তার জন্য একটি অনুসন্ধান টার্ম টাইপ করুন।
+3. গ্রুপটিকে একটি রং দিতে রঙিন বৃত্তে ক্লিক করুন।
 
-To learn about how you can write more advanced search terms, refer to [[Search]].
+আরও উন্নত অনুসন্ধান টার্ম কীভাবে লিখবেন তা জানতে, [[Search]] দেখুন।
 
-### Display
+### প্রদর্শন
 
-This section controls how to visualize nodes and links in the graph.
+এই বিভাগটি গ্রাফে নোড এবং লিঙ্ক কীভাবে ভিজ্যুয়ালাইজ করা হবে তা নিয়ন্ত্রণ করে।
 
-- **Arrows** toggles whether to show the direction of each link.
-- **Text fade threshold** controls the text transparency for the name of each note.
-- **Node size** controls the size of the circle representing each note.
-- **Link thickness** controls the line width for each link.
-- **Animate** starts a [[#Start a time-lapse animation|time-lapse animation]].
+- **Arrows** প্রতিটি লিঙ্কের দিক দেখানো হবে কিনা তা টগল করে।
+- **Text fade threshold** প্রতিটি নোটের নামের জন্য টেক্সট স্বচ্ছতা নিয়ন্ত্রণ করে।
+- **Node size** প্রতিটি নোটের প্রতিনিধিত্বকারী বৃত্তের আকার নিয়ন্ত্রণ করে।
+- **Link thickness** প্রতিটি লিঙ্কের রেখার প্রস্থ নিয়ন্ত্রণ করে।
+- **Animate** একটি [[#একটি টাইম-ল্যাপস অ্যানিমেশন শুরু করুন|টাইম-ল্যাপস অ্যানিমেশন]] শুরু করে।
 
-### Forces
+### ফোর্স
 
-This section controls the forces that act on each node in the graph.
+এই বিভাগটি গ্রাফে প্রতিটি নোডের উপর কাজ করা ফোর্স নিয়ন্ত্রণ করে।
 
-- **Center force** controls how compact the graph is. A higher value creates a more circular graph.
-- **Repel force** controls how much a node pushes other nodes away from it.
-- **Link force** controls the pull on each link. If the link was a rubber band, the link force controls how tight or loose the band is.
-- **Link distance** controls the length of the lines between each note.
+- **Center force** গ্রাফ কতটা কমপ্যাক্ট তা নিয়ন্ত্রণ করে। একটি বেশি মান আরও বৃত্তাকার গ্রাফ তৈরি করে।
+- **Repel force** একটি নোড অন্য নোডগুলিকে কতটা দূরে ঠেলে দেয় তা নিয়ন্ত্রণ করে।
+- **Link force** প্রতিটি লিঙ্কের উপর টান নিয়ন্ত্রণ করে। লিঙ্কটি যদি একটি রাবার ব্যান্ড হতো, তাহলে লিঙ্ক ফোর্স নিয়ন্ত্রণ করে ব্যান্ডটি কতটা টানটান বা ঢিলা।
+- **Link distance** প্রতিটি নোটের মধ্যেকার রেখার দৈর্ঘ্য নিয়ন্ত্রণ করে।
 
-## Start a time-lapse animation
+## একটি টাইম-ল্যাপস অ্যানিমেশন শুরু করুন
 
-Notes and attachments appear in chronological order based on their creation time.
+নোট এবং সংযুক্তিগুলি তাদের তৈরির সময়ের উপর ভিত্তি করে কালানুক্রমিক ক্রমে প্রদর্শিত হয়।
 
 ![[obsidian-graph-view.png#interface]]
 
-## Local Graph
+## লোকাল গ্রাফ
 
-To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
+একটি লোকাল গ্রাফ ভিউ খুলতে, **Open local graph** কমান্ড ব্যবহার করুন। গ্রাফ ভিউ যখন আপনার ভল্টের সব নোট দেখায়, তখন একটি লোকাল গ্রাফ ভিউ আপনাকে সক্রিয় নোটের সাথে সংযুক্ত নোট দেখায়।
 
-The local Graph view can use all of the [[#Settings]] available to the global Graph view. Additionally, you can change the depth of the local graph. Each level of depth will show notes connected to the notes revealed at the previous depth. To control local Graph depth, use the slider at the top of the local Graph Filter Settings panel.
+লোকাল গ্রাফ ভিউ গ্লোবাল গ্রাফ ভিউয়ের জন্য উপলব্ধ সব [[#সেটিংস]] ব্যবহার করতে পারে। এছাড়াও, আপনি লোকাল গ্রাফের গভীরতা পরিবর্তন করতে পারেন। গভীরতার প্রতিটি স্তর পূর্ববর্তী গভীরতায় প্রকাশিত নোটগুলির সাথে সংযুক্ত নোট দেখাবে। লোকাল গ্রাফের গভীরতা নিয়ন্ত্রণ করতে, লোকাল গ্রাফ ফিল্টার সেটিংস প্যানেলের উপরের স্লাইডার ব্যবহার করুন।

@@ -1,127 +1,126 @@
 ---
-localized: null
 permalink: bases/views
 ---
-Views allow you to organize the information in a [[Introduction to Bases|Base]] in multiple ways. A base can contain several views, and each view can have a unique configuration to display, sort, and filter files.
+ভিউ আপনাকে একটি [[Introduction to Bases|Base]]-এর তথ্য একাধিক উপায়ে সাজাতে দেয়। একটি বেসে একাধিক ভিউ থাকতে পারে, এবং প্রতিটি ভিউয়ের ফাইল প্রদর্শন, সাজানো এবং ফিল্টার করার জন্য নিজস্ব কনফিগারেশন থাকতে পারে।
 
-For example, you may want to create a base called "Books" that has separate views for "Reading list" and "Recently finished".
+উদাহরণস্বরূপ, আপনি "Books" নামে একটি বেস তৈরি করতে চাইতে পারেন যেখানে "Reading list" এবং "Recently finished"-এর জন্য আলাদা ভিউ রয়েছে।
 
-## Toolbar
+## টুলবার
 
-At the top of a base is a toolbar that lets you interact with views and their results.
+একটি বেসের শীর্ষে একটি টুলবার থাকে যা আপনাকে ভিউ এবং তাদের ফলাফলের সাথে ইন্টারঅ্যাক্ট করতে দেয়।
 
-- ![[lucide-table.svg#icon]] **View menu** — create, edit, and switch views.
-- **Results** — limit, copy and export files.
-- ![[lucide-arrow-up-down.svg#icon]] **Sort** — sort and group files.
-- ![[lucide-list-filter.svg#icon]] **Filter** — filter files.
-- ![[lucide-list.svg#icon]] **Properties** — choose properties to display and create [[formulas]].
-- ![[lucide-search.svg#icon]] **Search** — search for items using their displayed properties.
-- ![[lucide-plus.svg#icon]] **New** — create a new file in the current view.
+- ![[lucide-table.svg#icon]] **ভিউ মেনু** — ভিউ তৈরি, সম্পাদনা এবং পরিবর্তন করুন।
+- **ফলাফল** — ফাইল সীমিত, কপি এবং এক্সপোর্ট করুন।
+- ![[lucide-arrow-up-down.svg#icon]] **সাজানো** — ফাইল সাজান এবং গ্রুপ করুন।
+- ![[lucide-list-filter.svg#icon]] **ফিল্টার** — ফাইল ফিল্টার করুন।
+- ![[lucide-list.svg#icon]] **প্রপার্টি** — প্রদর্শনের জন্য প্রপার্টি বেছে নিন এবং [[formulas|ফর্মুলা]] তৈরি করুন।
+- ![[lucide-search.svg#icon]] **অনুসন্ধান** — প্রদর্শিত প্রপার্টি ব্যবহার করে আইটেম খুঁজুন।
+- ![[lucide-plus.svg#icon]] **নতুন** — বর্তমান ভিউয়ে একটি নতুন ফাইল তৈরি করুন।
 
-## Add and switch views
+## ভিউ যোগ ও পরিবর্তন করা
 
-There are two ways to add a view to a base:
+একটি বেসে ভিউ যোগ করার দুটি উপায় আছে:
 
-- Click the view name in the top left and select ![[lucide-plus.svg#icon]] **Add view**.
-- Use the [[command palette]] and select **Bases: Add view**.
+- উপরের বাম দিকে ভিউয়ের নাম ক্লিক করে ![[lucide-plus.svg#icon]] **Add view** নির্বাচন করুন।
+- [[command palette|কমান্ড প্যালেট]] ব্যবহার করে **Bases: Add view** নির্বাচন করুন।
 
-The first view in your list of views will load by default. Drag views by their icon to change their order.
+আপনার ভিউ তালিকার প্রথম ভিউটি ডিফল্টরূপে লোড হবে। ভিউগুলোর ক্রম পরিবর্তন করতে তাদের আইকন ধরে টেনে আনুন।
 
-## View settings
+## ভিউ সেটিংস
 
-Each view has its own configuration options. To edit view settings:
+প্রতিটি ভিউয়ের নিজস্ব কনফিগারেশন অপশন থাকে। ভিউ সেটিংস সম্পাদনা করতে:
 
-1. Click the view name in the top left.
-2. Click the right arrow next to the view you want to configure.
+1. উপরের বাম দিকে ভিউয়ের নাম ক্লিক করুন।
+2. আপনি যে ভিউটি কনফিগার করতে চান তার পাশের ডান তীর চিহ্নে ক্লিক করুন।
 
-Alternatively *right-click* the view name in the base's toolbar to quickly access the view settings.
+বিকল্পভাবে, ভিউ সেটিংসে দ্রুত প্রবেশ করতে বেসের টুলবারে ভিউয়ের নামে *ডান-ক্লিক* করুন।
 
-## Layout
+## লেআউট
 
-Views can be displayed with different layouts including as  ![[lucide-table.svg#icon]] **table**, ![[lucide-list.svg#icon]] **list**, ![[lucide-layout-grid.svg#icon]] **cards**, and ![[lucide-map.svg#icon]] **map**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
+ভিউগুলো বিভিন্ন লেআউটে প্রদর্শিত হতে পারে, যেমন ![[lucide-table.svg#icon]] **টেবিল**, ![[lucide-list.svg#icon]] **লিস্ট**, ![[lucide-layout-grid.svg#icon]] **কার্ডস**, এবং ![[lucide-map.svg#icon]] **ম্যাপ**। [[Community plugins|কমিউনিটি প্লাগইন]] দিয়ে আরও লেআউট যোগ করা যায়। কিছু লেআউট এখনও তৈরি হচ্ছে এবং Obsidian-এর [[early access versions|আর্লি অ্যাক্সেস সংস্করণ]] প্রয়োজন।
 
-| Layout                | Description                                                                                   | App&nbsp;version |
+| লেআউট                | বর্ণনা                                                                                   | অ্যাপ&nbsp;সংস্করণ |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
-| [[Table view\|Table]] | Display files as rows in a table. Columns are populated from [[properties]] in your notes.    | 1.9              |
-| [[Cards view\|Cards]] | Display files as a grid of cards. Lets you create gallery-like views with images.             | 1.9              |
-| [[List view\|List]]   | Display files as a [[Basic formatting syntax#Lists\|list]] with bulleted or numbered markers. | 1.10             |
-| [[Map view\|Map]]     | Display files as pins on an interactive map. Requires the Maps plugin.                        | 1.10             |
+| [[Table view\|টেবিল]] | ফাইলগুলোকে টেবিলে সারি হিসেবে প্রদর্শন করে। কলামগুলো আপনার নোটের [[properties|প্রপার্টি]] থেকে পূরণ হয়।    | 1.9              |
+| [[Cards view\|কার্ডস]] | ফাইলগুলোকে কার্ডের গ্রিড হিসেবে প্রদর্শন করে। ছবি ব্যবহার করে গ্যালারির মতো ভিউ তৈরি করতে দেয়।             | 1.9              |
+| [[List view\|লিস্ট]]   | ফাইলগুলোকে বুলেট বা সংখ্যাযুক্ত মার্কার সহ একটি [[Basic formatting syntax#Lists\|লিস্ট]] হিসেবে প্রদর্শন করে। | 1.10             |
+| [[Map view\|ম্যাপ]]     | ফাইলগুলোকে একটি ইন্টারঅ্যাক্টিভ ম্যাপে পিন হিসেবে প্রদর্শন করে। Maps প্লাগইন প্রয়োজন।                        | 1.10             |
 
 
-## Filters
+## ফিল্টার
 
-Open the ![[lucide-list-filter.svg#icon]] **Filter** menu at the top of a base to add filters.
+ফিল্টার যোগ করতে একটি বেসের শীর্ষে ![[lucide-list-filter.svg#icon]] **ফিল্টার** মেনু খুলুন।
 
-A base without filters shows all the files in your vault. Filters narrow down the results to only show files that meet specific criteria. For example, you can use filters to only display files with a specific [[Tags|tag]] or within a specific folder. Many filter types are available.
+ফিল্টার ছাড়া একটি বেস আপনার ভল্টের সমস্ত ফাইল প্রদর্শন করে। ফিল্টার শুধুমাত্র নির্দিষ্ট শর্ত পূরণকারী ফাইল দেখাতে ফলাফলকে সংকুচিত করে। উদাহরণস্বরূপ, আপনি নির্দিষ্ট [[Tags|ট্যাগ]] থাকা বা নির্দিষ্ট ফোল্ডারের মধ্যে থাকা ফাইল প্রদর্শন করতে ফিল্টার ব্যবহার করতে পারেন। অনেক ধরনের ফিল্টার পাওয়া যায়।
 
-Filters can be applied to all views in a base, or just a single view by choosing from the two sections in the ![[lucide-list-filter.svg#icon]] **Filter** menu.
+![[lucide-list-filter.svg#icon]] **ফিল্টার** মেনুর দুটি অংশ থেকে বেছে নিয়ে একটি বেসের সব ভিউতে, অথবা শুধু একটি ভিউতে ফিল্টার প্রয়োগ করা যায়।
 
-- **All views** applies filters to all views in the base.
-- **This view** applies filters to the active view.
+- **All views** বেসের সব ভিউতে ফিল্টার প্রয়োগ করে।
+- **This view** সক্রিয় ভিউতে ফিল্টার প্রয়োগ করে।
 
-#### Components of a filter
+#### একটি ফিল্টারের উপাদান
 
-Filters have three components:
+ফিল্টারের তিনটি উপাদান থাকে:
 
-1. **Property** — lets you choose a [[Properties|property]] in your vault, including [[Bases syntax#File properties|file properties]].
-2. **Operator** — lets you choose how to compare the conditions. The list of available operators depends on the property type (text, date, number, etc) 
-3. **Value** — lets you choose the value you are comparing to. Values can include math and [[Functions|functions]].
+1. **প্রপার্টি** — আপনার ভল্টে একটি [[Properties|প্রপার্টি]] বেছে নিতে দেয়, [[Bases syntax#File properties|ফাইল প্রপার্টি]] সহ।
+2. **অপারেটর** — শর্তগুলো কীভাবে তুলনা করা হবে তা বেছে নিতে দেয়। উপলব্ধ অপারেটরের তালিকা প্রপার্টির ধরনের (টেক্সট, তারিখ, সংখ্যা, ইত্যাদি) উপর নির্ভর করে।
+3. **মান** — আপনি যে মানের সাথে তুলনা করছেন তা বেছে নিতে দেয়। মানের মধ্যে গণিত এবং [[Functions|ফাংশন]] অন্তর্ভুক্ত থাকতে পারে।
 
-#### Conjunctions
+#### সংযোজক
 
-- **All the following are true** is an `and` statement — results will only be shown if *all* conditions in the filter group are met.
-- **Any of the following are true** is an `or` statement — results will be shown if *any* of the conditions in the filter group are met.
-- **None of the following are true** is a `not` statement — results will not be shown if *any* of the conditions in the filter group are met.
+- **All the following are true** একটি `and` স্টেটমেন্ট — ফলাফল তখনই দেখানো হবে যখন ফিল্টার গ্রুপের *সব* শর্ত পূরণ হয়।
+- **Any of the following are true** একটি `or` স্টেটমেন্ট — ফলাফল দেখানো হবে যখন ফিল্টার গ্রুপের *যেকোনো* শর্ত পূরণ হয়।
+- **None of the following are true** একটি `not` স্টেটমেন্ট — ফিল্টার গ্রুপের *যেকোনো* শর্ত পূরণ হলে ফলাফল দেখানো হবে না।
 
-#### Filter groups
+#### ফিল্টার গ্রুপ
 
-Filter groups allow you to create more complex logic by creating combinations on conjunctions.
+ফিল্টার গ্রুপ সংযোজকের সমন্বয় তৈরি করে আরও জটিল লজিক তৈরি করতে দেয়।
 
-#### Advanced filter editor
+#### অ্যাডভান্সড ফিল্টার এডিটর
 
-Click the code button ![[lucide-code-xml.svg#icon]] to use the **advanced filter** editor. This displays the raw [[Bases syntax|syntax]] for the filter, and can be used with more complex [[Functions|functions]] that cannot be displayed using the point-and-click interface.
+**অ্যাডভান্সড ফিল্টার** এডিটর ব্যবহার করতে কোড বোতাম ![[lucide-code-xml.svg#icon]] ক্লিক করুন। এটি ফিল্টারের কাঁচা [[Bases syntax|সিনট্যাক্স]] প্রদর্শন করে, এবং এটি আরও জটিল [[Functions|ফাংশনের]] সাথে ব্যবহার করা যায় যা পয়েন্ট-অ্যান্ড-ক্লিক ইন্টারফেসে প্রদর্শন করা যায় না।
 
-## Sort and group results
+## ফলাফল সাজানো ও গ্রুপ করা
 
-Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu to sort and group the results in a view.
+একটি ভিউয়ের ফলাফল সাজাতে ও গ্রুপ করতে ![[lucide-arrow-up-down.svg#icon]] **সাজানো** মেনু খুলুন।
 
-You can arrange results by one or more properties in ascending or descending order. This makes it easy to list notes by name, last edited time, or any other property — including formulas.
+আপনি এক বা একাধিক প্রপার্টি দিয়ে ফলাফলগুলোকে ঊর্ধ্বক্রম বা অধোক্রমে সাজাতে পারেন। এটি নাম, সর্বশেষ সম্পাদনার সময়, বা অন্য যেকোনো প্রপার্টি — এমনকি ফর্মুলা অনুযায়ী — নোট তালিকাভুক্ত করা সহজ করে তোলে।
 
-You can also group results by a property to organize similar items into visually distinct sections. Currently, Obsidian supports grouping by only one property.
+আপনি একই ধরনের আইটেমগুলোকে দৃশ্যত পৃথক অংশে সাজাতে একটি প্রপার্টি দিয়ে ফলাফলগুলোকে গ্রুপও করতে পারেন। বর্তমানে, Obsidian শুধুমাত্র একটি প্রপার্টি দিয়ে গ্রুপিং সমর্থন করে।
 
-### Add a sort
+### একটি সাজানো যোগ করুন
 
-1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
-2. Choose the property you want to sort (or group) by.
-3. If you have multiple sorts, drag them up or down using the ![[lucide-grip-vertical.svg#icon]] grip handle to change their priority.
+1. ভিউয়ের শীর্ষে ![[lucide-arrow-up-down.svg#icon]] **সাজানো** মেনু খুলুন।
+2. আপনি যে প্রপার্টি দিয়ে সাজাতে (বা গ্রুপ করতে) চান তা বেছে নিন।
+3. যদি আপনার একাধিক সাজানো থাকে, তাদের অগ্রাধিকার পরিবর্তন করতে ![[lucide-grip-vertical.svg#icon]] গ্রিপ হ্যান্ডেল ব্যবহার করে উপরে বা নিচে টেনে আনুন।
 
-The options for ordering results depend on the property type:
+ফলাফল সাজানোর অপশনগুলো প্রপার্টির ধরনের উপর নির্ভর করে:
 
-- **Text**: sort *alphabetically* (A→Z) or in *reverse alphabetical order* (Z→A).
-- **Number**: sort from *smallest to largest* (0→1) or *largest to smallest* (1→0).
-- **Date and time**: sort by *old to new*, or *new to old*.
+- **টেক্সট**: *বর্ণানুক্রমিকভাবে* (A→Z) অথবা *বিপরীত বর্ণানুক্রমে* (Z→A) সাজান।
+- **সংখ্যা**: *সবচেয়ে ছোট থেকে বড়* (0→1) অথবা *সবচেয়ে বড় থেকে ছোট* (1→0) সাজান।
+- **তারিখ ও সময়**: *পুরনো থেকে নতুন*, অথবা *নতুন থেকে পুরনো* অনুযায়ী সাজান।
 
-### Remove a sort
+### একটি সাজানো সরান
 
-1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
-2. Click the ![[lucide-trash-2.svg#icon]] trash can button next to the sort or group you want to remove.
+1. ভিউয়ের শীর্ষে ![[lucide-arrow-up-down.svg#icon]] **সাজানো** মেনু খুলুন।
+2. আপনি যে সাজানো বা গ্রুপ সরাতে চান তার পাশের ![[lucide-trash-2.svg#icon]] ট্র্যাশ ক্যান বোতাম ক্লিক করুন।
 
-## Limit, copy, and export results
+## ফলাফল সীমিত, কপি ও এক্সপোর্ট করা
 
-### Limit results
+### ফলাফল সীমিত করা
 
-The *results* menu shows the number of results in view. Click the results button to limit the number of results, and access additional actions.
+*ফলাফল* মেনুতে ভিউয়ে থাকা ফলাফলের সংখ্যা দেখানো হয়। ফলাফলের সংখ্যা সীমিত করতে এবং অতিরিক্ত অ্যাকশন অ্যাক্সেস করতে ফলাফল বোতাম ক্লিক করুন।
 
-### Copy to clipboard
+### ক্লিপবোর্ডে কপি করা
 
-This action copies the view to your clipboard. Once in your clipboard you can paste it into a Markdown file, or into other document apps including spreadsheets like Google Sheets, Excel, and Numbers.
+এই অ্যাকশনটি ভিউটি আপনার ক্লিপবোর্ডে কপি করে। ক্লিপবোর্ডে থাকলে আপনি এটি একটি Markdown ফাইলে, অথবা Google Sheets, Excel, এবং Numbers-এর মতো স্প্রেডশিটসহ অন্যান্য ডকুমেন্ট অ্যাপে পেস্ট করতে পারেন।
 
-### Export CSV
+### CSV এক্সপোর্ট করা
 
-This action saves a CSV of your current view.
+এই অ্যাকশনটি আপনার বর্তমান ভিউয়ের একটি CSV সংরক্ষণ করে।
 
-## Embed a view
+## একটি ভিউ এম্বেড করুন
 
-You can embed base files in [[Embed files|any other file]] using the `![[File.base]]` syntax. The first view in the list will be used. You can change the order by dragging views in the view menu.
+আপনি `![[File.base]]` সিনট্যাক্স ব্যবহার করে [[Embed files|অন্য যেকোনো ফাইলে]] বেস ফাইল এম্বেড করতে পারেন। তালিকার প্রথম ভিউটি ব্যবহার করা হবে। ভিউ মেনুতে ভিউগুলো টেনে এনে আপনি ক্রম পরিবর্তন করতে পারেন।
 
-To specify the default view for an embed use `![[File.base#View]]`.
+একটি এম্বেডের জন্য ডিফল্ট ভিউ নির্দিষ্ট করতে `![[File.base#View]]` ব্যবহার করুন।

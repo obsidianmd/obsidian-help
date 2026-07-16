@@ -1,13 +1,12 @@
 ---
-localized: null
 permalink: status-bar
 ---
-The status bar shows small bits of information in the bottom right corner of the window. That includes helpful information about the current file, the current vault, or the current status like time and date.
+স্ট্যাটাস বার উইন্ডোর নিচের-ডান কোণে সংক্ষিপ্ত কিছু তথ্য দেখায়। এর মধ্যে রয়েছে বর্তমান ফাইল, বর্তমান ভল্ট, বা সময় ও তারিখের মতো বর্তমান অবস্থা সম্পর্কে সহায়ক তথ্য।
 
 ![[status-bar-desktop.png#interface]]
 
-Status items are added both by [[Core plugins|core plugins]] and [[community plugins]]. Some items are interactive but some are purely informational. 
+স্ট্যাটাস আইটেম উভয়ই [[Core plugins|কোর প্লাগইন]] এবং [[community plugins|কমিউনিটি প্লাগইন]] দ্বারা যোগ করা হয়। কিছু আইটেম ইন্টারঅ্যাক্টিভ, তবে কিছু শুধুমাত্র তথ্যমূলক।
 
-For example, the [[word count]] plugin adds the word and character count that’s not clickable, and the [[Introduction to Obsidian Sync|Sync plugin]] adds an icon that both shows the sync status as well as shows the sync log upon being clicked. 
+উদাহরণস্বরূপ, [[word count|শব্দ গণনা]] প্লাগইনটি ক্লিক করা যায় না এমন শব্দ ও অক্ষর গণনা যোগ করে, এবং [[Introduction to Obsidian Sync|Sync প্লাগইন]] একটি আইকন যোগ করে যা সিঙ্ক অবস্থা দেখায় এবং ক্লিক করা হলে সিঙ্ক লগও দেখায়।
 
-The desktop version of the status bar pictured above features information about the [[Backlinks|backlinks]] present, the current [[Views and editing mode#Editing view|editor view]], and the current word and character count from the word count plugin.
+উপরের ছবিতে দেখানো ডেস্কটপ সংস্করণের স্ট্যাটাস বারে বিদ্যমান [[Backlinks|ব্যাকলিঙ্ক]] সম্পর্কে তথ্য, বর্তমান [[Views and editing mode#Editing view|এডিটর ভিউ]], এবং শব্দ গণনা প্লাগইন থেকে বর্তমান শব্দ ও অক্ষর গণনা দেখানো হয়েছে।

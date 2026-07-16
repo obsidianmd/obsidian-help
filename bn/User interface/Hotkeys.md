@@ -1,46 +1,45 @@
 ---
-localized: null
 permalink: hotkeys
 ---
 
-Hotkeys are customizable keyboard shortcuts for Obsidian commands. You can assign any keyboard combination to trigger commands like opening files, inserting templates, or toggling plugins.
+হট-কিই হলো Obsidian কমান্ডের জন্য কাস্টমাইজযোগ্য কীবোর্ড শর্টকাট। আপনি ফাইল খোলা, টেমপ্লেট সন্নিবেশ করা, বা প্লাগইন টগল করার মতো কমান্ড চালু করতে যেকোনো কীবোর্ড কম্বিনেশন নির্ধারণ করতে পারেন।
 
-Hotkeys are different from [[Editing shortcuts|system keyboard shortcuts]] (like `Ctrl+C` for copy), which are provided by your operating system and cannot be customized in Obsidian.
+হট-কিই [[Editing shortcuts|সিস্টেম কীবোর্ড শর্টকাট]] (যেমন কপি করার জন্য `Ctrl+C`) থেকে আলাদা, যা আপনার অপারেটিং সিস্টেম দ্বারা প্রদান করা হয় এবং Obsidian-এ কাস্টমাইজ করা যায় না।
 
-## View hotkeys
+## হট-কিই দেখা
 
-The fastest way to see the hotkey set for a command is to find the command in the [[Command palette]]. If there's a hotkey listed for that command, it's set.
+কোনো কমান্ডের জন্য নির্ধারিত হট-কিই দেখার দ্রুততম উপায় হলো [[Command palette|কমান্ড প্যালেটে]] সেই কমান্ডটি খুঁজে বের করা। যদি সেই কমান্ডের জন্য কোনো হট-কিই তালিকাভুক্ত থাকে, তাহলে বুঝতে হবে সেটি সেট করা আছে।
 
-You can also view and manage all hotkeys in **[[Settings]] → Hotkeys**.
+আপনি **[[Settings]] → Hotkeys**-এও সব হট-কিই দেখতে ও পরিচালনা করতে পারেন।
 
-## Set a hotkey
+## হট-কিই সেট করা
 
-To add or modify a hotkey:
+একটি হট-কিই যোগ বা পরিবর্তন করতে:
 
-1. Open **[[Settings]] → Hotkeys**.
-2. Find the command in the list or use the search filter.
-3. Select the plus (+) icon next to the command.
-4. Press the keyboard combination you want to use.
-5. Select **Save** to confirm.
+1. **[[Settings]] → Hotkeys** খুলুন।
+2. তালিকায় কমান্ডটি খুঁজুন অথবা অনুসন্ধান ফিল্টার ব্যবহার করুন।
+3. কমান্ডের পাশের প্লাস (+) আইকন নির্বাচন করুন।
+4. আপনি যে কীবোর্ড কম্বিনেশন ব্যবহার করতে চান তা চাপুন।
+5. নিশ্চিত করতে **Save** নির্বাচন করুন।
 
-You can assign multiple hotkey combinations to a single command by selecting the plus (+) icon again after setting the first hotkey.
+প্রথম হট-কিই সেট করার পর আবার প্লাস (+) আইকন নির্বাচন করে আপনি একটি কমান্ডে একাধিক হট-কিই কম্বিনেশন নির্ধারণ করতে পারেন।
 
-## Remove a hotkey
+## হট-কিই সরানো
 
-To remove a hotkey:
+একটি হট-কিই সরাতে:
 
-1. Open **[[Settings]] → Hotkeys**.
-2. Find the command with the hotkey you want to remove.
-3. Select the X icon next to the keyboard combination.
+1. **[[Settings]] → Hotkeys** খুলুন।
+2. যে কমান্ডের হট-কিই আপনি সরাতে চান তা খুঁজুন।
+3. কীবোর্ড কম্বিনেশনের পাশের X আইকন নির্বাচন করুন।
 
-## Filter hotkeys
+## হট-কিই ফিল্টার করা
 
-To show only commands that have assigned hotkeys, select the filter icon in **[[Settings]] → Hotkeys**.
+শুধুমাত্র নির্ধারিত হট-কিই থাকা কমান্ডগুলো দেখাতে, **[[Settings]] → Hotkeys**-এ ফিল্টার আইকন নির্বাচন করুন।
 
-## Non-US keyboard layouts
+## নন-US কীবোর্ড লেআউট
 
-Hotkeys are displayed as they would appear on a US keyboard layout. Even if the displayed combination doesn't match your keyboard layout, the hotkey will work based on the actual keys you pressed (as long as you don't change your keyboard layout).
+হট-কিইগুলো US কীবোর্ড লেআউটে যেভাবে দেখাবে সেভাবে প্রদর্শিত হয়। প্রদর্শিত কম্বিনেশনটি আপনার কীবোর্ড লেআউটের সাথে না মিললেও, আপনি বাস্তবে যে কীগুলো চেপেছেন তার ভিত্তিতে হট-কিইটি কাজ করবে (যতক্ষণ আপনি আপনার কীবোর্ড লেআউট পরিবর্তন না করেন)।
 
-## Default keyboard shortcuts
+## ডিফল্ট কীবোর্ড শর্টকাট
 
-For a comprehensive list of default keyboard shortcuts for editing and navigation, see [[Editing shortcuts]].
+সম্পাদনা ও নেভিগেশনের জন্য ডিফল্ট কীবোর্ড শর্টকাটের সম্পূর্ণ তালিকার জন্য, [[Editing shortcuts]] দেখুন।

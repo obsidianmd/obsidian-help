@@ -1,7 +1,6 @@
 ---
-localized: null
 permalink: plugins/random-note
 ---
-Random note is a [[Core plugins|core plugin]] that opens a random note within your vault. Rediscover notes to add new insights, or link to recently added notes.
+রান্ডম নোট একটি [[Core plugins|কোর প্লাগইন]] যা আপনার ভল্টের ভেতরে একটি রান্ডম নোট খোলে। নতুন অন্তর্দৃষ্টি যোগ করতে নোট পুনরাবিষ্কার করুন, বা সম্প্রতি যোগ করা নোটগুলিতে লিঙ্ক করুন।
 
-To open a random note, click **Open random note** ![[obsidian-icon-dice.svg#icon]] in the [[Ribbon]].
+একটি রান্ডম নোট খুলতে, [[Ribbon]]-এ **Open random note** ![[obsidian-icon-dice.svg#icon]]-এ ক্লিক করুন।

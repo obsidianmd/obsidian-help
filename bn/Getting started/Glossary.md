@@ -1,123 +1,122 @@
 ---
-localized: null
 permalink: glossary
 ---
-This glossary includes common Obsidian terminology.
+এই শব্দকোষে সাধারণ Obsidian পরিভাষা অন্তর্ভুক্ত রয়েছে।
 
-## Alias
+## উপনাম
 
-An **alias** is a type of [[#property]] that defines alternative names for a [[#note]].
+একটি **উপনাম** হলো এক ধরনের [[#প্রপার্টি]] যা একটি [[#নোট]]-এর বিকল্প নাম নির্ধারণ করে।
 
-## Attachment
+## অ্যাটাচমেন্ট
 
-An **attachment** is an [[Accepted file formats|accepted file format]] that was created outside of the vault and added later.
+একটি **অ্যাটাচমেন্ট** হলো একটি [[Accepted file formats|গ্রহণযোগ্য ফাইল ফরম্যাট]] যা ভল্টের বাইরে তৈরি করা হয়েছিল এবং পরে যোগ করা হয়েছে।
 
-## Command
+## কমান্ড
 
-A **command** is an action that can be performed either by selecting it from the [[Command palette]] or by assigning it to a [[#hotkey]].
+একটি **কমান্ড** হলো একটি অ্যাকশন যা [[Command palette]] থেকে নির্বাচন করে অথবা একটি [[#হটকি]]-তে নির্ধারণ করে সম্পাদন করা যায়।
 
-## Embed
+## এম্বেড
 
-**Embedding** means replacing a reference to external content with the content itself, for example to include an image in your note. See also [[Embed files]].
+**এম্বেড করা** মানে বহিরাগত কন্টেন্টের একটি রেফারেন্সকে সেই কন্টেন্ট দিয়ে প্রতিস্থাপন করা, উদাহরণস্বরূপ আপনার নোটে একটি ছবি অন্তর্ভুক্ত করতে। আরও দেখুন [[Embed files]]।
 
-## Frontmatter
+## ফ্রন্টম্যাটার
 
-Frontmatter is a way to define [[#property|properties]] by adding [YAML](https://yaml.org/) or [JSON](https://www.json.org/) at the top of the note. See also [[Properties#Property format|Property format]].
+নোটের শীর্ষে [YAML](https://yaml.org/) বা [JSON](https://www.json.org/) যোগ করে [[#প্রপার্টি|প্রপার্টি]] নির্ধারণ করার একটি উপায় হলো ফ্রন্টম্যাটার। আরও দেখুন [[Properties#Property format|প্রপার্টি ফরম্যাট]]।
 
-## Graph
+## গ্রাফ
 
-A **graph** is a visualization that highlights connections between [[#note|notes]]. See also [[Graph view]].
+একটি **গ্রাফ** হলো একটি ভিজ্যুয়ালাইজেশন যা [[#নোট|নোটগুলোর]] মধ্যে সংযোগ তুলে ধরে। আরও দেখুন [[Graph view]]।
 
-## Hotkey
+## হটকি
 
-A **hotkey** is a keyboard shortcut for a [[#command]]. See also [[Hotkeys]] and [[Hotkeys|How to/Use hotkeys]].
+একটি **হটকি** হলো একটি [[#কমান্ড]]-এর জন্য কীবোর্ড শর্টকাট। আরও দেখুন [[Hotkeys]] এবং [[Hotkeys|হট-কিই কীভাবে ব্যবহার করবেন]]।
 
-## Link
+## লিঙ্ক
 
-A **link** references another note or file. An [[Internal links|internal link]] points to a file located in the current vault. An [[Basic formatting syntax#External links|external link]] points to a location outside the vault, typically a web page.
+একটি **লিঙ্ক** অন্য একটি নোট বা ফাইলকে রেফার করে। একটি [[Internal links|অভ্যন্তরীণ লিঙ্ক]] বর্তমান ভল্টে অবস্থিত একটি ফাইলকে নির্দেশ করে। একটি [[Basic formatting syntax#External links|বহিরাগত লিঙ্ক]] ভল্টের বাইরের একটি অবস্থানকে নির্দেশ করে, সাধারণত একটি ওয়েব পেজ।
 
-## Main area
+## মূল এলাকা
 
-The **main area** is the central area of the Obsidian app, where you primarily edit [[#note|notes]].
+**মূল এলাকা** হলো Obsidian অ্যাপের কেন্দ্রীয় অংশ, যেখানে আপনি প্রধানত [[#নোট|নোট]] সম্পাদনা করেন।
 
 ## Markdown
 
-Markdown is a markup language for formatting text and the primary file format used for notes in Obsidian, `.md` files. See also [[Basic formatting syntax]].
+Markdown হলো টেক্সট ফরম্যাট করার একটি মার্কআপ ভাষা এবং Obsidian-এ নোটের জন্য ব্যবহৃত প্রাথমিক ফাইল ফরম্যাট, `.md` ফাইল। আরও দেখুন [[Basic formatting syntax]]।
 
-## Note
+## নোট
 
-A **note** is a Markdown file inside a [[#vault]].
+একটি **নোট** হলো একটি [[#ভল্ট]]-এর ভেতরে থাকা একটি Markdown ফাইল।
 
-## Plugin
+## প্লাগইন
 
-A **plugin** extends Obsidian with additional features.
+একটি **প্লাগইন** Obsidian-কে অতিরিক্ত বৈশিষ্ট্য দিয়ে সম্প্রসারিত করে।
 
-- [[Core plugins]] are written by the Obsidian team and included by default.
-- [[Community plugins]] are written by third-party plugin developers and need to be [[Community plugins#Install a community plugin|installed]] before you can use them.
+- [[Core plugins]] Obsidian টিম দ্বারা লেখা হয় এবং ডিফল্টভাবে অন্তর্ভুক্ত থাকে।
+- [[Community plugins]] তৃতীয়-পক্ষের প্লাগইন ডেভেলপারদের দ্বারা লেখা হয় এবং ব্যবহার করার আগে সেগুলো [[Community plugins#Install a community plugin|ইনস্টল]] করতে হয়।
 
-You can [build your own plugin](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+আপনি [আপনার নিজের প্লাগইন তৈরি করতে পারেন](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin)।
 
-## Pop-out window
+## পপ-আউট উইন্ডো
 
-By default, all notes within a vault opens in the same app window. A **pop-out window** lets you open notes from the same vault in separate windows, for example to display on a second screen.
+ডিফল্টভাবে, একটি ভল্টের মধ্যে সমস্ত নোট একই অ্যাপ উইন্ডোতে খোলে। একটি **পপ-আউট উইন্ডো** আপনাকে একই ভল্ট থেকে নোটগুলো আলাদা উইন্ডোতে খুলতে দেয়, উদাহরণস্বরূপ দ্বিতীয় স্ক্রিনে প্রদর্শনের জন্য।
 
-See also [[Pop-out windows]].
+আরও দেখুন [[Pop-out windows]]।
 
-## Property
+## প্রপার্টি
 
-[[Properties|Properties]] define additional information about a note, such as a due date or author.
+[[Properties|প্রপার্টি]] একটি নোট সম্পর্কে অতিরিক্ত তথ্য নির্ধারণ করে, যেমন একটি নির্ধারিত তারিখ বা লেখক।
 
-## Ribbon
+## রিবন
 
-The **ribbon** functions as a container for frequently used action icons. 
+**রিবন** ঘন ঘন ব্যবহৃত অ্যাকশন আইকনের একটি কন্টেইনার হিসেবে কাজ করে।
 
-In the desktop version, it's the vertical area situated on the far left. 
+ডেস্কটপ সংস্করণে, এটি সবচেয়ে বাম দিকে অবস্থিত উল্লম্ব অংশ।
 
-In the mobile version, it's represented by a menu button ![[lucide-menu.svg#icon]] on the [[#status bar|status bar]].
+মোবাইল সংস্করণে, এটি [[#স্ট্যাটাস বার|স্ট্যাটাস বারে]] একটি মেনু বাটন ![[lucide-menu.svg#icon]] দ্বারা প্রতিনিধিত্ব করা হয়।
 
-## Sidebar
+## সাইডবার
 
-An area that contains supporting [[#view|views]] organized as [[#tab|tabs]]. A sidebar can be split into multiple [[#tab group|tab groups]]. 
+এমন একটি এলাকা যা [[#ট্যাব|ট্যাব]] হিসেবে সংগঠিত সহায়ক [[#ভিউ|ভিউ]] ধারণ করে। একটি সাইডবার একাধিক [[#ট্যাব গ্রুপ|ট্যাব গ্রুপে]] বিভক্ত করা যায়।
 
-Obsidian desktop has two sidebars, one on each side of the [[#main area]]. Both sidebars can be accessed by icons in the upper-left and upper-right corners in the Obsidian app, in addition to swiping left or right. The upper-right icon must be held to open the window.
+Obsidian ডেস্কটপে দুটি সাইডবার আছে, [[#মূল এলাকা]]-এর প্রতিটি পাশে একটি করে। উভয় সাইডবার Obsidian অ্যাপের উপরে-বামে এবং উপরে-ডানে কোণার আইকন দিয়ে অ্যাক্সেস করা যায়, এছাড়াও বামে বা ডানে সোয়াইপ করে। উপরে-ডান আইকনটি উইন্ডো খুলতে ধরে রাখতে হবে।
 
-## Snippet
+## স্নিপেট
 
-A **snippet**, or [[CSS snippets|CSS snippet]], changes the appearance of Obsidian, just like a [[#theme]]. Unlike themes, you can apply multiple snippets at the same time.
+একটি **স্নিপেট**, বা [[CSS snippets|CSS স্নিপেট]], একটি [[#থিম]]-এর মতোই Obsidian-এর চেহারা পরিবর্তন করে। থিমের বিপরীতে, আপনি একসাথে একাধিক স্নিপেট প্রয়োগ করতে পারেন।
 
-## Status bar
+## স্ট্যাটাস বার
 
-The **status bar** in the Obsidian application shows you essential statistics and statuses. In the desktop version, you'll find it in the bottom-right corner, while on mobile devices, it's positioned along the bottom of the app.
+Obsidian অ্যাপ্লিকেশনের **স্ট্যাটাস বার** আপনাকে গুরুত্বপূর্ণ পরিসংখ্যান এবং অবস্থা দেখায়। ডেস্কটপ সংস্করণে, আপনি এটি নিচে-ডান কোণায় পাবেন, যেখানে মোবাইল ডিভাইসে, এটি অ্যাপের নিচের দিকে অবস্থিত।
 
 
-## Tab
+## ট্যাব
 
-A **tab** contains a [[#view]]. Tabs can be repositioned within the [[#main area]] and the [[#sidebar|sidebars]]. See also [[Tabs]].
+একটি **ট্যাব**-এ একটি [[#ভিউ]] থাকে। [[#মূল এলাকা]] এবং [[#সাইডবার|সাইডবারগুলোর]] মধ্যে ট্যাবগুলো পুনঃস্থাপন করা যায়। আরও দেখুন [[Tabs]]।
 
-## Tab group
+## ট্যাব গ্রুপ
 
-A **tab group** is a collection of [[#tab|tabs]] in the [[#main area]]. Tabs in a tab group can be stacked.
+একটি **ট্যাব গ্রুপ** হলো [[#মূল এলাকা]]-এর [[#ট্যাব|ট্যাবগুলোর]] একটি সংগ্রহ। একটি ট্যাব গ্রুপের ট্যাবগুলো স্ট্যাক করা যায়।
 
-## Tag
+## ট্যাগ
 
-A **tag** is a word that starts with a hash (`#`), for example `#book`. Tags are primarily used to find related [[#note|notes]].
+একটি **ট্যাগ** হলো একটি শব্দ যা একটি হ্যাশ (`#`) দিয়ে শুরু হয়, উদাহরণস্বরূপ `#book`। ট্যাগ প্রধানত সম্পর্কিত [[#নোট|নোট]] খুঁজে পেতে ব্যবহৃত হয়।
 
-## Theme
+## থিম
 
-A **theme** changes the appearance of the Obsidian app using [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). You can override parts of a theme using [[#snippet|snippets]].
+একটি **থিম** [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) ব্যবহার করে Obsidian অ্যাপের চেহারা পরিবর্তন করে। আপনি [[#স্নিপেট|স্নিপেট]] ব্যবহার করে একটি থিমের অংশ ওভাররাইড করতে পারেন।
 
-## Vault
+## ভল্ট
 
-`Aliases: local vault, local data`
+`উপনাম: স্থানীয় ভল্ট, স্থানীয় ডেটা`
 
-A **vault** is a folder on your file system which contains [[#note|notes]] and an `.obsidian` folder with Obsidian-specific configuration. See also [[How Obsidian stores data]].
+একটি **ভল্ট** হলো আপনার ফাইল সিস্টেমের একটি ফোল্ডার যাতে [[#নোট|নোট]] এবং Obsidian-নির্দিষ্ট কনফিগারেশন সহ একটি `.obsidian` ফোল্ডার থাকে। আরও দেখুন [[How Obsidian stores data]]।
 
-### Remote vault
+### রিমোট ভল্ট
 
-`Aliases: Remote data`
+`উপনাম: রিমোট ডেটা`
 
-A [[Local and remote vaults|remote vault]] is a copy of your local vault that is maintained with [[Introduction to Obsidian Sync|Obsidian Sync]]. The remote vault data is updated based on changes to local data. 
+একটি [[Local and remote vaults|রিমোট ভল্ট]] হলো আপনার স্থানীয় ভল্টের একটি কপি যা [[Introduction to Obsidian Sync|Obsidian Sync]] দিয়ে রক্ষণাবেক্ষণ করা হয়। স্থানীয় ডেটার পরিবর্তনের উপর ভিত্তি করে রিমোট ভল্ট ডেটা আপডেট হয়।
 
-## View
+## ভিউ
 
-A **view** displays information, for example the [[Search|Search view]].
+একটি **ভিউ** তথ্য প্রদর্শন করে, উদাহরণস্বরূপ [[Search|অনুসন্ধান ভিউ]]।

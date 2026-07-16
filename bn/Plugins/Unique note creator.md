@@ -1,29 +1,28 @@
 ---
-localized: null
 permalink: plugins/unique-note
 ---
-Unique note creator is a [[Core plugins|core plugin]] that lets you create notes with time-based names, also known as Zettelkasten notes.
+একক নোট নির্মাতা একটি [[Core plugins|কোর প্লাগইন]] যা আপনাকে সময়-ভিত্তিক নাম দিয়ে নোট তৈরি করতে দেয়, যা Zettelkasten নোট নামেও পরিচিত।
 
-For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note creator creates a note with `202401010945` as its name. If a note with the same name exists, the new note uses the next available timestamp.
+উদাহরণস্বরূপ, আপনি যদি Jan 1st, 2024-এ 09:45-এ একটি নতুন নোট তৈরি করেন, তাহলে একক নোট নির্মাতা `202401010945` নামে একটি নোট তৈরি করে। একই নামের একটি নোট বিদ্যমান থাকলে, নতুন নোটটি পরবর্তী উপলব্ধ টাইমস্ট্যাম্প ব্যবহার করে।
 
-## Create a unique note
+## একটি অনন্য নোট তৈরি করুন
 
-**Ribbon:**
+**রিবন:**
 
-- In the ribbon, click **Create new unique note** ![[obsidian-icon-sheets-in-box.svg#icon]].
+- রিবনে, **Create new unique note** ![[obsidian-icon-sheets-in-box.svg#icon]]-এ ক্লিক করুন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
-2. Search for the **Create new unique note** command.
-3. Press `Enter` with the command selected.
+1. [[Command palette]] খুলতে `Ctrl+P` (বা macOS-এ `Cmd+P`) চাপুন।
+2. **Create new unique note** কমান্ডটি খুঁজুন।
+3. কমান্ডটি নির্বাচিত অবস্থায় `Enter` চাপুন।
 
-## Create unique notes from a template
+## টেমপ্লেট থেকে অনন্য নোট তৈরি করুন
 
-By default, new unique notes are empty. To use another file as a template:
+ডিফল্টভাবে, নতুন অনন্য নোট খালি থাকে। টেমপ্লেট হিসেবে অন্য একটি ফাইল ব্যবহার করতে:
 
-- Open **[[Settings]]**.
-- In the sidebar, click **Core plugins → Unique note creator**.
-- In **Template file location**, enter the file you want to use as template.
+- **[[Settings]]** খুলুন।
+- সাইডবারে, **Core plugins → Unique note creator**-এ ক্লিক করুন।
+- **Template file location**-এ, টেমপ্লেট হিসেবে ব্যবহার করতে চান এমন ফাইলটি লিখুন।
 
-For more information about how to write templates, refer to [[Plugins/Templates]].
+কীভাবে টেমপ্লেট লিখবেন তা সম্পর্কে আরও তথ্যের জন্য, [[Plugins/Templates]] দেখুন।

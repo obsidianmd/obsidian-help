@@ -1,64 +1,63 @@
 ---
-localized: null
 permalink: web-clipper/capture
 ---
-Once you install the [[Introduction to Obsidian Web Clipper|Web Clipper]] browser extension, you can access it in several ways, depending on your browser:
+[[Introduction to Obsidian Web Clipper|Web Clipper]] ব্রাউজার এক্সটেনশনটি ইনস্টল করার পর, আপনার ব্রাউজারের উপর নির্ভর করে আপনি বিভিন্নভাবে এটি অ্যাক্সেস করতে পারেন:
 
-1. The Obsidian icon in your browser toolbar.
-2. Hotkeys, to activate the extension from your keyboard.
-3. Context menu, by right-clicking the web page you are visiting.
+1. আপনার ব্রাউজার টুলবারের Obsidian আইকন।
+2. হট-কিই, কীবোর্ড থেকে এক্সটেনশনটি সক্রিয় করার জন্য।
+3. কনটেক্সট মেনু, আপনি যে ওয়েব পেজে আছেন সেখানে ডান-ক্লিক করে।
 
-To save a page to Obsidian click the **Add to Obsidian** button.
+Obsidian-এ একটি পেজ সংরক্ষণ করতে **Add to Obsidian** বাটনে ক্লিক করুন।
 
-## Capture a page
+## একটি পেজ ক্যাপচার করুন
 
-When you open the extension, Web Clipper extracts data from the current web page following the settings in your [[Obsidian Web Clipper/Templates|template]]. You can create your own templates, and customize the output using [[variables]] and [[filters]].
+আপনি যখন এক্সটেনশনটি খোলেন, তখন Web Clipper আপনার [[Obsidian Web Clipper/Templates|টেমপ্লেটে]] থাকা সেটিংস অনুসরণ করে বর্তমান ওয়েব পেজ থেকে ডেটা সংগ্রহ করে। আপনি নিজের টেমপ্লেট তৈরি করতে পারেন, এবং [[variables]] ও [[filters]] ব্যবহার করে আউটপুট কাস্টমাইজ করতে পারেন।
 
-By default Web Clipper attempts to intelligently extract only the main article content, excluding other elements on the page. However, you can override this behavior in the following ways:
+ডিফল্টভাবে Web Clipper পেজের অন্যান্য এলিমেন্ট বাদ দিয়ে শুধুমাত্র মূল আর্টিকেল কন্টেন্ট বুদ্ধিমত্তার সাথে সংগ্রহ করার চেষ্টা করে। তবে, আপনি নিচের উপায়ে এই আচরণ পরিবর্তন করতে পারেন:
 
-- If a custom template is present it uses your template.
-- If a selection is present, it uses the selection. You can use `Ctrl/Cmd+A` to select the entire page.
-- If any [[Highlighter|highlights]] are present, it uses the highlights.
+- কাস্টম টেমপ্লেট থাকলে সেটি সেই টেমপ্লেট ব্যবহার করে।
+- কোনো নির্বাচন থাকলে, সেটি সেই নির্বাচন ব্যবহার করে। পুরো পেজ নির্বাচন করতে আপনি `Ctrl/Cmd+A` ব্যবহার করতে পারেন।
+- কোনো [[Highlighter|হাইলাইট]] থাকলে, সেটি সেই হাইলাইটগুলো ব্যবহার করে।
 
-## Download images
+## ছবি ডাউনলোড করুন
 
-Images are not automatically downloaded when you use Web Clipper. Instead, images link to their web-based URL. This saves space in your vault but it means the images will not be accessible offline, or if the URL stops working.
+Web Clipper ব্যবহার করার সময় ছবি স্বয়ংক্রিয়ভাবে ডাউনলোড হয় না। পরিবর্তে, ছবিগুলো তাদের ওয়েব-ভিত্তিক URL-এর সাথে লিঙ্ক করা থাকে। এতে আপনার ভল্টে জায়গা বাঁচে কিন্তু এর মানে হলো ছবিগুলো অফলাইনে, অথবা URL কাজ করা বন্ধ হয়ে গেলে অ্যাক্সেসযোগ্য থাকবে না।
 
-You can download images for any file in Obsidian using the [[Command palette|command]] named **Download attachments for current file**. This command can also be mapped to a hotkey in Obsidian.
+আপনি Obsidian-এ **Download attachments for current file** নামের [[Command palette|কমান্ডের]] মাধ্যমে যেকোনো ফাইলের জন্য ছবি ডাউনলোড করতে পারেন। এই কমান্ডটি Obsidian-এ একটি হট-কিইর সাথেও ম্যাপ করা যায়।
 
-## Hotkeys
+## হট-কিই
 
-Web Clipper includes keyboard shortcuts you can use to speed up your workflow. To change key mappings go to **Web Clipper Settings** → **General** and follow the instructions for your browser. Mappings can be changed for all browsers except Safari which does not support editing hotkeys.
+আপনার কাজের গতি বাড়ানোর জন্য Web Clipper-এ কীবোর্ড শর্টকাট রয়েছে। কি ম্যাপিং পরিবর্তন করতে **Web Clipper Settings** → **General**-এ যান এবং আপনার ব্রাউজারের জন্য নির্দেশাবলী অনুসরণ করুন। Safari ছাড়া সব ব্রাউজারের জন্য ম্যাপিং পরিবর্তন করা যায়, কারণ Safari হট-কিই সম্পাদনা সমর্থন করে না।
 
-| Action             | macOS         | Windows/Linux  |
+| অ্যাকশন             | macOS         | Windows/Linux  |
 | ------------------ | ------------- | -------------- |
-| Open clipper       | `Cmd+Shift+O` | `Ctrl+Shift+O` |
-| Quick clip         | `Opt+Shift+O` | `Alt+Shift+O`  |
-| Toggle highlighter | `Opt+Shift+H` | `Alt+Shift+H`  |
-| Toggle reader      | `Opt+Shift+R` | `Alt+Shift+R`  |
+| Clipper খুলুন       | `Cmd+Shift+O` | `Ctrl+Shift+O` |
+| দ্রুত ক্লিপ         | `Opt+Shift+O` | `Alt+Shift+O`  |
+| হাইলাইটার টগল করুন | `Opt+Shift+H` | `Alt+Shift+H`  |
+| রিডার টগল করুন      | `Opt+Shift+R` | `Alt+Shift+R`  |
 
-## Interface functionality
+## ইন্টারফেস কার্যকারিতা
 
-The Web Clipper interface is divided into four sections:
+Web Clipper ইন্টারফেস চারটি ভাগে বিভক্ত:
 
-1. **Header** where you can switch templates, turn on [[Highlighter|highlighting]], [[Reader|read mode]],  and access settings.
-2. **Properties** shows the [[Properties|metadata]] extracted from the page that will be saved as [[Properties]] in Obsidian.
-3. **Note content** that will be saved to Obsidian.
-4. **Footer** allows you select the vault and folder, and add to Obsidian.
+1. **Header** যেখানে আপনি টেমপ্লেট পরিবর্তন করতে পারেন, [[Highlighter|হাইলাইটিং]], [[Reader|রিড মোড]] চালু করতে পারেন, এবং সেটিংসে যেতে পারেন।
+2. **Properties** পেজ থেকে সংগ্রহ করা [[Properties|মেটাডেটা]] দেখায় যা Obsidian-এ [[Properties]] হিসেবে সংরক্ষিত হবে।
+3. **Note content** যা Obsidian-এ সংরক্ষিত হবে।
+4. **Footer** যেখান থেকে আপনি ভল্ট ও ফোল্ডার নির্বাচন করতে পারেন, এবং Obsidian-এ যোগ করতে পারেন।
 
-Header functionality includes:
+Header কার্যকারিতার মধ্যে রয়েছে:
 
-- ![[lucide-chevrons-up-down.svg#icon]] **Template** switcher to use saved [[Obsidian Web Clipper/Templates|templates]] added in the extension settings.
-- ![[lucide-more-horizontal.svg#icon]] **More** button to display page variables you can use in templates.
-- ![[lucide-highlighter.svg#icon]] **Highlighter** button to turn on [[Highlighter|highlighting]].
-- ![[lucide-book-icon.svg#icon]] **Reader** button to turn on [[Reader|reading view]].
-- ![[lucide-picture-in-picture-2.svg#icon]] **Embed** button to move Web Clipper from the popup into the page.
-- ![[lucide-settings.svg#icon]] **Settings** button to open the extension settings.
+- ![[lucide-chevrons-up-down.svg#icon]] এক্সটেনশন সেটিংসে যোগ করা সংরক্ষিত [[Obsidian Web Clipper/Templates|টেমপ্লেট]] ব্যবহার করার জন্য **Template** সুইচার।
+- ![[lucide-more-horizontal.svg#icon]] টেমপ্লেটে ব্যবহারযোগ্য পেজ ভেরিয়েবল প্রদর্শনের জন্য **More** বাটন।
+- ![[lucide-highlighter.svg#icon]] [[Highlighter|হাইলাইটিং]] চালু করার জন্য **Highlighter** বাটন।
+- ![[lucide-book-icon.svg#icon]] [[Reader|রিডিং ভিউ]] চালু করার জন্য **Reader** বাটন।
+- ![[lucide-picture-in-picture-2.svg#icon]] Web Clipper-কে পপআপ থেকে পেজে সরানোর জন্য **Embed** বাটন।
+- ![[lucide-settings.svg#icon]] এক্সটেনশন সেটিংস খোলার জন্য **Settings** বাটন।
 
-Footer functionality includes:
+Footer কার্যকারিতার মধ্যে রয়েছে:
 
-- **Add to Obsidian** button to save data to Obsidian.
-- **Vault** dropdown to switch between saved vaults added in Web Clipper settings.
-- **Folder** field to define which folder to save to.
-- **Interpreter** to run [[Interpreter|natural language prompts]] on the page.
+- Obsidian-এ ডেটা সংরক্ষণ করার জন্য **Add to Obsidian** বাটন।
+- Web Clipper সেটিংসে যোগ করা সংরক্ষিত ভল্টের মধ্যে পরিবর্তন করার জন্য **Vault** ড্রপডাউন।
+- কোন ফোল্ডারে সংরক্ষণ করা হবে তা নির্ধারণের জন্য **Folder** ফিল্ড।
+- পেজে [[Interpreter|প্রাকৃতিক ভাষার প্রম্পট]] চালানোর জন্য **Interpreter**।
 

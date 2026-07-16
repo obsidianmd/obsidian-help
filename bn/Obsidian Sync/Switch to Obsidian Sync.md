@@ -1,71 +1,70 @@
 ---
-localized: null
 permalink: sync/switch
 cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Learn how to transition from your current syncing solution to Obsidian Sync.
+description: জানুন কীভাবে আপনার বর্তমান সিঙ্কিং সমাধান থেকে Obsidian Sync-এ স্থানান্তর করবেন।
 ---
-Learn how to transition from your current syncing solution to Obsidian Sync.
+জানুন কীভাবে আপনার বর্তমান সিঙ্কিং সমাধান থেকে Obsidian Sync-এ স্থানান্তর করবেন।
 
-> [!warning] Avoid using multiple solutions to sync the same files
-> We [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|do not recommend]] using Obsidian Sync alongside cloud storage services (e.g. iCloud, Dropbox, OneDrive, Google Drive) as this can cause conflicts. However, cloud storage services may play a role in your [[Back up your Obsidian files|backup]] strategy.
+> [!warning] একই ফাইল সিঙ্ক করতে একাধিক সমাধান ব্যবহার করা এড়িয়ে চলুন
+> আমরা iCloud, Dropbox, OneDrive, Google Drive-এর মতো ক্লাউড স্টোরেজ সার্ভিসের পাশাপাশি Obsidian Sync ব্যবহার করার [[Frequently asked questions#Can I use a third-party sync with Obsidian Sync?|পরামর্শ দিই না]] কারণ এতে কনফ্লিক্ট হতে পারে। তবে, ক্লাউড স্টোরেজ সার্ভিসগুলো আপনার [[Back up your Obsidian files|ব্যাকআপ]] কৌশলে ভূমিকা রাখতে পারে।
 
-## Move your vault out of your third-party syncing service or cloud storage
+## আপনার থার্ড-পার্টি সিঙ্কিং সার্ভিস বা ক্লাউড স্টোরেজ থেকে আপনার ভল্ট সরান
 
-If your vault is stored in any of the following locations, it's likely being synced by a third-party service:
+আপনার ভল্ট যদি নিম্নলিখিত লোকেশনগুলোর কোনো একটিতে সংরক্ষিত থাকে, তাহলে সম্ভবত এটি একটি থার্ড-পার্টি সার্ভিস দ্বারা সিঙ্ক হচ্ছে:
 
-- **Windows**: `C:\Users\Username\Desktop` or `C:\Users\Username\Documents`
-- **macOS**: `/users/username/Desktop` or `/users/username/Documents`
-- **iOS**: The **iCloud** folder within the Files app
-- **Other**: Any folder under a syncing service, such as `Drive/my-vault`, `Dropbox/my-vault`, `pSync/my-vault`, etc.
+- **Windows**: `C:\Users\Username\Desktop` বা `C:\Users\Username\Documents`
+- **macOS**: `/users/username/Desktop` বা `/users/username/Documents`
+- **iOS**: Files অ্যাপের মধ্যে **iCloud** ফোল্ডার
+- **অন্যান্য**: একটি সিঙ্কিং সার্ভিসের অধীনে যেকোনো ফোল্ডার, যেমন `Drive/my-vault`, `Dropbox/my-vault`, `pSync/my-vault`, ইত্যাদি।
 
-While Android and Linux tend to have fewer issues with this, it's still worth checking your vault location on these devices.
+যদিও Android এবং Linux-এ এই সমস্যা সাধারণত কম হয়, তবুও এই ডিভাইসগুলোতে আপনার ভল্টের লোকেশন চেক করা মূল্যবান।
 
-> [!tip] If your current local vault is connected to a remote vault, Obsidian will try to detect if the vault is in a syncing service. If it is, you will see a message at the top of Obsidian Sync's settings.
+> [!tip] আপনার বর্তমান লোকাল ভল্ট যদি একটি রিমোট ভল্টের সাথে সংযুক্ত থাকে, তাহলে Obsidian ভল্টটি একটি সিঙ্কিং সার্ভিসে আছে কিনা তা শনাক্ত করার চেষ্টা করবে। যদি থাকে, তাহলে আপনি Obsidian Sync-এর সেটিংসের শীর্ষে একটি বার্তা দেখতে পাবেন।
 
-To avoid conflicts with syncing services, we recommend storing your Obsidian vaults in the following locations:
+সিঙ্কিং সার্ভিসগুলোর সাথে কনফ্লিক্ট এড়াতে, আমরা নিম্নলিখিত লোকেশনগুলোতে আপনার Obsidian ভল্ট সংরক্ষণ করার পরামর্শ দিই:
 
-- **Windows**: Recommended locations in order:
-    1. `D:\` or any other non-C, non-network drive on your device
-    2. `C:\Vaults` (if you have permissions to use the C:\ drive)
-    3. `C:\Users\Username\Vaults` (if you must keep your vault within C:\Users\Username, make sure OneDrive is set not to remove files. OneDrive is generally less aggressive outside of `Desktop` and `Documents` folders.)
-- **macOS**: `/users/username/vaults`
-- **Linux**: No specific recommendation due to the variety of filesystems. Just ensure that Obsidian has full read/write access and that no syncing service manages the folder.
-- **iOS/iPadOS**: Store the vault **On My iPhone** or **On the Device**.
-- **Android**: Use the `Documents/` folder on your device.
+- **Windows**: প্রস্তাবিত লোকেশন ক্রম অনুসারে:
+    1. `D:\` বা আপনার ডিভাইসের অন্য যেকোনো নন-C, নন-নেটওয়ার্ক ড্রাইভ
+    2. `C:\Vaults` (আপনার যদি C:\ ড্রাইভ ব্যবহারের পারমিশন থাকে)
+    3. `C:\Users\Username\Vaults` (আপনাকে যদি C:\Users\Username-এর মধ্যে আপনার ভল্ট রাখতে হয়, তাহলে নিশ্চিত করুন যে OneDrive ফাইল সরানোর জন্য সেট করা নেই। OneDrive সাধারণত `Desktop` এবং `Documents` ফোল্ডারের বাইরে কম আক্রমণাত্মক হয়।)
+- **macOS**: `/users/username/vaults`
+- **Linux**: ফাইলসিস্টেমের বৈচিত্র্যের কারণে কোনো নির্দিষ্ট পরামর্শ নেই। শুধু নিশ্চিত করুন Obsidian-এর সম্পূর্ণ রিড/রাইট অ্যাক্সেস রয়েছে এবং কোনো সিঙ্কিং সার্ভিস ফোল্ডারটি পরিচালনা করছে না।
+- **iOS/iPadOS**: ভল্টটি **On My iPhone** বা **On the Device**-এ সংরক্ষণ করুন।
+- **Android**: আপনার ডিভাইসে `Documents/` ফোল্ডার ব্যবহার করুন।
 
-## Move your vault using Obsidian on desktop
+## ডেস্কটপে Obsidian ব্যবহার করে আপনার ভল্ট সরান
 
 ![[Manage vaults#Move vault to a different folder]]
 
-## Move your vault on mobile
+## মোবাইলে আপনার ভল্ট সরান
 
-On mobile devices, Obsidian operates in a sandboxed environment, meaning you cannot move vaults within the app like you can on desktop.
+মোবাইল ডিভাইসে, Obsidian একটি স্যান্ডবক্সড পরিবেশে কাজ করে, যার মানে আপনি ডেস্কটপের মতো অ্যাপের মধ্যে ভল্ট সরাতে পারবেন না।
 
 ### Android
 
-Android filesystems vary greatly by device, but generally, follow the same steps as you would to move your vault manually, ensuring it is removed from any syncing service on your device.
+Android ফাইলসিস্টেম ডিভাইস অনুযায়ী ব্যাপকভাবে পরিবর্তিত হয়, তবে সাধারণত, আপনার ভল্ট ম্যানুয়ালি সরাতে যে পদক্ষেপগুলো অনুসরণ করবেন সেগুলোই অনুসরণ করুন, নিশ্চিত করুন এটি আপনার ডিভাইসের যেকোনো সিঙ্কিং সার্ভিস থেকে সরানো হয়েছে।
 
-### iOS and iPadOS
+### iOS এবং iPadOS
 
-To move an existing iCloud vault to your device, follow these steps:
+একটি বিদ্যমান iCloud ভল্টকে আপনার ডিভাইসে সরাতে, এই পদক্ষেপগুলো অনুসরণ করুন:
 
-> [!note] If you already have the data on another device and have set up Obsidian Sync, it's recommended to [[Set up Obsidian Sync#Sync a remote vault on another device|set up a new local vault from Sync]] instead.
+> [!note] আপনার যদি ইতিমধ্যে অন্য একটি ডিভাইসে ডেটা থাকে এবং Obsidian Sync সেটআপ করা থাকে, তাহলে পরিবর্তে [[Set up Obsidian Sync#Sync a remote vault on another device|Sync থেকে একটি নতুন লোকাল ভল্ট সেটআপ করা]] প্রস্তাবিত।
 
-- [[Back up your Obsidian files|Back up]] your vault.
-- Create a new vault on your device, ensuring **Save in iCloud Drive** is disabled.
-- Force quit the Obsidian app on all devices to pause Sync.
-- Open the **Files** app on your iOS/iPadOS device.
-- Long-press the vault folder under **iCloud Drive → Obsidian**, then select **Move**.
-- Move the vault to **On My iPhone/Device → Obsidian** and confirm that it's now visible.
-- Tap **Copy**.
-- Return to **iCloud Drive → Obsidian** and delete the old vault folder.
+- আপনার ভল্ট [[Back up your Obsidian files|ব্যাকআপ]] করুন।
+- আপনার ডিভাইসে একটি নতুন ভল্ট তৈরি করুন, নিশ্চিত করুন **Save in iCloud Drive** নিষ্ক্রিয় করা আছে।
+- Sync বিরতি দিতে সব ডিভাইসে Obsidian অ্যাপ ফোর্স কুইট করুন।
+- আপনার iOS/iPadOS ডিভাইসে **Files** অ্যাপ খুলুন।
+- **iCloud Drive → Obsidian**-এর অধীনে ভল্ট ফোল্ডারে দীর্ঘক্ষণ চাপ দিন, তারপর **Move** নির্বাচন করুন।
+- ভল্টটি **On My iPhone/Device → Obsidian**-এ সরান এবং নিশ্চিত করুন এটি এখন দৃশ্যমান।
+- **Copy** ট্যাপ করুন।
+- **iCloud Drive → Obsidian**-এ ফিরে যান এবং পুরনো ভল্ট ফোল্ডার মুছে ফেলুন।
 
-Once you reopen Obsidian, the vault should show a vault icon instead of a cloud icon, confirming it is no longer in iCloud Drive. Obsidian Sync will also no longer display the warning message within its settings.
+আপনি Obsidian পুনরায় খুললে, ভল্টটি একটি ক্লাউড আইকনের পরিবর্তে একটি ভল্ট আইকন দেখাবে, যা নিশ্চিত করে এটি আর iCloud Drive-এ নেই। Obsidian Sync তার সেটিংসের মধ্যে সতর্কবার্তাও আর দেখাবে না।
 
-## Next steps
+## পরবর্তী ধাপ
 
-- Looking to get started with Obsidian Sync? [[Set up Obsidian Sync]]
-- Still need assistance? Check out [[Troubleshoot Obsidian Sync]]
+- Obsidian Sync দিয়ে শুরু করতে চান? [[Set up Obsidian Sync]]
+- এখনও সহায়তা প্রয়োজন? দেখুন [[Troubleshoot Obsidian Sync]]

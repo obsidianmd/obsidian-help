@@ -1,15 +1,14 @@
 ---
-localized: null
 permalink: publish/social-share
 ---
-Many social networks display a rich preview for your website when a user shares a link to it.  Using [[Properties]], you can customize how your notes appear in the preview.
+অনেক সোশ্যাল নেটওয়ার্ক যখন একজন ব্যবহারকারী আপনার ওয়েবসাইটের একটি লিঙ্ক শেয়ার করে তখন একটি সমৃদ্ধ প্রিভিউ প্রদর্শন করে। [[Properties|প্রপার্টি]] ব্যবহার করে, আপনি প্রিভিউতে আপনার নোটগুলো কীভাবে দেখাবে তা কাস্টমাইজ করতে পারেন।
 
-> [!warning] Warning
-> The tags overridden in this section are **only** visible by web crawlers. Regular web browsers are served the unmodified page for performance.
+> [!warning] সতর্কবার্তা
+> এই বিভাগে ওভাররাইড করা ট্যাগগুলো **শুধুমাত্র** ওয়েব ক্রলারদের কাছে দৃশ্যমান। সাধারণ ওয়েব ব্রাউজারগুলোকে পারফরম্যান্সের জন্য অপরিবর্তিত পৃষ্ঠা দেওয়া হয়।
 
-## Description
+## বর্ণনা
 
-Obsidian automatically generates a description based on the note content, but you can provide your own using `description`.
+Obsidian নোটের কনটেন্টের উপর ভিত্তি করে স্বয়ংক্রিয়ভাবে একটি বর্ণনা তৈরি করে, কিন্তু আপনি `description` ব্যবহার করে আপনার নিজেরটি দিতে পারেন।
 
 ```yaml
 ---
@@ -17,14 +16,14 @@ description: An introduction to our solar system.
 ---
 ```
 
-> [!note] Meta tags
-> `description` overrides the auto-generated description in `<meta name="description" content="...">` and the equivalents for `og:description` and `twitter:description`.
+> [!note] মেটা ট্যাগ
+> `description` স্বয়ংক্রিয়ভাবে তৈরি বর্ণনাকে `<meta name="description" content="...">` এবং `og:description` ও `twitter:description`-এর সমতুল্য স্থানে ওভাররাইড করে।
 
-## Image
+## ছবি
 
-You can use a custom image for the link preview, by adding `image` or `cover` with a path to the image. The image must be uploaded to Publish. 
+আপনি লিঙ্ক প্রিভিউর জন্য একটি কাস্টম ছবি ব্যবহার করতে পারেন, ছবির একটি পাথসহ `image` বা `cover` যোগ করে। ছবিটি অবশ্যই Publish-এ আপলোড করা থাকতে হবে। 
 
-The path can be an absolute path from the root of your vault:
+পাথটি আপনার ভল্টের রুট থেকে একটি অ্যাবসোলিউট পাথ হতে পারে:
 
 ```yaml
 ---
@@ -33,7 +32,7 @@ cover: "Attachments/Cover image.png"
 ```
 
 
-The path to the image is case sensitive. In our prior example, we have a path to an image named `Cover image.png`. The below path will not work, because it is using the wrong case.
+ছবির পাথ কেস-সেনসিটিভ। আমাদের আগের উদাহরণে, আমাদের কাছে `Cover image.png` নামের একটি ছবির পাথ আছে। নিচের পাথটি কাজ করবে না, কারণ এতে ভুল কেস ব্যবহার করা হয়েছে।
 
 ```yaml
 ---
@@ -42,7 +41,7 @@ cover: "Attachments/cover Image.png"
 ```
 
 
-In place of an absolute path in your vault, you may also use an external url:
+আপনার ভল্টের একটি অ্যাবসোলিউট পাথের বদলে, আপনি একটি বাইরের url-ও ব্যবহার করতে পারেন:
 
 ```yaml
 ---
@@ -51,7 +50,7 @@ image: "https://example.com/cover%20image.png"
 ```
 
 
-`image` and `cover` are identical. Only use one of them.
+`image` এবং `cover` অভিন্ন। এদের মধ্যে শুধুমাত্র একটি ব্যবহার করুন।
 
-> [!note] Meta tags
-> `image` and `cover` overrides the auto-generated image in `<meta property="og:image" content="...">`.
+> [!note] মেটা ট্যাগ
+> `image` এবং `cover` স্বয়ংক্রিয়ভাবে তৈরি ছবিকে `<meta property="og:image" content="...">`-এ ওভাররাইড করে।

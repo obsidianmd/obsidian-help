@@ -1,30 +1,29 @@
 ---
-localized: null
 permalink: import/bear
 ---
-Obsidian lets you easily migrate your notes from Bear using the [[Importer|Importer plugin]]. This will convert your Bear data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian আপনাকে [[Importer|Importer প্লাগইন]] ব্যবহার করে সহজেই Bear থেকে আপনার নোট মাইগ্রেট করতে দেয়। এটি আপনার Bear ডেটাকে টেকসই Markdown ফাইলে রূপান্তরিত করবে, যা আপনি Obsidian এবং আরও অনেক অ্যাপের সাথে ব্যবহার করতে পারবেন।
 
-## Export your data from Bear
+## Bear থেকে আপনার ডেটা এক্সপোর্ট করুন
 
-Obsidian uses Bear's backup format `.bear2bk` files. You can find Bear's instructions for creating the backup [on Bear's website](https://bear.app/faq/backup-restore/). 
+Obsidian Bear-এর ব্যাকআপ ফরম্যাট `.bear2bk` ফাইল ব্যবহার করে। আপনি [Bear-এর ওয়েবসাইটে](https://bear.app/faq/backup-restore/) ব্যাকআপ তৈরি করার নির্দেশাবলী খুঁজে পাবেন। 
 
-1. Open Bear.
-2. Create a backup
-	1. On macOS: **File** → **Backup notes**.
-	2. On iOS: click the more menu (⋮) at the top of the sidebar and choose **Backup all notes**.
-3. Choose a location for your backup file.
-4. Click **Export notes**.
-5. You should now have one `.bear2bk` file that contains all your notes.
+1. Bear খুলুন।
+2. একটি ব্যাকআপ তৈরি করুন
+	1. macOS-এ: **File** → **Backup notes**।
+	2. iOS-এ: সাইডবারের শীর্ষে থাকা মোর মেনুতে (⋮) ক্লিক করুন এবং **Backup all notes** নির্বাচন করুন।
+3. আপনার ব্যাকআপ ফাইলের জন্য একটি অবস্থান বেছে নিন।
+4. **Export notes**-এ ক্লিক করুন।
+5. এখন আপনার কাছে একটি `.bear2bk` ফাইল থাকা উচিত যাতে আপনার সমস্ত নোট রয়েছে।
 
-## Import your Bear data into Obsidian
+## Obsidian-এ আপনার Bear ডেটা ইম্পোর্ট করুন
 
-You will need the official Obsidian [[Importer]] plugin, which you can [install here](obsidian://show-plugin?id=obsidian-importer).
+আপনার অফিসিয়াল Obsidian [[Importer]] প্লাগইন প্রয়োজন হবে, যা আপনি [এখানে ইনস্টল করতে পারেন](obsidian://show-plugin?id=obsidian-importer)।
 
-1. Open **[[Settings]]**.
-2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
-3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** choose **Bear (.bear2bk)**.
-6. Select the location of your Bear backup file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+1. **[[Settings]]** খুলুন।
+2. **Community Plugins**-এ যান এবং [Importer ইনস্টল করুন](obsidian://show-plugin?id=obsidian-importer)।
+3. Importer প্লাগইন চালু করুন।
+4. কমান্ড প্যালেট বা রিবন আইকন ব্যবহার করে **Importer** প্লাগইন খুলুন।
+5. **File format**-এর অধীনে **Bear (.bear2bk)** নির্বাচন করুন।
+6. আপনার Bear ব্যাকআপ ফাইলের অবস্থান নির্বাচন করুন।
+7. **Import**-এ ক্লিক করুন এবং ইম্পোর্ট সম্পূর্ণ না হওয়া পর্যন্ত অপেক্ষা করুন।
+8. আপনার কাজ শেষ!

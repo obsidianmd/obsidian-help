@@ -1,97 +1,96 @@
 ---
-localized: null
 permalink: mobile
 cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: 'Learn about mobile-specific features in Obsidian, including the mobile toolbar, quick actions, and navigation bar.'
+description: 'মোবাইল টুলবার, কুইক অ্যাকশন এবং নেভিগেশন বার সহ Obsidian-এর মোবাইল-নির্দিষ্ট বৈশিষ্ট্য সম্পর্কে জানুন।'
 ---
 
-Obsidian mobile apps are available for [[Obsidian for iOS and iPadOS|iOS and iPadOS]] and [[Obsidian for Android|Android]]. You can download them from the [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) and [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
+Obsidian-এর মোবাইল অ্যাপ [[Obsidian for iOS and iPadOS|iOS এবং iPadOS]] এবং [[Obsidian for Android|Android]]-এর জন্য উপলব্ধ। আপনি সেগুলো [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) এবং [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) থেকে ডাউনলোড করতে পারেন।
 
-Obsidian works similarly on mobile as it does on desktop, but has a few unique features such as widgets, toolbar, and quick action.
+Obsidian ডেস্কটপের মতোই মোবাইলে কাজ করে, তবে এতে উইজেট, টুলবার এবং কুইক অ্যাকশনের মতো কিছু অনন্য বৈশিষ্ট্য রয়েছে।
 
-## Widgets, shortcuts, and Siri
+## উইজেট, শর্টকাট এবং Siri
 
-For OS-specific features, see the following pages:
+OS-নির্দিষ্ট বৈশিষ্ট্যের জন্য, নিচের পৃষ্ঠাগুলো দেখুন:
 
-- [[Obsidian for iOS and iPadOS|iOS and iPadOS]]
+- [[Obsidian for iOS and iPadOS|iOS এবং iPadOS]]
 - [[Obsidian for Android|Android]]
 
 
-## Mobile toolbar
+## মোবাইল টুলবার
 
-Mobile toolbar is a customization toolbar for editing notes.
+মোবাইল টুলবার হলো নোট সম্পাদনার জন্য একটি কাস্টমাইজেশন টুলবার।
 
-When editing a note, you will notice a row of icons at the bottom of the app. The default arrangement of actions provides quick access to commonly used functionalities. You can customize them as well.
+একটি নোট সম্পাদনা করার সময়, আপনি অ্যাপের নিচে আইকনের একটি সারি লক্ষ্য করবেন। অ্যাকশনগুলোর ডিফল্ট বিন্যাস সাধারণত ব্যবহৃত কার্যকারিতাগুলোতে দ্রুত প্রবেশাধিকার প্রদান করে। আপনি সেগুলো কাস্টমাইজও করতে পারেন।
 
-> [!tip] Scroll the toolbar
-> If you have lots of actions on the toolbar, you can swipe left and right on the toolbar to reveal more actions.
+> [!tip] টুলবার স্ক্রল করুন
+> টুলবারে যদি আপনার প্রচুর অ্যাকশন থাকে, তাহলে আরও অ্যাকশন দেখতে আপনি টুলবারে বামে ও ডানে সোয়াইপ করতে পারেন।
 
-### Customize mobile toolbar
+### মোবাইল টুলবার কাস্টমাইজ করুন
 
-In the mobile toolbar, tap **Configure mobile toolbar** ![[lucide-wrench.svg#icon]]  to open the interface to customize it.
+মোবাইল টুলবারে, এটি কাস্টমাইজ করার ইন্টারফেস খুলতে **টুলবার ঠিক করুন** ![[lucide-wrench.svg#icon]] ট্যাপ করুন।
 
-Alternatively, you can do it in Settings.
+বিকল্পভাবে, আপনি এটি সেটিংসেও করতে পারেন।
 
-1. Open Settings.
-2. Choose **Mobile**.
-3. Under **Manage toolbar options**, add, remove, or reorder the available options.
+1. সেটিংস খুলুন।
+2. **Mobile** নির্বাচন করুন।
+3. **টুলবার বিকল্পগুলি ঠিক করুন**-এর অধীনে, উপলব্ধ বিকল্পগুলো যোগ করুন, সরান, বা পুনর্বিন্যাস করুন।
 
-### Add command to mobile toolbar
+### মোবাইল টুলবারে কমান্ড যোগ করুন
 
-By default, the options that are available to be added to the toolbar are editing options like "Add internal link" or "Add tag".
+ডিফল্টভাবে, টুলবারে যোগ করার জন্য উপলব্ধ বিকল্পগুলো হলো "Add internal link" বা "Add tag"-এর মতো সম্পাদনার বিকল্প।
 
-In addition to that, you can add global commands like "Change theme".
+এর পাশাপাশি, আপনি "Change theme"-এর মতো গ্লোবাল কমান্ডও যোগ করতে পারেন।
 
-1. Find **Manage toolbar options** under **[[Settings]]** → **Mobile**.
-2. Scroll to the very bottom, find **Add global command**.
-3. Type the name of the command you wish to add.
-4. Select the command you’ll like to add.
-5. The new command gets added to the end of the toolbar.
+1. **[[Settings]]** → **Mobile**-এর অধীনে **টুলবার বিকল্পগুলি ঠিক করুন** খুঁজুন।
+2. একদম নিচে স্ক্রল করুন, **Add global command** খুঁজুন।
+3. আপনি যে কমান্ডটি যোগ করতে চান তার নাম লিখুন।
+4. আপনি যে কমান্ডটি যোগ করতে চান তা নির্বাচন করুন।
+5. নতুন কমান্ডটি টুলবারের শেষে যোগ হয়ে যাবে।
 
-## Quick Action
+## কুইক অ্যাকশন
 
-On the mobile app, you can define one action that gets invoked by pulling down from the top of the app, similar to how you would pull to refresh on social media apps.
+মোবাইল অ্যাপে, আপনি একটি অ্যাকশন নির্ধারণ করতে পারেন যা অ্যাপের উপর থেকে নিচে টেনে আনার মাধ্যমে চালু হয়, অনেকটা সোশ্যাল মিডিয়া অ্যাপে পুল টু রিফ্রেশ করার মতো।
 
-Quick Action defaults to open [[Command palette]].
+কুইক অ্যাকশন ডিফল্টভাবে [[Command palette]] খোলে।
 
-### Customize Quick Action
+### কুইক অ্যাকশন কাস্টমাইজ করুন
 
-1. Open Settings.
-2. Under **Options**, choose **Toolbar**.
-3. Under **Configure mobile Quick Action**, tap **Configure**.
-4. Type the name of the command.
-5. Select the command you’d like to set.
-6. Close the setting page.
+1. সেটিংস খুলুন।
+2. **Options**-এর অধীনে, **Toolbar** নির্বাচন করুন।
+3. **Configure mobile Quick Action**-এর অধীনে, **Configure** ট্যাপ করুন।
+4. কমান্ডের নাম লিখুন।
+5. আপনি যে কমান্ডটি নির্ধারণ করতে চান তা নির্বাচন করুন।
+6. সেটিং পৃষ্ঠাটি বন্ধ করুন।
 
-Now, when you pull down from the top, the new Quick Action will be invoked.
+এখন, আপনি উপর থেকে নিচে টেনে আনলে, নতুন কুইক অ্যাকশনটি চালু হবে।
 
-## Navigation bar
+## নেভিগেশন বার
 
-The navigation bar on mobile helps you navigate the app. The navigation bar shows up when you’re not editing the app.
+মোবাইলের নেভিগেশন বার আপনাকে অ্যাপে নেভিগেট করতে সাহায্য করে। আপনি যখন অ্যাপ সম্পাদনা করছেন না, তখন নেভিগেশন বার দেখা যায়।
 
-With the **Toggle keyboard** toolbar option, you can close the mobile toolbar and switch to the navigation bar instead.
+**কীবোর্ড খুলুন** টুলবার বিকল্প দিয়ে, আপনি মোবাইল টুলবার বন্ধ করে এর পরিবর্তে নেভিগেশন বারে স্যুইচ করতে পারেন।
 
-### Go back or forward
+### পেছনে বা সামনে যান
 
-On the navigation bar, the first two options helps you go back ![[lucide-chevron-left.svg#icon]] or forward ![[lucide-chevron-right.svg#icon]]. If one of the options is not available, the icon is greyed out.
+নেভিগেশন বারে, প্রথম দুটি বিকল্প আপনাকে পেছনে ![[lucide-chevron-left.svg#icon]] বা সামনে ![[lucide-chevron-right.svg#icon]] যেতে সাহায্য করে। যদি বিকল্পগুলোর একটি উপলব্ধ না থাকে, তাহলে আইকনটি ধূসর হয়ে থাকে।
 
-### Create or find note
+### নোট তৈরি বা খুঁজে বের করুন
 
-The middle plus in circle icon lets you create a new note or switch to an existing note. This is equivalent to opening [[Quick switcher]].
+মাঝখানের বৃত্তে প্লাস আইকনটি আপনাকে একটি নতুন নোট তৈরি করতে বা একটি বিদ্যমান নোটে স্যুইচ করতে দেয়। এটি [[Quick switcher]] খোলার সমতুল্য।
 
-### Tab management
+### ট্যাব পরিচালনা
 
-The second icon to the right shows you how many tabs are currently open. The icon looks like a number in a box and indicates how many tabs open.
+ডানদিকের দ্বিতীয় আইকনটি দেখায় বর্তমানে কতগুলো ট্যাব খোলা আছে। আইকনটি একটি বাক্সের মধ্যে একটি সংখ্যার মতো দেখায় এবং কতগুলো ট্যাব খোলা আছে তা নির্দেশ করে।
 
-When you tap it, you’ll be able to switch to any open tab. You can also open a new tab.
+আপনি এটি ট্যাপ করলে, আপনি যেকোনো খোলা ট্যাবে স্যুইচ করতে পারবেন। আপনি একটি নতুন ট্যাবও খুলতে পারেন।
 
-### Ribbon actions
+### রিবন অ্যাকশন
 
-The mobile app has no [[Ribbon]]. Instead, the ribbon actions will be available when you tap **Open menu** ![[lucide-menu.svg#icon]], the last option on the navigation bar.
+মোবাইল অ্যাপে কোনো [[Ribbon]] নেই। এর পরিবর্তে, আপনি যখন নেভিগেশন বারের শেষ বিকল্প **Open menu** ![[lucide-menu.svg#icon]] ট্যাপ করবেন তখন রিবন অ্যাকশনগুলো উপলব্ধ হবে।
 
-### Sidebars
+### সাইডবার
 
-For detailed information about how sidebars work on mobile, see [[Sidebar#Open hidden sidebars#Mobile and smaller tablets|Opening sidebars on mobile]].
+মোবাইলে সাইডবার কীভাবে কাজ করে সে সম্পর্কে বিস্তারিত তথ্যের জন্য, দেখুন [[Sidebar#Open hidden sidebars#Mobile and smaller tablets|মোবাইলে সাইডবার খোলা]]।

@@ -1,83 +1,82 @@
 ---
-localized: null
 permalink: sync/faq
 publish: true
 mobile: true
-description: This page lists some of the common questions related to questions and limitations for Obsidian Sync.
+description: এই পৃষ্ঠায় Obsidian Sync সম্পর্কিত প্রশ্ন এবং সীমাবদ্ধতা নিয়ে কিছু সাধারণ প্রশ্ন তালিকাভুক্ত করা হয়েছে।
 ---
 
-This page lists some of the common questions related to questions and limitations for [[Introduction to Obsidian Sync|Obsidian Sync]].
+এই পৃষ্ঠায় [[Introduction to Obsidian Sync|Obsidian Sync]] সম্পর্কিত প্রশ্ন এবং সীমাবদ্ধতা নিয়ে কিছু সাধারণ প্রশ্ন তালিকাভুক্ত করা হয়েছে।
 
-## General
+## সাধারণ
 
-### What operating systems does Obsidian Sync support?
+### Obsidian Sync কোন কোন অপারেটিং সিস্টেম সমর্থন করে?
 
-Obsidian Sync supports every platform that Obsidian can run on. Currently that means Windows, macOS, Linux, Android and iOS.
+Obsidian যেসব প্ল্যাটফর্মে চলতে পারে সেগুলোর সবকটি Obsidian Sync সমর্থন করে। বর্তমানে এর মানে Windows, macOS, Linux, Android এবং iOS।
 
-### Does Obsidian work with Apple's Lockdown Mode?
+### Obsidian কি Apple-এর Lockdown Mode-এর সাথে কাজ করে?
 
-Obsidian can be used in [Lockdown Mode](https://support.apple.com/en-us/105120) as long as Obsidian is added as an exclusion.
+Obsidian-কে [Lockdown Mode](https://support.apple.com/en-us/105120)-এ ব্যবহার করা যায়, যতক্ষণ পর্যন্ত Obsidian-কে একটি ব্যতিক্রম হিসেবে যুক্ত করা হয়।
 
-### What type of data is synced?
+### কী ধরনের ডেটা সিঙ্ক করা হয়?
 
-By default your Obsidian notes, images, and your [[Configuration folder]] are synced. 
+ডিফল্টভাবে আপনার Obsidian নোট, ছবি, এবং আপনার [[Configuration folder]] সিঙ্ক করা হয়।
 
-You can add additional syncing options of PDF's, audio files, video files, and other files when you [[Sync settings and selective syncing]].
+আপনি যখন [[Sync settings and selective syncing]] করেন, তখন PDF, অডিও ফাইল, ভিডিও ফাইল এবং অন্যান্য ফাইলের অতিরিক্ত সিঙ্কিং অপশন যুক্ত করতে পারেন।
 
-### How much storage do I have?
+### আমার কত স্টোরেজ আছে?
 
-The storage limit depends on your Obsidian [[Plans and storage limits#Plans|Sync plan]]. The maximum storage amount is 100 GB. This storage limit includes [[Version history|version history]]. 
+স্টোরেজ সীমা আপনার Obsidian [[Plans and storage limits#Plans|Sync প্ল্যানের]] উপর নির্ভর করে। সর্বোচ্চ স্টোরেজের পরিমাণ ১০০ GB। এই স্টোরেজ সীমার মধ্যে [[Version history|ভার্সন ইতিহাস]]ও অন্তর্ভুক্ত।
 
-You can view **Storage usage** in the Obsidian app by going to **[[Settings]] → Sync**.
+আপনি **[[Settings]] → Sync**-এ গিয়ে Obsidian অ্যাপে **Storage usage** দেখতে পারেন।
 
-### How many remote vaults can I have?  
+### আমার কতগুলো রিমোট ভল্ট থাকতে পারে?
 
-The number of remote vaults you can have is determined based on your [[Plans and storage limits#Plans|Sync plan]]. The Standard plan includes 1 vault, the Plus plan includes 10 vaults. Vaults shared with you do not count towards your vault limit.
+আপনার কতগুলো রিমোট ভল্ট থাকতে পারে তা আপনার [[Plans and storage limits#Plans|Sync প্ল্যানের]] উপর নির্ভর করে নির্ধারিত হয়। স্ট্যান্ডার্ড প্ল্যানে ১টি ভল্ট অন্তর্ভুক্ত, প্লাস প্ল্যানে ১০টি ভল্ট অন্তর্ভুক্ত। আপনার সাথে শেয়ার করা ভল্টগুলো আপনার ভল্ট সীমার মধ্যে গণনা করা হয় না।
 
-### How large can each remote vault be?
+### প্রতিটি রিমোট ভল্ট কত বড় হতে পারে?
 
-There is no per-vault limit. The storage limit is tied to your used account and can be applied across all your vaults.
+প্রতি-ভল্ট কোনো সীমা নেই। স্টোরেজ সীমা আপনার ব্যবহৃত অ্যাকাউন্টের সাথে যুক্ত এবং আপনার সব ভল্ট জুড়ে প্রয়োগ করা যেতে পারে।
 
-### How many people can I share a remote vault with?
+### আমি কতজনের সাথে একটি রিমোট ভল্ট শেয়ার করতে পারি?
 
-You can [[Collaborate on a shared vault|share a remote vault]] with up to 20 people.
+আপনি সর্বোচ্চ ২০ জনের সাথে [[Collaborate on a shared vault|একটি রিমোট ভল্ট শেয়ার]] করতে পারেন।
 
-### How large can each file be?
+### প্রতিটি ফাইল কত বড় হতে পারে?
 
-The maximum file size depends on your [[Plans and storage limits|Obsidian Sync plan]]. For the Standard plan the limit is 5 MB. For the Plus plan the limit is 200 MB per file.
+সর্বোচ্চ ফাইলের আকার আপনার [[Plans and storage limits|Obsidian Sync প্ল্যানের]] উপর নির্ভর করে। স্ট্যান্ডার্ড প্ল্যানের জন্য সীমা ৫ MB। প্লাস প্ল্যানের জন্য সীমা প্রতি ফাইলে ২০০ MB।
 
-### Is my data being synced in the background?
+### আমার ডেটা কি ব্যাকগ্রাউন্ডে সিঙ্ক হচ্ছে?
 
-No, files are only synced when Obsidian is running.
+না, Obsidian চলমান থাকলেই কেবল ফাইলগুলো সিঙ্ক হয়।
 
-### Does Obsidian Sync live-reload my settings?
+### Obsidian Sync কি আমার সেটিংস লাইভ-রিলোড করে?
 
-Obsidian Sync can automatically reload certain settings, but there are some limitations. For more details, refer to [[Sync settings and selective syncing#Reloading of settings|Reloading of settings]].
+Obsidian Sync স্বয়ংক্রিয়ভাবে কিছু সেটিংস রিলোড করতে পারে, তবে কিছু সীমাবদ্ধতা রয়েছে। আরও বিস্তারিত জানতে দেখুন [[Sync settings and selective syncing#Reloading of settings|সেটিংসের রিলোডিং]]।
 
-### Can I use a third-party sync with Obsidian Sync?
+### আমি কি Obsidian Sync-এর সাথে একটি থার্ড-পার্টি সিঙ্ক ব্যবহার করতে পারি?
 
-We do not recommend using a third-party sync service alongside Obsidian Sync. Using the a third-party service and Obsidian Sync on multiple devices can lead to conflicts, resulting in duplicate or corrupted files.
+আমরা Obsidian Sync-এর পাশাপাশি একটি থার্ড-পার্টি সিঙ্ক সার্ভিস ব্যবহার করার পরামর্শ দিই না। একাধিক ডিভাইসে থার্ড-পার্টি সার্ভিস এবং Obsidian Sync ব্যবহার করলে কনফ্লিক্ট হতে পারে, যার ফলে ডুপ্লিকেট বা ক্ষতিগ্রস্ত ফাইল হতে পারে।
 
-Cloud storage services like OneDrive and Dropbox offer "Files on-demand" or "Online-only files" features, which download files only when needed and remove them locally to save space. However, since these files are not always available locally, Obsidian Sync will interpret them as deleted, leading to their removal from your remote vault.
+OneDrive এবং Dropbox-এর মতো ক্লাউড স্টোরেজ সার্ভিস "Files on-demand" বা "Online-only files" ফিচার প্রদান করে, যা শুধুমাত্র প্রয়োজনে ফাইল ডাউনলোড করে এবং স্থান বাঁচাতে সেগুলো স্থানীয়ভাবে সরিয়ে ফেলে। যাইহোক, যেহেতু এই ফাইলগুলো সবসময় স্থানীয়ভাবে উপলব্ধ থাকে না, তাই Obsidian Sync এগুলোকে মুছে ফেলা হয়েছে বলে বিবেচনা করবে, যার ফলে সেগুলো আপনার রিমোট ভল্ট থেকে সরিয়ে ফেলা হবে।
  
-To avoid these issues, disable on-demand downloads when using Obsidian Sync with services like OneDrive or Dropbox. You will need to ensure that the third-party service settings are configured to always keep files on the device.
+এই সমস্যাগুলো এড়াতে, OneDrive বা Dropbox-এর মতো সার্ভিসের সাথে Obsidian Sync ব্যবহার করার সময় অন-ডিমান্ড ডাউনলোড নিষ্ক্রিয় করুন। আপনাকে নিশ্চিত করতে হবে যে থার্ড-পার্টি সার্ভিসের সেটিংস সবসময় ডিভাইসে ফাইল রাখার জন্য কনফিগার করা আছে।
 
-## Data retention
+## ডেটা রিটেনশন
 
-These are commonly asked questions on Obsidian's data retention. For more in depth answers, see [[Obsidian Sync/Security and privacy|Security and privacy]].
+Obsidian-এর ডেটা রিটেনশন সম্পর্কে সাধারণত জিজ্ঞাসিত প্রশ্ন এগুলো। আরও গভীর উত্তরের জন্য, দেখুন [[Obsidian Sync/Security and privacy|Security and privacy]]।
 
-### How long do you keep the version history?
+### আপনারা কতদিন ভার্সন ইতিহাস রাখেন?
 
-[[Version history]] depends on your [[Plans and storage limits|Obsidian Sync plan]]. On the Standard plan your notes are retained for 1 month. On the Plus plan your notes are retained for 12 months. After this period of time the older versions are deleted.
+[[Version history]] আপনার [[Plans and storage limits|Obsidian Sync প্ল্যানের]] উপর নির্ভর করে। স্ট্যান্ডার্ড প্ল্যানে আপনার নোট ১ মাসের জন্য রাখা হয়। প্লাস প্ল্যানে আপনার নোট ১২ মাসের জন্য রাখা হয়। এই সময়ের পর পুরনো ভার্সনগুলো মুছে ফেলা হয়।
 
-Older versions of [[Attachments|attachments]] are stored for two weeks.
+[[Attachments|অ্যাটাচমেন্টের]] পুরনো ভার্সনগুলো দুই সপ্তাহের জন্য সংরক্ষণ করা হয়।
 
-### How long do you keep my data after my subscription expires?
+### আমার সাবস্ক্রিপশন মেয়াদ শেষ হওয়ার পর আপনারা কতদিন আমার ডেটা রাখেন?
 
-We keep data in your remote vaults, including version history, for one month after your subscription expires. Any local vaults on your devices are unaffected.
+আপনার সাবস্ক্রিপশন মেয়াদ শেষ হওয়ার পর আমরা আপনার রিমোট ভল্টে, ভার্সন ইতিহাস সহ, এক মাসের জন্য ডেটা রাখি। আপনার ডিভাইসের যেকোনো লোকাল ভল্ট প্রভাবিত হয় না।
 
-As long as you renew within one month, there should be no impact on your usage. If you renew after a month, when your remote vaults have been removed, you can [[Set up Obsidian Sync|create a new remote vault]] and connect your local vault.
+আপনি যদি এক মাসের মধ্যে রিনিউ করেন, তাহলে আপনার ব্যবহারে কোনো প্রভাব পড়া উচিত নয়। আপনি যদি এক মাস পরে রিনিউ করেন, যখন আপনার রিমোট ভল্ট সরিয়ে ফেলা হয়েছে, তাহলে আপনি [[Set up Obsidian Sync|একটি নতুন রিমোট ভল্ট তৈরি]] করে আপনার লোকাল ভল্ট সংযোগ করতে পারেন।
 
-### Do you keep my data if I refund my subscription service?
+### আমি যদি আমার সাবস্ক্রিপশন সার্ভিস রিফান্ড করি, তাহলে আপনারা কি আমার ডেটা রাখেন?
 
-No. The data is deleted immediately from Obsidian Sync servers. Data in your [[Local and remote vaults|local vault]] is not affected.
+না। ডেটা Obsidian Sync সার্ভার থেকে তৎক্ষণাৎ মুছে ফেলা হয়। আপনার [[Local and remote vaults|লোকাল ভল্টের]] ডেটা প্রভাবিত হয় না।

@@ -1,28 +1,27 @@
 ---
-localized: null
 permalink: sandbox
 ---
-**Obsidian’s sandbox vault** is a feature that lets you explore various functionalities without affecting your existing data. This vault is helpful both as a learning tool and for debugging issues. It helps determine if a problem is caused by a plugin, theme, or the application itself.
+**Obsidian-এর স্যান্ডবক্স ভল্ট** একটি বৈশিষ্ট্য যা আপনার বিদ্যমান ডেটা প্রভাবিত না করে বিভিন্ন কার্যকারিতা অন্বেষণ করতে দেয়। এই ভল্টটি শেখার টুল হিসেবে এবং সমস্যা সমাধানের ক্ষেত্রে উভয়ভাবেই সহায়ক। এটি নির্ধারণ করতে সাহায্য করে যে একটি সমস্যা একটি প্লাগইন, থিম, বা অ্যাপ্লিকেশন নিজেই দ্বারা সৃষ্ট কিনা।
 
-> [!note] The sandbox vault is not available on mobile devices. However, you can download a copy from the [Obsidian Help](https://github.com/obsidianmd/obsidian-help) repository for use on mobile.
+> [!note] স্যান্ডবক্স ভল্ট মোবাইল ডিভাইসে উপলব্ধ নেই। তবে, আপনি মোবাইলে ব্যবহারের জন্য [Obsidian Help](https://github.com/obsidianmd/obsidian-help) রিপোজিটরি থেকে একটি কপি ডাউনলোড করতে পারেন।
 
 
-## Opening the sandbox vault
+## স্যান্ডবক্স ভল্ট খোলা
 
-You can open the sandbox vault in multiple ways. In all cases, it opens separately from your current vault.
+আপনি একাধিক উপায়ে স্যান্ডবক্স ভল্ট খুলতে পারেন। সব ক্ষেত্রে, এটি আপনার বর্তমান ভল্ট থেকে আলাদাভাবে খোলে।
 
-**Left Sidebar**
+**বাম সাইডবার**
 
-1. Expand the **left sidebar** ![[obsidian-icon-side-bar-left.svg#icon]].
-2. Next to the **vault switcher**, press the **Help** icon ![[obsidian-icon-help.svg#icon]].
-3. Select **Open** next to the **Sandbox vault** option.
+1. **বাম সাইডবার** ![[obsidian-icon-side-bar-left.svg#icon]] প্রসারিত করুন।
+2. **ভল্ট সুইচার**-এর পাশে, **সাহায্য** আইকনে ![[obsidian-icon-help.svg#icon]] চাপুন।
+3. **স্যান্ডবক্স ভল্ট** বিকল্পের পাশে **খুলুন** নির্বাচন করুন।
 
-**Command Palette**
+**কমান্ড প্যালেট**
 
-1. Enable the **command palette** core plugin.
-2. Open the **command palette**.
-3. Search for **Open sandbox vault**.
-4. Press **Enter** or select the item to open the sandbox vault.
-## Close the sandbox vault
+1. **কমান্ড প্যালেট** কোর প্লাগইন সক্রিয় করুন।
+2. **কমান্ড প্যালেট** খুলুন।
+3. **Open sandbox vault** অনুসন্ধান করুন।
+4. স্যান্ডবক্স ভল্ট খুলতে **Enter** চাপুন অথবা আইটেমটি নির্বাচন করুন।
+## স্যান্ডবক্স ভল্ট বন্ধ করুন
 
-To close the sandbox vault, close the **Obsidian Sandbox** vault window.
+স্যান্ডবক্স ভল্ট বন্ধ করতে, **Obsidian Sandbox** ভল্ট উইন্ডোটি বন্ধ করুন।

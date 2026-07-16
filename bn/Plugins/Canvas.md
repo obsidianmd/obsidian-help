@@ -1,254 +1,253 @@
 ---
-localized: null
 permalink: plugins/canvas
-description: 'Canvas is a core plugin for visual note-taking. Arrange and connect notes, images, and other files in a 2D space.'
+description: 'ক্যানভাস হলো ভিজ্যুয়াল নোট-টেকিং-এর জন্য একটি কোর প্লাগইন। নোট, ছবি এবং অন্যান্য ফাইল একটি 2D স্পেসে সাজান এবং সংযুক্ত করুন।'
 ---
-Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
+ক্যানভাস ভিজ্যুয়াল নোট-টেকিং-এর জন্য একটি [[Core plugins|কোর প্লাগইন]]। এটি আপনাকে নোট সাজানোর এবং সেগুলিকে অন্যান্য নোট, সংযুক্তি এবং ওয়েব পেজের সাথে সংযুক্ত করার জন্য অসীম স্পেস প্রদান করে।
 
-Arranging your notes in a 2D space helps you see and understand the connections between them. Connect notes with lines and group related ones together.
+একটি 2D স্পেসে আপনার নোট সাজানো আপনাকে সেগুলির মধ্যেকার সংযোগ দেখতে এবং বুঝতে সাহায্য করে। রেখা দিয়ে নোট সংযুক্ত করুন এবং সম্পর্কিতগুলিকে একসাথে গ্রুপ করুন।
 
-Obsidian saves canvases as `.canvas` files using the open [JSON Canvas](https://jsoncanvas.org/) format.
+Obsidian ওপেন [JSON Canvas](https://jsoncanvas.org/) ফরম্যাট ব্যবহার করে `.canvas` ফাইল হিসেবে ক্যানভাস সংরক্ষণ করে।
 
-## Create a new canvas
+## একটি নতুন ক্যানভাস তৈরি করুন
 
-To start using Canvas, you first need to create a file to hold your canvas. You can create a new canvas using the following methods.
+ক্যানভাস ব্যবহার শুরু করতে, প্রথমে আপনার ক্যানভাস ধারণ করার জন্য একটি ফাইল তৈরি করতে হবে। আপনি নিম্নলিখিত পদ্ধতিগুলি ব্যবহার করে একটি নতুন ক্যানভাস তৈরি করতে পারেন।
 
-**Command palette:**
+**কমান্ড প্যালেট:**
 
-1. Open the [[Command palette]].
-2. Select **Canvas: Create new canvas** to create a canvas in the same folder as the active file.
+1. [[Command palette]] খুলুন।
+2. সক্রিয় ফাইলের একই ফোল্ডারে একটি ক্যানভাস তৈরি করতে **Canvas: Create new canvas** নির্বাচন করুন।
 
-**File explorer:**
+**ফাইল এক্সপ্লোরার:**
 
-- In the [[File explorer]], right-click the folder you want to create the canvas in.
-- Select **New canvas**.
+- [[File explorer]]-এ, যে ফোল্ডারে ক্যানভাস তৈরি করতে চান সেখানে ডান-ক্লিক করুন।
+- **New canvas** নির্বাচন করুন।
 
-**Ribbon:**
+**রিবন:**
 
-- In the vertical ribbon menu, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
+- উল্লম্ব রিবন মেনুতে, সক্রিয় ফাইলের একই ফোল্ডারে একটি ক্যানভাস তৈরি করতে **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] নির্বাচন করুন।
 
-> [!note] The .canvas file extension
-> Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
+> [!note] .canvas ফাইল এক্সটেনশন
+> Obsidian [JSON Canvas](https://jsoncanvas.org/) নামক একটি ওপেন ফাইল ফরম্যাট ব্যবহার করে আপনার ক্যানভাস ডেটা `.canvas` ফাইল হিসেবে সংরক্ষণ করে।
 
-## Add cards
+## কার্ড যোগ করুন
 
-You can drag files into your canvas from Obsidian or from other applications. For example, Markdown files, images, audio, PDFs, or even unrecognized file types.
+আপনি Obsidian বা অন্যান্য অ্যাপ্লিকেশন থেকে আপনার ক্যানভাসে ফাইল টেনে আনতে পারেন। যেমন, Markdown ফাইল, ছবি, অডিও, PDF, বা এমনকি অচেনা ফাইল টাইপও।
 
-### Add text cards
+### টেক্সট কার্ড যোগ করুন
 
-You can add text-only cards that don't reference a file. You can use Markdown, links, and code blocks the same way as in a note.
+আপনি টেক্সট-শুধু কার্ড যোগ করতে পারেন যা কোনো ফাইল উল্লেখ করে না। আপনি একটি নোটের মতো একইভাবে Markdown, লিঙ্ক এবং কোড ব্লক ব্যবহার করতে পারেন।
 
-To add a new text card to your canvas:
+আপনার ক্যানভাসে একটি নতুন টেক্সট কার্ড যোগ করতে:
 
-- Select or drag the blank file icon at the bottom of the canvas.
+- ক্যানভাসের নিচের ফাঁকা ফাইল আইকনটি নির্বাচন করুন বা টেনে আনুন।
 
-You can also add text cards by double-clicking on the canvas.
+আপনি ক্যানভাসে ডাবল-ক্লিক করেও টেক্সট কার্ড যোগ করতে পারেন।
 
-To convert a text card to a file:
+একটি টেক্সট কার্ডকে ফাইলে রূপান্তর করতে:
 
-1. Right-click the text card and then select **Convert to file...**.
-2. Enter the note name and then select **Save**.
+1. টেক্সট কার্ডে ডান-ক্লিক করুন এবং তারপর **Convert to file...** নির্বাচন করুন।
+2. নোটের নাম লিখুন এবং তারপর **Save** নির্বাচন করুন।
 
-> [!note] Text-only cards and backlinks
-> Text-only cards don't appear in [[Backlinks]]. To make them appear, you need to convert them to a file.
+> [!note] টেক্সট-শুধু কার্ড এবং ব্যাকলিঙ্ক
+> টেক্সট-শুধু কার্ড [[Backlinks]]-এ প্রদর্শিত হয় না। এগুলি প্রদর্শিত করতে, আপনাকে সেগুলিকে একটি ফাইলে রূপান্তর করতে হবে।
 
-### Add cards from notes
+### নোট থেকে কার্ড যোগ করুন
 
-To add a note from your vault to your canvas:
+আপনার ভল্ট থেকে একটি নোট আপনার ক্যানভাসে যোগ করতে:
 
-1. Select or drag the document icon at the bottom of the canvas.
-2. Select the note you want to add.
+1. ক্যানভাসের নিচের ডকুমেন্ট আইকনটি নির্বাচন করুন বা টেনে আনুন।
+2. আপনি যে নোটটি যোগ করতে চান তা নির্বাচন করুন।
 
-You can also add notes from the canvas context menu:
+আপনি ক্যানভাস কনটেক্সট মেনু থেকেও নোট যোগ করতে পারেন:
 
-1. Right-click the canvas and then select **Add note from vault**.
-2. Select the note you want to add.
+1. ক্যানভাসে ডান-ক্লিক করুন এবং তারপর **Add note from vault** নির্বাচন করুন।
+2. আপনি যে নোটটি যোগ করতে চান তা নির্বাচন করুন।
 
-You can also drag notes from the [[File explorer]] into the canvas.
+আপনি [[File explorer]] থেকে নোটগুলিকে ক্যানভাসেও টেনে আনতে পারেন।
 
-### Add cards from media
+### মিডিয়া থেকে কার্ড যোগ করুন
 
-To add media from your vault to your canvas:
+আপনার ভল্ট থেকে মিডিয়া আপনার ক্যানভাসে যোগ করতে:
 
-1. Select or drag the image file icon at the bottom of the canvas.
-2. Select the media file you want to add.
+1. ক্যানভাসের নিচের ছবি ফাইল আইকনটি নির্বাচন করুন বা টেনে আনুন।
+2. আপনি যে মিডিয়া ফাইলটি যোগ করতে চান তা নির্বাচন করুন।
 
-You can also add media from the canvas context menu:
+আপনি ক্যানভাস কনটেক্সট মেনু থেকেও মিডিয়া যোগ করতে পারেন:
 
-1. Right-click the canvas and then select **Add media from vault**.
-2. Select the media file you want to add.
+1. ক্যানভাসে ডান-ক্লিক করুন এবং তারপর **Add media from vault** নির্বাচন করুন।
+2. আপনি যে মিডিয়া ফাইলটি যোগ করতে চান তা নির্বাচন করুন।
 
-You can also drag media files from the [[File explorer]] into the canvas.
+আপনি [[File explorer]] থেকে মিডিয়া ফাইলগুলিকে ক্যানভাসেও টেনে আনতে পারেন।
 
-### Add cards from web pages
+### ওয়েব পেজ থেকে কার্ড যোগ করুন
 
-To embed a web page in your canvas:
+আপনার ক্যানভাসে একটি ওয়েব পেজ এম্বেড করতে:
 
-1. Right-click the canvas and then select **Add web page**.
-2. Enter the URL to the web page and then select **Save**.
+1. ক্যানভাসে ডান-ক্লিক করুন এবং তারপর **Add web page** নির্বাচন করুন।
+2. ওয়েব পেজের URL লিখুন এবং তারপর **Save** নির্বাচন করুন।
 
-You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
+আপনি আপনার ব্রাউজারে একটি URL নির্বাচন করে সেটি ক্যানভাসে টেনে এনে একটি কার্ডে এম্বেড করতে পারেন।
 
-To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open in browser**.
+ব্রাউজারে ওয়েব পেজটি খুলতে, `Ctrl` (বা macOS-এ `Cmd`) চেপে কার্ডের লেবেল নির্বাচন করুন। অথবা, কার্ডে ডান-ক্লিক করুন এবং **Open in browser** নির্বাচন করুন।
 
-### Add cards from folders
+### ফোল্ডার থেকে কার্ড যোগ করুন
 
-Drag a folder from the [[File explorer]] to add all files in that folder to the canvas.
+[[File explorer]] থেকে একটি ফোল্ডার টেনে নিয়ে সেই ফোল্ডারের সব ফাইল ক্যানভাসে যোগ করুন।
 
-### Edit a card
+### একটি কার্ড সম্পাদনা করুন
 
-Double-click on a text or note card to start editing it. Select anywhere outside the card to stop editing it. You can also press `Escape` to stop editing a card.
+একটি টেক্সট বা নোট কার্ড সম্পাদনা শুরু করতে ডাবল-ক্লিক করুন। সম্পাদনা বন্ধ করতে কার্ডের বাইরে যেকোনো জায়গায় নির্বাচন করুন। আপনি কার্ড সম্পাদনা বন্ধ করতে `Escape`ও চাপতে পারেন।
 
-You can also edit a card by right-clicking it and selecting **Edit**.
+আপনি একটি কার্ডে ডান-ক্লিক করে এবং **Edit** নির্বাচন করেও এটি সম্পাদনা করতে পারেন।
 
-### Delete a card
+### একটি কার্ড মুছুন
 
-Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` on macOS).
+নির্বাচিত কার্ডগুলির যেকোনো একটিতে ডান-ক্লিক করে এবং তারপর **Delete** নির্বাচন করে সেগুলি সরান। অথবা, `Backspace` (বা macOS-এ `Delete`) চাপুন।
 
-You can also select **Remove** ![[lucide-trash-2.svg#icon]] in the selection controls above your selection.
+আপনি আপনার নির্বাচনের উপরে নির্বাচন নিয়ন্ত্রণে **Remove** ![[lucide-trash-2.svg#icon]]ও নির্বাচন করতে পারেন।
 
-### Swap cards
+### কার্ড অদলবদল করুন
 
-You can swap a note or media card for another card of the same type.
+আপনি একটি নোট বা মিডিয়া কার্ড একই ধরনের অন্য একটি কার্ডের সাথে অদলবদল করতে পারেন।
 
-To swap a note card:
+একটি নোট কার্ড অদলবদল করতে:
 
-1. Right-click the card you want to replace.
-2. Select **Swap file**.
-3. Select the note you want to replace with.
+1. যে কার্ডটি প্রতিস্থাপন করতে চান সেটিতে ডান-ক্লিক করুন।
+2. **Swap file** নির্বাচন করুন।
+3. যে নোটের সাথে প্রতিস্থাপন করতে চান তা নির্বাচন করুন।
 
-## Select cards
+## কার্ড নির্বাচন করুন
 
-Select individual cards, or drag a selection around multiple cards.
+পৃথক কার্ড নির্বাচন করুন, অথবা একাধিক কার্ডের চারপাশে একটি নির্বাচন টেনে আনুন।
 
-You can also add and remove cards from an existing selection by pressing `Shift` and selecting them.
+আপনি একটি বিদ্যমান নির্বাচনে `Shift` চেপে সেগুলি নির্বাচন করে কার্ড যোগ এবং সরাতেও পারেন।
 
-Press `Ctrl+a` (or `Cmd+a` on macOS) to select all cards in the canvas.
+ক্যানভাসের সব কার্ড নির্বাচন করতে `Ctrl+a` (বা macOS-এ `Cmd+a`) চাপুন।
 
-To scroll the content of a card, you first need to select it.
+একটি কার্ডের বিষয়বস্তু স্ক্রল করতে, আপনাকে প্রথমে সেটি নির্বাচন করতে হবে।
 
-### Arrange cards
+### কার্ড সাজান
 
-Drag a selected card to move it.
+একটি নির্বাচিত কার্ড সরাতে সেটি টেনে আনুন।
 
-Press `Alt` (or `Option` on macOS) and drag to duplicate the selection.
+নির্বাচনটি নকল করতে `Alt` (বা macOS-এ `Option`) চেপে টেনে আনুন।
 
-You can press `Shift` while dragging to only move in one direction.
+শুধুমাত্র একটি দিকে সরাতে আপনি টেনে আনার সময় `Shift` চাপতে পারেন।
 
-Press `Space` while moving a selection to disable snapping.
+একটি নির্বাচন সরানোর সময় স্ন্যাপিং নিষ্ক্রিয় করতে `Space` চাপুন।
 
-Selecting a card moves it to the front.
+একটি কার্ড নির্বাচন করলে সেটি সামনে চলে আসে।
 
-### Resize a card
+### একটি কার্ডের আকার পরিবর্তন করুন
 
-Drag any of a card's edges to resize it.
+একটি কার্ডের আকার পরিবর্তন করতে তার যেকোনো প্রান্ত টেনে আনুন।
 
-You can press `Space` while resizing to disable snapping.
+আকার পরিবর্তনের সময় স্ন্যাপিং নিষ্ক্রিয় করতে আপনি `Space` চাপতে পারেন।
 
-To maintain the aspect ratio while resizing, press `Shift` while resizing.
+আকার পরিবর্তনের সময় অনুপাত বজায় রাখতে, আকার পরিবর্তনের সময় `Shift` চাপুন।
 
-## Connect cards
+## কার্ড সংযুক্ত করুন
 
-Draw lines between cards to show relationships. Add colors and labels to describe how they relate.
+সম্পর্ক দেখানোর জন্য কার্ডগুলির মধ্যে রেখা আঁকুন। সেগুলি কীভাবে সম্পর্কিত তা বর্ণনা করতে রং এবং লেবেল যোগ করুন।
 
-### Connect two cards
+### দুটি কার্ড সংযুক্ত করুন
 
-To connect two cards with a directed line:
+একটি দিকনির্দেশিত রেখা দিয়ে দুটি কার্ড সংযুক্ত করতে:
 
-1. Hover the cursor over one of the edges of a card until you see a filled circle.
-2. Drag the circle to the edge of a different card to connect them.
+1. একটি ভরাট বৃত্ত না দেখা পর্যন্ত কার্সরটি একটি কার্ডের প্রান্তের উপর নিয়ে যান।
+2. সেগুলি সংযুক্ত করতে বৃত্তটি অন্য একটি কার্ডের প্রান্তে টেনে আনুন।
 
-> [!tip]- Create a card from a new connection
-> If you drag the line without connecting it to another card, you can create a new card at the other end.
+> [!tip]- নতুন সংযোগ থেকে একটি কার্ড তৈরি করুন
+> আপনি যদি রেখাটি অন্য কোনো কার্ডের সাথে সংযুক্ত না করেই টেনে আনেন, তাহলে আপনি অন্য প্রান্তে একটি নতুন কার্ড তৈরি করতে পারেন।
 
-### Disconnect two cards
+### দুটি কার্ড বিচ্ছিন্ন করুন
 
-To remove the connection between two cards:
+দুটি কার্ডের মধ্যে সংযোগ সরাতে:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag one of the circles from the card without connecting it to another.
+1. রেখায় দুটি ছোট বৃত্ত না দেখা পর্যন্ত কার্সরটি একটি সংযোগ রেখার উপর নিয়ে যান।
+2. অন্য কার্ডের সাথে সংযুক্ত না করেই বৃত্তগুলির একটি কার্ড থেকে টেনে আনুন।
 
-You can also disconnect two cards by right-clicking the line between them, and then selecting **Remove**. Or, select the line and then press `Backspace` (or `Delete` on macOS).
+আপনি দুটি কার্ডের মধ্যেকার রেখায় ডান-ক্লিক করে এবং তারপর **Remove** নির্বাচন করেও সেগুলি বিচ্ছিন্ন করতে পারেন। অথবা, রেখাটি নির্বাচন করে `Backspace` (বা macOS-এ `Delete`) চাপুন।
 
-### Connect a card to a different card
+### একটি কার্ডকে ভিন্ন কার্ডের সাথে সংযুক্ত করুন
 
-To move one of the ends of a connection line:
+একটি সংযোগ রেখার একটি প্রান্ত সরাতে:
 
-1. Hover the cursor over a connection line until two small circles appear on the line.
-2. Drag the circle to another card to reconnect it.
+1. রেখায় দুটি ছোট বৃত্ত না দেখা পর্যন্ত কার্সরটি একটি সংযোগ রেখার উপর নিয়ে যান।
+2. পুনরায় সংযুক্ত করতে বৃত্তটি অন্য একটি কার্ডে টেনে আনুন।
 
-### Navigate a connection
+### একটি সংযোগে নেভিগেট করুন
 
-If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then selecting **Go to target** or **Go to source**.
+দুটি সংযুক্ত কার্ড যদি একে অপর থেকে অনেক দূরে থাকে, তাহলে আপনি রেখায় ডান-ক্লিক করে এবং তারপর **Go to target** বা **Go to source** নির্বাচন করে সংযোগের উৎস বা লক্ষ্যে নেভিগেট করতে পারেন।
 
-### Add a label to a connection
+### একটি সংযোগে লেবেল যোগ করুন
 
-You can add a label to a line to describe the relationship between two cards.
+দুটি কার্ডের মধ্যেকার সম্পর্ক বর্ণনা করতে আপনি একটি রেখায় লেবেল যোগ করতে পারেন।
 
-To label a connection:
+একটি সংযোগ লেবেল করতে:
 
-1. Double-click the line.
-2. Enter the label and then press `Escape` or select anywhere on the canvas.
+1. রেখায় ডাবল-ক্লিক করুন।
+2. লেবেলটি লিখুন এবং তারপর `Escape` চাপুন বা ক্যানভাসের যেকোনো জায়গায় নির্বাচন করুন।
 
-You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
+আপনি একটি সংযোগ নির্বাচন করে এবং তারপর নির্বাচন নিয়ন্ত্রণ থেকে **Edit label** নির্বাচন করেও এটি লেবেল করতে পারেন।
 
-To edit a connection label, double-click on the line, or right-click the line and then select **Edit label**.
+একটি সংযোগ লেবেল সম্পাদনা করতে, রেখায় ডাবল-ক্লিক করুন, বা রেখায় ডান-ক্লিক করুন এবং তারপর **Edit label** নির্বাচন করুন।
 
-### Change the color of a card or connection
+### একটি কার্ড বা সংযোগের রং পরিবর্তন করুন
 
-1. Select the cards or connections you want to color.
-2. In the selection controls, select **Set color** ![[lucide-palette.svg#icon]].
-3. Select a color.
+1. যে কার্ড বা সংযোগগুলিতে রং দিতে চান সেগুলি নির্বাচন করুন।
+2. নির্বাচন নিয়ন্ত্রণে, **Set color** ![[lucide-palette.svg#icon]] নির্বাচন করুন।
+3. একটি রং নির্বাচন করুন।
 
-## Group cards
+## কার্ড গ্রুপ করুন
 
-### Group selected cards
+### নির্বাচিত কার্ড গ্রুপ করুন
 
-To create an empty group:
+একটি খালি গ্রুপ তৈরি করতে:
 
-- Right-click the canvas and then select **Create group**.
+- ক্যানভাসে ডান-ক্লিক করুন এবং তারপর **Create group** নির্বাচন করুন।
 
-To group related cards:
+সম্পর্কিত কার্ড গ্রুপ করতে:
 
-1. Select the cards.
-2. Right-click any of the selected cards and then select **Create group**.
+1. কার্ডগুলি নির্বাচন করুন।
+2. নির্বাচিত কার্ডগুলির যেকোনো একটিতে ডান-ক্লিক করুন এবং তারপর **Create group** নির্বাচন করুন।
 
-**Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
+**Rename group:** গ্রুপের নাম সম্পাদনা করতে সেটিতে ডাবল-ক্লিক করুন, এবং তারপর সংরক্ষণ করতে `Enter` চাপুন।
 
-## Navigate the canvas
+## ক্যানভাসে নেভিগেট করুন
 
-Use panning and zooming to move across the canvas.
+ক্যানভাস জুড়ে যেতে প্যানিং এবং জুমিং ব্যবহার করুন।
 
-### Pan the canvas
+### ক্যানভাস প্যান করুন
 
-To move the canvas vertically and horizontally, also known as _panning_, you can use any of the following approaches:
+ক্যানভাসকে উল্লম্ব এবং অনুভূমিকভাবে সরাতে, যা _প্যানিং_ নামেও পরিচিত, আপনি নিম্নলিখিত যেকোনো পদ্ধতি ব্যবহার করতে পারেন:
 
-- Press `Space` and drag the canvas.
-- Drag the canvas using the middle mouse button.
-- Scroll the mouse to pan vertically, and press `Shift` while scrolling to pan horizontally.
+- `Space` চেপে ক্যানভাসটি টেনে আনুন।
+- মাউসের মধ্যম বোতাম ব্যবহার করে ক্যানভাসটি টেনে আনুন।
+- উল্লম্বভাবে প্যান করতে মাউস স্ক্রল করুন, এবং অনুভূমিকভাবে প্যান করতে স্ক্রল করার সময় `Shift` চাপুন।
 
-### Zoom the canvas
+### ক্যানভাস জুম করুন
 
-To zoom the canvas, press `Space` or `Ctrl` (or `Cmd` on macOS) and scroll using the mouse wheel. Or, select **Zoom in** ![[lucide-plus.svg#icon]] and **Zoom out** ![[lucide-minus.svg#icon]] from the zoom controls in the upper-right corner.
+ক্যানভাস জুম করতে, `Space` বা `Ctrl` (বা macOS-এ `Cmd`) চেপে মাউসের হুইল ব্যবহার করে স্ক্রল করুন। অথবা, উপরের-ডানদিকের কোণের জুম নিয়ন্ত্রণ থেকে **Zoom in** ![[lucide-plus.svg#icon]] এবং **Zoom out** ![[lucide-minus.svg#icon]] নির্বাচন করুন।
 
-#### Zoom to fit
+#### ফিট করতে জুম করুন
 
-To zoom the canvas so that every item is visible, select **Zoom to fit** ![[lucide-maximize.svg#icon]]. Or, use the keyboard shortcut `Shift+1`.
+প্রতিটি আইটেম দৃশ্যমান হওয়ার মতো করে ক্যানভাস জুম করতে, **Zoom to fit** ![[lucide-maximize.svg#icon]] নির্বাচন করুন। অথবা, `Shift+1` কীবোর্ড শর্টকাট ব্যবহার করুন।
 
-#### Zoom to selection
+#### নির্বাচনে জুম করুন
 
-To zoom the canvas so that all selected items are visible, right-click a selected card and then select **Zoom to selection**. Or, press `Shift+2`.
+সব নির্বাচিত আইটেম দৃশ্যমান হওয়ার মতো করে ক্যানভাস জুম করতে, একটি নির্বাচিত কার্ডে ডান-ক্লিক করুন এবং তারপর **Zoom to selection** নির্বাচন করুন। অথবা, `Shift+2` চাপুন।
 
-#### Reset zoom
+#### জুম রিসেট করুন
 
-To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
+জুম স্তরটি ডিফল্টে ফিরিয়ে আনতে, উপরের-ডানদিকের কোণের জুম নিয়ন্ত্রণে **Reset zoom** নির্বাচন করুন।
 
-## Embed a canvas
+## একটি ক্যানভাস এম্বেড করুন
 
-You can embed a canvas in a note using the standard embed syntax. For more information, refer to [[Embed files#Embed a canvas in a note|Embed a canvas in a note]].
+আপনি স্ট্যান্ডার্ড এম্বেড সিনট্যাক্স ব্যবহার করে একটি নোটে একটি ক্যানভাস এম্বেড করতে পারেন। আরও তথ্যের জন্য, [[Embed files#একটি নোটে একটি ক্যানভাস এম্বেড করুন|একটি নোটে একটি ক্যানভাস এম্বেড করুন]] দেখুন।
 
-## Advanced tips
+## উন্নত টিপস
 
-We have made some quick videos to demonstrate some advanced use cases of Canvas.
+আমরা ক্যানভাসের কিছু উন্নত ব্যবহারের ক্ষেত্র প্রদর্শনের জন্য কিছু সংক্ষিপ্ত ভিডিও তৈরি করেছি।
 
-You can [view all 72 tips here](https://obsidian.md/canvas#protips). The tip videos are only visible on desktop.
+আপনি [এখানে সব ৭২টি টিপ দেখতে পারেন](https://obsidian.md/canvas#protips)। টিপ ভিডিওগুলি শুধুমাত্র ডেস্কটপে দৃশ্যমান।

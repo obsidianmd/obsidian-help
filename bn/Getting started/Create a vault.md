@@ -1,28 +1,27 @@
 ---
-localized: null
 permalink: vault
 ---
-A vault is a folder on your local file system where Obsidian stores your notes. You can keep all your notes in one vault, or create several vaults for each of your different projects.
+একটি ভল্ট হলো আপনার স্থানীয় ফাইল সিস্টেমের একটি ফোল্ডার যেখানে Obsidian আপনার নোটগুলো সংরক্ষণ করে। আপনি আপনার সব নোট একটি ভল্টে রাখতে পারেন, অথবা আপনার বিভিন্ন প্রকল্পের জন্য একাধিক ভল্ট তৈরি করতে পারেন।
 
-The first time you open Obsidian, you'll be asked to add a new vault. You have two options, either create a new empty vault, or use an existing folder.
+Obsidian প্রথমবার খোলার সময়, আপনাকে একটি নতুন ভল্ট যোগ করতে বলা হবে। আপনার কাছে দুটি বিকল্প রয়েছে, হয় একটি নতুন খালি ভল্ট তৈরি করুন, অথবা একটি বিদ্যমান ফোল্ডার ব্যবহার করুন।
 
-## Create empty vault
+## খালি ভল্ট তৈরি করুন
 
-To create a new empty vault:
+একটি নতুন খালি ভল্ট তৈরি করতে:
 
-1. To the right of **Create new vault**, click **Create**.
-2. In **Vault name**, enter the name of your vault.
-3. Click **Browse** to select where your new vault will be created.
-4. Click **Create**.
+1. **নতুন ভল্ট তৈরি করুন**-এর ডানদিকে, **তৈরি করুন** ক্লিক করুন।
+2. **ভল্টের নাম**-এ, আপনার ভল্টের নাম লিখুন।
+3. আপনার নতুন ভল্ট কোথায় তৈরি হবে তা নির্বাচন করতে **ব্রাউজ করুন** ক্লিক করুন।
+4. **তৈরি করুন** ক্লিক করুন।
 
-## Open existing folder
+## বিদ্যমান ফোল্ডার খুলুন
 
-If you already have a folder that you want to use as your vault:
+আপনার যদি ইতিমধ্যে একটি ফোল্ডার থাকে যা আপনি আপনার ভল্ট হিসেবে ব্যবহার করতে চান:
 
-1. To the right of **Open folder as vault**, click **Open**.
-2. In the file browser, select the folder you want to use as your vault.
-3. Click **Open**.
+1. **ভল্ট হিসেবে ফোল্ডার খুলুন**-এর ডানদিকে, **খুলুন** ক্লিক করুন।
+2. ফাইল ব্রাউজারে, যে ফোল্ডারটি আপনি আপনার ভল্ট হিসেবে ব্যবহার করতে চান তা নির্বাচন করুন।
+3. **খুলুন** ক্লিক করুন।
 
-If you want to know more about how vaults work, learn how [[How Obsidian stores data]].
+ভল্টগুলো কীভাবে কাজ করে সে সম্পর্কে আরও জানতে চাইলে, জেনে নিন [[How Obsidian stores data]]।
 
-Now that you've set up your vault, you're ready to [[Create your first note]].
+আপনার ভল্ট এখন সেট আপ হয়ে গেছে, আপনি [[Create your first note]]-এর জন্য প্রস্তুত।

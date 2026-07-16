@@ -1,79 +1,78 @@
 ---
-localized: null
 permalink: ribbon
 publish: true
 mobile: true
-description: 'Learn how to use the ribbon, a space for common commands in Obsidian, and customize it on desktop and mobile.'
+description: 'রিবন, যা Obsidian-এ সাধারণ কমান্ডের জন্য একটি স্থান, তা ব্যবহার এবং ডেস্কটপ ও মোবাইলে কাস্টমাইজ করার পদ্ধতি জানুন।'
 ---
 
-The ribbon functions as a space for common commands within Obsidian. 
+রিবন Obsidian-এর মধ্যে সাধারণ কমান্ডগুলোর জন্য একটি স্থান হিসেবে কাজ করে।
 
-On desktop, it's located in the [[Sidebar#Open hidden sidebars|left Sidebar]] and remains visible even when the left Sidebar is closed. 
+ডেস্কটপে, এটি [[Sidebar#Open hidden sidebars|বাঁ সাইডবারে]] অবস্থিত এবং বাঁ সাইডবার বন্ধ থাকলেও দৃশ্যমান থাকে।
 
-On mobile, you can access the [[Mobile app#Ribbon actions|Ribbon Actions]] by tapping the **Menu option** ![[lucide-menu.svg#icon]] at the bottom-right corner of the app when you're not editing a note.
+মোবাইলে, নোট সম্পাদনা করছেন না এমন সময় অ্যাপের নিচের-ডান কোণায় **Menu option** ![[lucide-menu.svg#icon]] ট্যাপ করে আপনি [[Mobile app#Ribbon actions|Ribbon Actions]]-এ প্রবেশ করতে পারেন।
 
-## Actions
+## অ্যাকশন
 
-Each action is represented by an icon in the ribbon. Hovering over these icons will display a tooltip, while selecting them will activate the associated action. On mobile, you can tap these icons to activate them.
+প্রতিটি অ্যাকশন রিবনে একটি আইকন দিয়ে উপস্থাপিত হয়। এই আইকনগুলোর ওপর হোভার করলে একটি টুলটিপ দেখা যায়, এবং সেগুলো নির্বাচন করলে সংশ্লিষ্ট অ্যাকশন সক্রিয় হয়। মোবাইলে, আপনি এই আইকনগুলোতে ট্যাপ করে সেগুলো সক্রিয় করতে পারেন।
 
-1. Open **[[Manage vaults|Vault switcher]]** ![[obsidian-icon-vault-switcher.svg#icon]].
-2. Access **help** ![[lucide-help-circle.svg#icon]].
-3. Open **[[Settings]]** ![[lucide-settings.svg#icon]].
+1. **[[Manage vaults|ভল্ট সুইচার]]** ![[obsidian-icon-vault-switcher.svg#icon]] খুলুন।
+2. **সাহায্য** ![[lucide-help-circle.svg#icon]]-এ প্রবেশ করুন।
+3. **[[Settings]]** ![[lucide-settings.svg#icon]] খুলুন।
 
-In the mobile version, you can configure a quick access action on the ribbon. For more information, see the [[#Mobile|mobile section]] and [[Mobile app]].
+মোবাইল সংস্করণে, আপনি রিবনে একটি দ্রুত অ্যাক্সেস অ্যাকশন কনফিগার করতে পারেন। আরও তথ্যের জন্য, [[#Mobile|মোবাইল সেকশন]] এবং [[Mobile app]] দেখুন।
 
-## Customize the ribbon
+## রিবন কাস্টমাইজ করা
 
-Your customized ribbon layout is remembered across sessions. It synchronizes with other devices and the mobile app when app settings (in the `workspace.json` and `workspace-mobile.json` files) are synchronized.
+আপনার কাস্টমাইজ করা রিবন লেআউট সেশনজুড়ে মনে রাখা হয়। অ্যাপ সেটিংস (`workspace.json` এবং `workspace-mobile.json` ফাইলে) সিঙ্ক হলে এটি অন্যান্য ডিভাইস এবং মোবাইল অ্যাপের সাথে সিঙ্ক হয়।
 
-### Desktop
+### ডেস্কটপ
 
-On the desktop version, you can customize the ribbon as follows:
+ডেস্কটপ সংস্করণে, আপনি নিম্নলিখিতভাবে রিবন কাস্টমাইজ করতে পারেন:
 
-- Rearrange the order of ribbon actions by dragging and dropping the icons.
-- To hide specific actions, right-click on an empty space within the ribbon and uncheck the actions you want to hide.
+- আইকনগুলো ড্র্যাগ ও ড্রপ করে রিবন অ্যাকশনের ক্রম পুনর্বিন্যাস করুন।
+- নির্দিষ্ট অ্যাকশন লুকাতে, রিবনের ভেতরের খালি জায়গায় রাইট-ক্লিক করুন এবং যে অ্যাকশনগুলো লুকাতে চান তার চেকমার্ক তুলে দিন।
 
-#### Hide the ribbon
+#### রিবন লুকানো
 
-You can hide the ribbon in two ways:
+আপনি দুটি উপায়ে রিবন লুকাতে পারেন:
 
-- Right-click on the ribbon and select **Hide ribbon**.
-- Open **[[Settings]]** → **Appearance**, scroll down to **Advanced**, and disable **Show ribbon**.
+- রিবনে রাইট-ক্লিক করে **Hide ribbon** নির্বাচন করুন।
+- **[[Settings]]** → **Appearance** খুলুন, স্ক্রল করে **Advanced**-এ যান, এবং **Show ribbon** নিষ্ক্রিয় করুন।
 
-#### Show the ribbon
+#### রিবন দেখানো
 
-If you have hidden the ribbon and want to display it again:
+আপনি যদি রিবন লুকিয়ে রাখেন এবং আবার সেটি প্রদর্শন করতে চান:
 
-1. Open **[[Settings]]** → **Appearance**.
-2. Scroll down to **Advanced**.
-3. Enable **Show ribbon**.
-4. The ribbon will appear again on the left side of the window.
+1. **[[Settings]]** → **Appearance** খুলুন।
+2. স্ক্রল করে **Advanced**-এ যান।
+3. **Show ribbon** সক্রিয় করুন।
+4. রিবনটি আবার উইন্ডোর বাঁ পাশে দেখা যাবে।
 
-> [!tip] Custom CSS
-> If you're using a community theme or custom CSS, make sure it does not hide the ribbon through custom style rules.
+> [!tip] কাস্টম CSS
+> আপনি যদি কোনো কমিউনিটি থিম বা কাস্টম CSS ব্যবহার করেন, তাহলে নিশ্চিত করুন যে সেটি কাস্টম স্টাইল নিয়মের মাধ্যমে রিবন লুকিয়ে না দেয়।
 
-### Mobile
+### মোবাইল
 
-In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the ribbon menu. To access these customizations, follow these steps:
+Obsidian-এর মোবাইল সংস্করণে, আপনি দ্রুত অ্যাক্সেস অ্যাকশন সম্পাদন করতে, আইটেম পুনর্বিন্যাস করতে এবং রিবন মেনু কাস্টমাইজ করতে পারেন। এই কাস্টমাইজেশনে প্রবেশ করতে, নিচের ধাপগুলো অনুসরণ করুন:
 
-1. Open Obsidian's **[[Settings]]** ![[lucide-cog.svg#icon]].
-2. Navigate to the **appearance** section.
-3. Scroll down to the **advanced** options.
-4. Select the **Manage** button under the **Ribbon menu** item.
+1. Obsidian-এর **[[Settings]]** ![[lucide-cog.svg#icon]] খুলুন।
+2. **appearance** সেকশনে যান।
+3. স্ক্রল করে **advanced** অপশনে যান।
+4. **Ribbon menu** আইটেমের নিচে **Manage** বাটন নির্বাচন করুন।
 
-#### Quick access
+#### দ্রুত অ্যাক্সেস
 
-By default, the quick access option is set to "Open ribbon menu" on a *short press*. If you choose another option as your quick access:
+ডিফল্টভাবে, *ছোট চাপ*-এ দ্রুত অ্যাক্সেস অপশনটি "Open ribbon menu"-তে সেট করা থাকে। আপনি যদি দ্রুত অ্যাক্সেস হিসেবে অন্য কোনো অপশন বেছে নেন:
 
-- The selected option will be triggered with a *short press*.
-- The ribbon menu access will change to a *long press*.
+- নির্বাচিত অপশনটি *ছোট চাপে* সক্রিয় হবে।
+- রিবন মেনুতে প্রবেশ *দীর্ঘ চাপে* পরিবর্তিত হবে।
 
-> [!info] Quick access options depend on the Obsidian settings and core plugins you have enabled.
+> [!info] দ্রুত অ্যাক্সেস অপশনগুলো Obsidian সেটিংস এবং আপনার সক্রিয় করা কোর প্লাগইনের ওপর নির্ভর করে।
 
-#### Rearrange and visibility
+#### পুনর্বিন্যাস ও দৃশ্যমানতা
 
-To change the order of items in the ribbon menu, press and hold the **drag-and-drop** ![[lucide-menu.svg#icon]] button and move the selected item up or down.
+রিবন মেনুতে আইটেমের ক্রম পরিবর্তন করতে, **drag-and-drop** ![[lucide-menu.svg#icon]] বাটনটি চেপে ধরে রাখুন এবং নির্বাচিত আইটেমটি ওপরে বা নিচে সরান।
 
-You can show or hide items in the ribbon menu using the red **remove** ![[lucide-minus-circle.svg#icon]] or green **add** ![[lucide-plus-circle.svg#icon]] buttons to toggle their visibility.
- 
- ![[ribbon-rearrange-visibility.jpeg#interface]]
+আপনি লাল **remove** ![[lucide-minus-circle.svg#icon]] বা সবুজ **add** ![[lucide-plus-circle.svg#icon]] বাটন ব্যবহার করে রিবন মেনুতে আইটেমের দৃশ্যমানতা টগল করে দেখাতে বা লুকাতে পারেন।
+
+![[ribbon-rearrange-visibility.jpeg#interface]]

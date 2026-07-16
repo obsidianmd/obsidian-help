@@ -1,32 +1,31 @@
 ---
-localized: null
 permalink: plugins/daily-notes
 ---
 
-Daily notes is a [[Core plugins|core plugin]] that opens a note based on today's date, or creates it if it doesn't exist. Use daily notes to create journals, to-do lists, or daily logs for things you discovered during the day.
+দৈনিক নোট একটি [[Core plugins|কোর প্লাগইন]] যা আজকের তারিখের উপর ভিত্তি করে একটি নোট খোলে, বা যদি সেটি বিদ্যমান না থাকে তবে তৈরি করে। দিনের বেলা আবিষ্কার করা বিষয়গুলির জন্য জার্নাল, টু-ডু তালিকা, বা দৈনিক লগ তৈরি করতে দৈনিক নোট ব্যবহার করুন।
 
-To open today's daily note, either:
+আজকের দৈনিক নোট খুলতে, হয়:
 
-- Click **Open today's daily note** ![[lucide-calendar.svg#icon]] in the [[Ribbon|ribbon]].
-- Run **Open today's daily note** from the [[Command palette]].
-- [[Hotkeys#Set a hotkey|Use a hotkey]] for the **Open today's daily note** command.
+- [[Ribbon|রিবনে]] **Open today's daily note** ![[lucide-calendar.svg#icon]]-এ ক্লিক করুন।
+- [[Command palette]] থেকে **Open today's daily note** চালান।
+- **Open today's daily note** কমান্ডের জন্য [[Hotkeys#হট-কিই সেট করা|একটি হট-কিই ব্যবহার করুন]]।
 
-By default, Obsidian creates a new empty note named after today's date in the YYYY-MM-DD format.
+ডিফল্টভাবে, Obsidian YYYY-MM-DD ফরম্যাটে আজকের তারিখের নামে একটি নতুন খালি নোট তৈরি করে।
 
-> [!tip] If you prefer to have your daily notes in a separate folder, you can set the <u>New file location</u> under plugin options to change where Obsidian creates new daily notes.
+> [!tip] আপনি যদি আপনার দৈনিক নোটগুলি একটি পৃথক ফোল্ডারে রাখতে পছন্দ করেন, তাহলে Obsidian কোথায় নতুন দৈনিক নোট তৈরি করবে তা পরিবর্তন করতে প্লাগইন অপশনের অধীনে <u>New file location</u> সেট করতে পারেন।
 
-> [!example]- Automatic subfolders
-> You can automatically organize your daily notes into folders using the **Date format** feature.
+> [!example]- স্বয়ংক্রিয় সাবফোল্ডার
+> আপনি **Date format** বৈশিষ্ট্য ব্যবহার করে আপনার দৈনিক নোটগুলি স্বয়ংক্রিয়ভাবে ফোল্ডারে সংগঠিত করতে পারেন।
 > 
-> For instance, if you set the date format as `YYYY/MMMM/YYYY-MMM-DD`, your notes will be created as `2023/January/2023-Jan-01`. 
+> উদাহরণস্বরূপ, আপনি যদি তারিখের ফরম্যাট `YYYY/MMMM/YYYY-MMM-DD` হিসেবে সেট করেন, তাহলে আপনার নোটগুলি `2023/January/2023-Jan-01` হিসেবে তৈরি হবে। 
 > 
-> You can explore more formatting options on the [momentJS](https://momentjs.com/docs/#/displaying/format/) documentation site.
+> আপনি [momentJS](https://momentjs.com/docs/#/displaying/format/) ডকুমেন্টেশন সাইটে আরও ফরম্যাটিং অপশন সম্পর্কে জানতে পারেন।
 
-## Create a daily note from template
+## টেমপ্লেট থেকে একটি দৈনিক নোট তৈরি করুন
 
-If your daily notes have the same structure, you can use a [[Plugins/Templates|template]] to add pre-defined content to your daily notes when you create them.
+আপনার দৈনিক নোটগুলি যদি একই কাঠামো অনুসরণ করে, তাহলে আপনি একটি [[Plugins/Templates|টেমপ্লেট]] ব্যবহার করে আপনার দৈনিক নোট তৈরি করার সময় সেগুলিতে পূর্ব-নির্ধারিত বিষয়বস্তু যোগ করতে পারেন।
 
-1. Create a new note named "Daily template" with the following text (or whatever makes sense to you!):
+1. নিম্নলিখিত টেক্সট দিয়ে "Daily template" নামে একটি নতুন নোট তৈরি করুন (অথবা আপনার জন্য যা যুক্তিসঙ্গত মনে হয়!):
 
    ```md
    # {{date:YYYY-MM-DD}}
@@ -36,15 +35,15 @@ If your daily notes have the same structure, you can use a [[Plugins/Templates|t
    - [ ]
    ```
 
-2. Open **[[Settings]]**.
-3. In the sidebar, click **Daily notes** under **Plugin options**.
-4. In the text box next to **Template file location**, select the "Daily template" note.
+2. **[[Settings]]** খুলুন।
+3. সাইডবারে, **Plugin options**-এর অধীনে **Daily notes**-এ ক্লিক করুন।
+4. **Template file location**-এর পাশের টেক্সট বক্সে, "Daily template" নোটটি নির্বাচন করুন।
 
-Obsidian uses the template the next time you create a new daily note.
+আপনি পরবর্তী বার একটি নতুন দৈনিক নোট তৈরি করলে Obsidian টেমপ্লেটটি ব্যবহার করে।
 
-## Daily notes and properties
+## দৈনিক নোট এবং প্রপার্টি
 
-When the Daily notes plugin is activated and a date property is present within any note, Obsidian will automatically attempt to generate a link to the daily note for that specific day. For instance, if a note titled `example.md` includes a date property like `2023-01-01`, this date will transform into a clickable link in the [[Views and editing mode#Live Preview|live preview]] section.
+দৈনিক নোট প্লাগইন সক্রিয় থাকলে এবং যেকোনো নোটে একটি তারিখ প্রপার্টি থাকলে, Obsidian স্বয়ংক্রিয়ভাবে সেই নির্দিষ্ট দিনের দৈনিক নোটের একটি লিঙ্ক তৈরি করার চেষ্টা করবে। উদাহরণস্বরূপ, `example.md` শিরোনামের একটি নোটে যদি `2023-01-01`-এর মতো একটি তারিখ প্রপার্টি থাকে, তাহলে এই তারিখটি [[Views and editing mode#লাইভ প্রিভিউ|লাইভ প্রিভিউ]] বিভাগে একটি ক্লিকযোগ্য লিঙ্কে রূপান্তরিত হবে।
 
 ![[daily-notes-and-date-properties.png#interface|300]]
 ^daily-notes-date

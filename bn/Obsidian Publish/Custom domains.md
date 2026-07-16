@@ -1,74 +1,73 @@
 ---
-localized: null
 permalink: publish/domains
 mobile: true
-description: "You can set up a custom domain or subdomain for your\_Obsidian Publish\_site."
+description: "আপনি আপনার\_Obsidian Publish\_সাইটের জন্য একটি কাস্টম ডোমেইন বা সাবডোমেইন সেট আপ করতে পারেন।"
 ---
 
-You can set up a custom domain or subdomain for your [[Introduction to Obsidian Publish|Obsidian Publish]] site.
+আপনি আপনার [[Introduction to Obsidian Publish|Obsidian Publish]] সাইটের জন্য একটি কাস্টম ডোমেইন বা সাবডোমেইন সেট আপ করতে পারেন।
 
-> [!warning] Warning
-> At the moment, we only support configuring custom domains using the following methods:
+> [!warning] সতর্কবার্তা
+> বর্তমানে, আমরা শুধুমাত্র নিচের পদ্ধতিগুলো ব্যবহার করে কাস্টম ডোমেইন কনফিগার করার সমর্থন দিই:
 >
-> - [[#Set up using CloudFlare]] using [Full mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
+> - [[#Set up using CloudFlare]] [Full mode](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/) ব্যবহার করে।
 > - [[#Set up using a proxy]]
 > 
-> We don't yet have a way to provision an SSL certificate on your behalf.
+> আপনার পক্ষে SSL সার্টিফিকেট সরবরাহ করার কোনো উপায় এখনো আমাদের নেই।
 
-## Set up using CloudFlare
+## CloudFlare ব্যবহার করে সেট আপ করা
 
-The easiest way to set up a custom domain or subdomain is to create a [CloudFlare](https://cloudflare.com) account and let CloudFlare manage your domain's DNS.
+কাস্টম ডোমেইন বা সাবডোমেইন সেট আপ করার সবচেয়ে সহজ উপায় হলো একটি [CloudFlare](https://cloudflare.com) অ্যাকাউন্ট তৈরি করে CloudFlare-কে আপনার ডোমেইনের DNS পরিচালনা করতে দেওয়া।
 
-The following steps use CloudFlare to configure a custom domain for your Obsidian Publish site, either using a root domain (`mysite.com`) or a subdomain (`notes.mysite.com`).
+নিচের ধাপগুলো আপনার Obsidian Publish সাইটের জন্য একটি কাস্টম ডোমেইন কনফিগার করতে CloudFlare ব্যবহার করে, হয় একটি রুট ডোমেইন (`mysite.com`) অথবা একটি সাবডোমেইন (`notes.mysite.com`) দিয়ে।
 
-> [!important] Important
-> CloudFlare is the **only officially supported provider** for setting up custom domains. Using the following instructions with any other providers will likely not work.
+> [!important] গুরুত্বপূর্ণ
+> কাস্টম ডোমেইন সেট আপ করার জন্য CloudFlare হলো **একমাত্র অফিসিয়ালভাবে সমর্থিত প্রোভাইডার**। অন্য কোনো প্রোভাইডারের সাথে নিচের নির্দেশনা ব্যবহার করলে তা সম্ভবত কাজ করবে না।
 
 **CloudFlare:**
 
-1. Open Cloudflare to the domain where you want to host your Publish site, such as `mysite.com`, even if you want a subdomain like `notes.mysite.com`.
-2. Go to **DNS** and click **Add Record**.
-3. Select **CNAME**.
-4. In **name**, enter your domain or subdomain, for example `notes.mysite.com`.
-5. In **target**, enter `publish-main.obsidian.md`. Don't include your personal sub-URL in this value. Obsidian Publish handles this from your configuration.
-6. Make sure that **proxy status** is enabled. It should be enabled by default.
-7. Go to **SSL/TLS** and set the SSL/TLS encryption mode to "Full" to configure the SSL/TLS certificate automatically.
+1. যে ডোমেইনে আপনি আপনার Publish সাইট হোস্ট করতে চান, যেমন `mysite.com`, Cloudflare-এ সেটি খুলুন, এমনকি যদি আপনি `notes.mysite.com`-এর মতো একটি সাবডোমেইন চান তবুও।
+2. **DNS**-এ যান এবং **Add Record**-এ ক্লিক করুন।
+3. **CNAME** নির্বাচন করুন।
+4. **name**-এ, আপনার ডোমেইন বা সাবডোমেইন লিখুন, উদাহরণস্বরূপ `notes.mysite.com`।
+5. **target**-এ, `publish-main.obsidian.md` লিখুন। এই মানে আপনার ব্যক্তিগত সাব-URL অন্তর্ভুক্ত করবেন না। Obsidian Publish আপনার কনফিগারেশন থেকে এটি নিজেই সামলায়।
+6. নিশ্চিত করুন যে **proxy status** চালু আছে। এটি ডিফল্টভাবে চালু থাকার কথা।
+7. **SSL/TLS**-এ যান এবং SSL/TLS সার্টিফিকেট স্বয়ংক্রিয়ভাবে কনফিগার করতে SSL/TLS এনক্রিপশন মোড "Full"-এ সেট করুন।
 
-> [!note] Note
-> To redirect both `mysite.com` and `www.mysite.com` to Obsidian Publish, you need to create a [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) with the following settings:
+> [!note] নোট
+> `mysite.com` এবং `www.mysite.com` উভয়কেই Obsidian Publish-এ রিডাইরেক্ট করতে, আপনাকে নিচের সেটিংসসহ একটি [Page Rule](https://support.cloudflare.com/hc/en-us/articles/200172336-Creating-Page-Rules) তৈরি করতে হবে:
 >
 > - URL match: `www.mysite.com/*`
 > - Forward URL - 301 Permanent Redirect
 > - Redirect URL: `https://mysite.com/$1`
 >
-> After you've created the page rule, create a CNAME record for `www.mysite.com` just like you did for `mysite.com`.
+> পেজ রুল তৈরি করার পর, `mysite.com`-এর জন্য যেভাবে করেছিলেন ঠিক সেভাবে `www.mysite.com`-এর জন্যও একটি CNAME রেকর্ড তৈরি করুন।
 
 **Obsidian:**
 
-1. Open Obsidian on your computer.
-2. In the [[Ribbon]] at the left, click **Publish changes** ![[lucide-send.svg#icon]].
-3. Under **Publish changes**, select **Change site options** ![[lucide-cog.svg#icon]].
-4. Next to **Custom domain**, select **Configure**.
-5. In **Custom URL**, enter the URL to your domain or subdomain. Make sure to not put `www.` in the custom URL box.
+1. আপনার কম্পিউটারে Obsidian খুলুন।
+2. বাম পাশের [[Ribbon|রিবনে]], **Publish changes** ![[lucide-send.svg#icon]]-এ ক্লিক করুন।
+3. **Publish changes**-এর অধীনে, **Change site options** ![[lucide-cog.svg#icon]] নির্বাচন করুন।
+4. **Custom domain**-এর পাশে, **Configure** নির্বাচন করুন।
+5. **Custom URL**-এ, আপনার ডোমেইন বা সাবডোমেইনের URL লিখুন। কাস্টম URL বক্সে `www.` না বসাতে নিশ্চিত হন।
 
-> [!note] Note
-> If your custom domain setup ends up in a redirect loop, it's likely that the encryption mode in CloudFlare has been set to "Flexible" instead of "Full".
+> [!note] নোট
+> যদি আপনার কাস্টম ডোমেইন সেটআপ একটি রিডাইরেক্ট লুপে গিয়ে আটকে যায়, তাহলে সম্ভবত CloudFlare-এ এনক্রিপশন মোড "Full"-এর পরিবর্তে "Flexible" সেট করা আছে।
 
-## Set up using a proxy
+## একটি প্রক্সি ব্যবহার করে সেট আপ করা
 
-You can also set up SSL/TLS for your custom domain by using your own web server.
+আপনি আপনার নিজের ওয়েব সার্ভার ব্যবহার করেও আপনার কাস্টম ডোমেইনের জন্য SSL/TLS সেট আপ করতে পারেন।
 
-If you are already hosting a website under your domain or subdomain, you can also use this option and set up your website to load your Obsidian Publish site under a specific URL path, instead of hosting the full site.
+আপনার ডোমেইন বা সাবডোমেইনের অধীনে যদি আপনি ইতিমধ্যেই একটি ওয়েবসাইট হোস্ট করে থাকেন, তাহলে আপনি এই বিকল্পটিও ব্যবহার করতে পারেন এবং আপনার সম্পূর্ণ সাইট হোস্ট করার পরিবর্তে একটি নির্দিষ্ট URL পাথের অধীনে আপনার Obsidian Publish সাইট লোড করার জন্য আপনার ওয়েবসাইট সেট আপ করতে পারেন।
 
-Proxy all requests under that URL path to `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` and configure the site options in Obsidian to the same URL path, by setting **Custom URL** to `mysite.com/my-notes`.
+সেই URL পাথের অধীনে সমস্ত রিকোয়েস্ট `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...`-এ প্রক্সি করুন এবং **Custom URL**-কে `mysite.com/my-notes`-এ সেট করে Obsidian-এ সাইট অপশনগুলো একই URL পাথে কনফিগার করুন।
 
-You can also set up Obsidian Publish as a sub-URL of a site you own. For example, `https://mysite.com/my-notes/`. To achieve this, you must host your own server and proxy all requests to our server at `https://publish.obsidian.md/`.
+আপনি আপনার নিজের একটি সাইটের সাব-URL হিসেবেও Obsidian Publish সেট আপ করতে পারেন। উদাহরণস্বরূপ, `https://mysite.com/my-notes/`। এটি অর্জন করতে, আপনাকে অবশ্যই আপনার নিজের সার্ভার হোস্ট করতে হবে এবং সমস্ত রিকোয়েস্ট আমাদের সার্ভার `https://publish.obsidian.md/`-এ প্রক্সি করতে হবে।
 
-The following proxy setup examples are not exhaustive, but provide common methods for this implementation.
+নিচের প্রক্সি সেটআপ উদাহরণগুলো সম্পূর্ণ নয়, কিন্তু এই বাস্তবায়নের জন্য সাধারণ পদ্ধতি সরবরাহ করে।
 
 ### NGINX
 
-In your NGINX configuration, add the following:
+আপনার NGINX কনফিগারেশনে, নিচেরটি যোগ করুন:
 
 ```nginx
 location /my-notes {
@@ -79,7 +78,7 @@ location /my-notes {
 ```
 
 
-Some users have reported that adding `$request_uri` to the proxy pass may be required:
+কিছু ব্যবহারকারী জানিয়েছেন যে প্রক্সি পাসে `$request_uri` যোগ করা প্রয়োজন হতে পারে:
 
 ```nginx
 location /my-notes {
@@ -91,19 +90,19 @@ location /my-notes {
 
 ### Apache
 
-In `.htaccess`, add the following:
+`.htaccess`-এ, নিচেরটি যোগ করুন:
 
 ```htaccess
 RewriteEngine  on
 RewriteRule    "^my-notes/(.*)$"  "https://publish.obsidian.md/serve?url=mysite.com/my-notes/$1"  [L,P]
 ```
 
-> [!note] Note
-> `mod_rewrite` must be enabled, and you may also need to configure [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache)
+> [!note] নোট
+> `mod_rewrite` চালু থাকতে হবে, এবং আপনার [SSLProxyEngine](https://stackoverflow.com/questions/40938148/reverse-proxy-for-external-url-apache) কনফিগার করারও প্রয়োজন হতে পারে
 
 ### Netlify
 
-In `netlify.toml`, [configure redirects](https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file):
+`netlify.toml`-এ, [রিডাইরেক্ট কনফিগার করুন](https://docs.netlify.com/routing/redirects/#syntax-for-the-netlify-configuration-file):
 
 ```plain
 [[redirects]]
@@ -115,7 +114,7 @@ In `netlify.toml`, [configure redirects](https://docs.netlify.com/routing/redire
 
 ### Vercel
 
-In `vercel.json`, [configure rewrites](https://vercel.com/docs/configuration#project/rewrites):
+`vercel.json`-এ, [রিরাইট কনফিগার করুন](https://vercel.com/docs/configuration#project/rewrites):
 
 ```json
 {
@@ -150,9 +149,8 @@ mysite.com {
 
 ### Traefik
 
-This minimal configuration excerpt redirects `mysite.com` to Obsidian publish.
-See the [Traefik documentation](https://doc.traefik.io/traefik/routing/overview/)
-for a complete example.
+এই ন্যূনতম কনফিগারেশন অংশটি `mysite.com`-কে Obsidian Publish-এ রিডাইরেক্ট করে।
+সম্পূর্ণ উদাহরণের জন্য [Traefik ডকুমেন্টেশন](https://doc.traefik.io/traefik/routing/overview/) দেখুন।
 
 ```yaml
 http:
@@ -175,14 +173,14 @@ http:
           x-obsidian-custom-domain: "mysite.com"
 ```
 
-### Supported HTTP X-Headers
+### সমর্থিত HTTP X-Headers
 
-If your proxy service doesn't allow query paths, you can use `https://publish.obsidian.md/` with a custom header `x-obsidian-custom-domain` set to your site URL `mysite.com/my-subpath`.
+আপনার প্রক্সি সেবা যদি কোয়েরি পাথ সমর্থন না করে, তাহলে আপনি আপনার সাইট URL `mysite.com/my-subpath`-এ সেট করা একটি কাস্টম হেডার `x-obsidian-custom-domain`-সহ `https://publish.obsidian.md/` ব্যবহার করতে পারেন।
 
-## Redirect old site to custom domain
+## পুরনো সাইটকে কাস্টম ডোমেইনে রিডাইরেক্ট করুন
 
-If you want to redirect your visitors from the old `publish.obsidian.md` site to your new custom domain, enable the **Redirect to your custom domain** option when configuring your custom domain.
+আপনি যদি আপনার দর্শকদের পুরনো `publish.obsidian.md` সাইট থেকে আপনার নতুন কাস্টম ডোমেইনে রিডাইরেক্ট করতে চান, তাহলে আপনার কাস্টম ডোমেইন কনফিগার করার সময় **Redirect to your custom domain** অপশনটি চালু করুন।
 
-## Troubleshoot
+## সমস্যা সমাধান
 
-Once you set up your custom domain, if you've visited your site from your previous `https://publish.obsidian.md/slug` link, you may have to clear your browser cache for certain things (like fonts, graphs, or password access) to work properly. This is due to the cross-domain security restrictions that are imposed by modern browsers. The good news is that readers of your site should never run into issue this if you only let visitors use your custom domain.
+আপনার কাস্টম ডোমেইন সেট আপ করার পর, যদি আপনি আপনার আগের `https://publish.obsidian.md/slug` লিঙ্ক থেকে আপনার সাইট দেখে থাকেন, তাহলে কিছু জিনিস (যেমন ফন্ট, গ্রাফ, বা পাসওয়ার্ড অ্যাক্সেস) সঠিকভাবে কাজ করার জন্য আপনাকে আপনার ব্রাউজারের ক্যাশে মুছে ফেলতে হতে পারে। এটি আধুনিক ব্রাউজারগুলো দ্বারা আরোপিত ক্রস-ডোমেইন নিরাপত্তা বিধিনিষেধের কারণে হয়ে থাকে। ভালো খবর হলো, আপনি যদি দর্শকদের শুধুমাত্র আপনার কাস্টম ডোমেইন ব্যবহার করতে দেন, তাহলে আপনার সাইটের পাঠকদের এই সমস্যায় পড়তে হবে না।
