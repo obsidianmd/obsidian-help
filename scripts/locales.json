@@ -1,6 +1,7 @@
 [
   { "code": "en",    "label": "English",             "base": "https://obsidian.md/help" },
   { "code": "ar",    "label": "العربية",             "base": "https://obsidian.md/ar/help" },
+  { "code": "bn",    "label": "বাংলা",                "base": "https://obsidian.md/bn/help" },
   { "code": "ca",    "label": "Català",               "base": "https://obsidian.md/ca/help" },
   { "code": "cs",    "label": "Čeština",              "base": "https://obsidian.md/cs/help" },
   { "code": "da",    "label": "Dansk",               "base": "https://obsidian.md/da/help" },
