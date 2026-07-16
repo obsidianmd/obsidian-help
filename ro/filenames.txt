@@ -1,0 +1,759 @@
+[file./]
+original=Home
+translation=Acasă
+
+[file.2fa]
+original=2-factor authentication
+translation=Autentificare în doi factori
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=Sintaxă avansată de formatare
+
+[file.aliases]
+original=Aliases
+translation=Pseudonime
+
+[file.android]
+original=Obsidian for Android
+translation=Obsidian pentru Android
+
+[file.appearance]
+original=Appearance
+translation=Personalizare
+
+[file.attachments]
+original=Attachments
+translation=Atașamente
+
+[file.backup]
+original=Back up your Obsidian files
+translation=Fă copii de rezervă ale fișierelor Obsidian
+
+[file.bases]
+original=Introduction to Bases
+translation=Introducere în Baze
+
+[file.bases/create-base]
+original=Create a base
+translation=Creează o bază
+
+[file.bases/functions]
+original=Functions
+translation=Funcții
+
+[file.bases/syntax]
+original=Bases syntax
+translation=Sintaxă Baze
+
+[file.bases/views]
+original=Views
+translation=Afișaje
+
+[file.bases/views/cards]
+original=Cards view
+translation=Afișaj carduri
+
+[file.bases/views/list]
+original=List view
+translation=Afișaj listă
+
+[file.bases/views/map]
+original=Map view
+translation=Afișaj hartă
+
+[file.bases/views/table]
+original=Table view
+translation=Afișaj tabel
+
+[file.callouts]
+original=Callouts
+translation=Explicații
+
+[file.catalyst]
+original=Catalyst license
+translation=Licența Catalyst
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=Codul de conduită al comunității
+
+[file.community-plugins]
+original=Community plugins
+translation=Module comunitare
+
+[file.configuration-folder]
+original=Configuration folder
+translation=Directorul de configurare
+
+[file.create-note]
+original=Create your first note
+translation=Creează prima ta notiță
+
+[file.credit]
+original=Obsidian Credit
+translation=Credit Obsidian
+
+[file.credits]
+original=Credits
+translation=Mulțumiri
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Cum stochează Obsidian datele
+
+[file.developers]
+original=Developers
+translation=Dezvoltatori
+
+[file.discounts]
+original=Education and non-profit discount
+translation=Reducere pentru educație și organizații nonprofit
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=Tragere și plasare
+
+[file.early-access]
+original=Early access versions
+translation=Versiuni cu acces timpuriu
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=Moduri de vizualizare și editare
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=Comenzi rapide de editare
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=Încorporează pagini web
+
+[file.embeds]
+original=Embed files
+translation=Încorporează fișiere
+
+[file.file-formats]
+original=Accepted file formats
+translation=Formate de fișiere acceptate
+
+[file.financial-contributions]
+original=Financial contributions
+translation=Contribuții financiare
+
+[file.folding]
+original=Folding
+translation=Pliere
+
+[file.formulas]
+original=Formulas
+translation=Formule
+
+[file.glossary]
+original=Glossary
+translation=Glosar
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=Combinații de taste
+
+[file.html]
+original=HTML content
+translation=Conținut HTML
+
+[file.import]
+original=Import notes
+translation=Importă notițe
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Importă din Apple Journal
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Importă din Apple Notes
+
+[file.import/bear]
+original=Import from Bear
+translation=Importă din Bear
+
+[file.import/craft]
+original=Import from Craft
+translation=Importă din Craft
+
+[file.import/csv]
+original=Import CSV files
+translation=Importă fișiere CSV
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Importă din Evernote
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Importă din Google Keep
+
+[file.import/html]
+original=Import HTML files
+translation=Importă fișiere HTML
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Importă fișiere Markdown
+
+[file.import/notion]
+original=Import from Notion
+translation=Importă din Notion
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Importă din Microsoft OneNote
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Importă din Roam Research
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Importă fișiere Textbundle
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Importă notițe Zettelkasten
+
+[file.install]
+original=Download and install Obsidian
+translation=Descarcă și instalează Obsidian
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=Obsidian pentru iOS și iPadOS
+
+[file.language]
+original=Language settings
+translation=Setări de limbă
+
+[file.link-notes]
+original=Link notes
+translation=Leagă notițe
+
+[file.links]
+original=Internal links
+translation=Legături interne
+
+[file.manage-notes]
+original=Manage notes
+translation=Gestionează notițele
+
+[file.manage-vaults]
+original=Manage vaults
+translation=Gestionează seifurile
+
+[file.mobile]
+original=Mobile app
+translation=Aplicația mobilă
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=Cursoare multiple
+
+[file.obsidian]
+original=About Obsidian
+translation=Despre Obsidian
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Markdown specific Obsidian
+
+[file.official-site]
+original=Official website
+translation=Site-ul oficial
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=Introducere în licențe și plăți
+
+[file.plugin-security]
+original=Plugin security
+translation=Securitatea modulelor
+
+[file.plugins]
+original=Core plugins
+translation=Module de bază
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=Înregistrare audio
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=Referințe
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=Marcaje
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=Paleta de comenzi
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=Note zilnice
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=Exploratorul de fișiere
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=Recuperare fișiere
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=Afișaj note de subsol
+
+[file.plugins/format-converter]
+original=Format converter
+translation=Convertor de format
+
+[file.plugins/graph]
+original=Graph view
+translation=Afișaj grafic
+
+[file.plugins/importer]
+original=Importer
+translation=Importator
+
+[file.plugins/note-composer]
+original=Note composer
+translation=Compozitor de notițe
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=Legături de ieșire
+
+[file.plugins/outline]
+original=Outline
+translation=Sumar
+
+[file.plugins/page-preview]
+original=Page preview
+translation=Previzualizare pagină
+
+[file.plugins/properties]
+original=Properties view
+translation=Mod de vizualizare a proprietăților
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=Comutare rapidă
+
+[file.plugins/random-note]
+original=Random note
+translation=Notă aleatorie
+
+[file.plugins/search]
+original=Search
+translation=Caută
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=Comenzi slash
+
+[file.plugins/slides]
+original=Slides
+translation=Prezentări
+
+[file.plugins/tags]
+original=Tags view
+translation=Panoul cu etichete
+
+[file.plugins/templates]
+original=Templates
+translation=Șabloane
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=Creator de note unice
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=Vizualizator web
+
+[file.plugins/word-count]
+original=Word count
+translation=Număr de cuvinte
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=Spații de lucru
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=Ferestre desprinse
+
+[file.properties]
+original=Properties
+translation=Proprietăți
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Introducere în Obsidian Publish
+
+[file.publish/analytics]
+original=Analytics
+translation=Analitice
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Colaborează pe un site Publish
+
+[file.publish/customize]
+original=Customize your site
+translation=Personalizează-ți site-ul
+
+[file.publish/domains]
+original=Custom domains
+translation=Domenii personalizate
+
+[file.publish/headless]
+original=Headless Publish
+translation=Publish Headless
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Limitări Publish
+
+[file.publish/media]
+original=Media files
+translation=Fișiere media
+
+[file.publish/permalinks]
+original=Permalinks
+translation=Permalinkuri
+
+[file.publish/publish]
+original=Publish your content
+translation=Publică-ți conținutul
+
+[file.publish/security]
+original=Security and privacy
+translation=Securitate și confidențialitate
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Configurează Obsidian Publish
+
+[file.publish/sites]
+original=Manage sites
+translation=Gestionează site-urile
+
+[file.publish/social-share]
+original=Social media link previews
+translation=Previzualizări pentru rețele sociale
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Depanează Obsidian Publish
+
+[file.refunds]
+original=Refund policy
+translation=Politica de rambursare
+
+[file.resources]
+original=Help and support
+translation=Ajutor și suport
+
+[file.ribbon]
+original=Ribbon
+translation=Panglică
+
+[file.sales-tax]
+original=Sales tax
+translation=Taxa pe vânzări
+
+[file.sandbox]
+original=Sandbox vault
+translation=Seif sandbox
+
+[file.settings]
+original=Settings
+translation=Setări
+
+[file.sidebar]
+original=Sidebar
+translation=Bara laterală
+
+[file.snippets]
+original=CSS snippets
+translation=Fragmente CSS
+
+[file.status-bar]
+original=Status bar
+translation=Bara de status
+
+[file.style-guide]
+original=Style guide
+translation=Ghid de stil
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=Legături simbolice și joncțiuni
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Introducere în Obsidian Sync
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=Sincronizează-ți notițele pe toate dispozitivele
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=Colaborează într-un seif partajat
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=Întrebări frecvente
+
+[file.sync/headless]
+original=Headless Sync
+translation=Sync Headless
+
+[file.sync/messages]
+original=Status icon and messages
+translation=Pictograma de status și mesaje
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Actualizează criptarea Sync
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=Planuri și limite de stocare
+
+[file.sync/region]
+original=Sync regions
+translation=Regiuni Sync
+
+[file.sync/security]
+original=Security and privacy
+translation=Securitate și confidențialitate
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=Setări Sync și sincronizare selectivă
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Configurează Obsidian Sync
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Trece la Obsidian Sync
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Depanează Obsidian Sync
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=Seifuri locale și la distanță
+
+[file.sync/version-history]
+original=Version history
+translation=Istoricul versiunilor
+
+[file.syntax]
+original=Basic formatting syntax
+translation=Sintaxă de bază pentru formatare
+
+[file.tabs]
+original=Tabs
+translation=File
+
+[file.tags]
+original=Tags
+translation=Etichete
+
+[file.teams]
+original=Obsidian for teams
+translation=Obsidian pentru echipe
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=Implementează Obsidian în echipa ta
+
+[file.teams/license]
+original=Commercial license
+translation=Licență comercială
+
+[file.teams/publish]
+original=Publishing for teams
+translation=Publish pentru echipe
+
+[file.teams/security]
+original=Security considerations for teams
+translation=Considerații de securitate pentru echipe
+
+[file.teams/sync]
+original=Syncing for teams
+translation=Sync pentru echipe
+
+[file.themes]
+original=Themes
+translation=Teme
+
+[file.translations]
+original=Translations
+translation=Traduceri
+
+[file.updates]
+original=Update Obsidian
+translation=Actualizează Obsidian
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=Creează un seif
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Introducere în Obsidian Web Clipper
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=Salvează pagini web
+
+[file.web-clipper/filters]
+original=Filters
+translation=Filtre
+
+[file.web-clipper/highlight]
+original=Highlighter
+translation=Evidențiere
+
+[file.web-clipper/interpreter]
+original=Interpreter
+translation=Interpretor
+
+[file.web-clipper/logic]
+original=Logic
+translation=Logică
+
+[file.web-clipper/reader]
+original=Reader
+translation=Cititor
+
+[file.web-clipper/templates]
+original=Templates
+translation=Șabloane
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Depanează Web Clipper
+
+[file.web-clipper/variables]
+original=Variables
+translation=Variabile
+
+[file.workspace]
+original=Workspace
+translation=Spațiu de lucru
+
+[folder.audio]
+original=audio
+translation=audio
+
+[folder.Bases]
+original=Bases
+translation=Baze
+
+[folder.Changelog]
+original=Changelog
+translation=Jurnal de modificări
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Contribuții la Obsidian
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=Editare și formatare
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Extinderea Obsidian
+
+[folder.Files and folders]
+original=Files and folders
+translation=Fișiere și directoare
+
+[folder.Getting started]
+original=Getting started
+translation=Primii pași
+
+[folder.icons]
+original=icons
+translation=pictograme
+
+[folder.Import notes]
+original=Import notes
+translation=Importă notițe
+
+[folder.Layouts]
+original=Layouts
+translation=Aspect
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=Licențe și plăți
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=Legarea notițelor și fișierelor
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=Plugins
+
+[folder.Teams]
+original=Teams
+translation=Teams
+
+[folder.User interface]
+original=User interface
+translation=Interfață utilizator
+
+[folder.video]
+original=video
+translation=video

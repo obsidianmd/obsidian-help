@@ -2,7 +2,7 @@
 permalink: plugins/canvas
 description: 'Canvas este un modul integrat pentru notițe vizuale. Aranjează și conectează notițe, imagini și alte fișiere într-un spațiu 2D.'
 ---
-Canvas este un [[Core plugins|modul integrat]] pentru notițe vizuale. Îți oferă un spațiu infinit pentru a aranja notele și a le conecta cu alte note, atașamente și pagini web.
+Canvas este un [[Module de bază|modul integrat]] pentru notițe vizuale. Îți oferă un spațiu infinit pentru a aranja notele și a le conecta cu alte note, atașamente și pagini web.
 
 Aranjarea notelor tale într-un spațiu 2D te ajută să vezi și să înțelegi conexiunile dintre ele. Conectează notele cu linii și grupează-le pe cele înrudite.
 
@@ -14,12 +14,12 @@ Pentru a începe să folosești Canvas, trebuie mai întâi să creezi un fișie
 
 **Paleta de comenzi:**
 
-1. Deschide [[Command palette|Paleta de comenzi]].
+1. Deschide [[Paleta de comenzi|Paleta de comenzi]].
 2. Selectează **Canvas: Create new canvas** pentru a crea o pânză în același director cu fișierul activ.
 
 **Exploratorul de fișiere:**
 
-- În [[File explorer|Exploratorul de fișiere]], dă clic dreapta pe directorul în care vrei să creezi pânza.
+- În [[Exploratorul de fișiere|Exploratorul de fișiere]], dă clic dreapta pe directorul în care vrei să creezi pânza.
 - Selectează **New canvas**.
 
 **Panglică:**
@@ -49,7 +49,7 @@ Pentru a converti un card de text într-un fișier:
 2. Introdu numele notei și apoi selectează **Save**.
 
 > [!note] Cardurile doar de text și referințele
-> Cardurile doar de text nu apar în [[Backlinks|Referințe]]. Pentru a le face să apară, trebuie să le convertești în fișiere.
+> Cardurile doar de text nu apar în [[Referințe|Referințe]]. Pentru a le face să apară, trebuie să le convertești în fișiere.
 
 ### Adaugă carduri din note
 
@@ -63,7 +63,7 @@ Poți adăuga note și din meniul contextual al pânzei:
 1. Dă clic dreapta pe pânză și apoi selectează **Add note from vault**.
 2. Selectează nota pe care vrei să o adaugi.
 
-Poți trage note și din [[File explorer|Exploratorul de fișiere]] în pânză.
+Poți trage note și din [[Exploratorul de fișiere|Exploratorul de fișiere]] în pânză.
 
 ### Adaugă carduri din fișiere media
 
@@ -77,7 +77,7 @@ Poți adăuga fișiere media și din meniul contextual al pânzei:
 1. Dă clic dreapta pe pânză și apoi selectează **Add media from vault**.
 2. Selectează fișierul media pe care vrei să-l adaugi.
 
-Poți trage fișiere media și din [[File explorer|Exploratorul de fișiere]] în pânză.
+Poți trage fișiere media și din [[Exploratorul de fișiere|Exploratorul de fișiere]] în pânză.
 
 ### Adaugă carduri din pagini web
 
@@ -92,7 +92,7 @@ Pentru a deschide pagina web în browserul tău, apasă `Ctrl` (sau `Cmd` pe mac
 
 ### Adaugă carduri din directoare
 
-Trage un director din [[File explorer|Exploratorul de fișiere]] pentru a adăuga toate fișierele din acel director în pânză.
+Trage un director din [[Exploratorul de fișiere|Exploratorul de fișiere]] pentru a adăuga toate fișierele din acel director în pânză.
 
 ### Editează un card
 
@@ -244,7 +244,7 @@ Pentru a readuce nivelul de mărire la valoarea implicită, selectează **Reset 
 
 ## Încorporează o pânză
 
-Poți încorpora o pânză într-o notă folosind sintaxa standard de încorporare. Pentru mai multe informații, consultă [[Embed files#Embed a canvas in a note|Încorporează o pânză într-o notă]].
+Poți încorpora o pânză într-o notă folosind sintaxa standard de încorporare. Pentru mai multe informații, consultă [[Încorporează fișiere#Embed a canvas in a note|Încorporează o pânză într-o notă]].
 
 ## Sfaturi avansate
 
