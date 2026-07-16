@@ -1,0 +1,751 @@
+[file./]
+original=Home
+translation=হোম
+
+[file.2fa]
+original=2-factor authentication
+translation=২-ফ্যাক্টর অথেন্টিকেশন
+
+[file.advanced-syntax]
+original=Advanced formatting syntax
+translation=উন্নত ফরম্যাটিং সিনট্যাক্স
+
+[file.aliases]
+original=Aliases
+translation=উপনাম
+
+[file.android]
+original=Obsidian for Android
+translation=Android-এর জন্য Obsidian
+
+[file.appearance]
+original=Appearance
+translation=রূপ
+
+[file.attachments]
+original=Attachments
+translation=আটাচমেন্ট
+
+[file.backup]
+original=Back up your Obsidian files
+translation=আপনার Obsidian ফাইল ব্যাকআপ করুন
+
+[file.bases]
+original=Introduction to Bases
+translation=বেসেস পরিচিতি
+
+[file.bases/create-base]
+original=Create a base
+translation=বেস তৈরি করুন
+
+[file.bases/functions]
+original=Functions
+translation=ফাংশন
+
+[file.bases/syntax]
+original=Bases syntax
+translation=বেসেস সিনট্যাক্স
+
+[file.bases/views]
+original=Views
+translation=ভিউ
+
+[file.bases/views/cards]
+original=Cards view
+translation=কার্ড ভিউ
+
+[file.bases/views/list]
+original=List view
+translation=তালিকা ভিউ
+
+[file.bases/views/map]
+original=Map view
+translation=মানচিত্র ভিউ
+
+[file.bases/views/table]
+original=Table view
+translation=টেবিল ভিউ
+
+[file.callouts]
+original=Callouts
+translation=কলআউট
+
+[file.catalyst]
+original=Catalyst license
+translation=Catalyst লাইসেন্স
+
+[file.cli]
+original=Obsidian CLI
+translation=Obsidian CLI
+
+[file.community-code-of-conduct]
+original=Community code of conduct
+translation=কমিউনিটি আচরণবিধি
+
+[file.community-plugins]
+original=Community plugins
+translation=কমিউনিটি প্লাগইন
+
+[file.configuration-folder]
+original=Configuration folder
+translation=কনফিগারেশন ফোল্ডার
+
+[file.create-note]
+original=Create your first note
+translation=আপনার প্রথম নোট তৈরি করুন
+
+[file.credit]
+original=Obsidian Credit
+translation=Obsidian ক্রেডিট
+
+[file.credits]
+original=Credits
+translation=ক্রেডিট
+
+[file.data-storage]
+original=How Obsidian stores data
+translation=Obsidian যেভাবে ডেটা সংরক্ষণ করে
+
+[file.developers]
+original=Developers
+translation=ডেভেলপার
+
+[file.discounts]
+original=Education and non-profit discount
+translation=শিক্ষা ও অলাভজনক প্রতিষ্ঠানের জন্য ছাড়
+
+[file.drag-and-drop]
+original=Drag and drop
+translation=ড্র্যাগ ও ড্রপ
+
+[file.early-access]
+original=Early access versions
+translation=আর্লি অ্যাক্সেস ভার্সন
+
+[file.edit-and-read]
+original=Views and editing mode
+translation=ভিউ ও সম্পাদনা মোড
+
+[file.editing-shortcuts]
+original=Editing shortcuts
+translation=সম্পাদনা শর্টকাট
+
+[file.embed-web-pages]
+original=Embed web pages
+translation=ওয়েব পেজ এম্বেড করুন
+
+[file.embeds]
+original=Embed files
+translation=ফাইল এম্বেড করুন
+
+[file.file-formats]
+original=Accepted file formats
+translation=গ্রহণযোগ্য ফাইল ফরম্যাট
+
+[file.financial-contributions]
+original=Financial contributions
+translation=আর্থিক অবদান
+
+[file.folding]
+original=Folding
+translation=ভাঁজ করা
+
+[file.formulas]
+original=Formulas
+translation=ফর্মুলা
+
+[file.glossary]
+original=Glossary
+translation=শব্দকোষ
+
+[file.headless]
+original=Obsidian Headless
+translation=Obsidian Headless
+
+[file.hotkeys]
+original=Hotkeys
+translation=হট-কিই
+
+[file.html]
+original=HTML content
+translation=HTML কনটেন্ট
+
+[file.import]
+original=Import notes
+translation=নোট ইম্পোর্ট করুন
+
+[file.import/apple-journal]
+original=Import from Apple Journal
+translation=Apple Journal থেকে ইম্পোর্ট করুন
+
+[file.import/apple-notes]
+original=Import from Apple Notes
+translation=Apple Notes থেকে ইম্পোর্ট করুন
+
+[file.import/bear]
+original=Import from Bear
+translation=Bear থেকে ইম্পোর্ট করুন
+
+[file.import/craft]
+original=Import from Craft
+translation=Craft থেকে ইম্পোর্ট করুন
+
+[file.import/csv]
+original=Import CSV files
+translation=CSV ফাইল ইম্পোর্ট করুন
+
+[file.import/evernote]
+original=Import from Evernote
+translation=Evernote থেকে ইম্পোর্ট করুন
+
+[file.import/google-keep]
+original=Import from Google Keep
+translation=Google Keep থেকে ইম্পোর্ট করুন
+
+[file.import/html]
+original=Import HTML files
+translation=HTML ফাইল ইম্পোর্ট করুন
+
+[file.import/markdown]
+original=Import Markdown files
+translation=Markdown ফাইল ইম্পোর্ট করুন
+
+[file.import/notion]
+original=Import from Notion
+translation=Notion থেকে ইম্পোর্ট করুন
+
+[file.import/onenote]
+original=Import from Microsoft OneNote
+translation=Microsoft OneNote থেকে ইম্পোর্ট করুন
+
+[file.import/roam]
+original=Import from Roam Research
+translation=Roam Research থেকে ইম্পোর্ট করুন
+
+[file.import/textbundle]
+original=Import Textbundle files
+translation=Textbundle ফাইল ইম্পোর্ট করুন
+
+[file.import/zettelkasten]
+original=Import Zettelkasten notes
+translation=Zettelkasten নোট ইম্পোর্ট করুন
+
+[file.install]
+original=Download and install Obsidian
+translation=Obsidian ডাউনলোড ও ইনস্টল করুন
+
+[file.ios]
+original=Obsidian for iOS and iPadOS
+translation=iOS ও iPadOS-এর জন্য Obsidian
+
+[file.language]
+original=Language settings
+translation=ভাষা সেটিংস
+
+[file.link-notes]
+original=Link notes
+translation=নোট লিঙ্ক করুন
+
+[file.links]
+original=Internal links
+translation=ইন্টারনাল লিঙ্ক
+
+[file.manage-notes]
+original=Manage notes
+translation=নোট পরিচালনা
+
+[file.manage-vaults]
+original=Manage vaults
+translation=ভল্ট পরিচালনা
+
+[file.mobile]
+original=Mobile app
+translation=মোবাইল অ্যাপ
+
+[file.multiple-cursors]
+original=Multiple cursors
+translation=একাধিক কার্সার
+
+[file.obsidian]
+original=About Obsidian
+translation=Obsidian সম্পর্কে
+
+[file.obsidian-flavored-markdown]
+original=Obsidian Flavored Markdown
+translation=Obsidian Flavored Markdown
+
+[file.official-site]
+original=Official website
+translation=অফিসিয়াল ওয়েবসাইট
+
+[file.payment]
+original=Introduction to licenses and payment
+translation=লাইসেন্স ও পেমেন্ট পরিচিতি
+
+[file.plugin-security]
+original=Plugin security
+translation=প্লাগইন নিরাপত্তা
+
+[file.plugins]
+original=Core plugins
+translation=কোর প্লাগইন
+
+[file.plugins/audio-recorder]
+original=Audio recorder
+translation=অডিও রেকর্ডার
+
+[file.plugins/backlinks]
+original=Backlinks
+translation=ব্যাকলিঙ্ক
+
+[file.plugins/bookmarks]
+original=Bookmarks
+translation=বুকমার্ক
+
+[file.plugins/canvas]
+original=Canvas
+translation=Canvas
+
+[file.plugins/command-palette]
+original=Command palette
+translation=কমান্ড প্যালেট
+
+[file.plugins/daily-notes]
+original=Daily notes
+translation=দৈনিক নোট
+
+[file.plugins/file-explorer]
+original=File explorer
+translation=ফাইল এক্সপ্লোরার
+
+[file.plugins/file-recovery]
+original=File recovery
+translation=ফাইল পুনরুদ্ধার
+
+[file.plugins/footnotes]
+original=Footnotes view
+translation=পাদটীকা ভিউ
+
+[file.plugins/format-converter]
+original=Format converter
+translation=ফরম্যাট কনভার্টার
+
+[file.plugins/graph]
+original=Graph view
+translation=গ্রাফ ভিউ
+
+[file.plugins/importer]
+original=Importer
+translation=ইম্পোর্টার
+
+[file.plugins/note-composer]
+original=Note composer
+translation=নোট কম্পোজার
+
+[file.plugins/outgoing-links]
+original=Outgoing links
+translation=আউটগোয়িং লিঙ্ক
+
+[file.plugins/outline]
+original=Outline
+translation=রূপরেখা
+
+[file.plugins/page-preview]
+original=Page preview
+translation=পৃষ্ঠা প্রিভিউ
+
+[file.plugins/properties]
+original=Properties view
+translation=প্রপার্টি ভিউ
+
+[file.plugins/quick-switcher]
+original=Quick switcher
+translation=কুইক সুইচার
+
+[file.plugins/random-note]
+original=Random note
+translation=রান্ডম নোট
+
+[file.plugins/search]
+original=Search
+translation=অনুসন্ধান
+
+[file.plugins/slash-commands]
+original=Slash commands
+translation=স্ল্যাশ কমান্ড
+
+[file.plugins/slides]
+original=Slides
+translation=স্লাইড
+
+[file.plugins/tags]
+original=Tags view
+translation=ট্যাগ প্যান
+
+[file.plugins/templates]
+original=Templates
+translation=টেমপ্লেট
+
+[file.plugins/unique-note]
+original=Unique note creator
+translation=একক নোট নির্মাতা
+
+[file.plugins/web-viewer]
+original=Web viewer
+translation=ওয়েব ভিউয়ার
+
+[file.plugins/word-count]
+original=Word count
+translation=শব্দ গণনা
+
+[file.plugins/workspaces]
+original=Workspaces
+translation=ওয়ার্কস্পেস
+
+[file.pop-out-windows]
+original=Pop-out windows
+translation=পপ-আউট উইন্ডো
+
+[file.properties]
+original=Properties
+translation=প্রপার্টি
+
+[file.publish]
+original=Introduction to Obsidian Publish
+translation=Obsidian Publish পরিচিতি
+
+[file.publish/analytics]
+original=Analytics
+translation=অ্যানালিটিক্স
+
+[file.publish/collaborate]
+original=Collaborate on a Publish site
+translation=Publish সাইটে সহযোগিতা করুন
+
+[file.publish/customize]
+original=Customize your site
+translation=আপনার সাইট কাস্টমাইজ করুন
+
+[file.publish/domains]
+original=Custom domains
+translation=কাস্টম ডোমেইন
+
+[file.publish/headless]
+original=Headless Publish
+translation=Headless Publish
+
+[file.publish/limitations]
+original=Publish limitations
+translation=Publish সীমাবদ্ধতা
+
+[file.publish/media]
+original=Media files
+translation=মিডিয়া ফাইল
+
+[file.publish/permalinks]
+original=Permalinks
+translation=পার্মালিঙ্ক
+
+[file.publish/publish]
+original=Publish your content
+translation=আপনার কনটেন্ট প্রকাশ করুন
+
+[file.publish/security]
+original=Security and privacy
+translation=নিরাপত্তা ও গোপনীয়তা
+
+[file.publish/seo]
+original=SEO
+translation=SEO
+
+[file.publish/setup]
+original=Set up Obsidian Publish
+translation=Obsidian Publish সেটআপ করুন
+
+[file.publish/sites]
+original=Manage sites
+translation=সাইট পরিচালনা করুন
+
+[file.publish/social-share]
+original=Social media link previews
+translation=সোশ্যাল মিডিয়া লিঙ্ক প্রিভিউ
+
+[file.publish/troubleshoot]
+original=Troubleshoot Obsidian Publish
+translation=Obsidian Publish সমস্যা সমাধান
+
+[file.refunds]
+original=Refund policy
+translation=রিফান্ড নীতি
+
+[file.resources]
+original=Help and support
+translation=সাহায্য ও সহায়তা
+
+[file.ribbon]
+original=Ribbon
+translation=রিবন
+
+[file.sales-tax]
+original=Sales tax
+translation=বিক্রয় কর
+
+[file.sandbox]
+original=Sandbox vault
+translation=স্যান্ডবক্স ভল্ট
+
+[file.settings]
+original=Settings
+translation=সেটিংস
+
+[file.sidebar]
+original=Sidebar
+translation=সাইডবার
+
+[file.snippets]
+original=CSS snippets
+translation=CSS স্নিপেট
+
+[file.status-bar]
+original=Status bar
+translation=স্ট্যাটাস বার
+
+[file.style-guide]
+original=Style guide
+translation=স্টাইল গাইড
+
+[file.symlinks]
+original=Symbolic links and junctions
+translation=সিমবলিক লিঙ্ক ও জাংশন
+
+[file.sync]
+original=Introduction to Obsidian Sync
+translation=Obsidian Sync পরিচিতি
+
+[file.sync-notes]
+original=Sync your notes across devices
+translation=বিভিন্ন ডিভাইসে আপনার নোট সিঙ্ক করুন
+
+[file.sync/collaborate]
+original=Collaborate on a shared vault
+translation=শেয়ার্ড ভল্টে সহযোগিতা করুন
+
+[file.sync/faq]
+original=Frequently asked questions
+translation=সচরাচর জিজ্ঞাসিত প্রশ্ন
+
+[file.sync/headless]
+original=Headless Sync
+translation=Headless Sync
+
+[file.sync/messages]
+original=Status icon and messages
+translation=স্ট্যাটাস আইকন ও মেসেজ
+
+[file.sync/migrate]
+original=Upgrade Sync encryption
+translation=Sync এনক্রিপশন আপগ্রেড করুন
+
+[file.sync/plans]
+original=Plans and storage limits
+translation=প্ল্যান ও স্টোরেজ সীমা
+
+[file.sync/region]
+original=Sync regions
+translation=সিঙ্ক অঞ্চল
+
+[file.sync/security]
+original=Security and privacy
+translation=নিরাপত্তা ও গোপনীয়তা
+
+[file.sync/settings]
+original=Sync settings and selective syncing
+translation=সিঙ্ক সেটিংস ও নির্বাচিত সিঙ্কিং
+
+[file.sync/setup]
+original=Set up Obsidian Sync
+translation=Obsidian Sync সেটআপ করুন
+
+[file.sync/switch]
+original=Switch to Obsidian Sync
+translation=Obsidian Sync-এ স্যুইচ করুন
+
+[file.sync/troubleshoot]
+original=Troubleshoot Obsidian Sync
+translation=Obsidian Sync সমস্যা সমাধান
+
+[file.sync/vault-types]
+original=Local and remote vaults
+translation=লোকাল ও রিমোট ভল্ট
+
+[file.sync/version-history]
+original=Version history
+translation=ভার্সন ইতিহাস
+
+[file.syntax]
+original=Basic formatting syntax
+translation=মৌলিক ফরম্যাটিং সিনট্যাক্স
+
+[file.tabs]
+original=Tabs
+translation=ট্যাব
+
+[file.tags]
+original=Tags
+translation=ট্যাগ
+
+[file.teams]
+original=Obsidian for teams
+translation=টিমের জন্য Obsidian
+
+[file.teams/deploy]
+original=Deploy Obsidian across your team
+translation=আপনার টিম জুড়ে Obsidian ডিপ্লয় করুন
+
+[file.teams/license]
+original=Commercial license
+translation=কমার্শিয়াল লাইসেন্স
+
+[file.teams/publish]
+original=Publishing for teams
+translation=টিমের জন্য পাবলিশিং
+
+[file.teams/security]
+original=Security considerations for teams
+translation=টিমের জন্য নিরাপত্তা বিবেচনা
+
+[file.teams/sync]
+original=Syncing for teams
+translation=টিমের জন্য সিঙ্কিং
+
+[file.themes]
+original=Themes
+translation=থিম
+
+[file.translations]
+original=Translations
+translation=অনুবাদ
+
+[file.updates]
+original=Update Obsidian
+translation=Obsidian আপডেট করুন
+
+[file.uri]
+original=Obsidian URI
+translation=Obsidian URI
+
+[file.vault]
+original=Create a vault
+translation=ভল্ট তৈরি করুন
+
+[file.web-clipper]
+original=Introduction to Obsidian Web Clipper
+translation=Obsidian Web Clipper পরিচিতি
+
+[file.web-clipper/capture]
+original=Clip web pages
+translation=ওয়েব পেজ ক্লিপ করুন
+
+[file.web-clipper/filters]
+original=Filters
+translation=ফিল্টার
+
+[file.web-clipper/highlight]
+original=Highlighter
+translation=হাইলাইটার
+
+[file.web-clipper/interpreter]
+original=Interpreter
+translation=ইন্টারপ্রেটার
+
+[file.web-clipper/logic]
+original=Logic
+translation=লজিক
+
+[file.web-clipper/reader]
+original=Reader
+translation=রিডার
+
+[file.web-clipper/templates]
+original=Templates
+translation=টেমপ্লেট
+
+[file.web-clipper/troubleshoot]
+original=Troubleshoot Web Clipper
+translation=Web Clipper সমস্যা সমাধান
+
+[file.web-clipper/variables]
+original=Variables
+translation=ভেরিয়েবল
+
+[file.workspace]
+original=Workspace
+translation=ওয়ার্কস্পেস
+
+[folder.Bases]
+original=Bases
+translation=বেসেস
+
+[folder.Contributing to Obsidian]
+original=Contributing to Obsidian
+translation=Obsidian-এ অবদান
+
+[folder.Editing and formatting]
+original=Editing and formatting
+translation=সম্পাদনা ও ফরম্যাটিং
+
+[folder.Extending Obsidian]
+original=Extending Obsidian
+translation=Obsidian সম্প্রসারণ
+
+[folder.Files and folders]
+original=Files and folders
+translation=ফাইল ও ফোল্ডার
+
+[folder.Getting started]
+original=Getting started
+translation=শুরু করা
+
+[folder.Import notes]
+original=Import notes
+translation=নোট ইম্পোর্ট করুন
+
+[folder.Layouts]
+original=Layouts
+translation=লেআউট
+
+[folder.Licenses and payment]
+original=Licenses and payment
+translation=লাইসেন্স ও পেমেন্ট
+
+[folder.Linking notes and files]
+original=Linking notes and files
+translation=নোট ও ফাইল লিঙ্ক করা
+
+[folder.Obsidian]
+original=Obsidian
+translation=Obsidian
+
+[folder.Obsidian Publish]
+original=Obsidian Publish
+translation=Obsidian Publish
+
+[folder.Obsidian Sync]
+original=Obsidian Sync
+translation=Obsidian Sync
+
+[folder.Obsidian Web Clipper]
+original=Obsidian Web Clipper
+translation=Obsidian Web Clipper
+
+[folder.Plugins]
+original=Plugins
+translation=প্লাগইন
+
+[folder.Teams]
+original=Teams
+translation=টিম
+
+[folder.User interface]
+original=User interface
+translation=ব্যবহারকারী ইন্টারফেস
