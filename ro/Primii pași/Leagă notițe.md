@@ -58,4 +58,4 @@ O altă modalitate de a naviga între notele dumneavoastră este folosind o repr
 
 ## Aflați mai multe
 
-Înțelegerea modului în care sunt conectate notele dumneavoastră devine tot mai dificilă pe măsură ce seiful dumneavoastră crește. Aflați cum să folosiți [[graph view]] pentru a obține perspective mai profunde din baza dumneavoastră de cunoștințe.
+Înțelegerea modului în care sunt conectate notele dumneavoastră devine tot mai dificilă pe măsură ce seiful dumneavoastră crește. Aflați cum să folosiți [[Afișaj grafic]] pentru a obține perspective mai profunde din baza dumneavoastră de cunoștințe.

@@ -13,7 +13,7 @@ Pentru a salva o pagină în Obsidian, dă clic pe butonul **Adaugă în Obsidia
 
 ## Capturează o pagină
 
-Când deschizi extensia, Web Clipper extrage date din pagina web curentă urmând setările din [[Obsidian Web Clipper/Șabloane|șablonul]] tău. Poți crea propriile șabloane și personaliza rezultatul folosind [[variables|variabile]] și [[filters|filtre]].
+Când deschizi extensia, Web Clipper extrage date din pagina web curentă urmând setările din [[Obsidian Web Clipper/Șabloane|șablonul]] tău. Poți crea propriile șabloane și personaliza rezultatul folosind [[Variabile|variabile]] și [[Filtre|filtre]].
 
 În mod implicit, Web Clipper încearcă să extragă în mod inteligent doar conținutul principal al articolului, excluzând celelalte elemente de pe pagină. Cu toate acestea, poți suprascrie acest comportament în următoarele moduri:
 

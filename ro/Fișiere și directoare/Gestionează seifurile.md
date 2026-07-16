@@ -3,11 +3,11 @@ permalink: manage-vaults
 aliases:
   - Manage vaults
 ---
-Un **seif** este un director din sistemul dumneavoastră de fișiere care conține notele, [[attachments|atașamentele]] și [[configuration folder|directorul de configurare]] cu setările specifice Obsidian. Pentru mai multe informații despre seifuri, consultați [[Cum stochează Obsidian datele]].
+Un **seif** este un director din sistemul dumneavoastră de fișiere care conține notele, [[Atașamente|atașamentele]] și [[Directorul de configurare|directorul de configurare]] cu setările specifice Obsidian. Pentru mai multe informații despre seifuri, consultați [[Cum stochează Obsidian datele]].
 
 Puteți gestiona seifurile folosind **comutatorul de seifuri**. *Profilul seifului* se deschide prima dată când deschideți Obsidian.
 
-Pentru a deschide comutatorul de seifuri dintr-un seif existent, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]] din partea de jos a [[Bara laterală|barei laterale stângi]]. Sau, selectați **Deschide alt seif** din [[command palette|paleta de comenzi]].
+Pentru a deschide comutatorul de seifuri dintr-un seif existent, selectați **Profilul seifului** ![[lucide-chevrons-up-down.svg#icon]] din partea de jos a [[Bara laterală|barei laterale stângi]]. Sau, selectați **Deschide alt seif** din [[Paleta de comenzi|paleta de comenzi]].
 
 ## Creați un seif nou
 

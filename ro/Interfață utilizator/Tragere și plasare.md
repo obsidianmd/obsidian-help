@@ -11,15 +11,15 @@ Există multe modalități de a trage și plasa elemente în Obsidian. Acestea i
 
 ### Surse de tragere
 
-- Puteți trage un fișier sau mai multe fișiere din [[file explorer]].
-- Puteți trage un fișier dintr-un rezultat al [[search]].
-- Puteți trage un fișier din [[backlinks]] sau din mențiuni nelegate.
+- Puteți trage un fișier sau mai multe fișiere din [[Exploratorul de fișiere]].
+- Puteți trage un fișier dintr-un rezultat al [[Caută]].
+- Puteți trage un fișier din [[Referințe]] sau din mențiuni nelegate.
 - Puteți trage un fișier dintr-o legătură aflată în interiorul notei, în modul de previzualizare.
 
 ### Destinații de plasare
 
 - Puteți plasa un fișier pe antetul unei file pentru a-l deschide acolo. Țineți apăsat `Alt` (sau `Shift` pe macOS) pentru a-l plasa oriunde în filă.
-- Puteți plasa un fișier pe un director din [[file explorer]] pentru a muta fișierul acolo.
+- Puteți plasa un fișier pe un director din [[Exploratorul de fișiere]] pentru a muta fișierul acolo.
 - Puteți plasa un fișier într-un editor pentru a-l insera ca legătură. Legătura generată respectă și preferințele dvs., cum ar fi căile relative sau utilizarea legăturilor Markdown.
 - Puteți plasa un fișier pe fila [[Marcaje]] pentru a-l adăuga la marcaje.
 

@@ -26,7 +26,7 @@ Mai jos este o comparație între planul Standard și planul Plus:
 
 Cantitatea de date pe care le poți stoca folosind [[Introducere în Obsidian Sync|Obsidian Sync]] depinde de planul tău de abonament. Pe planul Sync Plus poți achiziționa stocare suplimentară de până la 100 GB prin [panoul de control al contului tău](https://obsidian.md/account/sync). Consultă [[Întrebări frecvente]] pentru mai multe detalii.
 
-Există o limită de stocare unică la nivel de cont pentru toate notele de pe seifurile tale. [[Istoricul versiunilor|Istoricul versiunilor]] și [[attachments|atașamentele]] se contorizează, de asemenea, în limita de stocare a contului tău.
+Există o limită de stocare unică la nivel de cont pentru toate notele de pe seifurile tale. [[Istoricul versiunilor|Istoricul versiunilor]] și [[Atașamente|atașamentele]] se contorizează, de asemenea, în limita de stocare a contului tău.
 
 Când atingi limita de stocare a contului tău, modulul Sync va opri sincronizarea fișierelor, iar tu vei fi solicitat să reduci dimensiunea seifului tău la distanță.
 
@@ -75,6 +75,6 @@ Dacă faci downgrade de la Sync Plus la Sync Standard, va trebui, de asemenea, s
 
 ### Păstrează istoricul versiunilor
 
-Atașamentele sunt păstrate în [[version history|istoricul versiunilor]] timp de până la două săptămâni. Dacă intenționezi să faci downgrade în viitorul apropiat, poți începe prin a elimina atașamentele din seiful tău local.
+Atașamentele sunt păstrate în [[Istoricul versiunilor|istoricul versiunilor]] timp de până la două săptămâni. Dacă intenționezi să faci downgrade în viitorul apropiat, poți începe prin a elimina atașamentele din seiful tău local.
 
 După două săptămâni, acestea vor fi eliminate definitiv din seiful la distanță și nu se vor mai contoriza în limita ta de stocare. În acest moment vei putea face downgrade la planul tău, păstrând în același timp istoricul versiunilor pentru celelalte tipuri de fișiere, precum fișierele Markdown.

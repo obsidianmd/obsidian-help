@@ -40,5 +40,5 @@ Toate seifurile noi folosesc automat cea mai recentă criptare. Seifurile existe
 4. Verifică din nou copiile tale de rezervă și clic pe **Continuă**.
 5. La **Numele seifului**, introdu numele seifului la distanță.
 6. La **Regiune**, alege [[Configurează Obsidian Sync#Servere de sincronizare regionale|regiunea]] serverului pentru seiful tău la distanță.
-7. La **Parolă de criptare**, alege o parolă pentru seiful tău. Aceasta creează un seif criptat integral. Parola seifului este separată de contul tău Obsidian și poate fi diferită pentru fiecare dintre seifurile tale. Pentru mai multe informații, consultă [[Security and privacy]].
+7. La **Parolă de criptare**, alege o parolă pentru seiful tău. Aceasta creează un seif criptat integral. Parola seifului este separată de contul tău Obsidian și poate fi diferită pentru fiecare dintre seifurile tale. Pentru mai multe informații, consultă [[Securitate și confidențialitate]].
 8. Odată ce ai reîncărcat datele cu noua criptare, reconectează-te la noul seif Sync pe celelalte dispozitive ale tale.

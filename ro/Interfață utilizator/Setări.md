@@ -241,7 +241,7 @@ Ce se întâmplă cu un fișier după ce îl ștergeți. Opțiunile includ:
 
 #### Alegeți fișierele care să fie excluse
 
-Fișierele excluse vor fi ascunse în [[Caută]], [[Graph View]] și în Mențiunile nelegate ([[Referințe]] și [[Legături de ieșire]]), și mai puțin vizibile în [[Quick Switcher ]] și în sugestiile de legături. Selectați **Gestionați** pentru a configura fișierele excluse.
+Fișierele excluse vor fi ascunse în [[Caută]], [[Afișaj grafic]] și în Mențiunile nelegate ([[Referințe]] și [[Legături de ieșire]]), și mai puțin vizibile în [[Comutare rapidă]] și în sugestiile de legături. Selectați **Gestionați** pentru a configura fișierele excluse.
 
 #### Suprascrieți directorul configurației
 

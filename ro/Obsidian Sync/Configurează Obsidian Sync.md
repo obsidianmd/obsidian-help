@@ -49,7 +49,7 @@ Ai achiziționat Obsidian Sync și ești gata să începi. Acest ghid te va ajut
 4. Selectează **Creează seif nou**.
 5. La **Numele seifului**, introdu numele seifului la distanță.
 6. La **Regiune**, alege [[Configurează Obsidian Sync#Servere de sincronizare regionale|regiunea]] serverului pentru seiful tău la distanță.
-7. La **Parolă de criptare**, alege o parolă pentru seiful tău. Aceasta creează un seif criptat integral. Parola seifului este separată de contul tău Obsidian și poate fi diferită pentru fiecare dintre seifurile tale. Pentru mai multe informații, consultă [[Security and privacy]].
+7. La **Parolă de criptare**, alege o parolă pentru seiful tău. Aceasta creează un seif criptat integral. Parola seifului este separată de contul tău Obsidian și poate fi diferită pentru fiecare dintre seifurile tale. Pentru mai multe informații, consultă [[Securitate și confidențialitate]].
 8. Selectează **Creează**.
 
 ### Conectează-te la un seif la distanță

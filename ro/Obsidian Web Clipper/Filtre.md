@@ -3,7 +3,7 @@ permalink: web-clipper/filters
 aliases:
   - Filters
 ---
-Filtrele îți permit să modifici [[variables|variabilele]] din [[Obsidian Web Clipper/Șabloane|șabloanele Web Clipper]]. Filtrele sunt aplicate variabilelor folosind sintaxa `{{variable|filter}}`.
+Filtrele îți permit să modifici [[Variabile|variabilele]] din [[Obsidian Web Clipper/Șabloane|șabloanele Web Clipper]]. Filtrele sunt aplicate variabilelor folosind sintaxa `{{variable|filter}}`.
 
 - Filtrele funcționează pentru orice tip de [[Variabile|variabilă]], inclusiv variabilele `prompt`, `meta`, `selector` și `schema`.
 - Filtrele pot fi înlănțuite, de ex. `{{variable|filter1|filter2}}`, și sunt aplicate în ordinea în care sunt adăugate.

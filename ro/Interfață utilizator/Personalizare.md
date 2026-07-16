@@ -9,7 +9,7 @@ Obsidian vine cu două scheme de culori, deschisă și închisă. Implicit, sche
 
 ### Teme personalizate
 
-Puteți schimba aspectul aplicației Obsidian folosind [[themes|teme personalizate]]. Răsfoiți sute de teme create de comunitate accesând **[[Setări]] → Personalizare**, apoi apăsați **Gestionați** pentru a vizualiza și instala teme.
+Puteți schimba aspectul aplicației Obsidian folosind [[Teme|teme personalizate]]. Răsfoiți sute de teme create de comunitate accesând **[[Setări]] → Personalizare**, apoi apăsați **Gestionați** pentru a vizualiza și instala teme.
 
 Puteți, de asemenea, ajusta temele folosind [[Fragmente CSS]] și [să vă construiți propria temă](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) .
 

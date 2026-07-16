@@ -5,7 +5,7 @@ aliases:
 ---
 Web viewer este un [[Module de bază|modul integrat]] care îți permite să deschizi legături externe în Obsidian pe desktop. Astfel poți citi conținutul legăturilor fără să părăsești aplicația, ceea ce facilitează multitasking-ul pe proiecte de cercetare web.
 
-Legăturile externe se deschid ca [[File|filă]], pe care o poți rearanja, împărți și deschide într-o [[pop-out windows|fereastră separată]]. Orice card cu pagină web încorporat în fișiere [[canvas]] poate fi deschis ca filă Web viewer.
+Legăturile externe se deschid ca [[File|filă]], pe care o poți rearanja, împărți și deschide într-o [[Ferestre desprinse|fereastră separată]]. Orice card cu pagină web încorporat în fișiere [[canvas]] poate fi deschis ca filă Web viewer.
 
 Web viewer nu este un înlocuitor pentru browserul tău principal. Web viewer oferă un mod rapid de a accesa pagini web pentru cercetare în interiorul Obsidian. Totuși, nu oferă funcționalitatea completă, controalele de securitate sau extensibilitatea unui browser dedicat.
 

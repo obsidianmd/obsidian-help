@@ -3,7 +3,7 @@ permalink: web-clipper/variables
 aliases:
   - Variables
 ---
-[[Obsidian Web Clipper/Șabloane|Șabloanele Web Clipper]] pot folosi variabile pentru a popula automat date de pe pagină într-un șablon. Variabilele pot fi folosite în **numele notei**, **locația notei**, **proprietăți** și **conținutul notei**. Variabilele pot fi de asemenea modificate folosind [[filters|filtre]].
+[[Obsidian Web Clipper/Șabloane|Șabloanele Web Clipper]] pot folosi variabile pentru a popula automat date de pe pagină într-un șablon. Variabilele pot fi folosite în **numele notei**, **locația notei**, **proprietăți** și **conținutul notei**. Variabilele pot fi de asemenea modificate folosind [[Filtre|filtre]].
 
 Folosește pictograma `...` din extensia [[Introducere în Obsidian Web Clipper|Web Clipper]] pentru a accesa variabilele paginii curente, pe care le poți folosi în șabloane. Există cinci tipuri de variabile pe care le poți folosi:
 
@@ -44,7 +44,7 @@ Variabila principală de conținut este `{{content}}`, care conține conținutul
 
 Variabilele prompt folosesc modele de limbaj pentru a extrage și modifica date folosind limbaj natural. Variabilele prompt necesită ca [[Interpretor|Interpreter]] să fie activat și configurat.
 
-Variabilele prompt folosesc sintaxa `{{"a summary of the page"}}`. Ghilimelele duble din jurul prompt-ului sunt importante și disting prompturile de variabilele prestabilite. Răspunsurile la prompturi pot fi procesate ulterior cu [[filters|filtre]], de ex. `{{"a summary of the page"|blockquote}}`.
+Variabilele prompt folosesc sintaxa `{{"a summary of the page"}}`. Ghilimelele duble din jurul prompt-ului sunt importante și disting prompturile de variabilele prestabilite. Răspunsurile la prompturi pot fi procesate ulterior cu [[Filtre|filtre]], de ex. `{{"a summary of the page"|blockquote}}`.
 
 ### Când să folosești variabile prompt
 

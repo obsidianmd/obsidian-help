@@ -13,7 +13,7 @@ Fiecare bază poate avea mai multe [[Afișaje|vizualizări]] cu aspecte diferite
 
 ![Exemplu de bază care afișează o vizualizare de tip tabel cu o listă de cărți](bases-noshadow.png#interface)
 
-Toate datele din Obsidian Bases sunt stocate în fișierele tale [[Sintaxă de bază pentru formatare|Markdown]] locale și în [[properties|proprietățile]] lor. Vizualizările sunt descrise de [[Sintaxă Baze|sintaxa Bases]], care poate fi salvată ca fișier `.base` sau [[Creează o bază#Embed a base|încorporată]] în blocuri de cod din fișierele tale Markdown.
+Toate datele din Obsidian Bases sunt stocate în fișierele tale [[Sintaxă de bază pentru formatare|Markdown]] locale și în [[Proprietăți|proprietățile]] lor. Vizualizările sunt descrise de [[Sintaxă Baze|sintaxa Bases]], care poate fi salvată ca fișier `.base` sau [[Creează o bază#Embed a base|încorporată]] în blocuri de cod din fișierele tale Markdown.
 
 ## Cum se folosesc bazele
 

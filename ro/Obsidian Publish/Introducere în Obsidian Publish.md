@@ -31,5 +31,5 @@ Dacă citești acest lucru pe [help.obsidian.md](https://help.obsidian.md), te u
 	- Configurează analitice pentru site-ul tău.
 - [[SEO]]
 	- Optimizare pentru motoarele de căutare pentru Publish.
-- [[Security and privacy|Securitate și confidențialitate]]
+- [[Securitate și confidențialitate|Securitate și confidențialitate]]
 	- Cum îți păstrăm datele în siguranță.

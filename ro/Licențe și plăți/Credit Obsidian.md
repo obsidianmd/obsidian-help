@@ -15,7 +15,7 @@ Obsidian Credit va fi aplicat înainte de orice plată scadentă, inclusiv reîn
 4. Continuă cu plata creditului folosind oricare dintre metodele de plată acceptate.
 
 > [!Note] Taxa pe vânzări
-> Orice [[sales tax]] aplicabilă va fi percepută atunci când efectuezi achiziția unui produs, cum ar fi Obsidian Sync, nu atunci când cumperi Obsidian Credit.
+> Orice [[Taxa pe vânzări]] aplicabilă va fi percepută atunci când efectuezi achiziția unui produs, cum ar fi Obsidian Sync, nu atunci când cumperi Obsidian Credit.
 >
 > Dacă intenționezi să acoperi reînnoirile automate cu creditul tău, te rugăm să ții cont de acest aspect.
 

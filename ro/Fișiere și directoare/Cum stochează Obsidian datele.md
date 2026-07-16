@@ -20,7 +20,7 @@ Puteți deschide mai multe directoare ca seifuri individuale, de exemplu pentru 
 
 ## Setările seifului
 
-Obsidian creează un [[configuration folder|director de configurare]] `.obsidian` în directorul rădăcină al seifului, care conține preferințele specifice acelui seif, precum [[hotkeys|combinațiile de taste]], [[themes|temele]] și [[community plugins|modulele comunitare]].
+Obsidian creează un [[Directorul de configurare|director de configurare]] `.obsidian` în directorul rădăcină al seifului, care conține preferințele specifice acelui seif, precum [[Combinații de taste|combinațiile de taste]], [[Teme|temele]] și [[Module comunitare|modulele comunitare]].
 
 Implicit, majoritatea sistemelor de operare ascund directoarele care încep cu un punct (`.`), așa că este posibil să trebuiască să actualizați setările managerului de fișiere pentru a-l vedea.
 

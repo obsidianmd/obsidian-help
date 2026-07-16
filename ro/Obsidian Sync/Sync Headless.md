@@ -8,7 +8,7 @@ aliases:
 ---
 [[Introducere în Obsidian Sync|Obsidian Sync]] oferă un client headless pentru sincronizarea seifurilor fără a folosi aplicația desktop. Util pentru pipeline-uri CI, agenți și fluxuri de lucru automatizate. Sincronizează cele mai recente modificări sau menține fișierele actualizate în mod continuu.
 
-Instalează [[Obsidian Headless]] **(beta deschisă)** pentru a interacționa cu [[Introducere în Obsidian Sync|Obsidian Sync]] din linia de comandă, fără aplicația desktop Obsidian. Headless Sync folosește aceleași [[Security and privacy|protecții de criptare și confidențialitate]] ca aplicația desktop, inclusiv criptarea integrală.
+Instalează [[Obsidian Headless]] **(beta deschisă)** pentru a interacționa cu [[Introducere în Obsidian Sync|Obsidian Sync]] din linia de comandă, fără aplicația desktop Obsidian. Headless Sync folosește aceleași [[Securitate și confidențialitate|protecții de criptare și confidențialitate]] ca aplicația desktop, inclusiv criptarea integrală.
 
 ## Pornire rapidă
 

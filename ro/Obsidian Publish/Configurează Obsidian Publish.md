@@ -63,7 +63,7 @@ Meniul **Publică schimbările** va apărea ca un panou glisant.
 
 #### Deschide prin panglică
 
-Poți accesa Obsidian Publish și prin [[ribbon|panglică]].
+Poți accesa Obsidian Publish și prin [[Panglică|panglică]].
 
 **Desktop/Tabletă** ![[lucide-monitor-check.svg#icon]]
 

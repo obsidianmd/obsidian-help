@@ -32,7 +32,7 @@ Definește modul în care conținutul din Web Clipper va fi adăugat în Obsidia
 
 - **Creează o notă nouă**
 - **Adaugă la o notă existentă**, la început sau la sfârșit
-- **Adaugă la nota zilnică**, la început sau la sfârșit (necesită ca modulul [[daily notes|note zilnice]] să fie activ)
+- **Adaugă la nota zilnică**, la început sau la sfârșit (necesită ca modulul [[Note zilnice|note zilnice]] să fie activ)
 
 ### Declanșează automat un șablon
 

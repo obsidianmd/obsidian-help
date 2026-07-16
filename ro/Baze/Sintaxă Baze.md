@@ -9,7 +9,7 @@ aliases:
 
 Când [[Creează o bază|creezi o bază]] în Obsidian, aceasta este salvată ca fișier `.base`. Bazele sunt de obicei editate folosind interfața aplicației, dar sintaxa poate fi editată și manual, și încorporată într-un bloc de cod.
 
-Sintaxa [[Introducere în Baze|Baze]] definește [[Afișaje|vizualizări]], filtre și [[formulas|formule]]. Bazele trebuie să fie YAML valid, conform schemei definite mai jos.
+Sintaxa [[Introducere în Baze|Baze]] definește [[Afișaje|vizualizări]], filtre și [[Formule|formule]]. Bazele trebuie să fie YAML valid, conform schemei definite mai jos.
 
 ## Exemplu
 

@@ -28,7 +28,7 @@ aliases:
 	- Vizualizează sau restaurează versiuni anterioare ale unei note.
 - [[Pictograma de status și mesaje]]
 	- Prezentare generală a jurnalului și pictogramelor de stare Sync.
-- [[Security and privacy]]
+- [[Securitate și confidențialitate]]
 	- Cum păstrează Obsidian în siguranță datele tale Sync.
 - [[Colaborează într-un seif partajat|Colaborare]]
 	- Adaugă membri ai echipei la un seif partajat.

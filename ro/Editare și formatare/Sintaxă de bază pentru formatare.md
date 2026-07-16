@@ -150,7 +150,7 @@ Formatarea poate fi forțată să se afișeze ca text simplu prin adăugarea une
 
 ## Legături interne
 
-Obsidian acceptă două formate pentru [[internal links|legăturile interne]] dintre note:
+Obsidian acceptă două formate pentru [[Legături interne|legăturile interne]] dintre note:
 
 - Wikilink: `[[Three laws of motion]]`
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion.md)`

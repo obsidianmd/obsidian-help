@@ -45,7 +45,7 @@ Marie | Curie
 
 ### Formatați conținutul dintr-un tabel
 
-Puteți folosi [[basic formatting syntax|sintaxa de formatare de bază]] pentru a stiliza conținutul dintr-un tabel.
+Puteți folosi [[Sintaxă de bază pentru formatare|sintaxa de formatare de bază]] pentru a stiliza conținutul dintr-un tabel.
 
 | Prima coloană       | A doua coloană                           |
 | ------------------ | --------------------------------------- |
@@ -53,7 +53,7 @@ Puteți folosi [[basic formatting syntax|sintaxa de formatare de bază]] pentru 
 | [[Încorporează fișiere]]    | ![[Engelbart.jpg\|100]]                 |
 
 > [!note] Bare verticale în tabele
-> Dacă doriți să folosiți [[aliases]], sau să [[Sintaxă de bază pentru formatare#External images|redimensionați o imagine]] în tabelul dvs., trebuie să adăugați un `\` înaintea barei verticale.
+> Dacă doriți să folosiți [[Pseudonime]], sau să [[Sintaxă de bază pentru formatare#External images|redimensionați o imagine]] în tabelul dvs., trebuie să adăugați un `\` înaintea barei verticale.
 >
 > ```md
 > First column | Second column
@@ -120,7 +120,7 @@ Biology --> Chemistry
 
 ### Conectarea fișierelor într-o diagramă
 
-Puteți crea [[internal links|legături interne]] în diagramele dvs. atașând clasa [`internal-link`](https://mermaid.js.org/syntax/flowchart.html#classes) la nodurile dvs.
+Puteți crea [[Legături interne|legături interne]] în diagramele dvs. atașând clasa [`internal-link`](https://mermaid.js.org/syntax/flowchart.html#classes) la nodurile dvs.
 
 ````md
 ```mermaid

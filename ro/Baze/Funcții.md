@@ -7,7 +7,7 @@ aliases:
   - Functions
 ---
 
-Funcțiile sunt folosite în [[Introducere în Baze|Baze]] pentru a manipula date din [[properties|proprietăți]] în [[Afișaje#Filters|filtre]] și [[formulas|formule]]. Consultă referința [[Sintaxă Baze|sintaxa bases]] pentru a afla mai multe despre cum poți folosi funcțiile.
+Funcțiile sunt folosite în [[Introducere în Baze|Baze]] pentru a manipula date din [[Proprietăți|proprietăți]] în [[Afișaje#Filters|filtre]] și [[Formule|formule]]. Consultă referința [[Sintaxă Baze|sintaxa bases]] pentru a afla mai multe despre cum poți folosi funcțiile.
 
 Funcțiile Bases urmează comportamentul JavaScript. Pentru documentație de referință completă, consultă [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 

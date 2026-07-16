@@ -532,7 +532,7 @@ inline             # prepend without newline
 
 ### `move`
 
-Mută sau redenumește un fișier (implicit: fișierul activ). Aceasta va actualiza automat [[internal links]] dacă opțiunea este activată în [[Setări#Actualizează automat legăturile interne|setările seifului]].
+Mută sau redenumește un fișier (implicit: fișierul activ). Aceasta va actualiza automat [[Legături interne]] dacă opțiunea este activată în [[Setări#Actualizează automat legăturile interne|setările seifului]].
 
 ```bash
 file=<name>        # file name
@@ -542,7 +542,7 @@ to=<path>          # (required) destination folder or path
 
 ### `rename`
 
-Redenumește un fișier (implicit: fișierul activ). Extensia fișierului este păstrată automat dacă este omisă din noul nume. Folosiți [[#`move`|move]] pentru a redenumi și muta un fișier în același timp. Aceasta va actualiza automat [[internal links]] dacă opțiunea este activată în [[Setări#Actualizează automat legăturile interne|setările seifului]].
+Redenumește un fișier (implicit: fișierul activ). Extensia fișierului este păstrată automat dacă este omisă din noul nume. Folosiți [[#`move`|move]] pentru a redenumi și muta un fișier în același timp. Aceasta va actualiza automat [[Legături interne]] dacă opțiunea este activată în [[Setări#Actualizează automat legăturile interne|setările seifului]].
 
 ```bash
 file=<name>        # file name

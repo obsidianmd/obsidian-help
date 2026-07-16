@@ -682,9 +682,17 @@ translation=ভেরিয়েবল
 original=Workspace
 translation=ওয়ার্কস্পেস
 
+[folder.audio]
+original=audio
+translation=অডিও
+
 [folder.Bases]
 original=Bases
 translation=বেসেস
+
+[folder.Changelog]
+original=Changelog
+translation=পরিবর্তন লগ
 
 [folder.Contributing to Obsidian]
 original=Contributing to Obsidian
@@ -705,6 +713,10 @@ translation=ফাইল ও ফোল্ডার
 [folder.Getting started]
 original=Getting started
 translation=শুরু করা
+
+[folder.icons]
+original=icons
+translation=আইকন
 
 [folder.Import notes]
 original=Import notes
@@ -749,3 +761,7 @@ translation=টিম
 [folder.User interface]
 original=User interface
 translation=ব্যবহারকারী ইন্টারফেস
+
+[folder.video]
+original=video
+translation=ভিডিও
