@@ -30,6 +30,8 @@ Obsidian CLI supports both single commands and a terminal user interface (TUI) w
 > [!info] Obsidian app must be running
 > Obsidian CLI requires the Obsidian app to be running. If Obsidian is not running, the first command you run launches Obsidian.
 >
+> Note: this auto-launch behavior does not apply on WSL2 (Windows Subsystem for Linux). See [[#WSL2]] below.
+>
 > Looking to sync without the desktop app? See [[Obsidian Headless|Obsidian Headless]].
 
 ### Run a command
@@ -1530,5 +1532,15 @@ If the binary is missing, copy it manually from the Obsidian installation direct
 cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
 chmod 755 ~/.local/bin/obsidian
 ```
+
+#### WSL2
+
+On WSL2 (Windows Subsystem for Linux), the CLI does not auto-launch the Obsidian GUI. Invoking the CLI when the app is not running returns:
+
+```
+The CLI is unable to find Obsidian. Please make sure Obsidian is running and try again.
+```
+
+Start the Obsidian app separately (via the WSLg-published `.desktop` Start Menu entry or by running the GUI binary directly from a terminal), then run CLI commands.
 
 
