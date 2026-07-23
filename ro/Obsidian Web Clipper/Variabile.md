@@ -19,26 +19,30 @@ Variabilele prestabilite sunt generate automat pe baza conținutului paginii. Ac
 
 Variabila principală de conținut este `{{content}}`, care conține conținutul articolului, [[Evidențiere|evidențierile]] sau selecția, dacă există text selectat pe pagină. Reține că `{{content}}` încearcă să extragă conținutul principal al paginii, ceea ce nu este întotdeauna ceea ce îți dorești. În acest caz, poți folosi alte variabile prestabilite sau variabile selector pentru a extrage conținutul de care ai nevoie.
 
-| Variabilă            | Descriere                                                                            |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Autorul paginii                                                                     |
+| Variabilă            | Descriere                                                                    |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Autorul paginii                                                             |
 | `{{content}}`       | Conținutul articolului, [[Evidențiere\|evidențierile]] sau selecția, în format Markdown |
 | `{{contentHtml}}`   | Conținutul articolului, [[Evidențiere\|evidențierile]] sau selecția, în format HTML     |
-| `{{date}}`          | Data curentă, poate fi formatată folosind filtrul `date`                                 |
-| `{{description}}`   | Descriere sau rezumat                                                                 |
-| `{{domain}}`        | Domeniu                                                                                 |
-| `{{favicon}}`       | Adresa URL a favicon-ului                                                                            |
-| `{{fullHtml}}`      | HTML neprocesat pentru întregul conținut al paginii                                             |
+| `{{date}}`          | Data curentă, poate fi formatată folosind filtrul `date`                         |
+| `{{description}}`   | Descriere sau rezumat                                                         |
+| `{{domain}}`        | Domeniu                                                                         |
+| `{{favicon}}`       | Adresa URL a favicon-ului                                                                    |
+| `{{fullHtml}}`      | HTML neprocesat pentru întregul conținut al paginii                                     |
 | `{{highlights}}`    | [[Evidențiere\|Evidențieri]] cu text și marcaje de timp                           |
 | `{{image}}`         | Adresa URL a imaginii pentru partajare pe rețele sociale                                                                 |
-| `{{published}}`     | Data publicării, poate fi formatată folosind filtrul `date`                               |
-| `{{selection}}`     | Selecția în format Markdown                                                           |
-| `{{selectionHtml}}` | Selecția în format HTML                                                               |
-| `{{site}}`          | Numele site-ului sau al editorului                                                                 |
-| `{{title}}`         | Titlul paginii                                                                      |
-| `{{time}}`          | Data și ora curente                                                                  |
-| `{{url}}`           | Adresa URL curentă                                                                            |
-| `{{words}}`         | Numărul de cuvinte                                                                             |
+| `{{language}}`      | Limba paginii                                                                  |
+| `{{model}}`         | Numele modelului [[Interpretor|Interpreter]]                                                     |
+| `{{modelId}}`       | ID-ul modelului [[Interpretor|Interpreter]]                                                       |
+| `{{modelProvider}}` | Furnizorul modelului [[Interpretor|Interpreter]]                                                 |
+| `{{published}}`     | Data publicării, poate fi formatată folosind filtrul `date`                       |
+| `{{selection}}`     | Selecția în format Markdown                                                   |
+| `{{selectionHtml}}` | Selecția în format HTML                                                       |
+| `{{site}}`          | Numele site-ului sau al editorului                                                         |
+| `{{title}}`         | Titlul paginii                                                              |
+| `{{time}}`          | Data și ora curente                                                          |
+| `{{url}}`           | Adresa URL curentă                                                                    |
+| `{{words}}`         | Numărul de cuvinte                                                                     |
 
 ## Variabile prompt
 

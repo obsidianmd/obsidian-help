@@ -17,26 +17,30 @@ Vooringestelde variabelen worden automatisch gegenereerd op basis van de pagina-
 
 De belangrijkste inhoudsvariabele is `{{content}}`, die de artikelinhoud bevat, of de [[Markeerstift|markeringen]], of de selectie als er geselecteerde tekst op de pagina is. Let op dat `{{content}}` probeert de hoofdinhoud van de pagina te extraheren, wat niet altijd is wat je wilt. In dat geval kun je andere vooringestelde variabelen of selectorvariabelen gebruiken om de gewenste inhoud te extraheren.
 
-| Variabele           | Beschrijving                                                                            |
-| ------------------- | --------------------------------------------------------------------------------------- |
-| `{{author}}`        | Auteur van de pagina                                                                    |
-| `{{content}}`       | Artikelinhoud, [[Markeerstift\|markeringen]], of selectie, in Markdown-formaat  |
-| `{{contentHtml}}`   | Artikelinhoud, [[Markeerstift\|markeringen]], of selectie, in HTML-formaat      |
-| `{{date}}`          | Huidige datum, kan worden opgemaakt met het `date`-filter                               |
-| `{{description}}`   | Beschrijving of fragment                                                                |
-| `{{domain}}`        | Domein                                                                                  |
-| `{{favicon}}`       | Favicon-URL                                                                             |
-| `{{fullHtml}}`      | Onverwerkte HTML voor de volledige pagina-inhoud                                        |
-| `{{highlights}}`    | [[Markeerstift\|Markeringen]] met tekst en tijdstempels                         |
-| `{{image}}`         | URL van social share-afbeelding                                                         |
-| `{{published}}`     | Publicatiedatum, kan worden opgemaakt met het `date`-filter                             |
-| `{{selection}}`     | Selectie in Markdown-formaat                                                            |
-| `{{selectionHtml}}` | Selectie in HTML-formaat                                                                |
-| `{{site}}`          | Sitenaam of uitgever                                                                    |
-| `{{title}}`         | Titel van de pagina                                                                     |
-| `{{time}}`          | Huidige datum en tijd                                                                   |
-| `{{url}}`           | Huidige URL                                                                             |
-| `{{words}}`         | Woordenaantal                                                                           |
+| Variabele           | Beschrijving                                                                   |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Auteur van de pagina                                                           |
+| `{{content}}`       | Artikelinhoud, [[Markeerstift\|markeringen]], of selectie, in Markdown-formaat |
+| `{{contentHtml}}`   | Artikelinhoud, [[Markeerstift\|markeringen]], of selectie, in HTML-formaat     |
+| `{{date}}`          | Huidige datum, kan worden opgemaakt met het `date`-filter                      |
+| `{{description}}`   | Beschrijving of fragment                                                       |
+| `{{domain}}`        | Domein                                                                         |
+| `{{favicon}}`       | Favicon-URL                                                                    |
+| `{{fullHtml}}`      | Onverwerkte HTML voor de volledige pagina-inhoud                               |
+| `{{highlights}}`    | [[Markeerstift\|Markeringen]] met tekst en tijdstempels                        |
+| `{{image}}`         | URL van social share-afbeelding                                                |
+| `{{language}}`      | Paginataal                                                                     |
+| `{{model}}`         | [[Webpagina's interpreteren\|Interpreter]]-modelnaam                           |
+| `{{modelId}}`       | [[Webpagina's interpreteren\|Interpreter]]-model-ID                            |
+| `{{modelProvider}}` | [[Webpagina's interpreteren\|Interpreter]]-modelprovider                       |
+| `{{published}}`     | Publicatiedatum, kan worden opgemaakt met het `date`-filter                    |
+| `{{selection}}`     | Selectie in Markdown-formaat                                                   |
+| `{{selectionHtml}}` | Selectie in HTML-formaat                                                       |
+| `{{site}}`          | Sitenaam of uitgever                                                           |
+| `{{title}}`         | Titel van de pagina                                                            |
+| `{{time}}`          | Huidige datum en tijd                                                          |
+| `{{url}}`           | Huidige URL                                                                    |
+| `{{words}}`         | Woordenaantal                                                                  |
 
 ## Promptvariabelen
 

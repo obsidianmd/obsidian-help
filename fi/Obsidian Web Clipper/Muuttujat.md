@@ -17,26 +17,30 @@ Esiasetetut muuttujat luodaan automaattisesti sivun sisällön perusteella. Ne t
 
 Pääsisältömuuttuja on `{{content}}`, joka sisältää artikkelin sisällön, [[Korostustyökalu|korostukset]] tai valinnan, jos sivulla on valittua tekstiä. Huomaa, että `{{content}}` yrittää poimia sivun pääsisällön, mikä ei aina välttämättä ole sitä mitä haluat. Tässä tapauksessa voit käyttää muita esiasettuja muuttujia tai valitsinmuuttujia tarvitsemasi sisällön poimimiseen.
 
-| Muuttuja            | Kuvaus                                                                                 |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Sivun tekijä                                                                           |
+| Muuttuja            | Kuvaus                                                                         |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Sivun tekijä                                                                   |
 | `{{content}}`       | Artikkelin sisältö, [[Korostustyökalu\|korostukset]] tai valinta, Markdown-muodossa |
 | `{{contentHtml}}`   | Artikkelin sisältö, [[Korostustyökalu\|korostukset]] tai valinta, HTML-muodossa |
-| `{{date}}`          | Nykyinen päivämäärä, voidaan muotoilla `date`-suodattimella                            |
-| `{{description}}`   | Kuvaus tai ote                                                                         |
-| `{{domain}}`        | Verkkotunnus                                                                           |
-| `{{favicon}}`       | Faviconin URL                                                                          |
-| `{{fullHtml}}`      | Koko sivun sisällön käsittelemätön HTML                                                |
-| `{{highlights}}`    | [[Korostustyökalu\|Korostukset]] tekstin ja aikaleimojen kanssa             |
-| `{{image}}`         | Sosiaalisen jakamisen kuvan URL                                                        |
-| `{{published}}`     | Julkaisupäivä, voidaan muotoilla `date`-suodattimella                                  |
-| `{{selection}}`     | Valinta Markdown-muodossa                                                              |
-| `{{selectionHtml}}` | Valinta HTML-muodossa                                                                  |
-| `{{site}}`          | Sivuston nimi tai julkaisija                                                           |
-| `{{title}}`         | Sivun otsikko                                                                          |
-| `{{time}}`          | Nykyinen päivämäärä ja kellonaika                                                      |
-| `{{url}}`           | Nykyinen URL                                                                           |
-| `{{words}}`         | Sanamäärä                                                                              |
+| `{{date}}`          | Nykyinen päivämäärä, voidaan muotoilla `date`-suodattimella                    |
+| `{{description}}`   | Kuvaus tai ote                                                                 |
+| `{{domain}}`        | Verkkotunnus                                                                   |
+| `{{favicon}}`       | Faviconin URL                                                                  |
+| `{{fullHtml}}`      | Koko sivun sisällön käsittelemätön HTML                                        |
+| `{{highlights}}`    | [[Korostustyökalu\|Korostukset]] tekstin ja aikaleimojen kanssa                |
+| `{{image}}`         | Sosiaalisen jakamisen kuvan URL                                                |
+| `{{language}}`      | Sivun kieli                                                                    |
+| `{{model}}`         | [[Tulkki|Tulkin]] mallin nimi                                                  |
+| `{{modelId}}`       | [[Tulkki|Tulkin]] mallin tunnus                                                |
+| `{{modelProvider}}` | [[Tulkki|Tulkin]] mallin tarjoaja                                              |
+| `{{published}}`     | Julkaisupäivä, voidaan muotoilla `date`-suodattimella                          |
+| `{{selection}}`     | Valinta Markdown-muodossa                                                      |
+| `{{selectionHtml}}` | Valinta HTML-muodossa                                                          |
+| `{{site}}`          | Sivuston nimi tai julkaisija                                                   |
+| `{{title}}`         | Sivun otsikko                                                                  |
+| `{{time}}`          | Nykyinen päivämäärä ja kellonaika                                              |
+| `{{url}}`           | Nykyinen URL                                                                   |
+| `{{words}}`         | Sanamäärä                                                                      |
 
 ## Kehoitemuuttujat
 

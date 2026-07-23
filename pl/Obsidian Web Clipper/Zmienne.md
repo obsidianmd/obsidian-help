@@ -17,26 +17,30 @@ Zmienne wstępnie zdefiniowane są automatycznie generowane na podstawie zawarto
 
 Główną zmienną treści jest `{{content}}`, która zawiera treść artykułu, [[Zakreślacz|wyróżnienia]] lub zaznaczenie, jeśli na stronie jest zaznaczony tekst. Należy pamiętać, że `{{content}}` próbuje wyodrębnić główną treść strony, co nie zawsze może odpowiadać Twoim potrzebom. W takim przypadku możesz użyć innych zmiennych wstępnie zdefiniowanych lub zmiennych selektorów, aby wyodrębnić potrzebną treść.
 
-| Zmienna             | Opis                                                                                   |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Autor strony                                                                           |
+| Zmienna             | Opis                                                                           |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Autor strony                                                                   |
 | `{{content}}`       | Treść artykułu, [[Zakreślacz\|wyróżnienia]] lub zaznaczenie, w formacie Markdown |
 | `{{contentHtml}}`   | Treść artykułu, [[Zakreślacz\|wyróżnienia]] lub zaznaczenie, w formacie HTML |
-| `{{date}}`          | Bieżąca data, może być formatowana za pomocą filtra `date`                             |
-| `{{description}}`   | Opis lub fragment                                                                      |
-| `{{domain}}`        | Domena                                                                                 |
-| `{{favicon}}`       | URL favicony                                                                           |
-| `{{fullHtml}}`      | Nieprzetworzony HTML pełnej zawartości strony                                          |
-| `{{highlights}}`    | [[Zakreślacz\|Wyróżnienia]] z tekstem i znacznikami czasu         |
-| `{{image}}`         | URL obrazu udostępniania społecznościowego                                             |
-| `{{published}}`     | Data publikacji, może być formatowana za pomocą filtra `date`                          |
-| `{{selection}}`     | Zaznaczenie w formacie Markdown                                                        |
-| `{{selectionHtml}}` | Zaznaczenie w formacie HTML                                                            |
-| `{{site}}`          | Nazwa strony lub wydawca                                                               |
-| `{{title}}`         | Tytuł strony                                                                           |
-| `{{time}}`          | Bieżąca data i godzina                                                                |
-| `{{url}}`           | Bieżący URL                                                                            |
-| `{{words}}`         | Liczba słów                                                                            |
+| `{{date}}`          | Bieżąca data, może być formatowana za pomocą filtra `date`                     |
+| `{{description}}`   | Opis lub fragment                                                              |
+| `{{domain}}`        | Domena                                                                         |
+| `{{favicon}}`       | URL favicony                                                                   |
+| `{{fullHtml}}`      | Nieprzetworzony HTML pełnej zawartości strony                                  |
+| `{{highlights}}`    | [[Zakreślacz\|Wyróżnienia]] z tekstem i znacznikami czasu                      |
+| `{{image}}`         | URL obrazu udostępniania społecznościowego                                     |
+| `{{language}}`      | Język strony                                                                   |
+| `{{model}}`         | Nazwa modelu [[Interpreter\|Interpretera]]                                     |
+| `{{modelId}}`       | ID modelu [[Interpreter\|Interpretera]]                                        |
+| `{{modelProvider}}` | Dostawca modelu [[Interpreter\|Interpretera]]                                  |
+| `{{published}}`     | Data publikacji, może być formatowana za pomocą filtra `date`                  |
+| `{{selection}}`     | Zaznaczenie w formacie Markdown                                                |
+| `{{selectionHtml}}` | Zaznaczenie w formacie HTML                                                    |
+| `{{site}}`          | Nazwa strony lub wydawca                                                       |
+| `{{title}}`         | Tytuł strony                                                                   |
+| `{{time}}`          | Bieżąca data i godzina                                                        |
+| `{{url}}`           | Bieżący URL                                                                    |
+| `{{words}}`         | Liczba słów                                                                    |
 
 ## Zmienne promptów
 

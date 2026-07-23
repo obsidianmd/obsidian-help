@@ -17,26 +17,30 @@ Az előre beállított változók automatikusan generálódnak az oldal tartalma
 
 A fő tartalomváltozó a `{{content}}`, amely a cikk tartalmát, a [[Kiemelő|kiemeléseket]], vagy a kijelölést tartalmazza, ha van kijelölt szöveg az oldalon. Vedd figyelembe, hogy a `{{content}}` megpróbálja kinyerni az oldal fő tartalmát, ami nem mindig az, amit szeretnél. Ebben az esetben más előre beállított változókat vagy szelektor változókat használhatsz a szükséges tartalom kinyeréséhez.
 
-| Változó             | Leírás                                                                                 |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Az oldal szerzője                                                                      |
+| Változó             | Leírás                                                                         |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Az oldal szerzője                                                              |
 | `{{content}}`       | Cikk tartalma, [[Kiemelő\|kiemelések]], vagy kijelölés, Markdown formátumban |
 | `{{contentHtml}}`   | Cikk tartalma, [[Kiemelő\|kiemelések]], vagy kijelölés, HTML formátumban |
-| `{{date}}`          | Aktuális dátum, formázható a `date` szűrővel                                          |
-| `{{description}}`   | Leírás vagy kivonat                                                                    |
-| `{{domain}}`        | Tartomány                                                                              |
-| `{{favicon}}`       | Favicon URL                                                                            |
-| `{{fullHtml}}`      | Feldolgozatlan HTML a teljes oldaltartalomhoz                                          |
-| `{{highlights}}`    | [[Kiemelő\|Kiemelések]] szöveggel és időbélyegekkel                      |
-| `{{image}}`         | Közösségi megosztási kép URL-je                                                        |
-| `{{published}}`     | Publikálás dátuma, formázható a `date` szűrővel                                       |
-| `{{selection}}`     | Kijelölés Markdown formátumban                                                         |
-| `{{selectionHtml}}` | Kijelölés HTML formátumban                                                             |
-| `{{site}}`          | Webhely neve vagy kiadó                                                                |
-| `{{title}}`         | Az oldal címe                                                                          |
-| `{{time}}`          | Aktuális dátum és idő                                                                  |
-| `{{url}}`           | Aktuális URL                                                                           |
-| `{{words}}`         | Szavak száma                                                                           |
+| `{{date}}`          | Aktuális dátum, formázható a `date` szűrővel                                  |
+| `{{description}}`   | Leírás vagy kivonat                                                            |
+| `{{domain}}`        | Tartomány                                                                      |
+| `{{favicon}}`       | Favicon URL                                                                    |
+| `{{fullHtml}}`      | Feldolgozatlan HTML a teljes oldaltartalomhoz                                  |
+| `{{highlights}}`    | [[Kiemelő\|Kiemelések]] szöveggel és időbélyegekkel                           |
+| `{{image}}`         | Közösségi megosztási kép URL-je                                                |
+| `{{language}}`      | Az oldal nyelve                                                                |
+| `{{model}}`         | [[Értelmező]] modell neve                                                      |
+| `{{modelId}}`       | [[Értelmező]] modell azonosítója                                               |
+| `{{modelProvider}}` | [[Értelmező]] modell szolgáltatója                                             |
+| `{{published}}`     | Publikálás dátuma, formázható a `date` szűrővel                               |
+| `{{selection}}`     | Kijelölés Markdown formátumban                                                 |
+| `{{selectionHtml}}` | Kijelölés HTML formátumban                                                     |
+| `{{site}}`          | Webhely neve vagy kiadó                                                        |
+| `{{title}}`         | Az oldal címe                                                                  |
+| `{{time}}`          | Aktuális dátum és idő                                                          |
+| `{{url}}`           | Aktuális URL                                                                   |
+| `{{words}}`         | Szavak száma                                                                   |
 
 ## Prompt változók
 

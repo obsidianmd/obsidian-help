@@ -17,26 +17,30 @@ Prednastavené premenné sú automaticky generované na základe obsahu stránky
 
 Hlavná obsahová premenná je `{{content}}`, ktorá obsahuje obsah článku, alebo [[Zvýrazňovač|zvýraznenia]], alebo výber, ak je na stránke nejaký vybraný text. Všimnite si, že `{{content}}` sa pokúša extrahovať hlavný obsah stránky, čo nemusí vždy zodpovedať vašim potrebám. V takom prípade môžete použiť iné prednastavené premenné alebo selektorové premenné na extrakciu požadovaného obsahu.
 
-| Premenná            | Popis                                                                                  |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Autor stránky                                                                          |
+| Premenná            | Popis                                                                          |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Autor stránky                                                                  |
 | `{{content}}`       | Obsah článku, [[Zvýrazňovač\|zvýraznenia]] alebo výber vo formáte Markdown |
 | `{{contentHtml}}`   | Obsah článku, [[Zvýrazňovač\|zvýraznenia]] alebo výber vo formáte HTML |
-| `{{date}}`          | Aktuálny dátum, možno formátovať pomocou filtra `date`                                 |
-| `{{description}}`   | Popis alebo výňatok                                                                    |
-| `{{domain}}`        | Doména                                                                                 |
-| `{{favicon}}`       | URL favicon                                                                            |
-| `{{fullHtml}}`      | Nespracované HTML celého obsahu stránky                                                |
-| `{{highlights}}`    | [[Zvýrazňovač\|Zvýraznenia]] s textom a časovými značkami           |
-| `{{image}}`         | URL obrázka na zdieľanie na sociálnych sieťach                                         |
-| `{{published}}`     | Dátum publikovania, možno formátovať pomocou filtra `date`                             |
-| `{{selection}}`     | Výber vo formáte Markdown                                                              |
-| `{{selectionHtml}}` | Výber vo formáte HTML                                                                  |
-| `{{site}}`          | Názov stránky alebo vydavateľ                                                          |
-| `{{title}}`         | Nadpis stránky                                                                         |
-| `{{time}}`          | Aktuálny dátum a čas                                                                   |
-| `{{url}}`           | Aktuálna URL                                                                           |
-| `{{words}}`         | Počet slov                                                                             |
+| `{{date}}`          | Aktuálny dátum, možno formátovať pomocou filtra `date`                         |
+| `{{description}}`   | Popis alebo výňatok                                                            |
+| `{{domain}}`        | Doména                                                                         |
+| `{{favicon}}`       | URL favicon                                                                    |
+| `{{fullHtml}}`      | Nespracované HTML celého obsahu stránky                                        |
+| `{{highlights}}`    | [[Zvýrazňovač\|Zvýraznenia]] s textom a časovými značkami                     |
+| `{{image}}`         | URL obrázka na zdieľanie na sociálnych sieťach                                 |
+| `{{language}}`      | Jazyk stránky                                                                  |
+| `{{model}}`         | Názov modelu [[Interpret|Interpreta]]                                          |
+| `{{modelId}}`       | ID modelu [[Interpret|Interpreta]]                                             |
+| `{{modelProvider}}` | Poskytovateľ modelu [[Interpret|Interpreta]]                                   |
+| `{{published}}`     | Dátum publikovania, možno formátovať pomocou filtra `date`                     |
+| `{{selection}}`     | Výber vo formáte Markdown                                                      |
+| `{{selectionHtml}}` | Výber vo formáte HTML                                                          |
+| `{{site}}`          | Názov stránky alebo vydavateľ                                                  |
+| `{{title}}`         | Nadpis stránky                                                                 |
+| `{{time}}`          | Aktuálny dátum a čas                                                           |
+| `{{url}}`           | Aktuálna URL                                                                   |
+| `{{words}}`         | Počet slov                                                                     |
 
 ## Promptové premenné
 

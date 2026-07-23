@@ -29,6 +29,10 @@ Den huvudsakliga innehållsvariabeln är `{{content}}`, som innehåller artikeli
 | `{{fullHtml}}`      | Obearbetad HTML för hela sidinnehållet                                                 |
 | `{{highlights}}`    | [[Markeringsverktyg\|Markeringar]] med text och tidsstämplar                           |
 | `{{image}}`         | URL för social delningsbild                                                            |
+| `{{language}}`      | Sidans språk                                                                           |
+| `{{model}}`         | [[Tolk]]-modellnamn                                                                    |
+| `{{modelId}}`       | [[Tolk]]-modell-ID                                                                     |
+| `{{modelProvider}}` | [[Tolk]]-modellleverantör                                                              |
 | `{{published}}`     | Publiceringsdatum, kan formateras med filtret `date`                                   |
 | `{{selection}}`     | Markering i Markdown-format                                                            |
 | `{{selectionHtml}}` | Markering i HTML-format                                                                |

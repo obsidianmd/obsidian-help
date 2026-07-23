@@ -29,6 +29,10 @@ Biến nội dung chính là `{{content}}`, chứa nội dung bài viết, hoặ
 | `{{fullHtml}}`      | HTML chưa xử lý của toàn bộ nội dung trang                                            |
 | `{{highlights}}`    | [[Bút tô sáng\|Phần tô sáng]] với văn bản và dấu thời gian                      |
 | `{{image}}`         | URL hình ảnh chia sẻ mạng xã hội                                                      |
+| `{{language}}`      | Ngôn ngữ trang                                                                         |
+| `{{model}}`         | Tên mô hình [[Thông dịch|Interpreter]]                                                |
+| `{{modelId}}`       | ID mô hình [[Thông dịch|Interpreter]]                                                 |
+| `{{modelProvider}}` | Nhà cung cấp mô hình [[Thông dịch|Interpreter]]                                       |
 | `{{published}}`     | Ngày xuất bản, có thể định dạng bằng bộ lọc `date`                                    |
 | `{{selection}}`     | Phần chọn ở định dạng Markdown                                                        |
 | `{{selectionHtml}}` | Phần chọn ở định dạng HTML                                                            |

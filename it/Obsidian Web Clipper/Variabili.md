@@ -19,26 +19,30 @@ Le variabili preset vengono generate automaticamente in base al contenuto della 
 
 La variabile principale per il contenuto è `{{content}}`, che contiene il contenuto dell'articolo, o le [[Evidenziatore|evidenziazioni]], o la selezione se è presente del testo selezionato nella pagina. Nota che `{{content}}` tenta di estrarre il contenuto principale della pagina, che potrebbe non essere sempre ciò che desideri. In tal caso, puoi utilizzare altre variabili preset o variabili selettore per estrarre il contenuto necessario.
 
-| Variabile            | Descrizione                                                                            |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Autore della pagina                                                                     |
+| Variabile            | Descrizione                                                                    |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Autore della pagina                                                             |
 | `{{content}}`       | Contenuto dell'articolo, [[Highlighter\|evidenziazioni]] o selezione, in formato Markdown |
 | `{{contentHtml}}`   | Contenuto dell'articolo, [[Highlighter\|evidenziazioni]] o selezione, in formato HTML     |
-| `{{date}}`          | Data corrente, può essere formattata utilizzando il filtro `date`                                 |
-| `{{description}}`   | Descrizione o estratto                                                                 |
-| `{{domain}}`        | Dominio                                                                                 |
-| `{{favicon}}`       | URL della favicon                                                                            |
-| `{{fullHtml}}`      | HTML non elaborato per il contenuto completo della pagina                                             |
+| `{{date}}`          | Data corrente, può essere formattata utilizzando il filtro `date`                         |
+| `{{description}}`   | Descrizione o estratto                                                         |
+| `{{domain}}`        | Dominio                                                                         |
+| `{{favicon}}`       | URL della favicon                                                                    |
+| `{{fullHtml}}`      | HTML non elaborato per il contenuto completo della pagina                                     |
 | `{{highlights}}`    | [[Highlighter\|Evidenziazioni]] con testo e marcature temporali                           |
 | `{{image}}`         | URL dell'immagine di condivisione social                                                                 |
-| `{{published}}`     | Data di pubblicazione, può essere formattata utilizzando il filtro `date`                               |
+| `{{language}}`      | Lingua della pagina                                                                  |
+| `{{model}}`         | Nome del modello dell'[[Interprete|Interprete]]                                                     |
+| `{{modelId}}`       | ID del modello dell'[[Interprete|Interprete]]                                                       |
+| `{{modelProvider}}` | Fornitore del modello dell'[[Interprete|Interprete]]                                                 |
+| `{{published}}`     | Data di pubblicazione, può essere formattata utilizzando il filtro `date`                       |
 | `{{selection}}`     | Selezione in formato Markdown                                                           |
 | `{{selectionHtml}}` | Selezione in formato HTML                                                               |
-| `{{site}}`          | Nome del sito o editore                                                                 |
-| `{{title}}`         | Titolo della pagina                                                                      |
-| `{{time}}`          | Data e ora correnti                                                                  |
-| `{{url}}`           | URL corrente                                                                            |
-| `{{words}}`         | Conteggio parole                                                                             |
+| `{{site}}`          | Nome del sito o editore                                                         |
+| `{{title}}`         | Titolo della pagina                                                              |
+| `{{time}}`          | Data e ora correnti                                                          |
+| `{{url}}`           | URL corrente                                                                    |
+| `{{words}}`         | Conteggio parole                                                                     |
 
 ## Variabili prompt
 
