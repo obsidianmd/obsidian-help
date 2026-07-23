@@ -83,7 +83,7 @@ For å definere en egendefinert uthevet blokk, opprett følgende CSS-blokk:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
