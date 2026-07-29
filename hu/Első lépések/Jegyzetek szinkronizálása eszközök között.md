@@ -57,6 +57,9 @@ Az iCloud használható széfek szinkronizálására iOS és macOS között. Azo
         2. Adj nevet a széfednek.
         3. Kapcsold be a **Tárolás az iCloudban** opciót.
         4. Koppints a **Létrehozás** gombra.
+- **A széf mappa letöltve tartása** (opcionális, de erősen ajánlott a gyors betöltési idők érdekében):
+    - macOS 15 (Sequoia) és újabb esetén: Kattints jobb gombbal az **Obsidian** mappára az iCloud Drive-ban és válaszd a **Letöltve tartás** lehetőséget.
+    - macOS 14 (Sonoma) és korábbi esetén: Tiltsd le a **Mac tárhely optimalizálása** opciót az iCloud beállításokban. Ez a beállítás az eszköz teljes iCloud tárhelyére vonatkozik, nem csak az Obsidianre.
 - **A széf megnyitása másik Apple eszközön**:
     - Egy másik macOS vagy iOS eszközön nyisd meg az **Obsidian**t, lépj a [[Széfek kezelése|Széfváltóba]] és válaszd a **Mappa megnyitása széfként** lehetőséget. Navigálj az **iCloud Drive → Obsidian** mappába.
 
@@ -68,10 +71,6 @@ Az iCloud használható széfek szinkronizálására iOS és macOS között. Azo
 > ![[iCloud-folder-location.png#interface]]
 > 
 > A széfed helyének ellenőrzéséhez nyisd meg a **Fájlok** alkalmazást, koppints a **Tallózás** lehetőségre, válaszd az **iCloud Drive**-ot a **Helyek** alatt, és győződj meg arról, hogy a széfed az **Obsidian** mappán belül van. Ha a széfed más helyen van, szinkronizálási problémákat tapasztalhatsz.
-
-> [!tip] Bevált gyakorlatok
-> - **macOS 14 (Sonoma) és korábbi** esetén: Tiltsd le a **Mac tárhely optimalizálása** opciót az iCloud beállításokban, hogy megakadályozd a fájlok kiszervezését. Ez a beállítás az eszköz teljes iCloud tárhelyére vonatkozik, nem csak az Obsidianre.
-> - **macOS 15 (Sequoia)** esetén: Kattints jobb gombbal az **Obsidian** mappára az iCloud Drive-ban és válaszd a **Letöltve tartás** lehetőséget.
 
 ## OneDrive
 

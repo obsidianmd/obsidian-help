@@ -44,7 +44,7 @@ iCloud może być używany do synchronizacji sejfów między iOS a macOS. Jednak
 **Jak utworzyć i przechowywać sejf w iCloud Drive**:
 
 - **Włącz iCloud Drive**:
-    - Na macOS: Przejdź do **Preferencje systemowe → Apple ID → iCloud → iCloud Drive**.
+    - Na macOS: Przejdź do **Ustawienia systemowe → Apple ID → iCloud → iCloud Drive**.
     - Na iOS: Przejdź do **Ustawienia → [Twoje imię] → iCloud → iCloud Drive**.
 - **Utwórz nowy sejf w iCloud**:
     - Na macOS:
@@ -57,6 +57,9 @@ iCloud może być używany do synchronizacji sejfów między iOS a macOS. Jednak
         2. Wprowadź nazwę dla swojego sejfu.
         3. Włącz opcję **Przechowuj w iCloud**.
         4. Stuknij **Stwórz**.
+- **Zachowaj folder sejfu jako pobrany** (opcjonalne, ale zdecydowanie zalecane, aby utrzymać szybki czas ładowania):
+    - Na macOS 15 (Sequoia) i nowszych: Kliknij prawym przyciskiem myszy folder **Obsidian** w iCloud Drive i wybierz **Zachowaj pobrane**.
+    - Na macOS 14 (Sonoma) i starszych: Wyłącz **Optymalizuj pamięć Maca** w ustawieniach iCloud. To ustawienie wpływa na całą pamięć iCloud na urządzeniu, nie tylko na Obsidian.
 - **Otwórz sejf na innym urządzeniu Apple**:
     - Na innym urządzeniu macOS lub iOS otwórz **Obsidian**, przejdź do [[Zarządzaj sejfami|Przełącznika sejfów]] i wybierz **Otwórz folder jako sejf**. Przejdź do **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud może być używany do synchronizacji sejfów między iOS a macOS. Jednak
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Aby zweryfikować lokalizację sejfu, otwórz aplikację **Pliki**, stuknij **Przeglądaj**, wybierz **iCloud Drive** w sekcji **Lokalizacje** i potwierdź, że Twój sejf znajduje się w folderze **Obsidian**. Jeśli Twój sejf jest w innej lokalizacji, mogą wystąpić problemy z synchronizacją.
-
-> [!tip] Najlepsze praktyki
-> - Dla **macOS 14 (Sonoma) i starszych**: Wyłącz **Optymalizuj pamięć Maca** w ustawieniach iCloud, aby zapobiec przenoszeniu plików poza urządzenie. To ustawienie wpływa na całą pamięć iCloud na urządzeniu, nie tylko na Obsidian.
-> - Dla **macOS 15 (Sequoia)**: Kliknij prawym przyciskiem myszy folder **Obsidian** w iCloud Drive i wybierz **Zachowaj pobrane**.
 
 ## OneDrive
 

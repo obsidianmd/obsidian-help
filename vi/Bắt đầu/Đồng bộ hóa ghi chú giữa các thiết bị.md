@@ -44,7 +44,7 @@ iCloud có thể được sử dụng để đồng bộ hóa kho giữa iOS và
 **Cách tạo và lưu trữ kho trong iCloud Drive**:
 
 - **Bật iCloud Drive**:
-    - Trên macOS: Vào **System Preferences → Apple ID → iCloud → iCloud Drive**.
+    - Trên macOS: Vào **System Settings → Apple ID → iCloud → iCloud Drive**.
     - Trên iOS: Vào **Settings → [Tên bạn] → iCloud → iCloud Drive**.
 - **Tạo kho mới trong iCloud**:
     - Trên macOS:
@@ -57,6 +57,9 @@ iCloud có thể được sử dụng để đồng bộ hóa kho giữa iOS và
         2. Nhập tên cho kho của bạn.
         3. Bật **Store in iCloud**.
         4. Nhấn **Tạo mới**.
+- **Giữ thư mục kho đã tải xuống** (tùy chọn, nhưng rất khuyến nghị để giữ thời gian tải nhanh):
+    - Trên macOS 15 (Sequoia) trở lên: Nhấp chuột phải vào thư mục **Obsidian** trong iCloud Drive và chọn **Keep Downloaded**.
+    - Trên macOS 14 (Sonoma) và trước đó: Tắt **Optimize Mac Storage** trong cài đặt iCloud. Cài đặt này ảnh hưởng đến tất cả bộ nhớ iCloud trên thiết bị, không chỉ Obsidian.
 - **Mở kho trên thiết bị Apple khác**: 
     - Trên thiết bị macOS hoặc iOS khác, mở **Obsidian**, vào [[Quản lý kho|Chuyển đổi kho]], và chọn **Mở thư mục như một khối lưu trữ**. Điều hướng đến **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud có thể được sử dụng để đồng bộ hóa kho giữa iOS và
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Để xác minh vị trí kho của bạn, mở ứng dụng **Files**, nhấn **Duyệt**, chọn **iCloud Drive** dưới **Locations**, và xác nhận kho của bạn nằm trong thư mục **Obsidian**. Nếu kho của bạn ở vị trí khác, bạn có thể gặp sự cố đồng bộ hóa.
-
-> [!tip] Thực hành tốt nhất
-> - Đối với **macOS 14 (Sonoma) và trước đó**: Tắt **Optimize Mac Storage** trong cài đặt iCloud để ngăn các tệp bị tải xuống đám mây. Cài đặt này ảnh hưởng đến tất cả bộ nhớ iCloud trên thiết bị, không chỉ Obsidian.
-> - Đối với **macOS 15 (Sequoia)**: Nhấp chuột phải vào thư mục **Obsidian** trong iCloud Drive và chọn **Keep Downloaded**.
 
 ## OneDrive
 

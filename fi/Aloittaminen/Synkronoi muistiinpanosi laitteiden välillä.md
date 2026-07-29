@@ -57,6 +57,9 @@ iCloudia voidaan käyttää holvien synkronointiin iOS:n ja macOS:n välillä. *
         2. Anna holvillesi nimi.
         3. Ota käyttöön **Tallenna iCloudiin**.
         4. Napauta **Luo**.
+- **Pidä holvikansio ladattuna** (valinnainen, mutta erittäin suositeltavaa latausaikojen nopeuttamiseksi):
+    - macOS 15 (Sequoia) ja uudemmat: Napsauta hiiren kakkospainikkeella **Obsidian**-kansiota iCloud Drivessa ja valitse **Pidä ladattuna**.
+    - macOS 14 (Sonoma) ja aiemmat: Poista käytöstä **Optimoi Mac-tallennustila** iCloud-asetuksissa. Tämä asetus vaikuttaa kaikkeen iCloud-tallennustilaan laitteella, ei vain Obsidianiin.
 - **Avaa holvi toisella Apple-laitteella**: 
     - Avaa toisella macOS- tai iOS-laitteella **Obsidian**, siirry [[Hallinnoi holveja|holvinvaihtajaan]] ja valitse **Avaa kansio holvina**. Siirry kohtaan **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloudia voidaan käyttää holvien synkronointiin iOS:n ja macOS:n välillä. *
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Voit tarkistaa holvisi sijainnin avaamalla **Tiedostot**-sovelluksen, napauttamalla **Selaa**, valitsemalla **iCloud Drive** kohdasta **Sijainnit** ja varmistamalla, että holvisi on **Obsidian**-kansion sisällä. Jos holvisi on eri sijainnissa, synkronointiongelmia saattaa esiintyä.
-
-> [!tip] Parhaat käytännöt
-> - **macOS 14 (Sonoma) ja aiemmat**: Poista käytöstä **Optimoi Mac-tallennustila** iCloud-asetuksissa estääksesi tiedostojen siirtämisen pois laitteelta. Tämä asetus vaikuttaa kaikkeen iCloud-tallennustilaan laitteella, ei vain Obsidianiin.
-> - **macOS 15 (Sequoia)**: Napsauta hiiren kakkospainikkeella **Obsidian**-kansiota iCloud Drivessa ja valitse **Pidä ladattuna**.
 
 ## OneDrive
 

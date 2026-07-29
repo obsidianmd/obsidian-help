@@ -45,7 +45,7 @@ iCloud peut être utilisé pour synchroniser des coffres entre iOS et macOS. Cep
 **Comment créer et stocker votre coffre dans iCloud Drive** :
 
 - **Activer iCloud Drive** :
-    - Sur macOS : Allez dans **Préférences Système → Identifiant Apple → iCloud → iCloud Drive**.
+    - Sur macOS : Allez dans **Réglages Système → Identifiant Apple → iCloud → iCloud Drive**.
     - Sur iOS : Allez dans **Réglages → [Votre nom] → iCloud → iCloud Drive**.
 - **Créer un nouveau coffre dans iCloud** :
     - Sur macOS :
@@ -58,6 +58,9 @@ iCloud peut être utilisé pour synchroniser des coffres entre iOS et macOS. Cep
         2. Entrez un nom pour votre coffre.
         3. Activez **Stocker dans iCloud**.
         4. Appuyez sur **Créer**.
+- **Garder le dossier du coffre téléchargé** (optionnel, mais fortement recommandé pour des temps de chargement rapides) :
+    - Sur macOS 15 (Sequoia) et versions ultérieures : Faites un clic droit sur le dossier **Obsidian** dans iCloud Drive et sélectionnez **Garder téléchargé**.
+    - Sur macOS 14 (Sonoma) et versions antérieures : Désactivez **Optimiser le stockage du Mac** dans les paramètres iCloud. Ce paramètre affecte tout le stockage iCloud sur l'appareil, pas seulement Obsidian.
 - **Ouvrir le coffre sur un autre appareil Apple** :
     - Sur un autre appareil macOS ou iOS, ouvrez **Obsidian**, accédez au [[Gérer les coffres|Sélecteur de coffres]], et sélectionnez **Ouvrir un dossier comme coffre**. Naviguez vers **iCloud Drive → Obsidian**.
 
@@ -69,10 +72,6 @@ iCloud peut être utilisé pour synchroniser des coffres entre iOS et macOS. Cep
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Pour vérifier l'emplacement de votre coffre, ouvrez l'application **Fichiers**, appuyez sur **Parcourir**, sélectionnez **iCloud Drive** sous **Emplacements**, et confirmez que votre coffre se trouve dans le dossier **Obsidian**. Si votre coffre est à un emplacement différent, vous pourriez rencontrer des problèmes de synchronisation.
-
-> [!tip] Bonnes pratiques
-> - Pour **macOS 14 (Sonoma) et versions antérieures** : Désactivez **Optimiser le stockage du Mac** dans les paramètres iCloud pour empêcher le déchargement des fichiers. Ce paramètre affecte tout le stockage iCloud sur l'appareil, pas seulement Obsidian.
-> - Pour **macOS 15 (Sequoia)** : Faites un clic droit sur le dossier **Obsidian** dans iCloud Drive et sélectionnez **Garder téléchargé**.
 
 ## OneDrive
 

@@ -60,6 +60,9 @@ iCloud kan benyttes til at synkronisere bokse mellem iOS og macOS. Bemærk at **
         2. Skriv navnet på din boks
         3. Slå **Gem i iCloud** til
         4. Tryk på **Opret**.
+- **Hold boksmappen downloadet** (valgfrit, men stærkt anbefalet for at holde indlæsningstiderne hurtige):
+    - På macOS 15 (Sequoia) og nyere: Højreklik på **Obsidian** mappen i iCloud Drev og vælg **Hold downloaded**.
+    - På macOS 14 (Sonoma) og tidligere versioner: Deaktiver **Optimer Mac Lager** i iCloud indstillingerne. Denne indstilling påvirker al iCloud lager på enheden og ikke bare Obsidian.
 - **Åben boksen på en anden Apple enhed**: 
     - Du skal åbne **Obsidian** på en anden macOS eller iOS og gå til [[Håndter bokse|håndter bokse]] og vælge **Åbn mappe som boks**. Naviger til **iCloud Drev → Obsidian**.
 
@@ -71,10 +74,6 @@ iCloud kan benyttes til at synkronisere bokse mellem iOS og macOS. Bemærk at **
 > ![[iCloud-folder-location.png#interface]]
 > 
 > For at verificere din boks placering skal du åbne **Filer** appen, trykke på **Gennemse**, vælge **iCloud Drive** under **Placeringer**, og bekræfte at din boks er inde i **Obsidian** mappen. Hvis din boks er på en anden placering, kan du opleve synkroniseringsproblemer.
-
-> [!Tip] Bedste praksis:
-> - For **macOS 14 (Sonoma) og tidligere versioner**: Deaktiver **Optimer Mac Lager** i iCloud indstillingerne for at forhindre filer fra at blive fjernet. Denne indstilling påvirker al iCloud lager på enheden og ikke bare Obsidian
-> - For **macOS 15 (Sequoia)**: Højreklik på **Obsidian** mappen i iCloud og vælg **Hold downloaded**.
 
 ## OneDrive
 

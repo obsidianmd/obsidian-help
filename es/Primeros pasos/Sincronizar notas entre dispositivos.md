@@ -44,7 +44,7 @@ iCloud se puede usar para sincronizar bóvedas entre iOS y macOS. Sin embargo, *
 **Cómo crear y almacenar tu bóveda en iCloud Drive**:
 
 - **Habilitar iCloud Drive**:
-    - En macOS: Ve a **Preferencias del Sistema → Apple ID → iCloud → iCloud Drive**.
+    - En macOS: Ve a **Ajustes del Sistema → Apple ID → iCloud → iCloud Drive**.
     - En iOS: Ve a **Ajustes → [Tu Nombre] → iCloud → iCloud Drive**.
 - **Crear una nueva bóveda en iCloud**:
     - En macOS:
@@ -57,6 +57,9 @@ iCloud se puede usar para sincronizar bóvedas entre iOS y macOS. Sin embargo, *
         2. Ingresa un nombre para tu bóveda.
         3. Activa **Almacenar en iCloud**.
         4. Toca **Crear**.
+- **Mantener la carpeta de la bóveda descargada** (opcional, pero muy recomendado para mantener tiempos de carga rápidos):
+    - En macOS 15 (Sequoia) y posteriores: Haz clic derecho en la carpeta **Obsidian** en iCloud Drive y selecciona **Mantener descargado**.
+    - En macOS 14 (Sonoma) y anteriores: Desactiva **Optimizar almacenamiento del Mac** en los ajustes de iCloud. Este ajuste afecta a todo el almacenamiento de iCloud en el dispositivo, no solo a Obsidian.
 - **Abrir la bóveda en otro dispositivo Apple**:
     - En otro dispositivo macOS o iOS, abre **Obsidian**, ve al [[Gestionar bóvedas|Selector de bóvedas]] y selecciona **Abrir una carpeta como bóveda**. Navega a **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud se puede usar para sincronizar bóvedas entre iOS y macOS. Sin embargo, *
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Para verificar la ubicación de tu bóveda, abre la aplicación **Archivos**, toca **Explorar**, selecciona **iCloud Drive** en **Ubicaciones** y confirma que tu bóveda está dentro de la carpeta **Obsidian**. Si tu bóveda está en una ubicación diferente, podrías experimentar problemas de sincronización.
-
-> [!tip] Mejores prácticas
-> - Para **macOS 14 (Sonoma) y anteriores**: Desactiva **Optimizar almacenamiento del Mac** en los ajustes de iCloud para evitar que los archivos se descarguen bajo demanda. Este ajuste afecta a todo el almacenamiento de iCloud en el dispositivo, no solo a Obsidian.
-> - Para **macOS 15 (Sequoia)**: Haz clic derecho en la carpeta **Obsidian** en iCloud Drive y selecciona **Mantener descargado**.
 
 ## OneDrive
 

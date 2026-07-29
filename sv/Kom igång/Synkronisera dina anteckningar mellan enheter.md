@@ -57,6 +57,9 @@ iCloud kan användas för att synkronisera valv mellan iOS och macOS. Dock kan *
         2. Ange ett namn för ditt valv.
         3. Slå på **Lagra i iCloud**.
         4. Tryck på **Skapa**.
+- **Behåll valvmappen nedladdad** (valfritt, men starkt rekommenderat för att hålla laddningstiderna snabba):
+    - På macOS 15 (Sequoia) och senare: Högerklicka på **Obsidian**-mappen i iCloud Drive och välj **Behåll nedladdad**.
+    - På macOS 14 (Sonoma) och tidigare: Inaktivera **Optimera Mac-lagring** i iCloud-inställningar. Denna inställning påverkar all iCloud-lagring på enheten, inte bara Obsidian.
 - **Öppna valvet på en annan Apple-enhet**:
     - På en annan macOS- eller iOS-enhet, öppna **Obsidian**, gå till [[Hantera valv|Valvväxlaren]] och välj **Öppna mapp som valv**. Navigera till **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud kan användas för att synkronisera valv mellan iOS och macOS. Dock kan *
 > ![[iCloud-folder-location.png#interface]]
 > 
 > För att verifiera din valvplats, öppna appen **Filer**, tryck på **Bläddra**, välj **iCloud Drive** under **Platser** och bekräfta att ditt valv finns inuti **Obsidian**-mappen. Om ditt valv finns på en annan plats kan du uppleva synkroniseringsproblem.
-
-> [!tip] Bästa praxis
-> - För **macOS 14 (Sonoma) och tidigare**: Inaktivera **Optimera Mac-lagring** i iCloud-inställningar för att förhindra att filer avlastas. Denna inställning påverkar all iCloud-lagring på enheten, inte bara Obsidian.
-> - För **macOS 15 (Sequoia)**: Högerklicka på **Obsidian**-mappen i iCloud Drive och välj **Behåll nedladdad**.
 
 ## OneDrive
 

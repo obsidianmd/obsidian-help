@@ -44,7 +44,7 @@ iCloud poate fi folosit pentru a sincroniza seifuri între iOS și macOS. Totuș
 **Cum să creați și să stocați seiful dumneavoastră în iCloud Drive**:
 
 - **Activați iCloud Drive**:
-    - Pe macOS: Accesați **System Preferences → Apple ID → iCloud → iCloud Drive**.
+    - Pe macOS: Accesați **System Settings → Apple ID → iCloud → iCloud Drive**.
     - Pe iOS: Accesați **Settings → [Numele dumneavoastră] → iCloud → iCloud Drive**.
 - **Creați un seif nou în iCloud**:
     - Pe macOS:
@@ -57,6 +57,9 @@ iCloud poate fi folosit pentru a sincroniza seifuri între iOS și macOS. Totuș
         2. Introduceți un nume pentru seiful dumneavoastră.
         3. Activați **Stocare în iCloud**.
         4. Apăsați **Creare**.
+- **Păstrați directorul seifului descărcat** (opțional, dar recomandat cu tărie pentru a menține timpii de încărcare rapizi):
+    - Pe macOS 15 (Sequoia) și versiuni ulterioare: Apăsați clic dreapta pe directorul **Obsidian** din iCloud Drive și selectați **Keep Downloaded**.
+    - Pe macOS 14 (Sonoma) și versiuni anterioare: Dezactivați **Optimize Mac Storage** din setările iCloud. Această setare afectează întreaga stocare iCloud a dispozitivului, nu doar Obsidian.
 - **Deschideți seiful pe un alt dispozitiv Apple**:
     - Pe alt dispozitiv macOS sau iOS, deschideți **Obsidian**, mergeți la [[Gestionează seifurile|comutatorul de seifuri]] și selectați **Deschideți directorul ca seif**. Navigați la **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud poate fi folosit pentru a sincroniza seifuri între iOS și macOS. Totuș
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Pentru a verifica locația seifului dumneavoastră, deschideți aplicația **Files**, apăsați **Browse**, selectați **iCloud Drive** sub **Locations** și confirmați că seiful dumneavoastră se află în directorul **Obsidian**. Dacă seiful dumneavoastră se află într-o locație diferită, este posibil să întâmpinați probleme de sincronizare.
-
-> [!tip] Bune practici
-> - Pentru **macOS 14 (Sonoma) și versiuni anterioare**: Dezactivați **Optimize Mac Storage** din setările iCloud pentru a preveni descărcarea fișierelor de pe dispozitiv. Această setare afectează întreaga stocare iCloud a dispozitivului, nu doar Obsidian.
-> - Pentru **macOS 15 (Sequoia)**: Apăsați clic dreapta pe directorul **Obsidian** din iCloud Drive și selectați **Keep Downloaded**.
 
 ## OneDrive
 
@@ -90,7 +89,7 @@ iCloud poate fi folosit pentru a sincroniza seifuri între iOS și macOS. Totuș
 2. **Creați un seif nou în OneDrive**:
    - Pe Windows/macOS:
      1. Deschideți **File Explorer** (Windows) sau **Finder** (macOS) și navigați la **OneDrive → Documents**.
-     2. Creați un director nou (de exemplu, „Obsidian Vault”).
+     2. Creați un director nou (de exemplu, „Obsidian Vault").
      3. Deschideți **Obsidian**, selectați **Creare seif nou** și selectați directorul OneDrive.
 3. **Deschideți seiful pe alt dispozitiv**:
    - Pe alt dispozitiv, deschideți **Obsidian**, mergeți la [[Gestionează seifurile|comutatorul de seifuri]] și selectați **Deschideți directorul ca seif**. Navigați la **OneDrive → Documents**.
@@ -119,7 +118,7 @@ iCloud poate fi folosit pentru a sincroniza seifuri între iOS și macOS. Totuș
 2. **Creați un seif nou în Google Drive**:
     - Pe Windows/macOS:
         1. Deschideți **File Explorer** (Windows) sau **Finder** (macOS) și navigați la **Google Drive**.
-        2. Creați un director nou (de exemplu, „Obsidian Vault”).
+        2. Creați un director nou (de exemplu, „Obsidian Vault").
         3. Deschideți **Obsidian**, selectați **Creare seif nou** și selectați directorul Google Drive.
 3. **Deschideți seiful pe alt dispozitiv**:
     - Pe alt dispozitiv, deschideți **Obsidian**, mergeți la [[Gestionează seifurile|comutatorul de seifuri]] și selectați **Deschideți directorul ca seif**. Navigați la directorul dumneavoastră Google Drive.
@@ -227,7 +226,7 @@ Unii utilizatori au folosit cu succes module precum **Remotely Save** sau **Live
 
 Spre deosebire de unele aplicații de luat notițe care accesează câte un fișier o dată, Obsidian necesită acces la întregul seif pentru funcțiile sale (de exemplu, actualizarea legăturilor la redenumirea unui fișier). Acest lucru face dificilă funcționarea fiabilă a unor servicii cu Obsidian.
 
-**De ce trebuie să păstrez fișierele „Available Offline”?**
+**De ce trebuie să păstrez fișierele „Available Offline"?**
 
 Dacă serviciile precum OneDrive sau iCloud descarcă fișierele de pe dispozitiv (de exemplu, folosind **Files On-Demand** sau **Optimize Mac Storage**), Obsidian nu le mai poate accesa, cauzând probleme de sincronizare. Marcați directorul seifului dumneavoastră ca **Always keep on this device** (OneDrive) sau asigurați-vă că **Keep Downloaded** este activat (iCloud).
 
