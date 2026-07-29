@@ -44,7 +44,7 @@ Wenn du ein Problem meldest, gib die Build-Version und das Betriebssystem an, au
 
 ## Auf Desktop zu öffentlichen Versionen zurückkehren
 
-Um auf dem Desktop wieder öffentliche Versionen (keine Vorabversionen) zu verwenden:
+Um Vorabversionen zu deaktivieren und zur zuletzt installierten öffentlichen Version auf dem Desktop zurückzukehren:
 
 1. Deaktiviere Vorabversionen.
    1. Öffne **[[Einstellungen]]**.
@@ -56,10 +56,11 @@ Um auf dem Desktop wieder öffentliche Versionen (keine Vorabversionen) zu verwe
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Starte Obsidian neu.
+5. Falls Obsidian danach nicht auf der neuesten öffentlichen Version ist, aktualisiere die [[Obsidian aktualisieren#Installer-Aktualisierungen|Installer-Version]].
 
 ## Auf mobilen Geräten zu öffentlichen Versionen zurückkehren
 
-Um auf mobilen Geräten wieder öffentliche Versionen (keine Vorabversionen) zu verwenden:
+Um auf mobilen Geräten von einer Vorabversion auf die neueste öffentliche Version zurückzukehren:
 
 1. Sichere deine Vault-Daten
 2. Deinstalliere Obsidian

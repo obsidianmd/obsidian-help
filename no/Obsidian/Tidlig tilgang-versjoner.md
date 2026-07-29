@@ -44,7 +44,7 @@ Når du rapporterer et problem, inkluder byggversjonen og operativsystemet du kj
 
 ## Bytt tilbake til offentlige versjoner på skrivebord
 
-For å bytte tilbake til offentlige versjoner (ikke tidlig tilgang) på skrivebord:
+For å deaktivere tidlig tilgang-versjoner og gå tilbake til den sist installerte offentlige versjonen på skrivebord:
 
 1. Deaktiver tidlig tilgang-versjoner.
    1. Åpne **[[Innstillinger]]**.
@@ -56,10 +56,11 @@ For å bytte tilbake til offentlige versjoner (ikke tidlig tilgang) på skrivebo
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Start Obsidian på nytt.
+5. Hvis Obsidian ikke er på den nyeste offentlige versjonen etterpå, oppdater [[Oppdater Obsidian#Installasjonsprogramoppdateringer|installasjonsprogramversjonen]].
 
 ## Bytt tilbake til offentlige versjoner på mobil
 
-For å bytte tilbake til offentlige versjoner (ikke tidlig tilgang) på mobil:
+For å nedgradere fra en tidlig tilgang-versjon til den nyeste offentlige versjonen på mobil:
 
 1. Sikkerhetskopier hvelvdataene dine
 2. Avinstaller Obsidian

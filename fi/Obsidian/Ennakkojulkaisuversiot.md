@@ -44,7 +44,7 @@ Kun ilmoitat ongelmasta, mainitse käyttämäsi version numero ja käyttöjärje
 
 ## Vaihda takaisin julkisiin versioihin työpöytäsovelluksessa
 
-Vaihtaaksesi takaisin julkisiin versioihin (ei kokeiluversioihin) työpöydällä:
+Poistaaksesi kokeiluversiot käytöstä ja palataksesi viimeksi asennettuun julkiseen versioon työpöydällä:
 
 1. Poista kokeiluversiot käytöstä.
    1. Avaa **[[Asetukset]]**.
@@ -56,10 +56,11 @@ Vaihtaaksesi takaisin julkisiin versioihin (ei kokeiluversioihin) työpöydäll�
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSIO.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSIO.asar`
 4. Käynnistä Obsidian uudelleen.
+5. Jos Obsidian ei ole uusimmassa julkisessa versiossa tämän jälkeen, päivitä [[Obsidianin päivittäminen#Asennusohjelman päivitykset|asennusohjelman versio]].
 
 ## Vaihda takaisin julkisiin versioihin mobiilisovelluksessa
 
-Vaihtaaksesi takaisin julkisiin versioihin (ei kokeiluversioihin) mobiilissa:
+Palataksesi kokeiluversiosta uusimpaan julkiseen versioon mobiilissa:
 
 1. Varmuuskopioi holvisi tiedot.
 2. Poista Obsidian.

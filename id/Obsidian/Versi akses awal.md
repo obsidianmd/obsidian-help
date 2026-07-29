@@ -46,7 +46,7 @@ Saat melaporkan masalah, sertakan versi build dan OS yang Anda gunakan. Anda dap
 
 ## Beralih kembali ke versi publik di desktop
 
-Untuk beralih kembali menggunakan versi publik (bukan akses awal) di desktop:
+Untuk menonaktifkan versi akses awal dan kembali ke versi publik terakhir yang terpasang di desktop:
 
 1. Nonaktifkan versi akses awal.
    1. Buka **[[Pengaturan]]**.
@@ -58,10 +58,11 @@ Untuk beralih kembali menggunakan versi publik (bukan akses awal) di desktop:
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Mulai ulang Obsidian.
+5. Jika Obsidian tidak berada di versi publik terbaru setelahnya, perbarui [[Perbarui Obsidian#Pembaruan penginstal|versi penginstal]].
 
 ## Beralih kembali ke versi publik di seluler
 
-Untuk beralih kembali menggunakan versi publik (bukan akses awal) di seluler:
+Untuk menurunkan versi dari versi akses awal ke versi publik terbaru di seluler:
 
 1. Cadangkan data brankas Anda
 2. Hapus pemasangan Obsidian

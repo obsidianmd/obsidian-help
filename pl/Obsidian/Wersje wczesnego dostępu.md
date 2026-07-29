@@ -44,7 +44,7 @@ Zgłaszając problem, podaj wersję kompilacji oraz system operacyjny, na który
 
 ## Przywracanie wersji publicznych na komputerze
 
-Aby wrócić do korzystania z wersji publicznych (nie wczesnego dostępu) na komputerze:
+Aby wyłączyć wersje wczesnego dostępu i przywrócić ostatnią zainstalowaną wersję publiczną na komputerze:
 
 1. Wyłącz wersje wczesnego dostępu.
    1. Otwórz **[[Ustawienia]]**.
@@ -56,10 +56,11 @@ Aby wrócić do korzystania z wersji publicznych (nie wczesnego dostępu) na kom
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Uruchom ponownie Obsidian.
+5. Jeśli po tym Obsidian nie jest w najnowszej wersji publicznej, zaktualizuj [[Aktualizacja Obsidian#Aktualizacje instalatora|wersję instalatora]].
 
 ## Przywracanie wersji publicznych na urządzeniach mobilnych
 
-Aby wrócić do korzystania z wersji publicznych (nie wczesnego dostępu) na urządzeniu mobilnym:
+Aby przejść z wersji wczesnego dostępu na najnowszą wersję publiczną na urządzeniu mobilnym:
 
 1. Utwórz kopię zapasową danych sejfu
 2. Odinstaluj Obsidian

@@ -44,7 +44,7 @@ Bir sorun bildirirken, derleme sürümünü ve üzerinde çalıştırdığınız
 
 ## Masaüstünde genel sürümlere geri dönme
 
-Masaüstünde genel sürümlere (erken erişim değil) geri dönmek için:
+Erken erişim sürümlerini devre dışı bırakmak ve masaüstünde son yüklenen genel sürüme geri dönmek için:
 
 1. Erken erişim sürümlerini devre dışı bırakın.
    1. **[[Ayarlar]]**'ı açın.
@@ -56,10 +56,11 @@ Masaüstünde genel sürümlere (erken erişim değil) geri dönmek için:
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Obsidian'ı yeniden başlatın.
+5. Obsidian daha sonra en son genel sürümde değilse, [[Obsidian'ı güncelleme#Yükleyici güncellemeleri|yükleyici sürümünü]] güncelleyin.
 
 ## Mobilde genel sürümlere geri dönme
 
-Mobilde genel sürümlere (erken erişim değil) geri dönmek için:
+Mobilde erken erişim sürümünden en son genel sürüme geçmek için:
 
 1. Kasa verilerinizi yedekleyin
 2. Obsidian'ı kaldırın

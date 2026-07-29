@@ -44,7 +44,7 @@ Vermeld bij het melden van een probleem de buildversie en het besturingssysteem 
 
 ## Terugschakelen naar openbare versies op desktop
 
-Om terug te schakelen naar openbare versies (geen vroege-toegangsversies) op desktop:
+Om vroege-toegangsversies uit te schakelen en terug te keren naar je laatst geïnstalleerde openbare versie op desktop:
 
 1. Schakel vroege-toegangsversies uit.
    1. Open **[[Instellingen]]**.
@@ -56,10 +56,11 @@ Om terug te schakelen naar openbare versies (geen vroege-toegangsversies) op des
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Start Obsidian opnieuw op.
+5. Als Obsidian daarna niet op de nieuwste openbare versie staat, werk dan de [[Obsidian updaten#Installatieprogramma-updates|versie van het installatieprogramma]] bij.
 
 ## Terugschakelen naar openbare versies op mobiel
 
-Om terug te schakelen naar openbare versies (geen vroege-toegangsversies) op mobiel:
+Om te downgraden van een vroege-toegangsversie naar de nieuwste openbare versie op mobiel:
 
 1. Maak een back-up van je kluisgegevens
 2. Verwijder Obsidian

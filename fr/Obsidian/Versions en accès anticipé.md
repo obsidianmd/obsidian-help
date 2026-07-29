@@ -47,7 +47,7 @@ Lorsque vous signalez un problème, indiquez la version du build et le système 
 
 ## Revenir aux versions publiques sur ordinateur
 
-Pour revenir aux versions publiques (et non en accès anticipé) sur ordinateur :
+Pour désactiver les versions en accès anticipé et revenir à la dernière version publique installée sur ordinateur :
 
 1. Désactivez les versions en accès anticipé.
    1. Ouvrez les **[[Paramètres]]**.
@@ -59,10 +59,11 @@ Pour revenir aux versions publiques (et non en accès anticipé) sur ordinateur 
    - Mac : `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux : `~/.config/obsidian/obsidian-VERSION.asar`
 4. Redémarrez Obsidian.
+5. Si Obsidian n'est pas sur la dernière version publique après cela, mettez à jour la [[Mettre à jour Obsidian#Mises à jour du programme d'installation|version du programme d'installation]].
 
 ## Revenir aux versions publiques sur mobile
 
-Pour revenir aux versions publiques (et non en accès anticipé) sur mobile :
+Pour rétrograder d'une version en accès anticipé vers la dernière version publique sur mobile :
 
 1. Sauvegardez les données de votre coffre
 2. Désinstallez Obsidian

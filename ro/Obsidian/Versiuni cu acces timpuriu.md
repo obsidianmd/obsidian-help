@@ -3,7 +3,6 @@ permalink: early-access
 aliases:
   - Early access versions
 ---
-
 Obține acces timpuriu la lansările viitoare activând _versiunile cu acces timpuriu_. Versiunile cu acces timpuriu sunt disponibile doar utilizatorilor cu o [[Licența Catalyst]].
 
 > [!warning] Avertisment
@@ -47,7 +46,7 @@ Când raportezi o problemă, include versiunea de build și sistemul de operare 
 
 ## Revino la versiunile publice pe desktop
 
-Pentru a reveni la versiunile publice (nu de acces timpuriu) pe desktop:
+Pentru a dezactiva versiunile cu acces timpuriu și a reveni la ultima versiune publică instalată pe desktop:
 
 1. Dezactivează versiunile cu acces timpuriu.
    1. Deschide **[[Setări]]**.
@@ -59,10 +58,11 @@ Pentru a reveni la versiunile publice (nu de acces timpuriu) pe desktop:
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Repornește Obsidian.
+5. Dacă Obsidian nu este la ultima versiune publică după aceea, actualizează [[Actualizează Obsidian#Installer updates|versiunea pachetului de instalare]].
 
 ## Revino la versiunile publice pe mobil
 
-Pentru a reveni la versiunile publice (nu de acces timpuriu) pe mobil:
+Pentru a retrograda de la o versiune cu acces timpuriu la ultima versiune publică pe mobil:
 
 1. Fă o copie de rezervă a datelor seifului tău
 2. Dezinstalează Obsidian

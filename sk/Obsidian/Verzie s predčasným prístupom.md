@@ -44,7 +44,7 @@ Pri nahlasovaní problému uveďte verziu zostavy a operačný systém, na ktoro
 
 ## Prepnutie späť na verejné verzie na desktope
 
-Ak chcete prepnúť späť na používanie verejných verzií (nie verzií s predčasným prístupom) na desktope:
+Ak chcete vypnúť verzie s predčasným prístupom a vrátiť sa na poslednú nainštalovanú verejnú verziu na desktope:
 
 1. Vypnite verzie s predčasným prístupom.
    1. Otvorte **[[Nastavenia]]**.
@@ -56,10 +56,11 @@ Ak chcete prepnúť späť na používanie verejných verzií (nie verzií s pre
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Reštartujte Obsidian.
+5. Ak Obsidian potom nie je na najnovšej verejnej verzii, aktualizujte [[Aktualizácia Obsidianu#Aktualizácie inštalátora|verziu inštalátora]].
 
 ## Prepnutie späť na verejné verzie na mobile
 
-Ak chcete prepnúť späť na používanie verejných verzií (nie verzií s predčasným prístupom) na mobile:
+Ak chcete prejsť z verzie s predčasným prístupom na najnovšiu verejnú verziu na mobile:
 
 1. Zálohujte dáta vášho trezora
 2. Odinštalujte Obsidian

@@ -44,7 +44,7 @@ Quan informeu d'un problema, incloeu la versió de compilació i el sistema oper
 
 ## Tornar a les versions públiques a l'escriptori
 
-Per tornar a utilitzar les versions públiques (no d'accés anticipat) a l'escriptori:
+Per desactivar les versions d'accés anticipat i tornar a l'última versió pública instal·lada a l'escriptori:
 
 1. Desactiveu les versions d'accés anticipat.
    1. Obriu **[[Configuració]]**.
@@ -56,10 +56,11 @@ Per tornar a utilitzar les versions públiques (no d'accés anticipat) a l'escri
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Reinicieu Obsidian.
+5. Si Obsidian no es troba a l'última versió pública després d'això, actualitzeu la [[Actualitzar Obsidian#Actualitzacions de l'instal·lador|versió de l'instal·lador]].
 
 ## Tornar a les versions públiques al mòbil
 
-Per tornar a utilitzar les versions públiques (no d'accés anticipat) al mòbil:
+Per tornar d'una versió d'accés anticipat a l'última versió pública al mòbil:
 
 1. Feu una còpia de seguretat de les dades de la vostra cambra forta
 2. Desinstal·leu Obsidian

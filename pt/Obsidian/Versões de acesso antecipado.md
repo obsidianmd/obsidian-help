@@ -44,7 +44,7 @@ Ao reportar um problema, inclua a versão de compilação e o sistema operativo 
 
 ## Voltar às versões públicas no computador
 
-Para voltar a utilizar versões públicas (não de acesso antecipado) no computador:
+Para desativar as versões de acesso antecipado e reverter para a última versão pública instalada no computador:
 
 1. Desative as versões de acesso antecipado.
    1. Abra as **[[Definições]]**.
@@ -56,10 +56,11 @@ Para voltar a utilizar versões públicas (não de acesso antecipado) no computa
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Reinicie o Obsidian.
+5. Se o Obsidian não estiver na última versão pública depois disto, atualize a [[Atualizar o Obsidian#Atualizações do instalador|versão do instalador]].
 
 ## Voltar às versões públicas no móvel
 
-Para voltar a utilizar versões públicas (não de acesso antecipado) no móvel:
+Para fazer downgrade de uma versão de acesso antecipado para a última versão pública no móvel:
 
 1. Faça cópia de segurança dos dados do seu cofre
 2. Desinstale o Obsidian

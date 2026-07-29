@@ -46,7 +46,7 @@ Cuando reportes un problema, incluye la versión de compilación y el sistema op
 
 ## Volver a las versiones públicas en escritorio
 
-Para volver a usar las versiones públicas (no de acceso anticipado) en escritorio:
+Para deshabilitar las versiones de acceso anticipado y volver a la última versión pública instalada en escritorio:
 
 1. Deshabilita las versiones de acceso anticipado.
    1. Abre **[[Configuración]]**.
@@ -58,10 +58,11 @@ Para volver a usar las versiones públicas (no de acceso anticipado) en escritor
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Reinicia Obsidian.
+5. Si Obsidian no está en la última versión pública después de esto, actualiza la [[Actualizar Obsidian#Actualizaciones del instalador|versión del instalador]].
 
 ## Volver a las versiones públicas en móvil
 
-Para volver a usar las versiones públicas (no de acceso anticipado) en móvil:
+Para volver de una versión de acceso anticipado a la última versión pública en móvil:
 
 1. Respalda los datos de tu bóveda
 2. Desinstala Obsidian
