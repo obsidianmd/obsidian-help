@@ -48,7 +48,7 @@ When you report an issue, include the build version and the OS you're running it
 
 ## Switch back to public versions on desktop
 
-To downgrade from an early access version to the latest public version on desktop:
+To disable early access versions and revert to your last installed public version on desktop:
 
 1. Disable early access versions.
    1. Open **[[Settings]]**.
@@ -60,6 +60,7 @@ To downgrade from an early access version to the latest public version on deskto
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Restart Obsidian.
+5. If Obsidian isn't on the latest public version afterward, update the [[Update Obsidian#Installer updates|installer version]].
 
 ## Switch back to public versions on mobile
 
