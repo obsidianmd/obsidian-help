@@ -47,7 +47,7 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
 **How to create and store your vault in iCloud Drive**:
 
 - **Enable iCloud Drive**:
-    - On macOS: Go to **System Preferences → Apple ID → iCloud → iCloud Drive**.
+    - On macOS: Go to **System Settings → Apple ID → iCloud → iCloud Drive**.
     - On iOS: Go to **Settings → [Your Name] → iCloud → iCloud Drive**.
 - **Create a new vault in iCloud**:
     - On macOS:
@@ -60,7 +60,7 @@ iCloud can be used to sync vaults between iOS and macOS. However, **iCloud Drive
         2. Enter a name for your vault.
         3. Toggle on **Store in iCloud**.
         4. Tap **Create**.
-- **Keep the vault folder downloaded** (optional, but strongly recommended before your vault grows large): If iCloud offloads your files to save space, Obsidian can't access them until they're downloaded again, which can cause sync issues.
+- **Keep the vault folder downloaded** (optional, but strongly recommended before your vault grows large):
     - On macOS 15 (Sequoia) and later: Right-click the **Obsidian** folder in iCloud Drive and select **Keep Downloaded**.
     - On macOS 14 (Sonoma) and earlier: Disable **Optimize Mac Storage** in iCloud settings. This setting affects all iCloud storage on the device, not just Obsidian.
 - **Open the vault on another Apple device**: 
