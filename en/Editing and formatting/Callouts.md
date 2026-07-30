@@ -93,7 +93,7 @@ To define a custom callout, create the following CSS block:
 
 The value of the `data-callout` attribute is the type identifier you want to use, for example `[!custom-question-type]`.
 
-- `--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
+- `--callout-color` defines the background color. Any valid CSS color works, for example a hex code (`#000000`) or an `rgb()` value.
 - `--callout-icon` can be an icon ID from [lucide.dev](https://lucide.dev), or an SVG element. 
 
 > [!warning] Note about lucide icon versions
@@ -106,6 +106,28 @@ The value of the `data-callout` attribute is the type identifier you want to use
 > ```css
 > --callout-icon: '<svg>...custom svg...</svg>';
 > ```
+
+> [!tip]- Further customization
+> You're not limited to `--callout-color` and `--callout-icon`. Callouts support standard CSS selectors and properties, along with additional CSS variables for things like border and title styling.
+> 
+> For example, hide a callout's title:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Or adjust its border:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> See the full list of [callout CSS variables](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) for more options.
 
 ### Supported types
 
