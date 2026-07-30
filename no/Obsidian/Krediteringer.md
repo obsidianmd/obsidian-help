@@ -145,7 +145,7 @@ Lisensiert under [Mozilla Public License versjon 2.0](http://mozilla.org/MPL/2.0
 
 ### Electron
 
-Versjon `37.3.0`
+Versjon `43.1.1`
 MIT-lisens
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -172,13 +172,13 @@ Apache-lisens 2.0
 
 ### Mermaid
 
-Versjon `11.4.1`
+Versjon `11.13.0`
 MIT-lisens
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Versjon `2.29.4`
+Versjon `2.30.1`
 MIT-lisens
 Copyright (c) JS Foundation and other contributors
 

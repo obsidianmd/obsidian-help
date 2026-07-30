@@ -145,7 +145,7 @@ Licencované pod [Mozilla Public License version 2.0](http://mozilla.org/MPL/2.0
 
 ### Electron
 
-Verzia `37.3.0`
+Verzia `43.1.1`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -172,13 +172,13 @@ Apache License 2.0
 
 ### Mermaid
 
-Verzia `11.4.1`
+Verzia `11.13.0`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Verzia `2.29.4`
+Verzia `2.30.1`
 MIT License
 Copyright (c) JS Foundation and other contributors
 
