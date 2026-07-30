@@ -83,7 +83,7 @@ Aby zdefiniować niestandardowy blok wyróżnienia, utwórz następujący blok C
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: #000000;
+    --callout-color: 0, 0, 0;
     --callout-icon: lucide-alert-circle;
 }
 ```
