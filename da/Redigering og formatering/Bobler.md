@@ -7,7 +7,6 @@ aliases:
   - bobler
   - Redigering og formatering/Bobler
 ---
-
 Brug bobler til at inkludere yderligere indhold i dine noter uden af afbryde læseflowet.
 
 For at oprette en boble i en note skal du tilføje `[!info]` til den første linje i et citat, hvor `info` er _typen af boble_. Typen angiver hvordan boblen skal se ud. Læs om de tilgængelige typer i afsnittet [[#Understøttede typer|understøttede typer]]. [[Introduktion til Obsidian Publish|Obsidian Publish]] understøtter bobler.
@@ -86,14 +85,14 @@ Du kan oprette en brugerdefineret boble ved at anvende følgende CSS blok:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 `data-callout` værdien er det typenavn, som du vil anvende, fx. `[!custom-question-type]`.
 
-- `--callout-color` definerer baggrundfarven i RGB værdier mellem (0–255) for rød, grøn, og blå
+- `--callout-color` definerer baggrundsfarven. Enhver gyldig CSS-farve kan bruges, f.eks. en hex-kode (`#000000`) eller en `rgb()`-værdi.
 - `--callout-icon` kan være et ikon ID fra [lucide.dev](https://lucide.dev), eller et SVG element
 
 > [!warning] Note omkring ikonversioner af lucide
@@ -106,6 +105,28 @@ Du kan oprette en brugerdefineret boble ved at anvende følgende CSS blok:
 > ```css
 > --callout-icon: '<svg>...custom svg...</svg>';
 > ```
+
+> [!tip]- Yderligere tilpasning
+> Du er ikke begrænset til `--callout-color` og `--callout-icon`. Bobler understøtter standard CSS-selektorer og egenskaber samt yderligere CSS-variabler til ting som kant- og titelformatering.
+> 
+> For eksempel kan du skjule en bobles titel:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Eller justere dens kant:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Se den fulde liste over [callout CSS-variabler](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) for flere muligheder.
 
 ### Understøttede typer
 

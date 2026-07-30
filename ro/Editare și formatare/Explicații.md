@@ -6,7 +6,6 @@ description: Această pagină detaliază modul de utilizare a explicațiilor pen
 aliases:
   - Callouts
 ---
-
 Folosiți explicații pentru a include conținut suplimentar fără a întrerupe fluxul notelor dvs.
 
 Pentru a crea o explicație, adăugați `[!info]` pe primul rând al unui citat, unde `info` este _identificatorul de tip_. Identificatorul de tip determină aspectul și comportamentul explicației. Pentru a vedea toate tipurile disponibile, consultați [[#Supported types]]. Explicațiile sunt de asemenea acceptate nativ pe [[Introducere în Obsidian Publish|Obsidian Publish]].
@@ -86,14 +85,14 @@ Pentru a defini o explicație personalizată, creați următorul bloc CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Valoarea atributului `data-callout` este identificatorul de tip pe care doriți să îl folosiți, de exemplu `[!custom-question-type]`.
 
-- `--callout-color` definește culoarea de fundal folosind numere (0–255) pentru roșu, verde și albastru.
+- `--callout-color` definește culoarea de fundal. Orice culoare CSS validă funcționează, de exemplu un cod hex (`#000000`) sau o valoare `rgb()`.
 - `--callout-icon` poate fi un ID de pictogramă de la [lucide.dev](https://lucide.dev), sau un element SVG. 
 
 > [!warning] Notă despre versiunile pictogramelor lucide
@@ -106,6 +105,28 @@ Valoarea atributului `data-callout` este identificatorul de tip pe care doriți 
 > ```css
 > --callout-icon: '<svg>...custom svg...</svg>';
 > ```
+
+> [!tip]- Personalizare suplimentară
+> Nu sunteți limitați la `--callout-color` și `--callout-icon`. Explicațiile acceptă selectori și proprietăți CSS standard, împreună cu variabile CSS suplimentare pentru lucruri precum stilizarea marginilor și a titlului.
+> 
+> De exemplu, ascundeți titlul unei explicații:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Sau ajustați-i marginea:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Consultați lista completă de [variabile CSS pentru explicații](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) pentru mai multe opțiuni.
 
 ### Tipuri acceptate
 

@@ -85,14 +85,14 @@ Per definire un riquadro personalizzato, crea il seguente blocco CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Il valore dell'attributo `data-callout` è l'identificatore di tipo che desideri utilizzare, ad esempio `[!custom-question-type]`.
 
-- `--callout-color` definisce il colore di sfondo usando numeri (0–255) per rosso, verde e blu.
+- `--callout-color` definisce il colore di sfondo. Qualsiasi colore CSS valido funziona, ad esempio un codice esadecimale (`#000000`) o un valore `rgb()`.
 - `--callout-icon` può essere un ID icona da [lucide.dev](https://lucide.dev) o un elemento SVG.
 
 > [!warning] Nota sulle versioni delle icone lucide
@@ -105,6 +105,28 @@ Il valore dell'attributo `data-callout` è l'identificatore di tipo che desideri
 > ```css
 > --callout-icon: '<svg>...svg personalizzato...</svg>';
 > ```
+
+> [!tip]- Personalizzazione avanzata
+> Non sei limitato a `--callout-color` e `--callout-icon`. I riquadri supportano selettori e proprietà CSS standard, oltre a variabili CSS aggiuntive per elementi come bordi e stile del titolo.
+> 
+> Ad esempio, per nascondere il titolo di un riquadro:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Oppure per modificare il suo bordo:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Consulta l'elenco completo delle [variabili CSS per i callout](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) per ulteriori opzioni.
 
 ### Tipi supportati
 

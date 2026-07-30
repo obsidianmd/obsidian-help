@@ -83,14 +83,14 @@ Egyéni felhívás definiálásához hozza létre a következő CSS blokkot:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 A `data-callout` attribútum értéke a használni kívánt típusazonosító, például `[!custom-question-type]`.
 
-- A `--callout-color` a háttérszínt határozza meg számokkal (0–255) a piros, zöld és kék értékekhez.
+- A `--callout-color` a háttérszínt határozza meg. Bármilyen érvényes CSS szín használható, például hexadecimális kód (`#000000`) vagy `rgb()` érték.
 - A `--callout-icon` lehet egy ikon-azonosító a [lucide.dev](https://lucide.dev) oldalról, vagy egy SVG elem.
 
 > [!warning] Megjegyzés a lucide ikonverziókról
@@ -103,6 +103,28 @@ A `data-callout` attribútum értéke a használni kívánt típusazonosító, p
 > ```css
 > --callout-icon: '<svg>...egyéni svg...</svg>';
 > ```
+
+> [!tip]- További testreszabás
+> Nem korlátozódik a `--callout-color` és `--callout-icon` tulajdonságokra. A felhívások támogatják a szabványos CSS szelektorokat és tulajdonságokat, valamint további CSS változókat például a keret és a cím stílusának beállításához.
+> 
+> Például a felhívás címének elrejtése:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Vagy a keret módosítása:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> A további lehetőségekért tekintse meg a [felhívás CSS változók](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) teljes listáját.
 
 ### Támogatott típusok
 

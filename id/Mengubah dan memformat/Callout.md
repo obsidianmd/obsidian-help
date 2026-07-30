@@ -85,14 +85,14 @@ Untuk mendefinisikan callout kustom, buat blok CSS berikut:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Nilai atribut `data-callout` adalah pengenal tipe yang ingin Anda gunakan, misalnya `[!custom-question-type]`.
 
-- `--callout-color` mendefinisikan warna latar belakang menggunakan angka (0–255) untuk merah, hijau, dan biru.
+- `--callout-color` mendefinisikan warna latar belakang. Warna CSS yang valid dapat digunakan, misalnya kode hex (`#000000`) atau nilai `rgb()`.
 - `--callout-icon` dapat berupa ID ikon dari [lucide.dev](https://lucide.dev), atau elemen SVG.
 
 > [!warning] Catatan tentang versi ikon lucide
@@ -105,6 +105,28 @@ Nilai atribut `data-callout` adalah pengenal tipe yang ingin Anda gunakan, misal
 > ```css
 > --callout-icon: '<svg>...svg kustom...</svg>';
 > ```
+
+> [!tip]- Kustomisasi lebih lanjut
+> Anda tidak terbatas pada `--callout-color` dan `--callout-icon`. Callout mendukung selektor dan properti CSS standar, serta variabel CSS tambahan untuk hal-hal seperti border dan gaya judul.
+> 
+> Misalnya, menyembunyikan judul callout:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Atau menyesuaikan border-nya:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Lihat daftar lengkap [variabel CSS callout](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) untuk opsi lainnya.
 
 ### Tipe yang didukung
 
