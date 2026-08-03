@@ -29,12 +29,12 @@ The **Scorecard** tab shows automated health and review metrics for the entry.
 
 An overall health rating, such as Excellent, is broken down into hygiene (whether a README, license, contributing guide, and description are present), maintenance (recent commit and release activity), responsiveness (how many issues have been closed and how many contributors have been active recently), and adoption (installation and star counts).
 
-The review section shows the result of the latest automated scan, such as Passed, grouped into passed checks (for example no known vulnerable dependencies, no obfuscated code, verified GitHub artifact attestations, and which Obsidian APIs the entry uses, such as Vault Read or Vault Write), disclosures (things the entry does that aren't necessarily issues but that you should be aware of, such as making requests to external domains), and other notes (such as using browser storage instead of Obsidian's plugin data APIs).
+The review section shows the result of the latest automated scan, such as Passed, grouped into passed checks (for example no known vulnerable dependencies, no obfuscated code, verified GitHub artifact attestations, and which Obsidian APIs the entry uses, such as Vault Read or Vault Write), disclosures (things the entry does that aren't necessarily issues but that you should be aware of, such as accessing your clipboard or making requests to external domains), and other notes (such as using browser storage instead of Obsidian's plugin data APIs).
 
 > [!info]+ Interpreting a lower score
 > A plugin or theme with a lower health or review score isn't necessarily unsafe, but it's worth a closer look at its disclosures before installing. Think of it like a traffic light: 
 > - 🟢 Few or no disclosures means low risk
-> - 🟡 A handful of disclosures is worth a quick read
+> - 🟡 A handful of disclosures, worth checking for things like clipboard or network access
 > - 🔴 Several disclosures or warnings means you should carefully review what the entry does before installing it.
 
 ## Updates
