@@ -11,6 +11,7 @@ Apps come and go, but your data should last. Obsidian uses non-proprietary plain
 ## Import from other apps and file formats
 
 - <span class="icon-app icon-notion"></span> [[Import from Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Import from Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Import from Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Import from Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Import from Apple Notes|Apple Notes]]
