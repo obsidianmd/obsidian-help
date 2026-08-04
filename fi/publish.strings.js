@@ -1,4 +1,5 @@
 // Locale UI strings — Finnish
+window.LANG_SWITCHER_STRINGS = { search: "Vaihda kieltä...", noResults: "Ei tuloksia" };
 (function () {
   function apply() {
     var el;

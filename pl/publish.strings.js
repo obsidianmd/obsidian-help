@@ -1,4 +1,5 @@
 // Locale UI strings — Polish
+window.LANG_SWITCHER_STRINGS = { search: "Zmień język...", noResults: "Brak wyników" };
 (function () {
   function apply() {
     var el;

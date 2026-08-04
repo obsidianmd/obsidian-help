@@ -1,4 +1,5 @@
 // Locale UI strings — Catalan
+window.LANG_SWITCHER_STRINGS = { search: "Canvia d'idioma...", noResults: "Cap resultat" };
 (function () {
   function apply() {
     var el;

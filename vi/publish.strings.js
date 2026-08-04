@@ -1,4 +1,5 @@
 // Locale UI strings — Vietnamese
+window.LANG_SWITCHER_STRINGS = { search: "Đổi ngôn ngữ...", noResults: "Không có kết quả" };
 (function () {
   function apply() {
     var el;

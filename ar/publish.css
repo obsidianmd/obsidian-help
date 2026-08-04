@@ -489,19 +489,79 @@ img[src$="#outline"] {
   border: 1px solid var(--color-base-30);
   border-radius: var(--radius-m);
   box-shadow: var(--shadow-s);
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  flex-direction: column;
+  display: flex;
+  /* The search row is pinned; only the list below it scrolls. */
+  max-height: min(400px, 80vh);
+  min-width: 220px;
+  overflow: hidden;
+}
+
+.lang-switcher-search-row {
+  display: flex;
+  align-items: center;
+  gap: var(--size-2-3);
+  flex-shrink: 0;
+  padding: var(--size-2-3) var(--size-2-3);
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.lang-switcher-search-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--text-faint);
+}
+
+/* Reset the Publish input chrome: inside a menu, a filled bordered field reads
+   as a second nested box. */
+.lang-switcher-menu .lang-switcher-search,
+.lang-switcher-menu .lang-switcher-search:hover,
+.lang-switcher-menu .lang-switcher-search:focus,
+.lang-switcher-menu .lang-switcher-search:focus-visible {
+  flex: 1;
+  min-width: 0;
+  padding: 0;
+  height: auto;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  color: var(--text-normal);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.lang-switcher-menu .lang-switcher-search::placeholder {
+  color: var(--text-faint);
+}
+
+.lang-switcher-list {
   list-style: none;
   margin: 0;
   padding: var(--size-2-2);
-  z-index: 100;
+  display: flex;
   flex-direction: column;
   gap: var(--size-2-1);
-  display: flex;
-  max-height: min(400px, 80vh);
-  overflow: auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
-.lang-switcher-menu li {
+.lang-switcher-list li {
   margin: 0;
+}
+
+.lang-switcher-empty {
+  padding: 0.375rem 0.75rem;
+  color: var(--text-faint);
+  font-size: var(--font-ui-small);
+  white-space: nowrap;
 }
 
 .lang-switcher-menu a {
@@ -510,16 +570,20 @@ img[src$="#outline"] {
   border-radius: var(--radius-s);
   white-space: nowrap;
   color: var(--text-muted);
-  font-size: 14px;
+  font-size: var(--font-ui-small);
+  font-weight: 400;
   text-decoration: none;
 }
 
 .lang-switcher-menu a.is-active {
   font-weight: 500;
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
 }
 
-.lang-switcher-menu a.is-active,
-.lang-switcher-menu a:hover {
+/* One highlight at a time: pointer movement sets .is-highlighted too, so a
+   stationary cursor can't mark a second row while the arrow keys move. */
+.lang-switcher-menu a.is-highlighted {
   background: var(--background-modifier-hover);
   color: var(--text-normal);
 }
@@ -559,7 +623,8 @@ img[src$="#outline"] {
 .lang-switcher-header .lang-switcher-menu {
   left: auto;
   right: 0;
-  min-width: 120px;
+  /* Wider than the old 120px: the menu now has to fit a search row. */
+  min-width: 220px;
 }
 
 /*# sourceMappingURL=publish.css.map */

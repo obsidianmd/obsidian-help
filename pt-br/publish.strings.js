@@ -1,4 +1,5 @@
 // Locale UI strings — Brazilian Portuguese
+window.LANG_SWITCHER_STRINGS = { search: "Mudar idioma...", noResults: "Nenhum resultado" };
 (function () {
   function apply() {
     var el;

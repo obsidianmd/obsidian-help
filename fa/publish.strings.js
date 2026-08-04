@@ -1,4 +1,5 @@
 // Locale UI strings — Persian (Farsi)
+window.LANG_SWITCHER_STRINGS = { search: "تغییر زبان...", noResults: "نتیجه‌ای یافت نشد" };
 (function () {
   function apply() {
     var el;

@@ -1,4 +1,5 @@
 // Locale UI strings — Dutch
+window.LANG_SWITCHER_STRINGS = { search: "Taal wijzigen...", noResults: "Geen resultaten" };
 (function () {
   function apply() {
     var el;

@@ -1,4 +1,5 @@
 // Locale UI strings — Turkish
+window.LANG_SWITCHER_STRINGS = { search: "Dili değiştir...", noResults: "Sonuç yok" };
 (function () {
   function apply() {
     var el;

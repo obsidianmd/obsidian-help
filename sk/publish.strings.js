@@ -1,4 +1,5 @@
 // Locale UI strings — Slovak
+window.LANG_SWITCHER_STRINGS = { search: "Zmeniť jazyk...", noResults: "Žiadne výsledky" };
 (function () {
   function apply() {
     var el;

@@ -21,16 +21,20 @@ const src = path.join(ROOT, "en", "publish.js");
 const localesJsonPath = path.join(import.meta.dirname, "locales.json");
 
 // --- Step 1: Sync LOCALES block in en/publish.js from locales.json ---
-type LocaleDef = { code: string; dir?: string; label: string; base: string };
+// `english` feeds the switcher's search box, so someone stranded on a page in a
+// script they cannot read can still type "german" to find Deutsch.
+type LocaleDef = { code: string; dir?: string; label: string; english: string; base: string };
 const localeDefs: LocaleDef[] = JSON.parse(fs.readFileSync(localesJsonPath, "utf8"));
 
-const maxCode  = Math.max(...localeDefs.map(l => l.code.length));
-const maxLabel = Math.max(...localeDefs.map(l => l.label.length));
+const maxCode    = Math.max(...localeDefs.map(l => l.code.length));
+const maxLabel   = Math.max(...localeDefs.map(l => l.label.length));
+const maxEnglish = Math.max(...localeDefs.map(l => l.english.length));
 
 const localesBlock = localeDefs.map(l => {
-  const codePad  = " ".repeat(maxCode  - l.code.length);
-  const labelPad = " ".repeat(maxLabel - l.label.length);
-  return `    { code: '${l.code}',${codePad} label: '${l.label}',${labelPad} base: '${l.base}' },`;
+  const codePad    = " ".repeat(maxCode    - l.code.length);
+  const labelPad   = " ".repeat(maxLabel   - l.label.length);
+  const englishPad = " ".repeat(maxEnglish - l.english.length);
+  return `    { code: '${l.code}',${codePad} label: '${l.label}',${labelPad} english: '${l.english}',${englishPad} base: '${l.base}' },`;
 }).join("\n");
 
 const newLocalesSection = `  const LOCALES = [\n${localesBlock}\n  ];`;
