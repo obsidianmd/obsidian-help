@@ -8,6 +8,7 @@ Aplikasi datang dan pergi, tetapi data Anda harus bertahan. Obsidian menggunakan
 ## Impor dari aplikasi dan format file lain
 
 - <span class="icon-app icon-notion"></span> [[Impor dari Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Impor dari Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Impor dari Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Impor dari Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Impor dari Apple Notes|Apple Notes]]

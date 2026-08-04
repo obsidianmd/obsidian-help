@@ -1,86 +1,322 @@
-[heading.bases/syntax/Example]
+[heading.bases/Example]
 original=Example
 translation=Eksempel
 
-[heading.bases/syntax/Filters]
+[heading.bases/Filters]
 original=Filters
 translation=Filtre
 
-[heading.bases/syntax/Formulas]
+[heading.bases/Formulas]
 original=Formulas
 translation=Formler
 
-[heading.bases/syntax/Properties]
+[heading.bases/Properties]
 original=Properties
 translation=Egenskaper
 
-[heading.bases/syntax/Summaries]
+[heading.bases/Summaries]
 original=Summaries
 translation=Sammendrag
 
-[heading.bases/syntax/Default Summary Formulas]
+[heading.bases/Default Summary Formulas]
 original=Default Summary Formulas
 translation=Standard sammendragsformler
 
-[heading.bases/syntax/Views]
+[heading.bases/Views]
 original=Views
 translation=Visninger
 
-[heading.bases/syntax/Note properties]
+[heading.bases/Note properties]
 original=Note properties
 translation=Notategenskaper
 
-[heading.bases/syntax/File properties]
+[heading.bases/File properties]
 original=File properties
 translation=Filegenskaper
 
-[heading.bases/syntax/Access properties with `this`]
+[heading.bases/Access properties with `this`]
 original=Access properties with `this`
 translation=Tilgang til egenskaper med `this`
 
-[heading.bases/syntax/Operators]
+[heading.bases/Operators]
 original=Operators
 translation=Operatorer
 
-[heading.bases/syntax/Arithmetic operators]
+[heading.bases/Arithmetic operators]
 original=Arithmetic operators
 translation=Aritmetiske operatorer
 
-[heading.bases/syntax/Date arithmetic]
+[heading.bases/Date arithmetic]
 original=Date arithmetic
 translation=Datoaritmetikk
 
-[heading.bases/syntax/Comparison operators]
+[heading.bases/Comparison operators]
 original=Comparison operators
 translation=Sammenligningsoperatorer
 
-[heading.bases/syntax/Boolean operators]
+[heading.bases/Boolean operators]
 original=Boolean operators
 translation=Boolske operatorer
 
-[heading.bases/syntax/Functions]
+[heading.bases/Functions]
 original=Functions
 translation=Funksjoner
 
-[heading.bases/syntax/Types]
+[heading.bases/Types]
 original=Types
 translation=Typer
 
-[heading.bases/syntax/Strings, numbers, and booleans]
+[heading.bases/Strings, numbers, and booleans]
 original=Strings, numbers, and booleans
 translation=Strenger, tall og boolske verdier
 
-[heading.bases/syntax/Dates and durations]
+[heading.bases/Dates and durations]
 original=Dates and durations
 translation=Datoer og varigheter
 
-[heading.bases/syntax/Objects and lists]
+[heading.bases/Objects and lists]
 original=Objects and lists
 translation=Objekter og lister
 
-[heading.bases/syntax/Files and links]
+[heading.bases/Files and links]
 original=Files and links
 translation=Filer og lenker
+
+[heading.bases/Global]
+original=Global
+translation=Globale
+
+[heading.bases/Any]
+original=Any
+translation=Alle typer
+
+[heading.bases/Date]
+original=Date
+translation=Dato
+
+[heading.bases/Fields]
+original=Fields
+translation=Felter
+
+[heading.bases/String]
+original=String
+translation=Streng
+
+[heading.bases/Number]
+original=Number
+translation=Tall
+
+[heading.bases/List]
+original=List
+translation=Liste
+
+[heading.bases/Link]
+original=Link
+translation=Lenke
+
+[heading.bases/File]
+original=File
+translation=Fil
+
+[heading.bases/Object]
+original=Object
+translation=Objekt
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=Regulært uttrykk
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Slik bruker du Bases
+
+[heading.bases/View types]
+original=View types
+translation=Visningstyper
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=Opprett en ny base
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=Bygg inn en base
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=Bygg inn en basefil
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Bygg inn en base som en kodeblokk
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Installer Maps-utvidelsen
+
+[heading.bases/Settings]
+original=Settings
+translation=Innstillinger
+
+[heading.bases/Markers]
+original=Markers
+translation=Markører
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=Koordinater
+
+[heading.bases/Icons]
+original=Icons
+translation=Ikoner
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Bruk en formel for å definere ikoner
+
+[heading.bases/Colors]
+original=Colors
+translation=Farger
+
+[heading.bases/Background]
+original=Background
+translation=Bakgrunn
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=Kartfliser
+
+[heading.bases/Useful links]
+original=Useful links
+translation=Nyttige lenker
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=Feilsøking
+
+[heading.bases/Card size]
+original=Card size
+translation=Kortstørrelse
+
+[heading.bases/Image property]
+original=Image property
+translation=Bildeegenskap
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Bildetilpasning
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Bildets størrelsesforhold
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=Egenskapsinnrykk
+
+[heading.bases/Separators]
+original=Separators
+translation=Skilletegn
+
+[heading.bases/Row height]
+original=Row height
+translation=Radhøyde
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=Legg til et sammendrag
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=Innebygde sammendrag
+
+[heading.bases/All property types]
+original=All property types
+translation=Alle egenskapstyper
+
+[heading.bases/Numbers]
+original=Numbers
+translation=Tall
+
+[heading.bases/Dates]
+original=Dates
+translation=Datoer
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=Avkrysningsboks
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=Egendefinerte sammendrag
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=Snarveier
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=Verktøylinje
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=Legg til og bytt visninger
+
+[heading.bases/View settings]
+original=View settings
+translation=Visningsinnstillinger
+
+[heading.bases/Layout]
+original=Layout
+translation=Oppsett
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=Komponenter i et filter
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=Konjunksjoner
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=Filtergrupper
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=Avansert filterredigering
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=Sorter og grupper resultater
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=Legg til en sortering
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=Fjern en sortering
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Begrens, kopier og eksporter resultater
+
+[heading.bases/Limit results]
+original=Limit results
+translation=Begrens resultater
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=Kopier til utklippstavlen
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=Eksporter CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=Bygg inn en visning
 
 [heading.formulas/What formulas can do]
 original=What formulas can do
@@ -145,270 +381,6 @@ translation=Datatyper
 [heading.formulas/Reference other formulas]
 original=Reference other formulas
 translation=Referer til andre formler
-
-[heading.bases/functions/Global]
-original=Global
-translation=Globale
-
-[heading.bases/functions/Any]
-original=Any
-translation=Alle typer
-
-[heading.bases/functions/Date]
-original=Date
-translation=Dato
-
-[heading.bases/functions/Fields]
-original=Fields
-translation=Felter
-
-[heading.bases/functions/String]
-original=String
-translation=Streng
-
-[heading.bases/functions/Number]
-original=Number
-translation=Tall
-
-[heading.bases/functions/List]
-original=List
-translation=Liste
-
-[heading.bases/functions/Link]
-original=Link
-translation=Lenke
-
-[heading.bases/functions/File]
-original=File
-translation=Fil
-
-[heading.bases/functions/Object]
-original=Object
-translation=Objekt
-
-[heading.bases/functions/Regular expression]
-original=Regular expression
-translation=Regulært uttrykk
-
-[heading.bases/How to use bases]
-original=How to use bases
-translation=Slik bruker du Bases
-
-[heading.bases/View types]
-original=View types
-translation=Visningstyper
-
-[heading.bases/create-base/Create a new base]
-original=Create a new base
-translation=Opprett en ny base
-
-[heading.bases/create-base/Embed a base]
-original=Embed a base
-translation=Bygg inn en base
-
-[heading.bases/create-base/Embed a base file]
-original=Embed a base file
-translation=Bygg inn en basefil
-
-[heading.bases/create-base/Embed a base as a code block]
-original=Embed a base as a code block
-translation=Bygg inn en base som en kodeblokk
-
-[heading.bases/views/map/Install the Maps plugin]
-original=Install the Maps plugin
-translation=Installer Maps-utvidelsen
-
-[heading.bases/views/map/Example]
-original=Example
-translation=Eksempel
-
-[heading.bases/views/map/Settings]
-original=Settings
-translation=Innstillinger
-
-[heading.bases/views/map/Markers]
-original=Markers
-translation=Markører
-
-[heading.bases/views/map/Coordinates]
-original=Coordinates
-translation=Koordinater
-
-[heading.bases/views/map/Icons]
-original=Icons
-translation=Ikoner
-
-[heading.bases/views/map/Use a formula to define icons]
-original=Use a formula to define icons
-translation=Bruk en formel for å definere ikoner
-
-[heading.bases/views/map/Colors]
-original=Colors
-translation=Farger
-
-[heading.bases/views/map/Background]
-original=Background
-translation=Bakgrunn
-
-[heading.bases/views/map/Map tiles]
-original=Map tiles
-translation=Kartfliser
-
-[heading.bases/views/map/Useful links]
-original=Useful links
-translation=Nyttige lenker
-
-[heading.bases/views/map/Troubleshooting]
-original=Troubleshooting
-translation=Feilsøking
-
-[heading.bases/views/cards/Settings]
-original=Settings
-translation=Innstillinger
-
-[heading.bases/views/cards/Card size]
-original=Card size
-translation=Kortstørrelse
-
-[heading.bases/views/cards/Image property]
-original=Image property
-translation=Bildeegenskap
-
-[heading.bases/views/cards/Image fit]
-original=Image fit
-translation=Bildetilpasning
-
-[heading.bases/views/cards/Image aspect ratio]
-original=Image aspect ratio
-translation=Bildets størrelsesforhold
-
-[heading.bases/views/list/Settings]
-original=Settings
-translation=Innstillinger
-
-[heading.bases/views/list/Markers]
-original=Markers
-translation=Markører
-
-[heading.bases/views/list/Indent properties]
-original=Indent properties
-translation=Egenskapsinnrykk
-
-[heading.bases/views/list/Separators]
-original=Separators
-translation=Skilletegn
-
-[heading.bases/views/table/Settings]
-original=Settings
-translation=Innstillinger
-
-[heading.bases/views/table/Row height]
-original=Row height
-translation=Radhøyde
-
-[heading.bases/views/table/Summaries]
-original=Summaries
-translation=Sammendrag
-
-[heading.bases/views/table/Add a summary]
-original=Add a summary
-translation=Legg til et sammendrag
-
-[heading.bases/views/table/Built-in summaries]
-original=Built-in summaries
-translation=Innebygde sammendrag
-
-[heading.bases/views/table/All property types]
-original=All property types
-translation=Alle egenskapstyper
-
-[heading.bases/views/table/Numbers]
-original=Numbers
-translation=Tall
-
-[heading.bases/views/table/Dates]
-original=Dates
-translation=Datoer
-
-[heading.bases/views/table/Checkbox]
-original=Checkbox
-translation=Avkrysningsboks
-
-[heading.bases/views/table/Custom summaries]
-original=Custom summaries
-translation=Egendefinerte sammendrag
-
-[heading.bases/views/table/Shortcuts]
-original=Shortcuts
-translation=Snarveier
-
-[heading.bases/views/Toolbar]
-original=Toolbar
-translation=Verktøylinje
-
-[heading.bases/views/Add and switch views]
-original=Add and switch views
-translation=Legg til og bytt visninger
-
-[heading.bases/views/View settings]
-original=View settings
-translation=Visningsinnstillinger
-
-[heading.bases/views/Layout]
-original=Layout
-translation=Oppsett
-
-[heading.bases/views/Filters]
-original=Filters
-translation=Filtre
-
-[heading.bases/views/Components of a filter]
-original=Components of a filter
-translation=Komponenter i et filter
-
-[heading.bases/views/Conjunctions]
-original=Conjunctions
-translation=Konjunksjoner
-
-[heading.bases/views/Filter groups]
-original=Filter groups
-translation=Filtergrupper
-
-[heading.bases/views/Advanced filter editor]
-original=Advanced filter editor
-translation=Avansert filterredigering
-
-[heading.bases/views/Sort and group results]
-original=Sort and group results
-translation=Sorter og grupper resultater
-
-[heading.bases/views/Add a sort]
-original=Add a sort
-translation=Legg til en sortering
-
-[heading.bases/views/Remove a sort]
-original=Remove a sort
-translation=Fjern en sortering
-
-[heading.bases/views/Limit, copy, and export results]
-original=Limit, copy, and export results
-translation=Begrens, kopier og eksporter resultater
-
-[heading.bases/views/Limit results]
-original=Limit results
-translation=Begrens resultater
-
-[heading.bases/views/Copy to clipboard]
-original=Copy to clipboard
-translation=Kopier til utklippstavlen
-
-[heading.bases/views/Export CSV]
-original=Export CSV
-translation=Eksporter CSV
-
-[heading.bases/views/Embed a view]
-original=Embed a view
-translation=Bygg inn en visning
 
 [heading.style-guide/Terminology and grammar]
 original=Terminology and grammar
@@ -1009,3 +981,27 @@ translation=Opprette fanegrupper
 [heading.sidebar/Close tab groups]
 original=Close tab groups
 translation=Lukke fanegrupper
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Opprett et personlig tilgangstoken for Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Importer Airtable-dataene dine
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Importalternativer
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurer hvordan Airtable-felt importeres
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Hva som blir importert
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Begrensninger

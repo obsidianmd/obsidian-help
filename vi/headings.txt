@@ -4109,3 +4109,27 @@ translation=Tài liệu
 [heading.developers/Community]
 original=Community
 translation=Cộng đồng
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Tạo mã thông báo truy cập cá nhân Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Nhập dữ liệu Airtable của bạn
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Tùy chọn nhập
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Cấu hình cách nhập các trường Airtable
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Những gì được nhập
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Giới hạn

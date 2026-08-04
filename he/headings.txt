@@ -874,11 +874,11 @@ translation=פתרון בעיות
 original=Alternate shells
 translation=מעטפות חלופיות
 
-[heading.plugins/format-converter/Supported formats]
+[heading.plugins/Supported formats]
 original=Supported formats
 translation=פורמטים נתמכים
 
-[heading.plugins/format-converter/[[Properties]]]
+[heading.plugins/[[Properties]]]
 original=[[Properties]]
 translation=[[מאפיינים]]
 
@@ -937,3 +937,27 @@ translation=התקנת Obsidian ב-Android
 [heading.install/Install Obsidian on iPhone and iPad]
 original=Install Obsidian on iPhone and iPad
 translation=התקנת Obsidian ב-iPhone וב-iPad
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=יצירת אסימון גישה אישי ב-Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=ייבוא נתוני Airtable
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=אפשרויות ייבוא
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=הגדרת אופן ייבוא שדות Airtable
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=מה מיובא
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=מגבלות

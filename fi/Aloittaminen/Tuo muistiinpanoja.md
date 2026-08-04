@@ -8,6 +8,7 @@ Sovellukset tulevat ja menevät, mutta tietojesi tulisi kestää. Obsidian käyt
 ## Tuo muista sovelluksista ja tiedostomuodoista
 
 - <span class="icon-app icon-notion"></span> [[Tuo Notionista|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Tuo Airtablesta|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Tuo Microsoft OneNotesta|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Tuo Evernotesta|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Tuo Apple Notesista|Apple Notes]]

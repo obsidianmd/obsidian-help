@@ -1978,6 +1978,22 @@ translation=區域圖譜
 original=Install Importer
 translation=安裝匯入工具
 
+[heading.plugins/Show backlinks]
+original=Show backlinks
+translation=顯示反向連結
+
+[heading.plugins/View backlinks for a note]
+original=View backlinks for a note
+translation=檢視筆記的反向連結
+
+[heading.plugins/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=查看特定筆記的反向連結
+
+[heading.plugins/Show backlinks in a note]
+original=Show backlinks in a note
+translation=在筆記中顯示反向連結
+
 [heading.teams/Use Obsidian with your team]
 original=Use Obsidian with your team
 translation=與團隊一起使用 Obsidian
@@ -4074,22 +4090,6 @@ translation=在筆記之間瀏覽
 original=Learn more
 translation=深入了解
 
-[heading.plugins/backlinks/Show backlinks]
-original=Show backlinks
-translation=顯示反向連結
-
-[heading.plugins/backlinks/View backlinks for a note]
-original=View backlinks for a note
-translation=檢視筆記的反向連結
-
-[heading.plugins/backlinks/See backlinks of a specific note]
-original=See backlinks of a specific note
-translation=查看特定筆記的反向連結
-
-[heading.plugins/backlinks/Show backlinks in a note]
-original=Show backlinks in a note
-translation=在筆記中顯示反向連結
-
 [heading.tags/Add a tag to a note]
 original=Add a tag to a note
 translation=在筆記中新增標籤
@@ -4105,3 +4105,27 @@ translation=巢狀標籤
 [heading.tags/Tag format]
 original=Tag format
 translation=標籤格式
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=建立 Airtable 個人存取權杖
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=匯入你的 Airtable 資料
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=匯入選項
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=設定 Airtable 欄位的匯入方式
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=匯入的內容
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=限制

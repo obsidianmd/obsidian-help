@@ -749,3 +749,27 @@ translation=Gerir plugins instalados
 [heading.community-plugins/Learn more]
 original=Learn more
 translation=Saber mais
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Criar um token de acesso pessoal do Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Importar os seus dados do Airtable
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Opções de importação
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configurar como os campos do Airtable são importados
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=O que é importado
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Limitações

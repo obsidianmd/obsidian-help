@@ -174,6 +174,10 @@ translation=HTML-innehåll
 original=Import notes
 translation=Importera anteckningar
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Importera från Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Importera från Apple Journal

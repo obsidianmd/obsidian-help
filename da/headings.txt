@@ -330,6 +330,150 @@ translation=Importér Apple Journal-data til Obsidian
 original=Supported content
 translation=Understøttet indhold
 
+[heading.import/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=Importér HTML-data til Obsidian
+
+[heading.import/Import settings]
+original=Import settings
+translation=Importér indstillinger
+
+[heading.import/Converting from other flavors of Markdown]
+original=Converting from other flavors of Markdown
+translation=Konvertering fra andre varianter af Markdown
+
+[heading.import/Import Textbundle files into Obsidian]
+original=Import Textbundle files into Obsidian
+translation=Importér Textbundle-filer til Obsidian
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Fejlfinding
+
+[heading.import/No files are selected for import]
+original=No files are selected for import
+translation=Ingen filer er valgt til import
+
+[heading.import/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=Importér Apple Notes-data til Obsidian
+
+[heading.import/Scans]
+original=Scans
+translation=Scanninger
+
+[heading.import/Alternate export methods]
+original=Alternate export methods
+translation=Alternative eksportmetoder
+
+[heading.import/Export your data from Bear]
+original=Export your data from Bear
+translation=Eksportér dine data fra Bear
+
+[heading.import/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=Importér dine Bear-data til Obsidian
+
+[heading.import/Export your data from Craft]
+original=Export your data from Craft
+translation=Eksportér dine data fra Craft
+
+[heading.import/Import your Craft data into Obsidian]
+original=Import your Craft data into Obsidian
+translation=Importér dine Craft-data til Obsidian
+
+[heading.import/Export your data from Evernote]
+original=Export your data from Evernote
+translation=Eksportér dine data fra Evernote
+
+[heading.import/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=Importér dine Evernote-data til Obsidian
+
+[heading.import/Advanced import options]
+original=Advanced import options
+translation=Avancerede importindstillinger
+
+[heading.import/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=Bevar taghierarki
+
+[heading.import/Handling notebook stacks]
+original=Handling notebook stacks
+translation=Håndtering af notesbogstakke
+
+[heading.import/More options]
+original=More options
+translation=Flere muligheder
+
+[heading.import/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=Eksportér dine data fra Google Keep
+
+[heading.import/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=Importér dine Google Keep-data til Obsidian
+
+[heading.import/Supported features]
+original=Supported features
+translation=Understøttede funktioner
+
+[heading.import/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=Importér dine OneNote-data til Obsidian
+
+[heading.import/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=Ingen sektioner eller notesbøger vises
+
+[heading.import/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=Importerede noter er tomme eller mangler indhold
+
+[heading.import/Privacy]
+original=Privacy
+translation=Privatliv
+
+[heading.import/API import]
+original=API import
+translation=API-import
+
+[heading.import/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=Opret et Notion API-integrationstoken
+
+[heading.import/Import your Notion data via API]
+original=Import your Notion data via API
+translation=Importér dine Notion-data via API
+
+[heading.import/Limitations]
+original=Limitations
+translation=Begrænsninger
+
+[heading.import/File import]
+original=File import
+translation=Filimport
+
+[heading.import/Export your data from Notion]
+original=Export your data from Notion
+translation=Eksportér dine data fra Notion
+
+[heading.import/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=Importér din Notion .zip-fil
+
+[heading.import/Importing large workspaces]
+original=Importing large workspaces
+translation=Import af store arbejdsområder
+
+[heading.import/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=Eksportér dine data fra Roam Research
+
+[heading.import/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=Importér dine Roam Research-data til Obsidian
+
 [heading.payment/Purchase a service or license]
 original=Purchase a service or license
 translation=Køb en tjeneste eller licens
@@ -1034,166 +1178,30 @@ translation=Log ind
 original=Services
 translation=Tjenester
 
-[heading.plugins/importer/Install Importer]
+[heading.plugins/Install Importer]
 original=Install Importer
 translation=Installér Importer
 
-[heading.import/html/Import HTML data into Obsidian]
-original=Import HTML data into Obsidian
-translation=Importér HTML-data til Obsidian
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Opret et personligt Airtable-adgangstoken
 
-[heading.import/html/Import settings]
-original=Import settings
-translation=Importér indstillinger
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Importér dine Airtable-data
 
-[heading.import/markdown/Converting from other flavors of Markdown]
-original=Converting from other flavors of Markdown
-translation=Konvertering fra andre varianter af Markdown
+[heading.import/airtable/Import options]
+original=Import options
+translation=Importindstillinger
 
-[heading.import/textbundle/Import Textbundle files into Obsidian]
-original=Import Textbundle files into Obsidian
-translation=Importér Textbundle-filer til Obsidian
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurer hvordan Airtable-felter importeres
 
-[heading.import/textbundle/Troubleshooting]
-original=Troubleshooting
-translation=Fejlfinding
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Hvad der importeres
 
-[heading.import/textbundle/No files are selected for import]
-original=No files are selected for import
-translation=Ingen filer er valgt til import
-
-[heading.import/apple-notes/Import Apple Notes data into Obsidian]
-original=Import Apple Notes data into Obsidian
-translation=Importér Apple Notes-data til Obsidian
-
-[heading.import/apple-notes/Supported content]
-original=Supported content
-translation=Understøttet indhold
-
-[heading.import/apple-notes/Scans]
-original=Scans
-translation=Scanninger
-
-[heading.import/apple-notes/Alternate export methods]
-original=Alternate export methods
-translation=Alternative eksportmetoder
-
-[heading.import/bear/Export your data from Bear]
-original=Export your data from Bear
-translation=Eksportér dine data fra Bear
-
-[heading.import/bear/Import your Bear data into Obsidian]
-original=Import your Bear data into Obsidian
-translation=Importér dine Bear-data til Obsidian
-
-[heading.import/craft/Export your data from Craft]
-original=Export your data from Craft
-translation=Eksportér dine data fra Craft
-
-[heading.import/craft/Import your Craft data into Obsidian]
-original=Import your Craft data into Obsidian
-translation=Importér dine Craft-data til Obsidian
-
-[heading.import/craft/Troubleshooting]
-original=Troubleshooting
-translation=Fejlfinding
-
-[heading.import/evernote/Export your data from Evernote]
-original=Export your data from Evernote
-translation=Eksportér dine data fra Evernote
-
-[heading.import/evernote/Import your Evernote data into Obsidian]
-original=Import your Evernote data into Obsidian
-translation=Importér dine Evernote-data til Obsidian
-
-[heading.import/evernote/Advanced import options]
-original=Advanced import options
-translation=Avancerede importindstillinger
-
-[heading.import/evernote/Maintain tag hierarchy]
-original=Maintain tag hierarchy
-translation=Bevar taghierarki
-
-[heading.import/evernote/Handling notebook stacks]
-original=Handling notebook stacks
-translation=Håndtering af notesbogstakke
-
-[heading.import/evernote/More options]
-original=More options
-translation=Flere muligheder
-
-[heading.import/google-keep/Export your data from Google Keep]
-original=Export your data from Google Keep
-translation=Eksportér dine data fra Google Keep
-
-[heading.import/google-keep/Import your Google Keep data into Obsidian]
-original=Import your Google Keep data into Obsidian
-translation=Importér dine Google Keep-data til Obsidian
-
-[heading.import/google-keep/Supported features]
-original=Supported features
-translation=Understøttede funktioner
-
-[heading.import/onenote/Import your OneNote data into Obsidian]
-original=Import your OneNote data into Obsidian
-translation=Importér dine OneNote-data til Obsidian
-
-[heading.import/onenote/Troubleshooting]
-original=Troubleshooting
-translation=Fejlfinding
-
-[heading.import/onenote/No sections or notebooks appear]
-original=No sections or notebooks appear
-translation=Ingen sektioner eller notesbøger vises
-
-[heading.import/onenote/Imported notes are empty or missing content]
-original=Imported notes are empty or missing content
-translation=Importerede noter er tomme eller mangler indhold
-
-[heading.import/onenote/Privacy]
-original=Privacy
-translation=Privatliv
-
-[heading.import/notion/API import]
-original=API import
-translation=API-import
-
-[heading.import/notion/Create a Notion API integration token]
-original=Create a Notion API integration token
-translation=Opret et Notion API-integrationstoken
-
-[heading.import/notion/Import your Notion data via API]
-original=Import your Notion data via API
-translation=Importér dine Notion-data via API
-
-[heading.import/notion/Limitations]
+[heading.import/airtable/Limitations]
 original=Limitations
 translation=Begrænsninger
-
-[heading.import/notion/File import]
-original=File import
-translation=Filimport
-
-[heading.import/notion/Export your data from Notion]
-original=Export your data from Notion
-translation=Eksportér dine data fra Notion
-
-[heading.import/notion/Import your Notion .zip file]
-original=Import your Notion .zip file
-translation=Importér din Notion .zip-fil
-
-[heading.import/notion/Troubleshooting]
-original=Troubleshooting
-translation=Fejlfinding
-
-[heading.import/notion/Importing large workspaces]
-original=Importing large workspaces
-translation=Import af store arbejdsområder
-
-[heading.import/roam/Export your data from Roam Research]
-original=Export your data from Roam Research
-translation=Eksportér dine data fra Roam Research
-
-[heading.import/roam/Import your Roam Research data into Obsidian]
-original=Import your Roam Research data into Obsidian
-translation=Importér dine Roam Research-data til Obsidian

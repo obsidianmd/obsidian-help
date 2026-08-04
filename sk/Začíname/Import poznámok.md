@@ -8,6 +8,7 @@ Aplikácie prichádzajú a odchádzajú, ale vaše dáta by mali vydržať. Obsi
 ## Import z iných aplikácií a formátov súborov
 
 - <span class="icon-app icon-notion"></span> [[Import z Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Import z Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Import z Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Import z Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Import z Apple Notes|Apple Notes]]

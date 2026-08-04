@@ -1,102 +1,326 @@
-[heading.bases/syntax/Example]
+[heading.bases/Example]
 original=Example
 translation=示例
 
-[heading.bases/syntax/Filters]
+[heading.bases/Filters]
 original=Filters
 translation=筛选
 
-[heading.bases/syntax/Formulas]
+[heading.bases/Formulas]
 original=Formulas
 translation=公式
 
-[heading.bases/syntax/Properties]
+[heading.bases/Properties]
 original=Properties
 translation=属性
 
-[heading.bases/syntax/Summaries]
+[heading.bases/Summaries]
 original=Summaries
 translation=汇总
 
-[heading.bases/syntax/Default Summary Formulas]
+[heading.bases/Default Summary Formulas]
 original=Default Summary Formulas
 translation=默认汇总公式
 
-[heading.bases/syntax/Views]
+[heading.bases/Views]
 original=Views
 translation=视图
 
-[heading.bases/syntax/Note properties]
+[heading.bases/Note properties]
 original=Note properties
 translation=笔记属性
 
-[heading.bases/syntax/File properties]
+[heading.bases/File properties]
 original=File properties
 translation=文件属性
 
-[heading.bases/syntax/Access properties with `this`]
+[heading.bases/Access properties with `this`]
 original=Access properties with `this`
 translation=使用 `this` 访问属性
 
-[heading.bases/syntax/Operators]
+[heading.bases/Operators]
 original=Operators
 translation=运算符
 
-[heading.bases/syntax/Arithmetic operators]
+[heading.bases/Arithmetic operators]
 original=Arithmetic operators
 translation=算术运算符
 
-[heading.bases/syntax/Date arithmetic]
+[heading.bases/Date arithmetic]
 original=Date arithmetic
 translation=日期运算
 
-[heading.bases/syntax/Comparison operators]
+[heading.bases/Comparison operators]
 original=Comparison operators
 translation=比较运算符
 
-[heading.bases/syntax/Boolean operators]
+[heading.bases/Boolean operators]
 original=Boolean operators
 translation=布尔运算符
 
-[heading.bases/syntax/Functions]
+[heading.bases/Functions]
 original=Functions
 translation=函数
 
-[heading.bases/syntax/Types]
+[heading.bases/Types]
 original=Types
 translation=类型
 
-[heading.bases/syntax/Strings, numbers, and booleans]
+[heading.bases/Strings, numbers, and booleans]
 original=Strings, numbers, and booleans
 translation=字符串、数字和布尔值
 
-[heading.bases/syntax/Dates and durations]
+[heading.bases/Dates and durations]
 original=Dates and durations
 translation=日期和持续时间
 
-[heading.bases/syntax/Objects and lists]
+[heading.bases/Objects and lists]
 original=Objects and lists
 translation=对象和列表
 
-[heading.bases/syntax/Files and links]
+[heading.bases/Files and links]
 original=Files and links
 translation=文件和链接
 
-[heading.bases/create-base/Create a new base]
+[heading.bases/Create a new base]
 original=Create a new base
 translation=新建数据库
 
-[heading.bases/create-base/Embed a base]
+[heading.bases/Embed a base]
 original=Embed a base
 translation=嵌入数据库
 
-[heading.bases/create-base/Embed a base file]
+[heading.bases/Embed a base file]
 original=Embed a base file
 translation=嵌入数据库文件
 
-[heading.bases/create-base/Embed a base as a code block]
+[heading.bases/Embed a base as a code block]
 original=Embed a base as a code block
 translation=以代码块形式嵌入数据库
+
+[heading.bases/Global]
+original=Global
+translation=全局
+
+[heading.bases/Any]
+original=Any
+translation=任意类型
+
+[heading.bases/Date]
+original=Date
+translation=日期
+
+[heading.bases/Fields]
+original=Fields
+translation=字段
+
+[heading.bases/String]
+original=String
+translation=字符串
+
+[heading.bases/Number]
+original=Number
+translation=数字
+
+[heading.bases/List]
+original=List
+translation=列表
+
+[heading.bases/Link]
+original=Link
+translation=链接
+
+[heading.bases/File]
+original=File
+translation=文件
+
+[heading.bases/Object]
+original=Object
+translation=对象
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=正则表达式
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=如何使用数据库
+
+[heading.bases/View types]
+original=View types
+translation=视图类型
+
+[heading.bases/Settings]
+original=Settings
+translation=设置
+
+[heading.bases/Card size]
+original=Card size
+translation=卡片大小
+
+[heading.bases/Image property]
+original=Image property
+translation=图像属性
+
+[heading.bases/Image fit]
+original=Image fit
+translation=图像适配
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=图像宽高比
+
+[heading.bases/Markers]
+original=Markers
+translation=标记
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=属性缩进显示
+
+[heading.bases/Separators]
+original=Separators
+translation=分隔符
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=安装 Maps 插件
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=坐标
+
+[heading.bases/Icons]
+original=Icons
+translation=图标
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=使用公式定义图标
+
+[heading.bases/Colors]
+original=Colors
+translation=颜色
+
+[heading.bases/Background]
+original=Background
+translation=背景
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=地图瓦片
+
+[heading.bases/Useful links]
+original=Useful links
+translation=实用链接
+
+[heading.bases/Tips]
+original=Tips
+translation=提示
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=故障排查
+
+[heading.bases/Row height]
+original=Row height
+translation=行高
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=添加汇总
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=内置汇总
+
+[heading.bases/All property types]
+original=All property types
+translation=所有属性类型
+
+[heading.bases/Numbers]
+original=Numbers
+translation=数字
+
+[heading.bases/Dates]
+original=Dates
+translation=日期
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=复选框
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=自定义汇总
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=快捷键
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=工具栏
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=添加和切换视图
+
+[heading.bases/View settings]
+original=View settings
+translation=视图设置
+
+[heading.bases/Layout]
+original=Layout
+translation=布局
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=筛选器的组成部分
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=连接条件
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=筛选组
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=高级筛选编辑器
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=排序和分组结果
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=添加排序
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=移除排序
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=限制、复制和导出结果
+
+[heading.bases/Limit results]
+original=Limit results
+translation=限制结果
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=复制到剪贴板
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=导出 CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=嵌入视图
 
 [heading.formulas/What formulas can do]
 original=What formulas can do
@@ -162,339 +386,87 @@ translation=数据类型
 original=Reference other formulas
 translation=引用其他公式
 
-[heading.bases/functions/Global]
-original=Global
-translation=全局
-
-[heading.bases/functions/Any]
-original=Any
-translation=任意类型
-
-[heading.bases/functions/Date]
-original=Date
-translation=日期
-
-[heading.bases/functions/Fields]
-original=Fields
-translation=字段
-
-[heading.bases/functions/String]
-original=String
-translation=字符串
-
-[heading.bases/functions/Number]
-original=Number
-translation=数字
-
-[heading.bases/functions/List]
-original=List
-translation=列表
-
-[heading.bases/functions/Link]
-original=Link
-translation=链接
-
-[heading.bases/functions/File]
-original=File
-translation=文件
-
-[heading.bases/functions/Object]
-original=Object
-translation=对象
-
-[heading.bases/functions/Regular expression]
-original=Regular expression
-translation=正则表达式
-
-[heading.bases/How to use bases]
-original=How to use bases
-translation=如何使用数据库
-
-[heading.bases/View types]
-original=View types
-translation=视图类型
-
-[heading.bases/views/cards/Settings]
-original=Settings
-translation=设置
-
-[heading.bases/views/cards/Card size]
-original=Card size
-translation=卡片大小
-
-[heading.bases/views/cards/Image property]
-original=Image property
-translation=图像属性
-
-[heading.bases/views/cards/Image fit]
-original=Image fit
-translation=图像适配
-
-[heading.bases/views/cards/Image aspect ratio]
-original=Image aspect ratio
-translation=图像宽高比
-
-[heading.bases/views/list/Settings]
-original=Settings
-translation=设置
-
-[heading.bases/views/list/Markers]
-original=Markers
-translation=项目符号
-
-[heading.bases/views/list/Indent properties]
-original=Indent properties
-translation=属性缩进显示
-
-[heading.bases/views/list/Separators]
-original=Separators
-translation=分隔符
-
-[heading.bases/views/map/Install the Maps plugin]
-original=Install the Maps plugin
-translation=安装 Maps 插件
-
-[heading.bases/views/map/Example]
-original=Example
-translation=示例
-
-[heading.bases/views/map/Settings]
-original=Settings
-translation=设置
-
-[heading.bases/views/map/Markers]
-original=Markers
-translation=标记
-
-[heading.bases/views/map/Coordinates]
-original=Coordinates
-translation=坐标
-
-[heading.bases/views/map/Icons]
-original=Icons
-translation=图标
-
-[heading.bases/views/map/Use a formula to define icons]
-original=Use a formula to define icons
-translation=使用公式定义图标
-
-[heading.bases/views/map/Colors]
-original=Colors
-translation=颜色
-
-[heading.bases/views/map/Background]
-original=Background
-translation=背景
-
-[heading.bases/views/map/Map tiles]
-original=Map tiles
-translation=地图瓦片
-
-[heading.bases/views/map/Useful links]
-original=Useful links
-translation=实用链接
-
-[heading.bases/views/map/Tips]
-original=Tips
-translation=提示
-
-[heading.bases/views/map/Troubleshooting]
-original=Troubleshooting
-translation=故障排查
-
-[heading.bases/views/table/Settings]
-original=Settings
-translation=设置
-
-[heading.bases/views/table/Row height]
-original=Row height
-translation=行高
-
-[heading.bases/views/table/Summaries]
-original=Summaries
-translation=汇总
-
-[heading.bases/views/table/Add a summary]
-original=Add a summary
-translation=添加汇总
-
-[heading.bases/views/table/Built-in summaries]
-original=Built-in summaries
-translation=内置汇总
-
-[heading.bases/views/table/All property types]
-original=All property types
-translation=所有属性类型
-
-[heading.bases/views/table/Numbers]
-original=Numbers
-translation=数字
-
-[heading.bases/views/table/Dates]
-original=Dates
-translation=日期
-
-[heading.bases/views/table/Checkbox]
-original=Checkbox
-translation=复选框
-
-[heading.bases/views/table/Custom summaries]
-original=Custom summaries
-translation=自定义汇总
-
-[heading.bases/views/table/Shortcuts]
-original=Shortcuts
-translation=快捷键
-
-[heading.bases/views/Toolbar]
-original=Toolbar
-translation=工具栏
-
-[heading.bases/views/Add and switch views]
-original=Add and switch views
-translation=添加和切换视图
-
-[heading.bases/views/View settings]
-original=View settings
-translation=视图设置
-
-[heading.bases/views/Layout]
-original=Layout
-translation=布局
-
-[heading.bases/views/Filters]
-original=Filters
-translation=筛选
-
-[heading.bases/views/Components of a filter]
-original=Components of a filter
-translation=筛选器的组成部分
-
-[heading.bases/views/Conjunctions]
-original=Conjunctions
-translation=连接条件
-
-[heading.bases/views/Filter groups]
-original=Filter groups
-translation=筛选组
-
-[heading.bases/views/Advanced filter editor]
-original=Advanced filter editor
-translation=高级筛选编辑器
-
-[heading.bases/views/Sort and group results]
-original=Sort and group results
-translation=排序和分组结果
-
-[heading.bases/views/Add a sort]
-original=Add a sort
-translation=添加排序
-
-[heading.bases/views/Remove a sort]
-original=Remove a sort
-translation=移除排序
-
-[heading.bases/views/Limit, copy, and export results]
-original=Limit, copy, and export results
-translation=限制、复制和导出结果
-
-[heading.bases/views/Limit results]
-original=Limit results
-translation=限制结果
-
-[heading.bases/views/Copy to clipboard]
-original=Copy to clipboard
-translation=复制到剪贴板
-
-[heading.bases/views/Export CSV]
-original=Export CSV
-translation=导出 CSV
-
-[heading.bases/views/Embed a view]
-original=Embed a view
-translation=嵌入视图
-
-[heading.web-clipper/capture/Capture a page]
+[heading.web-clipper/Capture a page]
 original=Capture a page
 translation=捕获页面
 
-[heading.web-clipper/capture/Download images]
+[heading.web-clipper/Download images]
 original=Download images
 translation=下载图片
 
-[heading.web-clipper/capture/Hotkeys]
+[heading.web-clipper/Hotkeys]
 original=Hotkeys
 translation=快捷键
 
-[heading.web-clipper/capture/Interface functionality]
+[heading.web-clipper/Interface functionality]
 original=Interface functionality
 translation=界面功能
 
-[heading.web-clipper/filters/Dates]
+[heading.web-clipper/Dates]
 original=Dates
 translation=日期
 
-[heading.web-clipper/filters/Text conversion and capitalization]
+[heading.web-clipper/Text conversion and capitalization]
 original=Text conversion and capitalization
 translation=文本转换与大小写
 
-[heading.web-clipper/filters/Text formatting]
+[heading.web-clipper/Text formatting]
 original=Text formatting
 translation=文本格式化
 
-[heading.web-clipper/filters/Numbers]
+[heading.web-clipper/Numbers]
 original=Numbers
 translation=数字
 
-[heading.web-clipper/filters/HTML processing]
+[heading.web-clipper/HTML processing]
 original=HTML processing
 translation=HTML 处理
 
-[heading.web-clipper/filters/Arrays and objects]
+[heading.web-clipper/Arrays and objects]
 original=Arrays and objects
 translation=数组和对象
 
-[heading.web-clipper/highlight/Turn on highlighter]
+[heading.web-clipper/Turn on highlighter]
 original=Turn on highlighter
 translation=开启高亮工具
 
-[heading.web-clipper/highlight/Highlighter settings]
+[heading.web-clipper/Highlighter settings]
 original=Highlighter settings
 translation=高亮工具设置
 
-[heading.web-clipper/interpreter/Examples of prompts]
+[heading.web-clipper/Examples of prompts]
 original=Examples of prompts
 translation=提示词示例
 
-[heading.web-clipper/interpreter/Get started]
+[heading.web-clipper/Get started]
 original=Get started
 translation=开始使用
 
-[heading.web-clipper/interpreter/How it works]
+[heading.web-clipper/How it works]
 original=How it works
 translation=工作原理
 
-[heading.web-clipper/interpreter/Context]
+[heading.web-clipper/Context]
 original=Context
 translation=上下文
 
-[heading.web-clipper/interpreter/Models]
+[heading.web-clipper/Models]
 original=Models
 translation=模型
 
-[heading.web-clipper/interpreter/Preset providers]
+[heading.web-clipper/Preset providers]
 original=Preset providers
 translation=预设提供商
 
-[heading.web-clipper/interpreter/Choosing a model]
+[heading.web-clipper/Choosing a model]
 original=Choosing a model
 translation=选择模型
 
-[heading.web-clipper/interpreter/Custom providers and models]
+[heading.web-clipper/Custom providers and models]
 original=Custom providers and models
 translation=自定义提供商和模型
 
-[heading.web-clipper/interpreter/Local models]
+[heading.web-clipper/Local models]
 original=Local models
 translation=本地模型
 
@@ -510,369 +482,1565 @@ translation=如何使用 Obsidian Web Clipper
 original=Privacy
 translation=隐私
 
-[heading.web-clipper/logic/Conditionals]
+[heading.web-clipper/Conditionals]
 original=Conditionals
 translation=条件判断
 
-[heading.web-clipper/logic/Comparison operators]
+[heading.web-clipper/Comparison operators]
 original=Comparison operators
 translation=比较运算符
 
-[heading.web-clipper/logic/Logical operators]
+[heading.web-clipper/Logical operators]
 original=Logical operators
 translation=逻辑运算符
 
-[heading.web-clipper/logic/Truthiness]
+[heading.web-clipper/Truthiness]
 original=Truthiness
 translation=真值判断
 
-[heading.web-clipper/logic/Assign a variable]
+[heading.web-clipper/Assign a variable]
 original=Assign a variable
 translation=变量赋值
 
-[heading.web-clipper/logic/Fallbacks]
+[heading.web-clipper/Fallbacks]
 original=Fallbacks
 translation=回退值
 
-[heading.web-clipper/logic/Chaining fallbacks]
+[heading.web-clipper/Chaining fallbacks]
 original=Chaining fallbacks
 translation=链式回退
 
-[heading.web-clipper/logic/With filters]
+[heading.web-clipper/With filters]
 original=With filters
 translation=与过滤器配合使用
 
-[heading.web-clipper/logic/Loops]
+[heading.web-clipper/Loops]
 original=Loops
 translation=循环
 
-[heading.web-clipper/logic/Loop sources]
+[heading.web-clipper/Loop sources]
 original=Loop sources
 translation=循环数据源
 
-[heading.web-clipper/logic/Loop variables]
+[heading.web-clipper/Loop variables]
 original=Loop variables
 translation=循环变量
 
-[heading.web-clipper/logic/Accessing array items by index]
+[heading.web-clipper/Accessing array items by index]
 original=Accessing array items by index
 translation=通过索引访问数组元素
 
-[heading.web-clipper/logic/Nested loops]
+[heading.web-clipper/Nested loops]
 original=Nested loops
 translation=嵌套循环
 
-[heading.web-clipper/logic/Combine logic]
+[heading.web-clipper/Combine logic]
 original=Combine logic
 translation=组合逻辑
 
-[heading.web-clipper/logic/Evaluation order]
+[heading.web-clipper/Evaluation order]
 original=Evaluation order
 translation=执行顺序
 
-[heading.web-clipper/reader/Activate reading mode]
+[heading.web-clipper/Activate reading mode]
 original=Activate reading mode
 translation=激活阅读模式
 
-[heading.web-clipper/reader/How it works]
-original=How it works
-translation=工作原理
-
-[heading.web-clipper/reader/Customize the reading view]
+[heading.web-clipper/Customize the reading view]
 original=Customize the reading view
 translation=自定义阅读视图
 
-[heading.web-clipper/templates/Create or edit a template]
+[heading.web-clipper/Create or edit a template]
 original=Create or edit a template
 translation=创建或编辑模板
 
-[heading.web-clipper/templates/Import and export Web Clipper templates]
+[heading.web-clipper/Import and export Web Clipper templates]
 original=Import and export Web Clipper templates
 translation=导入和导出 Web Clipper 模板
 
-[heading.web-clipper/templates/Template settings]
+[heading.web-clipper/Template settings]
 original=Template settings
 translation=模板设置
 
-[heading.web-clipper/templates/Behavior]
+[heading.web-clipper/Behavior]
 original=Behavior
 translation=行为
 
-[heading.web-clipper/templates/Automatically trigger a template]
+[heading.web-clipper/Automatically trigger a template]
 original=Automatically trigger a template
 translation=自动触发模板
 
-[heading.web-clipper/templates/Simple URL matching]
+[heading.web-clipper/Simple URL matching]
 original=Simple URL matching
 translation=简单 URL 匹配
 
-[heading.web-clipper/templates/Regular expression matching]
+[heading.web-clipper/Regular expression matching]
 original=Regular expression matching
 translation=正则表达式匹配
 
-[heading.web-clipper/templates/Schema.org matching]
+[heading.web-clipper/Schema.org matching]
 original=Schema.org matching
 translation=Schema.org 匹配
 
-[heading.web-clipper/templates/Interpreter context]
+[heading.web-clipper/Interpreter context]
 original=Interpreter context
 translation=解释器上下文
 
-[heading.web-clipper/troubleshoot/General]
+[heading.web-clipper/General]
 original=General
 translation=常规
 
-[heading.web-clipper/troubleshoot/Some content is missing]
+[heading.web-clipper/Some content is missing]
 original=Some content is missing
 translation=部分内容缺失
 
-[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+[heading.web-clipper/No content appears in Obsidian]
 original=No content appears in Obsidian
 translation=Obsidian 中没有出现任何内容
 
-[heading.web-clipper/troubleshoot/Obsidian does not open]
+[heading.web-clipper/Obsidian does not open]
 original=Obsidian does not open
 translation=Obsidian 无法打开
 
-[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+[heading.web-clipper/Obsidian opens but only the file name is saved]
 original=Obsidian opens but only the file name is saved
 translation=Obsidian 打开了但只保存了文件名
 
-[heading.web-clipper/troubleshoot/iOS and iPadOS]
+[heading.web-clipper/iOS and iPadOS]
 original=iOS and iPadOS
 translation=iOS 和 iPadOS
 
-[heading.web-clipper/variables/Preset variables]
+[heading.web-clipper/Preset variables]
 original=Preset variables
 translation=预设变量
 
-[heading.web-clipper/variables/Prompt variables]
+[heading.web-clipper/Prompt variables]
 original=Prompt variables
 translation=提示变量
 
-[heading.web-clipper/variables/When to use prompt variables]
+[heading.web-clipper/When to use prompt variables]
 original=When to use prompt variables
 translation=何时使用提示变量
 
-[heading.web-clipper/variables/Examples]
+[heading.web-clipper/Examples]
 original=Examples
 translation=示例
 
-[heading.web-clipper/variables/Meta variables]
+[heading.web-clipper/Meta variables]
 original=Meta variables
 translation=Meta 变量
 
-[heading.web-clipper/variables/Selector variables]
+[heading.web-clipper/Selector variables]
 original=Selector variables
 translation=选择器变量
 
-[heading.web-clipper/variables/Schema.org variables]
+[heading.web-clipper/Schema.org variables]
 original=Schema.org variables
 translation=Schema.org 变量
 
-[heading.publish/permalinks/Redirect old notes]
+[heading.publish/Redirect old notes]
 original=Redirect old notes
 translation=重定向旧笔记
 
-[heading.publish/seo/Sitemap]
+[heading.publish/Sitemap]
 original=Sitemap
 translation=站点地图
 
-[heading.publish/seo/Permalinks]
+[heading.publish/Permalinks]
 original=Permalinks
 translation=永久链接
 
-[heading.publish/seo/Metadata]
+[heading.publish/Metadata]
 original=Metadata
 translation=元数据
 
-[heading.publish/security/Password protection]
+[heading.publish/Password protection]
 original=Password protection
 translation=密码保护
 
-[heading.publish/security/Add a site password]
+[heading.publish/Add a site password]
 original=Add a site password
 translation=添加网站密码
 
-[heading.publish/security/Remove a site password]
+[heading.publish/Remove a site password]
 original=Remove a site password
 translation=移除网站密码
 
-[heading.publish/security/Data collection]
+[heading.publish/Data collection]
 original=Data collection
 translation=数据收集
 
-[heading.publish/security/Visitor data]
+[heading.publish/Visitor data]
 original=Visitor data
 translation=访客数据
 
-[heading.publish/security/Access]
+[heading.publish/Access]
 original=Access
 translation=访问
 
-[heading.publish/security/Managing access to Obsidian Publish on your network]
+[heading.publish/Managing access to Obsidian Publish on your network]
 original=Managing access to Obsidian Publish on your network
 translation=在你的网络中管理对 Obsidian Publish 的访问
 
-[heading.publish/troubleshoot/General]
+[heading.publish/General]
 original=General
 translation=常规
 
-[heading.publish/troubleshoot/Publishing notes]
+[heading.publish/Publishing notes]
 original=Publishing notes
 translation=发布笔记
 
-[heading.publish/troubleshoot/CSS and themes]
+[heading.publish/CSS and themes]
 original=CSS and themes
 translation=CSS 和主题
 
-[heading.sync/headless/Quick start]
+[heading.publish/Community plugins]
+original=Community plugins
+translation=社区插件
+
+[heading.publish/Graph]
+original=Graph
+translation=图谱
+
+[heading.publish/Media files]
+original=Media files
+translation=媒体文件
+
+[heading.publish/PDFs]
+original=PDFs
+translation=PDF 文件
+
+[heading.publish/Search]
+original=Search
+translation=搜索
+
+[heading.publish/Images]
+original=Images
+translation=图片
+
+[heading.publish/Videos and audio]
+original=Videos and audio
+translation=视频和音频
+
+[heading.publish/How to use Obsidian Publish]
+original=How to use Obsidian Publish
+translation=如何使用发布服务
+
+[heading.publish/Prerequisites]
+original=Prerequisites
+translation=前提条件
+
+[heading.publish/Publish notes]
+original=Publish notes
+translation=发布笔记
+
+[heading.publish/Unpublish notes]
+original=Unpublish notes
+translation=取消发布笔记
+
+[heading.publish/Update a published note]
+original=Update a published note
+translation=更新已发布的笔记
+
+[heading.publish/Publish linked data]
+original=Publish linked data
+translation=发布关联数据
+
+[heading.publish/Automatically select data to publish]
+original=Automatically select data to publish
+translation=自动选择要发布的数据
+
+[heading.publish/Ignore data]
+original=Ignore data
+translation=忽略数据
+
+[heading.publish/Google Analytics]
+original=Google Analytics
+translation=谷歌分析
+
+[heading.publish/Plausible, Fathom, and other analytics services]
+original=Plausible, Fathom, and other analytics services
+translation=Plausible、Fathom 及其他分析服务
+
+[heading.publish/Troubleshooting]
+original=Troubleshooting
+translation=故障排除
+
+[heading.publish/Add a collaborator to a site]
+original=Add a collaborator to a site
+translation=添加协作者到网站
+
+[heading.publish/Remove a collaborator from a site]
+original=Remove a collaborator from a site
+translation=从网站移除协作者
+
+[heading.publish/Sync changes between collaborators]
+original=Sync changes between collaborators
+translation=在协作者之间同步修改
+
+[heading.publish/Permissions]
+original=Permissions
+translation=权限
+
+[heading.publish/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=使用你的 Obsidian 账户登录
+
+[heading.publish/Enable Obsidian Publish]
+original=Enable Obsidian Publish
+translation=启用 Obsidian Publish
+
+[heading.publish/Open Publish]
+original=Open Publish
+translation=打开发布
+
+[heading.publish/Open via Command palette]
+original=Open via Command palette
+translation=通过命令面板打开
+
+[heading.publish/Open via hotkey]
+original=Open via hotkey
+translation=通过快捷键打开
+
+[heading.publish/Open via ribbon]
+original=Open via ribbon
+translation=通过功能区打开
+
+[heading.publish/Create a new site]
+original=Create a new site
+translation=创建新网站
+
+[heading.publish/Set a site name]
+original=Set a site name
+translation=设置网站名称
+
+[heading.publish/Select notes to publish]
+original=Select notes to publish
+translation=选择要发布的笔记
+
+[heading.publish/Next steps]
+original=Next steps
+translation=下一步
+
+[heading.publish/Delete an existing site]
+original=Delete an existing site
+translation=删除现有网站
+
+[heading.publish/Switch between sites]
+original=Switch between sites
+translation=在网站之间切换
+
+[heading.publish/Change the site ID]
+original=Change the site ID
+translation=更改网站 ID
+
+[heading.publish/View site options]
+original=View site options
+translation=查看网站设置
+
+[heading.publish/Site options]
+original=Site options
+translation=网站设置
+
+[heading.publish/Appearance]
+original=Appearance
+translation=外观
+
+[heading.publish/Reading experience]
+original=Reading experience
+translation=阅读体验
+
+[heading.publish/Components]
+original=Components
+translation=组件
+
+[heading.publish/Other site settings]
+original=Other site settings
+translation=其他设置
+
+[heading.publish/Description]
+original=Description
+translation=摘要
+
+[heading.publish/Image]
+original=Image
+translation=图片
+
+[heading.publish/Set up using CloudFlare]
+original=Set up using CloudFlare
+translation=使用 CloudFlare 设置
+
+[heading.publish/Set up using a proxy]
+original=Set up using a proxy
+translation=使用代理设置
+
+[heading.publish/Supported HTTP X-Headers]
+original=Supported HTTP X-Headers
+translation=支持的 HTTP X-Headers
+
+[heading.publish/Redirect old site to custom domain]
+original=Redirect old site to custom domain
+translation=将旧网站重定向到自定义域名
+
+[heading.publish/Troubleshoot]
+original=Troubleshoot
+translation=故障排除
+
+[heading.publish/Static assets]
+original=Static assets
+translation=静态资源
+
+[heading.publish/Use a community theme]
+original=Use a community theme
+translation=使用社区主题
+
+[heading.publish/Enable UI features]
+original=Enable UI features
+translation=调整界面功能
+
+[heading.publish/Customize navigation]
+original=Customize navigation
+translation=自定义文件列表
+
+[heading.publish/Accessing Customize navigation options]
+original=Accessing Customize navigation options
+translation=进入自定义文件列表设置
+
+[heading.publish/Adjust navigation items]
+original=Adjust navigation items
+translation=调整文件列表顺序
+
+[heading.publish/Hide and unhide navigation items]
+original=Hide and unhide navigation items
+translation=隐藏和取消隐藏列表项目
+
+[heading.publish/FAQ]
+original=FAQ
+translation=常见问题
+
+[heading.publish/Quick start]
 original=Quick start
 translation=快速开始
 
-[heading.sync/headless/Commands]
+[heading.publish/Commands]
 original=Commands
 translation=命令
 
-[heading.sync/headless/Native modules]
+[heading.sync/Quick start]
+original=Quick start
+translation=快速开始
+
+[heading.sync/Commands]
+original=Commands
+translation=命令
+
+[heading.sync/Native modules]
 original=Native modules
 translation=原生模块
 
-[heading.sync/messages/Sync status icon]
+[heading.sync/Sync status icon]
 original=Sync status icon
 translation=同步状态图标
 
-[heading.sync/messages/Sync activity log]
+[heading.sync/Sync activity log]
 original=Sync activity log
 translation=同步日志
 
-[heading.sync/messages/General messages]
+[heading.sync/General messages]
 original=General messages
 translation=常规消息
 
-[heading.sync/messages/Error messages]
+[heading.sync/Error messages]
 original=Error messages
 translation=错误消息
 
-[heading.sync/messages/Skipped messages]
+[heading.sync/Skipped messages]
 original=Skipped messages
 translation=已跳过消息
 
-[heading.sync/messages/Account messages]
+[heading.sync/Account messages]
 original=Account messages
 translation=账户消息
 
-[heading.sync/messages/Network messages]
+[heading.sync/Network messages]
 original=Network messages
 translation=网络消息
 
-[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+[heading.sync/Move your vault out of your third-party syncing service or cloud storage]
 original=Move your vault out of your third-party syncing service or cloud storage
 translation=将仓库移出第三方同步服务或云存储
 
-[heading.sync/switch/Move your vault using Obsidian on desktop]
+[heading.sync/Move your vault using Obsidian on desktop]
 original=Move your vault using Obsidian on desktop
 translation=在桌面端使用 Obsidian 移动仓库
 
-[heading.sync/switch/Move your vault on mobile]
+[heading.sync/Move your vault on mobile]
 original=Move your vault on mobile
 translation=在移动端移动仓库
 
-[heading.sync/switch/iOS and iPadOS]
+[heading.sync/iOS and iPadOS]
 original=iOS and iPadOS
 translation=iOS 和 iPadOS
 
-[heading.sync/switch/Next steps]
+[heading.sync/Next steps]
 original=Next steps
 translation=后续步骤
 
-[heading.sync/region/Available regions]
+[heading.sync/Available regions]
 original=Available regions
 translation=可用区域
 
-[heading.sync/region/Change Sync region]
+[heading.sync/Change Sync region]
 original=Change Sync region
 translation=更改同步区域
 
-[heading.sync/migrate/Encryption versions]
+[heading.sync/Encryption versions]
 original=Encryption versions
 translation=加密版本
 
-[heading.sync/migrate/Upgrade encryption with the migration assistant]
+[heading.sync/Upgrade encryption with the migration assistant]
 original=Upgrade encryption with the migration assistant
 translation=使用迁移助手升级加密
 
-[heading.teams/publish/Publishing tools and services]
+[heading.sync/How to use Obsidian Sync]
+original=How to use Obsidian Sync
+translation=如何使用 Obsidian Sync
+
+[heading.sync/Important]
+original=Important
+translation=重要
+
+[heading.sync/Manage users]
+original=Manage users
+translation=管理用户
+
+[heading.sync/Add users]
+original=Add users
+translation=添加用户
+
+[heading.sync/Remove users]
+original=Remove users
+translation=移除用户
+
+[heading.sync/Collaborate with your team]
+original=Collaborate with your team
+translation=与团队协作
+
+[heading.sync/Permissions]
+original=Permissions
+translation=权限
+
+[heading.sync/Live editing]
+original=Live editing
+translation=实时编辑
+
+[heading.sync/Limitations]
+original=Limitations
+translation=限制
+
+[heading.sync/Encryption]
+original=Encryption
+translation=加密
+
+[heading.sync/What does end-to-end encryption mean?]
+original=What does end-to-end encryption mean?
+translation=端到端加密意味着什么？
+
+[heading.sync/What are the risks of using standard encryption?]
+original=What are the risks of using standard encryption?
+translation=使用标准加密有哪些风险？
+
+[heading.sync/What encryption do you use?]
+original=What encryption do you use?
+translation=你们使用什么加密方式？
+
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
+original=Can I verify that my data is end-to-end encrypted?
+translation=我可以验证我的数据是否经过端到端加密吗？
+
+[heading.sync/Has Obsidian completed a third-party security audit?]
+original=Has Obsidian completed a third-party security audit?
+translation=Obsidian 是否通过了第三方安全审计？
+
+[heading.sync/What happens if I forget my encryption password?]
+original=What happens if I forget my encryption password?
+translation=如果我忘记了加密密码怎么办？
+
+[heading.sync/Hosting]
+original=Hosting
+translation=托管
+
+[heading.sync/Where do you host the servers for Obsidian Sync?]
+original=Where do you host the servers for Obsidian Sync?
+translation=Obsidian Sync 的服务器托管在哪里？
+
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
+original=Where can I find my current Sync server and where is it hosted?
+translation=如何查找当前的 Sync 服务器及其托管位置？
+
+[heading.sync/Network and access]
+original=Network and access
+translation=网络与访问
+
+[heading.sync/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=在你的网络上管理对 Obsidian Sync 的访问
+
+[heading.sync/Deterministic file-hash encryption]
+original=Deterministic file-hash encryption
+translation=确定性文件哈希加密
+
+[heading.sync/No cryptographic binding between path and content]
+original=No cryptographic binding between path and content
+translation=路径与内容之间没有加密绑定
+
+[heading.sync/General]
+original=General
+translation=常规问题
+
+[heading.sync/What operating systems does Obsidian Sync support?]
+original=What operating systems does Obsidian Sync support?
+translation=Obsidian Sync 支持哪些操作系统？
+
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
+original=Does Obsidian work with Apple's Lockdown Mode?
+translation=Obsidian 是否支持 Apple 的锁定模式？
+
+[heading.sync/What type of data is synced?]
+original=What type of data is synced?
+translation=哪些类型的数据会被同步？
+
+[heading.sync/How much storage do I have?]
+original=How much storage do I have?
+translation=我有多少存储空间？
+
+[heading.sync/How many remote vaults can I have?]
+original=How many remote vaults can I have?
+translation=我可以拥有多少个远程仓库？
+
+[heading.sync/How large can each remote vault be?]
+original=How large can each remote vault be?
+translation=每个远程仓库可以有多大？
+
+[heading.sync/How many people can I share a remote vault with?]
+original=How many people can I share a remote vault with?
+translation=我可以与多少人分享远程仓库？
+
+[heading.sync/How large can each file be?]
+original=How large can each file be?
+translation=每个文件可以有多大？
+
+[heading.sync/Is my data being synced in the background?]
+original=Is my data being synced in the background?
+translation=我的数据是否在后台同步？
+
+[heading.sync/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Obsidian Sync 会实时重新加载我的设置吗？
+
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
+original=Can I use a third-party sync with Obsidian Sync?
+translation=我可以将第三方同步与 Obsidian Sync 一起使用吗？
+
+[heading.sync/Data retention]
+original=Data retention
+translation=数据保留
+
+[heading.sync/How long do you keep the version history?]
+original=How long do you keep the version history?
+translation=版本历史保留多长时间？
+
+[heading.sync/How long do you keep my data after my subscription expires?]
+original=How long do you keep my data after my subscription expires?
+translation=订阅到期后，你们会保留我的数据多长时间？
+
+[heading.sync/Do you keep my data if I refund my subscription service?]
+original=Do you keep my data if I refund my subscription service?
+translation=如果我申请退款，你们会保留我的数据吗？
+
+[heading.sync/Sync settings]
+original=Sync settings
+translation=同步设置
+
+[heading.sync/Conflict resolution]
+original=Conflict resolution
+translation=冲突解决方式
+
+[heading.sync/Selective syncing]
+original=Selective syncing
+translation=选择性同步
+
+[heading.sync/Change the file types you want to sync]
+original=Change the file types you want to sync
+translation=更改要同步的文件类型
+
+[heading.sync/Exclude a folder from syncing]
+original=Exclude a folder from syncing
+translation=排除某个文件夹不同步
+
+[heading.sync/Always excluded from sync]
+original=Always excluded from sync
+translation=始终被排除的内容
+
+[heading.sync/File recovery snapshots]
+original=File recovery snapshots
+translation=文件恢复快照
+
+[heading.sync/Hidden files and folders]
+original=Hidden files and folders
+translation=隐藏文件和文件夹
+
+[heading.sync/Updating your synced vault settings]
+original=Updating your synced vault settings
+translation=更新已同步仓库的设置
+
+[heading.sync/Primary device]
+original=Primary device
+translation=主要设备
+
+[heading.sync/Secondary device(s)]
+original=Secondary device(s)
+translation=次要设备
+
+[heading.sync/Reloading of settings]
+original=Reloading of settings
+translation=设置的重新加载
+
+[heading.sync/Settings profiles]
+original=Settings profiles
+translation=设置配置文件
+
+[heading.sync/Create a settings profile]
+original=Create a settings profile
+translation=创建设置配置文件
+
+[heading.sync/Set up Obsidian Sync for the first time]
+original=Set up Obsidian Sync for the first time
+translation=首次设置 Obsidian Sync
+
+[heading.sync/Log in with your Obsidian account]
+original=Log in with your Obsidian account
+translation=使用 Obsidian 账户登录
+
+[heading.sync/Enable Obsidian Sync]
+original=Enable Obsidian Sync
+translation=启用 Obsidian Sync
+
+[heading.sync/Create a new remote vault]
+original=Create a new remote vault
+translation=新建远程仓库
+
+[heading.sync/Connect to a remote vault]
+original=Connect to a remote vault
+translation=连接到远程仓库
+
+[heading.sync/Adjust Obsidian Sync settings]
+original=Adjust Obsidian Sync settings
+translation=调整 Obsidian Sync 设置
+
+[heading.sync/Begin syncing with Obsidian Sync]
+original=Begin syncing with Obsidian Sync
+translation=开始使用 Obsidian Sync 同步
+
+[heading.sync/Sync a remote vault on another device]
+original=Sync a remote vault on another device
+translation=在其他设备上同步远程仓库
+
+[heading.sync/Sync your vault from the vault switcher]
+original=Sync your vault from the vault switcher
+translation=从仓库切换器同步仓库
+
+[heading.sync/Sync your vault from Obsidian Settings]
+original=Sync your vault from Obsidian Settings
+translation=从 Obsidian 设置中同步仓库
+
+[heading.sync/Manage your remote vaults]
+original=Manage your remote vaults
+translation=管理远程仓库
+
+[heading.sync/Disconnect from a remote vault]
+original=Disconnect from a remote vault
+translation=断开远程仓库连接
+
+[heading.sync/Delete a remote vault]
+original=Delete a remote vault
+translation=删除远程仓库
+
+[heading.sync/Regional sync servers]
+original=Regional sync servers
+translation=区域同步服务器
+
+[heading.sync/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Obsidian Sync 如何处理冲突
+
+[heading.sync/Conflict resolution options]
+original=Conflict resolution options
+translation=冲突解决方式选项
+
+[heading.sync/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=同步删除了我刚在两个设备上创建的笔记
+
+[heading.sync/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=同步服务无法同步我的插件和设置更新
+
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=我的文件在恢复后又从同步中消失了
+
+[heading.sync/File-based sync services]
+original=File-based sync services
+translation=基于文件的同步服务
+
+[heading.sync/Sync behavior]
+original=Sync behavior
+translation=同步行为
+
+[heading.sync/Offline behavior]
+original=Offline behavior
+translation=离线行为
+
+[heading.sync/Sync history]
+original=Sync history
+translation=同步历史
+
+[heading.sync/Show Sync history]
+original=Show Sync history
+translation=显示同步历史
+
+[heading.sync/Enable via Command palette]
+original=Enable via Command palette
+translation=通过命令面板启用
+
+[heading.sync/Enable via Hotkey]
+original=Enable via Hotkey
+translation=通过快捷键启用
+
+[heading.sync/Version history]
+original=Version history
+translation=版本历史
+
+[heading.sync/Notes and attachments]
+original=Notes and attachments
+translation=笔记和附件
+
+[heading.sync/View version history of a file]
+original=View version history of a file
+translation=查看文件的版本历史
+
+[heading.sync/View version history of a deleted or renamed file]
+original=View version history of a deleted or renamed file
+translation=查看已删除或已重命名文件的版本历史
+
+[heading.sync/Restore a previous version of a file]
+original=Restore a previous version of a file
+translation=恢复文件的先前版本
+
+[heading.sync/Restore a deleted file]
+original=Restore a deleted file
+translation=恢复已删除的文件
+
+[heading.sync/Settings history]
+original=Settings history
+translation=设置历史
+
+[heading.sync/View version history of a setting]
+original=View version history of a setting
+translation=查看设置的版本历史
+
+[heading.sync/Restore a previous version of a setting]
+original=Restore a previous version of a setting
+translation=恢复设置的先前版本
+
+[heading.sync/Plans]
+original=Plans
+translation=订阅计划
+
+[heading.sync/Storage limits]
+original=Storage limits
+translation=存储限制
+
+[heading.sync/Identify and delete large files]
+original=Identify and delete large files
+translation=识别并删除大文件
+
+[heading.sync/Upgrade your plan]
+original=Upgrade your plan
+translation=升级你的计划
+
+[heading.sync/Downgrade your plan]
+original=Downgrade your plan
+translation=降级你的计划
+
+[heading.sync/Preserve version history]
+original=Preserve version history
+translation=保留版本历史
+
+[heading.teams/Publishing tools and services]
 original=Publishing tools and services
 translation=发布工具和服务
 
-[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+[heading.teams/Advanced collaboration for Obsidian Publish]
 original=Advanced collaboration for Obsidian Publish
 translation=Obsidian Publish 的高级协作功能
 
-[heading.teams/publish/Media]
+[heading.teams/Media]
 original=Media
 translation=媒体文件
 
-[heading.teams/publish/Frequently asked questions]
+[heading.teams/Frequently asked questions]
 original=Frequently asked questions
-translation=常见问题
+translation=常见问题解答
 
-[heading.import/csv/Create notes from CSV data in Obsidian]
+[heading.teams/Purchase a commercial license]
+original=Purchase a commercial license
+translation=购买商用许可证
+
+[heading.teams/Apply a commercial license]
+original=Apply a commercial license
+translation=应用商用许可证
+
+[heading.teams/Supporting organizations]
+original=Supporting organizations
+translation=支持组织
+
+[heading.teams/Considerations]
+original=Considerations
+translation=考虑事项
+
+[heading.teams/Community plugins and themes]
+original=Community plugins and themes
+translation=社区插件和主题
+
+[heading.teams/Network and access]
+original=Network and access
+translation=网络和访问
+
+[heading.teams/Obsidian-sourced connections]
+original=Obsidian-sourced connections
+translation=来自 Obsidian 的连接
+
+[heading.teams/GitHub-sourced connections]
+original=GitHub-sourced connections
+translation=来自 GitHub 的连接
+
+[heading.teams/Other connections]
+original=Other connections
+translation=其他连接
+
+[heading.teams/Account security]
+original=Account security
+translation=账户安全
+
+[heading.teams/Assessments and certifications]
+original=Assessments and certifications
+translation=评估和认证
+
+[heading.teams/Use Obsidian with your team]
+original=Use Obsidian with your team
+translation=与团队成员一起使用 Obsidian
+
+[heading.teams/Important resources]
+original=Important resources
+translation=重要资源
+
+[heading.teams/Syncing tools and services]
+original=Syncing tools and services
+translation=同步工具与服务
+
+[heading.teams/Obsidian Sync for teams]
+original=Obsidian Sync for teams
+translation=团队使用 Obsidian Sync
+
+[heading.teams/Security]
+original=Security
+translation=安全性
+
+[heading.teams/Install and update Obsidian]
+original=Install and update Obsidian
+translation=安装和更新 Obsidian
+
+[heading.teams/Customizing Obsidian]
+original=Customizing Obsidian
+translation=定制 Obsidian
+
+[heading.teams/Configuration folders]
+original=Configuration folders
+translation=设置文件夹
+
+[heading.teams/Plugins]
+original=Plugins
+translation=插件
+
+[heading.teams/Themes and snippets]
+original=Themes and snippets
+translation=主题和片段
+
+[heading.teams/Deployment]
+original=Deployment
+translation=部署
+
+[heading.import/Create notes from CSV data in Obsidian]
 original=Create notes from CSV data in Obsidian
 translation=在 Obsidian 中从 CSV 数据创建笔记
 
-[heading.import/csv/Configure how CSV fields are imported]
+[heading.import/Configure how CSV fields are imported]
 original=Configure how CSV fields are imported
 translation=配置 CSV 字段的导入方式
 
-[heading.import/textbundle/Import Textbundle files into Obsidian]
+[heading.import/Import Textbundle files into Obsidian]
 original=Import Textbundle files into Obsidian
 translation=将 Textbundle 文件导入 Obsidian
 
-[heading.import/textbundle/Troubleshooting]
+[heading.import/Troubleshooting]
 original=Troubleshooting
-translation=故障排查
+translation=故障排除
 
-[heading.import/textbundle/No files are selected for import]
+[heading.import/No files are selected for import]
 original=No files are selected for import
 translation=没有文件被选中进行导入
 
-[heading.import/apple-journal/Export your data from Apple Journal]
+[heading.import/Export your data from Apple Journal]
 original=Export your data from Apple Journal
 translation=从 Apple Journal 导出数据
 
-[heading.import/apple-journal/On iPhone]
+[heading.import/On iPhone]
 original=On iPhone
 translation=在 iPhone 上
 
-[heading.import/apple-journal/On Mac (Tahoe)]
+[heading.import/On Mac (Tahoe)]
 original=On Mac (Tahoe)
 translation=在 Mac（Tahoe）上
 
-[heading.import/apple-journal/Import Apple Journal data into Obsidian]
+[heading.import/Import Apple Journal data into Obsidian]
 original=Import Apple Journal data into Obsidian
 translation=将 Apple Journal 数据导入 Obsidian
 
-[heading.import/apple-journal/Supported content]
+[heading.import/Supported content]
 original=Supported content
 translation=支持的内容
 
-[heading.import/craft/Export your data from Craft]
+[heading.import/Export your data from Craft]
 original=Export your data from Craft
 translation=从 Craft 导出数据
 
-[heading.import/craft/Import your Craft data into Obsidian]
+[heading.import/Import your Craft data into Obsidian]
 original=Import your Craft data into Obsidian
 translation=将 Craft 数据导入 Obsidian
 
-[heading.import/craft/Troubleshooting]
-original=Troubleshooting
-translation=故障排查
+[heading.import/Export your data from Evernote]
+original=Export your data from Evernote
+translation=从 Evernote 导出数据
 
-[heading.plugins/importer/Install Importer]
+[heading.import/Import your Evernote data into Obsidian]
+original=Import your Evernote data into Obsidian
+translation=将 Evernote 数据导入Obsidian
+
+[heading.import/Advanced import options]
+original=Advanced import options
+translation=高级导入选项
+
+[heading.import/Maintain tag hierarchy]
+original=Maintain tag hierarchy
+translation=保留标签层次结构
+
+[heading.import/Handling notebook stacks]
+original=Handling notebook stacks
+translation=处理笔记本组
+
+[heading.import/More options]
+original=More options
+translation=更多选项
+
+[heading.import/Export your data from Google Keep]
+original=Export your data from Google Keep
+translation=从 Google Keep 导出数据
+
+[heading.import/Import your Google Keep data into Obsidian]
+original=Import your Google Keep data into Obsidian
+translation=将Google Keep数据导入Obsidian
+
+[heading.import/Supported features]
+original=Supported features
+translation=导入说明
+
+[heading.import/Import your OneNote data into Obsidian]
+original=Import your OneNote data into Obsidian
+translation=将 OneNote 数据导入 Obsidian
+
+[heading.import/No sections or notebooks appear]
+original=No sections or notebooks appear
+translation=没有显示任何章节或笔记本
+
+[heading.import/Imported notes are empty or missing content]
+original=Imported notes are empty or missing content
+translation=导入的笔记为空或内容丢失
+
+[heading.import/Privacy]
+original=Privacy
+translation=隐私
+
+[heading.import/API import]
+original=API import
+translation=API 导入
+
+[heading.import/Create a Notion API integration token]
+original=Create a Notion API integration token
+translation=创建 Notion API 集成令牌
+
+[heading.import/Import your Notion data via API]
+original=Import your Notion data via API
+translation=通过 API 导入 Notion 数据
+
+[heading.import/Limitations]
+original=Limitations
+translation=限制
+
+[heading.import/File import]
+original=File import
+translation=文件导入
+
+[heading.import/Export your data from Notion]
+original=Export your data from Notion
+translation=从 Notion 导出数据
+
+[heading.import/Import your Notion .zip file]
+original=Import your Notion .zip file
+translation=导入你的 Notion .zip 文件
+
+[heading.import/Importing large workspaces]
+original=Importing large workspaces
+translation=导入大型工作区
+
+[heading.import/Export your data from Roam Research]
+original=Export your data from Roam Research
+translation=从 Roam Research 中导出数据
+
+[heading.import/Import your Roam Research data into Obsidian]
+original=Import your Roam Research data into Obsidian
+translation=将 Roam Research 数据导入 Obsidian
+
+[heading.import/Export your data from Bear]
+original=Export your data from Bear
+translation=从熊掌记导出你的数据
+
+[heading.import/Import your Bear data into Obsidian]
+original=Import your Bear data into Obsidian
+translation=将熊掌记数据导入 Obsidian
+
+[heading.import/Import Apple Notes data into Obsidian]
+original=Import Apple Notes data into Obsidian
+translation=将 Apple Notes 数据导入 Obsidian
+
+[heading.import/Scans]
+original=Scans
+translation=扫描文件
+
+[heading.import/Alternate export methods]
+original=Alternate export methods
+translation=备选的导出方法
+
+[heading.import/Import HTML data into Obsidian]
+original=Import HTML data into Obsidian
+translation=将 HTML 数据导入 Obsidian
+
+[heading.import/Import settings]
+original=Import settings
+translation=导入设置
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=如何从其他笔记软件或文件导入笔记
+
+[heading.import/More formats]
+original=More formats
+translation=更多格式
+
+[heading.plugins/Install Importer]
 original=Install Importer
 translation=安装迁移助手
+
+[heading.plugins/Reader view]
+original=Reader view
+translation=阅读视图
+
+[heading.plugins/Save to vault]
+original=Save to vault
+translation=保存到仓库
+
+[heading.plugins/Ad blocking]
+original=Ad blocking
+translation=广告拦截
+
+[heading.plugins/Security]
+original=Security
+translation=安全性
+
+[heading.plugins/Supported formats]
+original=Supported formats
+translation=支持的格式
+
+[heading.plugins/Add a bookmark]
+original=Add a bookmark
+translation=添加书签
+
+[heading.plugins/Remove a bookmark]
+original=Remove a bookmark
+translation=移除书签
+
+[heading.plugins/Add a bookmark group]
+original=Add a bookmark group
+translation=添加书签组
+
+[heading.plugins/Remove a bookmark group]
+original=Remove a bookmark group
+translation=移除书签组
+
+[heading.plugins/Bookmark multiple files]
+original=Bookmark multiple files
+translation=一次收藏多个文件
+
+[heading.plugins/Settings]
+original=Settings
+translation=设置
+
+[heading.plugins/Filters]
+original=Filters
+translation=筛选
+
+[heading.plugins/Groups]
+original=Groups
+translation=颜色组
+
+[heading.plugins/Display]
+original=Display
+translation=外观
+
+[heading.plugins/Forces]
+original=Forces
+translation=力度
+
+[heading.plugins/Start a time-lapse animation]
+original=Start a time-lapse animation
+translation=关系图谱生长动画
+
+[heading.plugins/Local Graph]
+original=Local Graph
+translation=局部关系图
+
+[heading.plugins/Show backlinks]
+original=Show backlinks
+translation=显示反向链接
+
+[heading.plugins/View backlinks for a note]
+original=View backlinks for a note
+translation=查看文件的反向链接
+
+[heading.plugins/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=在新标签页中查看反向链接列表
+
+[heading.plugins/Show backlinks in a note]
+original=Show backlinks in a note
+translation=在标签页中显示反向链接
+
+[heading.plugins/Pinned commands]
+original=Pinned commands
+translation=置顶命令
+
+[heading.plugins/Pin a command]
+original=Pin a command
+translation=置顶命令
+
+[heading.plugins/Unpin a command]
+original=Unpin a command
+translation=取消置顶命令
+
+[heading.plugins/All properties view]
+original=All properties view
+translation=所有属性视图
+
+[heading.plugins/Save a workspace]
+original=Save a workspace
+translation=保存工作区布局
+
+[heading.plugins/Load a workspace]
+original=Load a workspace
+translation=加载工作区布局
+
+[heading.plugins/Delete a workspace]
+original=Delete a workspace
+translation=删除工作区布局
+
+[heading.plugins/Record audio in a note]
+original=Record audio in a note
+translation=在笔记中录制音频
+
+[heading.plugins/Open Quick switcher]
+original=Open Quick switcher
+translation=打开快速切换
+
+[heading.plugins/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=使用快速切换打开笔记
+
+[heading.plugins/Search terms]
+original=Search terms
+translation=搜索词
+
+[heading.plugins/Search operators]
+original=Search operators
+translation=搜索运算符
+
+[heading.plugins/Search properties]
+original=Search properties
+translation=搜索属性
+
+[heading.plugins/Change case sensitivity]
+original=Change case sensitivity
+translation=更改大小写敏感性
+
+[heading.plugins/Change result sort order]
+original=Change result sort order
+translation=更改结果排序顺序
+
+[heading.plugins/Copy search results]
+original=Copy search results
+translation=复制搜索结果
+
+[heading.plugins/Use regular expressions]
+original=Use regular expressions
+translation=使用正则表达式
+
+[heading.plugins/Configure search settings]
+original=Configure search settings
+translation=配置搜索设置
+
+[heading.plugins/Embed search results in a note]
+original=Embed search results in a note
+translation=在笔记中嵌入搜索结果
+
+[heading.plugins/Create a new note]
+original=Create a new note
+translation=创建新笔记
+
+[heading.plugins/Create a new folder]
+original=Create a new folder
+translation=创建新文件夹
+
+[heading.plugins/Change sort order]
+original=Change sort order
+translation=更改排序方式
+
+[heading.plugins/Auto-reveal active file]
+original=Auto-reveal active file
+translation=自动定位当前文件
+
+[heading.plugins/Expand or collapse all folders]
+original=Expand or collapse all folders
+translation=展开或收起所有文件夹
+
+[heading.plugins/Delete a file or folder]
+original=Delete a file or folder
+translation=删除文件或文件夹
+
+[heading.plugins/Rename a file or folder]
+original=Rename a file or folder
+translation=重命名文件或文件夹
+
+[heading.plugins/Move a file or folder]
+original=Move a file or folder
+translation=移动文件或文件夹
+
+[heading.plugins/Recover a snapshot]
+original=Recover a snapshot
+translation=恢复快照
+
+[heading.plugins/Clear snapshot history]
+original=Clear snapshot history
+translation=清空快照历史记录
+
+[heading.plugins/Storage and performance]
+original=Storage and performance
+translation=存储与性能
+
+[heading.plugins/Limitations]
+original=Limitations
+translation=限制
+
+[heading.plugins/Create a daily note from template]
+original=Create a daily note from template
+translation=使用模板创建日记
+
+[heading.plugins/Daily notes and properties]
+original=Daily notes and properties
+translation=日记和属性
+
+[heading.plugins/Create a unique note]
+original=Create a unique note
+translation=创建时间戳笔记
+
+[heading.plugins/Create unique notes from a template]
+original=Create unique notes from a template
+translation=从模板创建时间戳笔记
+
+[heading.plugins/All core plugins]
+original=All core plugins
+translation=所有核心插件
+
+[heading.plugins/Other plugins]
+original=Other plugins
+translation=其他插件
+
+[heading.plugins/Set your template folder]
+original=Set your template folder
+translation=设置模板文件夹
+
+[heading.plugins/Template variables]
+original=Template variables
+translation=模板变量
+
+[heading.plugins/Create a template]
+original=Create a template
+translation=创建模板
+
+[heading.plugins/Insert a template into the active note]
+original=Insert a template into the active note
+translation=将模板插入到当前活动笔记
+
+[heading.plugins/Template properties]
+original=Template properties
+translation=模板属性
+
+[heading.plugins/Create a new canvas]
+original=Create a new canvas
+translation=新建白板
+
+[heading.plugins/Add cards]
+original=Add cards
+translation=添加卡片
+
+[heading.plugins/Add text cards]
+original=Add text cards
+translation=添加文本卡片
+
+[heading.plugins/Add cards from notes]
+original=Add cards from notes
+translation=添加笔记卡片
+
+[heading.plugins/Add cards from media]
+original=Add cards from media
+translation=添加媒体卡片
+
+[heading.plugins/Add cards from web pages]
+original=Add cards from web pages
+translation=添加网页卡片
+
+[heading.plugins/Add cards from folders]
+original=Add cards from folders
+translation=添加文件夹内所有文件
+
+[heading.plugins/Edit a card]
+original=Edit a card
+translation=编辑卡片
+
+[heading.plugins/Delete a card]
+original=Delete a card
+translation=移除卡片
+
+[heading.plugins/Swap cards]
+original=Swap cards
+translation=替换卡片内容
+
+[heading.plugins/Select cards]
+original=Select cards
+translation=选择卡片
+
+[heading.plugins/Arrange cards]
+original=Arrange cards
+translation=整理卡片
+
+[heading.plugins/Resize a card]
+original=Resize a card
+translation=调整卡片大小
+
+[heading.plugins/Connect cards]
+original=Connect cards
+translation=连接卡片
+
+[heading.plugins/Connect two cards]
+original=Connect two cards
+translation=连接两张卡片
+
+[heading.plugins/Disconnect two cards]
+original=Disconnect two cards
+translation=断开卡片连接
+
+[heading.plugins/Connect a card to a different card]
+original=Connect a card to a different card
+translation=更改连接对象
+
+[heading.plugins/Navigate a connection]
+original=Navigate a connection
+translation=跟随连接
+
+[heading.plugins/Add a label to a connection]
+original=Add a label to a connection
+translation=为连接添加说明
+
+[heading.plugins/Change the color of a card or connection]
+original=Change the color of a card or connection
+translation=更改卡片或连接线的颜色
+
+[heading.plugins/Group cards]
+original=Group cards
+translation=卡片编组
+
+[heading.plugins/Group selected cards]
+original=Group selected cards
+translation=将所选卡片编组
+
+[heading.plugins/Navigate the canvas]
+original=Navigate the canvas
+translation=浏览白板
+
+[heading.plugins/Pan the canvas]
+original=Pan the canvas
+translation=平移白板
+
+[heading.plugins/Zoom the canvas]
+original=Zoom the canvas
+translation=缩放白板
+
+[heading.plugins/Zoom to fit]
+original=Zoom to fit
+translation=自适应缩放
+
+[heading.plugins/Zoom to selection]
+original=Zoom to selection
+translation=聚焦所选卡片
+
+[heading.plugins/Reset zoom]
+original=Reset zoom
+translation=重置缩放
+
+[heading.plugins/Advanced tips]
+original=Advanced tips
+translation=高级技巧
+
+[heading.plugins/Merge notes]
+original=Merge notes
+translation=合并笔记
+
+[heading.plugins/Extract note]
+original=Extract note
+translation=移动笔记内容
+
+[heading.plugins/Template file]
+original=Template file
+translation=模板文件
 
 [heading.sandbox/Opening the sandbox vault]
 original=Opening the sandbox vault
@@ -1077,22 +2245,6 @@ translation=登录
 [heading.headless/Services]
 original=Services
 translation=服务
-
-[heading.plugins/web-viewer/Reader view]
-original=Reader view
-translation=阅读视图
-
-[heading.plugins/web-viewer/Save to vault]
-original=Save to vault
-translation=保存到仓库
-
-[heading.plugins/web-viewer/Ad blocking]
-original=Ad blocking
-translation=广告拦截
-
-[heading.plugins/web-viewer/Security]
-original=Security
-translation=安全性
 
 [heading.settings/Open Settings]
 original=Open Settings
@@ -1678,650 +2830,6 @@ translation=参与贡献的其他组织
 original=Previous logo
 translation=logo
 
-[heading.publish/limitations/Community plugins]
-original=Community plugins
-translation=社区插件
-
-[heading.publish/limitations/Graph]
-original=Graph
-translation=图谱
-
-[heading.publish/limitations/Media files]
-original=Media files
-translation=媒体文件
-
-[heading.publish/limitations/PDFs]
-original=PDFs
-translation=PDF 文件
-
-[heading.publish/limitations/Search]
-original=Search
-translation=搜索
-
-[heading.publish/media/Images]
-original=Images
-translation=图片
-
-[heading.publish/media/PDFs]
-original=PDFs
-translation=PDF 文件
-
-[heading.publish/media/Videos and audio]
-original=Videos and audio
-translation=视频和音频
-
-[heading.publish/How to use Obsidian Publish]
-original=How to use Obsidian Publish
-translation=如何使用发布服务
-
-[heading.publish/publish/Prerequisites]
-original=Prerequisites
-translation=前提条件
-
-[heading.publish/publish/Publish notes]
-original=Publish notes
-translation=发布笔记
-
-[heading.publish/publish/Unpublish notes]
-original=Unpublish notes
-translation=取消发布笔记
-
-[heading.publish/publish/Update a published note]
-original=Update a published note
-translation=更新已发布的笔记
-
-[heading.publish/publish/Publish linked data]
-original=Publish linked data
-translation=发布关联数据
-
-[heading.publish/publish/Automatically select data to publish]
-original=Automatically select data to publish
-translation=自动选择要发布的数据
-
-[heading.publish/publish/Ignore data]
-original=Ignore data
-translation=忽略数据
-
-[heading.publish/analytics/Prerequisites]
-original=Prerequisites
-translation=前提条件
-
-[heading.publish/analytics/Google Analytics]
-original=Google Analytics
-translation=谷歌分析
-
-[heading.publish/analytics/Plausible, Fathom, and other analytics services]
-original=Plausible, Fathom, and other analytics services
-translation=Plausible、Fathom 及其他分析服务
-
-[heading.publish/analytics/Troubleshooting]
-original=Troubleshooting
-translation=故障排除
-
-[heading.publish/collaborate/Add a collaborator to a site]
-original=Add a collaborator to a site
-translation=添加协作者到网站
-
-[heading.publish/collaborate/Remove a collaborator from a site]
-original=Remove a collaborator from a site
-translation=从网站移除协作者
-
-[heading.publish/collaborate/Sync changes between collaborators]
-original=Sync changes between collaborators
-translation=在协作者之间同步修改
-
-[heading.publish/collaborate/Permissions]
-original=Permissions
-translation=权限
-
-[heading.publish/setup/Prerequisites]
-original=Prerequisites
-translation=前提条件
-
-[heading.publish/setup/Log in with your Obsidian account]
-original=Log in with your Obsidian account
-translation=使用你的 Obsidian 账户登录
-
-[heading.publish/setup/Enable Obsidian Publish]
-original=Enable Obsidian Publish
-translation=启用 Obsidian Publish
-
-[heading.publish/setup/Open Publish]
-original=Open Publish
-translation=打开发布
-
-[heading.publish/setup/Open via Command palette]
-original=Open via Command palette
-translation=通过命令面板打开
-
-[heading.publish/setup/Open via hotkey]
-original=Open via hotkey
-translation=通过快捷键打开
-
-[heading.publish/setup/Open via ribbon]
-original=Open via ribbon
-translation=通过功能区打开
-
-[heading.publish/setup/Create a new site]
-original=Create a new site
-translation=创建新网站
-
-[heading.publish/setup/Set a site name]
-original=Set a site name
-translation=设置网站名称
-
-[heading.publish/setup/Select notes to publish]
-original=Select notes to publish
-translation=选择要发布的笔记
-
-[heading.publish/setup/Next steps]
-original=Next steps
-translation=下一步
-
-[heading.publish/sites/Create a new site]
-original=Create a new site
-translation=创建新网站
-
-[heading.publish/sites/Delete an existing site]
-original=Delete an existing site
-translation=删除现有网站
-
-[heading.publish/sites/Switch between sites]
-original=Switch between sites
-translation=在网站之间切换
-
-[heading.publish/sites/Change the site ID]
-original=Change the site ID
-translation=更改网站 ID
-
-[heading.publish/sites/View site options]
-original=View site options
-translation=查看网站设置
-
-[heading.publish/sites/Site options]
-original=Site options
-translation=网站设置
-
-[heading.publish/sites/General]
-original=General
-translation=常规
-
-[heading.publish/sites/Appearance]
-original=Appearance
-translation=外观
-
-[heading.publish/sites/Reading experience]
-original=Reading experience
-translation=阅读体验
-
-[heading.publish/sites/Components]
-original=Components
-translation=组件
-
-[heading.publish/sites/Other site settings]
-original=Other site settings
-translation=其他设置
-
-[heading.publish/social-share/Description]
-original=Description
-translation=摘要
-
-[heading.publish/social-share/Image]
-original=Image
-translation=图片
-
-[heading.publish/domains/Set up using CloudFlare]
-original=Set up using CloudFlare
-translation=使用 CloudFlare 设置
-
-[heading.publish/domains/Set up using a proxy]
-original=Set up using a proxy
-translation=使用代理设置
-
-[heading.publish/domains/Supported HTTP X-Headers]
-original=Supported HTTP X-Headers
-translation=支持的 HTTP X-Headers
-
-[heading.publish/domains/Redirect old site to custom domain]
-original=Redirect old site to custom domain
-translation=将旧网站重定向到自定义域名
-
-[heading.publish/domains/Troubleshoot]
-original=Troubleshoot
-translation=故障排除
-
-[heading.publish/customize/Static assets]
-original=Static assets
-translation=静态资源
-
-[heading.publish/customize/Use a community theme]
-original=Use a community theme
-translation=使用社区主题
-
-[heading.publish/customize/Enable UI features]
-original=Enable UI features
-translation=调整界面功能
-
-[heading.publish/customize/Customize navigation]
-original=Customize navigation
-translation=自定义文件列表
-
-[heading.publish/customize/Accessing Customize navigation options]
-original=Accessing Customize navigation options
-translation=进入自定义文件列表设置
-
-[heading.publish/customize/Adjust navigation items]
-original=Adjust navigation items
-translation=调整文件列表顺序
-
-[heading.publish/customize/Hide and unhide navigation items]
-original=Hide and unhide navigation items
-translation=隐藏和取消隐藏列表项目
-
-[heading.publish/customize/FAQ]
-original=FAQ
-translation=常见问题
-
-[heading.sync/How to use Obsidian Sync]
-original=How to use Obsidian Sync
-translation=如何使用 Obsidian Sync
-
-[heading.sync/Important]
-original=Important
-translation=重要
-
-[heading.sync/collaborate/Manage users]
-original=Manage users
-translation=管理用户
-
-[heading.sync/collaborate/Add users]
-original=Add users
-translation=添加用户
-
-[heading.sync/collaborate/Remove users]
-original=Remove users
-translation=移除用户
-
-[heading.sync/collaborate/Collaborate with your team]
-original=Collaborate with your team
-translation=与团队协作
-
-[heading.sync/collaborate/Permissions]
-original=Permissions
-translation=权限
-
-[heading.sync/collaborate/Live editing]
-original=Live editing
-translation=实时编辑
-
-[heading.sync/collaborate/Limitations]
-original=Limitations
-translation=限制
-
-[heading.sync/security/Encryption]
-original=Encryption
-translation=加密
-
-[heading.sync/security/What does end-to-end encryption mean?]
-original=What does end-to-end encryption mean?
-translation=端到端加密意味着什么？
-
-[heading.sync/security/What are the risks of using standard encryption?]
-original=What are the risks of using standard encryption?
-translation=使用标准加密有哪些风险？
-
-[heading.sync/security/What encryption do you use?]
-original=What encryption do you use?
-translation=你们使用什么加密方式？
-
-[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
-original=Can I verify that my data is end-to-end encrypted?
-translation=我可以验证我的数据是否经过端到端加密吗？
-
-[heading.sync/security/Has Obsidian completed a third-party security audit?]
-original=Has Obsidian completed a third-party security audit?
-translation=Obsidian 是否通过了第三方安全审计？
-
-[heading.sync/security/What happens if I forget my encryption password?]
-original=What happens if I forget my encryption password?
-translation=如果我忘记了加密密码怎么办？
-
-[heading.sync/security/Hosting]
-original=Hosting
-translation=托管
-
-[heading.sync/security/Where do you host the servers for Obsidian Sync?]
-original=Where do you host the servers for Obsidian Sync?
-translation=Obsidian Sync 的服务器托管在哪里？
-
-[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
-original=Where can I find my current Sync server and where is it hosted?
-translation=如何查找当前的 Sync 服务器及其托管位置？
-
-[heading.sync/security/Network and access]
-original=Network and access
-translation=网络与访问
-
-[heading.sync/security/Managing access to Obsidian Sync on your network]
-original=Managing access to Obsidian Sync on your network
-translation=在你的网络上管理对 Obsidian Sync 的访问
-
-[heading.sync/security/Limitations]
-original=Limitations
-translation=限制
-
-[heading.sync/security/Deterministic file-hash encryption]
-original=Deterministic file-hash encryption
-translation=确定性文件哈希加密
-
-[heading.sync/security/No cryptographic binding between path and content]
-original=No cryptographic binding between path and content
-translation=路径与内容之间没有加密绑定
-
-[heading.sync/faq/General]
-original=General
-translation=常规
-
-[heading.sync/faq/What operating systems does Obsidian Sync support?]
-original=What operating systems does Obsidian Sync support?
-translation=Obsidian Sync 支持哪些操作系统？
-
-[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
-original=Does Obsidian work with Apple's Lockdown Mode?
-translation=Obsidian 是否支持 Apple 的锁定模式？
-
-[heading.sync/faq/What type of data is synced?]
-original=What type of data is synced?
-translation=哪些类型的数据会被同步？
-
-[heading.sync/faq/How much storage do I have?]
-original=How much storage do I have?
-translation=我有多少存储空间？
-
-[heading.sync/faq/How many remote vaults can I have?]
-original=How many remote vaults can I have?
-translation=我可以拥有多少个远程仓库？
-
-[heading.sync/faq/How large can each remote vault be?]
-original=How large can each remote vault be?
-translation=每个远程仓库可以有多大？
-
-[heading.sync/faq/How many people can I share a remote vault with?]
-original=How many people can I share a remote vault with?
-translation=我可以与多少人分享远程仓库？
-
-[heading.sync/faq/How large can each file be?]
-original=How large can each file be?
-translation=每个文件可以有多大？
-
-[heading.sync/faq/Is my data being synced in the background?]
-original=Is my data being synced in the background?
-translation=我的数据是否在后台同步？
-
-[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
-original=Does Obsidian Sync live-reload my settings?
-translation=Obsidian Sync 会实时重新加载我的设置吗？
-
-[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
-original=Can I use a third-party sync with Obsidian Sync?
-translation=我可以将第三方同步与 Obsidian Sync 一起使用吗？
-
-[heading.sync/faq/Data retention]
-original=Data retention
-translation=数据保留
-
-[heading.sync/faq/How long do you keep the version history?]
-original=How long do you keep the version history?
-translation=版本历史保留多长时间？
-
-[heading.sync/faq/How long do you keep my data after my subscription expires?]
-original=How long do you keep my data after my subscription expires?
-translation=订阅到期后，你们会保留我的数据多长时间？
-
-[heading.sync/faq/Do you keep my data if I refund my subscription service?]
-original=Do you keep my data if I refund my subscription service?
-translation=如果我申请退款，你们会保留我的数据吗？
-
-[heading.sync/settings/Sync settings]
-original=Sync settings
-translation=同步设置
-
-[heading.sync/settings/Conflict resolution]
-original=Conflict resolution
-translation=冲突解决方式
-
-[heading.sync/settings/Selective syncing]
-original=Selective syncing
-translation=选择性同步
-
-[heading.sync/settings/Change the file types you want to sync]
-original=Change the file types you want to sync
-translation=更改要同步的文件类型
-
-[heading.sync/settings/Exclude a folder from syncing]
-original=Exclude a folder from syncing
-translation=排除某个文件夹不同步
-
-[heading.sync/settings/Always excluded from sync]
-original=Always excluded from sync
-translation=始终被排除的内容
-
-[heading.sync/settings/File recovery snapshots]
-original=File recovery snapshots
-translation=文件恢复快照
-
-[heading.sync/settings/Hidden files and folders]
-original=Hidden files and folders
-translation=隐藏文件和文件夹
-
-[heading.sync/settings/Updating your synced vault settings]
-original=Updating your synced vault settings
-translation=更新已同步仓库的设置
-
-[heading.sync/settings/Primary device]
-original=Primary device
-translation=主要设备
-
-[heading.sync/settings/Secondary device(s)]
-original=Secondary device(s)
-translation=次要设备
-
-[heading.sync/settings/Reloading of settings]
-original=Reloading of settings
-translation=设置的重新加载
-
-[heading.sync/settings/Settings profiles]
-original=Settings profiles
-translation=设置配置文件
-
-[heading.sync/settings/Create a settings profile]
-original=Create a settings profile
-translation=创建设置配置文件
-
-[heading.sync/setup/Set up Obsidian Sync for the first time]
-original=Set up Obsidian Sync for the first time
-translation=首次设置 Obsidian Sync
-
-[heading.sync/setup/Log in with your Obsidian account]
-original=Log in with your Obsidian account
-translation=使用 Obsidian 账户登录
-
-[heading.sync/setup/Enable Obsidian Sync]
-original=Enable Obsidian Sync
-translation=启用 Obsidian Sync
-
-[heading.sync/setup/Create a new remote vault]
-original=Create a new remote vault
-translation=创建新的远程仓库
-
-[heading.sync/setup/Connect to a remote vault]
-original=Connect to a remote vault
-translation=连接到远程仓库
-
-[heading.sync/setup/Adjust Obsidian Sync settings]
-original=Adjust Obsidian Sync settings
-translation=调整 Obsidian Sync 设置
-
-[heading.sync/setup/Begin syncing with Obsidian Sync]
-original=Begin syncing with Obsidian Sync
-translation=开始使用 Obsidian Sync 同步
-
-[heading.sync/setup/Sync a remote vault on another device]
-original=Sync a remote vault on another device
-translation=在其他设备上同步远程仓库
-
-[heading.sync/setup/Sync your vault from the vault switcher]
-original=Sync your vault from the vault switcher
-translation=从仓库切换器同步仓库
-
-[heading.sync/setup/Sync your vault from Obsidian Settings]
-original=Sync your vault from Obsidian Settings
-translation=从 Obsidian 设置中同步仓库
-
-[heading.sync/setup/Manage your remote vaults]
-original=Manage your remote vaults
-translation=管理远程仓库
-
-[heading.sync/setup/Disconnect from a remote vault]
-original=Disconnect from a remote vault
-translation=断开远程仓库连接
-
-[heading.sync/setup/Delete a remote vault]
-original=Delete a remote vault
-translation=删除远程仓库
-
-[heading.sync/setup/Regional sync servers]
-original=Regional sync servers
-translation=区域同步服务器
-
-[heading.sync/setup/Next steps]
-original=Next steps
-translation=后续步骤
-
-[heading.sync/troubleshoot/General]
-original=General
-translation=常规问题
-
-[heading.sync/troubleshoot/Conflict resolution]
-original=Conflict resolution
-translation=冲突解决方式
-
-[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
-original=How Obsidian Sync handles conflicts
-translation=Obsidian Sync 如何处理冲突
-
-[heading.sync/troubleshoot/Conflict resolution options]
-original=Conflict resolution options
-translation=冲突解决方式选项
-
-[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
-original=Sync deleted a note I just created on two devices
-translation=同步删除了我刚在两个设备上创建的笔记
-
-[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
-original=Sync will not sync my plugins and settings updates
-translation=同步服务无法同步我的插件和设置更新
-
-[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
-original=My files keep disappearing from Sync as soon as I restore it
-translation=我的文件在恢复后又从同步中消失了
-
-[heading.sync/vault-types/File-based sync services]
-original=File-based sync services
-translation=基于文件的同步服务
-
-[heading.sync/vault-types/Sync behavior]
-original=Sync behavior
-translation=同步行为
-
-[heading.sync/vault-types/Offline behavior]
-original=Offline behavior
-translation=离线行为
-
-[heading.sync/vault-types/Next steps]
-original=Next steps
-translation=后续步骤
-
-[heading.sync/version-history/Sync history]
-original=Sync history
-translation=同步历史
-
-[heading.sync/version-history/Show Sync history]
-original=Show Sync history
-translation=显示同步历史
-
-[heading.sync/version-history/Enable via Command palette]
-original=Enable via Command palette
-translation=通过命令面板启用
-
-[heading.sync/version-history/Enable via Hotkey]
-original=Enable via Hotkey
-translation=通过快捷键启用
-
-[heading.sync/version-history/Version history]
-original=Version history
-translation=版本历史
-
-[heading.sync/version-history/Notes and attachments]
-original=Notes and attachments
-translation=笔记和附件
-
-[heading.sync/version-history/View version history of a file]
-original=View version history of a file
-translation=查看文件的版本历史
-
-[heading.sync/version-history/View version history of a deleted or renamed file]
-original=View version history of a deleted or renamed file
-translation=查看已删除或已重命名文件的版本历史
-
-[heading.sync/version-history/Restore a previous version of a file]
-original=Restore a previous version of a file
-translation=恢复文件的先前版本
-
-[heading.sync/version-history/Restore a deleted file]
-original=Restore a deleted file
-translation=恢复已删除的文件
-
-[heading.sync/version-history/Settings history]
-original=Settings history
-translation=设置历史
-
-[heading.sync/version-history/View version history of a setting]
-original=View version history of a setting
-translation=查看设置的版本历史
-
-[heading.sync/version-history/Restore a previous version of a setting]
-original=Restore a previous version of a setting
-translation=恢复设置的先前版本
-
-[heading.sync/plans/Plans]
-original=Plans
-translation=订阅计划
-
-[heading.sync/plans/Storage limits]
-original=Storage limits
-translation=存储限制
-
-[heading.sync/plans/Identify and delete large files]
-original=Identify and delete large files
-translation=识别并删除大文件
-
-[heading.sync/plans/Create a new remote vault]
-original=Create a new remote vault
-translation=新建远程仓库
-
-[heading.sync/plans/Upgrade your plan]
-original=Upgrade your plan
-translation=升级你的计划
-
-[heading.sync/plans/Downgrade your plan]
-original=Downgrade your plan
-translation=降级你的计划
-
-[heading.sync/plans/Preserve version history]
-original=Preserve version history
-translation=保留版本历史
-
 [heading.developers/Plugins and themes]
 original=Plugins and themes
 translation=插件和主题
@@ -2450,242 +2958,6 @@ translation=操作指引
 original=Translations
 translation=翻译
 
-[heading.teams/license/Purchase a commercial license]
-original=Purchase a commercial license
-translation=购买商用许可证
-
-[heading.teams/license/Apply a commercial license]
-original=Apply a commercial license
-translation=应用商用许可证
-
-[heading.teams/license/Supporting organizations]
-original=Supporting organizations
-translation=支持组织
-
-[heading.teams/license/Frequently asked questions]
-original=Frequently asked questions
-translation=常见问题
-
-[heading.teams/security/Considerations]
-original=Considerations
-translation=考虑事项
-
-[heading.teams/security/Community plugins and themes]
-original=Community plugins and themes
-translation=社区插件和主题
-
-[heading.teams/security/Network and access]
-original=Network and access
-translation=网络和访问
-
-[heading.teams/security/Obsidian-sourced connections]
-original=Obsidian-sourced connections
-translation=来自 Obsidian 的连接
-
-[heading.teams/security/GitHub-sourced connections]
-original=GitHub-sourced connections
-translation=来自 GitHub 的连接
-
-[heading.teams/security/Other connections]
-original=Other connections
-translation=其他连接
-
-[heading.teams/security/Frequently asked questions]
-original=Frequently asked questions
-translation=常见问题解答
-
-[heading.teams/security/Account security]
-original=Account security
-translation=账户安全
-
-[heading.teams/security/Assessments and certifications]
-original=Assessments and certifications
-translation=评估和认证
-
-[heading.teams/Use Obsidian with your team]
-original=Use Obsidian with your team
-translation=与团队成员一起使用 Obsidian
-
-[heading.teams/Important resources]
-original=Important resources
-translation=重要资源
-
-[heading.teams/sync/Syncing tools and services]
-original=Syncing tools and services
-translation=同步工具与服务
-
-[heading.teams/sync/Obsidian Sync for teams]
-original=Obsidian Sync for teams
-translation=团队使用 Obsidian Sync
-
-[heading.teams/sync/Security]
-original=Security
-translation=安全性
-
-[heading.teams/sync/Frequently asked questions]
-original=Frequently asked questions
-translation=常见问题
-
-[heading.teams/deploy/Install and update Obsidian]
-original=Install and update Obsidian
-translation=安装和更新 Obsidian
-
-[heading.teams/deploy/Customizing Obsidian]
-original=Customizing Obsidian
-translation=定制 Obsidian
-
-[heading.teams/deploy/Configuration folders]
-original=Configuration folders
-translation=设置文件夹
-
-[heading.teams/deploy/Plugins]
-original=Plugins
-translation=插件
-
-[heading.teams/deploy/Themes and snippets]
-original=Themes and snippets
-translation=主题和片段
-
-[heading.teams/deploy/Frequently asked questions]
-original=Frequently asked questions
-translation=常见问题解答
-
-[heading.teams/deploy/Deployment]
-original=Deployment
-translation=部署
-
-[heading.import/evernote/Export your data from Evernote]
-original=Export your data from Evernote
-translation=从 Evernote 导出数据
-
-[heading.import/evernote/Import your Evernote data into Obsidian]
-original=Import your Evernote data into Obsidian
-translation=将 Evernote 数据导入Obsidian
-
-[heading.import/evernote/Advanced import options]
-original=Advanced import options
-translation=高级导入选项
-
-[heading.import/evernote/Maintain tag hierarchy]
-original=Maintain tag hierarchy
-translation=保留标签层次结构
-
-[heading.import/evernote/Handling notebook stacks]
-original=Handling notebook stacks
-translation=处理笔记本组
-
-[heading.import/evernote/More options]
-original=More options
-translation=更多选项
-
-[heading.import/google-keep/Export your data from Google Keep]
-original=Export your data from Google Keep
-translation=从 Google Keep 导出数据
-
-[heading.import/google-keep/Import your Google Keep data into Obsidian]
-original=Import your Google Keep data into Obsidian
-translation=将Google Keep数据导入Obsidian
-
-[heading.import/google-keep/Supported features]
-original=Supported features
-translation=导入说明
-
-[heading.import/onenote/Import your OneNote data into Obsidian]
-original=Import your OneNote data into Obsidian
-translation=将 OneNote 数据导入 Obsidian
-
-[heading.import/onenote/Troubleshooting]
-original=Troubleshooting
-translation=故障排除
-
-[heading.import/onenote/No sections or notebooks appear]
-original=No sections or notebooks appear
-translation=没有显示任何章节或笔记本
-
-[heading.import/onenote/Imported notes are empty or missing content]
-original=Imported notes are empty or missing content
-translation=导入的笔记为空或内容丢失
-
-[heading.import/onenote/Privacy]
-original=Privacy
-translation=隐私
-
-[heading.import/notion/API import]
-original=API import
-translation=API 导入
-
-[heading.import/notion/Create a Notion API integration token]
-original=Create a Notion API integration token
-translation=创建 Notion API 集成令牌
-
-[heading.import/notion/Import your Notion data via API]
-original=Import your Notion data via API
-translation=通过 API 导入 Notion 数据
-
-[heading.import/notion/Limitations]
-original=Limitations
-translation=限制
-
-[heading.import/notion/File import]
-original=File import
-translation=文件导入
-
-[heading.import/notion/Export your data from Notion]
-original=Export your data from Notion
-translation=从 Notion 导出数据
-
-[heading.import/notion/Import your Notion .zip file]
-original=Import your Notion .zip file
-translation=导入你的 Notion .zip 文件
-
-[heading.import/notion/Troubleshooting]
-original=Troubleshooting
-translation=故障排除
-
-[heading.import/notion/Importing large workspaces]
-original=Importing large workspaces
-translation=导入大型工作区
-
-[heading.import/roam/Export your data from Roam Research]
-original=Export your data from Roam Research
-translation=从 Roam Research 中导出数据
-
-[heading.import/roam/Import your Roam Research data into Obsidian]
-original=Import your Roam Research data into Obsidian
-translation=将 Roam Research 数据导入 Obsidian
-
-[heading.import/bear/Export your data from Bear]
-original=Export your data from Bear
-translation=从熊掌记导出你的数据
-
-[heading.import/bear/Import your Bear data into Obsidian]
-original=Import your Bear data into Obsidian
-translation=将熊掌记数据导入 Obsidian
-
-[heading.import/apple-notes/Import Apple Notes data into Obsidian]
-original=Import Apple Notes data into Obsidian
-translation=将 Apple Notes 数据导入 Obsidian
-
-[heading.import/apple-notes/Supported content]
-original=Supported content
-translation=支持的内容
-
-[heading.import/apple-notes/Scans]
-original=Scans
-translation=扫描文件
-
-[heading.import/apple-notes/Alternate export methods]
-original=Alternate export methods
-translation=备选的导出方法
-
-[heading.import/html/Import HTML data into Obsidian]
-original=Import HTML data into Obsidian
-translation=将 HTML 数据导入 Obsidian
-
-[heading.import/html/Import settings]
-original=Import settings
-translation=导入设置
-
 [heading.resources/Questions and advice]
 original=Questions and advice
 translation=疑问与建议
@@ -2809,14 +3081,6 @@ translation=使用电脑备份功能
 [heading.backup/Next steps]
 original=Next steps
 translation=后续步骤
-
-[heading.import/Import from other apps and file formats]
-original=Import from other apps and file formats
-translation=如何从其他笔记软件或文件导入笔记
-
-[heading.import/More formats]
-original=More formats
-translation=更多格式
 
 [heading.updates/Check for updates and view version]
 original=Check for updates and view version
@@ -3190,370 +3454,6 @@ translation=移动端
 original=Change your configuration folder
 translation=更改设置文件夹
 
-[heading.plugins/format-converter/Supported formats]
-original=Supported formats
-translation=支持的格式
-
-[heading.plugins/bookmarks/Add a bookmark]
-original=Add a bookmark
-translation=添加书签
-
-[heading.plugins/bookmarks/Remove a bookmark]
-original=Remove a bookmark
-translation=移除书签
-
-[heading.plugins/bookmarks/Add a bookmark group]
-original=Add a bookmark group
-translation=添加书签组
-
-[heading.plugins/bookmarks/Remove a bookmark group]
-original=Remove a bookmark group
-translation=移除书签组
-
-[heading.plugins/bookmarks/Bookmark multiple files]
-original=Bookmark multiple files
-translation=一次收藏多个文件
-
-[heading.plugins/graph/Settings]
-original=Settings
-translation=设置
-
-[heading.plugins/graph/Filters]
-original=Filters
-translation=筛选
-
-[heading.plugins/graph/Groups]
-original=Groups
-translation=颜色组
-
-[heading.plugins/graph/Display]
-original=Display
-translation=外观
-
-[heading.plugins/graph/Forces]
-original=Forces
-translation=力度
-
-[heading.plugins/graph/Start a time-lapse animation]
-original=Start a time-lapse animation
-translation=关系图谱生长动画
-
-[heading.plugins/graph/Local Graph]
-original=Local Graph
-translation=局部关系图
-
-[heading.plugins/backlinks/Show backlinks]
-original=Show backlinks
-translation=显示反向链接
-
-[heading.plugins/backlinks/View backlinks for a note]
-original=View backlinks for a note
-translation=查看文件的反向链接
-
-[heading.plugins/backlinks/See backlinks of a specific note]
-original=See backlinks of a specific note
-translation=在新标签页中查看反向链接列表
-
-[heading.plugins/backlinks/Show backlinks in a note]
-original=Show backlinks in a note
-translation=在标签页中显示反向链接
-
-[heading.plugins/command-palette/Pinned commands]
-original=Pinned commands
-translation=置顶命令
-
-[heading.plugins/command-palette/Pin a command]
-original=Pin a command
-translation=置顶命令
-
-[heading.plugins/command-palette/Unpin a command]
-original=Unpin a command
-translation=取消置顶命令
-
-[heading.plugins/properties/All properties view]
-original=All properties view
-translation=所有属性视图
-
-[heading.plugins/workspaces/Save a workspace]
-original=Save a workspace
-translation=保存工作区布局
-
-[heading.plugins/workspaces/Load a workspace]
-original=Load a workspace
-translation=加载工作区布局
-
-[heading.plugins/workspaces/Delete a workspace]
-original=Delete a workspace
-translation=删除工作区布局
-
-[heading.plugins/audio-recorder/Record audio in a note]
-original=Record audio in a note
-translation=在笔记中录制音频
-
-[heading.plugins/quick-switcher/Open Quick switcher]
-original=Open Quick switcher
-translation=打开快速切换
-
-[heading.plugins/quick-switcher/Open a note with Quick switcher]
-original=Open a note with Quick switcher
-translation=使用快速切换打开笔记
-
-[heading.plugins/search/Search terms]
-original=Search terms
-translation=搜索词
-
-[heading.plugins/search/Search operators]
-original=Search operators
-translation=搜索运算符
-
-[heading.plugins/search/Search properties]
-original=Search properties
-translation=搜索属性
-
-[heading.plugins/search/Change case sensitivity]
-original=Change case sensitivity
-translation=更改大小写敏感性
-
-[heading.plugins/search/Change result sort order]
-original=Change result sort order
-translation=更改结果排序顺序
-
-[heading.plugins/search/Copy search results]
-original=Copy search results
-translation=复制搜索结果
-
-[heading.plugins/search/Use regular expressions]
-original=Use regular expressions
-translation=使用正则表达式
-
-[heading.plugins/search/Configure search settings]
-original=Configure search settings
-translation=配置搜索设置
-
-[heading.plugins/search/Embed search results in a note]
-original=Embed search results in a note
-translation=在笔记中嵌入搜索结果
-
-[heading.plugins/file-explorer/Create a new note]
-original=Create a new note
-translation=创建新笔记
-
-[heading.plugins/file-explorer/Create a new folder]
-original=Create a new folder
-translation=创建新文件夹
-
-[heading.plugins/file-explorer/Change sort order]
-original=Change sort order
-translation=更改排序方式
-
-[heading.plugins/file-explorer/Auto-reveal active file]
-original=Auto-reveal active file
-translation=自动定位当前文件
-
-[heading.plugins/file-explorer/Expand or collapse all folders]
-original=Expand or collapse all folders
-translation=展开或收起所有文件夹
-
-[heading.plugins/file-explorer/Delete a file or folder]
-original=Delete a file or folder
-translation=删除文件或文件夹
-
-[heading.plugins/file-explorer/Rename a file or folder]
-original=Rename a file or folder
-translation=重命名文件或文件夹
-
-[heading.plugins/file-explorer/Move a file or folder]
-original=Move a file or folder
-translation=移动文件或文件夹
-
-[heading.plugins/file-recovery/Recover a snapshot]
-original=Recover a snapshot
-translation=恢复快照
-
-[heading.plugins/file-recovery/Clear snapshot history]
-original=Clear snapshot history
-translation=清空快照历史记录
-
-[heading.plugins/file-recovery/Storage and performance]
-original=Storage and performance
-translation=存储与性能
-
-[heading.plugins/file-recovery/Limitations]
-original=Limitations
-translation=限制
-
-[heading.plugins/daily-notes/Create a daily note from template]
-original=Create a daily note from template
-translation=使用模板创建日记
-
-[heading.plugins/daily-notes/Daily notes and properties]
-original=Daily notes and properties
-translation=日记和属性
-
-[heading.plugins/unique-note/Create a unique note]
-original=Create a unique note
-translation=创建时间戳笔记
-
-[heading.plugins/unique-note/Create unique notes from a template]
-original=Create unique notes from a template
-translation=从模板创建时间戳笔记
-
-[heading.plugins/All core plugins]
-original=All core plugins
-translation=所有核心插件
-
-[heading.plugins/Other plugins]
-original=Other plugins
-translation=其他插件
-
-[heading.plugins/templates/Set your template folder]
-original=Set your template folder
-translation=设置模板文件夹
-
-[heading.plugins/templates/Template variables]
-original=Template variables
-translation=模板变量
-
-[heading.plugins/templates/Create a template]
-original=Create a template
-translation=创建模板
-
-[heading.plugins/templates/Insert a template into the active note]
-original=Insert a template into the active note
-translation=将模板插入到当前活动笔记
-
-[heading.plugins/templates/Template properties]
-original=Template properties
-translation=模板属性
-
-[heading.plugins/canvas/Create a new canvas]
-original=Create a new canvas
-translation=新建白板
-
-[heading.plugins/canvas/Add cards]
-original=Add cards
-translation=添加卡片
-
-[heading.plugins/canvas/Add text cards]
-original=Add text cards
-translation=添加文本卡片
-
-[heading.plugins/canvas/Add cards from notes]
-original=Add cards from notes
-translation=添加笔记卡片
-
-[heading.plugins/canvas/Add cards from media]
-original=Add cards from media
-translation=添加媒体卡片
-
-[heading.plugins/canvas/Add cards from web pages]
-original=Add cards from web pages
-translation=添加网页卡片
-
-[heading.plugins/canvas/Add cards from folders]
-original=Add cards from folders
-translation=添加文件夹内所有文件
-
-[heading.plugins/canvas/Edit a card]
-original=Edit a card
-translation=编辑卡片
-
-[heading.plugins/canvas/Delete a card]
-original=Delete a card
-translation=移除卡片
-
-[heading.plugins/canvas/Swap cards]
-original=Swap cards
-translation=替换卡片内容
-
-[heading.plugins/canvas/Select cards]
-original=Select cards
-translation=选择卡片
-
-[heading.plugins/canvas/Arrange cards]
-original=Arrange cards
-translation=整理卡片
-
-[heading.plugins/canvas/Resize a card]
-original=Resize a card
-translation=调整卡片大小
-
-[heading.plugins/canvas/Connect cards]
-original=Connect cards
-translation=连接卡片
-
-[heading.plugins/canvas/Connect two cards]
-original=Connect two cards
-translation=连接两张卡片
-
-[heading.plugins/canvas/Disconnect two cards]
-original=Disconnect two cards
-translation=断开卡片连接
-
-[heading.plugins/canvas/Connect a card to a different card]
-original=Connect a card to a different card
-translation=更改连接对象
-
-[heading.plugins/canvas/Navigate a connection]
-original=Navigate a connection
-translation=跟随连接
-
-[heading.plugins/canvas/Add a label to a connection]
-original=Add a label to a connection
-translation=为连接添加说明
-
-[heading.plugins/canvas/Change the color of a card or connection]
-original=Change the color of a card or connection
-translation=更改卡片或连接线的颜色
-
-[heading.plugins/canvas/Group cards]
-original=Group cards
-translation=卡片编组
-
-[heading.plugins/canvas/Group selected cards]
-original=Group selected cards
-translation=将所选卡片编组
-
-[heading.plugins/canvas/Navigate the canvas]
-original=Navigate the canvas
-translation=浏览白板
-
-[heading.plugins/canvas/Pan the canvas]
-original=Pan the canvas
-translation=平移白板
-
-[heading.plugins/canvas/Zoom the canvas]
-original=Zoom the canvas
-translation=缩放白板
-
-[heading.plugins/canvas/Zoom to fit]
-original=Zoom to fit
-translation=自适应缩放
-
-[heading.plugins/canvas/Zoom to selection]
-original=Zoom to selection
-translation=聚焦所选卡片
-
-[heading.plugins/canvas/Reset zoom]
-original=Reset zoom
-translation=重置缩放
-
-[heading.plugins/canvas/Advanced tips]
-original=Advanced tips
-translation=高级技巧
-
-[heading.plugins/note-composer/Merge notes]
-original=Merge notes
-translation=合并笔记
-
-[heading.plugins/note-composer/Extract note]
-original=Extract note
-translation=移动笔记内容
-
-[heading.plugins/note-composer/Template file]
-original=Template file
-translation=模板文件
-
 [heading.sidebar/Open hidden sidebars]
 original=Open hidden sidebars
 translation=展开隐藏的侧边栏
@@ -3757,18 +3657,6 @@ translation=关联
 [heading.tabs/Save layouts]
 original=Save layouts
 translation=保存布局
-
-[heading.//Obsidian Help]
-original=Obsidian Help
-translation=入门指南
-
-[heading.//Get started]
-original=Get started
-translation=附加服务
-
-[heading.//Extend Obsidian]
-original=Extend Obsidian
-translation=贡献
 
 [heading.obsidian-flavored-markdown/Supported Markdown extensions]
 original=Supported Markdown extensions
@@ -4254,10 +4142,26 @@ translation=下划线
 original=Strikethrough
 translation=删除线
 
-[heading.publish/headless/Quick start]
-original=Quick start
-translation=快速开始
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=创建 Airtable 个人访问令牌
 
-[heading.publish/headless/Commands]
-original=Commands
-translation=命令
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=导入你的 Airtable 数据
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=导入选项
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=设置 Airtable 字段的导入方式
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=导入的内容
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=限制

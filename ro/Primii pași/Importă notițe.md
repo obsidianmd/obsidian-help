@@ -10,6 +10,7 @@ Aplicațiile vin și pleacă, dar datele dumneavoastră ar trebui să dureze. Ob
 ## Importați din alte aplicații și formate de fișiere
 
 - <span class="icon-app icon-notion"></span> [[Importă din Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importă din Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importă din Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importă din Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importă din Apple Notes|Apple Notes]]

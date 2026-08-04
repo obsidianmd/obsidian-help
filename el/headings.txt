@@ -678,59 +678,59 @@ translation=Δημοσίευση σημειώσεων
 original=CSS and themes
 translation=CSS και θέματα
 
-[heading.sync/settings/Sync settings]
+[heading.sync/Sync settings]
 original=Sync settings
 translation=Ρυθμίσεις Sync
 
-[heading.sync/settings/Conflict resolution]
+[heading.sync/Conflict resolution]
 original=Conflict resolution
 translation=Επίλυση διενέξεων
 
-[heading.sync/settings/Selective syncing]
+[heading.sync/Selective syncing]
 original=Selective syncing
 translation=Επιλεκτικός συγχρονισμός
 
-[heading.sync/settings/Change the file types you want to sync]
+[heading.sync/Change the file types you want to sync]
 original=Change the file types you want to sync
 translation=Αλλαγή των τύπων αρχείων που θέλετε να συγχρονίσετε
 
-[heading.sync/settings/Exclude a folder from syncing]
+[heading.sync/Exclude a folder from syncing]
 original=Exclude a folder from syncing
 translation=Εξαίρεση φακέλου από τον συγχρονισμό
 
-[heading.sync/settings/Always excluded from sync]
+[heading.sync/Always excluded from sync]
 original=Always excluded from sync
 translation=Πάντα εξαιρούνται από τον συγχρονισμό
 
-[heading.sync/settings/File recovery snapshots]
+[heading.sync/File recovery snapshots]
 original=File recovery snapshots
 translation=Στιγμιότυπα ανάκτησης αρχείων
 
-[heading.sync/settings/Hidden files and folders]
+[heading.sync/Hidden files and folders]
 original=Hidden files and folders
 translation=Κρυφά αρχεία και φάκελοι
 
-[heading.sync/settings/Updating your synced vault settings]
+[heading.sync/Updating your synced vault settings]
 original=Updating your synced vault settings
 translation=Ενημέρωση των ρυθμίσεων του συγχρονισμένου θησαυροφυλακίου σας
 
-[heading.sync/settings/Primary device]
+[heading.sync/Primary device]
 original=Primary device
 translation=Κύρια συσκευή
 
-[heading.sync/settings/Secondary device(s)]
+[heading.sync/Secondary device(s)]
 original=Secondary device(s)
 translation=Δευτερεύουσα(-ες) συσκευή(-ές)
 
-[heading.sync/settings/Reloading of settings]
+[heading.sync/Reloading of settings]
 original=Reloading of settings
 translation=Επαναφόρτωση ρυθμίσεων
 
-[heading.sync/settings/Settings profiles]
+[heading.sync/Settings profiles]
 original=Settings profiles
 translation=Προφίλ ρυθμίσεων
 
-[heading.sync/settings/Create a settings profile]
+[heading.sync/Create a settings profile]
 original=Create a settings profile
 translation=Δημιουργία προφίλ ρυθμίσεων
 
@@ -926,38 +926,62 @@ translation=Ενσωμάτωση βίντεο YouTube
 original=Embed a tweet
 translation=Ενσωμάτωση tweet
 
-[heading.plugins/search/Search terms]
+[heading.plugins/Search terms]
 original=Search terms
 translation=Όροι αναζήτησης
 
-[heading.plugins/search/Search operators]
+[heading.plugins/Search operators]
 original=Search operators
 translation=Τελεστές αναζήτησης
 
-[heading.plugins/search/Search properties]
+[heading.plugins/Search properties]
 original=Search properties
 translation=Αναζήτηση ιδιοτήτων
 
-[heading.plugins/search/Change case sensitivity]
+[heading.plugins/Change case sensitivity]
 original=Change case sensitivity
 translation=Αλλαγή διάκρισης πεζών-κεφαλαίων
 
-[heading.plugins/search/Change result sort order]
+[heading.plugins/Change result sort order]
 original=Change result sort order
 translation=Αλλαγή σειράς ταξινόμησης αποτελεσμάτων
 
-[heading.plugins/search/Copy search results]
+[heading.plugins/Copy search results]
 original=Copy search results
 translation=Αντιγραφή αποτελεσμάτων αναζήτησης
 
-[heading.plugins/search/Use regular expressions]
+[heading.plugins/Use regular expressions]
 original=Use regular expressions
 translation=Χρήση κανονικών εκφράσεων
 
-[heading.plugins/search/Configure search settings]
+[heading.plugins/Configure search settings]
 original=Configure search settings
 translation=Ρύθμιση παραμέτρων αναζήτησης
 
-[heading.plugins/search/Embed search results in a note]
+[heading.plugins/Embed search results in a note]
 original=Embed search results in a note
 translation=Ενσωμάτωση αποτελεσμάτων αναζήτησης σε μια σημείωση
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Δημιουργία προσωπικού διακριτικού πρόσβασης Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Εισαγωγή των δεδομένων σας από το Airtable
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Επιλογές εισαγωγής
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Ρύθμιση του τρόπου εισαγωγής πεδίων Airtable
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Τι εισάγεται
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Περιορισμοί

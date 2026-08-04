@@ -174,6 +174,10 @@ translation=Zawartość HTML
 original=Import notes
 translation=Importuj notatki
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Import z Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Importuj z Apple Journal
@@ -682,13 +686,13 @@ translation=Zmienne
 original=Workspace
 translation=Przestrzeń robocza
 
-[folder.audio]
-original=audio
-translation=audio
-
 [folder.Attachments]
 original=Attachments
 translation=Załączniki
+
+[folder.audio]
+original=audio
+translation=audio
 
 [folder.Bases]
 original=Bases

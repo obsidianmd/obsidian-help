@@ -8,6 +8,7 @@ Aplikacje pojawiają się i znikają, ale Twoje dane powinny przetrwać. Obsidia
 ## Importuj z innych aplikacji i formatów plików
 
 - <span class="icon-app icon-notion"></span> [[Importuj z Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importuj z Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importuj z Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importuj z Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importuj z Apple Notes|Apple Notes]]

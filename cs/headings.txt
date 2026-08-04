@@ -562,82 +562,98 @@ translation=Přejmenování poznámky
 original=Delete a note
 translation=Smazání poznámky
 
-[heading.teams/security/Considerations]
+[heading.teams/Considerations]
 original=Considerations
 translation=Aspekty k zvážení
 
-[heading.teams/security/Community plugins and themes]
+[heading.teams/Community plugins and themes]
 original=Community plugins and themes
 translation=Komunitní pluginy a motivy
 
-[heading.teams/security/Network and access]
+[heading.teams/Network and access]
 original=Network and access
 translation=Síť a přístup
 
-[heading.teams/security/Obsidian-sourced connections]
+[heading.teams/Obsidian-sourced connections]
 original=Obsidian-sourced connections
 translation=Připojení ze zdrojů Obsidian
 
-[heading.teams/security/GitHub-sourced connections]
+[heading.teams/GitHub-sourced connections]
 original=GitHub-sourced connections
 translation=Připojení ze zdrojů GitHub
 
-[heading.teams/security/Other connections]
+[heading.teams/Other connections]
 original=Other connections
 translation=Další připojení
 
-[heading.teams/security/Frequently asked questions]
+[heading.teams/Frequently asked questions]
 original=Frequently asked questions
 translation=Často kladené otázky
 
-[heading.teams/security/Account security]
+[heading.teams/Account security]
 original=Account security
 translation=Zabezpečení účtu
 
-[heading.teams/security/Assessments and certifications]
+[heading.teams/Assessments and certifications]
 original=Assessments and certifications
 translation=Posouzení a certifikace
 
-[heading.teams/license/Purchase a commercial license]
+[heading.teams/Purchase a commercial license]
 original=Purchase a commercial license
 translation=Zakoupení komerční licence
 
-[heading.teams/license/Apply a commercial license]
+[heading.teams/Apply a commercial license]
 original=Apply a commercial license
 translation=Aplikování komerční licence
 
-[heading.teams/license/Supporting organizations]
+[heading.teams/Supporting organizations]
 original=Supporting organizations
 translation=Podporující organizace
 
-[heading.teams/license/Frequently asked questions]
-original=Frequently asked questions
-translation=Často kladené otázky
-
-[heading.teams/deploy/Install and update Obsidian]
+[heading.teams/Install and update Obsidian]
 original=Install and update Obsidian
 translation=Instalace a aktualizace Obsidian
 
-[heading.teams/deploy/Customizing Obsidian]
+[heading.teams/Customizing Obsidian]
 original=Customizing Obsidian
 translation=Přizpůsobení Obsidian
 
-[heading.teams/deploy/Configuration folders]
+[heading.teams/Configuration folders]
 original=Configuration folders
 translation=Konfigurační složky
 
-[heading.teams/deploy/Plugins]
+[heading.teams/Plugins]
 original=Plugins
 translation=Pluginy
 
-[heading.teams/deploy/Themes and snippets]
+[heading.teams/Themes and snippets]
 original=Themes and snippets
 translation=Motivy a úryvky
 
-[heading.teams/deploy/Frequently asked questions]
-original=Frequently asked questions
-translation=Často kladené otázky
-
-[heading.teams/deploy/Deployment]
+[heading.teams/Deployment]
 original=Deployment
 translation=Nasazení
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Vytvoření osobního přístupového tokenu Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Import dat z Airtable
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Možnosti importu
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Nastavení způsobu importu polí Airtable
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Co se importuje
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Omezení

@@ -174,6 +174,10 @@ translation=មាតិកា HTML
 original=Import notes
 translation=នាំចូលកំណត់ត្រា
 
+[file.import/airtable]
+original=Import from Airtable
+translation=នាំចូលពី Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=នាំចូលពី Apple Journal

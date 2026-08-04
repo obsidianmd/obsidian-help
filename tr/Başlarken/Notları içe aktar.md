@@ -8,6 +8,7 @@ Uygulamalar gelir ve gider, ancak verileriniz kalıcı olmalıdır. Obsidian, ci
 ## Diğer uygulamalardan ve dosya biçimlerinden içe aktarma
 
 - <span class="icon-app icon-notion"></span> [[Notion'dan içe aktar|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Airtable'dan içe aktar|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Microsoft OneNote'tan içe aktar|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Evernote'tan içe aktar|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Apple Notes'tan içe aktar|Apple Notes]]

@@ -1,0 +1,23 @@
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Creează un token de acces personal Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Importă datele tale Airtable
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Opțiuni de import
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configurează cum sunt importate câmpurile Airtable
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Ce se importă
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Limitări

@@ -182,6 +182,10 @@ translation=HTML 内容
 original=Import notes
 translation=导入笔记
 
+[file.import/airtable]
+original=Import from Airtable
+translation=从 Airtable 导入
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Apple Journal

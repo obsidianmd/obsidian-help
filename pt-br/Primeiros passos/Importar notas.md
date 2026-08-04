@@ -10,6 +10,7 @@ Aplicativos vêm e vão, mas seus dados devem durar. O Obsidian usa arquivos Mar
 ## Importar de outros aplicativos e formatos de arquivo
 
 - <span class="icon-app icon-notion"></span> [[Importar do Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importar do Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importar do Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importar do Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importar do Apple Notes|Apple Notes]]

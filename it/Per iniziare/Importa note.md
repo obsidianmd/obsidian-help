@@ -10,6 +10,7 @@ Le app vanno e vengono, ma i tuoi dati dovrebbero durare. Obsidian utilizza file
 ## Importa da altre app e formati di file
 
 - <span class="icon-app icon-notion"></span> [[Importa da Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importa da Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importa da Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importa da Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importa da Apple Note|Apple Notes]]

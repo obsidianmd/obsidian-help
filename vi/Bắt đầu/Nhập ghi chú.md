@@ -8,6 +8,7 @@ Các ứng dụng đến rồi đi, nhưng dữ liệu của bạn nên tồn t�
 ## Nhập từ các ứng dụng và định dạng tệp khác
 
 - <span class="icon-app icon-notion"></span> [[Nhập từ Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Nhập từ Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Nhập từ Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Nhập từ Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Nhập từ Apple Notes|Apple Notes]]

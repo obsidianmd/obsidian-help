@@ -4145,3 +4145,27 @@ translation=حذف یک پوسته موجود
 [heading.themes/Learn more]
 original=Learn more
 translation=اطلاعات بیشتر
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=ایجاد توکن دسترسی شخصی Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=وارد کردن داده‌های Airtable
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=گزینه‌های وارد کردن
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=پیکربندی نحوه وارد شدن فیلدهای Airtable
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=چه چیزهایی وارد می‌شوند
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=محدودیت‌ها

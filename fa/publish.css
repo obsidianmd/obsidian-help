@@ -293,6 +293,9 @@ img[src$="#outline"] {
 .icon-app.icon-craft {
   background-image: url("data:image/svg+xml,%3Csvg id='Layer_2' data-name='Layer 2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 110.9 110.9'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23254078%7D.cls-1%7Bfill-rule:evenodd%7D%3C/style%3E%3C/defs%3E%3Cg id='craft_logopack'%3E%3Cg id='craft_icon_colour_regular'%3E%3Cpath class='cls-1' d='M59 107.6c0 1.8 1.5 3.3 3.3 3.3h45.4c1.8 0 3.3-1.5 3.2-3.3a52 52 0 0 0-48.6-48.5 3.1 3.1 0 0 0-3.3 3.1v45.4ZM51.8 62.3c0-1.8-1.4-3.2-3.2-3.2H3.2A3.1 3.1 0 0 0 0 62.3 52 52 0 0 0 48.5 111c1.9 0 3.3-1.4 3.3-3.2V62.3Z'/%3E%3Cpath d='M51.8 48.5c0 1.9-1.4 3.3-3.2 3.3H3.2A3.1 3.1 0 0 1 0 48.5 52 52 0 0 1 48.5 0a3.1 3.1 0 0 1 3.3 3.2v45.3Z' style='fill:%23ff62fd;fill-rule:evenodd'/%3E%3Cpath d='M59 3.3C59 1.5 60.5 0 62.3 0h45.4c1.8 0 3.3 1.5 3.2 3.3a52 52 0 0 1-48.6 48.5 3.1 3.1 0 0 1-3.3-3.1V3.3Z' style='fill:%230078ff;fill-rule:evenodd'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+.icon-app.icon-airtable {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 170'%3E%3Cpath fill='%23FCB400' d='M90.04 6.65 15.12 37.65c-4.17 1.72-4.13 7.64.07 9.3l75.23 29.84a26.6 26.6 0 0 0 19.63 0l75.23-29.84c4.2-1.66 4.24-7.58.07-9.3l-74.92-31a26.6 26.6 0 0 0-20.4 0'%3E%3C/path%3E%3Cpath fill='%2318BFFF' d='M105.7 88.4v74.55c0 3.55 3.58 5.99 6.88 4.68l83.85-32.55a5.03 5.03 0 0 0 3.17-4.68V55.86c0-3.55-3.58-5.98-6.88-4.67l-83.85 32.54a5.03 5.03 0 0 0-3.17 4.68'%3E%3C/path%3E%3Cpath fill='%23F82B60' d='m86.05 92.26-24.89 12.02-2.53 1.22-52.5 25.13C2.8 132.24 0 130.29 0 127.37V56.18c0-1.06.54-1.97 1.27-2.65a4.6 4.6 0 0 1 1.02-.76 4.6 4.6 0 0 1 3.9-.38l79.55 31.5c4.05 1.6 4.36 7.27.31 8.37'%3E%3C/path%3E%3Cpath fill='%23BA1E45' d='m86.05 92.26-24.89 12.02L1.27 53.53a4.6 4.6 0 0 1 1.02-.76 4.6 4.6 0 0 1 3.9-.38l79.55 31.5c4.05 1.6 4.36 7.27.31 8.37'%3E%3C/path%3E%3C/svg%3E");
+}
 
 .theme-dark .icon-app.icon-html,
 .theme-dark .icon-app.icon-md,

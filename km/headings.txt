@@ -2589,3 +2589,19 @@ translation=រាយការណ៍អំពីការរំលោភក្�
 [heading.resources/Contributing to Obsidian]
 original=Contributing to Obsidian
 translation=ការរួមចំណែកដល់ Obsidian
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=បង្កើត Airtable personal access token
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=នាំចូលទិន្នន័យ Airtable របស់អ្នក
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=ជម្រើសនាំចូល
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=កំណត់របៀបនាំចូលវាល Airtable

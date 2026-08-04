@@ -8,6 +8,7 @@ Appar kommer och går, men dina data bör bestå. Obsidian använder icke-propri
 ## Importera från andra appar och filformat
 
 - <span class="icon-app icon-notion"></span> [[Importera från Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importera från Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importera från Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importera från Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importera från Apple Notes|Apple Notes]]

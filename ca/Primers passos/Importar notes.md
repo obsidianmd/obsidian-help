@@ -8,6 +8,7 @@ Les aplicacions van i vénen, però les teves dades haurien de perdurar. Obsidia
 ## Importar des d'altres aplicacions i formats de fitxer
 
 - <span class="icon-app icon-notion"></span> [[Importar des de Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importar des d'Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importar des de Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importar des d'Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importar des d'Apple Notes|Apple Notes]]

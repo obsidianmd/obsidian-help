@@ -8,6 +8,7 @@ Aplikace přicházejí a odcházejí, ale vaše data by měla vydržet. Obsidian
 ## Importovat z jiných aplikací a formátů souborů
 
 - <span class="icon-app icon-notion"></span> [[Importovat z Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importovat z Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importovat z Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importovat z Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importovat z Apple Notes|Apple Notes]]

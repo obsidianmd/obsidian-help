@@ -1610,6 +1610,26 @@ translation=Grafik Lokal
 original=All properties view
 translation=Tampilan semua properti
 
+[heading.plugins/Set your template folder]
+original=Set your template folder
+translation=Mengatur folder template
+
+[heading.plugins/Template variables]
+original=Template variables
+translation=Variabel template
+
+[heading.plugins/Create a template]
+original=Create a template
+translation=Membuat template
+
+[heading.plugins/Insert a template into the active note]
+original=Insert a template into the active note
+translation=Menyisipkan template ke dalam catatan aktif
+
+[heading.plugins/Template properties]
+original=Template properties
+translation=Properti template
+
 [heading.discounts/How to apply]
 original=How to apply
 translation=Cara mendaftar
@@ -3898,67 +3918,43 @@ translation=Variabel selektor
 original=Schema.org variables
 translation=Variabel Schema.org
 
-[heading.plugins/templates/Set your template folder]
-original=Set your template folder
-translation=Mengatur folder template
-
-[heading.plugins/templates/Template variables]
-original=Template variables
-translation=Variabel template
-
-[heading.plugins/templates/Create a template]
-original=Create a template
-translation=Membuat template
-
-[heading.plugins/templates/Insert a template into the active note]
-original=Insert a template into the active note
-translation=Menyisipkan template ke dalam catatan aktif
-
-[heading.plugins/templates/Template properties]
-original=Template properties
-translation=Properti template
-
-[heading.teams/license/Purchase a commercial license]
+[heading.teams/Purchase a commercial license]
 original=Purchase a commercial license
 translation=Membeli lisensi komersial
 
-[heading.teams/license/Apply a commercial license]
+[heading.teams/Apply a commercial license]
 original=Apply a commercial license
 translation=Menerapkan lisensi komersial
 
-[heading.teams/license/Supporting organizations]
+[heading.teams/Supporting organizations]
 original=Supporting organizations
 translation=Organisasi pendukung
 
-[heading.teams/license/Frequently asked questions]
+[heading.teams/Frequently asked questions]
 original=Frequently asked questions
 translation=Pertanyaan yang sering diajukan
 
-[heading.teams/deploy/Install and update Obsidian]
+[heading.teams/Install and update Obsidian]
 original=Install and update Obsidian
 translation=Memasang dan memperbarui Obsidian
 
-[heading.teams/deploy/Customizing Obsidian]
+[heading.teams/Customizing Obsidian]
 original=Customizing Obsidian
 translation=Menyesuaikan Obsidian
 
-[heading.teams/deploy/Configuration folders]
+[heading.teams/Configuration folders]
 original=Configuration folders
 translation=Folder konfigurasi
 
-[heading.teams/deploy/Plugins]
+[heading.teams/Plugins]
 original=Plugins
 translation=Plugin
 
-[heading.teams/deploy/Themes and snippets]
+[heading.teams/Themes and snippets]
 original=Themes and snippets
 translation=Tema dan cuplikan
 
-[heading.teams/deploy/Frequently asked questions]
-original=Frequently asked questions
-translation=Pertanyaan yang sering diajukan
-
-[heading.teams/deploy/Deployment]
+[heading.teams/Deployment]
 original=Deployment
 translation=Penerapan
 
@@ -3970,66 +3966,78 @@ translation=Menggunakan Obsidian dengan tim Anda
 original=Important resources
 translation=Sumber daya penting
 
-[heading.teams/security/Considerations]
+[heading.teams/Considerations]
 original=Considerations
 translation=Pertimbangan
 
-[heading.teams/security/Community plugins and themes]
+[heading.teams/Community plugins and themes]
 original=Community plugins and themes
 translation=Plugin dan tema komunitas
 
-[heading.teams/security/Network and access]
+[heading.teams/Network and access]
 original=Network and access
 translation=Jaringan dan akses
 
-[heading.teams/security/Obsidian-sourced connections]
+[heading.teams/Obsidian-sourced connections]
 original=Obsidian-sourced connections
 translation=Koneksi bersumber dari Obsidian
 
-[heading.teams/security/GitHub-sourced connections]
+[heading.teams/GitHub-sourced connections]
 original=GitHub-sourced connections
 translation=Koneksi bersumber dari GitHub
 
-[heading.teams/security/Other connections]
+[heading.teams/Other connections]
 original=Other connections
 translation=Koneksi lainnya
 
-[heading.teams/security/Frequently asked questions]
-original=Frequently asked questions
-translation=Pertanyaan yang sering diajukan
-
-[heading.teams/security/Account security]
+[heading.teams/Account security]
 original=Account security
 translation=Keamanan akun
 
-[heading.teams/security/Assessments and certifications]
+[heading.teams/Assessments and certifications]
 original=Assessments and certifications
 translation=Penilaian dan sertifikasi
 
-[heading.teams/publish/Publishing tools and services]
+[heading.teams/Publishing tools and services]
 original=Publishing tools and services
 translation=Alat dan layanan publikasi
 
-[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+[heading.teams/Advanced collaboration for Obsidian Publish]
 original=Advanced collaboration for Obsidian Publish
 translation=Kolaborasi lanjutan untuk Obsidian Publish
 
-[heading.teams/publish/Frequently asked questions]
-original=Frequently asked questions
-translation=Pertanyaan yang sering diajukan
-
-[heading.teams/sync/Syncing tools and services]
+[heading.teams/Syncing tools and services]
 original=Syncing tools and services
 translation=Alat dan layanan sinkronisasi
 
-[heading.teams/sync/Obsidian Sync for teams]
+[heading.teams/Obsidian Sync for teams]
 original=Obsidian Sync for teams
 translation=Obsidian Sync untuk tim
 
-[heading.teams/sync/Security]
+[heading.teams/Security]
 original=Security
 translation=Keamanan
 
-[heading.teams/sync/Frequently asked questions]
-original=Frequently asked questions
-translation=Pertanyaan yang sering diajukan
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Buat token akses personal Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Impor data Airtable Anda
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Pengaturan impor
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurasi bagaimana bidang Airtable diimpor
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Apa yang diimpor
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Keterbatasan

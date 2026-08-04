@@ -518,89 +518,289 @@ translation=Anpassad appikon
 original=Translucency
 translation=Genomskinlighet
 
-[heading.bases/syntax/Example]
+[heading.bases/Example]
 original=Example
 translation=Exempel
 
-[heading.bases/syntax/Filters]
+[heading.bases/Filters]
 original=Filters
 translation=Filter
 
-[heading.bases/syntax/Formulas]
+[heading.bases/Formulas]
 original=Formulas
 translation=Formler
 
-[heading.bases/syntax/Properties]
+[heading.bases/Properties]
 original=Properties
 translation=Egenskaper
 
-[heading.bases/syntax/Summaries]
+[heading.bases/Summaries]
 original=Summaries
 translation=Sammanfattningar
 
-[heading.bases/syntax/Default Summary Formulas]
+[heading.bases/Default Summary Formulas]
 original=Default Summary Formulas
 translation=Standardsammanfattningsformler
 
-[heading.bases/syntax/Views]
+[heading.bases/Views]
 original=Views
 translation=Vyer
 
-[heading.bases/syntax/Note properties]
+[heading.bases/Note properties]
 original=Note properties
 translation=Anteckningsegenskaper
 
-[heading.bases/syntax/File properties]
+[heading.bases/File properties]
 original=File properties
 translation=Filegenskaper
 
-[heading.bases/syntax/Access properties with `this`]
+[heading.bases/Access properties with `this`]
 original=Access properties with `this`
 translation=Åtkomst till egenskaper med `this`
 
-[heading.bases/syntax/Operators]
+[heading.bases/Operators]
 original=Operators
 translation=Operatorer
 
-[heading.bases/syntax/Arithmetic operators]
+[heading.bases/Arithmetic operators]
 original=Arithmetic operators
 translation=Aritmetiska operatorer
 
-[heading.bases/syntax/Date arithmetic]
+[heading.bases/Date arithmetic]
 original=Date arithmetic
 translation=Datumaritmetik
 
-[heading.bases/syntax/Comparison operators]
+[heading.bases/Comparison operators]
 original=Comparison operators
 translation=Jämförelseoperatorer
 
-[heading.bases/syntax/Boolean operators]
+[heading.bases/Boolean operators]
 original=Boolean operators
 translation=Booleska operatorer
 
-[heading.bases/syntax/Functions]
+[heading.bases/Functions]
 original=Functions
 translation=Funktioner
 
-[heading.bases/syntax/Types]
+[heading.bases/Types]
 original=Types
 translation=Typer
 
-[heading.bases/syntax/Strings, numbers, and booleans]
+[heading.bases/Strings, numbers, and booleans]
 original=Strings, numbers, and booleans
 translation=Strängar, tal och booleska värden
 
-[heading.bases/syntax/Dates and durations]
+[heading.bases/Dates and durations]
 original=Dates and durations
 translation=Datum och varaktigheter
 
-[heading.bases/syntax/Objects and lists]
+[heading.bases/Objects and lists]
 original=Objects and lists
 translation=Objekt och listor
 
-[heading.bases/syntax/Files and links]
+[heading.bases/Files and links]
 original=Files and links
 translation=Filer och länkar
+
+[heading.bases/Global]
+original=Global
+translation=Globala
+
+[heading.bases/Fields]
+original=Fields
+translation=Fält
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=Reguljärt uttryck
+
+[heading.bases/How to use bases]
+original=How to use bases
+translation=Hur du använder baser
+
+[heading.bases/View types]
+original=View types
+translation=Vytyper
+
+[heading.bases/Install the Maps plugin]
+original=Install the Maps plugin
+translation=Installera Maps-tillägget
+
+[heading.bases/Settings]
+original=Settings
+translation=Inställningar
+
+[heading.bases/Markers]
+original=Markers
+translation=Markörer
+
+[heading.bases/Coordinates]
+original=Coordinates
+translation=Koordinater
+
+[heading.bases/Icons]
+original=Icons
+translation=Ikoner
+
+[heading.bases/Use a formula to define icons]
+original=Use a formula to define icons
+translation=Använd en formel för att definiera ikoner
+
+[heading.bases/Colors]
+original=Colors
+translation=Färger
+
+[heading.bases/Background]
+original=Background
+translation=Bakgrund
+
+[heading.bases/Map tiles]
+original=Map tiles
+translation=Kartrutor
+
+[heading.bases/Useful links]
+original=Useful links
+translation=Användbara länkar
+
+[heading.bases/Troubleshooting]
+original=Troubleshooting
+translation=Felsökning
+
+[heading.bases/Card size]
+original=Card size
+translation=Kortstorlek
+
+[heading.bases/Image property]
+original=Image property
+translation=Bildegenskap
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Bildanpassning
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Bildförhållande
+
+[heading.bases/Indent properties]
+original=Indent properties
+translation=Gör indrag för egenskaper
+
+[heading.bases/Separators]
+original=Separators
+translation=Avgränsare
+
+[heading.bases/Row height]
+original=Row height
+translation=Radhöjd
+
+[heading.bases/Add a summary]
+original=Add a summary
+translation=Lägg till en sammanfattning
+
+[heading.bases/Built-in summaries]
+original=Built-in summaries
+translation=Inbyggda sammanfattningar
+
+[heading.bases/All property types]
+original=All property types
+translation=Alla egenskapstyper
+
+[heading.bases/Numbers]
+original=Numbers
+translation=Nummer
+
+[heading.bases/Dates]
+original=Dates
+translation=Datum
+
+[heading.bases/Checkbox]
+original=Checkbox
+translation=Kryssruta
+
+[heading.bases/Custom summaries]
+original=Custom summaries
+translation=Anpassade sammanfattningar
+
+[heading.bases/Shortcuts]
+original=Shortcuts
+translation=Genvägar
+
+[heading.bases/Create a new base]
+original=Create a new base
+translation=Skapa en ny bas
+
+[heading.bases/Embed a base]
+original=Embed a base
+translation=Bädda in en bas
+
+[heading.bases/Embed a base file]
+original=Embed a base file
+translation=Bädda in en basfil
+
+[heading.bases/Embed a base as a code block]
+original=Embed a base as a code block
+translation=Bädda in en bas som ett kodblock
+
+[heading.bases/Toolbar]
+original=Toolbar
+translation=Verktygsfält
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=Lägg till och växla vyer
+
+[heading.bases/View settings]
+original=View settings
+translation=Vyinställningar
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=Komponenter i ett filter
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=Konjunktioner
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=Filtergrupper
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=Avancerad filterredigerare
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=Sortera och gruppera resultat
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=Lägg till en sortering
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=Ta bort en sortering
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Begränsa, kopiera och exportera resultat
+
+[heading.bases/Limit results]
+original=Limit results
+translation=Begränsa resultat
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=Kopiera till urklipp
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=Exportera CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=Bädda in en vy
 
 [heading.formulas/What formulas can do]
 original=What formulas can do
@@ -666,230 +866,26 @@ translation=Datatyper
 original=Reference other formulas
 translation=Referera andra formler
 
-[heading.bases/functions/Global]
-original=Global
-translation=Globala
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Skapa en personlig åtkomsttoken för Airtable
 
-[heading.bases/functions/Fields]
-original=Fields
-translation=Fält
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Importera dina Airtable-data
 
-[heading.bases/functions/Regular expression]
-original=Regular expression
-translation=Reguljärt uttryck
+[heading.import/airtable/Import options]
+original=Import options
+translation=Importalternativ
 
-[heading.bases/How to use bases]
-original=How to use bases
-translation=Hur du använder baser
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurera hur Airtable-fält importeras
 
-[heading.bases/View types]
-original=View types
-translation=Vytyper
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Vad som importeras
 
-[heading.bases/views/map/Install the Maps plugin]
-original=Install the Maps plugin
-translation=Installera Maps-tillägget
-
-[heading.bases/views/map/Example]
-original=Example
-translation=Exempel
-
-[heading.bases/views/map/Settings]
-original=Settings
-translation=Inställningar
-
-[heading.bases/views/map/Markers]
-original=Markers
-translation=Markörer
-
-[heading.bases/views/map/Coordinates]
-original=Coordinates
-translation=Koordinater
-
-[heading.bases/views/map/Icons]
-original=Icons
-translation=Ikoner
-
-[heading.bases/views/map/Use a formula to define icons]
-original=Use a formula to define icons
-translation=Använd en formel för att definiera ikoner
-
-[heading.bases/views/map/Colors]
-original=Colors
-translation=Färger
-
-[heading.bases/views/map/Background]
-original=Background
-translation=Bakgrund
-
-[heading.bases/views/map/Map tiles]
-original=Map tiles
-translation=Kartrutor
-
-[heading.bases/views/map/Useful links]
-original=Useful links
-translation=Användbara länkar
-
-[heading.bases/views/map/Troubleshooting]
-original=Troubleshooting
-translation=Felsökning
-
-[heading.bases/views/cards/Settings]
-original=Settings
-translation=Inställningar
-
-[heading.bases/views/cards/Card size]
-original=Card size
-translation=Kortstorlek
-
-[heading.bases/views/cards/Image property]
-original=Image property
-translation=Bildegenskap
-
-[heading.bases/views/cards/Image fit]
-original=Image fit
-translation=Bildanpassning
-
-[heading.bases/views/cards/Image aspect ratio]
-original=Image aspect ratio
-translation=Bildförhållande
-
-[heading.bases/views/list/Settings]
-original=Settings
-translation=Inställningar
-
-[heading.bases/views/list/Markers]
-original=Markers
-translation=Markörer
-
-[heading.bases/views/list/Indent properties]
-original=Indent properties
-translation=Gör indrag för egenskaper
-
-[heading.bases/views/list/Separators]
-original=Separators
-translation=Avgränsare
-
-[heading.bases/views/table/Settings]
-original=Settings
-translation=Inställningar
-
-[heading.bases/views/table/Row height]
-original=Row height
-translation=Radhöjd
-
-[heading.bases/views/table/Summaries]
-original=Summaries
-translation=Sammanfattningar
-
-[heading.bases/views/table/Add a summary]
-original=Add a summary
-translation=Lägg till en sammanfattning
-
-[heading.bases/views/table/Built-in summaries]
-original=Built-in summaries
-translation=Inbyggda sammanfattningar
-
-[heading.bases/views/table/All property types]
-original=All property types
-translation=Alla egenskapstyper
-
-[heading.bases/views/table/Numbers]
-original=Numbers
-translation=Nummer
-
-[heading.bases/views/table/Dates]
-original=Dates
-translation=Datum
-
-[heading.bases/views/table/Checkbox]
-original=Checkbox
-translation=Kryssruta
-
-[heading.bases/views/table/Custom summaries]
-original=Custom summaries
-translation=Anpassade sammanfattningar
-
-[heading.bases/views/table/Shortcuts]
-original=Shortcuts
-translation=Genvägar
-
-[heading.bases/create-base/Create a new base]
-original=Create a new base
-translation=Skapa en ny bas
-
-[heading.bases/create-base/Embed a base]
-original=Embed a base
-translation=Bädda in en bas
-
-[heading.bases/create-base/Embed a base file]
-original=Embed a base file
-translation=Bädda in en basfil
-
-[heading.bases/create-base/Embed a base as a code block]
-original=Embed a base as a code block
-translation=Bädda in en bas som ett kodblock
-
-[heading.bases/views/Toolbar]
-original=Toolbar
-translation=Verktygsfält
-
-[heading.bases/views/Add and switch views]
-original=Add and switch views
-translation=Lägg till och växla vyer
-
-[heading.bases/views/View settings]
-original=View settings
-translation=Vyinställningar
-
-[heading.bases/views/Filters]
-original=Filters
-translation=Filter
-
-[heading.bases/views/Components of a filter]
-original=Components of a filter
-translation=Komponenter i ett filter
-
-[heading.bases/views/Conjunctions]
-original=Conjunctions
-translation=Konjunktioner
-
-[heading.bases/views/Filter groups]
-original=Filter groups
-translation=Filtergrupper
-
-[heading.bases/views/Advanced filter editor]
-original=Advanced filter editor
-translation=Avancerad filterredigerare
-
-[heading.bases/views/Sort and group results]
-original=Sort and group results
-translation=Sortera och gruppera resultat
-
-[heading.bases/views/Add a sort]
-original=Add a sort
-translation=Lägg till en sortering
-
-[heading.bases/views/Remove a sort]
-original=Remove a sort
-translation=Ta bort en sortering
-
-[heading.bases/views/Limit, copy, and export results]
-original=Limit, copy, and export results
-translation=Begränsa, kopiera och exportera resultat
-
-[heading.bases/views/Limit results]
-original=Limit results
-translation=Begränsa resultat
-
-[heading.bases/views/Copy to clipboard]
-original=Copy to clipboard
-translation=Kopiera till urklipp
-
-[heading.bases/views/Export CSV]
-original=Export CSV
-translation=Exportera CSV
-
-[heading.bases/views/Embed a view]
-original=Embed a view
-translation=Bädda in en vy
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Begränsningar

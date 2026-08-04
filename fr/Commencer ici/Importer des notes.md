@@ -11,6 +11,7 @@ Les applications vont et viennent, mais vos données doivent perdurer. Obsidian 
 ## Importer depuis d'autres applications et formats de fichiers
 
 - <span class="icon-app icon-notion"></span> [[Importer depuis Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importer depuis Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importer depuis Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importer depuis Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importer depuis Apple Notes|Apple Notes]]

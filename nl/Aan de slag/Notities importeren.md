@@ -8,6 +8,7 @@ Apps komen en gaan, maar je gegevens zouden moeten blijven. Obsidian gebruikt ni
 ## Importeren vanuit andere apps en bestandsformaten
 
 - <span class="icon-app icon-notion"></span> [[Importeren vanuit Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importeren vanuit Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importeren vanuit Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importeren vanuit Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importeren vanuit Apple Notities|Apple Notes]]

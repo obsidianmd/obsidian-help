@@ -174,6 +174,10 @@ translation=Περιεχόμενο HTML
 original=Import notes
 translation=Εισαγωγή σημειώσεων
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Εισαγωγή από Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Εισαγωγή από Apple Journal

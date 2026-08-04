@@ -1,232 +1,208 @@
-[heading.bases/views/list/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=설정
 
-[heading.bases/views/list/Markers]
+[heading.bases/Markers]
 original=Markers
 translation=마커
 
-[heading.bases/views/list/Indent properties]
+[heading.bases/Indent properties]
 original=Indent properties
 translation=속성 들여쓰기
 
-[heading.bases/views/list/Separators]
+[heading.bases/Separators]
 original=Separators
 translation=구분자
 
-[heading.bases/views/map/Install the Maps plugin]
+[heading.bases/Install the Maps plugin]
 original=Install the Maps plugin
 translation=Maps 플러그인 설치
 
-[heading.bases/views/map/Example]
+[heading.bases/Example]
 original=Example
 translation=예시
 
-[heading.bases/views/map/Settings]
-original=Settings
-translation=설정
-
-[heading.bases/views/map/Markers]
-original=Markers
-translation=마커
-
-[heading.bases/views/map/Coordinates]
+[heading.bases/Coordinates]
 original=Coordinates
 translation=좌표
 
-[heading.bases/views/map/Icons]
+[heading.bases/Icons]
 original=Icons
 translation=아이콘
 
-[heading.bases/views/map/Use a formula to define icons]
+[heading.bases/Use a formula to define icons]
 original=Use a formula to define icons
 translation=수식을 사용하여 아이콘 정의하기
 
-[heading.bases/views/map/Colors]
+[heading.bases/Colors]
 original=Colors
 translation=색상
 
-[heading.bases/views/map/Background]
+[heading.bases/Background]
 original=Background
 translation=배경
 
-[heading.bases/views/map/Map tiles]
+[heading.bases/Map tiles]
 original=Map tiles
 translation=지도 타일
 
-[heading.bases/views/map/Useful links]
+[heading.bases/Useful links]
 original=Useful links
 translation=유용한 링크
 
-[heading.bases/views/map/Tips]
+[heading.bases/Tips]
 original=Tips
 translation=팁
 
-[heading.bases/views/map/Troubleshooting]
+[heading.bases/Troubleshooting]
 original=Troubleshooting
 translation=문제 해결
 
-[heading.bases/views/cards/Settings]
-original=Settings
-translation=설정
-
-[heading.bases/views/cards/Card size]
+[heading.bases/Card size]
 original=Card size
 translation=카드 크기
 
-[heading.bases/views/cards/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=이미지 속성
 
-[heading.bases/views/cards/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=이미지 맞춤
 
-[heading.bases/views/cards/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=이미지 가로/세로 비율
 
-[heading.bases/views/table/Settings]
-original=Settings
-translation=설정
-
-[heading.bases/views/table/Row height]
+[heading.bases/Row height]
 original=Row height
 translation=행 높이
 
-[heading.bases/views/table/Summaries]
+[heading.bases/Summaries]
 original=Summaries
 translation=요약
 
-[heading.bases/views/table/Add a summary]
+[heading.bases/Add a summary]
 original=Add a summary
 translation=요약 추가
 
-[heading.bases/views/table/Built-in summaries]
+[heading.bases/Built-in summaries]
 original=Built-in summaries
 translation=내장 요약
 
-[heading.bases/views/table/All property types]
+[heading.bases/All property types]
 original=All property types
 translation=모든 속성 유형
 
-[heading.bases/views/table/Numbers]
+[heading.bases/Numbers]
 original=Numbers
 translation=숫자
 
-[heading.bases/views/table/Dates]
+[heading.bases/Dates]
 original=Dates
 translation=날짜
 
-[heading.bases/views/table/Checkbox]
+[heading.bases/Checkbox]
 original=Checkbox
 translation=체크박스
 
-[heading.bases/views/table/Custom summaries]
+[heading.bases/Custom summaries]
 original=Custom summaries
 translation=커스텀 요약
 
-[heading.bases/views/table/Shortcuts]
+[heading.bases/Shortcuts]
 original=Shortcuts
 translation=단축키
 
-[heading.bases/syntax/Example]
-original=Example
-translation=예시
-
-[heading.bases/syntax/Filters]
+[heading.bases/Filters]
 original=Filters
 translation=필터
 
-[heading.bases/syntax/Formulas]
+[heading.bases/Formulas]
 original=Formulas
 translation=수식
 
-[heading.bases/syntax/Properties]
+[heading.bases/Properties]
 original=Properties
 translation=속성
 
-[heading.bases/syntax/Summaries]
-original=Summaries
-translation=요약
-
-[heading.bases/syntax/Default Summary Formulas]
+[heading.bases/Default Summary Formulas]
 original=Default Summary Formulas
 translation=기본 요약 수식
 
-[heading.bases/syntax/Views]
+[heading.bases/Views]
 original=Views
 translation=뷰
 
-[heading.bases/syntax/Note properties]
+[heading.bases/Note properties]
 original=Note properties
 translation=노트 속성
 
-[heading.bases/syntax/File properties]
+[heading.bases/File properties]
 original=File properties
 translation=파일 속성
 
-[heading.bases/syntax/Access properties with `this`]
+[heading.bases/Access properties with `this`]
 original=Access properties with `this`
 translation=`this`로 속성 접근하기
 
-[heading.bases/syntax/Operators]
+[heading.bases/Operators]
 original=Operators
 translation=연산자
 
-[heading.bases/syntax/Arithmetic operators]
+[heading.bases/Arithmetic operators]
 original=Arithmetic operators
 translation=산술 연산자
 
-[heading.bases/syntax/Date arithmetic]
+[heading.bases/Date arithmetic]
 original=Date arithmetic
 translation=날짜 산술
 
-[heading.bases/syntax/Comparison operators]
+[heading.bases/Comparison operators]
 original=Comparison operators
 translation=비교 연산자
 
-[heading.bases/syntax/Boolean operators]
+[heading.bases/Boolean operators]
 original=Boolean operators
 translation=불리언 연산자
 
-[heading.bases/syntax/Functions]
+[heading.bases/Functions]
 original=Functions
 translation=함수
 
-[heading.bases/syntax/Types]
+[heading.bases/Types]
 original=Types
 translation=유형
 
-[heading.bases/syntax/Strings, numbers, and booleans]
+[heading.bases/Strings, numbers, and booleans]
 original=Strings, numbers, and booleans
 translation=문자열, 숫자, 불리언
 
-[heading.bases/syntax/Dates and durations]
+[heading.bases/Dates and durations]
 original=Dates and durations
 translation=날짜와 기간
 
-[heading.bases/syntax/Objects and lists]
+[heading.bases/Objects and lists]
 original=Objects and lists
 translation=객체와 목록
 
-[heading.bases/syntax/Files and links]
+[heading.bases/Files and links]
 original=Files and links
 translation=파일과 링크
 
-[heading.bases/create-base/Create a new base]
+[heading.bases/Create a new base]
 original=Create a new base
 translation=새 베이스 생성하기
 
-[heading.bases/create-base/Embed a base]
+[heading.bases/Embed a base]
 original=Embed a base
 translation=베이스 임베드하기
 
-[heading.bases/create-base/Embed a base file]
+[heading.bases/Embed a base file]
 original=Embed a base file
 translation=베이스 파일 임베드하기
 
-[heading.bases/create-base/Embed a base as a code block]
+[heading.bases/Embed a base as a code block]
 original=Embed a base as a code block
 translation=코드 블록으로 베이스 임베드하기
 
@@ -238,73 +214,109 @@ translation=베이스 사용하기
 original=View types
 translation=뷰 유형
 
-[heading.bases/views/Toolbar]
+[heading.bases/Toolbar]
 original=Toolbar
 translation=툴바
 
-[heading.bases/views/Add and switch views]
+[heading.bases/Add and switch views]
 original=Add and switch views
 translation=보기 추가 및 전환
 
-[heading.bases/views/View settings]
+[heading.bases/View settings]
 original=View settings
 translation=보기 설정
 
-[heading.bases/views/Layout]
+[heading.bases/Layout]
 original=Layout
 translation=레이아웃
 
-[heading.bases/views/Filters]
-original=Filters
-translation=필터
-
-[heading.bases/views/Components of a filter]
+[heading.bases/Components of a filter]
 original=Components of a filter
 translation=필터의 구성 요소
 
-[heading.bases/views/Conjunctions]
+[heading.bases/Conjunctions]
 original=Conjunctions
 translation=접속사
 
-[heading.bases/views/Filter groups]
+[heading.bases/Filter groups]
 original=Filter groups
 translation=필터 그룹
 
-[heading.bases/views/Advanced filter editor]
+[heading.bases/Advanced filter editor]
 original=Advanced filter editor
 translation=고급 필터 편집기
 
-[heading.bases/views/Sort and group results]
+[heading.bases/Sort and group results]
 original=Sort and group results
 translation=결과 정렬 및 그룹화
 
-[heading.bases/views/Add a sort]
+[heading.bases/Add a sort]
 original=Add a sort
 translation=정렬 추가
 
-[heading.bases/views/Remove a sort]
+[heading.bases/Remove a sort]
 original=Remove a sort
 translation=정렬 제거
 
-[heading.bases/views/Limit, copy, and export results]
+[heading.bases/Limit, copy, and export results]
 original=Limit, copy, and export results
 translation=결과 제한, 복사, 내보내기
 
-[heading.bases/views/Limit results]
+[heading.bases/Limit results]
 original=Limit results
 translation=결과 제한
 
-[heading.bases/views/Copy to clipboard]
+[heading.bases/Copy to clipboard]
 original=Copy to clipboard
 translation=클립보드에 복사
 
-[heading.bases/views/Export CSV]
+[heading.bases/Export CSV]
 original=Export CSV
 translation=CSV 내보내기
 
-[heading.bases/views/Embed a view]
+[heading.bases/Embed a view]
 original=Embed a view
 translation=보기 임베드
+
+[heading.bases/Global]
+original=Global
+translation=전역
+
+[heading.bases/Date]
+original=Date
+translation=날짜
+
+[heading.bases/Fields]
+original=Fields
+translation=필드
+
+[heading.bases/String]
+original=String
+translation=문자열
+
+[heading.bases/Number]
+original=Number
+translation=숫자
+
+[heading.bases/List]
+original=List
+translation=목록
+
+[heading.bases/Link]
+original=Link
+translation=링크
+
+[heading.bases/File]
+original=File
+translation=파일
+
+[heading.bases/Object]
+original=Object
+translation=객체
+
+[heading.bases/Regular expression]
+original=Regular expression
+translation=정규 표현식
 
 [heading.formulas/What formulas can do]
 original=What formulas can do
@@ -369,46 +381,6 @@ translation=데이터 유형
 [heading.formulas/Reference other formulas]
 original=Reference other formulas
 translation=다른 수식 참조
-
-[heading.bases/functions/Global]
-original=Global
-translation=전역
-
-[heading.bases/functions/Date]
-original=Date
-translation=날짜
-
-[heading.bases/functions/Fields]
-original=Fields
-translation=필드
-
-[heading.bases/functions/String]
-original=String
-translation=문자열
-
-[heading.bases/functions/Number]
-original=Number
-translation=숫자
-
-[heading.bases/functions/List]
-original=List
-translation=목록
-
-[heading.bases/functions/Link]
-original=Link
-translation=링크
-
-[heading.bases/functions/File]
-original=File
-translation=파일
-
-[heading.bases/functions/Object]
-original=Object
-translation=객체
-
-[heading.bases/functions/Regular expression]
-original=Regular expression
-translation=정규 표현식
 
 [heading.2fa/Enable 2FA]
 original=Enable 2FA
@@ -670,59 +642,59 @@ translation=타사 감사의 글
 original=Previous logo
 translation=이전 로고
 
-[heading.publish/troubleshoot/General]
+[heading.publish/General]
 original=General
 translation=일반
 
-[heading.publish/troubleshoot/Publishing notes]
+[heading.publish/Publishing notes]
 original=Publishing notes
 translation=노트 게재
 
-[heading.publish/troubleshoot/CSS and themes]
+[heading.publish/CSS and themes]
 original=CSS and themes
 translation=CSS 및 테마
 
-[heading.publish/setup/Prerequisites]
+[heading.publish/Prerequisites]
 original=Prerequisites
 translation=전제 조건
 
-[heading.publish/setup/Log in with your Obsidian account]
+[heading.publish/Log in with your Obsidian account]
 original=Log in with your Obsidian account
 translation=Obsidian 계정으로 로그인
 
-[heading.publish/setup/Enable Obsidian Publish]
+[heading.publish/Enable Obsidian Publish]
 original=Enable Obsidian Publish
 translation=Obsidian Publish 활성화
 
-[heading.publish/setup/Open Publish]
+[heading.publish/Open Publish]
 original=Open Publish
 translation=Publish 열기
 
-[heading.publish/setup/Open via Command palette]
+[heading.publish/Open via Command palette]
 original=Open via Command palette
 translation=명령어 팔레트로 열기
 
-[heading.publish/setup/Open via hotkey]
+[heading.publish/Open via hotkey]
 original=Open via hotkey
 translation=키보드 단축키로 열기
 
-[heading.publish/setup/Open via ribbon]
+[heading.publish/Open via ribbon]
 original=Open via ribbon
 translation=리본으로 열기
 
-[heading.publish/setup/Create a new site]
+[heading.publish/Create a new site]
 original=Create a new site
-translation=새 사이트 생성
+translation=새 사이트 만들기
 
-[heading.publish/setup/Set a site name]
+[heading.publish/Set a site name]
 original=Set a site name
 translation=사이트 이름 설정
 
-[heading.publish/setup/Select notes to publish]
+[heading.publish/Select notes to publish]
 original=Select notes to publish
 translation=게재할 노트 선택
 
-[heading.publish/setup/Next steps]
+[heading.publish/Next steps]
 original=Next steps
 translation=다음 단계
 
@@ -730,323 +702,311 @@ translation=다음 단계
 original=How to use Obsidian Publish
 translation=Obsidian Publish 사용 방법
 
-[heading.publish/collaborate/Add a collaborator to a site]
+[heading.publish/Add a collaborator to a site]
 original=Add a collaborator to a site
 translation=사이트에 공동 작업자 추가
 
-[heading.publish/collaborate/Remove a collaborator from a site]
+[heading.publish/Remove a collaborator from a site]
 original=Remove a collaborator from a site
 translation=사이트에서 공동 작업자 제거
 
-[heading.publish/collaborate/Sync changes between collaborators]
+[heading.publish/Sync changes between collaborators]
 original=Sync changes between collaborators
 translation=공동 작업자 간 변경 사항 동기화
 
-[heading.publish/collaborate/Permissions]
+[heading.publish/Permissions]
 original=Permissions
 translation=권한
 
-[heading.publish/limitations/Community plugins]
+[heading.publish/Community plugins]
 original=Community plugins
 translation=커뮤니티 플러그인
 
-[heading.publish/limitations/Graph]
+[heading.publish/Graph]
 original=Graph
 translation=그래프
 
-[heading.publish/limitations/Media files]
+[heading.publish/Media files]
 original=Media files
 translation=미디어 파일
 
-[heading.publish/limitations/PDFs]
+[heading.publish/PDFs]
 original=PDFs
 translation=PDF
 
-[heading.publish/limitations/Search]
+[heading.publish/Search]
 original=Search
 translation=검색
 
-[heading.publish/seo/Sitemap]
+[heading.publish/Sitemap]
 original=Sitemap
 translation=사이트맵
 
-[heading.publish/seo/Permalinks]
+[heading.publish/Permalinks]
 original=Permalinks
 translation=고유 링크
 
-[heading.publish/seo/Metadata]
+[heading.publish/Metadata]
 original=Metadata
 translation=메타데이터
 
-[heading.publish/permalinks/Redirect old notes]
+[heading.publish/Redirect old notes]
 original=Redirect old notes
 translation=이전 노트 리디렉션
 
-[heading.publish/media/Images]
+[heading.publish/Images]
 original=Images
 translation=이미지
 
-[heading.publish/media/PDFs]
-original=PDFs
-translation=PDF
-
-[heading.publish/media/Videos and audio]
+[heading.publish/Videos and audio]
 original=Videos and audio
 translation=동영상 및 오디오
 
-[heading.publish/security/Password protection]
+[heading.publish/Password protection]
 original=Password protection
 translation=비밀번호 보호
 
-[heading.publish/security/Add a site password]
+[heading.publish/Add a site password]
 original=Add a site password
 translation=사이트 비밀번호 추가
 
-[heading.publish/security/Remove a site password]
+[heading.publish/Remove a site password]
 original=Remove a site password
 translation=사이트 비밀번호 제거
 
-[heading.publish/security/Data collection]
+[heading.publish/Data collection]
 original=Data collection
 translation=데이터 수집
 
-[heading.publish/security/Visitor data]
+[heading.publish/Visitor data]
 original=Visitor data
 translation=방문자 데이터
 
-[heading.publish/security/Access]
+[heading.publish/Access]
 original=Access
 translation=접근
 
-[heading.publish/security/Managing access to Obsidian Publish on your network]
+[heading.publish/Managing access to Obsidian Publish on your network]
 original=Managing access to Obsidian Publish on your network
 translation=네트워크에서 Obsidian Publish 접근 관리
 
-[heading.publish/analytics/Prerequisites]
-original=Prerequisites
-translation=사전 준비
-
-[heading.publish/analytics/Plausible, Fathom, and other analytics services]
+[heading.publish/Plausible, Fathom, and other analytics services]
 original=Plausible, Fathom, and other analytics services
 translation=Plausible, Fathom 및 기타 분석 서비스
 
-[heading.publish/analytics/Troubleshooting]
+[heading.publish/Troubleshooting]
 original=Troubleshooting
 translation=문제 해결
 
-[heading.publish/domains/Set up using CloudFlare]
+[heading.publish/Set up using CloudFlare]
 original=Set up using CloudFlare
 translation=CloudFlare를 사용한 설정
 
-[heading.publish/domains/Set up using a proxy]
+[heading.publish/Set up using a proxy]
 original=Set up using a proxy
 translation=프록시를 사용한 설정
 
-[heading.publish/domains/Supported HTTP X-Headers]
+[heading.publish/Supported HTTP X-Headers]
 original=Supported HTTP X-Headers
 translation=지원되는 HTTP X-Headers
 
-[heading.publish/domains/Redirect old site to custom domain]
+[heading.publish/Redirect old site to custom domain]
 original=Redirect old site to custom domain
 translation=이전 사이트를 사용자 지정 도메인으로 리디렉션
 
-[heading.publish/domains/Troubleshoot]
+[heading.publish/Troubleshoot]
 original=Troubleshoot
 translation=문제 해결
 
-[heading.publish/sites/Create a new site]
-original=Create a new site
-translation=새 사이트 만들기
-
-[heading.publish/sites/Delete an existing site]
+[heading.publish/Delete an existing site]
 original=Delete an existing site
 translation=기존 사이트 삭제
 
-[heading.publish/sites/Switch between sites]
+[heading.publish/Switch between sites]
 original=Switch between sites
 translation=사이트 간 전환
 
-[heading.publish/sites/Change the site ID]
+[heading.publish/Change the site ID]
 original=Change the site ID
 translation=사이트 ID 변경
 
-[heading.publish/sites/View site options]
+[heading.publish/View site options]
 original=View site options
 translation=사이트 옵션 보기
 
-[heading.publish/sites/Site options]
+[heading.publish/Site options]
 original=Site options
 translation=사이트 옵션
 
-[heading.publish/sites/General]
-original=General
-translation=일반
-
-[heading.publish/sites/Appearance]
+[heading.publish/Appearance]
 original=Appearance
 translation=외형
 
-[heading.publish/sites/Reading experience]
+[heading.publish/Reading experience]
 original=Reading experience
 translation=읽는 방식
 
-[heading.publish/sites/Components]
+[heading.publish/Components]
 original=Components
 translation=구성 요소
 
-[heading.publish/sites/Other site settings]
+[heading.publish/Other site settings]
 original=Other site settings
 translation=기타 사이트 설정
 
-[heading.publish/customize/Static assets]
+[heading.publish/Static assets]
 original=Static assets
 translation=정적 에셋
 
-[heading.publish/customize/Use a community theme]
+[heading.publish/Use a community theme]
 original=Use a community theme
 translation=커뮤니티 테마 사용
 
-[heading.publish/customize/Enable UI features]
+[heading.publish/Enable UI features]
 original=Enable UI features
 translation=UI 기능 활성화
 
-[heading.publish/customize/Customize navigation]
+[heading.publish/Customize navigation]
 original=Customize navigation
 translation=내비게이션 사용자 지정
 
-[heading.publish/customize/Accessing Customize navigation options]
+[heading.publish/Accessing Customize navigation options]
 original=Accessing Customize navigation options
 translation=사용자 지정 내비게이션 옵션에 접근하기
 
-[heading.publish/customize/Adjust navigation items]
+[heading.publish/Adjust navigation items]
 original=Adjust navigation items
 translation=내비게이션 항목 조정
 
-[heading.publish/customize/Hide and unhide navigation items]
+[heading.publish/Hide and unhide navigation items]
 original=Hide and unhide navigation items
 translation=내비게이션 항목 숨기기 및 숨기기 해제
 
-[heading.publish/social-share/Description]
+[heading.publish/Description]
 original=Description
 translation=설명
 
-[heading.publish/social-share/Image]
+[heading.publish/Image]
 original=Image
 translation=이미지
 
-[heading.publish/publish/Prerequisites]
-original=Prerequisites
-translation=전제 조건
-
-[heading.publish/publish/Publish notes]
+[heading.publish/Publish notes]
 original=Publish notes
 translation=노트 게재
 
-[heading.publish/publish/Unpublish notes]
+[heading.publish/Unpublish notes]
 original=Unpublish notes
 translation=노트 게재 취소
 
-[heading.publish/publish/Update a published note]
+[heading.publish/Update a published note]
 original=Update a published note
 translation=게재된 노트 업데이트
 
-[heading.publish/publish/Publish linked data]
+[heading.publish/Publish linked data]
 original=Publish linked data
 translation=링크된 데이터 게재
 
-[heading.publish/publish/Automatically select data to publish]
+[heading.publish/Automatically select data to publish]
 original=Automatically select data to publish
 translation=게재할 데이터 자동 선택
 
-[heading.publish/publish/Ignore data]
+[heading.publish/Ignore data]
 original=Ignore data
 translation=데이터 무시
 
-[heading.sync/troubleshoot/General]
+[heading.publish/Quick start]
+original=Quick start
+translation=빠른 시작
+
+[heading.publish/Commands]
+original=Commands
+translation=명령
+
+[heading.sync/General]
 original=General
 translation=일반
 
-[heading.sync/troubleshoot/Conflict resolution]
+[heading.sync/Conflict resolution]
 original=Conflict resolution
 translation=충돌 해결
 
-[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
+[heading.sync/How Obsidian Sync handles conflicts]
 original=How Obsidian Sync handles conflicts
 translation=Obsidian Sync의 충돌 처리 방식
 
-[heading.sync/troubleshoot/Conflict resolution options]
+[heading.sync/Conflict resolution options]
 original=Conflict resolution options
 translation=충돌 해결 옵션
 
-[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
+[heading.sync/Sync deleted a note I just created on two devices]
 original=Sync deleted a note I just created on two devices
 translation=두 기기에서 방금 만든 노트를 Sync가 삭제했습니다
 
-[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
+[heading.sync/Sync will not sync my plugins and settings updates]
 original=Sync will not sync my plugins and settings updates
 translation=Sync가 플러그인 및 설정 업데이트를 동기화하지 않습니다
 
-[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
 original=My files keep disappearing from Sync as soon as I restore it
 translation=파일을 복원해도 Sync에서 계속 사라집니다
 
-[heading.sync/setup/Set up Obsidian Sync for the first time]
+[heading.sync/Set up Obsidian Sync for the first time]
 original=Set up Obsidian Sync for the first time
 translation=처음으로 Obsidian Sync 설정하기
 
-[heading.sync/setup/Log in with your Obsidian account]
+[heading.sync/Log in with your Obsidian account]
 original=Log in with your Obsidian account
 translation=Obsidian 계정으로 로그인하기
 
-[heading.sync/setup/Enable Obsidian Sync]
+[heading.sync/Enable Obsidian Sync]
 original=Enable Obsidian Sync
 translation=Obsidian Sync 활성화하기
 
-[heading.sync/setup/Create a new remote vault]
+[heading.sync/Create a new remote vault]
 original=Create a new remote vault
-translation=새 원격 보관함 생성하기
+translation=새 원격 보관함 생성
 
-[heading.sync/setup/Connect to a remote vault]
+[heading.sync/Connect to a remote vault]
 original=Connect to a remote vault
 translation=원격 보관함에 연결하기
 
-[heading.sync/setup/Adjust Obsidian Sync settings]
+[heading.sync/Adjust Obsidian Sync settings]
 original=Adjust Obsidian Sync settings
 translation=Obsidian Sync 설정 조정하기
 
-[heading.sync/setup/Begin syncing with Obsidian Sync]
+[heading.sync/Begin syncing with Obsidian Sync]
 original=Begin syncing with Obsidian Sync
 translation=Obsidian Sync로 동기화 시작하기
 
-[heading.sync/setup/Sync a remote vault on another device]
+[heading.sync/Sync a remote vault on another device]
 original=Sync a remote vault on another device
 translation=다른 기기에서 원격 보관함 동기화하기
 
-[heading.sync/setup/Sync your vault from the vault switcher]
+[heading.sync/Sync your vault from the vault switcher]
 original=Sync your vault from the vault switcher
 translation=보관함 전환기에서 보관함 동기화하기
 
-[heading.sync/setup/Sync your vault from Obsidian Settings]
+[heading.sync/Sync your vault from Obsidian Settings]
 original=Sync your vault from Obsidian Settings
 translation=Obsidian 설정에서 보관함 동기화하기
 
-[heading.sync/setup/Manage your remote vaults]
+[heading.sync/Manage your remote vaults]
 original=Manage your remote vaults
 translation=원격 보관함 관리하기
 
-[heading.sync/setup/Disconnect from a remote vault]
+[heading.sync/Disconnect from a remote vault]
 original=Disconnect from a remote vault
 translation=원격 보관함에서 연결 해제하기
 
-[heading.sync/setup/Delete a remote vault]
+[heading.sync/Delete a remote vault]
 original=Delete a remote vault
 translation=원격 보관함 삭제하기
 
-[heading.sync/setup/Regional sync servers]
+[heading.sync/Regional sync servers]
 original=Regional sync servers
 translation=지역별 동기화 서버
 
-[heading.sync/setup/Next steps]
+[heading.sync/Next steps]
 original=Next steps
 translation=다음 단계
 
@@ -1058,383 +1018,359 @@ translation=Obsidian Sync 사용 방법
 original=Important
 translation=중요
 
-[heading.sync/switch/Move your vault out of your third-party syncing service or cloud storage]
+[heading.sync/Move your vault out of your third-party syncing service or cloud storage]
 original=Move your vault out of your third-party syncing service or cloud storage
 translation=타사 동기화 서비스 또는 클라우드 저장소에서 보관함 이동하기
 
-[heading.sync/switch/Move your vault using Obsidian on desktop]
+[heading.sync/Move your vault using Obsidian on desktop]
 original=Move your vault using Obsidian on desktop
 translation=데스크톱에서 Obsidian을 사용하여 보관함 이동하기
 
-[heading.sync/switch/Move your vault on mobile]
+[heading.sync/Move your vault on mobile]
 original=Move your vault on mobile
 translation=모바일에서 보관함 이동하기
 
-[heading.sync/switch/iOS and iPadOS]
+[heading.sync/iOS and iPadOS]
 original=iOS and iPadOS
 translation=iOS 및 iPadOS
 
-[heading.sync/switch/Next steps]
-original=Next steps
-translation=다음 단계
-
-[heading.sync/collaborate/Manage users]
+[heading.sync/Manage users]
 original=Manage users
 translation=사용자 관리
 
-[heading.sync/collaborate/Add users]
+[heading.sync/Add users]
 original=Add users
 translation=사용자 추가
 
-[heading.sync/collaborate/Remove users]
+[heading.sync/Remove users]
 original=Remove users
 translation=사용자 제거
 
-[heading.sync/collaborate/Collaborate with your team]
+[heading.sync/Collaborate with your team]
 original=Collaborate with your team
 translation=팀과 협업하기
 
-[heading.sync/collaborate/Permissions]
+[heading.sync/Permissions]
 original=Permissions
 translation=권한
 
-[heading.sync/collaborate/Live editing]
+[heading.sync/Live editing]
 original=Live editing
 translation=실시간 편집
 
-[heading.sync/collaborate/Limitations]
+[heading.sync/Limitations]
 original=Limitations
 translation=제한 사항
 
-[heading.sync/settings/Sync settings]
+[heading.sync/Sync settings]
 original=Sync settings
 translation=동기화 설정
 
-[heading.sync/settings/Conflict resolution]
-original=Conflict resolution
-translation=충돌 해결
-
-[heading.sync/settings/Selective syncing]
+[heading.sync/Selective syncing]
 original=Selective syncing
 translation=선택적 동기화
 
-[heading.sync/settings/Change the file types you want to sync]
+[heading.sync/Change the file types you want to sync]
 original=Change the file types you want to sync
 translation=동기화할 파일 유형 변경
 
-[heading.sync/settings/Exclude a folder from syncing]
+[heading.sync/Exclude a folder from syncing]
 original=Exclude a folder from syncing
 translation=동기화에서 폴더 제외
 
-[heading.sync/settings/Always excluded from sync]
+[heading.sync/Always excluded from sync]
 original=Always excluded from sync
 translation=항상 동기화에서 제외되는 항목
 
-[heading.sync/settings/File recovery snapshots]
+[heading.sync/File recovery snapshots]
 original=File recovery snapshots
 translation=파일 복원 스냅샷
 
-[heading.sync/settings/Hidden files and folders]
+[heading.sync/Hidden files and folders]
 original=Hidden files and folders
 translation=숨김 파일 및 폴더
 
-[heading.sync/settings/Updating your synced vault settings]
+[heading.sync/Updating your synced vault settings]
 original=Updating your synced vault settings
 translation=동기화된 보관함 설정 업데이트
 
-[heading.sync/settings/Primary device]
+[heading.sync/Primary device]
 original=Primary device
 translation=주 기기
 
-[heading.sync/settings/Secondary device(s)]
+[heading.sync/Secondary device(s)]
 original=Secondary device(s)
 translation=보조 기기
 
-[heading.sync/settings/Reloading of settings]
+[heading.sync/Reloading of settings]
 original=Reloading of settings
 translation=설정 새로고침
 
-[heading.sync/settings/Settings profiles]
+[heading.sync/Settings profiles]
 original=Settings profiles
 translation=설정 프로필
 
-[heading.sync/settings/Create a settings profile]
+[heading.sync/Create a settings profile]
 original=Create a settings profile
 translation=설정 프로필 만들기
 
-[heading.sync/region/Available regions]
+[heading.sync/Available regions]
 original=Available regions
 translation=사용 가능한 지역
 
-[heading.sync/region/Change Sync region]
+[heading.sync/Change Sync region]
 original=Change Sync region
 translation=Sync 지역 변경
 
-[heading.sync/vault-types/File-based sync services]
+[heading.sync/File-based sync services]
 original=File-based sync services
 translation=파일 기반 동기화 서비스
 
-[heading.sync/vault-types/Sync behavior]
+[heading.sync/Sync behavior]
 original=Sync behavior
 translation=동기화 동작
 
-[heading.sync/vault-types/Offline behavior]
+[heading.sync/Offline behavior]
 original=Offline behavior
 translation=오프라인 동작
 
-[heading.sync/vault-types/Next steps]
-original=Next steps
-translation=다음 단계
-
-[heading.sync/version-history/Sync history]
+[heading.sync/Sync history]
 original=Sync history
 translation=동기화 기록
 
-[heading.sync/version-history/Show Sync history]
+[heading.sync/Show Sync history]
 original=Show Sync history
 translation=동기화 기록 표시
 
-[heading.sync/version-history/Enable via Command palette]
+[heading.sync/Enable via Command palette]
 original=Enable via Command palette
 translation=명령어 팔레트를 통해 활성화
 
-[heading.sync/version-history/Enable via Hotkey]
+[heading.sync/Enable via Hotkey]
 original=Enable via Hotkey
 translation=키보드 단축키를 통해 활성화
 
-[heading.sync/version-history/Version history]
+[heading.sync/Version history]
 original=Version history
 translation=버전 기록
 
-[heading.sync/version-history/Notes and attachments]
+[heading.sync/Notes and attachments]
 original=Notes and attachments
 translation=노트 및 첨부 파일
 
-[heading.sync/version-history/View version history of a file]
+[heading.sync/View version history of a file]
 original=View version history of a file
 translation=파일의 버전 기록 보기
 
-[heading.sync/version-history/View version history of a deleted or renamed file]
+[heading.sync/View version history of a deleted or renamed file]
 original=View version history of a deleted or renamed file
 translation=삭제되거나 이름이 변경된 파일의 버전 기록 보기
 
-[heading.sync/version-history/Restore a previous version of a file]
+[heading.sync/Restore a previous version of a file]
 original=Restore a previous version of a file
 translation=파일의 이전 버전 복원
 
-[heading.sync/version-history/Restore a deleted file]
+[heading.sync/Restore a deleted file]
 original=Restore a deleted file
 translation=삭제된 파일 복원
 
-[heading.sync/version-history/Settings history]
+[heading.sync/Settings history]
 original=Settings history
 translation=설정 기록
 
-[heading.sync/version-history/View version history of a setting]
+[heading.sync/View version history of a setting]
 original=View version history of a setting
 translation=설정의 버전 기록 보기
 
-[heading.sync/version-history/Restore a previous version of a setting]
+[heading.sync/Restore a previous version of a setting]
 original=Restore a previous version of a setting
 translation=설정의 이전 버전 복원
 
-[heading.sync/security/Encryption]
+[heading.sync/Encryption]
 original=Encryption
 translation=암호화
 
-[heading.sync/security/What does end-to-end encryption mean?]
+[heading.sync/What does end-to-end encryption mean?]
 original=What does end-to-end encryption mean?
 translation=종단 간 암호화란 무엇인가요?
 
-[heading.sync/security/What are the risks of using standard encryption?]
+[heading.sync/What are the risks of using standard encryption?]
 original=What are the risks of using standard encryption?
 translation=표준 암호화의 위험성은 무엇인가요?
 
-[heading.sync/security/What encryption do you use?]
+[heading.sync/What encryption do you use?]
 original=What encryption do you use?
 translation=어떤 암호화를 사용하나요?
 
-[heading.sync/security/Can I verify that my data is end-to-end encrypted?]
+[heading.sync/Can I verify that my data is end-to-end encrypted?]
 original=Can I verify that my data is end-to-end encrypted?
 translation=내 데이터가 종단 간 암호화되었는지 확인할 수 있나요?
 
-[heading.sync/security/Has Obsidian completed a third-party security audit?]
+[heading.sync/Has Obsidian completed a third-party security audit?]
 original=Has Obsidian completed a third-party security audit?
 translation=Obsidian은 제3자 보안 감사를 완료했나요?
 
-[heading.sync/security/What happens if I forget my encryption password?]
+[heading.sync/What happens if I forget my encryption password?]
 original=What happens if I forget my encryption password?
 translation=암호화 비밀번호를 잊어버리면 어떻게 되나요?
 
-[heading.sync/security/Hosting]
+[heading.sync/Hosting]
 original=Hosting
 translation=호스팅
 
-[heading.sync/security/Where do you host the servers for Obsidian Sync?]
+[heading.sync/Where do you host the servers for Obsidian Sync?]
 original=Where do you host the servers for Obsidian Sync?
 translation=Obsidian Sync의 서버는 어디에서 호스팅하나요?
 
-[heading.sync/security/Where can I find my current Sync server and where is it hosted?]
+[heading.sync/Where can I find my current Sync server and where is it hosted?]
 original=Where can I find my current Sync server and where is it hosted?
 translation=현재 Sync 서버를 찾고 어디에서 호스팅되는지 확인하려면 어떻게 하나요?
 
-[heading.sync/security/Network and access]
+[heading.sync/Network and access]
 original=Network and access
 translation=네트워크 및 접근
 
-[heading.sync/security/Managing access to Obsidian Sync on your network]
+[heading.sync/Managing access to Obsidian Sync on your network]
 original=Managing access to Obsidian Sync on your network
 translation=네트워크에서 Obsidian Sync에 대한 접근 관리
 
-[heading.sync/security/Limitations]
-original=Limitations
-translation=제한 사항
-
-[heading.sync/security/Deterministic file-hash encryption]
+[heading.sync/Deterministic file-hash encryption]
 original=Deterministic file-hash encryption
 translation=결정적 파일 해시 암호화
 
-[heading.sync/security/No cryptographic binding between path and content]
+[heading.sync/No cryptographic binding between path and content]
 original=No cryptographic binding between path and content
 translation=경로와 콘텐츠 간의 암호학적 바인딩 없음
 
-[heading.sync/messages/Sync status icon]
+[heading.sync/Sync status icon]
 original=Sync status icon
 translation=Sync 상태 아이콘
 
-[heading.sync/messages/Sync activity log]
+[heading.sync/Sync activity log]
 original=Sync activity log
 translation=Sync 활동 기록
 
-[heading.sync/messages/General messages]
+[heading.sync/General messages]
 original=General messages
 translation=일반 메시지
 
-[heading.sync/messages/Error messages]
+[heading.sync/Error messages]
 original=Error messages
 translation=에러 메시지
 
-[heading.sync/messages/Skipped messages]
+[heading.sync/Skipped messages]
 original=Skipped messages
 translation=건너뜀 메시지
 
-[heading.sync/messages/Account messages]
+[heading.sync/Account messages]
 original=Account messages
 translation=계정 메시지
 
-[heading.sync/messages/Network messages]
+[heading.sync/Network messages]
 original=Network messages
 translation=네트워크 메시지
 
-[heading.sync/migrate/Encryption versions]
+[heading.sync/Encryption versions]
 original=Encryption versions
 translation=암호화 버전
 
-[heading.sync/migrate/Upgrade encryption with the migration assistant]
+[heading.sync/Upgrade encryption with the migration assistant]
 original=Upgrade encryption with the migration assistant
 translation=이동 도우미를 사용한 암호화 업그레이드
 
-[heading.sync/faq/General]
-original=General
-translation=일반
-
-[heading.sync/faq/What operating systems does Obsidian Sync support?]
+[heading.sync/What operating systems does Obsidian Sync support?]
 original=What operating systems does Obsidian Sync support?
 translation=Obsidian Sync는 어떤 운영 체제를 지원하나요?
 
-[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
 original=Does Obsidian work with Apple's Lockdown Mode?
 translation=Obsidian은 Apple의 잠금 모드에서 작동하나요?
 
-[heading.sync/faq/What type of data is synced?]
+[heading.sync/What type of data is synced?]
 original=What type of data is synced?
 translation=어떤 유형의 데이터가 동기화되나요?
 
-[heading.sync/faq/How much storage do I have?]
+[heading.sync/How much storage do I have?]
 original=How much storage do I have?
 translation=얼마나 많은 저장 공간이 있나요?
 
-[heading.sync/faq/How many remote vaults can I have?]
+[heading.sync/How many remote vaults can I have?]
 original=How many remote vaults can I have?
 translation=원격 보관함은 몇 개까지 가질 수 있나요?
 
-[heading.sync/faq/How large can each remote vault be?]
+[heading.sync/How large can each remote vault be?]
 original=How large can each remote vault be?
 translation=각 원격 보관함의 최대 크기는 얼마인가요?
 
-[heading.sync/faq/How many people can I share a remote vault with?]
+[heading.sync/How many people can I share a remote vault with?]
 original=How many people can I share a remote vault with?
 translation=원격 보관함을 몇 명까지 공유할 수 있나요?
 
-[heading.sync/faq/How large can each file be?]
+[heading.sync/How large can each file be?]
 original=How large can each file be?
 translation=각 파일의 최대 크기는 얼마인가요?
 
-[heading.sync/faq/Is my data being synced in the background?]
+[heading.sync/Is my data being synced in the background?]
 original=Is my data being synced in the background?
 translation=백그라운드에서 데이터가 동기화되나요?
 
-[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+[heading.sync/Does Obsidian Sync live-reload my settings?]
 original=Does Obsidian Sync live-reload my settings?
 translation=Obsidian Sync는 설정을 실시간으로 다시 불러오나요?
 
-[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
 original=Can I use a third-party sync with Obsidian Sync?
 translation=타사 동기화를 Obsidian Sync와 함께 사용할 수 있나요?
 
-[heading.sync/faq/Data retention]
+[heading.sync/Data retention]
 original=Data retention
 translation=데이터 보존
 
-[heading.sync/faq/How long do you keep the version history?]
+[heading.sync/How long do you keep the version history?]
 original=How long do you keep the version history?
 translation=버전 기록은 얼마나 오래 보관되나요?
 
-[heading.sync/faq/How long do you keep my data after my subscription expires?]
+[heading.sync/How long do you keep my data after my subscription expires?]
 original=How long do you keep my data after my subscription expires?
 translation=구독이 만료된 후 데이터는 얼마나 오래 보관되나요?
 
-[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+[heading.sync/Do you keep my data if I refund my subscription service?]
 original=Do you keep my data if I refund my subscription service?
 translation=구독 서비스를 환불하면 데이터가 보관되나요?
 
-[heading.sync/plans/Plans]
+[heading.sync/Plans]
 original=Plans
 translation=플랜
 
-[heading.sync/plans/Storage limits]
+[heading.sync/Storage limits]
 original=Storage limits
 translation=저장 용량 제한
 
-[heading.sync/plans/Identify and delete large files]
+[heading.sync/Identify and delete large files]
 original=Identify and delete large files
 translation=큰 파일 식별 및 삭제
 
-[heading.sync/plans/Create a new remote vault]
-original=Create a new remote vault
-translation=새 원격 보관함 생성
-
-[heading.sync/plans/Upgrade your plan]
+[heading.sync/Upgrade your plan]
 original=Upgrade your plan
 translation=플랜 업그레이드
 
-[heading.sync/plans/Downgrade your plan]
+[heading.sync/Downgrade your plan]
 original=Downgrade your plan
 translation=플랜 다운그레이드
 
-[heading.sync/plans/Preserve version history]
+[heading.sync/Preserve version history]
 original=Preserve version history
 translation=버전 기록 보존
 
-[heading.sync/headless/Quick start]
+[heading.sync/Quick start]
 original=Quick start
 translation=빠른 시작
 
-[heading.sync/headless/Commands]
+[heading.sync/Commands]
 original=Commands
 translation=명령
 
-[heading.sync/headless/Native modules]
+[heading.sync/Native modules]
 original=Native modules
 translation=네이티브 모듈
 
@@ -1450,247 +1386,243 @@ translation=Web Clipper 사용 방법
 original=Privacy
 translation=개인정보 보호
 
-[heading.web-clipper/troubleshoot/General]
+[heading.web-clipper/General]
 original=General
 translation=일반
 
-[heading.web-clipper/troubleshoot/Some content is missing]
+[heading.web-clipper/Some content is missing]
 original=Some content is missing
 translation=일부 콘텐츠가 누락됨
 
-[heading.web-clipper/troubleshoot/No content appears in Obsidian]
+[heading.web-clipper/No content appears in Obsidian]
 original=No content appears in Obsidian
 translation=Obsidian에 콘텐츠가 표시되지 않음
 
-[heading.web-clipper/troubleshoot/Obsidian does not open]
+[heading.web-clipper/Obsidian does not open]
 original=Obsidian does not open
 translation=Obsidian이 열리지 않음
 
-[heading.web-clipper/troubleshoot/Obsidian opens but only the file name is saved]
+[heading.web-clipper/Obsidian opens but only the file name is saved]
 original=Obsidian opens but only the file name is saved
 translation=Obsidian이 열리지만 파일 이름만 저장됨
 
-[heading.web-clipper/troubleshoot/iOS and iPadOS]
+[heading.web-clipper/iOS and iPadOS]
 original=iOS and iPadOS
 translation=iOS 및 iPadOS
 
-[heading.web-clipper/logic/Conditionals]
+[heading.web-clipper/Conditionals]
 original=Conditionals
 translation=조건문
 
-[heading.web-clipper/logic/Comparison operators]
+[heading.web-clipper/Comparison operators]
 original=Comparison operators
 translation=비교 연산자
 
-[heading.web-clipper/logic/Logical operators]
+[heading.web-clipper/Logical operators]
 original=Logical operators
 translation=논리 연산자
 
-[heading.web-clipper/logic/Truthiness]
+[heading.web-clipper/Truthiness]
 original=Truthiness
 translation=참 거짓 판별 (Truthiness)
 
-[heading.web-clipper/logic/Assign a variable]
+[heading.web-clipper/Assign a variable]
 original=Assign a variable
 translation=변수 할당
 
-[heading.web-clipper/logic/Fallbacks]
+[heading.web-clipper/Fallbacks]
 original=Fallbacks
 translation=대체값
 
-[heading.web-clipper/logic/Chaining fallbacks]
+[heading.web-clipper/Chaining fallbacks]
 original=Chaining fallbacks
 translation=대체값 체이닝
 
-[heading.web-clipper/logic/With filters]
+[heading.web-clipper/With filters]
 original=With filters
 translation=필터와 함께 사용
 
-[heading.web-clipper/logic/Loops]
+[heading.web-clipper/Loops]
 original=Loops
 translation=반복문
 
-[heading.web-clipper/logic/Loop sources]
+[heading.web-clipper/Loop sources]
 original=Loop sources
 translation=반복 소스
 
-[heading.web-clipper/logic/Loop variables]
+[heading.web-clipper/Loop variables]
 original=Loop variables
 translation=반복 변수
 
-[heading.web-clipper/logic/Accessing array items by index]
+[heading.web-clipper/Accessing array items by index]
 original=Accessing array items by index
 translation=인덱스로 배열 항목 접근
 
-[heading.web-clipper/logic/Nested loops]
+[heading.web-clipper/Nested loops]
 original=Nested loops
 translation=중첩 반복문
 
-[heading.web-clipper/logic/Combine logic]
+[heading.web-clipper/Combine logic]
 original=Combine logic
 translation=로직 결합
 
-[heading.web-clipper/logic/Evaluation order]
+[heading.web-clipper/Evaluation order]
 original=Evaluation order
 translation=평가 순서
 
-[heading.web-clipper/reader/Activate reading mode]
+[heading.web-clipper/Activate reading mode]
 original=Activate reading mode
 translation=읽기 모드 활성화
 
-[heading.web-clipper/reader/How it works]
+[heading.web-clipper/How it works]
 original=How it works
 translation=작동 방식
 
-[heading.web-clipper/reader/Customize the reading view]
+[heading.web-clipper/Customize the reading view]
 original=Customize the reading view
 translation=읽기 뷰 사용자 지정
 
-[heading.web-clipper/variables/Preset variables]
+[heading.web-clipper/Preset variables]
 original=Preset variables
 translation=프리셋 변수
 
-[heading.web-clipper/variables/Prompt variables]
+[heading.web-clipper/Prompt variables]
 original=Prompt variables
 translation=프롬프트 변수
 
-[heading.web-clipper/variables/When to use prompt variables]
+[heading.web-clipper/When to use prompt variables]
 original=When to use prompt variables
 translation=프롬프트 변수를 사용할 때
 
-[heading.web-clipper/variables/Examples]
+[heading.web-clipper/Examples]
 original=Examples
 translation=예시
 
-[heading.web-clipper/variables/Meta variables]
+[heading.web-clipper/Meta variables]
 original=Meta variables
 translation=메타 변수
 
-[heading.web-clipper/variables/Selector variables]
+[heading.web-clipper/Selector variables]
 original=Selector variables
 translation=선택자 변수
 
-[heading.web-clipper/variables/Schema.org variables]
+[heading.web-clipper/Schema.org variables]
 original=Schema.org variables
 translation=Schema.org 변수
 
-[heading.web-clipper/capture/Capture a page]
+[heading.web-clipper/Capture a page]
 original=Capture a page
 translation=페이지 캡처
 
-[heading.web-clipper/capture/Download images]
+[heading.web-clipper/Download images]
 original=Download images
 translation=이미지 다운로드
 
-[heading.web-clipper/capture/Hotkeys]
+[heading.web-clipper/Hotkeys]
 original=Hotkeys
 translation=단축키
 
-[heading.web-clipper/capture/Interface functionality]
+[heading.web-clipper/Interface functionality]
 original=Interface functionality
 translation=인터페이스 기능
 
-[heading.web-clipper/highlight/Turn on highlighter]
+[heading.web-clipper/Turn on highlighter]
 original=Turn on highlighter
 translation=하이라이터 켜기
 
-[heading.web-clipper/highlight/Highlighter settings]
+[heading.web-clipper/Highlighter settings]
 original=Highlighter settings
 translation=하이라이터 설정
 
-[heading.web-clipper/interpreter/Examples of prompts]
+[heading.web-clipper/Examples of prompts]
 original=Examples of prompts
 translation=프롬프트 예시
 
-[heading.web-clipper/interpreter/Get started]
+[heading.web-clipper/Get started]
 original=Get started
 translation=시작하기
 
-[heading.web-clipper/interpreter/How it works]
-original=How it works
-translation=작동 방식
-
-[heading.web-clipper/interpreter/Context]
+[heading.web-clipper/Context]
 original=Context
 translation=컨텍스트
 
-[heading.web-clipper/interpreter/Models]
+[heading.web-clipper/Models]
 original=Models
 translation=모델
 
-[heading.web-clipper/interpreter/Preset providers]
+[heading.web-clipper/Preset providers]
 original=Preset providers
 translation=프리셋 제공자
 
-[heading.web-clipper/interpreter/Choosing a model]
+[heading.web-clipper/Choosing a model]
 original=Choosing a model
 translation=모델 선택하기
 
-[heading.web-clipper/interpreter/Custom providers and models]
+[heading.web-clipper/Custom providers and models]
 original=Custom providers and models
 translation=커스텀 제공자 및 모델
 
-[heading.web-clipper/interpreter/Local models]
+[heading.web-clipper/Local models]
 original=Local models
 translation=로컬 모델
 
-[heading.web-clipper/templates/Create or edit a template]
+[heading.web-clipper/Create or edit a template]
 original=Create or edit a template
 translation=템플릿 생성 또는 편집
 
-[heading.web-clipper/templates/Import and export Web Clipper templates]
+[heading.web-clipper/Import and export Web Clipper templates]
 original=Import and export Web Clipper templates
 translation=Web Clipper 템플릿 들여오기 및 내보내기
 
-[heading.web-clipper/templates/Template settings]
+[heading.web-clipper/Template settings]
 original=Template settings
 translation=템플릿 설정
 
-[heading.web-clipper/templates/Behavior]
+[heading.web-clipper/Behavior]
 original=Behavior
 translation=동작
 
-[heading.web-clipper/templates/Automatically trigger a template]
+[heading.web-clipper/Automatically trigger a template]
 original=Automatically trigger a template
 translation=자동으로 템플릿 트리거
 
-[heading.web-clipper/templates/Simple URL matching]
+[heading.web-clipper/Simple URL matching]
 original=Simple URL matching
 translation=단순 URL 매칭
 
-[heading.web-clipper/templates/Regular expression matching]
+[heading.web-clipper/Regular expression matching]
 original=Regular expression matching
 translation=정규식 매칭
 
-[heading.web-clipper/templates/Schema.org matching]
+[heading.web-clipper/Schema.org matching]
 original=Schema.org matching
 translation=Schema.org 매칭
 
-[heading.web-clipper/templates/Interpreter context]
+[heading.web-clipper/Interpreter context]
 original=Interpreter context
 translation=인터프리터 컨텍스트
 
-[heading.web-clipper/filters/Dates]
+[heading.web-clipper/Dates]
 original=Dates
 translation=날짜
 
-[heading.web-clipper/filters/Text conversion and capitalization]
+[heading.web-clipper/Text conversion and capitalization]
 original=Text conversion and capitalization
 translation=텍스트 변환 및 대소문자
 
-[heading.web-clipper/filters/Text formatting]
+[heading.web-clipper/Text formatting]
 original=Text formatting
 translation=텍스트 서식
 
-[heading.web-clipper/filters/Numbers]
+[heading.web-clipper/Numbers]
 original=Numbers
 translation=숫자
 
-[heading.web-clipper/filters/HTML processing]
+[heading.web-clipper/HTML processing]
 original=HTML processing
 translation=HTML 처리
 
-[heading.web-clipper/filters/Arrays and objects]
+[heading.web-clipper/Arrays and objects]
 original=Arrays and objects
 translation=배열과 객체
 
@@ -2142,307 +2074,307 @@ translation=방향
 original=Translations
 translation=번역
 
-[heading.plugins/canvas/Create a new canvas]
+[heading.plugins/Create a new canvas]
 original=Create a new canvas
 translation=새 캔버스 만들기
 
-[heading.plugins/canvas/Add cards]
+[heading.plugins/Add cards]
 original=Add cards
 translation=카드 추가
 
-[heading.plugins/canvas/Add text cards]
+[heading.plugins/Add text cards]
 original=Add text cards
 translation=텍스트 카드 추가
 
-[heading.plugins/canvas/Add cards from notes]
+[heading.plugins/Add cards from notes]
 original=Add cards from notes
 translation=노트에서 카드 추가
 
-[heading.plugins/canvas/Add cards from media]
+[heading.plugins/Add cards from media]
 original=Add cards from media
 translation=미디어에서 카드 추가
 
-[heading.plugins/canvas/Add cards from web pages]
+[heading.plugins/Add cards from web pages]
 original=Add cards from web pages
 translation=웹 페이지에서 카드 추가
 
-[heading.plugins/canvas/Add cards from folders]
+[heading.plugins/Add cards from folders]
 original=Add cards from folders
 translation=폴더에서 카드 추가
 
-[heading.plugins/canvas/Edit a card]
+[heading.plugins/Edit a card]
 original=Edit a card
 translation=카드 편집
 
-[heading.plugins/canvas/Delete a card]
+[heading.plugins/Delete a card]
 original=Delete a card
 translation=카드 삭제
 
-[heading.plugins/canvas/Swap cards]
+[heading.plugins/Swap cards]
 original=Swap cards
 translation=카드 교체
 
-[heading.plugins/canvas/Select cards]
+[heading.plugins/Select cards]
 original=Select cards
 translation=카드 선택
 
-[heading.plugins/canvas/Arrange cards]
+[heading.plugins/Arrange cards]
 original=Arrange cards
 translation=카드 배열
 
-[heading.plugins/canvas/Resize a card]
+[heading.plugins/Resize a card]
 original=Resize a card
 translation=카드 크기 조절
 
-[heading.plugins/canvas/Connect cards]
+[heading.plugins/Connect cards]
 original=Connect cards
 translation=카드 연결
 
-[heading.plugins/canvas/Connect two cards]
+[heading.plugins/Connect two cards]
 original=Connect two cards
 translation=두 카드 연결
 
-[heading.plugins/canvas/Disconnect two cards]
+[heading.plugins/Disconnect two cards]
 original=Disconnect two cards
 translation=두 카드 연결 끊기
 
-[heading.plugins/canvas/Connect a card to a different card]
+[heading.plugins/Connect a card to a different card]
 original=Connect a card to a different card
 translation=다른 카드에 연결
 
-[heading.plugins/canvas/Navigate a connection]
+[heading.plugins/Navigate a connection]
 original=Navigate a connection
 translation=연결 탐색
 
-[heading.plugins/canvas/Add a label to a connection]
+[heading.plugins/Add a label to a connection]
 original=Add a label to a connection
 translation=연결에 라벨 추가
 
-[heading.plugins/canvas/Change the color of a card or connection]
+[heading.plugins/Change the color of a card or connection]
 original=Change the color of a card or connection
 translation=카드 또는 연결의 색상 변경
 
-[heading.plugins/canvas/Group cards]
+[heading.plugins/Group cards]
 original=Group cards
 translation=카드 그룹화
 
-[heading.plugins/canvas/Group selected cards]
+[heading.plugins/Group selected cards]
 original=Group selected cards
 translation=선택한 카드 그룹화
 
-[heading.plugins/canvas/Navigate the canvas]
+[heading.plugins/Navigate the canvas]
 original=Navigate the canvas
 translation=캔버스 탐색
 
-[heading.plugins/canvas/Pan the canvas]
+[heading.plugins/Pan the canvas]
 original=Pan the canvas
 translation=캔버스 이동
 
-[heading.plugins/canvas/Zoom the canvas]
+[heading.plugins/Zoom the canvas]
 original=Zoom the canvas
 translation=캔버스 확대
 
-[heading.plugins/canvas/Zoom to fit]
+[heading.plugins/Zoom to fit]
 original=Zoom to fit
 translation=화면 맞춤 확대
 
-[heading.plugins/canvas/Zoom to selection]
+[heading.plugins/Zoom to selection]
 original=Zoom to selection
 translation=선택 맞춤 확대
 
-[heading.plugins/canvas/Reset zoom]
+[heading.plugins/Reset zoom]
 original=Reset zoom
 translation=화면 비율 초기화
 
-[heading.plugins/canvas/Advanced tips]
+[heading.plugins/Advanced tips]
 original=Advanced tips
 translation=고급 팁
 
-[heading.plugins/search/Search terms]
+[heading.plugins/Search terms]
 original=Search terms
 translation=검색어
 
-[heading.plugins/search/Search operators]
+[heading.plugins/Search operators]
 original=Search operators
 translation=검색 연산자
 
-[heading.plugins/search/Search properties]
+[heading.plugins/Search properties]
 original=Search properties
 translation=속성 검색
 
-[heading.plugins/search/Change case sensitivity]
+[heading.plugins/Change case sensitivity]
 original=Change case sensitivity
 translation=대소문자 구분 변경
 
-[heading.plugins/search/Change result sort order]
+[heading.plugins/Change result sort order]
 original=Change result sort order
 translation=결과 정렬 순서 변경
 
-[heading.plugins/search/Copy search results]
+[heading.plugins/Copy search results]
 original=Copy search results
 translation=검색 결과 복사
 
-[heading.plugins/search/Use regular expressions]
+[heading.plugins/Use regular expressions]
 original=Use regular expressions
 translation=정규식 사용
 
-[heading.plugins/search/Configure search settings]
+[heading.plugins/Configure search settings]
 original=Configure search settings
 translation=검색 설정 구성
 
-[heading.plugins/search/Embed search results in a note]
+[heading.plugins/Embed search results in a note]
 original=Embed search results in a note
 translation=노트에 검색 결과 임베드
 
-[heading.plugins/unique-note/Create a unique note]
+[heading.plugins/Create a unique note]
 original=Create a unique note
 translation=고유 노트 만들기
 
-[heading.plugins/unique-note/Create unique notes from a template]
+[heading.plugins/Create unique notes from a template]
 original=Create unique notes from a template
 translation=템플릿으로 고유 노트 만들기
 
-[heading.plugins/graph/Settings]
+[heading.plugins/Settings]
 original=Settings
 translation=설정
 
-[heading.plugins/graph/Filters]
+[heading.plugins/Filters]
 original=Filters
 translation=필터
 
-[heading.plugins/graph/Groups]
+[heading.plugins/Groups]
 original=Groups
 translation=그룹
 
-[heading.plugins/graph/Display]
+[heading.plugins/Display]
 original=Display
 translation=표시
 
-[heading.plugins/graph/Forces]
+[heading.plugins/Forces]
 original=Forces
 translation=장력
 
-[heading.plugins/graph/Start a time-lapse animation]
+[heading.plugins/Start a time-lapse animation]
 original=Start a time-lapse animation
 translation=타임랩스 애니메이션 시작
 
-[heading.plugins/graph/Local Graph]
+[heading.plugins/Local Graph]
 original=Local Graph
 translation=로컬 그래프
 
-[heading.plugins/note-composer/Merge notes]
+[heading.plugins/Merge notes]
 original=Merge notes
 translation=노트 병합
 
-[heading.plugins/note-composer/Extract note]
+[heading.plugins/Extract note]
 original=Extract note
 translation=노트 추출
 
-[heading.plugins/note-composer/Template file]
+[heading.plugins/Template file]
 original=Template file
 translation=템플릿 파일
 
-[heading.plugins/format-converter/Supported formats]
+[heading.plugins/Supported formats]
 original=Supported formats
 translation=지원되는 형식
 
-[heading.plugins/command-palette/Pinned commands]
+[heading.plugins/Pinned commands]
 original=Pinned commands
 translation=즐겨찾기된 명령어
 
-[heading.plugins/command-palette/Pin a command]
+[heading.plugins/Pin a command]
 original=Pin a command
 translation=명령 고정하기
 
-[heading.plugins/command-palette/Unpin a command]
+[heading.plugins/Unpin a command]
 original=Unpin a command
 translation=명령 고정 해제하기
 
-[heading.plugins/backlinks/Show backlinks]
+[heading.plugins/Show backlinks]
 original=Show backlinks
 translation=백링크 보기
 
-[heading.plugins/backlinks/View backlinks for a note]
+[heading.plugins/View backlinks for a note]
 original=View backlinks for a note
 translation=노트의 백링크 보기
 
-[heading.plugins/backlinks/See backlinks of a specific note]
+[heading.plugins/See backlinks of a specific note]
 original=See backlinks of a specific note
 translation=특정 노트의 백링크 보기
 
-[heading.plugins/backlinks/Show backlinks in a note]
+[heading.plugins/Show backlinks in a note]
 original=Show backlinks in a note
 translation=노트에서 백링크 표시
 
-[heading.plugins/bookmarks/Add a bookmark]
+[heading.plugins/Add a bookmark]
 original=Add a bookmark
 translation=북마크 추가
 
-[heading.plugins/bookmarks/Remove a bookmark]
+[heading.plugins/Remove a bookmark]
 original=Remove a bookmark
 translation=북마크 제거
 
-[heading.plugins/bookmarks/Add a bookmark group]
+[heading.plugins/Add a bookmark group]
 original=Add a bookmark group
 translation=북마크 그룹 추가
 
-[heading.plugins/bookmarks/Remove a bookmark group]
+[heading.plugins/Remove a bookmark group]
 original=Remove a bookmark group
 translation=북마크 그룹 제거
 
-[heading.plugins/bookmarks/Bookmark multiple files]
+[heading.plugins/Bookmark multiple files]
 original=Bookmark multiple files
 translation=여러 파일 북마크하기
 
-[heading.plugins/quick-switcher/Open Quick switcher]
+[heading.plugins/Open Quick switcher]
 original=Open Quick switcher
 translation=빠른 전환기 열기
 
-[heading.plugins/quick-switcher/Open a note with Quick switcher]
+[heading.plugins/Open a note with Quick switcher]
 original=Open a note with Quick switcher
 translation=빠른 전환기로 노트 열기
 
-[heading.plugins/properties/All properties view]
+[heading.plugins/All properties view]
 original=All properties view
 translation=모든 속성 뷰
 
-[heading.plugins/web-viewer/Reader view]
+[heading.plugins/Reader view]
 original=Reader view
 translation=리더 뷰
 
-[heading.plugins/web-viewer/Save to vault]
+[heading.plugins/Save to vault]
 original=Save to vault
 translation=보관함에 저장
 
-[heading.plugins/web-viewer/Ad blocking]
+[heading.plugins/Ad blocking]
 original=Ad blocking
 translation=광고 차단
 
-[heading.plugins/web-viewer/Security]
+[heading.plugins/Security]
 original=Security
 translation=보안
 
-[heading.plugins/audio-recorder/Record audio in a note]
+[heading.plugins/Record audio in a note]
 original=Record audio in a note
 translation=노트에 오디오 녹음하기
 
-[heading.plugins/daily-notes/Create a daily note from template]
+[heading.plugins/Create a daily note from template]
 original=Create a daily note from template
 translation=템플릿으로 일일 노트 생성
 
-[heading.plugins/daily-notes/Daily notes and properties]
+[heading.plugins/Daily notes and properties]
 original=Daily notes and properties
 translation=일일 노트와 속성
 
-[heading.plugins/workspaces/Save a workspace]
+[heading.plugins/Save a workspace]
 original=Save a workspace
 translation=작업 공간 저장
 
-[heading.plugins/workspaces/Load a workspace]
+[heading.plugins/Load a workspace]
 original=Load a workspace
 translation=작업 공간 불러오기
 
-[heading.plugins/workspaces/Delete a workspace]
+[heading.plugins/Delete a workspace]
 original=Delete a workspace
 translation=작업 공간 삭제
 
@@ -2454,115 +2386,115 @@ translation=모든 코어 플러그인
 original=Other plugins
 translation=기타 플러그인
 
-[heading.plugins/templates/Set your template folder]
+[heading.plugins/Set your template folder]
 original=Set your template folder
 translation=템플릿 폴더 설정
 
-[heading.plugins/templates/Template variables]
+[heading.plugins/Template variables]
 original=Template variables
 translation=템플릿 변수
 
-[heading.plugins/templates/Create a template]
+[heading.plugins/Create a template]
 original=Create a template
 translation=템플릿 만들기
 
-[heading.plugins/templates/Insert a template into the active note]
+[heading.plugins/Insert a template into the active note]
 original=Insert a template into the active note
 translation=활성 노트에 템플릿 삽입
 
-[heading.plugins/templates/Template properties]
+[heading.plugins/Template properties]
 original=Template properties
 translation=템플릿 속성
 
-[heading.plugins/file-recovery/Recover a snapshot]
+[heading.plugins/Recover a snapshot]
 original=Recover a snapshot
 translation=스냅샷 복원하기
 
-[heading.plugins/file-recovery/Clear snapshot history]
+[heading.plugins/Clear snapshot history]
 original=Clear snapshot history
 translation=스냅샷 기록 지우기
 
-[heading.plugins/file-recovery/Storage and performance]
+[heading.plugins/Storage and performance]
 original=Storage and performance
 translation=저장 공간과 성능
 
-[heading.plugins/file-recovery/Limitations]
+[heading.plugins/Limitations]
 original=Limitations
 translation=제한 사항
 
-[heading.plugins/file-explorer/Create a new note]
+[heading.plugins/Create a new note]
 original=Create a new note
 translation=새 노트 만들기
 
-[heading.plugins/file-explorer/Create a new folder]
+[heading.plugins/Create a new folder]
 original=Create a new folder
 translation=새 폴더 만들기
 
-[heading.plugins/file-explorer/Change sort order]
+[heading.plugins/Change sort order]
 original=Change sort order
 translation=정렬 순서 변경
 
-[heading.plugins/file-explorer/Auto-reveal active file]
+[heading.plugins/Auto-reveal active file]
 original=Auto-reveal active file
 translation=활성 파일 자동 표시
 
-[heading.plugins/file-explorer/Expand or collapse all folders]
+[heading.plugins/Expand or collapse all folders]
 original=Expand or collapse all folders
 translation=모든 폴더 펼치기 또는 접기
 
-[heading.plugins/file-explorer/Delete a file or folder]
+[heading.plugins/Delete a file or folder]
 original=Delete a file or folder
 translation=파일 또는 폴더 삭제
 
-[heading.plugins/file-explorer/Rename a file or folder]
+[heading.plugins/Rename a file or folder]
 original=Rename a file or folder
 translation=파일 또는 폴더 이름 바꾸기
 
-[heading.plugins/file-explorer/Move a file or folder]
+[heading.plugins/Move a file or folder]
 original=Move a file or folder
 translation=파일 또는 폴더 이동
 
-[heading.teams/license/Purchase a commercial license]
+[heading.plugins/Install Importer]
+original=Install Importer
+translation=Importer 설치
+
+[heading.teams/Purchase a commercial license]
 original=Purchase a commercial license
 translation=상용 라이선스 구매
 
-[heading.teams/license/Apply a commercial license]
+[heading.teams/Apply a commercial license]
 original=Apply a commercial license
 translation=상용 라이선스 적용
 
-[heading.teams/license/Supporting organizations]
+[heading.teams/Supporting organizations]
 original=Supporting organizations
 translation=지원 조직
 
-[heading.teams/license/Frequently asked questions]
+[heading.teams/Frequently asked questions]
 original=Frequently asked questions
 translation=자주 묻는 질문
 
-[heading.teams/deploy/Install and update Obsidian]
+[heading.teams/Install and update Obsidian]
 original=Install and update Obsidian
 translation=Obsidian 설치 및 업데이트
 
-[heading.teams/deploy/Customizing Obsidian]
+[heading.teams/Customizing Obsidian]
 original=Customizing Obsidian
 translation=Obsidian 사용자 지정
 
-[heading.teams/deploy/Configuration folders]
+[heading.teams/Configuration folders]
 original=Configuration folders
 translation=설정 폴더
 
-[heading.teams/deploy/Plugins]
+[heading.teams/Plugins]
 original=Plugins
 translation=플러그인
 
-[heading.teams/deploy/Themes and snippets]
+[heading.teams/Themes and snippets]
 original=Themes and snippets
 translation=테마 및 스니펫
 
-[heading.teams/deploy/Frequently asked questions]
-original=Frequently asked questions
-translation=자주 묻는 질문
-
-[heading.teams/deploy/Deployment]
+[heading.teams/Deployment]
 original=Deployment
 translation=배포
 
@@ -2574,127 +2506,107 @@ translation=팀과 함께 Obsidian 사용하기
 original=Important resources
 translation=중요 자료
 
-[heading.teams/publish/Publishing tools and services]
+[heading.teams/Publishing tools and services]
 original=Publishing tools and services
 translation=게재 도구 및 서비스
 
-[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+[heading.teams/Advanced collaboration for Obsidian Publish]
 original=Advanced collaboration for Obsidian Publish
 translation=Obsidian Publish를 위한 고급 협업
 
-[heading.teams/publish/Media]
+[heading.teams/Media]
 original=Media
 translation=미디어
 
-[heading.teams/publish/Frequently asked questions]
-original=Frequently asked questions
-translation=자주 묻는 질문
-
-[heading.teams/sync/Syncing tools and services]
+[heading.teams/Syncing tools and services]
 original=Syncing tools and services
 translation=동기화 도구 및 서비스
 
-[heading.teams/sync/Obsidian Sync for teams]
+[heading.teams/Obsidian Sync for teams]
 original=Obsidian Sync for teams
 translation=팀을 위한 Obsidian Sync
 
-[heading.teams/sync/Security]
+[heading.teams/Security]
 original=Security
 translation=보안
 
-[heading.teams/sync/Frequently asked questions]
-original=Frequently asked questions
-translation=자주 묻는 질문
-
-[heading.teams/security/Considerations]
+[heading.teams/Considerations]
 original=Considerations
 translation=고려 사항
 
-[heading.teams/security/Community plugins and themes]
+[heading.teams/Community plugins and themes]
 original=Community plugins and themes
 translation=커뮤니티 플러그인 및 테마
 
-[heading.teams/security/Network and access]
+[heading.teams/Network and access]
 original=Network and access
 translation=네트워크 및 접근
 
-[heading.teams/security/Obsidian-sourced connections]
+[heading.teams/Obsidian-sourced connections]
 original=Obsidian-sourced connections
 translation=Obsidian 소스 연결
 
-[heading.teams/security/GitHub-sourced connections]
+[heading.teams/GitHub-sourced connections]
 original=GitHub-sourced connections
 translation=GitHub 소스 연결
 
-[heading.teams/security/Other connections]
+[heading.teams/Other connections]
 original=Other connections
 translation=기타 연결
 
-[heading.teams/security/Frequently asked questions]
-original=Frequently asked questions
-translation=자주 묻는 질문
-
-[heading.teams/security/Account security]
+[heading.teams/Account security]
 original=Account security
 translation=계정 보안
 
-[heading.teams/security/Assessments and certifications]
+[heading.teams/Assessments and certifications]
 original=Assessments and certifications
 translation=평가 및 인증
 
-[heading.import/apple-journal/Export your data from Apple Journal]
+[heading.import/Export your data from Apple Journal]
 original=Export your data from Apple Journal
 translation=Apple Journal에서 데이터 내보내기
 
-[heading.import/apple-journal/On iPhone]
+[heading.import/On iPhone]
 original=On iPhone
 translation=iPhone에서
 
-[heading.import/apple-journal/On Mac (Tahoe)]
+[heading.import/On Mac (Tahoe)]
 original=On Mac (Tahoe)
 translation=Mac (Tahoe)에서
 
-[heading.import/apple-journal/Import Apple Journal data into Obsidian]
+[heading.import/Import Apple Journal data into Obsidian]
 original=Import Apple Journal data into Obsidian
 translation=Apple Journal 데이터를 Obsidian으로 들여오기
 
-[heading.import/apple-journal/Supported content]
+[heading.import/Supported content]
 original=Supported content
 translation=지원되는 콘텐츠
 
-[heading.import/csv/Create notes from CSV data in Obsidian]
+[heading.import/Create notes from CSV data in Obsidian]
 original=Create notes from CSV data in Obsidian
 translation=Obsidian에서 CSV 데이터로 노트 생성하기
 
-[heading.import/csv/Configure how CSV fields are imported]
+[heading.import/Configure how CSV fields are imported]
 original=Configure how CSV fields are imported
 translation=CSV 필드 들여오기 방식 설정하기
 
-[heading.import/craft/Export your data from Craft]
+[heading.import/Export your data from Craft]
 original=Export your data from Craft
 translation=Craft에서 데이터 내보내기
 
-[heading.import/craft/Import your Craft data into Obsidian]
+[heading.import/Import your Craft data into Obsidian]
 original=Import your Craft data into Obsidian
 translation=Craft 데이터를 Obsidian으로 들여오기
 
-[heading.import/craft/Troubleshooting]
+[heading.import/Troubleshooting]
 original=Troubleshooting
 translation=문제 해결
 
-[heading.plugins/importer/Install Importer]
-original=Install Importer
-translation=Importer 설치
-
-[heading.import/textbundle/Import Textbundle files into Obsidian]
+[heading.import/Import Textbundle files into Obsidian]
 original=Import Textbundle files into Obsidian
 translation=Textbundle 파일을 Obsidian으로 들여오기
 
-[heading.import/textbundle/Troubleshooting]
-original=Troubleshooting
-translation=문제 해결
-
-[heading.import/textbundle/No files are selected for import]
+[heading.import/No files are selected for import]
 original=No files are selected for import
 translation=들여오기할 파일이 선택되지 않음
 
@@ -4082,30 +3994,26 @@ translation=macOS 단축키
 original=Text formatting
 translation=텍스트 서식
 
-[heading.//Obsidian Help]
-original=Obsidian Help
-translation=Obsidian 도움말
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Airtable 개인 액세스 토큰 만들기
 
-[heading.//Get started]
-original=Get started
-translation=시작하기
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Airtable 데이터 가져오기
 
-[heading.//Extend Obsidian]
-original=Extend Obsidian
-translation=Obsidian 확장하기
+[heading.import/airtable/Import options]
+original=Import options
+translation=가져오기 옵션
 
-[heading.//Add-on services]
-original=Add-on services
-translation=부가 서비스
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Airtable 필드 가져오기 방식 설정
 
-[heading.//Contribute]
-original=Contribute
-translation=기여하기
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=가져오는 항목
 
-[heading.publish/headless/Quick start]
-original=Quick start
-translation=빠른 시작
-
-[heading.publish/headless/Commands]
-original=Commands
-translation=명령
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=제한 사항

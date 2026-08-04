@@ -8,6 +8,7 @@ Az alkalmazások jönnek-mennek, de az adataidnak meg kell maradniuk. Az Obsidia
 ## Importálás más alkalmazásokból és fájlformátumokból
 
 - <span class="icon-app icon-notion"></span> [[Importálás a Notionből|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importálás az Airtable-ből|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importálás a Microsoft OneNote-ból|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importálás az Evernote-ból|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importálás az Apple Jegyzetekből|Apple Notes]]

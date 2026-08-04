@@ -954,61 +954,65 @@ translation=Dátové typy
 original=Reference other formulas
 translation=Odkazovanie na iné vzorce
 
-[heading.import/onenote/Import your OneNote data into Obsidian]
+[heading.import/Import your OneNote data into Obsidian]
 original=Import your OneNote data into Obsidian
 translation=Import dát z OneNote do Obsidian
 
-[heading.import/onenote/Troubleshooting]
+[heading.import/Troubleshooting]
 original=Troubleshooting
 translation=Riešenie problémov
 
-[heading.import/onenote/No sections or notebooks appear]
+[heading.import/No sections or notebooks appear]
 original=No sections or notebooks appear
 translation=Nezobrazujú sa žiadne sekcie ani zápisníky
 
-[heading.import/onenote/Imported notes are empty or missing content]
+[heading.import/Imported notes are empty or missing content]
 original=Imported notes are empty or missing content
 translation=Importované poznámky sú prázdne alebo im chýba obsah
 
-[heading.import/onenote/Privacy]
+[heading.import/Privacy]
 original=Privacy
 translation=Súkromie
 
-[heading.import/notion/API import]
+[heading.import/API import]
 original=API import
 translation=Import cez API
 
-[heading.import/notion/Create a Notion API integration token]
+[heading.import/Create a Notion API integration token]
 original=Create a Notion API integration token
 translation=Vytvorenie integračného tokenu Notion API
 
-[heading.import/notion/Import your Notion data via API]
+[heading.import/Import your Notion data via API]
 original=Import your Notion data via API
 translation=Import vašich dát z Notion cez API
 
-[heading.import/notion/Limitations]
+[heading.import/Limitations]
 original=Limitations
 translation=Obmedzenia
 
-[heading.import/notion/File import]
+[heading.import/File import]
 original=File import
 translation=Import zo súboru
 
-[heading.import/notion/Export your data from Notion]
+[heading.import/Export your data from Notion]
 original=Export your data from Notion
 translation=Export vašich dát z Notion
 
-[heading.import/notion/Import your Notion .zip file]
+[heading.import/Import your Notion .zip file]
 original=Import your Notion .zip file
 translation=Import vášho .zip súboru z Notion
 
-[heading.import/notion/Troubleshooting]
-original=Troubleshooting
-translation=Riešenie problémov
-
-[heading.import/notion/Importing large workspaces]
+[heading.import/Importing large workspaces]
 original=Importing large workspaces
 translation=Import veľkých pracovných priestorov
+
+[heading.import/Import from other apps and file formats]
+original=Import from other apps and file formats
+translation=Import z iných aplikácií a formátov súborov
+
+[heading.import/More formats]
+original=More formats
+translation=Ďalšie formáty
 
 [heading.credit/Add credit]
 original=Add credit
@@ -1150,151 +1154,151 @@ translation=Odvolanie proti zákazu
 original=Credits
 translation=Zásluhy
 
-[heading.publish/media/Images]
+[heading.publish/Images]
 original=Images
 translation=Obrázky
 
-[heading.publish/media/PDFs]
+[heading.publish/PDFs]
 original=PDFs
 translation=PDF
 
-[heading.publish/media/Videos and audio]
+[heading.publish/Videos and audio]
 original=Videos and audio
 translation=Videá a zvuk
 
-[heading.publish/social-share/Description]
+[heading.publish/Description]
 original=Description
 translation=Popis
 
-[heading.publish/social-share/Image]
+[heading.publish/Image]
 original=Image
 translation=Obrázok
 
-[heading.publish/customize/Static assets]
+[heading.publish/Static assets]
 original=Static assets
 translation=Statické zdroje
 
-[heading.publish/customize/Use a community theme]
+[heading.publish/Use a community theme]
 original=Use a community theme
 translation=Použitie komunitnej témy
 
-[heading.publish/customize/Enable UI features]
+[heading.publish/Enable UI features]
 original=Enable UI features
 translation=Povolenie funkcií používateľského rozhrania
 
-[heading.publish/customize/Customize navigation]
+[heading.publish/Customize navigation]
 original=Customize navigation
 translation=Prispôsobenie navigácie
 
-[heading.publish/customize/Accessing Customize navigation options]
+[heading.publish/Accessing Customize navigation options]
 original=Accessing Customize navigation options
 translation=Prístup k možnostiam prispôsobenia navigácie
 
-[heading.publish/customize/Adjust navigation items]
+[heading.publish/Adjust navigation items]
 original=Adjust navigation items
 translation=Úprava položiek navigácie
 
-[heading.publish/customize/Hide and unhide navigation items]
+[heading.publish/Hide and unhide navigation items]
 original=Hide and unhide navigation items
 translation=Skrytie a zobrazenie položiek navigácie
 
-[heading.publish/customize/FAQ]
+[heading.publish/FAQ]
 original=FAQ
 translation=Často kladené otázky
 
-[heading.publish/publish/Prerequisites]
+[heading.publish/Prerequisites]
 original=Prerequisites
 translation=Predpoklady
 
-[heading.publish/publish/Publish notes]
+[heading.publish/Publish notes]
 original=Publish notes
 translation=Publikovanie poznámok
 
-[heading.publish/publish/Unpublish notes]
+[heading.publish/Unpublish notes]
 original=Unpublish notes
 translation=Zrušenie publikovania poznámok
 
-[heading.publish/publish/Update a published note]
+[heading.publish/Update a published note]
 original=Update a published note
 translation=Aktualizácia publikovanej poznámky
 
-[heading.publish/publish/Publish linked data]
+[heading.publish/Publish linked data]
 original=Publish linked data
 translation=Publikovanie prepojených dát
 
-[heading.publish/publish/Automatically select data to publish]
+[heading.publish/Automatically select data to publish]
 original=Automatically select data to publish
 translation=Automatický výber dát na publikovanie
 
-[heading.publish/publish/Ignore data]
+[heading.publish/Ignore data]
 original=Ignore data
 translation=Ignorovanie dát
 
-[heading.publish/troubleshoot/General]
+[heading.publish/General]
 original=General
 translation=Všeobecné
 
-[heading.publish/troubleshoot/Publishing notes]
+[heading.publish/Publishing notes]
 original=Publishing notes
 translation=Publikovanie poznámok
 
-[heading.publish/troubleshoot/CSS and themes]
+[heading.publish/CSS and themes]
 original=CSS and themes
 translation=CSS a témy
 
-[heading.sync/settings/Sync settings]
+[heading.sync/Sync settings]
 original=Sync settings
 translation=Nastavenia Sync
 
-[heading.sync/settings/Conflict resolution]
+[heading.sync/Conflict resolution]
 original=Conflict resolution
 translation=Riešenie konfliktov
 
-[heading.sync/settings/Selective syncing]
+[heading.sync/Selective syncing]
 original=Selective syncing
 translation=Selektívna synchronizácia
 
-[heading.sync/settings/Change the file types you want to sync]
+[heading.sync/Change the file types you want to sync]
 original=Change the file types you want to sync
 translation=Zmena typov súborov na synchronizáciu
 
-[heading.sync/settings/Exclude a folder from syncing]
+[heading.sync/Exclude a folder from syncing]
 original=Exclude a folder from syncing
 translation=Vylúčenie priečinka zo synchronizácie
 
-[heading.sync/settings/Always excluded from sync]
+[heading.sync/Always excluded from sync]
 original=Always excluded from sync
 translation=Vždy vylúčené zo synchronizácie
 
-[heading.sync/settings/File recovery snapshots]
+[heading.sync/File recovery snapshots]
 original=File recovery snapshots
 translation=Snímky obnovy súborov
 
-[heading.sync/settings/Hidden files and folders]
+[heading.sync/Hidden files and folders]
 original=Hidden files and folders
 translation=Skryté súbory a priečinky
 
-[heading.sync/settings/Updating your synced vault settings]
+[heading.sync/Updating your synced vault settings]
 original=Updating your synced vault settings
 translation=Aktualizácia nastavení synchronizovaného trezora
 
-[heading.sync/settings/Primary device]
+[heading.sync/Primary device]
 original=Primary device
 translation=Primárne zariadenie
 
-[heading.sync/settings/Secondary device(s)]
+[heading.sync/Secondary device(s)]
 original=Secondary device(s)
 translation=Sekundárne zariadenie(-a)
 
-[heading.sync/settings/Reloading of settings]
+[heading.sync/Reloading of settings]
 original=Reloading of settings
 translation=Opätovné načítanie nastavení
 
-[heading.sync/settings/Settings profiles]
+[heading.sync/Settings profiles]
 original=Settings profiles
 translation=Profily nastavení
 
-[heading.sync/settings/Create a settings profile]
+[heading.sync/Create a settings profile]
 original=Create a settings profile
 translation=Vytvorenie profilu nastavení
 
@@ -1306,211 +1310,211 @@ translation=Ako používať Obsidian Sync
 original=Important
 translation=Dôležité
 
-[heading.sync/faq/General]
+[heading.sync/General]
 original=General
 translation=Všeobecné
 
-[heading.sync/faq/What operating systems does Obsidian Sync support?]
+[heading.sync/What operating systems does Obsidian Sync support?]
 original=What operating systems does Obsidian Sync support?
 translation=Aké operačné systémy Obsidian Sync podporuje?
 
-[heading.sync/faq/Does Obsidian work with Apple's Lockdown Mode?]
+[heading.sync/Does Obsidian work with Apple's Lockdown Mode?]
 original=Does Obsidian work with Apple's Lockdown Mode?
 translation=Funguje Obsidian s režimom uzamknutia (Lockdown Mode) od Apple?
 
-[heading.sync/faq/What type of data is synced?]
+[heading.sync/What type of data is synced?]
 original=What type of data is synced?
 translation=Aký typ dát sa synchronizuje?
 
-[heading.sync/faq/How much storage do I have?]
+[heading.sync/How much storage do I have?]
 original=How much storage do I have?
 translation=Koľko úložiska mám k dispozícii?
 
-[heading.sync/faq/How many remote vaults can I have?]
+[heading.sync/How many remote vaults can I have?]
 original=How many remote vaults can I have?
 translation=Koľko vzdialených trezorov môžem mať?
 
-[heading.sync/faq/How large can each remote vault be?]
+[heading.sync/How large can each remote vault be?]
 original=How large can each remote vault be?
 translation=Aký veľký môže byť každý vzdialený trezor?
 
-[heading.sync/faq/How many people can I share a remote vault with?]
+[heading.sync/How many people can I share a remote vault with?]
 original=How many people can I share a remote vault with?
 translation=S koľkými ľuďmi môžem zdieľať vzdialený trezor?
 
-[heading.sync/faq/How large can each file be?]
+[heading.sync/How large can each file be?]
 original=How large can each file be?
 translation=Aký veľký môže byť každý súbor?
 
-[heading.sync/faq/Is my data being synced in the background?]
+[heading.sync/Is my data being synced in the background?]
 original=Is my data being synced in the background?
 translation=Synchronizujú sa moje dáta na pozadí?
 
-[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+[heading.sync/Does Obsidian Sync live-reload my settings?]
 original=Does Obsidian Sync live-reload my settings?
 translation=Načítava Obsidian Sync moje nastavenia v reálnom čase?
 
-[heading.sync/faq/Can I use a third-party sync with Obsidian Sync?]
+[heading.sync/Can I use a third-party sync with Obsidian Sync?]
 original=Can I use a third-party sync with Obsidian Sync?
 translation=Môžem používať synchronizáciu treťou stranou s Obsidian Sync?
 
-[heading.sync/faq/Data retention]
+[heading.sync/Data retention]
 original=Data retention
 translation=Uchovávanie dát
 
-[heading.sync/faq/How long do you keep the version history?]
+[heading.sync/How long do you keep the version history?]
 original=How long do you keep the version history?
 translation=Ako dlho uchovávate históriu verzií?
 
-[heading.sync/faq/How long do you keep my data after my subscription expires?]
+[heading.sync/How long do you keep my data after my subscription expires?]
 original=How long do you keep my data after my subscription expires?
 translation=Ako dlho uchovávate moje dáta po vypršaní predplatného?
 
-[heading.sync/faq/Do you keep my data if I refund my subscription service?]
+[heading.sync/Do you keep my data if I refund my subscription service?]
 original=Do you keep my data if I refund my subscription service?
 translation=Uchovávate moje dáta, ak požiadam o vrátenie peňazí za predplatné?
 
-[heading.web-clipper/capture/Capture a page]
+[heading.web-clipper/Capture a page]
 original=Capture a page
 translation=Zachytenie stránky
 
-[heading.web-clipper/capture/Download images]
+[heading.web-clipper/Download images]
 original=Download images
 translation=Stiahnutie obrázkov
 
-[heading.web-clipper/capture/Hotkeys]
+[heading.web-clipper/Hotkeys]
 original=Hotkeys
 translation=Klávesové skratky
 
-[heading.web-clipper/capture/Interface functionality]
+[heading.web-clipper/Interface functionality]
 original=Interface functionality
 translation=Funkcie rozhrania
 
-[heading.web-clipper/templates/Create or edit a template]
+[heading.web-clipper/Create or edit a template]
 original=Create or edit a template
 translation=Vytvorenie alebo úprava šablóny
 
-[heading.web-clipper/templates/Import and export Web Clipper templates]
+[heading.web-clipper/Import and export Web Clipper templates]
 original=Import and export Web Clipper templates
 translation=Import a export šablón Web Clipper
 
-[heading.web-clipper/templates/Template settings]
+[heading.web-clipper/Template settings]
 original=Template settings
 translation=Nastavenia šablóny
 
-[heading.web-clipper/templates/Behavior]
+[heading.web-clipper/Behavior]
 original=Behavior
 translation=Správanie
 
-[heading.web-clipper/templates/Automatically trigger a template]
+[heading.web-clipper/Automatically trigger a template]
 original=Automatically trigger a template
 translation=Automatické spustenie šablóny
 
-[heading.web-clipper/templates/Simple URL matching]
+[heading.web-clipper/Simple URL matching]
 original=Simple URL matching
 translation=Jednoduché porovnávanie URL
 
-[heading.web-clipper/templates/Regular expression matching]
+[heading.web-clipper/Regular expression matching]
 original=Regular expression matching
 translation=Porovnávanie regulárnymi výrazmi
 
-[heading.web-clipper/templates/Schema.org matching]
+[heading.web-clipper/Schema.org matching]
 original=Schema.org matching
 translation=Porovnávanie Schema.org
 
-[heading.web-clipper/templates/Interpreter context]
+[heading.web-clipper/Interpreter context]
 original=Interpreter context
 translation=Kontext interpretera
 
-[heading.plugins/file-recovery/Recover a snapshot]
+[heading.plugins/Recover a snapshot]
 original=Recover a snapshot
 translation=Obnovenie snímky
 
-[heading.plugins/file-recovery/Clear snapshot history]
+[heading.plugins/Clear snapshot history]
 original=Clear snapshot history
 translation=Vymazanie histórie snímok
 
-[heading.plugins/file-recovery/Storage and performance]
+[heading.plugins/Storage and performance]
 original=Storage and performance
 translation=Úložisko a výkon
 
-[heading.plugins/file-recovery/Limitations]
+[heading.plugins/Limitations]
 original=Limitations
 translation=Obmedzenia
 
-[heading.plugins/file-explorer/Create a new note]
+[heading.plugins/Create a new note]
 original=Create a new note
 translation=Vytvorenie novej poznámky
 
-[heading.plugins/file-explorer/Create a new folder]
+[heading.plugins/Create a new folder]
 original=Create a new folder
 translation=Vytvorenie nového priečinka
 
-[heading.plugins/file-explorer/Change sort order]
+[heading.plugins/Change sort order]
 original=Change sort order
 translation=Zmena zoradenia
 
-[heading.plugins/file-explorer/Auto-reveal active file]
+[heading.plugins/Auto-reveal active file]
 original=Auto-reveal active file
 translation=Automatické odhalenie aktívneho súboru
 
-[heading.plugins/file-explorer/Expand or collapse all folders]
+[heading.plugins/Expand or collapse all folders]
 original=Expand or collapse all folders
 translation=Rozbalenie alebo zbalenie všetkých priečinkov
 
-[heading.plugins/file-explorer/Delete a file or folder]
+[heading.plugins/Delete a file or folder]
 original=Delete a file or folder
 translation=Odstránenie súboru alebo priečinka
 
-[heading.plugins/file-explorer/Rename a file or folder]
+[heading.plugins/Rename a file or folder]
 original=Rename a file or folder
 translation=Premenovanie súboru alebo priečinka
 
-[heading.plugins/file-explorer/Move a file or folder]
+[heading.plugins/Move a file or folder]
 original=Move a file or folder
 translation=Presunutie súboru alebo priečinka
 
-[heading.plugins/quick-switcher/Open Quick switcher]
+[heading.plugins/Open Quick switcher]
 original=Open Quick switcher
 translation=Otvorenie rýchleho prepínača
 
-[heading.plugins/quick-switcher/Open a note with Quick switcher]
+[heading.plugins/Open a note with Quick switcher]
 original=Open a note with Quick switcher
 translation=Otvorenie poznámky pomocou rýchleho prepínača
 
-[heading.plugins/unique-note/Create a unique note]
+[heading.plugins/Create a unique note]
 original=Create a unique note
 translation=Vytvorenie unikátnej poznámky
 
-[heading.plugins/unique-note/Create unique notes from a template]
+[heading.plugins/Create unique notes from a template]
 original=Create unique notes from a template
 translation=Vytvorenie unikátnych poznámok zo šablóny
 
-[heading.plugins/properties/All properties view]
+[heading.plugins/All properties view]
 original=All properties view
 translation=Zobrazenie všetkých vlastností
 
-[heading.plugins/templates/Set your template folder]
+[heading.plugins/Set your template folder]
 original=Set your template folder
 translation=Nastavenie priečinka šablón
 
-[heading.plugins/templates/Template variables]
+[heading.plugins/Template variables]
 original=Template variables
 translation=Premenné šablón
 
-[heading.plugins/templates/Create a template]
+[heading.plugins/Create a template]
 original=Create a template
 translation=Vytvorenie šablóny
 
-[heading.plugins/templates/Insert a template into the active note]
+[heading.plugins/Insert a template into the active note]
 original=Insert a template into the active note
 translation=Vloženie šablóny do aktívnej poznámky
 
-[heading.plugins/templates/Template properties]
+[heading.plugins/Template properties]
 original=Template properties
 translation=Vlastnosti šablóny
 
-[heading.plugins/templates/Inserting current date and time into the active note]
+[heading.plugins/Inserting current date and time into the active note]
 original=Inserting current date and time into the active note
 translation=Vloženie aktuálneho dátumu a času do aktívnej poznámky
 
@@ -1622,81 +1626,65 @@ translation=Riešenie problémov
 original=Register Obsidian URI
 translation=Registrácia Obsidian URI
 
-[heading.teams/security/Considerations]
+[heading.teams/Considerations]
 original=Considerations
 translation=Zváženia
 
-[heading.teams/security/Community plugins and themes]
+[heading.teams/Community plugins and themes]
 original=Community plugins and themes
 translation=Komunitné pluginy a témy
 
-[heading.teams/security/Network and access]
+[heading.teams/Network and access]
 original=Network and access
 translation=Sieť a prístup
 
-[heading.teams/security/Obsidian-sourced connections]
+[heading.teams/Obsidian-sourced connections]
 original=Obsidian-sourced connections
 translation=Pripojenia z Obsidian
 
-[heading.teams/security/GitHub-sourced connections]
+[heading.teams/GitHub-sourced connections]
 original=GitHub-sourced connections
 translation=Pripojenia z GitHub
 
-[heading.teams/security/Other connections]
+[heading.teams/Other connections]
 original=Other connections
 translation=Ostatné pripojenia
 
-[heading.teams/security/Frequently asked questions]
+[heading.teams/Frequently asked questions]
 original=Frequently asked questions
 translation=Často kladené otázky
 
-[heading.teams/security/Account security]
+[heading.teams/Account security]
 original=Account security
 translation=Bezpečnosť účtu
 
-[heading.teams/security/Assessments and certifications]
+[heading.teams/Assessments and certifications]
 original=Assessments and certifications
 translation=Hodnotenia a certifikácie
 
-[heading.teams/publish/Publishing tools and services]
+[heading.teams/Publishing tools and services]
 original=Publishing tools and services
 translation=Publikačné nástroje a služby
 
-[heading.teams/publish/Advanced collaboration for Obsidian Publish]
+[heading.teams/Advanced collaboration for Obsidian Publish]
 original=Advanced collaboration for Obsidian Publish
 translation=Rozšírená spolupráca pre Obsidian Publish
 
-[heading.teams/publish/Media]
+[heading.teams/Media]
 original=Media
 translation=Médiá
 
-[heading.teams/publish/Frequently asked questions]
-original=Frequently asked questions
-translation=Často kladené otázky
-
-[heading.teams/sync/Syncing tools and services]
+[heading.teams/Syncing tools and services]
 original=Syncing tools and services
 translation=Synchronizačné nástroje a služby
 
-[heading.teams/sync/Obsidian Sync for teams]
+[heading.teams/Obsidian Sync for teams]
 original=Obsidian Sync for teams
 translation=Obsidian Sync pre tímy
 
-[heading.teams/sync/Security]
+[heading.teams/Security]
 original=Security
 translation=Bezpečnosť
-
-[heading.teams/sync/Frequently asked questions]
-original=Frequently asked questions
-translation=Často kladené otázky
-
-[heading.import/Import from other apps and file formats]
-original=Import from other apps and file formats
-translation=Import z iných aplikácií a formátov súborov
-
-[heading.import/More formats]
-original=More formats
-translation=Ďalšie formáty
 
 [heading.install/Install Obsidian on Windows]
 original=Install Obsidian on Windows
@@ -1769,3 +1757,27 @@ translation=Vloženie YouTube videa
 [heading.embed-web-pages/Embed a tweet]
 original=Embed a tweet
 translation=Vloženie tweetu
+
+[heading.import/airtable/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Vytvorenie osobného prístupového tokenu Airtable
+
+[heading.import/airtable/Import your Airtable data]
+original=Import your Airtable data
+translation=Import vašich dát z Airtable
+
+[heading.import/airtable/Import options]
+original=Import options
+translation=Možnosti importu
+
+[heading.import/airtable/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurácia spôsobu importu polí z Airtable
+
+[heading.import/airtable/What gets imported]
+original=What gets imported
+translation=Čo sa importuje
+
+[heading.import/airtable/Limitations]
+original=Limitations
+translation=Obmedzenia
