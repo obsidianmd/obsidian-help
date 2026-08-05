@@ -29,8 +29,8 @@ Necessitaràs el connector oficial d'Obsidian [[Importador]], que pots [instal·
 2. Ves a **Connectors de la comunitat** i [instal·la l'Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Habilita el connector Importador.
 4. Obre el connector **Importador** utilitzant la paleta d'ordres o la icona de la barra d'eines.
-5. Sota **Format de fitxer** selecciona **Airtable (API)**.
-6. Sota **Token d'accés personal d'Airtable**, enganxa el token que has creat.
+5. Sota **Format de fitxer** selecciona **Airtable**.
+6. Sota **Token d'accés personal d'Airtable**, fes clic a **Enllaça...** per afegir un nou secret. Per a l'**ID**, dona-li un nom com `airtable`, i per al **Secret** enganxa el teu token d'accés personal.
 7. Fes clic a **Carrega** per navegar per les teves bases, després selecciona les taules que vols importar.
 8. Revisa i edita les opcions d'importació.
 9. Selecciona **Importa** per configurar com es convertiran els teus camps en notes amb [[Propietats|propietats]].

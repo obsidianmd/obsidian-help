@@ -29,8 +29,8 @@ Anda memerlukan plugin resmi Obsidian [[Impor|Impor]], yang dapat Anda [pasang d
 2. Buka **Plugin komunitas** dan [pasang Impor](obsidian://show-plugin?id=obsidian-importer).
 3. Aktifkan plugin Impor.
 4. Buka plugin **Impor** menggunakan palet perintah atau ikon bilah alat.
-5. Di bagian **Format file** pilih **Airtable (API)**.
-6. Di bagian **Airtable Personal Access Token**, tempel token yang telah Anda buat.
+5. Di bagian **Format file** pilih **Airtable**.
+6. Di bagian **Airtable Personal Access Token**, klik **Tautkan...** untuk menambahkan rahasia baru. Untuk **ID**, beri nama seperti `airtable`, dan untuk **Rahasia** tempel token akses personal Anda.
 7. Klik **Muat** untuk menelusuri basis Anda, lalu pilih tabel yang ingin Anda impor.
 8. Tinjau dan ubah pengaturan impor.
 9. Pilih **Impor** untuk mengonfigurasi bagaimana bidang Anda akan dikonversi menjadi catatan dengan [[Properti|properti]].

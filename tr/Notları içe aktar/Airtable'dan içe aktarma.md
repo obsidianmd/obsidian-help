@@ -29,8 +29,8 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 2. **Topluluk Eklentileri**'ne gidin ve [İçe aktarıcı'yı indirin](obsidian://show-plugin?id=obsidian-importer).
 3. İçe aktarıcı eklentisini etkinleştirin.
 4. Komut paleti veya şerit menü simgesini kullanarak **İçe aktarıcı** eklentisini açın.
-5. **File format** altında **Airtable (API)** seçeneğini seçin.
-6. **Airtable Personal Access Token** altına oluşturduğunuz belirteci yapıştırın.
+5. **File format** altında **Airtable** seçeneğini seçin.
+6. **Airtable Personal Access Token** altında **Bağla...** düğmesine tıklayarak yeni bir gizli bilgi ekleyin. **Kimlik** olarak `airtable` gibi bir ad verin ve **Gizli bilgi** alanına kişisel erişim belirtecinizi yapıştırın.
 7. Tabanlarınıza göz atmak için **Yükle** düğmesine tıklayın, ardından içe aktarmak istediğiniz tabloları seçin.
 8. İçe aktarma seçeneklerini gözden geçirin ve düzenleyin.
 9. Alanlarınızın [[Özellikler|özelliklerle]] birlikte notlara nasıl dönüştürüleceğini yapılandırmak için **Import** seçeneğini seçin.

@@ -29,8 +29,8 @@ Je hebt de officiële Obsidian [[Importeren|Importer]]-plug-in nodig, die je [hi
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activeer de Importer-plug-in.
 4. Open de **Importer**-plug-in via het opdrachtenpalet of het werkbalkpictogram.
-5. Selecteer onder **Bestandsindeling** de optie **Airtable (API)**.
-6. Plak onder **Airtable Personal Access Token** het token dat je hebt aangemaakt.
+5. Selecteer onder **Bestandsindeling** de optie **Airtable**.
+6. Klik onder **Airtable Personal Access Token** op **Koppelen...** om een nieuw geheim toe te voegen. Geef voor het **ID** een naam op zoals `airtable`, en plak voor het **Geheim** je persoonlijke toegangstoken.
 7. Klik op **Laden** om je bases te bladeren en selecteer vervolgens de tabellen die je wilt importeren.
 8. Bekijk en bewerk de importopties.
 9. Selecteer **Importeren** om te configureren hoe je velden worden geconverteerd naar notities met [[Eigenschappen|eigenschappen]].

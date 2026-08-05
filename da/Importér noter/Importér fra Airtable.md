@@ -29,8 +29,8 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 2. Gå til **Fællesskabsplugins** og [installer Importér](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivér Importér-pluginet.
 4. Åbn **Importér**-pluginet ved hjælp af kommandopaletten eller værktøjslinjeikonet.
-5. Under **Filformat** vælg **Airtable (API)**.
-6. Under **Airtable Personal Access Token**, indsæt det token du oprettede.
+5. Under **Filformat** vælg **Airtable**.
+6. Under **Airtable Personal Access Token**, klik **Link...** for at tilføje en ny hemmelighed. For **ID** giv den et navn som `airtable`, og for **Hemmelighed** indsæt dit personlige adgangstoken.
 7. Klik **Indlæs** for at gennemse dine baser, og vælg derefter de tabeller du vil importere.
 8. Gennemse og rediger importindstillingerne.
 9. Vælg **Importér** for at konfigurere, hvordan dine felter konverteres til noter med [[Egenskaber|egenskaber]].

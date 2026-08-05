@@ -29,8 +29,8 @@ Tarvitset virallisen Obsidianin [[Tuontityökalu]]-lisäosan, jonka voit [asenta
 2. Siirry kohtaan **Yhteisön lisäosat** ja [asenna Tuontityökalu](obsidian://show-plugin?id=obsidian-importer).
 3. Ota Tuontityökalu-lisäosa käyttöön.
 4. Avaa **Tuontityökalu**-lisäosa komentovalikon tai nauhavalikko-kuvakkeen kautta.
-5. Valitse kohdasta **File format** vaihtoehto **Airtable (API)**.
-6. Liitä kohtaan **Airtable Personal Access Token** luomasi tunniste.
+5. Valitse kohdasta **File format** vaihtoehto **Airtable**.
+6. Napsauta kohdassa **Airtable Personal Access Token** **Linkki...**-painiketta lisätäksesi uuden sala-avaimen. Anna **tunnukseksi** nimi, kuten `airtable`, ja liitä **sala-avaimeksi** henkilökohtainen käyttöoikeustunnisteesi.
 7. Napsauta **Lataa** selataksesi tietokantojasi ja valitse taulukot, jotka haluat tuoda.
 8. Tarkista ja muokkaa tuontiasetuksia.
 9. Valitse **Import** määrittääksesi, miten kenttäsi muunnetaan muistiinpanoiksi [[Määreet|määreineen]].

@@ -29,8 +29,8 @@ Airtable 只会显示一次令牌。如果丢失了，请创建一个新的。
 2. 进入**社区插件市场**并[安装迁移助手](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用迁移助手插件。
 4. 通过命令面板或功能区图标打开**迁移助手**插件。
-5. 在 **File format** 下选择 **Airtable (API)**。
-6. 在 **Airtable Personal Access Token** 下，粘贴你创建的令牌。
+5. 在 **File format** 下选择 **Airtable**。
+6. 在 **Airtable Personal Access Token** 下，点击 **Link...** 以添加新密钥。在 **ID** 中输入一个名称（如 `airtable`），在 **Secret** 中粘贴你的个人访问令牌。
 7. 点击**加载**以浏览你的 bases，然后选择要导入的表格。
 8. 查看并编辑导入选项。
 9. 选择**导入**以设置字段如何转换为带有[[属性]]的笔记。

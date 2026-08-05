@@ -29,8 +29,8 @@ Airtable จะแสดง token เพียงครั้งเดียว 
 2. ไปที่ **ปลั๊กอินโดยชุมชน** แล้ว[ติดตั้ง Importer](obsidian://show-plugin?id=obsidian-importer)
 3. เปิดใช้งานปลั๊กอิน Importer
 4. เปิดปลั๊กอิน **Importer** โดยใช้กระดานคำสั่งหรือไอคอนริบบอน
-5. ใต้ **File format** เลือก **Airtable (API)**
-6. ใต้ **Airtable Personal Access Token** วาง token ที่คุณสร้างไว้
+5. ใต้ **File format** เลือก **Airtable**
+6. ใต้ **Airtable Personal Access Token** คลิก **Link...** เพื่อเพิ่มความลับใหม่ สำหรับ **ID** ให้ตั้งชื่อ เช่น `airtable` และสำหรับ **Secret** ให้วาง personal access token ของคุณ
 7. คลิก **โหลด** เพื่อเลือกดู bases ของคุณ จากนั้นเลือกตารางที่คุณต้องการนำเข้า
 8. ตรวจสอบและแก้ไขตัวเลือกการนำเข้า
 9. เลือก **Import** เพื่อตั้งค่าวิธีแปลงฟิลด์ของคุณเป็นโน้ตที่มี[[คุณสมบัติ]]

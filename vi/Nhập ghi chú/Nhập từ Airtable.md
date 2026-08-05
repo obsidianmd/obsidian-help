@@ -29,8 +29,8 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 2. Đi đến **Phần mở rộng từ cộng đồng** và [cài đặt Trình nhập](obsidian://show-plugin?id=obsidian-importer).
 3. Kích hoạt plugin Trình nhập.
 4. Mở plugin **Trình nhập** bằng bảng lệnh hoặc biểu tượng thanh công cụ.
-5. Trong phần **Định dạng tệp** chọn **Airtable (API)**.
-6. Trong phần **Mã thông báo truy cập cá nhân Airtable**, dán mã thông báo bạn đã tạo.
+5. Trong phần **Định dạng tệp** chọn **Airtable**.
+6. Trong phần **Mã thông báo truy cập cá nhân Airtable**, nhấp **Liên kết...** để thêm một bí mật mới. Với **ID**, đặt tên như `airtable`, và với **Bí mật** dán mã thông báo truy cập cá nhân của bạn.
 7. Nhấp **Tải** để duyệt các cơ sở của bạn, sau đó chọn các bảng bạn muốn nhập.
 8. Xem lại và chỉnh sửa các tùy chọn nhập.
 9. Chọn **Nhập** để cấu hình cách các trường của bạn sẽ được chuyển đổi thành ghi chú với [[Thuộc tính|thuộc tính]].

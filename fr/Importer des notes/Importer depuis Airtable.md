@@ -29,8 +29,8 @@ Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [ins
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activez le module Importer.
 4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
-5. Sous **File format**, sélectionnez **Airtable (API)**.
-6. Sous **Airtable Personal Access Token**, collez le jeton que vous avez créé.
+5. Sous **File format**, sélectionnez **Airtable**.
+6. Sous **Airtable Personal Access Token**, cliquez sur **Lier...** pour ajouter un nouveau secret. Pour l'**id**, donnez-lui un nom comme `airtable`, et pour le **Secret**, collez votre jeton d'accès personnel.
 7. Cliquez sur **Charger** pour parcourir vos bases, puis sélectionnez les tables que vous souhaitez importer.
 8. Vérifiez et modifiez les options d'importation.
 9. Sélectionnez **Import** pour configurer comment vos champs seront convertis en notes avec des [[Propriétés|propriétés]].

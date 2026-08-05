@@ -29,8 +29,8 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Importuj notatki|Importer]], którą 
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
 4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
-5. W polu **File format** wybierz **Airtable (API)**.
-6. W polu **Airtable Personal Access Token** wklej utworzony token.
+5. W polu **File format** wybierz **Airtable**.
+6. W polu **Airtable Personal Access Token** kliknij **Połącz...**, aby dodać nowy sekret. W polu **ID** nadaj mu nazwę, np. `airtable`, a w polu **Sekret** wklej osobisty token dostępu.
 7. Kliknij **Wczytaj**, aby przeglądać bazy, a następnie wybierz tabele do zaimportowania.
 8. Przejrzyj i edytuj opcje importu.
 9. Wybierz **Import**, aby skonfigurować sposób konwersji pól na notatki z [[Atrybuty|atrybutami]].

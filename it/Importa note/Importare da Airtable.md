@@ -29,8 +29,8 @@ Airtable mostra il token una sola volta. Se lo si perde, crearne uno nuovo.
 2. Andare in **Plugin della comunità** e [installare Importatore](obsidian://show-plugin?id=obsidian-importer).
 3. Abilitare il plugin Importatore.
 4. Aprire il plugin **Importatore** utilizzando il riquadro comandi o l'icona nella barra multifunzione.
-5. Sotto **Formattazione file** selezionare **Airtable (API)**.
-6. Sotto **Airtable Personal Access Token**, incollare il token creato.
+5. Sotto **Formattazione file** selezionare **Airtable**.
+6. Sotto **Airtable Personal Access Token**, fare clic su **Collega...** per aggiungere un nuovo segreto. Per l'**ID**, assegnare un nome come `airtable`, e per il **Segreto** incollare il token di accesso personale.
 7. Fare clic su **Carica** per sfogliare le basi, quindi selezionare le tabelle che si desidera importare.
 8. Rivedere e modificare le opzioni di importazione.
 9. Selezionare **Importa** per configurare come i campi verranno convertiti in note con [[Proprietà|proprietà]].

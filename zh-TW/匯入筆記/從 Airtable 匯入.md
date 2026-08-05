@@ -29,8 +29,8 @@ Airtable 只會顯示權杖一次。如果遺失了，請建立一個新的。
 2. 前往**社群外掛程式**並[安裝匯入工具](obsidian://show-plugin?id=obsidian-importer)。
 3. 啟用匯入工具外掛。
 4. 使用命令面板或功能區圖示開啟**匯入工具**外掛。
-5. 在**檔案格式**下選擇 **Airtable (API)**。
-6. 在 **Airtable Personal Access Token** 下，貼上你建立的權杖。
+5. 在**檔案格式**下選擇 **Airtable**。
+6. 在 **Airtable Personal Access Token** 下，點選 **Link...** 以新增密鑰。在 **ID** 中輸入名稱，例如 `airtable`，在 **Secret** 中貼上你的個人存取權杖。
 7. 點選**載入**來瀏覽你的資料庫，然後選擇你要匯入的表格。
 8. 檢閱並編輯匯入選項。
 9. 選擇**匯入**來設定你的欄位如何轉換為帶有[[屬性]]的筆記。

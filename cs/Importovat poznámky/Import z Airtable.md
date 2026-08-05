@@ -29,8 +29,8 @@ Budete potřebovat oficiální plugin Obsidian [[Importér]], který můžete [n
 2. Přejděte na **Komunitní pluginy** a [nainstalujte Importér](obsidian://show-plugin?id=obsidian-importer).
 3. Zapněte plugin Importér.
 4. Otevřete plugin **Importér** pomocí palety příkazů nebo ikony na postranním panelu nástrojů.
-5. V části **Formát souboru** vyberte **Airtable (API)**.
-6. Do pole **Airtable Personal Access Token** vložte token, který jste vytvořili.
+5. V části **Formát souboru** vyberte **Airtable**.
+6. V části **Airtable Personal Access Token** klikněte na **Propojit...** pro přidání nového tajného údaje. Jako **ID** zadejte název, například `airtable`, a do pole **Tajný údaj** vložte svůj osobní přístupový token.
 7. Klikněte na **Načíst** pro procházení vašich bází, poté vyberte tabulky, které chcete importovat.
 8. Zkontrolujte a upravte možnosti importu.
 9. Vyberte **Importovat** pro nastavení způsobu, jakým budou vaše pole převedena na poznámky s [[Vlastnosti|vlastnostmi]].

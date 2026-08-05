@@ -29,8 +29,8 @@ Szüksége lesz a hivatalos Obsidian [[Importáló]] bővítményre, amelyet [it
 2. Lépjen a **Közösségi bővítmények** menüpontra, és [telepítse az Importálót](obsidian://show-plugin?id=obsidian-importer).
 3. Engedélyezze az Importáló bővítményt.
 4. Nyissa meg az **Importáló** bővítményt a parancspaletta vagy a szalag ikon segítségével.
-5. A **Fájlformátum** alatt válassza az **Airtable (API)** lehetőséget.
-6. Az **Airtable Personal Access Token** mezőbe illessze be a létrehozott tokent.
+5. A **Fájlformátum** alatt válassza az **Airtable** lehetőséget.
+6. Az **Airtable Personal Access Token** alatt kattintson a **Link...** gombra egy új titok hozzáadásához. Az **Azonosító** mezőbe adjon egy nevet, például `airtable`, a **Titok** mezőbe pedig illessze be a személyes hozzáférési tokent.
 7. Kattintson a **Betöltés** gombra a bázisok tallózásához, majd válassza ki az importálni kívánt táblákat.
 8. Tekintse át és szerkessze az importálási beállításokat.
 9. Válassza az **Importálás** lehetőséget, hogy konfigurálja, hogyan alakuljanak át a mezők jegyzetekké [[Tulajdonságok|tulajdonságokkal]].

@@ -29,8 +29,8 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 2. Mergi la **Module comunitare** și [instalează Importator](obsidian://show-plugin?id=obsidian-importer).
 3. Activează modulul Importator.
 4. Deschide modulul **Importator** folosind paleta de comenzi sau pictograma din panglică.
-5. La **File format** selectează **Airtable (API)**.
-6. La **Airtable Personal Access Token**, lipește tokenul pe care l-ai creat.
+5. La **File format** selectează **Airtable**.
+6. La **Airtable Personal Access Token**, dă clic pe **Link...** pentru a adăuga un secret nou. Pentru **ID**, dă-i un nume precum `airtable`, iar pentru **Secret** lipește tokenul tău de acces personal.
 7. Dă clic pe **Încarcă** pentru a naviga prin bazele tale, apoi selectează tabelele pe care vrei să le importi.
 8. Revizuiește și editează opțiunile de import.
 9. Selectează **Import** pentru a configura cum vor fi convertite câmpurile tale în notițe cu [[Proprietăți|proprietăți]].

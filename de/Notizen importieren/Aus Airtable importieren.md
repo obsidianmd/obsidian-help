@@ -29,8 +29,8 @@ Du benötigst das offizielle Obsidian [[Importprogramm]]-Plugin, das du [hier in
 2. Gehe zu **Community-Erweiterungen** und [installiere das Importprogramm](obsidian://show-plugin?id=obsidian-importer).
 3. Aktiviere die Importprogramm-Erweiterung.
 4. Öffne die **Importprogramm**-Erweiterung über die Befehlspalette oder das Werkzeugleisten-Symbol.
-5. Wähle unter **Dateiformat** den Eintrag **Airtable (API)**.
-6. Füge unter **Airtable Personal Access Token** das von dir erstellte Token ein.
+5. Wähle unter **Dateiformat** den Eintrag **Airtable**.
+6. Klicke unter **Airtable Personal Access Token** auf **Verknüpfen...**, um ein neues Geheimnis hinzuzufügen. Gib als **ID** einen Namen wie `airtable` ein und füge unter **Geheimnis** dein persönliches Zugriffstoken ein.
 7. Klicke auf **Laden**, um deine Basen zu durchsuchen, und wähle dann die Tabellen aus, die du importieren möchtest.
 8. Überprüfe und bearbeite die Importoptionen.
 9. Wähle **Import**, um zu konfigurieren, wie deine Felder in Notizen mit [[Eigenschaften]] konvertiert werden.
