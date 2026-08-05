@@ -16,25 +16,27 @@ Om via de API toegang te krijgen tot je Notion-gegevens heb je een integratietok
 
 Het token is een lange reeks cijfers en letters die doorgaans begint met `ntn_...` waarmee je je gegevens kunt downloaden vanuit Notion.
 
-1. Log in op je [Notion Integrations](https://www.notion.so/profile/integrations/internal)-dashboard.
-2. Kies **New integration**.
+1. Log in op je [Notion Connections](https://app.notion.com/developers/connections)-dashboard.
+2. Kies **New connection**.
+	1. Geef je verbinding een naam, bijv. "Persoonlijk". Elke naam kan worden gebruikt.
+	2. Kies **Access token** als authenticatiemethode.
+	3. Kies de werkruimte die je wilt exporteren als **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Geef je integratie een naam, bijv. "Persoonlijk". Elke naam kan worden gebruikt.
-3. Kies de werkruimte die je wilt exporteren.
-4. Klik op **Save** en ga verder naar **Configure integration settings**.
-5. In het tabblad **Configuration** is je API-token beschikbaar in het veld **Internal Integration Secret**.
-6. Selecteer **Show** en vervolgens **Copy**.
-7. Bewaar het token op een veilige plek zoals je wachtwoordmanager.
+3. Klik op **Create connection**.
+4. In het tabblad **Configuration** is je API-token beschikbaar in het veld **Access token**.
+5. Selecteer **Show** en vervolgens **Copy**.
+6. Bewaar het token op een veilige plek zoals je wachtwoordmanager.
 
 ![[notion-token.png#interface]]
 
-Geef vervolgens je integratie toegang tot de Notion-pagina's en databases die je wilt importeren.
+Geef vervolgens je verbinding toegang tot de Notion-pagina's en databases die je wilt importeren.
 
-1. Ga naar het tabblad **Access** van de integratie die je zojuist hebt aangemaakt.
-2. Klik op **Edit access**.
-3. Voeg de pagina's en databases toe die je wilt importeren.
+1. Ga naar het tabblad **Content access** van de verbinding die je zojuist hebt aangemaakt.
+2. Voeg de pagina's en databases toe die je wilt importeren.
+
+![[notion-content.png#interface]]
 
 Je kunt nu je gegevens converteren met Obsidian Importer.
 
@@ -47,7 +49,7 @@ Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt i
 3. Schakel de Importer-plug-in in.
 4. Open de **Importer**-plug-in via het opdrachtenpalet of het werkbalkpictogram.
 5. Selecteer onder **File format** de optie **Notion (API)**
-6. Plak onder **API token** je **Internal Integration Secret** van Notion.
+6. Klik onder **API token** op **Link...** om een nieuw geheim toe te voegen. Geef voor het **ID** een naam op zoals `notion`, en plak voor het **Geheim** je **Internal Integration Secret** van Notion.
 7. Klik op **Laden** om de databases en pagina's te kiezen die je wilt importeren.
 8. Bekijk en bewerk de importopties.
 9. Selecteer **Importeren** en wacht tot de import is voltooid

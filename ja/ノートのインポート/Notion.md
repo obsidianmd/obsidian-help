@@ -16,25 +16,27 @@ API経由でNotionデータにアクセスするには、インテグレーシ�
 
 トークンは通常 `ntn_...` で始まる長い英数字の文字列で、Notionからデータをダウンロードすることを可能にします。
 
-1. [Notion Integrations](https://www.notion.so/profile/integrations/internal)ダッシュボードにログインします。
-2. **New integration**を選択します。
+1. [Notion Connections](https://app.notion.com/developers/connections)ダッシュボードにログインします。
+2. **New connection**を選択します。
+	1. コネクションに名前を付けます（例：「Personal」）。任意の名前が使用できます。
+	2. 認証方法として**Access token**を選択します。
+	3. エクスポートしたいワークスペースを**Installable in**として選択します。
 
 ![[notion-integration.png#interface]]
 
-2. インテグレーションに名前を付けます（例：「Personal」）。任意の名前が使用できます。
-3. エクスポートしたいワークスペースを選択します。
-4. **Save**をクリックし、**Configure integration settings**に進みます。
-5. **Configuration**タブで、**Internal Integration Secret**フィールドにAPIトークンが表示されます。
-6. **Show**を選択してから**Copy**を選択します。
-7. トークンをパスワードマネージャーなどの安全な場所に保存します。
+3. **Create connection**をクリックします。
+4. **Configuration**タブで、**Access token**フィールドにAPIトークンが表示されます。
+5. **Show**を選択してから**Copy**を選択します。
+6. トークンをパスワードマネージャーなどの安全な場所に保存します。
 
 ![[notion-token.png#interface]]
 
-次に、インテグレーションにインポートしたいNotionのページとデータベースへのアクセス権を付与します。
+次に、コネクションにインポートしたいNotionのページとデータベースへのアクセス権を付与します。
 
-1. 作成したインテグレーションの**Access**タブに移動します。
-2. **Edit access**をクリックします。
-3. インポートしたいページとデータベースを追加します。
+1. 作成したコネクションの**Content access**タブに移動します。
+2. インポートしたいページとデータベースを追加します。
+
+![[notion-content.png#interface]]
 
 これでObsidianインポーターを使用してデータを変換できるようになりました。
 
@@ -47,7 +49,7 @@ API経由でNotionデータにアクセスするには、インテグレーシ�
 3. インポータープラグインを有効化します。
 4. コマンドパレットまたはリボンメニューのアイコンから**インポーター**プラグインを開きます。
 5. **ファイルフォーマット**で**Notion (API)**を選択します。
-6. **APIトークン**にNotionの**Internal Integration Secret**を貼り付けます。
+6. **APIトークン**で**リンク…**をクリックして新しいシークレットを追加します。**ID**には `notion` のような名前を付け、**シークレット**にはNotionの**Internal Integration Secret**を貼り付けます。
 7. **ロード**をクリックしてインポートしたいデータベースとページを選択します。
 8. インポートオプションを確認・編集します。
 9. **Import**を選択し、インポートが完了するまで待ちます。

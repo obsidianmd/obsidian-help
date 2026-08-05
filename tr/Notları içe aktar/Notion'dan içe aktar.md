@@ -16,25 +16,27 @@ Notion verilerinize API üzerinden erişmek için bir entegrasyon belirtecine ih
 
 Belirteç, genellikle `ntn_...` ile başlayan uzun bir sayı ve harf dizisidir ve verilerinizi Notion'dan indirmenize olanak tanır.
 
-1. [Notion Entegrasyonları](https://www.notion.so/profile/integrations/internal) panonuzda oturum açın.
-2. **New integration** öğesini seçin.
+1. [Notion Connections](https://app.notion.com/developers/connections) panonuzda oturum açın.
+2. **New connection** öğesini seçin.
+	1. Bağlantınıza bir ad verin, örneğin "Personal". Herhangi bir ad kullanılabilir.
+	2. Kimlik doğrulama yöntemi olarak **Access token** öğesini seçin.
+	3. Dışa aktarmak istediğiniz çalışma alanını **Installable in** olarak seçin.
 
 ![[notion-integration.png#interface]]
 
-2. Entegrasyonunuza bir ad verin, örneğin "Personal". Herhangi bir ad kullanılabilir.
-3. Dışa aktarmak istediğiniz çalışma alanını seçin.
-4. **Save** öğesine tıklayın ve **Configure integration settings** ile devam edin.
-5. **Configuration** sekmesinde API belirtecinize **Internal Integration Secret** alanından erişilebilir.
-6. **Show** ardından **Copy** öğesini seçin.
-7. Belirteci parola yöneticiniz gibi güvenli bir yere kaydedin.
+3. **Create connection** öğesine tıklayın.
+4. **Configuration** sekmesinde API belirtecinize **Access token** alanından erişilebilir.
+5. **Show** ardından **Copy** öğesini seçin.
+6. Belirteci parola yöneticiniz gibi güvenli bir yere kaydedin.
 
 ![[notion-token.png#interface]]
 
-Ardından, entegrasyonunuza içe aktarmak istediğiniz Notion sayfaları ve veritabanlarına erişim verin.
+Ardından, bağlantınıza içe aktarmak istediğiniz Notion sayfaları ve veritabanlarına erişim verin.
 
-1. Az önce oluşturduğunuz entegrasyonun **Access** sekmesine gidin.
-2. **Edit access** öğesine tıklayın.
-3. İçe aktarmak istediğiniz sayfaları ve veritabanlarını ekleyin.
+1. Az önce oluşturduğunuz bağlantının **Content access** sekmesine gidin.
+2. İçe aktarmak istediğiniz sayfaları ve veritabanlarını ekleyin.
+
+![[notion-content.png#interface]]
 
 Artık Obsidian İçe Aktarıcı'yı kullanarak verilerinizi dönüştürebilirsiniz.
 
@@ -47,7 +49,7 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 3. İçe aktarıcı eklentisini etkinleştirin.
 4. Komut paleti veya araç çubuğu simgesini kullanarak **İçe aktarıcı** eklentisini açın.
 5. **File format** altında **Notion (API)** öğesini seçin.
-6. **API token** altında, Notion'dan aldığınız **Internal Integration Secret** değerini yapıştırın.
+6. **API token** altında, yeni bir gizli bilgi eklemek için **Bağla...** öğesine tıklayın. **Kimlik** için `notion` gibi bir ad verin ve **Gizli bilgi** için Notion'dan aldığınız **Internal Integration Secret** değerini yapıştırın.
 7. İçe aktarmak istediğiniz veritabanlarını ve sayfaları seçmek için **Yükle** öğesine tıklayın.
 8. İçe aktarma seçeneklerini gözden geçirin ve düzenleyin.
 9. **İçe aktar** öğesini seçin ve içe aktarma tamamlanana kadar bekleyin.

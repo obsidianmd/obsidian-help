@@ -16,25 +16,27 @@ Obsidian cung cấp hai cách để nhập dữ liệu Notion của bạn:
 
 Token là một chuỗi dài các số và chữ cái thường bắt đầu bằng `ntn_...` cho phép bạn tải xuống dữ liệu từ Notion.
 
-1. Đăng nhập vào bảng điều khiển [Notion Integrations](https://www.notion.so/profile/integrations/internal) của bạn.
-2. Chọn **New integration**.
+1. Đăng nhập vào bảng điều khiển [Notion Connections](https://app.notion.com/developers/connections) của bạn.
+2. Chọn **New connection**.
+	1. Đặt tên cho kết nối của bạn, ví dụ "Personal". Bạn có thể dùng bất kỳ tên nào.
+	2. Chọn **Access token** làm phương thức xác thực.
+	3. Chọn không gian làm việc bạn muốn xuất làm **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Đặt tên cho tích hợp của bạn, ví dụ "Personal". Bạn có thể dùng bất kỳ tên nào.
-3. Chọn không gian làm việc bạn muốn xuất.
-4. Nhấp **Save** và tiếp tục đến **Configure integration settings**.
-5. Trong thẻ **Configuration**, token API của bạn có thể truy cập trong trường **Internal Integration Secret**.
-6. Chọn **Show** rồi **Copy**.
-7. Lưu token vào nơi an toàn như trình quản lý mật khẩu của bạn.
+3. Nhấp **Create connection**.
+4. Trong thẻ **Configuration**, token API của bạn có thể truy cập trong trường **Access token**.
+5. Chọn **Show** rồi **Copy**.
+6. Lưu token vào nơi an toàn như trình quản lý mật khẩu của bạn.
 
 ![[notion-token.png#interface]]
 
-Tiếp theo, cấp cho tích hợp của bạn quyền truy cập vào các trang và databases Notion mà bạn muốn nhập.
+Tiếp theo, cấp cho kết nối của bạn quyền truy cập vào các trang và databases Notion mà bạn muốn nhập.
 
-1. Đi tới thẻ **Access** của tích hợp bạn vừa tạo.
-2. Nhấp **Edit access**.
-3. Thêm các trang và databases mà bạn muốn nhập.
+1. Đi tới thẻ **Content access** của kết nối bạn vừa tạo.
+2. Thêm các trang và databases mà bạn muốn nhập.
+
+![[notion-content.png#interface]]
 
 Bây giờ bạn có thể chuyển đổi dữ liệu của mình bằng Obsidian Importer.
 
@@ -47,7 +49,7 @@ Bạn sẽ cần plugin [[Trình nhập|Importer]] chính thức của Obsidian,
 3. Kích hoạt plugin Importer.
 4. Mở plugin **Importer** bằng bảng lệnh hoặc biểu tượng thanh công cụ.
 5. Trong **Định dạng tệp** chọn **Notion (API)**
-6. Trong **API token**, dán **Internal Integration Secret** từ Notion của bạn.
+6. Trong **API token**, nhấp **Liên kết...** để thêm một bí mật mới. Với **ID**, đặt tên như `notion`, và với **Bí mật** dán **Internal Integration Secret** từ Notion của bạn.
 7. Nhấp **Tải** để chọn các databases và trang bạn muốn nhập.
 8. Xem lại và chỉnh sửa các tùy chọn nhập.
 9. Chọn **Nhập** và đợi cho đến khi quá trình nhập hoàn tất

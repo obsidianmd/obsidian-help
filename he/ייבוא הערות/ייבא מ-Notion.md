@@ -16,25 +16,27 @@ Obsidian מציע שתי דרכים לייבא את נתוני ה-Notion שלך:
 
 הטוקן הוא מחרוזת ארוכה של מספרים ואותיות שמתחילה בדרך כלל ב-`ntn_...` שתאפשר לך להוריד את הנתונים שלך מ-Notion.
 
-1. התחבר ללוח הבקרה של [Notion Integrations](https://www.notion.so/profile/integrations/internal).
-2. בחר **New integration**.
+1. התחבר ללוח הבקרה של [Notion Connections](https://app.notion.com/developers/connections).
+2. בחר **New connection**.
+	1. תן לחיבור שלך שם, לדוגמה "Personal". ניתן להשתמש בכל שם.
+	2. בחר **Access token** כשיטת האימות.
+	3. בחר את מרחב העבודה שברצונך לייצא כ-**Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. תן לאינטגרציה שלך שם, לדוגמה "Personal". ניתן להשתמש בכל שם.
-3. בחר את מרחב העבודה שברצונך לייצא.
-4. לחץ על **Save** והמשך אל **Configure integration settings**.
-5. בלשונית **Configuration** טוקן ה-API נגיש בשדה **Internal Integration Secret**.
-6. בחר **Show** ואז **Copy**.
-7. שמור את הטוקן במקום בטוח כמו מנהל הסיסמאות שלך.
+3. לחץ על **Create connection**.
+4. בלשונית **Configuration** טוקן ה-API נגיש בשדה **Access token**.
+5. בחר **Show** ואז **Copy**.
+6. שמור את הטוקן במקום בטוח כמו מנהל הסיסמאות שלך.
 
 ![[notion-token.png#interface]]
 
-לאחר מכן, תן לאינטגרציה שלך גישה לדפים ול-databases של Notion שברצונך לייבא.
+לאחר מכן, תן לחיבור שלך גישה לדפים ול-databases של Notion שברצונך לייבא.
 
-1. עבור ללשונית **Access** של האינטגרציה שיצרת זה עתה.
-2. לחץ על **Edit access**.
-3. הוסף את הדפים וה-databases שברצונך לייבא.
+1. עבור ללשונית **Content access** של החיבור שיצרת זה עתה.
+2. הוסף את הדפים וה-databases שברצונך לייבא.
+
+![[notion-content.png#interface]]
 
 כעת תוכל להמיר את הנתונים שלך באמצעות Obsidian Importer.
 
@@ -47,7 +49,7 @@ Obsidian מציע שתי דרכים לייבא את נתוני ה-Notion שלך:
 3. הפעל את תוסף ה-Importer.
 4. פתח את תוסף ה-**Importer** באמצעות לוח הפקודות או סמל סרגל הכלים.
 5. תחת **File format** בחר **Notion (API)**
-6. תחת **API token**, הדבק את ה-**Internal Integration Secret** מ-Notion.
+6. תחת **API token**, לחץ על **Link...** כדי להוסיף סוד חדש. עבור **ID**, תן לו שם כמו `notion`, ועבור **Secret** הדבק את ה-**Internal Integration Secret** מ-Notion.
 7. לחץ על **Load** כדי לבחור את ה-databases והדפים שברצונך לייבא.
 8. סקור וערוך את אפשרויות הייבוא.
 9. בחר **Import** והמתן עד שהייבוא יושלם.

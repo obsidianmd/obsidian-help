@@ -3,7 +3,6 @@ permalink: import/notion
 aliases:
   - Notion에서 노트 가져오기
 ---
-
 Obsidian을 사용하면 [[들여오기|Importer 플러그인]]을 통해 Notion에서 노트를 쉽게 마이그레이션할 수 있어요. Notion 데이터를 Obsidian과 다양한 앱에서 오프라인으로 사용할 수 있는 내구성 있는 Markdown 파일로 변환해 줘요.
 
 Obsidian에서는 Notion 데이터를 들여오는 두 가지 방법을 제공해요:
@@ -19,25 +18,27 @@ API를 통해 Notion 데이터에 접근하려면 연동 토큰이 필요해요.
 
 토큰은 보통 `ntn_...`으로 시작하는 숫자와 문자의 긴 문자열로, Notion에서 데이터를 다운로드할 수 있게 해줘요.
 
-1. [Notion Integrations](https://www.notion.so/profile/integrations/internal) 대시보드에 로그인해요.
-2. **새 연동(New integration)** 을 선택해요.
+1. [Notion Connections](https://app.notion.com/developers/connections) 대시보드에 로그인해요.
+2. **새 연결(New connection)** 을 선택해요.
+	1. 연결에 이름을 지정해요. 예: "Personal". 어떤 이름이든 사용 가능해요.
+	2. 인증 방법으로 **액세스 토큰(Access token)** 을 선택해요.
+	3. 내보낼 워크스페이스를 **설치 가능 대상(Installable in)** 으로 선택해요.
 
 ![[notion-integration.png#interface]]
 
-2. 연동에 이름을 지정해요. 예: "Personal". 어떤 이름이든 사용 가능해요.
-3. 내보낼 워크스페이스를 선택해요.
-4. **저장(Save)** 을 클릭하고 **연동 설정 구성(Configure integration settings)** 으로 이동해요.
-5. **구성(Configuration)** 탭에서 **내부 연동 시크릿(Internal Integration Secret)** 필드에 API 토큰이 표시돼요.
-6. **표시(Show)** 를 선택한 후 **복사(Copy)** 를 클릭해요.
-7. 토큰을 비밀번호 관리자 등 안전한 곳에 저장해요.
+3. **연결 생성(Create connection)** 을 클릭해요.
+4. **구성(Configuration)** 탭에서 **액세스 토큰(Access token)** 필드에 API 토큰이 표시돼요.
+5. **표시(Show)** 를 선택한 후 **복사(Copy)** 를 클릭해요.
+6. 토큰을 비밀번호 관리자 등 안전한 곳에 저장해요.
 
 ![[notion-token.png#interface]]
 
-다음으로, 들여올 Notion 페이지 및 데이터베이스에 연동 접근 권한을 부여해요.
+다음으로, 들여올 Notion 페이지 및 데이터베이스에 연결 접근 권한을 부여해요.
 
-1. 방금 생성한 연동의 **접근(Access)** 탭으로 이동해요.
-2. **접근 편집(Edit access)** 을 클릭해요.
-3. 들여올 페이지 및 데이터베이스를 추가해요.
+1. 방금 생성한 연결의 **콘텐츠 접근(Content access)** 탭으로 이동해요.
+2. 들여올 페이지 및 데이터베이스를 추가해요.
+
+![[notion-content.png#interface]]
 
 이제 Obsidian Importer를 사용하여 데이터를 변환할 수 있어요.
 
@@ -50,7 +51,7 @@ API를 통해 Notion 데이터에 접근하려면 연동 토큰이 필요해요.
 3. Importer 플러그인을 활성화해요.
 4. 명령어 팔레트나 리본 아이콘을 사용하여 **Importer** 플러그인을 열어요.
 5. **파일 형식**에서 **Notion (API)** 를 선택해요.
-6. **API 토큰** 아래에 Notion의 **내부 연동 시크릿**을 붙여 넣어요.
+6. **API 토큰** 아래에서 **연결...** 을 클릭하여 새 비밀을 추가해요. **ID**에는 `notion` 같은 이름을 지정하고, **비밀** 에는 Notion의 **내부 연동 시크릿**을 붙여 넣어요.
 7. **불러오기(Load)** 를 클릭하여 들여올 데이터베이스와 페이지를 선택해요.
 8. 들여오기 옵션을 검토하고 편집해요.
 9. **들여오기(Import)** 를 선택하고 완료될 때까지 기다려요.

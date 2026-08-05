@@ -16,25 +16,27 @@ Obsidian ផ្តល់ជូនវិធីពីរសម្រាប់ន�
 
 Token គឺជាខ្សែអក្សរវែងមួយនៃលេខ និងអក្សរ ជាធម្មតាចាប់ផ្តើមដោយ `ntn_...` ដែលនឹងអនុញ្ញាតឱ្យអ្នកទាញយកទិន្នន័យរបស់អ្នកពី Notion។
 
-1. ចូលគណនីនៅក្នុង [Notion Integrations](https://www.notion.so/profile/integrations/internal) dashboard របស់អ្នក។
-2. ជ្រើសរើស **New integration**។
+1. ចូលគណនីនៅក្នុង [Notion Connections](https://app.notion.com/developers/connections) dashboard របស់អ្នក។
+2. ជ្រើសរើស **New connection**។
+	1. ដាក់ឈ្មោះ connection របស់អ្នក ឧ. "Personal"។ អាចប្រើឈ្មោះអ្វីក៏បាន។
+	2. ជ្រើសរើស **Access token** ជាវិធីផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវ។
+	3. ជ្រើសរើស workspace ដែលអ្នកចង់នាំចេញជា **Installable in**។
 
 ![[notion-integration.png#interface]]
 
-2. ដាក់ឈ្មោះ integration របស់អ្នក ឧ. "Personal"។ អាចប្រើឈ្មោះអ្វីក៏បាន។
-3. ជ្រើសរើស workspace ដែលអ្នកចង់នាំចេញ។
-4. ចុច **Save** រួចបន្តទៅ **Configure integration settings**។
-5. នៅក្នុងផ្ទាំង **Configuration** API token របស់អ្នកអាចចូលប្រើបាននៅក្នុងវាល **Internal Integration Secret**។
-6. ជ្រើសរើស **Show** បន្ទាប់មក **Copy**។
-7. រក្សាទុក token នៅកន្លែងមានសុវត្ថិភាពដូចជាកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់របស់អ្នក។
+3. ចុច **Create connection**។
+4. នៅក្នុងផ្ទាំង **Configuration** API token របស់អ្នកអាចចូលប្រើបាននៅក្នុងវាល **Access token**។
+5. ជ្រើសរើស **Show** បន្ទាប់មក **Copy**។
+6. រក្សាទុក token នៅកន្លែងមានសុវត្ថិភាពដូចជាកម្មវិធីគ្រប់គ្រងពាក្យសម្ងាត់របស់អ្នក។
 
 ![[notion-token.png#interface]]
 
-បន្ទាប់មក ផ្តល់សិទ្ធិចូលប្រើ integration របស់អ្នកទៅកាន់ទំព័រ និង databases របស់ Notion ដែលអ្នកចង់នាំចូល។
+បន្ទាប់មក ផ្តល់សិទ្ធិចូលប្រើ connection របស់អ្នកទៅកាន់ទំព័រ និង databases របស់ Notion ដែលអ្នកចង់នាំចូល។
 
-1. ទៅកាន់ផ្ទាំង **Access** នៃ integration ដែលអ្នកទើបតែបង្កើត។
-2. ចុច **Edit access**។
-3. បន្ថែមទំព័រ និង databases ដែលអ្នកចង់នាំចូល។
+1. ទៅកាន់ផ្ទាំង **Content access** នៃ connection ដែលអ្នកទើបតែបង្កើត។
+2. បន្ថែមទំព័រ និង databases ដែលអ្នកចង់នាំចូល។
+
+![[notion-content.png#interface]]
 
 ឥឡូវអ្នកអាចបម្លែងទិន្នន័យរបស់អ្នកដោយប្រើ Obsidian Importer។
 
@@ -47,7 +49,7 @@ Token គឺជាខ្សែអក្សរវែងមួយនៃលេខ �
 3. បើកដំណើរការកម្មវិធីជំនួយ Importer។
 4. បើកកម្មវិធីជំនួយ **Importer** ដោយប្រើ command palette ឬរូបតំណាងលើ ribbon។
 5. នៅក្រោម **File format** ជ្រើសរើស **Notion (API)**
-6. នៅក្រោម **API token** បិទភ្ជាប់ **Internal Integration Secret** របស់អ្នកពី Notion។
+6. នៅក្រោម **API token** ចុច **Link...** ដើម្បីបន្ថែម secret ថ្មី។ សម្រាប់ **ID** ដាក់ឈ្មោះដូចជា `notion` ហើយសម្រាប់ **Secret** បិទភ្ជាប់ **Internal Integration Secret** របស់អ្នកពី Notion។
 7. ចុច **Load** ដើម្បីជ្រើសរើស databases និងទំព័រដែលអ្នកចង់នាំចូល។
 8. ពិនិត្យ និងកែសម្រួលជម្រើសនាំចូល។
 9. ជ្រើសរើស **Import** រួចរង់ចាំរហូតដល់ការនាំចូលបានបញ្ចប់

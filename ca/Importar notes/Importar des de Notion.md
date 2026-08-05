@@ -16,25 +16,27 @@ Per accedir a les teves dades de Notion mitjançant l'API necessites un token d'
 
 El token és una cadena llarga de números i lletres que normalment comença amb `ntn_...` i que et permetrà descarregar les teves dades de Notion.
 
-1. Inicia la sessió al teu panell d'[Integracions de Notion](https://www.notion.so/profile/integrations/internal).
-2. Escull **New integration**.
+1. Inicia la sessió al teu panell de [Connexions de Notion](https://app.notion.com/developers/connections).
+2. Escull **New connection**.
+	1. Dona un nom a la teva connexió, p. ex. "Personal". Es pot utilitzar qualsevol nom.
+	2. Escull **Access token** com a mètode d'autenticació.
+	3. Escull l'espai de treball que vols exportar com a **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Dona un nom a la teva integració, p. ex. "Personal". Es pot utilitzar qualsevol nom.
-3. Escull l'espai de treball que vols exportar.
-4. Fes clic a **Save** i continua a **Configure integration settings**.
-5. A la pestanya **Configuration** el teu token d'API és accessible al camp **Internal Integration Secret**.
-6. Selecciona **Show** i després **Copy**.
-7. Desa el token en un lloc segur com el teu gestor de contrasenyes.
+3. Fes clic a **Create connection**.
+4. A la pestanya **Configuration** el teu token d'API és accessible al camp **Access token**.
+5. Selecciona **Show** i després **Copy**.
+6. Desa el token en un lloc segur com el teu gestor de contrasenyes.
 
 ![[notion-token.png#interface]]
 
-A continuació, dona accés a la teva integració a les pàgines i bases de dades de Notion que vols importar.
+A continuació, dona accés a la teva connexió a les pàgines i bases de dades de Notion que vols importar.
 
-1. Vés a la pestanya **Access** de la integració que acabes de crear.
-2. Fes clic a **Edit access**.
-3. Afegeix les pàgines i bases de dades que vols importar.
+1. Vés a la pestanya **Content access** de la connexió que acabes de crear.
+2. Afegeix les pàgines i bases de dades que vols importar.
+
+![[notion-content.png#interface]]
 
 Ara pots convertir les teves dades utilitzant l'Importador d'Obsidian.
 
@@ -47,7 +49,7 @@ Necessitaràs el connector oficial d'Obsidian [[Importador]], que pots [instal·
 3. Habilita el connector Importador.
 4. Obre el connector **Importador** utilitzant la paleta d'ordres o la icona de la barra d'eines.
 5. Sota **Format del fitxer** selecciona **Notion (API)**
-6. Sota **API token**, enganxa el teu **Internal Integration Secret** de Notion.
+6. Sota **API token**, fes clic a **Enllaça...** per afegir un nou secret. Per a l'**ID**, dona-li un nom com `notion`, i per al **Secret** enganxa el teu **Internal Integration Secret** de Notion.
 7. Fes clic a **Carrega** per escollir les bases de dades i pàgines que vols importar.
 8. Revisa i edita les opcions d'importació.
 9. Selecciona **Importar** i espera fins que la importació sigui completa

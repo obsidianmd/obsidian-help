@@ -18,25 +18,27 @@ Obsidian 提供两种方式来导入 Notion 数据：
 
 令牌是一串以 `ntn_...` 开头的数字和字母组成的长字符串，它允许你从 Notion 下载数据。
 
-1. 登录你的 [Notion Integrations](https://www.notion.so/profile/integrations/internal) 仪表板。
-2. 选择 **New integration**。
+1. 登录你的 [Notion Connections](https://app.notion.com/developers/connections) 仪表板。
+2. 选择 **New connection**。
+	1. 为你的连接命名，例如"Personal"。可以使用任何名称。
+	2. 选择 **Access token** 作为认证方式。
+	3. 选择你想要导出的工作区作为 **Installable in**。
 
 ![[notion-integration.png#interface]]
 
-2. 为你的集成命名，例如"Personal"。可以使用任何名称。
-3. 选择你想要导出的工作区。
-4. 点击 **Save** 并继续 **Configure integration settings**。
-5. 在 **Configuration** 选项卡中，你的 API 令牌位于 **Internal Integration Secret** 字段。
-6. 选择 **Show** 然后 **Copy**。
-7. 将令牌保存到安全的地方，如密码管理器。
+3. 点击 **Create connection**。
+4. 在 **Configuration** 选项卡中，你的 API 令牌位于 **Access token** 字段。
+5. 选择 **Show** 然后 **Copy**。
+6. 将令牌保存到安全的地方，如密码管理器。
 
 ![[notion-token.png#interface]]
 
-接下来，为你的集成授予对要导入的 Notion 页面和数据库的访问权限。
+接下来，为你的连接授予对要导入的 Notion 页面和数据库的访问权限。
 
-1. 前往你刚创建的集成的 **Access** 选项卡。
-2. 点击 **Edit access**。
-3. 添加你想要导入的页面和数据库。
+1. 前往你刚创建的连接的 **Content access** 选项卡。
+2. 添加你想要导入的页面和数据库。
+
+![[notion-content.png#interface]]
 
 现在你可以使用 Obsidian 迁移助手来转换你的数据了。
 
@@ -49,7 +51,7 @@ Obsidian 提供两种方式来导入 Notion 数据：
 3. 启用迁移助手插件。
 4. 通过命令面板或功能区图标打开**迁移助手**插件。
 5. 在 **File format** 下选择 **Notion (API)**
-6. 在 **API token** 下，粘贴你从 Notion 获取的 **Internal Integration Secret**。
+6. 在 **API token** 下，点击 **Link...** 添加一个新的密钥。在 **ID** 中输入一个名称如 `notion`，在 **Secret** 中粘贴你从 Notion 获取的 **Internal Integration Secret**。
 7. 点击 **Load** 来选择你想要导入的数据库和页面。
 8. 检查并编辑导入选项。
 9. 选择 **Import** 并等待导入完成

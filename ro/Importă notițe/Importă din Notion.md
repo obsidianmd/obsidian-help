@@ -18,25 +18,27 @@ Pentru a accesa datele tale din Notion prin API, ai nevoie de un token de integr
 
 Token-ul este un șir lung de cifre și litere, care de obicei începe cu `ntn_...`, care îți va permite să îți descarci datele din Notion.
 
-1. Conectează-te la panoul tău [Notion Integrations](https://www.notion.so/profile/integrations/internal).
-2. Alege **New integration**.
+1. Conectează-te la panoul tău [Notion Connections](https://app.notion.com/developers/connections).
+2. Alege **New connection**.
+	1. Dă conexiunii tale un nume, de exemplu „Personal". Poate fi folosit orice nume.
+	2. Alege **Access token** ca metodă de autentificare.
+	3. Alege spațiul de lucru pe care dorești să îl exporți ca **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Dă integrării tale un nume, de exemplu „Personal”. Poate fi folosit orice nume.
-3. Alege spațiul de lucru pe care dorești să îl exporți.
-4. Apasă **Save** și continuă la **Configure integration settings**.
-5. În tab-ul **Configuration**, token-ul tău API este accesibil în câmpul **Internal Integration Secret**. 
-6. Selectează **Show**, apoi **Copy**.
-7. Salvează token-ul într-un loc sigur, precum administratorul tău de parole.
+3. Apasă **Create connection**.
+4. În tab-ul **Configuration**, token-ul tău API este accesibil în câmpul **Access token**. 
+5. Selectează **Show**, apoi **Copy**.
+6. Salvează token-ul într-un loc sigur, precum administratorul tău de parole.
 
 ![[notion-token.png#interface]]
 
-Apoi, acordă integrării tale acces la paginile și bazele de date Notion pe care dorești să le imporți.
+Apoi, acordă conexiunii tale acces la paginile și bazele de date Notion pe care dorești să le imporți.
 
-1. Mergi la tab-ul **Access** al integrării pe care tocmai ai creat-o.
-2. Apasă **Edit access**.
-3. Adaugă paginile și bazele de date pe care dorești să le imporți.
+1. Mergi la tab-ul **Content access** al conexiunii pe care tocmai ai creat-o.
+2. Adaugă paginile și bazele de date pe care dorești să le imporți.
+
+![[notion-content.png#interface]]
 
 Acum îți poți converti datele folosind Obsidian Importer.
 
@@ -49,7 +51,7 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 3. Activează modulul Importer.
 4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
 5. La **Format fișier** selectează **Notion (API)**
-6. La **API token**, inserează **Internal Integration Secret**-ul tău din Notion.
+6. La **API token**, apasă **Link...** pentru a adăuga un secret nou. Pentru **ID**, dă-i un nume precum `notion`, iar pentru **Secret** inserează **Internal Integration Secret**-ul tău din Notion.
 7. Apasă **Load** pentru a alege bazele de date și paginile pe care dorești să le imporți.
 8. Revizuiește și modifică opțiunile de import.
 9. Selectează **Importă** și așteaptă până când importul este finalizat
@@ -65,7 +67,7 @@ Din cauza limitelor de rată ale API-ului Notion, importul spațiilor de lucru m
 Din cauza limitărilor API-ului Notion, unele date nu sunt disponibile sau nu pot fi convertite:
 
 - Este importată doar vizualizarea principală pentru fiecare bază de date.
-- [Sursele de date conectate](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) nu sunt importate: *„Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!”*
+- [Sursele de date conectate](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) nu sunt importate: *„Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!"*
 - Funcțiile `People`: `name()` și `email()`
 - Funcțiile `Text`: `style()` și `unstyle()`
 

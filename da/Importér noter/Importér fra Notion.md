@@ -19,25 +19,27 @@ For at få adgang til dine Notion-data via API'et skal du bruge et integrationst
 
 Tokenet er en lang streng af tal og bogstaver, der typisk starter med `ntn_...`, som giver dig mulighed for at hente dine data fra Notion.
 
-1. Log ind på dit [Notion Integrations](https://www.notion.so/profile/integrations/internal)-dashboard.
-2. Vælg **New integration**.
+1. Log ind på dit [Notion Connections](https://app.notion.com/developers/connections)-dashboard.
+2. Vælg **New connection**.
+	1. Giv din forbindelse et navn, f.eks. "Personal". Ethvert navn kan bruges.
+	2. Vælg **Access token** som godkendelsesmetode.
+	3. Vælg det arbejdsområde, du vil eksportere, som **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Giv din integration et navn, f.eks. "Personal". Ethvert navn kan bruges.
-3. Vælg det arbejdsområde, du vil eksportere.
-4. Klik på **Save** og fortsæt til **Configure integration settings**.
-5. Under fanen **Configuration** er dit API-token tilgængeligt i feltet **Internal Integration Secret**.
-6. Vælg **Show** og derefter **Copy**.
-7. Gem tokenet et sikkert sted som f.eks. din adgangskodemanager.
+3. Klik på **Create connection**.
+4. Under fanen **Configuration** er dit API-token tilgængeligt i feltet **Access token**.
+5. Vælg **Show** og derefter **Copy**.
+6. Gem tokenet et sikkert sted som f.eks. din adgangskodemanager.
 
 ![[notion-token.png#interface]]
 
-Giv derefter din integration adgang til de Notion-sider og -databaser, du vil importere.
+Giv derefter din forbindelse adgang til de Notion-sider og -databaser, du vil importere.
 
-1. Gå til fanen **Access** for den integration, du lige har oprettet.
-2. Klik på **Edit access**.
-3. Tilføj de sider og databaser, du vil importere.
+1. Gå til fanen **Content access** for den forbindelse, du lige har oprettet.
+2. Tilføj de sider og databaser, du vil importere.
+
+![[notion-content.png#interface]]
 
 Du kan nu konvertere dine data ved hjælp af Obsidian Importer.
 
@@ -50,7 +52,7 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 3. Aktivér Importer-pluginet.
 4. Åbn **Importer**-pluginet ved hjælp af kommandopaletten eller værktøjslinjeikonet.
 5. Under **Filformat** vælg **Notion (API)**
-6. Under **API-token** indsæt dit **Internal Integration Secret** fra Notion.
+6. Under **API-token** klik på **Link...** for at tilføje en ny hemmelighed. Under **ID** giv den et navn som `notion`, og under **Hemmelighed** indsæt dit **Internal Integration Secret** fra Notion.
 7. Klik på **Indlæs** for at vælge de databaser og sider, du vil importere.
 8. Gennemgå og rediger importindstillingerne.
 9. Vælg **Importér** og vent, til importen er fuldført
