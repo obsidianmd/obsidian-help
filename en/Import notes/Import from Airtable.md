@@ -29,8 +29,8 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.
-5. Under **File format** select **Airtable (API)**.
-6. Under **Airtable Personal Access Token**, paste the token you created.
+5. Under **File format** select **Airtable**.
+6. Under **Airtable Personal Access Token**, click **Link...** to add a new secret. For the **ID**, give it a name like `airtable`, and for the **Secret** paste your personal access token.
 7. Click **Load** to browse your bases, then select the tables you want to import.
 8. Review and edit the import options.
 9. Select **Import** to configure how your fields will be converted to notes with [[Properties|properties]].
