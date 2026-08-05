@@ -10,6 +10,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { execFileSync } from "child_process";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 
@@ -158,6 +159,12 @@ const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
 const allFlag = args.includes("--all");
 
+// Git ref holding the previous state of en/. Used to tell an unmodified copy of
+// an en attachment apart from one a translator deliberately localized — see the
+// attachments sync below. Without it, existing attachments are never touched.
+const fromIdx = args.indexOf("--from");
+const fromRef = fromIdx !== -1 ? args[fromIdx + 1] : undefined;
+
 const enDir = path.join(ROOT, "en");
 if (!fs.existsSync(enDir)) {
   console.error(`en/ directory not found at ${enDir}`);
@@ -174,9 +181,9 @@ if (allFlag) {
     .map(e => e.name)
     .sort();
 } else {
-  const locale = args.find(a => !a.startsWith("--"));
+  const locale = args.find((a, i) => !a.startsWith("--") && !(fromIdx !== -1 && i === fromIdx + 1));
   if (!locale) {
-    console.error("Usage: npx tsx scripts/sync-locale.ts <locale|--all> [--dry-run]");
+    console.error("Usage: npx tsx scripts/sync-locale.ts <locale|--all> [--dry-run] [--from <ref>]");
     process.exit(1);
   }
   locales = [locale];
@@ -384,11 +391,32 @@ for (const entry of fs.readdirSync(enDir, { withFileTypes: true })) {
 // Copy any attachment from en/Attachments/ that doesn't already exist in the
 // locale's translated Attachments folder. Translators can replace files at the
 // same path.
+//
+// When an attachment already exists but en/ changed it, --from decides what to
+// do: if the locale's copy still matches en/ as of that ref, it was never
+// localized and gets updated. If it differs, a translator replaced it with a
+// localized screenshot — leave it alone and warn that it's now out of date.
 
 const enAttachDir = path.join(enDir, "Attachments");
 const localeAttachDir = path.join(localeDir, filenamesMap.folders["Attachments"] ?? "Attachments");
 let attachCopied = 0;
+let attachUpdated = 0;
+let attachStale = 0;
 let attachDeleted = 0;
+
+// Contents of en/Attachments/<rel> at fromRef, or null if it didn't exist there
+// (new file) or fromRef is unavailable.
+function getOldEnAttachment(rel: string): Buffer | null {
+  if (!fromRef) return null;
+  try {
+    return execFileSync("git", ["show", `${fromRef}:en/Attachments/${rel}`], {
+      cwd: ROOT,
+      maxBuffer: 256 * 1024 * 1024,
+    });
+  } catch {
+    return null;
+  }
+}
 
 if (fs.existsSync(enAttachDir)) {
   function syncAttachments(srcDir: string, destDir: string) {
@@ -398,14 +426,46 @@ if (fs.existsSync(enAttachDir)) {
       const destPath = path.join(destDir, entry.name);
       if (entry.isDirectory()) {
         syncAttachments(srcPath, destPath);
-      } else if (entry.isFile() && !fs.existsSync(destPath)) {
-        const rel = path.relative(localeDir, destPath);
+        continue;
+      }
+      if (!entry.isFile()) continue;
+
+      const rel = path.relative(localeDir, destPath);
+
+      if (!fs.existsSync(destPath)) {
         console.log(`  ATTACH  ${rel}`);
         if (!dryRun) {
           fs.mkdirSync(destDir, { recursive: true });
           fs.copyFileSync(srcPath, destPath);
         }
         attachCopied++;
+        continue;
+      }
+
+      // Already present — only act when en/ itself changed the file.
+      if (!fromRef) continue;
+      const enNew = fs.readFileSync(srcPath);
+      const localeCur = fs.readFileSync(destPath);
+      if (enNew.equals(localeCur)) continue; // already up to date
+
+      const enOld = getOldEnAttachment(path.relative(enAttachDir, srcPath));
+      // No readable previous version (added since fromRef, or shallow history):
+      // nothing to compare against, so leave the locale's copy alone.
+      if (!enOld) continue;
+      // en/ didn't touch this file — the locale copy differing just means it's a
+      // permanently localized asset. Not our business.
+      if (enOld.equals(enNew)) continue;
+
+      if (enOld.equals(localeCur)) {
+        // Unmodified copy of the previous en/ file — safe to update.
+        console.log(`  ATTACH-UPD  ${rel}`);
+        if (!dryRun) fs.copyFileSync(srcPath, destPath);
+        attachUpdated++;
+      } else {
+        // Translator replaced this with a localized version — keep it, but flag
+        // that en/ has moved on and the locale screenshot needs redoing.
+        console.log(`  ATTACH-STALE  ${rel} (localized copy kept; en/ version changed)`);
+        attachStale++;
       }
     }
   }
@@ -498,6 +558,8 @@ console.log(`  Synced (frontmatter updated): ${synced}`);
 console.log(`  Created (new stubs):          ${created}`);
 console.log(`  Unchanged:                    ${unchanged}`);
 console.log(`  Attachments copied:           ${attachCopied}`);
+console.log(`  Attachments updated:          ${attachUpdated}`);
+console.log(`  Attachments stale (localized):${attachStale}`);
 console.log(`  Attachments deleted:          ${attachDeleted}`);
 console.log(`  Deleted (orphans):            ${deleted}`);
 console.log(`  Deleted (empty dirs):         ${deletedDirs}`);
