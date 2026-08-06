@@ -7,7 +7,7 @@ Each table becomes a folder of notes with one note per record, plus a [[Introduc
 
 ## Create an Airtable personal access token
 
-To access your Airtable data via the API you need a personal access token. This step takes about 1 minute to complete.
+To access your Airtable data via the API you need a personal access token. This step takes about two minutes to complete.
 
 The token is a long string of numbers and letters typically starting with `pat...` that will allow you to download your data from Airtable.
 

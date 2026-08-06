@@ -10,9 +10,9 @@ Obsidian offers two ways to import your Notion data:
 
 ## API import
 
-### Create a Notion API integration token
+### Create a Notion API access token
 
-To access your Notion data via the API you need an integration token. This step takes about 2 minutes to complete.
+To access your Notion data via the API you need an access token. This step takes about two minutes to complete.
 
 The token is a long string of numbers and letters typically starting with `ntn_...` that will allow you to download your data from Notion.
 
@@ -49,7 +49,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 3. Enable the Importer plugin.
 4. Open the **Importer** plugin using the command palette or ribbon icon.
 5. Under **File format** select **Notion (API)**
-6. Under **API token**, click **Link...** to add a new secret. For the **ID**, give it a name like `notion`, and for the **Secret** paste your **Internal Integration Secret** from Notion.
+6. Under **API token**, click **Link...** to add a new secret. For the **ID**, give it a name like `notion`, and for the **Secret** paste your **Access token** from Notion.
 7. Click **Load** to choose the databases and pages you want to import.
 8. Review and edit the import options.
 9. Select **Import** and wait until import is complete
