@@ -34,7 +34,7 @@ Due to technical limitations, Obsidian cannot reliably restrict plugins to speci
 
 ## Plugin review process
 
-All community plugins must adhere to [Obsidian Developer Policies](https://docs.obsidian.md/Developer+policies). Obsidian automatically scans every plugin version for security vulnerabilities, code quality issues, and malware. Each plugin's page in the [plugin directory](https://community.obsidian.md) displays the results as a safety scorecard.
+All community plugins must adhere to [Obsidian Developer Policies](https://docs.obsidian.md/Developer+policies). Obsidian automatically scans every plugin version for security vulnerabilities, code quality issues, and malware. Each plugin's page in the [plugin directory](https://community.obsidian.md) displays the results as a [[Community directory#Scorecard|safety scorecard]].
 
 Manual reviews continue for popular, featured, and flagged plugins.
 
