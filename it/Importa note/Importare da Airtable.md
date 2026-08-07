@@ -7,7 +7,7 @@ Ogni tabella diventa una cartella di note con una nota per record, più un file 
 
 ## Creare un token di accesso personale Airtable
 
-Per accedere ai dati Airtable tramite l'API è necessario un token di accesso personale. Questo passaggio richiede circa 1 minuto per essere completato.
+Per accedere ai dati Airtable tramite l'API è necessario un token di accesso personale. Questo passaggio richiede circa due minuti per essere completato.
 
 Il token è una lunga stringa di numeri e lettere che tipicamente inizia con `pat...` e che permetterà di scaricare i dati da Airtable.
 

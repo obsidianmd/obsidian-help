@@ -33,6 +33,7 @@ Web Clipper-এ Defuddle এড়িয়ে যেতে নিচের প�
 
 - [[Obsidian URI]] প্রোটোকল [[Obsidian URI#Obsidian URI নিবন্ধন করুন|রেজিস্টার করা আছে]] কিনা তা নিশ্চিত করুন।
 - আপনি যদি Firefox ব্যবহার করেন তাহলে আপনাকে [ব্রাউজার সেটিংসে এটি রেজিস্টার করতে](https://kb.mozillazine.org/Register_protocol) হতে পারে।
+- আপনি যদি Flatpak ব্যবহার করেন, তাহলে আপনার `.config/mimeapps.list`-এ থাকা `x-scheme-handler/obsidian` মানটি `obsidian.desktop` থেকে `md.obsidian.Obsidian.desktop`-এ আপডেট করতে হতে পারে।
 
 #### Obsidian খোলে কিন্তু শুধু ফাইলের নাম সংরক্ষিত হয়
 

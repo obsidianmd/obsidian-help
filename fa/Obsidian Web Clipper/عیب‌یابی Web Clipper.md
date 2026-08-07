@@ -31,6 +31,7 @@ Web Clipper از [Defuddle](https://github.com/kepano/defuddle) برای ذخی�
 
 - مطمئن شوید که پروتکل [[Obsidian URI]] [[Obsidian URI#ثبت Obsidian URI|ثبت شده باشد]].
 - اگر از Firefox استفاده می‌کنید ممکن است نیاز باشد [آن را در تنظیمات مرورگر ثبت کنید](https://kb.mozillazine.org/Register_protocol).
+- اگر از Flatpak استفاده می‌کنید، ممکن است نیاز باشد مقدار `x-scheme-handler/obsidian` در فایل `.config/mimeapps.list` را از `obsidian.desktop` به `md.obsidian.Obsidian.desktop` تغییر دهید.
 
 #### Obsidian باز می‌شود اما فقط نام فایل ذخیره می‌شود
 

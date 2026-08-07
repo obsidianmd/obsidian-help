@@ -7,7 +7,7 @@ Varje tabell blir en mapp med anteckningar där varje post motsvarar en anteckni
 
 ## Skapa en personlig åtkomsttoken för Airtable
 
-För att komma åt dina Airtable-data via API:et behöver du en personlig åtkomsttoken. Det här steget tar ungefär 1 minut att slutföra.
+För att komma åt dina Airtable-data via API:et behöver du en personlig åtkomsttoken. Det här steget tar ungefär två minuter att slutföra.
 
 Token är en lång sträng av siffror och bokstäver som vanligtvis börjar med `pat...` och som gör det möjligt att ladda ner dina data från Airtable.
 

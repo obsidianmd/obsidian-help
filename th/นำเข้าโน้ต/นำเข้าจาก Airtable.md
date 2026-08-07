@@ -7,7 +7,7 @@ Obsidian ช่วยให้คุณย้ายข้อมูลจาก A
 
 ## สร้าง Airtable personal access token
 
-ในการเข้าถึงข้อมูล Airtable ผ่าน API คุณต้องมี personal access token ขั้นตอนนี้ใช้เวลาประมาณ 1 นาที
+ในการเข้าถึงข้อมูล Airtable ผ่าน API คุณต้องมี personal access token ขั้นตอนนี้ใช้เวลาประมาณ 2 นาที
 
 Token คือสตริงยาวของตัวเลขและตัวอักษร โดยทั่วไปจะเริ่มต้นด้วย `pat...` ซึ่งจะอนุญาตให้คุณดาวน์โหลดข้อมูลจาก Airtable
 

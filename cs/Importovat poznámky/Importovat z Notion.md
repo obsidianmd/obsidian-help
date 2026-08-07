@@ -10,9 +10,9 @@ Obsidian nabízí dva způsoby importu dat z Notion:
 
 ## Import přes API
 
-### Vytvoření integračního tokenu Notion API
+### Vytvoření přístupového tokenu Notion API
 
-Pro přístup k vašim datům v Notion přes API potřebujete integrační token. Tento krok zabere přibližně 2 minuty.
+Pro přístup k vašim datům v Notion přes API potřebujete přístupový token. Tento krok zabere přibližně dvě minuty.
 
 Token je dlouhý řetězec čísel a písmen, který obvykle začíná `ntn_...` a umožní vám stáhnout vaše data z Notion.
 
@@ -49,7 +49,7 @@ Budete potřebovat oficiální plugin Obsidian [[Importér]], který můžete [n
 3. Zapněte plugin Importér.
 4. Otevřete plugin **Importér** pomocí palety příkazů nebo ikony na postranním panelu nástrojů.
 5. V části **Formát** vyberte **Notion (API)**
-6. V části **API token** klikněte na **Propojit...** pro přidání nového tajného údaje. Jako **ID** zadejte název, například `notion`, a do pole **Tajný údaj** vložte svůj **Internal Integration Secret** z Notion.
+6. V části **API token** klikněte na **Propojit...** pro přidání nového tajného údaje. Jako **ID** zadejte název, například `notion`, a do pole **Tajný údaj** vložte svůj **Access token** z Notion.
 7. Klikněte na **Načíst** a vyberte databáze a stránky, které chcete importovat.
 8. Zkontrolujte a upravte možnosti importu.
 9. Vyberte **Importovat** a počkejte na dokončení importu.
@@ -82,7 +82,7 @@ Import souboru je alternativní způsob importu dat z Notion. Tato metoda nezach
 
 Pro přípravu dat k importu budete muset exportovat celý svůj pracovní prostor pomocí formátu HTML exportu Notion. Doporučujeme nepoužívat Markdown export Notion, protože vynechává důležitá data. Pro export veškerého obsahu pracovního prostoru musíte mít administrátorský přístup k pracovnímu prostoru Notion.
 
-1. Přejděte do **[[Nastavení]]** v horní části postranního panelu Notion.
+1. Přejděte do **Settings** v horní části postranního panelu Notion.
 2. V části **Workspace** vyberte **General**.
 3. Najděte a vyberte **Export all workspace content**.
 4. V části **Export format** vyberte **HTML**.

@@ -10,9 +10,9 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 
 ## API 匯入
 
-### 建立 Notion API 整合權杖
+### 建立 Notion API 存取權杖
 
-要透過 API 存取你的 Notion 資料，你需要一個整合權杖。此步驟大約需要 2 分鐘完成。
+要透過 API 存取你的 Notion 資料，你需要一個存取權杖。此步驟大約需要兩分鐘完成。
 
 權杖是一串通常以 `ntn_...` 開頭的長數字和字母字串，它將允許你從 Notion 下載資料。
 
@@ -49,7 +49,7 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 3. 啟用匯入工具外掛程式。
 4. 使用命令面板或功能區圖示開啟**匯入工具**外掛程式。
 5. 在 **File format** 下選擇 **Notion (API)**
-6. 在 **API token** 下，點擊 **Link...** 以新增一個密鑰。在 **ID** 中輸入名稱，例如 `notion`，在 **Secret** 中貼上你從 Notion 取得的 **Internal Integration Secret**。
+6. 在 **API token** 下，點擊 **Link...** 以新增一個密鑰。在 **ID** 中輸入名稱，例如 `notion`，在 **Secret** 中貼上你從 Notion 取得的 **Access token**。
 7. 點擊 **Load** 以選擇你想要匯入的資料庫和頁面。
 8. 檢視並編輯匯入選項。
 9. 選擇 **Import** 並等待匯入完成
@@ -82,7 +82,7 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 
 要準備你的資料以進行匯入，你需要使用 Notion 的 HTML 匯出格式來匯出整個工作區。我們建議你不要使用 Notion 的 Markdown 匯出，因為它會遺漏重要資料。你必須擁有 Notion 工作區的管理員權限才能匯出所有工作區內容。
 
-1. 前往 Notion 側邊欄頂部的**[[設定]]**。
+1. 前往 Notion 側邊欄頂部的**設定**。
 2. 在 **Workspace** 下選擇 **General**。
 3. 找到並選擇 **Export all workspace content**。
 4. 在 **Export format** 下選擇 **HTML**。

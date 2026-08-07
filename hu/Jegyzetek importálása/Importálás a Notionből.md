@@ -10,9 +10,9 @@ Az Obsidian két módszert kínál a Notion adataid importálására:
 
 ## API importálás
 
-### Notion API integrációs token létrehozása
+### Notion API hozzáférési token létrehozása
 
-A Notion adatainak API-n keresztüli eléréséhez integrációs tokenre van szükséged. Ez a lépés körülbelül 2 percet vesz igénybe.
+A Notion adatainak API-n keresztüli eléréséhez hozzáférési tokenre van szükséged. Ez a lépés körülbelül két percet vesz igénybe.
 
 A token egy hosszú szám- és betűsorozat, amely jellemzően `ntn_...`-nel kezdődik, és lehetővé teszi az adataid letöltését a Notionből.
 
@@ -49,7 +49,7 @@ Szükséged lesz a hivatalos Obsidian [[Importáló]] bővítményre, amelyet [i
 3. Engedélyezd az Importáló bővítményt.
 4. Nyisd meg az **Importáló** bővítményt a parancspaletta vagy a szalag ikon segítségével.
 5. A **Fájlformátum** alatt válaszd a **Notion (API)** lehetőséget.
-6. Az **API token** mezőnél kattints a **Hivatkozás...** gombra egy új titok hozzáadásához. Az **Azonosító** mezőben adj neki egy nevet, például `notion`, a **Titok** mezőbe pedig illeszd be a Notionből származó **Internal Integration Secret** értéket.
+6. Az **API token** mezőnél kattints a **Hivatkozás...** gombra egy új titok hozzáadásához. Az **Azonosító** mezőben adj neki egy nevet, például `notion`, a **Titok** mezőbe pedig illeszd be a Notionből származó **Access token** értéket.
 7. Kattints a **Betöltés** gombra az importálni kívánt adatbázisok és oldalak kiválasztásához.
 8. Tekintsd át és szerkeszd az importálási beállításokat.
 9. Válaszd az **Importálás** lehetőséget, és várd meg, amíg az importálás befejeződik.
@@ -82,7 +82,7 @@ A fájl importálás egy alternatív módszer a Notion adataid importálására.
 
 Az adataid importálásra való előkészítéséhez exportálnod kell a teljes munkaterületedet a Notion HTML exportálási formátumával. Javasoljuk, hogy ne használd a Notion Markdown exportálását, mivel az fontos adatokat hagy ki. A munkaterület teljes tartalmának exportálásához rendszergazdai hozzáféréssel kell rendelkezned a Notion munkaterülethez.
 
-1. Lépj a **[[Beállítások]]** menübe a Notion oldalsáv tetején.
+1. Lépj a **Settings** menübe a Notion oldalsáv tetején.
 2. A **Workspace** alatt válaszd az **General** lehetőséget.
 3. Keresd meg és válaszd az **Export all workspace content** lehetőséget.
 4. Az **Export format** alatt válaszd a **HTML** formátumot.

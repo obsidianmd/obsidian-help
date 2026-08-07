@@ -10,9 +10,9 @@ Obsidian oferuje dwa sposoby importowania danych z Notion:
 
 ## Import przez API
 
-### Tworzenie tokenu integracji Notion API
+### Tworzenie tokenu dostępu Notion API
 
-Aby uzyskać dostęp do danych Notion przez API, potrzebujesz tokenu integracji. Ten krok zajmuje około 2 minut.
+Aby uzyskać dostęp do danych Notion przez API, potrzebujesz tokenu dostępu. Ten krok zajmuje około dwóch minut.
 
 Token to długi ciąg liczb i liter, zwykle zaczynający się od `ntn_...`, który umożliwia pobranie danych z Notion.
 
@@ -49,7 +49,7 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 3. Włącz wtyczkę Importer.
 4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
 5. W polu **Format** wybierz **Notion (API)**
-6. W polu **API token** kliknij **Połącz...**, aby dodać nowy sekret. W polu **ID** nadaj mu nazwę, np. `notion`, a w polu **Sekret** wklej swój **Internal Integration Secret** z Notion.
+6. W polu **API token** kliknij **Połącz...**, aby dodać nowy sekret. W polu **ID** nadaj mu nazwę, np. `notion`, a w polu **Sekret** wklej swój **Access token** z Notion.
 7. Kliknij **Wczytaj**, aby wybrać bazy danych i strony do zaimportowania.
 8. Przejrzyj i dostosuj opcje importu.
 9. Wybierz **Importuj** i poczekaj na zakończenie importu
@@ -82,7 +82,7 @@ Import plików to alternatywny sposób importowania danych z Notion. Ta metoda n
 
 Aby przygotować dane do importu, musisz wyeksportować cały przestrzeń robocza za pomocą formatu eksportu HTML w Notion. Zalecamy nieużywanie eksportu Markdown z Notion, ponieważ pomija on ważne dane. Musisz mieć uprawnienia administratora do przestrzeni roboczej Notion, aby wyeksportować całą zawartość.
 
-1. Przejdź do **[[Ustawienia]]** u góry panelu bocznego Notion.
+1. Przejdź do **Settings** u góry panelu bocznego Notion.
 2. W sekcji **Workspace** wybierz **General**.
 3. Znajdź i wybierz **Export all workspace content**.
 4. W polu **Export format** wybierz **HTML**.

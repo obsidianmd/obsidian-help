@@ -10,9 +10,9 @@ Obsidian, Notion verilerinizi içe aktarmak için iki yol sunar:
 
 ## API ile içe aktarma
 
-### Notion API entegrasyon belirteci oluşturma
+### Notion API erişim belirteci oluşturma
 
-Notion verilerinize API üzerinden erişmek için bir entegrasyon belirtecine ihtiyacınız vardır. Bu adımın tamamlanması yaklaşık 2 dakika sürer.
+Notion verilerinize API üzerinden erişmek için bir erişim belirtecine ihtiyacınız vardır. Bu adımın tamamlanması yaklaşık iki dakika sürer.
 
 Belirteç, genellikle `ntn_...` ile başlayan uzun bir sayı ve harf dizisidir ve verilerinizi Notion'dan indirmenize olanak tanır.
 
@@ -49,7 +49,7 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 3. İçe aktarıcı eklentisini etkinleştirin.
 4. Komut paleti veya araç çubuğu simgesini kullanarak **İçe aktarıcı** eklentisini açın.
 5. **File format** altında **Notion (API)** öğesini seçin.
-6. **API token** altında, yeni bir gizli bilgi eklemek için **Bağla...** öğesine tıklayın. **Kimlik** için `notion` gibi bir ad verin ve **Gizli bilgi** için Notion'dan aldığınız **Internal Integration Secret** değerini yapıştırın.
+6. **API token** altında, yeni bir gizli bilgi eklemek için **Bağla...** öğesine tıklayın. **Kimlik** için `notion` gibi bir ad verin ve **Gizli bilgi** için Notion'dan aldığınız **Access token** değerini yapıştırın.
 7. İçe aktarmak istediğiniz veritabanlarını ve sayfaları seçmek için **Yükle** öğesine tıklayın.
 8. İçe aktarma seçeneklerini gözden geçirin ve düzenleyin.
 9. **İçe aktar** öğesini seçin ve içe aktarma tamamlanana kadar bekleyin.
@@ -82,7 +82,7 @@ Dosya ile içe aktarma, Notion verilerinizi içe aktarmanın alternatif bir yolu
 
 Verilerinizi içe aktarmaya hazırlamak için tüm çalışma alanınızı Notion'ın HTML dışa aktarma biçimini kullanarak dışa aktarmanız gerekir. Notion'ın Markdown dışa aktarma özelliğini kullanmamanızı öneririz çünkü önemli verileri atlar. Tüm çalışma alanı içeriğini dışa aktarmak için Notion çalışma alanında yönetici erişiminiz olmalıdır.
 
-1. Notion kenar çubuğunun üst kısmındaki **[[Ayarlar]]** bölümüne gidin.
+1. Notion kenar çubuğunun üst kısmındaki **Settings** bölümüne gidin.
 2. **Workspace** altında **General** öğesini seçin.
 3. **Export all workspace content** öğesini bulun ve seçin.
 4. **Export format** altında **HTML** öğesini seçin.

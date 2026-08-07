@@ -7,7 +7,7 @@ Jede Tabelle wird zu einem Ordner mit Notizen – eine Notiz pro Datensatz – p
 
 ## Ein persönliches Airtable-Zugriffstoken erstellen
 
-Um über die API auf deine Airtable-Daten zuzugreifen, benötigst du ein persönliches Zugriffstoken. Dieser Schritt dauert etwa 1 Minute.
+Um über die API auf deine Airtable-Daten zuzugreifen, benötigst du ein persönliches Zugriffstoken. Dieser Schritt dauert etwa zwei Minuten.
 
 Das Token ist eine lange Zeichenkette aus Zahlen und Buchstaben, die typischerweise mit `pat...` beginnt und dir ermöglicht, deine Daten von Airtable herunterzuladen.
 

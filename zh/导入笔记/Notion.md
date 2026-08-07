@@ -12,9 +12,9 @@ Obsidian 提供两种方式来导入 Notion 数据：
 
 ## API 导入
 
-### 创建 Notion API 集成令牌
+### 创建 Notion API 访问令牌
 
-要通过 API 访问你的 Notion 数据，你需要一个集成令牌。此步骤大约需要 2 分钟完成。
+要通过 API 访问你的 Notion 数据，你需要一个访问令牌。此步骤大约需要两分钟完成。
 
 令牌是一串以 `ntn_...` 开头的数字和字母组成的长字符串，它允许你从 Notion 下载数据。
 
@@ -51,7 +51,7 @@ Obsidian 提供两种方式来导入 Notion 数据：
 3. 启用迁移助手插件。
 4. 通过命令面板或功能区图标打开**迁移助手**插件。
 5. 在 **File format** 下选择 **Notion (API)**
-6. 在 **API token** 下，点击 **Link...** 添加一个新的密钥。在 **ID** 中输入一个名称如 `notion`，在 **Secret** 中粘贴你从 Notion 获取的 **Internal Integration Secret**。
+6. 在 **API token** 下，点击 **Link...** 添加一个新的密钥。在 **ID** 中输入一个名称如 `notion`，在 **Secret** 中粘贴你从 Notion 获取的 **Access token**。
 7. 点击 **Load** 来选择你想要导入的数据库和页面。
 8. 检查并编辑导入选项。
 9. 选择 **Import** 并等待导入完成
@@ -84,7 +84,7 @@ Obsidian 提供两种方式来导入 Notion 数据：
 
 要准备导入数据，你需要使用 Notion 的 HTML 导出格式导出整个工作区。我们建议你不要使用 Notion 的 Markdown 导出，因为它会遗漏重要数据。你必须拥有 Notion 工作区的管理员权限才能导出所有工作区内容。
 
-1. 前往 Notion 侧边栏顶部的**[[设置]]**。
+1. 前往 Notion 侧边栏顶部的 **Settings**。
 2. 在 **Workspace** 下选择 **General**。
 3. 找到并选择 **Export all workspace content**。
 4. 在 **Export format** 下选择 **HTML**。

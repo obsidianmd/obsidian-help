@@ -7,7 +7,7 @@ Setiap tabel menjadi folder catatan dengan satu catatan per rekaman, ditambah fi
 
 ## Buat token akses personal Airtable
 
-Untuk mengakses data Airtable Anda melalui API, Anda memerlukan token akses personal. Langkah ini membutuhkan waktu sekitar 1 menit untuk diselesaikan.
+Untuk mengakses data Airtable Anda melalui API, Anda memerlukan token akses personal. Langkah ini membutuhkan waktu sekitar dua menit untuk diselesaikan.
 
 Token adalah string panjang berisi angka dan huruf yang biasanya dimulai dengan `pat...` yang memungkinkan Anda mengunduh data dari Airtable.
 

@@ -31,6 +31,7 @@ Ha nem látsz tartalmat az Obsidianben, amikor az **Add to Obsidian** gombra kat
 
 - Győződj meg arról, hogy az [[Obsidian URI]] protokoll [[Obsidian URI#Obsidian URI regisztrálása|regisztrálva van]].
 - Ha Firefoxot használsz, lehet, hogy [regisztrálnod kell a böngésző beállításaiban](https://kb.mozillazine.org/Register_protocol).
+- Ha Flatpakot használsz, lehet, hogy frissítened kell az `x-scheme-handler/obsidian` értéket a `.config/mimeapps.list` fájlban `obsidian.desktop`-ról `md.obsidian.Obsidian.desktop`-ra.
 
 #### Az Obsidian megnyílik, de csak a fájlnév mentődik el
 

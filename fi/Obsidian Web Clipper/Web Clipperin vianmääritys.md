@@ -31,6 +31,7 @@ Jos et näe mitään sisältöä Obsidianissa, kun napsautat **Lisää Obsidiani
 
 - Varmista, että [[Obsidian URI]] -protokolla [[Obsidian URI#Register Obsidian URI|on rekisteröity]].
 - Jos käytät Firefoxia, saatat joutua [rekisteröimään sen selaimen asetuksissa](https://kb.mozillazine.org/Register_protocol).
+- Jos käytät Flatpakia, saatat joutua päivittämään `x-scheme-handler/obsidian`-arvon tiedostossa `.config/mimeapps.list` arvosta `obsidian.desktop` arvoon `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian avautuu, mutta vain tiedostonimi tallentuu
 

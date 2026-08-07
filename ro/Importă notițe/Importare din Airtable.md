@@ -7,7 +7,7 @@ Fiecare tabel devine un director de notițe cu o notiță per înregistrare, plu
 
 ## Creează un token de acces personal Airtable
 
-Pentru a accesa datele tale Airtable prin API, ai nevoie de un token de acces personal. Acest pas durează aproximativ 1 minut.
+Pentru a accesa datele tale Airtable prin API, ai nevoie de un token de acces personal. Acest pas durează aproximativ două minute.
 
 Tokenul este un șir lung de numere și litere care începe de obicei cu `pat...` și care îți va permite să descarci datele din Airtable.
 

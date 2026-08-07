@@ -7,7 +7,7 @@ Her tablo, kayıt başına bir not içeren bir not klasörüne ve tabloyu ve gö
 
 ## Airtable kişisel erişim belirteci oluşturma
 
-Verilerinize Airtable API aracılığıyla erişmek için kişisel bir erişim belirtecine ihtiyacınız vardır. Bu adımın tamamlanması yaklaşık 1 dakika sürer.
+Verilerinize Airtable API aracılığıyla erişmek için kişisel bir erişim belirtecine ihtiyacınız vardır. Bu adımın tamamlanması yaklaşık iki dakika sürer.
 
 Belirteç, genellikle `pat...` ile başlayan uzun bir sayı ve harf dizisidir ve verilerinizi Airtable'dan indirmenizi sağlar.
 

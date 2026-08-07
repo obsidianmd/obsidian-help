@@ -7,7 +7,7 @@ Chaque table devient un dossier de notes avec une note par enregistrement, ainsi
 
 ## Créer un jeton d'accès personnel Airtable
 
-Pour accéder à vos données Airtable via l'API, vous avez besoin d'un jeton d'accès personnel. Cette étape prend environ 1 minute.
+Pour accéder à vos données Airtable via l'API, vous avez besoin d'un jeton d'accès personnel. Cette étape prend environ deux minutes.
 
 Le jeton est une longue chaîne de chiffres et de lettres commençant généralement par `pat...` qui vous permettra de télécharger vos données depuis Airtable.
 

@@ -10,9 +10,9 @@ Obsidian ofereix dues maneres d'importar les teves dades de Notion:
 
 ## Importació per API
 
-### Crear un token d'integració de l'API de Notion
+### Crear un token d'accés a l'API de Notion
 
-Per accedir a les teves dades de Notion mitjançant l'API necessites un token d'integració. Aquest pas triga uns 2 minuts a completar-se.
+Per accedir a les teves dades de Notion mitjançant l'API necessites un token d'accés. Aquest pas triga uns dos minuts a completar-se.
 
 El token és una cadena llarga de números i lletres que normalment comença amb `ntn_...` i que et permetrà descarregar les teves dades de Notion.
 
@@ -49,7 +49,7 @@ Necessitaràs el connector oficial d'Obsidian [[Importador]], que pots [instal·
 3. Habilita el connector Importador.
 4. Obre el connector **Importador** utilitzant la paleta d'ordres o la icona de la barra d'eines.
 5. Sota **Format del fitxer** selecciona **Notion (API)**
-6. Sota **API token**, fes clic a **Enllaça...** per afegir un nou secret. Per a l'**ID**, dona-li un nom com `notion`, i per al **Secret** enganxa el teu **Internal Integration Secret** de Notion.
+6. Sota **API token**, fes clic a **Enllaça...** per afegir un nou secret. Per a l'**ID**, dona-li un nom com `notion`, i per al **Secret** enganxa el teu **Access token** de Notion.
 7. Fes clic a **Carrega** per escollir les bases de dades i pàgines que vols importar.
 8. Revisa i edita les opcions d'importació.
 9. Selecciona **Importar** i espera fins que la importació sigui completa
@@ -82,7 +82,7 @@ La importació per fitxer és una manera alternativa d'importar les teves dades 
 
 Per preparar les teves dades per a la importació, hauràs d'exportar tot el teu espai de treball utilitzant el format d'exportació HTML de Notion. Recomanem que no utilitzis l'exportació Markdown de Notion ja que omet dades importants. Has de tenir accés d'administrador a l'espai de treball de Notion per exportar tot el contingut de l'espai de treball.
 
-1. Vés a **[[Configuració]]** a la part superior de la barra lateral de Notion.
+1. Vés a **Settings** a la part superior de la barra lateral de Notion.
 2. Sota **Workspace** selecciona **General**.
 3. Troba i selecciona **Export all workspace content**.
 4. Sota **Export format** selecciona **HTML**.

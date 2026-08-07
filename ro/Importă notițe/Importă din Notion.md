@@ -12,9 +12,9 @@ Obsidian oferă două moduri de a-ți importa datele din Notion:
 
 ## Importul prin API
 
-### Creează un token de integrare API Notion
+### Creează un token de acces API Notion
 
-Pentru a accesa datele tale din Notion prin API, ai nevoie de un token de integrare. Acest pas durează aproximativ 2 minute.
+Pentru a accesa datele tale din Notion prin API, ai nevoie de un token de acces. Acest pas durează aproximativ două minute.
 
 Token-ul este un șir lung de cifre și litere, care de obicei începe cu `ntn_...`, care îți va permite să îți descarci datele din Notion.
 
@@ -51,7 +51,7 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 3. Activează modulul Importer.
 4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
 5. La **Format fișier** selectează **Notion (API)**
-6. La **API token**, apasă **Link...** pentru a adăuga un secret nou. Pentru **ID**, dă-i un nume precum `notion`, iar pentru **Secret** inserează **Internal Integration Secret**-ul tău din Notion.
+6. La **API token**, apasă **Link...** pentru a adăuga un secret nou. Pentru **ID**, dă-i un nume precum `notion`, iar pentru **Secret** inserează **Access token**-ul tău din Notion.
 7. Apasă **Load** pentru a alege bazele de date și paginile pe care dorești să le imporți.
 8. Revizuiește și modifică opțiunile de import.
 9. Selectează **Importă** și așteaptă până când importul este finalizat
@@ -84,7 +84,7 @@ Importul de fișiere este o metodă alternativă de a-ți importa datele din Not
 
 Pentru a-ți pregăti datele pentru import, va trebui să îți exporți întregul spațiu de lucru folosind formatul de export HTML al Notion. Îți recomandăm să nu folosești exportul Markdown al Notion, deoarece omite date importante. Trebuie să ai acces de administrator la spațiul de lucru Notion pentru a exporta tot conținutul spațiului de lucru.
 
-1. Mergi la **[[Setări]]** din partea de sus a barei laterale Notion.
+1. Mergi la **Settings** din partea de sus a barei laterale Notion.
 2. La **Workspace** selectează **General**.
 3. Găsește și selectează **Export all workspace content**.
 4. La **Export format** selectează **HTML**.

@@ -10,9 +10,9 @@ Obsidian biedt twee manieren om je Notion-gegevens te importeren:
 
 ## API-import
 
-### Een Notion API-integratietoken aanmaken
+### Een Notion API-toegangstoken aanmaken
 
-Om via de API toegang te krijgen tot je Notion-gegevens heb je een integratietoken nodig. Deze stap duurt ongeveer 2 minuten.
+Om via de API toegang te krijgen tot je Notion-gegevens heb je een toegangstoken nodig. Deze stap duurt ongeveer twee minuten.
 
 Het token is een lange reeks cijfers en letters die doorgaans begint met `ntn_...` waarmee je je gegevens kunt downloaden vanuit Notion.
 
@@ -49,7 +49,7 @@ Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt i
 3. Schakel de Importer-plug-in in.
 4. Open de **Importer**-plug-in via het opdrachtenpalet of het werkbalkpictogram.
 5. Selecteer onder **File format** de optie **Notion (API)**
-6. Klik onder **API token** op **Link...** om een nieuw geheim toe te voegen. Geef voor het **ID** een naam op zoals `notion`, en plak voor het **Geheim** je **Internal Integration Secret** van Notion.
+6. Klik onder **API token** op **Link...** om een nieuw geheim toe te voegen. Geef voor het **ID** een naam op zoals `notion`, en plak voor het **Geheim** je **Access token** van Notion.
 7. Klik op **Laden** om de databases en pagina's te kiezen die je wilt importeren.
 8. Bekijk en bewerk de importopties.
 9. Selecteer **Importeren** en wacht tot de import is voltooid
@@ -82,7 +82,7 @@ Bestandsimport is een alternatieve manier om je Notion-gegevens te importeren. D
 
 Om je gegevens voor te bereiden op import, moet je je volledige werkruimte exporteren met het HTML-exportformaat van Notion. We raden aan om niet het Markdown-exportformaat van Notion te gebruiken, omdat dit belangrijke gegevens weglaat. Je moet beheerderstoegang hebben tot de Notion-werkruimte om alle werkruimte-inhoud te exporteren.
 
-1. Ga naar **[[Instellingen]]** bovenaan de Notion-zijbalk.
+1. Ga naar **Instellingen** bovenaan de Notion-zijbalk.
 2. Selecteer onder **Workspace** de optie **General**.
 3. Zoek en selecteer **Export all workspace content**.
 4. Selecteer onder **Export format** de optie **HTML**.

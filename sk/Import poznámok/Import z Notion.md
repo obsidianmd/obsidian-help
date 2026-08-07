@@ -10,9 +10,9 @@ Obsidian ponúka dva spôsoby importu vašich dát z Notion:
 
 ## Import cez API
 
-### Vytvorenie integračného tokenu Notion API
+### Vytvorenie prístupového tokenu Notion API
 
-Na prístup k vašim dátam z Notion cez API potrebujete integračný token. Tento krok trvá približne 2 minúty.
+Na prístup k vašim dátam z Notion cez API potrebujete prístupový token. Tento krok trvá približne dve minúty.
 
 Token je dlhý reťazec čísel a písmen, zvyčajne začínajúci `ntn_...`, ktorý vám umožní stiahnuť vaše dáta z Notion.
 
@@ -49,7 +49,7 @@ Budete potrebovať oficiálny plugin Obsidian [[Importér]], ktorý môžete [na
 3. Zapnite plugin Importér.
 4. Otvorte plugin **Importér** pomocou palety príkazov alebo ikony na paneli nástrojov.
 5. V časti **File format** vyberte **Notion (API)**
-6. V časti **API token** kliknite na **Prepojiť...** a pridajte nové tajomstvo. Pre **ID** zadajte názov ako `notion` a pre **Tajomstvo** vložte váš **Internal Integration Secret** z Notion.
+6. V časti **API token** kliknite na **Prepojiť...** a pridajte nové tajomstvo. Pre **ID** zadajte názov ako `notion` a pre **Tajomstvo** vložte váš **Access token** z Notion.
 7. Kliknite na **Načítať** a vyberte databázy a stránky, ktoré chcete importovať.
 8. Skontrolujte a upravte možnosti importu.
 9. Vyberte **Import** a počkajte, kým sa import nedokončí
@@ -82,7 +82,7 @@ Import zo súboru je alternatívny spôsob importu vašich dát z Notion. Táto 
 
 Na prípravu vašich dát na import budete musieť exportovať celý pracovný priestor pomocou formátu HTML exportu Notion. Odporúčame nepoužívať Markdown export Notion, pretože vynecháva dôležité dáta. Na export celého obsahu pracovného priestoru musíte mať administrátorský prístup k pracovnému priestoru Notion.
 
-1. Prejdite na **[[Nastavenia]]** v hornej časti bočného panela Notion.
+1. Prejdite na **Settings** v hornej časti bočného panela Notion.
 2. V časti **Workspace** vyberte **General**.
 3. Nájdite a vyberte **Export all workspace content**.
 4. V časti **Export format** vyberte **HTML**.

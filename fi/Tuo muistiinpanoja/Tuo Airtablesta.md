@@ -7,7 +7,7 @@ Jokainen taulukko muuttuu muistiinpanokansioksi, jossa jokaista tietuetta kohti 
 
 ## Luo Airtablen henkilökohtainen käyttöoikeustunniste
 
-Airtable-tietojen käyttäminen API:n kautta edellyttää henkilökohtaista käyttöoikeustunnistetta. Tämä vaihe kestää noin minuutin.
+Airtable-tietojen käyttäminen API:n kautta edellyttää henkilökohtaista käyttöoikeustunnistetta. Tämä vaihe kestää noin kaksi minuuttia.
 
 Tunniste on pitkä numero- ja kirjainjono, joka alkaa tyypillisesti `pat...`, ja sen avulla voit ladata tietosi Airtablesta.
 

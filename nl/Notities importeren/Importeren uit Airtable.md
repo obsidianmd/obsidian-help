@@ -7,7 +7,7 @@ Elke tabel wordt een map met notities, met één notitie per record, plus een [[
 
 ## Een persoonlijk Airtable-toegangstoken aanmaken
 
-Om toegang te krijgen tot je Airtable-gegevens via de API heb je een persoonlijk toegangstoken nodig. Deze stap duurt ongeveer 1 minuut.
+Om toegang te krijgen tot je Airtable-gegevens via de API heb je een persoonlijk toegangstoken nodig. Deze stap duurt ongeveer twee minuten.
 
 Het token is een lange reeks cijfers en letters die doorgaans begint met `pat...` waarmee je je gegevens kunt downloaden van Airtable.
 

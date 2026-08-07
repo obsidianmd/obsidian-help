@@ -7,7 +7,7 @@ Minden tábla egy jegyzetmappává válik, táblázatrekordonként egy jegyzette
 
 ## Airtable személyes hozzáférési token létrehozása
 
-Az Airtable adatainak API-n keresztüli eléréséhez személyes hozzáférési tokenre van szükség. Ez a lépés körülbelül 1 percet vesz igénybe.
+Az Airtable adatainak API-n keresztüli eléréséhez személyes hozzáférési tokenre van szükség. Ez a lépés körülbelül két percet vesz igénybe.
 
 A token egy hosszú szám- és betűsorozat, amely jellemzően `pat...` kezdetű, és lehetővé teszi az adatok letöltését az Airtable-ből.
 

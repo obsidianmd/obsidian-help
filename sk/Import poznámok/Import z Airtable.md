@@ -7,7 +7,7 @@ Každá tabuľka sa stane priečinkom poznámok s jednou poznámkou na záznam, 
 
 ## Vytvorenie osobného prístupového tokenu Airtable
 
-Pre prístup k vašim dátam Airtable cez API potrebujete osobný prístupový token. Tento krok trvá približne 1 minútu.
+Pre prístup k vašim dátam Airtable cez API potrebujete osobný prístupový token. Tento krok trvá približne dve minúty.
 
 Token je dlhý reťazec čísiel a písmen, zvyčajne začínajúci na `pat...`, ktorý vám umožní stiahnuť vaše dáta z Airtable.
 

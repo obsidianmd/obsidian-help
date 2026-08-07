@@ -7,7 +7,7 @@ Mỗi bảng trở thành một thư mục ghi chú với một ghi chú cho m�
 
 ## Tạo mã thông báo truy cập cá nhân Airtable
 
-Để truy cập dữ liệu Airtable của bạn qua API, bạn cần một mã thông báo truy cập cá nhân. Bước này mất khoảng 1 phút để hoàn thành.
+Để truy cập dữ liệu Airtable của bạn qua API, bạn cần một mã thông báo truy cập cá nhân. Bước này mất khoảng hai phút để hoàn thành.
 
 Mã thông báo là một chuỗi dài gồm số và chữ cái thường bắt đầu bằng `pat...` cho phép bạn tải xuống dữ liệu từ Airtable.
 

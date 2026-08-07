@@ -10,9 +10,9 @@ Obsidian tarjoaa kaksi tapaa tuoda Notion-tietosi:
 
 ## API-tuonti
 
-### Notion API -integraatiotunnisteen luominen
+### Notion API -käyttötunnisteen luominen
 
-Notion-tietojen käyttämiseksi API:n kautta tarvitset integraatiotunnisteen. Tämän vaiheen suorittaminen kestää noin 2 minuuttia.
+Notion-tietojen käyttämiseksi API:n kautta tarvitset käyttötunnisteen. Tämän vaiheen suorittaminen kestää noin kaksi minuuttia.
 
 Tunniste on pitkä numero- ja kirjainjono, joka alkaa tyypillisesti `ntn_...` ja jonka avulla voit ladata tietosi Notionista.
 
@@ -49,7 +49,7 @@ Tarvitset virallisen Obsidianin [[Tuontityökalu]]-lisäosan, jonka voit [asenta
 3. Ota Tuontityökalu-lisäosa käyttöön.
 4. Avaa **Tuontityökalu**-lisäosa komentovalikon tai nauhakuvakkeen kautta.
 5. Valitse **Tiedostomuoto**-kohdasta **Notion (API)**
-6. Napsauta **API-tunniste** -kohdassa **Linkki...** lisätäksesi uuden sala-avaimen. Anna **tunnukseksi** nimi kuten `notion`, ja liitä **Sala-avain**-kenttään Notionin **Internal Integration Secret**.
+6. Napsauta **API-tunniste** -kohdassa **Linkki...** lisätäksesi uuden sala-avaimen. Anna **tunnukseksi** nimi kuten `notion`, ja liitä **Sala-avain**-kenttään Notionin **Access token**.
 7. Napsauta **Lataa** valitaksesi tietokannat ja sivut, jotka haluat tuoda.
 8. Tarkista ja muokkaa tuontiasetuksia.
 9. Valitse **Tuo** ja odota, kunnes tuonti on valmis.
@@ -82,7 +82,7 @@ Tiedostotuonti on vaihtoehtoinen tapa tuoda Notion-tietosi. Tämä menetelmä ei
 
 Tietojen valmistelemiseksi tuontia varten sinun täytyy viedä koko työtilasi Notionin HTML-vientimuodossa. Suosittelemme, ettet käytä Notionin Markdown-vientiä, sillä se jättää pois tärkeitä tietoja. Sinulla täytyy olla ylläpitäjän käyttöoikeudet Notion-työtilaan, jotta voit viedä kaiken työtilan sisällön.
 
-1. Siirry Notion-sivupalkin yläosassa kohtaan **[[Asetukset]]**.
+1. Siirry Notion-sivupalkin yläosassa kohtaan **Settings**.
 2. Valitse **Workspace**-kohdasta **General**.
 3. Etsi ja valitse **Export all workspace content**.
 4. Valitse **Export format** -kohdasta **HTML**.

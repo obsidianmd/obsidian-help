@@ -10,9 +10,9 @@ Obsidian menawarkan dua cara untuk mengimpor data Notion Anda:
 
 ## Impor API
 
-### Membuat token integrasi API Notion
+### Membuat token akses API Notion
 
-Untuk mengakses data Notion Anda melalui API, Anda memerlukan token integrasi. Langkah ini membutuhkan waktu sekitar 2 menit untuk diselesaikan.
+Untuk mengakses data Notion Anda melalui API, Anda memerlukan token akses. Langkah ini membutuhkan waktu sekitar dua menit untuk diselesaikan.
 
 Token tersebut adalah rangkaian panjang angka dan huruf yang biasanya dimulai dengan `ntn_...` yang memungkinkan Anda mengunduh data dari Notion.
 
@@ -49,7 +49,7 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 3. Aktifkan plugin Importer.
 4. Buka plugin **Importer** menggunakan palet perintah atau ikon bilah alat.
 5. Di bagian **Format file** pilih **Notion (API)**
-6. Di bagian **API token**, klik **Tautkan...** untuk menambahkan rahasia baru. Untuk **ID**, beri nama seperti `notion`, dan untuk **Rahasia** tempel **Internal Integration Secret** Anda dari Notion.
+6. Di bagian **API token**, klik **Tautkan...** untuk menambahkan rahasia baru. Untuk **ID**, beri nama seperti `notion`, dan untuk **Rahasia** tempel **Access token** Anda dari Notion.
 7. Klik **Muat** untuk memilih database dan halaman yang ingin Anda impor.
 8. Tinjau dan ubah opsi impor.
 9. Pilih **Impor** dan tunggu hingga impor selesai
@@ -82,7 +82,7 @@ Impor file adalah cara alternatif untuk mengimpor data Notion Anda. Metode ini t
 
 Untuk mempersiapkan data Anda untuk impor, Anda perlu mengekspor seluruh ruang kerja menggunakan format ekspor HTML Notion. Kami menyarankan agar Anda tidak menggunakan ekspor Markdown Notion karena mengabaikan data penting. Anda harus memiliki akses admin ke ruang kerja Notion untuk mengekspor semua konten ruang kerja.
 
-1. Buka **[[Pengaturan]]** di bagian atas bilah samping Notion.
+1. Buka **Settings** di bagian atas bilah samping Notion.
 2. Di bagian **Workspace** pilih **General**.
 3. Temukan dan pilih **Export all workspace content**.
 4. Di bagian **Export format** pilih **HTML**.

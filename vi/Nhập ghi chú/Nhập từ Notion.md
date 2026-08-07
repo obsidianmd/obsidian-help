@@ -10,9 +10,9 @@ Obsidian cung cấp hai cách để nhập dữ liệu Notion của bạn:
 
 ## Nhập qua API
 
-### Tạo token tích hợp Notion API
+### Tạo token truy cập Notion API
 
-Để truy cập dữ liệu Notion của bạn qua API, bạn cần một token tích hợp. Bước này mất khoảng 2 phút để hoàn thành.
+Để truy cập dữ liệu Notion của bạn qua API, bạn cần một token truy cập. Bước này mất khoảng hai phút để hoàn thành.
 
 Token là một chuỗi dài các số và chữ cái thường bắt đầu bằng `ntn_...` cho phép bạn tải xuống dữ liệu từ Notion.
 
@@ -49,7 +49,7 @@ Bạn sẽ cần plugin [[Trình nhập|Importer]] chính thức của Obsidian,
 3. Kích hoạt plugin Importer.
 4. Mở plugin **Importer** bằng bảng lệnh hoặc biểu tượng thanh công cụ.
 5. Trong **Định dạng tệp** chọn **Notion (API)**
-6. Trong **API token**, nhấp **Liên kết...** để thêm một bí mật mới. Với **ID**, đặt tên như `notion`, và với **Bí mật** dán **Internal Integration Secret** từ Notion của bạn.
+6. Trong **API token**, nhấp **Liên kết...** để thêm một bí mật mới. Với **ID**, đặt tên như `notion`, và với **Bí mật** dán **Access token** từ Notion của bạn.
 7. Nhấp **Tải** để chọn các databases và trang bạn muốn nhập.
 8. Xem lại và chỉnh sửa các tùy chọn nhập.
 9. Chọn **Nhập** và đợi cho đến khi quá trình nhập hoàn tất
@@ -82,7 +82,7 @@ Nhập qua tệp là cách thay thế để nhập dữ liệu Notion của bạ
 
 Để chuẩn bị dữ liệu cho việc nhập, bạn cần xuất toàn bộ không gian làm việc bằng định dạng xuất HTML của Notion. Chúng tôi khuyến nghị bạn không sử dụng xuất Markdown của Notion vì nó bỏ sót dữ liệu quan trọng. Bạn phải có quyền quản trị viên đối với không gian làm việc Notion để xuất tất cả nội dung không gian làm việc.
 
-1. Đi tới **[[Cài đặt]]** ở đầu thanh bên Notion.
+1. Đi tới **Settings** ở đầu thanh bên Notion.
 2. Trong **Workspace** chọn **General**.
 3. Tìm và chọn **Export all workspace content**.
 4. Trong **Export format** chọn **HTML**.

@@ -31,6 +31,7 @@ Jeśli nie widzisz żadnej treści w Obsidian po kliknięciu **Zapisz w Obsidian
 
 - Upewnij się, że protokół [[Obsidian URI]] jest [[Obsidian URI#Rejestrowanie Obsidian URI|zarejestrowany]].
 - Jeśli używasz Firefoksa, może być konieczne [zarejestrowanie go w ustawieniach przeglądarki](https://kb.mozillazine.org/Register_protocol).
+- Jeśli używasz Flatpak, może być konieczne zaktualizowanie wartości `x-scheme-handler/obsidian` znajdującej się w pliku `.config/mimeapps.list` z `obsidian.desktop` na `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian się otwiera, ale zapisywana jest tylko nazwa pliku
 

@@ -31,6 +31,7 @@ Hvis du ikke ser noget indhold i Obsidian, når du klikker **Tilføj til Obsidia
 
 - Sørg for, at [[Obsidian URI]]-protokollen [[Obsidian URI#Register Obsidian URI|er registreret]].
 - Hvis du bruger Firefox, skal du muligvis [registrere den i browserindstillingerne](https://kb.mozillazine.org/Register_protocol).
+- Hvis du bruger Flatpak, skal du muligvis opdatere værdien `x-scheme-handler/obsidian` i din `.config/mimeapps.list` fra `obsidian.desktop` til `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian åbner, men kun filnavnet gemmes
 

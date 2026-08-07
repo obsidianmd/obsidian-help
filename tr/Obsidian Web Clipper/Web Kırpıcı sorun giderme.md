@@ -31,6 +31,7 @@ Web Kırpıcı'da Defuddle'ı atlamak için aşağıdaki yöntemleri kullanın:
 
 - [[Obsidian URI]] protokolünün [[Obsidian URI#Obsidian URI'yi kaydetme|kayıtlı olduğundan]] emin olun.
 - Firefox kullanıyorsanız [tarayıcı ayarlarından kaydetmeniz](https://kb.mozillazine.org/Register_protocol) gerekebilir.
+- Flatpak kullanıyorsanız, `.config/mimeapps.list` dosyanızdaki `x-scheme-handler/obsidian` değerini `obsidian.desktop`'tan `md.obsidian.Obsidian.desktop` olarak güncellemeniz gerekebilir.
 
 #### Obsidian açılıyor ancak yalnızca dosya adı kaydediliyor
 

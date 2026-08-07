@@ -7,7 +7,7 @@ Cada taula es converteix en una carpeta de notes amb una nota per registre, més
 
 ## Crear un token d'accés personal d'Airtable
 
-Per accedir a les teves dades d'Airtable a través de l'API necessites un token d'accés personal. Aquest pas triga aproximadament 1 minut a completar.
+Per accedir a les teves dades d'Airtable a través de l'API necessites un token d'accés personal. Aquest pas triga aproximadament dos minuts a completar.
 
 El token és una cadena llarga de números i lletres que normalment comença amb `pat...` que et permetrà descarregar les teves dades d'Airtable.
 

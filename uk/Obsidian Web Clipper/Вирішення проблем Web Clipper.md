@@ -31,6 +31,7 @@ Web Clipper використовує [Defuddle](https://github.com/kepano/defudd
 
 - Переконайтеся, що протокол [[Obsidian URI]] [[Obsidian URI#Реєстрація Obsidian URI|зареєстрований]].
 - Якщо ви використовуєте Firefox, можливо, вам потрібно [зареєструвати його в налаштуваннях браузера](https://kb.mozillazine.org/Register_protocol).
+- Якщо ви використовуєте Flatpak, можливо, вам потрібно оновити значення `x-scheme-handler/obsidian` у файлі `.config/mimeapps.list` з `obsidian.desktop` на `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian відкривається, але зберігається лише назва файлу
 

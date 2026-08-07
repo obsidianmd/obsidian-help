@@ -31,6 +31,7 @@ Jika Anda tidak melihat konten apa pun di Obsidian saat Anda mengklik **Tambah k
 
 - Pastikan protokol [[Obsidian URI]] [[Obsidian URI#Daftarkan URI Obsidian|sudah terdaftar]].
 - Jika Anda menggunakan Firefox, Anda mungkin perlu [mendaftarkannya di pengaturan browser](https://kb.mozillazine.org/Register_protocol).
+- Jika Anda menggunakan Flatpak, Anda mungkin perlu memperbarui nilai `x-scheme-handler/obsidian` yang terdapat di `.config/mimeapps.list` Anda dari `obsidian.desktop` menjadi `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian terbuka tetapi hanya nama file yang tersimpan
 

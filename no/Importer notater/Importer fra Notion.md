@@ -10,9 +10,9 @@ Obsidian tilbyr to måter å importere Notion-dataene dine på:
 
 ## API-import
 
-### Opprett et Notion API-integrasjonstoken
+### Opprett et Notion API-tilgangstoken
 
-For å få tilgang til Notion-dataene dine via API-et trenger du et integrasjonstoken. Dette trinnet tar omtrent 2 minutter å fullføre.
+For å få tilgang til Notion-dataene dine via API-et trenger du et tilgangstoken. Dette trinnet tar omtrent to minutter å fullføre.
 
 Tokenet er en lang streng med tall og bokstaver som vanligvis starter med `ntn_...` som lar deg laste ned dataene dine fra Notion.
 
@@ -49,7 +49,7 @@ Du trenger det offisielle Obsidian [[Importer]]-tillegget, som du kan [installer
 3. Aktiver Importer-tillegget.
 4. Åpne **Importer**-tillegget via kommandopaletten eller verktøylinje-ikonet.
 5. Under **File format** velg **Notion (API)**
-6. Under **API token**, klikk **Koble...** for å legge til en ny hemmelighet. For **ID** gir du den et navn som `notion`, og for **Hemmelighet** limer du inn din **Internal Integration Secret** fra Notion.
+6. Under **API token**, klikk **Koble...** for å legge til en ny hemmelighet. For **ID** gir du den et navn som `notion`, og for **Hemmelighet** limer du inn ditt **Access token** fra Notion.
 7. Klikk **Last inn** for å velge databasene og sidene du vil importere.
 8. Gjennomgå og rediger importalternativene.
 9. Velg **Importer** og vent til importen er fullført
@@ -82,7 +82,7 @@ Filimport er en alternativ måte å importere Notion-dataene dine på. Denne met
 
 For å klargjøre dataene dine for import, må du eksportere hele arbeidsområdet ditt ved å bruke Notions HTML-eksportformat. Vi anbefaler at du ikke bruker Notions Markdown-eksport da den utelater viktige data. Du må ha administratortilgang til Notion-arbeidsområdet for å eksportere alt innhold i arbeidsområdet.
 
-1. Gå til **[[Innstillinger]]** øverst i Notion-sidefeltet.
+1. Gå til **Innstillinger** øverst i Notion-sidefeltet.
 2. Under **Workspace** velg **General**.
 3. Finn og velg **Export all workspace content**.
 4. Under **Export format** velg **HTML**.

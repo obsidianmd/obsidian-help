@@ -7,7 +7,7 @@ Hver tabel bliver til en mappe med noter med én note per post, plus en [[Introd
 
 ## Opret et personligt Airtable-adgangstoken
 
-For at få adgang til dine Airtable-data via API'et har du brug for et personligt adgangstoken. Dette trin tager cirka 1 minut at gennemføre.
+For at få adgang til dine Airtable-data via API'et har du brug for et personligt adgangstoken. Dette trin tager cirka to minutter at gennemføre.
 
 Tokenet er en lang streng af tal og bogstaver, der typisk starter med `pat...`, som giver dig mulighed for at hente dine data fra Airtable.
 
