@@ -598,6 +598,26 @@ translation=Textbundle dosyalarını Obsidian'a içe aktarma
 original=No files are selected for import
 translation=İçe aktarma için dosya seçilmedi
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Airtable kişisel erişim belirteci oluşturma
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Airtable verilerinizi içe aktarma
+
+[heading.import/Import options]
+original=Import options
+translation=İçe aktarma seçenekleri
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Airtable alanlarının nasıl içe aktarılacağını yapılandırma
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Neler içe aktarılır
+
 [heading.sync-notes/Syncing methods]
 original=Syncing methods
 translation=Senkronizasyon yöntemleri
@@ -4102,26 +4122,26 @@ translation=Davranış Kuralları ihlali bildirme
 original=Contributing to Obsidian
 translation=Obsidian'a katkıda bulunma
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Airtable kişisel erişim belirteci oluşturma
+[heading.community-directory/Header]
+original=Header
+translation=Başlık
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Airtable verilerinizi içe aktarma
+[heading.community-directory/Overview]
+original=Overview
+translation=Genel Bakış
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=İçe aktarma seçenekleri
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Puan Kartı
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Airtable alanlarının nasıl içe aktarılacağını yapılandırma
+[heading.community-directory/Updates]
+original=Updates
+translation=Güncellemeler
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Neler içe aktarılır
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Kenar çubuğu
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Sınırlamalar
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Sıkça sorulan sorular

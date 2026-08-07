@@ -782,6 +782,26 @@ translation=التعامل مع مجموعات دفاتر الملاحظات
 original=More options
 translation=المزيد من الخيارات
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=إنشاء رمز وصول شخصي لـ Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=استيراد بيانات Airtable الخاصة بك
+
+[heading.import/Import options]
+original=Import options
+translation=خيارات الاستيراد
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=تهيئة كيفية استيراد حقول Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=ما الذي يتم استيراده
+
 [heading.publish/Prerequisites]
 original=Prerequisites
 translation=المتطلبات الأساسية
@@ -1430,26 +1450,26 @@ translation=الوصول السريع
 original=Rearrange and visibility
 translation=إعادة الترتيب والرؤية
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=إنشاء رمز وصول شخصي لـ Airtable
+[heading.community-directory/Header]
+original=Header
+translation=الترويسة
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=استيراد بيانات Airtable الخاصة بك
+[heading.community-directory/Overview]
+original=Overview
+translation=نظرة عامة
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=خيارات الاستيراد
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=بطاقة التقييم
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=تهيئة كيفية استيراد حقول Airtable
+[heading.community-directory/Updates]
+original=Updates
+translation=التحديثات
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=ما الذي يتم استيراده
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=الشريط الجانبي
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=القيود
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=الأسئلة الشائعة

@@ -38,7 +38,7 @@ Obsidian kan ikke på en pålidelig måde begrænse pluins til specifikke tillad
 
 ## Plugin review processen
 
-Alle fællesskabsplugins skal overholde [Obsidians udviklingspolitikker](https://docs.obsidian.md/Developer+policies). Obsidian scanner automatisk hver plugin-version for sikkerhedssårbarheder, kodekvalitetsproblemer og skadelig software. Hver plugins side i [plugin-kataloget](https://community.obsidian.md) viser resultaterne som et sikkerhedsvurderingskort.
+Alle fællesskabsplugins skal overholde [Obsidians udviklingspolitikker](https://docs.obsidian.md/Developer+policies). Obsidian scanner automatisk hver plugin-version for sikkerhedssårbarheder, kodekvalitetsproblemer og skadelig software. Hver plugins side i [plugin-kataloget](https://community.obsidian.md) viser resultaterne som et [[Fællesskabsbibliotek#Scorecard|sikkerhedsvurderingskort]].
 
 Manuelle reviews fortsætter for populære, fremhævede og markerede plugins.
 

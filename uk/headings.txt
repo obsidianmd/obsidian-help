@@ -2458,6 +2458,26 @@ translation=Імпорт файлів Textbundle в Obsidian
 original=No files are selected for import
 translation=Жоден файл не вибрано для імпорту
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Створення особистого токена доступу Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Імпорт даних з Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Параметри імпорту
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Налаштування способу імпорту полів Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Що імпортується
+
 [heading.glossary/Alias]
 original=Alias
 translation=Псевдонім
@@ -3814,26 +3834,26 @@ translation=Вирішення проблем
 original=Register Obsidian URI
 translation=Реєстрація Obsidian URI
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Створення особистого токена доступу Airtable
+[heading.community-directory/Header]
+original=Header
+translation=Заголовок
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Імпорт даних з Airtable
+[heading.community-directory/Overview]
+original=Overview
+translation=Огляд
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Параметри імпорту
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Картка оцінки
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Налаштування способу імпорту полів Airtable
+[heading.community-directory/Updates]
+original=Updates
+translation=Оновлення
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Що імпортується
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Бічна панель
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Обмеження
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Часті запитання

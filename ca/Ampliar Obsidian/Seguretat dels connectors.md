@@ -34,7 +34,7 @@ A causa de limitacions tècniques, Obsidian no pot restringir de manera fiable e
 
 ## Procés de revisió dels connectors
 
-Tots els connectors de la comunitat han de complir les [Polítiques per a desenvolupadors d'Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analitza automàticament cada versió dels connectors per detectar vulnerabilitats de seguretat, problemes de qualitat del codi i programari maliciós. La pàgina de cada connector al [directori de connectors](https://community.obsidian.md) mostra els resultats com una targeta de puntuació de seguretat.
+Tots els connectors de la comunitat han de complir les [Polítiques per a desenvolupadors d'Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analitza automàticament cada versió dels connectors per detectar vulnerabilitats de seguretat, problemes de qualitat del codi i programari maliciós. La pàgina de cada connector al [directori de connectors](https://community.obsidian.md) mostra els resultats com una [[Directori de la comunitat#Scorecard|targeta de puntuació de seguretat]].
 
 Les revisions manuals continuen per als connectors populars, destacats i marcats.
 

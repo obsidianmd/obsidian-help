@@ -636,7 +636,7 @@ translation=Nhập dữ liệu Notion qua API
 
 [heading.import/Limitations]
 original=Limitations
-translation=Hạn chế
+translation=Giới hạn
 
 [heading.import/File import]
 original=File import
@@ -661,6 +661,26 @@ translation=Xuất dữ liệu từ Roam Research
 [heading.import/Import your Roam Research data into Obsidian]
 original=Import your Roam Research data into Obsidian
 translation=Nhập dữ liệu Roam Research vào Obsidian
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Tạo mã thông báo truy cập cá nhân Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Nhập dữ liệu Airtable của bạn
+
+[heading.import/Import options]
+original=Import options
+translation=Tùy chọn nhập
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Cấu hình cách nhập các trường Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Những gì được nhập
 
 [heading.backup/Syncing is not a backup]
 original=Syncing is not a backup
@@ -4110,26 +4130,26 @@ translation=Tài liệu
 original=Community
 translation=Cộng đồng
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Tạo mã thông báo truy cập cá nhân Airtable
+[heading.community-directory/Header]
+original=Header
+translation=Phần đầu
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Nhập dữ liệu Airtable của bạn
+[heading.community-directory/Overview]
+original=Overview
+translation=Tổng quan
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Tùy chọn nhập
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Bảng điểm
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Cấu hình cách nhập các trường Airtable
+[heading.community-directory/Updates]
+original=Updates
+translation=Cập nhật
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Những gì được nhập
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Thanh bên
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Giới hạn
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Câu hỏi thường gặp

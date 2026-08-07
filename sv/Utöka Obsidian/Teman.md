@@ -8,6 +8,8 @@ Lär dig hur du ändrar utseendet och känslan av Obsidian med teman byggda av g
 1. Öppna **[[Inställningar]]**.
 2. Under **Utseende → Teman**, välj **Hantera** för att lista alla tillgängliga community-teman.
 
+Du kan också bläddra bland tillgängliga teman i din webbläsare genom att gå till [community.obsidian.md](https://community.obsidian.md). För mer information om vad ett temas listningssida visar, se [[Gemenskapskatalog]].
+
 ## Installera ett nytt tema
 
 1. Öppna **[[Inställningar]]**.

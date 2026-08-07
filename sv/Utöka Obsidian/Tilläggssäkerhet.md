@@ -34,7 +34,7 @@ På grund av tekniska begränsningar kan Obsidian inte på ett tillförlitligt s
 
 ## Granskningsprocess för tillägg
 
-Alla gemenskapstillägg måste följa [Obsidians utvecklarpolicyer](https://docs.obsidian.md/Developer+policies). Obsidian skannar automatiskt varje tilläggsversion efter säkerhetsbrister, kodkvalitetsproblem och skadlig programvara. Varje tilläggs sida i [tilläggskatalogen](https://community.obsidian.md) visar resultaten som ett säkerhetskort.
+Alla gemenskapstillägg måste följa [Obsidians utvecklarpolicyer](https://docs.obsidian.md/Developer+policies). Obsidian skannar automatiskt varje tilläggsversion efter säkerhetsbrister, kodkvalitetsproblem och skadlig programvara. Varje tilläggs sida i [tilläggskatalogen](https://community.obsidian.md) visar resultaten som ett [[Gemenskapskatalog#Scorecard|säkerhetskort]].
 
 Manuella granskningar fortsätter för populära, utvalda och flaggade tillägg.
 

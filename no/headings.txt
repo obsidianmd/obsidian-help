@@ -982,26 +982,50 @@ translation=Opprette fanegrupper
 original=Close tab groups
 translation=Lukke fanegrupper
 
-[heading.import/airtable/Create an Airtable personal access token]
+[heading.import/Create an Airtable personal access token]
 original=Create an Airtable personal access token
 translation=Opprett et personlig tilgangstoken for Airtable
 
-[heading.import/airtable/Import your Airtable data]
+[heading.import/Import your Airtable data]
 original=Import your Airtable data
 translation=Importer Airtable-dataene dine
 
-[heading.import/airtable/Import options]
+[heading.import/Import options]
 original=Import options
 translation=Importalternativer
 
-[heading.import/airtable/Configure how Airtable fields are imported]
+[heading.import/Configure how Airtable fields are imported]
 original=Configure how Airtable fields are imported
 translation=Konfigurer hvordan Airtable-felt importeres
 
-[heading.import/airtable/What gets imported]
+[heading.import/What gets imported]
 original=What gets imported
 translation=Hva som blir importert
 
-[heading.import/airtable/Limitations]
+[heading.import/Limitations]
 original=Limitations
 translation=Begrensninger
+
+[heading.community-directory/Header]
+original=Header
+translation=Topptekst
+
+[heading.community-directory/Overview]
+original=Overview
+translation=Oversikt
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Poengkort
+
+[heading.community-directory/Updates]
+original=Updates
+translation=Oppdateringer
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Sidefelt
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Ofte stilte spørsmål

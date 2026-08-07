@@ -8,6 +8,8 @@ Tìm hiểu cách thay đổi giao diện của Obsidian bằng các chủ đề
 1. Mở **[[Cài đặt]]**.
 2. Trong **Giao diện → Chủ đề**, chọn **Quản lý** để liệt kê tất cả các chủ đề cộng đồng có sẵn.
 
+Bạn cũng có thể duyệt các chủ đề có sẵn trong trình duyệt của mình bằng cách truy cập [community.obsidian.md](https://community.obsidian.md). Để biết thêm thông tin về những gì trang danh sách chủ đề hiển thị, hãy tham khảo [[Thư mục cộng đồng]].
+
 ## Cài đặt chủ đề mới
 
 1. Mở **[[Cài đặt]]**.

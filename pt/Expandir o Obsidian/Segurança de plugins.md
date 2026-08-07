@@ -34,7 +34,7 @@ Devido a limitações técnicas, o Obsidian não consegue restringir de forma fi
 
 ## Processo de revisão de plugins
 
-Todos os plugins da comunidade devem aderir às [Políticas para Programadores do Obsidian](https://docs.obsidian.md/Developer+policies). O Obsidian analisa automaticamente cada versão de plugin em busca de vulnerabilidades de segurança, problemas de qualidade de código e malware. A página de cada plugin no [diretório de plugins](https://community.obsidian.md) apresenta os resultados como um painel de segurança.
+Todos os plugins da comunidade devem aderir às [Políticas para Programadores do Obsidian](https://docs.obsidian.md/Developer+policies). O Obsidian analisa automaticamente cada versão de plugin em busca de vulnerabilidades de segurança, problemas de qualidade de código e malware. A página de cada plugin no [diretório de plugins](https://community.obsidian.md) apresenta os resultados como um [[Diretório da comunidade#Scorecard|painel de segurança]].
 
 As revisões manuais continuam para plugins populares, em destaque e sinalizados.
 

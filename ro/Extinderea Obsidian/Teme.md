@@ -3,13 +3,14 @@ permalink: themes
 aliases:
   - Themes
 ---
-
 Aflați cum să schimbați aspectul și senzația Obsidian folosind teme create de comunitate.
 
 ## Răsfoiți temele
 
 1. Deschideți **[[Setări]]**.
 2. Sub **Aspect → Teme**, selectați **Gestionează** pentru a lista toate temele comunității disponibile.
+
+De asemenea, puteți răsfoi temele disponibile în browserul dvs., accesând [community.obsidian.md](https://community.obsidian.md). Pentru mai multe informații despre ce afișează pagina de listare a unei teme, consultați [[Directorul comunității]].
 
 ## Instalați o temă nouă
 

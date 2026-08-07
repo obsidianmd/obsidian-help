@@ -2798,6 +2798,26 @@ translation=從其他應用程式和檔案格式匯入
 original=More formats
 translation=更多格式
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=建立 Airtable 個人存取權杖
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=匯入你的 Airtable 資料
+
+[heading.import/Import options]
+original=Import options
+translation=匯入選項
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=設定 Airtable 欄位的匯入方式
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=匯入的內容
+
 [heading.catalyst/Catalyst tiers]
 original=Catalyst tiers
 translation=Catalyst 等級
@@ -4106,26 +4126,26 @@ translation=巢狀標籤
 original=Tag format
 translation=標籤格式
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=建立 Airtable 個人存取權杖
+[heading.community-directory/Header]
+original=Header
+translation=頁首
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=匯入你的 Airtable 資料
+[heading.community-directory/Overview]
+original=Overview
+translation=概覽
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=匯入選項
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=評分卡
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=設定 Airtable 欄位的匯入方式
+[heading.community-directory/Updates]
+original=Updates
+translation=更新
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=匯入的內容
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=側邊欄
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=限制
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=常見問題

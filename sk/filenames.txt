@@ -82,6 +82,10 @@ translation=Obsidian CLI
 original=Community code of conduct
 translation=Kódex správania komunity
 
+[file.community-directory]
+original=Community directory
+translation=Komunitný adresár
+
 [file.community-plugins]
 original=Community plugins
 translation=Komunitné pluginy

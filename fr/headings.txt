@@ -750,6 +750,26 @@ translation=Importer des fichiers Textbundle dans Obsidian
 original=No files are selected for import
 translation=Aucun fichier n'est sélectionné pour l'importation
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Créer un jeton d'accès personnel Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Importer vos données Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Options d'importation
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configurer comment les champs Airtable sont importés
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Ce qui est importé
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Créer un lien
@@ -3986,22 +4006,26 @@ translation=Soulignement
 original=Strikethrough
 translation=Texte barré
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Créer un jeton d'accès personnel Airtable
+[heading.community-directory/Header]
+original=Header
+translation=En-tête
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Importer vos données Airtable
+[heading.community-directory/Overview]
+original=Overview
+translation=Aperçu
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Options d'importation
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Fiche d'évaluation
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Configurer comment les champs Airtable sont importés
+[heading.community-directory/Updates]
+original=Updates
+translation=Mises à jour
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Ce qui est importé
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Barre latérale
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Questions fréquentes

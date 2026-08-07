@@ -1786,6 +1786,26 @@ translation=Импорт из других приложений и формат�
 original=More formats
 translation=Другие форматы
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Создание персонального токена доступа Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Импорт данных из Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Параметры импорта
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Настройка импорта полей Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Что импортируется
+
 [heading.plugins/Install Importer]
 original=Install Importer
 translation=Установка Импортёра
@@ -4070,26 +4090,26 @@ translation=Глобальные настройки
 original=Metadata cache
 translation=Кэш метаданных
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Создание персонального токена доступа Airtable
+[heading.community-directory/Header]
+original=Header
+translation=Заголовок
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Импорт данных из Airtable
+[heading.community-directory/Overview]
+original=Overview
+translation=Обзор
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Параметры импорта
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Оценочная карта
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Настройка импорта полей Airtable
+[heading.community-directory/Updates]
+original=Updates
+translation=Обновления
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Что импортируется
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Боковая панель
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Ограничения
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Часто задаваемые вопросы

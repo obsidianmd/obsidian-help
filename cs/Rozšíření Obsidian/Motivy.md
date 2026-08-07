@@ -8,6 +8,8 @@ Naučte se, jak změnit vzhled a chování Obsidian pomocí motivů vytvořenýc
 1. Otevřete **[[Nastavení]]**.
 2. V části **Vzhled → Motivy** vyberte **Spravovat** pro zobrazení seznamu všech dostupných komunitních motivů.
 
+Dostupné motivy si můžete prohlédnout také v prohlížeči na stránce [community.obsidian.md](https://community.obsidian.md). Další informace o tom, co stránka motivu zobrazuje, najdete v části [[Komunitní adresář]].
+
 ## Instalace nového motivu
 
 1. Otevřete **[[Nastavení]]**.

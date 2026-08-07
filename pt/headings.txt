@@ -750,26 +750,50 @@ translation=Gerir plugins instalados
 original=Learn more
 translation=Saber mais
 
-[heading.import/airtable/Create an Airtable personal access token]
+[heading.import/Create an Airtable personal access token]
 original=Create an Airtable personal access token
 translation=Criar um token de acesso pessoal do Airtable
 
-[heading.import/airtable/Import your Airtable data]
+[heading.import/Import your Airtable data]
 original=Import your Airtable data
 translation=Importar os seus dados do Airtable
 
-[heading.import/airtable/Import options]
+[heading.import/Import options]
 original=Import options
 translation=Opções de importação
 
-[heading.import/airtable/Configure how Airtable fields are imported]
+[heading.import/Configure how Airtable fields are imported]
 original=Configure how Airtable fields are imported
 translation=Configurar como os campos do Airtable são importados
 
-[heading.import/airtable/What gets imported]
+[heading.import/What gets imported]
 original=What gets imported
 translation=O que é importado
 
-[heading.import/airtable/Limitations]
+[heading.import/Limitations]
 original=Limitations
 translation=Limitações
+
+[heading.community-directory/Header]
+original=Header
+translation=Cabeçalho
+
+[heading.community-directory/Overview]
+original=Overview
+translation=Visão geral
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Quadro de avaliação
+
+[heading.community-directory/Updates]
+original=Updates
+translation=Atualizações
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Barra lateral
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Perguntas frequentes

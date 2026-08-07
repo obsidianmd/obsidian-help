@@ -1566,6 +1566,26 @@ translation=Textbundle-Dateien in Obsidian importieren
 original=No files are selected for import
 translation=Keine Dateien zum Importieren ausgewählt
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Ein persönliches Airtable-Zugriffstoken erstellen
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Deine Airtable-Daten importieren
+
+[heading.import/Import options]
+original=Import options
+translation=Importoptionen
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurieren, wie Airtable-Felder importiert werden
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Was importiert wird
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Einen Link erstellen
@@ -3934,26 +3954,22 @@ translation=Richtungen
 original=Translations
 translation=Übersetzungen
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Ein persönliches Airtable-Zugriffstoken erstellen
+[heading.community-directory/Header]
+original=Header
+translation=Kopfbereich
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Deine Airtable-Daten importieren
+[heading.community-directory/Overview]
+original=Overview
+translation=Übersicht
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Importoptionen
+[heading.community-directory/Updates]
+original=Updates
+translation=Aktualisierungen
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Konfigurieren, wie Airtable-Felder importiert werden
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Seitenleiste
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Was importiert wird
-
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Einschränkungen
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Häufig gestellte Fragen

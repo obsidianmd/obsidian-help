@@ -1180,7 +1180,7 @@ translation=Impor data Notion Anda melalui API
 
 [heading.import/Limitations]
 original=Limitations
-translation=Batasan
+translation=Keterbatasan
 
 [heading.import/File import]
 original=File import
@@ -1241,6 +1241,26 @@ translation=Impor dari aplikasi dan format file lain
 [heading.import/More formats]
 original=More formats
 translation=Format lainnya
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Buat token akses personal Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Impor data Airtable Anda
+
+[heading.import/Import options]
+original=Import options
+translation=Pengaturan impor
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurasi bagaimana bidang Airtable diimpor
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Apa yang diimpor
 
 [heading.plugins/Install Importer]
 original=Install Importer
@@ -4018,26 +4038,22 @@ translation=Obsidian Sync untuk tim
 original=Security
 translation=Keamanan
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Buat token akses personal Airtable
+[heading.community-directory/Overview]
+original=Overview
+translation=Ikhtisar
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Impor data Airtable Anda
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Kartu Skor
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Pengaturan impor
+[heading.community-directory/Updates]
+original=Updates
+translation=Pembaruan
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Konfigurasi bagaimana bidang Airtable diimpor
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Bilah Samping
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Apa yang diimpor
-
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Keterbatasan
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Pertanyaan yang sering diajukan

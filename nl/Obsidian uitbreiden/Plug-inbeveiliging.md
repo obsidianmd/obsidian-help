@@ -34,7 +34,7 @@ Vanwege technische beperkingen kan Obsidian plug-ins niet betrouwbaar beperken t
 
 ## Beoordelingsproces van plug-ins
 
-Alle communityplug-ins moeten voldoen aan het [Obsidian-ontwikkelaarsbeleid](https://docs.obsidian.md/Developer+policies). Obsidian scant automatisch elke plug-inversie op beveiligingskwetsbaarheden, codekwaliteitsproblemen en malware. Op de pagina van elke plug-in in de [plug-indirectory](https://community.obsidian.md) worden de resultaten weergegeven als een veiligheidsscorekaart.
+Alle communityplug-ins moeten voldoen aan het [Obsidian-ontwikkelaarsbeleid](https://docs.obsidian.md/Developer+policies). Obsidian scant automatisch elke plug-inversie op beveiligingskwetsbaarheden, codekwaliteitsproblemen en malware. Op de pagina van elke plug-in in de [plug-indirectory](https://community.obsidian.md) worden de resultaten weergegeven als een [[Communityoverzicht#Scorecard|veiligheidsscorekaart]].
 
 Handmatige beoordelingen worden voortgezet voor populaire, uitgelichte en gemarkeerde plug-ins.
 

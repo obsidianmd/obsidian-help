@@ -34,7 +34,7 @@ Debido a limitaciones técnicas, Obsidian no puede restringir de forma fiable lo
 
 ## Proceso de revisión de complementos
 
-Todos los complementos de la comunidad deben cumplir con las [Políticas para desarrolladores de Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analiza automáticamente cada versión de los complementos en busca de vulnerabilidades de seguridad, problemas de calidad de código y malware. La página de cada complemento en el [directorio de complementos](https://community.obsidian.md) muestra los resultados como una tarjeta de puntuación de seguridad.
+Todos los complementos de la comunidad deben cumplir con las [Políticas para desarrolladores de Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analiza automáticamente cada versión de los complementos en busca de vulnerabilidades de seguridad, problemas de calidad de código y malware. La página de cada complemento en el [directorio de complementos](https://community.obsidian.md) muestra los resultados como una [[Directorio de la comunidad#Scorecard|tarjeta de puntuación de seguridad]].
 
 Las revisiones manuales continúan para los complementos populares, destacados y marcados.
 

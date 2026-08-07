@@ -34,7 +34,7 @@ Ze względu na ograniczenia techniczne Obsidian nie może w niezawodny sposób o
 
 ## Proces recenzji wtyczek
 
-Wszystkie wtyczki społeczności muszą być zgodne z [Zasadami dla deweloperów Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian automatycznie skanuje każdą wersję wtyczki pod kątem luk bezpieczeństwa, problemów z jakością kodu i złośliwego oprogramowania. Na stronie każdej wtyczki w [katalogu wtyczek](https://community.obsidian.md) wyniki są wyświetlane jako karta oceny bezpieczeństwa.
+Wszystkie wtyczki społeczności muszą być zgodne z [Zasadami dla deweloperów Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian automatycznie skanuje każdą wersję wtyczki pod kątem luk bezpieczeństwa, problemów z jakością kodu i złośliwego oprogramowania. Na stronie każdej wtyczki w [katalogu wtyczek](https://community.obsidian.md) wyniki są wyświetlane jako [[Katalog społeczności#Scorecard|karta oceny bezpieczeństwa]].
 
 Ręczne recenzje są nadal przeprowadzane dla popularnych, wyróżnionych i oznaczonych wtyczek.
 

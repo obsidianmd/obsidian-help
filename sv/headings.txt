@@ -866,26 +866,50 @@ translation=Datatyper
 original=Reference other formulas
 translation=Referera andra formler
 
-[heading.import/airtable/Create an Airtable personal access token]
+[heading.import/Create an Airtable personal access token]
 original=Create an Airtable personal access token
 translation=Skapa en personlig åtkomsttoken för Airtable
 
-[heading.import/airtable/Import your Airtable data]
+[heading.import/Import your Airtable data]
 original=Import your Airtable data
 translation=Importera dina Airtable-data
 
-[heading.import/airtable/Import options]
+[heading.import/Import options]
 original=Import options
 translation=Importalternativ
 
-[heading.import/airtable/Configure how Airtable fields are imported]
+[heading.import/Configure how Airtable fields are imported]
 original=Configure how Airtable fields are imported
 translation=Konfigurera hur Airtable-fält importeras
 
-[heading.import/airtable/What gets imported]
+[heading.import/What gets imported]
 original=What gets imported
 translation=Vad som importeras
 
-[heading.import/airtable/Limitations]
+[heading.import/Limitations]
 original=Limitations
 translation=Begränsningar
+
+[heading.community-directory/Header]
+original=Header
+translation=Sidhuvud
+
+[heading.community-directory/Overview]
+original=Overview
+translation=Översikt
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Resultatrapport
+
+[heading.community-directory/Updates]
+original=Updates
+translation=Uppdateringar
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Sidofält
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Vanliga frågor

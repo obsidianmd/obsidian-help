@@ -18,7 +18,7 @@ Aflați cum să extindeți Obsidian cu module create de comunitate. Folosiți mo
 
 Folosiți caseta de text pentru a filtra modulele după nume, autor și descriere.
 
-Puteți răsfoi de asemenea modulele disponibile în browser, accesând [community.obsidian.md](https://community.obsidian.md).
+Puteți răsfoi de asemenea modulele disponibile în browser, accesând [community.obsidian.md](https://community.obsidian.md). Pentru mai multe informații despre ce afișează pagina de listare a unui modul, consultați [[Directorul comunității]].
 
 ## Instalați un modul al comunității
 

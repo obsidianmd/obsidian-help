@@ -8,6 +8,8 @@ Aprèn a canviar l'aspecte i l'aparença d'Obsidian utilitzant temes creats per 
 1. Obre **[[Configuració]]**.
 2. A **Aparença → Temes**, selecciona **Gestionar** per llistar tots els temes comunitaris disponibles.
 
+També pots navegar pels temes disponibles al teu navegador, anant a [community.obsidian.md](https://community.obsidian.md). Per a més informació sobre el que mostra la pàgina de llistat d'un tema, consulta [[Directori de la comunitat]].
+
 ## Instal·lar un tema nou
 
 1. Obre **[[Configuració]]**.

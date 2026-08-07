@@ -1566,6 +1566,26 @@ translation=Esporta i tuoi dati da Roam Research
 original=Import your Roam Research data into Obsidian
 translation=Importa i tuoi dati di Roam Research in Obsidian
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Creare un token di accesso personale Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Importare i dati da Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Opzioni di importazione
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configurare come vengono importati i campi Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Cosa viene importato
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Creare un collegamento
@@ -4034,26 +4054,26 @@ translation=Viste collegate
 original=Save layouts
 translation=Salvare i layout
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Creare un token di accesso personale Airtable
+[heading.community-directory/Header]
+original=Header
+translation=Intestazione
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Importare i dati da Airtable
+[heading.community-directory/Overview]
+original=Overview
+translation=Panoramica
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Opzioni di importazione
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Scheda di valutazione
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Configurare come vengono importati i campi Airtable
+[heading.community-directory/Updates]
+original=Updates
+translation=Aggiornamenti
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Cosa viene importato
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Barra laterale
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Limitazioni
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Domande frequenti

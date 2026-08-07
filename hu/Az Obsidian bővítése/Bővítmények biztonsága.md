@@ -34,7 +34,7 @@ Technikai korlátok miatt az Obsidian nem tudja megbízhatóan korlátozni a bő
 
 ## Bővítmények felülvizsgálati folyamata
 
-Minden közösségi bővítménynek meg kell felelnie az [Obsidian fejlesztői irányelveknek](https://docs.obsidian.md/Developer+policies). Az Obsidian automatikusan átvizsgálja minden bővítmény minden verzióját biztonsági sebezhetőségek, kódminőségi problémák és kártevők szempontjából. Minden bővítmény oldala a [bővítménytárban](https://community.obsidian.md) megjeleníti az eredményeket egy biztonsági értékelőlapon.
+Minden közösségi bővítménynek meg kell felelnie az [Obsidian fejlesztői irányelveknek](https://docs.obsidian.md/Developer+policies). Az Obsidian automatikusan átvizsgálja minden bővítmény minden verzióját biztonsági sebezhetőségek, kódminőségi problémák és kártevők szempontjából. Minden bővítmény oldala a [bővítménytárban](https://community.obsidian.md) megjeleníti az eredményeket egy [[Közösségi könyvtár#Scorecard|biztonsági értékelőlapon]].
 
 A manuális felülvizsgálat a népszerű, kiemelt és megjelölt bővítmények esetében továbbra is folytatódik.
 

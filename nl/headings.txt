@@ -110,6 +110,30 @@ translation=Je Craft-gegevens importeren in Obsidian
 original=Troubleshooting
 translation=Probleemoplossing
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Een persoonlijk Airtable-toegangstoken aanmaken
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Je Airtable-gegevens importeren
+
+[heading.import/Import options]
+original=Import options
+translation=Importopties
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configureren hoe Airtable-velden worden geïmporteerd
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Wat er wordt geïmporteerd
+
+[heading.import/Limitations]
+original=Limitations
+translation=Beperkingen
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Een koppeling maken
@@ -1330,26 +1354,22 @@ translation=Eigenschappen voor Obsidian Publish
 original=Deprecated properties
 translation=Verouderde eigenschappen
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Een persoonlijk Airtable-toegangstoken aanmaken
+[heading.community-directory/Header]
+original=Header
+translation=Koptekst
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Je Airtable-gegevens importeren
+[heading.community-directory/Overview]
+original=Overview
+translation=Overzicht
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Importopties
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Scorekaart
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Configureren hoe Airtable-velden worden geïmporteerd
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Zijbalk
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Wat er wordt geïmporteerd
-
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Beperkingen
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Veelgestelde vragen

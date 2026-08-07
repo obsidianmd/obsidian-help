@@ -34,7 +34,7 @@ Do hạn chế kỹ thuật, Obsidian không thể giới hạn plugin một cá
 
 ## Quy trình xét duyệt plugin
 
-Tất cả plugin cộng đồng phải tuân thủ [Chính sách dành cho nhà phát triển Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian tự động quét mọi phiên bản plugin để tìm lỗ hổng bảo mật, vấn đề chất lượng mã và phần mềm độc hại. Trang của mỗi plugin trong [thư mục plugin](https://community.obsidian.md) hiển thị kết quả dưới dạng bảng điểm an toàn.
+Tất cả plugin cộng đồng phải tuân thủ [Chính sách dành cho nhà phát triển Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian tự động quét mọi phiên bản plugin để tìm lỗ hổng bảo mật, vấn đề chất lượng mã và phần mềm độc hại. Trang của mỗi plugin trong [thư mục plugin](https://community.obsidian.md) hiển thị kết quả dưới dạng [[Thư mục cộng đồng#Scorecard|bảng điểm an toàn]].
 
 Việc xét duyệt thủ công vẫn tiếp tục được thực hiện cho các plugin phổ biến, được giới thiệu và bị gắn cờ.
 

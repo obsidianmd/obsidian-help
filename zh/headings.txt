@@ -1658,6 +1658,26 @@ translation=如何从其他笔记软件或文件导入笔记
 original=More formats
 translation=更多格式
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=创建 Airtable 个人访问令牌
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=导入你的 Airtable 数据
+
+[heading.import/Import options]
+original=Import options
+translation=导入选项
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=设置 Airtable 字段的导入方式
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=导入的内容
+
 [heading.plugins/Install Importer]
 original=Install Importer
 translation=安装迁移助手
@@ -4142,26 +4162,26 @@ translation=下划线
 original=Strikethrough
 translation=删除线
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=创建 Airtable 个人访问令牌
+[heading.community-directory/Header]
+original=Header
+translation=页头
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=导入你的 Airtable 数据
+[heading.community-directory/Overview]
+original=Overview
+translation=概览
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=导入选项
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=评分卡
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=设置 Airtable 字段的导入方式
+[heading.community-directory/Updates]
+original=Updates
+translation=更新
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=导入的内容
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=侧边栏
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=限制
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=常见问题

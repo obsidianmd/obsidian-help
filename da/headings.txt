@@ -474,6 +474,26 @@ translation=Eksportér dine data fra Roam Research
 original=Import your Roam Research data into Obsidian
 translation=Importér dine Roam Research-data til Obsidian
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Opret et personligt Airtable-adgangstoken
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Importér dine Airtable-data
+
+[heading.import/Import options]
+original=Import options
+translation=Importindstillinger
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfigurer hvordan Airtable-felter importeres
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Hvad der importeres
+
 [heading.payment/Purchase a service or license]
 original=Purchase a service or license
 translation=Køb en tjeneste eller licens
@@ -1182,26 +1202,22 @@ translation=Tjenester
 original=Install Importer
 translation=Installér Importer
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Opret et personligt Airtable-adgangstoken
+[heading.community-directory/Header]
+original=Header
+translation=Overskrift
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Importér dine Airtable-data
+[heading.community-directory/Overview]
+original=Overview
+translation=Oversigt
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Importindstillinger
+[heading.community-directory/Updates]
+original=Updates
+translation=Opdateringer
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Konfigurer hvordan Airtable-felter importeres
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Sidebjælke
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Hvad der importeres
-
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Begrænsninger
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Ofte stillede spørgsmål

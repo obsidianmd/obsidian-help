@@ -2846,6 +2846,26 @@ translation=TextbundleファイルをObsidianにインポートする
 original=No files are selected for import
 translation=インポート対象のファイルが選択されない
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Airtableパーソナルアクセストークンの作成
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Airtableデータのインポート
+
+[heading.import/Import options]
+original=Import options
+translation=インポートオプション
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Airtableフィールドのインポート方法の設定
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=インポートされるもの
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=リンクを作成する
@@ -4166,26 +4186,26 @@ translation=下線
 original=Strikethrough
 translation=取り消し線
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Airtableパーソナルアクセストークンの作成
+[heading.community-directory/Header]
+original=Header
+translation=ヘッダー
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Airtableデータのインポート
+[heading.community-directory/Overview]
+original=Overview
+translation=概要
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=インポートオプション
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=スコアカード
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Airtableフィールドのインポート方法の設定
+[heading.community-directory/Updates]
+original=Updates
+translation=アップデート
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=インポートされるもの
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=サイドバー
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=制限事項
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=よくある質問

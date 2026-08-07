@@ -34,7 +34,7 @@ Teknisistä rajoituksista johtuen Obsidian ei pysty luotettavasti rajoittamaan l
 
 ## Lisäosien tarkistusprosessi
 
-Kaikkien yhteisön lisäosien on noudatettava [Obsidianin kehittäjäkäytäntöjä](https://docs.obsidian.md/Developer+policies). Obsidian skannaa automaattisesti jokaisen lisäosaversion tietoturva-aukkojen, koodin laatuongelmien ja haittaohjelmien varalta. Jokaisen lisäosan sivulla [lisäosahakemistossa](https://community.obsidian.md) näytetään tulokset turvallisuusarviointina.
+Kaikkien yhteisön lisäosien on noudatettava [Obsidianin kehittäjäkäytäntöjä](https://docs.obsidian.md/Developer+policies). Obsidian skannaa automaattisesti jokaisen lisäosaversion tietoturva-aukkojen, koodin laatuongelmien ja haittaohjelmien varalta. Jokaisen lisäosan sivulla [lisäosahakemistossa](https://community.obsidian.md) näytetään tulokset [[Yhteisöhakemisto#Scorecard|turvallisuusarviointina]].
 
 Manuaalisia tarkistuksia tehdään edelleen suosituille, esitellyille ja merkityille lisäosille.
 

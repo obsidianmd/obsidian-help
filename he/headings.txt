@@ -938,26 +938,50 @@ translation=התקנת Obsidian ב-Android
 original=Install Obsidian on iPhone and iPad
 translation=התקנת Obsidian ב-iPhone וב-iPad
 
-[heading.import/airtable/Create an Airtable personal access token]
+[heading.import/Create an Airtable personal access token]
 original=Create an Airtable personal access token
 translation=יצירת אסימון גישה אישי ב-Airtable
 
-[heading.import/airtable/Import your Airtable data]
+[heading.import/Import your Airtable data]
 original=Import your Airtable data
 translation=ייבוא נתוני Airtable
 
-[heading.import/airtable/Import options]
+[heading.import/Import options]
 original=Import options
 translation=אפשרויות ייבוא
 
-[heading.import/airtable/Configure how Airtable fields are imported]
+[heading.import/Configure how Airtable fields are imported]
 original=Configure how Airtable fields are imported
 translation=הגדרת אופן ייבוא שדות Airtable
 
-[heading.import/airtable/What gets imported]
+[heading.import/What gets imported]
 original=What gets imported
 translation=מה מיובא
 
-[heading.import/airtable/Limitations]
+[heading.import/Limitations]
 original=Limitations
 translation=מגבלות
+
+[heading.community-directory/Header]
+original=Header
+translation=כותרת עליונה
+
+[heading.community-directory/Overview]
+original=Overview
+translation=סקירה כללית
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=כרטיס ציון
+
+[heading.community-directory/Updates]
+original=Updates
+translation=עדכונים
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=סרגל צד
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=שאלות נפוצות

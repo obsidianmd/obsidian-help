@@ -34,7 +34,7 @@ Teknik sınırlamalar nedeniyle, Obsidian eklentileri belirli izinler veya eriş
 
 ## Eklenti inceleme süreci
 
-Tüm topluluk eklentileri [Obsidian Geliştirici Politikaları](https://docs.obsidian.md/Developer+policies)'na uygun olmalıdır. Obsidian, her eklenti sürümünü güvenlik açıkları, kod kalitesi sorunları ve kötü amaçlı yazılımlar için otomatik olarak tarar. [Eklenti dizinindeki](https://community.obsidian.md) her eklentinin sayfası, sonuçları bir güvenlik puan kartı olarak görüntüler.
+Tüm topluluk eklentileri [Obsidian Geliştirici Politikaları](https://docs.obsidian.md/Developer+policies)'na uygun olmalıdır. Obsidian, her eklenti sürümünü güvenlik açıkları, kod kalitesi sorunları ve kötü amaçlı yazılımlar için otomatik olarak tarar. [Eklenti dizinindeki](https://community.obsidian.md) her eklentinin sayfası, sonuçları bir [[Topluluk dizini#Scorecard|güvenlik puan kartı]] olarak görüntüler.
 
 Manuel incelemeler popüler, öne çıkan ve işaretlenen eklentiler için devam etmektedir.
 

@@ -16,7 +16,7 @@ Naučte sa rozšíriť Obsidian pomocou pluginov vytvorených komunitou. Použit
 
 Pomocou textového poľa filtrujte pluginy podľa ich názvu, autora a popisu.
 
-Dostupné pluginy si môžete prehliadať aj v prehliadači na stránke [community.obsidian.md](https://community.obsidian.md).
+Dostupné pluginy si môžete prehliadať aj v prehliadači na stránke [community.obsidian.md](https://community.obsidian.md). Viac informácií o tom, čo zobrazuje stránka s výpisom pluginu, nájdete v [[Komunitný adresár]].
 
 ## Inštalácia komunitného pluginu
 

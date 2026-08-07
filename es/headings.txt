@@ -1902,6 +1902,26 @@ translation=Importar desde otras aplicaciones y formatos de archivo
 original=More formats
 translation=Más formatos
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Crear un token de acceso personal de Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Importar tus datos de Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Opciones de importación
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configurar cómo se importan los campos de Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Qué se importa
+
 [heading.appearance/Color scheme]
 original=Color scheme
 translation=Esquema de colores
@@ -4074,26 +4094,26 @@ translation=Obsidian Sync para equipos
 original=Security
 translation=Seguridad
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Crear un token de acceso personal de Airtable
+[heading.community-directory/Header]
+original=Header
+translation=Encabezado
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Importar tus datos de Airtable
+[heading.community-directory/Overview]
+original=Overview
+translation=Vista general
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Opciones de importación
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Tarjeta de puntuación
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Configurar cómo se importan los campos de Airtable
+[heading.community-directory/Updates]
+original=Updates
+translation=Actualizaciones
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Qué se importa
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Barra lateral
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Limitaciones
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Preguntas frecuentes

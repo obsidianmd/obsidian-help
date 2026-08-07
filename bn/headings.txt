@@ -1,23 +1,47 @@
-[heading.import/airtable/Create an Airtable personal access token]
+[heading.import/Create an Airtable personal access token]
 original=Create an Airtable personal access token
 translation=একটি Airtable ব্যক্তিগত অ্যাক্সেস টোকেন তৈরি করুন
 
-[heading.import/airtable/Import your Airtable data]
+[heading.import/Import your Airtable data]
 original=Import your Airtable data
 translation=আপনার Airtable ডেটা ইম্পোর্ট করুন
 
-[heading.import/airtable/Import options]
+[heading.import/Import options]
 original=Import options
 translation=ইম্পোর্ট বিকল্পসমূহ
 
-[heading.import/airtable/Configure how Airtable fields are imported]
+[heading.import/Configure how Airtable fields are imported]
 original=Configure how Airtable fields are imported
 translation=Airtable ফিল্ডগুলো কীভাবে ইম্পোর্ট হবে তা কনফিগার করুন
 
-[heading.import/airtable/What gets imported]
+[heading.import/What gets imported]
 original=What gets imported
 translation=কী ইম্পোর্ট হয়
 
-[heading.import/airtable/Limitations]
+[heading.import/Limitations]
 original=Limitations
 translation=সীমাবদ্ধতা
+
+[heading.community-directory/Header]
+original=Header
+translation=হেডার
+
+[heading.community-directory/Overview]
+original=Overview
+translation=ওভারভিউ
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=স্কোরকার্ড
+
+[heading.community-directory/Updates]
+original=Updates
+translation=আপডেট
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=সাইডবার
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=সচরাচর জিজ্ঞাসিত প্রশ্ন

@@ -2610,6 +2610,30 @@ translation=Textbundle 파일을 Obsidian으로 들여오기
 original=No files are selected for import
 translation=들여오기할 파일이 선택되지 않음
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Airtable 개인 액세스 토큰 만들기
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Airtable 데이터 가져오기
+
+[heading.import/Import options]
+original=Import options
+translation=가져오기 옵션
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Airtable 필드 가져오기 방식 설정
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=가져오는 항목
+
+[heading.import/Limitations]
+original=Limitations
+translation=제한 사항
+
 [heading.links/Supported formats for internal links]
 original=Supported formats for internal links
 translation=내부 링크의 지원 형식
@@ -3994,26 +4018,26 @@ translation=macOS 단축키
 original=Text formatting
 translation=텍스트 서식
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Airtable 개인 액세스 토큰 만들기
+[heading.community-directory/Header]
+original=Header
+translation=헤더
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Airtable 데이터 가져오기
+[heading.community-directory/Overview]
+original=Overview
+translation=개요
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=가져오기 옵션
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=점수표
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Airtable 필드 가져오기 방식 설정
+[heading.community-directory/Updates]
+original=Updates
+translation=업데이트
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=가져오는 항목
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=사이드바
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=제한 사항
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=자주 묻는 질문

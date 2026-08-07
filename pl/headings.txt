@@ -1298,6 +1298,26 @@ translation=Importuj z innych aplikacji i formatów plików
 original=More formats
 translation=Więcej formatów
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Tworzenie osobistego tokenu dostępu Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Importowanie danych z Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Opcje importu
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Konfiguracja sposobu importowania pól Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Co jest importowane
+
 [heading.tabs/Open a new tab]
 original=Open a new tab
 translation=Otwieranie nowej karty
@@ -4106,26 +4126,26 @@ translation=Zmiana wyświetlanego tekstu łącza
 original=Preview a linked file
 translation=Podgląd powiązanego pliku
 
-[heading.import/airtable/Create an Airtable personal access token]
-original=Create an Airtable personal access token
-translation=Tworzenie osobistego tokenu dostępu Airtable
+[heading.community-directory/Header]
+original=Header
+translation=Nagłówek
 
-[heading.import/airtable/Import your Airtable data]
-original=Import your Airtable data
-translation=Importowanie danych z Airtable
+[heading.community-directory/Overview]
+original=Overview
+translation=Przegląd
 
-[heading.import/airtable/Import options]
-original=Import options
-translation=Opcje importu
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Karta oceny
 
-[heading.import/airtable/Configure how Airtable fields are imported]
-original=Configure how Airtable fields are imported
-translation=Konfiguracja sposobu importowania pól Airtable
+[heading.community-directory/Updates]
+original=Updates
+translation=Aktualizacje
 
-[heading.import/airtable/What gets imported]
-original=What gets imported
-translation=Co jest importowane
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Panel boczny
 
-[heading.import/airtable/Limitations]
-original=Limitations
-translation=Ograniczenia
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Najczęściej zadawane pytania
