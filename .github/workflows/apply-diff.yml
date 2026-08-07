@@ -126,4 +126,15 @@ jobs:
           git diff --staged --quiet && git diff --quiet && echo "No changes to commit" && exit 0
           git add .
           git commit -m "chore: apply EN diff to locales"
-          git push
+
+          # master may have moved while translation was running — rebase and retry
+          for i in 1 2 3; do
+            if git push origin HEAD:master; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push rejected — rebasing onto origin/master (attempt $i)"
+            git pull --rebase origin master
+          done
+          echo "Failed to push after 3 attempts"
+          exit 1
