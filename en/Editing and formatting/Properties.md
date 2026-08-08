@@ -198,7 +198,7 @@ Checkbox properties are either `true` or `false`. In Live Preview, this displays
 ---
 favorite: true
 reply: false
-last: # Inderminate value; often treated as false
+last: # Indeterminate value; often treated as false
 ```
 
 ### Date
