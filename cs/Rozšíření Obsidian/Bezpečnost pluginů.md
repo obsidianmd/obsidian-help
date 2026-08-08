@@ -34,7 +34,7 @@ Z technických důvodů nemůže Obsidian spolehlivě omezit pluginy na konkrét
 
 ## Proces kontroly pluginů
 
-Všechny komunitní pluginy musí dodržovat [Zásady pro vývojáře Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian automaticky skenuje každou verzi pluginu na bezpečnostní zranitelnosti, problémy s kvalitou kódu a malware. Stránka každého pluginu v [adresáři pluginů](https://community.obsidian.md) zobrazuje výsledky jako [[Komunitní adresář#Scorecard|bezpečnostní přehled]].
+Všechny komunitní pluginy musí dodržovat [Zásady pro vývojáře Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian automaticky skenuje každou verzi pluginu na bezpečnostní zranitelnosti, problémy s kvalitou kódu a malware. Stránka každého pluginu v [adresáři pluginů](https://community.obsidian.md) zobrazuje výsledky jako [[Komunitní adresář#Hodnocení|bezpečnostní přehled]].
 
 Ruční kontroly pokračují u populárních, doporučených a označených pluginů.
 

@@ -8,7 +8,6 @@ description: 'Proprietățile vă permit să organizați informații despre o no
 aliases:
   - Properties
 ---
-
 Proprietățile vă permit să organizați informații despre o notă. Proprietățile conțin date structurate, precum text, legături, date calendaristice, casete de bifare și numere. Proprietățile pot fi folosite și în combinație cu [[Module comunitare|module ale comunității]] care pot face lucruri utile cu datele dvs. structurate.
 
 ## Adăugați proprietăți la o notă

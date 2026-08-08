@@ -34,7 +34,7 @@ På grunn av tekniske begrensninger kan ikke Obsidian pålitelig begrense utvide
 
 ## Gjennomgangsprosess for utvidelser
 
-Alle community-utvidelser må overholde [Obsidians utviklerpolicyer](https://docs.obsidian.md/Developer+policies). Obsidian skanner automatisk hver utvidelsesversjon for sikkerhetssårbarheter, kodekvalitetsproblemer og skadevare. Hver utvidelsesside i [utvidelseskatalogen](https://community.obsidian.md) viser resultatene som et [[Fellesskapskatalog#Scorecard|sikkerhetsvurderingskort]].
+Alle community-utvidelser må overholde [Obsidians utviklerpolicyer](https://docs.obsidian.md/Developer+policies). Obsidian skanner automatisk hver utvidelsesversjon for sikkerhetssårbarheter, kodekvalitetsproblemer og skadevare. Hver utvidelsesside i [utvidelseskatalogen](https://community.obsidian.md) viser resultatene som et [[Fellesskapskatalog#Poengkort|sikkerhetsvurderingskort]].
 
 Manuelle gjennomganger fortsetter for populære, fremhevede og flaggede utvidelser.
 

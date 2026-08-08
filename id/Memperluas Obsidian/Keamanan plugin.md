@@ -34,7 +34,7 @@ Karena keterbatasan teknis, Obsidian tidak dapat secara andal membatasi plugin p
 
 ## Proses peninjauan plugin
 
-Semua plugin komunitas harus mematuhi [Kebijakan Pengembang Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian secara otomatis memindai setiap versi plugin untuk kerentanan keamanan, masalah kualitas kode, dan malware. Halaman setiap plugin di [direktori plugin](https://community.obsidian.md) menampilkan hasilnya sebagai [[Direktori komunitas#Scorecard|kartu skor keamanan]].
+Semua plugin komunitas harus mematuhi [Kebijakan Pengembang Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian secara otomatis memindai setiap versi plugin untuk kerentanan keamanan, masalah kualitas kode, dan malware. Halaman setiap plugin di [direktori plugin](https://community.obsidian.md) menampilkan hasilnya sebagai [[Direktori komunitas#Kartu Skor|kartu skor keamanan]].
 
 Peninjauan manual tetap dilakukan untuk plugin yang populer, direkomendasikan, dan ditandai.
 

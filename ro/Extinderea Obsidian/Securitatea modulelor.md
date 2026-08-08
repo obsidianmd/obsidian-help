@@ -36,7 +36,7 @@ Din cauza limitărilor tehnice, Obsidian nu poate restricționa în mod fiabil m
 
 ## Procesul de recenzie al modulelor
 
-Toate modulele comunității trebuie să respecte [Politicile pentru dezvoltatori Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian scanează automat fiecare versiune de modul pentru vulnerabilități de securitate, probleme de calitate a codului și programe malware. Pagina fiecărui modul din [directorul de module](https://community.obsidian.md) afișează rezultatele sub forma unui [[Directorul comunității#Scorecard|scor de siguranță]].
+Toate modulele comunității trebuie să respecte [Politicile pentru dezvoltatori Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian scanează automat fiecare versiune de modul pentru vulnerabilități de securitate, probleme de calitate a codului și programe malware. Pagina fiecărui modul din [directorul de module](https://community.obsidian.md) afișează rezultatele sub forma unui [[Directorul comunității#Fișă de evaluare|scor de siguranță]].
 
 Recenziile manuale continuă pentru modulele populare, promovate și semnalate.
 

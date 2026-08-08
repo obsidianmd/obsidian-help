@@ -35,7 +35,7 @@ En raison de limitations techniques, Obsidian ne peut pas restreindre de manièr
 
 ## Processus d'examen des modules
 
-Tous les modules complémentaires doivent respecter les [Politiques pour les développeurs Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analyse automatiquement chaque version de module à la recherche de vulnérabilités de sécurité, de problèmes de qualité du code et de logiciels malveillants. La page de chaque module dans le [répertoire des modules](https://community.obsidian.md) affiche les résultats sous forme d'un [[Répertoire communautaire#Scorecard|tableau de bord de sécurité]].
+Tous les modules complémentaires doivent respecter les [Politiques pour les développeurs Obsidian](https://docs.obsidian.md/Developer+policies). Obsidian analyse automatiquement chaque version de module à la recherche de vulnérabilités de sécurité, de problèmes de qualité du code et de logiciels malveillants. La page de chaque module dans le [répertoire des modules](https://community.obsidian.md) affiche les résultats sous forme d'un [[Répertoire communautaire#Fiche d'évaluation|tableau de bord de sécurité]].
 
 Les examens manuels se poursuivent pour les modules populaires, mis en avant et signalés.
 
