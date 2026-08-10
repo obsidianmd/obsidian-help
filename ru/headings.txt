@@ -4100,7 +4100,7 @@ translation=Обзор
 
 [heading.community-directory/Scorecard]
 original=Scorecard
-translation=Оценочная карта
+translation=Сводка оценок
 
 [heading.community-directory/Updates]
 original=Updates
