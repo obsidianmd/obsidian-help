@@ -5,10 +5,10 @@ Met Obsidian kun je eenvoudig je notities migreren vanuit Notion met behulp van 
 
 Obsidian biedt twee manieren om je Notion-gegevens te importeren:
 
-1. **API-import** behoudt je volledige werkruimte inclusief Databases en formules die worden geconverteerd naar [[Introductie tot Bases|Bases]], maar vereist een Notion-integratietoken en een internetverbinding.
-2. **Bestandsimport** behoudt geen Databases, maar vereist geen API-token of internetverbinding.
+1. **Notion-account (aanbevolen)** maakt rechtstreeks verbinding met je werkruimte en laat je Databases en formules behouden die worden geconverteerd naar [[Introductie tot Bases|Bases]]. Vereist een Notion-integratietoken en een internetverbinding.
+2. **Bestandsimport** gebruikt de `.zip`-exportbestanden van Notion. Behoudt geen Databases, maar vereist geen API-token of internetverbinding.
 
-## API-import
+## Importeren vanuit je Notion-account
 
 ### Een Notion API-toegangstoken aanmaken
 
@@ -74,7 +74,7 @@ Daarnaast zal Importer de volgende wijzigingen aanbrengen:
 - Pagina's zonder subpagina's of databases worden geïmporteerd als `[bestandsnaam].md` in plaats van `[bestandsnaam]/[bestandsnaam].md`.
 - Databases worden altijd weergegeven als mappen met de naam `[databasenaam]` met daarin een `[databasenaam].base`-bestand.
 
-## Bestandsimport
+## Notion-bestanden importeren (.zip)
 
 Bestandsimport is een alternatieve manier om je Notion-gegevens te importeren. Deze methode behoudt geen Databases, maar vereist geen API-token of internetverbinding.
 

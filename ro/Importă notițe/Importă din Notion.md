@@ -7,10 +7,10 @@ Obsidian îți permite să îți migrezi cu ușurință notele din Notion folosi
 
 Obsidian oferă două moduri de a-ți importa datele din Notion:
 
-1. **Importul prin API** păstrează întregul tău spațiu de lucru, inclusiv bazele de date și formulele, care sunt convertite în [[Introducere în Baze|Baze]], dar necesită un token de integrare Notion și o conexiune la internet.
-2. **Importul de fișiere** nu păstrează bazele de date, dar nu necesită un token de API sau o conexiune la internet.
+1. **Contul Notion (recomandat)** se conectează direct la spațiul tău de lucru și îți permite să păstrezi bazele de date și formulele, care sunt convertite în [[Introducere în Baze|Baze]]. Necesită un token de integrare Notion și o conexiune la internet.
+2. **Importul de fișiere** folosește fișierele de export `.zip` din Notion. Nu păstrează bazele de date, dar nu necesită un token de API sau o conexiune la internet.
 
-## Importul prin API
+## Importul din contul tău Notion
 
 ### Creează un token de acces API Notion
 
@@ -76,7 +76,7 @@ Din cauza limitărilor API-ului Notion, unele date nu sunt disponibile sau nu po
 - Paginile fără pagini sau baze de date subordonate vor fi importate ca `[nume-fișier].md` în loc de `[nume-fișier]/[nume-fișier].md`.
 - Bazele de date sunt întotdeauna reprezentate ca directoare numite `[nume bază de date]`, cu un fișier `[nume bază de date].base` în interior.
 
-## Importul de fișiere
+## Importul fișierelor Notion (.zip)
 
 Importul de fișiere este o metodă alternativă de a-ți importa datele din Notion. Această metodă nu păstrează bazele de date, dar nu necesită un token de API sau o conexiune la internet.
 

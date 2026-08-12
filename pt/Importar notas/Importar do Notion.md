@@ -5,10 +5,10 @@ O Obsidian permite-lhe migrar facilmente as suas notas do Notion utilizando o [[
 
 O Obsidian oferece duas formas de importar os seus dados do Notion:
 
-1. **Importação via API** preserva toda a sua área de trabalho, incluindo Bases de Dados e fórmulas que são convertidas para [[Introdução ao Bases|Bases]], mas requer um token de integração do Notion e uma ligação à internet.
-2. **Importação de ficheiros** não preserva Bases de Dados, mas não requer um token de API nem ligação à internet.
+1. **Conta Notion (recomendado)** liga-se diretamente à sua área de trabalho e permite preservar Bases de Dados e fórmulas que são convertidas para [[Introdução ao Bases|Bases]]. Requer um token de integração do Notion e uma ligação à internet.
+2. **Importação de ficheiros** utiliza os ficheiros de exportação `.zip` do Notion. Não preserva Bases de Dados, mas não requer um token de API nem ligação à internet.
 
-## Importação via API
+## Importar da sua conta Notion
 
 ### Criar um token de acesso da API do Notion
 
@@ -74,7 +74,7 @@ Adicionalmente, o Importador fará as seguintes alterações:
 - Páginas sem páginas filhas ou bases de dados serão importadas como `[nome do ficheiro].md` em vez de `[nome do ficheiro]/[nome do ficheiro].md`.
 - As bases de dados são sempre representadas como pastas com o nome `[nome da base de dados]` com um ficheiro `[nome da base de dados].base` no interior.
 
-## Importação de ficheiros
+## Importar ficheiros do Notion (.zip)
 
 A importação de ficheiros é uma forma alternativa de importar os seus dados do Notion. Este método não preserva Bases de Dados, mas não requer um token de API nem ligação à internet.
 

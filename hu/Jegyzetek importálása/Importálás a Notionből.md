@@ -5,10 +5,10 @@ Az Obsidian lehetővé teszi, hogy könnyedén átköltöztesd jegyzeteidet a No
 
 Az Obsidian két módszert kínál a Notion adataid importálására:
 
-1. Az **API importálás** megőrzi a teljes munkaterületedet, beleértve az adatbázisokat és képleteket, amelyek [[Bevezetés a Bázisokba|Bázisokká]] konvertálódnak, de Notion integrációs tokent és internetkapcsolatot igényel.
-2. A **fájl importálás** nem őrzi meg az adatbázisokat, de nem igényel API tokent vagy internetkapcsolatot.
+1. A **Notion fiók (ajánlott)** közvetlenül csatlakozik a munkaterületedhez, és lehetővé teszi az adatbázisok és képletek megőrzését, amelyek [[Bevezetés a Bázisokba|Bázisokká]] konvertálódnak. Notion integrációs tokent és internetkapcsolatot igényel.
+2. A **fájl importálás** a Notion `.zip` exportfájljait használja. Nem őrzi meg az adatbázisokat, de nem igényel API tokent vagy internetkapcsolatot.
 
-## API importálás
+## Importálás a Notion fiókodból
 
 ### Notion API hozzáférési token létrehozása
 
@@ -74,7 +74,7 @@ Ezenkívül az Importáló a következő módosításokat végzi:
 - Az aloldalak vagy adatbázisok nélküli oldalak `[fájlnév].md` formátumban kerülnek importálásra a `[fájlnév]/[fájlnév].md` helyett.
 - Az adatbázisok mindig `[adatbázis neve]` nevű mappákként jelennek meg, amelyekben egy `[adatbázis neve].base` fájl található.
 
-## Fájl importálás
+## Notion fájlok importálása (.zip)
 
 A fájl importálás egy alternatív módszer a Notion adataid importálására. Ez a módszer nem őrzi meg az adatbázisokat, de nem igényel API tokent vagy internetkapcsolatot.
 

@@ -5,10 +5,10 @@ Obsidian umožňuje snadno migrovat vaše poznámky z Notion pomocí [[Importér
 
 Obsidian nabízí dva způsoby importu dat z Notion:
 
-1. **Import přes API** zachovává celý váš pracovní prostor včetně databází a vzorců, které se převedou na [[Úvod do Základen|Základny]], ale vyžaduje integrační token Notion a připojení k internetu.
-2. **Import souboru** nezachovává databáze, ale nevyžaduje API token ani připojení k internetu.
+1. **Účet Notion (doporučeno)** se připojí přímo k vašemu pracovnímu prostoru a umožní zachovat databáze a vzorce, které se převedou na [[Úvod do Základen|Základny]]. Vyžaduje integrační token Notion a připojení k internetu.
+2. **Import souboru** používá exportní soubory `.zip` z Notion. Nezachovává databáze, ale nevyžaduje API token ani připojení k internetu.
 
-## Import přes API
+## Import z vašeho účtu Notion
 
 ### Vytvoření přístupového tokenu Notion API
 
@@ -74,7 +74,7 @@ Navíc Importér provede následující změny:
 - Stránky bez podřízených stránek nebo databází budou importovány jako `[název souboru].md` místo `[název souboru]/[název souboru].md`.
 - Databáze jsou vždy reprezentovány jako složky pojmenované `[název databáze]` se souborem `[název databáze].base` uvnitř.
 
-## Import souboru
+## Import souborů z Notion (.zip)
 
 Import souboru je alternativní způsob importu dat z Notion. Tato metoda nezachovává databáze, ale nevyžaduje API token ani připojení k internetu.
 

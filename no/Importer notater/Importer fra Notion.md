@@ -5,10 +5,10 @@ Obsidian lar deg enkelt migrere notatene dine fra Notion ved hjelp av [[Importer
 
 Obsidian tilbyr to måter å importere Notion-dataene dine på:
 
-1. **API-import** bevarer hele arbeidsområdet ditt, inkludert databaser og formler som konverteres til [[Introduksjon til Bases|Bases]], men krever et Notion-integrasjonstoken og internettforbindelse.
-2. **Filimport** bevarer ikke databaser, men krever ikke et API-token eller internettforbindelse.
+1. **Notion-konto (anbefalt)** kobler direkte til arbeidsområdet ditt og lar deg bevare databaser og formler som konverteres til [[Introduksjon til Bases|Bases]]. Krever et Notion-integrasjonstoken og internettforbindelse.
+2. **Filimport** bruker Notions `.zip`-eksportfiler. Bevarer ikke databaser, men krever ikke et API-token eller internettforbindelse.
 
-## API-import
+## Importer fra Notion-kontoen din
 
 ### Opprett et Notion API-tilgangstoken
 
@@ -74,7 +74,7 @@ I tillegg vil Importer gjøre følgende endringer:
 - Sider uten undersider eller databaser importeres som `[filnavn].md` i stedet for `[filnavn]/[filnavn].md`.
 - Databaser representeres alltid som mapper kalt `[databasenavn]` med en `[databasenavn].base`-fil inni.
 
-## Filimport
+## Importer Notion-filer (.zip)
 
 Filimport er en alternativ måte å importere Notion-dataene dine på. Denne metoden bevarer ikke databaser, men krever ikke et API-token eller internettforbindelse.
 

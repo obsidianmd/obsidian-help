@@ -6,10 +6,10 @@ Obsidian vous permet de migrer facilement vos notes depuis Notion en utilisant l
 
 Obsidian propose deux façons d'importer vos données Notion :
 
-1. **L'import par API** préserve l'ensemble de votre espace de travail, y compris les bases de données et les formules qui sont converties en [[Introduction aux Bases|Bases]], mais nécessite un jeton d'intégration Notion et une connexion internet.
-2. **L'import par fichier** ne préserve pas les bases de données mais ne nécessite ni jeton API ni connexion internet.
+1. **Compte Notion (recommandé)** se connecte directement à votre espace de travail et vous permet de préserver les bases de données et les formules qui sont converties en [[Introduction aux Bases|Bases]]. Nécessite un jeton d'intégration Notion et une connexion internet.
+2. **L'import par fichier** utilise les fichiers d'export `.zip` de Notion. Ne préserve pas les bases de données mais ne nécessite ni jeton API ni connexion internet.
 
-## Import par API
+## Importer depuis votre compte Notion
 
 ### Créer un jeton d'accès API Notion
 
@@ -75,7 +75,7 @@ De plus, Importer effectuera les modifications suivantes :
 - Les pages sans pages enfants ni bases de données seront importées sous la forme `[nom_du_fichier].md` au lieu de `[nom_du_fichier]/[nom_du_fichier].md`.
 - Les bases de données sont toujours représentées sous forme de dossiers nommés `[nom de la base de données]` avec un fichier `[nom de la base de données].base` à l'intérieur.
 
-## Import par fichier
+## Importer des fichiers Notion (.zip)
 
 L'import par fichier est une méthode alternative pour importer vos données Notion. Cette méthode ne préserve pas les bases de données mais ne nécessite ni jeton API ni connexion internet.
 

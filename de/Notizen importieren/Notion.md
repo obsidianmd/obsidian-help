@@ -5,10 +5,10 @@ Obsidian ermöglicht es dir, deine Notizen einfach von Notion zu migrieren, inde
 
 Obsidian bietet zwei Möglichkeiten, deine Notion-Daten zu importieren:
 
-1. **API-Import** bewahrt deinen gesamten Workspace einschließlich Datenbanken und Formeln, die in [[Einführung in Bases|Basen]] konvertiert werden, erfordert jedoch ein Notion-Integrationstoken und eine Internetverbindung.
-2. **Datei-Import** bewahrt keine Datenbanken, erfordert aber kein API-Token und keine Internetverbindung.
+1. **Notion-Konto (empfohlen)** verbindet sich direkt mit deinem Workspace und ermöglicht es, Datenbanken und Formeln zu bewahren, die in [[Einführung in Bases|Basen]] konvertiert werden. Erfordert ein Notion-Integrationstoken und eine Internetverbindung.
+2. **Datei-Import** verwendet die `.zip`-Exportdateien von Notion. Bewahrt keine Datenbanken, erfordert aber kein API-Token und keine Internetverbindung.
 
-## API-Import
+## Import von deinem Notion-Konto
 
 ### Ein Notion-API-Zugriffstoken erstellen
 
@@ -74,7 +74,7 @@ Zusätzlich nimmt das Importprogramm folgende Änderungen vor:
 - Seiten ohne Unterseiten oder Datenbanken werden als `[Dateiname].md` statt `[Dateiname]/[Dateiname].md` importiert.
 - Datenbanken werden immer als Ordner mit dem Namen `[Datenbankname]` mit einer `[Datenbankname].base`-Datei darin dargestellt.
 
-## Datei-Import
+## Notion-Dateien importieren (.zip)
 
 Der Datei-Import ist eine alternative Möglichkeit, deine Notion-Daten zu importieren. Diese Methode bewahrt keine Datenbanken, erfordert aber kein API-Token und keine Internetverbindung.
 

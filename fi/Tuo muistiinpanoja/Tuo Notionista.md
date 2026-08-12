@@ -5,10 +5,10 @@ Obsidian mahdollistaa muistiinpanojesi helpon siirtämisen Notionista [[Tuontity
 
 Obsidian tarjoaa kaksi tapaa tuoda Notion-tietosi:
 
-1. **API-tuonti** säilyttää koko työtilasi, mukaan lukien tietokannat ja kaavat, jotka muunnetaan [[Johdanto kantoihin|kannoiksi]], mutta vaatii Notion-integraatiotunnisteen ja internetyhteyden.
-2. **Tiedostotuonti** ei säilytä tietokantoja, mutta ei vaadi API-tunnistetta tai internetyhteyttä.
+1. **Notion-tili (suositeltu)** yhdistää suoraan työtilaan ja säilyttää tietokannat ja kaavat, jotka muunnetaan [[Johdanto kantoihin|kannoiksi]]. Vaatii Notion-integraatiotunnisteen ja internetyhteyden.
+2. **Tiedostotuonti** käyttää Notionin `.zip`-vientitiedostoja. Ei säilytä tietokantoja, mutta ei vaadi API-tunnistetta tai internetyhteyttä.
 
-## API-tuonti
+## Tuonti Notion-tililtä
 
 ### Notion API -käyttötunnisteen luominen
 
@@ -74,7 +74,7 @@ Lisäksi Tuontityökalu tekee seuraavat muutokset:
 - Sivut, joilla ei ole alasivuja tai tietokantoja, tuodaan muodossa `[tiedostonimi].md` eikä `[tiedostonimi]/[tiedostonimi].md`.
 - Tietokannat esitetään aina kansioina nimellä `[tietokannan nimi]`, joiden sisällä on `[tietokannan nimi].base`-tiedosto.
 
-## Tiedostotuonti
+## Notion-tiedostojen tuominen (.zip)
 
 Tiedostotuonti on vaihtoehtoinen tapa tuoda Notion-tietosi. Tämä menetelmä ei säilytä tietokantoja, mutta ei vaadi API-tunnistetta tai internetyhteyttä.
 

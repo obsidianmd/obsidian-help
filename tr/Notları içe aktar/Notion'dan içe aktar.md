@@ -5,10 +5,10 @@ Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notların
 
 Obsidian, Notion verilerinizi içe aktarmak için iki yol sunar:
 
-1. **API ile içe aktarma**, Veritabanları ve formüller dahil tüm çalışma alanınızı korur ve bunları [[Tabanlara giriş|Tabanlar]]'a dönüştürür, ancak bir Notion entegrasyon belirteci ve internet bağlantısı gerektirir.
-2. **Dosya ile içe aktarma**, Veritabanlarını korumaz ancak bir API belirteci veya internet bağlantısı gerektirmez.
+1. **Notion hesabı (önerilen)** doğrudan çalışma alanınıza bağlanır ve Veritabanları ile formülleri koruyarak bunları [[Tabanlara giriş|Tabanlar]]'a dönüştürmenizi sağlar. Bir Notion entegrasyon belirteci ve internet bağlantısı gerektirir.
+2. **Dosya ile içe aktarma**, Notion'ın `.zip` dışa aktarma dosyalarını kullanır. Veritabanlarını korumaz ancak bir API belirteci veya internet bağlantısı gerektirmez.
 
-## API ile içe aktarma
+## Notion hesabınızdan içe aktarma
 
 ### Notion API erişim belirteci oluşturma
 
@@ -74,7 +74,7 @@ Ek olarak, İçe Aktarıcı şu değişiklikleri yapacaktır:
 - Alt sayfaları veya veritabanları olmayan sayfalar `[dosyaadı]/[dosyaadı].md` yerine `[dosyaadı].md` olarak içe aktarılır.
 - Veritabanları her zaman `[veritabanı adı]` adlı klasörler olarak temsil edilir ve içlerinde bir `[veritabanı adı].base` dosyası bulunur.
 
-## Dosya ile içe aktarma
+## Notion dosyalarını içe aktarma (.zip)
 
 Dosya ile içe aktarma, Notion verilerinizi içe aktarmanın alternatif bir yoludur. Bu yöntem Veritabanlarını korumaz ancak bir API belirteci veya internet bağlantısı gerektirmez.
 

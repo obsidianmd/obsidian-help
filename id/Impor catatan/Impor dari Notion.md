@@ -5,10 +5,10 @@ Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Notion menggun
 
 Obsidian menawarkan dua cara untuk mengimpor data Notion Anda:
 
-1. **Impor API** mempertahankan seluruh ruang kerja Anda termasuk Database dan rumus yang dikonversi menjadi [[Pengenalan Basis|Basis]], tetapi memerlukan token integrasi Notion dan koneksi internet.
-2. **Impor file** tidak mempertahankan Database tetapi tidak memerlukan token API atau koneksi internet.
+1. **Akun Notion (direkomendasikan)** terhubung langsung ke ruang kerja Anda dan memungkinkan Anda mempertahankan Database dan rumus yang dikonversi menjadi [[Pengenalan Basis|Basis]]. Memerlukan token integrasi Notion dan koneksi internet.
+2. **Impor file** menggunakan file ekspor `.zip` dari Notion. Tidak mempertahankan Database tetapi tidak memerlukan token API atau koneksi internet.
 
-## Impor API
+## Impor dari akun Notion Anda
 
 ### Membuat token akses API Notion
 
@@ -74,7 +74,7 @@ Selain itu, Importer akan melakukan perubahan berikut:
 - Halaman tanpa subhalaman atau database akan diimpor sebagai `[namafile].md` alih-alih `[namafile]/[namafile].md`.
 - Database selalu direpresentasikan sebagai folder bernama `[nama database]` dengan file `[nama database].base` di dalamnya.
 
-## Impor file
+## Impor file Notion (.zip)
 
 Impor file adalah cara alternatif untuk mengimpor data Notion Anda. Metode ini tidak mempertahankan Database tetapi tidak memerlukan token API atau koneksi internet.
 

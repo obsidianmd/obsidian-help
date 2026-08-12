@@ -5,10 +5,10 @@ Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Notion bằng [[Tr
 
 Obsidian cung cấp hai cách để nhập dữ liệu Notion của bạn:
 
-1. **Nhập qua API** bảo toàn toàn bộ không gian làm việc của bạn bao gồm Databases và công thức được chuyển đổi thành [[Giới thiệu về Cơ sở|Cơ sở]], nhưng yêu cầu token tích hợp Notion và kết nối internet.
-2. **Nhập qua tệp** không bảo toàn Databases nhưng không yêu cầu token API hoặc kết nối internet.
+1. **Tài khoản Notion (khuyến nghị)** kết nối trực tiếp với không gian làm việc của bạn và cho phép bạn bảo toàn Databases và công thức được chuyển đổi thành [[Giới thiệu về Cơ sở|Cơ sở]]. Yêu cầu token tích hợp Notion và kết nối internet.
+2. **Nhập qua tệp** sử dụng các tệp xuất `.zip` của Notion. Không bảo toàn Databases nhưng không yêu cầu token API hoặc kết nối internet.
 
-## Nhập qua API
+## Nhập từ tài khoản Notion của bạn
 
 ### Tạo token truy cập Notion API
 
@@ -74,7 +74,7 @@ Ngoài ra, Importer sẽ thực hiện các thay đổi sau:
 - Các trang không có trang con hoặc databases sẽ được nhập dưới dạng `[tên tệp].md` thay vì `[tên tệp]/[tên tệp].md`.
 - Databases luôn được biểu diễn dưới dạng thư mục có tên `[tên database]` với tệp `[tên database].base` bên trong.
 
-## Nhập qua tệp
+## Nhập tệp Notion (.zip)
 
 Nhập qua tệp là cách thay thế để nhập dữ liệu Notion của bạn. Phương pháp này không bảo toàn Databases nhưng không yêu cầu token API hoặc kết nối internet.
 

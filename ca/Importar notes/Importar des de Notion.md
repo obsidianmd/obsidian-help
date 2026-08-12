@@ -5,10 +5,10 @@ Obsidian et permet migrar fàcilment les teves notes des de Notion utilitzant el
 
 Obsidian ofereix dues maneres d'importar les teves dades de Notion:
 
-1. **Importació per API** conserva tot el teu espai de treball incloent-hi bases de dades i fórmules que es converteixen a [[Introducció a Bases|Bases]], però requereix un token d'integració de Notion i una connexió a internet.
-2. **Importació per fitxer** no conserva les bases de dades però no requereix un token d'API ni connexió a internet.
+1. **Compte de Notion (recomanat)** es connecta directament al teu espai de treball i et permet conservar bases de dades i fórmules que es converteixen a [[Introducció a Bases|Bases]]. Requereix un token d'integració de Notion i una connexió a internet.
+2. **Importació per fitxer** utilitza els fitxers d'exportació `.zip` de Notion. No conserva les bases de dades però no requereix un token d'API ni connexió a internet.
 
-## Importació per API
+## Importar des del teu compte de Notion
 
 ### Crear un token d'accés a l'API de Notion
 
@@ -74,7 +74,7 @@ A més, l'Importador farà els canvis següents:
 - Les pàgines sense pàgines secundàries o bases de dades s'importaran com a `[nom del fitxer].md` en lloc de `[nom del fitxer]/[nom del fitxer].md`.
 - Les bases de dades sempre es representen com a carpetes amb el nom `[nom de la base de dades]` amb un fitxer `[nom de la base de dades].base` al seu interior.
 
-## Importació per fitxer
+## Importar fitxers de Notion (.zip)
 
 La importació per fitxer és una manera alternativa d'importar les teves dades de Notion. Aquest mètode no conserva les bases de dades però no requereix un token d'API ni connexió a internet.
 
