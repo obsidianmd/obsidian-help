@@ -54,11 +54,16 @@ A widgeteket testreszabhatja a munkafolyamatának megfelelően, például kivál
 
 Az Obsidian integrálódik az Apple Parancsikonok alkalmazásával, lehetővé téve hatékony automatizálások létrehozását. Az elérhető parancsikonok:
 
-- **Jegyzet megnyitása** — Egy adott jegyzet megnyitása a széfben
-- **Új jegyzet létrehozása** — Új jegyzet létrehozása a széfben
+- **Könyvjelző megnyitása** - Könyvjelzőzött jegyzet megnyitása a széfből
+- **Új jegyzet megnyitása** — Új jegyzet létrehozása a széfben
 - **Napi jegyzet megnyitása** — Közvetlen ugrás a mai napi jegyzethez
 - **Rögzítés a napi jegyzetbe** — Szöveg hozzáfűzése vagy beszúrása a napi jegyzetbe az Obsidian alkalmazás megnyitása nélkül
 - **Rögzítés könyvjelzőbe** — Szöveg hozzáfűzése vagy beszúrása egy könyvjelzőzött jegyzetbe az Obsidian alkalmazás megnyitása nélkül
+- **Könyvjelzőzött jegyzet lekérése** — Szöveg lekérése egy könyvjelzőzött jegyzetből
+- **Napi jegyzet lekérése** — Szöveg lekérése egy napi jegyzetből
+- **Keresés a széfben** — Kulcsszó keresése a széfben
+- **Hivatkozás könyvjelzőzése** — Webhivatkozás hozzáadása a könyvjelzőkhöz
+- **Obsidian megnyitása** — Az Obsidian megnyitása
 
 A rögzítés parancsikonok különösen hasznosak a gyors jegyzeteléshez, mivel lehetővé teszik tartalom hozzáadását egy jegyzethez a háttérben.
 

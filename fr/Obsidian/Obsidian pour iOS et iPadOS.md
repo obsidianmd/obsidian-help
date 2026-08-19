@@ -54,11 +54,16 @@ Options de configuration du widget **Afficher la note** :
 
 Obsidian s'intègre avec l'application Raccourcis d'Apple, vous permettant de créer de puissantes automatisations. Les raccourcis disponibles incluent :
 
-- **Ouvrir une note** — Ouvrir une note spécifique dans votre coffre
-- **Créer une nouvelle note** — Créer une nouvelle note dans votre coffre
+- **Ouvrir un signet** - Ouvrir une note marquée comme signet depuis votre coffre
+- **Ouvrir une nouvelle note** — Créer une nouvelle note dans votre coffre
 - **Ouvrir la note quotidienne** — Accéder directement à la note quotidienne du jour
 - **Capturer dans la note quotidienne** — Ajouter du texte au début ou à la fin de la note quotidienne sans ouvrir l'application Obsidian
 - **Capturer dans un signet** — Ajouter du texte au début ou à la fin d'une note marquée comme signet sans ouvrir l'application Obsidian
+- **Obtenir la note marquée** — Récupère le texte d'une note marquée comme signet
+- **Obtenir la note quotidienne** — Récupère le texte d'une note quotidienne
+- **Rechercher dans le coffre** — Rechercher un mot-clé dans votre coffre
+- **Ajouter un lien aux signets** — Ajouter un lien web à vos signets
+- **Ouvrir Obsidian** — Ouvre Obsidian
 
 Les raccourcis de capture sont particulièrement utiles pour la prise de notes rapide, car ils vous permettent d'ajouter du contenu à une note en arrière-plan.
 

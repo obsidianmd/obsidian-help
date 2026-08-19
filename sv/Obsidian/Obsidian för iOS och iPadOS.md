@@ -54,11 +54,16 @@ Konfigurationsalternativ för widgeten **Visa anteckning**:
 
 Obsidian integrerar med Apples Genvägar-app, vilket låter dig skapa kraftfulla automatiseringar. Tillgängliga genvägar inkluderar:
 
-- **Öppna en anteckning** — Öppna en specifik anteckning i ditt valv
-- **Skapa en ny anteckning** — Skapa en ny anteckning i ditt valv
+- **Öppna bokmärke** — Öppna en bokmärkt anteckning från ditt valv
+- **Öppna ny anteckning** — Skapa en ny anteckning i ditt valv
 - **Öppna daglig anteckning** — Gå direkt till dagens dagliga anteckning
 - **Spara till daglig anteckning** — Lägg till eller infoga text i den dagliga anteckningen utan att öppna Obsidian-appen
 - **Spara till bokmärke** — Lägg till eller infoga text i en bokmärkt anteckning utan att öppna Obsidian-appen
+- **Hämta bokmärkt anteckning** — Hämtar text från en bokmärkt anteckning
+- **Hämta daglig anteckning** — Hämtar text från en daglig anteckning
+- **Sök i valv** — Sök i ditt valv efter ett nyckelord
+- **Bokmärk länk** — Lägg till en webblänk i dina bokmärken
+- **Öppna Obsidian** — Öppnar Obsidian
 
 Spara-genvägar är särskilt användbara för snabba anteckningar, eftersom de låter dig lägga till innehåll i en anteckning i bakgrunden.
 

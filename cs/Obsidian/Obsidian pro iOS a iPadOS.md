@@ -53,11 +53,16 @@ Možnosti konfigurace widgetu **Zobrazit poznámku**:
 
 Obsidian se integruje s aplikací Zkratky od Apple, což umožňuje vytvářet výkonné automatizace. Dostupné zkratky zahrnují:
 
-- **Otevřít poznámku** — Otevře konkrétní poznámku ve vašem trezoru
-- **Vytvořit novou poznámku** — Vytvoří novou poznámku ve vašem trezoru
+- **Otevřít záložku** — Otevře poznámku ze záložek ve vašem trezoru
+- **Otevřít novou poznámku** — Vytvoří novou poznámku ve vašem trezoru
 - **Otevřít denní poznámku** — Přejde přímo na dnešní denní poznámku
 - **Zachytit do denní poznámky** — Připojí nebo vloží text na začátek denní poznámky bez otevření aplikace Obsidian
 - **Zachytit do záložky** — Připojí nebo vloží text na začátek poznámky v záložkách bez otevření aplikace Obsidian
+- **Získat poznámku ze záložek** — Získá text z poznámky v záložkách
+- **Získat denní poznámku** — Získá text z denní poznámky
+- **Hledat v trezoru** — Vyhledá klíčové slovo ve vašem trezoru
+- **Přidat odkaz do záložek** — Přidá webový odkaz do vašich záložek
+- **Otevřít Obsidian** — Otevře Obsidian
 
 Zkratky pro zachycení jsou obzvláště užitečné pro rychlé psaní poznámek, protože umožňují přidat obsah do poznámky na pozadí.
 

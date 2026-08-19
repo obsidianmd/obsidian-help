@@ -54,11 +54,16 @@ Widget'ları iş akışınıza uyacak şekilde özelleştirebilirsiniz; örneği
 
 Obsidian, Apple'ın Kısayollar uygulamasıyla entegre olarak güçlü otomasyonlar oluşturmanıza olanak tanır. Kullanılabilir kısayollar şunlardır:
 
-- **Bir notu aç** — Kasanızdaki belirli bir notu açın
-- **Yeni not oluştur** — Kasanızda yeni bir not oluşturun
-- **Günlük notunu aç** — Doğrudan günün günlük notuna gidin
+- **Yer İmini Aç** - Kasanızdan yer imi eklenmiş bir notu açın
+- **Yeni Not Aç** — Kasanızda yeni bir not oluşturun
+- **Günlük Notunu Aç** — Doğrudan günün günlük notuna gidin
 - **Günlük Nota Kaydet** — Obsidian uygulamasını açmadan günlük nota metin ekleyin veya başına metin ekleyin
 - **Yer İmine Kaydet** — Obsidian uygulamasını açmadan yer imi eklenmiş bir nota metin ekleyin veya başına metin ekleyin
+- **Yer İmi Eklenmiş Notu Al** — Yer imi eklenmiş bir nottan metin alır
+- **Günlük Notu Al** — Günlük nottan metin alır
+- **Kasada Ara** — Kasanızda bir anahtar kelime arayın
+- **Bağlantıyı Yer İmlerine Ekle** — Yer imlerinize bir web bağlantısı ekleyin
+- **Obsidian'ı Aç** — Obsidian'ı açar
 
 Kayıt kısayolları, arka planda bir nota içerik eklemenize olanak tanıdıkları için hızlı not tutmada özellikle kullanışlıdır.
 

@@ -56,11 +56,16 @@ Opsi konfigurasi widget **Lihat Catatan**:
 
 Obsidian terintegrasi dengan aplikasi Shortcuts dari Apple, memungkinkan Anda membuat automasi yang canggih. Shortcut yang tersedia meliputi:
 
-- **Buka catatan** — Buka catatan tertentu di brankas Anda
-- **Buat catatan baru** — Buat catatan baru di brankas Anda
-- **Buka catatan harian** — Langsung menuju catatan harian hari ini
+- **Buka Bookmark** - Buka catatan yang dibookmark dari brankas Anda
+- **Buka Catatan Baru** — Buat catatan baru di brankas Anda
+- **Buka Catatan Harian** — Langsung menuju catatan harian hari ini
 - **Tangkap ke Catatan Harian** — Tambahkan teks di akhir atau awal catatan harian tanpa membuka aplikasi Obsidian
 - **Tangkap ke Bookmark** — Tambahkan teks di akhir atau awal catatan yang dibookmark tanpa membuka aplikasi Obsidian
+- **Dapatkan Catatan yang Dibookmark** — Mendapatkan teks dari catatan yang dibookmark
+- **Dapatkan Catatan Harian** — Mendapatkan teks dari catatan harian
+- **Cari Brankas** — Cari brankas Anda berdasarkan kata kunci
+- **Bookmark Tautan** — Tambahkan tautan web ke bookmark Anda
+- **Buka Obsidian** — Membuka Obsidian
 
 Shortcut tangkapan sangat berguna untuk pencatatan cepat, karena memungkinkan Anda menambahkan konten ke catatan di latar belakang.
 

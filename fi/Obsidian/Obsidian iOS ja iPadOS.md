@@ -53,11 +53,16 @@ Voit mukauttaa widgetejä työnkulkuusi sopiviksi, esimerkiksi valitsemalla käy
 
 Obsidian integroituu Applen Pikakomennot-sovellukseen, mikä mahdollistaa tehokkaiden automaatioiden luomisen. Käytettävissä olevat pikakomennot:
 
-- **Avaa muistiinpano** — Avaa tietty muistiinpano holvissasi
-- **Luo uusi muistiinpano** — Luo uusi muistiinpano holviisi
+- **Avaa kirjanmerkki** — Avaa kirjanmerkitty muistiinpano holvistasi
+- **Avaa uusi muistiinpano** — Luo uusi muistiinpano holviisi
 - **Avaa päivän muistiinpano** — Siirry suoraan tämän päivän muistiinpanoon
 - **Tallenna päivän muistiinpanoon** — Lisää teksti päivän muistiinpanon alkuun tai loppuun avaamatta Obsidian-sovellusta
 - **Tallenna kirjanmerkkiin** — Lisää teksti kirjanmerkityn muistiinpanon alkuun tai loppuun avaamatta Obsidian-sovellusta
+- **Hae kirjanmerkitty muistiinpano** — Hakee tekstin kirjanmerkitystä muistiinpanosta
+- **Hae päivän muistiinpano** — Hakee tekstin päivän muistiinpanosta
+- **Hae holvista** — Hae holvistasi avainsanalla
+- **Kirjanmerkki linkki** — Lisää verkkolinkki kirjanmerkkeihisi
+- **Avaa Obsidian** — Avaa Obsidianin
 
 Tallennuspikakomennot ovat erityisen hyödyllisiä nopeaan muistiinpanojen tekemiseen, sillä niiden avulla voit lisätä sisältöä muistiinpanoon taustalla.
 

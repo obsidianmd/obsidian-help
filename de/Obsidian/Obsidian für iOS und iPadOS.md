@@ -54,11 +54,16 @@ Konfigurationsoptionen für das **Notiz anzeigen**-Widget:
 
 Obsidian ist mit Apples Kurzbefehle-App integriert, sodass du leistungsstarke Automatisierungen erstellen kannst. Verfügbare Kurzbefehle umfassen:
 
-- **Notiz öffnen** — Eine bestimmte Notiz in deinem Vault öffnen
-- **Neue Notiz erstellen** — Eine neue Notiz in deinem Vault erstellen
+- **Lesezeichen öffnen** – Eine als Lesezeichen gesetzte Notiz aus deinem Vault öffnen
+- **Neue Notiz öffnen** — Eine neue Notiz in deinem Vault erstellen
 - **Tägliche Notiz öffnen** — Direkt zur heutigen Täglichen Notiz springen
 - **In Tagesnotiz erfassen** — Text an die Tägliche Notiz anhängen oder voranstellen, ohne die Obsidian-App zu öffnen
 - **In Lesezeichen erfassen** — Text an eine als Lesezeichen gesetzte Notiz anhängen oder voranstellen, ohne die Obsidian-App zu öffnen
+- **Lesezeichen-Notiz abrufen** — Text aus einer als Lesezeichen gesetzten Notiz abrufen
+- **Tägliche Notiz abrufen** — Text aus einer Täglichen Notiz abrufen
+- **Vault durchsuchen** — Deinen Vault nach einem Stichwort durchsuchen
+- **Link als Lesezeichen setzen** — Einen Web-Link zu deinen Lesezeichen hinzufügen
+- **Obsidian öffnen** — Obsidian öffnen
 
 Erfassungskurzbefehle sind besonders nützlich für schnelle Notizen, da sie es ermöglichen, Inhalte im Hintergrund zu einer Notiz hinzuzufügen.
 

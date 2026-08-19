@@ -56,11 +56,16 @@ Opções de configuração do widget **Ver Nota**:
 
 O Obsidian integra-se com a aplicação Atalhos da Apple, permitindo-lhe criar automações poderosas. Os atalhos disponíveis incluem:
 
-- **Abrir uma nota** — Abrir uma nota específica no seu cofre
-- **Criar uma nova nota** — Criar uma nova nota no seu cofre
-- **Abrir nota diária** — Ir diretamente para a nota diária de hoje
+- **Abrir Marcador** - Abrir uma nota marcada do seu cofre
+- **Abrir Nova Nota** — Criar uma nova nota no seu cofre
+- **Abrir Nota Diária** — Ir diretamente para a nota diária de hoje
 - **Capturar para a Nota Diária** — Anexar ou preceder texto à nota diária sem abrir a aplicação Obsidian
 - **Capturar para Marcador** — Anexar ou preceder texto a uma nota marcada sem abrir a aplicação Obsidian
+- **Obter Nota Marcada** — Obtém texto de uma nota marcada
+- **Obter Nota Diária** — Obtém texto de uma nota diária
+- **Pesquisar no Cofre** — Pesquisar no seu cofre por uma palavra-chave
+- **Marcar Ligação** — Adicionar uma ligação web aos seus marcadores
+- **Abrir Obsidian** — Abre o Obsidian
 
 Os atalhos de captura são particularmente úteis para tomar notas rapidamente, pois permitem-lhe adicionar conteúdo a uma nota em segundo plano.
 

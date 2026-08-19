@@ -54,11 +54,16 @@ Configuratieopties voor de **Notitie bekijken**-widget:
 
 Obsidian integreert met de Opdrachten-app van Apple, waarmee je krachtige automatiseringen kunt maken. Beschikbare opdrachten zijn:
 
-- **Open een notitie** — Open een specifieke notitie in je kluis
-- **Maak een nieuwe notitie** — Maak een nieuwe notitie in je kluis
+- **Bladwijzer openen** — Open een notitie met bladwijzer uit je kluis
+- **Nieuwe notitie openen** — Maak een nieuwe notitie in je kluis
 - **Dagelijkse notitie openen** — Ga direct naar de dagelijkse notitie van vandaag
 - **Vastleggen in dagnotitie** — Voeg tekst toe aan het begin of einde van de dagnotitie zonder de Obsidian-app te openen
 - **Vastleggen in bladwijzer** — Voeg tekst toe aan het begin of einde van een notitie met bladwijzer zonder de Obsidian-app te openen
+- **Notitie met bladwijzer ophalen** — Haalt tekst op uit een notitie met bladwijzer
+- **Dagelijkse notitie ophalen** — Haalt tekst op uit een dagelijkse notitie
+- **Kluis doorzoeken** — Doorzoek je kluis op een trefwoord
+- **Koppeling als bladwijzer opslaan** — Voeg een webkoppeling toe aan je bladwijzers
+- **Obsidian openen** — Opent Obsidian
 
 Vastlegopdrachten zijn bijzonder handig voor het snel maken van notities, omdat je hiermee op de achtergrond inhoud aan een notitie kunt toevoegen.
 

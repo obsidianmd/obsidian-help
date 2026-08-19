@@ -56,11 +56,16 @@ Du kan tilpasse widgets til din arbejdsgang, f.eks. vælge hvilken boks der skal
 
 Obsidian integrerer med Apples Genveje-app, så du kan oprette kraftfulde automatiseringer. Tilgængelige genveje inkluderer:
 
-- **Åbn en note** — Åbn en bestemt note i din boks
-- **Opret en ny note** — Opret en ny note i din boks
+- **Åbn bogmærke** - Åbn en bogmærket note fra din boks
+- **Åbn ny note** — Opret en ny note i din boks
 - **Åbn daglig note** — Spring direkte til dagens daglige note
 - **Indfang til daglig note** — Tilføj tekst til begyndelsen eller slutningen af den daglige note uden at åbne Obsidian-appen
 - **Indfang til bogmærke** — Tilføj tekst til begyndelsen eller slutningen af en bogmærket note uden at åbne Obsidian-appen
+- **Hent bogmærket note** — Henter tekst fra en bogmærket note
+- **Hent daglig note** — Henter tekst fra en daglig note
+- **Søg i boks** — Søg i din boks efter et nøgleord
+- **Bogmærk link** — Tilføj et weblink til dine bogmærker
+- **Åbn Obsidian** — Åbner Obsidian
 
 Indfangningsgenveje er særligt nyttige til hurtig notering, da de giver dig mulighed for at tilføje indhold til en note i baggrunden.
 

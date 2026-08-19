@@ -54,11 +54,16 @@ Tùy chọn cấu hình widget **Xem ghi chú**:
 
 Obsidian tích hợp với ứng dụng Shortcuts của Apple, cho phép bạn tạo các tự động hóa mạnh mẽ. Các phím tắt có sẵn bao gồm:
 
-- **Mở ghi chú** — Mở một ghi chú cụ thể trong kho của bạn
-- **Tạo ghi chú mới** — Tạo ghi chú mới trong kho của bạn
-- **Mở ghi chú hằng ngày** — Chuyển trực tiếp đến ghi chú hằng ngày hôm nay
+- **Mở Dấu trang** - Mở ghi chú đã đánh dấu trang từ kho của bạn
+- **Mở Ghi chú mới** — Tạo ghi chú mới trong kho của bạn
+- **Mở Ghi chú hằng ngày** — Chuyển trực tiếp đến ghi chú hằng ngày hôm nay
 - **Ghi nhanh vào Ghi chú hằng ngày** — Thêm vào cuối hoặc đầu ghi chú hằng ngày mà không cần mở ứng dụng Obsidian
 - **Ghi nhanh vào Dấu trang** — Thêm vào cuối hoặc đầu ghi chú đã đánh dấu trang mà không cần mở ứng dụng Obsidian
+- **Lấy Ghi chú đã đánh dấu trang** — Lấy văn bản từ ghi chú đã đánh dấu trang
+- **Lấy Ghi chú hằng ngày** — Lấy văn bản từ ghi chú hằng ngày
+- **Tìm kiếm Kho** — Tìm kiếm từ khóa trong kho của bạn
+- **Đánh dấu Liên kết** — Thêm liên kết web vào dấu trang của bạn
+- **Mở Obsidian** — Mở Obsidian
 
 Các phím tắt ghi nhanh đặc biệt hữu ích cho việc ghi chú nhanh, vì chúng cho phép bạn thêm nội dung vào ghi chú ở nền.
 

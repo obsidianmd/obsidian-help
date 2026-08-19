@@ -54,11 +54,16 @@ Opcions de configuració del widget **Veure nota**:
 
 Obsidian s'integra amb l'aplicació Dreceres d'Apple, permetent-te crear automatitzacions potents. Les dreceres disponibles inclouen:
 
-- **Obrir una nota** — Obre una nota específica a la teva cambra forta
-- **Crear una nota nova** — Crea una nota nova a la teva cambra forta
+- **Obrir marcador** - Obre una nota marcada de la teva cambra forta
+- **Obrir nota nova** — Crea una nota nova a la teva cambra forta
 - **Obrir la nota diària** — Salta directament a la nota diària d'avui
 - **Capturar a la nota diària** — Afegeix o antepon text a la nota diària sense obrir l'aplicació Obsidian
 - **Capturar al marcador** — Afegeix o antepon text a una nota marcada sense obrir l'aplicació Obsidian
+- **Obtenir nota marcada** — Obté el text d'una nota marcada
+- **Obtenir nota diària** — Obté el text d'una nota diària
+- **Cercar a la cambra forta** — Cerca una paraula clau a la teva cambra forta
+- **Marcar enllaç** — Afegeix un enllaç web als teus marcadors
+- **Obrir Obsidian** — Obre Obsidian
 
 Les dreceres de captura són especialment útils per a la presa ràpida de notes, ja que et permeten afegir contingut a una nota en segon pla.
 

@@ -56,11 +56,16 @@ Opzioni di configurazione del widget **Visualizza nota**:
 
 Obsidian si integra con l'app Comandi Rapidi di Apple, permettendoti di creare potenti automazioni. I comandi rapidi disponibili includono:
 
-- **Apri una nota** — Apri una nota specifica nella tua cassaforte
-- **Crea una nuova nota** — Crea una nuova nota nella tua cassaforte
+- **Apri segnalibro** - Apri una nota aggiunta come segnalibro dal tuo vault
+- **Apri nuova nota** — Crea una nuova nota nella tua cassaforte
 - **Apri nota giornaliera** — Vai direttamente alla nota quotidiana di oggi
 - **Cattura nella Nota Quotidiana** — Aggiungi testo in coda o in testa alla nota quotidiana senza aprire l'app Obsidian
 - **Cattura nel Segnalibro** — Aggiungi testo in coda o in testa a una nota aggiunta come segnalibro senza aprire l'app Obsidian
+- **Ottieni nota con segnalibro** — Ottieni il testo da una nota aggiunta come segnalibro
+- **Ottieni nota giornaliera** — Ottieni il testo da una nota giornaliera
+- **Cerca nel vault** — Cerca una parola chiave nel tuo vault
+- **Aggiungi collegamento ai segnalibri** — Aggiungi un collegamento web ai tuoi segnalibri
+- **Apri Obsidian** — Apre Obsidian
 
 I comandi rapidi di cattura sono particolarmente utili per prendere appunti velocemente, poiché consentono di aggiungere contenuto a una nota in background.
 

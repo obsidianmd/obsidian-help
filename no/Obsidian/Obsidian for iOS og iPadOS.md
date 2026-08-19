@@ -55,11 +55,16 @@ Konfigurasjonsalternativer for **Vis notat**-widget:
 
 Obsidian integrerer med Apples Snarveier-app, som lar deg lage kraftige automatiseringer. Tilgjengelige snarveier inkluderer:
 
-- **Åpne et notat** — Åpne et bestemt notat i hvelvet ditt
-- **Opprett et nytt notat** — Opprett et nytt notat i hvelvet ditt
+- **Åpne bokmerke** — Åpne et bokmerket notat fra hvelvet ditt
+- **Åpne nytt notat** — Opprett et nytt notat i hvelvet ditt
 - **Åpne daglig notat** — Gå direkte til dagens daglige notat
 - **Fang til daglig notat** — Legg til eller sett inn tekst i det daglige notatet uten å åpne Obsidian-appen
 - **Fang til bokmerke** — Legg til eller sett inn tekst i et bokmerket notat uten å åpne Obsidian-appen
+- **Hent bokmerket notat** — Henter tekst fra et bokmerket notat
+- **Hent daglig notat** — Henter tekst fra et daglig notat
+- **Søk i hvelv** — Søk i hvelvet ditt etter et nøkkelord
+- **Bokmerk lenke** — Legg til en nettlenke i bokmerkene dine
+- **Åpne Obsidian** — Åpner Obsidian
 
 Fang-snarveier er spesielt nyttige for raske notater, ettersom de lar deg legge til innhold i et notat i bakgrunnen.
 

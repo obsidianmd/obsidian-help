@@ -17,7 +17,7 @@ Obsidian pentru iOS oferă mai multe widget-uri pentru a efectua acțiuni rapide
 
 > [!note] Notă
 > Widget-urile sunt disponibile pe iOS și iPadOS 18 și versiuni mai noi.
-> Widget-urile nu sunt disponibile atunci când se folosește „Necesită Face ID” pentru a debloca aplicația.
+> Widget-urile nu sunt disponibile atunci când se folosește „Necesită Face ID" pentru a debloca aplicația.
 
 
 ### Widget-uri pentru ecranul de blocare și Centrul de control
@@ -56,11 +56,16 @@ Opțiuni de configurare pentru widget-ul **Vizualizează notă**:
 
 Obsidian se integrează cu aplicația Shortcuts de la Apple, permițându-ți să creezi automatizări puternice. Scurtăturile disponibile includ:
 
-- **Deschide o notă** — Deschide o notă anume din seiful tău
-- **Creează o notă nouă** — Creează o notă nouă în seiful tău
+- **Deschide marcaj** — Deschide o notă marcată din seiful tău
+- **Deschide notă nouă** — Creează o notă nouă în seiful tău
 - **Deschide nota zilnică** — Sari direct la nota ta zilnică de astăzi
 - **Captează în nota zilnică** — Adaugă text la începutul sau sfârșitul notei zilnice fără a deschide aplicația Obsidian
 - **Captează în marcaj** — Adaugă text la începutul sau sfârșitul unei note marcate fără a deschide aplicația Obsidian
+- **Obține notă marcată** — Obține textul dintr-o notă marcată
+- **Obține nota zilnică** — Obține textul din nota zilnică
+- **Caută în seif** — Caută un cuvânt cheie în seiful tău
+- **Marcaj link** — Adaugă un link web la marcajele tale
+- **Deschide Obsidian** — Deschide Obsidian
 
 Scurtăturile de captare sunt deosebit de utile pentru luarea rapidă de notițe, deoarece îți permit să adaugi conținut la o notă în fundal.
 
@@ -163,16 +168,14 @@ Poți folosi și substituenții standard de dată și oră ai șabloanelor:
 
 Poți folosi comenzi vocale Siri pentru a interacționa cu Obsidian:
 
-- „Capture using Obsidian”
-- „Capture to Obsidian”
-- „Open my daily note in Obsidian”
-- „Search in Obsidian”
+- „Capture using Obsidian"
+- „Capture to Obsidian"
+- „Open my daily note in Obsidian"
+- „Search in Obsidian"
 
 ## Integrarea cu Spotlight
 
-Când cauți „Obsidian” în Spotlight pe iOS, vei vedea acțiuni rapide:
+Când cauți „Obsidian" în Spotlight pe iOS, vei vedea acțiuni rapide:
 - Notă nouă
 - Caută
 - Notă zilnică
-
-
