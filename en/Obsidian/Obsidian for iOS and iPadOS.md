@@ -58,11 +58,16 @@ You can customize widgets to suit your workflow, such as choosing which vault to
 
 Obsidian integrates with Apple's Shortcuts app, allowing you to create powerful automations. Available shortcuts include:
 
-- **Open a note** — Open a specific note in your vault
-- **Create a new note** — Create a new note in your vault
-- **Open daily note** — Jump directly to today's daily note
+- **Open Bookmark** - Open a bookmarked note from your vault
+- **Open New Note** — Create a new note in your vault
+- **Open Daily Note** — Jump directly to today's daily note
 - **Capture to Daily Note** — Append or prepend text to the daily note without opening the Obsidian app
 - **Capture to Bookmark** — Append or prepend text to a bookmarked note without opening the Obsidian app
+- **Get Bookmarked Note** — Gets text from a bookmarked note
+- **Get Daily Note** — Gets text from a daily note
+- **Search Vault** — Search your vault for a keyword
+- **Bookmark Link** — Add a web link to your bookmarks
+- **Open Obsidian** — Opens Obsidian
 
 Capture shortcuts are particularly useful for quick note-taking, as they allow you to add content to a note in the background.
 
