@@ -290,7 +290,7 @@ The global [[Functions|function]] `today()` can be used to get the current date,
 - `now() + "1 day"` returns a datetime exactly 24 hours from the time of execution.
 - `file.mtime > now() - "1 week"` returns `true` if the file was modified within the last week.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returns a Date object representing `2025-01-01 04:03:00`.
-- Subtract two dates to get the millisecond difference between the two, for example, `now() - file.ctime`.
+- Subtract two dates to get a duration, for example, `note.release_date - today()`.
 - To get the date portion of a Date with time, use `datetime.date()`.
 - To format a Date object, use the `format()` function, for example `datetime.format("YYYY-MM-DD")`.
 
