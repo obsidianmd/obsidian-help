@@ -101,7 +101,7 @@ Un **groupe d'onglets** est une collection d'[[#onglet|onglets]] dans la [[#zone
 
 ## Mot-clé
 
-Un **mot-clé** est un mot qui commence par un croisillon (`#`), par exemple `#livre`. Les mots-clés sont principalement utilisés pour trouver des [[#note|notes]] associées.
+Un **mot-clé** est un mot qui commence par un croisillon (`#`), par exemple `#livre`. Les mots-clés sont principalement utilisés pour lier et trouver des [[#note|notes]] associées.
 
 ## Thème
 
