@@ -4,9 +4,6 @@ description: 'Używaj instrukcji warunkowych, pętli i przypisywania zmiennych w
 ---
 [[Wprowadzenie do Obsidian Web Clipper|Web Clipper]] obsługuje logikę szablonów dla instrukcji warunkowych, pętli i przypisywania zmiennych. Składnia ta jest inspirowana językami szablonów [Twig](https://twig.symfony.com/) i [Liquid](https://shopify.github.io/liquid/).
 
-> [!warning] Wymaga najnowszej wersji
-> Funkcje logiczne wymagają Obsidian Web Clipper 1.0.0, który nie został jeszcze zatwierdzony we wszystkich sklepach z rozszerzeniami.
-
 ## Instrukcje warunkowe
 
 Użyj `{% if %}`, aby warunkowo dołączyć zawartość na podstawie zmiennych lub wyrażeń.

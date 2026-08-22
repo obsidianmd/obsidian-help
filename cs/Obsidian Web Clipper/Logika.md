@@ -5,9 +5,6 @@ description: 'Používejte podmínky, smyčky a přiřazení proměnných v šab
 [[Úvod do Obsidian Web Clipper|Web Clipper]] podporuje šablonovou logiku pro podmínky, smyčky a přiřazení proměnných. Tato syntaxe je inspirována šablonovacími jazyky [Twig](https://twig.symfony.com/) a [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Vyžaduje nejnovější verzi
-> Funkce logiky vyžadují Obsidian Web Clipper 1.0.0, který ještě nebyl schválen ve všech obchodech s rozšířeními.
-
 ## Podmínky
 
 Použijte `{% if %}` pro podmíněné zahrnutí obsahu na základě proměnných nebo výrazů.

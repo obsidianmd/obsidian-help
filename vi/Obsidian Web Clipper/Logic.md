@@ -4,9 +4,6 @@ description: 'Sử dụng câu lệnh điều kiện, vòng lặp và gán biế
 ---
 [[Giới thiệu về Obsidian Web Clipper|Web Clipper]] hỗ trợ logic mẫu cho điều kiện, vòng lặp và gán biến. Cú pháp này được lấy cảm hứng từ các ngôn ngữ mẫu [Twig](https://twig.symfony.com/) và [Liquid](https://shopify.github.io/liquid/).
 
-> [!warning] Yêu cầu phiên bản mới nhất
-> Các tính năng logic yêu cầu Obsidian Web Clipper 1.0.0 chưa được phê duyệt trên tất cả các cửa hàng tiện ích mở rộng.
-
 ## Điều kiện
 
 Sử dụng `{% if %}` để đưa nội dung có điều kiện dựa trên biến hoặc biểu thức.

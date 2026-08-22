@@ -5,9 +5,6 @@ description: 'Gebruik voorwaardelijke instructies, lussen en variabeletoewijzing
 [[Introductie tot Obsidian Web Clipper|Web Clipper]] ondersteunt sjabloonlogica voor voorwaarden, lussen en variabeletoewijzing. Deze syntaxis is geïnspireerd op de sjabloontalen [Twig](https://twig.symfony.com/) en [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Vereist de nieuwste versie
-> Logicafuncties vereisen Obsidian Web Clipper 1.0.0, die nog niet op alle extensiewinkels is goedgekeurd.
-
 ## Voorwaarden
 
 Gebruik `{% if %}` om inhoud voorwaardelijk op te nemen op basis van variabelen of expressies.

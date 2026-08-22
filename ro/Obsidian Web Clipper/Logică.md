@@ -7,9 +7,6 @@ aliases:
 [[Introducere în Obsidian Web Clipper|Web Clipper]] acceptă logică de șablon pentru condiționale, bucle și atribuirea variabilelor. Această sintaxă este inspirată din limbajele de șabloane [Twig](https://twig.symfony.com/) și [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Necesită cea mai recentă versiune
-> Funcțiile de logică necesită Obsidian Web Clipper 1.0.0, care nu a fost încă aprobată în toate magazinele de extensii.
-
 ## Condiționale
 
 Folosește `{% if %}` pentru a include condiționat conținut pe baza variabilelor sau expresiilor.

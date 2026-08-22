@@ -5,9 +5,6 @@ description: 'Web Clipper şablonlarında koşullu ifadeler, döngüler ve deği
 [[Obsidian Web Kırpıcı'ya giriş|Web Kırpıcı]], koşullar, döngüler ve değişken ataması için şablon mantığını destekler. Bu söz dizimi [Twig](https://twig.symfony.com/) ve [Liquid](https://shopify.github.io/liquid/) şablon dillerinden esinlenmiştir.
 
 
-> [!warning] En son sürüm gereklidir
-> Mantık özellikleri, henüz tüm uzantı mağazalarında onaylanmamış olan Obsidian Web Clipper 1.0.0 sürümünü gerektirir.
-
 ## Koşullar
 
 Değişkenlere veya ifadelere göre içeriği koşullu olarak dahil etmek için `{% if %}` kullanın.

@@ -7,9 +7,6 @@ aliases:
 [[Introduzione a Obsidian Web Clipper|Web Clipper]] supporta la logica dei modelli per condizionali, cicli e assegnazione di variabili. Questa sintassi è ispirata ai linguaggi di templating [Twig](https://twig.symfony.com/) e [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Richiede l'ultima versione
-> Le funzionalità di logica richiedono Obsidian Web Clipper 1.0.0 che non è ancora stato approvato su tutti gli store delle estensioni.
-
 ## Condizionali
 
 Usa `{% if %}` per includere contenuto in modo condizionale in base a variabili o espressioni.
