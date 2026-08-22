@@ -4,10 +4,6 @@ description: Use conditionals, loops, and variable assignment in Web Clipper tem
 ---
 [[Introduction to Obsidian Web Clipper|Web Clipper]] supports template logic for conditionals, loops, and variable assignment. This syntax is inspired by [Twig](https://twig.symfony.com/) and [Liquid](https://shopify.github.io/liquid/) templating languages.
 
-
-> [!warning] Requires the latest version
-> Logic features require Obsidian Web Clipper 1.0.0 which has not been approved on all extension stores yet.
-
 ## Conditionals
 
 Use `{% if %}` to conditionally include content based on variables or expressions.
