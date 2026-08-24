@@ -1,8 +1,7 @@
 ---
 permalink: import/apple-journal
 ---
-Obsidian lets you easily migrate your journal entries from Apple Journal using the [[Importer|Importer plugin]]. 
-This will convert your journals to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian lets you easily migrate your journal entries from Apple Journal using the [[Importer|Importer plugin]]. This converts your journals to durable Markdown files you can use with Obsidian and many other apps.
 
 ## Export your data from Apple Journal
 
@@ -32,13 +31,11 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 5. Under **File format**, choose **Apple Journal (HTML Export)**.
 6. In **Files to import**, select the folder with exported data, usually _AppleJournalEntries_, or individual files from _Entries_.
 7. Review and edit the other import options.
-8. Select Import and wait until import is complete
-9. You're done!
+8. Select **Import** to review the generated template and preview examples from your entries.
+9. Select **Import** again and wait for the import to finish.
 
+## Templates
 
-## Supported content
+Use [[Importer templates|Importer templates]] to fully configure how your Apple Journal data is imported. 
 
-The plugin can import Journal metadata as frontmatter, such as _state-of-mind_, _contacts_, _location_, and _workout-route_.
-
-> [!note] Note
-> The plugin does not import resources. Attachments like photos, videos, and audio recordings are ignored.
+![[Importer templates#Variables]]

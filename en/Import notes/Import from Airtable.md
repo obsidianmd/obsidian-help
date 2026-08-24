@@ -1,7 +1,7 @@
 ---
 permalink: import/airtable
 ---
-Obsidian lets you migrate your data from Airtable using the [[Importer|Importer plugin]]. This will convert your Airtable bases to durable Markdown files that you can use offline with Obsidian and many other apps.
+Obsidian lets you migrate your data from Airtable using the [[Importer|Importer plugin]]. This converts your Airtable bases to durable Markdown files that you can use offline with Obsidian and many other apps.
 
 Each table becomes a folder of notes with one note per record, plus a [[Introduction to Bases|Base]] file that recreates the table and its views. Because it uses the Airtable API, importing requires a personal access token and an internet connection.
 
@@ -34,23 +34,25 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 7. Click **Load** to browse your bases, then select the tables you want to import.
 8. Review and edit the import options.
 9. Select **Import** to configure how your fields will be converted to notes with [[Properties|properties]].
-10. Click **Continue** and wait until import is complete.
-11. You're done!
+10. Select **Continue** to review the generated template and preview examples from your records.
+11. Select **Import** and wait for the import to finish.
 
-### Import options
+## Import options
 
 - **Convert formulas** — choose whether formula, lookup, rollup, and count fields are rewritten as [[Formulas|Bases formulas]], falling back to the value Airtable computed when there is no equivalent, or imported as static values only.
 - **Download attachments** — save attachment files into your vault, using your attachment folder and link format settings. When disabled, or when a download fails, the note links to the file's URL on Airtable instead.
-- **View property name** — the property that records which Airtable views a record belongs to. Each view in the generated Base filters on this property. Defaults to `base`.
-- **Incremental import** — adds an `airtable-id` property to each note so that a later import can skip records that were already imported. On a full import this property is removed again.
+- **View property name** — the property that records which Airtable views a record belongs to. Each view in the generated Base filters on this property. Defaults to `Views`.
+- **Save Airtable record ID** — adds an `airtable-id` property so future imports can recognize records after their notes are moved or renamed.
 
 ## Configure how Airtable fields are imported
 
-In the second step of the import, you can choose how each field is imported.
+In the field configuration step, you can choose how each field is imported.
 
-Each field in your tables is attributed a variable called `{{field_name}}`. By default every field becomes a property, and you can use these variables to rename properties, change their values, or write content into the body of each note.
+By default, every Airtable field becomes a property. You can rename or remove properties and change their values before continuing to the template preview.
 
-Each table's primary field is always used as the note title, and records are always placed in a folder named after their table, so those options are not configurable.
+Each table's primary field supplies the default note name. You can edit the note-name template from the preview step. Records are always placed in a folder named after their table.
+
+See [[Importer templates]] to customize the generated Markdown.
 
 ## What gets imported
 
@@ -75,10 +77,8 @@ Airtable/
 - Linked records become links to the corresponding notes.
 - Attachments are downloaded into your vault using your vault settings.
 
-## Limitations
 
-> [!info] Airtable import is new
-> The Airtable importer is new. If you encounter issues with the conversion, [submit a bug report](https://github.com/obsidianmd/obsidian-importer/issues) so we can improve it.
+## Limitations
 
 Due to Airtable API rate limits, importing large bases may take considerable time. Please be patient.
 
@@ -89,3 +89,7 @@ Due to limitations in the Airtable API some data is not available or cannot be c
 - Only grid, gallery, and list views are imported. Other view types, such as calendar, kanban, timeline, and Gantt, are ignored.
 - Links to records in tables you did not select become the record's plain title rather than a link.
 - Interface designs, automations, comments, and revision history are not imported.
+
+## Troubleshooting
+
+If you encounter issues with the conversion, [submit a bug report](https://github.com/obsidianmd/obsidian-importer/issues) so we can improve it.
