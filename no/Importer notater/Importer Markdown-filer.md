@@ -16,7 +16,7 @@ Bruk det offisielle [[Importer|Importer-tillegget]] når du vil velge mapper i e
 
 1. Åpne **[[Innstillinger]] → Community-utvidelser** og [installer Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Aktiver Importer-tillegget.
-3. Åpne **Importer** via [[kommandopalett|kommandopaletten]] eller verktøylinjeikonet.
+3. Åpne **Importer** via [[Kommandovelger|kommandopaletten]] eller verktøylinjeikonet.
 4. Under **Filformat** velger du **Markdown (.md, .zip)**.
 5. Velg individuelle Markdown-filer, mapper eller zip-arkiver.
 6. Gjennomgå de oppdagede mappene, utdataalternativer, generert mal og forhåndsvisningseksempler.

@@ -54,7 +54,7 @@ Som standard blir varje Airtable-fält en egenskap. Du kan byta namn på eller t
 
 Varje tabells primärfält används som standardnamn för anteckningen. Du kan redigera anteckningsnamnsmallen från förhandsvisningssteget. Poster placeras alltid i en mapp uppkallad efter deras tabell.
 
-Se [[Importerarmallar]] för att anpassa den genererade Markdown.
+Se [[Mallar för Importer|Importerarmallar]] för att anpassa den genererade Markdown.
 
 ## Vad som importeras
 

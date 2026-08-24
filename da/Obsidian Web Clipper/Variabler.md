@@ -15,19 +15,19 @@ Brug `...`-ikonet i [[Introduktion til Obsidian Web Clipper|Web Clipper]]-udvide
 
 Forudindstillede variabler genereres automatisk baseret på sidens indhold. Disse fungerer typisk på de fleste hjemmesider.
 
-Den primære indholdsvariabel er `{{content}}`, som indeholder artikelindholdet, eller [[Fremhæver|fremhævningerne]], eller markeringen hvis der er markeret tekst på siden. Bemærk at `{{content}}` forsøger at udtrække sidens hovedindhold, hvilket ikke altid er det, du ønsker. I så fald kan du bruge andre forudindstillede variabler eller selektor-variabler til at udtrække det indhold, du har brug for.
+Den primære indholdsvariabel er `{{content}}`, som indeholder artikelindholdet, eller [[Fremhævning|fremhævningerne]], eller markeringen hvis der er markeret tekst på siden. Bemærk at `{{content}}` forsøger at udtrække sidens hovedindhold, hvilket ikke altid er det, du ønsker. I så fald kan du bruge andre forudindstillede variabler eller selektor-variabler til at udtrække det indhold, du har brug for.
 
 | Variabel            | Beskrivelse                                                                    |
 | ------------------- | ------------------------------------------------------------------------------ |
 | `{{author}}`        | Sidens forfatter                                                               |
-| `{{content}}`       | Artikelindhold, [[Fremhæver\|fremhævninger]] eller markering, i Markdown-format |
-| `{{contentHtml}}`   | Artikelindhold, [[Fremhæver\|fremhævninger]] eller markering, i HTML-format   |
+| `{{content}}`       | Artikelindhold, [[Fremhævning|fremhævninger]] eller markering, i Markdown-format |
+| `{{contentHtml}}`   | Artikelindhold, [[Fremhævning|fremhævninger]] eller markering, i HTML-format   |
 | `{{date}}`          | Aktuel dato, kan formateres med `date`-filteret                                |
 | `{{description}}`   | Beskrivelse eller uddrag                                                       |
 | `{{domain}}`        | Domæne                                                                         |
 | `{{favicon}}`       | Favicon-URL                                                                    |
 | `{{fullHtml}}`      | Ubehandlet HTML for hele sidens indhold                                        |
-| `{{highlights}}`    | [[Fremhæver\|Fremhævninger]] med tekst og tidsstempler                         |
+| `{{highlights}}`    | [[Fremhævning|Fremhævninger]] med tekst og tidsstempler                         |
 | `{{image}}`         | URL til socialt delingsbillede                                                 |
 | `{{language}}`      | Sidens sprog                                                                   |
 | `{{model}}`         | [[Fortolker]]-modelnavn                                                        |

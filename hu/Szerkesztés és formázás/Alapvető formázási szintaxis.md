@@ -469,7 +469,7 @@ Beágyazott lábjegyzeteket is használhat. ^[Ez egy beágyazott lábjegyzet.]
 > [!note] Megjegyzés
 > A beágyazott lábjegyzetek csak olvasási nézetben működnek, élő előnézetben nem.
 
-Használja a [[Lábjegyzetek nézet]]et a jegyzetben található összes lábjegyzet megtekintéséhez.
+Használja a [[Lábjegyzet nézet|Lábjegyzetek nézet]]et a jegyzetben található összes lábjegyzet megtekintéséhez.
 
 ## Megjegyzések
 

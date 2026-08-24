@@ -44,7 +44,7 @@ Tím Obsidian taktiež udržiava vývoj určitých [[#Ďalšie pluginy|open-sour
 	- Zobrazte zoznam všetkých značiek vo vašom trezore.
 - [[Počet slov]]
 	- Zobrazte počet slov a znakov.
-- [[Poznámky pod čiarou]]
+- [[Zobrazenie poznámok pod čiarou|Poznámky pod čiarou]]
 	- Zobrazte zoznam poznámok pod čiarou z aktuálnej poznámky.
 - [[Pracovné priestory]]
 	- Uložte rozloženia a prepínajte medzi nimi.

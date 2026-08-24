@@ -27,7 +27,7 @@ Szerezd be az Obsidian Web Clipper bővítményt a böngésződ hivatalos könyv
 	- Fontos részletek kiemelése és menteni kívánt elemek kijelölése.
 - [[Olvasó|Olvasó]]
 	- Weboldalak olvasása letisztult, figyelemelterelés-mentes nézetben.
-- [[Értelmező|Értelmező]]
+- [[Interpreter|Értelmező]]
 	- Természetes nyelvű utasítások használata az oldalon lévő adatok rögzítéséhez és módosításához.
 - [[Web Clipper hibaelhárítás|Hibaelhárítás]]
 	- Gyakori Web Clipper problémák megoldása.

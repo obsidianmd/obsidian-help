@@ -31,7 +31,7 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 
 ## Șabloane
 
-Folosește [[Șabloane Importer|Șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale.
+Folosește [[Șabloane pentru importator|Șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale.
 
 Fiecare coloană CSV este disponibilă folosind antetul său. Dacă o coloană nu are antet, Importer folosește numele de coloană generat.
 
@@ -42,4 +42,4 @@ Folosește notația cu paranteze pătrate pentru ca spațiile și semnele de pun
 {{source["Price ($)"]|yaml}}
 ```
 
-![[Șabloane Importer#Variabile]]
+![[Șabloane pentru importator#Variabile]]

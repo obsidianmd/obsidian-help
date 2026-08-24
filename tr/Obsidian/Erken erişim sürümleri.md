@@ -56,7 +56,7 @@ Erken erişim sürümlerini devre dışı bırakmak ve masaüstünde son yüklen
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Obsidian'ı yeniden başlatın.
-5. Obsidian daha sonra en son genel sürümde değilse, [[Obsidian'ı güncelleme#Yükleyici güncellemeleri|yükleyici sürümünü]] güncelleyin.
+5. Obsidian daha sonra en son genel sürümde değilse, [[Obsidian'ı Güncelle#Yükleyici güncellemeleri|yükleyici sürümünü]] güncelleyin.
 
 ## Mobilde genel sürümlere geri dönme
 

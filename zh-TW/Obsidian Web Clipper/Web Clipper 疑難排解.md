@@ -14,7 +14,7 @@ Web Clipper 使用 [Defuddle](https://github.com/kepano/defuddle) 來僅擷取�
 若要在 Web Clipper 中繞過 Defuddle，請使用以下方法：
 
 - 選取文字，或使用 `Cmd/Ctrl+A` 全選文字。
-- [[螢光筆|反白內容]]來精確選擇你想擷取的內容。
+- [[反白工具|反白內容]]來精確選擇你想擷取的內容。
 - 為該網站使用[[Obsidian Web Clipper/模板|自訂範本]]。
 
 ### Obsidian 中沒有顯示任何內容

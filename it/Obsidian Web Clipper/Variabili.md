@@ -22,14 +22,14 @@ La variabile principale per il contenuto è `{{content}}`, che contiene il conte
 | Variabile            | Descrizione                                                                    |
 | ------------------- | ------------------------------------------------------------------------------ |
 | `{{author}}`        | Autore della pagina                                                             |
-| `{{content}}`       | Contenuto dell'articolo, [[Highlighter\|evidenziazioni]] o selezione, in formato Markdown |
-| `{{contentHtml}}`   | Contenuto dell'articolo, [[Highlighter\|evidenziazioni]] o selezione, in formato HTML     |
+| `{{content}}`       | Contenuto dell'articolo, [[Evidenziatore|evidenziazioni]] o selezione, in formato Markdown |
+| `{{contentHtml}}`   | Contenuto dell'articolo, [[Evidenziatore|evidenziazioni]] o selezione, in formato HTML     |
 | `{{date}}`          | Data corrente, può essere formattata utilizzando il filtro `date`                         |
 | `{{description}}`   | Descrizione o estratto                                                         |
 | `{{domain}}`        | Dominio                                                                         |
 | `{{favicon}}`       | URL della favicon                                                                    |
 | `{{fullHtml}}`      | HTML non elaborato per il contenuto completo della pagina                                     |
-| `{{highlights}}`    | [[Highlighter\|Evidenziazioni]] con testo e marcature temporali                           |
+| `{{highlights}}`    | [[Evidenziatore|Evidenziazioni]] con testo e marcature temporali                           |
 | `{{image}}`         | URL dell'immagine di condivisione social                                                                 |
 | `{{language}}`      | Lingua della pagina                                                                  |
 | `{{model}}`         | Nome del modello dell'[[Interprete|Interprete]]                                                     |

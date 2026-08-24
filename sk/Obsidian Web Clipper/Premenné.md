@@ -30,9 +30,9 @@ Hlavná obsahová premenná je `{{content}}`, ktorá obsahuje obsah článku, al
 | `{{highlights}}`    | [[Zvýrazňovač\|Zvýraznenia]] s textom a časovými značkami                     |
 | `{{image}}`         | URL obrázka na zdieľanie na sociálnych sieťach                                 |
 | `{{language}}`      | Jazyk stránky                                                                  |
-| `{{model}}`         | Názov modelu [[Interpret|Interpreta]]                                          |
-| `{{modelId}}`       | ID modelu [[Interpret|Interpreta]]                                             |
-| `{{modelProvider}}` | Poskytovateľ modelu [[Interpret|Interpreta]]                                   |
+| `{{model}}`         | Názov modelu [[Tlmočník|Interpreta]]                                          |
+| `{{modelId}}`       | ID modelu [[Tlmočník|Interpreta]]                                             |
+| `{{modelProvider}}` | Poskytovateľ modelu [[Tlmočník|Interpreta]]                                   |
 | `{{published}}`     | Dátum publikovania, možno formátovať pomocou filtra `date`                     |
 | `{{selection}}`     | Výber vo formáte Markdown                                                      |
 | `{{selectionHtml}}` | Výber vo formáte HTML                                                          |
@@ -44,15 +44,15 @@ Hlavná obsahová premenná je `{{content}}`, ktorá obsahuje obsah článku, al
 
 ## Promptové premenné
 
-Promptové premenné využívajú jazykové modely na extrakciu a úpravu údajov pomocou prirodzeného jazyka. Promptové premenné vyžadujú, aby bol [[Interpret|Interpret]] zapnutý a nakonfigurovaný.
+Promptové premenné využívajú jazykové modely na extrakciu a úpravu údajov pomocou prirodzeného jazyka. Promptové premenné vyžadujú, aby bol [[Tlmočník|Interpret]] zapnutý a nakonfigurovaný.
 
 Promptové premenné používajú syntax `{{"súhrn stránky"}}`. Dvojité úvodzovky okolo promptu sú dôležité a odlišujú prompty od prednastavených premenných. Odpovede promptov je možné dodatočne spracovať pomocou [[Filtre|filtrov]], napr. `{{"súhrn stránky"|blockquote}}`.
 
 ### Kedy použiť promptové premenné
 
-Promptové premenné majú výhodu extrémnej flexibility a jednoduchosti písania, avšak prichádzajú s niekoľkými kompromismi: sú pomalšie na spustenie a môžu mať nákladové a súkromné dôsledky v závislosti od [[Interpret#Modely|poskytovateľa]], ktorého si vyberiete.
+Promptové premenné majú výhodu extrémnej flexibility a jednoduchosti písania, avšak prichádzajú s niekoľkými kompromismi: sú pomalšie na spustenie a môžu mať nákladové a súkromné dôsledky v závislosti od [[Tlmočník#Modely|poskytovateľa]], ktorého si vyberiete.
 
-Na rozdiel od iných typov premenných potrebujú promptové premenné spracovanie externým jazykovým modelom, takže sú nahradené až po spustení [[Interpret|Interpreta]].
+Na rozdiel od iných typov premenných potrebujú promptové premenné spracovanie externým jazykovým modelom, takže sú nahradené až po spustení [[Tlmočník|Interpreta]].
 
 Najlepšie je *nepoužívať* promptové premenné, ak sú údaje, ktoré chcete extrahovať, v konzistentnom formáte, ktorý by sa dal extrahovať inými typmi premenných.
 

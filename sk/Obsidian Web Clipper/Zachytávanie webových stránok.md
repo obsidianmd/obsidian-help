@@ -59,4 +59,4 @@ Funkcie päty zahŕňajú:
 - Tlačidlo **Pridať do Obsidian** na uloženie dát do Obsidian.
 - Rozbaľovací zoznam **Trezor** na prepínanie medzi uloženými trezormi pridanými v nastaveniach Web Clipper.
 - Pole **Priečinok** na definovanie priečinka, do ktorého sa má uložiť.
-- **Interpret** na spustenie [[Interpret|výziev v prirodzenom jazyku]] na stránke.
+- **Interpret** na spustenie [[Tlmočník|výziev v prirodzenom jazyku]] na stránke.

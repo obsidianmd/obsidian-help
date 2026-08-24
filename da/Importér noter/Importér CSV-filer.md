@@ -29,7 +29,7 @@ I feltkonfigurationstrinnet kan du vælge, hvordan data importeres. Importer gen
 
 ## Skabeloner
 
-Brug [[Importer-skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine data importeres.
+Brug [[Importér skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine data importeres.
 
 Hver CSV-kolonne er tilgængelig via sin overskrift. Hvis en kolonne ikke har nogen overskrift, bruger Importer det genererede kolonnenavn.
 
@@ -40,4 +40,4 @@ Brug parentesnotation, så mellemrum og tegnsætning håndteres sikkert:
 {{source["Price ($)"]|yaml}}
 ```
 
-![[Importer-skabeloner#Variabler]]
+![[Importér skabeloner#Variabler]]

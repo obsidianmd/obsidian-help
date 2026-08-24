@@ -56,7 +56,7 @@ Aby wyłączyć wersje wczesnego dostępu i przywrócić ostatnią zainstalowan�
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Uruchom ponownie Obsidian.
-5. Jeśli po tym Obsidian nie jest w najnowszej wersji publicznej, zaktualizuj [[Aktualizacja Obsidian#Aktualizacje instalatora|wersję instalatora]].
+5. Jeśli po tym Obsidian nie jest w najnowszej wersji publicznej, zaktualizuj [[Aktualizuj Obsidian#Aktualizacje instalatora|wersję instalatora]].
 
 ## Przywracanie wersji publicznych na urządzeniach mobilnych
 

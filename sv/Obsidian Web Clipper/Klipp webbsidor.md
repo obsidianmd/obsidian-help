@@ -17,7 +17,7 @@ Som standard försöker Web Clipper att intelligent extrahera enbart det huvudsa
 
 - Om en anpassad mall finns använder den din mall.
 - Om en markering finns använder den markeringen. Du kan använda `Ctrl/Cmd+A` för att markera hela sidan.
-- Om några [[Överstrykningspenna|markeringar]] finns använder den markeringarna.
+- Om några [[Markering|markeringar]] finns använder den markeringarna.
 
 ## Ladda ner bilder
 
@@ -40,7 +40,7 @@ Web Clipper inkluderar tangentbordsgenvägar som du kan använda för att snabba
 
 Web Clipper-gränssnittet är indelat i fyra sektioner:
 
-1. **Sidhuvud** där du kan byta mallar, aktivera [[Överstrykningspenna|markering]], [[Läsare|läsläge]] och komma åt inställningar.
+1. **Sidhuvud** där du kan byta mallar, aktivera [[Markering|markering]], [[Läsare|läsläge]] och komma åt inställningar.
 2. **Egenskaper** visar den [[Egenskaper|metadata]] som extraherats från sidan och som sparas som [[Egenskaper]] i Obsidian.
 3. **Anteckningsinnehåll** som sparas till Obsidian.
 4. **Sidfot** låter dig välja valv och mapp samt lägga till i Obsidian.
@@ -49,7 +49,7 @@ Sidhuvudets funktionalitet inkluderar:
 
 - ![[lucide-chevrons-up-down.svg#icon]] **Mall**-väljare för att använda sparade [[Obsidian Web Clipper/Mallar|mallar]] som lagts till i tilläggsinställningarna.
 - ![[lucide-more-horizontal.svg#icon]] **Mer**-knapp för att visa sidvariabler som du kan använda i mallar.
-- ![[lucide-highlighter.svg#icon]] **Markering**-knapp för att aktivera [[Överstrykningspenna|markering]].
+- ![[lucide-highlighter.svg#icon]] **Markering**-knapp för att aktivera [[Markering|markering]].
 - ![[lucide-book-icon.svg#icon]] **Läsare**-knapp för att aktivera [[Läsare|läsvy]].
 - ![[lucide-picture-in-picture-2.svg#icon]] **Bädda in**-knapp för att flytta Web Clipper från popupen till sidan.
 - ![[lucide-settings.svg#icon]] **Inställningar**-knapp för att öppna tilläggsinställningarna.

@@ -29,7 +29,7 @@ Kenttien määritysvaiheessa voit valita, miten data tuodaan. Tuontityökalu luo
 
 ## Pohjat
 
-Käytä [[Tuontityökalun pohjat|Tuontityökalun pohjia]] määrittääksesi tarkasti, miten datasi tuodaan.
+Käytä [[Tuontimallineet|Tuontityökalun pohjia]] määrittääksesi tarkasti, miten datasi tuodaan.
 
 Jokainen CSV-sarake on käytettävissä sen otsikon kautta. Jos sarakkeella ei ole otsikkoa, Tuontityökalu käyttää automaattisesti luotua sarakkeen nimeä.
 
@@ -40,4 +40,4 @@ Käytä hakasulkumerkintää, jotta välilyönnit ja välimerkit käsitellään 
 {{source["Price ($)"]|yaml}}
 ```
 
-![[Tuontityökalun pohjat#Muuttujat]]
+![[Tuontimallineet#Muuttujat]]

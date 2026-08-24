@@ -14,7 +14,7 @@ Obsidian oferă două moduri de a-ți importa datele din Notion:
 
 ## Personalizarea paginilor importate
 
-Ambele metode de import afișează o previzualizare înainte de începerea importului. Poți edita șablonul generat sau alege un șablon Markdown din seiful tău. Setările precum coperta și numele proprietăților bazei de date actualizează proprietățile generate afișate în previzualizare. Vezi [[Șabloane Importer]].
+Ambele metode de import afișează o previzualizare înainte de începerea importului. Poți edita șablonul generat sau alege un șablon Markdown din seiful tău. Setările precum coperta și numele proprietăților bazei de date actualizează proprietățile generate afișate în previzualizare. Vezi [[Șabloane pentru importator|Șabloane Importer]].
 
 ## Importul din contul tău Notion
 
@@ -138,6 +138,6 @@ Dacă vezi această eroare, poți dezarhiva fișierul din Notion și apoi poți 
 
 ## Șabloane
 
-Folosește [[Șabloane Importer|Șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale din Notion. 
+Folosește [[Șabloane pentru importator|Șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale din Notion. 
 
-![[Șabloane Importer#Variabile]]
+![[Șabloane pentru importator#Variabile]]

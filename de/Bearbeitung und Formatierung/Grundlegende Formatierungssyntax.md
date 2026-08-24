@@ -469,7 +469,7 @@ Du kannst auch Inline-Fußnoten verwenden. ^[Dies ist eine Inline-Fußnote.]
 > [!note] Hinweis
 > Inline-Fußnoten funktionieren nur im Lesemodus, nicht in der Live-Vorschau.
 
-Verwende die [[Fußnotenansicht]], um alle Fußnoten in einer Notiz zu sehen.
+Verwende die [[Fußnoten-Ansicht|Fußnotenansicht]], um alle Fußnoten in einer Notiz zu sehen.
 
 ## Kommentare
 

@@ -1084,7 +1084,7 @@ task daily line=3 done             # Marcar tarefa da nota diária como concluí
 
 ## Modelos
 
-Comandos para [[Plugins/Modelos|Modelos]].
+Comandos para [[Obsidian Headless|Modelos]].
 
 ### `templates`
 

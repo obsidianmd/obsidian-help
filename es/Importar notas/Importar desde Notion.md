@@ -12,7 +12,7 @@ Obsidian ofrece dos formas de importar tus datos de Notion:
 
 ## Personalizar las páginas importadas
 
-Ambos métodos de importación muestran una vista previa antes de que comience la importación. Puedes editar la plantilla generada o elegir una plantilla Markdown de tu bóveda. Los ajustes como la portada y los nombres de las propiedades de la base de datos actualizan las propiedades generadas que se muestran en la vista previa. Consulta [[Plantillas de Importer]].
+Ambos métodos de importación muestran una vista previa antes de que comience la importación. Puedes editar la plantilla generada o elegir una plantilla Markdown de tu bóveda. Los ajustes como la portada y los nombres de las propiedades de la base de datos actualizan las propiedades generadas que se muestran en la vista previa. Consulta [[Plantillas del importador|Plantillas de Importer]].
 
 ## Importar desde tu cuenta de Notion
 
@@ -136,6 +136,6 @@ Si ves este error, puedes descomprimir el archivo de Notion y luego importar los
 
 ## Plantillas
 
-Usa [[Plantillas de Importer|Plantillas de Importer]] para configurar completamente cómo se importan tus datos de Notion.
+Usa [[Plantillas del importador|Plantillas de Importer]] para configurar completamente cómo se importan tus datos de Notion.
 
-![[Plantillas de Importer#Variables]]
+![[Plantillas del importador#Variables]]

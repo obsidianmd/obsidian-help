@@ -29,7 +29,7 @@ I fältkonfigurationssteget kan du välja hur data importeras. Importerare gener
 
 ## Mallar
 
-Använd [[Importerare-mallar|Importerare-mallar]] för att fullt ut konfigurera hur din data importeras.
+Använd [[Mallar för Importer|Importerare-mallar]] för att fullt ut konfigurera hur din data importeras.
 
 Varje CSV-kolumn är tillgänglig via sin rubrik. Om en kolumn saknar rubrik använder Importerare sitt genererade kolumnnamn.
 
@@ -40,4 +40,4 @@ Använd hakparentesnotation så att mellanslag och skiljetecken hanteras säkert
 {{source["Price ($)"]|yaml}}
 ```
 
-![[Importerare-mallar#Variabler]]
+![[Mallar för Importer#Variabler]]

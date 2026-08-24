@@ -65,4 +65,4 @@ A schema.org értékek használhatók [[Változók#Schema.org változók|adatok 
 
 ### Értelmező kontextus
 
-Amikor az [[Értelmező|Értelmező]] engedélyezve van, [[Változók#Prompt változók|prompt változók]] segítségével természetes nyelven nyerhetsz ki oldaltartalmat. Minden sablonhoz meghatározhatod az [[Értelmező#Kontextus|kontextust]], amelyhez az Értelmező hozzáfér.
+Amikor az [[Interpreter|Értelmező]] engedélyezve van, [[Változók#Prompt változók|prompt változók]] segítségével természetes nyelven nyerhetsz ki oldaltartalmat. Minden sablonhoz meghatározhatod az [[Interpreter#Kontextus|kontextust]], amelyhez az Értelmező hozzáfér.

@@ -31,7 +31,7 @@ Nel passaggio di configurazione dei campi, puoi scegliere come vengono importati
 
 ## Modelli
 
-Usa i [[Modelli di Importer|modelli di Importer]] per configurare completamente come vengono importati i tuoi dati.
+Usa i [[Modelli per l'importazione|modelli di Importer]] per configurare completamente come vengono importati i tuoi dati.
 
 Ogni colonna CSV è disponibile tramite la sua intestazione. Se una colonna non ha intestazione, Importer utilizza il nome di colonna generato.
 
@@ -42,4 +42,4 @@ Usa la notazione tra parentesi quadre per gestire in modo sicuro spazi e puntegg
 {{source["Price ($)"]|yaml}}
 ```
 
-![[Modelli di Importer#Variabili]]
+![[Modelli per l'importazione#Variabili]]

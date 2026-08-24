@@ -12,7 +12,7 @@ Obsidian cung cấp hai cách để nhập dữ liệu Notion của bạn:
 
 ## Tùy chỉnh các trang đã nhập
 
-Cả hai phương pháp nhập đều hiển thị bản xem trước trước khi quá trình nhập bắt đầu. Bạn có thể chỉnh sửa mẫu được tạo hoặc chọn một mẫu Markdown từ kho của bạn. Các cài đặt như ảnh bìa và tên thuộc tính database sẽ cập nhật các thuộc tính được tạo hiển thị trong bản xem trước. Xem [[Mẫu Importer]].
+Cả hai phương pháp nhập đều hiển thị bản xem trước trước khi quá trình nhập bắt đầu. Bạn có thể chỉnh sửa mẫu được tạo hoặc chọn một mẫu Markdown từ kho của bạn. Các cài đặt như ảnh bìa và tên thuộc tính database sẽ cập nhật các thuộc tính được tạo hiển thị trong bản xem trước. Xem [[Mẫu trình nhập|Mẫu Importer]].
 
 ## Nhập từ tài khoản Notion của bạn
 
@@ -136,6 +136,6 @@ Nếu bạn thấy lỗi này, bạn có thể giải nén tệp từ Notion, sa
 
 ## Mẫu
 
-Sử dụng [[Mẫu Importer|Mẫu Importer]] để cấu hình đầy đủ cách dữ liệu Notion của bạn được nhập.
+Sử dụng [[Mẫu trình nhập|Mẫu Importer]] để cấu hình đầy đủ cách dữ liệu Notion của bạn được nhập.
 
-![[Mẫu Importer#Biến]]
+![[Mẫu trình nhập#Biến]]

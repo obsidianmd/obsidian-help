@@ -56,7 +56,7 @@ Poistaaksesi kokeiluversiot käytöstä ja palataksesi viimeksi asennettuun julk
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSIO.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSIO.asar`
 4. Käynnistä Obsidian uudelleen.
-5. Jos Obsidian ei ole uusimmassa julkisessa versiossa tämän jälkeen, päivitä [[Obsidianin päivittäminen#Asennusohjelman päivitykset|asennusohjelman versio]].
+5. Jos Obsidian ei ole uusimmassa julkisessa versiossa tämän jälkeen, päivitä [[Päivitä Obsidian#Asennusohjelman päivitykset|asennusohjelman versio]].
 
 ## Vaihda takaisin julkisiin versioihin mobiilisovelluksessa
 

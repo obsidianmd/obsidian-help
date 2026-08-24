@@ -25,7 +25,7 @@ cssclasses:
 
 ## 自定义导入的笔记
 
-在导入开始之前，Importer 会显示从你的 Apple Notes 选择中生成的预览。你可以编辑生成的模板、属性和笔记名称，或从你的仓库中选择一个 Markdown 模板。参见 [[Importer 模板]]。
+在导入开始之前，Importer 会显示从你的 Apple Notes 选择中生成的预览。你可以编辑生成的模板、属性和笔记名称，或从你的仓库中选择一个 Markdown 模板。参见 [[导入器模板|Importer 模板]]。
 
 ## 支持的内容
 
@@ -44,9 +44,9 @@ Obsidian Importer 插件几乎支持所有 Apple Notes 的内容类型。这包�
 
 ## 模板
 
-使用 [[Importer 模板|Importer 模板]]来完全配置你的 Apple Notes 数据的导入方式。
+使用 [[导入器模板|Importer 模板]]来完全配置你的 Apple Notes 数据的导入方式。
 
-![[Importer 模板#Variables]]
+![[导入器模板#Variables]]
 
 此外，Apple Notes 提供以下变量。
 

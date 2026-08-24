@@ -71,9 +71,9 @@ tags:
 ```
 
 > [!warning]+ Upravujte šablony v režimu zdroje
-> V [[Zobrazení a režimy úprav#Živý náhled|živém náhledu]] může panel **Vlastnosti v dokumentu** přepsat proměnné šablon, které nemají uvozovky.
+> V [[Zobrazení a režim úprav#Živý náhled|živém náhledu]] může panel **Vlastnosti v dokumentu** přepsat proměnné šablon, které nemají uvozovky.
 >
-> Abyste tomu předešli, upravujte šablony v [[Zobrazení a režimy úprav#Režim zdroje|režimu zdroje]], nebo nastavte **[[Nastavení]] → Editor → [[Nastavení#Vlastnosti v dokumentu|Vlastnosti v dokumentu]]** na **Zdroj**.
+> Abyste tomu předešli, upravujte šablony v [[Zobrazení a režim úprav#Režim zdroje|režimu zdroje]], nebo nastavte **[[Nastavení]] → Editor → [[Nastavení#Vlastnosti v dokumentu|Vlastnosti v dokumentu]]** na **Zdroj**.
 
 ## Vložení šablony do aktivní poznámky
 

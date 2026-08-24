@@ -59,4 +59,4 @@ A lábléc funkciói:
 - **Hozzáadás az Obsidianhez** gomb az adatok Obsidianbe mentéséhez.
 - **Széf** legördülő menü a Web Clipper beállításaiban mentett széfek közötti váltáshoz.
 - **Mappa** mező a mentési mappa megadásához.
-- **Értelmező** [[Értelmező|természetes nyelvű promptok]] futtatásához az oldalon.
+- **Értelmező** [[Interpreter|természetes nyelvű promptok]] futtatásához az oldalon.

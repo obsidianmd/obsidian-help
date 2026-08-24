@@ -65,4 +65,4 @@ Os valores schema.org também podem ser usados para [[Variáveis#Variáveis Sche
 
 ### Contexto do interpretador
 
-Quando o [[Interpretador|Interpretador]] está ativado, pode usar [[Variáveis#Variáveis de prompt|variáveis de prompt]] para extrair conteúdo de páginas com linguagem natural. Para cada modelo, pode definir o [[Interpretador#Contexto|contexto]] a que o Interpretador tem acesso.
+Quando o [[Intérprete|Interpretador]] está ativado, pode usar [[Variáveis#Variáveis de prompt|variáveis de prompt]] para extrair conteúdo de páginas com linguagem natural. Para cada modelo, pode definir o [[Intérprete#Contexto|contexto]] a que o Interpretador tem acesso.

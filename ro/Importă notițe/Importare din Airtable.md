@@ -54,7 +54,7 @@ Implicit, fiecare câmp Airtable devine o proprietate. Poți redenumi sau elimin
 
 Câmpul primar al fiecărui tabel furnizează numele implicit al notiței. Poți edita șablonul numelui notiței din pasul de previzualizare. Înregistrările sunt întotdeauna plasate într-un director denumit după tabelul lor.
 
-Consultă [[Șabloane Importator]] pentru a personaliza Markdown-ul generat.
+Consultă [[Șabloane pentru importator|Șabloane Importator]] pentru a personaliza Markdown-ul generat.
 
 ## Ce se importă
 

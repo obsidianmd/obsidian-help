@@ -33,6 +33,6 @@ Obsidian을 사용하면 [[들여오기|Importer 플러그인]]을 사용하여 
 
 ## 템플릿
 
-[[Importer 템플릿|Importer 템플릿]]을 사용하여 Roam Research 데이터가 가져오기되는 방식을 완전히 구성할 수 있어요.
+[[설정|Importer 템플릿]]을 사용하여 Roam Research 데이터가 가져오기되는 방식을 완전히 구성할 수 있어요.
 
 ![[임포터 템플릿#Variables]]

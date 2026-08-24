@@ -56,7 +56,7 @@ Om vroege-toegangsversies uit te schakelen en terug te keren naar je laatst geï
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Start Obsidian opnieuw op.
-5. Als Obsidian daarna niet op de nieuwste openbare versie staat, werk dan de [[Obsidian updaten#Installatieprogramma-updates|versie van het installatieprogramma]] bij.
+5. Als Obsidian daarna niet op de nieuwste openbare versie staat, werk dan de [[Obsidian bijwerken#Installatieprogramma-updates|versie van het installatieprogramma]] bij.
 
 ## Terugschakelen naar openbare versies op mobiel
 

@@ -24,7 +24,7 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 
 ## Anpassa importerade anteckningar
 
-Innan importen börjar visar Importerare en förhandsgranskning genererad från de valda Textbundle-filerna. Du kan redigera den genererade mallen eller välja en Markdown-mall från ditt valv. Se [[Importerare-mallar]].
+Innan importen börjar visar Importerare en förhandsgranskning genererad från de valda Textbundle-filerna. Du kan redigera den genererade mallen eller välja en Markdown-mall från ditt valv. Se [[Mallar för Importer|Importerare-mallar]].
 
 ## Felsökning
 
@@ -34,6 +34,6 @@ Textbundle-importen kan bara importera en Textbundle-fil åt gången, och bara p
 
 ## Mallar
 
-Använd [[Importerare-mallar|Importerare-mallar]] för att fullt ut konfigurera hur dina data importeras.
+Använd [[Mallar för Importer|Importerare-mallar]] för att fullt ut konfigurera hur dina data importeras.
 
-![[Importerare-mallar#Variabler]]
+![[Mallar för Importer#Variabler]]

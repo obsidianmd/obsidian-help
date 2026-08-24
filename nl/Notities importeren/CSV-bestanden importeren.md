@@ -29,7 +29,7 @@ In de veldconfiguratiestap kun je kiezen hoe gegevens worden geïmporteerd. Impo
 
 ## Sjablonen
 
-Gebruik [[Importer-sjablonen|Importer-sjablonen]] om volledig te configureren hoe je gegevens worden geïmporteerd.
+Gebruik [[Importeur-sjablonen|Importer-sjablonen]] om volledig te configureren hoe je gegevens worden geïmporteerd.
 
 Elke CSV-kolom is beschikbaar via de kop. Als een kolom geen kop heeft, gebruikt Importer de gegenereerde kolomnaam.
 
@@ -40,4 +40,4 @@ Gebruik haakjesnotatie zodat spaties en leestekens veilig worden verwerkt:
 {{source["Price ($)"]|yaml}}
 ```
 
-![[Importer-sjablonen#Variabelen]]
+![[Importeur-sjablonen#Variabelen]]

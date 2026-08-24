@@ -17,7 +17,7 @@ Theo mặc định, Web Clipper cố gắng trích xuất thông minh chỉ nộ
 
 - Nếu có mẫu tùy chỉnh, nó sử dụng mẫu của bạn.
 - Nếu có vùng chọn, nó sử dụng vùng chọn. Bạn có thể sử dụng `Ctrl/Cmd+A` để chọn toàn bộ trang.
-- Nếu có bất kỳ [[Bút tô sáng|phần tô sáng]] nào, nó sử dụng các phần tô sáng.
+- Nếu có bất kỳ [[Đánh dấu|phần tô sáng]] nào, nó sử dụng các phần tô sáng.
 
 ## Tải xuống hình ảnh
 
@@ -40,7 +40,7 @@ Web Clipper bao gồm các phím tắt bạn có thể sử dụng để tăng t
 
 Giao diện Web Clipper được chia thành bốn phần:
 
-1. **Tiêu đề** nơi bạn có thể chuyển đổi mẫu, bật [[Bút tô sáng|tô sáng]], [[Đọc|chế độ đọc]], và truy cập cài đặt.
+1. **Tiêu đề** nơi bạn có thể chuyển đổi mẫu, bật [[Đánh dấu|tô sáng]], [[Đọc|chế độ đọc]], và truy cập cài đặt.
 2. **Thuộc tính** hiển thị [[Thuộc tính|siêu dữ liệu]] được trích xuất từ trang sẽ được lưu dưới dạng [[Thuộc tính]] trong Obsidian.
 3. **Nội dung ghi chú** sẽ được lưu vào Obsidian.
 4. **Chân trang** cho phép bạn chọn kho và thư mục, và thêm vào Obsidian.
@@ -49,7 +49,7 @@ Chức năng tiêu đề bao gồm:
 
 - ![[lucide-chevrons-up-down.svg#icon]] Bộ chuyển **Mẫu** để sử dụng các [[Obsidian Web Clipper/Mẫu|mẫu]] đã lưu được thêm trong cài đặt tiện ích mở rộng.
 - ![[lucide-more-horizontal.svg#icon]] Nút **Thêm** để hiển thị biến trang bạn có thể sử dụng trong mẫu.
-- ![[lucide-highlighter.svg#icon]] Nút **Bút tô sáng** để bật [[Bút tô sáng|tô sáng]].
+- ![[lucide-highlighter.svg#icon]] Nút **Bút tô sáng** để bật [[Đánh dấu|tô sáng]].
 - ![[lucide-book-icon.svg#icon]] Nút **Đọc** để bật [[Đọc|chế độ đọc]].
 - ![[lucide-picture-in-picture-2.svg#icon]] Nút **Nhúng** để chuyển Web Clipper từ cửa sổ bật lên vào trang.
 - ![[lucide-settings.svg#icon]] Nút **Cài đặt** để mở cài đặt tiện ích mở rộng.

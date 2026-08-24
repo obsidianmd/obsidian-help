@@ -8,7 +8,7 @@ Apps kommen und gehen, aber deine Daten sollten Bestand haben. Obsidian verwende
 ## Aus anderen Apps und Dateiformaten importieren
 
 - <span class="icon-app icon-notion"></span> [[Notion|Notion]]
-- <span class="icon-app icon-airtable"></span> [[Airtable|Airtable]]
+- <span class="icon-app icon-airtable"></span> [[Aus Airtable importieren|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Apple Notes|Apple Notes]]
@@ -17,7 +17,7 @@ Apps kommen und gehen, aber deine Daten sollten Bestand haben. Obsidian verwende
 - <span class="icon-app icon-bear"></span> [[Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Roam Research|Roam Research]]
-- <span class="icon-app icon-logseq"></span> [[Logseq|Logseq]]
+- <span class="icon-app icon-logseq"></span> [[Aus Logseq importieren|Logseq]]
 - <span class="icon-app icon-md"></span> [[Tomboy and Gnote|Tomboy und Gnote]]
 - <span class="icon-app icon-html"></span> [[HTML|HTML-Dateien]]
 - <span class="icon-app icon-md"></span> [[CSV]]

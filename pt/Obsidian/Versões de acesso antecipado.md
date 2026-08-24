@@ -56,7 +56,7 @@ Para desativar as versões de acesso antecipado e reverter para a última versã
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Reinicie o Obsidian.
-5. Se o Obsidian não estiver na última versão pública depois disto, atualize a [[Atualizar o Obsidian#Atualizações do instalador|versão do instalador]].
+5. Se o Obsidian não estiver na última versão pública depois disto, atualize a [[Atualizar Obsidian#Atualizações do instalador|versão do instalador]].
 
 ## Voltar às versões públicas no móvel
 

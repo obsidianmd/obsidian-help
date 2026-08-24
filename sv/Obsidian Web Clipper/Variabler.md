@@ -15,19 +15,19 @@ Använd ikonen `...` i tillägget [[Introduktion till Obsidian Web Clipper|Web C
 
 Förinställda variabler genereras automatiskt baserat på sidinnehållet. Dessa fungerar vanligtvis för de flesta webbplatser.
 
-Den huvudsakliga innehållsvariabeln är `{{content}}`, som innehåller artikelinnehållet, eller [[Markeringsverktyg|markeringarna]], eller markeringen om det finns vald text på sidan. Observera att `{{content}}` försöker extrahera sidans huvudinnehåll, vilket kanske inte alltid är vad du vill ha. I så fall kan du använda andra förinställda variabler eller selektor-variabler för att extrahera det innehåll du behöver.
+Den huvudsakliga innehållsvariabeln är `{{content}}`, som innehåller artikelinnehållet, eller [[Markering|markeringarna]], eller markeringen om det finns vald text på sidan. Observera att `{{content}}` försöker extrahera sidans huvudinnehåll, vilket kanske inte alltid är vad du vill ha. I så fall kan du använda andra förinställda variabler eller selektor-variabler för att extrahera det innehåll du behöver.
 
 | Variabel            | Beskrivning                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Sidans författare                                                                      |
-| `{{content}}`       | Artikelinnehåll, [[Markeringsverktyg\|markeringar]] eller markering, i Markdown-format |
-| `{{contentHtml}}`   | Artikelinnehåll, [[Markeringsverktyg\|markeringar]] eller markering, i HTML-format     |
+| `{{content}}`       | Artikelinnehåll, [[Markering|markeringar]] eller markering, i Markdown-format |
+| `{{contentHtml}}`   | Artikelinnehåll, [[Markering|markeringar]] eller markering, i HTML-format     |
 | `{{date}}`          | Aktuellt datum, kan formateras med filtret `date`                                      |
 | `{{description}}`   | Beskrivning eller utdrag                                                               |
 | `{{domain}}`        | Domän                                                                                  |
 | `{{favicon}}`       | Favicon-URL                                                                            |
 | `{{fullHtml}}`      | Obearbetad HTML för hela sidinnehållet                                                 |
-| `{{highlights}}`    | [[Markeringsverktyg\|Markeringar]] med text och tidsstämplar                           |
+| `{{highlights}}`    | [[Markering|Markeringar]] med text och tidsstämplar                           |
 | `{{image}}`         | URL för social delningsbild                                                            |
 | `{{language}}`      | Sidans språk                                                                           |
 | `{{model}}`         | [[Tolk]]-modellnamn                                                                    |

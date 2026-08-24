@@ -41,9 +41,9 @@ Obsidian 可以让你轻松地使用[[迁移助手|迁移助手插件]]从 Apple
 
 ## 模板
 
-使用[[迁移助手模板]]来完全自定义 Apple Journal 数据的导入方式。
+使用[[导入器模板|迁移助手模板]]来完全自定义 Apple Journal 数据的导入方式。
 
-![[迁移助手模板#变量]]
+![[导入器模板#变量]]
 
 当启用**将元数据添加为前置元数据**时，Apple Journal 的元数据将被转换为[[属性]]。根据条目内容，这些属性可能包括 `state-of-mind`、`contact`、`location`、`motion-activity`、`third-party-media` 和 `workout-route`。
 

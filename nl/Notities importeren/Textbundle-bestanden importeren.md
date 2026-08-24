@@ -24,7 +24,7 @@ Je hebt de officiële Obsidian [[Importeren]] plug-in nodig, die je [hier kunt i
 
 ## Geïmporteerde notities aanpassen
 
-Voordat het importeren begint, toont Importer een voorbeeld dat is gegenereerd op basis van de geselecteerde Textbundle-bestanden. Je kunt het gegenereerde sjabloon bewerken of een Markdown-sjabloon uit je kluis kiezen. Zie [[Importer-sjablonen]].
+Voordat het importeren begint, toont Importer een voorbeeld dat is gegenereerd op basis van de geselecteerde Textbundle-bestanden. Je kunt het gegenereerde sjabloon bewerken of een Markdown-sjabloon uit je kluis kiezen. Zie [[Importeur-sjablonen|Importer-sjablonen]].
 
 ## Probleemoplossing
 
@@ -34,6 +34,6 @@ De Textbundle-import kan slechts één Textbundle-bestand tegelijk importeren, e
 
 ## Sjablonen
 
-Gebruik [[Importer-sjablonen|Importer-sjablonen]] om volledig te configureren hoe je gegevens worden geïmporteerd.
+Gebruik [[Importeur-sjablonen|Importer-sjablonen]] om volledig te configureren hoe je gegevens worden geïmporteerd.
 
-![[Importer-sjablonen#Variabelen]]
+![[Importeur-sjablonen#Variabelen]]

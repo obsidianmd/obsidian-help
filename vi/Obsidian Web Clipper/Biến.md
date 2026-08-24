@@ -15,19 +15,19 @@ Sử dụng biểu tượng `...` trong tiện ích mở rộng [[Giới thiệu
 
 Biến cài đặt trước được tạo tự động dựa trên nội dung trang. Chúng thường hoạt động với hầu hết các trang web.
 
-Biến nội dung chính là `{{content}}`, chứa nội dung bài viết, hoặc [[Bút tô sáng|phần tô sáng]], hoặc phần chọn nếu có văn bản được chọn trên trang. Lưu ý rằng `{{content}}` cố gắng trích xuất nội dung chính của trang, điều này không phải lúc nào cũng đúng ý bạn. Trong trường hợp đó, bạn có thể sử dụng các biến cài đặt trước khác hoặc biến bộ chọn để trích xuất nội dung bạn cần.
+Biến nội dung chính là `{{content}}`, chứa nội dung bài viết, hoặc [[Đánh dấu|phần tô sáng]], hoặc phần chọn nếu có văn bản được chọn trên trang. Lưu ý rằng `{{content}}` cố gắng trích xuất nội dung chính của trang, điều này không phải lúc nào cũng đúng ý bạn. Trong trường hợp đó, bạn có thể sử dụng các biến cài đặt trước khác hoặc biến bộ chọn để trích xuất nội dung bạn cần.
 
 | Biến                | Mô tả                                                                                  |
 | ------------------- | -------------------------------------------------------------------------------------- |
 | `{{author}}`        | Tác giả của trang                                                                      |
-| `{{content}}`       | Nội dung bài viết, [[Bút tô sáng\|phần tô sáng]], hoặc phần chọn, ở định dạng Markdown |
-| `{{contentHtml}}`   | Nội dung bài viết, [[Bút tô sáng\|phần tô sáng]], hoặc phần chọn, ở định dạng HTML |
+| `{{content}}`       | Nội dung bài viết, [[Đánh dấu|phần tô sáng]], hoặc phần chọn, ở định dạng Markdown |
+| `{{contentHtml}}`   | Nội dung bài viết, [[Đánh dấu|phần tô sáng]], hoặc phần chọn, ở định dạng HTML |
 | `{{date}}`          | Ngày hiện tại, có thể định dạng bằng bộ lọc `date`                                    |
 | `{{description}}`   | Mô tả hoặc trích đoạn                                                                 |
 | `{{domain}}`        | Tên miền                                                                               |
 | `{{favicon}}`       | URL favicon                                                                            |
 | `{{fullHtml}}`      | HTML chưa xử lý của toàn bộ nội dung trang                                            |
-| `{{highlights}}`    | [[Bút tô sáng\|Phần tô sáng]] với văn bản và dấu thời gian                      |
+| `{{highlights}}`    | [[Đánh dấu|Phần tô sáng]] với văn bản và dấu thời gian                      |
 | `{{image}}`         | URL hình ảnh chia sẻ mạng xã hội                                                      |
 | `{{language}}`      | Ngôn ngữ trang                                                                         |
 | `{{model}}`         | Tên mô hình [[Thông dịch|Interpreter]]                                                |

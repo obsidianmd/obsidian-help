@@ -56,7 +56,7 @@ Ak chcete vypnúť verzie s predčasným prístupom a vrátiť sa na poslednú n
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Reštartujte Obsidian.
-5. Ak Obsidian potom nie je na najnovšej verejnej verzii, aktualizujte [[Aktualizácia Obsidianu#Aktualizácie inštalátora|verziu inštalátora]].
+5. Ak Obsidian potom nie je na najnovšej verejnej verzii, aktualizujte [[Aktualizovať Obsidian#Aktualizácie inštalátora|verziu inštalátora]].
 
 ## Prepnutie späť na verejné verzie na mobile
 

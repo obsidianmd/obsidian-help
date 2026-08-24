@@ -19,7 +19,7 @@ Brug det officielle [[Importér|Importer-plugin]], når du vil vælge mapper ind
 
 1. Åbn **[[Indstillinger]] → Fællesskabsplugins**, og [installér Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Aktivér Importer-pluginet.
-3. Åbn **Importer** via [[Kommandopalet|kommandopaletten]] eller båndikonet.
+3. Åbn **Importer** via [[Fastgjorte kommandoer|kommandopaletten]] eller båndikonet.
 4. Under **Filformat** vælg **Markdown (.md, .zip)**.
 5. Vælg individuelle Markdown-filer, mapper eller zip-arkiver.
 6. Gennemgå de registrerede mapper, outputindstillinger, genereret skabelon og forhåndsvisningseksempler.

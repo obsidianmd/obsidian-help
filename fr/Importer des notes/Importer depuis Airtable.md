@@ -54,7 +54,7 @@ Par défaut, chaque champ Airtable devient une propriété. Vous pouvez renommer
 
 Le champ principal de chaque table fournit le nom de note par défaut. Vous pouvez modifier le modèle de nom de note depuis l'étape d'aperçu. Les enregistrements sont toujours placés dans un dossier portant le nom de leur table.
 
-Consultez [[Modèles de l'importateur]] pour personnaliser le Markdown généré.
+Consultez [[Importer des modèles|Modèles de l'importateur]] pour personnaliser le Markdown généré.
 
 ## Ce qui est importé
 

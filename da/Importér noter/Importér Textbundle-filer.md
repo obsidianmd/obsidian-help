@@ -27,7 +27,7 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 
 ## Tilpas importerede noter
 
-Før importen begynder, viser Importer en forhåndsvisning genereret fra de valgte Textbundle-filer. Du kan redigere den genererede skabelon eller vælge en Markdown-skabelon fra din boks. Se [[Importer-skabeloner]].
+Før importen begynder, viser Importer en forhåndsvisning genereret fra de valgte Textbundle-filer. Du kan redigere den genererede skabelon eller vælge en Markdown-skabelon fra din boks. Se [[Importér skabeloner|Importer-skabeloner]].
 
 ## Fejlfinding
 
@@ -37,6 +37,6 @@ Textbundle-importen kan kun importere én Textbundle-fil ad gangen, og kun på M
 
 ## Skabeloner
 
-Brug [[Importer-skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine data importeres.
+Brug [[Importér skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine data importeres.
 
-![[Importer-skabeloner#Variabler]]
+![[Importér skabeloner#Variabler]]

@@ -26,7 +26,7 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 
 ## Personalizează notele importate
 
-Înainte de începerea importului, Importer afișează o previzualizare generată din fișierele Textbundle selectate. Poți edita șablonul generat sau alege un șablon Markdown din seiful tău. Vezi [[Șabloane Importer]].
+Înainte de începerea importului, Importer afișează o previzualizare generată din fișierele Textbundle selectate. Poți edita șablonul generat sau alege un șablon Markdown din seiful tău. Vezi [[Șabloane pentru importator|Șabloane Importer]].
 
 ## Depanare
 
@@ -36,6 +36,6 @@ Importul Textbundle poate importa doar un singur fișier Textbundle o dată, și
 
 ## Șabloane
 
-Folosește [[Șabloane Importer|Șabloane Importer]] pentru a configura complet modul în care sunt importate datele tale.
+Folosește [[Șabloane pentru importator|Șabloane Importer]] pentru a configura complet modul în care sunt importate datele tale.
 
-![[Șabloane Importer#Variabile]]
+![[Șabloane pentru importator#Variabile]]

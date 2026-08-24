@@ -70,7 +70,7 @@ A equipe do Obsidian também mantém o desenvolvimento de certos [[#Outros plugi
 	- Mostre o índice da nota ativa.
 - [[Introdução ao Obsidian Sync|Sync]]
 	- Sincronize suas notas entre dispositivos.
-- [[Visão de notas de rodapé]]
+- [[Visualização de notas de rodapé|Visão de notas de rodapé]]
 	- Mostre uma lista de notas de rodapé da nota atual.
 - [[Visualizador web]]
 	- Abra links externos no Obsidian.

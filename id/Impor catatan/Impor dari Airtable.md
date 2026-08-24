@@ -54,7 +54,7 @@ Secara bawaan, setiap bidang Airtable menjadi properti. Anda dapat mengganti nam
 
 Bidang utama setiap tabel menyediakan nama catatan bawaan. Anda dapat mengedit templat nama catatan dari langkah pratinjau. Rekaman selalu ditempatkan di folder yang dinamai sesuai tabelnya.
 
-Lihat [[Templat Importir]] untuk menyesuaikan Markdown yang dihasilkan.
+Lihat [[Template Importer|Templat Importir]] untuk menyesuaikan Markdown yang dihasilkan.
 
 ## Apa yang diimpor
 

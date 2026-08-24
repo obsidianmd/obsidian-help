@@ -23,7 +23,7 @@ Bạn sẽ cần plugin [[Trình nhập|Importer]] chính thức của Obsidian,
 
 ## Tùy chỉnh ghi chú đã nhập
 
-Trước khi quá trình nhập bắt đầu, Importer hiển thị bản xem trước được tạo từ lựa chọn Apple Notes của bạn. Bạn có thể chỉnh sửa mẫu được tạo, thuộc tính và tên ghi chú, hoặc chọn một mẫu Markdown từ kho của bạn. Xem [[Mẫu Importer]].
+Trước khi quá trình nhập bắt đầu, Importer hiển thị bản xem trước được tạo từ lựa chọn Apple Notes của bạn. Bạn có thể chỉnh sửa mẫu được tạo, thuộc tính và tên ghi chú, hoặc chọn một mẫu Markdown từ kho của bạn. Xem [[Mẫu trình nhập|Mẫu Importer]].
 
 ## Nội dung được hỗ trợ
 
@@ -42,9 +42,9 @@ Apple lưu trữ bản quét ở nhiều định dạng khác nhau tùy thuộc 
 
 ## Mẫu
 
-Sử dụng [[Mẫu Importer|mẫu Importer]] để cấu hình đầy đủ cách dữ liệu Apple Notes của bạn được nhập.
+Sử dụng [[Mẫu trình nhập|mẫu Importer]] để cấu hình đầy đủ cách dữ liệu Apple Notes của bạn được nhập.
 
-![[Mẫu Importer#Biến]]
+![[Mẫu trình nhập#Biến]]
 
 Ngoài ra, Apple Notes cung cấp biến sau.
 

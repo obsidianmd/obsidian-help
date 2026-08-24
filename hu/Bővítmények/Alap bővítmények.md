@@ -48,7 +48,7 @@ Az Obsidian csapata bizonyos [[#Egyéb bővítmények|nyílt forráskódú köz�
 	- Az aktív jegyzet összes hivatkozásának megjelenítése.
 - [[Könyvjelzők]]
 	- Hivatkozások mentése jegyzetekhez, fejlécekhez, keresésekhez és egyebekhez.
-- [[Lábjegyzetek nézet]]
+- [[Lábjegyzet nézet|Lábjegyzetek nézet]]
 	- Az aktuális jegyzet lábjegyzeteinek listázása.
 - [[Munkaterületek]]
 	- Elrendezések mentése és váltás közöttük.
