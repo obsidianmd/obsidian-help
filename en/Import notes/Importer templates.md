@@ -63,4 +63,28 @@ Use bracket notation when a field name contains spaces, punctuation, or other sp
 {{source["Project: status"]}}
 ```
 
+## Example template
 
+Here's an an example of a template using variables and [[filters]]:
+
+```twig
+---
+created: {{ctime | date:"YYYY-MM-DD"}}
+modified: {{mtime | date:"YYYY-MM-DD"}}
+source: {{importer}}
+---
+# {{title}}
+
+{{body}}
+```
+
+You can add data into a note conditionally using [[Logic]]:
+
+```twig
+{% if tags %}
+## Tags
+{% for tag in tags %}
+- {{tag}}
+{% endfor %}
+{% endif %}
+```
