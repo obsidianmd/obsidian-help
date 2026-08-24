@@ -2629,3 +2629,71 @@ translation=បច្ចុប្បន្នភាព
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=របារចំហៀង
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=មុនពេលអ្នកចាប់ផ្តើម
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=នាំចូលក្រាហ្វ Logseq របស់អ្នក
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=ដែនកំណត់
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=ការកំណត់
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=បន្សំគ្រោងឱ្យរាប
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=រក្សាទិន្នន័យដែលមិនឆបគ្នា
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=គំរូ
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=ការដោះស្រាយបញ្ហា
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=រកទីតាំងឯកសារកំណត់ត្រារបស់អ្នក
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=នាំចូលកំណត់ត្រា Tomboy ឬ Gnote របស់អ្នក
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=គំរូ
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=កែសម្រួលគំរូនាំចូល
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=មើលលទ្ធផលជាមុន
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=វាក្យសម្ពន្ធគំរូ
+
+[heading.import/templates/Variables]
+original=Variables
+translation=អថេរ
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=តម្លៃប្រភពសម្រាប់លក្ខណៈសម្បត្តិ
+
+[heading.import/templates/Example template]
+original=Example template
+translation=ឧទាហរណ៍គំរូ
