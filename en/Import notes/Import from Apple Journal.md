@@ -39,3 +39,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 Use [[Importer templates|Importer templates]] to fully configure how your Apple Journal data is imported. 
 
 ![[Importer templates#Variables]]
+
+When **Add metadata as frontmatter** is enabled, Apple Journal metadata is converted into [[Properties|properties]]. Depending on the entry, these can include `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media`, and `workout-route`.
+
+Use the `properties` variable to access this metadata. For example, use `{{properties.location}}` for a location or `{{properties["state-of-mind"]}}` for a state of mind.

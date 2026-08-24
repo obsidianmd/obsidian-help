@@ -43,3 +43,9 @@ Apple stores scans in a variety of formats depending on how they were created. T
 Use [[Importer templates|Importer templates]] to fully configure how your Apple Notes data is imported. 
 
 ![[Importer templates#Variables]]
+
+Additionally Apple Notes provides the following variable.
+
+| Variable       | Description                 |
+| -------------- | --------------------------- |
+| `{{isPinned}}` | Whether the note is pinned. |
