@@ -4149,3 +4149,75 @@ translation=側邊欄
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=常見問題
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=編輯匯入範本
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=預覽結果
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=範本語法
+
+[heading.import/templates/Variables]
+original=Variables
+translation=變數
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=屬性的來源值
+
+[heading.import/templates/Example template]
+original=Example template
+translation=範本範例
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=開始之前
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=匯入你的 Logseq 圖譜
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=限制
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=設定
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=日誌
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=展平大綱
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=保留不相容的資料
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=範本
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=疑難排解
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=尋找你的筆記檔案
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=匯入你的 Tomboy 或 Gnote 筆記
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=模板

@@ -2,6 +2,8 @@
 permalink: import/notion
 aliases:
   - Import from Notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian позволяет легко перенести ваши заметки из Notion с помощью [[Импортёр|плагина Импортёр]]. Он преобразует ваши данные из Notion в долговечные файлы Markdown, которые можно использовать офлайн с Obsidian и многими другими приложениями.
 

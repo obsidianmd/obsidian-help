@@ -1,5 +1,7 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
 Obsidian et permet migrar les teves dades des d'Airtable utilitzant el [[Importador|connector Importador]]. Això convertirà les teves bases d'Airtable a fitxers Markdown duradors que pots utilitzar fora de línia amb Obsidian i moltes altres aplicacions.
 

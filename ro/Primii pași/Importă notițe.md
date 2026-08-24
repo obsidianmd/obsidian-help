@@ -19,11 +19,12 @@ Aplicațiile vin și pleacă, dar datele dumneavoastră ar trebui să dureze. Ob
 - <span class="icon-app icon-bear"></span> [[Importă din Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Importă din Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importă din Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Importă din Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importă din Tomboy și Gnote|Tomboy și Gnote]]
 - <span class="icon-app icon-html"></span> [[Importă fișiere HTML|Fișiere HTML]]
 - <span class="icon-app icon-md"></span> [[Importă fișiere CSV]]
 - <span class="icon-app icon-md"></span> [[Importă fișiere Markdown|Fișiere Markdown]]
 - <span class="icon-app icon-md"></span> [[Importă fișiere Textbundle|Fișiere Textbundle]]
-- <span class="icon-app icon-md"></span> [[Importă notițe Zettelkasten|Note Zettelkasten]]
 
 ## Mai multe formate
 
@@ -33,7 +34,6 @@ Comunitatea noastră a distribuit ghiduri suplimentare care vă pot ajuta să mi
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

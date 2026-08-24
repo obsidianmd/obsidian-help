@@ -214,6 +214,10 @@ translation=Nhập từ Google Keep
 original=Import HTML files
 translation=Nhập tệp HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Nhập từ Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Nhập tệp Markdown
@@ -230,9 +234,17 @@ translation=Nhập từ Microsoft OneNote
 original=Import from Roam Research
 translation=Nhập từ Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Mẫu trình nhập
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Nhập tệp Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Nhập từ Tomboy và Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

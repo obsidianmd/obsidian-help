@@ -1,7 +1,9 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
-Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Roam Research menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Roam Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Roam Research menggunakan [[Impor|plugin Importer]]. Ini mengonversi data Roam Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 ## Ekspor data Anda dari Roam Research
 
@@ -22,7 +24,13 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 6. Pilih lokasi file `.json` Anda.
 7. Di bagian **Output folder**, pilih di mana file Anda harus diimpor.
 8. Jika Anda ingin juga mengimpor lampiran, aktifkan **Download all attachments**.
-9. Klik **Import** dan tunggu hingga impor selesai.
-10. Selesai!
+9. Pilih **Import** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari halaman Anda.
+10. Pilih **Import** lagi dan tunggu hingga impor selesai.
 
 ![[Roam-Importer-importing.png]]
+
+## Templat
+
+Gunakan [[Template Importer|templat Importer]] untuk mengonfigurasi sepenuhnya bagaimana data Roam Research Anda diimpor.
+
+![[Template Importer#Variables]]

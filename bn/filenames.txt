@@ -214,6 +214,10 @@ translation=Google Keep থেকে ইম্পোর্ট করুন
 original=Import HTML files
 translation=HTML ফাইল ইম্পোর্ট করুন
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseq থেকে ইম্পোর্ট
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown ফাইল ইম্পোর্ট করুন
@@ -230,9 +234,17 @@ translation=Microsoft OneNote থেকে ইম্পোর্ট করুন
 original=Import from Roam Research
 translation=Roam Research থেকে ইম্পোর্ট করুন
 
+[file.import/templates]
+original=Importer templates
+translation=ইম্পোর্টার টেমপ্লেট
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle ফাইল ইম্পোর্ট করুন
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tomboy এবং Gnote থেকে ইম্পোর্ট
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

@@ -1,5 +1,7 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
 Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak verilerinizi Airtable'dan taşımanıza olanak tanır. Bu işlem, Airtable tabanlarınızı Obsidian ve diğer birçok uygulamayla çevrimdışı kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
@@ -34,23 +36,25 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 7. Tabanlarınıza göz atmak için **Yükle** düğmesine tıklayın, ardından içe aktarmak istediğiniz tabloları seçin.
 8. İçe aktarma seçeneklerini gözden geçirin ve düzenleyin.
 9. Alanlarınızın [[Özellikler|özelliklerle]] birlikte notlara nasıl dönüştürüleceğini yapılandırmak için **Import** seçeneğini seçin.
-10. **Devam et** düğmesine tıklayın ve içe aktarma tamamlanana kadar bekleyin.
-11. Tamamlandı!
+10. Oluşturulan şablonu gözden geçirmek ve kayıtlarınızdan örnekleri önizlemek için **Devam et** seçeneğini seçin.
+11. **Import** seçeneğini seçin ve içe aktarmanın tamamlanmasını bekleyin.
 
-### İçe aktarma seçenekleri
+## İçe aktarma seçenekleri
 
 - **Convert formulas** — formül, lookup, rollup ve count alanlarının [[Formüller|Tabanlar formüllerine]] dönüştürülüp dönüştürülmeyeceğini seçin; eşdeğeri olmadığında Airtable'ın hesapladığı değere geri dönülür veya yalnızca statik değerler olarak içe aktarılır.
 - **Ekleri indir** — ek dosyalarını ek klasörü ve bağlantı biçimi ayarlarınızı kullanarak kasanıza kaydedin. Devre dışı bırakıldığında veya indirme başarısız olduğunda, not Airtable'daki dosyanın URL'sine bağlantı verir.
-- **View property name** — bir kaydın hangi Airtable görünümlerine ait olduğunu kaydeden özellik. Oluşturulan Tabandaki her görünüm bu özelliğe göre filtre uygular. Varsayılan değeri `base`'dir.
-- **Incremental import** — daha sonraki bir içe aktarmanın zaten içe aktarılmış kayıtları atlayabilmesi için her nota bir `airtable-id` özelliği ekler. Tam içe aktarmada bu özellik tekrar kaldırılır.
+- **View property name** — bir kaydın hangi Airtable görünümlerine ait olduğunu kaydeden özellik. Oluşturulan Tabandaki her görünüm bu özelliğe göre filtre uygular. Varsayılan değeri `Views`'dur.
+- **Save Airtable record ID** — gelecekteki içe aktarmaların notları taşındıktan veya yeniden adlandırıldıktan sonra kayıtları tanıyabilmesi için bir `airtable-id` özelliği ekler.
 
 ## Airtable alanlarının nasıl içe aktarılacağını yapılandırma
 
-İçe aktarmanın ikinci adımında, her alanın nasıl içe aktarılacağını seçebilirsiniz.
+Alan yapılandırma adımında, her alanın nasıl içe aktarılacağını seçebilirsiniz.
 
-Tablolarınızdaki her alana `{{alan_adı}}` adında bir değişken atanır. Varsayılan olarak her alan bir özellik olur ve bu değişkenleri özellik adlarını değiştirmek, değerlerini düzenlemek veya her notun gövdesine içerik yazmak için kullanabilirsiniz.
+Varsayılan olarak her Airtable alanı bir özellik olur. Şablon önizlemesine geçmeden önce özellikleri yeniden adlandırabilir, kaldırabilir ve değerlerini değiştirebilirsiniz.
 
-Her tablonun birincil alanı daima not başlığı olarak kullanılır ve kayıtlar daima tablolarının adını taşıyan bir klasöre yerleştirilir, bu nedenle bu seçenekler yapılandırılabilir değildir.
+Her tablonun birincil alanı varsayılan not adını sağlar. Not adı şablonunu önizleme adımından düzenleyebilirsiniz. Kayıtlar daima tablolarının adını taşıyan bir klasöre yerleştirilir.
+
+Oluşturulan Markdown'ı özelleştirmek için [[İçe aktarıcı şablonları]] bölümüne bakın.
 
 ## Neler içe aktarılır
 
@@ -75,10 +79,8 @@ Airtable/
 - Bağlantılı kayıtlar, ilgili notlara bağlantılara dönüşür.
 - Ekler, kasa ayarlarınız kullanılarak kasanıza indirilir.
 
-## Sınırlamalar
 
-> [!info] Airtable içe aktarma yeni bir özelliktir
-> Airtable içe aktarıcı yenidir. Dönüştürme sırasında sorunlarla karşılaşırsanız, iyileştirmemiz için [hata raporu gönderin](https://github.com/obsidianmd/obsidian-importer/issues).
+## Sınırlamalar
 
 Airtable API hız sınırlamaları nedeniyle büyük tabanların içe aktarılması uzun sürebilir. Lütfen sabırlı olun.
 
@@ -89,3 +91,7 @@ Airtable API'sindeki sınırlamalar nedeniyle bazı veriler mevcut değildir vey
 - Yalnızca grid, gallery ve list görünümleri içe aktarılır. Takvim, kanban, zaman çizelgesi ve Gantt gibi diğer görünüm türleri yok sayılır.
 - Seçmediğiniz tablolardaki kayıtlara olan bağlantılar, bağlantı yerine kaydın düz başlığı olarak görünür.
 - Arayüz tasarımları, otomasyonlar, yorumlar ve revizyon geçmişi içe aktarılmaz.
+
+## Sorun giderme
+
+Dönüştürme sırasında sorunlarla karşılaşırsanız, iyileştirmemiz için [hata raporu gönderin](https://github.com/obsidianmd/obsidian-importer/issues).

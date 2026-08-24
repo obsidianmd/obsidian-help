@@ -17,11 +17,12 @@ Appar kommer och går, men dina data bör bestå. Obsidian använder icke-propri
 - <span class="icon-app icon-bear"></span> [[Importera från Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Importera från Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importera från Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Importera från Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importera från Tomboy och Gnote|Tomboy och Gnote]]
 - <span class="icon-app icon-html"></span> [[Importera HTML-filer|HTML-filer]]
 - <span class="icon-app icon-md"></span> [[Importera CSV-filer]]
 - <span class="icon-app icon-md"></span> [[Importera Markdown-filer|Markdown-filer]]
 - <span class="icon-app icon-md"></span> [[Importera Textbundle-filer|Textbundle-filer]]
-- <span class="icon-app icon-md"></span> [[Importera Zettelkasten-anteckningar|Zettelkasten-anteckningar]]
 
 ## Fler format
 
@@ -31,7 +32,6 @@ Ytterligare guider har delats av vår gemenskap som kan hjälpa dig att migrera 
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

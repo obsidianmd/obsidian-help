@@ -17,11 +17,12 @@ Aplikace přicházejí a odcházejí, ale vaše data by měla vydržet. Obsidian
 - <span class="icon-app icon-bear"></span> [[Importovat z Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Importovat z Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importovat z Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Importovat z Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importovat z Tomboy a Gnote|Tomboy a Gnote]]
 - <span class="icon-app icon-html"></span> [[Importovat soubory HTML|HTML soubory]]
 - <span class="icon-app icon-md"></span> [[Importovat soubory CSV]]
 - <span class="icon-app icon-md"></span> [[Importovat soubory Markdown|Markdown soubory]]
 - <span class="icon-app icon-md"></span> [[Importovat soubory Textbundle|Textbundle soubory]]
-- <span class="icon-app icon-md"></span> [[Importovat poznámky Zettelkasten|Zettelkasten poznámky]]
 
 ## Další formáty
 
@@ -31,7 +32,6 @@ Naše komunita sdílela další průvodce, kteří vám mohou pomoci s migrací 
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

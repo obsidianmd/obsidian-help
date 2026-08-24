@@ -1,5 +1,7 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi, hogy könnyedén átköltöztesd jegyzeteidet a Notionből az [[Importáló|Importáló bővítmény]] segítségével. Ez a Notion adataidat tartós Markdown fájlokká alakítja, amelyeket offline is használhatsz az Obsidiannel és sok más alkalmazással.
 

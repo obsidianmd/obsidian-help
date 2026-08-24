@@ -214,6 +214,10 @@ translation=Google Keep에서 들여오기
 original=Import HTML files
 translation=HTML 파일 들여오기
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseq에서 가져오기
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown 파일 들여오기
@@ -230,9 +234,17 @@ translation=Microsoft OneNote에서 들여오기
 original=Import from Roam Research
 translation=Roam Research에서 들여오기
 
+[file.import/templates]
+original=Importer templates
+translation=임포터 템플릿
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle 파일 들여오기
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tomboy 및 Gnote에서 가져오기
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

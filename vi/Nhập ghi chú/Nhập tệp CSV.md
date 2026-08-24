@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian cho phép bạn nhập dữ liệu từ tệp CSV bằng [[Trình nhập|plugin Trình nhập]] chính thức. Điều này hữu ích nếu bạn có dữ liệu dạng bảng được lưu trữ trong các ứng dụng như Excel, Google Sheets, Numbers, Notion hoặc Airtable.
 
@@ -17,12 +19,25 @@ Bạn sẽ cần plugin chính thức Obsidian [[Trình nhập]], bạn có th�
 4. Mở plugin **Trình nhập** bằng bảng lệnh hoặc biểu tượng thanh công cụ.
 5. Trong **Định dạng tệp** chọn **CSV (.csv).**
 6. Chọn vị trí tệp CSV của bạn.
-7. Nhấp **Nhập** để cấu hình cách dữ liệu trong tệp CSV của bạn sẽ được chuyển đổi thành ghi chú với [[Thuộc tính]].
-8. Nhấp **Tiếp tục** và đợi cho đến khi quá trình nhập hoàn tất.
-9. Hoàn thành!
+7. Chọn **Nhập** để cấu hình cách dữ liệu trong tệp CSV của bạn sẽ được chuyển đổi thành ghi chú với [[Thuộc tính]].
+8. Chọn **Tiếp tục** để xem lại mẫu đã tạo và xem trước các ví dụ từ các hàng của bạn.
+9. Chọn **Nhập** và đợi quá trình nhập hoàn tất.
 
 ## Cấu hình cách các trường CSV được nhập
 
-Ở bước thứ hai của quá trình nhập CSV, bạn có thể chọn cách dữ liệu được nhập bằng mẫu.
+Ở bước cấu hình trường, bạn có thể chọn cách dữ liệu được nhập. Trình nhập tạo một mẫu từ các tiêu đề CSV, sử dụng cột đầu tiên cho tên ghi chú ban đầu và tạo một thuộc tính cho mỗi cột.
 
-Mỗi cột trong tệp CSV của bạn được gán một biến gọi là `{{column_name}}` đại diện cho tên tiêu đề trong tệp của bạn. Bạn có thể sử dụng biến này để định nghĩa tiêu đề, vị trí, nội dung và [[Thuộc tính|thuộc tính]] của ghi chú.
+## Mẫu
+
+Sử dụng [[Mẫu trình nhập|mẫu Trình nhập]] để cấu hình đầy đủ cách dữ liệu của bạn được nhập.
+
+Mỗi cột CSV đều có thể sử dụng được thông qua tiêu đề của nó. Nếu một cột không có tiêu đề, Trình nhập sẽ sử dụng tên cột được tạo tự động.
+
+Sử dụng ký pháp ngoặc vuông để xử lý an toàn khoảng trắng và dấu câu:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Mẫu trình nhập#Variables]]

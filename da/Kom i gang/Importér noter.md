@@ -20,11 +20,12 @@ Applikationer kommer og går, men dine data burde blive ved med at eksistere. Ob
 - <span class="icon-app icon-bear"></span> [[Import fra Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Import fra Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Import fra Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Import fra Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Import fra Tomboy og Gnote|Tomboy and Gnote]]
 - <span class="icon-app icon-html"></span> [[Import af HTML filer|HTML files]]
 - <span class="icon-app icon-md"></span> [[Importér CSV-filer]]
 - <span class="icon-app icon-md"></span> [[Import af Markdown filer|Markdown files]]
 - <span class="icon-app icon-md"></span> [[Import af Textbundle filer|Textbundle files]]
-- <span class="icon-app icon-md"></span> [[Import af Zettelkasten noter|Zettelkasten notes]]
 
 ## Flere formater
 
@@ -34,7 +35,6 @@ Yderligere vejledninger er blevet delt af vores fællesskab, som kan hjælpe dig
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

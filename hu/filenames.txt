@@ -214,6 +214,10 @@ translation=Importálás a Google Keepből
 original=Import HTML files
 translation=HTML fájlok importálása
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importálás Logseq-ből
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown fájlok importálása
@@ -230,9 +234,17 @@ translation=Importálás a Microsoft OneNote-ból
 original=Import from Roam Research
 translation=Importálás a Roam Research-ből
 
+[file.import/templates]
+original=Importer templates
+translation=Importáló sablonok
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle fájlok importálása
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importálás Tomboy és Gnote alkalmazásból
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

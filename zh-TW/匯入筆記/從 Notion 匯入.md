@@ -1,5 +1,7 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過 [[匯入工具|匯入工具外掛程式]] 輕鬆地從 Notion 匯入筆記。這會將你的 Notion 資料轉換為耐用的 Markdown 檔案，你可以離線使用 Obsidian 和其他許多應用程式來存取這些檔案。
 

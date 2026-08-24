@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Use condicionais, loops e atribuição de variáveis nos modelos do Web Clipper.'
 ---
-O [[Introdução ao Obsidian Web Clipper|Web Clipper]] suporta lógica de modelos para condicionais, ciclos e atribuição de variáveis. Esta sintaxe é inspirada nas linguagens de modelos [Twig](https://twig.symfony.com/) e [Liquid](https://shopify.github.io/liquid/).
+O [[Introdução ao Obsidian Web Clipper|Web Clipper]] suporta lógica de modelos para condicionais, ciclos e atribuição de variáveis. Esta sintaxe chama-se [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Condicionais

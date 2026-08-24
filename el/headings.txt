@@ -1009,3 +1009,75 @@ translation=Πλαϊνή μπάρα
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Συχνές ερωτήσεις
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Πριν ξεκινήσετε
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Εισαγωγή του γραφήματος Logseq σας
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Περιορισμοί
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Ρυθμίσεις
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Ημερολόγια
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Ισοπέδωση διαρθρώσεων
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Διατήρηση μη συμβατών δεδομένων
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Πρότυπα
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Αντιμετώπιση προβλημάτων
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Εντοπισμός των αρχείων σημειώσεων
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Εισαγωγή των σημειώσεων Tomboy ή Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Πρότυπα
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Επεξεργασία του προτύπου εισαγωγής
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Προεπισκόπηση αποτελεσμάτων
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Σύνταξη προτύπου
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Μεταβλητές
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Τιμές πηγής για ιδιότητες
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Παράδειγμα προτύπου

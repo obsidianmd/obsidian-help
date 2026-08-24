@@ -1,5 +1,7 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
 Obsidian 可讓你從 Craft 遷移筆記。這會將你的 Craft 資料轉換為耐久的 Markdown 檔案，你可以在 Obsidian 及許多其他應用程式中使用。
 

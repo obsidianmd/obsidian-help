@@ -1,12 +1,18 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
-Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notlarınızı Notion'dan kolayca taşımanızı sağlar. Bu işlem, Notion verilerinizi Obsidian ve diğer birçok uygulamayla çevrimdışı kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
+Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak verilerinizi Notion'dan kolayca taşımanızı sağlar. Bu işlem, Notion çalışma alanınızı Obsidian ve diğer birçok uygulamayla çevrimdışı kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
 Obsidian, Notion verilerinizi içe aktarmak için iki yol sunar:
 
 1. **Notion hesabı (önerilen)** doğrudan çalışma alanınıza bağlanır ve Veritabanları ile formülleri koruyarak bunları [[Tabanlara giriş|Tabanlar]]'a dönüştürmenizi sağlar. Bir Notion entegrasyon belirteci ve internet bağlantısı gerektirir.
 2. **Dosya ile içe aktarma**, Notion'ın `.zip` dışa aktarma dosyalarını kullanır. Veritabanlarını korumaz ancak bir API belirteci veya internet bağlantısı gerektirmez.
+
+## İçe aktarılan sayfaları özelleştirme
+
+Her iki içe aktarma yöntemi de içe aktarma başlamadan önce bir önizleme gösterir. Oluşturulan şablonu düzenleyebilir veya kasanızdan bir Markdown şablonu seçebilirsiniz. Kapak ve veritabanı özellik adları gibi ayarlar, önizlemede gösterilen oluşturulan özellikleri günceller. Bkz. [[İçe aktarıcı şablonları]].
 
 ## Notion hesabınızdan içe aktarma
 
@@ -52,8 +58,8 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 6. **API token** altında, yeni bir gizli bilgi eklemek için **Bağla...** öğesine tıklayın. **Kimlik** için `notion` gibi bir ad verin ve **Gizli bilgi** için Notion'dan aldığınız **Access token** değerini yapıştırın.
 7. İçe aktarmak istediğiniz veritabanlarını ve sayfaları seçmek için **Yükle** öğesine tıklayın.
 8. İçe aktarma seçeneklerini gözden geçirin ve düzenleyin.
-9. **İçe aktar** öğesini seçin ve içe aktarma tamamlanana kadar bekleyin.
-10. İşlem tamamlandı!
+9. Oluşturulan şablonu gözden geçirmek ve sayfalarınızdan önizleme örneklerini görmek için **İçe aktar** öğesini seçin.
+10. İçe aktarma işleminin tamamlanması için tekrar **İçe aktar** öğesini seçin ve bekleyin.
 
 ### Sınırlamalar
 
@@ -106,8 +112,8 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 6. İçe aktarmak istediğiniz Notion dosyalarını içeren `.zip` dosyasını seçin. *Dahili bağlantıların doğru şekilde eşleştirilmesi için tüm Notion verilerinizi tek seferde içe aktarmanız önerilir.*
 7. _İsteğe bağlı olarak_, içe aktarma için bir klasör seçin. Notion sayfalarınız ve veritabanlarınız bu klasörün içine yerleştirilecektir.
 8. Notion yapısını korumak için **Save parent pages in subfolders** seçeneğini etkinleştirin. *Notion'da klasörlere içerik yazabileceğinizi, ancak bunun Obsidian'da mümkün olmadığını ve bu sayfaların klasör altında bir alt sayfa olarak ekleneceğini unutmayın.*
-9. **İçe aktar** öğesini seçin ve içe aktarma tamamlanana kadar bekleyin.
-10. İşlem tamamlandı!
+9. Oluşturulan şablonu gözden geçirmek ve sayfalarınızdan önizleme örneklerini görmek için **İçe aktar** öğesini seçin.
+10. İçe aktarma işleminin tamamlanması için tekrar **İçe aktar** öğesini seçin ve bekleyin.
 
 ### Sorun giderme
 
@@ -127,3 +133,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Bu hatayı görürseniz, Notion'dan gelen dosyayı açabilir ve ardından iç içe geçmiş `Export-{id}-Part-1.zip` dosyalarını içe aktarabilirsiniz.
+
+## Şablonlar
+
+Notion verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe Aktarıcı şablonlarını]] kullanın.
+
+![[İçe aktarıcı şablonları#Variables]]

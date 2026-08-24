@@ -4041,3 +4041,75 @@ translation=사이드바
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=자주 묻는 질문
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=시작하기 전에
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Logseq 그래프 가져오기
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=제한 사항
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=설정
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=저널
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=아웃라인 펼치기
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=호환되지 않는 데이터 보존
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=템플릿
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=문제 해결
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=노트 파일 찾기
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tomboy 또는 Gnote 노트 들여오기
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=템플릿
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=가져오기 템플릿 편집
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=결과 미리보기
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=템플릿 구문
+
+[heading.import/templates/Variables]
+original=Variables
+translation=변수
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=속성의 원본 값
+
+[heading.import/templates/Example template]
+original=Example template
+translation=예시 템플릿

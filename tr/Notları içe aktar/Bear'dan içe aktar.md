@@ -1,16 +1,25 @@
 ---
 permalink: import/bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notlarınızı Bear'dan kolayca taşımanıza olanak tanır. Bu işlem, Bear verilerinizi Obsidian ve diğer birçok uygulamayla kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
 ## Verilerinizi Bear'dan dışa aktarın
 
-Obsidian, Bear'ın yedekleme biçimi olan `.bear2bk` dosyalarını kullanır. Yedek oluşturma talimatlarını [Bear'ın web sitesinde](https://bear.app/faq/backup-restore/) bulabilirsiniz.
+Obsidian, Bear'ın yedekleme biçimleri olan `.bear2bk` veya `ApplicationData.zip` dosyalarını kullanabilir.
+
+### iOS
 
 1. Bear'ı açın.
-2. Bir yedek oluşturun
-	1. macOS'ta: **File** → **Backup notes**.
-	2. iOS'ta: kenar çubuğunun üst kısmındaki diğer menüye (⋮) tıklayın ve **Backup all notes** seçeneğini belirleyin.
+2. **Settings** → **Advanced** → **Share Application Data** yolunu izleyin.
+3. Yedek dosyanız için bir konum seçin.
+4. Artık tüm notlarınızı içeren bir `ApplicationData.zip` dosyanız olmalıdır.
+
+### macOS
+
+1. Bear'ı açın.
+2. **File** → **Backup notes** yolunu izleyin.
 3. Yedek dosyanız için bir konum seçin.
 4. **Export notes**'a tıklayın.
 5. Artık tüm notlarınızı içeren bir `.bear2bk` dosyanız olmalıdır.
@@ -23,7 +32,13 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 2. **Topluluk Eklentileri**'ne gidin ve [İçe aktarıcı'yı indirin](obsidian://show-plugin?id=obsidian-importer).
 3. İçe aktarıcı eklentisini etkinleştirin.
 4. Komut paleti veya araç çubuğu simgesini kullanarak **İçe aktarıcı** eklentisini açın.
-5. **Biçimlendirme** altında **Bear (.bear2bk)** seçeneğini belirleyin.
+5. **Biçimlendirme** altında **Bear (.bear2bk, .zip)** seçeneğini belirleyin.
 6. Bear yedek dosyanızın konumunu seçin.
-7. **İçe aktar**'a tıklayın ve içe aktarma işleminin tamamlanmasını bekleyin.
-8. İşlem tamamlandı!
+7. Oluşturulan şablonu incelemek ve notlarınızdan önizleme örneklerini görmek için **İçe aktar**'ı seçin.
+8. Tekrar **İçe aktar**'ı seçin ve içe aktarma işleminin tamamlanmasını bekleyin.
+
+## Şablonlar
+
+Bear verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe aktarıcı şablonlarını]] kullanın.
+
+![[İçe aktarıcı şablonları#Variables]]

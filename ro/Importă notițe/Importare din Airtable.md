@@ -1,7 +1,9 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
-Obsidian îți permite să migrezi datele din Airtable folosind [[Importator|modulul Importator]]. Acesta va converti bazele tale Airtable în fișiere Markdown durabile pe care le poți folosi offline cu Obsidian și multe alte aplicații.
+Obsidian îți permite să migrezi datele din Airtable folosind [[Importator|modulul Importator]]. Acesta convertește bazele tale Airtable în fișiere Markdown durabile pe care le poți folosi offline cu Obsidian și multe alte aplicații.
 
 Fiecare tabel devine un director de notițe cu o notiță per înregistrare, plus un fișier [[Introducere în Baze|Bază]] care recreează tabelul și vizualizările sale. Deoarece folosește API-ul Airtable, importul necesită un token de acces personal și o conexiune la internet.
 
@@ -34,23 +36,25 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 7. Dă clic pe **Încarcă** pentru a naviga prin bazele tale, apoi selectează tabelele pe care vrei să le importi.
 8. Revizuiește și editează opțiunile de import.
 9. Selectează **Import** pentru a configura cum vor fi convertite câmpurile tale în notițe cu [[Proprietăți|proprietăți]].
-10. Dă clic pe **Continuă** și așteaptă până când importul este complet.
-11. Gata!
+10. Selectează **Continuă** pentru a revizui șablonul generat și a previzualiza exemple din înregistrările tale.
+11. Selectează **Import** și așteaptă finalizarea importului.
 
-### Opțiuni de import
+## Opțiuni de import
 
 - **Convert formulas** — alege dacă câmpurile de tip formulă, lookup, rollup și count sunt rescrise ca [[Formule|formule Baze]], cu revenire la valoarea calculată de Airtable când nu există un echivalent, sau importate doar ca valori statice.
 - **Descarcă atașamentele** — salvează fișierele atașate în seiful tău, folosind setările tale pentru directorul de atașamente și formatul legăturilor. Când este dezactivat, sau când descărcarea eșuează, notița face legătura către URL-ul fișierului de pe Airtable.
-- **View property name** — proprietatea care înregistrează căror vizualizări Airtable aparține o înregistrare. Fiecare vizualizare din Baza generată filtrează pe baza acestei proprietăți. Implicit este `base`.
-- **Incremental import** — adaugă o proprietate `airtable-id` fiecărei notițe, astfel încât un import ulterior poate sări peste înregistrările deja importate. La un import complet, această proprietate este eliminată din nou.
+- **View property name** — proprietatea care înregistrează căror vizualizări Airtable aparține o înregistrare. Fiecare vizualizare din Baza generată filtrează pe baza acestei proprietăți. Implicit este `Views`.
+- **Save Airtable record ID** — adaugă o proprietate `airtable-id` astfel încât importurile viitoare pot recunoaște înregistrările după ce notițele lor au fost mutate sau redenumite.
 
 ## Configurează cum sunt importate câmpurile Airtable
 
-În al doilea pas al importului, poți alege cum este importat fiecare câmp.
+În pasul de configurare a câmpurilor, poți alege cum este importat fiecare câmp.
 
-Fiecărui câmp din tabelele tale i se atribuie o variabilă numită `{{field_name}}`. Implicit, fiecare câmp devine o proprietate, iar tu poți folosi aceste variabile pentru a redenumi proprietăți, a le schimba valorile sau a scrie conținut în corpul fiecărei notițe.
+Implicit, fiecare câmp Airtable devine o proprietate. Poți redenumi sau elimina proprietăți și le poți schimba valorile înainte de a continua la previzualizarea șablonului.
 
-Câmpul primar al fiecărui tabel este folosit întotdeauna ca titlu al notiței, iar înregistrările sunt întotdeauna plasate într-un director denumit după tabelul lor, deci aceste opțiuni nu sunt configurabile.
+Câmpul primar al fiecărui tabel furnizează numele implicit al notiței. Poți edita șablonul numelui notiței din pasul de previzualizare. Înregistrările sunt întotdeauna plasate într-un director denumit după tabelul lor.
+
+Consultă [[Șabloane Importator]] pentru a personaliza Markdown-ul generat.
 
 ## Ce se importă
 
@@ -75,10 +79,8 @@ Airtable/
 - Înregistrările legate devin legături către notițele corespunzătoare.
 - Atașamentele sunt descărcate în seiful tău folosind setările seifului.
 
-## Limitări
 
-> [!info] Importul Airtable este nou
-> Importatorul Airtable este nou. Dacă întâmpini probleme cu conversia, [trimite un raport de eroare](https://github.com/obsidianmd/obsidian-importer/issues) pentru ca noi să îl putem îmbunătăți.
+## Limitări
 
 Din cauza limitărilor de rată ale API-ului Airtable, importul bazelor mari poate dura un timp considerabil. Te rugăm să ai răbdare.
 
@@ -89,3 +91,7 @@ Din cauza limitărilor API-ului Airtable, unele date nu sunt disponibile sau nu 
 - Doar vizualizările grid, gallery și list sunt importate. Alte tipuri de vizualizări, cum ar fi calendar, kanban, timeline și Gantt, sunt ignorate.
 - Legăturile către înregistrări din tabelele pe care nu le-ai selectat devin titlul simplu al înregistrării în loc de o legătură.
 - Designurile de interfață, automatizările, comentariile și istoricul revizuirilor nu sunt importate.
+
+## Depanare
+
+Dacă întâmpini probleme cu conversia, [trimite un raport de eroare](https://github.com/obsidianmd/obsidian-importer/issues) pentru ca noi să îl putem îmbunătăți.

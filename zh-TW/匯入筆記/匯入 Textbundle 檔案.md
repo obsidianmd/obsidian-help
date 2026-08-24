@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 Obsidian 可以讓你使用官方的[[匯入工具|匯入工具外掛]]輕鬆匯入 [Textbundle](https://textbundle.org/) 檔案。
 

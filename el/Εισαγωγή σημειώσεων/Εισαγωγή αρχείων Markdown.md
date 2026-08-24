@@ -1,5 +1,7 @@
 ---
 permalink: import/markdown
+cssclasses:
+  - soft-embed
 ---
 Το Obsidian χρησιμοποιεί αρχεία Markdown `.md` ως την κύρια μορφή για τις σημειώσεις. Αυτό διευκολύνει την εισαγωγή αρχείων Markdown στο Obsidian. Πολλές εφαρμογές μπορούν να επεξεργαστούν αρχεία Markdown ή να εξάγουν σε αυτήν τη μορφή.
 

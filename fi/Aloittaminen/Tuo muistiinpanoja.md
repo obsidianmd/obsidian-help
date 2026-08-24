@@ -17,11 +17,12 @@ Sovellukset tulevat ja menevät, mutta tietojesi tulisi kestää. Obsidian käyt
 - <span class="icon-app icon-bear"></span> [[Tuo Bearista|Bear]]
 - <span class="icon-app icon-craft"></span> [[Tuo Craftista|Craft]]
 - <span class="icon-app icon-roam"></span> [[Tuo Roam Researchista|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Tuo Logseqista|Logseq]]
+- <span class="icon-app icon-md"></span> [[Tuo Tomboysta ja Gnotesta|Tomboy ja Gnote]]
 - <span class="icon-app icon-html"></span> [[Tuo HTML-tiedostoja|HTML-tiedostot]]
 - <span class="icon-app icon-md"></span> [[Tuo CSV-tiedostoja]]
 - <span class="icon-app icon-md"></span> [[Tuo Markdown-tiedostoja|Markdown-tiedostot]]
 - <span class="icon-app icon-md"></span> [[Tuo Textbundle-tiedostoja|Textbundle-tiedostot]]
-- <span class="icon-app icon-md"></span> [[Tuo Zettelkasten-muistiinpanoja|Zettelkasten-muistiinpanot]]
 
 ## Lisää muotoja
 
@@ -31,7 +32,6 @@ Yhteisömme on jakanut lisäoppaita, jotka voivat auttaa sinua siirtymään Obsi
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

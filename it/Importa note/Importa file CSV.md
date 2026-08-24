@@ -2,6 +2,8 @@
 permalink: import/csv
 aliases:
   - Import CSV files
+cssclasses:
+  - soft-embed
 ---
 Obsidian consente di importare dati da file CSV utilizzando il plugin ufficiale [[Importatore|plugin Importer]]. Questo è utile se hai dati tabulari archiviati in app come Excel, Google Sheets, Numbers, Notion o Airtable.
 
@@ -19,12 +21,25 @@ Avrai bisogno del plugin ufficiale Obsidian [[Importatore]], che puoi [installar
 4. Apri il plugin **Importer** usando la tavolozza dei comandi o l'icona nella barra degli strumenti.
 5. Sotto **Formattazione file** scegli **CSV (.csv).**
 6. Seleziona la posizione del tuo file CSV.
-7. Fai clic su **Importa** per configurare come i dati nel tuo file CSV saranno convertiti in note con [[Proprietà|Proprietà]].
-8. Fai clic su **Continua** e attendi il completamento dell'importazione.
-9. Fatto!
+7. Seleziona **Importa** per configurare come i dati nel tuo file CSV saranno convertiti in note con [[Proprietà|Proprietà]].
+8. Seleziona **Continua** per rivedere il modello generato e visualizzare in anteprima gli esempi dalle tue righe.
+9. Seleziona **Importa** e attendi il completamento dell'importazione.
 
 ## Configurare come vengono importati i campi CSV
 
-Nel secondo passaggio dell'importazione CSV, puoi scegliere come vengono importati i dati utilizzando un modello.
+Nel passaggio di configurazione dei campi, puoi scegliere come vengono importati i dati. Importer genera un modello dalle intestazioni del CSV, utilizza la prima colonna per il nome iniziale della nota e crea una proprietà per ogni colonna.
 
-A ogni colonna nel tuo file CSV viene attribuita una variabile chiamata `{{nome_colonna}}` che rappresenta il nome dell'intestazione nel tuo file. Puoi usare questa variabile per definire il titolo, la posizione, il contenuto e le [[Proprietà|proprietà]] della nota.
+## Modelli
+
+Usa i [[Modelli di Importer|modelli di Importer]] per configurare completamente come vengono importati i tuoi dati.
+
+Ogni colonna CSV è disponibile tramite la sua intestazione. Se una colonna non ha intestazione, Importer utilizza il nome di colonna generato.
+
+Usa la notazione tra parentesi quadre per gestire in modo sicuro spazi e punteggiatura:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Modelli di Importer#Variabili]]

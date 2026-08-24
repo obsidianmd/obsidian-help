@@ -3,6 +3,8 @@ permalink: import/textbundle
 aliases:
   - Import Textbundle files
   - استيراد ملفات Textbundle
+cssclasses:
+  - soft-embed
 ---
 يتيح لك Obsidian استيراد ملفات [Textbundle](https://textbundle.org/) بسهولة باستخدام [[المستورد|مكوّن Importer الإضافي]] الرسمي.
 

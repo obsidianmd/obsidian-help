@@ -1,7 +1,9 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
-Obsidian cho phép bạn di chuyển dữ liệu từ Airtable bằng [[Trình nhập|plugin Trình nhập]]. Thao tác này sẽ chuyển đổi các cơ sở Airtable của bạn thành các tệp Markdown bền vững mà bạn có thể sử dụng ngoại tuyến với Obsidian và nhiều ứng dụng khác.
+Obsidian cho phép bạn di chuyển dữ liệu từ Airtable bằng [[Trình nhập|plugin Trình nhập]]. Thao tác này chuyển đổi các cơ sở Airtable của bạn thành các tệp Markdown bền vững mà bạn có thể sử dụng ngoại tuyến với Obsidian và nhiều ứng dụng khác.
 
 Mỗi bảng trở thành một thư mục ghi chú với một ghi chú cho mỗi bản ghi, cùng với một tệp [[Giới thiệu về Cơ sở|Cơ sở]] tái tạo bảng và các chế độ xem của nó. Vì sử dụng Airtable API, việc nhập yêu cầu mã thông báo truy cập cá nhân và kết nối internet.
 
@@ -34,23 +36,25 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 7. Nhấp **Tải** để duyệt các cơ sở của bạn, sau đó chọn các bảng bạn muốn nhập.
 8. Xem lại và chỉnh sửa các tùy chọn nhập.
 9. Chọn **Nhập** để cấu hình cách các trường của bạn sẽ được chuyển đổi thành ghi chú với [[Thuộc tính|thuộc tính]].
-10. Nhấp **Tiếp tục** và chờ cho đến khi quá trình nhập hoàn tất.
-11. Bạn đã hoàn thành!
+10. Chọn **Tiếp tục** để xem lại mẫu được tạo và xem trước các ví dụ từ bản ghi của bạn.
+11. Chọn **Nhập** và chờ quá trình nhập hoàn tất.
 
-### Tùy chọn nhập
+## Tùy chọn nhập
 
 - **Chuyển đổi công thức** — chọn xem các trường công thức, tra cứu, tổng hợp và đếm có được viết lại thành [[Công thức|công thức Cơ sở]] hay không, sử dụng giá trị Airtable đã tính khi không có tương đương, hoặc chỉ nhập dưới dạng giá trị tĩnh.
 - **Tải xuống tệp đính kèm** — lưu các tệp đính kèm vào kho của bạn, sử dụng thư mục tệp đính kèm và cài đặt định dạng liên kết của bạn. Khi bị vô hiệu hóa, hoặc khi tải xuống thất bại, ghi chú sẽ liên kết đến URL của tệp trên Airtable.
-- **Tên thuộc tính chế độ xem** — thuộc tính ghi lại bản ghi thuộc về chế độ xem Airtable nào. Mỗi chế độ xem trong Cơ sở được tạo sẽ lọc theo thuộc tính này. Mặc định là `base`.
-- **Nhập tăng dần** — thêm thuộc tính `airtable-id` vào mỗi ghi chú để lần nhập sau có thể bỏ qua các bản ghi đã được nhập. Khi nhập toàn bộ, thuộc tính này sẽ bị xóa.
+- **Tên thuộc tính chế độ xem** — thuộc tính ghi lại bản ghi thuộc về chế độ xem Airtable nào. Mỗi chế độ xem trong Cơ sở được tạo sẽ lọc theo thuộc tính này. Mặc định là `Views`.
+- **Lưu ID bản ghi Airtable** — thêm thuộc tính `airtable-id` để các lần nhập trong tương lai có thể nhận dạng bản ghi sau khi ghi chú của chúng đã được di chuyển hoặc đổi tên.
 
 ## Cấu hình cách nhập các trường Airtable
 
-Trong bước thứ hai của quá trình nhập, bạn có thể chọn cách nhập từng trường.
+Trong bước cấu hình trường, bạn có thể chọn cách nhập từng trường.
 
-Mỗi trường trong bảng của bạn được gán một biến gọi là `{{field_name}}`. Theo mặc định, mỗi trường trở thành một thuộc tính, và bạn có thể sử dụng các biến này để đổi tên thuộc tính, thay đổi giá trị, hoặc ghi nội dung vào phần thân của mỗi ghi chú.
+Theo mặc định, mỗi trường Airtable trở thành một thuộc tính. Bạn có thể đổi tên hoặc xóa thuộc tính và thay đổi giá trị của chúng trước khi tiếp tục đến bước xem trước mẫu.
 
-Trường chính của mỗi bảng luôn được sử dụng làm tiêu đề ghi chú, và các bản ghi luôn được đặt trong thư mục có tên theo bảng của chúng, vì vậy các tùy chọn đó không thể cấu hình.
+Trường chính của mỗi bảng cung cấp tên ghi chú mặc định. Bạn có thể chỉnh sửa mẫu tên ghi chú từ bước xem trước. Các bản ghi luôn được đặt trong thư mục có tên theo bảng của chúng.
+
+Xem [[Mẫu Trình nhập]] để tùy chỉnh Markdown được tạo.
 
 ## Những gì được nhập
 
@@ -75,10 +79,8 @@ Airtable/
 - Các bản ghi được liên kết trở thành liên kết đến các ghi chú tương ứng.
 - Tệp đính kèm được tải xuống vào kho của bạn theo cài đặt kho.
 
-## Giới hạn
 
-> [!info] Nhập Airtable là tính năng mới
-> Trình nhập Airtable là mới. Nếu bạn gặp sự cố với quá trình chuyển đổi, [gửi báo cáo lỗi](https://github.com/obsidianmd/obsidian-importer/issues) để chúng tôi có thể cải thiện.
+## Giới hạn
 
 Do giới hạn tốc độ API của Airtable, việc nhập các cơ sở lớn có thể mất nhiều thời gian. Vui lòng kiên nhẫn.
 
@@ -89,3 +91,7 @@ Do giới hạn trong Airtable API, một số dữ liệu không khả dụng h
 - Chỉ các chế độ xem grid, gallery và list được nhập. Các loại chế độ xem khác, như calendar, kanban, timeline và Gantt, sẽ bị bỏ qua.
 - Liên kết đến bản ghi trong các bảng bạn không chọn sẽ trở thành tiêu đề thuần của bản ghi thay vì liên kết.
 - Thiết kế giao diện, tự động hóa, bình luận và lịch sử sửa đổi không được nhập.
+
+## Khắc phục sự cố
+
+Nếu bạn gặp sự cố với quá trình chuyển đổi, [gửi báo cáo lỗi](https://github.com/obsidianmd/obsidian-importer/issues) để chúng tôi có thể cải thiện.

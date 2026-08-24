@@ -2,6 +2,8 @@
 permalink: import/onenote
 aliases:
   - Import from Microsoft OneNote
+cssclasses:
+  - soft-embed
 ---
 Obsidian ti permette di migrare facilmente le tue note da Microsoft OneNote utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di OneNote in file Markdown durevoli, che puoi utilizzare con Obsidian e molte altre app.
 

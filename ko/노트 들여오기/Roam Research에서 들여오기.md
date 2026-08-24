@@ -2,15 +2,16 @@
 permalink: import/roam
 aliases:
   - Roam Research에서 노트 가져오기
+cssclasses:
+  - soft-embed
 ---
-
-Obsidian을 사용하면 [[들여오기|Importer 플러그인]]을 사용하여 Roam Research에서 노트를 쉽게 마이그레이션할 수 있어요.
+Obsidian을 사용하면 [[들여오기|Importer 플러그인]]을 사용하여 Roam Research에서 노트를 쉽게 마이그레이션할 수 있어요. Roam 데이터를 Obsidian 및 다른 많은 앱에서 사용할 수 있는 내구성 있는 마크다운 파일로 변환해요.
 
 ## Roam Research에서 데이터 내보내기
 
 1. Roam Research에서 오른쪽 상단의 **더 많은 작업** (`•••` 아이콘)을 클릭한 다음 **모두 내보내기**를 선택해요.
    
-   ![[Roam-exporting.png]]
+   ![[Roam-exporting.png#interface]]
 2. **내보내기 형식**에서 "JSON"을 선택한 다음 **모두 내보내기**를 선택하여 노트와 함께 아카이브를 다운로드해요.
 
 ## Roam Research 데이터를 Obsidian으로 들여오기
@@ -25,7 +26,13 @@ Obsidian을 사용하면 [[들여오기|Importer 플러그인]]을 사용하여 
 6. `.json` 파일의 위치를 선택해요.
 7. **출력 폴더**에서 파일을 가져올 위치를 선택해요.
 8. 첨부 파일도 가져오려면 **모든 첨부 파일 다운로드**를 전환해요.
-9. **가져오기**를 클릭하고 가져오기가 완료될 때까지 기다려요.
-10. 끝났어요!
+9. **가져오기**를 선택하여 생성된 템플릿을 검토하고 페이지의 미리보기 예시를 확인해요.
+10. **가져오기**를 다시 선택하고 가져오기가 완료될 때까지 기다려요.
 
 ![[Roam-Importer-importing.png]]
+
+## 템플릿
+
+[[Importer 템플릿|Importer 템플릿]]을 사용하여 Roam Research 데이터가 가져오기되는 방식을 완전히 구성할 수 있어요.
+
+![[임포터 템플릿#Variables]]

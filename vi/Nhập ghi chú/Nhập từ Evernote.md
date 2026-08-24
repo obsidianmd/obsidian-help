@@ -1,7 +1,9 @@
 ---
 permalink: import/evernote
+cssclasses:
+  - soft-embed
 ---
-Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Evernote bằng [[Trình nhập|plugin Trình nhập]]. Điều này sẽ chuyển đổi dữ liệu Evernote của bạn sang các tệp Markdown bền vững, mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
+Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Evernote bằng [[Trình nhập|plugin Trình nhập]]. Điều này sẽ chuyển đổi dữ liệu Evernote của bạn sang các tệp Markdown bền vững mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
 
 ## Xuất dữ liệu từ Evernote
 
@@ -24,10 +26,10 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 4. Mở plugin **Trình nhập** bằng bảng lệnh hoặc biểu tượng trên thanh công cụ.
 5. Trong phần **Định dạng tệp** chọn **Evernote (.enex)**.
 6. Chọn vị trí của tệp sao lưu Evernote của bạn.
-7. Nhấp **Nhập** và đợi cho đến khi quá trình nhập hoàn tất.
-8. Hoàn thành!
+7. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ ghi chú của bạn.
+8. Chọn **Nhập** lần nữa và đợi cho đến khi quá trình nhập hoàn tất.
 
-## Tùy chọn nhập nâng cao
+## Tùy chọn nhập
 
 ### Duy trì phân cấp thẻ
 
@@ -52,6 +54,8 @@ Giả sử bạn có một sổ tay tên ```NotebookA``` trong ngăn xếp tên 
 
 Kết quả là các ghi chú đã chuyển đổi sẽ được tạo trong thư mục Stack1/NotebookA.
 
-### Tùy chọn khác
+## Mẫu
 
-Để có thêm các tùy chọn nhập nâng cao từ Evernote, bạn cũng có thể thử [nhập qua Yarle](https://github.com/akosbalasko/yarle).
+Sử dụng [[Mẫu trình nhập|mẫu Trình nhập]] để cấu hình đầy đủ cách dữ liệu Evernote của bạn được nhập.
+
+![[Mẫu trình nhập#Variables]]

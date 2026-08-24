@@ -2,8 +2,10 @@
 permalink: import/evernote
 aliases:
   - Import from Evernote
+cssclasses:
+  - soft-embed
 ---
-Obsidian îți permite să îți migrezi cu ușurință notele din Evernote folosind [[Importator|modulul Importer]]. Acest lucru îți va converti datele din Evernote în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
+Obsidian îți permite să îți migrezi cu ușurință notele din Evernote folosind [[Importator|modulul Importer]]. Acest lucru îți va converti datele din Evernote în fișiere Markdown durabile pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
 ## Exportă-ți datele din Evernote
 
@@ -26,14 +28,14 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
 5. La **Format fișier** alege **Evernote (.enex)**.
 6. Selectează locația fișierului tău de rezervă Evernote.
-7. Apasă **Importă** și așteaptă până când importul este finalizat.
-8. Ai terminat!
+7. Selectează **Importă** pentru a examina șablonul generat și a previzualiza exemple din notele tale.
+8. Selectează **Importă** din nou și așteaptă finalizarea importului.
 
-## Opțiuni avansate de import
+## Opțiuni de import
 
 ### Menține ierarhia etichetelor
 
-Exportul din Evernote nu păstrează ierarhia etichetelor. Pentru a păstra ierarhia etichetelor tale, poți „aplatiza” etichetele separate prin „/”. De exemplu, presupunând că ai următoarea structură de etichete: 
+Exportul din Evernote nu păstrează ierarhia etichetelor. Pentru a păstra ierarhia etichetelor tale, poți „aplatiza" etichetele separate prin „/". De exemplu, presupunând că ai următoarea structură de etichete: 
 
 ```
 ParentTag
@@ -43,7 +45,7 @@ ParentTag
 Ce trebuie să faci pentru a păstra etichetele asociate în Obsidian este:
 
 1. Apasă clic dreapta pe ChildTag.
-2. Selectează „Rename.”
+2. Selectează „Rename."
 3. Redenumește-o `ParentTag/ChildTag`.
 
 ### Gestionarea stivelor de notebook-uri
@@ -54,6 +56,8 @@ Presupunând că ai un notebook numit ```NotebookA``` într-o stivă numită ```
 
 Rezultatul este că notele convertite vor fi generate în directorul Stack1/NotebookA.
 
-### Mai multe opțiuni
+## Șabloane
 
-Pentru opțiuni de import mai avansate din Evernote, poți încerca și [importul prin Yarle](https://github.com/akosbalasko/yarle).
+Folosește [[Șabloane pentru importator|șabloanele Importer]] pentru a configura complet modul în care datele tale din Evernote sunt importate.
+
+![[Șabloane pentru importator#Variables]]

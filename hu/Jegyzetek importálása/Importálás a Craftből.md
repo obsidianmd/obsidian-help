@@ -1,5 +1,7 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi a jegyzeteid áttelepítését a Craftből. Ez a Craft adataidat tartós Markdown fájlokká alakítja, amelyeket az Obsidiannal és sok más alkalmazással is használhatsz.
 

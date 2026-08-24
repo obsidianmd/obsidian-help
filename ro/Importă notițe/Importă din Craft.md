@@ -2,14 +2,16 @@
 permalink: import/craft
 aliases:
   - Import from Craft
+cssclasses:
+  - soft-embed
 ---
-Obsidian îți permite să îți migrezi notele din Craft. Acest lucru îți va converti datele din Craft în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
+Obsidian îți permite să îți migrezi notele din Craft. Acest lucru îți convertește datele din Craft în fișiere Markdown durabile pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
 ## Exportă-ți datele din Craft
 
 Deschide aplicația Craft de pe computerul tău:
 
-1. Mergi la vizualizarea „Organize” sau „All Documents”
+1. Mergi la vizualizarea „Organize" sau „All Documents"
 2. Apasă meniul cu trei puncte
 3. Selectează opțiunea Export.
 4. Alege Markdown.

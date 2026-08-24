@@ -1,7 +1,9 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
-Obsidian te permite migrar fácilmente tus notas desde Roam Research usando el [[Importador|complemento Importador]]. Esto convertirá tus datos de Roam a archivos Markdown duraderos, que puedes usar con Obsidian y muchas otras aplicaciones.
+Obsidian te permite migrar fácilmente tus notas desde Roam Research usando el [[Importador|complemento Importador]]. Esto convierte tus datos de Roam a archivos Markdown duraderos que puedes usar con Obsidian y muchas otras aplicaciones.
 
 ## Exportar tus datos de Roam Research
 
@@ -22,7 +24,13 @@ Necesitarás el complemento oficial [[Importador]] de Obsidian, que puedes [inst
 6. Selecciona la ubicación de tu archivo `.json`.
 7. En **Carpeta de salida**, elige dónde deben importarse tus archivos.
 8. Si también deseas importar adjuntos, activa **Descargar todos los adjuntos**.
-9. Haz clic en **Importar** y espera hasta que la importación se complete.
-10. ¡Listo!
+9. Selecciona **Importar** para revisar la plantilla generada y previsualizar ejemplos de tus páginas.
+10. Selecciona **Importar** de nuevo y espera a que la importación termine.
 
 ![[Roam-Importer-importing.png]]
+
+## Plantillas
+
+Usa [[Plantillas del importador|plantillas del Importador]] para configurar completamente cómo se importan tus datos de Roam Research.
+
+![[Plantillas del importador#Variables]]

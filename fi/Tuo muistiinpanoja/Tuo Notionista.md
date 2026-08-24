@@ -1,5 +1,7 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojesi helpon siirtämisen Notionista [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä muuntaa Notion-tietosi kestävään Markdown-muotoon, jota voit käyttää offline-tilassa Obsidianissa ja monissa muissa sovelluksissa.
 

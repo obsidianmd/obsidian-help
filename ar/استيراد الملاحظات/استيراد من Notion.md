@@ -3,6 +3,8 @@ permalink: import/notion
 aliases:
   - استيراد من Notion
   - Import from Notion
+cssclasses:
+  - soft-embed
 ---
 يتيح لك Obsidian ترحيل ملاحظاتك من Notion بسهولة باستخدام [[المستورد|مكوّن المستورد الإضافي]]. سيقوم هذا بتحويل بيانات Notion الخاصة بك إلى ملفات Markdown متينة يمكنك استخدامها دون اتصال بالإنترنت مع Obsidian والعديد من التطبيقات الأخرى.
 

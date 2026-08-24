@@ -4117,3 +4117,71 @@ translation=Barra lateral
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Preguntas frecuentes
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Antes de comenzar
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importar tu grafo de Logseq
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Limitaciones
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Ajustes
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Diarios
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Aplanar esquemas
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Preservar datos incompatibles
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Plantillas
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Solución de problemas
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Localiza tus archivos de notas
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importa tus notas de Tomboy o Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Plantillas
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Editar la plantilla de importación
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Vista previa de resultados
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Sintaxis de plantillas
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Valores de fuente para propiedades
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Plantilla de ejemplo

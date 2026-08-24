@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 Obsidian låter dig enkelt importera [Textbundle](https://textbundle.org/)-filer med det officiella [[Importerare|Importerare-tillägget]].
 
@@ -17,11 +19,21 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 4. Öppna **Importerare**-tillägget med kommandopaletten eller ribbon-ikonen.
 5. Under **Filformat** välj **Textbundle (.textbundle, .textpack).**
 6. Välj platsen för dina Textbundle- eller Textpack-filer. Zip-filer stöds också.
-7. Klicka på **Importera** och vänta tills importen är klar.
-8. Du är klar!
+7. Välj **Importera** för att granska den genererade mallen och förhandsgranska exempel från dina anteckningar.
+8. Välj **Importera** igen och vänta tills importen är klar.
+
+## Anpassa importerade anteckningar
+
+Innan importen börjar visar Importerare en förhandsgranskning genererad från de valda Textbundle-filerna. Du kan redigera den genererade mallen eller välja en Markdown-mall från ditt valv. Se [[Importerare-mallar]].
 
 ## Felsökning
 
 ### Inga filer är valda för import
 
 Textbundle-importen kan bara importera en Textbundle-fil åt gången, och bara på Mac-enheter. Istället kan du komprimera alla Textbundle-filer du vill importera till en enda .zip-fil och importera denna istället från vilken enhet som helst.
+
+## Mallar
+
+Använd [[Importerare-mallar|Importerare-mallar]] för att fullt ut konfigurera hur dina data importeras.
+
+![[Importerare-mallar#Variabler]]

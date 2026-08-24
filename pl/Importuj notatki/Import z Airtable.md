@@ -1,5 +1,7 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
 Obsidian umożliwia migrację danych z Airtable za pomocą [[Importuj notatki|wtyczki Importer]]. Konwertuje ona bazy danych Airtable na trwałe pliki Markdown, których można używać offline w Obsidian i wielu innych aplikacjach.
 

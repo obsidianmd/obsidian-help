@@ -20,6 +20,13 @@ Importer est un [[Modules complémentaires|module complémentaire]] officiel cr�
 1. Suivez les instructions dans [[Modules complémentaires#Installer un module complémentaire]]
 2. Téléchargez et activez [Importer](obsidian://show-plugin?id=obsidian-importer) depuis la liste
 
+
 ![[Importer des notes#Importer depuis d'autres applications et formats de fichiers]]
 
 ![[Importer des notes#Plus de formats]]
+
+## Modèles Importer
+
+Importer vous permet de définir des [[Importer des modèles|modèles]] qui contrôlent la façon dont vos notes sont importées depuis d'autres applications. Cela signifie que vous pouvez modifier le titre, les propriétés et le contenu des notes que vous importez.
+
+Les modèles prennent en charge les variables ainsi que les mêmes [[Obsidian Web Clipper/Filtres|filtres]] et [[Obsidian Web Clipper/Logique|logique de modèles]] que [[Introduction à Obsidian Web Clipper|Web Clipper]].

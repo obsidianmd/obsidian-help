@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa päiväkirjamerkintöjesi helpon siirtämisen Apple Journalista [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla.
 Tämä muuntaa päiväkirjasi kestäviksi Markdown-tiedostoiksi, joita voit käyttää Obsidianin ja monien muiden sovellusten kanssa.

@@ -45,3 +45,75 @@ translation=Bara laterală
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Întrebări frecvente
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Înainte de a începe
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importă graful tău Logseq
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Limitări
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Setări
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Jurnale
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Aplatizează structurile ierarhice
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Păstrează datele incompatibile
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Șabloane
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Depanare
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Localizează fișierele cu notițe
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importă notițele din Tomboy sau Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Șabloane
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Editează șablonul de import
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Previzualizează rezultatele
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Sintaxa șabloanelor
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Variabile
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Valorile sursei pentru proprietăți
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Exemplu de șablon

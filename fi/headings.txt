@@ -677,3 +677,75 @@ translation=Sivupalkki
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Usein kysytyt kysymykset
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Ennen aloittamista
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Tuo Logseq-graafisi
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Rajoitukset
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Asetukset
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Päiväkirjat
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Jäsennysten litistäminen
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Yhteensopimattoman tiedon säilyttäminen
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Mallineet
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Vianmääritys
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Paikanna muistiinpanotiedostosi
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tuo Tomboy- tai Gnote-muistiinpanosi
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Mallineet
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Muokkaa tuontipohjaa
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Tulosten esikatselu
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Pohjien syntaksi
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Muuttujat
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Lähdearvot määreille
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Esimerkkipohja

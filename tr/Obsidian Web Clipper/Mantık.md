@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Web Clipper şablonlarında koşullu ifadeler, döngüler ve değişken ataması kullanın.'
 ---
-[[Obsidian Web Kırpıcı'ya giriş|Web Kırpıcı]], koşullar, döngüler ve değişken ataması için şablon mantığını destekler. Bu söz dizimi [Twig](https://twig.symfony.com/) ve [Liquid](https://shopify.github.io/liquid/) şablon dillerinden esinlenmiştir.
+[[Obsidian Web Kırpıcı'ya giriş|Web Kırpıcı]], koşullar, döngüler ve değişken ataması için şablon mantığını destekler. Bu söz dizimi [Knap](https://github.com/obsidianmd/knap) olarak adlandırılır.
 
 
 ## Koşullar

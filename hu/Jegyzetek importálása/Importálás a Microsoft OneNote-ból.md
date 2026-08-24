@@ -1,5 +1,7 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian segítségével könnyedén áttelepítheted jegyzeteidet a Microsoft OneNote-ból az [[Importáló|Importáló bővítmény]] használatával. Ez a OneNote adataidat tartós Markdown fájlokká alakítja, amelyeket az Obsidiannal és sok más alkalmazással is használhatsz.
 

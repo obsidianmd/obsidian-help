@@ -1,7 +1,9 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
-Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Microsoft OneNote bằng [[Trình nhập|plugin Trình nhập]]. Công cụ này sẽ chuyển đổi dữ liệu OneNote của bạn sang các tệp Markdown bền vững, mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
+Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Microsoft OneNote bằng [[Trình nhập|plugin Trình nhập]]. Công cụ này chuyển đổi dữ liệu OneNote của bạn sang các tệp Markdown bền vững mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
 
 Obsidian cung cấp hai cách để nhập dữ liệu OneNote của bạn:
 
@@ -24,8 +26,8 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 7. Nhấp **Chấp nhận** để cấp quyền cho Obsidian xem Sổ tay OneNote của bạn.
 8. Nhấp **Mở liên kết** để cho phép trình duyệt chuyển hướng bạn đến ứng dụng Obsidian.
 9. Trong ứng dụng Obsidian, hộp thoại Trình nhập sẽ hiển thị rằng bạn đã đăng nhập và liệt kê các Sổ tay và Phần OneNote của bạn. Đánh dấu các phần bạn muốn nhập.
-10. Nhấp **Nhập** và đợi cho đến khi quá trình nhập hoàn tất.
-11. Hoàn thành!
+10. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ các trang của bạn.
+11. Chọn **Nhập** lần nữa và đợi cho đến khi quá trình nhập hoàn tất.
 
 Nếu sổ tay của bạn thuộc tài khoản cơ quan hoặc trường học, OneNote có thể từ chối quyền truy cập plugin sau khi bạn đăng nhập. Khi điều đó xảy ra, nút **Sử dụng quyền truy cập cơ quan hoặc trường học** sẽ xuất hiện bên cạnh **Đăng xuất**. Sử dụng nút đó để đăng nhập lại với quyền mở rộng mà các tài khoản đó cần. Tổ chức của bạn có thể phải phê duyệt quyền đó trước khi nó hoạt động.
 
@@ -88,8 +90,8 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 6. Chọn các tệp `.onepkg` và `.one` bạn muốn nhập. Bạn có thể chọn nhiều tệp cùng lúc, để tất cả sổ tay có thể được nhập cùng nhau.
 7. Trong mục **Các phần để nhập**, các phần tìm thấy trong những tệp đó được liệt kê, tất cả đều được đánh dấu. Bỏ đánh dấu những phần bạn không muốn.
 8. Tùy chọn, chọn **Thư mục đầu ra** cho quá trình nhập, nơi lưu tệp đính kèm, và cách xử lý **Ghi chú hiện có** nếu bạn nhập cùng một sổ tay lần nữa.
-9. Nhấp **Nhập** và đợi cho đến khi quá trình nhập hoàn tất.
-10. Hoàn thành!
+9. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ các trang của bạn.
+10. Chọn **Nhập** lần nữa và đợi cho đến khi quá trình nhập hoàn tất.
 
 Mỗi phần trở thành một thư mục, và mỗi trang trong đó trở thành một ghi chú. Trang con được lưu trong thư mục có tên theo trang phía trên nó, giữ nguyên cấu trúc mà OneNote hiển thị và tránh trùng tên giữa hai trang con. Các trang trong thùng rác của sổ tay không được nhập.
 
@@ -97,6 +99,12 @@ Mỗi phần trở thành một thư mục, và mỗi trang trong đó trở th�
 
 - Các phần được bảo vệ bằng mật khẩu được lưu trữ ở dạng mã hóa, và các trang của chúng sẽ bị bỏ qua. Hãy gỡ mật khẩu trong OneNote và xuất lại để nhập chúng.
 - Các tệp được bảo vệ bằng quyền chỉ có thể được mở bởi tài khoản mà chính sách cho phép, và Trình nhập không thể đọc được.
+
+## Mẫu
+
+Sử dụng [[Mẫu trình nhập|mẫu Trình nhập]] để cấu hình hoàn toàn cách dữ liệu OneNote của bạn được nhập. 
+
+![[Mẫu trình nhập#Variables]]
 
 ## Quyền riêng tư
 

@@ -4077,3 +4077,75 @@ translation=Barra lateral
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Perguntas frequentes
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Antes de começar
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importar seu grafo Logseq
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Limitações
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Configurações
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Diários
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Achatar estruturas de tópicos
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Preservar dados incompatíveis
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Modelos
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Solução de problemas
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Localizar seus arquivos de notas
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importar suas notas do Tomboy ou Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Modelos
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Editar o modelo de importação
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Pré-visualizar resultados
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Sintaxe do modelo
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Variáveis
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Valores de origem para propriedades
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Exemplo de modelo

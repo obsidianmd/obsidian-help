@@ -3,6 +3,8 @@ permalink: import/onenote
 aliases:
   - استيراد من Microsoft OneNote
   - Import from Microsoft OneNote
+cssclasses:
+  - soft-embed
 ---
 يتيح لك Obsidian ترحيل ملاحظاتك بسهولة من OneNote باستخدام مكوّن [[المستورد]] الإضافي. سيقوم هذا بتحويل بيانات OneNote الخاصة بك إلى ملفات Markdown متينة، يمكنك استخدامها مع Obsidian والعديد من التطبيقات الأخرى.
 

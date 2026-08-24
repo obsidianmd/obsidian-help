@@ -1,5 +1,7 @@
 ---
 permalink: import/markdown
+cssclasses:
+  - soft-embed
 ---
 Obsidian käyttää Markdown `.md`-tiedostoja muistiinpanojen ensisijaisena muotona. Tämän ansiosta Markdown-tiedostojen tuominen Obsidianiin on helppoa. Monet sovellukset voivat muokata Markdown-tiedostoja tai viedä tietoja tähän muotoon.
 

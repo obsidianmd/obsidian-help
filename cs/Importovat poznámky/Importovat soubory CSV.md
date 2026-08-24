@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian umožňuje importovat data ze souborů CSV pomocí oficiálního [[Importér|pluginu Importér]]. To je užitečné, pokud máte tabulková data uložená v aplikacích jako Excel, Google Sheets, Numbers, Notion nebo Airtable.
 
@@ -17,12 +19,25 @@ Budete potřebovat oficiální plugin Obsidian [[Importér]], který můžete [n
 4. Otevřete plugin **Importér** pomocí palety příkazů nebo ikony postranního panelu nástrojů.
 5. V části **Formát** vyberte **CSV (.csv).**
 6. Vyberte umístění vašeho CSV souboru.
-7. Klikněte na **Importovat** pro nastavení, jak budou data ve vašem CSV souboru převedena na poznámky s [[Vlastnosti|vlastnostmi]].
-8. Klikněte na **Pokračovat** a počkejte, dokud import neskončí.
-9. Hotovo!
+7. Vyberte **Importovat** pro nastavení, jak budou data ve vašem CSV souboru převedena na poznámky s [[Vlastnosti|vlastnostmi]].
+8. Vyberte **Pokračovat** pro kontrolu vygenerované šablony a náhled příkladů z vašich řádků.
+9. Vyberte **Importovat** a počkejte, dokud import neskončí.
 
 ## Nastavení způsobu importu polí CSV
 
-Ve druhém kroku importu CSV můžete zvolit, jak budou data importována pomocí šablony.
+V kroku konfigurace polí můžete zvolit, jak budou data importována. Importér vygeneruje šablonu ze záhlaví CSV, použije první sloupec pro počáteční název poznámky a vytvoří vlastnost pro každý sloupec.
 
-Každému sloupci ve vašem CSV souboru je přiřazena proměnná nazvaná `{{column_name}}`, která představuje název záhlaví ve vašem souboru. Tuto proměnnou můžete použít k definování názvu poznámky, umístění, obsahu a [[Vlastnosti|vlastností]].
+## Šablony
+
+Použijte [[Šablony importéru|šablony importéru]] pro úplné nastavení způsobu importu vašich dat.
+
+Každý sloupec CSV je dostupný pomocí svého záhlaví. Pokud sloupec nemá záhlaví, Importér použije vygenerovaný název sloupce.
+
+Použijte závorky, aby byly mezery a interpunkce správně zpracovány:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Šablony importéru#Proměnné]]

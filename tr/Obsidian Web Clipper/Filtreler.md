@@ -102,6 +102,13 @@ Bir dizenin her iki ucundaki boşlukları kaldırır.
 
 - `"  hello world  "|trim` ifadesi `"hello world"` döndürür.
 
+### `unescape`
+
+Kaçırılmış tırnak işaretlerini ve yeni satır dizilerini gerçek karakterlere dönüştürür.
+
+- `"Line 1\\nLine 2"|unescape` metni iki satırda döndürür.
+- `'He said \\"hello\\"'|unescape` ifadesi `He said "hello"` döndürür.
+
 ### `uncamel`
 
 camelCase veya PascalCase biçimini boşlukla ayrılmış kelimelere dönüştürür; `title` veya `capitalize` gibi diğer filtrelerle daha fazla biçimlendirebilirsiniz.
@@ -206,6 +213,14 @@ Dizelerin uzunluğunu, dizilerin eleman sayısını veya nesnelerdeki anahtar sa
 - Diziler için: `["a","b","c"]|length` ifadesi `3` döndürür.
 - Nesneler için: `{"a":1,"b":2}|length` ifadesi `2` döndürür.
 
+### `number_format`
+
+Bir sayıyı belirtilen ondalık basamak sayısı ve isteğe bağlı ondalık ve binlik ayırıcılarla biçimlendirir.
+
+- `1234.567|number_format:2` ifadesi `"1,234.57"` döndürür.
+- `1234.567|number_format:(2,",",".")` ifadesi `"1.234,57"` döndürür.
+- Diziler ve nesneler özyinelemeli olarak biçimlendirilir.
+
 ### `round`
 
 Bir sayıyı en yakın tam sayıya veya belirtilen ondalık basamak sayısına yuvarlar.
@@ -216,6 +231,10 @@ Bir sayıyı en yakın tam sayıya veya belirtilen ondalık basamak sayısına y
 ## HTML işleme
 
 HTML içeriğini işleyin ve HTML'yi Markdown'a dönüştürün. Giriş [[Değişkenler|değişkeninizin]] HTML içeriği barındırması gerektiğini unutmayın, örn. `{{fullHtml}}`, `{{contentHtml}}` veya bir `{{selectorHtml:}}` değişkeni kullanarak.
+
+### `html_to_json`
+
+HTML'yi her öğenin etiketini, özniteliklerini ve alt öğelerini içeren yapılandırılmış JSON'a dönüştürür. Metin düğümleri `{"type":"text","content":"..."}` biçimini kullanır. Bu, çıkarılan HTML'yi yeniden şekillendirmek için `map`, `object` ve `template` gibi filtrelerle birleştirilebilir.
 
 ### `markdown` 
 
@@ -339,6 +358,13 @@ Nesne verilerini işler:
 - `object:keys` nesnenin anahtarlarının dizisini döndürür.
 - `object:values` nesnenin değerlerinin dizisini döndürür.
 - Örnek: `{"a":1,"b":2}|object:array` ifadesi `[["a",1],["b",2]]` döndürür.
+
+### `reverse`
+
+Dizeleri, dizileri ve nesnelerin giriş sırasını tersine çevirir.
+
+- `"abc"|reverse` ifadesi `"cba"` döndürür.
+- `["a","b","c"]|reverse` ifadesi `["c","b","a"]` döndürür.
 
 ### `slice`
 

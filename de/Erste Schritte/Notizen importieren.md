@@ -17,11 +17,12 @@ Apps kommen und gehen, aber deine Daten sollten Bestand haben. Obsidian verwende
 - <span class="icon-app icon-bear"></span> [[Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Tomboy and Gnote|Tomboy und Gnote]]
 - <span class="icon-app icon-html"></span> [[HTML|HTML-Dateien]]
 - <span class="icon-app icon-md"></span> [[CSV]]
 - <span class="icon-app icon-md"></span> [[Markdown|Markdown-Dateien]]
 - <span class="icon-app icon-md"></span> [[Textbundle|Textbundle-Dateien]]
-- <span class="icon-app icon-md"></span> [[Zettelkasten|Zettelkasten-Notizen]]
 
 ## Weitere Formate
 
@@ -31,7 +32,6 @@ Unsere Community hat zusätzliche Anleitungen geteilt, die dir bei der Migration
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

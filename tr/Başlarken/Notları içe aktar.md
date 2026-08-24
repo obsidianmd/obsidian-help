@@ -17,11 +17,12 @@ Uygulamalar gelir ve gider, ancak verileriniz kalıcı olmalıdır. Obsidian, ci
 - <span class="icon-app icon-bear"></span> [[Bear'dan içe aktar|Bear]]
 - <span class="icon-app icon-craft"></span> [[Craft'tan içe aktar|Craft]]
 - <span class="icon-app icon-roam"></span> [[Roam Research'ten içe aktar|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Logseq'ten içe aktar|Logseq]]
+- <span class="icon-app icon-md"></span> [[Tomboy ve Gnote'tan içe aktar|Tomboy ve Gnote]]
 - <span class="icon-app icon-html"></span> [[HTML dosyalarını içe aktar|HTML dosyaları]]
 - <span class="icon-app icon-md"></span> [[CSV dosyalarını içe aktar]]
 - <span class="icon-app icon-md"></span> [[Markdown dosyalarını içe aktar|Markdown dosyaları]]
 - <span class="icon-app icon-md"></span> [[Textbundle dosyalarını içe aktar|Textbundle dosyaları]]
-- <span class="icon-app icon-md"></span> [[Zettelkasten notlarını içe aktar|Zettelkasten notları]]
 
 ## Daha fazla biçim
 
@@ -31,7 +32,6 @@ Topluluğumuz tarafından Obsidian'a geçişinize yardımcı olabilecek ek rehbe
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

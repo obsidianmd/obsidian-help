@@ -1,5 +1,7 @@
 ---
 permalink: import/markdown
+cssclasses:
+  - soft-embed
 ---
 Obsidian 使用 Markdown `.md` 檔案作為筆記的主要格式。這使得將 Markdown 檔案匯入 Obsidian 變得十分容易。許多應用程式可以編輯 Markdown 檔案或匯出為此格式。
 

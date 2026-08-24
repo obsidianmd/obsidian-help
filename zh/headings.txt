@@ -4185,3 +4185,75 @@ translation=侧边栏
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=常见问题
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=开始之前
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=导入你的 Logseq 图谱
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=限制
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=设置
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=日志
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=展平大纲
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=保留不兼容的数据
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=模板
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=故障排除
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=定位你的笔记文件
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=导入你的 Tomboy 或 Gnote 笔记
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=模板
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=编辑导入模板
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=预览结果
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=模板语法
+
+[heading.import/templates/Variables]
+original=Variables
+translation=变量
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=属性的源值
+
+[heading.import/templates/Example template]
+original=Example template
+translation=模板示例

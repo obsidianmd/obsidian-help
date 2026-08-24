@@ -1,7 +1,9 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
-Obsidian te permite migrar fácilmente tus notas desde Microsoft OneNote usando el [[Importador|complemento Importador]]. Esto convertirá tus datos de OneNote a archivos Markdown duraderos, que puedes usar con Obsidian y muchas otras aplicaciones.
+Obsidian te permite migrar fácilmente tus notas desde Microsoft OneNote usando el [[Importador|complemento Importador]]. Esto convierte tus datos de OneNote a archivos Markdown duraderos que puedes usar con Obsidian y muchas otras aplicaciones.
 
 Obsidian ofrece dos formas de importar tus datos de OneNote:
 
@@ -24,8 +26,8 @@ Necesitarás el complemento oficial de Obsidian [[Importador]], que puedes [inst
 7. Haz clic en **Aceptar** para otorgar a Obsidian permiso para ver tus cuadernos de OneNote.
 8. Haz clic en **Abrir enlace** para permitir que tu navegador te redirija a la aplicación Obsidian.
 9. En la aplicación Obsidian, el diálogo del Importador ahora mostrará que has iniciado sesión y listará tus cuadernos y secciones de OneNote. Marca las secciones que deseas importar.
-10. Haz clic en **Importar** y espera hasta que la importación se complete.
-11. ¡Listo!
+10. Selecciona **Importar** para revisar la plantilla generada y previsualizar ejemplos de tus páginas.
+11. Selecciona **Importar** de nuevo y espera a que la importación finalice.
 
 Si tus cuadernos pertenecen a una cuenta de trabajo o escolar, OneNote puede rechazar el acceso del complemento a ellos después de iniciar sesión. Cuando esto ocurra, aparecerá un botón **Usar acceso de trabajo o escolar** junto a **Cerrar sesión**. Úsalo para iniciar sesión de nuevo con el permiso más amplio que esas cuentas necesitan. Tu organización puede tener que aprobar ese permiso antes de que funcione.
 
@@ -88,8 +90,8 @@ Necesitarás el complemento oficial de Obsidian [[Importador]], que puedes [inst
 6. Elige los archivos `.onepkg` y `.one` que deseas importar. Puedes seleccionar más de un archivo a la vez, para que todos tus cuadernos se importen juntos.
 7. En **Secciones a importar** se listan las secciones encontradas en esos archivos, con todo marcado. Desmarca lo que no desees.
 8. Opcionalmente, elige una **Carpeta de salida** para la importación, dónde deben guardarse los adjuntos, y qué debe pasar con las **Notas existentes** si importas el mismo cuaderno de nuevo.
-9. Haz clic en **Importar** y espera hasta que la importación se complete.
-10. ¡Listo!
+9. Selecciona **Importar** para revisar la plantilla generada y previsualizar ejemplos de tus páginas.
+10. Selecciona **Importar** de nuevo y espera a que la importación finalice.
 
 Cada sección se convierte en una carpeta, y cada página en ella se convierte en una nota. Una subpágina se guarda en una carpeta con el nombre de la página que está encima, lo que mantiene la estructura que OneNote mostraba y evita que dos subpáginas con el mismo nombre colisionen. Las páginas en la papelera de reciclaje del cuaderno no se importan.
 
@@ -97,6 +99,12 @@ Cada sección se convierte en una carpeta, y cada página en ella se convierte e
 
 - Las secciones protegidas con contraseña están almacenadas con cifrado, y sus páginas se omiten. Elimina la contraseña en OneNote y exporta de nuevo para importarlas.
 - Los archivos protegidos por derechos solo pueden ser abiertos por una cuenta que la política permita, y no pueden ser leídos por el Importador.
+
+## Plantillas
+
+Usa [[Plantillas del importador|plantillas del Importador]] para configurar completamente cómo se importan tus datos de OneNote.
+
+![[Plantillas del importador#Variables]]
 
 ## Privacidad
 

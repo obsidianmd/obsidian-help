@@ -1,5 +1,7 @@
 ---
 permalink: import/google-keep
+cssclasses:
+  - soft-embed
 ---
 Obsidian ช่วยให้คุณย้ายโน้ตจาก Google Keep ได้อย่างง่ายดายโดยใช้[[ตัวนำเข้า|ปลั๊กอินตัวนำเข้า]] ซึ่งจะแปลงข้อมูล Google Keep ของคุณเป็นไฟล์ Markdown ที่ทนทาน ซึ่งคุณสามารถใช้กับ Obsidian และแอปอื่นๆ อีกมากมาย
 

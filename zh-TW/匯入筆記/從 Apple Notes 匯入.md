@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過 [[匯入工具|匯入工具外掛]] 輕鬆地從 Apple Notes 遷移筆記。這會將你的 Apple Notes 資料轉換為耐久的 Markdown 檔案，你可以在 Obsidian 及許多其他應用程式中使用。
 

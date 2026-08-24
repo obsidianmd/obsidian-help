@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian laat je gegevens importeren uit CSV-bestanden met behulp van de officiële [[Importeren|Importer-plug-in]]. Dit is handig als je tabelgegevens hebt opgeslagen in apps zoals Excel, Google Sheets, Numbers, Notion of Airtable.
 
@@ -17,12 +19,25 @@ Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt i
 4. Open de **Importer**-plug-in via het opdrachtenpalet of het werkbalkpictogram.
 5. Kies onder **Bestandsformaat** de optie **CSV (.csv).**
 6. Selecteer de locatie van je CSV-bestand.
-7. Klik op **Importeren** om te configureren hoe gegevens in je CSV-bestand worden omgezet naar notities met [[Eigenschappen]].
-8. Klik op **Doorgaan** en wacht tot de import is voltooid.
-9. Je bent klaar!
+7. Selecteer **Importeren** om te configureren hoe gegevens in je CSV-bestand worden omgezet naar notities met [[Eigenschappen]].
+8. Selecteer **Doorgaan** om het gegenereerde sjabloon te bekijken en voorbeelden van je rijen te bekijken.
+9. Selecteer **Importeren** en wacht tot de import is voltooid.
 
 ## Configureren hoe CSV-velden worden geïmporteerd
 
-In de tweede stap van de CSV-import kun je kiezen hoe gegevens worden geïmporteerd met behulp van een sjabloon.
+In de veldconfiguratiestap kun je kiezen hoe gegevens worden geïmporteerd. Importer genereert een sjabloon op basis van de CSV-koppen, gebruikt de eerste kolom voor de initiële notitienaam en maakt een eigenschap aan voor elke kolom.
 
-Elke kolom in je CSV-bestand krijgt een variabele genaamd `{{column_name}}` die de naam van de kop in je bestand vertegenwoordigt. Je kunt deze variabele gebruiken om de titel, locatie, inhoud en [[Eigenschappen|eigenschappen]] van de notitie te definiëren.
+## Sjablonen
+
+Gebruik [[Importer-sjablonen|Importer-sjablonen]] om volledig te configureren hoe je gegevens worden geïmporteerd.
+
+Elke CSV-kolom is beschikbaar via de kop. Als een kolom geen kop heeft, gebruikt Importer de gegenereerde kolomnaam.
+
+Gebruik haakjesnotatie zodat spaties en leestekens veilig worden verwerkt:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Importer-sjablonen#Variabelen]]

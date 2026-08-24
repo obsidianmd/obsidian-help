@@ -2,6 +2,8 @@
 permalink: import/csv
 aliases:
   - Import CSV files
+cssclasses:
+  - soft-embed
 ---
 Obsidian îți permite să imporți date din fișiere CSV folosind [[Importator|modulul Importer]] oficial. Acest lucru este util dacă ai date tabelare stocate în aplicații precum Excel, Google Sheets, Numbers, Notion sau Airtable.
 
@@ -19,12 +21,25 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
 5. La **Format fișier** alege **CSV (.csv).**
 6. Selectează locația fișierului tău CSV.
-7. Apasă **Importă** pentru a configura modul în care datele din fișierul tău CSV vor fi convertite în note cu [[Proprietăți]].
-8. Apasă **Continuă** și așteaptă până când importul este finalizat.
-9. Ai terminat!
+7. Selectează **Importă** pentru a configura modul în care datele din fișierul tău CSV vor fi convertite în note cu [[Proprietăți]].
+8. Selectează **Continuă** pentru a revizui șablonul generat și a previzualiza exemple din rândurile tale.
+9. Selectează **Importă** și așteaptă finalizarea importului.
 
 ## Configurează modul în care sunt importate câmpurile CSV
 
-În a doua etapă a importului CSV, poți alege cum sunt importate datele folosind un șablon.
+În etapa de configurare a câmpurilor, poți alege cum sunt importate datele. Importer generează un șablon din anteturile CSV, folosește prima coloană pentru numele inițial al notei și creează o proprietate pentru fiecare coloană.
 
-Fiecărei coloane din fișierul tău CSV îi este atribuită o variabilă numită `{{column_name}}`, care reprezintă numele antetului din fișierul tău. Poți folosi această variabilă pentru a defini titlul, locația, conținutul și [[Proprietăți]] notei.
+## Șabloane
+
+Folosește [[Șabloane Importer|Șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale.
+
+Fiecare coloană CSV este disponibilă folosind antetul său. Dacă o coloană nu are antet, Importer folosește numele de coloană generat.
+
+Folosește notația cu paranteze pătrate pentru ca spațiile și semnele de punctuație să fie gestionate în siguranță:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Șabloane Importer#Variabile]]

@@ -885,3 +885,75 @@ translation=Oldalsáv
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Gyakran ismételt kérdések
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Mielőtt elkezdenéd
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Logseq gráf importálása
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Korlátozások
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Beállítások
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Naplók
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Vázlatok lapítása
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Nem kompatibilis adatok megőrzése
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Sablonok
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Hibaelhárítás
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Jegyzetfájlok megkeresése
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tomboy vagy Gnote jegyzetek importálása
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Sablonok
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Az importálási sablon szerkesztése
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Eredmények előnézete
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Sablon szintaxis
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Változók
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Forrásértékek tulajdonságokhoz
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Példa sablon

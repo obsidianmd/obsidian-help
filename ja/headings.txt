@@ -4209,3 +4209,75 @@ translation=サイドバー
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=よくある質問
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=始める前に
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Logseqグラフのインポート
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=制限事項
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=設定
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=ジャーナル
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=アウトラインのフラット化
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=互換性のないデータの保持
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=テンプレート
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=トラブルシューティング
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=ノートファイルの場所を確認する
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=TomboyまたはGnoteのノートをインポートする
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=テンプレート
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=インポートテンプレートの編集
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=結果のプレビュー
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=テンプレート構文
+
+[heading.import/templates/Variables]
+original=Variables
+translation=変数
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=プロパティのソース値
+
+[heading.import/templates/Example template]
+original=Example template
+translation=テンプレートの例

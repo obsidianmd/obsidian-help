@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian memungkinkan Anda mengimpor data dari file CSV menggunakan [[Impor|plugin Importer]] resmi. Ini berguna jika Anda memiliki data tabular yang tersimpan di aplikasi seperti Excel, Google Sheets, Numbers, Notion, atau Airtable.
 
@@ -17,12 +19,25 @@ Anda memerlukan plugin Obsidian [[Impor]] resmi, yang dapat Anda [pasang di sini
 4. Buka plugin **Importer** menggunakan palet perintah atau ikon bilah alat.
 5. Di bagian **Format file** pilih **CSV (.csv).**
 6. Pilih lokasi file CSV Anda.
-7. Klik **Impor** untuk mengonfigurasi bagaimana data dalam file CSV Anda akan dikonversi menjadi catatan dengan [[Properti]].
-8. Klik **Lanjutkan** dan tunggu hingga impor selesai.
-9. Selesai!
+7. Pilih **Impor** untuk mengonfigurasi bagaimana data dalam file CSV Anda akan dikonversi menjadi catatan dengan [[Properti]].
+8. Pilih **Lanjutkan** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari baris Anda.
+9. Pilih **Impor** dan tunggu hingga impor selesai.
 
 ## Konfigurasi cara field CSV diimpor
 
-Pada langkah kedua impor CSV, Anda dapat memilih bagaimana data diimpor menggunakan templat.
+Pada langkah konfigurasi field, Anda dapat memilih bagaimana data diimpor. Importer menghasilkan templat dari header CSV, menggunakan kolom pertama untuk nama catatan awal, dan membuat properti untuk setiap kolom.
 
-Setiap kolom dalam file CSV Anda diberikan variabel yang disebut `{{column_name}}` yang mewakili nama header dalam file Anda. Anda dapat menggunakan variabel ini untuk mendefinisikan judul catatan, lokasi, konten, dan [[Properti|properti]].
+## Templat
+
+Gunakan [[Template Importer|templat Importer]] untuk mengonfigurasi sepenuhnya bagaimana data Anda diimpor.
+
+Setiap kolom CSV tersedia menggunakan headernya. Jika kolom tidak memiliki header, Importer menggunakan nama kolom yang dihasilkannya.
+
+Gunakan notasi kurung agar spasi dan tanda baca ditangani dengan aman:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Template Importer#Variables]]

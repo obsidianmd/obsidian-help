@@ -45,3 +45,75 @@ translation=সাইডবার
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=সচরাচর জিজ্ঞাসিত প্রশ্ন
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=শুরু করার আগে
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=আপনার Logseq গ্রাফ ইম্পোর্ট করুন
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=সীমাবদ্ধতা
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=সেটিংস
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=জার্নাল
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=আউটলাইন সমতল করা
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=অসামঞ্জস্যপূর্ণ ডেটা সংরক্ষণ
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=টেমপ্লেট
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=সমস্যা সমাধান
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=আপনার নোট ফাইলগুলো খুঁজে বের করুন
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=আপনার Tomboy বা Gnote নোট ইম্পোর্ট করুন
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=টেমপ্লেট
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=ইম্পোর্ট টেমপ্লেট সম্পাদনা করুন
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=ফলাফল প্রিভিউ করুন
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=টেমপ্লেট সিনট্যাক্স
+
+[heading.import/templates/Variables]
+original=Variables
+translation=ভেরিয়েবল
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=প্রপার্টির জন্য সোর্স মান
+
+[heading.import/templates/Example template]
+original=Example template
+translation=উদাহরণ টেমপ্লেট

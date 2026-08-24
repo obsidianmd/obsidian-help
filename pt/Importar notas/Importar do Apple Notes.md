@@ -1,7 +1,9 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
-O Obsidian permite-lhe migrar facilmente as suas notas do Apple Notes usando o [[Importador|plugin Importador]]. Isto irá converter os seus dados do Apple Notes em ficheiros Markdown duráveis, que pode usar com o Obsidian e muitas outras aplicações.
+O Obsidian permite-lhe migrar facilmente as suas notas do Apple Notes usando o [[Importador|plugin Importador]]. Isto converte os seus dados do Apple Notes em ficheiros Markdown duráveis que pode usar com o Obsidian e muitas outras aplicações.
 
 Atualmente, o Importador apenas suporta a migração do Apple Notes no macOS. Ainda não está disponível no iOS.
 
@@ -14,10 +16,14 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 3. Ative o plugin Importador.
 4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone na barra de ferramentas.
 5. Em **Formatação de ficheiro** escolha **Apple Notes**.
-6. Clique em **Importar**.
-7. Clique em **Abrir** na janela que aparece com o título `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
-8. Aguarde até que a importação esteja concluída.
-9. Está feito!
+6. Selecione **Importar**.
+7. Selecione **Abrir** na janela com o título `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
+8. Reveja o modelo gerado e pré-visualize exemplos das suas notas.
+9. Selecione **Importar** e aguarde até que a importação termine.
+
+## Personalizar notas importadas
+
+Antes de a importação começar, o Importador mostra uma pré-visualização gerada a partir da sua seleção do Apple Notes. Pode editar o modelo gerado, as propriedades e o nome da nota, ou escolher um modelo Markdown do seu cofre. Consulte [[Modelos do Importador]].
 
 ## Conteúdo suportado
 
@@ -34,11 +40,14 @@ A Apple armazena digitalizações numa variedade de formatos dependendo de como 
 * Digitalizações criadas ou visualizadas em versões mais recentes do macOS ou iOS serão normalmente exportadas como imagens recortadas.
 * Digitalizações que foram editadas usando as funcionalidades introduzidas no iOS 17 serão normalmente exportadas como PDFs.
 
-## Métodos alternativos de exportação
+## Modelos
 
-A Apple não fornece uma opção nativa para exportar as suas notas. No entanto, existem várias ferramentas de terceiros, como o [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) de Chintan Ghate. Tenha em atenção que a maioria das ferramentas são limitadas nos dados que exportam do Apple Notes e podem não fornecer os dados de saída mais compatíveis. Estas ferramentas funcionam melhor se as suas notas do Apple Notes forem principalmente de texto, e tiverem poucos anexos ou funcionalidades especiais como desenhos e digitalizações.
+Use [[Modelos do Importador|Modelos do Importador]] para configurar completamente como os seus dados do Apple Notes são importados.
 
-Dependendo da ferramenta que utilizou, a exportação pode estar em formato Markdown ou formato HTML. Siga as instruções com base no formato de ficheiro para o qual exportou:
+![[Modelos do Importador#Variáveis]]
 
-- [[Importar ficheiros HTML]]
-- [[Importar ficheiros Markdown]]
+Adicionalmente, o Apple Notes fornece a seguinte variável.
+
+| Variável       | Descrição                       |
+| -------------- | ------------------------------- |
+| `{{isPinned}}` | Se a nota está fixada ou não. |

@@ -9,7 +9,6 @@ description: Importer te ajută să migrezi la Obsidian din diverse aplicații �
 aliases:
   - Importer
 ---
-
 Importer te ajută să migrezi la Obsidian din diverse aplicații și formate. Consultă ghidul [[Importă notițe]] pentru detalii.
 
 Importer este un [[Module comunitare|modul comunitar]] oficial realizat de echipa Obsidian, cu contribuții la [codul nostru open source](https://github.com/obsidianmd/obsidian-importer). Poți contribui adăugând formate de import suplimentare. [Consultă ghidul de contribuție.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
@@ -19,6 +18,13 @@ Importer este un [[Module comunitare|modul comunitar]] oficial realizat de echip
 1. Urmează instrucțiunile din [[Module comunitare#Instalează un modul comunitar]]
 2. Descarcă și activează [Importer](obsidian://show-plugin?id=obsidian-importer) din listă
 
+
 ![[Importă notițe#Import din alte aplicații și formate de fișiere]]
 
 ![[Importă notițe#Mai multe formate]]
+
+## Șabloane Importer
+
+Importer îți permite să definești [[Șabloane pentru importator|șabloane]] care controlează modul în care notițele tale sunt importate din alte aplicații. Aceasta înseamnă că poți modifica titlul, proprietățile și conținutul notițelor pe care le imporți.
+
+Șabloanele acceptă variabile și aceleași [[Obsidian Web Clipper/Filtre|filtre]] și [[Obsidian Web Clipper/Logică|logică de șabloane]] ca și [[Introducere în Obsidian Web Clipper|Web Clipper]].

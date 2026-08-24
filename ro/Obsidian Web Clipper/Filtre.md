@@ -16,8 +16,8 @@ Convertește și modifică date calendaristice.
 
 Convertește o dată în formatul specificat, [vezi referința](https://day.js.org/docs/en/display/format).
 
-- `{{date|date:"YYYY-MM-DD"}}` convertește data curentă în „YYYY-MM-DD”.
-- Folosește `date:("outputFormat", "inputFormat")` pentru a specifica formatul de intrare, de ex. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` interpretează „12/01/2024” și returnează `"2024-12-01"`.
+- `{{date|date:"YYYY-MM-DD"}}` convertește data curentă în „YYYY-MM-DD".
+- Folosește `date:("outputFormat", "inputFormat")` pentru a specifica formatul de intrare, de ex. `"12/01/2024"|date:("YYYY-MM-DD", "MM/DD/YYYY")` interpretează „12/01/2024" și returnează `"2024-12-01"`.
 
 ### `date_modify` 
 
@@ -104,6 +104,13 @@ Elimină spațiile albe de la ambele capete ale unui șir.
 
 - `"  hello world  "|trim` returnează `"hello world"`.
 
+### `unescape`
+
+Convertește ghilimelele cu escape și secvențele newline în caractere literale.
+
+- `"Line 1\\nLine 2"|unescape` returnează textul pe două linii.
+- `'He said \\"hello\\"'|unescape` returnează `He said "hello"`.
+
 ### `uncamel`
 
 Convertește camelCase sau PascalCase în cuvinte separate prin spații, pe care le poți formata în continuare cu alte filtre precum `title` sau `capitalize`.
@@ -127,7 +134,7 @@ Adaugă un prefix Markdown de citat (`> `) la fiecare linie din intrare.
 
 Creează o [[Explicații|explicație]] cu parametri opționali: `{{variable|callout:("type", "title", foldState)}}`
 
-- `type` este tipul explicației și are valoarea implicită „info”
+- `type` este tipul explicației și are valoarea implicită „info"
 - `title` este titlul explicației și are valoarea implicită goală
 - `foldState` este un boolean care stabilește starea de pliere (true pentru pliat, false pentru depliat, null pentru nepliabil)
 
@@ -140,7 +147,7 @@ Convertește un array sau un obiect într-o listă de note de subsol Markdown.
 
 ### `fragment_link`
 
-Convertește șiruri și array-uri în legături [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments). Implicit folosește „link” ca text al legăturii.
+Convertește șiruri și array-uri în legături [text fragment](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments). Implicit folosește „link" ca text al legăturii.
 
 - `highlights|fragment_link` returnează `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` returnează `Highlight content [custom title](text-fragment-url)`
@@ -176,7 +183,7 @@ Convertește un array sau un array de obiecte într-un [[Sintaxă avansată de f
 
 - Pentru un array de obiecte, folosește cheile obiectului ca antete.
 - Pentru un array de array-uri, creează un tabel cu fiecare array imbricat ca un rând.
-- Pentru un array simplu, creează un tabel cu o singură coloană, cu „Value” ca antet.
+- Pentru un array simplu, creează un tabel cu o singură coloană, cu „Value" ca antet.
 - Antetele de coloană personalizate pot fi specificate folosind: `table:("Column 1", "Column 2", "Column 3")`. Când e folosit cu un array simplu, împarte automat datele în rânduri în funcție de numărul de coloane specificat.
 
 ### `wikilink`
@@ -208,6 +215,14 @@ Returnează lungimea șirurilor, a array-urilor sau numărul de chei din obiecte
 - Pentru array-uri: `["a","b","c"]|length` returnează `3`.
 - Pentru obiecte: `{"a":1,"b":2}|length` returnează `2`.
 
+### `number_format`
+
+Formatează un număr cu un număr specificat de zecimale și separatori opționali de zecimale și mii.
+
+- `1234.567|number_format:2` returnează `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` returnează `"1.234,57"`.
+- Array-urile și obiectele sunt formatate recursiv.
+
 ### `round`
 
 Rotunjește un număr la cel mai apropiat întreg sau la un număr specificat de zecimale.
@@ -218,6 +233,10 @@ Rotunjește un număr la cel mai apropiat întreg sau la un număr specificat de
 ## Procesare HTML
 
 Procesează conținut HTML și convertește HTML în Markdown. Reține că [[Variabile|variabila]] ta de intrare trebuie să conțină conținut HTML, de ex. folosind `{{fullHtml}}`, `{{contentHtml}}` sau o variabilă `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Convertește HTML în JSON structurat care conține eticheta, atributele și copiii fiecărui element. Nodurile de text folosesc formatul `{"type":"text","content":"..."}`. Acesta poate fi combinat cu filtre precum `map`, `object` și `template` pentru a restructura HTML-ul extras.
 
 ### `markdown` 
 
@@ -341,6 +360,13 @@ Manipulează date de tip obiect:
 - `object:keys` returnează un array cu cheile obiectului.
 - `object:values` returnează un array cu valorile obiectului.
 - Exemplu: `{"a":1,"b":2}|object:array` returnează `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Inversează șiruri, array-uri și ordinea intrărilor din obiecte.
+
+- `"abc"|reverse` returnează `"cba"`.
+- `["a","b","c"]|reverse` returnează `["c","b","a"]`.
 
 ### `slice`
 

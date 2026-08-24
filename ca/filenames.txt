@@ -214,6 +214,10 @@ translation=Importar des de Google Keep
 original=Import HTML files
 translation=Importar fitxers HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importar des de Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Importar fitxers Markdown
@@ -230,9 +234,17 @@ translation=Importar des de Microsoft OneNote
 original=Import from Roam Research
 translation=Importar des de Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Plantilles de l'importador
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Importar fitxers Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importar des de Tomboy i Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

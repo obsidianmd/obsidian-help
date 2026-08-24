@@ -16,6 +16,13 @@ O Importador é um [[Plugins da comunidade|Plugin da comunidade]] oficial feito 
 1. Siga as instruções em [[Plugins da comunidade#Instalar um plugin da comunidade]]
 2. Transfira e ative o [Importador](obsidian://show-plugin?id=obsidian-importer) a partir da lista
 
+
 ![[Importar notas#Importar de outras aplicações e formatos de ficheiro]]
 
 ![[Importar notas#Mais formatos]]
+
+## Modelos do Importador
+
+O Importador permite-lhe definir [[Modelos do Importador|modelos]] que controlam como as suas notas são importadas de outras aplicações. Isto significa que pode modificar o título, propriedades e conteúdo das notas que importa.
+
+Os modelos suportam variáveis e os mesmos [[Obsidian Web Clipper/Filtros|filtros]] e [[Obsidian Web Clipper/Lógica|lógica de modelos]] que o [[Introdução ao Obsidian Web Clipper|Web Clipper]].

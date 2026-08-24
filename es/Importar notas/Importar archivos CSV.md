@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian te permite importar datos desde archivos CSV utilizando el [[Importador|complemento Importador]] oficial. Esto es útil si tienes datos tabulares almacenados en aplicaciones como Excel, Google Sheets, Numbers, Notion o Airtable.
 
@@ -17,12 +19,25 @@ Necesitarás el complemento oficial de Obsidian [[Importador]], que puedes [inst
 4. Abre el complemento **Importer** usando la paleta de comandos o el icono del menú de cinta.
 5. En **Formato de archivo** elige **CSV (.csv).**
 6. Selecciona la ubicación de tu archivo CSV.
-7. Haz clic en **Importar** para configurar cómo los datos de tu archivo CSV se convertirán en notas con [[Propiedades]].
-8. Haz clic en **Continuar** y espera hasta que la importación se complete.
-9. ¡Listo!
+7. Selecciona **Importar** para configurar cómo los datos de tu archivo CSV se convertirán en notas con [[Propiedades]].
+8. Selecciona **Continuar** para revisar la plantilla generada y previsualizar ejemplos de tus filas.
+9. Selecciona **Importar** y espera a que la importación finalice.
 
 ## Configurar cómo se importan los campos CSV
 
-En el segundo paso de la importación CSV, puedes elegir cómo se importan los datos usando una plantilla.
+En el paso de configuración de campos, puedes elegir cómo se importan los datos. Importer genera una plantilla a partir de los encabezados del CSV, usa la primera columna como nombre inicial de la nota y crea una propiedad para cada columna.
 
-Cada columna en tu archivo CSV se le asigna una variable llamada `{{column_name}}` que representa el nombre del encabezado en tu archivo. Puedes usar esta variable para definir el título, la ubicación, el contenido y las [[Propiedades|propiedades]] de la nota.
+## Plantillas
+
+Usa [[Plantillas del importador|plantillas de Importer]] para configurar completamente cómo se importan tus datos.
+
+Cada columna del CSV está disponible usando su encabezado. Si una columna no tiene encabezado, Importer usa el nombre de columna generado.
+
+Usa la notación con corchetes para que los espacios y la puntuación se manejen de forma segura:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Plantillas del importador#Variables]]

@@ -1,8 +1,9 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
-
-Obsidian을 사용하면 Craft에서 노트를 이동시킬 수 있어요. 이 과정에서 Craft 데이터가 내구성 있는 Markdown 파일로 변환되며, Obsidian 및 다른 많은 앱에서 사용할 수 있어요.
+Obsidian을 사용하면 Craft에서 노트를 이동시킬 수 있어요. 이 과정에서 Craft 데이터가 내구성 있는 Markdown 파일로 변환되며 Obsidian 및 다른 많은 앱에서 사용할 수 있어요.
 
 ## Craft에서 데이터 내보내기
 

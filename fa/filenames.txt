@@ -214,6 +214,10 @@ translation=درج از Google Keep
 original=Import HTML files
 translation=درج فایل‌های HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=وارد کردن از Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=درج فایل‌های Markdown
@@ -230,9 +234,17 @@ translation=درج از Microsoft OneNote
 original=Import from Roam Research
 translation=درج از Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=الگوهای واردکننده
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=درج فایل‌های Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=وارد کردن از Tomboy و Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

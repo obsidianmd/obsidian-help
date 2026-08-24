@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje importovať dáta z CSV súborov pomocou oficiálneho [[Importér|pluginu Importér]]. Je to užitočné, ak máte tabuľkové dáta uložené v aplikáciách ako Excel, Google Sheets, Numbers, Notion alebo Airtable.
 
@@ -17,12 +19,25 @@ Budete potrebovať oficiálny plugin Obsidian [[Importér]], ktorý si môžete 
 4. Otvorte plugin **Importér** pomocou palety príkazov alebo ikony na paneli nástrojov.
 5. Pod **Formátovať súbor** vyberte **CSV (.csv).**
 6. Vyberte umiestnenie vášho CSV súboru.
-7. Kliknite na **Import** na konfiguráciu toho, ako budú dáta vo vašom CSV súbore konvertované na poznámky s [[Vlastnosti|vlastnosťami]].
-8. Kliknite na **Pokračovať** a počkajte, kým sa import dokončí.
-9. Hotovo!
+7. Vyberte **Import** na konfiguráciu toho, ako budú dáta vo vašom CSV súbore konvertované na poznámky s [[Vlastnosti|vlastnosťami]].
+8. Vyberte **Pokračovať** na kontrolu vygenerovanej šablóny a náhľad príkladov z vašich riadkov.
+9. Vyberte **Import** a počkajte, kým sa import dokončí.
 
 ## Konfigurácia spôsobu importu CSV polí
 
-V druhom kroku importu CSV si môžete vybrať, ako sa dáta importujú pomocou šablóny.
+V kroku konfigurácie polí si môžete vybrať, ako sa dáta importujú. Importér vygeneruje šablónu z hlavičiek CSV, použije prvý stĺpec pre počiatočný názov poznámky a vytvorí vlastnosť pre každý stĺpec.
 
-Každému stĺpcu vo vašom CSV súbore je priradená premenná nazývaná `{{column_name}}`, ktorá predstavuje názov hlavičky vo vašom súbore. Túto premennú môžete použiť na definovanie nadpisu poznámky, umiestnenia, obsahu a [[Vlastnosti|vlastností]].
+## Šablóny
+
+Použite [[Šablóny importéra|Šablóny importéra]] na úplnú konfiguráciu spôsobu importu vašich dát.
+
+Každý stĺpec CSV je dostupný pomocou jeho hlavičky. Ak stĺpec nemá hlavičku, Importér použije jeho vygenerovaný názov stĺpca.
+
+Použite zátvorkovú notáciu, aby sa medzery a interpunkcia spracovali bezpečne:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Šablóny importéra#Premenné]]

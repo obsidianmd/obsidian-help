@@ -1,5 +1,7 @@
 ---
 permalink: import/google-keep
+cssclasses:
+  - soft-embed
 ---
 Obsidian ermöglicht es dir, deine Notizen mithilfe des [[Importprogramm|Importprogramm-Plugins]] einfach von Google Keep zu migrieren. Dabei werden deine Google Keep-Daten in langlebige Markdown-Dateien konvertiert, die du mit Obsidian und vielen anderen Apps verwenden kannst.
 

@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa tietojen tuomisen CSV-tiedostoista virallisen [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä on hyödyllistä, jos sinulla on taulukkomuotoista dataa sovelluksissa kuten Excel, Google Sheets, Numbers, Notion tai Airtable.
 
@@ -17,12 +19,25 @@ Tarvitset virallisen Obsidianin [[Tuontityökalu]]-lisäosan, jonka voit [asenta
 4. Avaa **Tuontityökalu**-lisäosa komentovalikon tai nauhavalikkon kuvakkeen kautta.
 5. Valitse kohdassa **Muotoilu** vaihtoehto **CSV (.csv).**
 6. Valitse CSV-tiedostosi sijainti.
-7. Napsauta **Tuo** määrittääksesi, miten CSV-tiedostosi data muunnetaan muistiinpanoiksi [[Määreet|määreineen]].
-8. Napsauta **Jatka** ja odota, kunnes tuonti on valmis.
-9. Valmis!
+7. Valitse **Tuo** määrittääksesi, miten CSV-tiedostosi data muunnetaan muistiinpanoiksi [[Määreet|määreineen]].
+8. Valitse **Jatka** tarkastellaksesi luotua pohjaa ja esikatselua rivien esimerkeistä.
+9. Valitse **Tuo** ja odota, kunnes tuonti on valmis.
 
 ## CSV-kenttien tuonnin määrittäminen
 
-CSV-tuonnin toisessa vaiheessa voit valita, miten data tuodaan käyttämällä pohjaa.
+Kenttien määritysvaiheessa voit valita, miten data tuodaan. Tuontityökalu luo pohjan CSV-otsikoista, käyttää ensimmäistä saraketta muistiinpanon alkuperäiseksi nimeksi ja luo määreen jokaiselle sarakkeelle.
 
-Jokainen CSV-tiedostosi sarake liitetään muuttujaan nimeltä `{{sarakkeen_nimi}}`, joka vastaa tiedostosi otsikkorivin nimeä. Voit käyttää tätä muuttujaa muistiinpanon otsikon, sijainnin, sisällön ja [[Määreet|määreiden]] määrittämiseen.
+## Pohjat
+
+Käytä [[Tuontityökalun pohjat|Tuontityökalun pohjia]] määrittääksesi tarkasti, miten datasi tuodaan.
+
+Jokainen CSV-sarake on käytettävissä sen otsikon kautta. Jos sarakkeella ei ole otsikkoa, Tuontityökalu käyttää automaattisesti luotua sarakkeen nimeä.
+
+Käytä hakasulkumerkintää, jotta välilyönnit ja välimerkit käsitellään turvallisesti:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Tuontityökalun pohjat#Muuttujat]]

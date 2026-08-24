@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 Obsidian maakt het eenvoudig om [Textbundle](https://textbundle.org/)-bestanden te importeren met behulp van de officiële [[Importeren|Importer plug-in]].
 
@@ -17,11 +19,21 @@ Je hebt de officiële Obsidian [[Importeren]] plug-in nodig, die je [hier kunt i
 4. Open de **Importer** plug-in via het opdrachtenpalet of het werkbalkpictogram.
 5. Kies onder **Bestandsformaat** de optie **Textbundle (.textbundle, .textpack).**
 6. Selecteer de locatie van je Textbundle- of Textpack-bestanden. Zipbestanden worden ook ondersteund.
-7. Klik op **Importeren** en wacht tot het importeren is voltooid.
-8. Je bent klaar!
+7. Selecteer **Importeren** om het gegenereerde sjabloon te bekijken en voorbeelden van je notities te bekijken.
+8. Selecteer nogmaals **Importeren** en wacht tot het importeren is voltooid.
+
+## Geïmporteerde notities aanpassen
+
+Voordat het importeren begint, toont Importer een voorbeeld dat is gegenereerd op basis van de geselecteerde Textbundle-bestanden. Je kunt het gegenereerde sjabloon bewerken of een Markdown-sjabloon uit je kluis kiezen. Zie [[Importer-sjablonen]].
 
 ## Probleemoplossing
 
 ### Er zijn geen bestanden geselecteerd voor import
 
 De Textbundle-import kan slechts één Textbundle-bestand tegelijk importeren, en alleen op Mac-apparaten. In plaats daarvan kun je alle Textbundle-bestanden die je wilt importeren comprimeren tot één .zip-bestand en dit importeren vanaf elk apparaat.
+
+## Sjablonen
+
+Gebruik [[Importer-sjablonen|Importer-sjablonen]] om volledig te configureren hoe je gegevens worden geïmporteerd.
+
+![[Importer-sjablonen#Variabelen]]

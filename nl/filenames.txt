@@ -214,6 +214,10 @@ translation=Importeren vanuit Google Keep
 original=Import HTML files
 translation=HTML-bestanden importeren
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importeren uit Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown-bestanden importeren
@@ -230,9 +234,17 @@ translation=Importeren vanuit Microsoft OneNote
 original=Import from Roam Research
 translation=Importeren vanuit Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Importeur-sjablonen
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle-bestanden importeren
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importeren uit Tomboy en Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

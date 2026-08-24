@@ -3,6 +3,8 @@ permalink: import/textbundle
 aliases:
   - Import af Textbundle filer
   - Import af noter/Import af Textbundle filer
+cssclasses:
+  - soft-embed
 ---
 Obsidian giver dig mulighed for nemt at importere [Textbundle](https://textbundle.org/)-filer ved hjælp af det officielle [[Importér|Importer-plugin]].
 
@@ -20,11 +22,21 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 4. Åbn **Importer**-pluginnet ved hjælp af kommandopaletten eller værktøjslinjeikonen.
 5. Under **Filformat** vælg **Textbundle (.textbundle, .textpack).**
 6. Vælg placeringen af dine Textbundle- eller Textpack-filer. Zip-filer understøttes også.
-7. Klik på **Importér** og vent, indtil importen er fuldført.
-8. Du er færdig!
+7. Vælg **Importér** for at gennemgå den genererede skabelon og forhåndsvise eksempler fra dine noter.
+8. Vælg **Importér** igen, og vent til importen er færdig.
+
+## Tilpas importerede noter
+
+Før importen begynder, viser Importer en forhåndsvisning genereret fra de valgte Textbundle-filer. Du kan redigere den genererede skabelon eller vælge en Markdown-skabelon fra din boks. Se [[Importer-skabeloner]].
 
 ## Fejlfinding
 
 ### Ingen filer er valgt til import
 
 Textbundle-importen kan kun importere én Textbundle-fil ad gangen, og kun på Mac-enheder. I stedet kan du komprimere alle de Textbundle-filer, du ønsker at importere, til en enkelt .zip-fil og importere denne i stedet fra enhver enhed.
+
+## Skabeloner
+
+Brug [[Importer-skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine data importeres.
+
+![[Importer-skabeloner#Variabler]]

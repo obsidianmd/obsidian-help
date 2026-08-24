@@ -1,5 +1,7 @@
 ---
 permalink: import/markdown
+cssclasses:
+  - soft-embed
 ---
 Obsidian ใช้ไฟล์ Markdown `.md` เป็นรูปแบบหลักสำหรับโน้ต ทำให้การนำเข้าไฟล์ Markdown เข้าสู่ Obsidian ทำได้ง่าย แอปจำนวนมากสามารถแก้ไขไฟล์ Markdown หรือส่งออกเป็นรูปแบบนี้ได้
 

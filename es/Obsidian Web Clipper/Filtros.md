@@ -102,6 +102,13 @@ Elimina espacios en blanco de ambos extremos de una cadena.
 
 - `"  hello world  "|trim` devuelve `"hello world"`.
 
+### `unescape`
+
+Convierte comillas escapadas y secuencias de nueva línea a caracteres literales.
+
+- `"Line 1\\nLine 2"|unescape` devuelve el texto en dos líneas.
+- `'He said \\"hello\\"'|unescape` devuelve `He said "hello"`.
+
 ### `uncamel`
 
 Convierte camelCase o PascalCase a palabras separadas por espacios, que luego puedes formatear con otros filtros como `title` o `capitalize`.
@@ -206,6 +213,14 @@ Devuelve la longitud de cadenas, arrays o el número de claves en objetos.
 - Para arrays: `["a","b","c"]|length` devuelve `3`.
 - Para objetos: `{"a":1,"b":2}|length` devuelve `2`.
 
+### `number_format`
+
+Formatea un número con un número especificado de decimales y separadores opcionales de decimales y miles.
+
+- `1234.567|number_format:2` devuelve `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` devuelve `"1.234,57"`.
+- Los arrays y objetos se formatean recursivamente.
+
 ### `round`
 
 Redondea un número al entero más cercano o a un número especificado de decimales.
@@ -216,6 +231,10 @@ Redondea un número al entero más cercano o a un número especificado de decima
 ## Procesamiento de HTML
 
 Procesa contenido HTML y convierte HTML a Markdown. Ten en cuenta que tu [[Variables|variable]] de entrada debe contener contenido HTML, por ejemplo, usando `{{fullHtml}}`, `{{contentHtml}}` o una variable `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Convierte HTML en JSON estructurado que contiene la etiqueta, los atributos y los hijos de cada elemento. Los nodos de texto usan el formato `{"type":"text","content":"..."}`. Puede combinarse con filtros como `map`, `object` y `template` para transformar el HTML extraído.
 
 ### `markdown`
 
@@ -339,6 +358,13 @@ Manipula datos de objetos:
 - `object:keys` devuelve un array de las claves del objeto.
 - `object:values` devuelve un array de los valores del objeto.
 - Ejemplo: `{"a":1,"b":2}|object:array` devuelve `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Invierte cadenas, arrays y el orden de las entradas de objetos.
+
+- `"abc"|reverse` devuelve `"cba"`.
+- `["a","b","c"]|reverse` devuelve `["c","b","a"]`.
 
 ### `slice`
 

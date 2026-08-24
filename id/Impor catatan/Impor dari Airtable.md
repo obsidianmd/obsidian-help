@@ -1,7 +1,9 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
-Obsidian memungkinkan Anda untuk memigrasikan data dari Airtable menggunakan [[Impor|plugin Impor]]. Ini akan mengonversi basis Airtable Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan secara offline dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda untuk memigrasikan data dari Airtable menggunakan [[Impor|plugin Impor]]. Ini mengonversi basis Airtable Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan secara offline dengan Obsidian dan banyak aplikasi lainnya.
 
 Setiap tabel menjadi folder catatan dengan satu catatan per rekaman, ditambah file [[Pengenalan Basis|Basis]] yang membuat ulang tabel dan tampilannya. Karena menggunakan Airtable API, impor memerlukan token akses personal dan koneksi internet.
 
@@ -34,23 +36,25 @@ Anda memerlukan plugin resmi Obsidian [[Impor|Impor]], yang dapat Anda [pasang d
 7. Klik **Muat** untuk menelusuri basis Anda, lalu pilih tabel yang ingin Anda impor.
 8. Tinjau dan ubah pengaturan impor.
 9. Pilih **Impor** untuk mengonfigurasi bagaimana bidang Anda akan dikonversi menjadi catatan dengan [[Properti|properti]].
-10. Klik **Lanjutkan** dan tunggu hingga impor selesai.
-11. Selesai!
+10. Pilih **Lanjutkan** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari rekaman Anda.
+11. Pilih **Impor** dan tunggu hingga impor selesai.
 
-### Pengaturan impor
+## Pengaturan impor
 
 - **Convert formulas** — pilih apakah bidang formula, lookup, rollup, dan count ditulis ulang sebagai [[Rumus|rumus Basis]], kembali ke nilai yang dihitung Airtable ketika tidak ada padanan, atau diimpor sebagai nilai statis saja.
 - **Unduh lampiran** — simpan file lampiran ke brankas Anda, menggunakan pengaturan folder lampiran dan format tautan Anda. Jika dinonaktifkan, atau ketika unduhan gagal, catatan akan menautkan ke URL file di Airtable.
-- **View property name** — properti yang mencatat tampilan Airtable mana yang dimiliki suatu rekaman. Setiap tampilan dalam Basis yang dihasilkan memfilter berdasarkan properti ini. Nilai bawaan adalah `base`.
-- **Incremental import** — menambahkan properti `airtable-id` ke setiap catatan sehingga impor berikutnya dapat melewati rekaman yang sudah diimpor. Pada impor penuh, properti ini dihapus kembali.
+- **View property name** — properti yang mencatat tampilan Airtable mana yang dimiliki suatu rekaman. Setiap tampilan dalam Basis yang dihasilkan memfilter berdasarkan properti ini. Nilai bawaan adalah `Views`.
+- **Save Airtable record ID** — menambahkan properti `airtable-id` sehingga impor di masa depan dapat mengenali rekaman setelah catatannya dipindahkan atau diganti namanya.
 
 ## Konfigurasi bagaimana bidang Airtable diimpor
 
-Pada langkah kedua impor, Anda dapat memilih bagaimana setiap bidang diimpor.
+Pada langkah konfigurasi bidang, Anda dapat memilih bagaimana setiap bidang diimpor.
 
-Setiap bidang dalam tabel Anda diberikan variabel bernama `{{field_name}}`. Secara bawaan setiap bidang menjadi properti, dan Anda dapat menggunakan variabel ini untuk mengganti nama properti, mengubah nilainya, atau menulis konten ke dalam isi setiap catatan.
+Secara bawaan, setiap bidang Airtable menjadi properti. Anda dapat mengganti nama atau menghapus properti dan mengubah nilainya sebelum melanjutkan ke pratinjau templat.
 
-Bidang utama setiap tabel selalu digunakan sebagai judul catatan, dan rekaman selalu ditempatkan di folder yang dinamai sesuai tabelnya, sehingga pengaturan tersebut tidak dapat dikonfigurasi.
+Bidang utama setiap tabel menyediakan nama catatan bawaan. Anda dapat mengedit templat nama catatan dari langkah pratinjau. Rekaman selalu ditempatkan di folder yang dinamai sesuai tabelnya.
+
+Lihat [[Templat Importir]] untuk menyesuaikan Markdown yang dihasilkan.
 
 ## Apa yang diimpor
 
@@ -75,10 +79,8 @@ Airtable/
 - Rekaman yang ditautkan menjadi tautan ke catatan yang sesuai.
 - Lampiran diunduh ke brankas Anda menggunakan pengaturan brankas Anda.
 
-## Keterbatasan
 
-> [!info] Impor Airtable masih baru
-> Importir Airtable masih baru. Jika Anda menemukan masalah dengan konversi, [kirim laporan bug](https://github.com/obsidianmd/obsidian-importer/issues) agar kami dapat memperbaikinya.
+## Keterbatasan
 
 Karena batasan kecepatan API Airtable, mengimpor basis yang besar mungkin membutuhkan waktu yang cukup lama. Harap bersabar.
 
@@ -89,3 +91,7 @@ Karena keterbatasan API Airtable, beberapa data tidak tersedia atau tidak dapat 
 - Hanya tampilan grid, gallery, dan list yang diimpor. Tipe tampilan lainnya, seperti calendar, kanban, timeline, dan Gantt, diabaikan.
 - Tautan ke rekaman dalam tabel yang tidak Anda pilih menjadi judul teks biasa rekaman tersebut, bukan tautan.
 - Desain antarmuka, otomasi, komentar, dan riwayat revisi tidak diimpor.
+
+## Pemecahan masalah
+
+Jika Anda menemukan masalah dengan konversi, [kirim laporan bug](https://github.com/obsidianmd/obsidian-importer/issues) agar kami dapat memperbaikinya.

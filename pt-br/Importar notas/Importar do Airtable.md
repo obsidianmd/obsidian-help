@@ -1,5 +1,7 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
 O Obsidian permite migrar seus dados do Airtable usando o [[Importador|plugin Importador]]. Isso converterá suas bases do Airtable em arquivos Markdown duráveis que você pode usar offline com o Obsidian e muitos outros aplicativos.
 

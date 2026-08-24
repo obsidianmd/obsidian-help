@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje jednoducho migrovať záznamy z denníka Apple Journal pomocou [[Importér|pluginu Importér]].
 Tým sa vaše denníkové záznamy prevedú na odolné Markdown súbory, ktoré môžete používať s Obsidian a mnohými ďalšími aplikáciami.

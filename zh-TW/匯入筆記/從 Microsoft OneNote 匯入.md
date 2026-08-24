@@ -1,5 +1,7 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過 [[匯入工具|匯入工具外掛]] 輕鬆地從 Microsoft OneNote 匯入筆記。這會將你的 OneNote 資料轉換為耐久的 Markdown 檔案，可供 Obsidian 及許多其他應用程式使用。
 

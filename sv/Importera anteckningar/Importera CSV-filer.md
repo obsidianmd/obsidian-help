@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian låter dig importera data från CSV-filer med det officiella [[Importerare|Importerare-tillägget]]. Detta är användbart om du har tabulär data lagrad i appar som Excel, Google Sheets, Numbers, Notion eller Airtable.
 
@@ -17,12 +19,25 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 4. Öppna **Importerare**-tillägget med kommandopaletten eller ribbon-ikonen.
 5. Under **Formatering** välj **CSV (.csv).**
 6. Välj platsen för din CSV-fil.
-7. Klicka på **Importera** för att konfigurera hur data i din CSV-fil kommer att konverteras till anteckningar med [[Egenskaper]].
-8. Klicka på **Fortsätt** och vänta tills importen är klar.
-9. Du är klar!
+7. Välj **Importera** för att konfigurera hur data i din CSV-fil kommer att konverteras till anteckningar med [[Egenskaper]].
+8. Välj **Fortsätt** för att granska den genererade mallen och förhandsgranska exempel från dina rader.
+9. Välj **Importera** och vänta tills importen är klar.
 
 ## Konfigurera hur CSV-fält importeras
 
-I det andra steget av CSV-importen kan du välja hur data importeras med hjälp av en mall.
+I fältkonfigurationssteget kan du välja hur data importeras. Importerare genererar en mall från CSV-rubrikerna, använder den första kolumnen som initialt anteckningsnamn och skapar en egenskap för varje kolumn.
 
-Varje kolumn i din CSV-fil tilldelas en variabel som kallas `{{column_name}}` som representerar namnet på rubriken i din fil. Du kan använda denna variabel för att definiera anteckningens titel, plats, innehåll och [[Egenskaper|egenskaper]].
+## Mallar
+
+Använd [[Importerare-mallar|Importerare-mallar]] för att fullt ut konfigurera hur din data importeras.
+
+Varje CSV-kolumn är tillgänglig via sin rubrik. Om en kolumn saknar rubrik använder Importerare sitt genererade kolumnnamn.
+
+Använd hakparentesnotation så att mellanslag och skiljetecken hanteras säkert:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Importerare-mallar#Variabler]]

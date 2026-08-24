@@ -1,8 +1,9 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
-Obsidian memudahkan Anda untuk memigrasikan entri jurnal dari Apple Journal menggunakan [[Impor|plugin Importer]].
-Ini akan mengonversi jurnal Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memudahkan Anda untuk memigrasikan entri jurnal dari Apple Journal menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi jurnal Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 ## Ekspor data Anda dari Apple Journal
 
@@ -32,13 +33,15 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 5. Di bagian **Format file**, pilih **Apple Journal (HTML Export)**.
 6. Di **File yang akan diimpor**, pilih folder dengan data yang diekspor, biasanya _AppleJournalEntries_, atau file individual dari _Entries_.
 7. Tinjau dan ubah opsi impor lainnya.
-8. Pilih Impor dan tunggu hingga impor selesai.
-9. Selesai!
+8. Pilih **Impor** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari entri Anda.
+9. Pilih **Impor** lagi dan tunggu hingga impor selesai.
 
+## Templat
 
-## Konten yang didukung
+Gunakan [[Template Importer|templat Importer]] untuk mengonfigurasi sepenuhnya bagaimana data Apple Journal Anda diimpor.
 
-Plugin ini dapat mengimpor metadata Journal sebagai metadata awal, seperti _state-of-mind_, _contacts_, _location_, dan _workout-route_.
+![[Template Importer#Variables]]
 
-> [!note] Catatan
-> Plugin ini tidak mengimpor sumber daya. Lampiran seperti foto, video, dan rekaman audio akan diabaikan.
+Ketika **Add metadata as frontmatter** diaktifkan, metadata Apple Journal dikonversi menjadi [[Properti|properti]]. Tergantung pada entri, ini dapat mencakup `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media`, dan `workout-route`.
+
+Gunakan variabel `properties` untuk mengakses metadata ini. Misalnya, gunakan `{{properties.location}}` untuk lokasi atau `{{properties["state-of-mind"]}}` untuk state of mind.

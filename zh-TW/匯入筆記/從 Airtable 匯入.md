@@ -1,5 +1,7 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以使用[[匯入工具|匯入工具外掛]]從 Airtable 匯入資料。這會將你的 Airtable 資料庫轉換為持久的 Markdown 檔案，你可以在離線狀態下使用 Obsidian 及其他許多應用程式來操作這些檔案。
 

@@ -103,6 +103,13 @@ Supprime les espaces blancs aux deux extrémités d'une chaîne.
 
 - `"  hello world  "|trim` renvoie `"hello world"`.
 
+### `unescape`
+
+Convertit les guillemets échappés et les séquences de retour à la ligne en caractères littéraux.
+
+- `"Line 1\\nLine 2"|unescape` renvoie le texte sur deux lignes.
+- `'He said \\"hello\\"'|unescape` renvoie `He said "hello"`.
+
 ### `uncamel`
 
 Convertit le camelCase ou PascalCase en mots séparés par des espaces, que vous pouvez ensuite formater avec d'autres filtres comme `title` ou `capitalize`.
@@ -207,6 +214,14 @@ Renvoie la longueur des chaînes, tableaux ou le nombre de clés dans les objets
 - Pour les tableaux : `["a","b","c"]|length` renvoie `3`.
 - Pour les objets : `{"a":1,"b":2}|length` renvoie `2`.
 
+### `number_format`
+
+Formate un nombre avec un nombre spécifié de décimales et des séparateurs de décimales et de milliers optionnels.
+
+- `1234.567|number_format:2` renvoie `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` renvoie `"1.234,57"`.
+- Les tableaux et les objets sont formatés récursivement.
+
 ### `round`
 
 Arrondit un nombre à l'entier le plus proche ou à un nombre spécifié de décimales.
@@ -217,6 +232,10 @@ Arrondit un nombre à l'entier le plus proche ou à un nombre spécifié de déc
 ## Traitement HTML
 
 Traiter le contenu HTML et convertir le HTML en Markdown. Notez que votre [[Variables|variable]] d'entrée doit contenir du contenu HTML, par ex. en utilisant `{{fullHtml}}`, `{{contentHtml}}` ou une variable `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Convertit le HTML en JSON structuré contenant la balise, les attributs et les enfants de chaque élément. Les nœuds texte utilisent le format `{"type":"text","content":"..."}`. Ceci peut être combiné avec des filtres tels que `map`, `object` et `template` pour restructurer le HTML extrait.
 
 ### `markdown`
 
@@ -340,6 +359,13 @@ Manipule les données d'objet :
 - `object:keys` renvoie un tableau des clés de l'objet.
 - `object:values` renvoie un tableau des valeurs de l'objet.
 - Exemple : `{"a":1,"b":2}|object:array` renvoie `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Inverse les chaînes, les tableaux et l'ordre des entrées des objets.
+
+- `"abc"|reverse` renvoie `"cba"`.
+- `["a","b","c"]|reverse` renvoie `["c","b","a"]`.
 
 ### `slice`
 

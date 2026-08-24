@@ -214,6 +214,10 @@ translation=استيراد من Google Keep
 original=Import HTML files
 translation=استيراد ملفات HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=الاستيراد من Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=استيراد ملفات Markdown
@@ -230,9 +234,17 @@ translation=استيراد من Microsoft OneNote
 original=Import from Roam Research
 translation=استيراد من Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=قوالب المستورد
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=استيراد ملفات Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=الاستيراد من Tomboy و Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

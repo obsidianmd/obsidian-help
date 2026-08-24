@@ -3,6 +3,8 @@ permalink: import/roam
 aliases:
   - استيراد من Roam Research
   - Import from Roam Research
+cssclasses:
+  - soft-embed
 ---
 
 يتيح لك Obsidian ترحيل ملاحظاتك بسهولة من Roam Research باستخدام مكوّن [[المستورد]] الإضافي.

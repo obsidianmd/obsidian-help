@@ -1,7 +1,9 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
-Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notlarınızı Microsoft OneNote'tan kolayca taşımanıza olanak tanır. Bu, OneNote verilerinizi Obsidian ve diğer birçok uygulama ile kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürecektir.
+Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notlarınızı Microsoft OneNote'tan kolayca taşımanıza olanak tanır. Bu, OneNote verilerinizi Obsidian ve diğer birçok uygulama ile kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
 Obsidian, OneNote verilerinizi içe aktarmak için iki yol sunar:
 
@@ -24,8 +26,8 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 7. Obsidian'a OneNote Not Defterlerinizi görüntüleme izni vermek için **Kabul Et**'e tıklayın.
 8. Tarayıcınızın sizi Obsidian uygulamasına yönlendirmesine izin vermek için **Bağlantıyı Aç**'a tıklayın.
 9. Obsidian uygulamasında, İçe aktarıcı iletişim kutusu artık oturum açtığınızı gösterecek ve OneNote Not Defterlerinizi ve Bölümlerinizi listeleyecektir. İçe aktarmak istediğiniz bölümleri işaretleyin.
-10. **İçe aktar**'a tıklayın ve içe aktarma tamamlanana kadar bekleyin.
-11. İşlem tamamlandı!
+10. Oluşturulan şablonu incelemek ve sayfalarınızdan önizleme örneklerini görmek için **İçe aktar**'ı seçin.
+11. **İçe aktar**'ı tekrar seçin ve içe aktarma tamamlanana kadar bekleyin.
 
 Not defterleriniz bir iş veya okul hesabına aitse, giriş yaptıktan sonra OneNote eklentinin bunlara erişimini reddedebilir. Bu durumda **Çıkış yap** düğmesinin yanında bir **İş veya okul erişimini kullan** düğmesi görünür. Bu hesapların ihtiyaç duyduğu daha geniş izinle tekrar giriş yapmak için bunu kullanın. Çalışması için kuruluşunuzun bu izni onaylaması gerekebilir.
 
@@ -88,8 +90,8 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 6. İçe aktarmak istediğiniz `.onepkg` ve `.one` dosyalarını seçin. Aynı anda birden fazla dosya seçebilirsiniz, böylece tüm not defterleriniz birlikte içe aktarılabilir.
 7. **İçe aktarılacak bölümler** altında bu dosyalarda bulunan bölümler, hepsi işaretli olarak listelenir. İstemediğiniz bölümlerin işaretini kaldırın.
 8. İsteğe bağlı olarak, içe aktarma için bir **Çıktı klasörü**, eklerin nereye kaydedileceğini ve aynı not defterini tekrar içe aktarırsanız **Mevcut notlar** ile ne yapılacağını seçin.
-9. **İçe aktar**'a tıklayın ve içe aktarma tamamlanana kadar bekleyin.
-10. İşlem tamamlandı!
+9. Oluşturulan şablonu incelemek ve sayfalarınızdan önizleme örneklerini görmek için **İçe aktar**'ı seçin.
+10. **İçe aktar**'ı tekrar seçin ve içe aktarma tamamlanana kadar bekleyin.
 
 Her bölüm bir klasör olur ve içindeki her sayfa bir not olur. Bir alt sayfa, üstündeki sayfanın adını taşıyan bir klasöre kaydedilir; bu, OneNote'un gösterdiği yapıyı korur ve aynı ada sahip iki alt sayfanın çakışmasını önler. Not defterinin geri dönüşüm kutusundaki sayfalar içe aktarılmaz.
 
@@ -97,6 +99,12 @@ Her bölüm bir klasör olur ve içindeki her sayfa bir not olur. Bir alt sayfa,
 
 - Parola korumalı bölümler şifrelenmiş olarak depolanır ve sayfaları atlanır. Bunları içe aktarmak için OneNote'ta parolayı kaldırın ve tekrar dışa aktarın.
 - Hak korumalı dosyalar yalnızca politikanın izin verdiği bir hesap tarafından açılabilir ve İçe aktarıcı tarafından okunamaz.
+
+## Şablonlar
+
+OneNote verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe aktarıcı şablonlarını]] kullanın. 
+
+![[İçe aktarıcı şablonları#Variables]]
 
 ## Gizlilik
 

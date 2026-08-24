@@ -2,8 +2,10 @@
 permalink: import/craft
 aliases:
   - Import from Craft
+cssclasses:
+  - soft-embed
 ---
-Obsidian আপনাকে Craft থেকে আপনার নোট মাইগ্রেট করতে দেয়। এটি আপনার Craft ডেটাকে টেকসই Markdown ফাইলে রূপান্তরিত করবে, যা আপনি Obsidian এবং আরও অনেক অ্যাপের সাথে ব্যবহার করতে পারবেন।
+Obsidian আপনাকে Craft থেকে আপনার নোট মাইগ্রেট করতে দেয়। এটি আপনার Craft ডেটাকে টেকসই Markdown ফাইলে রূপান্তরিত করে, যা আপনি Obsidian এবং আরও অনেক অ্যাপের সাথে ব্যবহার করতে পারবেন।
 
 ## Craft থেকে আপনার ডেটা এক্সপোর্ট করুন
 

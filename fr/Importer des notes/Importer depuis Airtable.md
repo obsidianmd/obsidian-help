@@ -1,7 +1,9 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
-Obsidian vous permet de migrer vos données depuis Airtable en utilisant le [[Importer|plugin Importer]]. Cela convertira vos bases Airtable en fichiers Markdown durables que vous pouvez utiliser hors ligne avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer vos données depuis Airtable en utilisant le [[Importer|plugin Importer]]. Cela convertit vos bases Airtable en fichiers Markdown durables que vous pouvez utiliser hors ligne avec Obsidian et de nombreuses autres applications.
 
 Chaque table devient un dossier de notes avec une note par enregistrement, ainsi qu'un fichier [[Introduction aux Bases|Base]] qui recrée la table et ses vues. Comme il utilise l'API Airtable, l'importation nécessite un jeton d'accès personnel et une connexion internet.
 
@@ -34,23 +36,25 @@ Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [ins
 7. Cliquez sur **Charger** pour parcourir vos bases, puis sélectionnez les tables que vous souhaitez importer.
 8. Vérifiez et modifiez les options d'importation.
 9. Sélectionnez **Import** pour configurer comment vos champs seront convertis en notes avec des [[Propriétés|propriétés]].
-10. Cliquez sur **Continuer** et attendez que l'importation soit terminée.
-11. C'est terminé !
+10. Sélectionnez **Continuer** pour examiner le modèle généré et prévisualiser des exemples de vos enregistrements.
+11. Sélectionnez **Import** et attendez que l'importation soit terminée.
 
-### Options d'importation
+## Options d'importation
 
 - **Convert formulas** — choisissez si les champs de formule, de recherche (lookup), de cumul (rollup) et de comptage sont réécrits en [[Formules|formules Bases]], avec repli sur la valeur calculée par Airtable lorsqu'il n'y a pas d'équivalent, ou importés uniquement en tant que valeurs statiques.
 - **Télécharger les pièces jointes** — enregistre les fichiers joints dans votre coffre, en utilisant vos paramètres de dossier de pièces jointes et de format de lien. Lorsque cette option est désactivée, ou lorsqu'un téléchargement échoue, la note renvoie vers l'URL du fichier sur Airtable.
-- **View property name** — la propriété qui enregistre à quelles vues Airtable un enregistrement appartient. Chaque vue dans la Base générée filtre sur cette propriété. Par défaut : `base`.
-- **Incremental import** — ajoute une propriété `airtable-id` à chaque note afin qu'une importation ultérieure puisse ignorer les enregistrements déjà importés. Lors d'une importation complète, cette propriété est supprimée.
+- **View property name** — la propriété qui enregistre à quelles vues Airtable un enregistrement appartient. Chaque vue dans la Base générée filtre sur cette propriété. Par défaut : `Views`.
+- **Save Airtable record ID** — ajoute une propriété `airtable-id` afin que les importations futures puissent reconnaître les enregistrements après que leurs notes ont été déplacées ou renommées.
 
 ## Configurer comment les champs Airtable sont importés
 
-Dans la deuxième étape de l'importation, vous pouvez choisir comment chaque champ est importé.
+Dans l'étape de configuration des champs, vous pouvez choisir comment chaque champ est importé.
 
-Chaque champ de vos tables se voit attribuer une variable appelée `{{field_name}}`. Par défaut, chaque champ devient une propriété, et vous pouvez utiliser ces variables pour renommer les propriétés, modifier leurs valeurs ou écrire du contenu dans le corps de chaque note.
+Par défaut, chaque champ Airtable devient une propriété. Vous pouvez renommer ou supprimer des propriétés et modifier leurs valeurs avant de passer à l'aperçu du modèle.
 
-Le champ principal de chaque table est toujours utilisé comme titre de la note, et les enregistrements sont toujours placés dans un dossier portant le nom de leur table, ces options ne sont donc pas configurables.
+Le champ principal de chaque table fournit le nom de note par défaut. Vous pouvez modifier le modèle de nom de note depuis l'étape d'aperçu. Les enregistrements sont toujours placés dans un dossier portant le nom de leur table.
+
+Consultez [[Modèles de l'importateur]] pour personnaliser le Markdown généré.
 
 ## Ce qui est importé
 
@@ -75,10 +79,8 @@ Airtable/
 - Les enregistrements liés deviennent des liens vers les notes correspondantes.
 - Les pièces jointes sont téléchargées dans votre coffre en utilisant les paramètres de votre coffre.
 
-## Limitations
 
-> [!info] L'importation Airtable est récente
-> L'importateur Airtable est récent. Si vous rencontrez des problèmes lors de la conversion, [soumettez un rapport de bogue](https://github.com/obsidianmd/obsidian-importer/issues) afin que nous puissions l'améliorer.
+## Limitations
 
 En raison des limites de débit de l'API Airtable, l'importation de bases volumineuses peut prendre un temps considérable. Veuillez patienter.
 
@@ -89,3 +91,7 @@ En raison des limitations de l'API Airtable, certaines données ne sont pas disp
 - Seules les vues grille, galerie et liste sont importées. Les autres types de vues, tels que calendrier, kanban, chronologie et Gantt, sont ignorés.
 - Les liens vers des enregistrements dans des tables que vous n'avez pas sélectionnées deviennent le titre en texte brut de l'enregistrement plutôt qu'un lien.
 - Les conceptions d'interfaces, les automatisations, les commentaires et l'historique des révisions ne sont pas importés.
+
+## Résolution de problèmes
+
+Si vous rencontrez des problèmes lors de la conversion, [soumettez un rapport de bogue](https://github.com/obsidianmd/obsidian-importer/issues) afin que nous puissions l'améliorer.

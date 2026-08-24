@@ -214,6 +214,10 @@ translation=Tuo Google Keepistä
 original=Import HTML files
 translation=Tuo HTML-tiedostoja
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Tuo Logseqista
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Tuo Markdown-tiedostoja
@@ -230,9 +234,17 @@ translation=Tuo Microsoft OneNotesta
 original=Import from Roam Research
 translation=Tuo Roam Researchista
 
+[file.import/templates]
+original=Importer templates
+translation=Tuontimallineet
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Tuo Textbundle-tiedostoja
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tuo Tomboysta ja Gnotesta
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

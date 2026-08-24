@@ -2,6 +2,8 @@
 aliases:
   - Import from Apple Notes
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 你可以借助 [[迁移助手|Importer 插件]]轻松将笔记从 Apple Notes 中迁移出来。这将把你苹果系统上的备忘录数据转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
 
@@ -16,10 +18,14 @@ permalink: import/apple-notes
 3. 启用 Importer 插件。
 4. 使用命令面板或功能区图标打开 **Importer** 插件。
 5. 在 **文件格式** 下选择 **Apple Notes**。
-6. 点击 **导入**。
-7. 在弹出的标题为 `选择 "group.com.apple.notes" 文件夹以允许 Obsidian 读取 Apple Notes 数据` 的窗口中点击 **打开**。
-8. 等待导入完成。
-9. 完成！
+6. 选择 **导入**。
+7. 在弹出的标题为 `选择 "group.com.apple.notes" 文件夹以允许 Obsidian 读取 Apple Notes 数据` 的窗口中选择 **打开**。
+8. 查看生成的模板并预览从你笔记中提取的示例。
+9. 选择 **导入** 并等待导入完成。
+
+## 自定义导入的笔记
+
+在导入开始之前，Importer 会显示从你的 Apple Notes 选择中生成的预览。你可以编辑生成的模板、属性和笔记名称，或从你的仓库中选择一个 Markdown 模板。参见 [[Importer 模板]]。
 
 ## 支持的内容
 
@@ -36,11 +42,14 @@ Obsidian Importer 插件几乎支持所有 Apple Notes 的内容类型。这包�
 * 在新版本的 macOS 或 iOS 上创建或查看的扫描文件通常将被导出为裁剪后的图像。
 * 使用 iOS 17 中加入功能编辑过的扫描文件通常将被导出为 PDF。
 
-## 备选的导出方法
+## 模板
 
-Apple 没有提供原生的导出选项。但是存在一些第三方工具可供你使用，例如 Chintan Ghate 开发的 [Exporter](https://apps.apple.com/us/app/exporter/id1099120373)。请注意，大多数工具在从 Apple Notes 导出数据时存在限制，并且可能无法提供兼容的数据输出。如果你的 Apple Notes 主要是纯文本，并且附件或特殊功能如绘画和扫描使用较少，这些工具一般能达到最好的效果。
+使用 [[Importer 模板|Importer 模板]]来完全配置你的 Apple Notes 数据的导入方式。
 
-根据你使用的工具，最终导出的文件可能是 Markdown 格式或 HTML 格式。根据导出的文件格式，你可以再将其导入 Obsidian 中：
+![[Importer 模板#Variables]]
 
-- [[HTML]]
-- [[Markdown 文件]]
+此外，Apple Notes 提供以下变量。
+
+| 变量             | 描述                 |
+| ---------------- | -------------------- |
+| `{{isPinned}}`   | 笔记是否被置顶。     |

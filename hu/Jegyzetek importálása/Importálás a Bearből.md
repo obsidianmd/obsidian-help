@@ -1,5 +1,7 @@
 ---
 permalink: import/bear
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi, hogy könnyedén áttelepítsd jegyzeteidet a Bearből az [[Importáló|Importáló bővítmény]] segítségével. Ez átalakítja Bear-adataidat tartós Markdown fájlokká, amelyeket az Obsidiannal és sok más alkalmazással is használhatsz.
 

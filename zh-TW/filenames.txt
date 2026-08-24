@@ -214,6 +214,10 @@ translation=從 Google Keep 匯入
 original=Import HTML files
 translation=匯入 HTML 檔案
 
+[file.import/logseq]
+original=Import from Logseq
+translation=從 Logseq 匯入
+
 [file.import/markdown]
 original=Import Markdown files
 translation=匯入 Markdown 檔案
@@ -230,9 +234,17 @@ translation=從 Microsoft OneNote 匯入
 original=Import from Roam Research
 translation=從 Roam Research 匯入
 
+[file.import/templates]
+original=Importer templates
+translation=匯入器模板
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=匯入 Textbundle 檔案
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=從 Tomboy 且 Gnote 匯入
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

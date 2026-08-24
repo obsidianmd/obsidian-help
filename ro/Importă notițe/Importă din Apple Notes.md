@@ -2,8 +2,10 @@
 permalink: import/apple-notes
 aliases:
   - Import from Apple Notes
+cssclasses:
+  - soft-embed
 ---
-Obsidian îți permite să îți migrezi cu ușurință notele din Apple Notes folosind [[Importator|modulul Importer]]. Acest lucru îți va converti datele din Apple Notes în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
+Obsidian îți permite să îți migrezi cu ușurință notele din Apple Notes folosind [[Importator|modulul Importer]]. Acest lucru îți va converti datele din Apple Notes în fișiere Markdown durabile pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
 În prezent, Importer acceptă doar migrarea din Apple Notes pe macOS. Nu este încă disponibil pe iOS.
 
@@ -16,10 +18,14 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 3. Activează modulul Importer.
 4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
 5. La **Format fișier** alege **Apple Notes**.
-6. Apasă **Importă**.
-7. Apasă **Open** în fereastra pop-up care apare, intitulată `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
-8. Așteaptă până când importul este finalizat. 
-9. Ai terminat!
+6. Selectează **Importă**.
+7. Selectează **Open** în fereastra pop-up intitulată `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
+8. Revizuiește șablonul generat și previzualizează exemple din notele tale.
+9. Selectează **Importă** și așteaptă finalizarea importului.
+
+## Personalizează notele importate
+
+Înainte de începerea importului, Importer afișează o previzualizare generată din selecția ta Apple Notes. Poți edita șablonul generat, proprietățile și numele notei, sau poți alege un șablon Markdown din seiful tău. Vezi [[Șabloane pentru importator]].
 
 ## Conținut acceptat
 
@@ -36,11 +42,14 @@ Apple stochează scanările în diverse formate, în funcție de modul în care 
 * Scanările create sau vizualizate pe versiuni mai noi de macOS sau iOS vor fi de obicei exportate ca imagini decupate.
 * Scanările editate folosind funcțiile introduse în iOS 17 vor fi de obicei exportate ca PDF-uri.
 
-## Metode alternative de export
+## Șabloane
 
-Apple nu oferă o opțiune nativă de export al notelor. Totuși, există mai multe instrumente terțe, precum [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) de Chintan Ghate. Ține cont de faptul că majoritatea instrumentelor sunt limitate în ceea ce privește datele pe care le pot exporta din Apple Notes și s-ar putea să nu ofere cele mai compatibile date de ieșire. Aceste instrumente funcționează cel mai bine dacă notele tale din Apple Notes conțin în principal text și au puține atașamente sau funcții speciale precum desene și scanări.
+Folosește [[Șabloane pentru importator|șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale din Apple Notes.
 
-În funcție de instrumentul folosit, exportul poate fi în format Markdown sau HTML. Urmează instrucțiunile potrivite formatului de fișier exportat: 
+![[Șabloane pentru importator#Variables]]
 
-- [[Importă fișiere HTML]]
-- [[Importă fișiere Markdown]]
+În plus, Apple Notes oferă următoarea variabilă.
+
+| Variabilă      | Descriere                            |
+| -------------- | ------------------------------------ |
+| `{{isPinned}}` | Dacă nota este fixată sau nu.        |

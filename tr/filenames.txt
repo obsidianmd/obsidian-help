@@ -214,6 +214,10 @@ translation=Google Keep'ten içe aktar
 original=Import HTML files
 translation=HTML dosyalarını içe aktar
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseq'ten içe aktarma
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown dosyalarını içe aktar
@@ -230,9 +234,17 @@ translation=Microsoft OneNote'tan içe aktar
 original=Import from Roam Research
 translation=Roam Research'ten içe aktar
 
+[file.import/templates]
+original=Importer templates
+translation=İçe aktarıcı şablonları
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle dosyalarını içe aktar
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tomboy ve Gnote'tan içe aktarma
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

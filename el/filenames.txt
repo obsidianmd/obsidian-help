@@ -214,6 +214,10 @@ translation=Εισαγωγή από Google Keep
 original=Import HTML files
 translation=Εισαγωγή αρχείων HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Εισαγωγή από Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Εισαγωγή αρχείων Markdown
@@ -230,9 +234,17 @@ translation=Εισαγωγή από Microsoft OneNote
 original=Import from Roam Research
 translation=Εισαγωγή από Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Πρότυπα εισαγωγέα
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Εισαγωγή αρχείων Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Εισαγωγή από Tomboy και Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

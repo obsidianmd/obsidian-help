@@ -2,6 +2,8 @@
 permalink: import/evernote
 aliases:
   - Import from Evernote
+cssclasses:
+  - soft-embed
 ---
 使用 [[迁移助手|Importer 插件]]，你可以轻松将 Evernote 中的笔记迁移至 Obsidian。这将把你 Evernote 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
 
@@ -26,10 +28,10 @@ aliases:
 4. 使用命令面板或功能区按钮打开 **Importer** 插件。
 5. 在**文件格式**下选择**Evernote (.enex)**。
 6. 选择你的 Evernote 备份文件位置。
-7. 点击**导入**，等待导入完成。
-8. 完成！
+7. 点击**导入**，查看生成的模板并预览笔记示例。
+8. 再次点击**导入**，等待导入完成。
 
-## 高级导入选项
+## 导入选项
 
 ### 保留标签层次结构
 
@@ -54,6 +56,8 @@ Evernote 导出文件时不会保留标签的层次结构。为了保留标签�
 
 这样转换后的笔记会生成在 笔记本组1/笔记本A 文件夹内。
 
-### 更多选项
+## 模板
 
-如果你想要使用更多高级导入选项，则可以尝试[通过 Yarle 导入](https://github.com/akosbalasko/yarle)。
+使用 [[导入器模板|Importer 模板]]来完全配置 Evernote 数据的导入方式。
+
+![[导入器模板#Variables]]

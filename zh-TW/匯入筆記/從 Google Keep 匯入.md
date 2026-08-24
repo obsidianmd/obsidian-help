@@ -1,5 +1,7 @@
 ---
 permalink: import/google-keep
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過 [[匯入工具|匯入工具外掛]] 輕鬆地從 Google Keep 匯入筆記。這會將你的 Google Keep 資料轉換為耐用的 Markdown 檔案，可在 Obsidian 和許多其他應用程式中使用。
 

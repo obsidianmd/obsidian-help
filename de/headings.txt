@@ -3973,3 +3973,75 @@ translation=Seitenleiste
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Häufig gestellte Fragen
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Bevor du beginnst
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Deinen Logseq-Graphen importieren
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Einschränkungen
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Einstellungen
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Journale
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Gliederungen abflachen
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Inkompatible Daten beibehalten
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Vorlagen
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Fehlerbehebung
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Notiz-Dateien finden
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tomboy- oder Gnote-Notizen importieren
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Vorlagen
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Importvorlage bearbeiten
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Ergebnisse in der Vorschau ansehen
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Vorlagensyntax
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Variablen
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Quellwerte für Eigenschaften
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Beispielvorlage

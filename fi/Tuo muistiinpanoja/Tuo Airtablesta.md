@@ -1,5 +1,7 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa tietojen tuonnin Airtablesta [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä muuntaa Airtable-tietokantasi kestäviksi Markdown-tiedostoiksi, joita voit käyttää offline-tilassa Obsidianissa ja monissa muissa sovelluksissa.
 

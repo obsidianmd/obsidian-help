@@ -3,7 +3,7 @@ permalink: web-clipper/logic
 description: 'Utilisez des conditions, des boucles et l''affectation de variables dans les modèles de Web Clipper.'
 localized: '2026-03-18'
 ---
-[[Introduction à Obsidian Web Clipper|Web Clipper]] prend en charge la logique de modèles pour les conditionnels, les boucles et l'assignation de variables. Cette syntaxe est inspirée des langages de modèles [Twig](https://twig.symfony.com/) et [Liquid](https://shopify.github.io/liquid/).
+[[Introduction à Obsidian Web Clipper|Web Clipper]] prend en charge la logique de modèles pour les conditionnels, les boucles et l'assignation de variables. Cette syntaxe est appelée [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Conditionnels

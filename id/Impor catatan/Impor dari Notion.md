@@ -1,12 +1,18 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
-Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Notion menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Notion Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan secara offline dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda dengan mudah memigrasikan data dari Notion menggunakan [[Impor|plugin Importer]]. Ini mengonversi ruang kerja Notion Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan secara offline dengan Obsidian dan banyak aplikasi lainnya.
 
 Obsidian menawarkan dua cara untuk mengimpor data Notion Anda:
 
 1. **Akun Notion (direkomendasikan)** terhubung langsung ke ruang kerja Anda dan memungkinkan Anda mempertahankan Database dan rumus yang dikonversi menjadi [[Pengenalan Basis|Basis]]. Memerlukan token integrasi Notion dan koneksi internet.
 2. **Impor file** menggunakan file ekspor `.zip` dari Notion. Tidak mempertahankan Database tetapi tidak memerlukan token API atau koneksi internet.
+
+## Menyesuaikan halaman yang diimpor
+
+Kedua metode impor menampilkan pratinjau sebelum impor dimulai. Anda dapat mengedit templat yang dihasilkan atau memilih templat Markdown dari brankas Anda. Pengaturan seperti sampul dan nama properti database memperbarui properti yang dihasilkan yang ditampilkan dalam pratinjau. Lihat [[Template Importer]].
 
 ## Impor dari akun Notion Anda
 
@@ -52,8 +58,8 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 6. Di bagian **API token**, klik **Tautkan...** untuk menambahkan rahasia baru. Untuk **ID**, beri nama seperti `notion`, dan untuk **Rahasia** tempel **Access token** Anda dari Notion.
 7. Klik **Muat** untuk memilih database dan halaman yang ingin Anda impor.
 8. Tinjau dan ubah opsi impor.
-9. Pilih **Impor** dan tunggu hingga impor selesai
-10. Selesai!
+9. Pilih **Impor** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari halaman Anda.
+10. Pilih **Impor** lagi dan tunggu hingga impor selesai.
 
 ### Batasan
 
@@ -106,8 +112,8 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 6. Pilih file `.zip` berisi file Notion yang ingin Anda impor. *Disarankan untuk mengimpor semua Notion Anda sekaligus agar tautan internal dapat direkonsiliasi dengan benar.*
 7. _Opsional_, pilih folder untuk impor. Halaman dan database Notion Anda akan disusun di dalam folder ini.
 8. Aktifkan **Save parent pages in subfolders** untuk mempertahankan struktur Notion. *Perlu diketahui bahwa di Notion Anda dapat menulis konten di Folder, ini tidak mungkin dilakukan di Obsidian dan halaman-halaman tersebut akan ditambahkan sebagai subhalaman di bawah folder.*
-9. Pilih **Impor** dan tunggu hingga impor selesai
-10. Selesai!
+9. Pilih **Impor** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari halaman Anda.
+10. Pilih **Impor** lagi dan tunggu hingga impor selesai.
 
 ### Pemecahan masalah
 
@@ -127,3 +133,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Jika Anda melihat kesalahan ini, Anda dapat mengekstrak file dari Notion, lalu mengimpor file `Export-{id}-Part-1.zip` yang bersarang.
+
+## Templat
+
+Gunakan [[Template Importer|templat Importer]] untuk mengonfigurasi sepenuhnya cara data Notion Anda diimpor.
+
+![[Template Importer#Variables]]

@@ -1,8 +1,10 @@
 ---
 permalink: import/onenote
 localized: '2026-03-18'
+cssclasses:
+  - soft-embed
 ---
-Obsidian vous permet de migrer facilement vos notes depuis Microsoft OneNote en utilisant le [[Importer|module Importer]]. Celui-ci convertira vos données OneNote en fichiers Markdown durables, que vous pourrez utiliser avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer facilement vos notes depuis Microsoft OneNote en utilisant le [[Importer|module Importer]]. Celui-ci convertit vos données OneNote en fichiers Markdown durables que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
 
 Obsidian offre deux façons d'importer vos données OneNote :
 
@@ -25,8 +27,8 @@ Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [ins
 7. Cliquez sur **Accept** pour autoriser Obsidian à consulter vos blocs-notes OneNote.
 8. Cliquez sur **Open Link** pour permettre à votre navigateur de vous rediriger vers l'application Obsidian.
 9. Dans l'application Obsidian, la boîte de dialogue d'Importer affichera maintenant que vous êtes connecté et listera vos blocs-notes et sections OneNote. Cochez les sections que vous souhaitez importer.
-10. Cliquez sur **Import** et attendez que l'importation soit terminée.
-11. C'est terminé !
+10. Sélectionnez **Import** pour examiner le modèle généré et prévisualiser des exemples de vos pages.
+11. Sélectionnez **Import** à nouveau et attendez que l'importation soit terminée.
 
 Si vos blocs-notes appartiennent à un compte professionnel ou scolaire, OneNote peut refuser l'accès du module après votre connexion. Dans ce cas, un bouton **Use work or school access** apparaît à côté de **Sign out**. Utilisez-le pour vous reconnecter avec les permissions élargies nécessaires pour ces comptes. Votre organisation devra peut-être approuver cette permission avant qu'elle ne fonctionne.
 
@@ -89,8 +91,8 @@ Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [ins
 6. Choisissez les fichiers `.onepkg` et `.one` que vous souhaitez importer. Vous pouvez sélectionner plusieurs fichiers à la fois, afin que tous vos blocs-notes puissent être importés ensemble.
 7. Sous **Sections à importer**, les sections trouvées dans ces fichiers sont listées, toutes cochées. Décochez celles que vous ne souhaitez pas.
 8. Optionnellement, choisissez un **Dossier de sortie** pour l'importation, l'emplacement où les pièces jointes doivent être enregistrées, et ce qui doit arriver aux **Notes existantes** si vous importez le même bloc-notes à nouveau.
-9. Cliquez sur **Import** et attendez que l'importation soit terminée.
-10. C'est terminé !
+9. Sélectionnez **Import** pour examiner le modèle généré et prévisualiser des exemples de vos pages.
+10. Sélectionnez **Import** à nouveau et attendez que l'importation soit terminée.
 
 Chaque section devient un dossier, et chaque page qu'elle contient devient une note. Une sous-page est enregistrée dans un dossier nommé d'après la page au-dessus d'elle, ce qui conserve la structure affichée par OneNote et évite les collisions entre deux sous-pages portant le même nom. Les pages de la corbeille du bloc-notes ne sont pas importées.
 
@@ -98,6 +100,12 @@ Chaque section devient un dossier, et chaque page qu'elle contient devient une n
 
 - Les sections protégées par mot de passe sont stockées chiffrées, et leurs pages sont ignorées. Supprimez le mot de passe dans OneNote et exportez à nouveau pour les importer.
 - Les fichiers protégés par des droits ne peuvent être ouverts que par un compte autorisé par la politique, et ne peuvent pas être lus par Importer.
+
+## Modèles
+
+Utilisez les [[Importer des modèles|modèles Importer]] pour configurer entièrement la façon dont vos données OneNote sont importées.
+
+![[Importer des modèles#Variables]]
 
 ## Confidentialité
 

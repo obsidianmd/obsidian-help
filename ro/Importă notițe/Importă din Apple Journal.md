@@ -2,9 +2,10 @@
 permalink: import/apple-journal
 aliases:
   - Import from Apple Journal
+cssclasses:
+  - soft-embed
 ---
-Obsidian îți permite să îți migrezi cu ușurință însemnările din jurnalul Apple Journal folosind [[Importator|modulul Importer]]. 
-Acest lucru îți va converti jurnalele în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
+Obsidian îți permite să îți migrezi cu ușurință însemnările din jurnalul Apple Journal folosind [[Importator|modulul Importer]]. Acest lucru îți va converti jurnalele în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
 ## Exportă-ți datele din Apple Journal
 
@@ -34,13 +35,15 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 5. La **Format fișier**, alege **Apple Journal (export HTML)**.
 6. La **Fișiere de importat**, selectează directorul cu datele exportate, de obicei _AppleJournalEntries_, sau fișiere individuale din _Entries_.
 7. Revizuiește și modifică celelalte opțiuni de import.
-8. Selectează Importă și așteaptă până când importul este finalizat
-9. Ai terminat!
+8. Selectează **Importă** pentru a revizui șablonul generat și a previzualiza exemple din însemnările tale.
+9. Selectează **Importă** din nou și așteaptă finalizarea importului.
 
+## Șabloane
 
-## Conținut acceptat
+Folosește [[Șabloane pentru importator|șabloanele Importer]] pentru a configura complet modul în care sunt importate datele din Apple Journal.
 
-Modulul poate importa metadatele din Journal ca antet YAML, precum _state-of-mind_, _contacts_, _location_ și _workout-route_.
+![[Șabloane pentru importator#Variables]]
 
-> [!note] Notă
-> Modulul nu importă resurse. Atașamentele precum fotografii, videoclipuri și înregistrări audio sunt ignorate.
+Când opțiunea **Adaugă metadate ca antet YAML** este activată, metadatele din Apple Journal sunt convertite în [[Proprietăți|proprietăți]]. În funcție de însemnare, acestea pot include `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media` și `workout-route`.
+
+Folosește variabila `properties` pentru a accesa aceste metadate. De exemplu, folosește `{{properties.location}}` pentru o locație sau `{{properties["state-of-mind"]}}` pentru o stare de spirit.

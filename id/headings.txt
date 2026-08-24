@@ -4057,3 +4057,75 @@ translation=Bilah Samping
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Pertanyaan yang sering diajukan
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Sebelum Anda memulai
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Impor graf Logseq Anda
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Batasan
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Pengaturan
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Jurnal
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Ratakan kerangka
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Pertahankan data yang tidak kompatibel
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Template
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Pemecahan masalah
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Temukan file catatan Anda
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Impor catatan Tomboy atau Gnote Anda
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Templat
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Ubah templat impor
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Pratinjau hasil
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Sintaksis templat
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Variabel
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Nilai sumber untuk properti
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Contoh templat

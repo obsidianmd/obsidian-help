@@ -1221,3 +1221,75 @@ translation=Sidebjælke
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Ofte stillede spørgsmål
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Før du begynder
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importér din Logseq-graf
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Begrænsninger
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Indstillinger
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Journaler
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Udfold dispositioner
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Bevar inkompatible data
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Skabeloner
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Fejlfinding
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Find dine notefiler
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importér dine Tomboy- eller Gnote-noter
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Skabeloner
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Rediger importskabelonen
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Forhåndsvis resultater
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Skabelonsyntaks
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Variabler
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Kildeværdier for egenskaber
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Eksempelskabelon

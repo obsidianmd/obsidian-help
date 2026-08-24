@@ -2,13 +2,19 @@
 permalink: import/notion
 aliases:
   - Import from Notion
+cssclasses:
+  - soft-embed
 ---
-Obsidian îți permite să îți migrezi cu ușurință notele din Notion folosind [[Importator|modulul Importer]]. Acest lucru îți va converti datele din Notion în fișiere Markdown durabile, pe care le poți folosi offline cu Obsidian și cu multe alte aplicații.
+Obsidian îți permite să îți migrezi cu ușurință datele din Notion folosind [[Importator|modulul Importer]]. Acest lucru îți convertește spațiul de lucru Notion în fișiere Markdown durabile, pe care le poți folosi offline cu Obsidian și cu multe alte aplicații.
 
 Obsidian oferă două moduri de a-ți importa datele din Notion:
 
 1. **Contul Notion (recomandat)** se conectează direct la spațiul tău de lucru și îți permite să păstrezi bazele de date și formulele, care sunt convertite în [[Introducere în Baze|Baze]]. Necesită un token de integrare Notion și o conexiune la internet.
 2. **Importul de fișiere** folosește fișierele de export `.zip` din Notion. Nu păstrează bazele de date, dar nu necesită un token de API sau o conexiune la internet.
+
+## Personalizarea paginilor importate
+
+Ambele metode de import afișează o previzualizare înainte de începerea importului. Poți edita șablonul generat sau alege un șablon Markdown din seiful tău. Setările precum coperta și numele proprietăților bazei de date actualizează proprietățile generate afișate în previzualizare. Vezi [[Șabloane Importer]].
 
 ## Importul din contul tău Notion
 
@@ -54,8 +60,8 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 6. La **API token**, apasă **Link...** pentru a adăuga un secret nou. Pentru **ID**, dă-i un nume precum `notion`, iar pentru **Secret** inserează **Access token**-ul tău din Notion.
 7. Apasă **Load** pentru a alege bazele de date și paginile pe care dorești să le imporți.
 8. Revizuiește și modifică opțiunile de import.
-9. Selectează **Importă** și așteaptă până când importul este finalizat
-10. Ai terminat!
+9. Selectează **Importă** pentru a revizui șablonul generat și a previzualiza exemple din paginile tale.
+10. Selectează **Importă** din nou și așteaptă finalizarea importului.
 
 ### Limitări
 
@@ -108,8 +114,8 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 6. Alege fișierul `.zip` cu fișierele Notion pe care dorești să le imporți. *Este recomandat să îți imporți tot conținutul din Notion o singură dată, astfel încât legăturile interne să poată fi reconciliate corect.*
 7. _Opțional_, selectează un director pentru import. Paginile și bazele de date Notion vor fi imbricate în acest director.
 8. Activează **Save parent pages in subfolders** pentru a păstra structura Notion. *Reține că în Notion poți scrie conținut în directoare, ceea ce nu este posibil în Obsidian, iar aceste pagini vor fi adăugate ca subpagină în cadrul directorului.*
-9. Selectează **Importă** și așteaptă până când importul este finalizat
-10. Ai terminat!
+9. Selectează **Importă** pentru a revizui șablonul generat și a previzualiza exemple din paginile tale.
+10. Selectează **Importă** din nou și așteaptă finalizarea importului.
 
 ### Depanare
 
@@ -129,3 +135,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Dacă vezi această eroare, poți dezarhiva fișierul din Notion și apoi poți importa fișierele `Export-{id}-Part-1.zip` imbricate.
+
+## Șabloane
+
+Folosește [[Șabloane Importer|Șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale din Notion. 
+
+![[Șabloane Importer#Variabile]]

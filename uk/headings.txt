@@ -3857,3 +3857,75 @@ translation=Бічна панель
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Часті запитання
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Перед початком
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Імпортуйте ваш граф Logseq
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Обмеження
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Налаштування
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Журнали
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Вирівнювання структури
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Збереження несумісних даних
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Шаблони
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Вирішення проблем
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Знайдіть ваші файли нотаток
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Імпортуйте ваші нотатки з Tomboy або Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Шаблони
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Редагування шаблону імпорту
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Попередній перегляд результатів
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Синтаксис шаблону
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Змінні
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Значення джерела для властивостей
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Приклад шаблону

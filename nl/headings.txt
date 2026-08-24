@@ -1373,3 +1373,75 @@ translation=Zijbalk
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Veelgestelde vragen
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Voordat je begint
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Je Logseq-grafiek importeren
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Beperkingen
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Instellingen
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Dagboeken
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Overzichten afvlakken
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Incompatibele gegevens behouden
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Sjablonen
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Problemen oplossen
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Zoek je notitiebestanden
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Je Tomboy- of Gnote-notities importeren
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Sjablonen
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Het importsjabloon bewerken
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Resultaten voorbeschouwen
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Sjabloonsyntaxis
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Variabelen
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Bronwaarden voor eigenschappen
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Voorbeeldsjabloon

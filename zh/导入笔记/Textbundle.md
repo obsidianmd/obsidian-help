@@ -3,6 +3,8 @@ permalink: import/textbundle
 aliases:
   - 导入笔记/Import Textbundle files
   - Import Textbundle files
+cssclasses:
+  - soft-embed
 ---
 Obsidian 允许你使用官方的[[迁移助手|迁移助手插件]]轻松导入 [Textbundle](https://textbundle.org/) 文件。
 
@@ -20,11 +22,21 @@ Textbundle 格式将 Markdown 文本和所有引用的图片打包到一个文�
 4. 通过命令面板或功能区图标打开**迁移助手**插件。
 5. 在**文件格式**下选择 **Textbundle (.textbundle, .textpack)**。
 6. 选择 Textbundle 或 Textpack 文件的位置。也支持 Zip 文件。
-7. 点击**导入**并等待导入完成。
-8. 大功告成！
+7. 点击**导入**以查看生成的模板并预览笔记中的示例。
+8. 再次点击**导入**并等待导入完成。
+
+## 自定义导入的笔记
+
+在导入开始之前，迁移助手会显示从所选 Textbundle 文件生成的预览。你可以编辑生成的模板或从仓库中选择一个 Markdown 模板。请参阅[[迁移助手模板]]。
 
 ## 故障排查
 
 ### 没有文件被选中进行导入
 
 Textbundle 导入一次只能导入一个 Textbundle 文件，并且仅限 Mac 设备。作为替代方案，你可以将所有要导入的 Textbundle 文件压缩为一个 .zip 文件，然后在任何设备上导入该文件。
+
+## 模板
+
+使用[[迁移助手模板]]来完全配置数据的导入方式。
+
+![[导入器模板#Variables]]

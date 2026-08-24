@@ -1,12 +1,18 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
-O Obsidian permite-lhe migrar facilmente as suas notas do Notion utilizando o [[Importador|plugin Importador]]. Isto irá converter os seus dados do Notion em ficheiros Markdown duráveis que pode utilizar offline com o Obsidian e muitas outras aplicações.
+O Obsidian permite-lhe migrar facilmente os seus dados do Notion utilizando o [[Importador|plugin Importador]]. Isto converte a sua área de trabalho do Notion em ficheiros Markdown duráveis que pode utilizar offline com o Obsidian e muitas outras aplicações.
 
 O Obsidian oferece duas formas de importar os seus dados do Notion:
 
 1. **Conta Notion (recomendado)** liga-se diretamente à sua área de trabalho e permite preservar Bases de Dados e fórmulas que são convertidas para [[Introdução ao Bases|Bases]]. Requer um token de integração do Notion e uma ligação à internet.
 2. **Importação de ficheiros** utiliza os ficheiros de exportação `.zip` do Notion. Não preserva Bases de Dados, mas não requer um token de API nem ligação à internet.
+
+## Personalizar páginas importadas
+
+Ambos os métodos de importação mostram uma pré-visualização antes de a importação começar. Pode editar o modelo gerado ou escolher um modelo Markdown do seu cofre. Definições como a capa e os nomes das propriedades da base de dados atualizam as propriedades geradas mostradas na pré-visualização. Consulte [[Modelos do Importador]].
 
 ## Importar da sua conta Notion
 
@@ -52,8 +58,8 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 6. Em **Token de API**, clique em **Ligar...** para adicionar um novo segredo. Para o **ID**, dê-lhe um nome como `notion`, e para o **Segredo** cole o seu **Access token** do Notion.
 7. Clique em **Carregar** para escolher as bases de dados e páginas que pretende importar.
 8. Reveja e edite as opções de importação.
-9. Selecione **Importar** e aguarde até que a importação esteja completa.
-10. Está feito!
+9. Selecione **Importar** para rever o modelo gerado e pré-visualizar exemplos das suas páginas.
+10. Selecione **Importar** novamente e aguarde até que a importação termine.
 
 ### Limitações
 
@@ -106,8 +112,8 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 6. Escolha o ficheiro `.zip` com os ficheiros do Notion que pretende importar. *Recomenda-se importar todo o seu Notion de uma vez para que as ligações internas possam ser reconciliadas corretamente.*
 7. _Opcionalmente_, selecione uma pasta para a importação. As suas páginas e bases de dados do Notion serão aninhadas dentro desta pasta.
 8. Ative **Guardar páginas pai em subpastas** para manter a estrutura do Notion. *Note que no Notion pode escrever conteúdo em Pastas; isto não é possível no Obsidian e estas páginas serão adicionadas como uma subpágina dentro da pasta.*
-9. Selecione **Importar** e aguarde até que a importação esteja completa.
-10. Está feito!
+9. Selecione **Importar** para rever o modelo gerado e pré-visualizar exemplos das suas páginas.
+10. Selecione **Importar** novamente e aguarde até que a importação termine.
 
 ### Resolução de problemas
 
@@ -127,3 +133,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Se vir este erro, pode descompactar o ficheiro do Notion e depois importar os ficheiros `Export-{id}-Part-1.zip` aninhados.
+
+## Modelos
+
+Utilize [[Modelos do Importador|Modelos do Importador]] para configurar totalmente como os seus dados do Notion são importados.
+
+![[Modelos do Importador#Variáveis]]

@@ -2,13 +2,19 @@
 permalink: import/notion
 aliases:
   - Import from Notion
+cssclasses:
+  - soft-embed
 ---
-Obsidian 支持通过 [[迁移助手|迁移助手插件]] 轻松地从 Notion 中迁移笔记。该工具会将你的 Notion 数据转换为持久的 Markdown 文件，你可以在 Obsidian 和许多其他应用中离线使用这些文件。
+Obsidian 支持通过 [[迁移助手|迁移助手插件]] 轻松地从 Notion 中迁移数据。该工具会将你的 Notion 工作区转换为持久的 Markdown 文件，你可以在 Obsidian 和许多其他应用中离线使用这些文件。
 
 Obsidian 提供两种方式来导入 Notion 数据：
 
 1. **Notion 账户（推荐）**直接连接到你的工作区，可以保留数据库和公式，并将其转换为 [[Bases 简介|数据库]]。需要 Notion 集成令牌和网络连接。
 2. **文件导入**使用 Notion 的 `.zip` 导出文件。不会保留数据库，但不需要 API 令牌或网络连接。
+
+## 自定义导入页面
+
+两种导入方式都会在导入开始前显示预览。你可以编辑生成的模板，或从仓库中选择一个 Markdown 模板。封面和数据库属性名称等设置会更新预览中显示的生成属性。参见 [[迁移助手模板]]。
 
 ## 从 Notion 账户导入
 
@@ -54,8 +60,8 @@ Obsidian 提供两种方式来导入 Notion 数据：
 6. 在 **API token** 下，点击 **Link...** 添加一个新的密钥。在 **ID** 中输入一个名称如 `notion`，在 **Secret** 中粘贴你从 Notion 获取的 **Access token**。
 7. 点击 **Load** 来选择你想要导入的数据库和页面。
 8. 检查并编辑导入选项。
-9. 选择 **Import** 并等待导入完成
-10. 大功告成！
+9. 选择 **Import** 以查看生成的模板和页面预览示例。
+10. 再次选择 **Import** 并等待导入完成。
 
 ### 限制
 
@@ -108,8 +114,8 @@ Obsidian 提供两种方式来导入 Notion 数据：
 6. 选择包含你要导入的 Notion 文件的 `.zip` 文件。*建议一次性导入所有 Notion 数据，以便正确解析内部链接。*
 7. *可选*，选择一个导入目标文件夹。你的 Notion 页面和数据库将嵌套在此文件夹内。
 8. 启用 **Save parent pages in subfolders** 以保留 Notion 的结构。*请注意，在 Notion 中你可以在文件夹中编写内容，但这在 Obsidian 中是不可行的，这些页面将作为该文件夹下的子页面添加。*
-9. 选择 **Import** 并等待导入完成
-10. 大功告成！
+9. 选择 **Import** 以查看生成的模板和页面预览示例。
+10. 再次选择 **Import** 并等待导入完成。
 
 ### 故障排除
 
@@ -129,3 +135,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 如果你看到此错误，可以先解压从 Notion 导出的文件，然后导入其中嵌套的 `Export-{id}-Part-1.zip` 文件。
+
+## 模板
+
+使用 [[迁移助手模板|迁移助手模板]] 来完全配置你的 Notion 数据导入方式。
+
+![[迁移助手模板#变量]]

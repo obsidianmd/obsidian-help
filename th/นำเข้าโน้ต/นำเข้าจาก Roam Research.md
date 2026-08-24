@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Obsidian ช่วยให้คุณย้ายโน้ตจาก Roam Research ได้อย่างง่ายดายโดยใช้ [[ตัวนำเข้า|ปลั๊กอินตัวนำเข้า]] วิธีนี้จะแปลงข้อมูล Roam ของคุณเป็นไฟล์ Markdown ที่คงทน ซึ่งคุณสามารถใช้กับ Obsidian และแอปอื่นๆ ได้อีกมากมาย
 

@@ -3,6 +3,8 @@ permalink: import/craft
 aliases:
   - 导入笔记/Import from Craft
   - Import from Craft
+cssclasses:
+  - soft-embed
 ---
 Obsidian 支持从 Craft 中迁移笔记。该功能会将你的 Craft 数据转换为持久的 Markdown 文件，你可以在 Obsidian 和许多其他应用中使用这些文件。
 

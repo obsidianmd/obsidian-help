@@ -2,6 +2,8 @@
 permalink: import/notion
 aliases:
   - Import from Notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian ti permette di migrare facilmente le tue note da Notion utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di Notion in file Markdown durevoli che puoi usare offline con Obsidian e molte altre app.
 

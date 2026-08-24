@@ -2,8 +2,10 @@
 permalink: import/onenote
 aliases:
   - Import from Microsoft OneNote
+cssclasses:
+  - soft-embed
 ---
-Obsidian îți permite să îți migrezi cu ușurință notele din Microsoft OneNote folosind [[Importator|modulul Importer]]. Acest lucru îți va converti datele din OneNote în fișiere Markdown durabile, pe care le poți folosi cu Obsidian și cu multe alte aplicații.
+Obsidian îți permite să îți migrezi cu ușurință notele din Microsoft OneNote folosind [[Importator|modulul Importer]]. Acest lucru îți va converti datele din OneNote în fișiere Markdown durabile pe care le poți folosi cu Obsidian și cu multe alte aplicații.
 
 Obsidian oferă două moduri de a importa datele tale din OneNote:
 
@@ -26,8 +28,8 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 7. Apasă **Accept** pentru a acorda Obsidian permisiunea de a vedea notebook-urile tale OneNote.
 8. Apasă **Open Link** pentru a permite browserului tău să te redirecționeze către aplicația Obsidian.
 9. În aplicația Obsidian, fereastra de dialog Importer va afișa acum că ești autentificat și va lista notebook-urile și secțiunile tale OneNote. Bifează secțiunile pe care dorești să le imporți.
-10. Apasă **Importă** și așteaptă până când importul este finalizat.
-11. Ai terminat!
+10. Selectează **Importă** pentru a revizui șablonul generat și a previzualiza exemple din paginile tale.
+11. Selectează **Importă** din nou și așteaptă finalizarea importului.
 
 Dacă notebook-urile tale aparțin unui cont de serviciu sau de școală, OneNote poate refuza accesul modulului la ele după ce te autentifici. Când se întâmplă acest lucru, apare un buton **Use work or school access** lângă **Sign out**. Folosește-l pentru a te autentifica din nou cu permisiunea extinsă de care au nevoie aceste conturi. Este posibil ca organizația ta să fie nevoită să aprobe acea permisiune înainte ca aceasta să funcționeze.
 
@@ -90,8 +92,8 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 6. Alege fișierele `.onepkg` și `.one` pe care vrei să le imporți. Poți selecta mai multe fișiere deodată, astfel încât toate notebook-urile tale pot fi importate împreună.
 7. La **Sections to import** sunt listate secțiunile găsite în acele fișiere, toate bifate. Debifează ce nu dorești.
 8. Opțional, alege un **Output folder** pentru import, unde să fie salvate atașamentele și ce ar trebui să se întâmple cu **Existing notes** dacă imporți același notebook din nou.
-9. Apasă **Importă** și așteaptă până când importul este finalizat.
-10. Ai terminat!
+9. Selectează **Importă** pentru a revizui șablonul generat și a previzualiza exemple din paginile tale.
+10. Selectează **Importă** din nou și așteaptă finalizarea importului.
 
 Fiecare secțiune devine un director, iar fiecare pagină din ea devine o însemnare. O subpagină este salvată într-un director numit după pagina de deasupra ei, ceea ce păstrează structura pe care OneNote o afișa și împiedică două subpagini cu același nume să se ciocnească. Paginile din coșul de reciclare al notebook-ului nu sunt importate.
 
@@ -99,6 +101,12 @@ Fiecare secțiune devine un director, iar fiecare pagină din ea devine o însem
 
 - Secțiunile protejate cu parolă sunt stocate criptat, iar paginile lor sunt omise. Elimină parola din OneNote și exportă din nou pentru a le importa.
 - Fișierele protejate prin drepturi pot fi deschise doar de un cont pe care politica îl permite și nu pot fi citite de Importer.
+
+## Șabloane
+
+Folosește [[Șabloane pentru importator|șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale din OneNote.
+
+![[Șabloane pentru importator#Variables]]
 
 ## Confidențialitate
 

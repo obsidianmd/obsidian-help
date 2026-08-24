@@ -4,7 +4,7 @@ description: 'Folosește condiționale, bucle și atribuirea variabilelor în ș
 aliases:
   - Logic
 ---
-[[Introducere în Obsidian Web Clipper|Web Clipper]] acceptă logică de șablon pentru condiționale, bucle și atribuirea variabilelor. Această sintaxă este inspirată din limbajele de șabloane [Twig](https://twig.symfony.com/) și [Liquid](https://shopify.github.io/liquid/).
+[[Introducere în Obsidian Web Clipper|Web Clipper]] acceptă logică de șablon pentru condiționale, bucle și atribuirea variabilelor. Această sintaxă se numește [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Condiționale
@@ -67,7 +67,7 @@ Exemple:
 
 ### Valoare de adevăr
 
-Când o variabilă este folosită fără un operator de comparație, este evaluată pentru „valoarea de adevăr”:
+Când o variabilă este folosită fără un operator de comparație, este evaluată pentru „valoarea de adevăr":
 
 - `false`, `null`, `undefined`, șirul gol `""` și `0` sunt considerate **false**.
 - Array-urile goale `[]` sunt considerate **false**.

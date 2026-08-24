@@ -681,3 +681,75 @@ translation=Postranní panel
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Často kladené otázky
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Než začnete
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Import Logseq grafu
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Omezení
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Nastavení
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Deníky
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Zploštění osnov
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Zachování nekompatibilních dat
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Šablony
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Řešení problémů
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Vyhledání souborů s poznámkami
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Import poznámek z Tomboy nebo Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Šablony
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Úprava šablony importu
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Náhled výsledků
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Syntaxe šablon
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Proměnné
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Zdrojové hodnoty pro vlastnosti
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Příklad šablony

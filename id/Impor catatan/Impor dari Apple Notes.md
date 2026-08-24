@@ -1,7 +1,9 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
-Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Apple Notes menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Apple Notes Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Apple Notes menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Apple Notes Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 Saat ini, Importer hanya mendukung migrasi dari Apple Notes di macOS. Fitur ini belum tersedia di iOS.
 
@@ -14,10 +16,14 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 3. Aktifkan plugin Importer.
 4. Buka plugin **Importer** menggunakan palet perintah atau ikon bilah alat.
 5. Di bagian **Format file** pilih **Apple Notes**.
-6. Klik **Impor**.
-7. Klik **Buka** pada popup yang muncul berjudul `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
-8. Tunggu hingga impor selesai.
-9. Selesai!
+6. Pilih **Impor**.
+7. Pilih **Buka** pada popup berjudul `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
+8. Tinjau templat yang dihasilkan dan pratinjau contoh dari catatan Anda.
+9. Pilih **Impor** dan tunggu hingga impor selesai.
+
+## Menyesuaikan catatan yang diimpor
+
+Sebelum impor dimulai, Importer menampilkan pratinjau yang dihasilkan dari pilihan Apple Notes Anda. Anda dapat mengedit templat yang dihasilkan, properti, dan nama catatan, atau memilih templat Markdown dari brankas Anda. Lihat [[Template Importer]].
 
 ## Konten yang didukung
 
@@ -34,11 +40,14 @@ Apple menyimpan pindaian dalam berbagai format tergantung bagaimana pindaian ter
 * Pindaian yang dibuat atau dilihat pada versi macOS atau iOS yang lebih baru biasanya akan diekspor sebagai gambar yang dipotong.
 * Pindaian yang telah diedit menggunakan fitur yang diperkenalkan di iOS 17 biasanya akan diekspor sebagai PDF.
 
-## Metode ekspor alternatif
+## Templat
 
-Apple tidak menyediakan opsi bawaan untuk mengekspor catatan Anda. Namun beberapa alat pihak ketiga tersedia seperti [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) oleh Chintan Ghate. Harap diperhatikan bahwa sebagian besar alat terbatas dalam data yang dapat diekspor dari Apple Notes dan mungkin tidak menghasilkan data keluaran yang paling kompatibel. Alat-alat ini bekerja paling baik jika Apple Notes Anda sebagian besar hanya berisi teks, dan memiliki sedikit lampiran atau fitur khusus seperti gambar tangan dan pindaian.
+Gunakan [[Template Importer|templat Importer]] untuk mengonfigurasi sepenuhnya bagaimana data Apple Notes Anda diimpor.
 
-Tergantung pada alat yang Anda gunakan, ekspor mungkin dalam format Markdown atau format HTML. Ikuti petunjuk berdasarkan format file yang Anda ekspor:
+![[Template Importer#Variables]]
 
-- [[Impor file HTML]]
-- [[Impor file Markdown]]
+Selain itu, Apple Notes menyediakan variabel berikut.
+
+| Variabel       | Deskripsi                          |
+| -------------- | ---------------------------------- |
+| `{{isPinned}}` | Apakah catatan tersebut disematkan. |

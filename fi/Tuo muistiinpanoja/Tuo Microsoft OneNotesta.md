@@ -1,5 +1,7 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojen siirtämisen helposti Microsoft OneNotesta käyttämällä [[Tuontityökalu|Tuontityökalu-lisäosaa]]. Tämä muuntaa OneNote-tietosi kestäviksi Markdown-tiedostoiksi, joita voit käyttää Obsidianin ja monien muiden sovellusten kanssa.
 

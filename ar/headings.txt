@@ -1473,3 +1473,75 @@ translation=الشريط الجانبي
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=الأسئلة الشائعة
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=قبل البدء
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=استيراد رسم Logseq البياني
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=القيود
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=الإعدادات
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=اليوميات
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=تسطيح المخططات التفصيلية
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=الاحتفاظ بالبيانات غير المتوافقة
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=القوالب
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=استكشاف الأخطاء وإصلاحها
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=تحديد موقع ملفات الملاحظات
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=استيراد ملاحظات Tomboy أو Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=القوالب
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=تحرير قالب الاستيراد
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=معاينة النتائج
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=صيغة القالب
+
+[heading.import/templates/Variables]
+original=Variables
+translation=المتغيرات
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=القيم المصدرية للخصائص
+
+[heading.import/templates/Example template]
+original=Example template
+translation=مثال على قالب

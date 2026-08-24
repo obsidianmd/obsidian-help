@@ -1,5 +1,7 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian umožňuje snadno migrovat vaše poznámky z Notion pomocí [[Importér|pluginu Importér]]. Tím se vaše data z Notion převedou na trvanlivé soubory Markdown, které můžete používat offline s Obsidian a mnoha dalšími aplikacemi.
 

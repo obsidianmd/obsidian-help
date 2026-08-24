@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian ermöglicht es dir, deine Tagebucheinträge aus Apple Journal mithilfe des [[Importprogramm|Importprogramm-Plugins]] einfach zu migrieren.
 Dabei werden deine Tagebücher in langlebige Markdown-Dateien konvertiert, die du mit Obsidian und vielen anderen Apps verwenden kannst.

@@ -102,6 +102,13 @@ Xóa khoảng trắng ở cả hai đầu của chuỗi.
 
 - `"  hello world  "|trim` trả về `"hello world"`.
 
+### `unescape`
+
+Chuyển đổi các dấu ngoặc kép đã thoát và chuỗi xuống dòng thành ký tự thực.
+
+- `"Line 1\\nLine 2"|unescape` trả về văn bản trên hai dòng.
+- `'He said \\"hello\\"'|unescape` trả về `He said "hello"`.
+
 ### `uncamel`
 
 Chuyển đổi camelCase hoặc PascalCase thành các từ phân cách bằng dấu cách, mà bạn có thể tiếp tục định dạng với các bộ lọc khác như `title` hoặc `capitalize`.
@@ -206,6 +213,14 @@ Trả về độ dài của chuỗi, mảng hoặc số khóa trong đối tư�
 - Với mảng: `["a","b","c"]|length` trả về `3`.
 - Với đối tượng: `{"a":1,"b":2}|length` trả về `2`.
 
+### `number_format`
+
+Định dạng số với số chữ số thập phân được chỉ định và dấu phân cách thập phân và hàng nghìn tùy chọn.
+
+- `1234.567|number_format:2` trả về `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` trả về `"1.234,57"`.
+- Mảng và đối tượng được định dạng đệ quy.
+
 ### `round`
 
 Làm tròn số đến số nguyên gần nhất hoặc đến số chữ số thập phân được chỉ định.
@@ -216,6 +231,10 @@ Làm tròn số đến số nguyên gần nhất hoặc đến số chữ số t
 ## Xử lý HTML
 
 Xử lý nội dung HTML và chuyển đổi HTML sang Markdown. Lưu ý rằng [[Biến|biến]] đầu vào của bạn phải chứa nội dung HTML, ví dụ sử dụng `{{fullHtml}}`, `{{contentHtml}}` hoặc biến `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Chuyển đổi HTML thành JSON có cấu trúc chứa thẻ, thuộc tính và phần tử con của mỗi phần tử. Các nút văn bản sử dụng định dạng `{"type":"text","content":"..."}`. Có thể kết hợp với các bộ lọc như `map`, `object` và `template` để định hình lại HTML đã trích xuất.
 
 ### `markdown` 
 
@@ -339,6 +358,13 @@ Thao tác dữ liệu đối tượng:
 - `object:keys` trả về mảng các khóa của đối tượng.
 - `object:values` trả về mảng các giá trị của đối tượng.
 - Ví dụ: `{"a":1,"b":2}|object:array` trả về `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Đảo ngược chuỗi, mảng và thứ tự mục nhập của đối tượng.
+
+- `"abc"|reverse` trả về `"cba"`.
+- `["a","b","c"]|reverse` trả về `["c","b","a"]`.
 
 ### `slice`
 

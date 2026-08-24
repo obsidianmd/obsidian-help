@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian giver dig mulighed for at importere data fra CSV-filer ved hjælp af det officielle [[Importér|Importer-plugin]]. Dette er nyttigt, hvis du har tabeldata gemt i applikationer som Excel, Google Sheets, Numbers, Notion eller Airtable.
 
@@ -17,12 +19,25 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 4. Åbn **Importer**-pluginet ved hjælp af kommandopaletten eller værktøjslinjeikonen.
 5. Under **Filformat** vælg **CSV (.csv).**
 6. Vælg placeringen af din CSV-fil.
-7. Klik på **Importér** for at konfigurere, hvordan data i din CSV-fil konverteres til noter med [[Egenskaber]].
-8. Klik på **Fortsæt** og vent, til importen er fuldført.
-9. Du er færdig!
+7. Vælg **Importér** for at konfigurere, hvordan data i din CSV-fil konverteres til noter med [[Egenskaber]].
+8. Vælg **Fortsæt** for at gennemgå den genererede skabelon og forhåndsvise eksempler fra dine rækker.
+9. Vælg **Importér** og vent, til importen er fuldført.
 
 ## Konfigurér, hvordan CSV-felter importeres
 
-I det andet trin af CSV-importen kan du vælge, hvordan data importeres ved hjælp af en skabelon.
+I feltkonfigurationstrinnet kan du vælge, hvordan data importeres. Importer genererer en skabelon ud fra CSV-overskrifterne, bruger den første kolonne til det indledende notenavn og opretter en egenskab for hver kolonne.
 
-Hver kolonne i din CSV-fil tildeles en variabel kaldet `{{column_name}}`, som repræsenterer navnet på overskriften i din fil. Du kan bruge denne variabel til at definere notens titel, placering, indhold og [[Egenskaber|egenskaber]].
+## Skabeloner
+
+Brug [[Importer-skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine data importeres.
+
+Hver CSV-kolonne er tilgængelig via sin overskrift. Hvis en kolonne ikke har nogen overskrift, bruger Importer det genererede kolonnenavn.
+
+Brug parentesnotation, så mellemrum og tegnsætning håndteres sikkert:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Importer-skabeloner#Variabler]]

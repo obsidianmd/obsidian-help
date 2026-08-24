@@ -1,5 +1,7 @@
 ---
 permalink: import/airtable
+cssclasses:
+  - soft-embed
 ---
 Obsidian låter dig migrera dina data från Airtable med hjälp av [[Importerare|Importerare-tillägget]]. Detta konverterar dina Airtable-baser till hållbara Markdown-filer som du kan använda offline med Obsidian och många andra appar.
 
@@ -34,23 +36,25 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 7. Klicka på **Ladda** för att bläddra bland dina baser och välj sedan de tabeller du vill importera.
 8. Granska och redigera importalternativen.
 9. Välj **Importera** för att konfigurera hur dina fält ska konverteras till anteckningar med [[Egenskaper|egenskaper]].
-10. Klicka på **Fortsätt** och vänta tills importen är klar.
-11. Du är klar!
+10. Välj **Fortsätt** för att granska den genererade mallen och förhandsgranska exempel från dina poster.
+11. Välj **Importera** och vänta tills importen är klar.
 
-### Importalternativ
+## Importalternativ
 
 - **Konvertera formler** — välj om formel-, uppslags-, rollup- och räkningsfält ska skrivas om som [[Formler|Bases-formler]], med återfall till det värde Airtable beräknade när det inte finns någon motsvarighet, eller importeras enbart som statiska värden.
 - **Ladda ner bilagor** — spara bifogade filer i ditt valv, med dina inställningar för bilagemapp och länkformat. När detta är inaktiverat, eller när en nedladdning misslyckas, länkar anteckningen till filens URL på Airtable istället.
-- **Vyegenskapsnamn** — egenskapen som registrerar vilka Airtable-vyer en post tillhör. Varje vy i den genererade basen filtrerar på denna egenskap. Standardvärdet är `base`.
-- **Inkrementell import** — lägger till en `airtable-id`-egenskap till varje anteckning så att en senare import kan hoppa över poster som redan har importerats. Vid en fullständig import tas denna egenskap bort igen.
+- **Vyegenskapsnamn** — egenskapen som registrerar vilka Airtable-vyer en post tillhör. Varje vy i den genererade basen filtrerar på denna egenskap. Standardvärdet är `Views`.
+- **Spara Airtable-post-ID** — lägger till en `airtable-id`-egenskap så att framtida importer kan känna igen poster efter att deras anteckningar har flyttats eller bytt namn.
 
 ## Konfigurera hur Airtable-fält importeras
 
-I det andra steget av importen kan du välja hur varje fält importeras.
+I fältkonfigurationssteget kan du välja hur varje fält importeras.
 
-Varje fält i dina tabeller tilldelas en variabel som kallas `{{field_name}}`. Som standard blir varje fält en egenskap, och du kan använda dessa variabler för att byta namn på egenskaper, ändra deras värden eller skriva innehåll i brödtexten på varje anteckning.
+Som standard blir varje Airtable-fält en egenskap. Du kan byta namn på eller ta bort egenskaper och ändra deras värden innan du fortsätter till mallförhandsvisningen.
 
-Varje tabells primärfält används alltid som anteckningens titel, och poster placeras alltid i en mapp uppkallad efter deras tabell, så dessa alternativ går inte att konfigurera.
+Varje tabells primärfält används som standardnamn för anteckningen. Du kan redigera anteckningsnamnsmallen från förhandsvisningssteget. Poster placeras alltid i en mapp uppkallad efter deras tabell.
+
+Se [[Importerarmallar]] för att anpassa den genererade Markdown.
 
 ## Vad som importeras
 
@@ -75,10 +79,8 @@ Airtable/
 - Länkade poster blir länkar till motsvarande anteckningar.
 - Bilagor laddas ner till ditt valv med hjälp av dina valvinställningar.
 
-## Begränsningar
 
-> [!info] Airtable-import är nytt
-> Airtable-importeraren är ny. Om du stöter på problem med konverteringen, [skicka in en felrapport](https://github.com/obsidianmd/obsidian-importer/issues) så att vi kan förbättra den.
+## Begränsningar
 
 På grund av Airtable API:ets hastighetsbegränsningar kan import av stora baser ta avsevärd tid. Ha tålamod.
 
@@ -89,3 +91,7 @@ På grund av begränsningar i Airtable API:et är vissa data inte tillgängliga 
 - Bara grid-, galleri- och listvyer importeras. Andra vytyper, som kalender, kanban, tidslinje och Gantt, ignoreras.
 - Länkar till poster i tabeller du inte valde blir postens rena titel istället för en länk.
 - Gränssnittsdesigner, automatiseringar, kommentarer och revisionshistorik importeras inte.
+
+## Felsökning
+
+Om du stöter på problem med konverteringen, [skicka in en felrapport](https://github.com/obsidianmd/obsidian-importer/issues) så att vi kan förbättra den.

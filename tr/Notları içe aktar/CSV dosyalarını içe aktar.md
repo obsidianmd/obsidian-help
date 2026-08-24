@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian, resmi [[İçe aktarıcı|İçe aktarıcı eklentisi]] ile CSV dosyalarından veri aktarmanıza olanak tanır. Bu, Excel, Google Sheets, Numbers, Notion veya Airtable gibi uygulamalarda tablo biçiminde saklanan verileriniz varsa kullanışlıdır.
 
@@ -17,12 +19,25 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan y
 4. Komut paleti veya araç çubuğu simgesi ile **İçe aktarıcı** eklentisini açın.
 5. **Dosya biçimi** altında **CSV (.csv)** seçin.
 6. CSV dosyanızın konumunu seçin.
-7. CSV dosyanızdaki verilerin [[Özellikler]] içeren notlara nasıl dönüştürüleceğini yapılandırmak için **İçe aktar**'a tıklayın.
-8. **Devam et**'e tıklayın ve içe aktarma tamamlanana kadar bekleyin.
-9. Tamamlandı!
+7. CSV dosyanızdaki verilerin [[Özellikler]] içeren notlara nasıl dönüştürüleceğini yapılandırmak için **İçe aktar**'ı seçin.
+8. Oluşturulan şablonu ve satırlarınızdan önizleme örneklerini gözden geçirmek için **Devam et**'i seçin.
+9. **İçe aktar**'ı seçin ve içe aktarmanın tamamlanmasını bekleyin.
 
 ## CSV alanlarının nasıl içe aktarılacağını yapılandırma
 
-CSV içe aktarmanın ikinci adımında, bir şablon kullanarak verilerin nasıl içe aktarılacağını seçebilirsiniz.
+Alan yapılandırma adımında, verilerin nasıl içe aktarılacağını seçebilirsiniz. İçe aktarıcı, CSV başlıklarından bir şablon oluşturur, ilk sütunu başlangıç not adı olarak kullanır ve her sütun için bir özellik oluşturur.
 
-CSV dosyanızdaki her sütuna, dosyanızdaki başlık adını temsil eden `{{sütun_adı}}` adlı bir değişken atanır. Bu değişkeni notun başlığını, konumunu, içeriğini ve [[Özellikler|özelliklerini]] tanımlamak için kullanabilirsiniz.
+## Şablonlar
+
+Verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe aktarıcı şablonlarını]] kullanın.
+
+Her CSV sütunu, başlığı kullanılarak erişilebilir. Bir sütunun başlığı yoksa, İçe aktarıcı oluşturduğu sütun adını kullanır.
+
+Boşlukların ve noktalama işaretlerinin güvenle işlenmesi için köşeli parantez gösterimini kullanın:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[İçe aktarıcı şablonları#Değişkenler]]

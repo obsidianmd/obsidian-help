@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian låter dig enkelt migrera dina journalanteckningar från Apple Journal med hjälp av [[Importerare|Importerare-tillägget]].
 Detta kommer att konvertera dina journalanteckningar till hållbara Markdown-filer som du kan använda med Obsidian och många andra appar.

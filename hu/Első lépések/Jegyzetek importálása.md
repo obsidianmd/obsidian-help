@@ -17,11 +17,12 @@ Az alkalmazások jönnek-mennek, de az adataidnak meg kell maradniuk. Az Obsidia
 - <span class="icon-app icon-bear"></span> [[Importálás a Bearből|Bear]]
 - <span class="icon-app icon-craft"></span> [[Importálás a Craftből|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importálás a Roam Research-ből|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Importálás a Logseq-ből|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importálás a Tomboy-ból és Gnote-ból|Tomboy and Gnote]]
 - <span class="icon-app icon-html"></span> [[HTML fájlok importálása|HTML fájlok]]
 - <span class="icon-app icon-md"></span> [[CSV fájlok importálása]]
 - <span class="icon-app icon-md"></span> [[Markdown fájlok importálása|Markdown fájlok]]
 - <span class="icon-app icon-md"></span> [[Textbundle fájlok importálása|Textbundle fájlok]]
-- <span class="icon-app icon-md"></span> [[Zettelkasten jegyzetek importálása|Zettelkasten jegyzetek]]
 
 ## További formátumok
 
@@ -31,7 +32,6 @@ A közösségünk további útmutatókat is megosztott, amelyek segíthetnek az 
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

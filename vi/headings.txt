@@ -4153,3 +4153,75 @@ translation=Thanh bên
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Câu hỏi thường gặp
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Chỉnh sửa mẫu nhập
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Xem trước kết quả
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Cú pháp mẫu
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Biến
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Giá trị nguồn cho thuộc tính
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Mẫu ví dụ
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Trước khi bắt đầu
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Nhập đồ thị Logseq của bạn
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Hạn chế
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Cài đặt
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Nhật ký
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Làm phẳng dàn ý
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Giữ nguyên dữ liệu không tương thích
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Mẫu
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Khắc phục sự cố
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Xác định vị trí tệp ghi chú của bạn
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Nhập ghi chú Tomboy hoặc Gnote của bạn
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Mẫu

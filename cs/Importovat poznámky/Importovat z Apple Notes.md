@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje snadno migrovat vaše poznámky z Apple Notes pomocí [[Importér|pluginu Importér]]. Ten převede vaše data z Apple Notes na trvanlivé Markdown soubory, které můžete používat s Obsidian a mnoha dalšími aplikacemi.
 

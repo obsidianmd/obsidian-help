@@ -1,5 +1,7 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje migrovať vaše poznámky z Craft. Toto skonvertuje vaše dáta z Craft do odolných Markdown súborov, ktoré môžete používať s Obsidian a mnohými ďalšími aplikáciami.
 

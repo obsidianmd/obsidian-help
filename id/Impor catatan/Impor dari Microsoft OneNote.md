@@ -1,7 +1,9 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
-Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Microsoft OneNote menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data OneNote Anda menjadi file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memungkinkan Anda dengan mudah memigrasikan catatan dari Microsoft OneNote menggunakan [[Impor|plugin Importer]]. Ini mengonversi data OneNote Anda menjadi file Markdown yang tahan lama yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 Obsidian menawarkan dua cara untuk mengimpor data OneNote Anda:
 
@@ -24,8 +26,8 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 7. Klik **Terima** untuk memberikan izin kepada Obsidian untuk melihat Buku Catatan OneNote Anda.
 8. Klik **Buka Tautan** untuk mengizinkan browser Anda mengarahkan Anda ke aplikasi Obsidian.
 9. Di aplikasi Obsidian, dialog Importer sekarang akan menampilkan bahwa Anda telah masuk dan mencantumkan Buku Catatan dan Bagian OneNote Anda. Centang bagian yang ingin Anda impor.
-10. Klik **Impor** dan tunggu hingga impor selesai.
-11. Selesai!
+10. Pilih **Impor** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari halaman Anda.
+11. Pilih **Impor** lagi dan tunggu hingga impor selesai.
 
 Jika buku catatan Anda milik akun kerja atau sekolah, OneNote mungkin menolak akses plugin ke buku catatan tersebut setelah Anda masuk. Ketika hal itu terjadi, tombol **Gunakan akses kerja atau sekolah** akan muncul di samping **Keluar**. Gunakan tombol tersebut untuk masuk kembali dengan izin yang lebih luas yang diperlukan oleh akun tersebut. Organisasi Anda mungkin harus menyetujui izin tersebut sebelum bisa berfungsi.
 
@@ -88,8 +90,8 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 6. Pilih file `.onepkg` dan `.one` yang ingin Anda impor. Anda dapat memilih lebih dari satu file sekaligus, sehingga semua buku catatan Anda dapat diimpor bersamaan.
 7. Di bagian **Bagian untuk diimpor**, bagian-bagian yang ditemukan dalam file tersebut akan dicantumkan, dengan semuanya tercentang. Hapus centang pada yang tidak Anda inginkan.
 8. Secara opsional, pilih **Folder output** untuk impor, di mana lampiran harus disimpan, dan apa yang harus terjadi pada **Catatan yang sudah ada** jika Anda mengimpor buku catatan yang sama lagi.
-9. Klik **Impor** dan tunggu hingga impor selesai.
-10. Selesai!
+9. Pilih **Impor** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari halaman Anda.
+10. Pilih **Impor** lagi dan tunggu hingga impor selesai.
 
 Setiap bagian menjadi folder, dan setiap halaman di dalamnya menjadi catatan. Subhalaman disimpan dalam folder yang dinamai sesuai halaman di atasnya, yang menjaga struktur yang ditampilkan OneNote dan mencegah dua subhalaman dengan nama yang sama bertabrakan. Halaman di tempat sampah buku catatan tidak diimpor.
 
@@ -97,6 +99,12 @@ Setiap bagian menjadi folder, dan setiap halaman di dalamnya menjadi catatan. Su
 
 - Bagian yang dilindungi kata sandi disimpan dalam keadaan terenkripsi, dan halamannya dilewati. Hapus kata sandi di OneNote dan ekspor lagi untuk mengimpornya.
 - File yang dilindungi hak hanya dapat dibuka oleh akun yang diizinkan oleh kebijakan, dan tidak dapat dibaca oleh Importer.
+
+## Templat
+
+Gunakan [[Template Importer|templat Importer]] untuk mengonfigurasi sepenuhnya cara data OneNote Anda diimpor.
+
+![[Template Importer#Variables]]
 
 ## Privasi
 

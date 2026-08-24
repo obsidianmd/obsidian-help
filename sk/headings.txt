@@ -1801,3 +1801,75 @@ translation=Bočný panel
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Často kladené otázky
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Pred začatím
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importovanie vášho Logseq grafu
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Obmedzenia
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Nastavenia
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Denníky
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Sploštenie osnov
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Zachovanie nekompatibilných dát
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Šablóny
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Riešenie problémov
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Nájdite svoje súbory poznámok
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importujte svoje poznámky z Tomboy alebo Gnote
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Šablóny
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Úprava šablóny importu
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Náhľad výsledkov
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Syntax šablón
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Premenné
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Zdrojové hodnoty pre vlastnosti
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Príklad šablóny

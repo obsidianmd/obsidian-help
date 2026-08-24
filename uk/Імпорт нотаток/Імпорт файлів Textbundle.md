@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 Obsidian дозволяє легко імпортувати файли [Textbundle](https://textbundle.org/) за допомогою офіційного [[Імпортер|додатка Імпортер]].
 

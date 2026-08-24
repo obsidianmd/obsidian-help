@@ -214,6 +214,10 @@ translation=Impor dari Google Keep
 original=Import HTML files
 translation=Impor file HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Impor dari Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Impor file Markdown
@@ -230,9 +234,17 @@ translation=Impor dari Microsoft OneNote
 original=Import from Roam Research
 translation=Impor dari Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Template Importer
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Impor file Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Impor dari Tomboy dan Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

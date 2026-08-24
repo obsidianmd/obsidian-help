@@ -2,6 +2,8 @@
 permalink: import/html
 aliases:
   - Import HTML files
+cssclasses:
+  - soft-embed
 ---
 Obsidian îți permite să imporți cu ușurință fișiere HTML individuale și directoare întregi de fișiere HTML folosind [[Importator|modulul Importer]] oficial. Acest lucru este util dacă dorești să salvezi site-uri web întregi în format [[Markdown specific Obsidian|Markdown]], sau dacă dorești să imporți date dintr-un instrument care exportă în HTML. 
 
@@ -17,10 +19,33 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
 5. La **Format fișier** alege **HTML (.html).**
 6. Selectează locația fișierelor sau directoarelor tale HTML.
-7. Apasă **Importă** și așteaptă până când importul este finalizat.
-8. Ai terminat!
+7. Selectează **Importă** pentru a revizui șablonul generat și a previzualiza exemple din fișierele tale.
+8. Selectează **Importă** din nou și așteaptă finalizarea importului.
 
 ### Setări de import
 
 - **Limita de dimensiune a atașamentelor**: Omite importul atașamentelor mai mari decât dimensiunea specificată.
 - **Dimensiunea minimă a imaginii**: Omite importul imaginilor mai mici decât dimensiunea specificată pe oricare dintre dimensiuni. Poate fi folosit pentru a omite pictogramele și siglele.
+
+## Șabloane
+
+Folosește [[Șabloane pentru importator|șabloanele Importer]] pentru a configura complet modul în care sunt importate datele tale. 
+
+![[Șabloane pentru importator#Variables]]
+
+În plus, importurile HTML oferă multe dintre aceleași variabile ca și [[Introducere în Obsidian Web Clipper|Web Clipper]]:
+
+| Variabilă | Descriere |
+| --- | --- |
+| `{{author}}` | Autorul paginii. |
+| `{{contentHtml}}` | Conținutul extras al paginii în format HTML. |
+| `{{description}}` | Descrierea sau rezumatul paginii. |
+| `{{domain}}` | Domeniul paginii. |
+| `{{favicon}}` | URL-ul favicon-ului. |
+| `{{fullHtml}}` | HTML neprocesat pentru pagina completă. |
+| `{{image}}` | URL-ul imaginii de partajare socială. |
+| `{{language}}` | Limba paginii. |
+| `{{published}}` | Data publicării, care poate fi formatată cu filtrul `date`. |
+| `{{site}}` | Numele site-ului sau al editorului. |
+| `{{url}}` | URL-ul sursă găsit în documentul importat, când este disponibil. |
+| `{{words}}` | Numărul de cuvinte. |

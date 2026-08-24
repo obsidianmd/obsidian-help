@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 Obsidian cho phép bạn dễ dàng nhập các tệp [Textbundle](https://textbundle.org/) bằng [[Trình nhập|plugin Trình nhập]] chính thức.
 
@@ -17,11 +19,21 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 4. Mở plugin **Trình nhập** bằng bảng lệnh hoặc biểu tượng thanh công cụ.
 5. Dưới **Định dạng tệp** chọn **Textbundle (.textbundle, .textpack).**
 6. Chọn vị trí của các tệp Textbundle hoặc Textpack của bạn. Các tệp Zip cũng được hỗ trợ.
-7. Nhấp **Nhập** và đợi cho đến khi quá trình nhập hoàn tất.
-8. Hoàn thành!
+7. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ ghi chú của bạn.
+8. Chọn **Nhập** một lần nữa và đợi cho quá trình nhập hoàn tất.
+
+## Tùy chỉnh ghi chú đã nhập
+
+Trước khi quá trình nhập bắt đầu, Trình nhập hiển thị bản xem trước được tạo từ các tệp Textbundle đã chọn. Bạn có thể chỉnh sửa mẫu được tạo hoặc chọn một mẫu Markdown từ kho của bạn. Xem [[Mẫu trình nhập]].
 
 ## Khắc phục sự cố
 
 ### Không có tệp nào được chọn để nhập
 
 Tính năng nhập Textbundle chỉ có thể nhập một tệp Textbundle tại một thời điểm và chỉ trên thiết bị Mac. Thay vào đó, bạn có thể nén tất cả các tệp Textbundle mà bạn muốn nhập vào một tệp .zip duy nhất và nhập tệp này từ bất kỳ thiết bị nào.
+
+## Mẫu
+
+Sử dụng [[Mẫu trình nhập|mẫu Trình nhập]] để cấu hình đầy đủ cách dữ liệu của bạn được nhập.
+
+![[Mẫu trình nhập#Variables]]

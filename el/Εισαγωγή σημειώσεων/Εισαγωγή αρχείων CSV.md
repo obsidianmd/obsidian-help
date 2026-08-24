@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Το Obsidian σας επιτρέπει να εισάγετε δεδομένα από αρχεία CSV χρησιμοποιώντας το επίσημο [[Εισαγωγέας|πρόσθετο Εισαγωγέα]]. Αυτό είναι χρήσιμο αν έχετε δεδομένα αποθηκευμένα σε μορφή πίνακα σε εφαρμογές όπως Excel, Google Sheets, Numbers, Notion ή Airtable.
 

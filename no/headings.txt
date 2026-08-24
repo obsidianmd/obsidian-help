@@ -1029,3 +1029,75 @@ translation=Sidefelt
 [heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Ofte stilte spørsmål
+
+[heading.import/logseq/Before you start]
+original=Before you start
+translation=Før du begynner
+
+[heading.import/logseq/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importer Logseq-grafen din
+
+[heading.import/logseq/Limitations]
+original=Limitations
+translation=Begrensninger
+
+[heading.import/logseq/Settings]
+original=Settings
+translation=Innstillinger
+
+[heading.import/logseq/Journals]
+original=Journals
+translation=Journaler
+
+[heading.import/logseq/Flatten outlines]
+original=Flatten outlines
+translation=Flat ut disposisjoner
+
+[heading.import/logseq/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Bevar inkompatible data
+
+[heading.import/logseq/Templates]
+original=Templates
+translation=Maler
+
+[heading.import/logseq/Troubleshooting]
+original=Troubleshooting
+translation=Feilsøking
+
+[heading.import/tomboy/Locate your note files]
+original=Locate your note files
+translation=Finn notatfilene dine
+
+[heading.import/tomboy/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importer Tomboy- eller Gnote-notatene dine
+
+[heading.import/tomboy/Templates]
+original=Templates
+translation=Maler
+
+[heading.import/templates/Edit the import template]
+original=Edit the import template
+translation=Rediger importmalen
+
+[heading.import/templates/Preview results]
+original=Preview results
+translation=Forhåndsvis resultater
+
+[heading.import/templates/Template syntax]
+original=Template syntax
+translation=Malsyntaks
+
+[heading.import/templates/Variables]
+original=Variables
+translation=Variabler
+
+[heading.import/templates/Source values for properties]
+original=Source values for properties
+translation=Kildeverdier for egenskaper
+
+[heading.import/templates/Example template]
+original=Example template
+translation=Eksempelmal
