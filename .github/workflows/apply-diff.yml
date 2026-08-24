@@ -27,7 +27,7 @@ jobs:
   apply-diff:
     needs: setup
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     strategy:
@@ -82,6 +82,8 @@ jobs:
 
   commit:
     needs: apply-diff
+    # Run even if some locales failed or timed out, so their patches still land.
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
