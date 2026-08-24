@@ -1,5 +1,7 @@
 ---
 permalink: import/logseq
+cssclasses:
+  - soft-embed
 ---
 Obsidian lets you migrate notes from a file-based Logseq graph (now called "Logseq OG") using the official [[Importer|Importer plugin]]. Importer reads Logseq's Markdown files directly and converts Logseq-specific formatting into durable files that you can use offline with Obsidian and other apps.
 

@@ -1,5 +1,7 @@
 ---
 permalink: import/markdown
+cssclasses:
+  - soft-embed
 ---
 Obsidian uses Markdown `.md` files as the primary format for notes. This makes it easy to import Markdown files into Obsidian. Many apps can edit Markdown files or export to this format.
 

@@ -1,5 +1,7 @@
 ---
 permalink: import/tomboy
+cssclasses:
+  - soft-embed
 ---
 Obsidian lets you migrate notes from Tomboy and Gnote using the official [[Importer|Importer plugin]]. Importer reads the apps' `.note` files directly and converts their XML content into Markdown.
 

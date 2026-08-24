@@ -1,5 +1,7 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian lets you easily migrate your data from Notion using the [[Importer|Importer plugin]]. This converts your Notion workspace to durable Markdown files that you can use offline with Obsidian and many other apps.
 
