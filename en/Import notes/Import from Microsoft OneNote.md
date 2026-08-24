@@ -1,7 +1,9 @@
 ---
 permalink: import/onenote
+cssclasses:
+  - soft-embed
 ---
-Obsidian lets you easily migrate your notes from Microsoft OneNote using the [[Importer|Importer plugin]]. This will convert your OneNote data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian lets you easily migrate your notes from Microsoft OneNote using the [[Importer|Importer plugin]]. This converts your OneNote data to durable Markdown files you can use with Obsidian and many other apps.
 
 Obsidian offers two ways to import your OneNote data:
 
@@ -24,8 +26,8 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 7. Click **Accept** to grant Obsidian permission to view your OneNote Notebooks.
 8. Click **Open Link** to allow your browser to redirect you to the Obsidian app.
 9. In the Obsidian app, the Importer dialog will now display that you are signed in and list your OneNote Notebooks and Sections. Check the sections you wish to import.
-10. Click **Import** and wait until import is complete.
-11. You're done!
+10. Select **Import** to review the generated template and preview examples from your pages.
+11. Select **Import** again and wait for the import to finish.
 
 If your notebooks belong to a work or school account, OneNote may refuse the plugin access to them after you sign in. When that happens a **Use work or school access** button appears beside **Sign out**. Use it to sign in again with the wider permission those accounts need. Your organization may have to approve that permission before it will work.
 
@@ -88,8 +90,8 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 6. Choose the `.onepkg` and `.one` files you want to import. You can pick more than one file at a time, so all your notebooks can be imported together.
 7. Under **Sections to import** the sections found in those files are listed, with everything checked. Uncheck anything you don't want.
 8. Optionally, choose an **Output folder** for the import, where the attachments should be saved, and what should happen to **Existing notes** if you import the same notebook again.
-9. Click **Import** and wait until import is complete.
-10. You're done!
+9. Select **Import** to review the generated template and preview examples from your pages.
+10. Select **Import** again and wait for the import to finish.
 
 Each section becomes a folder, and each page in it becomes a note. A subpage is saved in a folder named after the page above it, which keeps the structure OneNote showed and stops two subpages with the same name from colliding. Pages in the notebook's recycle bin are not imported.
 
@@ -98,9 +100,16 @@ Each section becomes a folder, and each page in it becomes a note. A subpage is 
 - Password-protected sections are stored encrypted, and their pages are skipped. Remove the password in OneNote and export again to import them.
 - Rights-protected files can only be opened by an account the policy allows, and cannot be read by Importer.
 
+## Templates
+
+Use [[Importer templates|Importer templates]] to fully configure how your OneNote data is imported. 
+
+![[Importer templates#Variables]]
+
 ## Privacy
 
 If you choose to import using your Microsoft Account, the Obsidian Importer plugin uses [OAuth](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow) to authenticate and import your OneNote notebooks. This grants a short term access token to your account which is used only from your computer and is never stored. After the import completes you may optionally revoke the token from the [Microsoft apps & services page](https://account.live.com/consent/Manage).
 
 File import never connects to Microsoft: the files you pick are read on your computer, without any network connection.
+
 

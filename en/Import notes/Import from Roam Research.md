@@ -1,7 +1,9 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
-Obsidian lets you easily migrate your notes from Roam Research  using the [[Importer|Importer plugin]]. This will convert your Roam data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian lets you easily migrate your notes from Roam Research  using the [[Importer|Importer plugin]]. This converts your Roam data to durable Markdown files you can use with Obsidian and many other apps.
 
 ## Export your data from Roam Research
 
@@ -22,8 +24,13 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 6. Select the location of your `.json` file.
 7. Under **Output folder**, choose where your files should import.
 8. If you want to also import attachments, toggle **Download all attachments**.
-9. Click **Import** and wait until import is complete.
-10. You're done!
+9. Select **Import** to review the generated template and preview examples from your pages.
+10. Select **Import** again and wait for the import to finish.
 
 ![[Roam-Importer-importing.png]]
 
+## Templates
+
+Use [[Importer templates|Importer templates]] to fully configure how your Roam Research data is imported. 
+
+![[Importer templates#Variables]]
