@@ -12,6 +12,7 @@ Fejleszthetsz [[Közösségi bővítmények]]et és [[Témák]]at Typescript és
 Az Obsidian több nyílt forráskódú projektet is fejleszt és karbantart. Az alábbi GitHub-tárolókhoz hibjavításokat és fejlesztéseket tartalmazó pull requesteket nyújthatsz be:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), egy nyílt fájlformátum végtelen vászon adatokhoz.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), sablonnyelv Markdown generálásához.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), egy bővítmény, amely különféle formátumokból egyszerű szöveges Markdown fájlokká alakítja az adatokat.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), egy bővítmény, amely térképeket jelenít meg az Obsidian Bázisokban.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), egy böngészőbővítmény weboldalak kiemeléséhez és mentéséhez egyszerű szöveges Markdown fájlokba.

@@ -14,6 +14,7 @@ Você pode desenvolver [[Plugins da comunidade]] e [[Temas]] usando Typescript e
 O Obsidian desenvolve e mantém vários projetos de código aberto. Você pode enviar pull requests com correções de bugs e melhorias para os seguintes repositórios no GitHub:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), um formato de arquivo aberto para dados de tela infinita.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), linguagem de template para geração de Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), um plugin que converte dados de uma ampla variedade de formatos para arquivos Markdown em texto simples.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), um plugin que exibe mapas no Obsidian Bases.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), uma extensão de navegador para destacar e capturar páginas web em arquivos Markdown em texto simples.

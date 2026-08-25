@@ -14,6 +14,7 @@ Poți dezvolta [[Module comunitare]] și [[Teme]] folosind Typescript și CSS. A
 Obsidian dezvoltă și menține mai multe proiecte open source. Poți trimite pull request-uri cu remedieri de erori și îmbunătățiri către următoarele repozitorii GitHub:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), un format de fișier deschis pentru date de pânză infinită.
+- [Knap](https://github.com/obsidianmd/knap) (MIT) limbaj de șabloane pentru generarea de Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), un plugin care convertește date dintr-o mare varietate de formate în fișiere Markdown simple.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), un plugin care afișează hărți în Obsidian Bases.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), o extensie de browser pentru evidențierea și capturarea paginilor web în fișiere Markdown simple.

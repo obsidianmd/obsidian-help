@@ -12,6 +12,7 @@ Możesz tworzyć [[Wtyczki społeczności]] i [[Motywy]] przy użyciu TypeScript
 Obsidian rozwija i utrzymuje kilka projektów open source. Możesz przesyłać pull requesty z poprawkami błędów i ulepszeniami do następujących repozytoriów GitHub:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), otwarty format pliku do danych nieskończonego płótna.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), język szablonów do generowania Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), wtyczka konwertująca dane z różnych formatów na pliki Markdown w zwykłym tekście.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), wtyczka wyświetlająca mapy w bazach danych Obsidian.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), rozszerzenie przeglądarki do wyróżniania i przechwytywania stron internetowych do plików Markdown w zwykłym tekście.

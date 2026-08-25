@@ -14,6 +14,7 @@ Puoi sviluppare [[Plugin della comunità|Plugin della community]] e [[Temi]] uti
 Obsidian sviluppa e mantiene diversi progetti open source. Puoi inviare pull request con correzioni di bug e miglioramenti ai seguenti repository GitHub:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), un formato di file aperto per dati di canvas infinito.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), linguaggio di template per generare Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), un plugin che converte dati da un'ampia varietà di formati in file Markdown in testo normale.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), un plugin che visualizza mappe in Obsidian Base.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), un'estensione del browser per evidenziare e catturare pagine web in file Markdown in testo normale.

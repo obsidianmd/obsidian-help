@@ -12,6 +12,7 @@ Du kan utvikle [[Community-utvidelser]] og [[Temaer]] ved hjelp av Typescript og
 Obsidian utvikler og vedlikeholder flere åpen kildekode-prosjekter. Du kan sende inn pull requests med feilrettinger og forbedringer til følgende GitHub-repositorier:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), et åpent filformat for uendelig canvas-data.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), malspråk for å generere Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), en utvidelse som konverterer data fra en rekke formater til ren tekst Markdown-filer.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), en utvidelse som viser kart i Obsidian Bases.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), en nettleserutvidelse for å utheve og fange nettsider til ren tekst Markdown-filer.
