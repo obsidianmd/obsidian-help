@@ -37,13 +37,14 @@ Alternatively *right-click* the view name in the base's toolbar to quickly acces
 
 ## Layout
 
-Views can be displayed with different layouts including as  ![[lucide-table.svg#icon]] **table**, ![[lucide-list.svg#icon]] **list**, ![[lucide-layout-grid.svg#icon]] **cards**, and ![[lucide-map.svg#icon]] **map**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
+Views can be displayed with different layouts including as ![[lucide-table.svg#icon]] **table**, ![[lucide-list.svg#icon]] **list**, ![[lucide-layout-grid.svg#icon]] **cards**, ![[lucide-kanban-square.svg#icon]] **Kanban**, and ![[lucide-map.svg#icon]] **map**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
 
 | Layout                | Description                                                                                   | App&nbsp;version |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
 | [[Table view\|Table]] | Display files as rows in a table. Columns are populated from [[properties]] in your notes.    | 1.9              |
 | [[Cards view\|Cards]] | Display files as a grid of cards. Lets you create gallery-like views with images.             | 1.9              |
 | [[List view\|List]]   | Display files as a [[Basic formatting syntax#Lists\|list]] with bulleted or numbered markers. | 1.10             |
+| [[Kanban view\|Kanban]] | Display files as cards organized into columns based on a grouped property.                   | 1.14             |
 | [[Map view\|Map]]     | Display files as pins on an interactive map. Requires the Maps plugin.                        | 1.10             |
 
 

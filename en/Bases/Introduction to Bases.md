@@ -39,5 +39,7 @@ View can be displayed with different layouts. Additional layouts can be added by
 	- Display files as a list with bulleted or numbered markers.
 - [[Cards view|Cards]]
 	- Display files as a grid. Lets you create gallery-like views with images.
+- [[Kanban view|Kanban]]
+	- Display files as cards organized into columns based on a grouped property.
 - [[Map view|Map]]
 	- Display files as pins on an interactive map.
