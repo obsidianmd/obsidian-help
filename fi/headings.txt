@@ -654,6 +654,70 @@ translation=Mitä tuodaan
 original=Limitations
 translation=Rajoitukset
 
+[heading.import/Before you start]
+original=Before you start
+translation=Ennen aloittamista
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Tuo Logseq-graafisi
+
+[heading.import/Settings]
+original=Settings
+translation=Asetukset
+
+[heading.import/Journals]
+original=Journals
+translation=Päiväkirjat
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Jäsennysten litistäminen
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Yhteensopimattoman tiedon säilyttäminen
+
+[heading.import/Templates]
+original=Templates
+translation=Mallineet
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Vianmääritys
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Paikanna muistiinpanotiedostosi
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tuo Tomboy- tai Gnote-muistiinpanosi
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Muokkaa tuontipohjaa
+
+[heading.import/Preview results]
+original=Preview results
+translation=Tulosten esikatselu
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Pohjien syntaksi
+
+[heading.import/Variables]
+original=Variables
+translation=Muuttujat
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Lähdearvot määreille
+
+[heading.import/Example template]
+original=Example template
+translation=Esimerkkipohja
+
 [heading.community-directory/Header]
 original=Header
 translation=Otsikkotiedot
@@ -678,74 +742,34 @@ translation=Sivupalkki
 original=Frequently asked questions
 translation=Usein kysytyt kysymykset
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Ennen aloittamista
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Ryhmitä kortit sarakkeisiin
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Tuo Logseq-graafisi
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Korttien ja sarakkeiden käsittely
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Rajoitukset
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Asetukset
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Päiväkirjat
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Piilota tyhjät sarakkeet
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Jäsennysten litistäminen
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Sarakkeen leveys
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Yhteensopimattoman tiedon säilyttäminen
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Kuvamääre
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Mallineet
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Kuvan sovitus
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Vianmääritys
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Paikanna muistiinpanotiedostosi
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Tuo Tomboy- tai Gnote-muistiinpanosi
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Mallineet
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Muokkaa tuontipohjaa
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Tulosten esikatselu
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Pohjien syntaksi
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Muuttujat
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Lähdearvot määreille
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Esimerkkipohja
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Kuvasuhde

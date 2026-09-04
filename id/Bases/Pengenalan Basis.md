@@ -36,5 +36,7 @@ Tampilan dapat ditampilkan dengan tata letak yang berbeda. Tata letak tambahan d
 	- Menampilkan file sebagai daftar dengan penanda berpoin atau bernomor.
 - [[Tampilan kartu|Kartu]]
 	- Menampilkan file sebagai kotak grid. Memungkinkan Anda membuat tampilan mirip galeri dengan gambar.
+- [[Tampilan kanban|Kanban]]
+	- Menampilkan file sebagai kartu yang diorganisasi ke dalam kolom berdasarkan properti yang dikelompokkan.
 - [[Tampilan peta|Peta]]
 	- Menampilkan file sebagai pin pada peta interaktif.

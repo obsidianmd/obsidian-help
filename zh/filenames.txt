@@ -58,6 +58,10 @@ translation=视图
 original=Cards view
 translation=卡片视图
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=看板视图
+
 [file.bases/views/list]
 original=List view
 translation=列表视图

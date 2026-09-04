@@ -37,13 +37,14 @@ Atau *klik kanan* nama tampilan di bilah alat basis untuk mengakses pengaturan t
 
 ## Tata letak
 
-Tampilan dapat ditampilkan dengan tata letak berbeda termasuk ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **daftar**, ![[lucide-layout-grid.svg#icon]] **kartu**, dan ![[lucide-map.svg#icon]] **peta**. Tata letak tambahan dapat ditambahkan melalui [[Plugin komunitas]]. Beberapa tata letak masih dalam pengembangan dan memerlukan [[Versi akses awal|versi akses awal]] Obsidian.
+Tampilan dapat ditampilkan dengan tata letak berbeda termasuk ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **daftar**, ![[lucide-layout-grid.svg#icon]] **kartu**, ![[lucide-kanban-square.svg#icon]] **Kanban**, dan ![[lucide-map.svg#icon]] **peta**. Tata letak tambahan dapat ditambahkan melalui [[Plugin komunitas]]. Beberapa tata letak masih dalam pengembangan dan memerlukan [[Versi akses awal|versi akses awal]] Obsidian.
 
 | Tata letak                     | Deskripsi                                                                                                                   | Versi&nbsp;aplikasi |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | [[Tampilan tabel\|Tabel]]      | Menampilkan file sebagai baris dalam tabel. Kolom diisi dari [[Properti|properti]] dalam catatan Anda.                      | 1.9                 |
 | [[Tampilan kartu\|Kartu]]      | Menampilkan file sebagai kotak kartu. Memungkinkan Anda membuat tampilan seperti galeri dengan gambar.                       | 1.9                 |
 | [[Tampilan daftar\|Daftar]]    | Menampilkan file sebagai [[Sintaksis format dasar#Daftar\|daftar]] dengan penanda berpoin atau bernomor.                    | 1.10                |
+| [[Tampilan Kanban\|Kanban]]    | Menampilkan file sebagai kartu yang diorganisir ke dalam kolom berdasarkan properti yang dikelompokkan.                      | 1.14                |
 | [[Tampilan peta\|Peta]]        | Menampilkan file sebagai pin pada peta interaktif. Memerlukan plugin Maps.                                                  | 1.10                |
 
 

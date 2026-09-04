@@ -58,6 +58,10 @@ translation=Vues
 original=Cards view
 translation=Galerie
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Vue Kanban
+
 [file.bases/views/list]
 original=List view
 translation=Liste

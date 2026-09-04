@@ -54,6 +54,10 @@ translation=Görünümler
 original=Cards view
 translation=Kartlar görünümü
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban görünümü
+
 [file.bases/views/list]
 original=List view
 translation=Liste görünümü

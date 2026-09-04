@@ -3,7 +3,7 @@ permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: Erstelle datenbankähnliche Ansichten deiner Notizen, formatiert als Tabellen oder Karten. Bearbeite, sortiere und filtere Dateien anhand ihrer Eigenschaften.
+description: 'Erstelle datenbankähnliche Ansichten deiner Notizen, formatiert als Tabellen oder Karten. Bearbeite, sortiere und filtere Dateien anhand ihrer Eigenschaften.'
 ---
 Bases ist eine [[Obsidian-Erweiterungen|Obsidian-Erweiterung]], mit der du datenbankähnliche Ansichten deiner Notizen erstellen kannst. Mit einer Basis kannst du Dateien und ihre [[Eigenschaften]] anzeigen, bearbeiten, sortieren und filtern. Basen können dir helfen, alles von Projekten über Reisepläne bis hin zu Leselisten und mehr zu organisieren.
 
@@ -36,5 +36,7 @@ Ansichten können mit verschiedenen Layouts dargestellt werden. Zusätzliche Lay
 	- Zeige Dateien als Liste mit Aufzählungszeichen oder nummerierten Markern an.
 - [[Galerie|Galerie]]
 	- Zeige Dateien als Raster an. Ermöglicht die Erstellung galerieähnlicher Ansichten mit Bildern.
+- [[Kanban|Kanban]]
+	- Zeige Dateien als Karten an, die basierend auf einer gruppierten Eigenschaft in Spalten organisiert sind.
 - [[Karte|Karte]]
 	- Zeige Dateien als Marker auf einer interaktiven Karte an.

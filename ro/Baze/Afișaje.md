@@ -5,7 +5,7 @@ aliases:
 ---
 Vizualizările îți permit să organizezi informațiile dintr-o [[Introducere în Baze|Bază]] în mai multe moduri. O bază poate conține mai multe vizualizări, iar fiecare vizualizare poate avea o configurație unică pentru afișarea, sortarea și filtrarea fișierelor.
 
-De exemplu, poate vrei să creezi o bază numită „Books” care are vizualizări separate pentru „Reading list” și „Recently finished”.
+De exemplu, poate vrei să creezi o bază numită „Books" care are vizualizări separate pentru „Reading list" și „Recently finished".
 
 ## Bara de instrumente
 
@@ -39,13 +39,14 @@ Alternativ, dă *clic dreapta* pe numele vizualizării din bara de instrumente a
 
 ## Aspect
 
-Vizualizările pot fi afișate cu aspecte diferite, inclusiv ca ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **listă**, ![[lucide-layout-grid.svg#icon]] **carduri** și ![[lucide-map.svg#icon]] **hartă**. Aspecte suplimentare pot fi adăugate prin [[Module comunitare|module comunitare]]. Unele aspecte sunt încă în dezvoltare și necesită [[Versiuni cu acces timpuriu|versiuni cu acces timpuriu]] ale Obsidian.
+Vizualizările pot fi afișate cu aspecte diferite, inclusiv ca ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **listă**, ![[lucide-layout-grid.svg#icon]] **carduri**, ![[lucide-kanban-square.svg#icon]] **Kanban** și ![[lucide-map.svg#icon]] **hartă**. Aspecte suplimentare pot fi adăugate prin [[Module comunitare|module comunitare]]. Unele aspecte sunt încă în dezvoltare și necesită [[Versiuni cu acces timpuriu|versiuni cu acces timpuriu]] ale Obsidian.
 
 | Aspect                | Descriere                                                                                   | Versiune&nbsp;aplicație |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
 | [[Afișaj tabel\|Tabel]] | Afișează fișierele ca rânduri într-un tabel. Coloanele sunt populate din [[Proprietăți|proprietăți]] din notele tale.    | 1.9              |
 | [[Afișaj carduri\|Carduri]] | Afișează fișierele ca o grilă de carduri. Îți permite să creezi vizualizări de tip galerie cu imagini.             | 1.9              |
 | [[Afișaj listă\|Listă]]   | Afișează fișierele ca o [[Sintaxă de bază pentru formatare#Lists\|listă]] cu marcaje sub formă de puncte sau numere. | 1.10             |
+| [[Afișaj Kanban\|Kanban]] | Afișează fișierele ca carduri organizate în coloane pe baza unei proprietăți grupate.                   | 1.14             |
 | [[Afișaj hartă\|Hartă]]     | Afișează fișierele ca pini pe o hartă interactivă. Necesită modulul Maps.                        | 1.10             |
 
 

@@ -37,13 +37,14 @@ Alternativ kannst du mit der *rechten Maustaste* auf den Ansichtsnamen in der Sy
 
 ## Layout
 
-Ansichten können mit verschiedenen Layouts angezeigt werden, darunter ![[lucide-table.svg#icon]] **Tabelle**, ![[lucide-list.svg#icon]] **Liste**, ![[lucide-layout-grid.svg#icon]] **Galerie** und ![[lucide-map.svg#icon]] **Karte**. Zusätzliche Layouts können durch [[Community-Erweiterungen]] hinzugefügt werden. Einige Layouts befinden sich noch in der Entwicklung und erfordern [[Vorabversionen]] von Obsidian.
+Ansichten können mit verschiedenen Layouts angezeigt werden, darunter ![[lucide-table.svg#icon]] **Tabelle**, ![[lucide-list.svg#icon]] **Liste**, ![[lucide-layout-grid.svg#icon]] **Galerie**, ![[lucide-kanban-square.svg#icon]] **Kanban** und ![[lucide-map.svg#icon]] **Karte**. Zusätzliche Layouts können durch [[Community-Erweiterungen]] hinzugefügt werden. Einige Layouts befinden sich noch in der Entwicklung und erfordern [[Vorabversionen]] von Obsidian.
 
 | Layout                            | Beschreibung                                                                                                                          | App-Version |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Tabelle]]      | Dateien als Zeilen in einer Tabelle anzeigen. Spalten werden aus [[Eigenschaften]] in deinen Notizen befüllt.                         | 1.9         |
 | [[Galerie]]       | Dateien als Raster anzeigen. Ermöglicht galerieartige Ansichten mit Bildern.                                                          | 1.9         |
 | [[Liste]]          | Dateien als [[Grundlegende Formatierungssyntax#Listen\|Liste]] mit Aufzählungszeichen oder nummerierten Markern anzeigen.             | 1.10        |
+| [[Kanban-Ansicht\|Kanban]] | Dateien als Karten anzeigen, die in Spalten basierend auf einer gruppierten Eigenschaft organisiert sind.                     | 1.14        |
 | [[Karte]]          | Dateien als Pins auf einer interaktiven Karte anzeigen. Erfordert die Karten-Erweiterung.                                             | 1.10        |
 
 ## Filter

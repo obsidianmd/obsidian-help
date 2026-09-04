@@ -37,13 +37,14 @@ Alternativně *klikněte pravým tlačítkem* na název zobrazení v nástrojov�
 
 ## Rozvržení
 
-Zobrazení mohou být zobrazena s různými rozvrženími, včetně ![[lucide-table.svg#icon]] **tabulka**, ![[lucide-list.svg#icon]] **seznam**, ![[lucide-layout-grid.svg#icon]] **karty** a ![[lucide-map.svg#icon]] **mapa**. Další rozvržení mohou být přidána pomocí [[Komunitní pluginy|Komunitních pluginů]]. Některá rozvržení jsou stále ve vývoji a vyžadují [[Verze s předběžným přístupem|verze s předběžným přístupem]] Obsidian.
+Zobrazení mohou být zobrazena s různými rozvrženími, včetně ![[lucide-table.svg#icon]] **tabulka**, ![[lucide-list.svg#icon]] **seznam**, ![[lucide-layout-grid.svg#icon]] **karty**, ![[lucide-kanban-square.svg#icon]] **Kanban** a ![[lucide-map.svg#icon]] **mapa**. Další rozvržení mohou být přidána pomocí [[Komunitní pluginy|Komunitních pluginů]]. Některá rozvržení jsou stále ve vývoji a vyžadují [[Verze s předběžným přístupem|verze s předběžným přístupem]] Obsidian.
 
 | Rozvržení                          | Popis                                                                                                                         | Verze&nbsp;aplikace |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | [[Zobrazení Tabulka\|Tabulka]]     | Zobrazení souborů jako řádků v tabulce. Sloupce jsou naplněny z [[Vlastnosti\|vlastností]] ve vašich poznámkách.              | 1.9                 |
 | [[Zobrazení Karty\|Karty]]         | Zobrazení souborů jako mřížky karet. Umožňuje vytvářet zobrazení podobná galerii s obrázky.                                  | 1.9                 |
 | [[Zobrazení Seznam\|Seznam]]       | Zobrazení souborů jako [[Základní syntaxe formátování#Seznamy\|seznam]] s odrážkami nebo čísly.                               | 1.10                |
+| [[Zobrazení Kanban\|Kanban]]       | Zobrazení souborů jako karet uspořádaných do sloupců na základě seskupené vlastnosti.                                         | 1.14                |
 | [[Zobrazení Mapa\|Mapa]]           | Zobrazení souborů jako špendlíků na interaktivní mapě. Vyžaduje plugin Mapy.                                                 | 1.10                |
 
 

@@ -54,6 +54,10 @@ translation=ভিউ
 original=Cards view
 translation=কার্ড ভিউ
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban ভিউ
+
 [file.bases/views/list]
 original=List view
 translation=তালিকা ভিউ

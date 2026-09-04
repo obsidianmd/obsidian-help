@@ -2866,6 +2866,66 @@ translation=Airtableフィールドのインポート方法の設定
 original=What gets imported
 translation=インポートされるもの
 
+[heading.import/Before you start]
+original=Before you start
+translation=始める前に
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Logseqグラフのインポート
+
+[heading.import/Settings]
+original=Settings
+translation=設定
+
+[heading.import/Journals]
+original=Journals
+translation=ジャーナル
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=アウトラインのフラット化
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=互換性のないデータの保持
+
+[heading.import/Templates]
+original=Templates
+translation=テンプレート
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=ノートファイルの場所を確認する
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=TomboyまたはGnoteのノートをインポートする
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=インポートテンプレートの編集
+
+[heading.import/Preview results]
+original=Preview results
+translation=結果のプレビュー
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=テンプレート構文
+
+[heading.import/Variables]
+original=Variables
+translation=変数
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=プロパティのソース値
+
+[heading.import/Example template]
+original=Example template
+translation=テンプレートの例
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=リンクを作成する
@@ -4210,74 +4270,34 @@ translation=サイドバー
 original=Frequently asked questions
 translation=よくある質問
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=始める前に
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=カードを列にグループ化する
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Logseqグラフのインポート
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=カードと列の操作
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=制限事項
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=設定
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=ジャーナル
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=空の列を非表示
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=アウトラインのフラット化
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=列の幅
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=互換性のないデータの保持
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=画像プロパティ
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=テンプレート
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=画像のフィット
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=トラブルシューティング
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=ノートファイルの場所を確認する
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=TomboyまたはGnoteのノートをインポートする
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=テンプレート
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=インポートテンプレートの編集
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=結果のプレビュー
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=テンプレート構文
-
-[heading.import/templates/Variables]
-original=Variables
-translation=変数
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=プロパティのソース値
-
-[heading.import/templates/Example template]
-original=Example template
-translation=テンプレートの例
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=画像のアスペクト比

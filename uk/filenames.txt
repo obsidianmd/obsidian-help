@@ -54,6 +54,10 @@ translation=Подання
 original=Cards view
 translation=Подання картками
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Подання канбан
+
 [file.bases/views/list]
 original=List view
 translation=Подання списком

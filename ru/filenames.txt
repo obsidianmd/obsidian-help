@@ -54,6 +54,10 @@ translation=Виды
 original=Cards view
 translation=Карточки
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Представление «Канбан»
+
 [file.bases/views/list]
 original=List view
 translation=Список

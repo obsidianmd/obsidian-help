@@ -890,6 +890,70 @@ translation=Vad som importeras
 original=Limitations
 translation=Begränsningar
 
+[heading.import/Before you start]
+original=Before you start
+translation=Innan du börjar
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importera din Logseq-graf
+
+[heading.import/Settings]
+original=Settings
+translation=Inställningar
+
+[heading.import/Journals]
+original=Journals
+translation=Journaler
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Platta ut dispositioner
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Bevara inkompatibel data
+
+[heading.import/Templates]
+original=Templates
+translation=Mallar
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Felsökning
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Hitta dina anteckningsfiler
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importera dina Tomboy- eller Gnote-anteckningar
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Redigera importmallen
+
+[heading.import/Preview results]
+original=Preview results
+translation=Förhandsgranska resultat
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Mallsyntax
+
+[heading.import/Variables]
+original=Variables
+translation=Variabler
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Källvärden för egenskaper
+
+[heading.import/Example template]
+original=Example template
+translation=Exempelmall
+
 [heading.community-directory/Header]
 original=Header
 translation=Sidhuvud
@@ -914,74 +978,34 @@ translation=Sidofält
 original=Frequently asked questions
 translation=Vanliga frågor
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Innan du börjar
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Gruppera kort i kolumner
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Importera din Logseq-graf
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Arbeta med kort och kolumner
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Begränsningar
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Inställningar
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Journaler
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Dölj tomma kolumner
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Platta ut dispositioner
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Kolumnbredd
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Bevara inkompatibel data
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Bildegenskap
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Mallar
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Bildanpassning
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Felsökning
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Hitta dina anteckningsfiler
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Importera dina Tomboy- eller Gnote-anteckningar
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Mallar
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Redigera importmallen
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Förhandsgranska resultat
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Mallsyntax
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Variabler
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Källvärden för egenskaper
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Exempelmall
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Bildförhållande

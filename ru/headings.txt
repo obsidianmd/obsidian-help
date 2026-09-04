@@ -1806,6 +1806,66 @@ translation=Настройка импорта полей Airtable
 original=What gets imported
 translation=Что импортируется
 
+[heading.import/Before you start]
+original=Before you start
+translation=Перед началом
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Импорт графа Logseq
+
+[heading.import/Settings]
+original=Settings
+translation=Настройки
+
+[heading.import/Journals]
+original=Journals
+translation=Журналы
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Сглаживание структуры
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Сохранение несовместимых данных
+
+[heading.import/Templates]
+original=Templates
+translation=Шаблоны
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Расположение файлов заметок
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Импорт заметок из Tomboy или Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Редактирование шаблона импорта
+
+[heading.import/Preview results]
+original=Preview results
+translation=Предварительный просмотр результатов
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Синтаксис шаблонов
+
+[heading.import/Variables]
+original=Variables
+translation=Переменные
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Исходные значения для свойств
+
+[heading.import/Example template]
+original=Example template
+translation=Пример шаблона
+
 [heading.plugins/Install Importer]
 original=Install Importer
 translation=Установка Импортёра
@@ -4114,74 +4174,34 @@ translation=Боковая панель
 original=Frequently asked questions
 translation=Часто задаваемые вопросы
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Перед началом
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Группировка карточек по столбцам
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Импорт графа Logseq
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Работа с карточками и столбцами
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Ограничения
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Настройки
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Журналы
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Скрывать пустые столбцы
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Сглаживание структуры
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Ширина столбца
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Сохранение несовместимых данных
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Свойство изображения
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Шаблоны
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Подгонка изображения
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Устранение неполадок
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Расположение файлов заметок
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Импорт заметок из Tomboy или Gnote
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Шаблоны
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Редактирование шаблона импорта
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Предварительный просмотр результатов
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Синтаксис шаблонов
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Переменные
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Исходные значения для свойств
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Пример шаблона
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Соотношение сторон изображения

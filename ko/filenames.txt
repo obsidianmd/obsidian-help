@@ -54,6 +54,10 @@ translation=보기
 original=Cards view
 translation=카드 뷰
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=칸반 뷰
+
 [file.bases/views/list]
 original=List view
 translation=목록 뷰

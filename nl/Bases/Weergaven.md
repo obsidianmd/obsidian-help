@@ -37,13 +37,14 @@ Je kunt ook *rechtsklikken* op de naam van de weergave in de werkbalk van de bas
 
 ## Lay-out
 
-Weergaven kunnen worden weergegeven met verschillende lay-outs, waaronder ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **lijst**, ![[lucide-layout-grid.svg#icon]] **kaarten** en ![[lucide-map.svg#icon]] **kaart**. Aanvullende lay-outs kunnen worden toegevoegd door [[Communityplug-ins]]. Sommige lay-outs worden nog ontwikkeld en vereisen [[Vroege-toegangsversies|vroege-toegangsversies]] van Obsidian.
+Weergaven kunnen worden weergegeven met verschillende lay-outs, waaronder ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **lijst**, ![[lucide-layout-grid.svg#icon]] **kaarten**, ![[lucide-kanban-square.svg#icon]] **Kanban** en ![[lucide-map.svg#icon]] **kaart**. Aanvullende lay-outs kunnen worden toegevoegd door [[Communityplug-ins]]. Sommige lay-outs worden nog ontwikkeld en vereisen [[Vroege-toegangsversies|vroege-toegangsversies]] van Obsidian.
 
 | Lay-out                       | Beschrijving                                                                                                              | App&nbsp;versie |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------- |
 | [[Tabelweergave\|Tabel]]     | Bestanden weergeven als rijen in een tabel. Kolommen worden gevuld vanuit [[Eigenschappen\|eigenschappen]] in je notities. | 1.9             |
 | [[Kaartenweergave\|Kaarten]] | Bestanden weergeven als een raster van kaarten. Hiermee kun je galerijachtige weergaven met afbeeldingen maken.            | 1.9             |
 | [[Lijstweergave\|Lijst]]     | Bestanden weergeven als een [[Basis opmaaksyntaxis#Lijsten\|lijst]] met opsommingstekens of genummerde markeringen.       | 1.10            |
+| [[Kanbanweergave\|Kanban]]   | Bestanden weergeven als kaarten georganiseerd in kolommen op basis van een gegroepeerde eigenschap.                       | 1.14            |
 | [[Kaartweergave\|Kaart]]     | Bestanden weergeven als punaises op een interactieve kaart. Vereist de Maps-plug-in.                                      | 1.10            |
 
 

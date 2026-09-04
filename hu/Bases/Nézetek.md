@@ -37,13 +37,14 @@ Másik lehetőség: *kattints jobb gombbal* a nézet nevére a bázis eszköztá
 
 ## Elrendezés
 
-A nézetek különböző elrendezésekkel jeleníthetők meg, többek között ![[lucide-table.svg#icon]] **táblázat**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kártyák** és ![[lucide-map.svg#icon]] **térkép** formátumban. További elrendezések a [[Közösségi bővítmények]] segítségével adhatók hozzá. Néhány elrendezés még fejlesztés alatt áll, és az Obsidian [[Korai hozzáférésű verziók|korai hozzáférésű verzióit]] igényli.
+A nézetek különböző elrendezésekkel jeleníthetők meg, többek között ![[lucide-table.svg#icon]] **táblázat**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kártyák**, ![[lucide-kanban-square.svg#icon]] **Kanban** és ![[lucide-map.svg#icon]] **térkép** formátumban. További elrendezések a [[Közösségi bővítmények]] segítségével adhatók hozzá. Néhány elrendezés még fejlesztés alatt áll, és az Obsidian [[Korai hozzáférésű verziók|korai hozzáférésű verzióit]] igényli.
 
 | Elrendezés                        | Leírás                                                                                                                              | Alkalmazás&nbsp;verzió |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | [[Táblázat nézet\|Táblázat]]     | Fájlok megjelenítése sorokként egy táblázatban. Az oszlopok a jegyzetek [[Tulajdonságok|tulajdonságaiból]] töltődnek fel.           | 1.9                    |
 | [[Kártyák nézet\|Kártyák]]       | Fájlok megjelenítése kártyarácsként. Lehetővé teszi galériaszerű nézetek létrehozását képekkel.                                     | 1.9                    |
 | [[Lista nézet\|Lista]]           | Fájlok megjelenítése [[Alapvető formázási szintaxis#Listák\|listaként]] felsorolásjelekkel vagy számozással.                        | 1.10                   |
+| [[Kanban nézet\|Kanban]]         | Fájlok megjelenítése kártyákként oszlopokba rendezve egy csoportosított tulajdonság alapján.                                        | 1.14                   |
 | [[Térkép nézet\|Térkép]]         | Fájlok megjelenítése tűkként egy interaktív térképen. A Térképek bővítményt igényli.                                                | 1.10                   |
 
 ## Szűrők

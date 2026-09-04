@@ -54,6 +54,10 @@ translation=Zobrazenia
 original=Cards view
 translation=Zobrazenie kariet
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban zobrazenie
+
 [file.bases/views/list]
 original=List view
 translation=Zobrazenie zoznamu

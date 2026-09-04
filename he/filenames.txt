@@ -54,6 +54,10 @@ translation=תצוגות
 original=Cards view
 translation=תצוגת כרטיסים
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=תצוגת Kanban
+
 [file.bases/views/list]
 original=List view
 translation=תצוגת רשימה

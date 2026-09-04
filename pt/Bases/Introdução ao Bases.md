@@ -36,5 +36,7 @@ As vistas podem ser apresentadas com diferentes esquemas. Esquemas adicionais po
 	- Apresenta ficheiros como uma lista com marcadores ou numeração.
 - [[Vista de Cartões|Cartões]]
 	- Apresenta ficheiros como uma grelha. Permite criar vistas semelhantes a galerias com imagens.
+- [[Vista Kanban|Kanban]]
+	- Apresenta ficheiros como cartões organizados em colunas com base numa propriedade agrupada.
 - [[Vista de mapa|Mapa]]
 	- Apresenta ficheiros como marcadores num mapa interativo.

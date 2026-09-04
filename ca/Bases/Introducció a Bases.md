@@ -36,5 +36,7 @@ Les vistes es poden mostrar amb diferents disposicions. Es poden afegir disposic
 	- Mostra fitxers com una llista amb vinyetes o marcadors numerats.
 - [[Vista de targetes|Targetes]]
 	- Mostra fitxers com una graella. Et permet crear vistes tipus galeria amb imatges.
+- [[Vista Kanban|Kanban]]
+	- Mostra fitxers com a targetes organitzades en columnes basades en una propietat agrupada.
 - [[Vista de mapa|Mapa]]
 	- Mostra fitxers com a marcadors en un mapa interactiu.

@@ -54,6 +54,10 @@ translation=ទិដ្ឋភាព
 original=Cards view
 translation=ទិដ្ឋភាពកាត
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=ទិដ្ឋភាព Kanban
+
 [file.bases/views/list]
 original=List view
 translation=ទិដ្ឋភាពបញ្ជី

@@ -54,6 +54,10 @@ translation=มุมมอง
 original=Cards view
 translation=มุมมองการ์ด
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=มุมมอง Kanban
+
 [file.bases/views/list]
 original=List view
 translation=มุมมองรายการ

@@ -54,6 +54,10 @@ translation=Vyer
 original=Cards view
 translation=Kortvy
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-vy
+
 [file.bases/views/list]
 original=List view
 translation=Listvy

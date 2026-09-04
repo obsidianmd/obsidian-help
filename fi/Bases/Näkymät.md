@@ -37,13 +37,14 @@ Vaihtoehtoisesti *napsauta hiiren oikealla painikkeella* näkymän nimeä kannan
 
 ## Asettelu
 
-Näkymät voidaan esittää eri asetteluilla, mukaan lukien ![[lucide-table.svg#icon]] **taulukko**, ![[lucide-list.svg#icon]] **luettelo**, ![[lucide-layout-grid.svg#icon]] **kortit** ja ![[lucide-map.svg#icon]] **kartta**. Lisää asetteluja voi lisätä [[Yhteisön lisäosat|yhteisön lisäosilla]]. Jotkut asettelut ovat vielä kehitteillä ja vaativat Obsidianin [[Ennakkojulkaisuversiot|ennakkojulkaisuversion]].
+Näkymät voidaan esittää eri asetteluilla, mukaan lukien ![[lucide-table.svg#icon]] **taulukko**, ![[lucide-list.svg#icon]] **luettelo**, ![[lucide-layout-grid.svg#icon]] **kortit**, ![[lucide-kanban-square.svg#icon]] **Kanban** ja ![[lucide-map.svg#icon]] **kartta**. Lisää asetteluja voi lisätä [[Yhteisön lisäosat|yhteisön lisäosilla]]. Jotkut asettelut ovat vielä kehitteillä ja vaativat Obsidianin [[Ennakkojulkaisuversiot|ennakkojulkaisuversion]].
 
 | Asettelu                          | Kuvaus                                                                                                         | Sovelluksen&nbsp;versio |
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | [[Taulukkonäkymä\|Taulukko]]     | Näyttää tiedostot taulukon riveinä. Sarakkeet täytetään muistiinpanojesi [[Määreet\|määreistä]].                | 1.9                     |
 | [[Korttinäkymä\|Kortit]]         | Näyttää tiedostot korttiruudukkona. Mahdollistaa galleriamaisten näkymien luomisen kuvilla.                     | 1.9                     |
 | [[Luettelonäkymä\|Luettelo]]     | Näyttää tiedostot [[Muotoilun perussyntaksi#Luettelot\|luettelona]] luettelomerkeillä tai numeroituna.          | 1.10                    |
+| [[Kanban-näkymä\|Kanban]]        | Näyttää tiedostot kortteina sarakkeisiin järjestettyinä ryhmitellyn määreen perusteella.                        | 1.14                    |
 | [[Karttanäkymä\|Kartta]]         | Näyttää tiedostot nastoina interaktiivisella kartalla. Vaatii Kartat-lisäosan.                                  | 1.10                    |
 
 

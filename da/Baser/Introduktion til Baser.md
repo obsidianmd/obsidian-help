@@ -40,6 +40,7 @@ Views kan vises med forskellige layouts. Yderligere layouts kan tilføjes af [[F
   - Viser filer som en liste med punkttegn eller nummereret
 - [[Galleri]]
   - Viser filer som et gitter. Lader dig oprette gallerilignende views med billeder
+- [[Kanban-visning|Kanban]]
+  - Viser filer som kort organiseret i kolonner baseret på en grupperet egenskab
 - [[Landkort]]
   - Viser filer som markører på et interaktivt kort
-  

@@ -54,6 +54,10 @@ translation=العروض
 original=Cards view
 translation=عرض البطاقات
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=عرض كانبان
+
 [file.bases/views/list]
 original=List view
 translation=عرض القائمة

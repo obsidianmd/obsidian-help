@@ -37,13 +37,14 @@ Em alternativa, *clique com o botão direito* no nome da vista na barra de ferra
 
 ## Esquema
 
-As vistas podem ser exibidas com diferentes esquemas, incluindo ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **cartões** e ![[lucide-map.svg#icon]] **mapa**. Esquemas adicionais podem ser adicionados por [[Plugins da comunidade]]. Alguns esquemas ainda estão em desenvolvimento e requerem [[Versões de acesso antecipado|versões de acesso antecipado]] do Obsidian.
+As vistas podem ser exibidas com diferentes esquemas, incluindo ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **cartões**, ![[lucide-kanban-square.svg#icon]] **Kanban** e ![[lucide-map.svg#icon]] **mapa**. Esquemas adicionais podem ser adicionados por [[Plugins da comunidade]]. Alguns esquemas ainda estão em desenvolvimento e requerem [[Versões de acesso antecipado|versões de acesso antecipado]] do Obsidian.
 
 | Esquema                        | Descrição                                                                                                            | Versão&nbsp;da&nbsp;app |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | [[Vista de Tabela\|Tabela]]    | Exibe ficheiros como linhas numa tabela. As colunas são preenchidas a partir das [[Propriedades|propriedades]] das suas notas. | 1.9                     |
 | [[Vista de Cartões\|Cartões]]  | Exibe ficheiros como uma grelha de cartões. Permite criar vistas tipo galeria com imagens.                           | 1.9                     |
 | [[Vista de Lista\|Lista]]      | Exibe ficheiros como uma [[Sintaxe de formatação básica#Listas\|lista]] com marcadores ou numerada.                  | 1.10                    |
+| [[Vista Kanban\|Kanban]]       | Exibe ficheiros como cartões organizados em colunas com base numa propriedade agrupada.                              | 1.14                    |
 | [[Vista de mapa\|Mapa]]        | Exibe ficheiros como marcadores num mapa interativo. Requer o plugin Maps.                                           | 1.10                    |
 
 

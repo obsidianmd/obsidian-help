@@ -37,13 +37,14 @@ Alternatywnie *kliknij prawym przyciskiem myszy* nazwę podglądu na pasku narz�
 
 ## Układ
 
-Podglądy mogą być wyświetlane z różnymi układami, w tym jako ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **karty** i ![[lucide-map.svg#icon]] **mapa**. Dodatkowe układy mogą być dodawane przez [[Wtyczki społeczności]]. Niektóre układy są wciąż rozwijane i wymagają [[Wersje wczesnego dostępu|wersji wczesnego dostępu]] Obsidian.
+Podglądy mogą być wyświetlane z różnymi układami, w tym jako ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **karty**, ![[lucide-kanban-square.svg#icon]] **Kanban** i ![[lucide-map.svg#icon]] **mapa**. Dodatkowe układy mogą być dodawane przez [[Wtyczki społeczności]]. Niektóre układy są wciąż rozwijane i wymagają [[Wersje wczesnego dostępu|wersji wczesnego dostępu]] Obsidian.
 
 | Układ                           | Opis                                                                                                                       | Wersja&nbsp;aplikacji |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | [[Podgląd Tabela\|Tabela]]     | Wyświetla pliki jako wiersze w tabeli. Kolumny są wypełniane z [[Atrybuty|atrybutów]] w notatkach.                         | 1.9                   |
 | [[Podgląd Karty\|Karty]]       | Wyświetla pliki jako siatkę kart. Pozwala tworzyć podglądy typu galeria z obrazami.                                       | 1.9                   |
 | [[Podgląd Lista\|Lista]]       | Wyświetla pliki jako [[Podstawowa składnia formatowania#Listy\|listę]] z wypunktowanymi lub numerowanymi znacznikami.       | 1.10                  |
+| [[Podgląd Kanban\|Kanban]]     | Wyświetla pliki jako karty zorganizowane w kolumny na podstawie zgrupowanego atrybutu.                                     | 1.14                  |
 | [[Podgląd Mapa\|Mapa]]         | Wyświetla pliki jako pinezki na interaktywnej mapie. Wymaga wtyczki Mapy.                                                  | 1.10                  |
 
 

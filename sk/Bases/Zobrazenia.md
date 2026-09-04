@@ -37,13 +37,14 @@ Prípadne *kliknite pravým tlačidlom* na názov zobrazenia v paneli nástrojov
 
 ## Rozloženie
 
-Zobrazenia je možné zobraziť s rôznymi rozloženiami vrátane ![[lucide-table.svg#icon]] **tabuľky**, ![[lucide-list.svg#icon]] **zoznamu**, ![[lucide-layout-grid.svg#icon]] **kariet** a ![[lucide-map.svg#icon]] **mapy**. Ďalšie rozloženia je možné pridať pomocou [[Komunitné pluginy|komunitných pluginov]]. Niektoré rozloženia sú stále vo vývoji a vyžadujú [[Verzie s predčasným prístupom|verzie s predčasným prístupom]] Obsidian.
+Zobrazenia je možné zobraziť s rôznymi rozloženiami vrátane ![[lucide-table.svg#icon]] **tabuľky**, ![[lucide-list.svg#icon]] **zoznamu**, ![[lucide-layout-grid.svg#icon]] **kariet**, ![[lucide-kanban-square.svg#icon]] **Kanban** a ![[lucide-map.svg#icon]] **mapy**. Ďalšie rozloženia je možné pridať pomocou [[Komunitné pluginy|komunitných pluginov]]. Niektoré rozloženia sú stále vo vývoji a vyžadujú [[Verzie s predčasným prístupom|verzie s predčasným prístupom]] Obsidian.
 
 | Rozloženie                          | Popis                                                                                                         | Verzia&nbsp;aplikácie |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------- |
 | [[Zobrazenie tabuľky\|Tabuľka]]    | Zobrazí súbory ako riadky v tabuľke. Stĺpce sú vyplnené z [[Vlastnosti\|vlastností]] vo vašich poznámkach.  | 1.9                   |
 | [[Zobrazenie kariet\|Karty]]       | Zobrazí súbory ako mriežku kariet. Umožňuje vytvárať zobrazenia typu galéria s obrázkami.                    | 1.9                   |
 | [[Zobrazenie zoznamu\|Zoznam]]     | Zobrazí súbory ako [[Základná syntax formátovania#Zoznamy\|zoznam]] s odrážkovými alebo číselnými značkami.  | 1.10                  |
+| [[Zobrazenie Kanban\|Kanban]]      | Zobrazí súbory ako karty usporiadané do stĺpcov na základe zoskupenej vlastnosti.                            | 1.14                  |
 | [[Zobrazenie mapy\|Mapa]]          | Zobrazí súbory ako špendlíky na interaktívnej mape. Vyžaduje plugin Maps.                                    | 1.10                  |
 
 

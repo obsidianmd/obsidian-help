@@ -37,13 +37,14 @@ Alternativt kan du *högerklicka* på vynamnet i basens verktygsfält för att s
 
 ## Layout
 
-Vyer kan visas med olika layouter inklusive som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kort** och ![[lucide-map.svg#icon]] **karta**. Ytterligare layouter kan läggas till av [[Gemenskapstillägg]]. Vissa layouter är fortfarande under utveckling och kräver [[Tidig åtkomst-versioner|tidig åtkomst-versioner]] av Obsidian.
+Vyer kan visas med olika layouter inklusive som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kort**, ![[lucide-kanban-square.svg#icon]] **Kanban** och ![[lucide-map.svg#icon]] **karta**. Ytterligare layouter kan läggas till av [[Gemenskapstillägg]]. Vissa layouter är fortfarande under utveckling och kräver [[Tidig åtkomst-versioner|tidig åtkomst-versioner]] av Obsidian.
 
 | Layout                    | Beskrivning                                                                                                       | App&nbsp;version |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------- |
 | [[Tabellvy\|Tabell]]      | Visa filer som rader i en tabell. Kolumner fylls i från [[Egenskaper|egenskaper]] i dina anteckningar.            | 1.9              |
 | [[Kortvy\|Kort]]          | Visa filer som ett rutnät av kort. Låter dig skapa galleri-liknande vyer med bilder.                              | 1.9              |
 | [[Listvy\|Lista]]         | Visa filer som en [[Grundläggande formateringssyntax#Listor\|lista]] med punkter eller numrerade markörer.        | 1.10             |
+| [[Kanbanvy\|Kanban]]      | Visa filer som kort organiserade i kolumner baserat på en grupperad egenskap.                                     | 1.14             |
 | [[Kartvy\|Karta]]         | Visa filer som nålar på en interaktiv karta. Kräver tillägget Maps.                                               | 1.10             |
 
 

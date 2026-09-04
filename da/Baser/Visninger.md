@@ -18,6 +18,7 @@ I toppen af en base finder du værktøjslinjen, som lader sig interagere med vie
 - ![[lucide-arrow-up-down.svg#icon]] **Sortér** — sorter og grupper filer
 - ![[lucide-list-filter.svg#icon]] **Filtrer** — filtrer filer.
 - ![[lucide-list.svg#icon]] **Egenskaber** — vælg egenskaber som skal vises og opret [[Formler|formler]]
+- ![[lucide-search.svg#icon]] **Søg** — søg efter elementer ved hjælp af deres viste egenskaber.
 - ![[lucide-plus.svg#icon]] **Ny** — opret en ny fil i det nuværende vier
 
 ## Sådan tilføjer du og skifter views
@@ -40,13 +41,14 @@ Du kan alternativet *højreklikke* på viewets navn i basens værktøjslinje of 
 
 ## Layout
 
-Views kan vises med forskellige layouts, såsom en ![[lucide-table.svg#icon]] **tabel**, en ![[lucide-list.svg#icon]] **liste**, som ![[lucide-layout-grid.svg#icon]] **kort**, eller ![[lucide-map.svg#icon]] **landkort**. YDerligere layouts kan blive tilføjet af [[Fællesskabsplugins|fællesskabsplugins]]. Nogle layouts er stadig under udvikling og kræver en [[Tidlig adgang til nye versioner|insiderversion]] af Obsidian.
+Views kan vises med forskellige layouts, såsom en ![[lucide-table.svg#icon]] **tabel**, en ![[lucide-list.svg#icon]] **liste**, som ![[lucide-layout-grid.svg#icon]] **kort**, ![[lucide-kanban-square.svg#icon]] **Kanban**, eller ![[lucide-map.svg#icon]] **landkort**. Yderligere layouts kan blive tilføjet af [[Fællesskabsplugins|fællesskabsplugins]]. Nogle layouts er stadig under udvikling og kræver en [[Tidlig adgang til nye versioner|insiderversion]] af Obsidian.
 
 | Layout                | Beskrivelse                                                                                   | App&nbsp;version |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
 | [[Tabel view\|Tabel]] | Viser filer som rækker i en tabel. Kolonner udfyldes ud fra dine noters [[Egenskaber\|egenskaber]].    | 1.9              |
 | [[Galleri]]         | Viser filer som et gitter af kort. Lader dig oprette gallerilignende views med billeder.             | 1.9              |
 | [[Liste view\|Liste]]   | Viser filer som [[Grundlæggende formaterings syntaks#Lister\|lister]] med punkttegn eller nummereret. | 1.10             |
+| [[Kanban view\|Kanban]] | Viser filer som kort organiseret i kolonner baseret på en grupperet egenskab.                   | 1.14             |
 | [[Landkort]]        | Viser filer som nåle på et interaktivt kort. Kræver "Maps" pluginet.                        | 1.10             |
 
 

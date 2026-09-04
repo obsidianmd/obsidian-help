@@ -2634,6 +2634,66 @@ translation=가져오는 항목
 original=Limitations
 translation=제한 사항
 
+[heading.import/Before you start]
+original=Before you start
+translation=시작하기 전에
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Logseq 그래프 가져오기
+
+[heading.import/Settings]
+original=Settings
+translation=설정
+
+[heading.import/Journals]
+original=Journals
+translation=저널
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=아웃라인 펼치기
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=호환되지 않는 데이터 보존
+
+[heading.import/Templates]
+original=Templates
+translation=템플릿
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=노트 파일 찾기
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tomboy 또는 Gnote 노트 들여오기
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=가져오기 템플릿 편집
+
+[heading.import/Preview results]
+original=Preview results
+translation=결과 미리보기
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=템플릿 구문
+
+[heading.import/Variables]
+original=Variables
+translation=변수
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=속성의 원본 값
+
+[heading.import/Example template]
+original=Example template
+translation=예시 템플릿
+
 [heading.links/Supported formats for internal links]
 original=Supported formats for internal links
 translation=내부 링크의 지원 형식
@@ -4042,74 +4102,34 @@ translation=사이드바
 original=Frequently asked questions
 translation=자주 묻는 질문
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=시작하기 전에
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=카드를 열로 그룹화하기
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Logseq 그래프 가져오기
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=카드와 열 다루기
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=제한 사항
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=설정
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=저널
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=빈 열 숨기기
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=아웃라인 펼치기
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=열 너비
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=호환되지 않는 데이터 보존
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=이미지 속성
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=템플릿
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=이미지 맞춤
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=문제 해결
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=노트 파일 찾기
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Tomboy 또는 Gnote 노트 들여오기
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=템플릿
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=가져오기 템플릿 편집
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=결과 미리보기
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=템플릿 구문
-
-[heading.import/templates/Variables]
-original=Variables
-translation=변수
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=속성의 원본 값
-
-[heading.import/templates/Example template]
-original=Example template
-translation=예시 템플릿
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=이미지 가로/세로 비율

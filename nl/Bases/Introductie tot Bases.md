@@ -36,5 +36,7 @@ Weergaven kunnen worden weergegeven met verschillende lay-outs. Extra lay-outs k
 	- Geef bestanden weer als een lijst met opsommingstekens of genummerde markeringen.
 - [[Kaartenweergave|Kaarten]]
 	- Geef bestanden weer als een raster. Hiermee kun je galerijachtige weergaven met afbeeldingen maken.
+- [[Kanbanweergave|Kanban]]
+	- Geef bestanden weer als kaarten georganiseerd in kolommen op basis van een gegroepeerde eigenschap.
 - [[Kaartweergave|Kaart]]
 	- Geef bestanden weer als pinnen op een interactieve kaart.

@@ -986,6 +986,70 @@ translation=Τι εισάγεται
 original=Limitations
 translation=Περιορισμοί
 
+[heading.import/Before you start]
+original=Before you start
+translation=Πριν ξεκινήσετε
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Εισαγωγή του γραφήματος Logseq σας
+
+[heading.import/Settings]
+original=Settings
+translation=Ρυθμίσεις
+
+[heading.import/Journals]
+original=Journals
+translation=Ημερολόγια
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Ισοπέδωση διαρθρώσεων
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Διατήρηση μη συμβατών δεδομένων
+
+[heading.import/Templates]
+original=Templates
+translation=Πρότυπα
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Αντιμετώπιση προβλημάτων
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Εντοπισμός των αρχείων σημειώσεων
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Εισαγωγή των σημειώσεων Tomboy ή Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Επεξεργασία του προτύπου εισαγωγής
+
+[heading.import/Preview results]
+original=Preview results
+translation=Προεπισκόπηση αποτελεσμάτων
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Σύνταξη προτύπου
+
+[heading.import/Variables]
+original=Variables
+translation=Μεταβλητές
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Τιμές πηγής για ιδιότητες
+
+[heading.import/Example template]
+original=Example template
+translation=Παράδειγμα προτύπου
+
 [heading.community-directory/Header]
 original=Header
 translation=Κεφαλίδα
@@ -1010,74 +1074,34 @@ translation=Πλαϊνή μπάρα
 original=Frequently asked questions
 translation=Συχνές ερωτήσεις
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Πριν ξεκινήσετε
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Ομαδοποίηση καρτών σε στήλες
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Εισαγωγή του γραφήματος Logseq σας
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Εργασία με κάρτες και στήλες
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Περιορισμοί
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Ρυθμίσεις
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Ημερολόγια
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Απόκρυψη κενών στηλών
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Ισοπέδωση διαρθρώσεων
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Πλάτος στήλης
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Διατήρηση μη συμβατών δεδομένων
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Ιδιότητα εικόνας
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Πρότυπα
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Προσαρμογή εικόνας
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Αντιμετώπιση προβλημάτων
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Εντοπισμός των αρχείων σημειώσεων
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Εισαγωγή των σημειώσεων Tomboy ή Gnote
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Πρότυπα
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Επεξεργασία του προτύπου εισαγωγής
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Προεπισκόπηση αποτελεσμάτων
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Σύνταξη προτύπου
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Μεταβλητές
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Τιμές πηγής για ιδιότητες
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Παράδειγμα προτύπου
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Αναλογία διαστάσεων εικόνας

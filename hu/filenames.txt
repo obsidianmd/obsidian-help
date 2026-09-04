@@ -54,6 +54,10 @@ translation=Nézetek
 original=Cards view
 translation=Kártyák nézet
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban nézet
+
 [file.bases/views/list]
 original=List view
 translation=Lista nézet

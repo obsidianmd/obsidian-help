@@ -54,6 +54,10 @@ translation=Podglądy
 original=Cards view
 translation=Podgląd Karty
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Podgląd Kanban
+
 [file.bases/views/list]
 original=List view
 translation=Podgląd Lista

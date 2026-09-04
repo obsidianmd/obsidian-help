@@ -37,13 +37,14 @@ Ngoài ra, *nhấp chuột phải* vào tên chế độ xem trong thanh công c
 
 ## Bố cục
 
-Các chế độ xem có thể được hiển thị với các bố cục khác nhau bao gồm ![[lucide-table.svg#icon]] **bảng**, ![[lucide-list.svg#icon]] **danh sách**, ![[lucide-layout-grid.svg#icon]] **thẻ**, và ![[lucide-map.svg#icon]] **bản đồ**. Các bố cục bổ sung có thể được thêm bởi [[Phần mở rộng từ cộng đồng]]. Một số bố cục vẫn đang được phát triển và yêu cầu [[Phiên bản truy cập sớm|phiên bản truy cập sớm]] của Obsidian.
+Các chế độ xem có thể được hiển thị với các bố cục khác nhau bao gồm ![[lucide-table.svg#icon]] **bảng**, ![[lucide-list.svg#icon]] **danh sách**, ![[lucide-layout-grid.svg#icon]] **thẻ**, ![[lucide-kanban-square.svg#icon]] **Kanban**, và ![[lucide-map.svg#icon]] **bản đồ**. Các bố cục bổ sung có thể được thêm bởi [[Phần mở rộng từ cộng đồng]]. Một số bố cục vẫn đang được phát triển và yêu cầu [[Phiên bản truy cập sớm|phiên bản truy cập sớm]] của Obsidian.
 
 | Bố cục                              | Mô tả                                                                                                             | Phiên bản ứng dụng |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------- |
 | [[Chế độ xem bảng\|Bảng]]           | Hiển thị tệp dưới dạng hàng trong bảng. Các cột được điền từ [[Thuộc tính|thuộc tính]] trong ghi chú của bạn.     | 1.9                 |
 | [[Chế độ xem thẻ\|Thẻ]]            | Hiển thị tệp dưới dạng lưới thẻ. Cho phép bạn tạo các chế độ xem dạng bộ sưu tập với hình ảnh.                   | 1.9                 |
 | [[Chế độ xem danh sách\|Danh sách]] | Hiển thị tệp dưới dạng [[Cú pháp định dạng cơ bản#Danh sách\|danh sách]] với dấu đầu dòng hoặc đánh số.          | 1.10                |
+| [[Chế độ xem Kanban\|Kanban]]       | Hiển thị tệp dưới dạng thẻ được tổ chức thành các cột dựa trên thuộc tính được nhóm.                             | 1.14                |
 | [[Chế độ xem bản đồ\|Bản đồ]]      | Hiển thị tệp dưới dạng ghim trên bản đồ tương tác. Yêu cầu plugin Maps.                                          | 1.10                |
 
 

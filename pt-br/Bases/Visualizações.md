@@ -37,13 +37,14 @@ Alternativamente, *clique com o botão direito* no nome da visualização na bar
 
 ## Leiaute
 
-As visualizações podem ser exibidas com diferentes leiautes, incluindo ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **cartões** e ![[lucide-map.svg#icon]] **mapa**. Leiautes adicionais podem ser adicionados por [[Plugins da comunidade]]. Alguns leiautes ainda estão em desenvolvimento e requerem [[Versões de acesso antecipado]] do Obsidian.
+As visualizações podem ser exibidas com diferentes leiautes, incluindo ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **cartões**, ![[lucide-kanban-square.svg#icon]] **Kanban** e ![[lucide-map.svg#icon]] **mapa**. Leiautes adicionais podem ser adicionados por [[Plugins da comunidade]]. Alguns leiautes ainda estão em desenvolvimento e requerem [[Versões de acesso antecipado]] do Obsidian.
 
 | Leiaute                                  | Descrição                                                                                                               | Versão&nbsp;do&nbsp;app |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | [[Visualização de tabela\|Tabela]]       | Exibe arquivos como linhas em uma tabela. As colunas são preenchidas a partir das [[Propriedades]] nas suas notas.      | 1.9                     |
 | [[Visualização de cartões\|Cartões]]     | Exibe arquivos como uma grade de cartões. Permite criar visualizações tipo galeria com imagens.                         | 1.9                     |
 | [[Visualização de lista\|Lista]]         | Exibe arquivos como uma [[Sintaxe de formatação básica#Listas\|lista]] com marcadores ou numeração.                    | 1.10                    |
+| [[Visualização de Kanban\|Kanban]]       | Exibe arquivos como cartões organizados em colunas com base em uma propriedade agrupada.                               | 1.14                    |
 | [[Visualização de mapa\|Mapa]]           | Exibe arquivos como pinos em um mapa interativo. Requer o plugin Maps.                                                 | 1.10                    |
 
 

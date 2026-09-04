@@ -2334,6 +2334,66 @@ translation=پیکربندی نحوه وارد شدن فیلدهای Airtable
 original=What gets imported
 translation=چه چیزهایی وارد می‌شوند
 
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=ویرایش الگوی درج
+
+[heading.import/Preview results]
+original=Preview results
+translation=پیش‌نمایش نتایج
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=سینتکس الگو
+
+[heading.import/Variables]
+original=Variables
+translation=متغیرها
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=مقادیر منبع برای ویژگی‌ها
+
+[heading.import/Example template]
+original=Example template
+translation=نمونه الگو
+
+[heading.import/Before you start]
+original=Before you start
+translation=پیش از شروع
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=وارد کردن گراف Logseq
+
+[heading.import/Settings]
+original=Settings
+translation=تنظیمات
+
+[heading.import/Journals]
+original=Journals
+translation=ژورنال‌ها
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=هموار کردن طرح کلی‌ها
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=حفظ داده‌های ناسازگار
+
+[heading.import/Templates]
+original=Templates
+translation=الگوها
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=یافتن فایل‌های یادداشت
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=درج یادداشت‌های Tomboy یا Gnote
+
 [heading.settings/Open Settings]
 original=Open Settings
 translation=گشودن تنظیمات
@@ -4190,74 +4250,34 @@ translation=نوار کناری
 original=Frequently asked questions
 translation=پرسش‌های متداول
 
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=ویرایش الگوی درج
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=گروه‌بندی کارت‌ها در ستون‌ها
 
-[heading.import/templates/Preview results]
-original=Preview results
-translation=پیش‌نمایش نتایج
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=کار با کارت‌ها و ستون‌ها
 
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=سینتکس الگو
-
-[heading.import/templates/Variables]
-original=Variables
-translation=متغیرها
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=مقادیر منبع برای ویژگی‌ها
-
-[heading.import/templates/Example template]
-original=Example template
-translation=نمونه الگو
-
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=پیش از شروع
-
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=وارد کردن گراف Logseq
-
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=محدودیت‌ها
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=تنظیمات
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=ژورنال‌ها
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=مخفی کردن ستون‌های خالی
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=هموار کردن طرح کلی‌ها
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=عرض ستون
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=حفظ داده‌های ناسازگار
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=ویژگی تصویر
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=الگوها
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=جای‌گیری تصویر
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=عیب‌یابی
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=یافتن فایل‌های یادداشت
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=درج یادداشت‌های Tomboy یا Gnote
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=الگوها
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=نسبت تصویر

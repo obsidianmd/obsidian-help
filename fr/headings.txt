@@ -770,6 +770,62 @@ translation=Configurer comment les champs Airtable sont importés
 original=What gets imported
 translation=Ce qui est importé
 
+[heading.import/Before you start]
+original=Before you start
+translation=Avant de commencer
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importer votre graphe Logseq
+
+[heading.import/Settings]
+original=Settings
+translation=Paramètres
+
+[heading.import/Journals]
+original=Journals
+translation=Journaux
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Aplatir les plans
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Conserver les données incompatibles
+
+[heading.import/Templates]
+original=Templates
+translation=Modèles
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Localiser vos fichiers de notes
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importer vos notes Tomboy ou Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Éditer le modèle d'import
+
+[heading.import/Preview results]
+original=Preview results
+translation=Prévisualiser les résultats
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Syntaxe des modèles
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Valeurs source pour les propriétés
+
+[heading.import/Example template]
+original=Example template
+translation=Exemple de modèle
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Créer un lien
@@ -4030,66 +4086,34 @@ translation=Barre latérale
 original=Frequently asked questions
 translation=Questions fréquentes
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Avant de commencer
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Grouper les cartes en colonnes
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Importer votre graphe Logseq
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Travailler avec les cartes et les colonnes
 
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Paramètres
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Journaux
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Masquer les colonnes vides
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Aplatir les plans
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Largeur de colonne
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Conserver les données incompatibles
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Propriété de l'image
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Modèles
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Ajustement de l'image
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Dépannage
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Localiser vos fichiers de notes
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Importer vos notes Tomboy ou Gnote
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Modèles
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Éditer le modèle d'import
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Prévisualiser les résultats
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Syntaxe des modèles
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Valeurs source pour les propriétés
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Exemple de modèle
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Ratio d'aspect de l'image

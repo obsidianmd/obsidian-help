@@ -1678,6 +1678,66 @@ translation=设置 Airtable 字段的导入方式
 original=What gets imported
 translation=导入的内容
 
+[heading.import/Before you start]
+original=Before you start
+translation=开始之前
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=导入你的 Logseq 图谱
+
+[heading.import/Settings]
+original=Settings
+translation=设置
+
+[heading.import/Journals]
+original=Journals
+translation=日志
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=展平大纲
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=保留不兼容的数据
+
+[heading.import/Templates]
+original=Templates
+translation=模板
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=定位你的笔记文件
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=导入你的 Tomboy 或 Gnote 笔记
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=编辑导入模板
+
+[heading.import/Preview results]
+original=Preview results
+translation=预览结果
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=模板语法
+
+[heading.import/Variables]
+original=Variables
+translation=变量
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=属性的源值
+
+[heading.import/Example template]
+original=Example template
+translation=模板示例
+
 [heading.plugins/Install Importer]
 original=Install Importer
 translation=安装迁移助手
@@ -4186,74 +4246,34 @@ translation=侧边栏
 original=Frequently asked questions
 translation=常见问题
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=开始之前
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=将卡片分组到列中
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=导入你的 Logseq 图谱
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=使用卡片和列
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=限制
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=设置
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=日志
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=隐藏空列
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=展平大纲
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=列宽
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=保留不兼容的数据
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=图像属性
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=模板
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=图像适配
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=故障排除
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=定位你的笔记文件
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=导入你的 Tomboy 或 Gnote 笔记
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=模板
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=编辑导入模板
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=预览结果
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=模板语法
-
-[heading.import/templates/Variables]
-original=Variables
-translation=变量
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=属性的源值
-
-[heading.import/templates/Example template]
-original=Example template
-translation=模板示例
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=图像宽高比

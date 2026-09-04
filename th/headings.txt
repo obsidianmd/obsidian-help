@@ -3146,6 +3146,66 @@ translation=ตั้งค่าวิธีนำเข้าฟิลด์ A
 original=What gets imported
 translation=สิ่งที่ถูกนำเข้า
 
+[heading.import/Before you start]
+original=Before you start
+translation=ก่อนเริ่มต้น
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=นำเข้ากราฟ Logseq ของคุณ
+
+[heading.import/Settings]
+original=Settings
+translation=การตั้งค่า
+
+[heading.import/Journals]
+original=Journals
+translation=บันทึกประจำวัน
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=แบนโครงร่าง
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=เก็บรักษาข้อมูลที่ไม่เข้ากัน
+
+[heading.import/Templates]
+original=Templates
+translation=เทมเพลต
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=ค้นหาไฟล์โน้ตของคุณ
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=นำเข้าโน้ต Tomboy หรือ Gnote ของคุณ
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=แก้ไขเทมเพลตการนำเข้า
+
+[heading.import/Preview results]
+original=Preview results
+translation=พรีวิวผลลัพธ์
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=ไวยากรณ์เทมเพลต
+
+[heading.import/Variables]
+original=Variables
+translation=ตัวแปร
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=ค่าต้นทางสำหรับคุณสมบัติ
+
+[heading.import/Example template]
+original=Example template
+translation=ตัวอย่างเทมเพลต
+
 [heading.settings/Open Settings]
 original=Open Settings
 translation=เปิดการตั้งค่า
@@ -4106,74 +4166,34 @@ translation=แถบด้านข้าง
 original=Frequently asked questions
 translation=คำถามที่พบบ่อย
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=ก่อนเริ่มต้น
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=จัดกลุ่มการ์ดเป็นคอลัมน์
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=นำเข้ากราฟ Logseq ของคุณ
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=ทำงานกับการ์ดและคอลัมน์
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=ข้อจำกัด
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=การตั้งค่า
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=บันทึกประจำวัน
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=ซ่อนคอลัมน์ว่าง
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=แบนโครงร่าง
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=ความกว้างคอลัมน์
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=เก็บรักษาข้อมูลที่ไม่เข้ากัน
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=คุณสมบัติรูปภาพ
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=เทมเพลต
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=การจัดพอดีรูปภาพ
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=การแก้ไขปัญหา
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=ค้นหาไฟล์โน้ตของคุณ
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=นำเข้าโน้ต Tomboy หรือ Gnote ของคุณ
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=เทมเพลต
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=แก้ไขเทมเพลตการนำเข้า
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=พรีวิวผลลัพธ์
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=ไวยากรณ์เทมเพลต
-
-[heading.import/templates/Variables]
-original=Variables
-translation=ตัวแปร
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=ค่าต้นทางสำหรับคุณสมบัติ
-
-[heading.import/templates/Example template]
-original=Example template
-translation=ตัวอย่างเทมเพลต
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=อัตราส่วนภาพ

@@ -488,7 +488,7 @@ translation=Craft verilerinizi Obsidian'a içe aktarın
 
 [heading.import/Troubleshooting]
 original=Troubleshooting
-translation=Sorun Giderme
+translation=Sorun giderme
 
 [heading.import/Export your data from Evernote]
 original=Export your data from Evernote
@@ -617,6 +617,66 @@ translation=Airtable alanlarının nasıl içe aktarılacağını yapılandırma
 [heading.import/What gets imported]
 original=What gets imported
 translation=Neler içe aktarılır
+
+[heading.import/Before you start]
+original=Before you start
+translation=Başlamadan önce
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Logseq grafiğinizi içe aktarın
+
+[heading.import/Settings]
+original=Settings
+translation=Ayarlar
+
+[heading.import/Journals]
+original=Journals
+translation=Günlükler
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Anahattları düzleştir
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Uyumsuz verileri koru
+
+[heading.import/Templates]
+original=Templates
+translation=Şablonlar
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Not dosyalarınızı bulun
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Tomboy veya Gnote notlarınızı içe aktarın
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=İçe aktarma şablonunu düzenleme
+
+[heading.import/Preview results]
+original=Preview results
+translation=Sonuçları önizleme
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Şablon söz dizimi
+
+[heading.import/Variables]
+original=Variables
+translation=Değişkenler
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Özellikler için kaynak değerleri
+
+[heading.import/Example template]
+original=Example template
+translation=Örnek şablon
 
 [heading.sync-notes/Syncing methods]
 original=Syncing methods
@@ -4146,74 +4206,34 @@ translation=Kenar çubuğu
 original=Frequently asked questions
 translation=Sıkça sorulan sorular
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Başlamadan önce
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Kartları sütunlara gruplama
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Logseq grafiğinizi içe aktarın
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Kartlar ve sütunlarla çalışma
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Sınırlamalar
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Ayarlar
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Günlükler
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Boş sütunları gizle
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Anahattları düzleştir
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Sütun genişliği
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Uyumsuz verileri koru
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Görsel özelliği
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Şablonlar
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Görseli sığdırma
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Sorun giderme
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Not dosyalarınızı bulun
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Tomboy veya Gnote notlarınızı içe aktarın
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Şablonlar
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=İçe aktarma şablonunu düzenleme
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Sonuçları önizleme
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Şablon söz dizimi
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Değişkenler
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Özellikler için kaynak değerleri
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Örnek şablon
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Görsel en-boy oranı

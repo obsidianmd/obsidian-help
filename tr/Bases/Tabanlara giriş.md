@@ -36,5 +36,7 @@ Görünümler farklı düzenlerle gösterilebilir. [[Topluluk Eklentileri]] tara
 	- Dosyaları madde işaretli veya numaralı işaretçilerle bir liste halinde görüntüleyin.
 - [[Kartlar görünümü|Kartlar]]
 	- Dosyaları bir ızgara olarak görüntüleyin. Görsellerle galeri benzeri görünümler oluşturmanıza olanak tanır.
+- [[Kanban görünümü|Kanban]]
+	- Dosyaları gruplanmış bir özelliğe göre sütunlar halinde düzenlenmiş kartlar olarak görüntüleyin.
 - [[Harita görünümü|Harita]]
 	- Dosyaları etkileşimli bir harita üzerinde raptiyeler olarak görüntüleyin.

@@ -37,13 +37,14 @@ Alternativament, feu *clic dret* al nom de la vista a la barra d'eines de la bas
 
 ## Disposició
 
-Les vistes es poden mostrar amb diferents disposicions, incloent ![[lucide-table.svg#icon]] **taula**, ![[lucide-list.svg#icon]] **llista**, ![[lucide-layout-grid.svg#icon]] **targetes** i ![[lucide-map.svg#icon]] **mapa**. Es poden afegir disposicions addicionals mitjançant [[Connectors de la comunitat]]. Algunes disposicions encara s'estan desenvolupant i requereixen [[Versions d'accés anticipat|versions d'accés anticipat]] d'Obsidian.
+Les vistes es poden mostrar amb diferents disposicions, incloent ![[lucide-table.svg#icon]] **taula**, ![[lucide-list.svg#icon]] **llista**, ![[lucide-layout-grid.svg#icon]] **targetes**, ![[lucide-kanban-square.svg#icon]] **Kanban** i ![[lucide-map.svg#icon]] **mapa**. Es poden afegir disposicions addicionals mitjançant [[Connectors de la comunitat]]. Algunes disposicions encara s'estan desenvolupant i requereixen [[Versions d'accés anticipat|versions d'accés anticipat]] d'Obsidian.
 
 | Disposició                    | Descripció                                                                                                                           | Versió de l'aplicació |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
 | [[Vista de taula\|Taula]]     | Mostra els fitxers com a files en una taula. Les columnes es poblen a partir de les [[Propietats|propietats]] de les vostres notes.  | 1.9                   |
 | [[Vista de targetes\|Targetes]] | Mostra els fitxers com una graella de targetes. Us permet crear vistes tipus galeria amb imatges.                                   | 1.9                   |
 | [[Vista de llista\|Llista]]   | Mostra els fitxers com una [[Sintaxi de format bàsic#Llistes\|llista]] amb vinyetes o números.                                      | 1.10                  |
+| [[Vista Kanban\|Kanban]]      | Mostra els fitxers com a targetes organitzades en columnes basades en una propietat agrupada.                                        | 1.14                  |
 | [[Vista de mapa\|Mapa]]       | Mostra els fitxers com a punts en un mapa interactiu. Requereix el connector Maps.                                                  | 1.10                  |
 
 

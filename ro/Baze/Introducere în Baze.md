@@ -38,5 +38,7 @@ Vizualizările pot fi afișate cu aspecte diferite. Aspecte suplimentare pot fi 
 	- Afișează fișierele ca o listă cu marcaje sub formă de puncte sau numere.
 - [[Afișaj carduri|Carduri]]
 	- Afișează fișierele ca o grilă. Îți permite să creezi vizualizări de tip galerie cu imagini.
+- [[Afișaj Kanban|Kanban]]
+	- Afișează fișierele ca carduri organizate în coloane pe baza unei proprietăți grupate.
 - [[Afișaj hartă|Hartă]]
 	- Afișează fișierele ca pini pe o hartă interactivă.

@@ -37,13 +37,14 @@ Alternatif olarak, görünüm ayarlarına hızlıca erişmek için tabanın ara�
 
 ## Düzen
 
-Görünümler ![[lucide-table.svg#icon]] **tablo**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kartlar** ve ![[lucide-map.svg#icon]] **harita** dahil olmak üzere farklı düzenlerle görüntülenebilir. [[Topluluk Eklentileri]] tarafından ek düzenler eklenebilir. Bazı düzenler hâlâ geliştirilme aşamasındadır ve Obsidian'ın [[Erken erişim sürümleri|erken erişim sürümlerini]] gerektirir.
+Görünümler ![[lucide-table.svg#icon]] **tablo**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kartlar**, ![[lucide-kanban-square.svg#icon]] **Kanban** ve ![[lucide-map.svg#icon]] **harita** dahil olmak üzere farklı düzenlerle görüntülenebilir. [[Topluluk Eklentileri]] tarafından ek düzenler eklenebilir. Bazı düzenler hâlâ geliştirilme aşamasındadır ve Obsidian'ın [[Erken erişim sürümleri|erken erişim sürümlerini]] gerektirir.
 
 | Düzen                     | Açıklama                                                                                                                  | Uygulama&nbsp;sürümü |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | [[Tablo görünümü\|Tablo]] | Dosyaları bir tabloda satır olarak görüntüler. Sütunlar notlarınızdaki [[Özellikler|özelliklerden]] doldurulur.            | 1.9                   |
 | [[Kartlar görünümü\|Kartlar]] | Dosyaları bir kart ızgarası olarak görüntüler. Görsellerle galeri benzeri görünümler oluşturmanıza olanak tanır.        | 1.9                   |
 | [[Liste görünümü\|Liste]] | Dosyaları madde işaretli veya numaralı işaretçilerle bir [[Temel biçimlendirme söz dizimi#Listeler\|liste]] olarak görüntüler. | 1.10                  |
+| [[Kanban görünümü\|Kanban]] | Dosyaları gruplanmış bir özelliğe göre sütunlar halinde düzenlenmiş kartlar olarak görüntüler.                           | 1.14                  |
 | [[Harita görünümü\|Harita]] | Dosyaları etkileşimli bir harita üzerinde iğneler olarak görüntüler. Haritalar eklentisini gerektirir.                  | 1.10                  |
 
 

@@ -39,13 +39,14 @@ In alternativa, fai *clic destro* sul nome della vista nella barra degli strumen
 
 ## Layout
 
-Le viste possono essere visualizzate con diversi layout, tra cui ![[lucide-table.svg#icon]] **tabella**, ![[lucide-list.svg#icon]] **elenco**, ![[lucide-layout-grid.svg#icon]] **schede**, e ![[lucide-map.svg#icon]] **mappa**. Layout aggiuntivi possono essere aggiunti tramite [[Plugin della comunità|Plugin della comunità]]. Alcuni layout sono ancora in fase di sviluppo e richiedono le [[Versioni ad accesso anticipato|versioni ad accesso anticipato]] di Obsidian.
+Le viste possono essere visualizzate con diversi layout, tra cui ![[lucide-table.svg#icon]] **tabella**, ![[lucide-list.svg#icon]] **elenco**, ![[lucide-layout-grid.svg#icon]] **schede**, ![[lucide-kanban-square.svg#icon]] **Kanban**, e ![[lucide-map.svg#icon]] **mappa**. Layout aggiuntivi possono essere aggiunti tramite [[Plugin della comunità|Plugin della comunità]]. Alcuni layout sono ancora in fase di sviluppo e richiedono le [[Versioni ad accesso anticipato|versioni ad accesso anticipato]] di Obsidian.
 
 | Layout                          | Descrizione                                                                                                                        | Versione&nbsp;app |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | [[Table view\|Tabella]]         | Visualizza i file come righe in una tabella. Le colonne vengono popolate dalle [[Properties\|proprietà]] nelle tue note.           | 1.9               |
 | [[Cards view\|Schede]]          | Visualizza i file come una griglia di schede. Ti permette di creare viste simili a gallerie con immagini.                          | 1.9               |
 | [[List view\|Elenco]]           | Visualizza i file come un [[Sintassi di formattazione di base#Lists\|elenco]] con marcatori puntati o numerati.                             | 1.10              |
+| [[Kanban view\|Kanban]]         | Visualizza i file come schede organizzate in colonne basate su una proprietà raggruppata.                                          | 1.14              |
 | [[Map view\|Mappa]]             | Visualizza i file come segnaposti su una mappa interattiva. Richiede il plugin Mappe.                                             | 1.10              |
 
 

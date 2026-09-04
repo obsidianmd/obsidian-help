@@ -54,6 +54,10 @@ translation=Ansichten
 original=Cards view
 translation=Galerie
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-Sicht
+
 [file.bases/views/list]
 original=List view
 translation=Liste

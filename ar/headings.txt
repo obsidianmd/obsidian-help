@@ -802,6 +802,66 @@ translation=تهيئة كيفية استيراد حقول Airtable
 original=What gets imported
 translation=ما الذي يتم استيراده
 
+[heading.import/Before you start]
+original=Before you start
+translation=قبل البدء
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=استيراد رسم Logseq البياني
+
+[heading.import/Settings]
+original=Settings
+translation=الإعدادات
+
+[heading.import/Journals]
+original=Journals
+translation=اليوميات
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=تسطيح المخططات التفصيلية
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=الاحتفاظ بالبيانات غير المتوافقة
+
+[heading.import/Templates]
+original=Templates
+translation=القوالب
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=تحديد موقع ملفات الملاحظات
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=استيراد ملاحظات Tomboy أو Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=تحرير قالب الاستيراد
+
+[heading.import/Preview results]
+original=Preview results
+translation=معاينة النتائج
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=صيغة القالب
+
+[heading.import/Variables]
+original=Variables
+translation=المتغيرات
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=القيم المصدرية للخصائص
+
+[heading.import/Example template]
+original=Example template
+translation=مثال على قالب
+
 [heading.publish/Prerequisites]
 original=Prerequisites
 translation=المتطلبات الأساسية
@@ -1474,74 +1534,34 @@ translation=الشريط الجانبي
 original=Frequently asked questions
 translation=الأسئلة الشائعة
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=قبل البدء
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=تجميع البطاقات في أعمدة
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=استيراد رسم Logseq البياني
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=العمل مع البطاقات والأعمدة
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=القيود
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=الإعدادات
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=اليوميات
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=إخفاء الأعمدة الفارغة
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=تسطيح المخططات التفصيلية
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=عرض العمود
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=الاحتفاظ بالبيانات غير المتوافقة
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=خاصية الصورة
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=القوالب
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=ملاءمة الصورة
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=استكشاف الأخطاء وإصلاحها
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=تحديد موقع ملفات الملاحظات
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=استيراد ملاحظات Tomboy أو Gnote
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=القوالب
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=تحرير قالب الاستيراد
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=معاينة النتائج
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=صيغة القالب
-
-[heading.import/templates/Variables]
-original=Variables
-translation=المتغيرات
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=القيم المصدرية للخصائص
-
-[heading.import/templates/Example template]
-original=Example template
-translation=مثال على قالب
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=نسبة أبعاد الصورة

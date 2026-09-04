@@ -108,7 +108,7 @@ translation=Je Craft-gegevens importeren in Obsidian
 
 [heading.import/Troubleshooting]
 original=Troubleshooting
-translation=Probleemoplossing
+translation=Problemen oplossen
 
 [heading.import/Create an Airtable personal access token]
 original=Create an Airtable personal access token
@@ -133,6 +133,66 @@ translation=Wat er wordt geïmporteerd
 [heading.import/Limitations]
 original=Limitations
 translation=Beperkingen
+
+[heading.import/Before you start]
+original=Before you start
+translation=Voordat je begint
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Je Logseq-grafiek importeren
+
+[heading.import/Settings]
+original=Settings
+translation=Instellingen
+
+[heading.import/Journals]
+original=Journals
+translation=Dagboeken
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Overzichten afvlakken
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Incompatibele gegevens behouden
+
+[heading.import/Templates]
+original=Templates
+translation=Sjablonen
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Zoek je notitiebestanden
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Je Tomboy- of Gnote-notities importeren
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Het importsjabloon bewerken
+
+[heading.import/Preview results]
+original=Preview results
+translation=Resultaten voorbeschouwen
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Sjabloonsyntaxis
+
+[heading.import/Variables]
+original=Variables
+translation=Variabelen
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Bronwaarden voor eigenschappen
+
+[heading.import/Example template]
+original=Example template
+translation=Voorbeeldsjabloon
 
 [heading.link-notes/Create a link]
 original=Create a link
@@ -1374,74 +1434,34 @@ translation=Zijbalk
 original=Frequently asked questions
 translation=Veelgestelde vragen
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Voordat je begint
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Kaarten groeperen in kolommen
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Je Logseq-grafiek importeren
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Werken met kaarten en kolommen
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Beperkingen
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Instellingen
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Dagboeken
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Lege kolommen verbergen
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Overzichten afvlakken
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Kolombreedte
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Incompatibele gegevens behouden
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Afbeeldingseigenschap
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Sjablonen
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Afbeelding passend maken
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Problemen oplossen
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Zoek je notitiebestanden
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Je Tomboy- of Gnote-notities importeren
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Sjablonen
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Het importsjabloon bewerken
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Resultaten voorbeschouwen
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Sjabloonsyntaxis
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Variabelen
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Bronwaarden voor eigenschappen
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Voorbeeldsjabloon
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Beeldverhouding van afbeelding

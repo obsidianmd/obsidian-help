@@ -1034,6 +1034,66 @@ translation=Konfigurácia spôsobu importu polí z Airtable
 original=What gets imported
 translation=Čo sa importuje
 
+[heading.import/Before you start]
+original=Before you start
+translation=Pred začatím
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importovanie vášho Logseq grafu
+
+[heading.import/Settings]
+original=Settings
+translation=Nastavenia
+
+[heading.import/Journals]
+original=Journals
+translation=Denníky
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Sploštenie osnov
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Zachovanie nekompatibilných dát
+
+[heading.import/Templates]
+original=Templates
+translation=Šablóny
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Nájdite svoje súbory poznámok
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importujte svoje poznámky z Tomboy alebo Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Úprava šablóny importu
+
+[heading.import/Preview results]
+original=Preview results
+translation=Náhľad výsledkov
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Syntax šablón
+
+[heading.import/Variables]
+original=Variables
+translation=Premenné
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Zdrojové hodnoty pre vlastnosti
+
+[heading.import/Example template]
+original=Example template
+translation=Príklad šablóny
+
 [heading.credit/Add credit]
 original=Add credit
 translation=Pridanie kreditu
@@ -1802,74 +1862,34 @@ translation=Bočný panel
 original=Frequently asked questions
 translation=Často kladené otázky
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Pred začatím
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Zoskupenie kariet do stĺpcov
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Importovanie vášho Logseq grafu
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Práca s kartami a stĺpcami
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Obmedzenia
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Nastavenia
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Denníky
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Skryť prázdne stĺpce
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Sploštenie osnov
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Šírka stĺpca
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Zachovanie nekompatibilných dát
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Vlastnosť obrázka
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Šablóny
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Prispôsobenie obrázka
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Riešenie problémov
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Nájdite svoje súbory poznámok
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Importujte svoje poznámky z Tomboy alebo Gnote
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Šablóny
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Úprava šablóny importu
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Náhľad výsledkov
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Syntax šablón
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Premenné
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Zdrojové hodnoty pre vlastnosti
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Príklad šablóny
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Pomer strán obrázka

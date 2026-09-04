@@ -37,13 +37,14 @@ Alternativamente, haz *clic derecho* en el nombre de la vista en la barra de her
 
 ## Disposición
 
-Las vistas pueden mostrarse con diferentes disposiciones, incluyendo como ![[lucide-table.svg#icon]] **tabla**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **tarjetas** y ![[lucide-map.svg#icon]] **mapa**. Los [[Complementos de la comunidad]] pueden añadir disposiciones adicionales. Algunas disposiciones aún están en desarrollo y requieren [[Versiones de acceso anticipado|versiones de acceso anticipado]] de Obsidian.
+Las vistas pueden mostrarse con diferentes disposiciones, incluyendo como ![[lucide-table.svg#icon]] **tabla**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **tarjetas**, ![[lucide-kanban-square.svg#icon]] **Kanban** y ![[lucide-map.svg#icon]] **mapa**. Los [[Complementos de la comunidad]] pueden añadir disposiciones adicionales. Algunas disposiciones aún están en desarrollo y requieren [[Versiones de acceso anticipado|versiones de acceso anticipado]] de Obsidian.
 
 | Disposición                     | Descripción                                                                                                              | Versión&nbsp;de&nbsp;la&nbsp;app |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [[Vista de tabla\|Tabla]]       | Muestra archivos como filas en una tabla. Las columnas se completan a partir de las [[Propiedades|propiedades]] de tus notas. | 1.9                              |
 | [[Vista de tarjetas\|Tarjetas]] | Muestra archivos como una cuadrícula de tarjetas. Permite crear vistas tipo galería con imágenes.                        | 1.9                              |
 | [[Vista de lista\|Lista]]       | Muestra archivos como una [[Sintaxis de formato básico#Listas\|lista]] con viñetas o marcadores numerados.               | 1.10                             |
+| [[Vista Kanban\|Kanban]]        | Muestra archivos como tarjetas organizadas en columnas basadas en una propiedad agrupada.                                | 1.14                             |
 | [[Vista de mapa\|Mapa]]        | Muestra archivos como pines en un mapa interactivo. Requiere el complemento Maps.                                        | 1.10                             |
 
 

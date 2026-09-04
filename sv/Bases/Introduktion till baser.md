@@ -36,5 +36,7 @@ Vyer kan visas med olika layouter. Ytterligare layouter kan läggas till av [[Ge
 	- Visa filer som en lista med punkter eller numrerade markörer.
 - [[Kortvy|Kort]]
 	- Visa filer som ett rutnät. Låter dig skapa galleriliknande vyer med bilder.
+- [[Kanbanvy|Kanban]]
+	- Visa filer som kort organiserade i kolumner baserat på en grupperad egenskap.
 - [[Kartvy|Karta]]
 	- Visa filer som nålar på en interaktiv karta.

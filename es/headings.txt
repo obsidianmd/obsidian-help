@@ -1922,6 +1922,62 @@ translation=Configurar cómo se importan los campos de Airtable
 original=What gets imported
 translation=Qué se importa
 
+[heading.import/Before you start]
+original=Before you start
+translation=Antes de comenzar
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importar tu grafo de Logseq
+
+[heading.import/Settings]
+original=Settings
+translation=Ajustes
+
+[heading.import/Journals]
+original=Journals
+translation=Diarios
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Aplanar esquemas
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Preservar datos incompatibles
+
+[heading.import/Templates]
+original=Templates
+translation=Plantillas
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Localiza tus archivos de notas
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importa tus notas de Tomboy o Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Editar la plantilla de importación
+
+[heading.import/Preview results]
+original=Preview results
+translation=Vista previa de resultados
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Sintaxis de plantillas
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Valores de fuente para propiedades
+
+[heading.import/Example template]
+original=Example template
+translation=Plantilla de ejemplo
+
 [heading.appearance/Color scheme]
 original=Color scheme
 translation=Esquema de colores
@@ -4118,70 +4174,34 @@ translation=Barra lateral
 original=Frequently asked questions
 translation=Preguntas frecuentes
 
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Antes de comenzar
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Agrupar tarjetas en columnas
 
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Importar tu grafo de Logseq
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Trabajar con tarjetas y columnas
 
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Limitaciones
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Ajustes
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Diarios
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Ocultar columnas vacías
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Aplanar esquemas
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Ancho de columna
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Preservar datos incompatibles
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Propiedad de la imagen
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Plantillas
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Ajustar
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Solución de problemas
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Localiza tus archivos de notas
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Importa tus notas de Tomboy o Gnote
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Plantillas
-
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Editar la plantilla de importación
-
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Vista previa de resultados
-
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Sintaxis de plantillas
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Valores de fuente para propiedades
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Plantilla de ejemplo
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Proporción de aspecto de imagen

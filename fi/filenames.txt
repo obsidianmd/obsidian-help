@@ -54,6 +54,10 @@ translation=Näkymät
 original=Cards view
 translation=Korttinäkymä
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-näkymä
+
 [file.bases/views/list]
 original=List view
 translation=Luettelonäkymä

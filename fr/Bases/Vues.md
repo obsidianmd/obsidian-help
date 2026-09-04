@@ -38,13 +38,14 @@ Vous pouvez aussi faire un *clic droit* sur le nom de la vue dans la barre d'out
 
 ## Disposition
 
-Les vues peuvent être affichées avec différentes dispositions, notamment en ![[lucide-table.svg#icon]] **tableau**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **galerie** et ![[lucide-map.svg#icon]] **carte**. Des dispositions supplémentaires peuvent être ajoutées par des [[Modules complémentaires|modules complémentaires]]. Certaines dispositions sont encore en cours de développement et nécessitent des [[Versions en accès anticipé|versions en accès anticipé]] d'Obsidian.
+Les vues peuvent être affichées avec différentes dispositions, notamment en ![[lucide-table.svg#icon]] **tableau**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **galerie**, ![[lucide-kanban-square.svg#icon]] **Kanban** et ![[lucide-map.svg#icon]] **carte**. Des dispositions supplémentaires peuvent être ajoutées par des [[Modules complémentaires|modules complémentaires]]. Certaines dispositions sont encore en cours de développement et nécessitent des [[Versions en accès anticipé|versions en accès anticipé]] d'Obsidian.
 
 | Disposition                        | Description                                                                                                                    | Version&nbsp;app |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
 | [[Tableau]]           | Affiche les fichiers sous forme de lignes dans un tableau. Les colonnes sont remplies à partir des [[Propriétés|propriétés]] de vos notes. | 1.9              |
 | [[Galerie]]                        | Affiche les fichiers sous forme de grille. Permet de créer des vues de type galerie avec des images.                          | 1.9              |
 | [[Liste]]               | Affiche les fichiers sous forme de [[Syntaxe de mise en forme de base#Listes\|liste]] avec des puces ou des numéros.          | 1.10             |
+| [[Kanban]]              | Affiche les fichiers sous forme de cartes organisées en colonnes basées sur une propriété groupée.                             | 1.14             |
 | [[Carte]]               | Affiche les fichiers sous forme d'épingles sur une carte interactive. Nécessite le module Maps.                                | 1.10             |
 
 

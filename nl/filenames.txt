@@ -54,6 +54,10 @@ translation=Weergaven
 original=Cards view
 translation=Kaartenweergave
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-weergave
+
 [file.bases/views/list]
 original=List view
 translation=Lijstweergave

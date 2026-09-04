@@ -36,5 +36,7 @@ Podgląd może być wyświetlany z różnymi układami. Dodatkowe układy mogą 
 	- Wyświetlaj pliki jako listę z punktami lub numeracją.
 - [[Podgląd Karty|Karty]]
 	- Wyświetlaj pliki jako siatkę. Pozwala tworzyć podglądy galerii z obrazami.
+- [[Podgląd Kanban|Kanban]]
+	- Wyświetlaj pliki jako karty uporządkowane w kolumny na podstawie zgrupowanego atrybutu.
 - [[Podgląd Mapa|Mapa]]
 	- Wyświetlaj pliki jako pinezki na interaktywnej mapie.

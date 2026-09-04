@@ -54,6 +54,10 @@ translation=Viste
 original=Cards view
 translation=Vista schede
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Vista Kanban
+
 [file.bases/views/list]
 original=List view
 translation=Vista lista

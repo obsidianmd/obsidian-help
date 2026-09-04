@@ -37,13 +37,14 @@ Alternativt kan du *høyreklikke* på visningsnavnet i basens verktøylinje for 
 
 ## Oppsett
 
-Visninger kan vises med forskjellige oppsett, inkludert som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kort** og ![[lucide-map.svg#icon]] **kart**. Ytterligere oppsett kan legges til av [[Community-utvidelser]]. Noen oppsett er fortsatt under utvikling og krever [[Tidlig tilgang-versjoner]] av Obsidian.
+Visninger kan vises med forskjellige oppsett, inkludert som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kort**, ![[lucide-kanban-square.svg#icon]] **Kanban** og ![[lucide-map.svg#icon]] **kart**. Ytterligere oppsett kan legges til av [[Community-utvidelser]]. Noen oppsett er fortsatt under utvikling og krever [[Tidlig tilgang-versjoner]] av Obsidian.
 
 | Oppsett                   | Beskrivelse                                                                                                   | App&nbsp;versjon |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------- |
 | [[Tabell-visning\|Tabell]] | Vis filer som rader i en tabell. Kolonner fylles ut fra [[Egenskaper|egenskaper]] i notatene dine.            | 1.9              |
 | [[Kort-visning\|Kort]]     | Vis filer som et rutenett med kort. Lar deg opprette gallerilignende visninger med bilder.                    | 1.9              |
 | [[Liste-visning\|Liste]]   | Vis filer som en [[Grunnleggende formateringssyntaks#Lister\|liste]] med punktmerking eller nummererte markører. | 1.10             |
+| [[Kanban-visning\|Kanban]] | Vis filer som kort organisert i kolonner basert på en gruppert egenskap.                                      | 1.14             |
 | [[Kart-visning\|Kart]]     | Vis filer som nåler på et interaktivt kart. Krever Maps-tillegget.                                           | 1.10             |
 
 

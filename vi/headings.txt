@@ -636,7 +636,7 @@ translation=Nhập dữ liệu Notion qua API
 
 [heading.import/Limitations]
 original=Limitations
-translation=Giới hạn
+translation=Hạn chế
 
 [heading.import/File import]
 original=File import
@@ -681,6 +681,66 @@ translation=Cấu hình cách nhập các trường Airtable
 [heading.import/What gets imported]
 original=What gets imported
 translation=Những gì được nhập
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Chỉnh sửa mẫu nhập
+
+[heading.import/Preview results]
+original=Preview results
+translation=Xem trước kết quả
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Cú pháp mẫu
+
+[heading.import/Variables]
+original=Variables
+translation=Biến
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Giá trị nguồn cho thuộc tính
+
+[heading.import/Example template]
+original=Example template
+translation=Mẫu ví dụ
+
+[heading.import/Before you start]
+original=Before you start
+translation=Trước khi bắt đầu
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Nhập đồ thị Logseq của bạn
+
+[heading.import/Settings]
+original=Settings
+translation=Cài đặt
+
+[heading.import/Journals]
+original=Journals
+translation=Nhật ký
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Làm phẳng dàn ý
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Giữ nguyên dữ liệu không tương thích
+
+[heading.import/Templates]
+original=Templates
+translation=Mẫu
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Xác định vị trí tệp ghi chú của bạn
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Nhập ghi chú Tomboy hoặc Gnote của bạn
 
 [heading.backup/Syncing is not a backup]
 original=Syncing is not a backup
@@ -4154,74 +4214,34 @@ translation=Thanh bên
 original=Frequently asked questions
 translation=Câu hỏi thường gặp
 
-[heading.import/templates/Edit the import template]
-original=Edit the import template
-translation=Chỉnh sửa mẫu nhập
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Nhóm thẻ thành các cột
 
-[heading.import/templates/Preview results]
-original=Preview results
-translation=Xem trước kết quả
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Làm việc với thẻ và cột
 
-[heading.import/templates/Template syntax]
-original=Template syntax
-translation=Cú pháp mẫu
-
-[heading.import/templates/Variables]
-original=Variables
-translation=Biến
-
-[heading.import/templates/Source values for properties]
-original=Source values for properties
-translation=Giá trị nguồn cho thuộc tính
-
-[heading.import/templates/Example template]
-original=Example template
-translation=Mẫu ví dụ
-
-[heading.import/logseq/Before you start]
-original=Before you start
-translation=Trước khi bắt đầu
-
-[heading.import/logseq/Import your Logseq graph]
-original=Import your Logseq graph
-translation=Nhập đồ thị Logseq của bạn
-
-[heading.import/logseq/Limitations]
-original=Limitations
-translation=Hạn chế
-
-[heading.import/logseq/Settings]
+[heading.bases/views/kanban/Settings]
 original=Settings
 translation=Cài đặt
 
-[heading.import/logseq/Journals]
-original=Journals
-translation=Nhật ký
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Ẩn cột trống
 
-[heading.import/logseq/Flatten outlines]
-original=Flatten outlines
-translation=Làm phẳng dàn ý
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Chiều rộng cột
 
-[heading.import/logseq/Preserve incompatible data]
-original=Preserve incompatible data
-translation=Giữ nguyên dữ liệu không tương thích
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Thuộc tính hình ảnh
 
-[heading.import/logseq/Templates]
-original=Templates
-translation=Mẫu
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Vừa khung hình ảnh
 
-[heading.import/logseq/Troubleshooting]
-original=Troubleshooting
-translation=Khắc phục sự cố
-
-[heading.import/tomboy/Locate your note files]
-original=Locate your note files
-translation=Xác định vị trí tệp ghi chú của bạn
-
-[heading.import/tomboy/Import your Tomboy or Gnote notes]
-original=Import your Tomboy or Gnote notes
-translation=Nhập ghi chú Tomboy hoặc Gnote của bạn
-
-[heading.import/tomboy/Templates]
-original=Templates
-translation=Mẫu
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Tỷ lệ khung hình
