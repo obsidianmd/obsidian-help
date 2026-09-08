@@ -1484,11 +1484,9 @@ Hvis du har problemer med at køre Obsidian CLI:
 
 ### Windows
 
-Obsidian CLI på Windows kræver Obsidian 1.12.7+ installationsprogrammet. Se [[Opdatér Obsidian|Opdatering af installationsversion]].
-
 Windows bruger en terminal-redirector, der forbinder Obsidian korrekt til stdin/stdout. Dette er nødvendigt, fordi Obsidian normalt kører som en GUI-applikation, der er inkompatibel med terminaloutput på Windows. Når du installerer Obsidian 1.12.7+, vil `Obsidian.com` terminal-redirectoren blive tilføjet i mappen, hvor du installerede `Obsidian.exe`-filen.
 
-CLI-registreringen tilføjer Obsidian til din brugers PATH-variabel, hvilket først træder i kraft, efter du genstarter terminalen.
+CLI-registreringen tilføjer Obsidian til din brugers PATH-variabel, hvilket kun træder i kraft, efter du genstarter terminalen.
 
 ### macOS
 

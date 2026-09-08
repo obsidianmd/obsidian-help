@@ -1486,8 +1486,6 @@ Dacă aveți probleme la rularea Obsidian CLI:
 
 ### Windows
 
-Obsidian CLI pe Windows necesită pachetul de instalare Obsidian 1.12.7+. Consultați [[Actualizează Obsidian|Actualizarea versiunii pachetului de instalare]].
-
 Windows folosește un redirector de terminal care conectează Obsidian corect la stdin/stdout. Acest lucru este necesar deoarece Obsidian rulează în mod normal ca o aplicație GUI, incompatibilă cu ieșirile de terminal pe Windows. Când instalați Obsidian 1.12.7+, redirectorul de terminal `Obsidian.com` va fi adăugat în directorul unde ați instalat fișierul `Obsidian.exe`.
 
 Înregistrarea CLI adaugă Obsidian în variabila PATH a utilizatorului, ceea ce are efect doar după repornirea terminalului.
@@ -1532,4 +1530,3 @@ Dacă binarul lipsește, copiați-l manual din directorul de instalare Obsidian:
 cp /path/to/Obsidian/obsidian-cli ~/.local/bin/obsidian
 chmod 755 ~/.local/bin/obsidian
 ```
-

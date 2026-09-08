@@ -1484,8 +1484,6 @@ Obsidian CLI'ı çalıştırmakta sorun yaşıyorsanız:
 
 ### Windows
 
-Windows'ta Obsidian CLI, Obsidian 1.12.7+ yükleyicisini gerektirir. [[Obsidian'ı Güncelle|Yükleyici sürümü güncellemesine]] bakın.
-
 Windows, Obsidian'ı stdin/stdout'a düzgün şekilde bağlayan bir terminal yönlendiricisi kullanır. Bu gereklidir çünkü Obsidian normalde Windows'ta terminal çıktılarıyla uyumsuz olan bir GUI uygulaması olarak çalışır. Obsidian 1.12.7+ yüklediğinizde, `Obsidian.exe` dosyasını yüklediğiniz klasöre `Obsidian.com` terminal yönlendiricisi eklenecektir.
 
 CLI kaydı, Obsidian'ı kullanıcınızın PATH değişkenine ekler; bu yalnızca terminali yeniden başlattıktan sonra etkili olur.
