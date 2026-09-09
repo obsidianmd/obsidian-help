@@ -63,7 +63,7 @@ When bootstrapping a new translation, we use [/scripts](/scripts) to copy the en
 
 All additions and removals should be made to the `en` locale first. Changes are applied automatically to other locales using [/scripts](/scripts). 
 
-The scripts use diffs to determine if the changes can be made deterministically (e.g. removing entire sections), can be processed in chunks (e.g. adding a bullet point to an exsiting list), or need an entirely new page translation.
+The scripts use diffs to determine if the changes can be made deterministically (e.g. removing entire sections), can be processed in chunks (e.g. adding a bullet point to an existing list), or need an entirely new page translation.
 
 ### Refine other languages
 
