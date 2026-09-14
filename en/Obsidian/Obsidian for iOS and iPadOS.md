@@ -25,6 +25,7 @@ Obsidian for iOS offers several widgets to take quick actions on your vault.
 ### Lock Screen and Control Center widgets
 
 Lock Screen and Control Center widgets allow you to:
+- Open Quick Capture
 - Create a new note
 - Open a specific note
 - Open daily note
@@ -34,6 +35,7 @@ Lock Screen and Control Center widgets allow you to:
 ### Home Screen widgets
 
 Home Screen widgets allow you to:
+- Open Quick Capture
 - Create a note
 - View a note
 - Open your daily note
@@ -54,10 +56,65 @@ You can customize widgets to suit your workflow, such as choosing which vault to
 
 ![[ios-view-note-configuration.png|400]]
 
+## Quick Capture
+
+Quick Capture lets you save text to your vault from the Lock Screen, Control Center, or Home Screen. Depending on the capture location you select, Quick Capture can create a new note or add the text to an existing note.
+
+> [!note] Note
+> Quick Capture is available on iOS and iPadOS 26 and higher.
+
+To capture text:
+
+1. Add the **Quick Capture** widget to your Lock Screen, Control Center, or Home Screen.
+2. Tap the widget to open Quick Capture.
+3. Enter your text.
+4. To change where the text will be saved, tap the capture location at the top of the screen and select another location.
+5. Tap the checkmark to save the text.
+
+**Note**: If Live Activities are enabled, the quick capture note also appears on the Lock Screen and, on supported iPhone models, in the Dynamic Island. Tap the bar or Live Activity to continue editing.
+
+### Capture locations
+
+Capture locations determine where Quick Capture saves your text. A capture location can:
+
+- Create a new note in a selected folder, with an optional template and custom note name.
+- Append or prepend the text to your daily note.
+- Append or prepend the text to a bookmarked note.
+- Append or prepend the text to another note you select.
+
+To create a capture location:
+1. Open Quick Capture.
+2. Tap the capture location at the top of the screen.
+3. Tap **Add**.
+4. Select a behavior and configure any optional settings.
+5. Tap **Save**.
+
+You can also use **Open Note after Capture** to choose whether Obsidian opens the destination note after saving the capture.
+
+### Quick Capture templates
+
+You can apply a template to format the captured text. Quick Capture templates support the following placeholders:
+
+| Placeholder | Description |
+| --- | --- |
+| `{{content}}` | Captured text |
+| `{{date}}` | Current date |
+| `{{time}}` | Current time |
+| `{{latitude}}` | Current latitude |
+| `{{longitude}}` | Current longitude |
+| `{{shortAddress}}` | Short form of the current address |
+| `{{fullAddress}}` | Full current address |
+| `{{googleMapsLink}}` | Google Maps link to the current location |
+| `{{appleMapsLink}}` | Apple Maps link to the current location |
+| `{{openStreetMapLink}}` | OpenStreetMap link to the current location |
+
+To configure a Quick Capture widget for a specific capture location, use the steps in [[#Customizing widgets]]. Home Screen widgets can display multiple capture locations.
+
 ## Shortcuts
 
 Obsidian integrates with Apple's Shortcuts app, allowing you to create powerful automations. Available shortcuts include:
 
+- **Quick Capture** — Open Quick Capture using a configured capture location
 - **Open Bookmark** - Open a bookmarked note from your vault
 - **Open New Note** — Create a new note in your vault
 - **Open Daily Note** — Jump directly to today's daily note
@@ -181,5 +238,3 @@ When you search for "Obsidian" in iOS Spotlight, you'll see quick actions:
 - New Note
 - Search
 - Daily Note
-
-
