@@ -89,7 +89,7 @@ Capture locations determine where Quick Capture saves your text. A capture locat
 To create a capture location:
 1. Open Quick Capture.
 2. Tap the capture location at the top of the screen.
-3. Tap **Add**.
+3. Tap the plus (+) button.
 4. Select a behavior and configure any optional settings.
 5. Tap **Save**.
 
