@@ -75,6 +75,8 @@ To capture text:
 
 **Note**: If Live Activities are enabled, the quick capture note also appears on the Lock Screen and, on supported iPhone models, in the Dynamic Island. Tap the bar or Live Activity to continue editing.
 
+![[ios-quick-capture-live-activity.png|400]]
+
 ### Capture locations
 
 Capture locations determine where Quick Capture saves your text. A capture location can:
