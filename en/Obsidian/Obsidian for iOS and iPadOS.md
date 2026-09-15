@@ -58,7 +58,9 @@ You can customize widgets to suit your workflow, such as choosing which vault to
 
 ## Quick Capture
 
-Quick Capture lets you save text to your vault from the Lock Screen, Control Center, or Home Screen. Depending on the capture location you select, Quick Capture can create a new note or add the text to an existing note.
+Quick Capture lets you save text to your vault from the Lock Screen, Control Center, or Home Screen widgets. Depending on the capture location you select, Quick Capture can create a new note or add the text to an existing note.
+
+![[ios-quick-capture-view.png|400]]
 
 > [!note] Note
 > Quick Capture is available on iOS and iPadOS 26 and higher.
@@ -91,6 +93,10 @@ To create a capture location:
 
 You can also use **Open Note after Capture** to choose whether Obsidian opens the destination note after saving the capture.
 
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
 ### Quick Capture templates
 
 You can apply a template to format the captured text. Quick Capture templates support the following placeholders:
@@ -109,6 +115,8 @@ You can apply a template to format the captured text. Quick Capture templates su
 | `{{openStreetMapLink}}` | OpenStreetMap link to the current location |
 
 To configure a Quick Capture widget for a specific capture location, use the steps in [[#Customizing widgets]]. Home Screen widgets can display multiple capture locations.
+
+![[ios-quick-capture-widget.png|400]]
 
 ## Shortcuts
 
