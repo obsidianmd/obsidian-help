@@ -55,6 +55,20 @@ If you use Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+If focus rules don't help, try running Obsidian under XWayland instead of native Wayland, then fully restart Obsidian.
+
+If you use Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+To undo this, run `flatpak override --user --reset md.obsidian.Obsidian`. Note that this resets all overrides you have set for Obsidian.
+
+For other installation methods, launch Obsidian with the `--ozone-platform=x11` flag.
+
+Other things to try:
+
 - If you use Flatpak consider trying an [officially supported Obsidian version](https://obsidian.md/download).
 - If you use KDE go to to **System Settings** → **Window Management** → **Window Rules** and allow Obsidian to take focus, [[web-clipper-kde.png|see screenshot]].
 - As a fallback, try switching to **Legacy mode** in **Web Clipper Settings** → **General**. This will bypass the clipboard and save content directly via URI. Note that this will limit the number of characters that can be clipped depending on your browser and Linux distribution.

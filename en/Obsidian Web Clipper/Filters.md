@@ -163,7 +163,7 @@ Converts strings, arrays, or objects into Markdown image syntax.
 Converts strings, arrays, or objects into Markdown link syntax (not to be confused with [[Filters#`wikilink`|wikilink]]).
 
 - For strings: `"url"|link:"author"` returns `[author](url)`.
-- For arrays: `["url1","url2"]|link:"author"` returns an array of Markdown links with the same text for all links.
+- For arrays: `["url1","url2"]|link:"author"` returns Markdown links separated by newlines, with the same text for all links.
 - For objects: `{"url1": "Author 1", "url2": "Author 2"}|link` returns Markdown links with the text that matches the object keys.
 
 ### `list`
@@ -196,6 +196,8 @@ Converts strings, arrays, or objects into Obsidian [[Link notes|wikilink]] synta
 
 ## Numbers
 
+`calc`, `round`, and `length` return numbers, preserving their type in later filters and variable assignments. `number_format` returns text.
+
 ### `calc`
 
 Performs basic arithmetic operations on numbers.
@@ -203,7 +205,7 @@ Performs basic arithmetic operations on numbers.
 - Supports operators: `+`, `-`, `*`, `/`, `**` (or `^`) for exponentiation.
 - Example: `5|calc:"+10"` returns `15`.
 - Example: `2|calc:"**3"` returns `8` (2 cubed).
-- Returns the original string if the input is not a number.
+- Returns the original input if it is blank, is not a number, or the calculation produces a non-finite result.
 
 ### `length`
 
@@ -211,6 +213,7 @@ Returns the length of strings, arrays, or number of keys in objects.
 
 - For strings: `"hello"|length` returns `5`.
 - For arrays: `["a","b","c"]|length` returns `3`.
+- An array with one item still counts as one: `[42]|length` returns `1`.
 - For objects: `{"a":1,"b":2}|length` returns `2`.
 
 ### `number_format`
@@ -227,6 +230,8 @@ Rounds a number to the nearest integer or to a specified number of decimal place
 
 - Without parameters: `3.7|round` returns `4`.
 - With decimal places specified: `3.14159|round:2` returns `3.14`.
+- Arrays and objects retain their structure, with numeric values rounded recursively. Numeric strings become numbers, e.g. `["1.234","2.345"]|round:2` returns `[1.23,2.35]`.
+- Invalid input such as `"42abc"` is preserved instead of being converted to a number.
 
 ## HTML processing
 
@@ -246,7 +251,7 @@ Converts a string to an [[Obsidian Flavored Markdown]] formatted string.
 
 Removes only the specified HTML attributes from tags.
 
-- Example: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returns `<div id="example">Content</div>`.
+- Example: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` returns `<div id="example">Content</div>`.
 - Multiple attributes: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +279,7 @@ Replaces HTML tags, maintaining the content and attributes of the tag.
 Removes **all** HTML attributes from a string.
 
 - Use `strip_attr:("class, id")` to keep specific attributes.
-- Example: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returns `<div id="example">Content</div>`.
+- Example: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` returns `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -296,9 +301,10 @@ Process arrays and objects.
 
 ### `first` 
 
-Returns the first element of an array as a string.
+Returns the first element of an array, preserving its type. Objects and nested arrays are displayed as JSON.
 
 - `["a","b","c"]|first` returns `"a"`.
+- An empty array returns `null`, which displays as empty text.
 - If the input is not an array, it returns the input unchanged.
 
 ### `join`
@@ -311,9 +317,10 @@ Combines elements of an array into a string.
 
 ### `last`
 
-Returns the last element of an array as a string.
+Returns the last element of an array, preserving its type. Objects and nested arrays are displayed as JSON.
 
 - `["a","b","c"]|last` returns `"c"`.
+- An empty array returns `null`, which displays as empty text.
 - If the input is not an array, it returns the input unchanged.
 
 ### `map`
@@ -346,6 +353,8 @@ Keeps nth items in an array using CSS-style nth-child syntax and group patterns.
 - `array|nth:3n` keeps every 3rd element (3, 6, 9, etc.).
 - `array|nth:n+3` keeps the 3rd and all following elements.
 
+The result remains an array for later collection filters. If it contains a single primitive value, that value is displayed without array brackets and passed directly to text filters, e.g. `[1,2]|nth:2` displays `2`.
+
 Group pattern syntax for repeating structures:
 
 - `array|nth:1,2,3:5` keeps positions 1, 2, 3 from each group of 5 items. Example: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returns `[1,2,3,6,7,8]`.
@@ -358,6 +367,10 @@ Manipulates object data:
 - `object:keys` returns an array of the object's keys.
 - `object:values` returns an array of the object's values.
 - Example: `{"a":1,"b":2}|object:array` returns `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Parses JSON text into a typed value. Use this before collection filters or YAML serialization when a variable contains JSON text, e.g. `'[1,2]'|parse_json|yaml:flow` returns `[1,2]`.
 
 ### `reverse`
 
@@ -384,7 +397,7 @@ Divides a string into an array of substrings.
 - `"a,b,c"|split:","` returns `["a","b","c"]`.
 - `"hello world"|split:" "` returns `["hello","world"]`.
 - If no separator is provided, it splits on every character: `"hello"|split` returns `["h","e","l","l","o"]`.
-- Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c"]`.
+- Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c",""]`. A separator at the end produces an empty final item.
 
 ### `template`
 
@@ -406,3 +419,18 @@ Removes duplicate values from arrays and objects.
 - For arrays of objects: `[{"a":1},{"b":2},{"a":1}]|unique` returns `[{"a":1},{"b":2}]`.
 - For objects it removes properties with duplicate values, keeping the last occurrence's key.
 - For strings it returns the input unchanged.
+
+## YAML
+
+### `yaml`
+
+Formats a value as YAML. Strings are always quoted, including strings such as `"null"`, `"true"`, and `"123"`. Actual nulls, booleans, and numbers remain unquoted.
+
+- Arrays and objects use block style by default. Use `yaml:flow` for compact inline collections.
+- Use `parse_json` first to serialize JSON text as structured data instead of a quoted string.
+
+### `yaml_property`
+
+Formats a named YAML property, including indentation for arrays and objects. Strings and typed values follow the same rules as `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` returns `price: 42.57`.
