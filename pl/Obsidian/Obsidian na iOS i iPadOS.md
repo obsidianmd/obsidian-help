@@ -21,6 +21,7 @@ Obsidian na iOS oferuje kilka widżetów umożliwiających szybkie działania na
 ### Widżety ekranu blokady i Centrum sterowania
 
 Widżety ekranu blokady i Centrum sterowania umożliwiają:
+- Otwieranie Szybkiego przechwytywania
 - Tworzenie nowej notatki
 - Otwieranie konkretnej notatki
 - Otwieranie dziennika
@@ -30,6 +31,7 @@ Widżety ekranu blokady i Centrum sterowania umożliwiają:
 ### Widżety ekranu głównego
 
 Widżety ekranu głównego umożliwiają:
+- Otwieranie Szybkiego przechwytywania
 - Tworzenie notatki
 - Wyświetlanie notatki
 - Otwieranie dziennika
@@ -50,10 +52,75 @@ Opcje konfiguracji widżetu **Podgląd notatki**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Szybkie przechwytywanie
+
+Szybkie przechwytywanie pozwala zapisywać tekst do sejfu z widżetów ekranu blokady, Centrum sterowania lub ekranu głównego. W zależności od wybranej lokalizacji przechwytywania, Szybkie przechwytywanie może utworzyć nową notatkę lub dodać tekst do istniejącej notatki.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Uwaga
+> Szybkie przechwytywanie jest dostępne na iOS i iPadOS 26 i nowszych.
+
+Aby przechwycić tekst:
+
+1. Dodaj widżet **Szybkie przechwytywanie** do ekranu blokady, Centrum sterowania lub ekranu głównego.
+2. Dotknij widżetu, aby otworzyć Szybkie przechwytywanie.
+3. Wprowadź tekst.
+4. Aby zmienić miejsce zapisania tekstu, dotknij lokalizacji przechwytywania u góry ekranu i wybierz inną lokalizację.
+5. Dotknij znacznika wyboru, aby zapisać tekst.
+
+**Uwaga**: Jeśli Aktywności na żywo są włączone, notatka szybkiego przechwytywania pojawia się również na ekranie blokady oraz, na obsługiwanych modelach iPhone'a, w Dynamic Island. Dotknij paska lub Aktywności na żywo, aby kontynuować edycję.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Lokalizacje przechwytywania
+
+Lokalizacje przechwytywania określają, gdzie Szybkie przechwytywanie zapisuje tekst. Lokalizacja przechwytywania może:
+
+- Utworzyć nową notatkę w wybranym folderze, z opcjonalnym szablonem i niestandardową nazwą notatki.
+- Dołączyć lub wstawić tekst do dziennika.
+- Dołączyć lub wstawić tekst do notatki z zakładek.
+- Dołączyć lub wstawić tekst do innej wybranej notatki.
+
+Aby utworzyć lokalizację przechwytywania:
+1. Otwórz Szybkie przechwytywanie.
+2. Dotknij lokalizacji przechwytywania u góry ekranu.
+3. Dotknij przycisku plus (+).
+4. Wybierz zachowanie i skonfiguruj opcjonalne ustawienia.
+5. Dotknij **Zapisz**.
+
+Możesz również użyć opcji **Otwórz notatkę po przechwyceniu**, aby wybrać, czy Obsidian ma otworzyć docelową notatkę po zapisaniu przechwycenia.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Szablony Szybkiego przechwytywania
+
+Możesz zastosować szablon do formatowania przechwyconego tekstu. Szablony Szybkiego przechwytywania obsługują następujące symbole zastępcze:
+
+| Symbol zastępczy | Opis |
+| --- | --- |
+| `{{content}}` | Przechwycony tekst |
+| `{{date}}` | Bieżąca data |
+| `{{time}}` | Bieżąca godzina |
+| `{{latitude}}` | Bieżąca szerokość geograficzna |
+| `{{longitude}}` | Bieżąca długość geograficzna |
+| `{{shortAddress}}` | Skrócona forma bieżącego adresu |
+| `{{fullAddress}}` | Pełny bieżący adres |
+| `{{googleMapsLink}}` | Link do Mapy Google z bieżącą lokalizacją |
+| `{{appleMapsLink}}` | Link do Mapy Apple z bieżącą lokalizacją |
+| `{{openStreetMapLink}}` | Link do OpenStreetMap z bieżącą lokalizacją |
+
+Aby skonfigurować widżet Szybkiego przechwytywania dla konkretnej lokalizacji przechwytywania, wykonaj kroki opisane w sekcji [[#Dostosowywanie widżetów]]. Widżety ekranu głównego mogą wyświetlać wiele lokalizacji przechwytywania.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Skróty
 
 Obsidian integruje się z aplikacją Skróty firmy Apple, umożliwiając tworzenie zaawansowanych automatyzacji. Dostępne skróty obejmują:
 
+- **Szybkie przechwytywanie** — Otwiera Szybkie przechwytywanie z użyciem skonfigurowanej lokalizacji przechwytywania
 - **Otwórz zakładkę** — Otwiera notatkę z zakładek w sejfie
 - **Otwórz nową notatkę** — Tworzy nową notatkę w sejfie
 - **Otwórz dziennik** — Przechodzi bezpośrednio do dzisiejszego dziennika

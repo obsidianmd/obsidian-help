@@ -23,6 +23,7 @@ Obsidian pentru iOS oferă mai multe widget-uri pentru a efectua acțiuni rapide
 ### Widget-uri pentru ecranul de blocare și Centrul de control
 
 Widget-urile pentru ecranul de blocare și Centrul de control îți permit să:
+- Deschizi Captarea rapidă
 - Creezi o notă nouă
 - Deschizi o notă anume
 - Deschizi nota zilnică
@@ -32,6 +33,7 @@ Widget-urile pentru ecranul de blocare și Centrul de control îți permit să:
 ### Widget-uri pentru ecranul de start
 
 Widget-urile pentru ecranul de start îți permit să:
+- Deschizi Captarea rapidă
 - Creezi o notă
 - Vizualizezi o notă
 - Deschizi nota ta zilnică
@@ -52,10 +54,75 @@ Opțiuni de configurare pentru widget-ul **Vizualizează notă**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Captare rapidă
+
+Captarea rapidă îți permite să salvezi text în seiful tău de pe ecranul de blocare, Centrul de control sau widget-urile de pe ecranul de start. În funcție de locația de captare selectată, Captarea rapidă poate crea o notă nouă sau adăuga textul la o notă existentă.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Notă
+> Captarea rapidă este disponibilă pe iOS și iPadOS 26 și versiuni mai noi.
+
+Pentru a capta text:
+
+1. Adaugă widget-ul **Captare rapidă** pe ecranul de blocare, în Centrul de control sau pe ecranul de start.
+2. Apasă widget-ul pentru a deschide Captarea rapidă.
+3. Introdu textul.
+4. Pentru a schimba unde va fi salvat textul, apasă locația de captare din partea de sus a ecranului și selectează altă locație.
+5. Apasă bifa pentru a salva textul.
+
+**Notă**: Dacă Activitățile în direct (Live Activities) sunt activate, nota de captare rapidă apare și pe ecranul de blocare și, pe modelele de iPhone compatibile, în Dynamic Island. Apasă bara sau Activitatea în direct pentru a continua editarea.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Locații de captare
+
+Locațiile de captare determină unde Captarea rapidă salvează textul tău. O locație de captare poate:
+
+- Crea o notă nouă într-un director selectat, cu un șablon opțional și un nume de notă personalizat.
+- Adăuga textul la începutul sau sfârșitul notei tale zilnice.
+- Adăuga textul la începutul sau sfârșitul unei note marcate.
+- Adăuga textul la începutul sau sfârșitul unei alte note pe care o selectezi.
+
+Pentru a crea o locație de captare:
+1. Deschide Captarea rapidă.
+2. Apasă locația de captare din partea de sus a ecranului.
+3. Apasă butonul plus (+).
+4. Selectează un comportament și configurează eventualele setări opționale.
+5. Apasă **Salvează**.
+
+Poți folosi și **Deschide nota după captare** pentru a alege dacă Obsidian deschide nota de destinație după salvarea captării.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Șabloane pentru Captarea rapidă
+
+Poți aplica un șablon pentru a formata textul captat. Șabloanele pentru Captarea rapidă acceptă următorii substituenți:
+
+| Substituent | Descriere |
+| --- | --- |
+| `{{content}}` | Textul captat |
+| `{{date}}` | Data curentă |
+| `{{time}}` | Ora curentă |
+| `{{latitude}}` | Latitudinea curentă |
+| `{{longitude}}` | Longitudinea curentă |
+| `{{shortAddress}}` | Forma scurtă a adresei curente |
+| `{{fullAddress}}` | Adresa curentă completă |
+| `{{googleMapsLink}}` | Link Google Maps către locația curentă |
+| `{{appleMapsLink}}` | Link Apple Maps către locația curentă |
+| `{{openStreetMapLink}}` | Link OpenStreetMap către locația curentă |
+
+Pentru a configura un widget de Captare rapidă pentru o anumită locație de captare, folosește pașii din [[#Personalizarea widget-urilor]]. Widget-urile de pe ecranul de start pot afișa mai multe locații de captare.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Scurtături
 
 Obsidian se integrează cu aplicația Shortcuts de la Apple, permițându-ți să creezi automatizări puternice. Scurtăturile disponibile includ:
 
+- **Captare rapidă** — Deschide Captarea rapidă folosind o locație de captare configurată
 - **Deschide marcaj** — Deschide o notă marcată din seiful tău
 - **Deschide notă nouă** — Creează o notă nouă în seiful tău
 - **Deschide nota zilnică** — Sari direct la nota ta zilnică de astăzi

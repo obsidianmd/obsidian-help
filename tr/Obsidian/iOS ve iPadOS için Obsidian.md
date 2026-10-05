@@ -21,6 +21,7 @@ iOS için Obsidian, kasanızda hızlı işlemler yapmanız için çeşitli widge
 ### Kilit Ekranı ve Kontrol Merkezi widget'ları
 
 Kilit Ekranı ve Kontrol Merkezi widget'ları şunları yapmanıza olanak tanır:
+- Hızlı Yakalama'yı açma
 - Yeni not oluşturma
 - Belirli bir notu açma
 - Günlük notunu açma
@@ -30,6 +31,7 @@ Kilit Ekranı ve Kontrol Merkezi widget'ları şunları yapmanıza olanak tanır
 ### Ana Ekran widget'ları
 
 Ana Ekran widget'ları şunları yapmanıza olanak tanır:
+- Hızlı Yakalama'yı açma
 - Not oluşturma
 - Not görüntüleme
 - Günlük notunuzu açma
@@ -50,10 +52,75 @@ Widget'ları iş akışınıza uyacak şekilde özelleştirebilirsiniz; örneği
 
 ![[ios-view-note-configuration.png|400]]
 
+## Hızlı Yakalama
+
+Hızlı Yakalama, Kilit Ekranı, Kontrol Merkezi veya Ana Ekran widget'larından kasanıza metin kaydetmenize olanak tanır. Seçtiğiniz yakalama konumuna bağlı olarak, Hızlı Yakalama yeni bir not oluşturabilir veya metni mevcut bir nota ekleyebilir.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Not
+> Hızlı Yakalama iOS ve iPadOS 26 ve üzeri sürümlerde kullanılabilir.
+
+Metin yakalamak için:
+
+1. **Hızlı Yakalama** widget'ını Kilit Ekranınıza, Kontrol Merkezinize veya Ana Ekranınıza ekleyin.
+2. Hızlı Yakalama'yı açmak için widget'a dokunun.
+3. Metninizi girin.
+4. Metnin kaydedileceği yeri değiştirmek için ekranın üst kısmındaki yakalama konumuna dokunun ve başka bir konum seçin.
+5. Metni kaydetmek için onay işaretine dokunun.
+
+**Not**: Canlı Etkinlikler etkinleştirildiyse, hızlı yakalama notu Kilit Ekranında ve desteklenen iPhone modellerinde Dynamic Island'da da görünür. Düzenlemeye devam etmek için çubuğa veya Canlı Etkinliğe dokunun.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Yakalama konumları
+
+Yakalama konumları, Hızlı Yakalama'nın metninizi nereye kaydedeceğini belirler. Bir yakalama konumu şunları yapabilir:
+
+- Seçilen bir klasörde, isteğe bağlı şablon ve özel not adıyla yeni bir not oluşturma.
+- Metni günlük notunuza ekleme veya başına ekleme.
+- Metni yer imi eklenmiş bir nota ekleme veya başına ekleme.
+- Metni seçtiğiniz başka bir nota ekleme veya başına ekleme.
+
+Yakalama konumu oluşturmak için:
+1. Hızlı Yakalama'yı açın.
+2. Ekranın üst kısmındaki yakalama konumuna dokunun.
+3. Artı (+) düğmesine dokunun.
+4. Bir davranış seçin ve isteğe bağlı ayarları yapılandırın.
+5. **Kaydet**'e dokunun.
+
+Yakalama sonrası Obsidian'ın hedef notu açıp açmayacağını seçmek için **Yakalama Sonrası Notu Aç** seçeneğini de kullanabilirsiniz.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Hızlı Yakalama şablonları
+
+Yakalanan metni biçimlendirmek için bir şablon uygulayabilirsiniz. Hızlı Yakalama şablonları aşağıdaki yer tutucuları destekler:
+
+| Yer Tutucu | Açıklama |
+| --- | --- |
+| `{{content}}` | Yakalanan metin |
+| `{{date}}` | Geçerli tarih |
+| `{{time}}` | Geçerli saat |
+| `{{latitude}}` | Geçerli enlem |
+| `{{longitude}}` | Geçerli boylam |
+| `{{shortAddress}}` | Geçerli adresin kısa biçimi |
+| `{{fullAddress}}` | Tam geçerli adres |
+| `{{googleMapsLink}}` | Geçerli konuma Google Haritalar bağlantısı |
+| `{{appleMapsLink}}` | Geçerli konuma Apple Haritalar bağlantısı |
+| `{{openStreetMapLink}}` | Geçerli konuma OpenStreetMap bağlantısı |
+
+Belirli bir yakalama konumu için Hızlı Yakalama widget'ını yapılandırmak üzere [[#Widget'ları özelleştirme]] bölümündeki adımları kullanın. Ana Ekran widget'ları birden fazla yakalama konumu görüntüleyebilir.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Kısayollar
 
 Obsidian, Apple'ın Kısayollar uygulamasıyla entegre olarak güçlü otomasyonlar oluşturmanıza olanak tanır. Kullanılabilir kısayollar şunlardır:
 
+- **Hızlı Yakalama** — Yapılandırılmış bir yakalama konumu kullanarak Hızlı Yakalama'yı açın
 - **Yer İmini Aç** - Kasanızdan yer imi eklenmiş bir notu açın
 - **Yeni Not Aç** — Kasanızda yeni bir not oluşturun
 - **Günlük Notunu Aç** — Doğrudan günün günlük notuna gidin

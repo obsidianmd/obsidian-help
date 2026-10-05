@@ -21,6 +21,7 @@ Az Obsidian iOS-re több widgetet kínál a széf gyors elérésére.
 ### Zárolási képernyő és Vezérlőközpont widgetek
 
 A zárolási képernyő és a Vezérlőközpont widgetek a következőket teszik lehetővé:
+- Gyors rögzítés megnyitása
 - Új jegyzet létrehozása
 - Egy adott jegyzet megnyitása
 - Napi jegyzet megnyitása
@@ -30,6 +31,7 @@ A zárolási képernyő és a Vezérlőközpont widgetek a következőket teszik
 ### Kezdőképernyő widgetek
 
 A kezdőképernyő widgetek a következőket teszik lehetővé:
+- Gyors rögzítés megnyitása
 - Jegyzet létrehozása
 - Jegyzet megtekintése
 - Napi jegyzet megnyitása
@@ -50,10 +52,75 @@ A widgeteket testreszabhatja a munkafolyamatának megfelelően, például kivál
 
 ![[ios-view-note-configuration.png|400]]
 
+## Gyors rögzítés
+
+A Gyors rögzítés lehetővé teszi szöveg mentését a széfbe a zárolási képernyő, a Vezérlőközpont vagy a kezdőképernyő widgetekről. A kiválasztott rögzítési helytől függően a Gyors rögzítés új jegyzetet hozhat létre, vagy a szöveget egy meglévő jegyzethez adhatja hozzá.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Megjegyzés
+> A Gyors rögzítés iOS és iPadOS 26 vagy újabb verzión érhető el.
+
+Szöveg rögzítéséhez:
+
+1. Adja hozzá a **Gyors rögzítés** widgetet a zárolási képernyőhöz, a Vezérlőközponthoz vagy a kezdőképernyőhöz.
+2. Koppintson a widgetre a Gyors rögzítés megnyitásához.
+3. Írja be a szöveget.
+4. A szöveg mentési helyének módosításához koppintson a képernyő tetején lévő rögzítési helyre, és válasszon egy másik helyet.
+5. Koppintson a pipára a szöveg mentéséhez.
+
+**Megjegyzés**: Ha az Élő tevékenységek engedélyezve vannak, a gyors rögzítés jegyzet a zárolási képernyőn is megjelenik, és a támogatott iPhone modelleknél a Dynamic Islandben is. Koppintson a sávra vagy az Élő tevékenységre a szerkesztés folytatásához.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Rögzítési helyek
+
+A rögzítési helyek határozzák meg, hová menti a Gyors rögzítés a szöveget. Egy rögzítési hely a következőket teheti:
+
+- Új jegyzet létrehozása egy kiválasztott mappában, opcionális sablonnal és egyéni jegyzetnévvel.
+- Szöveg hozzáfűzése vagy beszúrása a napi jegyzetbe.
+- Szöveg hozzáfűzése vagy beszúrása egy könyvjelzőzött jegyzetbe.
+- Szöveg hozzáfűzése vagy beszúrása egy másik kiválasztott jegyzetbe.
+
+Rögzítési hely létrehozásához:
+1. Nyissa meg a Gyors rögzítést.
+2. Koppintson a képernyő tetején lévő rögzítési helyre.
+3. Koppintson a plusz (+) gombra.
+4. Válasszon egy viselkedést, és konfigurálja az opcionális beállításokat.
+5. Koppintson a **Mentés** gombra.
+
+A **Jegyzet megnyitása rögzítés után** opcióval kiválaszthatja, hogy az Obsidian megnyissa-e a célként megadott jegyzetet a rögzítés mentése után.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Gyors rögzítés sablonok
+
+Sablont alkalmazhat a rögzített szöveg formázásához. A Gyors rögzítés sablonok a következő helyőrzőket támogatják:
+
+| Helyőrző | Leírás |
+| --- | --- |
+| `{{content}}` | Rögzített szöveg |
+| `{{date}}` | Aktuális dátum |
+| `{{time}}` | Aktuális idő |
+| `{{latitude}}` | Aktuális szélességi fok |
+| `{{longitude}}` | Aktuális hosszúsági fok |
+| `{{shortAddress}}` | Az aktuális cím rövid formája |
+| `{{fullAddress}}` | Teljes aktuális cím |
+| `{{googleMapsLink}}` | Google Maps hivatkozás az aktuális helyre |
+| `{{appleMapsLink}}` | Apple Maps hivatkozás az aktuális helyre |
+| `{{openStreetMapLink}}` | OpenStreetMap hivatkozás az aktuális helyre |
+
+Ha egy Gyors rögzítés widgetet egy adott rögzítési helyhez szeretne beállítani, kövesse a [[#Widgetek testreszabása]] lépéseit. A kezdőképernyő widgetek több rögzítési helyet is megjeleníthetnek.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Parancsikonok
 
 Az Obsidian integrálódik az Apple Parancsikonok alkalmazásával, lehetővé téve hatékony automatizálások létrehozását. Az elérhető parancsikonok:
 
+- **Gyors rögzítés** — Gyors rögzítés megnyitása egy beállított rögzítési hellyel
 - **Könyvjelző megnyitása** - Könyvjelzőzött jegyzet megnyitása a széfből
 - **Új jegyzet megnyitása** — Új jegyzet létrehozása a széfben
 - **Napi jegyzet megnyitása** — Közvetlen ugrás a mai napi jegyzethez

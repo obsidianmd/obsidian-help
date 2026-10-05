@@ -20,6 +20,7 @@ Obsidian pro iOS nabízí několik widgetů pro rychlé akce s vaším trezorem.
 ### Widgety pro zamykací obrazovku a Ovládací centrum
 
 Widgety pro zamykací obrazovku a Ovládací centrum umožňují:
+- Otevřít Rychlé zachycení
 - Vytvořit novou poznámku
 - Otevřít konkrétní poznámku
 - Otevřít denní poznámku
@@ -29,6 +30,7 @@ Widgety pro zamykací obrazovku a Ovládací centrum umožňují:
 ### Widgety pro domovskou obrazovku
 
 Widgety pro domovskou obrazovku umožňují:
+- Otevřít Rychlé zachycení
 - Vytvořit poznámku
 - Zobrazit poznámku
 - Otevřít denní poznámku
@@ -49,10 +51,75 @@ Možnosti konfigurace widgetu **Zobrazit poznámku**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Rychlé zachycení
+
+Rychlé zachycení umožňuje uložit text do vašeho trezoru ze zamykací obrazovky, Ovládacího centra nebo widgetů na domovské obrazovce. V závislosti na vybraném umístění zachycení může Rychlé zachycení vytvořit novou poznámku nebo přidat text do existující poznámky.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Poznámka
+> Rychlé zachycení je dostupné na iOS a iPadOS 26 a vyšším.
+
+Zachycení textu:
+
+1. Přidejte widget **Rychlé zachycení** na zamykací obrazovku, do Ovládacího centra nebo na domovskou obrazovku.
+2. Klepněte na widget pro otevření Rychlého zachycení.
+3. Zadejte text.
+4. Pro změnu místa uložení textu klepněte na umístění zachycení v horní části obrazovky a vyberte jiné umístění.
+5. Klepněte na zaškrtávací značku pro uložení textu.
+
+**Poznámka**: Pokud jsou povoleny Live Activities, poznámka rychlého zachycení se zobrazí také na zamykací obrazovce a na podporovaných modelech iPhone v Dynamic Island. Klepněte na pruh nebo Live Activity pro pokračování v úpravách.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Umístění zachycení
+
+Umístění zachycení určují, kam Rychlé zachycení uloží váš text. Umístění zachycení může:
+
+- Vytvořit novou poznámku ve vybrané složce s volitelnou šablonou a vlastním názvem poznámky.
+- Připojit nebo vložit text na začátek vaší denní poznámky.
+- Připojit nebo vložit text na začátek poznámky v záložkách.
+- Připojit nebo vložit text na začátek jiné poznámky, kterou vyberete.
+
+Vytvoření umístění zachycení:
+1. Otevřete Rychlé zachycení.
+2. Klepněte na umístění zachycení v horní části obrazovky.
+3. Klepněte na tlačítko plus (+).
+4. Vyberte chování a nakonfigurujte volitelná nastavení.
+5. Klepněte na **Uložit**.
+
+Můžete také použít **Otevřít poznámku po zachycení** pro zvolení, zda Obsidian otevře cílovou poznámku po uložení zachycení.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Šablony Rychlého zachycení
+
+Pro formátování zachyceného textu můžete použít šablonu. Šablony Rychlého zachycení podporují následující zástupné symboly:
+
+| Zástupný symbol | Popis |
+| --- | --- |
+| `{{content}}` | Zachycený text |
+| `{{date}}` | Aktuální datum |
+| `{{time}}` | Aktuální čas |
+| `{{latitude}}` | Aktuální zeměpisná šířka |
+| `{{longitude}}` | Aktuální zeměpisná délka |
+| `{{shortAddress}}` | Zkrácená forma aktuální adresy |
+| `{{fullAddress}}` | Úplná aktuální adresa |
+| `{{googleMapsLink}}` | Odkaz na Google Maps s aktuální polohou |
+| `{{appleMapsLink}}` | Odkaz na Apple Maps s aktuální polohou |
+| `{{openStreetMapLink}}` | Odkaz na OpenStreetMap s aktuální polohou |
+
+Pro konfiguraci widgetu Rychlého zachycení pro konkrétní umístění zachycení použijte kroky v [[#Přizpůsobení widgetů]]. Widgety na domovské obrazovce mohou zobrazovat více umístění zachycení.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Zkratky
 
 Obsidian se integruje s aplikací Zkratky od Apple, což umožňuje vytvářet výkonné automatizace. Dostupné zkratky zahrnují:
 
+- **Rychlé zachycení** — Otevře Rychlé zachycení s nakonfigurovaným umístěním zachycení
 - **Otevřít záložku** — Otevře poznámku ze záložek ve vašem trezoru
 - **Otevřít novou poznámku** — Vytvoří novou poznámku ve vašem trezoru
 - **Otevřít denní poznámku** — Přejde přímo na dnešní denní poznámku

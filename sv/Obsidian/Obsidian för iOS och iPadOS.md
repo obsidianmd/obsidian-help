@@ -21,6 +21,7 @@ Obsidian för iOS erbjuder flera widgetar för att utföra snabba åtgärder i d
 ### Widgetar för låsskärm och Kontrollcenter
 
 Widgetar för låsskärm och Kontrollcenter låter dig:
+- Öppna Snabbfångst
 - Skapa en ny anteckning
 - Öppna en specifik anteckning
 - Öppna daglig anteckning
@@ -30,6 +31,7 @@ Widgetar för låsskärm och Kontrollcenter låter dig:
 ### Widgetar för hemskärm
 
 Widgetar för hemskärm låter dig:
+- Öppna Snabbfångst
 - Skapa en anteckning
 - Visa en anteckning
 - Öppna din dagliga anteckning
@@ -50,10 +52,75 @@ Konfigurationsalternativ för widgeten **Visa anteckning**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Snabbfångst
+
+Snabbfångst låter dig spara text till ditt valv från låsskärmen, Kontrollcenter eller hemskärmswidgetar. Beroende på vilken fångstplats du väljer kan Snabbfångst skapa en ny anteckning eller lägga till texten i en befintlig anteckning.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Observera
+> Snabbfångst är tillgängligt på iOS och iPadOS 26 och högre.
+
+Så här fångar du text:
+
+1. Lägg till **Snabbfångst**-widgeten på din låsskärm, i Kontrollcenter eller på hemskärmen.
+2. Tryck på widgeten för att öppna Snabbfångst.
+3. Skriv in din text.
+4. För att ändra var texten sparas, tryck på fångstplatsen överst på skärmen och välj en annan plats.
+5. Tryck på bockmarkeringen för att spara texten.
+
+**Observera**: Om Live Activities är aktiverat visas snabbfångstanteckningen även på låsskärmen och, på iPhone-modeller som stöds, i Dynamic Island. Tryck på fältet eller Live Activity för att fortsätta redigera.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Fångstplatser
+
+Fångstplatser bestämmer var Snabbfångst sparar din text. En fångstplats kan:
+
+- Skapa en ny anteckning i en vald mapp, med en valfri mall och anpassat anteckningsnamn.
+- Lägga till texten i slutet eller början av din dagliga anteckning.
+- Lägga till texten i slutet eller början av en bokmärkt anteckning.
+- Lägga till texten i slutet eller början av en annan anteckning du väljer.
+
+Så här skapar du en fångstplats:
+1. Öppna Snabbfångst.
+2. Tryck på fångstplatsen överst på skärmen.
+3. Tryck på plus (+)-knappen.
+4. Välj ett beteende och konfigurera eventuella valfria inställningar.
+5. Tryck på **Spara**.
+
+Du kan även använda **Öppna anteckning efter fångst** för att välja om Obsidian ska öppna målanteckningen efter att fångsten sparats.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Mallar för Snabbfångst
+
+Du kan använda en mall för att formatera den fångade texten. Mallar för Snabbfångst stöder följande platshållare:
+
+| Platshållare | Beskrivning |
+| --- | --- |
+| `{{content}}` | Fångad text |
+| `{{date}}` | Aktuellt datum |
+| `{{time}}` | Aktuell tid |
+| `{{latitude}}` | Aktuell latitud |
+| `{{longitude}}` | Aktuell longitud |
+| `{{shortAddress}}` | Kort form av aktuell adress |
+| `{{fullAddress}}` | Fullständig aktuell adress |
+| `{{googleMapsLink}}` | Google Maps-länk till aktuell plats |
+| `{{appleMapsLink}}` | Apple Maps-länk till aktuell plats |
+| `{{openStreetMapLink}}` | OpenStreetMap-länk till aktuell plats |
+
+För att konfigurera en Snabbfångst-widget för en specifik fångstplats, använd stegen i [[#Anpassa widgetar]]. Hemskärmswidgetar kan visa flera fångstplatser.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Genvägar
 
 Obsidian integrerar med Apples Genvägar-app, vilket låter dig skapa kraftfulla automatiseringar. Tillgängliga genvägar inkluderar:
 
+- **Snabbfångst** — Öppna Snabbfångst med en konfigurerad fångstplats
 - **Öppna bokmärke** — Öppna en bokmärkt anteckning från ditt valv
 - **Öppna ny anteckning** — Skapa en ny anteckning i ditt valv
 - **Öppna daglig anteckning** — Gå direkt till dagens dagliga anteckning

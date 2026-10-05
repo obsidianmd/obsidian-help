@@ -23,6 +23,7 @@ O Obsidian para iOS oferece vários widgets para realizar ações rápidas no se
 ### Widgets do ecrã de bloqueio e do Centro de Controlo
 
 Os widgets do ecrã de bloqueio e do Centro de Controlo permitem-lhe:
+- Abrir Captura Rápida
 - Criar uma nova nota
 - Abrir uma nota específica
 - Abrir nota diária
@@ -32,6 +33,7 @@ Os widgets do ecrã de bloqueio e do Centro de Controlo permitem-lhe:
 ### Widgets do ecrã principal
 
 Os widgets do ecrã principal permitem-lhe:
+- Abrir Captura Rápida
 - Criar uma nota
 - Visualizar uma nota
 - Abrir a sua nota diária
@@ -52,10 +54,75 @@ Opções de configuração do widget **Ver Nota**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Captura Rápida
+
+A Captura Rápida permite-lhe guardar texto no seu cofre a partir dos widgets do ecrã de bloqueio, Centro de Controlo ou ecrã principal. Dependendo da localização de captura que selecionar, a Captura Rápida pode criar uma nova nota ou adicionar o texto a uma nota existente.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Nota
+> A Captura Rápida está disponível no iOS e iPadOS 26 e superior.
+
+Para capturar texto:
+
+1. Adicione o widget **Captura Rápida** ao seu ecrã de bloqueio, Centro de Controlo ou ecrã principal.
+2. Toque no widget para abrir a Captura Rápida.
+3. Introduza o seu texto.
+4. Para alterar onde o texto será guardado, toque na localização de captura no topo do ecrã e selecione outra localização.
+5. Toque na marca de verificação para guardar o texto.
+
+**Nota**: Se as Atividades em Direto estiverem ativadas, a nota de captura rápida também aparece no ecrã de bloqueio e, em modelos de iPhone compatíveis, na Dynamic Island. Toque na barra ou na Atividade em Direto para continuar a editar.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Localizações de captura
+
+As localizações de captura determinam onde a Captura Rápida guarda o seu texto. Uma localização de captura pode:
+
+- Criar uma nova nota numa pasta selecionada, com um modelo opcional e nome de nota personalizado.
+- Anexar ou preceder o texto à sua nota diária.
+- Anexar ou preceder o texto a uma nota marcada.
+- Anexar ou preceder o texto a outra nota que selecionar.
+
+Para criar uma localização de captura:
+1. Abra a Captura Rápida.
+2. Toque na localização de captura no topo do ecrã.
+3. Toque no botão mais (+).
+4. Selecione um comportamento e configure quaisquer definições opcionais.
+5. Toque em **Guardar**.
+
+Também pode usar **Abrir Nota após Captura** para escolher se o Obsidian abre a nota de destino após guardar a captura.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Modelos da Captura Rápida
+
+Pode aplicar um modelo para formatar o texto capturado. Os modelos da Captura Rápida suportam os seguintes marcadores de posição:
+
+| Marcador de posição | Descrição |
+| --- | --- |
+| `{{content}}` | Texto capturado |
+| `{{date}}` | Data atual |
+| `{{time}}` | Hora atual |
+| `{{latitude}}` | Latitude atual |
+| `{{longitude}}` | Longitude atual |
+| `{{shortAddress}}` | Forma abreviada do endereço atual |
+| `{{fullAddress}}` | Endereço atual completo |
+| `{{googleMapsLink}}` | Ligação do Google Maps para a localização atual |
+| `{{appleMapsLink}}` | Ligação do Apple Maps para a localização atual |
+| `{{openStreetMapLink}}` | Ligação do OpenStreetMap para a localização atual |
+
+Para configurar um widget de Captura Rápida para uma localização de captura específica, use os passos em [[#Personalizar widgets]]. Os widgets do ecrã principal podem apresentar múltiplas localizações de captura.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Atalhos
 
 O Obsidian integra-se com a aplicação Atalhos da Apple, permitindo-lhe criar automações poderosas. Os atalhos disponíveis incluem:
 
+- **Captura Rápida** — Abrir a Captura Rápida usando uma localização de captura configurada
 - **Abrir Marcador** - Abrir uma nota marcada do seu cofre
 - **Abrir Nova Nota** — Criar uma nova nota no seu cofre
 - **Abrir Nota Diária** — Ir diretamente para a nota diária de hoje

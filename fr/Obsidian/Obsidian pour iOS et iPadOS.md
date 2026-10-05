@@ -21,6 +21,7 @@ Obsidian pour iOS propose plusieurs widgets pour effectuer des actions rapides s
 ### Widgets de l'écran de verrouillage et du Centre de contrôle
 
 Les widgets de l'écran de verrouillage et du Centre de contrôle vous permettent de :
+- Ouvrir la capture rapide
 - Créer une nouvelle note
 - Ouvrir une note spécifique
 - Ouvrir la note quotidienne
@@ -30,6 +31,7 @@ Les widgets de l'écran de verrouillage et du Centre de contrôle vous permetten
 ### Widgets de l'écran d'accueil
 
 Les widgets de l'écran d'accueil vous permettent de :
+- Ouvrir la capture rapide
 - Créer une note
 - Afficher une note
 - Ouvrir votre note quotidienne
@@ -50,10 +52,75 @@ Options de configuration du widget **Afficher la note** :
 
 ![[ios-view-note-configuration.png|400]]
 
+## Capture rapide
+
+La capture rapide vous permet d'enregistrer du texte dans votre coffre depuis l'écran de verrouillage, le Centre de contrôle ou les widgets de l'écran d'accueil. Selon l'emplacement de capture sélectionné, la capture rapide peut créer une nouvelle note ou ajouter le texte à une note existante.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Note
+> La capture rapide est disponible sur iOS et iPadOS 26 et versions ultérieures.
+
+Pour capturer du texte :
+
+1. Ajoutez le widget **Capture rapide** à votre écran de verrouillage, Centre de contrôle ou écran d'accueil.
+2. Touchez le widget pour ouvrir la capture rapide.
+3. Saisissez votre texte.
+4. Pour modifier l'endroit où le texte sera enregistré, touchez l'emplacement de capture en haut de l'écran et sélectionnez un autre emplacement.
+5. Touchez la coche pour enregistrer le texte.
+
+**Note** : Si les activités en direct sont activées, la note de capture rapide apparaît également sur l'écran de verrouillage et, sur les modèles d'iPhone compatibles, dans la Dynamic Island. Touchez la barre ou l'activité en direct pour continuer la modification.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Emplacements de capture
+
+Les emplacements de capture déterminent où la capture rapide enregistre votre texte. Un emplacement de capture peut :
+
+- Créer une nouvelle note dans un dossier sélectionné, avec un modèle optionnel et un nom de note personnalisé.
+- Ajouter le texte au début ou à la fin de votre note quotidienne.
+- Ajouter le texte au début ou à la fin d'une note marquée comme signet.
+- Ajouter le texte au début ou à la fin d'une autre note que vous sélectionnez.
+
+Pour créer un emplacement de capture :
+1. Ouvrez la capture rapide.
+2. Touchez l'emplacement de capture en haut de l'écran.
+3. Touchez le bouton plus (+).
+4. Sélectionnez un comportement et configurez les paramètres optionnels.
+5. Touchez **Enregistrer**.
+
+Vous pouvez également utiliser **Ouvrir la note après la capture** pour choisir si Obsidian ouvre la note de destination après l'enregistrement de la capture.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Modèles de capture rapide
+
+Vous pouvez appliquer un modèle pour formater le texte capturé. Les modèles de capture rapide prennent en charge les variables suivantes :
+
+| Variable | Description |
+| --- | --- |
+| `{{content}}` | Texte capturé |
+| `{{date}}` | Date actuelle |
+| `{{time}}` | Heure actuelle |
+| `{{latitude}}` | Latitude actuelle |
+| `{{longitude}}` | Longitude actuelle |
+| `{{shortAddress}}` | Forme abrégée de l'adresse actuelle |
+| `{{fullAddress}}` | Adresse actuelle complète |
+| `{{googleMapsLink}}` | Lien Google Maps vers l'emplacement actuel |
+| `{{appleMapsLink}}` | Lien Apple Maps vers l'emplacement actuel |
+| `{{openStreetMapLink}}` | Lien OpenStreetMap vers l'emplacement actuel |
+
+Pour configurer un widget de capture rapide pour un emplacement de capture spécifique, utilisez les étapes décrites dans [[#Personnaliser les widgets]]. Les widgets de l'écran d'accueil peuvent afficher plusieurs emplacements de capture.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Raccourcis
 
 Obsidian s'intègre avec l'application Raccourcis d'Apple, vous permettant de créer de puissantes automatisations. Les raccourcis disponibles incluent :
 
+- **Capture rapide** — Ouvrir la capture rapide en utilisant un emplacement de capture configuré
 - **Ouvrir un signet** - Ouvrir une note marquée comme signet depuis votre coffre
 - **Ouvrir une nouvelle note** — Créer une nouvelle note dans votre coffre
 - **Ouvrir la note quotidienne** — Accéder directement à la note quotidienne du jour

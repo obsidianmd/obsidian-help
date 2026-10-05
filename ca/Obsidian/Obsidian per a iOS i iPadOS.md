@@ -21,6 +21,7 @@ Obsidian per a iOS ofereix diversos widgets per fer accions ràpides a la teva c
 ### Widgets de la pantalla de bloqueig i del Centre de control
 
 Els widgets de la pantalla de bloqueig i del Centre de control et permeten:
+- Obrir Captura ràpida
 - Crear una nota nova
 - Obrir una nota específica
 - Obrir la nota diària
@@ -30,6 +31,7 @@ Els widgets de la pantalla de bloqueig i del Centre de control et permeten:
 ### Widgets de la pantalla d'inici
 
 Els widgets de la pantalla d'inici et permeten:
+- Obrir Captura ràpida
 - Crear una nota
 - Veure una nota
 - Obrir la teva nota diària
@@ -50,10 +52,75 @@ Opcions de configuració del widget **Veure nota**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Captura ràpida
+
+La Captura ràpida et permet desar text a la teva cambra forta des dels widgets de la pantalla de bloqueig, el Centre de control o la pantalla d'inici. Depenent de la ubicació de captura que seleccionis, la Captura ràpida pot crear una nota nova o afegir el text a una nota existent.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Nota
+> La Captura ràpida està disponible a iOS i iPadOS 26 i versions posteriors.
+
+Per capturar text:
+
+1. Afegeix el widget **Captura ràpida** a la teva pantalla de bloqueig, Centre de control o pantalla d'inici.
+2. Toca el widget per obrir la Captura ràpida.
+3. Introdueix el teu text.
+4. Per canviar on es desarà el text, toca la ubicació de captura a la part superior de la pantalla i selecciona una altra ubicació.
+5. Toca la marca de verificació per desar el text.
+
+**Nota**: Si les Activitats en directe estan activades, la nota de captura ràpida també apareix a la pantalla de bloqueig i, en models d'iPhone compatibles, a l'Illa Dinàmica. Toca la barra o l'Activitat en directe per continuar editant.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Ubicacions de captura
+
+Les ubicacions de captura determinen on la Captura ràpida desa el teu text. Una ubicació de captura pot:
+
+- Crear una nota nova en una carpeta seleccionada, amb una plantilla opcional i un nom de nota personalitzat.
+- Afegir o anteposar el text a la teva nota diària.
+- Afegir o anteposar el text a una nota marcada.
+- Afegir o anteposar el text a una altra nota que seleccionis.
+
+Per crear una ubicació de captura:
+1. Obre la Captura ràpida.
+2. Toca la ubicació de captura a la part superior de la pantalla.
+3. Toca el botó més (+).
+4. Selecciona un comportament i configura les opcions opcionals.
+5. Toca **Desa**.
+
+També pots utilitzar **Obrir nota després de la captura** per escollir si Obsidian obre la nota de destinació després de desar la captura.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Plantilles de Captura ràpida
+
+Pots aplicar una plantilla per formatar el text capturat. Les plantilles de Captura ràpida admeten els marcadors de posició següents:
+
+| Marcador de posició | Descripció |
+| --- | --- |
+| `{{content}}` | Text capturat |
+| `{{date}}` | Data actual |
+| `{{time}}` | Hora actual |
+| `{{latitude}}` | Latitud actual |
+| `{{longitude}}` | Longitud actual |
+| `{{shortAddress}}` | Format curt de l'adreça actual |
+| `{{fullAddress}}` | Adreça actual completa |
+| `{{googleMapsLink}}` | Enllaç de Google Maps a la ubicació actual |
+| `{{appleMapsLink}}` | Enllaç d'Apple Maps a la ubicació actual |
+| `{{openStreetMapLink}}` | Enllaç d'OpenStreetMap a la ubicació actual |
+
+Per configurar un widget de Captura ràpida per a una ubicació de captura específica, utilitza els passos a [[#Personalitzar widgets]]. Els widgets de la pantalla d'inici poden mostrar múltiples ubicacions de captura.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Dreceres
 
 Obsidian s'integra amb l'aplicació Dreceres d'Apple, permetent-te crear automatitzacions potents. Les dreceres disponibles inclouen:
 
+- **Captura ràpida** — Obre la Captura ràpida utilitzant una ubicació de captura configurada
 - **Obrir marcador** - Obre una nota marcada de la teva cambra forta
 - **Obrir nota nova** — Crea una nota nova a la teva cambra forta
 - **Obrir la nota diària** — Salta directament a la nota diària d'avui

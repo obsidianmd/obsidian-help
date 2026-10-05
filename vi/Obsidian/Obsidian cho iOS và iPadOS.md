@@ -21,6 +21,7 @@ Obsidian cho iOS cung cấp một số widget để thực hiện nhanh các tha
 ### Widget Màn hình khóa và Trung tâm điều khiển
 
 Widget Màn hình khóa và Trung tâm điều khiển cho phép bạn:
+- Mở Ghi nhanh
 - Tạo ghi chú mới
 - Mở một ghi chú cụ thể
 - Mở ghi chú hằng ngày
@@ -30,6 +31,7 @@ Widget Màn hình khóa và Trung tâm điều khiển cho phép bạn:
 ### Widget Màn hình chính
 
 Widget Màn hình chính cho phép bạn:
+- Mở Ghi nhanh
 - Tạo ghi chú
 - Xem ghi chú
 - Mở ghi chú hằng ngày
@@ -50,10 +52,75 @@ Tùy chọn cấu hình widget **Xem ghi chú**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Ghi nhanh
+
+Ghi nhanh cho phép bạn lưu văn bản vào kho từ widget Màn hình khóa, Trung tâm điều khiển hoặc Màn hình chính. Tùy thuộc vào vị trí ghi nhanh bạn chọn, Ghi nhanh có thể tạo ghi chú mới hoặc thêm văn bản vào ghi chú hiện có.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Ghi chú
+> Ghi nhanh có sẵn trên iOS và iPadOS 26 trở lên.
+
+Để ghi nhanh văn bản:
+
+1. Thêm widget **Ghi nhanh** vào Màn hình khóa, Trung tâm điều khiển hoặc Màn hình chính.
+2. Nhấn vào widget để mở Ghi nhanh.
+3. Nhập văn bản của bạn.
+4. Để thay đổi nơi văn bản sẽ được lưu, nhấn vào vị trí ghi nhanh ở đầu màn hình và chọn vị trí khác.
+5. Nhấn dấu kiểm để lưu văn bản.
+
+**Lưu ý**: Nếu Live Activities được bật, ghi chú ghi nhanh cũng xuất hiện trên Màn hình khóa và trên các mẫu iPhone được hỗ trợ, trong Dynamic Island. Nhấn vào thanh hoặc Live Activity để tiếp tục chỉnh sửa.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Vị trí ghi nhanh
+
+Vị trí ghi nhanh xác định nơi Ghi nhanh lưu văn bản của bạn. Một vị trí ghi nhanh có thể:
+
+- Tạo ghi chú mới trong thư mục đã chọn, với mẫu tùy chọn và tên ghi chú tùy chỉnh.
+- Thêm văn bản vào cuối hoặc đầu ghi chú hằng ngày của bạn.
+- Thêm văn bản vào cuối hoặc đầu ghi chú đã đánh dấu trang.
+- Thêm văn bản vào cuối hoặc đầu ghi chú khác mà bạn chọn.
+
+Để tạo vị trí ghi nhanh:
+1. Mở Ghi nhanh.
+2. Nhấn vào vị trí ghi nhanh ở đầu màn hình.
+3. Nhấn nút dấu cộng (+).
+4. Chọn một hành vi và cấu hình các cài đặt tùy chọn.
+5. Nhấn **Lưu**.
+
+Bạn cũng có thể sử dụng **Mở Ghi chú sau khi Ghi nhanh** để chọn liệu Obsidian có mở ghi chú đích sau khi lưu ghi nhanh hay không.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Mẫu Ghi nhanh
+
+Bạn có thể áp dụng mẫu để định dạng văn bản đã ghi nhanh. Mẫu Ghi nhanh hỗ trợ các placeholder sau:
+
+| Placeholder | Mô tả |
+| --- | --- |
+| `{{content}}` | Văn bản đã ghi nhanh |
+| `{{date}}` | Ngày hiện tại |
+| `{{time}}` | Thời gian hiện tại |
+| `{{latitude}}` | Vĩ độ hiện tại |
+| `{{longitude}}` | Kinh độ hiện tại |
+| `{{shortAddress}}` | Dạng ngắn của địa chỉ hiện tại |
+| `{{fullAddress}}` | Địa chỉ đầy đủ hiện tại |
+| `{{googleMapsLink}}` | Liên kết Google Maps đến vị trí hiện tại |
+| `{{appleMapsLink}}` | Liên kết Apple Maps đến vị trí hiện tại |
+| `{{openStreetMapLink}}` | Liên kết OpenStreetMap đến vị trí hiện tại |
+
+Để cấu hình widget Ghi nhanh cho một vị trí ghi nhanh cụ thể, sử dụng các bước trong [[#Tùy chỉnh widget]]. Widget Màn hình chính có thể hiển thị nhiều vị trí ghi nhanh.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Phím tắt
 
 Obsidian tích hợp với ứng dụng Shortcuts của Apple, cho phép bạn tạo các tự động hóa mạnh mẽ. Các phím tắt có sẵn bao gồm:
 
+- **Ghi nhanh** — Mở Ghi nhanh sử dụng vị trí ghi nhanh đã cấu hình
 - **Mở Dấu trang** - Mở ghi chú đã đánh dấu trang từ kho của bạn
 - **Mở Ghi chú mới** — Tạo ghi chú mới trong kho của bạn
 - **Mở Ghi chú hằng ngày** — Chuyển trực tiếp đến ghi chú hằng ngày hôm nay

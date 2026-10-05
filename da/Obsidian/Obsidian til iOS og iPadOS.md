@@ -23,6 +23,7 @@ Obsidian til iOS tilbyder flere widgets til hurtige handlinger i din boks.
 ### Låseskærm og Kontrolcenter widgets
 
 Låseskærm og Kontrolcenter widgets giver dig mulighed for at:
+- Åbne Hurtig indfangning
 - Oprette en ny note
 - Åbne en bestemt note
 - Åbne daglig note
@@ -32,6 +33,7 @@ Låseskærm og Kontrolcenter widgets giver dig mulighed for at:
 ### Hjemmeskærm widgets
 
 Hjemmeskærm widgets giver dig mulighed for at:
+- Åbne Hurtig indfangning
 - Oprette en note
 - Se en note
 - Åbne din daglige note
@@ -52,10 +54,75 @@ Du kan tilpasse widgets til din arbejdsgang, f.eks. vælge hvilken boks der skal
 
 ![[ios-view-note-configuration.png|400]]
 
+## Hurtig indfangning
+
+Hurtig indfangning lader dig gemme tekst i din boks fra låseskærmen, Kontrolcenter eller hjemmeskærm-widgets. Afhængigt af den indfangningsplacering du vælger, kan Hurtig indfangning oprette en ny note eller tilføje teksten til en eksisterende note.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Note
+> Hurtig indfangning er tilgængelig på iOS og iPadOS 26 og nyere.
+
+Sådan indfanger du tekst:
+
+1. Tilføj **Hurtig indfangning**-widgetten til din låseskærm, Kontrolcenter eller hjemmeskærm.
+2. Tryk på widgetten for at åbne Hurtig indfangning.
+3. Indtast din tekst.
+4. For at ændre hvor teksten gemmes, skal du trykke på indfangningsplaceringen øverst på skærmen og vælge en anden placering.
+5. Tryk på fluebenet for at gemme teksten.
+
+**Bemærk**: Hvis Live-aktiviteter er aktiveret, vises hurtig indfangning-noten også på låseskærmen og på understøttede iPhone-modeller i Dynamic Island. Tryk på bjælken eller Live-aktiviteten for at fortsætte redigering.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Indfangningsplaceringer
+
+Indfangningsplaceringer bestemmer, hvor Hurtig indfangning gemmer din tekst. En indfangningsplacering kan:
+
+- Oprette en ny note i en valgt mappe med en valgfri skabelon og brugerdefineret notenavn.
+- Tilføje teksten til begyndelsen eller slutningen af din daglige note.
+- Tilføje teksten til begyndelsen eller slutningen af en bogmærket note.
+- Tilføje teksten til begyndelsen eller slutningen af en anden note, du vælger.
+
+Sådan opretter du en indfangningsplacering:
+1. Åbn Hurtig indfangning.
+2. Tryk på indfangningsplaceringen øverst på skærmen.
+3. Tryk på plus (+)-knappen.
+4. Vælg en adfærd og konfigurer eventuelle valgfrie indstillinger.
+5. Tryk på **Gem**.
+
+Du kan også bruge **Åbn note efter indfangning** til at vælge, om Obsidian åbner destinationsnoten efter gemning af indfangningen.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Hurtig indfangning-skabeloner
+
+Du kan anvende en skabelon til at formatere den indfangede tekst. Hurtig indfangning-skabeloner understøtter følgende pladsholdere:
+
+| Pladsholder | Beskrivelse |
+| --- | --- |
+| `{{content}}` | Indfanget tekst |
+| `{{date}}` | Aktuel dato |
+| `{{time}}` | Aktuelt tidspunkt |
+| `{{latitude}}` | Aktuel breddegrad |
+| `{{longitude}}` | Aktuel længdegrad |
+| `{{shortAddress}}` | Kort form af den aktuelle adresse |
+| `{{fullAddress}}` | Fuld aktuel adresse |
+| `{{googleMapsLink}}` | Google Maps-link til den aktuelle placering |
+| `{{appleMapsLink}}` | Apple Maps-link til den aktuelle placering |
+| `{{openStreetMapLink}}` | OpenStreetMap-link til den aktuelle placering |
+
+For at konfigurere en Hurtig indfangning-widget til en bestemt indfangningsplacering, brug trinene i [[#Tilpasning af widgets]]. Hjemmeskærm-widgets kan vise flere indfangningsplaceringer.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Genveje
 
 Obsidian integrerer med Apples Genveje-app, så du kan oprette kraftfulde automatiseringer. Tilgængelige genveje inkluderer:
 
+- **Hurtig indfangning** — Åbn Hurtig indfangning med en konfigureret indfangningsplacering
 - **Åbn bogmærke** - Åbn en bogmærket note fra din boks
 - **Åbn ny note** — Opret en ny note i din boks
 - **Åbn daglig note** — Spring direkte til dagens daglige note
