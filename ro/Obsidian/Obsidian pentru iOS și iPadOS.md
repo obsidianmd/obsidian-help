@@ -56,12 +56,12 @@ Opțiuni de configurare pentru widget-ul **Vizualizează notă**:
 
 ## Captare rapidă
 
-Captarea rapidă îți permite să salvezi text în seiful tău de pe ecranul de blocare, Centrul de control sau widget-urile de pe ecranul de start. În funcție de locația de captare selectată, Captarea rapidă poate crea o notă nouă sau adăuga textul la o notă existentă.
+Captarea rapidă îți permite să salvezi text în seiful tău de pe ecranul de blocare, Centrul de control, widget-urile de pe ecranul de start sau Scurtături, fără a aștepta încărcarea seifului. În funcție de locația de captare selectată, Captarea rapidă poate crea o notă nouă sau adăuga textul la o notă existentă.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Notă
-> Captarea rapidă este disponibilă pe iOS și iPadOS 26 și versiuni mai noi.
+> Captarea rapidă necesită Obsidian 1.14 sau o versiune mai nouă și iOS sau iPadOS 26 sau o versiune mai nouă.
 
 Pentru a capta text:
 

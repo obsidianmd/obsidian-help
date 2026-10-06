@@ -55,8 +55,6 @@ Du kan oprette et link i redigeringstilstand på en af følgende måder:
 - Vælge noget tekst i editoren og derefter skrive `[[`
 - Åbne [[Kommandopaletten|kommandopaletten]] og derefter søge og vælge **Tilføj internt link**
 
-![[Hurtigskifter#^search-autocomplete-large]]
-
 Du kan linke til alle [[Accepterede filformater|accepterede filformater]]; dog skal alle links til andre filformater end Markdown filer (altså Obsidian noter) have inkluderet filtypenavnet, fx. `[[Figur 1.png]]`.
 
 > [!tip] Hvis du præfikser et internt link med et udråbstegn (!) så indlejrer du det linkede indhold. Se siden "[[Indlejr filer]]" for flere detaljer.
@@ -154,26 +152,22 @@ Bu kan du linke til blokken ved at skrive `[[2025-01-01#^dagens-citat]]`.
 
 ## Skift visningstekst for et link
 
-Du kan ændre teksten, som benyttes til at vise linket. Det er brugbart, når du vil indsætte et link i en sætning uden at anvende navnet på destinationsfilen.
-
 Obsidian viser link teksten som den ser ud som standard. F.ex.
 - `[[Interne links]]` vises som [[Interne links]]  
 - `[[Interne links#Skift visningstekst for et link]]` vises som [[Interne links#Skift visningstekst for et link]]
 
 Du kan ændre hvordan et links skal se ud på følgende måde:
 
-**Wikilink format:**
-
+**Wikilink format:**  
 Skriv en lodret streg  (`|`) for at ændre teksten, der anvendes til at vise et link.
 
-Fx.  vil `[[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]` vises som [[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]].
+- `[[Interne links|brugerdefineret linktekst]]` vises som [[Interne links|brugerdefineret linktekst]]  
+- `[[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]` vises som [[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]
 
-
-**Markdown format:**
-
+**Markdown format:**  
 Benyt `[Vis link tekst](Link URL)` for at skifte visningstekst.
 
-- `[brugerdefineret linktekst](Interne%20links)` vises som [brugerdefineret linktekst](Interne%20links)
+- `[brugerdefineret linktekst](Interne%20links)` vises som [brugerdefineret linktekst](Interne%20links)  
 - `[brugerdefineret linktekst](Interne%20links#Skift visningstekst for et link)` vises som [brugerdefineret linktekst](Interne%20links#Skift%20visningstekst%20for%20et%20link)
 
 Denne metode er brugbar i situationer, hvor du ønsker at ændre  hvordan et link ser ud i en bestemt kontekst. Hvis du ønsker at genrbuge et alternativt navn på et link i hele din boks, så kan du anvende [[Aliaser|aliaser]] i stedet.

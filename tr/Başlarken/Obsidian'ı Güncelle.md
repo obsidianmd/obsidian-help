@@ -11,7 +11,7 @@ Mobil cihazlarda Obsidian, cihazın uygulama mağazası aracılığıyla güncel
 
 **[[Ayarlar]] → Genel** bölümünü açın.
 
-Sayfanın üst kısmında uygulamanın ve yükleyicinin mevcut sürümlerini bulabilirsiniz.
+Sayfanın üst kısmında uygulamanın ve yükleyicinin mevcut sürümlerini bulabilirsiniz. Daha yeni bir yükleyici mevcut olduğunda, Obsidian bir indirme bağlantısı içeren bir bildirim görüntüler. Yüklemek için [[#Yükleyici güncellemeleri|yükleyici güncelleme talimatlarını]] izleyin.
 
 ![[application-installer-current-version.png#interface]]
 

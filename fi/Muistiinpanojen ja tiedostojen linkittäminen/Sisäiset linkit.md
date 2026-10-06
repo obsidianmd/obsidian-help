@@ -50,8 +50,6 @@ Luodaksesi linkin muokkausnäkymässä voit käyttää jompaakumpaa seuraavista 
 - Valitse tekstiä muokkaimessa ja kirjoita sitten `[[`.
 - Avaa [[Komentovalikko]] ja valitse sitten Lisää sisäinen linkki.
 
-![[Pikavaihdin#^search-autocomplete-large]]
-
 Vaikka voit linkittää mihin tahansa [[Hyväksytyt tiedostomuodot|hyväksyttyyn tiedostomuotoon]], muihin kuin Markdown-tiedostoihin linkittäminen vaatii tiedostopäätteen, kuten `[[Kuva 1.png]]`.
 
 > [!tip] Sisäisen linkin eteen lisätty huutomerkki (!) mahdollistaa linkitetyn sisällön upottamisen. Lisätietoja löydät kohdasta [[Upota tiedostoja]].

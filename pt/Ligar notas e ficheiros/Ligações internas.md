@@ -50,8 +50,6 @@ Para criar uma ligação enquanto está na vista de edição, utilize uma das se
 - Selecione texto no editor e depois escreva `[[`.
 - Abra a [[Paleta de comando]] e depois selecione Adicionar link interno.
 
-![[Navegação rápida#^search-autocomplete-large]]
-
 Embora possa criar ligações para qualquer um dos [[Formatos de ficheiro aceites]], as ligações para formatos de ficheiro que não sejam Markdown precisam de incluir a extensão do ficheiro, como `[[Figura 1.png]]`.
 
 > [!tip] Prefixar uma ligação interna com um ponto de exclamação (!) permite-lhe incorporar o conteúdo ligado. Para mais detalhes, consulte [[Incorporar ficheiros]].

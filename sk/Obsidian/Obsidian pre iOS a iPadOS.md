@@ -53,12 +53,12 @@ Možnosti konfigurácie widgetu **Zobraziť poznámku**:
 
 ## Rýchle zachytávanie
 
-Rýchle zachytávanie vám umožňuje uložiť text do vášho trezoru z widgetov na zamykacej obrazovke, v Centre ovládania alebo na domovskej obrazovke. V závislosti od zvoleného umiestnenia zachytávania môže rýchle zachytávanie vytvoriť novú poznámku alebo pridať text do existujúcej poznámky.
+Rýchle zachytávanie vám umožňuje uložiť text do vášho trezoru z widgetov na zamykacej obrazovke, v Centre ovládania, na domovskej obrazovke alebo zo Skratiek bez čakania na načítanie trezoru. V závislosti od zvoleného umiestnenia zachytávania môže rýchle zachytávanie vytvoriť novú poznámku alebo pridať text do existujúcej poznámky.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Poznámka
-> Rýchle zachytávanie je dostupné na iOS a iPadOS 26 a vyšších verziách.
+> Rýchle zachytávanie vyžaduje Obsidian 1.14 alebo novší a iOS alebo iPadOS 26 alebo novší.
 
 Zachytenie textu:
 

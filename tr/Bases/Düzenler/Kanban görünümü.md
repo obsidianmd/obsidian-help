@@ -6,27 +6,28 @@ Kanban, [[Tabanlara giriş|Tabanlar]]'da kullanabileceğiniz bir [[Görünümler
 Dosyaları sütunlar halinde düzenlenmiş kartlar olarak görüntülemek için görünüm menüsünden ![[lucide-kanban-square.svg#icon]] **Kanban** seçeneğini seçin. Her sütun, sonuçları gruplamak için kullanılan özelliğin bir değerini temsil eder.
 
 
-> [!warning] Obsidian 1.14+ gerektirir
-> Kanban görünümleri, şu anda [[Erken erişim sürümleri|erken erişim]]de olan Obsidian 1.14'ü gerektirir.
+> [!note] Obsidian 1.14+ gerektirir
+> Kanban görünümleri Obsidian 1.14 ve sonrasında kullanılabilir.
 
 
 ## Kartları sütunlara gruplama
 
 Kanban görünümü, sonuçları gruplamak için bir özellik gerektirir.
 
-1. Araç çubuğundan ![[lucide-arrow-up-down.svg#icon]] **Sırala** seçeneğini seçin.
-2. **Grupla** altında **Özellikler** seçeneğini seçin ve bir özellik seçin.
+1. Araç çubuğundan **Grupla** seçeneğini seçin. Telefonlarda **Görünüm → Grupla** seçeneğini seçin.
+2. **Grupla** altında bir özellik seçin.
 
 Seçilen özellik için değeri olmayan dosyalar **Yok** sütununda görünür.
 
 > [!info] 
-> Bir formül veya dosya özelliğine göre gruplarsanız kartları veya sütunları taşıyamaz ya da sütunlardan not oluşturamazsınız. Bu özellikler bir kartın taşınmasıyla düzenlenemez.
+> `file.folder` dışında bir formül veya dosya özelliğine göre gruplarsanız kartları veya sütunları taşıyamaz ya da sütunlardan not oluşturamazsınız. Yine de **Grupla** menüsünden [[Görünümler#Grupları yeniden sıralama, gizleme ve ekleme|grup sırasını ve görünürlüğünü yönetebilirsiniz]].
 
 ## Kartlar ve sütunlarla çalışma
 
-- Bir kartı başka bir sütuna sürükleyerek o nottaki gruplanmış özelliği güncelleyin. Yalnızca Markdown notları sütunlar arasında taşınabilir.
+- Bir kartı başka bir sütuna sürükleyerek o nottaki gruplanmış özelliği güncelleyin. Yalnızca Markdown notları sütunlar arasında taşınabilir; ancak `file.folder`'a göre gruplandığınızda bir kartı taşımak dosyayı o klasöre taşır.
 - O sütunun değerine sahip bir not oluşturmak için sütun başlığındaki artı simgesini veya sütunun altındaki ![[lucide-plus.svg#icon]] **Yeni** seçeneğini seçin.
-- Sütun sırasını değiştirmek için bir sütun başlığını sürükleyin. Orijinal sırayı geri yüklemek için bir sütuna sağ tıklayın ve **Sırayı sıfırla** seçeneğini seçin.
+- Sütun sırasını değiştirmek için bir sütun başlığını sürükleyin. Otomatik sırayı geri yüklemek için **Grupla** menüsünü açın ve **Elle** yerine otomatik bir sıralama düzeni seçin.
+- Sütunları [[Görünümler#Grupları yeniden sıralama, gizleme ve ekleme|yeniden sıralamak, gizlemek veya eklemek]] için **Grupla** seçeneğini kullanın.
 - Her kartta gösterilen özellikleri seçmek için ![[lucide-list.svg#icon]] **Özellikler** menüsünü kullanın. İlk özellik kart başlığı olarak görüntülenir.
 
 ## Ayarlar

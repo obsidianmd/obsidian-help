@@ -6,27 +6,28 @@ Kanban är en typ av [[Vyer|vy]] som du kan använda i [[Introduktion till baser
 Välj ![[lucide-kanban-square.svg#icon]] **Kanban** från vymenyn för att visa filer som kort organiserade i kolumner. Varje kolumn representerar ett värde för den egenskap som används för att gruppera resultat.
 
 
-> [!warning] Kräver Obsidian 1.14+
-> Kanban-vyer kräver Obsidian 1.14 som för närvarande är i [[Tidig åtkomst-versioner|tidig åtkomst]].
+> [!note] Kräver Obsidian 1.14+
+> Kanban-vyer är tillgängliga i Obsidian 1.14 och senare.
 
 
 ## Gruppera kort i kolumner
 
 En Kanban-vy kräver en egenskap att gruppera resultat efter.
 
-1. Välj ![[lucide-arrow-up-down.svg#icon]] **Sortera** i verktygsfältet.
-2. Under **Gruppera efter**, välj **Egenskap** och välj en egenskap.
+1. Välj **Grupp** i verktygsfältet. På telefoner, välj **Skärm → Grupp**.
+2. Under **Gruppera efter**, välj en egenskap.
 
 Filer utan ett värde för den valda egenskapen visas i kolumnen **Inget värde**.
 
 > [!info] 
-> Om du grupperar efter en formel eller filegenskap kan du inte flytta kort eller kolumner, eller skapa anteckningar från kolumnerna. Dessa egenskaper kan inte redigeras genom att flytta ett kort.
+> Om du grupperar efter en formel eller en filegenskap annat än `file.folder` kan du inte flytta kort eller kolumner, eller skapa anteckningar från kolumnerna. Du kan fortfarande [[Vyer#Ändra ordning, dölja och lägga till grupper|hantera gruppordning och synlighet]] i menyn **Grupp**.
 
 ## Arbeta med kort och kolumner
 
-- Dra ett kort till en annan kolumn för att uppdatera den grupperade egenskapen i den anteckningen. Endast Markdown-anteckningar kan flyttas mellan kolumner.
+- Dra ett kort till en annan kolumn för att uppdatera den grupperade egenskapen i den anteckningen. Endast Markdown-anteckningar kan flyttas mellan kolumner, förutom vid gruppering efter `file.folder`, där flytt av ett kort flyttar filen till den mappen.
 - Välj plusikonen i en kolumnrubrik eller ![[lucide-plus.svg#icon]] **Ny** längst ner i en kolumn för att skapa en anteckning med den kolumnens värde.
-- Dra en kolumnrubrik för att ändra kolumnordningen. För att återställa den ursprungliga ordningen, högerklicka på en kolumn och välj **Återställ ordning**.
+- Dra en kolumnrubrik för att ändra kolumnordningen. För att återställa automatisk ordning, öppna **Grupp** och välj en automatisk sorteringsordning istället för **Manuell**.
+- Använd **Grupp** för att [[Vyer#Ändra ordning, dölja och lägga till grupper|ändra ordning, dölja eller lägga till kolumner]].
 - Använd menyn ![[lucide-list.svg#icon]] **Egenskaper** för att välja vilka egenskaper som visas på varje kort. Den första egenskapen visas som kortets titel.
 
 ## Inställningar

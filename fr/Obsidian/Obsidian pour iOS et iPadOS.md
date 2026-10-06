@@ -54,12 +54,12 @@ Options de configuration du widget **Afficher la note** :
 
 ## Capture rapide
 
-La capture rapide vous permet d'enregistrer du texte dans votre coffre depuis l'écran de verrouillage, le Centre de contrôle ou les widgets de l'écran d'accueil. Selon l'emplacement de capture sélectionné, la capture rapide peut créer une nouvelle note ou ajouter le texte à une note existante.
+La capture rapide vous permet d'enregistrer du texte dans votre coffre depuis l'écran de verrouillage, le Centre de contrôle, les widgets de l'écran d'accueil ou les Raccourcis, sans attendre le chargement de votre coffre. Selon l'emplacement de capture sélectionné, la capture rapide peut créer une nouvelle note ou ajouter le texte à une note existante.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Note
-> La capture rapide est disponible sur iOS et iPadOS 26 et versions ultérieures.
+> La capture rapide nécessite Obsidian 1.14 ou une version ultérieure et iOS ou iPadOS 26 ou une version ultérieure.
 
 Pour capturer du texte :
 

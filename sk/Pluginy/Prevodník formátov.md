@@ -4,45 +4,20 @@ publish: true
 mobile: true
 description: 'Konvertor formátu je základný doplnok, ktorý umožňuje konvertovať Markdown z iných aplikácií do formátu Obsidian.'
 ---
-Prevodník formátov je [[Vstavané pluginy|základný plugin]], ktorý vám umožňuje konvertovať Markdown z iných aplikácií do formátu Obsidian. Taktiež vám umožňuje konvertovať určité [[Vlastnosti]] do nových požadovaných formátov.
+Prevodník formátov migruje [[Vlastnosti#Zastarané vlastnosti|zastarané formáty vlastností]] na aktuálny formát používaný aplikáciou Obsidian.
 
-> [!warning] Varovanie
-> Prevodník formátov konvertuje celý váš trezor na základe vašich nastavení. [[Zálohovanie súborov Obsidian|Zálohujte si súbory Obsidian]] predtým, než vykonáte konverziu.
+> [!warning] Zálohujte si trezor
+> Konverzia sa aplikuje na celý váš trezor. [[Zálohovanie súborov Obsidian|Zálohujte si súbory Obsidian]] predtým, než začnete.
 
-Ak chcete konvertovať všetky poznámky vo vašom trezore:
+Ak chcete konvertovať vlastnosti vo vašich poznámkach:
 
-1. V [[Paleta príkazov|palete príkazov]] vyberte **Otvoriť importér Markdown formátu**. Tento príkaz nájdete aj v [[Panel nástrojov|paneli nástrojov]] ako ikonu **Otvoriť importér Markdown formátu** ![[lucide-binary.svg#icon]].
-2. Zapnite formáty, ktoré chcete konvertovať.
-3. Kliknite na **Spustiť konverziu**.
+1. Otvorte [[Paleta príkazov|paletu príkazov]].
+2. Vyberte **Prevodník formátov: Frontmatter migrácia**.
+3. Vyberte **Spustiť konverziu**.
 
-Viac informácií nájdete v [[Základná syntax formátovania]].
+## Podporované formáty vlastností
 
-## Podporované formáty
-
-### Roam Research
-
-Prevodník formátov dokáže konvertovať nasledujúcu syntax Roam Research:
-
-- **Značky**: Konvertuje `#tag` a `#[[tag]]` na `[[tag]]`
-- **Zvýraznenia**: Konvertuje `^^highlight^^` na `==highlight==`
-- **Položky TODO**: Konvertuje `{{[[TODO]]}}` na `[ ]`
-
-### Bear
-
-Prevodník formátov dokáže konvertovať nasledujúcu syntax Bear:
-
-- **Zvýraznenia**: Konvertuje `::highlight::` na `==highlight==`
-
-### Zettelkasten
-
-Prevodník formátov dokáže konvertovať nasledujúcu syntax Zettelkasten:
-
-- **Úplné odkazy**: Konvertuje `[[UID]]` na `[[UID File Name]]`
-- **Skrátené odkazy**: Konvertuje `[[UID]]` na `[[UID File Name|File Name]]`
-
-### [[Vlastnosti]]
-
-Od verzie Obsidian `1.9.3` dokáže Prevodník formátov konvertovať [[Vlastnosti#Zastarané vlastnosti|zastarané formáty vlastností]] na aktuálny formát:
+Prevodník aktualizuje aliasy, značky a CSS triedy zo zastaraných formátov:
 
 **Aliasy**
 

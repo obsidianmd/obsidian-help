@@ -6,45 +6,20 @@ description: Format converter adalah plugin inti yang memungkinkan Anda mengonve
 aliases:
   - Plugin/Pengonversi format Markdown
 ---
-Importir format Markdown adalah [[Plugin inti|plugin inti]] yang memungkinkan Anda mengonversi Markdown dari aplikasi lain ke format Obsidian. Plugin ini juga memungkinkan Anda mengonversi [[Properti]] tertentu ke format baru yang diperlukan.
+Importir format Markdown memigrasikan [[Properti#Properti yang tidak digunakan lagi|format properti yang tidak digunakan lagi]] ke format saat ini yang digunakan oleh Obsidian.
 
-> [!warning] Peringatan
-> Importir format Markdown mengonversi seluruh brankas Anda berdasarkan pengaturan Anda. [[Cadangkan file Obsidian Anda]] sebelum Anda melakukan konversi.
+> [!warning] Cadangkan brankas Anda
+> Konversi berlaku untuk seluruh brankas Anda. [[Cadangkan file Obsidian Anda]] sebelum Anda memulai.
 
-Untuk mengonversi semua catatan di brankas Anda:
+Untuk mengonversi properti di catatan Anda:
 
-1. Di [[Palet perintah]], pilih **Buka importir Markdown**. Ini juga dapat ditemukan di [[Bilah alat]] dengan ikon **Buka importir Markdown** ![[lucide-binary.svg#icon]].
-2. Aktifkan format yang ingin Anda konversi.
-3. Klik **Mulai konversi**.
+1. Buka [[Palet perintah]].
+2. Pilih **Importir format Markdown: Migrasi metadata awal**.
+3. Pilih **Mulai konversi**.
 
-Untuk informasi lebih lanjut, lihat [[Sintaksis format dasar]].
+## Format properti yang didukung
 
-## Format yang didukung
-
-### Roam Research
-
-Importir format Markdown dapat mengonversi sintaksis Roam Research berikut:
-
-- **Tag**: Mengonversi `#tag` dan `#[[tag]]` menjadi `[[tag]]`
-- **Sorotan**: Mengonversi `^^highlight^^` menjadi `==highlight==`
-- **Item TODO**: Mengonversi `{{[[TODO]]}}` menjadi `[ ]`
-
-### Bear
-
-Importir format Markdown dapat mengonversi sintaksis Bear berikut:
-
-- **Sorotan**: Mengonversi `::highlight::` menjadi `==highlight==`
-
-### Zettelkasten
-
-Importir format Markdown dapat mengonversi sintaksis Zettelkasten berikut:
-
-- **Tautan lengkap**: Mengonversi `[[UID]]` menjadi `[[UID File Name]]`
-- **Tautan cantik**: Mengonversi `[[UID]]` menjadi `[[UID File Name|File Name]]`
-
-### [[Properti]]
-
-Sejak Obsidian `1.9.3`, Importir format Markdown dapat mengonversi format [[Properti#Properti yang tidak digunakan lagi|properti yang tidak digunakan lagi]] ke format saat ini:
+Importir memperbarui alias, tag, dan kelas CSS dari format yang tidak digunakan lagi:
 
 **Alias**
 

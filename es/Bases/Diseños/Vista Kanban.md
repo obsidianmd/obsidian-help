@@ -6,27 +6,28 @@ Kanban es un tipo de [[Vistas|vista]] que puedes usar en [[Introducción a Bases
 Selecciona ![[lucide-kanban-square.svg#icon]] **Kanban** en el menú de vista para mostrar archivos como tarjetas organizadas en columnas. Cada columna representa un valor de la propiedad utilizada para agrupar los resultados.
 
 
-> [!warning] Requiere Obsidian 1.14+
-> Las vistas Kanban requieren Obsidian 1.14, que actualmente está en [[Versiones de acceso anticipado|acceso anticipado]].
+> [!note] Requiere Obsidian 1.14+
+> Las vistas Kanban están disponibles en Obsidian 1.14 y versiones posteriores.
 
 
 ## Agrupar tarjetas en columnas
 
 Una vista Kanban requiere una propiedad para agrupar los resultados.
 
-1. Selecciona ![[lucide-arrow-up-down.svg#icon]] **Ordenar** en la barra de herramientas.
-2. En **Agrupar por**, selecciona **Propiedad** y elige una propiedad.
+1. Selecciona **Grupo** en la barra de herramientas. En teléfonos, selecciona **Pantalla → Grupo**.
+2. En **Agrupar por**, elige una propiedad.
 
 Los archivos sin un valor para la propiedad seleccionada aparecen en la columna **Ninguno**.
 
 > [!info] 
-> Si agrupas por una fórmula o propiedad de archivo, no puedes mover tarjetas ni columnas, ni crear notas desde las columnas. Estas propiedades no pueden editarse moviendo una tarjeta.
+> Si agrupas por una fórmula o una propiedad de archivo distinta de `file.folder`, no puedes mover tarjetas ni columnas, ni crear notas desde las columnas. Aún puedes [[Vistas#Reordenar, ocultar y agregar grupos|gestionar el orden y la visibilidad de los grupos]] en el menú **Grupo**.
 
 ## Trabajar con tarjetas y columnas
 
-- Arrastra una tarjeta a otra columna para actualizar la propiedad agrupada en esa nota. Solo las notas Markdown pueden moverse entre columnas.
+- Arrastra una tarjeta a otra columna para actualizar la propiedad agrupada en esa nota. Solo las notas Markdown pueden moverse entre columnas, excepto cuando se agrupa por `file.folder`, donde mover una tarjeta mueve el archivo a esa carpeta.
 - Selecciona el icono de más en el encabezado de una columna o ![[lucide-plus.svg#icon]] **Nuevo** en la parte inferior de una columna para crear una nota con el valor de esa columna.
-- Arrastra el encabezado de una columna para cambiar el orden de las columnas. Para restaurar el orden original, haz clic derecho en una columna y selecciona **Restablecer orden**.
+- Arrastra el encabezado de una columna para cambiar el orden de las columnas. Para restaurar el orden automático, abre **Grupo** y elige un orden automático en lugar de **Manual**.
+- Usa **Grupo** para [[Vistas#Reordenar, ocultar y agregar grupos|reordenar, ocultar o agregar columnas]].
 - Usa el menú ![[lucide-list.svg#icon]] **Propiedades** para elegir las propiedades que se muestran en cada tarjeta. La primera propiedad se muestra como el título de la tarjeta.
 
 ## Ajustes

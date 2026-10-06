@@ -50,8 +50,6 @@ Um einen Link in der Editor-Ansicht zu erstellen, verwende eine der folgenden Me
 - Markiere Text im Editor und tippe dann `[[`.
 - Öffne die [[Befehlspalette]] und wähle dann Internen Link hinzufügen.
 
-![[Schnellauswahl#^search-autocomplete-large]]
-
 Du kannst zwar auf alle [[Akzeptierte Dateiformate]] verlinken, aber Links zu anderen Dateiformaten als Markdown müssen eine Dateiendung enthalten, wie z. B. `[[Figure 1.png]]`.
 
 > [!tip] Wenn du einem internen Link ein Ausrufezeichen (!) voranstellst, kannst du den verlinkten Inhalt einbetten. Weitere Details findest du unter [[Dateien einbetten]].

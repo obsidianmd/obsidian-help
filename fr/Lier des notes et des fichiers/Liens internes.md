@@ -53,8 +53,6 @@ Pour créer un lien en mode édition, utilisez l'une des méthodes suivantes :
 - Sélectionnez du texte dans l'éditeur, puis tapez `[[`.
 - Ouvrez la [[Palette de commandes]] puis sélectionnez Ajouter un lien interne.
 
-![[Sélecteur rapide#^search-autocomplete-large]]
-
 Bien que vous puissiez lier vers n'importe lequel des [[Formats de fichiers acceptés]], les liens vers des formats de fichiers autres que Markdown doivent inclure une extension de fichier, comme `[[Figure 1.png]]`.
 
 > [!tip] Préfixer un lien interne avec un point d'exclamation (!) vous permet d'intégrer le contenu lié. Pour plus de détails, voir [[Incorporer des fichiers]].

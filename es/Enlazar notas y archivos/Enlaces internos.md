@@ -53,8 +53,6 @@ Para crear un enlace mientras estás en la vista de edición, usa cualquiera de 
 - Selecciona texto en el editor y luego escribe `[[`.
 - Abre la [[Paleta de comandos]] y luego selecciona Añadir enlace interno.
 
-![[Selector rápido#^search-autocomplete-large]]
-
 Aunque puedes enlazar a cualquiera de los [[Formatos de archivo aceptados]], los enlaces a formatos de archivo que no sean Markdown necesitan incluir una extensión de archivo, como `[[Figure 1.png]]`.
 
 > [!tip] Prefijar un enlace interno con un signo de exclamación (!) te permite incrustar el contenido enlazado. Para más detalles, consulta [[Incrustar archivos]].

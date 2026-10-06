@@ -148,6 +148,23 @@ La mise en forme peut être forcée à s'afficher en texte brut en ajoutant une 
 \**Cette ligne sera en italique et affichera les astérisques*\*
 ```
 
+### Couleurs de surlignage
+
+Le surlignage prend en charge six couleurs. Ajoutez un émoji de couleur immédiatement après les `==` d'ouverture :
+
+| Couleur | Exemple               |
+| ------- | --------------------- |
+| Rouge   | `==🔴Important==`     |
+| Orange  | `==🟠À suivre==`      |
+| Jaune   | `==🟡À retenir==`     |
+| Vert    | `==🟢Terminé==`       |
+| Bleu    | `==🔵Référence==`     |
+| Violet  | `==🟣Idée==`          |
+
+Sans émoji de couleur, le surlignage utilise la couleur de surlignage par défaut de votre thème.
+
+Vous pouvez également choisir une couleur depuis le menu de mise en forme. Taper `==` dans l'éditeur suggère des couleurs de surlignage. En [[Vues et mode d'édition#Aperçu en direct|aperçu en direct]], placer le curseur à l'intérieur d'un surlignage affiche un échantillon de couleur. Sélectionnez l'échantillon pour changer la couleur.
+
 ## Liens internes
 
 Obsidian prend en charge deux formats pour les [[Liens internes|liens internes]] entre notes :

@@ -54,12 +54,12 @@ Opciones de configuración del widget **Ver nota**:
 
 ## Captura rápida
 
-La Captura rápida te permite guardar texto en tu bóveda desde los widgets de pantalla de bloqueo, Centro de control o pantalla de inicio. Dependiendo de la ubicación de captura que selecciones, la Captura rápida puede crear una nueva nota o añadir el texto a una nota existente.
+La Captura rápida te permite guardar texto en tu bóveda desde los widgets de pantalla de bloqueo, Centro de control, pantalla de inicio o Atajos sin esperar a que tu bóveda se cargue. Dependiendo de la ubicación de captura que selecciones, la Captura rápida puede crear una nueva nota o añadir el texto a una nota existente.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Nota
-> La Captura rápida está disponible en iOS e iPadOS 26 y versiones superiores.
+> La Captura rápida requiere Obsidian 1.14 o posterior e iOS o iPadOS 26 o posterior.
 
 Para capturar texto:
 

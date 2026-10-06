@@ -54,12 +54,12 @@ Opcions de configuració del widget **Veure nota**:
 
 ## Captura ràpida
 
-La Captura ràpida et permet desar text a la teva cambra forta des dels widgets de la pantalla de bloqueig, el Centre de control o la pantalla d'inici. Depenent de la ubicació de captura que seleccionis, la Captura ràpida pot crear una nota nova o afegir el text a una nota existent.
+La Captura ràpida et permet desar text a la teva cambra forta des dels widgets de la pantalla de bloqueig, el Centre de control, la pantalla d'inici o les Dreceres sense esperar que la teva cambra forta es carregui. Depenent de la ubicació de captura que seleccionis, la Captura ràpida pot crear una nota nova o afegir el text a una nota existent.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Nota
-> La Captura ràpida està disponible a iOS i iPadOS 26 i versions posteriors.
+> La Captura ràpida requereix Obsidian 1.14 o posterior i iOS o iPadOS 26 o posterior.
 
 Per capturar text:
 

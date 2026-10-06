@@ -32,8 +32,6 @@ Tim Obsidian juga memelihara pengembangan beberapa [[#Plugin lainnya|plugin komu
 	- Membuka catatan acak di brankas Anda.
 - [[Catatan harian]]
 	- Buat dan buka catatan berdasarkan tanggal saat ini.
-- [[Importir format Markdown]]
-	- Konversi format Markdown dari aplikasi lain ke format Obsidian.
 - [[Kerangka]]
 	- Tampilkan daftar isi untuk catatan yang aktif.
 - [[Komposer catatan]]

@@ -50,8 +50,6 @@ Hivatkozás létrehozásához szerkesztési nézetben használja az alábbi mód
 - Jelöljön ki szöveget a szerkesztőben, majd írja be a `[[` karaktereket.
 - Nyissa meg a [[Parancspaletta|parancspalettát]], majd válassza a Belső hivatkozás hozzáadása lehetőséget.
 
-![[Gyors váltó#^search-autocomplete-large]]
-
 Bár bármely [[Elfogadott fájlformátumok|elfogadott fájlformátumra]] hivatkozhat, a Markdown-tól eltérő fájlformátumokra mutató hivatkozásoknak tartalmazniuk kell a kiterjesztést, például `[[Figure 1.png]]`.
 
 > [!tip] Ha egy belső hivatkozás elé felkiáltójelet (!) tesz, beágyazhatja a hivatkozott tartalmat. További részletekért lásd: [[Fájlok beágyazása]].
@@ -73,7 +71,7 @@ Például a `[[#Hivatkozott fájl előnézete]]` létrehoz egy hivatkozást a [[
 
 Egy másik jegyzet fejlécére való hivatkozáshoz adjon hozzá egy kettőskeresztet (`#`) a hivatkozás célpontjának végéhez, amelyet a fejléc szövege követ.
 
-Például a `[[Az Obsidianről#A hivatkozások elsőrangú polgárok]]` létrehoz egy hivatkozást a [[Az Obsidianről#A hivatkozások elsőrangú polgárok]] részre.
+Például a `[[Az Obsidianról#A hivatkozások elsőrangú polgárok]]` létrehoz egy hivatkozást a [[Az Obsidianról#A hivatkozások elsőrangú polgárok]] részre.
 
 **Hivatkozás alfejlécekre**
 

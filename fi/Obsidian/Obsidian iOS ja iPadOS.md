@@ -53,12 +53,12 @@ Voit mukauttaa widgetejä työnkulkuusi sopiviksi, esimerkiksi valitsemalla käy
 
 ## Pikakaappaus
 
-Pikakaappauksen avulla voit tallentaa tekstiä holviisi lukitusnäytön, Ohjauskeskuksen tai kotinäytön widgeteistä. Valitsemastasi kaappaussijainnista riippuen pikakaappaus voi luoda uuden muistiinpanon tai lisätä tekstin olemassa olevaan muistiinpanoon.
+Pikakaappauksen avulla voit tallentaa tekstiä holviisi lukitusnäytön, Ohjauskeskuksen tai kotinäytön widgeteistä tai pikakomennoista odottamatta holvin latautumista. Valitsemastasi kaappaussijainnista riippuen pikakaappaus voi luoda uuden muistiinpanon tai lisätä tekstin olemassa olevaan muistiinpanoon.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Huom
-> Pikakaappaus on saatavilla iOS- ja iPadOS 26 -käyttöjärjestelmässä ja uudemmissa versioissa.
+> Pikakaappaus vaatii Obsidian 1.14:n tai uudemman sekä iOS- tai iPadOS 26 -käyttöjärjestelmän tai uudemman.
 
 Tekstin kaappaaminen:
 

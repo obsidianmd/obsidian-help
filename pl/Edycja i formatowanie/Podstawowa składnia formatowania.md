@@ -145,6 +145,23 @@ Formatowanie można wymusić jako zwykły tekst, dodając przed nim ukośnik odw
 \**Ta linia będzie kursywą i pokaże gwiazdki*\*
 ```
 
+### Kolory wyróżnień
+
+Wyróżnienia obsługują sześć kolorów. Dodaj emoji koloru bezpośrednio po otwierającym `==`:
+
+| Kolor  | Przykład              |
+| ------ | --------------------- |
+| Czerwony | `==🔴Ważne==`       |
+| Pomarańczowy | `==🟠Do sprawdzenia==` |
+| Żółty  | `==🟡Zapamiętaj==`   |
+| Zielony | `==🟢Ukończone==`   |
+| Niebieski | `==🔵Odniesienie==` |
+| Fioletowy | `==🟣Pomysł==`     |
+
+Bez emoji koloru wyróżnienie używa domyślnego koloru wyróżnienia motywu.
+
+Możesz również wybrać kolor z menu formatowania. Wpisanie `==` w edytorze podpowiada kolory wyróżnień. W [[Podglądy i tryb edycji#Podgląd na żywo|podglądzie na żywo]] umieszczenie kursora wewnątrz wyróżnienia pokazuje próbkę koloru. Wybierz próbkę, aby zmienić kolor.
+
 ## Łącza wewnętrzne
 
 Obsidian obsługuje dwa formaty [[Łącza wewnętrzne|łączy wewnętrznych]] między notatkami:

@@ -3,7 +3,6 @@ permalink: updates
 aliases:
   - Update Obsidian
 ---
-
 Procesul de actualizare al Obsidian diferă între dispozitivele mobile și cele desktop.
 
 Obsidian pe dispozitivele desktop verifică periodic dacă există actualizări noi. Dacă actualizările automate sunt activate, aplicația se va actualiza la repornire. Obsidian are nevoie periodic de [[#Actualizări ale instalatorului|actualizări ale instalatorului]], care necesită descărcarea și rularea instalatorului.
@@ -14,7 +13,7 @@ Pe dispozitivele mobile, Obsidian se actualizează prin magazinul de aplicații 
 
 Deschideți **[[Setări]] → General**.
 
-Puteți găsi versiunile curente ale aplicației și ale instalatorului în partea de sus a paginii.
+Puteți găsi versiunile curente ale aplicației și ale instalatorului în partea de sus a paginii. Când este disponibil un instalator mai nou, Obsidian afișează o notificare cu un link de descărcare. Urmați [[#Actualizări ale instalatorului|instrucțiunile de actualizare ale instalatorului]] pentru a-l instala.
 
 ![[application-installer-current-version.png#interface]]
 

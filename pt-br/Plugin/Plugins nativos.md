@@ -34,8 +34,6 @@ A equipe do Obsidian também mantém o desenvolvimento de certos [[#Outros plugi
 	- Fundir, separar e refatorar notas.
 - [[Contagem de palavras]]
 	- Exiba o número de palavras e caracteres.
-- [[Conversor de formato]]
-	- Converte Markdown de outros aplicativos para o formato do Obsidian.
 - [[Criador de nota única]]
 	- Crie uma nota única usando um título codificado por tempo.
 - [[Explorador de arquivos]]

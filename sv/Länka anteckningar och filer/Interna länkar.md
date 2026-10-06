@@ -50,8 +50,6 @@ För att skapa en länk i redigeringsvyn, använd något av följande sätt:
 - Markera text i redigeraren och skriv sedan `[[`.
 - Öppna [[Kommandopalett|kommandopaletten]] och välj sedan Lägg till intern länk.
 
-![[Snabbväxlare#^search-autocomplete-large]]
-
 Även om du kan länka till alla [[Accepterade filformat]], kräver länkar till andra filformat än Markdown en filändelse, som `[[Figure 1.png]]`.
 
 > [!tip] Att lägga till ett utropstecken (!) före en intern länk låter dig bädda in det länkade innehållet. För mer detaljer, se [[Bädda in filer]].

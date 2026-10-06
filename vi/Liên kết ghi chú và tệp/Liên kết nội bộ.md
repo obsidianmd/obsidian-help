@@ -50,8 +50,6 @@ Ngay cả khi bạn vô hiệu hóa định dạng liên kết wiki, bạn vẫn
 - Chọn văn bản trong trình chỉnh sửa và sau đó gõ `[[`.
 - Mở [[Khay lệnh]] và sau đó chọn Thêm liên kết nội bộ.
 
-![[Bộ chuyển đổi nhanh#^search-autocomplete-large]]
-
 Mặc dù bạn có thể liên kết đến bất kỳ [[Định dạng tệp được hỗ trợ]] nào, liên kết đến các định dạng tệp khác ngoài Markdown cần bao gồm extension, chẳng hạn như `[[Figure 1.png]]`.
 
 > [!tip] Thêm dấu chấm than (!) trước liên kết nội bộ cho phép bạn nhúng nội dung được liên kết. Để biết thêm chi tiết, xem [[Nhúng tệp]].

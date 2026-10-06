@@ -147,6 +147,23 @@ Pemformatan dapat dipaksa ditampilkan sebagai teks biasa dengan menambahkan gari
 \**Baris ini akan menjadi miring dan menampilkan tanda bintang*\*
 ```
 
+### Warna sorotan
+
+Sorotan mendukung enam warna. Tambahkan emoji warna segera setelah pembuka `==`:
+
+| Warna  | Contoh                |
+| ------ | --------------------- |
+| Merah  | `==🔴Penting==`       |
+| Oranye | `==🟠Tindak lanjut==` |
+| Kuning | `==🟡Ingat ini==`     |
+| Hijau  | `==🟢Selesai==`       |
+| Biru   | `==🔵Referensi==`     |
+| Ungu   | `==🟣Ide==`           |
+
+Tanpa emoji warna, sorotan menggunakan warna sorotan bawaan tema Anda.
+
+Anda juga dapat memilih warna dari menu pemformatan. Mengetik `==` di editor akan menyarankan warna sorotan. Di [[Tampilan dan mode penyuntingan#Pratinjau langsung|Pratinjau langsung]], menempatkan kursor di dalam sorotan akan menampilkan swatch warna. Pilih swatch untuk mengubah warna.
+
 ## Tautan internal
 
 Obsidian mendukung dua format untuk [[Tautan internal|tautan internal]] antar catatan:

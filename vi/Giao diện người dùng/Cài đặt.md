@@ -10,11 +10,11 @@ Cài đặt cho phép bạn tùy chỉnh trải nghiệm Obsidian của mình. C
 
 ### Máy tính
 
-Trong [[Thanh bên#Mở thanh bên ẩn|thanh bên trái]], chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]]. Bạn cũng có thể mở Cài đặt bằng [[Khay lệnh]].
+Trong [[Thanh bên#Mở thanh bên ẩn|thanh bên]], chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]]. Bạn cũng có thể mở Cài đặt bằng [[Khay lệnh]].
 
 ### Di động
 
-Trong thanh bên trái, chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]].
+Trong thanh bên, chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]]. Cài đặt mở dưới dạng một trang phủ trên ứng dụng.
 
 ## Tổ chức cài đặt
 
@@ -294,9 +294,11 @@ Thiết lập phông chữ cho các vị trí như khối mã và siêu dữ li�
 
 Cỡ chữ tính bằng pixel ảnh hưởng đến chế độ chỉnh sửa và đọc. Điều chỉnh bằng thanh trượt.
 
+Cỡ chữ được lưu riêng trên mỗi thiết bị và không đồng bộ qua [[Giới thiệu về Obsidian Sync|Obsidian Sync]]. Trên di động, văn bản và các thành phần giao diện cũng thay đổi tỷ lệ theo kích thước văn bản ưa thích của hệ thống, bao gồm cả kích thước hỗ trợ tiếp cận.
+
 #### Điều chỉnh nhanh cỡ chữ
 
-Điều chỉnh cỡ chữ bằng `Ctrl+Cuộn` (Windows/Linux) hoặc `Cmd+Cuộn` (macOS), hoặc sử dụng cử chỉ phóng to/thu nhỏ trên trackpad.
+Điều chỉnh cỡ chữ bằng `Ctrl+Cuộn` (Windows/Linux) hoặc `Cmd+Cuộn` (macOS), hoặc sử dụng cử chỉ phóng to/thu nhỏ trên trackpad. Bạn cũng có thể sử dụng **Tăng cỡ chữ** và **Giảm cỡ chữ** trong [[Bảng lệnh]], hoặc gán [[Phím tắt|phím tắt bàn phím]] cho chúng.
 
 ### Giao diện
 

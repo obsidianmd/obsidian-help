@@ -2,47 +2,22 @@
 permalink: plugins/format-converter
 publish: true
 mobile: true
-description: Das Importprogramm für Markdown Format ist eine integrierte Erweiterung, mit der du Markdown aus anderen Anwendungen in das Obsidian-Format konvertieren kannst.
+description: 'Das Importprogramm für Markdown Format ist eine integrierte Erweiterung, mit der du Markdown aus anderen Anwendungen in das Obsidian-Format konvertieren kannst.'
 ---
-Das Importprogramm für Markdown Format ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du Markdown aus anderen Anwendungen in das Obsidian-Format konvertieren kannst. Außerdem ermöglicht es dir, bestimmte [[Eigenschaften]] in neue erforderliche Formate zu konvertieren.
+Das Importprogramm für Markdown Format migriert [[Eigenschaften#Veraltete Eigenschaften|veraltete Eigenschaftsformate]] in das aktuelle Format, das von Obsidian verwendet wird.
 
-> [!warning] Warnung
-> Das Importprogramm für Markdown Format konvertiert deinen gesamten Vault basierend auf deinen Einstellungen. [[Obsidian-Dateien sichern|Sichere deine Obsidian-Dateien]], bevor du die Konvertierung durchführst.
+> [!warning] Sichere deinen Vault
+> Die Konvertierung wird auf deinen gesamten Vault angewendet. [[Obsidian-Dateien sichern|Sichere deine Obsidian-Dateien]], bevor du beginnst.
 
-Um alle Notizen in deinem Vault zu konvertieren:
+Um die Eigenschaften in deinen Notizen zu konvertieren:
 
-1. Wähle in der [[Befehlspalette]] **Markdown Importprogramm öffnen** aus. Dies ist auch in der [[Menüband|Werkzeugleiste]] über das Symbol **Markdown Importprogramm öffnen** ![[lucide-binary.svg#icon]] erreichbar.
-2. Aktiviere die Formate, die du konvertieren möchtest.
-3. Klicke auf **Konvertierung starten**.
+1. Öffne die [[Befehlspalette]].
+2. Wähle **Importprogramm für Markdown Format: Frontmatter-Migration** aus.
+3. Wähle **Konvertierung starten** aus.
 
-Weitere Informationen findest du unter [[Grundlegende Formatierungssyntax]].
+## Unterstützte Eigenschaftsformate
 
-## Unterstützte Formate
-
-### Roam Research
-
-Das Importprogramm für Markdown Format kann die folgende Roam-Research-Syntax konvertieren:
-
-- **Tags**: Konvertiert `#tag` und `#[[tag]]` zu `[[tag]]`
-- **Hervorhebungen**: Konvertiert `^^highlight^^` zu `==highlight==`
-- **TODO-Elemente**: Konvertiert `{{[[TODO]]}}` zu `[ ]`
-
-### Bear
-
-Das Importprogramm für Markdown Format kann die folgende Bear-Syntax konvertieren:
-
-- **Hervorhebungen**: Konvertiert `::highlight::` zu `==highlight==`
-
-### Zettelkasten
-
-Das Importprogramm für Markdown Format kann die folgende Zettelkasten-Syntax konvertieren:
-
-- **Vollständige Links**: Konvertiert `[[UID]]` zu `[[UID File Name]]`
-- **Hübsche Links**: Konvertiert `[[UID]]` zu `[[UID File Name|File Name]]`
-
-### [[Eigenschaften]]
-
-Seit Obsidian `1.9.3` kann das Importprogramm für Markdown Format [[Eigenschaften#Veraltete Eigenschaften|veraltete Eigenschaftsformate]] in das aktuelle Format konvertieren:
+Das Importprogramm aktualisiert Aliasse, Tags und CSS-Klassen aus veralteten Formaten:
 
 **Aliasse**
 

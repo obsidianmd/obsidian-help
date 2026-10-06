@@ -201,7 +201,25 @@ views:
 - `name` je zobrazovaný název a může být použit k definování výchozího zobrazení.
 - `filters` jsou přesně stejné jako výše popsané, ale vztahují se pouze na dané zobrazení.
 - `groupBy` určuje vlastnost a směr řazení. Hodnota zadané vlastnosti pro každý řádek se použije k zařazení řádku do skupin.
+- `groupOrder` určuje pořadí a viditelnost skupin. Pokud je přítomen, zobrazí se pouze skupiny, jejichž hodnoty jsou uvedeny, a to v daném pořadí. Prázdný seznam skryje všechny skupiny. Odstraňte `groupOrder` pro zobrazení všech skupin v pořadí definovaném pomocí `groupBy`.
 - `summaries` mapuje názvy vlastností na pojmenované shrnutí. Shrnutí provádějí agregaci vlastnosti napříč všemi řádky.
+
+Například toto zobrazení ukazuje pouze skupiny Planned, In progress a Done, v tomto pořadí:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Použijte `null` v `groupOrder` pro zahrnutí souborů, které nemají žádnou hodnotu pro seskupovanou vlastnost.
 
 [[Zobrazení]] mohou přidávat další data pro uložení jakýchkoli informací potřebných k udržení stavu nebo správnému vykreslení, avšak autoři pluginů by měli dbát na to, aby nepoužívali klíče, které již používá základní plugin Základen. Jako příklad může zobrazení tabulky použít toto k omezení počtu řádků nebo k výběru sloupce používaného k řazení řádků a jeho směru. Jiný typ zobrazení, například mapa, to může použít k mapování, která vlastnost v poznámce odpovídá zeměpisné šířce a délce a která vlastnost by měla být zobrazena jako název pinu.
 

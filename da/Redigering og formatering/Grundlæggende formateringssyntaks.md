@@ -154,6 +154,23 @@ Formatering kan tvinges til at blive vist som almindelig tekst ved at tilføje e
 \**Denne linje vises i kursiv og viser gangetegn*\*
 ```
 
+### Fremhævningsfarver
+
+Fremhævning understøtter seks farver. Tilføj en farveemoji umiddelbart efter den indledende `==`:
+
+| Farve  | Eksempel              |
+| ------ | --------------------- |
+| Rød    | `==🔴Vigtigt==`       |
+| Orange | `==🟠Følg op==`       |
+| Gul    | `==🟡Husk dette==`    |
+| Grøn   | `==🟢Fuldført==`      |
+| Blå    | `==🔵Reference==`     |
+| Lilla  | `==🟣Idé==`           |
+
+Uden en farveemoji bruger fremhævningen dit temas standardfremhævningsfarve.
+
+Du kan også vælge en farve fra formateringsmenuen. Når du skriver `==` i editoren, foreslås fremhævningsfarver. I [[Views og redigeringstilstand#Live forhåndsvisning|Live forhåndsvisning]] vises en farveprøve, når markøren placeres inde i en fremhævning. Vælg farveprøven for at ændre farven.
+
 ## Interne links
 
 Obsidian understøtter to formater til at oprette [[Interne links|interne links]] mellem noter:

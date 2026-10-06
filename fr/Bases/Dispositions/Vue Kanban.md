@@ -6,27 +6,28 @@ La vue Kanban est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[In
 Sélectionnez ![[lucide-kanban-square.svg#icon]] **Kanban** dans le menu des vues pour afficher les fichiers sous forme de cartes organisées en colonnes. Chaque colonne représente une valeur de la propriété utilisée pour grouper les résultats.
 
 
-> [!warning] Nécessite Obsidian 1.14+
-> Les vues Kanban nécessitent Obsidian 1.14 qui est actuellement en [[Versions en accès anticipé|accès anticipé]].
+> [!note] Nécessite Obsidian 1.14+
+> Les vues Kanban sont disponibles dans Obsidian 1.14 et versions ultérieures.
 
 
 ## Grouper les cartes en colonnes
 
 Une vue Kanban nécessite une propriété pour grouper les résultats.
 
-1. Sélectionnez ![[lucide-arrow-up-down.svg#icon]] **Trier** dans la barre d'outils.
-2. Sous **Grouper par**, sélectionnez **Propriété** et choisissez une propriété.
+1. Sélectionnez **Groupe** dans la barre d'outils. Sur téléphone, sélectionnez **Affichage → Groupe**.
+2. Sous **Grouper par**, choisissez une propriété.
 
 Les fichiers sans valeur pour la propriété sélectionnée apparaissent dans la colonne **Aucune valeur**.
 
 > [!info] 
-> Si vous groupez par une formule ou une propriété de fichier, vous ne pouvez pas déplacer les cartes ou les colonnes, ni créer de notes depuis les colonnes. Ces propriétés ne peuvent pas être modifiées en déplaçant une carte.
+> Si vous groupez par une formule ou une propriété de fichier autre que `file.folder`, vous ne pouvez pas déplacer les cartes ou les colonnes, ni créer de notes depuis les colonnes. Vous pouvez toujours [[Vues#Réorganiser, masquer et ajouter des groupes|gérer l'ordre et la visibilité des groupes]] dans le menu **Groupe**.
 
 ## Travailler avec les cartes et les colonnes
 
-- Glissez une carte vers une autre colonne pour mettre à jour la propriété groupée dans cette note. Seules les notes Markdown peuvent être déplacées entre les colonnes.
+- Glissez une carte vers une autre colonne pour mettre à jour la propriété groupée dans cette note. Seules les notes Markdown peuvent être déplacées entre les colonnes, sauf lors du groupement par `file.folder`, où déplacer une carte déplace le fichier vers ce dossier.
 - Sélectionnez l'icône plus dans l'en-tête d'une colonne ou ![[lucide-plus.svg#icon]] **Nouveau** en bas d'une colonne pour créer une note avec la valeur de cette colonne.
-- Glissez un en-tête de colonne pour modifier l'ordre des colonnes. Pour restaurer l'ordre d'origine, faites un clic droit sur une colonne et sélectionnez **Réinitialiser l'ordre**.
+- Glissez un en-tête de colonne pour modifier l'ordre des colonnes. Pour restaurer l'ordre automatique, ouvrez **Groupe** et choisissez un ordre de tri automatique au lieu de **Manuel**.
+- Utilisez **Groupe** pour [[Vues#Réorganiser, masquer et ajouter des groupes|réorganiser, masquer ou ajouter des colonnes]].
 - Utilisez le menu ![[lucide-list.svg#icon]] **Propriétés** pour choisir les propriétés affichées sur chaque carte. La première propriété est affichée comme titre de la carte.
 
 ## Paramètres

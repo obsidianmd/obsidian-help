@@ -56,12 +56,12 @@ Du kan tilpasse widgets til din arbejdsgang, f.eks. vælge hvilken boks der skal
 
 ## Hurtig indfangning
 
-Hurtig indfangning lader dig gemme tekst i din boks fra låseskærmen, Kontrolcenter eller hjemmeskærm-widgets. Afhængigt af den indfangningsplacering du vælger, kan Hurtig indfangning oprette en ny note eller tilføje teksten til en eksisterende note.
+Hurtig indfangning lader dig gemme tekst i din boks fra låseskærmen, Kontrolcenter, hjemmeskærm-widgets eller Genveje uden at vente på, at din boks indlæses. Afhængigt af den indfangningsplacering du vælger, kan Hurtig indfangning oprette en ny note eller tilføje teksten til en eksisterende note.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Note
-> Hurtig indfangning er tilgængelig på iOS og iPadOS 26 og nyere.
+> Hurtig indfangning kræver Obsidian 1.14 eller nyere og iOS eller iPadOS 26 eller nyere.
 
 Sådan indfanger du tekst:
 

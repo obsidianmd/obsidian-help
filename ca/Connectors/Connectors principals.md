@@ -42,8 +42,6 @@ L'equip d'Obsidian també manté el desenvolupament de certs [[#Altres connector
 	- Mostra l'índex de la nota activa.
 - [[Explorador de fitxers]]
 	- Navega pels fitxers i carpetes dins la teva cambra forta.
-- [[Importador de format Markdown]]
-	- Converteix Markdown d'altres aplicacions al format Obsidian.
 - [[Marcadors]]
 	- Desa enllaços a notes, encapçalaments, cerques i més.
 - [[Nota aleatòria]]

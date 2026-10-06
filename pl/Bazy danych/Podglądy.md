@@ -11,11 +11,14 @@ Na górze bazy znajduje się pasek narzędzi, który umożliwia interakcję z po
 
 - ![[lucide-table.svg#icon]] **Menu podglądów** — tworzenie, edytowanie i przełączanie podglądów.
 - **Wyniki** — ograniczanie, kopiowanie i eksportowanie plików.
-- ![[lucide-arrow-up-down.svg#icon]] **Sortuj** — sortowanie i grupowanie plików.
+- ![[lucide-arrow-up-down.svg#icon]] **Sortuj** — sortowanie plików.
+- ![[lucide-stretch-horizontal.svg#icon]] **Grupuj** — grupowanie plików oraz zarządzanie kolejnością i widocznością grup.
 - ![[lucide-list-filter.svg#icon]] **Filtr** — filtrowanie plików.
 - ![[lucide-list.svg#icon]] **Atrybuty** — wybór atrybutów do wyświetlania i tworzenie [[Wzory|wzorów]].
 - ![[lucide-search.svg#icon]] **Szukaj** — wyszukiwanie elementów na podstawie wyświetlanych atrybutów.
 - ![[lucide-plus.svg#icon]] **Nowe** — tworzenie nowego pliku w bieżącym podglądzie.
+
+Na telefonach opcje **Wyniki**, **Sortuj**, ![[lucide-stretch-horizontal.svg#icon]] **Grupuj** i **Atrybuty** znajdują się w menu ![[lucide-sliders-horizontal.svg#icon]] **Wyświetlanie**.
 
 ## Dodawanie i przełączanie podglądów
 
@@ -37,7 +40,7 @@ Alternatywnie *kliknij prawym przyciskiem myszy* nazwę podglądu na pasku narz�
 
 ## Układ
 
-Podglądy mogą być wyświetlane z różnymi układami, w tym jako ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **karty**, ![[lucide-kanban-square.svg#icon]] **Kanban** i ![[lucide-map.svg#icon]] **mapa**. Dodatkowe układy mogą być dodawane przez [[Wtyczki społeczności]]. Niektóre układy są wciąż rozwijane i wymagają [[Wersje wczesnego dostępu|wersji wczesnego dostępu]] Obsidian.
+Podglądy mogą być wyświetlane z różnymi układami, w tym jako ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **karty**, ![[lucide-kanban-square.svg#icon]] **Kanban** i ![[lucide-map.svg#icon]] **mapa**. Dodatkowe układy mogą być dodawane przez [[Wtyczki społeczności]].
 
 | Układ                           | Opis                                                                                                                       | Wersja&nbsp;aplikacji |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------- |
@@ -83,16 +86,16 @@ Kliknij przycisk kodu ![[lucide-code-xml.svg#icon]], aby użyć edytora **filtro
 
 ## Sortowanie i grupowanie wyników
 
-Otwórz menu ![[lucide-arrow-up-down.svg#icon]] **Sortuj**, aby sortować i grupować wyniki w podglądzie.
+Użyj menu ![[lucide-arrow-up-down.svg#icon]] **Sortuj**, aby ułożyć wyniki, oraz menu ![[lucide-stretch-horizontal.svg#icon]] **Grupuj**, aby organizować podobne elementy w sekcje.
 
 Możesz ułożyć wyniki według jednego lub więcej atrybutów w kolejności rosnącej lub malejącej. Ułatwia to wyświetlanie notatek według nazwy, czasu ostatniej edycji lub dowolnego innego atrybutu — w tym wzorów.
 
-Możesz również grupować wyniki według atrybutu, aby organizować podobne elementy w wizualnie wyodrębnione sekcje. Obecnie Obsidian obsługuje grupowanie tylko według jednego atrybutu.
+Każdy podgląd może mieć kilka sortowań, ale grupować wyniki można tylko według jednego atrybutu.
 
 ### Dodawanie sortowania
 
 1. Otwórz menu ![[lucide-arrow-up-down.svg#icon]] **Sortuj** na górze podglądu.
-2. Wybierz atrybut, według którego chcesz sortować (lub grupować).
+2. Wybierz **Dodaj sortowanie**, a następnie wybierz atrybut, według którego chcesz sortować.
 3. Jeśli masz wiele sortowań, przeciągnij je w górę lub w dół za pomocą uchwytu ![[lucide-grip-vertical.svg#icon]], aby zmienić ich priorytet.
 
 Opcje porządkowania wyników zależą od rodzaju atrybutu:
@@ -104,7 +107,29 @@ Opcje porządkowania wyników zależą od rodzaju atrybutu:
 ### Usuwanie sortowania
 
 1. Otwórz menu ![[lucide-arrow-up-down.svg#icon]] **Sortuj** na górze podglądu.
-2. Kliknij przycisk kosza ![[lucide-trash-2.svg#icon]] obok sortowania lub grupowania, które chcesz usunąć.
+2. Kliknij przycisk kosza ![[lucide-trash-2.svg#icon]] obok sortowania, które chcesz usunąć.
+
+### Grupowanie wyników
+
+1. Otwórz menu ![[lucide-stretch-horizontal.svg#icon]] **Grupuj** na górze podglądu. Na telefonach otwórz **Wyświetlanie → Grupuj**.
+2. W sekcji **Grupuj według** wybierz atrybut.
+3. Wybierz automatyczną kolejność sortowania lub wybierz **Ręcznie**, aby samodzielnie uporządkować grupy.
+
+Aby zaprzestać grupowania wyników, kliknij przycisk kosza ![[lucide-trash-2.svg#icon]] obok atrybutu grupowania.
+
+### Zmiana kolejności, ukrywanie i dodawanie grup
+
+W menu ![[lucide-stretch-horizontal.svg#icon]] **Grupuj** wybierz **Ręcznie** z menu kolejności sortowania, aby zarządzać wyświetlanymi grupami i ich kolejnością.
+
+- Zaznacz grupę, aby ją wyświetlić, lub odznacz, aby ją ukryć. Wybierz **Pokaż wszystko** lub **Ukryj wszystko**, aby zmienić widoczność wszystkich grup.
+- Przeciągnij uchwyt ![[lucide-grip-vertical.svg#icon]] obok grupy, aby zmienić jej pozycję.
+- Wybierz **Dodaj grupę** i wprowadź wartość, aby wyświetlić nową, pustą grupę. Nie tworzy to notatki ani nie zmienia istniejących notatek.
+
+Aby przywrócić automatyczną kolejność grup i wyświetlić wszystkie grupy, wybierz automatyczną kolejność sortowania zamiast **Ręcznie**.
+
+### Zwijanie grup
+
+W układach [[Podgląd Tabela|tabela]], [[Podgląd Karty|karty]] i [[Podgląd Lista|lista]] kliknij nagłówek grupy, aby zwinąć lub rozwinąć tę grupę. Zwinięcie grupy tymczasowo ukrywa jej elementy bez zmiany ich atrybutów.
 
 ## Ograniczanie, kopiowanie i eksportowanie wyników
 

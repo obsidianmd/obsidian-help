@@ -50,8 +50,6 @@ Om een koppeling te maken in de bewerkingsweergave, gebruik je een van de volgen
 - Selecteer tekst in de editor en typ vervolgens `[[`.
 - Open het [[Opdrachtenpaneel]] en selecteer vervolgens Voeg interne link toe.
 
-![[Snel wisselen#^search-autocomplete-large]]
-
 Hoewel je naar elk van de [[Geaccepteerde bestandsformaten]] kunt koppelen, moeten koppelingen naar andere bestandsformaten dan Markdown een bestandsextensie bevatten, zoals `[[Figuur 1.png]]`.
 
 > [!tip] Door een interne koppeling vooraf te laten gaan door een uitroepteken (!) kun je de gekoppelde inhoud insluiten. Zie [[Bestanden insluiten]] voor meer informatie.

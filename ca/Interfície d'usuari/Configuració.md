@@ -10,11 +10,11 @@ La configuració et permet personalitzar la teva experiència amb Obsidian. Conf
 
 ### Escriptori
 
-A la [[Barra lateral#Obrir barres laterals ocultes|barra lateral esquerra]], selecciona **[[Configuració]]** ![[lucide-cog.svg#icon]]. També pots obrir la Configuració amb la [[Paleta d'ordres]].
+A la [[Barra lateral#Obrir barres laterals ocultes|barra lateral]], selecciona **[[Configuració]]** ![[lucide-cog.svg#icon]]. També pots obrir la Configuració amb la [[Paleta d'ordres]].
 
 ### Mòbil
 
-A la barra lateral esquerra, selecciona **[[Configuració]]** ![[lucide-cog.svg#icon]].
+A la barra lateral, selecciona **[[Configuració]]** ![[lucide-cog.svg#icon]]. La configuració s'obre en un full sobre l'aplicació.
 
 ## Organització de la configuració
 
@@ -294,9 +294,11 @@ Estableix la font per a llocs com ara blocs de codi i metadades inicials. Selecc
 
 Mida de la font en píxels que afecta les vistes d'edició i lectura. Ajusta amb el control lliscant.
 
+La mida de la font es desa per separat a cada dispositiu i no es sincronitza mitjançant [[Introducció a Obsidian Sync|Obsidian Sync]]. Al mòbil, el text i els elements de la interfície també s'escalen amb la mida de text preferida del teu sistema, incloent les mides d'accessibilitat.
+
 #### Ajust ràpid de la mida de la font
 
-Ajusta la mida de la font amb `Ctrl+Desplaçar` (Windows/Linux) o `Cmd+Desplaçar` (macOS), o amb el gest de pinçar del trackpad.
+Ajusta la mida de la font amb `Ctrl+Desplaçar` (Windows/Linux) o `Cmd+Desplaçar` (macOS), o amb el gest de pinçar del trackpad. També pots utilitzar **Augmenta la mida de la lletra** i **Redueix la mida de la lletra** a la [[Paleta d'ordres]], o assignar-los [[Tecles d'accés ràpid|dreceres de teclat]].
 
 ### Interfície
 

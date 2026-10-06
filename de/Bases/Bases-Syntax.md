@@ -201,7 +201,25 @@ views:
 - `name` ist der Anzeigename und kann verwendet werden, um die Standardansicht zu definieren.
 - `filters` sind genau wie oben beschrieben, gelten aber nur für die Ansicht.
 - `groupBy` gibt eine Eigenschaft und Sortierrichtung an. Der Wert der angegebenen Eigenschaft für jede Zeile wird verwendet, um die Zeile in Gruppen einzuordnen.
+- `groupOrder` gibt die Reihenfolge und Sichtbarkeit von Gruppen an. Wenn vorhanden, werden nur Gruppen angezeigt, deren Werte aufgelistet sind, und zwar in dieser Reihenfolge. Eine leere Liste blendet alle Gruppen aus. Entferne `groupOrder`, um alle Gruppen in der durch `groupBy` definierten Reihenfolge anzuzeigen.
 - `summaries` ordnet Eigenschaftsnamen einer benannten Zusammenfassung zu. Zusammenfassungen führen eine Aggregation der Eigenschaft über alle Zeilen durch.
+
+Diese Ansicht zeigt beispielsweise nur die Gruppen „Planned", „In progress" und „Done" an, und zwar in dieser Reihenfolge:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Verwende `null` in `groupOrder`, um Dateien einzuschließen, die keinen Wert für die gruppierte Eigenschaft haben.
 
 [[Ansichten]] können zusätzliche Daten speichern, um alle Informationen zu erhalten, die zur Zustandsverwaltung oder korrekten Darstellung benötigt werden. Erweiterungsautoren sollten jedoch darauf achten, keine Schlüssel zu verwenden, die bereits von der integrierten Bases-Erweiterung verwendet werden. Beispielsweise kann eine Tabellenansicht dies nutzen, um die Anzahl der Zeilen zu begrenzen oder auszuwählen, welche Spalte zur Sortierung der Zeilen verwendet wird und in welcher Richtung. Ein anderer Ansichtstyp wie eine Karte könnte dies verwenden, um festzulegen, welche Eigenschaft in der Notiz dem Breiten- und Längengrad entspricht und welche Eigenschaft als Pin-Titel angezeigt werden soll.
 

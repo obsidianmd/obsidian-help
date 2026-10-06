@@ -4,7 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: Scopri le funzionalità specifiche per dispositivi mobile in Obsidian, tra cui la barra degli strumenti mobile, le azioni rapide e la barra di navigazione.
+description: 'Scopri le funzionalità specifiche per dispositivi mobile in Obsidian, tra cui la barra degli strumenti mobile, le azioni rapide e la barra di navigazione.'
 aliases:
   - Mobile app
 ---
@@ -31,25 +31,20 @@ Durante la modifica di una nota, si noterà una riga di icone nella parte inferi
 
 ### Personalizzare la barra degli strumenti mobile
 
-Nella barra degli strumenti mobile, toccare **Configura strumenti mobile** ![[lucide-wrench.svg#icon]] per aprire l'interfaccia di personalizzazione.
+Nella barra degli strumenti mobile, selezionare **Configura strumenti mobile** ![[lucide-wrench.svg#icon]] per aprire le relative impostazioni.
 
-In alternativa, è possibile farlo dalle Impostazioni.
+È anche possibile aprire **[[Impostazioni]] → Interfaccia → Configura strumenti mobile**.
 
-1. Aprire le Impostazioni.
-2. Scegliere **Mobile**.
-3. Sotto **Gestisci opzioni barra degli strumenti**, aggiungere, rimuovere o riordinare le opzioni disponibili.
+Sotto **Gestisci opzioni barra degli strumenti**, usare le maniglie per riordinare le azioni e i pulsanti di rimozione per rimuoverle. Selezionare un'azione sotto **Altre opzioni** per aggiungerla.
 
 ### Aggiungere un comando alla barra degli strumenti mobile
 
-Per impostazione predefinita, le opzioni disponibili da aggiungere alla barra degli strumenti sono opzioni di modifica come "Aggiungi collegamento interno" o "Aggiungi etichetta".
+Oltre alle azioni di modifica, è possibile aggiungere comandi globali come **Cambia tema**.
 
-Oltre a queste, è possibile aggiungere comandi globali come "Cambia tema".
-
-1. Trovare **Gestisci opzioni barra degli strumenti** sotto **[[Impostazioni]]** → **Mobile**.
-2. Scorrere fino in fondo, trovare **Aggiungi comando globale**.
-3. Digitare il nome del comando che si desidera aggiungere.
-4. Selezionare il comando da aggiungere.
-5. Il nuovo comando viene aggiunto alla fine della barra degli strumenti.
+1. Aprire **[[Impostazioni]] → Interfaccia → Configura strumenti mobile**.
+2. Sotto **Gestisci opzioni barra degli strumenti**, selezionare **Aggiungi un comando...**.
+3. Cercare il comando che si desidera aggiungere.
+4. Selezionare il comando per aggiungerlo alla fine della barra degli strumenti.
 
 ## Azione rapida
 
@@ -60,7 +55,7 @@ L'azione rapida è impostata per aprire la [[Riquadro comandi]] per impostazione
 ### Personalizzare l'azione rapida
 
 1. Aprire le Impostazioni.
-2. Sotto **Opzioni**, scegliere **Barra degli strumenti**.
+2. Scegliere **Interfaccia**.
 3. Sotto **Configura azione rapida mobile**, toccare **Configura**.
 4. Digitare il nome del comando.
 5. Selezionare il comando che si desidera impostare.

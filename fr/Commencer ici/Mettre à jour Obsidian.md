@@ -1,7 +1,6 @@
 ---
 permalink: updates
 localized: '2026-03-18'
-
 ---
 Le processus de mise à jour d'Obsidian diffère entre les appareils mobiles et de bureau.
 
@@ -13,7 +12,7 @@ Sur les appareils mobiles, Obsidian est mis à jour via le magasin d'application
 
 Ouvrez **[[Paramètres]] → Général**.
 
-Vous trouverez les versions actuelles de l'application et du programme d'installation en haut de la page.
+Vous trouverez les versions actuelles de l'application et du programme d'installation en haut de la page. Lorsqu'un programme d'installation plus récent est disponible, Obsidian affiche un avis avec un lien de téléchargement. Suivez les [[#Mises à jour du programme d'installation|instructions de mise à jour du programme d'installation]] pour l'installer.
 
 ![[application-installer-current-version.png#interface]]
 

@@ -23,6 +23,27 @@ Vous pouvez aussi créer des notes en utilisant l'[[Explorateur de fichiers#Cré
 > Obsidian respecte les limitations de noms de fichiers du système d'exploitation sur lequel vous créez la note. Si vous prévoyez de [[Synchroniser vos notes entre appareils|synchroniser vos notes entre appareils]], assurez-vous que vos noms de fichiers sont [compatibles avec les autres systèmes d'exploitation](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Ouvrir des fichiers en dehors de votre coffre
+
+Sur ordinateur, vous pouvez ouvrir et modifier des fichiers Markdown individuels en dehors de votre coffre. Les fichiers s'ouvrent dans votre fenêtre actuelle et restent à leur emplacement d'origine.
+
+> [!note] Nécessite Obsidian 1.14 et le dernier programme d'installation
+> [[Mettre à jour Obsidian#Installer updates|Mettez à jour votre programme d'installation]] en téléchargeant Obsidian depuis [obsidian.md/download](https://obsidian.md/download) et en réinstallant l'application.
+
+Pour ouvrir un fichier Markdown :
+
+1. Ouvrez la [[Palette de commandes]].
+2. Sélectionnez **Ouvrir un fichier situé hors du coffre…**.
+3. Choisissez un fichier Markdown sur votre ordinateur.
+
+Vous pouvez aussi utiliser le menu **Ouvrir avec** de votre système d'exploitation et sélectionner **Obsidian**. Pour ouvrir les fichiers Markdown dans Obsidian par défaut, définissez-le comme application par défaut pour les fichiers `.md`.
+
+Les intégrations d'images et les liens vers d'autres fichiers locaux sont résolus relativement au dossier du fichier Markdown. Utilisez le [[Plan]] pour naviguer entre les entêtes et les [[Liens sortants]] pour parcourir les fichiers liés.
+
+### Prévisualiser des fichiers avec Quick Look
+
+Sur macOS, sélectionnez un fichier Markdown dans le Finder et appuyez sur `Espace` pour le prévisualiser avec **Quick Look**. Les aperçus Quick Look fonctionnent même lorsque Obsidian est fermé.
+
 ## Renommer une note
 
 Pour renommer une note active :

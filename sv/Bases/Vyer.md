@@ -11,11 +11,14 @@ Till exempel kanske du vill skapa en bas som heter "Böcker" med separata vyer f
 
 - ![[lucide-table.svg#icon]] **Vymeny** — skapa, redigera och växla vyer.
 - **Resultat** — begränsa, kopiera och exportera filer.
-- ![[lucide-arrow-up-down.svg#icon]] **Sortera** — sortera och gruppera filer.
+- ![[lucide-arrow-up-down.svg#icon]] **Sortera** — sortera filer.
+- ![[lucide-stretch-horizontal.svg#icon]] **Gruppera** — gruppera filer och hantera gruppordning och synlighet.
 - ![[lucide-list-filter.svg#icon]] **Filter** — filtrera filer.
 - ![[lucide-list.svg#icon]] **Egenskaper** — välj egenskaper att visa och skapa [[Formler|formler]].
 - ![[lucide-search.svg#icon]] **Sök** — sök efter objekt med deras visade egenskaper.
 - ![[lucide-plus.svg#icon]] **Ny** — skapa en ny fil i den aktuella vyn.
+
+På telefoner finns **Resultat**, **Sortera**, ![[lucide-stretch-horizontal.svg#icon]] **Gruppera** och **Egenskaper** inuti menyn ![[lucide-sliders-horizontal.svg#icon]] **Skärm**.
 
 ## Lägg till och växla vyer
 
@@ -37,7 +40,7 @@ Alternativt kan du *högerklicka* på vynamnet i basens verktygsfält för att s
 
 ## Layout
 
-Vyer kan visas med olika layouter inklusive som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kort**, ![[lucide-kanban-square.svg#icon]] **Kanban** och ![[lucide-map.svg#icon]] **karta**. Ytterligare layouter kan läggas till av [[Gemenskapstillägg]]. Vissa layouter är fortfarande under utveckling och kräver [[Tidig åtkomst-versioner|tidig åtkomst-versioner]] av Obsidian.
+Vyer kan visas med olika layouter inklusive som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kort**, ![[lucide-kanban-square.svg#icon]] **Kanban** och ![[lucide-map.svg#icon]] **karta**. Ytterligare layouter kan läggas till av [[Gemenskapstillägg]].
 
 | Layout                    | Beskrivning                                                                                                       | App&nbsp;version |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------- |
@@ -83,16 +86,16 @@ Klicka på kodknappen ![[lucide-code-xml.svg#icon]] för att använda den **avan
 
 ## Sortera och gruppera resultat
 
-Öppna menyn ![[lucide-arrow-up-down.svg#icon]] **Sortera** för att sortera och gruppera resultaten i en vy.
+Använd menyn ![[lucide-arrow-up-down.svg#icon]] **Sortera** för att ordna resultat, och menyn ![[lucide-stretch-horizontal.svg#icon]] **Gruppera** för att organisera liknande objekt i sektioner.
 
 Du kan ordna resultat efter en eller flera egenskaper i stigande eller fallande ordning. Detta gör det enkelt att lista anteckningar efter namn, senaste redigeringstid eller någon annan egenskap — inklusive formler.
 
-Du kan också gruppera resultat efter en egenskap för att organisera liknande objekt i visuellt distinkta sektioner. För närvarande stöder Obsidian gruppering efter bara en egenskap.
+Varje vy kan ha flera sorteringar, men kan bara gruppera resultat efter en egenskap.
 
 ### Lägg till en sortering
 
 1. Öppna menyn ![[lucide-arrow-up-down.svg#icon]] **Sortera** överst i vyn.
-2. Välj den egenskap du vill sortera (eller gruppera) efter.
+2. Välj **Lägg till sortering** och välj sedan den egenskap du vill sortera efter.
 3. Om du har flera sorteringar, dra dem upp eller ner med ![[lucide-grip-vertical.svg#icon]] grepphandtaget för att ändra deras prioritet.
 
 Alternativen för att ordna resultat beror på egenskapstypen:
@@ -104,7 +107,29 @@ Alternativen för att ordna resultat beror på egenskapstypen:
 ### Ta bort en sortering
 
 1. Öppna menyn ![[lucide-arrow-up-down.svg#icon]] **Sortera** överst i vyn.
-2. Klicka på ![[lucide-trash-2.svg#icon]] papperskorgsknappen bredvid den sortering eller gruppering du vill ta bort.
+2. Välj ![[lucide-trash-2.svg#icon]] papperskorgsknappen bredvid den sortering du vill ta bort.
+
+### Gruppera resultat
+
+1. Öppna menyn ![[lucide-stretch-horizontal.svg#icon]] **Gruppera** överst i vyn. På telefoner, öppna **Skärm → Gruppera**.
+2. Under **Gruppera efter**, välj en egenskap.
+3. Välj en automatisk sorteringsordning, eller välj **Manuell** för att ordna grupper själv.
+
+För att sluta gruppera resultat, välj ![[lucide-trash-2.svg#icon]] papperskorgsknappen bredvid grupperingsegenskapen.
+
+### Ordna om, dölja och lägga till grupper
+
+I menyn ![[lucide-stretch-horizontal.svg#icon]] **Gruppera**, välj **Manuell** från sorteringsordningsmenyn för att hantera vilka grupper som visas och i vilken ordning.
+
+- Markera en grupp för att visa den, eller avmarkera den för att dölja den. Välj **Visa alla** eller **Dölj alla** för att ändra synligheten för alla grupper.
+- Dra ![[lucide-grip-vertical.svg#icon]] grepphandtaget bredvid en grupp för att ändra dess position.
+- Välj **Lägg till grupp** och ange ett värde för att visa en ny, tom grupp. Detta skapar inte en anteckning och ändrar inte befintliga anteckningar.
+
+För att återställa automatisk gruppordning och visa alla grupper, välj en automatisk sorteringsordning istället för **Manuell**.
+
+### Kollapsa grupper
+
+I layouterna [[Tabellvy|tabell]], [[Kortvy|kort]] och [[Listvy|lista]], välj en grupprubriker för att kollapsa eller expandera den gruppen. Att kollapsa en grupp döljer tillfälligt dess objekt utan att ändra deras egenskaper.
 
 ## Begränsa, kopiera och exportera resultat
 

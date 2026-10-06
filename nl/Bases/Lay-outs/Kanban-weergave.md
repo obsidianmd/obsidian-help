@@ -6,27 +6,28 @@ Kanban is een type [[Weergaven|weergave]] dat je kunt gebruiken in [[Introductie
 Selecteer ![[lucide-kanban-square.svg#icon]] **Kanban** in het weergavemenu om bestanden weer te geven als kaarten georganiseerd in kolommen. Elke kolom vertegenwoordigt een waarde van de eigenschap die wordt gebruikt om resultaten te groeperen.
 
 
-> [!warning] Vereist Obsidian 1.14+
-> Kanban-weergaven vereisen Obsidian 1.14, dat momenteel beschikbaar is als [[Vroege-toegangsversies|vroege-toegangsversie]].
+> [!note] Vereist Obsidian 1.14+
+> Kanban-weergaven zijn beschikbaar in Obsidian 1.14 en later.
 
 
 ## Kaarten groeperen in kolommen
 
 Een Kanban-weergave vereist een eigenschap om resultaten op te groeperen.
 
-1. Selecteer ![[lucide-arrow-up-down.svg#icon]] **Sorteren** in de werkbalk.
-2. Selecteer onder **Groeperen op** de optie **Eigenschap** en kies een eigenschap.
+1. Selecteer **Groep** in de werkbalk. Op telefoons selecteer je **Scherm → Groep**.
+2. Kies onder **Groeperen op** een eigenschap.
 
 Bestanden zonder een waarde voor de geselecteerde eigenschap verschijnen in de kolom **Geen waarde**.
 
 > [!info] 
-> Als je groepeert op een formule- of bestandseigenschap, kun je geen kaarten of kolommen verplaatsen, of notities aanmaken vanuit de kolommen. Deze eigenschappen kunnen niet worden bewerkt door een kaart te verplaatsen.
+> Als je groepeert op een formule of een bestandseigenschap anders dan `file.folder`, kun je geen kaarten of kolommen verplaatsen, of notities aanmaken vanuit de kolommen. Je kunt nog steeds [[Weergaven#Groepen herordenen, verbergen en toevoegen|groepsvolgorde en zichtbaarheid beheren]] in het menu **Groep**.
 
 ## Werken met kaarten en kolommen
 
-- Sleep een kaart naar een andere kolom om de gegroepeerde eigenschap in die notitie bij te werken. Alleen Markdown-notities kunnen tussen kolommen worden verplaatst.
+- Sleep een kaart naar een andere kolom om de gegroepeerde eigenschap in die notitie bij te werken. Alleen Markdown-notities kunnen tussen kolommen worden verplaatst, behalve bij groepering op `file.folder`, waarbij het verplaatsen van een kaart het bestand naar die map verplaatst.
 - Selecteer het pluspictogram in een kolomkop of ![[lucide-plus.svg#icon]] **Nieuw** onderaan een kolom om een notitie aan te maken met de waarde van die kolom.
-- Sleep een kolomkop om de kolomvolgorde te wijzigen. Om de oorspronkelijke volgorde te herstellen, klik je met de rechtermuisknop op een kolom en selecteer je **Volgorde herstellen**.
+- Sleep een kolomkop om de kolomvolgorde te wijzigen. Om de automatische volgorde te herstellen, open je **Groep** en kies je een automatische sorteervolgorde in plaats van **Handmatig**.
+- Gebruik **Groep** om [[Weergaven#Groepen herordenen, verbergen en toevoegen|kolommen te herordenen, verbergen of toevoegen]].
 - Gebruik het menu ![[lucide-list.svg#icon]] **Eigenschappen** om de eigenschappen te kiezen die op elke kaart worden weergegeven. De eerste eigenschap wordt weergegeven als de kaarttitel.
 
 ## Instellingen

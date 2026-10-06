@@ -145,6 +145,23 @@ Opmaak kan worden gedwongen om als platte tekst weer te geven door er een backsl
 \**Deze regel wordt cursief weergegeven en toont de sterretjes*\*
 ```
 
+### Markeerkleuren
+
+Markeringen ondersteunen zes kleuren. Voeg een kleur-emoji direct na de opening `==` toe:
+
+| Kleur  | Voorbeeld             |
+| ------ | --------------------- |
+| Rood   | `==🔴Belangrijk==`    |
+| Oranje | `==🟠Opvolgen==`      |
+| Geel   | `==🟡Onthoud dit==`   |
+| Groen  | `==🟢Voltooid==`      |
+| Blauw  | `==🔵Referentie==`    |
+| Paars  | `==🟣Idee==`          |
+
+Zonder kleur-emoji gebruikt de markering de standaard markeerkleur van je thema.
+
+Je kunt ook een kleur kiezen uit het opmaak menu. Door `==` te typen in de editor worden markeerkleuren voorgesteld. In [[Weergaven en bewerkingsmodus#Live voorbeeld|Live voorbeeld]] verschijnt er een kleurstaal wanneer je de cursor in een markering plaatst. Selecteer de kleurstaal om de kleur te wijzigen.
+
 ## Interne koppelingen
 
 Obsidian ondersteunt twee formaten voor [[Interne koppelingen|interne koppelingen]] tussen notities:

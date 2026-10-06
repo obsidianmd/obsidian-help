@@ -145,6 +145,23 @@ A formatação pode ser forçada a aparecer em texto simples adicionando uma bar
 \**Esta linha ficará em itálico e mostrará os asteriscos*\*
 ```
 
+### Cores de realce
+
+Os realces suportam seis cores. Adicione um emoji de cor imediatamente após o `==` de abertura:
+
+| Cor  | Exemplo               |
+| ------ | --------------------- |
+| Vermelho    | `==🔴Importante==`     |
+| Laranja | `==🟠Acompanhar==`     |
+| Amarelo | `==🟡Lembrar isto==` |
+| Verde  | `==🟢Concluído==`     |
+| Azul   | `==🔵Referência==`     |
+| Roxo | `==🟣Ideia==`          |
+
+Sem um emoji de cor, o realce utiliza a cor de realce predefinida do seu tema.
+
+Também pode escolher uma cor a partir do menu de formatação. Ao escrever `==` no editor, são sugeridas cores de realce. Na [[Vistas e modo de edição#Pré-visualização em direto|Pré-visualização em direto]], ao colocar o cursor dentro de um realce, aparece uma amostra de cor. Selecione a amostra para alterar a cor.
+
 ## Ligações internas
 
 O Obsidian suporta dois formatos para [[Ligações internas|ligações internas]] entre notas:

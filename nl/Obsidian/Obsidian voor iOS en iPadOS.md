@@ -54,12 +54,12 @@ Configuratieopties voor de **Notitie bekijken**-widget:
 
 ## Snel vastleggen
 
-Met Snel vastleggen kun je tekst opslaan in je kluis vanuit de widgets op het vergrendelscherm, het Bedieningspaneel of het beginscherm. Afhankelijk van de vastleglocatie die je selecteert, kan Snel vastleggen een nieuwe notitie aanmaken of de tekst toevoegen aan een bestaande notitie.
+Met Snel vastleggen kun je tekst opslaan in je kluis vanuit de widgets op het vergrendelscherm, het Bedieningspaneel, het beginscherm of Opdrachten, zonder te hoeven wachten tot je kluis is geladen. Afhankelijk van de vastleglocatie die je selecteert, kan Snel vastleggen een nieuwe notitie aanmaken of de tekst toevoegen aan een bestaande notitie.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Opmerking
-> Snel vastleggen is beschikbaar op iOS en iPadOS 26 en hoger.
+> Snel vastleggen vereist Obsidian 1.14 of hoger en iOS of iPadOS 26 of hoger.
 
 Om tekst vast te leggen:
 

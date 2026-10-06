@@ -50,8 +50,6 @@ Per crear un enllaç mentre estàs en vista d'edició, utilitza qualsevol dels m
 - Selecciona text a l'editor i després escriu `[[`.
 - Obre la [[Paleta d'ordres]] i després selecciona Afegeix un enllaç intern.
 
-![[Selector ràpid#^search-autocomplete-large]]
-
 Tot i que pots enllaçar a qualsevol dels [[Formats de fitxer acceptats]], els enllaços a formats de fitxer que no siguin Markdown necessiten incloure una extensió de fitxer, com ara `[[Figure 1.png]]`.
 
 > [!tip] Prefixar un enllaç intern amb un signe d'exclamació (!) et permet incrustar el contingut enllaçat. Per a més detalls, consulta [[Incrustar fitxers]].

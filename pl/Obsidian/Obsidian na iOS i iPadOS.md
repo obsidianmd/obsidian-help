@@ -54,12 +54,12 @@ Opcje konfiguracji widżetu **Podgląd notatki**:
 
 ## Szybkie przechwytywanie
 
-Szybkie przechwytywanie pozwala zapisywać tekst do sejfu z widżetów ekranu blokady, Centrum sterowania lub ekranu głównego. W zależności od wybranej lokalizacji przechwytywania, Szybkie przechwytywanie może utworzyć nową notatkę lub dodać tekst do istniejącej notatki.
+Szybkie przechwytywanie pozwala zapisywać tekst do sejfu z widżetów ekranu blokady, Centrum sterowania, ekranu głównego lub Skrótów bez czekania na załadowanie sejfu. W zależności od wybranej lokalizacji przechwytywania, Szybkie przechwytywanie może utworzyć nową notatkę lub dodać tekst do istniejącej notatki.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Uwaga
-> Szybkie przechwytywanie jest dostępne na iOS i iPadOS 26 i nowszych.
+> Szybkie przechwytywanie wymaga Obsidian 1.14 lub nowszego oraz iOS lub iPadOS 26 lub nowszego.
 
 Aby przechwycić tekst:
 

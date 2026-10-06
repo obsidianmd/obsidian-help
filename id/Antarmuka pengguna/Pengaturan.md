@@ -12,11 +12,11 @@ Pengaturan memungkinkan Anda menyesuaikan pengalaman Obsidian Anda. Konfigurasik
 
 ### Desktop
 
-Di [[Bilah samping#Buka bilah samping tersembunyi|bilah samping kiri]], pilih **[[Pengaturan]]** ![[lucide-cog.svg#icon]]. Anda juga dapat membuka Pengaturan dengan [[Palet perintah]].
+Di [[Bilah samping#Buka bilah samping tersembunyi|bilah samping]], pilih **[[Pengaturan]]** ![[lucide-cog.svg#icon]]. Anda juga dapat membuka Pengaturan dengan [[Palet perintah]].
 
 ### Seluler
 
-Di bilah samping kiri, pilih **[[Pengaturan]]** ![[lucide-cog.svg#icon]].
+Di bilah samping, pilih **[[Pengaturan]]** ![[lucide-cog.svg#icon]]. Pengaturan terbuka dalam lembar di atas aplikasi.
 
 ## Organisasi pengaturan
 
@@ -296,9 +296,11 @@ Atur font untuk tempat-tempat seperti blok kode dan frontmatter. Pilih **Kelola*
 
 Ukuran font dalam piksel yang mempengaruhi editor dan pratinjau. Sesuaikan menggunakan slider.
 
+Ukuran font disimpan secara terpisah di setiap perangkat dan tidak disinkronkan melalui [[Pengantar Obsidian Sync|Obsidian Sync]]. Di seluler, teks dan elemen antarmuka juga menyesuaikan dengan ukuran teks pilihan sistem Anda, termasuk ukuran aksesibilitas.
+
 #### Pengaturan cepat ukuran font
 
-Sesuaikan ukuran font menggunakan `Ctrl+Scroll` (Windows/Linux) atau `Cmd+Scroll` (macOS), atau menggunakan gerakan cubit-perbesar trackpad.
+Sesuaikan ukuran font menggunakan `Ctrl+Scroll` (Windows/Linux) atau `Cmd+Scroll` (macOS), atau menggunakan gerakan cubit-perbesar trackpad. Anda juga dapat menggunakan **Perbesar ukuran font** dan **Perkecil ukuran font** di [[Palet perintah]], atau menetapkan [[Pintasan|pintasan keyboard]] untuk mereka.
 
 ### Antarmuka
 

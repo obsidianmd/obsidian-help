@@ -54,12 +54,12 @@ Konfigurationsoptionen für das **Notiz anzeigen**-Widget:
 
 ## Schnellerfassung
 
-Mit der Schnellerfassung kannst du Text über Sperrbildschirm-, Kontrollzentrum- oder Home-Bildschirm-Widgets in deinem Vault speichern. Je nach gewähltem Erfassungsort kann die Schnellerfassung eine neue Notiz erstellen oder den Text zu einer vorhandenen Notiz hinzufügen.
+Mit der Schnellerfassung kannst du Text über Sperrbildschirm-, Kontrollzentrum-, Home-Bildschirm-Widgets oder Kurzbefehle in deinem Vault speichern, ohne darauf warten zu müssen, dass dein Vault geladen wird. Je nach gewähltem Erfassungsort kann die Schnellerfassung eine neue Notiz erstellen oder den Text zu einer vorhandenen Notiz hinzufügen.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Hinweis
-> Die Schnellerfassung ist ab iOS und iPadOS 26 und höher verfügbar.
+> Die Schnellerfassung erfordert Obsidian 1.14 oder neuer und iOS oder iPadOS 26 oder neuer.
 
 So erfasst du Text:
 

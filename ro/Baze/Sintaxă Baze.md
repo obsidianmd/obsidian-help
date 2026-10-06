@@ -6,7 +6,6 @@ description: Această pagină oferă o introducere în sintaxa Bases din Obsidia
 aliases:
   - Bases syntax
 ---
-
 Când [[Creează o bază|creezi o bază]] în Obsidian, aceasta este salvată ca fișier `.base`. Bazele sunt de obicei editate folosind interfața aplicației, dar sintaxa poate fi editată și manual, și încorporată într-un bloc de cod.
 
 Sintaxa [[Introducere în Baze|Baze]] definește [[Afișaje|vizualizări]], filtre și [[Formule|formule]]. Bazele trebuie să fie YAML valid, conform schemei definite mai jos.
@@ -204,7 +203,25 @@ views:
 - `name` este numele afișat și poate fi folosit pentru a defini vizualizarea implicită.
 - `filters` sunt exact la fel ca cele descrise mai sus, dar se aplică doar vizualizării respective.
 - `groupBy` specifică o proprietate și o direcție de sortare. Valoarea proprietății specificate pentru fiecare rând este folosită pentru a plasa rândul în grupuri.
+- `groupOrder` specifică ordinea și vizibilitatea grupurilor. Dacă este prezent, doar grupurile ale căror valori sunt listate sunt afișate, în acea ordine. O listă goală ascunde toate grupurile. Elimină `groupOrder` pentru a afișa toate grupurile în ordinea definită de `groupBy`.
 - `summaries` asociază numele proprietăților cu un rezumat denumit. Rezumatele efectuează o agregare a proprietății pentru toate rândurile.
+
+De exemplu, această vizualizare afișează doar grupurile Planned, In progress și Done, în acea ordine:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Folosește `null` în `groupOrder` pentru a include fișierele care nu au o valoare pentru proprietatea grupată.
 
 [[Afișaje|Vizualizările]] pot adăuga date suplimentare pentru a stoca orice informație necesară pentru menținerea stării sau pentru afișarea corectă, însă autorii de module trebuie să aibă grijă să nu folosească chei deja utilizate de modulul de bază Bases. De exemplu, o vizualizare de tip tabel poate folosi acest lucru pentru a limita numărul de rânduri sau pentru a selecta ce coloană este folosită pentru sortarea rândurilor și în ce direcție. Un alt tip de vizualizare, precum o hartă, ar putea folosi acest lucru pentru a stabili ce proprietate din notă corespunde latitudinii și longitudinii și ce proprietate ar trebui afișată ca titlu al pinului.
 
@@ -327,7 +344,7 @@ Bazele au un sistem de tipuri care este folosit de formule și filtre pentru a a
 
 ### Stringuri, numere și valori booleene
 
-Stringurile, numerele și valorile booleene sunt valori „primitive” care nu necesită o funcție pentru a fi create.
+Stringurile, numerele și valorile booleene sunt valori „primitive" care nu necesită o funcție pentru a fi create.
 
 - Stringurile sunt încadrate între ghilimele simple sau duble, de exemplu `"message"`.
 - Numerele sunt scrise ca cifre și pot fi opțional încadrate între paranteze pentru claritate. De exemplu, `1` sau `(2.5)`.

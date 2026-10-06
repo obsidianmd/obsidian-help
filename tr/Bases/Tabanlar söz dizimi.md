@@ -201,7 +201,25 @@ views:
 - `name`, görünen addır ve varsayılan görünümü tanımlamak için kullanılabilir.
 - `filters`, yukarıda açıklananla tamamen aynıdır, ancak yalnızca görünüme uygulanır.
 - `groupBy`, bir özellik ve sıralama yönü belirtir. Her satır için belirtilen özelliğin değeri, satırı gruplara yerleştirmek için kullanılır.
+- `groupOrder`, grupların sırasını ve görünürlüğünü belirtir. Mevcutsa, yalnızca değerleri listede bulunan gruplar o sırayla gösterilir. Boş bir liste tüm grupları gizler. Tüm grupları `groupBy` tarafından tanımlanan sırada göstermek için `groupOrder`'ı kaldırın.
 - `summaries`, özellik adlarını adlandırılmış bir özete eşler. Özetler, tüm satırlardaki özellik üzerinde bir toplama işlemi gerçekleştirir.
+
+Örneğin, bu görünüm yalnızca Planned, In progress ve Done gruplarını o sırayla gösterir:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Gruplandırılan özellik için değeri olmayan dosyaları dahil etmek üzere `groupOrder` içinde `null` kullanın.
 
 [[Görünümler]], durumu korumak veya doğru şekilde oluşturmak için gereken herhangi bir bilgiyi saklamak üzere ek veriler ekleyebilir, ancak eklenti geliştiricileri çekirdek Tabanlar eklentisi tarafından zaten kullanımda olan anahtarları kullanmamaya dikkat etmelidir. Örnek olarak, bir tablo görünümü bunu satır sayısını sınırlamak veya satırları sıralamak için hangi sütunun ve hangi yönün kullanılacağını seçmek için kullanabilir. Harita gibi farklı bir görünüm türü, notdaki hangi özelliğin enlem ve boylamla eşleştiğini ve hangi özelliğin pin başlığı olarak görüntüleneceğini belirlemek için bunu kullanabilir.
 

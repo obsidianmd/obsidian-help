@@ -40,8 +40,6 @@ Het Obsidian-team onderhoudt ook de ontwikkeling van bepaalde [[#Overige plug-in
 	- Visualiseer relaties tussen notities in je kluis.
 - [[Labelvenster|Labelvenster]]
 	- Toon alle labels in je kluis.
-- [[Markdown-indeling importeren]]
-	- Converteer Markdown van andere apps naar de Obsidian-indeling.
 - [[Notitiesamensteller]]
 	- Splits, refactor en voeg notities samen.
 - [[Opdrachtenpaneel]]

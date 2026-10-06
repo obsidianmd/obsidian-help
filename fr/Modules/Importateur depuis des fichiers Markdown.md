@@ -8,45 +8,20 @@ aliases:
   - Plugins/Markdown format converter
 localized: '2026-03-18'
 ---
-Importateur depuis des fichiers Markdown est un [[Modules principaux|module principal]] qui vous permet de convertir du Markdown provenant d'autres applications au format Obsidian. Il vous permet également de convertir certaines [[Propriétés]] vers les nouveaux formats requis.
+L'importateur depuis des fichiers Markdown migre les [[Propriétés#Propriétés obsolètes|formats de propriétés obsolètes]] vers le format actuel utilisé par Obsidian.
 
-> [!warning] Avertissement
-> L'importateur depuis des fichiers Markdown convertit l'intégralité de votre coffre en fonction de vos paramètres. [[Sauvegarder vos fichiers Obsidian|Sauvegardez vos fichiers Obsidian]] avant d'effectuer la conversion.
+> [!warning] Sauvegardez votre coffre
+> La conversion s'applique à l'intégralité de votre coffre. [[Sauvegarder vos fichiers Obsidian|Sauvegardez vos fichiers Obsidian]] avant de commencer.
 
-Pour convertir toutes les notes de votre coffre :
+Pour convertir les propriétés de vos notes :
 
-1. Dans la [[Palette de commandes]], sélectionnez **Ouvrir l'importateur depuis des fichiers Markdown**. Vous pouvez également y accéder depuis le [[Ruban]] avec l'icône **Ouvrir l'importateur depuis des fichiers Markdown** ![[lucide-binary.svg#icon]].
-2. Activez les formats que vous souhaitez convertir.
-3. Cliquez sur **Lancer la conversion**.
+1. Ouvrez la [[Palette de commandes]].
+2. Sélectionnez **Convertisseur de fichiers Markdown : Migration des métadonnées**.
+3. Sélectionnez **Lancer la conversion**.
 
-Pour plus d'informations, consultez [[Syntaxe de mise en forme de base]].
+## Formats de propriétés pris en charge
 
-## Formats pris en charge
-
-### Roam Research
-
-L'importateur depuis des fichiers Markdown peut convertir la syntaxe Roam Research suivante :
-
-- **Mots-clés** : Convertit `#tag` et `#[[tag]]` en `[[tag]]`
-- **Surlignage** : Convertit `^^highlight^^` en `==highlight==`
-- **Éléments TODO** : Convertit `{{[[TODO]]}}` en `[ ]`
-
-### Bear
-
-L'importateur depuis des fichiers Markdown peut convertir la syntaxe Bear suivante :
-
-- **Surlignage** : Convertit `::highlight::` en `==highlight==`
-
-### Zettelkasten
-
-L'importateur depuis des fichiers Markdown peut convertir la syntaxe Zettelkasten suivante :
-
-- **Liens complets** : Convertit `[[UID]]` en `[[UID Nom du fichier]]`
-- **Liens simplifiés** : Convertit `[[UID]]` en `[[UID Nom du fichier|Nom du fichier]]`
-
-### [[Propriétés]]
-
-Depuis Obsidian `1.9.3`, l'importateur depuis des fichiers Markdown peut convertir les formats de [[Propriétés#Propriétés obsolètes|propriétés obsolètes]] vers le format actuel :
+Le convertisseur met à jour les alias, mots-clés et classes CSS depuis les formats obsolètes :
 
 **Alias**
 

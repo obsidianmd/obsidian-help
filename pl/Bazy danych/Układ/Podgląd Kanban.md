@@ -6,27 +6,28 @@ Kanban to typ [[Podglądy|podglądu]], którego możesz używać w [[Wprowadzeni
 Wybierz ![[lucide-kanban-square.svg#icon]] **Kanban** z menu podglądu, aby wyświetlić pliki jako karty zorganizowane w kolumny. Każda kolumna reprezentuje wartość właściwości użytej do grupowania wyników.
 
 
-> [!warning] Wymaga Obsidian 1.14+
-> Podglądy Kanban wymagają Obsidian 1.14, który jest obecnie dostępny w ramach [[Wersje wczesnego dostępu|wczesnego dostępu]].
+> [!note] Wymaga Obsidian 1.14+
+> Podglądy Kanban są dostępne w Obsidian 1.14 i nowszych wersjach.
 
 
 ## Grupowanie kart w kolumny
 
 Podgląd Kanban wymaga właściwości do grupowania wyników.
 
-1. Wybierz ![[lucide-arrow-up-down.svg#icon]] **Sortuj** na pasku narzędzi.
-2. W sekcji **Grupuj**, wybierz **Atrybut** i wybierz właściwość.
+1. Wybierz **Grupuj** na pasku narzędzi. Na telefonach wybierz **Wyświetlanie → Grupuj**.
+2. W sekcji **Grupuj**, wybierz właściwość.
 
 Pliki bez wartości dla wybranej właściwości pojawiają się w kolumnie **Brak wartości**.
 
 > [!info] 
-> Jeśli grupujesz według wzoru lub właściwości pliku, nie możesz przenosić kart ani kolumn, ani tworzyć notatek z kolumn. Tych właściwości nie można edytować poprzez przenoszenie karty.
+> Jeśli grupujesz według wzoru lub właściwości pliku innej niż `file.folder`, nie możesz przenosić kart ani kolumn, ani tworzyć notatek z kolumn. Nadal możesz [[Podglądy#Zmienianie kolejności, ukrywanie i dodawanie grup|zarządzać kolejnością i widocznością grup]] w menu **Grupuj**.
 
 ## Praca z kartami i kolumnami
 
-- Przeciągnij kartę do innej kolumny, aby zaktualizować zgrupowaną właściwość w danej notatce. Między kolumnami można przenosić tylko notatki Markdown.
+- Przeciągnij kartę do innej kolumny, aby zaktualizować zgrupowaną właściwość w danej notatce. Między kolumnami można przenosić tylko notatki Markdown, z wyjątkiem grupowania według `file.folder`, gdzie przeniesienie karty przenosi plik do tego folderu.
 - Wybierz ikonę plusa w nagłówku kolumny lub ![[lucide-plus.svg#icon]] **Nowe** na dole kolumny, aby utworzyć notatkę z wartością tej kolumny.
-- Przeciągnij nagłówek kolumny, aby zmienić kolejność kolumn. Aby przywrócić oryginalną kolejność, kliknij prawym przyciskiem myszy kolumnę i wybierz **Resetuj kolejność**.
+- Przeciągnij nagłówek kolumny, aby zmienić kolejność kolumn. Aby przywrócić automatyczną kolejność, otwórz **Grupuj** i wybierz automatyczną kolejność sortowania zamiast **Ręcznie**.
+- Użyj **Grupuj**, aby [[Podglądy#Zmienianie kolejności, ukrywanie i dodawanie grup|zmieniać kolejność, ukrywać lub dodawać kolumny]].
 - Użyj menu ![[lucide-list.svg#icon]] **Atrybuty**, aby wybrać właściwości wyświetlane na każdej karcie. Pierwsza właściwość jest wyświetlana jako tytuł karty.
 
 ## Ustawienia

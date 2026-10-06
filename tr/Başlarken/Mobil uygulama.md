@@ -29,25 +29,20 @@ Bir notu düzenlerken, uygulamanın alt kısmında bir simge sırası göreceksi
 
 ### Mobil araç çubuğunu özelleştirme
 
-Mobil araç çubuğunda, özelleştirme arayüzünü açmak için **Mobil araç çubuğunu ayarla** ![[lucide-wrench.svg#icon]] simgesine dokunun.
+Mobil araç çubuğunda, ayarlarını açmak için **Mobil araç çubuğunu ayarla** ![[lucide-wrench.svg#icon]] seçeneğini seçin.
 
-Alternatif olarak bunu Ayarlar'dan da yapabilirsiniz.
+Ayrıca **[[Ayarlar]] → Arayüz → Mobil araç çubuğunu ayarla** yolunu da kullanabilirsiniz.
 
-1. Ayarları açın.
-2. **Mobil** seçeneğini seçin.
-3. **Araç çubuğu seçeneklerini yönet** altında mevcut seçenekleri ekleyin, kaldırın veya yeniden sıralayın.
+**Araç çubuğu seçeneklerini yönet** altında, eylemleri yeniden sıralamak için tutma kollarını ve kaldırmak için kaldırma düğmelerini kullanın. Eklemek için **Daha fazla araç çubuğu seçeneği** altından bir eylem seçin.
 
 ### Mobil araç çubuğuna komut ekleme
 
-Varsayılan olarak, araç çubuğuna eklenebilecek seçenekler "Dahili link ekle" veya "Etiket ekle" gibi düzenleme seçenekleridir.
+Düzenleme eylemlerine ek olarak, **Tema değiştir** gibi genel komutlar da ekleyebilirsiniz.
 
-Bunlara ek olarak, "Tema değiştir" gibi genel komutlar da ekleyebilirsiniz.
-
-1. **[[Ayarlar]]** → **Mobil** altında **Araç çubuğu seçeneklerini yönet** bölümünü bulun.
-2. En alta kaydırın, **Genel komut ekle** seçeneğini bulun.
-3. Eklemek istediğiniz komutun adını yazın.
-4. Eklemek istediğiniz komutu seçin.
-5. Yeni komut araç çubuğunun sonuna eklenir.
+1. **[[Ayarlar]] → Arayüz → Mobil araç çubuğunu ayarla** yolunu açın.
+2. **Araç çubuğu seçeneklerini yönet** altında **Komut ekle...** seçeneğini seçin.
+3. Eklemek istediğiniz komutu arayın.
+4. Araç çubuğunun sonuna eklemek için komutu seçin.
 
 ## Hızlı Eylem
 
@@ -58,7 +53,7 @@ Hızlı Eylem varsayılan olarak [[Komut Paleti]]'ni açar.
 ### Hızlı Eylemi özelleştirme
 
 1. Ayarları açın.
-2. **Seçenekler** altında **Araç Çubuğu**'nu seçin.
+2. **Arayüz** seçeneğini seçin.
 3. **Mobil Hızlı Eylemleri ayarla** altında **Yapılandırma** seçeneğine dokunun.
 4. Komutun adını yazın.
 5. Ayarlamak istediğiniz komutu seçin.

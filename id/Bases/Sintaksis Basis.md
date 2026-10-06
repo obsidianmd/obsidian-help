@@ -201,7 +201,25 @@ views:
 - `name` adalah nama tampilan, dan dapat digunakan untuk mendefinisikan tampilan bawaan.
 - `filters` sama persis seperti yang dijelaskan di atas, tetapi hanya berlaku untuk tampilan tersebut.
 - `groupBy` menentukan properti dan arah pengurutan. Nilai properti yang ditentukan untuk setiap baris digunakan untuk menempatkan baris ke dalam grup.
+- `groupOrder` menentukan urutan dan visibilitas grup. Jika ada, hanya grup yang nilainya tercantum yang ditampilkan, dalam urutan tersebut. Daftar kosong menyembunyikan semua grup. Hapus `groupOrder` untuk menampilkan semua grup dalam urutan yang didefinisikan oleh `groupBy`.
 - `summaries` memetakan nama properti ke ringkasan bernama. Ringkasan melakukan agregasi pada properti di semua baris.
+
+Misalnya, tampilan ini hanya menampilkan grup Planned, In progress, dan Done, dalam urutan tersebut:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Gunakan `null` dalam `groupOrder` untuk menyertakan file yang tidak memiliki nilai untuk properti yang dikelompokkan.
 
 [[Tampilan]] dapat menambahkan data tambahan untuk menyimpan informasi yang diperlukan untuk mempertahankan status atau merender dengan benar, namun pembuat plugin harus berhati-hati untuk tidak menggunakan kunci yang sudah digunakan oleh plugin inti Basis. Sebagai contoh, tampilan tabel dapat menggunakan ini untuk membatasi jumlah baris atau untuk memilih kolom mana yang digunakan untuk mengurutkan baris dan arahnya. Jenis tampilan berbeda seperti peta dapat menggunakan ini untuk memetakan properti mana dalam catatan yang sesuai dengan lintang dan bujur dan properti mana yang harus ditampilkan sebagai judul pin.
 

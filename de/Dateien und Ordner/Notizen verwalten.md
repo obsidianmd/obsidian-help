@@ -19,6 +19,27 @@ Du kannst Notizen auch über den [[Dateiexplorer#Eine neue Notiz erstellen|Datei
 > Obsidian beachtet die Dateinamen-Beschränkungen des Betriebssystems, auf dem du die Notiz erstellst. Wenn du planst, deine [[Notizen geräteübergreifend synchronisieren|Notizen geräteübergreifend zu synchronisieren]], stelle sicher, dass deine Dateinamen [für andere Betriebssysteme geeignet](https://stackoverflow.com/q/1976007) sind.
 ^blockquote-system-limitation
 
+## Dateien außerhalb deines Vaults öffnen
+
+Auf dem Desktop kannst du einzelne Markdown-Dateien außerhalb deines Vaults öffnen und bearbeiten. Dateien werden in deinem aktuellen Fenster geöffnet und bleiben an ihrem ursprünglichen Speicherort.
+
+> [!note] Erfordert Obsidian 1.14 und das neueste Installationsprogramm
+> [[Obsidian aktualisieren#Installer-Updates|Aktualisiere dein Installationsprogramm]], indem du Obsidian von [obsidian.md/download](https://obsidian.md/download) herunterlädst und die Anwendung neu installierst.
+
+Um eine Markdown-Datei zu öffnen:
+
+1. Öffne die [[Befehlspalette]].
+2. Wähle **Datei von außerhalb des Vaults öffnen …**.
+3. Wähle eine Markdown-Datei auf deinem Computer aus.
+
+Du kannst auch das **Öffnen mit**-Menü deines Betriebssystems verwenden und **Obsidian** auswählen. Um Markdown-Dateien standardmäßig in Obsidian zu öffnen, lege es als Standardanwendung für `.md`-Dateien fest.
+
+Bildeinbettungen und Links zu anderen lokalen Dateien werden relativ zum Ordner der Markdown-Datei aufgelöst. Verwende die [[Gliederung]], um durch Überschriften zu navigieren, und [[Ausgehende Links]], um verlinkte Dateien zu durchsuchen.
+
+### Dateien mit Quick Look in der Vorschau anzeigen
+
+Unter macOS kannst du eine Markdown-Datei im Finder auswählen und `Leertaste` drücken, um sie mit **Quick Look** in der Vorschau anzuzeigen. Quick-Look-Vorschauen funktionieren auch, wenn Obsidian geschlossen ist.
+
 ## Eine Notiz umbenennen
 
 Um eine aktive Notiz umzubenennen:

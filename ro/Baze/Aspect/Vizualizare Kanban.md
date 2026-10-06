@@ -6,27 +6,28 @@ Kanban este un tip de [[Afișaje|vizualizare]] pe care îl poți folosi în [[In
 Selectează ![[lucide-kanban-square.svg#icon]] **Kanban** din meniul de vizualizare pentru a afișa fișierele ca și carduri organizate în coloane. Fiecare coloană reprezintă o valoare a proprietății utilizate pentru a grupa rezultatele.
 
 
-> [!warning] Necesită Obsidian 1.14+
-> Vizualizările Kanban necesită Obsidian 1.14, care este în prezent în [[Versiuni cu acces timpuriu|acces timpuriu]].
+> [!note] Necesită Obsidian 1.14+
+> Vizualizările Kanban sunt disponibile în Obsidian 1.14 și versiunile ulterioare.
 
 
 ## Grupează cardurile în coloane
 
 O vizualizare Kanban necesită o proprietate pentru a grupa rezultatele.
 
-1. Selectează ![[lucide-arrow-up-down.svg#icon]] **Sortează** din bara de instrumente.
-2. Sub **Grupează după**, selectează **Proprietate** și alege o proprietate.
+1. Selectează **Grup** din bara de instrumente. Pe telefoane, selectează **Afișaj → Grup**.
+2. Sub **Grupează după**, alege o proprietate.
 
 Fișierele fără o valoare pentru proprietatea selectată apar în coloana **Niciunul**.
 
 > [!info] 
-> Dacă grupezi după o formulă sau o proprietate de fișier, nu poți muta carduri sau coloane, și nici crea notițe din coloane. Aceste proprietăți nu pot fi editate prin mutarea unui card.
+> Dacă grupezi după o formulă sau o proprietate de fișier alta decât `file.folder`, nu poți muta carduri sau coloane, și nici crea notițe din coloane. Poți totuși [[Afișaje#Reordonează, ascunde și adaugă grupuri|gestiona ordinea și vizibilitatea grupurilor]] din meniul **Grup**.
 
 ## Lucrează cu carduri și coloane
 
-- Trage un card într-o altă coloană pentru a actualiza proprietatea grupată în acea notiță. Doar notițele Markdown pot fi mutate între coloane.
+- Trage un card într-o altă coloană pentru a actualiza proprietatea grupată în acea notiță. Doar notițele Markdown pot fi mutate între coloane, cu excepția grupării după `file.folder`, unde mutarea unui card mută fișierul în acel director.
 - Selectează pictograma plus din antetul unei coloane sau ![[lucide-plus.svg#icon]] **Nou** în partea de jos a unei coloane pentru a crea o notiță cu valoarea acelei coloane.
-- Trage un antet de coloană pentru a schimba ordinea coloanelor. Pentru a restaura ordinea originală, fă clic dreapta pe o coloană și selectează **Resetează ordinea**.
+- Trage un antet de coloană pentru a schimba ordinea coloanelor. Pentru a restaura ordinea automată, deschide **Grup** și alege o ordine de sortare automată în loc de **Manual**.
+- Folosește **Grup** pentru a [[Afișaje#Reordonează, ascunde și adaugă grupuri|reordona, ascunde sau adăuga coloane]].
 - Folosește meniul ![[lucide-list.svg#icon]] **Proprietăți** pentru a alege proprietățile afișate pe fiecare card. Prima proprietate este afișată ca titlu al cardului.
 
 ## Setări

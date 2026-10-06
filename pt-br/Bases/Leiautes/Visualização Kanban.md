@@ -6,27 +6,28 @@ Kanban é um tipo de [[Visualizações|visualização]] que você pode usar no [
 Selecione ![[lucide-kanban-square.svg#icon]] **Kanban** no menu de visualização para exibir arquivos como cartões organizados em colunas. Cada coluna representa um valor da propriedade usada para agrupar os resultados.
 
 
-> [!warning] Requer Obsidian 1.14+
-> Visualizações Kanban requerem Obsidian 1.14, que atualmente está em [[Versões de acesso antecipado|acesso antecipado]].
+> [!note] Requer Obsidian 1.14+
+> Visualizações Kanban estão disponíveis no Obsidian 1.14 e posterior.
 
 
 ## Agrupar cartões em colunas
 
 Uma visualização Kanban requer uma propriedade para agrupar os resultados.
 
-1. Selecione ![[lucide-arrow-up-down.svg#icon]] **Ordenar** na barra de ferramentas.
-2. Em **Agrupar por**, selecione **Propriedade** e escolha uma propriedade.
+1. Selecione **Agrupar** na barra de ferramentas. Em celulares, selecione **Exibição → Agrupar**.
+2. Em **Agrupar por**, escolha uma propriedade.
 
 Arquivos sem um valor para a propriedade selecionada aparecem na coluna **Nenhum**.
 
 > [!info] 
-> Se você agrupar por uma fórmula ou propriedade de arquivo, não poderá mover cartões ou colunas, nem criar notas a partir das colunas. Essas propriedades não podem ser editadas movendo um cartão.
+> Se você agrupar por uma fórmula ou uma propriedade de arquivo diferente de `file.folder`, não poderá mover cartões ou colunas, nem criar notas a partir das colunas. Você ainda pode [[Visualizações#Reordenar, ocultar e adicionar grupos|gerenciar a ordem e visibilidade dos grupos]] no menu **Agrupar**.
 
 ## Trabalhar com cartões e colunas
 
-- Arraste um cartão para outra coluna para atualizar a propriedade agrupada naquela nota. Apenas notas Markdown podem ser movidas entre colunas.
+- Arraste um cartão para outra coluna para atualizar a propriedade agrupada naquela nota. Apenas notas Markdown podem ser movidas entre colunas, exceto ao agrupar por `file.folder`, onde mover um cartão move o arquivo para aquela pasta.
 - Selecione o ícone de mais no cabeçalho de uma coluna ou ![[lucide-plus.svg#icon]] **Novo** na parte inferior de uma coluna para criar uma nota com o valor daquela coluna.
-- Arraste o cabeçalho de uma coluna para alterar a ordem das colunas. Para restaurar a ordem original, clique com o botão direito em uma coluna e selecione **Redefinir ordem**.
+- Arraste o cabeçalho de uma coluna para alterar a ordem das colunas. Para restaurar a ordem automática, abra **Agrupar** e escolha uma ordem de classificação automática em vez de **Manual**.
+- Use **Agrupar** para [[Visualizações#Reordenar, ocultar e adicionar grupos|reordenar, ocultar ou adicionar colunas]].
 - Use o menu ![[lucide-list.svg#icon]] **Propriedades** para escolher as propriedades exibidas em cada cartão. A primeira propriedade é exibida como o título do cartão.
 
 ## Configurações

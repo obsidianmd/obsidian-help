@@ -55,12 +55,12 @@ Konfigurasjonsalternativer for **Vis notat**-widget:
 
 ## Hurtigfangst
 
-Hurtigfangst lar deg lagre tekst til hvelvet ditt fra låseskjermen, kontrollsenteret eller hjemskjerm-widgeter. Avhengig av fangstplasseringen du velger, kan Hurtigfangst opprette et nytt notat eller legge teksten til et eksisterende notat.
+Hurtigfangst lar deg lagre tekst til hvelvet ditt fra låseskjermen, kontrollsenteret, hjemskjerm-widgeter eller Snarveier uten å vente på at hvelvet lastes inn. Avhengig av fangstplasseringen du velger, kan Hurtigfangst opprette et nytt notat eller legge teksten til et eksisterende notat.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Merk
-> Hurtigfangst er tilgjengelig på iOS og iPadOS 26 og nyere.
+> Hurtigfangst krever Obsidian 1.14 eller nyere og iOS eller iPadOS 26 eller nyere.
 
 For å fange tekst:
 

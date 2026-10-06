@@ -56,12 +56,12 @@ Opções de configuração do widget **Visualizar Nota**:
 
 ## Captura Rápida
 
-A Captura Rápida permite salvar texto no seu cofre a partir dos widgets da Tela de Bloqueio, Central de Controle ou Tela Inicial. Dependendo do local de captura selecionado, a Captura Rápida pode criar uma nova nota ou adicionar o texto a uma nota existente.
+A Captura Rápida permite salvar texto no seu cofre a partir dos widgets da Tela de Bloqueio, Central de Controle, Tela Inicial ou Atalhos, sem esperar o cofre carregar. Dependendo do local de captura selecionado, a Captura Rápida pode criar uma nova nota ou adicionar o texto a uma nota existente.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Nota
-> A Captura Rápida está disponível no iOS e iPadOS 26 e superior.
+> A Captura Rápida requer o Obsidian 1.14 ou posterior e iOS ou iPadOS 26 ou posterior.
 
 Para capturar texto:
 

@@ -6,27 +6,28 @@ Kanban je typ [[Zobrazenia|zobrazenia]], ktorý môžete použiť v [[Úvod do D
 Vyberte ![[lucide-kanban-square.svg#icon]] **Kanban** z menu zobrazenia na zobrazenie súborov ako kariet usporiadaných do stĺpcov. Každý stĺpec reprezentuje hodnotu vlastnosti použitej na zoskupenie výsledkov.
 
 
-> [!warning] Vyžaduje Obsidian 1.14+
-> Kanban zobrazenia vyžadujú Obsidian 1.14, ktorý je momentálne vo [[Verzie s predčasným prístupom|verzii s predčasným prístupom]].
+> [!note] Vyžaduje Obsidian 1.14+
+> Kanban zobrazenia sú dostupné v Obsidian 1.14 a novšom.
 
 
 ## Zoskupenie kariet do stĺpcov
 
 Kanban zobrazenie vyžaduje vlastnosť na zoskupenie výsledkov.
 
-1. Vyberte ![[lucide-arrow-up-down.svg#icon]] **Zoradiť** na paneli nástrojov.
-2. Pod **Zoskupiť podľa** vyberte **Vlastnosť** a zvoľte vlastnosť.
+1. Vyberte **Skupina** na paneli nástrojov. Na telefónoch vyberte **Zobrazenie → Skupina**.
+2. Pod **Zoskupiť podľa** zvoľte vlastnosť.
 
 Súbory bez hodnoty pre vybranú vlastnosť sa zobrazujú v stĺpci **Žiadna hodnota**.
 
 > [!info] 
-> Ak zoskupujete podľa vzorca alebo vlastnosti súboru, nemôžete presúvať karty ani stĺpce, ani vytvárať poznámky zo stĺpcov. Tieto vlastnosti nie je možné upraviť presunutím karty.
+> Ak zoskupujete podľa vzorca alebo vlastnosti súboru inej ako `file.folder`, nemôžete presúvať karty ani stĺpce, ani vytvárať poznámky zo stĺpcov. Stále môžete [[Zobrazenia#Zmena poradia, skrytie a pridanie skupín|spravovať poradie a viditeľnosť skupín]] v menu **Skupina**.
 
 ## Práca s kartami a stĺpcami
 
-- Presuňte kartu do iného stĺpca na aktualizáciu zoskupenej vlastnosti v danej poznámke. Medzi stĺpcami je možné presúvať iba Markdown poznámky.
+- Presuňte kartu do iného stĺpca na aktualizáciu zoskupenej vlastnosti v danej poznámke. Medzi stĺpcami je možné presúvať iba Markdown poznámky, s výnimkou zoskupenia podľa `file.folder`, kde presunutie karty presunie súbor do daného priečinka.
 - Vyberte ikonu plus v záhlaví stĺpca alebo ![[lucide-plus.svg#icon]] **Nový** v spodnej časti stĺpca na vytvorenie poznámky s hodnotou daného stĺpca.
-- Presuňte záhlavie stĺpca na zmenu poradia stĺpcov. Na obnovenie pôvodného poradia kliknite pravým tlačidlom na stĺpec a vyberte **Obnoviť poradie**.
+- Presuňte záhlavie stĺpca na zmenu poradia stĺpcov. Na obnovenie automatického poradia otvorte **Skupina** a zvoľte automatické zoradenie namiesto **Ručne**.
+- Použite **Skupina** na [[Zobrazenia#Zmena poradia, skrytie a pridanie skupín|zmenu poradia, skrytie alebo pridanie stĺpcov]].
 - Použite menu ![[lucide-list.svg#icon]] **Vlastnosti** na výber vlastností zobrazených na každej karte. Prvá vlastnosť sa zobrazuje ako nadpis karty.
 
 ## Nastavenia

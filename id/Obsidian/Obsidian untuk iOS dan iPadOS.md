@@ -56,12 +56,12 @@ Opsi konfigurasi widget **Lihat Catatan**:
 
 ## Quick Capture
 
-Quick Capture memungkinkan Anda menyimpan teks ke brankas Anda dari widget Layar Kunci, Control Center, atau Layar Utama. Tergantung pada lokasi tangkapan yang Anda pilih, Quick Capture dapat membuat catatan baru atau menambahkan teks ke catatan yang sudah ada.
+Quick Capture memungkinkan Anda menyimpan teks ke brankas Anda dari widget Layar Kunci, Control Center, Layar Utama, atau Shortcuts tanpa menunggu brankas Anda dimuat. Tergantung pada lokasi tangkapan yang Anda pilih, Quick Capture dapat membuat catatan baru atau menambahkan teks ke catatan yang sudah ada.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Catatan
-> Quick Capture tersedia di iOS dan iPadOS 26 dan lebih tinggi.
+> Quick Capture memerlukan Obsidian 1.14 atau lebih baru dan iOS atau iPadOS 26 atau lebih baru.
 
 Untuk menangkap teks:
 

@@ -147,6 +147,23 @@ Se puede forzar que el formato se muestre como texto sin formato añadiendo una 
 \**Esta línea estará en cursiva y mostrará los asteriscos*\*
 ```
 
+### Colores de resaltado
+
+Los resaltados admiten seis colores. Añade un emoji de color inmediatamente después del `==` de apertura:
+
+| Color    | Ejemplo               |
+| -------- | --------------------- |
+| Rojo     | `==🔴Importante==`    |
+| Naranja  | `==🟠Seguimiento==`   |
+| Amarillo | `==🟡Recuerda esto==` |
+| Verde    | `==🟢Completado==`    |
+| Azul     | `==🔵Referencia==`    |
+| Morado   | `==🟣Idea==`          |
+
+Sin un emoji de color, el resaltado usa el color de resaltado predeterminado de tu tema.
+
+También puedes elegir un color desde el menú de formato. Escribir `==` en el editor sugiere colores de resaltado. En la [[Vistas y modo de edición#Vista previa en vivo|Vista previa en vivo]], colocar el cursor dentro de un resaltado muestra una muestra de color. Selecciona la muestra para cambiar el color.
+
 ## Enlaces internos
 
 Obsidian admite dos formatos para [[Enlaces internos|enlaces internos]] entre notas:

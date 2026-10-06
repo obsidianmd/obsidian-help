@@ -56,12 +56,12 @@ Opzioni di configurazione del widget **Visualizza nota**:
 
 ## Cattura rapida
 
-Cattura rapida ti permette di salvare testo nel tuo vault dalla schermata di blocco, dal Centro di Controllo o dai widget della schermata Home. A seconda della posizione di cattura selezionata, Cattura rapida può creare una nuova nota o aggiungere il testo a una nota esistente.
+Cattura rapida ti permette di salvare testo nel tuo vault dalla schermata di blocco, dal Centro di Controllo, dai widget della schermata Home o dai Comandi Rapidi senza attendere il caricamento del vault. A seconda della posizione di cattura selezionata, Cattura rapida può creare una nuova nota o aggiungere il testo a una nota esistente.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Nota
-> Cattura rapida è disponibile su iOS e iPadOS 26 e versioni successive.
+> Cattura rapida richiede Obsidian 1.14 o versioni successive e iOS o iPadOS 26 o versioni successive.
 
 Per catturare del testo:
 

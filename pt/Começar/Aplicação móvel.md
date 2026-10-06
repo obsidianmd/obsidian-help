@@ -29,25 +29,20 @@ Ao editar uma nota, verá uma fila de ícones na parte inferior da aplicação. 
 
 ### Personalizar a barra de ferramentas móvel
 
-Na barra de ferramentas móvel, toque em **Configurar barra de ferramentas móvel** ![[lucide-wrench.svg#icon]] para abrir a interface de personalização.
+Na barra de ferramentas móvel, selecione **Configurar barra de ferramentas móvel** ![[lucide-wrench.svg#icon]] para abrir as suas definições.
 
-Alternativamente, pode fazê-lo nas Definições.
+Também pode abrir **[[Definições]] → Interface → Configurar barra de ferramentas móvel**.
 
-1. Abra as Definições.
-2. Escolha **Móvel**.
-3. Em **Gerir opções da barra de ferramentas**, adicione, remova ou reordene as opções disponíveis.
+Em **Gerir opções da barra de ferramentas**, utilize as pegas de arrastar para reordenar ações e os botões de remover para as remover. Selecione uma ação em **Mais opções da barra de ferramentas** para a adicionar.
 
 ### Adicionar comando à barra de ferramentas móvel
 
-Por predefinição, as opções disponíveis para adicionar à barra de ferramentas são opções de edição como "Adicionar link interno" ou "Adicionar tag".
+Além das ações de edição, pode adicionar comandos globais como **Mudar o tema**.
 
-Além disso, pode adicionar comandos globais como "Mudar tema".
-
-1. Encontre **Gerir opções da barra de ferramentas** em **[[Definições]]** → **Móvel**.
-2. Desloque até ao fundo, encontre **Adicionar comando global**.
-3. Escreva o nome do comando que deseja adicionar.
-4. Selecione o comando que gostaria de adicionar.
-5. O novo comando é adicionado ao final da barra de ferramentas.
+1. Abra **[[Definições]] → Interface → Configurar barra de ferramentas móvel**.
+2. Em **Gerir opções da barra de ferramentas**, selecione **Adicionar um comando...**.
+3. Pesquise o comando que deseja adicionar.
+4. Selecione o comando para o adicionar ao final da barra de ferramentas.
 
 ## Ação Rápida
 
@@ -58,7 +53,7 @@ A Ação Rápida está predefinida para abrir a [[Paleta de comando]].
 ### Personalizar a Ação Rápida
 
 1. Abra as Definições.
-2. Em **Opções**, escolha **Barra de ferramentas**.
+2. Escolha **Interface**.
 3. Em **Configurar Ações Rápidas**, toque em **Configurar**.
 4. Escreva o nome do comando.
 5. Selecione o comando que gostaria de definir.

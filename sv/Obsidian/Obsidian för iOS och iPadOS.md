@@ -54,12 +54,12 @@ Konfigurationsalternativ för widgeten **Visa anteckning**:
 
 ## Snabbfångst
 
-Snabbfångst låter dig spara text till ditt valv från låsskärmen, Kontrollcenter eller hemskärmswidgetar. Beroende på vilken fångstplats du väljer kan Snabbfångst skapa en ny anteckning eller lägga till texten i en befintlig anteckning.
+Snabbfångst låter dig spara text till ditt valv från låsskärmen, Kontrollcenter, hemskärmswidgetar eller Genvägar utan att behöva vänta på att ditt valv laddas. Beroende på vilken fångstplats du väljer kan Snabbfångst skapa en ny anteckning eller lägga till texten i en befintlig anteckning.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Observera
-> Snabbfångst är tillgängligt på iOS och iPadOS 26 och högre.
+> Snabbfångst kräver Obsidian 1.14 eller senare och iOS eller iPadOS 26 eller senare.
 
 Så här fångar du text:
 

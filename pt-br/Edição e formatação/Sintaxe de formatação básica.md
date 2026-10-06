@@ -145,6 +145,23 @@ A formatação pode ser forçada a ser exibida como texto simples adicionando um
 \**Esta linha ficará em itálico e mostrará os asteriscos*\*
 ```
 
+### Cores de destaque
+
+Os destaques suportam seis cores. Adicione um emoji de cor imediatamente após o `==` de abertura:
+
+| Cor      | Exemplo               |
+| -------- | --------------------- |
+| Vermelho | `==🔴Importante==`    |
+| Laranja  | `==🟠Acompanhar==`    |
+| Amarelo  | `==🟡Lembrar disso==` |
+| Verde    | `==🟢Concluído==`     |
+| Azul     | `==🔵Referência==`    |
+| Roxo     | `==🟣Ideia==`         |
+
+Sem um emoji de cor, o destaque usa a cor de destaque padrão do seu tema.
+
+Você também pode escolher uma cor no menu de formatação. Digitar `==` no editor sugere cores de destaque. Na [[Visualizações e modo de edição#Visualização ao vivo|Visualização ao vivo]], posicionar o cursor dentro de um destaque mostra uma amostra de cor. Selecione a amostra para alterar a cor.
+
 ## Links internos
 
 O Obsidian suporta dois formatos para [[Links internos|links internos]] entre notas:

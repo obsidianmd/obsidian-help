@@ -204,7 +204,25 @@ views:
 - `name` 是显示名称，可用于定义默认视图。
 - `filters` 与上述完全相同，但仅适用于该视图。
 - `groupBy` 指定一个属性和排序方向。每行指定属性的值用于将行分组。
+- `groupOrder` 指定分组的顺序和可见性。如果存在此字段，则只显示值被列出的分组，并按该顺序排列。空列表会隐藏所有分组。移除 `groupOrder` 可按 `groupBy` 定义的顺序显示所有分组。
 - `summaries` 将属性名称映射到命名的汇总。汇总对所有行中的属性执行聚合操作。
+
+例如，以下视图仅按该顺序显示 Planned、In progress 和 Done 分组：
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+在 `groupOrder` 中使用 `null` 可以包含分组属性没有值的文件。
 
 [[视图]]可以添加额外的数据来存储维护状态或正确渲染所需的任何信息，但插件作者应注意不要使用核心数据库插件已经使用的键。例如，表格视图可以用它来限制行数或选择用于排序的列及排序方向。不同的视图类型（如地图）可以用它来映射笔记中哪个属性对应经纬度，以及哪个属性应作为标记标题显示。
 

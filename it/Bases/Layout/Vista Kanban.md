@@ -6,27 +6,28 @@ Kanban è un tipo di [[Viste|vista]] utilizzabile in [[Introduzione a Base|Base]
 Seleziona ![[lucide-kanban-square.svg#icon]] **Kanban** dal menu delle viste per visualizzare i file come schede organizzate in colonne. Ogni colonna rappresenta un valore della proprietà utilizzata per raggruppare i risultati.
 
 
-> [!warning] Richiede Obsidian 1.14+
-> Le viste Kanban richiedono Obsidian 1.14, attualmente disponibile in [[Versioni ad accesso anticipato|accesso anticipato]].
+> [!note] Richiede Obsidian 1.14+
+> Le viste Kanban sono disponibili in Obsidian 1.14 e versioni successive.
 
 
 ## Raggruppare le schede in colonne
 
 Una vista Kanban richiede una proprietà per raggruppare i risultati.
 
-1. Seleziona ![[lucide-arrow-up-down.svg#icon]] **Ordina** nella barra degli strumenti.
-2. In **Raggruppa per**, seleziona **Proprietà** e scegli una proprietà.
+1. Seleziona **Gruppo** nella barra degli strumenti. Sui telefoni, seleziona **Visualizzazione → Gruppo**.
+2. In **Raggruppa per**, scegli una proprietà.
 
 I file senza un valore per la proprietà selezionata appaiono nella colonna **Nessun valore**.
 
 > [!info] 
-> Se si raggruppa per formula o proprietà del file, non è possibile spostare le schede o le colonne, né creare note dalle colonne. Queste proprietà non possono essere modificate spostando una scheda.
+> Se si raggruppa per formula o per una proprietà del file diversa da `file.folder`, non è possibile spostare le schede o le colonne, né creare note dalle colonne. È comunque possibile [[Viste#Riordinare, nascondere e aggiungere gruppi|gestire l'ordine e la visibilità dei gruppi]] nel menu **Gruppo**.
 
 ## Lavorare con schede e colonne
 
-- Trascina una scheda in un'altra colonna per aggiornare la proprietà raggruppata in quella nota. Solo le note Markdown possono essere spostate tra le colonne.
+- Trascina una scheda in un'altra colonna per aggiornare la proprietà raggruppata in quella nota. Solo le note Markdown possono essere spostate tra le colonne, tranne quando si raggruppa per `file.folder`, dove spostare una scheda sposta il file in quella cartella.
 - Seleziona l'icona più nell'intestazione di una colonna o ![[lucide-plus.svg#icon]] **Nuovo** in fondo a una colonna per creare una nota con il valore di quella colonna.
-- Trascina l'intestazione di una colonna per cambiare l'ordine delle colonne. Per ripristinare l'ordine originale, fai clic con il tasto destro su una colonna e seleziona **Ripristina ordine**.
+- Trascina l'intestazione di una colonna per cambiare l'ordine delle colonne. Per ripristinare l'ordine automatico, apri **Gruppo** e scegli un ordinamento automatico invece di **Manuale**.
+- Usa **Gruppo** per [[Viste#Riordinare, nascondere e aggiungere gruppi|riordinare, nascondere o aggiungere colonne]].
 - Usa il menu ![[lucide-list.svg#icon]] **Proprietà** per scegliere le proprietà mostrate su ogni scheda. La prima proprietà viene visualizzata come titolo della scheda.
 
 ## Impostazioni

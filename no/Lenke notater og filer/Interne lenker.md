@@ -50,8 +50,6 @@ For å opprette en lenke mens du er i redigeringsvisning, bruk en av følgende m
 - Velg tekst i redigeringsprogrammet og skriv deretter `[[`.
 - Åpne [[Kommandovelger|kommandopaletten]] og velg deretter Legg til intern lenke.
 
-![[Hurtigåpner#^search-autocomplete-large]]
-
 Selv om du kan lenke til alle [[Aksepterte filformater]], må lenker til andre filformater enn Markdown inkludere en filextension, for eksempel `[[Figure 1.png]]`.
 
 > [!tip] Å sette et utropstegn (!) foran en intern lenke lar deg bygge inn det lenkede innholdet. For mer informasjon, se [[Bygge inn filer]].

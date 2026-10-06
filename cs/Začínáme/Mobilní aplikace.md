@@ -29,25 +29,20 @@ Při úpravě poznámky si všimnete řady ikon ve spodní části aplikace. Vý
 
 ### Přizpůsobení mobilního nástrojového panelu
 
-Na mobilním nástrojovém panelu klepněte na **Nastavit nástrojový-panel** ![[lucide-wrench.svg#icon]] pro otevření rozhraní pro jeho přizpůsobení.
+Na mobilním nástrojovém panelu vyberte **Nastavit nástrojový-panel** ![[lucide-wrench.svg#icon]] pro otevření jeho nastavení.
 
-Případně to můžete provést v Nastavení.
+Můžete také otevřít **[[Nastavení]] → Rozhraní → Nastavit nástrojový-panel**.
 
-1. Otevřete Nastavení.
-2. Vyberte **Mobilní**.
-3. V sekci **Upravit nástrojový-panel** přidejte, odstraňte nebo přeuspořádejte dostupné možnosti.
+V sekci **Upravit nástrojový-panel** použijte úchyty pro přeuspořádání akcí a tlačítka pro odstranění k jejich odebrání. Vyberte akci v sekci **Další nastavení** pro její přidání.
 
 ### Přidání příkazu do mobilního nástrojového panelu
 
-Ve výchozím nastavení jsou možnosti, které lze přidat na nástrojový panel, editační volby jako „Přidat interní odkaz" nebo „Přidat štítek".
+Kromě editačních akcí můžete přidat globální příkazy jako **Změnit motiv**.
 
-Kromě toho můžete přidat globální příkazy jako „Změnit motiv".
-
-1. Najděte **Upravit nástrojový-panel** v **[[Nastavení]]** → **Mobilní**.
-2. Přejděte úplně dolů a najděte **Přidat globální příkaz**.
-3. Zadejte název příkazu, který chcete přidat.
-4. Vyberte příkaz, který chcete přidat.
-5. Nový příkaz se přidá na konec nástrojového panelu.
+1. Otevřete **[[Nastavení]] → Rozhraní → Nastavit nástrojový-panel**.
+2. V sekci **Upravit nástrojový-panel** vyberte **Přidat příkaz...**.
+3. Vyhledejte příkaz, který chcete přidat.
+4. Vyberte příkaz pro jeho přidání na konec nástrojového panelu.
 
 ## Rychlá akce
 
@@ -58,7 +53,7 @@ Výchozí Rychlá akce otevře [[Paleta příkazů|paletu příkazů]].
 ### Přizpůsobení Rychlé akce
 
 1. Otevřete Nastavení.
-2. V sekci **Nastavení** vyberte **Nástrojový panel**.
+2. Vyberte **Rozhraní**.
 3. V sekci **Nastavit mobilní Rychlou akci** klepněte na **Nastavit**.
 4. Zadejte název příkazu.
 5. Vyberte příkaz, který chcete nastavit.

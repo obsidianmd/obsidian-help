@@ -50,8 +50,6 @@ Pre vytvorenie odkazu v režime úprav použite jeden z nasledujúcich spôsobov
 - Vyberte text v editore a potom napíšte `[[`.
 - Otvorte [[Paleta príkazov|paletu príkazov]] a vyberte Pridať interný odkaz.
 
-![[Rýchly prepínač#^search-autocomplete-large]]
-
 Hoci môžete odkazovať na akýkoľvek z [[Akceptované formáty súborov|akceptovaných formátov súborov]], odkazy na súborové formáty iné ako Markdown musia obsahovať príponu súboru, napríklad `[[Figure 1.png]]`.
 
 > [!tip] Pridaním výkričníka (!) pred interný odkaz môžete vložiť prepojený obsah. Viac podrobností nájdete v časti [[Vkladanie súborov]].

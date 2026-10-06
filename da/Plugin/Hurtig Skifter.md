@@ -5,22 +5,32 @@ aliases:
   - Hurtigskifter
   - Plugins/Hurtigskifter
 ---
-Hurtigskifteren lader dig søge og åbne noter ved brug af kun tastaturet.
+Hurtigskifteren er et [[Kerneplugins|kerneplugin]], der lader dig søge og åbne noter ved brug af kun tastaturet.
 
-For at åbne en note ved brug af hurtigskifteren, skal du:
+## Åbn Hurtigskifter
 
-1. Trykke på `Ctrl+O` (eller `Cmd+O` på macOS) for at åbne hurtigskifteren
-2. Skrive for at søge efter en note eller dens alias
-3. Navigere til noten med piletasterne
-4. Trykke `Retur` for at åbne den valgte note
+Der er flere måder at åbne Hurtigskifteren på, når den er aktiveret:
+- Tryk på `Ctrl+O` (eller `Cmd+O` på macOS) for at åbne Hurtigskifteren;
+- Klik på **Åbn Hurtigskifter** ![[lucide-file-search.svg#icon]] i værktøjslinjen;
+- På mobil, når du ikke redigerer en note, tryk på plus-ikonet nederst i midten af appen.
 
-Hvis teksten du skriver ikke matcher nogle noter kan du trykke `Retur` for at oprette en note med det navn. Selv hvis teksten matcher en eler flere lignende noter, kan du stadig oprette en note med det navn ved at trykke `Shift+Enter`.
+## Åbn en note med Hurtigskifteren
 
-Du kan åbne den valgte note i et nyt panel ved at trykke `Ctrl+Enter` (eller `Cmd+Enter` på macOS).
+1. [[#Åbn Hurtigskifter]].
+2. Skriv for at søge efter en note ved navn eller alias.
+3. Naviger til noten med piletasterne.
+4. Tryk `Retur` for at åbne den valgte note.
+
+> [!info] Fuzzy matching
+> Filforslag matcher bogstaver i rækkefølge, selv hvis du springer nogle over. For eksempel kan `dn` matche `Daglige noter`.
+
+Hvis teksten du skriver ikke matcher nogle noter, kan du trykke `Retur` for at oprette en note med det navn. Selv hvis teksten matcher en eller flere lignende noter, kan du stadig oprette en note med det navn ved at trykke `Shift+Enter`.
+
+Du kan åbne den valgte note i en ny fane ved at trykke `Ctrl+Enter` (eller `Cmd+Enter` på macOS).
 
 > [!tip] Skift mellem to noter
-> Hvis søgefeltet er tomt vi lhurtigskifteren vise de senest redigerede noter. Skift hurtigt mellem de to senest redigerede noter ved at åbne hurtigskifteren, tryk på ned på piletasten og tryk `Retur`
+> Hvis søgefeltet er tomt, vil Hurtigskifteren vise de senest redigerede noter. Skift hurtigt mellem de to senest redigerede noter ved at åbne Hurtigskifteren, trykke på ned på piletasten og trykke `Retur`.
 
----
 
-> [!info] Autocomplete functionality switches to a simpler result algorithm when the vault reaches 10,000 items to maintain optimal application performance. ^search-autocomplete-large
+> [!info] Ekskluderede filer
+> Filer, der matcher dine [[Indstillinger#Excluded files|Ekskluderede filer]]-mønstre, nedprioriteres i Hurtigskifterens resultater.

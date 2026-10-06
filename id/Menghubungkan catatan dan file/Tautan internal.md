@@ -53,8 +53,6 @@ Untuk membuat tautan saat dalam tampilan Pengubah, gunakan salah satu cara berik
 - Pilih teks di editor lalu ketik `[[`.
 - Buka [[Palet perintah]] lalu pilih Tambahkan tautan internal.
 
-![[Peralih cepat#^search-autocomplete-large]]
-
 Meskipun Anda dapat menautkan ke semua [[Format file yang diterima]], tautan ke format file selain Markdown perlu menyertakan extension file, seperti `[[Figure 1.png]]`.
 
 > [!tip] Menambahkan awalan tanda seru (!) pada tautan internal memungkinkan Anda menyematkan konten yang ditautkan. Untuk detail lebih lanjut, lihat [[Sematkan file]].

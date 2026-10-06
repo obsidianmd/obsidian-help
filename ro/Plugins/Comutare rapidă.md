@@ -20,9 +20,8 @@ Există mai multe moduri de a deschide Comutarea rapidă, când este activată:
 3. Navighează la notă folosind săgețile de la tastatură.
 4. Apasă `Enter` pentru a deschide nota selectată.
 
-> [!info] 
-> Funcționalitatea de autocompletare trece la un algoritm de rezultate mai simplu atunci când seiful atinge 10.000 de elemente, pentru a menține performanța optimă a aplicației. 
-^search-autocomplete-large
+> [!info] Potrivire aproximativă
+> Sugestiile de fișiere potrivesc literele în ordine, chiar dacă omiteți unele. De exemplu, `nz` poate potrivi `Note zilnice`.
 
 Dacă textul nu se potrivește cu nicio notă, poți apăsa `Enter` pentru a crea o notă cu acel nume. Chiar dacă textul se potrivește cu una sau mai multe note similare, poți totuși crea o notă cu numele exact apăsând `Shift+Enter`.
 

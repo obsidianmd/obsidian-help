@@ -21,6 +21,27 @@ Puoi anche creare note usando l'[[Esplora file#Creare una nuova nota|esplora fil
 > Obsidian rispetta le limitazioni sui nomi dei file del sistema operativo su cui crei la nota. Se prevedi di [[Sincronizza le note tra dispositivi|sincronizzare le tue note tra dispositivi]], assicurati che i nomi dei file siano [compatibili con altri sistemi operativi](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Aprire file al di fuori del vault
+
+Su desktop, puoi aprire e modificare singoli file Markdown al di fuori del tuo vault. I file si aprono nella finestra corrente e rimangono nella loro posizione originale.
+
+> [!note] Richiede Obsidian 1.14 e il programma di installazione più recente
+> [[Aggiorna Obsidian#Installer updates|Aggiorna il programma di installazione]] scaricando Obsidian da [obsidian.md/download](https://obsidian.md/download) e reinstallando l'applicazione.
+
+Per aprire un file Markdown:
+
+1. Apri il [[Riquadro comandi|riquadro comandi]].
+2. Seleziona **Apri un file esterno al vault...**.
+3. Scegli un file Markdown sul tuo computer.
+
+Puoi anche usare il menu **Apri con** del tuo sistema operativo e selezionare **Obsidian**. Per aprire i file Markdown in Obsidian per impostazione predefinita, impostalo come applicazione predefinita per i file `.md`.
+
+Le immagini incorporate e i collegamenti ad altri file locali vengono risolti in modo relativo alla cartella del file Markdown. Usa la [[Struttura|struttura]] per navigare tra le intestazioni e i [[Collegamenti in uscita|collegamenti in uscita]] per esplorare i file collegati.
+
+### Anteprima dei file con Quick Look
+
+Su macOS, seleziona un file Markdown nel Finder e premi `Spazio` per visualizzarne l'anteprima con **Quick Look**. Le anteprime di Quick Look funzionano anche quando Obsidian è chiuso.
+
 ## Rinominare una nota
 
 Per rinominare una nota attiva:

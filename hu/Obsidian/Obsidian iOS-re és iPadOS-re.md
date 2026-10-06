@@ -54,12 +54,12 @@ A widgeteket testreszabhatja a munkafolyamatának megfelelően, például kivál
 
 ## Gyors rögzítés
 
-A Gyors rögzítés lehetővé teszi szöveg mentését a széfbe a zárolási képernyő, a Vezérlőközpont vagy a kezdőképernyő widgetekről. A kiválasztott rögzítési helytől függően a Gyors rögzítés új jegyzetet hozhat létre, vagy a szöveget egy meglévő jegyzethez adhatja hozzá.
+A Gyors rögzítés lehetővé teszi szöveg mentését a széfbe a zárolási képernyő, a Vezérlőközpont, a kezdőképernyő widgetekről vagy Parancsikonokból anélkül, hogy meg kellene várni a széf betöltését. A kiválasztott rögzítési helytől függően a Gyors rögzítés új jegyzetet hozhat létre, vagy a szöveget egy meglévő jegyzethez adhatja hozzá.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Megjegyzés
-> A Gyors rögzítés iOS és iPadOS 26 vagy újabb verzión érhető el.
+> A Gyors rögzítéshez Obsidian 1.14 vagy újabb, valamint iOS vagy iPadOS 26 vagy újabb szükséges.
 
 Szöveg rögzítéséhez:
 

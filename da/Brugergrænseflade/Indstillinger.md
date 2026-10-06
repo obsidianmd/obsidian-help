@@ -10,11 +10,11 @@ Indstillinger giver dig mulighed for at tilpasse din Obsidian-oplevelse. Konfigu
 
 ### Desktop
 
-I den [[Sidebjælke#Åbn skjulte sidebjælker|venstre sidebjælke]] vælger du **[[Indstillinger]]** ![[lucide-cog.svg#icon]]. Du kan også åbne Indstillinger med [[Fastgjorte kommandoer|kommandopaletten]].
+I [[Sidebjælke#Åbn skjulte sidebjælker|sidebjælken]] vælger du **[[Indstillinger]]** ![[lucide-cog.svg#icon]]. Du kan også åbne Indstillinger med [[Fastgjorte kommandoer|kommandopaletten]].
 
 ### Mobil
 
-I den venstre sidebjælke vælger du **[[Indstillinger]]** ![[lucide-cog.svg#icon]].
+I sidebjælken vælger du **[[Indstillinger]]** ![[lucide-cog.svg#icon]]. Indstillinger åbnes i et ark oven på applikationen.
 
 ## Organisering af indstillinger
 
@@ -294,9 +294,11 @@ Indstil skrifttype til steder som kodeblokke og metadata. Vælg **Administrer** 
 
 Skriftstørrelse i pixels, der påvirker redigerings- og læsevisninger. Juster med skyderen.
 
+Skriftstørrelsen gemmes separat på hver enhed og synkroniseres ikke via [[Introduktion til Obsidian Sync|Obsidian Sync]]. På mobil skaleres tekst- og grænsefladeelementer også med dit systems foretrukne tekststørrelse, herunder tilgængelighedsstørrelser.
+
 #### Hurtig justering af skriftstørrelse
 
-Juster skriftstørrelsen med `Ctrl+Scroll` (Windows/Linux) eller `Cmd+Scroll` (macOS), eller ved at bruge pinch-zoom-bevægelsen på pegefeltet.
+Juster skriftstørrelsen med `Ctrl+Scroll` (Windows/Linux) eller `Cmd+Scroll` (macOS), eller ved at bruge pinch-zoom-bevægelsen på pegefeltet. Du kan også bruge **Øg skriftstørrelsen** og **Mindsk skriftstørrelsen** i [[Fastgjorte kommandoer|kommandopaletten]], eller tildele dem [[Genvejstaster|tastaturgenveje]].
 
 ### Grænseflade
 

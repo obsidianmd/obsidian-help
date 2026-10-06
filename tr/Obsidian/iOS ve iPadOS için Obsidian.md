@@ -54,12 +54,12 @@ Widget'ları iş akışınıza uyacak şekilde özelleştirebilirsiniz; örneği
 
 ## Hızlı Yakalama
 
-Hızlı Yakalama, Kilit Ekranı, Kontrol Merkezi veya Ana Ekran widget'larından kasanıza metin kaydetmenize olanak tanır. Seçtiğiniz yakalama konumuna bağlı olarak, Hızlı Yakalama yeni bir not oluşturabilir veya metni mevcut bir nota ekleyebilir.
+Hızlı Yakalama, Kilit Ekranı, Kontrol Merkezi, Ana Ekran widget'ları veya Kısayollar aracılığıyla kasanızın yüklenmesini beklemeden kasanıza metin kaydetmenize olanak tanır. Seçtiğiniz yakalama konumuna bağlı olarak, Hızlı Yakalama yeni bir not oluşturabilir veya metni mevcut bir nota ekleyebilir.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Not
-> Hızlı Yakalama iOS ve iPadOS 26 ve üzeri sürümlerde kullanılabilir.
+> Hızlı Yakalama, Obsidian 1.14 veya sonraki sürümlerini ve iOS veya iPadOS 26 veya sonraki sürümlerini gerektirir.
 
 Metin yakalamak için:
 

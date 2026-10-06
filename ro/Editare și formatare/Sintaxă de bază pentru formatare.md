@@ -6,7 +6,6 @@ description: 'Aflați cum să aplicați formatare de bază notelor dvs. în Obsi
 aliases:
   - Basic formatting syntax
 ---
-
 Aflați cum să aplicați formatare de bază notelor dvs., folosind [Markdown](https://daringfireball.net/projects/markdown/). Pentru sintaxă de formatare mai avansată, consultați [[Sintaxă avansată de formatare]].
 
 ## Paragrafe
@@ -147,6 +146,23 @@ Formatarea poate fi forțată să se afișeze ca text simplu prin adăugarea une
 ```markdown
 \**This line will be italic and show the asterisks*\*
 ```
+
+### Culori de evidențiere
+
+Evidențierile acceptă șase culori. Adăugați un emoji de culoare imediat după `==` de deschidere:
+
+| Culoare   | Exemplu               |
+| --------- | --------------------- |
+| Roșu      | `==🔴Important==`     |
+| Portocaliu| `==🟠Follow up==`     |
+| Galben    | `==🟡Remember this==` |
+| Verde     | `==🟢Completed==`     |
+| Albastru  | `==🔵Reference==`     |
+| Mov       | `==🟣Idea==`          |
+
+Fără un emoji de culoare, evidențierea folosește culoarea implicită de evidențiere a temei dvs.
+
+De asemenea, puteți alege o culoare din meniul de formatare. Tastarea `==` în editor sugerează culori de evidențiere. În [[Moduri de vizualizare și editare#Live Preview|Previzualizare în direct]], plasarea cursorului în interiorul unei evidențieri afișează un eșantion de culoare. Selectați eșantionul pentru a schimba culoarea.
 
 ## Legături interne
 

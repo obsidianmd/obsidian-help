@@ -10,11 +10,11 @@ Ayarlar, Obsidian deneyiminizi özelleştirmenize olanak tanır. Genel seçenekl
 
 ### Masaüstü
 
-[[Kenar çubuğu#Gizli kenar çubuklarını açma|Sol kenar çubuğunda]], **[[Ayarlar]]** ![[lucide-cog.svg#icon]] seçeneğini seçin. Ayarları [[Komut Paleti]] ile de açabilirsiniz.
+[[Kenar çubuğu#Gizli kenar çubuklarını açma|Kenar çubuğunda]], **[[Ayarlar]]** ![[lucide-cog.svg#icon]] seçeneğini seçin. Ayarları [[Komut Paleti]] ile de açabilirsiniz.
 
 ### Mobil
 
-Sol kenar çubuğunda, **[[Ayarlar]]** ![[lucide-cog.svg#icon]] seçeneğini seçin.
+Kenar çubuğunda, **[[Ayarlar]]** ![[lucide-cog.svg#icon]] seçeneğini seçin. Ayarlar, uygulamanın üzerinde bir sayfa olarak açılır.
 
 ## Ayarlar düzeni
 
@@ -294,9 +294,11 @@ Kod blokları ve başlangıç meta verileri gibi yerler için yazı tipini ayarl
 
 Düzenleme ve okuma görünümlerini etkileyen piksel cinsinden yazı tipi boyutu. Kaydırıcıyı kullanarak ayarlayın.
 
+Yazı tipi boyutu her cihazda ayrı olarak kaydedilir ve [[Obsidian Sync'e Giriş|Obsidian Sync]] aracılığıyla senkronize edilmez. Mobil cihazlarda metin ve arayüz öğeleri, erişilebilirlik boyutları dahil olmak üzere sisteminizin tercih ettiği metin boyutuna göre de ölçeklenir.
+
 #### Hızlı font boyutu ayarlama
 
-`Ctrl+Kaydır` (Windows/Linux) veya `Cmd+Kaydır` (macOS) kullanarak veya izleme dörtgeni sıkıştırma-yakınlaştırma hareketi ile yazı tipi boyutunu ayarlayın.
+`Ctrl+Kaydır` (Windows/Linux) veya `Cmd+Kaydır` (macOS) kullanarak veya izleme dörtgeni sıkıştırma-yakınlaştırma hareketi ile yazı tipi boyutunu ayarlayın. Ayrıca [[Komut paleti|Komut paletinde]] **Yazı tipi boyutunu artır** ve **Yazı tipi boyutunu azalt** komutlarını kullanabilir veya bunlara [[Kısayol tuşları|klavye kısayolları]] atayabilirsiniz.
 
 ### Arayüz
 

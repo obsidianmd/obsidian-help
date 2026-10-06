@@ -201,7 +201,25 @@ views:
 - `name` er visningsnavnet, og kan brukes til å definere standardvisningen.
 - `filters` er nøyaktig det samme som beskrevet ovenfor, men gjelder kun for visningen.
 - `groupBy` angir en egenskap og sorteringsretning. Verdien av den angitte egenskapen for hver rad brukes til å plassere raden i grupper.
+- `groupOrder` angir rekkefølgen og synligheten til grupper. Hvis den er til stede, vises kun grupper med verdier som er oppført, i den rekkefølgen. En tom liste skjuler alle grupper. Fjern `groupOrder` for å vise alle grupper i rekkefølgen definert av `groupBy`.
 - `summaries` tilordner egenskapsnavn til et navngitt sammendrag. Sammendrag utfører en aggregering på egenskapen på tvers av alle rader.
+
+For eksempel viser denne visningen kun gruppene Planned, In progress og Done, i den rekkefølgen:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Bruk `null` i `groupOrder` for å inkludere filer som ikke har noen verdi for den grupperte egenskapen.
 
 [[Visninger]] kan legge til ytterligere data for å lagre informasjon som trengs for å opprettholde tilstand eller gjengi riktig, men utvidelsesforfattere bør passe på å ikke bruke nøkler som allerede er i bruk av kjerne-Bases-utvidelsen. Som et eksempel kan en tabellvisning bruke dette til å begrense antall rader eller velge hvilken kolonne som brukes til å sortere rader og i hvilken retning. En annen visningstype som et kart kan bruke dette til å tilordne hvilken egenskap i notatet som tilsvarer breddegrad og lengdegrad, og hvilken egenskap som skal vises som nåletittel.
 

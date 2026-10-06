@@ -9,7 +9,6 @@ description: 'Această pagină listează modulele integrate care vin instalate c
 aliases:
   - Core plugins
 ---
-
 Această pagină listează modulele integrate care vin instalate cu Obsidian. Modulele integrate sunt construite și întreținute oficial de echipa Obsidian și sunt incluse în aplicație.
 
 Unele module integrate sunt dezactivate implicit. Le poți activa sub **[[Setări|Setări]] → Module integrate**.
@@ -41,8 +40,6 @@ Echipa Obsidian întreține și dezvoltarea anumitor [[#Alte module|module comun
 	-  Recuperează-ți munca din instantanee periodice.
 - [[Afișaj note de subsol]]
 	- Afișează o listă cu notele de subsol din nota curentă.
-- [[Convertor de format]]
-	- Convertește Markdown din alte aplicații în formatul Obsidian.
 - [[Afișaj grafic|Afișaj grafic]]
 	- Vizualizează relațiile dintre notele din seiful tău.
 - [[Compozitor de notițe]]

@@ -145,6 +145,23 @@ A formázás egyszerű szövegként való megjelenítéséhez helyezzen egy ford
 \**Ez a sor dőlt lesz és mutatja a csillagokat*\*
 ```
 
+### Kiemelés színek
+
+A kiemelések hat színt támogatnak. Adjon hozzá egy szín emojit közvetlenül a nyitó `==` után:
+
+| Szín  | Példa               |
+| ------ | --------------------- |
+| Piros    | `==🔴Fontos==`     |
+| Narancssárga | `==🟠Nyomon követés==`     |
+| Sárga | `==🟡Emlékezz erre==` |
+| Zöld  | `==🟢Befejezve==`     |
+| Kék   | `==🔵Hivatkozás==`     |
+| Lila | `==🟣Ötlet==`          |
+
+Szín emoji nélkül a kiemelés a téma alapértelmezett kiemelési színét használja.
+
+A formázás menüből is választhat színt. A `==` beírása a szerkesztőben kiemelési színeket javasol. [[Nézetek és szerkesztési mód#Élő előnézet|Élő előnézetben]] a kurzor kiemelésre helyezése egy színmintát jelenít meg. Válassza ki a színmintát a szín megváltoztatásához.
+
 ## Belső hivatkozások
 
 Az Obsidian két formátumot támogat a [[Belső hivatkozások|belső hivatkozásokhoz]] a jegyzetek között:

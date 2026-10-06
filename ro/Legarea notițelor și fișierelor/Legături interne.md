@@ -8,7 +8,6 @@ description: 'Află cum să creezi legături către însemnări, atașamente și
 aliases:
   - Internal links
 ---
-
 Află cum să creezi legături către însemnări, atașamente și alte fișiere din însemnările tale, folosind _legături interne_. Prin legarea însemnărilor, poți crea o rețea de cunoștințe. ^b15695
 
 Obsidian poate actualiza automat legăturile interne din seiful tău atunci când redenumești un fișier. Dacă preferi să fii întrebat în schimb, poți dezactiva această opțiune în:
@@ -52,8 +51,6 @@ Pentru a crea o legătură în timp ce te afli în afișajul de editare, folose�
 - Tastează `[[` în editor, apoi selectează fișierul către care vrei să creezi o legătură.
 - Selectează text în editor, apoi tastează `[[`.
 - Deschide [[Paleta de comenzi|Paleta de comenzi]] și selectează Adaugă o legătură internă.
-
-![[Comutare rapidă#^search-autocomplete-large]]
 
 Deși poți crea legături către oricare dintre [[Formate de fișiere acceptate|formatele de fișiere acceptate]], legăturile către formate de fișiere altele decât Markdown trebuie să includă extensia fișierului, precum `[[Figure 1.png]]`.
 
@@ -169,7 +166,7 @@ Folosește `[Display text](Link URL)` pentru a personaliza modul în care apare 
 
 Această metodă este utilă pentru situații punctuale în care vrei să schimbi modul în care arată o legătură într-un context specific. Dacă vrei să configurezi un nume alternativ pentru legătură pe care să-l poți reutiliza în întregul tău seif, ia în considerare folosirea unui [[Pseudonime|alias]] în schimb.
 
-De exemplu, dacă te referi în mod regulat la `[[Three laws of motion]]` ca `[[The 3 laws]]`, adăugarea „3 laws” ca alias îți permite să tastezi doar acel text — fără să fie nevoie să adaugi text afișat personalizat de fiecare dată.
+De exemplu, dacă te referi în mod regulat la `[[Three laws of motion]]` ca `[[The 3 laws]]`, adăugarea „3 laws" ca alias îți permite să tastezi doar acel text — fără să fie nevoie să adaugi text afișat personalizat de fiecare dată.
 
 > [!tip] Sfat
 > Folosește [[#Modifică textul afișat al legăturii|textul afișat al legăturii]] atunci când vrei să personalizezi modul în care arată o legătură *într-un anumit loc*.

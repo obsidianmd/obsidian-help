@@ -48,8 +48,6 @@ Obsidian ekibi ayrıca belirli [[#Diğer eklentiler|açık kaynaklı topluluk ek
 	- Kelime ve karakter sayısını görüntüleyin.
 - [[Komut Paleti]]
 	- Klavyenizden komutlara hızlıca erişin.
-- [[Markdown formatı içe aktarıcı]]
-	- Markdown'ı diğer uygulamalardan Obsidian formatına dönüştürün.
 - [[Not Oluşturucu]]
 	- İki notu birleştirin veya birini ikiye bölün.
 - [[Obsidian Publish'e giriş|Publish]]

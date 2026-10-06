@@ -21,6 +21,27 @@ Puteți crea note și folosind [[Exploratorul de fișiere#Creați o notă nouă|
 > Obsidian va respecta limitările de nume de fișier ale sistemului de operare pe care creați nota. Dacă intenționați să [[Sincronizează-ți notițele pe toate dispozitivele|sincronizați notele între dispozitive]], asigurați-vă că numele fișierelor sunt [sigure pentru alte sisteme de operare](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Deschideți fișiere din afara seifului
+
+Pe desktop, puteți deschide și edita fișiere Markdown individuale din afara seifului. Fișierele se deschid în fereastra curentă și rămân în locația lor originală.
+
+> [!note] Necesită Obsidian 1.14 și cel mai recent pachet de instalare
+> [[Actualizează Obsidian#Actualizări ale pachetului de instalare|Actualizați pachetul de instalare]] descărcând Obsidian de pe [obsidian.md/download](https://obsidian.md/download) și reinstalând aplicația.
+
+Pentru a deschide un fișier Markdown:
+
+1. Deschideți [[Paleta de comenzi|paleta de comenzi]].
+2. Selectați **Deschide un fișier din afara seifului...**.
+3. Alegeți un fișier Markdown de pe computer.
+
+Puteți folosi și meniul **Deschide cu** al sistemului de operare și selectați **Obsidian**. Pentru a deschide fișierele Markdown în Obsidian implicit, setați-l ca aplicație implicită pentru fișierele `.md`.
+
+Încorporările de imagini și legăturile către alte fișiere locale se rezolvă relativ la directorul fișierului Markdown. Folosiți [[Sumar|Sumarul]] pentru a naviga prin titluri și [[Legături de ieșire|legăturile de ieșire]] pentru a răsfoi fișierele legate.
+
+### Previzualizați fișiere cu Quick Look
+
+Pe macOS, selectați un fișier Markdown în Finder și apăsați `Space` pentru a-l previzualiza cu **Quick Look**. Previzualizările Quick Look funcționează chiar și când Obsidian este închis.
+
 ## Redenumiți o notă
 
 Pentru a redenumi o notă activă:

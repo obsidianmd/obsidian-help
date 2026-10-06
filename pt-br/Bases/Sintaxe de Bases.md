@@ -201,7 +201,25 @@ views:
 - `name` é o nome de exibição e pode ser usado para definir a visualização padrão.
 - `filters` são exatamente os mesmos descritos acima, mas se aplicam apenas à visualização.
 - `groupBy` especifica uma propriedade e direção de ordenação. O valor da propriedade especificada para cada linha é usado para colocar a linha em grupos.
+- `groupOrder` especifica a ordem e a visibilidade dos grupos. Se presente, apenas os grupos cujos valores estão listados são mostrados, nessa ordem. Uma lista vazia oculta todos os grupos. Remova `groupOrder` para mostrar todos os grupos na ordem definida por `groupBy`.
 - `summaries` mapeia nomes de propriedades para um resumo nomeado. Resumos realizam uma agregação na propriedade em todas as linhas.
+
+Por exemplo, esta visualização mostra apenas os grupos Planned, In progress e Done, nessa ordem:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Use `null` em `groupOrder` para incluir arquivos que não possuem valor para a propriedade agrupada.
 
 [[Visualizações]] podem adicionar dados adicionais para armazenar qualquer informação necessária para manter o estado ou renderizar adequadamente, porém autores de plugins devem ter cuidado para não usar chaves já em uso pelo plugin Bases nativo. Como exemplo, uma visualização de tabela pode usar isso para limitar o número de linhas ou para selecionar qual coluna é usada para ordenar linhas e em qual direção. Um tipo de visualização diferente, como um mapa, poderia usar isso para mapear qual propriedade na nota corresponde à latitude e longitude e qual propriedade deve ser exibida como título do marcador.
 

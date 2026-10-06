@@ -6,27 +6,28 @@ Kanban er en type [[Visninger|visning]] du kan bruke i [[Introduksjon til Bases|
 Velg ![[lucide-kanban-square.svg#icon]] **Kanban** fra visningsmenyen for å vise filer som kort organisert i kolonner. Hver kolonne representerer en verdi av egenskapen som brukes til å gruppere resultater.
 
 
-> [!warning] Krever Obsidian 1.14+
-> Kanban-visninger krever Obsidian 1.14, som for øyeblikket er i [[Tidlig tilgang-versjoner|tidlig tilgang]].
+> [!note] Krever Obsidian 1.14+
+> Kanban-visninger er tilgjengelige i Obsidian 1.14 og nyere.
 
 
 ## Grupper kort i kolonner
 
 En Kanban-visning krever en egenskap for å gruppere resultater etter.
 
-1. Velg ![[lucide-arrow-up-down.svg#icon]] **Sorter** i verktøylinjen.
-2. Under **Grupper etter**, velg **Egenskap** og velg en egenskap.
+1. Velg **Gruppe** i verktøylinjen. På telefoner, velg **Visning → Gruppe**.
+2. Under **Grupper etter**, velg en egenskap.
 
 Filer uten en verdi for den valgte egenskapen vises i **Ingen**-kolonnen.
 
 > [!info] 
-> Hvis du grupperer etter en formel- eller filegenskap, kan du ikke flytte kort eller kolonner, eller opprette notater fra kolonnene. Disse egenskapene kan ikke redigeres ved å flytte et kort.
+> Hvis du grupperer etter en formel eller en filegenskap annet enn `file.folder`, kan du ikke flytte kort eller kolonner, eller opprette notater fra kolonnene. Du kan fortsatt [[Visninger#Omorganiser, skjul og legg til grupper|administrere grupperekkefølge og synlighet]] i **Gruppe**-menyen.
 
 ## Arbeid med kort og kolonner
 
-- Dra et kort til en annen kolonne for å oppdatere den grupperte egenskapen i det notatet. Bare Markdown-notater kan flyttes mellom kolonner.
+- Dra et kort til en annen kolonne for å oppdatere den grupperte egenskapen i det notatet. Bare Markdown-notater kan flyttes mellom kolonner, bortsett fra når du grupperer etter `file.folder`, der det å flytte et kort flytter filen til den mappen.
 - Velg pluss-ikonet i en kolonneoverskrift eller ![[lucide-plus.svg#icon]] **Ny** nederst i en kolonne for å opprette et notat med den kolonnens verdi.
-- Dra en kolonneoverskrift for å endre kolonnerekkefølgen. For å gjenopprette den opprinnelige rekkefølgen, høyreklikk på en kolonne og velg **Tilbakestill rekkefølge**.
+- Dra en kolonneoverskrift for å endre kolonnerekkefølgen. For å gjenopprette automatisk rekkefølge, åpne **Gruppe** og velg en automatisk sorteringsrekkefølge i stedet for **Manuell**.
+- Bruk **Gruppe** for å [[Visninger#Omorganiser, skjul og legg til grupper|omorganisere, skjule eller legge til kolonner]].
 - Bruk ![[lucide-list.svg#icon]] **Egenskaper**-menyen for å velge egenskapene som vises på hvert kort. Den første egenskapen vises som korttittelen.
 
 ## Innstillinger

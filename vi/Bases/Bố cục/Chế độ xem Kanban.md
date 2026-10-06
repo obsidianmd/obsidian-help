@@ -6,27 +6,28 @@ Kanban là một loại [[Các chế độ xem|chế độ xem]] bạn có thể
 Chọn ![[lucide-kanban-square.svg#icon]] **Kanban** từ menu chế độ xem để hiển thị tệp dưới dạng thẻ được tổ chức thành các cột. Mỗi cột đại diện cho một giá trị của thuộc tính được sử dụng để nhóm kết quả.
 
 
-> [!warning] Yêu cầu Obsidian 1.14+
-> Chế độ xem Kanban yêu cầu Obsidian 1.14, hiện đang ở giai đoạn [[Phiên bản truy cập sớm|truy cập sớm]].
+> [!note] Yêu cầu Obsidian 1.14+
+> Chế độ xem Kanban có sẵn trong Obsidian 1.14 trở lên.
 
 
 ## Nhóm thẻ thành các cột
 
 Chế độ xem Kanban yêu cầu một thuộc tính để nhóm kết quả.
 
-1. Chọn ![[lucide-arrow-up-down.svg#icon]] **Sắp xếp** trong thanh công cụ.
-2. Trong **Nhóm theo**, chọn **Thuộc tính** và chọn một thuộc tính.
+1. Chọn **Nhóm** trong thanh công cụ. Trên điện thoại, chọn **Hiển thị → Nhóm**.
+2. Trong **Nhóm theo**, chọn một thuộc tính.
 
 Các tệp không có giá trị cho thuộc tính đã chọn sẽ xuất hiện trong cột **Không có giá trị**.
 
 > [!info] 
-> Nếu bạn nhóm theo công thức hoặc thuộc tính tệp, bạn không thể di chuyển thẻ hoặc cột, hoặc tạo ghi chú từ các cột. Các thuộc tính này không thể được chỉnh sửa bằng cách di chuyển thẻ.
+> Nếu bạn nhóm theo công thức hoặc thuộc tính tệp khác ngoài `file.folder`, bạn không thể di chuyển thẻ hoặc cột, hoặc tạo ghi chú từ các cột. Bạn vẫn có thể [[Các chế độ xem#Sắp xếp lại, ẩn và thêm nhóm|quản lý thứ tự và khả năng hiển thị nhóm]] trong menu **Nhóm**.
 
 ## Làm việc với thẻ và cột
 
-- Kéo thẻ sang cột khác để cập nhật thuộc tính được nhóm trong ghi chú đó. Chỉ các ghi chú Markdown mới có thể được di chuyển giữa các cột.
+- Kéo thẻ sang cột khác để cập nhật thuộc tính được nhóm trong ghi chú đó. Chỉ các ghi chú Markdown mới có thể được di chuyển giữa các cột, trừ khi nhóm theo `file.folder`, trong trường hợp đó việc di chuyển thẻ sẽ di chuyển tệp vào thư mục đó.
 - Chọn biểu tượng dấu cộng trong tiêu đề cột hoặc ![[lucide-plus.svg#icon]] **Mới** ở cuối cột để tạo ghi chú với giá trị của cột đó.
-- Kéo tiêu đề cột để thay đổi thứ tự cột. Để khôi phục thứ tự ban đầu, nhấp chuột phải vào cột và chọn **Đặt lại thứ tự**.
+- Kéo tiêu đề cột để thay đổi thứ tự cột. Để khôi phục thứ tự tự động, mở **Nhóm** và chọn thứ tự sắp xếp tự động thay vì **Thủ công**.
+- Sử dụng **Nhóm** để [[Các chế độ xem#Sắp xếp lại, ẩn và thêm nhóm|sắp xếp lại, ẩn hoặc thêm cột]].
 - Sử dụng menu ![[lucide-list.svg#icon]] **Thuộc tính** để chọn các thuộc tính hiển thị trên mỗi thẻ. Thuộc tính đầu tiên được hiển thị làm tiêu đề thẻ.
 
 ## Cài đặt

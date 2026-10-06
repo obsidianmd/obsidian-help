@@ -6,27 +6,28 @@ Kanban adalah jenis [[Tampilan|tampilan]] yang dapat Anda gunakan di [[Pengenala
 Pilih ![[lucide-kanban-square.svg#icon]] **Kanban** dari menu tampilan untuk menampilkan file sebagai kartu yang diatur ke dalam kolom. Setiap kolom mewakili nilai dari properti yang digunakan untuk mengelompokkan hasil.
 
 
-> [!warning] Memerlukan Obsidian 1.14+
-> Tampilan Kanban memerlukan Obsidian 1.14 yang saat ini tersedia dalam [[Versi akses awal|akses awal]].
+> [!note] Memerlukan Obsidian 1.14+
+> Tampilan Kanban tersedia di Obsidian 1.14 dan yang lebih baru.
 
 
 ## Mengelompokkan kartu ke dalam kolom
 
 Tampilan Kanban memerlukan properti untuk mengelompokkan hasil.
 
-1. Pilih ![[lucide-arrow-up-down.svg#icon]] **Urutkan** di bilah alat.
-2. Di bawah **Kelompokkan berdasarkan**, pilih **Properti** dan pilih sebuah properti.
+1. Pilih **Kelompok** di bilah alat. Di ponsel, pilih **Tampilan → Kelompok**.
+2. Di bawah **Kelompokkan berdasarkan**, pilih sebuah properti.
 
 File tanpa nilai untuk properti yang dipilih akan muncul di kolom **Tidak ada nilai**.
 
 > [!info] 
-> Jika Anda mengelompokkan berdasarkan rumus atau properti file, Anda tidak dapat memindahkan kartu atau kolom, atau membuat catatan dari kolom. Properti ini tidak dapat diubah dengan memindahkan kartu.
+> Jika Anda mengelompokkan berdasarkan rumus atau properti file selain `file.folder`, Anda tidak dapat memindahkan kartu atau kolom, atau membuat catatan dari kolom. Anda masih dapat [[Tampilan#Menata ulang, menyembunyikan, dan menambahkan kelompok|mengelola urutan dan visibilitas kelompok]] di menu **Kelompok**.
 
 ## Bekerja dengan kartu dan kolom
 
-- Seret kartu ke kolom lain untuk memperbarui properti yang dikelompokkan pada catatan tersebut. Hanya catatan Markdown yang dapat dipindahkan antar kolom.
+- Seret kartu ke kolom lain untuk memperbarui properti yang dikelompokkan pada catatan tersebut. Hanya catatan Markdown yang dapat dipindahkan antar kolom, kecuali saat mengelompokkan berdasarkan `file.folder`, di mana memindahkan kartu akan memindahkan file ke folder tersebut.
 - Pilih ikon plus di judul kolom atau ![[lucide-plus.svg#icon]] **Baru** di bagian bawah kolom untuk membuat catatan dengan nilai kolom tersebut.
-- Seret judul kolom untuk mengubah urutan kolom. Untuk mengembalikan urutan semula, klik kanan kolom dan pilih **Reset order**.
+- Seret judul kolom untuk mengubah urutan kolom. Untuk mengembalikan urutan otomatis, buka **Kelompok** dan pilih urutan sortir otomatis alih-alih **Manual**.
+- Gunakan **Kelompok** untuk [[Tampilan#Menata ulang, menyembunyikan, dan menambahkan kelompok|menata ulang, menyembunyikan, atau menambahkan kolom]].
 - Gunakan menu ![[lucide-list.svg#icon]] **Properti** untuk memilih properti yang ditampilkan pada setiap kartu. Properti pertama ditampilkan sebagai judul kartu.
 
 ## Pengaturan

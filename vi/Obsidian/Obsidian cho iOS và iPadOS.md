@@ -54,12 +54,12 @@ Tùy chọn cấu hình widget **Xem ghi chú**:
 
 ## Ghi nhanh
 
-Ghi nhanh cho phép bạn lưu văn bản vào kho từ widget Màn hình khóa, Trung tâm điều khiển hoặc Màn hình chính. Tùy thuộc vào vị trí ghi nhanh bạn chọn, Ghi nhanh có thể tạo ghi chú mới hoặc thêm văn bản vào ghi chú hiện có.
+Ghi nhanh cho phép bạn lưu văn bản vào kho từ widget Màn hình khóa, Trung tâm điều khiển, Màn hình chính hoặc Phím tắt mà không cần đợi kho của bạn tải. Tùy thuộc vào vị trí ghi nhanh bạn chọn, Ghi nhanh có thể tạo ghi chú mới hoặc thêm văn bản vào ghi chú hiện có.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Ghi chú
-> Ghi nhanh có sẵn trên iOS và iPadOS 26 trở lên.
+> Ghi nhanh yêu cầu Obsidian 1.14 trở lên và iOS hoặc iPadOS 26 trở lên.
 
 Để ghi nhanh văn bản:
 

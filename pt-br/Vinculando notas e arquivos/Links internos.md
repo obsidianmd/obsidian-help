@@ -52,8 +52,6 @@ Para criar um link enquanto estiver no Editor, use qualquer uma das seguintes fo
 - Selecione um texto no editor e então digite `[[`.
 - Abra a [[Paleta de comandos]] e então selecione Adicionar link interno.
 
-![[Alternador rápido#^search-autocomplete-large]]
-
 Embora você possa vincular a qualquer um dos [[Formatos de arquivo aceitos]], links para formatos de arquivo diferentes de Markdown precisam incluir a extensão do arquivo, como `[[Figura 1.png]]`.
 
 > [!tip] Prefixar um link interno com um ponto de exclamação (!) permite incorporar o conteúdo vinculado. Para mais detalhes, veja [[Incorporar arquivos]].
