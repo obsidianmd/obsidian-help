@@ -97,6 +97,8 @@ To combine page and height options, separate them with `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+For more about viewing and searching PDFs, see [[PDFs]].
+
 ## Embed a canvas in a note
 
 To embed a [[Canvas|canvas]]:
