@@ -1,6 +1,7 @@
 ---
-description: Canvas to wbudowana wtyczka do wizualnego tworzenia notatek. Rozmieszczaj i łącz notatki, obrazy oraz inne pliki w przestrzeni 2D.
+description: 'Canvas to wbudowana wtyczka do wizualnego tworzenia notatek. Rozmieszczaj i łącz notatki, obrazy oraz inne pliki w przestrzeni 2D.'
 permalink: plugins/canvas
+mobile: true
 ---
 Canvas to [[Wbudowane wtyczki|wbudowana wtyczka]] do wizualnego tworzenia notatek. Zapewnia nieskończoną przestrzeń do rozmieszczania notatek i łączenia ich z innymi notatkami, załącznikami i stronami internetowymi.
 
@@ -65,6 +66,8 @@ Możesz również dodać notatki z menu kontekstowego tablicy:
 
 Możesz też dodać je do tablicy, przeciągając plik z [[Przeglądarka plików|przeglądarki plików]].
 
+Aby wyświetlić tylko część notatki na karcie, kliknij prawym przyciskiem myszy kartę i wybierz **Dopasuj do nagłówka...** lub **Dopasuj do bloku...**. Następnie wybierz nagłówek lub blok.
+
 ### Dodawanie kart z multimediów
 
 Aby dodać multimedia ze sejfu do tablicy:
@@ -90,6 +93,23 @@ Możesz również zaznaczyć adres URL w przeglądarce, a następnie przeciągn�
 
 Aby otworzyć stronę internetową w przeglądarce, naciśnij `Ctrl` (lub `Cmd` na macOS) i kliknij etykietę karty. Możesz też kliknąć prawym przyciskiem myszy kartę i wybrać **Otwórz w przeglądarce**.
 
+Kliknij prawym przyciskiem myszy kartę strony internetowej, aby wyświetlić więcej opcji.
+
+- **Skopiuj URL** kopiuje adres strony internetowej.
+- **Zmień adres URL...** zmienia adres wyświetlany na karcie.
+- **Przeładuj stronę** ponownie wczytuje stronę internetową.
+
+### Dodawanie kart z baz danych
+
+Aby wyświetlić [[Wprowadzenie do baz danych|bazę danych]] na tablicy, przeciągnij plik bazy danych z przeglądarki plików na tablicę. Karta wyświetli bazę danych.
+
+Karta bazy danych pokazuje domyślny podgląd bazy. Aby wyświetlić inny podgląd:
+
+1. Kliknij prawym przyciskiem myszy kartę, a następnie wybierz **Przypnij...**.
+2. Wybierz podgląd, który chcesz wyświetlić.
+
+Aby wrócić do domyślnego podglądu, ponownie wybierz **Przypnij...**, a następnie wybierz **Pokaż domyślny podgląd**.
+
 ### Dodawanie kart z folderów
 
 Przeciągnij folder z przeglądarki plików, aby dodać wszystkie pliki z tego folderu do tablicy.
@@ -98,7 +118,7 @@ Przeciągnij folder z przeglądarki plików, aby dodać wszystkie pliki z tego f
 
 Kliknij dwukrotnie kartę tekstową lub kartę notatki, aby rozpocząć jej edycję. Kliknij poza kartą, aby zakończyć edycję. Możesz również nacisnąć `Escape`, aby zakończyć edycję karty.
 
-Możesz też edytować kartę, klikając ją prawym przyciskiem myszy i wybierając **Edytuj**.
+Możesz też edytować kartę, klikając ją prawym przyciskiem myszy i wybierając **Edytuj**. Możesz również zaznaczyć kartę, a następnie wybrać **Edytuj** ![[lucide-square-pen.svg#icon]] w kontrolkach zaznaczenia.
 
 ### Usuwanie karty
 
@@ -146,6 +166,16 @@ Możesz nacisnąć `Space` podczas zmiany rozmiaru, aby wyłączyć przyciągani
 
 Aby zachować proporcje podczas zmiany rozmiaru, naciśnij `Shift` podczas zmiany rozmiaru.
 
+### Wyrównywanie i rozmieszczanie kart
+
+Aby wyrównać kilka kart, zaznacz dwie lub więcej kart. W kontrolkach zaznaczenia wybierz **Wyrównaj**, a następnie wybierz opcję.
+
+- **Wyrównaj do lewej**, **Wyrównaj do środka** i **Wyrównaj do prawej** ustawiają karty wzdłuż linii pionowej.
+- **Wyrównaj do góry**, **Wyrównaj do środka** i **Wyrównaj do dołu** ustawiają karty wzdłuż linii poziomej.
+- **Rozmieść w rzędzie**, **Rozmieść w kolumnie** i **Rozmieść w siatce** przenoszą karty do wybranego układu.
+- **Wyrównaj odstępy poziomo** i **Wyrównaj ostępy pionowo** rozmieszczają karty w równych odstępach.
+- **Wyjustuj w poziomie** i **Wyjustuj w pionie** zmieniają rozmiar każdej karty, aby dopasować ją do pełnej szerokości lub wysokości zaznaczenia.
+
 ## Łączenie kart
 
 Rysuj linie między kartami, aby tworzyć relacje między nimi. Używaj kolorów i etykiet, aby opisać, jak są ze sobą powiązane.
@@ -178,7 +208,7 @@ Aby przenieść jeden z końców linii połączenia:
 
 ### Nawigowanie po połączeniu
 
-Jeśli dwie połączone karty są daleko od siebie, możesz przejść do źródła lub celu połączenia, klikając prawym przyciskiem myszy linię, a następnie wybierając **Przejdź do celu** lub **Przejdź do źródła**.
+Jeśli dwie połączone karty są daleko od siebie, możesz przejść do karty na drugim końcu połączenia. Kliknij prawym przyciskiem myszy linię blisko jednego z końców, a następnie wybierz **Śledź połączenie**. Tablica przesunie się do karty na przeciwległym końcu.
 
 ### Dodawanie etykiety do połączenia
 
@@ -192,6 +222,16 @@ Aby oznaczyć połączenie:
 Możesz również oznaczyć połączenie, zaznaczając je, a następnie wybierając **Edytuj etykietę** z kontrolek zaznaczenia.
 
 Aby edytować etykietę połączenia, kliknij dwukrotnie linię lub kliknij ją prawym przyciskiem myszy, a następnie wybierz **Edytuj etykietę**.
+
+Aby usunąć etykietę, zaznacz połączenie, a następnie wybierz **Usuń etykietę** w kontrolkach zaznaczenia.
+
+### Zmiana kierunku połączenia
+
+Domyślnie połączenie ma strzałkę na końcu wskazującą na drugą kartę. Aby to zmienić:
+
+1. Zaznacz połączenie.
+2. W kontrolkach zaznaczenia wybierz **Kierunek linii**.
+3. Wybierz **Brak kierunku**, **Jednokierunkowy** lub **Dwukierunkowy**.
 
 ### Zmiana koloru karty lub połączenia
 
@@ -213,6 +253,22 @@ Aby zgrupować powiązane karty:
 2. Kliknij prawym przyciskiem myszy dowolną z zaznaczonych kart, a następnie wybierz **Stwórz grupę**.
 
 **Zmiana nazwy grupy:** Kliknij dwukrotnie nazwę grupy, aby ją edytować, a następnie naciśnij `Enter`, aby zapisać.
+
+### Dodawanie tła do grupy
+
+Możesz wyświetlić obraz za kartami w grupie.
+
+1. Zaznacz grupę.
+2. W kontrolkach zaznaczenia wybierz **Ustaw tło**.
+3. Wybierz obraz z sejfu.
+
+Aby zmienić tło, zaznacz grupę, a następnie wybierz **Edytuj tło**.
+
+- **Zamień tło** wybiera inny obraz.
+- **Usuń tło** usuwa obraz.
+- **Okładka** sprawia, że obraz wypełnia grupę.
+- **Zachowaj proporcje** zachowuje proporcje obrazu.
+- **Powtórz** kafelkuje obraz w obrębie grupy.
 
 ## Nawigowanie po tablicy
 
@@ -242,9 +298,168 @@ Aby powiększyć tablicę tak, aby wszystkie zaznaczone elementy były widoczne,
 
 Aby przywrócić domyślny stopień przybliżenia, wybierz **Zresetuj przybliżenie** w kontrolkach powiększenia w prawym górnym rogu.
 
+### Przejdź do grupy
+
+Aby szybko przejść do grupy na dużej tablicy, otwórz paletę poleceń i wybierz **Canvas: Przejdź do grupy**. Pojawi się lista grup na tablicy. Wybierz grupę, do której chcesz przejść, a tablica przesunie się, aby ją wyśrodkować.
+
+## Ustawienia tablicy
+
+Wybierz **Ustawienia tablic** ![[lucide-settings.svg#icon]] nad kontrolkami tablicy, aby zmienić zachowanie tablicy.
+
+- **Przyciągaj do siatki** przyciąga karty do siatki pomocniczej podczas przesuwania i zmiany rozmiaru.
+- **Przyciągaj do elementów** przyciąga karty do pobliskich kart podczas przesuwania i zmiany rozmiaru.
+- **Tylko do odczytu** zapobiega zmianom na tablicy.
+
+## Eksportowanie tablicy jako obrazu
+
+Możesz wyeksportować tablicę jako obraz PNG na komputerze. Eksportowanie obrazu nie jest dostępne w aplikacji Obsidian na urządzeniach mobilnych.
+
+1. Otwórz tablicę, którą chcesz wyeksportować.
+2. Otwórz paletę poleceń i wybierz **Canvas: Eksportuj jako obraz**.
+3. Wybierz ustawienia.
+    - **Widoczny obszar** określa, co wyeksportować. Wybierz **Cała tablica** dla całej tablicy lub **Tylko widoczny obszar** dla części, którą aktualnie widzisz.
+    - **Przybliżenie** określa jakość obrazu. Większe przybliżenie tworzy większy, ostrzejszy obraz. Okno dialogowe pokazuje szacowany rozmiar obrazu.
+    - **Pokaż logo** dodaje logo Obsidian w lewym dolnym rogu. Ta opcja jest domyślnie włączona.
+    - **Tryb prywatny** ukrywa cały tekst na tablicy. Ta opcja jest domyślnie wyłączona.
+4. Wybierz **Zapisz**.
+5. Wybierz miejsce zapisu pliku. Nazwa pliku domyślnie odpowiada nazwie tablicy z rozszerzeniem `.png`.
+
+Nie można wyeksportować pustej tablicy.
+
+## Cofanie i ponawianie
+
+Aby cofnąć ostatnią zmianę, wybierz **Cofnij** w kontrolkach tablicy po prawej stronie. Możesz też nacisnąć `Ctrl+Z` (Windows i Linux) lub `Command+Z` (macOS).
+
+Aby ponowić zmianę, wybierz **Ponów**. Możesz też nacisnąć `Ctrl+Y` lub `Ctrl+Shift+Z` (Windows i Linux) lub `Command+Y` lub `Command+Shift+Z` (macOS).
+
+## Pomoc dotycząca tablic
+
+Na komputerze wybierz **Pomoc dotycząca tablic** ![[lucide-help-circle.svg#icon]] pod kontrolkami tablicy, aby wyświetlić listę skrótów do przesuwania, powiększania, zaznaczania i przenoszenia kart.
+
 ## Osadzanie Canvas
 
 Możesz osadzić Canvas w notatce, używając standardowej składni osadzania. Więcej informacji znajdziesz w sekcji [[Osadzanie plików#Osadzanie Canvas w notatce|Osadzanie Canvas w notatce]].
+
+## Korzystanie z Canvas na urządzeniach mobilnych
+
+Po otwarciu tablicy na telefonie lub tablecie Obsidian wyświetla trzy wskazówki.
+
+- **Przeciągnij, aby przesunąć**
+- **Uszczypnij, aby przybliżyć**
+- **Kliknij i przytrzymaj, aby dodać / przesunąć / zaznaczyć**
+
+### Otwieranie menu tablicy
+
+Kliknij i przytrzymaj pusty obszar tablicy. Menu zawiera następujące elementy.
+
+- **Dodaj kartę** dodaje kartę tekstową.
+- **Dodaj notatkę z sejfu** dodaje notatkę z sejfu.
+- **Dodaj multimedia z sejfu** dodaje multimedia z sejfu.
+- **Dodaj stronę internetową** osadza stronę internetową.
+- **Stwórz grupę** tworzy pustą grupę.
+- **Przyciągaj do siatki**, **Przyciągaj do elementów** i **Tylko do odczytu** to te same opcje, co w **Ustawieniach tablic**.
+
+### Dodawanie kart
+
+Możesz dodawać karty z menu tablicy. Możesz również wybrać ikonę na dole tablicy.
+
+- Ikona pustego pliku dodaje kartę tekstową.
+- Ikona dokumentu dodaje notatkę z sejfu.
+- Ikona obrazu dodaje multimedia z sejfu.
+
+### Praca z zaznaczoną kartą
+
+Stuknij kartę, aby ją zaznaczyć. Nad kartą pojawi się pasek narzędzi.
+
+- **Usuń** ![[lucide-trash-2.svg#icon]] usuwa kartę.
+- **Ustaw kolor** ![[lucide-palette.svg#icon]] zmienia kolor karty.
+- **Dopasuj do zaznaczenia** przybliża tablicę do karty.
+- **Edytuj** ![[lucide-square-pen.svg#icon]] edytuje kartę.
+
+### Przenoszenie karty
+
+1. Stuknij kartę, aby ją zaznaczyć.
+2. Kliknij i przytrzymaj zaznaczoną kartę, a następnie przeciągnij ją na nową pozycję.
+
+### Zmiana rozmiaru karty
+
+1. Stuknij kartę, aby ją zaznaczyć.
+2. Przeciągnij krawędzie karty, aby ją powiększyć lub zmniejszyć.
+
+### Otwieranie menu karty
+
+Kliknij i przytrzymaj kartę. Menu zawiera następujące elementy.
+
+- **Dopasuj do zaznaczenia** przybliża tablicę do karty.
+- **Edytuj** edytuje kartę.
+- **Konwertuj do pliku...** konwertuje kartę tekstową na notatkę.
+- **Duplikuj** tworzy kopię karty.
+- **Usuń** usuwa kartę.
+
+### Edytowanie karty
+
+Aby edytować kartę tekstową lub kartę notatki, użyj jednej z metod.
+
+- Stuknij kartę, aby ją zaznaczyć, a następnie stuknij ją dwukrotnie. Otworzy się klawiatura.
+- Stuknij kartę, aby ją zaznaczyć, a następnie wybierz **Edytuj** ![[lucide-square-pen.svg#icon]] na pasku narzędzi nad kartą.
+
+### Etykietowanie połączenia
+
+1. Stuknij linię, aby ją zaznaczyć.
+2. Na pasku narzędzi wybierz **Edytuj etykietę** ![[lucide-square-pen.svg#icon]]. Otworzy się klawiatura.
+3. Wprowadź etykietę.
+
+Aby usunąć etykietę, stuknij linię, a następnie wybierz **Usuń etykietę** na pasku narzędzi.
+
+### Zmiana kierunku połączenia
+
+1. Stuknij linię, aby ją zaznaczyć.
+2. Na pasku narzędzi wybierz **Kierunek linii**.
+3. Wybierz **Brak kierunku**, **Jednokierunkowy** lub **Dwukierunkowy**.
+
+### Otwieranie menu linii
+
+Kliknij i przytrzymaj linię łączącą dwie karty. Menu zawiera następujące elementy.
+
+- **Edytuj etykietę** dodaje lub zmienia etykietę linii.
+- **Śledź połączenie** przenosi tablicę do karty na przeciwległym końcu linii.
+- **Usuń** usuwa połączenie.
+
+### Łączenie kart
+
+1. Stuknij kartę, aby ją zaznaczyć.
+2. Przeciągnij jedno z kółek na jej krawędziach do innej karty.
+
+Jeśli przeciągniesz linię i puścisz ją na pustym obszarze, otworzy się menu z opcjami **Dodaj kartę** i **Dodaj notatkę z sejfu**. Wybierz jedną z nich, aby dodać kartę na końcu linii.
+
+### Rozłączanie kart
+
+Aby usunąć połączenie, użyj jednej z metod.
+
+- Stuknij linię, a następnie wybierz **Usuń** ![[lucide-trash-2.svg#icon]].
+- Przeciągnij koniec linii ze strzałką z powrotem do karty, z której wychodzi. Linia zniknie.
+
+### Grupowanie kart
+
+Aby stworzyć grupę:
+
+1. Kliknij i przytrzymaj pusty obszar tablicy.
+2. Wybierz **Stwórz grupę**.
+3. Przeciągnij krawędzie grupy, aby zmienić jej rozmiar.
+
+Aby dodać karty do grupy, przeciągnij je w obszar grupy. Gdy przesuniesz grupę, karty w niej również się przesuną.
+
+Aby zmienić nazwę grupy, stuknij dwukrotnie jej nazwę. Otworzy się klawiatura. Wprowadź nową nazwę.
+
+### Kontrolki tablicy
+
+Kontrolki po prawej stronie tablicy zmieniają podgląd i ustawienia.
+
+- **Powiększ** i **Pomniejsz** zmieniają poziom przybliżenia.
+- **Zresetuj przybliżenie** przywraca domyślny poziom przybliżenia.
+- **Dopasuj do podglądu** wyświetla każdą kartę na tablicy.
+- **Cofnij** i **Ponów** cofają lub ponawiają ostatnią zmianę.
+- **Ustawienia tablic** zawiera opcje **Przyciągaj do siatki**, **Przyciągaj do elementów** i **Tylko do odczytu**.
 
 ## Zaawansowane wskazówki
 

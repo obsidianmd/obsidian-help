@@ -1,5 +1,6 @@
 ---
 permalink: plugins/canvas
+mobile: true
 ---
 Tuval, görsel not alma için bir [[Yerleşik Eklentiler|yerleşik eklentidir]]. Notları düzenlemek ve diğer notlara, eklere ve web sayfalarına bağlamak için size sonsuz alan sunar.
 
@@ -64,6 +65,8 @@ Ayrıca tuval bağlam menüsünden de notlar ekleyebilirsiniz:
 
 Ayrıca notları [[Dosya Gezgini]]'nden tuvale sürükleyebilirsiniz.
 
+Bir kartta notun yalnızca bir bölümünü göstermek için karta sağ tıklayın ve **Başlığa daralt...** veya **Bloğa daralt...** seçeneğini seçin. Ardından başlığı veya bloğu seçin.
+
 ### Medyadan kart ekleme
 
 Kasanızdaki medyayı tuvalinize eklemek için:
@@ -89,6 +92,23 @@ Ayrıca tarayıcınızda bir URL seçip tuvale sürükleyerek bir karta gömebil
 
 Web sayfasını tarayıcınızda açmak için `Ctrl` (veya macOS'ta `Cmd`) tuşuna basın ve kart etiketini seçin. Veya karta sağ tıklayın ve **Tarayıcıda aç** seçeneğini seçin.
 
+Daha fazla seçenek için bir web sayfası kartına sağ tıklayın.
+
+- **Linki kopyala** web sayfasının adresini kopyalar.
+- **URL'yi değiştir...** kartın gösterdiği adresi değiştirir.
+- **Sayfayı yeniden yükle** web sayfasını tekrar yükler.
+
+### Tabanlardan kart ekleme
+
+Tuvalinizde bir [[Tabanlara giriş|taban]] göstermek için taban dosyasını Dosya gezgininden tuvale sürükleyin. Kart tabanı gösterir.
+
+Bir taban kartı, tabanın varsayılan görünümünü gösterir. Farklı bir görünüm göstermek için:
+
+1. Karta sağ tıklayın ve ardından **Görünümü sabitle...** seçeneğini seçin.
+2. İstediğiniz görünümü seçin.
+
+Varsayılan görünüme geri dönmek için tekrar **Görünümü sabitle...** seçeneğini seçin ve ardından **Varsayılan görünümü göster** seçeneğini seçin.
+
 ### Klasörlerden kart ekleme
 
 [[Dosya Gezgini]]'nden bir klasörü sürükleyerek o klasördeki tüm dosyaları tuvale ekleyin.
@@ -97,11 +117,11 @@ Web sayfasını tarayıcınızda açmak için `Ctrl` (veya macOS'ta `Cmd`) tuşu
 
 Düzenlemeye başlamak için bir metin veya not kartına çift tıklayın. Düzenlemeyi durdurmak için kartın dışında herhangi bir yere tıklayın. Ayrıca düzenlemeyi durdurmak için `Escape` tuşuna basabilirsiniz.
 
-Bir kartı sağ tıklayıp **Düzenle** seçeneğini seçerek de düzenleyebilirsiniz.
+Bir kartı sağ tıklayıp **Düzenle** seçeneğini seçerek de düzenleyebilirsiniz. Veya kartı seçin ve ardından seçim kontrollerinde **Düzenle** ![[lucide-square-pen.svg#icon]] seçeneğini seçin.
 
 ### Bir kartı silme
 
-Seçili kartları, herhangi birine sağ tıklayıp **Sil** seçeneğini seçerek kaldırın. Veya `Backspace` (veya macOS'ta `Delete`) tuşuna basın.
+Seçili kartları, herhangi birine sağ tıklayıp **Kaldır** seçeneğini seçerek kaldırın. Veya `Backspace` (veya macOS'ta `Delete`) tuşuna basın.
 
 Ayrıca seçiminizin üzerindeki seçim kontrollerinde **Kaldır** ![[lucide-trash-2.svg#icon]] seçeneğini de seçebilirsiniz.
 
@@ -145,6 +165,16 @@ Yakalamayı devre dışı bırakmak için yeniden boyutlandırırken `Space` tu�
 
 Yeniden boyutlandırırken en boy oranını korumak için `Shift` tuşuna basın.
 
+### Kartları hizalama ve düzenleme
+
+Birkaç kartı hizalamak için iki veya daha fazla kart seçin. Seçim kontrollerinde **Hizala** seçeneğini seçin ve ardından bir seçenek belirleyin.
+
+- **Sola hizala**, **Merkezi hizala** ve **Sağa hizala** kartları dikey bir çizgi üzerinde hizalar.
+- **Üst kısmı hizala**, **Ortayı hizala** ve **Alt kısmı hizala** kartları yatay bir çizgi üzerinde hizalar.
+- **Bir satır halinde düzenle**, **Bir sütun halinde düzenle** ve **Bir ızgara şeklinde düzenle** kartları o düzene taşır.
+- **Yatayda boşlukları dağıtın** ve **Dikeyde aralıkları dağıtın** kartları eşit aralıklarla yerleştirir.
+- **Yatayda eşit yasla** ve **Dikeyde eşit yasla** her kartı seçimin tam genişliğine veya yüksekliğine uyacak şekilde yeniden boyutlandırır.
+
 ## Kartları bağlama
 
 İlişkileri göstermek için kartlar arasında çizgiler çizin. Nasıl ilişkili olduklarını tanımlamak için renkler ve etiketler ekleyin.
@@ -177,7 +207,7 @@ Bir bağlantı çizgisinin uçlarından birini taşımak için:
 
 ### Bir bağlantıda gezinme
 
-Bağlı iki kart birbirinden uzaktaysa, çizgiye sağ tıklayıp **Hedefe git** veya **Kaynağa git** seçeneğini seçerek bağlantının kaynağına veya hedefine gidebilirsiniz.
+Bağlı iki kart birbirinden uzaktaysa, bağlantının diğer ucundaki karta atlayabilirsiniz. Çizginin bir ucuna yakın bir yere sağ tıklayın ve ardından **Bağlantıyı takip et** seçeneğini seçin. Tuval, karşı uçtaki karta taşınır.
 
 ### Bir bağlantıya etiket ekleme
 
@@ -191,6 +221,16 @@ Bir bağlantıyı etiketlemek için:
 Ayrıca seçim kontrollerinden **Etiketi düzenle** seçeneğini seçerek de bir bağlantıyı etiketleyebilirsiniz.
 
 Bir bağlantı etiketini düzenlemek için çizgiye çift tıklayın veya çizgiye sağ tıklayıp **Etiketi düzenle** seçeneğini seçin.
+
+Bir etiketi kaldırmak için bağlantıyı seçin ve ardından seçim kontrollerinde **Etiketi çıkarın** seçeneğini seçin.
+
+### Bir bağlantının yönünü değiştirme
+
+Varsayılan olarak, bir bağlantının ikinci karta işaret eden bir oku vardır. Bunu değiştirmek için:
+
+1. Bağlantıyı seçin.
+2. Seçim kontrollerinde **Satır yönü** seçeneğini seçin.
+3. **Yönsüz**, **Tek yönlü** veya **Çift yönlü** seçeneklerinden birini seçin.
 
 ### Bir kartın veya bağlantının rengini değiştirme
 
@@ -212,6 +252,22 @@ Boş bir grup oluşturmak için:
 2. Seçili kartlardan herhangi birine sağ tıklayın ve ardından **Grup oluştur** seçeneğini seçin.
 
 **Grubu yeniden adlandırma:** Düzenlemek için grubun adına çift tıklayın, ardından kaydetmek için `Enter` tuşuna basın.
+
+### Bir gruba arka plan ekleme
+
+Bir gruptaki kartların arkasında bir görsel gösterebilirsiniz.
+
+1. Grubu seçin.
+2. Seçim kontrollerinde **Arka planı ayarla** seçeneğini seçin.
+3. Kasanızdan bir görsel seçin.
+
+Arka planı değiştirmek için grubu seçin ve ardından **Arka planı düzenle** seçeneğini seçin.
+
+- **Arka planı değiştir** farklı bir görsel seçer.
+- **Arka planı kaldır** görseli kaldırır.
+- **Kapak** görselin grubu doldurmasını sağlar.
+- **En-boy oranını koru** görselin oranlarını korur.
+- **Tekrar** görseli grubun genelinde döşer.
 
 ## Tuvalde gezinme
 
@@ -241,9 +297,169 @@ Tuvali tüm seçili öğelerin görünür olacağı şekilde yakınlaştırmak i
 
 Yakınlaştırma seviyesini varsayılana geri döndürmek için sağ üst köşedeki yakınlaştırma kontrollerinde **Yakınlaştırmayı sıfırla** seçeneğini seçin.
 
+
+### Bir gruba atla
+
+Büyük bir tuvalde doğrudan bir gruba gitmek için komut paletini açın ve **Canvas: Gruba git** seçeneğini seçin. Tuvalinizdeki grupların bir listesi görünür. Gitmek istediğiniz grubu seçin, tuval o grubun üzerinde ortalanır.
+
+## Tuval ayarları
+
+Tuvalinizin nasıl davrandığını değiştirmek için tuval kontrollerinin üzerindeki **Tuval ayarları** ![[lucide-settings.svg#icon]] seçeneğini seçin.
+
+- **Izgaraya tuttur** kartları taşırken ve yeniden boyutlandırırken arka plan ızgarasına tutturur.
+- **Nesnelere tuttur** kartları taşırken ve yeniden boyutlandırırken yakındaki kartlara tutturur.
+- **Salt okunur** tuvalde değişiklik yapılmasını engeller.
+
+## Bir tuvali görsel olarak dışa aktarma
+
+Masaüstünde bir tuvali PNG görseli olarak dışa aktarabilirsiniz. Mobil Obsidian uygulamasında görsel dışa aktarma kullanılamaz.
+
+1. Dışa aktarmak istediğiniz tuvali açın.
+2. Komut paletini açın ve **Canvas: Görüntü olarak dışa aktar** seçeneğini seçin.
+3. Ayarlarınızı seçin.
+    - **Görünüm alanı** neyin dışa aktarılacağını belirler. Tüm tuval için **Tam tuval** veya şu anda görebildiğiniz kısım için **Yalnızca görüntü alanı** seçeneğini seçin.
+    - **Yakınlaştırma** görsel kalitesini belirler. Daha yüksek yakınlaştırma daha büyük ve daha keskin bir görsel üretir. İletişim kutusu tahmini görsel boyutunu gösterir.
+    - **Logoyu göster** sol alt kısma bir Obsidian logosu ekler. Bu varsayılan olarak açıktır.
+    - **Gizlilik modu** tuvalinizdeki tüm metni gizler. Bu varsayılan olarak kapalıdır.
+4. **Kaydet** seçeneğini seçin.
+5. Dosyayı nereye kaydedeceğinizi seçin. Dosya adı varsayılan olarak tuvalinizin adıdır ve `.png` uzantısına sahiptir.
+
+Boş bir tuvali dışa aktaramazsınız.
+
+## Geri alma ve yineleme
+
+Son değişikliğinizi geri almak için tuvalin sağ tarafındaki tuval kontrollerinde **Geri al** seçeneğini seçin. Veya `Ctrl+Z` (Windows ve Linux) veya `Command+Z` (macOS) tuşlarına basın.
+
+Bir değişikliği yinelemek için **Yinele** seçeneğini seçin. Veya `Ctrl+Y` veya `Ctrl+Shift+Z` (Windows ve Linux) ya da `Command+Y` veya `Command+Shift+Z` (macOS) tuşlarına basın.
+
+## Tuval yardımı
+
+Masaüstünde, kaydırma, yakınlaştırma, seçme ve kartları taşıma kısayollarının listesini görmek için tuval kontrollerinin altındaki **Tuval yardım** ![[lucide-help-circle.svg#icon]] seçeneğini seçin.
+
 ## Bir tuvali gömme
 
 Standart gömme sözdizimini kullanarak bir nota tuval gömebilirsiniz. Daha fazla bilgi için [[Dosya gömme#Embed a canvas in a note|Bir nota tuval gömme]] bölümüne bakın.
+
+## Canvas'ı mobilde kullanma
+
+Bir tuvali telefonda veya tablette açtığınızda, Obsidian üç ipucu gösterir.
+
+- **Kaydırmak için sürükleyin**
+- **Yakınlaştırmak için sıkıştırın**
+- **Eklemek / taşımak / seçmek için dokunun ve tutun**
+
+### Tuval menüsünü açma
+
+Tuvalin boş bir alanına dokunup basılı tutun. Menüde şu öğeler bulunur.
+
+- **Kart ekle** bir metin kartı ekler.
+- **Kasadan not ekleyin** kasanızdan bir not ekler.
+- **Kasadan medya ekleme** kasanızdan medya ekler.
+- **Web sayfası ekle** bir web sayfası gömer.
+- **Grup oluştur** boş bir grup oluşturur.
+- **Izgaraya tuttur**, **Nesnelere tuttur** ve **Salt okunur** seçenekleri **Tuval ayarları**'ndaki seçeneklerle aynıdır.
+
+### Kart ekleme
+
+Tuval menüsünden kart ekleyebilirsiniz. Ayrıca tuvalin alt kısmındaki bir simgeyi de seçebilirsiniz.
+
+- Boş dosya simgesi bir metin kartı ekler.
+- Belge simgesi kasanızdan bir not ekler.
+- Görsel simgesi kasanızdan medya ekler.
+
+### Seçili bir kartla çalışma
+
+Bir kartı seçmek için dokunun. Kartın üzerinde bir araç çubuğu görünür.
+
+- **Kaldır** ![[lucide-trash-2.svg#icon]] kartı siler.
+- **Renk ayarla** ![[lucide-palette.svg#icon]] kartın rengini değiştirir.
+- **Seçime yakınlaştır** tuvali karta yakınlaştırır.
+- **Düzenle** ![[lucide-square-pen.svg#icon]] kartı düzenler.
+
+### Bir kartı taşıma
+
+1. Kartı seçmek için dokunun.
+2. Seçili karta dokunup basılı tutun, ardından yeni bir konuma sürükleyin.
+
+### Bir kartı yeniden boyutlandırma
+
+1. Kartı seçmek için dokunun.
+2. Kartın kenarlarını sürükleyerek büyütün veya küçültün.
+
+### Kart menüsünü açma
+
+Bir karta dokunup basılı tutun. Menüde şu öğeler bulunur.
+
+- **Seçime yakınlaştır** tuvali karta yakınlaştırır.
+- **Düzenle** kartı düzenler.
+- **Dosyaya dönüştür...** bir metin kartını nota dönüştürür.
+- **Çoğalt** kartın bir kopyasını oluşturur.
+- **Kaldır** kartı siler.
+
+### Bir kartı düzenleme
+
+Bir metin kartını veya not kartını düzenlemek için iki yöntemden birini kullanın.
+
+- Kartı seçmek için dokunun, ardından çift dokunun. Klavye açılır.
+- Kartı seçmek için dokunun, ardından kartın üzerindeki araç çubuğunda **Düzenle** ![[lucide-square-pen.svg#icon]] seçeneğini seçin.
+
+### Bir bağlantıyı etiketleme
+
+1. Çizgiyi seçmek için dokunun.
+2. Araç çubuğunda **Etiketi düzenle** ![[lucide-square-pen.svg#icon]] seçeneğini seçin. Klavye açılır.
+3. Etiketi girin.
+
+Bir etiketi kaldırmak için çizgiye dokunun ve ardından araç çubuğunda **Etiketi çıkarın** seçeneğini seçin.
+
+### Bir bağlantının yönünü değiştirme
+
+1. Çizgiyi seçmek için dokunun.
+2. Araç çubuğunda **Satır yönü** seçeneğini seçin.
+3. **Yönsüz**, **Tek yönlü** veya **Çift yönlü** seçeneklerinden birini seçin.
+
+### Çizgi menüsünü açma
+
+İki kartı birbirine bağlayan bir çizgiye dokunup basılı tutun. Menüde şu öğeler bulunur.
+
+- **Etiketi düzenle** çizginin etiketini ekler veya değiştirir.
+- **Bağlantıyı takip et** tuvali çizginin karşı ucundaki karta taşır.
+- **Kaldır** bağlantıyı siler.
+
+### Kartları bağlama
+
+1. Bir kartı seçmek için dokunun.
+2. Kenarlarındaki dairelerden birini başka bir karta sürükleyin.
+
+Çizgiyi sürükleyip boş bir alanda bırakırsanız, **Kart ekle** ve **Kasadan not ekleyin** seçenekleriyle bir menü açılır. Çizginin ucuna bir kart eklemek için birini seçin.
+
+### Kartların bağlantısını kesme
+
+Bir bağlantıyı kaldırmak için iki yöntemden birini kullanın.
+
+- Çizgiye dokunun, ardından **Kaldır** ![[lucide-trash-2.svg#icon]] seçeneğini seçin.
+- Çizginin ok ucunu başladığı karta geri sürükleyin. Çizgi kaybolur.
+
+### Kartları gruplama
+
+Bir grup oluşturmak için:
+
+1. Tuvalin boş bir alanına dokunup basılı tutun.
+2. **Grup oluştur** seçeneğini seçin.
+3. Grubun kenarlarını sürükleyerek boyutunu değiştirin.
+
+Gruba kart eklemek için kartları grubun alanına sürükleyin. Grubu taşıdığınızda içindeki kartlar da taşınır.
+
+Bir grubu yeniden adlandırmak için adına çift dokunun. Klavye açılır. Yeni adı girin.
+
+### Tuval kontrolleri
+
+Tuvalin sağ tarafındaki kontroller görünümü ve ayarlarınızı değiştirir.
+
+- **Yakınlaştır** ve **Uzaklaştır** yakınlaştırma seviyesini değiştirir.
+- **Yakınlaştırmayı sıfırla** tuvali varsayılan yakınlaştırma seviyesine döndürür.
+- **Sığdırmak için yakınlaştır** tuvaldeki her kartı gösterir.
+- **Geri al** ve **Yinele** son değişikliğinizi geri alır veya tekrarlar.
+- **Tuval ayarları**'nda **Izgaraya tuttur**, **Nesnelere tuttur** ve **Salt okunur** seçenekleri bulunur.
 
 ## Gelişmiş ipuçları
 

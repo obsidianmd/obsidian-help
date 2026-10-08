@@ -1,5 +1,6 @@
 ---
 permalink: plugins/canvas
+mobile: true
 ---
 Canvas är ett [[Kärntillägg|kärntillägg]] för visuellt antecknande. Det ger dig oändligt utrymme att lägga ut anteckningar och koppla dem till andra anteckningar, bilagor och webbsidor.
 
@@ -64,6 +65,8 @@ Du kan också lägga till anteckningar från canvasens kontextmeny:
 
 Du kan också dra anteckningar från [[Filutforskare|filutforskaren]] till canvasen.
 
+För att bara visa en del av en anteckning i ett kort, högerklicka på kortet och välj **Begränsa till rubrik...** eller **Begränsa till block...**. Välj sedan rubriken eller blocket.
+
 ### Lägg till kort från media
 
 För att lägga till media från ditt valv på din canvas:
@@ -87,7 +90,24 @@ För att bädda in en webbsida på din canvas:
 
 Du kan också markera en URL i din webbläsare och sedan dra den till canvasen för att bädda in den i ett kort.
 
-För att öppna webbsidan i din webbläsare, tryck `Ctrl` (eller `Cmd` på macOS) och välj kortets etikett. Eller högerklicka på kortet och välj **Öppna i webbläsare**.
+För att öppna webbsidan i din webbläsare, tryck `Ctrl` (eller `Cmd` på macOS) och välj kortets etikett. Eller högerklicka på kortet och välj **Öppna extern länk**.
+
+Högerklicka på ett webbsidekort för fler alternativ.
+
+- **Kopiera url** kopierar webbsidans adress.
+- **Ändra URL...** ändrar adressen som kortet visar.
+- **Ladda om sida** laddar webbsidan igen.
+
+### Lägg till kort från bases
+
+För att visa en [[Introduktion till baser|base]] på din canvas, dra base-filen från filutforskaren till canvasen. Kortet visar basen.
+
+Ett base-kort visar standardvyn för basen. För att visa en annan vy:
+
+1. Högerklicka på kortet och välj sedan **fäst vy...**.
+2. Välj den vy du vill använda.
+
+För att gå tillbaka till standardvyn, välj **fäst vy...** igen och välj sedan **Visa standardvy**.
 
 ### Lägg till kort från mappar
 
@@ -97,11 +117,11 @@ Dra en mapp från [[Filutforskare|filutforskaren]] för att lägga till alla fil
 
 Dubbelklicka på ett text- eller anteckningskort för att börja redigera det. Välj var som helst utanför kortet för att sluta redigera det. Du kan också trycka på `Escape` för att sluta redigera ett kort.
 
-Du kan också redigera ett kort genom att högerklicka på det och välja **Redigera**.
+Du kan också redigera ett kort genom att högerklicka på det och välja **Redigera**. Eller markera kortet och sedan välja **Redigera** ![[lucide-square-pen.svg#icon]] i markeringskontrollerna.
 
 ### Radera ett kort
 
-Ta bort valda kort genom att högerklicka på något av dem och sedan välja **Radera**. Eller tryck `Backspace` (eller `Delete` på macOS).
+Ta bort valda kort genom att högerklicka på något av dem och sedan välja **Ta bort**. Eller tryck `Backspace` (eller `Delete` på macOS).
 
 Du kan också välja **Ta bort** ![[lucide-trash-2.svg#icon]] i markeringskontrollerna ovanför din markering.
 
@@ -145,6 +165,16 @@ Du kan trycka `Space` medan du ändrar storlek för att inaktivera fästning.
 
 För att behålla proportionerna medan du ändrar storlek, tryck `Shift` medan du ändrar storlek.
 
+### Justera och ordna kort
+
+För att rikta upp flera kort, markera två eller fler kort. I markeringskontrollerna, välj **Justera** och välj sedan ett alternativ.
+
+- **Justera vänster**, **Justera mitten** och **Justera höger** riktar upp korten längs en vertikal linje.
+- **Justera topp**, **Justera mitten** och **Justera botten** riktar upp korten längs en horisontell linje.
+- **Ordna i en rad**, **Ordna i en kolumn** och **Ordna i ett rutnät** flyttar korten till den layouten.
+- **Fördela horisontellt avstånd** och **Fördela vertikalt avstånd** fördelar korten jämnt.
+- **Justera horisontellt** och **Justera vertikalt** ändrar storlek på varje kort så att det matchar den fulla bredden eller höjden av markeringen.
+
 ## Koppla samman kort
 
 Rita linjer mellan kort för att visa relationer. Lägg till färger och etiketter för att beskriva hur de förhåller sig till varandra.
@@ -177,7 +207,7 @@ För att flytta en av ändarna på en kopplingsline:
 
 ### Navigera en koppling
 
-Om två kopplade kort är långt ifrån varandra kan du navigera till källan eller målet för kopplingen genom att högerklicka på linjen och sedan välja **Gå till mål** eller **Gå till källa**.
+Om två kopplade kort är långt ifrån varandra kan du hoppa till kortet i den andra änden av kopplingen. Högerklicka på linjen nära en ände och välj sedan **Följ anslutning**. Canvasen flyttar sig till kortet i den motsatta änden.
 
 ### Lägg till en etikett på en koppling
 
@@ -191,6 +221,16 @@ För att etikettera en koppling:
 Du kan också etikettera en koppling genom att markera den och sedan välja **Redigera etikett** från markeringskontrollerna.
 
 För att redigera en kopplingsetikett, dubbelklicka på linjen, eller högerklicka på linjen och välj sedan **Redigera etikett**.
+
+För att ta bort en etikett, markera kopplingen och välj sedan **Ta bort etikett** i markeringskontrollerna.
+
+### Ändra riktning på en koppling
+
+Som standard har en koppling en pil i änden som pekar mot det andra kortet. För att ändra detta:
+
+1. Markera kopplingen.
+2. I markeringskontrollerna, välj **Linjens riktning**.
+3. Välj **Icke-riktad**, **Enriktad** eller **Tvåriktad**.
 
 ### Ändra färg på ett kort eller en koppling
 
@@ -212,6 +252,22 @@ För att gruppera relaterade kort:
 2. Högerklicka på något av de markerade korten och välj sedan **Skapa grupp**.
 
 **Byt namn på grupp:** Dubbelklicka på gruppens namn för att redigera det och tryck sedan `Enter` för att spara.
+
+### Lägg till en bakgrund på en grupp
+
+Du kan visa en bild bakom korten i en grupp.
+
+1. Markera gruppen.
+2. I markeringskontrollerna, välj **Ställ in bakgrund**.
+3. Välj en bild från ditt valv.
+
+För att ändra bakgrunden, markera gruppen och välj sedan **Redigera bakgrund**.
+
+- **Ersätt bakgrund** väljer en annan bild.
+- **Ta bort bakgrund** tar bort bilden.
+- **Täck** gör att bilden fyller gruppen.
+- **Behåll bildförhållande** behåller bildens proportioner.
+- **Upprepa** kakelplacerar bilden över gruppen.
 
 ## Navigera på canvasen
 
@@ -241,9 +297,169 @@ För att zooma canvasen så att alla markerade objekt är synliga, högerklicka 
 
 För att ändra inzoomningsnivån tillbaka till standard, välj **Återställ zoom** i zoomkontrollerna i det övre högra hörnet.
 
+
+### Hoppa till en grupp
+
+För att flytta direkt till en grupp i en stor canvas, öppna kommandopaletten och välj **Canvas: Hoppa till grupp**. En lista över grupperna på din canvas visas. Välj den grupp du vill gå till, och canvasen flyttar sig för att centrera på den.
+
+## Canvas-inställningar
+
+Välj **Canvas-inställningar** ![[lucide-settings.svg#icon]] ovanför canvasens kontroller för att ändra hur din canvas beter sig.
+
+- **Snäpp till rutnät** snäpper kort till bakgrundsrutnätet när du flyttar och ändrar storlek på dem.
+- **Snäpp till objekt** snäpper kort till närliggande kort när du flyttar och ändrar storlek på dem.
+- **Skrivskyddad** förhindrar ändringar av canvasen.
+
+## Exportera en canvas som bild
+
+Du kan exportera en canvas som en PNG-bild på dator. Att exportera en bild är inte tillgängligt i Obsidian-appen på mobil.
+
+1. Öppna canvasen du vill exportera.
+2. Öppna kommandopaletten och välj **Canvas: Exportera som bild**.
+3. Välj dina inställningar.
+    - **Visningsport** anger vad som ska exporteras. Välj **Hela canvasen** för hela canvasen, eller **Endast visningsport** för den del du kan se just nu.
+    - **Zoom** anger bildkvaliteten. En högre zoom ger en större, skarpare bild. Dialogrutan visar den uppskattade bildstorleken.
+    - **Visa logotyp** lägger till en Obsidian-logotyp längst ner till vänster. Detta är aktiverat som standard.
+    - **Sekretessläge** döljer all text på din canvas. Detta är inaktiverat som standard.
+4. Välj **Spara**.
+5. Välj var filen ska sparas. Filnamnet är som standard canvasens namn, med filändelsen `.png`.
+
+Du kan inte exportera en tom canvas.
+
+## Ångra och gör om
+
+För att ångra din senaste ändring, välj **Ångra** i canvasens kontroller på höger sida av canvasen. Eller tryck `Ctrl+Z` (Windows och Linux) eller `Command+Z` (macOS).
+
+För att göra om en ändring, välj **Gör om**. Eller tryck `Ctrl+Y` eller `Ctrl+Shift+Z` (Windows och Linux), eller `Command+Y` eller `Command+Shift+Z` (macOS).
+
+## Canvas-hjälp
+
+På dator, välj **Canvas-hjälp** ![[lucide-help-circle.svg#icon]] under canvasens kontroller för att se en lista över genvägar för panorering, zoomning, markering och flytt av kort.
+
 ## Bädda in en canvas
 
 Du kan bädda in en canvas i en anteckning med den vanliga inbäddningssyntaxen. För mer information, se [[Bädda in filer#Embed a canvas in a note|Bädda in en canvas i en anteckning]].
+
+## Använda Canvas på mobil
+
+När du öppnar en canvas på en telefon eller surfplatta visar Obsidian tre tips.
+
+- **Dra för att panorera**
+- **Nyp för att zooma**
+- **Tryck och håll för att lägga till / flytta / markera**
+
+### Öppna canvas-menyn
+
+Tryck och håll på ett tomt område av canvasen. Menyn har dessa alternativ.
+
+- **Lägg till kort** lägger till ett textkort.
+- **Lägg till anteckning från valv** lägger till en anteckning från ditt valv.
+- **Lägg till media från valv** lägger till media från ditt valv.
+- **Lägg till webbsida** bäddar in en webbsida.
+- **Skapa grupp** skapar en tom grupp.
+- **Snäpp till rutnät**, **Snäpp till objekt** och **Skrivskyddad** är samma alternativ som i **Canvas-inställningar**.
+
+### Lägg till kort
+
+Du kan lägga till kort från canvas-menyn. Du kan också välja en ikon längst ner på canvasen.
+
+- Den tomma filikonen lägger till ett textkort.
+- Dokumentikonen lägger till en anteckning från ditt valv.
+- Bildikonen lägger till media från ditt valv.
+
+### Arbeta med ett markerat kort
+
+Tryck på ett kort för att markera det. Ett verktygsfält visas ovanför kortet.
+
+- **Ta bort** ![[lucide-trash-2.svg#icon]] raderar kortet.
+- **Ställ in färg** ![[lucide-palette.svg#icon]] ändrar färgen på kortet.
+- **Zooma till markering** zoomar canvasen till kortet.
+- **Redigera** ![[lucide-square-pen.svg#icon]] redigerar kortet.
+
+### Flytta ett kort
+
+1. Tryck på kortet för att markera det.
+2. Tryck och håll det markerade kortet och dra det sedan till en ny position.
+
+### Ändra storlek på ett kort
+
+1. Tryck på kortet för att markera det.
+2. Dra kortets sidor för att göra det större eller mindre.
+
+### Öppna kortmenyn
+
+Tryck och håll på ett kort. Menyn har dessa alternativ.
+
+- **Zooma till markering** zoomar canvasen till kortet.
+- **Redigera** redigerar kortet.
+- **Konvertera till fil...** konverterar ett textkort till en anteckning.
+- **Duplicera** gör en kopia av kortet.
+- **Ta bort** raderar kortet.
+
+### Redigera ett kort
+
+För att redigera ett textkort eller ett anteckningskort, använd någon av metoderna.
+
+- Tryck på kortet för att markera det, och dubbelklicka sedan på det. Tangentbordet öppnas.
+- Tryck på kortet för att markera det, och välj sedan **Redigera** ![[lucide-square-pen.svg#icon]] i verktygsfältet ovanför kortet.
+
+### Etikettera en koppling
+
+1. Tryck på linjen för att markera den.
+2. I verktygsfältet, välj **Redigera etikett** ![[lucide-square-pen.svg#icon]]. Tangentbordet öppnas.
+3. Ange etiketten.
+
+För att ta bort en etikett, tryck på linjen och välj sedan **Ta bort etikett** i verktygsfältet.
+
+### Ändra riktning på en koppling
+
+1. Tryck på linjen för att markera den.
+2. I verktygsfältet, välj **Linjens riktning**.
+3. Välj **Icke-riktad**, **Enriktad** eller **Tvåriktad**.
+
+### Öppna linjemenyn
+
+Tryck och håll på en linje som kopplar samman två kort. Menyn har dessa alternativ.
+
+- **Redigera etikett** lägger till eller ändrar linjens etikett.
+- **Följ anslutning** flyttar canvasen till kortet i den motsatta änden av linjen.
+- **Ta bort** raderar kopplingen.
+
+### Koppla samman kort
+
+1. Tryck på ett kort för att markera det.
+2. Dra en av cirklarna på dess kanter till ett annat kort.
+
+Om du drar linjen och släpper i ett tomt område öppnas en meny med **Lägg till kort** och **Lägg till anteckning från valv**. Välj ett alternativ för att lägga till ett kort i slutet av linjen.
+
+### Koppla ifrån kort
+
+För att ta bort en koppling, använd någon av metoderna.
+
+- Tryck på linjen och välj sedan **Ta bort** ![[lucide-trash-2.svg#icon]].
+- Dra piländen av linjen tillbaka till kortet den startade från. Linjen försvinner.
+
+### Gruppera kort
+
+För att skapa en grupp:
+
+1. Tryck och håll på ett tomt område av canvasen.
+2. Välj **Skapa grupp**.
+3. Dra gruppens kanter för att ändra dess storlek.
+
+För att lägga till kort i en grupp, dra dem in i gruppens område. När du flyttar gruppen flyttas korten inuti den också.
+
+För att byta namn på en grupp, dubbelklicka på dess namn. Tangentbordet öppnas. Ange det nya namnet.
+
+### Canvas-kontroller
+
+Kontroller på höger sida av canvasen ändrar vyn och dina inställningar.
+
+- **Zooma in** och **Zooma ut** ändrar inzoomningsnivån.
+- **Återställ zoom** återställer canvasen till standard inzoomningsnivå.
+- **Zooma för att passa** visar alla kort på canvasen.
+- **Ångra** och **Gör om** ångrar eller upprepar din senaste ändring.
+- **Canvas-inställningar** har alternativen **Snäpp till rutnät**, **Snäpp till objekt** och **Skrivskyddad**.
 
 ## Avancerade tips
 
