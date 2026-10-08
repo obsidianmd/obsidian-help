@@ -19,6 +19,7 @@ In the Obsidian desktop app the workspace includes:
     - [[Sidebar#Tabs|Sidebar tabs]]
 - [[Tabs#Organize your tabs and windows|Tab groups]] in the central content area (can be split vertically or horizontally)
     - [[Tabs]]
+    - [[More options menu]] in the upper-right corner of each note
 - [[Status bar]] in the bottom right corner
 
 ## Mobile
@@ -26,6 +27,7 @@ In the Obsidian desktop app the workspace includes:
 In the Obsidian mobile app the workspace includes:
 
 - [[Tabs]] managed from the tab counter in the [[Mobile app#Navigation bar|Navigation bar]]
+- [[More options menu#Mobile|More options menu]] for the active note
 - [[Sidebar|Sidebars]] (opened using left and right swipe gestures)
 - [[Mobile app#Navigation bar|Navigation bar]] at the bottom of the screen
 - [[Ribbon|Ribbon menu]] in the Navigation bar (contains customizable actions)
