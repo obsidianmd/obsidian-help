@@ -24,21 +24,22 @@ On desktop, you can also right-click the note's tab. That menu has the same item
 
 ### View and layout
 
-- **Backlinks in document** shows the note's backlinks inside the note. It needs the Backlinks plugin. See [[Backlinks#Show backlinks in a note]].
+- **Backlinks in document** shows the note's backlinks inside the note. It needs the Backlinks plugin. See [[Backlinks#Show backlinks in a note|Show backlinks in a note]].
 - **Reading view** and **Source mode** change how the note looks and how you edit it. See [[Views and editing mode]].
 - **Split right** and **Split down** open the note in a new pane. See [[Tabs]].
 - **Open in new window** opens the note in its own window. See [[Pop-out windows]].
 
 ### Manage the note
 
-- **Rename...** changes the note name. See [[Manage notes#Rename a note]].
+- **Rename...** changes the note name. See [[Manage notes#Rename a note|Rename a note]].
 - **Move file to...** moves the note to another folder. See [[File explorer]].
-- **Bookmark...** adds the note to your bookmarks. It needs the Bookmarks plugin. See [[Bookmarks#Add a bookmark]].
-- **Merge entire file with...** combines the note with another one. It needs the Note composer plugin. See [[Note composer#Merge notes]].
+- **Bookmark...** adds the note to your bookmarks. It needs the Bookmarks plugin. See [[Bookmarks#Add a bookmark|Add a bookmark]].
+- **Merge entire file with...** combines the note with another one. It needs the Note composer plugin. See [[Note composer#Merge notes|Merge notes]].
 - **Publish current file** publishes the note to your site. It needs Obsidian Publish.
+- **Copy Publish URL** copies the address of the published note. It needs Obsidian Publish.
 - **Add file property** adds a property to the note. See [[Properties]].
-- **Export to PDF...** saves the note as a PDF.
-- **Delete file** deletes the note. See [[Manage notes#Delete a note]].
+- **Export to PDF...** saves the note as a PDF. See [[PDFs#Export a note to PDF|Export a note to PDF]].
+- **Delete file** deletes the note. See [[Manage notes#Delete a note|Delete a note]].
 
 ### Find
 
@@ -48,7 +49,7 @@ On desktop, you can also right-click the note's tab. That menu has the same item
 
 - **Copy path** copies the note's location as an Obsidian URL, from the vault folder, or from the system root.
 - **Open version history** shows earlier versions of the note. It needs an active Obsidian Sync subscription. See [[Version history]].
-- **Open linked view** opens a view that follows the note, such as the local graph. See [[Tabs#Linked views]].
+- **Open linked view** opens a view that follows the note, such as the local graph. See [[Tabs#Linked views|Linked views]].
 
 ### Your computer
 
@@ -61,7 +62,7 @@ On desktop, you can also right-click the note's tab. That menu has the same item
 Right-click a tab to see everything above, plus these items.
 
 - **Close** closes the tab.
-- **Pin** pins the tab. See [[Tabs#Pin a tab]].
+- **Pin** pins the tab. See [[Tabs#Pin a tab|Pin a tab]].
 - **Link with tab...** links the tab with a view such as the local graph or outline, so that view follows this tab.
 - **Move to new window** moves the tab into its own window.
 
@@ -80,6 +81,7 @@ These items work as they do on desktop.
 - **Copy path**, with the choices **as Obsidian URL** and **from vault folder**
 - **Open version history**
 - **Open linked view**
+- **Copy Publish URL**
 - **Delete file**
 
 The mobile menu also has these items.
