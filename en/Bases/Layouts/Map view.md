@@ -11,7 +11,7 @@ Select ![[lucide-map.svg#icon]]  **Map** from the view menu to display files as 
 
 Map views require Obsidian 1.10. The [Maps plugin](obsidian://show-plugin?id=maps) is an official [[Community plugins|community plugin]] that you can download separately.
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
+1. Follow instructions in [[Community plugins#Install a community plugin|Install a community plugin]]
 2. Download and enable [Maps](obsidian://show-plugin?id=maps) from the list
 
 ## Example

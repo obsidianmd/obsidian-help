@@ -112,8 +112,8 @@ Right-click a file or folder in the File explorer.
 - **Open in new window** opens the file in its own window. See [[Pop-out windows]].
 - **Duplicate** makes a copy of the file.
 - **Move file to...** moves the file to another folder. See [[#Move a file or folder]].
-- **Bookmark...** adds the file to your bookmarks. It needs the Bookmarks plugin. See [[Bookmarks#Add a bookmark]].
-- **Merge entire file with...** combines the note with another one. It needs the Note composer plugin. See [[Note composer#Merge notes]].
+- **Bookmark...** adds the file to your bookmarks. It needs the Bookmarks plugin. See [[Bookmarks#Add a bookmark|Add a bookmark]].
+- **Merge entire file with...** combines the note with another one. It needs the Note composer plugin. See [[Note composer#Merge notes|Merge notes]].
 - **Publish current file** publishes the note to your site. It needs Obsidian Publish. See [[Introduction to Obsidian Publish|Publish]].
 - **Copy path** copies the file's location as an Obsidian URL, from the vault folder, or from the system root.
 - **Open version history** shows earlier versions of the file. It needs an active Obsidian Sync subscription. See [[Version history]].

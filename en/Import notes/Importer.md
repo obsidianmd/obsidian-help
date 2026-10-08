@@ -15,7 +15,7 @@ Importer is an official [[Community plugins|Community plugin]] made by the Obsid
 
 ## Install Importer
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
+1. Follow instructions in [[Community plugins#Install a community plugin|Install a community plugin]]
 2. Download and enable [Importer](obsidian://show-plugin?id=obsidian-importer) from the list
 
 
