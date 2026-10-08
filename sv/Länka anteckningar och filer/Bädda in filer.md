@@ -92,6 +92,8 @@ För att kombinera sid- och höjdalternativ, separera dem med `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+För mer om att visa och söka i PDF-filer, se [[PDF-filer]].
+
 ## Bädda in en canvas i en anteckning
 
 För att bädda in en [[Canvas|canvas]]:

@@ -92,6 +92,8 @@ Pro kombinaci možností stránky a výšky je oddělte pomocí `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Více o prohlížení a vyhledávání v PDF najdete v [[PDF]].
+
 ## Vložení Plátna do poznámky
 
 Pro vložení [[Canvas|Plátna]]:

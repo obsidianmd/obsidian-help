@@ -314,6 +314,10 @@ translation=គេហទំព័រផ្លូវការ
 original=Introduction to licenses and payment
 translation=ការណែនាំអំពីអាជ្ញាប័ណ្ណ និងការទូទាត់
 
+[file.pdf]
+original=PDFs
+translation=ឯកសារ PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=សុវត្ថិភាពកម្មវិធីជំនួយ

@@ -4229,3 +4229,31 @@ translation=ค้นหาผลลัพธ์ที่ตรงกัน
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=แทนที่ผลลัพธ์ที่ตรงกัน
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=เปิด PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=นำทางใน PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=เปลี่ยนลักษณะการแสดง PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=ค้นหาใน PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=คัดลอกข้อความจาก PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=ฝัง PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=ส่งออกโน้ตเป็น PDF

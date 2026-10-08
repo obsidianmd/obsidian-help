@@ -314,6 +314,10 @@ translation=Sito web ufficiale
 original=Introduction to licenses and payment
 translation=Introduzione a licenze e pagamenti
 
+[file.pdf]
+original=PDFs
+translation=PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=Sicurezza dei plugin

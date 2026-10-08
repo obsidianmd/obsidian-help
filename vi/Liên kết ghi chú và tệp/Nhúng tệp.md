@@ -92,6 +92,8 @@ Bạn cũng có thể chỉ định chiều cao tính bằng pixel cho trình xe
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Để biết thêm về cách xem và tìm kiếm PDF, xem [[Tệp PDF]].
+
 ## Nhúng canvas vào ghi chú
 
 Để nhúng một [[Canvas|canvas]]:

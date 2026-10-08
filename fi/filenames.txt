@@ -314,6 +314,10 @@ translation=Virallinen verkkosivusto
 original=Introduction to licenses and payment
 translation=Johdanto lisensseihin ja maksamiseen
 
+[file.pdf]
+original=PDFs
+translation=PDF-tiedostot
+
 [file.plugin-security]
 original=Plugin security
 translation=Lisäosien turvallisuus

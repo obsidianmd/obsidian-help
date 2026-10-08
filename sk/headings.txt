@@ -1937,3 +1937,31 @@ translation=Hľadanie zhôd
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Nahradenie zhôd
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Otvorenie PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navigácia v PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Zmena vzhľadu PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Vyhľadávanie v PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Kopírovanie textu z PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Vloženie PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Export poznámky do PDF

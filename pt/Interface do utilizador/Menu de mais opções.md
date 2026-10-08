@@ -19,21 +19,22 @@ No computador, também pode clicar com o botão direito no separador da nota. Es
 
 ### Vista e esquema
 
-- **Links inversos no documento** mostra os links inversos da nota dentro da própria nota. Necessita do plugin Links inversos. Consulte [[Links inversos#Mostrar links inversos numa nota]].
+- **Links inversos no documento** mostra os links inversos da nota dentro da própria nota. Necessita do plugin Links inversos. Consulte [[Links inversos#Mostrar links inversos numa nota|Mostrar links inversos numa nota]].
 - **Vista de leitura** e **Modo de origem** alteram a aparência da nota e a forma como a edita. Consulte [[Vistas e modo de edição]].
 - **Dividir à direita** e **Dividir para baixo** abrem a nota num novo painel. Consulte [[Separadores]].
 - **Abrir numa nova janela** abre a nota na sua própria janela. Consulte [[Janelas flutuantes]].
 
 ### Gerir a nota
 
-- **Renomear** altera o nome da nota. Consulte [[Gerir notas#Renomear uma nota]].
+- **Renomear** altera o nome da nota. Consulte [[Gerir notas#Renomear uma nota|Renomear uma nota]].
 - **Mover ficheiro para...** move a nota para outra pasta. Consulte [[Explorador de ficheiros]].
-- **Marcar...** adiciona a nota aos seus marcadores. Necessita do plugin Marcadores. Consulte [[Marcadores#Adicionar um marcador]].
-- **Fundir o ficheiro inteiro com...** combina a nota com outra. Necessita do plugin Compositor de notas. Consulte [[Compositor de notas#Mesclar notas]].
+- **Marcar...** adiciona a nota aos seus marcadores. Necessita do plugin Marcadores. Consulte [[Marcadores#Adicionar um marcador|Adicionar um marcador]].
+- **Fundir o ficheiro inteiro com...** combina a nota com outra. Necessita do plugin Compositor de notas. Consulte [[Compositor de notas#Mesclar notas|Mesclar notas]].
 - **Publicar ficheiro atual** publica a nota no seu site. Necessita do Obsidian Publish.
+- **Copiar URL de publicação** copia o endereço da nota publicada. Necessita do Obsidian Publish.
 - **Adicionar propriedade ao ficheiro** adiciona uma propriedade à nota. Consulte [[Propriedades]].
-- **Exportar PDF** guarda a nota como PDF.
-- **Eliminar ficheiro** elimina a nota. Consulte [[Gerir notas#Eliminar uma nota]].
+- **Exportar PDF** guarda a nota como PDF. Consulte [[PDFs#Exportar uma nota para PDF|Exportar uma nota para PDF]].
+- **Eliminar ficheiro** elimina a nota. Consulte [[Gerir notas#Eliminar uma nota|Eliminar uma nota]].
 
 ### Localizar
 
@@ -43,7 +44,7 @@ No computador, também pode clicar com o botão direito no separador da nota. Es
 
 - **Copiar caminho** copia a localização da nota como um URL do Obsidian, a partir da pasta do cofre ou a partir da raiz do sistema.
 - **Abrir histórico de versões** mostra versões anteriores da nota. Necessita de uma subscrição ativa do Obsidian Sync. Consulte [[História de versionamento]].
-- **Abrir vista ligada** abre uma vista que acompanha a nota, como o grafo local. Consulte [[Separadores#Vistas ligadas]].
+- **Abrir vista ligada** abre uma vista que acompanha a nota, como o grafo local. Consulte [[Separadores#Vistas ligadas|Vistas ligadas]].
 
 ### O seu computador
 
@@ -56,7 +57,7 @@ No computador, também pode clicar com o botão direito no separador da nota. Es
 Clique com o botão direito num separador para ver tudo o que está acima, mais estes itens.
 
 - **Fechar** fecha o separador.
-- **Fixar** fixa o separador. Consulte [[Separadores#Fixar um separador]].
+- **Fixar** fixa o separador. Consulte [[Separadores#Fixar um separador|Fixar um separador]].
 - **Ligar à aba...** liga o separador a uma vista como o grafo local ou esquema, para que essa vista acompanhe este separador.
 - **Mover para nova janela** move o separador para a sua própria janela.
 
@@ -75,6 +76,7 @@ Estes itens funcionam como no computador.
 - **Copiar caminho**, com as opções **como URL do Obsidian** e **a partir da pasta do cofre**
 - **Abrir histórico de versões**
 - **Abrir vista ligada**
+- **Copiar URL de publicação**
 - **Eliminar ficheiro**
 
 O menu móvel também tem estes itens.

@@ -19,21 +19,22 @@ Op desktop kun je ook met de rechtermuisknop op het tabblad van de notitie klikk
 
 ### Weergave en lay-out
 
-- **Teruglinks in document** toont de teruglinks van de notitie binnen de notitie. Hiervoor is de Terugverwijzing-plug-in nodig. Zie [[Terugverwijzing#Teruglinks weergeven in een notitie]].
+- **Teruglinks in document** toont de teruglinks van de notitie binnen de notitie. Hiervoor is de Terugverwijzing-plug-in nodig. Zie [[Terugverwijzing#Teruglinks weergeven in een notitie|Teruglinks weergeven in een notitie]].
 - **Leesweergave** en **Bronmodus** veranderen hoe de notitie eruitziet en hoe je deze bewerkt. Zie [[Weergaven en bewerkingsmodus]].
 - **Rechts opdelen** en **Beneden opdelen** openen de notitie in een nieuw paneel. Zie [[Tabbladen]].
 - **Open in nieuw venster** opent de notitie in een eigen venster. Zie [[Losstaande vensters]].
 
 ### De notitie beheren
 
-- **Hernoemen** wijzigt de naam van de notitie. Zie [[Notities beheren#Een notitie hernoemen]].
+- **Hernoemen** wijzigt de naam van de notitie. Zie [[Notities beheren#Een notitie hernoemen|Een notitie hernoemen]].
 - **Verplaats bestand naar ...** verplaatst de notitie naar een andere map. Zie [[Bestandsverkenner]].
-- **Bladwijzer...** voegt de notitie toe aan je bladwijzers. Hiervoor is de Bladwijzers-plug-in nodig. Zie [[Bladwijzers#Een bladwijzer toevoegen]].
-- **Volledig bestand samenvoegen met...** combineert de notitie met een andere. Hiervoor is de Notitiesamensteller-plug-in nodig. Zie [[Notitiesamensteller#Notities samenvoegen]].
+- **Bladwijzer...** voegt de notitie toe aan je bladwijzers. Hiervoor is de Bladwijzers-plug-in nodig. Zie [[Bladwijzers#Een bladwijzer toevoegen|Een bladwijzer toevoegen]].
+- **Volledig bestand samenvoegen met...** combineert de notitie met een andere. Hiervoor is de Notitiesamensteller-plug-in nodig. Zie [[Notitiesamensteller#Notities samenvoegen|Notities samenvoegen]].
 - **Huidig bestand publiceren** publiceert de notitie naar je site. Hiervoor is Obsidian Publish nodig.
+- **Publish-URL kopiëren** kopieert het adres van de gepubliceerde notitie. Hiervoor is Obsidian Publish nodig.
 - **Voeg bestandseigenschap toe** voegt een eigenschap toe aan de notitie. Zie [[Eigenschappen]].
-- **Exporteer naar PDF...** slaat de notitie op als PDF.
-- **Bestand verwijderen** verwijdert de notitie. Zie [[Notities beheren#Een notitie verwijderen]].
+- **Exporteer naar PDF...** slaat de notitie op als PDF. Zie [[PDF's#Een notitie exporteren naar PDF|Een notitie exporteren naar PDF]].
+- **Bestand verwijderen** verwijdert de notitie. Zie [[Notities beheren#Een notitie verwijderen|Een notitie verwijderen]].
 
 ### Zoeken
 
@@ -43,7 +44,7 @@ Op desktop kun je ook met de rechtermuisknop op het tabblad van de notitie klikk
 
 - **Pad kopiëren** kopieert de locatie van de notitie als Obsidian-URL, vanaf de kluismap of vanaf de systeemroot.
 - **Open versiegeschiedenis** toont eerdere versies van de notitie. Hiervoor is een actief Obsidian Sync-abonnement nodig. Zie [[Versiegeschiedenis]].
-- **Gelinkte weergave openen** opent een weergave die de notitie volgt, zoals de lokale grafiek. Zie [[Tabbladen#Gelinkte weergaven]].
+- **Gelinkte weergave openen** opent een weergave die de notitie volgt, zoals de lokale grafiek. Zie [[Tabbladen#Gelinkte weergaven|Gelinkte weergaven]].
 
 ### Je computer
 
@@ -56,7 +57,7 @@ Op desktop kun je ook met de rechtermuisknop op het tabblad van de notitie klikk
 Klik met de rechtermuisknop op een tabblad om alles hierboven te zien, plus deze items.
 
 - **Sluiten** sluit het tabblad.
-- **Vastmaken** maakt het tabblad vast. Zie [[Tabbladen#Een tabblad vastmaken]].
+- **Vastmaken** maakt het tabblad vast. Zie [[Tabbladen#Een tabblad vastmaken|Een tabblad vastmaken]].
 - **Linken met tabblad...** koppelt het tabblad met een weergave zoals de lokale grafiek of het overzicht, zodat die weergave dit tabblad volgt.
 - **Verplaatsen naar nieuw venster** verplaatst het tabblad naar een eigen venster.
 
@@ -75,6 +76,7 @@ Deze items werken hetzelfde als op desktop.
 - **Pad kopiëren**, met de keuzes **als Obsidian-URL** en **vanaf kluismap**
 - **Open versiegeschiedenis**
 - **Gelinkte weergave openen**
+- **Publish-URL kopiëren**
 - **Bestand verwijderen**
 
 Het mobiele menu bevat ook deze items.

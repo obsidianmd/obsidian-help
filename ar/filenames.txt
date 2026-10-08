@@ -314,6 +314,10 @@ translation=الموقع الرسمي
 original=Introduction to licenses and payment
 translation=مقدمة عن التراخيص والدفع
 
+[file.pdf]
+original=PDFs
+translation=ملفات PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=أمان الإضافات

@@ -19,21 +19,22 @@ På skrivebord kan du også høyreklikke på notatets fane. Den menyen har de sa
 
 ### Visning og oppsett
 
-- **Tilbakelenker i dokument** viser notatets tilbakelenker inne i notatet. Det krever Tilbakelenker-utvidelsen. Se [[Lenker tilbake#Vis tilbakelenker i et notat]].
+- **Tilbakelenker i dokument** viser notatets tilbakelenker inne i notatet. Det krever Tilbakelenker-utvidelsen. Se [[Lenker tilbake#Vis tilbakelenker i et notat|Vis tilbakelenker i et notat]].
 - **Lesevisning** og **Kildemodus** endrer hvordan notatet ser ut og hvordan du redigerer det. Se [[Visninger og redigeringsmodus]].
 - **Del til høyre** og **Del nedover** åpner notatet i et nytt panel. Se [[Faner]].
 - **Åpne i nytt vindu** åpner notatet i sitt eget vindu. Se [[Løsrevne vinduer]].
 
 ### Administrer notatet
 
-- **Endre navn** endrer notatnavnet. Se [[Administrer notater#Gi nytt navn til et notat]].
+- **Endre navn** endrer notatnavnet. Se [[Administrer notater#Gi nytt navn til et notat|Gi nytt navn til et notat]].
 - **Flytt fil til...** flytter notatet til en annen mappe. Se [[Filutforsker]].
-- **Bokmerke...** legger notatet til i bokmerkene dine. Det krever Bokmerker-utvidelsen. Se [[Bokmerker#Legg til et bokmerke]].
-- **Slå sammen hele filen med...** kombinerer notatet med et annet. Det krever Notatkomponist-utvidelsen. Se [[Notatkomponist#Slå sammen notater]].
+- **Bokmerke...** legger notatet til i bokmerkene dine. Det krever Bokmerker-utvidelsen. Se [[Bokmerker#Legg til et bokmerke|Legg til et bokmerke]].
+- **Slå sammen hele filen med...** kombinerer notatet med et annet. Det krever Notatkomponist-utvidelsen. Se [[Notatkomponist#Slå sammen notater|Slå sammen notater]].
 - **Publiser gjeldende fil** publiserer notatet til nettstedet ditt. Det krever Obsidian Publish.
+- **Kopier Publish-URL** kopierer adressen til det publiserte notatet. Det krever Obsidian Publish.
 - **Legg til filegenskap** legger til en egenskap i notatet. Se [[Egenskaper]].
-- **Eksporter til PDF...** lagrer notatet som en PDF.
-- **Slett fil** sletter notatet. Se [[Administrer notater#Slett et notat]].
+- **Eksporter til PDF...** lagrer notatet som en PDF. Se [[PDF-er#Eksporter et notat til PDF|Eksporter et notat til PDF]].
+- **Slett fil** sletter notatet. Se [[Administrer notater#Slett et notat|Slett et notat]].
 
 ### Finn
 
@@ -43,7 +44,7 @@ På skrivebord kan du også høyreklikke på notatets fane. Den menyen har de sa
 
 - **Kopier sti** kopierer notatets plassering som en Obsidian-URL, fra hvelvmappen eller fra systemroten.
 - **Åpne versjonshistorikk** viser tidligere versjoner av notatet. Det krever et aktivt Obsidian Sync-abonnement. Se [[Versjonshistorikk]].
-- **Åpne lenket visning** åpner en visning som følger notatet, for eksempel den lokale grafen. Se [[Faner#Lenkede visninger]].
+- **Åpne lenket visning** åpner en visning som følger notatet, for eksempel den lokale grafen. Se [[Faner#Lenkede visninger|Lenkede visninger]].
 
 ### Din datamaskin
 
@@ -56,7 +57,7 @@ På skrivebord kan du også høyreklikke på notatets fane. Den menyen har de sa
 Høyreklikk på en fane for å se alt ovenfor, pluss disse elementene.
 
 - **Lukk** lukker fanen.
-- **Fest** fester fanen. Se [[Faner#Fest en fane]].
+- **Fest** fester fanen. Se [[Faner#Fest en fane|Fest en fane]].
 - **Koble til fane...** kobler fanen med en visning som den lokale grafen eller disposisjonen, slik at visningen følger denne fanen.
 - **Flytt til nytt vindu** flytter fanen til sitt eget vindu.
 
@@ -75,6 +76,7 @@ Disse elementene fungerer som på skrivebordet.
 - **Kopier sti**, med valgene **som Obsidian-URL** og **fra hvelvmappen**
 - **Åpne versjonshistorikk**
 - **Åpne lenket visning**
+- **Kopier Publish-URL**
 - **Slett fil**
 
 Mobilmenyen har også disse elementene.

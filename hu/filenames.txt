@@ -314,6 +314,10 @@ translation=Hivatalos weboldal
 original=Introduction to licenses and payment
 translation=Bevezetés a licencekbe és fizetésbe
 
+[file.pdf]
+original=PDFs
+translation=PDF-ek
+
 [file.plugin-security]
 original=Plugin security
 translation=Bővítmények biztonsága

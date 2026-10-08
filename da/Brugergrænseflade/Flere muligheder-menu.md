@@ -19,21 +19,22 @@ På desktop kan du også højreklikke på notens fane. Den menu har de samme ele
 
 ### Visning og layout
 
-- **Tilbagelinks i dokument** viser notens tilbagelinks inde i noten. Det kræver Tilbagelinks-pluginet. Se [[Tilbagelinks#Vis tilbagelinks i en note]].
+- **Tilbagelinks i dokument** viser notens tilbagelinks inde i noten. Det kræver Tilbagelinks-pluginet. Se [[Tilbagelinks#Vis tilbagelinks i en note|Vis tilbagelinks i en note]].
 - **Læsevisning** og **Kildetilstand** ændrer, hvordan noten ser ud, og hvordan du redigerer den. Se [[Visninger og redigeringstilstand]].
 - **Opdel til højre** og **Opdel nedad** åbner noten i et nyt panel. Se [[Faner]].
 - **Åbn i nyt vindue** åbner noten i sit eget vindue. Se [[Pop ud-vinduer]].
 
 ### Administrer noten
 
-- **Omdøb...** ændrer notens navn. Se [[Administrer noter#Omdøb en note]].
+- **Omdøb...** ændrer notens navn. Se [[Administrer noter#Omdøb en note|Omdøb en note]].
 - **Flyt fil til...** flytter noten til en anden mappe. Se [[Filstifinder]].
-- **Bogmærk...** tilføjer noten til dine bogmærker. Det kræver Bogmærker-pluginet. Se [[Bogmærker#Tilføj et bogmærke]].
-- **Flet hele filen med...** kombinerer noten med en anden. Det kræver Notekomponist-pluginet. Se [[Notekomponist#Flet noter]].
+- **Bogmærk...** tilføjer noten til dine bogmærker. Det kræver Bogmærker-pluginet. Se [[Bogmærker#Tilføj et bogmærke|Tilføj et bogmærke]].
+- **Flet hele filen med...** kombinerer noten med en anden. Det kræver Notekomponist-pluginet. Se [[Notekomponist#Flet noter|Flet noter]].
 - **Udgiv nuværende fil** udgiver noten til dit websted. Det kræver Obsidian Publish.
+- **Kopiér Publish-URL** kopierer adressen på den udgivne note. Det kræver Obsidian Publish.
 - **Tilføj filegenskab** tilføjer en egenskab til noten. Se [[Egenskaber]].
-- **Eksportér til PDF...** gemmer noten som en PDF.
-- **Slet fil** sletter noten. Se [[Administrer noter#Slet en note]].
+- **Eksportér til PDF...** gemmer noten som en PDF. Se [[PDF'er#Eksportér en note til PDF|Eksportér en note til PDF]].
+- **Slet fil** sletter noten. Se [[Administrer noter#Slet en note|Slet en note]].
 
 ### Find
 
@@ -43,7 +44,7 @@ På desktop kan du også højreklikke på notens fane. Den menu har de samme ele
 
 - **Kopiér sti** kopierer notens placering som en Obsidian-URL, fra boksmappen eller fra systemets rod.
 - **Åbn versionshistorik** viser tidligere versioner af noten. Det kræver et aktivt Obsidian Sync-abonnement. Se [[Versionshistorik]].
-- **Åbn linket visning** åbner en visning, der følger noten, såsom den lokale graf. Se [[Faner#Linkede visninger]].
+- **Åbn linket visning** åbner en visning, der følger noten, såsom den lokale graf. Se [[Faner#Linkede visninger|Linkede visninger]].
 
 ### Din computer
 
@@ -56,7 +57,7 @@ På desktop kan du også højreklikke på notens fane. Den menu har de samme ele
 Højreklik på en fane for at se alt ovenstående plus disse elementer.
 
 - **Luk** lukker fanen.
-- **Fastgør** fastgør fanen. Se [[Faner#Fastgør en fane]].
+- **Fastgør** fastgør fanen. Se [[Faner#Fastgør en fane|Fastgør en fane]].
 - **Link med fane...** linker fanen med en visning såsom den lokale graf eller disposition, så den visning følger denne fane.
 - **Flyt til nyt vindue** flytter fanen til sit eget vindue.
 
@@ -75,6 +76,7 @@ Disse elementer fungerer som på desktop.
 - **Kopiér sti**, med valgmulighederne **som Obsidian-URL** og **fra boksmappe**
 - **Åbn versionshistorik**
 - **Åbn linket visning**
+- **Kopiér Publish-URL**
 - **Slet fil**
 
 Mobilmenuen har også disse elementer.

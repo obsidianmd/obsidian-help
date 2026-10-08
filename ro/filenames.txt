@@ -314,6 +314,10 @@ translation=Site-ul oficial
 original=Introduction to licenses and payment
 translation=Introducere în licențe și plăți
 
+[file.pdf]
+original=PDFs
+translation=PDF-uri
+
 [file.plugin-security]
 original=Plugin security
 translation=Securitatea modulelor

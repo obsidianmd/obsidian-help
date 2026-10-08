@@ -4093,3 +4093,31 @@ translation=Treffer finden
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Treffer ersetzen
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Eine PDF öffnen
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=In einer PDF navigieren
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Das Aussehen einer PDF ändern
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=In einer PDF suchen
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Text aus einer PDF kopieren
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Eine PDF einbetten
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Eine Notiz als PDF exportieren

@@ -1065,3 +1065,31 @@ translation=Trobar coincidències
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Substituir coincidències
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Obrir un PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navegar per un PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Canviar l'aspecte d'un PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Cercar en un PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Copiar text d'un PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Incrustar un PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Exportar una nota a PDF

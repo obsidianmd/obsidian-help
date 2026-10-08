@@ -4197,3 +4197,31 @@ translation=Encontrar correspondências
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Substituir correspondências
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Abrir um PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navegar em um PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Alterar a aparência de um PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Pesquisar em um PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Copiar texto de um PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Incorporar um PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Exportar uma nota para PDF

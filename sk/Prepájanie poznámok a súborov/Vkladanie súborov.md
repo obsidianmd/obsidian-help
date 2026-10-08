@@ -92,6 +92,8 @@ Na kombináciu možností strany a výšky ich oddeľte pomocou `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Viac informácií o zobrazení a vyhľadávaní v PDF súboroch nájdete v [[PDF súbory]].
+
 ## Vloženie plátna do poznámky
 
 Na vloženie [[Canvas|plátna]]:

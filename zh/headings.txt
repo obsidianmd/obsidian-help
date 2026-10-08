@@ -4309,3 +4309,31 @@ translation=查找匹配项
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=替换匹配项
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=打开 PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=导航 PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=更改 PDF 的显示方式
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=搜索 PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=从 PDF 中复制文本
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=嵌入 PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=将笔记导出为 PDF

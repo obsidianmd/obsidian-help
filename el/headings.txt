@@ -1137,3 +1137,31 @@ translation=Εύρεση αντιστοιχιών
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Αντικατάσταση αντιστοιχιών
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Άνοιγμα PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Πλοήγηση σε PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Αλλαγή εμφάνισης PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Αναζήτηση σε PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Αντιγραφή κειμένου από PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Ενσωμάτωση PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Εξαγωγή σημείωσης σε PDF

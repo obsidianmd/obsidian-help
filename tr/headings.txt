@@ -4269,3 +4269,31 @@ translation=Eşleşmeleri bulma
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Eşleşmeleri değiştirme
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=PDF açma
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=PDF'de gezinme
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=PDF'nin görünümünü değiştirme
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=PDF'de arama
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=PDF'den metin kopyalama
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF gömme
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Bir notu PDF olarak dışa aktarma

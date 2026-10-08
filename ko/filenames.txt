@@ -314,6 +314,10 @@ translation=공식 웹사이트
 original=Introduction to licenses and payment
 translation=라이선스 및 결제 소개
 
+[file.pdf]
+original=PDFs
+translation=PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=플러그인 보안

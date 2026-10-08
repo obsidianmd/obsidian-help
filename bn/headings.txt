@@ -189,3 +189,31 @@ translation=মিল খুঁজুন
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=মিল প্রতিস্থাপন করুন
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=একটি PDF খুলুন
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=PDF-এ নেভিগেট করুন
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=PDF কীভাবে দেখায় তা পরিবর্তন করুন
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=PDF-এ অনুসন্ধান করুন
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=PDF থেকে টেক্সট কপি করুন
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF এম্বেড করুন
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=নোটকে PDF-এ এক্সপোর্ট করুন

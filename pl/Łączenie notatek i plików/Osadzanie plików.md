@@ -93,6 +93,8 @@ Aby połączyć opcje strony i wysokości, rozdziel je znakiem `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Więcej informacji o przeglądaniu i wyszukiwaniu plików PDF znajdziesz w [[Pliki PDF]].
+
 ## Osadzanie Canvas w notatce
 
 Aby osadzić [[Tablica|Canvas]]:

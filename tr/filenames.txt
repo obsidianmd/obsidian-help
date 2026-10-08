@@ -314,6 +314,10 @@ translation=Resmi web sitesi
 original=Introduction to licenses and payment
 translation=Lisanslar ve ödemeye giriş
 
+[file.pdf]
+original=PDFs
+translation=PDF'ler
+
 [file.plugin-security]
 original=Plugin security
 translation=Eklenti güvenliği

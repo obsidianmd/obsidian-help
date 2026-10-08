@@ -314,6 +314,10 @@ translation=Trang web chính thức
 original=Introduction to licenses and payment
 translation=Giới thiệu về bản quyền và thanh toán
 
+[file.pdf]
+original=PDFs
+translation=Tệp PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=Bảo mật plugin

@@ -4273,3 +4273,31 @@ translation=Znajdowanie dopasowań
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Zastępowanie dopasowań
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Otwieranie PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Nawigacja w PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Zmiana wyglądu PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Wyszukiwanie w PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Kopiowanie tekstu z PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Osadzanie PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Eksport notatki do PDF

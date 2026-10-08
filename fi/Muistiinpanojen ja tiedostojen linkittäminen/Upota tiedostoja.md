@@ -92,6 +92,8 @@ Yhdistääksesi sivu- ja korkeusasetukset, erota ne `&`-merkillä:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Lisätietoja PDF-tiedostojen katselusta ja hausta on sivulla [[PDF-tiedostot]].
+
 ## Valkotaulun upottaminen muistiinpanoon
 
 [[Canvas|Valkotaulun]] upottaminen:

@@ -92,6 +92,8 @@ Per combinare le opzioni di pagina e altezza, separale con `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Per ulteriori informazioni sulla visualizzazione e la ricerca nei PDF, consulta [[PDF]].
+
 ## Incorporare un canvas in una nota
 
 Per incorporare un [[Lavagna|canvas]]:

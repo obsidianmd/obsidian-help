@@ -19,21 +19,22 @@ Trên máy tính, bạn cũng có thể nhấp chuột phải vào thẻ của g
 
 ### Chế độ xem và bố cục
 
-- **Liên kết đến trong tài liệu** hiển thị các liên kết ngược của ghi chú bên trong ghi chú. Cần plugin Liên kết đến. Xem [[Liên kết đến#Hiển thị liên kết ngược trong ghi chú]].
+- **Liên kết đến trong tài liệu** hiển thị các liên kết ngược của ghi chú bên trong ghi chú. Cần plugin Liên kết đến. Xem [[Liên kết đến#Hiển thị liên kết ngược trong ghi chú|Hiển thị liên kết ngược trong ghi chú]].
 - **Chế độ đọc** và **Chế độ nguồn** thay đổi cách ghi chú hiển thị và cách bạn chỉnh sửa. Xem [[Các chế độ xem và chế độ chỉnh sửa]].
 - **Chia 2 Bên Phải** và **Chia 2 Xuống Dưới** mở ghi chú trong một khung mới. Xem [[Thẻ]].
 - **Mở trong cửa sổ mới** mở ghi chú trong cửa sổ riêng. Xem [[Cửa sổ bật ra]].
 
 ### Quản lý ghi chú
 
-- **Đổi tên** thay đổi tên ghi chú. Xem [[Quản lý ghi chú#Đổi tên ghi chú]].
+- **Đổi tên** thay đổi tên ghi chú. Xem [[Quản lý ghi chú#Đổi tên ghi chú|Đổi tên ghi chú]].
 - **Di chuyển tệp đến...** di chuyển ghi chú đến thư mục khác. Xem [[Trình quản lý tệp]].
-- **Đánh dấu...** thêm ghi chú vào danh sách dấu trang. Cần plugin Đánh dấu. Xem [[Đánh dấu#Thêm dấu trang]].
-- **Kết hợp toàn bộ tập tin với...** kết hợp ghi chú với một ghi chú khác. Cần plugin Trình soạn thảo ghi chú. Xem [[Trình soạn thảo ghi chú#Hợp nhất ghi chú]].
+- **Đánh dấu...** thêm ghi chú vào danh sách dấu trang. Cần plugin Đánh dấu. Xem [[Đánh dấu#Thêm dấu trang|Thêm dấu trang]].
+- **Kết hợp toàn bộ tập tin với...** kết hợp ghi chú với một ghi chú khác. Cần plugin Trình soạn thảo ghi chú. Xem [[Trình soạn thảo ghi chú#Hợp nhất ghi chú|Hợp nhất ghi chú]].
 - **Xuất bản tệp hiện tại** xuất bản ghi chú lên trang web của bạn. Cần Obsidian Publish.
+- **Sao chép URL Publish** sao chép địa chỉ của ghi chú đã xuất bản. Cần Obsidian Publish.
 - **Thêm thuộc tính tệp** thêm thuộc tính vào ghi chú. Xem [[Thuộc tính]].
-- **Xuất PDF** lưu ghi chú dưới dạng PDF.
-- **Xóa tệp** xóa ghi chú. Xem [[Quản lý ghi chú#Xóa ghi chú]].
+- **Xuất PDF** lưu ghi chú dưới dạng PDF. Xem [[PDF#Xuất ghi chú sang PDF|Xuất ghi chú sang PDF]].
+- **Xóa tệp** xóa ghi chú. Xem [[Quản lý ghi chú#Xóa ghi chú|Xóa ghi chú]].
 
 ### Tìm kiếm
 
@@ -43,7 +44,7 @@ Trên máy tính, bạn cũng có thể nhấp chuột phải vào thẻ của g
 
 - **Sao chép đường dẫn** sao chép vị trí của ghi chú dưới dạng URL Obsidian, từ thư mục kho, hoặc từ thư mục gốc hệ thống.
 - **Mở lịch sử phiên bản** hiển thị các phiên bản trước đó của ghi chú. Cần đăng ký Obsidian Sync đang hoạt động. Xem [[Lịch sử phiên bản]].
-- **Mở xem liên kết** mở một chế độ xem theo dõi ghi chú, chẳng hạn như đồ thị cục bộ. Xem [[Thẻ#Chế độ xem liên kết]].
+- **Mở xem liên kết** mở một chế độ xem theo dõi ghi chú, chẳng hạn như đồ thị cục bộ. Xem [[Thẻ#Chế độ xem liên kết|Chế độ xem liên kết]].
 
 ### Máy tính của bạn
 
@@ -56,7 +57,7 @@ Trên máy tính, bạn cũng có thể nhấp chuột phải vào thẻ của g
 Nhấp chuột phải vào một thẻ để xem tất cả các mục ở trên, cộng thêm các mục sau.
 
 - **Đóng** đóng thẻ.
-- **Ghim** ghim thẻ. Xem [[Thẻ#Ghim thẻ]].
+- **Ghim** ghim thẻ. Xem [[Thẻ#Ghim thẻ|Ghim thẻ]].
 - **Liên kết với tab...** liên kết thẻ với một chế độ xem như đồ thị cục bộ hoặc dàn ý, để chế độ xem đó theo dõi thẻ này.
 - **Chuyển sang cửa sổ mới** chuyển thẻ sang cửa sổ riêng.
 
@@ -75,6 +76,7 @@ Các mục sau hoạt động giống như trên máy tính.
 - **Sao chép đường dẫn**, với các lựa chọn **dưới dạng URL Obsidian** và **từ thư mục kho**
 - **Mở lịch sử phiên bản**
 - **Mở xem liên kết**
+- **Sao chép URL Publish**
 - **Xóa tệp**
 
 Menu di động cũng có các mục sau.

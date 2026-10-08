@@ -314,6 +314,10 @@ translation=وبگاه رسمی
 original=Introduction to licenses and payment
 translation=مقدمه‌ای بر پروانه‌ها و پرداخت
 
+[file.pdf]
+original=PDFs
+translation=فایل‌های PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=امنیت افزونه‌ها

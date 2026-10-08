@@ -94,6 +94,8 @@ Untuk menggabungkan opsi halaman dan tinggi, pisahkan dengan `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Untuk informasi lebih lanjut tentang melihat dan mencari PDF, lihat [[PDF]].
+
 ## Menyematkan kanvas di catatan
 
 Untuk menyematkan [[Canvas|kanvas]]:

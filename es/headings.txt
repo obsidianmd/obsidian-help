@@ -4237,3 +4237,31 @@ translation=Encontrar coincidencias
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Reemplazar coincidencias
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Abrir un PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navegar un PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Cambiar la apariencia de un PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Buscar en un PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Copiar texto de un PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Incrustar un PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Exportar una nota a PDF

@@ -92,6 +92,8 @@ Um Seiten- und Höhenoptionen zu kombinieren, trenne sie mit `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Weitere Informationen zum Anzeigen und Durchsuchen von PDFs findest du unter [[PDFs]].
+
 ## Einen Canvas in eine Notiz einbetten
 
 Um einen [[Canvas|Canvas]] einzubetten:

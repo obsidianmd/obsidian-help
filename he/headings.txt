@@ -1113,3 +1113,31 @@ translation=מציאת התאמות
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=החלפת התאמות
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=פתיחת PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=ניווט ב-PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=שינוי מראה PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=חיפוש ב-PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=העתקת טקסט מ-PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=הטמעת PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=ייצוא הערה ל-PDF

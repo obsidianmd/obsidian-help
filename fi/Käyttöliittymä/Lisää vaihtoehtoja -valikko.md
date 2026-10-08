@@ -19,21 +19,22 @@ Työpöytäversiossa voit myös napsauttaa muistiinpanon välilehteä hiiren oik
 
 ### Näkymä ja asettelu
 
-- **Tiedoston paluulinkit** näyttää muistiinpanon paluulinkit suoraan muistiinpanon sisällä. Vaatii Paluulinkit-lisäosan. Katso [[Paluulinkit#Näytä paluulinkit muistiinpanossa]].
+- **Tiedoston paluulinkit** näyttää muistiinpanon paluulinkit suoraan muistiinpanon sisällä. Vaatii Paluulinkit-lisäosan. Katso [[Paluulinkit#Näytä paluulinkit muistiinpanossa|Näytä paluulinkit muistiinpanossa]].
 - **Lukunäkymä** ja **Lähdekoodi** muuttavat muistiinpanon ulkoasua ja muokkaustapaa. Katso [[Näkymät ja muokkaustila]].
 - **Jaa näkymä oikealle** ja **Jaa näkymä alas** avaavat muistiinpanon uuteen ruutuun. Katso [[Välilehdet]].
 - **Avaa uudessa ikkunassa** avaa muistiinpanon omaan ikkunaansa. Katso [[Irtoikkunat]].
 
 ### Muistiinpanon hallinta
 
-- **Muuta nimeä...** muuttaa muistiinpanon nimen. Katso [[Muistiinpanojen hallinta#Muuta muistiinpanon nimeä]].
+- **Muuta nimeä...** muuttaa muistiinpanon nimen. Katso [[Muistiinpanojen hallinta#Muuta muistiinpanon nimeä|Muuta muistiinpanon nimeä]].
 - **Siirrä tiedosto...** siirtää muistiinpanon toiseen kansioon. Katso [[Tiedostoselain]].
-- **Kirjanmerkki...** lisää muistiinpanon kirjanmerkkeihin. Vaatii Kirjanmerkit-lisäosan. Katso [[Kirjanmerkit#Lisää kirjanmerkki]].
-- **Yhdistä tiedostoon...** yhdistää muistiinpanon toiseen muistiinpanoon. Vaatii Muistiinpanojen koostin -lisäosan. Katso [[Muistiinpanojen koostin#Yhdistä muistiinpanoja]].
+- **Kirjanmerkki...** lisää muistiinpanon kirjanmerkkeihin. Vaatii Kirjanmerkit-lisäosan. Katso [[Kirjanmerkit#Lisää kirjanmerkki|Lisää kirjanmerkki]].
+- **Yhdistä tiedostoon...** yhdistää muistiinpanon toiseen muistiinpanoon. Vaatii Muistiinpanojen koostin -lisäosan. Katso [[Muistiinpanojen koostin#Yhdistä muistiinpanoja|Yhdistä muistiinpanoja]].
 - **Julkaise nykyinen tiedosto** julkaisee muistiinpanon sivustollesi. Vaatii Obsidian Publishin.
+- **Kopioi Publish-osoite** kopioi julkaistun muistiinpanon osoitteen. Vaatii Obsidian Publishin.
 - **Lisää tiedostolle määre** lisää määreen muistiinpanoon. Katso [[Määreet]].
-- **Vie PDF...** tallentaa muistiinpanon PDF-tiedostona.
-- **Poista tiedosto** poistaa muistiinpanon. Katso [[Muistiinpanojen hallinta#Poista muistiinpano]].
+- **Vie PDF...** tallentaa muistiinpanon PDF-tiedostona. Katso [[PDF-tiedostot#Vie muistiinpano PDF-tiedostoksi|Vie muistiinpano PDF-tiedostoksi]].
+- **Poista tiedosto** poistaa muistiinpanon. Katso [[Muistiinpanojen hallinta#Poista muistiinpano|Poista muistiinpano]].
 
 ### Etsi
 
@@ -43,7 +44,7 @@ Työpöytäversiossa voit myös napsauttaa muistiinpanon välilehteä hiiren oik
 
 - **Kopioi polku** kopioi muistiinpanon sijainnin Obsidian-osoitteena, holvikansiosta tai järjestelmän juuresta.
 - **Avaa versiohistoria** näyttää muistiinpanon aiemmat versiot. Vaatii aktiivisen Obsidian Sync -tilauksen. Katso [[Versiohistoria]].
-- **Avaa linkkinäkymä** avaa näkymän, joka seuraa muistiinpanoa, kuten lähiverkon. Katso [[Välilehdet#Linkitetyt näkymät]].
+- **Avaa linkkinäkymä** avaa näkymän, joka seuraa muistiinpanoa, kuten lähiverkon. Katso [[Välilehdet#Linkitetyt näkymät|Linkitetyt näkymät]].
 
 ### Tietokone
 
@@ -56,7 +57,7 @@ Työpöytäversiossa voit myös napsauttaa muistiinpanon välilehteä hiiren oik
 Napsauta välilehteä hiiren oikealla painikkeella nähdäksesi kaikki yllä olevat kohdat sekä nämä lisäkohdat.
 
 - **Sulje** sulkee välilehden.
-- **Kiinnitä** kiinnittää välilehden. Katso [[Välilehdet#Kiinnitä välilehti]].
+- **Kiinnitä** kiinnittää välilehden. Katso [[Välilehdet#Kiinnitä välilehti|Kiinnitä välilehti]].
 - **Kytke vieritys välilehteen...** linkittää välilehden näkymään, kuten lähiverkkoon tai sisällysluetteloon, jolloin kyseinen näkymä seuraa tätä välilehteä.
 - **Siirrä uuteen ikkunaan** siirtää välilehden omaan ikkunaansa.
 
@@ -75,6 +76,7 @@ Nämä kohdat toimivat samoin kuin työpöydällä.
 - **Kopioi polku** vaihtoehtoineen **Kopioi Obsidian-osoite** ja **holvikansiosta**
 - **Avaa versiohistoria**
 - **Avaa linkkinäkymä**
+- **Kopioi Publish-osoite**
 - **Poista tiedosto**
 
 Mobiilivalikossa on myös nämä kohdat.

@@ -322,6 +322,10 @@ translation=官方网站
 original=Introduction to licenses and payment
 translation=许可证与支付简介
 
+[file.pdf]
+original=PDFs
+translation=PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=插件安全

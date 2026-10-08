@@ -314,6 +314,10 @@ translation=Officiële website
 original=Introduction to licenses and payment
 translation=Inleiding tot licenties en betaling
 
+[file.pdf]
+original=PDFs
+translation=PDF's
+
 [file.plugin-security]
 original=Plugin security
 translation=Plug-inbeveiliging

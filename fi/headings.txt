@@ -821,3 +821,31 @@ translation=Etsi osumia
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Korvaa osumia
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=PDF-tiedoston avaaminen
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=PDF-tiedostossa navigointi
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=PDF-tiedoston ulkoasun muuttaminen
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=PDF-tiedostossa hakeminen
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Tekstin kopioiminen PDF-tiedostosta
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF-tiedoston upottaminen
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Muistiinpanon vieminen PDF-muotoon

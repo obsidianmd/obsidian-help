@@ -19,21 +19,22 @@ No desktop, você também pode clicar com o botão direito na aba da nota. Esse 
 
 ### Visualização e layout
 
-- **Links inversos no documento** mostra os links inversos da nota dentro dela. Requer o plugin Links inversos. Veja [[Links inversos#Mostrar links inversos em uma nota]].
+- **Links inversos no documento** mostra os links inversos da nota dentro dela. Requer o plugin Links inversos. Veja [[Links inversos#Mostrar links inversos em uma nota|Mostrar links inversos em uma nota]].
 - **Modo de leitura** e **Modo de código-fonte** alteram a aparência da nota e como você a edita. Veja [[Visualizações e modo de edição]].
 - **Dividir à direita** e **Dividir abaixo** abrem a nota em um novo painel. Veja [[Abas]].
 - **Abrir em nova janela** abre a nota em sua própria janela. Veja [[Janelas destacáveis]].
 
 ### Gerenciar a nota
 
-- **Renomear...** altera o nome da nota. Veja [[Gerenciar notas#Renomear uma nota]].
+- **Renomear...** altera o nome da nota. Veja [[Gerenciar notas#Renomear uma nota|Renomear uma nota]].
 - **Mover arquivo para...** move a nota para outra pasta. Veja [[Explorador de arquivos]].
-- **Favoritar...** adiciona a nota aos seus favoritos. Requer o plugin Favoritos. Veja [[Favoritos#Adicionar um favorito]].
-- **Mesclar arquivo inteiro com...** combina a nota com outra. Requer o plugin Compositor de notas. Veja [[Compositor de notas#Mesclar notas]].
+- **Favoritar...** adiciona a nota aos seus favoritos. Requer o plugin Favoritos. Veja [[Favoritos#Adicionar um favorito|Adicionar um favorito]].
+- **Mesclar arquivo inteiro com...** combina a nota com outra. Requer o plugin Compositor de notas. Veja [[Compositor de notas#Mesclar notas|Mesclar notas]].
 - **Publicar arquivo atual** publica a nota no seu site. Requer o Obsidian Publish.
+- **Copiar URL de publicação** copia o endereço da nota publicada. Requer o Obsidian Publish.
 - **Adicionar propriedade ao arquivo** adiciona uma propriedade à nota. Veja [[Propriedades]].
-- **Exportar para PDF...** salva a nota como PDF.
-- **Excluir arquivo** exclui a nota. Veja [[Gerenciar notas#Excluir uma nota]].
+- **Exportar para PDF...** salva a nota como PDF. Veja [[PDFs#Exportar uma nota para PDF|Exportar uma nota para PDF]].
+- **Excluir arquivo** exclui a nota. Veja [[Gerenciar notas#Excluir uma nota|Excluir uma nota]].
 
 ### Buscar
 
@@ -43,7 +44,7 @@ No desktop, você também pode clicar com o botão direito na aba da nota. Esse 
 
 - **Copiar caminho** copia a localização da nota como URL do Obsidian, a partir da pasta do cofre ou a partir da raiz do sistema.
 - **Abrir histórico de versões** mostra versões anteriores da nota. Requer uma assinatura ativa do Obsidian Sync. Veja [[Histórico de versões]].
-- **Abrir visualização vinculada** abre uma visualização que acompanha a nota, como o grafo local. Veja [[Abas#Visualizações vinculadas]].
+- **Abrir visualização vinculada** abre uma visualização que acompanha a nota, como o grafo local. Veja [[Abas#Visualizações vinculadas|Visualizações vinculadas]].
 
 ### Seu computador
 
@@ -56,7 +57,7 @@ No desktop, você também pode clicar com o botão direito na aba da nota. Esse 
 Clique com o botão direito em uma aba para ver tudo acima, além destes itens.
 
 - **Fechar** fecha a aba.
-- **Fixar** fixa a aba. Veja [[Abas#Fixar uma aba]].
+- **Fixar** fixa a aba. Veja [[Abas#Fixar uma aba|Fixar uma aba]].
 - **Vincular com aba...** vincula a aba com uma visualização como o grafo local ou sumário, para que essa visualização acompanhe esta aba.
 - **Mover para nova janela** move a aba para sua própria janela.
 
@@ -75,6 +76,7 @@ Estes itens funcionam como no desktop.
 - **Copiar caminho**, com as opções **como URL do Obsidian** e **a partir da pasta do cofre**
 - **Abrir histórico de versões**
 - **Abrir visualização vinculada**
+- **Copiar URL de publicação**
 - **Excluir arquivo**
 
 O menu do dispositivo móvel também possui estes itens.

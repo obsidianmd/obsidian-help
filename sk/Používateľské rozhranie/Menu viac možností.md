@@ -19,21 +19,22 @@ Na desktope môžete tiež kliknúť pravým tlačidlom na kartu poznámky. Toto
 
 ### Zobrazenie a rozloženie
 
-- **Spätné odkazy v dokumente** zobrazuje spätné odkazy poznámky priamo v poznámke. Vyžaduje plugin Spätné odkazy. Pozrite [[Spätné odkazy#Zobrazenie spätných odkazov v poznámke]].
+- **Spätné odkazy v dokumente** zobrazuje spätné odkazy poznámky priamo v poznámke. Vyžaduje plugin Spätné odkazy. Pozrite [[Spätné odkazy#Zobrazenie spätných odkazov v poznámke|Zobrazenie spätných odkazov v poznámke]].
 - **Režim čítania** a **Režim zdroja** menia vzhľad poznámky a spôsob jej úprav. Pozrite [[Zobrazenia a režim úprav]].
 - **Rozdeliť vpravo** a **Rozdeliť dole** otvoria poznámku v novom paneli. Pozrite [[Karty]].
 - **Otvoriť v novom okne** otvorí poznámku vo vlastnom okne. Pozrite [[Vyskakovacie okná]].
 
 ### Správa poznámky
 
-- **Premenovať...** zmení názov poznámky. Pozrite [[Správa poznámok#Premenovanie poznámky]].
+- **Premenovať...** zmení názov poznámky. Pozrite [[Správa poznámok#Premenovanie poznámky|Premenovanie poznámky]].
 - **Presunúť súbor do...** presunie poznámku do iného priečinka. Pozrite [[Prieskumník súborov]].
-- **Záložka...** pridá poznámku do záložiek. Vyžaduje plugin Záložky. Pozrite [[Záložky#Pridanie záložky]].
-- **Zlúčiť celý súbor s...** skombinuje poznámku s inou. Vyžaduje plugin Zlučovač poznámok. Pozrite [[Zlučovač poznámok#Zlúčenie poznámok]].
+- **Záložka...** pridá poznámku do záložiek. Vyžaduje plugin Záložky. Pozrite [[Záložky#Pridanie záložky|Pridanie záložky]].
+- **Zlúčiť celý súbor s...** skombinuje poznámku s inou. Vyžaduje plugin Zlučovač poznámok. Pozrite [[Zlučovač poznámok#Zlúčenie poznámok|Zlúčenie poznámok]].
 - **Publikovať aktuálny súbor** publikuje poznámku na vašu stránku. Vyžaduje Obsidian Publish.
+- **Kopírovať Publish URL** skopíruje adresu publikovanej poznámky. Vyžaduje Obsidian Publish.
 - **Pridať vlastnosť súboru** pridá vlastnosť k poznámke. Pozrite [[Vlastnosti]].
-- **Exportovať do PDF...** uloží poznámku ako PDF.
-- **Odstrániť súbor** odstráni poznámku. Pozrite [[Správa poznámok#Odstránenie poznámky]].
+- **Exportovať do PDF...** uloží poznámku ako PDF. Pozrite [[PDF súbory#Export poznámky do PDF|Export poznámky do PDF]].
+- **Odstrániť súbor** odstráni poznámku. Pozrite [[Správa poznámok#Odstránenie poznámky|Odstránenie poznámky]].
 
 ### Hľadanie
 
@@ -43,7 +44,7 @@ Na desktope môžete tiež kliknúť pravým tlačidlom na kartu poznámky. Toto
 
 - **Kopírovať cestu** skopíruje umiestnenie poznámky ako Obsidian URL, z priečinka trezora alebo zo systémového koreňového adresára.
 - **Otvoriť históriu verzií** zobrazí predchádzajúce verzie poznámky. Vyžaduje aktívne predplatné Obsidian Sync. Pozrite [[História verzií]].
-- **Otvoriť prepojené zobrazenie** otvorí zobrazenie, ktoré sleduje poznámku, napríklad lokálny graf. Pozrite [[Karty#Prepojené zobrazenia]].
+- **Otvoriť prepojené zobrazenie** otvorí zobrazenie, ktoré sleduje poznámku, napríklad lokálny graf. Pozrite [[Karty#Prepojené zobrazenia|Prepojené zobrazenia]].
 
 ### Váš počítač
 
@@ -56,7 +57,7 @@ Na desktope môžete tiež kliknúť pravým tlačidlom na kartu poznámky. Toto
 Kliknite pravým tlačidlom na kartu, aby ste videli všetko vyššie uvedené, plus tieto položky.
 
 - **Zavrieť** zavrie kartu.
-- **Pripnúť** pripne kartu. Pozrite [[Karty#Pripnutie karty]].
+- **Pripnúť** pripne kartu. Pozrite [[Karty#Pripnutie karty|Pripnutie karty]].
 - **Prepojiť s kartou...** prepojí kartu so zobrazením, ako je lokálny graf alebo osnova, aby toto zobrazenie sledovalo túto kartu.
 - **Presunúť do nového okna** presunie kartu do vlastného okna.
 
@@ -75,6 +76,7 @@ Tieto položky fungujú rovnako ako na desktope.
 - **Kopírovať cestu**, s možnosťami **ako Obsidian URL** a **z priečinka trezora**
 - **Otvoriť históriu verzií**
 - **Otvoriť prepojené zobrazenie**
+- **Kopírovať Publish URL**
 - **Odstrániť súbor**
 
 Mobilné menu má tiež tieto položky.

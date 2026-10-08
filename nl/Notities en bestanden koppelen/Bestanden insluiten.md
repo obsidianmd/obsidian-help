@@ -92,6 +92,8 @@ Om pagina- en hoogte-opties te combineren, scheid je ze met `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Voor meer informatie over het bekijken en doorzoeken van PDF's, zie [[PDF's]].
+
 ## Een Canvas insluiten in een notitie
 
 Om een [[Doek|canvas]] in te sluiten:

@@ -314,6 +314,10 @@ translation=Lloc web oficial
 original=Introduction to licenses and payment
 translation=Introducció a llicències i pagament
 
+[file.pdf]
+original=PDFs
+translation=PDFs
+
 [file.plugin-security]
 original=Plugin security
 translation=Seguretat dels connectors

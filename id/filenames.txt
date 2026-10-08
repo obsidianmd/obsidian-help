@@ -314,6 +314,10 @@ translation=Situs web resmi
 original=Introduction to licenses and payment
 translation=Pengantar lisensi dan pembayaran
 
+[file.pdf]
+original=PDFs
+translation=PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=Keamanan plugin

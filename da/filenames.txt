@@ -314,6 +314,10 @@ translation=Officiel hjemmeside
 original=Introduction to licenses and payment
 translation=Introduktion til licenser og betaling
 
+[file.pdf]
+original=PDFs
+translation=PDF-filer
+
 [file.plugin-security]
 original=Plugin security
 translation=Pluginsikkerhed

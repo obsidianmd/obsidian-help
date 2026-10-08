@@ -19,21 +19,22 @@ Masaüstünde, notun sekmesine sağ tıklayabilirsiniz. Bu menü aynı öğeleri
 
 ### Görünüm ve düzen
 
-- **Belgedeki geri bağlantılar**, notun geri bağlantılarını notun içinde gösterir. Geri Bağlantılar eklentisini gerektirir. Bkz. [[Geri Bağlantılar#Bir notta geri bağlantıları gösterme]].
+- **Belgedeki geri bağlantılar**, notun geri bağlantılarını notun içinde gösterir. Geri Bağlantılar eklentisini gerektirir. Bkz. [[Geri Bağlantılar#Bir notta geri bağlantıları gösterme|Bir notta geri bağlantıları gösterme]].
 - **Okuma görünümü** ve **Kaynak modu**, notun nasıl göründüğünü ve nasıl düzenlediğinizi değiştirir. Bkz. [[Görünümler ve düzenleme modu]].
 - **Sağa Böl** ve **Aşağı Böl**, notu yeni bir panelde açar. Bkz. [[Sekmeler]].
 - **Yeni pencerede aç**, notu kendi penceresinde açar. Bkz. [[Açılır pencereler]].
 
 ### Notu yönetme
 
-- **Yeniden adlandır**, not adını değiştirir. Bkz. [[Notları yönet#Bir notu yeniden adlandırma]].
+- **Yeniden adlandır**, not adını değiştirir. Bkz. [[Notları yönet#Bir notu yeniden adlandırma|Bir notu yeniden adlandırma]].
 - **Dosyayı şuraya taşı...**, notu başka bir klasöre taşır. Bkz. [[Dosya Gezgini]].
-- **Yer işaretleri...**, notu yer imlerinize ekler. Yer İmleri eklentisini gerektirir. Bkz. [[Yer İmleri#Yer imi ekleme]].
-- **Dosyanın tamamını şununla birleştir...**, notu başka bir notla birleştirir. Not Oluşturucu eklentisini gerektirir. Bkz. [[Not Oluşturucu#Notları birleştirme]].
+- **Yer işaretleri...**, notu yer imlerinize ekler. Yer İmleri eklentisini gerektirir. Bkz. [[Yer İmleri#Yer imi ekleme|Yer imi ekleme]].
+- **Dosyanın tamamını şununla birleştir...**, notu başka bir notla birleştirir. Not Oluşturucu eklentisini gerektirir. Bkz. [[Not Oluşturucu#Notları birleştirme|Notları birleştirme]].
 - **Mevcut dosyayı yayımla**, notu sitenizde yayınlar. Obsidian Publish gerektirir.
+- **Publish URL'sini Kopyala**, yayınlanmış notun adresini kopyalar. Obsidian Publish gerektirir.
 - **Dosya özellikleri ekle**, nota bir özellik ekler. Bkz. [[Özellikler]].
-- **PDF'yi dışa Aktar**, notu PDF olarak kaydeder.
-- **Dosyayı sil**, notu siler. Bkz. [[Notları yönet#Bir notu silme]].
+- **PDF'yi dışa Aktar**, notu PDF olarak kaydeder. Bkz. [[PDF'ler#Bir notu PDF olarak dışa aktarma|Bir notu PDF olarak dışa aktarma]].
+- **Dosyayı sil**, notu siler. Bkz. [[Notları yönet#Bir notu silme|Bir notu silme]].
 
 ### Bulma
 
@@ -43,7 +44,7 @@ Masaüstünde, notun sekmesine sağ tıklayabilirsiniz. Bu menü aynı öğeleri
 
 - **Yolu kopyala**, notun konumunu Obsidian URL'si olarak, kasa klasöründen veya sistem kökünden kopyalar.
 - **Sürüm geçmişini aç**, notun önceki sürümlerini gösterir. Etkin bir Obsidian Sync aboneliği gerektirir. Bkz. [[Sürüm geçmişi]].
-- **Bağlantılı görünümü aç**, yerel graf gibi notu takip eden bir görünüm açar. Bkz. [[Sekmeler#Bağlantılı görünümler]].
+- **Bağlantılı görünümü aç**, yerel graf gibi notu takip eden bir görünüm açar. Bkz. [[Sekmeler#Bağlantılı görünümler|Bağlantılı görünümler]].
 
 ### Bilgisayarınız
 
@@ -56,7 +57,7 @@ Masaüstünde, notun sekmesine sağ tıklayabilirsiniz. Bu menü aynı öğeleri
 Yukarıdakilerin tümünü ve aşağıdaki ek öğeleri görmek için bir sekmeye sağ tıklayın.
 
 - **Kapat**, sekmeyi kapatır.
-- **Sabitle**, sekmeyi sabitler. Bkz. [[Sekmeler#Bir sekmeyi sabitleme]].
+- **Sabitle**, sekmeyi sabitler. Bkz. [[Sekmeler#Bir sekmeyi sabitleme|Bir sekmeyi sabitleme]].
 - **Sekme ile bağlantı...**, sekmeyi yerel graf veya anahat görünümü gibi bir görünümle bağlar, böylece o görünüm bu sekmeyi takip eder.
 - **Yeni pencereye taşı**, sekmeyi kendi penceresine taşır.
 
@@ -75,6 +76,7 @@ Bu öğeler masaüstündeki gibi çalışır.
 - **Yolu kopyala**, **Obsidian URL'si olarak** ve **kasa klasöründen** seçenekleriyle
 - **Sürüm geçmişini aç**
 - **Bağlantılı görünümü aç**
+- **Publish URL'sini Kopyala**
 - **Dosyayı sil**
 
 Mobil menü ayrıca şu öğeleri de içerir.

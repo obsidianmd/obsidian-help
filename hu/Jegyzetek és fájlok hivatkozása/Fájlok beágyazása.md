@@ -92,6 +92,8 @@ Az oldal és magasság beállítások kombinálásához válassza el őket `&` j
 ![[Document.pdf#page=3&height=400]]
 ```
 
+A PDF-ek megtekintéséről és kereséséről további információkért lásd: [[PDF-ek]].
+
 ## Vászon beágyazása egy jegyzetbe
 
 Egy [[Vászon|vászon]] beágyazásához:

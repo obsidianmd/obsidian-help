@@ -4165,3 +4165,31 @@ translation=일치 항목 찾기
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=일치 항목 바꾸기
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=PDF 열기
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=PDF 탐색하기
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=PDF 표시 방식 변경하기
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=PDF 검색하기
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=PDF에서 텍스트 복사하기
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF 임베드하기
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=노트를 PDF로 내보내기

@@ -19,21 +19,22 @@ A l'escriptori, també pots fer clic dret a la pestanya de la nota. Aquest menú
 
 ### Vista i disposició
 
-- **Retroenllaços al document** mostra els retroenllaços de la nota dins la mateixa nota. Necessita el connector Retroenllaços. Consulta [[Retroenllaços#Mostra els retroenllaços en una nota]].
+- **Retroenllaços al document** mostra els retroenllaços de la nota dins la mateixa nota. Necessita el connector Retroenllaços. Consulta [[Retroenllaços#Mostra els retroenllaços en una nota|Mostra els retroenllaços en una nota]].
 - **Vista de lectura** i **Mode de codi font** canvien com es veu la nota i com l'edites. Consulta [[Vistes i mode d'edició]].
 - **Divideix cap a la dreta** i **Divideix cap avall** obren la nota en un nou panell. Consulta [[Pestanyes]].
 - **Obre en una finestra nova** obre la nota en la seva pròpia finestra. Consulta [[Finestres emergents]].
 
 ### Gestionar la nota
 
-- **Reanomena** canvia el nom de la nota. Consulta [[Gestionar notes#Canviar el nom d'una nota]].
+- **Reanomena** canvia el nom de la nota. Consulta [[Gestionar notes#Canviar el nom d'una nota|Canviar el nom d'una nota]].
 - **Mou el fitxer a...** mou la nota a una altra carpeta. Consulta [[Explorador de fitxers]].
-- **Marca...** afegeix la nota als teus marcadors. Necessita el connector Marcadors. Consulta [[Marcadors#Afegir un marcador]].
-- **Fusiona tot el fitxer amb...** combina la nota amb una altra. Necessita el connector Compositor de notes. Consulta [[Compositor de notes#Fusionar notes]].
+- **Marca...** afegeix la nota als teus marcadors. Necessita el connector Marcadors. Consulta [[Marcadors#Afegir un marcador|Afegir un marcador]].
+- **Fusiona tot el fitxer amb...** combina la nota amb una altra. Necessita el connector Compositor de notes. Consulta [[Compositor de notes#Fusionar notes|Fusionar notes]].
 - **Publica el fitxer actual** publica la nota al teu lloc. Necessita Obsidian Publish.
+- **Copia la URL de Publish** copia l'adreça de la nota publicada. Necessita Obsidian Publish.
 - **Afegeix propietat a l'arxiu** afegeix una propietat a la nota. Consulta [[Propietats]].
-- **Exporta a PDF** desa la nota com a PDF.
-- **Suprimeix l'arxiu** suprimeix la nota. Consulta [[Gestionar notes#Suprimir una nota]].
+- **Exporta a PDF** desa la nota com a PDF. Consulta [[PDFs#Exportar una nota a PDF|Exportar una nota a PDF]].
+- **Suprimeix l'arxiu** suprimeix la nota. Consulta [[Gestionar notes#Suprimir una nota|Suprimir una nota]].
 
 ### Cerca
 
@@ -43,7 +44,7 @@ A l'escriptori, també pots fer clic dret a la pestanya de la nota. Aquest menú
 
 - **Copia el camí** copia la ubicació de la nota com a URL d'Obsidian, des de la carpeta de l'Arca, o des de l'arrel del sistema.
 - **Obre l'historial de versions** mostra versions anteriors de la nota. Necessita una subscripció activa a Obsidian Sync. Consulta [[Historial de versions]].
-- **Obre la vista enllaçada** obre una vista que segueix la nota, com ara el gràfic local. Consulta [[Pestanyes#Vistes enllaçades]].
+- **Obre la vista enllaçada** obre una vista que segueix la nota, com ara el gràfic local. Consulta [[Pestanyes#Vistes enllaçades|Vistes enllaçades]].
 
 ### El teu ordinador
 
@@ -56,7 +57,7 @@ A l'escriptori, també pots fer clic dret a la pestanya de la nota. Aquest menú
 Fes clic dret a una pestanya per veure tot l'anterior, més aquests elements.
 
 - **Tanca** tanca la pestanya.
-- **Fixa** fixa la pestanya. Consulta [[Pestanyes#Fixar una pestanya]].
+- **Fixa** fixa la pestanya. Consulta [[Pestanyes#Fixar una pestanya|Fixar una pestanya]].
 - **Enllaça amb la pestanya...** enllaça la pestanya amb una vista com ara el gràfic local o l'esquema, de manera que aquella vista segueix aquesta pestanya.
 - **Mou a una finestra nova** mou la pestanya a la seva pròpia finestra.
 
@@ -75,6 +76,7 @@ Aquests elements funcionen igual que a l'escriptori.
 - **Copia el camí**, amb les opcions **com a URL d'Obsidian** i **des de la carpeta de l'Arca**
 - **Obre l'historial de versions**
 - **Obre la vista enllaçada**
+- **Copia la URL de Publish**
 - **Suprimeix l'arxiu**
 
 El menú del mòbil també té aquests elements.

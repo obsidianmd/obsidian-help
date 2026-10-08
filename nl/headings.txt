@@ -1509,3 +1509,31 @@ translation=Overeenkomsten zoeken
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Overeenkomsten vervangen
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Een PDF openen
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navigeren in een PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Het uiterlijk van een PDF wijzigen
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Zoeken in een PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Tekst kopiëren uit een PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Een PDF insluiten
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Een notitie exporteren naar PDF

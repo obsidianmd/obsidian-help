@@ -314,6 +314,10 @@ translation=אתר רשמי
 original=Introduction to licenses and payment
 translation=מבוא לרישיונות ותשלום
 
+[file.pdf]
+original=PDFs
+translation=קבצי PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=אבטחת תוספים

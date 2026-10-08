@@ -19,21 +19,22 @@ Na desktopu můžete také kliknout pravým tlačítkem na kartu poznámky. Toto
 
 ### Zobrazení a rozvržení
 
-- **Zpětné odkazy v dokumentu** zobrazuje zpětné odkazy poznámky přímo uvnitř poznámky. Vyžaduje plugin Zpětné odkazy. Viz [[Zpětné odkazy#Zobrazení zpětných odkazů v poznámce]].
+- **Zpětné odkazy v dokumentu** zobrazuje zpětné odkazy poznámky přímo uvnitř poznámky. Vyžaduje plugin Zpětné odkazy. Viz [[Zpětné odkazy#Zobrazení zpětných odkazů v poznámce|Zobrazení zpětných odkazů v poznámce]].
 - **Režim čtení** a **Režim zdroje** mění vzhled poznámky a způsob úprav. Viz [[Zobrazení a režim úprav]].
 - **Rozdělit doprava** a **Rozdělit dolů** otevírají poznámku v novém panelu. Viz [[Karty]].
 - **Otevřít v novém okně** otevře poznámku ve vlastním okně. Viz [[Vyskakovací okna]].
 
 ### Správa poznámky
 
-- **Přejmenovat** změní název poznámky. Viz [[Správa poznámek#Přejmenování poznámky]].
+- **Přejmenovat** změní název poznámky. Viz [[Správa poznámek#Přejmenování poznámky|Přejmenování poznámky]].
 - **Přesunout soubor do...** přesune poznámku do jiné složky. Viz [[Průzkumník souborů]].
-- **Záložky...** přidá poznámku do záložek. Vyžaduje plugin Záložky. Viz [[Záložky#Přidání záložky]].
-- **Sloučit celý soubor s…** sloučí poznámku s jinou. Vyžaduje plugin Kompozitor poznámek. Viz [[Kompozitor poznámek#Sloučení poznámek]].
+- **Záložky...** přidá poznámku do záložek. Vyžaduje plugin Záložky. Viz [[Záložky#Přidání záložky|Přidání záložky]].
+- **Sloučit celý soubor s…** sloučí poznámku s jinou. Vyžaduje plugin Kompozitor poznámek. Viz [[Kompozitor poznámek#Sloučení poznámek|Sloučení poznámek]].
 - **Publikovat aktuální soubor** publikuje poznámku na vaši stránku. Vyžaduje Obsidian Publish.
+- **Kopírovat Publish URL** zkopíruje adresu publikované poznámky. Vyžaduje Obsidian Publish.
 - **Přidat vlastnost souboru** přidá do poznámky vlastnost. Viz [[Vlastnosti]].
-- **Export PDF** uloží poznámku jako PDF.
-- **Odstranit soubor** smaže poznámku. Viz [[Správa poznámek#Smazání poznámky]].
+- **Export PDF** uloží poznámku jako PDF. Viz [[PDF#Export poznámky do PDF|Export poznámky do PDF]].
+- **Odstranit soubor** smaže poznámku. Viz [[Správa poznámek#Smazání poznámky|Smazání poznámky]].
 
 ### Hledání
 
@@ -43,7 +44,7 @@ Na desktopu můžete také kliknout pravým tlačítkem na kartu poznámky. Toto
 
 - **Kopírovat cestu** zkopíruje umístění poznámky jako Obsidian URL, ze složky trezoru nebo ze systémového kořene.
 - **Otevřít historii verzí** zobrazí starší verze poznámky. Vyžaduje aktivní předplatné Obsidian Sync. Viz [[Historie verzí]].
-- **Otevřít propojené zobrazení** otevře zobrazení, které sleduje poznámku, například místní graf. Viz [[Karty#Propojená zobrazení]].
+- **Otevřít propojené zobrazení** otevře zobrazení, které sleduje poznámku, například místní graf. Viz [[Karty#Propojená zobrazení|Propojená zobrazení]].
 
 ### Váš počítač
 
@@ -56,7 +57,7 @@ Na desktopu můžete také kliknout pravým tlačítkem na kartu poznámky. Toto
 Kliknutím pravým tlačítkem na kartu zobrazíte vše výše uvedené plus tyto položky.
 
 - **Zavřít** zavře kartu.
-- **Připnout** připne kartu. Viz [[Karty#Připnutí karty]].
+- **Připnout** připne kartu. Viz [[Karty#Připnutí karty|Připnutí karty]].
 - **Propojit s kartou...** propojí kartu se zobrazením, jako je místní graf nebo osnova, takže toto zobrazení sleduje tuto kartu.
 - **Přesunout do nového okna** přesune kartu do vlastního okna.
 
@@ -75,6 +76,7 @@ Tyto položky fungují stejně jako na desktopu.
 - **Kopírovat cestu**, s možnostmi **jako Obsidian URL** a **ze složky trezoru**
 - **Otevřít historii verzí**
 - **Otevřít propojené zobrazení**
+- **Kopírovat Publish URL**
 - **Odstranit soubor**
 
 Mobilní menu obsahuje také tyto položky.

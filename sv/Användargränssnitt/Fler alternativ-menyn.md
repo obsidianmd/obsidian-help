@@ -19,21 +19,22 @@ På skrivbordet kan du även högerklicka på anteckningens flik. Den menyn har 
 
 ### Vy och layout
 
-- **Bakåtlänkar i dokument** visar anteckningens bakåtlänkar inuti anteckningen. Det kräver tillägget Bakåtlänkar. Se [[Bakåtlänkar#Visa bakåtlänkar i en anteckning]].
+- **Bakåtlänkar i dokument** visar anteckningens bakåtlänkar inuti anteckningen. Det kräver tillägget Bakåtlänkar. Se [[Bakåtlänkar#Visa bakåtlänkar i en anteckning|Visa bakåtlänkar i en anteckning]].
 - **Läsvy** och **Källkodsläge** ändrar hur anteckningen ser ut och hur du redigerar den. Se [[Vyer och redigeringsläge]].
 - **Dela till höger** och **Dela nedåt** öppnar anteckningen i en ny panel. Se [[Flikar]].
 - **Öppna i nytt fönster** öppnar anteckningen i ett eget fönster. Se [[Fristående fönster]].
 
 ### Hantera anteckningen
 
-- **Byt namn** ändrar anteckningens namn. Se [[Hantera anteckningar#Byt namn på en anteckning]].
+- **Byt namn** ändrar anteckningens namn. Se [[Hantera anteckningar#Byt namn på en anteckning|Byt namn på en anteckning]].
 - **Flytta fil till...** flyttar anteckningen till en annan mapp. Se [[Filutforskare]].
-- **Bokmärk...** lägger till anteckningen bland dina bokmärken. Det kräver tillägget Bokmärken. Se [[Bokmärken#Lägg till ett bokmärke]].
-- **Slå samman hela filen med...** kombinerar anteckningen med en annan. Det kräver tillägget Anteckningshantering. Se [[Anteckningskompositör#Sammanfoga anteckningar]].
+- **Bokmärk...** lägger till anteckningen bland dina bokmärken. Det kräver tillägget Bokmärken. Se [[Bokmärken#Lägg till ett bokmärke|Lägg till ett bokmärke]].
+- **Slå samman hela filen med...** kombinerar anteckningen med en annan. Det kräver tillägget Anteckningshantering. Se [[Anteckningskompositör#Sammanfoga anteckningar|Sammanfoga anteckningar]].
 - **Publicera aktuell fil** publicerar anteckningen på din webbplats. Det kräver Obsidian Publish.
+- **Kopiera Publish-URL** kopierar adressen till den publicerade anteckningen. Det kräver Obsidian Publish.
 - **Lägg till filegenskap** lägger till en egenskap i anteckningen. Se [[Egenskaper]].
-- **Exportera PDF** sparar anteckningen som en PDF.
-- **Radera fil** raderar anteckningen. Se [[Hantera anteckningar#Radera en anteckning]].
+- **Exportera PDF** sparar anteckningen som en PDF. Se [[PDF-filer#Exportera en anteckning till PDF|Exportera en anteckning till PDF]].
+- **Radera fil** raderar anteckningen. Se [[Hantera anteckningar#Radera en anteckning|Radera en anteckning]].
 
 ### Hitta
 
@@ -43,7 +44,7 @@ På skrivbordet kan du även högerklicka på anteckningens flik. Den menyn har 
 
 - **Kopiera sökväg** kopierar anteckningens plats som en Obsidian-URL, från valvmappen eller från systemroten.
 - **Öppna versionshistorik** visar tidigare versioner av anteckningen. Det kräver en aktiv Obsidian Sync-prenumeration. Se [[Versionshistorik]].
-- **Öppna länkad vy** öppnar en vy som följer anteckningen, till exempel den lokala grafen. Se [[Flikar#Länkade vyer]].
+- **Öppna länkad vy** öppnar en vy som följer anteckningen, till exempel den lokala grafen. Se [[Flikar#Länkade vyer|Länkade vyer]].
 
 ### Din dator
 
@@ -56,7 +57,7 @@ På skrivbordet kan du även högerklicka på anteckningens flik. Den menyn har 
 Högerklicka på en flik för att se allt ovan, plus dessa alternativ.
 
 - **Stäng** stänger fliken.
-- **Fäst** fäster fliken. Se [[Flikar#Fäst en flik]].
+- **Fäst** fäster fliken. Se [[Flikar#Fäst en flik|Fäst en flik]].
 - **Länka med flik...** länkar fliken med en vy som den lokala grafen eller dispositionen, så att den vyn följer denna flik.
 - **Flytta till nytt fönster** flyttar fliken till ett eget fönster.
 
@@ -75,6 +76,7 @@ Dessa alternativ fungerar som på skrivbordet.
 - **Kopiera sökväg**, med valen **som Obsidian-URL** och **från valvmappen**
 - **Öppna versionshistorik**
 - **Öppna länkad vy**
+- **Kopiera Publish-URL**
 - **Radera fil**
 
 Mobilmenyn har även dessa alternativ.

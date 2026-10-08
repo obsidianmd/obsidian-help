@@ -19,21 +19,22 @@ Pe desktop, poți de asemenea să faci clic dreapta pe fila notiței. Acel meniu
 
 ### Vizualizare și aspect
 
-- **Linkuri inverse în document** afișează linkurile inverse ale notiței în interiorul notiței. Necesită modulul Referințe. Vezi [[Referințe#Afișează linkurile inverse într-o notiță]].
+- **Linkuri inverse în document** afișează linkurile inverse ale notiței în interiorul notiței. Necesită modulul Referințe. Vezi [[Referințe#Afișează linkurile inverse într-o notiță|Afișează linkurile inverse într-o notiță]].
 - **Citire** și **Sursă** schimbă modul în care arată notița și cum o editezi. Vezi [[Moduri de vizualizare și editare]].
 - **Împarte la dreapta** și **Împarte în jos** deschid notița într-un nou panou. Vezi [[File]].
 - **Deschideți într-o fereastră nouă** deschide notița în propria fereastră. Vezi [[Ferestre desprinse]].
 
 ### Gestionează notița
 
-- **Redenumește** schimbă numele notiței. Vezi [[Gestionează notițele#Redenumește o notiță]].
+- **Redenumește** schimbă numele notiței. Vezi [[Gestionează notițele#Redenumește o notiță|Redenumește o notiță]].
 - **Mută fițierul în...** mută notița într-un alt director. Vezi [[Exploratorul de fișiere]].
-- **Adaugă marcaj...** adaugă notița la marcajele tale. Necesită modulul Marcaje. Vezi [[Marcaje#Adaugă un marcaj]].
-- **Îmbină întregul fișier cu...** combină notița cu alta. Necesită modulul Compozitor de însemnări. Vezi [[Compozitor de notițe#Îmbină notițe]].
+- **Adaugă marcaj...** adaugă notița la marcajele tale. Necesită modulul Marcaje. Vezi [[Marcaje#Adaugă un marcaj|Adaugă un marcaj]].
+- **Îmbină întregul fișier cu...** combină notița cu alta. Necesită modulul Compozitor de însemnări. Vezi [[Compozitor de notițe#Îmbină notițe|Îmbină notițe]].
 - **Publică fișierul curent** publică notița pe site-ul tău. Necesită Obsidian Publish.
+- **Copiază URL-ul Publish** copiază adresa notiței publicate. Necesită Obsidian Publish.
 - **Adăugați o proprietate fișierului** adaugă o proprietate notiței. Vezi [[Proprietăți]].
-- **Export PDF** salvează notița ca PDF.
-- **Șterge fișier** șterge notița. Vezi [[Gestionează notițele#Șterge o notiță]].
+- **Export PDF** salvează notița ca PDF. Vezi [[PDF-uri#Exportă o notiță ca PDF|Exportă o notiță ca PDF]].
+- **Șterge fișier** șterge notița. Vezi [[Gestionează notițele#Șterge o notiță|Șterge o notiță]].
 
 ### Căutare
 
@@ -43,7 +44,7 @@ Pe desktop, poți de asemenea să faci clic dreapta pe fila notiței. Acel meniu
 
 - **Copiază calea** copiază locația notiței ca URL Obsidian, din directorul seifului sau din rădăcina sistemului.
 - **Deschide istoricul versiunilor** afișează versiunile anterioare ale notiței. Necesită un abonament activ Obsidian Sync. Vezi [[Istoricul versiunilor]].
-- **Deschideți vizualizarea legată** deschide o vizualizare care urmărește notița, cum ar fi graficul local. Vezi [[File#Vizualizări legate]].
+- **Deschideți vizualizarea legată** deschide o vizualizare care urmărește notița, cum ar fi graficul local. Vezi [[File#Vizualizări legate|Vizualizări legate]].
 
 ### Computerul tău
 
@@ -56,7 +57,7 @@ Pe desktop, poți de asemenea să faci clic dreapta pe fila notiței. Acel meniu
 Fă clic dreapta pe o filă pentru a vedea tot ce este mai sus, plus aceste elemente.
 
 - **Închideți** închide fila.
-- **Fixează** fixează fila. Vezi [[File#Fixează o filă]].
+- **Fixează** fixează fila. Vezi [[File#Fixează o filă|Fixează o filă]].
 - **Legați de filă...** leagă fila de o vizualizare cum ar fi graficul local sau schița, astfel încât acea vizualizare urmărește această filă.
 - **Mută în fereastră nouă** mută fila în propria fereastră.
 
@@ -75,6 +76,7 @@ Aceste elemente funcționează la fel ca pe desktop.
 - **Copiază calea**, cu opțiunile **ca URL Obsidian** și **din directorul seifului**
 - **Deschide istoricul versiunilor**
 - **Deschideți vizualizarea legată**
+- **Copiază URL-ul Publish**
 - **Șterge fișier**
 
 Meniul mobil are și aceste elemente.

@@ -1349,3 +1349,31 @@ translation=Åbn find og erstat
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Erstat matches
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Åbn en PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navigér i en PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Ændr udseendet af en PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Søg i en PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Kopiér tekst fra en PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Indlejr en PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Eksportér en note til PDF

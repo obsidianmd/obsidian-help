@@ -95,6 +95,8 @@ Pentru a combina opțiunile de pagină și înălțime, separă-le cu `&`:
 ![[Document.pdf#page=3&height=400]]
 ```
 
+Pentru mai multe informații despre vizualizarea și căutarea în PDF-uri, consultă [[PDF-uri]].
+
 ## Încorporează o pânză într-o însemnare
 
 Pentru a încorpora o [[Canvas|pânză]]:

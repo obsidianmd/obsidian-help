@@ -3981,3 +3981,31 @@ translation=Пошук збігів
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Заміна збігів
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Відкриття PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Навігація по PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Зміна вигляду PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Пошук у PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Копіювання тексту з PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Вбудовування PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Експорт нотатки в PDF

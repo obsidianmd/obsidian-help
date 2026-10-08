@@ -19,21 +19,22 @@ Sur ordinateur, vous pouvez également faire un clic droit sur l'onglet de la no
 
 ### Vue et mise en page
 
-- **Rétroliens dans le document** affiche les liens retour de la note à l'intérieur de celle-ci. Le module Rétroliens est nécessaire. Voir [[Rétroliens#Afficher les rétroliens dans une note]].
+- **Rétroliens dans le document** affiche les liens retour de la note à l'intérieur de celle-ci. Le module Rétroliens est nécessaire. Voir [[Rétroliens#Afficher les rétroliens dans une note|Afficher les rétroliens dans une note]].
 - **Mode lecture** et **Mode source** modifient l'apparence de la note et la façon dont vous la modifiez. Voir [[Vues et mode d'édition]].
 - **Fractionner à droite** et **Fractionner en bas** ouvrent la note dans un nouveau panneau. Voir [[Onglets]].
 - **Ouvrir dans une nouvelle fenêtre** ouvre la note dans sa propre fenêtre. Voir [[Fenêtres détachées]].
 
 ### Gérer la note
 
-- **Renommer** change le nom de la note. Voir [[Gérer les notes#Renommer une note]].
+- **Renommer** change le nom de la note. Voir [[Gérer les notes#Renommer une note|Renommer une note]].
 - **Déplacer le fichier vers...** déplace la note vers un autre dossier. Voir [[Explorateur de fichiers]].
-- **Marquer...** ajoute la note à vos signets. Le module Signets est nécessaire. Voir [[Signets#Ajouter un signet]].
-- **Fusionner tout le fichier avec...** combine la note avec une autre. Le module Compositeur de note est nécessaire. Voir [[Compositeur de note#Fusionner des notes]].
+- **Marquer...** ajoute la note à vos signets. Le module Signets est nécessaire. Voir [[Signets#Ajouter un signet|Ajouter un signet]].
+- **Fusionner tout le fichier avec...** combine la note avec une autre. Le module Compositeur de note est nécessaire. Voir [[Compositeur de note#Fusionner des notes|Fusionner des notes]].
 - **Publier le fichier actuel** publie la note sur votre site. Obsidian Publish est nécessaire.
+- **Copier l'URL Publish** copie l'adresse de la note publiée. Obsidian Publish est nécessaire.
 - **Ajouter une propriété au fichier** ajoute une propriété à la note. Voir [[Propriétés]].
-- **Exporter en PDF** enregistre la note au format PDF.
-- **Supprimer le fichier** supprime la note. Voir [[Gérer les notes#Supprimer une note]].
+- **Exporter en PDF** enregistre la note au format PDF. Voir [[PDF#Exporter une note en PDF|Exporter une note en PDF]].
+- **Supprimer le fichier** supprime la note. Voir [[Gérer les notes#Supprimer une note|Supprimer une note]].
 
 ### Chercher
 
@@ -43,7 +44,7 @@ Sur ordinateur, vous pouvez également faire un clic droit sur l'onglet de la no
 
 - **Copier le chemin** copie l'emplacement de la note en tant qu'URL Obsidian, depuis le dossier du coffre ou depuis la racine du système.
 - **Ouvrir d'historique de version** affiche les versions antérieures de la note. Un abonnement Obsidian Sync actif est nécessaire. Voir [[Historique des versions]].
-- **Ouvrir la vue liée** ouvre une vue qui suit la note, comme le graphe local. Voir [[Onglets#Vues liées]].
+- **Ouvrir la vue liée** ouvre une vue qui suit la note, comme le graphe local. Voir [[Onglets#Vues liées|Vues liées]].
 
 ### Votre ordinateur
 
@@ -56,7 +57,7 @@ Sur ordinateur, vous pouvez également faire un clic droit sur l'onglet de la no
 Faites un clic droit sur un onglet pour voir tout ce qui précède, plus ces éléments.
 
 - **Fermer** ferme l'onglet.
-- **Épingler** épingle l'onglet. Voir [[Onglets#Épingler un onglet]].
+- **Épingler** épingle l'onglet. Voir [[Onglets#Épingler un onglet|Épingler un onglet]].
 - **Lier avec l'onglet...** lie l'onglet à une vue telle que le graphe local ou le plan, de sorte que cette vue suive cet onglet.
 - **Déplacer vers une nouvelle fenêtre** déplace l'onglet dans sa propre fenêtre.
 
@@ -75,6 +76,7 @@ Ces éléments fonctionnent comme sur ordinateur.
 - **Copier le chemin**, avec les choix **en tant qu'URL Obsidian** et **depuis le dossier du coffre**
 - **Ouvrir d'historique de version**
 - **Ouvrir la vue liée**
+- **Copier l'URL Publish**
 - **Supprimer le fichier**
 
 Le menu mobile contient également ces éléments.

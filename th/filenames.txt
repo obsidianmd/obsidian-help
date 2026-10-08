@@ -314,6 +314,10 @@ translation=เว็บไซต์ทางการ
 original=Introduction to licenses and payment
 translation=แนะนำใบอนุญาตและการชำระเงิน
 
+[file.pdf]
+original=PDFs
+translation=ไฟล์ PDF
+
 [file.plugin-security]
 original=Plugin security
 translation=ความปลอดภัยของปลั๊กอิน

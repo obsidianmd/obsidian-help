@@ -314,6 +314,10 @@ translation=অফিসিয়াল ওয়েবসাইট
 original=Introduction to licenses and payment
 translation=লাইসেন্স ও পেমেন্ট পরিচিতি
 
+[file.pdf]
+original=PDFs
+translation=PDF ফাইলসমূহ
+
 [file.plugin-security]
 original=Plugin security
 translation=প্লাগইন নিরাপত্তা

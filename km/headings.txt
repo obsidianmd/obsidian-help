@@ -2757,3 +2757,31 @@ translation=ស្វែងរកការផ្គូផ្គង
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=ជំនួសការផ្គូផ្គង
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=បើកឯកសារ PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=រុករក PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=ផ្លាស់ប្តូររបៀបដែល PDF បង្ហាញ
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=ស្វែងរកនៅក្នុង PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=ចម្លងអត្ថបទពី PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=បង្កប់ PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=នាំចេញកំណត់ចំណាំទៅ PDF

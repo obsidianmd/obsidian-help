@@ -19,21 +19,22 @@ Auf dem Desktop kannst du auch mit der rechten Maustaste auf den Tab der Notiz k
 
 ### Ansicht und Layout
 
-- **Rückverweise im Dokument** zeigt die Rückverweise der Notiz innerhalb der Notiz an. Dafür wird die Rückverweise-Erweiterung benötigt. Siehe [[Rückverweise#Rückverweise in einer Notiz anzeigen]].
+- **Rückverweise im Dokument** zeigt die Rückverweise der Notiz innerhalb der Notiz an. Dafür wird die Rückverweise-Erweiterung benötigt. Siehe [[Rückverweise#Rückverweise in einer Notiz anzeigen|Rückverweise in einer Notiz anzeigen]].
 - **Lesemodus** und **Quellcode-Ansicht** ändern das Erscheinungsbild der Notiz und die Art, wie du sie bearbeitest. Siehe [[Ansichten und Bearbeitungsmodus]].
 - **Rechts teilen** und **Unten teilen** öffnen die Notiz in einem neuen Bereich. Siehe [[Tabs]].
 - **In neuem Fenster öffnen** öffnet die Notiz in einem eigenen Fenster. Siehe [[Pop-out-Fenster]].
 
 ### Die Notiz verwalten
 
-- **Umbenennen** ändert den Namen der Notiz. Siehe [[Notizen verwalten#Eine Notiz umbenennen]].
+- **Umbenennen** ändert den Namen der Notiz. Siehe [[Notizen verwalten#Eine Notiz umbenennen|Eine Notiz umbenennen]].
 - **Datei verschieben nach...** verschiebt die Notiz in einen anderen Ordner. Siehe [[Dateiexplorer]].
-- **Lesezeichen setzen...** fügt die Notiz zu deinen Lesezeichen hinzu. Dafür wird die Lesezeichen-Erweiterung benötigt. Siehe [[Lesezeichen#Ein Lesezeichen hinzufügen]].
-- **Verbinde gesamte Notiz mit...** kombiniert die Notiz mit einer anderen. Dafür wird die Notizen-Werkbank-Erweiterung benötigt. Siehe [[Notizen-Werkbank#Notizen mergen]].
+- **Lesezeichen setzen...** fügt die Notiz zu deinen Lesezeichen hinzu. Dafür wird die Lesezeichen-Erweiterung benötigt. Siehe [[Lesezeichen#Ein Lesezeichen hinzufügen|Ein Lesezeichen hinzufügen]].
+- **Verbinde gesamte Notiz mit...** kombiniert die Notiz mit einer anderen. Dafür wird die Notizen-Werkbank-Erweiterung benötigt. Siehe [[Notizen-Werkbank#Notizen mergen|Notizen mergen]].
 - **Aktive Datei veröffentlichen** veröffentlicht die Notiz auf deiner Website. Dafür wird Obsidian Publish benötigt.
+- **Publish-URL kopieren** kopiert die Adresse der veröffentlichten Notiz. Dafür wird Obsidian Publish benötigt.
 - **Dateieigenschaften hinzufügen** fügt der Notiz eine Eigenschaft hinzu. Siehe [[Eigenschaften]].
-- **Als PDF Exportieren** speichert die Notiz als PDF.
-- **Datei löschen** löscht die Notiz. Siehe [[Notizen verwalten#Eine Notiz löschen]].
+- **Als PDF Exportieren** speichert die Notiz als PDF. Siehe [[PDFs#Eine Notiz als PDF exportieren|Eine Notiz als PDF exportieren]].
+- **Datei löschen** löscht die Notiz. Siehe [[Notizen verwalten#Eine Notiz löschen|Eine Notiz löschen]].
 
 ### Suchen
 
@@ -43,7 +44,7 @@ Auf dem Desktop kannst du auch mit der rechten Maustaste auf den Tab der Notiz k
 
 - **Pfad kopieren** kopiert den Speicherort der Notiz als Obsidian-URL, aus dem Vault-Ordner oder vom Systemstammverzeichnis.
 - **Versionsverlauf öffnen** zeigt frühere Versionen der Notiz an. Dafür wird ein aktives Obsidian Sync-Abonnement benötigt. Siehe [[Versionsgeschichte]].
-- **Verlinkte Ansicht öffnen** öffnet eine Ansicht, die der Notiz folgt, z. B. das lokale Diagramm. Siehe [[Tabs#Verlinkte Ansichten]].
+- **Verlinkte Ansicht öffnen** öffnet eine Ansicht, die der Notiz folgt, z. B. das lokale Diagramm. Siehe [[Tabs#Verlinkte Ansichten|Verlinkte Ansichten]].
 
 ### Dein Computer
 
@@ -56,7 +57,7 @@ Auf dem Desktop kannst du auch mit der rechten Maustaste auf den Tab der Notiz k
 Klicke mit der rechten Maustaste auf einen Tab, um alles oben Genannte plus diese zusätzlichen Einträge zu sehen.
 
 - **Schließen** schließt den Tab.
-- **Anheften** heftet den Tab an. Siehe [[Tabs#Einen Tab anheften]].
+- **Anheften** heftet den Tab an. Siehe [[Tabs#Einen Tab anheften|Einen Tab anheften]].
 - **Mit Tab verlinken...** verlinkt den Tab mit einer Ansicht wie dem lokalen Diagramm oder der Gliederung, sodass diese Ansicht diesem Tab folgt.
 - **In neues Fenster verschieben** verschiebt den Tab in ein eigenes Fenster.
 
@@ -75,6 +76,7 @@ Diese Einträge funktionieren wie auf dem Desktop.
 - **Pfad kopieren**, mit den Optionen **als Obsidian-URL** und **aus dem Vault-Ordner**
 - **Versionsverlauf öffnen**
 - **Verlinkte Ansicht öffnen**
+- **Publish-URL kopieren**
 - **Datei löschen**
 
 Das mobile Menü enthält außerdem diese Einträge.

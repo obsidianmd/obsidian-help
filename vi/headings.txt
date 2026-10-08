@@ -4277,3 +4277,31 @@ translation=Tìm kết quả khớp
 [heading.find-and-replace/Replace matches]
 original=Replace matches
 translation=Thay thế kết quả khớp
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Mở PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Điều hướng PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Thay đổi giao diện PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Tìm kiếm trong PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Sao chép văn bản từ PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Nhúng PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Xuất ghi chú sang PDF
