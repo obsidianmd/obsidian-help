@@ -492,6 +492,8 @@ Gebruik de [[Voetnotenweergave]] om alle voetnoten in een notitie te bekijken.
 
 Je kunt opmerkingen toevoegen door tekst te omgeven met `%%`. Opmerkingen zijn alleen zichtbaar in de bewerkingsweergave.
 
+De `%%`-syntaxis is specifiek voor Obsidian. Om tekst in andere apps te verbergen, gebruik je een HTML-opmerking, `<!-- -->`. Zie [[Obsidian Flavored Markdown]] voor hoe Obsidian-syntaxis verschilt van standaard Markdown.
+
 ```md
 Dit is een %%inline%% opmerking.
 
@@ -501,6 +503,20 @@ Dit is een blokopmerking.
 Blokopmerkingen kunnen meerdere regels beslaan.
 %%
 ```
+
+Een inline opmerking kan overal op een regel verschijnen, inclusief in een kop, een lijstitem of vetgedrukte tekst.
+
+Een blokopmerking begint wanneer een regel begint met `%%`, en eindigt bij de volgende `%%`. Een blokopmerking kan lege regels en Markdown bevatten, zoals koppen en lijsten. Obsidian verbergt dit alles in de leesweergave.
+
+Tekst na de afsluitende `%%` blijft zichtbaar, en Obsidian rendert de Markdown ervan. Bijvoorbeeld: `%%opmerking%% _cursief_` laat alleen het woord _cursief_ zien, in cursief.
+
+> [!warning]+ Sluit elke blokopmerking af
+> Als je een blokopmerking begint en deze nooit afsluit, verbergt de leesweergave de rest van de notitie.
+
+> [!info]+ Houd opmerkingsmarkeringen eenvoudig
+> Houd beide markeringen van een inline opmerking op één regel, en begin een blokopmerking aan het begin van een regel.
+
+Om `%%` als tekst weer te geven, plaats je het in een code-span, of voeg je een backslash toe vóór elke markering.
 
 ## Markdown-syntaxis escapen
 

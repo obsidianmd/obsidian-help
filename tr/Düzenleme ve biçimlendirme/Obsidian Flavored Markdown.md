@@ -36,3 +36,5 @@ Obsidian, [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](http
 | `- [x]`         | [[Temel biçimlendirme söz dizimi#Görev listeleri\|Tamamlanmış görev]] |
 | `> [!note]`     | [[Belirtme çizgileri]]                                                |
 | (bağlantıya bakın) | [[Gelişmiş biçimlendirme söz dizimi#Tablolar\|Tablolar]]           |
+
+Bunlardan bazıları, dahili bağlantılar, yorumlar ve vurgulamalar gibi, Obsidian'a özgüdür. Diğer Markdown uygulamaları bunları düz metin olarak gösterebilir.

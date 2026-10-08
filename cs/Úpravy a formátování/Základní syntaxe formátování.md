@@ -492,6 +492,8 @@ Použijte [[Zobrazení poznámek pod čarou]] pro zobrazení všech poznámek po
 
 Komentáře můžete přidat obalením textu pomocí `%%`. Komentáře jsou viditelné pouze v režimu úprav.
 
+Syntaxe `%%` je specifická pro Obsidian. Pro skrytí textu v jiných aplikacích použijte HTML komentář `<!-- -->`. Viz [[Obsidian Flavored Markdown]], kde se dozvíte, jak se syntaxe Obsidian liší od standardního Markdownu.
+
 ```md
 Toto je %%inline%% komentář.
 
@@ -501,6 +503,20 @@ Toto je blokový komentář.
 Blokové komentáře mohou přesahovat více řádků.
 %%
 ```
+
+Inline komentář se může objevit kdekoli na řádku, včetně nadpisu, položky seznamu nebo tučného textu.
+
+Blokový komentář začíná, když řádek začíná `%%`, a končí u dalšího `%%`. Blokový komentář může obsahovat prázdné řádky a Markdown, jako jsou nadpisy a seznamy. Obsidian vše skryje v režimu čtení.
+
+Text za uzavíracím `%%` zůstává viditelný a Obsidian vykreslí jeho Markdown. Například `%%komentář%% _kurzíva_` ponechá pouze slovo _kurzíva_, kurzívou.
+
+> [!warning]+ Uzavřete každý blokový komentář
+> Pokud zahájíte blokový komentář a nikdy ho neuzavřete, režim čtení skryje zbytek poznámky.
+
+> [!info]+ Značky komentářů udržujte jednoduché
+> Obě značky inline komentáře ponechte na jednom řádku a blokový komentář zahajte na začátku řádku.
+
+Pro zobrazení `%%` jako textu jej vložte do úseku kódu nebo přidejte zpětné lomítko před každou značku.
 
 ## Escapování syntaxe Markdown
 

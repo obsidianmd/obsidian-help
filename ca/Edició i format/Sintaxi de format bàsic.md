@@ -492,6 +492,8 @@ Utilitzeu la [[Vista de notes a peu de pàgina]] per veure totes les notes a peu
 
 Podeu afegir comentaris envoltant el text amb `%%`. Els comentaris només són visibles a la vista d'edició.
 
+La sintaxi `%%` és específica d'Obsidian. Per amagar text en altres aplicacions, utilitzeu un comentari HTML, `<!-- -->`. Consulteu [[Obsidian Flavored Markdown]] per veure com la sintaxi d'Obsidian difereix del Markdown estàndard.
+
 ```md
 Això és un comentari %%en línia%%.
 
@@ -501,6 +503,20 @@ Això és un comentari de bloc.
 Els comentaris de bloc poden abastar múltiples línies.
 %%
 ```
+
+Un comentari en línia pot aparèixer a qualsevol lloc d'una línia, incloent-hi un encapçalament, un element de llista o text en negreta.
+
+Un comentari de bloc comença quan una línia comença amb `%%`, i acaba al següent `%%`. Un comentari de bloc pot incloure línies en blanc i Markdown, com encapçalaments i llistes. Obsidian ho amaga tot a la vista de lectura.
+
+El text després del `%%` de tancament roman visible, i Obsidian renderitza el seu Markdown. Per exemple, `%%comentari%% _cursiva_` deixa només la paraula _cursiva_, en cursiva.
+
+> [!warning]+ Tanqueu cada comentari de bloc
+> Si comenceu un comentari de bloc i no el tanqueu mai, la vista de lectura amaga la resta de la nota.
+
+> [!info]+ Mantingueu els marcadors de comentari simples
+> Mantingueu ambdós marcadors d'un comentari en línia en una sola línia, i comenceu un comentari de bloc al principi d'una línia.
+
+Per mostrar `%%` com a text, poseu-lo dins d'un bloc de codi en línia, o afegiu una barra inversa abans de cada marcador.
 
 ## Escapar la sintaxi Markdown
 

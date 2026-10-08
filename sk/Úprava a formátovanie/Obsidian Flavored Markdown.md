@@ -36,3 +36,5 @@ Obsidian podporuje [CommonMark](https://commonmark.org/), [GitHub Flavored Markd
 | `- [x]`         | [[Základná syntax formátovania#Zoznamy úloh\|Dokončená úloha]]       |
 | `> [!note]`     | [[Popisy]]                                                            |
 | (pozri odkaz)   | [[Rozšírená syntax formátovania#Tabuľky\|Tabuľky]]                   |
+
+Niektoré z nich, ako interné odkazy, komentáre a zvýraznenia, sú špecifické pre Obsidian. Iné Markdown aplikácie ich môžu zobraziť ako obyčajný text.

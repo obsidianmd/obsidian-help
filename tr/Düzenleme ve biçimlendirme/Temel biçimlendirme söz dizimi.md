@@ -492,6 +492,8 @@ Bir nottaki tüm dipnotları görmek için [[Dipnot görünümü|Dipnotlar gör�
 
 Metni `%%` ile çevreleyerek yorum ekleyebilirsiniz. Yorumlar yalnızca Düzenleme görünümünde görünür.
 
+`%%` söz dizimi Obsidian'a özgüdür. Diğer uygulamalarda metni gizlemek için `<!-- -->` HTML yorumunu kullanın. Obsidian söz diziminin standart Markdown'dan nasıl farklılaştığını öğrenmek için [[Obsidian Flavored Markdown]] bölümüne bakın.
+
 ```md
 Bu bir %%satır içi%% yorumdur.
 
@@ -501,6 +503,20 @@ Bu bir blok yorumdur.
 Blok yorumlar birden fazla satıra yayılabilir.
 %%
 ```
+
+Satır içi yorum, bir başlık, liste öğesi veya kalın metin dahil olmak üzere bir satırın herhangi bir yerinde görünebilir.
+
+Blok yorum, bir satır `%%` ile başladığında başlar ve bir sonraki `%%` işaretinde sona erer. Blok yorum, başlıklar ve listeler gibi boş satırlar ve Markdown içerebilir. Obsidian, bunların tümünü Okuma görünümünde gizler.
+
+Kapanış `%%` işaretinden sonraki metin görünür kalır ve Obsidian Markdown'ını işler. Örneğin, `%%yorum%% _italik_` yalnızca _italik_ kelimesini italik olarak bırakır.
+
+> [!warning]+ Her blok yorumu kapatın
+> Bir blok yorum başlatıp hiç kapatmazsanız, Okuma görünümü notun geri kalanını gizler.
+
+> [!info]+ Yorum işaretçilerini basit tutun
+> Satır içi yorumun her iki işaretçisini tek bir satırda tutun ve blok yorumu satırın başında başlatın.
+
+`%%` işaretini metin olarak göstermek için bir kod aralığına yerleştirin veya her işaretçinin önüne ters eğik çizgi ekleyin.
 
 ## Markdown Söz Dizimini Kaçırma
 

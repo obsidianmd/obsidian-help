@@ -492,6 +492,8 @@ Bruk [[Fotnotevisning|Fotnoter-visningen]] for å se alle fotnoter i et notat.
 
 Du kan legge til kommentarer ved å omslutte tekst med `%%`. Kommentarer er bare synlige i redigeringsvisning.
 
+`%%`-syntaksen er spesifikk for Obsidian. For å skjule tekst i andre apper, bruk en HTML-kommentar, `<!-- -->`. Se [[Obsidian Flavored Markdown]] for hvordan Obsidians syntaks skiller seg fra standard Markdown.
+
 ```md
 Dette er en %%innebygd%% kommentar.
 
@@ -501,6 +503,20 @@ Dette er en blokkkommentar.
 Blokkkommentarer kan strekke seg over flere linjer.
 %%
 ```
+
+En innebygd kommentar kan vises hvor som helst på en linje, inkludert i en overskrift, et listeelement eller fet tekst.
+
+En blokkkommentar starter når en linje begynner med `%%`, og slutter ved neste `%%`. En blokkkommentar kan inneholde tomme linjer og Markdown, som overskrifter og lister. Obsidian skjuler alt dette i lesevisning.
+
+Tekst etter den avsluttende `%%` forblir synlig, og Obsidian gjengir dens Markdown. For eksempel vil `%%kommentar%% _kursiv_` bare vise ordet _kursiv_, i kursiv.
+
+> [!warning]+ Lukk alltid blokkkommentarer
+> Hvis du starter en blokkkommentar og aldri lukker den, skjuler lesevisning resten av notatet.
+
+> [!info]+ Hold kommentarmarkører enkle
+> Hold begge markørene i en innebygd kommentar på én linje, og start en blokkkommentar i begynnelsen av en linje.
+
+For å vise `%%` som tekst, sett det i en kodespan, eller legg til en omvendt skråstrek foran hver markør.
 
 ## Escape av Markdown-syntaks
 

@@ -494,6 +494,8 @@ Folosiți [[Afișaj note de subsol|modul de vizualizare a notelor de subsol]] pe
 
 Puteți adăuga comentarii încadrând textul cu `%%`. Comentariile sunt vizibile doar în modul de editare.
 
+Sintaxa `%%` este specifică Obsidian. Pentru a ascunde textul în alte aplicații, folosiți un comentariu HTML, `<!-- -->`. Consultați [[Markdown specific Obsidian]] pentru a vedea cum diferă sintaxa Obsidian față de Markdown standard.
+
 ```md
 This is an %%inline%% comment.
 
@@ -503,6 +505,20 @@ This is a block comment.
 Block comments can span multiple lines.
 %%
 ```
+
+Un comentariu în text poate apărea oriunde pe un rând, inclusiv într-un titlu, un element de listă sau text îngroșat.
+
+Un comentariu de tip bloc începe atunci când un rând începe cu `%%` și se termină la următorul `%%`. Un comentariu de tip bloc poate include rânduri goale și Markdown, precum titluri și liste. Obsidian le ascunde pe toate în modul de citire.
+
+Textul de după `%%` de închidere rămâne vizibil, iar Obsidian îi afișează formatarea Markdown. De exemplu, `%%comentariu%% _cursiv_` lasă vizibil doar cuvântul _cursiv_, în cursiv.
+
+> [!warning]+ Închideți fiecare comentariu de tip bloc
+> Dacă începeți un comentariu de tip bloc și nu îl închideți niciodată, modul de citire ascunde restul notei.
+
+> [!info]+ Păstrați marcatorii de comentarii simpli
+> Păstrați ambii marcatori ai unui comentariu în text pe un singur rând și începeți un comentariu de tip bloc la începutul unui rând.
+
+Pentru a afișa `%%` ca text, puneți-l într-un fragment de cod, sau adăugați o bară oblică inversă înaintea fiecărui marcator.
 
 ## Excluderea sintaxei Markdown
 

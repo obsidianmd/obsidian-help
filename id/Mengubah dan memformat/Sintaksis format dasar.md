@@ -494,6 +494,8 @@ Gunakan [[Tampilan catatan kaki]] untuk melihat semua catatan kaki dalam sebuah 
 
 Anda dapat menambahkan komentar dengan mengapit teks menggunakan `%%`. Komentar hanya terlihat di tampilan pengeditan.
 
+Sintaksis `%%` khusus untuk Obsidian. Untuk menyembunyikan teks di aplikasi lain, gunakan komentar HTML, `<!-- -->`. Lihat [[Obsidian Flavored Markdown]] untuk mengetahui bagaimana sintaksis Obsidian berbeda dari Markdown standar.
+
 ```md
 Ini adalah komentar %%inline%%.
 
@@ -503,6 +505,20 @@ Ini adalah komentar blok.
 Komentar blok dapat mencakup beberapa baris.
 %%
 ```
+
+Komentar inline dapat muncul di mana saja dalam sebuah baris, termasuk dalam judul, item daftar, atau teks tebal.
+
+Komentar blok dimulai ketika sebuah baris diawali dengan `%%`, dan berakhir di `%%` berikutnya. Komentar blok dapat menyertakan baris kosong dan Markdown, seperti judul dan daftar. Obsidian menyembunyikan semuanya di tampilan baca.
+
+Teks setelah penutup `%%` tetap terlihat, dan Obsidian merender Markdown-nya. Misalnya, `%%komentar%% _miring_` hanya menyisakan kata _miring_, dalam huruf miring.
+
+> [!warning]+ Tutup setiap komentar blok
+> Jika Anda memulai komentar blok dan tidak pernah menutupnya, tampilan baca akan menyembunyikan sisa catatan.
+
+> [!info]+ Jaga penanda komentar tetap sederhana
+> Letakkan kedua penanda komentar inline pada satu baris, dan mulai komentar blok di awal baris.
+
+Untuk menampilkan `%%` sebagai teks, letakkan dalam span kode, atau tambahkan garis miring terbalik sebelum setiap penanda.
 
 ## Meloloskan Sintaksis Markdown
 

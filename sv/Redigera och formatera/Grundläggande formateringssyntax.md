@@ -492,6 +492,8 @@ Använd [[Fotnotsvy|fotnotsvyn]] för att se alla fotnoter i en anteckning.
 
 Du kan lägga till kommentarer genom att omsluta text med `%%`. Kommentarer är bara synliga i redigeringsvyn.
 
+Syntaxen `%%` är specifik för Obsidian. För att dölja text i andra appar, använd en HTML-kommentar, `<!-- -->`. Se [[Obsidian Flavored Markdown]] för hur Obsidians syntax skiljer sig från standard-Markdown.
+
 ```md
 Detta är en %%inline%% kommentar.
 
@@ -501,6 +503,20 @@ Detta är en blockkommentar.
 Blockkommentarer kan spänna över flera rader.
 %%
 ```
+
+En inline-kommentar kan visas var som helst på en rad, inklusive i en rubrik, ett listobjekt eller fet text.
+
+En blockkommentar börjar när en rad inleds med `%%`, och slutar vid nästa `%%`. En blockkommentar kan innehålla tomma rader och Markdown, som rubriker och listor. Obsidian döljer allt detta i läsvyn.
+
+Text efter den avslutande `%%` förblir synlig, och Obsidian renderar dess Markdown. Till exempel lämnar `%%kommentar%% _kursiv_` bara ordet _kursiv_, i kursiv stil.
+
+> [!warning]+ Stäng varje blockkommentar
+> Om du påbörjar en blockkommentar och aldrig stänger den, döljer läsvyn resten av anteckningen.
+
+> [!info]+ Håll kommentarmarkörer enkla
+> Håll båda markörerna i en inline-kommentar på samma rad, och påbörja en blockkommentar i början av en rad.
+
+För att visa `%%` som text, placera det i en kodmarkering, eller lägg till ett omvänt snedstreck före varje markör.
 
 ## Escape:a Markdown-syntax
 

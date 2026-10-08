@@ -4,7 +4,6 @@ publish: true
 mobile: true
 description: 지원되는 확장 기능과 Markdown이 HTML 요소와 상호 작용하는 방식을 포함하여 Obsidian 고유 Markdown에 대해 알아보세요.
 ---
-
 Obsidian은 기존 형식을 깨뜨리지 않으면서 최대한의 기능을 제공하기 위해 노력해요. 그 결과, 다양한 [[기본 서식 구문|Markdown]] 변형을 조합하여 사용해요.
 
 Obsidian은 [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/), 그리고 [LaTeX](https://www.latex-project.org/)를 지원해요.
@@ -37,3 +36,5 @@ Obsidian은 [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](ht
 | `- [x]`         | [[기본 서식 구문#작업 목록\|완료된 작업]]                             |
 | `> [!note]`     | [[콜아웃]]                                                            |
 | (링크 참조)     | [[고급 서식 구문#표\|표]]                                             |
+
+내부 링크, 주석, 강조 표시 등 이 중 일부는 Obsidian에서만 지원되는 구문이에요. 다른 Markdown 앱에서는 일반 텍스트로 표시될 수 있어요.

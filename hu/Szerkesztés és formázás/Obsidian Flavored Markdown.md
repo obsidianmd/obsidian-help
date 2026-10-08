@@ -36,3 +36,5 @@ Az Obsidian támogatja a [CommonMark](https://commonmark.org/), a [GitHub Flavor
 | `- [x]`         | [[Alapvető formázási szintaxis#Teendőlisták\|Befejezett feladat]]       |
 | `> [!note]`     | [[Felhívások]]                                                          |
 | (lásd a hivatkozást) | [[Haladó formázási szintaxis#Táblázatok\|Táblázatok]]              |
+
+Ezek közül néhány, például a belső hivatkozások, megjegyzések és kiemelések, az Obsidianra jellemzőek. Más Markdown alkalmazások egyszerű szövegként jeleníthetik meg őket.

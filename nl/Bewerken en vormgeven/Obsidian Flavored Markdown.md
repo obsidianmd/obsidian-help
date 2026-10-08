@@ -36,3 +36,5 @@ Obsidian ondersteunt [CommonMark](https://commonmark.org/), [GitHub Flavored Mar
 | `- [x]`         | [[Basis opmaaksyntaxis#Takenlijsten\|Voltooide taak]]                 |
 | `> [!note]`     | [[Bijschriften]]                                                      |
 | (zie koppeling) | [[Geavanceerde opmaaksyntaxis#Tabellen\|Tabellen]]                    |
+
+Sommige hiervan, zoals interne koppelingen, opmerkingen en markeringen, zijn specifiek voor Obsidian. Andere Markdown-apps kunnen ze als platte tekst weergeven.

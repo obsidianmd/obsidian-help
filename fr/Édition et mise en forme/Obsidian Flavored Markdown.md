@@ -37,3 +37,5 @@ Obsidian prend en charge [CommonMark](https://commonmark.org/), [GitHub Flavored
 | `- [x]`         | [[Syntaxe de mise en forme de base#Listes de tâches\|Tâche complétée]]               |
 | `> [!note]`     | [[Mises en avant (callouts)]]                                                                         |
 | (voir le lien)  | [[Syntaxe de mise en forme avancée#Tableaux\|Tableaux]]                              |
+
+Certaines de ces syntaxes, comme les liens internes, les commentaires et le surlignage, sont spécifiques à Obsidian. D'autres applications Markdown peuvent les afficher en texte brut.

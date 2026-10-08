@@ -492,6 +492,8 @@ Użyj [[Panel przypisów]], aby zobaczyć wszystkie przypisy w notatce.
 
 Możesz dodawać komentarze, otaczając tekst symbolami `%%`. Komentarze są widoczne tylko w trybie edycji.
 
+Składnia `%%` jest specyficzna dla Obsidian. Aby ukryć tekst w innych aplikacjach, użyj komentarza HTML: `<!-- -->`. Zobacz [[Obsidian Flavored Markdown]], aby dowiedzieć się, jak składnia Obsidian różni się od standardowego Markdown.
+
 ```md
 To jest %%inline%% komentarz.
 
@@ -501,6 +503,20 @@ To jest komentarz blokowy.
 Komentarze blokowe mogą obejmować wiele linii.
 %%
 ```
+
+Komentarz inline może pojawić się w dowolnym miejscu w linii, w tym w nagłówku, elemencie listy lub pogrubionym tekście.
+
+Komentarz blokowy zaczyna się, gdy linia rozpoczyna się od `%%`, i kończy się na następnym `%%`. Komentarz blokowy może zawierać puste linie i Markdown, takie jak nagłówki i listy. Obsidian ukrywa to wszystko w trybie odczytu.
+
+Tekst po zamykającym `%%` pozostaje widoczny, a Obsidian renderuje jego Markdown. Na przykład `%%komentarz%% _kursywa_` pozostawia tylko słowo _kursywa_, zapisane kursywą.
+
+> [!warning]+ Zamykaj każdy komentarz blokowy
+> Jeśli rozpoczniesz komentarz blokowy i nigdy go nie zamkniesz, tryb odczytu ukryje resztę notatki.
+
+> [!info]+ Używaj prostych znaczników komentarzy
+> Oba znaczniki komentarza inline umieszczaj w jednej linii, a komentarz blokowy rozpoczynaj na początku linii.
+
+Aby wyświetlić `%%` jako tekst, umieść go w bloku kodu inline lub dodaj ukośnik odwrotny przed każdym znacznikiem.
 
 ## Unikanie składni Markdown
 

@@ -492,6 +492,8 @@ Használja a [[Lábjegyzet nézet|Lábjegyzetek nézet]]et a jegyzetben találha
 
 Megjegyzéseket adhat hozzá úgy, hogy a szöveget `%%` közé zárja. A megjegyzések csak szerkesztési nézetben láthatók.
 
+A `%%` szintaxis az Obsidian-ra jellemző. Szöveg elrejtéséhez más alkalmazásokban használjon HTML megjegyzést: `<!-- -->`. Tekintse meg az [[Obsidian Flavored Markdown]] oldalt, hogy megismerje, miben tér el az Obsidian szintaxisa a szabványos Markdown-tól.
+
 ```md
 Ez egy %%beágyazott%% megjegyzés.
 
@@ -501,6 +503,20 @@ Ez egy blokk megjegyzés.
 A blokk megjegyzések több sorra is kiterjedhetnek.
 %%
 ```
+
+A beágyazott megjegyzés a sor bármely pontján megjelenhet, beleértve a fejléceket, listaelemeket vagy félkövér szöveget is.
+
+A blokk megjegyzés akkor kezdődik, amikor egy sor `%%`-kal kezdődik, és a következő `%%`-nál ér véget. A blokk megjegyzés üres sorokat és Markdown-t tartalmazhat, például fejléceket és listákat. Az Obsidian mindezt elrejti olvasási nézetben.
+
+A záró `%%` utáni szöveg látható marad, és az Obsidian megjeleníti annak Markdown formázását. Például a `%%megjegyzés%% _dőlt_` csak a _dőlt_ szót hagyja meg, dőlt betűvel.
+
+> [!warning]+ Zárjon le minden blokk megjegyzést
+> Ha elkezd egy blokk megjegyzést, de soha nem zárja le, az olvasási nézet elrejti a jegyzet hátralévő részét.
+
+> [!info]+ Tartsa egyszerűen a megjegyzés jelölőket
+> Tartsa a beágyazott megjegyzés mindkét jelölőjét egy sorban, és a blokk megjegyzést a sor elején kezdje.
+
+A `%%` szövegként való megjelenítéséhez helyezze kódszegmensbe, vagy tegyen fordított perjelet minden jelölő elé.
 
 ## Markdown szintaxis elkerülése
 

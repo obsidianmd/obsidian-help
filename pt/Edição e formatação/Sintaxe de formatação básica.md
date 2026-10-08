@@ -492,6 +492,8 @@ Utilize a [[Vista de notas de rodapé|vista de notas de rodapé]] para ver todas
 
 Pode adicionar comentários envolvendo texto com `%%`. Os comentários só são visíveis na vista de edição.
 
+A sintaxe `%%` é específica do Obsidian. Para ocultar texto noutras aplicações, utilize um comentário HTML, `<!-- -->`. Consulte [[Obsidian Flavored Markdown]] para saber como a sintaxe do Obsidian difere do Markdown padrão.
+
 ```md
 Este é um %%em linha%% comentário.
 
@@ -501,6 +503,20 @@ Este é um comentário em bloco.
 Comentários em bloco podem abranger múltiplas linhas.
 %%
 ```
+
+Um comentário em linha pode aparecer em qualquer parte de uma linha, incluindo num cabeçalho, num item de lista ou em texto em negrito.
+
+Um comentário em bloco começa quando uma linha começa com `%%` e termina no próximo `%%`. Um comentário em bloco pode incluir linhas em branco e Markdown, como cabeçalhos e listas. O Obsidian oculta tudo na vista de leitura.
+
+O texto após o `%%` de fecho permanece visível, e o Obsidian renderiza o seu Markdown. Por exemplo, `%%comentário%% _itálico_` deixa apenas a palavra _itálico_, em itálico.
+
+> [!warning]+ Feche sempre os comentários em bloco
+> Se iniciar um comentário em bloco e nunca o fechar, a vista de leitura oculta o resto da nota.
+
+> [!info]+ Mantenha os marcadores de comentário simples
+> Mantenha ambos os marcadores de um comentário em linha numa só linha, e inicie um comentário em bloco no início de uma linha.
+
+Para mostrar `%%` como texto, coloque-o num bloco de código em linha, ou adicione uma barra invertida antes de cada marcador.
 
 ## Escapar sintaxe Markdown
 
