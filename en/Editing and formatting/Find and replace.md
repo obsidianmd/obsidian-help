@@ -19,7 +19,12 @@ Use find and replace to search inside the active note. To search across your vau
 - You can also select **More options** ![[lucide-more-horizontal.svg#icon]] in the note, and then select **Find...** or **Replace...**. See [[More options menu]].
 
 > [!tip]- Keyboard shortcuts
-> You can assign [[Hotkeys|keyboard shortcuts]] to **Search current file** and **Search & replace in current file**.
+> These are the default keyboard shortcuts.
+>
+> - `Ctrl+F` (Windows and Linux) or `Command+F` (macOS) for **Search current file**.
+> - `Ctrl+H` (Windows and Linux) or `Command+Option+F` (macOS) for **Search & replace in current file**.
+>
+> You can change these in [[Hotkeys]].
 
 ## Find matches
 
