@@ -1,5 +1,6 @@
 ---
 description: Canvas is a core plugin for visual note-taking. Arrange and connect notes, images, and other files in a 2D space.
+mobile: true
 permalink: plugins/canvas
 ---
 Canvas is a [[Core plugins|core plugin]] for visual note-taking. It gives you infinite space to lay out notes and connect them to other notes, attachments, and web pages.
@@ -65,6 +66,8 @@ You can also add notes from the canvas context menu:
 
 You can also drag notes from the [[File explorer]] into the canvas.
 
+To show only part of a note in a card, right-click the card and select **Narrow to heading...** or **Narrow to block...**. Then choose the heading or block.
+
 ### Add cards from media
 
 To add media from your vault to your canvas:
@@ -88,7 +91,24 @@ To embed a web page in your canvas:
 
 You can also select a URL in your browser and then drag it into the canvas to embed it in a card.
 
-To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open in browser**.
+To open the web page in your browser, press `Ctrl` (or `Cmd` on macOS) and select the card label. Or, right-click the card and select **Open external link**.
+
+Right-click a web page card for more options.
+
+- **Copy URL** copies the address of the web page.
+- **Change URL...** changes the address the card shows.
+- **Reload page** loads the web page again.
+
+### Add cards from bases
+
+To show a [[Introduction to Bases|base]] in your canvas, drag the base file from the File explorer into the canvas. The card shows the base.
+
+A base card shows the default view of the base. To show a different view:
+
+1. Right-click the card and then select **Pin view...**.
+2. Select the view you want.
+
+To go back to the default view, select **Pin view...** again, and then select **Show default view**.
 
 ### Add cards from folders
 
@@ -98,11 +118,11 @@ Drag a folder from the [[File explorer]] to add all files in that folder to the 
 
 Double-click on a text or note card to start editing it. Select anywhere outside the card to stop editing it. You can also press `Escape` to stop editing a card.
 
-You can also edit a card by right-clicking it and selecting **Edit**.
+You can also edit a card by right-clicking it and selecting **Edit**. Or, select the card and then select **Edit** ![[lucide-square-pen.svg#icon]] in the selection controls.
 
 ### Delete a card
 
-Remove selected cards by right-clicking any of them, and then selecting **Delete**. Or, press `Backspace` (or `Delete` on macOS).
+Remove selected cards by right-clicking any of them, and then selecting **Remove**. Or, press `Backspace` (or `Delete` on macOS).
 
 You can also select **Remove** ![[lucide-trash-2.svg#icon]] in the selection controls above your selection.
 
@@ -146,6 +166,16 @@ You can press `Space` while resizing to disable snapping.
 
 To maintain the aspect ratio while resizing, press `Shift` while resizing.
 
+### Align and arrange cards
+
+To line up several cards, select two or more cards. In the selection controls, select **Align**, and then choose an option.
+
+- **Align left**, **Align center**, and **Align right** line the cards up on a vertical line.
+- **Align top**, **Align middle**, and **Align bottom** line the cards up on a horizontal line.
+- **Arrange in a row**, **Arrange in a column**, and **Arrange in a grid** move the cards into that layout.
+- **Distribute horizontal spacing** and **Distribute vertical spacing** space the cards evenly.
+- **Justify horizontally** and **Justify vertically** resize every card to match the full width or height of the selection.
+
 ## Connect cards
 
 Draw lines between cards to show relationships. Add colors and labels to describe how they relate.
@@ -178,7 +208,7 @@ To move one of the ends of a connection line:
 
 ### Navigate a connection
 
-If two connected cards are far apart, you can navigate to the source or the target of the connection by right-clicking the line and then selecting **Go to target** or **Go to source**.
+If two connected cards are far apart, you can jump to the card at the other end of the connection. Right-click the line close to one end, and then select **Follow connection**. The canvas moves to the card at the opposite end.
 
 ### Add a label to a connection
 
@@ -192,6 +222,16 @@ To label a connection:
 You can also label a connection by selecting it and then selecting **Edit label** from the selection controls.
 
 To edit a connection label, double-click on the line, or right-click the line and then select **Edit label**.
+
+To remove a label, select the connection and then select **Remove label** in the selection controls.
+
+### Change the direction of a connection
+
+By default, a connection has an arrow at the end that points to the second card. To change this:
+
+1. Select the connection.
+2. In the selection controls, select **Line direction**.
+3. Choose **Nondirectional**, **Unidirectional**, or **Bidirectional**.
 
 ### Change the color of a card or connection
 
@@ -213,6 +253,22 @@ To group related cards:
 2. Right-click any of the selected cards and then select **Create group**.
 
 **Rename group:** Double-click the name of the group to edit it, and then press `Enter` to save.
+
+### Add a background to a group
+
+You can show an image behind the cards in a group.
+
+1. Select the group.
+2. In the selection controls, select **Set background**.
+3. Choose an image from your vault.
+
+To change the background, select the group and then select **Edit background**.
+
+- **Replace background** chooses a different image.
+- **Remove background** removes the image.
+- **Cover** makes the image fill the group.
+- **Keep aspect ratio** keeps the proportions of the image.
+- **Repeat** tiles the image across the group.
 
 ## Navigate the canvas
 
@@ -242,9 +298,169 @@ To zoom the canvas so that all selected items are visible, right-click a selecte
 
 To change the zoom level back to the default, select **Reset zoom** in the zoom controls in the upper-right corner.
 
+
+### Jump to a group
+
+To move straight to a group in a large canvas, open the command palette and select **Canvas: Jump to group**. A list of the groups in your canvas appears. Select the group you want to go to, and the canvas moves to center on it.
+
+## Canvas settings
+
+Select **Canvas settings** ![[lucide-settings.svg#icon]] above the canvas controls to change how your canvas behaves.
+
+- **Snap to grid** snaps cards to the background grid when you move and resize them.
+- **Snap to objects** snaps cards to nearby cards when you move and resize them.
+- **Read-only** prevents changes to the canvas.
+
+## Export a canvas as an image
+
+You can export a canvas as a PNG image on desktop. Exporting an image is not available in the Obsidian app on mobile.
+
+1. Open the canvas you want to export.
+2. Open the command palette and select **Canvas: Export as image**.
+3. Choose your settings.
+    - **Viewport** sets what to export. Select **Full canvas** for the whole canvas, or **Viewport only** for the part you can see now.
+    - **Zoom** sets the image quality. A higher zoom makes a larger, sharper image. The dialog shows the estimated image size.
+    - **Show logo** adds an Obsidian logo to the bottom left. This is on by default.
+    - **Privacy mode** hides all the text on your canvas. This is off by default.
+4. Select **Save**.
+5. Choose where to save the file. The file name defaults to the name of your canvas, with the `.png` extension.
+
+You can't export an empty canvas.
+
+## Undo and redo
+
+To undo your last change, select **Undo** in the canvas controls on the right side of the canvas. Or, press `Ctrl+Z` (Windows and Linux) or `Command+Z` (macOS).
+
+To redo a change, select **Redo**. Or, press `Ctrl+Y` or `Ctrl+Shift+Z` (Windows and Linux), or `Command+Y` or `Command+Shift+Z` (macOS).
+
+## Canvas help
+
+On desktop, select **Canvas help** ![[lucide-help-circle.svg#icon]] below the canvas controls to see a list of the shortcuts for panning, zooming, selecting, and moving cards.
+
 ## Embed a canvas
 
 You can embed a canvas in a note using the standard embed syntax. For more information, refer to [[Embed files#Embed a canvas in a note|Embed a canvas in a note]].
+
+## Use Canvas on mobile
+
+When you open a canvas on a phone or tablet, Obsidian shows three hints.
+
+- **Drag to pan**
+- **Pinch to zoom**
+- **Touch and hold to add / move / select**
+
+### Open the canvas menu
+
+Touch and hold an empty area of the canvas. The menu has these items.
+
+- **Add card** adds a text card.
+- **Add note from vault** adds a note from your vault.
+- **Add media from vault** adds media from your vault.
+- **Add web page** embeds a web page.
+- **Create group** creates an empty group.
+- **Snap to grid**, **Snap to objects**, and **Read-only** are the same options as in **Canvas settings**.
+
+### Add cards
+
+You can add cards from the canvas menu. You can also select an icon at the bottom of the canvas.
+
+- The blank file icon adds a text card.
+- The document icon adds a note from your vault.
+- The image icon adds media from your vault.
+
+### Work with a selected card
+
+Tap a card to select it. A toolbar appears above the card.
+
+- **Remove** ![[lucide-trash-2.svg#icon]] deletes the card.
+- **Set color** ![[lucide-palette.svg#icon]] changes the color of the card.
+- **Zoom to selection** zooms the canvas to the card.
+- **Edit** ![[lucide-square-pen.svg#icon]] edits the card.
+
+### Move a card
+
+1. Tap the card to select it.
+2. Touch and hold the selected card, and then drag it to a new position.
+
+### Resize a card
+
+1. Tap the card to select it.
+2. Drag the sides of the card to make it bigger or smaller.
+
+### Open the card menu
+
+Touch and hold a card. The menu has these items.
+
+- **Zoom to selection** zooms the canvas to the card.
+- **Edit** edits the card.
+- **Convert to file...** converts a text card to a note.
+- **Duplicate** makes a copy of the card.
+- **Remove** deletes the card.
+
+### Edit a card
+
+To edit a text card or a note card, use either method.
+
+- Tap the card to select it, and then double-tap it. The keyboard opens.
+- Tap the card to select it, and then select **Edit** ![[lucide-square-pen.svg#icon]] in the toolbar above the card.
+
+### Label a connection
+
+1. Tap the line to select it.
+2. In the toolbar, select **Edit label** ![[lucide-square-pen.svg#icon]]. The keyboard opens.
+3. Enter the label.
+
+To remove a label, tap the line and then select **Remove label** in the toolbar.
+
+### Change the direction of a connection
+
+1. Tap the line to select it.
+2. In the toolbar, select **Line direction**.
+3. Choose **Nondirectional**, **Unidirectional**, or **Bidirectional**.
+
+### Open the line menu
+
+Touch and hold a line that connects two cards. The menu has these items.
+
+- **Edit label** adds or changes the label of the line.
+- **Follow connection** moves the canvas to the card at the opposite end of the line.
+- **Remove** deletes the connection.
+
+### Connect cards
+
+1. Tap a card to select it.
+2. Drag one of the circles on its edges to another card.
+
+If you drag the line and let go in an empty area, a menu opens with **Add card** and **Add note from vault**. Select one to add a card at the end of the line.
+
+### Disconnect cards
+
+To remove a connection, use either method.
+
+- Tap the line, and then select **Remove** ![[lucide-trash-2.svg#icon]].
+- Drag the arrow end of the line back to the card it started from. The line disappears.
+
+### Group cards
+
+To create a group:
+
+1. Touch and hold an empty area of the canvas.
+2. Select **Create group**.
+3. Drag the edges of the group to change its size.
+
+To add cards to a group, drag them into the group's area. When you move the group, the cards inside it move too.
+
+To rename a group, double-tap its name. The keyboard opens. Enter the new name.
+
+### Canvas controls
+
+Controls on the right side of the canvas change the view and your settings.
+
+- **Zoom in** and **Zoom out** change the zoom level.
+- **Reset zoom** returns the canvas to the default zoom level.
+- **Zoom to fit** shows every card in the canvas.
+- **Undo** and **Redo** reverse or repeat your last change.
+- **Canvas settings** has the options **Snap to grid**, **Snap to objects**, and **Read-only**.
 
 ## Advanced tips
 
