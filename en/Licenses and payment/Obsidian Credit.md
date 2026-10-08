@@ -10,6 +10,8 @@ Obsidian Credit is a type of prepaid credit that can be bought in advance and ap
 
 Obsidian Credit will be applied before any payment is due, including auto-renewals. Obsidian Credit **is not** eligible for a refund per our [[Refund policy]].
 
+Obsidian Credit does not expire as long as you keep your account.
+
 ## Add credit
 
 1. Log into [your Obsidian account](https://obsidian.md/account/billing).
