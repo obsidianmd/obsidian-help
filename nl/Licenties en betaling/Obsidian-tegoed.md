@@ -5,6 +5,8 @@ Obsidian-tegoed is een type vooruitbetaald tegoed dat van tevoren kan worden gek
 
 Obsidian-tegoed wordt toegepast voordat een betaling verschuldigd is, inclusief automatische verlengingen. Obsidian-tegoed komt **niet** in aanmerking voor restitutie volgens ons [[Restitutiebeleid]].
 
+Obsidian-tegoed verloopt niet zolang je je account behoudt.
+
 ## Tegoed toevoegen
 
 1. Log in op [je Obsidian-account](https://obsidian.md/account/billing).

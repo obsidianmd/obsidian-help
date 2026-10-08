@@ -5,6 +5,8 @@ Crédito Obsidian es un tipo de crédito prepagado que se puede comprar por adel
 
 El Crédito Obsidian se aplicará antes de que se deba realizar cualquier pago, incluyendo las renovaciones automáticas. El Crédito Obsidian **no es** elegible para reembolso según nuestra [[Política de reembolso]].
 
+El Crédito Obsidian no caduca mientras mantengas tu cuenta.
+
 ## Añadir crédito
 
 1. Inicia sesión en [tu cuenta de Obsidian](https://obsidian.md/es/account/billing).

@@ -5,6 +5,8 @@ Obsidian Kredisi, önceden satın alınabilen ve herhangi bir Obsidian hizmeti v
 
 Obsidian Kredisi, otomatik yenilemeler dahil herhangi bir ödeme yapılmadan önce uygulanır. Obsidian Kredisi, [[İade politikası|İade politikamız]] gereği iade için **uygun değildir**.
 
+Obsidian Kredisi, hesabınızı koruduğunuz sürece süresiz olarak geçerlidir.
+
 ## Kredi ekleme
 
 1. [Obsidian hesabınıza](https://obsidian.md/account/billing) giriş yapın.

@@ -5,6 +5,8 @@ Obsidian-Guthaben ist eine Art Prepaid-Guthaben, das im Voraus erworben und für
 
 Obsidian-Guthaben wird angerechnet, bevor eine Zahlung fällig wird, einschließlich automatischer Verlängerungen. Obsidian-Guthaben ist gemäß unserer [[Erstattungsrichtlinie]] **nicht** erstattungsfähig.
 
+Obsidian-Guthaben verfällt nicht, solange du dein Konto behältst.
+
 ## Guthaben hinzufügen
 
 1. Melde dich in [deinem Obsidian-Konto](https://obsidian.md/account/billing) an.

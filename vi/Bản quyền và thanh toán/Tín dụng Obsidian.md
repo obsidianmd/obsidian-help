@@ -5,6 +5,8 @@ Tín dụng Obsidian là một loại tín dụng trả trước có thể đư�
 
 Tín dụng Obsidian sẽ được áp dụng trước khi bất kỳ khoản thanh toán nào đến hạn, bao gồm cả gia hạn tự động. Tín dụng Obsidian **không** đủ điều kiện hoàn tiền theo [[Chính sách hoàn tiền]] của chúng tôi.
 
+Tín dụng Obsidian không hết hạn miễn là bạn còn giữ tài khoản của mình.
+
 ## Thêm tín dụng
 
 1. Đăng nhập vào [tài khoản Obsidian của bạn](https://obsidian.md/account/billing).
