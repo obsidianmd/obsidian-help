@@ -862,34 +862,70 @@ translation=Barra lateral
 original=Frequently asked questions
 translation=Perguntas frequentes
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Agrupar cartões em colunas
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Trabalhar com cartões e colunas
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Definições
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Ocultar colunas vazias
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Largura da coluna
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Propriedade da imagem
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Ajuste da imagem
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Proporção da imagem
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Abrir o menu
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Computador
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vista e esquema
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gerir a nota
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Localizar
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Caminhos, histórico e vistas ligadas
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=O seu computador
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu do separador
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Móvel

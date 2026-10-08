@@ -286,6 +286,10 @@ translation=נהל כספות
 original=Mobile app
 translation=אפליקציה לנייד
 
+[file.more-options-menu]
+original=More options menu
+translation=תפריט אפשרויות נוספות
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=סמנים מרובים

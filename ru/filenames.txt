@@ -286,6 +286,10 @@ translation=Управление хранилищами
 original=Mobile app
 translation=Мобильное приложение
 
+[file.more-options-menu]
+original=More options menu
+translation=Меню «Ещё»
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Несколько курсоров

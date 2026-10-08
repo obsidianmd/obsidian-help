@@ -6,7 +6,6 @@ description: Aflați despre spațiul de lucru Obsidian și componentele sale de 
 aliases:
   - Workspace
 ---
-
 Spațiul de lucru este containerul principal pentru toate componentele care alcătuiesc interfața Obsidian. Acesta este alcătuit din diverse elemente aranjate în jurul notelor dvs., permițându-vă să personalizați modul în care vizualizați și interacționați cu conținutul dvs.
 
 ## Desktop
@@ -19,6 +18,7 @@ Spațiul de lucru este containerul principal pentru toate componentele care alc�
     - [[Bara laterală#Tabs|Filele din bara laterală]]
 - [[File#Organize your tabs and windows|Grupuri de file]] în zona principală de conținut (pot fi împărțite vertical sau orizontal)
     - [[File]]
+    - [[Meniul Mai multe opțiuni]] în colțul din dreapta sus al fiecărei însemnări
 - [[Bara de status]] în colțul din dreapta jos
 
 ## Mobil
@@ -26,6 +26,7 @@ Spațiul de lucru este containerul principal pentru toate componentele care alc�
 În aplicația mobilă Obsidian, spațiul de lucru include:
 
 - [[File]], gestionate din contorul de file din [[Aplicația mobilă#Navigation bar|Bara de navigare]]
+- [[Meniul Mai multe opțiuni#Mobile|Meniul Mai multe opțiuni]] pentru însemnarea activă
 - [[Bara laterală|Bare laterale]] (deschise folosind gesturi de glisare la stânga și la dreapta)
 - [[Aplicația mobilă#Navigation bar|Bara de navigare]] din partea de jos a ecranului
 - [[Panglică|Meniul panglicii]] în bara de navigare (conține acțiuni personalizabile)

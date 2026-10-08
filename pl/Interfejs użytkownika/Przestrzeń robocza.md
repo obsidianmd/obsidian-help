@@ -16,6 +16,7 @@ W aplikacji desktopowej Obsidian przestrzeń robocza zawiera:
     - [[Panel boczny#Karty|Karty panelu bocznego]]
 - [[Karty#Organizuj karty i okna|Grupy kart]] w centralnym obszarze treści (można je dzielić pionowo lub poziomo)
     - [[Karty]]
+    - [[Menu więcej opcji]] w prawym górnym rogu każdej notatki
 - [[Pasek stanu]] w prawym dolnym rogu
 
 ## Urządzenia mobilne
@@ -23,6 +24,7 @@ W aplikacji desktopowej Obsidian przestrzeń robocza zawiera:
 W aplikacji mobilnej Obsidian przestrzeń robocza zawiera:
 
 - [[Karty]] zarządzane za pomocą licznika kart na [[Aplikacja mobilna#Pasek nawigacji|pasku nawigacji]]
+- [[Menu więcej opcji#Urządzenia mobilne|Menu więcej opcji]] dla aktywnej notatki
 - [[Panel boczny|Panele boczne]] (otwierane gestem przesunięcia w lewo i w prawo)
 - [[Aplikacja mobilna#Pasek nawigacji|Pasek nawigacji]] na dole ekranu
 - [[Wstążka|Wstążka]] na pasku nawigacji (zawiera konfigurowalne akcje)

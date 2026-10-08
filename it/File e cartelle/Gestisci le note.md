@@ -26,7 +26,7 @@ Puoi anche creare note usando l'[[Esplora file#Creare una nuova nota|esplora fil
 Su desktop, puoi aprire e modificare singoli file Markdown al di fuori del tuo vault. I file si aprono nella finestra corrente e rimangono nella loro posizione originale.
 
 > [!note] Richiede Obsidian 1.14 e il programma di installazione più recente
-> [[Aggiorna Obsidian#Installer updates|Aggiorna il programma di installazione]] scaricando Obsidian da [obsidian.md/download](https://obsidian.md/download) e reinstallando l'applicazione.
+> [[Aggiorna Obsidian#Aggiornamenti del programma di installazione|Aggiorna il programma di installazione]] scaricando Obsidian da [obsidian.md/download](https://obsidian.md/download) e reinstallando l'applicazione.
 
 Per aprire un file Markdown:
 

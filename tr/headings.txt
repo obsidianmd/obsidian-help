@@ -286,6 +286,22 @@ translation=Tabanlar nasıl kullanılır
 original=View types
 translation=Görünüm türleri
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Kartları sütunlara gruplama
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Kartlar ve sütunlarla çalışma
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Boş sütunları gizle
+
+[heading.bases/Column width]
+original=Column width
+translation=Sütun genişliği
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Formüller neler yapabilir
@@ -4206,34 +4222,38 @@ translation=Kenar çubuğu
 original=Frequently asked questions
 translation=Sıkça sorulan sorular
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Kartları sütunlara gruplama
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Menüyü açma
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Kartlar ve sütunlarla çalışma
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Masaüstü
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Ayarlar
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Görünüm ve düzen
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Boş sütunları gizle
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Notu yönetme
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Sütun genişliği
+[heading.more-options-menu/Find]
+original=Find
+translation=Bulma
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Görsel özelliği
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Yollar, geçmiş ve bağlantılı görünümler
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Görseli sığdırma
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Bilgisayarınız
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Görsel en-boy oranı
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Sekme menüsü
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil

@@ -286,6 +286,10 @@ translation=إدارة الخزنات
 original=Mobile app
 translation=تطبيق الهاتف
 
+[file.more-options-menu]
+original=More options menu
+translation=قائمة المزيد من الخيارات
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=المؤشرات المتعددة

@@ -278,6 +278,22 @@ translation=Вбудовування файлу бази
 original=Embed a base as a code block
 translation=Вбудовування бази як блоку коду
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Групування карток у стовпці
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Робота з картками та стовпцями
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Приховати порожні стовпці
+
+[heading.bases/Column width]
+original=Column width
+translation=Ширина стовпця
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Що можуть формули
@@ -3918,34 +3934,38 @@ translation=Бічна панель
 original=Frequently asked questions
 translation=Часті запитання
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Групування карток у стовпці
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Відкрити меню
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Робота з картками та стовпцями
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Комп'ютер
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Налаштування
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Подання та макет
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Приховати порожні стовпці
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Керування нотаткою
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Ширина стовпця
+[heading.more-options-menu/Find]
+original=Find
+translation=Пошук
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Властивість зображення
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Шляхи, історія та зв'язані подання
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Припасування зображення
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Ваш комп'ютер
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Співвідношення сторін зображення
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Меню вкладки
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Мобільний

@@ -286,6 +286,10 @@ translation=ভল্ট পরিচালনা
 original=Mobile app
 translation=মোবাইল অ্যাপ
 
+[file.more-options-menu]
+original=More options menu
+translation=আরও অপশন মেনু
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=একাধিক কার্সার

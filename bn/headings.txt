@@ -110,34 +110,70 @@ translation=সাইডবার
 original=Frequently asked questions
 translation=সচরাচর জিজ্ঞাসিত প্রশ্ন
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=কার্ডগুলো শ্রেণীতে গ্রুপ করুন
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=কার্ড ও শ্রেণী নিয়ে কাজ করুন
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=সেটিংস
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=খালি শ্রেণী লুকান
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=শ্রেণীর প্রস্থ
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=ছবির প্রপার্টি
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=ছবি ফিট
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=ছবির অ্যাসপেক্ট রেশিও
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=মেনু খুলুন
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=ডেস্কটপ
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=ভিউ ও লেআউট
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=নোট পরিচালনা
+
+[heading.more-options-menu/Find]
+original=Find
+translation=সন্ধান
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=পাথ, ইতিহাস, এবং লিঙ্ক করা ভিউ
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=আপনার কম্পিউটার
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=ট্যাব মেনু
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=মোবাইল

@@ -14,7 +14,7 @@ Có nhiều cách để thêm thuộc tính vào ghi chú:
 
 - Sử dụng [[Khay lệnh|lệnh]] **Thêm thuộc tính tệp**.
 - Sử dụng [[Phím tắt|phím tắt]] **`Cmd/Ctrl+;`**.
-- Chọn **Thêm thuộc tính tệp** từ menu **Thêm hành động** (được mở bằng biểu tượng ba chấm hoặc bằng cách nhấp chuột phải vào thẻ).
+- Chọn **Thêm thuộc tính tệp** từ [[Menu tùy chọn khác]] (được mở bằng biểu tượng ba chấm hoặc bằng cách nhấp chuột phải vào thẻ).
 - Nhập `---` ở đầu tệp.
 
 Sau khi bạn thêm thuộc tính, một hàng sẽ xuất hiện ở đầu tệp với hai ô nhập: _tên_ thuộc tính và _giá trị_ thuộc tính.

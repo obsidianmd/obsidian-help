@@ -33,4 +33,4 @@ Du kan åbne den valgte note i en ny fane ved at trykke `Ctrl+Enter` (eller `Cmd
 
 
 > [!info] Ekskluderede filer
-> Filer, der matcher dine [[Indstillinger#Excluded files|Ekskluderede filer]]-mønstre, nedprioriteres i Hurtigskifterens resultater.
+> Filer, der matcher dine [[Indstillinger#Ekskluderede filer|Ekskluderede filer]]-mønstre, nedprioriteres i Hurtigskifterens resultater.

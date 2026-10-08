@@ -1282,34 +1282,62 @@ translation=Sidebjælke
 original=Frequently asked questions
 translation=Ofte stillede spørgsmål
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Gruppér kort i kolonner
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Arbejd med kort og kolonner
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Indstillinger
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Skjul tomme kolonner
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Kolonnebredde
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Billedegenskab
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Billedtilpasning
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Billedformat
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Åbn menuen
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Visning og layout
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Administrer noten
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Stier, historik og linkede visninger
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Din computer
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Fanemenu
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil

@@ -282,6 +282,22 @@ translation=Benutzerdefinierte Zusammenfassungen
 original=Shortcuts
 translation=Tastenkürzel
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Karten in Spalten gruppieren
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Mit Karten und Spalten arbeiten
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Leere Spalten ausblenden
+
+[heading.bases/Column width]
+original=Column width
+translation=Spaltenbreite
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Was Formeln können
@@ -4034,34 +4050,34 @@ translation=Seitenleiste
 original=Frequently asked questions
 translation=Häufig gestellte Fragen
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Karten in Spalten gruppieren
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Das Menü öffnen
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Mit Karten und Spalten arbeiten
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Ansicht und Layout
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Einstellungen
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Die Notiz verwalten
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Leere Spalten ausblenden
+[heading.more-options-menu/Find]
+original=Find
+translation=Suchen
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Spaltenbreite
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Pfade, Verlauf und verlinkte Ansichten
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Bild-Eigenschaft
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Dein Computer
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Bildanpassung
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Tab-Menü
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Bildformat
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil

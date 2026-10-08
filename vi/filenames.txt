@@ -286,6 +286,10 @@ translation=Quản lý kho
 original=Mobile app
 translation=Ứng dụng di động
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu tùy chọn khác
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Nhiều con trỏ

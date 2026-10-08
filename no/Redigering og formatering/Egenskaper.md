@@ -14,7 +14,7 @@ Det finnes flere måter å legge til en egenskap i et notat:
 
 - Bruk **Legg til filegenskap**-[[Kommandovelger|kommandoen]].
 - Bruk **`Cmd/Ctrl+;`** [[Hurtigtaster|hurtigtasten]].
-- Velg **Legg til filegenskap** fra **Flere handlinger**-menyen (åpnes via treprikk-ikonet eller ved å høyreklikke på fanen).
+- Velg **Legg til filegenskap** fra [[Flere valg-menyen]] (åpnes via treprikk-ikonet eller ved å høyreklikke på fanen).
 - Skriv `---` helt i begynnelsen av en fil.
 
 Når du legger til en egenskap, vises en rad øverst i filen med to felt: egenskapens _navn_ og egenskapens _verdi_.

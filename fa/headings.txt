@@ -322,6 +322,22 @@ translation=جای‌گیری تصویر
 original=Image aspect ratio
 translation=نسبت تصویر
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=گروه‌بندی کارت‌ها در ستون‌ها
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=کار با کارت‌ها و ستون‌ها
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=مخفی کردن ستون‌های خالی
+
+[heading.bases/Column width]
+original=Column width
+translation=عرض ستون
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=فرمول‌ها چه کاری می‌توانند انجام دهند
@@ -4250,34 +4266,38 @@ translation=نوار کناری
 original=Frequently asked questions
 translation=پرسش‌های متداول
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=گروه‌بندی کارت‌ها در ستون‌ها
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=باز کردن منو
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=کار با کارت‌ها و ستون‌ها
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=دسکتاپ
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=تنظیمات
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=نما و چیدمان
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=مخفی کردن ستون‌های خالی
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=مدیریت یادداشت
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=عرض ستون
+[heading.more-options-menu/Find]
+original=Find
+translation=یافتن
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=ویژگی تصویر
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=مسیرها، تاریخچه و نماهای پیوندشده
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=جای‌گیری تصویر
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=رایانه شما
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=نسبت تصویر
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=منوی زبانه
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=موبایل

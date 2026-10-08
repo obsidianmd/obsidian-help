@@ -16,7 +16,7 @@ Ada beberapa cara untuk menambahkan properti ke catatan:
 
 - Gunakan [[Palet perintah|perintah]] **Tambah properti berkas**.
 - Gunakan [[Pintasan|pintasan keyboard]] **`Cmd/Ctrl+;`**.
-- Pilih **Tambah properti berkas** dari menu **Opsi lainnya** (dimunculkan oleh ikon tiga titik atau dengan mengklik kanan tab).
+- Pilih **Tambah properti berkas** dari [[Menu opsi lainnya]] (dimunculkan oleh ikon tiga titik atau dengan mengklik kanan tab).
 - Ketik `---` di bagian paling awal file.
 
 Setelah Anda menambahkan properti, sebuah baris akan muncul di bagian atas file dengan dua input: _nama_ properti dan _value_ properti.

@@ -14,7 +14,7 @@ Det finns flera sätt att lägga till en egenskap i en anteckning:
 
 - Använd kommandot **Lägg till filegenskap** i [[Kommandopalett|kommandopaletten]].
 - Använd **`Cmd/Ctrl+;`** [[Snabbkommandon|tangentbordsgenvägen]].
-- Välj **Lägg till filegenskap** från menyn **Fler åtgärder** (som öppnas via ikonen med tre prickar eller genom att högerklicka på fliken).
+- Välj **Lägg till filegenskap** från [[Fler alternativ-menyn]] (som öppnas via ikonen med tre prickar eller genom att högerklicka på fliken).
 - Skriv `---` längst upp i en fil.
 
 När du lägger till en egenskap visas en rad högst upp i filen med två inmatningsfält: egenskapens _namn_ och egenskapens _värde_.

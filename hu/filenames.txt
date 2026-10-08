@@ -286,6 +286,10 @@ translation=Széfek kezelése
 original=Mobile app
 translation=Mobilalkalmazás
 
+[file.more-options-menu]
+original=More options menu
+translation=További lehetőségek menü
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Több kurzor

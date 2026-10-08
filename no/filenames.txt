@@ -286,6 +286,10 @@ translation=Administrer hvelv
 original=Mobile app
 translation=Mobilapp
 
+[file.more-options-menu]
+original=More options menu
+translation=Flere valg-meny
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Flere markører

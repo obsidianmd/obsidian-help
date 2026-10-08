@@ -666,6 +666,22 @@ translation=Exportar CSV
 original=Embed a view
 translation=Incrustar una vista
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Agrupar targetes en columnes
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Treballar amb targetes i columnes
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Amagar columnes buides
+
+[heading.bases/Column width]
+original=Column width
+translation=Amplada de columna
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Què poden fer les fórmules
@@ -1002,34 +1018,38 @@ translation=Barra lateral
 original=Frequently asked questions
 translation=Preguntes freqüents
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Agrupar targetes en columnes
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Obrir el menú
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Treballar amb targetes i columnes
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Escriptori
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Configuració
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vista i disposició
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Amagar columnes buides
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gestionar la nota
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Amplada de columna
+[heading.more-options-menu/Find]
+original=Find
+translation=Cerca
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Propietat d'imatge
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Rutes, historial i vistes enllaçades
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Ajust de la imatge
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=El teu ordinador
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Relació d'aspecte de la imatge
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menú de pestanya
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mòbil

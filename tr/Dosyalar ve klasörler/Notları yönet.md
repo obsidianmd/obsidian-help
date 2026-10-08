@@ -24,7 +24,7 @@ Ayrıca [[Dosya Gezgini#Yeni bir not oluşturma|Dosya Gezgini]] kullanarak veya 
 Masaüstünde, kasanızın dışındaki Markdown dosyalarını tek tek açıp düzenleyebilirsiniz. Dosyalar mevcut pencerenizde açılır ve orijinal konumlarında kalır.
 
 > [!note] Obsidian 1.14 ve en son yükleyici gerektirir
-> [obsidian.md/download](https://obsidian.md/download) adresinden Obsidian'ı indirip uygulamayı yeniden yükleyerek [[Obsidian'ı Güncelle#Installer updates|yükleyicinizi güncelleyin]].
+> [obsidian.md/download](https://obsidian.md/download) adresinden Obsidian'ı indirip uygulamayı yeniden yükleyerek [[Obsidian'ı Güncelle#Yükleyici güncellemeleri|yükleyicinizi güncelleyin]].
 
 Bir Markdown dosyasını açmak için:
 

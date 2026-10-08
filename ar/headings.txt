@@ -1534,34 +1534,70 @@ translation=الشريط الجانبي
 original=Frequently asked questions
 translation=الأسئلة الشائعة
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=تجميع البطاقات في أعمدة
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=العمل مع البطاقات والأعمدة
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=الإعدادات
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=إخفاء الأعمدة الفارغة
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=عرض العمود
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=خاصية الصورة
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=ملاءمة الصورة
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=نسبة أبعاد الصورة
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=فتح القائمة
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=سطح المكتب
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=العرض والتخطيط
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=إدارة الملاحظة
+
+[heading.more-options-menu/Find]
+original=Find
+translation=بحث
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=المسارات والسجل والعروض المرتبطة
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=جهاز الكمبيوتر
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=قائمة علامة التبويب
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=الهاتف المحمول

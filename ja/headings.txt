@@ -318,6 +318,22 @@ translation=オブジェクト
 original=Regular expression
 translation=正規表現
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=カードを列にグループ化する
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=カードと列の操作
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=空の列を非表示
+
+[heading.bases/Column width]
+original=Column width
+translation=列の幅
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=数式でできること
@@ -4270,34 +4286,38 @@ translation=サイドバー
 original=Frequently asked questions
 translation=よくある質問
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=カードを列にグループ化する
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=メニューを開く
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=カードと列の操作
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=デスクトップ
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=設定
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=ビューとレイアウト
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=空の列を非表示
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=ノートの管理
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=列の幅
+[heading.more-options-menu/Find]
+original=Find
+translation=検索
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=画像プロパティ
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=パス、履歴、リンクされたビュー
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=画像のフィット
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=コンピューター
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=画像のアスペクト比
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=タブメニュー
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=モバイル

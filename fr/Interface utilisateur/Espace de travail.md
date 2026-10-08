@@ -19,6 +19,7 @@ Dans l'application de bureau Obsidian, l'espace de travail comprend :
     - Les [[Barre latérale#Onglets|onglets de la barre latérale]]
 - Les [[Onglets#Organiser vos onglets et fenêtres|groupes d'onglets]] dans la zone de contenu centrale (peuvent être divisés verticalement ou horizontalement)
     - Les [[Onglets]]
+    - Le [[Menu Plus d'options]] dans le coin supérieur droit de chaque note
 - La [[Barre d'état]] dans le coin inférieur droit
 
 ## Mobile
@@ -26,6 +27,7 @@ Dans l'application de bureau Obsidian, l'espace de travail comprend :
 Dans l'application mobile Obsidian, l'espace de travail comprend :
 
 - Les [[Onglets]] gérés depuis le compteur d'onglets dans la [[Application mobile#Barre de navigation|barre de navigation]]
+- Le [[Menu Plus d'options#Mobile|menu Plus d'options]] pour la note active
 - Les [[Barre latérale|barres latérales]] (ouvertes par des gestes de balayage gauche et droit)
 - La [[Application mobile#Barre de navigation|barre de navigation]] en bas de l'écran
 - Le [[Ruban|menu du ruban]] dans la barre de navigation (contient des actions personnalisables)

@@ -322,6 +322,22 @@ translation=导出 CSV
 original=Embed a view
 translation=嵌入视图
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=将卡片分组到列中
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=使用卡片和列
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=隐藏空列
+
+[heading.bases/Column width]
+original=Column width
+translation=列宽
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=公式能做什么
@@ -4246,34 +4262,38 @@ translation=侧边栏
 original=Frequently asked questions
 translation=常见问题
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=将卡片分组到列中
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=打开菜单
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=使用卡片和列
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=桌面端
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=设置
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=视图与布局
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=隐藏空列
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=管理笔记
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=列宽
+[heading.more-options-menu/Find]
+original=Find
+translation=查找
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=图像属性
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=路径、历史和关联视图
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=图像适配
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=系统操作
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=图像宽高比
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=标签页菜单
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=移动端

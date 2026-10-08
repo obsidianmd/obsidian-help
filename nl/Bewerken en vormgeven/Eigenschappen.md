@@ -14,7 +14,7 @@ Er zijn verschillende manieren om een eigenschap aan een notitie toe te voegen:
 
 - Gebruik de [[Opdrachtenpaneel|opdracht]] **Voeg bestandseigenschap toe**.
 - Gebruik de **`Cmd/Ctrl+;`** [[Sneltoetsen|sneltoets]].
-- Kies **Voeg bestandseigenschap toe** in het menu **Meer acties** (dat je opent via het pictogram met drie puntjes of door rechts te klikken op het tabblad).
+- Kies **Voeg bestandseigenschap toe** in het [[Meer opties menu]] (dat je opent via het pictogram met drie puntjes of door rechts te klikken op het tabblad).
 - Typ `---` helemaal aan het begin van een bestand.
 
 Zodra je een eigenschap toevoegt, verschijnt er een rij bovenaan het bestand met twee invoervelden: de _naam_ van de eigenschap en de _waarde_ van de eigenschap.

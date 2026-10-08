@@ -110,34 +110,66 @@ translation=Bara laterală
 original=Frequently asked questions
 translation=Întrebări frecvente
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Grupează cardurile în coloane
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Lucrează cu carduri și coloane
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Setări
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Ascunde coloanele goale
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Lățimea coloanei
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Proprietate imagine
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Încadrare imagine
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Raport de aspect imagine
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Deschide meniul
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vizualizare și aspect
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gestionează notița
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Căutare
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Căi, istoric și vizualizări legate
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Computerul tău
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Meniul filei
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil

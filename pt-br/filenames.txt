@@ -286,6 +286,10 @@ translation=Gerenciar cofres
 original=Mobile app
 translation=Aplicativo móvel
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu de mais opções
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Múltiplos cursores

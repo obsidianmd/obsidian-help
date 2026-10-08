@@ -314,6 +314,22 @@ translation=Esporta CSV
 original=Embed a view
 translation=Incorporare una vista
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Raggruppare le schede in colonne
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Lavorare con schede e colonne
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Nascondi colonne vuote
+
+[heading.bases/Column width]
+original=Column width
+translation=Larghezza colonna
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Cosa possono fare le formule
@@ -4138,34 +4154,30 @@ translation=Barra laterale
 original=Frequently asked questions
 translation=Domande frequenti
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Raggruppare le schede in colonne
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Aprire il menu
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Lavorare con schede e colonne
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vista e layout
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Impostazioni
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gestire la nota
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Nascondi colonne vuote
+[heading.more-options-menu/Find]
+original=Find
+translation=Trova
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Larghezza colonna
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Percorsi, cronologia e viste collegate
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Proprietà immagine
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Il proprio computer
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Adattamento immagine
-
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Proporzioni immagine
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu della scheda

@@ -124,7 +124,7 @@ translation=התאמת תמונה
 
 [heading.bases/Image aspect ratio]
 original=Image aspect ratio
-translation=יחס גובה-רוחב של התמונה
+translation=יחס גובה־רוחב של התמונה
 
 [heading.bases/Install the Maps plugin]
 original=Install the Maps plugin
@@ -321,6 +321,22 @@ translation=ייצוא CSV
 [heading.bases/Embed a view]
 original=Embed a view
 translation=הטמעת תצוגה
+
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=קיבוץ כרטיסים לעמודות
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=עבודה עם כרטיסים ועמודות
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=הסתרת עמודות ריקות
+
+[heading.bases/Column width]
+original=Column width
+translation=רוחב עמודה
 
 [heading.formulas/What formulas can do]
 original=What formulas can do
@@ -1050,34 +1066,38 @@ translation=סרגל צד
 original=Frequently asked questions
 translation=שאלות נפוצות
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=קיבוץ כרטיסים לעמודות
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=פתיחת התפריט
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=עבודה עם כרטיסים ועמודות
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=מחשב
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=הגדרות
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=תצוגה ופריסה
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=הסתרת עמודות ריקות
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=ניהול ההערה
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=רוחב עמודה
+[heading.more-options-menu/Find]
+original=Find
+translation=חיפוש
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=מאפיין תמונה
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=נתיבים, היסטוריה ותצוגות מקושרות
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=התאמת תמונה
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=המחשב שלכם
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=יחס גובה־רוחב של התמונה
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=תפריט לשונית
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=נייד

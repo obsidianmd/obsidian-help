@@ -322,6 +322,22 @@ translation=Αντικείμενα και λίστες
 original=Files and links
 translation=Αρχεία και σύνδεσμοι
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Ομαδοποίηση καρτών σε στήλες
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Εργασία με κάρτες και στήλες
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Απόκρυψη κενών στηλών
+
+[heading.bases/Column width]
+original=Column width
+translation=Πλάτος στήλης
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Τι μπορούν να κάνουν οι τύποι
@@ -1074,34 +1090,38 @@ translation=Πλαϊνή μπάρα
 original=Frequently asked questions
 translation=Συχνές ερωτήσεις
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Ομαδοποίηση καρτών σε στήλες
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Άνοιγμα του μενού
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Εργασία με κάρτες και στήλες
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Επιφάνεια εργασίας
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Ρυθμίσεις
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Προβολή και διάταξη
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Απόκρυψη κενών στηλών
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Διαχείριση της σημείωσης
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Πλάτος στήλης
+[heading.more-options-menu/Find]
+original=Find
+translation=Εύρεση
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Ιδιότητα εικόνας
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Διαδρομές, ιστορικό και συνδεδεμένες προβολές
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Προσαρμογή εικόνας
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Ο υπολογιστής σας
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Αναλογία διαστάσεων εικόνας
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Μενού καρτέλας
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Κινητό

@@ -286,6 +286,10 @@ translation=Zarządzaj sejfami
 original=Mobile app
 translation=Aplikacja mobilna
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu więcej opcji
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Wiele kursorów

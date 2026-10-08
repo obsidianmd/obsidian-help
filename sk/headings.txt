@@ -1862,34 +1862,66 @@ translation=Bočný panel
 original=Frequently asked questions
 translation=Často kladené otázky
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Zoskupenie kariet do stĺpcov
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Práca s kartami a stĺpcami
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Nastavenia
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Skryť prázdne stĺpce
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Šírka stĺpca
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Vlastnosť obrázka
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Prispôsobenie obrázka
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Pomer strán obrázka
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Otvorenie menu
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Zobrazenie a rozloženie
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Správa poznámky
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Hľadanie
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Cesty, história a prepojené zobrazenia
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Váš počítač
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu karty
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil

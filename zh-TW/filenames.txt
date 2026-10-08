@@ -286,6 +286,10 @@ translation=管理保管庫
 original=Mobile app
 translation=行動應用程式
 
+[file.more-options-menu]
+original=More options menu
+translation=更多選項選單
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=多重游標

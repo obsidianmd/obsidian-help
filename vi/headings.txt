@@ -322,6 +322,22 @@ translation=Nhúng tệp cơ sở
 original=Embed a base as a code block
 translation=Nhúng cơ sở dưới dạng khối mã
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Nhóm thẻ thành các cột
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Làm việc với thẻ và cột
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Ẩn cột trống
+
+[heading.bases/Column width]
+original=Column width
+translation=Chiều rộng cột
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Công thức có thể làm gì
@@ -4214,34 +4230,38 @@ translation=Thanh bên
 original=Frequently asked questions
 translation=Câu hỏi thường gặp
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Nhóm thẻ thành các cột
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Mở menu
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Làm việc với thẻ và cột
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Máy tính
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Cài đặt
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Chế độ xem và bố cục
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Ẩn cột trống
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Quản lý ghi chú
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Chiều rộng cột
+[heading.more-options-menu/Find]
+original=Find
+translation=Tìm kiếm
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Thuộc tính hình ảnh
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Đường dẫn, lịch sử và chế độ xem liên kết
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Vừa khung hình ảnh
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Máy tính của bạn
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Tỷ lệ khung hình
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu thẻ
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Di động

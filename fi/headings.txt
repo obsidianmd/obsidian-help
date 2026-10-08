@@ -742,34 +742,70 @@ translation=Sivupalkki
 original=Frequently asked questions
 translation=Usein kysytyt kysymykset
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Ryhmitä kortit sarakkeisiin
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Korttien ja sarakkeiden käsittely
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Asetukset
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Piilota tyhjät sarakkeet
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Sarakkeen leveys
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Kuvamääre
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Kuvan sovitus
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Kuvasuhde
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Valikon avaaminen
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Työpöytä
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Näkymä ja asettelu
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Muistiinpanon hallinta
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Etsi
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Polut, historia ja linkkinäkymät
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Tietokone
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Välilehtivalikko
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobiili

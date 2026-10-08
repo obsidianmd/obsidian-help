@@ -802,6 +802,22 @@ translation=Exportera CSV
 original=Embed a view
 translation=Bädda in en vy
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Gruppera kort i kolumner
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Arbeta med kort och kolumner
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Dölj tomma kolumner
+
+[heading.bases/Column width]
+original=Column width
+translation=Kolumnbredd
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Vad formler kan göra
@@ -978,34 +994,38 @@ translation=Sidofält
 original=Frequently asked questions
 translation=Vanliga frågor
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Gruppera kort i kolumner
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Öppna menyn
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Arbeta med kort och kolumner
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Skrivbord
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Inställningar
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vy och layout
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Dölj tomma kolumner
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Hantera anteckningen
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Kolumnbredd
+[heading.more-options-menu/Find]
+original=Find
+translation=Hitta
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Bildegenskap
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Sökvägar, historik och länkade vyer
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Bildanpassning
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Din dator
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Bildförhållande
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Flikmeny
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil

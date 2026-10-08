@@ -818,6 +818,22 @@ translation=Ringkasan kustom
 original=Shortcuts
 translation=Pintasan
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Mengelompokkan kartu ke dalam kolom
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Bekerja dengan kartu dan kolom
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Sembunyikan kolom kosong
+
+[heading.bases/Column width]
+original=Column width
+translation=Lebar kolom
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Apa yang bisa dilakukan rumus
@@ -4118,34 +4134,34 @@ translation=Bilah Samping
 original=Frequently asked questions
 translation=Pertanyaan yang sering diajukan
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Mengelompokkan kartu ke dalam kolom
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Membuka menu
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Bekerja dengan kartu dan kolom
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Tampilan dan tata letak
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Pengaturan
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Kelola catatan
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Sembunyikan kolom kosong
+[heading.more-options-menu/Find]
+original=Find
+translation=Cari
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Lebar kolom
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Path, riwayat, dan tampilan tertaut
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Properti gambar
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Komputer Anda
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Penyesuaian gambar
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu tab
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Rasio aspek gambar
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Seluler

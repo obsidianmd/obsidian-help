@@ -286,6 +286,10 @@ translation=Керувати сховищами
 original=Mobile app
 translation=Мобільний застосунок
 
+[file.more-options-menu]
+original=More options menu
+translation=Меню «Більше»
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Множинні курсори

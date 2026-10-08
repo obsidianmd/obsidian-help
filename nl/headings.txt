@@ -1134,6 +1134,38 @@ translation=CSV exporteren
 original=Embed a view
 translation=Een weergave insluiten
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Kaarten groeperen in kolommen
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Werken met kaarten en kolommen
+
+[heading.bases/Settings]
+original=Settings
+translation=Instellingen
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Lege kolommen verbergen
+
+[heading.bases/Column width]
+original=Column width
+translation=Kolombreedte
+
+[heading.bases/Image property]
+original=Image property
+translation=Afbeeldingseigenschap
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Afbeelding passend maken
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Beeldverhouding van afbeelding
+
 [heading.configuration-folder/Access your configuration folder]
 original=Access your configuration folder
 translation=Toegang tot je configuratiemap
@@ -1434,34 +1466,34 @@ translation=Zijbalk
 original=Frequently asked questions
 translation=Veelgestelde vragen
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Kaarten groeperen in kolommen
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Het menu openen
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Werken met kaarten en kolommen
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Weergave en lay-out
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Instellingen
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=De notitie beheren
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Lege kolommen verbergen
+[heading.more-options-menu/Find]
+original=Find
+translation=Zoeken
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Kolombreedte
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Paden, geschiedenis en gelinkte weergaven
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Afbeeldingseigenschap
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Je computer
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Afbeelding passend maken
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Tabbladmenu
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Beeldverhouding van afbeelding
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobiel

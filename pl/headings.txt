@@ -318,6 +318,22 @@ translation=Jak korzystać z baz danych
 original=View types
 translation=Typy podglądów
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Grupowanie kart w kolumny
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Praca z kartami i kolumnami
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Ukryj puste kolumny
+
+[heading.bases/Column width]
+original=Column width
+translation=Szerokość kolumny
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Co potrafią wzory
@@ -4210,34 +4226,38 @@ translation=Panel boczny
 original=Frequently asked questions
 translation=Najczęściej zadawane pytania
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Grupowanie kart w kolumny
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Otwieranie menu
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Praca z kartami i kolumnami
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Komputer
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Ustawienia
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Podgląd i układ
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Ukryj puste kolumny
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Zarządzanie notatką
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Szerokość kolumny
+[heading.more-options-menu/Find]
+original=Find
+translation=Znajdowanie
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Atrybut obrazu
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Ścieżki, historia i połączone podglądy
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Dopasowanie obrazu
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Twój komputer
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Proporcje obrazu
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu karty
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Urządzenia mobilne

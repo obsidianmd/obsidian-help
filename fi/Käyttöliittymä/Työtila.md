@@ -16,6 +16,7 @@ Obsidianin työpöytäsovelluksessa työtila sisältää:
     - [[Sivupalkki#Välilehdet|Sivupalkin välilehdet]]
 - [[Välilehdet#Järjestä välilehdet ja ikkunat|Välilehtiryhmät]] keskimmäisellä sisältöalueella (voidaan jakaa pysty- tai vaakasuunnassa)
     - [[Välilehdet]]
+    - [[Lisää vaihtoehtoja -valikko]] jokaisen muistiinpanon oikeassa yläkulmassa
 - [[Tilarivi]] oikeassa alakulmassa
 
 ## Mobiili
@@ -23,6 +24,7 @@ Obsidianin työpöytäsovelluksessa työtila sisältää:
 Obsidianin mobiilisovelluksessa työtila sisältää:
 
 - [[Välilehdet]], joita hallinnoidaan välilehtilaskurista [[Mobiilisovellus#Siirtymispalkki|siirtymispalkissa]]
+- [[Lisää vaihtoehtoja -valikko#Mobiili|Lisää vaihtoehtoja -valikko]] aktiiviselle muistiinpanolle
 - [[Sivupalkki|Sivupalkit]] (avataan vasemmalle ja oikealle pyyhkäisemällä)
 - [[Mobiilisovellus#Siirtymispalkki|Siirtymispalkki]] näytön alaosassa
 - [[Nauha|Nauhavalikko]] siirtymispalkissa (sisältää mukautettavia toimintoja)

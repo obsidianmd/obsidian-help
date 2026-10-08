@@ -286,6 +286,10 @@ translation=Gestiona les cambres fortes
 original=Mobile app
 translation=Aplicació mòbil
 
+[file.more-options-menu]
+original=More options menu
+translation=Menú de més opcions
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Cursors múltiples

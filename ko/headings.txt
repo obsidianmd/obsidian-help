@@ -318,6 +318,22 @@ translation=객체
 original=Regular expression
 translation=정규 표현식
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=카드를 열로 그룹화하기
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=카드와 열 다루기
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=빈 열 숨기기
+
+[heading.bases/Column width]
+original=Column width
+translation=열 너비
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=수식으로 할 수 있는 것
@@ -4102,34 +4118,38 @@ translation=사이드바
 original=Frequently asked questions
 translation=자주 묻는 질문
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=카드를 열로 그룹화하기
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=메뉴 열기
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=카드와 열 다루기
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=데스크톱
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=설정
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=뷰와 레이아웃
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=빈 열 숨기기
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=노트 관리
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=열 너비
+[heading.more-options-menu/Find]
+original=Find
+translation=찾기
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=이미지 속성
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=경로, 기록 및 링크된 화면
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=이미지 맞춤
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=컴퓨터
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=이미지 가로/세로 비율
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=탭 메뉴
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=모바일

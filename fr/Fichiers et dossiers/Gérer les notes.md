@@ -28,7 +28,7 @@ Vous pouvez aussi créer des notes en utilisant l'[[Explorateur de fichiers#Cré
 Sur ordinateur, vous pouvez ouvrir et modifier des fichiers Markdown individuels en dehors de votre coffre. Les fichiers s'ouvrent dans votre fenêtre actuelle et restent à leur emplacement d'origine.
 
 > [!note] Nécessite Obsidian 1.14 et le dernier programme d'installation
-> [[Mettre à jour Obsidian#Installer updates|Mettez à jour votre programme d'installation]] en téléchargeant Obsidian depuis [obsidian.md/download](https://obsidian.md/download) et en réinstallant l'application.
+> [[Mettre à jour Obsidian#Mises à jour du programme d'installation|Mettez à jour votre programme d'installation]] en téléchargeant Obsidian depuis [obsidian.md/download](https://obsidian.md/download) et en réinstallant l'application.
 
 Pour ouvrir un fichier Markdown :
 

@@ -14,7 +14,7 @@ Existem várias maneiras de adicionar uma propriedade a uma nota:
 
 - Use o [[Paleta de comandos|comando]] **Adicionar propriedade**.
 - Use a [[Teclas de atalho|tecla de atalho]] **`Cmd/Ctrl+;`**.
-- Escolha **Adicionar propriedade** no menu **Mais ações** (acessado pelo ícone de três pontos ou clicando com o botão direito na aba).
+- Escolha **Adicionar propriedade** no [[Menu de mais opções]] (acessado pelo ícone de três pontos ou clicando com o botão direito na aba).
 - Digite `---` no início do arquivo.
 
 Depois de adicionar uma propriedade, uma linha aparecerá no topo do arquivo com duas entradas: o _nome_ da propriedade e o _valor_ da propriedade.

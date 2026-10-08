@@ -16,6 +16,7 @@ I Obsidians skrivbordsapp inkluderar arbetsytan:
     - [[Sidofält#Flikar|Sidofältets flikar]]
 - [[Flikar#Organisera dina flikar och fönster|Flikgrupper]] i det centrala innehållsområdet (kan delas vertikalt eller horisontellt)
     - [[Flikar]]
+    - [[Fler alternativ-menyn]] i det övre högra hörnet av varje anteckning
 - [[Statusfält]] i nedre högra hörnet
 
 ## Mobil
@@ -23,6 +24,7 @@ I Obsidians skrivbordsapp inkluderar arbetsytan:
 I Obsidians mobilapp inkluderar arbetsytan:
 
 - [[Flikar]] som hanteras från flikräknaren i [[Mobilapp#Navigeringsfält|Navigeringsfältet]]
+- [[Fler alternativ-menyn#Mobil|Fler alternativ-menyn]] för den aktiva anteckningen
 - [[Sidofält]] (öppnas med svepgester åt vänster och höger)
 - [[Mobilapp#Navigeringsfält|Navigeringsfält]] längst ner på skärmen
 - [[Ribbon|Ribbon-konfiguration]] i navigeringsfältet (innehåller anpassningsbara åtgärder)

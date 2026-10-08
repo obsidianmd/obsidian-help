@@ -290,6 +290,22 @@ translation=Поля
 original=Regular expression
 translation=Регулярные выражения
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Группировка карточек по столбцам
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Работа с карточками и столбцами
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Скрывать пустые столбцы
+
+[heading.bases/Column width]
+original=Column width
+translation=Ширина столбца
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Возможности формул
@@ -4174,34 +4190,38 @@ translation=Боковая панель
 original=Frequently asked questions
 translation=Часто задаваемые вопросы
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Группировка карточек по столбцам
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Открытие меню
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Работа с карточками и столбцами
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Компьютер
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Настройки
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Представление и расположение
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Скрывать пустые столбцы
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Управление заметкой
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Ширина столбца
+[heading.more-options-menu/Find]
+original=Find
+translation=Поиск
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Свойство изображения
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Пути, история и связанные представления
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Подгонка изображения
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Ваш компьютер
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Соотношение сторон изображения
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Меню вкладки
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Мобильные устройства

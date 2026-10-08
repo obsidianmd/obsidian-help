@@ -286,6 +286,10 @@ translation=Gestionează seifurile
 original=Mobile app
 translation=Aplicația mobilă
 
+[file.more-options-menu]
+original=More options menu
+translation=Meniul Mai multe opțiuni
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Cursoare multiple

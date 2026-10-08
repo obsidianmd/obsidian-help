@@ -108,7 +108,7 @@ translation=Taille des cartes
 
 [heading.bases/Image property]
 original=Image property
-translation=Propriété d'image
+translation=Propriété de l'image
 
 [heading.bases/Image fit]
 original=Image fit
@@ -345,6 +345,22 @@ translation=Exporter en CSV
 [heading.bases/Embed a view]
 original=Embed a view
 translation=Intégrer une vue
+
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Grouper les cartes en colonnes
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Travailler avec les cartes et les colonnes
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Masquer les colonnes vides
+
+[heading.bases/Column width]
+original=Column width
+translation=Largeur de colonne
 
 [heading.formulas/What formulas can do]
 original=What formulas can do
@@ -4086,34 +4102,34 @@ translation=Barre latérale
 original=Frequently asked questions
 translation=Questions fréquentes
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Grouper les cartes en colonnes
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Ouvrir le menu
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Travailler avec les cartes et les colonnes
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Ordinateur
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Paramètres
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vue et mise en page
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Masquer les colonnes vides
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gérer la note
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Largeur de colonne
+[heading.more-options-menu/Find]
+original=Find
+translation=Chercher
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Propriété de l'image
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Chemins, historique et vues liées
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Ajustement de l'image
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Votre ordinateur
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Ratio d'aspect de l'image
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu de l'onglet

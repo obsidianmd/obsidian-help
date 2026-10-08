@@ -27,7 +27,7 @@ También puedes crear notas usando el [[Explorador de archivos#Crear una nueva n
 En escritorio, puedes abrir y editar archivos Markdown individuales fuera de tu bóveda. Los archivos se abren en tu ventana actual y permanecen en su ubicación original.
 
 > [!note] Requiere Obsidian 1.14 y el instalador más reciente
-> [[Actualizar Obsidian#Installer updates|Actualiza tu instalador]] descargando Obsidian desde [obsidian.md/download](https://obsidian.md/download) y reinstalando la aplicación.
+> [[Actualizar Obsidian#Actualizaciones del instalador|Actualiza tu instalador]] descargando Obsidian desde [obsidian.md/download](https://obsidian.md/download) y reinstalando la aplicación.
 
 Para abrir un archivo Markdown:
 

@@ -250,6 +250,22 @@ translation=វត្ថុ
 original=Regular expression
 translation=កន្សោមទៀងទាត់
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=ដាក់កាតជាក្រុមក្នុងជួរឈរ
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=ធ្វើការជាមួយកាត និងជួរឈរ
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=លាក់ជួរឈរទទេ
+
+[heading.bases/Column width]
+original=Column width
+translation=ទទឹងជួរឈរ
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=អ្វីដែលរូបមន្តអាចធ្វើបាន
@@ -2694,34 +2710,38 @@ translation=បច្ចុប្បន្នភាព
 original=Frequently asked questions
 translation=របារចំហៀង
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=ដាក់កាតជាក្រុមក្នុងជួរឈរ
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=បើកម៉ឺនុយ
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=ធ្វើការជាមួយកាត និងជួរឈរ
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=កុំព្យូទ័រ
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=ការកំណត់
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=ទិដ្ឋភាព និងប្លង់
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=លាក់ជួរឈរទទេ
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=គ្រប់គ្រងកំណត់ចំណាំ
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=ទទឹងជួរឈរ
+[heading.more-options-menu/Find]
+original=Find
+translation=ស្វែងរក
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=លក្ខណៈសម្បត្តិរូបភាព
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=ផ្លូវ ប្រវត្តិ និងទិដ្ឋភាពដែលបានភ្ជាប់
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=ការសម្របរូបភាព
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=កុំព្យូទ័ររបស់អ្នក
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=សមាមាត្ររូបភាព
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=ម៉ឺនុយផ្ទាំង
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=ទូរស័ព្ទចល័ត

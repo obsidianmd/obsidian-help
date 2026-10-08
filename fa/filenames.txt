@@ -286,6 +286,10 @@ translation=مدیریت گاوصندوق‌ها
 original=Mobile app
 translation=برنامه موبایل
 
+[file.more-options-menu]
+original=More options menu
+translation=منوی گزینه‌های بیشتر
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=نشانگرهای چندگانه

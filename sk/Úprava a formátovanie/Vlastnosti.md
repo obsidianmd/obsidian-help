@@ -14,7 +14,7 @@ Existuje niekoľko spôsobov, ako pridať vlastnosť do poznámky:
 
 - Použite [[Paleta príkazov|príkaz]] **Pridať vlastnosť súboru**.
 - Použite [[Klávesové skratky|klávesovú skratku]] **`Cmd/Ctrl+;`**.
-- Vyberte **Pridať vlastnosť súboru** z ponuky **Ďalšie akcie** (vyvolanej ikonou troch bodiek alebo kliknutím pravým tlačidlom na kartu).
+- Vyberte **Pridať vlastnosť súboru** z [[Ponuka ďalších možností]] (vyvolanej ikonou troch bodiek alebo kliknutím pravým tlačidlom na kartu).
 - Napíšte `---` na úplný začiatok súboru.
 
 Po pridaní vlastnosti sa na vrchu súboru zobrazí riadok s dvoma vstupmi: _názov_ vlastnosti a _hodnota_ vlastnosti.
