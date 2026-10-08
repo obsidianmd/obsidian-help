@@ -18,28 +18,28 @@ File explorer is a [[Core plugins|core plugin]] that lets you manage files and f
 
 To create a new note in the default location for new notes:
 
-1. Click **New note** ![[lucide-pen-line.svg#icon]] at the top of the File explorer.
-2. Type the name of the note, and then press Enter.
+1. Select **New note** ![[lucide-pen-line.svg#icon]] at the top of the File explorer.
+2. Type the name of the note, and then press `Enter`.
 
 > [!tip]- Change default location
 > You can change the default location for new notes under **[[Settings]] → [[Settings#Files and links|Files and links]] → [[Settings#Default location for new notes|Default location for new notes]]**.
 
 To create a new note in a specific folder:
 
-1. Right-click the folder and then click **New note**.
-2. Type the name of the note, and then press Enter.
+1. Right-click the folder and then select **New note**.
+2. Type the name of the note, and then press `Enter`.
 
 ## Create a new folder
 
 To create a new folder in the root of your vault:
 
-1. Click **New folder** ![[lucide-folder-plus.svg#icon]] at the top of the File explorer.
-2. Type the name of the folder, and then press Enter.
+1. Select **New folder** ![[lucide-folder-plus.svg#icon]] at the top of the File explorer.
+2. Type the name of the folder, and then press `Enter`.
 
 To create a subfolder:
 
-1. Right-click the folder you want to create the subfolder in, and then click **New folder**.
-2. Type the name of the folder, and then press Enter.
+1. Right-click the folder you want to create the subfolder in, and then select **New folder**.
+2. Type the name of the folder, and then press `Enter`.
 
 ## Change sort order
 
@@ -56,7 +56,7 @@ To toggle auto-reveal:
 
 - Select **Auto-reveal active file** ![[lucide-gallery-vertical.svg#icon]] at the top of the File explorer.
 
-When enabled, the File explorer will automatically follow and reveal the currently open note.
+When enabled, the File explorer will automatically follow and reveal the active note.
 
 ## Expand or collapse all folders
 
@@ -72,15 +72,15 @@ To collapse all folders:
 
 ## Delete a file or folder
 
-1. Right-click the file you want to delete, and then click **Delete**.
-2. If prompted to confirm that you want to delete the file, click **Delete**.
+1. Right-click the file you want to delete, and then select **Delete**.
+2. If prompted to confirm that you want to delete the file, select **Delete**.
 
 For more information, refer to [[Manage notes#Delete a note|Delete a note]].
 
 ## Rename a file or folder
 
-1. Right-click the file you want to rename, and then click **Rename**.
-2. Type the new name, and then press Enter.
+1. Right-click the file you want to rename, and then select **Rename**.
+2. Type the new name, and then press `Enter`.
 
 For more information, refer to [[Manage notes#Rename a note|Rename a note]].
 
