@@ -86,6 +86,12 @@ Du kan också ange höjden i pixlar för den inbäddade PDF-visaren genom att l�
 ![[Document.pdf#height=400]]
 ```
 
+För att kombinera sid- och höjdalternativ, separera dem med `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Bädda in en canvas i en anteckning
 
 För att bädda in en [[Canvas|canvas]]:

@@ -90,6 +90,12 @@ Du kan også specificere højden på den indlejrede PDF viser i pixels ved at ti
 ![[Document.pdf#height=400]]
 ```
 
+For at kombinere side- og højdeindstillinger skal du adskille dem med `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Indlejr et lærred i en note
 
 Du indlejrer et [[Canvas|lærred]] ved at skrive:

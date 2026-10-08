@@ -86,6 +86,12 @@ Du kannst auch die Höhe in Pixeln für den eingebetteten PDF-Viewer angeben, in
 ![[Document.pdf#height=400]]
 ```
 
+Um Seiten- und Höhenoptionen zu kombinieren, trenne sie mit `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Einen Canvas in eine Notiz einbetten
 
 Um einen [[Canvas|Canvas]] einzubetten:

@@ -88,6 +88,12 @@ Anda juga dapat menentukan tinggi dalam piksel untuk penampil PDF yang disematka
 ![[Document.pdf#height=400]]
 ```
 
+Untuk menggabungkan opsi halaman dan tinggi, pisahkan dengan `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Menyematkan kanvas di catatan
 
 Untuk menyematkan [[Canvas|kanvas]]:

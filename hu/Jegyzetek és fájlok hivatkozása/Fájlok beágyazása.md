@@ -86,6 +86,23 @@ A beágyazott PDF-megjelenítő magasságát pixelben is megadhatja a `#height=[
 ![[Document.pdf#height=400]]
 ```
 
+Az oldal és magasság beállítások kombinálásához válassza el őket `&` jellel:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+## Vászon beágyazása egy jegyzetbe
+
+Egy [[Vászon|vászon]] beágyazásához:
+
+```md
+![[My canvas.canvas]]
+```
+
+> [!info]+ A vászon beágyazások csak alakzatokat jelenítenek meg
+> A beágyazott vásznak megjelenítik az alakzatokat, de a kártyák belsejében lévő szöveget nem. A teljes vászon megtekintéséhez nyissa meg közvetlenül.
+
 ## Lista beágyazása egy jegyzetbe
 
 Egy lista beágyazásához egy másik jegyzetből először adjon hozzá egy [[Belső hivatkozások#Hivatkozás egy jegyzet blokkjára|blokk-azonosítót]] a listához:

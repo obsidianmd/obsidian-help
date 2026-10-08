@@ -86,6 +86,12 @@ Bạn cũng có thể chỉ định chiều cao tính bằng pixel cho trình xe
 ![[Document.pdf#height=400]]
 ```
 
+Để kết hợp các tùy chọn trang và chiều cao, hãy phân tách chúng bằng `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Nhúng canvas vào ghi chú
 
 Để nhúng một [[Canvas|canvas]]:

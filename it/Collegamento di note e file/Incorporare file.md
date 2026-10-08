@@ -86,6 +86,23 @@ Puoi anche specificare l'altezza in pixel per il visualizzatore PDF incorporato 
 ![[Document.pdf#height=400]]
 ```
 
+Per combinare le opzioni di pagina e altezza, separale con `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+## Incorporare un canvas in una nota
+
+Per incorporare un [[Lavagna|canvas]]:
+
+```md
+![[My canvas.canvas]]
+```
+
+> [!info]+ I canvas incorporati mostrano solo le forme
+> I canvas incorporati mostrano le forme ma non il testo all'interno delle annotazioni. Per visualizzare il canvas completo, aprilo direttamente.
+
 ## Incorporare un elenco in una nota
 
 Per incorporare un elenco da una nota diversa, aggiungi prima un [[Collegamenti interni#Collegamento a un blocco in una nota|identificatore di blocco]] al tuo elenco:

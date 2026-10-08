@@ -86,6 +86,12 @@ Môžete tiež zadať výšku v pixeloch pre vložený PDF prehliadač pridaním
 ![[Document.pdf#height=400]]
 ```
 
+Na kombináciu možností strany a výšky ich oddeľte pomocou `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Vloženie plátna do poznámky
 
 Na vloženie [[Canvas|plátna]]:

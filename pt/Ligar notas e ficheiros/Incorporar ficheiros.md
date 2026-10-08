@@ -86,6 +86,12 @@ Também pode especificar a altura em píxeis para o visualizador de PDF incorpor
 ![[Document.pdf#height=400]]
 ```
 
+Para combinar as opções de página e altura, separe-as com `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Incorporar um canvas numa nota
 
 Para incorporar um [[Canvas|canvas]]:

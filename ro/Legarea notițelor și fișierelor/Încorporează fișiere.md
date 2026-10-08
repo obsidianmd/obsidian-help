@@ -6,7 +6,6 @@ description: Află cum să încorporezi fișiere din seiful tău în însemnări
 aliases:
   - Embed files
 ---
-
 Fișierele încorporate își afișează conținutul direct în cadrul unei însemnări și rămân actualizate atunci când fișierul sursă se schimbă.
 
 Pentru a încorpora un fișier din seiful tău, adaugă un semn de exclamare (`!`) în fața unei [[Legături interne|legături interne]]. Poți încorpora fișiere în oricare dintre [[Formate de fișiere acceptate|formatele de fișiere acceptate]].
@@ -88,6 +87,12 @@ Poți specifica și înălțimea în pixeli pentru vizualizatorul de PDF încorp
 
 ```md
 ![[Document.pdf#height=400]]
+```
+
+Pentru a combina opțiunile de pagină și înălțime, separă-le cu `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
 ```
 
 ## Încorporează o pânză într-o însemnare

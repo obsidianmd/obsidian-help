@@ -2,7 +2,7 @@
 permalink: embeds
 cssclasses:
   - soft-embed
-description: Dowiedz się, jak osadzać pliki z sejfu w notatkach, aby ponownie wykorzystywać treść w wielu miejscach.
+description: 'Dowiedz się, jak osadzać pliki z sejfu w notatkach, aby ponownie wykorzystywać treść w wielu miejscach.'
 ---
 Osadzone pliki wyświetlają swoją treść bezpośrednio w notatce i pozostają aktualne, gdy zmienia się plik źródłowy.
 
@@ -85,6 +85,12 @@ Możesz również określić wysokość w pikselach dla osadzonej przeglądarki 
 
 ```md
 ![[Document.pdf#height=400]]
+```
+
+Aby połączyć opcje strony i wysokości, rozdziel je znakiem `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
 ```
 
 ## Osadzanie Canvas w notatce

@@ -86,6 +86,12 @@ Voit myös määrittää upotetun PDF-katseluohjelman korkeuden pikseleinä lis�
 ![[Document.pdf#height=400]]
 ```
 
+Yhdistääksesi sivu- ja korkeusasetukset, erota ne `&`-merkillä:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
 ## Valkotaulun upottaminen muistiinpanoon
 
 [[Canvas|Valkotaulun]] upottaminen:
