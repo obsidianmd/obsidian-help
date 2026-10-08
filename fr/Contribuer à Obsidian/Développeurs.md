@@ -1,7 +1,6 @@
 ---
 permalink: developers
 localized: '2026-03-18'
-
 ---
 Si vous êtes développeur, vous pouvez contribuer à Obsidian de différentes manières.
 
@@ -14,6 +13,7 @@ Vous pouvez développer des [[Modules complémentaires]] et des [[Thèmes]] en u
 Obsidian développe et maintient plusieurs projets open source. Vous pouvez soumettre des pull requests avec des corrections de bugs et des améliorations aux dépôts GitHub suivants :
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), un format de fichier ouvert pour les données de canevas infini.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), un langage de template pour générer du Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), un module qui convertit des données depuis une grande variété de formats en fichiers Markdown en texte brut.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), un module qui affiche des cartes dans les Bases Obsidian.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), une extension de navigateur pour surligner et capturer des pages web en fichiers Markdown en texte brut.

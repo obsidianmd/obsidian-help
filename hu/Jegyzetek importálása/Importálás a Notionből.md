@@ -1,40 +1,44 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi, hogy könnyedén átköltöztesd jegyzeteidet a Notionből az [[Importáló|Importáló bővítmény]] segítségével. Ez a Notion adataidat tartós Markdown fájlokká alakítja, amelyeket offline is használhatsz az Obsidiannel és sok más alkalmazással.
 
 Az Obsidian két módszert kínál a Notion adataid importálására:
 
-1. Az **API importálás** megőrzi a teljes munkaterületedet, beleértve az adatbázisokat és képleteket, amelyek [[Bevezetés a Bázisokba|Bázisokká]] konvertálódnak, de Notion integrációs tokent és internetkapcsolatot igényel.
-2. A **fájl importálás** nem őrzi meg az adatbázisokat, de nem igényel API tokent vagy internetkapcsolatot.
+1. A **Notion fiók (ajánlott)** közvetlenül csatlakozik a munkaterületedhez, és lehetővé teszi az adatbázisok és képletek megőrzését, amelyek [[Bevezetés a Bázisokba|Bázisokká]] konvertálódnak. Notion integrációs tokent és internetkapcsolatot igényel.
+2. A **fájl importálás** a Notion `.zip` exportfájljait használja. Nem őrzi meg az adatbázisokat, de nem igényel API tokent vagy internetkapcsolatot.
 
-## API importálás
+## Importálás a Notion fiókodból
 
-### Notion API integrációs token létrehozása
+### Notion API hozzáférési token létrehozása
 
-A Notion adatainak API-n keresztüli eléréséhez integrációs tokenre van szükséged. Ez a lépés körülbelül 2 percet vesz igénybe.
+A Notion adatainak API-n keresztüli eléréséhez hozzáférési tokenre van szükséged. Ez a lépés körülbelül két percet vesz igénybe.
 
 A token egy hosszú szám- és betűsorozat, amely jellemzően `ntn_...`-nel kezdődik, és lehetővé teszi az adataid letöltését a Notionből.
 
-1. Jelentkezz be a [Notion Integrations](https://www.notion.so/profile/integrations/internal) irányítópultra.
-2. Válaszd a **New integration** lehetőséget.
+1. Jelentkezz be a [Notion Connections](https://app.notion.com/developers/connections) irányítópultra.
+2. Válaszd a **New connection** lehetőséget.
+	1. Adj nevet a kapcsolatodnak, pl. "Personal". Bármilyen nevet használhatsz.
+	2. Válaszd az **Access token** lehetőséget hitelesítési módszerként.
+	3. Válaszd ki az exportálni kívánt munkaterületet az **Installable in** mezőben.
 
 ![[notion-integration.png#interface]]
 
-2. Adj nevet az integrációdnak, pl. "Personal". Bármilyen nevet használhatsz.
-3. Válaszd ki az exportálni kívánt munkaterületet.
-4. Kattints a **Save** gombra, és folytasd a **Configure integration settings** beállítással.
-5. A **Configuration** lapon az API tokened elérhető az **Internal Integration Secret** mezőben.
-6. Válaszd a **Show**, majd a **Copy** lehetőséget.
-7. Mentsd el a tokent biztonságos helyre, például a jelszókezelődbe.
+3. Kattints a **Create connection** gombra.
+4. A **Configuration** lapon az API tokened elérhető az **Access token** mezőben.
+5. Válaszd a **Show**, majd a **Copy** lehetőséget.
+6. Mentsd el a tokent biztonságos helyre, például a jelszókezelődbe.
 
 ![[notion-token.png#interface]]
 
-Ezután adj hozzáférést az integrációdnak azokhoz a Notion oldalakhoz és adatbázisokhoz, amelyeket importálni szeretnél.
+Ezután adj hozzáférést a kapcsolatodnak azokhoz a Notion oldalakhoz és adatbázisokhoz, amelyeket importálni szeretnél.
 
-1. Lépj az imént létrehozott integráció **Access** lapjára.
-2. Kattints az **Edit access** lehetőségre.
-3. Add hozzá az importálni kívánt oldalakat és adatbázisokat.
+1. Lépj az imént létrehozott kapcsolat **Content access** lapjára.
+2. Add hozzá az importálni kívánt oldalakat és adatbázisokat.
+
+![[notion-content.png#interface]]
 
 Most már konvertálhatod az adataidat az Obsidian Importáló segítségével.
 
@@ -47,7 +51,7 @@ Szükséged lesz a hivatalos Obsidian [[Importáló]] bővítményre, amelyet [i
 3. Engedélyezd az Importáló bővítményt.
 4. Nyisd meg az **Importáló** bővítményt a parancspaletta vagy a szalag ikon segítségével.
 5. A **Fájlformátum** alatt válaszd a **Notion (API)** lehetőséget.
-6. Az **API token** mezőbe illeszd be a Notionből származó **Internal Integration Secret** értéket.
+6. Az **API token** mezőnél kattints a **Hivatkozás...** gombra egy új titok hozzáadásához. Az **Azonosító** mezőben adj neki egy nevet, például `notion`, a **Titok** mezőbe pedig illeszd be a Notionből származó **Access token** értéket.
 7. Kattints a **Betöltés** gombra az importálni kívánt adatbázisok és oldalak kiválasztásához.
 8. Tekintsd át és szerkeszd az importálási beállításokat.
 9. Válaszd az **Importálás** lehetőséget, és várd meg, amíg az importálás befejeződik.
@@ -72,7 +76,7 @@ Ezenkívül az Importáló a következő módosításokat végzi:
 - Az aloldalak vagy adatbázisok nélküli oldalak `[fájlnév].md` formátumban kerülnek importálásra a `[fájlnév]/[fájlnév].md` helyett.
 - Az adatbázisok mindig `[adatbázis neve]` nevű mappákként jelennek meg, amelyekben egy `[adatbázis neve].base` fájl található.
 
-## Fájl importálás
+## Notion fájlok importálása (.zip)
 
 A fájl importálás egy alternatív módszer a Notion adataid importálására. Ez a módszer nem őrzi meg az adatbázisokat, de nem igényel API tokent vagy internetkapcsolatot.
 
@@ -80,7 +84,7 @@ A fájl importálás egy alternatív módszer a Notion adataid importálására.
 
 Az adataid importálásra való előkészítéséhez exportálnod kell a teljes munkaterületedet a Notion HTML exportálási formátumával. Javasoljuk, hogy ne használd a Notion Markdown exportálását, mivel az fontos adatokat hagy ki. A munkaterület teljes tartalmának exportálásához rendszergazdai hozzáféréssel kell rendelkezned a Notion munkaterülethez.
 
-1. Lépj a **[[Beállítások]]** menübe a Notion oldalsáv tetején.
+1. Lépj a **Settings** menübe a Notion oldalsáv tetején.
 2. A **Workspace** alatt válaszd az **General** lehetőséget.
 3. Keresd meg és válaszd az **Export all workspace content** lehetőséget.
 4. Az **Export format** alatt válaszd a **HTML** formátumot.

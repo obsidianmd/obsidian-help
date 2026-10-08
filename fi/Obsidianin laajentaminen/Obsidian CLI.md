@@ -1484,8 +1484,6 @@ Jos sinulla on ongelmia Obsidian CLI:n suorittamisessa:
 
 ### Windows
 
-Obsidian CLI Windowsilla vaatii Obsidian 1.12.7+ -asennusohjelman. Katso [[Päivitä Obsidian|Asennusohjelman version päivitys]].
-
 Windows käyttää terminaalin uudelleenohjaimea, joka yhdistää Obsidianin stdin/stdout-virtaan asianmukaisesti. Tämä on tarpeen, koska Obsidian toimii normaalisti graafisena sovelluksena, joka ei ole yhteensopiva terminaalitulosteiden kanssa Windowsilla. Kun asennat Obsidian 1.12.7+:n, `Obsidian.com`-terminaalin uudelleenohjain lisätään kansioon, johon asensit `Obsidian.exe`-tiedoston.
 
 CLI-rekisteröinti lisää Obsidianin käyttäjän PATH-muuttujaan, mikä tulee voimaan vasta terminaalin uudelleenkäynnistyksen jälkeen.

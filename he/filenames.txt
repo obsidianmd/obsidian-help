@@ -54,6 +54,10 @@ translation=תצוגות
 original=Cards view
 translation=תצוגת כרטיסים
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=תצוגת Kanban
+
 [file.bases/views/list]
 original=List view
 translation=תצוגת רשימה
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=כללי התנהגות קהילתיים
+
+[file.community-directory]
+original=Community directory
+translation=ספריית קהילה
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=תוכן HTML
 original=Import notes
 translation=ייבוא הערות
 
+[file.import/airtable]
+original=Import from Airtable
+translation=ייבוא מ-Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=ייבא מ-Apple Journal
@@ -206,6 +218,10 @@ translation=ייבא מ-Google Keep
 original=Import HTML files
 translation=ייבא קבצי HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=ייבוא מ-Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=ייבא קבצי Markdown
@@ -222,9 +238,17 @@ translation=ייבא מ-Microsoft OneNote
 original=Import from Roam Research
 translation=ייבא מ-Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=תבניות ייבוא
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=ייבא קבצי Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=ייבוא מ-Tomboy ו-Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

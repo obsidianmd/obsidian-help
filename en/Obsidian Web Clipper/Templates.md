@@ -38,6 +38,9 @@ Template triggers allow you to automatically select a template based on the curr
 
 The first match in your template list determines which template is used. You can drag templates up and down in Web Clipper settings to change the order in which templates are matched.
 
+> [!tip]- Set a fallback template
+> If a page doesn't match any trigger rule, Web Clipper uses the first template in your list. Keep the template you want as your fallback at the top of the list to ensure it's used for pages without a specific match.
+
 #### Simple URL matching
 
 Simple matching triggers a template if the current page URL *starts with* the given pattern. For example:
@@ -62,4 +65,4 @@ Schema.org values can also be used to [[Variables#Schema.org variables|pre-popul
 
 ### Interpreter context
 
-When [[Interpreter|Interpreter]] is enabled, you can use [[Variables#Prompt variables|prompt variables]] to extract page content with natural language. For each template you can define the [[Interpreter#Context|context]] that Interpreter has access too. 
+When [[Interpreter|Interpreter]] is enabled, you can use [[Variables#Prompt variables|prompt variables]] to extract page content with natural language. For each template you can define the [[Interpreter#Context|context]] that Interpreter has access to. 

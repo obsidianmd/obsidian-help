@@ -20,6 +20,7 @@ Obsidian pre iOS ponúka niekoľko widgetov na rýchle akcie s vaším trezorom.
 ### Widgety na zamykacej obrazovke a v Centre ovládania
 
 Widgety na zamykacej obrazovke a v Centre ovládania umožňujú:
+- Otvoriť rýchle zachytávanie
 - Vytvoriť novú poznámku
 - Otvoriť konkrétnu poznámku
 - Otvoriť dennú poznámku
@@ -29,6 +30,7 @@ Widgety na zamykacej obrazovke a v Centre ovládania umožňujú:
 ### Widgety na domovskej obrazovke
 
 Widgety na domovskej obrazovke umožňujú:
+- Otvoriť rýchle zachytávanie
 - Vytvoriť poznámku
 - Zobraziť poznámku
 - Otvoriť dennú poznámku
@@ -49,15 +51,85 @@ Možnosti konfigurácie widgetu **Zobraziť poznámku**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Rýchle zachytávanie
+
+Rýchle zachytávanie vám umožňuje uložiť text do vášho trezoru z widgetov na zamykacej obrazovke, v Centre ovládania, na domovskej obrazovke alebo zo Skratiek bez čakania na načítanie trezoru. V závislosti od zvoleného umiestnenia zachytávania môže rýchle zachytávanie vytvoriť novú poznámku alebo pridať text do existujúcej poznámky.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Poznámka
+> Rýchle zachytávanie vyžaduje Obsidian 1.14 alebo novší a iOS alebo iPadOS 26 alebo novší.
+
+Zachytenie textu:
+
+1. Pridajte widget **Rýchle zachytávanie** na zamykaciu obrazovku, do Centra ovládania alebo na domovskú obrazovku.
+2. Ťuknite na widget pre otvorenie rýchleho zachytávania.
+3. Zadajte text.
+4. Pre zmenu miesta uloženia textu ťuknite na umiestnenie zachytávania v hornej časti obrazovky a vyberte iné umiestnenie.
+5. Ťuknite na zaškrtávacie políčko pre uloženie textu.
+
+**Poznámka**: Ak sú povolené Live Activities, poznámka rýchleho zachytávania sa zobrazí aj na zamykacej obrazovke a na podporovaných modeloch iPhone v Dynamic Island. Ťuknite na lištu alebo Live Activity pre pokračovanie v úpravách.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Umiestnenia zachytávania
+
+Umiestnenia zachytávania určujú, kam rýchle zachytávanie uloží váš text. Umiestnenie zachytávania môže:
+
+- Vytvoriť novú poznámku vo vybranom priečinku s voliteľnou šablónou a vlastným názvom poznámky.
+- Pripojiť alebo predradiť text do vašej dennej poznámky.
+- Pripojiť alebo predradiť text do poznámky uloženej ako záložka.
+- Pripojiť alebo predradiť text do inej poznámky, ktorú vyberiete.
+
+Vytvorenie umiestnenia zachytávania:
+1. Otvorte rýchle zachytávanie.
+2. Ťuknite na umiestnenie zachytávania v hornej časti obrazovky.
+3. Ťuknite na tlačidlo plus (+).
+4. Vyberte správanie a nakonfigurujte voliteľné nastavenia.
+5. Ťuknite na **Uložiť**.
+
+Môžete tiež použiť **Otvoriť poznámku po zachytení** na výber, či Obsidian otvorí cieľovú poznámku po uložení zachytenia.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Šablóny rýchleho zachytávania
+
+Na formátovanie zachyteného textu môžete použiť šablónu. Šablóny rýchleho zachytávania podporujú nasledujúce zástupné symboly:
+
+| Zástupný symbol | Popis |
+| --- | --- |
+| `{{content}}` | Zachytený text |
+| `{{date}}` | Aktuálny dátum |
+| `{{time}}` | Aktuálny čas |
+| `{{latitude}}` | Aktuálna zemepisná šírka |
+| `{{longitude}}` | Aktuálna zemepisná dĺžka |
+| `{{shortAddress}}` | Skrátená forma aktuálnej adresy |
+| `{{fullAddress}}` | Úplná aktuálna adresa |
+| `{{googleMapsLink}}` | Odkaz na Google Maps s aktuálnou polohou |
+| `{{appleMapsLink}}` | Odkaz na Apple Maps s aktuálnou polohou |
+| `{{openStreetMapLink}}` | Odkaz na OpenStreetMap s aktuálnou polohou |
+
+Pre konfiguráciu widgetu rýchleho zachytávania pre konkrétne umiestnenie zachytávania použite kroky v časti [[#Prispôsobenie widgetov]]. Widgety na domovskej obrazovke môžu zobrazovať viaceré umiestnenia zachytávania.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Skratky
 
 Obsidian sa integruje s aplikáciou Skratky od Apple, čo vám umožňuje vytvárať výkonné automatizácie. Dostupné skratky zahŕňajú:
 
-- **Otvoriť poznámku** — Otvorí konkrétnu poznámku vo vašom trezore
-- **Vytvoriť novú poznámku** — Vytvorí novú poznámku vo vašom trezore
+- **Rýchle zachytávanie** — Otvorí rýchle zachytávanie pomocou nakonfigurovaného umiestnenia zachytávania
+- **Otvoriť záložku** — Otvorí poznámku uloženú ako záložka z vášho trezoru
+- **Otvoriť novú poznámku** — Vytvorí novú poznámku vo vašom trezore
 - **Otvoriť dennú poznámku** — Prejde priamo na dnešnú dennú poznámku
 - **Zachytiť do dennej poznámky** — Pripojí alebo predradí text do dennej poznámky bez otvorenia aplikácie Obsidian
 - **Zachytiť do záložky** — Pripojí alebo predradí text do poznámky uloženej ako záložka bez otvorenia aplikácie Obsidian
+- **Získať poznámku zo záložky** — Získa text z poznámky uloženej ako záložka
+- **Získať dennú poznámku** — Získa text z dennej poznámky
+- **Hľadať v trezore** — Vyhľadá kľúčové slovo vo vašom trezore
+- **Uložiť odkaz do záložiek** — Pridá webový odkaz do vašich záložiek
+- **Otvoriť Obsidian** — Otvorí Obsidian
 
 Skratky na zachytávanie sú obzvlášť užitočné na rýchle zapisovanie poznámok, pretože umožňujú pridať obsah do poznámky na pozadí.
 
@@ -144,6 +216,7 @@ Podporované zástupné symboly šablóny:
 | `{{published: YYYY-MM-DD}}` | Dátum publikácie vo vlastnom formáte dátumu |
 | `{{site}}` | Názov webovej stránky |
 | `{{title}}` | Názov článku |
+| `{{url}}` | URL článku |
 | `{{wordCount}}` | Celkový počet slov v extrahovanom obsahu |
 
 Môžete tiež použiť štandardné zástupné symboly šablóny pre dátum a čas:

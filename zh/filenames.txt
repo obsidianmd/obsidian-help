@@ -58,6 +58,10 @@ translation=视图
 original=Cards view
 translation=卡片视图
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=看板视图
+
 [file.bases/views/list]
 original=List view
 translation=列表视图
@@ -85,6 +89,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=社区准则
+
+[file.community-directory]
+original=Community directory
+translation=社区目录
 
 [file.community-plugins]
 original=Community plugins
@@ -182,6 +190,10 @@ translation=HTML 内容
 original=Import notes
 translation=导入笔记
 
+[file.import/airtable]
+original=Import from Airtable
+translation=从 Airtable 导入
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Apple Journal
@@ -214,6 +226,10 @@ translation=Google Keep
 original=Import HTML files
 translation=HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=从 Logseq 导入
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown 文件
@@ -230,9 +246,17 @@ translation=OneNote
 original=Import from Roam Research
 translation=Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=导入器模板
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=从 Tomboy 且 Gnote 导入
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

@@ -1,5 +1,7 @@
 ---
 permalink: import/google-keep
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojesi helpon siirtämisen Google Keepistä käyttämällä [[Tuontityökalu|Tuontityökalu-lisäosaa]]. Tämä muuntaa Google Keep -tietosi kestäviksi Markdown-tiedostoiksi, joita voit käyttää Obsidianin ja monien muiden sovellusten kanssa.
 

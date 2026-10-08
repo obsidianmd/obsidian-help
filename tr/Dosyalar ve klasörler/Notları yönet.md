@@ -19,6 +19,27 @@ Ayrıca [[Dosya Gezgini#Yeni bir not oluşturma|Dosya Gezgini]] kullanarak veya 
 > Obsidian, notu oluşturduğunuz işletim sisteminin dosya adı sınırlamalarına uyar. [[Notlarınızı cihazlar arasında senkronize edin|Notlarınızı cihazlar arasında senkronize etmeyi]] planlıyorsanız, dosya adlarınızın [diğer işletim sistemleri için güvenli](https://stackoverflow.com/q/1976007) olduğundan emin olun.
 ^blockquote-system-limitation
 
+## Kasanızın dışındaki dosyaları açma
+
+Masaüstünde, kasanızın dışındaki Markdown dosyalarını tek tek açıp düzenleyebilirsiniz. Dosyalar mevcut pencerenizde açılır ve orijinal konumlarında kalır.
+
+> [!note] Obsidian 1.14 ve en son yükleyici gerektirir
+> [obsidian.md/download](https://obsidian.md/download) adresinden Obsidian'ı indirip uygulamayı yeniden yükleyerek [[Obsidian'ı Güncelle#Installer updates|yükleyicinizi güncelleyin]].
+
+Bir Markdown dosyasını açmak için:
+
+1. [[Komut Paleti]]'ni açın.
+2. **Kasa dışından dosya aç...** seçeneğini belirleyin.
+3. Bilgisayarınızda bir Markdown dosyası seçin.
+
+Ayrıca işletim sisteminizin **Birlikte aç** menüsünü kullanarak **Obsidian**'ı seçebilirsiniz. Markdown dosyalarını varsayılan olarak Obsidian'da açmak için, `.md` dosyaları için varsayılan uygulama olarak ayarlayın.
+
+Görsel gömmeleri ve diğer yerel dosyalara bağlantılar, Markdown dosyasının klasörüne göre çözümlenir. Başlıklar arasında gezinmek için [[Anahat|Anahat]] ve bağlantılı dosyalara göz atmak için [[Giden bağlantılar|Giden bağlantılar]] kullanın.
+
+### Quick Look ile dosyaları önizleme
+
+macOS'ta, Finder'da bir Markdown dosyası seçin ve **Quick Look** ile önizlemek için `Boşluk` tuşuna basın. Quick Look önizlemeleri, Obsidian kapalıyken bile çalışır.
+
 ## Bir notu yeniden adlandırma
 
 Etkin bir notu yeniden adlandırmak için:

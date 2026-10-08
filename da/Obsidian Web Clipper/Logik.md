@@ -5,9 +5,6 @@ description: 'Brug betingelser, løkker og variabeltildeling i Web Clipper-skabe
 [[Introduktion til Obsidian Web Clipper|Web Clipper]] understøtter skabelonlogik til betingelser, løkker og variabeltildeling. Denne syntaks er inspireret af skabelonsprogene [Twig](https://twig.symfony.com/) og [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Kræver den nyeste version
-> Logikfunktioner kræver Obsidian Web Clipper 1.0.0, som endnu ikke er godkendt i alle udvidelsesbutikker.
-
 ## Betingelser
 
 Brug `{% if %}` til betinget at inkludere indhold baseret på variabler eller udtryk.

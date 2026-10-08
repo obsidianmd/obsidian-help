@@ -19,6 +19,27 @@ Je kunt ook notities aanmaken met de [[Bestandsverkenner#Een nieuwe notitie aanm
 > Obsidian respecteert de bestandsnaambeperkingen van het besturingssysteem waarop je de notitie aanmaakt. Als je van plan bent om je [[Notities synchroniseren tussen apparaten|notities tussen apparaten te synchroniseren]], zorg er dan voor dat je bestandsnamen [veilig zijn voor andere besturingssystemen](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Bestanden buiten je kluis openen
+
+Op desktop kun je individuele Markdown-bestanden buiten je kluis openen en bewerken. Bestanden worden geopend in je huidige venster en blijven op hun oorspronkelijke locatie.
+
+> [!note] Vereist Obsidian 1.14 en het nieuwste installatieprogramma
+> [[Obsidian bijwerken#Updates van het installatieprogramma|Werk je installatieprogramma bij]] door Obsidian te downloaden van [obsidian.md/download](https://obsidian.md/download) en de applicatie opnieuw te installeren.
+
+Om een Markdown-bestand te openen:
+
+1. Open het [[Opdrachtenpaneel]].
+2. Selecteer **Bestand van buiten de kluis openen...**.
+3. Kies een Markdown-bestand op je computer.
+
+Je kunt ook het **Openen met**-menu van je besturingssysteem gebruiken en **Obsidian** selecteren. Om Markdown-bestanden standaard in Obsidian te openen, stel je het in als de standaardapplicatie voor `.md`-bestanden.
+
+Afbeeldingsinsluitingen en koppelingen naar andere lokale bestanden worden relatief aan de map van het Markdown-bestand opgelost. Gebruik [[Overzicht]] om door koppen te navigeren en [[Uitgaande koppelingen]] om gekoppelde bestanden te bekijken.
+
+### Bestanden vooraf bekijken met Quick Look
+
+Op macOS kun je een Markdown-bestand in Finder selecteren en op `Spatie` drukken om het te bekijken met **Quick Look**. Quick Look-voorbeelden werken ook wanneer Obsidian gesloten is.
+
 ## Naam van een notitie wijzigen
 
 Om de naam van een actieve notitie te wijzigen:

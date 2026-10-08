@@ -36,5 +36,7 @@ Zobrazení mohou být prezentována s různými rozvrženími. Další rozvržen
 	- Zobrazí soubory jako seznam s odrážkovými nebo číslovanými značkami.
 - [[Zobrazení Karty|Karty]]
 	- Zobrazí soubory jako mřížku. Umožňuje vytvářet zobrazení typu galerie s obrázky.
+- [[Zobrazení Kanban|Kanban]]
+	- Zobrazí soubory jako karty uspořádané do sloupců na základě seskupené vlastnosti.
 - [[Zobrazení Mapa|Mapa]]
 	- Zobrazí soubory jako špendlíky na interaktivní mapě.

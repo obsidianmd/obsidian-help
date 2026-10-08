@@ -57,6 +57,9 @@ iCloud sa dá použiť na synchronizáciu trezorov medzi iOS a macOS. Avšak **i
         2. Zadajte názov pre váš trezor.
         3. Prepnite na **Uložiť v iCloud**.
         4. Ťuknite na **Vytvoriť**.
+- **Ponechať priečinok trezoru stiahnutý** (voliteľné, ale dôrazne odporúčané pre rýchle načítavanie):
+    - Na macOS 15 (Sequoia) a novší: Kliknite pravým tlačidlom na priečinok **Obsidian** v iCloud Drive a vyberte **Ponechať stiahnuté**.
+    - Na macOS 14 (Sonoma) a starší: Vypnite **Optimalizovať úložisko Macu** v nastaveniach iCloud. Toto nastavenie ovplyvňuje celé úložisko iCloud na zariadení, nielen Obsidian.
 - **Otvoriť trezor na inom zariadení Apple**:
     - Na inom zariadení macOS alebo iOS otvorte **Obsidian**, prejdite do [[Spravovať trezory|Prepínača trezorov]] a vyberte **Použiť priečinok ako trezor**. Prejdite na **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud sa dá použiť na synchronizáciu trezorov medzi iOS a macOS. Avšak **i
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Na overenie umiestnenia trezoru otvorte aplikáciu **Súbory**, ťuknite na **Prehľadávať**, vyberte **iCloud Drive** pod **Umiestnenia** a potvrďte, že váš trezor je v priečinku **Obsidian**. Ak je váš trezor na inom mieste, môžete mať problémy so synchronizáciou.
-
-> [!tip] Osvedčené postupy
-> - Pre **macOS 14 (Sonoma) a starší**: Vypnite **Optimalizovať úložisko Macu** v nastaveniach iCloud, aby sa zabránilo presúvaniu súborov mimo zariadenie. Toto nastavenie ovplyvňuje celé úložisko iCloud na zariadení, nielen Obsidian.
-> - Pre **macOS 15 (Sequoia)**: Kliknite pravým tlačidlom na priečinok **Obsidian** v iCloud Drive a vyberte **Ponechať stiahnuté**.
 
 ## OneDrive
 

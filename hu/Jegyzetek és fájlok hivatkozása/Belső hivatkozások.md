@@ -21,6 +21,10 @@ Az Obsidian a következő hivatkozásformátumokat támogatja:
 
 A fenti példák egyenértékűek, és ugyanúgy jelennek meg a szerkesztőben, valamint ugyanarra a jegyzetre hivatkoznak.
 
+Ha egy mappában lévő jegyzetre szeretne hivatkozni, adja meg a mappa elérési útvonalát a jegyzet neve előtt. A mappa útvonalak a széf gyökerétől indulnak, és perjelet (`/`) használnak, még Windows rendszeren is: `[[Projects/Three laws of motion]]` vagy `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Ha a hivatkozás egy még nem létező jegyzetre mutat, az Obsidian a megadott mappa útvonalon hozza létre a jegyzetet az [[Beállítások#Új jegyzetek alapértelmezett helye|új jegyzetek alapértelmezett helye]] helyett.
+
 > [!note] Megjegyzés
 > A Markdown formátum használatakor ügyeljen arra, hogy a hivatkozás célját [URL-kódolja](https://en.wikipedia.org/wiki/Percent-encoding). Például a szóközök `%20` formátumúvá válnak.
 
@@ -46,8 +50,6 @@ Hivatkozás létrehozásához szerkesztési nézetben használja az alábbi mód
 - Jelöljön ki szöveget a szerkesztőben, majd írja be a `[[` karaktereket.
 - Nyissa meg a [[Parancspaletta|parancspalettát]], majd válassza a Belső hivatkozás hozzáadása lehetőséget.
 
-![[Gyors váltó#^search-autocomplete-large]]
-
 Bár bármely [[Elfogadott fájlformátumok|elfogadott fájlformátumra]] hivatkozhat, a Markdown-tól eltérő fájlformátumokra mutató hivatkozásoknak tartalmazniuk kell a kiterjesztést, például `[[Figure 1.png]]`.
 
 > [!tip] Ha egy belső hivatkozás elé felkiáltójelet (!) tesz, beágyazhatja a hivatkozott tartalmat. További részletekért lásd: [[Fájlok beágyazása]].
@@ -69,7 +71,7 @@ Például a `[[#Hivatkozott fájl előnézete]]` létrehoz egy hivatkozást a [[
 
 Egy másik jegyzet fejlécére való hivatkozáshoz adjon hozzá egy kettőskeresztet (`#`) a hivatkozás célpontjának végéhez, amelyet a fejléc szövege követ.
 
-Például a `[[Az Obsidianről#A hivatkozások elsőrangú polgárok]]` létrehoz egy hivatkozást a [[Az Obsidianről#A hivatkozások elsőrangú polgárok]] részre.
+Például a `[[Az Obsidianról#A hivatkozások elsőrangú polgárok]]` létrehoz egy hivatkozást a [[Az Obsidianról#A hivatkozások elsőrangú polgárok]] részre.
 
 **Hivatkozás alfejlécekre**
 

@@ -1,4 +1,5 @@
 // Locale UI strings — Swedish
+window.LANG_SWITCHER_STRINGS = { search: "Byt språk...", noResults: "Inga resultat" };
 (function () {
   function apply() {
     var el;

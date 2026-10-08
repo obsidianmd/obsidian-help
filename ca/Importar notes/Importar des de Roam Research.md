@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Obsidian us permet migrar fàcilment les vostres notes des de Roam Research utilitzant el [[Importador|connector Importador]]. Això convertirà les vostres dades de Roam a fitxers Markdown duradors, que podeu utilitzar amb Obsidian i moltes altres aplicacions.
 

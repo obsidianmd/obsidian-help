@@ -44,7 +44,7 @@ iCloud, iOS ve macOS arasında kasaları senkronize etmek için kullanılabilir.
 **Kasanızı iCloud Drive'da oluşturma ve saklama**:
 
 - **iCloud Drive'ı etkinleştirin**:
-    - macOS'ta: **Sistem Tercihleri → Apple Kimliği → iCloud → iCloud Drive** yolunu izleyin.
+    - macOS'ta: **Sistem Ayarları → Apple Kimliği → iCloud → iCloud Drive** yolunu izleyin.
     - iOS'ta: **Ayarlar → [Adınız] → iCloud → iCloud Drive** yolunu izleyin.
 - **iCloud'da yeni bir kasa oluşturun**:
     - macOS'ta:
@@ -57,6 +57,9 @@ iCloud, iOS ve macOS arasında kasaları senkronize etmek için kullanılabilir.
         2. Kasanız için bir ad girin.
         3. **iCloud'da sakla** seçeneğini açın.
         4. **Oluştur** seçeneğine dokunun.
+- **Kasa klasörünü indirilmiş olarak tutun** (isteğe bağlı, ancak yükleme sürelerini hızlı tutmak için şiddetle önerilir):
+    - macOS 15 (Sequoia) ve sonrası: iCloud Drive'daki **Obsidian** klasörüne sağ tıklayın ve **İndirilmiş Olarak Tut** seçeneğini seçin.
+    - macOS 14 (Sonoma) ve öncesi: iCloud ayarlarında **Mac Depolamayı Optimize Et** seçeneğini devre dışı bırakın. Bu ayar, yalnızca Obsidian'ı değil, cihazdaki tüm iCloud depolamasını etkiler.
 - **Kasayı başka bir Apple cihazında açın**: 
     - Başka bir macOS veya iOS cihazında **Obsidian**'ı açın, [[Kasaları yönet|Kasa değiştiriciye]] gidin ve **Bir klasörü kasa olarak belirle** seçeneğini seçin. **iCloud Drive → Obsidian** yoluna gidin.
 
@@ -68,10 +71,6 @@ iCloud, iOS ve macOS arasında kasaları senkronize etmek için kullanılabilir.
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Kasa konumunuzu doğrulamak için **Dosyalar** uygulamasını açın, **Tara** seçeneğine dokunun, **Konumlar** altından **iCloud Drive**'ı seçin ve kasanızın **Obsidian** klasörünün içinde olduğunu onaylayın. Kasanız farklı bir konumdaysa senkronizasyon sorunları yaşayabilirsiniz.
-
-> [!tip] En iyi uygulamalar
-> - **macOS 14 (Sonoma) ve öncesi** için: Dosyaların boşaltılmasını önlemek amacıyla iCloud ayarlarında **Mac Depolamayı Optimize Et** seçeneğini devre dışı bırakın. Bu ayar, yalnızca Obsidian'ı değil, cihazdaki tüm iCloud depolamasını etkiler.
-> - **macOS 15 (Sequoia)** için: iCloud Drive'daki **Obsidian** klasörüne sağ tıklayın ve **İndirilmiş Olarak Tut** seçeneğini seçin.
 
 ## OneDrive
 

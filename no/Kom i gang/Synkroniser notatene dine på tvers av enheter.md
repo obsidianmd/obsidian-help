@@ -57,6 +57,9 @@ iCloud kan brukes til å synkronisere hvelv mellom iOS og macOS. Imidlertid kan 
         2. Skriv inn et navn for hvelvet ditt.
         3. Slå på **Lagre i iCloud**.
         4. Trykk **Opprett**.
+- **Hold hvelvmappen nedlastet** (valgfritt, men sterkt anbefalt for å holde lastetidene raske):
+    - På macOS 15 (Sequoia) og nyere: Høyreklikk på **Obsidian**-mappen i iCloud Drive og velg **Behold nedlastet**.
+    - På macOS 14 (Sonoma) og tidligere: Deaktiver **Optimaliser Mac-lagring** i iCloud-innstillingene. Denne innstillingen påvirker all iCloud-lagring på enheten, ikke bare Obsidian.
 - **Åpne hvelvet på en annen Apple-enhet**: 
     - På en annen macOS- eller iOS-enhet, åpne **Obsidian**, gå til [[Administrer hvelv|Hvelvbytteren]] og velg **Åpne mappe som hvelv**. Naviger til **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud kan brukes til å synkronisere hvelv mellom iOS og macOS. Imidlertid kan 
 > ![[iCloud-folder-location.png#interface]]
 > 
 > For å bekrefte hvelvplasseringen din, åpne **Filer**-appen, trykk **Bla gjennom**, velg **iCloud Drive** under **Plasseringer**, og bekreft at hvelvet ditt er inne i **Obsidian**-mappen. Hvis hvelvet ditt er på en annen plassering, kan du oppleve synkroniseringsproblemer.
-
-> [!tip] Beste praksis
-> - For **macOS 14 (Sonoma) og tidligere**: Deaktiver **Optimaliser Mac-lagring** i iCloud-innstillingene for å forhindre at filer lastes ned fra enheten. Denne innstillingen påvirker all iCloud-lagring på enheten, ikke bare Obsidian.
-> - For **macOS 15 (Sequoia)**: Høyreklikk på **Obsidian**-mappen i iCloud Drive og velg **Behold nedlastet**.
 
 ## OneDrive
 
@@ -233,4 +232,4 @@ Hvis tjenester som OneDrive eller iCloud laster ned filer (f.eks. ved bruk av **
 
 **Hvordan administrerer jeg forskjellige konfigurasjoner for hvelvene mine?**
 
-Obsidian lar deg tilpasse konfigurasjonsmappen per enhet ved hjelp av [[Konfigurasjonsmappe|Konfigurasjonsmapper]]-funksjonen.
+Obsidian ler deg tilpasse konfigurasjonsmappen per enhet ved hjelp av [[Konfigurasjonsmappe|Konfigurasjonsmapper]]-funksjonen.

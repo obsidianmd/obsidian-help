@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojen siirtämisen helposti Apple Notesista käyttämällä [[Tuontityökalu|Tuontityökalua]]. Tämä muuntaa Apple Notes -tietosi kestäviksi Markdown-tiedostoiksi, joita voit käyttää Obsidianin ja monien muiden sovellusten kanssa.
 

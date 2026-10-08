@@ -874,11 +874,11 @@ translation=פתרון בעיות
 original=Alternate shells
 translation=מעטפות חלופיות
 
-[heading.plugins/format-converter/Supported formats]
+[heading.plugins/Supported formats]
 original=Supported formats
 translation=פורמטים נתמכים
 
-[heading.plugins/format-converter/[[Properties]]]
+[heading.plugins/[[Properties]]]
 original=[[Properties]]
 translation=[[מאפיינים]]
 
@@ -937,3 +937,147 @@ translation=התקנת Obsidian ב-Android
 [heading.install/Install Obsidian on iPhone and iPad]
 original=Install Obsidian on iPhone and iPad
 translation=התקנת Obsidian ב-iPhone וב-iPad
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=יצירת אסימון גישה אישי ב-Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=ייבוא נתוני Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=אפשרויות ייבוא
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=הגדרת אופן ייבוא שדות Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=מה מיובא
+
+[heading.import/Limitations]
+original=Limitations
+translation=מגבלות
+
+[heading.import/Before you start]
+original=Before you start
+translation=לפני שמתחילים
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=ייבוא גרף ה-Logseq שלכם
+
+[heading.import/Settings]
+original=Settings
+translation=הגדרות
+
+[heading.import/Journals]
+original=Journals
+translation=יומנים
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=שיטוח מתווים
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=שימור נתונים לא תואמים
+
+[heading.import/Templates]
+original=Templates
+translation=תבניות
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=פתרון בעיות
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=איתור קבצי ההערות שלך
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=ייבוא הערות Tomboy או Gnote שלך
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=עריכת תבנית הייבוא
+
+[heading.import/Preview results]
+original=Preview results
+translation=תצוגה מקדימה של תוצאות
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=תחביר תבנית
+
+[heading.import/Variables]
+original=Variables
+translation=משתנים
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=ערכי מקור עבור מאפיינים
+
+[heading.import/Example template]
+original=Example template
+translation=דוגמה לתבנית
+
+[heading.community-directory/Header]
+original=Header
+translation=כותרת עליונה
+
+[heading.community-directory/Overview]
+original=Overview
+translation=סקירה כללית
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=כרטיס ציון
+
+[heading.community-directory/Updates]
+original=Updates
+translation=עדכונים
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=סרגל צד
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=שאלות נפוצות
+
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=קיבוץ כרטיסים לעמודות
+
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=עבודה עם כרטיסים ועמודות
+
+[heading.bases/views/kanban/Settings]
+original=Settings
+translation=הגדרות
+
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=הסתרת עמודות ריקות
+
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=רוחב עמודה
+
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=מאפיין תמונה
+
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=התאמת תמונה
+
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=יחס גובה־רוחב של התמונה

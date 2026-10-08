@@ -29,25 +29,20 @@ Pri úprave poznámky si všimnete rad ikon v spodnej časti aplikácie. Predvol
 
 ### Prispôsobenie mobilného panela nástrojov
 
-V mobilnom paneli nástrojov klepnite na **Konfigurovať nástrojový panel** ![[lucide-wrench.svg#icon]] na otvorenie rozhrania na jeho prispôsobenie.
+V mobilnom paneli nástrojov vyberte **Konfigurovať nástrojový panel** ![[lucide-wrench.svg#icon]] na otvorenie jeho nastavení.
 
-Prípadne to môžete urobiť v Nastaveniach.
+Môžete tiež otvoriť **[[Nastavenia]] → Rozhranie → Konfigurovať nástrojový panel**.
 
-1. Otvorte Nastavenia.
-2. Vyberte **Mobil**.
-3. V časti **Upraviť panel nástrojov** pridajte, odstráňte alebo zmeňte poradie dostupných možností.
+V časti **Upraviť panel nástrojov** použite úchyty na zmenu poradia akcií a tlačidlá na odstránenie na ich odobratie. Vyberte akciu v časti **Ďalšie nastavenia panela nástrojov** na jej pridanie.
 
 ### Pridanie príkazu do mobilného panela nástrojov
 
-V predvolenom nastavení sú možnosti dostupné na pridanie do panela nástrojov editačné možnosti ako „Pridať interný odkaz" alebo „Pridať štítok".
+Okrem editačných akcií môžete pridať globálne príkazy ako **Zmeniť tému**.
 
-Okrem toho môžete pridať globálne príkazy ako „Zmeniť tému".
-
-1. Nájdite **Upraviť panel nástrojov** v časti **[[Nastavenia]]** → **Mobil**.
-2. Posuňte sa úplne nadol a nájdite **Pridať globálny príkaz**.
-3. Zadajte názov príkazu, ktorý chcete pridať.
-4. Vyberte príkaz, ktorý chcete pridať.
-5. Nový príkaz sa pridá na koniec panela nástrojov.
+1. Otvorte **[[Nastavenia]] → Rozhranie → Konfigurovať nástrojový panel**.
+2. V časti **Upraviť panel nástrojov** vyberte **Pridať príkaz...**.
+3. Vyhľadajte príkaz, ktorý chcete pridať.
+4. Vyberte príkaz na jeho pridanie na koniec panela nástrojov.
 
 ## Rýchla akcia
 
@@ -58,7 +53,7 @@ Rýchla akcia je predvolene nastavená na otvorenie [[Paleta príkazov|palety pr
 ### Prispôsobenie rýchlej akcie
 
 1. Otvorte Nastavenia.
-2. V časti **Možnosti** vyberte **Panel nástrojov**.
+2. Vyberte **Rozhranie**.
 3. V časti **Konfigurovať rýchlu mobilnú akciu** klepnite na **Konfigurovať**.
 4. Zadajte názov príkazu.
 5. Vyberte príkaz, ktorý chcete nastaviť.

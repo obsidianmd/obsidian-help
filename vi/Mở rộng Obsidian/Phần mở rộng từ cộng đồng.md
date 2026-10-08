@@ -16,7 +16,7 @@ Tìm hiểu cách mở rộng Obsidian với các plugin được xây dựng b�
 
 Sử dụng hộp văn bản để lọc plugin dựa trên tên, tác giả và mô tả.
 
-Bạn cũng có thể duyệt các plugin có sẵn trong trình duyệt của mình tại [community.obsidian.md](https://community.obsidian.md).
+Bạn cũng có thể duyệt các plugin có sẵn trong trình duyệt của mình tại [community.obsidian.md](https://community.obsidian.md). Để biết thêm thông tin về những gì trang danh sách plugin hiển thị, hãy tham khảo [[Thư mục cộng đồng]].
 
 ## Cài đặt plugin cộng đồng
 

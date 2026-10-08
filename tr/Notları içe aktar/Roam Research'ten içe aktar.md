@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notlarınızı Roam Research'ten kolayca taşımanızı sağlar. Bu işlem, Roam verilerinizi Obsidian ve diğer birçok uygulamayla kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
@@ -22,7 +24,13 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 6. `.json` dosyanızın konumunu seçin.
 7. **Çıktı klasörü** altında dosyalarınızın nereye içe aktarılacağını seçin.
 8. Ekleri de içe aktarmak istiyorsanız **Tüm ekleri indir** seçeneğini etkinleştirin.
-9. **İçe Aktar**'a tıklayın ve içe aktarma tamamlanana kadar bekleyin.
-10. Tamamlandı!
+9. Oluşturulan şablonu gözden geçirmek ve sayfalarınızdan önizleme örneklerini görmek için **İçe Aktar**'ı seçin.
+10. Tekrar **İçe Aktar**'ı seçin ve içe aktarma işleminin tamamlanmasını bekleyin.
 
 ![[Roam-Importer-importing.png]]
+
+## Şablonlar
+
+Roam Research verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe aktarıcı şablonlarını]] kullanın.
+
+![[İçe aktarıcı şablonları#Variables]]

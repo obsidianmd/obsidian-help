@@ -38,6 +38,9 @@ Web Kırpıcı'dan gelen içeriğin Obsidian'a nasıl ekleneceğini tanımlayın
 
 Şablon listenizde ilk eşleşme, hangi şablonun kullanılacağını belirler. Şablonların eşleşme sırasını değiştirmek için Web Kırpıcı ayarlarında şablonları yukarı ve aşağı sürükleyebilirsiniz.
 
+> [!tip]- Yedek şablon ayarlama
+> Bir sayfa herhangi bir tetikleyici kuralıyla eşleşmezse, Web Kırpıcı listenizdeki ilk şablonu kullanır. Belirli bir eşleşmesi olmayan sayfalar için kullanılmasını istediğiniz şablonu listenin en üstünde tutarak yedek olarak kullanılmasını sağlayın.
+
 #### Basit URL eşleştirme
 
 Basit eşleştirme, mevcut sayfa URL'si verilen kalıpla *başladığında* bir şablonu tetikler. Örneğin:

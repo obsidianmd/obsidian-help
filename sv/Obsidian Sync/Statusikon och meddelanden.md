@@ -80,9 +80,17 @@ Dessa är meddelanden som beskriver vad som hoppades över, och potentiellt varf
 
 **Unable to download file with illegal name**
 
-Filen innehåller ett [specialtecken eller en namnkonvention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) som inte är tillåten på det mottagande operativsystemet. För enkelhetens skull kan du byta namn på filen på källenheten för att ta bort alla specialtecken utom `-` och `_`.
+Filnamnet använder ett [specialtecken eller en namnkonvention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) som det mottagande operativsystemet inte kan lagra. Byt namn på filen på källenheten och låt sedan Sync ladda upp den omdöpta filen igen.
 
-Observera att detta även inkluderar filer med flera punkter `.` i sitt namn på Android-enheter.
+För valv som synkroniseras mellan olika operativsystem, undvik följande i fil- och mappnamn:
+
+- Tecken som vanligtvis är reserverade av filsystem, såsom `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` och `|`
+- Ett mellanslag eller en punkt i slutet av namnet
+- Windows reserverade enhetsnamn, såsom `CON`, `PRN`, `AUX`, `NUL`, `COM1` till `COM9` eller `LPT1` till `LPT9`
+- Tecken som Obsidian använder för länkar, såsom `#`, `^`, `[` och `]`, om du vill ha länkvänliga anteckningsnamn
+- Flera punkter `.` i ett filnamn, eller emojier, som vissa Android-enheter kan avvisa
+
+När du är osäker, använd bokstäver, siffror, vanliga mellanslag inuti namnet, bindestreck `-`, understreck `_` och en punkt före filändelsen.
 
 ### Kontomeddelanden
 

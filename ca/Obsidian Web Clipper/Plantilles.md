@@ -38,6 +38,9 @@ Els activadors de plantilla us permeten seleccionar automàticament una plantill
 
 La primera coincidència a la vostra llista de plantilles determina quina plantilla s'utilitza. Podeu arrossegar les plantilles amunt i avall a la configuració del Web Clipper per canviar l'ordre en què es fan coincidir les plantilles.
 
+> [!tip]- Establiu una plantilla de reserva
+> Si una pàgina no coincideix amb cap regla d'activació, el Web Clipper utilitza la primera plantilla de la vostra llista. Manteniu la plantilla que voleu com a reserva a la part superior de la llista per assegurar-vos que s'utilitza per a pàgines sense una coincidència específica.
+
 #### Coincidència simple d'URL
 
 La coincidència simple activa una plantilla si l'URL de la pàgina actual *comença amb* el patró donat. Per exemple:

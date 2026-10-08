@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 Obsidian дозволяє легко перенести ваші нотатки з Apple Notes за допомогою [[Імпортер|додатка Імпортер]]. Він конвертує ваші дані Apple Notes у довговічні Markdown-файли, які можна використовувати з Obsidian та багатьма іншими застосунками.
 

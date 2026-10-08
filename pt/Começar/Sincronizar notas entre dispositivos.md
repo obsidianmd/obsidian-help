@@ -44,7 +44,7 @@ O iCloud pode ser utilizado para sincronizar cofres entre iOS e macOS. No entant
 **Como criar e armazenar o seu cofre no iCloud Drive**:
 
 - **Ativar o iCloud Drive**:
-    - No macOS: Vá a **Preferências do Sistema → Apple ID → iCloud → iCloud Drive**.
+    - No macOS: Vá a **Definições do Sistema → Apple ID → iCloud → iCloud Drive**.
     - No iOS: Vá a **Definições → [O Seu Nome] → iCloud → iCloud Drive**.
 - **Criar um novo cofre no iCloud**:
     - No macOS:
@@ -57,6 +57,9 @@ O iCloud pode ser utilizado para sincronizar cofres entre iOS e macOS. No entant
         2. Introduza um nome para o seu cofre.
         3. Ative **Armazenar no iCloud**.
         4. Toque em **Criar**.
+- **Manter a pasta do cofre transferida** (opcional, mas fortemente recomendado para manter os tempos de carregamento rápidos):
+    - No macOS 15 (Sequoia) e posteriores: Clique com o botão direito na pasta **Obsidian** no iCloud Drive e selecione **Manter Transferido**.
+    - No macOS 14 (Sonoma) e anteriores: Desative **Otimizar Armazenamento do Mac** nas definições do iCloud. Esta definição afeta todo o armazenamento do iCloud no dispositivo, não apenas o Obsidian.
 - **Abrir o cofre noutro dispositivo Apple**: 
     - Noutro dispositivo macOS ou iOS, abra o **Obsidian**, vá ao [[Gerir cofres|Alternador de cofres]] e selecione **Abrir pasta como vault**. Navegue até **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ O iCloud pode ser utilizado para sincronizar cofres entre iOS e macOS. No entant
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Para verificar a localização do seu cofre, abra a aplicação **Ficheiros**, toque em **Selecionar**, selecione **iCloud Drive** em **Localizações** e confirme que o seu cofre está dentro da pasta **Obsidian**. Se o seu cofre estiver numa localização diferente, poderá ter problemas de sincronização.
-
-> [!tip] Boas práticas
-> - Para **macOS 14 (Sonoma) e anteriores**: Desative **Otimizar Armazenamento do Mac** nas definições do iCloud para evitar que os ficheiros sejam descarregados do dispositivo. Esta definição afeta todo o armazenamento do iCloud no dispositivo, não apenas o Obsidian.
-> - Para **macOS 15 (Sequoia)**: Clique com o botão direito na pasta **Obsidian** no iCloud Drive e selecione **Manter Transferido**.
 
 ## OneDrive
 

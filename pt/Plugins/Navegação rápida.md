@@ -18,9 +18,8 @@ Existem várias formas de abrir o Alternador rápido, quando está ativado:
 3. Navegue até à nota usando as teclas de seta.
 4. Pressione `Enter` para abrir a nota selecionada.
 
-> [!info] 
-> A funcionalidade de preenchimento automático muda para um algoritmo de resultados mais simples quando o cofre atinge 10.000 itens, para manter o desempenho ideal da aplicação. 
-^search-autocomplete-large
+> [!info] Correspondência difusa
+> As sugestões de ficheiros correspondem às letras por ordem, mesmo que salte algumas. Por exemplo, `nd` pode corresponder a `Notas diárias`.
 
 Se o texto não corresponder a nenhuma nota, pode pressionar `Enter` para criar uma nota com esse nome. Mesmo que o texto corresponda a uma ou mais notas semelhantes, ainda pode criar uma nota com o nome exato pressionando `Shift+Enter`.
 

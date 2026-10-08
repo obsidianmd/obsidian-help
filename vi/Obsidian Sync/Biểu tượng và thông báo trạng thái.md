@@ -80,9 +80,17 @@ Vấn đề này thường xảy ra trên thiết bị di động khi không có
 
 **Unable to download file with illegal name**
 
-Tệp chứa [ký tự đặc biệt hoặc quy ước đặt tên](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) không được phép trên hệ điều hành nhận. Để dễ dàng, bạn có thể đổi tên tệp trên thiết bị nguồn để xóa tất cả ký tự đặc biệt ngoại trừ `-` và `_`.
+Tên tệp sử dụng [ký tự đặc biệt hoặc quy ước đặt tên](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) mà hệ điều hành nhận không thể lưu trữ. Đổi tên tệp trên thiết bị nguồn, sau đó để Sync tải lên lại tệp đã đổi tên.
 
-Lưu ý rằng điều này cũng bao gồm các tệp có nhiều dấu chấm `.` trong tên trên thiết bị Android.
+Đối với các kho được đồng bộ giữa các hệ điều hành khác nhau, hãy tránh những điều sau trong tên tệp và thư mục:
+
+- Các ký tự thường được hệ thống tệp dành riêng, chẳng hạn như `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` và `|`
+- Dấu cách hoặc dấu chấm ở cuối tên
+- Tên thiết bị dành riêng của Windows, chẳng hạn như `CON`, `PRN`, `AUX`, `NUL`, `COM1` đến `COM9`, hoặc `LPT1` đến `LPT9`
+- Các ký tự Obsidian sử dụng cho liên kết, chẳng hạn như `#`, `^`, `[` và `]`, nếu bạn muốn tên ghi chú thân thiện với liên kết
+- Nhiều dấu chấm `.` trong tên tệp, hoặc emoji, cả hai đều có thể bị một số thiết bị Android từ chối
+
+Khi không chắc chắn, hãy sử dụng chữ cái, số, dấu cách thông thường bên trong tên, dấu gạch ngang `-`, dấu gạch dưới `_` và một dấu chấm trước phần mở rộng tệp.
 
 ### Thông báo tài khoản
 

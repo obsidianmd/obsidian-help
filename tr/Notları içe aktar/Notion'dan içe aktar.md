@@ -1,40 +1,48 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
-Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notlarınızı Notion'dan kolayca taşımanızı sağlar. Bu işlem, Notion verilerinizi Obsidian ve diğer birçok uygulamayla çevrimdışı kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
+Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak verilerinizi Notion'dan kolayca taşımanızı sağlar. Bu işlem, Notion çalışma alanınızı Obsidian ve diğer birçok uygulamayla çevrimdışı kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
 Obsidian, Notion verilerinizi içe aktarmak için iki yol sunar:
 
-1. **API ile içe aktarma**, Veritabanları ve formüller dahil tüm çalışma alanınızı korur ve bunları [[Tabanlara giriş|Tabanlar]]'a dönüştürür, ancak bir Notion entegrasyon belirteci ve internet bağlantısı gerektirir.
-2. **Dosya ile içe aktarma**, Veritabanlarını korumaz ancak bir API belirteci veya internet bağlantısı gerektirmez.
+1. **Notion hesabı (önerilen)** doğrudan çalışma alanınıza bağlanır ve Veritabanları ile formülleri koruyarak bunları [[Tabanlara giriş|Tabanlar]]'a dönüştürmenizi sağlar. Bir Notion entegrasyon belirteci ve internet bağlantısı gerektirir.
+2. **Dosya ile içe aktarma**, Notion'ın `.zip` dışa aktarma dosyalarını kullanır. Veritabanlarını korumaz ancak bir API belirteci veya internet bağlantısı gerektirmez.
 
-## API ile içe aktarma
+## İçe aktarılan sayfaları özelleştirme
 
-### Notion API entegrasyon belirteci oluşturma
+Her iki içe aktarma yöntemi de içe aktarma başlamadan önce bir önizleme gösterir. Oluşturulan şablonu düzenleyebilir veya kasanızdan bir Markdown şablonu seçebilirsiniz. Kapak ve veritabanı özellik adları gibi ayarlar, önizlemede gösterilen oluşturulan özellikleri günceller. Bkz. [[İçe aktarıcı şablonları]].
 
-Notion verilerinize API üzerinden erişmek için bir entegrasyon belirtecine ihtiyacınız vardır. Bu adımın tamamlanması yaklaşık 2 dakika sürer.
+## Notion hesabınızdan içe aktarma
+
+### Notion API erişim belirteci oluşturma
+
+Notion verilerinize API üzerinden erişmek için bir erişim belirtecine ihtiyacınız vardır. Bu adımın tamamlanması yaklaşık iki dakika sürer.
 
 Belirteç, genellikle `ntn_...` ile başlayan uzun bir sayı ve harf dizisidir ve verilerinizi Notion'dan indirmenize olanak tanır.
 
-1. [Notion Entegrasyonları](https://www.notion.so/profile/integrations/internal) panonuzda oturum açın.
-2. **New integration** öğesini seçin.
+1. [Notion Connections](https://app.notion.com/developers/connections) panonuzda oturum açın.
+2. **New connection** öğesini seçin.
+	1. Bağlantınıza bir ad verin, örneğin "Personal". Herhangi bir ad kullanılabilir.
+	2. Kimlik doğrulama yöntemi olarak **Access token** öğesini seçin.
+	3. Dışa aktarmak istediğiniz çalışma alanını **Installable in** olarak seçin.
 
 ![[notion-integration.png#interface]]
 
-2. Entegrasyonunuza bir ad verin, örneğin "Personal". Herhangi bir ad kullanılabilir.
-3. Dışa aktarmak istediğiniz çalışma alanını seçin.
-4. **Save** öğesine tıklayın ve **Configure integration settings** ile devam edin.
-5. **Configuration** sekmesinde API belirtecinize **Internal Integration Secret** alanından erişilebilir.
-6. **Show** ardından **Copy** öğesini seçin.
-7. Belirteci parola yöneticiniz gibi güvenli bir yere kaydedin.
+3. **Create connection** öğesine tıklayın.
+4. **Configuration** sekmesinde API belirtecinize **Access token** alanından erişilebilir.
+5. **Show** ardından **Copy** öğesini seçin.
+6. Belirteci parola yöneticiniz gibi güvenli bir yere kaydedin.
 
 ![[notion-token.png#interface]]
 
-Ardından, entegrasyonunuza içe aktarmak istediğiniz Notion sayfaları ve veritabanlarına erişim verin.
+Ardından, bağlantınıza içe aktarmak istediğiniz Notion sayfaları ve veritabanlarına erişim verin.
 
-1. Az önce oluşturduğunuz entegrasyonun **Access** sekmesine gidin.
-2. **Edit access** öğesine tıklayın.
-3. İçe aktarmak istediğiniz sayfaları ve veritabanlarını ekleyin.
+1. Az önce oluşturduğunuz bağlantının **Content access** sekmesine gidin.
+2. İçe aktarmak istediğiniz sayfaları ve veritabanlarını ekleyin.
+
+![[notion-content.png#interface]]
 
 Artık Obsidian İçe Aktarıcı'yı kullanarak verilerinizi dönüştürebilirsiniz.
 
@@ -47,11 +55,11 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 3. İçe aktarıcı eklentisini etkinleştirin.
 4. Komut paleti veya araç çubuğu simgesini kullanarak **İçe aktarıcı** eklentisini açın.
 5. **File format** altında **Notion (API)** öğesini seçin.
-6. **API token** altında, Notion'dan aldığınız **Internal Integration Secret** değerini yapıştırın.
+6. **API token** altında, yeni bir gizli bilgi eklemek için **Bağla...** öğesine tıklayın. **Kimlik** için `notion` gibi bir ad verin ve **Gizli bilgi** için Notion'dan aldığınız **Access token** değerini yapıştırın.
 7. İçe aktarmak istediğiniz veritabanlarını ve sayfaları seçmek için **Yükle** öğesine tıklayın.
 8. İçe aktarma seçeneklerini gözden geçirin ve düzenleyin.
-9. **İçe aktar** öğesini seçin ve içe aktarma tamamlanana kadar bekleyin.
-10. İşlem tamamlandı!
+9. Oluşturulan şablonu gözden geçirmek ve sayfalarınızdan önizleme örneklerini görmek için **İçe aktar** öğesini seçin.
+10. İçe aktarma işleminin tamamlanması için tekrar **İçe aktar** öğesini seçin ve bekleyin.
 
 ### Sınırlamalar
 
@@ -72,7 +80,7 @@ Ek olarak, İçe Aktarıcı şu değişiklikleri yapacaktır:
 - Alt sayfaları veya veritabanları olmayan sayfalar `[dosyaadı]/[dosyaadı].md` yerine `[dosyaadı].md` olarak içe aktarılır.
 - Veritabanları her zaman `[veritabanı adı]` adlı klasörler olarak temsil edilir ve içlerinde bir `[veritabanı adı].base` dosyası bulunur.
 
-## Dosya ile içe aktarma
+## Notion dosyalarını içe aktarma (.zip)
 
 Dosya ile içe aktarma, Notion verilerinizi içe aktarmanın alternatif bir yoludur. Bu yöntem Veritabanlarını korumaz ancak bir API belirteci veya internet bağlantısı gerektirmez.
 
@@ -80,7 +88,7 @@ Dosya ile içe aktarma, Notion verilerinizi içe aktarmanın alternatif bir yolu
 
 Verilerinizi içe aktarmaya hazırlamak için tüm çalışma alanınızı Notion'ın HTML dışa aktarma biçimini kullanarak dışa aktarmanız gerekir. Notion'ın Markdown dışa aktarma özelliğini kullanmamanızı öneririz çünkü önemli verileri atlar. Tüm çalışma alanı içeriğini dışa aktarmak için Notion çalışma alanında yönetici erişiminiz olmalıdır.
 
-1. Notion kenar çubuğunun üst kısmındaki **[[Ayarlar]]** bölümüne gidin.
+1. Notion kenar çubuğunun üst kısmındaki **Settings** bölümüne gidin.
 2. **Workspace** altında **General** öğesini seçin.
 3. **Export all workspace content** öğesini bulun ve seçin.
 4. **Export format** altında **HTML** öğesini seçin.
@@ -104,8 +112,8 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 6. İçe aktarmak istediğiniz Notion dosyalarını içeren `.zip` dosyasını seçin. *Dahili bağlantıların doğru şekilde eşleştirilmesi için tüm Notion verilerinizi tek seferde içe aktarmanız önerilir.*
 7. _İsteğe bağlı olarak_, içe aktarma için bir klasör seçin. Notion sayfalarınız ve veritabanlarınız bu klasörün içine yerleştirilecektir.
 8. Notion yapısını korumak için **Save parent pages in subfolders** seçeneğini etkinleştirin. *Notion'da klasörlere içerik yazabileceğinizi, ancak bunun Obsidian'da mümkün olmadığını ve bu sayfaların klasör altında bir alt sayfa olarak ekleneceğini unutmayın.*
-9. **İçe aktar** öğesini seçin ve içe aktarma tamamlanana kadar bekleyin.
-10. İşlem tamamlandı!
+9. Oluşturulan şablonu gözden geçirmek ve sayfalarınızdan önizleme örneklerini görmek için **İçe aktar** öğesini seçin.
+10. İçe aktarma işleminin tamamlanması için tekrar **İçe aktar** öğesini seçin ve bekleyin.
 
 ### Sorun giderme
 
@@ -125,3 +133,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Bu hatayı görürseniz, Notion'dan gelen dosyayı açabilir ve ardından iç içe geçmiş `Export-{id}-Part-1.zip` dosyalarını içe aktarabilirsiniz.
+
+## Şablonlar
+
+Notion verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe Aktarıcı şablonlarını]] kullanın.
+
+![[İçe aktarıcı şablonları#Variables]]

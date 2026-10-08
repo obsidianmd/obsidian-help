@@ -102,6 +102,13 @@ Remove espaços em branco de ambas as extremidades de uma cadeia.
 
 - `"  hello world  "|trim` retorna `"hello world"`.
 
+### `unescape`
+
+Converte aspas escapadas e sequências de nova linha em caracteres literais.
+
+- `"Line 1\\nLine 2"|unescape` retorna o texto em duas linhas.
+- `'He said \\"hello\\"'|unescape` retorna `He said "hello"`.
+
 ### `uncamel`
 
 Converte camelCase ou PascalCase para palavras separadas por espaços, que pode formatar adicionalmente com outros filtros como `title` ou `capitalize`.
@@ -206,6 +213,14 @@ Retorna o comprimento de cadeias, arrays ou número de chaves em objetos.
 - Para arrays: `["a","b","c"]|length` retorna `3`.
 - Para objetos: `{"a":1,"b":2}|length` retorna `2`.
 
+### `number_format`
+
+Formata um número com um número especificado de casas decimais e separadores decimais e de milhares opcionais.
+
+- `1234.567|number_format:2` retorna `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` retorna `"1.234,57"`.
+- Arrays e objetos são formatados recursivamente.
+
 ### `round`
 
 Arredonda um número para o inteiro mais próximo ou para um número especificado de casas decimais.
@@ -216,6 +231,10 @@ Arredonda um número para o inteiro mais próximo ou para um número especificad
 ## Processamento de HTML
 
 Processar conteúdo HTML e converter HTML para Markdown. Note que a sua [[Variáveis|variável]] de entrada deve conter conteúdo HTML, por exemplo usando `{{fullHtml}}`, `{{contentHtml}}` ou uma variável `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Converte HTML em JSON estruturado contendo a tag, atributos e filhos de cada elemento. Nós de texto usam o formato `{"type":"text","content":"..."}`. Isto pode ser combinado com filtros como `map`, `object` e `template` para reformar HTML extraído.
 
 ### `markdown` 
 
@@ -339,6 +358,13 @@ Manipula dados de objetos:
 - `object:keys` retorna um array das chaves do objeto.
 - `object:values` retorna um array dos valores do objeto.
 - Exemplo: `{"a":1,"b":2}|object:array` retorna `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Inverte cadeias, arrays e a ordem das entradas de objetos.
+
+- `"abc"|reverse` retorna `"cba"`.
+- `["a","b","c"]|reverse` retorna `["c","b","a"]`.
 
 ### `slice`
 

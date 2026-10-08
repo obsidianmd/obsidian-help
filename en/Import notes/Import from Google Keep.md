@@ -1,7 +1,9 @@
 ---
 permalink: import/google-keep
+cssclasses:
+  - soft-embed
 ---
-Obsidian lets you easily migrate your notes from Google Keep using the [[Importer|Importer plugin]]. This will convert your Google Keep data to durable Markdown files, that you can use with Obsidian and many other apps.
+Obsidian lets you easily migrate your notes from Google Keep using the [[Importer|Importer plugin]]. This converts your Google Keep data to durable Markdown files you can use with Obsidian and many other apps.
 
 ## Export your data from Google Keep
 
@@ -22,11 +24,31 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 4. Open the **Importer** plugin using the command palette or ribbon icon.
 5. Under **File format** choose **Google Keep (.zip).**
 6. Select the location of your `.zip` file.
-7. Click **Import** and wait until import is complete.
-8. You're done!
+7. Select **Import** to review the generated template and preview examples from your notes.
+8. Select **Import** again and wait for the import to finish.
 
-### Supported features
+## Limitations
 
 - All checklists will import as top-level items because Google Keep doesn't export indentation information.
 - Reminders and user assignments on notes will not be imported because these features are not supported by Obsidian.
-- All other information should import as a combination of content and tags.
+
+
+## Templates
+
+Use [[Importer templates|Importer templates]] to fully configure how your Google Keep data is imported. 
+
+![[Importer templates#Variables]]
+
+Additionally Google Keep provides variables for the original text, lists, labels, attachments, colors, sharing data, tasks, annotations, and note state.
+
+| Variable          | Description                                       |
+| ----------------- | ------------------------------------------------- |
+| `{{isArchived}}`  | Whether the note is archived.                     |
+| `{{isPinned}}`    | Whether the note is pinned.                       |
+| `{{isTrashed}}`   | Whether the note is in the trash.                 |
+| `{{color}}`       | Google Keep color name.                           |
+| `{{labels}}`      | Array of label records.                           |
+| `{{sharees}}`     | Array of people with whom the note was shared.    |
+| `{{annotations}}` | Array of link annotation records.                 |
+
+The original Google Keep title is available as `{{source.title}}`. The shared `{{title}}` variable contains the imported note title.

@@ -145,6 +145,23 @@ Formátování lze vynutit k zobrazení jako prostý text přidáním zpětného
 \**Tento řádek bude kurzívou a zobrazí hvězdičky*\*
 ```
 
+### Barvy zvýraznění
+
+Zvýraznění podporuje šest barev. Přidejte barevné emoji bezprostředně za úvodní `==`:
+
+| Barva  | Příklad               |
+| ------ | --------------------- |
+| Červená    | `==🔴Důležité==`     |
+| Oranžová | `==🟠Sledovat==`     |
+| Žlutá | `==🟡Zapamatovat si==` |
+| Zelená  | `==🟢Dokončeno==`     |
+| Modrá   | `==🔵Reference==`     |
+| Fialová | `==🟣Nápad==`          |
+
+Bez barevného emoji zvýraznění používá výchozí barvu zvýraznění vašeho motivu.
+
+Barvu můžete také vybrat z nabídky formátování. Zadáním `==` v editoru se nabídnou barvy zvýraznění. V [[Zobrazení a režim úprav#Živý náhled|živém náhledu]] se po umístění kurzoru dovnitř zvýraznění zobrazí barevný vzorník. Vyberte vzorník pro změnu barvy.
+
 ## Interní odkazy
 
 Obsidian podporuje dva formáty pro [[Interní odkazy|interní odkazy]] mezi poznámkami:

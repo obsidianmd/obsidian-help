@@ -8,6 +8,8 @@ Naučte sa, ako zmeniť vzhľad a dojem z Obsidian pomocou tém vytvorených kom
 1. Otvorte **[[Nastavenia]]**.
 2. V časti **Vzhľad → Témy** vyberte **Spravovať** na zobrazenie všetkých dostupných komunitných tém.
 
+Dostupné témy si môžete prehliadať aj vo svojom prehliadači na stránke [community.obsidian.md](https://community.obsidian.md). Viac informácií o tom, čo zobrazuje stránka témy, nájdete v časti [[Komunitný adresár]].
+
 ## Inštalácia novej témy
 
 1. Otvorte **[[Nastavenia]]**.

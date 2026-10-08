@@ -108,7 +108,91 @@ translation=Je Craft-gegevens importeren in Obsidian
 
 [heading.import/Troubleshooting]
 original=Troubleshooting
-translation=Probleemoplossing
+translation=Problemen oplossen
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Een persoonlijk Airtable-toegangstoken aanmaken
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Je Airtable-gegevens importeren
+
+[heading.import/Import options]
+original=Import options
+translation=Importopties
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configureren hoe Airtable-velden worden geïmporteerd
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Wat er wordt geïmporteerd
+
+[heading.import/Limitations]
+original=Limitations
+translation=Beperkingen
+
+[heading.import/Before you start]
+original=Before you start
+translation=Voordat je begint
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Je Logseq-grafiek importeren
+
+[heading.import/Settings]
+original=Settings
+translation=Instellingen
+
+[heading.import/Journals]
+original=Journals
+translation=Dagboeken
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Overzichten afvlakken
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Incompatibele gegevens behouden
+
+[heading.import/Templates]
+original=Templates
+translation=Sjablonen
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Zoek je notitiebestanden
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Je Tomboy- of Gnote-notities importeren
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Het importsjabloon bewerken
+
+[heading.import/Preview results]
+original=Preview results
+translation=Resultaten voorbeschouwen
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Sjabloonsyntaxis
+
+[heading.import/Variables]
+original=Variables
+translation=Variabelen
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Bronwaarden voor eigenschappen
+
+[heading.import/Example template]
+original=Example template
+translation=Voorbeeldsjabloon
 
 [heading.link-notes/Create a link]
 original=Create a link
@@ -517,6 +601,26 @@ translation=Versiegeschiedenis van een instelling bekijken
 [heading.sync/Restore a previous version of a setting]
 original=Restore a previous version of a setting
 translation=Een eerdere versie van een instelling herstellen
+
+[heading.sync/How Obsidian Sync handles conflicts]
+original=How Obsidian Sync handles conflicts
+translation=Hoe Obsidian Sync conflicten afhandelt
+
+[heading.sync/Conflict resolution options]
+original=Conflict resolution options
+translation=Opties voor conflictoplossing
+
+[heading.sync/Sync deleted a note I just created on two devices]
+original=Sync deleted a note I just created on two devices
+translation=Sync heeft een notitie verwijderd die ik net op twee apparaten heb aangemaakt
+
+[heading.sync/Sync will not sync my plugins and settings updates]
+original=Sync will not sync my plugins and settings updates
+translation=Sync synchroniseert mijn plug-ins en instellingenupdates niet
+
+[heading.sync/My files keep disappearing from Sync as soon as I restore it]
+original=My files keep disappearing from Sync as soon as I restore it
+translation=Mijn bestanden blijven verdwijnen uit Sync zodra ik ze herstel
 
 [heading.web-clipper/Dates]
 original=Dates
@@ -966,67 +1070,67 @@ translation=Probleemoplossing
 original=Alternate shells
 translation=Alternatieve shells
 
-[heading.bases/views/Toolbar]
+[heading.bases/Toolbar]
 original=Toolbar
 translation=Werkbalk
 
-[heading.bases/views/Add and switch views]
+[heading.bases/Add and switch views]
 original=Add and switch views
 translation=Weergaven toevoegen en wisselen
 
-[heading.bases/views/View settings]
+[heading.bases/View settings]
 original=View settings
 translation=Weergave-instellingen
 
-[heading.bases/views/Layout]
+[heading.bases/Layout]
 original=Layout
 translation=Lay-out
 
-[heading.bases/views/Components of a filter]
+[heading.bases/Components of a filter]
 original=Components of a filter
 translation=Onderdelen van een filter
 
-[heading.bases/views/Conjunctions]
+[heading.bases/Conjunctions]
 original=Conjunctions
 translation=Voegwoorden
 
-[heading.bases/views/Filter groups]
+[heading.bases/Filter groups]
 original=Filter groups
 translation=Filtergroepen
 
-[heading.bases/views/Advanced filter editor]
+[heading.bases/Advanced filter editor]
 original=Advanced filter editor
 translation=Geavanceerde filtereditor
 
-[heading.bases/views/Sort and group results]
+[heading.bases/Sort and group results]
 original=Sort and group results
 translation=Resultaten sorteren en groeperen
 
-[heading.bases/views/Add a sort]
+[heading.bases/Add a sort]
 original=Add a sort
 translation=Een sortering toevoegen
 
-[heading.bases/views/Remove a sort]
+[heading.bases/Remove a sort]
 original=Remove a sort
 translation=Een sortering verwijderen
 
-[heading.bases/views/Limit, copy, and export results]
+[heading.bases/Limit, copy, and export results]
 original=Limit, copy, and export results
 translation=Resultaten beperken, kopiëren en exporteren
 
-[heading.bases/views/Limit results]
+[heading.bases/Limit results]
 original=Limit results
 translation=Resultaten beperken
 
-[heading.bases/views/Copy to clipboard]
+[heading.bases/Copy to clipboard]
 original=Copy to clipboard
 translation=Naar klembord kopiëren
 
-[heading.bases/views/Export CSV]
+[heading.bases/Export CSV]
 original=Export CSV
 translation=CSV exporteren
 
-[heading.bases/views/Embed a view]
+[heading.bases/Embed a view]
 original=Embed a view
 translation=Een weergave insluiten
 
@@ -1310,30 +1414,54 @@ translation=Eigenschappen voor Obsidian Publish
 original=Deprecated properties
 translation=Verouderde eigenschappen
 
-[heading.sync/troubleshoot/General]
-original=General
-translation=Algemeen
+[heading.community-directory/Header]
+original=Header
+translation=Koptekst
 
-[heading.sync/troubleshoot/Conflict resolution]
-original=Conflict resolution
-translation=Conflictoplossing
+[heading.community-directory/Overview]
+original=Overview
+translation=Overzicht
 
-[heading.sync/troubleshoot/How Obsidian Sync handles conflicts]
-original=How Obsidian Sync handles conflicts
-translation=Hoe Obsidian Sync conflicten afhandelt
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Scorekaart
 
-[heading.sync/troubleshoot/Conflict resolution options]
-original=Conflict resolution options
-translation=Opties voor conflictoplossing
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Zijbalk
 
-[heading.sync/troubleshoot/Sync deleted a note I just created on two devices]
-original=Sync deleted a note I just created on two devices
-translation=Sync heeft een notitie verwijderd die ik net op twee apparaten heb aangemaakt
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Veelgestelde vragen
 
-[heading.sync/troubleshoot/Sync will not sync my plugins and settings updates]
-original=Sync will not sync my plugins and settings updates
-translation=Sync synchroniseert mijn plug-ins en instellingenupdates niet
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Kaarten groeperen in kolommen
 
-[heading.sync/troubleshoot/My files keep disappearing from Sync as soon as I restore it]
-original=My files keep disappearing from Sync as soon as I restore it
-translation=Mijn bestanden blijven verdwijnen uit Sync zodra ik ze herstel
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Werken met kaarten en kolommen
+
+[heading.bases/views/kanban/Settings]
+original=Settings
+translation=Instellingen
+
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Lege kolommen verbergen
+
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Kolombreedte
+
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Afbeeldingseigenschap
+
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Afbeelding passend maken
+
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Beeldverhouding van afbeelding

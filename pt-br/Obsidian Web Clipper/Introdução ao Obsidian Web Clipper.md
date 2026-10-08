@@ -27,7 +27,7 @@ Obtenha a extensão Obsidian Web Clipper no diretório oficial do seu navegador:
 	- Destaque passagens importantes e selecione elementos que deseja salvar.
 - [[Leitor|Leitor]]
 	- Leia páginas web em uma visualização limpa e sem distrações.
-- [[Interpretador|Interpretador]]
+- [[Intérprete|Interpretador]]
 	- Use prompts em linguagem natural para capturar e modificar dados em uma página.
 - [[Solução de problemas do Web Clipper|Solução de problemas]]
 	- Resolva problemas comuns com o Web Clipper.

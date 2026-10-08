@@ -32,6 +32,7 @@ Si vous ne voyez aucun contenu dans Obsidian lorsque vous cliquez sur **Ajouter 
 
 - Assurez-vous que le protocole [[Obsidian URI]] [[Obsidian URI#Enregistrer le protocole URI Obsidian|est enregistré]].
 - Si vous utilisez Firefox, vous devrez peut-être [l'enregistrer dans les paramètres du navigateur](https://kb.mozillazine.org/Register_protocol).
+- Si vous utilisez le Flatpak, vous devrez peut-être mettre à jour la valeur `x-scheme-handler/obsidian` trouvée dans votre `.config/mimeapps.list` de `obsidian.desktop` à `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian s'ouvre mais seul le nom du fichier est enregistré
 

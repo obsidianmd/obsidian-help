@@ -147,6 +147,23 @@ La formattazione può essere forzata a essere visualizzata come testo normale ag
 \**Questa riga sarà in corsivo e mostrerà gli asterischi*\*
 ```
 
+### Colori di evidenziazione
+
+L'evidenziazione supporta sei colori. Aggiungi un'emoji colore subito dopo l'apertura `==`:
+
+| Colore  | Esempio               |
+| ------ | --------------------- |
+| Rosso    | `==🔴Importante==`     |
+| Arancione | `==🟠Da seguire==`     |
+| Giallo | `==🟡Ricorda questo==` |
+| Verde  | `==🟢Completato==`     |
+| Blu   | `==🔵Riferimento==`     |
+| Viola | `==🟣Idea==`          |
+
+Senza un'emoji colore, l'evidenziazione usa il colore predefinito del tema.
+
+Puoi anche scegliere un colore dal menu di formattazione. Digitando `==` nell'editor vengono suggeriti i colori di evidenziazione. Nell'[[Viste e modalità di modifica#Anteprima dal vivo|anteprima dinamica]], posizionando il cursore all'interno di un'evidenziazione viene mostrato un campione di colore. Seleziona il campione per cambiare il colore.
+
 ## Collegamenti interni
 
 Obsidian supporta due formati per i [[Collegamenti interni|collegamenti interni]] tra le note:

@@ -18,9 +18,8 @@ Hızlı Geçiş etkinleştirildiğinde, açmanın birkaç yolu vardır:
 3. Ok tuşlarını kullanarak nota gidin.
 4. Seçili notu açmak için `Enter` tuşuna basın.
 
-> [!info] 
-> Otomatik tamamlama işlevi, kasa 10.000 öğeye ulaştığında optimum uygulama performansını korumak için daha basit bir sonuç algoritmasına geçer. 
-^search-autocomplete-large
+> [!info] Bulanık eşleştirme
+> Dosya önerileri, bazılarını atlasanız bile harfleri sırayla eşleştirir. Örneğin, `gn` ifadesi `Günlük notlar` ile eşleşebilir.
 
 Metin herhangi bir notla eşleşmezse, bu adla bir not oluşturmak için `Enter` tuşuna basabilirsiniz. Metin bir veya daha fazla benzer notla eşleşse bile, `Shift+Enter` tuşlarına basarak tam o adla bir not oluşturabilirsiniz.
 

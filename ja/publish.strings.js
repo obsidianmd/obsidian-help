@@ -1,4 +1,5 @@
 // Locale UI strings — Japanese
+window.LANG_SWITCHER_STRINGS = { search: "言語を切り替え...", noResults: "結果がありません" };
 (function () {
   function apply() {
     var el;

@@ -10,11 +10,11 @@ A Beállítások lehetővé teszik az Obsidian élményének testreszabását. K
 
 ### Asztali verzió
 
-A [[Oldalsáv#Rejtett oldalsávok megnyitása|bal oldalsávban]] válassza a **[[Beállítások]]** ![[lucide-cog.svg#icon]] lehetőséget. A Beállításokat a [[Parancspaletta]] segítségével is megnyithatja.
+Az [[Oldalsáv#Rejtett oldalsávok megnyitása|oldalsávban]] válassza a **[[Beállítások]]** ![[lucide-cog.svg#icon]] lehetőséget. A Beállításokat a [[Parancspaletta]] segítségével is megnyithatja.
 
 ### Mobil
 
-A bal oldalsávban válassza a **[[Beállítások]]** ![[lucide-cog.svg#icon]] lehetőséget.
+Az oldalsávban válassza a **[[Beállítások]]** ![[lucide-cog.svg#icon]] lehetőséget. A Beállítások egy lapként nyílnak meg az alkalmazás felett.
 
 ## A beállítások felépítése
 
@@ -187,6 +187,8 @@ Az új jegyzetek létrehozásának helye. A lehetőségek:
 - **Ugyanabban a mappában, ahol a fájl található** — A jegyzetek az aktuálisan aktív jegyzettel azonos mappában jönnek létre.
 - **A lent megadott mappában** — A jegyzetek egy Ön által kiválasztott megadott mappában jönnek létre.
 
+Ez a beállítás nem érvényes, ha egy [[Belső hivatkozások|belső hivatkozás]] mappa útvonalat tartalmaz. Például a `[[Projektek/A mozgás három törvénye]]` létrehozása a jegyzetet a széf gyökeréhez képest a `Projektek` mappában hozza létre.
+
 ### Új melléklet alapértelmezett helye
 
 Az újonnan hozzáadott [[Csatolmányok|csatolmányok]] elhelyezésének helye. A lehetőségek:
@@ -292,9 +294,11 @@ Beállítja az olyan helyek, mint a kódblokkok és a metaadatok, betűtípusát
 
 A szerkesztő és az olvasási nézet betűmérete pixelben. Állítsa be a csúszkával.
 
+A betűméret minden eszközön külön kerül mentésre, és nem szinkronizálódik az [[Bevezetés az Obsidian Sync-be|Obsidian Sync]] segítségével. Mobilon a szöveg és a felületi elemek a rendszer által előnyben részesített szövegmérettel is skálázódnak, beleértve az akadálymentességi méreteket is.
+
 #### Betűméret gyors állítása
 
-A betűméret állítása `Ctrl+Görgetés` (Windows/Linux) vagy `Cmd+Görgetés` (macOS) billentyűkombinációval, illetve a trackpad csíptetés-nagyítás gesztusával.
+A betűméret állítása `Ctrl+Görgetés` (Windows/Linux) vagy `Cmd+Görgetés` (macOS) billentyűkombinációval, illetve a trackpad csíptetés-nagyítás gesztusával. Használhatja a **Betűméret növelése** és **Betűméret csökkentése** parancsokat is a [[Parancspaletta|parancspalettában]], vagy rendelhet hozzájuk [[Gyorsbillentyűk|billentyűparancsokat]].
 
 ### Felület
 

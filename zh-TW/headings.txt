@@ -1978,6 +1978,22 @@ translation=區域圖譜
 original=Install Importer
 translation=安裝匯入工具
 
+[heading.plugins/Show backlinks]
+original=Show backlinks
+translation=顯示反向連結
+
+[heading.plugins/View backlinks for a note]
+original=View backlinks for a note
+translation=檢視筆記的反向連結
+
+[heading.plugins/See backlinks of a specific note]
+original=See backlinks of a specific note
+translation=查看特定筆記的反向連結
+
+[heading.plugins/Show backlinks in a note]
+original=Show backlinks in a note
+translation=在筆記中顯示反向連結
+
 [heading.teams/Use Obsidian with your team]
 original=Use Obsidian with your team
 translation=與團隊一起使用 Obsidian
@@ -2781,6 +2797,86 @@ translation=從其他應用程式和檔案格式匯入
 [heading.import/More formats]
 original=More formats
 translation=更多格式
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=建立 Airtable 個人存取權杖
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=匯入你的 Airtable 資料
+
+[heading.import/Import options]
+original=Import options
+translation=匯入選項
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=設定 Airtable 欄位的匯入方式
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=匯入的內容
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=編輯匯入範本
+
+[heading.import/Preview results]
+original=Preview results
+translation=預覽結果
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=範本語法
+
+[heading.import/Variables]
+original=Variables
+translation=變數
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=屬性的來源值
+
+[heading.import/Example template]
+original=Example template
+translation=範本範例
+
+[heading.import/Before you start]
+original=Before you start
+translation=開始之前
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=匯入你的 Logseq 圖譜
+
+[heading.import/Settings]
+original=Settings
+translation=設定
+
+[heading.import/Journals]
+original=Journals
+translation=日誌
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=展平大綱
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=保留不相容的資料
+
+[heading.import/Templates]
+original=Templates
+translation=模板
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=尋找你的筆記檔案
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=匯入你的 Tomboy 或 Gnote 筆記
 
 [heading.catalyst/Catalyst tiers]
 original=Catalyst tiers
@@ -4074,22 +4170,6 @@ translation=在筆記之間瀏覽
 original=Learn more
 translation=深入了解
 
-[heading.plugins/backlinks/Show backlinks]
-original=Show backlinks
-translation=顯示反向連結
-
-[heading.plugins/backlinks/View backlinks for a note]
-original=View backlinks for a note
-translation=檢視筆記的反向連結
-
-[heading.plugins/backlinks/See backlinks of a specific note]
-original=See backlinks of a specific note
-translation=查看特定筆記的反向連結
-
-[heading.plugins/backlinks/Show backlinks in a note]
-original=Show backlinks in a note
-translation=在筆記中顯示反向連結
-
 [heading.tags/Add a tag to a note]
 original=Add a tag to a note
 translation=在筆記中新增標籤
@@ -4105,3 +4185,59 @@ translation=巢狀標籤
 [heading.tags/Tag format]
 original=Tag format
 translation=標籤格式
+
+[heading.community-directory/Header]
+original=Header
+translation=頁首
+
+[heading.community-directory/Overview]
+original=Overview
+translation=概覽
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=評分卡
+
+[heading.community-directory/Updates]
+original=Updates
+translation=更新
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=側邊欄
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=常見問題
+
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=將卡片分組為直欄
+
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=使用卡片與直欄
+
+[heading.bases/views/kanban/Settings]
+original=Settings
+translation=設定
+
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=隱藏空直欄
+
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=直欄寬度
+
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=圖片屬性
+
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=圖片縮放方式
+
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=圖片長寬比

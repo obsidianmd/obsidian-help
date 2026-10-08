@@ -4,45 +4,20 @@ publish: true
 mobile: true
 description: 'A Formátumkonvertáló egy alapbővítmény, amely lehetővé teszi a Markdown konvertálását más alkalmazásokból az Obsidian formátumára.'
 ---
-A Formátum-konvertáló egy [[Alap bővítmények|alap bővítmény]], amely lehetővé teszi a Markdown konvertálását más alkalmazásokból Obsidian formátumba. Emellett lehetővé teszi bizonyos [[Tulajdonságok]] konvertálását az új, szükséges formátumokba.
+A Formátum-konvertáló az elavult [[Tulajdonságok#Elavult tulajdonságok|tulajdonságformátumokat]] az Obsidian által használt aktuális formátumra alakítja át.
 
-> [!warning] Figyelmeztetés
-> A Formátum-konvertáló a beállításaid alapján a teljes széfet konvertálja. [[Obsidian fájlok biztonsági mentése|Készíts biztonsági mentést az Obsidian fájljaidról]], mielőtt végrehajtod a konvertálást.
+> [!warning] Készíts biztonsági mentést a széfedről
+> A konvertálás a teljes széfre vonatkozik. [[Obsidian fájlok biztonsági mentése|Készíts biztonsági mentést az Obsidian fájljaidról]], mielőtt elkezded.
 
-Az összes jegyzet konvertálásához a széfben:
+A jegyzeteidben lévő tulajdonságok konvertálásához:
 
-1. A [[Parancspaletta|parancspalettában]] válaszd a **Formátum-konvertáló megnyitása** lehetőséget. Ez a [[Szalag|szalagon]] is megtalálható a **Formátum-konvertáló megnyitása** ![[lucide-binary.svg#icon]] ikonnal.
-2. Engedélyezd a konvertálni kívánt formátumokat.
-3. Kattints a **Konvertálás indítása** gombra.
+1. Nyisd meg a [[Parancspaletta|parancspalettát]].
+2. Válaszd a **Formátum-konvertáló: Metaadatok migrációja** lehetőséget.
+3. Válaszd a **Konvertálás indítása** lehetőséget.
 
-További információkért lásd az [[Alapvető formázási szintaxis]] oldalt.
+## Támogatott tulajdonságformátumok
 
-## Támogatott formátumok
-
-### Roam Research
-
-A Formátum-konvertáló a következő Roam Research szintaxist tudja konvertálni:
-
-- **Címkék**: A `#tag` és `#[[tag]]` formátumot `[[tag]]` formátumra konvertálja
-- **Kiemelések**: A `^^highlight^^` formátumot `==highlight==` formátumra konvertálja
-- **TODO elemek**: A `{{[[TODO]]}}` formátumot `[ ]` formátumra konvertálja
-
-### Bear
-
-A Formátum-konvertáló a következő Bear szintaxist tudja konvertálni:
-
-- **Kiemelések**: A `::highlight::` formátumot `==highlight==` formátumra konvertálja
-
-### Zettelkasten
-
-A Formátum-konvertáló a következő Zettelkasten szintaxist tudja konvertálni:
-
-- **Teljes hivatkozások**: A `[[UID]]` formátumot `[[UID File Name]]` formátumra konvertálja
-- **Szép hivatkozások**: A `[[UID]]` formátumot `[[UID File Name|File Name]]` formátumra konvertálja
-
-### [[Tulajdonságok]]
-
-Az Obsidian `1.9.3` verziójától kezdve a Formátum-konvertáló képes a [[Tulajdonságok#Elavult tulajdonságok|elavult tulajdonság]] formátumokat az aktuális formátumra konvertálni:
+A konvertáló az alternatív neveket, címkéket és CSS osztályokat frissíti az elavult formátumokról:
 
 **Alternatív nevek**
 

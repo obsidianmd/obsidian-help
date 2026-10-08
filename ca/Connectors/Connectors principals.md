@@ -42,8 +42,6 @@ L'equip d'Obsidian també manté el desenvolupament de certs [[#Altres connector
 	- Mostra l'índex de la nota activa.
 - [[Explorador de fitxers]]
 	- Navega pels fitxers i carpetes dins la teva cambra forta.
-- [[Importador de format Markdown]]
-	- Converteix Markdown d'altres aplicacions al format Obsidian.
 - [[Marcadors]]
 	- Desa enllaços a notes, encapçalaments, cerques i més.
 - [[Nota aleatòria]]
@@ -70,7 +68,7 @@ L'equip d'Obsidian també manté el desenvolupament de certs [[#Altres connector
 	- Cerca, crea i obre notes des del teu teclat.
 - [[Introducció a Obsidian Sync|Sync]]
 	- Sincronitza les teves notes entre dispositius.
-- [[Visor de notes al peu]]
+- [[Vista de notes a peu de pàgina|Visor de notes al peu]]
 	- Mostra una llista de notes al peu de la nota actual.
 - [[Visor web]]
 	- Obre enllaços externs a Obsidian.

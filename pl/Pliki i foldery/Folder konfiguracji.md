@@ -4,15 +4,15 @@ publish: true
 mobile: true
 description: 'Dowiedz się, jak uzyskać dostęp do folderu konfiguracyjnego i zarządzać nim na urządzeniach stacjonarnych i mobilnych.'
 ---
-Folder konfiguracji Obsidian zawiera wszystkie pliki ustawień dotyczące Twojego [[Zarządzaj skarbcami|skarbca]].
+Folder konfiguracji Obsidian zawiera wszystkie pliki ustawień dotyczące Twojego [[Zarządzaj sejfami|sejfu]].
 
-Domyślnie folder konfiguracji nosi nazwę `.obsidian` i znajduje się w folderze skarbca. Jeśli korzystasz z usługi synchronizacji lub chcesz testować różne profile w tym samym skarbcu, możesz zmienić folder konfiguracji.
+Domyślnie folder konfiguracji nosi nazwę `.obsidian` i znajduje się w folderze sejfu. Jeśli korzystasz z usługi synchronizacji lub chcesz testować różne profile w tym samym sejfie, możesz zmienić folder konfiguracji.
 
 ## Dostęp do folderu konfiguracji
 
 ### Komputer
 
-Na komputerze folder `.obsidian` znajduje się w folderze skarbca. Możesz uzyskać do niego dostęp za pomocą systemowego menedżera plików.
+Na komputerze folder `.obsidian` znajduje się w folderze sejfu. Możesz uzyskać do niego dostęp za pomocą systemowego menedżera plików.
 
 ### Urządzenia mobilne
 
@@ -31,7 +31,7 @@ Aby uzyskać dostęp do folderu `.obsidian` na Androidzie:
 
 1. Otwórz systemowy menedżer plików.
 2. Włącz opcję „Pokaż ukryte pliki" w ustawieniach.
-3. Przejdź do folderu skarbca. Folder `.obsidian` pojawi się na najwyższym poziomie.
+3. Przejdź do folderu sejfu. Folder `.obsidian` pojawi się na najwyższym poziomie.
 
 > [!tip]- Alternatywne menedżery plików
 > Jeśli domyślny menedżer plików nie posiada opcji „Pokaż ukryte pliki", zainstaluj aplikację menedżera plików, która zawiera tę funkcję.
@@ -44,4 +44,4 @@ Aby ustawić folder konfiguracji:
 2. W polu **Zastąp folder konfiguracji** wpisz nazwę swojego profilu, zaczynając od kropki (`.`). Na przykład `.obsidian-awesome`.
 3. Uruchom ponownie Obsidian, aby zmiany zostały zastosowane.
 
-> [!info] Żadne ustawienia z obecnego folderu konfiguracji nie zostaną przeniesione do nowego folderu konfiguracji. Jednak poprzedni folder konfiguracji pozostanie w folderze skarbca.
+> [!info] Żadne ustawienia z obecnego folderu konfiguracji nie zostaną przeniesione do nowego folderu konfiguracji. Jednak poprzedni folder konfiguracji pozostanie w folderze sejfu.

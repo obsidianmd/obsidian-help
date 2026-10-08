@@ -3,41 +3,45 @@ permalink: import/notion
 aliases:
   - Import fra Notion
   - Import af noter/Import fra Notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian gør det nemt at migrere dine noter fra Notion ved hjælp af [[Importér|Importer-pluginet]]. Dette vil konvertere dine Notion-data til holdbare Markdown-filer, som du kan bruge offline med Obsidian og mange andre applikationer.
 
 Obsidian tilbyder to måder at importere dine Notion-data på:
 
-1. **API-import** bevarer hele dit arbejdsområde inklusiv Databases og formler, som konverteres til [[Introduktion til Baser|Baser]], men kræver et Notion-integrationstoken og en internetforbindelse.
-2. **Filimport** bevarer ikke Databases, men kræver hverken et API-token eller internetforbindelse.
+1. **Notion-konto (anbefalet)** opretter direkte forbindelse til dit arbejdsområde og lader dig bevare Databases og formler, som konverteres til [[Introduktion til Baser|Baser]]. Kræver et Notion-integrationstoken og en internetforbindelse.
+2. **Filimport** bruger Notions `.zip`-eksportfiler. Bevarer ikke Databases, men kræver hverken et API-token eller internetforbindelse.
 
-## API-import
+## Importér fra din Notion-konto
 
-### Opret et Notion API-integrationstoken
+### Opret et Notion API-adgangstoken
 
-For at få adgang til dine Notion-data via API'et skal du bruge et integrationstoken. Dette trin tager cirka 2 minutter at gennemføre.
+For at få adgang til dine Notion-data via API'et skal du bruge et adgangstoken. Dette trin tager cirka to minutter at gennemføre.
 
 Tokenet er en lang streng af tal og bogstaver, der typisk starter med `ntn_...`, som giver dig mulighed for at hente dine data fra Notion.
 
-1. Log ind på dit [Notion Integrations](https://www.notion.so/profile/integrations/internal)-dashboard.
-2. Vælg **New integration**.
+1. Log ind på dit [Notion Connections](https://app.notion.com/developers/connections)-dashboard.
+2. Vælg **New connection**.
+	1. Giv din forbindelse et navn, f.eks. "Personal". Ethvert navn kan bruges.
+	2. Vælg **Access token** som godkendelsesmetode.
+	3. Vælg det arbejdsområde, du vil eksportere, som **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Giv din integration et navn, f.eks. "Personal". Ethvert navn kan bruges.
-3. Vælg det arbejdsområde, du vil eksportere.
-4. Klik på **Save** og fortsæt til **Configure integration settings**.
-5. Under fanen **Configuration** er dit API-token tilgængeligt i feltet **Internal Integration Secret**.
-6. Vælg **Show** og derefter **Copy**.
-7. Gem tokenet et sikkert sted som f.eks. din adgangskodemanager.
+3. Klik på **Create connection**.
+4. Under fanen **Configuration** er dit API-token tilgængeligt i feltet **Access token**.
+5. Vælg **Show** og derefter **Copy**.
+6. Gem tokenet et sikkert sted som f.eks. din adgangskodemanager.
 
 ![[notion-token.png#interface]]
 
-Giv derefter din integration adgang til de Notion-sider og -databaser, du vil importere.
+Giv derefter din forbindelse adgang til de Notion-sider og -databaser, du vil importere.
 
-1. Gå til fanen **Access** for den integration, du lige har oprettet.
-2. Klik på **Edit access**.
-3. Tilføj de sider og databaser, du vil importere.
+1. Gå til fanen **Content access** for den forbindelse, du lige har oprettet.
+2. Tilføj de sider og databaser, du vil importere.
+
+![[notion-content.png#interface]]
 
 Du kan nu konvertere dine data ved hjælp af Obsidian Importer.
 
@@ -50,7 +54,7 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 3. Aktivér Importer-pluginet.
 4. Åbn **Importer**-pluginet ved hjælp af kommandopaletten eller værktøjslinjeikonet.
 5. Under **Filformat** vælg **Notion (API)**
-6. Under **API-token** indsæt dit **Internal Integration Secret** fra Notion.
+6. Under **API-token** klik på **Link...** for at tilføje en ny hemmelighed. Under **ID** giv den et navn som `notion`, og under **Hemmelighed** indsæt dit **Access token** fra Notion.
 7. Klik på **Indlæs** for at vælge de databaser og sider, du vil importere.
 8. Gennemgå og rediger importindstillingerne.
 9. Vælg **Importér** og vent, til importen er fuldført
@@ -75,7 +79,7 @@ Derudover vil Importer foretage følgende ændringer:
 - Sider uden undersider eller databaser importeres som `[filnavn].md` i stedet for `[filnavn]/[filnavn].md`.
 - Databaser repræsenteres altid som mapper med navnet `[databasenavn]` med en `[databasenavn].base`-fil indeni.
 
-## Filimport
+## Importér Notion-filer (.zip)
 
 Filimport er en alternativ måde at importere dine Notion-data på. Denne metode bevarer ikke Databases, men den kræver hverken et API-token eller internetforbindelse.
 
@@ -83,7 +87,7 @@ Filimport er en alternativ måde at importere dine Notion-data på. Denne metode
 
 For at forberede dine data til import skal du eksportere hele dit arbejdsområde ved hjælp af Notions HTML-eksportformat. Vi anbefaler, at du ikke bruger Notions Markdown-eksport, da den udelader vigtige data. Du skal have administratoradgang til Notion-arbejdsområdet for at eksportere alt arbejdsområdeindhold.
 
-1. Gå til **[[Indstillinger]]** øverst i Notion-sidebjælken.
+1. Gå til **Settings** øverst i Notion-sidebjælken.
 2. Under **Workspace** vælg **General**.
 3. Find og vælg **Export all workspace content**.
 4. Under **Export format** vælg **HTML**.

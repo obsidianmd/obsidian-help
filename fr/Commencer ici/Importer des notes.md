@@ -11,6 +11,7 @@ Les applications vont et viennent, mais vos données doivent perdurer. Obsidian 
 ## Importer depuis d'autres applications et formats de fichiers
 
 - <span class="icon-app icon-notion"></span> [[Importer depuis Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importer depuis Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importer depuis Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importer depuis Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importer depuis Apple Notes|Apple Notes]]
@@ -19,11 +20,12 @@ Les applications vont et viennent, mais vos données doivent perdurer. Obsidian 
 - <span class="icon-app icon-bear"></span> [[Importer depuis Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Importer depuis Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importer depuis Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Importer depuis Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importer depuis Tomboy et Gnote|Tomboy et Gnote]]
 - <span class="icon-app icon-html"></span> [[Importer des fichiers HTML|Fichiers HTML]]
 - <span class="icon-app icon-md"></span> [[Importer des fichiers CSV]]
 - <span class="icon-app icon-md"></span> [[Importer des fichiers Markdown|Fichiers Markdown]]
 - <span class="icon-app icon-md"></span> [[Importer des fichiers Textbundle|Fichiers Textbundle]]
-- <span class="icon-app icon-md"></span> [[Importer des notes Zettelkasten|Notes Zettelkasten]]
 
 ## Autres formats
 
@@ -33,7 +35,6 @@ Des guides supplémentaires ont été partagés par notre communauté pour vous 
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

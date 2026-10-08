@@ -54,6 +54,10 @@ translation=العروض
 original=Cards view
 translation=عرض البطاقات
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=عرض كانبان
+
 [file.bases/views/list]
 original=List view
 translation=عرض القائمة
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=قواعد سلوك المجتمع
+
+[file.community-directory]
+original=Community directory
+translation=دليل المجتمع
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=محتوى HTML
 original=Import notes
 translation=استيراد الملاحظات
 
+[file.import/airtable]
+original=Import from Airtable
+translation=الاستيراد من Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=استيراد من Apple Journal
@@ -206,6 +218,10 @@ translation=استيراد من Google Keep
 original=Import HTML files
 translation=استيراد ملفات HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=الاستيراد من Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=استيراد ملفات Markdown
@@ -222,9 +238,17 @@ translation=استيراد من Microsoft OneNote
 original=Import from Roam Research
 translation=استيراد من Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=قوالب المستورد
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=استيراد ملفات Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=الاستيراد من Tomboy و Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

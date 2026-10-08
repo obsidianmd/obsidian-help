@@ -3,6 +3,8 @@ permalink: import/apple-notes
 aliases:
   - استيراد من  Apple Notes
   - Import from Apple Notes
+cssclasses:
+  - soft-embed
 ---
 يتيح لك Obsidian ترحيل ملاحظاتك بسهولة من Apple Notes باستخدام [[المستورد|مكوّن المستورد الإضافي]]. سيقوم هذا بتحويل بيانات Apple Notes الخاصة بك إلى ملفات Markdown متينة يمكنك استخدامها مع Obsidian والعديد من التطبيقات الأخرى.
 

@@ -15,10 +15,14 @@ I toppen af en base finder du værktøjslinjen, som lader sig interagere med vie
 
 - ![[lucide-table.svg#icon]] **View menu** — opret, rediger og skift views
 - **Resultater** — begræns, kopiér og eksportér filer
-- ![[lucide-arrow-up-down.svg#icon]] **Sortér** — sorter og grupper filer
+- ![[lucide-arrow-up-down.svg#icon]] **Sortér** — sorter filer
+- ![[lucide-stretch-horizontal.svg#icon]] **Gruppér** — gruppér filer og administrer grupperækkefølge og synlighed
 - ![[lucide-list-filter.svg#icon]] **Filtrer** — filtrer filer.
 - ![[lucide-list.svg#icon]] **Egenskaber** — vælg egenskaber som skal vises og opret [[Formler|formler]]
+- ![[lucide-search.svg#icon]] **Søg** — søg efter elementer ved hjælp af deres viste egenskaber.
 - ![[lucide-plus.svg#icon]] **Ny** — opret en ny fil i det nuværende vier
+
+På telefoner er **Resultater**, **Sortér**, ![[lucide-stretch-horizontal.svg#icon]] **Gruppér** og **Egenskaber** placeret i ![[lucide-sliders-horizontal.svg#icon]] **Visning** menuen.
 
 ## Sådan tilføjer du og skifter views
 
@@ -40,13 +44,14 @@ Du kan alternativet *højreklikke* på viewets navn i basens værktøjslinje of 
 
 ## Layout
 
-Views kan vises med forskellige layouts, såsom en ![[lucide-table.svg#icon]] **tabel**, en ![[lucide-list.svg#icon]] **liste**, som ![[lucide-layout-grid.svg#icon]] **kort**, eller ![[lucide-map.svg#icon]] **landkort**. YDerligere layouts kan blive tilføjet af [[Fællesskabsplugins|fællesskabsplugins]]. Nogle layouts er stadig under udvikling og kræver en [[Tidlig adgang til nye versioner|insiderversion]] af Obsidian.
+Views kan vises med forskellige layouts, såsom en ![[lucide-table.svg#icon]] **tabel**, en ![[lucide-list.svg#icon]] **liste**, som ![[lucide-layout-grid.svg#icon]] **kort**, ![[lucide-kanban-square.svg#icon]] **Kanban**, eller ![[lucide-map.svg#icon]] **landkort**. Yderligere layouts kan blive tilføjet af [[Fællesskabsplugins|fællesskabsplugins]].
 
 | Layout                | Beskrivelse                                                                                   | App&nbsp;version |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
 | [[Tabel view\|Tabel]] | Viser filer som rækker i en tabel. Kolonner udfyldes ud fra dine noters [[Egenskaber\|egenskaber]].    | 1.9              |
 | [[Galleri]]         | Viser filer som et gitter af kort. Lader dig oprette gallerilignende views med billeder.             | 1.9              |
 | [[Liste view\|Liste]]   | Viser filer som [[Grundlæggende formaterings syntaks#Lister\|lister]] med punkttegn eller nummereret. | 1.10             |
+| [[Kanban view\|Kanban]] | Viser filer som kort organiseret i kolonner baseret på en grupperet egenskab.                   | 1.14             |
 | [[Landkort]]        | Viser filer som nåle på et interaktivt kort. Kræver "Maps" pluginet.                        | 1.10             |
 
 
@@ -85,16 +90,16 @@ For at anvende den **avancerede filter** editor skal du klikke på kodeknappen !
 
 ## Sådan sorterer og grupperer du resultater
 
-For at sortere og gruppere resultaterne i et view skal du åbne ![[lucide-arrow-up-down.svg#icon]] **Sorter** menuen.
+Brug ![[lucide-arrow-up-down.svg#icon]] **Sortér** menuen til at arrangere resultater, og ![[lucide-stretch-horizontal.svg#icon]] **Gruppér** menuen til at organisere lignende elementer i sektioner.
 
 Du kan arrangere resultaterne med en eller flere egenskaber i stigende eller faldende rækkefølge. Det gør det nemt at liste noter efter deres navn, sidst redigeret eller enhver anden egenskab - inklusiv formler.
 
-Du kan også gruppere resulater efter en egenskab for at organisere poster, som ligner hinanden, i visuelt forskellige sektioner. For nuværende understøtter Obsidian kun gruppering af en egenskab.
+Hvert view kan have flere sorteringer, men kan kun gruppere resultater efter én egenskab.
 
 ### Sådan tilføjer du en sortering
 
-1. Åbn ![[lucide-arrow-up-down.svg#icon]] **Sorter** menuen i toppen af viewet
-2. Vælg den egenskab, som du vil sortere (eller gruppere) ud fra
+1. Åbn ![[lucide-arrow-up-down.svg#icon]] **Sortér** menuen i toppen af viewet
+2. Vælg **Tilføj sortering**, og vælg derefter den egenskab, som du vil sortere ud fra
 3. Hvis du har mange sorteringer, så træk dem op og ned i listen ved hjælp af ![[lucide-grip-vertical.svg#icon]] gribeikonet, for at ændre deres prioritet
 
 Sorteringsmulighederne afhænger af egenskabstypen:
@@ -105,8 +110,30 @@ Sorteringsmulighederne afhænger af egenskabstypen:
 
 ### Sådan fjerner du en sortering
 
-1. Åbn ![[lucide-arrow-up-down.svg#icon]] **Sorter** menuen i toppen af viewet
-2. Klik på ![[lucide-trash-2.svg#icon]] skraldespandsikonet ved siden af den sortering eller gruppe, som du vil fjerne
+1. Åbn ![[lucide-arrow-up-down.svg#icon]] **Sortér** menuen i toppen af viewet
+2. Vælg ![[lucide-trash-2.svg#icon]] skraldespandsikonet ved siden af den sortering, som du vil fjerne
+
+### Sådan grupperer du resultater
+
+1. Åbn ![[lucide-stretch-horizontal.svg#icon]] **Gruppér** menuen i toppen af viewet. På telefoner åbn **Visning → Gruppér**.
+2. Under **Gruppér efter** vælg en egenskab.
+3. Vælg en automatisk sorteringsrækkefølge, eller vælg **Manuel** for at ordne grupper selv.
+
+For at stoppe gruppering af resultater, vælg ![[lucide-trash-2.svg#icon]] skraldespandsikonet ved siden af grupperingsegenskaben.
+
+### Omarranger, skjul og tilføj grupper
+
+I ![[lucide-stretch-horizontal.svg#icon]] **Gruppér** menuen skal du vælge **Manuel** fra sorteringsrækkefølgemenuen for at administrere, hvilke grupper der vises og i hvilken rækkefølge.
+
+- Markér en gruppe for at vise den, eller fjern markeringen for at skjule den. Vælg **Vis alle** eller **Skjul alle** for at ændre synligheden af alle grupper.
+- Træk ![[lucide-grip-vertical.svg#icon]] gribeikonet ved siden af en gruppe for at ændre dens position.
+- Vælg **Tilføj gruppe** og indtast en værdi for at vise en ny, tom gruppe. Dette opretter ikke en note og ændrer ikke eksisterende noter.
+
+For at gendanne automatisk grupperækkefølge og vise alle grupper, vælg en automatisk sorteringsrækkefølge i stedet for **Manuel**.
+
+### Fold grupper sammen
+
+I [[Tabel view|tabel]]-, [[Galleri|kort]]- og [[Liste view|liste]]-layouts kan du vælge en gruppeoverskrift for at folde eller udfolde gruppen. Når du folder en gruppe sammen, skjules dens elementer midlertidigt uden at ændre deres egenskaber.
 
 ## Sådan begrænser, kopierer og eksporterer du resulatter
 

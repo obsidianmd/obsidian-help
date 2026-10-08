@@ -585,7 +585,7 @@ Les champs suivants sont disponibles pour les fichiers :
 
 ## Type objet
 
-Fonctions utilisables avec une collection de paires clé-valeur telle que `{"a": 1, "b": 2}`.
+Fonctions utilisables avec une collection de paires clé-valeur telles que `{"a": 1, "b": 2}`.
 
 ### `isEmpty()`
 

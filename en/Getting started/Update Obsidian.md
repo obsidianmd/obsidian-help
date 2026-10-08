@@ -15,7 +15,7 @@ On mobile devices, Obsidian is updated through the device's app store. The insta
 
 Open **[[Settings]] → General**.
 
-You can find the current versions of the app and installer at the top of the page.
+You can find the current versions of the app and installer at the top of the page. When a newer installer is available, Obsidian displays a notice with a download link. Follow the [[#Installer updates|installer update instructions]] to install it.
 
 ![[application-installer-current-version.png#interface]]
 

@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojesi helpon siirtämisen Roam Researchista [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä muuntaa Roam-tietosi kestävään Markdown-muotoon, jota voit käyttää Obsidianin ja monien muiden sovellusten kanssa.
 

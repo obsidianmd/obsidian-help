@@ -36,5 +36,7 @@ Chế độ xem có thể được hiển thị với các bố cục khác nhau
 	- Hiển thị tệp dưới dạng danh sách với dấu đầu dòng hoặc đánh số.
 - [[Chế độ xem thẻ|Thẻ]]
 	- Hiển thị tệp dưới dạng lưới. Cho phép bạn tạo các chế độ xem dạng bộ sưu tập với hình ảnh.
+- [[Chế độ xem Kanban|Kanban]]
+	- Hiển thị tệp dưới dạng thẻ được sắp xếp vào các cột dựa trên thuộc tính được nhóm.
 - [[Chế độ xem bản đồ|Bản đồ]]
 	- Hiển thị tệp dưới dạng ghim trên bản đồ tương tác.

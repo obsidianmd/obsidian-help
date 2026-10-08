@@ -1,40 +1,44 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojesi helpon siirtämisen Notionista [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä muuntaa Notion-tietosi kestävään Markdown-muotoon, jota voit käyttää offline-tilassa Obsidianissa ja monissa muissa sovelluksissa.
 
 Obsidian tarjoaa kaksi tapaa tuoda Notion-tietosi:
 
-1. **API-tuonti** säilyttää koko työtilasi, mukaan lukien tietokannat ja kaavat, jotka muunnetaan [[Johdanto kantoihin|kannoiksi]], mutta vaatii Notion-integraatiotunnisteen ja internetyhteyden.
-2. **Tiedostotuonti** ei säilytä tietokantoja, mutta ei vaadi API-tunnistetta tai internetyhteyttä.
+1. **Notion-tili (suositeltu)** yhdistää suoraan työtilaan ja säilyttää tietokannat ja kaavat, jotka muunnetaan [[Johdanto kantoihin|kannoiksi]]. Vaatii Notion-integraatiotunnisteen ja internetyhteyden.
+2. **Tiedostotuonti** käyttää Notionin `.zip`-vientitiedostoja. Ei säilytä tietokantoja, mutta ei vaadi API-tunnistetta tai internetyhteyttä.
 
-## API-tuonti
+## Tuonti Notion-tililtä
 
-### Notion API -integraatiotunnisteen luominen
+### Notion API -käyttötunnisteen luominen
 
-Notion-tietojen käyttämiseksi API:n kautta tarvitset integraatiotunnisteen. Tämän vaiheen suorittaminen kestää noin 2 minuuttia.
+Notion-tietojen käyttämiseksi API:n kautta tarvitset käyttötunnisteen. Tämän vaiheen suorittaminen kestää noin kaksi minuuttia.
 
 Tunniste on pitkä numero- ja kirjainjono, joka alkaa tyypillisesti `ntn_...` ja jonka avulla voit ladata tietosi Notionista.
 
-1. Kirjaudu sisään [Notion Integrations](https://www.notion.so/profile/integrations/internal) -hallintapaneeliin.
-2. Valitse **New integration**.
+1. Kirjaudu sisään [Notion Connections](https://app.notion.com/developers/connections) -hallintapaneeliin.
+2. Valitse **New connection**.
+	1. Anna yhteydelle nimi, esim. "Personal". Mikä tahansa nimi käy.
+	2. Valitse todennusmenetelmäksi **Access token**.
+	3. Valitse vietävä työtila kohdassa **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Anna integraatiolle nimi, esim. "Personal". Mikä tahansa nimi käy.
-3. Valitse työtila, jonka haluat viedä.
-4. Napsauta **Save** ja jatka kohtaan **Configure integration settings**.
-5. **Configuration**-välilehdellä API-tunnisteesi on saatavilla **Internal Integration Secret** -kentässä.
-6. Valitse **Show** ja sitten **Copy**.
-7. Tallenna tunniste turvalliseen paikkaan, kuten salasananhallintaohjelmaan.
+3. Napsauta **Create connection**.
+4. **Configuration**-välilehdellä API-tunnisteesi on saatavilla **Access token** -kentässä.
+5. Valitse **Show** ja sitten **Copy**.
+6. Tallenna tunniste turvalliseen paikkaan, kuten salasananhallintaohjelmaan.
 
 ![[notion-token.png#interface]]
 
-Seuraavaksi anna integraatiolle pääsy niihin Notion-sivuihin ja tietokantoihin, jotka haluat tuoda.
+Seuraavaksi anna yhteydelle pääsy niihin Notion-sivuihin ja tietokantoihin, jotka haluat tuoda.
 
-1. Siirry juuri luomasi integraation **Access**-välilehteen.
-2. Napsauta **Edit access**.
-3. Lisää sivut ja tietokannat, jotka haluat tuoda.
+1. Siirry juuri luomasi yhteyden **Content access** -välilehteen.
+2. Lisää sivut ja tietokannat, jotka haluat tuoda.
+
+![[notion-content.png#interface]]
 
 Nyt voit muuntaa tietosi Obsidian-tuontityökalulla.
 
@@ -47,7 +51,7 @@ Tarvitset virallisen Obsidianin [[Tuontityökalu]]-lisäosan, jonka voit [asenta
 3. Ota Tuontityökalu-lisäosa käyttöön.
 4. Avaa **Tuontityökalu**-lisäosa komentovalikon tai nauhakuvakkeen kautta.
 5. Valitse **Tiedostomuoto**-kohdasta **Notion (API)**
-6. Liitä **API-tunniste** -kohtaan Notionin **Internal Integration Secret**.
+6. Napsauta **API-tunniste** -kohdassa **Linkki...** lisätäksesi uuden sala-avaimen. Anna **tunnukseksi** nimi kuten `notion`, ja liitä **Sala-avain**-kenttään Notionin **Access token**.
 7. Napsauta **Lataa** valitaksesi tietokannat ja sivut, jotka haluat tuoda.
 8. Tarkista ja muokkaa tuontiasetuksia.
 9. Valitse **Tuo** ja odota, kunnes tuonti on valmis.
@@ -72,7 +76,7 @@ Lisäksi Tuontityökalu tekee seuraavat muutokset:
 - Sivut, joilla ei ole alasivuja tai tietokantoja, tuodaan muodossa `[tiedostonimi].md` eikä `[tiedostonimi]/[tiedostonimi].md`.
 - Tietokannat esitetään aina kansioina nimellä `[tietokannan nimi]`, joiden sisällä on `[tietokannan nimi].base`-tiedosto.
 
-## Tiedostotuonti
+## Notion-tiedostojen tuominen (.zip)
 
 Tiedostotuonti on vaihtoehtoinen tapa tuoda Notion-tietosi. Tämä menetelmä ei säilytä tietokantoja, mutta ei vaadi API-tunnistetta tai internetyhteyttä.
 
@@ -80,7 +84,7 @@ Tiedostotuonti on vaihtoehtoinen tapa tuoda Notion-tietosi. Tämä menetelmä ei
 
 Tietojen valmistelemiseksi tuontia varten sinun täytyy viedä koko työtilasi Notionin HTML-vientimuodossa. Suosittelemme, ettet käytä Notionin Markdown-vientiä, sillä se jättää pois tärkeitä tietoja. Sinulla täytyy olla ylläpitäjän käyttöoikeudet Notion-työtilaan, jotta voit viedä kaiken työtilan sisällön.
 
-1. Siirry Notion-sivupalkin yläosassa kohtaan **[[Asetukset]]**.
+1. Siirry Notion-sivupalkin yläosassa kohtaan **Settings**.
 2. Valitse **Workspace**-kohdasta **General**.
 3. Etsi ja valitse **Export all workspace content**.
 4. Valitse **Export format** -kohdasta **HTML**.

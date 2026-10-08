@@ -27,7 +27,7 @@ Możesz użyć niestandardowego obrazu do podglądu linku, dodając `image` lub 
 
 ```yaml
 ---
-cover: "Attachments/Cover image.png"
+cover: "Załączniki/Cover image.png"
 ---
 ```
 
@@ -35,7 +35,7 @@ cover: "Attachments/Cover image.png"
 
 ```yaml
 ---
-cover: "Attachments/cover Image.png"
+cover: "Załączniki/cover Image.png"
 ---
 ```
 

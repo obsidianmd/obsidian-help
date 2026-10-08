@@ -18,26 +18,30 @@ Les variables prédéfinies sont automatiquement générées à partir du conten
 
 La variable de contenu principale est `{{content}}`, qui contient le contenu de l'article, ou les [[Surligneur|surlignages]], ou la sélection s'il y a du texte sélectionné sur la page. Notez que `{{content}}` tente d'extraire le contenu principal de la page, ce qui peut ne pas toujours correspondre à ce que vous souhaitez. Dans ce cas, vous pouvez utiliser d'autres variables prédéfinies ou des variables de sélecteur pour extraire le contenu dont vous avez besoin.
 
-| Variable            | Description                                                                            |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Auteur de la page                                                                      |
+| Variable            | Description                                                                    |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Auteur de la page                                                              |
 | `{{content}}`       | Contenu de l'article, [[Surligneur\|surlignages]] ou sélection, au format Markdown |
 | `{{contentHtml}}`   | Contenu de l'article, [[Surligneur\|surlignages]] ou sélection, au format HTML |
-| `{{date}}`          | Date actuelle, peut être formatée à l'aide du filtre `date`                            |
-| `{{description}}`   | Description ou extrait                                                                 |
-| `{{domain}}`        | Domaine                                                                                |
-| `{{favicon}}`       | URL du favicon                                                                         |
-| `{{fullHtml}}`      | HTML non traité du contenu complet de la page                                          |
-| `{{highlights}}`    | [[Surligneur\|Surlignages]] avec texte et horodatages                    |
-| `{{image}}`         | URL de l'image de partage social                                                       |
-| `{{published}}`     | Date de publication, peut être formatée à l'aide du filtre `date`                      |
-| `{{selection}}`     | Sélection au format Markdown                                                           |
-| `{{selectionHtml}}` | Sélection au format HTML                                                               |
-| `{{site}}`          | Nom du site ou éditeur                                                                 |
-| `{{title}}`         | Titre de la page                                                                       |
-| `{{time}}`          | Date et heure actuelles                                                                |
-| `{{url}}`           | URL actuelle                                                                           |
-| `{{words}}`         | Nombre de mots                                                                         |
+| `{{date}}`          | Date actuelle, peut être formatée à l'aide du filtre `date`                    |
+| `{{description}}`   | Description ou extrait                                                         |
+| `{{domain}}`        | Domaine                                                                        |
+| `{{favicon}}`       | URL du favicon                                                                 |
+| `{{fullHtml}}`      | HTML non traité du contenu complet de la page                                  |
+| `{{highlights}}`    | [[Surligneur\|Surlignages]] avec texte et horodatages                          |
+| `{{image}}`         | URL de l'image de partage social                                               |
+| `{{language}}`      | Langue de la page                                                              |
+| `{{model}}`         | Nom du modèle [[Interpréteur]]                                                 |
+| `{{modelId}}`       | ID du modèle [[Interpréteur]]                                                  |
+| `{{modelProvider}}` | Fournisseur du modèle [[Interpréteur]]                                         |
+| `{{published}}`     | Date de publication, peut être formatée à l'aide du filtre `date`              |
+| `{{selection}}`     | Sélection au format Markdown                                                   |
+| `{{selectionHtml}}` | Sélection au format HTML                                                       |
+| `{{site}}`          | Nom du site ou éditeur                                                         |
+| `{{title}}`         | Titre de la page                                                               |
+| `{{time}}`          | Date et heure actuelles                                                        |
+| `{{url}}`           | URL actuelle                                                                   |
+| `{{words}}`         | Nombre de mots                                                                 |
 
 ## Variables d'invite
 

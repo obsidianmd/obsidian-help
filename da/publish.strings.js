@@ -1,4 +1,5 @@
 // Locale UI strings — Danish
+window.LANG_SWITCHER_STRINGS = { search: "Skift sprog...", noResults: "Ingen resultater" };
 (function () {
   function apply() {
     var el;

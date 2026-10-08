@@ -11,7 +11,7 @@ En dispositius mòbils, Obsidian s'actualitza a través de la botiga d'aplicacio
 
 Obre **[[Configuració]] → General**.
 
-Pots trobar les versions actuals de l'aplicació i de l'instal·lador a la part superior de la pàgina.
+Pots trobar les versions actuals de l'aplicació i de l'instal·lador a la part superior de la pàgina. Quan hi ha disponible un instal·lador més nou, Obsidian mostra un avís amb un enllaç de baixada. Segueix les [[#Actualitzacions de l'instal·lador|instruccions d'actualització de l'instal·lador]] per instal·lar-lo.
 
 ![[application-installer-current-version.png#interface]]
 

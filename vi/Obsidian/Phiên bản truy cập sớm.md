@@ -44,7 +44,7 @@ Khi báo cáo sự cố, hãy bao gồm phiên bản bản dựng và hệ đi�
 
 ## Chuyển về phiên bản công khai trên máy tính
 
-Để chuyển về sử dụng phiên bản công khai (không phải bản dựng Insider) trên máy tính:
+Để vô hiệu hóa bản dựng Insider và quay về phiên bản công khai đã cài đặt gần nhất trên máy tính:
 
 1. Vô hiệu hóa bản dựng Insider.
    1. Mở **[[Cài đặt]]**.
@@ -56,10 +56,11 @@ Khi báo cáo sự cố, hãy bao gồm phiên bản bản dựng và hệ đi�
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Khởi động lại Obsidian.
+5. Nếu Obsidian không ở phiên bản công khai mới nhất sau đó, hãy cập nhật [[Cập nhật Obsidian#Cập nhật trình cài đặt|phiên bản trình cài đặt]].
 
 ## Chuyển về phiên bản công khai trên thiết bị di động
 
-Để chuyển về sử dụng phiên bản công khai (không phải bản dựng Insider) trên thiết bị di động:
+Để hạ cấp từ bản dựng Insider về phiên bản công khai mới nhất trên thiết bị di động:
 
 1. Sao lưu dữ liệu kho của bạn
 2. Gỡ cài đặt Obsidian

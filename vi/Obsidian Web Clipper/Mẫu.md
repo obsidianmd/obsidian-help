@@ -40,6 +40,9 @@ Bộ kích hoạt mẫu cho phép bạn tự động chọn một mẫu dựa tr
 
 Kết quả khớp đầu tiên trong danh sách mẫu của bạn sẽ quyết định mẫu nào được sử dụng. Bạn có thể kéo các mẫu lên xuống trong cài đặt Web Clipper để thay đổi thứ tự khớp mẫu.
 
+> [!tip]- Đặt mẫu dự phòng
+> Nếu một trang không khớp với bất kỳ quy tắc kích hoạt nào, Web Clipper sẽ sử dụng mẫu đầu tiên trong danh sách của bạn. Hãy giữ mẫu bạn muốn dùng làm dự phòng ở đầu danh sách để đảm bảo nó được sử dụng cho các trang không có kết quả khớp cụ thể.
+
 #### Khớp URL đơn giản
 
 Khớp đơn giản kích hoạt một mẫu nếu URL của trang hiện tại *bắt đầu bằng* mẫu đã cho. Ví dụ:

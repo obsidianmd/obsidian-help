@@ -5,9 +5,6 @@ description: 'Používajte podmienky, cykly a priradenie premenných v šablóna
 [[Úvod do Obsidian Web Clipper|Web Clipper]] podporuje šablónovú logiku pre podmienky, cykly a priradenie premenných. Táto syntax je inšpirovaná šablónovacími jazykmi [Twig](https://twig.symfony.com/) a [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Vyžaduje najnovšiu verziu
-> Funkcie logiky vyžadujú Obsidian Web Clipper 1.0.0, ktorý ešte nebol schválený vo všetkých obchodoch s rozšíreniami.
-
 ## Podmienky
 
 Použite `{% if %}` na podmienené zahrnutie obsahu na základe premenných alebo výrazov.

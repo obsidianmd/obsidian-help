@@ -33,7 +33,7 @@ Zanim przejdziesz dalej, utwórz [[Tworzenie kopii zapasowej plików Obsidian|ko
 > 2. Cała [[Historia wersji|historia wersji]] sejfu zostanie utracona.
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym wybierz **Sync**.
+2. Na panelu bocznym wybierz **Sync**.
 3. Kliknij **Aktualizuj sejf**. Ta opcja będzie widoczna tylko wtedy, gdy dostępna jest aktualizacja dla Twojego zdalnego sejfu.
 4. Sprawdź ponownie kopie zapasowe i kliknij **Kontynuuj**.
 5. W polu **Nazwa sejfu** wprowadź nazwę zdalnego sejfu.

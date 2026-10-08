@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa [Textbundle](https://textbundle.org/)-tiedostojen tuonnin helposti virallisen [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla.
 

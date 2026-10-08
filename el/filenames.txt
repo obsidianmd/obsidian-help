@@ -54,6 +54,10 @@ translation=Προβολές
 original=Cards view
 translation=Προβολή καρτών
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Προβολή Kanban
+
 [file.bases/views/list]
 original=List view
 translation=Προβολή λίστας
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Κώδικας δεοντολογίας κοινότητας
+
+[file.community-directory]
+original=Community directory
+translation=Κατάλογος κοινότητας
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=Περιεχόμενο HTML
 original=Import notes
 translation=Εισαγωγή σημειώσεων
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Εισαγωγή από Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Εισαγωγή από Apple Journal
@@ -206,6 +218,10 @@ translation=Εισαγωγή από Google Keep
 original=Import HTML files
 translation=Εισαγωγή αρχείων HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Εισαγωγή από Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Εισαγωγή αρχείων Markdown
@@ -222,9 +238,17 @@ translation=Εισαγωγή από Microsoft OneNote
 original=Import from Roam Research
 translation=Εισαγωγή από Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Πρότυπα εισαγωγέα
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Εισαγωγή αρχείων Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Εισαγωγή από Tomboy και Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: 'Właściwości pozwalają organizować informacje dotyczące notatki. Właściwości zawierają dane strukturalne, takie jak tekst, linki, daty, pola wyboru i liczby.'
+description: 'Atrybuty pozwalają organizować informacje dotyczące notatki. Atrybuty zawierają dane strukturalne, takie jak tekst, linki, daty, pola wyboru i liczby.'
 ---
 Atrybuty pozwalają organizować informacje o notatce. Atrybuty zawierają ustrukturyzowane dane, takie jak tekst, linki, daty, pola wyboru i liczby. Atrybuty mogą być również używane w połączeniu z [[Wtyczki społeczności|wtyczkami społeczności]], które potrafią wykonywać przydatne operacje na ustrukturyzowanych danych.
 
@@ -37,13 +37,13 @@ Obsidian obsługuje następujące rodzaje atrybutów:
 - **[[#Data i godzina]]**
 - **[[#Tagi]]**
 
-Po przypisaniu rodzaju atrybutu do nazwy, wszystkie atrybuty o tej nazwie w całym skarbcu będą używać tego samego rodzaju.
+Po przypisaniu rodzaju atrybutu do nazwy, wszystkie atrybuty o tej nazwie w całym sejfie będą używać tego samego rodzaju.
 
 ## Zaawansowane zastosowania
 
 ### Wyszukiwanie atrybutów
 
-Atrybuty mają własną [[Szukaj|składnię wyszukiwania]], której można używać razem z innymi terminami i operatorami wyszukiwania. [[Szukaj#Wyszukiwanie atrybutów|Zobacz składnię wyszukiwania atrybutów]].
+Atrybuty mają własną [[Wyszukiwarka|składnię wyszukiwania]], której można używać razem z innymi terminami i operatorami wyszukiwania. [[Wyszukiwarka#Wyszukiwanie atrybutów|Zobacz składnię wyszukiwania atrybutów]].
 
 ### Szablony
 
@@ -60,7 +60,7 @@ Możesz zmienić nazwę atrybutu, klikając go prawym przyciskiem myszy w [[Pane
 Możesz zmienić sposób wyświetlania atrybutów w notatce, przechodząc do **[[Ustawienia]] → Edytor → Atrybuty pliku**. Dostępne opcje to:
 
 - **Widoczne** (domyślnie) – wyświetla atrybuty na górze notatki, jeśli istnieją.
-- **Ukryte** – ukrywa atrybuty, które nadal można wyświetlić na pasku bocznym za pomocą [[Panel atrybutów]].
+- **Ukryte** – ukrywa atrybuty, które nadal można wyświetlić na panelu bocznym za pomocą [[Panel atrybutów]].
 - **Kod** – wyświetla atrybuty w formacie zwykłego tekstu YAML.
 
 ### Snippety CSS
@@ -296,4 +296,4 @@ Te atrybuty zostały uznane za przestarzałe w Obsidian 1.4 i powinny zostać za
 | `alias` | Przestarzały alias dla `aliases`. |
 | `cssclass` | Przestarzały alias dla `cssclasses`. |
 
-> [!tip] Jeśli potrzebujesz przekonwertować pliki w swoim skarbcu do formatu [[#Domyślne atrybuty|domyślnych atrybutów]], możesz użyć [[Konwerter formatowania]], aby zmienić cały skarbiec masowo.
+> [!tip] Jeśli potrzebujesz przekonwertować pliki w swoim sejfie do formatu [[#Domyślne atrybuty|domyślnych atrybutów]], możesz użyć [[Konwerter formatowania]], aby zmienić cały sejf masowo.

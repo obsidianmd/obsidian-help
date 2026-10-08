@@ -14,7 +14,7 @@ Web Clipper از [Defuddle](https://github.com/kepano/defuddle) برای ذخی�
 برای دور زدن Defuddle در Web Clipper از روش‌های زیر استفاده کنید:
 
 - متن را انتخاب کنید، یا از `Cmd/Ctrl+A` برای انتخاب همه متن استفاده کنید.
-- [[هایلایتر|محتوا را هایلایت کنید]] تا دقیقاً آنچه می‌خواهید ذخیره شود را انتخاب کنید.
+- [[مارکر|محتوا را هایلایت کنید]] تا دقیقاً آنچه می‌خواهید ذخیره شود را انتخاب کنید.
 - از یک [[Obsidian Web Clipper/الگوها|قالب سفارشی]] برای وبگاه استفاده کنید.
 
 ### هیچ محتوایی در Obsidian ظاهر نمی‌شود
@@ -31,6 +31,7 @@ Web Clipper از [Defuddle](https://github.com/kepano/defuddle) برای ذخی�
 
 - مطمئن شوید که پروتکل [[Obsidian URI]] [[Obsidian URI#ثبت Obsidian URI|ثبت شده باشد]].
 - اگر از Firefox استفاده می‌کنید ممکن است نیاز باشد [آن را در تنظیمات مرورگر ثبت کنید](https://kb.mozillazine.org/Register_protocol).
+- اگر از Flatpak استفاده می‌کنید، ممکن است نیاز باشد مقدار `x-scheme-handler/obsidian` در فایل `.config/mimeapps.list` را از `obsidian.desktop` به `md.obsidian.Obsidian.desktop` تغییر دهید.
 
 #### Obsidian باز می‌شود اما فقط نام فایل ذخیره می‌شود
 

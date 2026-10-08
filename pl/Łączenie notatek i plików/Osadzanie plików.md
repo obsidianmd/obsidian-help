@@ -2,10 +2,11 @@
 permalink: embeds
 cssclasses:
   - soft-embed
+description: Dowiedz się, jak osadzać pliki z sejfu w notatkach, aby ponownie wykorzystywać treść w wielu miejscach.
 ---
-Dowiedz się, jak osadzać inne notatki i multimedia w swoich notatkach. Osadzając pliki w notatkach, możesz ponownie wykorzystywać zawartość w całym skarbcu.
+Osadzone pliki wyświetlają swoją treść bezpośrednio w notatce i pozostają aktualne, gdy zmienia się plik źródłowy.
 
-Aby osadzić plik ze skarbca, dodaj wykrzyknik (`!`) przed [[Łącza wewnętrzne|łączem wewnętrznym]]. Możesz osadzać pliki w dowolnym z [[Obsługiwane formaty plików|obsługiwanych formatów plików]].
+Aby osadzić plik ze sejfu, dodaj wykrzyknik (`!`) przed [[Łącza wewnętrzne|łączem wewnętrznym]]. Możesz osadzać pliki w dowolnym z [[Obsługiwane formaty plików|obsługiwanych formatów plików]].
 
 > [!tip] Osadzanie przez przeciągnij i upuść
 > Na komputerze możesz również przeciągnąć i upuścić obsługiwane pliki bezpośrednio do notatki, aby osadzić je automatycznie.
@@ -51,10 +52,10 @@ Jeśli określisz tylko szerokość, obraz zostanie przeskalowany zgodnie z oryg
 Możesz również osadzić obraz hostowany zewnętrznie, używając łącza w formacie Markdown. Szerokość i wysokość kontrolujesz w ten sam sposób, co w przypadku odnośnika wiki.
 
 ```md
-![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Załączniki/Engelbart.jpg)
 ```
 
-![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Załączniki/Engelbart.jpg)
 
 ## Osadzanie pliku audio w notatce
 
@@ -86,6 +87,17 @@ Możesz również określić wysokość w pikselach dla osadzonej przeglądarki 
 ![[Document.pdf#height=400]]
 ```
 
+## Osadzanie Canvas w notatce
+
+Aby osadzić [[Tablica|Canvas]]:
+
+```md
+![[Moja tablica.canvas]]
+```
+
+> [!info]+ Osadzone Canvas pokazują tylko kształty
+> Osadzone Canvas wyświetlają kształty, ale nie tekst wewnątrz kart. Aby zobaczyć pełne Canvas, otwórz je bezpośrednio.
+
 ## Osadzanie listy w notatce
 
 Aby osadzić listę z innej notatki, najpierw dodaj [[Łącza wewnętrzne#Link do bloku w notatce|identyfikator bloku]] do swojej listy:
@@ -106,4 +118,4 @@ Następnie utwórz łącze do listy, używając identyfikatora bloku:
 
 ## Osadzanie wyników wyszukiwania
 
-![[Szukaj#Osadzanie wyników wyszukiwania w notatce]]
+![[Wyszukiwarka#Osadzanie wyników wyszukiwania w notatce]]

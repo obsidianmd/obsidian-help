@@ -11,7 +11,6 @@ permalink: links
 publish: true
 mobile: true
 ---
-
 Her kan du lære, hvordan du kan linke til noter, vedhæftninger, og andre filer i dine noter ved at benytte _interne links_. Ved at linke noter kan du danne et netværk af viden. ^b15695
 
 Obsidian kan automatisk opdatere interne links i din boks, når du omdøber en fil. Hvis du vil spørges hver gang, kan du deaktivere automatisk linkning under:
@@ -22,10 +21,14 @@ Obsidian kan automatisk opdatere interne links i din boks, når du omdøber en f
 
 Obsidian understøtter følgende link formater:
 
--   Wikilink: `[[De tre bevægelseslove]]`
--   Markdown: `[De tre bevægelseslove](De%20%tre%20%bevægelseslove.md)`
+-   Wikilink: `[[De tre bevægelseslove]]` eller `[[De tre bevægelseslove.md]]`
+-   Markdown: `[De tre bevægelseslove](De%20tre%20bevægelseslove)` eller `[De tre bevægelseslove](De%20tre%20bevægelseslove.md)`
 
 De to måder kan anvendes - De vil se ud på samme måde i visningstilstand og linke til den samme note.
+
+For at linke til en note i en mappe skal du inkludere mappestien før notens navn. Mappestier starter ved boksens rod og bruger skråstreger (`/`), selv på Windows: `[[Projekter/De tre bevægelseslove]]` eller `[De tre bevægelseslove](Projekter/De%20tre%20bevægelseslove.md)`.
+
+Hvis linket peger på en note, der endnu ikke eksisterer, opretter Obsidian noten på den angivne mappesti i stedet for at bruge din [[Indstillinger#Standardplacering for nye noter|standardplacering for nye noter]].
 
 > [!note]
 > Når du benytter Markdown formatet, så skal du sikre dig at [URL kode](https://en.wikipedia.org/wiki/Percent-encoding) linket til destinationen, så fx. mellemrums tegn erstattes med `%20`.
@@ -52,11 +55,12 @@ Du kan oprette et link i redigeringstilstand på en af følgende måder:
 - Vælge noget tekst i editoren og derefter skrive `[[`
 - Åbne [[Kommandopaletten|kommandopaletten]] og derefter søge og vælge **Tilføj internt link**
 
-![[Hurtigskifter#^search-autocomplete-large]]
-
 Du kan linke til alle [[Accepterede filformater|accepterede filformater]]; dog skal alle links til andre filformater end Markdown filer (altså Obsidian noter) have inkluderet filtypenavnet, fx. `[[Figur 1.png]]`.
 
 > [!tip] Hvis du præfikser et internt link med et udråbstegn (!) så indlejrer du det linkede indhold. Se siden "[[Indlejr filer]]" for flere detaljer.
+
+> [!info] Ekskluderede filer
+> Filer, der matcher dine [[Indstillinger#Ekskluderede filer|Ekskluderede filer]]-mønstre, nedprioriteres i linkforslag, når du opretter interne links.
 
 ## Link til en overskrift i en note
 
@@ -66,7 +70,7 @@ Du kan linke til en specifik overskrift i en note, hvilket kaldes et _anker link
 
 For at oprette et link til en overskrift i den samme note, så skriv `[[#` for at se en liste af overskrifter i noten.
 
-Fx. `[[#Forhåndsvis en linket fil]]` vil oprette et link til [[#Forhåndsvis en linket fil]].
+Fx. `[[#Forhåndsvis en linket fil]]` vil oprette et link til [[#Forhåndsvis en linket fil]].
 
 **Opret link til en overskrift i en anden note***
 
@@ -78,7 +82,7 @@ Fx. `[[Obsidian#Links er førsteklasses borgere]]` vil oprette et link til [[Obs
 
 Du kan tilføje hashtags for hver underoevrskift du vil linke til.
 
-Fx. `[[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]]` vil oprette et link til [[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]].
+Fx. `[[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]]` vil oprette et link til [[Hjælp og support#Spørgsmål og råd#Fejlrapportering og funktionsanmodninger]].
 
 **Søg efter overskrifter i hele din boks**
 
@@ -148,26 +152,22 @@ Bu kan du linke til blokken ved at skrive `[[2025-01-01#^dagens-citat]]`.
 
 ## Skift visningstekst for et link
 
-Du kan ændre teksten, som benyttes til at vise linket. Det er brugbart, når du vil indsætte et link i en sætning uden at anvende navnet på destinationsfilen.
-
 Obsidian viser link teksten som den ser ud som standard. F.ex.
 - `[[Interne links]]` vises som [[Interne links]]  
 - `[[Interne links#Skift visningstekst for et link]]` vises som [[Interne links#Skift visningstekst for et link]]
 
 Du kan ændre hvordan et links skal se ud på følgende måde:
 
-**Wikilink format:**
-
+**Wikilink format:**  
 Skriv en lodret streg  (`|`) for at ændre teksten, der anvendes til at vise et link.
 
-Fx.  vil `[[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]` vises som [[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]].
+- `[[Interne links|brugerdefineret linktekst]]` vises som [[Interne links|brugerdefineret linktekst]]  
+- `[[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]` vises som [[Interne links#Skift visningstekst for et link|brugerdefineret linktekst]]
 
-
-**Markdown format:**
-
+**Markdown format:**  
 Benyt `[Vis link tekst](Link URL)` for at skifte visningstekst.
 
-- `[brugerdefineret linktekst](Interne%20links)` vises som [brugerdefineret linktekst](Interne%20links)
+- `[brugerdefineret linktekst](Interne%20links)` vises som [brugerdefineret linktekst](Interne%20links)  
 - `[brugerdefineret linktekst](Interne%20links#Skift visningstekst for et link)` vises som [brugerdefineret linktekst](Interne%20links#Skift%20visningstekst%20for%20et%20link)
 
 Denne metode er brugbar i situationer, hvor du ønsker at ændre  hvordan et link ser ud i en bestemt kontekst. Hvis du ønsker at genrbuge et alternativt navn på et link i hele din boks, så kan du anvende [[Aliaser|aliaser]] i stedet.
@@ -186,4 +186,4 @@ Hvis du fx. ofte refererer til de `[[De tre bevægelseslove]]` som `[[3 love]]`,
 > [!note]
 > For at kunne forhåndsvise linkede filer skal du først aktivere: [[Forhåndsvisning af note]].
 
-For at forhåndsvise en linket fil skal du trykke `Ctrl` (eller `Cmd` på macOS) mens du fører musemarkøren over linket. Et popup vindue indeholdende forhåndsvisningen bliver vist ved siden af musemarkøren.
+For at forhåndsvise en linket fil skal du holde musen over et internt link. I redigeringstilstand skal du trykke `Ctrl` (eller `Cmd` på macOS) mens du fører musemarkøren over linket. Et popup vindue indeholdende forhåndsvisningen bliver vist ved siden af musemarkøren.

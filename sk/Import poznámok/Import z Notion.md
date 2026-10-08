@@ -1,40 +1,44 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje jednoducho migrovať vaše poznámky z Notion pomocou [[Importér|pluginu Importér]]. Toto prekonvertuje vaše dáta z Notion do odolných Markdown súborov, ktoré môžete používať offline s Obsidian a mnohými ďalšími aplikáciami.
 
 Obsidian ponúka dva spôsoby importu vašich dát z Notion:
 
-1. **Import cez API** zachová celý váš pracovný priestor vrátane databáz a vzorcov, ktoré sa skonvertujú na [[Úvod do Databáz|Databázy]], ale vyžaduje integračný token Notion a pripojenie na internet.
-2. **Import zo súboru** nezachová databázy, ale nevyžaduje API token ani pripojenie na internet.
+1. **Notion účet (odporúčané)** sa priamo pripojí k vášmu pracovnému priestoru a umožní zachovať databázy a vzorce, ktoré sa skonvertujú na [[Úvod do Databáz|Databázy]]. Vyžaduje integračný token Notion a pripojenie na internet.
+2. **Import zo súboru** používa exportné `.zip` súbory z Notion. Nezachová databázy, ale nevyžaduje API token ani pripojenie na internet.
 
-## Import cez API
+## Import z vášho Notion účtu
 
-### Vytvorenie integračného tokenu Notion API
+### Vytvorenie prístupového tokenu Notion API
 
-Na prístup k vašim dátam z Notion cez API potrebujete integračný token. Tento krok trvá približne 2 minúty.
+Na prístup k vašim dátam z Notion cez API potrebujete prístupový token. Tento krok trvá približne dve minúty.
 
 Token je dlhý reťazec čísel a písmen, zvyčajne začínajúci `ntn_...`, ktorý vám umožní stiahnuť vaše dáta z Notion.
 
-1. Prihláste sa do vášho panela [Notion Integrations](https://www.notion.so/profile/integrations/internal).
-2. Vyberte **New integration**.
+1. Prihláste sa do vášho panela [Notion Connections](https://app.notion.com/developers/connections).
+2. Vyberte **New connection**.
+	1. Pomenujte svoje pripojenie, napr. „Personal". Môžete použiť akékoľvek meno.
+	2. Vyberte **Access token** ako metódu autentifikácie.
+	3. Vyberte pracovný priestor, ktorý chcete exportovať, ako **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Pomenujte svoju integráciu, napr. „Personal". Môžete použiť akékoľvek meno.
-3. Vyberte pracovný priestor, ktorý chcete exportovať.
-4. Kliknite na **Save** a pokračujte na **Configure integration settings**.
-5. Na karte **Configuration** je váš API token dostupný v poli **Internal Integration Secret**.
-6. Vyberte **Show** a potom **Copy**.
-7. Uložte token na bezpečné miesto, napríklad do správcu hesiel.
+3. Kliknite na **Create connection**.
+4. Na karte **Configuration** je váš API token dostupný v poli **Access token**.
+5. Vyberte **Show** a potom **Copy**.
+6. Uložte token na bezpečné miesto, napríklad do správcu hesiel.
 
 ![[notion-token.png#interface]]
 
-Ďalej dajte svojej integrácii prístup k stránkam a databázam Notion, ktoré chcete importovať.
+Ďalej dajte svojmu pripojeniu prístup k stránkam a databázam Notion, ktoré chcete importovať.
 
-1. Prejdite na kartu **Access** integrácie, ktorú ste práve vytvorili.
-2. Kliknite na **Edit access**.
-3. Pridajte stránky a databázy, ktoré chcete importovať.
+1. Prejdite na kartu **Content access** pripojenia, ktoré ste práve vytvorili.
+2. Pridajte stránky a databázy, ktoré chcete importovať.
+
+![[notion-content.png#interface]]
 
 Teraz môžete konvertovať vaše dáta pomocou Obsidian Importéra.
 
@@ -47,7 +51,7 @@ Budete potrebovať oficiálny plugin Obsidian [[Importér]], ktorý môžete [na
 3. Zapnite plugin Importér.
 4. Otvorte plugin **Importér** pomocou palety príkazov alebo ikony na paneli nástrojov.
 5. V časti **File format** vyberte **Notion (API)**
-6. V časti **API token** vložte váš **Internal Integration Secret** z Notion.
+6. V časti **API token** kliknite na **Prepojiť...** a pridajte nové tajomstvo. Pre **ID** zadajte názov ako `notion` a pre **Tajomstvo** vložte váš **Access token** z Notion.
 7. Kliknite na **Načítať** a vyberte databázy a stránky, ktoré chcete importovať.
 8. Skontrolujte a upravte možnosti importu.
 9. Vyberte **Import** a počkajte, kým sa import nedokončí
@@ -72,7 +76,7 @@ Okrem toho Importér vykoná nasledujúce zmeny:
 - Stránky bez podstránok alebo databáz sa importujú ako `[názov súboru].md` namiesto `[názov súboru]/[názov súboru].md`.
 - Databázy sú vždy reprezentované ako priečinky s názvom `[názov databázy]` so súborom `[názov databázy].base` vnútri.
 
-## Import zo súboru
+## Import súborov z Notion (.zip)
 
 Import zo súboru je alternatívny spôsob importu vašich dát z Notion. Táto metóda nezachová databázy, ale nevyžaduje API token ani pripojenie na internet.
 
@@ -80,7 +84,7 @@ Import zo súboru je alternatívny spôsob importu vašich dát z Notion. Táto 
 
 Na prípravu vašich dát na import budete musieť exportovať celý pracovný priestor pomocou formátu HTML exportu Notion. Odporúčame nepoužívať Markdown export Notion, pretože vynecháva dôležité dáta. Na export celého obsahu pracovného priestoru musíte mať administrátorský prístup k pracovnému priestoru Notion.
 
-1. Prejdite na **[[Nastavenia]]** v hornej časti bočného panela Notion.
+1. Prejdite na **Settings** v hornej časti bočného panela Notion.
 2. V časti **Workspace** vyberte **General**.
 3. Nájdite a vyberte **Export all workspace content**.
 4. V časti **Export format** vyberte **HTML**.

@@ -13,9 +13,9 @@ Natomiast wtyczki wymagające bloku kodu wtyczki do renderowania, takie jak Data
 
 ## Graf
 
-Publish oferuje podstawową personalizację kolorów widoku grafu za pomocą CSS. Możesz modyfikować kolory węzłów w swoim pliku `publish.css`, korzystając ze [zmiennych CSS widoku grafu](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
+Publish oferuje podstawową personalizację kolorów podglądu grafu za pomocą CSS. Możesz modyfikować kolory węzłów w swoim pliku `publish.css`, korzystając ze [zmiennych CSS podglądu grafu](https://docs.obsidian.md/Reference/CSS+variables/Plugins/Graph).
 
-Należy pamiętać, że opublikowany graf nie obsługuje kompleksowych opcji sortowania i wyświetlania dostępnych w [[Podgląd grafu|widoku grafu]] aplikacji.
+Należy pamiętać, że opublikowany graf nie obsługuje kompleksowych opcji sortowania i wyświetlania dostępnych w [[Podgląd grafu|podglądu grafu]] aplikacji.
 
 ## Pliki multimedialne
 
@@ -43,4 +43,4 @@ Po przeszukaniu powyższych elementów wyszukiwanie obejmuje również zwykły t
 
 Aby poprawić możliwości wyszukiwania na opublikowanej stronie, zaleca się stosowanie opisowych nazw plików, dodawanie wielu aliasów oraz wybieranie nazw nagłówków, które dokładnie odzwierciedlają zawartość.
 
-Ponadto Publish nie obsługuje obecnie funkcji [[Szukaj#Osadzanie wyników wyszukiwania w notatce|osadzonych wyników wyszukiwania]] dostępnej w aplikacji.
+Ponadto Publish nie obsługuje obecnie funkcji [[Wyszukiwarka#Osadzanie wyników wyszukiwania w notatce|osadzonych wyników wyszukiwania]] dostępnej w aplikacji.

@@ -18,9 +18,8 @@ Hay varias formas de abrir el Selector rápido cuando está habilitado:
 3. Navega hasta la nota usando las teclas de flecha.
 4. Presiona `Enter` para abrir la nota seleccionada.
 
-> [!info] 
-> La funcionalidad de autocompletar cambia a un algoritmo de resultados más simple cuando la bóveda alcanza 10,000 elementos para mantener un rendimiento óptimo de la aplicación.
-^search-autocomplete-large
+> [!info] Coincidencia difusa
+> Las sugerencias de archivos coinciden con las letras en orden, incluso si omites algunas. Por ejemplo, `nd` puede coincidir con `Notas diarias`.
 
 Si el texto no coincide con ninguna nota, puedes presionar `Enter` para crear una nota con ese nombre. Incluso si el texto coincide con una o más notas similares, puedes crear una nota con el nombre exacto presionando `Shift+Enter`.
 

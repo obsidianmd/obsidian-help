@@ -4,9 +4,6 @@ description: 'Feltételes kifejezések, ciklusok és változó-hozzárendelés h
 ---
 Az [[Bevezetés az Obsidian Web Clipper használatába|Web Clipper]] támogatja a sablonlogikát feltételes kifejezésekhez, ciklusokhoz és változó-hozzárendeléshez. Ez a szintaxis a [Twig](https://twig.symfony.com/) és a [Liquid](https://shopify.github.io/liquid/) sablonnyelvekből merít ihletet.
 
-> [!warning] A legújabb verzió szükséges
-> A logikai funkciókhoz az Obsidian Web Clipper 1.0.0 szükséges, amelyet még nem minden bővítményboltban hagytak jóvá.
-
 ## Feltételes kifejezések
 
 Használd az `{% if %}` kifejezést tartalom feltételes megjelenítéséhez változók vagy kifejezések alapján.

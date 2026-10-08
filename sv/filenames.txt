@@ -54,6 +54,10 @@ translation=Vyer
 original=Cards view
 translation=Kortvy
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-vy
+
 [file.bases/views/list]
 original=List view
 translation=Listvy
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Gemenskapens uppförandekod
+
+[file.community-directory]
+original=Community directory
+translation=Gemenskapskatalog
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=HTML-innehåll
 original=Import notes
 translation=Importera anteckningar
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Importera från Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Importera från Apple Journal
@@ -206,6 +218,10 @@ translation=Importera från Google Keep
 original=Import HTML files
 translation=Importera HTML-filer
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importera från Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Importera Markdown-filer
@@ -222,9 +238,17 @@ translation=Importera från Microsoft OneNote
 original=Import from Roam Research
 translation=Importera från Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Mallar för Importer
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Importera Textbundle-filer
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importera från Tomboy och Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

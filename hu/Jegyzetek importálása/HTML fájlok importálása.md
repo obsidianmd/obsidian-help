@@ -1,5 +1,7 @@
 ---
 permalink: import/html
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi egyedi HTML fájlok és teljes HTML mappák egyszerű importálását a hivatalos [[Importáló|Importáló bővítmény]] segítségével. Ez akkor hasznos, ha teljes weboldalakat szeretne [[Obsidian Flavored Markdown|Markdown]] formátumban menteni, vagy ha olyan eszközből szeretne adatokat importálni, amely HTML formátumba exportál.
 

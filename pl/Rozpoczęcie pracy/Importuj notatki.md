@@ -8,6 +8,7 @@ Aplikacje pojawiają się i znikają, ale Twoje dane powinny przetrwać. Obsidia
 ## Importuj z innych aplikacji i formatów plików
 
 - <span class="icon-app icon-notion"></span> [[Importuj z Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Importuj z Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Importuj z Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Importuj z Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Importuj z Apple Notes|Apple Notes]]
@@ -16,11 +17,12 @@ Aplikacje pojawiają się i znikają, ale Twoje dane powinny przetrwać. Obsidia
 - <span class="icon-app icon-bear"></span> [[Importuj z Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Importuj z Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importuj z Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Importuj z Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importuj z Tomboy i Gnote|Tomboy i Gnote]]
 - <span class="icon-app icon-html"></span> [[Importuj pliki HTML|Pliki HTML]]
 - <span class="icon-app icon-md"></span> [[Importuj pliki CSV]]
 - <span class="icon-app icon-md"></span> [[Importuj pliki Markdown|Pliki Markdown]]
 - <span class="icon-app icon-md"></span> [[Importuj pliki Textbundle|Pliki Textbundle]]
-- <span class="icon-app icon-md"></span> [[Importuj notatki Zettelkasten|Notatki Zettelkasten]]
 
 ## Więcej formatów
 
@@ -30,7 +32,6 @@ Dodatkowe poradniki udostępnione przez naszą społeczność, które mogą pom�
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

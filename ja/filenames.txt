@@ -54,6 +54,10 @@ translation=ビュー
 original=Cards view
 translation=カードビュー
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=カンバンビュー
+
 [file.bases/views/list]
 original=List view
 translation=リストビュー
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=コミュニティ行動規範
+
+[file.community-directory]
+original=Community directory
+translation=コミュニティディレクトリ
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=HTMLコンテンツ
 original=Import notes
 translation=ノートのインポート
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Airtableからインポート
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Apple Journal
@@ -206,6 +218,10 @@ translation=Google Keep
 original=Import HTML files
 translation=HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseqからのインポート
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown ファイル
@@ -222,9 +238,17 @@ translation=OneNote
 original=Import from Roam Research
 translation=Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=インポーターテンプレート
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=TomboyとGnoteからのインポート
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

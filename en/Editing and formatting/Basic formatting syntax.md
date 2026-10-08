@@ -149,6 +149,23 @@ Formatting can be forced to display in plain text by adding a backslash `\` in f
 \**This line will be italic and show the asterisks*\*
 ```
 
+### Highlight colors
+
+Highlights support six colors. Add a color emoji immediately after the opening `==`:
+
+| Color  | Example               |
+| ------ | --------------------- |
+| Red    | `==🔴Important==`     |
+| Orange | `==🟠Follow up==`     |
+| Yellow | `==🟡Remember this==` |
+| Green  | `==🟢Completed==`     |
+| Blue   | `==🔵Reference==`     |
+| Purple | `==🟣Idea==`          |
+
+Without a color emoji, the highlight uses your theme's default highlight color.
+
+You can also choose a color from the formatting menu. Typing `==` in the editor suggests highlight colors. In [[Views and editing mode#Live Preview|Live Preview]], placing the cursor inside a highlight shows a color swatch. Select the swatch to change the color.
+
 ## Internal links
 
 Obsidian supports two formats for [[internal links]] between notes:

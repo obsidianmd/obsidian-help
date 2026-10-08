@@ -38,6 +38,9 @@ Vorlagen-Trigger ermöglichen es dir, eine Vorlage automatisch basierend auf der
 
 Der erste Treffer in deiner Vorlagenliste bestimmt, welche Vorlage verwendet wird. Du kannst Vorlagen in den Web Clipper-Einstellungen nach oben und unten ziehen, um die Reihenfolge zu ändern, in der Vorlagen abgeglichen werden.
 
+> [!tip]- Fallback-Vorlage festlegen
+> Wenn eine Seite keiner Trigger-Regel entspricht, verwendet Web Clipper die erste Vorlage in deiner Liste. Halte die Vorlage, die du als Fallback verwenden möchtest, oben in der Liste, damit sie für Seiten ohne spezifische Übereinstimmung verwendet wird.
+
 #### Einfacher URL-Abgleich
 
 Einfacher Abgleich löst eine Vorlage aus, wenn die aktuelle Seiten-URL *mit* dem angegebenen Muster *beginnt*. Zum Beispiel:

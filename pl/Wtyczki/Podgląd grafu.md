@@ -2,11 +2,11 @@
 permalink: plugins/graph
 publish: true
 mobile: true
-description: 'Widok grafu to podstawowa wtyczka, która pozwala wizualizować powiązania między notatkami w Twoim sejfie.'
+description: 'Podgląd grafu to podstawowa wtyczka, która pozwala wizualizować powiązania między notatkami w Twoim sejfie.'
 ---
-Widok grafu to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala wizualizować relacje między notatkami w twoim skarbcu.
+Podgląd grafu to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala wizualizować relacje między notatkami w twoim sejfie.
 
-Aby otworzyć widok grafu, kliknij **Otwórz podgląd grafu** we [[Menu wstążkowe|wstążce]].
+Aby otworzyć podgląd grafu, kliknij **Otwórz podgląd grafu** we [[Wstążka|wstążce]].
 
 - Koła reprezentują notatki, czyli _węzły_.
 - Linie reprezentują [[Łącza wewnętrzne]] między dwoma węzłami.
@@ -28,7 +28,7 @@ Możesz przytrzymać Shift podczas korzystania z klawiatury, aby przyspieszyć r
 
 ## Ustawienia
 
-Aby otworzyć ustawienia grafu, kliknij ikonę koła zębatego w prawym górnym rogu widoku grafu.
+Aby otworzyć ustawienia grafu, kliknij ikonę koła zębatego w prawym górnym rogu podglądu grafu.
 
 Kliknij **Przywróć ustawienia domyślne** w prawym górnym rogu okna ustawień, aby zresetować wszelkie wprowadzone zmiany.
 
@@ -36,14 +36,14 @@ Kliknij **Przywróć ustawienia domyślne** w prawym górnym rogu okna ustawień
 
 Ta sekcja kontroluje, które węzły są wyświetlane na grafie.
 
-- **Szukaj plików** pozwala filtrować notatki na podstawie wyszukiwanego terminu. Aby dowiedzieć się, jak pisać bardziej zaawansowane zapytania wyszukiwania, zapoznaj się z [[Szukaj]].
+- **Wyszukiwarka plików** pozwala filtrować notatki na podstawie wyszukiwanego terminu. Aby dowiedzieć się, jak pisać bardziej zaawansowane zapytania wyszukiwania, zapoznaj się z [[Wyszukiwarka]].
 - **Tagi** przełącza wyświetlanie tagów na grafie.
 - **Załączniki** przełącza wyświetlanie załączników na grafie.
-- **Tylko istniejące pliki** przełącza wyświetlanie tylko notatek istniejących w twoim skarbcu. Ponieważ notatka nie musi istnieć, aby można było do niej linkować, opcja ta pomaga ograniczyć graf do notatek, które faktycznie znajdują się w twoim skarbcu.
+- **Tylko istniejące pliki** przełącza wyświetlanie tylko notatek istniejących w twoim sejfie. Ponieważ notatka nie musi istnieć, aby można było do niej linkować, opcja ta pomaga ograniczyć graf do notatek, które faktycznie znajdują się w twoim sejfie.
 - **Niepowiązane** przełącza wyświetlanie notatek bez żadnych linków.
 
 > [!info] Pominięte pliki
-> Pliki pasujące do wzorców [[Ustawienia#Pominięte pliki|Pominięte pliki]] nie będą wyświetlane w widoku grafu.
+> Pliki pasujące do wzorców [[Ustawienia#Pominięte pliki|Pominięte pliki]] nie będą wyświetlane w podglądu grafu.
 
 ### Grupy
 
@@ -55,7 +55,7 @@ Aby stworzyć nową grupę:
 2. W polu wyszukiwania wpisz termin wyszukiwania dla notatek, które chcesz dodać do grupy.
 3. Kliknij kolorowe koło, aby nadać grupie kolor.
 
-Aby dowiedzieć się, jak pisać bardziej zaawansowane zapytania wyszukiwania, zapoznaj się z [[Szukaj]].
+Aby dowiedzieć się, jak pisać bardziej zaawansowane zapytania wyszukiwania, zapoznaj się z [[Wyszukiwarka]].
 
 ### Wyświetlanie
 
@@ -84,6 +84,6 @@ Notatki i załączniki pojawiają się w kolejności chronologicznej na podstawi
 
 ## Lokalny graf
 
-Aby otworzyć lokalny widok grafu, użyj polecenia **Otwórz lokalny podgląd grafu**. Podczas gdy widok grafu pokazuje wszystkie notatki w twoim skarbcu, lokalny widok grafu pokazuje notatki połączone z aktywną notatką.
+Aby otworzyć lokalny podgląd grafu, użyj polecenia **Otwórz lokalny podgląd grafu**. Podczas gdy podgląd grafu pokazuje wszystkie notatki w twoim sejfie, lokalny podgląd grafu pokazuje notatki połączone z aktywną notatką.
 
-Lokalny widok grafu może korzystać ze wszystkich [[#Ustawienia|ustawień]] dostępnych dla globalnego widoku grafu. Dodatkowo możesz zmienić głębokość lokalnego grafu. Każdy poziom głębokości pokaże notatki połączone z notatkami ujawnionymi na poprzednim poziomie głębokości. Aby kontrolować głębokość lokalnego grafu, użyj suwaka na górze panelu ustawień filtrów lokalnego grafu.
+Lokalny podgląd grafu może korzystać ze wszystkich [[#Ustawienia|ustawień]] dostępnych dla globalnego podglądu grafu. Dodatkowo możesz zmienić głębokość lokalnego grafu. Każdy poziom głębokości pokaże notatki połączone z notatkami ujawnionymi na poprzednim poziomie głębokości. Aby kontrolować głębokość lokalnego grafu, użyj suwaka na górze panelu ustawień filtrów lokalnego grafu.

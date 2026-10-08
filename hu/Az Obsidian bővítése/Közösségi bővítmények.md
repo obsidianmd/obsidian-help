@@ -16,7 +16,7 @@ Ismerje meg, hogyan bővítheti az Obsidiant a közösség által készített b�
 
 A szövegmező segítségével szűrheti a bővítményeket név, szerző és leírás alapján.
 
-Az elérhető bővítményeket böngészőjében is tallózhatja a [community.obsidian.md](https://community.obsidian.md) oldalon.
+Az elérhető bővítményeket böngészőjében is tallózhatja a [community.obsidian.md](https://community.obsidian.md) oldalon. Ha többet szeretne megtudni arról, hogy mit mutat egy bővítmény listaoldala, tekintse meg a [[Közösségi könyvtár]] oldalt.
 
 ## Közösségi bővítmény telepítése
 

@@ -201,7 +201,25 @@ views:
 - `name` és el nom per mostrar, i es pot utilitzar per definir la vista per defecte.
 - `filters` són exactament els mateixos que els descrits anteriorment, però s'apliquen només a la vista.
 - `groupBy` especifica una propietat i una direcció d'ordenació. El valor de la propietat especificada per a cada fila s'utilitza per col·locar la fila en grups.
+- `groupOrder` especifica l'ordre i la visibilitat dels grups. Si és present, només es mostren els grups els valors dels quals estan llistats, en aquest ordre. Una llista buida amaga tots els grups. Elimineu `groupOrder` per mostrar tots els grups en l'ordre definit per `groupBy`.
 - `summaries` associa noms de propietat a un resum amb nom. Els resums realitzen una agregació sobre la propietat a través de totes les files.
+
+Per exemple, aquesta vista mostra només els grups Planned, In progress i Done, en aquest ordre:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Utilitzeu `null` a `groupOrder` per incloure fitxers que no tenen cap valor per a la propietat agrupada.
 
 Les [[Vistes]] poden afegir dades addicionals per emmagatzemar qualsevol informació necessària per mantenir l'estat o renderitzar correctament, però els autors de connectors han de tenir cura de no utilitzar claus ja en ús pel connector principal de Bases. Com a exemple, una vista de taula pot utilitzar això per limitar el nombre de files o per seleccionar quina columna s'utilitza per ordenar les files i en quina direcció. Un tipus de vista diferent, com un mapa, podria utilitzar això per associar quina propietat de la nota correspon a la latitud i longitud i quina propietat s'ha de mostrar com a títol del marcador.
 

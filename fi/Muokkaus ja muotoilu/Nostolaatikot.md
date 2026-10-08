@@ -83,14 +83,14 @@ Mukautetun nostolaatikon määrittämiseksi luo seuraava CSS-lohko:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 `data-callout`-attribuutin arvo on tyyppitunniste, jota haluat käyttää, esimerkiksi `[!custom-question-type]`.
 
-- `--callout-color` määrittää taustavärin käyttäen numeroita (0–255) punaiselle, vihreälle ja siniselle.
+- `--callout-color` määrittää taustavärin. Mikä tahansa kelvollinen CSS-väri toimii, esimerkiksi heksakoodi (`#000000`) tai `rgb()`-arvo.
 - `--callout-icon` voi olla kuvakkeen tunnus sivustolta [lucide.dev](https://lucide.dev) tai SVG-elementti.
 
 > [!warning] Huomautus lucide-kuvakkeiden versioista
@@ -103,6 +103,28 @@ Mukautetun nostolaatikon määrittämiseksi luo seuraava CSS-lohko:
 > ```css
 > --callout-icon: '<svg>...mukautettu svg...</svg>';
 > ```
+
+> [!tip]- Lisämukauttaminen
+> Et ole rajoitettu pelkästään `--callout-color`- ja `--callout-icon`-muuttujiin. Nostolaatikot tukevat tavallisia CSS-valitsimia ja -ominaisuuksia sekä lisä-CSS-muuttujia esimerkiksi reunuksen ja otsikon tyylittämiseen.
+> 
+> Esimerkiksi nostolaatikon otsikon piilottaminen:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Tai reunuksen säätäminen:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Katso kaikki [nostolaatikon CSS-muuttujat](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) lisävaihtoehtoja varten.
 
 ### Tuetut tyypit
 

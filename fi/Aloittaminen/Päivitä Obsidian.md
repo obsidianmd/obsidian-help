@@ -11,7 +11,7 @@ Mobiililaitteilla Obsidian päivitetään laitteen sovelluskaupan kautta. Asennu
 
 Avaa **[[Asetukset]] → Yleiset**.
 
-Löydät sovelluksen ja asennusohjelman nykyiset versiot sivun yläreunasta.
+Löydät sovelluksen ja asennusohjelman nykyiset versiot sivun yläreunasta. Kun uudempi asennusohjelma on saatavilla, Obsidian näyttää ilmoituksen latauslinkin kera. Noudata [[#Asennusohjelman päivitykset|asennusohjelman päivitysohjeita]] asentaaksesi sen.
 
 ![[application-installer-current-version.png#interface]]
 

@@ -2314,6 +2314,86 @@ translation=درج از اپلیکیشن‌ها و قالب‌های فایل د
 original=More formats
 translation=قالب‌های بیشتر
 
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=ایجاد توکن دسترسی شخصی Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=وارد کردن داده‌های Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=گزینه‌های وارد کردن
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=پیکربندی نحوه وارد شدن فیلدهای Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=چه چیزهایی وارد می‌شوند
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=ویرایش الگوی درج
+
+[heading.import/Preview results]
+original=Preview results
+translation=پیش‌نمایش نتایج
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=سینتکس الگو
+
+[heading.import/Variables]
+original=Variables
+translation=متغیرها
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=مقادیر منبع برای ویژگی‌ها
+
+[heading.import/Example template]
+original=Example template
+translation=نمونه الگو
+
+[heading.import/Before you start]
+original=Before you start
+translation=پیش از شروع
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=وارد کردن گراف Logseq
+
+[heading.import/Settings]
+original=Settings
+translation=تنظیمات
+
+[heading.import/Journals]
+original=Journals
+translation=ژورنال‌ها
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=هموار کردن طرح کلی‌ها
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=حفظ داده‌های ناسازگار
+
+[heading.import/Templates]
+original=Templates
+translation=الگوها
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=یافتن فایل‌های یادداشت
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=درج یادداشت‌های Tomboy یا Gnote
+
 [heading.settings/Open Settings]
 original=Open Settings
 translation=گشودن تنظیمات
@@ -4145,3 +4225,59 @@ translation=حذف یک پوسته موجود
 [heading.themes/Learn more]
 original=Learn more
 translation=اطلاعات بیشتر
+
+[heading.community-directory/Header]
+original=Header
+translation=سربرگ
+
+[heading.community-directory/Overview]
+original=Overview
+translation=مرور کلی
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=کارنامه
+
+[heading.community-directory/Updates]
+original=Updates
+translation=به‌روزرسانی‌ها
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=نوار کناری
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=پرسش‌های متداول
+
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=گروه‌بندی کارت‌ها در ستون‌ها
+
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=کار با کارت‌ها و ستون‌ها
+
+[heading.bases/views/kanban/Settings]
+original=Settings
+translation=تنظیمات
+
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=مخفی کردن ستون‌های خالی
+
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=عرض ستون
+
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=ویژگی تصویر
+
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=جای‌گیری تصویر
+
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=نسبت تصویر

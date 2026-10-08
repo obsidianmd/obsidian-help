@@ -1484,8 +1484,6 @@ Ak máte problémy so spustením Obsidian CLI:
 
 ### Windows
 
-Obsidian CLI na Windows vyžaduje inštalátor Obsidian 1.12.7+. Pozrite si [[Aktualizovať Obsidian|Aktualizácia verzie inštalátora]].
-
 Windows používa terminálový presmerovač, ktorý správne pripojí Obsidian k stdin/stdout. To je nevyhnutné, pretože Obsidian normálne beží ako GUI aplikácia, čo je nekompatibilné s terminálovými výstupmi na Windows. Keď nainštalujete Obsidian 1.12.7+, terminálový presmerovač `Obsidian.com` bude pridaný do priečinka, kde ste nainštalovali súbor `Obsidian.exe`.
 
 Registrácia CLI pridáva Obsidian do premennej PATH vášho používateľa, čo sa prejaví až po reštarte terminálu.

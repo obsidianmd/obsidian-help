@@ -145,6 +145,23 @@ El format es pot forçar a mostrar-se en text sense format afegint una barra inv
 \**Aquesta línia serà en cursiva i mostrarà els asteriscs*\*
 ```
 
+### Colors de ressaltat
+
+Els ressaltats admeten sis colors. Afegiu un emoji de color immediatament després de l'obertura `==`:
+
+| Color  | Exemple               |
+| ------ | --------------------- |
+| Vermell    | `==🔴Important==`     |
+| Taronja | `==🟠Seguiment==`     |
+| Groc | `==🟡Recorda-ho==` |
+| Verd  | `==🟢Completat==`     |
+| Blau   | `==🔵Referència==`     |
+| Porpra | `==🟣Idea==`          |
+
+Sense un emoji de color, el ressaltat utilitza el color de ressaltat per defecte del vostre tema.
+
+També podeu triar un color des del menú de format. Escriure `==` a l'editor suggereix colors de ressaltat. A la [[Vistes i mode d'edició#Previsualització en viu|previsualització en viu]], col·locar el cursor dins d'un ressaltat mostra una mostra de color. Seleccioneu la mostra per canviar el color.
+
 ## Enllaços interns
 
 Obsidian admet dos formats per als [[Enllaços interns]] entre notes:

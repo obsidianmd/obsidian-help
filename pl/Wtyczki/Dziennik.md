@@ -5,7 +5,7 @@ Dziennik to [[Wbudowane wtyczki|wbudowana wtyczka]], która otwiera notatkę na 
 
 Aby otworzyć dzisiejszy dziennik, możesz:
 
-- Kliknąć **Otwórz dzisiejszy dziennik** ![[lucide-calendar.svg#icon]] na [[Menu wstążkowe|wstążce]].
+- Kliknąć **Otwórz dzisiejszy dziennik** ![[lucide-calendar.svg#icon]] na [[Wstążka|wstążce]].
 - Uruchomić polecenie **Otwórz dzisiejszy dziennik** z [[Lista poleceń|palety poleceń]].
 - [[Skróty klawiszowe#Ustawianie skrótu klawiszowego|Użyć skrótu klawiszowego]] dla polecenia **Otwórz dzisiejszy dziennik**.
 
@@ -35,7 +35,7 @@ Jeśli Twoje codzienne notatki mają tę samą strukturę, możesz użyć [[Wtyc
    ```
 
 2. Otwórz **[[Ustawienia]]**.
-3. Na pasku bocznym kliknij **Dziennik** w sekcji **Opcje wtyczek**.
+3. Na panelu bocznym kliknij **Dziennik** w sekcji **Opcje wtyczek**.
 4. W polu tekstowym obok **Lokalizacja szablonu** wybierz notatkę „Szablon dzienny".
 
 Obsidian użyje szablonu przy następnym tworzeniu nowej codziennej notatki.

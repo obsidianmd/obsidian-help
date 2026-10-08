@@ -29,7 +29,7 @@ Gdy osiągniesz limit przechowywania konta, wtyczka Sync przestanie synchronizow
 
 ### Identyfikowanie i usuwanie dużych plików
 
-Aby zidentyfikować i usunąć duże pliki ze skarbca:
+Aby zidentyfikować i usunąć duże pliki ze sejfu:
 
 1. Otwórz **[[Ustawienia]] → Sync**.
 2. Wybierz **Wyświetl największe pliki** obok **Rozmiar sejfu przekracza limit**.
@@ -72,6 +72,6 @@ Jeśli obniżasz plan z Sync Plus do Sync Standard, musisz również zmniejszyć
 
 ### Zachowywanie historii wersji
 
-Załączniki są przechowywane w [[Historia wersji|historii wersji]] przez okres do dwóch tygodni. Jeśli planujesz obniżenie planu w najbliższej przyszłości, możesz zacząć od usunięcia załączników z lokalnego skarbca.
+Załączniki są przechowywane w [[Historia wersji|historii wersji]] przez okres do dwóch tygodni. Jeśli planujesz obniżenie planu w najbliższej przyszłości, możesz zacząć od usunięcia załączników z lokalnego sejfu.
 
 Po dwóch tygodniach zostaną one usunięte ze zdalnego sejfu i nie będą się już wliczać do limitu przechowywania. W tym momencie będziesz mógł obniżyć plan, zachowując jednocześnie historię wersji dla innych typów plików, takich jak pliki Markdown.

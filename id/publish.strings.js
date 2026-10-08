@@ -1,4 +1,5 @@
 // Locale UI strings — Indonesian
+window.LANG_SWITCHER_STRINGS = { search: "Ganti bahasa...", noResults: "Tidak ada hasil" };
 (function () {
   function apply() {
     var el;

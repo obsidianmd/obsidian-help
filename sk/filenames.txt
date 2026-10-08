@@ -54,6 +54,10 @@ translation=Zobrazenia
 original=Cards view
 translation=Zobrazenie kariet
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban zobrazenie
+
 [file.bases/views/list]
 original=List view
 translation=Zobrazenie zoznamu
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Kódex správania komunity
+
+[file.community-directory]
+original=Community directory
+translation=Komunitný adresár
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=HTML obsah
 original=Import notes
 translation=Import poznámok
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Import z Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Import z Apple Journal
@@ -206,6 +218,10 @@ translation=Import z Google Keep
 original=Import HTML files
 translation=Import HTML súborov
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Import z Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Import Markdown súborov
@@ -222,9 +238,17 @@ translation=Import z Microsoft OneNote
 original=Import from Roam Research
 translation=Import z Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Šablóny importéra
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Import Textbundle súborov
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Import z Tomboy a Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

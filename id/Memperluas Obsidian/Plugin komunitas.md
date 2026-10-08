@@ -19,7 +19,7 @@ Pelajari cara memperluas Obsidian dengan plugin yang dibuat oleh komunitas. Guna
 
 Gunakan kotak teks untuk memfilter plugin berdasarkan nama, pembuat, dan deskripsi.
 
-Anda juga dapat menelusuri plugin yang tersedia di peramban Anda, dengan mengunjungi [community.obsidian.md](https://community.obsidian.md).
+Anda juga dapat menelusuri plugin yang tersedia di peramban Anda, dengan mengunjungi [community.obsidian.md](https://community.obsidian.md). Untuk informasi lebih lanjut tentang apa yang ditampilkan halaman daftar plugin, lihat [[Direktori komunitas]].
 
 ## Memasang plugin komunitas
 

@@ -8,8 +8,7 @@ aliases:
   - Basesyntaks
   - Baser/Basesyntaks
 ---
-
-Når du [[Opret en base|opretter en base]] i Obsidian, gemmes den som en `.base` fil. Baser er typisk redigeret ved hjælp værktøjer i brugergrænsefladen, men synktaksen kan også redigeres manuelt, og indlejres i en kodeblok.
+Når du [[Opret en base|opretter en base]] i Obsidian, gemmes den som en `.base` fil. Baser er typisk redigeret ved hjælp værktøjer i brugergrænsefladen, men synktaksen kan også redigeres manuelt, og indlejres i en kodeblok.
 
 Med synktaksen til [[Introduktion til Baser|baser]] defineres [[Visninger|views]], filtre, og [[Formler|formler]]. Baser skal være gyldig YAML, der overholder skemaet defineret nederst.
 
@@ -67,6 +66,12 @@ views:
 En base inkluderer som standard enhver fil i boksen. Der er ikke noget `from` eller `source` som i SQL eller Dataview. `filters` sektionen lader dig definere betingelser for at formindske datasættet.
 
 ```yaml
+# Simple filter:
+filters:
+  and:
+    - file.hasTag("tag")
+
+# Complex filter:
 filters:
   or:
     - file.hasTag("tag")
@@ -200,7 +205,25 @@ views:
 - `name` er et visningsnavn og kan anvendes til at definere standardviewet
 - `filters` er det samme som beskrevet ovenfor, men gælder kun for dette view
 - `groupBy` specificerer en egenskab og en sorteringsrækkefølge. Den specificerede egenskabs værdi for hver række benyttes til at placere rækken i grupper
+- `groupOrder` specificerer rækkefølgen og synligheden af grupper. Hvis den er til stede, vises kun grupper, hvis værdier er angivet, i den angivne rækkefølge. En tom liste skjuler alle grupper. Fjern `groupOrder` for at vise alle grupper i den rækkefølge, der er defineret af `groupBy`.
 - `summaries` mapper egenskabsnavne til et navngivet "summary". Summaries udfører en aggregering over egenskaberne for alle rækker.
+
+Fx. viser dette view kun grupperne Planned, In progress og Done, i den rækkefølge:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Brug `null` i `groupOrder` for at inkludere filer, der ikke har en værdi for den grupperede egenskab.
 
 [[Visninger]] kan tilføje yderligere data for at gemme nødvendig information til at kunne opretholde tilstand eller blive vist korrekt, så pluginudviklere skal være påpasselige med ikke a anvende nøgler som allerede benyttes af Baser pluginnet. Fx. kan et tebelview anvende disse ti lat begrænse antallet af rækker eller til at vælge hvilken kolonne, som skal benyttes til at sortere rækker og i hvilken rækkefølge. En anden viewtype såsom et landkort kunne bruge det til at vide hvilken egenskab, der svarer til breddegraden og længdegraden og hvilken egenskab, som skal vises som punktets titel.
 

@@ -22,6 +22,27 @@ You can also create notes using [[File explorer#Create a new note|File explorer]
 > Obsidian will respect the filename limitations of the operating system you create the note on. If you plan to [[Sync your notes across devices|sync your notes across devices]], make sure your filenames are [safe for other operating systems](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Open files outside your vault
+
+On desktop, you can open and edit individual Markdown files outside your vault. Files open in your current window and stay in their original location.
+
+> [!note] Requires Obsidian 1.14 and the latest installer
+> [[Update Obsidian#Installer updates|Update your installer]] by downloading Obsidian from [obsidian.md/download](https://obsidian.md/download) and reinstalling the application.
+
+To open a Markdown file:
+
+1. Open the [[Command palette]].
+2. Select **Open file from outside the vault...**.
+3. Choose a Markdown file on your computer.
+
+You can also use your operating system's **Open with** menu and select **Obsidian**. To open Markdown files in Obsidian by default, set it as the default application for `.md` files.
+
+Image embeds and links to other local files resolve relative to the Markdown file's folder. Use [[Outline]] to navigate headings and [[Outgoing links]] to browse linked files.
+
+### Preview files with Quick Look
+
+On macOS, select a Markdown file in Finder and press `Space` to preview it with **Quick Look**. Quick Look previews work even when Obsidian is closed.
+
 ## Rename a note
 
 To rename an active note:

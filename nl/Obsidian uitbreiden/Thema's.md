@@ -8,6 +8,8 @@ Leer hoe je het uiterlijk van Obsidian kunt aanpassen met thema's die door de co
 1. Open **[[Instellingen]]**.
 2. Selecteer onder **Vormgeving → Thema's** de optie **Beheren** om alle beschikbare community-thema's weer te geven.
 
+Je kunt ook beschikbare thema's bekijken in je browser door naar [community.obsidian.md](https://community.obsidian.md) te gaan. Raadpleeg [[Communityoverzicht]] voor meer informatie over wat de vermeldingspagina van een thema toont.
+
 ## Een nieuw thema installeren
 
 1. Open **[[Instellingen]]**.

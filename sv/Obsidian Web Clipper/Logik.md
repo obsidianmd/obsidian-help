@@ -4,9 +4,6 @@ description: 'Använd villkorssatser, loopar och variabeltilldelning i Web Clipp
 ---
 [[Introduktion till Obsidian Web Clipper|Web Clipper]] stöder malllogik för villkorssatser, loopar och variabeltilldelning. Denna syntax är inspirerad av mallspråken [Twig](https://twig.symfony.com/) och [Liquid](https://shopify.github.io/liquid/).
 
-> [!warning] Kräver senaste versionen
-> Logikfunktioner kräver Obsidian Web Clipper 1.0.0 som ännu inte har godkänts i alla tilläggsbutiker.
-
 ## Villkorssatser
 
 Använd `{% if %}` för att villkorligt inkludera innehåll baserat på variabler eller uttryck.

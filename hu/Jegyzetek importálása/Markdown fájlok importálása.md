@@ -1,5 +1,7 @@
 ---
 permalink: import/markdown
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian Markdown `.md` fájlokat használ a jegyzetek elsődleges formátumaként. Ez megkönnyíti a Markdown fájlok importálását az Obsidianba. Számos alkalmazás képes Markdown fájlokat szerkeszteni vagy ebbe a formátumba exportálni.
 

@@ -17,26 +17,30 @@ Voreingestellte Variablen werden automatisch basierend auf dem Seiteninhalt gene
 
 Die Hauptinhaltsvariable ist `{{content}}`, die den Artikelinhalt, die [[Marker|Hervorhebungen]] oder die Auswahl enthält, falls Text auf der Seite markiert ist. Beachte, dass `{{content}}` versucht, den Hauptinhalt der Seite zu extrahieren, was nicht immer dem entsprechen muss, was du möchtest. In diesem Fall kannst du andere voreingestellte Variablen oder Selektor-Variablen verwenden, um den benötigten Inhalt zu extrahieren.
 
-| Variable            | Beschreibung                                                                            |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Autor der Seite                                                                     |
+| Variable            | Beschreibung                                                                   |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Autor der Seite                                                                |
 | `{{content}}`       | Artikelinhalt, [[Marker\|Hervorhebungen]] oder Auswahl, im Markdown-Format |
 | `{{contentHtml}}`   | Artikelinhalt, [[Marker\|Hervorhebungen]] oder Auswahl, im HTML-Format     |
-| `{{date}}`          | Aktuelles Datum, kann mit dem `date`-Filter formatiert werden                                 |
-| `{{description}}`   | Beschreibung oder Auszug                                                                 |
-| `{{domain}}`        | Domain                                                                                 |
-| `{{favicon}}`       | Favicon-URL                                                                            |
-| `{{fullHtml}}`      | Unverarbeitetes HTML des vollständigen Seiteninhalts                                             |
+| `{{date}}`          | Aktuelles Datum, kann mit dem `date`-Filter formatiert werden                  |
+| `{{description}}`   | Beschreibung oder Auszug                                                       |
+| `{{domain}}`        | Domain                                                                         |
+| `{{favicon}}`       | Favicon-URL                                                                    |
+| `{{fullHtml}}`      | Unverarbeitetes HTML des vollständigen Seiteninhalts                            |
 | `{{highlights}}`    | [[Marker\|Hervorhebungen]] mit Text und Zeitstempeln                           |
-| `{{image}}`         | URL des Social-Share-Bildes                                                                 |
-| `{{published}}`     | Veröffentlichungsdatum, kann mit dem `date`-Filter formatiert werden                               |
-| `{{selection}}`     | Auswahl im Markdown-Format                                                           |
-| `{{selectionHtml}}` | Auswahl im HTML-Format                                                               |
-| `{{site}}`          | Website-Name oder Herausgeber                                                                 |
-| `{{title}}`         | Titel der Seite                                                                      |
-| `{{time}}`          | Aktuelles Datum und Uhrzeit                                                                  |
-| `{{url}}`           | Aktuelle URL                                                                            |
-| `{{words}}`         | Anzahl der Wörter                                                                             |
+| `{{image}}`         | URL des Social-Share-Bildes                                                    |
+| `{{language}}`      | Seitensprache                                                                  |
+| `{{model}}`         | [[Interpreter]]-Modellname                                                     |
+| `{{modelId}}`       | [[Interpreter]]-Modell-ID                                                      |
+| `{{modelProvider}}` | [[Interpreter]]-Modellanbieter                                                 |
+| `{{published}}`     | Veröffentlichungsdatum, kann mit dem `date`-Filter formatiert werden            |
+| `{{selection}}`     | Auswahl im Markdown-Format                                                     |
+| `{{selectionHtml}}` | Auswahl im HTML-Format                                                         |
+| `{{site}}`          | Website-Name oder Herausgeber                                                  |
+| `{{title}}`         | Titel der Seite                                                                |
+| `{{time}}`          | Aktuelles Datum und Uhrzeit                                                    |
+| `{{url}}`           | Aktuelle URL                                                                   |
+| `{{words}}`         | Anzahl der Wörter                                                              |
 
 ## Prompt-Variablen
 

@@ -16,7 +16,7 @@ Apreneu com ampliar Obsidian amb connectors creats per la comunitat. Utilitzeu c
 
 Utilitzeu el quadre de text per filtrar connectors segons el seu nom, autor i descripció.
 
-També podeu navegar pels connectors disponibles al vostre navegador, dirigint-vos a [community.obsidian.md](https://community.obsidian.md).
+També podeu navegar pels connectors disponibles al vostre navegador, dirigint-vos a [community.obsidian.md](https://community.obsidian.md). Per a més informació sobre què mostra la pàgina de llistat d'un connector, consulteu [[Directori de la comunitat]].
 
 ## Instal·lar un connector de la comunitat
 

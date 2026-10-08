@@ -31,6 +31,7 @@ Als je geen inhoud ziet in Obsidian wanneer je op **Toevoegen aan Obsidian** kli
 
 - Zorg ervoor dat het [[Obsidian URI]]-protocol [[Obsidian URI#Register Obsidian URI|is geregistreerd]].
 - Als je Firefox gebruikt, moet je het mogelijk [registreren in de browserinstellingen](https://kb.mozillazine.org/Register_protocol).
+- Als je de Flatpak gebruikt, moet je mogelijk de `x-scheme-handler/obsidian`-waarde in je `.config/mimeapps.list` bijwerken van `obsidian.desktop` naar `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian opent maar alleen de bestandsnaam wordt opgeslagen
 

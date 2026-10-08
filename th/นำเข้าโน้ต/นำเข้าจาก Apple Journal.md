@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian ช่วยให้คุณย้ายรายการบันทึกจาก Apple Journal ได้อย่างง่ายดายโดยใช้[[ตัวนำเข้า|ปลั๊กอิน Importer]]
 ซึ่งจะแปลงบันทึกของคุณเป็นไฟล์ Markdown ที่ทนทาน ที่คุณสามารถใช้กับ Obsidian และแอปอื่นๆ ได้มากมาย

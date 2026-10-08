@@ -1484,8 +1484,6 @@ Nếu bạn gặp khó khăn khi chạy Obsidian CLI:
 
 ### Windows
 
-Obsidian CLI trên Windows yêu cầu trình cài đặt Obsidian 1.12.7+. Xem [[Cập nhật Obsidian|Cập nhật phiên bản trình cài đặt]].
-
 Windows sử dụng trình chuyển hướng terminal kết nối Obsidian với stdin/stdout đúng cách. Điều này là cần thiết vì Obsidian thường chạy như ứng dụng GUI, không tương thích với đầu ra terminal trên Windows. Khi bạn cài đặt Obsidian 1.12.7+, trình chuyển hướng terminal `Obsidian.com` sẽ được thêm vào thư mục nơi bạn cài đặt tệp `Obsidian.exe`.
 
 Việc đăng ký CLI thêm Obsidian vào biến PATH của người dùng, chỉ có hiệu lực sau khi bạn khởi động lại terminal.

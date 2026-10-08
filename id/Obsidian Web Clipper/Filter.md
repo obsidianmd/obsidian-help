@@ -102,6 +102,13 @@ Menghapus spasi kosong dari kedua ujung string.
 
 - `"  hello world  "|trim` mengembalikan `"hello world"`.
 
+### `unescape`
+
+Mengonversi tanda kutip yang di-escape dan urutan baris baru menjadi karakter literal.
+
+- `"Line 1\\nLine 2"|unescape` mengembalikan teks dalam dua baris.
+- `'He said \\"hello\\"'|unescape` mengembalikan `He said "hello"`.
+
 ### `uncamel`
 
 Mengonversi camelCase atau PascalCase menjadi kata-kata yang dipisahkan spasi, yang dapat Anda format lebih lanjut dengan filter lain seperti `title` atau `capitalize`.
@@ -206,6 +213,14 @@ Mengembalikan panjang string, array, atau jumlah kunci dalam objek.
 - Untuk array: `["a","b","c"]|length` mengembalikan `3`.
 - Untuk objek: `{"a":1,"b":2}|length` mengembalikan `2`.
 
+### `number_format`
+
+Memformat angka dengan jumlah desimal yang ditentukan dan pemisah desimal serta ribuan opsional.
+
+- `1234.567|number_format:2` mengembalikan `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` mengembalikan `"1.234,57"`.
+- Array dan objek diformat secara rekursif.
+
 ### `round`
 
 Membulatkan angka ke bilangan bulat terdekat atau ke jumlah desimal yang ditentukan.
@@ -216,6 +231,10 @@ Membulatkan angka ke bilangan bulat terdekat atau ke jumlah desimal yang ditentu
 ## Pemrosesan HTML
 
 Memproses konten HTML dan mengonversi HTML ke Markdown. Perhatikan bahwa [[Variabel|variabel]] input Anda harus berisi konten HTML, misalnya menggunakan `{{fullHtml}}`, `{{contentHtml}}` atau variabel `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Mengonversi HTML menjadi JSON terstruktur yang berisi tag, atribut, dan anak dari setiap elemen. Node teks menggunakan format `{"type":"text","content":"..."}`. Ini dapat digabungkan dengan filter seperti `map`, `object`, dan `template` untuk membentuk ulang HTML yang diekstrak.
 
 ### `markdown`
 
@@ -339,6 +358,13 @@ Memanipulasi data objek:
 - `object:keys` mengembalikan array kunci objek.
 - `object:values` mengembalikan array nilai objek.
 - Contoh: `{"a":1,"b":2}|object:array` mengembalikan `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Membalikkan string, array, dan urutan entri objek.
+
+- `"abc"|reverse` mengembalikan `"cba"`.
+- `["a","b","c"]|reverse` mengembalikan `["c","b","a"]`.
 
 ### `slice`
 

@@ -83,14 +83,14 @@ För att definiera en anpassad notis, skapa följande CSS-block:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Värdet på attributet `data-callout` är typidentifieraren du vill använda, till exempel `[!custom-question-type]`.
 
-- `--callout-color` definierar bakgrundsfärgen med siffror (0–255) för röd, grön och blå.
+- `--callout-color` definierar bakgrundsfärgen. Alla giltiga CSS-färger fungerar, till exempel en hexkod (`#000000`) eller ett `rgb()`-värde.
 - `--callout-icon` kan vara ett ikon-id från [lucide.dev](https://lucide.dev), eller ett SVG-element.
 
 > [!warning] Notering om lucide-ikonversioner
@@ -103,6 +103,28 @@ Värdet på attributet `data-callout` är typidentifieraren du vill använda, ti
 > ```css
 > --callout-icon: '<svg>...anpassad svg...</svg>';
 > ```
+
+> [!tip]- Ytterligare anpassning
+> Du är inte begränsad till `--callout-color` och `--callout-icon`. Notiser stöder vanliga CSS-selektorer och egenskaper, tillsammans med ytterligare CSS-variabler för saker som kantlinjer och titelstilning.
+> 
+> Till exempel, dölj en notis titel:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Eller justera dess kantlinje:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Se den fullständiga listan över [CSS-variabler för notiser](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) för fler alternativ.
 
 ### Typer som stöds
 

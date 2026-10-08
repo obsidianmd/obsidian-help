@@ -102,6 +102,13 @@ Removes white space from both ends of a string.
 
 - `"  hello world  "|trim` returns `"hello world"`.
 
+### `unescape`
+
+Converts escaped quotes and newline sequences to literal characters.
+
+- `"Line 1\\nLine 2"|unescape` returns the text on two lines.
+- `'He said \\"hello\\"'|unescape` returns `He said "hello"`.
+
 ### `uncamel`
 
 Converts camelCase or PascalCase to space-separated words, which you can further format with other filters like `title` or `capitalize`.
@@ -206,6 +213,14 @@ Returns the length of strings, arrays, or number of keys in objects.
 - For arrays: `["a","b","c"]|length` returns `3`.
 - For objects: `{"a":1,"b":2}|length` returns `2`.
 
+### `number_format`
+
+Formats a number with a specified number of decimal places and optional decimal and thousands separators.
+
+- `1234.567|number_format:2` returns `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` returns `"1.234,57"`.
+- Arrays and objects are formatted recursively.
+
 ### `round`
 
 Rounds a number to the nearest integer or to a specified number of decimal places.
@@ -216,6 +231,10 @@ Rounds a number to the nearest integer or to a specified number of decimal place
 ## HTML processing
 
 Process HTML content and convert HTML to Markdown. Note that your input [[Variables|variable]] must contain HTML content, e.g. using `{{fullHtml}}`, `{{contentHtml}}` or a `{{selectorHtml:}}` variable.
+
+### `html_to_json`
+
+Converts HTML into structured JSON containing each element's tag, attributes, and children. Text nodes use the format `{"type":"text","content":"..."}`. This can be combined with filters such as `map`, `object`, and `template` to reshape extracted HTML.
 
 ### `markdown` 
 
@@ -339,6 +358,13 @@ Manipulates object data:
 - `object:keys` returns an array of the object's keys.
 - `object:values` returns an array of the object's values.
 - Example: `{"a":1,"b":2}|object:array` returns `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Reverses strings, arrays, and the entry order of objects.
+
+- `"abc"|reverse` returns `"cba"`.
+- `["a","b","c"]|reverse` returns `["c","b","a"]`.
 
 ### `slice`
 

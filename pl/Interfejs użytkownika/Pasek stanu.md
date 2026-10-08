@@ -1,7 +1,7 @@
 ---
 permalink: status-bar
 ---
-Pasek stanu wyświetla małe informacje w prawym dolnym rogu okna. Zawiera przydatne informacje o aktywnym pliku, bieżącym skarbcu lub aktualnym stanie, takim jak godzina i data.
+Pasek stanu wyświetla małe informacje w prawym dolnym rogu okna. Zawiera przydatne informacje o aktywnym pliku, bieżącym sejfie lub aktualnym stanie, takim jak godzina i data.
 
 ![[status-bar-desktop.png#interface]]
 

@@ -145,6 +145,23 @@ Muotoilun voi pakottaa näkymään teksti ilman muotoilua lisäämällä kenovii
 \**Tämä rivi kursivoidaan ja tähtimerkit näytetään*\*
 ```
 
+### Korostusvärit
+
+Korostukset tukevat kuutta väriä. Lisää värillinen emoji heti avaavan `==`-merkkiparin jälkeen:
+
+| Väri  | Esimerkki               |
+| ------ | --------------------- |
+| Punainen    | `==🔴Tärkeää==`     |
+| Oranssi | `==🟠Seurattava==`     |
+| Keltainen | `==🟡Muista tämä==` |
+| Vihreä  | `==🟢Valmis==`     |
+| Sininen   | `==🔵Viite==`     |
+| Violetti | `==🟣Idea==`          |
+
+Ilman väriemojia korostus käyttää teemasi oletuskorostusväriä.
+
+Voit myös valita värin muotoiluvalikosta. `==`-merkkien kirjoittaminen muokkaimessa ehdottaa korostusvärejä. [[Näkymät ja muokkaustila#Visuaalinen muokkaus|Visuaalisessa muokkauksessa]] kohdistimen vieminen korostuksen sisälle näyttää väriruudun. Napsauta ruutua vaihtaaksesi väriä.
+
 ## Sisäiset linkit
 
 Obsidian tukee kahta muotoa muistiinpanojen välisille [[Sisäiset linkit|sisäisille linkeille]]:
@@ -469,7 +486,7 @@ Voit myös käyttää tekstinsisäisiä alaviitteitä. ^[Tämä on tekstinsisäi
 > [!note] Huomautus
 > Tekstinsisäiset alaviitteet toimivat vain lukutilassa, eivät visuaalisessa muokkauksessa.
 
-Käytä [[Alaviitteet-näkymä|alaviitteet-näkymää]] nähdäksesi kaikki muistiinpanon alaviitteet.
+Käytä [[Alaviitenäkymä|alaviitteet-näkymää]] nähdäksesi kaikki muistiinpanon alaviitteet.
 
 ## Kommentit
 

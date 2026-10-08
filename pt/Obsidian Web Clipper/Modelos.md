@@ -38,6 +38,9 @@ Os acionadores de modelo permitem selecionar automaticamente um modelo com base 
 
 A primeira correspondência na sua lista de modelos determina qual modelo é utilizado. Pode arrastar modelos para cima e para baixo nas definições do Web Clipper para alterar a ordem em que os modelos são correspondidos.
 
+> [!tip]- Definir um modelo de recurso
+> Se uma página não corresponder a nenhuma regra de acionamento, o Web Clipper utiliza o primeiro modelo na sua lista. Mantenha o modelo que pretende como recurso no topo da lista para garantir que é utilizado para páginas sem uma correspondência específica.
+
 #### Correspondência simples de URL
 
 A correspondência simples aciona um modelo se o URL da página atual *começar com* o padrão dado. Por exemplo:
@@ -62,4 +65,4 @@ Os valores schema.org também podem ser usados para [[Variáveis#Variáveis Sche
 
 ### Contexto do interpretador
 
-Quando o [[Interpretador|Interpretador]] está ativado, pode usar [[Variáveis#Variáveis de prompt|variáveis de prompt]] para extrair conteúdo de páginas com linguagem natural. Para cada modelo, pode definir o [[Interpretador#Contexto|contexto]] a que o Interpretador tem acesso.
+Quando o [[Intérprete|Interpretador]] está ativado, pode usar [[Variáveis#Variáveis de prompt|variáveis de prompt]] para extrair conteúdo de páginas com linguagem natural. Para cada modelo, pode definir o [[Intérprete#Contexto|contexto]] a que o Interpretador tem acesso.

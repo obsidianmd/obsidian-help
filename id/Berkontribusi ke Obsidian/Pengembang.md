@@ -12,6 +12,7 @@ Anda dapat mengembangkan [[Plugin komunitas]] dan [[Tema]] menggunakan Typescrip
 Obsidian mengembangkan dan memelihara beberapa proyek sumber terbuka. Anda dapat mengirimkan pull request berisi perbaikan bug dan peningkatan ke repositori GitHub berikut:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), format file terbuka untuk data kanvas tak terbatas.
+- [Knap](https://github.com/obsidianmd/knap) (MIT) bahasa templat untuk menghasilkan Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), plugin yang mengonversi data dari berbagai format menjadi file Markdown teks biasa.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), plugin yang menampilkan peta di Obsidian Basis.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), ekstensi peramban untuk menyorot dan menangkap halaman web menjadi file Markdown teks biasa.

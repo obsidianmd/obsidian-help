@@ -83,14 +83,14 @@ Belirtme çizgilerini birden fazla düzeyde iç içe yerleştirebilirsiniz.
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 `data-callout` özniteliğinin değeri, kullanmak istediğiniz tür tanımlayıcısıdır, örneğin `[!custom-question-type]`.
 
-- `--callout-color`, kırmızı, yeşil ve mavi için sayılar (0–255) kullanarak arka plan rengini tanımlar.
+- `--callout-color`, arka plan rengini tanımlar. Geçerli herhangi bir CSS rengi çalışır, örneğin bir hex kodu (`#000000`) veya bir `rgb()` değeri.
 - `--callout-icon`, [lucide.dev](https://lucide.dev) sitesinden bir simge kimliği veya bir SVG öğesi olabilir.
 
 > [!warning] Lucide simge sürümleri hakkında not
@@ -103,6 +103,28 @@ Belirtme çizgilerini birden fazla düzeyde iç içe yerleştirebilirsiniz.
 > ```css
 > --callout-icon: '<svg>...özel svg...</svg>';
 > ```
+
+> [!tip]- İleri düzey özelleştirme
+> `--callout-color` ve `--callout-icon` ile sınırlı değilsiniz. Belirtme çizgileri, kenarlık ve başlık stili gibi şeyler için ek CSS değişkenleriyle birlikte standart CSS seçicilerini ve özelliklerini destekler.
+> 
+> Örneğin, bir belirtme çizgisinin başlığını gizleyin:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Veya kenarlığını ayarlayın:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Daha fazla seçenek için [belirtme çizgisi CSS değişkenlerinin](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) tam listesine bakın.
 
 ### Desteklenen türler
 

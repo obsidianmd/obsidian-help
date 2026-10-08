@@ -27,7 +27,7 @@ Obsidian'ın geliştirilmesine yardımcı olan yarı zamanlı geliştiriciler.
 
 [Topluluk](https://community.obsidian.md/) eklenti/tema inceleme sürecine ve araçlarına katkıda bulunanlar.
 
-- Fevol
+- Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
@@ -145,7 +145,7 @@ https://github.com/cure53/DOMPurify
 
 ### Electron
 
-Versiyon `37.3.0`
+Versiyon `43.1.1`
 MIT Lisansı
 Telif Hakkı (c) Electron katkıda bulunanları
 Telif Hakkı (c) 2013-2020 GitHub Inc.
@@ -172,13 +172,13 @@ Apache Lisansı 2.0
 
 ### Mermaid
 
-Versiyon `11.4.1`
+Versiyon `11.13.0`
 MIT Lisansı
 Telif Hakkı (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Versiyon `2.29.4`
+Versiyon `2.30.1`
 MIT Lisansı
 Telif Hakkı (c) JS Foundation ve diğer katkıda bulunanlar
 

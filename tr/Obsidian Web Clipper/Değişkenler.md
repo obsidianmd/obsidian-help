@@ -17,26 +17,30 @@ permalink: web-clipper/variables
 
 Ana içerik değişkeni `{{content}}`'tir; bu değişken makale içeriğini, [[Vurgulayıcı|vurguları]] veya sayfada seçili metin varsa seçimi içerir. `{{content}}`'in sayfanın ana içeriğini çıkarmaya çalıştığını unutmayın; bu her zaman istediğiniz sonuç olmayabilir. Bu durumda, ihtiyacınız olan içeriği çıkarmak için diğer ön ayar değişkenlerini veya seçici değişkenleri kullanabilirsiniz.
 
-| Değişken            | Açıklama                                                                               |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Sayfanın yazarı                                                                        |
+| Değişken            | Açıklama                                                                       |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Sayfanın yazarı                                                                |
 | `{{content}}`       | Makale içeriği, [[Vurgulayıcı\|vurgular]] veya seçim, Markdown biçiminde |
 | `{{contentHtml}}`   | Makale içeriği, [[Vurgulayıcı\|vurgular]] veya seçim, HTML biçiminde     |
-| `{{date}}`          | Geçerli tarih, `date` filtresi kullanılarak biçimlendirilebilir                        |
-| `{{description}}`   | Açıklama veya özet                                                                     |
-| `{{domain}}`        | Alan adı                                                                               |
-| `{{favicon}}`       | Favicon URL'si                                                                         |
-| `{{fullHtml}}`      | Tam sayfa içeriğinin işlenmemiş HTML'si                                                |
-| `{{highlights}}`    | Metin ve zaman damgalarıyla [[Vurgulayıcı\|Vurgular]]                    |
-| `{{image}}`         | Sosyal paylaşım görseli URL'si                                                         |
-| `{{published}}`     | Yayınlanma tarihi, `date` filtresi kullanılarak biçimlendirilebilir                    |
-| `{{selection}}`     | Seçim, Markdown biçiminde                                                              |
-| `{{selectionHtml}}` | Seçim, HTML biçiminde                                                                  |
-| `{{site}}`          | Site adı veya yayıncı                                                                  |
-| `{{title}}`         | Sayfanın başlığı                                                                       |
-| `{{time}}`          | Geçerli tarih ve saat                                                                  |
-| `{{url}}`           | Geçerli URL                                                                            |
-| `{{words}}`         | Kelime sayısı                                                                          |
+| `{{date}}`          | Geçerli tarih, `date` filtresi kullanılarak biçimlendirilebilir                |
+| `{{description}}`   | Açıklama veya özet                                                             |
+| `{{domain}}`        | Alan adı                                                                       |
+| `{{favicon}}`       | Favicon URL'si                                                                 |
+| `{{fullHtml}}`      | Tam sayfa içeriğinin işlenmemiş HTML'si                                        |
+| `{{highlights}}`    | Metin ve zaman damgalarıyla [[Vurgulayıcı\|Vurgular]]                          |
+| `{{image}}`         | Sosyal paylaşım görseli URL'si                                                 |
+| `{{language}}`      | Sayfa dili                                                                     |
+| `{{model}}`         | [[Yorumlayıcı]] model adı                                                      |
+| `{{modelId}}`       | [[Yorumlayıcı]] model kimliği                                                  |
+| `{{modelProvider}}` | [[Yorumlayıcı]] model sağlayıcısı                                              |
+| `{{published}}`     | Yayınlanma tarihi, `date` filtresi kullanılarak biçimlendirilebilir             |
+| `{{selection}}`     | Seçim, Markdown biçiminde                                                      |
+| `{{selectionHtml}}` | Seçim, HTML biçiminde                                                          |
+| `{{site}}`          | Site adı veya yayıncı                                                          |
+| `{{title}}`         | Sayfanın başlığı                                                               |
+| `{{time}}`          | Geçerli tarih ve saat                                                          |
+| `{{url}}`           | Geçerli URL                                                                    |
+| `{{words}}`         | Kelime sayısı                                                                  |
 
 ## İstem değişkenleri
 

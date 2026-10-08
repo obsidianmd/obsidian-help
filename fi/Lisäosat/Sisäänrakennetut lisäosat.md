@@ -40,8 +40,6 @@ Obsidian-tiimi ylläpitää myös tiettyjen [[#Muut lisäosat|avoimen lähdekood
 	- Lisää ennalta määriteltyä sisältöä muistiinpanoihisi.
 - [[Muistiinpanojen koostin]]
 	- Yhdistää ja pilkkoo muistiinpanoja.
-- [[Muotoilumuunnin]]
-	- Muuntaa muiden sovellusten Markdown-tekstiä Obsidian-sovelluksen käyttämään muotoon.
 - [[Päivittäiset muistiinpanot]]
 	- Luo ja avaa muistiinpanoja nykyisen päivämäärän perusteella.
 - [[Paluulinkit]]
@@ -74,7 +72,7 @@ Obsidian-tiimi ylläpitää myös tiettyjen [[#Muut lisäosat|avoimen lähdekood
 	- Luo uniikki muistiinpano aikakoodatulla otsikolla.
 - [[Verkkonäkymä]]
 	- Visualisoi muistiinpanojen välisiä suhteita holvissasi.
-- [[Viitteet-näkymä]]
+- [[Alaviitenäkymä|Viitteet-näkymä]]
 	- Näytä luettelo nykyisen muistiinpanon viitteistä.
 - [[Vinoviivakomennot]]
 	- Suorita komentoja muokkaimessa `/`-näppäimellä.
@@ -83,7 +81,7 @@ Obsidian-tiimi ylläpitää myös tiettyjen [[#Muut lisäosat|avoimen lähdekood
 
 Obsidian-tiimi ylläpitää myös lisäosia, jotka ovat saatavilla yhteisön lisäosakaupasta:
 
-- [[Karttanäkymä|Kartat]]
-	- Lisää karttanäkymä Obsidianin kantoihin.
 - [[Tuontityökalu]]
 	- Muunna tiedostoja eri sovelluksista ja muodoista Obsidianiin.
+- [[Karttanäkymä|Kartat]]
+	- Lisää karttanäkymä Obsidianin kantoihin.

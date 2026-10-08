@@ -31,6 +31,7 @@ Web Clipper ใช้ [Defuddle](https://github.com/kepano/defuddle) เพื�
 
 - ตรวจสอบให้แน่ใจว่าโปรโตคอล [[Obsidian URI]] [[Obsidian URI#ลงทะเบียน Obsidian URI|ได้ลงทะเบียนแล้ว]]
 - หากคุณใช้ Firefox คุณอาจต้อง [ลงทะเบียนในการตั้งค่าเบราว์เซอร์](https://kb.mozillazine.org/Register_protocol)
+- หากคุณใช้ Flatpak คุณอาจต้องอัปเดตค่า `x-scheme-handler/obsidian` ที่อยู่ในไฟล์ `.config/mimeapps.list` จาก `obsidian.desktop` เป็น `md.obsidian.Obsidian.desktop`
 
 #### Obsidian เปิดขึ้นแต่บันทึกเฉพาะชื่อไฟล์เท่านั้น
 

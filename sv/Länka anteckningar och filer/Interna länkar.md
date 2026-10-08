@@ -21,6 +21,10 @@ Obsidian stöder följande länkformat:
 
 Exemplen ovan är likvärdiga och de visas på samma sätt i redigeraren och länkar till samma anteckning.
 
+För att länka till en anteckning i en mapp, inkludera mappsökvägen före anteckningsnamnet. Mappsökvägar börjar vid valvets rot och använder snedstreck (`/`), även på Windows: `[[Projects/Three laws of motion]]` eller `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Om länken pekar på en anteckning som inte finns ännu skapar Obsidian anteckningen på den mappsökvägen istället för att använda din [[Inställningar#Stället där nya anteckningar hamnar|standardplats för nya anteckningar]].
+
 > [!note] Notera
 > När du använder Markdown-formatet, se till att [URL-koda](https://en.wikipedia.org/wiki/Percent-encoding) länkdestinationen. Till exempel blir blanksteg `%20`.
 
@@ -45,8 +49,6 @@ För att skapa en länk i redigeringsvyn, använd något av följande sätt:
 - Skriv `[[` i redigeraren och välj sedan filen du vill skapa en länk till.
 - Markera text i redigeraren och skriv sedan `[[`.
 - Öppna [[Kommandopalett|kommandopaletten]] och välj sedan Lägg till intern länk.
-
-![[Snabbväxlare#^search-autocomplete-large]]
 
 Även om du kan länka till alla [[Accepterade filformat]], kräver länkar till andra filformat än Markdown en filändelse, som `[[Figure 1.png]]`.
 

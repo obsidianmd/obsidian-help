@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian ermöglicht den Import von Daten aus CSV-Dateien mithilfe des offiziellen [[Importprogramm|Importprogramm-Plugins]]. Dies ist nützlich, wenn du tabellarische Daten in Apps wie Excel, Google Sheets, Numbers, Notion oder Airtable gespeichert hast.
 
@@ -17,12 +19,25 @@ Du benötigst das offizielle Obsidian [[Importprogramm]]-Plugin, das du [hier in
 4. Öffne das **Importprogramm**-Plugin über die Befehlspalette oder das Werkzeugleisten-Symbol.
 5. Wähle unter **Format** die Option **CSV (.csv).**
 6. Wähle den Speicherort deiner CSV-Datei.
-7. Klicke auf **Importieren**, um zu konfigurieren, wie die Daten in deiner CSV-Datei in Notizen mit [[Eigenschaften]] umgewandelt werden.
-8. Klicke auf **Fortsetzen** und warte, bis der Import abgeschlossen ist.
-9. Fertig!
+7. Wähle **Importieren**, um zu konfigurieren, wie die Daten in deiner CSV-Datei in Notizen mit [[Eigenschaften]] umgewandelt werden.
+8. Wähle **Fortsetzen**, um die generierte Vorlage zu überprüfen und Vorschaubeispiele deiner Zeilen anzuzeigen.
+9. Wähle **Importieren** und warte, bis der Import abgeschlossen ist.
 
 ## Konfigurieren, wie CSV-Felder importiert werden
 
-Im zweiten Schritt des CSV-Imports kannst du mithilfe einer Vorlage festlegen, wie Daten importiert werden.
+Im Schritt der Feldkonfiguration kannst du festlegen, wie Daten importiert werden. Das Importprogramm generiert eine Vorlage aus den CSV-Kopfzeilen, verwendet die erste Spalte für den anfänglichen Notiznamen und erstellt eine Eigenschaft für jede Spalte.
 
-Jede Spalte in deiner CSV-Datei erhält eine Variable namens `{{column_name}}`, die den Namen der Kopfzeile in deiner Datei repräsentiert. Du kannst diese Variable verwenden, um den Titel, den Speicherort, den Inhalt und die [[Eigenschaften]] der Notiz zu definieren.
+## Vorlagen
+
+Verwende [[Importer-Vorlagen|Importprogramm-Vorlagen]], um den Import deiner Daten vollständig zu konfigurieren.
+
+Jede CSV-Spalte ist über ihre Kopfzeile verfügbar. Wenn eine Spalte keine Kopfzeile hat, verwendet das Importprogramm den generierten Spaltennamen.
+
+Verwende die Klammernotation, damit Leerzeichen und Satzzeichen sicher verarbeitet werden:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Importer-Vorlagen#Variables]]

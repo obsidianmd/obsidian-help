@@ -3,6 +3,8 @@ permalink: import/apple-journal
 aliases:
   - Import from Apple Journal
   - استيراد من Apple Journal
+cssclasses:
+  - soft-embed
 ---
 يتيح لك Obsidian ترحيل إدخالات يومياتك من Apple Journal بسهولة باستخدام [[المستورد|مكوّن Importer الإضافي]].
 سيقوم هذا بتحويل يومياتك إلى ملفات Markdown متينة، يمكنك استخدامها مع Obsidian والعديد من التطبيقات الأخرى.

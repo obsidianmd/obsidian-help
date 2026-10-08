@@ -145,6 +145,23 @@ Hiển thị như:
 \**This line will be italic and show the asterisks*\*
 ```
 
+### Màu tô sáng
+
+Tô sáng hỗ trợ sáu màu. Thêm emoji màu ngay sau dấu `==` mở:
+
+| Màu    | Ví dụ                 |
+| ------ | --------------------- |
+| Đỏ     | `==🔴Important==`     |
+| Cam    | `==🟠Follow up==`     |
+| Vàng   | `==🟡Remember this==` |
+| Xanh lá | `==🟢Completed==`     |
+| Xanh dương | `==🔵Reference==`     |
+| Tím    | `==🟣Idea==`          |
+
+Nếu không có emoji màu, tô sáng sẽ sử dụng màu tô sáng mặc định của chủ đề.
+
+Bạn cũng có thể chọn màu từ menu định dạng. Gõ `==` trong trình chỉnh sửa sẽ gợi ý các màu tô sáng. Trong [[Các chế độ xem và chế độ chỉnh sửa#Xem trước trực tiếp|Xem trước trực tiếp]], đặt con trỏ bên trong phần tô sáng sẽ hiển thị mẫu màu. Chọn mẫu màu để thay đổi màu.
+
 ## Liên kết nội bộ
 
 Obsidian hỗ trợ hai định dạng cho [[Liên kết nội bộ|liên kết nội bộ]] giữa các ghi chú:

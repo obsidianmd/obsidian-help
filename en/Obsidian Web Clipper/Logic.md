@@ -1,12 +1,8 @@
 ---
 permalink: web-clipper/logic
-description: Use conditionals, loops, and variable assignment in Web Clipper templates.
+description: Use conditionals, loops, and variable assignment in Web Clipper and Importer templates.
 ---
-[[Introduction to Obsidian Web Clipper|Web Clipper]] supports template logic for conditionals, loops, and variable assignment. This syntax is inspired by [Twig](https://twig.symfony.com/) and [Liquid](https://shopify.github.io/liquid/) templating languages.
-
-
-> [!warning] Requires the latest version
-> Logic features require Obsidian Web Clipper 1.0.0 which has not been approved on all extension stores yet.
+[[Introduction to Obsidian Web Clipper|Web Clipper]] supports template logic for conditionals, loops, and variable assignment. This syntax is called [Knap](https://github.com/obsidianmd/knap).
 
 ## Conditionals
 

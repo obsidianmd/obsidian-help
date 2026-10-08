@@ -1,4 +1,5 @@
 // Locale UI strings — Spanish
+window.LANG_SWITCHER_STRINGS = { search: "Cambiar idioma...", noResults: "No hay resultados" };
 (function () {
   function apply() {
     var el;

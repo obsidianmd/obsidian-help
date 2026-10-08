@@ -38,6 +38,9 @@ Los activadores de plantilla te permiten seleccionar automáticamente una planti
 
 La primera coincidencia en tu lista de plantillas determina qué plantilla se utiliza. Puedes arrastrar las plantillas hacia arriba y hacia abajo en los ajustes de Web Clipper para cambiar el orden en el que se evalúan las plantillas.
 
+> [!tip]- Establecer una plantilla por defecto
+> Si una página no coincide con ninguna regla de activación, Web Clipper utiliza la primera plantilla de tu lista. Mantén la plantilla que deseas como respaldo en la parte superior de la lista para asegurarte de que se use en páginas sin una coincidencia específica.
+
 #### Coincidencia simple de URL
 
 La coincidencia simple activa una plantilla si la URL de la página actual *comienza con* el patrón dado. Por ejemplo:

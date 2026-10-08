@@ -29,25 +29,20 @@ Podczas edycji notatki na dole aplikacji pojawi się rząd ikon. Domyślny ukła
 
 ### Dostosowywanie mobilnego paska narzędzi
 
-Na mobilnym pasku narzędzi dotknij **Ustaw pasek narzędzi dostępny na urządzeniach przenośnych** ![[lucide-wrench.svg#icon]], aby otworzyć interfejs dostosowywania.
+Na mobilnym pasku narzędzi wybierz **Ustaw pasek narzędzi dostępny na urządzeniach przenośnych** ![[lucide-wrench.svg#icon]], aby otworzyć jego ustawienia.
 
-Alternatywnie możesz to zrobić w Ustawieniach.
+Możesz również otworzyć **[[Ustawienia]] → Interfejs → Ustaw pasek narzędzi dostępny na urządzeniach przenośnych**.
 
-1. Otwórz Ustawienia.
-2. Wybierz **Mobilny**.
-3. W sekcji **Ustaw opcje paska narzędzi** dodaj, usuń lub zmień kolejność dostępnych opcji.
+W sekcji **Ustaw opcje paska narzędzi** użyj uchwytów, aby zmienić kolejność czynności, oraz przycisków usuwania, aby je usunąć. Wybierz czynność w sekcji **Więcej opcji paska narzędzi**, aby ją dodać.
 
 ### Dodawanie polecenia do mobilnego paska narzędzi
 
-Domyślnie opcje dostępne do dodania na pasku narzędzi to opcje edycji, takie jak „Łącze wewnętrzne" lub „Tag".
+Oprócz czynności edycji możesz dodać globalne polecenia, takie jak **Zmień motyw**.
 
-Oprócz tego możesz dodać globalne polecenia, takie jak „Zmień motyw".
-
-1. Znajdź **Ustaw opcje paska narzędzi** w **[[Ustawienia]]** → **Mobilny**.
-2. Przewiń na sam dół i znajdź **Dodaj polecenie globalne**.
-3. Wpisz nazwę polecenia, które chcesz dodać.
-4. Wybierz polecenie, które chcesz dodać.
-5. Nowe polecenie zostanie dodane na końcu paska narzędzi.
+1. Otwórz **[[Ustawienia]] → Interfejs → Ustaw pasek narzędzi dostępny na urządzeniach przenośnych**.
+2. W sekcji **Ustaw opcje paska narzędzi** wybierz **Dodaj polecenie...**.
+3. Wyszukaj polecenie, które chcesz dodać.
+4. Wybierz polecenie, aby dodać je na końcu paska narzędzi.
 
 ## Szybka czynność
 
@@ -58,7 +53,7 @@ Domyślnie szybka czynność otwiera [[Lista poleceń|paletę poleceń]].
 ### Dostosowywanie szybkiej czynności
 
 1. Otwórz Ustawienia.
-2. W sekcji **Opcje** wybierz **Pasek narzędzi**.
+2. Wybierz **Interfejs**.
 3. W sekcji **Ustaw szybką czynność dostępną na urządzeniach przenośnych** dotknij **Ustaw**.
 4. Wpisz nazwę polecenia.
 5. Wybierz polecenie, które chcesz ustawić.
@@ -88,8 +83,8 @@ Po jej dotknięciu możesz przełączyć się na dowolną otwartą kartę. Może
 
 ### Czynności wstążki
 
-Aplikacja mobilna nie ma [[Menu wstążkowe|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
+Aplikacja mobilna nie ma [[Wstążka|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
 
-### Paski boczne
+### Panele boczne
 
-Szczegółowe informacje o działaniu pasków bocznych na urządzeniach mobilnych znajdziesz w sekcji [[Pasek boczny#Otwieranie ukrytych pasków bocznych#Urządzenia mobilne i mniejsze tablety|Otwieranie pasków bocznych na urządzeniach mobilnych]].
+Szczegółowe informacje o działaniu paneli bocznych na urządzeniach mobilnych znajdziesz w sekcji [[Panel boczny#Otwieranie ukrytych paneli bocznych#Urządzenia mobilne i mniejsze tablety|Otwieranie paneli bocznych na urządzeniach mobilnych]].

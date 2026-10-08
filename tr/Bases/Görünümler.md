@@ -11,11 +11,14 @@ Bir tabanın üst kısmında, görünümlerle ve sonuçlarıyla etkileşim kurma
 
 - ![[lucide-table.svg#icon]] **Görünüm menüsü** — görünümleri oluşturun, düzenleyin ve değiştirin.
 - **Sonuçlar** — dosyaları sınırlayın, kopyalayın ve dışa aktarın.
-- ![[lucide-arrow-up-down.svg#icon]] **Sırala** — dosyaları sıralayın ve gruplayın.
+- ![[lucide-arrow-up-down.svg#icon]] **Sırala** — dosyaları sıralayın.
+- ![[lucide-stretch-horizontal.svg#icon]] **Grupla** — dosyaları gruplayın ve grup sırasını ve görünürlüğünü yönetin.
 - ![[lucide-list-filter.svg#icon]] **Filtre** — dosyaları filtreleyin.
 - ![[lucide-list.svg#icon]] **Özellikler** — görüntülenecek özellikleri seçin ve [[Formüller|formüller]] oluşturun.
 - ![[lucide-search.svg#icon]] **Ara** — görüntülenen özelliklerini kullanarak öğeleri arayın.
 - ![[lucide-plus.svg#icon]] **Yeni** — mevcut görünümde yeni bir dosya oluşturun.
+
+Telefonlarda **Sonuçlar**, **Sırala**, ![[lucide-stretch-horizontal.svg#icon]] **Grupla** ve **Özellikler** ![[lucide-sliders-horizontal.svg#icon]] **Görünüm** menüsünün içindedir.
 
 ## Görünüm ekleme ve değiştirme
 
@@ -37,13 +40,14 @@ Alternatif olarak, görünüm ayarlarına hızlıca erişmek için tabanın ara�
 
 ## Düzen
 
-Görünümler ![[lucide-table.svg#icon]] **tablo**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kartlar** ve ![[lucide-map.svg#icon]] **harita** dahil olmak üzere farklı düzenlerle görüntülenebilir. [[Topluluk Eklentileri]] tarafından ek düzenler eklenebilir. Bazı düzenler hâlâ geliştirilme aşamasındadır ve Obsidian'ın [[Erken erişim sürümleri|erken erişim sürümlerini]] gerektirir.
+Görünümler ![[lucide-table.svg#icon]] **tablo**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kartlar**, ![[lucide-kanban-square.svg#icon]] **Kanban** ve ![[lucide-map.svg#icon]] **harita** dahil olmak üzere farklı düzenlerle görüntülenebilir. [[Topluluk Eklentileri]] tarafından ek düzenler eklenebilir.
 
 | Düzen                     | Açıklama                                                                                                                  | Uygulama&nbsp;sürümü |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------- |
 | [[Tablo görünümü\|Tablo]] | Dosyaları bir tabloda satır olarak görüntüler. Sütunlar notlarınızdaki [[Özellikler|özelliklerden]] doldurulur.            | 1.9                   |
 | [[Kartlar görünümü\|Kartlar]] | Dosyaları bir kart ızgarası olarak görüntüler. Görsellerle galeri benzeri görünümler oluşturmanıza olanak tanır.        | 1.9                   |
 | [[Liste görünümü\|Liste]] | Dosyaları madde işaretli veya numaralı işaretçilerle bir [[Temel biçimlendirme söz dizimi#Listeler\|liste]] olarak görüntüler. | 1.10                  |
+| [[Kanban görünümü\|Kanban]] | Dosyaları gruplanmış bir özelliğe göre sütunlar halinde düzenlenmiş kartlar olarak görüntüler.                           | 1.14                  |
 | [[Harita görünümü\|Harita]] | Dosyaları etkileşimli bir harita üzerinde iğneler olarak görüntüler. Haritalar eklentisini gerektirir.                  | 1.10                  |
 
 
@@ -82,16 +86,16 @@ Filtre grupları, bağlaç kombinasyonları oluşturarak daha karmaşık mantık
 
 ## Sonuçları sıralama ve gruplama
 
-Bir görünümdeki sonuçları sıralamak ve gruplamak için ![[lucide-arrow-up-down.svg#icon]] **Sırala** menüsünü açın.
+Sonuçları düzenlemek için ![[lucide-arrow-up-down.svg#icon]] **Sırala** menüsünü, benzer öğeleri bölümler halinde organize etmek için ![[lucide-stretch-horizontal.svg#icon]] **Grupla** menüsünü kullanın.
 
 Sonuçları bir veya daha fazla özelliğe göre artan veya azalan sırada düzenleyebilirsiniz. Bu, notları ada, son düzenleme zamanına veya formüller dahil herhangi bir özelliğe göre listelemeyi kolaylaştırır.
 
-Ayrıca benzer öğeleri görsel olarak ayrı bölümler halinde düzenlemek için sonuçları bir özelliğe göre gruplayabilirsiniz. Şu anda Obsidian yalnızca bir özelliğe göre gruplamayı desteklemektedir.
+Her görünüm birden fazla sıralamaya sahip olabilir, ancak sonuçları yalnızca bir özelliğe göre gruplayabilir.
 
 ### Sıralama ekleme
 
 1. Görünümün üst kısmındaki ![[lucide-arrow-up-down.svg#icon]] **Sırala** menüsünü açın.
-2. Sıralama (veya gruplama) yapmak istediğiniz özelliği seçin.
+2. **Sıralama ekle**'yi seçin, ardından sıralama yapmak istediğiniz özelliği seçin.
 3. Birden fazla sıralamanız varsa, önceliklerini değiştirmek için ![[lucide-grip-vertical.svg#icon]] tutma kolunu kullanarak yukarı veya aşağı sürükleyin.
 
 Sonuçları sıralama seçenekleri özellik tipine bağlıdır:
@@ -103,7 +107,29 @@ Sonuçları sıralama seçenekleri özellik tipine bağlıdır:
 ### Sıralamayı kaldırma
 
 1. Görünümün üst kısmındaki ![[lucide-arrow-up-down.svg#icon]] **Sırala** menüsünü açın.
-2. Kaldırmak istediğiniz sıralama veya grubun yanındaki ![[lucide-trash-2.svg#icon]] çöp kutusu düğmesine tıklayın.
+2. Kaldırmak istediğiniz sıralamanın yanındaki ![[lucide-trash-2.svg#icon]] çöp kutusu düğmesini seçin.
+
+### Sonuçları gruplama
+
+1. Görünümün üst kısmındaki ![[lucide-stretch-horizontal.svg#icon]] **Grupla** menüsünü açın. Telefonlarda **Görünüm → Grupla** yolunu açın.
+2. **Grupla** altında bir özellik seçin.
+3. Otomatik bir sıralama düzeni seçin veya grupları kendiniz sıralamak için **Elle**'yi seçin.
+
+Sonuçları gruplamayı durdurmak için gruplama özelliğinin yanındaki ![[lucide-trash-2.svg#icon]] çöp kutusu düğmesini seçin.
+
+### Grupları yeniden sıralama, gizleme ve ekleme
+
+![[lucide-stretch-horizontal.svg#icon]] **Grupla** menüsünde, hangi grupların göründüğünü ve hangi sırada olduğunu yönetmek için sıralama düzeni menüsünden **Elle**'yi seçin.
+
+- Göstermek için bir grubu işaretleyin veya gizlemek için işareti kaldırın. Tüm grupların görünürlüğünü değiştirmek için **Tümünü göster** veya **Tümünü gizle**'yi seçin.
+- Bir grubun konumunu değiştirmek için yanındaki ![[lucide-grip-vertical.svg#icon]] tutma kolunu sürükleyin.
+- Yeni, boş bir grup göstermek için **Grup ekle**'yi seçin ve bir değer girin. Bu işlem bir not oluşturmaz veya mevcut notları değiştirmez.
+
+Otomatik grup sıralamasını geri yüklemek ve tüm grupları göstermek için **Elle** yerine otomatik bir sıralama düzeni seçin.
+
+### Grupları daraltma
+
+[[Tablo görünümü|Tablo]], [[Kartlar görünümü|kartlar]] ve [[Liste görünümü|liste]] düzenlerinde, bir grubu daraltmak veya genişletmek için grup başlığını seçin. Bir grubu daraltmak, özelliklerini değiştirmeden öğelerini geçici olarak gizler.
 
 ## Sonuçları sınırlama, kopyalama ve dışa aktarma
 

@@ -1,40 +1,44 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過 [[匯入工具|匯入工具外掛程式]] 輕鬆地從 Notion 匯入筆記。這會將你的 Notion 資料轉換為耐用的 Markdown 檔案，你可以離線使用 Obsidian 和其他許多應用程式來存取這些檔案。
 
 Obsidian 提供兩種匯入 Notion 資料的方式：
 
-1. **API 匯入** 會保留你的整個工作區，包括資料庫和公式，這些會被轉換為 [[資料庫介紹|資料庫]]，但需要 Notion 整合權杖和網路連線。
-2. **檔案匯入** 不會保留資料庫，但不需要 API 權杖或網路連線。
+1. **Notion 帳戶（推薦）** 直接連接到你的工作區，讓你保留資料庫和公式，這些會被轉換為 [[資料庫介紹|資料庫]]。需要 Notion 整合權杖和網路連線。
+2. **檔案匯入** 使用 Notion 的 `.zip` 匯出檔案。不會保留資料庫，但不需要 API 權杖或網路連線。
 
-## API 匯入
+## 從你的 Notion 帳戶匯入
 
-### 建立 Notion API 整合權杖
+### 建立 Notion API 存取權杖
 
-要透過 API 存取你的 Notion 資料，你需要一個整合權杖。此步驟大約需要 2 分鐘完成。
+要透過 API 存取你的 Notion 資料，你需要一個存取權杖。此步驟大約需要兩分鐘完成。
 
 權杖是一串通常以 `ntn_...` 開頭的長數字和字母字串，它將允許你從 Notion 下載資料。
 
-1. 登入你的 [Notion Integrations](https://www.notion.so/profile/integrations/internal) 儀表板。
-2. 選擇 **New integration**。
+1. 登入你的 [Notion Connections](https://app.notion.com/developers/connections) 儀表板。
+2. 選擇 **New connection**。
+	1. 為你的連線取一個名稱，例如「Personal」。可以使用任何名稱。
+	2. 選擇 **Access token** 作為驗證方式。
+	3. 選擇你想要匯出的工作區作為 **Installable in**。
 
 ![[notion-integration.png#interface]]
 
-2. 為你的整合取一個名稱，例如「Personal」。可以使用任何名稱。
-3. 選擇你想要匯出的工作區。
-4. 點擊 **Save** 並繼續到 **Configure integration settings**。
-5. 在 **Configuration** 分頁中，你可以在 **Internal Integration Secret** 欄位找到 API 權杖。
-6. 選擇 **Show** 然後 **Copy**。
-7. 將權杖儲存到安全的地方，例如你的密碼管理器。
+3. 點擊 **Create connection**。
+4. 在 **Configuration** 分頁中，你可以在 **Access token** 欄位找到 API 權杖。
+5. 選擇 **Show** 然後 **Copy**。
+6. 將權杖儲存到安全的地方，例如你的密碼管理器。
 
 ![[notion-token.png#interface]]
 
-接下來，授予你的整合對你想要匯入的 Notion 頁面和資料庫的存取權限。
+接下來，授予你的連線對你想要匯入的 Notion 頁面和資料庫的存取權限。
 
-1. 前往你剛建立的整合的 **Access** 分頁。
-2. 點擊 **Edit access**。
-3. 新增你想要匯入的頁面和資料庫。
+1. 前往你剛建立的連線的 **Content access** 分頁。
+2. 新增你想要匯入的頁面和資料庫。
+
+![[notion-content.png#interface]]
 
 現在你可以使用 Obsidian 匯入工具來轉換你的資料。
 
@@ -47,7 +51,7 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 3. 啟用匯入工具外掛程式。
 4. 使用命令面板或功能區圖示開啟**匯入工具**外掛程式。
 5. 在 **File format** 下選擇 **Notion (API)**
-6. 在 **API token** 下，貼上你從 Notion 取得的 **Internal Integration Secret**。
+6. 在 **API token** 下，點擊 **Link...** 以新增一個密鑰。在 **ID** 中輸入名稱，例如 `notion`，在 **Secret** 中貼上你從 Notion 取得的 **Access token**。
 7. 點擊 **Load** 以選擇你想要匯入的資料庫和頁面。
 8. 檢視並編輯匯入選項。
 9. 選擇 **Import** 並等待匯入完成
@@ -72,7 +76,7 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 - 沒有子頁面或資料庫的頁面將以 `[filename].md` 匯入，而非 `[filename]/[filename].md`。
 - 資料庫始終以名為 `[database name]` 的資料夾表示，內含一個 `[database name].base` 檔案。
 
-## 檔案匯入
+## 匯入 Notion 檔案 (.zip)
 
 檔案匯入是匯入 Notion 資料的替代方式。此方法不會保留資料庫，但不需要 API 權杖或網路連線。
 
@@ -80,7 +84,7 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 
 要準備你的資料以進行匯入，你需要使用 Notion 的 HTML 匯出格式來匯出整個工作區。我們建議你不要使用 Notion 的 Markdown 匯出，因為它會遺漏重要資料。你必須擁有 Notion 工作區的管理員權限才能匯出所有工作區內容。
 
-1. 前往 Notion 側邊欄頂部的**[[設定]]**。
+1. 前往 Notion 側邊欄頂部的**設定**。
 2. 在 **Workspace** 下選擇 **General**。
 3. 找到並選擇 **Export all workspace content**。
 4. 在 **Export format** 下選擇 **HTML**。

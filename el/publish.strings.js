@@ -1,4 +1,5 @@
 // Locale UI strings — Greek
+window.LANG_SWITCHER_STRINGS = { search: "Αλλαγή γλώσσας...", noResults: "Κανένα αποτέλεσμα" };
 (function () {
   function apply() {
     var el;

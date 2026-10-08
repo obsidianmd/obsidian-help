@@ -16,7 +16,7 @@ Erfahre, wie du Obsidian mit von der Community erstellten Erweiterungen erweiter
 
 Verwende das Textfeld, um Erweiterungen nach Name, Autor und Beschreibung zu filtern.
 
-Du kannst verfügbare Erweiterungen auch in deinem Browser durchsuchen, indem du [community.obsidian.md](https://community.obsidian.md) besuchst.
+Du kannst verfügbare Erweiterungen auch in deinem Browser durchsuchen, indem du [community.obsidian.md](https://community.obsidian.md) besuchst. Weitere Informationen darüber, was die Verzeichnisseite einer Erweiterung anzeigt, findest du unter [[Community-Verzeichnis]].
 
 ## Eine Community-Erweiterung installieren
 

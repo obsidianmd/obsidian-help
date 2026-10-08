@@ -73,9 +73,9 @@ tags:
 ```
 
 > [!warning]+ Edit template dalam mode Sumber
-> Dalam [[Tampilan dan mode pengeditan#Pratinjau Langsung|Pratinjau Langsung]], panel **Properti di dokumen** dapat menimpa variabel template yang tidak memiliki tanda kutip.
+> Dalam [[Tampilan dan mode penyuntingan#Pratinjau Langsung|Pratinjau Langsung]], panel **Properti di dokumen** dapat menimpa variabel template yang tidak memiliki tanda kutip.
 >
-> Untuk menghindari ini, edit template dalam [[Tampilan dan mode pengeditan#Mode sumber|Mode sumber]], atau atur **[[Pengaturan]] → Editor → [[Pengaturan#Properti di dokumen|Properti di dokumen]]** ke **Sumber**.
+> Untuk menghindari ini, edit template dalam [[Tampilan dan mode penyuntingan#Mode sumber|Mode sumber]], atau atur **[[Pengaturan]] → Editor → [[Pengaturan#Properti di dokumen|Properti di dokumen]]** ke **Sumber**.
 
 ## Menyisipkan template ke dalam catatan aktif
 

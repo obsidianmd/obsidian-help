@@ -11,6 +11,8 @@ Learn how to change the look and feel of Obsidian using themes built by the comm
 1. Open **[[Settings]]**.
 2. Under **Appearance → Themes**, select **Manage** to list all available community themes.
 
+You can also browse available themes in your browser, by heading to [community.obsidian.md](https://community.obsidian.md). For more information on what a theme's listing page shows, refer to [[Community directory]].
+
 ## Install a new theme
 
 1. Open **[[Settings]]**.

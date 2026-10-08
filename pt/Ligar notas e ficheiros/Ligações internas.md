@@ -21,6 +21,10 @@ O Obsidian suporta os seguintes formatos de ligação:
 
 Os exemplos acima são equivalentes, e aparecem da mesma forma no editor e apontam para a mesma nota.
 
+Para criar uma ligação para uma nota numa pasta, inclua o caminho da pasta antes do nome da nota. Os caminhos das pastas começam na raiz do cofre e utilizam barras (`/`), mesmo no Windows: `[[Projects/Three laws of motion]]` ou `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Se a ligação apontar para uma nota que ainda não existe, o Obsidian cria a nota nesse caminho de pasta em vez de utilizar a sua [[Definições#Local padrão para novas notas|localização predefinida para novas notas]].
+
 > [!note] Nota
 > Ao utilizar o formato Markdown, certifique-se de que [codifica o URL](https://en.wikipedia.org/wiki/Percent-encoding) do destino da ligação. Por exemplo, os espaços em branco tornam-se `%20`.
 
@@ -45,8 +49,6 @@ Para criar uma ligação enquanto está na vista de edição, utilize uma das se
 - Escreva `[[` no editor e depois selecione o ficheiro para o qual deseja criar uma ligação.
 - Selecione texto no editor e depois escreva `[[`.
 - Abra a [[Paleta de comando]] e depois selecione Adicionar link interno.
-
-![[Navegação rápida#^search-autocomplete-large]]
 
 Embora possa criar ligações para qualquer um dos [[Formatos de ficheiro aceites]], as ligações para formatos de ficheiro que não sejam Markdown precisam de incluir a extensão do ficheiro, como `[[Figura 1.png]]`.
 

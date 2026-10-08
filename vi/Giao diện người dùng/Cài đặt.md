@@ -10,11 +10,11 @@ Cài đặt cho phép bạn tùy chỉnh trải nghiệm Obsidian của mình. C
 
 ### Máy tính
 
-Trong [[Thanh bên#Mở thanh bên ẩn|thanh bên trái]], chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]]. Bạn cũng có thể mở Cài đặt bằng [[Khay lệnh]].
+Trong [[Thanh bên#Mở thanh bên ẩn|thanh bên]], chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]]. Bạn cũng có thể mở Cài đặt bằng [[Khay lệnh]].
 
 ### Di động
 
-Trong thanh bên trái, chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]].
+Trong thanh bên, chọn **[[Cài đặt]]** ![[lucide-cog.svg#icon]]. Cài đặt mở dưới dạng một trang phủ trên ứng dụng.
 
 ## Tổ chức cài đặt
 
@@ -187,6 +187,8 @@ Nơi đặt các ghi chú mới được tạo. Các tùy chọn bao gồm:
 - **Cùng một thư mục với tệp** — Ghi chú được tạo trong cùng thư mục với ghi chú đang hoạt động hiện tại.
 - **Trong thư mục được chỉ định dưới đây** — Ghi chú được tạo trong một thư mục cụ thể mà bạn chọn.
 
+Cài đặt này không áp dụng khi [[Liên kết nội bộ|liên kết nội bộ]] bao gồm đường dẫn thư mục. Ví dụ, tạo `[[Projects/Three laws of motion]]` sẽ tạo ghi chú trong thư mục `Projects` tương đối với thư mục gốc của kho.
+
 ### Vị trí mặc định cho tệp đính kèm mới
 
 Nơi đặt các [[Tệp đính kèm|tệp đính kèm]] mới được thêm. Các tùy chọn bao gồm:
@@ -292,9 +294,11 @@ Thiết lập phông chữ cho các vị trí như khối mã và siêu dữ li�
 
 Cỡ chữ tính bằng pixel ảnh hưởng đến chế độ chỉnh sửa và đọc. Điều chỉnh bằng thanh trượt.
 
+Cỡ chữ được lưu riêng trên mỗi thiết bị và không đồng bộ qua [[Giới thiệu về Obsidian Sync|Obsidian Sync]]. Trên di động, văn bản và các thành phần giao diện cũng thay đổi tỷ lệ theo kích thước văn bản ưa thích của hệ thống, bao gồm cả kích thước hỗ trợ tiếp cận.
+
 #### Điều chỉnh nhanh cỡ chữ
 
-Điều chỉnh cỡ chữ bằng `Ctrl+Cuộn` (Windows/Linux) hoặc `Cmd+Cuộn` (macOS), hoặc sử dụng cử chỉ phóng to/thu nhỏ trên trackpad.
+Điều chỉnh cỡ chữ bằng `Ctrl+Cuộn` (Windows/Linux) hoặc `Cmd+Cuộn` (macOS), hoặc sử dụng cử chỉ phóng to/thu nhỏ trên trackpad. Bạn cũng có thể sử dụng **Tăng cỡ chữ** và **Giảm cỡ chữ** trong [[Bảng lệnh]], hoặc gán [[Phím tắt|phím tắt bàn phím]] cho chúng.
 
 ### Giao diện
 

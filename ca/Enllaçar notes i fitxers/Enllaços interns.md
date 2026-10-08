@@ -21,6 +21,10 @@ Obsidian admet els següents formats d'enllaç:
 
 Els exemples anteriors són equivalents, i apareixen de la mateixa manera a l'editor i enllacen a la mateixa nota.
 
+Per enllaçar a una nota dins d'una carpeta, inclou la ruta de la carpeta abans del nom de la nota. Les rutes de carpeta comencen a l'arrel de la cambra forta i utilitzen barres inclinades (`/`), fins i tot a Windows: `[[Projects/Three laws of motion]]` o `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Si l'enllaç apunta a una nota que encara no existeix, Obsidian crea la nota a la ruta de carpeta indicada en lloc d'utilitzar la teva [[Configuració#Ubicació predeterminada de les notes noves|ubicació predeterminada de les notes noves]].
+
 > [!note] Nota
 > Quan utilitzis el format Markdown, assegura't de [codificar l'URL](https://en.wikipedia.org/wiki/Percent-encoding) de la destinació de l'enllaç. Per exemple, els espais en blanc es converteixen en `%20`.
 
@@ -45,8 +49,6 @@ Per crear un enllaç mentre estàs en vista d'edició, utilitza qualsevol dels m
 - Escriu `[[` a l'editor i després selecciona el fitxer al qual vols crear un enllaç.
 - Selecciona text a l'editor i després escriu `[[`.
 - Obre la [[Paleta d'ordres]] i després selecciona Afegeix un enllaç intern.
-
-![[Selector ràpid#^search-autocomplete-large]]
 
 Tot i que pots enllaçar a qualsevol dels [[Formats de fitxer acceptats]], els enllaços a formats de fitxer que no siguin Markdown necessiten incloure una extensió de fitxer, com ara `[[Figure 1.png]]`.
 

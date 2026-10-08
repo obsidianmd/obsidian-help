@@ -2,6 +2,8 @@
 permalink: import/bear
 aliases:
   - Import from Bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian ti permette di migrare facilmente le tue note da Bear utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di Bear in file Markdown durevoli, che potrai utilizzare con Obsidian e molte altre app.
 

@@ -3,6 +3,8 @@ permalink: import/craft
 aliases:
   - Import fra Craft
   - Import af noter/Import fra Craft
+cssclasses:
+  - soft-embed
 ---
 Obsidian giver dig mulighed for at migrere dine noter fra Craft. Dette vil konvertere dine Craft-data til holdbare Markdown-filer, som du kan bruge med Obsidian og mange andre applikationer.
 

@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi, hogy könnyedén átállítsd a naplóbejegyzéseidet az Apple Journalből az [[Importáló|Importáló bővítmény]] segítségével.
 Ez a naplóidat tartós Markdown fájlokká alakítja, amelyeket az Obsidiannel és sok más alkalmazással is használhatsz.

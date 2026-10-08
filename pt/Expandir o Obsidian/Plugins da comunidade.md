@@ -16,7 +16,7 @@ Aprenda como estender o Obsidian com plugins criados pela comunidade. Use plugin
 
 Use a caixa de texto para filtrar plugins com base no nome, autor e descrição.
 
-Também pode explorar os plugins disponíveis no seu navegador, acedendo a [community.obsidian.md](https://community.obsidian.md).
+Também pode explorar os plugins disponíveis no seu navegador, acedendo a [community.obsidian.md](https://community.obsidian.md). Para mais informações sobre o que a página de listagem de um plugin mostra, consulte [[Diretório da comunidade]].
 
 ## Instalar um plugin da comunidade
 

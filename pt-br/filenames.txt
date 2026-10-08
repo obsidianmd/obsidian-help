@@ -54,6 +54,10 @@ translation=Visualizações
 original=Cards view
 translation=Visualização de cartões
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Visualização Kanban
+
 [file.bases/views/list]
 original=List view
 translation=Visualização de lista
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Código de conduta da comunidade
+
+[file.community-directory]
+original=Community directory
+translation=Diretório da comunidade
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=Conteúdo HTML
 original=Import notes
 translation=Importar notas
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Importar do Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Importar do Apple Journal
@@ -206,6 +218,10 @@ translation=Importar do Google Keep
 original=Import HTML files
 translation=Importar arquivos HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importar do Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Importar arquivos Markdown
@@ -222,9 +238,17 @@ translation=Importar do Microsoft OneNote
 original=Import from Roam Research
 translation=Importar do Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Modelos do importador
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Importar arquivos Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importar do Tomboy e Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

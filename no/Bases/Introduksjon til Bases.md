@@ -36,5 +36,7 @@ Visninger kan vises med ulike oppsett. Flere oppsett kan legges til av [[Communi
 	- Vis filer som en liste med punktmerkinger eller nummererte markører.
 - [[Kort-visning|Kort]]
 	- Vis filer som et rutenett. Lar deg opprette gallerilignende visninger med bilder.
+- [[Kanban-visning|Kanban]]
+	- Vis filer som kort organisert i kolonner basert på en gruppert egenskap.
 - [[Kart-visning|Kart]]
 	- Vis filer som nåler på et interaktivt kart.

@@ -54,6 +54,10 @@ translation=ទិដ្ឋភាព
 original=Cards view
 translation=ទិដ្ឋភាពកាត
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=ទិដ្ឋភាព Kanban
+
 [file.bases/views/list]
 original=List view
 translation=ទិដ្ឋភាពបញ្ជី
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=ក្រមសីលធម៌សហគមន៍
+
+[file.community-directory]
+original=Community directory
+translation=ថតសហគមន៍
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=មាតិកា HTML
 original=Import notes
 translation=នាំចូលកំណត់ត្រា
 
+[file.import/airtable]
+original=Import from Airtable
+translation=នាំចូលពី Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=នាំចូលពី Apple Journal
@@ -206,6 +218,10 @@ translation=នាំចូលពី Google Keep
 original=Import HTML files
 translation=នាំចូលឯកសារ HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=នាំចូលពី Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=នាំចូលឯកសារ Markdown
@@ -222,9 +238,17 @@ translation=នាំចូលពី Microsoft OneNote
 original=Import from Roam Research
 translation=នាំចូលពី Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=ពុម្ពកម្មវិធីនាំចូល
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=នាំចូលឯកសារ Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=នាំចូលពី Tomboy និង Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

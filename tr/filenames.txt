@@ -54,6 +54,10 @@ translation=Görünümler
 original=Cards view
 translation=Kartlar görünümü
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban görünümü
+
 [file.bases/views/list]
 original=List view
 translation=Liste görünümü
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Topluluk davranış kuralları
+
+[file.community-directory]
+original=Community directory
+translation=Topluluk dizini
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=HTML içeriği
 original=Import notes
 translation=Notları içe aktar
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Airtable'dan içe aktarma
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Apple Journal'dan içe aktar
@@ -206,6 +218,10 @@ translation=Google Keep'ten içe aktar
 original=Import HTML files
 translation=HTML dosyalarını içe aktar
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseq'ten içe aktarma
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown dosyalarını içe aktar
@@ -222,9 +238,17 @@ translation=Microsoft OneNote'tan içe aktar
 original=Import from Roam Research
 translation=Roam Research'ten içe aktar
 
+[file.import/templates]
+original=Importer templates
+translation=İçe aktarıcı şablonları
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle dosyalarını içe aktar
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tomboy ve Gnote'tan içe aktarma
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

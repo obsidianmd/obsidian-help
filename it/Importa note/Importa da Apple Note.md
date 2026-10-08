@@ -2,6 +2,8 @@
 permalink: import/apple-notes
 aliases:
   - Import from Apple Notes
+cssclasses:
+  - soft-embed
 ---
 Obsidian ti permette di migrare facilmente le tue note da Apple Notes utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di Apple Notes in file Markdown durevoli, che potrai usare con Obsidian e molte altre app.
 

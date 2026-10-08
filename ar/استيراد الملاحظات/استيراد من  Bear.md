@@ -3,6 +3,8 @@ permalink: import/bear
 aliases:
   - استيراد من  Bear
   - Import from Bear
+cssclasses:
+  - soft-embed
 ---
 
 يتيح لك Obsidian ترحيل ملاحظاتك من Bear بسهولة باستخدام مكوّن [[المستورد]] الإضافي.

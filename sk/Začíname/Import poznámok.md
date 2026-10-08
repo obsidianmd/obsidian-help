@@ -8,6 +8,7 @@ Aplikácie prichádzajú a odchádzajú, ale vaše dáta by mali vydržať. Obsi
 ## Import z iných aplikácií a formátov súborov
 
 - <span class="icon-app icon-notion"></span> [[Import z Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Import z Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Import z Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Import z Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Import z Apple Notes|Apple Notes]]
@@ -16,11 +17,12 @@ Aplikácie prichádzajú a odchádzajú, ale vaše dáta by mali vydržať. Obsi
 - <span class="icon-app icon-bear"></span> [[Import z Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Import z Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Import z Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Import z Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Import z Tomboy a Gnote|Tomboy a Gnote]]
 - <span class="icon-app icon-html"></span> [[Import HTML súborov|HTML súbory]]
 - <span class="icon-app icon-md"></span> [[Import CSV súborov]]
 - <span class="icon-app icon-md"></span> [[Import Markdown súborov|Markdown súbory]]
 - <span class="icon-app icon-md"></span> [[Import Textbundle súborov|Textbundle súbory]]
-- <span class="icon-app icon-md"></span> [[Import Zettelkasten poznámok|Zettelkasten poznámky]]
 
 ## Ďalšie formáty
 
@@ -30,7 +32,6 @@ Naša komunita zdieľala ďalšie návody, ktoré vám môžu pomôcť s migrác
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

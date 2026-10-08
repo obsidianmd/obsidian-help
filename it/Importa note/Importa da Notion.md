@@ -2,41 +2,45 @@
 permalink: import/notion
 aliases:
   - Import from Notion
+cssclasses:
+  - soft-embed
 ---
 Obsidian ti permette di migrare facilmente le tue note da Notion utilizzando il [[Importatore|plugin Importer]]. Questo convertirà i tuoi dati di Notion in file Markdown durevoli che puoi usare offline con Obsidian e molte altre app.
 
 Obsidian offre due modi per importare i tuoi dati da Notion:
 
-1. **Importazione via API** preserva l'intero spazio di lavoro inclusi i Database e le formule che vengono convertiti in [[Introduzione a Base|Base]], ma richiede un token di integrazione Notion e una connessione internet.
-2. **Importazione da file** non preserva i Database ma non richiede un token API o una connessione internet.
+1. **Account Notion (consigliato)** si connette direttamente al tuo spazio di lavoro e ti permette di preservare i Database e le formule che vengono convertiti in [[Introduzione a Base|Base]]. Richiede un token di integrazione Notion e una connessione internet.
+2. **Importazione da file** utilizza i file `.zip` esportati da Notion. Non preserva i Database ma non richiede un token API o una connessione internet.
 
-## Importazione via API
+## Importa dal tuo account Notion
 
-### Creare un token di integrazione API di Notion
+### Creare un token di accesso API di Notion
 
-Per accedere ai tuoi dati Notion tramite l'API hai bisogno di un token di integrazione. Questo passaggio richiede circa 2 minuti per essere completato.
+Per accedere ai tuoi dati Notion tramite l'API hai bisogno di un token di accesso. Questo passaggio richiede circa due minuti per essere completato.
 
 Il token è una lunga stringa di numeri e lettere che tipicamente inizia con `ntn_...` e ti permetterà di scaricare i tuoi dati da Notion.
 
-1. Accedi alla dashboard delle [Integrazioni di Notion](https://www.notion.so/profile/integrations/internal).
-2. Scegli **New integration**.
+1. Accedi alla dashboard delle [Connessioni di Notion](https://app.notion.com/developers/connections).
+2. Scegli **New connection**.
+	1. Dai un nome alla tua connessione, ad esempio "Personal". Puoi usare qualsiasi nome.
+	2. Scegli **Access token** come metodo di autenticazione.
+	3. Scegli lo spazio di lavoro che vuoi esportare come **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Dai un nome alla tua integrazione, ad esempio "Personal". Puoi usare qualsiasi nome.
-3. Scegli lo spazio di lavoro che vuoi esportare.
-4. Fai clic su **Save** e continua su **Configure integration settings**.
-5. Nella scheda **Configuration** il tuo token API è accessibile nel campo **Internal Integration Secret**.
-6. Seleziona **Show** e poi **Copy**.
-7. Salva il token in un posto sicuro come il tuo gestore di password.
+3. Fai clic su **Create connection**.
+4. Nella scheda **Configuration** il tuo token API è accessibile nel campo **Access token**.
+5. Seleziona **Show** e poi **Copy**.
+6. Salva il token in un posto sicuro come il tuo gestore di password.
 
 ![[notion-token.png#interface]]
 
-Successivamente, concedi alla tua integrazione l'accesso alle pagine e ai database di Notion che vuoi importare.
+Successivamente, concedi alla tua connessione l'accesso alle pagine e ai database di Notion che vuoi importare.
 
-1. Vai alla scheda **Access** dell'integrazione appena creata.
-2. Fai clic su **Edit access**.
-3. Aggiungi le pagine e i database che vuoi importare.
+1. Vai alla scheda **Content access** della connessione appena creata.
+2. Aggiungi le pagine e i database che vuoi importare.
+
+![[notion-content.png#interface]]
 
 Ora puoi convertire i tuoi dati usando Obsidian Importer.
 
@@ -49,7 +53,7 @@ Avrai bisogno del plugin ufficiale Obsidian [[Importatore]], che puoi [installar
 3. Abilita il plugin Importer.
 4. Apri il plugin **Importer** usando la tavolozza dei comandi o l'icona nella barra degli strumenti.
 5. In **File format** seleziona **Notion (API)**
-6. In **API token**, incolla il tuo **Internal Integration Secret** da Notion.
+6. In **API token**, fai clic su **Link...** per aggiungere un nuovo segreto. Per l'**ID**, assegna un nome come `notion`, e per il **Segreto** incolla il tuo **Access token** da Notion.
 7. Fai clic su **Carica** per scegliere i database e le pagine che vuoi importare.
 8. Rivedi e modifica le opzioni di importazione.
 9. Seleziona **Importa** e attendi il completamento dell'importazione
@@ -74,7 +78,7 @@ Inoltre, Importer apporterà le seguenti modifiche:
 - Le pagine senza sotto-pagine o database verranno importate come `[nome file].md` invece di `[nome file]/[nome file].md`.
 - I database sono sempre rappresentati come cartelle denominate `[nome database]` con un file `[nome database].base` al loro interno.
 
-## Importazione da file
+## Importa file di Notion (.zip)
 
 L'importazione da file è un modo alternativo per importare i tuoi dati da Notion. Questo metodo non preserva i Database ma non richiede un token API o una connessione internet.
 
@@ -82,7 +86,7 @@ L'importazione da file è un modo alternativo per importare i tuoi dati da Notio
 
 Per preparare i tuoi dati all'importazione, dovrai esportare l'intero spazio di lavoro usando il formato di esportazione HTML di Notion. Ti consigliamo di non usare l'esportazione Markdown di Notion poiché omette dati importanti. Devi avere accesso da amministratore allo spazio di lavoro Notion per esportare tutto il contenuto.
 
-1. Vai su **[[Impostazioni|Impostazioni]]** nella parte superiore della barra laterale di Notion.
+1. Vai su **Impostazioni** nella parte superiore della barra laterale di Notion.
 2. In **Workspace** seleziona **Generale**.
 3. Trova e seleziona **Export all workspace content**.
 4. In **Export format** seleziona **HTML**.

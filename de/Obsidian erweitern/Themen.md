@@ -8,6 +8,8 @@ Erfahre, wie du das Erscheinungsbild von Obsidian mithilfe von Community-erstell
 1. Öffne die **[[Einstellungen]]**.
 2. Wähle unter **Darstellung → Thema** die Option **Verwalten**, um alle verfügbaren Community-Themen aufzulisten.
 
+Du kannst verfügbare Themen auch in deinem Browser durchsuchen, indem du [community.obsidian.md](https://community.obsidian.md) besuchst. Weitere Informationen darüber, was die Eintragsseite eines Themas zeigt, findest du unter [[Community-Verzeichnis]].
+
 ## Ein neues Thema installieren
 
 1. Öffne die **[[Einstellungen]]**.

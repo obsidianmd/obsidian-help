@@ -1,4 +1,5 @@
 // Locale UI strings — Traditional Chinese
+window.LANG_SWITCHER_STRINGS = { search: "切換語言...", noResults: "無結果" };
 (function () {
   function apply() {
     var el;

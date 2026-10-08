@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 O Obsidian permite importar facilmente arquivos [Textbundle](https://textbundle.org/) usando o [[Importador|plugin Importador]] oficial.
 
@@ -17,11 +19,21 @@ Você precisará do plugin oficial [[Importador]] do Obsidian, que pode ser [ins
 4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone no menu lateral.
 5. Em **Formatar arquivo** escolha **Textbundle (.textbundle, .textpack).**
 6. Selecione a localização dos seus arquivos Textbundle ou Textpack. Arquivos zip também são suportados.
-7. Clique em **Importar** e aguarde até que a importação seja concluída.
-8. Pronto!
+7. Selecione **Importar** para revisar o modelo gerado e visualizar exemplos das suas notas.
+8. Selecione **Importar** novamente e aguarde até que a importação seja concluída.
+
+## Personalizar notas importadas
+
+Antes de a importação começar, o Importador mostra uma pré-visualização gerada a partir dos arquivos Textbundle selecionados. Você pode editar o modelo gerado ou escolher um modelo Markdown do seu cofre. Consulte [[Modelos do Importador]].
 
 ## Solução de problemas
 
 ### Nenhum arquivo selecionado para importação
 
 A importação de Textbundle só pode importar um arquivo Textbundle por vez, e apenas em dispositivos Mac. Em vez disso, você pode comprimir todos os arquivos Textbundle que deseja importar em um único arquivo .zip e importá-lo a partir de qualquer dispositivo.
+
+## Modelos
+
+Use [[Modelos do Importador|Modelos do Importador]] para configurar completamente como seus dados são importados.
+
+![[Modelos do Importador#Variáveis]]

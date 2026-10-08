@@ -31,6 +31,7 @@ Pokud po kliknutí na **Přidat do Obsidianu** nevidíte v Obsidianu žádný ob
 
 - Ujistěte se, že protokol [[Obsidian URI]] je [[Obsidian URI#Registrace Obsidian URI|zaregistrován]].
 - Pokud používáte Firefox, možná budete muset [zaregistrovat protokol v nastavení prohlížeče](https://kb.mozillazine.org/Register_protocol).
+- Pokud používáte Flatpak, možná budete muset aktualizovat hodnotu `x-scheme-handler/obsidian` v souboru `.config/mimeapps.list` z `obsidian.desktop` na `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian se otevře, ale uloží se pouze název souboru
 

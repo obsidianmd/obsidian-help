@@ -80,9 +80,17 @@ Dit zijn berichten die beschrijven wat er is overgeslagen, en mogelijk waarom.
 
 **Unable to download file with illegal name**
 
-Het bestand bevat een [speciaal teken of naamgevingsconventie](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) die niet is toegestaan op het ontvangende besturingssysteem. Voor het gemak kun je het bestand op het bronapparaat hernoemen om alle speciale tekens te verwijderen behalve `-` en `_`.
+De bestandsnaam gebruikt een [speciaal teken of naamgevingsconventie](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) die het ontvangende besturingssysteem niet kan opslaan. Hernoem het bestand op het bronapparaat en laat Sync het hernoemde bestand opnieuw uploaden.
 
-Let op dat dit ook bestanden met meerdere punten `.` in hun naam op Android-apparaten omvat.
+Vermijd voor kluizen die tussen verschillende besturingssystemen worden gesynchroniseerd het volgende in bestands- en mapnamen:
+
+- Tekens die doorgaans door bestandssystemen worden gereserveerd, zoals `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` en `|`
+- Een spatie of punt aan het einde van de naam
+- Door Windows gereserveerde apparaatnamen, zoals `CON`, `PRN`, `AUX`, `NUL`, `COM1` tot en met `COM9`, of `LPT1` tot en met `LPT9`
+- Tekens die Obsidian gebruikt voor koppelingen, zoals `#`, `^`, `[` en `]`, als je linksvriendelijke notitienamen wilt
+- Meerdere punten `.` in een bestandsnaam, of emoji, die beide door sommige Android-apparaten kunnen worden geweigerd
+
+Gebruik bij twijfel letters, cijfers, gewone spaties binnen de naam, koppeltekens `-`, underscores `_` en één punt vóór de bestandsextensie.
 
 ### Accountberichten
 

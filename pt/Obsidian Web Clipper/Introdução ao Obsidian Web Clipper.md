@@ -23,7 +23,7 @@ Obtenha a extensão Obsidian Web Clipper a partir do diretório oficial para o s
 
 - [[Recortar páginas web]]
 	- Comece e aprenda como guardar conteúdo de páginas.
-- [[Marcador de destaques|Marcador de destaques]]
+- [[Realçador|Marcador de destaques]]
 	- Destaque passagens importantes e selecione elementos que pretende guardar.
 - [[Leitor|Leitor]]
 	- Leia páginas web numa vista limpa e sem distrações.

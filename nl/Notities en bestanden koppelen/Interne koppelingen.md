@@ -21,6 +21,10 @@ Obsidian ondersteunt de volgende koppelingsformaten:
 
 De bovenstaande voorbeelden zijn equivalent en ze zien er hetzelfde uit in de editor en verwijzen naar dezelfde notitie.
 
+Om naar een notitie in een map te koppelen, neem je het mappad op vóór de notitienaam. Mappaden beginnen bij de kluisroot en gebruiken schuine strepen (`/`), zelfs op Windows: `[[Projects/Three laws of motion]]` of `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Als de koppeling verwijst naar een notitie die nog niet bestaat, maakt Obsidian de notitie aan op dat mappad in plaats van je [[Instellingen#Standaardlocatie voor nieuwe notitie|standaardlocatie voor nieuwe notities]] te gebruiken.
+
 > [!note] Opmerking
 > Wanneer je het Markdown-formaat gebruikt, zorg er dan voor dat je de koppelingsbestemming [URL-codeert](https://en.wikipedia.org/wiki/Percent-encoding). Spaties worden bijvoorbeeld `%20`.
 
@@ -45,8 +49,6 @@ Om een koppeling te maken in de bewerkingsweergave, gebruik je een van de volgen
 - Typ `[[` in de editor en selecteer vervolgens het bestand waarnaar je een koppeling wilt maken.
 - Selecteer tekst in de editor en typ vervolgens `[[`.
 - Open het [[Opdrachtenpaneel]] en selecteer vervolgens Voeg interne link toe.
-
-![[Snel wisselen#^search-autocomplete-large]]
 
 Hoewel je naar elk van de [[Geaccepteerde bestandsformaten]] kunt koppelen, moeten koppelingen naar andere bestandsformaten dan Markdown een bestandsextensie bevatten, zoals `[[Figuur 1.png]]`.
 

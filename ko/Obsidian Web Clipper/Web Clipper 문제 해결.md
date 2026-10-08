@@ -31,6 +31,7 @@ Web Clipper에서 Defuddle을 우회하려면 다음 방법을 사용하세요:
 
 - [[Obsidian URI]] 프로토콜이 [[Obsidian URI#Obsidian URI 등록|등록되어 있는지]] 확인하세요.
 - Firefox를 사용하는 경우 [브라우저 설정에서 등록](https://kb.mozillazine.org/Register_protocol)해야 할 수 있어요.
+- Flatpak을 사용하는 경우, `.config/mimeapps.list`에 있는 `x-scheme-handler/obsidian` 값을 `obsidian.desktop`에서 `md.obsidian.Obsidian.desktop`으로 업데이트해야 할 수 있어요.
 
 #### Obsidian이 열리지만 파일 이름만 저장됨
 

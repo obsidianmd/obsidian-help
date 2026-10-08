@@ -80,9 +80,17 @@ Disse er meddelelser, der beskriver hvad der blev sprunget over, og potentielt h
 
 **Unable to download file with illegal name**
 
-Filen indeholder et [specialtegn eller navnekonvention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), der ikke er tilladt på det modtagende operativsystem. For nemheds skyld kan du omdøbe filen på dens kildeenhed for at fjerne alle specialtegn undtagen `-` og `_`.
+Filnavnet bruger et [specialtegn eller en navnekonvention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), som det modtagende operativsystem ikke kan gemme. Omdøb filen på dens kildeenhed, og lad derefter Sync uploade den omdøbte fil igen.
 
-Bemærk, at dette også inkluderer filer med flere punktummer `.` i deres navn på Android-enheder.
+For bokse, der synkroniseres på tværs af forskellige operativsystemer, bør du undgå følgende i fil- og mappenavne:
+
+- Tegn, der typisk er reserveret af filsystemer, såsom `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` og `|`
+- Et mellemrum eller punktum i slutningen af navnet
+- Windows-reserverede enhedsnavne, såsom `CON`, `PRN`, `AUX`, `NUL`, `COM1` til `COM9` eller `LPT1` til `LPT9`
+- Tegn som Obsidian bruger til links, såsom `#`, `^`, `[` og `]`, hvis du ønsker linkvenlige notenavne
+- Flere punktummer `.` i et filnavn, eller emoji, som nogle Android-enheder kan afvise
+
+Hvis du er i tvivl, brug bogstaver, tal, almindelige mellemrum inde i navnet, bindestreger `-`, understreger `_` og ét punktum før filendelsen.
 
 ### Kontomeddelelser
 

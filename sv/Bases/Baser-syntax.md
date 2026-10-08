@@ -201,7 +201,25 @@ views:
 - `name` är visningsnamnet och kan användas för att definiera standardvyn.
 - `filters` är exakt desamma som beskrivs ovan, men gäller bara för vyn.
 - `groupBy` anger en egenskap och sorteringsriktning. Värdet på den angivna egenskapen för varje rad används för att placera raden i grupper.
+- `groupOrder` anger ordningen och synligheten för grupper. Om den finns visas bara grupper vars värden listas, i den ordningen. En tom lista döljer alla grupper. Ta bort `groupOrder` för att visa alla grupper i den ordning som definieras av `groupBy`.
 - `summaries` mappar egenskapsnamn till en namngiven sammanfattning. Sammanfattningar utför en aggregering på egenskapen över alla rader.
+
+Till exempel visar denna vy bara grupperna Planned, In progress och Done, i den ordningen:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Använd `null` i `groupOrder` för att inkludera filer som inte har något värde för den grupperade egenskapen.
 
 [[Vyer]] kan lägga till ytterligare data för att lagra all information som behövs för att bibehålla tillstånd eller rendera korrekt, men tilläggsförfattare bör se till att inte använda nycklar som redan används av kärntillägget Bases. Som exempel kan en tabellvy använda detta för att begränsa antalet rader eller för att välja vilken kolumn som används för att sortera rader och i vilken riktning. En annan vytyp som en karta kan använda detta för att mappa vilken egenskap i anteckningen som motsvarar latitud och longitud och vilken egenskap som ska visas som nåltitel.
 

@@ -36,5 +36,7 @@ Näkymä voidaan esittää erilaisilla asetteluilla. Lisäasetteluja voidaan lis
 	- Näytä tiedostot luettelona luettelomerkeillä tai numeroinnilla.
 - [[Korttinäkymä|Kortit]]
 	- Näytä tiedostot ruudukkona. Mahdollistaa galleriamaisten näkymien luomisen kuvineen.
+- [[Kanban-näkymä|Kanban]]
+	- Näytä tiedostot kortteina sarakkeisiin järjestettynä ryhmitetyn määreen perusteella.
 - [[Karttanäkymä|Kartta]]
 	- Näytä tiedostot nastoina interaktiivisella kartalla.

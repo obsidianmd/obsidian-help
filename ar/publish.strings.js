@@ -1,4 +1,5 @@
 // Locale UI strings — Arabic
+window.LANG_SWITCHER_STRINGS = { search: "بدّل اللغة...", noResults: "لا توجد نتائج" };
 (function () {
   function apply() {
     var el;

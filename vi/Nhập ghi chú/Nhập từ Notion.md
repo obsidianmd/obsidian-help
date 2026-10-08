@@ -1,40 +1,48 @@
 ---
 permalink: import/notion
+cssclasses:
+  - soft-embed
 ---
-Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Notion bằng [[Trình nhập|plugin Importer]]. Quá trình này sẽ chuyển đổi dữ liệu Notion của bạn thành các tệp Markdown bền vững mà bạn có thể sử dụng ngoại tuyến với Obsidian và nhiều ứng dụng khác.
+Obsidian cho phép bạn dễ dàng di chuyển dữ liệu từ Notion bằng [[Trình nhập|plugin Importer]]. Quá trình này sẽ chuyển đổi không gian làm việc Notion của bạn thành các tệp Markdown bền vững mà bạn có thể sử dụng ngoại tuyến với Obsidian và nhiều ứng dụng khác.
 
 Obsidian cung cấp hai cách để nhập dữ liệu Notion của bạn:
 
-1. **Nhập qua API** bảo toàn toàn bộ không gian làm việc của bạn bao gồm Databases và công thức được chuyển đổi thành [[Giới thiệu về Cơ sở|Cơ sở]], nhưng yêu cầu token tích hợp Notion và kết nối internet.
-2. **Nhập qua tệp** không bảo toàn Databases nhưng không yêu cầu token API hoặc kết nối internet.
+1. **Tài khoản Notion (khuyến nghị)** kết nối trực tiếp với không gian làm việc của bạn và cho phép bạn bảo toàn Databases và công thức được chuyển đổi thành [[Giới thiệu về Cơ sở|Cơ sở]]. Yêu cầu token tích hợp Notion và kết nối internet.
+2. **Nhập qua tệp** sử dụng các tệp xuất `.zip` của Notion. Không bảo toàn Databases nhưng không yêu cầu token API hoặc kết nối internet.
 
-## Nhập qua API
+## Tùy chỉnh các trang đã nhập
 
-### Tạo token tích hợp Notion API
+Cả hai phương pháp nhập đều hiển thị bản xem trước trước khi quá trình nhập bắt đầu. Bạn có thể chỉnh sửa mẫu được tạo hoặc chọn một mẫu Markdown từ kho của bạn. Các cài đặt như ảnh bìa và tên thuộc tính database sẽ cập nhật các thuộc tính được tạo hiển thị trong bản xem trước. Xem [[Mẫu trình nhập|Mẫu Importer]].
 
-Để truy cập dữ liệu Notion của bạn qua API, bạn cần một token tích hợp. Bước này mất khoảng 2 phút để hoàn thành.
+## Nhập từ tài khoản Notion của bạn
+
+### Tạo token truy cập Notion API
+
+Để truy cập dữ liệu Notion của bạn qua API, bạn cần một token truy cập. Bước này mất khoảng hai phút để hoàn thành.
 
 Token là một chuỗi dài các số và chữ cái thường bắt đầu bằng `ntn_...` cho phép bạn tải xuống dữ liệu từ Notion.
 
-1. Đăng nhập vào bảng điều khiển [Notion Integrations](https://www.notion.so/profile/integrations/internal) của bạn.
-2. Chọn **New integration**.
+1. Đăng nhập vào bảng điều khiển [Notion Connections](https://app.notion.com/developers/connections) của bạn.
+2. Chọn **New connection**.
+	1. Đặt tên cho kết nối của bạn, ví dụ "Personal". Bạn có thể dùng bất kỳ tên nào.
+	2. Chọn **Access token** làm phương thức xác thực.
+	3. Chọn không gian làm việc bạn muốn xuất làm **Installable in**.
 
 ![[notion-integration.png#interface]]
 
-2. Đặt tên cho tích hợp của bạn, ví dụ "Personal". Bạn có thể dùng bất kỳ tên nào.
-3. Chọn không gian làm việc bạn muốn xuất.
-4. Nhấp **Save** và tiếp tục đến **Configure integration settings**.
-5. Trong thẻ **Configuration**, token API của bạn có thể truy cập trong trường **Internal Integration Secret**.
-6. Chọn **Show** rồi **Copy**.
-7. Lưu token vào nơi an toàn như trình quản lý mật khẩu của bạn.
+3. Nhấp **Create connection**.
+4. Trong thẻ **Configuration**, token API của bạn có thể truy cập trong trường **Access token**.
+5. Chọn **Show** rồi **Copy**.
+6. Lưu token vào nơi an toàn như trình quản lý mật khẩu của bạn.
 
 ![[notion-token.png#interface]]
 
-Tiếp theo, cấp cho tích hợp của bạn quyền truy cập vào các trang và databases Notion mà bạn muốn nhập.
+Tiếp theo, cấp cho kết nối của bạn quyền truy cập vào các trang và databases Notion mà bạn muốn nhập.
 
-1. Đi tới thẻ **Access** của tích hợp bạn vừa tạo.
-2. Nhấp **Edit access**.
-3. Thêm các trang và databases mà bạn muốn nhập.
+1. Đi tới thẻ **Content access** của kết nối bạn vừa tạo.
+2. Thêm các trang và databases mà bạn muốn nhập.
+
+![[notion-content.png#interface]]
 
 Bây giờ bạn có thể chuyển đổi dữ liệu của mình bằng Obsidian Importer.
 
@@ -47,11 +55,11 @@ Bạn sẽ cần plugin [[Trình nhập|Importer]] chính thức của Obsidian,
 3. Kích hoạt plugin Importer.
 4. Mở plugin **Importer** bằng bảng lệnh hoặc biểu tượng thanh công cụ.
 5. Trong **Định dạng tệp** chọn **Notion (API)**
-6. Trong **API token**, dán **Internal Integration Secret** từ Notion của bạn.
+6. Trong **API token**, nhấp **Liên kết...** để thêm một bí mật mới. Với **ID**, đặt tên như `notion`, và với **Bí mật** dán **Access token** từ Notion của bạn.
 7. Nhấp **Tải** để chọn các databases và trang bạn muốn nhập.
 8. Xem lại và chỉnh sửa các tùy chọn nhập.
-9. Chọn **Nhập** và đợi cho đến khi quá trình nhập hoàn tất
-10. Bạn đã hoàn thành!
+9. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ các trang của bạn.
+10. Chọn **Nhập** lần nữa và đợi cho quá trình nhập hoàn tất.
 
 ### Hạn chế
 
@@ -72,7 +80,7 @@ Ngoài ra, Importer sẽ thực hiện các thay đổi sau:
 - Các trang không có trang con hoặc databases sẽ được nhập dưới dạng `[tên tệp].md` thay vì `[tên tệp]/[tên tệp].md`.
 - Databases luôn được biểu diễn dưới dạng thư mục có tên `[tên database]` với tệp `[tên database].base` bên trong.
 
-## Nhập qua tệp
+## Nhập tệp Notion (.zip)
 
 Nhập qua tệp là cách thay thế để nhập dữ liệu Notion của bạn. Phương pháp này không bảo toàn Databases nhưng không yêu cầu token API hoặc kết nối internet.
 
@@ -80,7 +88,7 @@ Nhập qua tệp là cách thay thế để nhập dữ liệu Notion của bạ
 
 Để chuẩn bị dữ liệu cho việc nhập, bạn cần xuất toàn bộ không gian làm việc bằng định dạng xuất HTML của Notion. Chúng tôi khuyến nghị bạn không sử dụng xuất Markdown của Notion vì nó bỏ sót dữ liệu quan trọng. Bạn phải có quyền quản trị viên đối với không gian làm việc Notion để xuất tất cả nội dung không gian làm việc.
 
-1. Đi tới **[[Cài đặt]]** ở đầu thanh bên Notion.
+1. Đi tới **Settings** ở đầu thanh bên Notion.
 2. Trong **Workspace** chọn **General**.
 3. Tìm và chọn **Export all workspace content**.
 4. Trong **Export format** chọn **HTML**.
@@ -104,8 +112,8 @@ Bạn sẽ cần plugin [[Trình nhập|Importer]] chính thức của Obsidian,
 6. Chọn tệp `.zip` chứa các tệp Notion bạn muốn nhập. *Khuyến nghị nhập tất cả Notion của bạn cùng một lúc để các liên kết nội bộ có thể được đối chiếu chính xác.*
 7. _Tùy chọn_, chọn một thư mục cho việc nhập. Các trang và databases Notion của bạn sẽ được lồng bên trong thư mục này.
 8. Bật **Save parent pages in subfolders** để giữ cấu trúc Notion. *Lưu ý rằng trong Notion bạn có thể viết nội dung trong Thư mục, điều này không thể thực hiện trong Obsidian và các trang này sẽ được thêm dưới dạng trang con trong thư mục.*
-9. Chọn **Nhập** và đợi cho đến khi quá trình nhập hoàn tất
-10. Bạn đã hoàn thành!
+9. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ các trang của bạn.
+10. Chọn **Nhập** lần nữa và đợi cho quá trình nhập hoàn tất.
 
 ### Khắc phục sự cố
 
@@ -125,3 +133,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Nếu bạn thấy lỗi này, bạn có thể giải nén tệp từ Notion, sau đó nhập các tệp `Export-{id}-Part-1.zip` lồng bên trong.
+
+## Mẫu
+
+Sử dụng [[Mẫu trình nhập|Mẫu Importer]] để cấu hình đầy đủ cách dữ liệu Notion của bạn được nhập.
+
+![[Mẫu trình nhập#Biến]]

@@ -29,7 +29,7 @@ Pengembang paruh waktu yang membantu membangun Obsidian.
 
 Kontributor untuk proses dan alat peninjauan plugin/tema [Komunitas](https://community.obsidian.md/).
 
-- Fevol
+- Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
@@ -147,7 +147,7 @@ Dilisensikan di bawah [Mozilla Public License versi 2.0](http://mozilla.org/MPL/
 
 ### Electron
 
-Versi `37.3.0`
+Versi `43.1.1`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -174,13 +174,13 @@ Apache License 2.0
 
 ### Mermaid
 
-Versi `11.4.1`
+Versi `11.13.0`
 MIT License
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Versi `2.29.4`
+Versi `2.30.1`
 MIT License
 Copyright (c) JS Foundation and other contributors
 

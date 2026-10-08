@@ -602,6 +602,70 @@ translation=Objectes i llistes
 original=Files and links
 translation=Fitxers i enllaços
 
+[heading.bases/Toolbar]
+original=Toolbar
+translation=Barra d'eines
+
+[heading.bases/Add and switch views]
+original=Add and switch views
+translation=Afegir i canviar de vista
+
+[heading.bases/View settings]
+original=View settings
+translation=Configuració de la vista
+
+[heading.bases/Layout]
+original=Layout
+translation=Disposició
+
+[heading.bases/Components of a filter]
+original=Components of a filter
+translation=Components d'un filtre
+
+[heading.bases/Conjunctions]
+original=Conjunctions
+translation=Conjuncions
+
+[heading.bases/Filter groups]
+original=Filter groups
+translation=Grups de filtres
+
+[heading.bases/Advanced filter editor]
+original=Advanced filter editor
+translation=Editor de filtres avançat
+
+[heading.bases/Sort and group results]
+original=Sort and group results
+translation=Ordenar i agrupar resultats
+
+[heading.bases/Add a sort]
+original=Add a sort
+translation=Afegir una ordenació
+
+[heading.bases/Remove a sort]
+original=Remove a sort
+translation=Eliminar una ordenació
+
+[heading.bases/Limit, copy, and export results]
+original=Limit, copy, and export results
+translation=Limitar, copiar i exportar resultats
+
+[heading.bases/Limit results]
+original=Limit results
+translation=Limitar resultats
+
+[heading.bases/Copy to clipboard]
+original=Copy to clipboard
+translation=Copia-ho al porta-retalls
+
+[heading.bases/Export CSV]
+original=Export CSV
+translation=Exportar CSV
+
+[heading.bases/Embed a view]
+original=Embed a view
+translation=Incrustar una vista
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Què poden fer les fórmules
@@ -830,70 +894,142 @@ translation=Extreure nota
 original=Template file
 translation=Fitxer de plantilla
 
-[heading.bases/views/Toolbar]
-original=Toolbar
-translation=Barra d'eines
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Crear un token d'accés personal d'Airtable
 
-[heading.bases/views/Add and switch views]
-original=Add and switch views
-translation=Afegir i canviar de vista
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Importar les teves dades d'Airtable
 
-[heading.bases/views/View settings]
-original=View settings
-translation=Configuració de la vista
+[heading.import/Import options]
+original=Import options
+translation=Opcions d'importació
 
-[heading.bases/views/Layout]
-original=Layout
-translation=Disposició
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configurar com s'importen els camps d'Airtable
 
-[heading.bases/views/Filters]
-original=Filters
-translation=Filtres
+[heading.import/What gets imported]
+original=What gets imported
+translation=Què s'importa
 
-[heading.bases/views/Components of a filter]
-original=Components of a filter
-translation=Components d'un filtre
+[heading.import/Limitations]
+original=Limitations
+translation=Limitacions
 
-[heading.bases/views/Conjunctions]
-original=Conjunctions
-translation=Conjuncions
+[heading.import/Before you start]
+original=Before you start
+translation=Abans de començar
 
-[heading.bases/views/Filter groups]
-original=Filter groups
-translation=Grups de filtres
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importa el teu graf de Logseq
 
-[heading.bases/views/Advanced filter editor]
-original=Advanced filter editor
-translation=Editor de filtres avançat
+[heading.import/Settings]
+original=Settings
+translation=Configuració
 
-[heading.bases/views/Sort and group results]
-original=Sort and group results
-translation=Ordenar i agrupar resultats
+[heading.import/Journals]
+original=Journals
+translation=Diaris
 
-[heading.bases/views/Add a sort]
-original=Add a sort
-translation=Afegir una ordenació
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Aplanar esquemes
 
-[heading.bases/views/Remove a sort]
-original=Remove a sort
-translation=Eliminar una ordenació
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Preservar dades incompatibles
 
-[heading.bases/views/Limit, copy, and export results]
-original=Limit, copy, and export results
-translation=Limitar, copiar i exportar resultats
+[heading.import/Templates]
+original=Templates
+translation=Plantilles
 
-[heading.bases/views/Limit results]
-original=Limit results
-translation=Limitar resultats
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Resolució de problemes
 
-[heading.bases/views/Copy to clipboard]
-original=Copy to clipboard
-translation=Copia-ho al porta-retalls
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Localitzeu els vostres fitxers de notes
 
-[heading.bases/views/Export CSV]
-original=Export CSV
-translation=Exportar CSV
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importeu les vostres notes de Tomboy o Gnote
 
-[heading.bases/views/Embed a view]
-original=Embed a view
-translation=Incrustar una vista
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Editar la plantilla d'importació
+
+[heading.import/Preview results]
+original=Preview results
+translation=Previsualitzar resultats
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Sintaxi de plantilla
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Valors de la font per a propietats
+
+[heading.import/Example template]
+original=Example template
+translation=Plantilla d'exemple
+
+[heading.community-directory/Header]
+original=Header
+translation=Capçalera
+
+[heading.community-directory/Overview]
+original=Overview
+translation=Visió general
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Puntuació
+
+[heading.community-directory/Updates]
+original=Updates
+translation=Actualitzacions
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Barra lateral
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Preguntes freqüents
+
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Agrupar targetes en columnes
+
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Treballar amb targetes i columnes
+
+[heading.bases/views/kanban/Settings]
+original=Settings
+translation=Configuració
+
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Amagar columnes buides
+
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Amplada de columna
+
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Propietat d'imatge
+
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Ajust de la imatge
+
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Relació d'aspecte de la imatge

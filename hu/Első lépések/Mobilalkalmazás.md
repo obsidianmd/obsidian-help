@@ -29,25 +29,20 @@ Egy jegyzet szerkesztésekor az alkalmazás alján egy ikonsor jelenik meg. A m�
 
 ### A mobil eszköztár testreszabása
 
-A mobil eszköztáron érintsd meg a **Mobil eszköztár konfigurálása** ![[lucide-wrench.svg#icon]] gombot a testreszabási felület megnyitásához.
+A mobil eszköztáron válaszd ki a **Mobil eszköztár konfigurálása** ![[lucide-wrench.svg#icon]] gombot a beállítások megnyitásához.
 
-Alternatívaként a Beállításokban is megteheted.
+Megnyithatod a **[[Beállítások]] → Felület → Mobil eszköztár konfigurálása** menüpontot is.
 
-1. Nyisd meg a Beállításokat.
-2. Válaszd a **Mobil** menüpontot.
-3. Az **Eszköztár beállításainak kezelése** alatt add hozzá, távolítsd el vagy rendezd át az elérhető opciókat.
+Az **Eszköztár beállításainak kezelése** alatt a fogópontokkal átrendezheted a műveleteket, az eltávolítás gombokkal pedig eltávolíthatod őket. Válassz ki egy műveletet a **További eszköztár beállítások** alatt a hozzáadáshoz.
 
 ### Parancs hozzáadása a mobil eszköztárhoz
 
-Alapértelmezés szerint az eszköztárhoz hozzáadható opciók szerkesztési lehetőségek, mint például a „Belső hivatkozás hozzáadása" vagy a „Címke hozzáadása".
+A szerkesztési műveleteken kívül globális parancsokat is hozzáadhatsz, mint például a **Téma váltása**.
 
-Ezen kívül globális parancsokat is hozzáadhatsz, mint például a „Téma váltása".
-
-1. Keresd meg az **Eszköztár beállításainak kezelése** menüpontot a **[[Beállítások]]** → **Mobil** alatt.
-2. Görgess a legaljára, és keresd meg a **Globális parancs hozzáadása** lehetőséget.
-3. Írd be a hozzáadni kívánt parancs nevét.
-4. Válaszd ki a hozzáadni kívánt parancsot.
-5. Az új parancs az eszköztár végéhez kerül.
+1. Nyisd meg a **[[Beállítások]] → Felület → Mobil eszköztár konfigurálása** menüpontot.
+2. Az **Eszköztár beállításainak kezelése** alatt válaszd a **Parancs hozzáadása...** lehetőséget.
+3. Keresd meg a hozzáadni kívánt parancsot.
+4. Válaszd ki a parancsot, hogy az eszköztár végéhez kerüljön.
 
 ## Gyorsművelet
 
@@ -58,7 +53,7 @@ A Gyorsművelet alapértelmezés szerint a [[Parancspaletta]] megnyitása.
 ### A Gyorsművelet testreszabása
 
 1. Nyisd meg a Beállításokat.
-2. A **Beállítások** alatt válaszd az **Eszköztár** menüpontot.
+2. Válaszd a **Felület** menüpontot.
 3. A **Mobil gyorsművelet konfigurálása** alatt érintsd meg a **Konfigurálás** gombot.
 4. Írd be a parancs nevét.
 5. Válaszd ki a beállítani kívánt parancsot.

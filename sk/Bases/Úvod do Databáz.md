@@ -36,5 +36,7 @@ Zobrazenia môžu byť prezentované v rôznych rozloženiach. Ďalšie rozlože
 	- Zobrazí súbory ako zoznam s odrážkovými alebo číslovanými značkami.
 - [[Zobrazenie kariet|Karty]]
 	- Zobrazí súbory ako mriežku. Umožňuje vytvárať galérii podobné zobrazenia s obrázkami.
+- [[Kanban zobrazenie|Kanban]]
+	- Zobrazí súbory ako karty usporiadané do stĺpcov na základe zoskupenej vlastnosti.
 - [[Zobrazenie mapy|Mapa]]
 	- Zobrazí súbory ako pripináčiky na interaktívnej mape.

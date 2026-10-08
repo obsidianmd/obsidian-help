@@ -54,6 +54,10 @@ translation=보기
 original=Cards view
 translation=카드 뷰
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=칸반 뷰
+
 [file.bases/views/list]
 original=List view
 translation=목록 뷰
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=커뮤니티 행동 강령
+
+[file.community-directory]
+original=Community directory
+translation=커뮤니티 디렉터리
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=HTML 콘텐츠
 original=Import notes
 translation=노트 들여오기
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Airtable에서 가져오기
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Apple Journal에서 들여오기
@@ -206,6 +218,10 @@ translation=Google Keep에서 들여오기
 original=Import HTML files
 translation=HTML 파일 들여오기
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseq에서 가져오기
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown 파일 들여오기
@@ -222,9 +238,17 @@ translation=Microsoft OneNote에서 들여오기
 original=Import from Roam Research
 translation=Roam Research에서 들여오기
 
+[file.import/templates]
+original=Importer templates
+translation=임포터 템플릿
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle 파일 들여오기
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tomboy 및 Gnote에서 가져오기
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

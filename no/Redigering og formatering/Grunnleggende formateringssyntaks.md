@@ -145,6 +145,23 @@ Formatering kan tvinges til å vises som ren tekst ved å legge til en omvendt s
 \**Denne linjen vil være kursiv og vise stjernene*\*
 ```
 
+### Uthevingsfarger
+
+Uthevinger støtter seks farger. Legg til en farge-emoji rett etter åpnings-`==`:
+
+| Farge  | Eksempel              |
+| ------ | --------------------- |
+| Rød    | `==🔴Viktig==`        |
+| Oransje | `==🟠Følg opp==`     |
+| Gul    | `==🟡Husk dette==`    |
+| Grønn  | `==🟢Fullført==`      |
+| Blå    | `==🔵Referanse==`     |
+| Lilla  | `==🟣Idé==`           |
+
+Uten en farge-emoji bruker uthevingen temaets standard uthevingsfarge.
+
+Du kan også velge en farge fra formateringsmenyen. Å skrive `==` i redigeringsprogrammet foreslår uthevingsfarger. I [[Visninger og redigeringsmodus#Live-forhåndsvisning|Live-forhåndsvisning]] vises en fargeprøve når du plasserer markøren inne i en utheving. Velg fargeprøven for å endre fargen.
+
 ## Interne lenker
 
 Obsidian støtter to formater for [[Interne lenker|interne lenker]] mellom notater:
@@ -469,7 +486,7 @@ Du kan også bruke innebygde fotnoter. ^[Dette er en innebygd fotnote.]
 > [!note] Merk
 > Innebygde fotnoter fungerer bare i lesevisning, ikke i Live-forhåndsvisning.
 
-Bruk [[Fotnoter-visning|Fotnoter-visningen]] for å se alle fotnoter i et notat.
+Bruk [[Fotnotevisning|Fotnoter-visningen]] for å se alle fotnoter i et notat.
 
 ## Kommentarer
 

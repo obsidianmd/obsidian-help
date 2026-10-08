@@ -30,25 +30,20 @@ When editing a note, you will notice a row of icons at the bottom of the app. Th
 
 ### Customize mobile toolbar
 
-In the mobile toolbar, tap **Configure mobile toolbar** ![[lucide-wrench.svg#icon]]  to open the interface to customize it.
+In the mobile toolbar, select **Configure mobile toolbar** ![[lucide-wrench.svg#icon]] to open its settings.
 
-Alternatively, you can do it in Settings.
+You can also open **[[Settings]] → Interface → Configure mobile toolbar**.
 
-1. Open Settings.
-2. Choose **Mobile**.
-3. Under **Manage toolbar options**, add, remove, or reorder the available options.
+Under **Manage toolbar options**, use the grip handles to reorder actions and the remove buttons to remove them. Select an action under **More toolbar options** to add it.
 
 ### Add command to mobile toolbar
 
-By default, the options that are available to be added to the toolbar are editing options like "Add internal link" or "Add tag".
+In addition to editing actions, you can add global commands such as **Change theme**.
 
-In addition to that, you can add global commands like "Change theme".
-
-1. Find **Manage toolbar options** under **[[Settings]]** → **Mobile**.
-2. Scroll to the very bottom, find **Add global command**.
-3. Type the name of the command you wish to add.
-4. Select the command you’ll like to add.
-5. The new command gets added to the end of the toolbar.
+1. Open **[[Settings]] → Interface → Configure mobile toolbar**.
+2. Under **Manage toolbar options**, select **Add a command...**.
+3. Search for the command you want to add.
+4. Select the command to add it to the end of the toolbar.
 
 ## Quick Action
 
@@ -59,7 +54,7 @@ Quick Action defaults to open [[Command palette]].
 ### Customize Quick Action
 
 1. Open Settings.
-2. Under **Options**, choose **Toolbar**.
+2. Choose **Interface**.
 3. Under **Configure mobile Quick Action**, tap **Configure**.
 4. Type the name of the command.
 5. Select the command you’d like to set.

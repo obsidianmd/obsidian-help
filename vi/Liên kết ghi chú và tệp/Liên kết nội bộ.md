@@ -21,6 +21,10 @@ Obsidian hỗ trợ các định dạng liên kết sau:
 
 Các ví dụ trên là tương đương, và chúng hiển thị giống nhau trong trình chỉnh sửa và liên kết đến cùng một ghi chú.
 
+Để liên kết đến một ghi chú trong thư mục, bao gồm đường dẫn thư mục trước tên ghi chú. Đường dẫn thư mục bắt đầu từ thư mục gốc của kho và sử dụng dấu gạch chéo (`/`), ngay cả trên Windows: `[[Projects/Three laws of motion]]` hoặc `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Nếu liên kết trỏ đến một ghi chú chưa tồn tại, Obsidian sẽ tạo ghi chú tại đường dẫn thư mục đó thay vì sử dụng [[Cài đặt#Vị trí mặc định cho ghi chú mới|vị trí mặc định cho ghi chú mới]] của bạn.
+
 > [!note] Ghi chú
 > Khi sử dụng định dạng Markdown, hãy đảm bảo [mã hóa URL](https://en.wikipedia.org/wiki/Percent-encoding) cho đích liên kết. Ví dụ, khoảng trắng trở thành `%20`.
 
@@ -45,8 +49,6 @@ Ngay cả khi bạn vô hiệu hóa định dạng liên kết wiki, bạn vẫn
 - Gõ `[[` trong trình chỉnh sửa và sau đó chọn tệp bạn muốn tạo liên kết đến.
 - Chọn văn bản trong trình chỉnh sửa và sau đó gõ `[[`.
 - Mở [[Khay lệnh]] và sau đó chọn Thêm liên kết nội bộ.
-
-![[Bộ chuyển đổi nhanh#^search-autocomplete-large]]
 
 Mặc dù bạn có thể liên kết đến bất kỳ [[Định dạng tệp được hỗ trợ]] nào, liên kết đến các định dạng tệp khác ngoài Markdown cần bao gồm extension, chẳng hạn như `[[Figure 1.png]]`.
 

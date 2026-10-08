@@ -25,6 +25,10 @@ Obsidian supports the following link formats:
 
 The examples above are equivalent, and they appear the same way in the editor and links to the same note.
 
+To link to a note in a folder, include the folder path before the note name. Folder paths start at the vault root and use forward slashes (`/`), even on Windows: `[[Projects/Three laws of motion]]` or `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+If the link points to a note that doesn't exist yet, Obsidian creates the note at that folder path instead of using your [[Settings#Default location for new notes|default location for new notes]].
+
 > [!note] Note
 > When using the Markdown format, make sure to [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the link destination. For example, blank spaces become `%20`.
 
@@ -49,8 +53,6 @@ To create a link while in Editing view, use either of the following ways:
 - Type `[[` in the editor and then select the file you want to create a link to.
 - Select text in the editor and then type `[[`.
 - Open the [[Command palette]] and then select Add internal link.
-
-![[Quick switcher#^search-autocomplete-large]]
 
 While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 

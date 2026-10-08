@@ -12,11 +12,11 @@ Los ajustes te permiten personalizar tu experiencia con Obsidian. Configura opci
 
 ### Escritorio
 
-En la [[Barra lateral#Abrir barras laterales ocultas|barra lateral izquierda]], selecciona **[[Configuración]]** ![[lucide-cog.svg#icon]]. También puedes abrir los Ajustes con la [[Paleta de comandos]].
+En la [[Barra lateral#Abrir barras laterales ocultas|barra lateral]], selecciona **[[Configuración]]** ![[lucide-cog.svg#icon]]. También puedes abrir los Ajustes con la [[Paleta de comandos]].
 
 ### Móvil
 
-En la barra lateral izquierda, selecciona **[[Configuración]]** ![[lucide-cog.svg#icon]].
+En la barra lateral, selecciona **[[Configuración]]** ![[lucide-cog.svg#icon]]. Los ajustes se abren en una hoja sobre la aplicación.
 
 ## Organización de los ajustes
 
@@ -189,6 +189,8 @@ Dónde se ubican los archivos nuevos. Las opciones incluyen:
 - **Misma carpeta donde está el archivo** — Las notas se crean en la misma carpeta que la nota activa actualmente.
 - **En la carpeta especificada abajo** — Las notas se crean en una carpeta específica que elijas.
 
+Este ajuste no se aplica cuando un [[Enlaces internos|enlace interno]] incluye una ruta de carpeta. Por ejemplo, al crear `[[Proyectos/Tres leyes del movimiento]]` se crea la nota en la carpeta `Proyectos` relativa a la raíz de la bóveda.
+
 ### Ubicación predeterminada para los archivos adjuntos nuevos
 
 Dónde se colocan los [[Archivos adjuntos|adjuntos]] recién añadidos. Las opciones incluyen:
@@ -294,9 +296,11 @@ Configurar la fuente para lugares como bloques de código e información prelimi
 
 Tamaño de fuente en píxeles que afecta al editor y la vista de lectura. Ajusta usando el control deslizante.
 
+El tamaño de fuente se guarda por separado en cada dispositivo y no se sincroniza a través de [[Introducción a Obsidian Sync|Obsidian Sync]]. En móvil, el texto y los elementos de la interfaz también se escalan según el tamaño de texto preferido del sistema, incluyendo tamaños de accesibilidad.
+
 #### Ajuste rápido del tamaño de fuente
 
-Ajusta el tamaño de fuente usando `Ctrl+Scroll` (Windows/Linux) o `Cmd+Scroll` (macOS), o usando el gesto de pellizcar en el trackpad.
+Ajusta el tamaño de fuente usando `Ctrl+Scroll` (Windows/Linux) o `Cmd+Scroll` (macOS), o usando el gesto de pellizcar en el trackpad. También puedes usar **Aumentar el tamaño de la fuente** y **Reducir el tamaño de la fuente** en la [[Paleta de comandos]], o asignarles [[Atajos de teclado|atajos de teclado]].
 
 ### Interfaz
 

@@ -44,7 +44,7 @@ iCloud lze použít k synchronizaci trezorů mezi iOS a macOS. Nicméně **iClou
 **Jak vytvořit a uložit trezor na iCloud Drive**:
 
 - **Zapněte iCloud Drive**:
-    - Na macOS: Přejděte na **Předvolby systému → Apple ID → iCloud → iCloud Drive**.
+    - Na macOS: Přejděte na **Nastavení systému → Apple ID → iCloud → iCloud Drive**.
     - Na iOS: Přejděte na **Nastavení → [Vaše jméno] → iCloud → iCloud Drive**.
 - **Vytvořte nový trezor na iCloudu**:
     - Na macOS:
@@ -57,6 +57,9 @@ iCloud lze použít k synchronizaci trezorů mezi iOS a macOS. Nicméně **iClou
         2. Zadejte název svého trezoru.
         3. Zapněte **Uložit na iCloud**.
         4. Klepněte na **Vytvořit**.
+- **Ponechte složku trezoru staženou** (volitelné, ale důrazně doporučeno pro rychlé načítání):
+    - Na macOS 15 (Sequoia) a novějším: Klikněte pravým tlačítkem na složku **Obsidian** v iCloud Drive a vyberte **Ponechat stažené**.
+    - Na macOS 14 (Sonoma) a starším: Vypněte **Optimalizovat úložiště Macu** v nastavení iCloudu. Toto nastavení ovlivňuje veškeré úložiště iCloudu na zařízení, nejen Obsidian.
 - **Otevřete trezor na jiném zařízení Apple**:
     - Na jiném macOS nebo iOS zařízení otevřete **Obsidian**, přejděte do [[Spravovat trezory|Přepínače trezorů]] a vyberte **Použít složku jako trezor**. Přejděte na **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud lze použít k synchronizaci trezorů mezi iOS a macOS. Nicméně **iClou
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Pro ověření umístění trezoru otevřete aplikaci **Soubory**, klepněte na **Procházet**, vyberte **iCloud Drive** v části **Umístění** a potvrďte, že je váš trezor uvnitř složky **Obsidian**. Pokud je váš trezor na jiném místě, mohou se vyskytnout problémy se synchronizací.
-
-> [!tip] Osvědčené postupy
-> - Pro **macOS 14 (Sonoma) a starší**: Vypněte **Optimalizovat úložiště Macu** v nastavení iCloudu, aby se zabránilo odložení souborů. Toto nastavení ovlivňuje veškeré úložiště iCloudu na zařízení, nejen Obsidian.
-> - Pro **macOS 15 (Sequoia)**: Klikněte pravým tlačítkem na složku **Obsidian** v iCloud Drive a vyberte **Ponechat stažené**.
 
 ## OneDrive
 

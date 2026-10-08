@@ -83,14 +83,14 @@ Per definir un bloc destacat personalitzat, crea el següent bloc CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 El valor de l'atribut `data-callout` és l'identificador de tipus que vols utilitzar, per exemple `[!custom-question-type]`.
 
-- `--callout-color` defineix el color de fons utilitzant números (0–255) per al vermell, verd i blau.
+- `--callout-color` defineix el color de fons. Qualsevol color CSS vàlid funciona, per exemple un codi hexadecimal (`#000000`) o un valor `rgb()`.
 - `--callout-icon` pot ser un ID d'icona de [lucide.dev](https://lucide.dev), o un element SVG.
 
 > [!warning] Nota sobre les versions d'icones lucide
@@ -103,6 +103,28 @@ El valor de l'atribut `data-callout` és l'identificador de tipus que vols utili
 > ```css
 > --callout-icon: '<svg>...svg personalitzat...</svg>';
 > ```
+
+> [!tip]- Personalització addicional
+> No estàs limitat a `--callout-color` i `--callout-icon`. Els blocs destacats admeten selectors i propietats CSS estàndard, juntament amb variables CSS addicionals per a coses com la vora i l'estil del títol.
+> 
+> Per exemple, amaga el títol d'un bloc destacat:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> O ajusta la seva vora:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Consulta la llista completa de [variables CSS de blocs destacats](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) per a més opcions.
 
 ### Tipus compatibles
 

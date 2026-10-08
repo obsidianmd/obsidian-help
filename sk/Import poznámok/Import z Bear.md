@@ -1,5 +1,7 @@
 ---
 permalink: import/bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje jednoducho migrovať vaše poznámky z Bear pomocou [[Importér|pluginu Importér]]. Toto skonvertuje vaše dáta z Bear do odolných Markdown súborov, ktoré môžete používať s Obsidian a mnohými ďalšími aplikáciami.
 

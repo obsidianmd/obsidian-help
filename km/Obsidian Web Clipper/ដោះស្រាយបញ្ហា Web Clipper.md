@@ -31,6 +31,7 @@ Web Clipper ប្រើ [Defuddle](https://github.com/kepano/defuddle) ដើ�
 
 - ត្រូវប្រាកដថាពិធីការ [[Obsidian URI]] [[Obsidian URI#ចុះឈ្មោះ Obsidian URI|បានចុះឈ្មោះហើយ]]។
 - បើអ្នកប្រើ Firefox អ្នកអាចត្រូវ[ចុះឈ្មោះវានៅក្នុងការកំណត់កម្មវិធីរុករក](https://kb.mozillazine.org/Register_protocol)។
+- បើអ្នកប្រើ Flatpak អ្នកអាចត្រូវធ្វើបច្ចុប្បន្នភាពតម្លៃ `x-scheme-handler/obsidian` ដែលមាននៅក្នុង `.config/mimeapps.list` របស់អ្នកពី `obsidian.desktop` ទៅ `md.obsidian.Obsidian.desktop`។
 
 #### Obsidian បើកប៉ុន្តែមានតែឈ្មោះឯកសារដែលត្រូវបានរក្សាទុក
 

@@ -10,11 +10,11 @@ Nastavenia vám umožňujú prispôsobiť si prácu s Obsidian. Nakonfigurujte v
 
 ### Počítač
 
-V [[Bočný panel#Otvorenie skrytých bočných panelov|ľavom bočnom paneli]] vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]]. Nastavenia môžete otvoriť aj pomocou [[Paleta príkazov|palety príkazov]].
+V [[Bočný panel#Otvorenie skrytých bočných panelov|bočnom paneli]] vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]]. Nastavenia môžete otvoriť aj pomocou [[Paleta príkazov|palety príkazov]].
 
 ### Mobil
 
-V ľavom bočnom paneli vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]].
+V bočnom paneli vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]]. Nastavenia sa otvoria ako panel prekrývajúci aplikáciu.
 
 ## Organizácia nastavení
 
@@ -187,6 +187,8 @@ Kde sa umiestnia novo vytvorené poznámky. Možnosti zahŕňajú:
 - **Rovnaký priečinok v akom je aktuálny súbor** — Poznámky sa vytvárajú v rovnakom priečinku ako aktuálne aktívna poznámka.
 - **V priečinku uvedenom nižšie** — Poznámky sa vytvárajú v konkrétnom priečinku, ktorý si vyberiete.
 
+Toto nastavenie sa neuplatňuje, keď [[Interné odkazy|interný odkaz]] obsahuje cestu k priečinku. Napríklad vytvorenie `[[Projekty/Tri zákony pohybu]]` vytvorí poznámku v priečinku `Projekty` relatívne ku koreňu trezoru.
+
 ### Predvolené umiestnenie pre nové prílohy
 
 Kde sa umiestnia novo pridané [[Prílohy|prílohy]]. Možnosti zahŕňajú:
@@ -292,9 +294,11 @@ Nastavenie písma pre miesta ako bloky kódu a úvodné metadáta. Vyberte **Spr
 
 Veľkosť písma v pixeloch, pre editor a náhľad. Upravte pomocou posúvača.
 
+Veľkosť písma sa ukladá samostatne na každom zariadení a nesynchronizuje sa cez [[Úvod do Obsidian Sync|Obsidian Sync]]. Na mobilných zariadeniach sa text a prvky rozhrania tiež škálujú podľa preferovanej veľkosti textu systému, vrátane veľkostí pre prístupnosť.
+
 #### Rýchla zmena veľkosti písma
 
-Upravte veľkosť písma pomocou `Ctrl+Scroll` (Windows/Linux) alebo `Cmd+Scroll` (macOS), alebo pomocou gesta priblíženia na trackpade.
+Upravte veľkosť písma pomocou `Ctrl+Scroll` (Windows/Linux) alebo `Cmd+Scroll` (macOS), alebo pomocou gesta priblíženia na trackpade. Môžete tiež použiť príkazy **Zväčšiť veľkosť písma** a **Zmenšiť veľkosť písma** v [[Paleta príkazov|palete príkazov]], alebo im priradiť [[Klávesové skratky|klávesové skratky]].
 
 ### Rozhranie
 

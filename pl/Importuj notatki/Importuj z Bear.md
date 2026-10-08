@@ -1,5 +1,7 @@
 ---
 permalink: import/bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian umożliwia łatwą migrację notatek z Bear za pomocą [[Importer|wtyczki Importer]]. Konwertuje ona dane z Bear do trwałych plików Markdown, których możesz używać z Obsidian i wieloma innymi aplikacjami.
 
@@ -10,7 +12,7 @@ Obsidian wykorzystuje format kopii zapasowej Bear — pliki `.bear2bk`. Instrukc
 1. Otwórz Bear.
 2. Utwórz kopię zapasową
 	1. Na macOS: **File** → **Backup notes**.
-	2. Na iOS: kliknij menu dodatkowe (⋮) u góry paska bocznego i wybierz **Backup all notes**.
+	2. Na iOS: kliknij menu dodatkowe (⋮) u góry panelu bocznego i wybierz **Backup all notes**.
 3. Wybierz lokalizację dla pliku kopii zapasowej.
 4. Kliknij **Export notes**.
 5. Powinieneś teraz mieć jeden plik `.bear2bk` zawierający wszystkie Twoje notatki.

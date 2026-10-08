@@ -3,9 +3,8 @@ permalink: bases
 cssclasses:
   - list-cards
   - list-cards-mobile-full
-description: Créez des vues de type base de données de vos notes, formatées sous forme de tableaux ou de galeries. Modifiez, triez et filtrez les fichiers à l'aide de leurs propriétés.
+description: 'Créez des vues de type base de données de vos notes, formatées sous forme de tableaux ou de galeries. Modifiez, triez et filtrez les fichiers à l''aide de leurs propriétés.'
 localized: '2026-03-18'
-
 ---
 Bases est un [[Modules principaux|module principal]] qui vous permet de créer des vues de type base de données de vos notes. En utilisant une base, vous pouvez afficher, modifier, trier et filtrer des fichiers et leurs [[Propriétés|propriétés]]. Les Bases peuvent vous aider à organiser aussi bien des projets que des plans de voyage, des listes de lecture, et bien plus encore.
 
@@ -38,5 +37,7 @@ Les vues peuvent être affichées avec différentes dispositions. Des dispositio
 	- Affiche les fichiers sous forme de liste avec des puces ou des numéros.
 - [[Galerie]]
 	- Affiche les fichiers sous forme de grille. Permet de créer des vues de type galerie avec des images.
+- [[Kanban]]
+	- Affiche les fichiers sous forme de cartes organisées en colonnes basées sur une propriété regroupée.
 - [[Carte]]
 	- Affiche les fichiers sous forme d'épingles sur une carte interactive.

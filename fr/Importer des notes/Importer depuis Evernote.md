@@ -1,9 +1,10 @@
 ---
 permalink: import/evernote
 localized: '2026-03-18'
-
+cssclasses:
+  - soft-embed
 ---
-Obsidian vous permet de migrer facilement vos notes depuis Evernote en utilisant le [[Importer|module Importer]]. Celui-ci convertira vos données Evernote en fichiers Markdown durables, que vous pourrez utiliser avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer facilement vos notes depuis Evernote en utilisant le [[Importer|module Importer]]. Celui-ci convertit vos données Evernote en fichiers Markdown durables que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
 
 ## Exporter vos données depuis Evernote
 
@@ -26,10 +27,10 @@ Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [ins
 4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
 5. Sous **Format de fichier**, choisissez **Evernote (.enex)**.
 6. Sélectionnez l'emplacement de votre fichier de sauvegarde Evernote.
-7. Cliquez sur **Importer** et attendez que l'importation soit terminée.
-8. C'est terminé !
+7. Sélectionnez **Importer** pour examiner le modèle généré et prévisualiser des exemples de vos notes.
+8. Sélectionnez **Importer** à nouveau et attendez que l'importation soit terminée.
 
-## Options d'importation avancées
+## Options d'importation
 
 ### Maintenir la hiérarchie des mots-clés
 
@@ -54,6 +55,8 @@ En supposant que vous avez un carnet appelé ```CarnetA``` dans une pile appelé
 
 Cela entraîne la génération des notes converties dans le dossier Pile1/CarnetA.
 
-### Plus d'options
+## Modèles
 
-Pour des options d'importation plus avancées depuis Evernote, vous pouvez également essayer [l'importation via Yarle](https://github.com/akosbalasko/yarle).
+Utilisez les [[Importer des modèles|modèles Importer]] pour configurer entièrement la façon dont vos données Evernote sont importées.
+
+![[Importer des modèles#Variables]]

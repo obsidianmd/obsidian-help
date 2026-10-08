@@ -32,7 +32,7 @@ translation=Tworzenie kopii zapasowej plików Obsidian
 
 [file.bases]
 original=Introduction to Bases
-translation=Wprowadzenie do Baz danych
+translation=Wprowadzenie do baz danych
 
 [file.bases/create-base]
 original=Create a base
@@ -44,7 +44,7 @@ translation=Funkcje
 
 [file.bases/syntax]
 original=Bases syntax
-translation=Składnia Baz danych
+translation=Składnia baz danych
 
 [file.bases/views]
 original=Views
@@ -53,6 +53,10 @@ translation=Podglądy
 [file.bases/views/cards]
 original=Cards view
 translation=Podgląd Karty
+
+[file.bases/views/kanban]
+original=Kanban view
+translation=Podgląd Kanban
 
 [file.bases/views/list]
 original=List view
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Kodeks postępowania społeczności
+
+[file.community-directory]
+original=Community directory
+translation=Katalog społeczności
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=Zawartość HTML
 original=Import notes
 translation=Importuj notatki
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Import z Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Importuj z Apple Journal
@@ -206,6 +218,10 @@ translation=Importuj z Google Keep
 original=Import HTML files
 translation=Importuj pliki HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Import z Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Importuj pliki Markdown
@@ -222,9 +238,17 @@ translation=Importuj z Microsoft OneNote
 original=Import from Roam Research
 translation=Importuj z Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Szablony importera
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Importuj pliki Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Import z Tomboy i Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -256,7 +280,7 @@ translation=Zarządzanie notatkami
 
 [file.manage-vaults]
 original=Manage vaults
-translation=Zarządzaj skarbcami
+translation=Zarządzaj sejfami
 
 [file.mobile]
 original=Mobile app
@@ -316,7 +340,7 @@ translation=Dziennik
 
 [file.plugins/file-explorer]
 original=File explorer
-translation=Eksplorator plików
+translation=Przeglądarka plików
 
 [file.plugins/file-recovery]
 original=File recovery
@@ -368,11 +392,11 @@ translation=Losowa notatka
 
 [file.plugins/search]
 original=Search
-translation=Szukaj
+translation=Wyszukiwarka
 
 [file.plugins/slash-commands]
 original=Slash commands
-translation=Ukośnik komend
+translation=Ukośnik poleceń
 
 [file.plugins/slides]
 original=Slides
@@ -484,7 +508,7 @@ translation=Pomoc i wsparcie
 
 [file.ribbon]
 original=Ribbon
-translation=Menu wstążkowe
+translation=Wstążka
 
 [file.sales-tax]
 original=Sales tax
@@ -500,7 +524,7 @@ translation=Ustawienia
 
 [file.sidebar]
 original=Sidebar
-translation=Pasek boczny
+translation=Panel boczny
 
 [file.snippets]
 original=CSS snippets
@@ -656,7 +680,7 @@ translation=Zakreślacz
 
 [file.web-clipper/interpreter]
 original=Interpreter
-translation=Tłumacz
+translation=Interpreter
 
 [file.web-clipper/logic]
 original=Logic
@@ -680,11 +704,19 @@ translation=Zmienne
 
 [file.workspace]
 original=Workspace
-translation=Obszar roboczy
+translation=Przestrzeń robocza
+
+[folder.Attachments]
+original=Attachments
+translation=Załączniki
 
 [folder.audio]
 original=audio
 translation=audio
+
+[folder.Bases]
+original=Bases
+translation=Bazy danych
 
 [folder.Changelog]
 original=Changelog

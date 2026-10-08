@@ -1,8 +1,9 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
-Obsidian te permite migrar fácilmente tus entradas de diario desde Apple Journal utilizando el [[Importador|complemento Importador]].
-Esto convertirá tus entradas de diario a archivos Markdown duraderos, que puedes usar con Obsidian y muchas otras aplicaciones.
+Obsidian te permite migrar fácilmente tus entradas de diario desde Apple Journal utilizando el [[Importador|complemento Importador]]. Esto convierte tus entradas de diario a archivos Markdown duraderos que puedes usar con Obsidian y muchas otras aplicaciones.
 
 ## Exportar tus datos desde Apple Journal
 
@@ -32,13 +33,15 @@ Necesitarás el complemento oficial de Obsidian [[Importador]], que puedes [inst
 5. En **Formato de archivo**, elige **Apple Journal (HTML Export)**.
 6. En **Archivos a importar**, selecciona la carpeta con los datos exportados, generalmente _AppleJournalEntries_, o archivos individuales de _Entries_.
 7. Revisa y edita las demás opciones de importación.
-8. Selecciona Importar y espera hasta que la importación se complete.
-9. ¡Listo!
+8. Selecciona **Importar** para revisar la plantilla generada y previsualizar ejemplos de tus entradas.
+9. Selecciona **Importar** de nuevo y espera a que la importación finalice.
 
+## Plantillas
 
-## Contenido compatible
+Usa [[Plantillas del importador|plantillas del Importador]] para configurar completamente cómo se importan tus datos de Apple Journal.
 
-El complemento puede importar metadatos de Journal como metadatos iniciales, como _estado de ánimo_, _contactos_, _ubicación_ y _ruta de entrenamiento_.
+![[Plantillas del importador#Variables]]
 
-> [!note] Nota
-> El complemento no importa recursos. Los adjuntos como fotos, vídeos y grabaciones de audio se ignoran.
+Cuando **Añadir metadatos como metadatos iniciales** está habilitado, los metadatos de Apple Journal se convierten en [[Propiedades|propiedades]]. Dependiendo de la entrada, estos pueden incluir `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media` y `workout-route`.
+
+Usa la variable `properties` para acceder a estos metadatos. Por ejemplo, usa `{{properties.location}}` para una ubicación o `{{properties["state-of-mind"]}}` para un estado de ánimo.

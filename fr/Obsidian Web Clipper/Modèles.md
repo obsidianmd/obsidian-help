@@ -41,6 +41,9 @@ Les déclencheurs de modèle vous permettent de sélectionner automatiquement un
 
 La première correspondance dans votre liste de modèles détermine quel modèle est utilisé. Vous pouvez faire glisser les modèles vers le haut ou vers le bas dans les paramètres de Web Clipper pour modifier l'ordre dans lequel les modèles sont comparés.
 
+> [!tip]- Définir un modèle de secours
+> Si une page ne correspond à aucune règle de déclenchement, Web Clipper utilise le premier modèle de votre liste. Gardez le modèle que vous souhaitez utiliser par défaut en haut de la liste pour vous assurer qu'il sera utilisé pour les pages sans correspondance spécifique.
+
 #### Correspondance d'URL simple
 
 La correspondance simple déclenche un modèle si l'URL de la page courante *commence par* le motif donné. Par exemple :

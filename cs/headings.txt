@@ -562,82 +562,218 @@ translation=Přejmenování poznámky
 original=Delete a note
 translation=Smazání poznámky
 
-[heading.teams/security/Considerations]
+[heading.teams/Considerations]
 original=Considerations
 translation=Aspekty k zvážení
 
-[heading.teams/security/Community plugins and themes]
+[heading.teams/Community plugins and themes]
 original=Community plugins and themes
 translation=Komunitní pluginy a motivy
 
-[heading.teams/security/Network and access]
+[heading.teams/Network and access]
 original=Network and access
 translation=Síť a přístup
 
-[heading.teams/security/Obsidian-sourced connections]
+[heading.teams/Obsidian-sourced connections]
 original=Obsidian-sourced connections
 translation=Připojení ze zdrojů Obsidian
 
-[heading.teams/security/GitHub-sourced connections]
+[heading.teams/GitHub-sourced connections]
 original=GitHub-sourced connections
 translation=Připojení ze zdrojů GitHub
 
-[heading.teams/security/Other connections]
+[heading.teams/Other connections]
 original=Other connections
 translation=Další připojení
 
-[heading.teams/security/Frequently asked questions]
+[heading.teams/Frequently asked questions]
 original=Frequently asked questions
 translation=Často kladené otázky
 
-[heading.teams/security/Account security]
+[heading.teams/Account security]
 original=Account security
 translation=Zabezpečení účtu
 
-[heading.teams/security/Assessments and certifications]
+[heading.teams/Assessments and certifications]
 original=Assessments and certifications
 translation=Posouzení a certifikace
 
-[heading.teams/license/Purchase a commercial license]
+[heading.teams/Purchase a commercial license]
 original=Purchase a commercial license
 translation=Zakoupení komerční licence
 
-[heading.teams/license/Apply a commercial license]
+[heading.teams/Apply a commercial license]
 original=Apply a commercial license
 translation=Aplikování komerční licence
 
-[heading.teams/license/Supporting organizations]
+[heading.teams/Supporting organizations]
 original=Supporting organizations
 translation=Podporující organizace
 
-[heading.teams/license/Frequently asked questions]
-original=Frequently asked questions
-translation=Často kladené otázky
-
-[heading.teams/deploy/Install and update Obsidian]
+[heading.teams/Install and update Obsidian]
 original=Install and update Obsidian
 translation=Instalace a aktualizace Obsidian
 
-[heading.teams/deploy/Customizing Obsidian]
+[heading.teams/Customizing Obsidian]
 original=Customizing Obsidian
 translation=Přizpůsobení Obsidian
 
-[heading.teams/deploy/Configuration folders]
+[heading.teams/Configuration folders]
 original=Configuration folders
 translation=Konfigurační složky
 
-[heading.teams/deploy/Plugins]
+[heading.teams/Plugins]
 original=Plugins
 translation=Pluginy
 
-[heading.teams/deploy/Themes and snippets]
+[heading.teams/Themes and snippets]
 original=Themes and snippets
 translation=Motivy a úryvky
 
-[heading.teams/deploy/Frequently asked questions]
+[heading.teams/Deployment]
+original=Deployment
+translation=Nasazení
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Vytvoření osobního přístupového tokenu Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Import dat z Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Možnosti importu
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Nastavení způsobu importu polí Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Co se importuje
+
+[heading.import/Limitations]
+original=Limitations
+translation=Omezení
+
+[heading.import/Before you start]
+original=Before you start
+translation=Než začnete
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Import Logseq grafu
+
+[heading.import/Settings]
+original=Settings
+translation=Nastavení
+
+[heading.import/Journals]
+original=Journals
+translation=Deníky
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Zploštění osnov
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Zachování nekompatibilních dat
+
+[heading.import/Templates]
+original=Templates
+translation=Šablony
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Řešení problémů
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Vyhledání souborů s poznámkami
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Import poznámek z Tomboy nebo Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Úprava šablony importu
+
+[heading.import/Preview results]
+original=Preview results
+translation=Náhled výsledků
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Syntaxe šablon
+
+[heading.import/Variables]
+original=Variables
+translation=Proměnné
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Zdrojové hodnoty pro vlastnosti
+
+[heading.import/Example template]
+original=Example template
+translation=Příklad šablony
+
+[heading.community-directory/Header]
+original=Header
+translation=Záhlaví
+
+[heading.community-directory/Overview]
+original=Overview
+translation=Přehled
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Hodnocení
+
+[heading.community-directory/Updates]
+original=Updates
+translation=Aktualizace
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Postranní panel
+
+[heading.community-directory/Frequently asked questions]
 original=Frequently asked questions
 translation=Často kladené otázky
 
-[heading.teams/deploy/Deployment]
-original=Deployment
-translation=Nasazení
+[heading.bases/views/kanban/Group cards into columns]
+original=Group cards into columns
+translation=Seskupení karet do sloupců
+
+[heading.bases/views/kanban/Work with cards and columns]
+original=Work with cards and columns
+translation=Práce s kartami a sloupci
+
+[heading.bases/views/kanban/Settings]
+original=Settings
+translation=Nastavení
+
+[heading.bases/views/kanban/Hide empty columns]
+original=Hide empty columns
+translation=Skrýt prázdné sloupce
+
+[heading.bases/views/kanban/Column width]
+original=Column width
+translation=Šířka sloupce
+
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Vlastnost obrázku
+
+[heading.bases/views/kanban/Image fit]
+original=Image fit
+translation=Přizpůsobení obrázku
+
+[heading.bases/views/kanban/Image aspect ratio]
+original=Image aspect ratio
+translation=Poměr stran obrázku

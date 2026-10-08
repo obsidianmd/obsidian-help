@@ -21,7 +21,7 @@ There are several ways to add a property to a note:
 
 - Use the **Add file property** [[Command palette|command]].
 - Use the **`Cmd/Ctrl+;`** [[Hotkeys|hotkey]].
-- Choose **Add file property** from the **More actions** menu (brought up by the three dots icon or by right-clicking the tab).
+- Choose **Add file property** from the [[More options menu]] (brought up by the three dots icon or by right-clicking the tab).
 - Type `---` at the very beginning of a file.
 
 Once you add a property, a row will appear at the top of the file with two inputs: the property _name_ and the property _value_.
@@ -198,7 +198,7 @@ Checkbox properties are either `true` or `false`. In Live Preview, this displays
 ---
 favorite: true
 reply: false
-last: # Inderminate value; often treated as false
+last: # Indeterminate value; often treated as false
 ```
 
 ### Date

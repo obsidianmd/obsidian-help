@@ -18,6 +18,13 @@ Importir adalah [[Plugin komunitas|Plugin komunitas]] resmi yang dibuat oleh tim
 1. Ikuti instruksi di [[Plugin komunitas#Memasang plugin komunitas]]
 2. Unduh dan aktifkan [Importir](obsidian://show-plugin?id=obsidian-importer) dari daftar
 
+
 ![[Impor catatan#Impor dari aplikasi dan format file lain]]
 
 ![[Impor catatan#Format lainnya]]
+
+## Templat Importir
+
+Importir memungkinkan Anda mendefinisikan [[Template Importer|templat]] yang mengontrol bagaimana catatan Anda diimpor dari aplikasi lain. Ini berarti Anda dapat memodifikasi judul, properti, dan konten catatan yang Anda impor.
+
+Templat mendukung variabel serta [[Obsidian Web Clipper/Filter|filter]] dan [[Obsidian Web Clipper/Logika|logika templat]] yang sama seperti [[Pengantar Obsidian Web Clipper|Web Clipper]].

@@ -145,6 +145,23 @@ Formatierungen können als reiner Text angezeigt werden, indem ein Backslash `\`
 \**Diese Zeile wird kursiv sein und die Sternchen anzeigen*\*
 ```
 
+### Hervorhebungsfarben
+
+Hervorhebungen unterstützen sechs Farben. Füge ein Farb-Emoji direkt nach dem öffnenden `==` ein:
+
+| Farbe  | Beispiel              |
+| ------ | --------------------- |
+| Rot    | `==🔴Wichtig==`       |
+| Orange | `==🟠Nachverfolgen==` |
+| Gelb   | `==🟡Merken==`        |
+| Grün   | `==🟢Erledigt==`      |
+| Blau   | `==🔵Referenz==`      |
+| Violett | `==🟣Idee==`         |
+
+Ohne Farb-Emoji verwendet die Hervorhebung die Standard-Hervorhebungsfarbe deines Themas.
+
+Du kannst eine Farbe auch über das Formatierungsmenü auswählen. Die Eingabe von `==` im Editor schlägt Hervorhebungsfarben vor. In der [[Ansichten und Bearbeitungsmodus#Live-Vorschau|Live-Vorschau]] wird beim Platzieren des Cursors innerhalb einer Hervorhebung ein Farbfeld angezeigt. Wähle das Farbfeld aus, um die Farbe zu ändern.
+
 ## Interne Links
 
 Obsidian unterstützt zwei Formate für [[Interne Links|interne Links]] zwischen Notizen:
@@ -469,7 +486,7 @@ Du kannst auch Inline-Fußnoten verwenden. ^[Dies ist eine Inline-Fußnote.]
 > [!note] Hinweis
 > Inline-Fußnoten funktionieren nur im Lesemodus, nicht in der Live-Vorschau.
 
-Verwende die [[Fußnotenansicht]], um alle Fußnoten in einer Notiz zu sehen.
+Verwende die [[Fußnoten-Ansicht|Fußnotenansicht]], um alle Fußnoten in einer Notiz zu sehen.
 
 ## Kommentare
 

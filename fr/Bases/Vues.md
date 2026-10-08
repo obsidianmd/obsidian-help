@@ -12,11 +12,14 @@ En haut d'une base se trouve une barre d'outils qui vous permet d'interagir avec
 
 - ![[lucide-table.svg#icon]] **Menu des vues** — créer, modifier et basculer entre les vues.
 - **Résultats** — limiter, copier et exporter les fichiers.
-- ![[lucide-arrow-up-down.svg#icon]] **Trier** — trier et grouper les fichiers.
+- ![[lucide-arrow-up-down.svg#icon]] **Trier** — trier les fichiers.
+- ![[lucide-stretch-horizontal.svg#icon]] **Grouper** — grouper les fichiers et gérer l'ordre et la visibilité des groupes.
 - ![[lucide-list-filter.svg#icon]] **Filtre** — filtrer les fichiers.
 - ![[lucide-list.svg#icon]] **Propriétés** — choisir les propriétés à afficher et créer des [[Formules|formules]].
 - ![[lucide-search.svg#icon]] **Rechercher** — rechercher des éléments en utilisant leurs propriétés affichées.
 - ![[lucide-plus.svg#icon]] **Nouveau** — créer un nouveau fichier dans la vue actuelle.
+
+Sur les téléphones, **Résultats**, **Trier**, ![[lucide-stretch-horizontal.svg#icon]] **Grouper** et **Propriétés** se trouvent dans le menu ![[lucide-sliders-horizontal.svg#icon]] **Affichage**.
 
 ## Ajouter et basculer entre les vues
 
@@ -38,13 +41,14 @@ Vous pouvez aussi faire un *clic droit* sur le nom de la vue dans la barre d'out
 
 ## Disposition
 
-Les vues peuvent être affichées avec différentes dispositions, notamment en ![[lucide-table.svg#icon]] **tableau**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **galerie** et ![[lucide-map.svg#icon]] **carte**. Des dispositions supplémentaires peuvent être ajoutées par des [[Modules complémentaires|modules complémentaires]]. Certaines dispositions sont encore en cours de développement et nécessitent des [[Versions en accès anticipé|versions en accès anticipé]] d'Obsidian.
+Les vues peuvent être affichées avec différentes dispositions, notamment en ![[lucide-table.svg#icon]] **tableau**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **galerie**, ![[lucide-kanban-square.svg#icon]] **Kanban** et ![[lucide-map.svg#icon]] **carte**. Des dispositions supplémentaires peuvent être ajoutées par des [[Modules complémentaires|modules complémentaires]].
 
 | Disposition                        | Description                                                                                                                    | Version&nbsp;app |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------- |
 | [[Tableau]]           | Affiche les fichiers sous forme de lignes dans un tableau. Les colonnes sont remplies à partir des [[Propriétés|propriétés]] de vos notes. | 1.9              |
 | [[Galerie]]                        | Affiche les fichiers sous forme de grille. Permet de créer des vues de type galerie avec des images.                          | 1.9              |
 | [[Liste]]               | Affiche les fichiers sous forme de [[Syntaxe de mise en forme de base#Listes\|liste]] avec des puces ou des numéros.          | 1.10             |
+| [[Kanban]]              | Affiche les fichiers sous forme de cartes organisées en colonnes basées sur une propriété groupée.                             | 1.14             |
 | [[Carte]]               | Affiche les fichiers sous forme d'épingles sur une carte interactive. Nécessite le module Maps.                                | 1.10             |
 
 
@@ -83,16 +87,16 @@ Cliquez sur le bouton code ![[lucide-code-xml.svg#icon]] pour utiliser l'éditeu
 
 ## Trier et grouper les résultats
 
-Ouvrez le menu ![[lucide-arrow-up-down.svg#icon]] **Trier** pour trier et grouper les résultats d'une vue.
+Utilisez le menu ![[lucide-arrow-up-down.svg#icon]] **Trier** pour organiser les résultats, et le menu ![[lucide-stretch-horizontal.svg#icon]] **Grouper** pour rassembler les éléments similaires en sections.
 
 Vous pouvez organiser les résultats par une ou plusieurs propriétés en ordre croissant ou décroissant. Cela facilite le classement des notes par nom, date de dernière modification ou toute autre propriété — y compris les formules.
 
-Vous pouvez également grouper les résultats par propriété pour organiser les éléments similaires en sections visuellement distinctes. Actuellement, Obsidian prend en charge le groupement par une seule propriété.
+Chaque vue peut avoir plusieurs tris, mais ne peut grouper les résultats que par une seule propriété.
 
 ### Ajouter un tri
 
 1. Ouvrez le menu ![[lucide-arrow-up-down.svg#icon]] **Trier** en haut de la vue.
-2. Choisissez la propriété par laquelle vous souhaitez trier (ou grouper).
+2. Sélectionnez **Ajouter un tri**, puis choisissez la propriété par laquelle vous souhaitez trier.
 3. Si vous avez plusieurs tris, glissez-les vers le haut ou le bas à l'aide de la poignée ![[lucide-grip-vertical.svg#icon]] pour modifier leur priorité.
 
 Les options d'ordonnancement des résultats dépendent du type de propriété :
@@ -104,7 +108,29 @@ Les options d'ordonnancement des résultats dépendent du type de propriété :
 ### Supprimer un tri
 
 1. Ouvrez le menu ![[lucide-arrow-up-down.svg#icon]] **Trier** en haut de la vue.
-2. Cliquez sur le bouton corbeille ![[lucide-trash-2.svg#icon]] à côté du tri ou du groupement que vous souhaitez supprimer.
+2. Sélectionnez le bouton corbeille ![[lucide-trash-2.svg#icon]] à côté du tri que vous souhaitez supprimer.
+
+### Grouper les résultats
+
+1. Ouvrez le menu ![[lucide-stretch-horizontal.svg#icon]] **Grouper** en haut de la vue. Sur les téléphones, ouvrez **Affichage → Grouper**.
+2. Sous **Grouper par**, choisissez une propriété.
+3. Choisissez un ordre de tri automatique, ou sélectionnez **Manuel** pour ordonner les groupes vous-même.
+
+Pour arrêter de grouper les résultats, sélectionnez le bouton corbeille ![[lucide-trash-2.svg#icon]] à côté de la propriété de groupement.
+
+### Réordonner, masquer et ajouter des groupes
+
+Dans le menu ![[lucide-stretch-horizontal.svg#icon]] **Grouper**, sélectionnez **Manuel** dans le menu d'ordre de tri pour gérer quels groupes apparaissent et dans quel ordre.
+
+- Cochez un groupe pour l'afficher, ou décochez-le pour le masquer. Sélectionnez **Tout afficher** ou **Tout masquer** pour modifier la visibilité de tous les groupes.
+- Glissez la poignée ![[lucide-grip-vertical.svg#icon]] à côté d'un groupe pour modifier sa position.
+- Sélectionnez **Ajouter un groupe** et entrez une valeur pour afficher un nouveau groupe vide. Cela ne crée pas de note et ne modifie pas les notes existantes.
+
+Pour restaurer l'ordre automatique des groupes et afficher tous les groupes, choisissez un ordre de tri automatique au lieu de **Manuel**.
+
+### Replier les groupes
+
+Dans les dispositions [[Tableau]], [[Galerie]] et [[Liste]], sélectionnez un en-tête de groupe pour replier ou déplier ce groupe. Replier un groupe masque temporairement ses éléments sans modifier leurs propriétés.
 
 ## Limiter, copier et exporter les résultats
 

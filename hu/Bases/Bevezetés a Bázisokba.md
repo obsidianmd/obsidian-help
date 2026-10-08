@@ -36,5 +36,7 @@ A nézetek különböző elrendezésekkel jeleníthetők meg. További elrendez�
 	- Fájlok megjelenítése listaként felsorolásjelekkel vagy számozott jelölőkkel.
 - [[Kártyák nézet|Kártyák]]
 	- Fájlok megjelenítése rácsként. Lehetővé teszi galéria-szerű nézetek létrehozását képekkel.
+- [[Kanban nézet|Kanban]]
+	- Fájlok megjelenítése kártyákként, amelyek egy csoportosított tulajdonság alapján oszlopokba vannak rendezve.
 - [[Térkép nézet|Térkép]]
 	- Fájlok megjelenítése jelölőtűkként egy interaktív térképen.

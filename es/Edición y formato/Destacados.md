@@ -83,14 +83,14 @@ Para definir un recuadro personalizado, crea el siguiente bloque CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 El valor del atributo `data-callout` es el identificador de tipo que deseas usar, por ejemplo `[!custom-question-type]`.
 
-- `--callout-color` define el color de fondo usando números (0–255) para rojo, verde y azul.
+- `--callout-color` define el color de fondo. Cualquier color CSS válido funciona, por ejemplo un código hexadecimal (`#000000`) o un valor `rgb()`.
 - `--callout-icon` puede ser un ID de icono de [lucide.dev](https://lucide.dev), o un elemento SVG.
 
 > [!warning] Nota sobre las versiones de iconos de lucide
@@ -103,6 +103,28 @@ El valor del atributo `data-callout` es el identificador de tipo que deseas usar
 > ```css
 > --callout-icon: '<svg>...svg personalizado...</svg>';
 > ```
+
+> [!tip]- Personalización adicional
+> No estás limitado a `--callout-color` y `--callout-icon`. Los recuadros soportan selectores y propiedades CSS estándar, junto con variables CSS adicionales para cosas como el borde y el estilo del título.
+> 
+> Por ejemplo, ocultar el título de un recuadro:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> O ajustar su borde:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Consulta la lista completa de [variables CSS de recuadros](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) para más opciones.
 
 ### Tipos soportados
 

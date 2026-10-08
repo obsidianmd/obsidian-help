@@ -1,7 +1,9 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
-Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Roam Research bằng [[Trình nhập|plugin Trình nhập]]. Công cụ này sẽ chuyển đổi dữ liệu Roam của bạn sang các tệp Markdown bền vững, mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
+Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Roam Research bằng [[Trình nhập|plugin Trình nhập]]. Công cụ này sẽ chuyển đổi dữ liệu Roam của bạn sang các tệp Markdown bền vững mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
 
 ## Xuất dữ liệu từ Roam Research
 
@@ -22,7 +24,13 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 6. Chọn vị trí của tệp `.json` của bạn.
 7. Trong **Thư mục đầu ra**, chọn nơi bạn muốn nhập các tệp.
 8. Nếu bạn muốn nhập cả tệp đính kèm, bật **Tải xuống tất cả tệp đính kèm**.
-9. Nhấp **Nhập** và đợi cho đến khi quá trình nhập hoàn tất.
-10. Hoàn thành!
+9. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ các trang của bạn.
+10. Chọn **Nhập** một lần nữa và đợi cho quá trình nhập hoàn tất.
 
 ![[Roam-Importer-importing.png]]
+
+## Mẫu
+
+Sử dụng [[Mẫu trình nhập|Mẫu Trình nhập]] để cấu hình đầy đủ cách dữ liệu Roam Research của bạn được nhập.
+
+![[Mẫu trình nhập#Variables]]

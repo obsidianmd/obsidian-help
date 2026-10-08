@@ -83,14 +83,14 @@ Bạn có thể lồng khung ghi chú trong nhiều cấp độ.
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Giá trị của thuộc tính `data-callout` là định danh loại bạn muốn sử dụng, ví dụ `[!custom-question-type]`.
 
-- `--callout-color` định nghĩa màu nền sử dụng các số (0–255) cho đỏ, xanh lá và xanh dương.
+- `--callout-color` định nghĩa màu nền. Bất kỳ giá trị màu CSS hợp lệ nào đều hoạt động, ví dụ mã hex (`#000000`) hoặc giá trị `rgb()`.
 - `--callout-icon` có thể là ID biểu tượng từ [lucide.dev](https://lucide.dev), hoặc một phần tử SVG.
 
 > [!warning] Lưu ý về phiên bản biểu tượng lucide
@@ -103,6 +103,28 @@ Giá trị của thuộc tính `data-callout` là định danh loại bạn mu�
 > ```css
 > --callout-icon: '<svg>...custom svg...</svg>';
 > ```
+
+> [!tip]- Tùy chỉnh nâng cao
+> Bạn không bị giới hạn ở `--callout-color` và `--callout-icon`. Khung ghi chú hỗ trợ các bộ chọn và thuộc tính CSS tiêu chuẩn, cùng với các biến CSS bổ sung cho những thứ như đường viền và kiểu tiêu đề.
+> 
+> Ví dụ, ẩn tiêu đề của một khung ghi chú:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Hoặc điều chỉnh đường viền:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Xem danh sách đầy đủ các [biến CSS cho khung ghi chú](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) để biết thêm tùy chọn.
 
 ### Các loại được hỗ trợ
 

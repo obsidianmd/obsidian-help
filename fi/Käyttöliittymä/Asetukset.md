@@ -10,11 +10,11 @@ Asetuksilla voit mukauttaa Obsidian-kokemustasi. Määritä yleiset asetukset, m
 
 ### Työpöytäversio
 
-Valitse [[Sivupalkki#Avaa piilotetut sivupalkit|vasemmasta sivupalkista]] **[[Asetukset]]** ![[lucide-cog.svg#icon]]. Voit avata asetukset myös [[Komentovalikko|komentovalikolla]].
+Valitse [[Sivupalkki#Avaa piilotetut sivupalkit|sivupalkista]] **[[Asetukset]]** ![[lucide-cog.svg#icon]]. Voit avata asetukset myös [[Komentovalikko|komentovalikolla]].
 
 ### Mobiiliversio
 
-Valitse vasemmasta sivupalkista **[[Asetukset]]** ![[lucide-cog.svg#icon]].
+Valitse sivupalkista **[[Asetukset]]** ![[lucide-cog.svg#icon]]. Asetukset avautuvat sovelluksen päälle.
 
 ## Asetusten rakenne
 
@@ -187,6 +187,8 @@ Minne luodut muistiinpanot laitetaan. Vaihtoehdot ovat:
 - **Sama kansio kuin nykyisellä tiedostolla** — Muistiinpanot luodaan samaan kansioon kuin tällä hetkellä aktiivinen muistiinpano.
 - **Alla määritelty kansio** — Muistiinpanot luodaan valitsemaasi kansioon.
 
+Tämä asetus ei päde, kun [[Sisäiset linkit|sisäinen linkki]] sisältää kansiopolun. Esimerkiksi `[[Projektit/Kolme liikelakia]]` luo muistiinpanon `Projektit`-kansioon suhteessa holvin juureen.
+
 ### Uusien liitteiden oletussijainti
 
 Minne lisätyt [[Liitteet|liitteet]] sijoitetaan. Vaihtoehdot ovat:
@@ -292,9 +294,11 @@ Aseta kirjasin tasalevyiselle sisällölle, kuten koodilohkoille ja alkulehdille
 
 Kirjasimen koko pikseleissä. Vaikuttaa muokkaus- ja lukunäkymiin. Säädä liukusäätimellä.
 
+Kirjasinkoko tallennetaan erikseen jokaiselle laitteelle eikä synkronoidu [[Johdanto Obsidian Synciin|Obsidian Syncin]] kautta. Mobiililaitteilla teksti ja käyttöliittymän elementit skaalautuvat myös järjestelmän tekstikokoasetusten mukaan, mukaan lukien esteettömyyskoot.
+
 #### Nopea kirjasinkoon säätö
 
-Säädä kirjasinkokoa `Ctrl+vieritys` (Windows/Linux) tai `Cmd+vieritys` (macOS) -yhdistelmällä, tai ohjauslevyn nipistyseleellä.
+Säädä kirjasinkokoa `Ctrl+vieritys` (Windows/Linux) tai `Cmd+vieritys` (macOS) -yhdistelmällä, tai ohjauslevyn nipistyseleellä. Voit myös käyttää komentoja **Suurenna fonttikokoa** ja **Pienennä fonttikokoa** [[Komentovalikko|komentovalikosta]] tai asettaa niille [[Pikanäppäimet|pikanäppäimet]].
 
 ### Käyttöliittymä
 

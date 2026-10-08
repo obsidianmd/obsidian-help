@@ -3,6 +3,8 @@ permalink: import/roam
 aliases:
   - Import fra Roam Research
   - Import af noter/Import fra Roam Research
+cssclasses:
+  - soft-embed
 ---
 Obsidian gør det nemt at migrere dine noter fra Roam Research ved hjælp af [[Importér|Importer-pluginet]]. Dette vil konvertere dine Roam-data til holdbare Markdown-filer, som du kan bruge med Obsidian og mange andre applikationer.
 

@@ -145,6 +145,23 @@ Formatering kan tvingas att visas som oformaterad text genom att lägga till ett
 \**Den här raden kommer att vara kursiv och visa asteriskerna*\*
 ```
 
+### Markeringsfärger
+
+Markeringar stödjer sex färger. Lägg till en färgemoji direkt efter den inledande `==`:
+
+| Färg   | Exempel               |
+| ------ | --------------------- |
+| Röd    | `==🔴Viktigt==`       |
+| Orange | `==🟠Följ upp==`      |
+| Gul    | `==🟡Kom ihåg detta==`|
+| Grön   | `==🟢Klart==`         |
+| Blå    | `==🔵Referens==`      |
+| Lila   | `==🟣Idé==`           |
+
+Utan en färgemoji använder markeringen ditt temas standardmarkeringsfärg.
+
+Du kan också välja en färg från formateringsmenyn. Att skriva `==` i redigeraren föreslår markeringsfärger. I [[Vyer och redigeringsläge#Live-förhandsvisning|Live-förhandsvisning]] visas en färgruta om du placerar markören inuti en markering. Välj färgrutan för att ändra färg.
+
 ## Interna länkar
 
 Obsidian stödjer två format för [[Interna länkar]] mellan anteckningar:

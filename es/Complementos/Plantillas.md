@@ -84,7 +84,7 @@ tags:
 1. En el menú de cinta, selecciona **Insertar plantilla**.
 2. Selecciona la plantilla para insertar en la posición del cursor en la nota activa.
 
-Para insertar una plantilla usando la [[Paleta de comandos]] o [[Atajos de teclado#Configurar un atajo de teclado|un atajo de teclado personalizado]], usa el comando `Plantillas: Insertar plantilla`.
+Para insertar una plantilla usando la [[Paleta de comandos]] o [[Teclas de acceso rápido#Configurar un atajo de teclado|un atajo de teclado personalizado]], usa el comando `Plantillas: Insertar plantilla`.
 
 El contenido de la plantilla se inserta en la posición actual del cursor. Si tu cursor no está en el cuerpo de la nota, el contenido se inserta en la última posición del cursor.
 

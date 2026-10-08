@@ -1,4 +1,5 @@
 // Locale UI strings — Hungarian
+window.LANG_SWITCHER_STRINGS = { search: "Nyelv váltása...", noResults: "Nincs találat" };
 (function () {
   function apply() {
     var el;

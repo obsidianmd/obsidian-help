@@ -27,7 +27,7 @@ Deweloperzy pracujący w niepełnym wymiarze, którzy pomagają tworzyć Obsidia
 
 Współtwórcy procesu recenzji wtyczek/motywów [społeczności](https://community.obsidian.md/) oraz narzędzi.
 
-- Fevol
+- Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
@@ -72,7 +72,7 @@ Podziękowania dla poniższych twórców wtyczek, którzy wprowadzili funkcjonal
 - jstone za utrzymywanie naszych kompilacji na Flathub
 - adamgibbins i ran-dall za utrzymywanie naszych kompilacji na homebrew
 
-## Tłumacze
+## Interpretere
 
 Zobacz również pełną listę [współtwórców tłumaczeń](https://github.com/obsidianmd/obsidian-translations/graphs/contributors?from=7%2F31%2F2020).
 
@@ -110,11 +110,11 @@ Organizacje wspierające Obsidian dzięki [[Licencja komercyjna|licencji komercy
 
 ## Dokumentacja
 
-Pierwsza wersja skarbca pomocy została napisana przez Silver. Późniejsza część została napisana przez [@mediapathic](http://mediapathic.net), z dużą pomocą Reggiego. Otrzymaliśmy również poprawki od wielu par oczu ze społeczności Discord i forum.
+Pierwsza wersja sejfu pomocy została napisana przez Silver. Późniejsza część została napisana przez [@mediapathic](http://mediapathic.net), z dużą pomocą Reggiego. Otrzymaliśmy również poprawki od wielu par oczu ze społeczności Discord i forum.
 
 Dokumentacja była przez pewien czas utrzymywana przez [Marcusa Olssona](https://marcus.se.net/). Obecnie jest utrzymywana przez zespół Obsidian.
 
-Przyjmujemy teraz pull requesty do skarbca pomocy w [naszym repozytorium dokumentacji](https://github.com/obsidianmd/obsidian-docs/). Zgłoszenia problemów są mile widziane.
+Przyjmujemy teraz pull requesty do sejfu pomocy w [naszym repozytorium dokumentacji](https://github.com/obsidianmd/obsidian-docs/). Zgłoszenia problemów są mile widziane.
 
 ### Dodaj swoje imię
 
@@ -145,7 +145,7 @@ Licencjonowane na podstawie [Mozilla Public License wersja 2.0](http://mozilla.o
 
 ### Electron
 
-Wersja `37.3.0`
+Wersja `43.1.1`
 Licencja MIT
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -172,13 +172,13 @@ Apache License 2.0
 
 ### Mermaid
 
-Wersja `11.4.1`
+Wersja `11.13.0`
 Licencja MIT
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Wersja `2.29.4`
+Wersja `2.30.1`
 Licencja MIT
 Copyright (c) JS Foundation and other contributors
 

@@ -12,6 +12,7 @@ Voit kehittää [[Yhteisön lisäosat|yhteisön lisäosia]] ja [[Teemat|teemoja]
 Obsidian kehittää ja ylläpitää useita avoimen lähdekoodin projekteja. Voit lähettää pull requesteja virhekorjauksilla ja parannuksilla seuraaviin GitHub-repositorioihin:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), avoin tiedostomuoto äärettömän valkotaulun datalle.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), mallinnekieli Markdownin generointiin.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), lisäosa joka muuntaa dataa monista eri muodoista Markdown-tekstitiedostoiksi.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), lisäosa joka näyttää karttoja Obsidianin kannoissa.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), selainlaajennus verkkosivujen korostamiseen ja tallentamiseen Markdown-tekstitiedostoiksi.

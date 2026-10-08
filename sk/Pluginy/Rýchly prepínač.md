@@ -18,9 +18,8 @@ Existuje niekoľko spôsobov, ako otvoriť rýchly prepínač, keď je povolený
 3. Pomocou šípok na klávesnici prejdite na požadovanú poznámku.
 4. Stlačte `Enter` na otvorenie vybranej poznámky.
 
-> [!info] 
-> Funkcia automatického dopĺňania prepne na jednoduchší algoritmus výsledkov, keď trezor dosiahne 10 000 položiek, aby sa zachoval optimálny výkon aplikácie. 
-^search-autocomplete-large
+> [!info] Fuzzy vyhľadávanie
+> Návrhy súborov zodpovedajú písmenám v poradí, aj keď niektoré preskočíte. Napríklad `dp` môže zodpovedať `Denná poznámka`.
 
 Ak text nezodpovedá žiadnym poznámkam, môžete stlačiť `Enter` na vytvorenie poznámky s daným názvom. Aj keď text zodpovedá jednej alebo viacerým podobným poznámkam, stále môžete vytvoriť poznámku s presným názvom stlačením `Shift+Enter`.
 

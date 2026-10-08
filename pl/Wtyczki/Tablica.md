@@ -1,4 +1,5 @@
 ---
+description: Canvas to wbudowana wtyczka do wizualnego tworzenia notatek. Rozmieszczaj i łącz notatki, obrazy oraz inne pliki w przestrzeni 2D.
 permalink: plugins/canvas
 ---
 Canvas to [[Wbudowane wtyczki|wbudowana wtyczka]] do wizualnego tworzenia notatek. Zapewnia nieskończoną przestrzeń do rozmieszczania notatek i łączenia ich z innymi notatkami, załącznikami i stronami internetowymi.
@@ -16,14 +17,14 @@ Aby rozpocząć korzystanie z Canvas, najpierw musisz utworzyć plik do przechow
 1. Otwórz [[Lista poleceń|paletę poleceń]].
 2. Wybierz **Canvas: Stwórz nową tablicę**, aby utworzyć tablicę w tym samym folderze co aktywny plik.
 
-**Eksplorator plików:**
+**Przeglądarka plików:**
 
-- W [[Eksplorator plików|eksploratorze plików]] kliknij prawym przyciskiem myszy folder, w którym chcesz utworzyć tablicę.
+- W [[Przeglądarka plików|przeglądarce plików]] kliknij prawym przyciskiem myszy folder, w którym chcesz utworzyć tablicę.
 - Wybierz **Nowa tablica**.
 
 **Wstążka:**
 
-- W pionowym menu wstążkowym wybierz **Stwórz nową tablicę** ![[lucide-layout-dashboard.svg#icon]], aby utworzyć tablicę w tym samym folderze co aktywny plik.
+- W pionowej wstążce wybierz **Stwórz nową tablicę** ![[lucide-layout-dashboard.svg#icon]], aby utworzyć tablicę w tym samym folderze co aktywny plik.
 
 > [!note] Rozszerzenie pliku .canvas
 > Obsidian przechowuje dane tablicy jako pliki `.canvas` przy użyciu otwartego formatu plików o nazwie [JSON Canvas](https://jsoncanvas.org/).
@@ -52,7 +53,7 @@ Aby przekonwertować kartę tekstową na plik:
 
 ### Dodawanie kart z notatek
 
-Aby dodać notatkę ze skarbca do tablicy:
+Aby dodać notatkę ze sejfu do tablicy:
 
 1. Wybierz lub przeciągnij ikonę dokumentu na dole tablicy.
 2. Wybierz notatkę, którą chcesz dodać.
@@ -62,11 +63,11 @@ Możesz również dodać notatki z menu kontekstowego tablicy:
 1. Kliknij prawym przyciskiem myszy tablicę, a następnie wybierz **Dodaj notatkę z sejfu**.
 2. Wybierz notatkę, którą chcesz dodać.
 
-Możesz też dodać je do tablicy, przeciągając plik z [[Eksplorator plików|eksploratora plików]].
+Możesz też dodać je do tablicy, przeciągając plik z [[Przeglądarka plików|przeglądarki plików]].
 
 ### Dodawanie kart z multimediów
 
-Aby dodać multimedia ze skarbca do tablicy:
+Aby dodać multimedia ze sejfu do tablicy:
 
 1. Wybierz lub przeciągnij ikonę pliku obrazu na dole tablicy.
 2. Wybierz plik multimedialny, który chcesz dodać.
@@ -76,7 +77,7 @@ Możesz również dodać multimedia z menu kontekstowego tablicy:
 1. Kliknij prawym przyciskiem myszy tablicę, a następnie wybierz **Dodaj multimedia z sejfu**.
 2. Wybierz plik multimedialny, który chcesz dodać.
 
-Możesz też dodać je do tablicy, przeciągając plik z [[Eksplorator plików|eksploratora plików]].
+Możesz też dodać je do tablicy, przeciągając plik z [[Przeglądarka plików|przeglądarki plików]].
 
 ### Dodawanie kart ze stron internetowych
 
@@ -91,7 +92,7 @@ Aby otworzyć stronę internetową w przeglądarce, naciśnij `Ctrl` (lub `Cmd` 
 
 ### Dodawanie kart z folderów
 
-Przeciągnij folder z eksploratora plików, aby dodać wszystkie pliki z tego folderu do tablicy.
+Przeciągnij folder z przeglądarki plików, aby dodać wszystkie pliki z tego folderu do tablicy.
 
 ### Edytowanie karty
 
@@ -240,6 +241,10 @@ Aby powiększyć tablicę tak, aby wszystkie zaznaczone elementy były widoczne,
 #### Zresetuj przybliżenie
 
 Aby przywrócić domyślny stopień przybliżenia, wybierz **Zresetuj przybliżenie** w kontrolkach powiększenia w prawym górnym rogu.
+
+## Osadzanie Canvas
+
+Możesz osadzić Canvas w notatce, używając standardowej składni osadzania. Więcej informacji znajdziesz w sekcji [[Osadzanie plików#Osadzanie Canvas w notatce|Osadzanie Canvas w notatce]].
 
 ## Zaawansowane wskazówki
 

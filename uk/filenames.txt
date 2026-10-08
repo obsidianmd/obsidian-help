@@ -54,6 +54,10 @@ translation=Подання
 original=Cards view
 translation=Подання картками
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Подання канбан
+
 [file.bases/views/list]
 original=List view
 translation=Подання списком
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Кодекс поведінки спільноти
+
+[file.community-directory]
+original=Community directory
+translation=Каталог спільноти
 
 [file.community-plugins]
 original=Community plugins
@@ -174,6 +182,10 @@ translation=HTML-вміст
 original=Import notes
 translation=Імпорт нотаток
 
+[file.import/airtable]
+original=Import from Airtable
+translation=Імпорт з Airtable
+
 [file.import/apple-journal]
 original=Import from Apple Journal
 translation=Імпорт з Apple Journal
@@ -206,6 +218,10 @@ translation=Імпорт з Google Keep
 original=Import HTML files
 translation=Імпорт файлів HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Імпорт з Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Імпорт файлів Markdown
@@ -222,9 +238,17 @@ translation=Імпорт з Microsoft OneNote
 original=Import from Roam Research
 translation=Імпорт з Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Шаблони імпортера
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Імпорт файлів Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Імпорт з Tomboy і Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes

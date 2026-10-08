@@ -8,7 +8,7 @@ description: 'Dowiedz się, jak linkować do notatek, załączników i innych pl
 ---
 Dowiedz się, jak tworzyć odnośniki do notatek, załączników i innych plików w swoich notatkach, używając _łączy wewnętrznych_. Łącząc notatki, możesz stworzyć sieć wiedzy. ^b15695
 
-Obsidian może automatycznie aktualizować łącza wewnętrzne w Twoim skarbcu, gdy zmienisz nazwę pliku. Jeśli wolisz, aby pojawiało się pytanie o potwierdzenie, możesz to wyłączyć w:
+Obsidian może automatycznie aktualizować łącza wewnętrzne w Twoim sejfie, gdy zmienisz nazwę pliku. Jeśli wolisz, aby pojawiało się pytanie o potwierdzenie, możesz to wyłączyć w:
 
 **[[Ustawienia]]** → **[[Ustawienia#Pliki i łącza|Pliki i łącza]]** → **[[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|Zawsze aktualizuj łącza wewnętrzne]]**.
 
@@ -20,6 +20,10 @@ Obsidian obsługuje następujące formaty łączy:
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` lub `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
 Powyższe przykłady są równoważne — wyglądają tak samo w edytorze i prowadzą do tej samej notatki.
+
+Aby utworzyć łącze do notatki w folderze, dodaj ścieżkę folderu przed nazwą notatki. Ścieżki folderów zaczynają się od katalogu głównego skarbca i używają ukośników (`/`), nawet w systemie Windows: `[[Projects/Three laws of motion]]` lub `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Jeśli łącze wskazuje na notatkę, która jeszcze nie istnieje, Obsidian utworzy notatkę w podanej ścieżce folderu zamiast używać [[Ustawienia#Domyślna lokalizacja nowej notatki|domyślnej lokalizacji nowej notatki]].
 
 > [!note] Uwaga
 > Korzystając z formatu Markdown, upewnij się, że [kodujesz URL](https://en.wikipedia.org/wiki/Percent-encoding) w miejscu docelowym łącza. Na przykład spacje stają się `%20`.
@@ -45,8 +49,6 @@ Aby utworzyć łącze w trybie edycji, użyj jednego z poniższych sposobów:
 - Wpisz `[[` w edytorze, a następnie wybierz plik, do którego chcesz utworzyć łącze.
 - Zaznacz tekst w edytorze, a następnie wpisz `[[`.
 - Otwórz [[Lista poleceń|paletę poleceń]], a następnie wybierz Łącze wewnętrzne.
-
-![[Okno szybkiego wyboru#^search-autocomplete-large]]
 
 Chociaż możesz tworzyć łącza do dowolnych [[Obsługiwane formaty plików|obsługiwanych formatów plików]], łącza do formatów innych niż Markdown muszą zawierać rozszerzenie pliku, na przykład `[[Figure 1.png]]`.
 
@@ -77,11 +79,11 @@ Możesz dodać wiele symboli hash dla każdego podnagłówka.
 
 Na przykład `[[Pomoc i wsparcie#Questions and advice#Report bugs and request features]]` utworzy łącze do [[Pomoc i wsparcie#Questions and advice#Report bugs and request features]].
 
-**Wyszukiwanie nagłówków w całym skarbcu**
+**Wyszukiwanie nagłówków w całym sejfie**
 
-Aby wyszukać nagłówki w całym skarbcu, użyj składni `[[## nagłówek]]`.
+Aby wyszukać nagłówki w całym sejfie, użyj składni `[[## nagłówek]]`.
 
-Na przykład `[[##` wyszuka ogólnie w całym skarbcu, natomiast `[[## team]]` wyszuka wszystkie nagłówki zawierające słowo _team_.
+Na przykład `[[##` wyszuka ogólnie w całym sejfie, natomiast `[[## team]]` wyszuka wszystkie nagłówki zawierające słowo _team_.
 
 > [!info]- Zrzut ekranu wyszukiwania łącza do nagłówka
 >
@@ -120,9 +122,9 @@ Dla *konkretnych wierszy na liście* identyfikator bloku można umieścić bezpo
 
 > [!warning] Nie obsługujemy łączy do konkretnych części cytatów, bloków wyróżnienia ani tabel.
 
-**Wyszukiwanie bloków w całym skarbcu**
+**Wyszukiwanie bloków w całym sejfie**
 
-Możesz także wyszukiwać bloki do linkowania z całego skarbca, używając składni `[[^^blok]]`. Jednak więcej elementów kwalifikuje się jako bloki w porównaniu z [[#Łącze do nagłówka w notatce|łączami do nagłówków]], więc ta lista będzie znacznie dłuższa.
+Możesz także wyszukiwać bloki do linkowania z całego sejfu, używając składni `[[^^blok]]`. Jednak więcej elementów kwalifikuje się jako bloki w porównaniu z [[#Łącze do nagłówka w notatce|łączami do nagłówków]], więc ta lista będzie znacznie dłuższa.
 
 > [!info]- Zrzut ekranu wyszukiwania łącza do bloku 
 > ![[link-block-heading.png#interface]]
@@ -160,14 +162,14 @@ Użyj `[Wyświetlany tekst](URL łącza)`, aby dostosować sposób wyświetlania
 - `[Niestandardowa nazwa](Example.md)` wyświetla się jako [Niestandardowa nazwa](Example.md)  
 - `[Nazwa sekcji](Example.md#Details)` wyświetla się jako [Nazwa sekcji](Example.md#Details)
 
-Ta metoda jest przydatna w jednorazowych sytuacjach, gdy chcesz zmienić wygląd łącza w określonym kontekście. Jeśli chcesz ustawić alternatywną nazwę łącza, którą możesz wielokrotnie wykorzystywać w całym skarbcu, rozważ użycie [[Aliasy|aliasu]]. 
+Ta metoda jest przydatna w jednorazowych sytuacjach, gdy chcesz zmienić wygląd łącza w określonym kontekście. Jeśli chcesz ustawić alternatywną nazwę łącza, którą możesz wielokrotnie wykorzystywać w całym sejfie, rozważ użycie [[Aliasy|aliasu]].
 
 Na przykład, jeśli regularnie odwołujesz się do `[[Three laws of motion]]` jako `[[The 3 laws]]`, dodanie „3 laws" jako aliasu pozwoli Ci wpisać tylko tę frazę — bez konieczności dodawania niestandardowego wyświetlanego tekstu za każdym razem.
 
 > [!tip] Wskazówka
 > Użyj [[#Zmiana wyświetlanego tekstu łącza|wyświetlanego tekstu łącza]], gdy chcesz dostosować wygląd łącza *w konkretnym miejscu*.  
 > 
-> Użyj [[Aliasy|aliasów]], gdy chcesz odwoływać się do tej samej notatki, używając *różnych nazw* w całym skarbcu.
+> Użyj [[Aliasy|aliasów]], gdy chcesz odwoływać się do tej samej notatki, używając *różnych nazw* w całym sejfie.
 ^callout-internal-links-link-text
 
 ## Podgląd powiązanego pliku

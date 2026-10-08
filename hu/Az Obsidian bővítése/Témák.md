@@ -8,6 +8,8 @@ Ismerje meg, hogyan változtathatja meg az Obsidian megjelenését és hangulat�
 1. Nyissa meg a **[[Beállítások]]t**.
 2. A **Megjelenés → Témák** alatt válassza a **Kezelés** lehetőséget az összes elérhető közösségi téma listázásához.
 
+Az elérhető témákat a böngészőjében is megtekintheti a [community.obsidian.md](https://community.obsidian.md) oldalon. A témák listaoldalán megjelenő információkról további részleteket a [[Közösségi könyvtár]] című cikkben talál.
+
 ## Új téma telepítése
 
 1. Nyissa meg a **[[Beállítások]]t**.

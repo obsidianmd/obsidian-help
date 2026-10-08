@@ -1484,8 +1484,6 @@ Si tens problemes executant la CLI d'Obsidian:
 
 ### Windows
 
-La CLI d'Obsidian a Windows requereix l'instal·lador d'Obsidian 1.12.7+. Consulta [[Actualitza Obsidian|Actualització de la versió de l'instal·lador]].
-
 Windows utilitza un redirector de terminal que connecta Obsidian a stdin/stdout correctament. Això és necessari perquè Obsidian normalment s'executa com una aplicació GUI que és incompatible amb les sortides de terminal a Windows. Quan instal·lis Obsidian 1.12.7+, el redirector de terminal `Obsidian.com` s'afegirà a la carpeta on has instal·lat el fitxer `Obsidian.exe`.
 
 El registre de la CLI afegeix Obsidian a la variable PATH del teu usuari, que només tindrà efecte després de reiniciar el terminal.

@@ -22,7 +22,7 @@ Ta strona wyjaśnia, jak zarządzać opublikowaną zawartością. Aby dowiedzie�
 
 ## Cofanie publikacji notatek
 
-Notatki pozostają w Twoim lokalnym skarbcu nawet po cofnięciu ich publikacji.
+Notatki pozostają w Twoim lokalnym sejfie nawet po cofnięciu ich publikacji.
 
 1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]].
 2. W oknie dialogowym **Opublikuj zmiany** wybierz **BEZ ZMIAN**, aby wyświetlić wszystkie opublikowane notatki.
@@ -54,7 +54,7 @@ Ustaw `publish: true` w [[Atrybuty|atrybutach]] notatki, aby automatycznie uwzgl
 
 Możesz również automatycznie zaznaczać notatki i powiązane obrazy w określonych folderach, dodając je jako foldery **Wybrane**:
 
-1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Publish changes...**.
+1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**.
 2. Wybierz ikonę **Ustaw filtry publikacji** ![[lucide-filter.svg#icon]].
 3. W sekcji **Wybrane foldery** wybierz **Zarządzaj**.
 4. Wybierz foldery, które chcesz uwzględnić, z podpowiedzi.
@@ -67,7 +67,7 @@ Aby zignorować notatkę w Obsidian Publish, ustaw `publish: false` w [[Atrybuty
 
 Możesz również automatycznie ignorować notatki i obrazy w określonych folderach, dodając je jako foldery **Pominięte**:
 
-1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Publish changes...**.
+1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**.
 2. Wybierz ikonę **Ustaw filtry publikacji** ![[lucide-filter.svg#icon]].
 3. W sekcji **Pominięte foldery** wybierz **Zarządzaj**.
 4. Wybierz foldery, które chcesz wykluczyć, z podpowiedzi.
