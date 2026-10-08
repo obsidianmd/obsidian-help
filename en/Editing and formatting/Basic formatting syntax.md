@@ -496,6 +496,8 @@ Use the [[Footnotes view]] to see all footnotes in a note.
 
 You can add comments by wrapping text with `%%`. Comments are only visible in Editing view.
 
+The `%%` syntax is specific to Obsidian. To hide text in other apps, use an HTML comment, `<!-- -->`. See [[Obsidian Flavored Markdown]] for how Obsidian syntax differs from standard Markdown.
+
 ```md
 This is an %%inline%% comment.
 
@@ -505,6 +507,20 @@ This is a block comment.
 Block comments can span multiple lines.
 %%
 ```
+
+An inline comment can appear anywhere in a line, including in a heading, a list item, or bold text.
+
+A block comment starts when a line begins with `%%`, and ends at the next `%%`. A block comment can include blank lines and Markdown, such as headings and lists. Obsidian hides all of it in Reading view.
+
+Text after the closing `%%` stays visible, and Obsidian renders its Markdown. For example, `%%comment%% _italic_` leaves only the word _italic_, in italics.
+
+> [!warning]+ Close every block comment
+> If you start a block comment and never close it, Reading view hides the rest of the note.
+
+> [!info]+ Keep comment markers simple
+> Keep both markers of an inline comment on one line, and start a block comment at the beginning of a line.
+
+To show `%%` as text, put it in a code span, or add a backslash before each marker.
 
 ## Escaping Markdown Syntax
 
