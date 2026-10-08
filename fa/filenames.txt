@@ -154,6 +154,10 @@ translation=قالب‌های فایل پذیرفته‌شده
 original=Financial contributions
 translation=مشارکت‌های مالی
 
+[file.find-and-replace]
+original=Find and replace
+translation=یافتن و جایگزین کردن
+
 [file.folding]
 original=Folding
 translation=تا کردن

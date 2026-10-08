@@ -37,7 +37,7 @@ Su desktop, è anche possibile fare clic con il tasto destro sulla scheda della 
 
 ### Trova
 
-- **Trova...** e **Sostituisci...** cercano testo nella nota e lo sostituiscono. Vedi [[Find and replace]].
+- **Trova...** e **Sostituisci...** cercano testo nella nota e lo sostituiscono. Vedi [[Trova e sostituisci]].
 
 ### Percorsi, cronologia e viste collegate
 

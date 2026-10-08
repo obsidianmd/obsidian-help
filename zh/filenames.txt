@@ -158,6 +158,10 @@ translation=支持的文件格式
 original=Financial contributions
 translation=捐赠
 
+[file.find-and-replace]
+original=Find and replace
+translation=查找与替换
+
 [file.folding]
 original=Folding
 translation=折叠

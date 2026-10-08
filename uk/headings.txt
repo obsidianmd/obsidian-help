@@ -3969,3 +3969,15 @@ translation=Меню вкладки
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Мобільний
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Відкриття пошуку та заміни
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Пошук збігів
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Заміна збігів

@@ -44,6 +44,16 @@ Hành động `open` mở một kho Obsidian, hoặc mở một tệp trong kho 
 > [!tip] Mở một tiêu đề hoặc khối
 > Với mã hóa URI đúng cách, bạn có thể điều hướng đến một tiêu đề hoặc khối trong ghi chú. `Note%23Heading` sẽ điều hướng đến tiêu đề có tên "Heading", trong khi `Note%23%5EBlock` sẽ điều hướng đến khối có tên "Block".
 
+### Sao chép URL Obsidian
+
+Obsidian có thể tạo URI `open` cho ghi chú đang hoạt động, vì vậy bạn không cần phải tự viết. Ứng dụng gọi đây là URL Obsidian. Nó bao gồm tên kho và đường dẫn đến ghi chú.
+
+Bạn có thể sao chép URL Obsidian bằng bất kỳ cách nào sau đây.
+
+- Trong [[Bảng lệnh]], chọn **Sao chép URL Obsidian cho tệp hiện tại**.
+- Trong ghi chú, chọn **Tùy chọn khác** ![[lucide-more-horizontal.svg#icon]], và sau đó chọn **Sao chép đường dẫn → dưới dạng URL Obsidian**. Xem [[Menu tùy chọn khác]].
+- Trên desktop, nhấp chuột phải vào một tệp trong [[Trình khám phá tệp]], và sau đó chọn **Sao chép đường dẫn → dưới dạng URL Obsidian**.
+
 ### Tham số
 
 - `vault` có thể là tên kho hoặc ID kho[^1].

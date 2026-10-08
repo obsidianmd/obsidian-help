@@ -37,7 +37,7 @@ A l'escriptori, també pots fer clic dret a la pestanya de la nota. Aquest menú
 
 ### Cerca
 
-- **Cerca...** i **Reemplaça...** cerquen text a la nota i el substitueixen. Consulta [[Find and replace]].
+- **Cerca...** i **Reemplaça...** cerquen text a la nota i el substitueixen. Consulta [[Cerca i reemplaça]].
 
 ### Rutes, historial i vistes enllaçades
 

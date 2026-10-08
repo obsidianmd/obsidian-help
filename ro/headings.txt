@@ -173,3 +173,15 @@ translation=Meniul filei
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Mobil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Deschide căutare și înlocuire
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Găsește potriviri
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Înlocuiește potriviri

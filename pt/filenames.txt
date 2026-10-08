@@ -154,6 +154,10 @@ translation=Formatos de ficheiro aceites
 original=Financial contributions
 translation=Contribuições financeiras
 
+[file.find-and-replace]
+original=Find and replace
+translation=Encontrar e substituir
+
 [file.folding]
 original=Folding
 translation=Recolher

@@ -24,7 +24,7 @@ For at oprette en ny note i standardplaceringen for nye noter:
 2. Skriv navnet på noten og tryk derefter `Enter`
 
 > [!tip]- Ændr standardplacering
-> Du kan ændre standardplaceringen for nye noter under **[[Indstillinger|Indstillinger]]** → **[[Indstillinger#Files and links|Filer og links]]** → **[[Indstillinger#Default location for new notes|Standardplacering for nye noter]]**.
+> Du kan ændre standardplaceringen for nye noter under **[[Indstillinger|Indstillinger]]** → **[[Indstillinger#Filer og links|Filer og links]]** → **[[Indstillinger#Standardplacering for nye noter|Standardplacering for nye noter]]**.
 
 For at oprette en ny note i en specifik mappe skal du:
 

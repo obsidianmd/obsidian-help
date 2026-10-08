@@ -809,3 +809,15 @@ translation=Menu karty
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Mobilní zařízení
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Otevření funkce Najít a nahradit
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Nalezení shod
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Nahrazení shod

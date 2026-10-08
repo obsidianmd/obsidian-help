@@ -47,6 +47,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] 打开标题或块
 > 通过正确的 URI 编码，你可以导航到笔记中的某个标题或块。`Note%23Heading` 将导航到名为"Heading"的标题，而 `Note%23%5EBlock` 将导航到名为"Block"的块。
 
+### 复制 Obsidian URL
+
+Obsidian 可以为当前活动笔记生成一个 `open` URI，这样你就不必手动编写。应用将其称为 Obsidian URL，其中包含仓库名称和笔记的路径。
+
+你可以通过以下任一方式复制 Obsidian URL：
+
+- 在[[命令面板]]中，选择**复制 Obsidian URI**。
+- 在笔记中，选择**更多选项** ![[lucide-more-horizontal.svg#icon]]，然后选择**复制路径 → Obsidian URL**。参见[[更多选项菜单]]。
+- 在桌面端，右键点击[[文件浏览器]]中的文件，然后选择**复制路径 → Obsidian URL**。
+
 ### 参数
 
 - `vault` 可以是仓库名称或仓库 ID[^1]。

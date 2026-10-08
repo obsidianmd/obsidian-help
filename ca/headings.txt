@@ -1053,3 +1053,15 @@ translation=Menú de pestanya
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Mòbil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Obrir cerca i reemplaça
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Trobar coincidències
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Substituir coincidències

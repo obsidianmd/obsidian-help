@@ -20,7 +20,9 @@ Parameteren `action` er den kommando, som du have udført. De tilgængelige komm
 - `open` for at åbne en note
 - `new` for at oprette en note eller tilføje til en eksisetrende note
 - `daily` for at oprette eller åbne din daglige note
+- `unique` for at oprette en ny unik note
 - `search` for at åbne søgefunktionen
+- `choose-vault` for at åbne boksadministratoren
 
 
 > [!warning] Kodning
@@ -47,6 +49,16 @@ Kommandoen `open` åbner en Obsidian boks, eller åbner en fil i boksen.
 > [!tip] Sådan åbner du en overskrift eller en blok
 > Med korrekt URI kodning, kan du navigere til en overskrift eller en blok i en note. `Note%23Overskrift` vil navigere til en overskrift kaldet "Overskrift", og `Note%23%5EBlok` vil navigere til en blok kaldet "Blok".
 
+### Kopiér en Obsidian URL
+
+Obsidian kan opbygge en `open` URI for den aktive note, så du ikke selv behøver at skrive den. Applikationen kalder dette en Obsidian URL. Den inkluderer boksens navn og stien til noten.
+
+Du kan kopiere Obsidian URL'en på følgende måder:
+
+- I [[Kommandopalet|kommandopaletten]] vælger du **Kopiér Obsidian-URL til den aktuelle fil**.
+- I noten vælger du **Flere muligheder** ![[lucide-more-horizontal.svg#icon]] og derefter **Kopiér sti → som Obsidian-URL**. Se [[Flere muligheder-menu]].
+- På desktop kan du højreklikke på en fil i [[Stifinder|stifinder]] og derefter vælge **Kopiér sti → som Obsidian-URL**.
+
 ### Parametre
 
 - `vault` kan enten være boksen navn eller dens boks ID[^1].
@@ -57,6 +69,11 @@ Kommandoen `open` åbner en Obsidian boks, eller åbner en fil i boksen.
   - Derefter vil resten af stien erstatte `file` parameteren
 - `prepend` vil tilføje til begyndelsen af tilen og flette eventuelle egenskaber
 - `append` vil tilføje til slutningen af filen og også flette eventuelle egenskaber
+- `paneType` (valgfri) bestemmer, hvor noten åbnes i brugerfladen.
+  - Hvis den ikke er angivet, erstattes den sidst aktive fane.
+  - `paneType=tab` åbn i en ny fane.
+  - `paneType=split` åbn i en ny fanegruppe.
+  - `paneType=window` åbn i et pop-out vindue (kun desktop).
 
 ## Opret note
 
@@ -75,6 +92,7 @@ Kommandoen `new` opretter en note i boksen og med valgmulighed for noget indhold
 - `name` er navnet på den fil, som skal oprettes. Filens sti vil blive valgt baseret på den standard placering for nye filer, som er angivet i Obsidians indstillinger i boksen
 - `file` er navnet inklusiv den fulde sti i boksen. Denne parameter overstyrer `name`, hvis den er specificeret
 - `path` er en absolut global sti. Virker på samme måde som `path` parameteren i `open` kommandoen, som overstyrer både `vault` og `file`
+- `paneType` (valgfri) bestemmer, hvor noten åbnes i brugerfladen. Samme som kommandoen `open`.
 - `content` (valgfri) er indholdet af noten
 - `clipboard` (valgfri) benytter indholdet af udklipsholderen i stetdet for at specificere `content`
 - `silent` (valgfri) udfører kommandoen uden at åbne den nye note
@@ -95,6 +113,25 @@ Kommandoen `daily` opretter eller åbner din daglige note. Pluginnet [[Daglige n
 
 Kommandoen `daily` accepterer de samme parametre som `new` kommandoen.
 
+## Unik note
+
+Kommandoen `unique` opretter en ny unik note i boksen. Pluginnet [[Plugins/Unik noteopretter|Unik noteopretter]] skal være aktiveret.
+
+### Eksempler
+
+- `obsidian://unique?vault=min%20boks`
+  Denne kommando åbner boksen `min boks` og opretter en ny unik note.
+- - `obsidian://unique?vault=min%20boks&content=Hello%20World`
+  Denne kommando åbner boksen `min boks` og opretter en ny unik note med indholdet `Hello World`.
+
+### Parametre
+
+- `vault` kan enten være navnet på en boks eller boksens ID[^1]. Samme som kommandoen `open`.
+- `paneType` (valgfri) bestemmer, hvor noten åbnes i brugerfladen. Samme som kommandoen `open`.
+- `content` (valgfri) er indholdet af noten.
+- `clipboard` (valgfri) benytter indholdet af udklipsholderen i stedet for at specificere `content`.
+- `x-success` (valgfri) se [[#Benyt x-callback-url parametre]].
+
 ## Åbn søgning
 
 Kommandoen `search` åbner [[Søg|søgning]] i den specificerede boks og udfører en søgning, hvis en er specificeret.
@@ -110,6 +147,14 @@ Kommandoen `search` åbner [[Søg|søgning]] i den specificerede boks og udføre
 
 - `vault` kan enten være navnet på boksen eller dens ID[^1]. Har samme kommandoer som kommandoen `open`
 - `query` (valgfri) Den søgning, som skal foretages
+
+## Åbn boksadministratoren
+
+Kommandoen `choose-vault` åbner [[Administrer bokse|boksadministratoren]].
+
+### Eksempler
+
+- `obsidian://choose-vault`
 
 ## Integration med Hook
 

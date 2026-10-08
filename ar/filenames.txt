@@ -154,6 +154,10 @@ translation=تنسيقات الملفات المقبولة
 original=Financial contributions
 translation=المساهمات المالية
 
+[file.find-and-replace]
+original=Find and replace
+translation=بحث و استبدل
+
 [file.folding]
 original=Folding
 translation=الطي

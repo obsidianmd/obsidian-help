@@ -37,7 +37,7 @@ Masaüstünde, notun sekmesine sağ tıklayabilirsiniz. Bu menü aynı öğeleri
 
 ### Bulma
 
-- **Bul...** ve **Değiştir...**, notta metin arar ve değiştirir. Bkz. [[Find and replace]].
+- **Bul...** ve **Değiştir...**, notta metin arar ve değiştirir. Bkz. [[Ara ve yer değiştir]].
 
 ### Yollar, geçmiş ve bağlantılı görünümler
 

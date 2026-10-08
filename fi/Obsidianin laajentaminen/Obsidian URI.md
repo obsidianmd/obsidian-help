@@ -44,6 +44,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] Avaa otsikko tai lohko
 > Oikean URI-koodauksen avulla voit navigoida muistiinpanon otsikkoon tai lohkoon. `Note%23Heading` navigoisi otsikkoon "Heading", kun taas `Note%23%5EBlock` navigoisi lohkoon nimeltä "Block".
 
+### Kopioi Obsidian-osoite
+
+Obsidian voi muodostaa `open`-URI:n aktiiviselle muistiinpanolle, joten sinun ei tarvitse kirjoittaa sitä itse. Sovellus kutsuu tätä Obsidian-osoitteeksi. Se sisältää holvin nimen ja polun muistiinpanoon.
+
+Voit kopioida Obsidian-osoitteen millä tahansa seuraavista tavoista:
+
+- Valitse [[Komentovalikko|komentovalikosta]] **Kopioi Obsidian-osoite**.
+- Valitse muistiinpanossa **Lisää vaihtoehtoja** ![[lucide-more-horizontal.svg#icon]] ja sitten **Kopioi polku → Kopioi Obsidian-osoite**. Katso [[Lisää vaihtoehtoja -valikko]].
+- Työpöytäversiossa napsauta tiedostoa hiiren oikealla painikkeella [[Tiedostoselain|tiedostoselaimessa]] ja valitse **Kopioi polku → Kopioi Obsidian-osoite**.
+
 ### Parametrit
 
 - `vault` voi olla joko holvin nimi tai holvin tunnus[^1].

@@ -44,6 +44,16 @@ A ação `open` abre um cofre do Obsidian, ou abre um arquivo dentro desse cofre
 > [!tip] Abrir um cabeçalho ou bloco
 > Com a codificação URI adequada, você pode navegar até um cabeçalho ou bloco dentro de uma nota. `Note%23Heading` navegaria até o cabeçalho chamado "Heading", enquanto `Note%23%5EBlock` navegaria até o bloco chamado "Block".
 
+### Copiar uma URL do Obsidian
+
+O Obsidian pode construir um URI `open` para a nota ativa, para que você não precise escrevê-lo manualmente. O aplicativo chama isso de URL do Obsidian. Ela inclui o nome do cofre e o caminho para a nota.
+
+Você pode copiar a URL do Obsidian de qualquer uma destas formas.
+
+- Na [[Paleta de comandos]], selecione **Copiar URL do Obsidian para o arquivo atual**.
+- Na nota, selecione **Mais opções** ![[lucide-more-horizontal.svg#icon]], e então selecione **Copiar caminho → como URL do Obsidian**. Veja [[Menu de mais opções]].
+- No desktop, clique com o botão direito em um arquivo no [[Explorador de arquivos]], e então selecione **Copiar caminho → como URL do Obsidian**.
+
 ### Parâmetros
 
 - `vault` pode ser o nome do cofre ou a ID do cofre[^1].

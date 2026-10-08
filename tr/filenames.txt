@@ -154,6 +154,10 @@ translation=Kabul edilen dosya biçimleri
 original=Financial contributions
 translation=Finansal katkılar
 
+[file.find-and-replace]
+original=Find and replace
+translation=Ara ve yer değiştir
+
 [file.folding]
 original=Folding
 translation=Katlama

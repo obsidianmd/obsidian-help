@@ -37,7 +37,7 @@ På skrivbordet kan du även högerklicka på anteckningens flik. Den menyn har 
 
 ### Hitta
 
-- **Sök...** och **Ersätt...** söker i anteckningen efter text och ersätter den. Se [[Find and replace]].
+- **Sök...** och **Ersätt...** söker i anteckningen efter text och ersätter den. Se [[Sök och ersätt]].
 
 ### Sökvägar, historik och länkade vyer
 

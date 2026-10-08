@@ -4081,3 +4081,15 @@ translation=Tab-Menü
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Mobil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Suchen und Ersetzen öffnen
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Treffer finden
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Treffer ersetzen

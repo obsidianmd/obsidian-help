@@ -26,7 +26,7 @@ Spațiul de lucru este containerul principal pentru toate componentele care alc�
 În aplicația mobilă Obsidian, spațiul de lucru include:
 
 - [[File]], gestionate din contorul de file din [[Aplicația mobilă#Navigation bar|Bara de navigare]]
-- [[Meniul Mai multe opțiuni#Mobile|Meniul Mai multe opțiuni]] pentru însemnarea activă
+- [[Meniul Mai multe opțiuni#Mobil|Meniul Mai multe opțiuni]] pentru însemnarea activă
 - [[Bara laterală|Bare laterale]] (deschise folosind gesturi de glisare la stânga și la dreapta)
 - [[Aplicația mobilă#Navigation bar|Bara de navigare]] din partea de jos a ecranului
 - [[Panglică|Meniul panglicii]] în bara de navigare (conține acțiuni personalizabile)

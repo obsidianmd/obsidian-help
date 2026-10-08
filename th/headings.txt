@@ -4217,3 +4217,15 @@ translation=เมนูแท็บ
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=มือถือ
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=เปิดค้นหาและแทนที่
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=ค้นหาผลลัพธ์ที่ตรงกัน
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=แทนที่ผลลัพธ์ที่ตรงกัน

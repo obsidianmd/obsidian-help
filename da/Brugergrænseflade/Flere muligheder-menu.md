@@ -37,7 +37,7 @@ På desktop kan du også højreklikke på notens fane. Den menu har de samme ele
 
 ### Find
 
-- **Find...** og **Erstat...** søger i noten efter tekst og erstatter den. Se [[Find and replace]].
+- **Find...** og **Erstat...** søger i noten efter tekst og erstatter den. Se [[Find og erstat]].
 
 ### Stier, historik og linkede visninger
 

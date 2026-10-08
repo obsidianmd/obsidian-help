@@ -154,6 +154,10 @@ translation=Αποδεκτές μορφές αρχείων
 original=Financial contributions
 translation=Οικονομικές συνεισφορές
 
+[file.find-and-replace]
+original=Find and replace
+translation=Εύρεση και Αντικατάσταση
+
 [file.folding]
 original=Folding
 translation=Σύμπτυξη

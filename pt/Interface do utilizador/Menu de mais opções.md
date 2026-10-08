@@ -37,7 +37,7 @@ No computador, também pode clicar com o botão direito no separador da nota. Es
 
 ### Localizar
 
-- **Encontrar...** e **Substituir...** pesquisam texto na nota e substituem-no. Consulte [[Find and replace]].
+- **Encontrar...** e **Substituir...** pesquisam texto na nota e substituem-no. Consulte [[Encontrar e substituir]].
 
 ### Caminhos, histórico e vistas ligadas
 

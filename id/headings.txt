@@ -4165,3 +4165,15 @@ translation=Menu tab
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Seluler
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Membuka cari dan ganti
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Menemukan kecocokan
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Mengganti kecocokan

@@ -4261,3 +4261,15 @@ translation=分頁選單
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=行動版
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=開啟尋找且取代
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=尋找匹配項目
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=取代匹配項目

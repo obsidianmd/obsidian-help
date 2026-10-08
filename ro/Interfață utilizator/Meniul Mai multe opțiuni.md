@@ -37,7 +37,7 @@ Pe desktop, poți de asemenea să faci clic dreapta pe fila notiței. Acel meniu
 
 ### Căutare
 
-- **Căutați...** și **Înlocuiți...** caută text în notiță și îl înlocuiește. Vezi [[Find and replace]].
+- **Căutați...** și **Înlocuiți...** caută text în notiță și îl înlocuiește. Vezi [[Căutare și înlocuire]].
 
 ### Căi, istoric și vizualizări legate
 

@@ -37,7 +37,7 @@ Na komputerze możesz również kliknąć prawym przyciskiem myszy kartę notatk
 
 ### Znajdowanie
 
-- **Znajdź...** i **Zamień...** wyszukują tekst w notatce i zastępują go. Zobacz [[Find and replace]].
+- **Znajdź...** i **Zamień...** wyszukują tekst w notatce i zastępują go. Zobacz [[Znajdź i zamień]].
 
 ### Ścieżki, historia i połączone podglądy
 

@@ -4153,3 +4153,15 @@ translation=탭 메뉴
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=모바일
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=찾기 및 바꾸기 열기
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=일치 항목 찾기
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=일치 항목 바꾸기

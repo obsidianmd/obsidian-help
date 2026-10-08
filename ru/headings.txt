@@ -4225,3 +4225,15 @@ translation=Меню вкладки
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Мобильные устройства
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Открытие функции поиска и замены
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Поиск совпадений
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Замена совпадений

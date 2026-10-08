@@ -154,6 +154,10 @@ translation=支援的檔案格式
 original=Financial contributions
 translation=財務贊助
 
+[file.find-and-replace]
+original=Find and replace
+translation=尋找且取代
+
 [file.folding]
 original=Folding
 translation=收合

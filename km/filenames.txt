@@ -154,6 +154,10 @@ translation=ទម្រង់ឯកសារដែលទទួលយក
 original=Financial contributions
 translation=ការរួមចំណែកហិរញ្ញវត្ថុ
 
+[file.find-and-replace]
+original=Find and replace
+translation=ស្វែងរក និងជំនួស
+
 [file.folding]
 original=Folding
 translation=បត់/បង្រួម

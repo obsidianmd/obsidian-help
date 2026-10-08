@@ -154,6 +154,10 @@ translation=対応ファイル形式
 original=Financial contributions
 translation=金銭的な貢献
 
+[file.find-and-replace]
+original=Find and replace
+translation=検索かつ置換
+
 [file.folding]
 original=Folding
 translation=折りたたみ

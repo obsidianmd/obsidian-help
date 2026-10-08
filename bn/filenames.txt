@@ -154,6 +154,10 @@ translation=গ্রহণযোগ্য ফাইল ফরম্যাট
 original=Financial contributions
 translation=আর্থিক অবদান
 
+[file.find-and-replace]
+original=Find and replace
+translation=খুঁজুন এবং প্রতিস্থাপন
+
 [file.folding]
 original=Folding
 translation=ভাঁজ করা

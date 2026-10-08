@@ -177,3 +177,15 @@ translation=ট্যাব মেনু
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=মোবাইল
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=খুঁজুন এবং প্রতিস্থাপন খুলুন
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=মিল খুঁজুন
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=মিল প্রতিস্থাপন করুন

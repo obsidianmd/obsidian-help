@@ -929,3 +929,15 @@ translation=Menu do separador
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Móvel
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Abrir localizar e substituir
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Localizar correspondências
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Substituir correspondências

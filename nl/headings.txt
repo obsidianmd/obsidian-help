@@ -1497,3 +1497,15 @@ translation=Tabbladmenu
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Mobiel
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Zoeken en vervangen openen
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Overeenkomsten zoeken
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Overeenkomsten vervangen

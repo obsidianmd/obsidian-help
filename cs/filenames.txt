@@ -154,6 +154,10 @@ translation=Podporované formáty souborů
 original=Financial contributions
 translation=Finanční příspěvky
 
+[file.find-and-replace]
+original=Find and replace
+translation=Najít a nahradit
+
 [file.folding]
 original=Folding
 translation=Sbalování

@@ -37,7 +37,7 @@ Op desktop kun je ook met de rechtermuisknop op het tabblad van de notitie klikk
 
 ### Zoeken
 
-- **Vinden...** en **Vervangen...** doorzoeken de notitie op tekst en vervangen deze. Zie [[Find and replace]].
+- **Vinden...** en **Vervangen...** doorzoeken de notitie op tekst en vervangen deze. Zie [[Zoeken en vervangen]].
 
 ### Paden, geschiedenis en gelinkte weergaven
 

@@ -154,6 +154,10 @@ translation=Format file yang diterima
 original=Financial contributions
 translation=Kontribusi finansial
 
+[file.find-and-replace]
+original=Find and replace
+translation=Cari dan Ubah
+
 [file.folding]
 original=Folding
 translation=Melipat

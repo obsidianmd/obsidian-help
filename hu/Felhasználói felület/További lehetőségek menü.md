@@ -37,7 +37,7 @@ Asztali gépen a jegyzet lapjára jobb egérgombbal is kattinthatsz. Ez a menü 
 
 ### Keresés
 
-- **Keresés...** és **Csere...** szöveget keres a jegyzetben és lecseréli azt. Lásd: [[Find and replace]].
+- **Keresés...** és **Csere...** szöveget keres a jegyzetben és lecseréli azt. Lásd: [[Keresés és Csere]].
 
 ### Útvonalak, előzmények és kapcsolt nézetek
 

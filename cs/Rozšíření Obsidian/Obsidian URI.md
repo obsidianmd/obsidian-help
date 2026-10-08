@@ -44,6 +44,16 @@ Akce `open` otevře trezor Obsidian nebo otevře soubor v tomto trezoru.
 > [!tip] Otevření nadpisu nebo bloku
 > Se správným kódováním URI můžete přejít na nadpis nebo blok v rámci poznámky. `Note%23Heading` by přešel na nadpis nazvaný „Heading", zatímco `Note%23%5EBlock` by přešel na blok nazvaný „Block".
 
+### Kopírování Obsidian URL
+
+Obsidian může sestavit URI `open` pro aktivní poznámku, takže ji nemusíte psát sami. Aplikace to nazývá Obsidian URL. Obsahuje název trezoru a cestu k poznámce.
+
+Obsidian URL můžete zkopírovat některým z těchto způsobů.
+
+- V [[Paleta příkazů|paletě příkazů]] vyberte **Kopírovat Obsidian URL**.
+- V poznámce vyberte **Více možností** ![[lucide-more-horizontal.svg#icon]] a poté vyberte **Kopírovat cestu → jako Obsidian URL**. Viz [[Více možností menu]].
+- Na desktopu klikněte pravým tlačítkem na soubor v [[Průzkumník souborů|průzkumníku souborů]] a poté vyberte **Kopírovat cestu → jako Obsidian URL**.
+
 ### Parametry
 
 - `vault` může být buď název trezoru, nebo ID trezoru[^1].

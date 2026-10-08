@@ -37,7 +37,7 @@ Sur ordinateur, vous pouvez également faire un clic droit sur l'onglet de la no
 
 ### Chercher
 
-- **Chercher...** et **Remplacer...** permettent de rechercher du texte dans la note et de le remplacer. Voir [[Find and replace]].
+- **Chercher...** et **Remplacer...** permettent de rechercher du texte dans la note et de le remplacer. Voir [[Trouver et remplacer]].
 
 ### Chemins, historique et vues liées
 

@@ -37,7 +37,7 @@ No desktop, você também pode clicar com o botão direito na aba da nota. Esse 
 
 ### Buscar
 
-- **Buscar...** e **Substituir...** pesquisam texto na nota e o substituem. Veja [[Find and replace]].
+- **Buscar...** e **Substituir...** pesquisam texto na nota e o substituem. Veja [[Pesquisar e Substituir]].
 
 ### Caminhos, histórico e visualizações vinculadas
 

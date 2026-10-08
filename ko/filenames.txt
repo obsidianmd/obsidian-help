@@ -154,6 +154,10 @@ translation=지원 파일 형식
 original=Financial contributions
 translation=재정 기여
 
+[file.find-and-replace]
+original=Find and replace
+translation=찾기 및 바꾸기
+
 [file.folding]
 original=Folding
 translation=접기

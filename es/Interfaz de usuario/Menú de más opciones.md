@@ -37,7 +37,7 @@ En escritorio, también puedes hacer clic derecho en la pestaña de la nota. Ese
 
 ### Buscar
 
-- **Buscar...** y **Reemplazar...** buscan texto en la nota y lo reemplazan. Ver [[Find and replace]].
+- **Buscar...** y **Reemplazar...** buscan texto en la nota y lo reemplazan. Ver [[Buscar y reemplazar]].
 
 ### Rutas, historial y vistas enlazadas
 

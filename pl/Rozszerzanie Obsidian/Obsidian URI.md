@@ -44,6 +44,16 @@ Akcja `open` otwiera sejf Obsidian lub otwiera plik w tym sejfie.
 > [!tip] Otwieranie nagłówka lub bloku
 > Przy prawidłowym kodowaniu URI możesz nawigować do nagłówka lub bloku w notatce. `Note%23Heading` przeniesie do nagłówka o nazwie „Heading", natomiast `Note%23%5EBlock` przeniesie do bloku o nazwie „Block".
 
+### Kopiowanie adresu URL Obsidian
+
+Obsidian może wygenerować URI `open` dla aktywnej notatki, dzięki czemu nie musisz pisać go samodzielnie. Aplikacja nazywa to adresem URL Obsidian. Zawiera on nazwę sejfu i ścieżkę do notatki.
+
+Adres URL Obsidian można skopiować na dowolny z poniższych sposobów.
+
+- W [[Paleta poleceń|palecie poleceń]] wybierz **Skopiuj URL Obsidian**.
+- W notatce wybierz **Więcej opcji** ![[lucide-more-horizontal.svg#icon]], a następnie wybierz **Skopiuj ścieżkę → jako adres URL Obsidian**. Zobacz [[Menu więcej opcji]].
+- Na komputerze kliknij prawym przyciskiem myszy plik w [[Eksplorator plików|eksploratorze plików]], a następnie wybierz **Skopiuj ścieżkę → jako adres URL Obsidian**.
+
 ### Parametry
 
 - `vault` może być nazwą sejfu lub ID sejfu[^1].

@@ -4261,3 +4261,15 @@ translation=Menu karty
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Urządzenia mobilne
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Otwieranie okna znajdź i zamień
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Znajdowanie dopasowań
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Zastępowanie dopasowań

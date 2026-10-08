@@ -4265,3 +4265,15 @@ translation=Menu thẻ
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Di động
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Mở tìm kiếm và thay thế
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Tìm kết quả khớp
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Thay thế kết quả khớp

@@ -158,6 +158,10 @@ translation=Formats de fichiers acceptés
 original=Financial contributions
 translation=Contributions financières
 
+[file.find-and-replace]
+original=Find and replace
+translation=Trouver et remplacer
+
 [file.folding]
 original=Folding
 translation=Plier

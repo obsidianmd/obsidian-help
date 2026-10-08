@@ -37,7 +37,7 @@ Di desktop, Anda juga dapat mengklik kanan tab catatan. Menu tersebut memiliki i
 
 ### Cari
 
-- **Cari...** dan **Ganti...** mencari teks dalam catatan dan menggantinya. Lihat [[Find and replace]].
+- **Cari...** dan **Ganti...** mencari teks dalam catatan dan menggantinya. Lihat [[Cari dan Ubah]].
 
 ### Path, riwayat, dan tampilan tertaut
 

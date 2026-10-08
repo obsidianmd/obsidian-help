@@ -1029,3 +1029,15 @@ translation=Flikmeny
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=Mobil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Öppna sök och ersätt
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Hitta träffar
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Ersätt träffar

@@ -4297,3 +4297,15 @@ translation=标签页菜单
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=移动端
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=打开查找与替换
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=查找匹配项
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=替换匹配项

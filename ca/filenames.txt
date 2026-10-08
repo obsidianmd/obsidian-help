@@ -154,6 +154,10 @@ translation=Formats de fitxer acceptats
 original=Financial contributions
 translation=Contribucions econòmiques
 
+[file.find-and-replace]
+original=Find and replace
+translation=Cerca i reemplaça
+
 [file.folding]
 original=Folding
 translation=Plegat

@@ -1601,3 +1601,15 @@ translation=قائمة علامة التبويب
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=الهاتف المحمول
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=فتح بحث واستبدال
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=العثور على التطابقات
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=استبدال التطابقات

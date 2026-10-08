@@ -46,6 +46,16 @@ La acción `open` abre una bóveda de Obsidian, o abre un archivo dentro de esa 
 > [!tip] Abrir un encabezado o bloque
 > Con la codificación URI adecuada, puedes navegar a un encabezado o bloque dentro de una nota. `Note%23Heading` navegaría al encabezado llamado "Heading", mientras que `Note%23%5EBlock` navegaría al bloque llamado "Block".
 
+### Copiar una URL de Obsidian
+
+Obsidian puede construir un URI `open` para la nota activa, de modo que no tengas que escribirlo tú mismo. La aplicación lo llama URL de Obsidian. Incluye el nombre de la bóveda y la ruta a la nota.
+
+Puedes copiar la URL de Obsidian de cualquiera de estas formas:
+
+- En la [[Paleta de comandos]], selecciona **Copiar URL de Obsidian del archivo actual**.
+- En la nota, selecciona **Más opciones** ![[lucide-more-horizontal.svg#icon]], y luego selecciona **Copiar ruta → como URL de Obsidian**. Consulta [[Menú de más opciones]].
+- En escritorio, haz clic derecho en un archivo en el [[Explorador de archivos]], y luego selecciona **Copiar ruta → como URL de Obsidian**.
+
 ### Parámetros
 
 - `vault` puede ser el nombre de la bóveda o el ID de la bóveda[^1].

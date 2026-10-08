@@ -2745,3 +2745,15 @@ translation=ម៉ឺនុយផ្ទាំង
 [heading.more-options-menu/Mobile]
 original=Mobile
 translation=ទូរស័ព្ទចល័ត
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=បើកស្វែងរក និងជំនួស
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=ស្វែងរកការផ្គូផ្គង
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=ជំនួសការផ្គូផ្គង

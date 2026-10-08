@@ -154,6 +154,10 @@ translation=Поддерживаемые форматы файлов
 original=Financial contributions
 translation=Финансовая поддержка
 
+[file.find-and-replace]
+original=Find and replace
+translation=Найти и заменить
+
 [file.folding]
 original=Folding
 translation=Сворачивание

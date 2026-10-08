@@ -4181,3 +4181,15 @@ translation=Il proprio computer
 [heading.more-options-menu/Tab menu]
 original=Tab menu
 translation=Menu della scheda
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Aprire Trova e sostituisci
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Trovare le corrispondenze
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Sostituire le corrispondenze

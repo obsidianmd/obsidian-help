@@ -44,6 +44,16 @@ De actie `open` opent een Obsidian-kluis, of opent een bestand binnen die kluis.
 > [!tip] Een kop of blok openen
 > Met de juiste URI-codering kun je naar een kop of blok binnen een notitie navigeren. `Note%23Heading` navigeert naar de kop genaamd "Heading", terwijl `Note%23%5EBlock` navigeert naar het blok genaamd "Block".
 
+### Een Obsidian-URL kopiëren
+
+Obsidian kan een `open` URI samenstellen voor de actieve notitie, zodat je deze niet zelf hoeft te schrijven. De app noemt dit een Obsidian-URL. Deze bevat de kluisnaam en het pad naar de notitie.
+
+Je kunt de Obsidian-URL op de volgende manieren kopiëren:
+
+- In het [[Opdrachtenpalet]], selecteer **Kopieer Obsidian-URL voor huidig bestand**.
+- In de notitie, selecteer **Meer opties** ![[lucide-more-horizontal.svg#icon]], en selecteer vervolgens **Pad kopiëren → als Obsidian-URL**. Zie [[Meer opties-menu]].
+- Op de desktop, klik met de rechtermuisknop op een bestand in de [[Verkenner]], en selecteer vervolgens **Pad kopiëren → als Obsidian-URL**.
+
 ### Parameters
 
 - `vault` kan de kluisnaam of het kluis-ID zijn[^1].

@@ -37,7 +37,7 @@ Auf dem Desktop kannst du auch mit der rechten Maustaste auf den Tab der Notiz k
 
 ### Suchen
 
-- **Suchen...** und **Ersetzen...** durchsuchen die Notiz nach Text und ersetzen ihn. Siehe [[Find and replace]].
+- **Suchen...** und **Ersetzen...** durchsuchen die Notiz nach Text und ersetzen ihn. Siehe [[Suche und Ersetze]].
 
 ### Pfade, Verlauf und verlinkte Ansichten
 

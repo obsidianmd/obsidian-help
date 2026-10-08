@@ -154,6 +154,10 @@ translation=Accepterede filformater
 original=Financial contributions
 translation=Økonomiske bidrag
 
+[file.find-and-replace]
+original=Find and replace
+translation=Find og erstat
+
 [file.folding]
 original=Folding
 translation=Foldning

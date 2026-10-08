@@ -37,7 +37,7 @@ Trên máy tính, bạn cũng có thể nhấp chuột phải vào thẻ của g
 
 ### Tìm kiếm
 
-- **Tìm kiếm...** và **Thay thế...** tìm kiếm văn bản trong ghi chú và thay thế nó. Xem [[Find and replace]].
+- **Tìm kiếm...** và **Thay thế...** tìm kiếm văn bản trong ghi chú và thay thế nó. Xem [[Tìm Kiếm và Thay Thế]].
 
 ### Đường dẫn, lịch sử và chế độ xem liên kết
 

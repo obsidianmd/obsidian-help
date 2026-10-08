@@ -37,7 +37,7 @@ Na desktopu můžete také kliknout pravým tlačítkem na kartu poznámky. Toto
 
 ### Hledání
 
-- **Najít...** a **Nahradit...** prohledávají poznámku a nahrazují text. Viz [[Find and replace]].
+- **Najít...** a **Nahradit...** prohledávají poznámku a nahrazují text. Viz [[Najít a nahradit]].
 
 ### Cesty, historie a propojená zobrazení
 

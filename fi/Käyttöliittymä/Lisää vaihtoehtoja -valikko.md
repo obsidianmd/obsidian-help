@@ -37,7 +37,7 @@ Työpöytäversiossa voit myös napsauttaa muistiinpanon välilehteä hiiren oik
 
 ### Etsi
 
-- **Etsi...** ja **Korvaa...** hakevat muistiinpanosta tekstiä ja korvaavat sen. Katso [[Find and replace]].
+- **Etsi...** ja **Korvaa...** hakevat muistiinpanosta tekstiä ja korvaavat sen. Katso [[Etsi ja korvaa]].
 
 ### Polut, historia ja linkkinäkymät
 

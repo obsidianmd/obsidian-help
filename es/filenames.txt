@@ -154,6 +154,10 @@ translation=Formatos de archivo aceptados
 original=Financial contributions
 translation=Contribuciones financieras
 
+[file.find-and-replace]
+original=Find and replace
+translation=Buscar y reemplazar
+
 [file.folding]
 original=Folding
 translation=Plegado

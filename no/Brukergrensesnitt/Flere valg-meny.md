@@ -37,7 +37,7 @@ På skrivebord kan du også høyreklikke på notatets fane. Den menyen har de sa
 
 ### Finn
 
-- **Finn...** og **Erstatt...** søker i notatet etter tekst og erstatter den. Se [[Find and replace]].
+- **Finn...** og **Erstatt...** søker i notatet etter tekst og erstatter den. Se [[Finn og erstatt]].
 
 ### Stier, historikk og lenkede visninger
 
