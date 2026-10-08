@@ -39,3 +39,5 @@ Obsidian supports [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 | `- [x]`         | [[Basic formatting syntax#Task lists\|Completed task]]                |
 | `> [!note]`     | [[Callouts]]                                                          |
 | (see link)      | [[Advanced formatting syntax#Tables\|Tables]]                         |
+
+Some of these, such as internal links, comments, and highlights, are specific to Obsidian. Other Markdown apps may show them as plain text.
