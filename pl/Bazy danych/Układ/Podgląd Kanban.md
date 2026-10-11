@@ -34,15 +34,10 @@ Pliki bez wartości dla wybranej właściwości pojawiają się w kolumnie **Bra
 
 Ustawienia podglądu Kanban można skonfigurować w [[Podglądy#Ustawienia podglądu|Ustawieniach podglądu]].
 
-- Ukryj puste kolumny
 - Szerokość kolumny
 - Atrybut obrazu
 - Dopasowanie obrazu
 - Proporcje obrazu
-
-### Ukryj puste kolumny
-
-Ukrywa kolumny, które nie zawierają żadnych kart.
 
 ### Szerokość kolumny
 

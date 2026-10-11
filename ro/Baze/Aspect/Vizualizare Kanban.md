@@ -34,15 +34,10 @@ Fișierele fără o valoare pentru proprietatea selectată apar în coloana **Ni
 
 Setările vizualizării Kanban pot fi configurate în [[Afișaje#Setări vizualizare|Setări vizualizare]].
 
-- Ascunde coloanele goale
 - Lățimea coloanei
 - Proprietate imagine
 - Încadrare imagine
 - Raport de aspect imagine
-
-### Ascunde coloanele goale
-
-Ascunde coloanele care nu conțin niciun card.
 
 ### Lățimea coloanei
 

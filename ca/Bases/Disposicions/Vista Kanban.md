@@ -34,15 +34,10 @@ Els fitxers sense un valor per a la propietat seleccionada apareixen a la column
 
 La configuració de la vista Kanban es pot configurar a [[Vistes#Configuració de la vista|Configuració de la vista]].
 
-- Amagar columnes buides
 - Amplada de columna
 - Propietat d'imatge
 - Ajust de la imatge
 - Relació d'aspecte de la imatge
-
-### Amagar columnes buides
-
-Amaga les columnes que no contenen cap targeta.
 
 ### Amplada de columna
 

@@ -34,15 +34,10 @@ Les fichiers sans valeur pour la propriété sélectionnée apparaissent dans la
 
 Les paramètres de la vue Kanban peuvent être configurés dans les [[Vues#Paramètres de vue|paramètres de vue]].
 
-- Masquer les colonnes vides
 - Largeur de colonne
 - Propriété de l'image
 - Ajustement de l'image
 - Ratio d'aspect de l'image
-
-### Masquer les colonnes vides
-
-Masque les colonnes qui ne contiennent aucune carte.
 
 ### Largeur de colonne
 

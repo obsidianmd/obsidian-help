@@ -34,15 +34,10 @@ Các tệp không có giá trị cho thuộc tính đã chọn sẽ xuất hiệ
 
 Cài đặt chế độ xem Kanban có thể được cấu hình trong [[Các chế độ xem#Cài đặt chế độ xem|Cài đặt chế độ xem]].
 
-- Ẩn cột trống
 - Chiều rộng cột
 - Thuộc tính hình ảnh
 - Vừa khung hình ảnh
 - Tỷ lệ khung hình
-
-### Ẩn cột trống
-
-Ẩn các cột không chứa thẻ nào.
 
 ### Chiều rộng cột
 

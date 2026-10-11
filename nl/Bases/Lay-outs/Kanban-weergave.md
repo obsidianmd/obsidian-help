@@ -34,15 +34,10 @@ Bestanden zonder een waarde voor de geselecteerde eigenschap verschijnen in de k
 
 Kanban-weergave-instellingen kunnen worden geconfigureerd in [[Weergaven#Weergave-instellingen|Weergave-instellingen]].
 
-- Lege kolommen verbergen
 - Kolombreedte
 - Afbeeldingseigenschap
 - Afbeelding passend maken
 - Beeldverhouding van afbeelding
-
-### Lege kolommen verbergen
-
-Verbergt kolommen die geen kaarten bevatten.
 
 ### Kolombreedte
 

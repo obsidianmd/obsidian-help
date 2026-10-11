@@ -34,15 +34,10 @@ File tanpa nilai untuk properti yang dipilih akan muncul di kolom **Tidak ada ni
 
 Pengaturan tampilan Kanban dapat dikonfigurasi di [[Tampilan#Pengaturan tampilan|Pengaturan tampilan]].
 
-- Sembunyikan kolom kosong
 - Lebar kolom
 - Properti gambar
 - Penyesuaian gambar
 - Rasio aspek gambar
-
-### Sembunyikan kolom kosong
-
-Menyembunyikan kolom yang tidak berisi kartu apa pun.
 
 ### Lebar kolom
 

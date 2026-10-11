@@ -34,15 +34,10 @@ Los archivos sin un valor para la propiedad seleccionada aparecen en la columna 
 
 Los ajustes de la vista Kanban se pueden configurar en [[Vistas#Ajustes de vista|Ajustes de vista]].
 
-- Ocultar columnas vacías
 - Ancho de columna
 - Propiedad de la imagen
 - Ajustar
 - Proporción de aspecto de imagen
-
-### Ocultar columnas vacías
-
-Oculta las columnas que no contienen tarjetas.
 
 ### Ancho de columna
 

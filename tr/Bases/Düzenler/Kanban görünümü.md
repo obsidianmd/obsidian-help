@@ -34,15 +34,10 @@ Seçilen özellik için değeri olmayan dosyalar **Yok** sütununda görünür.
 
 Kanban görünümü ayarları [[Görünümler#Görünüm ayarları|Görünüm ayarları]]nda yapılandırılabilir.
 
-- Boş sütunları gizle
 - Sütun genişliği
 - Görsel özelliği
 - Görseli sığdırma
 - Görsel en-boy oranı
-
-### Boş sütunları gizle
-
-Herhangi bir kart içermeyen sütunları gizler.
 
 ### Sütun genişliği
 

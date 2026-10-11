@@ -34,15 +34,10 @@ Azok a fájlok, amelyeknek nincs értékük a kiválasztott tulajdonságnál, a 
 
 A Kanban nézet beállításai a [[Nézetek#Nézet beállítások|Nézet beállításokban]] konfigurálhatók.
 
-- Üres oszlopok elrejtése
 - Oszlop szélessége
 - Kép tulajdonság
 - Illesztés
 - Képarány
-
-### Üres oszlopok elrejtése
-
-Elrejti azokat az oszlopokat, amelyek nem tartalmaznak kártyákat.
 
 ### Oszlop szélessége
 

@@ -34,15 +34,10 @@ Súbory bez hodnoty pre vybranú vlastnosť sa zobrazujú v stĺpci **Žiadna ho
 
 Nastavenia Kanban zobrazenia je možné konfigurovať v [[Zobrazenia#Nastavenia zobrazenia|Nastaveniach zobrazenia]].
 
-- Skryť prázdne stĺpce
 - Šírka stĺpca
 - Vlastnosť obrázka
 - Prispôsobenie obrázka
 - Pomer strán obrázka
-
-### Skryť prázdne stĺpce
-
-Skryje stĺpce, ktoré neobsahujú žiadne karty.
 
 ### Šírka stĺpca
 

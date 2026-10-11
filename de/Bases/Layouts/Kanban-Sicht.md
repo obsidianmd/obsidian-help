@@ -34,15 +34,10 @@ Dateien ohne Wert für die ausgewählte Eigenschaft erscheinen in der Spalte **K
 
 Kanban-Sicht-Einstellungen können in den [[Ansichten#Sicht-Einstellungen|Sicht-Einstellungen]] konfiguriert werden.
 
-- Leere Spalten ausblenden
 - Spaltenbreite
 - Bild-Eigenschaft
 - Bildanpassung
 - Bildformat
-
-### Leere Spalten ausblenden
-
-Blendet Spalten aus, die keine Karten enthalten.
 
 ### Spaltenbreite
 

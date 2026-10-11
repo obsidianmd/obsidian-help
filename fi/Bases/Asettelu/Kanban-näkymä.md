@@ -34,15 +34,10 @@ Tiedostot, joilla ei ole arvoa valitulle määreelle, näkyvät **Ei mitään** 
 
 Kanban-näkymän asetukset voidaan määrittää kohdassa [[Näkymät#Näkymän asetukset|Näkymän asetukset]].
 
-- Piilota tyhjät sarakkeet
 - Sarakkeen leveys
 - Kuvamääre
 - Kuvan sovitus
 - Kuvasuhde
-
-### Piilota tyhjät sarakkeet
-
-Piilottaa sarakkeet, jotka eivät sisällä kortteja.
 
 ### Sarakkeen leveys
 

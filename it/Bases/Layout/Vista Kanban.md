@@ -34,15 +34,10 @@ I file senza un valore per la proprietà selezionata appaiono nella colonna **Ne
 
 Le impostazioni della vista Kanban possono essere configurate in [[Viste#Impostazioni della vista|Impostazioni della vista]].
 
-- Nascondi colonne vuote
 - Larghezza colonna
 - Proprietà immagine
 - Adattamento immagine
 - Proporzioni immagine
-
-### Nascondi colonne vuote
-
-Nasconde le colonne che non contengono schede.
 
 ### Larghezza colonna
 

@@ -34,15 +34,10 @@ Arquivos sem um valor para a propriedade selecionada aparecem na coluna **Nenhum
 
 As configurações da visualização Kanban podem ser configuradas em [[Visualizações#Configurações de visualização|Configurações de visualização]].
 
-- Ocultar colunas vazias
 - Largura da coluna
 - Propriedade de imagem
 - Ajuste de imagem
 - Proporção da imagem
-
-### Ocultar colunas vazias
-
-Oculta colunas que não contêm nenhum cartão.
 
 ### Largura da coluna
 

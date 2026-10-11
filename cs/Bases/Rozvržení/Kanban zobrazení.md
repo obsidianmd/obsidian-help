@@ -34,15 +34,10 @@ Soubory bez hodnoty pro vybranou vlastnost se zobrazí ve sloupci **Žádný**.
 
 Nastavení Kanban zobrazení lze konfigurovat v [[Zobrazení#Nastavení zobrazení|Nastavení zobrazení]].
 
-- Skrýt prázdné sloupce
 - Šířka sloupce
 - Vlastnost obrázku
 - Přizpůsobení obrázku
 - Poměr stran obrázku
-
-### Skrýt prázdné sloupce
-
-Skryje sloupce, které neobsahují žádné karty.
 
 ### Šířka sloupce
 

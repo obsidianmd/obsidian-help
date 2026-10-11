@@ -34,15 +34,10 @@ Ficheiros sem um valor para a propriedade selecionada aparecem na coluna **Nenhu
 
 As definições da vista Kanban podem ser configuradas nas [[Vistas#Definições da vista|Definições da vista]].
 
-- Ocultar colunas vazias
 - Largura da coluna
 - Propriedade da imagem
 - Ajuste da imagem
 - Proporção da imagem
-
-### Ocultar colunas vazias
-
-Oculta colunas que não contêm cartões.
 
 ### Largura da coluna
 

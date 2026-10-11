@@ -34,15 +34,10 @@ Filer uden en værdi for den valgte egenskab vises i kolonnen **Ingen**.
 
 Kanban-visningsindstillinger kan konfigureres i [[Visninger#Visningsindstillinger|Visningsindstillinger]].
 
-- Skjul tomme kolonner
 - Kolonnebredde
 - Billedegenskab
 - Billedtilpasning
 - Billedformat
-
-### Skjul tomme kolonner
-
-Skjuler kolonner, der ikke indeholder nogen kort.
 
 ### Kolonnebredde
 

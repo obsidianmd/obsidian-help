@@ -34,15 +34,10 @@ Filer utan ett värde för den valda egenskapen visas i kolumnen **Inget värde*
 
 Kanban-vyns inställningar kan konfigureras i [[Vyer#Vyinställningar|Vyinställningar]].
 
-- Dölj tomma kolumner
 - Kolumnbredd
 - Bildegenskap
 - Bildanpassning
 - Bildförhållande
-
-### Dölj tomma kolumner
-
-Döljer kolumner som inte innehåller några kort.
 
 ### Kolumnbredd
 
