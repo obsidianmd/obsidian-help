@@ -34,15 +34,10 @@ Files without a value for the selected property appear in the **None** column.
 
 Kanban view settings can be configured in [[Views#View settings|View settings]].
 
-- Hide empty columns
 - Column width
 - Image property
 - Image fit
 - Image aspect ratio
-
-### Hide empty columns
-
-Hides columns that don't contain any cards.
 
 ### Column width
 
