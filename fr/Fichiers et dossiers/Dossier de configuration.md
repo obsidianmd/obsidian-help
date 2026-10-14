@@ -12,9 +12,9 @@ Par défaut, votre dossier de configuration est nommé `.obsidian` et placé dan
 
 ## Accéder à votre dossier de configuration
 
-### Bureau
+### Ordinateur
 
-Sur bureau, le dossier `.obsidian` se trouve dans votre dossier de coffre. Vous pouvez y accéder via le gestionnaire de fichiers de votre système.
+Sur ordinateur de bureau, le dossier `.obsidian` se trouve dans le dossier de votre coffre. Vous pouvez y accéder via le gestionnaire de fichiers du système.
 
 ### Mobile
 
