@@ -65,7 +65,7 @@ Use bracket notation when a field name contains spaces, punctuation, or other sp
 
 ## Example template
 
-Here's an an example of a template using variables and [[filters]]:
+Here's an example of a template using variables and [[filters]]:
 
 ```twig
 ---
