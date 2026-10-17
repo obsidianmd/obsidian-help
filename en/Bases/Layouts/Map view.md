@@ -86,7 +86,7 @@ Let's say you want all restaurants to have the same icon on the map:
 	```
 4. Choose the `Type icon` as your marker icon in the view settings.
 
-Voilà! Now your map will display icons from the the *type* of the place, not the place itself.
+Voilà! Now your map will display icons from the *type* of the place, not the place itself.
 
 #### Colors
 
