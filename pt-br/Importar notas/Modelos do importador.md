@@ -65,7 +65,7 @@ Use notação de colchetes quando o nome de um campo contiver espaços, pontuaç
 
 ## Exemplo de modelo
 
-Aqui está um exemplo de um modelo usando variáveis e [[Filtros|filtros]]:
+Aqui está um exemplo de modelo usando variáveis e [[Filtros|filtros]]:
 
 ```twig
 ---
