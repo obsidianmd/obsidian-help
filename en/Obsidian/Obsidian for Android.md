@@ -116,7 +116,7 @@ Tiles use the same options as the matching widgets. The **Open note** tile inclu
 3. Find an Obsidian tile, then drag it to where you want it.
 4. To configure a tile, touch and hold it.
 
-Tap an unconfigured tile to open its configuration. Removing a tile clears its settings.
+The New note, Daily note, and Search tiles work as soon as you add them. Tapping one runs its action instead of opening its configuration, using the currently open vault unless you chose a specific vault. Removing a tile clears its settings.
 
 ![[android-tiles.png|400]]
 
