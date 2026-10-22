@@ -56,7 +56,7 @@ Obsidian for Android offers several widget options to quickly access your vaults
 3. Find Obsidian, then select the widget you want to add.
 
 > [!note] Note
-> Obsidian widgets can be resized and they default to 2x1. To resize a widget, tap and hold it, then drag the resizing handles.
+> Obsidian widgets can be resized and they default to 2x1. To resize a widget, touch and hold it, then drag the resizing handles.
 
 You can add multiple widgets of the same type to open different notes or run different searches.
 
