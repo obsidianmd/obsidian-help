@@ -60,8 +60,6 @@ Obsidian for Android offers several widget options to quickly access your vaults
 
 You can add multiple widgets of the same type to open different notes or run different searches.
 
-See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android widgets.
-
 ### Customizing widgets
 
 To configure a widget, touch and hold it on your home screen, then select **Edit** or **Configure**.
@@ -112,15 +110,13 @@ Tiles use the same options as the matching widgets. The **Open note** tile inclu
 ### Add a tile
 
 1. Open your notification shade, typically by swiping down from your status bar. You may need to swipe again to see more options.
-2. Select **Edit** in the Quick Settings tiles. This is usually the same section where toggles such as Wi-Fi, Bluetooth, and Orientation Lock are located.
+2. Select **Edit** in the Quick Settings tiles.
 3. Find an Obsidian tile, then drag it to where you want it.
 4. To configure a tile, touch and hold it.
 
 The New note, Daily note, and Search tiles work as soon as you add them. Tapping one runs its action instead of opening its configuration, using the currently open vault unless you chose a specific vault. Removing a tile clears its settings.
 
 ![[android-tiles.png|400]]
-
-See this [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
 
 ## App shortcuts
 
