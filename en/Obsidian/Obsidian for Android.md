@@ -6,9 +6,9 @@ aliases:
 ---
 
 The Obsidian mobile app for Android brings powerful note-taking capabilities to your Android device. You can download it from [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) or as an [APK file](https://obsidian.md/download).
-It supports Android versions 5.1 and above.
+It supports Android versions 6.0 and above.
 
-This page covers Android-specific features including widgets, Quick Settings integration, and shortcuts.
+This page covers Android-specific features including widgets, Quick Settings tiles, and shortcuts.
 
 ## Sync
 
@@ -43,61 +43,103 @@ With this option you can use [[Introduction to Obsidian Sync|Obsidian Sync]] and
 
 Obsidian for Android offers several widget options to quickly access your vaults and notes from your home screen. Available widgets include:
 
-- **Open Note** — Open a specific note
-- **New Note** — Create a new note
-- **Search** — Launch a search query
-- **Daily Note** — Open your daily note
-- **Open Obsidian** — Launch the app
+- **View note** — Show a note and its contents on your home screen. The widget renders common Markdown formatting, hides frontmatter and caps at 500 lines. Tap the widget to open the selected note.
+- **New note** — Create a new note in a vault.
+- **Daily note** — Open today's daily note.
+- **Search** — Open search in a vault.
+- **Open Obsidian** — Launch the Obsidian app.
+
+### Add a widget
+
+1. Touch and hold an empty area on your home screen.
+2. Select **Widgets**.
+3. Find Obsidian, then select the widget you want to add.
 
 > [!note] Note
-> These widgets are static, and do not show any previews of the selected note or vault.
+> Obsidian widgets can be resized and they default to 2x1. To resize a widget, tap and hold it, then drag the resizing handles.
 
-To add widgets to your home screen:
-1. Tap and hold anywhere on your home screen
-2. Select "Widgets"
-3. Find Obsidian, then select a widget that you want to use.
+You can add multiple widgets of the same type to open different notes or run different searches.
+
+See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android widgets.
+
+### Customizing widgets
+
+To configure a widget, touch and hold it on your home screen, then select **Edit** or **Configure**.
 
 > [!note] Note
-> Obsidian widgets can be resized. To resize a widget, tap and hold it, then drag the resizing handles.
+> When selecting a vault, choose one from the list, or select **Currently open vault** to use whichever vault is open when you use the widget.
+>
+> **Currently open vault** is available for the New note, Daily note, and Search widgets.
+>
+> ![[android-currently-open-vault-selection.png|400]]
 
-You can add multiple widgets of the same type to open different files or trigger different search queries. 
+**View note** widget configuration options:
 
-To configure a widget, long-press it on your home screen, then find an "Edit" or "Configure" option. This will allow you to specify the specific parameters required for that widget's on-tap action to work, like File or Path, Search Query, and Vault Name.
+![[android-view-note-configuration.png|400]]
 
-See this [Google Support article](https://support.google.com/android/answer/9450271?hl=en) for more information on Android Widgets.
+**New note** widget configuration options:
+
+![[android-new-note-configuration.png|400]]
+
+**Daily note** widget configuration options:
+
+![[android-daily-note-configuration.png|400]]
+
+**Search** widget configuration options:
+
+![[android-search-configuration.png|400]]
+
+> [!note] Upgrading from an earlier version
+> Widgets created in an earlier version may show **Tap to open Obsidian once to update**. Open Obsidian to finish updating them.
 
 ## Quick Settings tiles
 
 Requires Android 7.0 or higher.
 
-Add an Obsidian Quick Settings tile for fast access to the app from your notification shade. Works on your Home Screen and Lock Screen.
+Add an Obsidian Quick Settings tile for fast access to the app from your notification shade.
+
+- **Open note** — Open a specific note.
+- **New note** — Create a new note.
+- **Daily note** — Open today's daily note.
+- **Search** — Open search.
+- **Open Obsidian** — Launch the Obsidian app.
 
 > [!note] Note
-> Unlike app widgets, you can only add one Quick Settings tile of the same type.
+> You can add only one Quick Settings tile of each type.
 
-To add a quick settings tile to your notification shade:
+Tiles use the same options as the matching widgets. The **Open note** tile includes **Vault**, **Note**, and **Open in**, but not the View note display options.
 
-1. Access your notification shade, typically by swiping down from your status bar. Note: you may need to swipe one more time in order to see more options.
-2. In the Quick Settings tiles, select "Edit" - this is usually the same section where toggles like Wi-Fi, Bluetooth, and Orientation Lock are located.
-3. Find and select an Obsidian Quick Settings tile, then rearrange it to your liking.
-4. To configure a Quick Settings tile, tap and hold it to bring up the configuration screen.
+### Add a tile
 
-See this  [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
+1. Open your notification shade, typically by swiping down from your status bar. You may need to swipe again to see more options.
+2. Select **Edit** in the Quick Settings tiles. This is usually the same section where toggles such as Wi-Fi, Bluetooth, and Orientation Lock are located.
+3. Find an Obsidian tile, then drag it to where you want it.
+4. To configure a tile, touch and hold it.
 
-## Shortcuts
+Tap an unconfigured tile to open its configuration. Removing a tile clears its settings.
+
+![[android-tiles.png|400]]
+
+See this [Google Support article](https://support.google.com/android/answer/9083864?hl=en) for more information on Android Quick Settings.
+
+## App shortcuts
 
 Requires Android 7.1 or higher.
 
-Obsidian provides app shortcuts that can be accessed in several ways:
+Obsidian provides app shortcuts that you can access in several ways:
 
-- Long-press the Obsidian app icon
-- Drag the shortcut icon to your home screen
-- Access via the search bar on your launcher (available on most device vendors)
+- Touch and hold the Obsidian app icon.
+- Drag a shortcut to your home screen.
+- Search for Obsidian in your launcher.
 
 Available shortcuts:
 
-- **Open note** — Open a specific note in your vault
-- **Daily note** — Jump directly to today's daily note
+- **New note** — Create a new note in your vault.
+- **Manage vaults** — Open the vault chooser to switch vaults.
+- **Today** — Open today's daily note. (Requires Daily Notes core plugin)
+- **New unique note** — Create a new unique note. (Requires Unique Note Creator core plugin)
+
+![[android-app-shortcuts.png|400]]
 
 > [!note] Note
 > Shortcuts in Obsidian 1.11 are not configurable and will be overhauled in later versions to offer more dynamic options tailored to your specific notes.
