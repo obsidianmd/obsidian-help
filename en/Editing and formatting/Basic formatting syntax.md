@@ -514,6 +514,8 @@ A block comment starts when a line begins with `%%`, and ends at the next `%%`. 
 
 Text after the closing `%%` stays visible, and Obsidian renders its Markdown. For example, `%%comment%% _italic_` leaves only the word _italic_, in italics.
 
+Links and tags in a comment still count, in both inline and block comments. A link in a comment shows in the linked note's [[Backlinks]], and a tag in a comment shows in [[Tags view]], even though Reading view hides them.
+
 > [!warning]+ Close every block comment
 > If you start a block comment and never close it, Reading view hides the rest of the note.
 
