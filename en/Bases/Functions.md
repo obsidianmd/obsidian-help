@@ -150,7 +150,7 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 `any.isTruthy(): boolean`
 
 - Returns the value coerced into a boolean.
-- Example: `1.isTruthy()` returns `true`.
+- Example: `(1).isTruthy()` returns `true`.
 
 ### `isType()`
 
@@ -164,7 +164,7 @@ Functions you can use with any value. This includes strings (e.g. `"hello"`), nu
 `any.toString(): string`
 
 - Returns the string representation of any value.
-- Example: `123.toString()` returns `"123"`.
+- Example: `(123).toString()` returns `"123"`.
 
 ## Date type
 
@@ -371,7 +371,7 @@ Functions you can use with numeric values such as `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Returns true if the number is not present.
-- Example: `5.isEmpty()` returns `false`.
+- Example: `(5).isEmpty()` returns `false`.
 
 ### `round()`
 
@@ -586,14 +586,14 @@ The following fields are available for files:
 
 ## Object type
 
-Functions you can use with a collection of key-value pairs such as `{"a": 1, "b": 2}`.
+Functions you can use with object values such as `file.properties`, which contain a collection of key-value pairs.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Returns true if the object has no own properties.
-- Example: `{}.isEmpty()` returns `true`.
+- Example: `file.properties.isEmpty()` returns `true` if the file has no properties.
 
 ### `keys()`
 
