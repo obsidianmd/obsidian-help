@@ -29,4 +29,4 @@ De nombreux types de fichiers — y compris les images, l'audio, la vidéo et le
 Consultez [[Incorporer des fichiers]] pour plus d'options et de syntaxe d'intégration.
 
 > [!NOTE]
-> La prise en charge de l'audio, de la vidéo et d'autres fichiers dépend des codecs disponibles sur votre appareil.
+> La prise en charge de l'audio, de la vidéo et d'autres formats de fichiers dépend des codecs disponibles sur votre appareil.
