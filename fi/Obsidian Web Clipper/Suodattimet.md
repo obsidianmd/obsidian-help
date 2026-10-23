@@ -102,6 +102,13 @@ Poistaa tyhjät merkit merkkijonon molemmista päistä.
 
 - `"  hello world  "|trim` palauttaa `"hello world"`.
 
+### `unescape`
+
+Muuntaa suojatut lainausmerkit ja rivinvaihtosekvenssit kirjaimellisiksi merkeiksi.
+
+- `"Line 1\\nLine 2"|unescape` palauttaa tekstin kahdella rivillä.
+- `'He said \\"hello\\"'|unescape` palauttaa `He said "hello"`.
+
 ### `uncamel`
 
 Muuntaa camelCase- tai PascalCase-muodon välilyönnein erotetuiksi sanoiksi, joita voit edelleen muotoilla muilla suodattimilla kuten `title` tai `capitalize`.
@@ -145,19 +152,19 @@ Muuntaa merkkijonot ja taulukot [tekstifragmentti](https://developer.mozilla.org
 
 ### `image` 
 
-Muuntaa merkkijonot, taulukot tai objektit Markdown-kuvasynt aksiksi.
+Muuntaa merkkijonot, taulukot tai objektit Markdown-kuvasyntaksiksi.
 
 - Merkkijonoille: `"image.jpg"|image:"alt text"` palauttaa `![alt text](image.jpg)`.
 - Taulukoille: `["image1.jpg","image2.jpg"]|image:"alt text"` palauttaa taulukon Markdown-kuvamerkkijonoista samalla alt-tekstillä kaikille kuville.
-- Objekteille: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` palauttaa Markdown-kuvamerkkijonot alt-tekstillä objektin avaimista.
+- Objekteille: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` palauttaa Markdown-kuvamerkkijonot alt-tekstillä objektin arvoista.
 
 ### `link`
 
 Muuntaa merkkijonot, taulukot tai objektit Markdown-linkkisyntaksiksi (ei pidä sekoittaa [[Suodattimet#`wikilink`|wikilinkkiin]]).
 
 - Merkkijonoille: `"url"|link:"author"` palauttaa `[author](url)`.
-- Taulukoille: `["url1","url2"]|link:"author"` palauttaa taulukon Markdown-linkeistä samalla tekstillä kaikille linkeille.
-- Objekteille: `{"url1": "Author 1", "url2": "Author 2"}|link` palauttaa Markdown-linkit objektin avaimia vastaavalla tekstillä.
+- Taulukoille: `["url1","url2"]|link:"author"` palauttaa Markdown-linkit samalla tekstillä kaikille linkeille, yksi linkki per rivi.
+- Objekteille: `{"url1": "Author 1", "url2": "Author 2"}|link` palauttaa Markdown-linkit objektin arvojen tekstillä, yksi linkki per rivi.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Palauttaa merkkijonojen, taulukoiden tai objektien avainten lukumäärän.
 - Taulukoille: `["a","b","c"]|length` palauttaa `3`.
 - Objekteille: `{"a":1,"b":2}|length` palauttaa `2`.
 
+### `number_format`
+
+Muotoilee numeron määritetyllä desimaalipaikkamäärällä ja valinnaisilla desimaali- ja tuhaterottimilla.
+
+- `1234.567|number_format:2` palauttaa `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` palauttaa `"1.234,57"`.
+- Taulukot ja objektit muotoillaan rekursiivisesti.
+
 ### `round`
 
 Pyöristää numeron lähimpään kokonaislukuun tai määritettyyn desimaalitarkkuuteen.
@@ -216,6 +231,10 @@ Pyöristää numeron lähimpään kokonaislukuun tai määritettyyn desimaalitar
 ## HTML-käsittely
 
 Käsittele HTML-sisältöä ja muunna HTML Markdowniksi. Huomaa, että syöte[[Muuttujat|muuttujan]] on sisällettävä HTML-sisältöä, esim. käyttämällä `{{fullHtml}}`-, `{{contentHtml}}`- tai `{{selectorHtml:}}`-muuttujaa.
+
+### `html_to_json`
+
+Muuntaa HTML:n rakenteelliseksi JSON-muodoksi, joka sisältää jokaisen elementin tunnisteen, attribuutit ja lapsielementit. Tekstisolmut käyttävät muotoa `{"type":"text","content":"..."}`. Tätä voidaan yhdistää suodattimiin kuten `map`, `object` ja `template` poimitun HTML:n uudelleenmuotoilemiseksi.
 
 ### `markdown` 
 
@@ -255,7 +274,7 @@ Korvaa HTML-tunnisteet säilyttäen tunnisteen sisällön ja attribuutit.
 Poistaa **kaikki** HTML-attribuutit merkkijonosta.
 
 - Käytä `strip_attr:("class, id")` tiettyjen attribuuttien säilyttämiseen.
-- Esimerkki: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` palauttaa `<div id="example">Content</div>`.
+- Esimerkki: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` palauttaa `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Käsittelee objektidataa:
 - `object:values` palauttaa taulukon objektin arvoista.
 - Esimerkki: `{"a":1,"b":2}|object:array` palauttaa `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Kääntää merkkijonot, taulukot ja objektien alkioiden järjestyksen.
+
+- `"abc"|reverse` palauttaa `"cba"`.
+- `["a","b","c"]|reverse` palauttaa `["c","b","a"]`.
+
 ### `slice`
 
 Poimii osan merkkijonosta tai taulukosta.
@@ -358,7 +384,7 @@ Jakaa merkkijonon alimerkkijonojen taulukoksi.
 - `"a,b,c"|split:","` palauttaa `["a","b","c"]`.
 - `"hello world"|split:" "` palauttaa `["hello","world"]`.
 - Jos erotinta ei anneta, se jakaa jokaisen merkin kohdalta: `"hello"|split` palauttaa `["h","e","l","l","o"]`.
-- Säännöllisiä lausekkeita voidaan käyttää erottimina: `"a1b2c3"|split:[0-9]` palauttaa `["a","b","c"]`.
+- Säännöllisiä lausekkeita voidaan käyttää erottimina: `"a1b2c3"|split:[0-9]` palauttaa `["a","b","c",""]`. Viimeinen alkio on tyhjä, koska merkkijono päättyy erottimeen.
 
 ### `template`
 

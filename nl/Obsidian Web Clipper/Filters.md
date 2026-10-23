@@ -102,6 +102,13 @@ Verwijdert witruimte aan beide uiteinden van een string.
 
 - `"  hello world  "|trim` retourneert `"hello world"`.
 
+### `unescape`
+
+Converteert geëscapete aanhalingstekens en regelovergang-reeksen naar letterlijke tekens.
+
+- `"Line 1\\nLine 2"|unescape` retourneert de tekst op twee regels.
+- `'He said \\"hello\\"'|unescape` retourneert `He said "hello"`.
+
 ### `uncamel`
 
 Converteert camelCase of PascalCase naar door spaties gescheiden woorden, die je verder kunt opmaken met andere filters zoals `title` of `capitalize`.
@@ -149,15 +156,15 @@ Converteert strings, arrays of objecten naar Markdown-afbeeldingssyntaxis.
 
 - Voor strings: `"image.jpg"|image:"alt text"` retourneert `![alt text](image.jpg)`.
 - Voor arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` retourneert een array van Markdown-afbeeldingsstrings met dezelfde alt-tekst voor alle afbeeldingen.
-- Voor objecten: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retourneert Markdown-afbeeldingsstrings met alt-tekst van de objectsleutels.
+- Voor objecten: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retourneert Markdown-afbeeldingsstrings met alt-tekst van de objectwaarden.
 
 ### `link`
 
 Converteert strings, arrays of objecten naar Markdown-koppelingssyntaxis (niet te verwarren met [[Filters#`wikilink`|wikilink]]).
 
 - Voor strings: `"url"|link:"author"` retourneert `[author](url)`.
-- Voor arrays: `["url1","url2"]|link:"author"` retourneert een array van Markdown-koppelingen met dezelfde tekst voor alle koppelingen.
-- Voor objecten: `{"url1": "Author 1", "url2": "Author 2"}|link` retourneert Markdown-koppelingen met de tekst die overeenkomt met de objectsleutels.
+- Voor arrays: `["url1","url2"]|link:"author"` retourneert Markdown-koppelingen met dezelfde tekst voor alle koppelingen, één koppeling per regel.
+- Voor objecten: `{"url1": "Author 1", "url2": "Author 2"}|link` retourneert Markdown-koppelingen met de tekst van de objectwaarden, één koppeling per regel.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Retourneert de lengte van strings, arrays of het aantal sleutels in objecten.
 - Voor arrays: `["a","b","c"]|length` retourneert `3`.
 - Voor objecten: `{"a":1,"b":2}|length` retourneert `2`.
 
+### `number_format`
+
+Formatteert een getal met een opgegeven aantal decimalen en optionele decimaal- en duizendtallenscheidingstekens.
+
+- `1234.567|number_format:2` retourneert `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` retourneert `"1.234,57"`.
+- Arrays en objecten worden recursief geformatteerd.
+
 ### `round`
 
 Rondt een getal af naar het dichtstbijzijnde gehele getal of naar een opgegeven aantal decimalen.
@@ -216,6 +231,10 @@ Rondt een getal af naar het dichtstbijzijnde gehele getal of naar een opgegeven 
 ## HTML-verwerking
 
 HTML-inhoud verwerken en HTML naar Markdown converteren. Merk op dat je invoer[[Variabelen|variabele]] HTML-inhoud moet bevatten, bijv. door `{{fullHtml}}`, `{{contentHtml}}` of een `{{selectorHtml:}}`-variabele te gebruiken.
+
+### `html_to_json`
+
+Converteert HTML naar gestructureerde JSON met de tag, attributen en kinderen van elk element. Tekstnodes gebruiken het formaat `{"type":"text","content":"..."}`. Dit kan worden gecombineerd met filters zoals `map`, `object` en `template` om geëxtraheerde HTML te hervormen.
 
 ### `markdown` 
 
@@ -255,7 +274,7 @@ Vervangt HTML-tags, met behoud van de inhoud en attributen van de tag.
 Verwijdert **alle** HTML-attributen uit een string.
 
 - Gebruik `strip_attr:("class, id")` om specifieke attributen te behouden.
-- Voorbeeld: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retourneert `<div id="example">Content</div>`.
+- Voorbeeld: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retourneert `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipuleert objectgegevens:
 - `object:values` retourneert een array van de waarden van het object.
 - Voorbeeld: `{"a":1,"b":2}|object:array` retourneert `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Keert strings, arrays en de volgorde van objectitems om.
+
+- `"abc"|reverse` retourneert `"cba"`.
+- `["a","b","c"]|reverse` retourneert `["c","b","a"]`.
+
 ### `slice`
 
 Extraheert een deel van een string of array.
@@ -358,7 +384,7 @@ Deelt een string op in een array van substrings.
 - `"a,b,c"|split:","` retourneert `["a","b","c"]`.
 - `"hello world"|split:" "` retourneert `["hello","world"]`.
 - Als er geen scheidingsteken wordt opgegeven, wordt op elk teken gesplitst: `"hello"|split` retourneert `["h","e","l","l","o"]`.
-- Reguliere expressies kunnen als scheidingstekens worden gebruikt: `"a1b2c3"|split:[0-9]` retourneert `["a","b","c"]`.
+- Reguliere expressies kunnen als scheidingstekens worden gebruikt: `"a1b2c3"|split:[0-9]` retourneert `["a","b","c",""]`. Het laatste item is leeg omdat de string eindigt met een scheidingsteken.
 
 ### `template`
 

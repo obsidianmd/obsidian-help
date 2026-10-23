@@ -104,6 +104,13 @@ Rimuove gli spazi bianchi da entrambe le estremità di una stringa.
 
 - `"  hello world  "|trim` restituisce `"hello world"`.
 
+### `unescape`
+
+Converte le virgolette e le sequenze di nuova riga con escape in caratteri letterali.
+
+- `"Line 1\\nLine 2"|unescape` restituisce il testo su due righe.
+- `'He said \\"hello\\"'|unescape` restituisce `He said "hello"`.
+
 ### `uncamel`
 
 Converte camelCase o PascalCase in parole separate da spazi, che puoi formattare ulteriormente con altri filtri come `title` o `capitalize`.
@@ -151,15 +158,15 @@ Converte stringhe, array o oggetti nella sintassi immagine Markdown.
 
 - Per le stringhe: `"image.jpg"|image:"alt text"` restituisce `![alt text](image.jpg)`.
 - Per gli array: `["image1.jpg","image2.jpg"]|image:"alt text"` restituisce un array di stringhe immagine Markdown con lo stesso testo alternativo per tutte le immagini.
-- Per gli oggetti: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` restituisce stringhe immagine Markdown con testo alternativo dalle chiavi dell'oggetto.
+- Per gli oggetti: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` restituisce stringhe immagine Markdown con testo alternativo dai valori dell'oggetto.
 
 ### `link`
 
 Converte stringhe, array o oggetti nella sintassi collegamento Markdown (da non confondere con [[Filtri#`wikilink`|wikilink]]).
 
 - Per le stringhe: `"url"|link:"author"` restituisce `[author](url)`.
-- Per gli array: `["url1","url2"]|link:"author"` restituisce un array di collegamenti Markdown con lo stesso testo per tutti i collegamenti.
-- Per gli oggetti: `{"url1": "Author 1", "url2": "Author 2"}|link` restituisce collegamenti Markdown con il testo che corrisponde alle chiavi dell'oggetto.
+- Per gli array: `["url1","url2"]|link:"author"` restituisce collegamenti Markdown con lo stesso testo per tutti i collegamenti, un collegamento per riga.
+- Per gli oggetti: `{"url1": "Author 1", "url2": "Author 2"}|link` restituisce collegamenti Markdown con il testo dai valori dell'oggetto, un collegamento per riga.
 
 ### `list`
 
@@ -208,6 +215,14 @@ Restituisce la lunghezza di stringhe, array o il numero di chiavi negli oggetti.
 - Per gli array: `["a","b","c"]|length` restituisce `3`.
 - Per gli oggetti: `{"a":1,"b":2}|length` restituisce `2`.
 
+### `number_format`
+
+Formatta un numero con un numero specificato di cifre decimali e separatori opzionali per decimali e migliaia.
+
+- `1234.567|number_format:2` restituisce `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` restituisce `"1.234,57"`.
+- Array e oggetti vengono formattati ricorsivamente.
+
 ### `round`
 
 Arrotonda un numero all'intero più vicino o a un numero specificato di cifre decimali.
@@ -218,6 +233,10 @@ Arrotonda un numero all'intero più vicino o a un numero specificato di cifre de
 ## Elaborazione HTML
 
 Elabora contenuto HTML e converti HTML in Markdown. Nota che la [[Variabili|variabile]] di input deve contenere contenuto HTML, ad es. usando `{{fullHtml}}`, `{{contentHtml}}` o una variabile `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Converte HTML in JSON strutturato contenente tag, attributi e figli di ogni elemento. I nodi di testo usano il formato `{"type":"text","content":"..."}`. Può essere combinato con filtri come `map`, `object` e `template` per ristrutturare l'HTML estratto.
 
 ### `markdown`
 
@@ -257,7 +276,7 @@ Sostituisce i tag HTML, mantenendo il contenuto e gli attributi del tag.
 Rimuove **tutti** gli attributi HTML da una stringa.
 
 - Usa `strip_attr:("class, id")` per mantenere attributi specifici.
-- Esempio: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` restituisce `<div id="example">Content</div>`.
+- Esempio: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` restituisce `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -342,6 +361,13 @@ Manipola i dati degli oggetti:
 - `object:values` restituisce un array dei valori dell'oggetto.
 - Esempio: `{"a":1,"b":2}|object:array` restituisce `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Inverte stringhe, array e l'ordine delle voci degli oggetti.
+
+- `"abc"|reverse` restituisce `"cba"`.
+- `["a","b","c"]|reverse` restituisce `["c","b","a"]`.
+
 ### `slice`
 
 Estrae una porzione di una stringa o array.
@@ -360,7 +386,7 @@ Divide una stringa in un array di sottostringhe.
 - `"a,b,c"|split:","` restituisce `["a","b","c"]`.
 - `"hello world"|split:" "` restituisce `["hello","world"]`.
 - Se non viene fornito un separatore, divide su ogni carattere: `"hello"|split` restituisce `["h","e","l","l","o"]`.
-- Le espressioni regolari possono essere usate come separatori: `"a1b2c3"|split:[0-9]` restituisce `["a","b","c"]`.
+- Le espressioni regolari possono essere usate come separatori: `"a1b2c3"|split:[0-9]` restituisce `["a","b","c",""]`. L'ultimo elemento è vuoto perché la stringa termina con un separatore.
 
 ### `template`
 

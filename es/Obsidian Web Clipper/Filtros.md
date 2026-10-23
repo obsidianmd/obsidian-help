@@ -156,15 +156,15 @@ Convierte cadenas, arrays u objetos en sintaxis de imagen Markdown.
 
 - Para cadenas: `"image.jpg"|image:"alt text"` devuelve `![alt text](image.jpg)`.
 - Para arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` devuelve un array de cadenas de imagen Markdown con el mismo texto alternativo para todas las imágenes.
-- Para objetos: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` devuelve cadenas de imagen Markdown con texto alternativo de las claves del objeto.
+- Para objetos: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` devuelve cadenas de imagen Markdown con texto alternativo de los valores del objeto.
 
 ### `link`
 
 Convierte cadenas, arrays u objetos en sintaxis de enlace Markdown (no confundir con [[Filtros#`wikilink`|wikilink]]).
 
 - Para cadenas: `"url"|link:"author"` devuelve `[author](url)`.
-- Para arrays: `["url1","url2"]|link:"author"` devuelve un array de enlaces Markdown con el mismo texto para todos los enlaces.
-- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` devuelve enlaces Markdown con el texto que coincide con las claves del objeto.
+- Para arrays: `["url1","url2"]|link:"author"` devuelve enlaces Markdown con el mismo texto para todos los enlaces, un enlace por línea.
+- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` devuelve enlaces Markdown con el texto de los valores del objeto, un enlace por línea.
 
 ### `list`
 
@@ -274,7 +274,7 @@ Reemplaza etiquetas HTML, manteniendo el contenido y los atributos de la etiquet
 Elimina **todos** los atributos HTML de una cadena.
 
 - Usa `strip_attr:("class, id")` para mantener atributos específicos.
-- Ejemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` devuelve `<div id="example">Content</div>`.
+- Ejemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` devuelve `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -384,7 +384,7 @@ Divide una cadena en un array de subcadenas.
 - `"a,b,c"|split:","` devuelve `["a","b","c"]`.
 - `"hello world"|split:" "` devuelve `["hello","world"]`.
 - Si no se proporciona separador, divide en cada carácter: `"hello"|split` devuelve `["h","e","l","l","o"]`.
-- Se pueden usar expresiones regulares como separadores: `"a1b2c3"|split:[0-9]` devuelve `["a","b","c"]`.
+- Se pueden usar expresiones regulares como separadores: `"a1b2c3"|split:[0-9]` devuelve `["a","b","c",""]`. El último elemento está vacío porque la cadena termina con un separador.
 
 ### `template`
 

@@ -102,6 +102,13 @@ Eltávolítja a szóközöket a karakterlánc mindkét végéről.
 
 - `"  hello world  "|trim` eredménye `"hello world"`.
 
+### `unescape`
+
+Az escape-elt idézőjeleket és sortörés-szekvenciákat literális karakterekké alakítja.
+
+- `"Line 1\\nLine 2"|unescape` a szöveget két sorban adja vissza.
+- `'He said \\"hello\\"'|unescape` eredménye `He said "hello"`.
+
 ### `uncamel`
 
 A camelCase vagy PascalCase formátumot szóközökkel elválasztott szavakká alakítja, amelyeket további szűrőkkel, például `title` vagy `capitalize` szűrőkkel formázhat.
@@ -149,15 +156,15 @@ Karakterláncokat, tömböket vagy objektumokat Markdown kép szintaxissá alak�
 
 - Karakterláncokhoz: `"image.jpg"|image:"alt text"` eredménye `![alt text](image.jpg)`.
 - Tömbökhöz: `["image1.jpg","image2.jpg"]|image:"alt text"` Markdown kép karakterláncok tömbjét adja vissza, azonos alt szöveggel minden képhez.
-- Objektumokhoz: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` Markdown kép karakterláncokat ad vissza az objektum kulcsaiból származó alt szöveggel.
+- Objektumokhoz: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` Markdown kép karakterláncokat ad vissza az objektum értékeiből származó alt szöveggel.
 
 ### `link`
 
 Karakterláncokat, tömböket vagy objektumokat Markdown hivatkozás szintaxissá alakít (nem tévesztendő össze a [[Szűrők#`wikilink`|wikihivatkozással]]).
 
 - Karakterláncokhoz: `"url"|link:"author"` eredménye `[author](url)`.
-- Tömbökhöz: `["url1","url2"]|link:"author"` Markdown hivatkozások tömbjét adja vissza, azonos szöveggel minden hivatkozáshoz.
-- Objektumokhoz: `{"url1": "Author 1", "url2": "Author 2"}|link` Markdown hivatkozásokat ad vissza az objektum kulcsaihoz illeszkedő szöveggel.
+- Tömbökhöz: `["url1","url2"]|link:"author"` Markdown hivatkozásokat ad vissza azonos szöveggel minden hivatkozáshoz, soronként egy hivatkozás.
+- Objektumokhoz: `{"url1": "Author 1", "url2": "Author 2"}|link` Markdown hivatkozásokat ad vissza az objektum értékeiből származó szöveggel, soronként egy hivatkozás.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Visszaadja a karakterláncok, tömbök hosszát vagy az objektumok kulcsainak sz
 - Tömbökhöz: `["a","b","c"]|length` eredménye `3`.
 - Objektumokhoz: `{"a":1,"b":2}|length` eredménye `2`.
 
+### `number_format`
+
+Számot formáz megadott számú tizedesjeggyel és opcionális tizedes- és ezreselválasztóval.
+
+- `1234.567|number_format:2` eredménye `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` eredménye `"1.234,57"`.
+- Tömbök és objektumok rekurzívan kerülnek formázásra.
+
 ### `round`
 
 Számot a legközelebbi egész számra vagy megadott számú tizedesjegyre kerekít.
@@ -216,6 +231,10 @@ Számot a legközelebbi egész számra vagy megadott számú tizedesjegyre kerek
 ## HTML feldolgozás
 
 HTML tartalom feldolgozása és HTML átalakítása Markdown formátumra. Megjegyzés: a bemeneti [[Változók|változónak]] HTML tartalmat kell tartalmaznia, pl. a `{{fullHtml}}`, `{{contentHtml}}` vagy egy `{{selectorHtml:}}` változó használatával.
+
+### `html_to_json`
+
+HTML-t strukturált JSON-ná alakít, amely tartalmazza minden elem címkéjét, attribútumait és gyermekelemeit. A szöveges csomópontok a `{"type":"text","content":"..."}` formátumot használják. Ez kombinálható olyan szűrőkkel, mint a `map`, `object` és `template`, hogy átalakítsa a kinyert HTML-t.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ HTML címkéket cserél, megtartva a címke tartalmát és attribútumait.
 Eltávolítja az **összes** HTML attribútumot a karakterláncból.
 
 - Használja a `strip_attr:("class, id")` szintaxist meghatározott attribútumok megtartásához.
-- Példa: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` eredménye `<div id="example">Content</div>`.
+- Példa: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` eredménye `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Objektumadatokat manipulál:
 - `object:values` az objektum értékeinek tömbjét adja vissza.
 - Példa: `{"a":1,"b":2}|object:array` eredménye `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Megfordítja a karakterláncokat, tömböket és az objektumok bejegyzéseinek sorrendjét.
+
+- `"abc"|reverse` eredménye `"cba"`.
+- `["a","b","c"]|reverse` eredménye `["c","b","a"]`.
+
 ### `slice`
 
 Egy karakterlánc vagy tömb egy részét nyeri ki.
@@ -358,7 +384,7 @@ Karakterláncot részkarakterláncok tömbjévé oszt.
 - `"a,b,c"|split:","` eredménye `["a","b","c"]`.
 - `"hello world"|split:" "` eredménye `["hello","world"]`.
 - Ha nincs elválasztó megadva, minden karakter mentén oszt: `"hello"|split` eredménye `["h","e","l","l","o"]`.
-- Reguláris kifejezések használhatók elválasztóként: `"a1b2c3"|split:[0-9]` eredménye `["a","b","c"]`.
+- Reguláris kifejezések használhatók elválasztóként: `"a1b2c3"|split:[0-9]` eredménye `["a","b","c",""]`. Az utolsó elem üres, mert a karakterlánc elválasztóval végződik.
 
 ### `template`
 

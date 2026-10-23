@@ -102,6 +102,13 @@ Entfernt Leerzeichen an beiden Enden einer Zeichenkette.
 
 - `"  hello world  "|trim` gibt `"hello world"` zurück.
 
+### `unescape`
+
+Konvertiert maskierte Anführungszeichen und Zeilenumbruch-Sequenzen in literale Zeichen.
+
+- `"Line 1\\nLine 2"|unescape` gibt den Text auf zwei Zeilen zurück.
+- `'He said \\"hello\\"'|unescape` gibt `He said "hello"` zurück.
+
 ### `uncamel`
 
 Konvertiert camelCase oder PascalCase in durch Leerzeichen getrennte Wörter, die mit anderen Filtern wie `title` oder `capitalize` weiter formatiert werden können.
@@ -149,15 +156,15 @@ Konvertiert Zeichenketten, Arrays oder Objekte in Markdown-Bildsyntax.
 
 - Für Zeichenketten: `"image.jpg"|image:"alt text"` gibt `![alt text](image.jpg)` zurück.
 - Für Arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` gibt ein Array von Markdown-Bildzeichenketten mit demselben Alt-Text für alle Bilder zurück.
-- Für Objekte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` gibt Markdown-Bildzeichenketten mit Alt-Text aus den Objektschlüsseln zurück.
+- Für Objekte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` gibt Markdown-Bildzeichenketten mit Alt-Text aus den Objektwerten zurück.
 
 ### `link`
 
 Konvertiert Zeichenketten, Arrays oder Objekte in Markdown-Link-Syntax (nicht zu verwechseln mit [[Filter#`wikilink`|Wiki-Link]]).
 
 - Für Zeichenketten: `"url"|link:"author"` gibt `[author](url)` zurück.
-- Für Arrays: `["url1","url2"]|link:"author"` gibt ein Array von Markdown-Links mit demselben Text für alle Links zurück.
-- Für Objekte: `{"url1": "Author 1", "url2": "Author 2"}|link` gibt Markdown-Links mit dem Text zurück, der den Objektschlüsseln entspricht.
+- Für Arrays: `["url1","url2"]|link:"author"` gibt Markdown-Links mit demselben Text für alle Links zurück, ein Link pro Zeile.
+- Für Objekte: `{"url1": "Author 1", "url2": "Author 2"}|link` gibt Markdown-Links mit dem Text aus den Objektwerten zurück, ein Link pro Zeile.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Gibt die Länge von Zeichenketten, Arrays oder die Anzahl der Schlüssel in Obje
 - Für Arrays: `["a","b","c"]|length` gibt `3` zurück.
 - Für Objekte: `{"a":1,"b":2}|length` gibt `2` zurück.
 
+### `number_format`
+
+Formatiert eine Zahl mit einer angegebenen Anzahl von Dezimalstellen und optionalen Dezimal- und Tausendertrennzeichen.
+
+- `1234.567|number_format:2` gibt `"1,234.57"` zurück.
+- `1234.567|number_format:(2,",",".")` gibt `"1.234,57"` zurück.
+- Arrays und Objekte werden rekursiv formatiert.
+
 ### `round`
 
 Rundet eine Zahl auf die nächste Ganzzahl oder auf eine angegebene Anzahl von Dezimalstellen.
@@ -216,6 +231,10 @@ Rundet eine Zahl auf die nächste Ganzzahl oder auf eine angegebene Anzahl von D
 ## HTML-Verarbeitung
 
 HTML-Inhalte verarbeiten und HTML in Markdown konvertieren. Beachte, dass deine Eingabe-[[Variablen|Variable]] HTML-Inhalte enthalten muss, z. B. mit `{{fullHtml}}`, `{{contentHtml}}` oder einer `{{selectorHtml:}}`-Variable.
+
+### `html_to_json`
+
+Konvertiert HTML in strukturiertes JSON, das Tag, Attribute und Kindelemente jedes Elements enthält. Textknoten verwenden das Format `{"type":"text","content":"..."}`. Dies kann mit Filtern wie `map`, `object` und `template` kombiniert werden, um extrahiertes HTML umzustrukturieren.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Ersetzt HTML-Tags unter Beibehaltung des Inhalts und der Attribute des Tags.
 Entfernt **alle** HTML-Attribute aus einer Zeichenkette.
 
 - Verwende `strip_attr:("class, id")`, um bestimmte Attribute beizubehalten.
-- Beispiel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` gibt `<div id="example">Content</div>` zurück.
+- Beispiel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` gibt `<div class="test">Content</div>` zurück.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipuliert Objektdaten:
 - `object:values` gibt ein Array der Objektwerte zurück.
 - Beispiel: `{"a":1,"b":2}|object:array` gibt `[["a",1],["b",2]]` zurück.
 
+### `reverse`
+
+Kehrt Zeichenketten, Arrays und die Eintragsreihenfolge von Objekten um.
+
+- `"abc"|reverse` gibt `"cba"` zurück.
+- `["a","b","c"]|reverse` gibt `["c","b","a"]` zurück.
+
 ### `slice`
 
 Extrahiert einen Teil einer Zeichenkette oder eines Arrays.
@@ -358,7 +384,7 @@ Teilt eine Zeichenkette in ein Array von Teilzeichenketten.
 - `"a,b,c"|split:","` gibt `["a","b","c"]` zurück.
 - `"hello world"|split:" "` gibt `["hello","world"]` zurück.
 - Wenn kein Trennzeichen angegeben wird, wird bei jedem Zeichen geteilt: `"hello"|split` gibt `["h","e","l","l","o"]` zurück.
-- Reguläre Ausdrücke können als Trennzeichen verwendet werden: `"a1b2c3"|split:[0-9]` gibt `["a","b","c"]` zurück.
+- Reguläre Ausdrücke können als Trennzeichen verwendet werden: `"a1b2c3"|split:[0-9]` gibt `["a","b","c",""]` zurück. Das letzte Element ist leer, weil die Zeichenkette mit einem Trennzeichen endet.
 
 ### `template`
 

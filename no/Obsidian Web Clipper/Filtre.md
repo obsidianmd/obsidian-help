@@ -102,6 +102,13 @@ Fjerner mellomrom fra begge ender av en streng.
 
 - `"  hello world  "|trim` returnerer `"hello world"`.
 
+### `unescape`
+
+Konverterer escapede anførselstegn og linjeskiftsekvenser til bokstavelige tegn.
+
+- `"Line 1\\nLine 2"|unescape` returnerer teksten på to linjer.
+- `'He said \\"hello\\"'|unescape` returnerer `He said "hello"`.
+
 ### `uncamel`
 
 Konverterer camelCase eller PascalCase til mellomromseparerte ord, som du kan formatere videre med andre filtre som `title` eller `capitalize`.
@@ -149,15 +156,15 @@ Konverterer strenger, matriser eller objekter til Markdown-bildesyntaks.
 
 - For strenger: `"image.jpg"|image:"alt text"` returnerer `![alt text](image.jpg)`.
 - For matriser: `["image1.jpg","image2.jpg"]|image:"alt text"` returnerer en matrise med Markdown-bildestrenger med samme alt-tekst for alle bilder.
-- For objekter: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerer Markdown-bildestrenger med alt-tekst fra objektnøklene.
+- For objekter: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerer Markdown-bildestrenger med alt-tekst fra objektverdiene.
 
 ### `link`
 
 Konverterer strenger, matriser eller objekter til Markdown-lenkesyntaks (ikke å forveksle med [[Filtre#`wikilink`|wikilink]]).
 
 - For strenger: `"url"|link:"author"` returnerer `[author](url)`.
-- For matriser: `["url1","url2"]|link:"author"` returnerer en matrise med Markdown-lenker med samme tekst for alle lenker.
-- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-lenker med teksten som samsvarer med objektnøklene.
+- For matriser: `["url1","url2"]|link:"author"` returnerer Markdown-lenker med samme tekst for alle lenker, én lenke per linje.
+- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-lenker med teksten fra objektverdiene, én lenke per linje.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Returnerer lengden på strenger, matriser eller antall nøkler i objekter.
 - For matriser: `["a","b","c"]|length` returnerer `3`.
 - For objekter: `{"a":1,"b":2}|length` returnerer `2`.
 
+### `number_format`
+
+Formaterer et tall med et angitt antall desimalplasser og valgfrie desimal- og tusenskilletegn.
+
+- `1234.567|number_format:2` returnerer `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` returnerer `"1.234,57"`.
+- Matriser og objekter formateres rekursivt.
+
 ### `round`
 
 Avrunder et tall til nærmeste heltall eller til et angitt antall desimalplasser.
@@ -216,6 +231,10 @@ Avrunder et tall til nærmeste heltall eller til et angitt antall desimalplasser
 ## HTML-behandling
 
 Behandle HTML-innhold og konverter HTML til Markdown. Merk at inndata-[[Variabler|variabelen]] din må inneholde HTML-innhold, f.eks. ved å bruke `{{fullHtml}}`, `{{contentHtml}}` eller en `{{selectorHtml:}}`-variabel.
+
+### `html_to_json`
+
+Konverterer HTML til strukturert JSON som inneholder hvert elements tag, attributter og barn. Tekstnoder bruker formatet `{"type":"text","content":"..."}`. Dette kan kombineres med filtre som `map`, `object` og `template` for å omforme uttrukket HTML.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Erstatter HTML-tagger, og beholder innholdet og attributtene til taggen.
 Fjerner **alle** HTML-attributter fra en streng.
 
 - Bruk `strip_attr:("class, id")` for å beholde spesifikke attributter.
-- Eksempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerer `<div id="example">Content</div>`.
+- Eksempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerer `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipulerer objektdata:
 - `object:values` returnerer en matrise med objektets verdier.
 - Eksempel: `{"a":1,"b":2}|object:array` returnerer `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Reverserer strenger, matriser og rekkefølgen på oppføringer i objekter.
+
+- `"abc"|reverse` returnerer `"cba"`.
+- `["a","b","c"]|reverse` returnerer `["c","b","a"]`.
+
 ### `slice`
 
 Henter ut en del av en streng eller matrise.
@@ -358,7 +384,7 @@ Deler en streng inn i en matrise med delstrenger.
 - `"a,b,c"|split:","` returnerer `["a","b","c"]`.
 - `"hello world"|split:" "` returnerer `["hello","world"]`.
 - Hvis ingen skilletegn oppgis, deles på hvert tegn: `"hello"|split` returnerer `["h","e","l","l","o"]`.
-- Regulære uttrykk kan brukes som skilletegn: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c"]`.
+- Regulære uttrykk kan brukes som skilletegn: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c",""]`. Det siste elementet er tomt fordi strengen slutter med et skilletegn.
 
 ### `template`
 
