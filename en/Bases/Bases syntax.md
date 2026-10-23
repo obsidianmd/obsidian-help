@@ -372,7 +372,7 @@ Dates represent a specific date, or a date and time depending on the function us
 
 [[Link notes|Wikilinks]] in [[Properties|frontmatter properties]] are automatically recognized as Link objects. Links will render as a clickable link in the [[Views|view]].
 
-- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")` or `link("https://obsidian.md")`.
+- To construct a link, use the global `link` [[Functions|function]], for example `link("filename")`.
 - You can create a link from any string, for example, `link(file.ctime.date().toString())`.
 - To set the display text, pass in an optional string or icon as a second parameter, for example `link("filename", "display")` or `link("filename", icon("plus"))`.
 
@@ -383,3 +383,10 @@ Links can be compared with `==` and `!=`. They are equivalent as long as they po
 Links can be compared to files such as `file` or `this`. They will equate if the link resolves to the file. For example, `author == this`.
 
 Links can also be checked in list contains, for example, `authors.contains(this)`.
+
+### URLs
+
+URLs in [[Properties|frontmatter properties]] are automatically recognized as URL objects. URLs will render as a clickable link in the [[Views|view]].
+
+- To construct a URL, use the global `link` [[Functions|function]] with a web address, for example `link("https://obsidian.md")`.
+- To set the display text, pass in an optional string as a second parameter, for example `link("https://obsidian.md", "Obsidian")`.
