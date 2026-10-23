@@ -97,6 +97,7 @@ The `new` action, creates a new note in the vault, optionally with some content.
 - `content` (optional) the contents of the note.
 - `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
 - `silent` (optional) include this parameter if you don't want to open the new note.
+- `append` (optional) include this parameter to append to an existing file if one exists, merging any properties.
 - `prepend` (optional) include this parameter to prepend to an existing file if one exists, merging any properties.
 - `heading` (optional) add the content to the section under this heading instead of the whole file. Requires `append` or `prepend`.
 - `spacing` (optional) how the content is separated from the existing content. Requires `append` or `prepend`.
