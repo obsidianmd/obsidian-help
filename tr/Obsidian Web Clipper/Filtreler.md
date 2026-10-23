@@ -156,15 +156,15 @@ Dizeleri, dizileri veya nesneleri Markdown görsel söz dizimine dönüştürür
 
 - Dizeler için: `"image.jpg"|image:"alt metin"` ifadesi `![alt metin](image.jpg)` döndürür.
 - Diziler için: `["image1.jpg","image2.jpg"]|image:"alt metin"` tüm görseller için aynı alt metinle Markdown görsel dizeleri dizisi döndürür.
-- Nesneler için: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` nesne değerlerinden alt metinle Markdown görsel dizeleri döndürür.
+- Nesneler için: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` nesne anahtarlarından alt metinle Markdown görsel dizeleri döndürür.
 
 ### `link`
 
 Dizeleri, dizileri veya nesneleri Markdown bağlantı söz dizimine dönüştürür ([[Filtreler#`wikilink`|wikilink]] ile karıştırılmamalıdır).
 
 - Dizeler için: `"url"|link:"yazar"` ifadesi `[yazar](url)` döndürür.
-- Diziler için: `["url1","url2"]|link:"yazar"` tüm bağlantılar için aynı metinle Markdown bağlantıları döndürür, her satırda bir bağlantı.
-- Nesneler için: `{"url1": "Yazar 1", "url2": "Yazar 2"}|link` nesne değerlerinden metinle Markdown bağlantıları döndürür, her satırda bir bağlantı.
+- Diziler için: `["url1","url2"]|link:"yazar"` tüm bağlantılar için aynı metinle Markdown bağlantıları dizisi döndürür.
+- Nesneler için: `{"url1": "Yazar 1", "url2": "Yazar 2"}|link` nesne anahtarlarıyla eşleşen metinle Markdown bağlantıları döndürür.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Bir dizeyi alt dizeler dizisine böler.
 - `"a,b,c"|split:","` ifadesi `["a","b","c"]` döndürür.
 - `"hello world"|split:" "` ifadesi `["hello","world"]` döndürür.
 - Ayırıcı sağlanmazsa her karaktere göre böler: `"hello"|split` ifadesi `["h","e","l","l","o"]` döndürür.
-- Ayırıcı olarak düzenli ifadeler kullanılabilir: `"a1b2c3"|split:[0-9]` ifadesi `["a","b","c",""]` döndürür. Son öğe boştur çünkü dize bir ayırıcıyla biter.
+- Ayırıcı olarak düzenli ifadeler kullanılabilir: `"a1b2c3"|split:[0-9]` ifadesi `["a","b","c"]` döndürür.
 
 ### `template`
 

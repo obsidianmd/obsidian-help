@@ -156,15 +156,15 @@ Konverterer strenge, arrays eller objekter til Markdown-billedsyntaks.
 
 - For strenge: `"image.jpg"|image:"alt text"` returnerer `![alt text](image.jpg)`.
 - For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returnerer et array af Markdown-billedstrenge med samme alt-tekst for alle billeder.
-- For objekter: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerer Markdown-billedstrenge med alt-tekst fra objektets værdier.
+- For objekter: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerer Markdown-billedstrenge med alt-tekst fra objektets nøgler.
 
 ### `link`
 
 Konverterer strenge, arrays eller objekter til Markdown-linksyntaks (må ikke forveksles med [[Filtre#`wikilink`|wikilink]]).
 
 - For strenge: `"url"|link:"author"` returnerer `[author](url)`.
-- For arrays: `["url1","url2"]|link:"author"` returnerer Markdown-links med samme tekst for alle links, ét link per linje.
-- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-links med tekst fra objektets værdier, ét link per linje.
+- For arrays: `["url1","url2"]|link:"author"` returnerer et array af Markdown-links med samme tekst for alle links.
+- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-links med tekst der matcher objektets nøgler.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Opdeler en streng i et array af delstrenge.
 - `"a,b,c"|split:","` returnerer `["a","b","c"]`.
 - `"hello world"|split:" "` returnerer `["hello","world"]`.
 - Hvis ingen separator angives, opdeles på hvert tegn: `"hello"|split` returnerer `["h","e","l","l","o"]`.
-- Regulære udtryk kan bruges som separatorer: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c",""]`. Det sidste element er tomt, fordi strengen slutter med en separator.
+- Regulære udtryk kan bruges som separatorer: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c"]`.
 
 ### `template`
 

@@ -156,15 +156,15 @@ Mengonversi string, array, atau objek menjadi sintaksis gambar Markdown.
 
 - Untuk string: `"image.jpg"|image:"alt text"` mengembalikan `![alt text](image.jpg)`.
 - Untuk array: `["image1.jpg","image2.jpg"]|image:"alt text"` mengembalikan array string gambar Markdown dengan teks alt yang sama untuk semua gambar.
-- Untuk objek: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` mengembalikan string gambar Markdown dengan teks alt dari nilai objek.
+- Untuk objek: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` mengembalikan string gambar Markdown dengan teks alt dari kunci objek.
 
 ### `link`
 
 Mengonversi string, array, atau objek menjadi sintaksis tautan Markdown (jangan disamakan dengan [[Filter#`wikilink`|wikilink]]).
 
 - Untuk string: `"url"|link:"author"` mengembalikan `[author](url)`.
-- Untuk array: `["url1","url2"]|link:"author"` mengembalikan tautan Markdown dengan teks yang sama untuk semua tautan, satu tautan per baris.
-- Untuk objek: `{"url1": "Author 1", "url2": "Author 2"}|link` mengembalikan tautan Markdown dengan teks dari nilai objek, satu tautan per baris.
+- Untuk array: `["url1","url2"]|link:"author"` mengembalikan array tautan Markdown dengan teks yang sama untuk semua tautan.
+- Untuk objek: `{"url1": "Author 1", "url2": "Author 2"}|link` mengembalikan tautan Markdown dengan teks yang cocok dengan kunci objek.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Membagi string menjadi array substring.
 - `"a,b,c"|split:","` mengembalikan `["a","b","c"]`.
 - `"hello world"|split:" "` mengembalikan `["hello","world"]`.
 - Jika tidak ada pemisah yang diberikan, memisahkan pada setiap karakter: `"hello"|split` mengembalikan `["h","e","l","l","o"]`.
-- Ekspresi reguler dapat digunakan sebagai pemisah: `"a1b2c3"|split:[0-9]` mengembalikan `["a","b","c",""]`. Item terakhir kosong karena string diakhiri dengan pemisah.
+- Ekspresi reguler dapat digunakan sebagai pemisah: `"a1b2c3"|split:[0-9]` mengembalikan `["a","b","c"]`.
 
 ### `template`
 

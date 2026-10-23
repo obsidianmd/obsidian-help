@@ -156,15 +156,15 @@ Konverterer strenger, matriser eller objekter til Markdown-bildesyntaks.
 
 - For strenger: `"image.jpg"|image:"alt text"` returnerer `![alt text](image.jpg)`.
 - For matriser: `["image1.jpg","image2.jpg"]|image:"alt text"` returnerer en matrise med Markdown-bildestrenger med samme alt-tekst for alle bilder.
-- For objekter: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerer Markdown-bildestrenger med alt-tekst fra objektverdiene.
+- For objekter: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerer Markdown-bildestrenger med alt-tekst fra objektnøklene.
 
 ### `link`
 
 Konverterer strenger, matriser eller objekter til Markdown-lenkesyntaks (ikke å forveksle med [[Filtre#`wikilink`|wikilink]]).
 
 - For strenger: `"url"|link:"author"` returnerer `[author](url)`.
-- For matriser: `["url1","url2"]|link:"author"` returnerer Markdown-lenker med samme tekst for alle lenker, én lenke per linje.
-- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-lenker med teksten fra objektverdiene, én lenke per linje.
+- For matriser: `["url1","url2"]|link:"author"` returnerer en matrise med Markdown-lenker med samme tekst for alle lenker.
+- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-lenker med teksten som samsvarer med objektnøklene.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Deler en streng inn i en matrise med delstrenger.
 - `"a,b,c"|split:","` returnerer `["a","b","c"]`.
 - `"hello world"|split:" "` returnerer `["hello","world"]`.
 - Hvis ingen skilletegn oppgis, deles på hvert tegn: `"hello"|split` returnerer `["h","e","l","l","o"]`.
-- Regulære uttrykk kan brukes som skilletegn: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c",""]`. Det siste elementet er tomt fordi strengen slutter med et skilletegn.
+- Regulære uttrykk kan brukes som skilletegn: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c"]`.
 
 ### `template`
 

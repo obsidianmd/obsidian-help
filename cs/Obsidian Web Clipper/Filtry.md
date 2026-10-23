@@ -156,15 +156,15 @@ Převede řetězce, pole nebo objekty na syntaxi obrázků v Markdown.
 
 - Pro řetězce: `"image.jpg"|image:"alt text"` vrátí `![alt text](image.jpg)`.
 - Pro pole: `["image1.jpg","image2.jpg"]|image:"alt text"` vrátí pole řetězců obrázků v Markdown se stejným alternativním textem pro všechny obrázky.
-- Pro objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vrátí řetězce obrázků v Markdown s alternativním textem z hodnot objektu.
+- Pro objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vrátí řetězce obrázků v Markdown s alternativním textem z klíčů objektu.
 
 ### `link`
 
 Převede řetězce, pole nebo objekty na syntaxi odkazů v Markdown (nezaměňujte s [[Filtry#`wikilink`|wikilink]]).
 
 - Pro řetězce: `"url"|link:"author"` vrátí `[author](url)`.
-- Pro pole: `["url1","url2"]|link:"author"` vrátí odkazy v Markdown se stejným textem pro všechny odkazy, jeden odkaz na řádek.
-- Pro objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vrátí odkazy v Markdown s textem z hodnot objektu, jeden odkaz na řádek.
+- Pro pole: `["url1","url2"]|link:"author"` vrátí pole odkazů v Markdown se stejným textem pro všechny odkazy.
+- Pro objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vrátí odkazy v Markdown s textem odpovídajícím klíčům objektu.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Rozdělí řetězec na pole podřetězců.
 - `"a,b,c"|split:","` vrátí `["a","b","c"]`.
 - `"hello world"|split:" "` vrátí `["hello","world"]`.
 - Pokud není zadán oddělovač, rozdělí na každý znak: `"hello"|split` vrátí `["h","e","l","l","o"]`.
-- Jako oddělovače lze použít regulární výrazy: `"a1b2c3"|split:[0-9]` vrátí `["a","b","c",""]`. Poslední položka je prázdná, protože řetězec končí oddělovačem.
+- Jako oddělovače lze použít regulární výrazy: `"a1b2c3"|split:[0-9]` vrátí `["a","b","c"]`.
 
 ### `template`
 

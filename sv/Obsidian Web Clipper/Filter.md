@@ -156,15 +156,15 @@ Konverterar strängar, arrayer eller objekt till Markdown-bildsyntax.
 
 - För strängar: `"image.jpg"|image:"alt text"` returnerar `![alt text](image.jpg)`.
 - För arrayer: `["image1.jpg","image2.jpg"]|image:"alt text"` returnerar en array med Markdown-bildsträngar med samma alt-text för alla bilder.
-- För objekt: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerar Markdown-bildsträngar med alt-text från objektvärdena.
+- För objekt: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerar Markdown-bildsträngar med alt-text från objektnycklarna.
 
 ### `link`
 
 Konverterar strängar, arrayer eller objekt till Markdown-länksyntax (ska inte förväxlas med [[Filter#`wikilink`|wikilink]]).
 
 - För strängar: `"url"|link:"author"` returnerar `[author](url)`.
-- För arrayer: `["url1","url2"]|link:"author"` returnerar Markdown-länkar med samma text för alla länkar, en länk per rad.
-- För objekt: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerar Markdown-länkar med text från objektvärdena, en länk per rad.
+- För arrayer: `["url1","url2"]|link:"author"` returnerar en array med Markdown-länkar med samma text för alla länkar.
+- För objekt: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerar Markdown-länkar med text som matchar objektnycklarna.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Delar upp en sträng i en array av delsträngar.
 - `"a,b,c"|split:","` returnerar `["a","b","c"]`.
 - `"hello world"|split:" "` returnerar `["hello","world"]`.
 - Om ingen separator anges delas på varje tecken: `"hello"|split` returnerar `["h","e","l","l","o"]`.
-- Reguljära uttryck kan användas som separator: `"a1b2c3"|split:[0-9]` returnerar `["a","b","c",""]`. Det sista elementet är tomt eftersom strängen slutar med en separator.
+- Reguljära uttryck kan användas som separator: `"a1b2c3"|split:[0-9]` returnerar `["a","b","c"]`.
 
 ### `template`
 

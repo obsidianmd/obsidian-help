@@ -158,15 +158,15 @@ Converte stringhe, array o oggetti nella sintassi immagine Markdown.
 
 - Per le stringhe: `"image.jpg"|image:"alt text"` restituisce `![alt text](image.jpg)`.
 - Per gli array: `["image1.jpg","image2.jpg"]|image:"alt text"` restituisce un array di stringhe immagine Markdown con lo stesso testo alternativo per tutte le immagini.
-- Per gli oggetti: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` restituisce stringhe immagine Markdown con testo alternativo dai valori dell'oggetto.
+- Per gli oggetti: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` restituisce stringhe immagine Markdown con testo alternativo dalle chiavi dell'oggetto.
 
 ### `link`
 
 Converte stringhe, array o oggetti nella sintassi collegamento Markdown (da non confondere con [[Filtri#`wikilink`|wikilink]]).
 
 - Per le stringhe: `"url"|link:"author"` restituisce `[author](url)`.
-- Per gli array: `["url1","url2"]|link:"author"` restituisce collegamenti Markdown con lo stesso testo per tutti i collegamenti, un collegamento per riga.
-- Per gli oggetti: `{"url1": "Author 1", "url2": "Author 2"}|link` restituisce collegamenti Markdown con il testo dai valori dell'oggetto, un collegamento per riga.
+- Per gli array: `["url1","url2"]|link:"author"` restituisce un array di collegamenti Markdown con lo stesso testo per tutti i collegamenti.
+- Per gli oggetti: `{"url1": "Author 1", "url2": "Author 2"}|link` restituisce collegamenti Markdown con il testo corrispondente alle chiavi dell'oggetto.
 
 ### `list`
 
@@ -386,7 +386,7 @@ Divide una stringa in un array di sottostringhe.
 - `"a,b,c"|split:","` restituisce `["a","b","c"]`.
 - `"hello world"|split:" "` restituisce `["hello","world"]`.
 - Se non viene fornito un separatore, divide su ogni carattere: `"hello"|split` restituisce `["h","e","l","l","o"]`.
-- Le espressioni regolari possono essere usate come separatori: `"a1b2c3"|split:[0-9]` restituisce `["a","b","c",""]`. L'ultimo elemento è vuoto perché la stringa termina con un separatore.
+- Le espressioni regolari possono essere usate come separatori: `"a1b2c3"|split:[0-9]` restituisce `["a","b","c"]`.
 
 ### `template`
 

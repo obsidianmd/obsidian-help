@@ -156,15 +156,15 @@ Converte strings, arrays ou objetos em sintaxe de imagem Markdown.
 
 - Para strings: `"image.jpg"|image:"alt text"` retorna `![alt text](image.jpg)`.
 - Para arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` retorna um array de strings de imagem Markdown com o mesmo texto alternativo para todas as imagens.
-- Para objetos: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna strings de imagem Markdown com texto alternativo dos valores do objeto.
+- Para objetos: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna strings de imagem Markdown com texto alternativo das chaves do objeto.
 
 ### `link`
 
 Converte strings, arrays ou objetos em sintaxe de link Markdown (não confundir com [[Filtros#`wikilink`|wikilink]]).
 
 - Para strings: `"url"|link:"author"` retorna `[author](url)`.
-- Para arrays: `["url1","url2"]|link:"author"` retorna links Markdown com o mesmo texto para todos os links, um link por linha.
-- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna links Markdown com o texto dos valores do objeto, um link por linha.
+- Para arrays: `["url1","url2"]|link:"author"` retorna um array de links Markdown com o mesmo texto para todos os links.
+- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna links Markdown com o texto correspondente às chaves do objeto.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Divide uma string em um array de substrings.
 - `"a,b,c"|split:","` retorna `["a","b","c"]`.
 - `"hello world"|split:" "` retorna `["hello","world"]`.
 - Se nenhum separador for fornecido, divide em cada caractere: `"hello"|split` retorna `["h","e","l","l","o"]`.
-- Expressões regulares podem ser usadas como separadores: `"a1b2c3"|split:[0-9]` retorna `["a","b","c",""]`. O último item está vazio porque a string termina com um separador.
+- Expressões regulares podem ser usadas como separadores: `"a1b2c3"|split:[0-9]` retorna `["a","b","c"]`.
 
 ### `template`
 

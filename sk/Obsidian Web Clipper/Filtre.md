@@ -156,15 +156,15 @@ Konvertuje reťazce, polia alebo objekty na Markdown syntax obrázkov.
 
 - Pre reťazce: `"image.jpg"|image:"alt text"` vráti `![alt text](image.jpg)`.
 - Pre polia: `["image1.jpg","image2.jpg"]|image:"alt text"` vráti pole Markdown reťazcov obrázkov s rovnakým alternatívnym textom pre všetky obrázky.
-- Pre objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vráti Markdown reťazce obrázkov s alternatívnym textom z hodnôt objektu.
+- Pre objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vráti Markdown reťazce obrázkov s alternatívnym textom z kľúčov objektu.
 
 ### `link`
 
 Konvertuje reťazce, polia alebo objekty na Markdown syntax odkazov (nezamieňať s [[Filtre#`wikilink`|wikilink]]).
 
 - Pre reťazce: `"url"|link:"author"` vráti `[author](url)`.
-- Pre polia: `["url1","url2"]|link:"author"` vráti Markdown odkazy s rovnakým textom pre všetky odkazy, jeden odkaz na riadok.
-- Pre objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vráti Markdown odkazy s textom z hodnôt objektu, jeden odkaz na riadok.
+- Pre polia: `["url1","url2"]|link:"author"` vráti pole Markdown odkazov s rovnakým textom pre všetky odkazy.
+- Pre objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vráti Markdown odkazy s textom zodpovedajúcim kľúčom objektu.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Rozdelí reťazec na pole podreťazcov.
 - `"a,b,c"|split:","` vráti `["a","b","c"]`.
 - `"hello world"|split:" "` vráti `["hello","world"]`.
 - Ak nie je zadaný oddeľovač, rozdelí na každý znak: `"hello"|split` vráti `["h","e","l","l","o"]`.
-- Regulárne výrazy je možné použiť ako oddeľovače: `"a1b2c3"|split:[0-9]` vráti `["a","b","c",""]`. Posledná položka je prázdna, pretože reťazec končí oddeľovačom.
+- Regulárne výrazy je možné použiť ako oddeľovače: `"a1b2c3"|split:[0-9]` vráti `["a","b","c"]`.
 
 ### `template`
 

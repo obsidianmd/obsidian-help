@@ -156,15 +156,15 @@ Converteix cadenes, matrius o objectes en sintaxi d'imatge Markdown.
 
 - Per a cadenes: `"image.jpg"|image:"alt text"` retorna `![alt text](image.jpg)`.
 - Per a matrius: `["image1.jpg","image2.jpg"]|image:"alt text"` retorna una matriu de cadenes d'imatge Markdown amb el mateix text alternatiu per a totes les imatges.
-- Per a objectes: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna cadenes d'imatge Markdown amb el text alternatiu dels valors de l'objecte.
+- Per a objectes: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna cadenes d'imatge Markdown amb el text alternatiu de les claus de l'objecte.
 
 ### `link`
 
 Converteix cadenes, matrius o objectes en sintaxi d'enllaç Markdown (no confondre amb [[Filtres#`wikilink`|wikilink]]).
 
 - Per a cadenes: `"url"|link:"author"` retorna `[author](url)`.
-- Per a matrius: `["url1","url2"]|link:"author"` retorna enllaços Markdown amb el mateix text per a tots els enllaços, un enllaç per línia.
-- Per a objectes: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna enllaços Markdown amb el text dels valors de l'objecte, un enllaç per línia.
+- Per a matrius: `["url1","url2"]|link:"author"` retorna una matriu d'enllaços Markdown amb el mateix text per a tots els enllaços.
+- Per a objectes: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna enllaços Markdown amb el text que coincideix amb les claus de l'objecte.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Divideix una cadena en una matriu de subcadenes.
 - `"a,b,c"|split:","` retorna `["a","b","c"]`.
 - `"hello world"|split:" "` retorna `["hello","world"]`.
 - Si no es proporciona cap separador, divideix en cada caràcter: `"hello"|split` retorna `["h","e","l","l","o"]`.
-- Es poden utilitzar expressions regulars com a separadors: `"a1b2c3"|split:[0-9]` retorna `["a","b","c",""]`. L'últim element és buit perquè la cadena acaba amb un separador.
+- Es poden utilitzar expressions regulars com a separadors: `"a1b2c3"|split:[0-9]` retorna `["a","b","c"]`.
 
 ### `template`
 

@@ -156,15 +156,15 @@ Converteert strings, arrays of objecten naar Markdown-afbeeldingssyntaxis.
 
 - Voor strings: `"image.jpg"|image:"alt text"` retourneert `![alt text](image.jpg)`.
 - Voor arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` retourneert een array van Markdown-afbeeldingsstrings met dezelfde alt-tekst voor alle afbeeldingen.
-- Voor objecten: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retourneert Markdown-afbeeldingsstrings met alt-tekst van de objectwaarden.
+- Voor objecten: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retourneert Markdown-afbeeldingsstrings met alt-tekst van de objectsleutels.
 
 ### `link`
 
 Converteert strings, arrays of objecten naar Markdown-koppelingssyntaxis (niet te verwarren met [[Filters#`wikilink`|wikilink]]).
 
 - Voor strings: `"url"|link:"author"` retourneert `[author](url)`.
-- Voor arrays: `["url1","url2"]|link:"author"` retourneert Markdown-koppelingen met dezelfde tekst voor alle koppelingen, één koppeling per regel.
-- Voor objecten: `{"url1": "Author 1", "url2": "Author 2"}|link` retourneert Markdown-koppelingen met de tekst van de objectwaarden, één koppeling per regel.
+- Voor arrays: `["url1","url2"]|link:"author"` retourneert een array van Markdown-koppelingen met dezelfde tekst voor alle koppelingen.
+- Voor objecten: `{"url1": "Author 1", "url2": "Author 2"}|link` retourneert Markdown-koppelingen met de tekst die overeenkomt met de objectsleutels.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Deelt een string op in een array van substrings.
 - `"a,b,c"|split:","` retourneert `["a","b","c"]`.
 - `"hello world"|split:" "` retourneert `["hello","world"]`.
 - Als er geen scheidingsteken wordt opgegeven, wordt op elk teken gesplitst: `"hello"|split` retourneert `["h","e","l","l","o"]`.
-- Reguliere expressies kunnen als scheidingstekens worden gebruikt: `"a1b2c3"|split:[0-9]` retourneert `["a","b","c",""]`. Het laatste item is leeg omdat de string eindigt met een scheidingsteken.
+- Reguliere expressies kunnen als scheidingstekens worden gebruikt: `"a1b2c3"|split:[0-9]` retourneert `["a","b","c"]`.
 
 ### `template`
 

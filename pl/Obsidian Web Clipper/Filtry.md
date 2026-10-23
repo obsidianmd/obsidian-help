@@ -156,15 +156,15 @@ Konwertuje ciągi, tablice lub obiekty na składnię obrazów Markdown.
 
 - Dla ciągów: `"image.jpg"|image:"alt text"` zwraca `![alt text](image.jpg)`.
 - Dla tablic: `["image1.jpg","image2.jpg"]|image:"alt text"` zwraca tablicę ciągów obrazów Markdown z tym samym tekstem alternatywnym dla wszystkich obrazów.
-- Dla obiektów: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` zwraca ciągi obrazów Markdown z tekstem alternatywnym z wartości obiektu.
+- Dla obiektów: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` zwraca ciągi obrazów Markdown z tekstem alternatywnym z kluczy obiektu.
 
 ### `link`
 
 Konwertuje ciągi, tablice lub obiekty na składnię linków Markdown (nie mylić z [[Filtry#`wikilink`|wikilink]]).
 
 - Dla ciągów: `"url"|link:"author"` zwraca `[author](url)`.
-- Dla tablic: `["url1","url2"]|link:"author"` zwraca linki Markdown z tym samym tekstem dla wszystkich linków, jeden link na linię.
-- Dla obiektów: `{"url1": "Author 1", "url2": "Author 2"}|link` zwraca linki Markdown z tekstem z wartości obiektu, jeden link na linię.
+- Dla tablic: `["url1","url2"]|link:"author"` zwraca tablicę linków Markdown z tym samym tekstem dla wszystkich linków.
+- Dla obiektów: `{"url1": "Author 1", "url2": "Author 2"}|link` zwraca linki Markdown z tekstem odpowiadającym kluczom obiektu.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Dzieli ciąg na tablicę podciągów.
 - `"a,b,c"|split:","` zwraca `["a","b","c"]`.
 - `"hello world"|split:" "` zwraca `["hello","world"]`.
 - Jeśli nie podano separatora, dzieli na każdy znak: `"hello"|split` zwraca `["h","e","l","l","o"]`.
-- Wyrażenia regularne mogą być używane jako separatory: `"a1b2c3"|split:[0-9]` zwraca `["a","b","c",""]`. Ostatni element jest pusty, ponieważ ciąg kończy się separatorem.
+- Wyrażenia regularne mogą być używane jako separatory: `"a1b2c3"|split:[0-9]` zwraca `["a","b","c"]`.
 
 ### `template`
 

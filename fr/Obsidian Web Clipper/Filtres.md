@@ -157,15 +157,15 @@ Convertit les chaînes, tableaux ou objets en syntaxe d'image Markdown.
 
 - Pour les chaînes : `"image.jpg"|image:"texte alt"` renvoie `![texte alt](image.jpg)`.
 - Pour les tableaux : `["image1.jpg","image2.jpg"]|image:"texte alt"` renvoie un tableau de chaînes d'images Markdown avec le même texte alt pour toutes les images.
-- Pour les objets : `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` renvoie des chaînes d'images Markdown avec le texte alt provenant des valeurs de l'objet.
+- Pour les objets : `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` renvoie des chaînes d'images Markdown avec le texte alt provenant des clés de l'objet.
 
 ### `link`
 
 Convertit les chaînes, tableaux ou objets en syntaxe de lien Markdown (à ne pas confondre avec [[Filtres#`wikilink`|wikilink]]).
 
 - Pour les chaînes : `"url"|link:"auteur"` renvoie `[auteur](url)`.
-- Pour les tableaux : `["url1","url2"]|link:"auteur"` renvoie des liens Markdown avec le même texte pour tous les liens, un lien par ligne.
-- Pour les objets : `{"url1": "Auteur 1", "url2": "Auteur 2"}|link` renvoie des liens Markdown avec le texte provenant des valeurs de l'objet, un lien par ligne.
+- Pour les tableaux : `["url1","url2"]|link:"auteur"` renvoie un tableau de liens Markdown avec le même texte pour tous les liens.
+- Pour les objets : `{"url1": "Auteur 1", "url2": "Auteur 2"}|link` renvoie des liens Markdown avec le texte correspondant aux clés de l'objet.
 
 ### `list`
 
@@ -385,7 +385,7 @@ Divise une chaîne en un tableau de sous-chaînes.
 - `"a,b,c"|split:","` renvoie `["a","b","c"]`.
 - `"hello world"|split:" "` renvoie `["hello","world"]`.
 - Si aucun séparateur n'est fourni, il divise sur chaque caractère : `"hello"|split` renvoie `["h","e","l","l","o"]`.
-- Les expressions régulières peuvent être utilisées comme séparateurs : `"a1b2c3"|split:[0-9]` renvoie `["a","b","c",""]`. Le dernier élément est vide car la chaîne se termine par un séparateur.
+- Les expressions régulières peuvent être utilisées comme séparateurs : `"a1b2c3"|split:[0-9]` renvoie `["a","b","c"]`.
 
 ### `template`
 

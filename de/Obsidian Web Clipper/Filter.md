@@ -156,15 +156,15 @@ Konvertiert Zeichenketten, Arrays oder Objekte in Markdown-Bildsyntax.
 
 - Für Zeichenketten: `"image.jpg"|image:"alt text"` gibt `![alt text](image.jpg)` zurück.
 - Für Arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` gibt ein Array von Markdown-Bildzeichenketten mit demselben Alt-Text für alle Bilder zurück.
-- Für Objekte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` gibt Markdown-Bildzeichenketten mit Alt-Text aus den Objektwerten zurück.
+- Für Objekte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` gibt Markdown-Bildzeichenketten mit Alt-Text aus den Objektschlüsseln zurück.
 
 ### `link`
 
 Konvertiert Zeichenketten, Arrays oder Objekte in Markdown-Link-Syntax (nicht zu verwechseln mit [[Filter#`wikilink`|Wiki-Link]]).
 
 - Für Zeichenketten: `"url"|link:"author"` gibt `[author](url)` zurück.
-- Für Arrays: `["url1","url2"]|link:"author"` gibt Markdown-Links mit demselben Text für alle Links zurück, ein Link pro Zeile.
-- Für Objekte: `{"url1": "Author 1", "url2": "Author 2"}|link` gibt Markdown-Links mit dem Text aus den Objektwerten zurück, ein Link pro Zeile.
+- Für Arrays: `["url1","url2"]|link:"author"` gibt ein Array von Markdown-Links mit demselben Text für alle Links zurück.
+- Für Objekte: `{"url1": "Author 1", "url2": "Author 2"}|link` gibt Markdown-Links mit dem Text zurück, der den Objektschlüsseln entspricht.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Teilt eine Zeichenkette in ein Array von Teilzeichenketten.
 - `"a,b,c"|split:","` gibt `["a","b","c"]` zurück.
 - `"hello world"|split:" "` gibt `["hello","world"]` zurück.
 - Wenn kein Trennzeichen angegeben wird, wird bei jedem Zeichen geteilt: `"hello"|split` gibt `["h","e","l","l","o"]` zurück.
-- Reguläre Ausdrücke können als Trennzeichen verwendet werden: `"a1b2c3"|split:[0-9]` gibt `["a","b","c",""]` zurück. Das letzte Element ist leer, weil die Zeichenkette mit einem Trennzeichen endet.
+- Reguläre Ausdrücke können als Trennzeichen verwendet werden: `"a1b2c3"|split:[0-9]` gibt `["a","b","c"]` zurück.
 
 ### `template`
 

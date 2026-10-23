@@ -156,15 +156,15 @@ Muuntaa merkkijonot, taulukot tai objektit Markdown-kuvasyntaksiksi.
 
 - Merkkijonoille: `"image.jpg"|image:"alt text"` palauttaa `![alt text](image.jpg)`.
 - Taulukoille: `["image1.jpg","image2.jpg"]|image:"alt text"` palauttaa taulukon Markdown-kuvamerkkijonoista samalla alt-tekstillä kaikille kuville.
-- Objekteille: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` palauttaa Markdown-kuvamerkkijonot alt-tekstillä objektin arvoista.
+- Objekteille: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` palauttaa Markdown-kuvamerkkijonot alt-tekstillä objektin avaimista.
 
 ### `link`
 
 Muuntaa merkkijonot, taulukot tai objektit Markdown-linkkisyntaksiksi (ei pidä sekoittaa [[Suodattimet#`wikilink`|wikilinkkiin]]).
 
 - Merkkijonoille: `"url"|link:"author"` palauttaa `[author](url)`.
-- Taulukoille: `["url1","url2"]|link:"author"` palauttaa Markdown-linkit samalla tekstillä kaikille linkeille, yksi linkki per rivi.
-- Objekteille: `{"url1": "Author 1", "url2": "Author 2"}|link` palauttaa Markdown-linkit objektin arvojen tekstillä, yksi linkki per rivi.
+- Taulukoille: `["url1","url2"]|link:"author"` palauttaa taulukon Markdown-linkeistä samalla tekstillä kaikille linkeille.
+- Objekteille: `{"url1": "Author 1", "url2": "Author 2"}|link` palauttaa Markdown-linkit objektin avaimia vastaavalla tekstillä.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Jakaa merkkijonon alimerkkijonojen taulukoksi.
 - `"a,b,c"|split:","` palauttaa `["a","b","c"]`.
 - `"hello world"|split:" "` palauttaa `["hello","world"]`.
 - Jos erotinta ei anneta, se jakaa jokaisen merkin kohdalta: `"hello"|split` palauttaa `["h","e","l","l","o"]`.
-- Säännöllisiä lausekkeita voidaan käyttää erottimina: `"a1b2c3"|split:[0-9]` palauttaa `["a","b","c",""]`. Viimeinen alkio on tyhjä, koska merkkijono päättyy erottimeen.
+- Säännöllisiä lausekkeita voidaan käyttää erottimina: `"a1b2c3"|split:[0-9]` palauttaa `["a","b","c"]`.
 
 ### `template`
 

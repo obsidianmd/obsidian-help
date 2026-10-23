@@ -156,15 +156,15 @@ Chuyển đổi chuỗi, mảng hoặc đối tượng thành cú pháp hình �
 
 - Với chuỗi: `"image.jpg"|image:"alt text"` trả về `![alt text](image.jpg)`.
 - Với mảng: `["image1.jpg","image2.jpg"]|image:"alt text"` trả về mảng các chuỗi hình ảnh Markdown với cùng văn bản thay thế cho tất cả hình ảnh.
-- Với đối tượng: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` trả về các chuỗi hình ảnh Markdown với văn bản thay thế từ giá trị của đối tượng.
+- Với đối tượng: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` trả về các chuỗi hình ảnh Markdown với văn bản thay thế từ khóa của đối tượng.
 
 ### `link`
 
 Chuyển đổi chuỗi, mảng hoặc đối tượng thành cú pháp liên kết Markdown (không nhầm lẫn với [[Bộ lọc#`wikilink`|wikilink]]).
 
 - Với chuỗi: `"url"|link:"author"` trả về `[author](url)`.
-- Với mảng: `["url1","url2"]|link:"author"` trả về các liên kết Markdown với cùng văn bản cho tất cả liên kết, mỗi liên kết trên một dòng.
-- Với đối tượng: `{"url1": "Author 1", "url2": "Author 2"}|link` trả về các liên kết Markdown với văn bản từ giá trị của đối tượng, mỗi liên kết trên một dòng.
+- Với mảng: `["url1","url2"]|link:"author"` trả về mảng các liên kết Markdown với cùng văn bản cho tất cả liên kết.
+- Với đối tượng: `{"url1": "Author 1", "url2": "Author 2"}|link` trả về các liên kết Markdown với văn bản khớp với khóa của đối tượng.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Chia chuỗi thành mảng các chuỗi con.
 - `"a,b,c"|split:","` trả về `["a","b","c"]`.
 - `"hello world"|split:" "` trả về `["hello","world"]`.
 - Nếu không cung cấp dấu phân cách, nó chia theo từng ký tự: `"hello"|split` trả về `["h","e","l","l","o"]`.
-- Có thể sử dụng biểu thức chính quy làm dấu phân cách: `"a1b2c3"|split:[0-9]` trả về `["a","b","c",""]`. Phần tử cuối cùng trống vì chuỗi kết thúc bằng dấu phân cách.
+- Có thể sử dụng biểu thức chính quy làm dấu phân cách: `"a1b2c3"|split:[0-9]` trả về `["a","b","c"]`.
 
 ### `template`
 

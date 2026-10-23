@@ -156,15 +156,15 @@ Karakterláncokat, tömböket vagy objektumokat Markdown kép szintaxissá alak�
 
 - Karakterláncokhoz: `"image.jpg"|image:"alt text"` eredménye `![alt text](image.jpg)`.
 - Tömbökhöz: `["image1.jpg","image2.jpg"]|image:"alt text"` Markdown kép karakterláncok tömbjét adja vissza, azonos alt szöveggel minden képhez.
-- Objektumokhoz: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` Markdown kép karakterláncokat ad vissza az objektum értékeiből származó alt szöveggel.
+- Objektumokhoz: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` Markdown kép karakterláncokat ad vissza az objektum kulcsaiból származó alt szöveggel.
 
 ### `link`
 
 Karakterláncokat, tömböket vagy objektumokat Markdown hivatkozás szintaxissá alakít (nem tévesztendő össze a [[Szűrők#`wikilink`|wikihivatkozással]]).
 
 - Karakterláncokhoz: `"url"|link:"author"` eredménye `[author](url)`.
-- Tömbökhöz: `["url1","url2"]|link:"author"` Markdown hivatkozásokat ad vissza azonos szöveggel minden hivatkozáshoz, soronként egy hivatkozás.
-- Objektumokhoz: `{"url1": "Author 1", "url2": "Author 2"}|link` Markdown hivatkozásokat ad vissza az objektum értékeiből származó szöveggel, soronként egy hivatkozás.
+- Tömbökhöz: `["url1","url2"]|link:"author"` Markdown hivatkozások tömbjét adja vissza azonos szöveggel minden hivatkozáshoz.
+- Objektumokhoz: `{"url1": "Author 1", "url2": "Author 2"}|link` Markdown hivatkozásokat ad vissza az objektum kulcsainak megfelelő szöveggel.
 
 ### `list`
 
@@ -384,7 +384,7 @@ Karakterláncot részkarakterláncok tömbjévé oszt.
 - `"a,b,c"|split:","` eredménye `["a","b","c"]`.
 - `"hello world"|split:" "` eredménye `["hello","world"]`.
 - Ha nincs elválasztó megadva, minden karakter mentén oszt: `"hello"|split` eredménye `["h","e","l","l","o"]`.
-- Reguláris kifejezések használhatók elválasztóként: `"a1b2c3"|split:[0-9]` eredménye `["a","b","c",""]`. Az utolsó elem üres, mert a karakterlánc elválasztóval végződik.
+- Reguláris kifejezések használhatók elválasztóként: `"a1b2c3"|split:[0-9]` eredménye `["a","b","c"]`.
 
 ### `template`
 
