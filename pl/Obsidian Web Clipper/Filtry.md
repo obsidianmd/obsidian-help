@@ -102,6 +102,13 @@ Usuwa białe znaki z obu końców ciągu.
 
 - `"  hello world  "|trim` zwraca `"hello world"`.
 
+### `unescape`
+
+Konwertuje sekwencje ucieczki cudzysłowów i znaków nowej linii na znaki dosłowne.
+
+- `"Line 1\\nLine 2"|unescape` zwraca tekst w dwóch liniach.
+- `'He said \\"hello\\"'|unescape` zwraca `He said "hello"`.
+
 ### `uncamel`
 
 Konwertuje camelCase lub PascalCase na słowa oddzielone spacjami, które można dalej formatować innymi filtrami, takimi jak `title` lub `capitalize`.
@@ -149,15 +156,15 @@ Konwertuje ciągi, tablice lub obiekty na składnię obrazów Markdown.
 
 - Dla ciągów: `"image.jpg"|image:"alt text"` zwraca `![alt text](image.jpg)`.
 - Dla tablic: `["image1.jpg","image2.jpg"]|image:"alt text"` zwraca tablicę ciągów obrazów Markdown z tym samym tekstem alternatywnym dla wszystkich obrazów.
-- Dla obiektów: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` zwraca ciągi obrazów Markdown z tekstem alternatywnym z kluczy obiektu.
+- Dla obiektów: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` zwraca ciągi obrazów Markdown z tekstem alternatywnym z wartości obiektu.
 
 ### `link`
 
 Konwertuje ciągi, tablice lub obiekty na składnię linków Markdown (nie mylić z [[Filtry#`wikilink`|wikilink]]).
 
 - Dla ciągów: `"url"|link:"author"` zwraca `[author](url)`.
-- Dla tablic: `["url1","url2"]|link:"author"` zwraca tablicę linków Markdown z tym samym tekstem dla wszystkich linków.
-- Dla obiektów: `{"url1": "Author 1", "url2": "Author 2"}|link` zwraca linki Markdown z tekstem odpowiadającym kluczom obiektu.
+- Dla tablic: `["url1","url2"]|link:"author"` zwraca linki Markdown z tym samym tekstem dla wszystkich linków, jeden link na linię.
+- Dla obiektów: `{"url1": "Author 1", "url2": "Author 2"}|link` zwraca linki Markdown z tekstem z wartości obiektu, jeden link na linię.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Zwraca długość ciągów, tablic lub liczbę kluczy w obiektach.
 - Dla tablic: `["a","b","c"]|length` zwraca `3`.
 - Dla obiektów: `{"a":1,"b":2}|length` zwraca `2`.
 
+### `number_format`
+
+Formatuje liczbę z określoną liczbą miejsc po przecinku oraz opcjonalnymi separatorami dziesiętnym i tysięcznym.
+
+- `1234.567|number_format:2` zwraca `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` zwraca `"1.234,57"`.
+- Tablice i obiekty są formatowane rekurencyjnie.
+
 ### `round`
 
 Zaokrągla liczbę do najbliższej liczby całkowitej lub do określonej liczby miejsc po przecinku.
@@ -216,6 +231,10 @@ Zaokrągla liczbę do najbliższej liczby całkowitej lub do określonej liczby 
 ## Przetwarzanie HTML
 
 Przetwarzanie zawartości HTML i konwersja HTML na Markdown. Pamiętaj, że wejściowa [[Zmienne|zmienna]] musi zawierać zawartość HTML, np. używając `{{fullHtml}}`, `{{contentHtml}}` lub zmiennej `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Konwertuje HTML na ustrukturyzowany JSON zawierający tag, atrybuty i elementy potomne każdego elementu. Węzły tekstowe używają formatu `{"type":"text","content":"..."}`. Można to łączyć z filtrami takimi jak `map`, `object` i `template`, aby przekształcić wyodrębniony HTML.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Zastępuje tagi HTML, zachowując zawartość i atrybuty tagu.
 Usuwa **wszystkie** atrybuty HTML z ciągu.
 
 - Użyj `strip_attr:("class, id")`, aby zachować określone atrybuty.
-- Przykład: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` zwraca `<div id="example">Content</div>`.
+- Przykład: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` zwraca `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipuluje danymi obiektu:
 - `object:values` zwraca tablicę wartości obiektu.
 - Przykład: `{"a":1,"b":2}|object:array` zwraca `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Odwraca ciągi, tablice i kolejność wpisów w obiektach.
+
+- `"abc"|reverse` zwraca `"cba"`.
+- `["a","b","c"]|reverse` zwraca `["c","b","a"]`.
+
 ### `slice`
 
 Wyodrębnia fragment ciągu lub tablicy.
@@ -358,7 +384,7 @@ Dzieli ciąg na tablicę podciągów.
 - `"a,b,c"|split:","` zwraca `["a","b","c"]`.
 - `"hello world"|split:" "` zwraca `["hello","world"]`.
 - Jeśli nie podano separatora, dzieli na każdy znak: `"hello"|split` zwraca `["h","e","l","l","o"]`.
-- Wyrażenia regularne mogą być używane jako separatory: `"a1b2c3"|split:[0-9]` zwraca `["a","b","c"]`.
+- Wyrażenia regularne mogą być używane jako separatory: `"a1b2c3"|split:[0-9]` zwraca `["a","b","c",""]`. Ostatni element jest pusty, ponieważ ciąg kończy się separatorem.
 
 ### `template`
 

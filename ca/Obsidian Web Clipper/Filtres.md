@@ -102,6 +102,13 @@ Elimina els espais en blanc dels dos extrems d'una cadena.
 
 - `"  hello world  "|trim` retorna `"hello world"`.
 
+### `unescape`
+
+Converteix cometes escapades i seqüències de salt de línia en caràcters literals.
+
+- `"Line 1\\nLine 2"|unescape` retorna el text en dues línies.
+- `'He said \\"hello\\"'|unescape` retorna `He said "hello"`.
+
 ### `uncamel`
 
 Converteix camelCase o PascalCase a paraules separades per espais, que pots formatar encara més amb altres filtres com `title` o `capitalize`.
@@ -149,15 +156,15 @@ Converteix cadenes, matrius o objectes en sintaxi d'imatge Markdown.
 
 - Per a cadenes: `"image.jpg"|image:"alt text"` retorna `![alt text](image.jpg)`.
 - Per a matrius: `["image1.jpg","image2.jpg"]|image:"alt text"` retorna una matriu de cadenes d'imatge Markdown amb el mateix text alternatiu per a totes les imatges.
-- Per a objectes: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna cadenes d'imatge Markdown amb el text alternatiu de les claus de l'objecte.
+- Per a objectes: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna cadenes d'imatge Markdown amb el text alternatiu dels valors de l'objecte.
 
 ### `link`
 
 Converteix cadenes, matrius o objectes en sintaxi d'enllaç Markdown (no confondre amb [[Filtres#`wikilink`|wikilink]]).
 
 - Per a cadenes: `"url"|link:"author"` retorna `[author](url)`.
-- Per a matrius: `["url1","url2"]|link:"author"` retorna una matriu d'enllaços Markdown amb el mateix text per a tots els enllaços.
-- Per a objectes: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna enllaços Markdown amb el text que coincideix amb les claus de l'objecte.
+- Per a matrius: `["url1","url2"]|link:"author"` retorna enllaços Markdown amb el mateix text per a tots els enllaços, un enllaç per línia.
+- Per a objectes: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna enllaços Markdown amb el text dels valors de l'objecte, un enllaç per línia.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Retorna la longitud de cadenes, matrius o el nombre de claus en objectes.
 - Per a matrius: `["a","b","c"]|length` retorna `3`.
 - Per a objectes: `{"a":1,"b":2}|length` retorna `2`.
 
+### `number_format`
+
+Formata un número amb un nombre especificat de decimals i separadors de decimals i milers opcionals.
+
+- `1234.567|number_format:2` retorna `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` retorna `"1.234,57"`.
+- Les matrius i objectes es formaten recursivament.
+
 ### `round`
 
 Arrodoneix un número a l'enter més proper o a un nombre especificat de decimals.
@@ -216,6 +231,10 @@ Arrodoneix un número a l'enter més proper o a un nombre especificat de decimal
 ## Processament d'HTML
 
 Processa contingut HTML i converteix HTML a Markdown. Tingueu en compte que la vostra [[Obsidian Web Clipper/Variables|variable]] d'entrada ha de contenir contingut HTML, p. ex. utilitzant `{{fullHtml}}`, `{{contentHtml}}` o una variable `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Converteix HTML en JSON estructurat que conté l'etiqueta, els atributs i els fills de cada element. Els nodes de text utilitzen el format `{"type":"text","content":"..."}`. Això es pot combinar amb filtres com `map`, `object` i `template` per reformar l'HTML extret.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Substitueix etiquetes HTML, mantenint el contingut i els atributs de l'etiqueta.
 Elimina **tots** els atributs HTML d'una cadena.
 
 - Utilitza `strip_attr:("class, id")` per conservar atributs específics.
-- Exemple: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div id="example">Content</div>`.
+- Exemple: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipula dades d'objectes:
 - `object:values` retorna una matriu dels valors de l'objecte.
 - Exemple: `{"a":1,"b":2}|object:array` retorna `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Inverteix cadenes, matrius i l'ordre de les entrades d'objectes.
+
+- `"abc"|reverse` retorna `"cba"`.
+- `["a","b","c"]|reverse` retorna `["c","b","a"]`.
+
 ### `slice`
 
 Extreu una porció d'una cadena o matriu.
@@ -358,7 +384,7 @@ Divideix una cadena en una matriu de subcadenes.
 - `"a,b,c"|split:","` retorna `["a","b","c"]`.
 - `"hello world"|split:" "` retorna `["hello","world"]`.
 - Si no es proporciona cap separador, divideix en cada caràcter: `"hello"|split` retorna `["h","e","l","l","o"]`.
-- Es poden utilitzar expressions regulars com a separadors: `"a1b2c3"|split:[0-9]` retorna `["a","b","c"]`.
+- Es poden utilitzar expressions regulars com a separadors: `"a1b2c3"|split:[0-9]` retorna `["a","b","c",""]`. L'últim element és buit perquè la cadena acaba amb un separador.
 
 ### `template`
 

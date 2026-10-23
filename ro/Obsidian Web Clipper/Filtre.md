@@ -158,15 +158,15 @@ Convertește șiruri, array-uri sau obiecte în sintaxă Markdown pentru imagini
 
 - Pentru șiruri: `"image.jpg"|image:"alt text"` returnează `![alt text](image.jpg)`.
 - Pentru array-uri: `["image1.jpg","image2.jpg"]|image:"alt text"` returnează un array de șiruri Markdown pentru imagini, cu același text alternativ pentru toate imaginile.
-- Pentru obiecte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnează șiruri Markdown pentru imagini cu textul alternativ preluat din cheile obiectului.
+- Pentru obiecte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnează șiruri Markdown pentru imagini cu textul alternativ preluat din valorile obiectului.
 
 ### `link`
 
 Convertește șiruri, array-uri sau obiecte în sintaxă Markdown pentru legături (a nu se confunda cu [[Filtre#`wikilink`|wikilink]]).
 
 - Pentru șiruri: `"url"|link:"author"` returnează `[author](url)`.
-- Pentru array-uri: `["url1","url2"]|link:"author"` returnează un array de legături Markdown cu același text pentru toate legăturile.
-- Pentru obiecte: `{"url1": "Author 1", "url2": "Author 2"}|link` returnează legături Markdown cu textul care corespunde cheilor obiectului.
+- Pentru array-uri: `["url1","url2"]|link:"author"` returnează legături Markdown cu același text pentru toate legăturile, câte o legătură pe linie.
+- Pentru obiecte: `{"url1": "Author 1", "url2": "Author 2"}|link` returnează legături Markdown cu textul preluat din valorile obiectului, câte o legătură pe linie.
 
 ### `list`
 
@@ -276,7 +276,7 @@ Elimină doar etichetele HTML specificate. Păstrează conținutul etichetelor.
 Elimină **toate** atributele HTML dintr-un șir.
 
 - Folosește `strip_attr:("class, id")` pentru a păstra atribute specifice.
-- Exemplu: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnează `<div id="example">Content</div>`.
+- Exemplu: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnează `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -386,7 +386,7 @@ Extrage o porțiune dintr-un șir sau array.
 - `"a,b,c"|split:","` returnează `["a","b","c"]`.
 - `"hello world"|split:" "` returnează `["hello","world"]`.
 - Dacă nu este furnizat niciun separator, se face împărțirea pe fiecare caracter: `"hello"|split` returnează `["h","e","l","l","o"]`.
-- Expresiile regulate pot fi folosite ca separatori: `"a1b2c3"|split:[0-9]` returnează `["a","b","c"]`.
+- Expresiile regulate pot fi folosite ca separatori: `"a1b2c3"|split:[0-9]` returnează `["a","b","c",""]`. Ultimul element este gol deoarece șirul se termină cu un separator.
 
 ### `template`
 

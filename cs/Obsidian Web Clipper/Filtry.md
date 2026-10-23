@@ -102,6 +102,13 @@ Odstraní bílé znaky z obou konců řetězce.
 
 - `"  hello world  "|trim` vrátí `"hello world"`.
 
+### `unescape`
+
+Převede escapované uvozovky a sekvence nových řádků na doslovné znaky.
+
+- `"Line 1\\nLine 2"|unescape` vrátí text na dvou řádcích.
+- `'He said \\"hello\\"'|unescape` vrátí `He said "hello"`.
+
 ### `uncamel`
 
 Převede camelCase nebo PascalCase na slova oddělená mezerami, která můžete dále formátovat jinými filtry jako `title` nebo `capitalize`.
@@ -149,15 +156,15 @@ Převede řetězce, pole nebo objekty na syntaxi obrázků v Markdown.
 
 - Pro řetězce: `"image.jpg"|image:"alt text"` vrátí `![alt text](image.jpg)`.
 - Pro pole: `["image1.jpg","image2.jpg"]|image:"alt text"` vrátí pole řetězců obrázků v Markdown se stejným alternativním textem pro všechny obrázky.
-- Pro objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vrátí řetězce obrázků v Markdown s alternativním textem z klíčů objektu.
+- Pro objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vrátí řetězce obrázků v Markdown s alternativním textem z hodnot objektu.
 
 ### `link`
 
 Převede řetězce, pole nebo objekty na syntaxi odkazů v Markdown (nezaměňujte s [[Filtry#`wikilink`|wikilink]]).
 
 - Pro řetězce: `"url"|link:"author"` vrátí `[author](url)`.
-- Pro pole: `["url1","url2"]|link:"author"` vrátí pole odkazů v Markdown se stejným textem pro všechny odkazy.
-- Pro objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vrátí odkazy v Markdown s textem odpovídajícím klíčům objektu.
+- Pro pole: `["url1","url2"]|link:"author"` vrátí odkazy v Markdown se stejným textem pro všechny odkazy, jeden odkaz na řádek.
+- Pro objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vrátí odkazy v Markdown s textem z hodnot objektu, jeden odkaz na řádek.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Vrátí délku řetězců, polí nebo počet klíčů v objektech.
 - Pro pole: `["a","b","c"]|length` vrátí `3`.
 - Pro objekty: `{"a":1,"b":2}|length` vrátí `2`.
 
+### `number_format`
+
+Formátuje číslo se zadaným počtem desetinných míst a volitelnými oddělovači desetinných míst a tisíců.
+
+- `1234.567|number_format:2` vrátí `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` vrátí `"1.234,57"`.
+- Pole a objekty jsou formátovány rekurzivně.
+
 ### `round`
 
 Zaokrouhlí číslo na nejbližší celé číslo nebo na zadaný počet desetinných míst.
@@ -216,6 +231,10 @@ Zaokrouhlí číslo na nejbližší celé číslo nebo na zadaný počet desetin
 ## Zpracování HTML
 
 Zpracování HTML obsahu a převod HTML na Markdown. Všimněte si, že vaše vstupní [[Proměnné|proměnná]] musí obsahovat HTML obsah, např. pomocí `{{fullHtml}}`, `{{contentHtml}}` nebo proměnné `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Převede HTML na strukturovaný JSON obsahující značku, atributy a potomky každého elementu. Textové uzly používají formát `{"type":"text","content":"..."}`. Lze kombinovat s filtry jako `map`, `object` a `template` pro přeformátování extrahovaného HTML.
 
 ### `markdown` 
 
@@ -255,7 +274,7 @@ Nahradí HTML značky, přičemž zachová obsah a atributy značky.
 Odstraní **všechny** HTML atributy z řetězce.
 
 - Pomocí `strip_attr:("class, id")` lze ponechat konkrétní atributy.
-- Příklad: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` vrátí `<div id="example">Content</div>`.
+- Příklad: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` vrátí `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipuluje s daty objektů:
 - `object:values` vrátí pole hodnot objektu.
 - Příklad: `{"a":1,"b":2}|object:array` vrátí `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Obrátí řetězce, pole a pořadí záznamů v objektech.
+
+- `"abc"|reverse` vrátí `"cba"`.
+- `["a","b","c"]|reverse` vrátí `["c","b","a"]`.
+
 ### `slice`
 
 Extrahuje část řetězce nebo pole.
@@ -358,7 +384,7 @@ Rozdělí řetězec na pole podřetězců.
 - `"a,b,c"|split:","` vrátí `["a","b","c"]`.
 - `"hello world"|split:" "` vrátí `["hello","world"]`.
 - Pokud není zadán oddělovač, rozdělí na každý znak: `"hello"|split` vrátí `["h","e","l","l","o"]`.
-- Jako oddělovače lze použít regulární výrazy: `"a1b2c3"|split:[0-9]` vrátí `["a","b","c"]`.
+- Jako oddělovače lze použít regulární výrazy: `"a1b2c3"|split:[0-9]` vrátí `["a","b","c",""]`. Poslední položka je prázdná, protože řetězec končí oddělovačem.
 
 ### `template`
 

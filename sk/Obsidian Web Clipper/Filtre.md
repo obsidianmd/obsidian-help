@@ -102,6 +102,13 @@ Odstráni biele znaky z oboch koncov reťazca.
 
 - `"  hello world  "|trim` vráti `"hello world"`.
 
+### `unescape`
+
+Konvertuje escapované úvodzovky a sekvencie nového riadku na doslovné znaky.
+
+- `"Line 1\\nLine 2"|unescape` vráti text na dvoch riadkoch.
+- `'He said \\"hello\\"'|unescape` vráti `He said "hello"`.
+
 ### `uncamel`
 
 Konvertuje camelCase alebo PascalCase na slová oddelené medzerami, ktoré môžete ďalej formátovať inými filtrami ako `title` alebo `capitalize`.
@@ -149,15 +156,15 @@ Konvertuje reťazce, polia alebo objekty na Markdown syntax obrázkov.
 
 - Pre reťazce: `"image.jpg"|image:"alt text"` vráti `![alt text](image.jpg)`.
 - Pre polia: `["image1.jpg","image2.jpg"]|image:"alt text"` vráti pole Markdown reťazcov obrázkov s rovnakým alternatívnym textom pre všetky obrázky.
-- Pre objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vráti Markdown reťazce obrázkov s alternatívnym textom z kľúčov objektu.
+- Pre objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vráti Markdown reťazce obrázkov s alternatívnym textom z hodnôt objektu.
 
 ### `link`
 
 Konvertuje reťazce, polia alebo objekty na Markdown syntax odkazov (nezamieňať s [[Filtre#`wikilink`|wikilink]]).
 
 - Pre reťazce: `"url"|link:"author"` vráti `[author](url)`.
-- Pre polia: `["url1","url2"]|link:"author"` vráti pole Markdown odkazov s rovnakým textom pre všetky odkazy.
-- Pre objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vráti Markdown odkazy s textom zodpovedajúcim kľúčom objektu.
+- Pre polia: `["url1","url2"]|link:"author"` vráti Markdown odkazy s rovnakým textom pre všetky odkazy, jeden odkaz na riadok.
+- Pre objekty: `{"url1": "Author 1", "url2": "Author 2"}|link` vráti Markdown odkazy s textom z hodnôt objektu, jeden odkaz na riadok.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Vráti dĺžku reťazcov, polí alebo počet kľúčov v objektoch.
 - Pre polia: `["a","b","c"]|length` vráti `3`.
 - Pre objekty: `{"a":1,"b":2}|length` vráti `2`.
 
+### `number_format`
+
+Formátuje číslo so zadaným počtom desatinných miest a voliteľnými desatinnými a tisícovými oddeľovačmi.
+
+- `1234.567|number_format:2` vráti `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` vráti `"1.234,57"`.
+- Polia a objekty sú formátované rekurzívne.
+
 ### `round`
 
 Zaokrúhli číslo na najbližšie celé číslo alebo na zadaný počet desatinných miest.
@@ -216,6 +231,10 @@ Zaokrúhli číslo na najbližšie celé číslo alebo na zadaný počet desatin
 ## Spracovanie HTML
 
 Spracovanie HTML obsahu a konverzia HTML na Markdown. Upozorňujeme, že vaša vstupná [[Premenné|premenná]] musí obsahovať HTML obsah, napr. pomocou `{{fullHtml}}`, `{{contentHtml}}` alebo premennej `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Konvertuje HTML na štruktúrovaný JSON obsahujúci značku, atribúty a potomkov každého elementu. Textové uzly používajú formát `{"type":"text","content":"..."}`. Toto je možné kombinovať s filtrami ako `map`, `object` a `template` na preformátovanie extrahovaného HTML.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Nahradí HTML značky, pričom zachová obsah a atribúty značky.
 Odstráni **všetky** HTML atribúty z reťazca.
 
 - Použite `strip_attr:("class, id")` na zachovanie konkrétnych atribútov.
-- Príklad: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` vráti `<div id="example">Content</div>`.
+- Príklad: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` vráti `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipuluje s dátami objektu:
 - `object:values` vráti pole hodnôt objektu.
 - Príklad: `{"a":1,"b":2}|object:array` vráti `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Obráti reťazce, polia a poradie záznamov v objektoch.
+
+- `"abc"|reverse` vráti `"cba"`.
+- `["a","b","c"]|reverse` vráti `["c","b","a"]`.
+
 ### `slice`
 
 Extrahuje časť reťazca alebo poľa.
@@ -358,7 +384,7 @@ Rozdelí reťazec na pole podreťazcov.
 - `"a,b,c"|split:","` vráti `["a","b","c"]`.
 - `"hello world"|split:" "` vráti `["hello","world"]`.
 - Ak nie je zadaný oddeľovač, rozdelí na každý znak: `"hello"|split` vráti `["h","e","l","l","o"]`.
-- Regulárne výrazy je možné použiť ako oddeľovače: `"a1b2c3"|split:[0-9]` vráti `["a","b","c"]`.
+- Regulárne výrazy je možné použiť ako oddeľovače: `"a1b2c3"|split:[0-9]` vráti `["a","b","c",""]`. Posledná položka je prázdna, pretože reťazec končí oddeľovačom.
 
 ### `template`
 

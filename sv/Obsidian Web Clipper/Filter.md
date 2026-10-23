@@ -102,6 +102,13 @@ Tar bort blanksteg från båda ändar av en sträng.
 
 - `"  hello world  "|trim` returnerar `"hello world"`.
 
+### `unescape`
+
+Konverterar escapade citattecken och radbrytningssekvenser till bokstavliga tecken.
+
+- `"Line 1\\nLine 2"|unescape` returnerar texten på två rader.
+- `'He said \\"hello\\"'|unescape` returnerar `He said "hello"`.
+
 ### `uncamel`
 
 Konverterar camelCase eller PascalCase till mellanrumseparerade ord, som du sedan kan formatera vidare med andra filter som `title` eller `capitalize`.
@@ -149,15 +156,15 @@ Konverterar strängar, arrayer eller objekt till Markdown-bildsyntax.
 
 - För strängar: `"image.jpg"|image:"alt text"` returnerar `![alt text](image.jpg)`.
 - För arrayer: `["image1.jpg","image2.jpg"]|image:"alt text"` returnerar en array med Markdown-bildsträngar med samma alt-text för alla bilder.
-- För objekt: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerar Markdown-bildsträngar med alt-text från objektnycklarna.
+- För objekt: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerar Markdown-bildsträngar med alt-text från objektvärdena.
 
 ### `link`
 
 Konverterar strängar, arrayer eller objekt till Markdown-länksyntax (ska inte förväxlas med [[Filter#`wikilink`|wikilink]]).
 
 - För strängar: `"url"|link:"author"` returnerar `[author](url)`.
-- För arrayer: `["url1","url2"]|link:"author"` returnerar en array med Markdown-länkar med samma text för alla länkar.
-- För objekt: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerar Markdown-länkar med text som matchar objektnycklarna.
+- För arrayer: `["url1","url2"]|link:"author"` returnerar Markdown-länkar med samma text för alla länkar, en länk per rad.
+- För objekt: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerar Markdown-länkar med text från objektvärdena, en länk per rad.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Returnerar längden på strängar, arrayer eller antalet nycklar i objekt.
 - För arrayer: `["a","b","c"]|length` returnerar `3`.
 - För objekt: `{"a":1,"b":2}|length` returnerar `2`.
 
+### `number_format`
+
+Formaterar ett nummer med ett angivet antal decimaler och valfria decimal- och tusentalsavgränsare.
+
+- `1234.567|number_format:2` returnerar `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` returnerar `"1.234,57"`.
+- Arrayer och objekt formateras rekursivt.
+
 ### `round`
 
 Avrundar ett nummer till närmaste heltal eller till ett angivet antal decimaler.
@@ -216,6 +231,10 @@ Avrundar ett nummer till närmaste heltal eller till ett angivet antal decimaler
 ## HTML-bearbetning
 
 Bearbeta HTML-innehåll och konvertera HTML till Markdown. Observera att din [[Variabler|variabel]] för indata måste innehålla HTML-innehåll, t.ex. genom att använda `{{fullHtml}}`, `{{contentHtml}}` eller en `{{selectorHtml:}}`-variabel.
+
+### `html_to_json`
+
+Konverterar HTML till strukturerad JSON som innehåller varje elements tagg, attribut och barn. Textnoder använder formatet `{"type":"text","content":"..."}`. Detta kan kombineras med filter som `map`, `object` och `template` för att omforma extraherad HTML.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Ersätter HTML-taggar men behåller taggens innehåll och attribut.
 Tar bort **alla** HTML-attribut från en sträng.
 
 - Använd `strip_attr:("class, id")` för att behålla specifika attribut.
-- Exempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerar `<div id="example">Content</div>`.
+- Exempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerar `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipulerar objektdata:
 - `object:values` returnerar en array med objektets värden.
 - Exempel: `{"a":1,"b":2}|object:array` returnerar `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Vänder strängar, arrayer och postordningen i objekt.
+
+- `"abc"|reverse` returnerar `"cba"`.
+- `["a","b","c"]|reverse` returnerar `["c","b","a"]`.
+
 ### `slice`
 
 Extraherar en del av en sträng eller array.
@@ -358,7 +384,7 @@ Delar upp en sträng i en array av delsträngar.
 - `"a,b,c"|split:","` returnerar `["a","b","c"]`.
 - `"hello world"|split:" "` returnerar `["hello","world"]`.
 - Om ingen separator anges delas på varje tecken: `"hello"|split` returnerar `["h","e","l","l","o"]`.
-- Reguljära uttryck kan användas som separator: `"a1b2c3"|split:[0-9]` returnerar `["a","b","c"]`.
+- Reguljära uttryck kan användas som separator: `"a1b2c3"|split:[0-9]` returnerar `["a","b","c",""]`. Det sista elementet är tomt eftersom strängen slutar med en separator.
 
 ### `template`
 
