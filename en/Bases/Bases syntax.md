@@ -388,5 +388,5 @@ Links can also be checked in list contains, for example, `authors.contains(this)
 
 URLs in [[Properties|frontmatter properties]] are automatically recognized as URL objects. URLs will render as a clickable link in the [[Views|view]].
 
-- To construct a URL, use the global `link` [[Functions|function]] with a web address, for example `link("https://obsidian.md")`.
+- To construct a URL, use the global `link` [[Functions|function]], for example `link("https://obsidian.md")`.
 - To set the display text, pass in an optional string as a second parameter, for example `link("https://obsidian.md", "Obsidian")`.
