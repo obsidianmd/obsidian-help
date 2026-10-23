@@ -91,7 +91,7 @@ Queste due sezioni sono funzionalmente equivalenti e quando vengono valutate per
 La sezione `filters` contiene una singola istruzione di filtro come stringa, oppure un oggetto filtro definito ricorsivamente. Gli oggetti filtro possono contenere uno tra `and`, `or` o `not`. Queste chiavi sono un elenco eterogeneo di altri oggetti filtro o istruzioni di filtro sotto forma di stringhe. Un'istruzione di filtro è una riga che restituisce un valore vero o falso quando applicata a una nota. Può essere una delle seguenti:
 
 - Un confronto di base che utilizza operatori aritmetici standard.
-- Una funzione. Diverse [[Funzioni|Funzioni]] sono integrate, e i plugin possono aggiungere funzioni aggiuntive.
+- Una funzione. Diverse [[Funzioni]] sono integrate, e i plugin possono aggiungere funzioni aggiuntive.
 
 La sintassi e le funzioni disponibili per filtri e formule sono le stesse.
 
@@ -105,7 +105,7 @@ formulas:
   ppu: "(price / age).toFixed(2)"
 ```
 
-Le proprietà formula supportano operatori aritmetici di base e una varietà di [[Funzioni|Funzioni]] integrate. In futuro, i plugin potranno aggiungere funzioni da utilizzare nelle formule.
+Le proprietà formula supportano operatori aritmetici di base e una varietà di [[Funzioni]] integrate. In futuro, i plugin potranno aggiungere funzioni da utilizzare nelle formule.
 
 Puoi fare riferimento alle proprietà in modi diversi a seconda del loro tipo:
 
@@ -307,7 +307,7 @@ La [[Funzioni|funzione]] globale `today()` può essere utilizzata per ottenere l
 - `now() + "1 day"` restituisce un datetime esattamente 24 ore dal momento dell'esecuzione.
 - `file.mtime > now() - "1 week"` restituisce `true` se il file è stato modificato nell'ultima settimana.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` restituisce un oggetto Date che rappresenta `2025-01-01 04:03:00`.
-- Sottrai due date per ottenere la differenza in millisecondi tra le due, ad esempio, `now() - file.ctime`.
+- Sottrai due date per ottenere una durata, ad esempio, `note.release_date - today()`.
 - Per ottenere la parte data di una Date con ora, usa `datetime.date()`.
 - Per formattare un oggetto Date, usa la funzione `format()`, ad esempio `datetime.format("YYYY-MM-DD")`.
 
@@ -356,7 +356,8 @@ Le date rappresentano una data specifica, o una data e un'ora a seconda della fu
 
 - Per costruire una data, usa la funzione `date`, ad esempio `date("2025-01-01 12:00:00")`
 - Per modificare una data, aggiungi o rimuovi una durata, ad esempio `now() + "1 hour"` o `today() + "7d"`
-- Confronta le date usando operatori di confronto (ad esempio `>` o `<`) e operatori aritmetici (ad esempio, `(now() + "1d") - now()` restituisce `86400000` millisecondi.)
+- Confronta le date usando operatori di confronto, ad esempio `>` o `<`.
+- Sottrai una data da un'altra per ottenere una durata, ad esempio `note.release_date - today()`.
 - Per estrarre porzioni di una data, usa i campi disponibili (`now().hour`), o una funzione di comodo (`now.time()`).
 - Molti altri [[Funzioni|campi e funzioni]] sono disponibili sugli oggetti data.
 

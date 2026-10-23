@@ -305,7 +305,7 @@ A globális `today()` [[Függvények|függvény]] az aktuális dátum lekérés�
 - `now() + "1 day"` pontosan 24 órával a végrehajtás időpontja utáni dátumot és időt ad vissza.
 - `file.mtime > now() - "1 week"` `true` értéket ad vissza, ha a fájl az elmúlt héten módosult.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` egy `2025-01-01 04:03:00` dátumot reprezentáló Dátum objektumot ad vissza.
-- Két dátum kivonásával megkapod a köztük lévő különbséget ezredmásodpercben, például `now() - file.ctime`.
+- Két dátum kivonásával időtartamot kapsz, például `note.release_date - today()`.
 - Egy időt is tartalmazó dátumból a dátumrész kinyeréséhez használd a `datetime.date()` függvényt.
 - Egy Dátum objektum formázásához használd a `format()` függvényt, például `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ A dátumok egy adott dátumot, vagy dátumot és időt jelölnek, a létrehozás
 
 - Dátum létrehozásához használd a `date` függvényt, például `date("2025-01-01 12:00:00")`
 - Dátum módosításához adj hozzá vagy vonj le egy időtartamot, például `now() + "1 hour"` vagy `today() + "7d"`
-- Dátumok összehasonlítása összehasonlító operátorokkal (pl. `>` vagy `<`) és aritmetikai operátorokkal (például `(now() + "1d") - now()` `86400000` ezredmásodpercet ad vissza.)
+- Dátumok összehasonlítása összehasonlító operátorokkal, például `>` vagy `<`.
+- Két dátum kivonásával időtartamot kapsz, például `note.release_date - today()`.
 - Dátum egyes részeinek kinyeréséhez használd az elérhető mezőket (`now().hour`) vagy kényelmi függvényeket (`now.time()`).
 - Számos további [[Függvények|mező és függvény]] érhető el dátum objektumokon.
 

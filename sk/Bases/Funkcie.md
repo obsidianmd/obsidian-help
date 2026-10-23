@@ -148,7 +148,7 @@ Funkcie, ktoré môžete použiť s akoukoľvek hodnotou. To zahŕňa reťazce (
 `any.isTruthy(): boolean`
 
 - Vráti hodnotu pretypovanú na boolean.
-- Príklad: `1.isTruthy()` vráti `true`.
+- Príklad: `(1).isTruthy()` vráti `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funkcie, ktoré môžete použiť s akoukoľvek hodnotou. To zahŕňa reťazce (
 `any.toString(): string`
 
 - Vráti reťazcovú reprezentáciu akejkoľvek hodnoty.
-- Príklad: `123.toString()` vráti `"123"`.
+- Príklad: `(123).toString()` vráti `"123"`.
 
 ## Typ Dátum
 
@@ -369,7 +369,7 @@ Funkcie, ktoré môžete použiť s číselnými hodnotami, ako napríklad `42`,
 `number.isEmpty(): boolean`
 
 - Vráti true, ak číslo nie je prítomné.
-- Príklad: `5.isEmpty()` vráti `false`.
+- Príklad: `(5).isEmpty()` vráti `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Pre súbory sú dostupné nasledujúce polia:
 
 ## Typ Objekt
 
-Funkcie, ktoré môžete použiť s kolekciou párov kľúč-hodnota, ako napríklad `{"a": 1, "b": 2}`.
+Funkcie, ktoré môžete použiť s hodnotami objektov, ako napríklad `file.properties`, ktoré obsahujú kolekciu párov kľúč-hodnota.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Vráti true, ak objekt nemá žiadne vlastné vlastnosti.
-- Príklad: `{}.isEmpty()` vráti `true`.
+- Príklad: `file.properties.isEmpty()` vráti `true`, ak súbor nemá žiadne vlastnosti.
 
 ### `keys()`
 

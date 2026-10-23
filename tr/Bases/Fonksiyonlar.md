@@ -148,7 +148,7 @@ Herhangi bir değerle kullanabileceğiniz fonksiyonlar. Buna dizeler (ör. `"mer
 `any.isTruthy(): boolean`
 
 - Değeri boolean'a zorlanmış olarak döndürür.
-- Örnek: `1.isTruthy()` `true` döndürür.
+- Örnek: `(1).isTruthy()` `true` döndürür.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Herhangi bir değerle kullanabileceğiniz fonksiyonlar. Buna dizeler (ör. `"mer
 `any.toString(): string`
 
 - Herhangi bir değerin dize temsilini döndürür.
-- Örnek: `123.toString()` `"123"` döndürür.
+- Örnek: `(123).toString()` `"123"` döndürür.
 
 ## Date türü
 
@@ -369,7 +369,7 @@ Tarihler için aşağıdaki alanlar mevcuttur:
 `number.isEmpty(): boolean`
 
 - Sayı mevcut değilse true döndürür.
-- Örnek: `5.isEmpty()` `false` döndürür.
+- Örnek: `(5).isEmpty()` `false` döndürür.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Dosyalar için aşağıdaki alanlar mevcuttur:
 
 ## Object türü
 
-`{"a": 1, "b": 2}` gibi anahtar-değer çiftleri koleksiyonuyla kullanabileceğiniz fonksiyonlar.
+`file.properties` gibi anahtar-değer çiftleri koleksiyonu içeren nesne değerleriyle kullanabileceğiniz fonksiyonlar.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Nesnenin kendi özelliği yoksa true döndürür.
-- Örnek: `{}.isEmpty()` `true` döndürür.
+- Örnek: `file.properties.isEmpty()` dosyanın özelliği yoksa `true` döndürür.
 
 ### `keys()`
 

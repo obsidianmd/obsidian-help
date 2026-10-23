@@ -148,7 +148,7 @@ Funkcje, których możesz używać z dowolną wartością. Obejmuje to ciągi zn
 `any.isTruthy(): boolean`
 
 - Zwraca wartość skonwertowaną na wartość logiczną.
-- Przykład: `1.isTruthy()` zwraca `true`.
+- Przykład: `(1).isTruthy()` zwraca `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funkcje, których możesz używać z dowolną wartością. Obejmuje to ciągi zn
 `any.toString(): string`
 
 - Zwraca reprezentację tekstową dowolnej wartości.
-- Przykład: `123.toString()` zwraca `"123"`.
+- Przykład: `(123).toString()` zwraca `"123"`.
 
 ## Typ data
 
@@ -369,7 +369,7 @@ Funkcje, których możesz używać z wartościami liczbowymi, takimi jak `42`, `
 `number.isEmpty(): boolean`
 
 - Zwraca true, jeśli liczba nie jest obecna.
-- Przykład: `5.isEmpty()` zwraca `false`.
+- Przykład: `(5).isEmpty()` zwraca `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Następujące pola są dostępne dla plików:
 
 ## Typ obiekt
 
-Funkcje, których możesz używać z kolekcją par klucz-wartość, taką jak `{"a": 1, "b": 2}`.
+Funkcje, których możesz używać z wartościami obiektowymi, takimi jak `file.properties`, które zawierają kolekcję par klucz-wartość.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Zwraca true, jeśli obiekt nie ma własnych właściwości.
-- Przykład: `{}.isEmpty()` zwraca `true`.
+- Przykład: `file.properties.isEmpty()` zwraca `true`, jeśli plik nie ma właściwości.
 
 ### `keys()`
 

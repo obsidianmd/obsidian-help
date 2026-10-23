@@ -305,7 +305,7 @@ La [[Funcions|funció]] global `today()` es pot utilitzar per obtenir la data ac
 - `now() + "1 day"` retorna una data i hora exactament 24 hores des del moment d'execució.
 - `file.mtime > now() - "1 week"` retorna `true` si el fitxer s'ha modificat durant l'última setmana.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` retorna un objecte Date que representa `2025-01-01 04:03:00`.
-- Resta dues dates per obtenir la diferència en mil·lisegons entre les dues, per exemple, `now() - file.ctime`.
+- Resta dues dates per obtenir una durada, per exemple, `note.release_date - today()`.
 - Per obtenir la part de data d'una Date amb hora, utilitza `datetime.date()`.
 - Per formatar un objecte Date, utilitza la funció `format()`, per exemple `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Les dates representen una data específica, o una data i hora depenent de la fun
 
 - Per construir una data, utilitza la funció `date`, per exemple `date("2025-01-01 12:00:00")`
 - Per modificar una data, afegeix o elimina una durada, per exemple `now() + "1 hour"` o `today() + "7d"`
-- Compara dates utilitzant operadors de comparació (p. ex. `>` o `<`) i operadors aritmètics (per exemple, `(now() + "1d") - now()` retorna `86400000` mil·lisegons.)
+- Compara dates utilitzant operadors de comparació, per exemple `>` o `<`.
+- Resta una data d'una altra per obtenir una durada, per exemple `note.release_date - today()`.
 - Per extreure parts d'una data, utilitza els camps disponibles (`now().hour`), o una funció de conveniència (`now.time()`).
 - Molts altres [[Funcions|camps i funcions]] estan disponibles als objectes de data.
 

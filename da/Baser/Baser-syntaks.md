@@ -309,7 +309,7 @@ Den global [[Funktioner|funktion]] `today()` kan anvendes til at få den nuvære
 - `now() + "1 day"` returnerer en datotid præcist 24 timer fra at beregningen udføres
 - `file.mtime > now() - "1 week"` returnerer `true` hvis filen er blevet modificeret indenfor den sidste uge
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returnerer et datoobejkt, der repræsenterer `2025-01-01 04:03:00`
-- Fratræk to datoer for at få forskellen i antal af milisekeunder mellem dem, fx. `now() - file.ctime`
+- Fratræk to datoer for at få en varighed, fx. `note.release_date - today()`
 - For at få datoen fra en datotid, anvend `datetime.date()`
 - Anvend `format()` funktionen til at formetere et datoobjekt, fx. `datetime.format("YYYY-MM-DD")`
 
@@ -358,7 +358,8 @@ Datoer repræsenterer en specifik dato, eller en datotid afhængig af den funkti
 
 - Benyt `date` funktionen for at oprette en dato, fx. `date("2025-01-01 12:00:00")`
 - Tilføj eller fratræk en varihed for at modificere en dato, fx. `now() + "1 hour"` or `today() + "7d"`
-- Sammenlign datoer ved ta anvende sammenligningsoperatorer (fx. `>` eller `<`) og aritmetiske operatorer (fx. vil `(now() + "1d") - now()` returnere `86400000` millisekunder.)
+- Sammenlign datoer ved at anvende sammenligningsoperatorer, fx. `>` eller `<`.
+- Fratræk en dato fra en anden for at få en varighed, fx. `note.release_date - today()`.
 - Benyt de tilgængelige felter (`now().hour`) eller den bekvemmelige funktion (`now.time()`), for at udtrække dele af en dato
 - Der er mange andre [[Funktioner|felter og funktioner]] til rådighed for datoobjekter
 

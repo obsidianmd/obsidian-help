@@ -305,7 +305,7 @@ Globalna [[Funkcje|funkcja]] `today()` może być użyta do pobrania bieżącej 
 - `now() + "1 day"` zwraca datę i czas dokładnie 24 godziny od momentu wykonania.
 - `file.mtime > now() - "1 week"` zwraca `true`, jeśli plik został zmodyfikowany w ciągu ostatniego tygodnia.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` zwraca obiekt Date reprezentujący `2025-01-01 04:03:00`.
-- Odejmij dwie daty, aby uzyskać różnicę w milisekundach między nimi, na przykład `now() - file.ctime`.
+- Odejmij dwie daty, aby uzyskać czas trwania, na przykład `note.release_date - today()`.
 - Aby uzyskać część datową z daty z czasem, użyj `datetime.date()`.
 - Aby sformatować obiekt Date, użyj funkcji `format()`, na przykład `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Daty reprezentują konkretną datę lub datę i czas, w zależności od funkcji 
 
 - Aby skonstruować datę, użyj funkcji `date`, na przykład `date("2025-01-01 12:00:00")`
 - Aby zmodyfikować datę, dodaj lub odejmij czas trwania, na przykład `now() + "1 hour"` lub `today() + "7d"`
-- Porównuj daty za pomocą operatorów porównania (np. `>` lub `<`) i operatorów arytmetycznych (na przykład `(now() + "1d") - now()` zwraca `86400000` milisekund).
+- Porównuj daty za pomocą operatorów porównania, na przykład `>` lub `<`.
+- Odejmij jedną datę od drugiej, aby uzyskać czas trwania, na przykład `note.release_date - today()`.
 - Aby wyodrębnić części daty, użyj dostępnych pól (`now().hour`) lub funkcji pomocniczych (`now.time()`).
 - Wiele innych [[Funkcje|pól i funkcji]] jest dostępnych na obiektach daty.
 

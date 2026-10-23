@@ -305,7 +305,7 @@ Untuk memodifikasi atau menggeser objek Tanggal, gunakan operator `+` atau `-` d
 - `now() + "1 day"` mengembalikan datetime tepat 24 jam dari waktu eksekusi.
 - `file.mtime > now() - "1 week"` mengembalikan `true` jika file dimodifikasi dalam seminggu terakhir.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` mengembalikan objek Tanggal yang merepresentasikan `2025-01-01 04:03:00`.
-- Kurangi dua tanggal untuk mendapatkan selisih milidetik antara keduanya, misalnya, `now() - file.ctime`.
+- Kurangi dua tanggal untuk mendapatkan durasi, misalnya, `note.release_date - today()`.
 - Untuk mendapatkan bagian tanggal dari Tanggal dengan waktu, gunakan `datetime.date()`.
 - Untuk memformat objek Tanggal, gunakan fungsi `format()`, misalnya `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Tanggal merepresentasikan tanggal tertentu, atau tanggal dan waktu tergantung pa
 
 - Untuk membuat tanggal, gunakan fungsi `date`, misalnya `date("2025-01-01 12:00:00")`
 - Untuk memodifikasi tanggal, tambahkan atau kurangi durasi, misalnya `now() + "1 hour"` atau `today() + "7d"`
-- Bandingkan tanggal menggunakan operator perbandingan (misalnya `>` atau `<`) dan operator aritmatika (misalnya, `(now() + "1d") - now()` mengembalikan `86400000` milidetik.)
+- Bandingkan tanggal menggunakan operator perbandingan, misalnya `>` atau `<`.
+- Kurangi satu tanggal dari tanggal lain untuk mendapatkan durasi, misalnya `note.release_date - today()`.
 - Untuk mengekstrak bagian dari tanggal, gunakan bidang yang tersedia (`now().hour`), atau fungsi kemudahan (`now.time()`).
 - Banyak [[Fungsi|bidang dan fungsi]] lainnya tersedia pada objek tanggal.
 

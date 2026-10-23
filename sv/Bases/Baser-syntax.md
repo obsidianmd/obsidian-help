@@ -305,7 +305,7 @@ Den globala [[Funktioner|funktionen]] `today()` kan användas för att hämta ak
 - `now() + "1 day"` returnerar en datumtid exakt 24 timmar från exekveringstillfället.
 - `file.mtime > now() - "1 week"` returnerar `true` om filen ändrades under den senaste veckan.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returnerar ett Date-objekt som representerar `2025-01-01 04:03:00`.
-- Subtrahera två datum för att få millisekundskillnaden mellan dem, till exempel `now() - file.ctime`.
+- Subtrahera två datum för att få en varaktighet, till exempel `note.release_date - today()`.
 - För att hämta datumdelen av ett Date med tid, använd `datetime.date()`.
 - För att formatera ett Date-objekt, använd funktionen `format()`, till exempel `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Datum representerar ett specifikt datum, eller ett datum och tid beroende på fu
 
 - För att konstruera ett datum, använd funktionen `date`, till exempel `date("2025-01-01 12:00:00")`
 - För att modifiera ett datum, addera eller subtrahera en varaktighet, till exempel `now() + "1 hour"` eller `today() + "7d"`
-- Jämför datum med jämförelseoperatorer (t.ex. `>` eller `<`) och aritmetiska operatorer (till exempel returnerar `(now() + "1d") - now()` `86400000` millisekunder.)
+- Jämför datum med jämförelseoperatorer, till exempel `>` eller `<`.
+- Subtrahera ett datum från ett annat för att få en varaktighet, till exempel `note.release_date - today()`.
 - För att extrahera delar av ett datum, använd de tillgängliga fälten (`now().hour`), eller en bekvämlighetsfunktion (`now.time()`).
 - Många andra [[Funktioner|fält och funktioner]] är tillgängliga på datumobjekt.
 

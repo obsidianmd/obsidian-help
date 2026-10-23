@@ -305,7 +305,7 @@ Geçerli tarihi almak için genel [[Fonksiyonlar|fonksiyon]] `today()`, geçerli
 - `now() + "1 day"` yürütme anından tam 24 saat sonrasını döndürür.
 - `file.mtime > now() - "1 week"` dosya son bir hafta içinde değiştirilmişse `true` döndürür.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` `2025-01-01 04:03:00`'ı temsil eden bir Tarih nesnesi döndürür.
-- İki tarih arasındaki milisaniye farkını almak için iki tarihi çıkarın, örneğin `now() - file.ctime`.
+- Bir süre elde etmek için iki tarihi çıkarın, örneğin `note.release_date - today()`.
 - Saat içeren bir Tarihin tarih kısmını almak için `datetime.date()` kullanın.
 - Bir Tarih nesnesini biçimlendirmek için `format()` fonksiyonunu kullanın, örneğin `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Tarihler, oluşturmak için kullanılan fonksiyona veya [[Özellikler|özelliğe
 
 - Bir tarih oluşturmak için `date` fonksiyonunu kullanın, örneğin `date("2025-01-01 12:00:00")`
 - Bir tarihi değiştirmek için süre ekleyin veya çıkarın, örneğin `now() + "1 hour"` veya `today() + "7d"`
-- Tarihleri karşılaştırma operatörleri (örn. `>` veya `<`) ve aritmetik operatörler kullanarak karşılaştırın (örneğin, `(now() + "1d") - now()` `86400000` milisaniye döndürür.)
+- Tarihleri karşılaştırma operatörleri kullanarak karşılaştırın, örneğin `>` veya `<`.
+- Bir süre elde etmek için bir tarihten diğerini çıkarın, örneğin `note.release_date - today()`.
 - Bir tarihin bölümlerini çıkarmak için mevcut alanları (`now().hour`) veya kolaylık fonksiyonlarını (`now.time()`) kullanın.
 - Tarih nesnelerinde birçok başka [[Fonksiyonlar|alan ve fonksiyon]] mevcuttur.
 

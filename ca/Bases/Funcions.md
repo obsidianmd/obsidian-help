@@ -148,7 +148,7 @@ Funcions que pots utilitzar amb qualsevol valor. Això inclou cadenes de text (p
 `any.isTruthy(): boolean`
 
 - Retorna el valor convertit a booleà.
-- Exemple: `1.isTruthy()` retorna `true`.
+- Exemple: `(1).isTruthy()` retorna `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funcions que pots utilitzar amb qualsevol valor. Això inclou cadenes de text (p
 `any.toString(): string`
 
 - Retorna la representació en cadena de text de qualsevol valor.
-- Exemple: `123.toString()` retorna `"123"`.
+- Exemple: `(123).toString()` retorna `"123"`.
 
 ## Tipus data
 
@@ -369,7 +369,7 @@ Funcions que pots utilitzar amb valors numèrics com `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Retorna cert si el número no és present.
-- Exemple: `5.isEmpty()` retorna `false`.
+- Exemple: `(5).isEmpty()` retorna `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Els camps següents estan disponibles per a fitxers:
 
 ## Tipus objecte
 
-Funcions que pots utilitzar amb una col·lecció de parells clau-valor com `{"a": 1, "b": 2}`.
+Funcions que pots utilitzar amb valors d'objecte com `file.properties`, que contenen una col·lecció de parells clau-valor.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Retorna cert si l'objecte no té propietats pròpies.
-- Exemple: `{}.isEmpty()` retorna `true`.
+- Exemple: `file.properties.isEmpty()` retorna `true` si el fitxer no té propietats.
 
 ### `keys()`
 

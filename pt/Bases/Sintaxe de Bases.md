@@ -305,7 +305,7 @@ A [[Funções|função]] global `today()` pode ser usada para obter a data atual
 - `now() + "1 day"` devolve uma data e hora exatamente 24 horas a partir do momento da execução.
 - `file.mtime > now() - "1 week"` devolve `true` se o ficheiro foi modificado na última semana.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` devolve um objeto Date representando `2025-01-01 04:03:00`.
-- Subtraia duas datas para obter a diferença em milissegundos entre ambas, por exemplo, `now() - file.ctime`.
+- Subtraia duas datas para obter uma duração, por exemplo, `note.release_date - today()`.
 - Para obter a parte da data de um Date com hora, use `datetime.date()`.
 - Para formatar um objeto Date, use a função `format()`, por exemplo `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ As datas representam uma data específica, ou uma data e hora, dependendo da fun
 
 - Para construir uma data, use a função `date`, por exemplo `date("2025-01-01 12:00:00")`
 - Para modificar uma data, adicione ou remova uma duração, por exemplo `now() + "1 hour"` ou `today() + "7d"`
-- Compare datas usando operadores de comparação (por exemplo, `>` ou `<`) e operadores aritméticos (por exemplo, `(now() + "1d") - now()` devolve `86400000` milissegundos.)
+- Compare datas usando operadores de comparação, por exemplo `>` ou `<`.
+- Subtraia uma data de outra para obter uma duração, por exemplo `note.release_date - today()`.
 - Para extrair partes de uma data, use os campos disponíveis (`now().hour`) ou uma função de conveniência (`now.time()`).
 - Muitos outros [[Funções|campos e funções]] estão disponíveis em objetos de data.
 

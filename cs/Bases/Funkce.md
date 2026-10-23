@@ -148,7 +148,7 @@ Funkce, které můžete použít s jakoukoliv hodnotou. To zahrnuje řetězce (n
 `any.isTruthy(): boolean`
 
 - Vrátí hodnotu převedenou na boolean.
-- Příklad: `1.isTruthy()` vrátí `true`.
+- Příklad: `(1).isTruthy()` vrátí `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funkce, které můžete použít s jakoukoliv hodnotou. To zahrnuje řetězce (n
 `any.toString(): string`
 
 - Vrátí řetězcovou reprezentaci jakékoliv hodnoty.
-- Příklad: `123.toString()` vrátí `"123"`.
+- Příklad: `(123).toString()` vrátí `"123"`.
 
 ## Typ datum
 
@@ -369,7 +369,7 @@ Funkce, které můžete použít s číselnými hodnotami jako `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Vrátí true, pokud číslo není přítomno.
-- Příklad: `5.isEmpty()` vrátí `false`.
+- Příklad: `(5).isEmpty()` vrátí `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Pro soubory jsou k dispozici následující pole:
 
 ## Typ objekt
 
-Funkce, které můžete použít s kolekcí párů klíč-hodnota jako `{"a": 1, "b": 2}`.
+Funkce, které můžete použít s hodnotami objektů jako `file.properties`, které obsahují kolekci párů klíč-hodnota.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Vrátí true, pokud objekt nemá žádné vlastní vlastnosti.
-- Příklad: `{}.isEmpty()` vrátí `true`.
+- Příklad: `file.properties.isEmpty()` vrátí `true`, pokud soubor nemá žádné vlastnosti.
 
 ### `keys()`
 

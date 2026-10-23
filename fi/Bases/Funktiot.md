@@ -148,7 +148,7 @@ Funktioita, joita voit käyttää minkä tahansa arvon kanssa. Tämä sisältä�
 `any.isTruthy(): boolean`
 
 - Palauttaa arvon pakotettuna totuusarvoksi.
-- Esimerkki: `1.isTruthy()` palauttaa `true`.
+- Esimerkki: `(1).isTruthy()` palauttaa `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funktioita, joita voit käyttää minkä tahansa arvon kanssa. Tämä sisältä�
 `any.toString(): string`
 
 - Palauttaa minkä tahansa arvon merkkijonoesityksen.
-- Esimerkki: `123.toString()` palauttaa `"123"`.
+- Esimerkki: `(123).toString()` palauttaa `"123"`.
 
 ## Päiväys-tyyppi
 
@@ -369,7 +369,7 @@ Funktioita, joita voit käyttää numeeristen arvojen kanssa, kuten `42`, `3.14`
 `number.isEmpty(): boolean`
 
 - Palauttaa tosi, jos lukua ei ole.
-- Esimerkki: `5.isEmpty()` palauttaa `false`.
+- Esimerkki: `(5).isEmpty()` palauttaa `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Seuraavat kentät ovat käytettävissä tiedostoille:
 
 ## Objekti-tyyppi
 
-Funktioita, joita voit käyttää avain-arvo-parien kokoelman kanssa, kuten `{"a": 1, "b": 2}`.
+Funktioita, joita voit käyttää objektiarvojen kanssa, kuten `file.properties`, jotka sisältävät avain-arvo-parien kokoelman.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Palauttaa tosi, jos objektilla ei ole omia ominaisuuksia.
-- Esimerkki: `{}.isEmpty()` palauttaa `true`.
+- Esimerkki: `file.properties.isEmpty()` palauttaa `true`, jos tiedostolla ei ole määreitä.
 
 ### `keys()`
 

@@ -152,7 +152,7 @@ Funktioner, som du kan anvende med alle værdier. Det inkluderer tekststrenge (f
 `alle.isTruthy(): boolsk`
 
 - Returnerer værdien som en boolsk værdi
-- Eksempel: `1.isTruthy()` returnerer `true`.
+- Eksempel: `(1).isTruthy()` returnerer `true`.
 
 ### `isType()`
 
@@ -166,7 +166,7 @@ Funktioner, som du kan anvende med alle værdier. Det inkluderer tekststrenge (f
 `alle.toString(): streng`
 
 - Returnerer enhver værdi som en tekststreng
-- Eksempel: `123.toString()` returnerer `"123"`
+- Eksempel: `(123).toString()` returnerer `"123"`
 
 ## Dato type
 
@@ -373,7 +373,7 @@ Funktioner du kan anvende med numeriske tal sådom `42`, `3.14`.
 `tal.isEmpty(): boolsk`
 
 - Returnerer sandt, hvis tallet ikke findes
-- Eksempel: `5.isEmpty()` returnerer `false`
+- Eksempel: `(5).isEmpty()` returnerer `false`
 
 ### `round()`
 
@@ -588,14 +588,14 @@ De følgende fleter er tilgængelige for filer:
 
 ## Objekt type
 
-Funktioner, som du kan anvende med en samling af nøgle-værdi par, såsom `{"a": 1, "b": 2}`.
+Funktioner, som du kan anvende med objektværdier såsom `file.properties`, der indeholder en samling af nøgle-værdi par.
 
 ### `isEmpty()`
 
 `objekt.isEmpty(): boolsk`
 
 - Returnerer sandt, hvis objektet ikke har nogle egne egenskaber
-- Eksempel: `{}.isEmpty()` returnerer `true`
+- Eksempel: `file.properties.isEmpty()` returnerer `true`, hvis filen ikke har nogen egenskaber.
 
 ### `keys()`
 

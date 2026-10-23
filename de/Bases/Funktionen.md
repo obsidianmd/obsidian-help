@@ -148,7 +148,7 @@ Funktionen, die mit jedem Wert verwendet werden können. Dazu gehören Zeichenke
 `any.isTruthy(): boolean`
 
 - Gibt den in einen booleschen Wert umgewandelten Wert zurück.
-- Beispiel: `1.isTruthy()` gibt `true` zurück.
+- Beispiel: `(1).isTruthy()` gibt `true` zurück.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funktionen, die mit jedem Wert verwendet werden können. Dazu gehören Zeichenke
 `any.toString(): string`
 
 - Gibt die Zeichenkettendarstellung eines beliebigen Wertes zurück.
-- Beispiel: `123.toString()` gibt `"123"` zurück.
+- Beispiel: `(123).toString()` gibt `"123"` zurück.
 
 ## Date-Typ
 
@@ -369,7 +369,7 @@ Funktionen, die mit numerischen Werten verwendet werden können, z. B. `42`, `3.
 `number.isEmpty(): boolean`
 
 - Gibt true zurück, wenn die Zahl nicht vorhanden ist.
-- Beispiel: `5.isEmpty()` gibt `false` zurück.
+- Beispiel: `(5).isEmpty()` gibt `false` zurück.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Die folgenden Felder sind für Dateien verfügbar:
 
 ## Object-Typ
 
-Funktionen, die mit einer Sammlung von Schlüssel-Wert-Paaren verwendet werden können, z. B. `{"a": 1, "b": 2}`.
+Funktionen, die mit Objektwerten wie `file.properties` verwendet werden können, die eine Sammlung von Schlüssel-Wert-Paaren enthalten.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Gibt true zurück, wenn das Objekt keine eigenen Eigenschaften hat.
-- Beispiel: `{}.isEmpty()` gibt `true` zurück.
+- Beispiel: `file.properties.isEmpty()` gibt `true` zurück, wenn die Datei keine Eigenschaften hat.
 
 ### `keys()`
 

@@ -305,7 +305,7 @@ De globale [[Functies|functie]] `today()` kan worden gebruikt om de huidige datu
 - `now() + "1 day"` retourneert een datum-tijd precies 24 uur na het moment van uitvoering.
 - `file.mtime > now() - "1 week"` retourneert `true` als het bestand binnen de afgelopen week is gewijzigd.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` retourneert een Datum-object dat `2025-01-01 04:03:00` vertegenwoordigt.
-- Trek twee datums van elkaar af om het verschil in milliseconden te krijgen, bijvoorbeeld `now() - file.ctime`.
+- Trek twee datums van elkaar af om een duur te krijgen, bijvoorbeeld `note.release_date - today()`.
 - Om het datumgedeelte van een Datum met tijd te krijgen, gebruik je `datetime.date()`.
 - Om een Datum-object op te maken, gebruik je de `format()`-functie, bijvoorbeeld `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Datums vertegenwoordigen een specifieke datum, of een datum en tijd, afhankelijk
 
 - Om een datum te construeren, gebruik je de `date`-functie, bijvoorbeeld `date("2025-01-01 12:00:00")`
 - Om een datum te wijzigen, voeg je een duur toe of trek je deze af, bijvoorbeeld `now() + "1 hour"` of `today() + "7d"`
-- Vergelijk datums met vergelijkingsoperatoren (bijv. `>` of `<`) en rekenkundige operatoren (bijvoorbeeld `(now() + "1d") - now()` retourneert `86400000` milliseconden.)
+- Vergelijk datums met vergelijkingsoperatoren, bijvoorbeeld `>` of `<`.
+- Trek de ene datum af van de andere om een duur te krijgen, bijvoorbeeld `note.release_date - today()`.
 - Om delen van een datum te extraheren, gebruik je de beschikbare velden (`now().hour`), of een gemaksfunctie (`now.time()`).
 - Veel andere [[Functies|velden en functies]] zijn beschikbaar op datum-objecten.
 

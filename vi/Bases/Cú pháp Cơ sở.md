@@ -305,7 +305,7 @@ Ngày tháng có thể được sửa đổi bằng cách cộng và trừ kho�
 - `now() + "1 day"` trả về một ngày giờ chính xác 24 giờ kể từ thời điểm thực thi.
 - `file.mtime > now() - "1 week"` trả về `true` nếu tệp được sửa đổi trong vòng một tuần qua.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` trả về một đối tượng Ngày biểu diễn `2025-01-01 04:03:00`.
-- Trừ hai ngày để lấy hiệu millisecond giữa hai ngày, ví dụ, `now() - file.ctime`.
+- Trừ hai ngày để lấy một khoảng thời gian, ví dụ, `note.release_date - today()`.
 - Để lấy phần ngày của một Ngày có giờ, sử dụng `datetime.date()`.
 - Để định dạng một đối tượng Ngày, sử dụng hàm `format()`, ví dụ `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Ngày biểu diễn một ngày cụ thể, hoặc một ngày và giờ tùy th
 
 - Để tạo một ngày, sử dụng hàm `date`, ví dụ `date("2025-01-01 12:00:00")`
 - Để sửa đổi một ngày, cộng hoặc trừ một khoảng thời gian, ví dụ `now() + "1 hour"` hoặc `today() + "7d"`
-- So sánh ngày bằng toán tử so sánh (ví dụ `>` hoặc `<`) và toán tử số học (ví dụ, `(now() + "1d") - now()` trả về `86400000` millisecond.)
+- So sánh ngày bằng toán tử so sánh, ví dụ `>` hoặc `<`.
+- Trừ một ngày cho một ngày khác để lấy một khoảng thời gian, ví dụ `note.release_date - today()`.
 - Để trích xuất các phần của một ngày, sử dụng các trường có sẵn (`now().hour`), hoặc hàm tiện ích (`now.time()`).
 - Nhiều [[Hàm|trường và hàm]] khác có sẵn trên đối tượng ngày.
 

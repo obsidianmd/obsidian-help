@@ -148,7 +148,7 @@ Các hàm bạn có thể sử dụng với bất kỳ giá trị nào. Bao gồ
 `any.isTruthy(): boolean`
 
 - Trả về giá trị được ép kiểu thành boolean.
-- Ví dụ: `1.isTruthy()` trả về `true`.
+- Ví dụ: `(1).isTruthy()` trả về `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Các hàm bạn có thể sử dụng với bất kỳ giá trị nào. Bao gồ
 `any.toString(): string`
 
 - Trả về biểu diễn chuỗi của bất kỳ giá trị nào.
-- Ví dụ: `123.toString()` trả về `"123"`.
+- Ví dụ: `(123).toString()` trả về `"123"`.
 
 ## Kiểu Ngày
 
@@ -369,7 +369,7 @@ Các hàm bạn có thể sử dụng với giá trị số như `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Trả về true nếu số không tồn tại.
-- Ví dụ: `5.isEmpty()` trả về `false`.
+- Ví dụ: `(5).isEmpty()` trả về `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Các trường sau có sẵn cho tệp:
 
 ## Kiểu Đối tượng
 
-Các hàm bạn có thể sử dụng với tập hợp các cặp khóa-giá trị như `{"a": 1, "b": 2}`.
+Các hàm bạn có thể sử dụng với giá trị đối tượng như `file.properties`, chứa tập hợp các cặp khóa-giá trị.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Trả về true nếu đối tượng không có thuộc tính riêng.
-- Ví dụ: `{}.isEmpty()` trả về `true`.
+- Ví dụ: `file.properties.isEmpty()` trả về `true` nếu tệp không có thuộc tính.
 
 ### `keys()`
 

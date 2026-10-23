@@ -149,7 +149,7 @@ Fonctions utilisables avec n'importe quelle valeur. Cela inclut les chaînes de 
 `any.isTruthy(): boolean`
 
 - Retourne la valeur convertie en booléen.
-- Exemple : `1.isTruthy()` retourne `true`.
+- Exemple : `(1).isTruthy()` retourne `true`.
 
 ### `isType()`
 
@@ -163,7 +163,7 @@ Fonctions utilisables avec n'importe quelle valeur. Cela inclut les chaînes de 
 `any.toString(): string`
 
 - Retourne la représentation sous forme de chaîne de caractères de n'importe quelle valeur.
-- Exemple : `123.toString()` retourne `"123"`.
+- Exemple : `(123).toString()` retourne `"123"`.
 
 ## Type date
 
@@ -370,7 +370,7 @@ Fonctions utilisables avec des valeurs numériques telles que `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Retourne true si le nombre n'est pas présent.
-- Exemple : `5.isEmpty()` retourne `false`.
+- Exemple : `(5).isEmpty()` retourne `false`.
 
 ### `round()`
 
@@ -585,14 +585,14 @@ Les champs suivants sont disponibles pour les fichiers :
 
 ## Type objet
 
-Fonctions utilisables avec une collection de paires clé-valeur telles que `{"a": 1, "b": 2}`.
+Fonctions utilisables avec des valeurs objet telles que `file.properties`, qui contiennent une collection de paires clé-valeur.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Retourne true si l'objet ne possède aucune propriété propre.
-- Exemple : `{}.isEmpty()` retourne `true`.
+- Exemple : `file.properties.isEmpty()` retourne `true` si le fichier ne possède aucune propriété.
 
 ### `keys()`
 

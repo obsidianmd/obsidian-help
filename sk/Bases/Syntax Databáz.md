@@ -305,7 +305,7 @@ Globálna [[Funkcie|funkcia]] `today()` sa dá použiť na získanie aktuálneho
 - `now() + "1 day"` vráti dátum a čas presne 24 hodín od času vykonania.
 - `file.mtime > now() - "1 week"` vráti `true`, ak bol súbor upravený v priebehu posledného týždňa.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` vráti objekt Date reprezentujúci `2025-01-01 04:03:00`.
-- Odčítaním dvoch dátumov získate rozdiel v milisekundách medzi nimi, napríklad `now() - file.ctime`.
+- Odčítaním dvoch dátumov získate trvanie, napríklad `note.release_date - today()`.
 - Na získanie dátumovej časti z Date s časom použite `datetime.date()`.
 - Na formátovanie objektu Date použite funkciu `format()`, napríklad `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Dátumy reprezentujú konkrétny dátum alebo dátum a čas v závislosti od fun
 
 - Na vytvorenie dátumu použite funkciu `date`, napríklad `date("2025-01-01 12:00:00")`
 - Na úpravu dátumu pridajte alebo odoberte trvanie, napríklad `now() + "1 hour"` alebo `today() + "7d"`
-- Porovnávajte dátumy pomocou porovnávacích operátorov (napr. `>` alebo `<`) a aritmetických operátorov (napríklad `(now() + "1d") - now()` vráti `86400000` milisekúnd.)
+- Porovnávajte dátumy pomocou porovnávacích operátorov, napríklad `>` alebo `<`.
+- Odčítaním jedného dátumu od druhého získate trvanie, napríklad `note.release_date - today()`.
 - Na extrahovanie častí dátumu použite dostupné polia (`now().hour`) alebo pomocnú funkciu (`now.time()`).
 - Na objektoch dátumov sú dostupné mnohé ďalšie [[Funkcie|polia a funkcie]].
 

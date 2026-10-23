@@ -305,7 +305,7 @@ Die globale [[Funktionen|Funktion]] `today()` kann verwendet werden, um das aktu
 - `now() + "1 day"` gibt einen Zeitpunkt zurück, der genau 24 Stunden nach dem Ausführungszeitpunkt liegt.
 - `file.mtime > now() - "1 week"` gibt `true` zurück, wenn die Datei innerhalb der letzten Woche geändert wurde.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` gibt ein Datumsobjekt zurück, das `2025-01-01 04:03:00` darstellt.
-- Subtrahiere zwei Daten, um die Millisekundendifferenz zwischen beiden zu erhalten, zum Beispiel `now() - file.ctime`.
+- Subtrahiere zwei Daten, um eine Zeitspanne zu erhalten, zum Beispiel `note.release_date - today()`.
 - Um den Datumsanteil eines Datums mit Uhrzeit zu erhalten, verwende `datetime.date()`.
 - Um ein Datumsobjekt zu formatieren, verwende die Funktion `format()`, zum Beispiel `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Daten repräsentieren ein bestimmtes Datum oder ein Datum mit Uhrzeit, abhängig
 
 - Um ein Datum zu erstellen, verwende die Funktion `date`, zum Beispiel `date("2025-01-01 12:00:00")`
 - Um ein Datum zu ändern, addiere oder subtrahiere eine Zeitspanne, zum Beispiel `now() + "1 hour"` oder `today() + "7d"`
-- Vergleiche Daten mit Vergleichsoperatoren (z.B. `>` oder `<`) und arithmetischen Operatoren (zum Beispiel gibt `(now() + "1d") - now()` `86400000` Millisekunden zurück.)
+- Vergleiche Daten mit Vergleichsoperatoren, zum Beispiel `>` oder `<`.
+- Subtrahiere ein Datum von einem anderen, um eine Zeitspanne zu erhalten, zum Beispiel `note.release_date - today()`.
 - Um Teile eines Datums zu extrahieren, verwende die verfügbaren Felder (`now().hour`) oder eine Komfortfunktion (`now.time()`).
 - Viele weitere [[Funktionen|Felder und Funktionen]] sind für Datumsobjekte verfügbar.
 

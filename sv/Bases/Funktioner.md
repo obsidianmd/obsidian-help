@@ -148,7 +148,7 @@ Funktioner du kan använda med valfritt värde. Detta inkluderar strängar (t.ex
 `any.isTruthy(): boolean`
 
 - Returnerar värdet konverterat till ett booleskt värde.
-- Exempel: `1.isTruthy()` returnerar `true`.
+- Exempel: `(1).isTruthy()` returnerar `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funktioner du kan använda med valfritt värde. Detta inkluderar strängar (t.ex
 `any.toString(): string`
 
 - Returnerar strängrepresentationen av valfritt värde.
-- Exempel: `123.toString()` returnerar `"123"`.
+- Exempel: `(123).toString()` returnerar `"123"`.
 
 ## Date-typ
 
@@ -369,7 +369,7 @@ Funktioner du kan använda med numeriska värden som `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Returnerar true om numret inte finns.
-- Exempel: `5.isEmpty()` returnerar `false`.
+- Exempel: `(5).isEmpty()` returnerar `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Följande fält är tillgängliga för filer:
 
 ## Object-typ
 
-Funktioner du kan använda med en samling nyckel-värdepar som `{"a": 1, "b": 2}`.
+Funktioner du kan använda med objektvärden som `file.properties`, som innehåller en samling nyckel-värdepar.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Returnerar true om objektet inte har några egna egenskaper.
-- Exempel: `{}.isEmpty()` returnerar `true`.
+- Exempel: `file.properties.isEmpty()` returnerar `true` om filen inte har några egenskaper.
 
 ### `keys()`
 

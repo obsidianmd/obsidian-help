@@ -148,7 +148,7 @@ Funksjoner du kan bruke med enhver verdi. Dette inkluderer strenger (f.eks. `"ha
 `any.isTruthy(): boolean`
 
 - Returnerer verdien konvertert til en boolsk verdi.
-- Eksempel: `1.isTruthy()` returnerer `true`.
+- Eksempel: `(1).isTruthy()` returnerer `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funksjoner du kan bruke med enhver verdi. Dette inkluderer strenger (f.eks. `"ha
 `any.toString(): string`
 
 - Returnerer strengrepresentasjonen av enhver verdi.
-- Eksempel: `123.toString()` returnerer `"123"`.
+- Eksempel: `(123).toString()` returnerer `"123"`.
 
 ## Datotype
 
@@ -369,7 +369,7 @@ Funksjoner du kan bruke med numeriske verdier som `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Returnerer sann hvis tallet ikke er til stede.
-- Eksempel: `5.isEmpty()` returnerer `false`.
+- Eksempel: `(5).isEmpty()` returnerer `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Følgende felter er tilgjengelige for filer:
 
 ## Objekttype
 
-Funksjoner du kan bruke med en samling av nøkkel-verdi-par som `{"a": 1, "b": 2}`.
+Funksjoner du kan bruke med objektverdier som `file.properties`, som inneholder en samling av nøkkel-verdi-par.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Returnerer sann hvis objektet ikke har egne egenskaper.
-- Eksempel: `{}.isEmpty()` returnerer `true`.
+- Eksempel: `file.properties.isEmpty()` returnerer `true` hvis filen ikke har noen egenskaper.
 
 ### `keys()`
 

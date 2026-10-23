@@ -148,7 +148,7 @@ Functies die je met elke waarde kunt gebruiken. Dit omvat tekenreeksen (bijv. `"
 `any.isTruthy(): boolean`
 
 - Retourneert de waarde omgezet naar een boolean.
-- Voorbeeld: `1.isTruthy()` retourneert `true`.
+- Voorbeeld: `(1).isTruthy()` retourneert `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Functies die je met elke waarde kunt gebruiken. Dit omvat tekenreeksen (bijv. `"
 `any.toString(): string`
 
 - Retourneert de tekenreeksrepresentatie van elke waarde.
-- Voorbeeld: `123.toString()` retourneert `"123"`.
+- Voorbeeld: `(123).toString()` retourneert `"123"`.
 
 ## Type Datum
 
@@ -369,7 +369,7 @@ Functies die je kunt gebruiken met numerieke waarden zoals `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Retourneert true als het getal niet aanwezig is.
-- Voorbeeld: `5.isEmpty()` retourneert `false`.
+- Voorbeeld: `(5).isEmpty()` retourneert `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ De volgende velden zijn beschikbaar voor bestanden:
 
 ## Type Object
 
-Functies die je kunt gebruiken met een verzameling sleutel-waardeparen zoals `{"a": 1, "b": 2}`.
+Functies die je kunt gebruiken met objectwaarden zoals `file.properties`, die een verzameling sleutel-waardeparen bevatten.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Retourneert true als het object geen eigen eigenschappen heeft.
-- Voorbeeld: `{}.isEmpty()` retourneert `true`.
+- Voorbeeld: `file.properties.isEmpty()` retourneert `true` als het bestand geen eigenschappen heeft.
 
 ### `keys()`
 

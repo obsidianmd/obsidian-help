@@ -307,7 +307,7 @@ Pentru a modifica sau decala obiectele Date, folosește operatorul `+` sau `-` �
 - `now() + "1 day"` returnează un datetime exact 24 de ore de la momentul execuției.
 - `file.mtime > now() - "1 week"` returnează `true` dacă fișierul a fost modificat în ultima săptămână.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returnează un obiect Date reprezentând `2025-01-01 04:03:00`.
-- Scade două date pentru a obține diferența în milisecunde dintre ele, de exemplu, `now() - file.ctime`.
+- Scade două date pentru a obține o durată, de exemplu, `note.release_date - today()`.
 - Pentru a obține doar porțiunea de dată dintr-un obiect Date cu oră, folosește `datetime.date()`.
 - Pentru a formata un obiect Date, folosește funcția `format()`, de exemplu `datetime.format("YYYY-MM-DD")`.
 
@@ -356,7 +356,8 @@ Datele calendaristice reprezintă o dată specifică, sau o dată și o oră, î
 
 - Pentru a construi o dată, folosește funcția `date`, de exemplu `date("2025-01-01 12:00:00")`
 - Pentru a modifica o dată, adaugă sau elimină o durată, de exemplu `now() + "1 hour"` sau `today() + "7d"`
-- Compară datele folosind operatori de comparație (de exemplu `>` sau `<`) și operatori aritmetici (de exemplu, `(now() + "1d") - now()` returnează `86400000` milisecunde.)
+- Compară datele folosind operatori de comparație, de exemplu `>` sau `<`.
+- Scade o dată din alta pentru a obține o durată, de exemplu `note.release_date - today()`.
 - Pentru a extrage porțiuni dintr-o dată, folosește câmpurile disponibile (`now().hour`), sau o funcție convenabilă (`now.time()`).
 - Multe alte [[Funcții|câmpuri și funcții]] sunt disponibile pe obiectele de tip dată.
 

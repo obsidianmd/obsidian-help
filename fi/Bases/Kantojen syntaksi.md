@@ -305,7 +305,7 @@ Globaalia [[Funktiot|funktiota]] `today()` voidaan käyttää nykyisen päiväm�
 - `now() + "1 day"` palauttaa päivämäärän ja ajan tasan 24 tuntia suoritushetkestä.
 - `file.mtime > now() - "1 week"` palauttaa `true`, jos tiedostoa on muokattu viimeisen viikon aikana.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` palauttaa päivämääräobjektin, joka edustaa arvoa `2025-01-01 04:03:00`.
-- Kahden päivämäärän vähentäminen toisistaan antaa millisekuntieron niiden välillä, esimerkiksi `now() - file.ctime`.
+- Kahden päivämäärän vähentäminen toisistaan antaa keston, esimerkiksi `note.release_date - today()`.
 - Saadaksesi päivämääräosan päivämäärästä, jossa on aika, käytä `datetime.date()`.
 - Päivämääräobjektin muotoilemiseen käytä `format()`-funktiota, esimerkiksi `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Päivämäärät edustavat tiettyä päivämäärää tai päivämäärää ja a
 
 - Päivämäärän luomiseen käytä `date`-funktiota, esimerkiksi `date("2025-01-01 12:00:00")`
 - Päivämäärän muokkaamiseen lisää tai vähennä kesto, esimerkiksi `now() + "1 hour"` tai `today() + "7d"`
-- Vertaa päivämääriä vertailuoperaattoreilla (esim. `>` tai `<`) ja aritmeettisilla operaattoreilla (esimerkiksi `(now() + "1d") - now()` palauttaa `86400000` millisekuntia.)
+- Vertaa päivämääriä vertailuoperaattoreilla, esimerkiksi `>` tai `<`.
+- Kahden päivämäärän vähentäminen toisistaan antaa keston, esimerkiksi `note.release_date - today()`.
 - Päivämäärän osien poimimiseen käytä käytettävissä olevia kenttiä (`now().hour`) tai apufunktioita (`now.time()`).
 - Useita muita [[Funktiot|kenttiä ja funktioita]] on käytettävissä päivämääräobjekteilla.
 

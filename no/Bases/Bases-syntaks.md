@@ -305,7 +305,7 @@ Den globale [[Funksjoner|funksjonen]] `today()` kan brukes til å hente gjeldend
 - `now() + "1 day"` returnerer et tidspunkt nøyaktig 24 timer fra utførelsestidspunktet.
 - `file.mtime > now() - "1 week"` returnerer `true` hvis filen ble endret i løpet av den siste uken.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returnerer et Dato-objekt som representerer `2025-01-01 04:03:00`.
-- Trekk to datoer fra hverandre for å få forskjellen i millisekunder mellom dem, for eksempel `now() - file.ctime`.
+- Trekk to datoer fra hverandre for å få en varighet, for eksempel `note.release_date - today()`.
 - For å hente datodelen av en Dato med klokkeslett, bruk `datetime.date()`.
 - For å formatere et Dato-objekt, bruk `format()`-funksjonen, for eksempel `datetime.format("YYYY-MM-DD")`.
 
@@ -354,7 +354,8 @@ Datoer representerer en bestemt dato, eller en dato og et klokkeslett avhengig a
 
 - For å konstruere en dato, bruk `date`-funksjonen, for eksempel `date("2025-01-01 12:00:00")`
 - For å endre en dato, legg til eller fjern en varighet, for eksempel `now() + "1 hour"` eller `today() + "7d"`
-- Sammenlign datoer med sammenligningsoperatorer (f.eks. `>` eller `<`) og aritmetiske operatorer (for eksempel returnerer `(now() + "1d") - now()` `86400000` millisekunder.)
+- Sammenlign datoer med sammenligningsoperatorer, for eksempel `>` eller `<`.
+- Trekk én dato fra en annen for å få en varighet, for eksempel `note.release_date - today()`.
 - For å trekke ut deler av en dato, bruk tilgjengelige felt (`now().hour`), eller en bekvemmelighetsfunksjon (`now.time()`).
 - Mange andre [[Funksjoner|felt og funksjoner]] er tilgjengelige på dato-objekter.
 
