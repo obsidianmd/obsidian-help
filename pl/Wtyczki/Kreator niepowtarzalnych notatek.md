@@ -22,7 +22,7 @@ Na przykład, jeśli utworzysz nową notatkę o 09:45 dnia 1 stycznia 2024 roku,
 Domyślnie nowe niepowtarzalne notatki są puste. Aby użyć innego pliku jako szablonu:
 
 - Otwórz **[[Ustawienia]]**.
-- Na pasku bocznym kliknij **Wbudowane wtyczki → Kreator niepowtarzalnych notatek**.
+- Na panelu bocznym kliknij **Wbudowane wtyczki → Kreator niepowtarzalnych notatek**.
 - W polu **Lokalizacja szablonu** wprowadź plik, którego chcesz użyć jako szablonu.
 
 Więcej informacji o tworzeniu szablonów znajdziesz w [[Szablony]].

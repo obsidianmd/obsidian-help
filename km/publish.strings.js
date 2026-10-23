@@ -1,4 +1,5 @@
 // Locale UI strings — Khmer
+window.LANG_SWITCHER_STRINGS = { search: "ប្តូរភាសា...", noResults: "គ្មានលទ្ធផល" };
 (function () {
   function apply() {
     var el;

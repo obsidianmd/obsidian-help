@@ -38,8 +38,6 @@ A equipa do Obsidian também mantém o desenvolvimento de certos [[#Outros plugi
 	- Navegue por ficheiros e pastas dentro do seu cofre.
 - [[Gravador de áudio]]
 	- Grave e guarde gravações de áudio diretamente numa nota.
-- [[Importador de formato Markdown]]
-	- Converta Markdown de outras aplicações para o formato do Obsidian.
 - [[Índice]]
 	- Mostre o índice da nota ativa.
 - [[Links Externos]]

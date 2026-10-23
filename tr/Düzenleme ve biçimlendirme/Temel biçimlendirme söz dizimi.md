@@ -145,6 +145,23 @@ Biçimlendirmenin önüne ters eğik çizgi `\` eklenerek düz metin olarak gör
 \**Bu satır italik olacak ve yıldızları gösterecek*\*
 ```
 
+### Vurgulama renkleri
+
+Vurgulamalar altı rengi destekler. Açılış `==` işaretinden hemen sonra bir renk emojisi ekleyin:
+
+| Renk   | Örnek                 |
+| ------ | --------------------- |
+| Kırmızı | `==🔴Önemli==`       |
+| Turuncu | `==🟠Takip et==`     |
+| Sarı   | `==🟡Bunu hatırla==`  |
+| Yeşil  | `==🟢Tamamlandı==`   |
+| Mavi   | `==🔵Referans==`     |
+| Mor    | `==🟣Fikir==`        |
+
+Renk emojisi olmadan vurgulama, temanızın varsayılan vurgulama rengini kullanır.
+
+Biçimlendirme menüsünden de bir renk seçebilirsiniz. Düzenleyicide `==` yazmak vurgulama renklerini önerir. [[Görünümler ve düzenleme modu#Canlı Önizleme|Canlı Önizleme]]'de imleci bir vurgulamanın içine yerleştirmek bir renk paleti gösterir. Rengi değiştirmek için paleti seçin.
+
 ## Dahili bağlantılar
 
 Obsidian, notlar arasında [[Dahili bağlantılar]] için iki biçimi destekler:
@@ -469,11 +486,13 @@ Satır içi dipnotlar da kullanabilirsiniz. ^[Bu bir satır içi dipnottur.]
 > [!note] Not
 > Satır içi dipnotlar yalnızca okuma görünümünde çalışır, Canlı Önizlemede çalışmaz.
 
-Bir nottaki tüm dipnotları görmek için [[Dipnotlar görünümü]]nü kullanın.
+Bir nottaki tüm dipnotları görmek için [[Dipnot görünümü|Dipnotlar görünümü]]nü kullanın.
 
 ## Yorumlar
 
 Metni `%%` ile çevreleyerek yorum ekleyebilirsiniz. Yorumlar yalnızca Düzenleme görünümünde görünür.
+
+`%%` söz dizimi Obsidian'a özgüdür. Diğer uygulamalarda metni gizlemek için `<!-- -->` HTML yorumunu kullanın. Obsidian söz diziminin standart Markdown'dan nasıl farklılaştığını öğrenmek için [[Obsidian Flavored Markdown]] bölümüne bakın.
 
 ```md
 Bu bir %%satır içi%% yorumdur.
@@ -484,6 +503,20 @@ Bu bir blok yorumdur.
 Blok yorumlar birden fazla satıra yayılabilir.
 %%
 ```
+
+Satır içi yorum, bir başlık, liste öğesi veya kalın metin dahil olmak üzere bir satırın herhangi bir yerinde görünebilir.
+
+Blok yorum, bir satır `%%` ile başladığında başlar ve bir sonraki `%%` işaretinde sona erer. Blok yorum, başlıklar ve listeler gibi boş satırlar ve Markdown içerebilir. Obsidian, bunların tümünü Okuma görünümünde gizler.
+
+Kapanış `%%` işaretinden sonraki metin görünür kalır ve Obsidian Markdown'ını işler. Örneğin, `%%yorum%% _italik_` yalnızca _italik_ kelimesini italik olarak bırakır.
+
+> [!warning]+ Her blok yorumu kapatın
+> Bir blok yorum başlatıp hiç kapatmazsanız, Okuma görünümü notun geri kalanını gizler.
+
+> [!info]+ Yorum işaretçilerini basit tutun
+> Satır içi yorumun her iki işaretçisini tek bir satırda tutun ve blok yorumu satırın başında başlatın.
+
+`%%` işaretini metin olarak göstermek için bir kod aralığına yerleştirin veya her işaretçinin önüne ters eğik çizgi ekleyin.
 
 ## Markdown Söz Dizimini Kaçırma
 

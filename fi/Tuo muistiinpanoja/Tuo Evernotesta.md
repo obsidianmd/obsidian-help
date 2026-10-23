@@ -1,5 +1,7 @@
 ---
 permalink: import/evernote
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojesi helpon siirtämisen Evernotesta [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä muuntaa Evernote-tietosi kestävään Markdown-muotoon, jota voit käyttää Obsidianin ja monien muiden sovellusten kanssa.
 

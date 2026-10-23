@@ -21,6 +21,7 @@ Obsidian voor iOS biedt verschillende widgets om snel acties uit te voeren in je
 ### Widgets voor vergrendelscherm en Bedieningspaneel
 
 Widgets voor het vergrendelscherm en Bedieningspaneel stellen je in staat om:
+- Snel vastleggen te openen
 - Een nieuwe notitie aan te maken
 - Een specifieke notitie te openen
 - De dagelijkse notitie te openen
@@ -30,6 +31,7 @@ Widgets voor het vergrendelscherm en Bedieningspaneel stellen je in staat om:
 ### Widgets voor beginscherm
 
 Widgets voor het beginscherm stellen je in staat om:
+- Snel vastleggen te openen
 - Een notitie aan te maken
 - Een notitie te bekijken
 - Je dagelijkse notitie te openen
@@ -50,15 +52,85 @@ Configuratieopties voor de **Notitie bekijken**-widget:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Snel vastleggen
+
+Met Snel vastleggen kun je tekst opslaan in je kluis vanuit de widgets op het vergrendelscherm, het Bedieningspaneel, het beginscherm of Opdrachten, zonder te hoeven wachten tot je kluis is geladen. Afhankelijk van de vastleglocatie die je selecteert, kan Snel vastleggen een nieuwe notitie aanmaken of de tekst toevoegen aan een bestaande notitie.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Opmerking
+> Snel vastleggen vereist Obsidian 1.14 of hoger en iOS of iPadOS 26 of hoger.
+
+Om tekst vast te leggen:
+
+1. Voeg de **Snel vastleggen**-widget toe aan je vergrendelscherm, Bedieningspaneel of beginscherm.
+2. Tik op de widget om Snel vastleggen te openen.
+3. Voer je tekst in.
+4. Om te wijzigen waar de tekst wordt opgeslagen, tik je op de vastleglocatie bovenaan het scherm en selecteer je een andere locatie.
+5. Tik op het vinkje om de tekst op te slaan.
+
+**Opmerking**: Als Live Activiteiten zijn ingeschakeld, verschijnt de snelle vastlegnotitie ook op het vergrendelscherm en, op ondersteunde iPhone-modellen, in het Dynamic Island. Tik op de balk of Live Activiteit om door te gaan met bewerken.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Vastleglocaties
+
+Vastleglocaties bepalen waar Snel vastleggen je tekst opslaat. Een vastleglocatie kan:
+
+- Een nieuwe notitie aanmaken in een geselecteerde map, met een optioneel sjabloon en aangepaste notitienaam.
+- De tekst toevoegen aan het begin of einde van je dagelijkse notitie.
+- De tekst toevoegen aan het begin of einde van een notitie met bladwijzer.
+- De tekst toevoegen aan het begin of einde van een andere notitie die je selecteert.
+
+Om een vastleglocatie te maken:
+1. Open Snel vastleggen.
+2. Tik op de vastleglocatie bovenaan het scherm.
+3. Tik op de plus (+)-knop.
+4. Selecteer een gedrag en configureer eventuele optionele instellingen.
+5. Tik op **Opslaan**.
+
+Je kunt ook **Notitie openen na vastleggen** gebruiken om te kiezen of Obsidian de doelnotitie opent na het opslaan van de vastlegging.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Sjablonen voor Snel vastleggen
+
+Je kunt een sjabloon toepassen om de vastgelegde tekst op te maken. Sjablonen voor Snel vastleggen ondersteunen de volgende variabelen:
+
+| Variabele | Beschrijving |
+| --- | --- |
+| `{{content}}` | Vastgelegde tekst |
+| `{{date}}` | Huidige datum |
+| `{{time}}` | Huidige tijd |
+| `{{latitude}}` | Huidige breedtegraad |
+| `{{longitude}}` | Huidige lengtegraad |
+| `{{shortAddress}}` | Korte vorm van het huidige adres |
+| `{{fullAddress}}` | Volledig huidig adres |
+| `{{googleMapsLink}}` | Google Maps-koppeling naar de huidige locatie |
+| `{{appleMapsLink}}` | Apple Maps-koppeling naar de huidige locatie |
+| `{{openStreetMapLink}}` | OpenStreetMap-koppeling naar de huidige locatie |
+
+Om een Snel vastleggen-widget te configureren voor een specifieke vastleglocatie, gebruik je de stappen in [[#Widgets aanpassen]]. Widgets voor het beginscherm kunnen meerdere vastleglocaties weergeven.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Opdrachten
 
 Obsidian integreert met de Opdrachten-app van Apple, waarmee je krachtige automatiseringen kunt maken. Beschikbare opdrachten zijn:
 
-- **Open een notitie** — Open een specifieke notitie in je kluis
-- **Maak een nieuwe notitie** — Maak een nieuwe notitie in je kluis
+- **Snel vastleggen** — Open Snel vastleggen met een geconfigureerde vastleglocatie
+- **Bladwijzer openen** — Open een notitie met bladwijzer uit je kluis
+- **Nieuwe notitie openen** — Maak een nieuwe notitie in je kluis
 - **Dagelijkse notitie openen** — Ga direct naar de dagelijkse notitie van vandaag
 - **Vastleggen in dagnotitie** — Voeg tekst toe aan het begin of einde van de dagnotitie zonder de Obsidian-app te openen
 - **Vastleggen in bladwijzer** — Voeg tekst toe aan het begin of einde van een notitie met bladwijzer zonder de Obsidian-app te openen
+- **Notitie met bladwijzer ophalen** — Haalt tekst op uit een notitie met bladwijzer
+- **Dagelijkse notitie ophalen** — Haalt tekst op uit een dagelijkse notitie
+- **Kluis doorzoeken** — Doorzoek je kluis op een trefwoord
+- **Koppeling als bladwijzer opslaan** — Voeg een webkoppeling toe aan je bladwijzers
+- **Obsidian openen** — Opent Obsidian
 
 Vastlegopdrachten zijn bijzonder handig voor het snel maken van notities, omdat je hiermee op de achtergrond inhoud aan een notitie kunt toevoegen.
 
@@ -145,6 +217,7 @@ Ondersteunde sjabloonvariabelen:
 | `{{published: YYYY-MM-DD}}` | Publicatiedatum in een aangepast datumformaat |
 | `{{site}}` | Naam van de website |
 | `{{title}}` | Titel van het artikel |
+| `{{url}}` | Artikel-URL |
 | `{{wordCount}}` | Totaal aantal woorden in de geëxtraheerde inhoud |
 
 Je kunt ook standaard sjabloonvariabelen voor datum en tijd gebruiken:

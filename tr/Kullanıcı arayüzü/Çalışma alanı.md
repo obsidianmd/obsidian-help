@@ -16,6 +16,7 @@ Obsidian masaüstü uygulamasında çalışma alanı şunları içerir:
     - [[Kenar çubuğu#Sekmeler|Kenar çubuğu sekmeleri]]
 - Merkezi içerik alanındaki [[Sekmeler#Sekmelerinizi ve pencerelerinizi düzenleyin|Sekme grupları]] (dikey veya yatay olarak bölünebilir)
     - [[Sekmeler]]
+    - Her notun sağ üst köşesindeki [[Daha fazla seçenek menüsü]]
 - Sağ alt köşedeki [[Durum çubuğu]]
 
 ## Mobil
@@ -23,6 +24,7 @@ Obsidian masaüstü uygulamasında çalışma alanı şunları içerir:
 Obsidian mobil uygulamasında çalışma alanı şunları içerir:
 
 - [[Mobil uygulama#Gezinme çubuğu|Gezinme çubuğu]]ndaki sekme sayacından yönetilen [[Sekmeler]]
+- Etkin not için [[Daha fazla seçenek menüsü#Mobil|Daha fazla seçenek menüsü]]
 - [[Kenar çubuğu|Kenar çubukları]] (sol ve sağ kaydırma hareketleriyle açılır)
 - Ekranın alt kısmındaki [[Mobil uygulama#Gezinme çubuğu|Gezinme çubuğu]]
 - Gezinme çubuğundaki [[Araç çubuğu|Şerit Yapılandırması]] (özelleştirilebilir eylemler içerir)

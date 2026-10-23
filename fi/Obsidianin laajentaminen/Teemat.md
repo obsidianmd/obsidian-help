@@ -8,6 +8,8 @@ Opi muuttamaan Obsidianin ulkoasua ja tuntumaa yhteisön rakentamien teemojen av
 1. Avaa **[[Asetukset]]**.
 2. Valitse kohdassa **Ulkoasu → Teemat** vaihtoehto **Hallinnoi** nähdäksesi luettelon kaikista saatavilla olevista yhteisön teemoista.
 
+Voit myös selata saatavilla olevia teemoja selaimessasi osoitteessa [community.obsidian.md](https://community.obsidian.md). Lisätietoja teeman listaussivun sisällöstä löydät kohdasta [[Yhteisöhakemisto]].
+
 ## Asenna uusi teema
 
 1. Avaa **[[Asetukset]]**.

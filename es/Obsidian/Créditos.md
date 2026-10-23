@@ -27,7 +27,7 @@ Desarrolladores a tiempo parcial que ayudan a construir Obsidian.
 
 Colaboradores en el proceso y herramientas de revisión de complementos/temas de la [Comunidad](https://community.obsidian.md/).
 
-- Fevol
+- Fevol <span class='flair'>Plugin API Journeyman</span><span class='flair'>Canonically Commentated</span>
 - mnaoumov ([Michael Naumov](https://mnaoumov.dev/))
 - saberzero1 ([Emile Bangma](https://emilebangma.com)) <span class='flair'>Quartz Quartermaster</span> <span class='flair'>ESLint Legislator</span>
 - Zachatoo ([Zach Young](https://zachyoung.dev/)) <span class='flair'>Templater Templar</span><span class='flair'>Board Gamer</span>
@@ -145,7 +145,7 @@ Licenciado bajo la [Licencia Pública de Mozilla versión 2.0](http://mozilla.or
 
 ### Electron
 
-Versión `37.3.0`
+Versión `43.1.1`
 Licencia MIT
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -172,13 +172,13 @@ Licencia Apache 2.0
 
 ### Mermaid
 
-Versión `11.4.1`
+Versión `11.13.0`
 Licencia MIT
 Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Versión `2.29.4`
+Versión `2.30.1`
 Licencia MIT
 Copyright (c) JS Foundation and other contributors
 

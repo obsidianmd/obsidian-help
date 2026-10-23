@@ -145,6 +145,23 @@ Formatowanie można wymusić jako zwykły tekst, dodając przed nim ukośnik odw
 \**Ta linia będzie kursywą i pokaże gwiazdki*\*
 ```
 
+### Kolory wyróżnień
+
+Wyróżnienia obsługują sześć kolorów. Dodaj emoji koloru bezpośrednio po otwierającym `==`:
+
+| Kolor  | Przykład              |
+| ------ | --------------------- |
+| Czerwony | `==🔴Ważne==`       |
+| Pomarańczowy | `==🟠Do sprawdzenia==` |
+| Żółty  | `==🟡Zapamiętaj==`   |
+| Zielony | `==🟢Ukończone==`   |
+| Niebieski | `==🔵Odniesienie==` |
+| Fioletowy | `==🟣Pomysł==`     |
+
+Bez emoji koloru wyróżnienie używa domyślnego koloru wyróżnienia motywu.
+
+Możesz również wybrać kolor z menu formatowania. Wpisanie `==` w edytorze podpowiada kolory wyróżnień. W [[Podglądy i tryb edycji#Podgląd na żywo|podglądzie na żywo]] umieszczenie kursora wewnątrz wyróżnienia pokazuje próbkę koloru. Wybierz próbkę, aby zmienić kolor.
+
 ## Łącza wewnętrzne
 
 Obsidian obsługuje dwa formaty [[Łącza wewnętrzne|łączy wewnętrznych]] między notatkami:
@@ -162,7 +179,7 @@ Jeśli chcesz dodać link do zewnętrznego adresu URL, możesz utworzyć link in
 
 [Pomoc Obsidian](https://help.obsidian.md)
 
-Możesz również tworzyć łącza zewnętrzne do plików w innych skarbcach, linkując do [[Obsidian URI|Obsidian URI]].
+Możesz również tworzyć łącza zewnętrzne do plików w innych sejfach, linkując do [[Obsidian URI|Obsidian URI]].
 
 ```md
 [Notatka](obsidian://open?vault=MainVault&file=Note.md)
@@ -205,7 +222,7 @@ Jeśli podasz tylko szerokość, obraz skaluje się zgodnie z oryginalnym wspó�
 ```
 
 > [!tip]- Wskazówka
-> Jeśli chcesz dodać obraz z wnętrza swojego skarbca, możesz również [[Osadzanie plików#Osadzanie obrazu w notatce|osadzić obraz w notatce]].
+> Jeśli chcesz dodać obraz z wnętrza swojego sejfu, możesz również [[Osadzanie plików#Osadzanie obrazu w notatce|osadzić obraz w notatce]].
 
 ## Cytaty
 
@@ -469,11 +486,13 @@ Możesz również używać przypisów inline. ^[To jest przypis inline.]
 > [!note] Uwaga
 > Przypisy inline działają tylko w widoku czytania, nie w podglądzie na żywo.
 
-Użyj [[Widok przypisów]], aby zobaczyć wszystkie przypisy w notatce.
+Użyj [[Panel przypisów]], aby zobaczyć wszystkie przypisy w notatce.
 
 ## Komentarze
 
 Możesz dodawać komentarze, otaczając tekst symbolami `%%`. Komentarze są widoczne tylko w trybie edycji.
+
+Składnia `%%` jest specyficzna dla Obsidian. Aby ukryć tekst w innych aplikacjach, użyj komentarza HTML: `<!-- -->`. Zobacz [[Obsidian Flavored Markdown]], aby dowiedzieć się, jak składnia Obsidian różni się od standardowego Markdown.
 
 ```md
 To jest %%inline%% komentarz.
@@ -484,6 +503,20 @@ To jest komentarz blokowy.
 Komentarze blokowe mogą obejmować wiele linii.
 %%
 ```
+
+Komentarz inline może pojawić się w dowolnym miejscu w linii, w tym w nagłówku, elemencie listy lub pogrubionym tekście.
+
+Komentarz blokowy zaczyna się, gdy linia rozpoczyna się od `%%`, i kończy się na następnym `%%`. Komentarz blokowy może zawierać puste linie i Markdown, takie jak nagłówki i listy. Obsidian ukrywa to wszystko w trybie odczytu.
+
+Tekst po zamykającym `%%` pozostaje widoczny, a Obsidian renderuje jego Markdown. Na przykład `%%komentarz%% _kursywa_` pozostawia tylko słowo _kursywa_, zapisane kursywą.
+
+> [!warning]+ Zamykaj każdy komentarz blokowy
+> Jeśli rozpoczniesz komentarz blokowy i nigdy go nie zamkniesz, tryb odczytu ukryje resztę notatki.
+
+> [!info]+ Używaj prostych znaczników komentarzy
+> Oba znaczniki komentarza inline umieszczaj w jednej linii, a komentarz blokowy rozpoczynaj na początku linii.
+
+Aby wyświetlić `%%` jako tekst, umieść go w bloku kodu inline lub dodaj ukośnik odwrotny przed każdym znacznikiem.
 
 ## Unikanie składni Markdown
 

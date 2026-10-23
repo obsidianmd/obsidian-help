@@ -59,4 +59,4 @@ As funcionalidades do rodapé incluem:
 - Botão **Adicionar ao Obsidian** para salvar dados no Obsidian.
 - Menu suspenso de **Cofre** para alternar entre cofres salvos adicionados nas configurações do Web Clipper.
 - Campo de **Pasta** para definir em qual pasta salvar.
-- **Interpretador** para executar [[Interpretador|prompts em linguagem natural]] na página.
+- **Interpretador** para executar [[Intérprete|prompts em linguagem natural]] na página.

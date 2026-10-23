@@ -80,9 +80,17 @@ Toto jsou zprávy popisující, co bylo přeskočeno, a případně proč.
 
 **Unable to download file with illegal name**
 
-Soubor obsahuje [speciální znak nebo konvenci pojmenování](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), která není povolena na přijímajícím operačním systému. Pro snadnost můžete soubor přejmenovat na zdrojovém zařízení a odstranit všechny speciální znaky kromě `-` a `_`.
+Název souboru používá [speciální znak nebo konvenci pojmenování](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), kterou přijímající operační systém nemůže uložit. Přejmenujte soubor na zdrojovém zařízení a nechte Sync znovu nahrát přejmenovaný soubor.
 
-Upozorňujeme, že to zahrnuje také soubory s více tečkami `.` v názvu na zařízeních Android.
+U trezorů synchronizovaných napříč různými operačními systémy se v názvech souborů a složek vyhněte následujícímu:
+
+- Znaky běžně vyhrazené souborovými systémy, jako `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` a `|`
+- Mezera nebo tečka na konci názvu
+- Vyhrazené názvy zařízení ve Windows, jako `CON`, `PRN`, `AUX`, `NUL`, `COM1` až `COM9` nebo `LPT1` až `LPT9`
+- Znaky, které Obsidian používá pro odkazy, jako `#`, `^`, `[` a `]`, pokud chcete názvy poznámek kompatibilní s odkazy
+- Více teček `.` v názvu souboru nebo emoji, které některá zařízení Android mohou odmítnout
+
+V případě pochybností používejte písmena, čísla, běžné mezery uvnitř názvu, pomlčky `-`, podtržítka `_` a jednu tečku před příponou souboru.
 
 ### Zprávy o účtu
 

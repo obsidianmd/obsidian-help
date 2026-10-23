@@ -1,4 +1,5 @@
 // Locale UI strings — Thai
+window.LANG_SWITCHER_STRINGS = { search: "เปลี่ยนภาษา...", noResults: "ไม่พบผลลัพธ์" };
 (function () {
   function apply() {
     var el;

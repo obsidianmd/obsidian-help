@@ -1,9 +1,9 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
-
-Obsidian은 [[들여오기|Importer 플러그인]]을 사용하여 Apple Journal에서 일기 항목을 쉽게 마이그레이션할 수 있어요.
-이 과정에서 일기가 내구성 있는 Markdown 파일로 변환되어 Obsidian 및 다른 많은 앱에서 사용할 수 있어요.
+Obsidian은 [[들여오기|Importer 플러그인]]을 사용하여 Apple Journal에서 일기 항목을 쉽게 마이그레이션할 수 있어요. 이 과정에서 일기가 내구성 있는 Markdown 파일로 변환되어 Obsidian 및 다른 많은 앱에서 사용할 수 있어요.
 
 ## Apple Journal에서 데이터 내보내기
 
@@ -33,13 +33,15 @@ Obsidian은 [[들여오기|Importer 플러그인]]을 사용하여 Apple Journal
 5. **파일 서식**에서 **Apple Journal (HTML Export)**를 선택해요.
 6. **들여올 파일**에서 내보낸 데이터가 있는 폴더(보통 _AppleJournalEntries_)를 선택하거나 _Entries_에서 개별 파일을 선택해요.
 7. 다른 들여오기 옵션을 검토하고 편집해요.
-8. 들여오기를 선택하고 들여오기가 완료될 때까지 기다려요.
-9. 완료되었어요!
+8. **들여오기**를 선택하여 생성된 템플릿을 검토하고 항목의 미리보기 예시를 확인해요.
+9. **들여오기**를 다시 선택하고 들여오기가 완료될 때까지 기다려요.
 
+## 템플릿
 
-## 지원되는 콘텐츠
+[[Importer 템플릿|Importer 템플릿]]을 사용하여 Apple Journal 데이터가 들여와지는 방식을 완전히 구성할 수 있어요.
 
-이 플러그인은 _state-of-mind_, _contacts_, _location_, _workout-route_ 등의 Journal 메타데이터를 프런트매터로 들여올 수 있어요.
+![[임포터 템플릿#Variables]]
 
-> [!note] 참고
-> 이 플러그인은 리소스를 들여오지 않아요. 사진, 동영상, 오디오 녹음 등의 첨부 파일은 무시돼요.
+**메타데이터를 프런트매터로 추가**가 활성화되면, Apple Journal 메타데이터가 [[속성|속성]]으로 변환돼요. 항목에 따라 `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media`, `workout-route` 등이 포함될 수 있어요.
+
+`properties` 변수를 사용하여 이 메타데이터에 접근할 수 있어요. 예를 들어, 위치에는 `{{properties.location}}`을, 마음 상태에는 `{{properties["state-of-mind"]}}`를 사용해요.

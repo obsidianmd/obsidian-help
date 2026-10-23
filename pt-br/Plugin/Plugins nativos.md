@@ -34,8 +34,6 @@ A equipe do Obsidian também mantém o desenvolvimento de certos [[#Outros plugi
 	- Fundir, separar e refatorar notas.
 - [[Contagem de palavras]]
 	- Exiba o número de palavras e caracteres.
-- [[Conversor de formato]]
-	- Converte Markdown de outros aplicativos para o formato do Obsidian.
 - [[Criador de nota única]]
 	- Crie uma nota única usando um título codificado por tempo.
 - [[Explorador de arquivos]]
@@ -70,7 +68,7 @@ A equipe do Obsidian também mantém o desenvolvimento de certos [[#Outros plugi
 	- Mostre o índice da nota ativa.
 - [[Introdução ao Obsidian Sync|Sync]]
 	- Sincronize suas notas entre dispositivos.
-- [[Visão de notas de rodapé]]
+- [[Visualização de notas de rodapé|Visão de notas de rodapé]]
 	- Mostre uma lista de notas de rodapé da nota atual.
 - [[Visualizador web]]
 	- Abra links externos no Obsidian.

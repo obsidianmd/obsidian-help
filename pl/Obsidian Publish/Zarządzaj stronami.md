@@ -16,7 +16,7 @@ Strona to kolekcja notatek hostowana przez Obsidian Publish i dostępna online, 
 
 ## Usuwanie istniejącej strony
 
-> [!note] Notatki pozostają w Twoim skarbcu nawet po usunięciu strony.
+> [!note] Notatki pozostają w Twoim sejfie nawet po usunięciu strony.
 
 1. Na wstążce, po lewej stronie okna aplikacji, kliknij **Opublikuj zmiany** ![[lucide-send.svg#icon]].
 2. Kliknij **Zmień stronę** ![[lucide-repeat.svg#icon]].
@@ -76,10 +76,10 @@ Strona to kolekcja notatek hostowana przez Obsidian Publish i dostępna online, 
 
 | Opcja                      | Typ         | Opis                                                                                                                                                    |
 |---------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokaż menu                | Przełącznik | Włącz lub wyłącz widok [[Eksplorator plików|eksploratora plików]] na Twojej stronie Publish.                                                           |
+| Pokaż menu                | Przełącznik | Włącz lub wyłącz widok [[Przeglądarka plików|przeglądarki plików]] na Twojej stronie Publish.                                                           |
 | Dostosuj menu              | Przycisk    | [[Dostosuj swoją stronę#Customize navigation\|Dostosuj]] kolejność wyświetlania plików, jeśli opcja **Pokaż menu** jest włączona.                     |
 | Pokaż pasek wyszukiwania  | Przełącznik | Włącz lub wyłącz pasek wyszukiwania na Twojej stronie.                                                                                                 |
-| Pokaż graf                | Przełącznik | Włącz lub wyłącz widok grafu w prawym pasku bocznym Twojej strony.                                                                                     |
+| Pokaż graf                | Przełącznik | Włącz lub wyłącz podgląd grafu w prawym panelu bocznym Twojej strony.                                                                                     |
 | Pokaż spis treści         | Przełącznik | Włącz lub wyłącz widok [[Konspekt\|spisu treści]] na Twojej stronie.                                                                                   |
 | Pokaż linki zwrotne       | Przełącznik | Włącz lub wyłącz [[Linki zwrotne]] na Twojej stronie.                                                                                                  |
 

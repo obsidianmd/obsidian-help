@@ -1,7 +1,6 @@
 ---
 permalink: bases/views/map
 localized: '2026-03-18'
-
 ---
 La carte est un type de [[Vues|vue]] que vous pouvez utiliser dans les [[Introduction aux Bases|Bases]]. Elle nécessite l'installation du [module Maps](obsidian://show-plugin?id=maps).
 

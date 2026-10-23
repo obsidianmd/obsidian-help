@@ -17,26 +17,30 @@ Forhåndsinnstilte variabler genereres automatisk basert på sideinnholdet. Diss
 
 Hovedinnholdsvariabelen er `{{content}}`, som inneholder artikkelinnholdet, eller [[Uthever|uthevingene]], eller utvalget hvis det er markert tekst på siden. Merk at `{{content}}` forsøker å hente ut hovedinnholdet på siden, noe som kanskje ikke alltid er det du ønsker. I så fall kan du bruke andre forhåndsinnstilte variabler eller selektor-variabler for å hente ut innholdet du trenger.
 
-| Variabel            | Beskrivelse                                                                            |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Forfatter av siden                                                                     |
+| Variabel            | Beskrivelse                                                                    |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Forfatter av siden                                                             |
 | `{{content}}`       | Artikkelinnhold, [[Uthever\|uthevinger]], eller utvalg, i Markdown-format     |
 | `{{contentHtml}}`   | Artikkelinnhold, [[Uthever\|uthevinger]], eller utvalg, i HTML-format         |
-| `{{date}}`          | Gjeldende dato, kan formateres med `date`-filteret                                     |
-| `{{description}}`   | Beskrivelse eller utdrag                                                               |
-| `{{domain}}`        | Domene                                                                                 |
-| `{{favicon}}`       | Favicon-URL                                                                            |
-| `{{fullHtml}}`      | Ubehandlet HTML for hele sideinnholdet                                                 |
+| `{{date}}`          | Gjeldende dato, kan formateres med `date`-filteret                             |
+| `{{description}}`   | Beskrivelse eller utdrag                                                       |
+| `{{domain}}`        | Domene                                                                         |
+| `{{favicon}}`       | Favicon-URL                                                                    |
+| `{{fullHtml}}`      | Ubehandlet HTML for hele sideinnholdet                                         |
 | `{{highlights}}`    | [[Uthever\|Uthevinger]] med tekst og tidsstempler                              |
-| `{{image}}`         | URL til bilde for sosial deling                                                        |
-| `{{published}}`     | Publiseringsdato, kan formateres med `date`-filteret                                   |
-| `{{selection}}`     | Utvalg i Markdown-format                                                               |
-| `{{selectionHtml}}` | Utvalg i HTML-format                                                                   |
-| `{{site}}`          | Nettstedsnavn eller utgiver                                                            |
-| `{{title}}`         | Tittel på siden                                                                        |
-| `{{time}}`          | Gjeldende dato og tid                                                                  |
-| `{{url}}`           | Gjeldende URL                                                                          |
-| `{{words}}`         | Antall ord                                                                             |
+| `{{image}}`         | URL til bilde for sosial deling                                                |
+| `{{language}}`      | Sidespråk                                                                      |
+| `{{model}}`         | [[Tolk]]-modellnavn                                                            |
+| `{{modelId}}`       | [[Tolk]]-modell-ID                                                             |
+| `{{modelProvider}}` | [[Tolk]]-modellleverandør                                                      |
+| `{{published}}`     | Publiseringsdato, kan formateres med `date`-filteret                           |
+| `{{selection}}`     | Utvalg i Markdown-format                                                       |
+| `{{selectionHtml}}` | Utvalg i HTML-format                                                           |
+| `{{site}}`          | Nettstedsnavn eller utgiver                                                    |
+| `{{title}}`         | Tittel på siden                                                                |
+| `{{time}}`          | Gjeldende dato og tid                                                          |
+| `{{url}}`           | Gjeldende URL                                                                  |
+| `{{words}}`         | Antall ord                                                                     |
 
 ## Prompt-variabler
 

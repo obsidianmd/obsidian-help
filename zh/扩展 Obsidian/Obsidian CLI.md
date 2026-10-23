@@ -1486,8 +1486,6 @@ code=<javascript>  # （必填）要执行的 JavaScript 代码
 
 ### Windows
 
-Windows 上的 Obsidian CLI 需要 Obsidian 1.12.7+ 安装程序。请参阅[[更新 Obsidian|安装程序版本更新]]。
-
 Windows 使用终端重定向器将 Obsidian 正确连接到 stdin/stdout。这是必要的，因为 Obsidian 通常作为 GUI 应用运行，与 Windows 上的终端输出不兼容。安装 Obsidian 1.12.7+ 后，`Obsidian.com` 终端重定向器将被添加到安装 `Obsidian.exe` 文件的文件夹中。
 
 CLI 注册会将 Obsidian 添加到用户的 PATH 变量中，该更改仅在重启终端后生效。

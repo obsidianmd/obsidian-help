@@ -91,6 +91,14 @@ You can also specify the height in pixels for the embedded PDF viewer by adding 
 ![[Document.pdf#height=400]]
 ```
 
+To combine page and height options, separate them with `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+For more about viewing and searching PDFs, see [[PDFs]].
+
 ## Embed a canvas in a note
 
 To embed a [[Canvas|canvas]]:

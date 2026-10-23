@@ -57,6 +57,9 @@ iCloud kan worden gebruikt om kluizen te synchroniseren tussen iOS en macOS. Ech
         2. Voer een naam in voor je kluis.
         3. Schakel **Opslaan in iCloud** in.
         4. Tik op **Aanmaken**.
+- **De kluismap gedownload houden** (optioneel, maar sterk aanbevolen om laadtijden snel te houden):
+    - Op macOS 15 (Sequoia) en later: Klik met de rechtermuisknop op de map **Obsidian** in iCloud Drive en selecteer **Bewaar gedownload**.
+    - Op macOS 14 (Sonoma) en eerder: Schakel **Optimaliseer Mac-opslag** uit in de iCloud-instellingen. Deze instelling beïnvloedt alle iCloud-opslag op het apparaat, niet alleen Obsidian.
 - **De kluis openen op een ander Apple-apparaat**:
     - Open op een ander macOS- of iOS-apparaat **Obsidian**, ga naar de [[Kluizen beheren|Kluiswisselaar]] en selecteer **Open map als kluis**. Navigeer naar **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud kan worden gebruikt om kluizen te synchroniseren tussen iOS en macOS. Ech
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Om je kluislocatie te verifiëren, open de **Bestanden**-app, tik op **Bladeren**, selecteer **iCloud Drive** onder **Locaties** en bevestig dat je kluis zich in de map **Obsidian** bevindt. Als je kluis op een andere locatie staat, kun je synchronisatieproblemen ervaren.
-
-> [!tip] Beste werkwijzen
-> - Voor **macOS 14 (Sonoma) en eerder**: Schakel **Optimaliseer Mac-opslag** uit in de iCloud-instellingen om te voorkomen dat bestanden worden uitgeladen. Deze instelling beïnvloedt alle iCloud-opslag op het apparaat, niet alleen Obsidian.
-> - Voor **macOS 15 (Sequoia)**: Klik met de rechtermuisknop op de map **Obsidian** in iCloud Drive en selecteer **Bewaar gedownload**.
 
 ## OneDrive
 

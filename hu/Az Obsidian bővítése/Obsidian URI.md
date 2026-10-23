@@ -44,6 +44,16 @@ Az `open` művelet megnyit egy Obsidian széfet, vagy megnyit egy fájlt az adot
 > [!tip] Fejléc vagy blokk megnyitása
 > Megfelelő URI-kódolással egy fejléchez vagy blokkhoz is navigálhatsz egy jegyzeten belül. A `Note%23Heading` a "Heading" nevű fejléchez navigál, míg a `Note%23%5EBlock` a "Block" nevű blokkhoz navigál.
 
+### Obsidian URL másolása
+
+Az Obsidian képes egy `open` URI-t összeállítani az aktív jegyzethez, így nem kell azt manuálisan megírnod. Az alkalmazás ezt Obsidian URL-nek nevezi. Tartalmazza a széf nevét és a jegyzet útvonalát.
+
+Az Obsidian URL-t az alábbi módokon másolhatod:
+
+- A [[Parancspaletta|parancspalettában]] válaszd az **Obsidian URL másolása** lehetőséget.
+- A jegyzetben válaszd a **További lehetőségek** ![[lucide-more-horizontal.svg#icon]] menüt, majd válaszd az **Útvonal másolása → Obsidian URL-ként** lehetőséget. Lásd: [[További lehetőségek menü]].
+- Asztali verzión kattints jobb egérgombbal egy fájlra a [[Fájlkezelő|fájlkezelőben]], majd válaszd az **Útvonal másolása → Obsidian URL-ként** lehetőséget.
+
 ### Paraméterek
 
 - `vault` a széf neve vagy a széf azonosítója lehet[^1].

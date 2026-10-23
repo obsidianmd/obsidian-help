@@ -10,11 +10,11 @@ As Definições permitem personalizar a sua experiência no Obsidian. Configure 
 
 ### Computador
 
-Na [[Barra lateral#Abrir barras laterais ocultas|barra lateral esquerda]], selecione **[[Definições]]** ![[lucide-cog.svg#icon]]. Também pode abrir as Definições com a [[Paleta de comando]].
+Na [[Barra lateral#Abrir barras laterais ocultas|barra lateral]], selecione **[[Definições]]** ![[lucide-cog.svg#icon]]. Também pode abrir as Definições com a [[Paleta de comando]].
 
 ### Móvel
 
-Na barra lateral esquerda, selecione **[[Definições]]** ![[lucide-cog.svg#icon]].
+Na barra lateral, selecione **[[Definições]]** ![[lucide-cog.svg#icon]]. As Definições abrem-se num painel sobre a aplicação.
 
 ## Organização das definições
 
@@ -187,6 +187,8 @@ Onde colocar notas recém-criadas. As opções incluem:
 - **Na mesma pasta do ficheiro atual** — As notas são criadas na mesma pasta da nota atualmente ativa.
 - **Na pasta especificada abaixo** — As notas são criadas numa pasta específica que escolher.
 
+Esta definição não se aplica quando uma [[Ligações internas|ligação interna]] inclui um caminho de pasta. Por exemplo, criar `[[Projetos/Três leis do movimento]]` cria a nota na pasta `Projetos` relativa à raiz do cofre.
+
 ### Localização padrão para novos anexos
 
 Onde os [[Anexos|anexos]] recém-adicionados são colocados. As opções incluem:
@@ -292,9 +294,11 @@ Definir fonte para lugares como blocos de código e metadados iniciais. Selecion
 
 Tamanho da fonte em pixels que afeta o editor e a visualização. Ajuste usando o cursor deslizante.
 
+O tamanho da fonte é guardado separadamente em cada dispositivo e não é sincronizado através do [[Introdução ao Obsidian Sync|Obsidian Sync]]. No móvel, o texto e os elementos da interface também se ajustam ao tamanho de texto preferido do seu sistema, incluindo tamanhos de acessibilidade.
+
 #### Ajuste rápido do tamanho da fonte
 
-Ajustar o tamanho da fonte usando `Ctrl+Scroll` (Windows/Linux) ou `Cmd+Scroll` (macOS), ou usando o gesto de pinça no trackpad.
+Ajustar o tamanho da fonte usando `Ctrl+Scroll` (Windows/Linux) ou `Cmd+Scroll` (macOS), ou usando o gesto de pinça no trackpad. Também pode usar **Aumentar o tamanho da letra** e **Diminuir o tamanho da letra** na [[Paleta de comandos]], ou atribuir-lhes [[Atalhos de teclado|atalhos de teclado]].
 
 ### Interface
 

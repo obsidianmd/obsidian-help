@@ -201,7 +201,25 @@ views:
 - `name` on näyttönimi, ja sitä voidaan käyttää oletusnäkymän määrittelyyn.
 - `filters` ovat täsmälleen samoja kuin yllä kuvattiin, mutta ne koskevat vain kyseistä näkymää.
 - `groupBy` määrittelee määreen ja järjestyssuunnan. Määritetyn määreen arvo kullakin rivillä käytetään rivin sijoittamiseen ryhmiin.
+- `groupOrder` määrittelee ryhmien järjestyksen ja näkyvyyden. Jos tämä on annettu, vain ne ryhmät näytetään, joiden arvot ovat luettelossa, annetussa järjestyksessä. Tyhjä luettelo piilottaa kaikki ryhmät. Poista `groupOrder` näyttääksesi kaikki ryhmät `groupBy`-määritteen mukaisessa järjestyksessä.
 - `summaries` yhdistää määrenimet nimettyyn yhteenvetoon. Yhteenvedot suorittavat koosteen määreestä kaikkien rivien yli.
+
+Esimerkiksi tämä näkymä näyttää vain ryhmät Planned, In progress ja Done, siinä järjestyksessä:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Käytä `null`-arvoa `groupOrder`-luettelossa sisällyttääksesi tiedostot, joilla ei ole arvoa ryhmitellylle määreelle.
 
 [[Näkymät]] voivat lisätä ylimääräistä dataa minkä tahansa tilan ylläpitämiseen tai oikeaan esittämiseen tarvittavan tiedon tallentamiseksi, mutta lisäosakehittäjien tulisi huolehtia, etteivät he käytä avaimia, jotka ovat jo Bases-sisäänrakennetun lisäosan käytössä. Esimerkiksi taulukkonäkymä voi käyttää tätä rivien lukumäärän rajoittamiseen tai sen valitsemiseen, mitä saraketta käytetään rivien lajitteluun ja mihin suuntaan. Eri näkymätyyppi, kuten kartta, voisi käyttää tätä kartoittamaan, mikä muistiinpanon määre vastaa leveys- ja pituusastetta ja mikä määre tulisi näyttää nuppineulaotsikkona.
 

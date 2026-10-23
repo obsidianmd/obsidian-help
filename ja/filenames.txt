@@ -54,6 +54,10 @@ translation=ビュー
 original=Cards view
 translation=カードビュー
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=カンバンビュー
+
 [file.bases/views/list]
 original=List view
 translation=リストビュー
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=コミュニティ行動規範
+
+[file.community-directory]
+original=Community directory
+translation=コミュニティディレクトリ
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=対応ファイル形式
 original=Financial contributions
 translation=金銭的な貢献
 
+[file.find-and-replace]
+original=Find and replace
+translation=検索かつ置換
+
 [file.folding]
 original=Folding
 translation=折りたたみ
@@ -173,6 +185,10 @@ translation=HTMLコンテンツ
 [file.import]
 original=Import notes
 translation=ノートのインポート
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Airtableからインポート
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Google Keep
 original=Import HTML files
 translation=HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseqからのインポート
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown ファイル
@@ -222,9 +242,17 @@ translation=OneNote
 original=Import from Roam Research
 translation=Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=インポーターテンプレート
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=TomboyとGnoteからのインポート
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=保管庫の管理
 original=Mobile app
 translation=モバイルアプリ
 
+[file.more-options-menu]
+original=More options menu
+translation=オプションメニュー
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=マルチカーソル
@@ -281,6 +313,10 @@ translation=公式ウェブサイト
 [file.payment]
 original=Introduction to licenses and payment
 translation=ライセンスと支払いの概要
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

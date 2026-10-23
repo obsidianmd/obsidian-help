@@ -44,6 +44,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] Bir başlık veya blok açma
 > Doğru URI kodlamasıyla, bir not içindeki bir başlığa veya bloğa gidebilirsiniz. `Note%23Heading`, "Heading" adlı başlığa giderken, `Note%23%5EBlock` ise "Block" adlı bloğa gider.
 
+### Obsidian URL'sini kopyalama
+
+Obsidian, etkin not için bir `open` URI'si oluşturabilir, böylece bunu kendiniz yazmanıza gerek kalmaz. Uygulama bunu Obsidian URL'si olarak adlandırır. Kasa adını ve nota giden yolu içerir.
+
+Obsidian URL'sini aşağıdaki yollardan herhangi biriyle kopyalayabilirsiniz.
+
+- [[Komut paleti]]nde **Obsidian URL'sini kopyala** komutunu seçin.
+- Notta **Daha fazla seçenek** ![[lucide-more-horizontal.svg#icon]] simgesini seçin, ardından **Yolu kopyala → Obsidian URL'si olarak** seçeneğini seçin. Bkz. [[Daha fazla seçenek menüsü]].
+- Masaüstünde, [[Dosya gezgini]]nde bir dosyaya sağ tıklayın, ardından **Yolu kopyala → Obsidian URL'si olarak** seçeneğini seçin.
+
 ### Parametreler
 
 - `vault` kasa adı veya kasa kimliği olabilir[^1].

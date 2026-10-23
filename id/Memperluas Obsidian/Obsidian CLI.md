@@ -1484,8 +1484,6 @@ Jika Anda mengalami kesulitan menjalankan Obsidian CLI:
 
 ### Windows
 
-Obsidian CLI di Windows memerlukan penginstal Obsidian 1.12.7+. Lihat [[Perbarui Obsidian|Pembaruan versi penginstal]].
-
 Windows menggunakan redirector terminal yang menghubungkan Obsidian ke stdin/stdout dengan benar. Ini diperlukan karena Obsidian biasanya berjalan sebagai aplikasi GUI yang tidak kompatibel dengan output terminal di Windows. Ketika Anda memasang Obsidian 1.12.7+, redirector terminal `Obsidian.com` akan ditambahkan di folder tempat Anda memasang file `Obsidian.exe`.
 
 Pendaftaran CLI menambahkan Obsidian ke variabel PATH pengguna Anda, yang hanya berlaku setelah Anda memulai ulang terminal.

@@ -31,11 +31,11 @@ Dostępne są następujące opcje:
 - **Zwiń wyniki wyszukiwania** przełącza, czy rozwijać każdą notatkę, aby wyświetlić wzmianki w niej.
 - **Pokaż dodatkowy kontekst** przełącza, czy obcinać czy wyświetlać pełny akapit zawierający wzmiankę.
 - **Sortowanie** określa sposób sortowania wzmianek.
-- **Pokaż filtry wyszukiwania** przełącza pole tekstowe, które pozwala filtrować wzmianki. Więcej informacji o tworzeniu zapytań wyszukiwania znajdziesz w [[Szukaj]].
+- **Pokaż filtry wyszukiwania** przełącza pole tekstowe, które pozwala filtrować wzmianki. Więcej informacji o tworzeniu zapytań wyszukiwania znajdziesz w [[Wyszukiwarka]].
 
 ## Wyświetl linki zwrotne dla notatki
 
-Aby wyświetlić linki zwrotne dla aktywnej notatki, kliknij kartę **Linki zwrotne** ![[obsidian-icon-links-coming-in.svg#icon]] w prawym pasku bocznym.
+Aby wyświetlić linki zwrotne dla aktywnej notatki, kliknij kartę **Linki zwrotne** ![[obsidian-icon-links-coming-in.svg#icon]] w prawym panelu bocznym.
 
 > [!note] Uwaga
 > Jeśli nie widzisz karty Linki zwrotne, możesz ją wyświetlić, otwierając [[Lista poleceń|paletę poleceń]] i uruchamiając polecenie **Linki zwrotne: Pokaż linki zwrotne**.

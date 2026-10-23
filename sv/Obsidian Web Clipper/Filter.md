@@ -102,6 +102,13 @@ Tar bort blanksteg från båda ändar av en sträng.
 
 - `"  hello world  "|trim` returnerar `"hello world"`.
 
+### `unescape`
+
+Konverterar escapade citattecken och radbrytningssekvenser till bokstavliga tecken.
+
+- `"Line 1\\nLine 2"|unescape` returnerar texten på två rader.
+- `'He said \\"hello\\"'|unescape` returnerar `He said "hello"`.
+
 ### `uncamel`
 
 Konverterar camelCase eller PascalCase till mellanrumseparerade ord, som du sedan kan formatera vidare med andra filter som `title` eller `capitalize`.
@@ -206,6 +213,14 @@ Returnerar längden på strängar, arrayer eller antalet nycklar i objekt.
 - För arrayer: `["a","b","c"]|length` returnerar `3`.
 - För objekt: `{"a":1,"b":2}|length` returnerar `2`.
 
+### `number_format`
+
+Formaterar ett nummer med ett angivet antal decimaler och valfria decimal- och tusentalsavgränsare.
+
+- `1234.567|number_format:2` returnerar `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` returnerar `"1.234,57"`.
+- Arrayer och objekt formateras rekursivt.
+
 ### `round`
 
 Avrundar ett nummer till närmaste heltal eller till ett angivet antal decimaler.
@@ -216,6 +231,10 @@ Avrundar ett nummer till närmaste heltal eller till ett angivet antal decimaler
 ## HTML-bearbetning
 
 Bearbeta HTML-innehåll och konvertera HTML till Markdown. Observera att din [[Variabler|variabel]] för indata måste innehålla HTML-innehåll, t.ex. genom att använda `{{fullHtml}}`, `{{contentHtml}}` eller en `{{selectorHtml:}}`-variabel.
+
+### `html_to_json`
+
+Konverterar HTML till strukturerad JSON som innehåller varje elements tagg, attribut och barn. Textnoder använder formatet `{"type":"text","content":"..."}`. Detta kan kombineras med filter som `map`, `object` och `template` för att omforma extraherad HTML.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Ersätter HTML-taggar men behåller taggens innehåll och attribut.
 Tar bort **alla** HTML-attribut från en sträng.
 
 - Använd `strip_attr:("class, id")` för att behålla specifika attribut.
-- Exempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerar `<div id="example">Content</div>`.
+- Exempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerar `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -339,6 +358,13 @@ Manipulerar objektdata:
 - `object:keys` returnerar en array med objektets nycklar.
 - `object:values` returnerar en array med objektets värden.
 - Exempel: `{"a":1,"b":2}|object:array` returnerar `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Vänder strängar, arrayer och postordningen i objekt.
+
+- `"abc"|reverse` returnerar `"cba"`.
+- `["a","b","c"]|reverse` returnerar `["c","b","a"]`.
 
 ### `slice`
 

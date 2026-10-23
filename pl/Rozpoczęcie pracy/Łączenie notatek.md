@@ -38,7 +38,7 @@ Jak widziałeś w poprzednich krokach, możesz kliknąć link z wciśniętym kla
 Innym sposobem nawigacji między notatkami są _linki zwrotne_. Link zwrotny pozwala poruszać się w kierunku przeciwnym do istniejącego linku.
 
 1. Otwórz notatkę „Isaac Newton".
-2. Na prawym pasku bocznym kliknij kartę **Linki zwrotne**.
+2. Na prawym panelu bocznym kliknij kartę **Linki zwrotne**.
 3. W sekcji **Powiązane wzmianki** kliknij wzmiankę w „Trzy zasady dynamiki", aby przejść do tej notatki.
 
 Kolejnym sposobem nawigacji między notatkami jest wizualna reprezentacja powiązań między nimi.
@@ -56,4 +56,4 @@ Kolejnym sposobem nawigacji między notatkami jest wizualna reprezentacja powią
 
 ## Dowiedz się więcej
 
-Zrozumienie powiązań między notatkami staje się coraz trudniejsze w miarę rozrastania się skarbca. Dowiedz się, jak korzystać z [[Podgląd grafu|widoku grafu]], aby uzyskiwać głębsze wnioski z twojej bazy wiedzy.
+Zrozumienie powiązań między notatkami staje się coraz trudniejsze w miarę rozrastania się sejfu. Dowiedz się, jak korzystać z [[Podgląd grafu|podglądu grafu]], aby uzyskiwać głębsze wnioski z twojej bazy wiedzy.

@@ -145,6 +145,23 @@ Formatierungen können als reiner Text angezeigt werden, indem ein Backslash `\`
 \**Diese Zeile wird kursiv sein und die Sternchen anzeigen*\*
 ```
 
+### Hervorhebungsfarben
+
+Hervorhebungen unterstützen sechs Farben. Füge ein Farb-Emoji direkt nach dem öffnenden `==` ein:
+
+| Farbe  | Beispiel              |
+| ------ | --------------------- |
+| Rot    | `==🔴Wichtig==`       |
+| Orange | `==🟠Nachverfolgen==` |
+| Gelb   | `==🟡Merken==`        |
+| Grün   | `==🟢Erledigt==`      |
+| Blau   | `==🔵Referenz==`      |
+| Violett | `==🟣Idee==`         |
+
+Ohne Farb-Emoji verwendet die Hervorhebung die Standard-Hervorhebungsfarbe deines Themas.
+
+Du kannst eine Farbe auch über das Formatierungsmenü auswählen. Die Eingabe von `==` im Editor schlägt Hervorhebungsfarben vor. In der [[Ansichten und Bearbeitungsmodus#Live-Vorschau|Live-Vorschau]] wird beim Platzieren des Cursors innerhalb einer Hervorhebung ein Farbfeld angezeigt. Wähle das Farbfeld aus, um die Farbe zu ändern.
+
 ## Interne Links
 
 Obsidian unterstützt zwei Formate für [[Interne Links|interne Links]] zwischen Notizen:
@@ -469,11 +486,13 @@ Du kannst auch Inline-Fußnoten verwenden. ^[Dies ist eine Inline-Fußnote.]
 > [!note] Hinweis
 > Inline-Fußnoten funktionieren nur im Lesemodus, nicht in der Live-Vorschau.
 
-Verwende die [[Fußnotenansicht]], um alle Fußnoten in einer Notiz zu sehen.
+Verwende die [[Fußnoten-Ansicht|Fußnotenansicht]], um alle Fußnoten in einer Notiz zu sehen.
 
 ## Kommentare
 
 Du kannst Kommentare hinzufügen, indem du Text mit `%%` umschließt. Kommentare sind nur in der Editor-Ansicht sichtbar.
+
+Die `%%`-Syntax ist spezifisch für Obsidian. Um Text in anderen Apps auszublenden, verwende einen HTML-Kommentar, `<!-- -->`. Siehe [[Obsidian Flavored Markdown]], um zu erfahren, wie sich die Obsidian-Syntax von Standard-Markdown unterscheidet.
 
 ```md
 Dies ist ein %%Inline-%%-Kommentar.
@@ -484,6 +503,20 @@ Dies ist ein Block-Kommentar.
 Block-Kommentare können mehrere Zeilen umfassen.
 %%
 ```
+
+Ein Inline-Kommentar kann überall in einer Zeile erscheinen, einschließlich in einer Überschrift, einem Listeneintrag oder fettem Text.
+
+Ein Block-Kommentar beginnt, wenn eine Zeile mit `%%` anfängt, und endet beim nächsten `%%`. Ein Block-Kommentar kann Leerzeilen und Markdown enthalten, wie Überschriften und Listen. Obsidian blendet all dies im Lesemodus aus.
+
+Text nach dem schließenden `%%` bleibt sichtbar, und Obsidian rendert dessen Markdown. Zum Beispiel hinterlässt `%%Kommentar%% _kursiv_` nur das Wort _kursiv_, in Kursivschrift.
+
+> [!warning]+ Schließe jeden Block-Kommentar
+> Wenn du einen Block-Kommentar beginnst und ihn nie schließt, blendet der Lesemodus den Rest der Notiz aus.
+
+> [!info]+ Halte Kommentar-Markierungen einfach
+> Halte beide Markierungen eines Inline-Kommentars in einer Zeile und beginne einen Block-Kommentar am Anfang einer Zeile.
+
+Um `%%` als Text anzuzeigen, setze es in einen Code-Bereich oder füge vor jeder Markierung einen Backslash hinzu.
 
 ## Markdown-Syntax escapen
 

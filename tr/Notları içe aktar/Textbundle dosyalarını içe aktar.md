@@ -1,5 +1,7 @@
 ---
 permalink: import/textbundle
+cssclasses:
+  - soft-embed
 ---
 Obsidian, resmi [[İçe aktarıcı|İçe Aktarıcı eklentisini]] kullanarak [Textbundle](https://textbundle.org/) dosyalarını kolayca içe aktarmanıza olanak tanır.
 
@@ -17,11 +19,21 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan y
 4. Komut paleti veya araç çubuğu simgesini kullanarak **İçe Aktarıcı** eklentisini açın.
 5. **Dosya biçimi** altında **Textbundle (.textbundle, .textpack)** seçeneğini seçin.
 6. Textbundle veya Textpack dosyalarınızın konumunu seçin. Zip dosyaları da desteklenmektedir.
-7. **İçe Aktar**'a tıklayın ve içe aktarma tamamlanana kadar bekleyin.
-8. İşlem tamamlandı!
+7. Oluşturulan şablonu incelemek ve notlarınızdan önizleme örneklerini görmek için **İçe Aktar**'ı seçin.
+8. Tekrar **İçe Aktar**'ı seçin ve içe aktarma işleminin tamamlanmasını bekleyin.
+
+## İçe aktarılan notları özelleştirme
+
+İçe aktarma başlamadan önce, İçe Aktarıcı seçilen Textbundle dosyalarından oluşturulan bir önizleme gösterir. Oluşturulan şablonu düzenleyebilir veya kasanızdan bir Markdown şablonu seçebilirsiniz. Bkz. [[İçe aktarıcı şablonları]].
 
 ## Sorun Giderme
 
 ### İçe aktarma için dosya seçilmedi
 
 Textbundle içe aktarma işlemi aynı anda yalnızca bir Textbundle dosyasını içe aktarabilir ve yalnızca Mac cihazlarda çalışır. Bunun yerine, içe aktarmak istediğiniz tüm Textbundle dosyalarını tek bir .zip dosyasında sıkıştırabilir ve herhangi bir cihazdan bu dosyayı içe aktarabilirsiniz.
+
+## Şablonlar
+
+Verilerinizin nasıl içe aktarılacağını tamamen yapılandırmak için [[İçe aktarıcı şablonları|İçe Aktarıcı şablonlarını]] kullanın.
+
+![[İçe aktarıcı şablonları#Variables]]

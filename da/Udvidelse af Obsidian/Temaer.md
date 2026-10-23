@@ -13,6 +13,8 @@ Her kan du lære, hvordan du kan ændre udeseendet og følelsem af Obsidian, ved
 2. Vælg **Aktivér fællesskabsplugins**. Se yderligere information her: [[Plugin sikkerhed#Begrænset tilstand]]
 3. Vælg **Gennemse** for at liste alle tilgængelige fællesskabsplugins
 
+Du kan også gennemse tilgængelige temaer i din browser ved at gå til [community.obsidian.md](https://community.obsidian.md). For mere information om, hvad en temaets listeside viser, se [[Fællesskabsbibliotek]].
+
 ## Sådan installerer du et nyt tema
 
 1. Åbn **Indstillinger**.

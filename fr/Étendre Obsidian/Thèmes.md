@@ -1,7 +1,6 @@
 ---
 permalink: themes
 localized: '2026-03-18'
-
 ---
 Apprenez à modifier l'apparence d'Obsidian en utilisant des thèmes créés par la communauté.
 
@@ -9,6 +8,8 @@ Apprenez à modifier l'apparence d'Obsidian en utilisant des thèmes créés par
 
 1. Ouvrez les **[[Paramètres]]**.
 2. Sous **Apparence → Thèmes**, sélectionnez **Gérer** pour lister tous les thèmes communautaires disponibles.
+
+Vous pouvez également parcourir les thèmes disponibles dans votre navigateur en vous rendant sur [community.obsidian.md](https://community.obsidian.md). Pour plus d'informations sur ce qu'affiche la page de présentation d'un thème, consultez [[Répertoire communautaire]].
 
 ## Installer un nouveau thème
 

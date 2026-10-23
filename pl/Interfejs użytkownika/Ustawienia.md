@@ -10,11 +10,11 @@ Ustawienia pozwalają dostosować Obsidian do własnych potrzeb. Konfiguruj ogó
 
 ### Komputer
 
-Na [[Pasek boczny#Otwieranie ukrytych pasków bocznych|lewym pasku bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
+Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
 
 ### Urządzenia mobilne
 
-Na lewym pasku bocznym wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]].
+Na panelu bocznym wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia otwierają się w arkuszu nad aplikacją.
 
 ## Organizacja ustawień
 
@@ -187,6 +187,8 @@ Gdzie umieszczać nowo utworzone notatki. Opcje obejmują:
 - **W tym samym folderze, w którym znajduje się aktywny plik** — Notatki są tworzone w tym samym folderze co aktywna notatka.
 - **W folderze określonym poniżej** — Notatki są tworzone w wybranym folderze.
 
+To ustawienie nie dotyczy sytuacji, gdy [[Łącza wewnętrzne|łącze wewnętrzne]] zawiera ścieżkę folderu. Na przykład utworzenie `[[Projekty/Trzy prawa ruchu]]` tworzy notatkę w folderze `Projekty` względem katalogu głównego sejfu.
+
 ### Domyślna lokalizacja załączników
 
 Gdzie umieszczane są nowo dodane [[Załączniki|załączniki]]. Opcje obejmują:
@@ -216,7 +218,7 @@ Automatycznie generuj odnośniki wiki dla `[[łączy]]` i `![[obrazów]]` zamias
 
 #### Pokaż wszystkie typy plików
 
-Pokaż pliki z dowolnym rozszerzeniem, nawet jeśli Obsidian nie może ich otworzyć, dzięki czemu można utworzyć do nich łącza i zobaczyć je w eksploratorze plików i w oknie szybkiego wyboru.
+Pokaż pliki z dowolnym rozszerzeniem, nawet jeśli Obsidian nie może ich otworzyć, dzięki czemu można utworzyć do nich łącza i zobaczyć je w przeglądarce plików i w oknie szybkiego wyboru.
 
 ### Kosz
 
@@ -236,7 +238,7 @@ Co zrobić z plikami po ich usunięciu. Opcje obejmują:
 
 #### Pominięte pliki
 
-Pominięte pliki będą ukryte w [[Szukaj|wyszukiwaniu]], [[Podgląd grafu|widoku grafu]] oraz w niepowiązanych wzmiankach ([[Linki zwrotne]] i [[Łącza wychodzące]]), a także mniej widoczne w [[Okno szybkiego wyboru|szybkim przełączniku]] i podpowiedziach łączy. Wybierz **Zarządzaj**, aby skonfigurować pominięte pliki.
+Pominięte pliki będą ukryte w [[Wyszukiwarka|wyszukiwaniu]], [[Podgląd grafu|podglądu grafu]] oraz w niepowiązanych wzmiankach ([[Linki zwrotne]] i [[Łącza wychodzące]]), a także mniej widoczne w [[Okno szybkiego wyboru|szybkim przełączniku]] i podpowiedziach łączy. Wybierz **Zarządzaj**, aby skonfigurować pominięte pliki.
 
 #### Zastąp folder konfiguracji
 
@@ -292,9 +294,11 @@ Wybierz czcionkę elementów takich jak bloki kodu i frontmatter. Wybierz **Zarz
 
 Rozmiar czcionki w pikselach, który wpływa na edytor i podgląd. Dostosuj za pomocą suwaka.
 
+Rozmiar czcionki jest zapisywany osobno na każdym urządzeniu i nie jest synchronizowany przez [[Wprowadzenie do Obsidian Sync|Obsidian Sync]]. Na urządzeniach mobilnych tekst i elementy interfejsu skalują się również zgodnie z preferowanym rozmiarem tekstu w systemie, w tym rozmiarami ułatwień dostępu.
+
 #### Szybka regulacja rozmiaru czcionki
 
-Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie.
+Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie. Możesz również użyć poleceń **Zwiększ rozmiar czcionki** i **Zmniejsz rozmiar czcionki** w [[Lista poleceń|palecie poleceń]] lub przypisać im [[Skróty klawiszowe|skróty klawiszowe]].
 
 ### Interfejs
 
@@ -306,16 +310,16 @@ Wyświetla nazwę pliku jako edytowalny tytuł w linii z zawartością pliku. Ty
 
 Wyświetla tytuł na górze każdej karty.
 
-#### Wyświetl menu wstążkowe
+#### Wyświetl menu wstążki
 
-Wyświetla pionowy pasek narzędzi z boku okna. Dowiedz się więcej o [[Menu wstążkowe|wstążce]].
+Wyświetla pionowy pasek narzędzi z boku okna. Dowiedz się więcej o [[Wstążka|wstążce]].
 
-#### Konfiguracja menu wstążkowego
+#### Konfiguracja menu wstążki
 
-Wybierz elementy wyświetlane w menu wstążkowym. Wybierz **Zarządzaj**, aby dostosować.
+Wybierz elementy wyświetlane w menu wstążki. Wybierz **Zarządzaj**, aby dostosować.
 
 > [!info]+ Konfiguracja wstążki na urządzeniach mobilnych
-> Na urządzeniach mobilnych dostosowywanie wstążki działa inaczej. Zobacz [[Menu wstążkowe#Urządzenia mobilne|Dostosowywanie wstążki na urządzeniach mobilnych]], aby uzyskać szczegóły.
+> Na urządzeniach mobilnych dostosowywanie wstążki działa inaczej. Zobacz [[Wstążka#Urządzenia mobilne|Dostosowywanie wstążki na urządzeniach mobilnych]], aby uzyskać szczegóły.
 
 ### Zaawansowane
 

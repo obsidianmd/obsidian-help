@@ -18,9 +18,8 @@ Det finnes flere måter å åpne hurtigåpneren på, når den er aktivert:
 3. Naviger til notatet med piltastene.
 4. Trykk `Enter` for å åpne det valgte notatet.
 
-> [!info] 
-> Autofullføringsfunksjonaliteten bytter til en enklere resultatalgoritme når hvelvet når 10 000 elementer for å opprettholde optimal applikasjonsytelse. 
-^search-autocomplete-large
+> [!info] Fuzzy matching
+> Filforslag matcher bokstaver i rekkefølge, selv om du hopper over noen. For eksempel kan `dn` matche `Daglige notater`.
 
 Hvis teksten ikke samsvarer med noen notater, kan du trykke `Enter` for å opprette et notat med det navnet. Selv om teksten samsvarer med ett eller flere lignende notater, kan du fortsatt opprette et notat med det eksakte navnet ved å trykke `Shift+Enter`.
 

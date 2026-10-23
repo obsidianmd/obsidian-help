@@ -19,6 +19,27 @@ Jegyzeteket a [[Fájlkezelő#Új jegyzet létrehozása|Fájlkezelő]] segítség
 > Az Obsidian betartja annak az operációs rendszernek a fájlnév-korlátozásait, amelyen a jegyzetet létrehozod. Ha tervezed a [[Jegyzetek szinkronizálása eszközök között|jegyzeteid szinkronizálását eszközök között]], győződj meg róla, hogy a fájlneveid [biztonságosak más operációs rendszerek számára is](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Fájlok megnyitása a széfen kívülről
+
+Asztali gépen megnyithatsz és szerkeszthetsz különálló Markdown fájlokat a széfeden kívülről. A fájlok az aktuális ablakban nyílnak meg, és az eredeti helyükön maradnak.
+
+> [!note] Az Obsidian 1.14 és a legújabb telepítő szükséges
+> [[Az Obsidian frissítése#Telepítő frissítések|Frissítsd a telepítődet]] az Obsidian letöltésével az [obsidian.md/download](https://obsidian.md/download) oldalról, majd telepítsd újra az alkalmazást.
+
+Markdown fájl megnyitásához:
+
+1. Nyisd meg a [[Parancspaletta|Parancspalettát]].
+2. Válaszd a **Fájl megnyitása a széfen kívülről...** lehetőséget.
+3. Válassz ki egy Markdown fájlt a számítógépeden.
+
+Az operációs rendszered **Megnyitás ezzel** menüjét is használhatod, és kiválaszthatod az **Obsidian**-t. Ha alapértelmezetten az Obsidianban szeretnéd megnyitni a Markdown fájlokat, állítsd be alapértelmezett alkalmazásként a `.md` fájlokhoz.
+
+A képbeágyazások és más helyi fájlokra mutató hivatkozások a Markdown fájl mappájához viszonyítva oldódnak fel. Használd a [[Vázlat|Vázlatot]] a fejlécek közötti navigáláshoz, és a [[Kimenő kapcsolatok|Kimenő kapcsolatokat]] a hivatkozott fájlok böngészéséhez.
+
+### Fájlok előnézete a Quick Look segítségével
+
+macOS-en válassz ki egy Markdown fájlt a Finderben, és nyomd meg a `Szóköz` billentyűt a **Quick Look** előnézetéhez. A Quick Look előnézet akkor is működik, ha az Obsidian be van zárva.
+
 ## Jegyzet átnevezése
 
 Aktív jegyzet átnevezéséhez:

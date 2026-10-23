@@ -54,6 +54,10 @@ translation=檢視
 original=Cards view
 translation=卡片檢視
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=看板檢視
+
 [file.bases/views/list]
 original=List view
 translation=清單檢視
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=社群行為準則
+
+[file.community-directory]
+original=Community directory
+translation=社群目錄
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=支援的檔案格式
 original=Financial contributions
 translation=財務贊助
 
+[file.find-and-replace]
+original=Find and replace
+translation=尋找且取代
+
 [file.folding]
 original=Folding
 translation=收合
@@ -173,6 +185,10 @@ translation=HTML 內容
 [file.import]
 original=Import notes
 translation=匯入筆記
+
+[file.import/airtable]
+original=Import from Airtable
+translation=從 Airtable 匯入
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=從 Google Keep 匯入
 original=Import HTML files
 translation=匯入 HTML 檔案
 
+[file.import/logseq]
+original=Import from Logseq
+translation=從 Logseq 匯入
+
 [file.import/markdown]
 original=Import Markdown files
 translation=匯入 Markdown 檔案
@@ -222,9 +242,17 @@ translation=從 Microsoft OneNote 匯入
 original=Import from Roam Research
 translation=從 Roam Research 匯入
 
+[file.import/templates]
+original=Importer templates
+translation=匯入器模板
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=匯入 Textbundle 檔案
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=從 Tomboy 且 Gnote 匯入
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=管理保管庫
 original=Mobile app
 translation=行動應用程式
 
+[file.more-options-menu]
+original=More options menu
+translation=更多選項選單
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=多重游標
@@ -281,6 +313,10 @@ translation=官方網站
 [file.payment]
 original=Introduction to licenses and payment
 translation=授權與付款介紹
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

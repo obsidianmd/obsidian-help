@@ -1,4 +1,5 @@
 // Locale UI strings — Russian
+window.LANG_SWITCHER_STRINGS = { search: "Сменить язык...", noResults: "Нет результатов" };
 (function () {
   function apply() {
     var el;

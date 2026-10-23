@@ -44,6 +44,16 @@ Handlingen `open` åpner et Obsidian-hvelv, eller åpner en fil i det hvelvet.
 > [!tip] Åpne en overskrift eller blokk
 > Med riktig URI-koding kan du navigere til en overskrift eller blokk i et notat. `Note%23Heading` vil navigere til overskriften kalt «Heading», mens `Note%23%5EBlock` vil navigere til blokken kalt «Block».
 
+### Kopier en Obsidian-URL
+
+Obsidian kan bygge en `open`-URI for det aktive notatet, slik at du ikke trenger å skrive den selv. Appen kaller dette en Obsidian-URL. Den inkluderer hvelvnavnet og banen til notatet.
+
+Du kan kopiere Obsidian-URLen på en av disse måtene:
+
+- I [[Kommandopalett|kommandopaletten]], velg **Kopier Obsidian-URL for gjeldende fil**.
+- I notatet, velg **Flere valg** ![[lucide-more-horizontal.svg#icon]], og velg deretter **Kopier sti → som Obsidian-URL**. Se [[Flere valg-meny]].
+- På skrivebordet, høyreklikk en fil i [[Filutforsker|filutforskeren]], og velg deretter **Kopier sti → som Obsidian-URL**.
+
 ### Parametere
 
 - `vault` kan enten være hvelvnavnet eller hvelv-IDen[^1].

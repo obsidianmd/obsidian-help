@@ -31,6 +31,7 @@ Web ClipperでDefuddleをバイパスするには、以下の方法を使用し�
 
 - [[Obsidian URI]]プロトコルが[[Obsidian URI#Obsidian URIの登録|登録されている]]ことを確認してください。
 - Firefoxを使用している場合は、[ブラウザの設定で登録](https://kb.mozillazine.org/Register_protocol)する必要があるかもしれません。
+- Flatpakを使用している場合は、`.config/mimeapps.list`にある`x-scheme-handler/obsidian`の値を`obsidian.desktop`から`md.obsidian.Obsidian.desktop`に更新する必要があるかもしれません。
 
 #### Obsidianは開くがファイル名のみが保存される
 

@@ -1084,7 +1084,7 @@ task daily line=3 done             # Marcar tarefa da nota diária como concluí
 
 ## Modelos
 
-Comandos para [[Plugins/Modelos|Modelos]].
+Comandos para [[Obsidian Headless|Modelos]].
 
 ### `templates`
 
@@ -1483,8 +1483,6 @@ Se você estiver tendo problemas para executar o Obsidian CLI:
 - O Obsidian deve estar em execução. O CLI se conecta à instância do Obsidian em execução.
 
 ### Windows
-
-O Obsidian CLI no Windows requer o instalador do Obsidian 1.12.7+. Consulte [[Atualizar o Obsidian|Atualização da versão do instalador]].
 
 O Windows usa um redirecionador de terminal que conecta o Obsidian ao stdin/stdout corretamente. Isso é necessário porque o Obsidian normalmente é executado como um aplicativo GUI, que é incompatível com saídas de terminal no Windows. Quando você instala o Obsidian 1.12.7+, o redirecionador de terminal `Obsidian.com` será adicionado na pasta onde você instalou o arquivo `Obsidian.exe`.
 

@@ -1,5 +1,7 @@
 ---
 permalink: import/evernote
+cssclasses:
+  - soft-embed
 ---
 Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisini]] kullanarak notlarınızı Evernote'tan kolayca taşımanızı sağlar. Bu işlem, Evernote verilerinizi Obsidian ve diğer birçok uygulamayla kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
@@ -24,10 +26,10 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 4. Komut paleti veya araç çubuğu simgesini kullanarak **İçe aktarıcı** eklentisini açın.
 5. **Dosya biçimi** altında **Evernote (.enex)** seçeneğini seçin.
 6. Evernote yedek dosyanızın konumunu seçin.
-7. **İçe aktar**'a tıklayın ve içe aktarma tamamlanana kadar bekleyin.
-8. İşlem tamamlandı!
+7. Oluşturulan şablonu incelemek ve notlarınızdan örnekleri önizlemek için **İçe aktar**'ı seçin.
+8. Tekrar **İçe aktar**'ı seçin ve içe aktarma işleminin tamamlanmasını bekleyin.
 
-## Gelişmiş içe aktarma seçenekleri
+## İçe aktarma seçenekleri
 
 ### Etiket hiyerarşisini koruma
 
@@ -52,6 +54,8 @@ Dışa aktarma işlemi tek not defterleriyle sınırlı olduğundan, varsayılan
 
 Bu işlem, dönüştürülen notların Stack1/NotebookA klasörü içinde oluşturulmasını sağlar.
 
-### Daha fazla seçenek
+## Şablonlar
 
-Evernote'tan daha gelişmiş içe aktarma seçenekleri için [Yarle aracılığıyla içe aktarmayı](https://github.com/akosbalasko/yarle) da deneyebilirsiniz.
+Evernote verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe aktarıcı şablonlarını]] kullanın.
+
+![[İçe aktarıcı şablonları#Variables]]

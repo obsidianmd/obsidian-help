@@ -1,4 +1,5 @@
 // Locale UI strings — Ukrainian
+window.LANG_SWITCHER_STRINGS = { search: "Змінити мову...", noResults: "Немає результатів" };
 (function () {
   function apply() {
     var el;

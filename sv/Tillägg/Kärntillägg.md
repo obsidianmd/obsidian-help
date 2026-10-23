@@ -52,8 +52,6 @@ Obsidian-teamet underhåller även utvecklingen av vissa [[#Andra tillägg|gemen
 	- Spela in och spara ljudinspelningar direkt i en anteckning.
 - [[Mallar|Mallar]]
 	- Infoga fördefinierat innehåll i dina anteckningar.
-- [[Markdown-formatimportör]]
-	- Konvertera Markdown från andra appar till Obsidian-format.
 - [[Ordräkning]]
 	- Visa antalet ord och tecken.
 - [[Introduktion till Obsidian Publish|Publish]]

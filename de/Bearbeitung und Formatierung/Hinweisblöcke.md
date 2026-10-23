@@ -85,14 +85,14 @@ Um einen benutzerdefinierten Hinweisblock zu definieren, erstelle den folgenden 
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Der Wert des `data-callout`-Attributs ist die Typ-Kennung, die du verwenden möchtest, zum Beispiel `[!custom-question-type]`.
 
-- `--callout-color` definiert die Hintergrundfarbe mit Zahlen (0–255) für Rot, Grün und Blau.
+- `--callout-color` definiert die Hintergrundfarbe. Jeder gültige CSS-Farbwert funktioniert, zum Beispiel ein Hex-Code (`#000000`) oder ein `rgb()`-Wert.
 - `--callout-icon` kann eine Symbol-ID von [lucide.dev](https://lucide.dev) oder ein SVG-Element sein.
 
 > [!warning] Hinweis zu Lucide-Symbol-Versionen
@@ -105,6 +105,28 @@ Der Wert des `data-callout`-Attributs ist die Typ-Kennung, die du verwenden möc
 > ```css
 > --callout-icon: '<svg>...benutzerdefiniertes SVG...</svg>';
 > ```
+
+> [!tip]- Weitere Anpassungen
+> Du bist nicht auf `--callout-color` und `--callout-icon` beschränkt. Hinweisblöcke unterstützen Standard-CSS-Selektoren und -Eigenschaften sowie zusätzliche CSS-Variablen für Dinge wie Rahmen- und Titelgestaltung.
+> 
+> Zum Beispiel den Titel eines Hinweisblocks ausblenden:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Oder den Rahmen anpassen:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Die vollständige Liste der [CSS-Variablen für Hinweisblöcke](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) findest du für weitere Optionen.
 
 ### Unterstützte Typen
 

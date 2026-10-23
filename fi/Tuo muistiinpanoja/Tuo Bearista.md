@@ -1,5 +1,7 @@
 ---
 permalink: import/bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojesi helpon siirtämisen Bearista [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä muuntaa Bear-tietosi kestävään Markdown-muotoon, jota voit käyttää Obsidianin ja monien muiden sovellusten kanssa.
 

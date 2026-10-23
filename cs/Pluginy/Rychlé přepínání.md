@@ -18,9 +18,8 @@ Existuje několik způsobů, jak otevřít Rychlé přepínání, pokud je zapnu
 3. Přejděte na poznámku pomocí šipek.
 4. Stiskněte `Enter` pro otevření vybrané poznámky.
 
-> [!info] 
-> Funkce automatického doplňování přepne na jednodušší algoritmus výsledků, když trezor dosáhne 10 000 položek, aby byl zachován optimální výkon aplikace. 
-^search-autocomplete-large
+> [!info] Fuzzy matching
+> Návrhy souborů odpovídají písmenům v pořadí, i když některá přeskočíte. Například `dp` může odpovídat `Denní poznámky`.
 
 Pokud text neodpovídá žádné poznámce, můžete stisknout `Enter` a vytvořit poznámku s daným názvem. I když text odpovídá jedné nebo více podobným poznámkám, stále můžete vytvořit poznámku s přesným názvem stisknutím `Shift+Enter`.
 

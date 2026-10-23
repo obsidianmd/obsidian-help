@@ -54,6 +54,10 @@ translation=Näkymät
 original=Cards view
 translation=Korttinäkymä
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-näkymä
+
 [file.bases/views/list]
 original=List view
 translation=Luettelonäkymä
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Yhteisön käyttäytymissäännöt
+
+[file.community-directory]
+original=Community directory
+translation=Yhteisöhakemisto
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=Hyväksytyt tiedostomuodot
 original=Financial contributions
 translation=Taloudelliset lahjoitukset
 
+[file.find-and-replace]
+original=Find and replace
+translation=Etsi ja korvaa
+
 [file.folding]
 original=Folding
 translation=Kutistus
@@ -173,6 +185,10 @@ translation=HTML-sisältö
 [file.import]
 original=Import notes
 translation=Tuo muistiinpanoja
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Tuo Airtablesta
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Tuo Google Keepistä
 original=Import HTML files
 translation=Tuo HTML-tiedostoja
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Tuo Logseqista
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Tuo Markdown-tiedostoja
@@ -222,9 +242,17 @@ translation=Tuo Microsoft OneNotesta
 original=Import from Roam Research
 translation=Tuo Roam Researchista
 
+[file.import/templates]
+original=Importer templates
+translation=Tuontimallineet
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Tuo Textbundle-tiedostoja
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tuo Tomboysta ja Gnotesta
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=Hallinnoi holveja
 original=Mobile app
 translation=Mobiilisovellus
 
+[file.more-options-menu]
+original=More options menu
+translation=Lisää vaihtoehtoja -valikko
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Useita kohdistimia
@@ -281,6 +313,10 @@ translation=Virallinen verkkosivusto
 [file.payment]
 original=Introduction to licenses and payment
 translation=Johdanto lisensseihin ja maksamiseen
+
+[file.pdf]
+original=PDFs
+translation=PDF-tiedostot
 
 [file.plugin-security]
 original=Plugin security

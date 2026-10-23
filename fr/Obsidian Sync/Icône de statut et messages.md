@@ -4,7 +4,6 @@ description: Cette page explique les icônes d'état d'Obsidian Sync et fournit 
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 Obsidian Sync fournit plusieurs éléments pour indiquer l'état de la synchronisation, principalement l'[[#Icône de statut de Sync]] et le [[#Journal d'activité de Sync]]. Les détails concernant le contrôle de version dans Obsidian Sync sont couverts dans la page [[Historique des versions]].
 
@@ -82,9 +81,17 @@ Ce sont des messages détaillant ce qui a été ignoré, et potentiellement pour
 
 **Unable to download file with illegal name**
 
-Le fichier contient un [caractère spécial ou une convention de nommage](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) qui n'est pas autorisé sur le système d'exploitation de destination. Pour simplifier, vous pouvez renommer le fichier sur son appareil source pour supprimer tous les caractères spéciaux sauf `-` et `_`.
+Le nom du fichier utilise un [caractère spécial ou une convention de nommage](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) que le système d'exploitation de destination ne peut pas stocker. Renommez le fichier sur son appareil source, puis laissez Sync envoyer à nouveau le fichier renommé.
 
-Notez que cela inclut également les fichiers avec plusieurs points `.` dans leur nom sur les appareils Android.
+Pour les coffres synchronisés entre différents systèmes d'exploitation, évitez les éléments suivants dans les noms de fichiers et de dossiers :
+
+- Les caractères généralement réservés par les systèmes de fichiers, tels que `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` et `|`
+- Un espace ou un point à la fin du nom
+- Les noms de périphériques réservés par Windows, tels que `CON`, `PRN`, `AUX`, `NUL`, `COM1` à `COM9`, ou `LPT1` à `LPT9`
+- Les caractères qu'Obsidian utilise pour les liens, tels que `#`, `^`, `[` et `]`, si vous souhaitez des noms de notes compatibles avec les liens
+- Plusieurs points `.` dans un nom de fichier, ou des emojis, que certains appareils Android peuvent rejeter
+
+En cas de doute, utilisez des lettres, des chiffres, des espaces réguliers à l'intérieur du nom, des tirets `-`, des tirets bas `_`, et un seul point avant l'extension de fichier.
 
 ### Messages de compte
 

@@ -44,7 +44,7 @@ iCloud es pot utilitzar per sincronitzar cambres fortes entre iOS i macOS. No ob
 **Com crear i emmagatzemar la teva cambra forta a iCloud Drive**:
 
 - **Activa iCloud Drive**:
-    - A macOS: Ves a **Preferències del Sistema → ID d'Apple → iCloud → iCloud Drive**.
+    - A macOS: Ves a **Configuració del Sistema → ID d'Apple → iCloud → iCloud Drive**.
     - A iOS: Ves a **Configuració → [El teu nom] → iCloud → iCloud Drive**.
 - **Crea una nova cambra forta a iCloud**:
     - A macOS:
@@ -57,6 +57,9 @@ iCloud es pot utilitzar per sincronitzar cambres fortes entre iOS i macOS. No ob
         2. Introdueix un nom per a la teva cambra forta.
         3. Activa **Emmagatzema a iCloud**.
         4. Toca **Crear**.
+- **Mantén la carpeta de la cambra forta baixada** (opcional, però molt recomanat per mantenir els temps de càrrega ràpids):
+    - A macOS 15 (Sequoia) i posteriors: Fes clic dret a la carpeta **Obsidian** a iCloud Drive i selecciona **Mantén baixat**.
+    - A macOS 14 (Sonoma) i anteriors: Desactiva **Optimitza l'emmagatzematge del Mac** a la configuració d'iCloud. Aquesta configuració afecta tot l'emmagatzematge d'iCloud al dispositiu, no només Obsidian.
 - **Obre la cambra forta en un altre dispositiu Apple**:
     - En un altre dispositiu macOS o iOS, obre **Obsidian**, ves al [[Gestiona les cambres fortes|Selector de cambres fortes]] i selecciona **Obrir carpeta com a arca**. Navega fins a **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud es pot utilitzar per sincronitzar cambres fortes entre iOS i macOS. No ob
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Per verificar la ubicació de la teva cambra forta, obre l'aplicació **Fitxers**, toca **Navegar**, selecciona **iCloud Drive** a **Ubicacions** i confirma que la teva cambra forta està dins la carpeta **Obsidian**. Si la teva cambra forta es troba en una ubicació diferent, podries experimentar problemes de sincronització.
-
-> [!tip] Bones pràctiques
-> - Per a **macOS 14 (Sonoma) i anteriors**: Desactiva **Optimitza l'emmagatzematge del Mac** a la configuració d'iCloud per evitar que els fitxers siguin descarregats. Aquesta configuració afecta tot l'emmagatzematge d'iCloud al dispositiu, no només Obsidian.
-> - Per a **macOS 15 (Sequoia)**: Fes clic dret a la carpeta **Obsidian** a iCloud Drive i selecciona **Mantén baixat**.
 
 ## OneDrive
 

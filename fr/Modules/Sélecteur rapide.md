@@ -3,7 +3,7 @@ permalink: plugins/quick-switcher
 description: Sélecteur rapide est un module principal qui vous permet de rechercher et d'ouvrir des notes en utilisant uniquement votre clavier.
 aliases:
   - Modules/Modules principaux/Sélecteur rapide
-localized: 2026-03-18
+localized: 2026-03-18T00:00:00.000Z
 ---
 Le sélecteur rapide est un [[Modules principaux|module principal]] qui vous permet de rechercher et d'ouvrir des notes en utilisant uniquement votre clavier.
 
@@ -21,9 +21,8 @@ Il existe plusieurs façons d'ouvrir le sélecteur rapide, lorsqu'il est activé
 3. Naviguez vers la note à l'aide des touches fléchées.
 4. Appuyez sur `Entrée` pour ouvrir la note sélectionnée.
 
-> [!info] 
-> La fonctionnalité de complétion automatique bascule vers un algorithme de résultats plus simple lorsque le coffre atteint 10 000 éléments afin de maintenir des performances optimales de l'application. 
-^search-autocomplete-large
+> [!info] Correspondance approximative
+> Les suggestions de fichiers correspondent aux lettres dans l'ordre, même si vous en sautez certaines. Par exemple, `nq` peut correspondre à `Notes quotidiennes`.
 
 Si le texte ne correspond à aucune note, vous pouvez appuyer sur `Entrée` pour créer une note portant ce nom. Même si le texte correspond à une ou plusieurs notes similaires, vous pouvez toujours créer une note avec le nom exact en appuyant sur `Maj+Entrée`.
 

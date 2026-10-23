@@ -15,7 +15,7 @@ Obsidian może być używany jako aplikacja do robienia notatek dla osób indywi
 - [[Sync dla zespołów]]
 	- Jak synchronizować dane w zespole.
 - [[Publish dla zespołów]]
-	- Jak publikować dane ze skarbca zespołu.
+	- Jak publikować dane ze sejfu zespołu.
 
 ## Ważne zasoby
 

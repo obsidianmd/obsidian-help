@@ -38,6 +38,9 @@ Pemicu templat memungkinkan Anda secara otomatis memilih templat berdasarkan URL
 
 Kecocokan pertama dalam daftar templat Anda menentukan templat mana yang digunakan. Anda dapat menyeret templat ke atas dan ke bawah di pengaturan Web Clipper untuk mengubah urutan pencocokan templat.
 
+> [!tip]- Atur templat cadangan
+> Jika halaman tidak cocok dengan aturan pemicu mana pun, Web Clipper menggunakan templat pertama dalam daftar Anda. Simpan templat yang Anda inginkan sebagai cadangan di bagian atas daftar untuk memastikan templat tersebut digunakan untuk halaman tanpa kecocokan spesifik.
+
 #### Pencocokan URL sederhana
 
 Pencocokan sederhana memicu templat jika URL halaman saat ini *dimulai dengan* pola yang diberikan. Misalnya:

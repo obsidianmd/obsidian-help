@@ -83,14 +83,14 @@ For å definere en egendefinert uthevet blokk, opprett følgende CSS-blokk:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Verdien av `data-callout`-attributtet er typeidentifikatoren du ønsker å bruke, for eksempel `[!custom-question-type]`.
 
-- `--callout-color` definerer bakgrunnsfargen med tall (0–255) for rød, grønn og blå.
+- `--callout-color` definerer bakgrunnsfargen. Enhver gyldig CSS-farge fungerer, for eksempel en heksadesimalkode (`#000000`) eller en `rgb()`-verdi.
 - `--callout-icon` kan være en ikon-ID fra [lucide.dev](https://lucide.dev), eller et SVG-element.
 
 > [!warning] Merknad om lucide-ikonversjoner
@@ -103,6 +103,28 @@ Verdien av `data-callout`-attributtet er typeidentifikatoren du ønsker å bruke
 > ```css
 > --callout-icon: '<svg>...egendefinert svg...</svg>';
 > ```
+
+> [!tip]- Ytterligere tilpasning
+> Du er ikke begrenset til `--callout-color` og `--callout-icon`. Uthevede blokker støtter standard CSS-selektorer og egenskaper, sammen med ytterligere CSS-variabler for ting som kantlinje og tittelstiling.
+> 
+> For eksempel, skjul tittelen til en uthevet blokk:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Eller juster kantlinjen:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Se den fullstendige listen over [CSS-variabler for uthevede blokker](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) for flere alternativer.
 
 ### Støttede typer
 

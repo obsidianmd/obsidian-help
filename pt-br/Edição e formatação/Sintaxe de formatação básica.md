@@ -145,6 +145,23 @@ A formatação pode ser forçada a ser exibida como texto simples adicionando um
 \**Esta linha ficará em itálico e mostrará os asteriscos*\*
 ```
 
+### Cores de destaque
+
+Os destaques suportam seis cores. Adicione um emoji de cor imediatamente após o `==` de abertura:
+
+| Cor      | Exemplo               |
+| -------- | --------------------- |
+| Vermelho | `==🔴Importante==`    |
+| Laranja  | `==🟠Acompanhar==`    |
+| Amarelo  | `==🟡Lembrar disso==` |
+| Verde    | `==🟢Concluído==`     |
+| Azul     | `==🔵Referência==`    |
+| Roxo     | `==🟣Ideia==`         |
+
+Sem um emoji de cor, o destaque usa a cor de destaque padrão do seu tema.
+
+Você também pode escolher uma cor no menu de formatação. Digitar `==` no editor sugere cores de destaque. Na [[Visualizações e modo de edição#Visualização ao vivo|Visualização ao vivo]], posicionar o cursor dentro de um destaque mostra uma amostra de cor. Selecione a amostra para alterar a cor.
+
 ## Links internos
 
 O Obsidian suporta dois formatos para [[Links internos|links internos]] entre notas:
@@ -475,6 +492,8 @@ Use a [[Visualização de notas de rodapé|Visualização de notas de rodapé]] 
 
 Você pode adicionar comentários envolvendo o texto com `%%`. Os comentários são visíveis apenas na visualização de edição.
 
+A sintaxe `%%` é específica do Obsidian. Para ocultar texto em outros aplicativos, use um comentário HTML, `<!-- -->`. Consulte [[Markdown do Obsidian]] para saber como a sintaxe do Obsidian difere do Markdown padrão.
+
 ```md
 Este é um comentário %%inline%%.
 
@@ -484,6 +503,20 @@ Este é um comentário de bloco.
 Comentários de bloco podem abranger múltiplas linhas.
 %%
 ```
+
+Um comentário inline pode aparecer em qualquer lugar de uma linha, incluindo em um cabeçalho, um item de lista ou texto em negrito.
+
+Um comentário de bloco começa quando uma linha inicia com `%%`, e termina no próximo `%%`. Um comentário de bloco pode incluir linhas em branco e Markdown, como cabeçalhos e listas. O Obsidian oculta tudo isso na visualização de Leitura.
+
+O texto após o `%%` de fechamento permanece visível, e o Obsidian renderiza seu Markdown. Por exemplo, `%%comentário%% _itálico_` deixa apenas a palavra _itálico_, em itálico.
+
+> [!warning]+ Feche todos os comentários de bloco
+> Se você iniciar um comentário de bloco e nunca fechá-lo, a visualização de Leitura ocultará o restante da nota.
+
+> [!info]+ Mantenha os marcadores de comentário simples
+> Mantenha ambos os marcadores de um comentário inline em uma linha, e inicie um comentário de bloco no início de uma linha.
+
+Para exibir `%%` como texto, coloque-o em um trecho de código, ou adicione uma barra invertida antes de cada marcador.
 
 ## Escapando Sintaxe Markdown
 

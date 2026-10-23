@@ -203,7 +203,25 @@ views:
 - `name` è il nome visualizzato, e può essere utilizzato per definire la vista predefinita.
 - `filters` sono esattamente come descritto sopra, ma si applicano solo alla vista.
 - `groupBy` specifica una proprietà e una direzione di ordinamento. Il valore della proprietà specificata per ogni riga viene utilizzato per inserire la riga in gruppi.
+- `groupOrder` specifica l'ordine e la visibilità dei gruppi. Se presente, vengono mostrati solo i gruppi i cui valori sono elencati, in quell'ordine. Un elenco vuoto nasconde tutti i gruppi. Rimuovi `groupOrder` per mostrare tutti i gruppi nell'ordine definito da `groupBy`.
 - `summaries` mappa i nomi delle proprietà a un riepilogo con nome. I riepiloghi eseguono un'aggregazione sulla proprietà in tutte le righe.
+
+Ad esempio, questa vista mostra solo i gruppi Planned, In progress e Done, in quell'ordine:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Usa `null` in `groupOrder` per includere i file che non hanno un valore per la proprietà raggruppata.
 
 Le [[Viste|Viste]] possono aggiungere dati aggiuntivi per memorizzare qualsiasi informazione necessaria a mantenere lo stato o a visualizzare correttamente, tuttavia gli autori di plugin dovrebbero fare attenzione a non utilizzare chiavi già in uso dal plugin principale Base. Ad esempio, una vista tabella può utilizzare questo per limitare il numero di righe o per selezionare quale colonna viene utilizzata per ordinare le righe e in quale direzione. Un tipo di vista diverso come una mappa potrebbe utilizzare questo per mappare quale proprietà nella nota corrisponde a latitudine e longitudine e quale proprietà dovrebbe essere visualizzata come titolo del segnaposto.
 

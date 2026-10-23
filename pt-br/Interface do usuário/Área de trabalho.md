@@ -16,6 +16,7 @@ No aplicativo Obsidian para desktop, a área de trabalho inclui:
     - [[Barra lateral#Abas|Abas da barra lateral]]
 - [[Abas#Organize suas abas e janelas|Grupos de abas]] na área de conteúdo central (podem ser divididos vertical ou horizontalmente)
     - [[Abas]]
+    - [[Menu de mais opções]] no canto superior direito de cada nota
 - [[Barra de status]] no canto inferior direito
 
 ## Celular
@@ -23,6 +24,7 @@ No aplicativo Obsidian para desktop, a área de trabalho inclui:
 No aplicativo Obsidian para celular, a área de trabalho inclui:
 
 - [[Abas]] gerenciadas pelo contador de abas na [[Aplicativo móvel#Barra de navegação|Barra de navegação]]
+- [[Menu de mais opções#Celular|Menu de mais opções]] para a nota ativa
 - [[Barra lateral|Barras laterais]] (abertas usando gestos de deslizar para a esquerda e para a direita)
 - [[Aplicativo móvel#Barra de navegação|Barra de navegação]] na parte inferior da tela
 - [[Faixa de opções|Configuração da faixa de opções]] na barra de navegação (contém ações personalizáveis)

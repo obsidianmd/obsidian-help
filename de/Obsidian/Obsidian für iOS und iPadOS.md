@@ -21,6 +21,7 @@ Obsidian für iOS bietet verschiedene Widgets, um schnelle Aktionen in deinem Va
 ### Sperrbildschirm- und Kontrollzentrum-Widgets
 
 Sperrbildschirm- und Kontrollzentrum-Widgets ermöglichen dir:
+- Schnellerfassung öffnen
 - Eine neue Notiz erstellen
 - Eine bestimmte Notiz öffnen
 - Tagesnotiz öffnen
@@ -30,6 +31,7 @@ Sperrbildschirm- und Kontrollzentrum-Widgets ermöglichen dir:
 ### Home-Bildschirm-Widgets
 
 Home-Bildschirm-Widgets ermöglichen dir:
+- Schnellerfassung öffnen
 - Eine Notiz erstellen
 - Eine Notiz anzeigen
 - Deine Tägliche Notiz öffnen
@@ -50,15 +52,85 @@ Konfigurationsoptionen für das **Notiz anzeigen**-Widget:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Schnellerfassung
+
+Mit der Schnellerfassung kannst du Text über Sperrbildschirm-, Kontrollzentrum-, Home-Bildschirm-Widgets oder Kurzbefehle in deinem Vault speichern, ohne darauf warten zu müssen, dass dein Vault geladen wird. Je nach gewähltem Erfassungsort kann die Schnellerfassung eine neue Notiz erstellen oder den Text zu einer vorhandenen Notiz hinzufügen.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Hinweis
+> Die Schnellerfassung erfordert Obsidian 1.14 oder neuer und iOS oder iPadOS 26 oder neuer.
+
+So erfasst du Text:
+
+1. Füge das **Schnellerfassung**-Widget zu deinem Sperrbildschirm, Kontrollzentrum oder Home-Bildschirm hinzu.
+2. Tippe auf das Widget, um die Schnellerfassung zu öffnen.
+3. Gib deinen Text ein.
+4. Um zu ändern, wo der Text gespeichert wird, tippe oben auf dem Bildschirm auf den Erfassungsort und wähle einen anderen Ort aus.
+5. Tippe auf das Häkchen, um den Text zu speichern.
+
+**Hinweis**: Wenn Live-Aktivitäten aktiviert sind, erscheint die Schnellerfassungs-Notiz auch auf dem Sperrbildschirm und auf unterstützten iPhone-Modellen in der Dynamic Island. Tippe auf die Leiste oder die Live-Aktivität, um die Bearbeitung fortzusetzen.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Erfassungsorte
+
+Erfassungsorte bestimmen, wo die Schnellerfassung deinen Text speichert. Ein Erfassungsort kann:
+
+- Eine neue Notiz in einem ausgewählten Ordner erstellen, mit optionaler Vorlage und benutzerdefiniertem Notiznamen.
+- Den Text an deine Tägliche Notiz anhängen oder voranstellen.
+- Den Text an eine als Lesezeichen gesetzte Notiz anhängen oder voranstellen.
+- Den Text an eine andere von dir ausgewählte Notiz anhängen oder voranstellen.
+
+So erstellst du einen Erfassungsort:
+1. Öffne die Schnellerfassung.
+2. Tippe oben auf dem Bildschirm auf den Erfassungsort.
+3. Tippe auf die Plus-Taste (+).
+4. Wähle ein Verhalten und konfiguriere optionale Einstellungen.
+5. Tippe auf **Speichern**.
+
+Du kannst auch **Notiz nach Erfassung öffnen** verwenden, um festzulegen, ob Obsidian die Zielnotiz nach dem Speichern der Erfassung öffnen soll.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Schnellerfassungs-Vorlagen
+
+Du kannst eine Vorlage anwenden, um den erfassten Text zu formatieren. Schnellerfassungs-Vorlagen unterstützen die folgenden Platzhalter:
+
+| Platzhalter | Beschreibung |
+| --- | --- |
+| `{{content}}` | Erfasster Text |
+| `{{date}}` | Aktuelles Datum |
+| `{{time}}` | Aktuelle Uhrzeit |
+| `{{latitude}}` | Aktueller Breitengrad |
+| `{{longitude}}` | Aktueller Längengrad |
+| `{{shortAddress}}` | Kurzform der aktuellen Adresse |
+| `{{fullAddress}}` | Vollständige aktuelle Adresse |
+| `{{googleMapsLink}}` | Google-Maps-Link zum aktuellen Standort |
+| `{{appleMapsLink}}` | Apple-Maps-Link zum aktuellen Standort |
+| `{{openStreetMapLink}}` | OpenStreetMap-Link zum aktuellen Standort |
+
+Um ein Schnellerfassungs-Widget für einen bestimmten Erfassungsort zu konfigurieren, verwende die Schritte unter [[#Widgets anpassen]]. Home-Bildschirm-Widgets können mehrere Erfassungsorte anzeigen.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Kurzbefehle
 
 Obsidian ist mit Apples Kurzbefehle-App integriert, sodass du leistungsstarke Automatisierungen erstellen kannst. Verfügbare Kurzbefehle umfassen:
 
-- **Notiz öffnen** — Eine bestimmte Notiz in deinem Vault öffnen
-- **Neue Notiz erstellen** — Eine neue Notiz in deinem Vault erstellen
+- **Schnellerfassung** — Schnellerfassung mit einem konfigurierten Erfassungsort öffnen
+- **Lesezeichen öffnen** – Eine als Lesezeichen gesetzte Notiz aus deinem Vault öffnen
+- **Neue Notiz öffnen** — Eine neue Notiz in deinem Vault erstellen
 - **Tägliche Notiz öffnen** — Direkt zur heutigen Täglichen Notiz springen
 - **In Tagesnotiz erfassen** — Text an die Tägliche Notiz anhängen oder voranstellen, ohne die Obsidian-App zu öffnen
 - **In Lesezeichen erfassen** — Text an eine als Lesezeichen gesetzte Notiz anhängen oder voranstellen, ohne die Obsidian-App zu öffnen
+- **Lesezeichen-Notiz abrufen** — Text aus einer als Lesezeichen gesetzten Notiz abrufen
+- **Tägliche Notiz abrufen** — Text aus einer Täglichen Notiz abrufen
+- **Vault durchsuchen** — Deinen Vault nach einem Stichwort durchsuchen
+- **Link als Lesezeichen setzen** — Einen Web-Link zu deinen Lesezeichen hinzufügen
+- **Obsidian öffnen** — Obsidian öffnen
 
 Erfassungskurzbefehle sind besonders nützlich für schnelle Notizen, da sie es ermöglichen, Inhalte im Hintergrund zu einer Notiz hinzuzufügen.
 
@@ -145,6 +217,7 @@ Unterstützte Vorlagen-Platzhalter:
 | `{{published: YYYY-MM-DD}}` | Veröffentlichungsdatum in einem benutzerdefinierten Datumsformat |
 | `{{site}}` | Name der Website |
 | `{{title}}` | Titel des Artikels |
+| `{{url}}` | Artikel-URL |
 | `{{wordCount}}` | Gesamtanzahl der Wörter im extrahierten Inhalt |
 
 Du kannst auch Standard-Vorlagen-Platzhalter für Datum und Uhrzeit verwenden:

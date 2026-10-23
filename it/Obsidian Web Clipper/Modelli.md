@@ -40,6 +40,9 @@ I trigger del modello ti permettono di selezionare automaticamente un modello in
 
 La prima corrispondenza nell'elenco dei modelli determina quale modello viene utilizzato. Puoi trascinare i modelli su e giù nelle impostazioni di Web Clipper per cambiare l'ordine in cui i modelli vengono confrontati.
 
+> [!tip]- Imposta un modello di fallback
+> Se una pagina non corrisponde a nessuna regola di trigger, Web Clipper utilizza il primo modello nell'elenco. Mantieni il modello che vuoi usare come fallback in cima all'elenco per assicurarti che venga utilizzato per le pagine senza una corrispondenza specifica.
+
 #### Corrispondenza URL semplice
 
 La corrispondenza semplice attiva un modello se l'URL della pagina corrente *inizia con* il pattern indicato. Per esempio:

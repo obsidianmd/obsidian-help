@@ -44,7 +44,7 @@ När du rapporterar ett problem, inkludera byggversionen och operativsystemet du
 
 ## Byt tillbaka till publika versioner på skrivbordet
 
-Så här byter du tillbaka till att använda publika versioner (inte tidig åtkomst) på skrivbordet:
+Så här inaktiverar du tidig åtkomst-versioner och återgår till din senast installerade publika version på skrivbordet:
 
 1. Inaktivera tidig åtkomst-versioner.
    1. Öppna **[[Inställningar]]**.
@@ -56,10 +56,11 @@ Så här byter du tillbaka till att använda publika versioner (inte tidig åtko
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Starta om Obsidian.
+5. Om Obsidian inte är på den senaste publika versionen efteråt, uppdatera [[Uppdatera Obsidian#Installationsprogramuppdateringar|installationsprogramversionen]].
 
 ## Byt tillbaka till publika versioner på mobil
 
-Så här byter du tillbaka till att använda publika versioner (inte tidig åtkomst) på mobil:
+Så här nedgraderar du från en tidig åtkomst-version till den senaste publika versionen på mobil:
 
 1. Säkerhetskopiera dina valvdata
 2. Avinstallera Obsidian

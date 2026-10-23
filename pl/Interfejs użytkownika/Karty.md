@@ -37,13 +37,13 @@ Poniżej znajdziesz wszystkie klawisze modyfikujące, których możesz użyć do
 
 Każda karta należy do _grupy kart_. Możesz przeciągać i upuszczać karty, aby zmieniać ich kolejność w grupie kart, przenosić je do innej grupy kart lub tworzyć nową grupę kart. Na komputerze możesz przeciągnąć karty poza okno, aby otworzyć je w osobnym [[Okna wyskakujące|oknie wyskakującym]].
 
-Karty na paskach bocznych wyświetlają tylko ikonę. Najedź na ikonę, aby zobaczyć podpowiedź z tytułem karty.
+Karty na panelach bocznych wyświetlają tylko ikonę. Najedź na ikonę, aby zobaczyć podpowiedź z tytułem karty.
 
 ### Układanie kart
 
 Aby zmienić kolejność kart, przeciągnij kartę wzdłuż kart w grupie kart.
 
-Podczas przeciągania karty podświetlane są _strefy upuszczania_ — obszary, do których możesz przenieść kartę. Strefa upuszczania określa, gdzie zostanie wstawiona karta. Niektóre karty mogą znajdować się tylko na jednym z pasków bocznych.
+Podczas przeciągania karty podświetlane są _strefy upuszczania_ — obszary, do których możesz przenieść kartę. Strefa upuszczania określa, gdzie zostanie wstawiona karta. Niektóre karty mogą znajdować się tylko na jednym z paneli bocznych.
 
 ### Dzielenie grupy kart
 
@@ -55,7 +55,7 @@ Możesz również podzielić grupę kart, przeciągając kartę na dół innej k
 
 Aby zmienić rozmiar grupy kart, najedź kursorem na krawędź grupy kart. Krawędź podświetla się, gdy można ją przeciągnąć w celu zmiany rozmiaru.
 
-W podobny sposób możesz zmieniać rozmiar pasków bocznych, aby zapewnić więcej miejsca dla grup kart na środku.
+W podobny sposób możesz zmieniać rozmiar paneli bocznych, aby zapewnić więcej miejsca dla grup kart na środku.
 
 ### Przenoszenie karty do nowego okna
 
@@ -77,7 +77,7 @@ Aby przypiąć kartę w głównym edytorze, kliknij kartę prawym przyciskiem my
 
 Aby odpiąć przypiętą kartę w głównym edytorze, kliknij kartę prawym przyciskiem myszy i wybierz **Odepnij**.
 
-Aby przypiąć lub odpiąć kartę na pasku bocznym, zobacz [[Pasek boczny#Przypinanie kart|przypinanie kart na pasku bocznym]].
+Aby przypiąć lub odpiąć kartę na panelu bocznym, zobacz [[Panel boczny#Przypinanie kart|przypinanie kart na panelu bocznym]].
 
 ## Przełączanie na inną kartę
 
@@ -108,7 +108,7 @@ _Widoki połączone_ to karty, które odwołują się do innej karty. Gdy zmieni
 
 Dla kart z notatkami możesz używać następujących wtyczek jako widoków połączonych:
 
-- [[Podgląd grafu|Widok grafu]] (lokalny)
+- [[Podgląd grafu|Podgląd grafu]] (lokalny)
 - [[Linki zwrotne]]
 - [[Konspekt]]
 

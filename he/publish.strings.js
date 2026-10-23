@@ -1,4 +1,5 @@
 // Locale UI strings — Hebrew
+window.LANG_SWITCHER_STRINGS = { search: "החלף שפה...", noResults: "אין תוצאות" };
 (function () {
   function apply() {
     var el;

@@ -16,7 +16,7 @@ Naučte se, jak rozšířit Obsidian pomocí pluginů vytvořených komunitou. P
 
 Pomocí textového pole můžete filtrovat pluginy podle jejich názvu, autora a popisu.
 
-Dostupné pluginy můžete také procházet ve svém prohlížeči na adrese [community.obsidian.md](https://community.obsidian.md).
+Dostupné pluginy můžete také procházet ve svém prohlížeči na adrese [community.obsidian.md](https://community.obsidian.md). Další informace o tom, co stránka s výpisem pluginu zobrazuje, naleznete v [[Komunitní adresář]].
 
 ## Instalace komunitního pluginu
 

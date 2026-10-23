@@ -202,7 +202,25 @@ views:
 - `name` est le nom d'affichage et peut être utilisé pour définir la vue par défaut.
 - `filters` sont exactement les mêmes que décrits ci-dessus, mais s'appliquent uniquement à la vue.
 - `groupBy` spécifie une propriété et une direction de tri. La valeur de la propriété spécifiée pour chaque ligne est utilisée pour placer la ligne dans des groupes.
+- `groupOrder` spécifie l'ordre et la visibilité des groupes. Si présent, seuls les groupes dont les valeurs sont listées sont affichés, dans cet ordre. Une liste vide masque tous les groupes. Supprimez `groupOrder` pour afficher tous les groupes dans l'ordre défini par `groupBy`.
 - `summaries` associe des noms de propriétés à un résumé nommé. Les résumés effectuent une agrégation sur la propriété à travers toutes les lignes.
+
+Par exemple, cette vue n'affiche que les groupes Planned, In progress et Done, dans cet ordre :
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Utilisez `null` dans `groupOrder` pour inclure les fichiers qui n'ont pas de valeur pour la propriété de regroupement.
 
 Les [[Vues]] peuvent ajouter des données supplémentaires pour stocker toute information nécessaire au maintien de l'état ou au rendu correct, cependant les auteurs de modules devraient veiller à ne pas utiliser des clés déjà utilisées par le module principal Bases. Par exemple, une vue tableau peut utiliser ceci pour limiter le nombre de lignes ou pour sélectionner quelle colonne est utilisée pour trier les lignes et dans quelle direction. Un type de vue différent comme une carte pourrait utiliser ceci pour associer quelle propriété de la note correspond à la latitude et la longitude et quelle propriété devrait être affichée comme titre de l'épingle.
 

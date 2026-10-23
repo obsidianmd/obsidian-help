@@ -24,7 +24,7 @@ Prawdopodobnie musimy zbadać Twoją bazę danych. Prosimy [[Pomoc i wsparcie#Ko
 
 **Mój CSS w moim [[Folder konfiguracji|folderze konfiguracji]] nie działa w Publish. Dlaczego?**
 
-Publish nie odczytuje danych z folderu konfiguracji. Zamiast tego musisz utworzyć plik `publish.css` w katalogu głównym swojego skarbca publikacyjnego. Więcej na ten temat dowiesz się w [[Dostosuj swoją stronę]].
+Publish nie odczytuje danych z folderu konfiguracji. Zamiast tego musisz utworzyć plik `publish.css` w katalogu głównym swojego sejfu publikacyjnego. Więcej na ten temat dowiesz się w [[Dostosuj swoją stronę]].
 
 **Mój CSS wygląda inaczej w Publish niż w aplikacji. Dlaczego?**
 

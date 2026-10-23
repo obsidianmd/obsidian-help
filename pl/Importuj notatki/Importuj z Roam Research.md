@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Obsidian umożliwia łatwe przeniesienie notatek z Roam Research za pomocą [[Importer|wtyczki Importer]]. Konwertuje ona dane z Roam do trwałych plików Markdown, których możesz używać z Obsidian i wieloma innymi aplikacjami.
 

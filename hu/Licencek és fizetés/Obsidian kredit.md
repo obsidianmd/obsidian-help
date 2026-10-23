@@ -5,6 +5,8 @@ Az Obsidian kredit egy előre megvásárolható feltöltött egyenleg, amely bá
 
 Az Obsidian kredit minden esedékes fizetés előtt felhasználásra kerül, beleértve az automatikus megújításokat is. Az Obsidian kredit **nem** jogosult visszatérítésre a [[Visszatérítési szabályzat|Visszatérítési szabályzatunk]] értelmében.
 
+Az Obsidian kredit nem jár le, amíg fiókja aktív.
+
 ## Kredit hozzáadása
 
 1. Jelentkezzen be [Obsidian fiókjába](https://obsidian.md/account/billing).

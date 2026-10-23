@@ -38,5 +38,7 @@ Le viste possono essere visualizzate con diversi layout. Layout aggiuntivi posso
 	- Visualizza i file come un elenco con marcatori puntati o numerati.
 - [[Vista schede|Schede]]
 	- Visualizza i file come una griglia. Permette di creare viste simili a gallerie con immagini.
+- [[Vista Kanban|Kanban]]
+	- Visualizza i file come schede organizzate in colonne basate su una proprietà raggruppata.
 - [[Vista mappa|Mappa]]
 	- Visualizza i file come segnaposto su una mappa interattiva.

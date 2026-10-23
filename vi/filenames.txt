@@ -54,6 +54,10 @@ translation=Các chế độ xem
 original=Cards view
 translation=Chế độ xem thẻ
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Chế độ xem Kanban
+
 [file.bases/views/list]
 original=List view
 translation=Chế độ xem danh sách
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Quy tắc ứng xử cộng đồng
+
+[file.community-directory]
+original=Community directory
+translation=Thư mục cộng đồng
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=Định dạng tệp được hỗ trợ
 original=Financial contributions
 translation=Đóng góp tài chính
 
+[file.find-and-replace]
+original=Find and replace
+translation=Tìm Kiếm và Thay Thế
+
 [file.folding]
 original=Folding
 translation=Thu gọn
@@ -173,6 +185,10 @@ translation=Nội dung HTML
 [file.import]
 original=Import notes
 translation=Nhập ghi chú
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Nhập từ Airtable
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Nhập từ Google Keep
 original=Import HTML files
 translation=Nhập tệp HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Nhập từ Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Nhập tệp Markdown
@@ -222,9 +242,17 @@ translation=Nhập từ Microsoft OneNote
 original=Import from Roam Research
 translation=Nhập từ Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Mẫu trình nhập
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Nhập tệp Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Nhập từ Tomboy và Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=Quản lý kho
 original=Mobile app
 translation=Ứng dụng di động
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu tùy chọn khác
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Nhiều con trỏ
@@ -281,6 +313,10 @@ translation=Trang web chính thức
 [file.payment]
 original=Introduction to licenses and payment
 translation=Giới thiệu về bản quyền và thanh toán
+
+[file.pdf]
+original=PDFs
+translation=Tệp PDF
 
 [file.plugin-security]
 original=Plugin security

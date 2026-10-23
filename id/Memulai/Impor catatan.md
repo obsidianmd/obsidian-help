@@ -8,6 +8,7 @@ Aplikasi datang dan pergi, tetapi data Anda harus bertahan. Obsidian menggunakan
 ## Impor dari aplikasi dan format file lain
 
 - <span class="icon-app icon-notion"></span> [[Impor dari Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Impor dari Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Impor dari Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Impor dari Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Impor dari Apple Notes|Apple Notes]]
@@ -16,11 +17,12 @@ Aplikasi datang dan pergi, tetapi data Anda harus bertahan. Obsidian menggunakan
 - <span class="icon-app icon-bear"></span> [[Impor dari Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Impor dari Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Impor dari Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Impor dari Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Impor dari Tomboy dan Gnote|Tomboy dan Gnote]]
 - <span class="icon-app icon-html"></span> [[Impor file HTML|File HTML]]
 - <span class="icon-app icon-md"></span> [[Impor file CSV]]
 - <span class="icon-app icon-md"></span> [[Impor file Markdown|File Markdown]]
 - <span class="icon-app icon-md"></span> [[Impor file Textbundle|File Textbundle]]
-- <span class="icon-app icon-md"></span> [[Impor catatan Zettelkasten|Catatan Zettelkasten]]
 
 ## Format lainnya
 
@@ -30,7 +32,6 @@ Panduan tambahan telah dibagikan oleh komunitas kami yang dapat membantu Anda be
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

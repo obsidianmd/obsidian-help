@@ -38,6 +38,9 @@ Sjabloontriggers stellen je in staat om automatisch een sjabloon te selecteren o
 
 De eerste overeenkomst in je sjabloonlijst bepaalt welk sjabloon wordt gebruikt. Je kunt sjablonen omhoog en omlaag slepen in de Web Clipper-instellingen om de volgorde te wijzigen waarin sjablonen worden gematcht.
 
+> [!tip]- Een terugvalsjabloon instellen
+> Als een pagina niet overeenkomt met een triggerregel, gebruikt Web Clipper het eerste sjabloon in je lijst. Houd het sjabloon dat je als terugval wilt gebruiken bovenaan de lijst om ervoor te zorgen dat het wordt gebruikt voor pagina's zonder een specifieke overeenkomst.
+
 #### Eenvoudige URL-matching
 
 Eenvoudige matching activeert een sjabloon als de huidige pagina-URL *begint met* het opgegeven patroon. Bijvoorbeeld:

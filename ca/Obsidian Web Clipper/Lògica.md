@@ -5,9 +5,6 @@ description: 'Utilitzeu condicionals, bucles i assignació de variables a les pl
 [[Introducció a Obsidian Web Clipper|Web Clipper]] admet lògica de plantilles per a condicionals, bucles i assignació de variables. Aquesta sintaxi està inspirada en els llenguatges de plantilles [Twig](https://twig.symfony.com/) i [Liquid](https://shopify.github.io/liquid/).
 
 
-> [!warning] Requereix la darrera versió
-> Les funcionalitats de lògica requereixen Obsidian Web Clipper 1.0.0 que encara no ha estat aprovat a totes les botigues d'extensions.
-
 ## Condicionals
 
 Utilitza `{% if %}` per incloure contingut condicionalment basat en variables o expressions.

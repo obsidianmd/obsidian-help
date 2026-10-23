@@ -64,8 +64,6 @@ Il team di Obsidian mantiene anche lo sviluppo di alcuni [[#Altri plugin|plugin 
 	- Salva collegamenti a note, intestazioni, ricerche e altro.
 - [[Selezione rapida|Selettore rapido]]
 	- Cerca, crea e apri note dalla tastiera.
-- [[Strumento importazione Markdown|Strumento importazione Markdown]]
-	- Converte Markdown da altre app al formato di Obsidian.
 - [[Struttura|Struttura]]
 	- Mostra l'indice della nota attiva.
 - [[Introduzione a Obsidian Sync|Sync]]

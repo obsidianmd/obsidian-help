@@ -54,6 +54,10 @@ translation=العروض
 original=Cards view
 translation=عرض البطاقات
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=عرض كانبان
+
 [file.bases/views/list]
 original=List view
 translation=عرض القائمة
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=قواعد سلوك المجتمع
+
+[file.community-directory]
+original=Community directory
+translation=دليل المجتمع
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=تنسيقات الملفات المقبولة
 original=Financial contributions
 translation=المساهمات المالية
 
+[file.find-and-replace]
+original=Find and replace
+translation=بحث و استبدل
+
 [file.folding]
 original=Folding
 translation=الطي
@@ -173,6 +185,10 @@ translation=محتوى HTML
 [file.import]
 original=Import notes
 translation=استيراد الملاحظات
+
+[file.import/airtable]
+original=Import from Airtable
+translation=الاستيراد من Airtable
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=استيراد من Google Keep
 original=Import HTML files
 translation=استيراد ملفات HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=الاستيراد من Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=استيراد ملفات Markdown
@@ -222,9 +242,17 @@ translation=استيراد من Microsoft OneNote
 original=Import from Roam Research
 translation=استيراد من Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=قوالب المستورد
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=استيراد ملفات Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=الاستيراد من Tomboy و Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=إدارة الخزنات
 original=Mobile app
 translation=تطبيق الهاتف
 
+[file.more-options-menu]
+original=More options menu
+translation=قائمة المزيد من الخيارات
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=المؤشرات المتعددة
@@ -281,6 +313,10 @@ translation=الموقع الرسمي
 [file.payment]
 original=Introduction to licenses and payment
 translation=مقدمة عن التراخيص والدفع
+
+[file.pdf]
+original=PDFs
+translation=ملفات PDF
 
 [file.plugin-security]
 original=Plugin security

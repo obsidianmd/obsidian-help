@@ -44,6 +44,16 @@ Die Aktion `open` öffnet einen Obsidian-Vault oder eine Datei innerhalb dieses 
 > [!tip] Eine Überschrift oder einen Block öffnen
 > Mit korrekter URI-Kodierung kannst du zu einer Überschrift oder einem Block innerhalb einer Notiz navigieren. `Note%23Heading` navigiert zur Überschrift namens „Heading", während `Note%23%5EBlock` zum Block namens „Block" navigiert.
 
+### Eine Obsidian-URL kopieren
+
+Obsidian kann eine `open`-URI für die aktive Notiz erstellen, sodass du sie nicht selbst schreiben musst. Die App nennt dies eine Obsidian-URL. Sie enthält den Vault-Namen und den Pfad zur Notiz.
+
+Du kannst die Obsidian-URL auf folgende Weisen kopieren:
+
+- Wähle in der [[Befehlspalette]] den Befehl **Obsidian URL kopieren**.
+- Wähle in der Notiz **Weitere Optionen** ![[lucide-more-horizontal.svg#icon]] und dann **Pfad kopieren → als Obsidian-URL**. Siehe [[Weitere Optionen Menü]].
+- Klicke auf dem Desktop mit der rechten Maustaste auf eine Datei im [[Dateiexplorer]] und wähle dann **Pfad kopieren → als Obsidian-URL**.
+
 ### Parameter
 
 - `vault` kann entweder der Vault-Name oder die Vault-ID sein[^1].

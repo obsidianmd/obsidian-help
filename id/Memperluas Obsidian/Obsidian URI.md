@@ -46,6 +46,16 @@ Tindakan `open` membuka brankas Obsidian, atau membuka file di dalam brankas ter
 > [!tip] Buka judul atau blok
 > Dengan encoding URI yang benar, Anda dapat menavigasi ke judul atau blok dalam sebuah catatan. `Note%23Heading` akan menavigasi ke judul bernama "Heading", sedangkan `Note%23%5EBlock` akan menavigasi ke blok bernama "Block".
 
+### Salin URL Obsidian
+
+Obsidian dapat membuat URI `open` untuk catatan yang aktif, sehingga Anda tidak perlu menulisnya sendiri. Aplikasi menyebut ini sebagai URL Obsidian. URL ini mencakup nama brankas dan path ke catatan.
+
+Anda dapat menyalin URL Obsidian dengan cara berikut.
+
+- Di [[Palet perintah]], pilih **Salin tautan Obsidian**.
+- Di catatan, pilih **Opsi lain** ![[lucide-more-horizontal.svg#icon]], lalu pilih **Salin path → sebagai URL Obsidian**. Lihat [[Menu opsi lain]].
+- Di desktop, klik kanan file di [[Penjelajah file]], lalu pilih **Salin path → sebagai URL Obsidian**.
+
 ### Parameter
 
 - `vault` bisa berupa nama brankas atau ID brankas[^1].

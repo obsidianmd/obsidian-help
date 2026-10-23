@@ -5,6 +5,8 @@ Obsidian kredit je typ predplateného kreditu, ktorý si môžete zakúpiť vopr
 
 Obsidian kredit sa použije pred akoukoľvek splatnou platbou, vrátane automatických obnovení. Na Obsidian kredit **sa nevzťahuje** nárok na vrátenie peňazí podľa našich [[Zásady vrátenia peňazí|Zásad vrátenia peňazí]].
 
+Obsidian kredit nevyprší, pokiaľ si ponecháte svoj účet.
+
 ## Pridanie kreditu
 
 1. Prihláste sa do [svojho účtu Obsidian](https://obsidian.md/account/billing).

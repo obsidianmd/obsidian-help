@@ -12,11 +12,11 @@ Le impostazioni permettono di personalizzare l'esperienza con Obsidian. Configur
 
 ### Desktop
 
-Nella [[Barra laterale#Aprire le barre laterali nascoste|barra laterale sinistra]], seleziona **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]]. È possibile aprire le Impostazioni anche con la [[Riquadro comandi|tavolozza dei comandi]].
+Nella [[Barra laterale#Aprire le barre laterali nascoste|barra laterale]], seleziona **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]]. È possibile aprire le Impostazioni anche con la [[Riquadro comandi|tavolozza dei comandi]].
 
 ### Mobile
 
-Nella barra laterale sinistra, seleziona **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]].
+Nella barra laterale, seleziona **[[Impostazioni|Impostazioni]]** ![[lucide-cog.svg#icon]]. Le impostazioni si aprono in un pannello sovrapposto all'app.
 
 ## Organizzazione delle impostazioni
 
@@ -189,6 +189,8 @@ Indica dove inserire le note appena create. Le opzioni includono:
 - **Stessa cartella del file** — Le note vengono create nella stessa cartella della nota attualmente attiva.
 - **Cartella personalizzata** — Le note vengono create in una cartella specifica a tua scelta.
 
+Questa impostazione non si applica quando un [[Collegamenti interni|collegamento interno]] include un percorso di cartella. Ad esempio, creando `[[Progetti/Tre leggi del moto]]` la nota viene creata nella cartella `Progetti` relativa alla radice del vault.
+
 ### Posizione predefinita dei nuovi allegati
 
 Dove vengono inseriti i nuovi [[Allegati|allegati]]. Le opzioni includono:
@@ -294,9 +296,11 @@ Imposta il carattere per posti come i blocchi di codice e i metadati iniziali. S
 
 Dimensione del carattere in pixel che ha effetto su editor e anteprima. Regola tramite il cursore.
 
+La dimensione del carattere viene salvata separatamente su ogni dispositivo e non viene sincronizzata tramite [[Introduzione a Obsidian Sync|Obsidian Sync]]. Su mobile, il testo e gli elementi dell'interfaccia si adattano anche alla dimensione del testo preferita del sistema, incluse le dimensioni di accessibilità.
+
 #### Regolazione rapida carattere
 
-Regola la dimensione del carattere con `Ctrl+Scroll` (Windows/Linux) o `Cmd+Scroll` (macOS), oppure usando il gesto di pinch-zoom sul trackpad.
+Regola la dimensione del carattere con `Ctrl+Scroll` (Windows/Linux) o `Cmd+Scroll` (macOS), oppure usando il gesto di pinch-zoom sul trackpad. È possibile anche usare **Aumenta la dimensione del carattere** e **Riduci la dimensione del carattere** nel [[Riquadro comandi|riquadro comandi]], oppure assegnare delle [[Tasti di scelta rapida|scorciatoie da tastiera]].
 
 ### Interfaccia
 

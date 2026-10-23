@@ -102,6 +102,13 @@ Removes white space from both ends of a string.
 
 - `"  hello world  "|trim` returns `"hello world"`.
 
+### `unescape`
+
+Converts escaped quotes and newline sequences to literal characters.
+
+- `"Line 1\\nLine 2"|unescape` returns the text on two lines.
+- `'He said \\"hello\\"'|unescape` returns `He said "hello"`.
+
 ### `uncamel`
 
 Converts camelCase or PascalCase to space-separated words, which you can further format with other filters like `title` or `capitalize`.
@@ -149,15 +156,15 @@ Converts strings, arrays, or objects into Markdown image syntax.
 
 - For strings: `"image.jpg"|image:"alt text"` returns `![alt text](image.jpg)`.
 - For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returns an array of Markdown image strings with the same alt text for all images.
-- For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object keys.
+- For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object values.
 
 ### `link`
 
 Converts strings, arrays, or objects into Markdown link syntax (not to be confused with [[Filters#`wikilink`|wikilink]]).
 
 - For strings: `"url"|link:"author"` returns `[author](url)`.
-- For arrays: `["url1","url2"]|link:"author"` returns an array of Markdown links with the same text for all links.
-- For objects: `{"url1": "Author 1", "url2": "Author 2"}|link` returns Markdown links with the text that matches the object keys.
+- For arrays: `["url1","url2"]|link:"author"` returns Markdown links with the same text for all links, one link per line.
+- For objects: `{"url1": "Author 1", "url2": "Author 2"}|link` returns Markdown links with the text from the object values, one link per line.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Returns the length of strings, arrays, or number of keys in objects.
 - For arrays: `["a","b","c"]|length` returns `3`.
 - For objects: `{"a":1,"b":2}|length` returns `2`.
 
+### `number_format`
+
+Formats a number with a specified number of decimal places and optional decimal and thousands separators.
+
+- `1234.567|number_format:2` returns `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` returns `"1.234,57"`.
+- Arrays and objects are formatted recursively.
+
 ### `round`
 
 Rounds a number to the nearest integer or to a specified number of decimal places.
@@ -216,6 +231,10 @@ Rounds a number to the nearest integer or to a specified number of decimal place
 ## HTML processing
 
 Process HTML content and convert HTML to Markdown. Note that your input [[Variables|variable]] must contain HTML content, e.g. using `{{fullHtml}}`, `{{contentHtml}}` or a `{{selectorHtml:}}` variable.
+
+### `html_to_json`
+
+Converts HTML into structured JSON containing each element's tag, attributes, and children. Text nodes use the format `{"type":"text","content":"..."}`. This can be combined with filters such as `map`, `object`, and `template` to reshape extracted HTML.
 
 ### `markdown` 
 
@@ -255,7 +274,7 @@ Replaces HTML tags, maintaining the content and attributes of the tag.
 Removes **all** HTML attributes from a string.
 
 - Use `strip_attr:("class, id")` to keep specific attributes.
-- Example: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returns `<div id="example">Content</div>`.
+- Example: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returns `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -340,6 +359,13 @@ Manipulates object data:
 - `object:values` returns an array of the object's values.
 - Example: `{"a":1,"b":2}|object:array` returns `[["a",1],["b",2]]`.
 
+### `reverse`
+
+Reverses strings, arrays, and the entry order of objects.
+
+- `"abc"|reverse` returns `"cba"`.
+- `["a","b","c"]|reverse` returns `["c","b","a"]`.
+
 ### `slice`
 
 Extracts a portion of a string or array.
@@ -358,7 +384,7 @@ Divides a string into an array of substrings.
 - `"a,b,c"|split:","` returns `["a","b","c"]`.
 - `"hello world"|split:" "` returns `["hello","world"]`.
 - If no separator is provided, it splits on every character: `"hello"|split` returns `["h","e","l","l","o"]`.
-- Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c"]`.
+- Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c",""]`. The last item is empty because the string ends with a separator.
 
 ### `template`
 

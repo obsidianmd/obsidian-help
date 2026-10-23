@@ -86,14 +86,14 @@ Pour définir un encadré personnalisé, créez le bloc CSS suivant :
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 La valeur de l'attribut `data-callout` est l'identifiant de type que vous souhaitez utiliser, par exemple `[!custom-question-type]`.
 
-- `--callout-color` définit la couleur d'arrière-plan en utilisant des nombres (0–255) pour le rouge, le vert et le bleu.
+- `--callout-color` définit la couleur d'arrière-plan. Toute couleur CSS valide fonctionne, par exemple un code hexadécimal (`#000000`) ou une valeur `rgb()`.
 - `--callout-icon` peut être un identifiant d'icône provenant de [lucide.dev](https://lucide.dev), ou un élément SVG.
 
 > [!warning] Note concernant les versions des icônes Lucide
@@ -106,6 +106,28 @@ La valeur de l'attribut `data-callout` est l'identifiant de type que vous souhai
 > ```css
 > --callout-icon: '<svg>...svg personnalisé...</svg>';
 > ```
+
+> [!tip]- Personnalisation avancée
+> Vous n'êtes pas limité à `--callout-color` et `--callout-icon`. Les encadrés prennent en charge les sélecteurs et propriétés CSS standard, ainsi que des variables CSS supplémentaires pour des éléments comme la bordure et le style du titre.
+> 
+> Par exemple, masquer le titre d'un encadré :
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Ou ajuster sa bordure :
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Consultez la liste complète des [variables CSS pour les encadrés](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) pour plus d'options.
 
 ### Types pris en charge
 

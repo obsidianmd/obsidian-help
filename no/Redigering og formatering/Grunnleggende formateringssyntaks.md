@@ -145,6 +145,23 @@ Formatering kan tvinges til å vises som ren tekst ved å legge til en omvendt s
 \**Denne linjen vil være kursiv og vise stjernene*\*
 ```
 
+### Uthevingsfarger
+
+Uthevinger støtter seks farger. Legg til en farge-emoji rett etter åpnings-`==`:
+
+| Farge  | Eksempel              |
+| ------ | --------------------- |
+| Rød    | `==🔴Viktig==`        |
+| Oransje | `==🟠Følg opp==`     |
+| Gul    | `==🟡Husk dette==`    |
+| Grønn  | `==🟢Fullført==`      |
+| Blå    | `==🔵Referanse==`     |
+| Lilla  | `==🟣Idé==`           |
+
+Uten en farge-emoji bruker uthevingen temaets standard uthevingsfarge.
+
+Du kan også velge en farge fra formateringsmenyen. Å skrive `==` i redigeringsprogrammet foreslår uthevingsfarger. I [[Visninger og redigeringsmodus#Live-forhåndsvisning|Live-forhåndsvisning]] vises en fargeprøve når du plasserer markøren inne i en utheving. Velg fargeprøven for å endre fargen.
+
 ## Interne lenker
 
 Obsidian støtter to formater for [[Interne lenker|interne lenker]] mellom notater:
@@ -469,11 +486,13 @@ Du kan også bruke innebygde fotnoter. ^[Dette er en innebygd fotnote.]
 > [!note] Merk
 > Innebygde fotnoter fungerer bare i lesevisning, ikke i Live-forhåndsvisning.
 
-Bruk [[Fotnoter-visning|Fotnoter-visningen]] for å se alle fotnoter i et notat.
+Bruk [[Fotnotevisning|Fotnoter-visningen]] for å se alle fotnoter i et notat.
 
 ## Kommentarer
 
 Du kan legge til kommentarer ved å omslutte tekst med `%%`. Kommentarer er bare synlige i redigeringsvisning.
+
+`%%`-syntaksen er spesifikk for Obsidian. For å skjule tekst i andre apper, bruk en HTML-kommentar, `<!-- -->`. Se [[Obsidian Flavored Markdown]] for hvordan Obsidians syntaks skiller seg fra standard Markdown.
 
 ```md
 Dette er en %%innebygd%% kommentar.
@@ -484,6 +503,20 @@ Dette er en blokkkommentar.
 Blokkkommentarer kan strekke seg over flere linjer.
 %%
 ```
+
+En innebygd kommentar kan vises hvor som helst på en linje, inkludert i en overskrift, et listeelement eller fet tekst.
+
+En blokkkommentar starter når en linje begynner med `%%`, og slutter ved neste `%%`. En blokkkommentar kan inneholde tomme linjer og Markdown, som overskrifter og lister. Obsidian skjuler alt dette i lesevisning.
+
+Tekst etter den avsluttende `%%` forblir synlig, og Obsidian gjengir dens Markdown. For eksempel vil `%%kommentar%% _kursiv_` bare vise ordet _kursiv_, i kursiv.
+
+> [!warning]+ Lukk alltid blokkkommentarer
+> Hvis du starter en blokkkommentar og aldri lukker den, skjuler lesevisning resten av notatet.
+
+> [!info]+ Hold kommentarmarkører enkle
+> Hold begge markørene i en innebygd kommentar på én linje, og start en blokkkommentar i begynnelsen av en linje.
+
+For å vise `%%` som tekst, sett det i en kodespan, eller legg til en omvendt skråstrek foran hver markør.
 
 ## Escape av Markdown-syntaks
 

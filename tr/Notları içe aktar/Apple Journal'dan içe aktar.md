@@ -1,8 +1,9 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
-Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisi]]ni kullanarak Apple Journal'daki günlük girişlerinizi kolayca taşımanızı sağlar.
-Bu, günlüklerinizi Obsidian ve diğer birçok uygulamayla kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürecektir.
+Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisi]]ni kullanarak Apple Journal'daki günlük girişlerinizi kolayca taşımanızı sağlar. Bu, günlüklerinizi Obsidian ve diğer birçok uygulamayla kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
 ## Verilerinizi Apple Journal'dan dışa aktarın
 
@@ -32,13 +33,15 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 5. **Dosya biçimi** altında **Apple Journal (HTML Dışa Aktarma)** seçin.
 6. **İçe aktarılacak dosyalar** bölümünde, dışa aktarılan verilerin bulunduğu klasörü (genellikle _AppleJournalEntries_) veya _Entries_ içindeki bireysel dosyaları seçin.
 7. Diğer içe aktarma seçeneklerini gözden geçirin ve düzenleyin.
-8. İçe Aktar'ı seçin ve içe aktarma tamamlanana kadar bekleyin.
-9. İşlem tamamlandı!
+8. Oluşturulan şablonu gözden geçirmek ve girişlerinizden önizleme örneklerini görmek için **İçe Aktar**'ı seçin.
+9. İçe aktarmanın tamamlanmasını beklemek için tekrar **İçe Aktar**'ı seçin.
 
+## Şablonlar
 
-## Desteklenen içerik
+Apple Journal verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe aktarıcı şablonları]]nı kullanın.
 
-Eklenti, _ruh hali_, _kişiler_, _konum_ ve _antrenman rotası_ gibi Journal meta verilerini başlangıç meta verileri olarak içe aktarabilir.
+![[İçe aktarıcı şablonları#Değişkenler]]
 
-> [!note] Not
-> Eklenti kaynakları içe aktarmaz. Fotoğraflar, videolar ve ses kayıtları gibi ekler yok sayılır.
+**Meta verileri başlangıç meta verileri olarak ekle** etkinleştirildiğinde, Apple Journal meta verileri [[Özellikler|özellikler]]e dönüştürülür. Girişe bağlı olarak bunlar `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media` ve `workout-route` değerlerini içerebilir.
+
+Bu meta verilere erişmek için `properties` değişkenini kullanın. Örneğin, konum için `{{properties.location}}` veya ruh hali için `{{properties["state-of-mind"]}}` kullanın.

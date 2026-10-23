@@ -11,11 +11,14 @@ No topo de uma base há uma barra de ferramentas que permite interagir com as vi
 
 - ![[lucide-table.svg#icon]] **Menu de visualização** — criar, editar e alternar visualizações.
 - **Resultados** — limitar, copiar e exportar arquivos.
-- ![[lucide-arrow-up-down.svg#icon]] **Ordenar** — ordenar e agrupar arquivos.
+- ![[lucide-arrow-up-down.svg#icon]] **Ordenar** — ordenar arquivos.
+- ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** — agrupar arquivos e gerenciar ordem e visibilidade dos grupos.
 - ![[lucide-list-filter.svg#icon]] **Filtro** — filtrar arquivos.
 - ![[lucide-list.svg#icon]] **Propriedades** — escolher propriedades para exibir e criar [[Fórmulas|fórmulas]].
 - ![[lucide-search.svg#icon]] **Pesquisar** — pesquisar itens usando suas propriedades exibidas.
 - ![[lucide-plus.svg#icon]] **Novo** — criar um novo arquivo na visualização atual.
+
+Em celulares, **Resultados**, **Ordenar**, ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** e **Propriedades** estão dentro do menu ![[lucide-sliders-horizontal.svg#icon]] **Exibição**.
 
 ## Adicionar e alternar visualizações
 
@@ -37,13 +40,14 @@ Alternativamente, *clique com o botão direito* no nome da visualização na bar
 
 ## Leiaute
 
-As visualizações podem ser exibidas com diferentes leiautes, incluindo ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **cartões** e ![[lucide-map.svg#icon]] **mapa**. Leiautes adicionais podem ser adicionados por [[Plugins da comunidade]]. Alguns leiautes ainda estão em desenvolvimento e requerem [[Versões de acesso antecipado]] do Obsidian.
+As visualizações podem ser exibidas com diferentes leiautes, incluindo ![[lucide-table.svg#icon]] **tabela**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **cartões**, ![[lucide-kanban-square.svg#icon]] **Kanban** e ![[lucide-map.svg#icon]] **mapa**. Leiautes adicionais podem ser adicionados por [[Plugins da comunidade]].
 
 | Leiaute                                  | Descrição                                                                                                               | Versão&nbsp;do&nbsp;app |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------------------- |
 | [[Visualização de tabela\|Tabela]]       | Exibe arquivos como linhas em uma tabela. As colunas são preenchidas a partir das [[Propriedades]] nas suas notas.      | 1.9                     |
 | [[Visualização de cartões\|Cartões]]     | Exibe arquivos como uma grade de cartões. Permite criar visualizações tipo galeria com imagens.                         | 1.9                     |
 | [[Visualização de lista\|Lista]]         | Exibe arquivos como uma [[Sintaxe de formatação básica#Listas\|lista]] com marcadores ou numeração.                    | 1.10                    |
+| [[Visualização de Kanban\|Kanban]]       | Exibe arquivos como cartões organizados em colunas com base em uma propriedade agrupada.                               | 1.14                    |
 | [[Visualização de mapa\|Mapa]]           | Exibe arquivos como pinos em um mapa interativo. Requer o plugin Maps.                                                 | 1.10                    |
 
 
@@ -82,16 +86,16 @@ Clique no botão de código ![[lucide-code-xml.svg#icon]] para usar o editor de 
 
 ## Ordenar e agrupar resultados
 
-Abra o menu ![[lucide-arrow-up-down.svg#icon]] **Ordenar** para ordenar e agrupar os resultados em uma visualização.
+Use o menu ![[lucide-arrow-up-down.svg#icon]] **Ordenar** para organizar os resultados e o menu ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** para organizar itens semelhantes em seções.
 
 Você pode organizar os resultados por uma ou mais propriedades em ordem crescente ou decrescente. Isso facilita listar notas por nome, data da última edição ou qualquer outra propriedade — incluindo fórmulas.
 
-Você também pode agrupar resultados por uma propriedade para organizar itens semelhantes em seções visualmente distintas. Atualmente, o Obsidian suporta agrupamento por apenas uma propriedade.
+Cada visualização pode ter várias ordenações, mas só pode agrupar resultados por uma única propriedade.
 
 ### Adicionar uma ordenação
 
 1. Abra o menu ![[lucide-arrow-up-down.svg#icon]] **Ordenar** no topo da visualização.
-2. Escolha a propriedade pela qual deseja ordenar (ou agrupar).
+2. Selecione **Adicionar ordenação**, depois escolha a propriedade pela qual deseja ordenar.
 3. Se você tiver múltiplas ordenações, arraste-as para cima ou para baixo usando a alça ![[lucide-grip-vertical.svg#icon]] para alterar a prioridade.
 
 As opções para ordenar resultados dependem do tipo de propriedade:
@@ -103,7 +107,29 @@ As opções para ordenar resultados dependem do tipo de propriedade:
 ### Remover uma ordenação
 
 1. Abra o menu ![[lucide-arrow-up-down.svg#icon]] **Ordenar** no topo da visualização.
-2. Clique no botão ![[lucide-trash-2.svg#icon]] lixeira ao lado da ordenação ou agrupamento que deseja remover.
+2. Selecione o botão ![[lucide-trash-2.svg#icon]] lixeira ao lado da ordenação que deseja remover.
+
+### Agrupar resultados
+
+1. Abra o menu ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** no topo da visualização. Em celulares, abra **Exibição → Agrupar**.
+2. Em **Agrupar por**, escolha uma propriedade.
+3. Escolha uma ordem automática de classificação, ou selecione **Manual** para ordenar os grupos você mesmo.
+
+Para parar de agrupar resultados, selecione o botão ![[lucide-trash-2.svg#icon]] lixeira ao lado da propriedade de agrupamento.
+
+### Reordenar, ocultar e adicionar grupos
+
+No menu ![[lucide-stretch-horizontal.svg#icon]] **Agrupar**, selecione **Manual** no menu de ordem de classificação para gerenciar quais grupos aparecem e em que ordem.
+
+- Marque um grupo para exibi-lo, ou desmarque para ocultá-lo. Selecione **Mostrar todos** ou **Ocultar todos** para alterar a visibilidade de todos os grupos.
+- Arraste a alça ![[lucide-grip-vertical.svg#icon]] ao lado de um grupo para alterar sua posição.
+- Selecione **Adicionar grupo** e insira um valor para exibir um novo grupo vazio. Isso não cria uma nota nem altera notas existentes.
+
+Para restaurar a ordem automática dos grupos e mostrar todos os grupos, escolha uma ordem automática de classificação em vez de **Manual**.
+
+### Recolher grupos
+
+Nos leiautes de [[Visualização de tabela|tabela]], [[Visualização de cartões|cartões]] e [[Visualização de lista|lista]], selecione o cabeçalho de um grupo para recolher ou expandir esse grupo. Recolher um grupo oculta temporariamente seus itens sem alterar suas propriedades.
 
 ## Limitar, copiar e exportar resultados
 

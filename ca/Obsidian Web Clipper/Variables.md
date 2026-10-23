@@ -17,26 +17,30 @@ Les variables preestablertes es generen automàticament basant-se en el contingu
 
 La variable de contingut principal és `{{content}}`, que conté el contingut de l'article, o els [[Ressaltador|ressaltats]], o la selecció si hi ha text seleccionat a la pàgina. Tingueu en compte que `{{content}}` intenta extreure el contingut principal de la pàgina, que pot no ser sempre el que voleu. En aquest cas, podeu utilitzar altres variables preestablertes o variables de selector per extreure el contingut que necessiteu.
 
-| Variable            | Descripció                                                                             |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Autor de la pàgina                                                                     |
+| Variable            | Descripció                                                                         |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| `{{author}}`        | Autor de la pàgina                                                                 |
 | `{{content}}`       | Contingut de l'article, [[Ressaltador\|ressaltats]], o selecció, en format Markdown |
 | `{{contentHtml}}`   | Contingut de l'article, [[Ressaltador\|ressaltats]], o selecció, en format HTML     |
-| `{{date}}`          | Data actual, es pot formatar utilitzant el filtre `date`                                |
-| `{{description}}`   | Descripció o extracte                                                                  |
-| `{{domain}}`        | Domini                                                                                 |
-| `{{favicon}}`       | URL del favicon                                                                        |
-| `{{fullHtml}}`      | HTML sense processar del contingut complet de la pàgina                                 |
-| `{{highlights}}`    | [[Ressaltador\|Ressaltats]] amb text i marques de temps                      |
-| `{{image}}`         | URL de la imatge de compartició social                                                  |
-| `{{published}}`     | Data de publicació, es pot formatar utilitzant el filtre `date`                         |
-| `{{selection}}`     | Selecció en format Markdown                                                            |
-| `{{selectionHtml}}` | Selecció en format HTML                                                                |
-| `{{site}}`          | Nom del lloc o editor                                                                  |
-| `{{title}}`         | Títol de la pàgina                                                                     |
-| `{{time}}`          | Data i hora actuals                                                                    |
-| `{{url}}`           | URL actual                                                                             |
-| `{{words}}`         | Comptador de paraules                                                                  |
+| `{{date}}`          | Data actual, es pot formatar utilitzant el filtre `date`                            |
+| `{{description}}`   | Descripció o extracte                                                              |
+| `{{domain}}`        | Domini                                                                             |
+| `{{favicon}}`       | URL del favicon                                                                    |
+| `{{fullHtml}}`      | HTML sense processar del contingut complet de la pàgina                             |
+| `{{highlights}}`    | [[Ressaltador\|Ressaltats]] amb text i marques de temps                            |
+| `{{image}}`         | URL de la imatge de compartició social                                             |
+| `{{language}}`      | Idioma de la pàgina                                                                |
+| `{{model}}`         | Nom del model de l'[[Intèrpret]]                                                  |
+| `{{modelId}}`       | ID del model de l'[[Intèrpret]]                                                   |
+| `{{modelProvider}}` | Proveïdor del model de l'[[Intèrpret]]                                             |
+| `{{published}}`     | Data de publicació, es pot formatar utilitzant el filtre `date`                     |
+| `{{selection}}`     | Selecció en format Markdown                                                        |
+| `{{selectionHtml}}` | Selecció en format HTML                                                            |
+| `{{site}}`          | Nom del lloc o editor                                                              |
+| `{{title}}`         | Títol de la pàgina                                                                 |
+| `{{time}}`          | Data i hora actuals                                                                |
+| `{{url}}`           | URL actual                                                                         |
+| `{{words}}`         | Comptador de paraules                                                              |
 
 ## Variables de sol·licitud
 

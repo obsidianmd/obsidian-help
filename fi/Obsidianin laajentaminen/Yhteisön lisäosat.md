@@ -16,7 +16,7 @@ Opi laajentamaan Obsidiania yhteisön rakentamilla lisäosilla. Käytä lisäosi
 
 Käytä tekstikenttää suodattaaksesi lisäosia nimen, tekijän ja kuvauksen perusteella.
 
-Voit selata saatavilla olevia lisäosia myös selaimessasi osoitteessa [community.obsidian.md](https://community.obsidian.md).
+Voit selata saatavilla olevia lisäosia myös selaimessasi osoitteessa [community.obsidian.md](https://community.obsidian.md). Lisätietoja lisäosan listaussivun sisällöstä löydät kohdasta [[Yhteisöhakemisto]].
 
 ## Asenna yhteisön lisäosa
 

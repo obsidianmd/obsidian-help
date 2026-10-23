@@ -83,14 +83,14 @@ Para definir um bloco de destaque personalizado, crie o seguinte bloco CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 O valor do atributo `data-callout` é o identificador de tipo que pretende utilizar, por exemplo `[!custom-question-type]`.
 
-- `--callout-color` define a cor de fundo utilizando números (0–255) para vermelho, verde e azul.
+- `--callout-color` define a cor de fundo. Qualquer cor CSS válida funciona, por exemplo um código hexadecimal (`#000000`) ou um valor `rgb()`.
 - `--callout-icon` pode ser um ID de ícone de [lucide.dev](https://lucide.dev), ou um elemento SVG.
 
 > [!warning] Nota sobre versões de ícones lucide
@@ -103,6 +103,28 @@ O valor do atributo `data-callout` é o identificador de tipo que pretende utili
 > ```css
 > --callout-icon: '<svg>...svg personalizado...</svg>';
 > ```
+
+> [!tip]- Personalização adicional
+> Não está limitado a `--callout-color` e `--callout-icon`. Os blocos de destaque suportam seletores e propriedades CSS padrão, juntamente com variáveis CSS adicionais para elementos como bordas e estilo do título.
+> 
+> Por exemplo, ocultar o título de um bloco de destaque:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Ou ajustar a sua borda:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Consulte a lista completa de [variáveis CSS de blocos de destaque](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) para mais opções.
 
 ### Tipos suportados
 

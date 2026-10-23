@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過[[匯入工具|匯入工具外掛]]輕鬆地從 Roam Research 遷移筆記。這會將你的 Roam 資料轉換為耐用的 Markdown 檔案，你可以在 Obsidian 和許多其他應用程式中使用。
 

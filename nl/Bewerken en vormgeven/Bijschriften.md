@@ -83,14 +83,14 @@ Om een aangepast infoblok te definiëren, maak je het volgende CSS-blok aan:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 De waarde van het `data-callout`-attribuut is de type-identificatie die je wilt gebruiken, bijvoorbeeld `[!custom-question-type]`.
 
-- `--callout-color` definieert de achtergrondkleur met getallen (0–255) voor rood, groen en blauw.
+- `--callout-color` definieert de achtergrondkleur. Elke geldige CSS-kleur werkt, bijvoorbeeld een hexcode (`#000000`) of een `rgb()`-waarde.
 - `--callout-icon` kan een pictogram-ID zijn van [lucide.dev](https://lucide.dev), of een SVG-element.
 
 > [!warning] Opmerking over lucide-pictogramversies
@@ -103,6 +103,28 @@ De waarde van het `data-callout`-attribuut is de type-identificatie die je wilt 
 > ```css
 > --callout-icon: '<svg>...aangepaste svg...</svg>';
 > ```
+
+> [!tip]- Verdere aanpassingen
+> Je bent niet beperkt tot `--callout-color` en `--callout-icon`. Infoblokken ondersteunen standaard CSS-selectors en -eigenschappen, samen met extra CSS-variabelen voor zaken zoals rand- en titelopmaak.
+> 
+> Verberg bijvoorbeeld de titel van een infoblok:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Of pas de rand aan:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Bekijk de volledige lijst van [callout CSS-variabelen](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) voor meer opties.
 
 ### Ondersteunde types
 

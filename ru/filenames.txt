@@ -54,6 +54,10 @@ translation=Виды
 original=Cards view
 translation=Карточки
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Представление «Канбан»
+
 [file.bases/views/list]
 original=List view
 translation=Список
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Кодекс поведения сообщества
+
+[file.community-directory]
+original=Community directory
+translation=Каталог сообщества
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=Поддерживаемые форматы файлов
 original=Financial contributions
 translation=Финансовая поддержка
 
+[file.find-and-replace]
+original=Find and replace
+translation=Найти и заменить
+
 [file.folding]
 original=Folding
 translation=Сворачивание
@@ -173,6 +185,10 @@ translation=HTML-содержимое
 [file.import]
 original=Import notes
 translation=Импорт заметок
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Импорт из Airtable
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Google Keep
 original=Import HTML files
 translation=HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Импорт из Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown
@@ -222,9 +242,17 @@ translation=OneNote
 original=Import from Roam Research
 translation=Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Шаблоны импортера
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Импорт из Tomboy и Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=Управление хранилищами
 original=Mobile app
 translation=Мобильное приложение
 
+[file.more-options-menu]
+original=More options menu
+translation=Меню «Ещё»
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Несколько курсоров
@@ -281,6 +313,10 @@ translation=Официальный сайт
 [file.payment]
 original=Introduction to licenses and payment
 translation=Введение в лицензии и оплату
+
+[file.pdf]
+original=PDFs
+translation=PDF-файлы
 
 [file.plugin-security]
 original=Plugin security

@@ -44,6 +44,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] 開啟標題或區塊
 > 透過正確的 URI 編碼，你可以導航至筆記中的標題或區塊。`Note%23Heading` 會導航至名為「Heading」的標題，而 `Note%23%5EBlock` 會導航至名為「Block」的區塊。
 
+### 複製 Obsidian URL
+
+Obsidian 可以為目前的筆記建立 `open` URI，這樣你就不需要自己撰寫。應用程式將此稱為 Obsidian URL，其中包含保管庫名稱和筆記的路徑。
+
+你可以透過以下任一方式複製 Obsidian URL：
+
+- 在[[命令面板]]中，選擇**複製 Obsidian 網址**。
+- 在筆記中，選擇**更多選項** ![[lucide-more-horizontal.svg#icon]]，然後選擇**複製路徑 → 為 Obsidian URL**。請參閱[[更多選項選單]]。
+- 在桌面版中，於[[檔案總管]]中右鍵點擊檔案，然後選擇**複製路徑 → 為 Obsidian URL**。
+
 ### 參數
 
 - `vault` 可以是保管庫名稱或保管庫 ID[^1]。

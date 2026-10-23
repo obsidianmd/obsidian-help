@@ -2,6 +2,8 @@
 permalink: import/craft
 aliases:
   - Import from Craft
+cssclasses:
+  - soft-embed
 ---
 Obsidian позволяет перенести ваши заметки из Craft. Данные Craft будут преобразованы в долговечные файлы Markdown, которые можно использовать в Obsidian и многих других приложениях.
 

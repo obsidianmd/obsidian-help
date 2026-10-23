@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 Obsidian maakt het eenvoudig om je notities vanuit Apple Notities te migreren met behulp van de [[Importeren|Importer-plug-in]]. Hiermee worden je Apple Notities-gegevens geconverteerd naar duurzame Markdown-bestanden die je kunt gebruiken met Obsidian en vele andere apps.
 

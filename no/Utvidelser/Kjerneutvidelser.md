@@ -40,7 +40,7 @@ Obsidian-teamet vedlikeholder også utviklingen av visse [[#Andre utvidelser|åp
 	- Bla gjennom filer og mapper i hvelvet ditt.
 - [[Forhåndsvisning av notat]]
 	- Forhåndsvis innholdet i et notat ved å holde musepekeren over lenker.
-- [[Fotnoter-visning]]
+- [[Fotnotevisning|Fotnoter-visning]]
 	- Vis en liste over fotnoter fra det gjeldende notatet.
 - [[Grafvisnining]]
 	- Visualiser relasjoner mellom notater i hvelvet ditt.
@@ -54,8 +54,6 @@ Obsidian-teamet vedlikeholder også utviklingen av visse [[#Andre utvidelser|åp
 	- Ta opp og lagre lydopptak direkte i et notat.
 - [[Maler|Maler]]
 	- Sett inn forhåndsdefinert innhold i notatene dine.
-- [[Markdown-importør]]
-	- Konverter Markdown fra andre apper til Obsidians format.
 - [[Notatkomponist]]
 	- Slå sammen to notater eller del ett i to.
 - [[Outgoing Links]]

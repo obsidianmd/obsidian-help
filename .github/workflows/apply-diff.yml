@@ -27,7 +27,7 @@ jobs:
   apply-diff:
     needs: setup
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     strategy:
@@ -55,7 +55,9 @@ jobs:
         run: npx tsx scripts/translate-filenames.ts "${{ matrix.locale }}"
 
       - name: Sync structure to ${{ matrix.locale }} (stubs for new EN pages, remove deleted)
-        run: npx tsx scripts/sync-locale.ts "${{ matrix.locale }}"
+        run: |
+          FROM=${{ github.event.inputs.from_ref || github.event.before }}
+          npx tsx scripts/sync-locale.ts "${{ matrix.locale }}" --from "$FROM"
 
       - name: Translate stubs and flagged files in ${{ matrix.locale }}
         run: npx tsx scripts/translate-locale.ts "${{ matrix.locale }}"
@@ -80,6 +82,8 @@ jobs:
 
   commit:
     needs: apply-diff
+    # Run even if some locales failed or timed out, so their patches still land.
+    if: ${{ !cancelled() }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -124,4 +128,15 @@ jobs:
           git diff --staged --quiet && git diff --quiet && echo "No changes to commit" && exit 0
           git add .
           git commit -m "chore: apply EN diff to locales"
-          git push
+
+          # master may have moved while translation was running — rebase and retry
+          for i in 1 2 3; do
+            if git push origin HEAD:master; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push rejected — rebasing onto origin/master (attempt $i)"
+            git pull --rebase origin master
+          done
+          echo "Failed to push after 3 attempts"
+          exit 1

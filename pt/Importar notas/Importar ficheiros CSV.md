@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 O Obsidian permite-lhe importar dados de ficheiros CSV usando o [[Importador|plugin Importador]] oficial. Isto é útil se tiver dados tabulares armazenados em aplicações como Excel, Google Sheets, Numbers, Notion ou Airtable.
 
@@ -17,12 +19,25 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone na barra de ferramentas.
 5. Em **Formatação do ficheiro** escolha **CSV (.csv).**
 6. Selecione a localização do seu ficheiro CSV.
-7. Clique em **Importar** para configurar como os dados no seu ficheiro CSV serão convertidos em notas com [[Propriedades]].
-8. Clique em **Continuar** e aguarde até que a importação esteja concluída.
-9. Está feito!
+7. Selecione **Importar** para configurar como os dados no seu ficheiro CSV serão convertidos em notas com [[Propriedades]].
+8. Selecione **Continuar** para rever o modelo gerado e pré-visualizar exemplos das suas linhas.
+9. Selecione **Importar** e aguarde até que a importação termine.
 
 ## Configurar como os campos CSV são importados
 
-No segundo passo da importação de CSV, pode escolher como os dados são importados usando um modelo.
+No passo de configuração de campos, pode escolher como os dados são importados. O Importador gera um modelo a partir dos cabeçalhos do CSV, usa a primeira coluna para o nome inicial da nota e cria uma propriedade para cada coluna.
 
-Cada coluna no seu ficheiro CSV recebe uma variável chamada `{{column_name}}` que representa o nome do cabeçalho no seu ficheiro. Pode usar esta variável para definir o título da nota, a localização, o conteúdo e as [[Propriedades|propriedades]].
+## Modelos
+
+Use [[Modelos do Importador|modelos do Importador]] para configurar totalmente como os seus dados são importados.
+
+Cada coluna do CSV está disponível usando o seu cabeçalho. Se uma coluna não tiver cabeçalho, o Importador usa o nome de coluna gerado.
+
+Use a notação de parênteses retos para que espaços e pontuação sejam tratados de forma segura:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Modelos do Importador#Variables]]

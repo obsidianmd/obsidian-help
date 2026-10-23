@@ -3,6 +3,8 @@ permalink: import/html
 aliases:
   - استيراد ملفات HTML
   - Import HTML files
+cssclasses:
+  - soft-embed
 ---
 
 يتيح لك Obsidian بسهولة استيراد ملفات HTML فردية ومجلدات كاملة من ملفات HTML باستخدام مكوّن [[المستورد]] الإضافي الرسمي. يمكن استخدام هذا إذا كنت ترغب في حفظ مواقع ويب كاملة بتنسيق [[Markdown بنكهة Obsidian|Markdown]]، أو إذا كنت ترغب في استيراد بيانات من أداة تصدر إلى تنسيق HTML.

@@ -80,9 +80,17 @@ Dies sind Nachrichten, die beschreiben, was übersprungen wurde und möglicherwe
 
 **Unable to download file with illegal name**
 
-Die Datei enthält ein [Sonderzeichen oder eine Namenskonvention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), die auf dem empfangenden Betriebssystem nicht erlaubt ist. Zur Vereinfachung kannst du die Datei auf dem Quellgerät umbenennen, um alle Sonderzeichen außer `-` und `_` zu entfernen.
+Der Dateiname verwendet ein [Sonderzeichen oder eine Namenskonvention](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), die das empfangende Betriebssystem nicht speichern kann. Benenne die Datei auf dem Quellgerät um und lasse Sync die umbenannte Datei erneut hochladen.
 
-Beachte, dass dies auch Dateien mit mehreren Punkten `.` im Namen auf Android-Geräten einschließt.
+Für Vaults, die über verschiedene Betriebssysteme hinweg synchronisiert werden, solltest du Folgendes in Datei- und Ordnernamen vermeiden:
+
+- Zeichen, die häufig von Dateisystemen reserviert sind, wie `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` und `|`
+- Ein Leerzeichen oder Punkt am Ende des Namens
+- Von Windows reservierte Gerätenamen wie `CON`, `PRN`, `AUX`, `NUL`, `COM1` bis `COM9` oder `LPT1` bis `LPT9`
+- Zeichen, die Obsidian für Links verwendet, wie `#`, `^`, `[` und `]`, wenn du linkfreundliche Notiznamen verwenden möchtest
+- Mehrere Punkte `.` in einem Dateinamen oder Emojis, die von einigen Android-Geräten abgelehnt werden können
+
+Im Zweifelsfall verwende Buchstaben, Zahlen, reguläre Leerzeichen innerhalb des Namens, Bindestriche `-`, Unterstriche `_` und einen einzelnen Punkt vor der Dateiendung.
 
 ### Kontonachrichten
 

@@ -11,11 +11,14 @@ V horní části základny se nachází nástrojový panel, který umožňuje pr
 
 - ![[lucide-table.svg#icon]] **Nabídka zobrazení** — vytvoření, úprava a přepínání zobrazení.
 - **Výsledky** — omezení, kopírování a export souborů.
-- ![[lucide-arrow-up-down.svg#icon]] **Seřadit** — řazení a seskupování souborů.
+- ![[lucide-arrow-up-down.svg#icon]] **Seřadit** — řazení souborů.
+- ![[lucide-stretch-horizontal.svg#icon]] **Seskupit** — seskupování souborů a správa pořadí a viditelnosti skupin.
 - ![[lucide-list-filter.svg#icon]] **Filtr** — filtrování souborů.
 - ![[lucide-list.svg#icon]] **Vlastnosti** — výběr vlastností k zobrazení a vytváření [[Vzorce|vzorců]].
 - ![[lucide-search.svg#icon]] **Hledat** — hledání položek pomocí zobrazených vlastností.
 - ![[lucide-plus.svg#icon]] **Nové** — vytvoření nového souboru v aktuálním zobrazení.
+
+Na telefonech se **Výsledky**, **Seřadit**, ![[lucide-stretch-horizontal.svg#icon]] **Seskupit** a **Vlastnosti** nacházejí v nabídce ![[lucide-sliders-horizontal.svg#icon]] **Zobrazení**.
 
 ## Přidání a přepínání zobrazení
 
@@ -37,13 +40,14 @@ Alternativně *klikněte pravým tlačítkem* na název zobrazení v nástrojov�
 
 ## Rozvržení
 
-Zobrazení mohou být zobrazena s různými rozvrženími, včetně ![[lucide-table.svg#icon]] **tabulka**, ![[lucide-list.svg#icon]] **seznam**, ![[lucide-layout-grid.svg#icon]] **karty** a ![[lucide-map.svg#icon]] **mapa**. Další rozvržení mohou být přidána pomocí [[Komunitní pluginy|Komunitních pluginů]]. Některá rozvržení jsou stále ve vývoji a vyžadují [[Verze s předběžným přístupem|verze s předběžným přístupem]] Obsidian.
+Zobrazení mohou být zobrazena s různými rozvrženími, včetně ![[lucide-table.svg#icon]] **tabulka**, ![[lucide-list.svg#icon]] **seznam**, ![[lucide-layout-grid.svg#icon]] **karty**, ![[lucide-kanban-square.svg#icon]] **Kanban** a ![[lucide-map.svg#icon]] **mapa**. Další rozvržení mohou být přidána pomocí [[Komunitní pluginy|Komunitních pluginů]].
 
 | Rozvržení                          | Popis                                                                                                                         | Verze&nbsp;aplikace |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | [[Zobrazení Tabulka\|Tabulka]]     | Zobrazení souborů jako řádků v tabulce. Sloupce jsou naplněny z [[Vlastnosti\|vlastností]] ve vašich poznámkách.              | 1.9                 |
 | [[Zobrazení Karty\|Karty]]         | Zobrazení souborů jako mřížky karet. Umožňuje vytvářet zobrazení podobná galerii s obrázky.                                  | 1.9                 |
 | [[Zobrazení Seznam\|Seznam]]       | Zobrazení souborů jako [[Základní syntaxe formátování#Seznamy\|seznam]] s odrážkami nebo čísly.                               | 1.10                |
+| [[Zobrazení Kanban\|Kanban]]       | Zobrazení souborů jako karet uspořádaných do sloupců na základě seskupené vlastnosti.                                         | 1.14                |
 | [[Zobrazení Mapa\|Mapa]]           | Zobrazení souborů jako špendlíků na interaktivní mapě. Vyžaduje plugin Mapy.                                                 | 1.10                |
 
 
@@ -82,16 +86,16 @@ Klikněte na tlačítko kódu ![[lucide-code-xml.svg#icon]] pro použití editor
 
 ## Řazení a seskupování výsledků
 
-Otevřete nabídku ![[lucide-arrow-up-down.svg#icon]] **Seřadit** pro řazení a seskupování výsledků v zobrazení.
+Pomocí nabídky ![[lucide-arrow-up-down.svg#icon]] **Seřadit** můžete uspořádat výsledky a pomocí nabídky ![[lucide-stretch-horizontal.svg#icon]] **Seskupit** můžete organizovat podobné položky do sekcí.
 
 Výsledky můžete uspořádat podle jedné nebo více vlastností ve vzestupném nebo sestupném pořadí. To usnadňuje řazení poznámek podle názvu, času poslední úpravy nebo jakékoliv jiné vlastnosti — včetně vzorců.
 
-Výsledky můžete také seskupit podle vlastnosti a organizovat podobné položky do vizuálně oddělených sekcí. V současnosti Obsidian podporuje seskupování pouze podle jedné vlastnosti.
+Každé zobrazení může mít několik řazení, ale seskupovat výsledky lze pouze podle jedné vlastnosti.
 
 ### Přidání řazení
 
 1. Otevřete nabídku ![[lucide-arrow-up-down.svg#icon]] **Seřadit** v horní části zobrazení.
-2. Vyberte vlastnost, podle které chcete řadit (nebo seskupovat).
+2. Vyberte **Přidat řazení** a poté zvolte vlastnost, podle které chcete řadit.
 3. Pokud máte více řazení, přetáhněte je nahoru nebo dolů pomocí úchytu ![[lucide-grip-vertical.svg#icon]] pro změnu jejich priority.
 
 Možnosti řazení výsledků závisí na typu vlastnosti:
@@ -103,7 +107,29 @@ Možnosti řazení výsledků závisí na typu vlastnosti:
 ### Odstranění řazení
 
 1. Otevřete nabídku ![[lucide-arrow-up-down.svg#icon]] **Seřadit** v horní části zobrazení.
-2. Klikněte na tlačítko koše ![[lucide-trash-2.svg#icon]] vedle řazení nebo seskupení, které chcete odstranit.
+2. Vyberte tlačítko koše ![[lucide-trash-2.svg#icon]] vedle řazení, které chcete odstranit.
+
+### Seskupování výsledků
+
+1. Otevřete nabídku ![[lucide-stretch-horizontal.svg#icon]] **Seskupit** v horní části zobrazení. Na telefonech otevřete **Zobrazení → Seskupit**.
+2. V části **Seskupit podle** vyberte vlastnost.
+3. Zvolte automatické pořadí řazení, nebo vyberte **Ručně** pro ruční uspořádání skupin.
+
+Pro zrušení seskupování výsledků vyberte tlačítko koše ![[lucide-trash-2.svg#icon]] vedle vlastnosti seskupení.
+
+### Změna pořadí, skrytí a přidání skupin
+
+V nabídce ![[lucide-stretch-horizontal.svg#icon]] **Seskupit** vyberte **Ručně** z nabídky pořadí řazení pro správu zobrazených skupin a jejich pořadí.
+
+- Zaškrtnutím skupiny ji zobrazíte, odškrtnutím ji skryjete. Vyberte **Zobrazit vše** nebo **Skrýt vše** pro změnu viditelnosti všech skupin.
+- Přetáhněte úchyt ![[lucide-grip-vertical.svg#icon]] vedle skupiny pro změnu její pozice.
+- Vyberte **Přidat skupinu** a zadejte hodnotu pro zobrazení nové prázdné skupiny. Tím se nevytvoří poznámka ani nezmění existující poznámky.
+
+Pro obnovení automatického pořadí skupin a zobrazení všech skupin zvolte automatické pořadí řazení místo **Ručně**.
+
+### Sbalení skupin
+
+V rozvrženích [[Zobrazení Tabulka|tabulka]], [[Zobrazení Karty|karty]] a [[Zobrazení Seznam|seznam]] vyberte záhlaví skupiny pro sbalení nebo rozbalení dané skupiny. Sbalení skupiny dočasně skryje její položky bez změny jejich vlastností.
 
 ## Omezení, kopírování a export výsledků
 

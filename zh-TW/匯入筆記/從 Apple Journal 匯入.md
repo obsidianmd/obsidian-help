@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以使用[[匯入工具|匯入工具外掛]]輕鬆地從 Apple Journal 匯入日誌條目。
 這會將你的日誌轉換為持久的 Markdown 檔案，你可以在 Obsidian 和許多其他應用程式中使用。

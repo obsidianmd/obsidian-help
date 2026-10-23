@@ -20,7 +20,7 @@ Możesz zmieniać kolejność zakładek, zaznaczając je i przeciągając.
 Możesz dodawać elementy do ulubionych i organizować je w _grupy ulubionych_, aby łatwiej je znaleźć. Możesz rozwijać i zwijać grupy ulubionych, aby pokazać lub ukryć zawarte w nich zakładki.
 
 > [!todo]- Pokaż ulubione
-> Zapisane elementy znajdziesz, klikając **Ulubione** ![[lucide-bookmark.svg#icon]] na lewym pasku bocznym.
+> Zapisane elementy znajdziesz, klikając **Ulubione** ![[lucide-bookmark.svg#icon]] na lewym panelu bocznym.
 >
 > Możesz też otworzyć kartę Ulubione, uruchamiając polecenie **Ulubione: Pokaż ulubione** z [[Lista poleceń|palety poleceń]].
 
@@ -36,9 +36,9 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 >
 > - Wybierz **Dodaj aktywną kartę do ulubionych** ![[lucide-bookmark-plus.svg#icon]] u góry karty Ulubione.
 >
-> **Eksplorator plików**:
+> **Przeglądarka plików**:
 >
-> - Kliknij prawym przyciskiem myszy plik w [[Eksplorator plików|eksploratorze plików]] i wybierz **Dodaj do ulubionych**.
+> - Kliknij prawym przyciskiem myszy plik w [[Przeglądarka plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
 >
 > **Paleta poleceń**:
 >
@@ -48,20 +48,20 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 
 > [!todo]- Dodawanie folderu do ulubionych
 >
-> **Eksplorator plików**:
+> **Przeglądarka plików**:
 >
-> - Kliknij prawym przyciskiem myszy folder w [[Eksplorator plików|eksploratorze plików]] i wybierz **Dodaj do ulubionych**.
+> - Kliknij prawym przyciskiem myszy folder w [[Przeglądarka plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
 
 > [!todo]- Dodawanie wyszukiwanego terminu do ulubionych
 >
-> **Szukaj**:
+> **Wyszukiwarka**:
 >
-> 1. Wprowadź [[Szukaj#Terminy wyszukiwania|termin wyszukiwania]].
+> 1. Wprowadź [[Wyszukiwarka#Terminy wyszukiwania|termin wyszukiwania]].
 > 2. Pod polem wyszukiwania wybierz ikonę trzech kropek obok liczby wyników.
 > 3. Wybierz **Dodaj do ulubionych**.
 
 > [!todo]- Dodawanie grafu do ulubionych
-> Aby dodać graf do ulubionych, kliknij prawym przyciskiem myszy kartę z widokiem grafu i wybierz **Dodaj do ulubionych**.
+> Aby dodać graf do ulubionych, kliknij prawym przyciskiem myszy kartę z podglądem grafu i wybierz **Dodaj do ulubionych**.
 >
 > Nie można dodawać lokalnych grafów do ulubionych.
 
@@ -114,7 +114,7 @@ Aby usunąć grupę ulubionych wraz ze wszystkimi zakładkami w niej zawartymi, 
 
 Możesz dodać wiele zakładek jednocześnie.
 
-**Eksplorator plików**:
+**Przeglądarka plików**:
 
 1. Zaznacz wiele plików, przytrzymując `Alt` i klikając każdy plik, lub naciśnij `Shift`, aby zaznaczyć zakres plików.
 2. Kliknij prawym przyciskiem myszy jeden z zaznaczonych plików, a następnie wybierz **Dodaj do ulubionych**.

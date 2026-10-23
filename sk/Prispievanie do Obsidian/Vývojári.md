@@ -12,6 +12,7 @@ Môžete vyvíjať [[Komunitné pluginy]] a [[Témy]] pomocou Typescript a CSS. 
 Obsidian vyvíja a spravuje niekoľko projektov s otvoreným zdrojovým kódom. Môžete odosielať pull requesty s opravami chýb a vylepšeniami do nasledujúcich GitHub repozitárov:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), otvorený formát súborov pre dáta nekonečného plátna.
+- [Knap](https://github.com/obsidianmd/knap) (MIT) šablónovací jazyk na generovanie Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), plugin, ktorý konvertuje dáta z rôznych formátov do obyčajných textových Markdown súborov.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), plugin, ktorý zobrazuje mapy v Obsidian Databázach.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), rozšírenie prehliadača na zvýrazňovanie a zachytávanie webových stránok do obyčajných textových Markdown súborov.

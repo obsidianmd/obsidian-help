@@ -32,25 +32,20 @@ Khi chỉnh sửa ghi chú, bạn sẽ thấy một hàng biểu tượng ở cu
 
 ### Tùy chỉnh thanh công cụ di động
 
-Trên thanh công cụ di động, nhấn **Cấu hình thanh công cụ di động** ![[lucide-wrench.svg#icon]] để mở giao diện tùy chỉnh.
+Trên thanh công cụ di động, chọn **Cấu hình thanh công cụ di động** ![[lucide-wrench.svg#icon]] để mở cài đặt của nó.
 
-Ngoài ra, bạn có thể thực hiện trong Cài đặt.
+Bạn cũng có thể mở **[[Cài đặt]] → Giao diện → Cấu hình thanh công cụ di động**.
 
-1. Mở Cài đặt.
-2. Chọn **Di động**.
-3. Trong **Quản lý tùy chọn thanh công cụ**, thêm, xóa hoặc sắp xếp lại các tùy chọn có sẵn.
+Trong **Quản lý tùy chọn thanh công cụ**, sử dụng các tay nắm kéo để sắp xếp lại các hành động và các nút xóa để loại bỏ chúng. Chọn một hành động trong **Thêm tùy chọn thanh công cụ** để thêm nó.
 
 ### Thêm lệnh vào thanh công cụ di động
 
-Theo mặc định, các tùy chọn có sẵn để thêm vào thanh công cụ là các tùy chọn chỉnh sửa như "Thêm liên kết nội bộ" hoặc "Thêm thẻ".
+Ngoài các hành động chỉnh sửa, bạn có thể thêm các lệnh toàn cục như **Thay đổi chủ đề**.
 
-Ngoài ra, bạn có thể thêm các lệnh toàn cục như "Thay đổi chủ đề".
-
-1. Tìm **Quản lý tùy chọn thanh công cụ** trong **[[Cài đặt]]** → **Di động**.
-2. Cuộn xuống cuối cùng, tìm **Thêm lệnh toàn cục**.
-3. Nhập tên lệnh bạn muốn thêm.
-4. Chọn lệnh bạn muốn thêm.
-5. Lệnh mới được thêm vào cuối thanh công cụ.
+1. Mở **[[Cài đặt]] → Giao diện → Cấu hình thanh công cụ di động**.
+2. Trong **Quản lý tùy chọn thanh công cụ**, chọn **Thêm lệnh...**.
+3. Tìm kiếm lệnh bạn muốn thêm.
+4. Chọn lệnh để thêm nó vào cuối thanh công cụ.
 
 ## Hành động nhanh
 
@@ -61,7 +56,7 @@ Hành động nhanh mặc định là mở [[Khay lệnh|Bảng lệnh]].
 ### Tùy chỉnh Hành động nhanh
 
 1. Mở Cài đặt.
-2. Trong **Tùy chọn**, chọn **Thanh công cụ**.
+2. Chọn **Giao diện**.
 3. Trong **Cấu hình Hành động Nhanh di động**, nhấn **Cấu hình**.
 4. Nhập tên lệnh.
 5. Chọn lệnh bạn muốn đặt.

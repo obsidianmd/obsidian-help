@@ -23,7 +23,7 @@ Gdy system plików zastępuje chmurę, zyskujesz elastyczne opcje pracy ze swoim
 
 Łącza i połączenia są kluczowe dla odkrywania relacji między tym, co wiemy.
 
-Obsidian bardzo to ceni i zachęca do tego za pomocą [[Łącza wewnętrzne|łączy wewnętrznych]] i [[Podgląd grafu|widoku grafu]], między innymi.
+Obsidian bardzo to ceni i zachęca do tego za pomocą [[Łącza wewnętrzne|łączy wewnętrznych]] i [[Podgląd grafu|podglądu grafu]], między innymi.
 
 Jak ujął to John Locke...
 
@@ -49,7 +49,7 @@ Ponadto możesz dodawać izolowane, niezależne bloki budulcowe, aby wzbogacić 
 
 - Jeśli sporządzasz notatki z wykładów, [[Dyktafon]] i matematyka LaTeX mogą się przydać;
 - Jeśli prowadzisz notatki służbowe, [[Slajdy]] i [[Linki zwrotne]] mogą okazać się pomocne;
-- Jeśli jesteś badaczem, [[Podgląd grafu|widok grafu]] i [[Liczba słów|liczba słów]] mogą być niezbędne w Twoim zestawie narzędzi.
+- Jeśli jesteś badaczem, [[Podgląd grafu|podgląd grafu]] i [[Liczba słów|liczba słów]] mogą być niezbędne w Twoim zestawie narzędzi.
 
 Nie oczekujemy, że wtyczki będą cudownym rozwiązaniem wszystkich problemów, ale zbliżają nas do celu bardziej niż monolityczne rozwiązanie, bez wszystkich funkcji, których nie potrzebujesz, zaśmiecających interfejs.
 

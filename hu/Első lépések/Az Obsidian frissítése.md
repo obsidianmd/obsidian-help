@@ -11,7 +11,7 @@ Mobileszközökön az Obsidian az eszköz alkalmazásboltján keresztül frissü
 
 Nyisd meg a **[[Beállítások]] → Általános** menüt.
 
-Az alkalmazás és a telepítő aktuális verzióját az oldal tetején találod.
+Az alkalmazás és a telepítő aktuális verzióját az oldal tetején találod. Ha újabb telepítő érhető el, az Obsidian egy értesítést jelenít meg egy letöltési hivatkozással. Kövesd a [[#Telepítő frissítések|telepítő frissítési útmutatót]] a telepítéshez.
 
 ![[application-installer-current-version.png#interface]]
 

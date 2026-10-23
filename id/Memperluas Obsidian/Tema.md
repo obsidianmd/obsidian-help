@@ -8,6 +8,8 @@ Pelajari cara mengubah tampilan dan nuansa Obsidian menggunakan tema yang dibuat
 1. Buka **[[Pengaturan]]**.
 2. Di bawah **Tampilan → Tema**, pilih **Kelola** untuk menampilkan daftar semua tema komunitas yang tersedia.
 
+Anda juga dapat menelusuri tema yang tersedia di browser Anda, dengan mengunjungi [community.obsidian.md](https://community.obsidian.md). Untuk informasi lebih lanjut tentang apa yang ditampilkan di halaman daftar tema, lihat [[Direktori komunitas]].
+
 ## Pasang tema baru
 
 1. Buka **[[Pengaturan]]**.

@@ -38,6 +38,9 @@ Mallutlösare låter dig automatiskt välja en mall baserat på den aktuella sid
 
 Den första matchningen i din malllista bestämmer vilken mall som används. Du kan dra mallar upp och ner i Web Clipper-inställningar för att ändra ordningen i vilken mallar matchas.
 
+> [!tip]- Ställ in en reservmall
+> Om en sida inte matchar någon utlösarregel använder Web Clipper den första mallen i din lista. Behåll den mall du vill använda som reserv högst upp i listan för att säkerställa att den används för sidor utan en specifik matchning.
+
 #### Enkel URL-matchning
 
 Enkel matchning utlöser en mall om den aktuella sidans URL *börjar med* det angivna mönstret. Till exempel:

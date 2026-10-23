@@ -54,6 +54,10 @@ translation=보기
 original=Cards view
 translation=카드 뷰
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=칸반 뷰
+
 [file.bases/views/list]
 original=List view
 translation=목록 뷰
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=커뮤니티 행동 강령
+
+[file.community-directory]
+original=Community directory
+translation=커뮤니티 디렉터리
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=지원 파일 형식
 original=Financial contributions
 translation=재정 기여
 
+[file.find-and-replace]
+original=Find and replace
+translation=찾기 및 바꾸기
+
 [file.folding]
 original=Folding
 translation=접기
@@ -173,6 +185,10 @@ translation=HTML 콘텐츠
 [file.import]
 original=Import notes
 translation=노트 들여오기
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Airtable에서 가져오기
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Google Keep에서 들여오기
 original=Import HTML files
 translation=HTML 파일 들여오기
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Logseq에서 가져오기
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown 파일 들여오기
@@ -222,9 +242,17 @@ translation=Microsoft OneNote에서 들여오기
 original=Import from Roam Research
 translation=Roam Research에서 들여오기
 
+[file.import/templates]
+original=Importer templates
+translation=임포터 템플릿
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle 파일 들여오기
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Tomboy 및 Gnote에서 가져오기
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=보관함 관리
 original=Mobile app
 translation=모바일 앱
 
+[file.more-options-menu]
+original=More options menu
+translation=다른 옵션 메뉴
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=다중 커서
@@ -281,6 +313,10 @@ translation=공식 웹사이트
 [file.payment]
 original=Introduction to licenses and payment
 translation=라이선스 및 결제 소개
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

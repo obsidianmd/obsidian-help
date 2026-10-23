@@ -85,15 +85,18 @@ jobs:
           fi
 
           # If en/publish.js or en/publish.css changed, all locales are affected
-          if git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" \
+          if git -c core.quotePath=false diff --name-only "${{ github.event.before }}" "${{ github.sha }}" \
               | grep -qE '^en/publish\.(js|css)$'; then
             echo "locales=" >> $GITHUB_OUTPUT
             echo "EN publish assets changed — publishing all locales"
             exit 0
           fi
 
-          # Otherwise publish only the locale dirs that have changed files
-          LOCALES=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" \
+          # Otherwise publish only the locale dirs that have changed files.
+          # core.quotePath=false because git escapes non-ASCII paths by default:
+          # "zh/\346\250\241..." would cut to '"zh' and be dropped from the list,
+          # silently skipping every locale whose changed files are all non-ASCII.
+          LOCALES=$(git -c core.quotePath=false diff --name-only "${{ github.event.before }}" "${{ github.sha }}" \
             | cut -d/ -f1 | sort -u \
             | node -e "
                 const fs = require('fs');

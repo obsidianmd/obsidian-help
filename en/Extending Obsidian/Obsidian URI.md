@@ -4,6 +4,7 @@ aliases:
   - Advanced topics/Using obsidian URI
   - Concepts/Obsidian URI
   - Extending Obsidian/Obsidian URI
+description: Use Obsidian URI to open notes, create notes, and trigger other actions in Obsidian from other apps and scripts.
 permalink: uri
 ---
 Obsidian URI is a custom URI protocol supported by Obsidian that lets you trigger various actions, such as opening a note or creating a note. Obsidian URI enables automation and cross-app workflows.
@@ -48,6 +49,16 @@ The `open` action opens an Obsidian vault, or opens a file within that vault.
 
 > [!tip] Open a heading or block
 > With proper URI encoding, you can navigate to a heading or block within a note. `Note%23Heading` would navigate to the heading called "Heading", whereas `Note%23%5EBlock` would navigate to the block called "Block".
+
+### Copy an Obsidian URL
+
+Obsidian can build an `open` URI for the active note, so you don't have to write it yourself. The app calls this an Obsidian URL. It includes the vault name and the path to the note.
+
+You can copy the Obsidian URL in any of these ways.
+
+- In the [[Command palette]], select **Copy Obsidian URL for current file**.
+- In the note, select **More options** ![[lucide-more-horizontal.svg#icon]], and then select **Copy path → as Obsidian URL**. See [[More options menu]].
+- On desktop, right-click a file in the [[File explorer]], and then select **Copy path → as Obsidian URL**.
 
 ### Parameters
 

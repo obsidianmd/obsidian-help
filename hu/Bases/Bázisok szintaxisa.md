@@ -201,7 +201,25 @@ views:
 - A `name` a megjelenített név, és az alapértelmezett nézet meghatározására is használható.
 - A `filters` pontosan ugyanúgy működik, mint fent leírtuk, de csak az adott nézetre vonatkozik.
 - A `groupBy` egy tulajdonságot és rendezési irányt ad meg. A megadott tulajdonság értéke alapján kerülnek az egyes sorok csoportokba.
+- A `groupOrder` meghatározza a csoportok sorrendjét és láthatóságát. Ha jelen van, csak azok a csoportok jelennek meg, amelyek értékei szerepelnek a listában, az ott megadott sorrendben. Üres lista az összes csoportot elrejti. Távolítsd el a `groupOrder`-t az összes csoport megjelenítéséhez a `groupBy` által meghatározott sorrendben.
 - A `summaries` tulajdonságneveket rendel hozzá elnevezett összegzésekhez. Az összegzések aggregálást végeznek az adott tulajdonságon az összes soron keresztül.
+
+Például ez a nézet csak a Planned, In progress és Done csoportokat jeleníti meg, ebben a sorrendben:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Használd a `null` értéket a `groupOrder`-ben azon fájlok beillesztéséhez, amelyeknek nincs értékük a csoportosított tulajdonságra.
 
 A [[Nézetek|nézetek]] további adatokat tárolhatnak az állapot fenntartásához vagy a megfelelő megjelenítéshez szükséges információkkal, azonban a bővítményfejlesztőknek ügyelniük kell arra, hogy ne használjanak olyan kulcsokat, amelyeket az alap Bázisok bővítmény már használ. Például egy táblázat nézet ezzel korlátozhatja a sorok számát vagy kiválaszthatja, melyik oszlop szerint és milyen irányban rendezze a sorokat. Egy másik nézettípus, például egy térkép, ezzel határozhatja meg, melyik jegyzet-tulajdonság felel meg a szélességi és hosszúsági foknak, és melyik tulajdonság jelenjen meg a gombostű címeként.
 

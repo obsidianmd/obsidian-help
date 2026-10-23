@@ -1,7 +1,9 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
-Obsidianでは、Craftからノートを移行できます。この機能により、CraftのデータをMarkdownファイルに変換し、Obsidianやその他多くのアプリで利用できるようになります。
+Obsidianでは、Craftからノートを移行できます。この機能により、CraftのデータをObsidianやその他多くのアプリで利用できるMarkdownファイルに変換します。
 
 ## Craftからデータをエクスポートする
 

@@ -18,9 +18,8 @@ Det finns flera sätt att öppna snabbväxlaren när den är aktiverad:
 3. Navigera till anteckningen med piltangenterna.
 4. Tryck `Enter` för att öppna den valda anteckningen.
 
-> [!info] 
-> Autokompletteringsfunktionen växlar till en enklare resultatalgoritm när valvet når 10 000 objekt för att bibehålla optimal applikationsprestanda.
-^search-autocomplete-large
+> [!info] Fuzzy-matchning
+> Filförslag matchar bokstäver i ordning, även om du hoppar över några. Till exempel kan `da` matcha `Dagliga anteckningar`.
 
 Om texten inte matchar några anteckningar kan du trycka `Enter` för att skapa en anteckning med det namnet. Även om texten matchar en eller flera liknande anteckningar kan du fortfarande skapa en anteckning med det exakta namnet genom att trycka `Shift+Enter`.
 

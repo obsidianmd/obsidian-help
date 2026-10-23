@@ -44,7 +44,7 @@ iCloud può essere utilizzato per sincronizzare le casseforti tra iOS e macOS. T
 **Come creare e archiviare la cassaforte in iCloud Drive**:
 
 - **Abilitare iCloud Drive**:
-    - Su macOS: Andare in **Preferenze di Sistema → ID Apple → iCloud → iCloud Drive**.
+    - Su macOS: Andare in **Impostazioni di Sistema → ID Apple → iCloud → iCloud Drive**.
     - Su iOS: Andare in **Impostazioni → [Il proprio nome] → iCloud → iCloud Drive**.
 - **Creare una nuova cassaforte in iCloud**:
     - Su macOS:
@@ -57,6 +57,9 @@ iCloud può essere utilizzato per sincronizzare le casseforti tra iOS e macOS. T
         2. Inserire un nome per la cassaforte.
         3. Attivare **Archivia in iCloud**.
         4. Toccare **Crea**.
+- **Mantenere la cartella della cassaforte scaricata** (opzionale, ma fortemente consigliato per mantenere tempi di caricamento rapidi):
+    - Su macOS 15 (Sequoia) e successivi: Fare clic destro sulla cartella **Obsidian** in iCloud Drive e selezionare **Mantieni scaricato**.
+    - Su macOS 14 (Sonoma) e precedenti: Disabilitare **Ottimizza archiviazione Mac** nelle impostazioni di iCloud. Questa impostazione influisce su tutto lo spazio di archiviazione iCloud sul dispositivo, non solo su Obsidian.
 - **Aprire la cassaforte su un altro dispositivo Apple**:
     - Su un altro dispositivo macOS o iOS, aprire **Obsidian**, andare al [[Gestisci casseforti|Selettore cassaforti]] e selezionare **Apri cartella come vault**. Navigare fino a **iCloud Drive → Obsidian**.
 
@@ -68,10 +71,6 @@ iCloud può essere utilizzato per sincronizzare le casseforti tra iOS e macOS. T
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Per verificare la posizione della cassaforte, aprire l'app **File**, toccare **Sfoglia**, selezionare **iCloud Drive** sotto **Posizioni** e confermare che la cassaforte si trovi all'interno della cartella **Obsidian**. Se la cassaforte si trova in una posizione diversa, si potrebbero riscontrare problemi di sincronizzazione.
-
-> [!tip] Buone pratiche
-> - Per **macOS 14 (Sonoma) e precedenti**: Disabilitare **Ottimizza archiviazione Mac** nelle impostazioni di iCloud per evitare che i file vengano scaricati dal dispositivo. Questa impostazione influisce su tutto lo spazio di archiviazione iCloud sul dispositivo, non solo su Obsidian.
-> - Per **macOS 15 (Sequoia)**: Fare clic destro sulla cartella **Obsidian** in iCloud Drive e selezionare **Mantieni scaricato**.
 
 ## OneDrive
 

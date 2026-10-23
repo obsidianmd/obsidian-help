@@ -1,0 +1,215 @@
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=Creează un token de acces personal Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=Importă datele tale Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=Opțiuni de import
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Configurează cum sunt importate câmpurile Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=Ce se importă
+
+[heading.import/Limitations]
+original=Limitations
+translation=Limitări
+
+[heading.import/Before you start]
+original=Before you start
+translation=Înainte de a începe
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=Importă graful tău Logseq
+
+[heading.import/Settings]
+original=Settings
+translation=Setări
+
+[heading.import/Journals]
+original=Journals
+translation=Jurnale
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=Aplatizează structurile ierarhice
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=Păstrează datele incompatibile
+
+[heading.import/Templates]
+original=Templates
+translation=Șabloane
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=Depanare
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=Localizează fișierele cu notițe
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=Importă notițele din Tomboy sau Gnote
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=Editează șablonul de import
+
+[heading.import/Preview results]
+original=Preview results
+translation=Previzualizează rezultatele
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=Sintaxa șabloanelor
+
+[heading.import/Variables]
+original=Variables
+translation=Variabile
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=Valorile sursei pentru proprietăți
+
+[heading.import/Example template]
+original=Example template
+translation=Exemplu de șablon
+
+[heading.community-directory/Header]
+original=Header
+translation=Antet
+
+[heading.community-directory/Overview]
+original=Overview
+translation=Prezentare generală
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=Fișă de evaluare
+
+[heading.community-directory/Updates]
+original=Updates
+translation=Actualizări
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=Bara laterală
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=Întrebări frecvente
+
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Grupează cardurile în coloane
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Lucrează cu carduri și coloane
+
+[heading.bases/Settings]
+original=Settings
+translation=Setări
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Ascunde coloanele goale
+
+[heading.bases/Column width]
+original=Column width
+translation=Lățimea coloanei
+
+[heading.bases/Image property]
+original=Image property
+translation=Proprietate imagine
+
+[heading.bases/Image fit]
+original=Image fit
+translation=Încadrare imagine
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=Raport de aspect imagine
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Deschide meniul
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vizualizare și aspect
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gestionează notița
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Căutare
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Căi, istoric și vizualizări legate
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Computerul tău
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Meniul filei
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Deschide căutare și înlocuire
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Găsește potriviri
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Înlocuiește potriviri
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Deschide un PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navighează într-un PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Schimbă aspectul unui PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Caută într-un PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Copiază text dintr-un PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Încorporează un PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Exportă o notiță ca PDF

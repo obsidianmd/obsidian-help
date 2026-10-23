@@ -16,6 +16,7 @@ V desktopovej aplikácii Obsidian pracovný priestor zahŕňa:
     - [[Bočný panel#Karty|Karty bočného panela]]
 - [[Karty#Organizácia kariet a okien|Skupiny kariet]] v centrálnej oblasti obsahu (možno ich rozdeliť vertikálne alebo horizontálne)
     - [[Karty]]
+    - [[Ponuka ďalších možností]] v pravom hornom rohu každej poznámky
 - [[Stavový riadok]] v pravom dolnom rohu
 
 ## Mobil
@@ -23,6 +24,7 @@ V desktopovej aplikácii Obsidian pracovný priestor zahŕňa:
 V mobilnej aplikácii Obsidian pracovný priestor zahŕňa:
 
 - [[Karty]] spravované z počítadla kariet v [[Mobilná aplikácia#Navigačný panel|Navigačnom paneli]]
+- [[Ponuka ďalších možností#Mobil|Ponuka ďalších možností]] pre aktívnu poznámku
 - [[Bočný panel|Bočné panely]] (otvárajú sa gestami potiahnutia doľava a doprava)
 - [[Mobilná aplikácia#Navigačný panel|Navigačný panel]] v spodnej časti obrazovky
 - [[Panel nástrojov|Konfigurácia panelu nástrojov]] v Navigačnom paneli (obsahuje prispôsobiteľné akcie)

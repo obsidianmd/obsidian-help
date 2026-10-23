@@ -47,7 +47,7 @@ Możesz używać [[Podstawowa składnia formatowania|podstawowej składni format
 
 | Pierwsza kolumna         | Druga kolumna                                      |
 | ------------------------ | -------------------------------------------------- |
-| [[Łącza wewnętrzne]]    | Link do pliku _wewnątrz_ Twojego **skarbca**.      |
+| [[Łącza wewnętrzne]]    | Link do pliku _wewnątrz_ Twojego **sejfu**.      |
 | [[Osadzanie plików]]    | ![[Engelbart.jpg\|100]]                             |
 
 > [!note] Pionowe kreski w tabelach
@@ -139,7 +139,7 @@ class Biology,Chemistry internal-link;
 ```
 
 > [!note] Informacja
-> Łącza wewnętrzne z diagramów nie pojawiają się w [[Podgląd grafu|widoku grafu]].
+> Łącza wewnętrzne z diagramów nie pojawiają się w [[Podgląd grafu|podglądu grafu]].
 
 Jeśli masz wiele węzłów w diagramach, możesz użyć następującego fragmentu.
 

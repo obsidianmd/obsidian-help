@@ -85,14 +85,14 @@ Para definir uma frase de destaque personalizada, crie o seguinte bloco CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 O valor do atributo `data-callout` é o identificador de tipo que você deseja usar, por exemplo `[!custom-question-type]`.
 
-- `--callout-color` define a cor de fundo usando números (0–255) para vermelho, verde e azul.
+- `--callout-color` define a cor de fundo. Qualquer cor CSS válida funciona, por exemplo um código hexadecimal (`#000000`) ou um valor `rgb()`.
 - `--callout-icon` pode ser um ID de ícone do [lucide.dev](https://lucide.dev), ou um elemento SVG.
 
 > [!warning] Nota sobre versões de ícones lucide
@@ -105,6 +105,28 @@ O valor do atributo `data-callout` é o identificador de tipo que você deseja u
 > ```css
 > --callout-icon: '<svg>...svg personalizado...</svg>';
 > ```
+
+> [!tip]- Personalização avançada
+> Você não está limitado a `--callout-color` e `--callout-icon`. Frases de destaque suportam seletores e propriedades CSS padrão, além de variáveis CSS adicionais para coisas como borda e estilização do título.
+> 
+> Por exemplo, ocultar o título de uma frase de destaque:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Ou ajustar sua borda:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Consulte a lista completa de [variáveis CSS de frases de destaque](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) para mais opções.
 
 ### Tipos suportados
 

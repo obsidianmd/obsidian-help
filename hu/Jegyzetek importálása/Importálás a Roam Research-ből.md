@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi, hogy könnyedén átköltöztesd jegyzeteidet a Roam Research-ből az [[Importáló|Importáló bővítmény]] segítségével. Ez átalakítja a Roam adataidat tartós Markdown fájlokká, amelyeket az Obsidiannal és számos más alkalmazással is használhatsz.
 

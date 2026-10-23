@@ -8,6 +8,8 @@ Topluluk tarafından oluşturulmuş temaları kullanarak Obsidian'ın görünüm
 1. **[[Ayarlar]]**'ı açın.
 2. **Görünüm → Temalar** altında, mevcut tüm topluluk temalarını listelemek için **Yönet**'i seçin.
 
+Mevcut temaları tarayıcınızda [community.obsidian.md](https://community.obsidian.md) adresine giderek de inceleyebilirsiniz. Bir temanın listeleme sayfasının neleri gösterdiği hakkında daha fazla bilgi için [[Topluluk dizini]] sayfasına bakın.
+
 ## Yeni bir tema yükleme
 
 1. **[[Ayarlar]]**'ı açın.

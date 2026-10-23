@@ -2,10 +2,7 @@
 permalink: web-clipper/logic
 description: 'Sử dụng câu lệnh điều kiện, vòng lặp và gán biến trong các mẫu Web Clipper.'
 ---
-[[Giới thiệu về Obsidian Web Clipper|Web Clipper]] hỗ trợ logic mẫu cho điều kiện, vòng lặp và gán biến. Cú pháp này được lấy cảm hứng từ các ngôn ngữ mẫu [Twig](https://twig.symfony.com/) và [Liquid](https://shopify.github.io/liquid/).
-
-> [!warning] Yêu cầu phiên bản mới nhất
-> Các tính năng logic yêu cầu Obsidian Web Clipper 1.0.0 chưa được phê duyệt trên tất cả các cửa hàng tiện ích mở rộng.
+[[Giới thiệu về Obsidian Web Clipper|Web Clipper]] hỗ trợ logic mẫu cho điều kiện, vòng lặp và gán biến. Cú pháp này được gọi là [Knap](https://github.com/obsidianmd/knap).
 
 ## Điều kiện
 

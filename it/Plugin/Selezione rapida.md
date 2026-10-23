@@ -20,9 +20,8 @@ Ci sono diversi modi per aprire la Selezione rapida, quando è abilitata:
 3. Naviga fino alla nota usando i tasti freccia.
 4. Premi `Invio` per aprire la nota selezionata.
 
-> [!info] 
-> La funzionalità di completamento automatico passa a un algoritmo di risultati più semplice quando la cassaforte raggiunge 10.000 elementi per mantenere prestazioni ottimali dell'applicazione. 
-^search-autocomplete-large
+> [!info] Corrispondenza approssimativa
+> I suggerimenti dei file corrispondono alle lettere in ordine, anche se ne salti alcune. Ad esempio, `ng` può corrispondere a `Nota giornaliera`.
 
 Se il testo non corrisponde a nessuna nota, puoi premere `Invio` per creare una nota con quel nome. Anche se il testo corrisponde a una o più note simili, puoi comunque creare una nota con il nome esatto premendo `Maiusc+Invio`.
 

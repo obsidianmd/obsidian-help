@@ -16,6 +16,7 @@ A l'aplicació d'escriptori d'Obsidian, l'espai de treball inclou:
     - [[Barra lateral#Pestanyes|Pestanyes de la barra lateral]]
 - [[Pestanyes#Organitza les teves pestanyes i finestres|Grups de pestanyes]] a l'àrea de contingut central (es poden dividir verticalment o horitzontalment)
     - [[Pestanyes]]
+    - [[Menú de més opcions]] a la cantonada superior dreta de cada nota
 - [[Barra d'estat]] a la cantonada inferior dreta
 
 ## Mòbil
@@ -23,6 +24,7 @@ A l'aplicació d'escriptori d'Obsidian, l'espai de treball inclou:
 A l'aplicació mòbil d'Obsidian, l'espai de treball inclou:
 
 - [[Pestanyes]] gestionades des del comptador de pestanyes a la [[Aplicació mòbil#Barra de navegació|Barra de navegació]]
+- [[Menú de més opcions#Mòbil|Menú de més opcions]] per a la nota activa
 - [[Barra lateral|Barres laterals]] (s'obren amb gestos de lliscar a l'esquerra i a la dreta)
 - [[Aplicació mòbil#Barra de navegació|Barra de navegació]] a la part inferior de la pantalla
 - [[Cinta|Menú de la cinta]] a la barra de navegació (conté accions personalitzables)

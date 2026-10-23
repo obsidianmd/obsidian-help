@@ -8,9 +8,9 @@ Obsidian oferuje obecnie dwa rodzaje zniżek: edukacyjną i dla organizacji non-
 ## Jak złożyć wniosek
 
 1. Przejdź do [panelu swojego konta](https://obsidian.md/account/billing).
-2. W sekcji **Billing** znajdź sekcję **Discount** i kliknij link **Apply**.
+2. W sekcji **Rozliczenia** znajdź sekcję **Zniżka** i kliknij link **Zastosuj**.
 3. Wybierz rodzaj zniżki odpowiedni do Twojej sytuacji, podaj swój **adres e-mail uczelni lub organizacji** (nie adres e-mail konta).
-4. Kliknij **Send application**.
+4. Kliknij **Wyślij wniosek**.
 5. Na skrzynce e-mail uczelni lub organizacji powinieneś otrzymać od nas wiadomość z prośbą o weryfikację adresu e-mail. Kliknij link, aby go zweryfikować.
 6. Zniżka może zostać przyznana natychmiast. Jeśli nie, nasz zespół postara się rozpatrzyć Twój wniosek w ciągu 3 dni roboczych.
 7. Otrzymasz wiadomość e-mail, gdy Twoja zniżka zostanie zatwierdzona.
@@ -19,7 +19,7 @@ Gratulacje! Teraz zobaczysz zniżkę przy próbie zakupu Obsidian Sync lub Publi
 
 ## Jak odnowić
 
-Gdy masz aktywną zniżkę, możesz sprawdzić datę jej wygaśnięcia w sekcji **Billing → Discount** na [swoim koncie](https://obsidian.md/account/billing).
+Gdy masz aktywną zniżkę, możesz sprawdzić datę jej wygaśnięcia w sekcji **Rozliczenia → Zniżka** na [swoim koncie](https://obsidian.md/account/billing).
 
 Tydzień przed wygaśnięciem zniżki otrzymasz e-mail z przypomnieniem o odnowieniu. Możesz wykonać te same kroki opisane w sekcji „[[#Jak złożyć wniosek]]", aby odnowić zniżkę, jeśli nadal się kwalifikujesz.
 

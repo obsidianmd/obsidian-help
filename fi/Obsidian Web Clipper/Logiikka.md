@@ -4,9 +4,6 @@ description: 'Käytä ehtolauseita, silmukoita ja muuttujien määrittelyä Web 
 ---
 [[Johdanto Obsidian Web Clipperiin|Web Clipper]] tukee mallinelogiikkaa ehdollisille rakenteille, silmukoille ja muuttujien määrittämiselle. Tämä syntaksi on saanut inspiraationsa [Twig](https://twig.symfony.com/)- ja [Liquid](https://shopify.github.io/liquid/)-mallinekielistä.
 
-> [!warning] Vaatii uusimman version
-> Logiikkaominaisuudet vaativat Obsidian Web Clipper 1.0.0 -version, jota ei ole vielä hyväksytty kaikissa laajennuskaupoissa.
-
 ## Ehdolliset rakenteet
 
 Käytä `{% if %}`-rakennetta sisällyttääksesi sisältöä ehdollisesti muuttujien tai lausekkeiden perusteella.

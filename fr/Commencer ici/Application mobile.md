@@ -2,11 +2,10 @@
 permalink: mobile
 cssclasses:
   - list-cards
-description: Découvrez les fonctionnalités spécifiques aux appareils mobiles dans Obsidian, notamment la barre d'outils mobile, les actions rapides et la barre de navigation.
+description: 'Découvrez les fonctionnalités spécifiques aux appareils mobiles dans Obsidian, notamment la barre d''outils mobile, les actions rapides et la barre de navigation.'
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 Les applications mobiles Obsidian sont disponibles pour [[Obsidian pour iOS et iPadOS|iOS et iPadOS]] et [[Obsidian pour Android|Android]]. Vous pouvez les télécharger depuis l'[Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) et [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 
@@ -31,25 +30,20 @@ Lorsque vous éditez une note, vous remarquerez une rangée d'icônes en bas de 
 
 ### Personnaliser la barre d'outils mobile
 
-Dans la barre d'outils mobile, appuyez sur **Configurer la barre d'outils mobile** ![[lucide-wrench.svg#icon]] pour ouvrir l'interface de personnalisation.
+Dans la barre d'outils mobile, sélectionnez **Configurer la barre d'outils mobile** ![[lucide-wrench.svg#icon]] pour ouvrir ses paramètres.
 
-Vous pouvez également le faire dans les Paramètres.
+Vous pouvez également ouvrir **[[Paramètres]] → Interface → Configurer la barre d'outils mobile**.
 
-1. Ouvrez les Paramètres.
-2. Choisissez **Mobile**.
-3. Sous **Gérer les options de la barre d'outils**, ajoutez, supprimez ou réorganisez les options disponibles.
+Sous **Gérer les options de la barre d'outils**, utilisez les poignées pour réorganiser les actions et les boutons de suppression pour les retirer. Sélectionnez une action sous **Plus d'options de barre d'outils** pour l'ajouter.
 
 ### Ajouter une commande à la barre d'outils mobile
 
-Par défaut, les options disponibles pour être ajoutées à la barre d'outils sont des options d'édition comme « Ajouter un lien interne » ou « Ajouter un mot-clé ».
+En plus des actions d'édition, vous pouvez ajouter des commandes globales comme **Changer de thème**.
 
-En plus de cela, vous pouvez ajouter des commandes globales comme « Changer de thème ».
-
-1. Trouvez **Gérer les options de la barre d'outils** sous **[[Paramètres]]** → **Mobile**.
-2. Faites défiler jusqu'en bas, trouvez **Ajouter une commande globale**.
-3. Saisissez le nom de la commande que vous souhaitez ajouter.
-4. Sélectionnez la commande que vous souhaitez ajouter.
-5. La nouvelle commande est ajoutée à la fin de la barre d'outils.
+1. Ouvrez **[[Paramètres]] → Interface → Configurer la barre d'outils mobile**.
+2. Sous **Gérer les options de la barre d'outils**, sélectionnez **Ajouter une commande…**.
+3. Recherchez la commande que vous souhaitez ajouter.
+4. Sélectionnez la commande pour l'ajouter à la fin de la barre d'outils.
 
 ## Action rapide
 
@@ -60,7 +54,7 @@ L'action rapide ouvre par défaut la [[Palette de commandes]].
 ### Personnaliser l'action rapide
 
 1. Ouvrez les Paramètres.
-2. Sous **Options**, choisissez **Barre d'outils**.
+2. Choisissez **Interface**.
 3. Sous **Configurer l'action rapide mobile**, appuyez sur **Configurer**.
 4. Saisissez le nom de la commande.
 5. Sélectionnez la commande que vous souhaitez définir.

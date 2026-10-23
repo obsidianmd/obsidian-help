@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 Obsidian et permet migrar fàcilment les teves notes des d'Apple Notes utilitzant el [[Importador|connector Importador]]. Això convertirà les teves dades d'Apple Notes a fitxers Markdown duradors, que pots utilitzar amb Obsidian i moltes altres aplicacions.
 

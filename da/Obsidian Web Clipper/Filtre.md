@@ -102,6 +102,13 @@ Fjerner hvidt mellemrum fra begge ender af en streng.
 
 - `"  hello world  "|trim` returnerer `"hello world"`.
 
+### `unescape`
+
+Konverterer escapede anførselstegn og linjeskiftsekvenser til bogstavelige tegn.
+
+- `"Line 1\\nLine 2"|unescape` returnerer teksten på to linjer.
+- `'He said \\"hello\\"'|unescape` returnerer `He said "hello"`.
+
 ### `uncamel`
 
 Konverterer camelCase eller PascalCase til mellemrumsseparerede ord, som du yderligere kan formatere med andre filtre som `title` eller `capitalize`.
@@ -157,7 +164,7 @@ Konverterer strenge, arrays eller objekter til Markdown-linksyntaks (må ikke fo
 
 - For strenge: `"url"|link:"author"` returnerer `[author](url)`.
 - For arrays: `["url1","url2"]|link:"author"` returnerer et array af Markdown-links med samme tekst for alle links.
-- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-links med tekst, der matcher objektets nøgler.
+- For objekter: `{"url1": "Author 1", "url2": "Author 2"}|link` returnerer Markdown-links med tekst der matcher objektets nøgler.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Returnerer længden af strenge, arrays eller antallet af nøgler i objekter.
 - For arrays: `["a","b","c"]|length` returnerer `3`.
 - For objekter: `{"a":1,"b":2}|length` returnerer `2`.
 
+### `number_format`
+
+Formaterer et tal med et angivet antal decimaler og valgfrie decimal- og tusindtals-separatorer.
+
+- `1234.567|number_format:2` returnerer `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` returnerer `"1.234,57"`.
+- Arrays og objekter formateres rekursivt.
+
 ### `round`
 
 Afrunder et tal til nærmeste heltal eller til et angivet antal decimaler.
@@ -216,6 +231,10 @@ Afrunder et tal til nærmeste heltal eller til et angivet antal decimaler.
 ## HTML-behandling
 
 Behandl HTML-indhold og konvertér HTML til Markdown. Bemærk at din input-[[Variabler|variabel]] skal indeholde HTML-indhold, f.eks. ved brug af `{{fullHtml}}`, `{{contentHtml}}` eller en `{{selectorHtml:}}`-variabel.
+
+### `html_to_json`
+
+Konverterer HTML til struktureret JSON, der indeholder hvert elements tag, attributter og børn. Tekstnoder bruger formatet `{"type":"text","content":"..."}`. Dette kan kombineres med filtre som `map`, `object` og `template` til at omforme udtaget HTML.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Erstatter HTML-tags og bevarer indholdet og attributterne af tagget.
 Fjerner **alle** HTML-attributter fra en streng.
 
 - Brug `strip_attr:("class, id")` for at beholde specifikke attributter.
-- Eksempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerer `<div id="example">Content</div>`.
+- Eksempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerer `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -339,6 +358,13 @@ Manipulerer objektdata:
 - `object:keys` returnerer et array af objektets nøgler.
 - `object:values` returnerer et array af objektets værdier.
 - Eksempel: `{"a":1,"b":2}|object:array` returnerer `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Vender strenge, arrays og rækkefølgen af poster i objekter om.
+
+- `"abc"|reverse` returnerer `"cba"`.
+- `["a","b","c"]|reverse` returnerer `["c","b","a"]`.
 
 ### `slice`
 

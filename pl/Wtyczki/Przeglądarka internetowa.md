@@ -13,7 +13,7 @@ Kliknij ikonę okularów, aby wyświetlić wersję strony w postaci zwykłego te
 
 ## Zapisz w sejfie
 
-Kliknij ikonę więcej akcji, aby zapisać stronę internetową w skarbcu. Możesz dostosować lokalizację zapisu strony, przechodząc do **[[Ustawienia]]** → **Przeglądarka internetowa**.
+Kliknij ikonę więcej akcji, aby zapisać stronę internetową w sejfie. Możesz dostosować lokalizację zapisu strony, przechodząc do **[[Ustawienia]]** → **Przeglądarka internetowa**.
 
 ## Blokowanie reklam
 

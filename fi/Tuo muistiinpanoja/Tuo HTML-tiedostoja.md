@@ -1,5 +1,7 @@
 ---
 permalink: import/html
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa yksittäisten HTML-tiedostojen ja kokonaisten HTML-kansioiden tuomisen helposti virallisen [[Tuontityökalu|Tuontityökalu-lisäosan]] avulla. Tämä on hyödyllistä, jos haluat tallentaa kokonaisia verkkosivustoja [[Obsidian Flavored Markdown|Markdown]]-muotoon tai jos haluat tuoda tietoja työkalusta, joka vie HTML-muotoon.
 

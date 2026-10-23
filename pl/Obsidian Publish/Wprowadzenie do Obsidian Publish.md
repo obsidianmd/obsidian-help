@@ -8,7 +8,7 @@ cssclasses:
 
 Wybierz notatki, które chcesz udostępnić światu, naciśnij **Opublikuj**, a my umieścimy je pod adresem `publish.obsidian.md/your-site`
 
-Jeśli czytasz to na [help.obsidian.md](https://help.obsidian.md), to już przeglądasz stronę korzystającą z Obsidian Publish! Możesz zobaczyć skarbiec na [GitHub](https://github.com/obsidianmd/obsidian-docs).
+Jeśli czytasz to na [help.obsidian.md](https://help.obsidian.md), to już przeglądasz stronę korzystającą z Obsidian Publish! Możesz zobaczyć sejf na [GitHub](https://github.com/obsidianmd/obsidian-docs).
 
 ## Jak korzystać z Obsidian Publish
 

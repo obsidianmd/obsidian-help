@@ -11,7 +11,7 @@ Wyróżnienia mogą być zapisane w Obsidian za pomocą rozszerzenia. Opcje zakr
 
 ## Korzystanie z zakreślacza
 
-Zakreślacz może być używany na stronach internetowych na żywo lub w [[Czytnik|Czytniku]]. W widoku Czytnika zaznaczenie tekstu daje możliwość jego wyróżnienia.
+Zakreślacz może być używany na stronach internetowych lub w [[Czytnik|Czytniku]]. W widoku Czytnika zaznaczenie tekstu daje możliwość jego wyróżnienia.
 
 Możesz również automatycznie dodawać zaznaczenia do wyróżnień, aktywując zakreślacz:
 

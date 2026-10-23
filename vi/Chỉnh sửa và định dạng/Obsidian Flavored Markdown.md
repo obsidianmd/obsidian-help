@@ -36,3 +36,5 @@ Obsidian hỗ trợ [CommonMark](https://commonmark.org/), [GitHub Flavored Mark
 | `- [x]`         | [[Cú pháp định dạng cơ bản#Danh sách công việc\|Công việc đã hoàn thành]]         |
 | `> [!note]`     | [[Khung ghi chú]]                                                                  |
 | (xem liên kết) | [[Cú pháp định dạng nâng cao#Bảng\|Bảng]]                                         |
+
+Một số trong số này, chẳng hạn như liên kết nội bộ, bình luận và tô sáng, là đặc trưng của Obsidian. Các ứng dụng Markdown khác có thể hiển thị chúng dưới dạng văn bản thuần.

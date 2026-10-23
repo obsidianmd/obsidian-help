@@ -1,7 +1,9 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
-Obsidian cho phép bạn di chuyển ghi chú từ Craft. Quá trình này sẽ chuyển đổi dữ liệu Craft của bạn thành các tệp Markdown bền vững, mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
+Obsidian cho phép bạn di chuyển ghi chú từ Craft. Quá trình này chuyển đổi dữ liệu Craft của bạn thành các tệp Markdown bền vững mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
 
 ## Xuất dữ liệu từ Craft
 

@@ -201,7 +201,25 @@ views:
 - `name` es el nombre para mostrar, y se puede usar para definir la vista predeterminada.
 - `filters` son exactamente iguales que los descritos anteriormente, pero se aplican solo a la vista.
 - `groupBy` especifica una propiedad y dirección de ordenamiento. El valor de la propiedad especificada para cada fila se usa para colocar la fila en grupos.
+- `groupOrder` especifica el orden y la visibilidad de los grupos. Si está presente, solo se muestran los grupos cuyos valores están listados, en ese orden. Una lista vacía oculta todos los grupos. Elimina `groupOrder` para mostrar todos los grupos en el orden definido por `groupBy`.
 - `summaries` mapea nombres de propiedades a un resumen con nombre. Los resúmenes realizan una agregación sobre la propiedad a través de todas las filas.
+
+Por ejemplo, esta vista muestra solo los grupos Planned, In progress y Done, en ese orden:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Usa `null` en `groupOrder` para incluir archivos que no tienen valor para la propiedad agrupada.
 
 Las [[Vistas]] pueden añadir datos adicionales para almacenar cualquier información necesaria para mantener el estado o renderizar correctamente, sin embargo, los autores de complementos deben tener cuidado de no usar claves que ya estén en uso por el complemento principal de Bases. Como ejemplo, una vista de tabla puede usar esto para limitar el número de filas o para seleccionar qué columna se usa para ordenar filas y en qué dirección. Un tipo de vista diferente como un mapa podría usar esto para mapear qué propiedad de la nota corresponde a la latitud y longitud y qué propiedad debe mostrarse como título del pin.
 

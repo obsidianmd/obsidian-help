@@ -3,6 +3,8 @@ permalink: import/craft
 aliases:
   - Import from Craft
   - استيراد من Craft
+cssclasses:
+  - soft-embed
 ---
 يتيح لك Obsidian ترحيل ملاحظاتك من Craft. سيحوّل هذا بيانات Craft إلى ملفات Markdown متينة يمكنك استخدامها مع Obsidian والعديد من التطبيقات الأخرى.
 

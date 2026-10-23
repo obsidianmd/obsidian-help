@@ -71,9 +71,9 @@ tags:
 ```
 
 > [!warning]+ Vorlagen in der Quellcode-Ansicht bearbeiten
-> In der [[Ansichten und Bearbeitungsmodi#Live-Vorschau|Live-Vorschau]] kann das Panel **Eigenschaften im Dokument** Vorlagenvariablen überschreiben, die keine Anführungszeichen haben.
+> In der [[Ansichten und Bearbeitungsmodus#Live-Vorschau|Live-Vorschau]] kann das Panel **Eigenschaften im Dokument** Vorlagenvariablen überschreiben, die keine Anführungszeichen haben.
 >
-> Um dies zu vermeiden, bearbeite Vorlagen in der [[Ansichten und Bearbeitungsmodi#Quellcode-Ansicht|Quellcode-Ansicht]], oder setze **[[Einstellungen]] → Editor → [[Einstellungen#Eigenschaften im Dokument|Eigenschaften im Dokument]]** auf **Quelle**.
+> Um dies zu vermeiden, bearbeite Vorlagen in der [[Ansichten und Bearbeitungsmodus#Quellcode-Ansicht|Quellcode-Ansicht]], oder setze **[[Einstellungen]] → Editor → [[Einstellungen#Eigenschaften im Dokument|Eigenschaften im Dokument]]** auf **Quelle**.
 
 ## Eine Vorlage in die aktive Notiz einfügen
 

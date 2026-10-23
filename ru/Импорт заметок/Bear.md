@@ -2,6 +2,8 @@
 permalink: import/bear
 aliases:
   - Import from Bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian позволяет легко перенести ваши заметки из Bear с помощью [[Импортёр|плагина Импортёр]]. Это преобразует ваши данные Bear в долговечные файлы Markdown, которые вы сможете использовать с Obsidian и многими другими приложениями.
 

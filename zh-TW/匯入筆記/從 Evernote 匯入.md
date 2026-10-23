@@ -1,5 +1,7 @@
 ---
 permalink: import/evernote
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過[[匯入工具|匯入工具外掛]]輕鬆從 Evernote 遷移筆記。這會將你的 Evernote 資料轉換為持久的 Markdown 檔案，可供 Obsidian 及許多其他應用程式使用。
 

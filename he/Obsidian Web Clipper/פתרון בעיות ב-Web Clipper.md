@@ -31,6 +31,7 @@ Web Clipper משתמש ב-[Defuddle](https://github.com/kepano/defuddle) כדי 
 
 - ודאו שפרוטוקול [[Obsidian URI]] [[Obsidian URI#Register Obsidian URI|רשום]].
 - אם אתם משתמשים ב-Firefox ייתכן שתצטרכו [לרשום אותו בהגדרות הדפדפן](https://kb.mozillazine.org/Register_protocol).
+- אם אתם משתמשים ב-Flatpak, ייתכן שתצטרכו לעדכן את הערך `x-scheme-handler/obsidian` שנמצא בקובץ `.config/mimeapps.list` מ-`obsidian.desktop` ל-`md.obsidian.Obsidian.desktop`.
 
 #### Obsidian נפתח אבל רק שם הקובץ נשמר
 

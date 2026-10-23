@@ -46,7 +46,7 @@ iCloud dapat digunakan untuk menyinkronkan brankas antara iOS dan macOS. Namun, 
 **Cara membuat dan menyimpan brankas Anda di iCloud Drive**:
 
 - **Aktifkan iCloud Drive**:
-    - Di macOS: Buka **System Preferences → Apple ID → iCloud → iCloud Drive**.
+    - Di macOS: Buka **System Settings → Apple ID → iCloud → iCloud Drive**.
     - Di iOS: Buka **Settings → [Nama Anda] → iCloud → iCloud Drive**.
 - **Buat brankas baru di iCloud**:
     - Di macOS:
@@ -59,6 +59,9 @@ iCloud dapat digunakan untuk menyinkronkan brankas antara iOS dan macOS. Namun, 
         2. Masukkan nama untuk brankas Anda.
         3. Aktifkan **Store in iCloud**.
         4. Ketuk **Buat**.
+- **Simpan folder brankas agar tetap terunduh** (opsional, tetapi sangat disarankan agar waktu pemuatan tetap cepat):
+    - Di macOS 15 (Sequoia) dan yang lebih baru: Klik kanan folder **Obsidian** di iCloud Drive dan pilih **Keep Downloaded**.
+    - Di macOS 14 (Sonoma) dan sebelumnya: Nonaktifkan **Optimize Mac Storage** di pengaturan iCloud. Pengaturan ini memengaruhi semua penyimpanan iCloud di perangkat, bukan hanya Obsidian.
 - **Buka brankas di perangkat Apple lain**: 
     - Di perangkat macOS atau iOS lainnya, buka **Obsidian**, buka [[Kelola brankas|Peralih brankas]], dan pilih **Buka folder sebagai vault**. Navigasikan ke **iCloud Drive → Obsidian**.
 
@@ -70,10 +73,6 @@ iCloud dapat digunakan untuk menyinkronkan brankas antara iOS dan macOS. Namun, 
 > ![[iCloud-folder-location.png#interface]]
 > 
 > Untuk memverifikasi lokasi brankas Anda, buka aplikasi **Files**, ketuk **Telusuri**, pilih **iCloud Drive** di bawah **Locations**, dan konfirmasi brankas Anda berada di dalam folder **Obsidian**. Jika brankas Anda berada di lokasi yang berbeda, Anda mungkin mengalami masalah sinkronisasi.
-
-> [!tip] Praktik terbaik
-> - Untuk **macOS 14 (Sonoma) dan sebelumnya**: Nonaktifkan **Optimize Mac Storage** di pengaturan iCloud untuk mencegah file dipindahkan. Pengaturan ini memengaruhi semua penyimpanan iCloud di perangkat, bukan hanya Obsidian.
-> - Untuk **macOS 15 (Sequoia)**: Klik kanan folder **Obsidian** di iCloud Drive dan pilih **Keep Downloaded**.
 
 ## OneDrive
 

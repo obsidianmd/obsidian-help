@@ -13,11 +13,11 @@ Settings allow you to customize your Obsidian experience. Configure general opti
 
 ### Desktop
 
-In the [[Sidebar#Open hidden sidebars|left sidebar]], select **[[Settings]]** ![[lucide-cog.svg#icon]]. You can also open Settings with the [[Command palette]].
+In the [[Sidebar#Open hidden sidebars|sidebar]], select **[[Settings]]** ![[lucide-cog.svg#icon]]. You can also open Settings with the [[Command palette]].
 
 ### Mobile
 
-In the left sidebar, select **[[Settings]]** ![[lucide-cog.svg#icon]].
+In the sidebar, select **[[Settings]]** ![[lucide-cog.svg#icon]]. Settings open in a sheet over the app. 
 
 ## Settings organization
 
@@ -190,6 +190,8 @@ Where newly created notes are placed. Options include:
 - **Same folder as current file** — Notes are created in the same folder as the currently active note.
 - **In the folder specified below** — Notes are created in a specific folder you choose.
 
+This setting doesn't apply when an [[Internal links|internal link]] includes a folder path. For example, creating `[[Projects/Three laws of motion]]` creates the note in the `Projects` folder relative to the vault root.
+
 ### Default location for new attachments
 
 Where newly added [[Attachments|attachments]] are placed. Options include:
@@ -295,9 +297,11 @@ Set font for places like code blocks and frontmatter. Select **Manage** to choos
 
 Font size in pixels that affects editing and reading views. Adjust using the slider.
 
+Font size is saved separately on each device and does not sync through [[Introduction to Obsidian Sync|Obsidian Sync]]. On mobile, text and interface elements also scale with your system's preferred text size, including accessibility sizes.
+
 #### Quick font size adjustment
 
-Adjust the font size using `Ctrl+Scroll` (Windows/Linux) or `Cmd+Scroll` (macOS), or using the trackpad pinch-zoom gesture.
+Adjust the font size using `Ctrl+Scroll` (Windows/Linux) or `Cmd+Scroll` (macOS), or using the trackpad pinch-zoom gesture. You can also use **Increase font size** and **Decrease font size** in the [[Command palette]], or assign them [[Hotkeys|keyboard shortcuts]].
 
 ### Interface
 

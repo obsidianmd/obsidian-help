@@ -16,6 +16,7 @@ Trong ứng dụng Obsidian trên máy tính để bàn, không gian làm việc
     - [[Thanh bên#Các thẻ|Các thẻ thanh bên]]
 - [[Thẻ#Sắp xếp các thẻ và cửa sổ|Nhóm thẻ]] trong vùng nội dung trung tâm (có thể chia dọc hoặc ngang)
     - [[Thẻ]]
+    - [[Menu tùy chọn khác]] ở góc trên bên phải của mỗi ghi chú
 - [[Thanh trạng thái]] ở góc dưới bên phải
 
 ## Di động
@@ -23,6 +24,7 @@ Trong ứng dụng Obsidian trên máy tính để bàn, không gian làm việc
 Trong ứng dụng Obsidian trên di động, không gian làm việc bao gồm:
 
 - [[Thẻ]] được quản lý từ bộ đếm thẻ trong [[Ứng dụng di động#Thanh điều hướng|Thanh điều hướng]]
+- [[Menu tùy chọn khác#Di động|Menu tùy chọn khác]] cho ghi chú đang hoạt động
 - [[Thanh bên|Các thanh bên]] (mở bằng cử chỉ vuốt trái và phải)
 - [[Ứng dụng di động#Thanh điều hướng|Thanh điều hướng]] ở cuối màn hình
 - [[Thanh công cụ|Cấu hình Ribbon]] trong Thanh điều hướng (chứa các hành động có thể tùy chỉnh)

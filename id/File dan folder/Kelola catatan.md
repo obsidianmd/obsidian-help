@@ -22,6 +22,27 @@ Anda juga dapat membuat catatan menggunakan [[Penjelajah berkas#Buat catatan bar
 > Obsidian akan mematuhi batasan nama file dari sistem operasi tempat Anda membuat catatan. Jika Anda berencana untuk [[Sinkronisasi catatan antar perangkat|menyinkronkan catatan antar perangkat]], pastikan nama file Anda [aman untuk sistem operasi lain](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Buka file di luar brankas Anda
+
+Di desktop, Anda dapat membuka dan menyunting file Markdown individual di luar brankas Anda. File akan terbuka di jendela Anda saat ini dan tetap berada di lokasi aslinya.
+
+> [!note] Memerlukan Obsidian 1.14 dan penginstal terbaru
+> [[Perbarui Obsidian#Pembaruan penginstal|Perbarui penginstal Anda]] dengan mengunduh Obsidian dari [obsidian.md/download](https://obsidian.md/download) dan memasang ulang aplikasi.
+
+Untuk membuka file Markdown:
+
+1. Buka [[Palet perintah]].
+2. Pilih **Buka file dari luar brankas...**.
+3. Pilih file Markdown di komputer Anda.
+
+Anda juga dapat menggunakan menu **Buka dengan** dari sistem operasi Anda dan pilih **Obsidian**. Untuk membuka file Markdown di Obsidian secara bawaan, atur Obsidian sebagai aplikasi bawaan untuk file `.md`.
+
+Sematan gambar dan tautan ke file lokal lainnya diselesaikan secara relatif terhadap folder file Markdown. Gunakan [[Kerangka]] untuk menavigasi judul dan [[Tautan keluar]] untuk menelusuri file yang ditautkan.
+
+### Pratinjau file dengan Quick Look
+
+Di macOS, pilih file Markdown di Finder dan tekan `Space` untuk mempratinjaunya dengan **Quick Look**. Pratinjau Quick Look berfungsi bahkan saat Obsidian ditutup.
+
 ## Ganti nama catatan
 
 Untuk mengganti nama catatan yang aktif:

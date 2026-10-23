@@ -8,6 +8,7 @@ Các ứng dụng đến rồi đi, nhưng dữ liệu của bạn nên tồn t�
 ## Nhập từ các ứng dụng và định dạng tệp khác
 
 - <span class="icon-app icon-notion"></span> [[Nhập từ Notion|Notion]]
+- <span class="icon-app icon-airtable"></span> [[Nhập từ Airtable|Airtable]]
 - <span class="icon-app icon-onenote"></span> [[Nhập từ Microsoft OneNote|Microsoft OneNote]]
 - <span class="icon-app icon-evernote"></span> [[Nhập từ Evernote|Evernote]]
 - <span class="icon-app icon-apple-notes"></span> [[Nhập từ Apple Notes|Apple Notes]]
@@ -16,11 +17,12 @@ Các ứng dụng đến rồi đi, nhưng dữ liệu của bạn nên tồn t�
 - <span class="icon-app icon-bear"></span> [[Nhập từ Bear|Bear]]
 - <span class="icon-app icon-craft"></span> [[Nhập từ Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Nhập từ Roam Research|Roam Research]]
+- <span class="icon-app icon-logseq"></span> [[Nhập từ Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Nhập từ Tomboy và Gnote|Tomboy and Gnote]]
 - <span class="icon-app icon-html"></span> [[Nhập tệp HTML|Tệp HTML]]
 - <span class="icon-app icon-md"></span> [[Nhập tệp CSV]]
 - <span class="icon-app icon-md"></span> [[Nhập tệp Markdown|Tệp Markdown]]
 - <span class="icon-app icon-md"></span> [[Nhập tệp Textbundle|Tệp Textbundle]]
-- <span class="icon-app icon-md"></span> [[Nhập ghi chú Zettelkasten|Ghi chú Zettelkasten]]
 
 ## Thêm định dạng
 
@@ -30,7 +32,6 @@ Các hướng dẫn bổ sung đã được cộng đồng chia sẻ có thể g
 
 - [Day One](https://github.com/obsidianmd/obsidian-importer/issues/55)
 - [Diaro](https://github.com/obsidianmd/obsidian-importer/issues/38)
-- [Logseq](https://github.com/obsidianmd/obsidian-importer/issues/47)
 - [Remnote](https://forum.obsidian.md/t/can-anybody-help-with-migrating-remnote-to-obsidian/40156/2)
 - [Samsung Notes](https://github.com/obsidianmd/obsidian-importer/issues/307)
 - [TiddlyWiki](https://forum.obsidian.md/t/import-from-tiddlywiki-5-to-obsidian/731)

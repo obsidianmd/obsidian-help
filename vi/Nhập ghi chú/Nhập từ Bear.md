@@ -1,16 +1,25 @@
 ---
 permalink: import/bear
+cssclasses:
+  - soft-embed
 ---
-Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Bear bằng [[Trình nhập|plugin Trình nhập]]. Công cụ này sẽ chuyển đổi dữ liệu Bear của bạn sang các tệp Markdown bền vững, mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
+Obsidian cho phép bạn dễ dàng di chuyển ghi chú từ Bear bằng [[Trình nhập|plugin Trình nhập]]. Công cụ này sẽ chuyển đổi dữ liệu Bear của bạn sang các tệp Markdown bền vững mà bạn có thể sử dụng với Obsidian và nhiều ứng dụng khác.
 
 ## Xuất dữ liệu từ Bear
 
-Obsidian sử dụng định dạng sao lưu `.bear2bk` của Bear. Bạn có thể tìm hướng dẫn tạo bản sao lưu của Bear [trên trang web của Bear](https://bear.app/faq/backup-restore/).
+Obsidian có thể sử dụng các định dạng sao lưu `.bear2bk` hoặc `ApplicationData.zip` của Bear.
+
+### iOS
 
 1. Mở Bear.
-2. Tạo bản sao lưu
-	1. Trên macOS: **File** → **Backup notes**.
-	2. Trên iOS: nhấp vào menu thêm (⋮) ở đầu thanh bên và chọn **Backup all notes**.
+2. Đi tới **Settings** → **Advanced** → **Share Application Data**.
+3. Chọn vị trí cho tệp sao lưu của bạn.
+4. Bây giờ bạn sẽ có một tệp `ApplicationData.zip` chứa tất cả ghi chú của bạn.
+
+### macOS
+
+1. Mở Bear.
+2. Đi tới **File** → **Backup notes**.
 3. Chọn vị trí cho tệp sao lưu của bạn.
 4. Nhấp **Export notes**.
 5. Bây giờ bạn sẽ có một tệp `.bear2bk` chứa tất cả ghi chú của bạn.
@@ -23,7 +32,13 @@ Bạn sẽ cần plugin [[Trình nhập]] chính thức của Obsidian, bạn c�
 2. Đi tới **Phần mở rộng từ cộng đồng** và [cài đặt Trình nhập](obsidian://show-plugin?id=obsidian-importer).
 3. Kích hoạt plugin Trình nhập.
 4. Mở plugin **Trình nhập** bằng bảng lệnh hoặc biểu tượng trên thanh công cụ.
-5. Trong **Định dạng tệp** chọn **Bear (.bear2bk)**.
+5. Trong **Định dạng tệp** chọn **Bear (.bear2bk, .zip)**.
 6. Chọn vị trí tệp sao lưu Bear của bạn.
-7. Nhấp **Nhập** và đợi cho đến khi quá trình nhập hoàn tất.
-8. Vậy là xong!
+7. Chọn **Nhập** để xem lại mẫu được tạo và xem trước các ví dụ từ ghi chú của bạn.
+8. Chọn **Nhập** lần nữa và đợi cho đến khi quá trình nhập hoàn tất.
+
+## Mẫu
+
+Sử dụng [[Mẫu trình nhập|mẫu Trình nhập]] để cấu hình đầy đủ cách dữ liệu Bear của bạn được nhập.
+
+![[Mẫu trình nhập#Variables]]

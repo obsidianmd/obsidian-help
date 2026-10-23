@@ -2,11 +2,8 @@
 permalink: web-clipper/logic
 description: 'Gunakan kondisional, perulangan, dan penetapan variabel dalam templat Web Clipper.'
 ---
-[[Pengantar Obsidian Web Clipper|Web Clipper]] mendukung logika templat untuk kondisional, perulangan, dan penugasan variabel. Sintaksis ini terinspirasi dari bahasa templating [Twig](https://twig.symfony.com/) dan [Liquid](https://shopify.github.io/liquid/).
+[[Pengantar Obsidian Web Clipper|Web Clipper]] mendukung logika templat untuk kondisional, perulangan, dan penugasan variabel. Sintaksis ini disebut [Knap](https://github.com/obsidianmd/knap).
 
-
-> [!warning] Memerlukan versi terbaru
-> Fitur logika memerlukan Obsidian Web Clipper 1.0.0 yang belum disetujui di semua toko ekstensi.
 
 ## Kondisional
 

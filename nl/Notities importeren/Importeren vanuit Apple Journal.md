@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian laat je eenvoudig je dagboeknotities migreren vanuit Apple Journal met behulp van de [[Importeren|Importer-plug-in]].
 Hiermee worden je dagboeknotities omgezet naar duurzame Markdown-bestanden, die je kunt gebruiken met Obsidian en vele andere apps.

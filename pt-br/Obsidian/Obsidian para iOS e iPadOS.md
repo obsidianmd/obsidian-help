@@ -23,6 +23,7 @@ O Obsidian para iOS oferece vários widgets para realizar ações rápidas no se
 ### Widgets da Tela de Bloqueio e Central de Controle
 
 Os widgets da Tela de Bloqueio e Central de Controle permitem:
+- Abrir Captura Rápida
 - Criar uma nova nota
 - Abrir uma nota específica
 - Abrir nota diária
@@ -32,6 +33,7 @@ Os widgets da Tela de Bloqueio e Central de Controle permitem:
 ### Widgets da Tela Inicial
 
 Os widgets da Tela Inicial permitem:
+- Abrir Captura Rápida
 - Criar uma nota
 - Visualizar uma nota
 - Abrir sua nota diária
@@ -52,15 +54,85 @@ Opções de configuração do widget **Visualizar Nota**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Captura Rápida
+
+A Captura Rápida permite salvar texto no seu cofre a partir dos widgets da Tela de Bloqueio, Central de Controle, Tela Inicial ou Atalhos, sem esperar o cofre carregar. Dependendo do local de captura selecionado, a Captura Rápida pode criar uma nova nota ou adicionar o texto a uma nota existente.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Nota
+> A Captura Rápida requer o Obsidian 1.14 ou posterior e iOS ou iPadOS 26 ou posterior.
+
+Para capturar texto:
+
+1. Adicione o widget **Captura Rápida** à sua Tela de Bloqueio, Central de Controle ou Tela Inicial.
+2. Toque no widget para abrir a Captura Rápida.
+3. Insira seu texto.
+4. Para alterar onde o texto será salvo, toque no local de captura na parte superior da tela e selecione outro local.
+5. Toque na marca de verificação para salvar o texto.
+
+**Nota**: Se as Atividades ao Vivo estiverem ativadas, a nota de captura rápida também aparece na Tela de Bloqueio e, em modelos de iPhone compatíveis, na Dynamic Island. Toque na barra ou na Atividade ao Vivo para continuar editando.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Locais de captura
+
+Os locais de captura determinam onde a Captura Rápida salva seu texto. Um local de captura pode:
+
+- Criar uma nova nota em uma pasta selecionada, com um modelo opcional e nome de nota personalizado.
+- Adicionar o texto ao final ou início da sua nota diária.
+- Adicionar o texto ao final ou início de uma nota marcada.
+- Adicionar o texto ao final ou início de outra nota que você selecionar.
+
+Para criar um local de captura:
+1. Abra a Captura Rápida.
+2. Toque no local de captura na parte superior da tela.
+3. Toque no botão mais (+).
+4. Selecione um comportamento e configure quaisquer definições opcionais.
+5. Toque em **Salvar**.
+
+Você também pode usar **Abrir Nota após Captura** para escolher se o Obsidian abre a nota de destino após salvar a captura.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Modelos da Captura Rápida
+
+Você pode aplicar um modelo para formatar o texto capturado. Os modelos da Captura Rápida suportam os seguintes marcadores de posição:
+
+| Marcador de posição | Descrição |
+| --- | --- |
+| `{{content}}` | Texto capturado |
+| `{{date}}` | Data atual |
+| `{{time}}` | Hora atual |
+| `{{latitude}}` | Latitude atual |
+| `{{longitude}}` | Longitude atual |
+| `{{shortAddress}}` | Forma abreviada do endereço atual |
+| `{{fullAddress}}` | Endereço atual completo |
+| `{{googleMapsLink}}` | Link do Google Maps para a localização atual |
+| `{{appleMapsLink}}` | Link do Apple Maps para a localização atual |
+| `{{openStreetMapLink}}` | Link do OpenStreetMap para a localização atual |
+
+Para configurar um widget de Captura Rápida para um local de captura específico, use os passos em [[#Personalizando widgets]]. Os widgets da Tela Inicial podem exibir múltiplos locais de captura.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Atalhos
 
 O Obsidian se integra com o aplicativo Atalhos da Apple, permitindo criar automações poderosas. Os atalhos disponíveis incluem:
 
-- **Abrir uma nota** — Abrir uma nota específica no seu cofre
-- **Criar uma nova nota** — Criar uma nova nota no seu cofre
-- **Abrir nota diária** — Ir diretamente para a nota diária de hoje
+- **Captura Rápida** — Abrir a Captura Rápida usando um local de captura configurado
+- **Abrir Marcador** - Abrir uma nota marcada do seu cofre
+- **Abrir Nova Nota** — Criar uma nova nota no seu cofre
+- **Abrir Nota Diária** — Ir diretamente para a nota diária de hoje
 - **Capturar na Nota Diária** — Adicionar texto ao final ou início da nota diária sem abrir o aplicativo Obsidian
 - **Capturar no Marcador** — Adicionar texto ao final ou início de uma nota marcada sem abrir o aplicativo Obsidian
+- **Obter Nota Marcada** — Obtém o texto de uma nota marcada
+- **Obter Nota Diária** — Obtém o texto de uma nota diária
+- **Pesquisar Cofre** — Pesquisar seu cofre por uma palavra-chave
+- **Marcar Link** — Adicionar um link da web aos seus marcadores
+- **Abrir Obsidian** — Abre o Obsidian
 
 Os atalhos de captura são particularmente úteis para anotações rápidas, pois permitem adicionar conteúdo a uma nota em segundo plano.
 
@@ -147,6 +219,7 @@ Marcadores de posição de modelo suportados:
 | `{{published: YYYY-MM-DD}}` | Data de publicação usando um formato de data personalizado |
 | `{{site}}` | Nome do site |
 | `{{title}}` | Título do artigo |
+| `{{url}}` | URL do artigo |
 | `{{wordCount}}` | Número total de palavras no conteúdo extraído |
 
 Você também pode usar marcadores de posição padrão de data e hora do modelo:

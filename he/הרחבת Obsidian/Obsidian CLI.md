@@ -1484,8 +1484,6 @@ code=<javascript>  # (חובה) קוד JavaScript להרצה
 
 ### Windows
 
-Obsidian CLI ב-Windows דורש תוכנית התקנה של Obsidian 1.12.7+. ראו [[עדכון Obsidian|עדכון גרסת תוכנית ההתקנה]].
-
 Windows משתמש במפנה טרמינל שמחבר את Obsidian ל-stdin/stdout כראוי. זה הכרחי מכיוון ש-Obsidian בדרך כלל פועל כאפליקציית GUI שאינה תואמת לפלטי טרמינל ב-Windows. כאשר אתם מתקינים Obsidian 1.12.7+ מפנה הטרמינל `Obsidian.com` יתווסף לתיקייה בה התקנתם את קובץ `Obsidian.exe`.
 
 רישום ה-CLI מוסיף את Obsidian למשתנה PATH של המשתמש שלכם, מה שנכנס לתוקף רק לאחר הפעלה מחדש של הטרמינל.

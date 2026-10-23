@@ -42,9 +42,9 @@ Możesz sprawdzić, ile czasu zajmuje uruchomienie Obsidian, korzystając z funk
 3. Pojawi się okno **Czas uruchamiania** ze szczegółowymi informacjami o czasie:
    - **Całkowity czas uruchamiania aplikacji**: Ogólny czas uruchomienia.
    - **Inicjalizacja**: Czas poświęcony na ładowanie samej aplikacji.
-   - **Skarbiec**: Czas ładowania plików skarbca.
-   - **Obszar roboczy**: Czas przywracania kart i układu.
-   - **Wbudowane wtyczki**: Czas wykorzystany przez aktywne wtyczki podstawowe.
+   - **Sejf**: Czas ładowania plików sejfu.
+   - **Przestrzeń robocza**: Czas przywracania kart i układu.
+   - **Wbudowane wtyczki**: Czas wykorzystany przez aktywne wbudowane wtyczki.
 4. Możesz wybrać **Kopiuj do schowka**, aby skopiować raport do celów rozwiązywania problemów lub udostępnienia.
 
 Dodatkowo możesz włączyć opcję **Informuj, jeśli uruchamianie trwa dłużej niż powinno**, aby otrzymywać ostrzeżenie, gdy uruchamianie jest nietypowo wolne.

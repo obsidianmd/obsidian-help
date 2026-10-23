@@ -54,6 +54,10 @@ translation=Visninger
 original=Cards view
 translation=Galleri
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-visning
+
 [file.bases/views/list]
 original=List view
 translation=Listevisning
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Fællesskabets adfærdskodeks
+
+[file.community-directory]
+original=Community directory
+translation=Fællesskabsbibliotek
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=Accepterede filformater
 original=Financial contributions
 translation=Økonomiske bidrag
 
+[file.find-and-replace]
+original=Find and replace
+translation=Find og erstat
+
 [file.folding]
 original=Folding
 translation=Foldning
@@ -173,6 +185,10 @@ translation=HTML-indhold
 [file.import]
 original=Import notes
 translation=Importér noter
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Importér fra Airtable
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Importér fra Google Keep
 original=Import HTML files
 translation=Importér HTML-filer
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importér fra Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Importér Markdown-filer
@@ -222,9 +242,17 @@ translation=Importér fra Microsoft OneNote
 original=Import from Roam Research
 translation=Importér fra Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Importér skabeloner
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Importér Textbundle-filer
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importér fra Tomboy og Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=Administrer bokse
 original=Mobile app
 translation=Mobilapp
 
+[file.more-options-menu]
+original=More options menu
+translation=Flere muligheder-menu
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Flere markører
@@ -281,6 +313,10 @@ translation=Officiel hjemmeside
 [file.payment]
 original=Introduction to licenses and payment
 translation=Introduktion til licenser og betaling
+
+[file.pdf]
+original=PDFs
+translation=PDF-filer
 
 [file.plugin-security]
 original=Plugin security

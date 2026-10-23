@@ -1,4 +1,5 @@
 // Locale UI strings — Norwegian
+window.LANG_SWITCHER_STRINGS = { search: "Bytt språk...", noResults: "Ingen resultater" };
 (function () {
   function apply() {
     var el;

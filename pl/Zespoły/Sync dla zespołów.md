@@ -13,9 +13,9 @@ Ponieważ Obsidian przechowuje dane w plikach zwykłego tekstu `.md`, dostępnyc
 
 ## Obsidian Sync dla zespołów
 
-Dzięki [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] możesz współpracować ze swoim zespołem nad wspólnym skarbcem.
+Dzięki [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] możesz współpracować ze swoim zespołem nad wspólnym sejfem.
 
-Wszyscy współpracownicy **muszą mieć aktywną subskrypcję Sync**, aby uzyskać dostęp do wspólnego skarbca. Dołączenie do wspólnego skarbca nie wlicza się do [[Plany i limity przechowywania#Plany|limitu zdalnych sejfów]]. Należy pamiętać, że Obsidian Sync nie jest objęty [[Licencja komercyjna|licencją komercyjną]] i musi być zakupiony oddzielnie.
+Wszyscy współpracownicy **muszą mieć aktywną subskrypcję Sync**, aby uzyskać dostęp do wspólnego sejfu. Dołączenie do wspólnego sejfu nie wlicza się do [[Plany i limity przechowywania#Plany|limitu zdalnych sejfów]]. Należy pamiętać, że Obsidian Sync nie jest objęty [[Licencja komercyjna|licencją komercyjną]] i musi być zakupiony oddzielnie.
 
 Jeśli zdalny sejf jest [[Obsidian Sync/Bezpieczeństwo i prywatność#Szyfrowanie|zaszyfrowany end-to-end]], współpracownicy muszą podać hasło szyfrowania przy pierwszym dostępie do wspólnego zdalnego sejfu.
 

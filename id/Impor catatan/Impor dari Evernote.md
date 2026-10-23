@@ -1,7 +1,9 @@
 ---
 permalink: import/evernote
+cssclasses:
+  - soft-embed
 ---
-Obsidian memudahkan Anda untuk memigrasikan catatan dari Evernote menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Evernote Anda ke file Markdown yang tahan lama, yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
+Obsidian memudahkan Anda untuk memigrasikan catatan dari Evernote menggunakan [[Impor|plugin Importer]]. Ini akan mengonversi data Evernote Anda ke file Markdown yang tahan lama yang dapat Anda gunakan dengan Obsidian dan banyak aplikasi lainnya.
 
 ## Ekspor data Anda dari Evernote
 
@@ -24,10 +26,10 @@ Anda memerlukan plugin resmi Obsidian [[Impor]], yang dapat Anda [pasang di sini
 4. Buka plugin **Importer** menggunakan palet perintah atau ikon bilah alat.
 5. Di bagian **Format file** pilih **Evernote (.enex)**.
 6. Pilih lokasi file cadangan Evernote Anda.
-7. Klik **Impor** dan tunggu hingga impor selesai.
-8. Selesai!
+7. Pilih **Impor** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari catatan Anda.
+8. Pilih **Impor** lagi dan tunggu hingga impor selesai.
 
-## Opsi impor lanjutan
+## Opsi impor
 
 ### Mempertahankan hierarki tag
 
@@ -52,6 +54,8 @@ Dengan asumsi Anda memiliki buku catatan bernama ```NotebookA``` dalam tumpukan 
 
 Hasilnya, catatan yang dikonversi akan dibuat di dalam folder Stack1/NotebookA.
 
-### Opsi lainnya
+## Templat
 
-Untuk opsi impor lanjutan lainnya dari Evernote, Anda juga dapat mencoba [mengimpor melalui Yarle](https://github.com/akosbalasko/yarle).
+Gunakan [[Template Importer|templat Importer]] untuk mengonfigurasi sepenuhnya cara data Evernote Anda diimpor.
+
+![[Template Importer#Variables]]

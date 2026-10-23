@@ -1,7 +1,9 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
-Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisi]]ni kullanarak notlarınızı Apple Notes'tan kolayca taşımanıza olanak tanır. Bu işlem, Apple Notes verilerinizi Obsidian ve diğer birçok uygulamayla kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürecektir.
+Obsidian, [[İçe aktarıcı|İçe aktarıcı eklentisi]]ni kullanarak notlarınızı Apple Notes'tan kolayca taşımanıza olanak tanır. Bu işlem, Apple Notes verilerinizi Obsidian ve diğer birçok uygulamayla kullanabileceğiniz dayanıklı Markdown dosyalarına dönüştürür.
 
 Şu anda İçe aktarıcı yalnızca macOS üzerinde Apple Notes'tan taşımayı desteklemektedir. iOS'ta henüz kullanılamamaktadır.
 
@@ -14,10 +16,14 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan i
 3. İçe aktarıcı eklentisini etkinleştirin.
 4. Komut paleti veya araç çubuğu simgesini kullanarak **İçe aktarıcı** eklentisini açın.
 5. **Dosya biçimi** altında **Apple Notes**'u seçin.
-6. **İçe aktar**'a tıklayın.
-7. `Obsidian'ın Apple Notes verilerini okumasına izin vermek için "group.com.apple.notes" klasörünü seçin` başlıklı açılır pencerede **Aç**'a tıklayın.
-8. İçe aktarma tamamlanana kadar bekleyin.
-9. İşlem tamamlandı!
+6. **İçe aktar**'ı seçin.
+7. `Obsidian'ın Apple Notes verilerini okumasına izin vermek için "group.com.apple.notes" klasörünü seçin` başlıklı açılır pencerede **Aç**'ı seçin.
+8. Oluşturulan şablonu ve notlarınızdan önizleme örneklerini gözden geçirin.
+9. **İçe aktar**'ı seçin ve içe aktarma işleminin tamamlanmasını bekleyin.
+
+## İçe aktarılan notları özelleştirme
+
+İçe aktarma başlamadan önce, İçe aktarıcı Apple Notes seçiminizden oluşturulan bir önizleme gösterir. Oluşturulan şablonu, özellikleri ve not adını düzenleyebilir veya kasanızdan bir Markdown şablonu seçebilirsiniz. Bkz. [[İçe aktarıcı şablonları]].
 
 ## Desteklenen içerik
 
@@ -34,11 +40,14 @@ Apple, taramaları nasıl oluşturulduklarına bağlı olarak çeşitli biçimle
 * macOS veya iOS'un yeni sürümlerinde oluşturulan veya görüntülenen taramalar genellikle kırpılmış görseller olarak dışa aktarılacaktır.
 * iOS 17'de tanıtılan özellikler kullanılarak düzenlenmiş taramalar genellikle PDF olarak dışa aktarılacaktır.
 
-## Alternatif dışa aktarma yöntemleri
+## Şablonlar
 
-Apple, notlarınızı dışa aktarmak için yerel bir seçenek sunmamaktadır. Ancak Chintan Ghate tarafından geliştirilen [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) gibi çeşitli üçüncü taraf araçlar mevcuttur. Çoğu aracın Apple Notes'tan dışa aktaracağı veriler konusunda sınırlı olduğunu ve en uyumlu çıktı verilerini sağlamayabileceğini lütfen unutmayın. Bu araçlar, Apple Notes'unuz ağırlıklı olarak yalnızca metin içeriyorsa ve çizimler ile taramalar gibi çok az ek veya özel özellik barındırıyorsa en iyi şekilde çalışır.
+Apple Notes verilerinizin nasıl içe aktarılacağını tam olarak yapılandırmak için [[İçe aktarıcı şablonları|İçe aktarıcı şablonlarını]] kullanın.
 
-Kullandığınız araca bağlı olarak dışa aktarma Markdown biçiminde veya HTML biçiminde olabilir. Dışa aktardığınız dosya biçimine göre talimatları izleyin:
+![[İçe aktarıcı şablonları#Değişkenler]]
 
-- [[HTML dosyalarını içe aktar]]
-- [[Markdown dosyalarını içe aktar]]
+Ek olarak Apple Notes aşağıdaki değişkeni sağlar.
+
+| Değişken       | Açıklama                       |
+| -------------- | ------------------------------ |
+| `{{isPinned}}` | Notun sabitlenip sabitlenmediği. |

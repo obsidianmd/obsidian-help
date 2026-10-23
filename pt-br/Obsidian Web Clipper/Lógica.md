@@ -4,9 +4,6 @@ description: 'Use condicionais, loops e atribuição de variáveis em modelos do
 ---
 O [[Introdução ao Obsidian Web Clipper|Web Clipper]] suporta lógica de modelos para condicionais, loops e atribuição de variáveis. Essa sintaxe é inspirada nas linguagens de modelagem [Twig](https://twig.symfony.com/) e [Liquid](https://shopify.github.io/liquid/).
 
-> [!warning] Requer a versão mais recente
-> Os recursos de lógica requerem o Obsidian Web Clipper 1.0.0, que ainda não foi aprovado em todas as lojas de extensões.
-
 ## Condicionais
 
 Use `{% if %}` para incluir conteúdo condicionalmente com base em variáveis ou expressões.

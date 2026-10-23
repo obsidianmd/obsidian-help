@@ -19,6 +19,27 @@ Du kan også opprette notater ved hjelp av [[Filutforsker#Opprett et nytt notat|
 > Obsidian respekterer filnavnbegrensningene til operativsystemet du oppretter notatet på. Hvis du planlegger å [[Synkroniser notatene dine på tvers av enheter|synkronisere notatene dine på tvers av enheter]], sørg for at filnavnene dine er [trygge for andre operativsystemer](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Åpne filer utenfor hvelvet
+
+På skrivebordet kan du åpne og redigere individuelle Markdown-filer utenfor hvelvet ditt. Filer åpnes i det gjeldende vinduet og forblir på sin opprinnelige plassering.
+
+> [!note] Krever Obsidian 1.14 og det nyeste installasjonsprogrammet
+> [[Oppdater Obsidian#Oppdateringer av installasjonsprogrammet|Oppdater installasjonsprogrammet ditt]] ved å laste ned Obsidian fra [obsidian.md/download](https://obsidian.md/download) og installere appen på nytt.
+
+For å åpne en Markdown-fil:
+
+1. Åpne [[Kommandovelger|kommandopaletten]].
+2. Velg **Åpne fil utenfor hvelvet...**.
+3. Velg en Markdown-fil på datamaskinen din.
+
+Du kan også bruke operativsystemets **Åpne med**-meny og velge **Obsidian**. For å åpne Markdown-filer i Obsidian som standard, sett det som standardappen for `.md`-filer.
+
+Bildeinnebygginger og lenker til andre lokale filer løses relativt til Markdown-filens mappe. Bruk [[Disposisjon]] for å navigere overskrifter og [[Utgående lenker]] for å bla gjennom lenkede filer.
+
+### Forhåndsvis filer med Quick Look
+
+På macOS kan du velge en Markdown-fil i Finder og trykke `Mellomrom` for å forhåndsvise den med **Quick Look**. Quick Look-forhåndsvisning fungerer selv når Obsidian er lukket.
+
 ## Gi nytt navn til et notat
 
 For å gi nytt navn til et aktivt notat:

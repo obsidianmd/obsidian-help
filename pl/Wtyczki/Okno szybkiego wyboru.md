@@ -18,9 +18,8 @@ Istnieje kilka sposobów na otwarcie Szybkiego przełącznika, gdy jest włączo
 3. Przejdź do notatki za pomocą klawiszy strzałek.
 4. Naciśnij `Enter`, aby otworzyć wybraną notatkę.
 
-> [!info] 
-> Funkcja autouzupełniania przełącza się na prostszy algorytm wyników, gdy skarbiec osiągnie 10 000 elementów, aby utrzymać optymalną wydajność aplikacji.
-^search-autocomplete-large
+> [!info] Dopasowanie rozmyte
+> Sugestie plików dopasowują litery w kolejności, nawet jeśli pominiesz niektóre z nich. Na przykład `dz` może dopasować `Dziennik`.
 
 Jeśli tekst nie pasuje do żadnej notatki, możesz nacisnąć `Enter`, aby utworzyć notatkę o takiej nazwie. Nawet jeśli tekst pasuje do jednej lub więcej podobnych notatek, nadal możesz utworzyć notatkę o dokładnie takiej nazwie, naciskając `Shift+Enter`.
 

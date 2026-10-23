@@ -80,9 +80,17 @@ Bunlar neyin atlandığını ve potansiyel olarak nedenini ayrıntılandıran me
 
 **Geçersiz ada sahip dosya indirilemiyor**
 
-Dosya, alıcı işletim sisteminde izin verilmeyen [özel karakter veya adlandırma kuralı](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) içeriyor. Kolaylık olması açısından, dosyayı kaynak cihazda `-` ve `_` dışındaki tüm özel karakterleri kaldıracak şekilde yeniden adlandırabilirsiniz.
+Dosya adı, alıcı işletim sisteminin depolayamadığı bir [özel karakter veya adlandırma kuralı](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) kullanıyor. Dosyayı kaynak cihazında yeniden adlandırın, ardından Sync'in yeniden adlandırılmış dosyayı tekrar yüklemesine izin verin.
 
-Bunun, Android cihazlarda adlarında birden fazla nokta `.` bulunan dosyaları da kapsadığını unutmayın.
+Farklı işletim sistemleri arasında senkronize edilen kasalar için dosya ve klasör adlarında aşağıdakilerden kaçının:
+
+- Dosya sistemleri tarafından yaygın olarak ayrılmış karakterler, örneğin `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` ve `|`
+- Adın sonunda boşluk veya nokta
+- Windows ayrılmış cihaz adları, örneğin `CON`, `PRN`, `AUX`, `NUL`, `COM1`'den `COM9`'a veya `LPT1`'den `LPT9`'a
+- Bağlantı dostu not adları istiyorsanız, Obsidian'ın bağlantılar için kullandığı karakterler, örneğin `#`, `^`, `[` ve `]`
+- Dosya adında birden fazla nokta `.` veya emoji; bunların her ikisini de bazı Android cihazlar reddedebilir
+
+Emin olmadığınızda harfler, sayılar, ad içinde normal boşluklar, tireler `-`, alt çizgiler `_` ve dosya uzantısından önce tek bir nokta kullanın.
 
 ### Hesap mesajları
 

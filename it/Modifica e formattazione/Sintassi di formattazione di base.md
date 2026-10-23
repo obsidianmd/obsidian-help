@@ -147,6 +147,23 @@ La formattazione può essere forzata a essere visualizzata come testo normale ag
 \**Questa riga sarà in corsivo e mostrerà gli asterischi*\*
 ```
 
+### Colori di evidenziazione
+
+L'evidenziazione supporta sei colori. Aggiungi un'emoji colore subito dopo l'apertura `==`:
+
+| Colore  | Esempio               |
+| ------ | --------------------- |
+| Rosso    | `==🔴Importante==`     |
+| Arancione | `==🟠Da seguire==`     |
+| Giallo | `==🟡Ricorda questo==` |
+| Verde  | `==🟢Completato==`     |
+| Blu   | `==🔵Riferimento==`     |
+| Viola | `==🟣Idea==`          |
+
+Senza un'emoji colore, l'evidenziazione usa il colore predefinito del tema.
+
+Puoi anche scegliere un colore dal menu di formattazione. Digitando `==` nell'editor vengono suggeriti i colori di evidenziazione. Nell'[[Viste e modalità di modifica#Anteprima dal vivo|anteprima dinamica]], posizionando il cursore all'interno di un'evidenziazione viene mostrato un campione di colore. Seleziona il campione per cambiare il colore.
+
 ## Collegamenti interni
 
 Obsidian supporta due formati per i [[Collegamenti interni|collegamenti interni]] tra le note:
@@ -477,6 +494,8 @@ Usa la [[Vista note a piè di pagina|vista Note a piè di pagina]] per vedere tu
 
 Puoi aggiungere commenti racchiudendo il testo con `%%`. I commenti sono visibili solo nella vista di modifica.
 
+La sintassi `%%` è specifica di Obsidian. Per nascondere il testo in altre app, usa un commento HTML, `<!-- -->`. Consulta [[Markdown stile Obsidian]] per le differenze tra la sintassi di Obsidian e il Markdown standard.
+
 ```md
 Questo è un commento %%inline%%.
 
@@ -486,6 +505,20 @@ Questo è un commento a blocco.
 I commenti a blocco possono estendersi su più righe.
 %%
 ```
+
+Un commento inline può apparire ovunque in una riga, incluso in un'intestazione, un elemento di elenco o nel testo in grassetto.
+
+Un commento a blocco inizia quando una riga comincia con `%%` e termina al successivo `%%`. Un commento a blocco può includere righe vuote e Markdown, come intestazioni ed elenchi. Obsidian nasconde tutto nella vista lettura.
+
+Il testo dopo il `%%` di chiusura rimane visibile e Obsidian ne renderizza il Markdown. Per esempio, `%%commento%% _corsivo_` lascia solo la parola _corsivo_, in corsivo.
+
+> [!warning]+ Chiudi sempre i commenti a blocco
+> Se inizi un commento a blocco senza mai chiuderlo, la vista lettura nasconde il resto della nota.
+
+> [!info]+ Mantieni i marcatori dei commenti semplici
+> Mantieni entrambi i marcatori di un commento inline sulla stessa riga e inizia un commento a blocco all'inizio di una riga.
+
+Per mostrare `%%` come testo, inseriscilo in uno span di codice oppure aggiungi una barra rovesciata prima di ogni marcatore.
 
 ## Escape della sintassi Markdown
 

@@ -84,7 +84,7 @@ tags:
 1. No menu lateral, selecione **Inserir modelo**.
 2. Selecione o modelo para inserir na posição do cursor na nota ativa.
 
-Para inserir um modelo usando a [[Paleta de comandos]] ou [[Atalhos#Definir um atalho|um atalho de teclado personalizado]], use o comando `Modelos: Inserir modelo`.
+Para inserir um modelo usando a [[Paleta de comandos]] ou [[Teclas de atalho#Definir um atalho|um atalho de teclado personalizado]], use o comando `Modelos: Inserir modelo`.
 
 O conteúdo do modelo é inserido na posição atual do cursor. Se o cursor não estiver no corpo da nota, o conteúdo é inserido na última posição do cursor.
 

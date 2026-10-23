@@ -20,9 +20,8 @@ Ada beberapa cara untuk membuka Peralih cepat, ketika diaktifkan:
 3. Navigasi ke catatan menggunakan tombol panah.
 4. Tekan `Enter` untuk membuka catatan yang dipilih.
 
-> [!info] 
-> Fungsi lengkapi otomatis beralih ke algoritma hasil yang lebih sederhana ketika brankas mencapai 10.000 item untuk mempertahankan kinerja aplikasi yang optimal. 
-^search-autocomplete-large
+> [!info] Pencocokan fuzzy
+> Saran file mencocokkan huruf secara berurutan, bahkan jika Anda melewatkan beberapa huruf. Misalnya, `ch` dapat mencocokkan `Catatan harian`.
 
 Jika teks tidak cocok dengan catatan apa pun, Anda dapat menekan `Enter` untuk membuat catatan dengan nama tersebut. Bahkan jika teks cocok dengan satu atau lebih catatan serupa, Anda tetap dapat membuat catatan dengan nama persis tersebut dengan menekan `Shift+Enter`.
 

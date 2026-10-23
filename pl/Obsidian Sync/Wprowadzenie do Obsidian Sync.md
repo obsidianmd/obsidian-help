@@ -14,7 +14,7 @@ description: 'Obsidian Sync to usługa dodatkowa, która umożliwia prywatną sy
 - [[Konfiguracja Obsidian Sync]]
 	- Skonfiguruj Sync na wszystkich swoich urządzeniach.
 - [[Przejście na Obsidian Sync|Przejście na Obsidian Sync]]
-	- Przygotuj swój skarbiec Obsidian do korzystania z Sync.
+	- Przygotuj swój sejf Obsidian do korzystania z Sync.
 - [[Opcje synchronizacji i synchronizacja selektywna|Synchronizacja selektywna]]
 	- Skonfiguruj, które pliki i ustawienia mają być synchronizowane.
 - [[Plany i limity przechowywania]]

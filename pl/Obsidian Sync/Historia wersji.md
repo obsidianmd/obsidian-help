@@ -15,19 +15,19 @@ Choć nie jest to część Obsidian Sync, na każdym urządzeniu dostępna jest 
 
 ## Historia synchronizacji
 
-Funkcja historii synchronizacji (lub paska bocznego synchronizacji), wprowadzona w Obsidian w wersji 1.7, pozwala szybko przeglądać ostatnio utworzone lub zmodyfikowane notatki i załączniki, które zostały zsynchronizowane. Można ją również traktować jako historię _edycji_.
+Funkcja historii synchronizacji (lub panelu bocznego synchronizacji), wprowadzona w Obsidian w wersji 1.7, pozwala szybko przeglądać ostatnio utworzone lub zmodyfikowane notatki i załączniki, które zostały zsynchronizowane. Można ją również traktować jako historię _edycji_.
 
-Na pasku bocznym możesz wybrać element, aby otworzyć jego plik w aktywnym oknie. Elementy mają również menu kontekstowe, umożliwiające wykonywanie działań takich jak przenoszenie pliku lub przeglądanie jego [[#Notatki i załączniki|Historii wersji]].
+Na panelu bocznym możesz wybrać element, aby otworzyć jego plik w aktywnym oknie. Elementy mają również menu kontekstowe, umożliwiające wykonywanie działań takich jak przenoszenie pliku lub przeglądanie jego [[#Notatki i załączniki|Historii wersji]].
 
 > [!compatibility] Funkcja dostępna tylko na komputerze
-> Gdy najedziesz kursorem na zsynchronizowany plik na pasku bocznym, możesz zobaczyć, kto ostatnio edytował plik. Jest to szczególnie przydatne, gdy [[Współpraca nad wspólnym sejfem|współpracujesz]] nad wspólnym sejfem.
+> Gdy najedziesz kursorem na zsynchronizowany plik na panelu bocznym, możesz zobaczyć, kto ostatnio edytował plik. Jest to szczególnie przydatne, gdy [[Współpraca nad wspólnym sejfem|współpracujesz]] nad wspólnym sejfem.
 
 > [!tip] 
-> Ustawienia i usunięte elementy nie pojawią się na pasku bocznym historii synchronizacji. Można je znaleźć w [[#Notatki i załączniki|Historii wersji]].
+> Ustawienia i usunięte elementy nie pojawią się na panelu bocznym historii synchronizacji. Można je znaleźć w [[#Notatki i załączniki|Historii wersji]].
 
 ### Pokaż historię synchronizacji
 
-Gdy włączysz wbudowaną wtyczkę [[Wprowadzenie do Obsidian Sync|Sync]], historia synchronizacji jest automatycznie włączona, ale domyślnie nie pojawia się na pasku bocznym. Musisz ją ręcznie dodać za pomocą polecenia lub skrótu klawiszowego.
+Gdy włączysz wbudowaną wtyczkę [[Wprowadzenie do Obsidian Sync|Sync]], historia synchronizacji jest automatycznie włączona, ale domyślnie nie pojawia się na panelu bocznym. Musisz ją ręcznie dodać za pomocą polecenia lub skrótu klawiszowego.
 
 #### Włączanie przez paletę poleceń
 
@@ -39,16 +39,16 @@ Gdy włączysz wbudowaną wtyczkę [[Wprowadzenie do Obsidian Sync|Sync]], histo
 2. Wpisz „Sync".
 3. Wybierz opcję „Sync: Show Sync history".
 
-Historia synchronizacji pojawi się na [[Pasek boczny|prawym pasku bocznym]].
+Historia synchronizacji pojawi się na [[Panel boczny|prawym panelu bocznym]].
 
 **Urządzenie mobilne** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Otwórz [[Menu wstążkowe]] ![[lucide-menu.svg#icon]].
+1. Otwórz [[Wstążka]] ![[lucide-menu.svg#icon]].
 2. Otwórz **Paletę poleceń**. ![[lucide-terminal.svg#icon]]
 3. Wpisz „Sync".
 4. Wybierz opcję „Sync: Show Sync history".
 
-Historia synchronizacji pojawi się jako opcja rozwijana na [[Pasek boczny|prawym pasku bocznym]].
+Historia synchronizacji pojawi się jako opcja rozwijana na [[Panel boczny|prawym panelu bocznym]].
 
 #### Włączanie przez skrót klawiszowy
 
@@ -74,12 +74,12 @@ Proces przywracania notatek i załączników jest taki sam.
 #### Wyświetlanie historii wersji pliku
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
 2. Wybierz **Otwórz historię wersji**.
 3. Wybierz wersję notatki, którą chcesz wyświetlić, po lewej stronie. Zawartość zostanie wyświetlona po prawej.
 
 **Urządzenie mobilne** ![[obsidian-icon-smartphone.svg#icon]]
-1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
 2. Przytrzymaj, aby wywołać menu kontekstowe.
 3. Wybierz **Otwórz historię wersji**.
 4. W wyskakującym menu wybierz wersję notatki, którą chcesz wyświetlić.
@@ -88,7 +88,7 @@ Proces przywracania notatek i załączników jest taki sam.
 #### Wyświetlanie historii wersji usuniętego lub przemianowanego pliku
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
+2. Na panelu bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
 3. Obok **Usunięte pliki** wybierz **Podgląd**.
 4. Wybierz notatkę, której historię wersji chcesz wyświetlić.
 5. W wyskakującym oknie historii wersji wybierz wersję notatki, którą chcesz wyświetlić, po lewej stronie.
@@ -96,14 +96,14 @@ Proces przywracania notatek i załączników jest taki sam.
 #### Przywracanie poprzedniej wersji pliku
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
 2. Wybierz **Otwórz historię wersji**.
 3. Wybierz wersję notatki, którą chcesz przywrócić, po lewej stronie. Zawartość zostanie wyświetlona po prawej.
 4. Wybierz przycisk **Przywróć**.
 5. Zawartość notatki zostanie zastąpiona przywróconą wersją.
 
 **Urządzenie mobilne** ![[obsidian-icon-smartphone.svg#icon]]
-1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
 2. Przytrzymaj, aby wywołać menu kontekstowe.
 3. Wybierz **Otwórz historię wersji**.
 4. W wyskakującym menu wybierz wersję notatki, którą chcesz przywrócić.
@@ -114,7 +114,7 @@ Proces przywracania notatek i załączników jest taki sam.
 #### Przywracanie usuniętego pliku
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
+2. Na panelu bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
 3. Obok **Usunięte pliki** wybierz **Podgląd**.
 4. Wybierz notatkę, którą chcesz przywrócić.
 5. Na liście wersji po lewej wybierz wersję, którą chcesz przywrócić.
@@ -130,7 +130,7 @@ Obsidian Sync śledzi również zmiany wprowadzone w ustawieniach konfiguracji s
 #### Wyświetlanie historii wersji ustawienia
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
+2. Na panelu bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
 3. Przejdź do sekcji **Synchronizacja ustawień sejfu**.
 4. Wybierz przycisk **Podgląd** obok **Historia wersji [[Ustawienia|ustawień]]**.
 5. W wyskakującym oknie **Plik [[Ustawienia|ustawień]]** wybierz plik ustawień, który chcesz wyświetlić.
@@ -138,7 +138,7 @@ Obsidian Sync śledzi również zmiany wprowadzone w ustawieniach konfiguracji s
 #### Przywracanie poprzedniej wersji ustawienia
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
+2. Na panelu bocznym, w sekcji **Wbudowane wtyczki**, wybierz **Sync**.
 3. Przejdź do sekcji **Synchronizacja ustawień sejfu**.
 4. Wybierz przycisk **Podgląd** obok **Historia wersji [[Ustawienia|ustawień]]**.
 5. W wyskakującym oknie **Plik [[Ustawienia|ustawień]]** wybierz plik ustawień, który chcesz wyświetlić.

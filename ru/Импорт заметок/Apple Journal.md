@@ -2,6 +2,8 @@
 permalink: import/apple-journal
 aliases:
   - Import from Apple Journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian позволяет легко перенести записи из Apple Journal с помощью [[Импортёр|плагина Импортёр]].
 Это преобразует ваши записи в надёжные файлы Markdown, которые можно использовать с Obsidian и многими другими приложениями.

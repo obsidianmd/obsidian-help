@@ -8,6 +8,8 @@ Dowiedz się, jak zmienić wygląd i styl Obsidian za pomocą motywów stworzony
 1. Otwórz **[[Ustawienia]]**.
 2. W sekcji **Wygląd → Motywy** wybierz **Zarządzaj**, aby wyświetlić listę wszystkich dostępnych motywów społeczności.
 
+Możesz również przeglądać dostępne motywy w przeglądarce, odwiedzając stronę [community.obsidian.md](https://community.obsidian.md). Aby dowiedzieć się więcej o tym, co zawiera strona motywu, zapoznaj się z [[Katalog społeczności]].
+
 ## Instalacja nowego motywu
 
 1. Otwórz **[[Ustawienia]]**.

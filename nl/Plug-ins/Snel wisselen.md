@@ -18,9 +18,8 @@ Er zijn verschillende manieren om Snel wisselen te openen wanneer het is ingesch
 3. Navigeer naar de notitie met de pijltjestoetsen.
 4. Druk op `Enter` om de geselecteerde notitie te openen.
 
-> [!info] 
-> De functie voor automatisch aanvullen schakelt over naar een eenvoudiger zoekalgoritme wanneer de kluis 10.000 items bereikt, om optimale applicatieprestaties te behouden. 
-^search-autocomplete-large
+> [!info] Fuzzy matching
+> Bestandssuggesties matchen letters op volgorde, zelfs als je sommige overslaat. Bijvoorbeeld, `dn` kan overeenkomen met `Dagelijkse notities`.
 
 Als de tekst niet overeenkomt met bestaande notities, kun je op `Enter` drukken om een notitie met die naam aan te maken. Zelfs als de tekst overeenkomt met een of meer vergelijkbare notities, kun je nog steeds een notitie met de exacte naam aanmaken door op `Shift+Enter` te drukken.
 

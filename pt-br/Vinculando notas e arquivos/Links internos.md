@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: true
-description: Aprenda como criar links para notas, anexos e outros arquivos a partir das suas notas, usando links internos.
+description: 'Aprenda como criar links para notas, anexos e outros arquivos a partir das suas notas, usando links internos.'
 aliases:
   - Vinculando notas e arquivos/Links internos
 ---
@@ -22,6 +22,10 @@ O Obsidian suporta os seguintes formatos de link:
 - Markdown: `[Three laws of motion](Three%20laws%20of%20motion)` ou `[Three laws of motion](Three%20laws%20of%20motion.md)`
 
 Os exemplos acima são equivalentes, e aparecem da mesma forma no editor e direcionam para a mesma nota.
+
+Para vincular a uma nota em uma pasta, inclua o caminho da pasta antes do nome da nota. Os caminhos de pasta começam na raiz do cofre e usam barras (`/`), mesmo no Windows: `[[Projects/Three laws of motion]]` ou `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Se o link apontar para uma nota que ainda não existe, o Obsidian criará a nota nesse caminho de pasta em vez de usar sua [[Configurações#Local padrão para novas notas|localização padrão para novas notas]].
 
 > [!note] Nota
 > Ao usar o formato Markdown, certifique-se de [codificar a URL](https://en.wikipedia.org/wiki/Percent-encoding) do destino do link. Por exemplo, espaços em branco se tornam `%20`.
@@ -47,8 +51,6 @@ Para criar um link enquanto estiver no Editor, use qualquer uma das seguintes fo
 - Digite `[[` no editor e então selecione o arquivo ao qual deseja criar um link.
 - Selecione um texto no editor e então digite `[[`.
 - Abra a [[Paleta de comandos]] e então selecione Adicionar link interno.
-
-![[Alternador rápido#^search-autocomplete-large]]
 
 Embora você possa vincular a qualquer um dos [[Formatos de arquivo aceitos]], links para formatos de arquivo diferentes de Markdown precisam incluir a extensão do arquivo, como `[[Figura 1.png]]`.
 

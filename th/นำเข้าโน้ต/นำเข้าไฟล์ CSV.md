@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian ให้คุณนำเข้าข้อมูลจากไฟล์ CSV โดยใช้[[ตัวนำเข้า|ปลั๊กอินตัวนำเข้า]]อย่างเป็นทางการ ซึ่งมีประโยชน์หากคุณมีข้อมูลแบบตารางที่จัดเก็บในแอปต่าง ๆ เช่น Excel, Google Sheets, Numbers, Notion หรือ Airtable
 

@@ -44,7 +44,7 @@ Probléma jelentésekor adja meg a build verziót és az operációs rendszert, 
 
 ## Visszaváltás nyilvános verziókra asztali gépen
 
-Ha vissza szeretne váltani a nyilvános verziók használatára (nem korai hozzáférésű) asztali gépen:
+A korai hozzáférésű verziók letiltásához és az utoljára telepített nyilvános verzióra való visszaálláshoz asztali gépen:
 
 1. Tiltsa le a korai hozzáférésű verziókat.
    1. Nyissa meg a **[[Beállítások]]** menüt.
@@ -56,10 +56,11 @@ Ha vissza szeretne váltani a nyilvános verziók használatára (nem korai hozz
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Indítsa újra az Obsidiant.
+5. Ha az Obsidian ezt követően nem a legújabb nyilvános verzión van, frissítse a [[Az Obsidian frissítése#Telepítő frissítések|telepítő verziót]].
 
 ## Visszaváltás nyilvános verziókra mobilon
 
-Ha vissza szeretne váltani a nyilvános verziók használatára (nem korai hozzáférésű) mobilon:
+Ha korai hozzáférésű verzióról szeretne visszaváltani a legújabb nyilvános verzióra mobilon:
 
 1. Készítsen biztonsági mentést a széf adatairól
 2. Távolítsa el az Obsidiant

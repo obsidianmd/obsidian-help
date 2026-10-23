@@ -36,3 +36,5 @@ Obsidianは[CommonMark](https://commonmark.org/)、[GitHub Flavored Markdown](ht
 | `- [x]`         | [[基本的な書式構文#タスクリスト\|完了タスク]]                          |
 | `> [!note]`     | [[コールアウト]]                                                      |
 | (リンク参照)    | [[高度な書式構文#表\|表]]                                             |
+
+これらのうち、内部リンク、コメント、ハイライトなどはObsidian固有のものです。他のMarkdownアプリではプレーンテキストとして表示される場合があります。

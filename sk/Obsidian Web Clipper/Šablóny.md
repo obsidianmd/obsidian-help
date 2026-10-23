@@ -38,6 +38,9 @@ Spúšťače šablón vám umožňujú automaticky vybrať šablónu na základe
 
 Prvá zhoda v zozname šablón určuje, ktorá šablóna sa použije. Šablóny môžete v nastaveniach Web Clipper presúvať nahor a nadol a meniť tak poradie, v ktorom sa šablóny porovnávajú.
 
+> [!tip]- Nastavte záložnú šablónu
+> Ak stránka nezodpovedá žiadnemu pravidlu spúšťača, Web Clipper použije prvú šablónu vo vašom zozname. Šablónu, ktorú chcete použiť ako záložnú, ponechajte na vrchu zoznamu, aby sa použila pre stránky bez konkrétnej zhody.
+
 #### Jednoduché porovnávanie URL
 
 Jednoduché porovnávanie spustí šablónu, ak aktuálna URL stránky *začína* zadaným vzorom. Napríklad:

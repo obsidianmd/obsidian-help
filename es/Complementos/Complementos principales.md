@@ -32,8 +32,6 @@ El equipo de Obsidian también mantiene el desarrollo de ciertos [[#Otros comple
 	- Fusiona dos notas o divide una en dos.
 - [[Contador de palabras]]
 	- Muestra el número de palabras y caracteres.
-- [[Conversor de formato]]
-	- Convierte Markdown de otras aplicaciones al formato de Obsidian.
 - [[Creador de nota única]]
 	- Crea una nota única usando un título con código de tiempo.
 - [[Diapositivas]]

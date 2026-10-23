@@ -1,8 +1,9 @@
 ---
 permalink: import/apple-journal
+cssclasses:
+  - soft-embed
 ---
-O Obsidian permite-lhe migrar facilmente as suas entradas de diário do Apple Journal usando o [[Importador|plugin Importador]].
-Isto irá converter os seus diários em ficheiros Markdown duráveis, que pode usar com o Obsidian e muitas outras aplicações.
+O Obsidian permite-lhe migrar facilmente as suas entradas de diário do Apple Journal usando o [[Importador|plugin Importador]]. Isto converte os seus diários em ficheiros Markdown duráveis que pode usar com o Obsidian e muitas outras aplicações.
 
 ## Exportar os seus dados do Apple Journal
 
@@ -32,13 +33,15 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 5. Em **Formato de ficheiro**, escolha **Apple Journal (HTML Export)**.
 6. Em **Ficheiros a importar**, selecione a pasta com os dados exportados, normalmente _AppleJournalEntries_, ou ficheiros individuais de _Entries_.
 7. Reveja e edite as outras opções de importação.
-8. Selecione Importar e aguarde até que a importação esteja concluída.
-9. Está feito!
+8. Selecione **Importar** para rever o modelo gerado e pré-visualizar exemplos das suas entradas.
+9. Selecione **Importar** novamente e aguarde até que a importação termine.
 
+## Modelos
 
-## Conteúdo suportado
+Use [[Modelos do Importador|Modelos do Importador]] para configurar totalmente como os seus dados do Apple Journal são importados.
 
-O plugin pode importar metadados do Journal como metadados iniciais, tais como _state-of-mind_, _contacts_, _location_ e _workout-route_.
+![[Modelos do Importador#Variables]]
 
-> [!note] Nota
-> O plugin não importa recursos. Anexos como fotos, vídeos e gravações de áudio são ignorados.
+Quando **Adicionar metadados como metadados iniciais** está ativado, os metadados do Apple Journal são convertidos em [[Propriedades|propriedades]]. Dependendo da entrada, estes podem incluir `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media` e `workout-route`.
+
+Use a variável `properties` para aceder a estes metadados. Por exemplo, use `{{properties.location}}` para uma localização ou `{{properties["state-of-mind"]}}` para um estado de espírito.

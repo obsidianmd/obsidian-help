@@ -54,6 +54,10 @@ translation=Ansichten
 original=Cards view
 translation=Galerie
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban-Sicht
+
 [file.bases/views/list]
 original=List view
 translation=Liste
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Verhaltenskodex der Community
+
+[file.community-directory]
+original=Community directory
+translation=Community-Verzeichnis
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=Akzeptierte Dateiformate
 original=Financial contributions
 translation=Finanzielle Beiträge
 
+[file.find-and-replace]
+original=Find and replace
+translation=Suche und Ersetze
+
 [file.folding]
 original=Folding
 translation=Falten
@@ -173,6 +185,10 @@ translation=HTML-Inhalte
 [file.import]
 original=Import notes
 translation=Notizen importieren
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Aus Airtable importieren
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Google Keep
 original=Import HTML files
 translation=HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Aus Logseq importieren
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown
@@ -222,9 +242,17 @@ translation=OneNote
 original=Import from Roam Research
 translation=Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Importer-Vorlagen
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Aus Tomboy und Gnote importieren
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=Vaults verwalten
 original=Mobile app
 translation=Mobile App
 
+[file.more-options-menu]
+original=More options menu
+translation=Weitere Optionen Menü
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Mehrere Cursor
@@ -281,6 +313,10 @@ translation=Offizielle Website
 [file.payment]
 original=Introduction to licenses and payment
 translation=Einführung in Lizenzen und Zahlung
+
+[file.pdf]
+original=PDFs
+translation=PDFs
 
 [file.plugin-security]
 original=Plugin security

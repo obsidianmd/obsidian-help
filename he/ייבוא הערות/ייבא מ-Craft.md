@@ -1,7 +1,9 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
-Obsidian מאפשר לך להעביר את ההערות שלך מ-Craft. פעולה זו תמיר את נתוני Craft שלך לקבצי Markdown עמידים, שתוכל להשתמש בהם עם Obsidian ועם אפליקציות רבות אחרות.
+Obsidian מאפשר לך להעביר את ההערות שלך מ-Craft. פעולה זו ממירה את נתוני Craft שלך לקבצי Markdown עמידים שתוכל להשתמש בהם עם Obsidian ועם אפליקציות רבות אחרות.
 
 ## ייצוא הנתונים שלך מ-Craft
 

@@ -18,9 +18,8 @@ Existem várias maneiras de abrir a Navegação rápida, quando está ativada:
 3. Navegue até a nota usando as teclas de seta.
 4. Pressione `Enter` para abrir a nota selecionada.
 
-> [!info] 
-> A funcionalidade de autocompletar muda para um algoritmo de resultados mais simples quando o cofre atinge 10.000 itens para manter o desempenho ideal do aplicativo. 
-^search-autocomplete-large
+> [!info] Correspondência aproximada
+> As sugestões de arquivos correspondem às letras em ordem, mesmo que você pule algumas. Por exemplo, `na` pode corresponder a `Notas diárias`.
 
 Se o texto não corresponder a nenhuma nota, você pode pressionar `Enter` para criar uma nota com esse nome. Mesmo que o texto corresponda a uma ou mais notas semelhantes, você ainda pode criar uma nota com o nome exato pressionando `Shift+Enter`.
 

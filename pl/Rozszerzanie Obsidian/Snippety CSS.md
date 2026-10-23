@@ -10,7 +10,7 @@ Dowiedz się, jak modyfikować aspekty wyglądu aplikacji Obsidian bez konieczno
 
 CSS to język kontrolujący wygląd HTML. Dodając snippety CSS, możesz zmieniać części interfejsu użytkownika Obsidian, takie jak rozmiar i kolor nagłówków. Obsidian posiada [zmienne CSS](https://docs.obsidian.md/Reference/CSS+variables/CSS+variables), które ułatwiają dostosowywanie interfejsu.
 
-Obsidian szuka snippetów CSS wewnątrz [[Folder konfiguracji|folderu konfiguracji]] skarbca.
+Obsidian szuka snippetów CSS wewnątrz [[Folder konfiguracji|folderu konfiguracji]] sejfu.
 
 ## Dodawanie snippeta
 
@@ -24,7 +24,7 @@ Aby dodać snippet CSS na **komputerze** ![[lucide-monitor-check.svg#icon]], wyk
 
 Aby dodać snippet CSS na **urządzeniu mobilnym/tablecie** ![[obsidian-icon-smartphone.svg#icon]], możesz wykonać następujące kroki:
 
-1. Otwórz menedżer plików i znajdź swój skarbiec. Możesz sprawdzić lokalizację skarbca w opcji _Zarządzaj skarbcami…_, dotykając swojego skarbca i sprawdzając ścieżkę.
+1. Otwórz menedżer plików i znajdź swój sejf. Możesz sprawdzić lokalizację sejfu w opcji _Zarządzaj sejfami…_, dotykając swojego sejfu i sprawdzając ścieżkę.
 2. Otwórz [[Folder konfiguracji]] i utwórz folder o nazwie `snippets`, jeśli nie istnieje.
 3. Dodaj swój snippet CSS do tego folderu.
 4. Otwórz **[[Ustawienia]]** ![[lucide-settings.svg#icon]] Obsidian.

@@ -1,5 +1,7 @@
 ---
 permalink: import/apple-notes
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi a jegyzetek egyszerű áttelepítését az Apple Jegyzetekből az [[Importáló|Importáló bővítmény]] segítségével. Ez az Apple Notes adatait tartós Markdown fájlokká alakítja, amelyeket az Obsidiannal és sok más alkalmazással is használhatsz.
 

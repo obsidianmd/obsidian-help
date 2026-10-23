@@ -1,10 +1,10 @@
 ---
 permalink: import/apple-journal
 localized: '2026-03-18'
-
+cssclasses:
+  - soft-embed
 ---
-Obsidian vous permet de migrer facilement vos entrées de journal depuis Apple Journal en utilisant le [[Importer|module Importer]].
-Cela convertira vos journaux en fichiers Markdown durables, que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
+Obsidian vous permet de migrer facilement vos entrées de journal depuis Apple Journal en utilisant le [[Importer|module Importer]]. Cela convertit vos journaux en fichiers Markdown durables que vous pouvez utiliser avec Obsidian et de nombreuses autres applications.
 
 ## Exporter vos données depuis Apple Journal
 
@@ -34,13 +34,15 @@ Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [ins
 5. Sous **Format de fichier**, choisissez **Apple Journal (HTML Export)**.
 6. Dans **Fichiers à importer**, sélectionnez le dossier contenant les données exportées, généralement _AppleJournalEntries_, ou des fichiers individuels depuis _Entries_.
 7. Vérifiez et modifiez les autres options d'importation.
-8. Sélectionnez Importer et attendez que l'importation soit terminée.
-9. C'est terminé !
+8. Sélectionnez **Importer** pour examiner le modèle généré et prévisualiser des exemples de vos entrées.
+9. Sélectionnez **Importer** à nouveau et attendez que l'importation soit terminée.
 
+## Modèles
 
-## Contenu pris en charge
+Utilisez les [[Importer des modèles|modèles d'Importer]] pour configurer entièrement la façon dont vos données Apple Journal sont importées.
 
-Le module peut importer les métadonnées de Journal en tant que métadonnées, telles que _state-of-mind_, _contacts_, _location_ et _workout-route_.
+![[Importer des modèles#Variables]]
 
-> [!note] Note
-> Le module n'importe pas les ressources. Les pièces jointes comme les photos, vidéos et enregistrements audio sont ignorées.
+Lorsque **Ajouter les métadonnées en tant que métadonnées** est activé, les métadonnées d'Apple Journal sont converties en [[Propriétés|propriétés]]. Selon l'entrée, celles-ci peuvent inclure `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media` et `workout-route`.
+
+Utilisez la variable `properties` pour accéder à ces métadonnées. Par exemple, utilisez `{{properties.location}}` pour un emplacement ou `{{properties["state-of-mind"]}}` pour un état d'esprit.

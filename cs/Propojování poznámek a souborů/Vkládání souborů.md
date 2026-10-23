@@ -86,6 +86,14 @@ Můžete také zadat výšku v pixelech pro vložený prohlížeč PDF přidán�
 ![[Document.pdf#height=400]]
 ```
 
+Pro kombinaci možností stránky a výšky je oddělte pomocí `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+Více o prohlížení a vyhledávání v PDF najdete v [[PDF]].
+
 ## Vložení Plátna do poznámky
 
 Pro vložení [[Canvas|Plátna]]:

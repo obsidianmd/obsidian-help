@@ -80,9 +80,17 @@ Nämä ovat viestejä, jotka kertovat mitä ohitettiin ja mahdollisesti miksi.
 
 **Unable to download file with illegal name**
 
-Tiedosto sisältää [erikoismerkin tai nimeämiskäytännön](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), joka ei ole sallittu vastaanottavassa käyttöjärjestelmässä. Helpoiten voit nimetä tiedoston uudelleen lähdelaitteella poistamalla kaikki erikoismerkit paitsi `-` ja `_`.
+Tiedoston nimi käyttää [erikoismerkkiä tai nimeämiskäytäntöä](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), jota vastaanottava käyttöjärjestelmä ei pysty tallentamaan. Nimeä tiedosto uudelleen lähdelaitteella ja anna Syncin ladata uudelleennimetty tiedosto uudelleen.
 
-Huomaa, että tämä koskee myös tiedostoja, joiden nimessä on useita pisteitä `.` Android-laitteissa.
+Jos holvia synkronoidaan eri käyttöjärjestelmien välillä, vältä seuraavia tiedosto- ja kansionimissä:
+
+- Tiedostojärjestelmien yleisesti varaamat merkit, kuten `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` ja `|`
+- Välilyönti tai piste nimen lopussa
+- Windowsin varatut laitenimet, kuten `CON`, `PRN`, `AUX`, `NUL`, `COM1`–`COM9` tai `LPT1`–`LPT9`
+- Merkit, joita Obsidian käyttää linkeissä, kuten `#`, `^`, `[` ja `]`, jos haluat linkkiystävällisiä muistiinpanojen nimiä
+- Useita pisteitä `.` tiedostonimessä tai emojeja, jotka jotkin Android-laitteet saattavat hylätä
+
+Jos olet epävarma, käytä kirjaimia, numeroita, tavallisia välilyöntejä nimen sisällä, yhdysviivoja `-`, alaviivoja `_` ja yhtä pistettä ennen tiedostopäätettä.
 
 ### Tiliviestit
 

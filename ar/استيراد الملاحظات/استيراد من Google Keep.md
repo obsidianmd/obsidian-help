@@ -3,6 +3,8 @@ permalink: import/google-keep
 aliases:
   - استيراد من Google Keep
   - Import from Google Keep
+cssclasses:
+  - soft-embed
 ---
 
 يتيح لك Obsidian ترحيل ملاحظاتك من Google Keep بسهولة باستخدام مكوّن [[المستورد]] الإضافي.

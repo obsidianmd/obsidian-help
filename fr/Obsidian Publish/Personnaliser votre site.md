@@ -3,7 +3,6 @@ permalink: publish/customize
 description: Découvrez comment personnaliser l'apparence et le style de votre site Obsidian Publish.
 publish: true
 localized: '2026-03-18'
-
 ---
 Cette page explique comment vous pouvez personnaliser l'apparence et le comportement de votre site [[Introduction à Obsidian Publish|Obsidian Publish]].
 

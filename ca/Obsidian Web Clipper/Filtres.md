@@ -102,6 +102,13 @@ Elimina els espais en blanc dels dos extrems d'una cadena.
 
 - `"  hello world  "|trim` retorna `"hello world"`.
 
+### `unescape`
+
+Converteix cometes escapades i seqüències de salt de línia en caràcters literals.
+
+- `"Line 1\\nLine 2"|unescape` retorna el text en dues línies.
+- `'He said \\"hello\\"'|unescape` retorna `He said "hello"`.
+
 ### `uncamel`
 
 Converteix camelCase o PascalCase a paraules separades per espais, que pots formatar encara més amb altres filtres com `title` o `capitalize`.
@@ -206,6 +213,14 @@ Retorna la longitud de cadenes, matrius o el nombre de claus en objectes.
 - Per a matrius: `["a","b","c"]|length` retorna `3`.
 - Per a objectes: `{"a":1,"b":2}|length` retorna `2`.
 
+### `number_format`
+
+Formata un número amb un nombre especificat de decimals i separadors de decimals i milers opcionals.
+
+- `1234.567|number_format:2` retorna `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` retorna `"1.234,57"`.
+- Les matrius i objectes es formaten recursivament.
+
 ### `round`
 
 Arrodoneix un número a l'enter més proper o a un nombre especificat de decimals.
@@ -216,6 +231,10 @@ Arrodoneix un número a l'enter més proper o a un nombre especificat de decimal
 ## Processament d'HTML
 
 Processa contingut HTML i converteix HTML a Markdown. Tingueu en compte que la vostra [[Obsidian Web Clipper/Variables|variable]] d'entrada ha de contenir contingut HTML, p. ex. utilitzant `{{fullHtml}}`, `{{contentHtml}}` o una variable `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Converteix HTML en JSON estructurat que conté l'etiqueta, els atributs i els fills de cada element. Els nodes de text utilitzen el format `{"type":"text","content":"..."}`. Això es pot combinar amb filtres com `map`, `object` i `template` per reformar l'HTML extret.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Substitueix etiquetes HTML, mantenint el contingut i els atributs de l'etiqueta.
 Elimina **tots** els atributs HTML d'una cadena.
 
 - Utilitza `strip_attr:("class, id")` per conservar atributs específics.
-- Exemple: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div id="example">Content</div>`.
+- Exemple: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -339,6 +358,13 @@ Manipula dades d'objectes:
 - `object:keys` retorna una matriu de les claus de l'objecte.
 - `object:values` retorna una matriu dels valors de l'objecte.
 - Exemple: `{"a":1,"b":2}|object:array` retorna `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Inverteix cadenes, matrius i l'ordre de les entrades d'objectes.
+
+- `"abc"|reverse` retorna `"cba"`.
+- `["a","b","c"]|reverse` retorna `["c","b","a"]`.
 
 ### `slice`
 

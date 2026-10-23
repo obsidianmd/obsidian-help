@@ -80,9 +80,17 @@ Aquests són missatges que detallen què s'ha omès, i potencialment per què.
 
 **Unable to download file with illegal name**
 
-El fitxer conté un [caràcter especial o convenció de noms](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) que no és permès al sistema operatiu receptor. Per facilitar-ho, pots canviar el nom del fitxer al dispositiu d'origen per eliminar tots els caràcters especials excepte `-` i `_`.
+El nom del fitxer utilitza un [caràcter especial o convenció de noms](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) que el sistema operatiu receptor no pot emmagatzemar. Canvia el nom del fitxer al dispositiu d'origen i deixa que Sync pugi de nou el fitxer reanomenat.
 
-Tingues en compte que això també inclou fitxers amb múltiples punts `.` al seu nom en dispositius Android.
+Per a cambres fortes sincronitzades entre diferents sistemes operatius, eviteu el següent en els noms de fitxers i carpetes:
+
+- Caràcters habitualment reservats pels sistemes de fitxers, com ara `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` i `|`
+- Un espai o un punt al final del nom
+- Noms de dispositius reservats de Windows, com ara `CON`, `PRN`, `AUX`, `NUL`, `COM1` fins a `COM9`, o `LPT1` fins a `LPT9`
+- Caràcters que Obsidian utilitza per als enllaços, com ara `#`, `^`, `[` i `]`, si voleu noms de notes compatibles amb enllaços
+- Múltiples punts `.` en un nom de fitxer, o emojis, que alguns dispositius Android poden rebutjar
+
+En cas de dubte, utilitzeu lletres, números, espais normals dins del nom, guions `-`, guions baixos `_` i un sol punt abans de l'extensió del fitxer.
 
 ### Missatges del compte
 

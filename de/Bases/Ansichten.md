@@ -11,11 +11,14 @@ Am oberen Rand einer Basis befindet sich eine Symbolleiste, mit der du mit Ansic
 
 - ![[lucide-table.svg#icon]] **Ansichtsmenü** — Ansichten erstellen, bearbeiten und wechseln.
 - **Ergebnisse** — Dateien begrenzen, kopieren und exportieren.
-- ![[lucide-arrow-up-down.svg#icon]] **Sortieren** — Dateien sortieren und gruppieren.
+- ![[lucide-arrow-up-down.svg#icon]] **Sortieren** — Dateien sortieren.
+- ![[lucide-stretch-horizontal.svg#icon]] **Gruppieren** — Dateien gruppieren und Gruppenreihenfolge sowie Sichtbarkeit verwalten.
 - ![[lucide-list-filter.svg#icon]] **Filter** — Dateien filtern.
 - ![[lucide-list.svg#icon]] **Eigenschaften** — Eigenschaften zur Anzeige auswählen und [[Formeln]] erstellen.
 - ![[lucide-search.svg#icon]] **Suche** — nach Elementen anhand ihrer angezeigten Eigenschaften suchen.
 - ![[lucide-plus.svg#icon]] **Neu** — eine neue Datei in der aktuellen Ansicht erstellen.
+
+Auf Smartphones befinden sich **Ergebnisse**, **Sortieren**, ![[lucide-stretch-horizontal.svg#icon]] **Gruppieren** und **Eigenschaften** im Menü ![[lucide-sliders-horizontal.svg#icon]] **Anzeige**.
 
 ## Ansichten hinzufügen und wechseln
 
@@ -37,13 +40,14 @@ Alternativ kannst du mit der *rechten Maustaste* auf den Ansichtsnamen in der Sy
 
 ## Layout
 
-Ansichten können mit verschiedenen Layouts angezeigt werden, darunter ![[lucide-table.svg#icon]] **Tabelle**, ![[lucide-list.svg#icon]] **Liste**, ![[lucide-layout-grid.svg#icon]] **Galerie** und ![[lucide-map.svg#icon]] **Karte**. Zusätzliche Layouts können durch [[Community-Erweiterungen]] hinzugefügt werden. Einige Layouts befinden sich noch in der Entwicklung und erfordern [[Vorabversionen]] von Obsidian.
+Ansichten können mit verschiedenen Layouts angezeigt werden, darunter ![[lucide-table.svg#icon]] **Tabelle**, ![[lucide-list.svg#icon]] **Liste**, ![[lucide-layout-grid.svg#icon]] **Galerie**, ![[lucide-kanban-square.svg#icon]] **Kanban** und ![[lucide-map.svg#icon]] **Karte**. Zusätzliche Layouts können durch [[Community-Erweiterungen]] hinzugefügt werden.
 
 | Layout                            | Beschreibung                                                                                                                          | App-Version |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [[Tabelle]]      | Dateien als Zeilen in einer Tabelle anzeigen. Spalten werden aus [[Eigenschaften]] in deinen Notizen befüllt.                         | 1.9         |
 | [[Galerie]]       | Dateien als Raster anzeigen. Ermöglicht galerieartige Ansichten mit Bildern.                                                          | 1.9         |
 | [[Liste]]          | Dateien als [[Grundlegende Formatierungssyntax#Listen\|Liste]] mit Aufzählungszeichen oder nummerierten Markern anzeigen.             | 1.10        |
+| [[Kanban-Ansicht\|Kanban]] | Dateien als Karten anzeigen, die in Spalten basierend auf einer gruppierten Eigenschaft organisiert sind.                     | 1.14        |
 | [[Karte]]          | Dateien als Pins auf einer interaktiven Karte anzeigen. Erfordert die Karten-Erweiterung.                                             | 1.10        |
 
 ## Filter
@@ -81,16 +85,16 @@ Klicke auf die Quelltext-Schaltfläche ![[lucide-code-xml.svg#icon]], um den **e
 
 ## Ergebnisse sortieren und gruppieren
 
-Öffne das Menü ![[lucide-arrow-up-down.svg#icon]] **Sortieren**, um die Ergebnisse in einer Ansicht zu sortieren und zu gruppieren.
+Verwende das Menü ![[lucide-arrow-up-down.svg#icon]] **Sortieren**, um Ergebnisse anzuordnen, und das Menü ![[lucide-stretch-horizontal.svg#icon]] **Gruppieren**, um ähnliche Elemente in Abschnitte zu organisieren.
 
 Du kannst Ergebnisse nach einer oder mehreren Eigenschaften in aufsteigender oder absteigender Reihenfolge anordnen. So lassen sich Notizen einfach nach Name, letzter Bearbeitungszeit oder einer anderen Eigenschaft auflisten — einschließlich Formeln.
 
-Du kannst Ergebnisse auch nach einer Eigenschaft gruppieren, um ähnliche Elemente in visuell abgegrenzte Abschnitte zu organisieren. Derzeit unterstützt Obsidian die Gruppierung nach nur einer Eigenschaft.
+Jede Ansicht kann mehrere Sortierungen haben, aber Ergebnisse nur nach einer Eigenschaft gruppieren.
 
 ### Sortierung hinzufügen
 
 1. Öffne das Menü ![[lucide-arrow-up-down.svg#icon]] **Sortieren** am oberen Rand der Ansicht.
-2. Wähle die Eigenschaft, nach der du sortieren (oder gruppieren) möchtest.
+2. Wähle **Sortierung hinzufügen** und dann die Eigenschaft, nach der du sortieren möchtest.
 3. Wenn du mehrere Sortierungen hast, ziehe sie mit dem ![[lucide-grip-vertical.svg#icon]] Griff nach oben oder unten, um ihre Priorität zu ändern.
 
 Die Optionen zum Anordnen der Ergebnisse hängen vom Eigenschaftentyp ab:
@@ -102,7 +106,29 @@ Die Optionen zum Anordnen der Ergebnisse hängen vom Eigenschaftentyp ab:
 ### Sortierung entfernen
 
 1. Öffne das Menü ![[lucide-arrow-up-down.svg#icon]] **Sortieren** am oberen Rand der Ansicht.
-2. Klicke auf die ![[lucide-trash-2.svg#icon]] Papierkorb-Schaltfläche neben der Sortierung oder Gruppierung, die du entfernen möchtest.
+2. Klicke auf die ![[lucide-trash-2.svg#icon]] Papierkorb-Schaltfläche neben der Sortierung, die du entfernen möchtest.
+
+### Ergebnisse gruppieren
+
+1. Öffne das Menü ![[lucide-stretch-horizontal.svg#icon]] **Gruppieren** am oberen Rand der Ansicht. Auf Smartphones öffne **Anzeige → Gruppieren**.
+2. Wähle unter **Gruppieren nach** eine Eigenschaft.
+3. Wähle eine automatische Sortierreihenfolge oder wähle **Manuell**, um Gruppen selbst zu ordnen.
+
+Um die Gruppierung aufzuheben, klicke auf die ![[lucide-trash-2.svg#icon]] Papierkorb-Schaltfläche neben der Gruppierungseigenschaft.
+
+### Gruppen neu ordnen, ausblenden und hinzufügen
+
+Wähle im Menü ![[lucide-stretch-horizontal.svg#icon]] **Gruppieren** die Option **Manuell** aus dem Sortierreihenfolgemenü, um zu verwalten, welche Gruppen angezeigt werden und in welcher Reihenfolge.
+
+- Aktiviere eine Gruppe, um sie anzuzeigen, oder deaktiviere sie, um sie auszublenden. Wähle **Alle anzeigen** oder **Alle ausblenden**, um die Sichtbarkeit aller Gruppen zu ändern.
+- Ziehe den ![[lucide-grip-vertical.svg#icon]] Griff neben einer Gruppe, um ihre Position zu ändern.
+- Wähle **Gruppe hinzufügen** und gib einen Wert ein, um eine neue, leere Gruppe anzuzeigen. Dies erstellt keine Notiz und ändert keine bestehenden Notizen.
+
+Um die automatische Gruppenreihenfolge wiederherzustellen und alle Gruppen anzuzeigen, wähle anstelle von **Manuell** eine automatische Sortierreihenfolge.
+
+### Gruppen einklappen
+
+In den Layouts [[Tabelle]], [[Galerie]] und [[Liste]] kannst du auf eine Gruppenüberschrift klicken, um diese Gruppe ein- oder auszuklappen. Das Einklappen einer Gruppe blendet deren Elemente vorübergehend aus, ohne ihre Eigenschaften zu ändern.
 
 ## Ergebnisse begrenzen, kopieren und exportieren
 

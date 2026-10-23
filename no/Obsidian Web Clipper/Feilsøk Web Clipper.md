@@ -31,6 +31,7 @@ Hvis du ikke ser noe innhold i Obsidian når du klikker **Legg til i Obsidian**:
 
 - Sørg for at [[Obsidian URI]]-protokollen [[Obsidian URI#Registrer Obsidian URI|er registrert]].
 - Hvis du bruker Firefox kan det hende du må [registrere den i nettleserinnstillingene](https://kb.mozillazine.org/Register_protocol).
+- Hvis du bruker Flatpak, kan det hende du må oppdatere `x-scheme-handler/obsidian`-verdien i `.config/mimeapps.list` fra `obsidian.desktop` til `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian åpnes men bare filnavnet lagres
 

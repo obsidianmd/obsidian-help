@@ -1,5 +1,7 @@
 ---
 permalink: import/evernote
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje jednoducho migrovať vaše poznámky z Evernote pomocou [[Importér|pluginu Importér]]. Tento nástroj skonvertuje vaše dáta z Evernote do odolných Markdown súborov, ktoré môžete používať s Obsidian a mnohými ďalšími aplikáciami.
 

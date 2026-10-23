@@ -36,3 +36,5 @@ Obsidian 支援 [CommonMark](https://commonmark.org/)、[GitHub Flavored Markdow
 | `- [x]`         | [[基本格式語法#待辦清單\|已完成待辦]]                                                 |
 | `> [!note]`     | [[註標]]                                                                |
 | （見連結）           | [[進階格式語法#表格\|表格]]                                                     |
+
+其中部分語法（如內部連結、註解和反白）是 Obsidian 特有的。其他 Markdown 應用程式可能會將它們顯示為純文字。

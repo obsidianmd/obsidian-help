@@ -80,9 +80,17 @@ Estos son mensajes que detallan lo que fue omitido y potencialmente por qué.
 
 **Unable to download file with illegal name**
 
-El archivo contiene un [carácter especial o convención de nomenclatura](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) que no está permitido en el sistema operativo receptor. Para mayor facilidad, puedes renombrar el archivo en su dispositivo de origen para eliminar todos los caracteres especiales excepto `-` y `_`.
+El nombre del archivo usa un [carácter especial o convención de nomenclatura](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) que el sistema operativo receptor no puede almacenar. Renombra el archivo en su dispositivo de origen y luego deja que Sync suba el archivo renombrado de nuevo.
 
-Ten en cuenta que esto también incluye archivos con múltiples puntos `.` en su nombre en dispositivos Android.
+Para bóvedas sincronizadas entre diferentes sistemas operativos, evita lo siguiente en los nombres de archivos y carpetas:
+
+- Caracteres comúnmente reservados por los sistemas de archivos, como `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` y `|`
+- Un espacio o punto al final del nombre
+- Nombres de dispositivos reservados de Windows, como `CON`, `PRN`, `AUX`, `NUL`, `COM1` a `COM9`, o `LPT1` a `LPT9`
+- Caracteres que Obsidian usa para enlaces, como `#`, `^`, `[` y `]`, si deseas nombres de notas compatibles con enlaces
+- Múltiples puntos `.` en un nombre de archivo, o emojis, que algunos dispositivos Android pueden rechazar
+
+En caso de duda, usa letras, números, espacios regulares dentro del nombre, guiones `-`, guiones bajos `_` y un solo punto antes de la extensión del archivo.
 
 ### Mensajes de cuenta
 

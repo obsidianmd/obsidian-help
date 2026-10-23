@@ -8,7 +8,7 @@ Tiedostoselain on [[Sisäänrakennetut lisäosat|sisäänrakennettu lisäosa]], 
 
 - Luoda, poistaa ja muuttaa tiedostojen ja kansioiden nimiä.
 - Siirtää tiedostoja ja kansioita raahaamalla ja pudottamalla.
-- Käyttää kontekstivalikkoa kaikkiin saatavilla oleviin toimintoihin.
+- Käyttää [[#Kontekstivalikon käyttö|kontekstivalikkoa]] kaikkiin saatavilla oleviin toimintoihin.
 
 > [!tip]- Raahaa ja pudota tiedostoja
 > Voit raahata tiedoston tiedostoselaimesta muistiinpanoosi luodaksesi siihen linkin, tai raahata tiedoston kansioon tiedostoselaimessa kopioidaksesi sen.
@@ -17,8 +17,8 @@ Tiedostoselain on [[Sisäänrakennetut lisäosat|sisäänrakennettu lisäosa]], 
 
 Luodaksesi uuden muistiinpanon uusien muistiinpanojen oletussijaintiin:
 
-1. Napsauta **Uusi muistiinpano** ![[lucide-pen-line.svg#icon]] tiedostoselaimen yläosassa.
-2. Kirjoita muistiinpanon nimi ja paina Enter.
+1. Valitse **Uusi muistiinpano** ![[lucide-pen-line.svg#icon]] tiedostoselaimen yläosassa.
+2. Kirjoita muistiinpanon nimi ja paina `Enter`.
 
 > [!tip]- Vaihda oletussijainti
 > Voit vaihtaa uusien muistiinpanojen oletussijainnin kohdasta **[[Asetukset]] → [[Asetukset#Tiedostot ja linkit|Tiedostot ja linkit]] → [[Asetukset#Uuden muistiinpanon oletussijainti|Uuden muistiinpanon oletussijainti]]**.
@@ -26,19 +26,19 @@ Luodaksesi uuden muistiinpanon uusien muistiinpanojen oletussijaintiin:
 Luodaksesi uuden muistiinpanon tiettyyn kansioon:
 
 1. Napsauta kansiota hiiren oikealla painikkeella ja valitse **Uusi muistiinpano**.
-2. Kirjoita muistiinpanon nimi ja paina Enter.
+2. Kirjoita muistiinpanon nimi ja paina `Enter`.
 
 ## Luo uusi kansio
 
 Luodaksesi uuden kansion holvisi juureen:
 
-1. Napsauta **Uusi kansio** ![[lucide-folder-plus.svg#icon]] tiedostoselaimen yläosassa.
-2. Kirjoita kansion nimi ja paina Enter.
+1. Valitse **Uusi kansio** ![[lucide-folder-plus.svg#icon]] tiedostoselaimen yläosassa.
+2. Kirjoita kansion nimi ja paina `Enter`.
 
 Luodaksesi alikansion:
 
 1. Napsauta kansiota, johon haluat luoda alikansion, hiiren oikealla painikkeella ja valitse **Uusi kansio**.
-2. Kirjoita kansion nimi ja paina Enter.
+2. Kirjoita kansion nimi ja paina `Enter`.
 
 ## Vaihda järjestystä
 
@@ -55,7 +55,7 @@ Ottaaksesi automaattisen näyttämisen käyttöön tai pois käytöstä:
 
 - Valitse **Näytä aktiivinen tiedosto automaattisesti** ![[lucide-gallery-vertical.svg#icon]] tiedostoselaimen yläosassa.
 
-Kun toiminto on käytössä, tiedostoselain seuraa automaattisesti ja näyttää avoinna olevan muistiinpanon sijainnin.
+Kun toiminto on käytössä, tiedostoselain seuraa automaattisesti ja näyttää aktiivisen muistiinpanon sijainnin.
 
 ## Laajenna tai kutista kaikki kansiot
 
@@ -72,14 +72,14 @@ Kutistaaksesi kaikki kansiot:
 ## Poista tiedosto tai kansio
 
 1. Napsauta poistettavaa tiedostoa hiiren oikealla painikkeella ja valitse **Poista**.
-2. Jos sinua pyydetään vahvistamaan poisto, napsauta **Poista**.
+2. Jos sinua pyydetään vahvistamaan poisto, valitse **Poista**.
 
 Lisätietoja on kohdassa [[Muistiinpanojen hallinta#Poista muistiinpano|Poista muistiinpano]].
 
 ## Muuta tiedoston tai kansion nimeä
 
 1. Napsauta uudelleennimettävää tiedostoa hiiren oikealla painikkeella ja valitse **Muuta nimeä**.
-2. Kirjoita uusi nimi ja paina Enter.
+2. Kirjoita uusi nimi ja paina `Enter`.
 
 Lisätietoja on kohdassa [[Muistiinpanojen hallinta#Muuta muistiinpanon nimeä|Muuta muistiinpanon nimeä]].
 
@@ -96,3 +96,44 @@ Voit siirtää tiedoston tai kansion raahaamalla ja pudottamalla tai kontekstiva
 
 1. Napsauta tiedostoa hiiren oikealla painikkeella ja valitse **Siirrä tiedosto...**.
 2. Hae sen kansion nimeä, johon haluat siirtää tiedoston, ja valitse se luettelosta.
+
+## Kontekstivalikon käyttö
+
+Kontekstivalikossa näkyvät tiedostolle tai kansiolle saatavilla olevat toiminnot. Monet tiedostojen toiminnoista näkyvät myös [[Lisävalinnat-valikko|Lisävalinnat-valikossa]].
+
+### Työpöytä
+
+Napsauta tiedostoa tai kansiota hiiren oikealla painikkeella tiedostoselaimessa.
+
+**Tiedostot**
+
+- **Avaa uudessa välilehdessä** ja **Avaa oikealle** avaavat tiedoston uudessa välilehdessä tai paneelissa oikealla puolella.
+- **Avaa uudessa ikkunassa** avaa tiedoston omassa ikkunassaan. Katso [[Ponnahdusikkunat]].
+- **Tee kopio** luo kopion tiedostosta.
+- **Siirrä tiedosto...** siirtää tiedoston toiseen kansioon. Katso [[#Siirrä tiedosto tai kansio]].
+- **Kirjanmerkki...** lisää tiedoston kirjanmerkkeihin. Vaatii Kirjanmerkit-lisäosan. Katso [[Kirjanmerkit#Lisää kirjanmerkki]].
+- **Yhdistä tiedostoon...** yhdistää muistiinpanon toiseen. Vaatii Muistiinpanojen koostin -lisäosan. Katso [[Muistiinpanojen koostin#Yhdistä muistiinpanoja]].
+- **Julkaise nykyinen tiedosto** julkaisee muistiinpanon sivustollesi. Vaatii Obsidian Publishin. Katso [[Obsidian Publishin esittely|Publish]].
+- **Kopioi polku** kopioi tiedoston sijainnin Obsidian-osoitteena, holvikansiosta tai järjestelmän juuresta.
+- **Avaa versiohistoria** näyttää tiedoston aiemmat versiot. Vaatii aktiivisen Obsidian Sync -tilauksen. Katso [[Versiohistoria]].
+- **Avaa oletussovelluksessa** avaa tiedoston tietokoneesi kyseiselle tiedostotyypille käyttämässä sovelluksessa.
+- **Näytä tiedostonhallinnassa** näyttää tiedoston tiedostonhallinnassa. macOS:ssä kohta on **Näytä Finderissa**. Windowsissa ja Linuxissa kohta on **Näytä järjestelmän tiedostonhallinnassa**.
+- **Muuta nimeä...** vaihtaa tiedoston nimen. Katso [[#Muuta tiedoston tai kansion nimeä]].
+- **Poista** poistaa tiedoston. Katso [[#Poista tiedosto tai kansio]].
+
+**Kansiot**
+
+- **Uusi muistiinpano** ja **Uusi kansio** luovat muistiinpanon tai kansion kyseisen kansion sisälle. Katso [[#Luo uusi muistiinpano]] ja [[#Luo uusi kansio]].
+- **Uusi valkotaulu** luo valkotaulun kansioon. Katso [[Valkotaulu]].
+- **Uusi kanta** luo kannan kansioon. Katso [[Kantojen esittely]].
+- **Tee kopio** luo kopion kansiosta.
+- **Siirrä kansio...** siirtää kansion toiseen kansioon.
+- **Hae kansiosta** hakee vain kansion tiedostoista. Katso [[Haku]].
+- **Kirjanmerkki...** lisää kansion kirjanmerkkeihin.
+- **Kopioi polku** kopioi kansion sijainnin holvikansiosta tai järjestelmän juuresta.
+- **Näytä tiedostonhallinnassa** näyttää kansion tiedostonhallinnassa, samaan tapaan kuin tiedostoille.
+- **Muuta nimeä...** ja **Poista** vaihtavat kansion nimen tai poistavat kansion.
+
+### Mobiili
+
+Paina ja pidä kansiota tiedostoselaimessa. Valikossa on samat kohdat kuin työpöydän kansiovalikossa, paitsi **Kirjanmerkki...** ja **Näytä tiedostonhallinnassa**.

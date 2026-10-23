@@ -6,45 +6,20 @@ description: Format converter là plugin cốt lõi cho phép bạn chuyển đ�
 aliases:
   - Plugin/Markdown format converter
 ---
-Bộ chuyển đổi định dạng Markdown là một [[Plugin cốt lõi|plugin cốt lõi]] cho phép bạn chuyển đổi Markdown từ các ứng dụng khác sang định dạng Obsidian. Nó cũng cho phép bạn chuyển đổi một số [[Thuộc tính]] nhất định sang các định dạng mới được yêu cầu.
+Bộ chuyển đổi định dạng Markdown di chuyển [[Thuộc tính#Thuộc tính không còn được dùng|các định dạng thuộc tính không còn được dùng]] sang định dạng hiện tại được Obsidian sử dụng.
 
-> [!warning] Cảnh báo
-> Bộ chuyển đổi định dạng Markdown chuyển đổi toàn bộ kho của bạn dựa trên cài đặt của bạn. [[Sao lưu tệp Obsidian của bạn]] trước khi bạn thực hiện chuyển đổi.
+> [!warning] Sao lưu kho của bạn
+> Chuyển đổi áp dụng cho toàn bộ kho của bạn. [[Sao lưu tệp Obsidian của bạn]] trước khi bạn bắt đầu.
 
-Để chuyển đổi tất cả ghi chú trong kho của bạn:
+Để chuyển đổi các thuộc tính trong ghi chú của bạn:
 
-1. Trong [[Khay lệnh]], chọn **Mở trình chuyển đổi Markdown**. Bạn cũng có thể tìm thấy nó trong [[Thanh công cụ]] với biểu tượng **Mở trình chuyển đổi Markdown** ![[lucide-binary.svg#icon]].
-2. Kích hoạt các định dạng bạn muốn chuyển đổi.
-3. Nhấp **Bắt đầu Chuyển đổi**.
+1. Mở [[Bảng lệnh]].
+2. Chọn **Bộ chuyển đổi định dạng Markdown: Di chuyển siêu dữ liệu đầu tệp**.
+3. Chọn **Bắt đầu Chuyển đổi**.
 
-Để biết thêm thông tin, hãy tham khảo [[Cú pháp định dạng cơ bản]].
+## Các định dạng thuộc tính được hỗ trợ
 
-## Các định dạng được hỗ trợ
-
-### Roam Research
-
-Bộ chuyển đổi định dạng Markdown có thể chuyển đổi các cú pháp Roam Research sau:
-
-- **Thẻ**: Chuyển đổi `#tag` và `#[[tag]]` thành `[[tag]]`
-- **Tô sáng**: Chuyển đổi `^^highlight^^` thành `==highlight==`
-- **Mục TODO**: Chuyển đổi `{{[[TODO]]}}` thành `[ ]`
-
-### Bear
-
-Bộ chuyển đổi định dạng Markdown có thể chuyển đổi các cú pháp Bear sau:
-
-- **Tô sáng**: Chuyển đổi `::highlight::` thành `==highlight==`
-
-### Zettelkasten
-
-Bộ chuyển đổi định dạng Markdown có thể chuyển đổi các cú pháp Zettelkasten sau:
-
-- **Liên kết đầy đủ**: Chuyển đổi `[[UID]]` thành `[[UID File Name]]`
-- **Liên kết hiển thị đẹp**: Chuyển đổi `[[UID]]` thành `[[UID File Name|File Name]]`
-
-### [[Thuộc tính]]
-
-Kể từ Obsidian `1.9.3`, Bộ chuyển đổi định dạng Markdown có thể chuyển đổi các định dạng [[Thuộc tính#Thuộc tính không còn được dùng|thuộc tính không còn được dùng]] sang định dạng hiện tại:
+Bộ chuyển đổi cập nhật bí danh, thẻ và lớp CSS từ các định dạng không còn được dùng:
 
 **Bí danh**
 

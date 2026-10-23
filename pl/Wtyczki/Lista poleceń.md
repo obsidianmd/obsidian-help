@@ -5,7 +5,7 @@ permalink: plugins/command-palette
 
 Aby uruchomić polecenie z Listy poleceń:
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć Listę poleceń. Możesz ją także otworzyć z [[Menu wstążkowe|wstążki]] za pomocą ikony Listy poleceń ![[lucide-terminal.svg#icon]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć Listę poleceń. Możesz ją także otworzyć z [[Wstążka|wstążki]] za pomocą ikony Listy poleceń ![[lucide-terminal.svg#icon]].
 2. Wpisz nazwę polecenia, które chcesz uruchomić.
 3. Przejdź do polecenia za pomocą klawiszy strzałek.
 4. Naciśnij `Enter`.
@@ -25,7 +25,7 @@ Możesz przypiąć często używane polecenia na górze Listy poleceń, aby szyb
 ### Przypinanie polecenia
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym kliknij **Lista poleceń** w sekcji **Opcje wtyczek**.
+2. Na panelu bocznym kliknij **Lista poleceń** w sekcji **Opcje wtyczek**.
 3. Obok **Nowe przypięte polecenie** kliknij **Wybierz polecenie**.
 4. Wybierz polecenie, które chcesz przypiąć, z listy.
 5. Naciśnij `Enter`.
@@ -33,5 +33,5 @@ Możesz przypiąć często używane polecenia na górze Listy poleceń, aby szyb
 ### Odpinanie polecenia
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym kliknij **Lista poleceń** w sekcji **Opcje wtyczek**.
+2. Na panelu bocznym kliknij **Lista poleceń** w sekcji **Opcje wtyczek**.
 3. W sekcji **Przypięte polecenia** kliknij ikonę krzyżyka obok polecenia, które chcesz odpiąć.

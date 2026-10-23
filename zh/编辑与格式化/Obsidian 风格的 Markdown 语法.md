@@ -39,3 +39,5 @@ Obsidian 支持 [CommonMark](https://commonmark.org/)、[GitHub Flavored Markdow
 | `- [x]`         | [[基本格式语法#任务列表\|已完成任务]]                                  |
 | `> [!note]`     | [[标注]]                                                              |
 | （见链接）       | [[高级格式语法#表格\|表格]]                                           |
+
+其中一些语法（如内部链接、注释和高亮）是 Obsidian 特有的。其他 Markdown 应用可能会将它们显示为纯文本。

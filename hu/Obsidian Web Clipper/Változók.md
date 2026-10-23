@@ -17,38 +17,42 @@ Az előre beállított változók automatikusan generálódnak az oldal tartalma
 
 A fő tartalomváltozó a `{{content}}`, amely a cikk tartalmát, a [[Kiemelő|kiemeléseket]], vagy a kijelölést tartalmazza, ha van kijelölt szöveg az oldalon. Vedd figyelembe, hogy a `{{content}}` megpróbálja kinyerni az oldal fő tartalmát, ami nem mindig az, amit szeretnél. Ebben az esetben más előre beállított változókat vagy szelektor változókat használhatsz a szükséges tartalom kinyeréséhez.
 
-| Változó             | Leírás                                                                                 |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| `{{author}}`        | Az oldal szerzője                                                                      |
+| Változó             | Leírás                                                                         |
+| ------------------- | ------------------------------------------------------------------------------ |
+| `{{author}}`        | Az oldal szerzője                                                              |
 | `{{content}}`       | Cikk tartalma, [[Kiemelő\|kiemelések]], vagy kijelölés, Markdown formátumban |
 | `{{contentHtml}}`   | Cikk tartalma, [[Kiemelő\|kiemelések]], vagy kijelölés, HTML formátumban |
-| `{{date}}`          | Aktuális dátum, formázható a `date` szűrővel                                          |
-| `{{description}}`   | Leírás vagy kivonat                                                                    |
-| `{{domain}}`        | Tartomány                                                                              |
-| `{{favicon}}`       | Favicon URL                                                                            |
-| `{{fullHtml}}`      | Feldolgozatlan HTML a teljes oldaltartalomhoz                                          |
-| `{{highlights}}`    | [[Kiemelő\|Kiemelések]] szöveggel és időbélyegekkel                      |
-| `{{image}}`         | Közösségi megosztási kép URL-je                                                        |
-| `{{published}}`     | Publikálás dátuma, formázható a `date` szűrővel                                       |
-| `{{selection}}`     | Kijelölés Markdown formátumban                                                         |
-| `{{selectionHtml}}` | Kijelölés HTML formátumban                                                             |
-| `{{site}}`          | Webhely neve vagy kiadó                                                                |
-| `{{title}}`         | Az oldal címe                                                                          |
-| `{{time}}`          | Aktuális dátum és idő                                                                  |
-| `{{url}}`           | Aktuális URL                                                                           |
-| `{{words}}`         | Szavak száma                                                                           |
+| `{{date}}`          | Aktuális dátum, formázható a `date` szűrővel                                  |
+| `{{description}}`   | Leírás vagy kivonat                                                            |
+| `{{domain}}`        | Tartomány                                                                      |
+| `{{favicon}}`       | Favicon URL                                                                    |
+| `{{fullHtml}}`      | Feldolgozatlan HTML a teljes oldaltartalomhoz                                  |
+| `{{highlights}}`    | [[Kiemelő\|Kiemelések]] szöveggel és időbélyegekkel                           |
+| `{{image}}`         | Közösségi megosztási kép URL-je                                                |
+| `{{language}}`      | Az oldal nyelve                                                                |
+| `{{model}}`         | [[Interpreter|Értelmező]] modell neve                                                      |
+| `{{modelId}}`       | [[Interpreter|Értelmező]] modell azonosítója                                               |
+| `{{modelProvider}}` | [[Interpreter|Értelmező]] modell szolgáltatója                                             |
+| `{{published}}`     | Publikálás dátuma, formázható a `date` szűrővel                               |
+| `{{selection}}`     | Kijelölés Markdown formátumban                                                 |
+| `{{selectionHtml}}` | Kijelölés HTML formátumban                                                     |
+| `{{site}}`          | Webhely neve vagy kiadó                                                        |
+| `{{title}}`         | Az oldal címe                                                                  |
+| `{{time}}`          | Aktuális dátum és idő                                                          |
+| `{{url}}`           | Aktuális URL                                                                   |
+| `{{words}}`         | Szavak száma                                                                   |
 
 ## Prompt változók
 
-A prompt változók nyelvi modelleket használnak adatok kinyerésére és módosítására természetes nyelv segítségével. A prompt változókhoz az [[Értelmező|Értelmező]] engedélyezése és konfigurálása szükséges.
+A prompt változók nyelvi modelleket használnak adatok kinyerésére és módosítására természetes nyelv segítségével. A prompt változókhoz az [[Interpreter|Értelmező]] engedélyezése és konfigurálása szükséges.
 
 A prompt változók szintaxisa: `{{"az oldal összefoglalása"}}`. Az idézőjelek a prompt körül fontosak, és megkülönböztetik a promptokat az előre beállított változóktól. A prompt válaszok utólag feldolgozhatók [[Szűrők|szűrőkkel]], pl. `{{"az oldal összefoglalása"|blockquote}}`.
 
 ### Mikor használj prompt változókat
 
-A prompt változók előnye, hogy rendkívül rugalmasak és könnyen írhatók, ugyanakkor több kompromisszummal járnak: lassabban futnak, és a választott [[Értelmező#Modellek|szolgáltatótól]] függően költség- és adatvédelmi szempontokat is figyelembe kell venni.
+A prompt változók előnye, hogy rendkívül rugalmasak és könnyen írhatók, ugyanakkor több kompromisszummal járnak: lassabban futnak, és a választott [[Interpreter#Modellek|szolgáltatótól]] függően költség- és adatvédelmi szempontokat is figyelembe kell venni.
 
-Más változótípusokkal ellentétben a prompt változókat egy külső nyelvi modellnek kell feldolgoznia, így csak akkor kerülnek behelyettesítésre, amikor az [[Értelmező|Értelmező]] lefutott.
+Más változótípusokkal ellentétben a prompt változókat egy külső nyelvi modellnek kell feldolgoznia, így csak akkor kerülnek behelyettesítésre, amikor az [[Interpreter|Értelmező]] lefutott.
 
 A legjobb, ha *nem* használsz prompt változókat, ha a kinyerni kívánt adat következetes formátumban van, és más változótípusokkal is kinyerhető.
 

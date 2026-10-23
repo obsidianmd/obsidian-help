@@ -2,6 +2,8 @@
 permalink: import/roam
 aliases:
   - Import from Roam Research
+cssclasses:
+  - soft-embed
 ---
 在 Obsidian 中，你可以使用 [[迁移助手]] 轻松迁移 Roam Research 笔记。这将把你 Roam Research 中的笔记转换成 Markdown 文件，从而让这些数据能被 Obsidian 等一系列软件读取和应用。
 
@@ -24,7 +26,13 @@ aliases:
 6. 选择你的`.json`文件的位置。
 7. 在**输出文件夹**下，选择你希望导入文件保存在 Obsidian 中的位置。
 8. 如果想同时导入附件，请开启**下载所有附件**选项。
-9. 点击**导入**并等待导入完成。
-10. 完成！
+9. 点击**导入**以查看生成的模板并预览页面示例。
+10. 再次点击**导入**并等待导入完成。
 
 ![[Roam-Importer-importing.png]]
+
+## 模板
+
+使用 [[导入器模板|迁移助手模板]] 来完全配置 Roam Research 数据的导入方式。
+
+![[导入器模板#Variables]]

@@ -83,14 +83,14 @@ Pro definici vlastního zvýrazněného bloku vytvořte následující CSS blok:
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Hodnota atributu `data-callout` je identifikátor typu, který chcete použít, například `[!custom-question-type]`.
 
-- `--callout-color` definuje barvu pozadí pomocí čísel (0–255) pro červenou, zelenou a modrou.
+- `--callout-color` definuje barvu pozadí. Funguje jakákoli platná CSS barva, například hexadecimální kód (`#000000`) nebo hodnota `rgb()`.
 - `--callout-icon` může být ID ikony z [lucide.dev](https://lucide.dev) nebo SVG element.
 
 > [!warning] Poznámka k verzím ikon lucide
@@ -103,6 +103,28 @@ Hodnota atributu `data-callout` je identifikátor typu, který chcete použít, 
 > ```css
 > --callout-icon: '<svg>...vlastní svg...</svg>';
 > ```
+
+> [!tip]- Další přizpůsobení
+> Nejste omezeni pouze na `--callout-color` a `--callout-icon`. Zvýrazněné bloky podporují standardní CSS selektory a vlastnosti, spolu s dalšími CSS proměnnými pro věci jako ohraničení a stylování nadpisu.
+> 
+> Například skrytí nadpisu zvýrazněného bloku:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Nebo úprava jeho ohraničení:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Úplný seznam [CSS proměnných pro zvýrazněné bloky](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) najdete pro další možnosti.
 
 ### Podporované typy
 

@@ -18,9 +18,8 @@ Pikavalitsimen voi avata usealla tavalla, kun se on käytössä:
 3. Siirry muistiinpanoon nuolinäppäimillä.
 4. Paina `Enter` avataksesi valitun muistiinpanon.
 
-> [!info] 
-> Automaattisen täydennyksen toiminto vaihtaa yksinkertaisempaan hakualgoritmiin, kun holvissa on yli 10 000 kohdetta sovelluksen optimaalisen suorituskyvyn ylläpitämiseksi. 
-^search-autocomplete-large
+> [!info] Sumea haku
+> Tiedostoehdotukset vastaavat kirjaimia järjestyksessä, vaikka väliin jäisi kirjaimia. Esimerkiksi `pm` voi vastata hakutulosta `Päivän muistiinpano`.
 
 Jos teksti ei vastaa mitään muistiinpanoa, voit painaa `Enter` luodaksesi muistiinpanon kyseisellä nimellä. Vaikka teksti vastaisi yhtä tai useampaa samankaltaista muistiinpanoa, voit silti luoda muistiinpanon täsmälleen kyseisellä nimellä painamalla `Shift+Enter`.
 

@@ -31,6 +31,7 @@ Si no veus cap contingut a Obsidian quan fas clic a **Agregar a Obsidian**:
 
 - Assegura't que el protocol [[Obsidian URI]] [[Obsidian URI#Registrar l'URI d'Obsidian|estigui registrat]].
 - Si utilitzes Firefox pot ser que necessitis [registrar-lo a la configuració del navegador](https://kb.mozillazine.org/Register_protocol).
+- Si utilitzes Flatpak, pot ser que necessitis actualitzar el valor `x-scheme-handler/obsidian` que es troba al teu `.config/mimeapps.list` de `obsidian.desktop` a `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian s'obre però només es desa el nom del fitxer
 

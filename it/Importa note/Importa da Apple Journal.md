@@ -2,6 +2,8 @@
 permalink: import/apple-journal
 aliases:
   - Import from Apple Journal
+cssclasses:
+  - soft-embed
 ---
 Obsidian ti permette di migrare facilmente le voci del tuo diario da Apple Journal utilizzando il [[Importatore|plugin Importer]].
 Questo convertirà i tuoi diari in file Markdown durevoli, che potrai utilizzare con Obsidian e molte altre app.

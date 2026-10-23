@@ -23,6 +23,7 @@ Obsidian untuk iOS menawarkan beberapa widget untuk melakukan tindakan cepat pad
 ### Widget Layar Kunci dan Control Center
 
 Widget Layar Kunci dan Control Center memungkinkan Anda untuk:
+- Membuka Quick Capture
 - Membuat catatan baru
 - Membuka catatan tertentu
 - Membuka catatan harian
@@ -32,6 +33,7 @@ Widget Layar Kunci dan Control Center memungkinkan Anda untuk:
 ### Widget Layar Utama
 
 Widget Layar Utama memungkinkan Anda untuk:
+- Membuka Quick Capture
 - Membuat catatan
 - Melihat catatan
 - Membuka catatan harian Anda
@@ -52,15 +54,85 @@ Opsi konfigurasi widget **Lihat Catatan**:
 
 ![[ios-view-note-configuration.png|400]]
 
+## Quick Capture
+
+Quick Capture memungkinkan Anda menyimpan teks ke brankas Anda dari widget Layar Kunci, Control Center, Layar Utama, atau Shortcuts tanpa menunggu brankas Anda dimuat. Tergantung pada lokasi tangkapan yang Anda pilih, Quick Capture dapat membuat catatan baru atau menambahkan teks ke catatan yang sudah ada.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Catatan
+> Quick Capture memerlukan Obsidian 1.14 atau lebih baru dan iOS atau iPadOS 26 atau lebih baru.
+
+Untuk menangkap teks:
+
+1. Tambahkan widget **Quick Capture** ke Layar Kunci, Control Center, atau Layar Utama Anda.
+2. Ketuk widget untuk membuka Quick Capture.
+3. Masukkan teks Anda.
+4. Untuk mengubah tempat penyimpanan teks, ketuk lokasi tangkapan di bagian atas layar dan pilih lokasi lain.
+5. Ketuk tanda centang untuk menyimpan teks.
+
+**Catatan**: Jika Live Activities diaktifkan, catatan quick capture juga muncul di Layar Kunci dan, pada model iPhone yang didukung, di Dynamic Island. Ketuk bilah atau Live Activity untuk melanjutkan pengeditan.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Lokasi tangkapan
+
+Lokasi tangkapan menentukan di mana Quick Capture menyimpan teks Anda. Lokasi tangkapan dapat:
+
+- Membuat catatan baru di folder yang dipilih, dengan templat opsional dan nama catatan kustom.
+- Menambahkan teks di akhir atau awal catatan harian Anda.
+- Menambahkan teks di akhir atau awal catatan yang dibookmark.
+- Menambahkan teks di akhir atau awal catatan lain yang Anda pilih.
+
+Untuk membuat lokasi tangkapan:
+1. Buka Quick Capture.
+2. Ketuk lokasi tangkapan di bagian atas layar.
+3. Ketuk tombol plus (+).
+4. Pilih perilaku dan konfigurasikan pengaturan opsional.
+5. Ketuk **Save**.
+
+Anda juga dapat menggunakan **Open Note after Capture** untuk memilih apakah Obsidian membuka catatan tujuan setelah menyimpan tangkapan.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Templat Quick Capture
+
+Anda dapat menerapkan templat untuk memformat teks yang ditangkap. Templat Quick Capture mendukung placeholder berikut:
+
+| Placeholder | Deskripsi |
+| --- | --- |
+| `{{content}}` | Teks yang ditangkap |
+| `{{date}}` | Tanggal saat ini |
+| `{{time}}` | Waktu saat ini |
+| `{{latitude}}` | Lintang saat ini |
+| `{{longitude}}` | Bujur saat ini |
+| `{{shortAddress}}` | Bentuk singkat dari alamat saat ini |
+| `{{fullAddress}}` | Alamat lengkap saat ini |
+| `{{googleMapsLink}}` | Tautan Google Maps ke lokasi saat ini |
+| `{{appleMapsLink}}` | Tautan Apple Maps ke lokasi saat ini |
+| `{{openStreetMapLink}}` | Tautan OpenStreetMap ke lokasi saat ini |
+
+Untuk mengonfigurasi widget Quick Capture untuk lokasi tangkapan tertentu, gunakan langkah-langkah di [[#Menyesuaikan widget]]. Widget Layar Utama dapat menampilkan beberapa lokasi tangkapan.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Shortcuts
 
 Obsidian terintegrasi dengan aplikasi Shortcuts dari Apple, memungkinkan Anda membuat automasi yang canggih. Shortcut yang tersedia meliputi:
 
-- **Buka catatan** — Buka catatan tertentu di brankas Anda
-- **Buat catatan baru** — Buat catatan baru di brankas Anda
-- **Buka catatan harian** — Langsung menuju catatan harian hari ini
+- **Quick Capture** — Buka Quick Capture menggunakan lokasi tangkapan yang dikonfigurasi
+- **Buka Bookmark** - Buka catatan yang dibookmark dari brankas Anda
+- **Buka Catatan Baru** — Buat catatan baru di brankas Anda
+- **Buka Catatan Harian** — Langsung menuju catatan harian hari ini
 - **Tangkap ke Catatan Harian** — Tambahkan teks di akhir atau awal catatan harian tanpa membuka aplikasi Obsidian
 - **Tangkap ke Bookmark** — Tambahkan teks di akhir atau awal catatan yang dibookmark tanpa membuka aplikasi Obsidian
+- **Dapatkan Catatan yang Dibookmark** — Mendapatkan teks dari catatan yang dibookmark
+- **Dapatkan Catatan Harian** — Mendapatkan teks dari catatan harian
+- **Cari Brankas** — Cari brankas Anda berdasarkan kata kunci
+- **Bookmark Tautan** — Tambahkan tautan web ke bookmark Anda
+- **Buka Obsidian** — Membuka Obsidian
 
 Shortcut tangkapan sangat berguna untuk pencatatan cepat, karena memungkinkan Anda menambahkan konten ke catatan di latar belakang.
 
@@ -147,6 +219,7 @@ Placeholder templat yang didukung:
 | `{{published: YYYY-MM-DD}}` | Tanggal publikasi menggunakan format tanggal kustom |
 | `{{site}}` | Nama situs web |
 | `{{title}}` | Judul artikel |
+| `{{url}}` | URL artikel |
 | `{{wordCount}}` | Jumlah total kata dalam konten yang diekstrak |
 
 Anda juga dapat menggunakan placeholder tanggal dan waktu templat standar:

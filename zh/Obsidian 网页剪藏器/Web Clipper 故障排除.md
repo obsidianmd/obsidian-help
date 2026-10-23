@@ -35,6 +35,7 @@ Web Clipper 使用 [Defuddle](https://github.com/kepano/defuddle) 来仅抓取�
 
 - 确保 [[Obsidian URI]] 协议[[Obsidian URI#注册 Obsidian URI|已注册]]。
 - 如果你使用 Firefox，可能需要[在浏览器设置中注册协议](https://kb.mozillazine.org/Register_protocol)。
+- 如果你使用 Flatpak，可能需要将 `.config/mimeapps.list` 中的 `x-scheme-handler/obsidian` 值从 `obsidian.desktop` 更新为 `md.obsidian.Obsidian.desktop`。
 
 #### Obsidian 打开了但只保存了文件名
 

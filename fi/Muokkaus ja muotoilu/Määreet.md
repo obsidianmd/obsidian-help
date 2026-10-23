@@ -14,7 +14,7 @@ Muistiinpanoon voi lisätä määreen usealla tavalla:
 
 - Käytä **Lisää tiedostolle määre** -[[Komentovalikko|komentoa]].
 - Käytä **`Cmd/Ctrl+;`** -[[Pikanäppäimet|pikanäppäintä]].
-- Valitse **Lisää tiedostolle määre** **Lisätoiminnot**-valikosta (kolme pistettä -kuvake tai välilehden oikea napsautus).
+- Valitse **Lisää tiedostolle määre** [[Lisäasetukset-valikko|lisäasetukset-valikosta]] (kolme pistettä -kuvake tai välilehden oikea napsautus).
 - Kirjoita `---` tiedoston alkuun.
 
 Kun lisäät määreen, tiedoston yläosaan ilmestyy rivi, jossa on kaksi kenttää: määreen _nimi_ ja määreen _arvo_.

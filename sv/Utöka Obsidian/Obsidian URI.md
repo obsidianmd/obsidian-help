@@ -44,6 +44,16 @@ Parametern `action` är den åtgärd du vill utföra. Tillgängliga åtgärder i
 > [!tip] Öppna en rubrik eller ett block
 > Med korrekt URI-kodning kan du navigera till en rubrik eller ett block inom en anteckning. `Note%23Heading` skulle navigera till rubriken "Heading", medan `Note%23%5EBlock` skulle navigera till blocket "Block".
 
+### Kopiera en Obsidian-URL
+
+Obsidian kan bygga en `open`-URI för den aktiva anteckningen, så att du inte behöver skriva den själv. Appen kallar detta en Obsidian-URL. Den inkluderar valvnamnet och sökvägen till anteckningen.
+
+Du kan kopiera Obsidian-URL:en på något av följande sätt.
+
+- I [[Kommandopalett|kommandopaletten]], välj **Kopiera Obsidian URL för aktuell fil**.
+- I anteckningen, välj **Fler alternativ** ![[lucide-more-horizontal.svg#icon]], och välj sedan **Kopiera sökväg → som Obsidian-URL**. Se [[Fler alternativ-menyn]].
+- På skrivbordet, högerklicka på en fil i [[Filutforskare|filutforskaren]], och välj sedan **Kopiera sökväg → som Obsidian-URL**.
+
 ### Parametrar
 
 - `vault` kan vara antingen valvnamnet eller valv-id:t[^1].

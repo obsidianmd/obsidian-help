@@ -1,7 +1,7 @@
 ---
 permalink: publish/security
 ---
-Możesz wybrać notatki, które chcesz opublikować w [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Reszta Twoich notatek pozostaje bezpiecznie w Twoim skarbcu.
+Możesz wybrać notatki, które chcesz opublikować w [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Reszta Twoich notatek pozostaje bezpiecznie w Twoim sejfie.
 
 Tylko wybrane przez Ciebie notatki są wysyłane na serwery Obsidian, a notatki, które cofniesz z publikacji, zostaną usunięte.
 

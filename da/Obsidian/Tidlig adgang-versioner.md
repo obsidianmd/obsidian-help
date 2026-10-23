@@ -5,7 +5,6 @@ aliases:
   - Tidlig adgang til nye versioner
   - Obsidian/Tidlig adgang til nye versioner
 ---
-
 Du kan modtage tidlige versioner af Obsidian ved at aktivere: _Modtag insiderversioner_. Denne funktion er kun tilgængelig for brugere med en [[Catalyst licens]].
 
 > [!warning]
@@ -25,7 +24,7 @@ For at modtage tidlige udgaver af Obsidian, så snart de er tilgængelige, så s
 6. Når du er logget ind, så gå ind i indstillingerne
 7. Vælg **Om** i venstre sidebar
 8. Aktiver **Modtage insiderversioner**
-9. Klik på **Tjek for opdateringer** og derefter **Genstart**
+9. Klik på **Tjek for opdateringer** og derefter **Genstart**
 
 ## Sådan installerer du insiderversionber på mobilenheder
 
@@ -50,7 +49,7 @@ Du kan finde Obsidians versionsnummer under ***Indstillinger → Om → Version*
 
 ## Sådan skifter du tilbage til en officiel udgave af Obsidian på desktop
 
-For at skifte tilbage til en officiel udgave (ikke en insiderversion), skal du:
+For at deaktivere insiderversioner og vende tilbage til din sidst installerede offentlige version på desktop:
 
 1. Deaktivere funktionen til at modtage insiderversioner
    1. Åben **Indstillinger**
@@ -62,10 +61,11 @@ For at skifte tilbage til en officiel udgave (ikke en insiderversion), skal du:
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Genstart Obsidian
+5. Hvis Obsidian ikke er på den seneste offentlige version bagefter, skal du opdatere [[Opdatér Obsidian#Installer updates|installationsversionen]].
 
 ## Sådan skifter du tilbage til en officiel udgave af Obsidian på en mobil enhed
 
-For at skifte tilbage til en officiel udgave (ikke en insiderversion) på en mobil enhed, skal du:
+For at nedgradere fra en insiderversion til den seneste offentlige version på en mobil enhed:
 
 1. Foretag en backup af din boksdata
 2. Afinstaller Obsidian

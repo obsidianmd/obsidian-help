@@ -36,3 +36,5 @@ Obsidian tukee seuraavia: [CommonMark](https://commonmark.org/), [GitHub Flavore
 | `- [x]`         | [[Muotoilun perussyntaksi#Tehtäväluettelot\|Valmis tehtävä]]          |
 | `> [!note]`     | [[Nostolaatikot]]                                                     |
 | (katso linkki)  | [[Muotoilun lisäsyntaksi#Taulukot\|Taulukot]]                        |
+
+Jotkut näistä, kuten sisäiset linkit, kommentit ja korostukset, ovat Obsidianille ominaisia. Muut Markdown-sovellukset voivat näyttää ne pelkkänä tekstinä.

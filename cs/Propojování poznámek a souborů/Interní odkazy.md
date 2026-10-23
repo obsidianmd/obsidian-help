@@ -21,6 +21,10 @@ Obsidian podporuje následující formáty odkazů:
 
 Výše uvedené příklady jsou ekvivalentní, zobrazují se v editoru stejným způsobem a odkazují na stejnou poznámku.
 
+Pro odkaz na poznámku ve složce uveďte cestu ke složce před názvem poznámky. Cesty ke složkám začínají od kořene trezoru a používají lomítka (`/`), i na Windows: `[[Projects/Three laws of motion]]` nebo `[Three laws of motion](Projects/Three%20laws%20of%20motion.md)`.
+
+Pokud odkaz směřuje na poznámku, která ještě neexistuje, Obsidian vytvoří poznámku na dané cestě ke složce místo použití vašeho [[Nastavení#Výchozí umístění nové poznámky|výchozího umístění nové poznámky]].
+
 > [!note] Poznámka
 > Při použití formátu Markdown se ujistěte, že cíl odkazu je [URL kódovaný](https://en.wikipedia.org/wiki/Percent-encoding). Například mezery se změní na `%20`.
 
@@ -45,8 +49,6 @@ Pro vytvoření odkazu v režimu úprav použijte jeden z následujících způs
 - Zadejte `[[` v editoru a poté vyberte soubor, na který chcete vytvořit odkaz.
 - Vyberte text v editoru a poté zadejte `[[`.
 - Otevřete [[Paleta příkazů|paletu příkazů]] a vyberte Přidat interní odkaz.
-
-![[Rychlé přepínání#^search-autocomplete-large]]
 
 I když můžete odkazovat na jakýkoli z [[Podporované formáty souborů|podporovaných formátů souborů]], odkazy na jiné formáty než Markdown musí obsahovat příponu souboru, například `[[Figure 1.png]]`.
 

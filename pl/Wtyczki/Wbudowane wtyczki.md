@@ -18,20 +18,18 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 
 ### Wszystkie wbudowane wtyczki
 
-- [[Wprowadzenie do Baz danych|Bazy danych]]
+- [[Wprowadzenie do baz danych|bazy danych]]
 	- Twórz niestandardowe podglądy, które umożliwiają edycję, sortowanie i filtrowanie plików na podstawie ich atrybutów.
 - [[Dyktafon]]
 	- Nagrywaj i zapisuj nagrania audio bezpośrednio w notatce.
 - [[Dziennik]]
 	- Twórz i otwieraj notatki na podstawie bieżącej daty.
-- [[Eksplorator plików]]
-	- Przeglądaj pliki i foldery w swoim skarbcu.
+- [[Przeglądarka plików]]
+	- Przeglądaj pliki i foldery w swoim sejfie.
 - [[Kompozytor notatek]]
 	- Połącz dwie notatki lub podziel jedną na dwie.
 - [[Konspekt]]
 	- Wyświetlaj spis treści dla aktywnej notatki.
-- [[Konwerter formatowania]]
-	- Dostosuj format Markdown z innych aplikacji do formatu Obsidian.
 - [[Kreator niepowtarzalnych notatek]]
 	- Twórz niepowtarzalne notatki z tytułem opartym na kodzie czasowym.
 - [[Liczba słów]]
@@ -41,7 +39,7 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 - [[Lista poleceń]]
 	- Szybki dostęp do poleceń z poziomu klawiatury.
 - [[Losowa notatka]]
-	- Otwiera losową notatkę w Twoim skarbcu.
+	- Otwiera losową notatkę w Twoim sejfie.
 - [[Obszary robocze]]
 	- Zapisuj układy i przełączaj się między nimi.
 - [[Odzyskiwanie plików]]
@@ -49,13 +47,13 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 - [[Okno szybkiego wyboru]]
 	- Wyszukuj, twórz i otwieraj notatki z poziomu klawiatury.
 - [[Panel atrybutów]]
-	- Wyświetlaj listę wszystkich atrybutów w skarbcu oraz atrybuty aktywnej notatki.
+	- Wyświetlaj listę wszystkich atrybutów w sejfie oraz atrybuty aktywnej notatki.
 - [[Panel przypisów]]
 	- Wyświetlaj listę przypisów z bieżącej notatki.
 - [[Panel tagów|Panel tagów]]
-	- Wyświetlaj listę wszystkich tagów w skarbcu.
+	- Wyświetlaj listę wszystkich tagów w sejfie.
 - [[Podgląd grafu]]
-	- Wizualizuj relacje między notatkami w swoim skarbcu.
+	- Wizualizuj relacje między notatkami w swoim sejfie.
 - [[Podgląd notatki]]
 	- Wyświetlaj podgląd zawartości notatki po najechaniu na linki.
 - [[Przeglądarka internetowa]]
@@ -68,11 +66,11 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 	- Synchronizuj notatki między urządzeniami.
 - [[Wtyczki/Szablony|Szablony]]
 	- Wstawiaj predefiniowaną zawartość do swoich notatek.
-- [[Szukaj]]
-	- Znajduj pliki w swoim skarbcu.
+- [[Wyszukiwarka]]
+	- Znajduj pliki w swoim sejfie.
 - [[Tablica]]
 	- Organizuj notatki wizualnie na nieskończonej przestrzeni do rozmieszczania pomysłów.
-- [[Ukośnik komend]]
+- [[Ukośnik poleceń]]
 	- Wykonuj polecenia w edytorze za pomocą klawisza `/`.
 - [[Ulubione]]
 	- Zapisuj linki do notatek, nagłówków, wyszukiwań i nie tylko.
@@ -86,4 +84,4 @@ Zespół Obsidian utrzymuje również wtyczki dostępne w sklepie wtyczek społe
 - [[Importer]]
 	- Konwertuj pliki z różnych aplikacji i formatów do Obsidian.
 - [[Podgląd Mapa|Mapy]]
-	- Dodaj widok mapy do Baz danych Obsidian.
+	- Dodaj widok mapy do baz danych Obsidian.

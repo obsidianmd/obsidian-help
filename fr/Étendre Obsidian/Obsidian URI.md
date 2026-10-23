@@ -45,6 +45,16 @@ L'action `open` ouvre un coffre Obsidian, ou ouvre un fichier dans ce coffre.
 > [!tip] Ouvrir un entête ou un bloc
 > Avec un encodage URI correct, vous pouvez naviguer vers un entête ou un bloc dans une note. `Note%23Heading` naviguerait vers l'entête appelé « Heading », tandis que `Note%23%5EBlock` naviguerait vers le bloc appelé « Block ».
 
+### Copier une URL Obsidian
+
+Obsidian peut construire une URI `open` pour la note active, afin que vous n'ayez pas à l'écrire vous-même. L'application appelle cela une URL Obsidian. Elle inclut le nom du coffre et le chemin vers la note.
+
+Vous pouvez copier l'URL Obsidian de l'une des manières suivantes.
+
+- Dans la [[Palette de commandes]], sélectionnez **Copier l'URL Obsidian**.
+- Dans la note, sélectionnez **Plus d'options** ![[lucide-more-horizontal.svg#icon]], puis sélectionnez **Copier le chemin → en tant qu'URL Obsidian**. Voir [[Menu Plus d'options]].
+- Sur le bureau, faites un clic droit sur un fichier dans l'[[Explorateur de fichiers]], puis sélectionnez **Copier le chemin → en tant qu'URL Obsidian**.
+
 ### Paramètres
 
 - `vault` peut être soit le nom du coffre, soit l'id du coffre[^1].

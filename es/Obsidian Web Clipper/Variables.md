@@ -17,26 +17,30 @@ Las variables predefinidas se generan automáticamente basándose en el contenid
 
 La variable de contenido principal es `{{content}}`, que contiene el contenido del artículo, los [[Resaltador|resaltados]], o la selección si hay texto seleccionado en la página. Ten en cuenta que `{{content}}` intenta extraer el contenido principal de la página, lo que puede no ser siempre lo que deseas. En ese caso, puedes usar otras variables predefinidas o variables de selector para extraer el contenido que necesitas.
 
-| Variable            | Descripción                                                                             |
-| ------------------- | --------------------------------------------------------------------------------------- |
-| `{{author}}`        | Autor de la página                                                                      |
+| Variable            | Descripción                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------ |
+| `{{author}}`        | Autor de la página                                                                   |
 | `{{content}}`       | Contenido del artículo, [[Resaltador\|resaltados]], o selección, en formato Markdown |
 | `{{contentHtml}}`   | Contenido del artículo, [[Resaltador\|resaltados]], o selección, en formato HTML     |
-| `{{date}}`          | Fecha actual, se puede formatear usando el filtro `date`                                |
-| `{{description}}`   | Descripción o extracto                                                                  |
-| `{{domain}}`        | Dominio                                                                                 |
-| `{{favicon}}`       | URL del favicon                                                                         |
-| `{{fullHtml}}`      | HTML sin procesar del contenido completo de la página                                   |
-| `{{highlights}}`    | [[Resaltador\|Resaltados]] con texto y marcas de tiempo                       |
-| `{{image}}`         | URL de la imagen para compartir en redes sociales                                       |
-| `{{published}}`     | Fecha de publicación, se puede formatear usando el filtro `date`                        |
-| `{{selection}}`     | Selección en formato Markdown                                                           |
-| `{{selectionHtml}}` | Selección en formato HTML                                                               |
-| `{{site}}`          | Nombre del sitio o editor                                                               |
-| `{{title}}`         | Título de la página                                                                     |
-| `{{time}}`          | Fecha y hora actuales                                                                   |
-| `{{url}}`           | URL actual                                                                              |
-| `{{words}}`         | Conteo de palabras                                                                      |
+| `{{date}}`          | Fecha actual, se puede formatear usando el filtro `date`                             |
+| `{{description}}`   | Descripción o extracto                                                               |
+| `{{domain}}`        | Dominio                                                                              |
+| `{{favicon}}`       | URL del favicon                                                                      |
+| `{{fullHtml}}`      | HTML sin procesar del contenido completo de la página                                |
+| `{{highlights}}`    | [[Resaltador\|Resaltados]] con texto y marcas de tiempo                              |
+| `{{image}}`         | URL de la imagen para compartir en redes sociales                                    |
+| `{{language}}`      | Idioma de la página                                                                  |
+| `{{model}}`         | Nombre del modelo del [[Intérprete]]                                                 |
+| `{{modelId}}`       | ID del modelo del [[Intérprete]]                                                     |
+| `{{modelProvider}}` | Proveedor del modelo del [[Intérprete]]                                              |
+| `{{published}}`     | Fecha de publicación, se puede formatear usando el filtro `date`                     |
+| `{{selection}}`     | Selección en formato Markdown                                                        |
+| `{{selectionHtml}}` | Selección en formato HTML                                                            |
+| `{{site}}`          | Nombre del sitio o editor                                                            |
+| `{{title}}`         | Título de la página                                                                  |
+| `{{time}}`          | Fecha y hora actuales                                                                |
+| `{{url}}`           | URL actual                                                                           |
+| `{{words}}`         | Conteo de palabras                                                                   |
 
 ## Variables de prompt
 

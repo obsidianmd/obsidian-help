@@ -58,6 +58,10 @@ translation=Vues
 original=Cards view
 translation=Galerie
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Vue Kanban
+
 [file.bases/views/list]
 original=List view
 translation=Liste
@@ -85,6 +89,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Code de conduite de la communauté
+
+[file.community-directory]
+original=Community directory
+translation=Répertoire communautaire
 
 [file.community-plugins]
 original=Community plugins
@@ -150,6 +158,10 @@ translation=Formats de fichiers acceptés
 original=Financial contributions
 translation=Contributions financières
 
+[file.find-and-replace]
+original=Find and replace
+translation=Trouver et remplacer
+
 [file.folding]
 original=Folding
 translation=Plier
@@ -181,6 +193,10 @@ translation=Contenu HTML
 [file.import]
 original=Import notes
 translation=Importer des notes
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Importer depuis Airtable
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -214,6 +230,10 @@ translation=Importer depuis Google Keep
 original=Import HTML files
 translation=Importer des fichiers HTML
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importer depuis Logseq
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Importer des fichiers Markdown
@@ -230,9 +250,17 @@ translation=Importer depuis Microsoft OneNote
 original=Import from Roam Research
 translation=Importer depuis Roam Research
 
+[file.import/templates]
+original=Importer templates
+translation=Importer des modèles
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Importer des fichiers Textbundle
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importer depuis Tomboy et Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -270,6 +298,10 @@ translation=Gérer les coffres
 original=Mobile app
 translation=Application mobile
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu Plus d'options
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Curseurs multiples
@@ -289,6 +321,10 @@ translation=Site officiel
 [file.payment]
 original=Introduction to licenses and payment
 translation=Introduction aux licences et paiements
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

@@ -54,6 +54,10 @@ translation=Nézetek
 original=Cards view
 translation=Kártyák nézet
 
+[file.bases/views/kanban]
+original=Kanban view
+translation=Kanban nézet
+
 [file.bases/views/list]
 original=List view
 translation=Lista nézet
@@ -81,6 +85,10 @@ translation=Obsidian CLI
 [file.community-code-of-conduct]
 original=Community code of conduct
 translation=Közösségi magatartási kódex
+
+[file.community-directory]
+original=Community directory
+translation=Közösségi könyvtár
 
 [file.community-plugins]
 original=Community plugins
@@ -146,6 +154,10 @@ translation=Elfogadott fájlformátumok
 original=Financial contributions
 translation=Anyagi hozzájárulások
 
+[file.find-and-replace]
+original=Find and replace
+translation=Keresés és Csere
+
 [file.folding]
 original=Folding
 translation=Összecsukás
@@ -173,6 +185,10 @@ translation=HTML tartalom
 [file.import]
 original=Import notes
 translation=Jegyzetek importálása
+
+[file.import/airtable]
+original=Import from Airtable
+translation=Importálás Airtable-ből
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -206,6 +222,10 @@ translation=Importálás a Google Keepből
 original=Import HTML files
 translation=HTML fájlok importálása
 
+[file.import/logseq]
+original=Import from Logseq
+translation=Importálás Logseq-ből
+
 [file.import/markdown]
 original=Import Markdown files
 translation=Markdown fájlok importálása
@@ -222,9 +242,17 @@ translation=Importálás a Microsoft OneNote-ból
 original=Import from Roam Research
 translation=Importálás a Roam Research-ből
 
+[file.import/templates]
+original=Importer templates
+translation=Importáló sablonok
+
 [file.import/textbundle]
 original=Import Textbundle files
 translation=Textbundle fájlok importálása
+
+[file.import/tomboy]
+original=Import from Tomboy and Gnote
+translation=Importálás Tomboy és Gnote alkalmazásból
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -262,6 +290,10 @@ translation=Széfek kezelése
 original=Mobile app
 translation=Mobilalkalmazás
 
+[file.more-options-menu]
+original=More options menu
+translation=További lehetőségek menü
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Több kurzor
@@ -281,6 +313,10 @@ translation=Hivatalos weboldal
 [file.payment]
 original=Introduction to licenses and payment
 translation=Bevezetés a licencekbe és fizetésbe
+
+[file.pdf]
+original=PDFs
+translation=PDF-ek
 
 [file.plugin-security]
 original=Plugin security

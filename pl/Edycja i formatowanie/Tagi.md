@@ -19,7 +19,7 @@ tags:
 
 ## Znajdowanie notatek za pomocą tagów
 
-Aby znaleźć notatki za pomocą wtyczki [[Szukaj]], użyj [[Szukaj#Operatory wyszukiwania|operatora wyszukiwania]] `tag` w swoim zapytaniu, na przykład `tag:#spotkanie`.
+Aby znaleźć notatki za pomocą wtyczki [[Wyszukiwarka]], użyj [[Wyszukiwarka#Operatory wyszukiwania|operatora wyszukiwania]] `tag` w swoim zapytaniu, na przykład `tag:#spotkanie`.
 
 Możesz również wyszukiwać tagi, klikając je w swoich notatkach.
 
@@ -31,9 +31,9 @@ Zagnieżdżone tagi definiują hierarchie tagów, które ułatwiają znajdowanie
 
 Twórz zagnieżdżone tagi, używając ukośników (`/`) w nazwie tagu, na przykład `#skrzynka/do-przeczytania` i `#skrzynka/przetwarzanie`.
 
-- W [[Szukaj|wyszukiwarce]], `tag:skrzynka` dopasuje zarówno `#skrzynka`, jak i wszystkie zagnieżdżone tagi, takie jak `#skrzynka/do-przeczytania`.
+- W [[Wyszukiwarka|wyszukiwarce]], `tag:skrzynka` dopasuje zarówno `#skrzynka`, jak i wszystkie zagnieżdżone tagi, takie jak `#skrzynka/do-przeczytania`.
 - W [[Panel tagów|Panelu tagów]] zagnieżdżone tagi są wyświetlane jako należące do tagu nadrzędnego.
-- W [[Wprowadzenie do Baz danych|Bazach danych]] zagnieżdżone tagi są rozpoznawane przez funkcję [[Funkcje#hasTag|`hasTag`]], więc `file.hasTag("a")` dopasuje zarówno `#a`, jak i `#a/b`.
+- W [[Wprowadzenie do baz danych|bazach danych]] zagnieżdżone tagi są rozpoznawane przez funkcję [[Funkcje#hasTag|`hasTag`]], więc `file.hasTag("a")` dopasuje zarówno `#a`, jak i `#a/b`.
 
 ## Format tagów
 

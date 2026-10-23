@@ -31,6 +31,7 @@ Se você não vir nenhum conteúdo no Obsidian ao clicar em **Adicionar ao Obsid
 
 - Certifique-se de que o protocolo [[Obsidian URI]] [[Obsidian URI#Registrar URI do Obsidian|esteja registrado]].
 - Se você estiver usando o Firefox, pode ser necessário [registrá-lo nas configurações do navegador](https://kb.mozillazine.org/Register_protocol).
+- Se você estiver usando o Flatpak, pode ser necessário atualizar o valor `x-scheme-handler/obsidian` encontrado no seu `.config/mimeapps.list` de `obsidian.desktop` para `md.obsidian.Obsidian.desktop`.
 
 #### O Obsidian abre, mas apenas o nome do arquivo é salvo
 

@@ -31,6 +31,7 @@ permalink: web-clipper/troubleshoot
 
 - Βεβαιωθείτε ότι το πρωτόκολλο [[Obsidian URI]] είναι [[Obsidian URI#Εγγραφή Obsidian URI|καταχωρημένο]].
 - Εάν χρησιμοποιείτε Firefox μπορεί να χρειαστεί να [το καταχωρήσετε στις ρυθμίσεις του προγράμματος περιήγησης](https://kb.mozillazine.org/Register_protocol).
+- Εάν χρησιμοποιείτε Flatpak, μπορεί να χρειαστεί να ενημερώσετε την τιμή `x-scheme-handler/obsidian` που βρίσκεται στο `.config/mimeapps.list` από `obsidian.desktop` σε `md.obsidian.Obsidian.desktop`.
 
 #### Το Obsidian ανοίγει αλλά αποθηκεύεται μόνο το όνομα αρχείου
 

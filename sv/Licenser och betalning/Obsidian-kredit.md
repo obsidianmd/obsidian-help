@@ -5,6 +5,8 @@ Obsidian-kredit är en typ av förbetald kredit som kan köpas i förväg och an
 
 Obsidian-kredit tillämpas innan någon betalning förfaller, inklusive automatiska förnyelser. Obsidian-kredit är **inte** berättigad till återbetalning enligt vår [[Återbetalningspolicy]].
 
+Obsidian-kredit löper inte ut så länge du behåller ditt konto.
+
 ## Lägg till kredit
 
 1. Logga in på [ditt Obsidian-konto](https://obsidian.md/account/billing).

@@ -17,7 +17,7 @@ Découvrez comment étendre Obsidian avec des modules créés par la communauté
 
 Utilisez la zone de texte pour filtrer les modules en fonction de leur nom, auteur et description.
 
-Vous pouvez également parcourir les modules disponibles dans votre navigateur en vous rendant sur [community.obsidian.md](https://community.obsidian.md).
+Vous pouvez également parcourir les modules disponibles dans votre navigateur en vous rendant sur [community.obsidian.md](https://community.obsidian.md). Pour plus d'informations sur ce que la page de présentation d'un module affiche, consultez [[Répertoire communautaire]].
 
 ## Installer un module complémentaire
 

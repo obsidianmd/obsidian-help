@@ -29,25 +29,20 @@ Wanneer je een notitie bewerkt, zie je een rij pictogrammen onderaan de app. De 
 
 ### Mobiele werkbalk aanpassen
 
-Tik in de mobiele werkbalk op **Cofigureer mobiele werkbalk** ![[lucide-wrench.svg#icon]] om de interface te openen om deze aan te passen.
+Selecteer in de mobiele werkbalk **Cofigureer mobiele werkbalk** ![[lucide-wrench.svg#icon]] om de instellingen te openen.
 
-Je kunt dit ook doen in Instellingen.
+Je kunt ook **[[Instellingen]] → Interface → Cofigureer mobiele werkbalk** openen.
 
-1. Open Instellingen.
-2. Kies **Mobiel**.
-3. Onder **Beheer werkbalk opties**, voeg toe, verwijder of herorden de beschikbare opties.
+Onder **Beheer werkbalk opties**, gebruik de sleepgrepen om acties te herordenen en de verwijderknoppen om ze te verwijderen. Selecteer een actie onder **Meer werkbalk opties** om deze toe te voegen.
 
 ### Opdracht toevoegen aan mobiele werkbalk
 
-Standaard zijn de opties die beschikbaar zijn om aan de werkbalk toe te voegen bewerkingsopties zoals "Voeg interne link toe" of "Voeg een label toe".
+Naast bewerkingsacties kun je globale opdrachten toevoegen zoals **Thema wijzigen**.
 
-Daarnaast kun je globale opdrachten toevoegen zoals "Thema wijzigen".
-
-1. Zoek **Beheer werkbalk opties** onder **[[Instellingen]]** → **Mobiel**.
-2. Scrol helemaal naar beneden, zoek **Globale opdracht toevoegen**.
-3. Typ de naam van de opdracht die je wilt toevoegen.
-4. Selecteer de opdracht die je wilt toevoegen.
-5. De nieuwe opdracht wordt aan het einde van de werkbalk toegevoegd.
+1. Open **[[Instellingen]] → Interface → Cofigureer mobiele werkbalk**.
+2. Onder **Beheer werkbalk opties**, selecteer **Een opdracht toevoegen...**.
+3. Zoek de opdracht die je wilt toevoegen.
+4. Selecteer de opdracht om deze aan het einde van de werkbalk toe te voegen.
 
 ## Snelle actie
 
@@ -58,7 +53,7 @@ Snelle actie opent standaard het [[Opdrachtenpaneel|opdrachtenpalet]].
 ### Snelle actie aanpassen
 
 1. Open Instellingen.
-2. Onder **Opties**, kies **Werkbalk**.
+2. Kies **Interface**.
 3. Onder **Configureer mobiele snelle actie**, tik op **Configureren**.
 4. Typ de naam van de opdracht.
 5. Selecteer de opdracht die je wilt instellen.

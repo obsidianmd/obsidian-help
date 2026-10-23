@@ -47,14 +47,14 @@ _Aby umożliwić konfigurację specyficzną dla urządzenia, Obsidian Sync nie s
 - Używaj **pogrubienia**, aby wskazać tekst przycisku.
 - Preferuj „wybierz" zamiast „dotknij" lub „kliknij".
 	- W przypadku instrukcji dotyczących urządzeń mobilnych, „dotknij" jest akceptowalne przy opisywaniu interakcji dotykowych, ponieważ „kliknij" nie ma zastosowania.
-- Preferuj „pasek boczny" zamiast „panel boczny".
+- Preferuj „panel boczny" zamiast „panel boczny".
 - Preferuj „wykonaj" zamiast „wywołaj" lub „uruchom" w odniesieniu do poleceń lub czynności.
 
 Gdy odwołujesz się do wielu interakcji z interfejsem użytkownika w sekwencji, użyj symbolu → (U+2192). Na przykład „**[[Ustawienia]] → Wtyczki społeczności**".
 
 ### Notatki, pliki i foldery
 
-- Używaj „notatka" w odniesieniu do pliku Markdown w skarbcu.
+- Używaj „notatka" w odniesieniu do pliku Markdown w sejfie.
 - Używaj „plik" w odniesieniu do innych rozszerzeń niż Markdown.
 - Preferuj „nazwa notatki" zamiast „tytuł notatki".
 - Preferuj „aktywna notatka" zamiast „bieżąca notatka".
@@ -250,7 +250,7 @@ Używaj bloków wyróżnień strategicznie, aby podkreślić określone typy inf
 > Ta funkcja wymaga płatnej subskrypcji.
 
 > [!warning]+ Tej czynności nie można cofnąć
-> Usunięcie skarbca jest trwałe. Rozważ wcześniejszy eksport notatek.
+> Usunięcie sejfu jest trwałe. Rozważ wcześniejszy eksport notatek.
 
 > [!example]- Zaawansowane użycie
 > Możesz również skonfigurować to ustawienie za pośrednictwem menu Grafu.
@@ -294,7 +294,7 @@ Używaj wewnętrznych odnośników wiki (`[[Nazwa notatki]]`) liberalnie, aby po
 
 **Przykład:**
 
-Pierwsze wspomnienie: „Dowiedz się o [[Wprowadzenie do Obsidian Sync|Obsidian Sync]], aby utrzymać swój skarbiec zaktualizowany na różnych urządzeniach."
+Pierwsze wspomnienie: „Dowiedz się o [[Wprowadzenie do Obsidian Sync|Obsidian Sync]], aby utrzymać swój sejf zaktualizowany na różnych urządzeniach."
 Późniejsze wspomnienie: „Możesz skonfigurować Sync dla każdego urządzenia osobno."
 
 ### Treści specyficzne dla platformy
@@ -320,7 +320,7 @@ W wersji mobilnej możesz dostosować wstążkę poprzez ustawienia:
 
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wygląd**.
-3. Wybierz **Zarządzaj** w sekcji **Konfiguracja menu wstążkowego**.
+3. Wybierz **Zarządzaj** w sekcji **Konfiguracja menu wstążki**.
 ```
 
 > [!info]+ Kiedy tworzyć oddzielne sekcje?
@@ -328,7 +328,7 @@ W wersji mobilnej możesz dostosować wstążkę poprzez ustawienia:
 
 ## Ikony i obrazy
 
-Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisania słowami, lub gdy musisz pokazać ważne części aplikacji Obsidian. Obrazy możesz zapisywać w folderze `Attachments`.
+Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisania słowami, lub gdy musisz pokazać ważne części aplikacji Obsidian. Obrazy możesz zapisywać w folderze `Załączniki`.
 
 - Obraz powinien ułatwiać zrozumienie towarzyszącego mu tekstu.
 
@@ -350,7 +350,7 @@ Ikony [Lucide](https://lucide.dev/icons/) i niestandardowe ikony Obsidian mogą 
 
 **Wytyczne dotyczące ikon**
 
-- Przechowuj ikony w folderze `Attachments/icons`.
+- Przechowuj ikony w folderze `Załączniki/icons`.
 - Dodaj prefiks `lucide-` przed nazwą ikony Lucide.
 - Dodaj prefiks `obsidian-icon-` przed nazwą ikony Obsidian.
 

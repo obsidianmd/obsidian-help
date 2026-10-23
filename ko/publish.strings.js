@@ -1,4 +1,5 @@
 // Locale UI strings — Korean
+window.LANG_SWITCHER_STRINGS = { search: "언어 전환...", noResults: "결과 없음" };
 (function () {
   function apply() {
     var el;

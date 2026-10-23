@@ -80,9 +80,17 @@ Estas são mensagens detalhando o que foi ignorado, e potencialmente o porquê.
 
 **Unable to download file with illegal name**
 
-O arquivo contém um [caractere especial ou convenção de nomenclatura](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) que não é permitido no sistema operacional receptor. Para facilitar, você pode renomear o arquivo no dispositivo de origem para remover todos os caracteres especiais exceto `-` e `_`.
+O nome do arquivo usa um [caractere especial ou convenção de nomenclatura](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names) que o sistema operacional receptor não pode armazenar. Renomeie o arquivo no dispositivo de origem e deixe o Sync fazer o upload do arquivo renomeado novamente.
 
-Note que isso também inclui arquivos com múltiplos pontos `.` no nome em dispositivos Android.
+Para cofres sincronizados entre diferentes sistemas operacionais, evite o seguinte em nomes de arquivos e pastas:
+
+- Caracteres comumente reservados por sistemas de arquivos, como `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` e `|`
+- Um espaço ou ponto no final do nome
+- Nomes de dispositivos reservados do Windows, como `CON`, `PRN`, `AUX`, `NUL`, `COM1` até `COM9` ou `LPT1` até `LPT9`
+- Caracteres que o Obsidian usa para links, como `#`, `^`, `[` e `]`, se você quiser nomes de notas compatíveis com links
+- Múltiplos pontos `.` em um nome de arquivo, ou emoji, ambos os quais alguns dispositivos Android podem rejeitar
+
+Em caso de dúvida, use letras, números, espaços regulares dentro do nome, hifens `-`, sublinhados `_` e um ponto antes da extensão do arquivo.
 
 ### Mensagens de conta
 

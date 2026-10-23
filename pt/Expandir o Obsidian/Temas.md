@@ -8,6 +8,8 @@ Saiba como alterar a aparência do Obsidian utilizando temas criados pela comuni
 1. Abra as **[[Definições]]**.
 2. Em **Aparência → Temas**, selecione **Gerir** para listar todos os temas da comunidade disponíveis.
 
+Também pode explorar os temas disponíveis no seu navegador, acedendo a [community.obsidian.md](https://community.obsidian.md). Para mais informações sobre o que a página de listagem de um tema mostra, consulte [[Diretório da comunidade]].
+
 ## Instalar um novo tema
 
 1. Abra as **[[Definições]]**.

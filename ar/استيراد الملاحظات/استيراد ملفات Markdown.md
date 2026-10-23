@@ -3,6 +3,8 @@ permalink: import/markdown
 aliases:
   - استيراد ملفات Markdown
   - Import Markdown files
+cssclasses:
+  - soft-embed
 ---
 
 يستخدم Obsidian ملفات التنسيق <code dir="ltr">.md</code> باعتبارها التنسيق الأساسي للملاحظات. وهذا يسهل استيراد ملفات تنسيق Markdown إلى Obsidian. تستطيع العديد من التطبيقات تحرير ملفات تنسيق Markdown أو تصديرها بهذا التنسيق.

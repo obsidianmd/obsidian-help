@@ -5,6 +5,8 @@ El Crèdit Obsidian és un tipus de crèdit prepagat que es pot comprar per enda
 
 El Crèdit Obsidian s'aplicarà abans de qualsevol pagament pendent, incloent-hi les renovacions automàtiques. El Crèdit Obsidian **no és** elegible per a reemborsament segons la nostra [[Política de reemborsament|Política de reemborsament]].
 
+El Crèdit Obsidian no caduca mentre mantinguis el teu compte.
+
 ## Afegir crèdit
 
 1. Inicia sessió al [teu compte d'Obsidian](https://obsidian.md/account/billing).

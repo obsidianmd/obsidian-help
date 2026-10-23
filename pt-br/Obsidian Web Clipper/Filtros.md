@@ -102,6 +102,13 @@ Remove espaços em branco de ambas as extremidades de uma string.
 
 - `"  hello world  "|trim` retorna `"hello world"`.
 
+### `unescape`
+
+Converte aspas escapadas e sequências de nova linha em caracteres literais.
+
+- `"Line 1\\nLine 2"|unescape` retorna o texto em duas linhas.
+- `'He said \\"hello\\"'|unescape` retorna `He said "hello"`.
+
 ### `uncamel`
 
 Converte camelCase ou PascalCase para palavras separadas por espaço, que você pode formatar ainda mais com outros filtros como `title` ou `capitalize`.
@@ -157,7 +164,7 @@ Converte strings, arrays ou objetos em sintaxe de link Markdown (não confundir 
 
 - Para strings: `"url"|link:"author"` retorna `[author](url)`.
 - Para arrays: `["url1","url2"]|link:"author"` retorna um array de links Markdown com o mesmo texto para todos os links.
-- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna links Markdown com o texto que corresponde às chaves do objeto.
+- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna links Markdown com o texto correspondente às chaves do objeto.
 
 ### `list`
 
@@ -206,6 +213,14 @@ Retorna o comprimento de strings, arrays ou número de chaves em objetos.
 - Para arrays: `["a","b","c"]|length` retorna `3`.
 - Para objetos: `{"a":1,"b":2}|length` retorna `2`.
 
+### `number_format`
+
+Formata um número com um número especificado de casas decimais e separadores opcionais de decimal e milhares.
+
+- `1234.567|number_format:2` retorna `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` retorna `"1.234,57"`.
+- Arrays e objetos são formatados recursivamente.
+
 ### `round`
 
 Arredonda um número para o inteiro mais próximo ou para um número especificado de casas decimais.
@@ -216,6 +231,10 @@ Arredonda um número para o inteiro mais próximo ou para um número especificad
 ## Processamento de HTML
 
 Processar conteúdo HTML e converter HTML para Markdown. Note que sua [[Variáveis|variável]] de entrada deve conter conteúdo HTML, por exemplo, usando `{{fullHtml}}`, `{{contentHtml}}` ou uma variável `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Converte HTML em JSON estruturado contendo a tag, atributos e filhos de cada elemento. Nós de texto usam o formato `{"type":"text","content":"..."}`. Isso pode ser combinado com filtros como `map`, `object` e `template` para reformatar HTML extraído.
 
 ### `markdown` 
 
@@ -255,7 +274,7 @@ Substitui tags HTML, mantendo o conteúdo e os atributos da tag.
 Remove **todos** os atributos HTML de uma string.
 
 - Use `strip_attr:("class, id")` para manter atributos específicos.
-- Exemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div id="example">Content</div>`.
+- Exemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -339,6 +358,13 @@ Manipula dados de objetos:
 - `object:keys` retorna um array das chaves do objeto.
 - `object:values` retorna um array dos valores do objeto.
 - Exemplo: `{"a":1,"b":2}|object:array` retorna `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Inverte strings, arrays e a ordem de entradas de objetos.
+
+- `"abc"|reverse` retorna `"cba"`.
+- `["a","b","c"]|reverse` retorna `["c","b","a"]`.
 
 ### `slice`
 

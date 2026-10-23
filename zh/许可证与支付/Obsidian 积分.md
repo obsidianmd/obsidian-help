@@ -10,6 +10,8 @@ Obsidian 积分是一种预付积分，可以提前购买并用于支付任何 O
 
 Obsidian 积分将在任何付款到期之前自动抵扣，包括自动续费。根据我们的[[退款政策]]，Obsidian 积分**不可**退款。
 
+只要你保留账户，Obsidian 积分就不会过期。
+
 ## 添加积分
 
 1. 登录[你的 Obsidian 账户](https://obsidian.md/zh/account/billing)。

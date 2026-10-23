@@ -19,6 +19,27 @@ Voit luoda muistiinpanoja myös [[Tiedostoselain#Luo uusi muistiinpano|tiedostos
 > Obsidian noudattaa sen käyttöjärjestelmän tiedostonimirajoituksia, jossa muistiinpano luodaan. Jos aiot [[Synkronoi muistiinpanosi laitteiden välillä|synkronoida muistiinpanosi laitteiden välillä]], varmista, että tiedostonimet ovat [turvallisia muillekin käyttöjärjestelmille](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Avaa tiedostoja holvin ulkopuolelta
+
+Työpöytäsovelluksessa voit avata ja muokata yksittäisiä Markdown-tiedostoja holvin ulkopuolelta. Tiedostot avautuvat nykyiseen ikkunaasi ja pysyvät alkuperäisessä sijainnissaan.
+
+> [!note] Vaatii Obsidian 1.14:n ja uusimman asennusohjelman
+> [[Päivitä Obsidian#Asennusohjelman päivitykset|Päivitä asennusohjelmasi]] lataamalla Obsidian osoitteesta [obsidian.md/download](https://obsidian.md/download) ja asentamalla sovellus uudelleen.
+
+Markdown-tiedoston avaaminen:
+
+1. Avaa [[Komentovalikko]].
+2. Valitse **Avaa tiedosto holvin ulkopuolelta...**.
+3. Valitse Markdown-tiedosto tietokoneeltasi.
+
+Voit myös käyttää käyttöjärjestelmäsi **Avaa sovelluksessa** -valikkoa ja valita **Obsidian**. Jos haluat avata Markdown-tiedostot Obsidianissa oletuksena, aseta se `.md`-tiedostojen oletussovellukseksi.
+
+Kuvien upotteet ja linkit muihin paikallisiin tiedostoihin viittaavat suhteessa Markdown-tiedoston kansioon. Käytä [[Sisällysluettelo|sisällysluetteloa]] otsikoissa navigointiin ja [[Lähtevät linkit|lähteviä linkkejä]] linkitettyjen tiedostojen selaamiseen.
+
+### Esikatsele tiedostoja Quick Lookilla
+
+macOS:ssa valitse Markdown-tiedosto Finderissa ja paina `välilyöntiä` esikatsellaksesi sitä **Quick Lookilla**. Quick Look -esikatselu toimii myös silloin, kun Obsidian on suljettuna.
+
 ## Muuta muistiinpanon nimeä
 
 Aktiivisen muistiinpanon nimen muuttaminen:

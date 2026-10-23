@@ -6,23 +6,28 @@ aliases:
 publish: true
 mobile: true
 ---
+Arbejdsområdet er hovedbeholderen for alle de komponenter, der udgør Obsidians brugerflade. Det består af forskellige elementer arrangeret omkring dine noter, så du kan tilpasse, hvordan du ser og interagerer med dit indhold.
+
 ## Desktop
 
-Et arbejdsområde i desktop versionen af Obsidian indholder følgende komponenter:
+I Obsidians desktop-app indeholder arbejdsområdet:
 
-- [[Faner#Grupper faner|Fanegrupper]] i midten og kan deles vertikalt eller horisontalt
-	- [[Faner]] 
-- [[Sidepanel|Sidepaneler]] som kan vises eller skjules på henholdsvis venstre og højre side
-	- [[Sidepanel#Paneler|Panelgrupper]]
-		- [[Sidepanel#Faner|Faner]]
-- [[Båndmenu]] (Kun i venstre side)
-- [[Statusbar]]
+- [[Båndmenu]] lodret i venstre side af appen
+- [[Sidepanel|Sidepaneler]] på venstre og højre side (kan skjules)
+    - [[Sidepanel#Paneler|Panelgrupper]] (kan deles vertikalt)
+    - [[Sidepanel#Faner|Faner]]
+- [[Faner#Grupper faner|Fanegrupper]] i det centrale indholdsområde (kan deles vertikalt eller horisontalt)
+    - [[Faner]]
+    - [[Flere muligheder-menu]] i øverste højre hjørne af hver note
+- [[Statusbar]] i nederste højre hjørne
 
 ## Mobil
 
-Et arbejdsområde i mobil versionen af Obsidian indholder følgende komponenter:
+I Obsidians mobil-app indeholder arbejdsområdet:
 
-- [[Faner]]
-- [[Brug af mobil appen|En værktøjlinje]] som befinder sig over tastaturet i redigeringstilstand
-- [[Sidepanel|Sidepaneler]] som kan vises eller skjules på henholdsvis venstre og højre side
-- [[Brug af mobil appen#Navigationslinje|En navigationslinje]] in bunden af skærmen
+- [[Faner]] administreret fra fanetælleren i [[Brug af mobil appen#Navigationslinje|navigationslinjen]]
+- [[Flere muligheder-menu#Mobil|Flere muligheder-menu]] for den aktive note
+- [[Sidepanel|Sidepaneler]] (åbnes med swipe-bevægelser til venstre og højre)
+- [[Brug af mobil appen#Navigationslinje|Navigationslinje]] i bunden af skærmen
+- [[Båndmenu]] i navigationslinjen (indeholder handlinger, der kan tilpasses)
+- [[Brug af mobil appen|Editorværktøjslinje]] over tastaturet under redigering

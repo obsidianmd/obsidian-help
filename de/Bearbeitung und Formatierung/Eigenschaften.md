@@ -4,7 +4,7 @@ cssclasses:
   - soft-embed
 publish: true
 mobile: false
-description: Eigenschaften ermöglichen es, Informationen über eine Notiz zu organisieren. Eigenschaften enthalten strukturierte Daten wie Text, Links, Daten, Kontrollkästchen und Zahlen.
+description: 'Eigenschaften ermöglichen es, Informationen über eine Notiz zu organisieren. Eigenschaften enthalten strukturierte Daten wie Text, Links, Daten, Kontrollkästchen und Zahlen.'
 ---
 Eigenschaften ermöglichen es, Informationen über eine Notiz zu organisieren. Eigenschaften enthalten strukturierte Daten wie Text, Links, Daten, Kontrollkästchen und Zahlen. Eigenschaften können auch in Kombination mit [[Community-Erweiterungen]] verwendet werden, die nützliche Dinge mit strukturierten Daten tun können.
 
@@ -14,7 +14,7 @@ Es gibt mehrere Möglichkeiten, einer Notiz eine Eigenschaft hinzuzufügen:
 
 - Verwende den [[Befehlspalette|Befehl]] **Dateieigenschaften hinzufügen**.
 - Verwende das **`Cmd/Strg+;`** [[Tastenkürzel|Tastenkürzel]].
-- Wähle **Dateieigenschaften hinzufügen** aus dem Menü **Weitere Optionen** (erreichbar über das Drei-Punkte-Symbol oder durch Rechtsklick auf den Tab).
+- Wähle **Dateieigenschaften hinzufügen** aus dem [[Weitere-Optionen-Menü]] (erreichbar über das Drei-Punkte-Symbol oder durch Rechtsklick auf den Tab).
 - Gib `---` ganz am Anfang einer Datei ein.
 
 Sobald du eine Eigenschaft hinzufügst, erscheint eine Zeile oben in der Datei mit zwei Eingabefeldern: dem _Namen_ der Eigenschaft und dem _Wert_ der Eigenschaft.

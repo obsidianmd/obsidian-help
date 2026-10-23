@@ -28,7 +28,7 @@ Hvis du vil rapportere en fejl, så find [fejlrapporter her](https://forum.obsid
 
 Når du støder på en fejl eller har brug for hjælp fra [[#Kontakt Obsidian support|Obsidian support]], kan det være meget nyttigt at vedlægge fejlfindingsinfo. Sådan finder du den:
 
-1. Åbn [[Kommandopalet|kommandopaletten]].
+1. Åbn [[Fastgjorte kommandoer|kommandopaletten]].
 2. Skriv **Vis fejlfindingsinfo**.
 3. Vælg den fremhævede **Vis fejlfindingsinfo** mulighed.
 4. Vælg **Kopiér til udklipsholder**.

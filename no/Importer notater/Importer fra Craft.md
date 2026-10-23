@@ -1,5 +1,7 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
 Obsidian lar deg migrere notatene dine fra Craft. Dette vil konvertere Craft-dataene dine til holdbare Markdown-filer som du kan bruke med Obsidian og mange andre apper.
 

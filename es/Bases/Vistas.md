@@ -11,11 +11,14 @@ En la parte superior de una base hay una barra de herramientas que te permite in
 
 - ![[lucide-table.svg#icon]] **Menú de vista** — crear, editar y cambiar entre vistas.
 - **Resultados** — limitar, copiar y exportar archivos.
-- ![[lucide-arrow-up-down.svg#icon]] **Ordenar** — ordenar y agrupar archivos.
+- ![[lucide-arrow-up-down.svg#icon]] **Ordenar** — ordenar archivos.
+- ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** — agrupar archivos y gestionar el orden y la visibilidad de los grupos.
 - ![[lucide-list-filter.svg#icon]] **Filtro** — filtrar archivos.
 - ![[lucide-list.svg#icon]] **Propiedades** — elegir propiedades para mostrar y crear [[Fórmulas|fórmulas]].
 - ![[lucide-search.svg#icon]] **Buscar** — buscar elementos usando sus propiedades mostradas.
 - ![[lucide-plus.svg#icon]] **Nuevo** — crear un nuevo archivo en la vista actual.
+
+En teléfonos, **Resultados**, **Ordenar**, ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** y **Propiedades** están dentro del menú ![[lucide-sliders-horizontal.svg#icon]] **Pantalla**.
 
 ## Añadir y cambiar vistas
 
@@ -37,13 +40,14 @@ Alternativamente, haz *clic derecho* en el nombre de la vista en la barra de her
 
 ## Disposición
 
-Las vistas pueden mostrarse con diferentes disposiciones, incluyendo como ![[lucide-table.svg#icon]] **tabla**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **tarjetas** y ![[lucide-map.svg#icon]] **mapa**. Los [[Complementos de la comunidad]] pueden añadir disposiciones adicionales. Algunas disposiciones aún están en desarrollo y requieren [[Versiones de acceso anticipado|versiones de acceso anticipado]] de Obsidian.
+Las vistas pueden mostrarse con diferentes disposiciones, incluyendo como ![[lucide-table.svg#icon]] **tabla**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **tarjetas**, ![[lucide-kanban-square.svg#icon]] **Kanban** y ![[lucide-map.svg#icon]] **mapa**. Los [[Complementos de la comunidad]] pueden añadir disposiciones adicionales.
 
 | Disposición                     | Descripción                                                                                                              | Versión&nbsp;de&nbsp;la&nbsp;app |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
 | [[Vista de tabla\|Tabla]]       | Muestra archivos como filas en una tabla. Las columnas se completan a partir de las [[Propiedades|propiedades]] de tus notas. | 1.9                              |
 | [[Vista de tarjetas\|Tarjetas]] | Muestra archivos como una cuadrícula de tarjetas. Permite crear vistas tipo galería con imágenes.                        | 1.9                              |
 | [[Vista de lista\|Lista]]       | Muestra archivos como una [[Sintaxis de formato básico#Listas\|lista]] con viñetas o marcadores numerados.               | 1.10                             |
+| [[Vista Kanban\|Kanban]]        | Muestra archivos como tarjetas organizadas en columnas basadas en una propiedad agrupada.                                | 1.14                             |
 | [[Vista de mapa\|Mapa]]        | Muestra archivos como pines en un mapa interactivo. Requiere el complemento Maps.                                        | 1.10                             |
 
 
@@ -82,16 +86,16 @@ Haz clic en el botón de código ![[lucide-code-xml.svg#icon]] para usar el edit
 
 ## Ordenar y agrupar resultados
 
-Abre el menú ![[lucide-arrow-up-down.svg#icon]] **Ordenar** para ordenar y agrupar los resultados en una vista.
+Usa el menú ![[lucide-arrow-up-down.svg#icon]] **Ordenar** para organizar los resultados, y el menú ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** para organizar elementos similares en secciones.
 
 Puedes ordenar los resultados por una o más propiedades en orden ascendente o descendente. Esto facilita listar notas por nombre, última hora de edición o cualquier otra propiedad, incluyendo fórmulas.
 
-También puedes agrupar resultados por una propiedad para organizar elementos similares en secciones visualmente distintas. Actualmente, Obsidian permite agrupar por una sola propiedad.
+Cada vista puede tener varios ordenamientos, pero solo puede agrupar resultados por una sola propiedad.
 
 ### Añadir un ordenamiento
 
 1. Abre el menú ![[lucide-arrow-up-down.svg#icon]] **Ordenar** en la parte superior de la vista.
-2. Elige la propiedad por la que deseas ordenar (o agrupar).
+2. Selecciona **Añadir orden**, luego elige la propiedad por la que deseas ordenar.
 3. Si tienes múltiples ordenamientos, arrástralos hacia arriba o hacia abajo usando el ![[lucide-grip-vertical.svg#icon]] asa de agarre para cambiar su prioridad.
 
 Las opciones para ordenar resultados dependen del tipo de propiedad:
@@ -103,7 +107,29 @@ Las opciones para ordenar resultados dependen del tipo de propiedad:
 ### Eliminar un ordenamiento
 
 1. Abre el menú ![[lucide-arrow-up-down.svg#icon]] **Ordenar** en la parte superior de la vista.
-2. Haz clic en el botón de papelera ![[lucide-trash-2.svg#icon]] junto al ordenamiento o agrupamiento que deseas eliminar.
+2. Selecciona el botón de papelera ![[lucide-trash-2.svg#icon]] junto al ordenamiento que deseas eliminar.
+
+### Agrupar resultados
+
+1. Abre el menú ![[lucide-stretch-horizontal.svg#icon]] **Agrupar** en la parte superior de la vista. En teléfonos, abre **Pantalla → Agrupar**.
+2. En **Agrupar por**, elige una propiedad.
+3. Elige un orden automático, o selecciona **Manual** para ordenar los grupos tú mismo.
+
+Para dejar de agrupar resultados, selecciona el botón de papelera ![[lucide-trash-2.svg#icon]] junto a la propiedad de agrupamiento.
+
+### Reordenar, ocultar y añadir grupos
+
+En el menú ![[lucide-stretch-horizontal.svg#icon]] **Agrupar**, selecciona **Manual** en el menú de orden para gestionar qué grupos aparecen y en qué orden.
+
+- Marca un grupo para mostrarlo, o desmárcalo para ocultarlo. Selecciona **Mostrar todo** u **Ocultar todo** para cambiar la visibilidad de todos los grupos.
+- Arrastra el ![[lucide-grip-vertical.svg#icon]] asa de agarre junto a un grupo para cambiar su posición.
+- Selecciona **Añadir grupo** e introduce un valor para mostrar un nuevo grupo vacío. Esto no crea una nota ni modifica las notas existentes.
+
+Para restaurar el orden automático de los grupos y mostrar todos los grupos, elige un orden automático en lugar de **Manual**.
+
+### Contraer grupos
+
+En las disposiciones de [[Vista de tabla|tabla]], [[Vista de tarjetas|tarjetas]] y [[Vista de lista|lista]], selecciona el encabezado de un grupo para contraerlo o expandirlo. Contraer un grupo oculta temporalmente sus elementos sin cambiar sus propiedades.
 
 ## Limitar, copiar y exportar resultados
 

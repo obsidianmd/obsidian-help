@@ -44,6 +44,16 @@ L'acció `open` obre una cambra forta d'Obsidian, o obre un fitxer dins d'aquest
 > [!tip] Obrir un encapçalament o bloc
 > Amb la codificació URI adequada, pots navegar a un encapçalament o bloc dins d'una nota. `Note%23Heading` navegaria a l'encapçalament anomenat "Heading", mentre que `Note%23%5EBlock` navegaria al bloc anomenat "Block".
 
+### Copiar una URL d'Obsidian
+
+Obsidian pot construir un URI `open` per a la nota activa, de manera que no l'has d'escriure tu mateix. L'aplicació l'anomena URL d'Obsidian. Inclou el nom de la cambra forta i la ruta de la nota.
+
+Pots copiar l'URL d'Obsidian de qualsevol d'aquestes maneres.
+
+- A la [[Paleta d'ordres]], selecciona **Copia l'URL d'Obsidian per al fitxer actual**.
+- A la nota, selecciona **Més opcions** ![[lucide-more-horizontal.svg#icon]], i després selecciona **Copia el camí → com a URL d'Obsidian**. Consulta [[Menú de més opcions]].
+- A l'escriptori, fes clic dret sobre un fitxer a l'[[Explorador de fitxers]], i després selecciona **Copia el camí → com a URL d'Obsidian**.
+
 ### Paràmetres
 
 - `vault` pot ser el nom de la cambra forta o l'ID de la cambra forta[^1].

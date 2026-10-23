@@ -32,8 +32,6 @@ Az Obsidian csapata bizonyos [[#Egyéb bővítmények|nyílt forráskódú köz�
 	- Munkája visszaállítása rendszeres pillanatfelvételekből.
 - [[Fájlkezelő]]
 	- Fájlok és mappák böngészése a széfben.
-- [[Formátum-konvertáló]]
-	- Más alkalmazások Markdown-jának konvertálása Obsidian formátumba.
 - [[Gráf nézet]]
 	- A széfben lévő jegyzetek közötti kapcsolatok vizualizálása.
 - [[Gyors váltó]]
@@ -48,7 +46,7 @@ Az Obsidian csapata bizonyos [[#Egyéb bővítmények|nyílt forráskódú köz�
 	- Az aktív jegyzet összes hivatkozásának megjelenítése.
 - [[Könyvjelzők]]
 	- Hivatkozások mentése jegyzetekhez, fejlécekhez, keresésekhez és egyebekhez.
-- [[Lábjegyzetek nézet]]
+- [[Lábjegyzet nézet|Lábjegyzetek nézet]]
 	- Az aktuális jegyzet lábjegyzeteinek listázása.
 - [[Munkaterületek]]
 	- Elrendezések mentése és váltás közöttük.

@@ -102,6 +102,13 @@ Odstraní bílé znaky z obou konců řetězce.
 
 - `"  hello world  "|trim` vrátí `"hello world"`.
 
+### `unescape`
+
+Převede escapované uvozovky a sekvence nových řádků na doslovné znaky.
+
+- `"Line 1\\nLine 2"|unescape` vrátí text na dvou řádcích.
+- `'He said \\"hello\\"'|unescape` vrátí `He said "hello"`.
+
 ### `uncamel`
 
 Převede camelCase nebo PascalCase na slova oddělená mezerami, která můžete dále formátovat jinými filtry jako `title` nebo `capitalize`.
@@ -206,6 +213,14 @@ Vrátí délku řetězců, polí nebo počet klíčů v objektech.
 - Pro pole: `["a","b","c"]|length` vrátí `3`.
 - Pro objekty: `{"a":1,"b":2}|length` vrátí `2`.
 
+### `number_format`
+
+Formátuje číslo se zadaným počtem desetinných míst a volitelnými oddělovači desetinných míst a tisíců.
+
+- `1234.567|number_format:2` vrátí `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` vrátí `"1.234,57"`.
+- Pole a objekty jsou formátovány rekurzivně.
+
 ### `round`
 
 Zaokrouhlí číslo na nejbližší celé číslo nebo na zadaný počet desetinných míst.
@@ -216,6 +231,10 @@ Zaokrouhlí číslo na nejbližší celé číslo nebo na zadaný počet desetin
 ## Zpracování HTML
 
 Zpracování HTML obsahu a převod HTML na Markdown. Všimněte si, že vaše vstupní [[Proměnné|proměnná]] musí obsahovat HTML obsah, např. pomocí `{{fullHtml}}`, `{{contentHtml}}` nebo proměnné `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Převede HTML na strukturovaný JSON obsahující značku, atributy a potomky každého elementu. Textové uzly používají formát `{"type":"text","content":"..."}`. Lze kombinovat s filtry jako `map`, `object` a `template` pro přeformátování extrahovaného HTML.
 
 ### `markdown` 
 
@@ -255,7 +274,7 @@ Nahradí HTML značky, přičemž zachová obsah a atributy značky.
 Odstraní **všechny** HTML atributy z řetězce.
 
 - Pomocí `strip_attr:("class, id")` lze ponechat konkrétní atributy.
-- Příklad: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` vrátí `<div id="example">Content</div>`.
+- Příklad: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` vrátí `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -339,6 +358,13 @@ Manipuluje s daty objektů:
 - `object:keys` vrátí pole klíčů objektu.
 - `object:values` vrátí pole hodnot objektu.
 - Příklad: `{"a":1,"b":2}|object:array` vrátí `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Obrátí řetězce, pole a pořadí záznamů v objektech.
+
+- `"abc"|reverse` vrátí `"cba"`.
+- `["a","b","c"]|reverse` vrátí `["c","b","a"]`.
 
 ### `slice`
 

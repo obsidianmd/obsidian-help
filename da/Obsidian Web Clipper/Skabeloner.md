@@ -38,6 +38,9 @@ Skabelonudløsere giver dig mulighed for automatisk at vælge en skabelon basere
 
 Det første match i din skabelonliste bestemmer, hvilken skabelon der bruges. Du kan trække skabeloner op og ned i Web Clipper-indstillinger for at ændre rækkefølgen, som skabeloner matches i.
 
+> [!tip]- Indstil en reserveskabelon
+> Hvis en side ikke matcher nogen udløserregel, bruger Web Clipper den første skabelon i din liste. Hold den skabelon, du vil bruge som reserve, øverst i listen for at sikre, at den bruges til sider uden et specifikt match.
+
 #### Simpel URL-matching
 
 Simpel matching udløser en skabelon, hvis den aktuelle sides URL *starter med* det givne mønster. For eksempel:

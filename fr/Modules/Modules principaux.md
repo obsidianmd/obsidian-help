@@ -44,8 +44,6 @@ L'équipe d'Obsidian assure également le développement de certains [[#Autres m
 	- Sauvegardez des dispositions et basculez entre elles.
 - [[Explorateur de fichiers]]
 	- Parcourez les fichiers et les dossiers de votre coffre.
-- [[Importateur depuis des fichiers Markdown]]
-	- Convertissez le Markdown d'autres applications au format Obsidian.
 - [[Liens sortants]]
 	- Affichez tous les liens de la note active.
 - [[Modules/Modèles|Modèles]]

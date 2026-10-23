@@ -102,6 +102,13 @@ Usuwa białe znaki z obu końców ciągu.
 
 - `"  hello world  "|trim` zwraca `"hello world"`.
 
+### `unescape`
+
+Konwertuje sekwencje ucieczki cudzysłowów i znaków nowej linii na znaki dosłowne.
+
+- `"Line 1\\nLine 2"|unescape` zwraca tekst w dwóch liniach.
+- `'He said \\"hello\\"'|unescape` zwraca `He said "hello"`.
+
 ### `uncamel`
 
 Konwertuje camelCase lub PascalCase na słowa oddzielone spacjami, które można dalej formatować innymi filtrami, takimi jak `title` lub `capitalize`.
@@ -206,6 +213,14 @@ Zwraca długość ciągów, tablic lub liczbę kluczy w obiektach.
 - Dla tablic: `["a","b","c"]|length` zwraca `3`.
 - Dla obiektów: `{"a":1,"b":2}|length` zwraca `2`.
 
+### `number_format`
+
+Formatuje liczbę z określoną liczbą miejsc po przecinku oraz opcjonalnymi separatorami dziesiętnym i tysięcznym.
+
+- `1234.567|number_format:2` zwraca `"1,234.57"`.
+- `1234.567|number_format:(2,",",".")` zwraca `"1.234,57"`.
+- Tablice i obiekty są formatowane rekurencyjnie.
+
 ### `round`
 
 Zaokrągla liczbę do najbliższej liczby całkowitej lub do określonej liczby miejsc po przecinku.
@@ -216,6 +231,10 @@ Zaokrągla liczbę do najbliższej liczby całkowitej lub do określonej liczby 
 ## Przetwarzanie HTML
 
 Przetwarzanie zawartości HTML i konwersja HTML na Markdown. Pamiętaj, że wejściowa [[Zmienne|zmienna]] musi zawierać zawartość HTML, np. używając `{{fullHtml}}`, `{{contentHtml}}` lub zmiennej `{{selectorHtml:}}`.
+
+### `html_to_json`
+
+Konwertuje HTML na ustrukturyzowany JSON zawierający tag, atrybuty i elementy potomne każdego elementu. Węzły tekstowe używają formatu `{"type":"text","content":"..."}`. Można to łączyć z filtrami takimi jak `map`, `object` i `template`, aby przekształcić wyodrębniony HTML.
 
 ### `markdown`
 
@@ -255,7 +274,7 @@ Zastępuje tagi HTML, zachowując zawartość i atrybuty tagu.
 Usuwa **wszystkie** atrybuty HTML z ciągu.
 
 - Użyj `strip_attr:("class, id")`, aby zachować określone atrybuty.
-- Przykład: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` zwraca `<div id="example">Content</div>`.
+- Przykład: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` zwraca `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -339,6 +358,13 @@ Manipuluje danymi obiektu:
 - `object:keys` zwraca tablicę kluczy obiektu.
 - `object:values` zwraca tablicę wartości obiektu.
 - Przykład: `{"a":1,"b":2}|object:array` zwraca `[["a",1],["b",2]]`.
+
+### `reverse`
+
+Odwraca ciągi, tablice i kolejność wpisów w obiektach.
+
+- `"abc"|reverse` zwraca `"cba"`.
+- `["a","b","c"]|reverse` zwraca `["c","b","a"]`.
 
 ### `slice`
 

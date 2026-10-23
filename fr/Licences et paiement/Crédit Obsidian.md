@@ -1,11 +1,12 @@
 ---
 permalink: credit
 localized: '2026-03-18'
-
 ---
 Le Crédit Obsidian est un type de crédit prépayé qui peut être acheté à l'avance et appliqué à l'achat de tout service ou licence Obsidian. Le Crédit Obsidian peut être [[#Offrir|offert]] à d'autres utilisateurs d'Obsidian, tels que des amis, de la famille et des collègues.
 
 Le Crédit Obsidian sera appliqué avant tout paiement dû, y compris les renouvellements automatiques. Le Crédit Obsidian **n'est pas** éligible à un remboursement conformément à notre [[Politique de remboursement]].
+
+Le Crédit Obsidian n'expire pas tant que vous conservez votre compte.
 
 ## Ajouter du crédit
 

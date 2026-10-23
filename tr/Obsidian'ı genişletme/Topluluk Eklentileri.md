@@ -16,7 +16,7 @@ Obsidian'ı topluluk tarafından geliştirilen eklentilerle nasıl genişletebil
 
 Eklentileri adlarına, yazarlarına ve açıklamalarına göre filtrelemek için metin kutusunu kullanın.
 
-Mevcut eklentilere tarayıcınızdan da göz atabilirsiniz: [community.obsidian.md](https://community.obsidian.md).
+Mevcut eklentilere tarayıcınızdan da göz atabilirsiniz: [community.obsidian.md](https://community.obsidian.md). Bir eklentinin listeleme sayfasının neleri gösterdiği hakkında daha fazla bilgi için [[Topluluk dizini]] sayfasına bakın.
 
 ## Topluluk eklentisi yükleme
 

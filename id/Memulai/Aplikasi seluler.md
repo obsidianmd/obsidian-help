@@ -29,25 +29,20 @@ Saat menyunting catatan, Anda akan melihat deretan ikon di bagian bawah aplikasi
 
 ### Kustomisasi bilah alat seluler
 
-Di bilah alat seluler, ketuk **Atur bilah alat seluler** ![[lucide-wrench.svg#icon]] untuk membuka antarmuka kustomisasinya.
+Di bilah alat seluler, pilih **Atur bilah alat seluler** ![[lucide-wrench.svg#icon]] untuk membuka pengaturannya.
 
-Atau, Anda dapat melakukannya di Pengaturan.
+Anda juga dapat membuka **[[Pengaturan]] → Antarmuka → Atur bilah alat seluler**.
 
-1. Buka Pengaturan.
-2. Pilih **Seluler**.
-3. Di bawah **Kelola opsi bilah alat**, tambah, hapus, atau urutkan ulang opsi yang tersedia.
+Di bawah **Kelola opsi bilah alat**, gunakan pegangan grip untuk mengurutkan ulang aksi dan tombol hapus untuk menghapusnya. Pilih aksi di bawah **Opsi bilah alat lainnya** untuk menambahkannya.
 
 ### Tambahkan perintah ke bilah alat seluler
 
-Secara bawaan, opsi yang tersedia untuk ditambahkan ke bilah alat adalah opsi penyuntingan seperti "Tambahkan tautan internal" atau "Tambahkan tag".
+Selain aksi penyuntingan, Anda dapat menambahkan perintah global seperti **Ubah tema**.
 
-Selain itu, Anda dapat menambahkan perintah global seperti "Ubah tema".
-
-1. Temukan **Kelola opsi bilah alat** di bawah **[[Pengaturan]]** → **Seluler**.
-2. Gulir ke paling bawah, temukan **Tambah perintah global**.
-3. Ketik nama perintah yang ingin Anda tambahkan.
-4. Pilih perintah yang ingin Anda tambahkan.
-5. Perintah baru ditambahkan di akhir bilah alat.
+1. Buka **[[Pengaturan]] → Antarmuka → Atur bilah alat seluler**.
+2. Di bawah **Kelola opsi bilah alat**, pilih **Tambahkan perintah...**.
+3. Cari perintah yang ingin Anda tambahkan.
+4. Pilih perintah untuk menambahkannya di akhir bilah alat.
 
 ## Aksi Cepat
 
@@ -58,7 +53,7 @@ Aksi Cepat secara bawaan membuka [[Palet perintah]].
 ### Kustomisasi Aksi Cepat
 
 1. Buka Pengaturan.
-2. Di bawah **Pengaturan**, pilih **Bilah Alat**.
+2. Pilih **Antarmuka**.
 3. Di bawah **Konfigurasikan Aksi Cepat seluler**, ketuk **Konfigurasi**.
 4. Ketik nama perintah.
 5. Pilih perintah yang ingin Anda atur.

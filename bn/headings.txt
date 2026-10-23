@@ -1,0 +1,219 @@
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=একটি Airtable ব্যক্তিগত অ্যাক্সেস টোকেন তৈরি করুন
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=আপনার Airtable ডেটা ইম্পোর্ট করুন
+
+[heading.import/Import options]
+original=Import options
+translation=ইম্পোর্ট বিকল্পসমূহ
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=Airtable ফিল্ডগুলো কীভাবে ইম্পোর্ট হবে তা কনফিগার করুন
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=কী ইম্পোর্ট হয়
+
+[heading.import/Limitations]
+original=Limitations
+translation=সীমাবদ্ধতা
+
+[heading.import/Before you start]
+original=Before you start
+translation=শুরু করার আগে
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=আপনার Logseq গ্রাফ ইম্পোর্ট করুন
+
+[heading.import/Settings]
+original=Settings
+translation=সেটিংস
+
+[heading.import/Journals]
+original=Journals
+translation=জার্নাল
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=আউটলাইন সমতল করা
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=অসামঞ্জস্যপূর্ণ ডেটা সংরক্ষণ
+
+[heading.import/Templates]
+original=Templates
+translation=টেমপ্লেট
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=সমস্যা সমাধান
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=আপনার নোট ফাইলগুলো খুঁজে বের করুন
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=আপনার Tomboy বা Gnote নোট ইম্পোর্ট করুন
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=ইম্পোর্ট টেমপ্লেট সম্পাদনা করুন
+
+[heading.import/Preview results]
+original=Preview results
+translation=ফলাফল প্রিভিউ করুন
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=টেমপ্লেট সিনট্যাক্স
+
+[heading.import/Variables]
+original=Variables
+translation=ভেরিয়েবল
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=প্রপার্টির জন্য সোর্স মান
+
+[heading.import/Example template]
+original=Example template
+translation=উদাহরণ টেমপ্লেট
+
+[heading.community-directory/Header]
+original=Header
+translation=হেডার
+
+[heading.community-directory/Overview]
+original=Overview
+translation=ওভারভিউ
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=স্কোরকার্ড
+
+[heading.community-directory/Updates]
+original=Updates
+translation=আপডেট
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=সাইডবার
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=সচরাচর জিজ্ঞাসিত প্রশ্ন
+
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=কার্ডগুলো শ্রেণীতে গ্রুপ করুন
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=কার্ড ও শ্রেণী নিয়ে কাজ করুন
+
+[heading.bases/Settings]
+original=Settings
+translation=সেটিংস
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=খালি শ্রেণী লুকান
+
+[heading.bases/Column width]
+original=Column width
+translation=শ্রেণীর প্রস্থ
+
+[heading.bases/Image property]
+original=Image property
+translation=ছবির প্রপার্টি
+
+[heading.bases/Image fit]
+original=Image fit
+translation=ছবি ফিট
+
+[heading.bases/Image aspect ratio]
+original=Image aspect ratio
+translation=ছবির অ্যাসপেক্ট রেশিও
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=মেনু খুলুন
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=ডেস্কটপ
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=ভিউ ও লেআউট
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=নোট পরিচালনা
+
+[heading.more-options-menu/Find]
+original=Find
+translation=সন্ধান
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=পাথ, ইতিহাস, এবং লিঙ্ক করা ভিউ
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=আপনার কম্পিউটার
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=ট্যাব মেনু
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=মোবাইল
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=খুঁজুন এবং প্রতিস্থাপন খুলুন
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=মিল খুঁজুন
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=মিল প্রতিস্থাপন করুন
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=একটি PDF খুলুন
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=PDF-এ নেভিগেট করুন
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=PDF কীভাবে দেখায় তা পরিবর্তন করুন
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=PDF-এ অনুসন্ধান করুন
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=PDF থেকে টেক্সট কপি করুন
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF এম্বেড করুন
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=নোটকে PDF-এ এক্সপোর্ট করুন

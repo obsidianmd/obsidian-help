@@ -1486,8 +1486,6 @@ Obsidian CLI 실행에 문제가 있는 경우:
 
 ### Windows
 
-Windows에서 Obsidian CLI를 사용하려면 Obsidian 1.12.7+ 설치 프로그램이 필요해요. [[Obsidian 업데이트|설치 프로그램 버전 업데이트]]를 참조하세요.
-
 Windows는 Obsidian을 stdin/stdout에 올바르게 연결하는 터미널 리다이렉터를 사용해요. 이는 Obsidian이 일반적으로 Windows에서 터미널 출력과 호환되지 않는 GUI 앱으로 실행되기 때문에 필요해요. Obsidian 1.12.7+를 설치하면 `Obsidian.exe` 파일이 설치된 폴더에 `Obsidian.com` 터미널 리다이렉터가 추가돼요.
 
 CLI 등록은 사용자의 PATH 변수에 Obsidian을 추가하며, 이는 터미널을 다시 시작한 후에만 적용돼요.

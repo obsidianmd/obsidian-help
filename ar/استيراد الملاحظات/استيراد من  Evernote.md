@@ -3,6 +3,8 @@ permalink: import/evernote
 aliases:
   - استيراد من  Evernote
   - Import from Evernote
+cssclasses:
+  - soft-embed
 ---
 يتيح لك Obsidian ترحيل ملاحظاتك بسهولة من Evernote باستخدام [[المستورد|مكوّن المستورد الإضافي]]. سيحول هذا بيانات Evernote الخاصة بك إلى ملفات Markdown متينة، يمكنك استخدامها مع Obsidian والعديد من التطبيقات الأخرى.
 

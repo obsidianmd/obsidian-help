@@ -1,5 +1,7 @@
 ---
 permalink: import/craft
+cssclasses:
+  - soft-embed
 ---
 Obsidian mahdollistaa muistiinpanojesi siirtämisen Craftista. Tämä muuntaa Craft-tietosi kestäviksi Markdown-tiedostoiksi, joita voit käyttää Obsidianin ja monien muiden sovellusten kanssa.
 

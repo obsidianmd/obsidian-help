@@ -8,7 +8,7 @@ Obsidian Sync dostarcza kilka elementów wskazujących status synchronizacji, g�
 
 ## Ikona statusu synchronizacji
 
-Ikona statusu synchronizacji znajduje się na [[Pasek stanu|pasku stanu]] w wersji desktopowej oraz na [[Pasek boczny#Otwieranie ukrytych pasków bocznych|prawym pasku bocznym]] na urządzeniach mobilnych i tabletach. Ikona odzwierciedla różne stany synchronizacji:
+Ikona statusu synchronizacji znajduje się na [[Pasek stanu|pasku stanu]] w wersji desktopowej oraz na [[Panel boczny#Otwieranie ukrytych paneli bocznych|prawym panelu bocznym]] na urządzeniach mobilnych i tabletach. Ikona odzwierciedla różne stany synchronizacji:
 
 - ![[obsidian-icon-sync-synced.svg#icon]] **Zsynchronizowane**: Obsidian Sync w pełni zsynchronizował Twoje pliki. Ta ikona jest zazwyczaj zielona.
 - ![[obsidian-icon-sync-syncing.svg#icon]] **Synchronizowanie**: Obsidian aktualnie aktualizuje zdalny sejf. Ta ikona jest zazwyczaj fioletowa.
@@ -80,9 +80,17 @@ To wiadomości szczegółowo opisujące, co zostało pominięte i potencjalnie d
 
 **Unable to download file with illegal name**
 
-Plik zawiera [znak specjalny lub konwencję nazewnictwa](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), która nie jest dozwolona w docelowym systemie operacyjnym. Dla ułatwienia możesz zmienić nazwę pliku na urządzeniu źródłowym, usuwając wszystkie znaki specjalne oprócz `-` i `_`.
+Nazwa pliku używa [znaku specjalnego lub konwencji nazewnictwa](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names), której docelowy system operacyjny nie może przechowywać. Zmień nazwę pliku na urządzeniu źródłowym, a następnie pozwól Sync ponownie przesłać plik ze zmienioną nazwą.
 
-Zauważ, że dotyczy to również plików z wieloma kropkami `.` w nazwie na urządzeniach z Androidem.
+W przypadku sejfów synchronizowanych między różnymi systemami operacyjnymi unikaj następujących elementów w nazwach plików i folderów:
+
+- Znaki powszechnie zarezerwowane przez systemy plików, takie jak `/`, `\`, `:`, `*`, `?`, `"`, `<`, `>` i `|`
+- Spacja lub kropka na końcu nazwy
+- Zarezerwowane nazwy urządzeń systemu Windows, takie jak `CON`, `PRN`, `AUX`, `NUL`, `COM1` do `COM9` lub `LPT1` do `LPT9`
+- Znaki używane przez Obsidian do tworzenia łączy, takie jak `#`, `^`, `[` i `]`, jeśli chcesz, aby nazwy notatek były przyjazne dla łączy
+- Wiele kropek `.` w nazwie pliku lub emoji — niektóre urządzenia z Androidem mogą je odrzucić
+
+W razie wątpliwości używaj liter, cyfr, zwykłych spacji wewnątrz nazwy, myślników `-`, podkreśleń `_` i jednej kropki przed rozszerzeniem pliku.
 
 ### Wiadomości dotyczące konta
 

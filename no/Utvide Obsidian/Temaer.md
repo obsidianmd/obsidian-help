@@ -8,6 +8,8 @@ Lær hvordan du endrer utseendet og følelsen til Obsidian ved hjelp av temaer b
 1. Åpne **[[Innstillinger]]**.
 2. Under **Utseende → Temaer**, velg **Administrer** for å liste alle tilgjengelige community-temaer.
 
+Du kan også bla gjennom tilgjengelige temaer i nettleseren din ved å gå til [community.obsidian.md](https://community.obsidian.md). For mer informasjon om hva et temas listeside viser, se [[Fellesskapskatalog]].
+
 ## Installer et nytt tema
 
 1. Åpne **[[Innstillinger]]**.

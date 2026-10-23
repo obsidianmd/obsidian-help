@@ -36,3 +36,5 @@ Obsidian støtter [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 | `- [x]`         | [[Grunnleggende formateringssyntaks#Oppgavelister\|Fullført oppgave]]             |
 | `> [!note]`     | [[Uthevede blokker]]                                                              |
 | (se lenke)      | [[Avansert formateringssyntaks#Tabeller\|Tabeller]]                               |
+
+Noen av disse, som interne lenker, kommentarer og uthevinger, er spesifikke for Obsidian. Andre Markdown-apper kan vise dem som ren tekst.

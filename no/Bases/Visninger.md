@@ -11,11 +11,14 @@ For eksempel kan du opprette en base kalt «Bøker» som har separate visninger 
 
 - ![[lucide-table.svg#icon]] **Visningsmeny** — opprett, rediger og bytt visninger.
 - **Resultater** — begrens, kopier og eksporter filer.
-- ![[lucide-arrow-up-down.svg#icon]] **Sorter** — sorter og grupper filer.
+- ![[lucide-arrow-up-down.svg#icon]] **Sorter** — sorter filer.
+- ![[lucide-stretch-horizontal.svg#icon]] **Grupper** — grupper filer og administrer grupperekkefølge og synlighet.
 - ![[lucide-list-filter.svg#icon]] **Filter** — filtrer filer.
 - ![[lucide-list.svg#icon]] **Egenskaper** — velg egenskaper å vise og opprett [[Formler|formler]].
 - ![[lucide-search.svg#icon]] **Søk** — søk etter elementer ved hjelp av deres viste egenskaper.
 - ![[lucide-plus.svg#icon]] **Ny** — opprett en ny fil i gjeldende visning.
+
+På telefoner er **Resultater**, **Sorter**, ![[lucide-stretch-horizontal.svg#icon]] **Grupper** og **Egenskaper** inne i ![[lucide-sliders-horizontal.svg#icon]] **Visning**-menyen.
 
 ## Legg til og bytt visninger
 
@@ -37,13 +40,14 @@ Alternativt kan du *høyreklikke* på visningsnavnet i basens verktøylinje for 
 
 ## Oppsett
 
-Visninger kan vises med forskjellige oppsett, inkludert som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kort** og ![[lucide-map.svg#icon]] **kart**. Ytterligere oppsett kan legges til av [[Community-utvidelser]]. Noen oppsett er fortsatt under utvikling og krever [[Tidlig tilgang-versjoner]] av Obsidian.
+Visninger kan vises med forskjellige oppsett, inkludert som ![[lucide-table.svg#icon]] **tabell**, ![[lucide-list.svg#icon]] **liste**, ![[lucide-layout-grid.svg#icon]] **kort**, ![[lucide-kanban-square.svg#icon]] **Kanban** og ![[lucide-map.svg#icon]] **kart**. Ytterligere oppsett kan legges til av [[Community-utvidelser]].
 
 | Oppsett                   | Beskrivelse                                                                                                   | App&nbsp;versjon |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------- |
 | [[Tabell-visning\|Tabell]] | Vis filer som rader i en tabell. Kolonner fylles ut fra [[Egenskaper|egenskaper]] i notatene dine.            | 1.9              |
 | [[Kort-visning\|Kort]]     | Vis filer som et rutenett med kort. Lar deg opprette gallerilignende visninger med bilder.                    | 1.9              |
 | [[Liste-visning\|Liste]]   | Vis filer som en [[Grunnleggende formateringssyntaks#Lister\|liste]] med punktmerking eller nummererte markører. | 1.10             |
+| [[Kanban-visning\|Kanban]] | Vis filer som kort organisert i kolonner basert på en gruppert egenskap.                                      | 1.14             |
 | [[Kart-visning\|Kart]]     | Vis filer som nåler på et interaktivt kart. Krever Maps-tillegget.                                           | 1.10             |
 
 
@@ -82,16 +86,16 @@ Klikk på kodeknappen ![[lucide-code-xml.svg#icon]] for å bruke den **avanserte
 
 ## Sorter og grupper resultater
 
-Åpne ![[lucide-arrow-up-down.svg#icon]] **Sorter**-menyen for å sortere og gruppere resultatene i en visning.
+Bruk ![[lucide-arrow-up-down.svg#icon]] **Sorter**-menyen for å ordne resultater, og ![[lucide-stretch-horizontal.svg#icon]] **Grupper**-menyen for å organisere lignende elementer i seksjoner.
 
 Du kan ordne resultater etter én eller flere egenskaper i stigende eller synkende rekkefølge. Dette gjør det enkelt å liste notater etter navn, sist redigert-tidspunkt eller en annen egenskap — inkludert formler.
 
-Du kan også gruppere resultater etter en egenskap for å organisere lignende elementer i visuelt adskilte seksjoner. For øyeblikket støtter Obsidian gruppering etter kun én egenskap.
+Hver visning kan ha flere sorteringer, men kan bare gruppere resultater etter én egenskap.
 
 ### Legg til en sortering
 
 1. Åpne ![[lucide-arrow-up-down.svg#icon]] **Sorter**-menyen øverst i visningen.
-2. Velg egenskapen du vil sortere (eller gruppere) etter.
+2. Velg **Legg til sortering**, og velg deretter egenskapen du vil sortere etter.
 3. Hvis du har flere sorteringer, dra dem opp eller ned med ![[lucide-grip-vertical.svg#icon]] drahåndtaket for å endre prioriteten.
 
 Alternativene for å ordne resultater avhenger av egenskapstypen:
@@ -103,7 +107,29 @@ Alternativene for å ordne resultater avhenger av egenskapstypen:
 ### Fjern en sortering
 
 1. Åpne ![[lucide-arrow-up-down.svg#icon]] **Sorter**-menyen øverst i visningen.
-2. Klikk på ![[lucide-trash-2.svg#icon]] papirkurvknappen ved siden av sorteringen eller gruppen du vil fjerne.
+2. Velg ![[lucide-trash-2.svg#icon]] papirkurvknappen ved siden av sorteringen du vil fjerne.
+
+### Grupper resultater
+
+1. Åpne ![[lucide-stretch-horizontal.svg#icon]] **Grupper**-menyen øverst i visningen. På telefoner, åpne **Visning → Grupper**.
+2. Under **Grupper etter**, velg en egenskap.
+3. Velg en automatisk sorteringsrekkefølge, eller velg **Manuell** for å ordne grupper selv.
+
+For å slutte å gruppere resultater, velg ![[lucide-trash-2.svg#icon]] papirkurvknappen ved siden av grupperingsegenskapen.
+
+### Endre rekkefølge, skjul og legg til grupper
+
+I ![[lucide-stretch-horizontal.svg#icon]] **Grupper**-menyen, velg **Manuell** fra sorteringsrekkefølge-menyen for å administrere hvilke grupper som vises og i hvilken rekkefølge.
+
+- Kryss av en gruppe for å vise den, eller fjern avkrysningen for å skjule den. Velg **Vis alle** eller **Skjul alle** for å endre synligheten til alle grupper.
+- Dra ![[lucide-grip-vertical.svg#icon]] drahåndtaket ved siden av en gruppe for å endre posisjonen.
+- Velg **Legg til gruppe** og skriv inn en verdi for å vise en ny, tom gruppe. Dette oppretter ikke et notat eller endrer eksisterende notater.
+
+For å gjenopprette automatisk grupperekkefølge og vise alle grupper, velg en automatisk sorteringsrekkefølge i stedet for **Manuell**.
+
+### Fold/skjul grupper
+
+I [[Tabell-visning|tabell]]-, [[Kort-visning|kort]]- og [[Liste-visning|liste]]-oppsett kan du velge en gruppeoverskrift for å folde eller utvide den gruppen. Å folde en gruppe skjuler elementene midlertidig uten å endre egenskapene deres.
 
 ## Begrens, kopier og eksporter resultater
 

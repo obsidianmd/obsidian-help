@@ -3,6 +3,8 @@ permalink: import/bear
 aliases:
   - Import fra Bear
   - Import af noter/Import fra Bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian gør det nemt at migrere dine noter fra Bear ved hjælp af [[Importér|Importer-pluginet]]. Dette vil konvertere dine Bear-data til holdbare Markdown-filer, som du kan bruge med Obsidian og mange andre applikationer.
 

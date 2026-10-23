@@ -201,7 +201,25 @@ views:
 - `name` là tên hiển thị, và có thể được sử dụng để định nghĩa chế độ xem mặc định.
 - `filters` hoàn toàn giống như mô tả ở trên, nhưng chỉ áp dụng cho chế độ xem đó.
 - `groupBy` chỉ định một thuộc tính và hướng sắp xếp. Giá trị của thuộc tính được chỉ định cho mỗi hàng được sử dụng để đặt hàng vào các nhóm.
+- `groupOrder` chỉ định thứ tự và khả năng hiển thị của các nhóm. Nếu có, chỉ các nhóm có giá trị được liệt kê mới được hiển thị, theo thứ tự đó. Một danh sách trống sẽ ẩn tất cả các nhóm. Xóa `groupOrder` để hiển thị tất cả các nhóm theo thứ tự được định nghĩa bởi `groupBy`.
 - `summaries` ánh xạ tên thuộc tính đến một tóm tắt có tên. Tóm tắt thực hiện phép tổng hợp trên thuộc tính trên tất cả các hàng.
+
+Ví dụ, chế độ xem này chỉ hiển thị các nhóm Planned, In progress và Done, theo thứ tự đó:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Sử dụng `null` trong `groupOrder` để bao gồm các tệp không có giá trị cho thuộc tính được nhóm.
 
 [[Các chế độ xem]] có thể thêm dữ liệu bổ sung để lưu trữ bất kỳ thông tin nào cần thiết để duy trì trạng thái hoặc hiển thị đúng cách, tuy nhiên các tác giả plugin nên cẩn thận không sử dụng các khóa đã được plugin Cơ sở cốt lõi sử dụng. Ví dụ, một chế độ xem bảng có thể sử dụng điều này để giới hạn số hàng hoặc để chọn cột nào được sử dụng để sắp xếp hàng và theo hướng nào. Một kiểu chế độ xem khác như bản đồ có thể sử dụng điều này để ánh xạ thuộc tính nào trong ghi chú tương ứng với vĩ độ và kinh độ và thuộc tính nào sẽ được hiển thị làm tiêu đề ghim.
 

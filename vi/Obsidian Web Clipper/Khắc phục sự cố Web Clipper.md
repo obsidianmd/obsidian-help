@@ -31,6 +31,7 @@ Nếu bạn không thấy nội dung nào trong Obsidian khi bạn nhấp **Thê
 
 - Đảm bảo rằng giao thức [[Obsidian URI]] đã [[Obsidian URI#Đăng ký Obsidian URI|được đăng ký]].
 - Nếu bạn đang sử dụng Firefox, bạn có thể cần [đăng ký nó trong cài đặt trình duyệt](https://kb.mozillazine.org/Register_protocol).
+- Nếu bạn đang sử dụng Flatpak, bạn có thể cần cập nhật giá trị `x-scheme-handler/obsidian` trong tệp `.config/mimeapps.list` của bạn từ `obsidian.desktop` thành `md.obsidian.Obsidian.desktop`.
 
 #### Obsidian mở nhưng chỉ lưu tên tệp
 

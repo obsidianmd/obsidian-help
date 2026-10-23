@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Obsidian lets you import data from CSV files using the official [[Importer|Importer plugin]]. This is useful if you have data tabular stored in apps such as Excel, Google Sheets, Numbers, Notion, or Airtable.
 
@@ -17,12 +19,26 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 4. Open the **Importer** plugin using the command palette or ribbon icon.
 5. Under **File format** choose **CSV (.csv).**
 6. Select the location of your CSV file.
-7. Click **Import** to configure how data in your CSV file will be converted to notes with [[Properties]].
-8. Click **Continue** and wait until import is complete.
-9. You're done!
+7. Select **Import** to configure how data in your CSV file will be converted to notes with [[Properties]].
+8. Select **Continue** to review the generated template and preview examples from your rows.
+9. Select **Import** and wait for the import to finish.
 
 ## Configure how CSV fields are imported
 
-In the second step of the CSV import, you can choose how data is imported using a template.
+In the field configuration step, you can choose how data is imported. Importer generates a template from the CSV headers, uses the first column for the initial note name, and creates a property for each column.
 
-Each column in your CSV file is attributed a variable called `{{column_name}}` which represents the name of the header in your file. You can use this variable to define the note's title, location, content, and [[Properties|properties]].
+## Templates
+
+Use [[Importer templates|Importer templates]] to fully configure how your data is imported. 
+
+Every CSV column is available using its header. If a column has no header, Importer uses its generated column name.
+
+Use bracket notation so spaces and punctuation are handled safely:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Importer templates#Variables]]
+

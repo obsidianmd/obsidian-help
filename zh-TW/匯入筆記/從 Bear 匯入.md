@@ -1,5 +1,7 @@
 ---
 permalink: import/bear
+cssclasses:
+  - soft-embed
 ---
 Obsidian 讓你可以透過[[匯入工具|匯入工具外掛]]輕鬆從 Bear 匯入筆記。這會將你的 Bear 資料轉換為耐久的 Markdown 檔案，可在 Obsidian 及許多其他應用程式中使用。
 

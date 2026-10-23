@@ -1,5 +1,7 @@
 ---
 permalink: import/roam
+cssclasses:
+  - soft-embed
 ---
 Obsidian vám umožňuje snadno migrovat vaše poznámky z Roam Research pomocí [[Importér|pluginu Importér]]. Ten převede vaše data z Roamu do odolných Markdown souborů, které můžete používat s Obsidian a mnoha dalšími aplikacemi.
 

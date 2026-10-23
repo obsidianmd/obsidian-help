@@ -44,6 +44,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] 제목 또는 블록 열기
 > 올바른 URI 인코딩을 사용하면 노트 내의 제목이나 블록으로 이동할 수 있어요. `Note%23Heading`은 "Heading"이라는 제목으로 이동하고, `Note%23%5EBlock`은 "Block"이라는 블록으로 이동해요.
 
+### Obsidian URL 복사
+
+Obsidian은 활성 노트에 대한 `open` URI를 자동으로 생성할 수 있어서, 직접 작성할 필요가 없어요. 앱에서는 이를 Obsidian URL이라고 부르며, 보관함 이름과 노트 경로가 포함돼요.
+
+다음 방법 중 하나로 Obsidian URL을 복사할 수 있어요.
+
+- [[명령어 팔레트]]에서 **Obsidian URL 복사**를 선택하세요.
+- 노트에서 **다른 옵션** ![[lucide-more-horizontal.svg#icon]]을 선택한 다음 **경로 복사 → Obsidian URL로**를 선택하세요. [[더 보기 메뉴]]를 참조하세요.
+- 데스크톱에서 [[파일 탐색기]]의 파일을 마우스 오른쪽 버튼으로 클릭한 다음 **경로 복사 → Obsidian URL로**를 선택하세요.
+
 ### 매개변수
 
 - `vault`는 보관함 이름 또는 보관함 ID[^1]예요.

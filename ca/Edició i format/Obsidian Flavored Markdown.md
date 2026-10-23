@@ -36,3 +36,5 @@ Obsidian és compatible amb [CommonMark](https://commonmark.org/), [GitHub Flavo
 | `- [x]`         | [[Sintaxi de format bàsic#Llistes de tasques\|Tasca completada]]                 |
 | `> [!note]`     | [[Destacats]]                                                                    |
 | (veure enllaç)  | [[Sintaxi de format avançat#Taules\|Taules]]                                     |
+
+Algunes d'aquestes extensions, com els enllaços interns, els comentaris i els ressaltats, són específiques d'Obsidian. Altres aplicacions de Markdown poden mostrar-les com a text sense format.

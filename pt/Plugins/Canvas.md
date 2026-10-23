@@ -1,5 +1,6 @@
 ---
 permalink: plugins/canvas
+mobile: true
 ---
 Canvas é um [[Plugins Base|plugin principal]] para tomada de notas visuais. Oferece-lhe espaço infinito para dispor notas e ligá-las a outras notas, anexos e páginas web.
 
@@ -64,6 +65,8 @@ Também pode adicionar notas a partir do menu de contexto do Canvas:
 
 Também pode arrastar notas do [[Explorador de ficheiros]] para o Canvas.
 
+Para mostrar apenas parte de uma nota num cartão, clique com o botão direito no cartão e selecione **Restringir ao cabeçalho...** ou **Restringir ao bloco...**. Depois escolha o cabeçalho ou bloco.
+
 ### Adicionar cartões a partir de multimédia
 
 Para adicionar multimédia do seu cofre ao Canvas:
@@ -87,7 +90,24 @@ Para incorporar uma página web no seu Canvas:
 
 Também pode selecionar um URL no seu navegador e arrastá-lo para o Canvas para o incorporar num cartão.
 
-Para abrir a página web no seu navegador, prima `Ctrl` (ou `Cmd` no macOS) e selecione a etiqueta do cartão. Ou clique com o botão direito no cartão e selecione **Abrir no navegador**.
+Para abrir a página web no seu navegador, prima `Ctrl` (ou `Cmd` no macOS) e selecione a etiqueta do cartão. Ou clique com o botão direito no cartão e selecione **Abrir ligação externa**.
+
+Clique com o botão direito num cartão de página web para mais opções.
+
+- **Copiar endereço** copia o endereço da página web.
+- **Alterar URL...** altera o endereço que o cartão mostra.
+- **Recarregar página** carrega a página web novamente.
+
+### Adicionar cartões a partir de bases
+
+Para mostrar uma [[Introdução ao Bases|base]] no seu Canvas, arraste o ficheiro de base do Explorador de ficheiros para o Canvas. O cartão mostra a base.
+
+Um cartão de base mostra a vista predefinida da base. Para mostrar uma vista diferente:
+
+1. Clique com o botão direito no cartão e selecione **Fixar vista...**.
+2. Selecione a vista que pretende.
+
+Para voltar à vista predefinida, selecione **Fixar vista...** novamente e depois selecione **Mostrar vista predefinida**.
 
 ### Adicionar cartões a partir de pastas
 
@@ -97,11 +117,11 @@ Arraste uma pasta do [[Explorador de ficheiros]] para adicionar todos os ficheir
 
 Faça duplo clique num cartão de texto ou nota para começar a editá-lo. Selecione qualquer lugar fora do cartão para parar de o editar. Também pode premir `Escape` para parar de editar um cartão.
 
-Também pode editar um cartão clicando com o botão direito e selecionando **Edição**.
+Também pode editar um cartão clicando com o botão direito e selecionando **Edição**. Ou selecione o cartão e depois selecione **Edição** ![[lucide-square-pen.svg#icon]] nos controlos de seleção.
 
 ### Eliminar um cartão
 
-Remova cartões selecionados clicando com o botão direito em qualquer um deles e selecionando **Eliminar**. Ou prima `Backspace` (ou `Delete` no macOS).
+Remova cartões selecionados clicando com o botão direito em qualquer um deles e selecionando **Remover**. Ou prima `Backspace` (ou `Delete` no macOS).
 
 Também pode selecionar **Remover** ![[lucide-trash-2.svg#icon]] nos controlos de seleção acima da sua seleção.
 
@@ -145,6 +165,16 @@ Pode premir `Space` enquanto redimensiona para desativar o encaixe.
 
 Para manter a proporção enquanto redimensiona, prima `Shift` enquanto redimensiona.
 
+### Alinhar e dispor cartões
+
+Para alinhar vários cartões, selecione dois ou mais cartões. Nos controlos de seleção, selecione **Alinhar** e depois escolha uma opção.
+
+- **Alinhar à esquerda**, **Alinhar ao centro** e **Alinhar à direita** alinham os cartões numa linha vertical.
+- **Alinhar ao topo**, **Alinhar ao meio** e **Alinhar ao fundo** alinham os cartões numa linha horizontal.
+- **Dispor numa linha**, **Dispor numa coluna** e **Dispor numa grelha** movem os cartões para essa disposição.
+- **Distribuir espaçamento horizontal** e **Distribuir espaçamento vertical** espaçam os cartões uniformemente.
+- **Justificar horizontalmente** e **Justificar verticalmente** redimensionam cada cartão para corresponder à largura ou altura total da seleção.
+
 ## Ligar cartões
 
 Desenhe linhas entre cartões para mostrar relações. Adicione cores e etiquetas para descrever como se relacionam.
@@ -177,7 +207,7 @@ Para mover uma das extremidades de uma linha de ligação:
 
 ### Navegar uma ligação
 
-Se dois cartões ligados estiverem distantes, pode navegar para a origem ou o destino da ligação clicando com o botão direito na linha e selecionando **Ir para destino** ou **Ir para origem**.
+Se dois cartões ligados estiverem distantes, pode saltar para o cartão na outra extremidade da ligação. Clique com o botão direito na linha perto de uma extremidade e selecione **Seguir ligação**. O Canvas move-se para o cartão na extremidade oposta.
 
 ### Adicionar uma etiqueta a uma ligação
 
@@ -191,6 +221,16 @@ Para etiquetar uma ligação:
 Também pode etiquetar uma ligação selecionando-a e depois selecionando **Editar etiqueta** nos controlos de seleção.
 
 Para editar a etiqueta de uma ligação, faça duplo clique na linha, ou clique com o botão direito na linha e selecione **Editar etiqueta**.
+
+Para remover uma etiqueta, selecione a ligação e depois selecione **Remover etiqueta** nos controlos de seleção.
+
+### Alterar a direção de uma ligação
+
+Por predefinição, uma ligação tem uma seta na extremidade que aponta para o segundo cartão. Para alterar isto:
+
+1. Selecione a ligação.
+2. Nos controlos de seleção, selecione **Direção da linha**.
+3. Escolha **Sem direção**, **Unidirecional** ou **Bidirecional**.
 
 ### Alterar a cor de um cartão ou ligação
 
@@ -212,6 +252,22 @@ Para agrupar cartões relacionados:
 2. Clique com o botão direito em qualquer um dos cartões selecionados e selecione **Criar grupo**.
 
 **Renomear grupo:** Faça duplo clique no nome do grupo para o editar e prima `Enter` para guardar.
+
+### Adicionar um fundo a um grupo
+
+Pode mostrar uma imagem por trás dos cartões num grupo.
+
+1. Selecione o grupo.
+2. Nos controlos de seleção, selecione **Definir fundo**.
+3. Escolha uma imagem do seu cofre.
+
+Para alterar o fundo, selecione o grupo e depois selecione **Editar fundo**.
+
+- **Substituir fundo** escolhe uma imagem diferente.
+- **Remover fundo** remove a imagem.
+- **Cobrir** faz a imagem preencher o grupo.
+- **Manter proporção** mantém as proporções da imagem.
+- **Repetir** ladrilha a imagem pelo grupo.
 
 ## Navegar no Canvas
 
@@ -241,9 +297,169 @@ Para ampliar o Canvas de modo a que todos os itens selecionados fiquem visíveis
 
 Para alterar o nível de zoom de volta ao predefinido, selecione **Restaurar ampliação** nos controlos de zoom no canto superior direito.
 
+
+### Ir para grupo
+
+Para ir diretamente para um grupo num Canvas grande, abra a paleta de comandos e selecione **Canvas: Ir para grupo**. Aparece uma lista dos grupos no seu Canvas. Selecione o grupo para o qual pretende ir, e o Canvas move-se para o centrar.
+
+## Definições do Canvas
+
+Selecione **Definições do Canvas** ![[lucide-settings.svg#icon]] acima dos controlos do Canvas para alterar o comportamento do seu Canvas.
+
+- **Encaixar na grelha** encaixa os cartões na grelha de fundo quando os move e redimensiona.
+- **Encaixar em objetos** encaixa os cartões em cartões próximos quando os move e redimensiona.
+- **Só de leitura** impede alterações ao Canvas.
+
+## Exportar um Canvas como imagem
+
+Pode exportar um Canvas como imagem PNG no computador. A exportação de imagem não está disponível na aplicação Obsidian em dispositivos móveis.
+
+1. Abra o Canvas que pretende exportar.
+2. Abra a paleta de comandos e selecione **Canvas: Exportar como imagem**.
+3. Escolha as suas definições.
+    - **Viewport** define o que exportar. Selecione **Canvas completo** para o Canvas inteiro, ou **Apenas viewport** para a parte que consegue ver agora.
+    - **Ampliar** define a qualidade da imagem. Um zoom mais alto produz uma imagem maior e mais nítida. O diálogo mostra o tamanho estimado da imagem.
+    - **Mostrar logótipo** adiciona um logótipo do Obsidian no canto inferior esquerdo. Está ativo por predefinição.
+    - **Modo de privacidade** oculta todo o texto no seu Canvas. Está desativado por predefinição.
+4. Selecione **Guardar**.
+5. Escolha onde guardar o ficheiro. O nome do ficheiro predefinido é o nome do seu Canvas, com a extensão `.png`.
+
+Não é possível exportar um Canvas vazio.
+
+## Anular e refazer
+
+Para anular a sua última alteração, selecione **Anular** nos controlos do Canvas no lado direito do Canvas. Ou prima `Ctrl+Z` (Windows e Linux) ou `Command+Z` (macOS).
+
+Para refazer uma alteração, selecione **Refazer**. Ou prima `Ctrl+Y` ou `Ctrl+Shift+Z` (Windows e Linux), ou `Command+Y` ou `Command+Shift+Z` (macOS).
+
+## Ajuda do Canvas
+
+No computador, selecione **Ajuda do Canvas** ![[lucide-help-circle.svg#icon]] abaixo dos controlos do Canvas para ver uma lista dos atalhos para deslocar, ampliar, selecionar e mover cartões.
+
 ## Incorporar um Canvas
 
 Pode incorporar um Canvas numa nota utilizando a sintaxe de incorporação padrão. Para mais informações, consulte [[Incorporar ficheiros#Embed a canvas in a note|Incorporar um Canvas numa nota]].
+
+## Usar o Canvas em dispositivos móveis
+
+Quando abre um Canvas num telemóvel ou tablet, o Obsidian mostra três dicas.
+
+- **Arrastar para deslocar**
+- **Beliscar para ampliar**
+- **Toque e mantenha premido para adicionar / mover / selecionar**
+
+### Abrir o menu do Canvas
+
+Toque e mantenha premido numa área vazia do Canvas. O menu tem os seguintes itens.
+
+- **Adicionar cartão** adiciona um cartão de texto.
+- **Adicionar nota do cofre** adiciona uma nota do seu cofre.
+- **Adicionar multimédia do cofre** adiciona multimédia do seu cofre.
+- **Adicionar página web** incorpora uma página web.
+- **Criar grupo** cria um grupo vazio.
+- **Encaixar na grelha**, **Encaixar em objetos** e **Só de leitura** são as mesmas opções que nas **Definições do Canvas**.
+
+### Adicionar cartões
+
+Pode adicionar cartões a partir do menu do Canvas. Também pode selecionar um ícone na parte inferior do Canvas.
+
+- O ícone de ficheiro em branco adiciona um cartão de texto.
+- O ícone de documento adiciona uma nota do seu cofre.
+- O ícone de imagem adiciona multimédia do seu cofre.
+
+### Trabalhar com um cartão selecionado
+
+Toque num cartão para o selecionar. Uma barra de ferramentas aparece acima do cartão.
+
+- **Remover** ![[lucide-trash-2.svg#icon]] elimina o cartão.
+- **Definir cor** ![[lucide-palette.svg#icon]] altera a cor do cartão.
+- **Zoom para a seleção** amplia o Canvas para o cartão.
+- **Edição** ![[lucide-square-pen.svg#icon]] edita o cartão.
+
+### Mover um cartão
+
+1. Toque no cartão para o selecionar.
+2. Toque e mantenha premido o cartão selecionado e arraste-o para uma nova posição.
+
+### Redimensionar um cartão
+
+1. Toque no cartão para o selecionar.
+2. Arraste os lados do cartão para o tornar maior ou mais pequeno.
+
+### Abrir o menu do cartão
+
+Toque e mantenha premido num cartão. O menu tem os seguintes itens.
+
+- **Zoom para a seleção** amplia o Canvas para o cartão.
+- **Edição** edita o cartão.
+- **Converter em ficheiro...** converte um cartão de texto numa nota.
+- **Duplicar** faz uma cópia do cartão.
+- **Remover** elimina o cartão.
+
+### Editar um cartão
+
+Para editar um cartão de texto ou de nota, utilize qualquer um dos métodos.
+
+- Toque no cartão para o selecionar e depois toque duas vezes nele. O teclado abre-se.
+- Toque no cartão para o selecionar e depois selecione **Edição** ![[lucide-square-pen.svg#icon]] na barra de ferramentas acima do cartão.
+
+### Etiquetar uma ligação
+
+1. Toque na linha para a selecionar.
+2. Na barra de ferramentas, selecione **Editar etiqueta** ![[lucide-square-pen.svg#icon]]. O teclado abre-se.
+3. Introduza a etiqueta.
+
+Para remover uma etiqueta, toque na linha e depois selecione **Remover etiqueta** na barra de ferramentas.
+
+### Alterar a direção de uma ligação
+
+1. Toque na linha para a selecionar.
+2. Na barra de ferramentas, selecione **Direção da linha**.
+3. Escolha **Sem direção**, **Unidirecional** ou **Bidirecional**.
+
+### Abrir o menu da linha
+
+Toque e mantenha premido numa linha que liga dois cartões. O menu tem os seguintes itens.
+
+- **Editar etiqueta** adiciona ou altera a etiqueta da linha.
+- **Seguir ligação** move o Canvas para o cartão na extremidade oposta da linha.
+- **Remover** elimina a ligação.
+
+### Ligar cartões
+
+1. Toque num cartão para o selecionar.
+2. Arraste um dos círculos nas suas arestas para outro cartão.
+
+Se arrastar a linha e largar numa área vazia, abre-se um menu com **Adicionar cartão** e **Adicionar nota do cofre**. Selecione um para adicionar um cartão no fim da linha.
+
+### Desligar cartões
+
+Para remover uma ligação, utilize qualquer um dos métodos.
+
+- Toque na linha e depois selecione **Remover** ![[lucide-trash-2.svg#icon]].
+- Arraste a extremidade da seta da linha de volta para o cartão de onde partiu. A linha desaparece.
+
+### Agrupar cartões
+
+Para criar um grupo:
+
+1. Toque e mantenha premido numa área vazia do Canvas.
+2. Selecione **Criar grupo**.
+3. Arraste as arestas do grupo para alterar o seu tamanho.
+
+Para adicionar cartões a um grupo, arraste-os para a área do grupo. Quando move o grupo, os cartões dentro dele também se movem.
+
+Para renomear um grupo, toque duas vezes no seu nome. O teclado abre-se. Introduza o novo nome.
+
+### Controlos do Canvas
+
+Os controlos no lado direito do Canvas alteram a vista e as suas definições.
+
+- **Ampliar** e **Reduzir zoom** alteram o nível de zoom.
+- **Restaurar ampliação** restaura o Canvas para o nível de zoom predefinido.
+- **Zoom para ajustar** mostra todos os cartões no Canvas.
+- **Anular** e **Refazer** revertem ou repetem a sua última alteração.
+- **Definições do Canvas** tem as opções **Encaixar na grelha**, **Encaixar em objetos** e **Só de leitura**.
 
 ## Dicas avançadas
 

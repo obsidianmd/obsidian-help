@@ -10,11 +10,11 @@ Inställningar låter dig anpassa din Obsidian-upplevelse. Konfigurera allmänna
 
 ### Dator
 
-I [[Sidofält#Öppna dolda sidofält|vänster sidofält]], välj **[[Inställningar]]** ![[lucide-cog.svg#icon]]. Du kan också öppna inställningar med [[Kommandopalett|kommandopaletten]].
+I [[Sidofält#Öppna dolda sidofält|sidofältet]], välj **[[Inställningar]]** ![[lucide-cog.svg#icon]]. Du kan också öppna inställningar med [[Kommandopalett|kommandopaletten]].
 
 ### Mobil
 
-I vänster sidofält, välj **[[Inställningar]]** ![[lucide-cog.svg#icon]].
+I sidofältet, välj **[[Inställningar]]** ![[lucide-cog.svg#icon]]. Inställningarna öppnas i ett ark ovanpå appen.
 
 ## Organisation av inställningar
 
@@ -187,6 +187,8 @@ Var nya anteckningar hamnar. Alternativen inkluderar:
 - **Samma mapp som filen ligger i** — Anteckningar skapas i samma mapp som den för närvarande aktiva anteckningen.
 - **I mappen som visas nedan** — Anteckningar skapas i en specifik mapp du väljer.
 
+Den här inställningen gäller inte när en [[Interna länkar|intern länk]] inkluderar en mappsökväg. Till exempel skapar `[[Projekt/Tre rörelselagar]]` anteckningen i mappen `Projekt` relativt till valvroten.
+
 ### Stället där nya bilagor hamnar
 
 Var nyligen tillagda [[Bilagor|bilagor]] placeras. Alternativen inkluderar:
@@ -292,9 +294,11 @@ Välj typsnitt för kodblock och frontmatter. Välj **Hantera** för att välja 
 
 Typsnittsstorlek i pixlar som påverkar skrivläget och läsläget. Justera med skjutreglaget.
 
+Typsnittsstorleken sparas separat på varje enhet och synkroniseras inte genom [[Introduktion till Obsidian Sync|Obsidian Sync]]. På mobil skalas text och gränssnittselement även med systemets föredragna textstorlek, inklusive tillgänglighetsstorlekar.
+
 #### Snabb typsnittsstorleksändring
 
-Justera typsnittsstorleken med `Ctrl+Scroll` (Windows/Linux) eller `Cmd+Scroll` (macOS), eller med styrplattans nypzoomgest.
+Justera typsnittsstorleken med `Ctrl+Scroll` (Windows/Linux) eller `Cmd+Scroll` (macOS), eller med styrplattans nypzoomgest. Du kan även använda **Öka teckenstorleken** och **Minska teckenstorleken** i [[Kommandopalett|kommandopaletten]], eller tilldela dem [[Tangentbordsgenvägar|tangentbordsgenvägar]].
 
 ### Gränssnitt
 

@@ -3,7 +3,7 @@ permalink: publish/setup
 mobile: true
 description: 'W tym przewodniku włączysz Obsidian Publish dla swojego sejfu, utworzysz stronę i opublikujesz na niej swoje notatki.'
 ---
-W tym przewodniku włączysz [[Wprowadzenie do Obsidian Publish|Obsidian Publish]] dla swojego skarbca, utworzysz stronę i opublikujesz na niej swoje notatki.
+W tym przewodniku włączysz [[Wprowadzenie do Obsidian Publish|Obsidian Publish]] dla swojego sejfu, utworzysz stronę i opublikujesz na niej swoje notatki.
 
 ## Wymagania wstępne
 
@@ -13,7 +13,7 @@ W tym przewodniku włączysz [[Wprowadzenie do Obsidian Publish|Obsidian Publish
 ## Zaloguj się na swoje konto Obsidian
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym wybierz **Ogólne**.
+2. Na panelu bocznym wybierz **Ogólne**.
 3. W sekcji **Konto → Twoje konto** wybierz **Zaloguj się**.
 4. W polu **E-mail** wprowadź swój adres e-mail.
 5. W polu **Hasło** wprowadź swoje hasło.
@@ -22,7 +22,7 @@ W tym przewodniku włączysz [[Wprowadzenie do Obsidian Publish|Obsidian Publish
 ## Włącz Obsidian Publish
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym wybierz **Wbudowane wtyczki**.
+2. Na panelu bocznym wybierz **Wbudowane wtyczki**.
 3. Włącz **Publish**.
 
 ### Otwórz Publish
@@ -43,7 +43,7 @@ Okno **Opublikuj zmiany** pojawi się w nowym wyskakującym oknie.
 
 **Mobilny** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Otwórz [[Menu wstążkowe|Wstążkę]] ![[lucide-menu.svg#icon]].
+1. Otwórz [[Wstążka|Wstążkę]] ![[lucide-menu.svg#icon]].
 2. Otwórz **Paletę poleceń** ![[lucide-terminal.svg#icon]].
 3. Wpisz „Publish".
 4. Wybierz opcję **Publish: Opublikuj zmiany...**.
@@ -61,18 +61,18 @@ Menu **Opublikuj zmiany** pojawi się jako wysuwany panel.
 
 #### Otwieranie przez wstążkę
 
-Możesz także uzyskać dostęp do Obsidian Publish przez [[Menu wstążkowe|wstążkę]].
+Możesz także uzyskać dostęp do Obsidian Publish przez [[Wstążka|wstążkę]].
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
 
-1. Otwórz lewy [[Pasek boczny]] ![[obsidian-icon-side-bar-left.svg#icon]].
+1. Otwórz lewy [[Panel boczny]] ![[obsidian-icon-side-bar-left.svg#icon]].
 2. Wybierz ikonę **Opublikuj zmiany** ![[lucide-send.svg#icon]].
 
 Okno **Opublikuj zmiany** pojawi się w nowym wyskakującym oknie.
 
 **Mobilny** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Otwórz [[Menu wstążkowe|Wstążkę]] ![[lucide-menu.svg#icon]].
+1. Otwórz [[Wstążka|Wstążkę]] ![[lucide-menu.svg#icon]].
 2. Wybierz ikonę **Opublikuj zmiany** ![[lucide-send.svg#icon]].
 
 Menu **Opublikuj zmiany** pojawi się jako wysuwany panel.

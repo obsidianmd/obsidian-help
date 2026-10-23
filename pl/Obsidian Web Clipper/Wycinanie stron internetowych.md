@@ -21,7 +21,7 @@ Domyślnie Web Clipper próbuje inteligentnie wyodrębnić jedynie główną tre
 
 ## Pobieranie obrazów
 
-Obrazy nie są automatycznie pobierane podczas korzystania z Web Clipper. Zamiast tego obrazy zawierają link do ich internetowego adresu URL. Oszczędza to miejsce w skarbcu, ale oznacza, że obrazy nie będą dostępne offline ani gdy adres URL przestanie działać.
+Obrazy nie są automatycznie pobierane podczas korzystania z Web Clipper. Zamiast tego obrazy zawierają link do ich internetowego adresu URL. Oszczędza to miejsce w sejfie, ale oznacza, że obrazy nie będą dostępne offline ani gdy adres URL przestanie działać.
 
 Możesz pobrać obrazy dla dowolnego pliku w Obsidian za pomocą [[Lista poleceń|polecenia]] o nazwie **Pobierz załączniki aktywnego pliku**. To polecenie można również przypisać do skrótu klawiszowego w Obsidian.
 
@@ -43,7 +43,7 @@ Interfejs Web Clipper jest podzielony na cztery sekcje:
 1. **Nagłówek**, w którym możesz przełączać szablony, włączać [[Wyróżnianie stron internetowych|wyróżnianie]], [[Czytnik|tryb czytania]] oraz uzyskać dostęp do ustawień.
 2. **Atrybuty** pokazują [[Atrybuty|metadane]] wyodrębnione ze strony, które zostaną zapisane jako [[Atrybuty]] w Obsidian.
 3. **Treść notatki**, która zostanie zapisana w Obsidian.
-4. **Stopka** pozwala wybrać skarbiec i folder oraz zapisać w Obsidian.
+4. **Stopka** pozwala wybrać sejf i folder oraz zapisać w Obsidian.
 
 Funkcje nagłówka obejmują:
 
@@ -59,4 +59,4 @@ Funkcje stopki obejmują:
 - Przycisk **Zapisz w Obsidian** do zapisywania danych w Obsidian.
 - Rozwijane menu **Sejf** do przełączania między zapisanymi sejfami dodanymi w ustawieniach Web Clipper.
 - Pole **Folder** do określenia folderu, w którym ma zostać zapisany plik.
-- **Tłumacz** do uruchamiania [[Interpretowanie stron internetowych|zapytań w języku naturalnym]] na stronie.
+- **Interpreter** do uruchamiania [[Interpretowanie stron internetowych|zapytań w języku naturalnym]] na stronie.

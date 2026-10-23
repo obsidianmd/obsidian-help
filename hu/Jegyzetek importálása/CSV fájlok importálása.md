@@ -1,5 +1,7 @@
 ---
 permalink: import/csv
+cssclasses:
+  - soft-embed
 ---
 Az Obsidian lehetővé teszi adatok importálását CSV fájlokból a hivatalos [[Importáló|Importáló bővítmény]] segítségével. Ez akkor hasznos, ha táblázatos formában tárolt adataid vannak olyan alkalmazásokban, mint az Excel, Google Sheets, Numbers, Notion vagy Airtable.
 
@@ -17,12 +19,25 @@ Szükséged lesz a hivatalos Obsidian [[Importáló]] bővítményre, amelyet [i
 4. Nyisd meg az **Importáló** bővítményt a parancspaletta vagy a szalag ikon segítségével.
 5. A **Fájlformátum** alatt válaszd a **CSV (.csv)** lehetőséget.
 6. Válaszd ki a CSV fájlod helyét.
-7. Kattints az **Importálás** gombra, hogy beállítsd, hogyan konvertálódnak a CSV fájlban lévő adatok [[Tulajdonságok|tulajdonságokkal]] rendelkező jegyzetekké.
-8. Kattints a **Folytatás** gombra, és várd meg, amíg az importálás befejeződik.
-9. Kész is!
+7. Válaszd az **Importálás** lehetőséget, hogy beállítsd, hogyan konvertálódnak a CSV fájlban lévő adatok [[Tulajdonságok|tulajdonságokkal]] rendelkező jegyzetekké.
+8. Válaszd a **Folytatás** lehetőséget a generált sablon áttekintéséhez és a sorokból származó előnézeti példák megtekintéséhez.
+9. Válaszd az **Importálás** lehetőséget, és várd meg, amíg az importálás befejeződik.
 
 ## CSV mezők importálásának konfigurálása
 
-A CSV importálás második lépésében kiválaszthatod, hogyan importálódnak az adatok egy sablon segítségével.
+A mezőkonfiguráció lépésében kiválaszthatod, hogyan importálódnak az adatok. Az Importáló sablont generál a CSV fejlécekből, az első oszlopot használja a jegyzet kezdeti neveként, és minden oszlophoz létrehoz egy tulajdonságot.
 
-A CSV fájlod minden oszlopához egy `{{column_name}}` nevű változó tartozik, amely a fájlban lévő fejléc nevét jelöli. Ezt a változót használhatod a jegyzet címének, helyének, tartalmának és [[Tulajdonságok|tulajdonságainak]] meghatározásához.
+## Sablonok
+
+Használj [[Importáló sablonok|Importáló sablonokat]] az adatimportálás teljes konfigurálásához.
+
+Minden CSV oszlop elérhető a fejléce alapján. Ha egy oszlopnak nincs fejléce, az Importáló a generált oszlopnevet használja.
+
+Használj szögletes zárójeleket, hogy a szóközök és írásjelek biztonságosan kezelhetők legyenek:
+
+```liquid
+{{source["Project name"]}}
+{{source["Price ($)"]|yaml}}
+```
+
+![[Importáló sablonok#Változók]]

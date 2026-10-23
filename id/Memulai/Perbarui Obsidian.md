@@ -14,7 +14,7 @@ Pada perangkat seluler, Obsidian diperbarui melalui toko aplikasi perangkat. Ver
 
 Buka **[[Pengaturan]] → Umum**.
 
-Anda dapat menemukan versi aplikasi dan penginstal saat ini di bagian atas halaman.
+Anda dapat menemukan versi aplikasi dan penginstal saat ini di bagian atas halaman. Ketika penginstal yang lebih baru tersedia, Obsidian menampilkan pemberitahuan dengan tautan unduhan. Ikuti [[#Pembaruan penginstal|instruksi pembaruan penginstal]] untuk memasangnya.
 
 ![[application-installer-current-version.png#interface]]
 

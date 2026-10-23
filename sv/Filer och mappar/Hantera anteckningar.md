@@ -19,6 +19,27 @@ Du kan även skapa anteckningar med [[Filutforskare#Skapa en ny anteckning|Filut
 > Obsidian respekterar filnamnsbegränsningarna för det operativsystem du skapar anteckningen på. Om du planerar att [[Synkronisera dina anteckningar mellan enheter|synkronisera dina anteckningar mellan enheter]], se till att dina filnamn är [säkra för andra operativsystem](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Öppna filer utanför ditt valv
+
+På datorn kan du öppna och redigera enskilda Markdown-filer utanför ditt valv. Filer öppnas i ditt nuvarande fönster och förblir på sin ursprungliga plats.
+
+> [!note] Kräver Obsidian 1.14 och det senaste installationsprogrammet
+> [[Uppdatera Obsidian#Installationsuppdateringar|Uppdatera ditt installationsprogram]] genom att ladda ner Obsidian från [obsidian.md/download](https://obsidian.md/download) och installera om appen.
+
+För att öppna en Markdown-fil:
+
+1. Öppna [[Kommandopalett|kommandopaletten]].
+2. Välj **Öppna fil utanför valvet...**.
+3. Välj en Markdown-fil på din dator.
+
+Du kan även använda operativsystemets **Öppna med**-meny och välja **Obsidian**. För att öppna Markdown-filer i Obsidian som standard, ställ in det som standardapp för `.md`-filer.
+
+Bildinbäddningar och länkar till andra lokala filer löses relativt till Markdown-filens mapp. Använd [[Disposition]] för att navigera rubriker och [[Utgående länkar]] för att bläddra bland länkade filer.
+
+### Förhandsgranska filer med Quick Look
+
+På macOS, markera en Markdown-fil i Finder och tryck på `Mellanslag` för att förhandsgranska den med **Quick Look**. Quick Look-förhandsvisningar fungerar även när Obsidian är stängt.
+
 ## Byt namn på en anteckning
 
 För att byta namn på en aktiv anteckning:

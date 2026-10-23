@@ -12,6 +12,7 @@ Typescript ve CSS kullanarak [[Topluluk Eklentileri]] ve [[Temalar]] geliştireb
 Obsidian çeşitli açık kaynak projeleri geliştirmekte ve sürdürmektedir. Aşağıdaki GitHub depolarına hata düzeltmeleri ve iyileştirmeler içeren pull request'ler gönderebilirsiniz:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), sonsuz tuval verileri için açık bir dosya biçimi.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), Markdown oluşturmak için şablonlama dili.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), çok çeşitli biçimlerden verileri düz metin Markdown dosyalarına dönüştüren bir eklenti.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), Obsidian Tabanlarında haritalar görüntüleyen bir eklenti.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), web sayfalarını vurgulayıp düz metin Markdown dosyaları olarak kaydetmeye yarayan bir tarayıcı uzantısı.

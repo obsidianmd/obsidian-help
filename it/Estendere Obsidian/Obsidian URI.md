@@ -44,6 +44,16 @@ L'azione `open` apre una cassaforte di Obsidian, oppure apre un file all'interno
 > [!tip] Aprire un'intestazione o un blocco
 > Con la corretta codifica URI, è possibile navigare a un'intestazione o un blocco all'interno di una nota. `Note%23Heading` navigherebbe all'intestazione chiamata "Heading", mentre `Note%23%5EBlock` navigherebbe al blocco chiamato "Block".
 
+### Copiare un URL di Obsidian
+
+Obsidian può costruire un URI `open` per la nota attiva, così non è necessario scriverlo manualmente. L'app chiama questo un URL di Obsidian. Include il nome del vault e il percorso della nota.
+
+È possibile copiare l'URL di Obsidian in uno dei seguenti modi.
+
+- Nel [[Riquadro comandi]], selezionare **Copia URL obsidian**.
+- Nella nota, selezionare **Altre opzioni** ![[lucide-more-horizontal.svg#icon]], quindi selezionare **Copia percorso → come URL Obsidian**. Vedere [[Menu Altre opzioni]].
+- Su desktop, fare clic destro su un file nell'[[Esplora file]], quindi selezionare **Copia percorso → come URL Obsidian**.
+
 ### Parametri
 
 - `vault` può essere il nome della cassaforte o l'ID della cassaforte[^1].

@@ -83,14 +83,14 @@ Aby zdefiniować niestandardowy blok wyróżnienia, utwórz następujący blok C
 
 ```css
 .callout[data-callout="custom-question-type"] {
-    --callout-color: 0, 0, 0;
+    --callout-color: #000000;
     --callout-icon: lucide-alert-circle;
 }
 ```
 
 Wartość atrybutu `data-callout` to identyfikator typu, którego chcesz użyć, na przykład `[!custom-question-type]`.
 
-- `--callout-color` definiuje kolor tła za pomocą liczb (0–255) dla czerwonego, zielonego i niebieskiego.
+- `--callout-color` definiuje kolor tła. Działa każdy prawidłowy kolor CSS, na przykład kod heksadecymalny (`#000000`) lub wartość `rgb()`.
 - `--callout-icon` może być identyfikatorem ikony z [lucide.dev](https://lucide.dev) lub elementem SVG.
 
 > [!warning] Uwaga dotycząca wersji ikon lucide
@@ -103,6 +103,28 @@ Wartość atrybutu `data-callout` to identyfikator typu, którego chcesz użyć,
 > ```css
 > --callout-icon: '<svg>...niestandardowy svg...</svg>';
 > ```
+
+> [!tip]- Dalsze dostosowywanie
+> Nie jesteś ograniczony do `--callout-color` i `--callout-icon`. Bloki wyróżnienia obsługują standardowe selektory i właściwości CSS, a także dodatkowe zmienne CSS do takich rzeczy jak obramowanie i stylizacja tytułu.
+> 
+> Na przykład, ukryj tytuł bloku wyróżnienia:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] .callout-title {
+>     display: none;
+> }
+> ```
+> 
+> Lub dostosuj jego obramowanie:
+> 
+> ```css
+> .callout[data-callout="custom-question-type"] {
+>     --callout-border-width: 2px;
+>     --callout-border-opacity: 0.25;
+> }
+> ```
+> 
+> Pełną listę [zmiennych CSS bloków wyróżnienia](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) znajdziesz w dokumentacji.
 
 ### Obsługiwane typy
 

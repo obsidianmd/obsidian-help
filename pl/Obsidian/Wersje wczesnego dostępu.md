@@ -13,12 +13,12 @@ Uzyskaj wczesny dostęp do nadchodzących wydań, włączając _wersje wczesnego
 Aby otrzymywać wersje wczesnego dostępu natychmiast po ich udostępnieniu, wykonaj następujące kroki:
 
 1. Otwórz **[[Ustawienia]]**.
-2. Na pasku bocznym wybierz **Ogólne**.
+2. Na panelu bocznym wybierz **Ogólne**.
 3. W sekcji **Konto → Twoje konto** wybierz **Zaloguj się**.
 4. W polu **E-mail** wprowadź swój adres email.
 5. W polu **Hasło** wprowadź swoje hasło.
 6. Po zalogowaniu wróć do **[[Ustawienia]]**.
-7. Na pasku bocznym wybierz **Ogólne**.
+7. Na panelu bocznym wybierz **Ogólne**.
 8. W sekcji **Aplikacja** włącz **Otrzymuj wersje testowe**.
 9. Kliknij **Sprawdź aktualizacje**, a następnie **Uruchom ponownie**.
 
@@ -44,11 +44,11 @@ Zgłaszając problem, podaj wersję kompilacji oraz system operacyjny, na który
 
 ## Przywracanie wersji publicznych na komputerze
 
-Aby wrócić do korzystania z wersji publicznych (nie wczesnego dostępu) na komputerze:
+Aby wyłączyć wersje wczesnego dostępu i przywrócić ostatnią zainstalowaną wersję publiczną na komputerze:
 
 1. Wyłącz wersje wczesnego dostępu.
    1. Otwórz **[[Ustawienia]]**.
-   2. Na pasku bocznym wybierz **Ogólne**.
+   2. Na panelu bocznym wybierz **Ogólne**.
    3. W sekcji **Aplikacja** wyłącz **Otrzymuj wersje testowe**.
 2. Zamknij Obsidian.
 3. Usuń plik `obsidian-VERSION.asar`, gdzie `VERSION` to wersja Obsidian.
@@ -56,13 +56,14 @@ Aby wrócić do korzystania z wersji publicznych (nie wczesnego dostępu) na kom
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Uruchom ponownie Obsidian.
+5. Jeśli po tym Obsidian nie jest w najnowszej wersji publicznej, zaktualizuj [[Aktualizuj Obsidian#Aktualizacje instalatora|wersję instalatora]].
 
 ## Przywracanie wersji publicznych na urządzeniach mobilnych
 
-Aby wrócić do korzystania z wersji publicznych (nie wczesnego dostępu) na urządzeniu mobilnym:
+Aby przejść z wersji wczesnego dostępu na najnowszą wersję publiczną na urządzeniu mobilnym:
 
-1. Utwórz kopię zapasową danych skarbca
+1. Utwórz kopię zapasową danych sejfu
 2. Odinstaluj Obsidian
 3. Zainstaluj ponownie Obsidian ze Sklepu Play lub App Store Apple
-4. Przywróć dane skarbca z kopii zapasowych
+4. Przywróć dane sejfu z kopii zapasowych
 5. Otwórz Obsidian

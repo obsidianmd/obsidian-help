@@ -12,6 +12,7 @@ Bạn có thể phát triển [[Phần mở rộng từ cộng đồng]] và [[C
 Obsidian phát triển và duy trì một số dự án mã nguồn mở. Bạn có thể gửi pull request với các bản sửa lỗi và cải tiến đến các kho GitHub sau:
 
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), một định dạng tệp mở cho dữ liệu canvas vô hạn.
+- [Knap](https://github.com/obsidianmd/knap) (MIT), ngôn ngữ mẫu để tạo Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), một plugin chuyển đổi dữ liệu từ nhiều định dạng khác nhau sang tệp Markdown văn bản thuần.
 - [Obsidian Maps](https://github.com/obsidianmd/obsidian-maps) (MIT), một plugin hiển thị bản đồ trong Obsidian Cơ sở.
 - [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) (MIT), một tiện ích mở rộng trình duyệt để tô sáng và thu thập trang web thành tệp Markdown văn bản thuần.

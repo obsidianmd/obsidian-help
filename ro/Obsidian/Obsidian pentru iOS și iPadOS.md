@@ -1,0 +1,248 @@
+---
+permalink: ios
+aliases:
+  - Obsidian for iOS and iPadOS
+---
+Aplicația mobilă Obsidian pentru iOS și iPadOS aduce funcții puternice de luare de notițe pe iPhone-ul și iPad-ul tău. O poți descărca din [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
+
+Această pagină acoperă funcțiile specifice iOS, inclusiv widget-uri, integrarea cu Siri și Scurtăturile (Shortcuts). 
+
+## Sync
+
+Pentru informații despre sincronizarea notelor între dispozitive, te rugăm să consulți [[Sincronizează-ți notițele pe toate dispozitivele]].
+
+## Widget-uri
+
+Obsidian pentru iOS oferă mai multe widget-uri pentru a efectua acțiuni rapide asupra seifului tău.
+
+> [!note] Notă
+> Widget-urile sunt disponibile pe iOS și iPadOS 18 și versiuni mai noi.
+> Widget-urile nu sunt disponibile atunci când se folosește „Necesită Face ID" pentru a debloca aplicația.
+
+
+### Widget-uri pentru ecranul de blocare și Centrul de control
+
+Widget-urile pentru ecranul de blocare și Centrul de control îți permit să:
+- Deschizi Captarea rapidă
+- Creezi o notă nouă
+- Deschizi o notă anume
+- Deschizi nota zilnică
+- Deschizi căutarea
+- Deschizi Obsidian
+
+### Widget-uri pentru ecranul de start
+
+Widget-urile pentru ecranul de start îți permit să:
+- Deschizi Captarea rapidă
+- Creezi o notă
+- Vizualizezi o notă
+- Deschizi nota ta zilnică
+
+### Personalizarea widget-urilor
+
+Poți personaliza widget-urile pentru a se potrivi fluxului tău de lucru, cum ar fi alegerea seifului de folosit sau specificarea unei anumite note de deschis.
+
+- **Widget-uri pentru ecranul de start:** Apasă și menține apăsat widget-ul, apoi selectează **Editează widget**.
+- **Widget-uri pentru ecranul de blocare:** Atinge și menține apăsat ecranul de blocare, apasă **Personalizează**, selectează ecranul de blocare, apoi apasă widget-ul pe care vrei să-l personalizezi.
+- **Widget-uri pentru Centrul de control:** Deschide Centrul de control, apasă butonul **+** din stânga sus pentru a începe editarea, apoi apasă widget-ul pe care vrei să-l personalizezi.
+
+Opțiuni de configurare pentru widget-ul **Notă nouă**:
+
+![[ios-new-note-configuration.png|400]]
+
+Opțiuni de configurare pentru widget-ul **Vizualizează notă**:
+
+![[ios-view-note-configuration.png|400]]
+
+## Captare rapidă
+
+Captarea rapidă îți permite să salvezi text în seiful tău de pe ecranul de blocare, Centrul de control, widget-urile de pe ecranul de start sau Scurtături, fără a aștepta încărcarea seifului. În funcție de locația de captare selectată, Captarea rapidă poate crea o notă nouă sau adăuga textul la o notă existentă.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Notă
+> Captarea rapidă necesită Obsidian 1.14 sau o versiune mai nouă și iOS sau iPadOS 26 sau o versiune mai nouă.
+
+Pentru a capta text:
+
+1. Adaugă widget-ul **Captare rapidă** pe ecranul de blocare, în Centrul de control sau pe ecranul de start.
+2. Apasă widget-ul pentru a deschide Captarea rapidă.
+3. Introdu textul.
+4. Pentru a schimba unde va fi salvat textul, apasă locația de captare din partea de sus a ecranului și selectează altă locație.
+5. Apasă bifa pentru a salva textul.
+
+**Notă**: Dacă Activitățile în direct (Live Activities) sunt activate, nota de captare rapidă apare și pe ecranul de blocare și, pe modelele de iPhone compatibile, în Dynamic Island. Apasă bara sau Activitatea în direct pentru a continua editarea.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Locații de captare
+
+Locațiile de captare determină unde Captarea rapidă salvează textul tău. O locație de captare poate:
+
+- Crea o notă nouă într-un director selectat, cu un șablon opțional și un nume de notă personalizat.
+- Adăuga textul la începutul sau sfârșitul notei tale zilnice.
+- Adăuga textul la începutul sau sfârșitul unei note marcate.
+- Adăuga textul la începutul sau sfârșitul unei alte note pe care o selectezi.
+
+Pentru a crea o locație de captare:
+1. Deschide Captarea rapidă.
+2. Apasă locația de captare din partea de sus a ecranului.
+3. Apasă butonul plus (+).
+4. Selectează un comportament și configurează eventualele setări opționale.
+5. Apasă **Salvează**.
+
+Poți folosi și **Deschide nota după captare** pentru a alege dacă Obsidian deschide nota de destinație după salvarea captării.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Șabloane pentru Captarea rapidă
+
+Poți aplica un șablon pentru a formata textul captat. Șabloanele pentru Captarea rapidă acceptă următorii substituenți:
+
+| Substituent | Descriere |
+| --- | --- |
+| `{{content}}` | Textul captat |
+| `{{date}}` | Data curentă |
+| `{{time}}` | Ora curentă |
+| `{{latitude}}` | Latitudinea curentă |
+| `{{longitude}}` | Longitudinea curentă |
+| `{{shortAddress}}` | Forma scurtă a adresei curente |
+| `{{fullAddress}}` | Adresa curentă completă |
+| `{{googleMapsLink}}` | Link Google Maps către locația curentă |
+| `{{appleMapsLink}}` | Link Apple Maps către locația curentă |
+| `{{openStreetMapLink}}` | Link OpenStreetMap către locația curentă |
+
+Pentru a configura un widget de Captare rapidă pentru o anumită locație de captare, folosește pașii din [[#Personalizarea widget-urilor]]. Widget-urile de pe ecranul de start pot afișa mai multe locații de captare.
+
+![[ios-quick-capture-widget.png|400]]
+
+## Scurtături
+
+Obsidian se integrează cu aplicația Shortcuts de la Apple, permițându-ți să creezi automatizări puternice. Scurtăturile disponibile includ:
+
+- **Captare rapidă** — Deschide Captarea rapidă folosind o locație de captare configurată
+- **Deschide marcaj** — Deschide o notă marcată din seiful tău
+- **Deschide notă nouă** — Creează o notă nouă în seiful tău
+- **Deschide nota zilnică** — Sari direct la nota ta zilnică de astăzi
+- **Captează în nota zilnică** — Adaugă text la începutul sau sfârșitul notei zilnice fără a deschide aplicația Obsidian
+- **Captează în marcaj** — Adaugă text la începutul sau sfârșitul unei note marcate fără a deschide aplicația Obsidian
+- **Obține notă marcată** — Obține textul dintr-o notă marcată
+- **Obține nota zilnică** — Obține textul din nota zilnică
+- **Caută în seif** — Caută un cuvânt cheie în seiful tău
+- **Marcaj link** — Adaugă un link web la marcajele tale
+- **Deschide Obsidian** — Deschide Obsidian
+
+Scurtăturile de captare sunt deosebit de utile pentru luarea rapidă de notițe, deoarece îți permit să adaugi conținut la o notă în fundal.
+
+## Meniul de partajare (Share Sheet)
+
+Meniul de partajare al Obsidian îți permite să captezi conținut din pagini web. De asemenea, funcționează cu aplicații precum YouTube și alte rețele sociale.
+
+> [!note]
+> - Meniul de partajare nativ este disponibil pe iOS și iPadOS 18 și versiuni mai noi.
+> - Funcțiile meniului de partajare descrise în această secțiune necesită Obsidian 1.13.0 sau o versiune mai nouă.
+
+Folosește meniul de partajare pentru a trimite rapid conținut dintr-o altă aplicație în Obsidian:
+1. Într-o altă aplicație, apasă butonul **Partajează**.
+2. Selectează **Obsidian**.
+3. Alege o locație.
+4. Revizuiește sau editează conținutul captat.
+5. Apasă **Salvează**.
+
+![[ios-share-sheet-extension.png|400]]
+
+### Locații
+
+Locațiile îți permit să decizi unde ar trebui să ajungă conținutul partajat, înainte de a-l salva.
+
+Locațiile pot capta către:
+- **Notă nouă** — Creează o notă nouă într-un seif sau folder.
+- **Notă zilnică** — Adaugă conținut la începutul sau sfârșitul notei zilnice de astăzi.
+- **Notă marcată** — Adaugă conținut la începutul sau sfârșitul unei note marcate.
+- **Notă** — Alege o notă existentă din seiful tău.
+- **Marcaj nou** — Salvează un URL partajat în marcajele Obsidian.
+
+![[ios-share-sheet-locations.png|400]]
+
+### Personalizarea locațiilor
+
+Poți crea locații pentru fluxuri de lucru comune, cum ar fi salvarea articolelor într-un inbox, adăugarea de citate la nota ta zilnică sau adăugarea de linkuri la marcaje.
+
+Pentru a personaliza locațiile:
+
+1. Deschide Obsidian din meniul de partajare iOS.
+2. Apasă locația curentă din bara de instrumente.
+3. Apasă butonul **+** pentru a crea o locație nouă, sau selectează o locație existentă pentru a o edita.
+4. Alege seiful, comportamentul și setările opționale.
+
+În funcție de tipul `Comportament`, poți configura opțiuni precum:
+- Folder
+- Șablon
+- Grup de marcaje
+- Poziția de adăugare (la început sau la sfârșit)
+- Dacă linkurile partajate captează **textul integral** sau doar **URL-ul**
+
+![[ios-share-sheet-add-location.png|400]]
+
+### Folosirea unui șablon la partajare
+
+Poți folosi un șablon atunci când partajezi conținut din meniul de partajare. Șabloanele îți permit să formatezi conținutul web captat cu detalii precum titlul paginii, autorul, site-ul sursă și data publicării.
+
+Pentru a configura o locație cu un șablon:
+
+1. Deschide Obsidian din meniul de partajare iOS.
+2. Apasă locația curentă din bara de instrumente.
+3. Apasă butonul **+** pentru a crea o locație nouă.
+4. Introdu un nume pentru locație.
+5. Selectează un seif.
+6. Setează **Comportament** la **Notă nouă**.
+7. În secțiunea **Opțional**, apasă **Șablon**.
+8. Selectează o notă din seiful tău pentru a o folosi drept șablon.
+9. Apasă **Salvează** pentru a salva locația.
+
+![[ios-share-sheet-set-template.png|400]]
+
+Când partajezi un link folosind această locație, Obsidian aplică mai întâi șablonul, apoi adaugă conținutul partajat.
+
+Substituenți de șablon acceptați:
+
+| Substituent | Descriere |
+| --- | --- |
+| `{{author}}` | Autorul articolului |
+| `{{description}}` | Descrierea sau rezumatul articolului |
+| `{{domain}}` | Numele de domeniu al site-ului |
+| `{{favicon}}` | URL-ul favicon-ului site-ului |
+| `{{image}}` | URL-ul imaginii principale a articolului |
+| `{{published}}` | Data publicării articolului, folosind formatul implicit de dată |
+| `{{published: YYYY-MM-DD}}` | Data publicării, folosind un format de dată personalizat |
+| `{{site}}` | Numele site-ului |
+| `{{title}}` | Titlul articolului |
+| `{{url}}` | URL-ul articolului |
+| `{{wordCount}}` | Numărul total de cuvinte din conținutul extras |
+
+Poți folosi și substituenții standard de dată și oră ai șabloanelor:
+
+| Substituent | Descriere |
+| --- | --- |
+| `{{date}}` | Data curentă |
+| `{{date: YYYY-MM-DD}}` | Data curentă, folosind un format personalizat |
+| `{{time}}` | Ora curentă |
+| `{{time: HH:mm}}` | Ora curentă, folosind un format personalizat |
+
+## Integrarea cu Siri
+
+Poți folosi comenzi vocale Siri pentru a interacționa cu Obsidian:
+
+- „Capture using Obsidian"
+- „Capture to Obsidian"
+- „Open my daily note in Obsidian"
+- „Search in Obsidian"
+
+## Integrarea cu Spotlight
+
+Când cauți „Obsidian" în Spotlight pe iOS, vei vedea acțiuni rapide:
+- Notă nouă
+- Caută
+- Notă zilnică

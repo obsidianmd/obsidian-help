@@ -20,6 +20,7 @@ Obsidian iOS:lle tarjoaa useita widgetejä nopeiden toimintojen suorittamiseen h
 ### Lukitusnäytön ja Ohjauskeskuksen widgetit
 
 Lukitusnäytön ja Ohjauskeskuksen widgeteillä voit:
+- Avata pikakaappauksen
 - Luoda uuden muistiinpanon
 - Avata tietyn muistiinpanon
 - Avata päivän muistiinpanon
@@ -29,6 +30,7 @@ Lukitusnäytön ja Ohjauskeskuksen widgeteillä voit:
 ### Kotinäytön widgetit
 
 Kotinäytön widgeteillä voit:
+- Avata pikakaappauksen
 - Luoda muistiinpanon
 - Tarkastella muistiinpanoa
 - Avata päivän muistiinpanon
@@ -49,15 +51,85 @@ Voit mukauttaa widgetejä työnkulkuusi sopiviksi, esimerkiksi valitsemalla käy
 
 ![[ios-view-note-configuration.png|400]]
 
+## Pikakaappaus
+
+Pikakaappauksen avulla voit tallentaa tekstiä holviisi lukitusnäytön, Ohjauskeskuksen tai kotinäytön widgeteistä tai pikakomennoista odottamatta holvin latautumista. Valitsemastasi kaappaussijainnista riippuen pikakaappaus voi luoda uuden muistiinpanon tai lisätä tekstin olemassa olevaan muistiinpanoon.
+
+![[ios-quick-capture-view.png|400]]
+
+> [!note] Huom
+> Pikakaappaus vaatii Obsidian 1.14:n tai uudemman sekä iOS- tai iPadOS 26 -käyttöjärjestelmän tai uudemman.
+
+Tekstin kaappaaminen:
+
+1. Lisää **Pikakaappaus**-widget lukitusnäytölle, Ohjauskeskukseen tai kotinäytölle.
+2. Napauta widgetiä avataksesi pikakaappauksen.
+3. Kirjoita teksti.
+4. Jos haluat muuttaa tallennussijaintia, napauta kaappaussijaintia näytön yläosassa ja valitse toinen sijainti.
+5. Napauta valintamerkkiä tallentaaksesi tekstin.
+
+**Huom:** Jos Live-aktiviteetit ovat käytössä, pikakaappausmuistiinpano näkyy myös lukitusnäytöllä ja tuetuissa iPhone-malleissa Dynamic Islandissa. Napauta palkkia tai Live-aktiviteettia jatkaaksesi muokkaamista.
+
+![[ios-quick-capture-live-activity.png|400]]
+
+### Kaappauspaikat
+
+Kaappauspaikat määrittävät, minne pikakaappaus tallentaa tekstisi. Kaappauspaikka voi:
+
+- Luoda uuden muistiinpanon valittuun kansioon, valinnaisella pohjalla ja mukautetulla muistiinpanon nimellä.
+- Lisätä tekstin päivän muistiinpanon alkuun tai loppuun.
+- Lisätä tekstin kirjanmerkityn muistiinpanon alkuun tai loppuun.
+- Lisätä tekstin valitsemasi muistiinpanon alkuun tai loppuun.
+
+Kaappauspaikan luominen:
+1. Avaa pikakaappaus.
+2. Napauta kaappaussijaintia näytön yläosassa.
+3. Napauta plus (+) -painiketta.
+4. Valitse toiminto ja määritä valinnaiset asetukset.
+5. Napauta **Tallenna**.
+
+Voit myös käyttää **Avaa muistiinpano kaappauksen jälkeen** -asetusta valitaksesi, avataanko kohdemuistiinpano Obsidianissa tallennuksen jälkeen.
+
+![[ios-quick-capture-locations.png|400]]
+
+![[ios-quick-capture-config.png|400]]
+
+### Pikakaappauksen pohjat
+
+Voit käyttää pohjaa kaapatun tekstin muotoiluun. Pikakaappauksen pohjat tukevat seuraavia paikanvaraajia:
+
+| Paikanvaraaja | Kuvaus |
+| --- | --- |
+| `{{content}}` | Kaapattu teksti |
+| `{{date}}` | Nykyinen päivämäärä |
+| `{{time}}` | Nykyinen kellonaika |
+| `{{latitude}}` | Nykyinen leveysaste |
+| `{{longitude}}` | Nykyinen pituusaste |
+| `{{shortAddress}}` | Nykyisen osoitteen lyhyt muoto |
+| `{{fullAddress}}` | Täydellinen nykyinen osoite |
+| `{{googleMapsLink}}` | Google Maps -linkki nykyiseen sijaintiin |
+| `{{appleMapsLink}}` | Apple Maps -linkki nykyiseen sijaintiin |
+| `{{openStreetMapLink}}` | OpenStreetMap-linkki nykyiseen sijaintiin |
+
+Jos haluat määrittää pikakaappauswidgetin tietylle kaappauspaikalle, noudata kohdassa [[#Widgetien mukauttaminen]] kuvattuja ohjeita. Kotinäytön widgetit voivat näyttää useita kaappauspaikkoja.
+
+![[ios-quick-capture-widget.png|400]]
+
 ## Pikakomennot
 
 Obsidian integroituu Applen Pikakomennot-sovellukseen, mikä mahdollistaa tehokkaiden automaatioiden luomisen. Käytettävissä olevat pikakomennot:
 
-- **Avaa muistiinpano** — Avaa tietty muistiinpano holvissasi
-- **Luo uusi muistiinpano** — Luo uusi muistiinpano holviisi
+- **Pikakaappaus** — Avaa pikakaappaus määritetyllä kaappauspaikalla
+- **Avaa kirjanmerkki** — Avaa kirjanmerkitty muistiinpano holvistasi
+- **Avaa uusi muistiinpano** — Luo uusi muistiinpano holviisi
 - **Avaa päivän muistiinpano** — Siirry suoraan tämän päivän muistiinpanoon
 - **Tallenna päivän muistiinpanoon** — Lisää teksti päivän muistiinpanon alkuun tai loppuun avaamatta Obsidian-sovellusta
 - **Tallenna kirjanmerkkiin** — Lisää teksti kirjanmerkityn muistiinpanon alkuun tai loppuun avaamatta Obsidian-sovellusta
+- **Hae kirjanmerkitty muistiinpano** — Hakee tekstin kirjanmerkitystä muistiinpanosta
+- **Hae päivän muistiinpano** — Hakee tekstin päivän muistiinpanosta
+- **Hae holvista** — Hae holvistasi avainsanalla
+- **Kirjanmerkki linkki** — Lisää verkkolinkki kirjanmerkkeihisi
+- **Avaa Obsidian** — Avaa Obsidianin
 
 Tallennuspikakomennot ovat erityisen hyödyllisiä nopeaan muistiinpanojen tekemiseen, sillä niiden avulla voit lisätä sisältöä muistiinpanoon taustalla.
 
@@ -144,6 +216,7 @@ Tuetut pohjan paikanvaraajat:
 | `{{published: YYYY-MM-DD}}` | Julkaisupäivämäärä mukautetulla muodolla |
 | `{{site}}` | Verkkosivuston nimi |
 | `{{title}}` | Artikkelin otsikko |
+| `{{url}}` | Artikkelin URL |
 | `{{wordCount}}` | Kaapatun sisällön sanojen kokonaismäärä |
 
 Voit myös käyttää vakiomuotoisia päivämäärän ja ajan paikanvaraajia:

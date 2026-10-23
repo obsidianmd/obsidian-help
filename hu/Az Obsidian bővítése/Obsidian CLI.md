@@ -1484,8 +1484,6 @@ Ha problémáid vannak az Obsidian CLI futtatásával:
 
 ### Windows
 
-Az Obsidian CLI Windowson az Obsidian 1.12.7+ telepítőt igényli. Lásd: [[Az Obsidian frissítése|Telepítőverzió frissítése]].
-
 A Windows egy terminál átirányítót használ, amely megfelelően csatlakoztatja az Obsidiant az stdin/stdout-hoz. Ez szükséges, mert az Obsidian normál esetben GUI alkalmazásként fut, ami inkompatibilis a terminál kimenetekkel Windowson. Amikor telepíted az Obsidian 1.12.7+ verziót, az `Obsidian.com` terminál átirányító az `Obsidian.exe` fájl mappájában lesz hozzáadva.
 
 A CLI regisztráció hozzáadja az Obsidiant a felhasználó PATH változójához, ami csak a terminál újraindítása után lép érvénybe.

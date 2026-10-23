@@ -201,7 +201,25 @@ views:
 - `name` is de weergavenaam en kan worden gebruikt om de standaardweergave te definiëren.
 - `filters` zijn precies hetzelfde als hierboven beschreven, maar zijn alleen van toepassing op de weergave.
 - `groupBy` specificeert een eigenschap en sorteerrichting. De waarde van de opgegeven eigenschap voor elke rij wordt gebruikt om de rij in groepen te plaatsen.
+- `groupOrder` specificeert de volgorde en zichtbaarheid van groepen. Indien aanwezig worden alleen groepen waarvan de waarden in de lijst staan weergegeven, in die volgorde. Een lege lijst verbergt alle groepen. Verwijder `groupOrder` om alle groepen weer te geven in de volgorde gedefinieerd door `groupBy`.
 - `summaries` koppelt eigenschapnamen aan een benoemde samenvatting. Samenvattingen voeren een aggregatie uit op de eigenschap over alle rijen.
+
+Bijvoorbeeld, deze weergave toont alleen de groepen Gepland, In uitvoering en Gereed, in die volgorde:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Gebruik `null` in `groupOrder` om bestanden op te nemen die geen waarde hebben voor de gegroepeerde eigenschap.
 
 [[Weergaven]] kunnen aanvullende gegevens opslaan om alle informatie op te slaan die nodig is om de status te behouden of correct weer te geven, maar plug-in-auteurs moeten ervoor zorgen dat ze geen sleutels gebruiken die al in gebruik zijn door de kernplug-in Bases. Een tabelweergave kan dit bijvoorbeeld gebruiken om het aantal rijen te beperken of om te selecteren welke kolom wordt gebruikt om rijen te sorteren en in welke richting. Een ander weergavetype zoals een kaart kan dit gebruiken om aan te geven welke eigenschap in de notitie overeenkomt met de breedte- en lengtegraad en welke eigenschap moet worden weergegeven als de titel van de pin.
 

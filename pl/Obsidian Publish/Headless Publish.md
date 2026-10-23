@@ -4,7 +4,7 @@ cssclasses:
   - reference
 description: Obsidian Publish oferuje klienta bezgłowego (headless) do publikowania sejfów bez korzystania z aplikacji desktopowej. Przydatny w potokach CI i zautomatyzowanych przepływach pracy.
 ---
-[[Wprowadzenie do Obsidian Publish|Obsidian Publish]] oferuje klienta bezobsługowego do publikowania skarbców bez korzystania z aplikacji desktopowej. Przydatne w potokach CI i zautomatyzowanych przepływach pracy. Publikuj najnowsze zmiany według harmonogramu lub jako część potoku budowania.
+[[Wprowadzenie do Obsidian Publish|Obsidian Publish]] oferuje klienta bezobsługowego do publikowania sejfów bez korzystania z aplikacji desktopowej. Przydatne w potokach CI i zautomatyzowanych przepływach pracy. Publikuj najnowsze zmiany według harmonogramu lub jako część potoku budowania.
 
 Zainstaluj [[Obsidian Headless]] **(otwarta beta)**, aby korzystać z [[Wprowadzenie do Obsidian Publish|Obsidian Publish]] z wiersza poleceń bez aplikacji desktopowej Obsidian.
 
@@ -25,7 +25,7 @@ ob login
 # Wyświetl swoje strony Publish
 ob publish-list-sites
 
-# Połącz lokalny skarbiec ze stroną Publish
+# Połącz lokalny sejf ze stroną Publish
 cd ~/vaults/my-vault
 ob publish-setup --site "my-site"
 
@@ -56,7 +56,7 @@ ob publish-create-site --slug <slug>
 
 ### `ob publish-setup`
 
-Łączy lokalny skarbiec ze stroną Publish.
+Łączy lokalny sejf ze stroną Publish.
 
 ```
 ob publish-setup [--site <id-or-slug>] [--path <local-path>]
@@ -65,11 +65,11 @@ ob publish-setup [--site <id-or-slug>] [--path <local-path>]
 | Opcja | Opis |
 | --- | --- |
 | `--site` | ID strony lub slug |
-| `--path` | Ścieżka lokalnego skarbca (domyślnie: bieżący katalog) |
+| `--path` | Ścieżka lokalnego sejfu (domyślnie: bieżący katalog) |
 
 ### `ob publish`
 
-Publikuje zmiany ze skarbca na Twojej stronie. Domyślnie uwzględniane są tylko pliki z `publish: true` w metadanych początkowych.
+Publikuje zmiany ze sejfu na Twojej stronie. Domyślnie uwzględniane są tylko pliki z `publish: true` w metadanych początkowych.
 
 ```
 ob publish [--path <local-path>] [--all] [--dry-run] [--yes]
@@ -77,14 +77,14 @@ ob publish [--path <local-path>] [--all] [--dry-run] [--yes]
 
 | Opcja | Opis |
 | --- | --- |
-| `--path` | Ścieżka lokalnego skarbca (domyślnie: bieżący katalog) |
+| `--path` | Ścieżka lokalnego sejfu (domyślnie: bieżący katalog) |
 | `--all` | Uwzględnij wszystkie pliki, nie tylko te z flagą publish |
 | `--dry-run` | Pokaż zmiany bez publikowania |
 | `--yes` | Opublikuj bez pytania o potwierdzenie |
 
 ### `ob publish-config`
 
-Wyświetla lub zmienia ustawienia dołączania/wykluczania folderów dla skarbca. Uruchom bez opcji, aby wyświetlić bieżącą konfigurację.
+Wyświetla lub zmienia ustawienia dołączania/wykluczania folderów dla sejfu. Uruchom bez opcji, aby wyświetlić bieżącą konfigurację.
 
 ```
 ob publish-config [--path <local-path>] [options]
@@ -92,7 +92,7 @@ ob publish-config [--path <local-path>] [options]
 
 | Opcja | Opis |
 | --- | --- |
-| `--path` | Ścieżka lokalnego skarbca (domyślnie: bieżący katalog) |
+| `--path` | Ścieżka lokalnego sejfu (domyślnie: bieżący katalog) |
 | `--includes` | Foldery do dołączenia, oddzielone przecinkami (pusty ciąg, aby wyczyścić) |
 | `--excludes` | Foldery do wykluczenia, oddzielone przecinkami (pusty ciąg, aby wyczyścić) |
 
@@ -106,14 +106,14 @@ ob publish-site-options [--path <local-path>] [options]
 
 | Opcja | Opis |
 | --- | --- |
-| `--path` | Ścieżka lokalnego skarbca (domyślnie: bieżący katalog) |
+| `--path` | Ścieżka lokalnego sejfu (domyślnie: bieżący katalog) |
 | `--site-name` | Nazwa strony |
 | `--index-file` | Ścieżka pliku strony głównej |
 | `--logo` | Ścieżka pliku logo (pusty ciąg, aby wyczyścić) |
 | `--show-navigation` | Pokaż menu nawigacji |
 | `--show-graph` | Pokaż graf |
 | `--show-outline` | Pokaż spis treści |
-| `--show-search` | Pokaż szukaj |
+| `--show-search` | Pokaż wyszukiwarkę |
 | `--show-backlinks` | Pokaż linki zwrotne |
 | `--show-hover-preview` | Pokaż podgląd po najechaniu kursorem |
 | `--show-theme-toggle` | Pokaż przełącznik motywu |
@@ -127,7 +127,7 @@ ob publish-site-options [--path <local-path>] [options]
 
 ### `ob publish-unlink`
 
-Rozłącza skarbiec ze stroną Publish.
+Rozłącza sejf ze stroną Publish.
 
 ```
 ob publish-unlink [--path <local-path>]

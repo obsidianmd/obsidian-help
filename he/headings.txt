@@ -124,7 +124,7 @@ translation=התאמת תמונה
 
 [heading.bases/Image aspect ratio]
 original=Image aspect ratio
-translation=יחס גובה-רוחב של התמונה
+translation=יחס גובה־רוחב של התמונה
 
 [heading.bases/Install the Maps plugin]
 original=Install the Maps plugin
@@ -321,6 +321,22 @@ translation=ייצוא CSV
 [heading.bases/Embed a view]
 original=Embed a view
 translation=הטמעת תצוגה
+
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=קיבוץ כרטיסים לעמודות
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=עבודה עם כרטיסים ועמודות
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=הסתרת עמודות ריקות
+
+[heading.bases/Column width]
+original=Column width
+translation=רוחב עמודה
 
 [heading.formulas/What formulas can do]
 original=What formulas can do
@@ -874,11 +890,11 @@ translation=פתרון בעיות
 original=Alternate shells
 translation=מעטפות חלופיות
 
-[heading.plugins/format-converter/Supported formats]
+[heading.plugins/Supported formats]
 original=Supported formats
 translation=פורמטים נתמכים
 
-[heading.plugins/format-converter/[[Properties]]]
+[heading.plugins/[[Properties]]]
 original=[[Properties]]
 translation=[[מאפיינים]]
 
@@ -937,3 +953,191 @@ translation=התקנת Obsidian ב-Android
 [heading.install/Install Obsidian on iPhone and iPad]
 original=Install Obsidian on iPhone and iPad
 translation=התקנת Obsidian ב-iPhone וב-iPad
+
+[heading.import/Create an Airtable personal access token]
+original=Create an Airtable personal access token
+translation=יצירת אסימון גישה אישי ב-Airtable
+
+[heading.import/Import your Airtable data]
+original=Import your Airtable data
+translation=ייבוא נתוני Airtable
+
+[heading.import/Import options]
+original=Import options
+translation=אפשרויות ייבוא
+
+[heading.import/Configure how Airtable fields are imported]
+original=Configure how Airtable fields are imported
+translation=הגדרת אופן ייבוא שדות Airtable
+
+[heading.import/What gets imported]
+original=What gets imported
+translation=מה מיובא
+
+[heading.import/Limitations]
+original=Limitations
+translation=מגבלות
+
+[heading.import/Before you start]
+original=Before you start
+translation=לפני שמתחילים
+
+[heading.import/Import your Logseq graph]
+original=Import your Logseq graph
+translation=ייבוא גרף ה-Logseq שלכם
+
+[heading.import/Settings]
+original=Settings
+translation=הגדרות
+
+[heading.import/Journals]
+original=Journals
+translation=יומנים
+
+[heading.import/Flatten outlines]
+original=Flatten outlines
+translation=שיטוח מתווים
+
+[heading.import/Preserve incompatible data]
+original=Preserve incompatible data
+translation=שימור נתונים לא תואמים
+
+[heading.import/Templates]
+original=Templates
+translation=תבניות
+
+[heading.import/Troubleshooting]
+original=Troubleshooting
+translation=פתרון בעיות
+
+[heading.import/Locate your note files]
+original=Locate your note files
+translation=איתור קבצי ההערות שלך
+
+[heading.import/Import your Tomboy or Gnote notes]
+original=Import your Tomboy or Gnote notes
+translation=ייבוא הערות Tomboy או Gnote שלך
+
+[heading.import/Edit the import template]
+original=Edit the import template
+translation=עריכת תבנית הייבוא
+
+[heading.import/Preview results]
+original=Preview results
+translation=תצוגה מקדימה של תוצאות
+
+[heading.import/Template syntax]
+original=Template syntax
+translation=תחביר תבנית
+
+[heading.import/Variables]
+original=Variables
+translation=משתנים
+
+[heading.import/Source values for properties]
+original=Source values for properties
+translation=ערכי מקור עבור מאפיינים
+
+[heading.import/Example template]
+original=Example template
+translation=דוגמה לתבנית
+
+[heading.community-directory/Header]
+original=Header
+translation=כותרת עליונה
+
+[heading.community-directory/Overview]
+original=Overview
+translation=סקירה כללית
+
+[heading.community-directory/Scorecard]
+original=Scorecard
+translation=כרטיס ציון
+
+[heading.community-directory/Updates]
+original=Updates
+translation=עדכונים
+
+[heading.community-directory/Sidebar]
+original=Sidebar
+translation=סרגל צד
+
+[heading.community-directory/Frequently asked questions]
+original=Frequently asked questions
+translation=שאלות נפוצות
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=פתיחת התפריט
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=מחשב
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=תצוגה ופריסה
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=ניהול ההערה
+
+[heading.more-options-menu/Find]
+original=Find
+translation=חיפוש
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=נתיבים, היסטוריה ותצוגות מקושרות
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=המחשב שלכם
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=תפריט לשונית
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=נייד
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=פתיחת מצא והחלף
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=מציאת התאמות
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=החלפת התאמות
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=פתיחת PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=ניווט ב-PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=שינוי מראה PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=חיפוש ב-PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=העתקת טקסט מ-PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=הטמעת PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=ייצוא הערה ל-PDF

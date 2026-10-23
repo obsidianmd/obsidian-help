@@ -34,7 +34,7 @@ Aufgrund technischer Einschränkungen kann Obsidian Erweiterungen nicht zuverlä
 
 ## Überprüfungsprozess für Erweiterungen
 
-Alle Community-Erweiterungen müssen den [Obsidian-Entwicklerrichtlinien](https://docs.obsidian.md/Developer+policies) entsprechen. Obsidian scannt automatisch jede Erweiterungsversion auf Sicherheitslücken, Code-Qualitätsprobleme und Malware. Die Seite jeder Erweiterung im [Erweiterungsverzeichnis](https://community.obsidian.md) zeigt die Ergebnisse als Sicherheits-Scorecard an.
+Alle Community-Erweiterungen müssen den [Obsidian-Entwicklerrichtlinien](https://docs.obsidian.md/Developer+policies) entsprechen. Obsidian scannt automatisch jede Erweiterungsversion auf Sicherheitslücken, Code-Qualitätsprobleme und Malware. Die Seite jeder Erweiterung im [Erweiterungsverzeichnis](https://community.obsidian.md) zeigt die Ergebnisse als [[Community-Verzeichnis#Scorecard|Sicherheits-Scorecard]] an.
 
 Manuelle Überprüfungen werden weiterhin für beliebte, empfohlene und gemeldete Erweiterungen durchgeführt.
 
