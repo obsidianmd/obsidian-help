@@ -18,6 +18,7 @@ Aside from [[Functions#Global|Global]] functions, most functions depend on the t
 - [[Functions#Number type|Number]]
 - [[Functions#List type|List]]
 - [[Functions#Link type|Link]]
+- [[Functions#URL type|URL]]
 - [[Functions#File type|File]]
 - [[Functions#Object type|Object]]
 - [[Functions#Regular expression type|Regular expression]]
@@ -86,9 +87,10 @@ Global functions are used without a type.
 
 ### `link()`
 
-`link(path: string | file, display?: value): Link`
+`link(path: string | file, display?: value): Link | URL`
 
 - Parses a string `path` and returns a Link object that renders as a link to the given path.
+- If `path` is a URL, returns a URL object instead.
 - Optionally provide the `display` parameter to set the link display text.
 
 ### `list()`
@@ -523,6 +525,10 @@ Functions you can use on a link. Links can be created from a file (`file.asLink(
 `link.linksTo(file): boolean`
 
 - Returns `true` if the file represented by `link` has a link to `file`.
+
+## URL type
+
+Functions you can use with a URL such as `link("https://obsidian.md")`. URLs can use all functions of the [[Functions#String type|String type]], but not the functions of the [[Functions#Link type|Link type]].
 
 ## File type
 
