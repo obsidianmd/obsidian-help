@@ -324,6 +324,7 @@ Append content to daily note.
 
 ```bash
 content=<text>     # (required) content to append
+heading=<name>     # target heading section
 paneType=tab|split|window    # pane type to open in
 
 inline             # append without newline
@@ -336,6 +337,7 @@ Prepend content to daily note.
 
 ```bash
 content=<text>     # (required) content to prepend
+heading=<name>     # target heading section
 paneType=tab|split|window    # pane type to open in
 
 inline             # prepend without newline
@@ -512,6 +514,7 @@ Append content to a file (default: active file).
 file=<name>        # file name
 path=<path>        # file path
 content=<text>     # (required) content to append
+heading=<name>     # target heading section
 
 inline             # append without newline
 ```
@@ -524,6 +527,7 @@ Prepend content after frontmatter (default: active file).
 file=<name>        # file name
 path=<path>        # file path
 content=<text>     # (required) content to prepend
+heading=<name>     # target heading section
 
 inline             # prepend without newline
 ```
