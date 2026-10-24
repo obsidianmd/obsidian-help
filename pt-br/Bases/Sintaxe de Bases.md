@@ -369,7 +369,7 @@ Datas representam uma data específica, ou uma data e horário, dependendo da fu
 
 [[Vincular notas|Wikilinks]] em [[Propriedades|propriedades de frontmatter]] são automaticamente reconhecidos como objetos Link. Links serão renderizados como um link clicável na [[Visualizações|visualização]].
 
-- Para construir um link, use a [[Funções|função]] global `link`, por exemplo `link("filename")` ou `link("https://obsidian.md")`.
+- Para construir um link, use a [[Funções|função]] global `link`, por exemplo `link("filename")`.
 - Você pode criar um link a partir de qualquer string, por exemplo, `link(file.ctime.date().toString())`.
 - Para definir o texto de exibição, passe uma string opcional ou ícone como segundo parâmetro, por exemplo `link("filename", "display")` ou `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Links podem ser comparados com `==` e `!=`. Eles são equivalentes desde que apo
 Links podem ser comparados com arquivos como `file` ou `this`. Eles serão iguais se o link resolver para o arquivo. Por exemplo, `author == this`.
 
 Links também podem ser verificados em listas com contains, por exemplo, `authors.contains(this)`.
+
+### URLs
+
+URLs em [[Propriedades|propriedades de frontmatter]] são automaticamente reconhecidas como objetos URL. URLs serão renderizadas como um link clicável na [[Visualizações|visualização]].
+
+- Para construir uma URL, use a [[Funções|função]] global `link`, por exemplo `link("https://obsidian.md")`.
+- Para definir o texto de exibição, passe uma string opcional como segundo parâmetro, por exemplo `link("https://obsidian.md", "Obsidian")`.

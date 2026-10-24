@@ -369,7 +369,7 @@ Tarihler, oluşturmak için kullanılan fonksiyona veya [[Özellikler|özelliğe
 
 [[Notları bağla|Wiki bağlantıları]], [[Özellikler|başlangıç meta verileri özelliklerinde]] otomatik olarak Bağlantı nesneleri olarak tanınır. Bağlantılar [[Görünümler|görünümde]] tıklanabilir bağlantı olarak oluşturulur.
 
-- Bir bağlantı oluşturmak için genel `link` [[Fonksiyonlar|fonksiyonunu]] kullanın, örneğin `link("filename")` veya `link("https://obsidian.md")`.
+- Bir bağlantı oluşturmak için genel `link` [[Fonksiyonlar|fonksiyonunu]] kullanın, örneğin `link("filename")`.
 - Herhangi bir dizeden bağlantı oluşturabilirsiniz, örneğin `link(file.ctime.date().toString())`.
 - Görüntüleme metnini ayarlamak için isteğe bağlı bir dize veya simgeyi ikinci parametre olarak geçirin, örneğin `link("filename", "display")` veya `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Bağlantılar `==` ve `!=` ile karşılaştırılabilir. Aynı dosyaya işaret e
 Bağlantılar `file` veya `this` gibi dosyalarla karşılaştırılabilir. Bağlantı dosyaya çözümlenirse eşit olurlar. Örneğin, `author == this`.
 
 Bağlantılar ayrıca liste içerme kontrolünde de kullanılabilir, örneğin `authors.contains(this)`.
+
+### URL'ler
+
+[[Özellikler|Başlangıç meta verileri özelliklerindeki]] URL'ler otomatik olarak URL nesneleri olarak tanınır. URL'ler [[Görünümler|görünümde]] tıklanabilir bağlantı olarak oluşturulur.
+
+- Bir URL oluşturmak için genel `link` [[Fonksiyonlar|fonksiyonunu]] kullanın, örneğin `link("https://obsidian.md")`.
+- Görüntüleme metnini ayarlamak için isteğe bağlı bir dizeyi ikinci parametre olarak geçirin, örneğin `link("https://obsidian.md", "Obsidian")`.

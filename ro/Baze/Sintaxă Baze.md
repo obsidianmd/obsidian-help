@@ -371,7 +371,7 @@ Datele calendaristice reprezintă o dată specifică, sau o dată și o oră, î
 
 [[Leagă notițe|Wikilinkurile]] din [[Proprietăți|proprietățile din antet (frontmatter)]] sunt recunoscute automat ca obiecte Link. Legăturile vor fi afișate ca o legătură pe care se poate face clic în [[Afișaje|vizualizare]].
 
-- Pentru a construi o legătură, folosește [[Funcții|funcția]] globală `link`, de exemplu `link("filename")` sau `link("https://obsidian.md")`.
+- Pentru a construi o legătură, folosește [[Funcții|funcția]] globală `link`, de exemplu `link("filename")`.
 - Poți crea o legătură din orice string, de exemplu, `link(file.ctime.date().toString())`.
 - Pentru a stabili textul afișat, transmite un string opțional sau o iconiță ca al doilea parametru, de exemplu `link("filename", "display")` sau `link("filename", icon("plus"))`.
 
@@ -382,3 +382,10 @@ Legăturile pot fi comparate cu `==` și `!=`. Ele sunt echivalente atât timp c
 Legăturile pot fi comparate cu fișiere, precum `file` sau `this`. Ele vor fi considerate egale dacă legătura se rezolvă la acel fișier. De exemplu, `author == this`.
 
 Legăturile pot fi verificate și în conținutul unei liste, de exemplu, `authors.contains(this)`.
+
+### URL-uri
+
+URL-urile din [[Proprietăți|proprietățile din antet (frontmatter)]] sunt recunoscute automat ca obiecte URL. URL-urile vor fi afișate ca o legătură pe care se poate face clic în [[Afișaje|vizualizare]].
+
+- Pentru a construi un URL, folosește [[Funcții|funcția]] globală `link`, de exemplu `link("https://obsidian.md")`.
+- Pentru a stabili textul afișat, transmite un string opțional ca al doilea parametru, de exemplu `link("https://obsidian.md", "Obsidian")`.

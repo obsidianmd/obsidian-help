@@ -369,7 +369,7 @@ Ngày biểu diễn một ngày cụ thể, hoặc một ngày và giờ tùy th
 
 [[Liên kết ghi chú|Liên kết wiki]] trong [[Thuộc tính|thuộc tính siêu dữ liệu đầu tệp]] được tự động nhận dạng là đối tượng Liên kết. Liên kết sẽ hiển thị dưới dạng liên kết có thể nhấp trong [[Các chế độ xem|chế độ xem]].
 
-- Để tạo một liên kết, sử dụng [[Hàm|hàm]] toàn cục `link`, ví dụ `link("filename")` hoặc `link("https://obsidian.md")`.
+- Để tạo một liên kết, sử dụng [[Hàm|hàm]] toàn cục `link`, ví dụ `link("filename")`.
 - Bạn có thể tạo liên kết từ bất kỳ chuỗi nào, ví dụ, `link(file.ctime.date().toString())`.
 - Để đặt văn bản hiển thị, truyền vào một chuỗi hoặc biểu tượng tùy chọn làm tham số thứ hai, ví dụ `link("filename", "display")` hoặc `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Liên kết có thể được so sánh với `==` và `!=`. Chúng tương đư
 Liên kết có thể được so sánh với tệp như `file` hoặc `this`. Chúng sẽ bằng nhau nếu liên kết phân giải đến tệp đó. Ví dụ, `author == this`.
 
 Liên kết cũng có thể được kiểm tra trong phép chứa danh sách, ví dụ, `authors.contains(this)`.
+
+### URL
+
+URL trong [[Thuộc tính|thuộc tính siêu dữ liệu đầu tệp]] được tự động nhận dạng là đối tượng URL. URL sẽ hiển thị dưới dạng liên kết có thể nhấp trong [[Các chế độ xem|chế độ xem]].
+
+- Để tạo một URL, sử dụng [[Hàm|hàm]] toàn cục `link`, ví dụ `link("https://obsidian.md")`.
+- Để đặt văn bản hiển thị, truyền vào một chuỗi tùy chọn làm tham số thứ hai, ví dụ `link("https://obsidian.md", "Obsidian")`.

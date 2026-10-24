@@ -371,7 +371,7 @@ Le date rappresentano una data specifica, o una data e un'ora a seconda della fu
 
 I [[Collega le note|collegamenti wiki]] nelle [[Proprietà|proprietà dei metadati iniziali]] vengono automaticamente riconosciuti come oggetti Link. I collegamenti verranno visualizzati come collegamento cliccabile nella [[Viste|vista]].
 
-- Per costruire un collegamento, usa la [[Funzioni|funzione]] globale `link`, ad esempio `link("filename")` o `link("https://obsidian.md")`.
+- Per costruire un collegamento, usa la [[Funzioni|funzione]] globale `link`, ad esempio `link("filename")`.
 - Puoi creare un collegamento da qualsiasi stringa, ad esempio `link(file.ctime.date().toString())`.
 - Per impostare il testo visualizzato, passa una stringa opzionale o un'icona come secondo parametro, ad esempio `link("filename", "display")` o `link("filename", icon("plus"))`.
 
@@ -382,3 +382,10 @@ I collegamenti possono essere confrontati con `==` e `!=`. Sono equivalenti finc
 I collegamenti possono essere confrontati con file come `file` o `this`. Risulteranno uguali se il collegamento si risolve nel file. Ad esempio, `author == this`.
 
 I collegamenti possono anche essere verificati nell'operazione contains di un elenco, ad esempio `authors.contains(this)`.
+
+### URL
+
+Gli URL nelle [[Proprietà|proprietà dei metadati iniziali]] vengono automaticamente riconosciuti come oggetti URL. Gli URL verranno visualizzati come collegamento cliccabile nella [[Viste|vista]].
+
+- Per costruire un URL, usa la [[Funzioni|funzione]] globale `link`, ad esempio `link("https://obsidian.md")`.
+- Per impostare il testo visualizzato, passa una stringa opzionale come secondo parametro, ad esempio `link("https://obsidian.md", "Obsidian")`.

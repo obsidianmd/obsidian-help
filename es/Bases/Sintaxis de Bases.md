@@ -369,7 +369,7 @@ Las fechas representan una fecha específica, o una fecha y hora dependiendo de 
 
 Los [[Enlazar notas|enlaces wiki]] en las [[Propiedades|propiedades de metadatos iniciales]] se reconocen automáticamente como objetos Link. Los enlaces se renderizarán como un enlace clicable en la [[Vistas|vista]].
 
-- Para construir un enlace, usa la [[Funciones|función]] global `link`, por ejemplo `link("filename")` o `link("https://obsidian.md")`.
+- Para construir un enlace, usa la [[Funciones|función]] global `link`, por ejemplo `link("filename")`.
 - Puedes crear un enlace a partir de cualquier cadena, por ejemplo, `link(file.ctime.date().toString())`.
 - Para establecer el texto mostrado, pasa una cadena o icono opcionales como segundo parámetro, por ejemplo `link("filename", "display")` o `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Los enlaces se pueden comparar con `==` y `!=`. Son equivalentes siempre que apu
 Los enlaces se pueden comparar con archivos como `file` o `this`. Serán iguales si el enlace resuelve al archivo. Por ejemplo, `author == this`.
 
 Los enlaces también se pueden verificar en la comprobación de contenido en listas, por ejemplo, `authors.contains(this)`.
+
+### URLs
+
+Las URLs en las [[Propiedades|propiedades de metadatos iniciales]] se reconocen automáticamente como objetos URL. Las URLs se renderizarán como un enlace clicable en la [[Vistas|vista]].
+
+- Para construir una URL, usa la [[Funciones|función]] global `link`, por ejemplo `link("https://obsidian.md")`.
+- Para establecer el texto mostrado, pasa una cadena opcional como segundo parámetro, por ejemplo `link("https://obsidian.md", "Obsidian")`.

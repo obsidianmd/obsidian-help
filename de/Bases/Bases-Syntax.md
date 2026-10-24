@@ -369,7 +369,7 @@ Daten repräsentieren ein bestimmtes Datum oder ein Datum mit Uhrzeit, abhängig
 
 [[Notizen verknüpfen|Wiki-Links]] in [[Eigenschaften|Frontmatter-Eigenschaften]] werden automatisch als Link-Objekte erkannt. Links werden als anklickbarer Link in der [[Ansichten|Ansicht]] dargestellt.
 
-- Um einen Link zu erstellen, verwende die globale `link`-[[Funktionen|Funktion]], zum Beispiel `link("filename")` oder `link("https://obsidian.md")`.
+- Um einen Link zu erstellen, verwende die globale `link`-[[Funktionen|Funktion]], zum Beispiel `link("filename")`.
 - Du kannst aus jedem String einen Link erstellen, zum Beispiel `link(file.ctime.date().toString())`.
 - Um den Anzeigetext festzulegen, übergib einen optionalen String oder ein Symbol als zweiten Parameter, zum Beispiel `link("filename", "display")` oder `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Links können mit `==` und `!=` verglichen werden. Sie sind gleichwertig, solang
 Links können mit Dateien wie `file` oder `this` verglichen werden. Sie sind gleich, wenn der Link zur Datei aufgelöst wird. Zum Beispiel `author == this`.
 
 Links können auch in Listen-Contains-Prüfungen verwendet werden, zum Beispiel `authors.contains(this)`.
+
+### URLs
+
+URLs in [[Eigenschaften|Frontmatter-Eigenschaften]] werden automatisch als URL-Objekte erkannt. URLs werden als anklickbarer Link in der [[Ansichten|Ansicht]] dargestellt.
+
+- Um eine URL zu erstellen, verwende die globale `link`-[[Funktionen|Funktion]], zum Beispiel `link("https://obsidian.md")`.
+- Um den Anzeigetext festzulegen, übergib einen optionalen String als zweiten Parameter, zum Beispiel `link("https://obsidian.md", "Obsidian")`.

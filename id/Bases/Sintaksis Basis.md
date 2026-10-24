@@ -369,7 +369,7 @@ Tanggal merepresentasikan tanggal tertentu, atau tanggal dan waktu tergantung pa
 
 [[Hubungkan catatan|Tautan wiki]] dalam [[Properti|properti metadata awal]] secara otomatis dikenali sebagai objek Tautan. Tautan akan dirender sebagai tautan yang dapat diklik dalam [[Tampilan|tampilan]].
 
-- Untuk membuat tautan, gunakan [[Fungsi|fungsi]] global `link`, misalnya `link("filename")` atau `link("https://obsidian.md")`.
+- Untuk membuat tautan, gunakan [[Fungsi|fungsi]] global `link`, misalnya `link("filename")`.
 - Anda dapat membuat tautan dari string apa pun, misalnya, `link(file.ctime.date().toString())`.
 - Untuk mengatur teks tampilan, masukkan string atau ikon opsional sebagai parameter kedua, misalnya `link("filename", "display")` atau `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Tautan dapat dibandingkan dengan `==` dan `!=`. Mereka setara selama menunjuk ke
 Tautan dapat dibandingkan dengan file seperti `file` atau `this`. Mereka akan setara jika tautan merujuk ke file tersebut. Misalnya, `author == this`.
 
 Tautan juga dapat diperiksa dalam pencarian daftar, misalnya, `authors.contains(this)`.
+
+### URL
+
+URL dalam [[Properti|properti metadata awal]] secara otomatis dikenali sebagai objek URL. URL akan dirender sebagai tautan yang dapat diklik dalam [[Tampilan|tampilan]].
+
+- Untuk membuat URL, gunakan [[Fungsi|fungsi]] global `link`, misalnya `link("https://obsidian.md")`.
+- Untuk mengatur teks tampilan, masukkan string opsional sebagai parameter kedua, misalnya `link("https://obsidian.md", "Obsidian")`.

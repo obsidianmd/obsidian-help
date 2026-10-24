@@ -369,7 +369,7 @@ Päivämäärät edustavat tiettyä päivämäärää tai päivämäärää ja a
 
 [[Linkitä muistiinpanoja|Wikilinkit]] [[Määreet|alkulehti-määreissä]] tunnistetaan automaattisesti linkkiobjekteiksi. Linkit esitetään klikattavana linkkinä [[Näkymät|näkymässä]].
 
-- Linkin luomiseen käytä globaalia `link`-[[Funktiot|funktiota]], esimerkiksi `link("filename")` tai `link("https://obsidian.md")`.
+- Linkin luomiseen käytä globaalia `link`-[[Funktiot|funktiota]], esimerkiksi `link("filename")`.
 - Voit luoda linkin mistä tahansa merkkijonosta, esimerkiksi `link(file.ctime.date().toString())`.
 - Näytettävän tekstin asettamiseen anna valinnainen merkkijono tai kuvake toisena parametrina, esimerkiksi `link("filename", "display")` tai `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Linkkejä voidaan vertailla `==`- ja `!=`-operaattoreilla. Ne ovat yhtäläisiä
 Linkkejä voidaan vertailla tiedostoihin, kuten `file` tai `this`. Ne ovat yhtäläisiä, jos linkki osoittaa kyseiseen tiedostoon. Esimerkiksi `author == this`.
 
 Linkkejä voidaan myös tarkistaa luettelon sisältämisessä, esimerkiksi `authors.contains(this)`.
+
+### URL-osoitteet
+
+URL-osoitteet [[Määreet|alkulehti-määreissä]] tunnistetaan automaattisesti URL-objekteiksi. URL-osoitteet esitetään klikattavana linkkinä [[Näkymät|näkymässä]].
+
+- URL-osoitteen luomiseen käytä globaalia `link`-[[Funktiot|funktiota]], esimerkiksi `link("https://obsidian.md")`.
+- Näytettävän tekstin asettamiseen anna valinnainen merkkijono toisena parametrina, esimerkiksi `link("https://obsidian.md", "Obsidian")`.

@@ -369,7 +369,7 @@ As datas representam uma data específica, ou uma data e hora, dependendo da fun
 
 Os [[Ligar notas|links wiki]] nas [[Propriedades|propriedades de metadados iniciais]] são automaticamente reconhecidos como objetos Link. As ligações serão apresentadas como uma ligação clicável na [[Vistas|vista]].
 
-- Para construir uma ligação, use a [[Funções|função]] global `link`, por exemplo `link("filename")` ou `link("https://obsidian.md")`.
+- Para construir uma ligação, use a [[Funções|função]] global `link`, por exemplo `link("filename")`.
 - Pode criar uma ligação a partir de qualquer string, por exemplo, `link(file.ctime.date().toString())`.
 - Para definir o texto de apresentação, passe uma string opcional ou ícone como segundo parâmetro, por exemplo `link("filename", "display")` ou `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ As ligações podem ser comparadas com `==` e `!=`. São equivalentes desde que 
 As ligações podem ser comparadas com ficheiros como `file` ou `this`. Serão iguais se a ligação resolver para o ficheiro. Por exemplo, `author == this`.
 
 As ligações também podem ser verificadas em listas com contains, por exemplo, `authors.contains(this)`.
+
+### URLs
+
+Os URLs nas [[Propriedades|propriedades de metadados iniciais]] são automaticamente reconhecidos como objetos URL. Os URLs serão apresentados como uma ligação clicável na [[Vistas|vista]].
+
+- Para construir um URL, use a [[Funções|função]] global `link`, por exemplo `link("https://obsidian.md")`.
+- Para definir o texto de apresentação, passe uma string opcional como segundo parâmetro, por exemplo `link("https://obsidian.md", "Obsidian")`.

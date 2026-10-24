@@ -369,7 +369,7 @@ Datum representerar ett specifikt datum, eller ett datum och tid beroende på fu
 
 [[Länka anteckningar|Wikilänkar]] i [[Egenskaper|frontmatter-egenskaper]] identifieras automatiskt som länkobjekt. Länkar renderas som en klickbar länk i [[Vyer|vyn]].
 
-- För att konstruera en länk, använd den globala `link`-[[Funktioner|funktionen]], till exempel `link("filename")` eller `link("https://obsidian.md")`.
+- För att konstruera en länk, använd den globala `link`-[[Funktioner|funktionen]], till exempel `link("filename")`.
 - Du kan skapa en länk från valfri sträng, till exempel `link(file.ctime.date().toString())`.
 - För att ställa in visningstexten, skicka in en valfri sträng eller ikon som en andra parameter, till exempel `link("filename", "display")` eller `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Länkar kan jämföras med `==` och `!=`. De är likvärdiga så länge de pekar
 Länkar kan jämföras med filer som `file` eller `this`. De är lika om länken löser sig till filen. Till exempel `author == this`.
 
 Länkar kan också kontrolleras i listinnehållskontroll, till exempel `authors.contains(this)`.
+
+### URL:er
+
+URL:er i [[Egenskaper|frontmatter-egenskaper]] identifieras automatiskt som URL-objekt. URL:er renderas som en klickbar länk i [[Vyer|vyn]].
+
+- För att konstruera en URL, använd den globala `link`-[[Funktioner|funktionen]], till exempel `link("https://obsidian.md")`.
+- För att ställa in visningstexten, skicka in en valfri sträng som en andra parameter, till exempel `link("https://obsidian.md", "Obsidian")`.

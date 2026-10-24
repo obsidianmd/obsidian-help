@@ -369,7 +369,7 @@ Datoer representerer en bestemt dato, eller en dato og et klokkeslett avhengig a
 
 [[Lenke notater|Wiki-lenker]] i [[Egenskaper|startmetadata-egenskaper]] gjenkjennes automatisk som Lenke-objekter. Lenker gjengis som en klikkbar lenke i [[Visninger|visningen]].
 
-- For å konstruere en lenke, bruk den globale `link`-[[Funksjoner|funksjonen]], for eksempel `link("filename")` eller `link("https://obsidian.md")`.
+- For å konstruere en lenke, bruk den globale `link`-[[Funksjoner|funksjonen]], for eksempel `link("filename")`.
 - Du kan opprette en lenke fra en hvilken som helst streng, for eksempel `link(file.ctime.date().toString())`.
 - For å angi visningsteksten, pass inn en valgfri streng eller et ikon som en andre parameter, for eksempel `link("filename", "display")` eller `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Lenker kan sammenlignes med `==` og `!=`. De er likeverdige så lenge de peker t
 Lenker kan sammenlignes med filer som `file` eller `this`. De vil være like hvis lenken peker til filen. For eksempel `author == this`.
 
 Lenker kan også sjekkes i listeinnhold, for eksempel `authors.contains(this)`.
+
+### URL-er
+
+URL-er i [[Egenskaper|startmetadata-egenskaper]] gjenkjennes automatisk som URL-objekter. URL-er gjengis som en klikkbar lenke i [[Visninger|visningen]].
+
+- For å konstruere en URL, bruk den globale `link`-[[Funksjoner|funksjonen]], for eksempel `link("https://obsidian.md")`.
+- For å angi visningsteksten, pass inn en valgfri streng som en andre parameter, for eksempel `link("https://obsidian.md", "Obsidian")`.

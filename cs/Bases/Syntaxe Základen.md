@@ -369,7 +369,7 @@ Data představují konkrétní datum nebo datum a čas v závislosti na funkci p
 
 [[Propojení poznámek|Wiki odkazy]] ve [[Vlastnosti|vlastnostech úvodních metadat]] jsou automaticky rozpoznány jako objekty Link. Odkazy se v [[Zobrazení|zobrazení]] vykreslí jako klikatelný odkaz.
 
-- Pro vytvoření odkazu použijte globální [[Funkce|funkci]] `link`, například `link("filename")` nebo `link("https://obsidian.md")`.
+- Pro vytvoření odkazu použijte globální [[Funkce|funkci]] `link`, například `link("filename")`.
 - Odkaz můžete vytvořit z jakéhokoli řetězce, například `link(file.ctime.date().toString())`.
 - Pro nastavení zobrazovaného textu předejte volitelný řetězec nebo ikonu jako druhý parametr, například `link("filename", "display")` nebo `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Odkazy lze porovnávat pomocí `==` a `!=`. Jsou ekvivalentní, pokud odkazují 
 Odkazy lze porovnávat se soubory, jako je `file` nebo `this`. Budou si rovny, pokud se odkaz přeloží na daný soubor. Například `author == this`.
 
 Odkazy lze také kontrolovat v seznamu obsahuje, například `authors.contains(this)`.
+
+### URL adresy
+
+URL adresy ve [[Vlastnosti|vlastnostech úvodních metadat]] jsou automaticky rozpoznány jako objekty URL. URL adresy se v [[Zobrazení|zobrazení]] vykreslí jako klikatelný odkaz.
+
+- Pro vytvoření URL použijte globální [[Funkce|funkci]] `link`, například `link("https://obsidian.md")`.
+- Pro nastavení zobrazovaného textu předejte volitelný řetězec jako druhý parametr, například `link("https://obsidian.md", "Obsidian")`.

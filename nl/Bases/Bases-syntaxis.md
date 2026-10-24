@@ -369,7 +369,7 @@ Datums vertegenwoordigen een specifieke datum, of een datum en tijd, afhankelijk
 
 [[Notities koppelen|Wiki-links]] in [[Eigenschappen|voormetadata-eigenschappen]] worden automatisch herkend als koppelingsobjecten. Koppelingen worden weergegeven als een klikbare koppeling in de [[Weergaven|weergave]].
 
-- Om een koppeling te construeren, gebruik je de globale `link` [[Functies|functie]], bijvoorbeeld `link("filename")` of `link("https://obsidian.md")`.
+- Om een koppeling te construeren, gebruik je de globale `link` [[Functies|functie]], bijvoorbeeld `link("filename")`.
 - Je kunt een koppeling maken van elke tekenreeks, bijvoorbeeld `link(file.ctime.date().toString())`.
 - Om de weergavetekst in te stellen, geef je een optionele tekenreeks of pictogram mee als tweede parameter, bijvoorbeeld `link("filename", "display")` of `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Koppelingen kunnen worden vergeleken met `==` en `!=`. Ze zijn equivalent zolang
 Koppelingen kunnen worden vergeleken met bestanden zoals `file` of `this`. Ze zijn gelijk als de koppeling naar het bestand verwijst. Bijvoorbeeld `author == this`.
 
 Koppelingen kunnen ook worden gecontroleerd in lijstbevattingen, bijvoorbeeld `authors.contains(this)`.
+
+### URL's
+
+URL's in [[Eigenschappen|voormetadata-eigenschappen]] worden automatisch herkend als URL-objecten. URL's worden weergegeven als een klikbare koppeling in de [[Weergaven|weergave]].
+
+- Om een URL te construeren, gebruik je de globale `link` [[Functies|functie]], bijvoorbeeld `link("https://obsidian.md")`.
+- Om de weergavetekst in te stellen, geef je een optionele tekenreeks mee als tweede parameter, bijvoorbeeld `link("https://obsidian.md", "Obsidian")`.

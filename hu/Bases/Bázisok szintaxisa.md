@@ -369,7 +369,7 @@ A dátumok egy adott dátumot, vagy dátumot és időt jelölnek, a létrehozás
 
 A [[Jegyzetek összekapcsolása|wikihivatkozások]] a [[Tulajdonságok|metaadat-tulajdonságokban]] automatikusan Hivatkozás objektumként ismerhetők fel. A hivatkozások kattintható hivatkozásként jelennek meg a [[Nézetek|nézetben]].
 
-- Hivatkozás létrehozásához használd a globális `link` [[Függvények|függvényt]], például `link("filename")` vagy `link("https://obsidian.md")`.
+- Hivatkozás létrehozásához használd a globális `link` [[Függvények|függvényt]], például `link("filename")`.
 - Bármely szövegből létrehozhatsz hivatkozást, például `link(file.ctime.date().toString())`.
 - A megjelenített szöveg beállításához adj meg egy opcionális szöveget vagy ikont második paraméterként, például `link("filename", "display")` vagy `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ A hivatkozások `==` és `!=` operátorokkal hasonlíthatók össze. Egyenérté
 A hivatkozások összehasonlíthatók fájlokkal, mint a `file` vagy `this`. Egyenlőek, ha a hivatkozás az adott fájlra oldódik fel. Például `author == this`.
 
 A hivatkozások lista-tartalmazás ellenőrzésben is használhatók, például `authors.contains(this)`.
+
+### URL-ek
+
+A [[Tulajdonságok|metaadat-tulajdonságokban]] található URL-ek automatikusan URL objektumként ismerhetők fel. Az URL-ek kattintható hivatkozásként jelennek meg a [[Nézetek|nézetben]].
+
+- URL létrehozásához használd a globális `link` [[Függvények|függvényt]], például `link("https://obsidian.md")`.
+- A megjelenített szöveg beállításához adj meg egy opcionális szöveget második paraméterként, például `link("https://obsidian.md", "Obsidian")`.

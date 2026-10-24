@@ -370,7 +370,7 @@ Les dates représentent une date spécifique, ou une date et heure selon la fonc
 
 Les [[Lier des notes|liens wiki]] dans les [[Propriétés|propriétés des métadonnées]] sont automatiquement reconnus comme des objets Lien. Les liens s'affichent sous forme de lien cliquable dans la [[Vues|vue]].
 
-- Pour construire un lien, utilisez la [[Fonctions|fonction]] globale `link`, par exemple `link("filename")` ou `link("https://obsidian.md")`.
+- Pour construire un lien, utilisez la [[Fonctions|fonction]] globale `link`, par exemple `link("filename")`.
 - Vous pouvez créer un lien à partir de n'importe quelle chaîne de caractères, par exemple, `link(file.ctime.date().toString())`.
 - Pour définir le texte d'affichage, passez une chaîne ou une icône optionnelle comme second paramètre, par exemple `link("filename", "display")` ou `link("filename", icon("plus"))`.
 
@@ -381,3 +381,10 @@ Les liens peuvent être comparés avec `==` et `!=`. Ils sont équivalents tant 
 Les liens peuvent être comparés à des fichiers tels que `file` ou `this`. Ils seront égaux si le lien résout vers le fichier. Par exemple, `author == this`.
 
 Les liens peuvent également être vérifiés dans une recherche de contenu de liste, par exemple, `authors.contains(this)`.
+
+### URLs
+
+Les URLs dans les [[Propriétés|propriétés des métadonnées]] sont automatiquement reconnues comme des objets URL. Les URLs s'affichent sous forme de lien cliquable dans la [[Vues|vue]].
+
+- Pour construire une URL, utilisez la [[Fonctions|fonction]] globale `link`, par exemple `link("https://obsidian.md")`.
+- Pour définir le texte d'affichage, passez une chaîne optionnelle comme second paramètre, par exemple `link("https://obsidian.md", "Obsidian")`.

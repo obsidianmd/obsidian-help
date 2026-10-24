@@ -369,7 +369,7 @@ Les dates representen una data específica, o una data i hora depenent de la fun
 
 Els [[Enllaçar notes|enllaços wiki]] a les [[Propietats|propietats de les metadades inicials]] es reconeixen automàticament com a objectes d'enllaç. Els enllaços es renderitzaran com un enllaç clicable a la [[Vistes|vista]].
 
-- Per construir un enllaç, utilitza la [[Funcions|funció]] global `link`, per exemple `link("filename")` o `link("https://obsidian.md")`.
+- Per construir un enllaç, utilitza la [[Funcions|funció]] global `link`, per exemple `link("filename")`.
 - Pots crear un enllaç des de qualsevol cadena de text, per exemple, `link(file.ctime.date().toString())`.
 - Per establir el text a mostrar, passa una cadena o icona opcional com a segon paràmetre, per exemple `link("filename", "display")` o `link("filename", icon("plus"))`.
 
@@ -380,3 +380,10 @@ Els enllaços es poden comparar amb `==` i `!=`. Són equivalents sempre que apu
 Els enllaços es poden comparar amb fitxers com `file` o `this`. Seran equivalents si l'enllaç es resol al fitxer. Per exemple, `author == this`.
 
 Els enllaços també es poden comprovar amb la contenció de llistes, per exemple, `authors.contains(this)`.
+
+### URLs
+
+Les URLs a les [[Propietats|propietats de les metadades inicials]] es reconeixen automàticament com a objectes URL. Les URLs es renderitzaran com un enllaç clicable a la [[Vistes|vista]].
+
+- Per construir una URL, utilitza la [[Funcions|funció]] global `link`, per exemple `link("https://obsidian.md")`.
+- Per establir el text a mostrar, passa una cadena opcional com a segon paràmetre, per exemple `link("https://obsidian.md", "Obsidian")`.

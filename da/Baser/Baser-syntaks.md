@@ -373,7 +373,7 @@ Datoer repræsenterer en specifik dato, eller en datotid afhængig af den funkti
 
 [[Link noter|Wikilinks]] i [[Egenskaber|egenskabssektionen]] af en note opfattes automatisk som linkobjekter. Links vil gengives som et klikbart link i [[Visninger|viewet]].
 
-- Anvend den globale `link` [[Funktioner|funktion]] for at oprette links, fx. `link("filnavn")` eller `link("https://obsidian.md")`
+- Anvend den globale `link` [[Funktioner|funktion]] for at oprette links, fx. `link("filnavn")`
 - Du kan oprette et link fra enhver tekststreng, fx. `link(file.ctime.date().toString())`.
 - Du kan angive et links visningstekst, ved at tilføje en valgfri ekstra parameter som en streng eller et ikon, fx. `link("filnavn", "Titel")` or `link("filnavn", icon("plus"))`.
 
@@ -384,3 +384,10 @@ Du kan sammenligne links med `==` og `!=`. De er identiske, så længe de peger 
 Links kan også sammenlignes med filer, såsom `file` or `this`. De er identiske, hvis linket peger på filen, fx. `forfatter == this`.
 
 Links kan også vises afkrydset i lister, fx. `forfattere.contains(this)`.
+
+### URL'er
+
+URL'er i [[Egenskaber|egenskabssektionen]] af en note opfattes automatisk som URL-objekter. URL'er vil gengives som et klikbart link i [[Visninger|viewet]].
+
+- Anvend den globale `link` [[Funktioner|funktion]] for at oprette en URL, fx. `link("https://obsidian.md")`.
+- Du kan angive en visningstekst ved at tilføje en valgfri streng som en anden parameter, fx. `link("https://obsidian.md", "Obsidian")`.

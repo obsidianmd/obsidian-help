@@ -372,7 +372,7 @@ views:
 
 [[链接笔记|Wiki 链接]]在[[属性|前置元数据属性]]中会被自动识别为链接对象。链接在[[视图]]中会渲染为可点击的链接。
 
-- 要构造链接，使用全局 `link` [[函数]]，例如 `link("filename")` 或 `link("https://obsidian.md")`。
+- 要构造链接，使用全局 `link` [[函数]]，例如 `link("filename")`。
 - 你可以从任何字符串创建链接，例如 `link(file.ctime.date().toString())`。
 - 要设置显示文本，传入可选的字符串或图标作为第二个参数，例如 `link("filename", "display")` 或 `link("filename", icon("plus"))`。
 
@@ -383,3 +383,10 @@ views:
 链接可以与 `file` 或 `this` 等文件进行比较。如果链接解析到该文件则相等。例如，`author == this`。
 
 链接也可以在列表包含检查中使用，例如 `authors.contains(this)`。
+
+### URL
+
+[[属性|前置元数据属性]]中的 URL 会被自动识别为 URL 对象。URL 在[[视图]]中会渲染为可点击的链接。
+
+- 要构造 URL，使用全局 `link` [[函数]]，例如 `link("https://obsidian.md")`。
+- 要设置显示文本，传入可选的字符串作为第二个参数，例如 `link("https://obsidian.md", "Obsidian")`。
