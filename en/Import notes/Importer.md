@@ -23,7 +23,7 @@ Importer is an official [[Community plugins|Community plugin]] made by the Obsid
 
 ![[Import notes#More formats]]
 
-## Importer temlpates
+## Importer templates
 
 Importer lets you define [[Importer templates|templates]] that control how your notes are imported from other apps. This means you can modify the title, properties, and content of notes that you import.
 
