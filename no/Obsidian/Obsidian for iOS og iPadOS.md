@@ -74,6 +74,34 @@ For å fange tekst:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Stemmefangst
+
+Stemmefangst lar deg ta opp et talenotat med Hurtigfangst. Obsidian transkriberer det du sier mens du snakker, og kan lagre opptaket til hvelvet ditt sammen med transkripsjonen.
+
+For å fange et talenotat:
+
+1. Åpne Hurtigfangst, og trykk deretter på mikrofonknappen nederst til venstre. Opptaket starter umiddelbart.
+2. Si notatet ditt. Transkripsjonen vises i tekstområdet mens du snakker, og du kan redigere den når som helst.
+3. Trykk på opptaksknappen nederst på skjermen for å pause, og trykk igjen for å gjenoppta.
+4. Trykk på haken for å lagre transkripsjonen og opptaket til den valgte fangstplasseringen.
+
+![[ios-voice-capture.png|400]]
+
+Du kan også starte opptak direkte fra en widget. Når du tilpasser en Hurtigfangst-widget, velger du en handling fra **Stemmefangst**-seksjonen.
+
+Opptaket fortsetter hvis du minimerer Hurtigfangst eller låser enheten. Under opptak viser låseskjermen og Dynamic Island den aktive transkripsjonen og en tidtaker. Trykk på tidtakeren for å pause eller gjenoppta opptaket.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Innstillinger for stemmefangst
+
+For å endre innstillinger for stemmefangst, trykk på tannhjulikonet øverst på skjermen mens du er i Stemmefangst.
+
+- **Språk**: Språket som brukes til transkripsjon. Velg **Ingen** for å slå av transkripsjon og kun ta opp lyd.
+- **Mikrofon**: Mikrofonen som brukes til opptak, for eksempel den innebygde mikrofonen eller et tilkoblet headset.
+- **Lagre lydfil**: Om opptaket skal lagres til hvelvet ditt.
+- **Lyd fra andre apper**: Hva som skjer med musikk eller annen lyd som spiller når du tar opp: **Fortsett avspilling**, **Senk volum** eller **Pause**. Endringer gjelder fra neste opptak.
+
 ### Fangstplasseringer
 
 Fangstplasseringer bestemmer hvor Hurtigfangst lagrer teksten din. En fangstplassering kan:

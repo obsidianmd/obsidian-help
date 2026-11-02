@@ -73,6 +73,34 @@ Pour capturer du texte :
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Capture vocale
+
+La capture vocale vous permet d'enregistrer une note vocale avec la capture rapide. Obsidian transcrit ce que vous dites en temps réel et peut enregistrer l'enregistrement audio dans votre coffre accompagné de la transcription.
+
+Pour capturer une note vocale :
+
+1. Ouvrez la capture rapide, puis touchez le bouton microphone dans le coin inférieur gauche. L'enregistrement démarre immédiatement.
+2. Dictez votre note. La transcription apparaît dans la zone de texte au fur et à mesure que vous parlez, et vous pouvez la modifier à tout moment.
+3. Touchez le bouton d'enregistrement en bas de l'écran pour mettre en pause, puis touchez-le à nouveau pour reprendre.
+4. Touchez la coche pour enregistrer la transcription et l'enregistrement audio dans l'emplacement de capture sélectionné.
+
+![[ios-voice-capture.png|400]]
+
+Vous pouvez également démarrer un enregistrement directement depuis un widget. Lors de la personnalisation d'un widget de capture rapide, choisissez une action dans la section **Capture vocale**.
+
+L'enregistrement continue si vous réduisez la capture rapide ou verrouillez votre appareil. Pendant l'enregistrement, l'écran de verrouillage et la Dynamic Island affichent la transcription en direct et un minuteur. Touchez le minuteur pour mettre en pause ou reprendre l'enregistrement.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Paramètres de la capture vocale
+
+Pour modifier les paramètres de la capture vocale, touchez l'icône d'engrenage en haut de l'écran lorsque vous êtes dans la capture vocale.
+
+- **Langue** : La langue utilisée pour la transcription. Sélectionnez **Aucune** pour désactiver la transcription et enregistrer uniquement l'audio.
+- **Microphone** : Le microphone utilisé pour l'enregistrement, comme le microphone intégré ou un casque connecté.
+- **Enregistrer le fichier audio** : Si l'enregistrement doit être sauvegardé dans votre coffre.
+- **Audio d'autres applications** : Ce qui se passe avec la musique ou autre audio en cours de lecture lorsque vous enregistrez : **Continuer la lecture**, **Baisser le volume** ou **Mettre en pause**. Les modifications s'appliquent à partir de votre prochain enregistrement.
+
 ### Emplacements de capture
 
 Les emplacements de capture déterminent où la capture rapide enregistre votre texte. Un emplacement de capture peut :

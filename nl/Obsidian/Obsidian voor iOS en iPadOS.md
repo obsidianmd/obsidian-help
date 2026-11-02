@@ -73,6 +73,34 @@ Om tekst vast te leggen:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Spraakopname
+
+Met Spraakopname kun je een spraaknotitie opnemen met Snel vastleggen. Obsidian transcribeert wat je zegt terwijl je spreekt, en kan de opname samen met het transcript opslaan in je kluis.
+
+Om een spraaknotitie vast te leggen:
+
+1. Open Snel vastleggen en tik vervolgens op de microfoonknop in de linkerbenedenhoek. De opname start direct.
+2. Spreek je notitie in. Het transcript verschijnt in het tekstveld terwijl je praat, en je kunt het op elk moment bewerken.
+3. Tik op de opnameknop onderaan het scherm om te pauzeren, en tik er nogmaals op om te hervatten.
+4. Tik op het vinkje om het transcript en de opname op te slaan op de geselecteerde vastleglocatie.
+
+![[ios-voice-capture.png|400]]
+
+Je kunt ook direct vanuit een widget beginnen met opnemen. Wanneer je een Snel vastleggen-widget aanpast, kies je een actie uit het gedeelte **Spraakopname**.
+
+De opname gaat door als je Snel vastleggen minimaliseert of je apparaat vergrendelt. Tijdens het opnemen tonen het vergrendelscherm en het Dynamic Island het live transcript en een timer. Tik op de timer om de opname te pauzeren of te hervatten.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Instellingen voor Spraakopname
+
+Om de instellingen voor Spraakopname te wijzigen, tik je op het tandwielpictogram bovenaan het scherm terwijl je in Spraakopname bent.
+
+- **Taal**: De taal die wordt gebruikt voor transcriptie. Selecteer **Geen** om transcriptie uit te schakelen en alleen audio op te nemen.
+- **Microfoon**: De microfoon die wordt gebruikt voor de opname, zoals de ingebouwde microfoon of een aangesloten headset.
+- **Audiobestand opslaan**: Of de opname in je kluis moet worden opgeslagen.
+- **Audio van andere apps**: Wat er gebeurt met muziek of andere audio die wordt afgespeeld wanneer je opneemt: **Blijven afspelen**, **Volume verlagen** of **Pauzeren**. Wijzigingen worden toegepast vanaf je volgende opname.
+
 ### Vastleglocaties
 
 Vastleglocaties bepalen waar Snel vastleggen je tekst opslaat. Een vastleglocatie kan:

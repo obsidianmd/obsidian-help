@@ -75,6 +75,34 @@ Para capturar texto:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Captura por Voz
+
+A Captura por Voz permite gravar uma nota de voz com a Captura Rápida. O Obsidian transcreve o que você diz enquanto fala e pode salvar a gravação no seu cofre junto com a transcrição.
+
+Para capturar uma nota de voz:
+
+1. Abra a Captura Rápida e toque no botão do microfone no canto inferior esquerdo. A gravação começa imediatamente.
+2. Fale sua nota. A transcrição aparece na área de texto enquanto você fala, e você pode editá-la a qualquer momento.
+3. Toque no botão de gravação na parte inferior da tela para pausar, e toque novamente para retomar.
+4. Toque na marca de verificação para salvar a transcrição e a gravação no local de captura selecionado.
+
+![[ios-voice-capture.png|400]]
+
+Você também pode iniciar a gravação diretamente de um widget. Ao personalizar um widget de Captura Rápida, escolha uma ação na seção **Captura por Voz**.
+
+A gravação continua se você minimizar a Captura Rápida ou bloquear seu dispositivo. Durante a gravação, a Tela de Bloqueio e a Dynamic Island mostram a transcrição ao vivo e um temporizador. Toque no temporizador para pausar ou retomar a gravação.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Configurações da Captura por Voz
+
+Para alterar as configurações da Captura por Voz, toque no ícone de engrenagem na parte superior da tela enquanto estiver na Captura por Voz.
+
+- **Idioma**: O idioma usado para transcrição. Selecione **Nenhum** para desativar a transcrição e gravar apenas áudio.
+- **Microfone**: O microfone usado para gravação, como o microfone integrado ou um fone de ouvido conectado.
+- **Salvar Arquivo de Áudio**: Se a gravação deve ser salva no seu cofre.
+- **Áudio de Outros Apps**: O que acontece com música ou outro áudio que estiver tocando quando você gravar: **Continuar Tocando**, **Diminuir Volume** ou **Pausar**. As alterações se aplicam a partir da próxima gravação.
+
 ### Locais de captura
 
 Os locais de captura determinam onde a Captura Rápida salva seu texto. Um local de captura pode:

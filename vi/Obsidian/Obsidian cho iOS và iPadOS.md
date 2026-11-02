@@ -73,6 +73,34 @@ Ghi nhanh cho phép bạn lưu văn bản vào kho từ widget Màn hình khóa,
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Ghi âm giọng nói
+
+Ghi âm giọng nói cho phép bạn ghi lại ghi chú bằng giọng nói với Ghi nhanh. Obsidian chuyển ngữ những gì bạn nói khi bạn đang nói, và có thể lưu bản ghi âm vào kho cùng với bản chuyển ngữ.
+
+Để ghi lại ghi chú bằng giọng nói:
+
+1. Mở Ghi nhanh, sau đó nhấn nút micro ở góc dưới bên trái. Việc ghi âm bắt đầu ngay lập tức.
+2. Nói ghi chú của bạn. Bản chuyển ngữ xuất hiện trong vùng văn bản khi bạn nói, và bạn có thể chỉnh sửa bất cứ lúc nào.
+3. Nhấn nút ghi âm ở cuối màn hình để tạm dừng, và nhấn lại để tiếp tục.
+4. Nhấn dấu kiểm để lưu bản chuyển ngữ và bản ghi âm vào vị trí ghi nhanh đã chọn.
+
+![[ios-voice-capture.png|400]]
+
+Bạn cũng có thể bắt đầu ghi âm trực tiếp từ widget. Khi tùy chỉnh widget Ghi nhanh, chọn một thao tác từ phần **Ghi âm giọng nói**.
+
+Việc ghi âm tiếp tục nếu bạn thu nhỏ Ghi nhanh hoặc khóa thiết bị. Trong khi ghi âm, Màn hình khóa và Dynamic Island hiển thị bản chuyển ngữ trực tiếp và bộ đếm thời gian. Nhấn vào bộ đếm thời gian để tạm dừng hoặc tiếp tục ghi âm.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Cài đặt Ghi âm giọng nói
+
+Để thay đổi cài đặt Ghi âm giọng nói, nhấn biểu tượng bánh răng ở đầu màn hình khi đang trong Ghi âm giọng nói.
+
+- **Ngôn ngữ**: Ngôn ngữ được sử dụng để chuyển ngữ. Chọn **Không** để tắt chuyển ngữ và chỉ ghi âm.
+- **Micro**: Micro được sử dụng để ghi âm, chẳng hạn như micro tích hợp hoặc tai nghe được kết nối.
+- **Lưu tệp âm thanh**: Liệu có lưu bản ghi âm vào kho của bạn hay không.
+- **Âm thanh từ ứng dụng khác**: Điều gì xảy ra với nhạc hoặc âm thanh khác đang phát khi bạn ghi âm: **Tiếp tục phát**, **Giảm âm lượng**, hoặc **Tạm dừng**. Các thay đổi áp dụng từ lần ghi âm tiếp theo.
+
 ### Vị trí ghi nhanh
 
 Vị trí ghi nhanh xác định nơi Ghi nhanh lưu văn bản của bạn. Một vị trí ghi nhanh có thể:

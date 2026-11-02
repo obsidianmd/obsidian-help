@@ -73,6 +73,34 @@ Per capturar text:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Captura de veu
+
+La Captura de veu et permet gravar una nota de veu amb la Captura ràpida. Obsidian transcriu el que dius mentre parles, i pot desar l'enregistrament a la teva cambra forta juntament amb la transcripció.
+
+Per capturar una nota de veu:
+
+1. Obre la Captura ràpida, després toca el botó del micròfon a la cantonada inferior esquerra. L'enregistrament comença immediatament.
+2. Parla la teva nota. La transcripció apareix a l'àrea de text mentre parles, i pots editar-la en qualsevol moment.
+3. Toca el botó d'enregistrament a la part inferior de la pantalla per pausar, i toca'l de nou per reprendre.
+4. Toca la marca de verificació per desar la transcripció i l'enregistrament a la ubicació de captura seleccionada.
+
+![[ios-voice-capture.png|400]]
+
+També pots començar a gravar directament des d'un widget. Quan personalitzis un widget de Captura ràpida, escull una acció de la secció **Captura de veu**.
+
+L'enregistrament continua si minimitzes la Captura ràpida o bloqueges el dispositiu. Mentre s'enregistra, la pantalla de bloqueig i l'Illa Dinàmica mostren la transcripció en directe i un temporitzador. Toca el temporitzador per pausar o reprendre l'enregistrament.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Configuració de la Captura de veu
+
+Per canviar la configuració de la Captura de veu, toca la icona de l'engranatge a la part superior de la pantalla mentre estàs a la Captura de veu.
+
+- **Idioma**: L'idioma utilitzat per a la transcripció. Selecciona **Cap** per desactivar la transcripció i gravar només àudio.
+- **Micròfon**: El micròfon utilitzat per a l'enregistrament, com ara el micròfon integrat o uns auriculars connectats.
+- **Desar fitxer d'àudio**: Si es desa l'enregistrament a la teva cambra forta.
+- **Àudio d'altres aplicacions**: Què passa amb la música o altre àudio que s'està reproduint quan graves: **Continuar reproduint**, **Baixar el volum** o **Pausar**. Els canvis s'apliquen a partir del proper enregistrament.
+
 ### Ubicacions de captura
 
 Les ubicacions de captura determinen on la Captura ràpida desa el teu text. Una ubicació de captura pot:

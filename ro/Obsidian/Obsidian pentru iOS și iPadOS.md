@@ -75,6 +75,34 @@ Pentru a capta text:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Captare vocală
+
+Captarea vocală îți permite să înregistrezi o notă vocală cu Captarea rapidă. Obsidian transcrie ce spui în timp real și poate salva înregistrarea în seiful tău alături de transcriere.
+
+Pentru a capta o notă vocală:
+
+1. Deschide Captarea rapidă, apoi apasă butonul cu microfon din colțul din stânga jos. Înregistrarea începe imediat.
+2. Spune nota ta. Transcrierea apare în zona de text pe măsură ce vorbești și o poți edita oricând.
+3. Apasă butonul de înregistrare din partea de jos a ecranului pentru a pune pauză și apasă din nou pentru a relua.
+4. Apasă bifa pentru a salva transcrierea și înregistrarea în locația de captare selectată.
+
+![[ios-voice-capture.png|400]]
+
+Poți de asemenea să începi înregistrarea direct dintr-un widget. Când personalizezi un widget de Captare rapidă, alege o acțiune din secțiunea **Captare vocală**.
+
+Înregistrarea continuă dacă minimizezi Captarea rapidă sau blochezi dispozitivul. În timpul înregistrării, ecranul de blocare și Dynamic Island afișează transcrierea în direct și un cronometru. Apasă cronometrul pentru a pune pauză sau a relua înregistrarea.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Setări pentru Captarea vocală
+
+Pentru a modifica setările Captării vocale, apasă pictograma cu roată dințată din partea de sus a ecranului în timp ce te afli în Captarea vocală.
+
+- **Limba**: Limba folosită pentru transcriere. Selectează **Niciuna** pentru a dezactiva transcrierea și a înregistra doar audio.
+- **Microfon**: Microfonul folosit pentru înregistrare, cum ar fi microfonul integrat sau un set de căști conectat.
+- **Salvează fișierul audio**: Dacă se salvează înregistrarea în seiful tău.
+- **Audio din alte aplicații**: Ce se întâmplă cu muzica sau alt conținut audio care rulează când înregistrezi: **Continuă redarea**, **Scade volumul** sau **Pauză**. Modificările se aplică de la următoarea înregistrare.
+
 ### Locații de captare
 
 Locațiile de captare determină unde Captarea rapidă salvează textul tău. O locație de captare poate:

@@ -75,6 +75,34 @@ Untuk menangkap teks:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Tangkapan Suara
+
+Tangkapan Suara memungkinkan Anda merekam catatan suara dengan Quick Capture. Obsidian mentranskripsikan apa yang Anda ucapkan saat Anda berbicara, dan dapat menyimpan rekaman ke brankas Anda bersama dengan transkrip.
+
+Untuk menangkap catatan suara:
+
+1. Buka Quick Capture, lalu ketuk tombol mikrofon di sudut kiri bawah. Perekaman langsung dimulai.
+2. Ucapkan catatan Anda. Transkrip muncul di area teks saat Anda berbicara, dan Anda dapat mengeditnya kapan saja.
+3. Ketuk tombol perekaman di bagian bawah layar untuk menjeda, dan ketuk lagi untuk melanjutkan.
+4. Ketuk tanda centang untuk menyimpan transkrip dan rekaman ke lokasi tangkapan yang dipilih.
+
+![[ios-voice-capture.png|400]]
+
+Anda juga dapat memulai perekaman langsung dari widget. Saat menyesuaikan widget Quick Capture, pilih tindakan dari bagian **Voice Capture**.
+
+Perekaman berlanjut jika Anda meminimalkan Quick Capture atau mengunci perangkat Anda. Selama perekaman, Layar Kunci dan Dynamic Island menampilkan transkrip langsung dan penghitung waktu. Ketuk penghitung waktu untuk menjeda atau melanjutkan perekaman.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Pengaturan Tangkapan Suara
+
+Untuk mengubah pengaturan Tangkapan Suara, ketuk ikon roda gigi di bagian atas layar saat berada di Tangkapan Suara.
+
+- **Bahasa**: Bahasa yang digunakan untuk transkripsi. Pilih **None** untuk menonaktifkan transkripsi dan hanya merekam audio.
+- **Mikrofon**: Mikrofon yang digunakan untuk merekam, seperti mikrofon bawaan atau headset yang terhubung.
+- **Simpan File Audio**: Apakah rekaman akan disimpan ke brankas Anda.
+- **Audio dari Aplikasi Lain**: Apa yang terjadi pada musik atau audio lain yang sedang diputar saat Anda merekam: **Keep Playing**, **Lower Volume**, atau **Pause**. Perubahan berlaku mulai perekaman berikutnya.
+
 ### Lokasi tangkapan
 
 Lokasi tangkapan menentukan di mana Quick Capture menyimpan teks Anda. Lokasi tangkapan dapat:

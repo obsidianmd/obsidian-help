@@ -73,6 +73,34 @@ Metin yakalamak için:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Sesli Yakalama
+
+Sesli Yakalama, Hızlı Yakalama ile sesli not kaydetmenize olanak tanır. Obsidian, siz konuşurken söylediklerinizi yazıya döker ve kaydı transkriptle birlikte kasanıza kaydedebilir.
+
+Sesli not yakalamak için:
+
+1. Hızlı Yakalama'yı açın, ardından sol alt köşedeki mikrofon düğmesine dokunun. Kayıt hemen başlar.
+2. Notunuzu söyleyin. Siz konuştukça transkript metin alanında görünür ve istediğiniz zaman düzenleyebilirsiniz.
+3. Duraklatmak için ekranın alt kısmındaki kayıt düğmesine dokunun, devam etmek için tekrar dokunun.
+4. Transkripti ve kaydı seçili yakalama konumuna kaydetmek için onay işaretine dokunun.
+
+![[ios-voice-capture.png|400]]
+
+Ayrıca doğrudan bir widget'tan kayda başlayabilirsiniz. Bir Hızlı Yakalama widget'ını özelleştirirken **Sesli Yakalama** bölümünden bir eylem seçin.
+
+Hızlı Yakalama'yı simge durumuna küçültür veya cihazınızı kilitlerseniz kayıt devam eder. Kayıt sırasında Kilit Ekranı ve Dynamic Island canlı transkripti ve bir zamanlayıcıyı gösterir. Kaydı duraklatmak veya devam ettirmek için zamanlayıcıya dokunun.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Sesli Yakalama ayarları
+
+Sesli Yakalama ayarlarını değiştirmek için Sesli Yakalama'dayken ekranın üst kısmındaki dişli simgesine dokunun.
+
+- **Dil**: Transkripsiyon için kullanılan dil. Transkripsiyonu kapatıp yalnızca ses kaydetmek için **Yok**'u seçin.
+- **Mikrofon**: Kayıt için kullanılan mikrofon; dahili mikrofon veya bağlı bir kulaklık gibi.
+- **Ses Dosyasını Kaydet**: Kaydın kasanıza kaydedilip kaydedilmeyeceği.
+- **Diğer Uygulamalardan Ses**: Kayıt sırasında çalan müzik veya diğer seslere ne olacağı: **Çalmaya Devam Et**, **Sesi Kıs** veya **Duraklat**. Değişiklikler bir sonraki kaydınızdan itibaren geçerli olur.
+
 ### Yakalama konumları
 
 Yakalama konumları, Hızlı Yakalama'nın metninizi nereye kaydedeceğini belirler. Bir yakalama konumu şunları yapabilir:

@@ -73,6 +73,34 @@ Szöveg rögzítéséhez:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Hangrögzítés
+
+A Hangrögzítés lehetővé teszi hangjegyzet rögzítését a Gyors rögzítéssel. Az Obsidian átírja a beszédet szöveggé beszéd közben, és a felvételt az átirattal együtt mentheti a széfbe.
+
+Hangjegyzet rögzítéséhez:
+
+1. Nyissa meg a Gyors rögzítést, majd koppintson a mikrofon gombra a bal alsó sarokban. A felvétel azonnal elindul.
+2. Mondja el a jegyzetét. Az átirat megjelenik a szövegmezőben beszéd közben, és bármikor szerkesztheti.
+3. Koppintson a felvétel gombra a képernyő alján a szüneteltetéshez, majd koppintson rá újra a folytatáshoz.
+4. Koppintson a pipára az átirat és a felvétel mentéséhez a kiválasztott rögzítési helyre.
+
+![[ios-voice-capture.png|400]]
+
+A felvételt közvetlenül egy widgetről is elindíthatja. A Gyors rögzítés widget testreszabásakor válasszon egy műveletet a **Hangrögzítés** részből.
+
+A felvétel folytatódik, ha minimalizálja a Gyors rögzítést vagy zárolja az eszközét. Felvétel közben a zárolási képernyőn és a Dynamic Islandben az élő átirat és egy időzítő jelenik meg. Koppintson az időzítőre a felvétel szüneteltetéséhez vagy folytatásához.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Hangrögzítés beállítások
+
+A Hangrögzítés beállításainak módosításához koppintson a fogaskerék ikonra a képernyő tetején, miközben a Hangrögzítésben van.
+
+- **Nyelv**: Az átíráshoz használt nyelv. Válassza a **Nincs** lehetőséget az átírás kikapcsolásához, ha csak hangfelvételt szeretne készíteni.
+- **Mikrofon**: A felvételhez használt mikrofon, például a beépített mikrofon vagy egy csatlakoztatott fejhallgató.
+- **Hangfájl mentése**: A felvétel mentése a széfbe.
+- **Más alkalmazások hangja**: Mi történjen a felvétel közben lejátszott zenével vagy egyéb hanggal: **Tovább játszik**, **Halkítás** vagy **Szüneteltetés**. A változások a következő felvételtől lépnek érvénybe.
+
 ### Rögzítési helyek
 
 A rögzítési helyek határozzák meg, hová menti a Gyors rögzítés a szöveget. Egy rögzítési hely a következőket teheti:

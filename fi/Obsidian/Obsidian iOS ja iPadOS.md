@@ -72,6 +72,34 @@ Tekstin kaappaaminen:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Äänikaappaus
+
+Äänikaappauksen avulla voit äänittää äänimuistiinpanon pikakaappauksella. Obsidian litteroi puheesi reaaliajassa ja voi tallentaa äänitteen holviisi litteroinnin rinnalle.
+
+Äänimuistiinpanon kaappaaminen:
+
+1. Avaa pikakaappaus ja napauta sitten mikrofonipainiketta vasemmassa alakulmassa. Äänitys alkaa heti.
+2. Puhu muistiinpanosi. Litterointi näkyy tekstialueella puhuessasi, ja voit muokata sitä milloin tahansa.
+3. Napauta äänityspainiketta näytön alareunassa keskeyttääksesi ja napauta uudelleen jatkaaksesi.
+4. Napauta valintamerkkiä tallentaaksesi litteroinnin ja äänitteen valittuun kaappauspaikkaan.
+
+![[ios-voice-capture.png|400]]
+
+Voit myös aloittaa äänityksen suoraan widgetistä. Kun mukautat pikakaappauswidgetiä, valitse toiminto **Äänikaappaus**-osiosta.
+
+Äänitys jatkuu, jos pienennät pikakaappauksen tai lukitset laitteen. Äänityksen aikana lukitusnäyttö ja Dynamic Island näyttävät reaaliaikaisen litteroinnin ja ajastimen. Napauta ajastinta keskeyttääksesi tai jatkaaksesi äänitystä.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Äänikaappauksen asetukset
+
+Voit muuttaa äänikaappauksen asetuksia napauttamalla rataskuvaketta näytön yläosassa äänikaappauksen aikana.
+
+- **Kieli**: Litteroinnissa käytettävä kieli. Valitse **Ei mitään** poistaaksesi litteroinnin käytöstä ja äänittääksesi vain ääntä.
+- **Mikrofoni**: Äänityksessä käytettävä mikrofoni, kuten sisäänrakennettu mikrofoni tai yhdistetty kuulokemikrofoni.
+- **Tallenna äänitiedosto**: Tallennetaanko äänite holviisi.
+- **Ääni muista sovelluksista**: Mitä tapahtuu äänityksessä soimassa olevalle musiikille tai muulle äänelle: **Jatka toistoa**, **Hiljennä** tai **Keskeytä**. Muutokset tulevat voimaan seuraavasta äänityksestä alkaen.
+
 ### Kaappauspaikat
 
 Kaappauspaikat määrittävät, minne pikakaappaus tallentaa tekstisi. Kaappauspaikka voi:

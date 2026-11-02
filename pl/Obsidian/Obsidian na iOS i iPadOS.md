@@ -73,6 +73,34 @@ Aby przechwycić tekst:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Przechwytywanie głosowe
+
+Przechwytywanie głosowe pozwala nagrywać notatkę głosową za pomocą Szybkiego przechwytywania. Obsidian transkrybuje wypowiedź w czasie rzeczywistym i może zapisać nagranie w sejfie wraz z transkrypcją.
+
+Aby przechwycić notatkę głosową:
+
+1. Otwórz Szybkie przechwytywanie, a następnie dotknij przycisku mikrofonu w lewym dolnym rogu. Nagrywanie rozpoczyna się natychmiast.
+2. Mów swoją notatkę. Transkrypcja pojawia się w polu tekstowym w trakcie mówienia i możesz ją edytować w dowolnym momencie.
+3. Dotknij przycisku nagrywania u dołu ekranu, aby wstrzymać, i dotknij go ponownie, aby wznowić.
+4. Dotknij znacznika wyboru, aby zapisać transkrypcję i nagranie w wybranej lokalizacji przechwytywania.
+
+![[ios-voice-capture.png|400]]
+
+Możesz również rozpocząć nagrywanie bezpośrednio z widżetu. Podczas dostosowywania widżetu Szybkiego przechwytywania wybierz akcję z sekcji **Przechwytywanie głosowe**.
+
+Nagrywanie kontynuuje się, jeśli zminimalizujesz Szybkie przechwytywanie lub zablokujesz urządzenie. Podczas nagrywania ekran blokady i Dynamic Island wyświetlają transkrypcję na żywo oraz licznik czasu. Dotknij licznika czasu, aby wstrzymać lub wznowić nagrywanie.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Ustawienia przechwytywania głosowego
+
+Aby zmienić ustawienia przechwytywania głosowego, dotknij ikony koła zębatego u góry ekranu podczas przechwytywania głosowego.
+
+- **Język**: Język używany do transkrypcji. Wybierz **Brak**, aby wyłączyć transkrypcję i nagrywać tylko dźwięk.
+- **Mikrofon**: Mikrofon używany do nagrywania, np. mikrofon wbudowany lub podłączony zestaw słuchawkowy.
+- **Zapisz plik audio**: Czy zapisywać nagranie w sejfie.
+- **Dźwięk z innych aplikacji**: Co dzieje się z muzyką lub innym dźwiękiem odtwarzanym podczas nagrywania: **Kontynuuj odtwarzanie**, **Zmniejsz głośność** lub **Wstrzymaj**. Zmiany obowiązują od następnego nagrania.
+
 ### Lokalizacje przechwytywania
 
 Lokalizacje przechwytywania określają, gdzie Szybkie przechwytywanie zapisuje tekst. Lokalizacja przechwytywania może:

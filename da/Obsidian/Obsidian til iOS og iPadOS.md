@@ -75,6 +75,34 @@ Sådan indfanger du tekst:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Stemmeindfangning
+
+Stemmeindfangning lader dig optage en stemmenote med Hurtig indfangning. Obsidian transskriberer det, du siger, mens du taler, og kan gemme optagelsen i din boks sammen med transskriptionen.
+
+Sådan indfanger du en stemmenote:
+
+1. Åbn Hurtig indfangning, og tryk derefter på mikrofonknappen i nederste venstre hjørne. Optagelsen starter med det samme.
+2. Tal din note. Transskriptionen vises i tekstområdet, mens du taler, og du kan redigere den når som helst.
+3. Tryk på optageknappen nederst på skærmen for at sætte på pause, og tryk igen for at genoptage.
+4. Tryk på fluebenet for at gemme transskriptionen og optagelsen til den valgte indfangningsplacering.
+
+![[ios-voice-capture.png|400]]
+
+Du kan også starte optagelse direkte fra en widget. Når du tilpasser en Hurtig indfangning-widget, skal du vælge en handling fra sektionen **Stemmeindfangning**.
+
+Optagelsen fortsætter, hvis du minimerer Hurtig indfangning eller låser din enhed. Under optagelse viser låseskærmen og Dynamic Island den aktive transskription og en timer. Tryk på timeren for at sætte på pause eller genoptage optagelsen.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Indstillinger for stemmeindfangning
+
+For at ændre indstillinger for stemmeindfangning skal du trykke på tandhjulsikonet øverst på skærmen, mens du er i stemmeindfangning.
+
+- **Sprog**: Sproget der bruges til transskription. Vælg **Ingen** for at slå transskription fra og kun optage lyd.
+- **Mikrofon**: Mikrofonen der bruges til optagelse, f.eks. den indbyggede mikrofon eller et tilsluttet headset.
+- **Gem lydfil**: Om optagelsen skal gemmes i din boks.
+- **Lyd fra andre apps**: Hvad der sker med musik eller anden lyd, der afspilles, når du optager: **Fortsæt afspilning**, **Sænk lydstyrke** eller **Sæt på pause**. Ændringer træder i kraft fra din næste optagelse.
+
 ### Indfangningsplaceringer
 
 Indfangningsplaceringer bestemmer, hvor Hurtig indfangning gemmer din tekst. En indfangningsplacering kan:

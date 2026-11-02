@@ -75,6 +75,34 @@ Per catturare del testo:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Cattura vocale
+
+Cattura vocale ti permette di registrare una nota vocale con Cattura rapida. Obsidian trascrive ciò che dici mentre parli e può salvare la registrazione nel tuo vault insieme alla trascrizione.
+
+Per catturare una nota vocale:
+
+1. Apri Cattura rapida, quindi tocca il pulsante del microfono nell'angolo in basso a sinistra. La registrazione inizia immediatamente.
+2. Pronuncia la tua nota. La trascrizione appare nell'area di testo mentre parli e puoi modificarla in qualsiasi momento.
+3. Tocca il pulsante di registrazione nella parte inferiore dello schermo per mettere in pausa, e toccalo di nuovo per riprendere.
+4. Tocca il segno di spunta per salvare la trascrizione e la registrazione nella posizione di cattura selezionata.
+
+![[ios-voice-capture.png|400]]
+
+Puoi anche avviare la registrazione direttamente da un widget. Quando personalizzi un widget Cattura rapida, scegli un'azione dalla sezione **Cattura vocale**.
+
+La registrazione continua se riduci a icona Cattura rapida o blocchi il dispositivo. Durante la registrazione, la schermata di blocco e la Dynamic Island mostrano la trascrizione in tempo reale e un timer. Tocca il timer per mettere in pausa o riprendere la registrazione.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Impostazioni di Cattura vocale
+
+Per modificare le impostazioni di Cattura vocale, tocca l'icona dell'ingranaggio nella parte superiore dello schermo mentre sei in Cattura vocale.
+
+- **Lingua**: La lingua utilizzata per la trascrizione. Seleziona **Nessuna** per disattivare la trascrizione e registrare solo l'audio.
+- **Microfono**: Il microfono utilizzato per la registrazione, come il microfono integrato o un auricolare collegato.
+- **Salva file audio**: Se salvare la registrazione nel tuo vault.
+- **Audio da altre app**: Cosa succede alla musica o ad altro audio in riproduzione quando registri: **Continua la riproduzione**, **Abbassa il volume** o **Pausa**. Le modifiche si applicano dalla registrazione successiva.
+
 ### Posizioni di cattura
 
 Le posizioni di cattura determinano dove Cattura rapida salva il testo. Una posizione di cattura può:

@@ -73,6 +73,34 @@ Så här fångar du text:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Röstfångst
+
+Röstfångst låter dig spela in en röstanteckning med Snabbfångst. Obsidian transkriberar det du säger medan du talar och kan spara inspelningen i ditt valv tillsammans med transkriptionen.
+
+Så här fångar du en röstanteckning:
+
+1. Öppna Snabbfångst och tryck sedan på mikrofonknappen i nedre vänstra hörnet. Inspelningen startar direkt.
+2. Tala din anteckning. Transkriptionen visas i textområdet medan du talar, och du kan redigera den när som helst.
+3. Tryck på inspelningsknappen längst ner på skärmen för att pausa, och tryck igen för att återuppta.
+4. Tryck på bockmarkeringen för att spara transkriptionen och inspelningen till den valda fångstplatsen.
+
+![[ios-voice-capture.png|400]]
+
+Du kan även starta inspelning direkt från en widget. När du anpassar en Snabbfångst-widget, välj en åtgärd från avsnittet **Röstfångst**.
+
+Inspelningen fortsätter om du minimerar Snabbfångst eller låser din enhet. Under inspelning visar låsskärmen och Dynamic Island den live-transkriberade texten och en timer. Tryck på timern för att pausa eller återuppta inspelningen.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Inställningar för Röstfångst
+
+För att ändra inställningar för Röstfångst, tryck på kugghjulsikonen överst på skärmen medan du är i Röstfångst.
+
+- **Språk**: Språket som används för transkription. Välj **Inget** för att stänga av transkription och bara spela in ljud.
+- **Mikrofon**: Mikrofonen som används för inspelning, till exempel den inbyggda mikrofonen eller ett anslutet headset.
+- **Spara ljudfil**: Om inspelningen ska sparas i ditt valv.
+- **Ljud från andra appar**: Vad som händer med musik eller annat ljud som spelas när du spelar in: **Fortsätt spela**, **Sänk volymen** eller **Pausa**. Ändringar gäller från din nästa inspelning.
+
 ### Fångstplatser
 
 Fångstplatser bestämmer var Snabbfångst sparar din text. En fångstplats kan:

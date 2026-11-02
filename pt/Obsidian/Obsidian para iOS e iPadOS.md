@@ -75,6 +75,34 @@ Para capturar texto:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Captura por Voz
+
+A Captura por Voz permite-lhe gravar uma nota de voz com a Captura Rápida. O Obsidian transcreve o que diz à medida que fala e pode guardar a gravação no seu cofre juntamente com a transcrição.
+
+Para capturar uma nota de voz:
+
+1. Abra a Captura Rápida e toque no botão do microfone no canto inferior esquerdo. A gravação começa imediatamente.
+2. Dite a sua nota. A transcrição aparece na área de texto à medida que fala e pode editá-la a qualquer momento.
+3. Toque no botão de gravação na parte inferior do ecrã para pausar e toque novamente para retomar.
+4. Toque na marca de verificação para guardar a transcrição e a gravação na localização de captura selecionada.
+
+![[ios-voice-capture.png|400]]
+
+Também pode iniciar a gravação diretamente a partir de um widget. Ao personalizar um widget de Captura Rápida, escolha uma ação da secção **Captura por Voz**.
+
+A gravação continua se minimizar a Captura Rápida ou bloquear o seu dispositivo. Durante a gravação, o ecrã de bloqueio e a Dynamic Island mostram a transcrição em direto e um temporizador. Toque no temporizador para pausar ou retomar a gravação.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Definições da Captura por Voz
+
+Para alterar as definições da Captura por Voz, toque no ícone de engrenagem no topo do ecrã enquanto estiver na Captura por Voz.
+
+- **Idioma**: O idioma usado para a transcrição. Selecione **Nenhum** para desativar a transcrição e gravar apenas áudio.
+- **Microfone**: O microfone usado para a gravação, como o microfone integrado ou uns auscultadores ligados.
+- **Guardar Ficheiro de Áudio**: Se a gravação deve ser guardada no seu cofre.
+- **Áudio de Outras Aplicações**: O que acontece à música ou outro áudio que esteja a reproduzir quando grava: **Continuar a Reproduzir**, **Baixar Volume** ou **Pausar**. As alterações aplicam-se a partir da próxima gravação.
+
 ### Localizações de captura
 
 As localizações de captura determinam onde a Captura Rápida guarda o seu texto. Uma localização de captura pode:
