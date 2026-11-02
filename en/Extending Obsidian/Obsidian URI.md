@@ -68,8 +68,6 @@ You can copy the Obsidian URL in any of these ways.
   - Using this parameter will override both `vault` and `file`.
   - This will cause the app to search for the most specific vault which contains the specified file path.
   - Then the rest of the path replaces the `file` parameter.
-- `prepend` will add to the top of the file and attempt to merge properties.
-- `append` will add to the end of the file and also attempt to merge properties.
 - `paneType` (optional) determines where the note will be opened in the UI.
   - if not present, the last active tab is replaced.
   - `paneType=tab` open in a new tab.
@@ -86,6 +84,8 @@ The `new` action, creates a new note in the vault, optionally with some content.
   This opens the vault `my vault`, and creates a new note called `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   This opens the vault `my vault`, and creates a new note at `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  This opens the vault `my vault`, and adds `Buy milk` to the end of the `Tasks` section in `my note`.
 
 ### Parameters
 
@@ -97,8 +97,14 @@ The `new` action, creates a new note in the vault, optionally with some content.
 - `content` (optional) the contents of the note.
 - `clipboard` (optional) use of the contents of the clipboard instead of specifying `content`.
 - `silent` (optional) include this parameter if you don't want to open the new note.
-- `append` (optional) include this parameter to append to an existing file if one exists.
-- `overwrite` (optional) overwrite an existing file if one exists, but only if `append` isn't set.
+- `append` (optional) include this parameter to append to an existing file if one exists, merging any properties.
+- `prepend` (optional) include this parameter to prepend to an existing file if one exists, merging any properties.
+- `heading` (optional) add the content to the section under this heading instead of the whole file. Requires `append` or `prepend`.
+- `spacing` (optional) how the content is separated from the existing content. Requires `append` or `prepend`.
+  - `spacing=auto` (default) leaves a blank line between them.
+  - `spacing=newline` starts the content on a new line.
+  - `spacing=inline` adds the content without a line break.
+- `overwrite` (optional) overwrite an existing file if one exists, but only if neither `append` nor `prepend` is set.
 - `x-success` (optional) see [[#Use x-callback-url parameters]].
 
 ## Create or open daily note
@@ -109,6 +115,8 @@ The `daily` action creates or opens your daily note. The [[Daily notes]] plugin 
 
 - `obsidian://daily?vault=my%20vault`
   This opens the vault `my vault`, and creates or opens the daily note.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  This opens the vault `my vault`, and adds `Called Sam` to the end of the `Log` section in the daily note.
 
 ### Parameters
 
