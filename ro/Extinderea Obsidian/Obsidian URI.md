@@ -64,8 +64,6 @@ Puteți copia URL-ul Obsidian în oricare dintre aceste moduri:
   - Folosirea acestui parametru va suprascrie atât `vault`, cât și `file`.
   - Aceasta va determina aplicația să caute cel mai specific seif care conține calea fișierului specificat.
   - Apoi restul căii înlocuiește parametrul `file`.
-- `prepend` va adăuga la începutul fișierului și va încerca să îmbine proprietățile.
-- `append` va adăuga la sfârșitul fișierului și, de asemenea, va încerca să îmbine proprietățile.
 - `paneType` (opțional) determină unde va fi deschisă nota în interfață.
   - dacă nu este prezent, ultima filă activă este înlocuită.
   - `paneType=tab` deschide într-o filă nouă.
@@ -82,6 +80,8 @@ Acțiunea `new` creează o notă nouă în seif, opțional cu un conținut.
   Aceasta deschide seiful `my vault` și creează o notă nouă numită `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Aceasta deschide seiful `my vault` și creează o notă nouă la `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Aceasta deschide seiful `my vault` și adaugă `Buy milk` la sfârșitul secțiunii `Tasks` din `my note`.
 
 ### Parametri
 
@@ -93,8 +93,14 @@ Acțiunea `new` creează o notă nouă în seif, opțional cu un conținut.
 - `content` (opțional) conținutul notei.
 - `clipboard` (opțional) folosește conținutul clipboard-ului în locul specificării `content`.
 - `silent` (opțional) includeți acest parametru dacă nu doriți să deschideți noua notă.
-- `append` (opțional) includeți acest parametru pentru a adăuga la un fișier existent, dacă există unul.
-- `overwrite` (opțional) suprascrie un fișier existent, dacă există unul, dar numai dacă `append` nu este setat.
+- `append` (opțional) includeți acest parametru pentru a adăuga la sfârșitul unui fișier existent, dacă există unul, îmbinând orice proprietăți.
+- `prepend` (opțional) includeți acest parametru pentru a adăuga la începutul unui fișier existent, dacă există unul, îmbinând orice proprietăți.
+- `heading` (opțional) adaugă conținutul la secțiunea de sub acest titlu, în loc de întregul fișier. Necesită `append` sau `prepend`.
+- `spacing` (opțional) modul în care conținutul este separat de conținutul existent. Necesită `append` sau `prepend`.
+  - `spacing=auto` (implicit) lasă o linie goală între ele.
+  - `spacing=newline` începe conținutul pe o linie nouă.
+  - `spacing=inline` adaugă conținutul fără o întrerupere de linie.
+- `overwrite` (opțional) suprascrie un fișier existent, dacă există unul, dar numai dacă nici `append`, nici `prepend` nu este setat.
 - `x-success` (opțional) consultați [[#Folosirea parametrilor x-callback-url]].
 
 ## Creează sau deschide nota zilnică
@@ -105,6 +111,8 @@ Acțiunea `daily` creează sau deschide nota zilnică. Modulul [[Note zilnice]] 
 
 - `obsidian://daily?vault=my%20vault`
   Aceasta deschide seiful `my vault` și creează sau deschide nota zilnică.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Aceasta deschide seiful `my vault` și adaugă `Called Sam` la sfârșitul secțiunii `Log` din nota zilnică.
 
 ### Parametri
 

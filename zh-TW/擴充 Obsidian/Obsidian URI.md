@@ -62,8 +62,6 @@ Obsidian 可以為目前的筆記建立 `open` URI，這樣你就不需要自己
   - 使用此參數會覆寫 `vault` 和 `file` 兩個參數。
   - 這會使應用程式搜尋包含指定檔案路徑的最精確保管庫。
   - 然後路徑的其餘部分會取代 `file` 參數。
-- `prepend` 會新增至檔案頂部並嘗試合併屬性。
-- `append` 會新增至檔案末尾並同樣嘗試合併屬性。
 - `paneType`（選用）決定筆記在介面中的開啟位置。
   - 如果未指定，會取代最後使用的分頁。
   - `paneType=tab`：在新分頁中開啟。
@@ -80,6 +78,8 @@ Obsidian 可以為目前的筆記建立 `open` URI，這樣你就不需要自己
   這會開啟保管庫 `my vault`，並建立名為 `my note` 的新筆記。
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   這會開啟保管庫 `my vault`，並在 `path/to/my note` 建立新筆記。
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  這會開啟保管庫 `my vault`，並在 `my note` 的 `Tasks` 區段末尾新增 `Buy milk`。
 
 ### 參數
 
@@ -91,8 +91,14 @@ Obsidian 可以為目前的筆記建立 `open` URI，這樣你就不需要自己
 - `content`（選用）筆記的內容。
 - `clipboard`（選用）使用剪貼簿的內容，而非指定 `content`。
 - `silent`（選用）如果你不想開啟新筆記，請包含此參數。
-- `append`（選用）如果已存在同名檔案，則附加至該檔案。
-- `overwrite`（選用）如果已存在同名檔案則覆寫，但僅在未設定 `append` 時生效。
+- `append`（選用）如果已存在同名檔案，則附加至該檔案，並合併任何屬性。
+- `prepend`（選用）如果已存在同名檔案，則在檔案開頭插入內容，並合併任何屬性。
+- `heading`（選用）將內容新增至此標題下的區段，而非整個檔案。需搭配 `append` 或 `prepend` 使用。
+- `spacing`（選用）內容與現有內容之間的分隔方式。需搭配 `append` 或 `prepend` 使用。
+  - `spacing=auto`（預設）在兩者之間留一個空白行。
+  - `spacing=newline` 在新的一行開始內容。
+  - `spacing=inline` 不換行直接新增內容。
+- `overwrite`（選用）如果已存在同名檔案則覆寫，但僅在未設定 `append` 和 `prepend` 時生效。
 - `x-success`（選用）請參閱 [[#使用 x-callback-url 參數]]。
 
 ## 建立或開啟每日筆記
@@ -103,6 +109,8 @@ Obsidian 可以為目前的筆記建立 `open` URI，這樣你就不需要自己
 
 - `obsidian://daily?vault=my%20vault`
   這會開啟保管庫 `my vault`，並建立或開啟每日筆記。
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  這會開啟保管庫 `my vault`，並在每日筆記的 `Log` 區段末尾新增 `Called Sam`。
 
 ### 參數
 

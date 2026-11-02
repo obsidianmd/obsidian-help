@@ -324,6 +324,7 @@ Afegeix contingut al final de la nota diària.
 
 ```bash
 content=<text>     # (required) contingut a afegir
+heading=<name>     # secció d'encapçalament objectiu
 paneType=tab|split|window    # tipus de panell on obrir
 
 inline             # afegeix sense salt de línia
@@ -336,6 +337,7 @@ Afegeix contingut al principi de la nota diària.
 
 ```bash
 content=<text>     # (required) contingut a afegir al principi
+heading=<name>     # secció d'encapçalament objectiu
 paneType=tab|split|window    # tipus de panell on obrir
 
 inline             # afegeix sense salt de línia
@@ -512,6 +514,7 @@ Afegeix contingut al final d'un fitxer (per defecte: fitxer actiu).
 file=<name>        # nom del fitxer
 path=<path>        # ruta del fitxer
 content=<text>     # (required) contingut a afegir
+heading=<name>     # secció d'encapçalament objectiu
 
 inline             # afegeix sense salt de línia
 ```
@@ -524,6 +527,7 @@ Afegeix contingut al principi després de les metadades inicials (per defecte: f
 file=<name>        # nom del fitxer
 path=<path>        # ruta del fitxer
 content=<text>     # (required) contingut a afegir al principi
+heading=<name>     # secció d'encapçalament objectiu
 
 inline             # afegeix sense salt de línia
 ```

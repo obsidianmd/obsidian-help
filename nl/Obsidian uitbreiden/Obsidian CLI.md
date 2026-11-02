@@ -324,6 +324,7 @@ Voeg inhoud toe aan het einde van de dagelijkse notitie.
 
 ```bash
 content=<text>     # (verplicht) toe te voegen inhoud
+heading=<name>     # doelkopsectie
 paneType=tab|split|window    # paneeltype om in te openen
 
 inline             # toevoegen zonder nieuwe regel
@@ -336,6 +337,7 @@ Voeg inhoud toe aan het begin van de dagelijkse notitie.
 
 ```bash
 content=<text>     # (verplicht) toe te voegen inhoud
+heading=<name>     # doelkopsectie
 paneType=tab|split|window    # paneeltype om in te openen
 
 inline             # toevoegen zonder nieuwe regel
@@ -512,6 +514,7 @@ Voeg inhoud toe aan het einde van een bestand (standaard: actief bestand).
 file=<name>        # bestandsnaam
 path=<path>        # bestandspad
 content=<text>     # (verplicht) toe te voegen inhoud
+heading=<name>     # doelkopsectie
 
 inline             # toevoegen zonder nieuwe regel
 ```
@@ -524,6 +527,7 @@ Voeg inhoud toe na de voormetadata (standaard: actief bestand).
 file=<name>        # bestandsnaam
 path=<path>        # bestandspad
 content=<text>     # (verplicht) toe te voegen inhoud
+heading=<name>     # doelkopsectie
 
 inline             # toevoegen zonder nieuwe regel
 ```

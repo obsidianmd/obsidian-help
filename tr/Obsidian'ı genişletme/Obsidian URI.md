@@ -62,8 +62,6 @@ Obsidian URL'sini aşağıdaki yollardan herhangi biriyle kopyalayabilirsiniz.
   - Bu parametreyi kullanmak hem `vault` hem de `file` parametresini geçersiz kılar.
   - Uygulamanın, belirtilen dosya yolunu içeren en spesifik kasayı aramasına neden olur.
   - Ardından yolun geri kalanı `file` parametresinin yerini alır.
-- `prepend` dosyanın başına ekler ve özellikleri birleştirmeye çalışır.
-- `append` dosyanın sonuna ekler ve ayrıca özellikleri birleştirmeye çalışır.
 - `paneType` (isteğe bağlı) notun kullanıcı arayüzünde nerede açılacağını belirler.
   - belirtilmezse, son etkin sekme değiştirilir.
   - `paneType=tab` yeni bir sekmede açar.
@@ -80,6 +78,8 @@ Obsidian URL'sini aşağıdaki yollardan herhangi biriyle kopyalayabilirsiniz.
   Bu, `my vault` kasasını açar ve `my note` adında yeni bir not oluşturur.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Bu, `my vault` kasasını açar ve `path/to/my note` konumunda yeni bir not oluşturur.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Bu, `my vault` kasasını açar ve `my note` dosyasındaki `Tasks` bölümünün sonuna `Buy milk` ekler.
 
 ### Parametreler
 
@@ -91,8 +91,14 @@ Obsidian URL'sini aşağıdaki yollardan herhangi biriyle kopyalayabilirsiniz.
 - `content` (isteğe bağlı) notun içeriği.
 - `clipboard` (isteğe bağlı) `content` belirtmek yerine panonun içeriğini kullanır.
 - `silent` (isteğe bağlı) yeni notu açmak istemiyorsanız bu parametreyi ekleyin.
-- `append` (isteğe bağlı) mevcut bir dosya varsa ona ekleme yapmak için bu parametreyi ekleyin.
-- `overwrite` (isteğe bağlı) mevcut bir dosya varsa üzerine yazar, ancak yalnızca `append` ayarlanmamışsa.
+- `append` (isteğe bağlı) mevcut bir dosya varsa ona ekleme yapmak için bu parametreyi ekleyin, özellikleri birleştirir.
+- `prepend` (isteğe bağlı) mevcut bir dosya varsa başına ekleme yapmak için bu parametreyi ekleyin, özellikleri birleştirir.
+- `heading` (isteğe bağlı) içeriği tüm dosya yerine bu başlık altındaki bölüme ekler. `append` veya `prepend` gerektirir.
+- `spacing` (isteğe bağlı) içeriğin mevcut içerikten nasıl ayrıldığını belirler. `append` veya `prepend` gerektirir.
+  - `spacing=auto` (varsayılan) aralarında boş bir satır bırakır.
+  - `spacing=newline` içeriği yeni bir satırda başlatır.
+  - `spacing=inline` içeriği satır sonu olmadan ekler.
+- `overwrite` (isteğe bağlı) mevcut bir dosya varsa üzerine yazar, ancak yalnızca `append` veya `prepend` ayarlanmamışsa.
 - `x-success` (isteğe bağlı) bkz. [[#x-callback-url parametrelerini kullanma]].
 
 ## Günlük not oluşturma veya açma
@@ -103,6 +109,8 @@ Obsidian URL'sini aşağıdaki yollardan herhangi biriyle kopyalayabilirsiniz.
 
 - `obsidian://daily?vault=my%20vault`
   Bu, `my vault` kasasını açar ve günlük notu oluşturur veya açar.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Bu, `my vault` kasasını açar ve günlük nottaki `Log` bölümünün sonuna `Called Sam` ekler.
 
 ### Parametreler
 

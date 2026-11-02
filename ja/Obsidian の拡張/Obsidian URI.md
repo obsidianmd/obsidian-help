@@ -64,8 +64,6 @@ Obsidian URLは以下のいずれかの方法でコピーできます。
   - このパラメータを使用すると、`vault`と`file`の両方がオーバーライドされます。
   - 指定されたファイルパスを含む最も具体的な保管庫をアプリが検索します。
   - その後、残りのパスが`file`パラメータを置き換えます。
-- `prepend` ファイルの先頭に追加し、プロパティの統合を試みます。
-- `append` ファイルの末尾に追加し、プロパティの統合も試みます。
 - `paneType`（オプション）ノートがUI上のどこで開かれるかを決定します。
   - 指定しない場合、最後にアクティブだったタブが置き換えられます。
   - `paneType=tab` 新規タブで開きます。
@@ -82,6 +80,8 @@ Obsidian URLは以下のいずれかの方法でコピーできます。
   保管庫`my vault`を開き、`my note`という名前の新しいノートを作成します。
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   保管庫`my vault`を開き、`path/to/my note`に新しいノートを作成します。
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  保管庫`my vault`を開き、`my note`の`Tasks`セクションの末尾に`Buy milk`を追加します。
 
 ### パラメータ
 
@@ -93,8 +93,14 @@ Obsidian URLは以下のいずれかの方法でコピーできます。
 - `content`（オプション）ノートの内容。
 - `clipboard`（オプション）`content`を指定する代わりにクリップボードの内容を使用します。
 - `silent`（オプション）新しいノートを開きたくない場合にこのパラメータを含めます。
-- `append`（オプション）既存のファイルが存在する場合にそのファイルに追記するために、このパラメータを含めます。
-- `overwrite`（オプション）既存のファイルが存在する場合に上書きしますが、`append`が設定されていない場合のみです。
+- `append`（オプション）既存のファイルが存在する場合にそのファイルに追記するために、このパラメータを含めます。プロパティは統合されます。
+- `prepend`（オプション）既存のファイルが存在する場合にそのファイルの先頭に追加するために、このパラメータを含めます。プロパティは統合されます。
+- `heading`（オプション）ファイル全体ではなく、この見出し下のセクションにコンテンツを追加します。`append`または`prepend`が必要です。
+- `spacing`（オプション）既存のコンテンツとの間隔を指定します。`append`または`prepend`が必要です。
+  - `spacing=auto`（デフォルト）間に空行を入れます。
+  - `spacing=newline` 新しい行からコンテンツを開始します。
+  - `spacing=inline` 改行なしでコンテンツを追加します。
+- `overwrite`（オプション）既存のファイルが存在する場合に上書きしますが、`append`も`prepend`も設定されていない場合のみです。
 - `x-success`（オプション）[[#x-callback-urlパラメータを使用する]]を参照してください。
 
 ## デイリーノートを作成または開く
@@ -105,6 +111,8 @@ Obsidian URLは以下のいずれかの方法でコピーできます。
 
 - `obsidian://daily?vault=my%20vault`
   保管庫`my vault`を開き、デイリーノートを作成または開きます。
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  保管庫`my vault`を開き、デイリーノートの`Log`セクションの末尾に`Called Sam`を追加します。
 
 ### パラメータ
 

@@ -324,6 +324,7 @@ Hängt Inhalt an die Tagesnotiz an.
 
 ```bash
 content=<text>     # (erforderlich) anzuhängender Inhalt
+heading=<name>     # Ziel-Überschriftenabschnitt
 paneType=tab|split|window    # Fensterbereich-Typ zum Öffnen
 
 inline             # ohne Zeilenumbruch anhängen
@@ -336,6 +337,7 @@ Stellt Inhalt der Tagesnotiz voran.
 
 ```bash
 content=<text>     # (erforderlich) voranzustellender Inhalt
+heading=<name>     # Ziel-Überschriftenabschnitt
 paneType=tab|split|window    # Fensterbereich-Typ zum Öffnen
 
 inline             # ohne Zeilenumbruch voranstellen
@@ -512,6 +514,7 @@ Hängt Inhalt an eine Datei an (Standard: aktive Datei).
 file=<name>        # Dateiname
 path=<pfad>        # Dateipfad
 content=<text>     # (erforderlich) anzuhängender Inhalt
+heading=<name>     # Ziel-Überschriftenabschnitt
 
 inline             # ohne Zeilenumbruch anhängen
 ```
@@ -524,6 +527,7 @@ Stellt Inhalt nach dem Frontmatter voran (Standard: aktive Datei).
 file=<name>        # Dateiname
 path=<pfad>        # Dateipfad
 content=<text>     # (erforderlich) voranzustellender Inhalt
+heading=<name>     # Ziel-Überschriftenabschnitt
 
 inline             # ohne Zeilenumbruch voranstellen
 ```

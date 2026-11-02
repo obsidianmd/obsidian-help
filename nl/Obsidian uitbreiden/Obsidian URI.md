@@ -62,8 +62,6 @@ Je kunt de Obsidian-URL op de volgende manieren kopiëren:
   - Het gebruik van deze parameter overschrijft zowel `vault` als `file`.
   - De app zoekt dan naar de meest specifieke kluis die het opgegeven bestandspad bevat.
   - Vervolgens vervangt de rest van het pad de parameter `file`.
-- `prepend` voegt toe aan het begin van het bestand en probeert eigenschappen samen te voegen.
-- `append` voegt toe aan het einde van het bestand en probeert ook eigenschappen samen te voegen.
 - `paneType` (optioneel) bepaalt waar de notitie wordt geopend in de interface.
   - indien niet aanwezig, wordt het laatst actieve tabblad vervangen.
   - `paneType=tab` openen in een nieuw tabblad.
@@ -80,6 +78,8 @@ De actie `new` maakt een nieuwe notitie aan in de kluis, optioneel met inhoud.
   Dit opent de kluis `my vault` en maakt een nieuwe notitie aan genaamd `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Dit opent de kluis `my vault` en maakt een nieuwe notitie aan op `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Dit opent de kluis `my vault` en voegt `Buy milk` toe aan het einde van de sectie `Tasks` in `my note`.
 
 ### Parameters
 
@@ -91,8 +91,14 @@ De actie `new` maakt een nieuwe notitie aan in de kluis, optioneel met inhoud.
 - `content` (optioneel) de inhoud van de notitie.
 - `clipboard` (optioneel) gebruik de inhoud van het klembord in plaats van `content` op te geven.
 - `silent` (optioneel) voeg deze parameter toe als je de nieuwe notitie niet wilt openen.
-- `append` (optioneel) voeg deze parameter toe om aan een bestaand bestand toe te voegen als er een bestaat.
-- `overwrite` (optioneel) overschrijf een bestaand bestand als er een bestaat, maar alleen als `append` niet is ingesteld.
+- `append` (optioneel) voeg deze parameter toe om aan een bestaand bestand toe te voegen als er een bestaat, waarbij eventuele eigenschappen worden samengevoegd.
+- `prepend` (optioneel) voeg deze parameter toe om aan het begin van een bestaand bestand toe te voegen als er een bestaat, waarbij eventuele eigenschappen worden samengevoegd.
+- `heading` (optioneel) voeg de inhoud toe aan de sectie onder deze kop in plaats van aan het hele bestand. Vereist `append` of `prepend`.
+- `spacing` (optioneel) hoe de inhoud wordt gescheiden van de bestaande inhoud. Vereist `append` of `prepend`.
+  - `spacing=auto` (standaard) laat een lege regel ertussen.
+  - `spacing=newline` begint de inhoud op een nieuwe regel.
+  - `spacing=inline` voegt de inhoud toe zonder regelonderbreking.
+- `overwrite` (optioneel) overschrijf een bestaand bestand als er een bestaat, maar alleen als noch `append` noch `prepend` is ingesteld.
 - `x-success` (optioneel) zie [[#x-callback-url-parameters gebruiken]].
 
 ## Dagelijkse notitie aanmaken of openen
@@ -103,6 +109,8 @@ De actie `daily` maakt je dagelijkse notitie aan of opent deze. De plug-in [[Dag
 
 - `obsidian://daily?vault=my%20vault`
   Dit opent de kluis `my vault` en maakt de dagelijkse notitie aan of opent deze.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Dit opent de kluis `my vault` en voegt `Called Sam` toe aan het einde van de sectie `Log` in de dagelijkse notitie.
 
 ### Parameters
 

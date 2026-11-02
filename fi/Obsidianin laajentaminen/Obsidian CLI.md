@@ -324,6 +324,7 @@ Lisää sisältöä päivän muistiinpanon loppuun.
 
 ```bash
 content=<teksti>   # (pakollinen) lisättävä sisältö
+heading=<nimi>     # kohdeotsikon osio
 paneType=tab|split|window    # ruudun tyyppi, johon avataan
 
 inline             # lisää ilman rivinvaihtoa
@@ -336,6 +337,7 @@ Lisää sisältöä päivän muistiinpanon alkuun.
 
 ```bash
 content=<teksti>   # (pakollinen) lisättävä sisältö
+heading=<nimi>     # kohdeotsikon osio
 paneType=tab|split|window    # ruudun tyyppi, johon avataan
 
 inline             # lisää ilman rivinvaihtoa
@@ -512,6 +514,7 @@ Lisää sisältöä tiedoston loppuun (oletus: aktiivinen tiedosto).
 file=<nimi>        # tiedoston nimi
 path=<polku>       # tiedoston polku
 content=<teksti>   # (pakollinen) lisättävä sisältö
+heading=<nimi>     # kohdeotsikon osio
 
 inline             # lisää ilman rivinvaihtoa
 ```
@@ -524,6 +527,7 @@ Lisää sisältöä alkulehden jälkeen tiedoston alkuun (oletus: aktiivinen tie
 file=<nimi>        # tiedoston nimi
 path=<polku>       # tiedoston polku
 content=<teksti>   # (pakollinen) lisättävä sisältö
+heading=<nimi>     # kohdeotsikon osio
 
 inline             # lisää ilman rivinvaihtoa
 ```

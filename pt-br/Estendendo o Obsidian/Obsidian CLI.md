@@ -324,6 +324,7 @@ Anexar conteúdo à nota diária.
 
 ```bash
 content=<texto>    # (obrigatório) conteúdo a anexar
+heading=<nome>     # seção de cabeçalho alvo
 paneType=tab|split|window    # tipo de painel para abrir
 
 inline             # anexar sem nova linha
@@ -336,6 +337,7 @@ Inserir conteúdo no início da nota diária.
 
 ```bash
 content=<texto>    # (obrigatório) conteúdo a inserir no início
+heading=<nome>     # seção de cabeçalho alvo
 paneType=tab|split|window    # tipo de painel para abrir
 
 inline             # inserir sem nova linha
@@ -512,6 +514,7 @@ Anexar conteúdo a um arquivo (padrão: arquivo ativo).
 file=<nome>        # nome do arquivo
 path=<caminho>     # caminho do arquivo
 content=<texto>    # (obrigatório) conteúdo a anexar
+heading=<nome>     # seção de cabeçalho alvo
 
 inline             # anexar sem nova linha
 ```
@@ -524,6 +527,7 @@ Inserir conteúdo após o frontmatter (padrão: arquivo ativo).
 file=<nome>        # nome do arquivo
 path=<caminho>     # caminho do arquivo
 content=<texto>    # (obrigatório) conteúdo a inserir no início
+heading=<nome>     # seção de cabeçalho alvo
 
 inline             # inserir sem nova linha
 ```

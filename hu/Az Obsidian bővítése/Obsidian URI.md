@@ -62,8 +62,6 @@ Az Obsidian URL-t az alábbi módokon másolhatod:
   - Ennek a paraméternek a használata felülírja a `vault` és `file` paramétereket is.
   - Az alkalmazás megkeresi azt a legspecifikusabb széfet, amely tartalmazza a megadott fájl útvonalat.
   - Ezután az útvonal fennmaradó része a `file` paramétert helyettesíti.
-- `prepend` a fájl elejéhez ad hozzá tartalmat, és megpróbálja összevonni a tulajdonságokat.
-- `append` a fájl végéhez ad hozzá tartalmat, és szintén megpróbálja összevonni a tulajdonságokat.
 - `paneType` (opcionális) meghatározza, hogy a jegyzet hol nyíljon meg a felületen.
   - ha nincs megadva, az utolsó aktív lap lesz lecserélve.
   - `paneType=tab` megnyitás új lapon.
@@ -80,6 +78,8 @@ A `new` művelet új jegyzetet hoz létre a széfben, opcionálisan tartalommal.
   Ez megnyitja a `my vault` széfet, és létrehoz egy új jegyzetet `my note` néven.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Ez megnyitja a `my vault` széfet, és létrehoz egy új jegyzetet a `path/to/my note` helyen.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Ez megnyitja a `my vault` széfet, és hozzáadja a `Buy milk` szöveget a `Tasks` szekció végéhez a `my note` jegyzetben.
 
 ### Paraméterek
 
@@ -91,8 +91,14 @@ A `new` művelet új jegyzetet hoz létre a széfben, opcionálisan tartalommal.
 - `content` (opcionális) a jegyzet tartalma.
 - `clipboard` (opcionális) a vágólap tartalmának használata a `content` megadása helyett.
 - `silent` (opcionális) add meg ezt a paramétert, ha nem szeretnéd megnyitni az új jegyzetet.
-- `append` (opcionális) add meg ezt a paramétert, ha meglévő fájlhoz szeretnél hozzáfűzni, amennyiben létezik ilyen.
-- `overwrite` (opcionális) meglévő fájl felülírása, ha létezik ilyen, de csak ha az `append` nincs beállítva.
+- `append` (opcionális) add meg ezt a paramétert, ha meglévő fájlhoz szeretnél hozzáfűzni, amennyiben létezik ilyen, a tulajdonságok összevonásával.
+- `prepend` (opcionális) add meg ezt a paramétert, ha meglévő fájl elejéhez szeretnél tartalmat hozzáadni, amennyiben létezik ilyen, a tulajdonságok összevonásával.
+- `heading` (opcionális) a tartalmat az adott fejléc alatti szekcióhoz adja hozzá a teljes fájl helyett. Az `append` vagy `prepend` megadása szükséges hozzá.
+- `spacing` (opcionális) meghatározza, hogyan legyen elválasztva a tartalom a meglévő tartalomtól. Az `append` vagy `prepend` megadása szükséges hozzá.
+  - `spacing=auto` (alapértelmezett) üres sort hagy közéjük.
+  - `spacing=newline` új sorban kezdi a tartalmat.
+  - `spacing=inline` sortörés nélkül adja hozzá a tartalmat.
+- `overwrite` (opcionális) meglévő fájl felülírása, ha létezik ilyen, de csak ha sem az `append`, sem a `prepend` nincs beállítva.
 - `x-success` (opcionális) lásd [[#x-callback-url paraméterek használata]].
 
 ## Napi jegyzet létrehozása vagy megnyitása
@@ -103,6 +109,8 @@ A `daily` művelet létrehozza vagy megnyitja a napi jegyzetedet. A [[Napi jegyz
 
 - `obsidian://daily?vault=my%20vault`
   Ez megnyitja a `my vault` széfet, és létrehozza vagy megnyitja a napi jegyzetet.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Ez megnyitja a `my vault` széfet, és hozzáadja a `Called Sam` szöveget a `Log` szekció végéhez a napi jegyzetben.
 
 ### Paraméterek
 

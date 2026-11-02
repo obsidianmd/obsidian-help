@@ -326,6 +326,7 @@ paneType=tab|split|window    # тип панели для открытия
 
 ```bash
 content=<text>     # (required) содержимое для добавления
+heading=<name>     # целевой раздел заголовка
 paneType=tab|split|window    # тип панели для открытия
 
 inline             # добавить без перевода строки
@@ -338,6 +339,7 @@ open               # открыть файл после добавления
 
 ```bash
 content=<text>     # (required) содержимое для добавления в начало
+heading=<name>     # целевой раздел заголовка
 paneType=tab|split|window    # тип панели для открытия
 
 inline             # добавить без перевода строки
@@ -514,6 +516,7 @@ path=<path>        # путь к файлу
 file=<name>        # имя файла
 path=<path>        # путь к файлу
 content=<text>     # (required) содержимое для добавления
+heading=<name>     # целевой раздел заголовка
 
 inline             # добавить без перевода строки
 ```
@@ -526,6 +529,7 @@ inline             # добавить без перевода строки
 file=<name>        # имя файла
 path=<path>        # путь к файлу
 content=<text>     # (required) содержимое для добавления в начало
+heading=<name>     # целевой раздел заголовка
 
 inline             # добавить без перевода строки
 ```

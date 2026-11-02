@@ -62,8 +62,6 @@ Pode copiar o URL do Obsidian de qualquer uma destas formas.
   - Usar este parâmetro substituirá tanto `vault` como `file`.
   - Isto fará com que a aplicação procure o cofre mais específico que contenha o caminho de ficheiro especificado.
   - Depois, o resto do caminho substitui o parâmetro `file`.
-- `prepend` adicionará ao topo do ficheiro e tentará mesclar propriedades.
-- `append` adicionará ao fim do ficheiro e também tentará mesclar propriedades.
 - `paneType` (opcional) determina onde a nota será aberta na interface.
   - se não estiver presente, o último separador ativo é substituído.
   - `paneType=tab` abre num novo separador.
@@ -80,6 +78,8 @@ A ação `new` cria uma nova nota no cofre, opcionalmente com algum conteúdo.
   Isto abre o cofre `my vault` e cria uma nova nota chamada `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Isto abre o cofre `my vault` e cria uma nova nota em `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Isto abre o cofre `my vault` e adiciona `Buy milk` ao fim da secção `Tasks` em `my note`.
 
 ### Parâmetros
 
@@ -91,8 +91,14 @@ A ação `new` cria uma nova nota no cofre, opcionalmente com algum conteúdo.
 - `content` (opcional) o conteúdo da nota.
 - `clipboard` (opcional) usa o conteúdo da área de transferência em vez de especificar `content`.
 - `silent` (opcional) inclua este parâmetro se não quiser abrir a nova nota.
-- `append` (opcional) inclua este parâmetro para acrescentar a um ficheiro existente, se existir.
-- `overwrite` (opcional) substitui um ficheiro existente, se existir, mas apenas se `append` não estiver definido.
+- `append` (opcional) inclua este parâmetro para acrescentar a um ficheiro existente, se existir, mesclando quaisquer propriedades.
+- `prepend` (opcional) inclua este parâmetro para adicionar ao início de um ficheiro existente, se existir, mesclando quaisquer propriedades.
+- `heading` (opcional) adiciona o conteúdo à secção sob este cabeçalho em vez do ficheiro inteiro. Requer `append` ou `prepend`.
+- `spacing` (opcional) como o conteúdo é separado do conteúdo existente. Requer `append` ou `prepend`.
+  - `spacing=auto` (predefinido) deixa uma linha em branco entre eles.
+  - `spacing=newline` inicia o conteúdo numa nova linha.
+  - `spacing=inline` adiciona o conteúdo sem quebra de linha.
+- `overwrite` (opcional) substitui um ficheiro existente, se existir, mas apenas se nem `append` nem `prepend` estiver definido.
 - `x-success` (opcional) veja [[#Usar parâmetros x-callback-url]].
 
 ## Criar ou abrir nota diária
@@ -103,6 +109,8 @@ A ação `daily` cria ou abre a sua nota diária. O plugin [[Notas diárias]] de
 
 - `obsidian://daily?vault=my%20vault`
   Isto abre o cofre `my vault` e cria ou abre a nota diária.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Isto abre o cofre `my vault` e adiciona `Called Sam` ao fim da secção `Log` na nota diária.
 
 ### Parâmetros
 

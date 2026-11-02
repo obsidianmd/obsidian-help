@@ -326,6 +326,7 @@ Adaugă conținut la finalul notei zilnice.
 
 ```bash
 content=<text>     # (required) content to append
+heading=<name>     # target heading section
 paneType=tab|split|window    # pane type to open in
 
 inline             # append without newline
@@ -338,6 +339,7 @@ Adaugă conținut la începutul notei zilnice.
 
 ```bash
 content=<text>     # (required) content to prepend
+heading=<name>     # target heading section
 paneType=tab|split|window    # pane type to open in
 
 inline             # prepend without newline
@@ -514,6 +516,7 @@ Adaugă conținut la finalul unui fișier (implicit: fișierul activ).
 file=<name>        # file name
 path=<path>        # file path
 content=<text>     # (required) content to append
+heading=<name>     # target heading section
 
 inline             # append without newline
 ```
@@ -526,6 +529,7 @@ Adaugă conținut după frontmatter (implicit: fișierul activ).
 file=<name>        # file name
 path=<path>        # file path
 content=<text>     # (required) content to prepend
+heading=<name>     # target heading section
 
 inline             # prepend without newline
 ```

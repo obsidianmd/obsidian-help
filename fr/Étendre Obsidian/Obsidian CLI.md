@@ -327,6 +327,7 @@ Ajouter du contenu à la fin de la note quotidienne.
 
 ```bash
 content=<texte>    # (required) contenu à ajouter
+heading=<nom>      # section d'entête cible
 paneType=tab|split|window    # type de panneau dans lequel ouvrir
 
 inline             # ajouter sans saut de ligne
@@ -339,6 +340,7 @@ Ajouter du contenu au début de la note quotidienne.
 
 ```bash
 content=<texte>    # (required) contenu à insérer au début
+heading=<nom>      # section d'entête cible
 paneType=tab|split|window    # type de panneau dans lequel ouvrir
 
 inline             # insérer sans saut de ligne
@@ -515,6 +517,7 @@ Ajouter du contenu à la fin d'un fichier (par défaut : fichier actif).
 file=<nom>         # nom du fichier
 path=<chemin>      # chemin du fichier
 content=<texte>    # (required) contenu à ajouter
+heading=<nom>      # section d'entête cible
 
 inline             # ajouter sans saut de ligne
 ```
@@ -527,6 +530,7 @@ Ajouter du contenu au début après les métadonnées (par défaut : fichier act
 file=<nom>         # nom du fichier
 path=<chemin>      # chemin du fichier
 content=<texte>    # (required) contenu à insérer au début
+heading=<nom>      # section d'entête cible
 
 inline             # insérer sans saut de ligne
 ```

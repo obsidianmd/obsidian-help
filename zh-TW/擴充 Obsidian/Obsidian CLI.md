@@ -324,6 +324,7 @@ paneType=tab|split|window    # 開啟的面板類型
 
 ```bash
 content=<text>     # （必要）要附加的內容
+heading=<name>     # 目標標題段落
 paneType=tab|split|window    # 開啟的面板類型
 
 inline             # 不換行附加
@@ -336,6 +337,7 @@ open               # 新增後開啟檔案
 
 ```bash
 content=<text>     # （必要）要插入的內容
+heading=<name>     # 目標標題段落
 paneType=tab|split|window    # 開啟的面板類型
 
 inline             # 不換行插入
@@ -512,6 +514,7 @@ path=<path>        # 檔案路徑
 file=<name>        # 檔案名稱
 path=<path>        # 檔案路徑
 content=<text>     # （必要）要附加的內容
+heading=<name>     # 目標標題段落
 
 inline             # 不換行附加
 ```
@@ -524,6 +527,7 @@ inline             # 不換行附加
 file=<name>        # 檔案名稱
 path=<path>        # 檔案路徑
 content=<text>     # （必要）要插入的內容
+heading=<name>     # 目標標題段落
 
 inline             # 不換行插入
 ```

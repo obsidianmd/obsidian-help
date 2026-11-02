@@ -326,6 +326,7 @@ paneType=tab|split|window    # 打开方式
 
 ```bash
 content=<text>     # （必填）要追加的内容
+heading=<name>     # 目标标题章节
 paneType=tab|split|window    # 打开方式
 
 inline             # 追加时不换行
@@ -338,6 +339,7 @@ open               # 添加后打开文件
 
 ```bash
 content=<text>     # （必填）要插入的内容
+heading=<name>     # 目标标题章节
 paneType=tab|split|window    # 打开方式
 
 inline             # 插入时不换行
@@ -514,6 +516,7 @@ path=<path>        # 文件路径
 file=<name>        # 文件名
 path=<path>        # 文件路径
 content=<text>     # （必填）要追加的内容
+heading=<name>     # 目标标题章节
 
 inline             # 追加时不换行
 ```
@@ -526,6 +529,7 @@ inline             # 追加时不换行
 file=<name>        # 文件名
 path=<path>        # 文件路径
 content=<text>     # （必填）要插入的内容
+heading=<name>     # 目标标题章节
 
 inline             # 插入时不换行
 ```

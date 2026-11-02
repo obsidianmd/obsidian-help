@@ -324,6 +324,7 @@ Aggiungi contenuto alla fine della nota quotidiana.
 
 ```bash
 content=<text>     # (required) contenuto da aggiungere
+heading=<name>     # sezione di intestazione di destinazione
 paneType=tab|split|window    # tipo di pannello in cui aprire
 
 inline             # aggiungi senza a capo
@@ -336,6 +337,7 @@ Aggiungi contenuto all'inizio della nota quotidiana.
 
 ```bash
 content=<text>     # (required) contenuto da aggiungere all'inizio
+heading=<name>     # sezione di intestazione di destinazione
 paneType=tab|split|window    # tipo di pannello in cui aprire
 
 inline             # aggiungi senza a capo
@@ -512,6 +514,7 @@ Aggiungi contenuto alla fine di un file (predefinito: file attivo).
 file=<name>        # nome del file
 path=<path>        # percorso del file
 content=<text>     # (required) contenuto da aggiungere
+heading=<name>     # sezione di intestazione di destinazione
 
 inline             # aggiungi senza a capo
 ```
@@ -524,6 +527,7 @@ Aggiungi contenuto all'inizio dopo i metadati iniziali (predefinito: file attivo
 file=<name>        # nome del file
 path=<path>        # percorso del file
 content=<text>     # (required) contenuto da aggiungere all'inizio
+heading=<name>     # sezione di intestazione di destinazione
 
 inline             # aggiungi senza a capo
 ```

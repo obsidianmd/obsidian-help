@@ -324,6 +324,7 @@ paneType=tab|split|window    # 開くペインの種類
 
 ```bash
 content=<text>     # （必須）追加するコンテンツ
+heading=<name>     # 対象の見出しセクション
 paneType=tab|split|window    # 開くペインの種類
 
 inline             # 改行なしで追加
@@ -336,6 +337,7 @@ open               # 追加後にファイルを開く
 
 ```bash
 content=<text>     # （必須）先頭に追加するコンテンツ
+heading=<name>     # 対象の見出しセクション
 paneType=tab|split|window    # 開くペインの種類
 
 inline             # 改行なしで先頭に追加
@@ -512,6 +514,7 @@ path=<path>        # ファイルパス
 file=<name>        # ファイル名
 path=<path>        # ファイルパス
 content=<text>     # （必須）追加するコンテンツ
+heading=<name>     # 対象の見出しセクション
 
 inline             # 改行なしで追加
 ```
@@ -524,6 +527,7 @@ inline             # 改行なしで追加
 file=<name>        # ファイル名
 path=<path>        # ファイルパス
 content=<text>     # （必須）先頭に追加するコンテンツ
+heading=<name>     # 対象の見出しセクション
 
 inline             # 改行なしで先頭に追加
 ```

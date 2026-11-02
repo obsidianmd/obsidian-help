@@ -324,6 +324,7 @@ paneType=tab|split|window    # סוג חלונית לפתיחה
 
 ```bash
 content=<text>     # (חובה) תוכן להוספה
+heading=<name>     # קטע כותרת יעד
 paneType=tab|split|window    # סוג חלונית לפתיחה
 
 inline             # הוספה ללא שורה חדשה
@@ -336,6 +337,7 @@ open               # פתח קובץ לאחר הוספה
 
 ```bash
 content=<text>     # (חובה) תוכן להוספה
+heading=<name>     # קטע כותרת יעד
 paneType=tab|split|window    # סוג חלונית לפתיחה
 
 inline             # הוספה ללא שורה חדשה
@@ -512,6 +514,7 @@ path=<path>        # נתיב קובץ
 file=<name>        # שם קובץ
 path=<path>        # נתיב קובץ
 content=<text>     # (חובה) תוכן להוספה
+heading=<name>     # קטע כותרת יעד
 
 inline             # הוספה ללא שורה חדשה
 ```
@@ -524,6 +527,7 @@ inline             # הוספה ללא שורה חדשה
 file=<name>        # שם קובץ
 path=<path>        # נתיב קובץ
 content=<text>     # (חובה) תוכן להוספה
+heading=<name>     # קטע כותרת יעד
 
 inline             # הוספה ללא שורה חדשה
 ```

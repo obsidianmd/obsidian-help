@@ -63,8 +63,6 @@ Vous pouvez copier l'URL Obsidian de l'une des manières suivantes.
   - L'utilisation de ce paramètre remplacera à la fois `vault` et `file`.
   - L'application recherchera le coffre le plus spécifique contenant le chemin de fichier spécifié.
   - Ensuite, le reste du chemin remplace le paramètre `file`.
-- `prepend` ajoutera du contenu en haut du fichier et tentera de fusionner les propriétés.
-- `append` ajoutera du contenu à la fin du fichier et tentera également de fusionner les propriétés.
 - `paneType` (optionnel) détermine où la note sera ouverte dans l'interface.
   - s'il n'est pas présent, le dernier onglet actif est remplacé.
   - `paneType=tab` ouvre dans un nouvel onglet.
@@ -81,6 +79,8 @@ L'action `new` crée une nouvelle note dans le coffre, éventuellement avec du c
   Cela ouvre le coffre `my vault` et crée une nouvelle note appelée `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Cela ouvre le coffre `my vault` et crée une nouvelle note à `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Cela ouvre le coffre `my vault` et ajoute `Buy milk` à la fin de la section `Tasks` dans `my note`.
 
 ### Paramètres
 
@@ -92,8 +92,14 @@ L'action `new` crée une nouvelle note dans le coffre, éventuellement avec du c
 - `content` (optionnel) le contenu de la note.
 - `clipboard` (optionnel) utilise le contenu du presse-papiers au lieu de spécifier `content`.
 - `silent` (optionnel) incluez ce paramètre si vous ne voulez pas ouvrir la nouvelle note.
-- `append` (optionnel) incluez ce paramètre pour ajouter du contenu à un fichier existant si un tel fichier existe.
-- `overwrite` (optionnel) écrase un fichier existant si un tel fichier existe, mais uniquement si `append` n'est pas défini.
+- `append` (optionnel) incluez ce paramètre pour ajouter du contenu à la fin d'un fichier existant si un tel fichier existe, en fusionnant les propriétés.
+- `prepend` (optionnel) incluez ce paramètre pour ajouter du contenu au début d'un fichier existant si un tel fichier existe, en fusionnant les propriétés.
+- `heading` (optionnel) ajoute le contenu dans la section sous cet entête au lieu de l'ensemble du fichier. Nécessite `append` ou `prepend`.
+- `spacing` (optionnel) détermine comment le contenu est séparé du contenu existant. Nécessite `append` ou `prepend`.
+  - `spacing=auto` (par défaut) laisse une ligne vide entre eux.
+  - `spacing=newline` commence le contenu sur une nouvelle ligne.
+  - `spacing=inline` ajoute le contenu sans saut de ligne.
+- `overwrite` (optionnel) écrase un fichier existant si un tel fichier existe, mais uniquement si ni `append` ni `prepend` n'est défini.
 - `x-success` (optionnel) voir [[#Utiliser les paramètres x-callback-url]].
 
 ## Créer ou ouvrir une note quotidienne
@@ -104,6 +110,8 @@ L'action `daily` crée ou ouvre votre note quotidienne. Le module [[Notes quotid
 
 - `obsidian://daily?vault=my%20vault`
   Cela ouvre le coffre `my vault` et crée ou ouvre la note quotidienne.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Cela ouvre le coffre `my vault` et ajoute `Called Sam` à la fin de la section `Log` dans la note quotidienne.
 
 ### Paramètres
 

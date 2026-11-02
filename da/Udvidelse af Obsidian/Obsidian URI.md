@@ -67,8 +67,6 @@ Du kan kopiere Obsidian URL'en på følgende måder:
   - Denne parameter overstyrer både `vault` og `file`
   - Parameteren vil få Obsidian til at søge efter den mest specifikke boks, som indeholder den specificerede filsti
   - Derefter vil resten af stien erstatte `file` parameteren
-- `prepend` vil tilføje til begyndelsen af tilen og flette eventuelle egenskaber
-- `append` vil tilføje til slutningen af filen og også flette eventuelle egenskaber
 - `paneType` (valgfri) bestemmer, hvor noten åbnes i brugerfladen.
   - Hvis den ikke er angivet, erstattes den sidst aktive fane.
   - `paneType=tab` åbn i en ny fane.
@@ -85,6 +83,8 @@ Kommandoen `new` opretter en note i boksen og med valgmulighed for noget indhold
   Denne kommando åbner boksen `min boks` og opretter en ny note kaldet `min note`
 - `obsidian://new?vault=min%20boks&file=sti%2Ftil%2Fmin%20note`
   Denne kommando åbner boksen `min boks` og opretter en note på stien `sti/til/min note`
+- `obsidian://new?vault=min%20boks&file=min%20note&append=true&heading=Opgaver&content=K%C3%B8b%20m%C3%A6lk`
+  Denne kommando åbner boksen `min boks` og tilføjer `Køb mælk` til slutningen af sektionen `Opgaver` i `min note`.
 
 ### Parametere
 
@@ -96,8 +96,14 @@ Kommandoen `new` opretter en note i boksen og med valgmulighed for noget indhold
 - `content` (valgfri) er indholdet af noten
 - `clipboard` (valgfri) benytter indholdet af udklipsholderen i stetdet for at specificere `content`
 - `silent` (valgfri) udfører kommandoen uden at åbne den nye note
-- `append` (valgfri) vil tilføje til en eksisterende fil, hvis den eksisterer
-- `overwrite` (valgfri) vi loverskrive en eksisterende fil, hvis den eksisterer, men kun hvis `append` ikke er anvendt
+- `append` (valgfri) vil tilføje til slutningen af en eksisterende fil, hvis den eksisterer, og flette eventuelle egenskaber.
+- `prepend` (valgfri) vil tilføje til begyndelsen af en eksisterende fil, hvis den eksisterer, og flette eventuelle egenskaber.
+- `heading` (valgfri) tilføjer indholdet til sektionen under denne overskrift i stedet for hele filen. Kræver `append` eller `prepend`.
+- `spacing` (valgfri) angiver, hvordan indholdet adskilles fra det eksisterende indhold. Kræver `append` eller `prepend`.
+  - `spacing=auto` (standard) indsætter en blank linje imellem.
+  - `spacing=newline` starter indholdet på en ny linje.
+  - `spacing=inline` tilføjer indholdet uden linjeskift.
+- `overwrite` (valgfri) vil overskrive en eksisterende fil, hvis den eksisterer, men kun hvis hverken `append` eller `prepend` er anvendt
 - `x-success` (valgfri) se [[#Benyt x-callback-url parametre]].
 
 ## Opret eller åbn den daglige note
@@ -108,6 +114,8 @@ Kommandoen `daily` opretter eller åbner din daglige note. Pluginnet [[Daglige n
 
 - `obsidian://daily?vault=min%20boks`
   Denne kommando åbner boksen `min boks` og opretter eller åbner den daglige note.
+- `obsidian://daily?vault=min%20boks&append=true&heading=Log&content=Ringede%20til%20Sam`
+  Denne kommando åbner boksen `min boks` og tilføjer `Ringede til Sam` til slutningen af sektionen `Log` i den daglige note.
 
 ### Parametre
 

@@ -62,8 +62,6 @@ Du kan kopiera Obsidian-URL:en på något av följande sätt.
   - Att använda denna parameter åsidosätter både `vault` och `file`.
   - Detta gör att appen söker efter det mest specifika valvet som innehåller den angivna filsökvägen.
   - Sedan ersätter resten av sökvägen parametern `file`.
-- `prepend` lägger till i början av filen och försöker sammanfoga egenskaper.
-- `append` lägger till i slutet av filen och försöker också sammanfoga egenskaper.
 - `paneType` (valfritt) avgör var anteckningen öppnas i gränssnittet.
   - om den inte anges ersätts den senast aktiva fliken.
   - `paneType=tab` öppna i en ny flik.
@@ -80,6 +78,8 @@ Du kan kopiera Obsidian-URL:en på något av följande sätt.
   Detta öppnar valvet `my vault` och skapar en ny anteckning som heter `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Detta öppnar valvet `my vault` och skapar en ny anteckning på `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Detta öppnar valvet `my vault` och lägger till `Buy milk` i slutet av avsnittet `Tasks` i `my note`.
 
 ### Parametrar
 
@@ -91,8 +91,14 @@ Du kan kopiera Obsidian-URL:en på något av följande sätt.
 - `content` (valfritt) innehållet i anteckningen.
 - `clipboard` (valfritt) använd urklippsinnehållet istället för att ange `content`.
 - `silent` (valfritt) inkludera denna parameter om du inte vill öppna den nya anteckningen.
-- `append` (valfritt) inkludera denna parameter för att lägga till i en befintlig fil om en sådan finns.
-- `overwrite` (valfritt) skriv över en befintlig fil om en sådan finns, men bara om `append` inte är satt.
+- `append` (valfritt) inkludera denna parameter för att lägga till i slutet av en befintlig fil om en sådan finns, och sammanfoga eventuella egenskaper.
+- `prepend` (valfritt) inkludera denna parameter för att lägga till i början av en befintlig fil om en sådan finns, och sammanfoga eventuella egenskaper.
+- `heading` (valfritt) lägg till innehållet i avsnittet under denna rubrik istället för hela filen. Kräver `append` eller `prepend`.
+- `spacing` (valfritt) hur innehållet separeras från det befintliga innehållet. Kräver `append` eller `prepend`.
+  - `spacing=auto` (standard) lämnar en tom rad mellan dem.
+  - `spacing=newline` startar innehållet på en ny rad.
+  - `spacing=inline` lägger till innehållet utan radbrytning.
+- `overwrite` (valfritt) skriv över en befintlig fil om en sådan finns, men bara om varken `append` eller `prepend` är satt.
 - `x-success` (valfritt) se [[#Använda x-callback-url-parametrar]].
 
 ## Skapa eller öppna daglig anteckning
@@ -103,6 +109,8 @@ Du kan kopiera Obsidian-URL:en på något av följande sätt.
 
 - `obsidian://daily?vault=my%20vault`
   Detta öppnar valvet `my vault` och skapar eller öppnar den dagliga anteckningen.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Detta öppnar valvet `my vault` och lägger till `Called Sam` i slutet av avsnittet `Log` i den dagliga anteckningen.
 
 ### Parametrar
 

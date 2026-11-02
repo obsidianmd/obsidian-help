@@ -324,6 +324,7 @@ Lägg till innehåll i slutet av daglig anteckning.
 
 ```bash
 content=<text>     # (required) innehåll att lägga till
+heading=<name>     # målrubriksektion
 paneType=tab|split|window    # paneltyp att öppna i
 
 inline             # lägg till utan ny rad
@@ -336,6 +337,7 @@ Lägg till innehåll i början av daglig anteckning.
 
 ```bash
 content=<text>     # (required) innehåll att lägga till i början
+heading=<name>     # målrubriksektion
 paneType=tab|split|window    # paneltyp att öppna i
 
 inline             # lägg till utan ny rad
@@ -512,6 +514,7 @@ Lägg till innehåll i slutet av en fil (standard: aktiv fil).
 file=<name>        # filnamn
 path=<path>        # filsökväg
 content=<text>     # (required) innehåll att lägga till
+heading=<name>     # målrubriksektion
 
 inline             # lägg till utan ny rad
 ```
@@ -524,6 +527,7 @@ Lägg till innehåll efter frontmatter (standard: aktiv fil).
 file=<name>        # filnamn
 path=<path>        # filsökväg
 content=<text>     # (required) innehåll att lägga till i början
+heading=<name>     # målrubriksektion
 
 inline             # lägg till utan ny rad
 ```

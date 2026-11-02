@@ -62,8 +62,6 @@ Du kan kopiere Obsidian-URLen på en av disse måtene:
   - Bruk av denne parameteren vil overstyre både `vault` og `file`.
   - Dette vil få appen til å søke etter det mest spesifikke hvelvet som inneholder den angitte filbanen.
   - Deretter erstatter resten av banen `file`-parameteren.
-- `prepend` vil legge til øverst i filen og forsøke å slå sammen egenskaper.
-- `append` vil legge til nederst i filen og også forsøke å slå sammen egenskaper.
 - `paneType` (valgfritt) bestemmer hvor notatet vil bli åpnet i brukergrensesnittet.
   - hvis ikke angitt, erstattes den sist aktive fanen.
   - `paneType=tab` åpner i en ny fane.
@@ -80,6 +78,8 @@ Handlingen `new` oppretter et nytt notat i hvelvet, eventuelt med noe innhold.
   Dette åpner hvelvet `my vault`, og oppretter et nytt notat kalt `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Dette åpner hvelvet `my vault`, og oppretter et nytt notat på `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Dette åpner hvelvet `my vault`, og legger til `Buy milk` på slutten av seksjonen `Tasks` i `my note`.
 
 ### Parametere
 
@@ -91,8 +91,14 @@ Handlingen `new` oppretter et nytt notat i hvelvet, eventuelt med noe innhold.
 - `content` (valgfritt) innholdet i notatet.
 - `clipboard` (valgfritt) bruk innholdet fra utklippstavlen i stedet for å angi `content`.
 - `silent` (valgfritt) inkluder denne parameteren hvis du ikke ønsker å åpne det nye notatet.
-- `append` (valgfritt) inkluder denne parameteren for å legge til i en eksisterende fil hvis en finnes.
-- `overwrite` (valgfritt) overskriver en eksisterende fil hvis en finnes, men bare hvis `append` ikke er satt.
+- `append` (valgfritt) inkluder denne parameteren for å legge til på slutten av en eksisterende fil hvis en finnes, og slå sammen eventuelle egenskaper.
+- `prepend` (valgfritt) inkluder denne parameteren for å legge til i begynnelsen av en eksisterende fil hvis en finnes, og slå sammen eventuelle egenskaper.
+- `heading` (valgfritt) legg til innholdet i seksjonen under denne overskriften i stedet for hele filen. Krever `append` eller `prepend`.
+- `spacing` (valgfritt) hvordan innholdet skilles fra det eksisterende innholdet. Krever `append` eller `prepend`.
+  - `spacing=auto` (standard) legger inn en blank linje mellom dem.
+  - `spacing=newline` starter innholdet på en ny linje.
+  - `spacing=inline` legger til innholdet uten linjeskift.
+- `overwrite` (valgfritt) overskriver en eksisterende fil hvis en finnes, men bare hvis verken `append` eller `prepend` er satt.
 - `x-success` (valgfritt) se [[#Bruk x-callback-url-parametere]].
 
 ## Opprett eller åpne daglig notat
@@ -103,6 +109,8 @@ Handlingen `daily` oppretter eller åpner ditt daglige notat. Utvidelsen [[Dagli
 
 - `obsidian://daily?vault=my%20vault`
   Dette åpner hvelvet `my vault`, og oppretter eller åpner det daglige notatet.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Dette åpner hvelvet `my vault`, og legger til `Called Sam` på slutten av seksjonen `Log` i det daglige notatet.
 
 ### Parametere
 

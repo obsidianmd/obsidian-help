@@ -62,8 +62,6 @@ Du kannst die Obsidian-URL auf folgende Weisen kopieren:
   - Die Verwendung dieses Parameters überschreibt sowohl `vault` als auch `file`.
   - Dies veranlasst die App, nach dem spezifischsten Vault zu suchen, der den angegebenen Dateipfad enthält.
   - Der restliche Pfad ersetzt dann den `file`-Parameter.
-- `prepend` fügt am Anfang der Datei hinzu und versucht, Eigenschaften zu mergen.
-- `append` fügt am Ende der Datei hinzu und versucht ebenfalls, Eigenschaften zu mergen.
 - `paneType` (optional) bestimmt, wo die Notiz in der Benutzeroberfläche geöffnet wird.
   - Wenn nicht angegeben, wird der zuletzt aktive Tab ersetzt.
   - `paneType=tab` öffnet in einem neuen Tab.
@@ -80,6 +78,8 @@ Die Aktion `new` erstellt eine neue Notiz im Vault, optional mit Inhalt.
   Dies öffnet den Vault `my vault` und erstellt eine neue Notiz namens `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Dies öffnet den Vault `my vault` und erstellt eine neue Notiz unter `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Dies öffnet den Vault `my vault` und fügt `Buy milk` am Ende des Abschnitts `Tasks` in `my note` hinzu.
 
 ### Parameter
 
@@ -91,8 +91,14 @@ Die Aktion `new` erstellt eine neue Notiz im Vault, optional mit Inhalt.
 - `content` (optional) der Inhalt der Notiz.
 - `clipboard` (optional) verwendet den Inhalt der Zwischenablage anstelle von `content`.
 - `silent` (optional) füge diesen Parameter hinzu, wenn die neue Notiz nicht geöffnet werden soll.
-- `append` (optional) füge diesen Parameter hinzu, um an eine vorhandene Datei anzuhängen, falls eine existiert.
-- `overwrite` (optional) überschreibt eine vorhandene Datei, falls eine existiert, aber nur wenn `append` nicht gesetzt ist.
+- `append` (optional) füge diesen Parameter hinzu, um an eine vorhandene Datei anzuhängen, falls eine existiert, wobei Eigenschaften gemergt werden.
+- `prepend` (optional) füge diesen Parameter hinzu, um am Anfang einer vorhandenen Datei einzufügen, falls eine existiert, wobei Eigenschaften gemergt werden.
+- `heading` (optional) fügt den Inhalt dem Abschnitt unter dieser Überschrift hinzu, anstatt der gesamten Datei. Erfordert `append` oder `prepend`.
+- `spacing` (optional) bestimmt, wie der Inhalt vom vorhandenen Inhalt getrennt wird. Erfordert `append` oder `prepend`.
+  - `spacing=auto` (Standard) lässt eine Leerzeile zwischen ihnen.
+  - `spacing=newline` beginnt den Inhalt in einer neuen Zeile.
+  - `spacing=inline` fügt den Inhalt ohne Zeilenumbruch hinzu.
+- `overwrite` (optional) überschreibt eine vorhandene Datei, falls eine existiert, aber nur wenn weder `append` noch `prepend` gesetzt ist.
 - `x-success` (optional) siehe [[#x-callback-url-Parameter verwenden]].
 
 ## Tägliche Notiz erstellen oder öffnen
@@ -103,6 +109,8 @@ Die Aktion `daily` erstellt oder öffnet deine tägliche Notiz. Die Erweiterung 
 
 - `obsidian://daily?vault=my%20vault`
   Dies öffnet den Vault `my vault` und erstellt oder öffnet die tägliche Notiz.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Dies öffnet den Vault `my vault` und fügt `Called Sam` am Ende des Abschnitts `Log` in der täglichen Notiz hinzu.
 
 ### Parameter
 

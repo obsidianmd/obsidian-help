@@ -62,8 +62,6 @@ Pots copiar l'URL d'Obsidian de qualsevol d'aquestes maneres.
   - L'ús d'aquest paràmetre anul·larà tant `vault` com `file`.
   - Això farà que l'aplicació cerqui la cambra forta més específica que contingui la ruta del fitxer especificada.
   - Llavors la resta de la ruta reemplaça el paràmetre `file`.
-- `prepend` afegirà al principi del fitxer i intentarà fusionar propietats.
-- `append` afegirà al final del fitxer i també intentarà fusionar propietats.
 - `paneType` (opcional) determina on s'obrirà la nota a la interfície.
   - si no és present, es reemplaça la darrera pestanya activa.
   - `paneType=tab` obre en una pestanya nova.
@@ -80,6 +78,8 @@ L'acció `new` crea una nota nova a la cambra forta, opcionalment amb contingut.
   Això obre la cambra forta `my vault` i crea una nota nova anomenada `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Això obre la cambra forta `my vault` i crea una nota nova a `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Això obre la cambra forta `my vault` i afegeix `Buy milk` al final de la secció `Tasks` a `my note`.
 
 ### Paràmetres
 
@@ -91,8 +91,14 @@ L'acció `new` crea una nota nova a la cambra forta, opcionalment amb contingut.
 - `content` (opcional) el contingut de la nota.
 - `clipboard` (opcional) ús del contingut del porta-retalls en lloc d'especificar `content`.
 - `silent` (opcional) inclou aquest paràmetre si no vols obrir la nota nova.
-- `append` (opcional) inclou aquest paràmetre per afegir a un fitxer existent si n'hi ha un.
-- `overwrite` (opcional) sobreescriu un fitxer existent si n'hi ha un, però només si `append` no està establert.
+- `append` (opcional) inclou aquest paràmetre per afegir al final d'un fitxer existent si n'hi ha un, fusionant qualsevol propietat.
+- `prepend` (opcional) inclou aquest paràmetre per afegir al principi d'un fitxer existent si n'hi ha un, fusionant qualsevol propietat.
+- `heading` (opcional) afegeix el contingut a la secció sota aquest encapçalament en lloc de tot el fitxer. Requereix `append` o `prepend`.
+- `spacing` (opcional) com se separa el contingut del contingut existent. Requereix `append` o `prepend`.
+  - `spacing=auto` (per defecte) deixa una línia en blanc entre ells.
+  - `spacing=newline` comença el contingut en una línia nova.
+  - `spacing=inline` afegeix el contingut sense salt de línia.
+- `overwrite` (opcional) sobreescriu un fitxer existent si n'hi ha un, però només si ni `append` ni `prepend` estan establerts.
 - `x-success` (opcional) consulta [[#Ús de paràmetres x-callback-url]].
 
 ## Crear o obrir nota diària
@@ -103,6 +109,8 @@ L'acció `daily` crea o obre la teva nota diària. El connector [[Notes diàries
 
 - `obsidian://daily?vault=my%20vault`
   Això obre la cambra forta `my vault` i crea o obre la nota diària.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Això obre la cambra forta `my vault` i afegeix `Called Sam` al final de la secció `Log` a la nota diària.
 
 ### Paràmetres
 

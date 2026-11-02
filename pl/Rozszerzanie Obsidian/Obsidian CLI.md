@@ -324,6 +324,7 @@ Dołącz treść na końcu dziennika.
 
 ```bash
 content=<text>     # (required) treść do dołączenia
+heading=<name>     # docelowa sekcja nagłówka
 paneType=tab|split|window    # typ panelu do otwarcia
 
 inline             # dołącz bez nowej linii
@@ -336,6 +337,7 @@ Dołącz treść na początku dziennika.
 
 ```bash
 content=<text>     # (required) treść do dołączenia na początku
+heading=<name>     # docelowa sekcja nagłówka
 paneType=tab|split|window    # typ panelu do otwarcia
 
 inline             # dołącz bez nowej linii
@@ -512,6 +514,7 @@ Dołącz treść na końcu pliku (domyślnie: aktywny plik).
 file=<name>        # nazwa pliku
 path=<path>        # ścieżka pliku
 content=<text>     # (required) treść do dołączenia
+heading=<name>     # docelowa sekcja nagłówka
 
 inline             # dołącz bez nowej linii
 ```
@@ -524,6 +527,7 @@ Dołącz treść na początku po metadanych początkowych (domyślnie: aktywny p
 file=<name>        # nazwa pliku
 path=<path>        # ścieżka pliku
 content=<text>     # (required) treść do dołączenia na początku
+heading=<name>     # docelowa sekcja nagłówka
 
 inline             # dołącz bez nowej linii
 ```

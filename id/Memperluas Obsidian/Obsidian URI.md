@@ -64,8 +64,6 @@ Anda dapat menyalin URL Obsidian dengan cara berikut.
   - Menggunakan parameter ini akan menimpa baik `vault` maupun `file`.
   - Ini akan menyebabkan aplikasi mencari brankas yang paling spesifik yang berisi path file yang ditentukan.
   - Kemudian sisa path menggantikan parameter `file`.
-- `prepend` akan menambahkan ke bagian atas file dan mencoba menggabungkan properti.
-- `append` akan menambahkan ke bagian akhir file dan juga mencoba menggabungkan properti.
 - `paneType` (opsional) menentukan di mana catatan akan dibuka di UI.
   - jika tidak ada, tab terakhir yang aktif akan digantikan.
   - `paneType=tab` buka di tab baru.
@@ -82,6 +80,8 @@ Tindakan `new` membuat catatan baru di brankas, opsional dengan beberapa konten.
   Ini membuka brankas `my vault`, dan membuat catatan baru bernama `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Ini membuka brankas `my vault`, dan membuat catatan baru di `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Ini membuka brankas `my vault`, dan menambahkan `Buy milk` ke akhir bagian `Tasks` di `my note`.
 
 ### Parameter
 
@@ -93,8 +93,14 @@ Tindakan `new` membuat catatan baru di brankas, opsional dengan beberapa konten.
 - `content` (opsional) isi dari catatan.
 - `clipboard` (opsional) gunakan isi papan klip alih-alih menentukan `content`.
 - `silent` (opsional) sertakan parameter ini jika Anda tidak ingin membuka catatan baru.
-- `append` (opsional) sertakan parameter ini untuk menambahkan ke file yang sudah ada jika ada.
-- `overwrite` (opsional) timpa file yang sudah ada jika ada, tetapi hanya jika `append` tidak diatur.
+- `append` (opsional) sertakan parameter ini untuk menambahkan ke akhir file yang sudah ada jika ada, menggabungkan properti apa pun.
+- `prepend` (opsional) sertakan parameter ini untuk menambahkan ke awal file yang sudah ada jika ada, menggabungkan properti apa pun.
+- `heading` (opsional) tambahkan konten ke bagian di bawah judul ini alih-alih seluruh file. Memerlukan `append` atau `prepend`.
+- `spacing` (opsional) cara konten dipisahkan dari konten yang sudah ada. Memerlukan `append` atau `prepend`.
+  - `spacing=auto` (bawaan) menyisipkan baris kosong di antaranya.
+  - `spacing=newline` memulai konten di baris baru.
+  - `spacing=inline` menambahkan konten tanpa jeda baris.
+- `overwrite` (opsional) timpa file yang sudah ada jika ada, tetapi hanya jika `append` maupun `prepend` tidak diatur.
 - `x-success` (opsional) lihat [[#Gunakan parameter x-callback-url]].
 
 ## Buat atau buka catatan harian
@@ -105,6 +111,8 @@ Tindakan `daily` membuat atau membuka catatan harian Anda. Plugin [[Catatan hari
 
 - `obsidian://daily?vault=my%20vault`
   Ini membuka brankas `my vault`, dan membuat atau membuka catatan harian.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Ini membuka brankas `my vault`, dan menambahkan `Called Sam` ke akhir bagian `Log` di catatan harian.
 
 ### Parameter
 
