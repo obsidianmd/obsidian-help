@@ -77,6 +77,34 @@ To capture text:
 
 ![[ios-quick-capture-live-activity.png|400]]
 
+### Voice Capture
+
+Voice Capture lets you record a voice note with Quick Capture. Obsidian transcribes what you say as you speak, and can save the recording to your vault alongside the transcript.
+
+To capture a voice note:
+
+1. Open Quick Capture, then tap the microphone button in the bottom-left corner. Recording starts right away.
+2. Speak your note. The transcript appears in the text area as you talk, and you can edit it at any time.
+3. Tap the recording button at the bottom of the screen to pause, and tap it again to resume.
+4. Tap the checkmark to save the transcript and recording to the selected capture location.
+
+![[ios-voice-capture.png|400]]
+
+You can also start recording directly from a widget. When customizing a Quick Capture widget, choose an action from the **Voice Capture** section.
+
+Recording continues if you minimize Quick Capture or lock your device. While recording, the Lock Screen and Dynamic Island show the live transcript and a timer. Tap the timer to pause or resume recording.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Voice Capture settings
+
+To change Voice Capture settings, tap the gear icon at the top of the screen while in Voice Capture.
+
+- **Language**: The language used for transcription. Select **None** to turn off transcription and record audio only.
+- **Microphone**: The microphone used for recording, such as the built-in microphone or a connected headset.
+- **Save Audio File**: Whether to save the recording to your vault.
+- **Audio from Other Apps**: What happens to music or other audio that's playing when you record: **Keep Playing**, **Lower Volume**, or **Pause**. Changes apply from your next recording.
+
 ### Capture locations
 
 Capture locations determine where Quick Capture saves your text. A capture location can:
