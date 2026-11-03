@@ -25,7 +25,7 @@ Obsidian for iOS offers several widgets to take quick actions on your vault.
 ### Lock Screen and Control Center widgets
 
 Lock Screen and Control Center widgets allow you to:
-- Open [[Quick Capture]]
+- Open [[Quick capture]]
 - Create a new note
 - Open a specific note
 - Open daily note
@@ -35,7 +35,7 @@ Lock Screen and Control Center widgets allow you to:
 ### Home Screen widgets
 
 Home Screen widgets allow you to:
-- Open [[Quick Capture]]
+- Open [[Quick capture]]
 - Create a note
 - View a note
 - Open your daily note
@@ -60,7 +60,7 @@ You can customize widgets to suit your workflow, such as choosing which vault to
 
 Obsidian integrates with Apple's Shortcuts app, allowing you to create powerful automations. Available shortcuts include:
 
-- **Quick Capture** — Open Quick Capture using a configured capture location
+- **Quick Capture** — Open Quick capture using a configured capture location
 - **Open Bookmark** - Open a bookmarked note from your vault
 - **Open New Note** — Create a new note in your vault
 - **Open Daily Note** — Jump directly to today's daily note
