@@ -2,6 +2,7 @@
 permalink: mobile/quick-capture
 description: Save notes to your vault from your phone's Lock Screen or Home Screen without waiting for your vault to load.
 ---
+
 Quick Capture lets you save notes to your vault from your phone's Lock Screen or Home Screen without waiting for your vault to load. Depending on the capture location you select, Quick Capture can create a new note or add to an existing note.
 
 ## iOS
