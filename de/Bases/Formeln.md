@@ -1,6 +1,6 @@
 ---
 permalink: formulas
-description: Formeln ermöglichen es dir, berechnete Eigenschaften zu erstellen, die Daten aus anderen Eigenschaften verwenden. Du kannst Berechnungen durchführen, Text manipulieren, mit Daten arbeiten und mehr.
+description: 'Formeln ermöglichen es dir, berechnete Eigenschaften zu erstellen, die Daten aus anderen Eigenschaften verwenden. Du kannst Berechnungen durchführen, Text manipulieren, mit Daten arbeiten und mehr.'
 ---
 Formeln ermöglichen es dir, berechnete Eigenschaften in [[Einführung in Bases|Basen]] zu erstellen, die Daten aus anderen [[Eigenschaften]] verwenden. Du kannst Berechnungen durchführen, Text manipulieren, mit Daten arbeiten und mehr.
 
@@ -13,6 +13,7 @@ Formeln können dir helfen:
 - **Mit Daten arbeiten**, Zeitdifferenzen berechnen, Daten formatieren oder Fristen bestimmen.
 - **Logik anwenden**, bedingte Anweisungen verwenden, um unterschiedliche Werte anzuzeigen.
 - **Listen verarbeiten**, Listendaten filtern, sortieren, zuordnen oder aggregieren.
+- **Verlinkte Notizen verwenden**, Eigenschaften aus Notizen nachschlagen oder zusammenfassen, auf die eine Notiz verlinkt. Siehe [[#Eigenschaften aus verlinkten Notizen verwenden]].
 
 ## Eine Formel-Eigenschaft erstellen
 
@@ -90,6 +91,59 @@ Funktionen führen Operationen auf Werten aus. Die verfügbaren Funktionen häng
 - `file.name.lower()` um in Kleinbuchstaben umzuwandeln.
 - `tags.contains("urgent")` um zu prüfen, ob die Tag-Liste einen Wert enthält.
 - `due_date.format("YYYY-MM-DD")` um ein Datum zu formatieren.
+
+## Eigenschaften aus verlinkten Notizen verwenden
+
+Formeln können Eigenschaften aus den Notizen lesen, auf die eine Notiz verlinkt. Du kannst einen einzelnen Wert aus einer verlinkten Notiz nachschlagen oder Werte aus mehreren verlinkten Notizen zu einer Summe, einer Anzahl oder einer Liste zusammenfassen (Roll-up).
+
+Um die Eigenschaften einer verlinkten Notiz zu lesen, wandle den Link mit `asFile()` in eine Datei um und verwende dann `properties`. Links, die in Eigenschaften gespeichert sind, wie z. B. `project: "[[Website-Redesign]]"`, funktionieren auf diese Weise direkt.
+
+> [!warning] Ergebnisse werden aktualisiert, wenn sich die Notiz in der Zeile ändert
+> Wenn du nur eine verlinkte Notiz bearbeitest, werden Nachschlage- und Roll-up-Werte in der Basis möglicherweise erst aktualisiert, wenn du die Basis erneut öffnest.
+
+### Einen Wert nachschlagen
+
+Den `status` der Notiz anzeigen, die in der Eigenschaft `project` verlinkt ist:
+
+```js
+project.asFile().properties.status
+```
+
+Wenn die Eigenschaft entweder einen einzelnen Link oder eine Liste von Links enthalten kann, verpacke sie in `list()` und nimm den ersten Link:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Werte zusammenfassen (Roll-up)
+
+Die `hours` aller Notizen addieren, die in der Eigenschaft `tasks` verlinkt sind:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Die verlinkten Notizen zählen, deren `status` nicht „Done" ist:
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Die Status der verlinkten Notizen ohne Duplikate auflisten:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Werte aus Notizen zusammenfassen, die hierher verlinken
+
+Um Werte aus Notizen zusammenzufassen, die auf eine Notiz verlinken, z. B. Aufgaben, die jeweils auf ihr Projekt verlinken, verwende `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` ist in großen Vaults langsam. Wenn möglich, speichere die Links in der Notiz selbst und fasse sie mit `map()` und `reduce()` zusammen, wie oben gezeigt.
 
 ## Formelbeispiele
 

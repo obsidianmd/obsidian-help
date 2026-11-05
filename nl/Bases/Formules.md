@@ -13,6 +13,7 @@ Formules kunnen je helpen om:
 - **Met datums werken**, tijdverschillen berekenen, datums opmaken of deadlines bepalen.
 - **Logica toepassen**, voorwaardelijke instructies gebruiken om verschillende waarden weer te geven.
 - **Lijsten verwerken**, lijstgegevens filteren, sorteren, transformeren of aggregeren.
+- **Gelinkte notities gebruiken**, eigenschappen opzoeken of samenvatten van notities waarnaar een notitie verwijst. Zie [[#Eigenschappen van gelinkte notities gebruiken]].
 
 ## Een formule-eigenschap aanmaken
 
@@ -90,6 +91,59 @@ Functies voeren bewerkingen uit op waarden. De beschikbare functies zijn afhanke
 - `file.name.lower()` om naar kleine letters te converteren.
 - `tags.contains("urgent")` om te controleren of de taglijst een waarde bevat.
 - `due_date.format("YYYY-MM-DD")` om een datum op te maken.
+
+## Eigenschappen van gelinkte notities gebruiken
+
+Formules kunnen eigenschappen lezen van notities waarnaar een notitie verwijst. Je kunt één waarde opzoeken uit een gelinkte notitie, of waarden van meerdere gelinkte notities samenvatten tot een totaal, een telling of een lijst.
+
+Om de eigenschappen van een gelinkte notitie te lezen, zet je de koppeling om naar een bestand met `asFile()` en gebruik je vervolgens `properties`. Koppelingen die in eigenschappen zijn opgeslagen, zoals `project: "[[Website herontwerp]]"`, werken op deze manier direct.
+
+> [!warning] Resultaten worden bijgewerkt wanneer de notitie in de rij verandert
+> Als je alleen een gelinkte notitie bewerkt, worden opzoekingen en samenvattingen in de basis mogelijk pas bijgewerkt wanneer je de basis opnieuw opent.
+
+### Een waarde opzoeken
+
+Toon de `status` van de notitie die gelinkt is in de eigenschap `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Als de eigenschap één koppeling of een lijst met koppelingen kan bevatten, verpak het dan in `list()` en neem de eerste koppeling:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Waarden samenvatten
+
+Tel de `hours` op van elke notitie die gelinkt is in de eigenschap `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Tel de gelinkte notities waarvan de `status` niet "Done" is:
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Maak een lijst van de statussen van de gelinkte notities, zonder duplicaten:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Waarden samenvatten van notities die hierheen verwijzen
+
+Om waarden samen te vatten van notities die naar een notitie verwijzen, zoals taken die elk naar hun project verwijzen, gebruik je `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` is traag in grote kluizen. Sla de koppelingen waar mogelijk op in de notitie zelf en vat ze samen met `map()` en `reduce()`, zoals hierboven getoond.
 
 ## Formulevoorbeelden
 

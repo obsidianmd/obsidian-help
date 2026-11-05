@@ -15,6 +15,7 @@ Formulele te pot ajuta să:
 - **Lucrezi cu date calendaristice**, calculezi diferențe de timp, formatezi date sau determini termene limită.
 - **Aplici logică**, folosești instrucțiuni condiționale pentru a afișa valori diferite.
 - **Procesezi liste**, filtrezi, sortezi, mapezi sau agregi date sub formă de listă.
+- **Folosești note legate**, cauți sau agreghi proprietăți din notele către care o notă are legături. Vezi [[#Folosește proprietăți din notele legate]].
 
 ## Creează o proprietate de tip formulă
 
@@ -93,6 +94,59 @@ Funcțiile efectuează operații pe valori. Funcțiile disponibile depind de tip
 - `tags.contains("urgent")` pentru a verifica dacă lista de etichete conține o valoare.
 - `due_date.format("YYYY-MM-DD")` pentru a formata o dată.
 
+## Folosește proprietăți din notele legate
+
+Formulele pot citi proprietăți din notele către care o notă are legături. Poți căuta o singură valoare dintr-o notă legată sau poți agrega (roll up) valori din mai multe note legate într-un total, un contor sau o listă.
+
+Pentru a citi proprietățile unei note legate, transformă legătura într-un fișier cu `asFile()`, apoi folosește `properties`. Legăturile stocate în proprietăți, cum ar fi `project: "[[Redesign website]]"`, funcționează direct în acest mod.
+
+> [!warning] Rezultatele se actualizează când nota din rând se modifică
+> Dacă editezi doar o notă legată, căutările și agregările din bază s-ar putea să nu se actualizeze până când nu redeschizi baza.
+
+### Caută o valoare
+
+Afișează `status`-ul notei legate în proprietatea `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Dacă proprietatea poate conține fie o singură legătură, fie o listă de legături, învelește-o în `list()` și ia prima legătură:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Agregă valori (roll up)
+
+Adună `hours` din fiecare notă legată în proprietatea `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Numără notele legate al căror `status` nu este „Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Listează statusurile notelor legate, fără duplicate:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Agregă valori din notele care au legături către aceasta
+
+Pentru a agrega valori din notele care au legături către o notă, de exemplu sarcini care au fiecare o legătură către proiectul lor, folosește `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` este lent în seifurile mari. Când poți, stochează legăturile în nota însăși și agregă-le cu `map()` și `reduce()`, așa cum este arătat mai sus.
+
 ## Exemple de formule
 
 ### Calculează un termen limită
@@ -105,7 +159,7 @@ start_date + "2w"
 
 ### Afișează statusul de întârziere
 
-Afișează „Overdue” dacă data scadentă a trecut, iar statusul nu este „Done”:
+Afișează „Overdue" dacă data scadentă a trecut, iar statusul nu este „Done":
 
 ```js
 if(due_date < now() && status != "Done", "Overdue", "")

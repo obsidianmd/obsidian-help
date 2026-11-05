@@ -13,6 +13,7 @@ Rumus dapat membantu Anda:
 - **Bekerja dengan tanggal**, menghitung selisih waktu, memformat tanggal, atau menentukan tenggat waktu.
 - **Menerapkan logika**, menggunakan pernyataan kondisional untuk menampilkan nilai yang berbeda.
 - **Memproses daftar**, menyaring, mengurutkan, memetakan, atau mengagregasi data daftar.
+- **Menggunakan catatan tertaut**, mencari atau mengumpulkan properti dari catatan yang ditautkan oleh suatu catatan. Lihat [[#Menggunakan properti dari catatan tertaut]].
 
 ## Membuat properti rumus
 
@@ -90,6 +91,59 @@ Fungsi melakukan operasi pada nilai. Fungsi yang tersedia tergantung pada jenis 
 - `file.name.lower()` untuk mengonversi ke huruf kecil.
 - `tags.contains("urgent")` untuk memeriksa apakah daftar tag berisi suatu nilai.
 - `due_date.format("YYYY-MM-DD")` untuk memformat tanggal.
+
+## Menggunakan properti dari catatan tertaut
+
+Rumus dapat membaca properti dari catatan yang ditautkan oleh suatu catatan. Anda dapat mencari satu nilai dari catatan tertaut, atau mengumpulkan nilai dari beberapa catatan tertaut menjadi total, jumlah, atau daftar.
+
+Untuk membaca properti catatan tertaut, ubah tautan menjadi file dengan `asFile()`, lalu gunakan `properties`. Tautan yang disimpan dalam properti, seperti `project: "[[Desain ulang situs web]]"`, bekerja dengan cara ini secara langsung.
+
+> [!warning] Hasil diperbarui saat catatan di baris berubah
+> Jika Anda hanya mengedit catatan tertaut, pencarian dan pengumpulan di basis mungkin tidak diperbarui hingga Anda membuka kembali basis tersebut.
+
+### Mencari nilai
+
+Menampilkan `status` dari catatan yang ditautkan di properti `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Jika properti dapat menampung satu tautan atau daftar tautan, bungkus dengan `list()` dan ambil tautan pertama:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Mengumpulkan nilai
+
+Menjumlahkan `hours` dari setiap catatan yang ditautkan di properti `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Menghitung catatan tertaut yang `status`-nya bukan "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Mendaftar status dari catatan tertaut, tanpa duplikasi:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Mengumpulkan nilai dari catatan yang menautkan ke sini
+
+Untuk mengumpulkan nilai dari catatan yang menautkan ke suatu catatan, seperti tugas yang masing-masing menautkan ke proyeknya, gunakan `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` lambat di brankas besar. Jika memungkinkan, simpan tautan di catatan itu sendiri dan kumpulkan dengan `map()` dan `reduce()`, seperti yang ditunjukkan di atas.
 
 ## Contoh rumus
 

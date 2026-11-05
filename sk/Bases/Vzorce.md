@@ -13,6 +13,7 @@ Vzorce vám môžu pomôcť:
 - **Pracovať s dátumami**, vypočítať časové rozdiely, formátovať dátumy alebo určovať termíny.
 - **Aplikovať logiku**, používať podmienené príkazy na zobrazenie rôznych hodnôt.
 - **Spracovať zoznamy**, filtrovať, zoradiť, mapovať alebo agregovať údaje zoznamu.
+- **Používať prepojené poznámky**, vyhľadávať alebo sumarizovať vlastnosti z poznámok, na ktoré poznámka odkazuje. Pozrite si [[#Používanie vlastností z prepojených poznámok]].
 
 ## Vytvorenie vlastnosti vzorca
 
@@ -90,6 +91,59 @@ Funkcie vykonávajú operácie s hodnotami. Dostupné funkcie závisia od typu h
 - `file.name.lower()` na konverziu na malé písmená.
 - `tags.contains("urgent")` na overenie, či zoznam značiek obsahuje hodnotu.
 - `due_date.format("YYYY-MM-DD")` na formátovanie dátumu.
+
+## Používanie vlastností z prepojených poznámok
+
+Vzorce môžu čítať vlastnosti z poznámok, na ktoré poznámka odkazuje. Môžete vyhľadať jednu hodnotu z prepojenej poznámky, alebo sumarizovať hodnoty z viacerých prepojených poznámok do súčtu, počtu alebo zoznamu.
+
+Na čítanie vlastností prepojenej poznámky premeňte odkaz na súbor pomocou `asFile()` a potom použite `properties`. Odkazy uložené vo vlastnostiach, ako napríklad `project: "[[Website redesign]]"`, fungujú týmto spôsobom priamo.
+
+> [!warning] Výsledky sa aktualizujú pri zmene poznámky v riadku
+> Ak upravíte iba prepojenú poznámku, vyhľadávania a sumarizácie v báze sa nemusia aktualizovať, kým bázu znovu neotvoríte.
+
+### Vyhľadanie hodnoty
+
+Zobrazenie `status` poznámky prepojenej vo vlastnosti `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Ak vlastnosť môže obsahovať jeden odkaz alebo zoznam odkazov, zabaľte ju do `list()` a vezmite prvý odkaz:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Sumarizácia hodnôt
+
+Sčítanie `hours` z každej poznámky prepojenej vo vlastnosti `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Spočítanie prepojených poznámok, ktorých `status` nie je "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Zoznam stavov prepojených poznámok bez duplikátov:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Sumarizácia hodnôt z poznámok, ktoré sem odkazujú
+
+Na sumarizáciu hodnôt z poznámok, ktoré odkazujú na danú poznámku, napríklad úlohy, ktoré odkazujú na svoj projekt, použite `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` je pomalé vo veľkých trezoroch. Ak je to možné, ukladajte odkazy v samotnej poznámke a sumarizujte ich pomocou `map()` a `reduce()`, ako je uvedené vyššie.
 
 ## Príklady vzorcov
 

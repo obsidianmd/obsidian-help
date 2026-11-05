@@ -13,6 +13,7 @@ Kaavat voivat auttaa sinua:
 - **Työskentelemään päivämäärien kanssa**, laskemaan aikaeroja, muotoilemaan päivämääriä tai määrittämään määräaikoja.
 - **Soveltamaan logiikkaa**, käyttämään ehtolauseita eri arvojen näyttämiseen.
 - **Käsittelemään luetteloita**, suodattamaan, järjestämään, muuntamaan tai koostamaan luettelotietoja.
+- **Käyttämään linkitettyjä muistiinpanoja**, hakemaan tai koostamaan määreitä muistiinpanoista, joihin muistiinpano linkittää. Katso [[#Käytä linkitettyjen muistiinpanojen määreitä]].
 
 ## Luo kaavamääre
 
@@ -90,6 +91,59 @@ Funktiot suorittavat operaatioita arvoille. Käytettävissä olevat funktiot rii
 - `file.name.lower()` pieniin kirjaimiin muuntamiseen.
 - `tags.contains("urgent")` tarkistamaan, sisältääkö tunnisteluettelo tietyn arvon.
 - `due_date.format("YYYY-MM-DD")` päivämäärän muotoilemiseen.
+
+## Käytä linkitettyjen muistiinpanojen määreitä
+
+Kaavat voivat lukea määreitä muistiinpanoista, joihin muistiinpano linkittää. Voit hakea yksittäisen arvon linkitetystä muistiinpanosta tai koostaa arvoja useista linkitetyistä muistiinpanoista summaksi, lukumääräksi tai luetteloksi.
+
+Lukeaksesi linkitetyn muistiinpanon määreitä muunna linkki tiedostoksi `asFile()`-funktiolla ja käytä sitten `properties`-ominaisuutta. Määreisiin tallennetut linkit, kuten `project: "[[Verkkosivuston uudistus]]"`, toimivat tällä tavalla suoraan.
+
+> [!warning] Tulokset päivittyvät, kun rivin muistiinpano muuttuu
+> Jos muokkaat vain linkitettyä muistiinpanoa, haut ja koosteet kannassa eivät välttämättä päivity ennen kuin avaat kannan uudelleen.
+
+### Hae yksittäinen arvo
+
+Näytä `project`-määreeseen linkitetyn muistiinpanon `status`:
+
+```js
+project.asFile().properties.status
+```
+
+Jos määre voi sisältää joko yhden linkin tai useita linkkejä, käytä `list()`-funktiota ja ota ensimmäinen linkki:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Koosta arvoja
+
+Laske yhteen jokaisen `tasks`-määreeseen linkitetyn muistiinpanon `hours`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Laske linkitetyt muistiinpanot, joiden `status` ei ole "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Listaa linkitettyjen muistiinpanojen tilat ilman kaksoiskappaleita:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Koosta arvoja tänne linkittävistä muistiinpanoista
+
+Koostaaksesi arvoja muistiinpanoista, jotka linkittävät tiettyyn muistiinpanoon – esimerkiksi tehtävistä, jotka kukin linkittävät projektiinsa – käytä `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` on hidas suurissa holveissa. Kun mahdollista, tallenna linkit itse muistiinpanoon ja koosta ne `map()`- ja `reduce()`-funktioilla, kuten yllä on näytetty.
 
 ## Kaavaesimerkkejä
 

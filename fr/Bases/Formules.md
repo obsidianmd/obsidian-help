@@ -1,8 +1,7 @@
 ---
 permalink: formulas
-description: Les formules vous permettent de créer des propriétés calculées à partir des données d'autres propriétés. Vous pouvez effectuer des calculs, manipuler du texte, travailler avec des dates, et bien plus encore.
+description: 'Les formules vous permettent de créer des propriétés calculées à partir des données d''autres propriétés. Vous pouvez effectuer des calculs, manipuler du texte, travailler avec des dates, et bien plus encore.'
 localized: '2026-03-18'
-
 ---
 Les formules vous permettent de créer des propriétés calculées dans les [[Introduction aux Bases|Bases]] en utilisant les données d'autres [[Propriétés|propriétés]]. Vous pouvez effectuer des calculs, manipuler du texte, travailler avec des dates, et bien plus encore.
 
@@ -15,6 +14,7 @@ Les formules peuvent vous aider à :
 - **Travailler avec des dates**, calculer des différences de temps, formater des dates ou déterminer des échéances.
 - **Appliquer de la logique**, utiliser des instructions conditionnelles pour afficher différentes valeurs.
 - **Traiter des listes**, filtrer, trier, transformer ou agréger des données de listes.
+- **Utiliser des notes liées**, rechercher ou agréger des propriétés à partir des notes vers lesquelles une note pointe. Voir [[#Utiliser les propriétés des notes liées]].
 
 ## Créer une propriété de formule
 
@@ -92,6 +92,59 @@ Les fonctions effectuent des opérations sur des valeurs. Les fonctions disponib
 - `file.name.lower()` pour convertir en minuscules.
 - `tags.contains("urgent")` pour vérifier si la liste de mots-clés contient une valeur.
 - `due_date.format("YYYY-MM-DD")` pour formater une date.
+
+## Utiliser les propriétés des notes liées
+
+Les formules peuvent lire les propriétés des notes vers lesquelles une note pointe. Vous pouvez rechercher une valeur dans une note liée, ou agréger des valeurs de plusieurs notes liées sous forme de total, de comptage ou de liste.
+
+Pour lire les propriétés d'une note liée, transformez le lien en fichier avec `asFile()`, puis utilisez `properties`. Les liens stockés dans des propriétés, comme `project: "[[Refonte du site]]"`, fonctionnent directement de cette manière.
+
+> [!warning] Les résultats se mettent à jour lorsque la note de la ligne change
+> Si vous ne modifiez qu'une note liée, les recherches et agrégations dans la base peuvent ne pas se mettre à jour tant que vous ne rouvrez pas la base.
+
+### Rechercher une valeur
+
+Afficher le `status` de la note liée dans la propriété `project` :
+
+```js
+project.asFile().properties.status
+```
+
+Si la propriété peut contenir un seul lien ou une liste de liens, encapsulez-la dans `list()` et prenez le premier lien :
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Agréger des valeurs
+
+Additionner les `hours` de chaque note liée dans la propriété `tasks` :
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Compter les notes liées dont le `status` n'est pas « Done » :
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Lister les statuts des notes liées, sans doublons :
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Agréger des valeurs à partir des notes qui pointent ici
+
+Pour agréger des valeurs à partir des notes qui pointent vers une note, comme des tâches qui contiennent chacune un lien vers leur projet, utilisez `file.backlinks` :
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` est lent dans les coffres volumineux. Lorsque c'est possible, stockez les liens dans la note elle-même et agrégez-les avec `map()` et `reduce()`, comme montré ci-dessus.
 
 ## Exemples de formules
 

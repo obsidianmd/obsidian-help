@@ -1,6 +1,6 @@
 ---
 permalink: formulas
-description: Fórmulas permitem criar propriedades calculadas usando dados de outras propriedades. Você pode realizar cálculos, manipular texto, trabalhar com datas e mais.
+description: 'Fórmulas permitem criar propriedades calculadas usando dados de outras propriedades. Você pode realizar cálculos, manipular texto, trabalhar com datas e mais.'
 ---
 Fórmulas permitem criar propriedades calculadas no [[Introdução ao Bases|Bases]] usando dados de outras [[Propriedades|propriedades]]. Você pode realizar cálculos, manipular texto, trabalhar com datas e mais.
 
@@ -13,6 +13,7 @@ Fórmulas podem ajudar você a:
 - **Trabalhar com datas**, calcular diferenças de tempo, formatar datas ou determinar prazos.
 - **Aplicar lógica**, usar instruções condicionais para exibir diferentes valores.
 - **Processar listas**, filtrar, ordenar, mapear ou agregar dados de listas.
+- **Usar notas vinculadas**, consultar ou consolidar propriedades das notas para as quais uma nota possui links. Veja [[#Usar propriedades de notas vinculadas]].
 
 ## Criar uma propriedade de fórmula
 
@@ -90,6 +91,59 @@ Funções realizam operações em valores. As funções disponíveis dependem do
 - `file.name.lower()` para converter para minúsculas.
 - `tags.contains("urgent")` para verificar se a lista de etiquetas contém um valor.
 - `due_date.format("YYYY-MM-DD")` para formatar uma data.
+
+## Usar propriedades de notas vinculadas
+
+Fórmulas podem ler propriedades das notas para as quais uma nota possui links. Você pode consultar um valor de uma nota vinculada, ou consolidar valores de várias notas vinculadas em um total, uma contagem ou uma lista.
+
+Para ler as propriedades de uma nota vinculada, transforme o link em um arquivo com `asFile()` e então use `properties`. Links armazenados em propriedades, como `project: "[[Redesign do site]]"`, funcionam dessa forma diretamente.
+
+> [!warning] Os resultados são atualizados quando a nota na linha muda
+> Se você editar apenas uma nota vinculada, as consultas e consolidações na base podem não ser atualizadas até que você reabra a base.
+
+### Consultar um valor
+
+Mostrar o `status` da nota vinculada na propriedade `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Se a propriedade pode conter um único link ou uma lista de links, envolva-a em `list()` e pegue o primeiro link:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Consolidar valores
+
+Somar as `hours` de cada nota vinculada na propriedade `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Contar as notas vinculadas cujo `status` não é "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Listar os status das notas vinculadas, sem duplicatas:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Consolidar valores de notas que apontam para esta
+
+Para consolidar valores das notas que possuem links para uma nota, como tarefas que apontam para seu projeto, use `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` é lento em cofres grandes. Quando possível, armazene os links na própria nota e consolide-os com `map()` e `reduce()`, como mostrado acima.
 
 ## Exemplos de fórmulas
 

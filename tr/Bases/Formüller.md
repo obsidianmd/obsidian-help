@@ -13,6 +13,7 @@ Formüller şunlarda yardımcı olabilir:
 - **Tarihlerle çalışma**, zaman farkları hesaplama, tarihleri biçimlendirme veya son tarihleri belirleme.
 - **Mantık uygulama**, farklı değerler görüntülemek için koşullu ifadeler kullanma.
 - **Listeleri işleme**, liste verilerini filtreleme, sıralama, eşleme veya toplama.
+- **Bağlantılı notları kullanma**, bir notun bağlantı verdiği notlardan özellikleri arama veya toplama. Bkz. [[#Bağlantılı notlardan özellikleri kullanma]].
 
 ## Formül özelliği oluşturma
 
@@ -90,6 +91,59 @@ Fonksiyonlar değerler üzerinde işlemler gerçekleştirir. Kullanılabilir fon
 - `file.name.lower()` küçük harfe dönüştürme.
 - `tags.contains("urgent")` etiket listesinin bir değer içerip içermediğini kontrol etme.
 - `due_date.format("YYYY-MM-DD")` tarihi biçimlendirme.
+
+## Bağlantılı notlardan özellikleri kullanma
+
+Formüller, bir notun bağlantı verdiği notların özelliklerini okuyabilir. Bağlantılı bir nottan tek bir değer arayabilir veya birden fazla bağlantılı nottan değerleri bir toplam, bir sayı veya bir liste halinde toplayabilirsiniz.
+
+Bağlantılı bir notun özelliklerini okumak için bağlantıyı `asFile()` ile bir dosyaya dönüştürün, ardından `properties` kullanın. `project: "[[Web sitesi yeniden tasarımı]]"` gibi özelliklerde saklanan bağlantılar bu şekilde doğrudan çalışır.
+
+> [!warning] Sonuçlar satırdaki not değiştiğinde güncellenir
+> Yalnızca bağlantılı bir notu düzenlerseniz, tabandaki aramalar ve toplamalar tabanı yeniden açana kadar güncellenmeyebilir.
+
+### Değer arama
+
+`project` özelliğinde bağlantılı notun `status` değerini gösterme:
+
+```js
+project.asFile().properties.status
+```
+
+Özellik tek bir bağlantı veya bağlantı listesi tutabiliyorsa, `list()` ile sarmalayın ve ilk bağlantıyı alın:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Değerleri toplama
+
+`tasks` özelliğindeki her bağlantılı notun `hours` değerlerini toplama:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`status` değeri "Done" olmayan bağlantılı notları sayma:
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Bağlantılı notların durumlarını tekrar olmadan listeleme:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Buraya bağlantı veren notlardan değerleri toplama
+
+Bir nota bağlantı veren notlardan (örneğin her biri kendi projesine bağlantı veren görevlerden) değerleri toplamak için `file.backlinks` kullanın:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` büyük kasalarda yavaştır. Mümkün olduğunda bağlantıları notun kendisinde saklayın ve yukarıda gösterildiği gibi `map()` ve `reduce()` ile toplayın.
 
 ## Formül örnekleri
 

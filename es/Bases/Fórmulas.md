@@ -1,6 +1,6 @@
 ---
 permalink: formulas
-description: Las fórmulas te permiten crear propiedades calculadas usando datos de otras propiedades. Puedes realizar cálculos, manipular texto, trabajar con fechas y más.
+description: 'Las fórmulas te permiten crear propiedades calculadas usando datos de otras propiedades. Puedes realizar cálculos, manipular texto, trabajar con fechas y más.'
 ---
 Las fórmulas te permiten crear propiedades calculadas en [[Introducción a Bases|Bases]] usando datos de otras [[Propiedades|propiedades]]. Puedes realizar cálculos, manipular texto, trabajar con fechas y más.
 
@@ -13,6 +13,7 @@ Las fórmulas pueden ayudarte a:
 - **Trabajar con fechas**, calcular diferencias de tiempo, dar formato a fechas o determinar plazos.
 - **Aplicar lógica**, usar declaraciones condicionales para mostrar diferentes valores.
 - **Procesar listas**, filtrar, ordenar, mapear o agregar datos de listas.
+- **Usar notas enlazadas**, buscar o acumular propiedades de las notas a las que una nota enlaza. Consulta [[#Usar propiedades de notas enlazadas]].
 
 ## Crear una propiedad de fórmula
 
@@ -90,6 +91,59 @@ Las funciones realizan operaciones sobre valores. Las funciones disponibles depe
 - `file.name.lower()` para convertir a minúsculas.
 - `tags.contains("urgent")` para verificar si la lista de etiquetas contiene un valor.
 - `due_date.format("YYYY-MM-DD")` para dar formato a una fecha.
+
+## Usar propiedades de notas enlazadas
+
+Las fórmulas pueden leer propiedades de las notas a las que una nota enlaza. Puedes buscar un valor de una nota enlazada, o acumular valores de varias notas enlazadas en un total, un conteo o una lista.
+
+Para leer las propiedades de una nota enlazada, convierte el enlace en un archivo con `asFile()` y luego usa `properties`. Los enlaces almacenados en propiedades, como `project: "[[Rediseño del sitio web]]"`, funcionan de esta manera directamente.
+
+> [!warning] Los resultados se actualizan cuando cambia la nota en la fila
+> Si solo editas una nota enlazada, las búsquedas y acumulaciones en la base pueden no actualizarse hasta que vuelvas a abrir la base.
+
+### Buscar un valor
+
+Mostrar el `status` de la nota enlazada en la propiedad `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Si la propiedad puede contener un solo enlace o una lista de enlaces, envuélvela en `list()` y toma el primer enlace:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Acumular valores
+
+Sumar las `hours` de cada nota enlazada en la propiedad `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Contar las notas enlazadas cuyo `status` no es "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Listar los estados de las notas enlazadas, sin duplicados:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Acumular valores de notas que enlazan aquí
+
+Para acumular valores de las notas que enlazan a una nota, como tareas que enlazan a su proyecto, usa `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` es lento en bóvedas grandes. Cuando sea posible, almacena los enlaces en la propia nota y acumúlalos con `map()` y `reduce()`, como se muestra arriba.
 
 ## Ejemplos de fórmulas
 
