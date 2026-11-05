@@ -13,6 +13,7 @@ Formulas can help you:
 - **Work with dates**, calculate time differences, format dates, or determine deadlines.
 - **Apply logic**, use conditional statements to display different values.
 - **Process lists**, filter, sort, map, or aggregate list data.
+- **Use linked notes**, look up or roll up properties from the notes a note links to. See [[#Use properties from linked notes]].
 
 ## Create a formula property
 
@@ -90,6 +91,59 @@ Functions perform operations on values. The available functions depend on the ty
 - `file.name.lower()` to convert to lowercase.
 - `tags.contains("urgent")` to check if the tags list contains a value.
 - `due_date.format("YYYY-MM-DD")` to format a date.
+
+## Use properties from linked notes
+
+Formulas can read properties from the notes a note links to. You can look up one value from a linked note, or roll up values from several linked notes into a total, a count, or a list.
+
+To read a linked note's properties, turn the link into a file with `asFile()`, then use `properties`. Links stored in properties, such as `project: "[[Website redesign]]"`, work this way directly.
+
+> [!warning] Results update when the note in the row changes
+> If you only edit a linked note, lookups and rollups in the base may not update until you reopen the base.
+
+### Look up a value
+
+Show the `status` of the note linked in the `project` property:
+
+```js
+project.asFile().properties.status
+```
+
+If the property can hold either one link or a list of links, wrap it in `list()` and take the first link:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Roll up values
+
+Add up the `hours` of every note linked in the `tasks` property:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Count the linked notes whose `status` isn't "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+List the statuses of the linked notes, without duplicates:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Roll up values from notes that link here
+
+To roll up values from the notes that link to a note, such as tasks that each link to their project, use `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` is slow in large vaults. When you can, store the links in the note itself and roll them up with `map()` and `reduce()`, as shown above.
 
 ## Formula examples
 
