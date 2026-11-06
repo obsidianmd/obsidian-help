@@ -18,7 +18,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { execSync } from "child_process";
+import { execSync, spawnSync } from "child_process";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const SCRIPTS_DIR = import.meta.dirname;
@@ -178,11 +178,11 @@ function getGitDiff(): string {
 
 function getOldEnContent(enRelPath: string): string | null {
   const ref = fromRef ?? "HEAD";
-  try {
-    return execSync(`git show "${ref}:en/${enRelPath}"`, { cwd: ROOT, encoding: "utf8" });
-  } catch {
+  const result = spawnSync("git", ["show", `${ref}:en/${enRelPath}`], { cwd: ROOT, encoding: "utf8" });
+  if (result.status !== 0) {
     return null; // file didn't exist at that ref (new file — handled by sync-locale)
   }
+  return result.stdout;
 }
 
 // ─── Git diff parsing ─────────────────────────────────────────────────────────
