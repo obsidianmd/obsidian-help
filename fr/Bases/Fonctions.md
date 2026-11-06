@@ -111,12 +111,6 @@ Les fonctions globales s'utilisent sans type.
 
 - Retourne le plus petit de tous les nombres fournis.
 
-### `now()`
-
-`now(): date`
-
-- Retourne un objet date pour l'instant présent.
-
 ### `number()`
 
 `number(input: any): number`
@@ -127,18 +121,12 @@ Les fonctions globales s'utilisent sans type.
 - Analyse les chaînes de caractères en nombres, et retourne une erreur si la chaîne n'est pas un nombre valide.
 - Exemple : `number("3.4")` retourne `3.4`.
 
-### `today()`
-
-`today(): date`
-
-- Retourne un objet date pour la date actuelle. La partie horaire est mise à minuit.
-
 ### `random()`
 
 `random(): number`
 
 - Retourne un nombre aléatoire entre 0 et 1.
-- La génération du nombre est actualisée à chaque chargement d'une vue. Naviguer entre les vues change le nombre aléatoire.
+- La génération du nombre est actualisée à chaque chargement d'une vue. Naviguer entre les vues produit un autre nombre aléatoire.
 
 ## Type quelconque
 
@@ -182,6 +170,18 @@ Les champs suivants sont disponibles pour les dates :
 | `date.minute`      | `number` | La minute (0–59)                 |
 | `date.second`      | `number` | La seconde (0–59)                |
 | `date.millisecond` | `number` | La milliseconde (0–999)          |
+
+### `now()`
+
+`now(): date`
+
+- Retourne un objet date représentant l'instant présent.
+
+### `today()`
+
+`today(): date`
+
+- Retourne un objet date représentant la date actuelle. La partie horaire est mise à minuit.
 
 ### `date()`
 
@@ -534,16 +534,16 @@ Les champs suivants sont disponibles pour les fichiers :
 | Champ             | Type     | Description                                                     |
 | ----------------- | -------- | --------------------------------------------------------------- |
 | `file.name`       | `string` | Le nom de ce fichier.                                           |
-| `file.basename`   | `string` | Le nom de ce fichier sans l'extension.                          |
+| `file.basename`   | `string` | Le nom de ce fichier sans son extension.                        |
 | `file.path`       | `string` | Le chemin complet vers ce fichier, relatif à la racine du coffre. |
 | `file.folder`     | `string` | Le chemin complet vers le dossier parent.                       |
 | `file.ext`        | `string` | L'extension de ce fichier.                                      |
 | `file.size`       | `number` | La taille de ce fichier, en octets.                             |
 | `file.properties` | `object` | Les propriétés de la note pour ce fichier.                      |
-| `file.tags`       | `list`   | Les mots-clés de ce fichier. Inclut les mots-clés en ligne.    |
+| `file.tags`       | `list`   | Les mots-clés de ce fichier. Inclut les mots-clés en ligne .    |
 | `file.links`      | `list`   | Les liens internes dans ce fichier.                             |
-| `file.ctime`      | `date`   | Horodatage de la création de ce fichier.                        |
-| `file.mtime`      | `date`   | Horodatage de la dernière modification de ce fichier.           |
+| `file.ctime`      | `date`   | L'horodatage de la création de ce fichier.                      |
+| `file.mtime`      | `date`   | L'horodatage de la dernière modification de ce fichier.         |
 
 ### `asLink()`
 
@@ -572,7 +572,7 @@ Les champs suivants sont disponibles pour les fichiers :
 `file.hasTag(...values: string): boolean`
 
 - `values` sont un ou plusieurs noms de mots-clés.
-- Retourne true si le fichier possède l'un des mots-clés dans `values`.
+- Retourne true si le fichier possède l'un des mots-clés spécifié par `values`.
 - Exemple : `file.hasTag("tag1", "tag2")` retourne `true` si le fichier possède le mot-clé `#tag1` ou `#tag2`. Cela inclut également les [[Mots-clés#Mots-clés imbriqués|mots-clés imbriqués]], tels que `#tag1/a` ou `#tag2/b`.
 
 ### `inFolder()`
