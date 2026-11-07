@@ -98,10 +98,39 @@ Poți de asemenea să începi înregistrarea direct dintr-un widget. Când perso
 
 Pentru a modifica setările Captării vocale, apasă pictograma cu roată dințată din partea de sus a ecranului în timp ce te afli în Captarea vocală.
 
-- **Limba**: Limba folosită pentru transcriere. Selectează **Niciuna** pentru a dezactiva transcrierea și a înregistra doar audio.
+- **Limba**: Limba folosită pentru transcriere. Consultă [[#Limbi acceptate]]. Selectează **Niciuna** pentru a dezactiva transcrierea și a înregistra doar audio.
 - **Microfon**: Microfonul folosit pentru înregistrare, cum ar fi microfonul integrat sau un set de căști conectat.
 - **Salvează fișierul audio**: Dacă se salvează înregistrarea în seiful tău.
 - **Audio din alte aplicații**: Ce se întâmplă cu muzica sau alt conținut audio care rulează când înregistrezi: **Continuă redarea**, **Scade volumul** sau **Pauză**. Modificările se aplică de la următoarea înregistrare.
+
+#### Limbi acceptate
+
+Captarea vocală poate transcrie vorbirea în următoarele limbi. Unele dispozitive acceptă mai puține limbi, iar limbile disponibile se pot modifica odată cu actualizările iOS. Dacă limba ta nu este disponibilă, poți înregistra în continuare audio fără transcriere.
+
+- Bangla
+- Cantoneză
+- Chineză
+- Engleză
+- Franceză
+- Germană
+- Gujarati
+- Hindi
+- Italiană
+- Japoneză
+- Kannada
+- Kashmiri
+- Coreeană
+- Maithili
+- Malayalam
+- Marathi
+- Nepaleză
+- Odia
+- Portugheză
+- Punjabi
+- Spaniolă
+- Tamil
+- Telugu
+- Urdu
 
 ### Locații de captare
 

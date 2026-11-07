@@ -96,10 +96,39 @@ De opname gaat door als je Snel vastleggen minimaliseert of je apparaat vergrend
 
 Om de instellingen voor Spraakopname te wijzigen, tik je op het tandwielpictogram bovenaan het scherm terwijl je in Spraakopname bent.
 
-- **Taal**: De taal die wordt gebruikt voor transcriptie. Selecteer **Geen** om transcriptie uit te schakelen en alleen audio op te nemen.
+- **Taal**: De taal die wordt gebruikt voor transcriptie. Zie [[#Ondersteunde talen]]. Selecteer **Geen** om transcriptie uit te schakelen en alleen audio op te nemen.
 - **Microfoon**: De microfoon die wordt gebruikt voor de opname, zoals de ingebouwde microfoon of een aangesloten headset.
 - **Audiobestand opslaan**: Of de opname in je kluis moet worden opgeslagen.
 - **Audio van andere apps**: Wat er gebeurt met muziek of andere audio die wordt afgespeeld wanneer je opneemt: **Blijven afspelen**, **Volume verlagen** of **Pauzeren**. Wijzigingen worden toegepast vanaf je volgende opname.
+
+#### Ondersteunde talen
+
+Spraakopname kan spraak transcriberen in de volgende talen. Sommige apparaten ondersteunen minder talen, en beschikbare talen kunnen veranderen met iOS-updates. Als je taal niet beschikbaar is, kun je nog steeds audio opnemen zonder transcript.
+
+- Bangla
+- Cantonees
+- Chinees
+- Duits
+- Engels
+- Frans
+- Gujarati
+- Hindi
+- Italiaans
+- Japans
+- Kannada
+- Kashmiri
+- Koreaans
+- Maithili
+- Malayalam
+- Marathi
+- Nepalees
+- Odia
+- Portugees
+- Punjabi
+- Spaans
+- Tamil
+- Telugu
+- Urdu
 
 ### Vastleglocaties
 

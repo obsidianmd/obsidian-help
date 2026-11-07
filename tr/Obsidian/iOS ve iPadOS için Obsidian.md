@@ -96,10 +96,39 @@ Hızlı Yakalama'yı simge durumuna küçültür veya cihazınızı kilitlerseni
 
 Sesli Yakalama ayarlarını değiştirmek için Sesli Yakalama'dayken ekranın üst kısmındaki dişli simgesine dokunun.
 
-- **Dil**: Transkripsiyon için kullanılan dil. Transkripsiyonu kapatıp yalnızca ses kaydetmek için **Yok**'u seçin.
+- **Dil**: Transkripsiyon için kullanılan dil. Bkz. [[#Desteklenen diller]]. Transkripsiyonu kapatıp yalnızca ses kaydetmek için **Yok**'u seçin.
 - **Mikrofon**: Kayıt için kullanılan mikrofon; dahili mikrofon veya bağlı bir kulaklık gibi.
 - **Ses Dosyasını Kaydet**: Kaydın kasanıza kaydedilip kaydedilmeyeceği.
 - **Diğer Uygulamalardan Ses**: Kayıt sırasında çalan müzik veya diğer seslere ne olacağı: **Çalmaya Devam Et**, **Sesi Kıs** veya **Duraklat**. Değişiklikler bir sonraki kaydınızdan itibaren geçerli olur.
+
+#### Desteklenen diller
+
+Sesli Yakalama, aşağıdaki dillerde konuşmayı yazıya dökebilir. Bazı cihazlar daha az dili destekler ve kullanılabilir diller iOS güncellemeleriyle değişebilir. Diliniz mevcut değilse, yine de transkript olmadan ses kaydedebilirsiniz.
+
+- Bengalce
+- Kantonca
+- Çince
+- İngilizce
+- Fransızca
+- Almanca
+- Güceratça
+- Hintçe
+- İtalyanca
+- Japonca
+- Kannadaca
+- Keşmirce
+- Korece
+- Maithili
+- Malayalamca
+- Marathice
+- Nepalce
+- Odiya
+- Portekizce
+- Pencapça
+- İspanyolca
+- Tamilce
+- Teluguca
+- Urduca
 
 ### Yakalama konumları
 

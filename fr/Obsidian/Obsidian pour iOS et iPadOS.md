@@ -96,10 +96,39 @@ L'enregistrement continue si vous réduisez la capture rapide ou verrouillez vot
 
 Pour modifier les paramètres de la capture vocale, touchez l'icône d'engrenage en haut de l'écran lorsque vous êtes dans la capture vocale.
 
-- **Langue** : La langue utilisée pour la transcription. Sélectionnez **Aucune** pour désactiver la transcription et enregistrer uniquement l'audio.
+- **Langue** : La langue utilisée pour la transcription. Voir [[#Langues prises en charge]]. Sélectionnez **Aucune** pour désactiver la transcription et enregistrer uniquement l'audio.
 - **Microphone** : Le microphone utilisé pour l'enregistrement, comme le microphone intégré ou un casque connecté.
 - **Enregistrer le fichier audio** : Si l'enregistrement doit être sauvegardé dans votre coffre.
 - **Audio d'autres applications** : Ce qui se passe avec la musique ou autre audio en cours de lecture lorsque vous enregistrez : **Continuer la lecture**, **Baisser le volume** ou **Mettre en pause**. Les modifications s'appliquent à partir de votre prochain enregistrement.
+
+#### Langues prises en charge
+
+La capture vocale peut transcrire la parole dans les langues suivantes. Certains appareils prennent en charge moins de langues, et les langues disponibles peuvent changer avec les mises à jour d'iOS. Si votre langue n'est pas disponible, vous pouvez tout de même enregistrer l'audio sans transcription.
+
+- Bengali
+- Cantonais
+- Chinois
+- Anglais
+- Français
+- Allemand
+- Gujarati
+- Hindi
+- Italien
+- Japonais
+- Kannada
+- Cachemiri
+- Coréen
+- Maïthili
+- Malayalam
+- Marathi
+- Népalais
+- Odia
+- Portugais
+- Pendjabi
+- Espagnol
+- Tamoul
+- Télougou
+- Ourdou
 
 ### Emplacements de capture
 

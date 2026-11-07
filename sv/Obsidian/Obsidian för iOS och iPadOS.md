@@ -96,10 +96,39 @@ Inspelningen fortsätter om du minimerar Snabbfångst eller låser din enhet. Un
 
 För att ändra inställningar för Röstfångst, tryck på kugghjulsikonen överst på skärmen medan du är i Röstfångst.
 
-- **Språk**: Språket som används för transkription. Välj **Inget** för att stänga av transkription och bara spela in ljud.
+- **Språk**: Språket som används för transkription. Se [[#Språk som stöds]]. Välj **Inget** för att stänga av transkription och bara spela in ljud.
 - **Mikrofon**: Mikrofonen som används för inspelning, till exempel den inbyggda mikrofonen eller ett anslutet headset.
 - **Spara ljudfil**: Om inspelningen ska sparas i ditt valv.
 - **Ljud från andra appar**: Vad som händer med musik eller annat ljud som spelas när du spelar in: **Fortsätt spela**, **Sänk volymen** eller **Pausa**. Ändringar gäller från din nästa inspelning.
+
+#### Språk som stöds
+
+Röstfångst kan transkribera tal på följande språk. Vissa enheter stöder färre språk, och tillgängliga språk kan ändras med iOS-uppdateringar. Om ditt språk inte är tillgängligt kan du fortfarande spela in ljud utan transkription.
+
+- Bangla
+- Gujarati
+- Hindi
+- Italienska
+- Japanska
+- Kannada
+- Kantonesiska
+- Kashmiri
+- Kinesiska
+- Koreanska
+- Maithili
+- Malayalam
+- Marathi
+- Nepali
+- Odia
+- Portugisiska
+- Punjabi
+- Spanska
+- Tamil
+- Telugu
+- Tyska
+- Urdu
+- Engelska
+- Franska
 
 ### Fångstplatser
 

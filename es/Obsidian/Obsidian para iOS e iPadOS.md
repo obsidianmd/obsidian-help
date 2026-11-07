@@ -96,10 +96,39 @@ La grabación continúa si minimizas la Captura rápida o bloqueas tu dispositiv
 
 Para cambiar los ajustes de Captura de voz, toca el icono de engranaje en la parte superior de la pantalla mientras estás en Captura de voz.
 
-- **Idioma**: El idioma utilizado para la transcripción. Selecciona **Ninguno** para desactivar la transcripción y grabar solo audio.
+- **Idioma**: El idioma utilizado para la transcripción. Consulta [[#Idiomas compatibles]]. Selecciona **Ninguno** para desactivar la transcripción y grabar solo audio.
 - **Micrófono**: El micrófono utilizado para la grabación, como el micrófono integrado o unos auriculares conectados.
 - **Guardar archivo de audio**: Si se debe guardar la grabación en tu bóveda.
 - **Audio de otras aplicaciones**: Qué sucede con la música u otro audio que se está reproduciendo cuando grabas: **Seguir reproduciendo**, **Bajar volumen** o **Pausar**. Los cambios se aplican a partir de tu próxima grabación.
+
+#### Idiomas compatibles
+
+La Captura de voz puede transcribir voz en los siguientes idiomas. Algunos dispositivos admiten menos idiomas, y los idiomas disponibles pueden cambiar con las actualizaciones de iOS. Si tu idioma no está disponible, puedes grabar audio sin transcripción.
+
+- Bengalí
+- Cantonés
+- Chino
+- Inglés
+- Francés
+- Alemán
+- Guyaratí
+- Hindi
+- Italiano
+- Japonés
+- Canarés
+- Cachemir
+- Coreano
+- Maithili
+- Malabar
+- Maratí
+- Nepalí
+- Oriya
+- Portugués
+- Punyabí
+- Español
+- Tamil
+- Telugu
+- Urdu
 
 ### Ubicaciones de captura
 

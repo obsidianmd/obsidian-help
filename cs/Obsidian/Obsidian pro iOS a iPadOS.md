@@ -95,10 +95,39 @@ Nahrávání pokračuje, i když minimalizujete Rychlé zachycení nebo zamknete
 
 Pro změnu nastavení hlasového zachycení klepněte na ikonu ozubeného kolečka v horní části obrazovky, když jste v hlasovém zachycení.
 
-- **Jazyk**: Jazyk používaný pro přepis. Vyberte **Žádný** pro vypnutí přepisu a nahrávání pouze zvuku.
+- **Jazyk**: Jazyk používaný pro přepis. Viz [[#Podporované jazyky]]. Vyberte **Žádný** pro vypnutí přepisu a nahrávání pouze zvuku.
 - **Mikrofon**: Mikrofon používaný pro nahrávání, například vestavěný mikrofon nebo připojený headset.
 - **Uložit zvukový soubor**: Zda se má nahrávka uložit do vašeho trezoru.
 - **Zvuk z jiných aplikací**: Co se stane s hudbou nebo jiným zvukem, který přehrává, když nahráváte: **Pokračovat v přehrávání**, **Snížit hlasitost** nebo **Pozastavit**. Změny se projeví od dalšího nahrávání.
+
+#### Podporované jazyky
+
+Hlasové zachycení umí přepisovat řeč v následujících jazycích. Některá zařízení podporují méně jazyků a dostupné jazyky se mohou měnit s aktualizacemi iOS. Pokud váš jazyk není dostupný, stále můžete nahrávat zvuk bez přepisu.
+
+- Bangla
+- Kantonština
+- Čínština
+- Angličtina
+- Francouzština
+- Němčina
+- Gudžarátština
+- Hindština
+- Italština
+- Japonština
+- Kannadština
+- Kašmírština
+- Korejština
+- Maithilština
+- Malajálamština
+- Maráthština
+- Nepálština
+- Urijština
+- Portugalština
+- Paňdžábština
+- Španělština
+- Tamilština
+- Telugština
+- Urdština
 
 ### Umístění zachycení
 

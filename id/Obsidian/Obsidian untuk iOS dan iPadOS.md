@@ -98,10 +98,39 @@ Perekaman berlanjut jika Anda meminimalkan Quick Capture atau mengunci perangkat
 
 Untuk mengubah pengaturan Tangkapan Suara, ketuk ikon roda gigi di bagian atas layar saat berada di Tangkapan Suara.
 
-- **Bahasa**: Bahasa yang digunakan untuk transkripsi. Pilih **None** untuk menonaktifkan transkripsi dan hanya merekam audio.
+- **Bahasa**: Bahasa yang digunakan untuk transkripsi. Lihat [[#Bahasa yang didukung]]. Pilih **None** untuk menonaktifkan transkripsi dan hanya merekam audio.
 - **Mikrofon**: Mikrofon yang digunakan untuk merekam, seperti mikrofon bawaan atau headset yang terhubung.
 - **Simpan File Audio**: Apakah rekaman akan disimpan ke brankas Anda.
 - **Audio dari Aplikasi Lain**: Apa yang terjadi pada musik atau audio lain yang sedang diputar saat Anda merekam: **Keep Playing**, **Lower Volume**, atau **Pause**. Perubahan berlaku mulai perekaman berikutnya.
+
+#### Bahasa yang didukung
+
+Tangkapan Suara dapat mentranskripsikan ucapan dalam bahasa-bahasa berikut. Beberapa perangkat mendukung lebih sedikit bahasa, dan bahasa yang tersedia dapat berubah seiring pembaruan iOS. Jika bahasa Anda tidak tersedia, Anda tetap dapat merekam audio tanpa transkrip.
+
+- Bangla
+- Kanton
+- Tionghoa
+- Inggris
+- Prancis
+- Jerman
+- Gujarat
+- Hindi
+- Italia
+- Jepang
+- Kannada
+- Kashmir
+- Korea
+- Maithili
+- Malayalam
+- Marathi
+- Nepal
+- Odia
+- Portugis
+- Punjab
+- Spanyol
+- Tamil
+- Telugu
+- Urdu
 
 ### Lokasi tangkapan
 

@@ -96,10 +96,39 @@ Die Aufnahme wird fortgesetzt, wenn du die Schnellerfassung minimierst oder dein
 
 Um die Einstellungen der Spracherfassung zu ändern, tippe auf das Zahnrad-Symbol oben auf dem Bildschirm, während du dich in der Spracherfassung befindest.
 
-- **Sprache**: Die für die Transkription verwendete Sprache. Wähle **Keine**, um die Transkription zu deaktivieren und nur Audio aufzunehmen.
+- **Sprache**: Die für die Transkription verwendete Sprache. Siehe [[#Unterstützte Sprachen]]. Wähle **Keine**, um die Transkription zu deaktivieren und nur Audio aufzunehmen.
 - **Mikrofon**: Das für die Aufnahme verwendete Mikrofon, z. B. das eingebaute Mikrofon oder ein verbundenes Headset.
 - **Audiodatei speichern**: Ob die Aufnahme in deinem Vault gespeichert werden soll.
 - **Audio von anderen Apps**: Was mit Musik oder anderen Audiowiedergaben passiert, wenn du aufnimmst: **Weiterspielen**, **Leiser**, oder **Pausieren**. Änderungen gelten ab der nächsten Aufnahme.
+
+#### Unterstützte Sprachen
+
+Die Spracherfassung kann Sprache in den folgenden Sprachen transkribieren. Einige Geräte unterstützen weniger Sprachen, und die verfügbaren Sprachen können sich mit iOS-Updates ändern. Wenn deine Sprache nicht verfügbar ist, kannst du trotzdem Audio ohne Transkript aufnehmen.
+
+- Bangla
+- Chinesisch
+- Deutsch
+- Englisch
+- Französisch
+- Gujarati
+- Hindi
+- Italienisch
+- Japanisch
+- Kannada
+- Kantonesisch
+- Kashmiri
+- Koreanisch
+- Maithili
+- Malayalam
+- Marathi
+- Nepali
+- Odia
+- Portugiesisch
+- Punjabi
+- Spanisch
+- Tamil
+- Telugu
+- Urdu
 
 ### Erfassungsorte
 

@@ -97,10 +97,39 @@ Opptaket fortsetter hvis du minimerer Hurtigfangst eller låser enheten. Under o
 
 For å endre innstillinger for stemmefangst, trykk på tannhjulikonet øverst på skjermen mens du er i Stemmefangst.
 
-- **Språk**: Språket som brukes til transkripsjon. Velg **Ingen** for å slå av transkripsjon og kun ta opp lyd.
+- **Språk**: Språket som brukes til transkripsjon. Se [[#Støttede språk]]. Velg **Ingen** for å slå av transkripsjon og kun ta opp lyd.
 - **Mikrofon**: Mikrofonen som brukes til opptak, for eksempel den innebygde mikrofonen eller et tilkoblet headset.
 - **Lagre lydfil**: Om opptaket skal lagres til hvelvet ditt.
 - **Lyd fra andre apper**: Hva som skjer med musikk eller annen lyd som spiller når du tar opp: **Fortsett avspilling**, **Senk volum** eller **Pause**. Endringer gjelder fra neste opptak.
+
+#### Støttede språk
+
+Stemmefangst kan transkribere tale på følgende språk. Noen enheter støtter færre språk, og tilgjengelige språk kan endres med iOS-oppdateringer. Hvis språket ditt ikke er tilgjengelig, kan du fortsatt ta opp lyd uten transkripsjon.
+
+- Bangla
+- Kantonesisk
+- Kinesisk
+- Engelsk
+- Fransk
+- Tysk
+- Gujarati
+- Hindi
+- Italiensk
+- Japansk
+- Kannada
+- Kashmiri
+- Koreansk
+- Maithili
+- Malayalam
+- Marathi
+- Nepali
+- Odia
+- Portugisisk
+- Punjabi
+- Spansk
+- Tamil
+- Telugu
+- Urdu
 
 ### Fangstplasseringer
 

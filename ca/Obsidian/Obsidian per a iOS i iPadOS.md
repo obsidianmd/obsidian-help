@@ -96,10 +96,39 @@ L'enregistrament continua si minimitzes la Captura ràpida o bloqueges el dispos
 
 Per canviar la configuració de la Captura de veu, toca la icona de l'engranatge a la part superior de la pantalla mentre estàs a la Captura de veu.
 
-- **Idioma**: L'idioma utilitzat per a la transcripció. Selecciona **Cap** per desactivar la transcripció i gravar només àudio.
+- **Idioma**: L'idioma utilitzat per a la transcripció. Consulta [[#Idiomes compatibles]]. Selecciona **Cap** per desactivar la transcripció i gravar només àudio.
 - **Micròfon**: El micròfon utilitzat per a l'enregistrament, com ara el micròfon integrat o uns auriculars connectats.
 - **Desar fitxer d'àudio**: Si es desa l'enregistrament a la teva cambra forta.
 - **Àudio d'altres aplicacions**: Què passa amb la música o altre àudio que s'està reproduint quan graves: **Continuar reproduint**, **Baixar el volum** o **Pausar**. Els canvis s'apliquen a partir del proper enregistrament.
+
+#### Idiomes compatibles
+
+La Captura de veu pot transcriure parla en els idiomes següents. Alguns dispositius admeten menys idiomes, i els idiomes disponibles poden canviar amb les actualitzacions d'iOS. Si el teu idioma no està disponible, pots gravar àudio igualment sense transcripció.
+
+- Bangla
+- Cantonès
+- Xinès
+- Anglès
+- Francès
+- Alemany
+- Gujarati
+- Hindi
+- Italià
+- Japonès
+- Kannada
+- Caixmiri
+- Coreà
+- Maithili
+- Malaiàlam
+- Marathi
+- Nepalès
+- Odia
+- Portuguès
+- Panjabi
+- Espanyol
+- Tàmil
+- Telugu
+- Urdú
 
 ### Ubicacions de captura
 

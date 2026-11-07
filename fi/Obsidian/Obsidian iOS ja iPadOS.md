@@ -95,10 +95,39 @@ Voit myös aloittaa äänityksen suoraan widgetistä. Kun mukautat pikakaappausw
 
 Voit muuttaa äänikaappauksen asetuksia napauttamalla rataskuvaketta näytön yläosassa äänikaappauksen aikana.
 
-- **Kieli**: Litteroinnissa käytettävä kieli. Valitse **Ei mitään** poistaaksesi litteroinnin käytöstä ja äänittääksesi vain ääntä.
+- **Kieli**: Litteroinnissa käytettävä kieli. Katso [[#Tuetut kielet]]. Valitse **Ei mitään** poistaaksesi litteroinnin käytöstä ja äänittääksesi vain ääntä.
 - **Mikrofoni**: Äänityksessä käytettävä mikrofoni, kuten sisäänrakennettu mikrofoni tai yhdistetty kuulokemikrofoni.
 - **Tallenna äänitiedosto**: Tallennetaanko äänite holviisi.
 - **Ääni muista sovelluksista**: Mitä tapahtuu äänityksessä soimassa olevalle musiikille tai muulle äänelle: **Jatka toistoa**, **Hiljennä** tai **Keskeytä**. Muutokset tulevat voimaan seuraavasta äänityksestä alkaen.
+
+#### Tuetut kielet
+
+Äänikaappaus voi litteroida puhetta seuraavilla kielillä. Jotkin laitteet tukevat vähemmän kieliä, ja saatavilla olevat kielet voivat muuttua iOS-päivitysten myötä. Jos kieltäsi ei ole saatavilla, voit silti äänittää ääntä ilman litterointia.
+
+- bengali
+- englanti
+- espanja
+- gujarati
+- hindi
+- italia
+- japani
+- kannada
+- kantoninkiina
+- kashmir
+- kiina
+- korea
+- maithili
+- malajalam
+- marathi
+- nepali
+- odia
+- portugali
+- punjabi
+- ranska
+- saksa
+- tamil
+- telugu
+- urdu
 
 ### Kaappauspaikat
 

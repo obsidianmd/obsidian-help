@@ -98,10 +98,39 @@ Optagelsen fortsætter, hvis du minimerer Hurtig indfangning eller låser din en
 
 For at ændre indstillinger for stemmeindfangning skal du trykke på tandhjulsikonet øverst på skærmen, mens du er i stemmeindfangning.
 
-- **Sprog**: Sproget der bruges til transskription. Vælg **Ingen** for at slå transskription fra og kun optage lyd.
+- **Sprog**: Sproget der bruges til transskription. Se [[#Understøttede sprog]]. Vælg **Ingen** for at slå transskription fra og kun optage lyd.
 - **Mikrofon**: Mikrofonen der bruges til optagelse, f.eks. den indbyggede mikrofon eller et tilsluttet headset.
 - **Gem lydfil**: Om optagelsen skal gemmes i din boks.
 - **Lyd fra andre apps**: Hvad der sker med musik eller anden lyd, der afspilles, når du optager: **Fortsæt afspilning**, **Sænk lydstyrke** eller **Sæt på pause**. Ændringer træder i kraft fra din næste optagelse.
+
+#### Understøttede sprog
+
+Stemmeindfangning kan transskribere tale på følgende sprog. Nogle enheder understøtter færre sprog, og tilgængelige sprog kan ændre sig med iOS-opdateringer. Hvis dit sprog ikke er tilgængeligt, kan du stadig optage lyd uden transskription.
+
+- Bangla
+- Cantonesisk
+- Kinesisk
+- Engelsk
+- Fransk
+- Tysk
+- Gujarati
+- Hindi
+- Italiensk
+- Japansk
+- Kannada
+- Kashmiri
+- Koreansk
+- Maithili
+- Malayalam
+- Marathi
+- Nepalesisk
+- Odia
+- Portugisisk
+- Punjabi
+- Spansk
+- Tamil
+- Telugu
+- Urdu
 
 ### Indfangningsplaceringer
 

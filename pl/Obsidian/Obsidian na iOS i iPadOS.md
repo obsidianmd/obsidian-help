@@ -96,10 +96,39 @@ Nagrywanie kontynuuje się, jeśli zminimalizujesz Szybkie przechwytywanie lub z
 
 Aby zmienić ustawienia przechwytywania głosowego, dotknij ikony koła zębatego u góry ekranu podczas przechwytywania głosowego.
 
-- **Język**: Język używany do transkrypcji. Wybierz **Brak**, aby wyłączyć transkrypcję i nagrywać tylko dźwięk.
+- **Język**: Język używany do transkrypcji. Zobacz [[#Obsługiwane języki]]. Wybierz **Brak**, aby wyłączyć transkrypcję i nagrywać tylko dźwięk.
 - **Mikrofon**: Mikrofon używany do nagrywania, np. mikrofon wbudowany lub podłączony zestaw słuchawkowy.
 - **Zapisz plik audio**: Czy zapisywać nagranie w sejfie.
 - **Dźwięk z innych aplikacji**: Co dzieje się z muzyką lub innym dźwiękiem odtwarzanym podczas nagrywania: **Kontynuuj odtwarzanie**, **Zmniejsz głośność** lub **Wstrzymaj**. Zmiany obowiązują od następnego nagrania.
+
+#### Obsługiwane języki
+
+Przechwytywanie głosowe może transkrybować mowę w następujących językach. Niektóre urządzenia obsługują mniej języków, a dostępne języki mogą się zmieniać wraz z aktualizacjami iOS. Jeśli Twój język nie jest dostępny, nadal możesz nagrywać dźwięk bez transkrypcji.
+
+- bengalski
+- kantoński
+- chiński
+- angielski
+- francuski
+- niemiecki
+- gudżarati
+- hindi
+- włoski
+- japoński
+- kannada
+- kaszmirski
+- koreański
+- maithili
+- malajalam
+- marathi
+- nepalski
+- orija
+- portugalski
+- pendżabski
+- hiszpański
+- tamilski
+- telugu
+- urdu
 
 ### Lokalizacje przechwytywania
 

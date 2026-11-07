@@ -98,10 +98,39 @@ La registrazione continua se riduci a icona Cattura rapida o blocchi il disposit
 
 Per modificare le impostazioni di Cattura vocale, tocca l'icona dell'ingranaggio nella parte superiore dello schermo mentre sei in Cattura vocale.
 
-- **Lingua**: La lingua utilizzata per la trascrizione. Seleziona **Nessuna** per disattivare la trascrizione e registrare solo l'audio.
+- **Lingua**: La lingua utilizzata per la trascrizione. Vedi [[#Lingue supportate]]. Seleziona **Nessuna** per disattivare la trascrizione e registrare solo l'audio.
 - **Microfono**: Il microfono utilizzato per la registrazione, come il microfono integrato o un auricolare collegato.
 - **Salva file audio**: Se salvare la registrazione nel tuo vault.
 - **Audio da altre app**: Cosa succede alla musica o ad altro audio in riproduzione quando registri: **Continua la riproduzione**, **Abbassa il volume** o **Pausa**. Le modifiche si applicano dalla registrazione successiva.
+
+#### Lingue supportate
+
+Cattura vocale può trascrivere il parlato nelle seguenti lingue. Alcuni dispositivi supportano meno lingue e le lingue disponibili possono cambiare con gli aggiornamenti di iOS. Se la tua lingua non è disponibile, puoi comunque registrare audio senza trascrizione.
+
+- Bangla
+- Cantonese
+- Cinese
+- Inglese
+- Francese
+- Tedesco
+- Gujarati
+- Hindi
+- Italiano
+- Giapponese
+- Kannada
+- Kashmiri
+- Coreano
+- Maithili
+- Malayalam
+- Marathi
+- Nepalese
+- Odia
+- Portoghese
+- Punjabi
+- Spagnolo
+- Tamil
+- Telugu
+- Urdu
 
 ### Posizioni di cattura
 

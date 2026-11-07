@@ -96,10 +96,39 @@ A felvétel folytatódik, ha minimalizálja a Gyors rögzítést vagy zárolja a
 
 A Hangrögzítés beállításainak módosításához koppintson a fogaskerék ikonra a képernyő tetején, miközben a Hangrögzítésben van.
 
-- **Nyelv**: Az átíráshoz használt nyelv. Válassza a **Nincs** lehetőséget az átírás kikapcsolásához, ha csak hangfelvételt szeretne készíteni.
+- **Nyelv**: Az átíráshoz használt nyelv. Lásd: [[#Támogatott nyelvek]]. Válassza a **Nincs** lehetőséget az átírás kikapcsolásához, ha csak hangfelvételt szeretne készíteni.
 - **Mikrofon**: A felvételhez használt mikrofon, például a beépített mikrofon vagy egy csatlakoztatott fejhallgató.
 - **Hangfájl mentése**: A felvétel mentése a széfbe.
 - **Más alkalmazások hangja**: Mi történjen a felvétel közben lejátszott zenével vagy egyéb hanggal: **Tovább játszik**, **Halkítás** vagy **Szüneteltetés**. A változások a következő felvételtől lépnek érvénybe.
+
+#### Támogatott nyelvek
+
+A Hangrögzítés a következő nyelveken képes a beszéd átírására. Egyes eszközök kevesebb nyelvet támogatnak, és az elérhető nyelvek az iOS frissítésekkel változhatnak. Ha az Ön nyelve nem érhető el, továbbra is rögzíthet hangfelvételt átirat nélkül.
+
+- Bangla
+- Gudzsaráti
+- Hindi
+- Japán
+- Kannada
+- Kasmíri
+- Kínai
+- Kantoni
+- Koreai
+- Maithili
+- Malajálam
+- Maráthi
+- Német
+- Nepáli
+- Odia
+- Olasz
+- Angol
+- Francia
+- Pandzsábi
+- Portugál
+- Spanyol
+- Tamil
+- Telugu
+- Urdu
 
 ### Rögzítési helyek
 

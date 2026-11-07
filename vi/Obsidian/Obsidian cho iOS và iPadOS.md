@@ -96,10 +96,39 @@ Việc ghi âm tiếp tục nếu bạn thu nhỏ Ghi nhanh hoặc khóa thiết
 
 Để thay đổi cài đặt Ghi âm giọng nói, nhấn biểu tượng bánh răng ở đầu màn hình khi đang trong Ghi âm giọng nói.
 
-- **Ngôn ngữ**: Ngôn ngữ được sử dụng để chuyển ngữ. Chọn **Không** để tắt chuyển ngữ và chỉ ghi âm.
+- **Ngôn ngữ**: Ngôn ngữ được sử dụng để chuyển ngữ. Xem [[#Các ngôn ngữ được hỗ trợ]]. Chọn **Không** để tắt chuyển ngữ và chỉ ghi âm.
 - **Micro**: Micro được sử dụng để ghi âm, chẳng hạn như micro tích hợp hoặc tai nghe được kết nối.
 - **Lưu tệp âm thanh**: Liệu có lưu bản ghi âm vào kho của bạn hay không.
 - **Âm thanh từ ứng dụng khác**: Điều gì xảy ra với nhạc hoặc âm thanh khác đang phát khi bạn ghi âm: **Tiếp tục phát**, **Giảm âm lượng**, hoặc **Tạm dừng**. Các thay đổi áp dụng từ lần ghi âm tiếp theo.
+
+#### Các ngôn ngữ được hỗ trợ
+
+Ghi âm giọng nói có thể chuyển ngữ giọng nói trong các ngôn ngữ sau. Một số thiết bị hỗ trợ ít ngôn ngữ hơn, và các ngôn ngữ có sẵn có thể thay đổi theo bản cập nhật iOS. Nếu ngôn ngữ của bạn không có sẵn, bạn vẫn có thể ghi âm mà không có bản chuyển ngữ.
+
+- Tiếng Bangla
+- Tiếng Quảng Đông
+- Tiếng Trung
+- Tiếng Anh
+- Tiếng Pháp
+- Tiếng Đức
+- Tiếng Gujarat
+- Tiếng Hindi
+- Tiếng Ý
+- Tiếng Nhật
+- Tiếng Kannada
+- Tiếng Kashmir
+- Tiếng Hàn
+- Tiếng Maithili
+- Tiếng Malayalam
+- Tiếng Marathi
+- Tiếng Nepal
+- Tiếng Odia
+- Tiếng Bồ Đào Nha
+- Tiếng Punjab
+- Tiếng Tây Ban Nha
+- Tiếng Tamil
+- Tiếng Telugu
+- Tiếng Urdu
 
 ### Vị trí ghi nhanh
 
