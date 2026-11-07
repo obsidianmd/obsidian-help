@@ -30,7 +30,7 @@ To link to a note in a folder, include the folder path before the note name. Fol
 If the link points to a note that doesn't exist yet, Obsidian creates the note at that folder path instead of using your [[Settings#Default location for new notes|default location for new notes]].
 
 > [!note] Note
-> When using the Markdown format, make sure to [URL encode](https://en.wikipedia.org/wiki/Percent-encoding) the link destination. For example, blank spaces become `%20`.
+> When using the Markdown format, encode spaces in the link destination as `%20` and `%` as `%25`. Don't encode other characters, such as `&` or `+`. Obsidian doesn't decode them, so the link won't find the note. If the destination has an unmatched `(` or `)`, put it in angle brackets instead, for example `[x](<x(y.md>)`.
 
 By default, due to its more compact format, Obsidian generates links using the Wikilink format. If interoperability is important to you, you can disable Wikilinks and use Markdown links instead.
 
