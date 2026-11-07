@@ -133,7 +133,7 @@ You can also search for blocks to link to from across your vault using the `[[^
 > [!info]- Screenshot of searching for a block link 
 > ![[link-block-heading.png#interface]]
 
-You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
+You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of the letters A-Z and a-z, the digits 0-9, and dashes. Accented letters such as `é`, non-Latin letters such as `я` or `中`, and underscores aren't allowed.
 
 For example, add `^quote-of-the-day` at the end of a block:
 
