@@ -100,10 +100,39 @@ Recording continues if you minimize Quick Capture or lock your device. While rec
 
 To change Voice Capture settings, tap the gear icon at the top of the screen while in Voice Capture.
 
-- **Language**: The language used for transcription. Select **None** to turn off transcription and record audio only.
+- **Language**: The language used for transcription. See [[#Supported languages]]. Select **None** to turn off transcription and record audio only.
 - **Microphone**: The microphone used for recording, such as the built-in microphone or a connected headset.
 - **Save Audio File**: Whether to save the recording to your vault.
 - **Audio from Other Apps**: What happens to music or other audio that's playing when you record: **Keep Playing**, **Lower Volume**, or **Pause**. Changes apply from your next recording.
+
+#### Supported languages
+
+Voice Capture can transcribe speech in the following languages. Some devices support fewer languages, and available languages may change with iOS updates. If your language isn't available, you can still record audio without a transcript.
+
+- Bangla
+- Cantonese
+- Chinese
+- English
+- French
+- German
+- Gujarati
+- Hindi
+- Italian
+- Japanese
+- Kannada
+- Kashmiri
+- Korean
+- Maithili
+- Malayalam
+- Marathi
+- Nepali
+- Odia
+- Portuguese
+- Punjabi
+- Spanish
+- Tamil
+- Telugu
+- Urdu
 
 ### Capture locations
 
