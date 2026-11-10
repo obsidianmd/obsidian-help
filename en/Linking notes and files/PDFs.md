@@ -11,7 +11,7 @@ publish: true
 Obsidian opens PDF files in a built-in viewer. You can also embed a PDF in a note, link to a passage in it, and export any note as a PDF. For the file types Obsidian supports, see [[Accepted file formats]].
 
 > [!info]+ Some features are desktop only
-> The Obsidian app on mobile can't search inside a PDF, copy a quote or a link to a selection, or export a note to PDF.
+> The Obsidian app on mobile can't search inside a PDF, copy a quote or a link to a selection.
 
 ## Open a PDF
 
@@ -98,7 +98,7 @@ To show a PDF inside a note, see how to [[Embed files#Embed a PDF in a note|embe
 
 ## Export a note to PDF
 
-You can export any note as a PDF on desktop. Exporting to PDF is not available in the Obsidian app on mobile.
+You can export any note as a PDF on desktop and mobile (mobile export added in v1.15). Some export settings may differ between desktop and mobile.
 
 1. Open the note you want to export.
 2. Open the [[Command palette]] and select **Export to PDF...**. You can also select **More options** ![[lucide-more-horizontal.svg#icon]] in the note, and then select **Export to PDF...**.
