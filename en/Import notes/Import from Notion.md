@@ -70,7 +70,8 @@ Due to Notion API rate limits, importing large workspaces may take considerable 
 
 Due to limitations in the Notion API some data is not available or cannot converted:
 
-- Only the primary view for each database is imported.
+- Database views other than boards are not imported, and boards don't keep their filters, sorts, or sub-groups.
+- On a board grouped by a multi-select, person, or relation property, a card with several values goes in a single column for that combination of values.
 - [Linked data sources](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) are not imported: *"Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!"*
 - `People` functions: `name()` and `email()`
 - `Text` functions: `style()` and `unstyle()`
@@ -78,7 +79,7 @@ Due to limitations in the Notion API some data is not available or cannot conver
 Additionally, Importer will make the following changes:
 
 - Pages without child pages or databases will be imported as `[filename].md` instead of `[filename]/[filename].md`.
-- Databases are always represented as folders named `[database name]` with a `[database name].base` file inside.
+- Databases are always represented as folders named `[database name]` with a `[database name].base` file inside. The base has a table view with every property and, in Obsidian 1.14 and later, a [[Kanban view]] for each Notion board, grouped by the same property.
 
 ## Import Notion files (.zip)
 
