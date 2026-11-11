@@ -19,3 +19,9 @@ Az [[Importáló]] egy hivatalos [[Közösségi bővítmények|közösségi bőv
 ![[Jegyzetek importálása#Importálás más alkalmazásokból és fájlformátumokból]]
 
 ![[Jegyzetek importálása#További formátumok]]
+
+## Importáló sablonok
+
+Az Importáló lehetővé teszi [[Importáló sablonok|sablonok]] definiálását, amelyek szabályozzák, hogyan importálódnak a jegyzeteid más alkalmazásokból. Ez azt jelenti, hogy módosíthatod az importált jegyzetek címét, tulajdonságait és tartalmát.
+
+A sablonok változókat, valamint ugyanazokat a [[Obsidian Web Clipper/Szűrők|szűrőket]] és [[Obsidian Web Clipper/Logika|sablon logikát]] támogatják, mint az [[Bevezetés az Obsidian Web Clipper használatába|Web Clipper]].

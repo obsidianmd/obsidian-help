@@ -19,3 +19,9 @@ Importer to oficjalna [[Wtyczki społeczności|wtyczka społeczności]] stworzon
 ![[Importuj notatki#Importuj z innych aplikacji i formatów plików]]
 
 ![[Importuj notatki#Więcej formatów]]
+
+## Szablony Importera
+
+Importer pozwala definiować [[Szablony importera|szablony]], które kontrolują sposób importowania notatek z innych aplikacji. Oznacza to, że możesz modyfikować tytuł, atrybuty i zawartość importowanych notatek.
+
+Szablony obsługują zmienne oraz te same [[Obsidian Web Clipper/Filtry|filtry]] i [[Obsidian Web Clipper/Logika|logikę szablonów]], co [[Wprowadzenie do Obsidian Web Clipper|Web Clipper]].

@@ -19,3 +19,9 @@ description: Importér vám pomůže s migrací do Obsidianu z různých aplikac
 ![[Importovat poznámky#Import z jiných aplikací a formátů souborů]]
 
 ![[Importovat poznámky#Další formáty]]
+
+## Šablony Importéru
+
+Importér umožňuje definovat [[Šablony Importéru|šablony]], které řídí způsob importu poznámek z jiných aplikací. To znamená, že můžete upravit název, vlastnosti a obsah poznámek, které importujete.
+
+Šablony podporují proměnné a stejné [[Obsidian Web Clipper/Filtry|filtry]] a [[Obsidian Web Clipper/Logika|logiku šablon]] jako [[Úvod do Obsidian Web Clipper|Web Clipper]].

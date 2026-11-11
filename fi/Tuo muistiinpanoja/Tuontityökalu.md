@@ -19,3 +19,9 @@ Tuontityökalu on Obsidian-tiimin tekemä virallinen [[Yhteisön lisäosat|yhtei
 ![[Tuo muistiinpanoja#Tuonti muista sovelluksista ja tiedostomuodoista]]
 
 ![[Tuo muistiinpanoja#Lisää tiedostomuotoja]]
+
+## Tuontityökalun pohjat
+
+Tuontityökalussa voit määritellä [[Tuontimallineet|pohjia]], jotka ohjaavat muistiinpanojen tuontia muista sovelluksista. Tämän avulla voit muokata tuotavien muistiinpanojen otsikkoa, määreitä ja sisältöä.
+
+Pohjat tukevat muuttujia sekä samoja [[Obsidian Web Clipper/Suodattimet|suodattimia]] ja [[Obsidian Web Clipper/Logiikka|pohjalogiikkaa]] kuin [[Johdanto Obsidian Web Clipperiin|Web Clipper]].
