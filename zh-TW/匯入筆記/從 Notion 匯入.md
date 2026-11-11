@@ -10,6 +10,10 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 1. **Notion 帳戶（推薦）** 直接連接到你的工作區，讓你保留資料庫和公式，這些會被轉換為 [[資料庫介紹|資料庫]]。需要 Notion 整合權杖和網路連線。
 2. **檔案匯入** 使用 Notion 的 `.zip` 匯出檔案。不會保留資料庫，但不需要 API 權杖或網路連線。
 
+## 自訂匯入的頁面
+
+兩種匯入方式都會在匯入開始前顯示預覽。你可以編輯產生的範本，或從保管庫中選擇一個 Markdown 範本。封面和資料庫屬性名稱等設定會更新預覽中顯示的產生屬性。請參閱 [[匯入器模板]]。
+
 ## 從你的 Notion 帳戶匯入
 
 ### 建立 Notion API 存取權杖
@@ -54,8 +58,8 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 6. 在 **API token** 下，點擊 **Link...** 以新增一個密鑰。在 **ID** 中輸入名稱，例如 `notion`，在 **Secret** 中貼上你從 Notion 取得的 **Access token**。
 7. 點擊 **Load** 以選擇你想要匯入的資料庫和頁面。
 8. 檢視並編輯匯入選項。
-9. 選擇 **Import** 並等待匯入完成
-10. 大功告成！
+9. 選擇 **Import** 以檢視產生的範本和頁面的預覽範例。
+10. 再次選擇 **Import** 並等待匯入完成。
 
 ### 限制
 
@@ -66,7 +70,8 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 
 由於 Notion API 的限制，某些資料無法取得或無法轉換：
 
-- 每個資料庫僅匯入主要檢視。
+- 除了看板以外的資料庫檢視不會被匯入，且看板不會保留其篩選器、排序或子群組。
+- 在以多選、人員或關聯屬性分組的看板上，具有多個值的卡片會被放入該值組合的單一欄位中。
 - [連結資料來源](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases)不會被匯入：*「Notion 的 API 目前不支援連結資料來源。當與你的整合分享資料庫時，請確保它包含原始資料來源！」*
 - `People` 函式：`name()` 和 `email()`
 - `Text` 函式：`style()` 和 `unstyle()`
@@ -74,7 +79,7 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 此外，匯入工具會進行以下變更：
 
 - 沒有子頁面或資料庫的頁面將以 `[filename].md` 匯入，而非 `[filename]/[filename].md`。
-- 資料庫始終以名為 `[database name]` 的資料夾表示，內含一個 `[database name].base` 檔案。
+- 資料庫始終以名為 `[database name]` 的資料夾表示，內含一個 `[database name].base` 檔案。該 base 包含一個顯示所有屬性的表格檢視，以及在 Obsidian 1.14 及更新版本中，為每個 Notion 看板建立一個[[看板檢視|看板檢視]]，按相同屬性分組。
 
 ## 匯入 Notion 檔案 (.zip)
 
@@ -108,8 +113,8 @@ Obsidian 提供兩種匯入 Notion 資料的方式：
 6. 選擇包含你想要匯入的 Notion 檔案的 `.zip` 檔案。*建議一次匯入所有 Notion 資料，以便正確對應內部連結。*
 7. _可選_，選擇一個匯入用的資料夾。你的 Notion 頁面和資料庫將嵌套在此資料夾內。
 8. 啟用 **Save parent pages in subfolders** 以保留 Notion 結構。*請注意，在 Notion 中你可以在資料夾中撰寫內容，這在 Obsidian 中無法實現，這些頁面將作為資料夾下的子頁面新增。*
-9. 選擇 **Import** 並等待匯入完成
-10. 大功告成！
+9. 選擇 **Import** 以檢視產生的範本和頁面的預覽範例。
+10. 再次選擇 **Import** 並等待匯入完成。
 
 ### 疑難排解
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 如果你看到此錯誤，可以先解壓縮從 Notion 取得的檔案，然後匯入巢狀的 `Export-{id}-Part-1.zip` 檔案。
+
+## 範本
+
+使用 [[匯入器模板|匯入工具範本]] 來完整設定你的 Notion 資料匯入方式。
+
+![[匯入器模板#Variables]]

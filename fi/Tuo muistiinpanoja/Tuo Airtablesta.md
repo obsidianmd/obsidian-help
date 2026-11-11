@@ -36,23 +36,25 @@ Tarvitset virallisen Obsidianin [[Tuontityökalu]]-lisäosan, jonka voit [asenta
 7. Napsauta **Lataa** selataksesi tietokantojasi ja valitse taulukot, jotka haluat tuoda.
 8. Tarkista ja muokkaa tuontiasetuksia.
 9. Valitse **Import** määrittääksesi, miten kenttäsi muunnetaan muistiinpanoiksi [[Määreet|määreineen]].
-10. Napsauta **Jatka** ja odota, kunnes tuonti on valmis.
-11. Valmis!
+10. Valitse **Jatka** tarkastellaksesi luotua mallinetta ja esikatselun esimerkkejä tietueistasi.
+11. Valitse **Import** ja odota, kunnes tuonti on valmis.
 
-### Tuontiasetukset
+## Tuontiasetukset
 
 - **Convert formulas** — valitse, muunnetaanko kaava-, haku-, rollup- ja laskurikentät [[Kaavat|kantojen kaavoiksi]] (käyttäen Airtablen laskemaa arvoa varavaihtoehtona, kun vastaavaa ei ole), vai tuodaanko ne pelkästään staattisina arvoina.
 - **Lataa liitteet** — tallentaa liitetiedostot holviisi käyttäen liitekansio- ja linkkimuotoasetuksiasi. Kun tämä on pois käytöstä tai lataus epäonnistuu, muistiinpano linkittää tiedoston URL-osoitteeseen Airtablessa.
-- **View property name** — määre, johon tallennetaan, mihin Airtable-näkymiin tietue kuuluu. Jokainen luodun kannan näkymä suodattaa tämän määreen perusteella. Oletusarvo on `base`.
-- **Incremental import** — lisää jokaiseen muistiinpanoon `airtable-id`-määreen, jotta myöhempi tuonti voi ohittaa jo tuodut tietueet. Täydessä tuonnissa tämä määre poistetaan.
+- **View property name** — määre, johon tallennetaan, mihin Airtable-näkymiin tietue kuuluu. Jokainen luodun kannan näkymä suodattaa tämän määreen perusteella. Oletusarvo on `Views`.
+- **Save Airtable record ID** — lisää `airtable-id`-määreen, jotta tulevat tuonnit voivat tunnistaa tietueet, vaikka niiden muistiinpanoja olisi siirretty tai nimetty uudelleen.
 
 ## Määritä, miten Airtable-kentät tuodaan
 
-Tuonnin toisessa vaiheessa voit valita, miten kukin kenttä tuodaan.
+Kenttien määritysvaiheessa voit valita, miten kukin kenttä tuodaan.
 
-Jokaiselle taulukkojesi kentälle annetaan muuttuja nimeltä `{{field_name}}`. Oletuksena jokainen kenttä muuttuu määreeksi, ja näiden muuttujien avulla voit nimetä määreitä uudelleen, muuttaa niiden arvoja tai kirjoittaa sisältöä kunkin muistiinpanon leipätekstiin.
+Oletuksena jokainen Airtable-kenttä muuttuu määreeksi. Voit nimetä määreitä uudelleen, poistaa niitä ja muuttaa niiden arvoja ennen kuin jatkat mallineen esikatseluun.
 
-Jokaisen taulukon ensisijaista kenttää käytetään aina muistiinpanon otsikkona, ja tietueet sijoitetaan aina taulukon mukaan nimettyyn kansioon, joten nämä asetukset eivät ole muokattavissa.
+Jokaisen taulukon ensisijaista kenttää käytetään muistiinpanon oletusotsikkona. Voit muokata muistiinpanon nimimallinetta esikatseluvaiheessa. Tietueet sijoitetaan aina taulukon mukaan nimettyyn kansioon.
+
+Katso [[Tuontityökalun mallineet]] mukauttaaksesi luotua Markdownia.
 
 ## Mitä tuodaan
 
@@ -72,15 +74,13 @@ Airtable/
 	- **Grid** muuttuu [[Taulukkonäkymä|taulukkonäkymäksi]].
 	- **Gallery** muuttuu [[Korttinäkymä|korttinäkymäksi]].
 	- **List** muuttuu [[Luettelonäkymä|luettelonäkymäksi]].
-	- Kaikki muut näkymätyypit muunnetaan taulukkonäkymäksi.
+	- **Kanban** muuttuu [[Kanban-näkymä|kanban-näkymäksi]] Obsidian 1.14:ssä ja myöhemmissä versioissa. Airtable ei kerro, minkä kentän mukaan kanban on ryhmitelty, joten [[Kanban-näkymä#Ryhmittele kortit sarakkeisiin|valitse ryhmittelymääre]] tuonnin jälkeen. Uusi tuonti säilyttää valintasi.
 - Airtable-kenttätyypit yhdistetään Obsidianin määretyyppeihin korvaamatta jo asettamiasi tyyppejä.
 - Linkitetyt tietueet muuttuvat linkeiksi vastaaviin muistiinpanoihin.
 - Liitteet ladataan holviisi holvisi asetusten mukaisesti.
 
-## Rajoitukset
 
-> [!info] Airtable-tuonti on uusi
-> Airtable-tuontityökalu on uusi. Jos kohtaat ongelmia muunnossa, [lähetä vikailmoitus](https://github.com/obsidianmd/obsidian-importer/issues), jotta voimme parantaa sitä.
+## Rajoitukset
 
 Airtable API:n nopeusrajoitusten vuoksi suurten tietokantojen tuonti voi kestää huomattavan kauan. Ole kärsivällinen.
 
@@ -88,6 +88,10 @@ Airtable API:n rajoitusten vuoksi kaikkia tietoja ei ole saatavilla tai niitä e
 
 - Rollup-arvoja ei tuoda. API ei paljasta rollup-kentän lasketun arvon koostamismenetelmää, joten vain määreen nimi kirjoitetaan yhdessä kannan kaavan kanssa, kun kentän skeema paljastaa lausekkeen.
 - Kaavat, jotka käyttävät funktioita joille Obsidianissa ei ole vastinetta, kuten `SWITCH`, `FIND`, `REGEX_EXTRACT` ja `SQRT`, palaavat käyttämään Airtablen staattista arvoa.
-- Vain grid-, gallery- ja list-näkymät tuodaan. Muut näkymätyypit, kuten kalenteri, kanban, aikajana ja Gantt, ohitetaan.
+- Vain grid-, gallery-, list- ja kanban-näkymät tuodaan. Muut näkymätyypit, kuten kalenteri, aikajana ja Gantt, ohitetaan.
 - Linkit tietueisiin taulukoissa, joita et valinnut, muuttuvat tietueen pelkäksi otsikoksi linkin sijaan.
 - Käyttöliittymäsuunnitteluja, automaatioita, kommentteja ja versiohistoriaa ei tuoda.
+
+## Vianetsintä
+
+Jos kohtaat ongelmia muunnossa, [lähetä vikailmoitus](https://github.com/obsidianmd/obsidian-importer/issues), jotta voimme parantaa sitä.

@@ -10,6 +10,10 @@ Obsidian oferuje dwa sposoby importowania danych z Notion:
 1. **Konto Notion (zalecane)** łączy się bezpośrednio z Twoją przestrzenią roboczą i pozwala zachować bazy danych i formuły, które są konwertowane na [[Wprowadzenie do baz danych|bazy danych]]. Wymaga tokenu integracji Notion i połączenia z internetem.
 2. **Import plików** wykorzystuje pliki eksportu `.zip` z Notion. Nie zachowuje baz danych, ale nie wymaga tokenu API ani połączenia z internetem.
 
+## Dostosowywanie importowanych stron
+
+Obie metody importu wyświetlają podgląd przed rozpoczęciem importu. Możesz edytować wygenerowany szablon lub wybrać szablon Markdown z sejfu. Ustawienia takie jak okładka i nazwy atrybutów bazy danych aktualizują wygenerowane atrybuty widoczne w podglądzie. Zobacz [[Szablony importera]].
+
 ## Import z konta Notion
 
 ### Tworzenie tokenu dostępu Notion API
@@ -54,8 +58,8 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 6. W polu **API token** kliknij **Połącz...**, aby dodać nowy sekret. W polu **ID** nadaj mu nazwę, np. `notion`, a w polu **Sekret** wklej swój **Access token** z Notion.
 7. Kliknij **Wczytaj**, aby wybrać bazy danych i strony do zaimportowania.
 8. Przejrzyj i dostosuj opcje importu.
-9. Wybierz **Importuj** i poczekaj na zakończenie importu
-10. Gotowe!
+9. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z Twoich stron.
+10. Wybierz **Importuj** ponownie i poczekaj na zakończenie importu.
 
 ### Ograniczenia
 
@@ -66,7 +70,8 @@ Ze względu na limity szybkości API Notion importowanie dużych obszarów roboc
 
 Ze względu na ograniczenia API Notion niektóre dane nie są dostępne lub nie mogą zostać przekonwertowane:
 
-- Importowany jest tylko główny widok każdej bazy danych.
+- Widoki baz danych inne niż tablice kanban nie są importowane, a tablice kanban nie zachowują swoich filtrów, sortowania ani podgrup.
+- Na tablicy kanban pogrupowanej według atrybutu wielokrotnego wyboru, osoby lub relacji, karta z kilkoma wartościami trafia do jednej kolumny odpowiadającej tej kombinacji wartości.
 - [Połączone źródła danych](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) nie są importowane: *„API Notion nie obsługuje obecnie połączonych źródeł danych. Udostępniając bazę danych swojej integracji, upewnij się, że zawiera oryginalne źródło danych!"*
 - Funkcje `People`: `name()` i `email()`
 - Funkcje `Text`: `style()` i `unstyle()`
@@ -74,7 +79,7 @@ Ze względu na ograniczenia API Notion niektóre dane nie są dostępne lub nie 
 Dodatkowo Importer wprowadzi następujące zmiany:
 
 - Strony bez podstron ani baz danych zostaną zaimportowane jako `[nazwa_pliku].md` zamiast `[nazwa_pliku]/[nazwa_pliku].md`.
-- Bazy danych są zawsze reprezentowane jako foldery o nazwie `[nazwa bazy danych]` z plikiem `[nazwa bazy danych].base` wewnątrz.
+- Bazy danych są zawsze reprezentowane jako foldery o nazwie `[nazwa bazy danych]` z plikiem `[nazwa bazy danych].base` wewnątrz. Baza zawiera widok tabeli ze wszystkimi atrybutami oraz, w Obsidian 1.14 i nowszych, [[Podgląd Kanban|widok Kanban]] dla każdej tablicy Notion, pogrupowany według tego samego atrybutu.
 
 ## Import plików Notion (.zip)
 
@@ -108,8 +113,8 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 6. Wybierz plik `.zip` z danymi Notion, które chcesz zaimportować. *Zalecamy importowanie całej zawartości Notion naraz, aby łącza wewnętrzne mogły zostać prawidłowo odwzorowane.*
 7. _Opcjonalnie_ wybierz folder docelowy importu. Strony i bazy danych Notion zostaną zagnieżdżone wewnątrz tego folderu.
 8. Włącz **Save parent pages in subfolders**, aby zachować strukturę Notion. *Uwaga: w Notion można pisać treści w folderach — nie jest to możliwe w Obsidian, dlatego takie strony zostaną dodane jako podstrony w folderze.*
-9. Wybierz **Importuj** i poczekaj na zakończenie importu
-10. Gotowe!
+9. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z Twoich stron.
+10. Wybierz **Importuj** ponownie i poczekaj na zakończenie importu.
 
 ### Rozwiązywanie problemów
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Jeśli zobaczysz ten błąd, rozpakuj plik z Notion, a następnie zaimportuj zagnieżdżone pliki `Export-{id}-Part-1.zip`.
+
+## Szablony
+
+Użyj [[Szablony importera|szablonów Importer]], aby w pełni skonfigurować sposób importowania danych z Notion.
+
+![[Szablony importera#Variables]]

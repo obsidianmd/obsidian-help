@@ -70,7 +70,8 @@ Karena batas kecepatan API Notion, mengimpor ruang kerja besar mungkin memerluka
 
 Karena keterbatasan dalam API Notion, beberapa data tidak tersedia atau tidak dapat dikonversi:
 
-- Hanya tampilan utama untuk setiap database yang diimpor.
+- Tampilan database selain board tidak diimpor, dan board tidak mempertahankan filter, pengurutan, atau sub-grupnya.
+- Pada board yang dikelompokkan berdasarkan properti multi-select, person, atau relation, kartu dengan beberapa nilai ditempatkan dalam satu kolom untuk kombinasi nilai tersebut.
 - [Sumber data terhubung](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) tidak diimpor: *"API Notion saat ini tidak mendukung sumber data terhubung. Saat membagikan database dengan integrasi Anda, pastikan database tersebut berisi sumber data asli!"*
 - Fungsi `People`: `name()` dan `email()`
 - Fungsi `Text`: `style()` dan `unstyle()`
@@ -78,7 +79,7 @@ Karena keterbatasan dalam API Notion, beberapa data tidak tersedia atau tidak da
 Selain itu, Importer akan melakukan perubahan berikut:
 
 - Halaman tanpa subhalaman atau database akan diimpor sebagai `[namafile].md` alih-alih `[namafile]/[namafile].md`.
-- Database selalu direpresentasikan sebagai folder bernama `[nama database]` dengan file `[nama database].base` di dalamnya.
+- Database selalu direpresentasikan sebagai folder bernama `[nama database]` dengan file `[nama database].base` di dalamnya. Basis tersebut memiliki tampilan tabel dengan setiap properti dan, di Obsidian 1.14 dan yang lebih baru, [[Tampilan Kanban]] untuk setiap board Notion, yang dikelompokkan berdasarkan properti yang sama.
 
 ## Impor file Notion (.zip)
 

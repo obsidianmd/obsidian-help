@@ -36,23 +36,25 @@ Du benötigst das offizielle Obsidian [[Importprogramm]]-Plugin, das du [hier in
 7. Klicke auf **Laden**, um deine Basen zu durchsuchen, und wähle dann die Tabellen aus, die du importieren möchtest.
 8. Überprüfe und bearbeite die Importoptionen.
 9. Wähle **Import**, um zu konfigurieren, wie deine Felder in Notizen mit [[Eigenschaften]] konvertiert werden.
-10. Klicke auf **Fortsetzen** und warte, bis der Import abgeschlossen ist.
-11. Fertig!
+10. Wähle **Fortsetzen**, um die generierte Vorlage zu überprüfen und Beispiele aus deinen Datensätzen in der Vorschau anzuzeigen.
+11. Wähle **Import** und warte, bis der Import abgeschlossen ist.
 
-### Importoptionen
+## Importoptionen
 
 - **Formeln konvertieren** – wähle, ob Formel-, Lookup-, Rollup- und Count-Felder als [[Formeln|Bases-Formeln]] umgeschrieben werden (wobei auf den von Airtable berechneten Wert zurückgegriffen wird, wenn es kein Äquivalent gibt) oder ob sie nur als statische Werte importiert werden.
 - **Anhänge herunterladen** – speichert Anhangsdateien in deinen Vault, unter Verwendung deiner Anhangsordner- und Linkformat-Einstellungen. Wenn deaktiviert oder wenn ein Download fehlschlägt, verlinkt die Notiz stattdessen auf die Datei-URL bei Airtable.
-- **Ansichts-Eigenschaftsname** – die Eigenschaft, die festhält, zu welchen Airtable-Ansichten ein Datensatz gehört. Jede Ansicht in der generierten Basis filtert nach dieser Eigenschaft. Standard ist `base`.
-- **Inkrementeller Import** – fügt jeder Notiz eine `airtable-id`-Eigenschaft hinzu, sodass ein späterer Import bereits importierte Datensätze überspringen kann. Bei einem vollständigen Import wird diese Eigenschaft wieder entfernt.
+- **Ansichts-Eigenschaftsname** – die Eigenschaft, die festhält, zu welchen Airtable-Ansichten ein Datensatz gehört. Jede Ansicht in der generierten Basis filtert nach dieser Eigenschaft. Standard ist `Views`.
+- **Airtable-Datensatz-ID speichern** – fügt eine `airtable-id`-Eigenschaft hinzu, sodass zukünftige Importe Datensätze wiedererkennen können, nachdem deren Notizen verschoben oder umbenannt wurden.
 
 ## Konfigurieren, wie Airtable-Felder importiert werden
 
-Im zweiten Schritt des Imports kannst du auswählen, wie jedes Feld importiert wird.
+Im Schritt zur Feldkonfiguration kannst du auswählen, wie jedes Feld importiert wird.
 
-Jedem Feld in deinen Tabellen wird eine Variable namens `{{field_name}}` zugewiesen. Standardmäßig wird jedes Feld zu einer Eigenschaft, und du kannst diese Variablen verwenden, um Eigenschaften umzubenennen, ihre Werte zu ändern oder Inhalte in den Textkörper jeder Notiz zu schreiben.
+Standardmäßig wird jedes Airtable-Feld zu einer Eigenschaft. Du kannst Eigenschaften umbenennen oder entfernen und ihre Werte ändern, bevor du zur Vorlagenvorschau weitergehst.
 
-Das Primärfeld jeder Tabelle wird immer als Notiztitel verwendet, und Datensätze werden immer in einem Ordner abgelegt, der nach ihrer Tabelle benannt ist – diese Optionen sind daher nicht konfigurierbar.
+Das Primärfeld jeder Tabelle liefert den Standard-Notiznamen. Du kannst die Notiznamen-Vorlage im Vorschau-Schritt bearbeiten. Datensätze werden immer in einem Ordner abgelegt, der nach ihrer Tabelle benannt ist.
+
+Siehe [[Importprogramm-Vorlagen]], um das generierte Markdown anzupassen.
 
 ## Was importiert wird
 
@@ -72,15 +74,13 @@ Airtable/
 	- **Grid** wird zu einer [[Tabelle|Tabellenansicht]].
 	- **Gallery** wird zur [[Galerie]].
 	- **List** wird zur [[Liste|Listenansicht]].
-	- Alle anderen Ansichtstypen werden in eine Tabellenansicht konvertiert.
+	- **Kanban** wird in Obsidian 1.14 und neuer zu einer [[Kanban-Ansicht]]. Airtable gibt nicht an, nach welchem Feld ein Kanban gruppiert ist, daher musst du nach dem Import [[Kanban-Ansicht#Karten in Spalten gruppieren|eine Eigenschaft zum Gruppieren auswählen]]. Ein erneuter Import behält deine Auswahl bei.
 - Airtable-Feldtypen werden Obsidian-Eigenschaftentypen zugeordnet, ohne bereits von dir festgelegte Typen zu überschreiben.
 - Verknüpfte Datensätze werden zu Links auf die entsprechenden Notizen.
 - Anhänge werden gemäß deinen Vault-Einstellungen in deinen Vault heruntergeladen.
 
-## Einschränkungen
 
-> [!info] Airtable-Import ist neu
-> Das Airtable-Importprogramm ist neu. Wenn du Probleme bei der Konvertierung feststellst, [reiche einen Fehlerbericht ein](https://github.com/obsidianmd/obsidian-importer/issues), damit wir es verbessern können.
+## Einschränkungen
 
 Aufgrund der Airtable-API-Ratenlimits kann der Import großer Basen erhebliche Zeit in Anspruch nehmen. Bitte habe Geduld.
 
@@ -88,6 +88,10 @@ Aufgrund von Einschränkungen in der Airtable-API sind einige Daten nicht verfü
 
 - Rollup-Werte werden nicht importiert. Die API gibt die für den berechneten Wert eines Rollups verwendete Aggregation nicht preis, daher wird nur der Eigenschaftsname geschrieben, zusammen mit einer Bases-Formel, sofern das Feldschema einen Ausdruck bereitstellt.
 - Formeln, die Funktionen verwenden, für die Obsidian kein Äquivalent hat – wie `SWITCH`, `FIND`, `REGEX_EXTRACT` und `SQRT` – greifen auf den statischen Wert von Airtable zurück.
-- Nur Grid-, Gallery- und List-Ansichten werden importiert. Andere Ansichtstypen wie Kalender, Kanban, Timeline und Gantt werden ignoriert.
+- Nur Grid-, Gallery-, List- und Kanban-Ansichten werden importiert. Andere Ansichtstypen wie Kalender, Timeline und Gantt werden ignoriert.
 - Links zu Datensätzen in Tabellen, die du nicht ausgewählt hast, werden zum reinen Titel des Datensatzes anstelle eines Links.
 - Interface-Designs, Automatisierungen, Kommentare und die Versionsgeschichte werden nicht importiert.
+
+## Fehlerbehebung
+
+Wenn du Probleme bei der Konvertierung feststellst, [reiche einen Fehlerbericht ein](https://github.com/obsidianmd/obsidian-importer/issues), damit wir es verbessern können.

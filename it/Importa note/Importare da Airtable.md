@@ -36,23 +36,25 @@ Airtable mostra il token una sola volta. Se lo si perde, crearne uno nuovo.
 7. Fare clic su **Carica** per sfogliare le basi, quindi selezionare le tabelle che si desidera importare.
 8. Rivedere e modificare le opzioni di importazione.
 9. Selezionare **Importa** per configurare come i campi verranno convertiti in note con [[Proprietà|proprietà]].
-10. Fare clic su **Continua** e attendere il completamento dell'importazione.
-11. Fatto!
+10. Selezionare **Continua** per rivedere il modello generato e visualizzare esempi di anteprima dai record.
+11. Selezionare **Importa** e attendere il completamento dell'importazione.
 
-### Opzioni di importazione
+## Opzioni di importazione
 
 - **Converti formule** — scegliere se i campi formula, lookup, rollup e conteggio vengono riscritti come [[Formule|formule Base]], ricadendo sul valore calcolato da Airtable quando non esiste un equivalente, oppure importati solo come valori statici.
 - **Scarica allegati** — salvare i file allegati nel vault, utilizzando le impostazioni della cartella allegati e del formato dei collegamenti. Quando disabilitato, o quando un download non riesce, la nota collega all'URL del file su Airtable.
-- **Nome proprietà vista** — la proprietà che registra a quali viste Airtable appartiene un record. Ogni vista nella Base generata filtra su questa proprietà. Il valore predefinito è `base`.
-- **Importazione incrementale** — aggiunge una proprietà `airtable-id` a ogni nota in modo che un'importazione successiva possa saltare i record già importati. In un'importazione completa questa proprietà viene nuovamente rimossa.
+- **Nome proprietà vista** — la proprietà che registra a quali viste Airtable appartiene un record. Ogni vista nella Base generata filtra su questa proprietà. Il valore predefinito è `Views`.
+- **Salva ID record Airtable** — aggiunge una proprietà `airtable-id` in modo che le importazioni future possano riconoscere i record dopo che le note sono state spostate o rinominate.
 
 ## Configurare come vengono importati i campi Airtable
 
-Nel secondo passaggio dell'importazione, è possibile scegliere come ogni campo viene importato.
+Nel passaggio di configurazione dei campi, è possibile scegliere come ogni campo viene importato.
 
-Ogni campo nelle tabelle è attribuito a una variabile chiamata `{{nome_campo}}`. Per impostazione predefinita ogni campo diventa una proprietà, ed è possibile utilizzare queste variabili per rinominare le proprietà, modificarne i valori o scrivere contenuto nel corpo di ogni nota.
+Per impostazione predefinita, ogni campo Airtable diventa una proprietà. È possibile rinominare o rimuovere le proprietà e modificarne i valori prima di procedere all'anteprima del modello.
 
-Il campo primario di ogni tabella viene sempre utilizzato come titolo della nota, e i record vengono sempre posizionati in una cartella con il nome della tabella, quindi queste opzioni non sono configurabili.
+Il campo primario di ogni tabella fornisce il nome predefinito della nota. È possibile modificare il modello del nome della nota dal passaggio di anteprima. I record vengono sempre posizionati in una cartella con il nome della tabella.
+
+Consultare [[Modelli importatore]] per personalizzare il Markdown generato.
 
 ## Cosa viene importato
 
@@ -72,15 +74,13 @@ Airtable/
 	- **Grid** diventa una [[Vista tabella]].
 	- **Gallery** diventa una [[Vista schede]].
 	- **List** diventa una [[Vista lista]].
-	- Tutti gli altri tipi di vista vengono convertiti in vista tabella.
+	- **Kanban** diventa una [[Vista kanban]] in Obsidian 1.14 e versioni successive. Airtable non indica in base a quale campo è raggruppato un kanban, quindi [[Vista kanban#Raggruppa le schede in colonne|scegliere una proprietà in base alla quale raggruppare]] dopo l'importazione. Importando nuovamente, la scelta viene mantenuta.
 - I tipi di campo Airtable vengono mappati ai tipi di proprietà di Obsidian, senza sovrascrivere i tipi già impostati.
 - I record collegati diventano collegamenti alle note corrispondenti.
 - Gli allegati vengono scaricati nel vault utilizzando le impostazioni del vault.
 
-## Limitazioni
 
-> [!info] L'importazione da Airtable è nuova
-> L'importatore Airtable è nuovo. In caso di problemi con la conversione, [inviare una segnalazione di bug](https://github.com/obsidianmd/obsidian-importer/issues) per permetterci di migliorarlo.
+## Limitazioni
 
 A causa dei limiti di frequenza dell'API di Airtable, l'importazione di basi grandi potrebbe richiedere un tempo considerevole. Si prega di essere pazienti.
 
@@ -88,6 +88,10 @@ A causa delle limitazioni nell'API di Airtable, alcuni dati non sono disponibili
 
 - I valori di rollup non vengono importati. L'API non espone l'aggregazione utilizzata per il valore calcolato di un rollup, quindi viene scritto solo il nome della proprietà, insieme a una formula Base dove lo schema del campo espone un'espressione.
 - Le formule che utilizzano funzioni per le quali Obsidian non ha un equivalente, come `SWITCH`, `FIND`, `REGEX_EXTRACT` e `SQRT`, ricadono sul valore statico di Airtable.
-- Vengono importate solo le viste grid, gallery e list. Gli altri tipi di vista, come calendario, kanban, timeline e Gantt, vengono ignorati.
+- Vengono importate solo le viste grid, gallery, list e kanban. Gli altri tipi di vista, come calendario, timeline e Gantt, vengono ignorati.
 - I collegamenti a record in tabelle non selezionate diventano il titolo semplice del record anziché un collegamento.
 - I design dell'interfaccia, le automazioni, i commenti e la cronologia delle revisioni non vengono importati.
+
+## Risoluzione dei problemi
+
+In caso di problemi con la conversione, [inviare una segnalazione di bug](https://github.com/obsidianmd/obsidian-importer/issues) per permetterci di migliorarlo.

@@ -36,23 +36,25 @@ Je hebt de officiële Obsidian [[Importeren|Importer]]-plug-in nodig, die je [hi
 7. Klik op **Laden** om je bases te bladeren en selecteer vervolgens de tabellen die je wilt importeren.
 8. Bekijk en bewerk de importopties.
 9. Selecteer **Importeren** om te configureren hoe je velden worden geconverteerd naar notities met [[Eigenschappen|eigenschappen]].
-10. Klik op **Doorgaan** en wacht tot het importeren is voltooid.
-11. Je bent klaar!
+10. Selecteer **Doorgaan** om het gegenereerde sjabloon te bekijken en voorbeelden van je records te bekijken.
+11. Selecteer **Importeren** en wacht tot het importeren is voltooid.
 
-### Importopties
+## Importopties
 
 - **Formules converteren** — kies of formule-, lookup-, rollup- en count-velden worden herschreven als [[Formules|Bases-formules]], terugvallend op de waarde die Airtable heeft berekend wanneer er geen equivalent is, of alleen als statische waarden worden geïmporteerd.
 - **Bijlagen downloaden** — sla bijlagebestanden op in je kluis, met gebruik van je instellingen voor bijlagenmap en koppelingsindeling. Wanneer dit is uitgeschakeld, of wanneer een download mislukt, linkt de notitie in plaats daarvan naar de URL van het bestand op Airtable.
-- **Weergave-eigenschapsnaam** — de eigenschap die registreert tot welke Airtable-weergaven een record behoort. Elke weergave in de gegenereerde basis filtert op deze eigenschap. Standaard `base`.
-- **Incrementeel importeren** — voegt een `airtable-id`-eigenschap toe aan elke notitie zodat een latere import records kan overslaan die al geïmporteerd zijn. Bij een volledige import wordt deze eigenschap weer verwijderd.
+- **Weergave-eigenschapsnaam** — de eigenschap die registreert tot welke Airtable-weergaven een record behoort. Elke weergave in de gegenereerde basis filtert op deze eigenschap. Standaard `Views`.
+- **Airtable record-ID opslaan** — voegt een `airtable-id`-eigenschap toe zodat toekomstige imports records kunnen herkennen nadat hun notities zijn verplaatst of hernoemd.
 
 ## Configureren hoe Airtable-velden worden geïmporteerd
 
-In de tweede stap van het importeren kun je kiezen hoe elk veld wordt geïmporteerd.
+In de veldconfiguratiestap kun je kiezen hoe elk veld wordt geïmporteerd.
 
-Elk veld in je tabellen krijgt een variabele genaamd `{{field_name}}`. Standaard wordt elk veld een eigenschap, en je kunt deze variabelen gebruiken om eigenschappen te hernoemen, hun waarden te wijzigen of inhoud in de tekst van elke notitie te schrijven.
+Standaard wordt elk Airtable-veld een eigenschap. Je kunt eigenschappen hernoemen of verwijderen en hun waarden wijzigen voordat je verdergaat naar het sjabloonvoorbeeld.
 
-Het primaire veld van elke tabel wordt altijd gebruikt als de notitietitel, en records worden altijd geplaatst in een map die is vernoemd naar hun tabel, dus die opties zijn niet configureerbaar.
+Het primaire veld van elke tabel levert de standaard notitienaam. Je kunt het notitienaam-sjabloon bewerken vanuit de voorbeeldstap. Records worden altijd geplaatst in een map die is vernoemd naar hun tabel.
+
+Zie [[Importer-sjablonen]] om de gegenereerde Markdown aan te passen.
 
 ## Wat er wordt geïmporteerd
 
@@ -72,15 +74,12 @@ Airtable/
 	- **Grid** wordt een [[Tabelweergave]].
 	- **Gallery** wordt een [[Kaartenweergave]].
 	- **List** wordt een [[Lijstweergave]].
-	- Alle andere weergavetypen worden geconverteerd naar tabelweergave.
+	- **Kanban** wordt een [[Kanbanweergave]] in Obsidian 1.14 en later. Airtable geeft niet aan op welk veld een kanban is gegroepeerd, dus [[Kanbanweergave#Kaarten groeperen in kolommen|kies een eigenschap om op te groeperen]] na het importeren. Opnieuw importeren behoudt je keuze.
 - Airtable-veldtypen worden vertaald naar Obsidian-eigenschapstypen, zonder typen te overschrijven die je al hebt ingesteld.
 - Gekoppelde records worden koppelingen naar de bijbehorende notities.
 - Bijlagen worden gedownload in je kluis met behulp van je kluisinstellingen.
 
 ## Beperkingen
-
-> [!info] Airtable-import is nieuw
-> De Airtable-importer is nieuw. Als je problemen ondervindt bij de conversie, [dien dan een bugrapport in](https://github.com/obsidianmd/obsidian-importer/issues) zodat we het kunnen verbeteren.
 
 Vanwege de snelheidslimieten van de Airtable-API kan het importeren van grote bases aanzienlijke tijd in beslag nemen. Heb geduld.
 
@@ -88,6 +87,10 @@ Vanwege beperkingen in de Airtable-API zijn sommige gegevens niet beschikbaar of
 
 - Rollup-waarden worden niet geïmporteerd. De API toont niet de aggregatie die wordt gebruikt voor de berekende waarde van een rollup, dus alleen de eigenschapsnaam wordt geschreven, samen met een Bases-formule wanneer het schema van het veld een expressie bevat.
 - Formules die functies gebruiken waarvoor Obsidian geen equivalent heeft, zoals `SWITCH`, `FIND`, `REGEX_EXTRACT` en `SQRT`, vallen terug op de statische waarde van Airtable.
-- Alleen grid-, galerij- en lijstweergaven worden geïmporteerd. Andere weergavetypen, zoals kalender, kanban, tijdlijn en Gantt, worden genegeerd.
+- Alleen grid-, galerij-, lijst- en kanbanweergaven worden geïmporteerd. Andere weergavetypen, zoals kalender, tijdlijn en Gantt, worden genegeerd.
 - Koppelingen naar records in tabellen die je niet hebt geselecteerd worden de platte titel van het record in plaats van een koppeling.
 - Interface-ontwerpen, automatiseringen, opmerkingen en revisiegeschiedenis worden niet geïmporteerd.
+
+## Probleemoplossing
+
+Als je problemen ondervindt bij de conversie, [dien dan een bugrapport in](https://github.com/obsidianmd/obsidian-importer/issues) zodat we het kunnen verbeteren.

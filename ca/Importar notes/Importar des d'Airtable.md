@@ -36,23 +36,25 @@ Necessitaràs el connector oficial d'Obsidian [[Importador]], que pots [instal·
 7. Fes clic a **Carrega** per navegar per les teves bases, després selecciona les taules que vols importar.
 8. Revisa i edita les opcions d'importació.
 9. Selecciona **Importa** per configurar com es convertiran els teus camps en notes amb [[Propietats|propietats]].
-10. Fes clic a **Continua** i espera fins que la importació es completi.
-11. Ja està!
+10. Selecciona **Continua** per revisar la plantilla generada i previsualitzar exemples dels teus registres.
+11. Selecciona **Importa** i espera fins que la importació es completi.
 
-### Opcions d'importació
+## Opcions d'importació
 
 - **Convertir fórmules** — escull si els camps de fórmula, cerca, agrupació i comptatge es reescriuen com a [[Fórmules|fórmules de Bases]], recorrent al valor calculat per Airtable quan no hi ha equivalent, o s'importen només com a valors estàtics.
 - **Descarrega adjunts** — desa els fitxers adjunts a la teva cambra forta, utilitzant la configuració de la carpeta d'adjunts i el format d'enllaç. Quan està desactivat, o quan una descàrrega falla, la nota enllaça a l'URL del fitxer a Airtable.
-- **Nom de la propietat de vista** — la propietat que registra a quines vistes d'Airtable pertany un registre. Cada vista de la Base generada filtra per aquesta propietat. Per defecte és `base`.
-- **Importació incremental** — afegeix una propietat `airtable-id` a cada nota perquè una importació posterior pugui ometre els registres que ja s'han importat. En una importació completa, aquesta propietat s'elimina de nou.
+- **Nom de la propietat de vista** — la propietat que registra a quines vistes d'Airtable pertany un registre. Cada vista de la Base generada filtra per aquesta propietat. Per defecte és `Views`.
+- **Desa l'ID de registre d'Airtable** — afegeix una propietat `airtable-id` perquè les importacions futures puguin reconèixer els registres després que les seves notes s'hagin mogut o canviat de nom.
 
 ## Configurar com s'importen els camps d'Airtable
 
-En el segon pas de la importació, pots escollir com s'importa cada camp.
+En el pas de configuració de camps, pots escollir com s'importa cada camp.
 
-Cada camp de les teves taules s'atribueix una variable anomenada `{{field_name}}`. Per defecte, cada camp es converteix en una propietat, i pots utilitzar aquestes variables per canviar el nom de les propietats, canviar els seus valors, o escriure contingut al cos de cada nota.
+Per defecte, cada camp d'Airtable es converteix en una propietat. Pots canviar el nom o eliminar propietats i canviar els seus valors abans de continuar a la previsualització de la plantilla.
 
-El camp principal de cada taula sempre s'utilitza com a títol de la nota, i els registres sempre es col·loquen en una carpeta amb el nom de la seva taula, de manera que aquestes opcions no són configurables.
+El camp principal de cada taula proporciona el nom de nota per defecte. Pots editar la plantilla del nom de nota des del pas de previsualització. Els registres sempre es col·loquen en una carpeta amb el nom de la seva taula.
+
+Consulta [[Plantilles de l'importador]] per personalitzar el Markdown generat.
 
 ## Què s'importa
 
@@ -72,15 +74,13 @@ Airtable/
 	- **Grid** es converteix en una [[Vista de taula]].
 	- **Gallery** es converteix en [[Vista de targetes]].
 	- **List** es converteix en una [[Vista de llista]].
-	- Tots els altres tipus de vista es converteixen en vista de taula.
+	- **Kanban** es converteix en una [[Vista kanban]] a Obsidian 1.14 i posteriors. Airtable no indica per quin camp s'agrupa un kanban, de manera que [[Vista kanban#Agrupa les targetes en columnes|escull una propietat per agrupar]] després d'importar. Tornar a importar manté la teva elecció.
 - Els tipus de camp d'Airtable es mapegen als tipus de propietat d'Obsidian, sense sobreescriure els tipus que ja hagis establert.
 - Els registres enllaçats es converteixen en enllaços a les notes corresponents.
 - Els adjunts es descarreguen a la teva cambra forta utilitzant la configuració de la teva cambra forta.
 
-## Limitacions
 
-> [!info] La importació d'Airtable és nova
-> L'importador d'Airtable és nou. Si trobes problemes amb la conversió, [envia un informe d'error](https://github.com/obsidianmd/obsidian-importer/issues) perquè puguem millorar-lo.
+## Limitacions
 
 A causa dels límits de velocitat de l'API d'Airtable, importar bases grans pot trigar un temps considerable. Si us plau, sigues pacient.
 
@@ -88,6 +88,10 @@ A causa de limitacions de l'API d'Airtable, algunes dades no estan disponibles o
 
 - Els valors de rollup no s'importen. L'API no exposa l'agregació utilitzada per al valor calculat d'un rollup, de manera que només s'escriu el nom de la propietat, juntament amb una fórmula de Bases quan l'esquema del camp exposa una expressió.
 - Les fórmules que utilitzen funcions per a les quals Obsidian no té equivalent, com `SWITCH`, `FIND`, `REGEX_EXTRACT` i `SQRT`, recorren al valor estàtic d'Airtable.
-- Només s'importen les vistes de graella, galeria i llista. Altres tipus de vista, com calendari, kanban, línia temporal i Gantt, s'ignoren.
+- Només s'importen les vistes de graella, galeria, llista i kanban. Altres tipus de vista, com calendari, línia temporal i Gantt, s'ignoren.
 - Els enllaços a registres en taules que no has seleccionat es converteixen en el títol en text sense format del registre en lloc d'un enllaç.
 - Els dissenys d'interfície, automatitzacions, comentaris i historial de revisions no s'importen.
+
+## Resolució de problemes
+
+Si trobes problemes amb la conversió, [envia un informe d'error](https://github.com/obsidianmd/obsidian-importer/issues) perquè puguem millorar-lo.

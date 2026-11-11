@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** menjadi [[Tampilan tabel]].
 	- **Gallery** menjadi [[Tampilan kartu]].
 	- **List** menjadi [[Tampilan daftar]].
-	- Semua tipe tampilan lainnya dikonversi ke tampilan tabel.
+	- **Kanban** menjadi [[Tampilan kanban]] di Obsidian 1.14 dan yang lebih baru. Airtable tidak menyebutkan bidang mana yang digunakan untuk pengelompokan kanban, jadi [[Tampilan kanban#Kelompokkan kartu ke dalam kolom|pilih properti untuk pengelompokan]] setelah mengimpor. Mengimpor ulang akan mempertahankan pilihan Anda.
 - Tipe bidang Airtable dipetakan ke tipe properti Obsidian, tanpa menimpa tipe yang sudah Anda atur.
 - Rekaman yang ditautkan menjadi tautan ke catatan yang sesuai.
 - Lampiran diunduh ke brankas Anda menggunakan pengaturan brankas Anda.
@@ -88,7 +88,7 @@ Karena keterbatasan API Airtable, beberapa data tidak tersedia atau tidak dapat 
 
 - Nilai rollup tidak diimpor. API tidak menyediakan agregasi yang digunakan untuk nilai yang dihitung rollup, sehingga hanya nama properti yang ditulis, bersama dengan rumus Basis ketika skema bidang menyediakan ekspresi.
 - Rumus yang menggunakan fungsi yang tidak memiliki padanan di Obsidian, seperti `SWITCH`, `FIND`, `REGEX_EXTRACT`, dan `SQRT`, kembali ke nilai statis dari Airtable.
-- Hanya tampilan grid, gallery, dan list yang diimpor. Tipe tampilan lainnya, seperti calendar, kanban, timeline, dan Gantt, diabaikan.
+- Hanya tampilan grid, gallery, list, dan kanban yang diimpor. Tipe tampilan lainnya, seperti calendar, timeline, dan Gantt, diabaikan.
 - Tautan ke rekaman dalam tabel yang tidak Anda pilih menjadi judul teks biasa rekaman tersebut, bukan tautan.
 - Desain antarmuka, otomasi, komentar, dan riwayat revisi tidak diimpor.
 

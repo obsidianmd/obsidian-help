@@ -36,23 +36,25 @@ Você precisará do plugin oficial [[Importador]] do Obsidian, que pode ser [ins
 7. Clique em **Carregar** para navegar pelas suas bases e selecione as tabelas que deseja importar.
 8. Revise e edite as opções de importação.
 9. Selecione **Importar** para configurar como seus campos serão convertidos em notas com [[Propriedades|propriedades]].
-10. Clique em **Continuar** e aguarde até que a importação seja concluída.
-11. Pronto!
+10. Selecione **Continuar** para revisar o template gerado e visualizar exemplos dos seus registros.
+11. Selecione **Importar** e aguarde até que a importação seja concluída.
 
-### Opções de importação
+## Opções de importação
 
 - **Converter fórmulas** — escolha se os campos de fórmula, lookup, rollup e contagem serão reescritos como [[Fórmulas|fórmulas do Bases]], recorrendo ao valor calculado pelo Airtable quando não houver equivalente, ou importados apenas como valores estáticos.
 - **Baixar anexos** — salva os arquivos de anexo no seu cofre, usando as configurações de pasta de anexos e formato de link. Quando desativado, ou quando um download falhar, a nota vincula à URL do arquivo no Airtable.
-- **Nome da propriedade de visualização** — a propriedade que registra a quais visualizações do Airtable um registro pertence. Cada visualização no Base gerado filtra por esta propriedade. O padrão é `base`.
-- **Importação incremental** — adiciona uma propriedade `airtable-id` a cada nota para que uma importação posterior possa pular registros que já foram importados. Em uma importação completa, esta propriedade é removida novamente.
+- **Nome da propriedade de visualização** — a propriedade que registra a quais visualizações do Airtable um registro pertence. Cada visualização no Base gerado filtra por esta propriedade. O padrão é `Views`.
+- **Salvar ID do registro do Airtable** — adiciona uma propriedade `airtable-id` para que importações futuras possam reconhecer registros após suas notas serem movidas ou renomeadas.
 
 ## Configurar como os campos do Airtable são importados
 
-Na segunda etapa da importação, você pode escolher como cada campo é importado.
+Na etapa de configuração de campos, você pode escolher como cada campo é importado.
 
-Cada campo nas suas tabelas recebe uma variável chamada `{{field_name}}`. Por padrão, cada campo se torna uma propriedade, e você pode usar essas variáveis para renomear propriedades, alterar seus valores ou escrever conteúdo no corpo de cada nota.
+Por padrão, cada campo do Airtable se torna uma propriedade. Você pode renomear ou remover propriedades e alterar seus valores antes de continuar para a pré-visualização do template.
 
-O campo primário de cada tabela é sempre usado como título da nota, e os registros são sempre colocados em uma pasta com o nome da tabela, portanto essas opções não são configuráveis.
+O campo primário de cada tabela fornece o nome padrão da nota. Você pode editar o template do nome da nota na etapa de pré-visualização. Os registros são sempre colocados em uma pasta com o nome da tabela.
+
+Consulte [[Templates do Importador]] para personalizar o Markdown gerado.
 
 ## O que é importado
 
@@ -72,15 +74,13 @@ Airtable/
 	- **Grid** se torna uma [[Visualização de tabela]].
 	- **Gallery** se torna [[Visualização de cartões]].
 	- **List** se torna uma [[Visualização de lista]].
-	- Todos os outros tipos de visualização são convertidos para visualização de tabela.
+	- **Kanban** se torna uma [[Visualização kanban]] no Obsidian 1.14 e posterior. O Airtable não informa por qual campo um kanban está agrupado, então [[Visualização kanban#Agrupar cartões em colunas|escolha uma propriedade para agrupar]] após a importação. Importar novamente mantém sua escolha.
 - Os tipos de campo do Airtable são mapeados para tipos de propriedade do Obsidian, sem sobrescrever tipos que você já tenha definido.
 - Registros vinculados se tornam links para as notas correspondentes.
 - Anexos são baixados para o seu cofre usando as configurações do cofre.
 
-## Limitações
 
-> [!info] A importação do Airtable é nova
-> O importador do Airtable é novo. Se você encontrar problemas com a conversão, [envie um relatório de bug](https://github.com/obsidianmd/obsidian-importer/issues) para que possamos melhorá-lo.
+## Limitações
 
 Devido aos limites de taxa da API do Airtable, importar bases grandes pode levar um tempo considerável. Por favor, tenha paciência.
 
@@ -88,6 +88,10 @@ Devido a limitações na API do Airtable, alguns dados não estão disponíveis 
 
 - Valores de rollup não são importados. A API não expõe a agregação usada para o valor calculado de um rollup, então apenas o nome da propriedade é escrito, junto com uma fórmula do Bases quando o esquema do campo expõe uma expressão.
 - Fórmulas que usam funções para as quais o Obsidian não tem equivalente, como `SWITCH`, `FIND`, `REGEX_EXTRACT` e `SQRT`, recorrem ao valor estático do Airtable.
-- Apenas visualizações de grid, gallery e list são importadas. Outros tipos de visualização, como calendário, kanban, linha do tempo e Gantt, são ignorados.
+- Apenas visualizações de grid, gallery, list e kanban são importadas. Outros tipos de visualização, como calendário, linha do tempo e Gantt, são ignorados.
 - Links para registros em tabelas que você não selecionou se tornam o título simples do registro em vez de um link.
 - Designs de interface, automações, comentários e histórico de revisões não são importados.
+
+## Solução de problemas
+
+Se você encontrar problemas com a conversão, [envie um relatório de bug](https://github.com/obsidianmd/obsidian-importer/issues) para que possamos melhorá-lo.

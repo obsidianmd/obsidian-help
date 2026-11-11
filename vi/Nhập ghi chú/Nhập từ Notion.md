@@ -70,7 +70,8 @@ Do giới hạn tốc độ API của Notion, việc nhập các không gian là
 
 Do hạn chế trong Notion API, một số dữ liệu không khả dụng hoặc không thể chuyển đổi:
 
-- Chỉ chế độ xem chính của mỗi database được nhập.
+- Các chế độ xem database khác ngoài board không được nhập, và các board không giữ lại bộ lọc, sắp xếp hoặc nhóm con của chúng.
+- Trên một board được nhóm theo thuộc tính multi-select, person hoặc relation, một thẻ có nhiều giá trị sẽ nằm trong một cột duy nhất cho tổ hợp giá trị đó.
 - [Nguồn dữ liệu liên kết](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) không được nhập: *"API của Notion hiện không hỗ trợ nguồn dữ liệu liên kết. Khi chia sẻ database với tích hợp của bạn, hãy đảm bảo nó chứa nguồn dữ liệu gốc!"*
 - Hàm `People`: `name()` và `email()`
 - Hàm `Text`: `style()` và `unstyle()`
@@ -78,7 +79,7 @@ Do hạn chế trong Notion API, một số dữ liệu không khả dụng ho�
 Ngoài ra, Importer sẽ thực hiện các thay đổi sau:
 
 - Các trang không có trang con hoặc databases sẽ được nhập dưới dạng `[tên tệp].md` thay vì `[tên tệp]/[tên tệp].md`.
-- Databases luôn được biểu diễn dưới dạng thư mục có tên `[tên database]` với tệp `[tên database].base` bên trong.
+- Databases luôn được biểu diễn dưới dạng thư mục có tên `[tên database]` với tệp `[tên database].base` bên trong. Base có một chế độ xem bảng với mọi thuộc tính và, trong Obsidian 1.14 trở lên, một [[chế độ xem Kanban]] cho mỗi board Notion, được nhóm theo cùng thuộc tính.
 
 ## Nhập tệp Notion (.zip)
 

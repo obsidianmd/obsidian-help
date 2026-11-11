@@ -36,23 +36,25 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 7. Klik **Indlæs** for at gennemse dine baser, og vælg derefter de tabeller du vil importere.
 8. Gennemse og rediger importindstillingerne.
 9. Vælg **Importér** for at konfigurere, hvordan dine felter konverteres til noter med [[Egenskaber|egenskaber]].
-10. Klik **Fortsæt** og vent til importen er fuldført.
-11. Du er færdig!
+10. Vælg **Fortsæt** for at gennemse den genererede skabelon og forhåndsvise eksempler fra dine poster.
+11. Vælg **Importér** og vent til importen er fuldført.
 
-### Importindstillinger
+## Importindstillinger
 
 - **Konverter formler** — vælg om formel-, opslags-, rollup- og tællefelter omskrives som [[Formler|Baser-formler]], med tilbagefald til den værdi Airtable beregnede, når der ikke er noget tilsvarende, eller importeres som kun statiske værdier.
 - **Hent vedhæftninger** — gem vedhæftningsfiler i din boks ved hjælp af dine indstillinger for vedhæftningsmappe og linkformat. Når det er deaktiveret, eller når en hentning fejler, linker noten til filens URL på Airtable i stedet.
-- **Visningsegenskabsnavn** — egenskaben der registrerer, hvilke Airtable-visninger en post tilhører. Hver visning i den genererede base filtrerer på denne egenskab. Standard er `base`.
-- **Inkrementel import** — tilføjer en `airtable-id`-egenskab til hver note, så en senere import kan springe poster over, der allerede er importeret. Ved en fuld import fjernes denne egenskab igen.
+- **Visningsegenskabsnavn** — egenskaben der registrerer, hvilke Airtable-visninger en post tilhører. Hver visning i den genererede base filtrerer på denne egenskab. Standard er `Views`.
+- **Gem Airtable-post-ID** — tilføjer en `airtable-id`-egenskab, så fremtidige importer kan genkende poster, efter at deres noter er flyttet eller omdøbt.
 
 ## Konfigurer hvordan Airtable-felter importeres
 
-I det andet trin af importen kan du vælge, hvordan hvert felt importeres.
+I feltkonfigurationstrinnet kan du vælge, hvordan hvert felt importeres.
 
-Hvert felt i dine tabeller tildeles en variabel kaldet `{{field_name}}`. Som standard bliver hvert felt en egenskab, og du kan bruge disse variabler til at omdøbe egenskaber, ændre deres værdier eller skrive indhold ind i brødteksten af hver note.
+Som standard bliver hvert Airtable-felt en egenskab. Du kan omdøbe eller fjerne egenskaber og ændre deres værdier, før du fortsætter til skabelonforhåndsvisningen.
 
-Hver tabels primære felt bruges altid som notetitel, og poster placeres altid i en mappe opkaldt efter deres tabel, så disse indstillinger kan ikke konfigureres.
+Hver tabels primære felt leverer standardnotenavnet. Du kan redigere notenavn-skabelonen fra forhåndsvisningstrinnet. Poster placeres altid i en mappe opkaldt efter deres tabel.
+
+Se [[Importør-skabeloner]] for at tilpasse den genererede Markdown.
 
 ## Hvad der importeres
 
@@ -72,15 +74,13 @@ Airtable/
 	- **Grid** bliver en [[Tabelvisning]].
 	- **Gallery** bliver [[Galleri]].
 	- **List** bliver en [[Listevisning]].
-	- Alle andre visningstyper konverteres til tabelvisning.
+	- **Kanban** bliver en [[Kanban-visning]] i Obsidian 1.14 og senere. Airtable oplyser ikke, hvilket felt en kanban er grupperet efter, så [[Kanban-visning#Gruppér kort i kolonner|vælg en egenskab at gruppere efter]] efter importen. En ny import bevarer dit valg.
 - Airtable-felttyper afbildes til Obsidian-egenskabstyper uden at overskrive typer, du allerede har angivet.
 - Linkede poster bliver til links til de tilsvarende noter.
 - Vedhæftninger hentes ind i din boks ved hjælp af dine boksindstillinger.
 
-## Begrænsninger
 
-> [!info] Airtable-import er nyt
-> Airtable-importøren er ny. Hvis du støder på problemer med konverteringen, [indsend en fejlrapport](https://github.com/obsidianmd/obsidian-importer/issues), så vi kan forbedre den.
+## Begrænsninger
 
 På grund af Airtable API-hastighedsgrænser kan import af store baser tage betydelig tid. Vær venligst tålmodig.
 
@@ -88,6 +88,10 @@ På grund af begrænsninger i Airtable API'et er nogle data ikke tilgængelige e
 
 - Rollup-værdier importeres ikke. API'et eksponerer ikke den aggregering, der bruges til en rollups beregnede værdi, så kun egenskabsnavnet skrives, sammen med en Baser-formel, hvor feltets skema eksponerer et udtryk.
 - Formler der bruger funktioner, som Obsidian ikke har noget tilsvarende til, såsom `SWITCH`, `FIND`, `REGEX_EXTRACT` og `SQRT`, falder tilbage til den statiske værdi fra Airtable.
-- Kun grid-, galleri- og listevisninger importeres. Andre visningstyper, såsom kalender, kanban, tidslinje og Gantt, ignoreres.
+- Kun grid-, galleri-, liste- og kanban-visninger importeres. Andre visningstyper, såsom kalender, tidslinje og Gantt, ignoreres.
 - Links til poster i tabeller, du ikke valgte, bliver postens almindelige titel i stedet for et link.
 - Interface-designs, automatiseringer, kommentarer og revisionshistorik importeres ikke.
+
+## Fejlfinding
+
+Hvis du støder på problemer med konverteringen, [indsend en fejlrapport](https://github.com/obsidianmd/obsidian-importer/issues), så vi kan forbedre den.

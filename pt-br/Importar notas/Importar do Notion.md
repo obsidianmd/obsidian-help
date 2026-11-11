@@ -10,6 +10,10 @@ O Obsidian oferece duas maneiras de importar seus dados do Notion:
 1. **Conta do Notion (recomendado)** conecta diretamente ao seu workspace e permite preservar Databases e fórmulas que são convertidas para [[Introdução ao Bases|Bases]]. Requer um token de integração do Notion e uma conexão com a internet.
 2. **Importação de arquivo** usa os arquivos de exportação `.zip` do Notion. Não preserva Databases, mas não requer um token de API nem conexão com a internet.
 
+## Personalizar páginas importadas
+
+Ambos os métodos de importação mostram uma pré-visualização antes da importação começar. Você pode editar o template gerado ou escolher um template Markdown do seu cofre. Configurações como a capa e os nomes das propriedades do database atualizam as propriedades geradas mostradas na pré-visualização. Veja [[Modelos do importador]].
+
 ## Importar da sua conta do Notion
 
 ### Criar um token de acesso da API do Notion
@@ -54,8 +58,8 @@ Você precisará do plugin oficial [[Importador]] do Obsidian, que você pode [i
 6. Em **API token**, clique em **Link...** para adicionar um novo segredo. Para o **ID**, dê um nome como `notion`, e para o **Secret** cole seu **Access token** do Notion.
 7. Clique em **Carregar** para escolher os databases e páginas que você deseja importar.
 8. Revise e edite as opções de importação.
-9. Selecione **Import** e aguarde até que a importação seja concluída
-10. Pronto!
+9. Selecione **Import** para revisar o template gerado e pré-visualizar exemplos das suas páginas.
+10. Selecione **Import** novamente e aguarde até que a importação seja concluída.
 
 ### Limitações
 
@@ -66,7 +70,8 @@ Devido aos limites de taxa da API do Notion, a importação de workspaces grande
 
 Devido a limitações na API do Notion, alguns dados não estão disponíveis ou não podem ser convertidos:
 
-- Apenas a visualização principal de cada database é importada.
+- Visualizações de database que não sejam quadros não são importadas, e os quadros não mantêm seus filtros, ordenações ou subgrupos.
+- Em um quadro agrupado por uma propriedade de seleção múltipla, pessoa ou relação, um cartão com vários valores vai para uma única coluna para aquela combinação de valores.
 - [Fontes de dados vinculadas](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) não são importadas: *"A API do Notion atualmente não suporta fontes de dados vinculadas. Ao compartilhar um database com sua integração, certifique-se de que ele contém a fonte de dados original!"*
 - Funções de `People`: `name()` e `email()`
 - Funções de `Text`: `style()` e `unstyle()`
@@ -74,7 +79,7 @@ Devido a limitações na API do Notion, alguns dados não estão disponíveis ou
 Além disso, o Importador fará as seguintes alterações:
 
 - Páginas sem subpáginas ou databases serão importadas como `[nome do arquivo].md` em vez de `[nome do arquivo]/[nome do arquivo].md`.
-- Databases são sempre representados como pastas nomeadas `[nome do database]` com um arquivo `[nome do database].base` dentro.
+- Databases são sempre representados como pastas nomeadas `[nome do database]` com um arquivo `[nome do database].base` dentro. O base possui uma visualização de tabela com todas as propriedades e, no Obsidian 1.14 e posterior, uma [[Visualização Kanban|visualização Kanban]] para cada quadro do Notion, agrupada pela mesma propriedade.
 
 ## Importar arquivos do Notion (.zip)
 
@@ -108,8 +113,8 @@ Você precisará do plugin oficial [[Importador]] do Obsidian, que você pode [i
 6. Escolha o arquivo `.zip` com os arquivos do Notion que você deseja importar. *É recomendado importar todo o seu Notion de uma vez para que os links internos possam ser reconciliados corretamente.*
 7. _Opcionalmente_, selecione uma pasta para a importação. Suas páginas e databases do Notion serão aninhados dentro desta pasta.
 8. Ative **Save parent pages in subfolders** para manter a estrutura do Notion. *Observe que no Notion você pode escrever conteúdo em Pastas; isso não é possível no Obsidian e essas páginas serão adicionadas como uma subpágina dentro da pasta.*
-9. Selecione **Import** e aguarde até que a importação seja concluída
-10. Pronto!
+9. Selecione **Import** para revisar o template gerado e pré-visualizar exemplos das suas páginas.
+10. Selecione **Import** novamente e aguarde até que a importação seja concluída.
 
 ### Solução de problemas
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Se você vir este erro, pode descompactar o arquivo do Notion e então importar os arquivos `Export-{id}-Part-1.zip` aninhados.
+
+## Templates
+
+Use [[Modelos do importador|Templates do Importador]] para configurar completamente como seus dados do Notion são importados.
+
+![[Modelos do importador#Variables]]

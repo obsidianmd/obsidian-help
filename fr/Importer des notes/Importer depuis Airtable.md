@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** devient un [[Tableau]].
 	- **Gallery** devient une [[Galerie]].
 	- **List** devient une [[Liste]].
-	- Tous les autres types de vues sont convertis en vue tableau.
+	- **Kanban** devient une [[Vue Kanban]] dans Obsidian 1.14 et versions ultérieures. Airtable n'indique pas par quel champ un kanban est regroupé, il faut donc [[Vue Kanban#Regrouper les cartes en colonnes|choisir une propriété de regroupement]] après l'importation. Une nouvelle importation conserve votre choix.
 - Les types de champs Airtable sont associés aux types de propriétés Obsidian, sans écraser les types que vous avez déjà définis.
 - Les enregistrements liés deviennent des liens vers les notes correspondantes.
 - Les pièces jointes sont téléchargées dans votre coffre en utilisant les paramètres de votre coffre.
@@ -88,7 +88,7 @@ En raison des limitations de l'API Airtable, certaines données ne sont pas disp
 
 - Les valeurs de cumul (rollup) ne sont pas importées. L'API n'expose pas l'agrégation utilisée pour la valeur calculée d'un rollup, seul le nom de la propriété est donc écrit, accompagné d'une formule Bases lorsque le schéma du champ expose une expression.
 - Les formules utilisant des fonctions pour lesquelles Obsidian n'a pas d'équivalent, telles que `SWITCH`, `FIND`, `REGEX_EXTRACT` et `SQRT`, utilisent la valeur statique d'Airtable comme repli.
-- Seules les vues grille, galerie et liste sont importées. Les autres types de vues, tels que calendrier, kanban, chronologie et Gantt, sont ignorés.
+- Seules les vues grille, galerie, liste et kanban sont importées. Les autres types de vues, tels que calendrier, chronologie et Gantt, sont ignorés.
 - Les liens vers des enregistrements dans des tables que vous n'avez pas sélectionnées deviennent le titre en texte brut de l'enregistrement plutôt qu'un lien.
 - Les conceptions d'interfaces, les automatisations, les commentaires et l'historique des révisions ne sont pas importés.
 

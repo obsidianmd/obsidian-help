@@ -70,7 +70,8 @@ Obsidian מציע שתי דרכים לייבא את נתוני ה-Notion שלך:
 
 בשל מגבלות ב-API של Notion, חלק מהנתונים אינם זמינים או אינם ניתנים להמרה:
 
-- רק התצוגה הראשית של כל database מיובאת.
+- תצוגות database שאינן boards אינן מיובאות, ו-boards אינם שומרים על המסננים, המיונים או תת-הקבוצות שלהם.
+- ב-board המקובץ לפי מאפיין multi-select, person או relation, כרטיס עם מספר ערכים מוצב בעמודה אחת עבור אותו שילוב של ערכים.
 - [Linked data sources](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) אינם מיובאים: *"ה-API של Notion אינו תומך כרגע ב-linked data sources. כשאתה משתף database עם האינטגרציה שלך, ודא שהוא מכיל את מקור הנתונים המקורי!"*
 - פונקציות `People`: `name()` ו-`email()`
 - פונקציות `Text`: `style()` ו-`unstyle()`
@@ -78,7 +79,7 @@ Obsidian מציע שתי דרכים לייבא את נתוני ה-Notion שלך:
 בנוסף, ה-Importer יבצע את השינויים הבאים:
 
 - דפים ללא דפי ילד או databases ייובאו כ-`[filename].md` במקום `[filename]/[filename].md`.
-- Databases מיוצגים תמיד כתיקיות בשם `[database name]` עם קובץ `[database name].base` בתוכן.
+- Databases מיוצגים תמיד כתיקיות בשם `[database name]` עם קובץ `[database name].base` בתוכן. ה-base כולל תצוגת טבלה עם כל מאפיין, וב-Obsidian 1.14 ואילך, [[תצוגת קנבן]] עבור כל board של Notion, מקובצת לפי אותו מאפיין.
 
 ## ייבוא קבצי Notion (.zip)
 

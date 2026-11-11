@@ -10,6 +10,10 @@ Obsidian erbjuder två sätt att importera dina Notion-data:
 1. **Notion-konto (rekommenderat)** ansluter direkt till din arbetsyta och låter dig bevara databaser och formler som konverteras till [[Introduktion till baser|baser]]. Kräver en Notion-integrationstoken och en internetanslutning.
 2. **Filimport** använder Notions `.zip`-exportfiler. Bevarar inte databaser men kräver ingen API-token eller internetanslutning.
 
+## Anpassa importerade sidor
+
+Båda importmetoderna visar en förhandsvisning innan importen börjar. Du kan redigera den genererade mallen eller välja en Markdown-mall från ditt valv. Inställningar som omslag och databasernas egenskapsnamn uppdaterar de genererade egenskaperna som visas i förhandsvisningen. Se [[Importerare-mallar]].
+
 ## Importera från ditt Notion-konto
 
 ### Skapa en Notion API-åtkomsttoken
@@ -54,8 +58,8 @@ Du behöver det officiella Obsidian [[Importerare]]-tillägget, som du kan [inst
 6. Under **API-token**, klicka på **Länka...** för att lägga till en ny hemlighet. Som **ID** ger du den ett namn som `notion`, och som **Hemlighet** klistrar du in din **Access token** från Notion.
 7. Klicka på **Ladda** för att välja de databaser och sidor du vill importera.
 8. Granska och redigera importalternativen.
-9. Välj **Importera** och vänta tills importen är klar
-10. Du är klar!
+9. Välj **Importera** för att granska den genererade mallen och förhandsgranska exempel från dina sidor.
+10. Välj **Importera** igen och vänta tills importen är klar.
 
 ### Begränsningar
 
@@ -66,7 +70,8 @@ På grund av Notions API-hastighetsbegränsningar kan import av stora arbetsytor
 
 På grund av begränsningar i Notion API:et är viss data inte tillgänglig eller kan inte konverteras:
 
-- Endast den primära vyn för varje databas importeras.
+- Andra databasvyer än brädor importeras inte, och brädor behåller inte sina filter, sorteringar eller undergrupper.
+- På en bräda grupperad efter en flervals-, person- eller relationsegenskap hamnar ett kort med flera värden i en enda kolumn för den kombinationen av värden.
 - [Länkade datakällor](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) importeras inte: *"Notions API stöder för närvarande inte länkade datakällor. När du delar en databas med din integration, se till att den innehåller den ursprungliga datakällan!"*
 - `People`-funktioner: `name()` och `email()`
 - `Text`-funktioner: `style()` och `unstyle()`
@@ -74,7 +79,7 @@ På grund av begränsningar i Notion API:et är viss data inte tillgänglig elle
 Dessutom kommer Importerare att göra följande ändringar:
 
 - Sidor utan underliggande sidor eller databaser importeras som `[filnamn].md` istället för `[filnamn]/[filnamn].md`.
-- Databaser representeras alltid som mappar med namnet `[databasnamn]` med en `[databasnamn].base`-fil inuti.
+- Databaser representeras alltid som mappar med namnet `[databasnamn]` med en `[databasnamn].base`-fil inuti. Basen har en tabellvy med varje egenskap och, i Obsidian 1.14 och senare, en [[Kanban-vy]] för varje Notion-bräda, grupperad efter samma egenskap.
 
 ## Importera Notion-filer (.zip)
 
@@ -108,8 +113,8 @@ Du behöver det officiella Obsidian [[Importerare]]-tillägget, som du kan [inst
 6. Välj `.zip`-filen med Notion-filer du vill importera. *Det rekommenderas att importera alla dina Notion-data på en gång så att interna länkar kan stämmas av korrekt.*
 7. _Valfritt_, välj en mapp för importen. Dina Notion-sidor och databaser kommer att placeras inuti denna mapp.
 8. Aktivera **Spara överordnade sidor i undermappar** för att behålla Notion-strukturen. *Observera att i Notion kan du skriva innehåll i mappar, detta är inte möjligt i Obsidian och dessa sidor kommer att läggas till som en undersida under mappen.*
-9. Välj **Importera** och vänta tills importen är klar
-10. Du är klar!
+9. Välj **Importera** för att granska den genererade mallen och förhandsgranska exempel från dina sidor.
+10. Välj **Importera** igen och vänta tills importen är klar.
 
 ### Felsökning
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Om du ser detta fel kan du packa upp filen från Notion och sedan importera de nästlade `Export-{id}-Part-1.zip`-filerna.
+
+## Mallar
+
+Använd [[Importerare-mallar|Importerare-mallar]] för att helt konfigurera hur dina Notion-data importeras.
+
+![[Importerare-mallar#Variabler]]

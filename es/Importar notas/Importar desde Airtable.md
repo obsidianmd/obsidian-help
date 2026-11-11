@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** se convierte en una [[Vista de tabla]].
 	- **Gallery** se convierte en [[Vista de tarjetas]].
 	- **List** se convierte en una [[Vista de lista]].
-	- Todos los demás tipos de vista se convierten en vista de tabla.
+	- **Kanban** se convierte en una [[Vista Kanban]] en Obsidian 1.14 y posteriores. Airtable no indica por qué campo está agrupado un kanban, así que [[Vista Kanban#Agrupar tarjetas en columnas|elige una propiedad por la que agrupar]] después de importar. Importar de nuevo conserva tu elección.
 - Los tipos de campo de Airtable se mapean a tipos de propiedad de Obsidian, sin sobrescribir los tipos que ya hayas establecido.
 - Los registros vinculados se convierten en enlaces a las notas correspondientes.
 - Los adjuntos se descargan en tu bóveda usando la configuración de tu bóveda.
@@ -88,7 +88,7 @@ Debido a limitaciones en la API de Airtable, algunos datos no están disponibles
 
 - Los valores de rollup no se importan. La API no expone la agregación usada para el valor calculado de un rollup, por lo que solo se escribe el nombre de la propiedad, junto con una fórmula de Bases cuando el esquema del campo expone una expresión.
 - Las fórmulas que usan funciones para las que Obsidian no tiene equivalente, como `SWITCH`, `FIND`, `REGEX_EXTRACT` y `SQRT`, recurren al valor estático de Airtable.
-- Solo se importan las vistas de cuadrícula, galería y lista. Otros tipos de vista, como calendario, kanban, línea de tiempo y Gantt, se ignoran.
+- Solo se importan las vistas de cuadrícula, galería, lista y kanban. Otros tipos de vista, como calendario, línea de tiempo y Gantt, se ignoran.
 - Los enlaces a registros en tablas que no seleccionaste se convierten en el título simple del registro en lugar de un enlace.
 - Los diseños de interfaz, automatizaciones, comentarios e historial de revisiones no se importan.
 

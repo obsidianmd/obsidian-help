@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** devine un [[Afișaj tabel]].
 	- **Gallery** devine [[Afișaj carduri]].
 	- **List** devine un [[Afișaj listă]].
-	- Toate celelalte tipuri de vizualizări sunt convertite în afișaj tabel.
+	- **Kanban** devine un [[Afișaj kanban]] în Obsidian 1.14 și versiunile ulterioare. Airtable nu specifică după ce câmp este grupat un kanban, deci [[Afișaj kanban#Grupează cardurile în coloane|alege o proprietate după care să grupezi]] după import. Importul repetat păstrează alegerea ta.
 - Tipurile de câmpuri Airtable sunt mapate la tipuri de proprietăți Obsidian, fără a suprascrie tipurile pe care le-ai setat deja.
 - Înregistrările legate devin legături către notițele corespunzătoare.
 - Atașamentele sunt descărcate în seiful tău folosind setările seifului.
@@ -88,7 +88,7 @@ Din cauza limitărilor API-ului Airtable, unele date nu sunt disponibile sau nu 
 
 - Valorile rollup nu sunt importate. API-ul nu expune agregarea folosită pentru valoarea calculată a unui rollup, deci doar numele proprietății este scris, împreună cu o formulă Baze acolo unde schema câmpului expune o expresie.
 - Formulele care folosesc funcții pentru care Obsidian nu are echivalent, cum ar fi `SWITCH`, `FIND`, `REGEX_EXTRACT` și `SQRT`, revin la valoarea statică din Airtable.
-- Doar vizualizările grid, gallery și list sunt importate. Alte tipuri de vizualizări, cum ar fi calendar, kanban, timeline și Gantt, sunt ignorate.
+- Doar vizualizările grid, gallery, list și kanban sunt importate. Alte tipuri de vizualizări, cum ar fi calendar, timeline și Gantt, sunt ignorate.
 - Legăturile către înregistrări din tabelele pe care nu le-ai selectat devin titlul simplu al înregistrării în loc de o legătură.
 - Designurile de interfață, automatizările, comentariile și istoricul revizuirilor nu sunt importate.
 

@@ -10,6 +10,10 @@ Obsidian tarjoaa kaksi tapaa tuoda Notion-tietosi:
 1. **Notion-tili (suositeltu)** yhdistää suoraan työtilaan ja säilyttää tietokannat ja kaavat, jotka muunnetaan [[Johdanto kantoihin|kannoiksi]]. Vaatii Notion-integraatiotunnisteen ja internetyhteyden.
 2. **Tiedostotuonti** käyttää Notionin `.zip`-vientitiedostoja. Ei säilytä tietokantoja, mutta ei vaadi API-tunnistetta tai internetyhteyttä.
 
+## Tuotujen sivujen mukauttaminen
+
+Molemmat tuontimenetelmät näyttävät esikatselun ennen tuonnin aloittamista. Voit muokata luotua pohjaa tai valita Markdown-pohjan holvistasi. Asetukset, kuten kansikuva ja tietokannan määreiden nimet, päivittävät esikatselussa näytettäviä luotuja määreitä. Katso [[Tuontimallineet|Tuontityökalun pohjat]].
+
 ## Tuonti Notion-tililtä
 
 ### Notion API -käyttötunnisteen luominen
@@ -54,8 +58,8 @@ Tarvitset virallisen Obsidianin [[Tuontityökalu]]-lisäosan, jonka voit [asenta
 6. Napsauta **API-tunniste** -kohdassa **Linkki...** lisätäksesi uuden sala-avaimen. Anna **tunnukseksi** nimi kuten `notion`, ja liitä **Sala-avain**-kenttään Notionin **Access token**.
 7. Napsauta **Lataa** valitaksesi tietokannat ja sivut, jotka haluat tuoda.
 8. Tarkista ja muokkaa tuontiasetuksia.
-9. Valitse **Tuo** ja odota, kunnes tuonti on valmis.
-10. Valmista!
+9. Valitse **Tuo** tarkastellaksesi luotua pohjaa ja esikatselua sivuistasi.
+10. Valitse **Tuo** uudelleen ja odota, kunnes tuonti on valmis.
 
 ### Rajoitukset
 
@@ -66,7 +70,8 @@ Notionin API-rajaehdoista johtuen suurten työtilojen tuominen voi kestää huom
 
 Notion API:n rajoitusten vuoksi kaikkia tietoja ei ole saatavilla tai niitä ei voida muuntaa:
 
-- Jokaisesta tietokannasta tuodaan vain ensisijainen näkymä.
+- Muita tietokantanäkymiä kuin kanban-tauluja ei tuoda, ja kanban-taulut eivät säilytä suodattimiaan, järjestyksiään tai alaryhmiään.
+- Kanban-taulussa, joka on ryhmitelty monivalinta-, henkilö- tai relaatiomääreen mukaan, kortti, jolla on useita arvoja, sijoitetaan yhteen sarakkeeseen kyseiselle arvojen yhdistelmälle.
 - [Linkitettyjä tietolähteitä](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) ei tuoda: *"Notionin API ei tällä hetkellä tue linkitettyjä tietolähteitä. Kun jaat tietokannan integraatiollesi, varmista, että se sisältää alkuperäisen tietolähteen!"*
 - `People`-funktiot: `name()` ja `email()`
 - `Text`-funktiot: `style()` ja `unstyle()`
@@ -74,7 +79,7 @@ Notion API:n rajoitusten vuoksi kaikkia tietoja ei ole saatavilla tai niitä ei 
 Lisäksi Tuontityökalu tekee seuraavat muutokset:
 
 - Sivut, joilla ei ole alasivuja tai tietokantoja, tuodaan muodossa `[tiedostonimi].md` eikä `[tiedostonimi]/[tiedostonimi].md`.
-- Tietokannat esitetään aina kansioina nimellä `[tietokannan nimi]`, joiden sisällä on `[tietokannan nimi].base`-tiedosto.
+- Tietokannat esitetään aina kansioina nimellä `[tietokannan nimi]`, joiden sisällä on `[tietokannan nimi].base`-tiedosto. Kanta sisältää taulukkonäkymän kaikilla määreillä sekä Obsidian 1.14:stä alkaen [[Kanban-näkymä|Kanban-näkymän]] jokaista Notion-taulua varten, ryhmiteltynä saman määreen mukaan.
 
 ## Notion-tiedostojen tuominen (.zip)
 
@@ -108,8 +113,8 @@ Tarvitset virallisen Obsidianin [[Tuontityökalu]]-lisäosan, jonka voit [asenta
 6. Valitse `.zip`-tiedosto, joka sisältää tuotavat Notion-tiedostot. *On suositeltavaa tuoda kaikki Notion-tietosi kerralla, jotta sisäiset linkit voidaan yhdistää oikein.*
 7. _Valinnaisesti_ valitse kansio tuontia varten. Notion-sivusi ja tietokantasi sijoitetaan tämän kansion sisälle.
 8. Ota käyttöön **Tallenna ylätason sivut alikansioihin** säilyttääksesi Notion-rakenteen. *Huomaa, että Notionissa voit kirjoittaa sisältöä kansioihin, mutta tämä ei ole mahdollista Obsidianissa, ja nämä sivut lisätään kansion alasivuiksi.*
-9. Valitse **Tuo** ja odota, kunnes tuonti on valmis.
-10. Valmista!
+9. Valitse **Tuo** tarkastellaksesi luotua pohjaa ja esikatselua sivuistasi.
+10. Valitse **Tuo** uudelleen ja odota, kunnes tuonti on valmis.
 
 ### Vianmääritys
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Jos näet tämän virheen, voit purkaa Notionista saadun tiedoston ja tuoda sitten sisäkkäiset `Export-{id}-Part-1.zip`-tiedostot.
+
+## Pohjat
+
+Käytä [[Tuontimallineet|Tuontityökalun pohjia]] määrittääksesi tarkasti, miten Notion-tietosi tuodaan.
+
+![[Tuontimallineet#Variables]]

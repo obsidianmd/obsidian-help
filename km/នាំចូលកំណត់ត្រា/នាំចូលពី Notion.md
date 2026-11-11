@@ -70,7 +70,8 @@ Token គឺជាខ្សែអក្សរវែងមួយនៃលេខ �
 
 ដោយសារដែនកំណត់នៅក្នុង Notion API ទិន្នន័យមួយចំនួនមិនមាន ឬមិនអាចបម្លែងបាន៖
 
-- មានតែទិដ្ឋភាពចម្បងសម្រាប់ database នីមួយៗប៉ុណ្ណោះដែលត្រូវបាននាំចូល។
+- ទិដ្ឋភាព Database ក្រៅពី boards មិនត្រូវបាននាំចូលទេ ហើយ boards មិនរក្សាតម្រង ការតម្រៀប ឬក្រុមរង។
+- នៅលើ board ដែលដាក់ជាក្រុមតាមលក្ខណៈសម្បត្តិ multi-select, person ឬ relation កាតដែលមានតម្លៃច្រើនត្រូវបានដាក់ក្នុងជួរឈរតែមួយសម្រាប់បន្សំតម្លៃនោះ។
 - [Linked data sources](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) មិនត្រូវបាននាំចូលទេ៖ *"Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!"*
 - អនុគមន៍ `People`៖ `name()` និង `email()`
 - អនុគមន៍ `Text`៖ `style()` និង `unstyle()`
@@ -78,7 +79,7 @@ Token គឺជាខ្សែអក្សរវែងមួយនៃលេខ �
 លើសពីនេះ Importer នឹងធ្វើការផ្លាស់ប្តូរដូចខាងក្រោម៖
 
 - ទំព័រដែលគ្មានទំព័ររង ឬ databases នឹងត្រូវបាននាំចូលជា `[filename].md` ជំនួសឱ្យ `[filename]/[filename].md`។
-- Databases តែងតែត្រូវបានតំណាងជាថតដែលមានឈ្មោះ `[database name]` ជាមួយឯកសារ `[database name].base` នៅខាងក្នុង។
+- Databases តែងតែត្រូវបានតំណាងជាថតដែលមានឈ្មោះ `[database name]` ជាមួយឯកសារ `[database name].base` នៅខាងក្នុង។ Base មានទិដ្ឋភាពតារាងជាមួយលក្ខណៈសម្បត្តិទាំងអស់ ហើយនៅក្នុង Obsidian 1.14 និងក្រោយមក មាន [[ទិដ្ឋភាព Kanban]] សម្រាប់ Notion board នីមួយៗ ដែលដាក់ជាក្រុមតាមលក្ខណៈសម្បត្តិដូចគ្នា។
 
 ## នាំចូលឯកសារ Notion (.zip)
 
