@@ -7,7 +7,7 @@ description: 'Dowiedz się, jak wyświetlać, wyszukiwać i linkować do plików
 Obsidian otwiera pliki PDF we wbudowanej przeglądarce. Możesz także osadzić PDF w notatce, linkować do fragmentu tekstu oraz wyeksportować dowolną notatkę jako PDF. Informacje o obsługiwanych typach plików znajdziesz w [[Obsługiwane formaty plików]].
 
 > [!info]+ Niektóre funkcje są dostępne tylko na komputerze
-> Aplikacja mobilna Obsidian nie obsługuje wyszukiwania wewnątrz PDF, kopiowania cytatu ani linku do zaznaczenia, ani eksportu notatki do PDF.
+> Aplikacja mobilna Obsidian nie obsługuje wyszukiwania wewnątrz PDF, kopiowania cytatu ani linku do zaznaczenia.
 
 ## Otwieranie PDF
 
@@ -94,7 +94,7 @@ Aby wyświetlić PDF wewnątrz notatki, zobacz jak [[Osadzanie plików#Osadzanie
 
 ## Eksport notatki do PDF
 
-Możesz wyeksportować dowolną notatkę jako PDF na komputerze. Eksport do PDF nie jest dostępny w aplikacji mobilnej Obsidian.
+Możesz wyeksportować dowolną notatkę jako PDF na komputerze i urządzeniu mobilnym (eksport mobilny dodano w wersji 1.15). Niektóre ustawienia eksportu mogą się różnić między komputerem a urządzeniem mobilnym.
 
 1. Otwórz notatkę, którą chcesz wyeksportować.
 2. Otwórz [[Lista poleceń|Paletę poleceń]] i wybierz **Eksportuj do PDF**. Możesz także wybrać **Więcej opcji** ![[lucide-more-horizontal.svg#icon]] w notatce, a następnie wybrać **Eksportuj do PDF**.

@@ -7,7 +7,7 @@ description: 'Aprenda a visualizar, pesquisar e criar links para PDFs no Obsidia
 O Obsidian abre ficheiros PDF num visualizador incorporado. Também pode incorporar um PDF numa nota, criar uma ligação para uma passagem nele e exportar qualquer nota como PDF. Para os tipos de ficheiro que o Obsidian suporta, consulte [[Formatos de ficheiro aceites]].
 
 > [!info]+ Algumas funcionalidades são apenas para computador
-> A aplicação Obsidian em dispositivos móveis não consegue pesquisar dentro de um PDF, copiar uma citação ou uma ligação para uma seleção, nem exportar uma nota para PDF.
+> A aplicação Obsidian em dispositivos móveis não consegue pesquisar dentro de um PDF, copiar uma citação ou uma ligação para uma seleção.
 
 ## Abrir um PDF
 
@@ -94,7 +94,7 @@ Para mostrar um PDF dentro de uma nota, veja como [[Incorporar ficheiros#Incorpo
 
 ## Exportar uma nota para PDF
 
-Pode exportar qualquer nota como PDF no computador. Exportar para PDF não está disponível na aplicação Obsidian em dispositivos móveis.
+Pode exportar qualquer nota como PDF no computador e em dispositivos móveis (exportação em dispositivos móveis adicionada na v1.15). Algumas definições de exportação podem diferir entre computador e dispositivos móveis.
 
 1. Abra a nota que deseja exportar.
 2. Abra a [[Paleta de comando]] e selecione **Exportar PDF**. Também pode selecionar **Mais opções** ![[lucide-more-horizontal.svg#icon]] na nota, e depois selecionar **Exportar PDF**.

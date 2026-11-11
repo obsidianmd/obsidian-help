@@ -7,7 +7,7 @@ description: 'Scopri come visualizzare, cercare e collegare i PDF in Obsidian e 
 Obsidian apre i file PDF in un visualizzatore integrato. È anche possibile incorporare un PDF in una nota, collegare un passaggio al suo interno ed esportare qualsiasi nota come PDF. Per i tipi di file supportati da Obsidian, consulta [[Formati di file accettati]].
 
 > [!info]+ Alcune funzionalità sono disponibili solo su desktop
-> L'app Obsidian su mobile non può cercare all'interno di un PDF, copiare una citazione o un collegamento a una selezione, né esportare una nota in PDF.
+> L'app Obsidian su mobile non può cercare all'interno di un PDF, copiare una citazione o un collegamento a una selezione.
 
 ## Aprire un PDF
 
@@ -94,7 +94,7 @@ Per mostrare un PDF all'interno di una nota, vedi come [[Incorporare file#Incorp
 
 ## Esportare una nota in PDF
 
-Puoi esportare qualsiasi nota come PDF su desktop. L'esportazione in PDF non è disponibile nell'app Obsidian su mobile.
+Puoi esportare qualsiasi nota come PDF su desktop e mobile (l'esportazione su mobile è stata aggiunta nella v1.15). Alcune impostazioni di esportazione potrebbero differire tra desktop e mobile.
 
 1. Apri la nota che vuoi esportare.
 2. Apri il [[Riquadro comandi]] e seleziona **Esporta PDF**. Puoi anche selezionare **Altre opzioni** ![[lucide-more-horizontal.svg#icon]] nella nota, e poi selezionare **Esporta PDF**.

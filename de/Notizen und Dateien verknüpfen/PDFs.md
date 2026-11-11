@@ -7,7 +7,7 @@ description: 'Erfahren Sie, wie Sie PDFs in Obsidian anzeigen, durchsuchen und v
 Obsidian öffnet PDF-Dateien in einem integrierten Viewer. Du kannst eine PDF auch in eine Notiz einbetten, auf eine Passage darin verlinken und jede Notiz als PDF exportieren. Informationen zu den von Obsidian unterstützten Dateitypen findest du unter [[Akzeptierte Dateiformate]].
 
 > [!info]+ Einige Funktionen sind nur auf dem Desktop verfügbar
-> Die mobile Obsidian-App kann nicht innerhalb einer PDF suchen, ein Zitat oder einen Link zu einer Auswahl kopieren oder eine Notiz als PDF exportieren.
+> Die mobile Obsidian-App kann nicht innerhalb einer PDF suchen oder ein Zitat oder einen Link zu einer Auswahl kopieren.
 
 ## Eine PDF öffnen
 
@@ -94,7 +94,7 @@ Um eine PDF innerhalb einer Notiz anzuzeigen, siehe wie du [[Dateien einbetten#E
 
 ## Eine Notiz als PDF exportieren
 
-Du kannst jede Notiz auf dem Desktop als PDF exportieren. Der PDF-Export ist in der mobilen Obsidian-App nicht verfügbar.
+Du kannst jede Notiz auf dem Desktop und auf Mobilgeräten als PDF exportieren (mobiler Export wurde in v1.15 hinzugefügt). Einige Exporteinstellungen können sich zwischen Desktop und Mobilgeräten unterscheiden.
 
 1. Öffne die Notiz, die du exportieren möchtest.
 2. Öffne die [[Befehlspalette]] und wähle **Als PDF exportieren**. Du kannst auch **Weitere Optionen** ![[lucide-more-horizontal.svg#icon]] in der Notiz wählen und dann **Als PDF Exportieren** auswählen.

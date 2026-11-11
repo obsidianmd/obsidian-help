@@ -7,7 +7,7 @@ description: 'Apreneu a visualitzar, cercar i enllaçar PDF a Obsidian, i com ex
 Obsidian obre fitxers PDF en un visor integrat. També podeu incrustar un PDF en una nota, enllaçar un passatge i exportar qualsevol nota com a PDF. Per als tipus de fitxer que Obsidian admet, vegeu [[Formats de fitxer acceptats]].
 
 > [!info]+ Algunes funcions són només per a escriptori
-> L'aplicació d'Obsidian en mòbil no pot cercar dins d'un PDF, copiar una cita o un enllaç a una selecció, ni exportar una nota a PDF.
+> L'aplicació d'Obsidian en mòbil no pot cercar dins d'un PDF, copiar una cita o un enllaç a una selecció.
 
 ## Obrir un PDF
 
@@ -94,7 +94,7 @@ Per mostrar un PDF dins d'una nota, vegeu com [[Incrustar fitxers#Incrustar un P
 
 ## Exportar una nota a PDF
 
-Podeu exportar qualsevol nota com a PDF a l'escriptori. L'exportació a PDF no està disponible a l'aplicació d'Obsidian en mòbil.
+Podeu exportar qualsevol nota com a PDF a l'escriptori i en mòbil (l'exportació en mòbil s'ha afegit a la v1.15). Algunes opcions d'exportació poden diferir entre escriptori i mòbil.
 
 1. Obriu la nota que voleu exportar.
 2. Obriu la [[Paleta d'ordres]] i seleccioneu **Exporta a PDF...**. També podeu seleccionar **Més opcions** ![[lucide-more-horizontal.svg#icon]] a la nota, i després seleccionar **Exporta a PDF...**.

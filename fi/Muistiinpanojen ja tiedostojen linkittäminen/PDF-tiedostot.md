@@ -7,7 +7,7 @@ description: 'Opi tarkastelemaan, hakemaan ja linkittämään PDF-tiedostoja Obs
 Obsidian avaa PDF-tiedostot sisäänrakennetussa katseluohjelmassa. Voit myös upottaa PDF-tiedoston muistiinpanoon, linkittää sen tekstikohtaan ja viedä minkä tahansa muistiinpanon PDF-tiedostona. Katso Obsidianin tukemat tiedostotyypit kohdasta [[Hyväksytyt tiedostomuodot]].
 
 > [!info]+ Jotkin ominaisuudet ovat vain työpöytäversiossa
-> Obsidianin mobiilisovellus ei tue hakua PDF-tiedoston sisällä, lainauksen tai valintalinkin kopiointia eikä muistiinpanon vientiä PDF-muotoon.
+> Obsidianin mobiilisovellus ei tue hakua PDF-tiedoston sisällä eikä lainauksen tai valintalinkin kopiointia.
 
 ## PDF-tiedoston avaaminen
 
@@ -94,7 +94,7 @@ Jos haluat näyttää PDF-tiedoston muistiinpanon sisällä, katso kuinka [[Upot
 
 ## Muistiinpanon vieminen PDF-muotoon
 
-Voit viedä minkä tahansa muistiinpanon PDF-tiedostona työpöytäversiossa. Vienti PDF-muotoon ei ole käytettävissä Obsidianin mobiilisovelluksessa.
+Voit viedä minkä tahansa muistiinpanon PDF-tiedostona työpöytä- ja mobiiliversiossa (mobiilivienti lisättiin versiossa v1.15). Jotkin vientiasetukset voivat poiketa työpöytä- ja mobiiliversion välillä.
 
 1. Avaa muistiinpano, jonka haluat viedä.
 2. Avaa [[Komentovalikko]] ja valitse **Vie PDF...**. Voit myös valita muistiinpanossa **Lisää vaihtoehtoja** ![[lucide-more-horizontal.svg#icon]] ja sitten **Vie PDF...**.

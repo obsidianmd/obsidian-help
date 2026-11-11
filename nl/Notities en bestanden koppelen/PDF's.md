@@ -7,7 +7,7 @@ description: 'Leer hoe je PDF''s kunt bekijken, doorzoeken en ernaar kunt linken
 Obsidian opent PDF-bestanden in een ingebouwde viewer. Je kunt ook een PDF insluiten in een notitie, naar een passage erin linken en elke notitie als PDF exporteren. Zie [[Geaccepteerde bestandsformaten]] voor de bestandstypen die Obsidian ondersteunt.
 
 > [!info]+ Sommige functies zijn alleen beschikbaar op desktop
-> De mobiele Obsidian-app kan niet zoeken in een PDF, een citaat of een koppeling naar een selectie kopiëren, of een notitie naar PDF exporteren.
+> De mobiele Obsidian-app kan niet zoeken in een PDF, een citaat of een koppeling naar een selectie kopiëren.
 
 ## Een PDF openen
 
@@ -94,7 +94,7 @@ Zie hoe je [[Bestanden insluiten#Een PDF insluiten in een notitie|een PDF kunt i
 
 ## Een notitie exporteren naar PDF
 
-Je kunt elke notitie als PDF exporteren op desktop. Exporteren naar PDF is niet beschikbaar in de mobiele Obsidian-app.
+Je kunt elke notitie als PDF exporteren op desktop en mobiel (mobiel exporteren is toegevoegd in v1.15). Sommige exportinstellingen kunnen verschillen tussen desktop en mobiel.
 
 1. Open de notitie die je wilt exporteren.
 2. Open het [[Opdrachtenpaneel|opdrachtenpalet]] en selecteer **Exporteer naar PDF**. Je kunt ook **Meer opties** ![[lucide-more-horizontal.svg#icon]] in de notitie selecteren en vervolgens **Exporteer naar PDF** kiezen.

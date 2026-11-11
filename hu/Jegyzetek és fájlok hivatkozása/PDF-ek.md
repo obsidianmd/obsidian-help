@@ -7,7 +7,7 @@ description: 'Ismerje meg, hogyan tekintheti meg, keresheti és hivatkozhatja a 
 Az Obsidian beépített megjelenítővel nyitja meg a PDF fájlokat. PDF-et jegyzetbe is beágyazhat, hivatkozhat egy szakaszra, és bármely jegyzetet exportálhat PDF-ként. Az Obsidian által támogatott fájltípusokról lásd: [[Elfogadott fájlformátumok]].
 
 > [!info]+ Egyes funkciók csak asztali gépen érhetők el
-> Az Obsidian mobilalkalmazásban nem lehet PDF-ben keresni, idézetet vagy hivatkozást másolni a kijelölésre, valamint jegyzetet PDF-be exportálni.
+> Az Obsidian mobilalkalmazásban nem lehet PDF-ben keresni, idézetet vagy hivatkozást másolni a kijelölésre.
 
 ## PDF megnyitása
 
@@ -94,7 +94,7 @@ Ha PDF-et szeretne megjeleníteni egy jegyzetben, tekintse meg a [[Fájlok beág
 
 ## Jegyzet exportálása PDF-be
 
-Bármely jegyzetet exportálhat PDF-ként asztali gépen. A PDF-be exportálás nem érhető el az Obsidian mobilalkalmazásban.
+Bármely jegyzetet exportálhat PDF-ként asztali gépen és mobilon (a mobil exportálás a v1.15-ös verzióban került hozzáadásra). Egyes exportálási beállítások eltérhetnek asztali gép és mobil között.
 
 1. Nyissa meg az exportálni kívánt jegyzetet.
 2. Nyissa meg a [[Parancspaletta|parancspalettát]], és válassza az **PDF exportálása...** lehetőséget. A jegyzetben a **További lehetőségek** ![[lucide-more-horizontal.svg#icon]] menüből is kiválaszthatja a **PDF exportálása...** lehetőséget.

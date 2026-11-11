@@ -7,7 +7,7 @@ description: 'Obsidian''da PDF''leri görüntülemeyi, aramayı ve bağlantı ol
 Obsidian, PDF dosyalarını yerleşik bir görüntüleyicide açar. Ayrıca bir PDF'yi bir nota gömebilir, içindeki bir bölüme bağlantı verebilir ve herhangi bir notu PDF olarak dışa aktarabilirsiniz. Obsidian'ın desteklediği dosya türleri için [[Kabul edilen dosya biçimleri]] sayfasına bakın.
 
 > [!info]+ Bazı özellikler yalnızca masaüstünde kullanılabilir
-> Mobil Obsidian uygulaması bir PDF içinde arama yapamaz, alıntı veya seçime bağlantı kopyalayamaz ya da notu PDF'ye dışa aktaramaz.
+> Mobil Obsidian uygulaması bir PDF içinde arama yapamaz, alıntı veya seçime bağlantı kopyalayamaz.
 
 ## PDF açma
 
@@ -94,7 +94,7 @@ Bir PDF'yi bir notun içinde göstermek için [[Dosya gömme#Bir nota PDF gömme
 
 ## Bir notu PDF olarak dışa aktarma
 
-Herhangi bir notu masaüstünde PDF olarak dışa aktarabilirsiniz. PDF'ye dışa aktarma, mobil Obsidian uygulamasında kullanılamaz.
+Herhangi bir notu masaüstünde ve mobilde PDF olarak dışa aktarabilirsiniz (mobil dışa aktarma v1.15'te eklenmiştir). Bazı dışa aktarma ayarları masaüstü ve mobil arasında farklılık gösterebilir.
 
 1. Dışa aktarmak istediğiniz notu açın.
 2. [[Komut Paleti|Komut paletini]] açın ve **PDF Olarak Dışa Aktar** seçeneğini belirleyin. Ayrıca nottaki **Daha fazla seçenek** ![[lucide-more-horizontal.svg#icon]] öğesini ve ardından **PDF'yi dışa Aktar** seçeneğini de belirleyebilirsiniz.

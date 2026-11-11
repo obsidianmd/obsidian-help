@@ -7,7 +7,7 @@ description: 'Învață cum să vizualizezi, să cauți și să creezi linkuri c
 Obsidian deschide fișierele PDF într-un vizualizator integrat. Poți, de asemenea, să încorporezi un PDF într-o notiță, să creezi o legătură către un pasaj din acesta și să exporți orice notiță ca PDF. Pentru tipurile de fișiere pe care Obsidian le acceptă, consultă [[Formate de fișiere acceptate]].
 
 > [!info]+ Unele funcționalități sunt disponibile doar pe desktop
-> Aplicația Obsidian pe mobil nu poate căuta în interiorul unui PDF, copia un citat sau o legătură către o selecție, sau exporta o notiță ca PDF.
+> Aplicația Obsidian pe mobil nu poate căuta în interiorul unui PDF, copia un citat sau o legătură către o selecție.
 
 ## Deschide un PDF
 
@@ -94,7 +94,7 @@ Pentru a afișa un PDF în interiorul unei notițe, consultă cum să [[Încorpo
 
 ## Exportă o notiță ca PDF
 
-Poți exporta orice notiță ca PDF pe desktop. Exportul ca PDF nu este disponibil în aplicația Obsidian pe mobil.
+Poți exporta orice notiță ca PDF pe desktop și pe mobil (exportul pe mobil a fost adăugat în v1.15). Unele setări de export pot diferi între desktop și mobil.
 
 1. Deschide notița pe care vrei să o exporți.
 2. Deschide [[Paleta de comenzi]] și selectează **Export PDF**. Poți, de asemenea, să selectezi **Mai multe opțiuni** ![[lucide-more-horizontal.svg#icon]] în notiță, apoi să selectezi **Export PDF**.

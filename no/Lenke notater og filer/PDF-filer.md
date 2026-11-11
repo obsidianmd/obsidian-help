@@ -7,7 +7,7 @@ description: 'Lær hvordan du kan vise, søke i og lenke til PDF-er i Obsidian, 
 Obsidian åpner PDF-filer i en innebygd visning. Du kan også bygge inn en PDF i et notat, lenke til en passage i den, og eksportere et hvilket som helst notat som PDF. For filtypene Obsidian støtter, se [[Aksepterte filformater]].
 
 > [!info]+ Noen funksjoner er kun for skrivebord
-> Obsidian-appen på mobil kan ikke søke i en PDF, kopiere et sitat eller en lenke til en markering, eller eksportere et notat til PDF.
+> Obsidian-appen på mobil kan ikke søke i en PDF, kopiere et sitat eller en lenke til en markering.
 
 ## Åpne en PDF
 
@@ -94,7 +94,7 @@ For å vise en PDF inne i et notat, se hvordan du [[Bygge inn filer#Bygge inn en
 
 ## Eksportere et notat til PDF
 
-Du kan eksportere ethvert notat som PDF på skrivebord. Eksport til PDF er ikke tilgjengelig i Obsidian-appen på mobil.
+Du kan eksportere ethvert notat som PDF på skrivebord og mobil (mobileksport ble lagt til i v1.15). Noen eksportinnstillinger kan variere mellom skrivebord og mobil.
 
 1. Åpne notatet du vil eksportere.
 2. Åpne [[Kommandovelger|kommandopaletten]] og velg **Export PDF**. Du kan også velge **Flere valg** ![[lucide-more-horizontal.svg#icon]] i notatet, og deretter velge **Export PDF**.

@@ -7,7 +7,7 @@ description: 'Naučte se, jak zobrazovat, vyhledávat a odkazovat na PDF soubory
 Obsidian otevírá PDF soubory ve vestavěném prohlížeči. Můžete také vložit PDF do poznámky, odkázat na pasáž v něm a exportovat libovolnou poznámku jako PDF. Informace o typech souborů, které Obsidian podporuje, najdete v [[Podporované formáty souborů]].
 
 > [!info]+ Některé funkce jsou dostupné pouze na desktopu
-> Mobilní aplikace Obsidian neumí vyhledávat uvnitř PDF, kopírovat citaci ani odkaz na výběr, ani exportovat poznámku do PDF.
+> Mobilní aplikace Obsidian neumí vyhledávat uvnitř PDF, kopírovat citaci ani odkaz na výběr.
 
 ## Otevření PDF
 
@@ -94,7 +94,7 @@ Chcete-li zobrazit PDF uvnitř poznámky, podívejte se, jak [[Vkládání soubo
 
 ## Export poznámky do PDF
 
-Na desktopu můžete exportovat libovolnou poznámku jako PDF. Export do PDF není dostupný v mobilní aplikaci Obsidian.
+Libovolnou poznámku můžete exportovat jako PDF na desktopu i na mobilním zařízení (export na mobilním zařízení byl přidán ve verzi 1.15). Některá nastavení exportu se mohou mezi desktopem a mobilním zařízením lišit.
 
 1. Otevřete poznámku, kterou chcete exportovat.
 2. Otevřete [[Paleta příkazů|paletu příkazů]] a vyberte **Export PDF**. Můžete také vybrat **Více možností** ![[lucide-more-horizontal.svg#icon]] v poznámce a poté vybrat **Export PDF**.

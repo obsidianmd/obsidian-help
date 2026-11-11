@@ -7,7 +7,7 @@ description: 'Lär dig hur du visar, söker i och länkar till PDF-filer i Obsid
 Obsidian öppnar PDF-filer i en inbyggd visare. Du kan också bädda in en PDF i en anteckning, länka till ett avsnitt i den och exportera vilken anteckning som helst som en PDF. För de filtyper Obsidian stöder, se [[Accepterade filformat]].
 
 > [!info]+ Vissa funktioner finns bara på skrivbordet
-> Obsidians mobilapp kan inte söka inuti en PDF, kopiera ett citat eller en länk till en markering, eller exportera en anteckning till PDF.
+> Obsidians mobilapp kan inte söka inuti en PDF, kopiera ett citat eller en länk till en markering.
 
 ## Öppna en PDF
 
@@ -94,7 +94,7 @@ För att visa en PDF inuti en anteckning, se hur du [[Bädda in filer#Bädda in 
 
 ## Exportera en anteckning till PDF
 
-Du kan exportera vilken anteckning som helst som en PDF på skrivbordet. Export till PDF är inte tillgänglig i Obsidians mobilapp.
+Du kan exportera vilken anteckning som helst som en PDF på skrivbordet och mobil (mobilexport lades till i v1.15). Vissa exportinställningar kan skilja sig mellan skrivbordet och mobil.
 
 1. Öppna anteckningen du vill exportera.
 2. Öppna [[Kommandopalett|Kommandopaletten]] och välj **Exportera PDF**. Du kan också välja **Fler alternativ** ![[lucide-more-horizontal.svg#icon]] i anteckningen och sedan välja **Exportera PDF**.

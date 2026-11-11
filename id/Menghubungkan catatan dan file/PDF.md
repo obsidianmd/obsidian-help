@@ -7,7 +7,7 @@ description: 'Pelajari cara melihat, mencari, dan menautkan ke PDF di Obsidian, 
 Obsidian membuka file PDF di penampil bawaan. Anda juga dapat menyematkan PDF dalam catatan, menautkan ke bagian tertentu di dalamnya, dan mengekspor catatan apa pun sebagai PDF. Untuk jenis file yang didukung Obsidian, lihat [[Format file yang diterima]].
 
 > [!info]+ Beberapa fitur hanya tersedia di desktop
-> Aplikasi Obsidian di seluler tidak dapat mencari di dalam PDF, menyalin kutipan atau tautan ke seleksi, atau mengekspor catatan ke PDF.
+> Aplikasi Obsidian di seluler tidak dapat mencari di dalam PDF, menyalin kutipan atau tautan ke seleksi.
 
 ## Membuka PDF
 
@@ -94,7 +94,7 @@ Untuk menampilkan PDF di dalam catatan, lihat cara [[Sematkan file#Sematkan PDF 
 
 ## Mengekspor catatan ke PDF
 
-Anda dapat mengekspor catatan apa pun sebagai PDF di desktop. Ekspor ke PDF tidak tersedia di aplikasi Obsidian di seluler.
+Anda dapat mengekspor catatan apa pun sebagai PDF di desktop dan seluler (ekspor seluler ditambahkan di v1.15). Beberapa pengaturan ekspor mungkin berbeda antara desktop dan seluler.
 
 1. Buka catatan yang ingin Anda ekspor.
 2. Buka [[Palet perintah]] dan pilih **Ekspor PDF**. Anda juga dapat memilih **Opsi lain** ![[lucide-more-horizontal.svg#icon]] di catatan, lalu pilih **Ekspor PDF**.

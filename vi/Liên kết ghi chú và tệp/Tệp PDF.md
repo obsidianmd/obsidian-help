@@ -7,7 +7,7 @@ description: 'Tìm hiểu cách xem, tìm kiếm và liên kết đến các t�
 Obsidian mở tệp PDF trong trình xem tích hợp. Bạn cũng có thể nhúng PDF vào ghi chú, liên kết đến một đoạn trong đó và xuất bất kỳ ghi chú nào thành PDF. Để biết các loại tệp Obsidian hỗ trợ, xem [[Định dạng tệp được hỗ trợ]].
 
 > [!info]+ Một số tính năng chỉ có trên máy tính
-> Ứng dụng Obsidian trên di động không thể tìm kiếm bên trong PDF, sao chép trích dẫn hoặc liên kết đến phần được chọn, hoặc xuất ghi chú sang PDF.
+> Ứng dụng Obsidian trên di động không thể tìm kiếm bên trong PDF, sao chép trích dẫn hoặc liên kết đến phần được chọn.
 
 ## Mở PDF
 
@@ -94,7 +94,7 @@ Trên di động, chọn văn bản trong PDF sẽ hiển thị menu văn bản 
 
 ## Xuất ghi chú sang PDF
 
-Bạn có thể xuất bất kỳ ghi chú nào thành PDF trên máy tính. Xuất sang PDF không khả dụng trong ứng dụng Obsidian trên di động.
+Bạn có thể xuất bất kỳ ghi chú nào thành PDF trên máy tính và di động (xuất trên di động được thêm từ v1.15). Một số cài đặt xuất có thể khác nhau giữa máy tính và di động.
 
 1. Mở ghi chú bạn muốn xuất.
 2. Mở [[Khay lệnh|Bảng lệnh]] và chọn **Xuất PDF**. Bạn cũng có thể chọn **Tùy chọn khác** ![[lucide-more-horizontal.svg#icon]] trong ghi chú, sau đó chọn **Xuất PDF**.

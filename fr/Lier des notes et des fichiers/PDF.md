@@ -7,7 +7,7 @@ description: 'Apprenez à afficher, rechercher et créer des liens vers des PDF 
 Obsidian ouvre les fichiers PDF dans une visionneuse intégrée. Vous pouvez également intégrer un PDF dans une note, créer un lien vers un passage, et exporter n'importe quelle note en PDF. Pour les types de fichiers pris en charge par Obsidian, consultez [[Formats de fichiers acceptés]].
 
 > [!info]+ Certaines fonctionnalités sont réservées au bureau
-> L'application mobile Obsidian ne permet pas de rechercher dans un PDF, de copier une citation ou un lien vers une sélection, ni d'exporter une note en PDF.
+> L'application mobile Obsidian ne permet pas de rechercher dans un PDF, de copier une citation ou un lien vers une sélection.
 
 ## Ouvrir un PDF
 
@@ -94,7 +94,7 @@ Pour afficher un PDF à l'intérieur d'une note, consultez comment [[Incorporer 
 
 ## Exporter une note en PDF
 
-Vous pouvez exporter n'importe quelle note en PDF sur bureau. L'exportation en PDF n'est pas disponible dans l'application mobile Obsidian.
+Vous pouvez exporter n'importe quelle note en PDF sur bureau et sur mobile (l'exportation mobile a été ajoutée dans la v1.15). Certains paramètres d'exportation peuvent différer entre le bureau et le mobile.
 
 1. Ouvrez la note que vous souhaitez exporter.
 2. Ouvrez la [[Palette de commandes]] et sélectionnez **Exporter en PDF**. Vous pouvez également sélectionner **Plus d'options** ![[lucide-more-horizontal.svg#icon]] dans la note, puis sélectionner **Exporter en PDF**.
