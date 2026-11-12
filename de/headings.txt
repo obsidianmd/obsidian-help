@@ -4121,3 +4121,19 @@ translation=Eine PDF einbetten
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Eine Notiz als PDF exportieren
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Notizen aus Samsung Notes exportieren
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung-Notes-Daten in Obsidian importieren
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Einschränkungen
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Vorlagen

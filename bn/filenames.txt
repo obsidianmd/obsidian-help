@@ -242,6 +242,10 @@ translation=Microsoft OneNote থেকে ইম্পোর্ট করুন
 original=Import from Roam Research
 translation=Roam Research থেকে ইম্পোর্ট করুন
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Samsung Notes থেকে ইমপোর্ট
+
 [file.import/templates]
 original=Importer templates
 translation=ইম্পোর্টার টেমপ্লেট

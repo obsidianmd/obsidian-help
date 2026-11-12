@@ -2785,3 +2785,19 @@ translation=បង្កប់ PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=នាំចេញកំណត់ចំណាំទៅ PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=នាំចេញកំណត់ចំណាំរបស់អ្នកពី Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=នាំចូលទិន្នន័យ Samsung Notes របស់អ្នកទៅក្នុង Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=ដែនកំណត់
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=ពុម្ព

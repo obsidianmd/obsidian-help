@@ -1141,3 +1141,19 @@ translation=הטמעת PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=ייצוא הערה ל-PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=ייצוא ההערות שלך מ-Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=ייבוא נתוני Samsung Notes ל-Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=מגבלות
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=תבניות

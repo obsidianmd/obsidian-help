@@ -4193,3 +4193,19 @@ translation=PDF 임베드하기
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=노트를 PDF로 내보내기
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Samsung Notes에서 노트 내보내기
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung Notes 데이터를 Obsidian으로 가져오기
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=제한 사항
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=템플릿

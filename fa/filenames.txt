@@ -242,6 +242,10 @@ translation=درج از Microsoft OneNote
 original=Import from Roam Research
 translation=درج از Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=وارد کردن از Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=الگوهای واردکننده

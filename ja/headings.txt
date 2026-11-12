@@ -4361,3 +4361,19 @@ translation=PDFを埋め込む
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=ノートをPDFにエクスポートする
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Samsung Notesからノートをエクスポートする
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung NotesのデータをObsidianにインポートする
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=制限事項
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=テンプレート

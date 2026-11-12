@@ -213,3 +213,19 @@ translation=Încorporează un PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Exportă o notiță ca PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exportă notițele din Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importă datele din Samsung Notes în Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Limitări
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Șabloane

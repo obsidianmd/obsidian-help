@@ -4265,3 +4265,19 @@ translation=Встраивание PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Экспорт заметки в PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Экспорт заметок из Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Импорт данных Samsung Notes в Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Ограничения
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Шаблоны

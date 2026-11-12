@@ -4265,3 +4265,19 @@ translation=Incrustar un PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Exportar una nota a PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exportar tus notas desde Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importar tus datos de Samsung Notes a Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Limitaciones
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Plantillas

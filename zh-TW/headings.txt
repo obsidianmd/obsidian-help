@@ -4301,3 +4301,19 @@ translation=嵌入 PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=將筆記匯出為 PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=從 Samsung Notes 匯出筆記
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=將 Samsung Notes 資料匯入 Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=限制
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=模板

@@ -242,6 +242,10 @@ translation=Εισαγωγή από Microsoft OneNote
 original=Import from Roam Research
 translation=Εισαγωγή από Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Εισαγωγή από Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Πρότυπα εισαγωγέα

@@ -1165,3 +1165,19 @@ translation=Ενσωμάτωση PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Εξαγωγή σημείωσης σε PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Εξαγωγή των σημειώσεών σας από το Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Εισαγωγή των δεδομένων Samsung Notes στο Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Περιορισμοί
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Πρότυπα

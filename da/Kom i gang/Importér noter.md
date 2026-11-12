@@ -21,6 +21,7 @@ Applikationer kommer og går, men dine data burde blive ved med at eksistere. Ob
 - <span class="icon-app icon-craft"></span> [[Import fra Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Import fra Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Import fra Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Import fra Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Import fra Tomboy og Gnote|Tomboy and Gnote]]
 - <span class="icon-app icon-html"></span> [[Import af HTML filer|HTML files]]
 - <span class="icon-app icon-md"></span> [[Importér CSV-filer]]

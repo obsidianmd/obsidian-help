@@ -20,6 +20,7 @@ Le app vanno e vengono, ma i tuoi dati dovrebbero durare. Obsidian utilizza file
 - <span class="icon-app icon-craft"></span> [[Importa da Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importa da Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importa da Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importa da Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importa da Tomboy e Gnote|Tomboy e Gnote]]
 - <span class="icon-app icon-html"></span> [[Importa file HTML|File HTML]]
 - <span class="icon-app icon-md"></span> [[Importa file CSV|File CSV]]

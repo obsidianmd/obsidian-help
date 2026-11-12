@@ -849,3 +849,19 @@ translation=PDF-tiedoston upottaminen
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Muistiinpanon vieminen PDF-muotoon
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Vie muistiinpanosi Samsung Notesista
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Tuo Samsung Notes -tiedot Obsidianiin
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Rajoitukset
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Mallineet

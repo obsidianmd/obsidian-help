@@ -18,6 +18,7 @@ Sovellukset tulevat ja menevät, mutta tietojesi tulisi kestää. Obsidian käyt
 - <span class="icon-app icon-craft"></span> [[Tuo Craftista|Craft]]
 - <span class="icon-app icon-roam"></span> [[Tuo Roam Researchista|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Tuo Logseqista|Logseq]]
+- <span class="icon-app icon-md"></span> [[Tuo Samsung Notesista|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Tuo Tomboysta ja Gnotesta|Tomboy ja Gnote]]
 - <span class="icon-app icon-html"></span> [[Tuo HTML-tiedostoja|HTML-tiedostot]]
 - <span class="icon-app icon-md"></span> [[Tuo CSV-tiedostoja]]

@@ -18,6 +18,7 @@ Les aplicacions van i vénen, però les teves dades haurien de perdurar. Obsidia
 - <span class="icon-app icon-craft"></span> [[Importar des de Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importar des de Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importar des de Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importar des de Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importar des de Tomboy i Gnote|Tomboy i Gnote]]
 - <span class="icon-app icon-html"></span> [[Importar fitxers HTML|Fitxers HTML]]
 - <span class="icon-app icon-md"></span> [[Importar fitxers CSV]]

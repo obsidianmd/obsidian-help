@@ -1377,3 +1377,19 @@ translation=Indlejr en PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Eksportér en note til PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Eksportér dine noter fra Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importér dine Samsung Notes-data til Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Begrænsninger
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Skabeloner

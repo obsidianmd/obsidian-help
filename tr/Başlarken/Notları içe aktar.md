@@ -18,6 +18,7 @@ Uygulamalar gelir ve gider, ancak verileriniz kalıcı olmalıdır. Obsidian, ci
 - <span class="icon-app icon-craft"></span> [[Craft'tan içe aktar|Craft]]
 - <span class="icon-app icon-roam"></span> [[Roam Research'ten içe aktar|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Logseq'ten içe aktar|Logseq]]
+- <span class="icon-app icon-md"></span> [[Samsung Notes'tan içe aktar|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Tomboy ve Gnote'tan içe aktar|Tomboy ve Gnote]]
 - <span class="icon-app icon-html"></span> [[HTML dosyalarını içe aktar|HTML dosyaları]]
 - <span class="icon-app icon-md"></span> [[CSV dosyalarını içe aktar]]

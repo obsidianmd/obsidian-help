@@ -242,6 +242,10 @@ translation=Microsoft OneNote'tan içe aktar
 original=Import from Roam Research
 translation=Roam Research'ten içe aktar
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Samsung Notes'tan içe aktarma
+
 [file.import/templates]
 original=Importer templates
 translation=İçe aktarıcı şablonları

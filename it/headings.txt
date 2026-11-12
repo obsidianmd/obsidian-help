@@ -4221,3 +4221,19 @@ translation=Incorporare un PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Esportare una nota in PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Esportare le note da Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importare i dati di Samsung Notes in Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Limitazioni
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Modelli

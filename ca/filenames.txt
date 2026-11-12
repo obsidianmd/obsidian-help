@@ -242,6 +242,10 @@ translation=Importar des de Microsoft OneNote
 original=Import from Roam Research
 translation=Importar des de Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Importar des de Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Plantilles de l'importador

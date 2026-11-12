@@ -242,6 +242,10 @@ translation=استيراد من Microsoft OneNote
 original=Import from Roam Research
 translation=استيراد من Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=الاستيراد من Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=قوالب المستورد

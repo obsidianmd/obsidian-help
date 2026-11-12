@@ -242,6 +242,10 @@ translation=Tuo Microsoft OneNotesta
 original=Import from Roam Research
 translation=Tuo Roam Researchista
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Tuo Samsung Notesista
+
 [file.import/templates]
 original=Importer templates
 translation=Tuontimallineet

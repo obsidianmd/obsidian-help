@@ -1965,3 +1965,19 @@ translation=Vloženie PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Export poznámky do PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Export poznámok zo Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Import dát Samsung Notes do Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Obmedzenia
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Šablóny

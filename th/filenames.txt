@@ -242,6 +242,10 @@ translation=นำเข้าจาก Microsoft OneNote
 original=Import from Roam Research
 translation=นำเข้าจาก Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=นำเข้าจาก Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=เทมเพลตตัวนำเข้า

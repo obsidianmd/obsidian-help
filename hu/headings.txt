@@ -1041,3 +1041,19 @@ translation=PDF beágyazása
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Jegyzet exportálása PDF-be
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Jegyzetek exportálása a Samsung Notes-ból
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung Notes adatok importálása az Obsidianba
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Korlátozások
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Sablonok

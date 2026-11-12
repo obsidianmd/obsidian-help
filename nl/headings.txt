@@ -1537,3 +1537,19 @@ translation=Een PDF insluiten
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Een notitie exporteren naar PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Je notities exporteren uit Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Je Samsung Notes-gegevens importeren in Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Beperkingen
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Sjablonen

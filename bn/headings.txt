@@ -217,3 +217,19 @@ translation=PDF এম্বেড করুন
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=নোটকে PDF-এ এক্সপোর্ট করুন
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Samsung Notes থেকে আপনার নোট এক্সপোর্ট করুন
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=আপনার Samsung Notes ডেটা Obsidian-এ ইম্পোর্ট করুন
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=সীমাবদ্ধতা
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=টেমপ্লেট

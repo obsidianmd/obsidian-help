@@ -4297,3 +4297,19 @@ translation=PDF gömme
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Bir notu PDF olarak dışa aktarma
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Notlarınızı Samsung Notes'tan dışa aktarın
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung Notes verilerinizi Obsidian'a içe aktarın
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Sınırlamalar
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Şablonlar

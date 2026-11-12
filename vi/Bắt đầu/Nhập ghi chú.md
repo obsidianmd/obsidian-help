@@ -18,6 +18,7 @@ Các ứng dụng đến rồi đi, nhưng dữ liệu của bạn nên tồn t�
 - <span class="icon-app icon-craft"></span> [[Nhập từ Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Nhập từ Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Nhập từ Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Nhập từ Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Nhập từ Tomboy và Gnote|Tomboy and Gnote]]
 - <span class="icon-app icon-html"></span> [[Nhập tệp HTML|Tệp HTML]]
 - <span class="icon-app icon-md"></span> [[Nhập tệp CSV]]

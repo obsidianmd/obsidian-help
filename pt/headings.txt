@@ -969,3 +969,19 @@ translation=Incorporar um PDF
 [heading.pdf/Export a note to PDF]
 original=Export a note to PDF
 translation=Exportar uma nota para PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exportar as suas notas do Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importar os seus dados do Samsung Notes para o Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Limitações
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Modelos

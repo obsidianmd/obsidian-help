@@ -18,6 +18,7 @@ Apps komen en gaan, maar je gegevens zouden moeten blijven. Obsidian gebruikt ni
 - <span class="icon-app icon-craft"></span> [[Importeren vanuit Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importeren vanuit Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importeren vanuit Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importeren vanuit Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importeren vanuit Tomboy en Gnote|Tomboy en Gnote]]
 - <span class="icon-app icon-html"></span> [[HTML-bestanden importeren|HTML-bestanden]]
 - <span class="icon-app icon-md"></span> [[CSV-bestanden importeren]]
