@@ -56,9 +56,8 @@ To show the ribbon on the left side of the window, use any of these:
 In the mobile version of Obsidian, you can perform quick access actions, rearrange items, and customize the ribbon menu. To access these customizations, follow these steps:
 
 1. Open Obsidian's **[[Settings]]** ![[lucide-cog.svg#icon]].
-2. Navigate to the **appearance** section.
-3. Scroll down to the **advanced** options.
-4. Select the **Manage** button under the **Ribbon menu** item.
+2. Select **Interface**.
+3. Select **Ribbon menu configuration**.
 
 #### Quick access
 

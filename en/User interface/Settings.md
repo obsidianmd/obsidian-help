@@ -23,7 +23,7 @@ In the sidebar, select **[[Settings]]** ![[lucide-cog.svg#icon]]. Settings open 
 
 Settings are organized into the following categories:
 
-- **Options** — Core application settings including [[#General]], [[#Editor]], [[#Files and links]], [[#Appearance]], and [[#Hotkeys]].
+- **Options** — Core application settings including [[#General]], [[#Editor]], [[#Files and links]], [[#Appearance]], [[#Interface]], and [[#Hotkeys]].
 - **[[Core plugins]]** — Built-in plugins that come with Obsidian.
 - **[[Community plugins]]** — Third-party plugins installed from the community.
 
@@ -76,6 +76,10 @@ If you support [Obsidian for work](<https://obsidian.md/blog/free-for-work/>), s
 
 When enabled, Obsidian displays a notification if startup is unusually slow. The notification includes diagnostic information about what's causing the delay. Select the timer icon ![[lucide-timer.svg#icon]] next to this setting to [[Help and support#Check startup time|check your startup time]].
 
+#### Hardware acceleration
+
+Turns on Hardware Acceleration, which uses your GPU to make Obsidian smoother. If you turn this off, app performance can be severely degraded but may solve some rare issues.
+
 ## Editor
 
 The Editor page contains settings for how you view and edit notes.
@@ -97,6 +101,10 @@ The default editing mode a new tab will start with. Choose between [[Views and e
 Show the editing mode toggle in the [[Status bar|status bar]].
 
 ### Display
+
+#### Inline title
+
+Displays the filename as an editable title inline with the file contents. The inline title acts as a heading within Obsidian but does not add a heading to your note.
 
 #### Readable line length
 
@@ -303,26 +311,59 @@ Font size is saved separately on each device and does not sync through [[Introdu
 
 Adjust the font size using `Ctrl+Scroll` (Windows/Linux) or `Cmd+Scroll` (macOS), or using the trackpad pinch-zoom gesture. You can also use **Increase font size** and **Decrease font size** in the [[Command palette]], or assign them [[Hotkeys|keyboard shortcuts]].
 
-### Interface
+### Advanced
 
-#### Show inline title
+#### Custom app icon
 
-Displays the filename as an editable title inline with the file contents. The inline title acts as a heading within Obsidian but does not add a heading to your note.
+Set a custom icon for the app. Select **Choose** to pick an icon file (`.icns`, `.ico`, `.png`, or `.svg`). Learn more about [[Appearance#Custom app icon|custom app icons]].
 
-#### Show tab title bar
+#### Translucent window
+
+Turn on translucency effect to enhance a sense of depth. Best used with dark mode. Not supported on Linux.
+
+> [!info]+ macOS only
+> This feature is primarily designed for macOS. Learn more about [[Appearance#Translucency|translucency]].
+
+### CSS snippets
+
+Manage and view [[CSS snippets|CSS snippets]] stored in your vault. CSS Snippets are stored in `/vault/.obsidian/snippets/`. Select the refresh icon to reload snippets, or the folder icon ![[lucide-folder-open.svg#icon]] to open the snippets folder.
+
+## Interface
+
+The Interface page contains settings for the parts of the app around your notes.
+
+### Show tab title bar
 
 Display the header at the top of every tab.
 
-#### Show ribbon
+### Show ribbon
 
 Display vertical toolbar on the side of the window. New vaults hide the ribbon. Learn more about the [[Ribbon|ribbon]].
 
-#### Ribbon menu configuration
+### Ribbon menu configuration
 
-Configure what commands appear in the ribbon menu. Select **Manage** to customize.
+Configure what commands appear in the ribbon menu. This setting appears when the ribbon is shown, and always on mobile.
 
 > [!info]+ Mobile ribbon configuration
 > On mobile, ribbon customization works differently. See [[Ribbon#Mobile|Ribbon customization on mobile]] for details.
+
+### Mobile
+
+#### Full screen
+
+Automatically hide interface elements while reading. Phones only.
+
+#### Floating navigation
+
+Navigation buttons float over the content instead of being anchored.
+
+#### Configure mobile Quick Action
+
+Choose the command that runs when you pull down from the top of the screen. Learn more about the [[Mobile app#Quick Action|Quick Action]].
+
+#### Configure mobile toolbar
+
+Manage the commands in the toolbar above the keyboard. Learn more about the [[Mobile app#Mobile toolbar|mobile toolbar]].
 
 ### Advanced
 
@@ -342,24 +383,9 @@ Determines the styling of the title bar of Obsidian windows. Requires a full res
 - **Native frame** — Uses your operating system's default window frame.
 - **Hidden frame** — Hides the title bar completely.
 
-#### Custom app icon
+#### Open settings in new window
 
-Set a custom icon for the app. Select **Choose** to pick an icon file (`.icns`, `.ico`, `.png`, or `.svg`). Learn more about [[Appearance#Custom app icon|custom app icons]].
-
-#### Translucent window
-
-Turn on translucency effect to enhance a sense of depth. Best used with dark mode. Not supported on Linux.
-
-> [!info]+ macOS only
-> This feature is primarily designed for macOS. Learn more about [[Appearance#Translucency|translucency]].
-
-#### Hardware acceleration
-
-Turns on Hardware Acceleration, which uses your GPU to make Obsidian smoother. If you turn this off, app performance can be severely degraded but may solve some rare issues. 
-
-### CSS snippets
-
-Manage and view [[CSS snippets|CSS snippets]] stored in your vault. CSS Snippets are stored in `/vault/.obsidian/snippets/`. Select the refresh icon to reload snippets, or the folder icon ![[lucide-folder-open.svg#icon]] to open the snippets folder.
+Open settings in its own window instead of embedded in the app.
 
 ## Hotkeys
 

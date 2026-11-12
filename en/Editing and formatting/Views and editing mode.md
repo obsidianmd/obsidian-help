@@ -30,7 +30,7 @@ To switch to *Reading view*:
 - Or press `Ctrl+E` (`Cmd+E` on macOS).
 
 > [!note] Note
-> Enable **[[Settings]] → Appearance → Show tab title bar** to see the view switcher icon.  
+> Enable **[[Settings]] → Interface → Show tab title bar** to see the view switcher icon.  
 > 
 > If that is disabled, turn on **[[Settings]] → Editor → Show editing mode in status bar** to toggle views from the status bar.
 

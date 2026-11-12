@@ -322,8 +322,8 @@ On the desktop version, you can customize the ribbon as follows:
 In the mobile version, you can customize the ribbon through settings:
 
 1. Open **[[Settings]]**.
-2. Navigate to **Appearance**.
-3. Click **Manage** under **Ribbon menu**.
+2. Navigate to **Interface**.
+3. Click **Ribbon menu configuration**.
 ```
 
 > [!info]+ When to create sections?
