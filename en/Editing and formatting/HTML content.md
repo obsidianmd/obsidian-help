@@ -60,6 +60,25 @@ This will not work correctly:
 </table>
 ```
 
+### HTML blocks end at a blank line
+
+An HTML block that starts on its own line runs on until the next blank line. Any Markdown on the lines right after it, such as a `[[link]]` or a `#tag`, is part of the block: Reading view shows it as plain text, and it is not indexed, so the link is missing from the other note's backlinks and the tag from tag search. Leave a blank line after the HTML block.
+
+This will not work correctly:
+
+```md
+<hr>
+See [[Other note]]. #tag
+```
+
+This will work:
+
+```md
+<hr>
+
+See [[Other note]]. #tag
+```
+
 ### When Markdown appears to work in HTML
 
 Some inline HTML tags like `<span>` or `<a>` have limited functionality and may appear to render Markdown, but this is not actually what's happening. The Markdown is being processed outside of the HTML context.
