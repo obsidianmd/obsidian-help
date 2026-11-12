@@ -16,7 +16,7 @@ For improved access control on your publish site, apply a site password. Visitor
 
 ### Add a site password
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+1. Open the [[Command palette]] and run **Publish: Publish changes...**.
 2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
 3. Under **Other site settings**, next to **Passwords**, click **Manage**.
 4. Click **New password**.
@@ -26,7 +26,7 @@ For improved access control on your publish site, apply a site password. Visitor
 
 ### Remove a site password
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+1. Open the [[Command palette]] and run **Publish: Publish changes...**.
 2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
 3. Under **Other site settings**, next to **Passwords**, click **Manage**.
 5. Click the cross-icon next to the password you want to delete.

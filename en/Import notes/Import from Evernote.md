@@ -23,7 +23,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
+4. Open the [[Command palette]] and run **Importer: Import notes**.
 5. Under **File format** choose **Evernote (.enex)**.
 6. Select the location of your Evernote backup file.
 7. Select **Import** to review the generated template and preview examples from your notes.

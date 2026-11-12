@@ -11,7 +11,7 @@ publish: true
 
 Obsidian has two sidebars: a left sidebar and a right sidebar. Sidebars hold tabs created by plugins, such as [[Backlinks]], [[Outgoing links]], and the [[File explorer]]. On desktop, you can also drag notes into the sidebar to keep them visible alongside your main editor. 
 
-On desktop and larger tablets, the left sidebar includes the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]]. 
+On desktop and larger tablets, the left sidebar can also show the [[Ribbon]]. On mobile and smaller tablets, the sidebars are [[#Open hidden sidebars|collapsed by default]].
 
 ## Open hidden sidebars
 

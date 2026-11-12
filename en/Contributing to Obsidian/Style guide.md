@@ -349,7 +349,7 @@ Include icons and images when they make it easier to explain things that are har
 
 [Lucide](https://lucide.dev/icons/) and custom Obsidian icons can be used alongside detailed elements to provide a visual representation of a feature.
 
-**Example:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
+**Example:** In the [[File explorer]], select **New folder** ![[lucide-folder-plus.svg#icon]] to create a folder.
 
 **Guidelines for icons**
 
@@ -357,7 +357,7 @@ Include icons and images when they make it easier to explain things that are har
 - Add the prefix `lucide-` before the Lucide icon name.
 - Add the prefix `obsidian-icon-` before the Obsidian icon name.
 
-**Example:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
+**Example:** The icon for creating a new folder should be named `lucide-folder-plus`.
 
 - Use the SVG version of the icons available.
 - Icons should be `18` pixels in width, `18` pixels in height, and have a stroke width of `1.5`. You can adjust these settings in the SVG data.

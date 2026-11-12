@@ -23,10 +23,6 @@ To start using Canvas, you first need to create a file to hold your canvas. You 
 - In the [[File explorer]], right-click the folder you want to create the canvas in.
 - Select **New canvas**.
 
-**Ribbon:**
-
-- In the vertical ribbon menu, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
-
 > [!note] The .canvas file extension
 > Obsidian stores your canvas data as `.canvas` files using an open file format called [JSON Canvas](https://jsoncanvas.org/).
 

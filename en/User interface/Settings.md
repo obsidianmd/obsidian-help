@@ -315,7 +315,7 @@ Display the header at the top of every tab.
 
 #### Show ribbon
 
-Display vertical toolbar on the side of the window. Learn more about the [[Ribbon|ribbon]].
+Display vertical toolbar on the side of the window. New vaults hide the ribbon. Learn more about the [[Ribbon|ribbon]].
 
 #### Ribbon menu configuration
 

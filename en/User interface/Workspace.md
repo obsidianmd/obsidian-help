@@ -13,7 +13,7 @@ The workspace is the main container for all the components that make up the Obsi
 
 In the Obsidian desktop app the workspace includes:
 
-- [[Ribbon]] running vertically on the left side of the app
+- [[Ribbon]] running vertically on the left side of the app, when turned on
 - [[Sidebar|Sidebars]] on the left and right side (can be collapsed)
     - [[Sidebar#Tab groups|Sidebar tab groups]] (can be split vertically)
     - [[Sidebar#Tabs|Sidebar tabs]]

@@ -20,7 +20,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
+4. Open the [[Command palette]] and run **Importer: Import notes**.
 5. Under **File format** choose **Microsoft OneNote**.
 6. Click **Sign in** to open your web browser to the Microsoft sign-in page. Enter the credentials for your Microsoft account which contains your OneNote Notebooks. More information about the Microsoft sign-in process is available below.
 7. Click **Accept** to grant Obsidian permission to view your OneNote Notebooks.
@@ -85,7 +85,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
+4. Open the [[Command palette]] and run **Importer: Import notes**.
 5. Under **File format** choose **Microsoft OneNote (.one, .onepkg)**.
 6. Choose the `.onepkg` and `.one` files you want to import. You can pick more than one file at a time, so all your notebooks can be imported together.
 7. Under **Sections to import** the sections found in those files are listed, with everything checked. Uncheck anything you don't want.

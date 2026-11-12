@@ -81,10 +81,10 @@ tags:
 
 > [!todo] [[#Set your template folder]] before inserting a template.
 
-1. In the ribbon, select **Insert template**.
+1. Open the [[Command palette]] and run **Templates: Insert template**.
 2. Select the template to insert at the cursor position in the active note.
 
-To insert a template using the [[Command palette]] or [[Hotkeys#Set a hotkey|a custom keyboard shortcut]], use the command `Templates: Insert template`.
+To insert templates with a keyboard shortcut, [[Hotkeys#Set a hotkey|set a hotkey]] for `Templates: Insert template`.
 
 The content of the template is inserted at your current cursor position. If your cursor is not in the note body, the content is inserted at your last cursor position.
 

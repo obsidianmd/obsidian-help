@@ -7,9 +7,9 @@ permalink: ribbon
 publish: true
 ---
 
-The ribbon functions as a space for common commands within Obsidian. 
+The ribbon functions as a space for common commands within Obsidian.
 
-On desktop, it's located in the [[Sidebar#Open hidden sidebars|left Sidebar]] and remains visible even when the left Sidebar is closed. 
+On desktop, it's located in the [[Sidebar#Open hidden sidebars|left Sidebar]] and remains visible even when the left Sidebar is closed. New vaults hide the ribbon on desktop. To turn it on, see [[#Show the ribbon]].
 
 On mobile, you can access the [[Mobile app#Ribbon actions|Ribbon Actions]] by tapping the **Menu option** ![[lucide-menu.svg#icon]] at the bottom-right corner of the app when you're not editing a note.
 
@@ -17,9 +17,7 @@ On mobile, you can access the [[Mobile app#Ribbon actions|Ribbon Actions]] by ta
 
 Each action is represented by an icon in the ribbon. Hovering over these icons will display a tooltip, while selecting them will activate the associated action. On mobile, you can tap these icons to activate them.
 
-1. Open **[[Manage vaults|Vault switcher]]** ![[obsidian-icon-vault-switcher.svg#icon]].
-2. Access **help** ![[lucide-help-circle.svg#icon]].
-3. Open **[[Settings]]** ![[lucide-settings.svg#icon]].
+When the ribbon is hidden, you can run most of its actions from the [[Command palette]]. The vault switcher, help, and [[Settings]] are in the [[Manage vaults|Vault profile]] at the bottom of the left sidebar.
 
 In the mobile version, you can configure a quick access action on the ribbon. For more information, see the [[#Mobile|mobile section]] and [[Mobile app]].
 
@@ -36,19 +34,19 @@ On the desktop version, you can customize the ribbon as follows:
 
 #### Hide the ribbon
 
-You can hide the ribbon in two ways:
+You can hide the ribbon in any of these ways:
 
 - Right-click on the ribbon and select **Hide ribbon**.
-- Open **[[Settings]]** → **Appearance**, scroll down to **Advanced**, and disable **Show ribbon**.
+- In the app menu, select **View** → **Ribbon**.
+- Open **[[Settings]]** → **Appearance**, and under **Interface**, turn off **Show ribbon**.
 
 #### Show the ribbon
 
-If you have hidden the ribbon and want to display it again:
+To show the ribbon on the left side of the window, use any of these:
 
-1. Open **[[Settings]]** → **Appearance**.
-2. Scroll down to **Advanced**.
-3. Enable **Show ribbon**.
-4. The ribbon will appear again on the left side of the window.
+- In the app menu, select **View** → **Ribbon**.
+- Right-click the left sidebar toggle ![[obsidian-icon-side-bar-left.svg#icon]] and select **Ribbon**.
+- Open **[[Settings]]** → **Appearance**, and under **Interface**, turn on **Show ribbon**.
 
 > [!tip] Custom CSS
 > If you're using a community theme or custom CSS, make sure it does not hide the ribbon through custom style rules.

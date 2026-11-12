@@ -9,12 +9,6 @@ For example, if you create a new note at 09:45 on Jan 1st, 2024, Unique note cre
 
 ## Create a unique note
 
-**Ribbon:**
-
-- In the ribbon, click **Create new unique note** ![[obsidian-icon-sheets-in-box.svg#icon]].
-
-**Command palette:**
-
 1. Press `Ctrl+P` (or `Cmd+P` on macOS) to open the [[Command palette]].
 2. Search for the **Create new unique note** command.
 3. Press `Enter` with the command selected.
