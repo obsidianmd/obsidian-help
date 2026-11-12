@@ -19,7 +19,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the [[Command palette]] and run **Importer: Import notes**.
+4. Open Importer in Settings or using the [[Command palette]].
 5. Under **File format** choose **Roam Research (.json).**
 6. Select the location of your `.json` file.
 7. Under **Output folder**, choose where your files should import.

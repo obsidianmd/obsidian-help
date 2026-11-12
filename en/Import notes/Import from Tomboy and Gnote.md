@@ -19,7 +19,7 @@ The exact location may differ if you moved the data folder or use a different ve
 
 1. Open **[[Settings]] → Community plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Enable the Importer plugin.
-3. Open the [[Command palette]] and run **Importer: Import notes**.
+3. Open Importer in Settings or using the [[Command palette]].
 4. Under **File format**, select **Tomboy/Gnote (.note)**.
 5. Choose individual `.note` files or the folder containing them.
 6. Review the import options, generated template, and preview examples.

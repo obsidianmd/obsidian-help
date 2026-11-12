@@ -53,7 +53,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the [[Command palette]] and run **Importer: Import notes**.
+4. Open Importer in Settings or using the [[Command palette]].
 5. Under **File format** select **Notion (API)**
 6. Under **API token**, click **Link...** to add a new secret. For the **ID**, give it a name like `notion`, and for the **Secret** paste your **Access token** from Notion.
 7. Click **Load** to choose the databases and pages you want to import.
@@ -108,7 +108,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the [[Command palette]] and run **Importer: Import notes**.
+4. Open Importer in Settings or using the [[Command palette]].
 5. Under **File format** select **Notion (.zip)**
 6. Choose the `.zip` file with Notion files you want to import. *It's recommended to import all your Notion at once so internal links can be reconciled correctly.*
 7. _Optionally_, select a folder for the import Your Notion pages and databases will be nested inside this folder.

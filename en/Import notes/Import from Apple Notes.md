@@ -14,7 +14,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the [[Command palette]] and run **Importer: Import notes**.
+4. Open Importer in Settings or using the [[Command palette]].
 5. Under **File format** choose **Apple Notes**.
 6. Select **Import**.
 7. Select **Open** on the popup titled `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.

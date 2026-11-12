@@ -24,7 +24,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the [[Command palette]] and run **Importer: Import notes**.
+4. Open Importer in Settings or using the [[Command palette]].
 5. Under **File format**, choose **Samsung Notes (.sdocx)**.
 6. Select your `.sdocx` files, or a `.zip` file that contains them.
 7. Select **Import** to review the generated template and preview examples from your notes.
