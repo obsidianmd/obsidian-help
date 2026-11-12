@@ -16,7 +16,7 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 1. Åbn **[[Indstillinger]]**.
 2. Gå til **Fællesskabsplugins** og [installér Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivér Importer-pluginet.
-4. Åbn **Importer**-pluginet ved hjælp af kommandopaletten eller værktøjslinjeikonen.
+4. Åbn Importer i Indstillinger eller ved hjælp af [[Kommandopalet|kommandopaletten]].
 5. Under **Filformat** vælg **CSV (.csv).**
 6. Vælg placeringen af din CSV-fil.
 7. Vælg **Importér** for at konfigurere, hvordan data i din CSV-fil konverteres til noter med [[Egenskaber]].

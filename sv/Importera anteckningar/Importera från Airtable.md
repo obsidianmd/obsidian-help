@@ -30,7 +30,7 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 1. Öppna **[[Inställningar]]**.
 2. Gå till **Användartillägg** och [installera Importerare](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivera Importerare-tillägget.
-4. Öppna **Importerare**-tillägget med kommandopaletten eller ribbon-ikonen.
+4. Öppna Importerare i Inställningar eller med [[Kommandopalett|kommandopaletten]].
 5. Under **Filformat** välj **Airtable**.
 6. Under **Airtable Personal Access Token**, klicka på **Länka...** för att lägga till en ny hemlighet. Som **ID** ger du den ett namn som `airtable`, och som **Hemlighet** klistrar du in din personliga åtkomsttoken.
 7. Klicka på **Ladda** för att bläddra bland dina baser och välj sedan de tabeller du vill importera.

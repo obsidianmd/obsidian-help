@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. Dosya gezgininde, tabanı oluşturmak istediğiniz klasöre sağ tıklayın.
 2. **Yeni taban** seçeneğini seçin.
 
-**Araç çubuğu:**
-
-- Dikey araç çubuğu menüsünde, etkin dosyayla aynı klasörde bir taban oluşturmak için **Yeni taban oluştur**'u seçin.
-
 ## Bir tabanı gömme
 
 ### Bir taban dosyasını gömme

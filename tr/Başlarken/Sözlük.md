@@ -70,7 +70,7 @@ Ayrıca bakınız [[Açılır pencereler]].
 
 **Araç çubuğu**, sık kullanılan eylem simgeleri için bir kapsayıcı işlevi görür.
 
-Masaüstü sürümünde, en sol tarafta bulunan dikey alandır.
+Masaüstü sürümünde, uygulamanın kenarındaki dikey simge düğmeleri sütunudur. Ayarlar → Arayüz bölümünden veya [[Komut Paleti]] kullanılarak açılıp kapatılabilir.
 
 Mobil sürümde, [[#durum çubuğu|durum çubuğu]]ndaki bir menü düğmesi ![[lucide-menu.svg#icon]] ile temsil edilir.
 

@@ -20,7 +20,7 @@ Para alternar para o *Modo de visualização*:
 - Ou pressione `Ctrl+E` (`Cmd+E` no macOS).
 
 > [!note] Nota
-> Ative **[[Configurações]] → Aparência → Mostrar a barra de título da aba** para ver o ícone do alternador de visualização.
+> Ative **[[Configurações]] → Interface → Mostrar a barra de título da aba** para ver o ícone do alternador de visualização.
 > 
 > Se isso estiver desativado, ative **[[Configurações]] → Editor → Status do editor** para alternar visualizações a partir da barra de status.
 

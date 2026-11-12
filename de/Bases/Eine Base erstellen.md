@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. Klicke im Dateiexplorer mit der rechten Maustaste auf den Ordner, in dem du die Basis erstellen möchtest.
 2. Wähle **Neue Base**.
 
-**Werkzeugleiste:**
-
-- Wähle in der vertikalen Werkzeugleiste **Neue Base erstellen**, um eine Basis im selben Ordner wie die aktive Datei zu erstellen.
-
 ## Eine Basis einbetten
 
 ### Eine Basis-Datei einbetten

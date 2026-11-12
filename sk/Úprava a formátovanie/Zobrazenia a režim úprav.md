@@ -20,7 +20,7 @@ Prepnutie do *režimu čítania*:
 - Alebo stlačte `Ctrl+E` (`Cmd+E` na macOS).
 
 > [!note] Poznámka
-> Povoľte **[[Nastavenia]] → Vzhľad → Zobraziť nadpis karty**, aby sa zobrazila ikona prepínača zobrazenia.
+> Povoľte **[[Nastavenia]] → Rozhranie → Zobraziť nadpis karty**, aby sa zobrazila ikona prepínača zobrazenia.
 > 
 > Ak je táto možnosť vypnutá, zapnite **[[Nastavenia]] → Editor → Stav editora** na prepínanie zobrazení zo stavového riadku.
 

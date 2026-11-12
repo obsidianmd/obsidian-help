@@ -20,7 +20,7 @@ Obsidian, Markdown ile yazılmış notları _görünümler_ ve _modlar_ kullanar
 - Veya `Ctrl+E` (macOS'ta `Cmd+E`) tuşlarına basın.
 
 > [!note] Not
-> Görünüm değiştirici simgesini görmek için **[[Ayarlar]] → Görünüm → Sekme başlık çubuğunu göster** seçeneğini etkinleştirin.
+> Görünüm değiştirici simgesini görmek için **[[Ayarlar]] → Arayüz → Sekme başlık çubuğunu göster** seçeneğini etkinleştirin.
 > 
 > Bu devre dışıysa, durum çubuğundan görünümler arasında geçiş yapmak için **[[Ayarlar]] → Düzenleyici → Düzenleyici durumu** seçeneğini açın.
 

@@ -14,7 +14,7 @@ Necesitarás el complemento oficial [[Importador]] de Obsidian, que puedes [inst
 1. Abre **[[Configuración]]**.
 2. Ve a **Complementos creados por la comunidad** e [instala Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activa el complemento Importer.
-4. Abre el complemento **Importer** usando la paleta de comandos o el icono del menú de cinta.
+4. Abre Importer en Ajustes o usando la [[Paleta de comandos]].
 5. En **Formato de archivo** elige **HTML (.html).**
 6. Selecciona la ubicación de tus archivos o carpetas HTML.
 7. Selecciona **Importar** para revisar la plantilla generada y previsualizar ejemplos de tus archivos.

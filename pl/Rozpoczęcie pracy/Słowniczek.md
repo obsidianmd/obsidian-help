@@ -70,7 +70,7 @@ Zobacz także [[Okna wyskakujące]].
 
 **Wstążka** służy jako kontener na często używane ikony akcji.
 
-W wersji desktopowej jest to pionowy obszar znajdujący się po lewej stronie.
+W wersji desktopowej jest to pionowa kolumna przycisków z ikonami na krawędzi aplikacji. Można ją włączyć lub wyłączyć w Ustawienia → Interfejs lub za pomocą [[Lista poleceń|palety poleceń]].
 
 W wersji mobilnej jest reprezentowana przez przycisk menu ![[lucide-menu.svg#icon]] na [[#Pasek stanu|pasku stanu]].
 

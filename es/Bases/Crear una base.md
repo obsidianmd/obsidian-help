@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. En el Explorador de archivos, haz clic derecho en la carpeta donde deseas crear la base.
 2. Selecciona **Nueva base**.
 
-**Menú de cinta:**
-
-- En el menú vertical del menú de cinta, selecciona **Crear nueva base** para crear una base en la misma carpeta que el archivo activo.
-
 ## Incrustar una base
 
 ### Incrustar un archivo de base

@@ -70,7 +70,7 @@ Lihat juga [[Jendela pop-out]].
 
 **Bilah alat** berfungsi sebagai wadah untuk ikon tindakan yang sering digunakan.
 
-Di versi desktop, bilah alat adalah area vertikal yang terletak di paling kiri.
+Di versi desktop, bilah alat adalah kolom vertikal tombol ikon di tepi aplikasi. Bilah alat dapat diaktifkan atau dinonaktifkan di Pengaturan → Antarmuka, atau menggunakan [[Palet perintah]].
 
 Di versi seluler, bilah alat direpresentasikan oleh tombol menu ![[lucide-menu.svg#icon]] pada [[#bilah status|bilah status]].
 

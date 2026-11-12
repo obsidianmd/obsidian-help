@@ -70,7 +70,7 @@ Katso myös [[Irtoikkunat]].
 
 **Nauhavalikko** toimii säiliönä usein käytetyille toimintokuvakkeille.
 
-Työpöytäversiossa se on pystysuora alue aivan vasemmassa reunassa.
+Työpöytäversiossa se on pystysuora kuvakepainikkeiden sarake sovelluksen reunassa. Sen voi ottaa käyttöön tai poistaa käytöstä kohdassa Asetukset → Käyttöliittymä tai käyttämällä [[Komentovalikko|komentovalikkoa]].
 
 Mobiiliversiossa sitä edustaa valikkopainike ![[lucide-menu.svg#icon]] [[#tilarivi|tilarivillä]].
 

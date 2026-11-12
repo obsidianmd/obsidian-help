@@ -19,7 +19,7 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 1. Åbn **[[Indstillinger]]**.
 2. Gå til **Fællesskabsplugins** og [installér Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivér Importer-pluginnet.
-4. Åbn **Importer**-pluginnet ved hjælp af kommandopaletten eller værktøjslinjeikonen.
+4. Åbn Importer i Indstillinger eller ved hjælp af [[Kommandopalet|kommandopaletten]].
 5. Under **Filformat** vælg **Textbundle (.textbundle, .textpack).**
 6. Vælg placeringen af dine Textbundle- eller Textpack-filer. Zip-filer understøttes også.
 7. Vælg **Importér** for at gennemgå den genererede skabelon og forhåndsvise eksempler fra dine noter.

@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. V prieskumníku súborov kliknite pravým tlačidlom na priečinok, v ktorom chcete databázu vytvoriť.
 2. Vyberte **Nová databáza**.
 
-**Panel nástrojov:**
-
-- Vo vertikálnom paneli nástrojov vyberte **Vytvoriť novú databázu** na vytvorenie databázy v rovnakom priečinku ako aktívny súbor.
-
 ## Vloženie databázy
 
 ### Vloženie súboru databázy

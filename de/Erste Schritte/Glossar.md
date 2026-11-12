@@ -70,7 +70,7 @@ Siehe auch [[Pop-out-Fenster]].
 
 Die **Werkzeugleiste** dient als Container für häufig verwendete Aktionssymbole.
 
-In der Desktop-Version ist sie der vertikale Bereich ganz links.
+In der Desktop-Version ist sie die vertikale Spalte von Symbol-Schaltflächen am Rand der App. Sie kann in Einstellungen → Bedienung ein- oder ausgeschaltet werden, oder über die [[Befehlspalette]].
 
 In der mobilen Version wird sie durch eine Menü-Schaltfläche ![[lucide-menu.svg#icon]] in der [[#Statusleiste]] dargestellt.
 

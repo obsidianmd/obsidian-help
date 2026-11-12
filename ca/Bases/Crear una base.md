@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. A l'explorador de fitxers, feu clic dret a la carpeta on voleu crear la base.
 2. Seleccioneu **Base nova**.
 
-**Barra d'eines:**
-
-- A la barra d'eines vertical, seleccioneu **Crea una base nova** per crear una base a la mateixa carpeta que el fitxer actiu.
-
 ## Incrustar una base
 
 ### Incrustar un fitxer de base

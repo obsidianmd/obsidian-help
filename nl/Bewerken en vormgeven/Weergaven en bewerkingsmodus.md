@@ -20,7 +20,7 @@ Om naar *Leesweergave* te schakelen:
 - Of druk op `Ctrl+E` (`Cmd+E` op macOS).
 
 > [!note] Opmerking
-> Schakel **[[Instellingen]] → Uiterlijk → Toon titelbalk van tabblad** in om het weergavewisselaar-pictogram te zien.
+> Schakel **[[Instellingen]] → Interface → Toon titelbalk van tabblad** in om het weergavewisselaar-pictogram te zien.
 > 
 > Als dat is uitgeschakeld, schakel dan **[[Instellingen]] → Editor → Editorstatus** in om weergaven te wisselen vanuit de statusbalk.
 

@@ -321,8 +321,8 @@ Nella versione desktop, puoi personalizzare la barra degli strumenti come segue:
 Nella versione mobile, puoi personalizzare la barra degli strumenti tramite le impostazioni:
 
 1. Apri **[[Impostazioni]]**.
-2. Vai su **Aspetto**.
-3. Seleziona **Gestisci** sotto **Configurazione barra multifunzione**.
+2. Vai su **Interfaccia**.
+3. Seleziona **Barra multifunzione**.
 ```
 
 > [!info]+ Quando creare sezioni separate?
@@ -348,7 +348,7 @@ Includere icone e immagini quando rendono più facile spiegare concetti difficil
 
 Le icone [Lucide](https://lucide.dev/icons/) e le icone personalizzate di Obsidian possono essere usate accanto a elementi dettagliati per fornire una rappresentazione visiva di una funzionalità.
 
-**Esempio:** Nella barra degli strumenti a sinistra, seleziona **Crea nuova lavagna** ![[lucide-layout-dashboard.svg#icon]] per creare un Canvas nella stessa cartella del file attivo.
+**Esempio:** Nell'[[Esplora file]], seleziona **Nuova cartella** ![[lucide-folder-plus.svg#icon]] per creare una cartella.
 
 **Linee guida per le icone**
 
@@ -356,7 +356,7 @@ Le icone [Lucide](https://lucide.dev/icons/) e le icone personalizzate di Obsidi
 - Aggiungere il prefisso `lucide-` prima del nome dell'icona Lucide.
 - Aggiungere il prefisso `obsidian-icon-` prima del nome dell'icona Obsidian.
 
-**Esempio:** L'icona per creare una nuova lavagna dovrebbe essere denominata `lucide-layout-dashboard`.
+**Esempio:** L'icona per creare una nuova cartella dovrebbe essere denominata `lucide-folder-plus`.
 
 - Usare la versione SVG delle icone disponibili.
 - Le icone dovrebbero avere una larghezza di `18` pixel, un'altezza di `18` pixel e uno spessore del tratto di `1.5`. Puoi regolare queste impostazioni nei dati SVG.

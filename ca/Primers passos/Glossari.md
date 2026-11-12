@@ -70,7 +70,7 @@ Les [[Propietats|propietats]] defineixen informació addicional sobre una nota, 
 
 La **cinta** funciona com un contenidor per a icones d'accions d'ús freqüent.
 
-A la versió d'escriptori, és l'àrea vertical situada a l'extrem esquerre.
+A la versió d'escriptori, és la columna vertical de botons d'icona a la vora de l'aplicació. Es pot activar o desactivar a Configuració → Interfície, o utilitzant la [[Paleta d'ordres]].
 
 A la versió mòbil, està representada per un botó de menú ![[lucide-menu.svg#icon]] a la [[#barra d'estat]].
 

@@ -16,7 +16,7 @@ Utilitzeu el connector oficial [[Importador|Importer]] quan vulgueu seleccionar 
 
 1. Obriu **[[Configuració|Configuració]] → Connectors de la comunitat** i [instal·leu l'Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Activeu el connector Importer.
-3. Obriu l'**Importer** utilitzant la [[Paleta d'ordres|paleta d'ordres]] o la icona de la barra d'eines.
+3. Obriu l'Importer a la Configuració o utilitzant la [[Paleta d'ordres|paleta d'ordres]].
 4. A **Format de fitxer**, seleccioneu **Markdown (.md, .zip)**.
 5. Trieu fitxers Markdown individuals, carpetes o arxius zip.
 6. Reviseu les carpetes detectades, les opcions de sortida, la plantilla generada i els exemples de previsualització.

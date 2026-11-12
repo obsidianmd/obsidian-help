@@ -319,8 +319,8 @@ In de desktopversie kun je de werkbalk als volgt aanpassen:
 In de mobiele versie kun je de werkbalk aanpassen via de instellingen:
 
 1. Open **[[Instellingen]]**.
-2. Navigeer naar **Uiterlijk**.
-3. Klik op **Beheren** onder **Lint configuratie**.
+2. Navigeer naar **Interface**.
+3. Klik op **Lintmenu**.
 ```
 
 > [!info]+ Wanneer aparte secties aanmaken?
@@ -346,7 +346,7 @@ Voeg pictogrammen en afbeeldingen toe wanneer ze het gemakkelijker maken om zake
 
 [Lucide](https://lucide.dev/icons/)-pictogrammen en aangepaste Obsidian-pictogrammen kunnen naast gedetailleerde elementen worden gebruikt om een visuele weergave van een functie te bieden.
 
-**Voorbeeld:** Selecteer in de werkbalk aan de linkerkant **Nieuw doek aanmaken** ![[lucide-layout-dashboard.svg#icon]] om een canvas aan te maken in dezelfde map als het actieve bestand.
+**Voorbeeld:** Selecteer in de [[Verkenner]] **Nieuwe map** ![[lucide-folder-plus.svg#icon]] om een map aan te maken.
 
 **Richtlijnen voor pictogrammen**
 
@@ -354,7 +354,7 @@ Voeg pictogrammen en afbeeldingen toe wanneer ze het gemakkelijker maken om zake
 - Voeg het voorvoegsel `lucide-` toe vóór de Lucide-pictogramnaam.
 - Voeg het voorvoegsel `obsidian-icon-` toe vóór de Obsidian-pictogramnaam.
 
-**Voorbeeld:** Het pictogram voor het aanmaken van een nieuw canvas moet `lucide-layout-dashboard` worden genoemd.
+**Voorbeeld:** Het pictogram voor het aanmaken van een nieuwe map moet `lucide-folder-plus` worden genoemd.
 
 - Gebruik de SVG-versie van de beschikbare pictogrammen.
 - Pictogrammen moeten `18` pixels breed zijn, `18` pixels hoog, en een lijndikte van `1.5` hebben. Je kunt deze instellingen aanpassen in de SVG-gegevens.

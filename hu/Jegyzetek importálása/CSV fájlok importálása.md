@@ -16,7 +16,7 @@ Szükséged lesz a hivatalos Obsidian [[Importáló]] bővítményre, amelyet [i
 1. Nyisd meg a **[[Beállítások]]** menüt.
 2. Lépj a **Közösségi bővítmények** menüpontra, és [telepítsd az Importálót](obsidian://show-plugin?id=obsidian-importer).
 3. Engedélyezd az Importáló bővítményt.
-4. Nyisd meg az **Importáló** bővítményt a parancspaletta vagy a szalag ikon segítségével.
+4. Nyisd meg az Importálót a Beállításokban vagy a [[Parancspaletta]] segítségével.
 5. A **Fájlformátum** alatt válaszd a **CSV (.csv)** lehetőséget.
 6. Válaszd ki a CSV fájlod helyét.
 7. Válaszd az **Importálás** lehetőséget, hogy beállítsd, hogyan konvertálódnak a CSV fájlban lévő adatok [[Tulajdonságok|tulajdonságokkal]] rendelkező jegyzetekké.

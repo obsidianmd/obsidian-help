@@ -72,7 +72,7 @@ Le [[Proprietà|Proprietà]] definiscono informazioni aggiuntive su una nota, co
 
 La **barra degli strumenti** funge da contenitore per le icone delle azioni utilizzate più frequentemente.
 
-Nella versione desktop, è l'area verticale situata all'estrema sinistra.
+Nella versione desktop, è la colonna verticale di pulsanti con icone sul bordo dell'app. Può essere attivata o disattivata in Impostazioni → Interfaccia, oppure utilizzando il [[Riquadro comandi|Riquadro comandi]].
 
 Nella versione mobile, è rappresentata da un pulsante menu ![[lucide-menu.svg#icon]] nella [[#Barra di stato|barra di stato]].
 

@@ -319,8 +319,8 @@ Pada versi desktop, Anda dapat mengkustomisasi bilah alat sebagai berikut:
 Pada versi seluler, Anda dapat mengkustomisasi bilah alat melalui pengaturan:
 
 1. Buka **[[Pengaturan]]**.
-2. Navigasi ke **Tampilan**.
-3. Klik **Kelola** di bawah **Atur Ribbon**.
+2. Navigasi ke **Antarmuka**.
+3. Klik **Menu ribbon**.
 ```
 
 > [!info]+ Kapan membuat bagian terpisah?
@@ -346,7 +346,7 @@ Sertakan ikon dan gambar ketika memudahkan untuk menjelaskan hal-hal yang sulit 
 
 Ikon [Lucide](https://lucide.dev/icons/) dan ikon kustom Obsidian dapat digunakan bersama elemen detail untuk memberikan representasi visual dari sebuah fitur.
 
-**Contoh:** Di bilah alat di sebelah kiri, pilih **Buat kanvas baru** ![[lucide-layout-dashboard.svg#icon]] untuk membuat canvas di folder yang sama dengan file aktif.
+**Contoh:** Di [[Penjelajah file]], pilih **Folder baru** ![[lucide-folder-plus.svg#icon]] untuk membuat folder.
 
 **Panduan untuk ikon**
 
@@ -354,7 +354,7 @@ Ikon [Lucide](https://lucide.dev/icons/) dan ikon kustom Obsidian dapat digunaka
 - Tambahkan awalan `lucide-` sebelum nama ikon Lucide.
 - Tambahkan awalan `obsidian-icon-` sebelum nama ikon Obsidian.
 
-**Contoh:** Ikon untuk membuat canvas baru harus diberi nama `lucide-layout-dashboard`.
+**Contoh:** Ikon untuk membuat folder baru harus diberi nama `lucide-folder-plus`.
 
 - Gunakan versi SVG dari ikon yang tersedia.
 - Ikon harus berukuran `18` piksel lebarnya, `18` piksel tingginya, dan memiliki lebar garis `1.5`. Anda dapat menyesuaikan pengaturan ini di data SVG.

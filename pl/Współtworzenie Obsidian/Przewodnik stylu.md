@@ -319,8 +319,8 @@ W wersji na komputer możesz dostosować wstążkę w następujący sposób:
 W wersji mobilnej możesz dostosować wstążkę poprzez ustawienia:
 
 1. Otwórz **[[Ustawienia]]**.
-2. Przejdź do **Wygląd**.
-3. Wybierz **Zarządzaj** w sekcji **Konfiguracja menu wstążki**.
+2. Przejdź do **Interfejs**.
+3. Wybierz **Pasek boczny**.
 ```
 
 > [!info]+ Kiedy tworzyć oddzielne sekcje?
@@ -346,7 +346,7 @@ Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisa
 
 Ikony [Lucide](https://lucide.dev/icons/) i niestandardowe ikony Obsidian mogą być używane obok szczegółowych elementów, aby zapewnić wizualną reprezentację funkcji.
 
-**Przykład:** Na wstążce po lewej stronie wybierz **Stwórz nową tablicę** ![[lucide-layout-dashboard.svg#icon]], aby utworzyć tablicę w tym samym folderze co aktywny plik.
+**Przykład:** W [[Eksplorator plików|eksploratorze plików]] wybierz **Stwórz nowy folder** ![[lucide-folder-plus.svg#icon]], aby utworzyć folder.
 
 **Wytyczne dotyczące ikon**
 
@@ -354,7 +354,7 @@ Ikony [Lucide](https://lucide.dev/icons/) i niestandardowe ikony Obsidian mogą 
 - Dodaj prefiks `lucide-` przed nazwą ikony Lucide.
 - Dodaj prefiks `obsidian-icon-` przed nazwą ikony Obsidian.
 
-**Przykład:** Ikona tworzenia nowej tablicy powinna nazywać się `lucide-layout-dashboard`.
+**Przykład:** Ikona tworzenia nowego folderu powinna nazywać się `lucide-folder-plus`.
 
 - Używaj wersji SVG dostępnych ikon.
 - Ikony powinny mieć `18` pikseli szerokości, `18` pikseli wysokości i grubość linii `1.5`. Możesz dostosować te ustawienia w danych SVG.

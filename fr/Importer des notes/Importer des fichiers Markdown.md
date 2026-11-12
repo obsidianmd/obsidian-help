@@ -17,7 +17,7 @@ Utilisez le [[Importer|module Importer]] officiel lorsque vous souhaitez sélect
 
 1. Ouvrez **[[Paramètres|Paramètres]] → Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Activez le module Importer.
-3. Ouvrez **Importer** en utilisant la [[Palette de commandes|palette de commandes]] ou l'icône du ruban.
+3. Ouvrez Importer dans les Paramètres ou en utilisant la [[Palette de commandes|palette de commandes]].
 4. Sous **Format de fichier**, sélectionnez **Markdown (.md, .zip)**.
 5. Choisissez des fichiers Markdown individuels, des dossiers ou des archives zip.
 6. Vérifiez les dossiers détectés, les options de sortie, le modèle généré et les exemples de prévisualisation.

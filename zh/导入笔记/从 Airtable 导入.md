@@ -30,7 +30,7 @@ Airtable 只会显示一次令牌。如果丢失了，请创建一个新的。
 1. 打开**[[设置]]**。
 2. 进入**社区插件市场**并[安装迁移助手](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用迁移助手插件。
-4. 通过命令面板或功能区图标打开**迁移助手**插件。
+4. 在设置中打开迁移助手，或通过[[命令面板]]打开。
 5. 在 **File format** 下选择 **Airtable**。
 6. 在 **Airtable Personal Access Token** 下，点击 **Link...** 以添加新密钥。在 **ID** 中输入一个名称（如 `airtable`），在 **Secret** 中粘贴你的个人访问令牌。
 7. 点击**加载**以浏览你的 bases，然后选择要导入的表格。

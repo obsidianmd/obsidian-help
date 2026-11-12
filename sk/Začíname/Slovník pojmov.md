@@ -70,7 +70,7 @@ Pozri tiež [[Vyskakovacie okná]].
 
 **Panel nástrojov** (ribbon) slúži ako kontajner pre často používané ikony akcií.
 
-V desktopovej verzii je to vertikálna oblasť umiestnená úplne vľavo.
+V desktopovej verzii je to vertikálny stĺpec tlačidiel s ikonami na okraji aplikácie. Dá sa zapnúť alebo vypnúť v Nastavenia → Rozhranie, alebo pomocou [[Paleta príkazov|palety príkazov]].
 
 V mobilnej verzii je reprezentovaný tlačidlom menu ![[lucide-menu.svg#icon]] na [[#stavový riadok|stavovom riadku]].
 

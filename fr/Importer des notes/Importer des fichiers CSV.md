@@ -17,7 +17,7 @@ Vous aurez besoin du module officiel Obsidian [[Importer des notes|Importer]], q
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activez le module Importer.
-4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
+4. Ouvrez Importer dans les Paramètres ou en utilisant la [[Palette de commandes]].
 5. Sous **Format de fichier**, choisissez **CSV (.csv).**
 6. Sélectionnez l'emplacement de votre fichier CSV.
 7. Sélectionnez **Importer** pour configurer comment les données de votre fichier CSV seront converties en notes avec des [[Propriétés]].

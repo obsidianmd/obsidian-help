@@ -20,7 +20,7 @@ Aby przełączyć na *widok czytania*:
 - Lub naciśnij `Ctrl+E` (`Cmd+E` na macOS).
 
 > [!note] Uwaga
-> Włącz **[[Ustawienia]] → Wygląd → Pokaż pasek tytułu**, aby zobaczyć ikonę przełącznika podglądu.
+> Włącz **[[Ustawienia]] → Interfejs → Pokaż pasek tytułu**, aby zobaczyć ikonę przełącznika podglądu.
 > 
 > Jeśli ta opcja jest wyłączona, włącz **[[Ustawienia]] → Edytor → Pokaż tryb na pasku stanu**, aby przełączać podglądy z paska stanu.
 

@@ -30,7 +30,7 @@ Necesitarás el complemento oficial de Obsidian [[Importador]], que puedes [inst
 1. Abre **[[Configuración]]**.
 2. Ve a **Complementos creados por la comunidad** e [instala Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Activa el complemento Importador.
-4. Abre el complemento **Importador** usando la paleta de comandos o el icono de la barra de herramientas.
+4. Abre Importador en Ajustes o usando la [[Paleta de comandos]].
 5. En **Formato de archivo** selecciona **Airtable**.
 6. En **Airtable Personal Access Token**, haz clic en **Vincular...** para añadir un nuevo secreto. Para el **ID**, dale un nombre como `airtable`, y para el **Secreto** pega tu token de acceso personal.
 7. Haz clic en **Cargar** para explorar tus bases, luego selecciona las tablas que deseas importar.

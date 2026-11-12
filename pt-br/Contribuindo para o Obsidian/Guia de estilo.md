@@ -321,8 +321,8 @@ Na versão desktop, você pode personalizar a faixa de opções da seguinte form
 Na versão móvel, você pode personalizar a faixa de opções através das configurações:
 
 1. Abra **[[Configurações]]**.
-2. Navegue até **Aparência**.
-3. Clique em **Administrar** em **Configuração da faixa de opções**.
+2. Navegue até **Interface**.
+3. Clique em **Configuração da faixa de opções**.
 ```
 
 > [!info]+ Quando criar seções?
@@ -348,7 +348,7 @@ Inclua ícones e imagens quando eles tornarem mais fácil explicar coisas que s�
 
 Ícones do [Lucide](https://lucide.dev/icons/) e ícones personalizados do Obsidian podem ser usados junto a elementos detalhados para fornecer uma representação visual de um recurso.
 
-**Exemplo:** Na faixa de opções à esquerda, selecione **Criar novo canvas** ![[lucide-layout-dashboard.svg#icon]] para criar um canvas na mesma pasta do arquivo ativo.
+**Exemplo:** No [[Explorador de arquivos]], selecione **Nova pasta** ![[lucide-folder-plus.svg#icon]] para criar uma pasta.
 
 **Diretrizes para ícones**
 
@@ -356,7 +356,7 @@ Inclua ícones e imagens quando eles tornarem mais fácil explicar coisas que s�
 - Adicione o prefixo `lucide-` antes do nome do ícone Lucide.
 - Adicione o prefixo `obsidian-icon-` antes do nome do ícone Obsidian.
 
-**Exemplo:** O ícone para criar um novo canvas deve ser nomeado `lucide-layout-dashboard`.
+**Exemplo:** O ícone para criar uma nova pasta deve ser nomeado `lucide-folder-plus`.
 
 - Use a versão SVG dos ícones disponíveis.
 - Os ícones devem ter `18` pixels de largura, `18` pixels de altura e uma espessura de traço de `1.5`. Você pode ajustar essas configurações nos dados SVG.

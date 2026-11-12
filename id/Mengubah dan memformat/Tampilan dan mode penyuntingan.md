@@ -22,7 +22,7 @@ Untuk beralih ke *Tampilan baca*:
 - Atau tekan `Ctrl+E` (`Cmd+E` di macOS).
 
 > [!note] Catatan
-> Aktifkan **[[Pengaturan]] → Tampilan → Tampilkan tab bilah judul** untuk melihat ikon peralih tampilan.
+> Aktifkan **[[Pengaturan]] → Antarmuka → Tampilkan tab bilah judul** untuk melihat ikon peralih tampilan.
 > 
 > Jika itu dinonaktifkan, aktifkan **[[Pengaturan]] → Editor → Status Pengubah** untuk beralih tampilan dari bilah status.
 

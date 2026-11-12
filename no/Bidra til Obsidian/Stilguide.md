@@ -319,8 +319,8 @@ I datamaskinversjonen kan du tilpasse verktøylinjen slik:
 I mobilversjonen kan du tilpasse verktøylinjen gjennom innstillinger:
 
 1. Åpne **[[Innstillinger]]**.
-2. Naviger til **Utseende**.
-3. Klikk på **Administrer** under **Ribbon Configuration**.
+2. Naviger til **Grensesnitt**.
+3. Klikk på **Ribbon menu**.
 ```
 
 > [!info]+ Når bør du opprette seksjoner?
@@ -346,7 +346,7 @@ Inkluder ikoner og bilder når de gjør det enklere å forklare ting som er vans
 
 [Lucide](https://lucide.dev/icons/)-ikoner og egendefinerte Obsidian-ikoner kan brukes sammen med detaljerte elementer for å gi en visuell representasjon av en funksjon.
 
-**Eksempel:** I verktøylinjen til venstre, velg **Opprett ny Canvas** ![[lucide-layout-dashboard.svg#icon]] for å opprette en Canvas i samme mappe som det aktive filen.
+**Eksempel:** I [[Filutforsker|filutforskeren]], velg **Ny mappe** ![[lucide-folder-plus.svg#icon]] for å opprette en mappe.
 
 **Retningslinjer for ikoner**
 
@@ -354,7 +354,7 @@ Inkluder ikoner og bilder når de gjør det enklere å forklare ting som er vans
 - Legg til prefikset `lucide-` foran Lucide-ikonnavnet.
 - Legg til prefikset `obsidian-icon-` foran Obsidian-ikonnavnet.
 
-**Eksempel:** Ikonet for å opprette en ny Canvas bør hete `lucide-layout-dashboard`.
+**Eksempel:** Ikonet for å opprette en ny mappe bør hete `lucide-folder-plus`.
 
 - Bruk SVG-versjonen av de tilgjengelige ikonene.
 - Ikoner bør være `18` piksler i bredde, `18` piksler i høyde og ha en strekbredde på `1.5`. Du kan justere disse innstillingene i SVG-dataene.

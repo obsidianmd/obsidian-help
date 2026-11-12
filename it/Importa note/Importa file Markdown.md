@@ -18,7 +18,7 @@ Usa il [[Importatore|plugin Importer]] ufficiale quando vuoi selezionare cartell
 
 1. Apri **[[Impostazioni|Impostazioni]] → Plugin di terze parti** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Abilita il plugin Importer.
-3. Apri **Importer** usando il [[Riquadro comandi|riquadro comandi]] o l'icona nella barra multifunzione.
+3. Apri Importer nelle Impostazioni o usando il [[Riquadro comandi|riquadro comandi]].
 4. Sotto **Formato file**, seleziona **Markdown (.md, .zip)**.
 5. Scegli singoli file Markdown, cartelle o archivi zip.
 6. Controlla le cartelle rilevate, le opzioni di output, il modello generato e gli esempi di anteprima.

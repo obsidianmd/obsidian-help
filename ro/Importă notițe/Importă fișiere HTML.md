@@ -16,7 +16,7 @@ Vei avea nevoie de modulul oficial Obsidian [[Importator]], pe care îl poți [i
 1. Deschide **[[Setări]]**.
 2. Mergi la **Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activează modulul Importer.
-4. Deschide modulul **Importer** folosind paleta de comenzi sau iconița din panglică.
+4. Deschide Importer din Setări sau folosind [[Paleta de comenzi]].
 5. La **Format fișier** alege **HTML (.html).**
 6. Selectează locația fișierelor sau directoarelor tale HTML.
 7. Selectează **Importă** pentru a revizui șablonul generat și a previzualiza exemple din fișierele tale.

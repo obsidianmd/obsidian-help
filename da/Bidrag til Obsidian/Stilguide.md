@@ -11,27 +11,31 @@ mobile: true
 > [!warning] Fra den danske oversætter
 >Denne side er primært henvendt til brugere, der ønsker at opdatere den engelske referencedokumentation eller udvikler tredjepartsplugins på engelsk! Har du rettelser til den danske udgave, så kontakt nuværende oversætter eller lav et "pull request" på GitHub.
 
-Obsidian dokumentationen anvender: [Google developer documentation style guide](https://developers.google.com/style). Hvis emnet ikke er dækket af denne guide, så benyt: [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/).
+Obsidian dokumentationen følger retningslinjerne angivet på denne side. Disse retningslinjer er baseret på branchens bedste praksis, især [Google developer documentation style guide](<https://developers.google.com/style>) og [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/). For tilfælde, der ikke er dækket nedenfor, se disse eksterne guider som sekundære referencer.
 
-Denne side gennemgår eventuelle afvigelser fra Google Stil guiden, eller terminologi, som er værd at fremhæve.
-
-> [!tip] Bidrag
-> Det meste dokumentation fandtes før denne stil guide. Hvis du finder brud denne stil guide, så [opret en issue på GitHub](https://github.com/obsidianmd/obsidian-help/issues/new) eller lav et "pull request" i [obsidianmd/obsidian-help](https://github.com/obsidianmd/obsidian-help).
+> [!tip]- Bidrag
+> Det meste dokumentation fandtes før denne stil guide. Hvis du finder brud denne stil guide, så [opret en issue på GitHub](https://github.com/obsidianmd/obsidian-docs/issues/new) eller lav et "pull request" i [obsidianmd/obsidian-docs](https://github.com/obsidianmd/obsidian-docs).
 
 ## Terminologi og grammatik
 
 ### Sprogstil
 
-Til den engelske dokumentation anbefales det at benytte [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) for bedre at dække hele verden.
+Til den engelske dokumentation anbefales det at benytte [Global English](https://docs.openedx.org/en/latest/documentors/references/doc_english_writing.html) for bedre at dække hele verden og for at hjælpe med [[#Oversættelser]]. Det indebærer:
+
+- Undgå idiomer og kulturspecifikke udtryk
+- Brug aktiv stemme og direkte sætningskonstruktion
+- Foretræk simple, almindelige ord frem for kompleks terminologi
+- Vær eksplicit frem for implicit
+- For staveregler brug amerikansk engelsk (fx 'organize' ikke 'organise').
 
 ### Termer
 
 - Foretræk "keyboard shortcut" i stedet for "hotkey". Benyt "Hotkey", når det refererer til en bestemt funktion
 - Foretræk "the Obsidian app" på mobil, og "the Obsidian application" på desktop
-- Foretræk "sync" eller "syncing" fremfor "synchronize" or "synchronizing".
+- Foretræk "sync" eller "syncing" fremfor "synchronise" or "synchronising".
 - Foretræk "search term" fremfor "search query".
-- Foretræk "heading" fremfor "header", når der refereres toæ en tekst, der introducerer en sektion tekst
-- Foretræk "maximun" over "max" og "minimum" over "min".
+- Foretræk "heading" fremfor "header", når der refereres til en tekst, der introducerer en sektion tekst
+- Foretræk "maximum" over "max" og "minimum" over "min".
 
 ### Produktnavne
 
@@ -40,16 +44,17 @@ Obsidian produktnavne starter med "Obsidian", fx. "Obsidian Publish" og "Obsidia
 Hvis et afsnit indholder mange referencer til et produkt, kan du anvende kort form efter første fulde navn.
 
 Fx.
-_For at kunne tillade enhedsspecifik konfiguraion, synkroniserer Obsidian Sync ikke sine egne indstillinger. Du skal derfor konfigurere Sync for hver af dine enheder._
+_For at kunne tillade enhedsspecifik konfiguration, synkroniserer Obsidian Sync ikke sine egne indstillinger. Du skal derfor konfigurere Sync for hver af dine enheder._
 
 ### UI (Brugergrænseflade) og interaktioner
 
 - Benyt **Bold** for at indikere tekst på knapper
 - Foretræk "select" fremfor "tap" eller "click".
-- Foretræk "sidebar" fremfor "side barl".
+	- For mobilspecifikke instruktioner er "tap" acceptabelt, da "click" ikke er tilgængeligt for berøringsinteraktioner.
+- Foretræk "sidebar" fremfor "side bar".
 - Foretræk "perform" fremfor "invoke" og "execute", når der refereres til kommandoer eller aktioner
 
-Når der refereres til flere UI interaktioner efter hinanden, så benyt → (U+2192) symbolet. Fx. , "**Settings → Community plugins**".
+Når der refereres til flere UI interaktioner efter hinanden, så benyt → (U+2192) symbolet. Fx. , "**[[Indstillinger]] → Community plugins**".
 
 ### Noter, filer og mapper
 
@@ -78,13 +83,13 @@ Sæt bindeled på retningsbestemte udtryk, når du bruger dem som adjektiver. Un
 
 **Anbefalet:**
 
-- Select **Settings** in the bottom-left corner.
-- Select **Settings** in the bottom left.
+- Select **[[Indstillinger]]** in the bottom-left corner.
+- Select **[[Indstillinger]]** in the bottom left.
 
 **Ikke anbefalet:**
 
-- Select **Settings** in the bottom left corner.
-- Select **Settings** in the bottom-left.
+- Select **[[Indstillinger]]** in the bottom left corner.
+- Select **[[Indstillinger]]** in the bottom-left.
 
 Foretræk "upper-left" og "upper-right" i stedet for "top-left" og "top-right".
 
@@ -92,11 +97,23 @@ Angiv ikke en retning, når der refereres til indstillinger. Indstillingerne kan
 
 **Anbefalet:**
 
-- Next to **Pick remote vault**, click **Choose**.
+- Next to **Pick remote vault**, select **Choose**.
 
 **Ikke anbefalet:**
 
-- To the right of **Pick remote vault**, click **Choose**.
+- To the right of **Pick remote vault**, select **Choose**.
+
+Når der beskrives vertikal retning i UI-elementer, brug "above" og "below" for rumlige relationer. Undgå "up" og "down", da de er tvetydige i forskellige sammenhænge.
+
+**Anbefalet:**
+
+- The search box appears above the file list.
+- Additional options are available below.
+
+**Ikke anbefalet:**
+
+- The search box is up from the file list.
+- More options are down below.
 
 ### Instruktioner
 
@@ -131,18 +148,42 @@ Foretræk realistiske eksempler i stedet for nonsens udtryk.
 
 - `task:(foo OR bar)`
 
-## Tastatur navne
+### Tastaturnavne og tastaturgenveje
 
-Når der refereres til et tegn på tastaturet med navn, så tilføj tegnet i parentes lige efter navnet:
+Når der refereres til tastaturtaster og genveje, brug ensartet notation.
+
+**Individuelle tastaturnavne:**
+
+Når der refereres til et tegn på tastaturet med navn, så tilføj tegnet i parentes lige efter navnet.
 
 **Anbefalet:**
 
-- Add a hyphen (-) in front of the word. På dansk: Tilføj en bindestreg (-) foran ordet
+- Press the hyphen (-) key to add a dash.
+- Use the question mark (?) to search.
 
 **Ikke anbefalet:**
 
-- Add a hyphen in front of the word. På dansk: Tilføj en bindestreg foran ordet
-- Add a `-` in front of the word. På dansk: Tilføj et `-` foran ordet
+- Press the hyphen key to add a dash.
+- Use the ? to search.
+- Add a `-` in front of the word.
+
+**Tastaturgenveje:**
+
+Formatér tastaturgenveje uden mellemrum omkring plustegnet. Når en genvej er forskellig mellem operativsystemer, angiv begge.
+
+**Anbefalet:**
+
+- Press `Ctrl+Z` (Windows) or `Command+Z` (macOS) to undo.
+- Press `Escape` to close this window.
+- Use `Tab` to move between fields.
+
+**Ikke anbefalet:**
+
+- Press `Cmd+Z` to undo.
+- Press `Ctrl + Z` (with spaces) to undo.
+- Press `Ctrl/Cmd+Z` to undo.
+
+For genveje, der er identiske på alle platforme, behøver du ikke at angive operativsystemet. Hvis du er usikker på, om en genvej er forskellig mellem platforme, angiv operativsystemet for en sikkerheds skyld. Windows og Linux bruger typisk de samme genveje.
 
 ### Markdown
 
@@ -170,6 +211,19 @@ This is a section.
 3. Third item
 ```
 
+**Tankestreger i lister:**
+
+Brug tankestreger (—) til at adskille fremhævede termer fra deres beskrivelser i punktlister. Brug ikke tankestreger i simple indrykkede punktlister med links.
+
+**Anbefalet:**
+
+- **View menu** — create, edit, and switch views.
+- **Calculate values** — add prices, compute totals, or perform math operations.
+
+**Ikke anbefalet:**
+
+- [[Opret en base]] — Learn how to create and embed a base.
+
 ### Billeder
 
 Benyt "**width** x **height** pixels" for at beskrive billed- eller skærmstørrelse.
@@ -177,6 +231,105 @@ Benyt "**width** x **height** pixels" for at beskrive billed- eller skærmstørr
 **Eksempel:**
 
 Recommended image dimensions: 1920 x 1080 pixels.
+
+## Informationsstruktur
+
+### Bobletyper
+
+Brug bobler strategisk til at fremhæve bestemte typer information:
+
+**Tip** (`[!tip]-`) - Praktiske råd eller bedste praksis, der forbedrer brugerens arbejdsgang. Brug til genveje, workarounds eller ikke-essentiel men nyttig information. Disse bobler starter sammenfoldede.
+
+**Info** (`[!info]+`) - Yderligere kontekst, baggrundsinformation eller afklaringer. Brug når information tilføjer forståelse, men ikke er nødvendig for at udføre en opgave. Disse bobler starter udfoldet.
+
+**Advarsel** (`[!warning]+`) - Vigtige forholdsregler, der forhindrer datatab, fejl eller utilsigtede konsekvenser. Brug sparsomt til reelt risikable situationer. Disse bobler bør aldrig være sammenfoldede.
+
+**Eksempel** (`[!example]-`) - Generelle sidebemærkninger eller supplerende detaljer. Brug til perifer information, som nogle brugere kan finde relevant. Disse bobler starter sammenfoldede.
+
+**Eksempler:**
+```md
+> [!tip]- Use keyboard shortcuts
+> You can speed up your workflow by memorizing the most-used shortcuts.
+
+> [!info]+ This is a paid addon
+> This feature requires a paid subscription to use.
+
+> [!warning]+ This action cannot be undone
+> Deleting a vault is permanent. Consider exporting your notes first.
+
+> [!example]- Advanced usage
+> You can also configure this setting via the Graph menu.
+```
+
+### Lister vs. prosa
+
+Brug lister til at præsentere diskrete elementer, der ikke har stærke sekventielle eller kausale relationer. Brug prosa og afsnit, når elementer bygger på hinanden, kræver forklaring eller drager fordel af narrativ flow.
+
+**Brug en liste til:**
+- Et sæt urelaterede funktioner
+- Installationskrav
+- Konfigurationsmuligheder
+- Fejlfindingstrin
+
+**Brug prosa til:**
+- Forklaringer af hvordan noget fungerer
+- Arbejdsgange med afhængigheder
+- Konceptuelle overblik
+- Vejledning, der kræver kontekst
+
+### Tabeller
+
+Brug tabeller til at sammenligne funktioner, versioner eller relaterede datapunkter, hvor justering letter forståelsen. Undgå tabeller til simple lister eller data i en enkelt kolonne.
+
+**Godt brugstilfælde:**
+
+| Funktion | Mobil | Desktop |
+|---------|--------|---------|
+| Sync | Ja | Ja |
+| Plugins | Nej | Ja |
+| Temaer | Begrænset | Fuld |
+
+### Krydsreferencer
+
+Brug interne wikilinks (`[[Notenavn]]`) flittigt for at hjælpe brugere med at navigere relaterede emner. Undgå dog overdreven linking:
+
+- Link ikke den samme term flere gange på en enkelt side
+- Link kun, når den refererede side giver betydelig ekstra kontekst
+- Brug beskrivende linktekst, når det er nyttigt: `[[Notenavn#Sektion|beskrivende tekst]]`
+
+**Eksempel:**
+
+Første omtale: "Lær om [[Introduktion til Obsidian Sync|Obsidian Sync]] for at holde din boks opdateret på tværs af enheder."
+Senere omtale: "Du kan konfigurere Sync for hver enhed separat."
+
+### Platformspecifikt indhold
+
+Når du dokumenterer funktioner, der er forskellige mellem platforme, brug sektionsoverskrifter til at organisere indholdet.
+
+Brug `Desktop` og `Mobil` som underoverskrifter for at adskille platformspecifikke instruktioner eller funktioner.
+
+**Anbefalet:**
+```md
+## Tilpasning af båndmenuen
+
+### Desktop
+
+I desktopversionen kan du tilpasse båndmenuen på følgende måde:
+
+- Omarranger rækkefølgen af båndmenuhandlinger ved at trække og slippe ikonerne.
+- For at skjule specifikke handlinger, højreklik på et tomt område og fjern markeringen af de handlinger, du vil skjule.
+
+### Mobil
+
+I mobilversionen kan du tilpasse båndmenuen via indstillinger:
+
+1. Åbn **[[Indstillinger]]**.
+2. Gå til **Grænseflade**.
+3. Klik på **Konfiguration af båndmenu**.
+```
+
+> [!info]+ Hvornår skal der oprettes sektioner?
+> Opret kun separate sektioner, hvis indholdet er væsentligt forskelligt. Hvis instruktionerne stort set er de samme med mindre variationer, brug inline-noter i stedet.
 
 ## Ikoner og billeder
 
@@ -189,7 +342,7 @@ Inkluder ikoner og billeder når det er nemmere at forklare noget, som er svært
 ![[Style-guide-zoomed-example.png#interface|300]]
 
 - Billeder skal være i `.png` eller `.svg` format
-- Hvis et billede ser for stort ud i en note, så gør det mindre i et billedredigeringsprogram udenfor Obsidian, eller juster billedets visudelle dimensioner, som forklaret i [[Indlejr filer#Embed an image in a note|embedding an image in a note]]
+- Hvis et billede ser for stort ud i en note, så gør det mindre i et billedredigeringsprogram udenfor Obsidian, eller juster billedets visuelle dimensioner, som forklaret i [[Indlejr filer#Embed an image in a note|embedding an image in a note]]
 - I sjældne tilfælde kan du placere meget store og komplekse billeder i en  [[Bobler#Foldable callouts|folded callout]]
 - Hvis du viser pop-up vinduer eller modal vinduer, så skal man kunne se hele Obsidian applikationsvinduet
 ![[Style-guide-modal-example.png#interface]]
@@ -198,7 +351,7 @@ Inkluder ikoner og billeder når det er nemmere at forklare noget, som er svært
 
 [Lucide](https://lucide.dev/icons/) og brugerdefinerede Obsidian ikoner kan bruges sideløbende med detaljerede elementer for give en feature bedre visuel repræsentation.
 
-**Eksempel:** In the ribbon on the left, select **Create new canvas** ![[lucide-layout-dashboard.svg#icon]] to create a canvas in the same folder as the active file.
+**Eksempel:** I [[Stifinder|stifindren]], vælg **Opret ny mappe** ![[lucide-folder-plus.svg#icon]] for at oprette en mappe.
 
 **Guidelines for Ikoner**
 
@@ -206,7 +359,7 @@ Inkluder ikoner og billeder når det er nemmere at forklare noget, som er svært
 - Tilføj præfiks `lucide-` i starten af navnet for et Lucide ikon
 - Tilføj præfiks `obsidian-icon-` i starten af navnet for et Obsidian ikon
 
-**Eksempel:** The icon for creating a new canvas should be named `lucide-layout-dashboard`.
+**Eksempel:** Ikonet for at oprette en ny mappe bør hedde `lucide-folder-plus`.
 
 - Benyt SVG udgaver af ikonerne, hvis de er tilgængelige
 - Ikoner skal være `18` pixels brede, `18` pixels høje, og have en stregbredde på `1.5`. Du kan justere disse indstillinger i SVG filens data.
@@ -266,7 +419,7 @@ Billeder forsinker en sides indlæsningstid, og fylder meget i [[Introduktion ti
 
 Både billeder og ikoner bør komprimeres.
 
-> [!success] Værktøjer til komprimering af billeder
+> [!info] Værktøjer til komprimering af billeder
 > Her er nogle anbefalede progammer til at reducere størrelsen på dine billeder.
 > - **Windows:** [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/)
 > - **macOS:** [ImageOptim](https://imageoptim.com/)
@@ -278,7 +431,7 @@ Både billeder og ikoner bør komprimeres.
 
 ### Ødelagte links
 
-Før du laver et 'Pull Request' på GitHub skal du tjekke dokumentatione igennem for ødelagte links og sikre at alle links virker. Ødelagte links kan opstår hen over tid, så sørg for at verificere alle links, da det sikrer kvaliteten af dokumentationen.
+Før du laver et 'Pull Request' på GitHub skal du tjekke dokumentationen igennem for ødelagte links og sikre at alle links virker. Ødelagte links kan opstå hen over tid, så sørg for at verificere alle links, da det sikrer kvaliteten af dokumentationen.
 
 Du kan tjekke for ødelagte links ved at anvende [[Fællesskabsplugins]] eller andre værktøjer, der kan være tilgængelige i dit IDE.
 
@@ -286,7 +439,7 @@ Du kan tjekke for ødelagte links ved at anvende [[Fællesskabsplugins]] eller a
 
 Denne dokumentation er redigeret på GitHub og hostet online ved hjælp via  [[Introduktion til Obsidian Publish|Obsidian Publish]], som indeholder  [[Forhåndsvisning af links på sociale medier#Description|beskrivelser]] til social kort og andre [[SEO]] elementer.
 
-Hvis siden du arbejder på ikke har en `description` [[Egenskaber|egenskab]], så tilføj en. Beskrivelsen skal være maximum 150 karaterer og give et objektiv sammendrag af sidens indhold.
+Hvis siden du arbejder på ikke har en `description` [[Egenskaber|egenskab]], så tilføj en. Beskrivelsen skal være maximum 150 karaterer og give et objektivt sammendrag af sidens indhold.
 
 **God beskrivelse**: Learn to create templates that capture and organize web page metadata automatically with Web Clipper.
 **Kan forbedres**: Learn how to create templates that automatically capture and organize metadata from web pages with Web Clipper.

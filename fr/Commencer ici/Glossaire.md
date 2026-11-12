@@ -1,7 +1,6 @@
 ---
 permalink: glossary
 localized: '2026-03-18'
-
 ---
 Ce glossaire comprend la terminologie courante d'Obsidian.
 
@@ -72,7 +71,7 @@ Les [[Propriétés|propriétés]] définissent des informations supplémentaires
 
 Le **ruban** fonctionne comme un conteneur pour les icônes d'actions fréquemment utilisées.
 
-Dans la version bureau, il s'agit de la zone verticale située à l'extrême gauche.
+Dans la version bureau, il s'agit de la colonne verticale de boutons d'icônes sur le bord de l'application. Il peut être activé ou désactivé dans Paramètres → Interface, ou en utilisant la [[Palette de commandes]].
 
 Dans la version mobile, il est représenté par un bouton de menu ![[lucide-menu.svg#icon]] dans la [[#barre d'état]].
 

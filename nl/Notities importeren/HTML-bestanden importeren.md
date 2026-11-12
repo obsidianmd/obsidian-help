@@ -14,7 +14,7 @@ Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt i
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Schakel de Importer-plug-in in.
-4. Open de **Importer**-plug-in via het opdrachtenpalet of het werkbalkpictogram.
+4. Open Importer in Instellingen of via het [[Opdrachtenpalet]].
 5. Kies onder **Bestandsformaat** de optie **HTML (.html).**
 6. Selecteer de locatie van je HTML-bestanden of -mappen.
 7. Selecteer **Importeren** om het gegenereerde sjabloon te bekijken en voorbeelden van je bestanden te bekijken.

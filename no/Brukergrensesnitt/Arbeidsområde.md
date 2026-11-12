@@ -10,7 +10,7 @@ Arbeidsområdet er hovedbeholderen for alle komponentene som utgjør Obsidian-gr
 
 I Obsidian-skrivebordsappen inkluderer arbeidsområdet:
 
-- [[Verktøylinje]] som går vertikalt på venstre side av appen
+- [[Verktøylinje]] som går vertikalt på venstre side av appen, når den er aktivert
 - [[Sidefelt|Sidefelt]] på venstre og høyre side (kan lukkes)
     - [[Sidefelt#Fanegrupper|Sidefeltets fanegrupper]] (kan deles vertikalt)
     - [[Sidefelt#Faner|Sidefeltets faner]]

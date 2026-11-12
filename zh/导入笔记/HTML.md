@@ -16,7 +16,7 @@ Obsidian 允许你使用官方的 [[迁移助手|Importer 插件]] 轻松导入�
 1. 打开 **[[设置]]**。
 2. 转到 **社区插件市场** 并[安装 Importer](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用 Importer 插件。
-4. 使用命令面板或功能区按钮打开 **Importer** 插件。
+4. 在设置中打开 Importer，或使用[[命令面板]]打开。
 5. 在 **文件格式** 下选择 **HTML (.html).**
 6. 选择 HTML 文件或文件夹的位置。
 7. 选择 **导入** 以查看生成的模板并预览文件中的示例。

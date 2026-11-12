@@ -319,8 +319,8 @@ V desktopovej verzii môžete panel nástrojov prispôsobiť nasledovne:
 V mobilnej verzii môžete panel nástrojov prispôsobiť cez nastavenia:
 
 1. Otvorte **[[Nastavenia]]**.
-2. Prejdite na **Vzhľad**.
-3. Kliknite na **Spravovať** pod **Konfigurácia panelu nástrojov**.
+2. Prejdite na **Rozhranie**.
+3. Kliknite na **Panel nástrojov**.
 ```
 
 > [!info]+ Kedy vytvoriť sekcie?
@@ -346,7 +346,7 @@ Zahrňte ikony a obrázky, keď uľahčujú vysvetlenie vecí, ktoré je ťažk�
 
 Ikony [Lucide](https://lucide.dev/icons/) a vlastné ikony Obsidian je možné použiť vedľa detailných prvkov na vizuálne znázornenie funkcie.
 
-**Príklad:** V paneli nástrojov vľavo vyberte **Vytvoriť nové plátno** ![[lucide-layout-dashboard.svg#icon]] na vytvorenie plátna v rovnakom priečinku ako aktívny súbor.
+**Príklad:** V [[Prieskumník súborov|prieskumníkovi súborov]] vyberte **Nový priečinok** ![[lucide-folder-plus.svg#icon]] na vytvorenie priečinka.
 
 **Pokyny pre ikony**
 
@@ -354,7 +354,7 @@ Ikony [Lucide](https://lucide.dev/icons/) a vlastné ikony Obsidian je možné p
 - Pridajte predponu `lucide-` pred názov ikony Lucide.
 - Pridajte predponu `obsidian-icon-` pred názov ikony Obsidian.
 
-**Príklad:** Ikona na vytvorenie nového plátna by mala byť pomenovaná `lucide-layout-dashboard`.
+**Príklad:** Ikona na vytvorenie nového priečinka by mala byť pomenovaná `lucide-folder-plus`.
 
 - Používajte SVG verziu dostupných ikon.
 - Ikony by mali mať šírku `18` pixelov, výšku `18` pixelov a šírku ťahu `1.5`. Tieto nastavenia môžete upraviť v SVG dátach.

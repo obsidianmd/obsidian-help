@@ -16,7 +16,7 @@ Budete potrebovať oficiálny plugin Obsidian [[Importér]], ktorý si môžete 
 1. Otvorte **[[Nastavenia]]**.
 2. Prejdite na **Komunitné pluginy** a [nainštalujte Importér](obsidian://show-plugin?id=obsidian-importer).
 3. Zapnite plugin Importér.
-4. Otvorte plugin **Importér** pomocou palety príkazov alebo ikony na paneli nástrojov.
+4. Otvorte Importér v Nastaveniach alebo pomocou [[Paleta príkazov|palety príkazov]].
 5. Pod **Formátovať súbor** vyberte **CSV (.csv).**
 6. Vyberte umiestnenie vášho CSV súboru.
 7. Vyberte **Import** na konfiguráciu toho, ako budú dáta vo vašom CSV súbore konvertované na poznámky s [[Vlastnosti|vlastnosťami]].

@@ -20,7 +20,7 @@ Přepnutí do *režimu čtení*:
 - Nebo stiskněte `Ctrl+E` (`Cmd+E` na macOS).
 
 > [!note] Poznámka
-> Zapněte **[[Nastavení]] → Vzhled → Zobrazit nadpis karty**, aby se zobrazila ikona přepínače zobrazení.
+> Zapněte **[[Nastavení]] → Rozhraní → Zobrazit nadpis karty**, aby se zobrazila ikona přepínače zobrazení.
 > 
 > Pokud je tato volba vypnutá, zapněte **[[Nastavení]] → Editor → Editor status** pro přepínání zobrazení ze stavového řádku.
 

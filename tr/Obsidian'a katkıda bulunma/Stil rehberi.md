@@ -319,8 +319,8 @@ Masaüstü sürümünde araç çubuğunu şu şekilde özelleştirebilirsiniz:
 Mobil sürümünde araç çubuğunu ayarlar üzerinden özelleştirebilirsiniz:
 
 1. **[[Ayarlar]]** öğesini açın.
-2. **Görünüm** bölümüne gidin.
-3. **Şerit Yapılandırması** altında **Yönet** öğesine tıklayın.
+2. **Arayüz** bölümüne gidin.
+3. **Şerit menüsü yapılandırması** öğesine tıklayın.
 ```
 
 > [!info]+ Ne zaman ayrı bölümler oluşturulmalı?
@@ -346,7 +346,7 @@ Kelimelerle açıklaması zor olan şeyleri açıklamayı kolaylaştırdığınd
 
 [Lucide](https://lucide.dev/icons/) ve özel Obsidian simgeleri, bir özelliğin görsel temsilini sağlamak için ayrıntılı öğelerin yanında kullanılabilir.
 
-**Örnek:** Soldaki araç çubuğunda, aktif dosyayla aynı klasörde bir tuval oluşturmak için **Yeni tuval oluşturun** ![[lucide-layout-dashboard.svg#icon]] öğesini seçin.
+**Örnek:** [[Dosya gezgini]]'nde, bir klasör oluşturmak için **Yeni klasör oluştur** ![[lucide-folder-plus.svg#icon]] öğesini seçin.
 
 **Simgeler için yönergeler**
 
@@ -354,7 +354,7 @@ Kelimelerle açıklaması zor olan şeyleri açıklamayı kolaylaştırdığınd
 - Lucide simge adından önce `lucide-` önekini ekleyin.
 - Obsidian simge adından önce `obsidian-icon-` önekini ekleyin.
 
-**Örnek:** Yeni bir tuval oluşturma simgesi `lucide-layout-dashboard` olarak adlandırılmalıdır.
+**Örnek:** Yeni bir klasör oluşturma simgesi `lucide-folder-plus` olarak adlandırılmalıdır.
 
 - Simgelerin SVG sürümünü kullanın.
 - Simgeler `18` piksel genişliğinde, `18` piksel yüksekliğinde olmalı ve `1.5` çizgi kalınlığına sahip olmalıdır. Bu ayarları SVG verilerinde düzenleyebilirsiniz.

@@ -22,7 +22,7 @@ Per passare alla *vista lettura*:
 - Oppure premi `Ctrl+E` (`Cmd+E` su macOS).
 
 > [!note] Nota
-> Abilita **[[Impostazioni]] → Aspetto → Mostra barra del titolo della scheda** per visualizzare l'icona del selettore vista.
+> Abilita **[[Impostazioni]] → Interfaccia → Mostra barra del titolo della scheda** per visualizzare l'icona del selettore vista.
 > 
 > Se questa opzione è disabilitata, attiva **[[Impostazioni]] → Editor → Stato dell'editor** per alternare le viste dalla barra di stato.
 

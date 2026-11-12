@@ -70,7 +70,7 @@ Zie ook [[Losstaande vensters]].
 
 De **werkbalk** fungeert als een container voor veelgebruikte actiepictogrammen.
 
-In de desktopversie is het het verticale gebied helemaal links.
+In de desktopversie is het de verticale kolom met pictogramknoppen aan de rand van de app. Het kan worden in- of uitgeschakeld in Instellingen → Interface, of via het [[Opdrachtenpaneel]].
 
 In de mobiele versie wordt het weergegeven als een menuknop ![[lucide-menu.svg#icon]] op de [[#statusbalk|statusbalk]].
 

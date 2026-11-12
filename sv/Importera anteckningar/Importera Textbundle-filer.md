@@ -16,7 +16,7 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 1. Öppna **[[Inställningar]]**.
 2. Gå till **Gemenskapstillägg** och [installera Importerare](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivera Importerare-tillägget.
-4. Öppna **Importerare**-tillägget med kommandopaletten eller ribbon-ikonen.
+4. Öppna Importerare i Inställningar eller med [[Kommandopalett|kommandopaletten]].
 5. Under **Filformat** välj **Textbundle (.textbundle, .textpack).**
 6. Välj platsen för dina Textbundle- eller Textpack-filer. Zip-filer stöds också.
 7. Välj **Importera** för att granska den genererade mallen och förhandsgranska exempel från dina anteckningar.

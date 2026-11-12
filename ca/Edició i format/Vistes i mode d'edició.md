@@ -20,7 +20,7 @@ Per canviar a la *Vista de lectura*:
 - O prem `Ctrl+E` (`Cmd+E` a macOS).
 
 > [!note] Nota
-> Activa **[[Configuració]] → Aparença → Mostra la barra de títol de les pestanyes** per veure la icona del selector de vista.
+> Activa **[[Configuració]] → Interfície → Mostra la barra de títol de les pestanyes** per veure la icona del selector de vista.
 > 
 > Si està desactivat, activa **[[Configuració]] → Editor → Estat de l'editor** per alternar les vistes des de la barra d'estat.
 

@@ -70,7 +70,7 @@ Las [[Propiedades|propiedades]] definen información adicional sobre una nota, c
 
 La **menú de cinta** funciona como un contenedor para los iconos de acciones frecuentes.
 
-En la versión de escritorio, es el área vertical situada en el extremo izquierdo.
+En la versión de escritorio, es la columna vertical de botones de iconos en el borde de la aplicación. Se puede activar o desactivar en Ajustes → Interfaz, o usando la [[Paleta de comandos]].
 
 En la versión móvil, está representada por un botón de menú ![[lucide-menu.svg#icon]] en la [[#barra de estado|barra de estado]].
 

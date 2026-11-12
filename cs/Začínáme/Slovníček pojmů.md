@@ -70,7 +70,7 @@ Viz také [[Vyskakovací okna]].
 
 **Postranní panel nástrojů** funguje jako kontejner pro často používané ikony akcí.
 
-V desktopové verzi se jedná o svislou oblast umístěnou zcela vlevo.
+V desktopové verzi se jedná o svislý sloupec tlačítek s ikonami na okraji aplikace. Lze jej zapnout nebo vypnout v Nastavení → Rozhraní, nebo pomocí [[Paleta příkazů|palety příkazů]].
 
 V mobilní verzi je reprezentován tlačítkem nabídky ![[lucide-menu.svg#icon]] na [[#stavový řádek|stavovém řádku]].
 

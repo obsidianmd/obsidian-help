@@ -16,7 +16,7 @@ Použijte oficiální [[Importér|plugin Importer]], když chcete vybrat složky
 
 1. Otevřete **[[Nastavení|Nastavení]] → Pluginy třetích stran** a [nainstalujte Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Zapněte plugin Importer.
-3. Otevřete **Importer** pomocí [[Paleta příkazů|palety příkazů]] nebo ikony v postranním panelu nástrojů.
+3. Otevřete Importer v Nastavení nebo pomocí [[Paleta příkazů|palety příkazů]].
 4. V části **File format** vyberte **Markdown (.md, .zip)**.
 5. Vyberte jednotlivé soubory Markdown, složky nebo zip archivy.
 6. Zkontrolujte zjištěné složky, možnosti výstupu, vygenerovanou šablonu a náhledy příkladů.

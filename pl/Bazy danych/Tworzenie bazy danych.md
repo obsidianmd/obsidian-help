@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. W przeglądarce plików kliknij prawym przyciskiem myszy folder, w którym chcesz stworzyć bazę danych.
 2. Wybierz **Nowa baza danych**.
 
-**Wstążka:**
-
-- W pionowej wstążce wybierz **Stwórz nową bazę danych**, aby stworzyć bazę danych w tym samym folderze co aktywny plik.
-
 ## Osadzanie bazy danych
 
 ### Osadzanie pliku bazy danych

@@ -18,7 +18,7 @@ cssclasses:
 
 1. 打开**[[设置]] → 社区插件**并[安装 Importer](obsidian://show-plugin?id=obsidian-importer)。
 2. 启用 Importer 插件。
-3. 通过[[命令面板]]或功能区图标打开 **Importer**。
+3. 在设置中或通过[[命令面板]]打开 Importer。
 4. 在**文件格式**下，选择 **Markdown (.md, .zip)**。
 5. 选择单个 Markdown 文件、文件夹或 zip 压缩包。
 6. 检查检测到的文件夹、输出选项、生成的模板和预览示例。

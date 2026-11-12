@@ -16,7 +16,7 @@ Utilize o [[Importador|plugin Importer]] oficial quando quiser selecionar pastas
 
 1. Abra **[[Definições|Definições]] → Plugins da comunidade** e [instale o Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Ative o plugin Importer.
-3. Abra o **Importer** utilizando a [[Paleta de comando|paleta de comandos]] ou o ícone na barra de ferramentas.
+3. Abra o Importer nas Definições ou utilizando a [[Paleta de comando|paleta de comandos]].
 4. Em **File format**, selecione **Markdown (.md, .zip)**.
 5. Escolha ficheiros Markdown individuais, pastas ou ficheiros zip.
 6. Reveja as pastas detetadas, as opções de saída, o modelo gerado e os exemplos de pré-visualização.

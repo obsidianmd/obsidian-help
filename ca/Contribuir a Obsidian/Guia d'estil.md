@@ -319,8 +319,8 @@ A la versió d'escriptori, podeu personalitzar la cinta de la següent manera:
 A la versió mòbil, podeu personalitzar la cinta a través de la configuració:
 
 1. Obriu **[[Configuració]]**.
-2. Navegueu a **Aparença**.
-3. Feu clic a **Gestionar** sota **Configuració de la cinta**.
+2. Navegueu a **Interfície**.
+3. Feu clic a **Menú de cinta**.
 ```
 
 > [!info]+ Quan crear seccions?
@@ -346,7 +346,7 @@ Incloeu icones i imatges quan facilitin l'explicació de coses difícils de desc
 
 Les icones de [Lucide](https://lucide.dev/icons/) i les icones personalitzades d'Obsidian es poden utilitzar al costat d'elements detallats per proporcionar una representació visual d'una funcionalitat.
 
-**Exemple:** A la barra d'eines de l'esquerra, seleccioneu **Crea un llenç nou** ![[lucide-layout-dashboard.svg#icon]] per crear un llenç a la mateixa carpeta que el fitxer actiu.
+**Exemple:** A l'[[Explorador de fitxers]], seleccioneu **Carpeta nova** ![[lucide-folder-plus.svg#icon]] per crear una carpeta.
 
 **Directrius per a les icones**
 
@@ -354,7 +354,7 @@ Les icones de [Lucide](https://lucide.dev/icons/) i les icones personalitzades d
 - Afegiu el prefix `lucide-` abans del nom de la icona de Lucide.
 - Afegiu el prefix `obsidian-icon-` abans del nom de la icona d'Obsidian.
 
-**Exemple:** La icona per crear un llenç nou hauria d'anomenar-se `lucide-layout-dashboard`.
+**Exemple:** La icona per crear una carpeta nova hauria d'anomenar-se `lucide-folder-plus`.
 
 - Utilitzeu la versió SVG de les icones disponibles.
 - Les icones haurien de tenir `18` píxels d'amplada, `18` píxels d'alçada i un gruix de traç de `1.5`. Podeu ajustar aquesta configuració a les dades SVG.

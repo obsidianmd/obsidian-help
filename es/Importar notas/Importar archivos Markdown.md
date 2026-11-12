@@ -16,7 +16,7 @@ Usa el [[Importador|complemento Importer]] oficial cuando quieras seleccionar ca
 
 1. Abre **[[Configuración|Ajustes]] → Complementos comunitarios** e [instala Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Habilita el complemento Importer.
-3. Abre **Importer** usando la [[Paleta de comandos|paleta de comandos]] o el icono de la barra de herramientas.
+3. Abre Importer en Ajustes o usando la [[Paleta de comandos|paleta de comandos]].
 4. En **Formato de archivo**, selecciona **Markdown (.md, .zip)**.
 5. Elige archivos Markdown individuales, carpetas o archivos zip.
 6. Revisa las carpetas detectadas, las opciones de salida, la plantilla generada y los ejemplos de vista previa.

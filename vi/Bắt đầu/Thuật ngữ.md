@@ -70,7 +70,7 @@ Xem thêm [[Cửa sổ bật ra]].
 
 **Thanh công cụ** hoạt động như một vùng chứa cho các biểu tượng hành động thường dùng.
 
-Trong phiên bản máy tính, đó là khu vực dọc nằm ở phía ngoài cùng bên trái.
+Trong phiên bản máy tính, đó là cột dọc các nút biểu tượng ở cạnh ứng dụng. Có thể bật hoặc tắt trong Cài đặt → Giao diện, hoặc sử dụng [[Bảng lệnh]].
 
 Trong phiên bản di động, nó được biểu thị bằng nút menu ![[lucide-menu.svg#icon]] trên [[#thanh trạng thái|thanh trạng thái]].
 

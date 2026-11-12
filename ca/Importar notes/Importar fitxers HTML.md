@@ -14,7 +14,7 @@ Necessitareu el connector oficial d'Obsidian [[Importador]], que podeu [instal·
 1. Obriu **[[Configuració]]**.
 2. Aneu a **Connectors de la comunitat** i [instal·leu l'Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Habiliteu el connector Importador.
-4. Obriu el connector **Importador** mitjançant la paleta d'ordres o la icona de la barra d'eines.
+4. Obriu l'Importador a la Configuració o mitjançant la [[Paleta d'ordres]].
 5. A **Format de fitxer** trieu **HTML (.html).**
 6. Seleccioneu la ubicació dels vostres fitxers o carpetes HTML.
 7. Seleccioneu **Importar** per revisar la plantilla generada i previsualitzar exemples dels vostres fitxers.

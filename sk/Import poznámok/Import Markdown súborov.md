@@ -16,7 +16,7 @@ Použite oficiálny [[Importér|plugin Importer]], keď chcete vybrať priečink
 
 1. Otvorte **[[Nastavenia|Nastavenia]] → Pluginy tretích strán** a [nainštalujte Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Povoľte plugin Importer.
-3. Otvorte **Importer** pomocou [[Paleta príkazov|palety príkazov]] alebo ikony na paneli nástrojov.
+3. Otvorte Importer v Nastaveniach alebo pomocou [[Paleta príkazov|palety príkazov]].
 4. V časti **File format** vyberte **Markdown (.md, .zip)**.
 5. Vyberte jednotlivé Markdown súbory, priečinky alebo zip archívy.
 6. Skontrolujte zistené priečinky, možnosti výstupu, vygenerovanú šablónu a ukážky náhľadu.

@@ -18,7 +18,7 @@ Avrai bisogno del plugin ufficiale Obsidian [[Importatore]], che puoi [installar
 1. Apri **[[Impostazioni|Impostazioni]]**.
 2. Vai su **Plugin della comunità** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Abilita il plugin Importer.
-4. Apri il plugin **Importer** usando la tavolozza dei comandi o l'icona nella barra degli strumenti.
+4. Apri Importer nelle Impostazioni o usando il [[Riquadro comandi]].
 5. Sotto **Formattazione file** scegli **CSV (.csv).**
 6. Seleziona la posizione del tuo file CSV.
 7. Seleziona **Importa** per configurare come i dati nel tuo file CSV saranno convertiti in note con [[Proprietà|Proprietà]].

@@ -20,7 +20,7 @@ For å bytte til *Lesevisning*:
 - Eller trykk `Ctrl+E` (`Cmd+E` på macOS).
 
 > [!note] Merk
-> Aktiver **[[Innstillinger]] → Utseende → Vis tittellinje for fane** for å se visningsbytter-ikonet.
+> Aktiver **[[Innstillinger]] → Grensesnitt → Vis tittellinje for fane** for å se visningsbytter-ikonet.
 > 
 > Hvis dette er deaktivert, slå på **[[Innstillinger]] → Editor → Editor status** for å veksle visninger fra statuslinjen.
 

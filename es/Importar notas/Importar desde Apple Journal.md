@@ -29,7 +29,7 @@ Necesitarás el complemento oficial de Obsidian [[Importador]], que puedes [inst
 1. Abre **[[Configuración]]**.
 2. Ve a **Complementos creados por la comunidad** e [instala Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Activa el complemento Importador.
-4. Abre el complemento **Importador** usando la paleta de comandos o el icono del menú de cinta.
+4. Abre Importador en Ajustes o usando la [[Paleta de comandos]].
 5. En **Formato de archivo**, elige **Apple Journal (HTML Export)**.
 6. En **Archivos a importar**, selecciona la carpeta con los datos exportados, generalmente _AppleJournalEntries_, o archivos individuales de _Entries_.
 7. Revisa y edita las demás opciones de importación.

@@ -20,7 +20,7 @@ Vaihtaaksesi *lukutilaan*:
 - Tai paina `Ctrl+E` (`Cmd+E` macOS:ssä).
 
 > [!note] Huom
-> Ota käyttöön **[[Asetukset]] → Ulkoasu → Näytä välilehden otsikkorivi** nähdäksesi näkymänvaihtajan kuvakkeen.
+> Ota käyttöön **[[Asetukset]] → Käyttöliittymä → Näytä välilehden otsikkorivi** nähdäksesi näkymänvaihtajan kuvakkeen.
 > 
 > Jos se on pois käytöstä, ota käyttöön **[[Asetukset]] → Muokkain → Näytä muokkaustila tilapalkissa** vaihtaaksesi näkymiä tilarivistä.
 

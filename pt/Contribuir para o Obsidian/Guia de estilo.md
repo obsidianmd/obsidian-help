@@ -318,8 +318,8 @@ Na versão desktop, pode personalizar a barra de ferramentas da seguinte forma:
 Na versão móvel, pode personalizar a barra de ferramentas através das definições:
 
 1. Abra as **[[Definições]]**.
-2. Navegue até **Aparência**.
-3. Clique em **Gerir** em **Ribbon Configuration**.
+2. Navegue até **Interface**.
+3. Clique em **Ribbon menu**.
 ```
 
 > [!info]+ Quando criar secções?
@@ -345,7 +345,7 @@ Inclua ícones e imagens quando facilitarem a explicação de coisas difíceis d
 
 Ícones [Lucide](https://lucide.dev/icons/) e ícones personalizados do Obsidian podem ser usados junto a elementos detalhados para fornecer uma representação visual de uma funcionalidade.
 
-**Exemplo:** Na barra de ferramentas à esquerda, selecione **Criar novo Canvas** ![[lucide-layout-dashboard.svg#icon]] para criar um canvas na mesma pasta do ficheiro ativo.
+**Exemplo:** No [[Explorador de ficheiros]], selecione **Nova pasta** ![[lucide-folder-plus.svg#icon]] para criar uma pasta.
 
 **Diretrizes para ícones**
 
@@ -353,7 +353,7 @@ Inclua ícones e imagens quando facilitarem a explicação de coisas difíceis d
 - Adicione o prefixo `lucide-` antes do nome do ícone Lucide.
 - Adicione o prefixo `obsidian-icon-` antes do nome do ícone Obsidian.
 
-**Exemplo:** O ícone para criar um novo canvas deve chamar-se `lucide-layout-dashboard`.
+**Exemplo:** O ícone para criar uma nova pasta deve chamar-se `lucide-folder-plus`.
 
 - Use a versão SVG dos ícones disponíveis.
 - Os ícones devem ter `18` pixéis de largura, `18` pixéis de altura e uma largura de traço de `1.5`. Pode ajustar estas definições nos dados SVG.

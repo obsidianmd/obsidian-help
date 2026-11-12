@@ -16,7 +16,7 @@ Gebruik de officiële [[Importeren|Importer-plug-in]] wanneer je mappen binnen e
 
 1. Open **[[Instellingen|Instellingen]] → Community-plug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Schakel de Importer-plug-in in.
-3. Open **Importer** via het [[Opdrachtenpaneel|opdrachtenpalet]] of het werkbalkpictogram.
+3. Open Importer in Instellingen of via het [[Opdrachtenpaneel|opdrachtenpalet]].
 4. Selecteer onder **Bestandsformaat** de optie **Markdown (.md, .zip)**.
 5. Kies individuele Markdown-bestanden, mappen of zip-archieven.
 6. Bekijk de gedetecteerde mappen, uitvoeropties, gegenereerd sjabloon en voorbeeldweergaven.
