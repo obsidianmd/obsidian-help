@@ -38,7 +38,7 @@ You can hide the ribbon in any of these ways:
 
 - Right-click on the ribbon and select **Hide ribbon**.
 - In the app menu, select **View** → **Ribbon**.
-- Open **[[Settings]]** → **Appearance**, and under **Interface**, turn off **Show ribbon**.
+- Open **[[Settings]]** → **Interface**, and turn off **Show ribbon**.
 
 #### Show the ribbon
 
@@ -46,7 +46,7 @@ To show the ribbon on the left side of the window, use any of these:
 
 - In the app menu, select **View** → **Ribbon**.
 - Right-click the left sidebar toggle ![[obsidian-icon-side-bar-left.svg#icon]] and select **Ribbon**.
-- Open **[[Settings]]** → **Appearance**, and under **Interface**, turn on **Show ribbon**.
+- Open **[[Settings]]** → **Interface**, and turn on **Show ribbon**.
 
 > [!tip] Custom CSS
 > If you're using a community theme or custom CSS, make sure it does not hide the ribbon through custom style rules.
