@@ -83,6 +83,12 @@ Notes and attachments appear in chronological order based on their creation time
 
 ![[obsidian-graph-view.png#interface]]
 
+## Bookmark a graph
+
+You can use [[Bookmarks]] to quickly open a graph. Right-click the tab with the graph view and select **Bookmark**. To open the bookmark, select it in the Bookmarks tab.
+
+You can't bookmark local graphs.
+
 ## Local Graph
 
 To open a local Graph view, use the **Open local graph** command. While the Graph view shows all notes in your vault, a local Graph view shows you notes connected to the active note.
