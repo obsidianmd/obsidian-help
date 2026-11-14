@@ -24,13 +24,23 @@ If you use Linux, you can install Obsidian in several ways. Follow the instructi
 
 ### Install Obsidian using Snap
 
-1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
-2. Under **Linux**, click **Snap** to download the installation file.
-3. Open a terminal and navigate to the folder where you downloaded the installation file.
-4. In the terminal, run the following command to install the Snap package: (the `--dangerous` flag is required because Canonical, the company who created Snap, didn't review our package, the `--classic` flag allows Obsidian to access outside of the sandbox, where your notes are stored)
+1. In your terminal, run the following command to install Obsidian from the Snap Store: (the `--classic` flag allows Obsidian to access outside of the sandbox, where your notes are stored)
 
    ```bash
-   snap install obsidian_<version>_<arch>.snap --dangerous --classic
+   snap install obsidian --classic
+   ```
+
+2. Open Obsidian the same way you would open any other application.
+
+### Install Obsidian using a Debian package
+
+1. Open your browser and go to [Download Obsidian](https://obsidian.md/download).
+2. Under **Linux**, click **Deb** to download the installation file.
+3. Open a terminal and navigate to the folder where you downloaded the installation file.
+4. In the terminal, run the following command to install the package:
+
+   ```bash
+   sudo apt install ./obsidian_<version>_amd64.deb
    ```
 
 5. Open Obsidian the same way you would open any other application.
