@@ -173,7 +173,7 @@ For more information about creating diagrams, refer to the [official Mermaid doc
 
 ## Math
 
-You can add math expressions to your notes using [MathJax](http://docs.mathjax.org/en/latest/basic/mathjax.html) and the LaTeX notation.
+You can add math expressions to your notes using [MathJax 4](https://docs.mathjax.org/en/v4.0/basic/mathjax.html) and the LaTeX notation.
 
 To add a MathJax expression to your note, surround it with double dollar signs (`$$`).
 
@@ -201,4 +201,4 @@ This is an inline math expression $e^{2i\pi} = 1$.
 
 For more information about the syntax, refer to [MathJax basic tutorial and quick reference](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](http://docs.mathjax.org/en/latest/input/tex/extensions/index.html).
+For a list of supported MathJax packages, refer to [The TeX/LaTeX Extension List](https://docs.mathjax.org/en/v4.0/input/tex/extensions/index.html).

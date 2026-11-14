@@ -133,7 +133,7 @@ When a property is focused
 
 ## Property format
 
-Properties are stored in [YAML](https://yaml.org/) format at the top of the file. YAML is a popular format that is easy for both humans and computers to read.
+Properties are stored in [YAML 1.2](https://yaml.org/spec/1.2.2/) format at the top of the file. YAML is a popular format that is easy for both humans and computers to read.
 
 Property names are separated from their values by a colon followed by a space:
 
