@@ -132,7 +132,7 @@ También puedes buscar bloques para enlazar desde toda tu bóveda usando la sint
 > [!info]- Captura de pantalla de búsqueda de un enlace de bloque
 > ![[link-block-heading.png#interface]]
 
-También puedes crear identificadores de bloque legibles añadiendo un espacio en blanco seguido de un acento circunflejo (`^`) y el identificador. Los identificadores de bloque solo pueden consistir en letras latinas, números y guiones.
+También puedes crear identificadores de bloque legibles añadiendo un espacio en blanco seguido de un acento circunflejo (`^`) y el identificador. Los identificadores de bloque solo pueden consistir en las letras A-Z y a-z, los dígitos 0-9 y guiones.
 
 Por ejemplo, añade `^quote-of-the-day` al final de un bloque:
 

@@ -132,7 +132,7 @@ Vous pouvez également rechercher des blocs à lier dans l'ensemble de votre cof
 > [!info]- Capture d'écran de la recherche d'un lien de bloc
 > ![[link-block-heading.png#interface]]
 
-Vous pouvez également créer des identifiants de bloc lisibles en ajoutant un espace suivi d'un accent circonflexe (`^`) et de l'identifiant. Les identifiants de bloc ne peuvent contenir que des lettres latines, des chiffres et des tirets.
+Vous pouvez également créer des identifiants de bloc lisibles en ajoutant un espace suivi d'un accent circonflexe (`^`) et de l'identifiant. Les identifiants de bloc ne peuvent contenir que les lettres A-Z et a-z, les chiffres 0-9 et des tirets.
 
 Par exemple, ajoutez `^quote-of-the-day` à la fin d'un bloc :
 

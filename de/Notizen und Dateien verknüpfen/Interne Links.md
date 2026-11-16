@@ -129,7 +129,7 @@ Du kannst auch im gesamten Vault nach Blöcken suchen, auf die du verlinken möc
 > [!info]- Screenshot der Suche nach einem Block-Link
 > ![[link-block-heading.png#interface]]
 
-Du kannst auch menschenlesbare Block-IDs erstellen, indem du ein Leerzeichen gefolgt von einem Caret (`^`) und der ID hinzufügst. Block-IDs können nur aus lateinischen Buchstaben, Zahlen und Bindestrichen bestehen.
+Du kannst auch menschenlesbare Block-IDs erstellen, indem du ein Leerzeichen gefolgt von einem Caret (`^`) und der ID hinzufügst. Block-IDs können nur aus den Buchstaben A-Z und a-z, den Ziffern 0-9 und Bindestrichen bestehen.
 
 Füge zum Beispiel `^quote-of-the-day` am Ende eines Blocks hinzu:
 

@@ -131,7 +131,7 @@ Poți de asemenea să cauți blocuri către care să creezi o legătură din în
 > [!info]- Captură de ecran cu căutarea unei legături către un bloc
 > ![[link-block-heading.png#interface]]
 
-Poți de asemenea crea identificatori de bloc ușor de citit adăugând un spațiu urmat de un accent circumflex (`^`) și identificatorul. Identificatorii de bloc pot fi formați doar din litere latine, cifre și cratime.
+Poți de asemenea crea identificatori de bloc ușor de citit adăugând un spațiu urmat de un accent circumflex (`^`) și identificatorul. Identificatorii de bloc pot fi formați doar din literele A-Z și a-z, cifrele 0-9 și cratime.
 
 De exemplu, adaugă `^quote-of-the-day` la finalul unui bloc:
 

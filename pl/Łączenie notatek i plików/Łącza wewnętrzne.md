@@ -129,7 +129,7 @@ Możesz także wyszukiwać bloki do linkowania z całego sejfu, używając skła
 > [!info]- Zrzut ekranu wyszukiwania łącza do bloku 
 > ![[link-block-heading.png#interface]]
 
-Możesz także tworzyć czytelne identyfikatory bloków, dodając spację, a następnie daszek (`^`) i identyfikator. Identyfikatory bloków mogą składać się wyłącznie z liter łacińskich, cyfr i myślników.
+Możesz także tworzyć czytelne identyfikatory bloków, dodając spację, a następnie daszek (`^`) i identyfikator. Identyfikatory bloków mogą składać się wyłącznie z liter A-Z i a-z, cyfr 0-9 oraz myślników.
 
 Na przykład dodaj `^quote-of-the-day` na końcu bloku:
 

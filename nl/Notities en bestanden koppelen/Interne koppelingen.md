@@ -129,7 +129,7 @@ Je kunt ook naar blokken zoeken om naar te koppelen vanuit je hele kluis met de 
 > [!info]- Schermafbeelding van het zoeken naar een blokkoppeling
 > ![[link-block-heading.png#interface]]
 
-Je kunt ook leesbare blok-ID's maken door een spatie toe te voegen gevolgd door een dakje (`^`) en de ID. Blok-ID's kunnen alleen bestaan uit Latijnse letters, cijfers en streepjes.
+Je kunt ook leesbare blok-ID's maken door een spatie toe te voegen gevolgd door een dakje (`^`) en de ID. Blok-ID's kunnen alleen bestaan uit de letters A-Z en a-z, de cijfers 0-9 en streepjes.
 
 Voeg bijvoorbeeld `^quote-of-the-day` toe aan het einde van een blok:
 

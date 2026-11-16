@@ -129,7 +129,7 @@ També pots cercar blocs als quals enllaçar des de tota la cambra forta utilitz
 > [!info]- Captura de pantalla de la cerca d'un enllaç de bloc
 > ![[link-block-heading.png#interface]]
 
-També pots crear identificadors de bloc llegibles afegint un espai en blanc seguit d'un circumflex (`^`) i l'identificador. Els identificadors de bloc només poden consistir en lletres llatines, números i guions.
+També pots crear identificadors de bloc llegibles afegint un espai en blanc seguit d'un circumflex (`^`) i l'identificador. Els identificadors de bloc només poden consistir en les lletres A-Z i a-z, els dígits 0-9 i guions.
 
 Per exemple, afegeix `^quote-of-the-day` al final d'un bloc:
 

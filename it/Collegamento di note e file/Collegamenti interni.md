@@ -131,7 +131,7 @@ Puoi anche cercare blocchi a cui collegare nell'intera cassaforte utilizzando la
 > [!info]- Screenshot della ricerca di un collegamento a blocco
 > ![[link-block-heading.png#interface]]
 
-Puoi anche creare identificatori di blocco leggibili aggiungendo uno spazio vuoto seguito da un accento circonflesso (`^`) e l'identificatore. Gli identificatori di blocco possono contenere solo lettere latine, numeri e trattini.
+Puoi anche creare identificatori di blocco leggibili aggiungendo uno spazio vuoto seguito da un accento circonflesso (`^`) e l'identificatore. Gli identificatori di blocco possono contenere solo le lettere A-Z e a-z, le cifre 0-9 e trattini.
 
 Ad esempio, aggiungi `^quote-of-the-day` alla fine di un blocco:
 

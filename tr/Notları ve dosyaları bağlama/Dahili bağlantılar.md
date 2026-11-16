@@ -129,7 +129,7 @@ This is the tale of Gemmy, the Unhelpful assistant.
 > [!info]- Blok bağlantısı arama ekran görüntüsü
 > ![[link-block-heading.png#interface]]
 
-Ayrıca bir boşluk, ardından şapka işareti (`^`) ve tanımlayıcı ekleyerek okunabilir blok tanımlayıcıları oluşturabilirsiniz. Blok tanımlayıcıları yalnızca Latin harflerinden, rakamlardan ve tirelerden oluşabilir.
+Ayrıca bir boşluk, ardından şapka işareti (`^`) ve tanımlayıcı ekleyerek okunabilir blok tanımlayıcıları oluşturabilirsiniz. Blok tanımlayıcıları yalnızca A-Z ve a-z harflerinden, 0-9 rakamlarından ve tirelerden oluşabilir.
 
 Örneğin, bir bloğun sonuna `^quote-of-the-day` ekleyin:
 

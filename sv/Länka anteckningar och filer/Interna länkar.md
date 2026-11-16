@@ -129,7 +129,7 @@ Du kan också söka efter block att länka till från hela valvet med syntaxen `
 > [!info]- Skärmbild av sökning efter en blocklänk
 > ![[link-block-heading.png#interface]]
 
-Du kan också skapa läsbara blockidentifierare genom att lägga till ett blanksteg följt av ett caret-tecken (`^`) och identifieraren. Blockidentifierare kan bara bestå av latinska bokstäver, siffror och bindestreck.
+Du kan också skapa läsbara blockidentifierare genom att lägga till ett blanksteg följt av ett caret-tecken (`^`) och identifieraren. Blockidentifierare kan bara bestå av bokstäverna A-Z och a-z, siffrorna 0-9 och bindestreck.
 
 Till exempel, lägg till `^quote-of-the-day` i slutet av ett block:
 

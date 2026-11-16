@@ -129,7 +129,7 @@ Bạn cũng có thể tìm kiếm các khối để liên kết đến từ toà
 > [!info]- Ảnh chụp màn hình tìm kiếm liên kết khối
 > ![[link-block-heading.png#interface]]
 
-Bạn cũng có thể tạo mã định danh khối dễ đọc bằng cách thêm khoảng trắng tiếp theo dấu mũ (`^`) và mã định danh. Mã định danh khối chỉ có thể bao gồm chữ cái Latin, số và dấu gạch ngang.
+Bạn cũng có thể tạo mã định danh khối dễ đọc bằng cách thêm khoảng trắng tiếp theo dấu mũ (`^`) và mã định danh. Mã định danh khối chỉ có thể bao gồm các chữ cái A-Z và a-z, các chữ số 0-9 và dấu gạch ngang.
 
 Ví dụ, thêm `^quote-of-the-day` ở cuối khối:
 

@@ -129,7 +129,7 @@ Můžete také hledat bloky k propojení z celého trezoru pomocí syntaxe `[[^^
 > [!info]- Snímek obrazovky hledání odkazu na blok
 > ![[link-block-heading.png#interface]]
 
-Můžete také vytvářet čitelné identifikátory bloků přidáním mezery následované stříškou (`^`) a identifikátorem. Identifikátory bloků mohou obsahovat pouze latinská písmena, čísla a pomlčky.
+Můžete také vytvářet čitelné identifikátory bloků přidáním mezery následované stříškou (`^`) a identifikátorem. Identifikátory bloků mohou obsahovat pouze písmena A-Z a a-z, číslice 0-9 a pomlčky.
 
 Například přidejte `^quote-of-the-day` na konec bloku:
 

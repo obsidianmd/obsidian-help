@@ -129,7 +129,7 @@ Também pode pesquisar blocos para criar ligações em todo o seu cofre utilizan
 > [!info]- Captura de ecrã da pesquisa de uma ligação de bloco
 > ![[link-block-heading.png#interface]]
 
-Também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Os identificadores de bloco podem consistir apenas em letras latinas, números e hífens.
+Também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Os identificadores de bloco podem consistir apenas nas letras A-Z e a-z, nos dígitos 0-9 e em hífens.
 
 Por exemplo, adicione `^quote-of-the-day` no final de um bloco:
 

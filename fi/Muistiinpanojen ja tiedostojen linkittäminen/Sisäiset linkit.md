@@ -129,7 +129,7 @@ Voit myös hakea linkitettäviä lohkoja koko holvista käyttämällä syntaksia
 > [!info]- Kuvakaappaus lohkolinkin hakemisesta
 > ![[link-block-heading.png#interface]]
 
-Voit myös luoda ihmisen luettavia lohkotunnisteita lisäämällä välilyönnin, sirkumfleksin (`^`) ja tunnisteen. Lohkotunnisteet voivat sisältää vain latinalaisia kirjaimia, numeroita ja tavuviivoja.
+Voit myös luoda ihmisen luettavia lohkotunnisteita lisäämällä välilyönnin, sirkumfleksin (`^`) ja tunnisteen. Lohkotunnisteet voivat sisältää vain kirjaimia A–Z ja a–z, numeroita 0–9 ja tavuviivoja.
 
 Lisää esimerkiksi `^quote-of-the-day` lohkon loppuun:
 

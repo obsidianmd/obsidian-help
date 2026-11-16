@@ -132,7 +132,7 @@ Anda juga dapat mencari blok untuk ditautkan dari seluruh brankas menggunakan si
 > [!info]- Tangkapan layar pencarian tautan blok
 > ![[link-block-heading.png#interface]]
 
-Anda juga dapat membuat pengidentifikasi blok yang mudah dibaca dengan menambahkan spasi diikuti tanda sisipan (`^`) dan pengidentifikasi. Pengidentifikasi blok hanya dapat terdiri dari huruf Latin, angka, dan tanda hubung.
+Anda juga dapat membuat pengidentifikasi blok yang mudah dibaca dengan menambahkan spasi diikuti tanda sisipan (`^`) dan pengidentifikasi. Pengidentifikasi blok hanya dapat terdiri dari huruf A-Z dan a-z, angka 0-9, dan tanda hubung.
 
 Misalnya, tambahkan `^quote-of-the-day` di akhir blok:
 

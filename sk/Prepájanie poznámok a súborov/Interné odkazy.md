@@ -129,7 +129,7 @@ Bloky na prepojenie môžete vyhľadávať aj v celom trezore pomocou syntaxe `[
 > [!info]- Snímka obrazovky vyhľadávania odkazu na blok
 > ![[link-block-heading.png#interface]]
 
-Môžete tiež vytvoriť ľudsky čitateľné identifikátory blokov pridaním medzery nasledovanej strieškou (`^`) a identifikátorom. Identifikátory blokov môžu pozostávať iba z latinských písmen, číslic a pomlčiek.
+Môžete tiež vytvoriť ľudsky čitateľné identifikátory blokov pridaním medzery nasledovanej strieškou (`^`) a identifikátorom. Identifikátory blokov môžu pozostávať iba z písmen A-Z a a-z, číslic 0-9 a pomlčiek.
 
 Napríklad pridajte `^quote-of-the-day` na koniec bloku:
 

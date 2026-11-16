@@ -131,7 +131,7 @@ Você também pode pesquisar blocos para vincular em todo o seu cofre usando a s
 > [!info]- Captura de tela da pesquisa por um link de bloco
 > ![[link-block-heading.png#interface]]
 
-Você também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Identificadores de bloco podem conter apenas letras latinas, números e hifens.
+Você também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Identificadores de bloco podem conter apenas as letras A-Z e a-z, os dígitos 0-9 e hifens.
 
 Por exemplo, adicione `^quote-of-the-day` ao final de um bloco:
 

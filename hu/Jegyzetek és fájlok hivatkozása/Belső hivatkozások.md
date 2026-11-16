@@ -129,7 +129,7 @@ A széfben blokkokat is kereshet hivatkozáshoz a `[[^^blokk]]` szintaxis haszn�
 > [!info]- Képernyőkép blokkhivatkozás kereséséről
 > ![[link-block-heading.png#interface]]
 
-Létrehozhat ember által olvasható blokkazonosítókat is úgy, hogy egy szóközt, majd egy kalap jelet (`^`) és az azonosítót adja hozzá. A blokkazonosítók csak latin betűkből, számokból és kötőjelekből állhatnak.
+Létrehozhat ember által olvasható blokkazonosítókat is úgy, hogy egy szóközt, majd egy kalap jelet (`^`) és az azonosítót adja hozzá. A blokkazonosítók csak A-Z és a-z betűkből, 0-9 számjegyekből és kötőjelekből állhatnak.
 
 Például adja hozzá a `^quote-of-the-day` jelölést egy blokk végéhez:
 

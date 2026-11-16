@@ -137,7 +137,7 @@ Du kan også søge i hele din boks efter blokke du vil linke til ved at anvende 
 > [!info]- Skærmbillede af en søgning for et blok link
 > ![[link-block-heading.png#interface]]
 
-Du kan også oprette læsbare blokidentifikatorer ved at tilføje et mellemrum fulgt af indentifikatoren. Blokidentifikatorer må kun indeholde almindelige bogstaver, tal og bindestreger.
+Du kan også oprette læsbare blokidentifikatorer ved at tilføje et mellemrum fulgt af indentifikatoren. Blokidentifikatorer må kun indeholde bogstaverne A-Z og a-z, cifrene 0-9 og bindestreger.
 
 Fx. kan du tilføje `^dagens-citat` i slutningen af en blok:
 
