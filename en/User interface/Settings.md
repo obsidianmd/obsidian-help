@@ -112,7 +112,7 @@ Limit maximum line length. Less content fits onscreen, but long blocks of text a
 
 #### Strict line breaks
 
-Markdown specs ignore single [[Basic formatting syntax#Line breaks|Line breaks]] in reading view. Turn this off to make single line breaks visible.
+Ignore single line breaks in reading view, following the Markdown specification. Off by default.
 
 #### Properties in document
 

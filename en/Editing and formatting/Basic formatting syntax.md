@@ -47,13 +47,10 @@ A blank line between lines of text creates separate paragraphs. This is the defa
 
 ### Line breaks
 
-By default in Obsidian, pressing `Enter` once will create a new line in your note, but this is treated as a *continuation* of the same paragraph in the rendered output, following typical Markdown behavior. To insert a line break *within* a paragraph without starting a new paragraph, you can either:
-
-- Add **two spaces** at the end of a line before pressing `Enter`, or
-- Use the shortcut `Shift+Enter` to directly insert a line break.
+By default in Obsidian, pressing `Enter` once creates a visible line break in the rendered output. To follow the Markdown specification, where a single line break is treated as a continuation of the same paragraph, enable **[[Settings#Strict line breaks|Strict line breaks]]** in **[[Settings]] → Editor**. While that setting is on, insert a line break within a paragraph with `Shift+Enter` or two trailing spaces.
 
 > [!question]- Why don't multiple `Enter` presses create more line breaks in reading view?
-> In Markdown, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break. This is how Markdown handles text by default, ensuring that paragraphs flow naturally without unexpected breaks​.
+> When **Strict line breaks** is enabled, a single `Enter` is ignored, and multiple consecutive `Enter` presses result in just one new paragraph. This behavior aligns with Markdown’s soft wrap rule, where extra blank lines do not generate additional line breaks or paragraphs—they are collapsed into a single paragraph break.
 
 Obsidian includes a **[[Settings#Strict line breaks|Strict line breaks]]** setting, which makes Obsidian follow the standard Markdown specification for line breaks.
 
