@@ -118,12 +118,33 @@ This setting can be toggled. If **Match case** icon is highlighted, that means y
 
 The following options are available:
 
+- Relevance (for details [[#Sort by Relevance|see below]])
 - File name (A to Z)
 - File name (Z to A)
 - Modified time (new to old)
 - Modified time (old to new)
 - Created time (new to old)
 - Created time (old to new)
+
+### Sort by Relevance
+
+The relevance of a note is a score calculated based on how well it matches the [[#Search terms|search term]]. Notes are sorted from highest relevance to lowest.
+Matches are weighted based on what part of the note is matching the word in the search term, based on this order (highest weights first):
+
+1. Note Title
+2. [[Aliases]]
+3. [[Basic formatting syntax#Headings|Headings]] (the score decreases for deeper levels)
+4. [[Tags]]
+5. [[Properties]]
+6. Note Body
+
+Each individual score is adjusted based on how well it matches the word:
+
+- Whole word
+- Start of word
+- End of word
+- Inside a word
+- Does it have the same accents (`Cafe` & `Café`)
 
 ## Copy search results
 
