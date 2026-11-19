@@ -276,6 +276,22 @@
     return menu;
   }
 
+  // The right sidebar clips its overflow, which would cut off the menu and
+  // its shadow there, so the menu is fixed under the button instead.
+  function placeMenu(btn, menu) {
+    const fixed = !!btn.closest('.site-body-right-column');
+    menu.classList.toggle('is-fixed', fixed);
+    if (!fixed) {
+      menu.style.top = menu.style.left = menu.style.right = '';
+      return;
+    }
+    const r = btn.getBoundingClientRect();
+    const rtl = getComputedStyle(btn).direction === 'rtl';
+    menu.style.top = (r.bottom + 4) + 'px';
+    menu.style.left = rtl ? r.left + 'px' : 'auto';
+    menu.style.right = rtl ? 'auto' : (document.documentElement.clientWidth - r.right) + 'px';
+  }
+
   function attachToggle(btn, menu) {
     btn.setAttribute('aria-haspopup', 'listbox');
     btn.setAttribute('aria-expanded', 'false');
@@ -296,9 +312,17 @@
       }
       // Publish is a single-page app: rebuild hrefs against the current path.
       updateMenuLinks(menu);
+      placeMenu(btn, menu);
       menu.setOpen(true);
       btn.setAttribute('aria-expanded', 'true');
     });
+    // A fixed menu would stay put while the button under it moves.
+    window.addEventListener('resize', function () {
+      if (menu.classList.contains('is-fixed')) menu.close(false);
+    });
+    document.addEventListener('scroll', function (e) {
+      if (menu.classList.contains('is-fixed') && !menu.contains(e.target)) menu.close(false);
+    }, true);
     btn.addEventListener('keydown', function (e) {
       if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
       e.preventDefault();
@@ -336,6 +360,42 @@
     return div;
   }
 
+  const mobileQuery = window.matchMedia('(max-width: 750px)');
+
+  // Keep the theme and language row at the top right: above the right
+  // sidebar, or above the page when Publish hides that sidebar. Phones
+  // keep it in the menu, because the header has no room for the toggle.
+  function placeRow() {
+    const row = document.querySelector('.lang-switcher-row');
+    if (!row) return;
+    const right = document.querySelector('.site-body-right-column');
+    const rightInner = right && right.querySelector('.site-body-right-column-inner');
+    const content = document.querySelector('.publish-renderer > .markdown-preview-view');
+    const col = document.querySelector('.site-body-left-column-inner');
+    if (rightInner && getComputedStyle(right).display !== 'none') {
+      if (rightInner.firstElementChild !== row) rightInner.prepend(row);
+    } else if (content && !mobileQuery.matches) {
+      if (content.firstElementChild !== row) content.prepend(row);
+    } else if (col && row.parentElement !== col) {
+      col.insertBefore(row, col.querySelector('.search-view-outer'));
+    }
+  }
+
+  function watchRow() {
+    (function waitForPage() {
+      placeRow();
+      if (!document.querySelector('.publish-renderer > .markdown-preview-view')) {
+        requestAnimationFrame(waitForPage);
+      }
+    })();
+    window.addEventListener('resize', placeRow);
+    // Publish toggles classes like has-graph and has-not-found per page.
+    const container = document.querySelector('.published-container');
+    if (container) {
+      new MutationObserver(placeRow).observe(container, { attributes: true, attributeFilter: ['class'] });
+    }
+  }
+
   // Skip switcher injection for locales not in the dropdown
   let sidebarDone = !current;
   let headerDone = !current;
@@ -344,11 +404,21 @@
     if (!sidebarDone) {
       const col = document.querySelector('.site-body-left-column-inner');
       if (col && !col.querySelector('.lang-switcher')) {
+        const toggle = col.querySelector('.site-body-left-column-site-theme-toggle');
         const search = col.querySelector('.search-view-outer');
         const switcher = buildSidebarSwitcher();
-        if (search) col.insertBefore(switcher, search);
-        else col.appendChild(switcher);
+        if (toggle) {
+          const row = document.createElement('div');
+          row.className = 'lang-switcher-row';
+          toggle.before(row);
+          row.append(switcher, toggle);
+        } else if (search) {
+          col.insertBefore(switcher, search);
+        } else {
+          col.appendChild(switcher);
+        }
         sidebarDone = true;
+        watchRow();
       }
     }
     if (!headerDone) {

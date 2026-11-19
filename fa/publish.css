@@ -1,7 +1,33 @@
 .published-container {
-  --code-border-width: 1px;
+  -webkit-font-smoothing: antialiased;
+  --corner-shape: superellipse(1.33);
+  --callout-radius: var(--radius-m);
+  --code-border-width: 0px;
+  --code-radius: var(--radius-m);
+  --component-title-transform: none;
+  --component-title-size: var(--sidebar-font-size);
+  --link-weight: 500;
+  --mermaid-radius: var(--radius-m);
+  --nav-item-color-active: var(--text-normal);
+  --nav-parent-item-color-active: var(--text-normal);
+  --outline-heading-color-active: var(--text-normal);
+  --outline-heading-weight-active: 400;
+  --sidebar-left-border-color: transparent;
   --table-row-alt-background: var(--background-primary-alt);
   --table-row-alt-background-hover: var(--background-primary-alt);
+}
+
+.markdown-rendered,
+.backlinks {
+  --link-color: var(--text-normal);
+  --link-color-hover: var(--text-accent);
+  --link-external-color: var(--text-normal);
+  --link-external-color-hover: var(--text-accent);
+}
+.markdown-rendered a,
+.backlinks .internal-link {
+  text-decoration-color: var(--text-accent);
+  text-underline-offset: 2px;
 }
 
 .site-body-left-column-site-logo {
@@ -44,11 +70,9 @@
 }
 
 span[src$="#icon"] {
-  padding: 1px 4px;
-  border-radius: var(--code-radius);
-  background-color: var(--code-background);
-  border: var(--code-border-width) solid var(--code-border-color);
-  margin: 0 0.05em;
+  padding: 1px 0;
+  margin-inline-end: 0.05em;
+  margin-inline-start: 0.1em;
 }
 /* Adds proper alignment to icons */
 span[src$="#icon"] img,
@@ -148,6 +172,16 @@ img[src$="#outline"] {
   width: var(--icon-size);
 }
 
+.graph-view-outer .published-section-header {
+  display: none;
+}
+.graph-view-container {
+  margin-top: 0;
+}
+.published-section-header {
+  letter-spacing: normal;
+}
+
 .hide-title {
   /* Hides page headers in Publish, use H1 if needed */
   /* Use cssclasses: hide-title */
@@ -167,18 +201,55 @@ img[src$="#outline"] {
   font-family: var(--page-title-font);
   border: none;
 }
+.hide-title.markdown-preview-view div:nth-child(4) h1 .clickable-icon {
+  display: none;
+}
+
+.backlink-items-container {
+  font-size: 14px;
+}
+
+.backlinks .internal-link {
+  text-decoration-line: underline;
+}
+
+.site-body-left-column .search-bar {
+  --input-radius: var(--input-height)
+}
+
+.nav-view {
+  --link-weight: 400;
+}
+.nav-view-outer {
+  padding-inline-end: 18px;
+}
+.nav-view-outer .tree-item-children .tree-item-children {
+  padding-left: 4px;
+  border-left: 1px solid var(--background-modifier-border);
+}
+.nav-view-outer .tree-item-self:hover:not(.mod-collapsible):not(.mod-active),
+.nav-view-outer .tree-item-self:not(.mod-collapsible) {
+  border-left: none;
+}
+.nav-view-outer .tree-item-self.mod-active {
+  border-radius: var(--radius-m);
+  corner-shape: var(--corner-shape);
+  background-color: var(--background-modifier-hover);
+}
 
 .list-cards {
   /* Kepano's List Cards from minimal */
   /* Use cssclasses: list-cards */
   --list-cards-template: repeat(2, minmax(0, 1fr));
 }
-.list-cards div > ul {
+.list-cards div.el-ul > ul {
   --link-color: var(--text-normal);
+  --link-color-hover: var(--text-normal);
   --link-unresolved-color: var(--text-muted);
   --link-decoration: none;
   --link-decoration-hover: none;
   --link-external-color: var(--text-normal);
+  --link-external-color-hover: var(--text-normal);
   --link-external-decoration: none;
   --link-external-decoration-hover: none;
   display: grid;
@@ -189,47 +260,48 @@ img[src$="#outline"] {
 .list-cards ul > li {
   margin-inline: 0;
 }
-.list-cards div > ul > li {
+.list-cards div.el-ul > ul > li {
   display: flex;
-  border-radius: var(--radius-s);
-  border: 1px solid var(--color-base-30);
+  transition: background 0.15s;
+  background-color: var(--background-primary-alt);
+  corner-shape: var(--corner-shape);
+  border-radius: var(--radius-m);
   flex-wrap: wrap;
+  align-content: flex-start;
   margin-inline: 0;
   position: relative;
 }
-.list-cards div > ul > li:hover {
-  border-color: var(--color-base-35);
+.list-cards div.el-ul > ul > li:hover {
+  background-color: var(--background-secondary);
 }
-.list-cards div > ul > li a {
+.list-cards div.el-ul > ul > li a {
   flex-grow: 1;
-  padding: 16px;
-  font-weight: var(--font-semibold);
+  padding: 16px 16px 12px;
+  font-size: var(--font-small);
+  font-weight: var(--font-medium);
   background: none;
 }
 /* Stretch the link over the card. z-index lifts it above the description's positioned li. */
-.list-cards div > ul > li a:after {
+.list-cards div.el-ul > ul > li a:after {
   content: "";
   position: absolute;
   inset: 0;
   z-index: 1;
 }
-.list-cards div > ul ul {
+.list-cards div.el-ul > ul ul {
   display: block;
   width: 100%;
   color: var(--text-muted);
-  font-size: var(--font-smaller);
+  font-size: var(--font-small);
   margin-top: -8px;
   padding: 0 16px 16px;
 }
-.list-cards div > ul ul > li {
+.list-cards div.el-ul > ul ul > li {
   display: block;
   margin-inline-start: 0;
 }
-.theme-dark .list-cards div ul > li {
-  background-color: var(--background-secondary);
-}
 
-.list-cards .icon-app {
+.list-cards div.el-ul .icon-app {
   display: inline-block;
   align-self: center;
   left: 16px;
@@ -240,7 +312,7 @@ img[src$="#outline"] {
   background-size: 24px 24px;
   background-position: center;
 }
-.list-cards .icon-app + a {
+.list-cards div.el-ul .icon-app + a {
   padding-left: 52px;
   align-self: center;
   line-height: 1.15;
@@ -456,32 +528,73 @@ img[src$="#outline"] {
   margin-inline-end: 18px;
 }
 
-.lang-switcher-btn {
+.lang-switcher-row {
+  position: relative;
   display: flex;
   align-items: center;
+  gap: var(--size-4-2);
+  margin-bottom: var(--size-4-2);
+}
+
+.site-body-left-column .lang-switcher-row {
+  margin-inline-end: 18px;
+}
+
+.site-body-right-column .lang-switcher-row,
+.publish-renderer > .markdown-preview-view > .lang-switcher-row {
+  justify-content: flex-end;
+}
+
+/* Above the page, when Publish hides the right sidebar. */
+.publish-renderer > .markdown-preview-view > .lang-switcher-row {
+  /* Same inset from the window edge as the right sidebar's 24px margin. */
+  padding-inline: 24px;
+  /* The page's taller line height would push the toggle icon down. */
+  font-size: var(--sidebar-font-size);
+  line-height: var(--line-height-tight);
+}
+
+.lang-switcher-row .site-body-left-column-site-theme-toggle {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.lang-switcher-row .lang-switcher-menu {
+  inset-inline-start: auto;
+  inset-inline-end: 0;
+}
+
+.lang-switcher-menu.is-fixed {
+  position: fixed;
+}
+
+.lang-switcher-row button.lang-switcher-btn {
+  width: auto;
+}
+
+button.lang-switcher-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   gap: var(--size-2-2);
   width: 100%;
   padding: 0 var(--size-2-3);
   height: var(--input-height);
-  background: var(--interactive-normal);
+  background: transparent;
   border: none;
-  border-radius: var(--input-radius);
-  color: var(--text-muted);
+  border-radius: var(--input-height);
+  color: var(--text-normal);
   font-size: var(--font-ui-small);
   font-family: inherit;
   cursor: pointer;
-  box-shadow: var(--input-shadow);
+  box-shadow: none;
   text-align: left;
 }
 
-.lang-switcher-btn:hover {
-  background: var(--interactive-hover);
+button.lang-switcher-btn:hover {
+  background: var(--background-modifier-hover);
   color: var(--text-normal);
-  box-shadow: var(--input-shadow-hover);
-}
-
-.lang-switcher-btn span {
-  flex: 1;
+  box-shadow: none;
 }
 
 .lang-switcher-menu {
