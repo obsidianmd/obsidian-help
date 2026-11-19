@@ -52,6 +52,19 @@ Decodes a URI-encoded string, e.g. `"%E4%BD%A0%E5%A5%BD"|decode_uri` returns `"�
 - `"hello%20world"|decode_uri` returns `"hello world"`.
 - Returns the original string if decoding fails (e.g. malformed URI sequences).
 
+### `encode_uri`
+
+Encodes text for use in a URL, including reserved characters such as `/`, `?`, and `&`.
+
+- `"hello world/page"|encode_uri` returns `hello%20world%2Fpage`.
+
+### `indent`
+
+Indents each non-empty line with spaces. Defaults to two spaces.
+
+- `indent:4` indents each line by four spaces.
+- `indent:0` leaves the text unchanged.
+
 ### `kebab`
 
 Converts text to `kebab-case`.
@@ -102,6 +115,21 @@ Removes white space from both ends of a string.
 
 - `"  hello world  "|trim` returns `"hello world"`.
 
+### `truncate`
+
+Shortens text to a number of characters and ends it with `…`. The suffix counts toward the limit.
+
+- `"A concise introduction"|truncate:10` returns `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` returns `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` returns `A concise`.
+
+### `truncatewords`
+
+Shortens text to a number of words and adds `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` returns `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` returns `A concise introduction`.
+
 ### `unescape`
 
 Converts escaped quotes and newline sequences to literal characters.
@@ -128,6 +156,13 @@ Apply [[Basic formatting syntax]] and [[Advanced formatting syntax]] to text.
 
 Adds a Markdown quote prefix (`> `) to each line of the input.
 
+### `bold`
+
+Wraps text in bold markers.
+
+- `"Important"|bold` returns `**Important**`.
+- `"Important"|bold:_` returns `__Important__`.
+
 ### `callout`
 
 Creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Creates a [[Callouts|callout]] with optional parameters: `{{variable|callout:("t
 - `type` is the callout type, and defaults to "info"
 - `title` is the callout title, and defaults to empty
 - `foldState` is a boolean to set the fold state (true for folded, false for unfolded, null for not foldable)
+
+### `code`
+
+Formats text as inline code. Multiline text, or a language parameter, creates a fenced code block instead.
+
+- `"const answer = 42"|code` returns `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` returns a code block marked as `typescript`.
+
+### `code_block`
+
+Always creates a fenced code block, with an optional language, e.g. `code_block:"typescript"`.
+
+### `comment`
+
+Wraps text in [[Basic formatting syntax#Comments|comment]] markers.
+
+- `"Hidden note"|comment` returns `%%Hidden note%%`.
+
+### `embed`
+
+Converts strings, arrays, or objects into [[Embed files|embeds]].
+
+- For strings: `"diagram.png"|embed` returns `![[diagram.png]]`.
+- For strings with alias: `"Project Atlas"|embed:"Preview"` returns `![[Project Atlas|Preview]]`.
+- For objects: `{"one.md": "One", "two.md": "Two"}|embed` returns embeds with the keys as files and values as aliases.
+
+### `escape_md`
+
+Adds a backslash before Markdown punctuation so it shows as plain text.
+
+- `"# Draft *title*"|escape_md` returns `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Converts strings and arrays into [text fragment](https://developer.mozilla.org/e
 - `highlights|fragment_link` returns `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` returns `Highlight content [custom title](text-fragment-url)`
 
+### `h1` to `h6`
+
+Turns each non-empty line into a heading of that level.
+
+- `"Introduction"|h2` returns `## Introduction`.
+
+### `hard_break`
+
+Adds two spaces before each single line break, so the line breaks show in Reading view. Blank lines between paragraphs stay as they are.
+
+### `highlight`
+
+Wraps text in highlight markers.
+
+- `"Remember this"|highlight` returns `==Remember this==`.
+- Add a [[Basic formatting syntax#Highlight colors|highlight color]] with `red`, `orange`, `yellow`, `green`, `blue`, or `purple`, e.g. `"Remember this"|highlight:blue` returns `==🔵Remember this==`.
+
+### `hr`
+
+Adds a horizontal rule (`---`) after the text, separated by a blank line.
+
+- `"Section end"|hr` adds the rule after the text.
+- `hr:before` adds it before the text, and `hr:both` adds it on both sides.
+
 ### `image` 
 
 Converts strings, arrays, or objects into Markdown image syntax.
@@ -157,6 +247,13 @@ Converts strings, arrays, or objects into Markdown image syntax.
 - For strings: `"image.jpg"|image:"alt text"` returns `![alt text](image.jpg)`.
 - For arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` returns an array of Markdown image strings with the same alt text for all images.
 - For objects: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returns Markdown image strings with alt text from the object values.
+
+### `italic`
+
+Wraps text in italic markers.
+
+- `"Emphasized"|italic` returns `*Emphasized*`.
+- `"Emphasized"|italic:_` returns `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Converts an array to a Markdown list.
 - `list:numbered` to convert to a numbered list.
 - `list:numbered-task` to convert to a task list with numbers.
 
+### `math`
+
+Formats text as inline [[Advanced formatting syntax#Math|math]]. Multiline text becomes a math block.
+
+- `"x^2 + y^2"|math` returns `$x^2 + y^2$`.
+
+### `math_block`
+
+Always creates a math block, with `$$` on the lines before and after the text.
+
+### `strike`
+
+Wraps text in strikethrough markers.
+
+- `"Removed"|strike` returns `~~Removed~~`.
+
 ### `table`
 
 Converts an array or array of objects into a [[Advanced formatting syntax#Tables|Markdown table]]:
@@ -183,6 +296,10 @@ Converts an array or array of objects into a [[Advanced formatting syntax#Tables
 - For an array of arrays, it creates a table with each nested array as a row.
 - For a simple array, it creates a single-column table with "Value" as the header.
 - Custom column headers can be specified using: `table:("Column 1", "Column 2", "Column 3")`. When used with a simple array, it automatically breaks the data into rows based on the number of columns specified.
+
+### `table_pretty`
+
+Works like [[Filters#`table`|table]], and pads the columns to equal widths so the table lines up in Source mode.
 
 ### `wikilink`
 
@@ -287,6 +404,7 @@ Removes **all** Markdown formatting and returns a plain text string, e.g. turnin
 
 - Turns formatted text into unformatted plain text, including bold, italic, highlights, headers, code, blockquotes, tables, task lists, and wikilinks.
 - Entirely removes tables, footnotes, images, and HTML elements.
+- `stripmd` is an alias.
 
 ### `strip_tags`
 
@@ -298,6 +416,12 @@ Removes **all** HTML tags from a string. Content within the tag is preserved.
 ## Arrays and objects
 
 Process arrays and objects.
+
+### `compact`
+
+Removes `null` values and empty strings from arrays and objects. Keeps `0` and `false`.
+
+- `[null,"","one",0,false,"two"]|compact` returns `["one",0,false,"two"]`.
 
 ### `first` 
 
@@ -390,6 +514,14 @@ Extracts a portion of a string or array.
 - The second parameter is exclusive: `"hello"|slice:1,4` includes characters at indices 1, 2, and 3.
 - Using a negative second parameter excludes elements from the end: `"hello"|slice:0,-2` returns `"hel"`.
 
+### `sort`
+
+Sorts an array in ascending order. Numbers sort by value.
+
+- `[10,2,1]|sort` returns `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` returns `["c","b","a"]`.
+- For arrays of objects, pass a property: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` returns `[{"name":"Ada"},{"name":"Lin"}]`. Use `sort:("name", "desc")` to reverse it. Items without the property go last.
+
 ### `split`
 
 Divides a string into an array of substrings.
@@ -398,6 +530,13 @@ Divides a string into an array of substrings.
 - `"hello world"|split:" "` returns `["hello","world"]`.
 - If no separator is provided, it splits on every character: `"hello"|split` returns `["h","e","l","l","o"]`.
 - Regular expressions can be used as separators: `"a1b2c3"|split:[0-9]` returns `["a","b","c",""]`. The last item is empty because the string ends with a separator.
+
+### `sum`
+
+Adds the numbers in an array. Text that isn't a number is skipped, and an empty array returns `0`.
+
+- `[10,"2.5","","none"]|sum` returns `12.5`.
+- For arrays of objects, pass a property: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` returns `12.5`.
 
 ### `template`
 
@@ -419,6 +558,13 @@ Removes duplicate values from arrays and objects.
 - For arrays of objects: `[{"a":1},{"b":2},{"a":1}]|unique` returns `[{"a":1},{"b":2}]`.
 - For objects it removes properties with duplicate values, keeping the last occurrence's key.
 - For strings it returns the input unchanged.
+
+### `where`
+
+Keeps the array items whose property matches a value. The type has to match too, so the number `1` doesn't match the text `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` returns `[{"title":"One","published":true}]`.
+- Use a dotted path for nested properties, e.g. `where:("author.name", "Ada")`.
 
 ## YAML
 
