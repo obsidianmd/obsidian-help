@@ -143,6 +143,8 @@ name: value
 ---
 ```
 
+The closing `---` is required. Until a second `---` line closes them, the properties are not read: Reading view shows the first `---` as a [[Basic formatting syntax#Horizontal rule|horizontal rule]] and the lines after it as the note's content, and links and tags in those lines are indexed as content.
+
 While the order of each name-value pair doesn't matter, each name must be unique within a note. For example, you can't have more than one `tags` property.
 
 Values can be [[#Text|text]], [[#Number|numbers]], [[#Checkbox|checkboxes]], [[#Date|dates]], [[#Date & time|dates and times]], or [[#List|lists]].
