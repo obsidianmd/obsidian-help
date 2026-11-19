@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: 'Obsidian Skills učia AI agentov, ako pracovať s vaším trezor a formátmi súborov Obsidian.'
+description: 'Obsidian Skills učia AI agentov, ako pracovať s vaším trezorom a formátmi súborov Obsidian.'
 ---
-Obsidian Zručnosti sú inštrukcie, ktoré učia AI agentov pracovať s Obsidian. Dodržiavajú otvorený formát [Agent Skills](https://agentskills.io/specification), takže fungujú s akýmkoľvek agentom, ktorý podporuje zručnosti, vrátane Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode a [mnohých ďalších](https://agentskills.io/clients).
+Obsidian Skills sú inštrukcie, ktoré učia AI agentov pracovať s Obsidian. Dodržiavajú otvorený formát [Agent Skills](https://agentskills.io/specification), takže fungujú s akýmkoľvek agentom, ktorý podporuje zručnosti, vrátane Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode a [mnohých ďalších](https://agentskills.io/clients).
 
-S Obsidian Zručnosťami môže agent:
+S Obsidian Skills môže agent:
 
 - Písať poznámky v [[Obsidian Flavored Markdown]] s [[Interné odkazy|wiki odkazmi]], vloženiami, zvýraznenými blokmi a [[Vlastnosti|vlastnosťami]].
 - Vytvárať a upravovať súbory [[Úvod do Databáz|Databáz]] a [[Canvas]].
@@ -87,4 +87,4 @@ Defuddle, Knap a Obsidian Headless sú samostatné nástroje, ktoré nie sú sú
 
 ## Súkromie
 
-Obsidian Zručnosti samy o sebe neodosielajú žiadne dáta. Keď ich agent používa, poznámky, ktoré číta, sa stávajú súčasťou konverzácie a spracúva ich AI model, ktorý používate. Pred tým, ako agenta nasmerujete na trezor s citlivými poznámkami, si prečítajte zásady ochrany súkromia vášho agenta.
+Obsidian Skills samy o sebe neodosielajú žiadne dáta. Keď ich agent používa, poznámky, ktoré číta, sa stávajú súčasťou konverzácie a spracúva ich AI model, ktorý používate. Pred tým, ako agenta nasmerujete na trezor s citlivými poznámkami, si prečítajte zásady ochrany súkromia vášho agenta.

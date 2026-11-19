@@ -3,9 +3,9 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills leren AI-agenten hoe ze met je kluis en Obsidian-bestandsformaten kunnen werken.
 ---
-Obsidian-vaardigheden zijn instructies die AI-agents leren hoe ze met Obsidian kunnen werken. Ze volgen het open [Agent Skills](https://agentskills.io/specification)-formaat, waardoor ze werken met elke agent die vaardigheden ondersteunt, waaronder Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, en [nog veel meer](https://agentskills.io/clients).
+Obsidian Skills zijn instructies die AI-agents leren hoe ze met Obsidian kunnen werken. Ze volgen het open [Agent Skills](https://agentskills.io/specification)-formaat, waardoor ze werken met elke agent die vaardigheden ondersteunt, waaronder Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, en [nog veel meer](https://agentskills.io/clients).
 
-Met Obsidian-vaardigheden kan een agent:
+Met Obsidian Skills kan een agent:
 
 - Notities schrijven in [[Obsidian Flavored Markdown]], met [[Interne koppelingen|wiki-links]], insluitingen, infoblokken en [[Eigenschappen|eigenschappen]].
 - [[Introductie tot Bases|Bases]]- en [[Doek|Canvas]]-bestanden aanmaken en bewerken.
@@ -87,4 +87,4 @@ Defuddle, Knap en Obsidian Headless zijn aparte tools die niet bij de vaardighed
 
 ## Privacy
 
-Obsidian-vaardigheden versturen zelf niets. Wanneer een agent ze gebruikt, worden de notities die het leest onderdeel van het gesprek en worden ze verwerkt door het AI-model dat je gebruikt. Bekijk het privacybeleid van je agent voordat je het naar een kluis met gevoelige notities verwijst.
+Obsidian Skills versturen zelf niets. Wanneer een agent ze gebruikt, worden de notities die het leest onderdeel van het gesprek en worden ze verwerkt door het AI-model dat je gebruikt. Bekijk het privacybeleid van je agent voordat je het naar een kluis met gevoelige notities verwijst.

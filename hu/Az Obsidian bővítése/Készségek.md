@@ -3,9 +3,9 @@ permalink: skills
 cssclasses: null
 description: 'Az Obsidian Skills megtanítja az AI-ügynököknek, hogyan dolgozzanak a tárolóddal és az Obsidian fájlformátumokkal.'
 ---
-Az Obsidian Készségek olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Cursort, Gemini CLI-t, GitHub Copilotot, Grok Botot, OpenCode-ot és [sok mást](https://agentskills.io/clients).
+Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Cursort, Gemini CLI-t, GitHub Copilotot, Grok Botot, OpenCode-ot és [sok mást](https://agentskills.io/clients).
 
-Az Obsidian Készségekkel egy ügynök képes:
+Az Obsidian Skills-szel egy ügynök képes:
 
 - Jegyzeteket írni [[Obsidian Flavored Markdown]] formátumban, [[Belső hivatkozások|wikihivatkozásokkal]], beágyazásokkal, felhívásokkal és [[Tulajdonságok|tulajdonságokkal]].
 - [[Bevezetés a Bázisokba|Bázisokat]] és [[Canvas]] fájlokat létrehozni és szerkeszteni.
@@ -87,4 +87,4 @@ A Defuddle, Knap és Obsidian Headless különálló eszközök, amelyek nincsen
 
 ## Adatvédelem
 
-Az Obsidian Készségek önmagukban nem küldenek semmit. Amikor egy ügynök használja őket, az általa olvasott jegyzetek a beszélgetés részévé válnak, és az általad használt AI-modell dolgozza fel őket. Tekintsd át az ügynököd adatvédelmi szabályzatát, mielőtt érzékeny jegyzeteket tartalmazó széfre irányítanád.
+Az Obsidian Skills önmagában nem küld semmit. Amikor egy ügynök használja, az általa olvasott jegyzetek a beszélgetés részévé válnak, és az általad használt AI-modell dolgozza fel őket. Tekintsd át az ügynököd adatvédelmi szabályzatát, mielőtt érzékeny jegyzeteket tartalmazó széfre irányítanád.

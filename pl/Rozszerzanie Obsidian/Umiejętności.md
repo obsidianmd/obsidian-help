@@ -1,9 +1,9 @@
 ---
 permalink: skills
 cssclasses: null
-description: 'Umiejętności Obsidian uczą agentów AI, jak pracować z Twoim sejfem i formatami plików Obsidian.'
+description: 'Obsidian Skills uczą agentów AI, jak pracować z Twoim sejfem i formatami plików Obsidian.'
 ---
-Umiejętności Obsidian (Obsidian Skills) to instrukcje, które uczą agentów AI, jak pracować z Obsidian. Są zgodne z otwartym formatem [Agent Skills](https://agentskills.io/specification), więc działają z każdym agentem obsługującym umiejętności, w tym Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode i [wieloma innymi](https://agentskills.io/clients).
+Obsidian Skills to instrukcje, które uczą agentów AI, jak pracować z Obsidian. Są zgodne z otwartym formatem [Agent Skills](https://agentskills.io/specification), więc działają z każdym agentem obsługującym umiejętności, w tym Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode i [wieloma innymi](https://agentskills.io/clients).
 
 Dzięki Obsidian Skills agent może:
 

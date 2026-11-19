@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: Las Habilidades de Obsidian enseñan a los agentes de IA cómo trabajar con tu bóveda y los formatos de archivo de Obsidian.
+description: Obsidian Skills enseñan a los agentes de IA cómo trabajar con tu bóveda y los formatos de archivo de Obsidian.
 ---
-Las Habilidades de Obsidian son instrucciones que enseñan a los agentes de IA cómo trabajar con Obsidian. Siguen el formato abierto [Agent Skills](https://agentskills.io/specification), por lo que funcionan con cualquier agente que soporte habilidades, incluyendo Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, y [muchos más](https://agentskills.io/clients).
+Obsidian Skills son instrucciones que enseñan a los agentes de IA cómo trabajar con Obsidian. Siguen el formato abierto [Agent Skills](https://agentskills.io/specification), por lo que funcionan con cualquier agente que soporte habilidades, incluyendo Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, y [muchos más](https://agentskills.io/clients).
 
-Con las Habilidades de Obsidian un agente puede:
+Con Obsidian Skills un agente puede:
 
 - Escribir notas en [[Markdown con formato Obsidian]], con [[Enlaces internos|enlaces wiki]], incrustaciones, recuadros y [[Propiedades|propiedades]].
 - Crear y editar archivos de [[Introducción a Bases|Bases]] y [[Canvas]].
@@ -87,4 +87,4 @@ Defuddle, Knap y Obsidian Headless son herramientas separadas que no están incl
 
 ## Privacidad
 
-Las Habilidades de Obsidian no envían nada por sí mismas. Cuando un agente las usa, las notas que lee pasan a formar parte de la conversación y son procesadas por el modelo de IA que utilices. Revisa la política de privacidad de tu agente antes de apuntarlo a una bóveda con notas sensibles.
+Obsidian Skills no envían nada por sí mismas. Cuando un agente las usa, las notas que lee pasan a formar parte de la conversación y son procesadas por el modelo de IA que utilices. Revisa la política de privacidad de tu agente antes de apuntarlo a una bóveda con notas sensibles.

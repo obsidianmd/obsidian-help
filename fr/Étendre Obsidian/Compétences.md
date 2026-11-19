@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: Les Obsidian Skills enseignent aux agents IA comment travailler avec votre coffre-fort et les formats de fichiers Obsidian.
+description: Obsidian Skills enseignent aux agents IA comment travailler avec votre coffre-fort et les formats de fichiers Obsidian.
 ---
-Les compétences Obsidian (Skills) sont des instructions qui apprennent aux agents IA à travailler avec Obsidian. Elles suivent le format ouvert [Agent Skills](https://agentskills.io/specification), et fonctionnent donc avec tout agent prenant en charge les compétences, notamment Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, et [bien d'autres](https://agentskills.io/clients).
+Obsidian Skills sont des instructions qui apprennent aux agents IA à travailler avec Obsidian. Elles suivent le format ouvert [Agent Skills](https://agentskills.io/specification), et fonctionnent donc avec tout agent prenant en charge les compétences, notamment Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, et [bien d'autres](https://agentskills.io/clients).
 
-Avec les compétences Obsidian, un agent peut :
+Avec Obsidian Skills, un agent peut :
 
 - Rédiger des notes en [[Obsidian Flavored Markdown]], avec des [[Liens internes|liens wiki]], des intégrations, des encadrés et des [[Propriétés|propriétés]].
 - Créer et modifier des fichiers [[Introduction aux Bases|Bases]] et [[Canvas|Canvas]].
@@ -87,4 +87,4 @@ Defuddle, Knap et Obsidian Headless sont des outils distincts qui ne sont pas fo
 
 ## Confidentialité
 
-Les compétences Obsidian n'envoient rien par elles-mêmes. Lorsqu'un agent les utilise, les notes qu'il lit font partie de la conversation et sont traitées par le modèle d'IA que vous utilisez. Consultez la politique de confidentialité de votre agent avant de le diriger vers un coffre contenant des notes sensibles.
+Obsidian Skills n'envoient rien par elles-mêmes. Lorsqu'un agent les utilise, les notes qu'il lit font partie de la conversation et sont traitées par le modèle d'IA que vous utilisez. Consultez la politique de confidentialité de votre agent avant de le diriger vers un coffre contenant des notes sensibles.

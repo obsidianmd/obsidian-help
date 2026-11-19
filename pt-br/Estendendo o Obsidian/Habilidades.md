@@ -1,7 +1,7 @@
 ---
 permalink: skills
 cssclasses: null
-description: As Habilidades do Obsidian ensinam aos agentes de IA como trabalhar com o seu cofre e os formatos de arquivo do Obsidian.
+description: Obsidian Skills ensinam aos agentes de IA como trabalhar com o seu cofre e os formatos de arquivo do Obsidian.
 ---
 Obsidian Skills são instruções que ensinam agentes de IA a trabalhar com o Obsidian. Elas seguem o formato aberto [Agent Skills](https://agentskills.io/specification), então funcionam com qualquer agente que suporte skills, incluindo Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode e [muitos outros](https://agentskills.io/clients).
 

@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: 'Obsidian Skills -taidot opettavat tekoälyagenteille, miten työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
+description: 'Obsidian Skills opettavat tekoälyagenteille, miten työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
 ---
-Obsidian-taidot ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode ja [monet muut](https://agentskills.io/clients).
+Obsidian Skills ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode ja [monet muut](https://agentskills.io/clients).
 
-Obsidian-taitojen avulla agentti voi:
+Obsidian Skillsin avulla agentti voi:
 
 - Kirjoittaa muistiinpanoja [[Obsidian Flavored Markdown]] -muodossa, [[Sisäiset linkit|wikilinkkeineen]], upotteineen, nostolaatikkoineen ja [[Määreet|määreineen]].
 - Luoda ja muokata [[Johdanto kantoihin|kantoja]] ja [[Canvas]]-tiedostoja.
@@ -87,4 +87,4 @@ Defuddle, Knap ja Obsidian Headless ovat erillisiä työkaluja, joita ei ole yhd
 
 ## Tietosuoja
 
-Obsidian-taidot eivät lähetä mitään itse. Kun agentti käyttää niitä, sen lukemat muistiinpanot tulevat osaksi keskustelua ja käyttämäsi tekoälymalli käsittelee ne. Tarkista agenttisi tietosuojakäytäntö ennen kuin osoitat sen holviin, jossa on arkaluonteisia muistiinpanoja.
+Obsidian Skills eivät lähetä mitään itse. Kun agentti käyttää niitä, sen lukemat muistiinpanot tulevat osaksi keskustelua ja käyttämäsi tekoälymalli käsittelee ne. Tarkista agenttisi tietosuojakäytäntö ennen kuin osoitat sen holviin, jossa on arkaluonteisia muistiinpanoja.

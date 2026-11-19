@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: Les Habilitats d'Obsidian ensenyen als agents d'IA com treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
+description: Obsidian Skills ensenyen als agents d'IA com treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
 ---
-Les Habilitats d'Obsidian són instruccions que ensenyen als agents d'IA com treballar amb Obsidian. Segueixen el format obert [Agent Skills](https://agentskills.io/specification), de manera que funcionen amb qualsevol agent que admeti habilitats, incloent-hi Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, i [molts més](https://agentskills.io/clients).
+Obsidian Skills són instruccions que ensenyen als agents d'IA com treballar amb Obsidian. Segueixen el format obert [Agent Skills](https://agentskills.io/specification), de manera que funcionen amb qualsevol agent que admeti habilitats, incloent-hi Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, i [molts més](https://agentskills.io/clients).
 
-Amb les Habilitats d'Obsidian un agent pot:
+Amb Obsidian Skills un agent pot:
 
 - Escriure notes en [[Obsidian Flavored Markdown]], amb [[Enllaços interns|enllaços wiki]], incrustacions, blocs destacats i [[Propietats|propietats]].
 - Crear i editar fitxers de [[Introducció a Bases|Bases]] i [[Canvas|Canvas]].
@@ -87,4 +87,4 @@ Defuddle, Knap i Obsidian Headless són eines separades que no estan incloses am
 
 ## Privacitat
 
-Les Habilitats d'Obsidian no envien res per si mateixes. Quan un agent les utilitza, les notes que llegeix passen a formar part de la conversa i són processades pel model d'IA que utilitzis. Revisa la política de privacitat del teu agent abans d'apuntar-lo a una cambra forta amb notes sensibles.
+Obsidian Skills no envien res per si mateixes. Quan un agent les utilitza, les notes que llegeix passen a formar part de la conversa i són processades pel model d'IA que utilitzis. Revisa la política de privacitat del teu agent abans d'apuntar-lo a una cambra forta amb notes sensibles.

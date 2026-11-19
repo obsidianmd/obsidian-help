@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: Abilitățile Obsidian învață agenții AI cum să lucreze cu seiful tău și cu formatele de fișiere Obsidian.
+description: Obsidian Skills învață agenții AI cum să lucreze cu seiful tău și cu formatele de fișiere Obsidian.
 ---
-Abilitățile Obsidian sunt instrucțiuni care învață agenții AI cum să lucreze cu Obsidian. Ele respectă formatul deschis [Agent Skills](https://agentskills.io/specification), astfel încât funcționează cu orice agent care suportă abilități, inclusiv Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode și [mulți alții](https://agentskills.io/clients).
+Obsidian Skills sunt instrucțiuni care învață agenții AI cum să lucreze cu Obsidian. Ele respectă formatul deschis [Agent Skills](https://agentskills.io/specification), astfel încât funcționează cu orice agent care suportă abilități, inclusiv Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode și [mulți alții](https://agentskills.io/clients).
 
-Cu Abilitățile Obsidian, un agent poate:
+Cu Obsidian Skills, un agent poate:
 
 - Scrie notițe în [[Markdown specific Obsidian]], cu [[Legături interne|linkuri wiki]], încorporări, explicații și [[Proprietăți|proprietăți]].
 - Crea și edita fișiere [[Introducere în Baze|Baze]] și [[Canvas]].
@@ -87,4 +87,4 @@ Defuddle, Knap și Obsidian Headless sunt instrumente separate care nu sunt incl
 
 ## Confidențialitate
 
-Abilitățile Obsidian nu trimit nimic de la sine. Când un agent le folosește, notițele pe care le citește devin parte din conversație și sunt procesate de modelul AI pe care îl utilizezi. Verifică politica de confidențialitate a agentului tău înainte de a-l direcționa spre un seif cu notițe sensibile.
+Obsidian Skills nu trimit nimic de la sine. Când un agent le folosește, notițele pe care le citește devin parte din conversație și sunt procesate de modelul AI pe care îl utilizezi. Verifică politica de confidențialitate a agentului tău înainte de a-l direcționa spre un seif cu notițe sensibile.

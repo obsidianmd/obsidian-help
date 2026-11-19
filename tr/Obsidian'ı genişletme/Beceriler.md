@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: 'Obsidian Becerileri, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
+description: 'Obsidian Skills, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
 ---
-Obsidian Beceriler, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
+Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
 
-Obsidian Becerileri ile bir ajan şunları yapabilir:
+Obsidian Skills ile bir ajan şunları yapabilir:
 
 - [[Obsidian Flavored Markdown]] ile [[Dahili bağlantılar|wiki bağlantıları]], gömüler, vurgulu bloklar ve [[Özellikler|özellikler]] içeren notlar yazma.
 - [[Tabanlara giriş|Tabanlar]] ve [[Tuval|Canvas]] dosyaları oluşturma ve düzenleme.
@@ -87,4 +87,4 @@ Defuddle, Knap ve Obsidian Headless, becerilerle birlikte paketlenmeyen ayrı ar
 
 ## Gizlilik
 
-Obsidian Becerileri kendi başlarına hiçbir şey göndermez. Bir ajan bunları kullandığında, okuduğu notlar konuşmanın bir parçası olur ve kullandığınız yapay zeka modeli tarafından işlenir. Hassas notlar içeren bir kasaya yönlendirmeden önce ajanınızın gizlilik politikasını inceleyin.
+Obsidian Skills kendi başlarına hiçbir şey göndermez. Bir ajan bunları kullandığında, okuduğu notlar konuşmanın bir parçası olur ve kullandığınız yapay zeka modeli tarafından işlenir. Hassas notlar içeren bir kasaya yönlendirmeden önce ajanınızın gizlilik politikasını inceleyin.

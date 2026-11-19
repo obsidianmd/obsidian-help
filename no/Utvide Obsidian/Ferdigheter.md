@@ -3,9 +3,9 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills lærer AI-agenter hvordan de kan jobbe med hvelvet ditt og Obsidians filformater.
 ---
-Obsidian Ferdigheter er instruksjoner som lærer AI-agenter hvordan de skal jobbe med Obsidian. De følger det åpne [Agent Skills](https://agentskills.io/specification)-formatet, slik at de fungerer med enhver agent som støtter ferdigheter, inkludert Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, og [mange flere](https://agentskills.io/clients).
+Obsidian Skills er instruksjoner som lærer AI-agenter hvordan de skal jobbe med Obsidian. De følger det åpne [Agent Skills](https://agentskills.io/specification)-formatet, slik at de fungerer med enhver agent som støtter ferdigheter, inkludert Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, og [mange flere](https://agentskills.io/clients).
 
-Med Obsidian Ferdigheter kan en agent:
+Med Obsidian Skills kan en agent:
 
 - Skrive notater i [[Obsidian Flavored Markdown]], med [[Interne lenker|wiki-lenker]], innebygginger, uthevede blokker og [[Egenskaper|egenskaper]].
 - Opprette og redigere [[Introduksjon til Bases|Bases]]- og [[Canvas|Canvas]]-filer.
@@ -87,4 +87,4 @@ Defuddle, Knap og Obsidian Headless er separate verktøy som ikke er inkludert m
 
 ## Personvern
 
-Obsidian Ferdigheter sender ingenting på egenhånd. Når en agent bruker dem, blir notatene den leser en del av samtalen og behandles av AI-modellen du bruker. Gjennomgå agentens personvernregler før du peker den mot et hvelv med sensitive notater.
+Obsidian Skills sender ingenting på egenhånd. Når en agent bruker dem, blir notatene den leser en del av samtalen og behandles av AI-modellen du bruker. Gjennomgå agentens personvernregler før du peker den mot et hvelv med sensitive notater.

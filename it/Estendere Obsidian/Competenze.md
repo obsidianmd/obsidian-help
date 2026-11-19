@@ -1,11 +1,11 @@
 ---
 permalink: skills
 cssclasses: null
-description: Le Competenze Obsidian insegnano agli agenti AI come lavorare con il tuo vault e i formati di file di Obsidian.
+description: Obsidian Skills insegnano agli agenti AI come lavorare con il tuo vault e i formati di file di Obsidian.
 ---
-Le Competenze di Obsidian sono istruzioni che insegnano agli agenti AI come lavorare con Obsidian. Seguono il formato aperto [Agent Skills](https://agentskills.io/specification), quindi funzionano con qualsiasi agente che supporti le competenze, tra cui Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode e [molti altri](https://agentskills.io/clients).
+Obsidian Skills sono istruzioni che insegnano agli agenti AI come lavorare con Obsidian. Seguono il formato aperto [Agent Skills](https://agentskills.io/specification), quindi funzionano con qualsiasi agente che supporti le competenze, tra cui Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode e [molti altri](https://agentskills.io/clients).
 
-Con le Competenze di Obsidian un agente può:
+Con Obsidian Skills un agente può:
 
 - Scrivere note in [[Markdown stile Obsidian]], con [[Collegamenti interni|wikilink]], incorporamenti, callout e [[Proprietà|proprietà]].
 - Creare e modificare file [[Introduzione a Base|Base]] e [[Lavagna|Canvas]].
@@ -87,4 +87,4 @@ Defuddle, Knap e Obsidian Headless sono strumenti separati non inclusi nelle com
 
 ## Privacy
 
-Le Competenze di Obsidian non inviano nulla autonomamente. Quando un agente le utilizza, le note che legge diventano parte della conversazione e vengono elaborate dal modello AI che utilizzi. Consulta l'informativa sulla privacy del tuo agente prima di indirizzarlo verso un vault con note sensibili.
+Obsidian Skills non inviano nulla autonomamente. Quando un agente le utilizza, le note che legge diventano parte della conversazione e vengono elaborate dal modello AI che utilizzi. Consulta l'informativa sulla privacy del tuo agente prima di indirizzarlo verso un vault con note sensibili.

@@ -1,7 +1,7 @@
 ---
 permalink: skills
 cssclasses: null
-description: 'Obsidian Skills bringen KI-Agenten bei, wie sie mit Ihrem Vault und den Obsidian-Dateiformaten arbeiten können.'
+description: 'Obsidian Skills bringen KI-Agenten bei, wie sie mit deinem Vault und den Obsidian-Dateiformaten arbeiten können.'
 ---
 Obsidian Skills sind Anweisungen, die KI-Agenten beibringen, wie sie mit Obsidian arbeiten können. Sie folgen dem offenen [Agent Skills](https://agentskills.io/specification)-Format und funktionieren daher mit jedem Agenten, der Skills unterstützt, darunter Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode und [viele mehr](https://agentskills.io/clients).
 
