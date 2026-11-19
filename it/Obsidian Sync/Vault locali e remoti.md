@@ -43,13 +43,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Se il servizio cloud dispone di sincronizzazione in background, alcuni di questi processi possono avvenire anche quando non si stanno utilizzando attivamente le applicazioni per visualizzare i file. Questi servizi monitorano cartelle specifiche e sincronizzano automaticamente qualsiasi file inserito al loro interno. I file devono trovarsi nelle cartelle designate del servizio cloud per essere sincronizzati.
@@ -78,12 +71,6 @@ graph TD
    S -->|Scaricamento| P
    T -->|Caricamento| S
    S -->|Scaricamento| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 La forza di questo sistema diventa più evidente con un maggior numero di tipi di dispositivi. I [[#Servizi di sincronizzazione basati su file]] possono essere implementati in modo inconsistente tra i sistemi operativi, e i dispositivi mobile hanno le proprie regole riguardo al sandboxing delle applicazioni e alla limitazione dell'energia, il che rende molto più difficile per i servizi tradizionali basati su file funzionare in modo fluido.

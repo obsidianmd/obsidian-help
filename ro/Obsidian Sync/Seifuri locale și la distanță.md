@@ -8,7 +8,6 @@ description: Această pagină descrie diferențele dintre seifurile locale și c
 aliases:
   - Local and remote vaults
 ---
-
 Dacă dorești să îți folosești notele pe diferite dispozitive, una dintre opțiunile pe care le ai este să [[Sincronizează-ți notițele pe toate dispozitivele|îți sincronizezi notele pe toate dispozitivele]]. Obsidian oferă un astfel de serviciu, [[Introducere în Obsidian Sync|Obsidian Sync]], care funcționează diferit față de alte servicii de sincronizare, precum [[Sincronizează-ți notițele pe toate dispozitivele#iCloud|iCloud]] și [[Sincronizează-ți notițele pe toate dispozitivele#OneDrive|OneDrive]].
 
 Iată câțiva termeni-cheie:
@@ -44,13 +43,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Dacă serviciul cloud dispune de sincronizare în fundal, atunci unele dintre aceste procese se pot desfășura chiar și atunci când nu folosești activ aplicațiile pentru a vizualiza fișierele. Aceste servicii monitorizează anumite directoare și sincronizează automat orice fișiere plasate în ele. Fișierele trebuie să se afle în directoarele desemnate ale serviciului cloud pentru a fi sincronizate.
@@ -79,12 +71,6 @@ graph TD
    S -->|Download| P
    T -->|Upload| S
    S -->|Download| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Punctele forte ale acestui sistem devin mai evidente pe măsură ce apar mai multe tipuri de dispozitive. [[#Servicii de sincronizare bazate pe fișiere|Serviciile de sincronizare bazate pe fișiere]] pot fi implementate inconsecvent pe diferite sisteme de operare, iar dispozitivele mobile au propriile reguli privind modul în care aplicațiile pot fi izolate (sandboxed) și limitate la nivel de consum de energie, ceea ce face mult mai dificilă funcționarea fără cusur a serviciilor tradiționale bazate pe fișiere.

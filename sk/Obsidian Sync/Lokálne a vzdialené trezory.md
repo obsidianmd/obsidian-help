@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Ak cloudová služba má synchronizáciu na pozadí, niektoré z týchto procesov môžu prebiehať aj keď aktívne nepoužívate aplikácie na prezeranie súborov. Tieto služby monitorujú konkrétne priečinky a automaticky synchronizujú všetky súbory, ktoré sa do nich umiestnia. Súbory musia byť v určených priečinkoch cloudovej služby, aby sa synchronizovali.
@@ -76,12 +69,6 @@ graph TD
    S -->|Stiahnutie| P
    T -->|Nahranie| S
    S -->|Stiahnutie| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Sila tohto systému sa stáva zreteľnejšou s väčším počtom typov zariadení. [[#Súborové synchronizačné služby]] môžu byť implementované nekonzistentne naprieč operačnými systémami a mobilné zariadenia majú vlastné pravidlá ohľadom sandboxovania aplikácií a obmedzenia spotreby energie, čo výrazne sťažuje bezproblémové fungovanie tradičných súborových synchronizačných služieb.

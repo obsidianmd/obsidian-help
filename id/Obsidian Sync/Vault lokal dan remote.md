@@ -43,13 +43,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Jika layanan cloud memiliki sinkronisasi latar belakang, maka beberapa proses ini mungkin terjadi bahkan ketika Anda tidak aktif menggunakan aplikasi untuk melihat file. Layanan ini memantau folder tertentu dan secara otomatis menyinkronkan file apa pun yang ditempatkan di dalamnya. File harus berada di folder layanan cloud yang ditentukan agar dapat disinkronkan.
@@ -78,12 +71,6 @@ graph TD
    S -->|Unduh| P
    T -->|Unggah| S
    S -->|Unduh| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Kekuatan sistem ini menjadi lebih jelas dengan semakin banyak jenis perangkat. [[#Layanan sinkronisasi berbasis file]] dapat diimplementasikan secara tidak konsisten di berbagai sistem operasi, dan perangkat seluler memiliki aturan sendiri tentang bagaimana aplikasi dapat di-sandbox dan dibatasi dayanya, yang membuat layanan berbasis file tradisional jauh lebih sulit bekerja dengan mulus.

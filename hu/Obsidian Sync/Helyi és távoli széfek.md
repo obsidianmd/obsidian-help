@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Ha a felhőszolgáltatás háttérszinkronizálással rendelkezik, akkor ezek a folyamatok még akkor is végbemehetnek, amikor nem használod aktívan az alkalmazásokat a fájlok megtekintéséhez. Ezek a szolgáltatások meghatározott mappákat figyelnek, és automatikusan szinkronizálják a bennük elhelyezett fájlokat. A fájloknak a kijelölt felhőszolgáltatási mappákban kell lenniük a szinkronizáláshoz.
@@ -76,12 +69,6 @@ graph TD
    S -->|Letöltés| P
    T -->|Feltöltés| S
    S -->|Letöltés| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Ennek a rendszernek az erőssége több eszköztípus esetén válik igazán nyilvánvalóvá. A [[#Fájlalapú szinkronizálási szolgáltatások]] operációs rendszerenként eltérően lehetnek megvalósítva, és a mobileszközöknek saját szabályaik vannak az alkalmazások sandboxolásával és energiagazdálkodásával kapcsolatban, ami sokkal nehezebbé teszi a hagyományos fájlalapú szolgáltatások zökkenőmentes működését.

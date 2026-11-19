@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Jeśli usługa chmurowa obsługuje synchronizację w tle, niektóre z tych procesów mogą zachodzić nawet wtedy, gdy nie korzystasz aktywnie z aplikacji do przeglądania plików. Usługi te monitorują określone foldery i automatycznie synchronizują wszystkie umieszczone w nich pliki. Pliki muszą znajdować się w wyznaczonych folderach usługi chmurowej, aby mogły być synchronizowane.
@@ -76,12 +69,6 @@ graph TD
    S -->|Pobieranie| P
    T -->|Przesyłanie| S
    S -->|Pobieranie| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Siła tego systemu staje się bardziej widoczna przy większej liczbie typów urządzeń. [[#Usługi synchronizacji oparte na plikach]] mogą być implementowane niespójnie w różnych systemach operacyjnych, a urządzenia mobilne mają własne zasady dotyczące sandboxowania aplikacji i ograniczania zużycia energii, co znacznie utrudnia tradycyjnym usługom opartym na plikach płynne działanie.

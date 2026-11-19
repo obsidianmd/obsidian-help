@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Se o serviço de nuvem tiver sincronização em segundo plano, então alguns destes processos podem estar a acontecer mesmo quando não está a usar ativamente as aplicações para ver os ficheiros. Estes serviços monitorizam pastas específicas e sincronizam automaticamente quaisquer ficheiros colocados dentro delas. Os ficheiros devem estar nas pastas designadas do serviço de nuvem para serem sincronizados.
@@ -76,12 +69,6 @@ graph TD
    S -->|Transferir| P
    T -->|Carregar| S
    S -->|Transferir| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 A força deste sistema torna-se mais evidente com mais tipos de dispositivos. Os [[#Serviços de sincronização baseados em ficheiros]] podem ser implementados de forma inconsistente entre sistemas operativos, e os dispositivos móveis têm as suas próprias regras sobre como as aplicações podem ser isoladas e limitadas em energia, o que torna muito mais difícil para os serviços tradicionais baseados em ficheiros funcionarem de forma perfeita.

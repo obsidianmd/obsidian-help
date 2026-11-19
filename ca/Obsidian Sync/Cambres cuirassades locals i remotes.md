@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Si el servei al núvol té sincronització en segon pla, alguns d'aquests processos poden estar passant fins i tot quan no estàs utilitzant activament les aplicacions per veure els fitxers. Aquests serveis monitoritzen carpetes específiques i sincronitzen automàticament qualsevol fitxer ubicat dins d'elles. Els fitxers han d'estar a les carpetes designades del servei al núvol per sincronitzar-se.
@@ -76,12 +69,6 @@ graph TD
    S -->|Baixa| P
    T -->|Puja| S
    S -->|Baixa| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 La força d'aquest sistema es fa més evident amb més tipus de dispositius. Els [[#Serveis de sincronització basats en fitxers]] poden ser implementats de manera inconsistent entre sistemes operatius, i els dispositius mòbils tenen les seves pròpies regles sobre com les aplicacions poden ser aïllades i limitades en energia, cosa que fa molt més difícil que els serveis tradicionals basats en fitxers funcionin sense problemes.

@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Hvis skytjenesten har bakgrunnssynkronisering, kan noen av disse prosessene skje selv når du ikke aktivt bruker applikasjonene til å se filene. Disse tjenestene overvåker spesifikke mapper og synkroniserer automatisk alle filer som plasseres i dem. Filer må være i de angitte skytjenestemappene for å synkroniseres.
@@ -76,12 +69,6 @@ graph TD
    S -->|Last ned| P
    T -->|Last opp| S
    S -->|Last ned| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Styrken til dette systemet blir tydeligere med flere enhetstyper. [[#Filbaserte synkroniseringstjenester]] kan være implementert inkonsekvent på tvers av operativsystemer, og mobile enheter har sine egne regler for hvordan applikasjoner kan sandkasselegges og strømstyres, noe som gjør det mye vanskeligere for tradisjonelle filbaserte tjenester å fungere sømløst.

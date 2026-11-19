@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Si el servicio en la nube tiene sincronización en segundo plano, entonces algunos de estos procesos pueden estar ocurriendo incluso cuando no estás usando activamente las aplicaciones para ver los archivos. Estos servicios monitorean carpetas específicas y sincronizan automáticamente cualquier archivo colocado dentro de ellas. Los archivos deben estar en las carpetas designadas del servicio en la nube para sincronizarse.
@@ -76,12 +69,6 @@ graph TD
    S -->|Descargar| P
    T -->|Subir| S
    S -->|Descargar| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 La fortaleza de este sistema se hace más evidente con más tipos de dispositivos. Los [[#Servicios de sincronización basados en archivos]] pueden implementarse de manera inconsistente entre sistemas operativos, y los dispositivos móviles tienen sus propias reglas sobre cómo las aplicaciones pueden ser aisladas y limitadas en consumo de energía, lo que hace mucho más difícil que los servicios tradicionales basados en archivos funcionen sin problemas.

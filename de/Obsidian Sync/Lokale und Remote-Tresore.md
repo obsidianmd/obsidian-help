@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Wenn der Cloud-Dienst Hintergrundsynchronisierung unterstützt, können einige dieser Prozesse auch ablaufen, wenn du die Anwendungen nicht aktiv zum Betrachten der Dateien verwendest. Diese Dienste überwachen bestimmte Ordner und synchronisieren automatisch alle darin abgelegten Dateien. Dateien müssen sich in den vorgesehenen Cloud-Dienst-Ordnern befinden, um synchronisiert zu werden.
@@ -76,12 +69,6 @@ graph TD
    S -->|Download| P
    T -->|Upload| S
    S -->|Download| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Die Stärke dieses Systems wird mit mehr Gerätetypen deutlicher. [[#Dateibasierte Synchronisierungsdienste]] können betriebssystemübergreifend unterschiedlich implementiert sein, und mobile Geräte haben eigene Regeln für das Sandboxing und die Energiedrosselung von Anwendungen, was es für herkömmliche dateibasierte Dienste wesentlich schwieriger macht, nahtlos zu funktionieren.

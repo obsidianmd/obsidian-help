@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Bulut hizmetinin arka plan senkronizasyonu varsa, bu süreçlerin bazıları dosyaları görüntülemek için uygulamaları aktif olarak kullanmıyor olsanız bile gerçekleşebilir. Bu hizmetler belirli klasörleri izler ve içlerine yerleştirilen dosyaları otomatik olarak senkronize eder. Dosyaların senkronize olabilmesi için belirlenmiş bulut hizmeti klasörlerinde bulunması gerekir.
@@ -76,12 +69,6 @@ graph TD
    S -->|İndir| P
    T -->|Yükle| S
    S -->|İndir| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Bu sistemin gücü, daha fazla cihaz türüyle daha belirgin hale gelir. [[#Dosya tabanlı senkronizasyon hizmetleri]] işletim sistemleri arasında tutarsız bir şekilde uygulanabilir ve mobil cihazların uygulamaların nasıl izole edileceği ve güç kısıtlamasına tabi tutulacağı konusunda kendi kuralları vardır, bu da geleneksel dosya tabanlı hizmetlerin sorunsuz çalışmasını çok daha zorlaştırır.

@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Nếu dịch vụ đám mây có đồng bộ nền, thì một số quy trình này có thể đang diễn ra ngay cả khi bạn không chủ động sử dụng ứng dụng để xem tệp. Các dịch vụ này giám sát các thư mục cụ thể và tự động đồng bộ bất kỳ tệp nào được đặt trong đó. Các tệp phải nằm trong các thư mục dịch vụ đám mây được chỉ định để đồng bộ.
@@ -76,12 +69,6 @@ graph TD
    S -->|Tải xuống| P
    T -->|Tải lên| S
    S -->|Tải xuống| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Sức mạnh của hệ thống này trở nên rõ ràng hơn với nhiều loại thiết bị. [[#Dịch vụ đồng bộ dựa trên tệp]] có thể được triển khai không nhất quán giữa các hệ điều hành, và thiết bị di động có các quy tắc riêng về cách ứng dụng có thể bị giới hạn sandbox và tiết kiệm pin, điều này khiến các dịch vụ dựa trên tệp truyền thống khó hoạt động liền mạch hơn nhiều.

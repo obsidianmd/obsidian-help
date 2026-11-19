@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Jos pilvipalvelussa on taustasynkronointi, osa näistä prosesseista voi tapahtua, vaikka et aktiivisesti käyttäisi sovelluksia tiedostojen tarkasteluun. Nämä palvelut valvovat tiettyjä kansioita ja synkronoivat automaattisesti kaikki niihin sijoitetut tiedostot. Tiedostojen on sijaittava pilvipalvelun määrittämissä kansioissa, jotta synkronointi toimii.
@@ -76,12 +69,6 @@ graph TD
    S -->|Lataus| P
    T -->|Lähetys| S
    S -->|Lataus| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Tämän järjestelmän vahvuus korostuu, kun laitetyyppejä on enemmän. [[#Tiedostopohjaiset synkronointipalvelut]] voivat toimia epäjohdonmukaisesti eri käyttöjärjestelmissä, ja mobiililaitteilla on omat sääntönsä sovellusten eristämisen ja virransäästön suhteen, mikä tekee perinteisten tiedostopohjaisten palvelujen saumattomasta toiminnasta huomattavasti vaikeampaa.

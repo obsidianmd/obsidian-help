@@ -41,13 +41,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Om molntjänsten har bakgrundssynkronisering kan vissa av dessa processer pågå även när du inte aktivt använder applikationerna för att visa filerna. Dessa tjänster övervakar specifika mappar och synkroniserar automatiskt alla filer som placeras i dem. Filer måste finnas i de angivna molntjänstmapparna för att synkroniseras.
@@ -76,12 +69,6 @@ graph TD
    S -->|Ladda ner| P
    T -->|Ladda upp| S
    S -->|Ladda ner| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 Styrkan i detta system blir mer uppenbar med fler enhetstyper. [[#Filbaserade synkroniseringstjänster]] kan implementeras inkonsekvent mellan operativsystem, och mobila enheter har sina egna regler för hur applikationer kan sandboxas och strömbegränsas, vilket gör det mycket svårare för traditionella filbaserade tjänster att fungera sömlöst.

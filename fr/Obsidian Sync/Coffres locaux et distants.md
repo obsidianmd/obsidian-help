@@ -6,7 +6,6 @@ description: Cette page décrit les différences pratiques entre les coffres loc
 publish: true
 mobile: true
 localized: '2026-03-18'
-
 ---
 Si vous souhaitez utiliser vos notes sur différents appareils, l'une des options qui s'offre à vous est de [[Synchroniser vos notes entre appareils]]. Obsidian propose un tel service, [[Introduction à Obsidian Sync|Obsidian Sync]], qui fonctionne différemment des autres services de synchronisation, comme [[Synchroniser vos notes entre appareils#iCloud|iCloud]] et [[Synchroniser vos notes entre appareils#OneDrive|OneDrive]].
 
@@ -43,13 +42,6 @@ graph TD
     D --> E
     E --> F
     F --> G
-    style A fill:#c6dbef
-    style B fill:#dadaeb
-    style C fill:#c7e9c0
-    style D fill:#fdd49e
-    style E fill:#fdcc8a
-    style F fill:#fee8c8
-    style G fill:#a1dab4
 ```
 
 Si le service cloud dispose d'une synchronisation en arrière-plan, certains de ces processus peuvent se produire même lorsque vous n'utilisez pas activement les applications pour consulter les fichiers. Ces services surveillent des dossiers spécifiques et synchronisent automatiquement tous les fichiers qui y sont placés. Les fichiers doivent se trouver dans les dossiers désignés par le service cloud pour être synchronisés.
@@ -78,12 +70,6 @@ graph TD
    S -->|Télécharger| P
    T -->|Téléverser| S
    S -->|Télécharger| T
-   
-   style D fill:#c6dbef
-   style L fill:#dadaeb
-   style S fill:#c7e9c0
-   style P fill:#fdd49e
-   style T fill:#fdcc8a
 ```
 
 La force de ce système devient plus évidente avec davantage de types d'appareils. Les [[#Services de synchronisation basés sur les fichiers]] peuvent être implémentés de manière incohérente selon les systèmes d'exploitation, et les appareils mobiles ont leurs propres règles concernant le sandboxing des applications et la limitation de puissance, ce qui rend beaucoup plus difficile le fonctionnement fluide des services traditionnels basés sur les fichiers.
