@@ -17,7 +17,7 @@ jobs:
     outputs:
       locales: ${{ steps.get-locales.outputs.locales }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Discover locale directories
         id: get-locales
         run: |
@@ -36,11 +36,11 @@ jobs:
       fail-fast: false
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
 
@@ -74,7 +74,7 @@ jobs:
           git diff --staged --binary > /tmp/${{ matrix.locale }}.patch
           echo "Patch size: $(wc -c < /tmp/${{ matrix.locale }}.patch) bytes"
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: patch-${{ matrix.locale }}
           path: /tmp/${{ matrix.locale }}.patch
@@ -89,11 +89,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
 
@@ -102,7 +102,7 @@ jobs:
         working-directory: scripts
 
       - name: Download all patches
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: patch-*
           path: /tmp/patches
