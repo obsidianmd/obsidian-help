@@ -542,6 +542,10 @@ translation=Instellingen
 original=Sidebar
 translation=Zijbalk
 
+[file.skills]
+original=Skills
+translation=Vaardigheden
+
 [file.snippets]
 original=CSS snippets
 translation=CSS-fragmenten

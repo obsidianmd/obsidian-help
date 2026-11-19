@@ -542,6 +542,10 @@ translation=Ρυθμίσεις
 original=Sidebar
 translation=Πλαϊνή μπάρα
 
+[file.skills]
+original=Skills
+translation=Δεξιότητες
+
 [file.snippets]
 original=CSS snippets
 translation=CSS αποσπάσματα

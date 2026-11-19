@@ -2410,6 +2410,14 @@ translation=یافتن فایل‌های یادداشت
 original=Import your Tomboy or Gnote notes
 translation=درج یادداشت‌های Tomboy یا Gnote
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=صادر کردن یادداشت‌ها از Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=وارد کردن داده‌های Samsung Notes به Obsidian
+
 [heading.settings/Open Settings]
 original=Open Settings
 translation=گشودن تنظیمات
@@ -4342,18 +4350,26 @@ translation=جاسازی یک PDF
 original=Export a note to PDF
 translation=خروجی یادداشت به PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=صادر کردن یادداشت‌ها از Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=نصب
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=وارد کردن داده‌های Samsung Notes به Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT و Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=محدودیت‌ها
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot، OpenCode و سایر عامل‌ها
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=الگوها
+[heading.skills/Included skills]
+original=Included skills
+translation=مهارت‌های موجود
+
+[heading.skills/Requirements]
+original=Requirements
+translation=پیش‌نیازها
+
+[heading.skills/Privacy]
+original=Privacy
+translation=حریم خصوصی

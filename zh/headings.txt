@@ -1754,6 +1754,14 @@ translation=属性的源值
 original=Example template
 translation=模板示例
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=从三星笔记导出笔记
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=将三星笔记数据导入 Obsidian
+
 [heading.plugins/Install Importer]
 original=Install Importer
 translation=安装迁移助手
@@ -4338,18 +4346,26 @@ translation=嵌入 PDF
 original=Export a note to PDF
 translation=将笔记导出为 PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=从三星笔记导出笔记
+[heading.skills/Install]
+original=Install
+translation=安装
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=将三星笔记数据导入 Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT 和 Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=限制
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot、OpenCode 及其他代理
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=模板
+[heading.skills/Included skills]
+original=Included skills
+translation=包含的技能
+
+[heading.skills/Requirements]
+original=Requirements
+translation=要求
+
+[heading.skills/Privacy]
+original=Privacy
+translation=隐私

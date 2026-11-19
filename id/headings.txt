@@ -1196,7 +1196,7 @@ translation=Impor data Notion Anda melalui API
 
 [heading.import/Limitations]
 original=Limitations
-translation=Batasan
+translation=Keterbatasan
 
 [heading.import/File import]
 original=File import
@@ -1304,7 +1304,7 @@ translation=Pertahankan data yang tidak kompatibel
 
 [heading.import/Templates]
 original=Templates
-translation=Templat
+translation=Template
 
 [heading.import/Locate your note files]
 original=Locate your note files
@@ -1337,6 +1337,14 @@ translation=Nilai sumber untuk properti
 [heading.import/Example template]
 original=Example template
 translation=Contoh templat
+
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Ekspor catatan Anda dari Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Impor data Samsung Notes Anda ke Obsidian
 
 [heading.plugins/Install Importer]
 original=Install Importer
@@ -4206,18 +4214,26 @@ translation=Menyematkan PDF
 original=Export a note to PDF
 translation=Mengekspor catatan ke PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Ekspor catatan Anda dari Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Pasang
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Impor data Samsung Notes Anda ke Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT dan Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Keterbatasan
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, dan agen lainnya
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Template
+[heading.skills/Included skills]
+original=Included skills
+translation=Skills yang disertakan
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Persyaratan
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Privasi

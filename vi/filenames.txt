@@ -542,6 +542,10 @@ translation=Cài đặt
 original=Sidebar
 translation=Thanh bên
 
+[file.skills]
+original=Skills
+translation=Kỹ năng
+
 [file.snippets]
 original=CSS snippets
 translation=Mẩu CSS

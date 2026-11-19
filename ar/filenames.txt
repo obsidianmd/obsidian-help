@@ -542,6 +542,10 @@ translation=الإعدادات
 original=Sidebar
 translation=الشريط الجانبي
 
+[file.skills]
+original=Skills
+translation=المهارات
+
 [file.snippets]
 original=CSS snippets
 translation=مقتطفات CSS

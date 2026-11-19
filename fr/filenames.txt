@@ -550,6 +550,10 @@ translation=Paramètres
 original=Sidebar
 translation=Barre latérale
 
+[file.skills]
+original=Skills
+translation=Compétences
+
 [file.snippets]
 original=CSS snippets
 translation=Extraits CSS

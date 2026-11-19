@@ -694,6 +694,14 @@ translation=Özellikler için kaynak değerleri
 original=Example template
 translation=Örnek şablon
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Notlarınızı Samsung Notes'tan dışa aktarın
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung Notes verilerinizi Obsidian'a içe aktarın
+
 [heading.sync-notes/Syncing methods]
 original=Syncing methods
 translation=Senkronizasyon yöntemleri
@@ -4298,18 +4306,26 @@ translation=PDF gömme
 original=Export a note to PDF
 translation=Bir notu PDF olarak dışa aktarma
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Notlarınızı Samsung Notes'tan dışa aktarın
+[heading.skills/Install]
+original=Install
+translation=Kurulum
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Samsung Notes verilerinizi Obsidian'a içe aktarın
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT ve Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Sınırlamalar
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode ve diğer ajanlar
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Şablonlar
+[heading.skills/Included skills]
+original=Included skills
+translation=Dahil edilen beceriler
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Gereksinimler
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Gizlilik

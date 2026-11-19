@@ -542,6 +542,10 @@ translation=การตั้งค่า
 original=Sidebar
 translation=แถบด้านข้าง
 
+[file.skills]
+original=Skills
+translation=ทักษะ
+
 [file.snippets]
 original=CSS snippets
 translation=snippet CSS

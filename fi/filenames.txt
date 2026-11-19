@@ -542,6 +542,10 @@ translation=Asetukset
 original=Sidebar
 translation=Sivupalkki
 
+[file.skills]
+original=Skills
+translation=Taidot
+
 [file.snippets]
 original=CSS snippets
 translation=CSS-pätkät

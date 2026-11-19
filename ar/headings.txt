@@ -862,6 +862,14 @@ translation=القيم المصدرية للخصائص
 original=Example template
 translation=مثال على قالب
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=تصدير ملاحظاتك من Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=استيراد بيانات Samsung Notes إلى Obsidian
+
 [heading.publish/Prerequisites]
 original=Prerequisites
 translation=المتطلبات الأساسية
@@ -1642,18 +1650,26 @@ translation=تضمين ملف PDF
 original=Export a note to PDF
 translation=تصدير ملاحظة إلى PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=تصدير ملاحظاتك من Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=التثبيت
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=استيراد بيانات Samsung Notes إلى Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT و Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=القيود
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot وOpenCode ووكلاء آخرون
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=القوالب
+[heading.skills/Included skills]
+original=Included skills
+translation=المهارات المضمّنة
+
+[heading.skills/Requirements]
+original=Requirements
+translation=المتطلبات
+
+[heading.skills/Privacy]
+original=Privacy
+translation=الخصوصية

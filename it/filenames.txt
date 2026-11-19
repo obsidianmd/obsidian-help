@@ -542,6 +542,10 @@ translation=Impostazioni
 original=Sidebar
 translation=Barra laterale
 
+[file.skills]
+original=Skills
+translation=Competenze
+
 [file.snippets]
 original=CSS snippets
 translation=Snippet CSS

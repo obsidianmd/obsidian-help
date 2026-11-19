@@ -542,6 +542,10 @@ translation=Definições
 original=Sidebar
 translation=Barra lateral
 
+[file.skills]
+original=Skills
+translation=Habilidades
+
 [file.snippets]
 original=CSS snippets
 translation=Fragmentos CSS

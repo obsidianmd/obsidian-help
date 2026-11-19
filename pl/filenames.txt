@@ -542,6 +542,10 @@ translation=Ustawienia
 original=Sidebar
 translation=Panel boczny
 
+[file.skills]
+original=Skills
+translation=Umiejętności
+
 [file.snippets]
 original=CSS snippets
 translation=Snippety CSS

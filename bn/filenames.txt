@@ -542,6 +542,10 @@ translation=সেটিংস
 original=Sidebar
 translation=সাইডবার
 
+[file.skills]
+original=Skills
+translation=দক্ষতা
+
 [file.snippets]
 original=CSS snippets
 translation=CSS স্নিপেট

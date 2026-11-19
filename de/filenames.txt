@@ -542,6 +542,10 @@ translation=Einstellungen
 original=Sidebar
 translation=Seitenleiste
 
+[file.skills]
+original=Skills
+translation=Fähigkeiten
+
 [file.snippets]
 original=CSS snippets
 translation=CSS-Bausteine

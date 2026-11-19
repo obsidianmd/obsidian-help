@@ -2894,6 +2894,14 @@ translation=尋找你的筆記檔案
 original=Import your Tomboy or Gnote notes
 translation=匯入你的 Tomboy 或 Gnote 筆記
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=從 Samsung Notes 匯出筆記
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=將 Samsung Notes 資料匯入 Obsidian
+
 [heading.catalyst/Catalyst tiers]
 original=Catalyst tiers
 translation=Catalyst 等級
@@ -4302,18 +4310,26 @@ translation=嵌入 PDF
 original=Export a note to PDF
 translation=將筆記匯出為 PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=從 Samsung Notes 匯出筆記
+[heading.skills/Install]
+original=Install
+translation=安裝
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=將 Samsung Notes 資料匯入 Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT 和 Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=限制
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot、OpenCode 及其他代理
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=模板
+[heading.skills/Included skills]
+original=Included skills
+translation=包含的技能
+
+[heading.skills/Requirements]
+original=Requirements
+translation=需求
+
+[heading.skills/Privacy]
+original=Privacy
+translation=隱私

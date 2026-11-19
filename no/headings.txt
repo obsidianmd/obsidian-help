@@ -1086,6 +1086,14 @@ translation=Kildeverdier for egenskaper
 original=Example template
 translation=Eksempelmal
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Eksporter notatene dine fra Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importer Samsung Notes-dataene dine til Obsidian
+
 [heading.community-directory/Header]
 original=Header
 translation=Topptekst
@@ -1186,18 +1194,26 @@ translation=Bygge inn en PDF
 original=Export a note to PDF
 translation=Eksportere et notat til PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Eksporter notatene dine fra Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Installer
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Importer Samsung Notes-dataene dine til Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT og Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Begrensninger
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode og andre agenter
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Maler
+[heading.skills/Included skills]
+original=Included skills
+translation=Inkluderte ferdigheter
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Krav
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Personvern

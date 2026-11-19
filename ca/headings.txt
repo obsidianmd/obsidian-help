@@ -994,6 +994,14 @@ translation=Valors de la font per a propietats
 original=Example template
 translation=Plantilla d'exemple
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exporta les teves notes de Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importa les teves dades de Samsung Notes a Obsidian
+
 [heading.community-directory/Header]
 original=Header
 translation=Capçalera
@@ -1094,18 +1102,26 @@ translation=Incrustar un PDF
 original=Export a note to PDF
 translation=Exportar una nota a PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Exporta les teves notes de Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Instal·lació
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Importa les teves dades de Samsung Notes a Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT i Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Limitacions
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode i altres agents
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Plantilles
+[heading.skills/Included skills]
+original=Included skills
+translation=Habilitats incloses
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Requisits
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Privacitat

@@ -542,6 +542,10 @@ translation=Ayarlar
 original=Sidebar
 translation=Kenar çubuğu
 
+[file.skills]
+original=Skills
+translation=Beceriler
+
 [file.snippets]
 original=CSS snippets
 translation=CSS kod parçaları

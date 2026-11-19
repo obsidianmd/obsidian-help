@@ -194,6 +194,14 @@ translation=Bronwaarden voor eigenschappen
 original=Example template
 translation=Voorbeeldsjabloon
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Je notities exporteren uit Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Je Samsung Notes-gegevens importeren in Obsidian
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Een koppeling maken
@@ -1538,18 +1546,22 @@ translation=Een PDF insluiten
 original=Export a note to PDF
 translation=Een notitie exporteren naar PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Je notities exporteren uit Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Installeren
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Je Samsung Notes-gegevens importeren in Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT en Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Beperkingen
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode en andere agents
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Sjablonen
+[heading.skills/Included skills]
+original=Included skills
+translation=Meegeleverde vaardigheden
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Vereisten

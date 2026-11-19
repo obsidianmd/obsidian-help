@@ -542,6 +542,10 @@ translation=Innstillinger
 original=Sidebar
 translation=Sidefelt
 
+[file.skills]
+original=Skills
+translation=Ferdigheter
+
 [file.snippets]
 original=CSS snippets
 translation=CSS-utdrag

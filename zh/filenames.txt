@@ -550,6 +550,10 @@ translation=设置
 original=Sidebar
 translation=侧边栏
 
+[file.skills]
+original=Skills
+translation=技能
+
 [file.snippets]
 original=CSS snippets
 translation=CSS 代码片段

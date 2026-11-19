@@ -970,6 +970,14 @@ translation=Källvärden för egenskaper
 original=Example template
 translation=Exempelmall
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exportera dina anteckningar från Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importera dina Samsung Notes-data till Obsidian
+
 [heading.community-directory/Header]
 original=Header
 translation=Sidhuvud
@@ -1070,18 +1078,26 @@ translation=Bädda in en PDF
 original=Export a note to PDF
 translation=Exportera en anteckning till PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Exportera dina anteckningar från Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Installera
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Importera dina Samsung Notes-data till Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT och Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Begränsningar
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode och andra agenter
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Mallar
+[heading.skills/Included skills]
+original=Included skills
+translation=Inkluderade skills
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Krav
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Integritet

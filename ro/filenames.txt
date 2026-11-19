@@ -542,6 +542,10 @@ translation=Setări
 original=Sidebar
 translation=Bara laterală
 
+[file.skills]
+original=Skills
+translation=Abilități
+
 [file.snippets]
 original=CSS snippets
 translation=Fragmente CSS

@@ -3222,6 +3222,14 @@ translation=ค่าต้นทางสำหรับคุณสมบั�
 original=Example template
 translation=ตัวอย่างเทมเพลต
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=ส่งออกโน้ตจาก Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=นำเข้าข้อมูล Samsung Notes ของคุณเข้าสู่ Obsidian
+
 [heading.settings/Open Settings]
 original=Open Settings
 translation=เปิดการตั้งค่า
@@ -4258,18 +4266,26 @@ translation=ฝัง PDF
 original=Export a note to PDF
 translation=ส่งออกโน้ตเป็น PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=ส่งออกโน้ตจาก Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=ติดตั้ง
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=นำเข้าข้อมูล Samsung Notes ของคุณเข้าสู่ Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT และ Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=ข้อจำกัด
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode และเอเจนต์อื่นๆ
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=เทมเพลต
+[heading.skills/Included skills]
+original=Included skills
+translation=ทักษะที่รวมอยู่
+
+[heading.skills/Requirements]
+original=Requirements
+translation=ข้อกำหนด
+
+[heading.skills/Privacy]
+original=Privacy
+translation=ความเป็นส่วนตัว

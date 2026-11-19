@@ -542,6 +542,10 @@ translation=تنظیمات
 original=Sidebar
 translation=نوار کناری
 
+[file.skills]
+original=Skills
+translation=مهارت‌ها
+
 [file.snippets]
 original=CSS snippets
 translation=تکه‌کدهای CSS

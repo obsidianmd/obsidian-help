@@ -1662,6 +1662,14 @@ translation=Quellwerte für Eigenschaften
 original=Example template
 translation=Beispielvorlage
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Notizen aus Samsung Notes exportieren
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung-Notes-Daten in Obsidian importieren
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Einen Link erstellen
@@ -4122,18 +4130,26 @@ translation=Eine PDF einbetten
 original=Export a note to PDF
 translation=Eine Notiz als PDF exportieren
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Notizen aus Samsung Notes exportieren
+[heading.skills/Install]
+original=Install
+translation=Installieren
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Samsung-Notes-Daten in Obsidian importieren
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT und Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Einschränkungen
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode und andere Agenten
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Vorlagen
+[heading.skills/Included skills]
+original=Included skills
+translation=Enthaltene Skills
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Voraussetzungen
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Datenschutz

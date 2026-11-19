@@ -1094,6 +1094,14 @@ translation=Zdrojové hodnoty pre vlastnosti
 original=Example template
 translation=Príklad šablóny
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Export poznámok zo Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Import dát Samsung Notes do Obsidian
+
 [heading.credit/Add credit]
 original=Add credit
 translation=Pridanie kreditu
@@ -1966,18 +1974,26 @@ translation=Vloženie PDF
 original=Export a note to PDF
 translation=Export poznámky do PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Export poznámok zo Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Inštalácia
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Import dát Samsung Notes do Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT a Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Obmedzenia
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode a ostatní agenti
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Šablóny
+[heading.skills/Included skills]
+original=Included skills
+translation=Zahrnuté zručnosti
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Požiadavky
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Súkromie

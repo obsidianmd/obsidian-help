@@ -2554,6 +2554,14 @@ translation=Значення джерела для властивостей
 original=Example template
 translation=Приклад шаблону
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Експорт нотаток із Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Імпорт даних Samsung Notes в Obsidian
+
 [heading.glossary/Alias]
 original=Alias
 translation=Псевдонім
@@ -4010,18 +4018,26 @@ translation=Вбудовування PDF
 original=Export a note to PDF
 translation=Експорт нотатки в PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Експорт нотаток із Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Встановлення
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Імпорт даних Samsung Notes в Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT та Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Обмеження
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode та інші агенти
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Шаблони
+[heading.skills/Included skills]
+original=Included skills
+translation=Включені навички
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Вимоги
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Конфіденційність

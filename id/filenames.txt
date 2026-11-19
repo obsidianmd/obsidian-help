@@ -542,6 +542,10 @@ translation=Pengaturan
 original=Sidebar
 translation=Bilah samping
 
+[file.skills]
+original=Skills
+translation=Keterampilan
+
 [file.snippets]
 original=CSS snippets
 translation=Cuplikan CSS

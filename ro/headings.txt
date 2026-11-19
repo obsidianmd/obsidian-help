@@ -86,6 +86,14 @@ translation=Valorile sursei pentru proprietăți
 original=Example template
 translation=Exemplu de șablon
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exportă notițele din Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importă datele din Samsung Notes în Obsidian
+
 [heading.community-directory/Header]
 original=Header
 translation=Antet
@@ -214,18 +222,26 @@ translation=Încorporează un PDF
 original=Export a note to PDF
 translation=Exportă o notiță ca PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Exportă notițele din Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Instalare
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Importă datele din Samsung Notes în Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT și Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Limitări
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode și alți agenți
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Șabloane
+[heading.skills/Included skills]
+original=Included skills
+translation=Abilități incluse
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Cerințe
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Confidențialitate

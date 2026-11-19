@@ -542,6 +542,10 @@ translation=הגדרות
 original=Sidebar
 translation=סרגל צד
 
+[file.skills]
+original=Skills
+translation=מיומנויות
+
 [file.snippets]
 original=CSS snippets
 translation=קטעי CSS

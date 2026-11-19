@@ -86,6 +86,14 @@ translation=প্রপার্টির জন্য সোর্স মা�
 original=Example template
 translation=উদাহরণ টেমপ্লেট
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Samsung Notes থেকে আপনার নোট এক্সপোর্ট করুন
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=আপনার Samsung Notes ডেটা Obsidian-এ ইম্পোর্ট করুন
+
 [heading.community-directory/Header]
 original=Header
 translation=হেডার
@@ -218,18 +226,26 @@ translation=PDF এম্বেড করুন
 original=Export a note to PDF
 translation=নোটকে PDF-এ এক্সপোর্ট করুন
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Samsung Notes থেকে আপনার নোট এক্সপোর্ট করুন
+[heading.skills/Install]
+original=Install
+translation=ইনস্টল
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=আপনার Samsung Notes ডেটা Obsidian-এ ইম্পোর্ট করুন
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT এবং Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=সীমাবদ্ধতা
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, এবং অন্যান্য এজেন্ট
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=টেমপ্লেট
+[heading.skills/Included skills]
+original=Included skills
+translation=অন্তর্ভুক্ত দক্ষতাসমূহ
+
+[heading.skills/Requirements]
+original=Requirements
+translation=প্রয়োজনীয়তা
+
+[heading.skills/Privacy]
+original=Privacy
+translation=গোপনীয়তা

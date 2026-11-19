@@ -942,6 +942,14 @@ translation=Forrásértékek tulajdonságokhoz
 original=Example template
 translation=Példa sablon
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Jegyzetek exportálása a Samsung Notes-ból
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung Notes adatok importálása az Obsidianba
+
 [heading.community-directory/Header]
 original=Header
 translation=Fejléc
@@ -1042,18 +1050,26 @@ translation=PDF beágyazása
 original=Export a note to PDF
 translation=Jegyzet exportálása PDF-be
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Jegyzetek exportálása a Samsung Notes-ból
+[heading.skills/Install]
+original=Install
+translation=Telepítés
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Samsung Notes adatok importálása az Obsidianba
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT és Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Korlátozások
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode és más ügynökök
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Sablonok
+[heading.skills/Included skills]
+original=Included skills
+translation=Tartalmazott készségek
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Követelmények
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Adatvédelem

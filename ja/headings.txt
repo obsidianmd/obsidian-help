@@ -2942,6 +2942,14 @@ translation=プロパティのソース値
 original=Example template
 translation=テンプレートの例
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Samsung Notesからノートをエクスポートする
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung NotesのデータをObsidianにインポートする
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=リンクを作成する
@@ -4362,18 +4370,26 @@ translation=PDFを埋め込む
 original=Export a note to PDF
 translation=ノートをPDFにエクスポートする
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Samsung Notesからノートをエクスポートする
+[heading.skills/Install]
+original=Install
+translation=インストール
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Samsung NotesのデータをObsidianにインポートする
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT と Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=制限事項
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot、OpenCode、その他のエージェント
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=テンプレート
+[heading.skills/Included skills]
+original=Included skills
+translation=含まれるスキル
+
+[heading.skills/Requirements]
+original=Requirements
+translation=要件
+
+[heading.skills/Privacy]
+original=Privacy
+translation=プライバシー

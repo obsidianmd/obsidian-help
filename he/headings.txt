@@ -1042,6 +1042,14 @@ translation=ערכי מקור עבור מאפיינים
 original=Example template
 translation=דוגמה לתבנית
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=ייצוא ההערות שלך מ-Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=ייבוא נתוני Samsung Notes ל-Obsidian
+
 [heading.community-directory/Header]
 original=Header
 translation=כותרת עליונה
@@ -1142,18 +1150,26 @@ translation=הטמעת PDF
 original=Export a note to PDF
 translation=ייצוא הערה ל-PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=ייצוא ההערות שלך מ-Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=התקנה
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=ייבוא נתוני Samsung Notes ל-Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT ו-Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=מגבלות
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, וסוכנים אחרים
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=תבניות
+[heading.skills/Included skills]
+original=Included skills
+translation=מיומנויות כלולות
+
+[heading.skills/Requirements]
+original=Requirements
+translation=דרישות
+
+[heading.skills/Privacy]
+original=Privacy
+translation=פרטיות

@@ -542,6 +542,10 @@ translation=설정
 original=Sidebar
 translation=사이드바
 
+[file.skills]
+original=Skills
+translation=스킬
+
 [file.snippets]
 original=CSS snippets
 translation=CSS 스니펫

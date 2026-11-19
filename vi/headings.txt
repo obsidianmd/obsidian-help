@@ -758,6 +758,14 @@ translation=Xác định vị trí tệp ghi chú của bạn
 original=Import your Tomboy or Gnote notes
 translation=Nhập ghi chú Tomboy hoặc Gnote của bạn
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Xuất ghi chú từ Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Nhập dữ liệu Samsung Notes vào Obsidian
+
 [heading.backup/Syncing is not a backup]
 original=Syncing is not a backup
 translation=Đồng bộ hóa không phải là sao lưu
@@ -4306,18 +4314,26 @@ translation=Nhúng PDF
 original=Export a note to PDF
 translation=Xuất ghi chú sang PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Xuất ghi chú từ Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Cài đặt
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Nhập dữ liệu Samsung Notes vào Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT và Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Hạn chế
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, và các tác nhân khác
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Mẫu
+[heading.skills/Included skills]
+original=Included skills
+translation=Các skills đi kèm
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Yêu cầu
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Quyền riêng tư

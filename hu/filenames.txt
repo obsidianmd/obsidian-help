@@ -542,6 +542,10 @@ translation=Beállítások
 original=Sidebar
 translation=Oldalsáv
 
+[file.skills]
+original=Skills
+translation=Készségek
+
 [file.snippets]
 original=CSS snippets
 translation=CSS kódrészletek

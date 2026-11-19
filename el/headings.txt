@@ -1066,6 +1066,14 @@ translation=Τιμές πηγής για ιδιότητες
 original=Example template
 translation=Παράδειγμα προτύπου
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Εξαγωγή των σημειώσεών σας από το Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Εισαγωγή των δεδομένων Samsung Notes στο Obsidian
+
 [heading.community-directory/Header]
 original=Header
 translation=Κεφαλίδα
@@ -1166,18 +1174,26 @@ translation=Ενσωμάτωση PDF
 original=Export a note to PDF
 translation=Εξαγωγή σημείωσης σε PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Εξαγωγή των σημειώσεών σας από το Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Εγκατάσταση
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Εισαγωγή των δεδομένων Samsung Notes στο Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT και Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Περιορισμοί
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, και άλλοι πράκτορες
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Πρότυπα
+[heading.skills/Included skills]
+original=Included skills
+translation=Περιλαμβανόμενες δεξιότητες
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Απαιτήσεις
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Απόρρητο

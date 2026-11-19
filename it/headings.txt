@@ -1662,6 +1662,14 @@ translation=Valori sorgente per le proprietà
 original=Example template
 translation=Modello di esempio
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Esportare le note da Samsung Notes
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importare i dati di Samsung Notes in Obsidian
+
 [heading.link-notes/Create a link]
 original=Create a link
 translation=Creare un collegamento
@@ -4222,18 +4230,22 @@ translation=Incorporare un PDF
 original=Export a note to PDF
 translation=Esportare una nota in PDF
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Esportare le note da Samsung Notes
+[heading.skills/Install]
+original=Install
+translation=Installa
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Importare i dati di Samsung Notes in Obsidian
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT e Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Limitazioni
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode e altri agenti
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Modelli
+[heading.skills/Included skills]
+original=Included skills
+translation=Competenze incluse
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Requisiti

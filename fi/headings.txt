@@ -718,6 +718,14 @@ translation=Lähdearvot määreille
 original=Example template
 translation=Esimerkkipohja
 
+[heading.import/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Vie muistiinpanosi Samsung Notesista
+
+[heading.import/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Tuo Samsung Notes -tiedot Obsidianiin
+
 [heading.community-directory/Header]
 original=Header
 translation=Otsikkotiedot
@@ -850,18 +858,26 @@ translation=PDF-tiedoston upottaminen
 original=Export a note to PDF
 translation=Muistiinpanon vieminen PDF-muotoon
 
-[heading.import/samsung-notes/Export your notes from Samsung Notes]
-original=Export your notes from Samsung Notes
-translation=Vie muistiinpanosi Samsung Notesista
+[heading.skills/Install]
+original=Install
+translation=Asennus
 
-[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
-original=Import your Samsung Notes data into Obsidian
-translation=Tuo Samsung Notes -tiedot Obsidianiin
+[heading.skills/ChatGPT and Codex]
+original=ChatGPT and Codex
+translation=ChatGPT ja Codex
 
-[heading.import/samsung-notes/Limitations]
-original=Limitations
-translation=Rajoitukset
+[heading.skills/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode ja muut agentit
 
-[heading.import/samsung-notes/Templates]
-original=Templates
-translation=Mallineet
+[heading.skills/Included skills]
+original=Included skills
+translation=Mukana tulevat taidot
+
+[heading.skills/Requirements]
+original=Requirements
+translation=Vaatimukset
+
+[heading.skills/Privacy]
+original=Privacy
+translation=Tietosuoja
