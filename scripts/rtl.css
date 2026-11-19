@@ -7,7 +7,6 @@ html {
 body {
 	--embed-border-left: none;
 	--embed-border-right: 2px solid var(--interactive-accent);
-	--embed-padding: 0 var(--size-4-6) 0 0;
 
 	--link-decoration: initial;
 	--link-external-decoration: initial;

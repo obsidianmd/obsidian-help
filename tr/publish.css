@@ -4,7 +4,9 @@
   --callout-radius: var(--radius-m);
   --code-border-width: 0px;
   --code-radius: var(--radius-m);
+  --embed-padding: 0;
   --component-title-transform: none;
+  --component-title-weight: 500;
   --component-title-size: var(--sidebar-font-size);
   --link-weight: 500;
   --mermaid-radius: var(--radius-m);
@@ -15,6 +17,10 @@
   --sidebar-left-border-color: transparent;
   --table-row-alt-background: var(--background-primary-alt);
   --table-row-alt-background-hover: var(--background-primary-alt);
+}
+
+b, strong {
+  font-weight: 500;
 }
 
 .markdown-rendered,
@@ -28,6 +34,9 @@
 .backlinks .internal-link {
   text-decoration-color: var(--text-accent);
   text-underline-offset: 2px;
+}
+.markdown-rendered :is(strong, b) a {
+  font-weight: inherit;
 }
 
 .site-body-left-column-site-logo {
@@ -570,6 +579,11 @@ img[src$="#outline"] {
 
 .lang-switcher-row button.lang-switcher-btn {
   width: auto;
+  height: auto;
+  padding: var(--size-2-2) var(--size-2-3);
+  font-size: var(--sidebar-font-size);
+  font-weight: var(--font-medium);
+  line-height: var(--line-height-tight);
 }
 
 button.lang-switcher-btn {
@@ -582,7 +596,8 @@ button.lang-switcher-btn {
   height: var(--input-height);
   background: transparent;
   border: none;
-  border-radius: var(--input-height);
+  border-radius: var(--radius-m);
+  corner-shape: var(--corner-shape);
   color: var(--text-normal);
   font-size: var(--font-ui-small);
   font-family: inherit;
@@ -604,7 +619,9 @@ button.lang-switcher-btn:hover {
   right: 0;
   background: var(--background-secondary);
   border: 1px solid var(--color-base-30);
-  border-radius: var(--radius-m);
+  /* Concentric with the options, which sit inside the list's padding. */
+  border-radius: calc(var(--radius-m) + var(--size-2-2));
+  corner-shape: var(--corner-shape);
   box-shadow: var(--shadow-s);
   margin: 0;
   padding: 0;
@@ -684,7 +701,8 @@ button.lang-switcher-btn:hover {
 .lang-switcher-menu a {
   display: block;
   padding: 0.375rem 0.75rem;
-  border-radius: var(--radius-s);
+  border-radius: var(--radius-m);
+  corner-shape: var(--corner-shape);
   white-space: nowrap;
   color: var(--text-muted);
   font-size: var(--font-ui-small);
