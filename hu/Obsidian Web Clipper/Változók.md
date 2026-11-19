@@ -105,7 +105,7 @@ A schema változók lehetővé teszik adatok kinyerését az oldal [schema.org](
 
 - `{{schema:@Típus:kulcs}}` a schema adott kulcsának értékét adja vissza.
 - `{{schema:@Típus:szülő.gyermek}}` egy beágyazott tulajdonság értékét adja vissza.
-- `{{schema:@Típus:tömbKulcs}}` a tömb első elemét adja vissza.
+- `{{schema:@Típus:tömbKulcs}}` a teljes tömböt adja vissza. Használd a `{{schema:@Típus:tömbKulcs[0]}}` formát az első elem visszaadásához.
 - `{{schema:@Típus:tömbKulcs[index].tulajdonság}}` a tömb megadott indexű elemét adja vissza.
 - `{{schema:@Típus:tömbKulcs[*].tulajdonság}}` a tömb összes eleméből egy adott tulajdonságot ad vissza.
 

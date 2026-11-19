@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Verwende Bedingungen, Schleifen und Variablenzuweisungen in Web Clipper-Vorlagen.'
 ---
-[[Einführung in Obsidian Web Clipper|Web Clipper]] unterstützt Vorlagenlogik für Bedingungen, Schleifen und Variablenzuweisungen. Diese Syntax ist inspiriert von den Vorlagensprachen [Twig](https://twig.symfony.com/) und [Liquid](https://shopify.github.io/liquid/).
+[[Einführung in Obsidian Web Clipper|Web Clipper]] unterstützt Vorlagenlogik für Bedingungen, Schleifen und Variablenzuweisungen. Diese Syntax heißt [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Bedingungen
@@ -62,6 +62,12 @@ Beispiele:
 - `{% if draft or archived %}` — eine der Bedingungen
 - `{% if not hidden %}` — Negation
 - `{% if (premium or featured) and published %}` — gruppierte Bedingungen
+
+Jede Seite eines logischen Operators muss ein vollständiger Ausdruck sein. Um beispielsweise zu prüfen, ob ein String einen von mehreren Werten enthält:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Wahrheitswerte
 

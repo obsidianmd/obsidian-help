@@ -105,7 +105,7 @@ Schema-muuttujilla voidaan poimia tietoja sivun [schema.org](https://schema.org/
 
 - `{{schema:@Tyyppi:avain}}` palauttaa avaimen arvon skeemasta.
 - `{{schema:@Tyyppi:vanhempi.lapsi}}` palauttaa sisäkkäisen ominaisuuden arvon.
-- `{{schema:@Tyyppi:taulukkoAvain}}` palauttaa taulukon ensimmäisen alkion.
+- `{{schema:@Tyyppi:taulukkoAvain}}` palauttaa koko taulukon. Käytä `{{schema:@Tyyppi:taulukkoAvain[0]}}` palauttaaksesi sen ensimmäisen alkion.
 - `{{schema:@Tyyppi:taulukkoAvain[indeksi].ominaisuus}}` palauttaa taulukon tietyssä indeksissä olevan alkion.
 - `{{schema:@Tyyppi:taulukkoAvain[*].ominaisuus}}` palauttaa tietyn ominaisuuden kaikista taulukon alkioista.
 

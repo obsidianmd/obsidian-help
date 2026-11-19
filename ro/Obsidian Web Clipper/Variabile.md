@@ -107,7 +107,7 @@ Variabilele schema îți permit să extragi date din JSON-LD [schema.org](https:
 
 - `{{schema:@Type:key}}` returnează valoarea cheii din schemă.
 - `{{schema:@Type:parent.child}}` returnează valoarea unei proprietăți imbricate.
-- `{{schema:@Type:arrayKey}}` returnează primul element dintr-un array.
+- `{{schema:@Type:arrayKey}}` returnează întregul array. Folosește `{{schema:@Type:arrayKey[0]}}` pentru a returna primul element al acestuia.
 - `{{schema:@Type:arrayKey[index].property}}` returnează elementul de la indexul specificat dintr-un array.
 - `{{schema:@Type:arrayKey[*].property}}` returnează o proprietate specifică din toate elementele unui array.
 

@@ -57,6 +57,20 @@ misc {
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+ফোকাস নিয়মগুলো কাজ না করলে, নেটিভ Wayland-এর পরিবর্তে XWayland-এর অধীনে Obsidian চালানোর চেষ্টা করুন, তারপর Obsidian সম্পূর্ণভাবে রিস্টার্ট করুন।
+
+আপনি Flatpak ব্যবহার করলে:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+এটি পূর্বাবস্থায় ফেরাতে, `flatpak override --user --reset md.obsidian.Obsidian` চালান। মনে রাখবেন এটি আপনি Obsidian-এর জন্য সেট করা সমস্ত ওভাররাইড রিসেট করবে।
+
+অন্যান্য ইনস্টলেশন পদ্ধতির জন্য, `--ozone-platform=x11` ফ্ল্যাগ দিয়ে Obsidian চালু করুন।
+
+অন্যান্য চেষ্টা করার বিষয়:
+
 - আপনি Flatpak ব্যবহার করলে একটি [অফিসিয়ালি সমর্থিত Obsidian সংস্করণ](https://obsidian.md/download) চেষ্টা করে দেখুন।
 - আপনি KDE ব্যবহার করলে **System Settings** → **Window Management** → **Window Rules**-এ গিয়ে Obsidian-কে ফোকাস নেওয়ার অনুমতি দিন, [[web-clipper-kde.png|স্ক্রিনশট দেখুন]]।
 - বিকল্প হিসেবে, **Web Clipper Settings** → **General**-এ **Legacy mode**-এ পরিবর্তন করে দেখুন। এটি ক্লিপবোর্ড এড়িয়ে সরাসরি URI-এর মাধ্যমে কন্টেন্ট সংরক্ষণ করবে। মনে রাখবেন এটি আপনার ব্রাউজার ও Linux ডিস্ট্রিবিউশনের উপর নির্ভর করে ক্লিপ করা যায় এমন অক্ষরের সংখ্যা সীমিত করবে।

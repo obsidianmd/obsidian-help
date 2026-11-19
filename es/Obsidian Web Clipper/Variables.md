@@ -105,7 +105,7 @@ Las variables de schema te permiten extraer datos de [schema.org](https://schema
 
 - `{{schema:@Tipo:clave}}` devuelve el valor de la clave del schema.
 - `{{schema:@Tipo:padre.hijo}}` devuelve el valor de una propiedad anidada.
-- `{{schema:@Tipo:claveArreglo}}` devuelve el primer elemento en un arreglo.
+- `{{schema:@Tipo:claveArreglo}}` devuelve el arreglo completo. Usa `{{schema:@Tipo:claveArreglo[0]}}` para devolver su primer elemento.
 - `{{schema:@Tipo:claveArreglo[índice].propiedad}}` devuelve el elemento en el índice especificado en un arreglo.
 - `{{schema:@Tipo:claveArreglo[*].propiedad}}` devuelve una propiedad específica de todos los elementos en un arreglo.
 

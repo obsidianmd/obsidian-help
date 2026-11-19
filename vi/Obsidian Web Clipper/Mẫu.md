@@ -12,7 +12,7 @@ aliases:
 
 Để **chỉnh sửa** một mẫu, hãy chọn một mẫu từ thanh bên. Các thay đổi của bạn sẽ được lưu tự động.
 
-Các mẫu sử dụng [[Biến]] và [[Bộ lọc]], cho phép bạn tùy chỉnh cách nội dung được lưu.
+Các mẫu sử dụng [[Biến]], [[Bộ lọc]], và [[Logic]], cho phép bạn tùy chỉnh cách nội dung được lưu.
 
 ## Nhập và xuất mẫu Web Clipper
 

@@ -106,7 +106,7 @@ Les variables schema vous permettent d'extraire des données à partir du [schem
 
 - `{{schema:@Type:clé}}` retourne la valeur de la clé du schema.
 - `{{schema:@Type:parent.enfant}}` retourne la valeur d'une propriété imbriquée.
-- `{{schema:@Type:cléTableau}}` retourne le premier élément d'un tableau.
+- `{{schema:@Type:cléTableau}}` retourne le tableau complet. Utilisez `{{schema:@Type:cléTableau[0]}}` pour retourner son premier élément.
 - `{{schema:@Type:cléTableau[index].propriété}}` retourne l'élément à l'index spécifié dans un tableau.
 - `{{schema:@Type:cléTableau[*].propriété}}` retourne une propriété spécifique de tous les éléments d'un tableau.
 

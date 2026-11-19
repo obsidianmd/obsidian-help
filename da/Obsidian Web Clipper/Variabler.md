@@ -105,7 +105,7 @@ Schema-variabler giver dig mulighed for at udtrække data fra [schema.org](https
 
 - `{{schema:@Type:key}}` returnerer værdien af nøglen fra skemaet.
 - `{{schema:@Type:parent.child}}` returnerer værdien af en indlejret egenskab.
-- `{{schema:@Type:arrayKey}}` returnerer det første element i et array.
+- `{{schema:@Type:arrayKey}}` returnerer hele arrayet. Brug `{{schema:@Type:arrayKey[0]}}` for at returnere dets første element.
 - `{{schema:@Type:arrayKey[index].property}}` returnerer elementet ved det angivne indeks i et array.
 - `{{schema:@Type:arrayKey[*].property}}` returnerer en specifik egenskab fra alle elementer i et array.
 

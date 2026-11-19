@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Utilitzeu condicionals, bucles i assignació de variables a les plantilles de Web Clipper.'
 ---
-[[Introducció a Obsidian Web Clipper|Web Clipper]] admet lògica de plantilles per a condicionals, bucles i assignació de variables. Aquesta sintaxi està inspirada en els llenguatges de plantilles [Twig](https://twig.symfony.com/) i [Liquid](https://shopify.github.io/liquid/).
+[[Introducció a Obsidian Web Clipper|Web Clipper]] admet lògica de plantilles per a condicionals, bucles i assignació de variables. Aquesta sintaxi s'anomena [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Condicionals
@@ -62,6 +62,12 @@ Exemples:
 - `{% if draft or archived %}` — qualsevol de les dues condicions
 - `{% if not hidden %}` — negació
 - `{% if (premium or featured) and published %}` — condicions agrupades
+
+Cada costat d'un operador lògic ha de ser una expressió completa. Per exemple, per comprovar si una cadena conté un de diversos valors:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Veracitat
 

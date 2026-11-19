@@ -63,6 +63,12 @@ Contoh:
 - `{% if not hidden %}` — negasi
 - `{% if (premium or featured) and published %}` — kondisi yang dikelompokkan
 
+Setiap sisi operator logika harus berupa ekspresi lengkap. Misalnya, untuk memeriksa apakah string mengandung salah satu dari beberapa nilai:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
+
 ### Kebenaran (Truthiness)
 
 Ketika variabel digunakan tanpa operator perbandingan, variabel tersebut dievaluasi berdasarkan "truthiness":

@@ -52,6 +52,19 @@ URI ile kodlanmış bir dizeyi çözer, örn. `"%E4%BD%A0%E5%A5%BD"|decode_uri` 
 - `"hello%20world"|decode_uri` ifadesi `"hello world"` döndürür.
 - Çözme başarısız olursa orijinal dizeyi döndürür (örn. hatalı biçimlendirilmiş URI dizileri).
 
+### `encode_uri`
+
+Metni, `/`, `?` ve `&` gibi ayrılmış karakterler dahil olmak üzere bir URL'de kullanılmak üzere kodlar.
+
+- `"hello world/page"|encode_uri` ifadesi `hello%20world%2Fpage` döndürür.
+
+### `indent`
+
+Her boş olmayan satırı boşluklarla girintiler. Varsayılan olarak iki boşluk kullanır.
+
+- `indent:4` her satırı dört boşlukla girintiler.
+- `indent:0` metni değiştirmeden bırakır.
+
 ### `kebab`
 
 Metni `kebab-case` biçimine dönüştürür.
@@ -102,6 +115,21 @@ Bir dizenin her iki ucundaki boşlukları kaldırır.
 
 - `"  hello world  "|trim` ifadesi `"hello world"` döndürür.
 
+### `truncate`
+
+Metni belirli bir karakter sayısına kısaltır ve sonuna `…` ekler. Sonek sınıra dahildir.
+
+- `"A concise introduction"|truncate:10` ifadesi `A concise…` döndürür.
+- `"A concise introduction"|truncate:(12, "...")` ifadesi `A concise...` döndürür.
+- `"A concise introduction"|truncate:(9, "")` ifadesi `A concise` döndürür.
+
+### `truncatewords`
+
+Metni belirli bir kelime sayısına kısaltır ve `…` ekler.
+
+- `"A concise introduction to Knap"|truncatewords:3` ifadesi `A concise introduction…` döndürür.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` ifadesi `A concise introduction` döndürür.
+
 ### `unescape`
 
 Kaçırılmış tırnak işaretlerini ve yeni satır dizilerini gerçek karakterlere dönüştürür.
@@ -128,6 +156,13 @@ Metne [[Temel biçimlendirme söz dizimi]] ve [[Gelişmiş biçimlendirme söz d
 
 Girişin her satırına Markdown alıntı öneki (`> `) ekler.
 
+### `bold`
+
+Metni kalın işaretleyicilerle sarar.
+
+- `"Important"|bold` ifadesi `**Important**` döndürür.
+- `"Important"|bold:_` ifadesi `__Important__` döndürür.
+
 ### `callout`
 
 İsteğe bağlı parametrelerle bir [[Belirtme çizgileri|vurgulu blok]] oluşturur: `{{değişken|callout:("tür", "başlık", katlaDurumu)}}`
@@ -135,6 +170,37 @@ Girişin her satırına Markdown alıntı öneki (`> `) ekler.
 - `tür` vurgulu blok türüdür ve varsayılan değeri "info"dur
 - `başlık` vurgulu blok başlığıdır ve varsayılan değeri boştur
 - `katlaDurumu` katlama durumunu ayarlamak için bir boolean değeridir (true katlanmış, false açık, null katlanamaz)
+
+### `code`
+
+Metni satır içi kod olarak biçimlendirir. Çok satırlı metin veya bir dil parametresi, bunun yerine çitli kod bloğu oluşturur.
+
+- `"const answer = 42"|code` ifadesi `` `const answer = 42` `` döndürür.
+- `"const answer = 42"|code:"typescript"` ifadesi `typescript` olarak işaretlenmiş bir kod bloğu döndürür.
+
+### `code_block`
+
+Her zaman çitli bir kod bloğu oluşturur, isteğe bağlı bir dil ile, örn. `code_block:"typescript"`.
+
+### `comment`
+
+Metni [[Temel biçimlendirme söz dizimi#Yorumlar|yorum]] işaretleyicileriyle sarar.
+
+- `"Hidden note"|comment` ifadesi `%%Hidden note%%` döndürür.
+
+### `embed`
+
+Dizeleri, dizileri veya nesneleri [[Dosya gömme|gömmelere]] dönüştürür.
+
+- Dizeler için: `"diagram.png"|embed` ifadesi `![[diagram.png]]` döndürür.
+- Takma adlı dizeler için: `"Project Atlas"|embed:"Preview"` ifadesi `![[Project Atlas|Preview]]` döndürür.
+- Nesneler için: `{"one.md": "One", "two.md": "Two"}|embed` anahtarları dosya, değerleri takma ad olarak gömmeler döndürür.
+
+### `escape_md`
+
+Markdown noktalama işaretlerinin önüne ters eğik çizgi ekler, böylece düz metin olarak görünür.
+
+- `"# Draft *title*"|escape_md` ifadesi `\# Draft \*title\*` döndürür.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Dizeleri ve dizileri [metin parçası](https://developer.mozilla.org/en-US/docs/
 - `highlights|fragment_link` şunu döndürür: `Vurgu içeriği [link](metin-parçası-url)`
 - `highlights|fragment_link:"özel başlık"` şunu döndürür: `Vurgu içeriği [özel başlık](metin-parçası-url)`
 
+### `h1` - `h6`
+
+Her boş olmayan satırı o düzeyde bir başlığa dönüştürür.
+
+- `"Introduction"|h2` ifadesi `## Introduction` döndürür.
+
+### `hard_break`
+
+Her tek satır sonundan önce iki boşluk ekler, böylece satır sonları Okuma görünümünde görünür. Paragraflar arasındaki boş satırlar olduğu gibi kalır.
+
+### `highlight`
+
+Metni vurgulama işaretleyicileriyle sarar.
+
+- `"Remember this"|highlight` ifadesi `==Remember this==` döndürür.
+- `red`, `orange`, `yellow`, `green`, `blue` veya `purple` ile bir [[Temel biçimlendirme söz dizimi#Vurgulama renkleri|vurgulama rengi]] ekleyin, örn. `"Remember this"|highlight:blue` ifadesi `==🔵Remember this==` döndürür.
+
+### `hr`
+
+Metnin ardına boş bir satırla ayrılmış yatay çizgi (`---`) ekler.
+
+- `"Section end"|hr` çizgiyi metnin ardına ekler.
+- `hr:before` metnin önüne ekler ve `hr:both` her iki tarafa ekler.
+
 ### `image` 
 
 Dizeleri, dizileri veya nesneleri Markdown görsel söz dizimine dönüştürür.
@@ -157,6 +247,13 @@ Dizeleri, dizileri veya nesneleri Markdown görsel söz dizimine dönüştürür
 - Dizeler için: `"image.jpg"|image:"alt metin"` ifadesi `![alt metin](image.jpg)` döndürür.
 - Diziler için: `["image1.jpg","image2.jpg"]|image:"alt metin"` tüm görseller için aynı alt metinle Markdown görsel dizeleri dizisi döndürür.
 - Nesneler için: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` nesne anahtarlarından alt metinle Markdown görsel dizeleri döndürür.
+
+### `italic`
+
+Metni italik işaretleyicilerle sarar.
+
+- `"Emphasized"|italic` ifadesi `*Emphasized*` döndürür.
+- `"Emphasized"|italic:_` ifadesi `_Emphasized_` döndürür.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Bir diziyi Markdown listesine dönüştürür.
 - `list:numbered` numaralı listeye dönüştürür.
 - `list:numbered-task` numaralı görev listesine dönüştürür.
 
+### `math`
+
+Metni satır içi [[Gelişmiş biçimlendirme söz dizimi#Matematik|matematik]] olarak biçimlendirir. Çok satırlı metin matematik bloğu olur.
+
+- `"x^2 + y^2"|math` ifadesi `$x^2 + y^2$` döndürür.
+
+### `math_block`
+
+Her zaman bir matematik bloğu oluşturur, metnin öncesinde ve sonrasında `$$` satırları ile.
+
+### `strike`
+
+Metni üstü çizili işaretleyicilerle sarar.
+
+- `"Removed"|strike` ifadesi `~~Removed~~` döndürür.
+
 ### `table`
 
 Bir diziyi veya nesne dizisini [[Gelişmiş biçimlendirme söz dizimi#Tablolar|Markdown tablosuna]] dönüştürür:
@@ -183,6 +296,10 @@ Bir diziyi veya nesne dizisini [[Gelişmiş biçimlendirme söz dizimi#Tablolar|
 - Dizi dizisi için her iç içe diziyi bir satır olarak tablo oluşturur.
 - Basit bir dizi için başlık olarak "Value" ile tek sütunlu bir tablo oluşturur.
 - Özel sütun başlıkları `table:("Sütun 1", "Sütun 2", "Sütun 3")` kullanılarak belirtilebilir. Basit bir diziyle kullanıldığında, belirtilen sütun sayısına göre verileri otomatik olarak satırlara böler.
+
+### `table_pretty`
+
+[[Filtreler#`table`|table]] gibi çalışır ve sütunları eşit genişliklere doldurur, böylece tablo Kaynak modunda hizalanır.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Dizeleri, dizileri veya nesneleri Obsidian [[Notları bağla|wiki bağlantısı]
 
 ## Sayılar
 
+`calc`, `round` ve `length` sayı döndürür, sonraki filtrelerde ve değişken atamalarında türlerini korur. `number_format` metin döndürür.
+
 ### `calc`
 
 Sayılar üzerinde temel aritmetik işlemler gerçekleştirir.
@@ -203,7 +322,7 @@ Sayılar üzerinde temel aritmetik işlemler gerçekleştirir.
 - Desteklenen operatörler: `+`, `-`, `*`, `/`, `**` (veya `^`) üs alma için.
 - Örnek: `5|calc:"+10"` ifadesi `15` döndürür.
 - Örnek: `2|calc:"**3"` ifadesi `8` döndürür (2 üzeri 3).
-- Giriş bir sayı değilse orijinal dizeyi döndürür.
+- Giriş boşsa, bir sayı değilse veya hesaplama sonlu olmayan bir sonuç üretirse orijinal girişi döndürür.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Dizelerin uzunluğunu, dizilerin eleman sayısını veya nesnelerdeki anahtar sa
 
 - Dizeler için: `"hello"|length` ifadesi `5` döndürür.
 - Diziler için: `["a","b","c"]|length` ifadesi `3` döndürür.
+- Tek öğeli bir dizi yine bir olarak sayılır: `[42]|length` ifadesi `1` döndürür.
 - Nesneler için: `{"a":1,"b":2}|length` ifadesi `2` döndürür.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Bir sayıyı en yakın tam sayıya veya belirtilen ondalık basamak sayısına y
 
 - Parametresiz: `3.7|round` ifadesi `4` döndürür.
 - Ondalık basamak belirtilerek: `3.14159|round:2` ifadesi `3.14` döndürür.
+- Diziler ve nesneler yapılarını korur, sayısal değerler özyinelemeli olarak yuvarlanır. Sayısal dizeler sayılara dönüşür, örn. `["1.234","2.345"]|round:2` ifadesi `[1.23,2.35]` döndürür.
+- `"42abc"` gibi geçersiz giriş bir sayıya dönüştürülmek yerine korunur.
 
 ## HTML işleme
 
@@ -246,7 +368,7 @@ Bir dizeyi [[Obsidian Flavored Markdown]] biçimli dizeye dönüştürür.
 
 Etiketlerden yalnızca belirtilen HTML özniteliklerini kaldırır.
 
-- Örnek: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` ifadesi `<div id="example">Content</div>` döndürür.
+- Örnek: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` ifadesi `<div id="example">Content</div>` döndürür.
 - Çoklu öznitelikler: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ HTML etiketlerini değiştirir, etiketin içeriğini ve özniteliklerini korur.
 Bir dizeden **tüm** HTML özniteliklerini kaldırır.
 
 - Belirli öznitelikleri korumak için `strip_attr:("class, id")` kullanın.
-- Örnek: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` ifadesi `<div class="test">Content</div>` döndürür.
+- Örnek: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` ifadesi `<div class="test">Content</div>` döndürür.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Bir dizeden **tüm** HTML özniteliklerini kaldırır.
 
 - Kalın, italik, vurgulama, başlıklar, kod, blok alıntılar, tablolar ve görev listeleri dahil biçimlendirilmiş metni biçimlendirmesiz düz metne dönüştürür.
 - Tabloları, dipnotları, görselleri ve HTML öğelerini tamamen kaldırır.
+- `stripmd` bir takma addır.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Bir dizeden **tüm** HTML etiketlerini kaldırır. Etiket içindeki içerik koru
 
 Dizileri ve nesneleri işleyin.
 
+### `compact`
+
+Dizilerden ve nesnelerden `null` değerleri ve boş dizeleri kaldırır. `0` ve `false` değerlerini korur.
+
+- `[null,"","one",0,false,"two"]|compact` ifadesi `["one",0,false,"two"]` döndürür.
+
 ### `first` 
 
-Bir dizinin ilk öğesini dize olarak döndürür.
+Bir dizinin ilk öğesini türünü koruyarak döndürür. Nesneler ve iç içe diziler JSON olarak görüntülenir.
 
 - `["a","b","c"]|first` ifadesi `"a"` döndürür.
+- Boş bir dizi `null` döndürür, bu da boş metin olarak görüntülenir.
 - Giriş bir dizi değilse girişi değiştirmeden döndürür.
 
 ### `join`
@@ -311,9 +441,10 @@ Bir dizinin öğelerini bir dizede birleştirir.
 
 ### `last`
 
-Bir dizinin son öğesini dize olarak döndürür.
+Bir dizinin son öğesini türünü koruyarak döndürür. Nesneler ve iç içe diziler JSON olarak görüntülenir.
 
 - `["a","b","c"]|last` ifadesi `"c"` döndürür.
+- Boş bir dizi `null` döndürür, bu da boş metin olarak görüntülenir.
 - Giriş bir dizi değilse girişi değiştirmeden döndürür.
 
 ### `map`
@@ -346,6 +477,8 @@ CSS tarzı nth-child söz dizimi ve grup kalıpları kullanarak bir dizideki n'i
 - `dizi|nth:3n` her 3. öğeyi tutar (3, 6, 9, vb.).
 - `dizi|nth:n+3` 3. ve sonraki tüm öğeleri tutar.
 
+Sonuç, sonraki koleksiyon filtreleri için dizi olarak kalır. Tek bir ilkel değer içeriyorsa, bu değer dizi parantezleri olmadan görüntülenir ve doğrudan metin filtrelerine iletilir, örn. `[1,2]|nth:2` ifadesi `2` olarak görüntülenir.
+
 Tekrarlayan yapılar için grup kalıp söz dizimi:
 
 - `dizi|nth:1,2,3:5` her 5 öğelik gruptan 1, 2, 3 konumlarını tutar. Örnek: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` ifadesi `[1,2,3,6,7,8]` döndürür.
@@ -358,6 +491,10 @@ Nesne verilerini işler:
 - `object:keys` nesnenin anahtarlarının dizisini döndürür.
 - `object:values` nesnenin değerlerinin dizisini döndürür.
 - Örnek: `{"a":1,"b":2}|object:array` ifadesi `[["a",1],["b",2]]` döndürür.
+
+### `parse_json`
+
+JSON metnini tipli bir değere ayrıştırır. Bir değişken JSON metni içerdiğinde koleksiyon filtrelerinden veya YAML serileştirmesinden önce bunu kullanın, örn. `'[1,2]'|parse_json|yaml:flow` ifadesi `[1,2]` döndürür.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Bir dizenin veya dizinin bir bölümünü çıkarır.
 - İkinci parametre dışlayıcıdır: `"hello"|slice:1,4` indeks 1, 2 ve 3'teki karakterleri içerir.
 - Negatif ikinci parametre sondan öğeleri hariç tutar: `"hello"|slice:0,-2` ifadesi `"hel"` döndürür.
 
+### `sort`
+
+Bir diziyi artan sırada sıralar. Sayılar değere göre sıralanır.
+
+- `[10,2,1]|sort` ifadesi `[1,2,10]` döndürür.
+- `["a","c","b"]|sort:"desc"` ifadesi `["c","b","a"]` döndürür.
+- Nesne dizileri için bir özellik belirtin: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` ifadesi `[{"name":"Ada"},{"name":"Lin"}]` döndürür. Tersine çevirmek için `sort:("name", "desc")` kullanın. Özelliğe sahip olmayan öğeler en sona gider.
+
 ### `split`
 
 Bir dizeyi alt dizeler dizisine böler.
@@ -384,7 +529,14 @@ Bir dizeyi alt dizeler dizisine böler.
 - `"a,b,c"|split:","` ifadesi `["a","b","c"]` döndürür.
 - `"hello world"|split:" "` ifadesi `["hello","world"]` döndürür.
 - Ayırıcı sağlanmazsa her karaktere göre böler: `"hello"|split` ifadesi `["h","e","l","l","o"]` döndürür.
-- Ayırıcı olarak düzenli ifadeler kullanılabilir: `"a1b2c3"|split:[0-9]` ifadesi `["a","b","c"]` döndürür.
+- Ayırıcı olarak düzenli ifadeler kullanılabilir: `"a1b2c3"|split:[0-9]` ifadesi `["a","b","c",""]` döndürür. Son öğe boştur çünkü dize bir ayırıcı ile biter.
+
+### `sum`
+
+Bir dizideki sayıları toplar. Sayı olmayan metin atlanır ve boş dizi `0` döndürür.
+
+- `[10,"2.5","","none"]|sum` ifadesi `12.5` döndürür.
+- Nesne dizileri için bir özellik belirtin: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` ifadesi `12.5` döndürür.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Dizilerden ve nesnelerden yinelenen değerleri kaldırır.
 - Nesne dizileri için: `[{"a":1},{"b":2},{"a":1}]|unique` ifadesi `[{"a":1},{"b":2}]` döndürür.
 - Nesneler için yinelenen değerlere sahip özellikleri kaldırır, son geçişin anahtarını korur.
 - Dizeler için girişi değiştirmeden döndürür.
+
+### `where`
+
+Özelliği bir değerle eşleşen dizi öğelerini tutar. Türün de eşleşmesi gerekir, bu nedenle `1` sayısı `"1"` metniyle eşleşmez.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` ifadesi `[{"title":"One","published":true}]` döndürür.
+- İç içe özellikler için noktalı yol kullanın, örn. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Bir değeri YAML olarak biçimlendirir. Dizeler, `"null"`, `"true"` ve `"123"` gibi dizeler dahil olmak üzere her zaman tırnak içine alınır. Gerçek null, boolean ve sayılar tırnaksız kalır.
+
+- Diziler ve nesneler varsayılan olarak blok stili kullanır. Kompakt satır içi koleksiyonlar için `yaml:flow` kullanın.
+- JSON metnini tırnaklı bir dize yerine yapılandırılmış veri olarak serileştirmek için önce `parse_json` kullanın.
+
+### `yaml_property`
+
+Diziler ve nesneler için girinti dahil, adlandırılmış bir YAML özelliğini biçimlendirir. Dizeler ve tipli değerler `yaml` ile aynı kuralları izler.
+
+- `"42.567"|round:2|yaml_property:"price"` ifadesi `price: 42.57` döndürür.

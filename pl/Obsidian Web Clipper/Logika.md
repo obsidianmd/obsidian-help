@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Używaj instrukcji warunkowych, pętli i przypisywania zmiennych w szablonach Web Clipper.'
 ---
-[[Wprowadzenie do Obsidian Web Clipper|Web Clipper]] obsługuje logikę szablonów dla instrukcji warunkowych, pętli i przypisywania zmiennych. Składnia ta jest inspirowana językami szablonów [Twig](https://twig.symfony.com/) i [Liquid](https://shopify.github.io/liquid/).
+[[Wprowadzenie do Obsidian Web Clipper|Web Clipper]] obsługuje logikę szablonów dla instrukcji warunkowych, pętli i przypisywania zmiennych. Składnia ta nazywa się [Knap](https://github.com/obsidianmd/knap).
 
 ## Instrukcje warunkowe
 
@@ -61,6 +61,12 @@ Przykłady:
 - `{% if draft or archived %}` — dowolny warunek
 - `{% if not hidden %}` — negacja
 - `{% if (premium or featured) and published %}` — zgrupowane warunki
+
+Każda strona operatora logicznego musi być kompletnym wyrażeniem. Na przykład, aby sprawdzić, czy ciąg zawiera jedną z kilku wartości:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Prawdziwość
 

@@ -105,7 +105,7 @@ Premenné Schema umožňujú extrahovať údaje zo [schema.org](https://schema.o
 
 - `{{schema:@Type:key}}` vráti hodnotu kľúča zo schémy.
 - `{{schema:@Type:parent.child}}` vráti hodnotu vnorenej vlastnosti.
-- `{{schema:@Type:arrayKey}}` vráti prvú položku v poli.
+- `{{schema:@Type:arrayKey}}` vráti celé pole. Použite `{{schema:@Type:arrayKey[0]}}` na vrátenie jeho prvej položky.
 - `{{schema:@Type:arrayKey[index].property}}` vráti položku na zadanom indexe v poli.
 - `{{schema:@Type:arrayKey[*].property}}` vráti konkrétnu vlastnosť zo všetkých položiek v poli.
 

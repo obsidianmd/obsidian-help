@@ -52,6 +52,19 @@ Avkodar en URI-kodad sträng, t.ex. `"%E4%BD%A0%E5%A5%BD"|decode_uri` returnerar
 - `"hello%20world"|decode_uri` returnerar `"hello world"`.
 - Returnerar originalsträngen om avkodningen misslyckas (t.ex. felaktiga URI-sekvenser).
 
+### `encode_uri`
+
+Kodar text för användning i en URL, inklusive reserverade tecken som `/`, `?` och `&`.
+
+- `"hello world/page"|encode_uri` returnerar `hello%20world%2Fpage`.
+
+### `indent`
+
+Gör indrag på varje icke-tom rad med mellanslag. Standard är två mellanslag.
+
+- `indent:4` gör indrag på varje rad med fyra mellanslag.
+- `indent:0` lämnar texten oförändrad.
+
 ### `kebab`
 
 Konverterar text till `kebab-case`.
@@ -102,6 +115,21 @@ Tar bort blanksteg från båda ändar av en sträng.
 
 - `"  hello world  "|trim` returnerar `"hello world"`.
 
+### `truncate`
+
+Förkortar text till ett antal tecken och avslutar med `…`. Suffixet räknas mot gränsen.
+
+- `"A concise introduction"|truncate:10` returnerar `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` returnerar `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` returnerar `A concise`.
+
+### `truncatewords`
+
+Förkortar text till ett antal ord och lägger till `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` returnerar `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` returnerar `A concise introduction`.
+
 ### `unescape`
 
 Konverterar escapade citattecken och radbrytningssekvenser till bokstavliga tecken.
@@ -128,6 +156,13 @@ Tillämpa [[Grundläggande formateringssyntax]] och [[Avancerad formateringssynt
 
 Lägger till ett Markdown-citatprefix (`> `) på varje rad i indata.
 
+### `bold`
+
+Omsluter text med fetstilsmarkörer.
+
+- `"Important"|bold` returnerar `**Important**`.
+- `"Important"|bold:_` returnerar `__Important__`.
+
 ### `callout`
 
 Skapar en [[Notiser|notis]] med valfria parametrar: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Skapar en [[Notiser|notis]] med valfria parametrar: `{{variable|callout:("type",
 - `type` är notistypen och är som standard "info"
 - `title` är notisens titel och är som standard tom
 - `foldState` är ett booleskt värde för att ange vikningsläge (true för invikt, false för expanderad, null för ej vikbar)
+
+### `code`
+
+Formaterar text som inline-kod. Flerradig text, eller en språkparameter, skapar istället ett kodomslutningsblock.
+
+- `"const answer = 42"|code` returnerar `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` returnerar ett kodblock markerat som `typescript`.
+
+### `code_block`
+
+Skapar alltid ett kodomslutningsblock, med ett valfritt språk, t.ex. `code_block:"typescript"`.
+
+### `comment`
+
+Omsluter text med [[Grundläggande formateringssyntax#Kommentarer|kommentar]]-markörer.
+
+- `"Hidden note"|comment` returnerar `%%Hidden note%%`.
+
+### `embed`
+
+Konverterar strängar, arrayer eller objekt till [[Bädda in filer|inbäddningar]].
+
+- För strängar: `"diagram.png"|embed` returnerar `![[diagram.png]]`.
+- För strängar med alias: `"Project Atlas"|embed:"Preview"` returnerar `![[Project Atlas|Preview]]`.
+- För objekt: `{"one.md": "One", "two.md": "Two"}|embed` returnerar inbäddningar med nycklarna som filer och värdena som alias.
+
+### `escape_md`
+
+Lägger till ett omvänt snedstreck före Markdown-skiljetecken så att de visas som oformaterad text.
+
+- `"# Draft *title*"|escape_md` returnerar `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Konverterar strängar och arrayer till [textfragment](https://developer.mozilla.
 - `highlights|fragment_link` returnerar `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` returnerar `Highlight content [custom title](text-fragment-url)`
 
+### `h1` till `h6`
+
+Omvandlar varje icke-tom rad till en rubrik på den nivån.
+
+- `"Introduction"|h2` returnerar `## Introduction`.
+
+### `hard_break`
+
+Lägger till två mellanslag före varje enkel radbrytning, så att radbrytningarna visas i läsvyn. Tomma rader mellan stycken bevaras som de är.
+
+### `highlight`
+
+Omsluter text med markeringsmarkörer.
+
+- `"Remember this"|highlight` returnerar `==Remember this==`.
+- Lägg till en [[Grundläggande formateringssyntax#Markeringsfärger|markeringsfärg]] med `red`, `orange`, `yellow`, `green`, `blue` eller `purple`, t.ex. `"Remember this"|highlight:blue` returnerar `==🔵Remember this==`.
+
+### `hr`
+
+Lägger till en horisontell linje (`---`) efter texten, separerad med en tom rad.
+
+- `"Section end"|hr` lägger till linjen efter texten.
+- `hr:before` lägger till den före texten, och `hr:both` lägger till den på båda sidor.
+
 ### `image`
 
 Konverterar strängar, arrayer eller objekt till Markdown-bildsyntax.
@@ -157,6 +247,13 @@ Konverterar strängar, arrayer eller objekt till Markdown-bildsyntax.
 - För strängar: `"image.jpg"|image:"alt text"` returnerar `![alt text](image.jpg)`.
 - För arrayer: `["image1.jpg","image2.jpg"]|image:"alt text"` returnerar en array med Markdown-bildsträngar med samma alt-text för alla bilder.
 - För objekt: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerar Markdown-bildsträngar med alt-text från objektnycklarna.
+
+### `italic`
+
+Omsluter text med kursivmarkörer.
+
+- `"Emphasized"|italic` returnerar `*Emphasized*`.
+- `"Emphasized"|italic:_` returnerar `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Konverterar en array till en Markdown-lista.
 - `list:numbered` för att konvertera till en numrerad lista.
 - `list:numbered-task` för att konvertera till en att göra-lista med nummer.
 
+### `math`
+
+Formaterar text som inline [[Avancerad formateringssyntax#Matematik|matematik]]. Flerradig text blir ett matematikblock.
+
+- `"x^2 + y^2"|math` returnerar `$x^2 + y^2$`.
+
+### `math_block`
+
+Skapar alltid ett matematikblock, med `$$` på raderna före och efter texten.
+
+### `strike`
+
+Omsluter text med genomstrykningsmarkörer.
+
+- `"Removed"|strike` returnerar `~~Removed~~`.
+
 ### `table`
 
 Konverterar en array eller array av objekt till en [[Avancerad formateringssyntax#Tabeller|Markdown-tabell]]:
@@ -183,6 +296,10 @@ Konverterar en array eller array av objekt till en [[Avancerad formateringssynta
 - För en array av arrayer skapas en tabell med varje kapslad array som en rad.
 - För en enkel array skapas en tabell med en kolumn med "Value" som rubrik.
 - Anpassade kolumnrubriker kan anges med: `table:("Column 1", "Column 2", "Column 3")`. Vid användning med en enkel array delas data automatiskt upp i rader baserat på antalet angivna kolumner.
+
+### `table_pretty`
+
+Fungerar som [[Filter#`table`|table]] och fyller ut kolumnerna till lika bredd så att tabellen ser jämn ut i källkodsläge.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Konverterar strängar, arrayer eller objekt till Obsidians [[Länka anteckningar
 
 ## Nummer
 
+`calc`, `round` och `length` returnerar nummer och bevarar sin typ i efterföljande filter och variabeltilldelningar. `number_format` returnerar text.
+
 ### `calc`
 
 Utför grundläggande aritmetiska operationer på nummer.
@@ -203,7 +322,7 @@ Utför grundläggande aritmetiska operationer på nummer.
 - Stödjer operatorer: `+`, `-`, `*`, `/`, `**` (eller `^`) för exponentiering.
 - Exempel: `5|calc:"+10"` returnerar `15`.
 - Exempel: `2|calc:"**3"` returnerar `8` (2 upphöjt till 3).
-- Returnerar originalsträngen om indata inte är ett nummer.
+- Returnerar originalindata om den är tom, inte är ett nummer, eller om beräkningen ger ett icke-ändligt resultat.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Returnerar längden på strängar, arrayer eller antalet nycklar i objekt.
 
 - För strängar: `"hello"|length` returnerar `5`.
 - För arrayer: `["a","b","c"]|length` returnerar `3`.
+- En array med ett element räknas fortfarande som ett: `[42]|length` returnerar `1`.
 - För objekt: `{"a":1,"b":2}|length` returnerar `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Avrundar ett nummer till närmaste heltal eller till ett angivet antal decimaler
 
 - Utan parametrar: `3.7|round` returnerar `4`.
 - Med angivna decimaler: `3.14159|round:2` returnerar `3.14`.
+- Arrayer och objekt behåller sin struktur, med numeriska värden avrundade rekursivt. Numeriska strängar blir nummer, t.ex. `["1.234","2.345"]|round:2` returnerar `[1.23,2.35]`.
+- Ogiltig indata som `"42abc"` bevaras istället för att konverteras till ett nummer.
 
 ## HTML-bearbetning
 
@@ -246,7 +368,7 @@ Konverterar en sträng till en [[Obsidian Flavored Markdown]]-formaterad sträng
 
 Tar bort endast de angivna HTML-attributen från taggar.
 
-- Exempel: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returnerar `<div id="example">Content</div>`.
+- Exempel: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` returnerar `<div id="example">Content</div>`.
 - Flera attribut: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Ersätter HTML-taggar men behåller taggens innehåll och attribut.
 Tar bort **alla** HTML-attribut från en sträng.
 
 - Använd `strip_attr:("class, id")` för att behålla specifika attribut.
-- Exempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerar `<div class="test">Content</div>`.
+- Exempel: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` returnerar `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Tar bort **all** Markdown-formatering och returnerar en oformaterad textsträng,
 
 - Omvandlar formaterad text till oformaterad text, inklusive fet, kursiv, markeringar, rubriker, kod, blockcitat, tabeller, att göra-listor och wikilänkar.
 - Tar helt bort tabeller, fotnoter, bilder och HTML-element.
+- `stripmd` är ett alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Tar bort **alla** HTML-taggar från en sträng. Innehåll inom taggen bevaras.
 
 Bearbeta arrayer och objekt.
 
+### `compact`
+
+Tar bort `null`-värden och tomma strängar från arrayer och objekt. Behåller `0` och `false`.
+
+- `[null,"","one",0,false,"two"]|compact` returnerar `["one",0,false,"two"]`.
+
 ### `first`
 
-Returnerar det första elementet i en array som en sträng.
+Returnerar det första elementet i en array och bevarar dess typ. Objekt och kapslade arrayer visas som JSON.
 
 - `["a","b","c"]|first` returnerar `"a"`.
+- En tom array returnerar `null`, som visas som tom text.
 - Om indata inte är en array returneras indata oförändrat.
 
 ### `join`
@@ -311,9 +441,10 @@ Kombinerar elementen i en array till en sträng.
 
 ### `last`
 
-Returnerar det sista elementet i en array som en sträng.
+Returnerar det sista elementet i en array och bevarar dess typ. Objekt och kapslade arrayer visas som JSON.
 
 - `["a","b","c"]|last` returnerar `"c"`.
+- En tom array returnerar `null`, som visas som tom text.
 - Om indata inte är en array returneras indata oförändrat.
 
 ### `map`
@@ -346,6 +477,8 @@ Behåller var n:te element i en array med CSS-liknande nth-child-syntax och grup
 - `array|nth:3n` behåller var 3:e element (3, 6, 9, etc.).
 - `array|nth:n+3` behåller det 3:e och alla följande element.
 
+Resultatet förblir en array för efterföljande samlingsfilter. Om den innehåller ett enstaka primitivt värde visas det värdet utan arrayparenteser och skickas direkt till textfilter, t.ex. `[1,2]|nth:2` visar `2`.
+
 Gruppmönstersyntax för upprepande strukturer:
 
 - `array|nth:1,2,3:5` behåller positionerna 1, 2, 3 från varje grupp om 5 element. Exempel: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returnerar `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipulerar objektdata:
 - `object:keys` returnerar en array med objektets nycklar.
 - `object:values` returnerar en array med objektets värden.
 - Exempel: `{"a":1,"b":2}|object:array` returnerar `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Tolkar JSON-text till ett typat värde. Använd detta före samlingsfilter eller YAML-serialisering när en variabel innehåller JSON-text, t.ex. `'[1,2]'|parse_json|yaml:flow` returnerar `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Extraherar en del av en sträng eller array.
 - Den andra parametern är exklusiv: `"hello"|slice:1,4` inkluderar tecknen vid index 1, 2 och 3.
 - Att använda en negativ andra parameter exkluderar element från slutet: `"hello"|slice:0,-2` returnerar `"hel"`.
 
+### `sort`
+
+Sorterar en array i stigande ordning. Nummer sorteras efter värde.
+
+- `[10,2,1]|sort` returnerar `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` returnerar `["c","b","a"]`.
+- För arrayer av objekt, ange en egenskap: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` returnerar `[{"name":"Ada"},{"name":"Lin"}]`. Använd `sort:("name", "desc")` för att vända ordningen. Element utan egenskapen hamnar sist.
+
 ### `split`
 
 Delar upp en sträng i en array av delsträngar.
@@ -384,7 +529,14 @@ Delar upp en sträng i en array av delsträngar.
 - `"a,b,c"|split:","` returnerar `["a","b","c"]`.
 - `"hello world"|split:" "` returnerar `["hello","world"]`.
 - Om ingen separator anges delas på varje tecken: `"hello"|split` returnerar `["h","e","l","l","o"]`.
-- Reguljära uttryck kan användas som separator: `"a1b2c3"|split:[0-9]` returnerar `["a","b","c"]`.
+- Reguljära uttryck kan användas som separator: `"a1b2c3"|split:[0-9]` returnerar `["a","b","c",""]`. Det sista elementet är tomt eftersom strängen slutar med en separator.
+
+### `sum`
+
+Adderar numren i en array. Text som inte är ett nummer hoppas över, och en tom array returnerar `0`.
+
+- `[10,"2.5","","none"]|sum` returnerar `12.5`.
+- För arrayer av objekt, ange en egenskap: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` returnerar `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Tar bort dublettvärden från arrayer och objekt.
 - För arrayer med objekt: `[{"a":1},{"b":2},{"a":1}]|unique` returnerar `[{"a":1},{"b":2}]`.
 - För objekt tar den bort egenskaper med dublettvärden och behåller den senaste förekomstens nyckel.
 - För strängar returneras indata oförändrat.
+
+### `where`
+
+Behåller de arrayelement vars egenskap matchar ett värde. Typen måste också matcha, så numret `1` matchar inte texten `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` returnerar `[{"title":"One","published":true}]`.
+- Använd en punktad sökväg för kapslade egenskaper, t.ex. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formaterar ett värde som YAML. Strängar citeras alltid, inklusive strängar som `"null"`, `"true"` och `"123"`. Faktiska null-värden, booleska värden och nummer förblir ociterade.
+
+- Arrayer och objekt använder blockstil som standard. Använd `yaml:flow` för kompakta inline-samlingar.
+- Använd `parse_json` först för att serialisera JSON-text som strukturerad data istället för en citerad sträng.
+
+### `yaml_property`
+
+Formaterar en namngiven YAML-egenskap, inklusive indrag för arrayer och objekt. Strängar och typade värden följer samma regler som `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` returnerar `price: 42.57`.

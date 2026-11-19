@@ -10,7 +10,7 @@ Om een sjabloon **aan te maken**, ga je naar de Web Clipper-instellingen en klik
 
 Om een sjabloon te **bewerken**, kies je een sjabloon uit de zijbalk. Je wijzigingen worden automatisch opgeslagen.
 
-Sjablonen maken gebruik van [[Variabelen]] en [[Filters]], waarmee je kunt aanpassen hoe inhoud wordt opgeslagen.
+Sjablonen maken gebruik van [[Variabelen]], [[Filters]] en [[Logica]], waarmee je kunt aanpassen hoe inhoud wordt opgeslagen.
 
 ## Web Clipper-sjablonen importeren en exporteren
 

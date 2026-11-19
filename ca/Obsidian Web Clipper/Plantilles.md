@@ -10,7 +10,7 @@ Per **crear** una plantilla, aneu a la configuració del Web Clipper i feu clic 
 
 Per **editar** una plantilla, escolliu una plantilla de la barra lateral. Els vostres canvis es desaran automàticament.
 
-Les plantilles fan ús de [[Variables]] i [[Filtres]], que us permeten personalitzar com es desarà el contingut.
+Les plantilles fan ús de [[Variables]], [[Filtres]] i [[Lògica]], que us permeten personalitzar com es desarà el contingut.
 
 ## Importar i exportar plantilles del Web Clipper
 

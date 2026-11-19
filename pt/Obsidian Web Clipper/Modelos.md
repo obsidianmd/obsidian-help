@@ -10,7 +10,7 @@ Para **criar** um modelo, aceda às definições do Web Clipper e clique no bot�
 
 Para **editar** um modelo, escolha um modelo na barra lateral. As suas alterações serão guardadas automaticamente.
 
-Os modelos utilizam [[Variáveis]] e [[Filtros]], que permitem personalizar como o conteúdo será guardado.
+Os modelos utilizam [[Variáveis]], [[Filtros]] e [[Lógica]], que permitem personalizar como o conteúdo será guardado.
 
 ## Importar e exportar modelos do Web Clipper
 

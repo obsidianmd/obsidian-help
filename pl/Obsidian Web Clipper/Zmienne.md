@@ -105,7 +105,7 @@ Zmienne schema pozwalają wyodrębniać dane z [schema.org](https://schema.org/)
 
 - `{{schema:@Typ:klucz}}` zwraca wartość klucza ze schematu.
 - `{{schema:@Typ:rodzic.dziecko}}` zwraca wartość zagnieżdżonej właściwości.
-- `{{schema:@Typ:kluczTablicy}}` zwraca pierwszy element tablicy.
+- `{{schema:@Typ:kluczTablicy}}` zwraca całą tablicę. Użyj `{{schema:@Typ:kluczTablicy[0]}}`, aby zwrócić jej pierwszy element.
 - `{{schema:@Typ:kluczTablicy[indeks].właściwość}}` zwraca element o określonym indeksie w tablicy.
 - `{{schema:@Typ:kluczTablicy[*].właściwość}}` zwraca konkretną właściwość ze wszystkich elementów tablicy.
 

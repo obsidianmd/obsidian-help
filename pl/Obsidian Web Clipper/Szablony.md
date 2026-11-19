@@ -10,7 +10,7 @@ Aby **stworzyć** szablon, przejdź do ustawień Web Clipper i kliknij przycisk 
 
 Aby **edytować** szablon, wybierz szablon z panelu bocznego. Twoje zmiany zostaną zapisane automatycznie.
 
-Szablony wykorzystują [[Zmienne]] i [[Filtry]], które pozwalają dostosować sposób zapisywania treści.
+Szablony wykorzystują [[Zmienne]], [[Filtry]] i [[Logika|Logikę]], które pozwalają dostosować sposób zapisywania treści.
 
 ## Importowanie i eksportowanie szablonów Web Clipper
 

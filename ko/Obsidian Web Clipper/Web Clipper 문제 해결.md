@@ -55,6 +55,20 @@ Sway를 사용하는 경우:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+포커스 규칙이 도움이 되지 않는 경우, 네이티브 Wayland 대신 XWayland에서 Obsidian을 실행한 다음 Obsidian을 완전히 다시 시작해 보세요.
+
+Flatpak을 사용하는 경우:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+이를 되돌리려면 `flatpak override --user --reset md.obsidian.Obsidian`을 실행하세요. 이 명령은 Obsidian에 설정한 모든 오버라이드를 초기화해요.
+
+다른 설치 방법의 경우, `--ozone-platform=x11` 플래그를 사용하여 Obsidian을 실행하세요.
+
+기타 시도할 수 있는 방법:
+
 - Flatpak을 사용하는 경우 [공식 지원 Obsidian 버전](https://obsidian.md/ko/download)을 사용해 보세요.
 - KDE를 사용하는 경우 **시스템 설정** → **창 관리** → **창 규칙**으로 이동하여 Obsidian이 포커스를 가져올 수 있도록 허용하세요. [[web-clipper-kde.png|스크린샷 보기]].
 - 대안으로, **Web Clipper 설정** → **일반**에서 **레거시 모드**로 전환해 보세요. 이렇게 하면 클립보드를 우회하고 URI를 통해 콘텐츠를 직접 저장해요. 단, 브라우저와 Linux 배포판에 따라 클리핑할 수 있는 문자 수가 제한될 수 있어요.

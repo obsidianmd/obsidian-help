@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Používajte podmienky, cykly a priradenie premenných v šablónach Web Clippera.'
 ---
-[[Úvod do Obsidian Web Clipper|Web Clipper]] podporuje šablónovú logiku pre podmienky, cykly a priradenie premenných. Táto syntax je inšpirovaná šablónovacími jazykmi [Twig](https://twig.symfony.com/) a [Liquid](https://shopify.github.io/liquid/).
+[[Úvod do Obsidian Web Clipper|Web Clipper]] podporuje šablónovú logiku pre podmienky, cykly a priradenie premenných. Táto syntax sa nazýva [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Podmienky
@@ -62,6 +62,12 @@ Príklady:
 - `{% if draft or archived %}` — ktorákoľvek podmienka
 - `{% if not hidden %}` — negácia
 - `{% if (premium or featured) and published %}` — zoskupené podmienky
+
+Každá strana logického operátora musí byť úplný výraz. Napríklad, na kontrolu, či reťazec obsahuje jednu z viacerých hodnôt:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Pravdivosť
 

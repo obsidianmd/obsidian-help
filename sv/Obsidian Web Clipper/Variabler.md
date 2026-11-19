@@ -105,7 +105,7 @@ Schemavariabler låter dig extrahera data från [schema.org](https://schema.org/
 
 - `{{schema:@Type:key}}` returnerar värdet för nyckeln från schemat.
 - `{{schema:@Type:parent.child}}` returnerar värdet för en nästlad egenskap.
-- `{{schema:@Type:arrayKey}}` returnerar det första objektet i en array.
+- `{{schema:@Type:arrayKey}}` returnerar hela arrayen. Använd `{{schema:@Type:arrayKey[0]}}` för att returnera dess första objekt.
 - `{{schema:@Type:arrayKey[index].property}}` returnerar objektet vid det angivna indexet i en array.
 - `{{schema:@Type:arrayKey[*].property}}` returnerar en specifik egenskap från alla objekt i en array.
 

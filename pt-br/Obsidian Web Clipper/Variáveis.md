@@ -105,7 +105,7 @@ As variáveis schema permitem extrair dados de [schema.org](https://schema.org/)
 
 - `{{schema:@Tipo:chave}}` retorna o valor da chave do schema.
 - `{{schema:@Tipo:pai.filho}}` retorna o valor de uma propriedade aninhada.
-- `{{schema:@Tipo:chaveArray}}` retorna o primeiro item de um array.
+- `{{schema:@Tipo:chaveArray}}` retorna o array completo. Use `{{schema:@Tipo:chaveArray[0]}}` para retornar seu primeiro item.
 - `{{schema:@Tipo:chaveArray[índice].propriedade}}` retorna o item no índice especificado de um array.
 - `{{schema:@Tipo:chaveArray[*].propriedade}}` retorna uma propriedade específica de todos os itens de um array.
 

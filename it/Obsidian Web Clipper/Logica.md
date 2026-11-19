@@ -4,7 +4,7 @@ description: 'Usa condizionali, cicli e assegnazione di variabili nei modelli di
 aliases:
   - Logic
 ---
-[[Introduzione a Obsidian Web Clipper|Web Clipper]] supporta la logica dei modelli per condizionali, cicli e assegnazione di variabili. Questa sintassi è ispirata ai linguaggi di templating [Twig](https://twig.symfony.com/) e [Liquid](https://shopify.github.io/liquid/).
+[[Introduzione a Obsidian Web Clipper|Web Clipper]] supporta la logica dei modelli per condizionali, cicli e assegnazione di variabili. Questa sintassi è chiamata [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Condizionali
@@ -64,6 +64,12 @@ Esempi:
 - `{% if draft or archived %}` — una delle due condizioni
 - `{% if not hidden %}` — negazione
 - `{% if (premium or featured) and published %}` — condizioni raggruppate
+
+Ogni lato di un operatore logico deve essere un'espressione completa. Ad esempio, per verificare se una stringa contiene uno tra diversi valori:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Veridicità
 

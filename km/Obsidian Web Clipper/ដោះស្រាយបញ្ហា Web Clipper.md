@@ -55,6 +55,20 @@ misc {
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+បើច្បាប់ការផ្តោតមិនជួយទេ សូមសាកល្បងដំណើរការ Obsidian នៅក្រោម XWayland ជំនួសឱ្យ Wayland ដើម រួចចាប់ផ្តើម Obsidian ឡើងវិញទាំងស្រុង។
+
+បើអ្នកប្រើ Flatpak៖
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+ដើម្បីមិនធ្វើវិញ សូមដំណើរការ `flatpak override --user --reset md.obsidian.Obsidian`។ សូមកត់សម្គាល់ថានេះនឹងកំណត់ការបដិសេធទាំងអស់ដែលអ្នកបានកំណត់សម្រាប់ Obsidian ឡើងវិញ។
+
+សម្រាប់វិធីដំឡើងផ្សេងទៀត សូមបើក Obsidian ជាមួយ flag `--ozone-platform=x11`។
+
+រឿងផ្សេងទៀតដែលត្រូវសាកល្បង៖
+
 - បើអ្នកប្រើ Flatpak សូមពិចារណាសាកល្បង [កំណែ Obsidian ដែលត្រូវបានគាំទ្រជាផ្លូវការ](https://obsidian.md/download)។
 - បើអ្នកប្រើ KDE សូមចូលទៅ **System Settings** → **Window Management** → **Window Rules** ហើយអនុញ្ញាតឱ្យ Obsidian ទទួលការផ្តោត [[web-clipper-kde.png|មើលរូបថតអេក្រង់]]។
 - ជាជម្រើសចុងក្រោយ សូមសាកល្បងប្តូរទៅ **Legacy mode** នៅក្នុង **Web Clipper Settings** → **General**។ វានឹងរំលង clipboard ហើយរក្សាទុកមាតិកាដោយផ្ទាល់តាមរយៈ URI។ សូមកត់សម្គាល់ថានេះនឹងកំណត់ចំនួនតួអក្សរដែលអាចចាប់យកបានអាស្រ័យលើកម្មវិធីរុករក និងការចែកចាយ Linux របស់អ្នក។

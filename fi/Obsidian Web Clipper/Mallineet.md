@@ -10,7 +10,7 @@ description: 'Opi luomaan mallipohjia, jotka tallentavat ja järjestävät verkk
 
 **Muokkaa** mallia valitsemalla se sivupalkista. Muutoksesi tallennetaan automaattisesti.
 
-Mallit hyödyntävät [[Muuttujat|muuttujia]] ja [[Suodattimet|suodattimia]], joiden avulla voit räätälöidä sisällön tallennustapaa.
+Mallit hyödyntävät [[Muuttujat|muuttujia]], [[Suodattimet|suodattimia]] ja [[Logiikka|logiikkaa]], joiden avulla voit räätälöidä sisällön tallennustapaa.
 
 ## Web Clipper -mallien tuonti ja vienti
 

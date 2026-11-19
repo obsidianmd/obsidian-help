@@ -105,7 +105,7 @@ Variabel schema memungkinkan Anda mengekstrak data dari [schema.org](https://sch
 
 - `{{schema:@Type:key}}` mengembalikan nilai key dari schema.
 - `{{schema:@Type:parent.child}}` mengembalikan nilai properti bertingkat.
-- `{{schema:@Type:arrayKey}}` mengembalikan item pertama dalam array.
+- `{{schema:@Type:arrayKey}}` mengembalikan seluruh array. Gunakan `{{schema:@Type:arrayKey[0]}}` untuk mengembalikan item pertamanya.
 - `{{schema:@Type:arrayKey[index].property}}` mengembalikan item pada indeks tertentu dalam array.
 - `{{schema:@Type:arrayKey[*].property}}` mengembalikan properti tertentu dari semua item dalam array.
 

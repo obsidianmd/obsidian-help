@@ -12,7 +12,7 @@ Pentru a **crea** un șablon, mergi la setările Web Clipper și dă clic pe but
 
 Pentru a **edita** un șablon, alege un șablon din bara laterală. Modificările tale vor fi salvate automat.
 
-Șabloanele folosesc [[Variabile|variabile]] și [[Filtre|filtre]], care îți permit să adaptezi modul în care va fi salvat conținutul.
+Șabloanele folosesc [[Variabile|variabile]], [[Filtre|filtre]] și [[Logică|logică]], care îți permit să adaptezi modul în care va fi salvat conținutul.
 
 ## Importă și exportă șabloane Web Clipper
 
@@ -59,12 +59,12 @@ Poți declanșa șabloane pe baza unor modele de URL mai complexe folosind expre
 
 Poți declanșa șabloane pe baza datelor [schema.org](https://schema.org/) prezente pe pagină. Folosește prefixul `schema:` urmat de cheia de schemă pe care vrei să o potrivești. Poți specifica opțional o valoare așteptată. De exemplu:
 
-- `schema:@Recipe` se va potrivi cu paginile unde tipul de schemă este „Recipe”.
+- `schema:@Recipe` se va potrivi cu paginile unde tipul de schemă este „Recipe".
 - `schema:@Recipe.name` se va potrivi cu paginile unde `@Recipe.name` este prezent.
-- `schema:@Recipe.name=Cookie` se va potrivi cu paginile unde `@Recipe.name` este „Cookie”.
+- `schema:@Recipe.name=Cookie` se va potrivi cu paginile unde `@Recipe.name` este „Cookie".
 
 Valorile schema.org pot fi de asemenea folosite pentru a [[Variabile#Schema.org variables|popula automat date în șabloane]].
 
 ### Contextul Interpreter
 
-Când [[Interpretor|Interpreter]] este activat, poți folosi [[Variabile#Prompt variables|variabile prompt]] pentru a extrage conținutul paginii folosind limbaj natural. Pentru fiecare șablon poți defini [[Interpretor#Context|contextul]] la care Interpreter are acces. 
+Când [[Interpretor|Interpreter]] este activat, poți folosi [[Variabile#Prompt variables|variabile prompt]] pentru a extrage conținutul paginii folosind limbaj natural. Pentru fiecare șablon poți defini [[Interpretor#Context|contextul]] la care Interpreter are acces.

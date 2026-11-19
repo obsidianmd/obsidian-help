@@ -55,6 +55,20 @@ Jos käytät Swayta:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Jos kohdistussäännöt eivät auta, kokeile ajaa Obsidiania XWaylandin kautta natiivin Waylandin sijaan ja käynnistä Obsidian kokonaan uudelleen.
+
+Jos käytät Flatpakia:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Tämän voi kumota komennolla `flatpak override --user --reset md.obsidian.Obsidian`. Huomaa, että tämä nollaa kaikki Obsidianille asettamasi ohitukset.
+
+Muilla asennustavoilla käynnistä Obsidian `--ozone-platform=x11`-lipulla.
+
+Muita kokeiltavia asioita:
+
 - Jos käytät Flatpakia, kokeile [virallisesti tuettua Obsidian-versiota](https://obsidian.md/download).
 - Jos käytät KDE:tä, siirry kohtaan **Järjestelmäasetukset** → **Ikkunoiden hallinta** → **Ikkunasäännöt** ja salli Obsidianin ottaa kohdistus, [[web-clipper-kde.png|katso kuvakaappaus]].
 - Varavaihtoehtona kokeile vaihtaa **Yhteensopivuustilaan** kohdassa **Web Clipper -asetukset** → **Yleiset**. Tämä ohittaa leikepöydän ja tallentaa sisällön suoraan URI:n kautta. Huomaa, että tämä rajoittaa leikattavien merkkien määrää selaimesi ja Linux-jakelusi mukaan.

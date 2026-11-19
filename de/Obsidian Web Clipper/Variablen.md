@@ -105,7 +105,7 @@ Schema-Variablen ermöglichen es, Daten aus [schema.org](https://schema.org/) JS
 
 - `{{schema:@Type:key}}` gibt den Wert des Schlüssels aus dem Schema zurück.
 - `{{schema:@Type:parent.child}}` gibt den Wert einer verschachtelten Eigenschaft zurück.
-- `{{schema:@Type:arrayKey}}` gibt das erste Element in einem Array zurück.
+- `{{schema:@Type:arrayKey}}` gibt das gesamte Array zurück. Verwende `{{schema:@Type:arrayKey[0]}}`, um das erste Element zurückzugeben.
 - `{{schema:@Type:arrayKey[index].property}}` gibt das Element am angegebenen Index in einem Array zurück.
 - `{{schema:@Type:arrayKey[*].property}}` gibt eine bestimmte Eigenschaft aller Elemente in einem Array zurück.
 

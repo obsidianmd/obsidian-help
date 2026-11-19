@@ -55,6 +55,20 @@ Ha Sway-t használsz:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Ha a fókuszszabályok nem segítenek, próbáld meg az Obsidiant XWayland alatt futtatni a natív Wayland helyett, majd teljesen indítsd újra az Obsidiant.
+
+Ha Flatpakot használsz:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Ennek visszavonásához futtasd a `flatpak override --user --reset md.obsidian.Obsidian` parancsot. Vedd figyelembe, hogy ez visszaállítja az Obsidianhez beállított összes felülírást.
+
+Egyéb telepítési módoknál indítsd az Obsidiant az `--ozone-platform=x11` kapcsolóval.
+
+Egyéb kipróbálható megoldások:
+
 - Ha Flatpakot használsz, próbáld ki az [hivatalosan támogatott Obsidian verziót](https://obsidian.md/download).
 - Ha KDE-t használsz, lépj a **Rendszerbeállítások** → **Ablakkezelés** → **Ablakszabályok** menüpontra, és engedélyezd az Obsidiannek a fókusz átvételét, [[web-clipper-kde.png|lásd a képernyőképet]].
 - Végső megoldásként próbálj váltani az **Örökölt módra** a **Web Clipper beállítások** → **Általános** menüpontban. Ez megkerüli a vágólapot, és közvetlenül URI-n keresztül menti a tartalmat. Vedd figyelembe, hogy ez korlátozza a kivágható karakterek számát a böngésződtől és a Linux disztribúciódtól függően.

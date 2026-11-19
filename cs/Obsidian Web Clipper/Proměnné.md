@@ -105,7 +105,7 @@ Schema proměnné umožňují extrahovat data z [schema.org](https://schema.org/
 
 - `{{schema:@Type:key}}` vrací hodnotu klíče ze schématu.
 - `{{schema:@Type:parent.child}}` vrací hodnotu vnořené vlastnosti.
-- `{{schema:@Type:arrayKey}}` vrací první položku v poli.
+- `{{schema:@Type:arrayKey}}` vrací celé pole. Použijte `{{schema:@Type:arrayKey[0]}}` pro vrácení jeho první položky.
 - `{{schema:@Type:arrayKey[index].property}}` vrací položku na zadaném indexu v poli.
 - `{{schema:@Type:arrayKey[*].property}}` vrací konkrétní vlastnost ze všech položek v poli.
 

@@ -10,7 +10,7 @@ Um eine Vorlage zu **erstellen**, gehe zu den Web Clipper-Einstellungen und klic
 
 Um eine Vorlage zu **bearbeiten**, wähle eine Vorlage aus der Seitenleiste. Deine Änderungen werden automatisch gespeichert.
 
-Vorlagen verwenden [[Variablen]] und [[Filter]], mit denen du anpassen kannst, wie Inhalte gespeichert werden.
+Vorlagen verwenden [[Variablen]], [[Filter]] und [[Logik]], mit denen du anpassen kannst, wie Inhalte gespeichert werden.
 
 ## Web Clipper-Vorlagen importieren und exportieren
 

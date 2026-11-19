@@ -10,7 +10,7 @@ Untuk **membuat** templat, buka pengaturan Web Clipper dan klik tombol **Templat
 
 Untuk **mengubah** templat, pilih templat dari bilah samping. Perubahan Anda akan disimpan secara otomatis.
 
-Templat menggunakan [[Variabel]] dan [[Filter]], yang memungkinkan Anda menyesuaikan bagaimana konten akan disimpan.
+Templat menggunakan [[Variabel]], [[Filter]], dan [[Logika]], yang memungkinkan Anda menyesuaikan bagaimana konten akan disimpan.
 
 ## Impor dan ekspor templat Web Clipper
 

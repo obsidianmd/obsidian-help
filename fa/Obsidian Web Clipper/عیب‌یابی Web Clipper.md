@@ -55,6 +55,20 @@ misc {
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+اگر قوانین تمرکز کمکی نکرد، Obsidian را به‌جای Wayland بومی، تحت XWayland اجرا کنید، سپس Obsidian را کاملاً راه‌اندازی مجدد کنید.
+
+اگر از Flatpak استفاده می‌کنید:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+برای بازگردانی این تغییر، دستور `flatpak override --user --reset md.obsidian.Obsidian` را اجرا کنید. توجه داشته باشید که این کار تمام تغییرات (overrides) که برای Obsidian تنظیم کرده‌اید را بازنشانی می‌کند.
+
+برای سایر روش‌های نصب، Obsidian را با فلگ `--ozone-platform=x11` اجرا کنید.
+
+سایر موارد قابل امتحان:
+
 - اگر از Flatpak استفاده می‌کنید، [نسخه رسمی پشتیبانی‌شده Obsidian](https://obsidian.md/download) را امتحان کنید.
 - اگر از KDE استفاده می‌کنید، به **System Settings** → **Window Management** → **Window Rules** بروید و اجازه دهید Obsidian تمرکز را بگیرد، [[web-clipper-kde.png|اسکرین‌شات را ببینید]].
 - به‌عنوان راه‌حل جایگزین، در **تنظیمات Web Clipper** → **عمومی** به **حالت قدیمی** بروید. این کار کلیپ‌بورد را دور می‌زند و محتوا را مستقیماً از طریق URI ذخیره می‌کند. توجه داشته باشید که این کار تعداد کاراکترهایی که بسته به مرورگر و توزیع لینوکس شما قابل ذخیره‌سازی هستند را محدود می‌کند.

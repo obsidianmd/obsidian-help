@@ -52,6 +52,19 @@ Descodifica una cadena codificada com a URI, p. ex. `"%E4%BD%A0%E5%A5%BD"|decode
 - `"hello%20world"|decode_uri` retorna `"hello world"`.
 - Retorna la cadena original si la descodificació falla (p. ex. seqüències URI malformades).
 
+### `encode_uri`
+
+Codifica text per al seu ús en una URL, incloent-hi caràcters reservats com `/`, `?` i `&`.
+
+- `"hello world/page"|encode_uri` retorna `hello%20world%2Fpage`.
+
+### `indent`
+
+Sagna cada línia no buida amb espais. Per defecte utilitza dos espais.
+
+- `indent:4` sagna cada línia amb quatre espais.
+- `indent:0` deixa el text sense canvis.
+
 ### `kebab`
 
 Converteix el text a `kebab-case`.
@@ -102,6 +115,21 @@ Elimina els espais en blanc dels dos extrems d'una cadena.
 
 - `"  hello world  "|trim` retorna `"hello world"`.
 
+### `truncate`
+
+Escurça el text a un nombre de caràcters i l'acaba amb `…`. El sufix compta dins del límit.
+
+- `"A concise introduction"|truncate:10` retorna `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` retorna `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` retorna `A concise`.
+
+### `truncatewords`
+
+Escurça el text a un nombre de paraules i afegeix `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` retorna `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` retorna `A concise introduction`.
+
 ### `unescape`
 
 Converteix cometes escapades i seqüències de salt de línia en caràcters literals.
@@ -128,6 +156,13 @@ Aplica la [[Sintaxi de format bàsic]] i la [[Sintaxi de format avançat]] al te
 
 Afegeix un prefix de cita Markdown (`> `) a cada línia de l'entrada.
 
+### `bold`
+
+Envolta el text amb marcadors de negreta.
+
+- `"Important"|bold` retorna `**Important**`.
+- `"Important"|bold:_` retorna `__Important__`.
+
 ### `callout`
 
 Crea un [[Destacats|bloc destacat]] amb paràmetres opcionals: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Crea un [[Destacats|bloc destacat]] amb paràmetres opcionals: `{{variable|callo
 - `type` és el tipus de bloc destacat, i per defecte és "info"
 - `title` és el títol del bloc destacat, i per defecte és buit
 - `foldState` és un booleà per establir l'estat de plegat (true per plegar, false per desplegar, null per no plegable)
+
+### `code`
+
+Formata el text com a codi en línia. El text multilínia, o un paràmetre de llenguatge, crea un bloc de codi tancat.
+
+- `"const answer = 42"|code` retorna `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` retorna un bloc de codi marcat com a `typescript`.
+
+### `code_block`
+
+Sempre crea un bloc de codi tancat, amb un llenguatge opcional, p. ex. `code_block:"typescript"`.
+
+### `comment`
+
+Envolta el text amb marcadors de [[Sintaxi de format bàsic#Comentaris|comentari]].
+
+- `"Hidden note"|comment` retorna `%%Hidden note%%`.
+
+### `embed`
+
+Converteix cadenes, matrius o objectes en [[Incrustar fitxers|incrustacions]].
+
+- Per a cadenes: `"diagram.png"|embed` retorna `![[diagram.png]]`.
+- Per a cadenes amb àlies: `"Project Atlas"|embed:"Preview"` retorna `![[Project Atlas|Preview]]`.
+- Per a objectes: `{"one.md": "One", "two.md": "Two"}|embed` retorna incrustacions amb les claus com a fitxers i els valors com a àlies.
+
+### `escape_md`
+
+Afegeix una barra invertida davant de la puntuació Markdown perquè es mostri com a text sense format.
+
+- `"# Draft *title*"|escape_md` retorna `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Converteix cadenes i matrius en enllaços de [fragment de text](https://develope
 - `highlights|fragment_link` retorna `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` retorna `Highlight content [custom title](text-fragment-url)`
 
+### `h1` a `h6`
+
+Converteix cada línia no buida en un encapçalament d'aquell nivell.
+
+- `"Introduction"|h2` retorna `## Introduction`.
+
+### `hard_break`
+
+Afegeix dos espais abans de cada salt de línia simple, perquè els salts de línia es mostrin en la vista de lectura. Les línies en blanc entre paràgrafs es mantenen tal com són.
+
+### `highlight`
+
+Envolta el text amb marcadors de ressaltat.
+
+- `"Remember this"|highlight` retorna `==Remember this==`.
+- Afegeix un [[Sintaxi de format bàsic#Colors de ressaltat|color de ressaltat]] amb `red`, `orange`, `yellow`, `green`, `blue` o `purple`, p. ex. `"Remember this"|highlight:blue` retorna `==🔵Remember this==`.
+
+### `hr`
+
+Afegeix una línia horitzontal (`---`) després del text, separada per una línia en blanc.
+
+- `"Section end"|hr` afegeix la línia després del text.
+- `hr:before` l'afegeix abans del text, i `hr:both` l'afegeix a ambdós costats.
+
 ### `image`
 
 Converteix cadenes, matrius o objectes en sintaxi d'imatge Markdown.
@@ -157,6 +247,13 @@ Converteix cadenes, matrius o objectes en sintaxi d'imatge Markdown.
 - Per a cadenes: `"image.jpg"|image:"alt text"` retorna `![alt text](image.jpg)`.
 - Per a matrius: `["image1.jpg","image2.jpg"]|image:"alt text"` retorna una matriu de cadenes d'imatge Markdown amb el mateix text alternatiu per a totes les imatges.
 - Per a objectes: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna cadenes d'imatge Markdown amb el text alternatiu de les claus de l'objecte.
+
+### `italic`
+
+Envolta el text amb marcadors de cursiva.
+
+- `"Emphasized"|italic` retorna `*Emphasized*`.
+- `"Emphasized"|italic:_` retorna `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Converteix una matriu en una llista Markdown.
 - `list:numbered` per convertir a una llista numerada.
 - `list:numbered-task` per convertir a una llista de tasques amb números.
 
+### `math`
+
+Formata el text com a [[Sintaxi de format avançat#Matemàtiques|matemàtiques]] en línia. El text multilínia es converteix en un bloc matemàtic.
+
+- `"x^2 + y^2"|math` retorna `$x^2 + y^2$`.
+
+### `math_block`
+
+Sempre crea un bloc matemàtic, amb `$$` a les línies abans i després del text.
+
+### `strike`
+
+Envolta el text amb marcadors de ratllat.
+
+- `"Removed"|strike` retorna `~~Removed~~`.
+
 ### `table`
 
 Converteix una matriu o matriu d'objectes en una [[Sintaxi de format avançat#Taules|taula Markdown]]:
@@ -183,6 +296,10 @@ Converteix una matriu o matriu d'objectes en una [[Sintaxi de format avançat#Ta
 - Per a una matriu de matrius, crea una taula amb cada matriu imbricada com a fila.
 - Per a una matriu simple, crea una taula d'una sola columna amb "Value" com a capçalera.
 - Es poden especificar capçaleres de columna personalitzades amb: `table:("Columna 1", "Columna 2", "Columna 3")`. Quan s'utilitza amb una matriu simple, divideix automàticament les dades en files segons el nombre de columnes especificades.
+
+### `table_pretty`
+
+Funciona com [[Filtres#`table`|table]], i farceix les columnes a amplades iguals perquè la taula s'alineï en mode de codi font.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Converteix cadenes, matrius o objectes en sintaxi d'[[Enllaçar notes|enllaç wi
 
 ## Números
 
+`calc`, `round` i `length` retornen números, preservant el seu tipus en filtres posteriors i assignacions de variables. `number_format` retorna text.
+
 ### `calc`
 
 Realitza operacions aritmètiques bàsiques amb números.
@@ -203,7 +322,7 @@ Realitza operacions aritmètiques bàsiques amb números.
 - Admet els operadors: `+`, `-`, `*`, `/`, `**` (o `^`) per a l'exponenciació.
 - Exemple: `5|calc:"+10"` retorna `15`.
 - Exemple: `2|calc:"**3"` retorna `8` (2 al cub).
-- Retorna la cadena original si l'entrada no és un número.
+- Retorna l'entrada original si està buida, no és un número o el càlcul produeix un resultat no finit.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Retorna la longitud de cadenes, matrius o el nombre de claus en objectes.
 
 - Per a cadenes: `"hello"|length` retorna `5`.
 - Per a matrius: `["a","b","c"]|length` retorna `3`.
+- Una matriu amb un element encara compta com un: `[42]|length` retorna `1`.
 - Per a objectes: `{"a":1,"b":2}|length` retorna `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Arrodoneix un número a l'enter més proper o a un nombre especificat de decimal
 
 - Sense paràmetres: `3.7|round` retorna `4`.
 - Amb decimals especificats: `3.14159|round:2` retorna `3.14`.
+- Les matrius i objectes conserven la seva estructura, amb els valors numèrics arrodonits recursivament. Les cadenes numèriques es converteixen en números, p. ex. `["1.234","2.345"]|round:2` retorna `[1.23,2.35]`.
+- L'entrada no vàlida com `"42abc"` es conserva en lloc de convertir-se en un número.
 
 ## Processament d'HTML
 
@@ -246,7 +368,7 @@ Converteix una cadena a una cadena formatada en [[Obsidian Flavored Markdown]].
 
 Elimina només els atributs HTML especificats de les etiquetes.
 
-- Exemple: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` retorna `<div id="example">Content</div>`.
+- Exemple: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` retorna `<div id="example">Content</div>`.
 - Atributs múltiples: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Substitueix etiquetes HTML, mantenint el contingut i els atributs de l'etiqueta.
 Elimina **tots** els atributs HTML d'una cadena.
 
 - Utilitza `strip_attr:("class, id")` per conservar atributs específics.
-- Exemple: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div class="test">Content</div>`.
+- Exemple: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` retorna `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Elimina **tot** el format Markdown i retorna una cadena de text sense format, p.
 
 - Converteix text formatat en text sense format, incloent-hi negreta, cursiva, ressaltats, encapçalaments, codi, cites en bloc, taules, llistes de tasques i enllaços wiki.
 - Elimina completament taules, notes a peu de pàgina, imatges i elements HTML.
+- `stripmd` és un àlies.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Elimina **totes** les etiquetes HTML d'una cadena. El contingut dins de l'etique
 
 Processa matrius i objectes.
 
+### `compact`
+
+Elimina valors `null` i cadenes buides de matrius i objectes. Conserva `0` i `false`.
+
+- `[null,"","one",0,false,"two"]|compact` retorna `["one",0,false,"two"]`.
+
 ### `first`
 
-Retorna el primer element d'una matriu com a cadena.
+Retorna el primer element d'una matriu, conservant el seu tipus. Els objectes i matrius imbricades es mostren com a JSON.
 
 - `["a","b","c"]|first` retorna `"a"`.
+- Una matriu buida retorna `null`, que es mostra com a text buit.
 - Si l'entrada no és una matriu, retorna l'entrada sense canvis.
 
 ### `join`
@@ -311,9 +441,10 @@ Combina elements d'una matriu en una cadena.
 
 ### `last`
 
-Retorna l'últim element d'una matriu com a cadena.
+Retorna l'últim element d'una matriu, conservant el seu tipus. Els objectes i matrius imbricades es mostren com a JSON.
 
 - `["a","b","c"]|last` retorna `"c"`.
+- Una matriu buida retorna `null`, que es mostra com a text buit.
 - Si l'entrada no és una matriu, retorna l'entrada sense canvis.
 
 ### `map`
@@ -346,6 +477,8 @@ Conserva els elements n-èssims d'una matriu amb sintaxi d'estil CSS nth-child i
 - `array|nth:3n` conserva cada 3r element (3, 6, 9, etc.).
 - `array|nth:n+3` conserva el 3r element i tots els següents.
 
+El resultat continua sent una matriu per a filtres de col·lecció posteriors. Si conté un únic valor primitiu, aquest valor es mostra sense claudàtors de matriu i es passa directament als filtres de text, p. ex. `[1,2]|nth:2` mostra `2`.
+
 Sintaxi de patró de grup per a estructures repetitives:
 
 - `array|nth:1,2,3:5` conserva les posicions 1, 2, 3 de cada grup de 5 elements. Exemple: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` retorna `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipula dades d'objectes:
 - `object:keys` retorna una matriu de les claus de l'objecte.
 - `object:values` retorna una matriu dels valors de l'objecte.
 - Exemple: `{"a":1,"b":2}|object:array` retorna `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Analitza text JSON en un valor tipat. Utilitza'l abans de filtres de col·lecció o serialització YAML quan una variable conté text JSON, p. ex. `'[1,2]'|parse_json|yaml:flow` retorna `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Extreu una porció d'una cadena o matriu.
 - El segon paràmetre és exclusiu: `"hello"|slice:1,4` inclou els caràcters als índexs 1, 2 i 3.
 - Utilitzar un segon paràmetre negatiu exclou elements des del final: `"hello"|slice:0,-2` retorna `"hel"`.
 
+### `sort`
+
+Ordena una matriu en ordre ascendent. Els números s'ordenen per valor.
+
+- `[10,2,1]|sort` retorna `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` retorna `["c","b","a"]`.
+- Per a matrius d'objectes, passa una propietat: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` retorna `[{"name":"Ada"},{"name":"Lin"}]`. Utilitza `sort:("name", "desc")` per invertir-ho. Els elements sense la propietat van al final.
+
 ### `split`
 
 Divideix una cadena en una matriu de subcadenes.
@@ -384,7 +529,14 @@ Divideix una cadena en una matriu de subcadenes.
 - `"a,b,c"|split:","` retorna `["a","b","c"]`.
 - `"hello world"|split:" "` retorna `["hello","world"]`.
 - Si no es proporciona cap separador, divideix en cada caràcter: `"hello"|split` retorna `["h","e","l","l","o"]`.
-- Es poden utilitzar expressions regulars com a separadors: `"a1b2c3"|split:[0-9]` retorna `["a","b","c"]`.
+- Es poden utilitzar expressions regulars com a separadors: `"a1b2c3"|split:[0-9]` retorna `["a","b","c",""]`. L'últim element és buit perquè la cadena acaba amb un separador.
+
+### `sum`
+
+Suma els números d'una matriu. El text que no és un número es salta, i una matriu buida retorna `0`.
+
+- `[10,"2.5","","none"]|sum` retorna `12.5`.
+- Per a matrius d'objectes, passa una propietat: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` retorna `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Elimina valors duplicats de matrius i objectes.
 - Per a matrius d'objectes: `[{"a":1},{"b":2},{"a":1}]|unique` retorna `[{"a":1},{"b":2}]`.
 - Per a objectes, elimina propietats amb valors duplicats, conservant la clau de l'última aparició.
 - Per a cadenes, retorna l'entrada sense canvis.
+
+### `where`
+
+Conserva els elements de la matriu la propietat dels quals coincideix amb un valor. El tipus també ha de coincidir, per tant el número `1` no coincideix amb el text `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` retorna `[{"title":"One","published":true}]`.
+- Utilitza un camí amb punts per a propietats imbricades, p. ex. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formata un valor com a YAML. Les cadenes sempre van entre cometes, incloent-hi cadenes com `"null"`, `"true"` i `"123"`. Els nulls, booleans i números reals es mantenen sense cometes.
+
+- Les matrius i objectes utilitzen l'estil de bloc per defecte. Utilitza `yaml:flow` per a col·leccions compactes en línia.
+- Utilitza `parse_json` primer per serialitzar text JSON com a dades estructurades en lloc d'una cadena entre cometes.
+
+### `yaml_property`
+
+Formata una propietat YAML amb nom, incloent-hi el sagnat per a matrius i objectes. Les cadenes i valors tipats segueixen les mateixes regles que `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` retorna `price: 42.57`.

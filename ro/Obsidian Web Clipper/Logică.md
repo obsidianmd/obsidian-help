@@ -65,6 +65,12 @@ Exemple:
 - `{% if not hidden %}` — negație
 - `{% if (premium or featured) and published %}` — condiții grupate
 
+Fiecare parte a unui operator logic trebuie să fie o expresie completă. De exemplu, pentru a verifica dacă un șir conține una dintre mai multe valori:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
+
 ### Valoare de adevăr
 
 Când o variabilă este folosită fără un operator de comparație, este evaluată pentru „valoarea de adevăr":

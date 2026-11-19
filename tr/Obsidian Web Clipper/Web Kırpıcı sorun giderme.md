@@ -55,6 +55,20 @@ Sway kullanıyorsanız:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Odak kuralları yardımcı olmazsa, Obsidian'ı yerel Wayland yerine XWayland altında çalıştırmayı deneyin, ardından Obsidian'ı tamamen yeniden başlatın.
+
+Flatpak kullanıyorsanız:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Bunu geri almak için `flatpak override --user --reset md.obsidian.Obsidian` komutunu çalıştırın. Bunun, Obsidian için ayarladığınız tüm geçersiz kılmaları sıfırlayacağını unutmayın.
+
+Diğer kurulum yöntemleri için Obsidian'ı `--ozone-platform=x11` bayrağıyla başlatın.
+
+Deneyebileceğiniz diğer şeyler:
+
 - Flatpak kullanıyorsanız [resmi olarak desteklenen bir Obsidian sürümünü](https://obsidian.md/download) denemeyi düşünün.
 - KDE kullanıyorsanız **Sistem Ayarları** → **Pencere Yönetimi** → **Pencere Kuralları** bölümüne gidin ve Obsidian'ın odağı almasına izin verin, [[web-clipper-kde.png|ekran görüntüsüne bakın]].
 - Son çare olarak, **Web Kırpıcı Ayarları** → **Genel** bölümünde **Eski mod**'a geçmeyi deneyin. Bu, panoyu atlayarak içeriği doğrudan URI aracılığıyla kaydedecektir. Bunun, tarayıcınıza ve Linux dağıtımınıza bağlı olarak kırpılabilecek karakter sayısını sınırlayacağını unutmayın.

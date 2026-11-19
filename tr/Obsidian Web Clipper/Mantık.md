@@ -63,6 +63,12 @@ Koşulları mantıksal operatörlerle birleştirin:
 - `{% if not hidden %}` — olumsuzlama
 - `{% if (premium or featured) and published %}` — gruplandırılmış koşullar
 
+Mantıksal operatörün her iki tarafı da tam bir ifade olmalıdır. Örneğin, bir dizenin birkaç değerden birini içerip içermediğini kontrol etmek için:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
+
 ### Doğruluk değeri
 
 Bir değişken karşılaştırma operatörü olmadan kullanıldığında, "doğruluk değeri" açısından değerlendirilir:

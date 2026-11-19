@@ -10,7 +10,7 @@ For at **oprette** en skabelon skal du gå til Web Clipper-indstillinger og klik
 
 For at **redigere** en skabelon vælger du en skabelon fra sidebjælken. Dine ændringer gemmes automatisk.
 
-Skabeloner gør brug af [[Variabler]] og [[Filtre]], som giver dig mulighed for at tilpasse, hvordan indhold gemmes.
+Skabeloner gør brug af [[Variabler]], [[Filtre]] og [[Logik]], som giver dig mulighed for at tilpasse, hvordan indhold gemmes.
 
 ## Importér og eksportér Web Clipper-skabeloner
 

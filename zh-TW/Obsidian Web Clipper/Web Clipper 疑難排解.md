@@ -55,6 +55,20 @@ misc {
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+如果焦點規則沒有幫助，請嘗試在 XWayland 下執行 Obsidian 而非原生 Wayland，然後完全重新啟動 Obsidian。
+
+如果你使用 Flatpak：
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+若要復原此操作，請執行 `flatpak override --user --reset md.obsidian.Obsidian`。請注意，這會重設你為 Obsidian 設定的所有覆寫。
+
+對於其他安裝方式，請使用 `--ozone-platform=x11` 旗標啟動 Obsidian。
+
+其他可嘗試的方法：
+
 - 如果你使用 Flatpak，請考慮嘗試使用[官方支援的 Obsidian 版本](https://obsidian.md/download)。
 - 如果你使用 KDE，請前往**系統設定** → **視窗管理** → **視窗規則**，並允許 Obsidian 取得焦點，[[web-clipper-kde.png|查看截圖]]。
 - 作為備用方案，請嘗試在 **Web Clipper 設定** → **一般**中切換為**舊版模式**。這將繞過剪貼簿，直接透過 URI 儲存內容。請注意，這會根據你的瀏覽器和 Linux 發行版限制可擷取的字元數量。

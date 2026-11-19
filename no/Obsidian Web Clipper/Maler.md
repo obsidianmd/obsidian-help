@@ -10,7 +10,7 @@ For å **opprette** en mal, gå til Web Clipper-innstillinger og klikk på **Ny 
 
 For å **redigere** en mal, velg en mal fra sidefeltet. Endringene dine lagres automatisk.
 
-Maler bruker [[Variabler]] og [[Filtre]], som lar deg tilpasse hvordan innhold lagres.
+Maler bruker [[Variabler]], [[Filtre]] og [[Logikk]], som lar deg tilpasse hvordan innhold lagres.
 
 ## Importer og eksporter Web Clipper-maler
 

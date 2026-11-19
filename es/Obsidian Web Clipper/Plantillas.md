@@ -10,7 +10,7 @@ Para **crear** una plantilla, ve a los ajustes de Web Clipper y haz clic en el b
 
 Para **editar** una plantilla, elige una plantilla de la barra lateral. Tus cambios se guardarán automáticamente.
 
-Las plantillas utilizan [[Variables]] y [[Filtros]], que te permiten personalizar cómo se guardará el contenido.
+Las plantillas utilizan [[Variables]], [[Filtros]] y [[Lógica]], que te permiten personalizar cómo se guardará el contenido.
 
 ## Importar y exportar plantillas de Web Clipper
 

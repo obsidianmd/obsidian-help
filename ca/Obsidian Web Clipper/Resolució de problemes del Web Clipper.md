@@ -55,6 +55,20 @@ Si utilitzes Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Si les regles de focus no ajuden, prova d'executar Obsidian sota XWayland en lloc de Wayland natiu, i després reinicia Obsidian completament.
+
+Si utilitzes Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Per desfer-ho, executa `flatpak override --user --reset md.obsidian.Obsidian`. Tingues en compte que això restableix totes les sobreescriptures que hagis configurat per a Obsidian.
+
+Per a altres mètodes d'instal·lació, inicia Obsidian amb el flag `--ozone-platform=x11`.
+
+Altres coses a provar:
+
 - Si utilitzes Flatpak considera provar una [versió d'Obsidian oficialment suportada](https://obsidian.md/download).
 - Si utilitzes KDE ves a **Configuració del sistema** → **Gestió de finestres** → **Regles de finestres** i permet que Obsidian prengui el focus, [[web-clipper-kde.png|veure captura de pantalla]].
 - Com a alternativa, prova de canviar a **Mode heretat** a **Configuració del Web Clipper** → **General**. Això evitarà el porta-retalls i desarà el contingut directament via URI. Tingues en compte que això limitarà el nombre de caràcters que es poden retallar depenent del teu navegador i distribució de Linux.

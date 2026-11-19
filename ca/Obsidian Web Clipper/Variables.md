@@ -105,7 +105,7 @@ Les variables d'esquema permeten extreure dades de [schema.org](https://schema.o
 
 - `{{schema:@Tipus:clau}}` retorna el valor de la clau de l'esquema.
 - `{{schema:@Tipus:pare.fill}}` retorna el valor d'una propietat imbricada.
-- `{{schema:@Tipus:clauMatriu}}` retorna el primer element d'una matriu.
+- `{{schema:@Tipus:clauMatriu}}` retorna la matriu sencera. Utilitzeu `{{schema:@Tipus:clauMatriu[0]}}` per retornar el primer element.
 - `{{schema:@Tipus:clauMatriu[índex].propietat}}` retorna l'element a l'índex especificat d'una matriu.
 - `{{schema:@Tipus:clauMatriu[*].propietat}}` retorna una propietat específica de tots els elements d'una matriu.
 

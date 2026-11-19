@@ -62,6 +62,12 @@ Ví dụ:
 - `{% if not hidden %}` — phủ định
 - `{% if (premium or featured) and published %}` — điều kiện nhóm
 
+Mỗi vế của toán tử logic phải là một biểu thức hoàn chỉnh. Ví dụ, để kiểm tra xem một chuỗi có chứa một trong nhiều giá trị hay không:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
+
 ### Tính đúng/sai
 
 Khi một biến được sử dụng mà không có toán tử so sánh, nó được đánh giá về "tính đúng/sai":

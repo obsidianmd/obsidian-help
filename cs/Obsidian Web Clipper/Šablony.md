@@ -10,7 +10,7 @@ Pro **vytvoření** šablony přejděte do nastavení Web Clipper a klikněte na
 
 Pro **úpravu** šablony vyberte šablonu z postranního panelu. Vaše změny se automaticky uloží.
 
-Šablony využívají [[Proměnné]] a [[Filtry]], které umožňují přizpůsobit způsob ukládání obsahu.
+Šablony využívají [[Proměnné]], [[Filtry]] a [[Logiku]], které umožňují přizpůsobit způsob ukládání obsahu.
 
 ## Import a export šablon Web Clipper
 

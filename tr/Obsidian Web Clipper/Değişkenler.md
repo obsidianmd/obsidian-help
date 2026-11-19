@@ -105,7 +105,7 @@ Schema değişkenleri, sayfadaki [schema.org](https://schema.org/) JSON-LD'den v
 
 - `{{schema:@Tür:anahtar}}` şemadan anahtarın değerini döndürür.
 - `{{schema:@Tür:üst.alt}}` iç içe bir özelliğin değerini döndürür.
-- `{{schema:@Tür:diziAnahtarı}}` bir dizideki ilk öğeyi döndürür.
+- `{{schema:@Tür:diziAnahtarı}}` tüm diziyi döndürür. İlk öğesini döndürmek için `{{schema:@Tür:diziAnahtarı[0]}}` kullanın.
 - `{{schema:@Tür:diziAnahtarı[indeks].özellik}}` bir dizide belirtilen indeksteki öğeyi döndürür.
 - `{{schema:@Tür:diziAnahtarı[*].özellik}}` bir dizideki tüm öğelerden belirli bir özelliği döndürür.
 

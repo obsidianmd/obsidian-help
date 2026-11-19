@@ -10,7 +10,7 @@ Na **vytvorenie** šablóny prejdite do nastavení Web Clipper a kliknite na tla
 
 Na **úpravu** šablóny vyberte šablónu z bočného panela. Vaše zmeny sa automaticky uložia.
 
-Šablóny využívajú [[Premenné]] a [[Filtre]], ktoré vám umožňujú prispôsobiť spôsob ukladania obsahu.
+Šablóny využívajú [[Premenné]], [[Filtre]] a [[Logika]], ktoré vám umožňujú prispôsobiť spôsob ukladania obsahu.
 
 ## Import a export šablón Web Clipper
 

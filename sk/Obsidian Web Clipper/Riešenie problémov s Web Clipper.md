@@ -55,6 +55,20 @@ Ak používate Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Ak pravidlá fokusu nepomáhajú, skúste spustiť Obsidian pod XWayland namiesto natívneho Wayland a potom úplne reštartujte Obsidian.
+
+Ak používate Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Na zrušenie tohto nastavenia spustite `flatpak override --user --reset md.obsidian.Obsidian`. Upozorňujeme, že toto resetuje všetky prepísania, ktoré ste pre Obsidian nastavili.
+
+Pre iné metódy inštalácie spustite Obsidian s parametrom `--ozone-platform=x11`.
+
+Ďalšie veci na vyskúšanie:
+
 - Ak používate Flatpak, skúste [oficiálne podporovanú verziu Obsidian](https://obsidian.md/download).
 - Ak používate KDE, prejdite do **Nastavenia systému** → **Správa okien** → **Pravidlá okien** a povoľte Obsidian prevziať fokus, [[web-clipper-kde.png|pozri snímku obrazovky]].
 - Ako záložné riešenie skúste prepnúť na **Starší režim** v **Nastavenia Web Clipper** → **Všeobecné**. Toto obíde schránku a uloží obsah priamo cez URI. Upozorňujeme, že to obmedzí počet znakov, ktoré je možné zachytiť, v závislosti od vášho prehliadača a distribúcie Linuxu.

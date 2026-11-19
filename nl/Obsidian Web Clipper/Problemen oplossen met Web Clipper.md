@@ -55,6 +55,20 @@ Als je Sway gebruikt:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Als focusregels niet helpen, probeer dan Obsidian onder XWayland te draaien in plaats van native Wayland, en herstart Obsidian vervolgens volledig.
+
+Als je Flatpak gebruikt:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Om dit ongedaan te maken, voer je `flatpak override --user --reset md.obsidian.Obsidian` uit. Let op dat dit alle overrides reset die je voor Obsidian hebt ingesteld.
+
+Voor andere installatiemethoden start je Obsidian met de `--ozone-platform=x11` vlag.
+
+Andere dingen om te proberen:
+
 - Als je Flatpak gebruikt, overweeg dan een [officieel ondersteunde Obsidian-versie](https://obsidian.md/download) te proberen.
 - Als je KDE gebruikt, ga naar **Systeeminstellingen** → **Vensterbeheer** → **Vensterregels** en sta Obsidian toe om focus te nemen, [[web-clipper-kde.png|zie schermafbeelding]].
 - Als terugvaloptie kun je overschakelen naar **Legacy-modus** in **Web Clipper-instellingen** → **Algemeen**. Dit omzeilt het klembord en slaat inhoud rechtstreeks op via URI. Let op dat dit het aantal tekens dat kan worden geknipt beperkt, afhankelijk van je browser en Linux-distributie.

@@ -52,6 +52,19 @@ Decodifica una cadena codificada como URI, por ejemplo, `"%E4%BD%A0%E5%A5%BD"|de
 - `"hello%20world"|decode_uri` devuelve `"hello world"`.
 - Devuelve la cadena original si la decodificación falla (por ejemplo, secuencias URI malformadas).
 
+### `encode_uri`
+
+Codifica texto para su uso en una URL, incluyendo caracteres reservados como `/`, `?` y `&`.
+
+- `"hello world/page"|encode_uri` devuelve `hello%20world%2Fpage`.
+
+### `indent`
+
+Aplica sangría a cada línea no vacía con espacios. Por defecto, dos espacios.
+
+- `indent:4` aplica sangría de cuatro espacios a cada línea.
+- `indent:0` deja el texto sin cambios.
+
 ### `kebab`
 
 Convierte texto a `kebab-case`.
@@ -102,6 +115,21 @@ Elimina espacios en blanco de ambos extremos de una cadena.
 
 - `"  hello world  "|trim` devuelve `"hello world"`.
 
+### `truncate`
+
+Acorta el texto a un número de caracteres y lo termina con `…`. El sufijo cuenta para el límite.
+
+- `"A concise introduction"|truncate:10` devuelve `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` devuelve `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` devuelve `A concise`.
+
+### `truncatewords`
+
+Acorta el texto a un número de palabras y añade `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` devuelve `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` devuelve `A concise introduction`.
+
 ### `unescape`
 
 Convierte comillas escapadas y secuencias de nueva línea a caracteres literales.
@@ -128,6 +156,13 @@ Aplica [[Sintaxis de formato básico]] y [[Sintaxis de formato avanzado]] al tex
 
 Añade un prefijo de cita Markdown (`> `) a cada línea de la entrada.
 
+### `bold`
+
+Envuelve el texto con marcadores de negrita.
+
+- `"Important"|bold` devuelve `**Important**`.
+- `"Important"|bold:_` devuelve `__Important__`.
+
 ### `callout`
 
 Crea un [[Destacados|recuadro]] con parámetros opcionales: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Crea un [[Destacados|recuadro]] con parámetros opcionales: `{{variable|callout:
 - `type` es el tipo de recuadro, por defecto es "info"
 - `title` es el título del recuadro, por defecto está vacío
 - `foldState` es un booleano para establecer el estado de plegado (true para plegado, false para desplegado, null para no plegable)
+
+### `code`
+
+Formatea texto como código en línea. El texto multilínea, o un parámetro de lenguaje, crea un bloque de código delimitado.
+
+- `"const answer = 42"|code` devuelve `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` devuelve un bloque de código marcado como `typescript`.
+
+### `code_block`
+
+Siempre crea un bloque de código delimitado, con un lenguaje opcional, por ejemplo, `code_block:"typescript"`.
+
+### `comment`
+
+Envuelve el texto con marcadores de [[Sintaxis de formato básico#Comentarios|comentario]].
+
+- `"Hidden note"|comment` devuelve `%%Hidden note%%`.
+
+### `embed`
+
+Convierte cadenas, arrays u objetos en [[Incrustar archivos|incrustaciones]].
+
+- Para cadenas: `"diagram.png"|embed` devuelve `![[diagram.png]]`.
+- Para cadenas con alias: `"Project Atlas"|embed:"Preview"` devuelve `![[Project Atlas|Preview]]`.
+- Para objetos: `{"one.md": "One", "two.md": "Two"}|embed` devuelve incrustaciones con las claves como archivos y los valores como alias.
+
+### `escape_md`
+
+Añade una barra invertida antes de la puntuación Markdown para que se muestre como texto sin formato.
+
+- `"# Draft *title*"|escape_md` devuelve `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Convierte cadenas y arrays en enlaces de [fragmento de texto](https://developer.
 - `highlights|fragment_link` devuelve `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` devuelve `Highlight content [custom title](text-fragment-url)`
 
+### `h1` a `h6`
+
+Convierte cada línea no vacía en un encabezado de ese nivel.
+
+- `"Introduction"|h2` devuelve `## Introduction`.
+
+### `hard_break`
+
+Añade dos espacios antes de cada salto de línea simple, para que los saltos de línea se muestren en la vista de lectura. Las líneas en blanco entre párrafos se mantienen tal cual.
+
+### `highlight`
+
+Envuelve el texto con marcadores de resaltado.
+
+- `"Remember this"|highlight` devuelve `==Remember this==`.
+- Añade un [[Sintaxis de formato básico#Colores de resaltado|color de resaltado]] con `red`, `orange`, `yellow`, `green`, `blue` o `purple`, por ejemplo, `"Remember this"|highlight:blue` devuelve `==🔵Remember this==`.
+
+### `hr`
+
+Añade una línea horizontal (`---`) después del texto, separada por una línea en blanco.
+
+- `"Section end"|hr` añade la línea después del texto.
+- `hr:before` la añade antes del texto, y `hr:both` la añade en ambos lados.
+
 ### `image`
 
 Convierte cadenas, arrays u objetos en sintaxis de imagen Markdown.
@@ -157,6 +247,13 @@ Convierte cadenas, arrays u objetos en sintaxis de imagen Markdown.
 - Para cadenas: `"image.jpg"|image:"alt text"` devuelve `![alt text](image.jpg)`.
 - Para arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` devuelve un array de cadenas de imagen Markdown con el mismo texto alternativo para todas las imágenes.
 - Para objetos: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` devuelve cadenas de imagen Markdown con texto alternativo de las claves del objeto.
+
+### `italic`
+
+Envuelve el texto con marcadores de cursiva.
+
+- `"Emphasized"|italic` devuelve `*Emphasized*`.
+- `"Emphasized"|italic:_` devuelve `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Convierte un array a una lista Markdown.
 - `list:numbered` para convertir a una lista numerada.
 - `list:numbered-task` para convertir a una lista de tareas con números.
 
+### `math`
+
+Formatea texto como [[Sintaxis de formato avanzado#Matemáticas|matemáticas]] en línea. El texto multilínea se convierte en un bloque matemático.
+
+- `"x^2 + y^2"|math` devuelve `$x^2 + y^2$`.
+
+### `math_block`
+
+Siempre crea un bloque matemático, con `$$` en las líneas antes y después del texto.
+
+### `strike`
+
+Envuelve el texto con marcadores de tachado.
+
+- `"Removed"|strike` devuelve `~~Removed~~`.
+
 ### `table`
 
 Convierte un array o array de objetos en una [[Sintaxis de formato avanzado#Tablas|tabla Markdown]]:
@@ -183,6 +296,10 @@ Convierte un array o array de objetos en una [[Sintaxis de formato avanzado#Tabl
 - Para un array de arrays, crea una tabla con cada array anidado como una fila.
 - Para un array simple, crea una tabla de una sola columna con "Value" como encabezado.
 - Se pueden especificar encabezados de columna personalizados usando: `table:("Column 1", "Column 2", "Column 3")`. Cuando se usa con un array simple, divide automáticamente los datos en filas según el número de columnas especificadas.
+
+### `table_pretty`
+
+Funciona como [[Filtros#`table`|table]], y rellena las columnas a anchos iguales para que la tabla se alinee en el modo de código fuente.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Convierte cadenas, arrays u objetos en sintaxis de [[Enlazar notas|enlace wiki]]
 
 ## Números
 
+`calc`, `round` y `length` devuelven números, preservando su tipo en filtros posteriores y asignaciones de variables. `number_format` devuelve texto.
+
 ### `calc`
 
 Realiza operaciones aritméticas básicas con números.
@@ -203,7 +322,7 @@ Realiza operaciones aritméticas básicas con números.
 - Soporta operadores: `+`, `-`, `*`, `/`, `**` (o `^`) para exponenciación.
 - Ejemplo: `5|calc:"+10"` devuelve `15`.
 - Ejemplo: `2|calc:"**3"` devuelve `8` (2 al cubo).
-- Devuelve la cadena original si la entrada no es un número.
+- Devuelve la entrada original si está vacía, no es un número o el cálculo produce un resultado no finito.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Devuelve la longitud de cadenas, arrays o el número de claves en objetos.
 
 - Para cadenas: `"hello"|length` devuelve `5`.
 - Para arrays: `["a","b","c"]|length` devuelve `3`.
+- Un array con un elemento sigue contando como uno: `[42]|length` devuelve `1`.
 - Para objetos: `{"a":1,"b":2}|length` devuelve `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Redondea un número al entero más cercano o a un número especificado de decima
 
 - Sin parámetros: `3.7|round` devuelve `4`.
 - Con decimales especificados: `3.14159|round:2` devuelve `3.14`.
+- Los arrays y objetos mantienen su estructura, con valores numéricos redondeados recursivamente. Las cadenas numéricas se convierten en números, por ejemplo, `["1.234","2.345"]|round:2` devuelve `[1.23,2.35]`.
+- Las entradas inválidas como `"42abc"` se preservan en lugar de convertirse en un número.
 
 ## Procesamiento de HTML
 
@@ -246,7 +368,7 @@ Convierte una cadena a una cadena formateada en [[Markdown con formato Obsidian]
 
 Elimina solo los atributos HTML especificados de las etiquetas.
 
-- Ejemplo: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` devuelve `<div id="example">Content</div>`.
+- Ejemplo: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` devuelve `<div id="example">Content</div>`.
 - Múltiples atributos: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Reemplaza etiquetas HTML, manteniendo el contenido y los atributos de la etiquet
 Elimina **todos** los atributos HTML de una cadena.
 
 - Usa `strip_attr:("class, id")` para mantener atributos específicos.
-- Ejemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` devuelve `<div class="test">Content</div>`.
+- Ejemplo: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` devuelve `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Elimina **todo** el formato Markdown y devuelve una cadena de texto sin formato,
 
 - Convierte texto formateado en texto sin formato, incluyendo negrita, cursiva, resaltado, encabezados, código, citas en bloque, tablas, listas de tareas y wikilinks.
 - Elimina completamente tablas, notas al pie, imágenes y elementos HTML.
+- `stripmd` es un alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Elimina **todas** las etiquetas HTML de una cadena. El contenido dentro de la et
 
 Procesa arrays y objetos.
 
+### `compact`
+
+Elimina valores `null` y cadenas vacías de arrays y objetos. Mantiene `0` y `false`.
+
+- `[null,"","one",0,false,"two"]|compact` devuelve `["one",0,false,"two"]`.
+
 ### `first`
 
-Devuelve el primer elemento de un array como cadena.
+Devuelve el primer elemento de un array, preservando su tipo. Los objetos y arrays anidados se muestran como JSON.
 
 - `["a","b","c"]|first` devuelve `"a"`.
+- Un array vacío devuelve `null`, que se muestra como texto vacío.
 - Si la entrada no es un array, devuelve la entrada sin cambios.
 
 ### `join`
@@ -311,9 +441,10 @@ Combina los elementos de un array en una cadena.
 
 ### `last`
 
-Devuelve el último elemento de un array como cadena.
+Devuelve el último elemento de un array, preservando su tipo. Los objetos y arrays anidados se muestran como JSON.
 
 - `["a","b","c"]|last` devuelve `"c"`.
+- Un array vacío devuelve `null`, que se muestra como texto vacío.
 - Si la entrada no es un array, devuelve la entrada sin cambios.
 
 ### `map`
@@ -346,6 +477,8 @@ Mantiene los elementos enésimos en un array usando sintaxis estilo nth-child de
 - `array|nth:3n` mantiene cada 3er elemento (3, 6, 9, etc.).
 - `array|nth:n+3` mantiene el 3er y todos los elementos siguientes.
 
+El resultado sigue siendo un array para filtros de colección posteriores. Si contiene un único valor primitivo, ese valor se muestra sin corchetes de array y se pasa directamente a los filtros de texto, por ejemplo, `[1,2]|nth:2` muestra `2`.
+
 Sintaxis de patrón de grupo para estructuras repetitivas:
 
 - `array|nth:1,2,3:5` mantiene las posiciones 1, 2, 3 de cada grupo de 5 elementos. Ejemplo: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` devuelve `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipula datos de objetos:
 - `object:keys` devuelve un array de las claves del objeto.
 - `object:values` devuelve un array de los valores del objeto.
 - Ejemplo: `{"a":1,"b":2}|object:array` devuelve `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Analiza texto JSON en un valor tipado. Usa esto antes de filtros de colección o serialización YAML cuando una variable contiene texto JSON, por ejemplo, `'[1,2]'|parse_json|yaml:flow` devuelve `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Extrae una porción de una cadena o array.
 - El segundo parámetro es exclusivo: `"hello"|slice:1,4` incluye los caracteres en los índices 1, 2 y 3.
 - Usar un segundo parámetro negativo excluye elementos desde el final: `"hello"|slice:0,-2` devuelve `"hel"`.
 
+### `sort`
+
+Ordena un array en orden ascendente. Los números se ordenan por valor.
+
+- `[10,2,1]|sort` devuelve `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` devuelve `["c","b","a"]`.
+- Para arrays de objetos, pasa una propiedad: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` devuelve `[{"name":"Ada"},{"name":"Lin"}]`. Usa `sort:("name", "desc")` para invertirlo. Los elementos sin la propiedad van al final.
+
 ### `split`
 
 Divide una cadena en un array de subcadenas.
@@ -385,6 +530,13 @@ Divide una cadena en un array de subcadenas.
 - `"hello world"|split:" "` devuelve `["hello","world"]`.
 - Si no se proporciona separador, divide en cada carácter: `"hello"|split` devuelve `["h","e","l","l","o"]`.
 - Se pueden usar expresiones regulares como separadores: `"a1b2c3"|split:[0-9]` devuelve `["a","b","c"]`.
+
+### `sum`
+
+Suma los números en un array. El texto que no es un número se omite, y un array vacío devuelve `0`.
+
+- `[10,"2.5","","none"]|sum` devuelve `12.5`.
+- Para arrays de objetos, pasa una propiedad: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` devuelve `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Elimina valores duplicados de arrays y objetos.
 - Para arrays de objetos: `[{"a":1},{"b":2},{"a":1}]|unique` devuelve `[{"a":1},{"b":2}]`.
 - Para objetos, elimina propiedades con valores duplicados, manteniendo la clave de la última ocurrencia.
 - Para cadenas, devuelve la entrada sin cambios.
+
+### `where`
+
+Mantiene los elementos del array cuya propiedad coincide con un valor. El tipo también debe coincidir, por lo que el número `1` no coincide con el texto `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` devuelve `[{"title":"One","published":true}]`.
+- Usa una ruta con puntos para propiedades anidadas, por ejemplo, `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formatea un valor como YAML. Las cadenas siempre se entrecomillan, incluyendo cadenas como `"null"`, `"true"` y `"123"`. Los valores nulos, booleanos y números reales permanecen sin comillas.
+
+- Los arrays y objetos usan estilo de bloque por defecto. Usa `yaml:flow` para colecciones compactas en línea.
+- Usa `parse_json` primero para serializar texto JSON como datos estructurados en lugar de una cadena entrecomillada.
+
+### `yaml_property`
+
+Formatea una propiedad YAML con nombre, incluyendo sangría para arrays y objetos. Las cadenas y valores tipados siguen las mismas reglas que `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` devuelve `price: 42.57`.

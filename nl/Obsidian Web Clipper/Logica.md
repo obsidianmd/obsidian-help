@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Gebruik voorwaardelijke instructies, lussen en variabeletoewijzingen in Web Clipper-sjablonen.'
 ---
-[[Introductie tot Obsidian Web Clipper|Web Clipper]] ondersteunt sjabloonlogica voor voorwaarden, lussen en variabeletoewijzing. Deze syntaxis is geïnspireerd op de sjabloontalen [Twig](https://twig.symfony.com/) en [Liquid](https://shopify.github.io/liquid/).
+[[Introductie tot Obsidian Web Clipper|Web Clipper]] ondersteunt sjabloonlogica voor voorwaarden, lussen en variabeletoewijzing. Deze syntaxis heet [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Voorwaarden
@@ -62,6 +62,12 @@ Voorbeelden:
 - `{% if draft or archived %}` — één van beide voorwaarden
 - `{% if not hidden %}` — ontkenning
 - `{% if (premium or featured) and published %}` — gegroepeerde voorwaarden
+
+Elke zijde van een logische operator moet een volledige expressie zijn. Om bijvoorbeeld te controleren of een tekenreeks een van meerdere waarden bevat:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Waarheidsgetrouwheid
 

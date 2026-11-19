@@ -54,6 +54,19 @@ Decodifică un șir codificat URI, de ex. `"%E4%BD%A0%E5%A5%BD"|decode_uri` retu
 - `"hello%20world"|decode_uri` returnează `"hello world"`.
 - Returnează șirul original dacă decodificarea eșuează (de ex., secvențe URI incorecte).
 
+### `encode_uri`
+
+Codifică textul pentru utilizare într-un URL, inclusiv caracterele rezervate precum `/`, `?` și `&`.
+
+- `"hello world/page"|encode_uri` returnează `hello%20world%2Fpage`.
+
+### `indent`
+
+Indentează fiecare linie negoală cu spații. Implicit folosește două spații.
+
+- `indent:4` indentează fiecare linie cu patru spații.
+- `indent:0` lasă textul neschimbat.
+
 ### `kebab`
 
 Convertește textul în `kebab-case`.
@@ -104,6 +117,21 @@ Elimină spațiile albe de la ambele capete ale unui șir.
 
 - `"  hello world  "|trim` returnează `"hello world"`.
 
+### `truncate`
+
+Scurtează textul la un număr de caractere și îl termină cu `…`. Sufixul se numără în limită.
+
+- `"A concise introduction"|truncate:10` returnează `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` returnează `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` returnează `A concise`.
+
+### `truncatewords`
+
+Scurtează textul la un număr de cuvinte și adaugă `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` returnează `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` returnează `A concise introduction`.
+
 ### `unescape`
 
 Convertește ghilimelele cu escape și secvențele newline în caractere literale.
@@ -130,6 +158,13 @@ Aplică [[Sintaxă de bază pentru formatare]] și [[Sintaxă avansată de forma
 
 Adaugă un prefix Markdown de citat (`> `) la fiecare linie din intrare.
 
+### `bold`
+
+Învelește textul în marcatori de text îngroșat.
+
+- `"Important"|bold` returnează `**Important**`.
+- `"Important"|bold:_` returnează `__Important__`.
+
 ### `callout`
 
 Creează o [[Explicații|explicație]] cu parametri opționali: `{{variable|callout:("type", "title", foldState)}}`
@@ -137,6 +172,37 @@ Creează o [[Explicații|explicație]] cu parametri opționali: `{{variable|call
 - `type` este tipul explicației și are valoarea implicită „info"
 - `title` este titlul explicației și are valoarea implicită goală
 - `foldState` este un boolean care stabilește starea de pliere (true pentru pliat, false pentru depliat, null pentru nepliabil)
+
+### `code`
+
+Formatează textul ca cod inline. Textul multilinie sau un parametru de limbaj creează în schimb un bloc de cod cu delimitatori.
+
+- `"const answer = 42"|code` returnează `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` returnează un bloc de cod marcat ca `typescript`.
+
+### `code_block`
+
+Creează întotdeauna un bloc de cod cu delimitatori, cu un limbaj opțional, de ex. `code_block:"typescript"`.
+
+### `comment`
+
+Învelește textul în marcatori de [[Sintaxă de bază pentru formatare#Comentarii|comentariu]].
+
+- `"Hidden note"|comment` returnează `%%Hidden note%%`.
+
+### `embed`
+
+Convertește șiruri, array-uri sau obiecte în [[Încorporare fișiere|încorporări]].
+
+- Pentru șiruri: `"diagram.png"|embed` returnează `![[diagram.png]]`.
+- Pentru șiruri cu alias: `"Project Atlas"|embed:"Preview"` returnează `![[Project Atlas|Preview]]`.
+- Pentru obiecte: `{"one.md": "One", "two.md": "Two"}|embed` returnează încorporări cu cheile ca fișiere și valorile ca aliasuri.
+
+### `escape_md`
+
+Adaugă o bară oblică inversă înaintea punctuației Markdown, astfel încât aceasta să fie afișată ca text simplu.
+
+- `"# Draft *title*"|escape_md` returnează `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -152,6 +218,30 @@ Convertește șiruri și array-uri în legături [text fragment](https://develop
 - `highlights|fragment_link` returnează `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` returnează `Highlight content [custom title](text-fragment-url)`
 
+### `h1` până la `h6`
+
+Transformă fiecare linie negoală într-un titlu de acel nivel.
+
+- `"Introduction"|h2` returnează `## Introduction`.
+
+### `hard_break`
+
+Adaugă două spații înaintea fiecărei întreruperi de linie simple, astfel încât întreruperile de linie să fie afișate în modul de citire. Liniile goale dintre paragrafe rămân neschimbate.
+
+### `highlight`
+
+Învelește textul în marcatori de evidențiere.
+
+- `"Remember this"|highlight` returnează `==Remember this==`.
+- Adaugă o [[Sintaxă de bază pentru formatare#Culori de evidențiere|culoare de evidențiere]] cu `red`, `orange`, `yellow`, `green`, `blue` sau `purple`, de ex. `"Remember this"|highlight:blue` returnează `==🔵Remember this==`.
+
+### `hr`
+
+Adaugă o linie orizontală (`---`) după text, separată printr-o linie goală.
+
+- `"Section end"|hr` adaugă linia după text.
+- `hr:before` o adaugă înaintea textului, iar `hr:both` o adaugă pe ambele părți.
+
 ### `image` 
 
 Convertește șiruri, array-uri sau obiecte în sintaxă Markdown pentru imagini.
@@ -159,6 +249,13 @@ Convertește șiruri, array-uri sau obiecte în sintaxă Markdown pentru imagini
 - Pentru șiruri: `"image.jpg"|image:"alt text"` returnează `![alt text](image.jpg)`.
 - Pentru array-uri: `["image1.jpg","image2.jpg"]|image:"alt text"` returnează un array de șiruri Markdown pentru imagini, cu același text alternativ pentru toate imaginile.
 - Pentru obiecte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnează șiruri Markdown pentru imagini cu textul alternativ preluat din cheile obiectului.
+
+### `italic`
+
+Învelește textul în marcatori de text cursiv.
+
+- `"Emphasized"|italic` returnează `*Emphasized*`.
+- `"Emphasized"|italic:_` returnează `_Emphasized_`.
 
 ### `link`
 
@@ -177,6 +274,22 @@ Convertește un array într-o listă Markdown.
 - `list:numbered` pentru a converti într-o listă numerotată.
 - `list:numbered-task` pentru a converti într-o listă de sarcini numerotată.
 
+### `math`
+
+Formatează textul ca [[Sintaxă avansată de formatare#Matematică|matematică]] inline. Textul multilinie devine un bloc matematic.
+
+- `"x^2 + y^2"|math` returnează `$x^2 + y^2$`.
+
+### `math_block`
+
+Creează întotdeauna un bloc matematic, cu `$$` pe liniile dinaintea și de după text.
+
+### `strike`
+
+Învelește textul în marcatori de text tăiat.
+
+- `"Removed"|strike` returnează `~~Removed~~`.
+
 ### `table`
 
 Convertește un array sau un array de obiecte într-un [[Sintaxă avansată de formatare#Tables|tabel Markdown]]:
@@ -185,6 +298,10 @@ Convertește un array sau un array de obiecte într-un [[Sintaxă avansată de f
 - Pentru un array de array-uri, creează un tabel cu fiecare array imbricat ca un rând.
 - Pentru un array simplu, creează un tabel cu o singură coloană, cu „Value" ca antet.
 - Antetele de coloană personalizate pot fi specificate folosind: `table:("Column 1", "Column 2", "Column 3")`. Când e folosit cu un array simplu, împarte automat datele în rânduri în funcție de numărul de coloane specificat.
+
+### `table_pretty`
+
+Funcționează ca [[Filtre#`table`|table]] și completează coloanele la lățimi egale, astfel încât tabelul să fie aliniat în modul sursă.
 
 ### `wikilink`
 
@@ -198,6 +315,8 @@ Convertește șiruri, array-uri sau obiecte în sintaxă Obsidian [[Leagă noti�
 
 ## Numere
 
+`calc`, `round` și `length` returnează numere, păstrându-le tipul în filtrele ulterioare și atribuirile de variabile. `number_format` returnează text.
+
 ### `calc`
 
 Efectuează operații aritmetice de bază pe numere.
@@ -205,7 +324,7 @@ Efectuează operații aritmetice de bază pe numere.
 - Acceptă operatorii: `+`, `-`, `*`, `/`, `**` (sau `^`) pentru ridicare la putere.
 - Exemplu: `5|calc:"+10"` returnează `15`.
 - Exemplu: `2|calc:"**3"` returnează `8` (2 la puterea a treia).
-- Returnează șirul original dacă intrarea nu este un număr.
+- Returnează intrarea originală dacă aceasta este goală, nu este un număr sau calculul produce un rezultat non-finit.
 
 ### `length`
 
@@ -213,6 +332,7 @@ Returnează lungimea șirurilor, a array-urilor sau numărul de chei din obiecte
 
 - Pentru șiruri: `"hello"|length` returnează `5`.
 - Pentru array-uri: `["a","b","c"]|length` returnează `3`.
+- Un array cu un singur element tot se numără ca unu: `[42]|length` returnează `1`.
 - Pentru obiecte: `{"a":1,"b":2}|length` returnează `2`.
 
 ### `number_format`
@@ -229,6 +349,8 @@ Rotunjește un număr la cel mai apropiat întreg sau la un număr specificat de
 
 - Fără parametri: `3.7|round` returnează `4`.
 - Cu zecimale specificate: `3.14159|round:2` returnează `3.14`.
+- Array-urile și obiectele își păstrează structura, cu valorile numerice rotunjite recursiv. Șirurile numerice devin numere, de ex. `["1.234","2.345"]|round:2` returnează `[1.23,2.35]`.
+- Intrările invalide precum `"42abc"` sunt păstrate neschimbate în loc să fie convertite într-un număr.
 
 ## Procesare HTML
 
@@ -248,7 +370,7 @@ Convertește un șir într-un șir formatat [[Markdown specific Obsidian]].
 
 Elimină doar atributele HTML specificate din etichete.
 
-- Exemplu: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returnează `<div id="example">Content</div>`.
+- Exemplu: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` returnează `<div id="example">Content</div>`.
 - Atribute multiple: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -276,7 +398,7 @@ Elimină doar etichetele HTML specificate. Păstrează conținutul etichetelor.
 Elimină **toate** atributele HTML dintr-un șir.
 
 - Folosește `strip_attr:("class, id")` pentru a păstra atribute specifice.
-- Exemplu: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnează `<div class="test">Content</div>`.
+- Exemplu: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` returnează `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -284,6 +406,7 @@ Elimină **toată** formatarea Markdown și returnează un șir de text simplu, 
 
 - Transformă textul formatat în text simplu, neformatat, inclusiv aldin, cursiv, evidențieri, titluri, cod, citate, tabele, liste de sarcini și wikilink-uri.
 - Elimină în întregime tabelele, notele de subsol, imaginile și elementele HTML.
+- `stripmd` este un alias.
 
 ### `strip_tags`
 
@@ -296,11 +419,18 @@ Elimină **toate** etichetele HTML dintr-un șir. Conținutul din interiorul eti
 
 Procesează array-uri și obiecte.
 
+### `compact`
+
+Elimină valorile `null` și șirurile goale din array-uri și obiecte. Păstrează `0` și `false`.
+
+- `[null,"","one",0,false,"two"]|compact` returnează `["one",0,false,"two"]`.
+
 ### `first` 
 
-Returnează primul element al unui array ca șir.
+Returnează primul element al unui array, păstrându-i tipul. Obiectele și array-urile imbricate sunt afișate ca JSON.
 
 - `["a","b","c"]|first` returnează `"a"`.
+- Un array gol returnează `null`, care este afișat ca text gol.
 - Dacă intrarea nu este un array, returnează intrarea neschimbată.
 
 ### `join`
@@ -313,9 +443,10 @@ Combină elementele unui array într-un șir.
 
 ### `last`
 
-Returnează ultimul element al unui array ca șir.
+Returnează ultimul element al unui array, păstrându-i tipul. Obiectele și array-urile imbricate sunt afișate ca JSON.
 
 - `["a","b","c"]|last` returnează `"c"`.
+- Un array gol returnează `null`, care este afișat ca text gol.
 - Dacă intrarea nu este un array, returnează intrarea neschimbată.
 
 ### `map`
@@ -348,6 +479,8 @@ Păstrează al n-lea element dintr-un array folosind sintaxă nth-child în stil
 - `array|nth:3n` păstrează fiecare al 3-lea element (3, 6, 9 etc.).
 - `array|nth:n+3` păstrează al 3-lea element și pe toate cele care urmează.
 
+Rezultatul rămâne un array pentru filtrele de colecție ulterioare. Dacă conține o singură valoare primitivă, acea valoare este afișată fără paranteze de array și transmisă direct filtrelor de text, de ex. `[1,2]|nth:2` afișează `2`.
+
 Sintaxa modelelor de grup pentru structuri repetitive:
 
 - `array|nth:1,2,3:5` păstrează pozițiile 1, 2, 3 din fiecare grup de 5 elemente. Exemplu: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returnează `[1,2,3,6,7,8]`.
@@ -360,6 +493,10 @@ Manipulează date de tip obiect:
 - `object:keys` returnează un array cu cheile obiectului.
 - `object:values` returnează un array cu valorile obiectului.
 - Exemplu: `{"a":1,"b":2}|object:array` returnează `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Interpretează text JSON într-o valoare cu tip. Folosește-l înainte de filtrele de colecție sau serializarea YAML atunci când o variabilă conține text JSON, de ex. `'[1,2]'|parse_json|yaml:flow` returnează `[1,2]`.
 
 ### `reverse`
 
@@ -379,6 +516,14 @@ Extrage o porțiune dintr-un șir sau array.
 - Al doilea parametru este exclusiv: `"hello"|slice:1,4` include caracterele de la indicii 1, 2 și 3.
 - Folosirea unui al doilea parametru negativ exclude elementele de la sfârșit: `"hello"|slice:0,-2` returnează `"hel"`.
 
+### `sort`
+
+Sortează un array în ordine crescătoare. Numerele sunt sortate după valoare.
+
+- `[10,2,1]|sort` returnează `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` returnează `["c","b","a"]`.
+- Pentru array-uri de obiecte, specifică o proprietate: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` returnează `[{"name":"Ada"},{"name":"Lin"}]`. Folosește `sort:("name", "desc")` pentru a inversa ordinea. Elementele fără proprietatea respectivă ajung la final.
+
 ### `split`
 
 Împarte un șir într-un array de subșiruri.
@@ -386,7 +531,14 @@ Extrage o porțiune dintr-un șir sau array.
 - `"a,b,c"|split:","` returnează `["a","b","c"]`.
 - `"hello world"|split:" "` returnează `["hello","world"]`.
 - Dacă nu este furnizat niciun separator, se face împărțirea pe fiecare caracter: `"hello"|split` returnează `["h","e","l","l","o"]`.
-- Expresiile regulate pot fi folosite ca separatori: `"a1b2c3"|split:[0-9]` returnează `["a","b","c"]`.
+- Expresiile regulate pot fi folosite ca separatori: `"a1b2c3"|split:[0-9]` returnează `["a","b","c",""]`. Ultimul element este gol deoarece șirul se termină cu un separator.
+
+### `sum`
+
+Adună numerele dintr-un array. Textul care nu este un număr este ignorat, iar un array gol returnează `0`.
+
+- `[10,"2.5","","none"]|sum` returnează `12.5`.
+- Pentru array-uri de obiecte, specifică o proprietate: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` returnează `12.5`.
 
 ### `template`
 
@@ -408,3 +560,25 @@ Elimină valorile duplicate din array-uri și obiecte.
 - Pentru array-uri de obiecte: `[{"a":1},{"b":2},{"a":1}]|unique` returnează `[{"a":1},{"b":2}]`.
 - Pentru obiecte, elimină proprietățile cu valori duplicate, păstrând cheia ultimei apariții.
 - Pentru șiruri, returnează intrarea neschimbată.
+
+### `where`
+
+Păstrează elementele din array a căror proprietate se potrivește cu o valoare. Tipul trebuie să se potrivească și el, deci numărul `1` nu se potrivește cu textul `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` returnează `[{"title":"One","published":true}]`.
+- Folosește o cale cu punct pentru proprietăți imbricate, de ex. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formatează o valoare ca YAML. Șirurile sunt întotdeauna puse între ghilimele, inclusiv șiruri precum `"null"`, `"true"` și `"123"`. Valorile null, boolean și numerice reale rămân fără ghilimele.
+
+- Array-urile și obiectele folosesc implicit stilul bloc. Folosește `yaml:flow` pentru colecții inline compacte.
+- Folosește `parse_json` mai întâi pentru a serializa text JSON ca date structurate în loc de un șir între ghilimele.
+
+### `yaml_property`
+
+Formatează o proprietate YAML cu nume, inclusiv indentarea pentru array-uri și obiecte. Șirurile și valorile cu tip urmează aceleași reguli ca `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` returnează `price: 42.57`.

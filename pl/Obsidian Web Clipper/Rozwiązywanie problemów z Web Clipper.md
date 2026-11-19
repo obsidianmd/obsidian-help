@@ -55,6 +55,20 @@ Jeśli używasz Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Jeśli reguły fokusu nie pomagają, spróbuj uruchomić Obsidian pod XWayland zamiast natywnego Wayland, a następnie całkowicie uruchom ponownie Obsidian.
+
+Jeśli używasz Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Aby to cofnąć, uruchom `flatpak override --user --reset md.obsidian.Obsidian`. Pamiętaj, że spowoduje to zresetowanie wszystkich nadpisań ustawionych dla Obsidian.
+
+W przypadku innych metod instalacji uruchom Obsidian z flagą `--ozone-platform=x11`.
+
+Inne rzeczy do wypróbowania:
+
 - Jeśli używasz Flatpak, rozważ wypróbowanie [oficjalnie wspieranej wersji Obsidian](https://obsidian.md/download).
 - Jeśli używasz KDE, przejdź do **Ustawienia systemowe** → **Zarządzanie oknami** → **Reguły okien** i zezwól Obsidian na przejmowanie fokusu, [[web-clipper-kde.png|zobacz zrzut ekranu]].
 - W ostateczności spróbuj przełączyć się na **Tryb klasyczny** w **Ustawienia Web Clipper** → **Ogólne**. Pozwoli to ominąć schowek i zapisać zawartość bezpośrednio przez URI. Pamiętaj, że ograniczy to liczbę znaków, które można wyciąć, w zależności od przeglądarki i dystrybucji Linux.

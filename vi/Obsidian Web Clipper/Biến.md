@@ -105,7 +105,7 @@ Biến schema cho phép bạn trích xuất dữ liệu từ [schema.org](https:
 
 - `{{schema:@Type:key}}` trả về giá trị của khóa từ schema.
 - `{{schema:@Type:parent.child}}` trả về giá trị của thuộc tính lồng nhau.
-- `{{schema:@Type:arrayKey}}` trả về mục đầu tiên trong một mảng.
+- `{{schema:@Type:arrayKey}}` trả về toàn bộ mảng. Sử dụng `{{schema:@Type:arrayKey[0]}}` để trả về mục đầu tiên của nó.
 - `{{schema:@Type:arrayKey[index].property}}` trả về mục tại chỉ mục được chỉ định trong một mảng.
 - `{{schema:@Type:arrayKey[*].property}}` trả về thuộc tính cụ thể từ tất cả các mục trong một mảng.
 

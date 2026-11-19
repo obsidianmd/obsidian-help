@@ -55,6 +55,20 @@ Nếu bạn sử dụng Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Nếu các quy tắc lấy nét không giúp ích, hãy thử chạy Obsidian dưới XWayland thay vì Wayland gốc, sau đó khởi động lại hoàn toàn Obsidian.
+
+Nếu bạn sử dụng Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Để hoàn tác điều này, chạy `flatpak override --user --reset md.obsidian.Obsidian`. Lưu ý rằng điều này sẽ đặt lại tất cả các ghi đè mà bạn đã thiết lập cho Obsidian.
+
+Đối với các phương pháp cài đặt khác, khởi chạy Obsidian với cờ `--ozone-platform=x11`.
+
+Các cách khác để thử:
+
 - Nếu bạn sử dụng Flatpak, hãy thử [phiên bản Obsidian được hỗ trợ chính thức](https://obsidian.md/download).
 - Nếu bạn sử dụng KDE, vào **System Settings** → **Window Management** → **Window Rules** và cho phép Obsidian lấy quyền lấy nét, [[web-clipper-kde.png|xem ảnh chụp màn hình]].
 - Như phương án dự phòng, hãy thử chuyển sang **Chế độ cũ** trong **Cài đặt Web Clipper** → **Chung**. Điều này sẽ bỏ qua bảng tạm và lưu nội dung trực tiếp qua URI. Lưu ý rằng điều này sẽ giới hạn số ký tự có thể cắt được tùy thuộc vào trình duyệt và bản phân phối Linux của bạn.

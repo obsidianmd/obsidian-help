@@ -105,7 +105,7 @@ Schemavariabelen stellen je in staat om gegevens te extraheren uit [schema.org](
 
 - `{{schema:@Type:key}}` retourneert de waarde van de sleutel uit het schema.
 - `{{schema:@Type:parent.child}}` retourneert de waarde van een geneste eigenschap.
-- `{{schema:@Type:arrayKey}}` retourneert het eerste item in een array.
+- `{{schema:@Type:arrayKey}}` retourneert de volledige array. Gebruik `{{schema:@Type:arrayKey[0]}}` om het eerste item te retourneren.
 - `{{schema:@Type:arrayKey[index].property}}` retourneert het item op de opgegeven index in een array.
 - `{{schema:@Type:arrayKey[*].property}}` retourneert een specifieke eigenschap van alle items in een array.
 

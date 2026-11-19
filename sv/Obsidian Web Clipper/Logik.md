@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Använd villkorssatser, loopar och variabeltilldelning i Web Clipper-mallar.'
 ---
-[[Introduktion till Obsidian Web Clipper|Web Clipper]] stöder malllogik för villkorssatser, loopar och variabeltilldelning. Denna syntax är inspirerad av mallspråken [Twig](https://twig.symfony.com/) och [Liquid](https://shopify.github.io/liquid/).
+[[Introduktion till Obsidian Web Clipper|Web Clipper]] stöder malllogik för villkorssatser, loopar och variabeltilldelning. Denna syntax kallas [Knap](https://github.com/obsidianmd/knap).
 
 ## Villkorssatser
 
@@ -61,6 +61,12 @@ Exempel:
 - `{% if draft or archived %}` — något av villkoren
 - `{% if not hidden %}` — negation
 - `{% if (premium or featured) and published %}` — grupperade villkor
+
+Varje sida av en logisk operator måste vara ett fullständigt uttryck. Till exempel, för att kontrollera om en sträng innehåller ett av flera värden:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Sanningsvärden
 

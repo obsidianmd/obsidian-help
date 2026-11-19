@@ -10,7 +10,7 @@ Bir şablon **oluşturmak** için Web Kırpıcı ayarlarına gidin ve kenar çub
 
 Bir şablonu **düzenlemek** için kenar çubuğundan bir şablon seçin. Değişiklikleriniz otomatik olarak kaydedilecektir.
 
-Şablonlar, içeriğin nasıl kaydedileceğini özelleştirmenize olanak tanıyan [[Değişkenler]] ve [[Filtreler]] kullanır.
+Şablonlar, içeriğin nasıl kaydedileceğini özelleştirmenize olanak tanıyan [[Değişkenler]], [[Filtreler]] ve [[Mantık]] kullanır.
 
 ## Web Kırpıcı şablonlarını içe ve dışa aktarma
 

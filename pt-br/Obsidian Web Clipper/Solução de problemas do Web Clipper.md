@@ -55,6 +55,20 @@ Se você usa Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Se as regras de foco não ajudarem, tente executar o Obsidian sob XWayland em vez de Wayland nativo, e então reinicie completamente o Obsidian.
+
+Se você usa Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Para desfazer isso, execute `flatpak override --user --reset md.obsidian.Obsidian`. Note que isso redefine todas as substituições que você configurou para o Obsidian.
+
+Para outros métodos de instalação, inicie o Obsidian com a flag `--ozone-platform=x11`.
+
+Outras coisas para tentar:
+
 - Se você usa Flatpak, considere experimentar uma [versão oficialmente suportada do Obsidian](https://obsidian.md/pt-BR/download).
 - Se você usa KDE, vá para **Configurações do Sistema** → **Gerenciamento de Janelas** → **Regras de Janelas** e permita que o Obsidian assuma o foco, [[web-clipper-kde.png|veja captura de tela]].
 - Como alternativa, tente mudar para o **Modo Legado** em **Configurações do Web Clipper** → **Geral**. Isso contornará a área de transferência e salvará o conteúdo diretamente via URI. Note que isso limitará o número de caracteres que podem ser capturados dependendo do seu navegador e distribuição Linux.

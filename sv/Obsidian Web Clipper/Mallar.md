@@ -10,7 +10,7 @@ För att **skapa** en mall, gå till Web Clipper-inställningar och klicka på k
 
 För att **redigera** en mall väljer du en mall från sidofältet. Dina ändringar sparas automatiskt.
 
-Mallar använder sig av [[Variabler]] och [[Filter]], som låter dig anpassa hur innehåll sparas.
+Mallar använder sig av [[Variabler]], [[Filter]] och [[Logik]], som låter dig anpassa hur innehåll sparas.
 
 ## Importera och exportera Web Clipper-mallar
 

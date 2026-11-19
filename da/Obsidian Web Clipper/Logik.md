@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Brug betingelser, løkker og variabeltildeling i Web Clipper-skabeloner.'
 ---
-[[Introduktion til Obsidian Web Clipper|Web Clipper]] understøtter skabelonlogik til betingelser, løkker og variabeltildeling. Denne syntaks er inspireret af skabelonsprogene [Twig](https://twig.symfony.com/) og [Liquid](https://shopify.github.io/liquid/).
+[[Introduktion til Obsidian Web Clipper|Web Clipper]] understøtter skabelonlogik til betingelser, løkker og variabeltildeling. Denne syntaks kaldes [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Betingelser
@@ -62,6 +62,12 @@ Eksempler:
 - `{% if draft or archived %}` — én af betingelserne
 - `{% if not hidden %}` — negering
 - `{% if (premium or featured) and published %}` — grupperede betingelser
+
+Hver side af en logisk operator skal være et fuldstændigt udtryk. For eksempel, for at tjekke om en streng indeholder en af flere værdier:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Sandhedsværdi
 

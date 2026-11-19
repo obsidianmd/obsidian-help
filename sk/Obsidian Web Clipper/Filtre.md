@@ -52,6 +52,19 @@ Dekóduje reťazec zakódovaný URI, napr. `"%E4%BD%A0%E5%A5%BD"|decode_uri` vr�
 - `"hello%20world"|decode_uri` vráti `"hello world"`.
 - Ak dekódovanie zlyhá, vráti pôvodný reťazec (napr. chybné URI sekvencie).
 
+### `encode_uri`
+
+Zakóduje text na použitie v URL, vrátane vyhradených znakov ako `/`, `?` a `&`.
+
+- `"hello world/page"|encode_uri` vráti `hello%20world%2Fpage`.
+
+### `indent`
+
+Odsadí každý neprázdny riadok medzerami. Predvolene používa dve medzery.
+
+- `indent:4` odsadí každý riadok o štyri medzery.
+- `indent:0` ponechá text nezmenený.
+
 ### `kebab`
 
 Konvertuje text na `kebab-case`.
@@ -102,6 +115,21 @@ Odstráni biele znaky z oboch koncov reťazca.
 
 - `"  hello world  "|trim` vráti `"hello world"`.
 
+### `truncate`
+
+Skráti text na zadaný počet znakov a ukončí ho znakom `…`. Prípona sa počíta do limitu.
+
+- `"A concise introduction"|truncate:10` vráti `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` vráti `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` vráti `A concise`.
+
+### `truncatewords`
+
+Skráti text na zadaný počet slov a pridá `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` vráti `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` vráti `A concise introduction`.
+
 ### `unescape`
 
 Konvertuje escapované úvodzovky a sekvencie nového riadku na doslovné znaky.
@@ -128,6 +156,13 @@ Aplikovanie [[Základná syntax formátovania|základnej syntaxe formátovania]]
 
 Pridá Markdown prefix citátu (`> `) na každý riadok vstupu.
 
+### `bold`
+
+Obalí text značkami tučného písma.
+
+- `"Important"|bold` vráti `**Important**`.
+- `"Important"|bold:_` vráti `__Important__`.
+
 ### `callout`
 
 Vytvorí [[Popisy|zvýraznený blok]] s voliteľnými parametrami: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Vytvorí [[Popisy|zvýraznený blok]] s voliteľnými parametrami: `{{variable|c
 - `type` je typ zvýrazneného bloku, predvolene "info"
 - `title` je nadpis zvýrazneného bloku, predvolene prázdny
 - `foldState` je boolean na nastavenie stavu zbalenia (true pre zbalený, false pre rozbalený, null pre nezbaľovateľný)
+
+### `code`
+
+Formátuje text ako inline kód. Viacriadkový text alebo parameter jazyka vytvorí ohraničený blok kódu.
+
+- `"const answer = 42"|code` vráti `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` vráti blok kódu označený ako `typescript`.
+
+### `code_block`
+
+Vždy vytvorí ohraničený blok kódu s voliteľným jazykom, napr. `code_block:"typescript"`.
+
+### `comment`
+
+Obalí text značkami [[Základná syntax formátovania#Komentáre|komentára]].
+
+- `"Hidden note"|comment` vráti `%%Hidden note%%`.
+
+### `embed`
+
+Konvertuje reťazce, polia alebo objekty na [[Vloženie súborov|vložené súbory]].
+
+- Pre reťazce: `"diagram.png"|embed` vráti `![[diagram.png]]`.
+- Pre reťazce s aliasom: `"Project Atlas"|embed:"Preview"` vráti `![[Project Atlas|Preview]]`.
+- Pre objekty: `{"one.md": "One", "two.md": "Two"}|embed` vráti vloženia s kľúčmi ako súbormi a hodnotami ako aliasmi.
+
+### `escape_md`
+
+Pridá spätné lomítko pred Markdown interpunkciu, aby sa zobrazila ako obyčajný text.
+
+- `"# Draft *title*"|escape_md` vráti `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Konvertuje reťazce a polia na odkazy [textových fragmentov](https://developer.
 - `highlights|fragment_link` vráti `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` vráti `Highlight content [custom title](text-fragment-url)`
 
+### `h1` až `h6`
+
+Zmení každý neprázdny riadok na nadpis danej úrovne.
+
+- `"Introduction"|h2` vráti `## Introduction`.
+
+### `hard_break`
+
+Pridá dve medzery pred každé jednoduché zalomenie riadku, aby sa zalomenia zobrazili v režime čítania. Prázdne riadky medzi odsekmi zostávajú nezmenené.
+
+### `highlight`
+
+Obalí text značkami zvýraznenia.
+
+- `"Remember this"|highlight` vráti `==Remember this==`.
+- Pridajte [[Základná syntax formátovania#Farby zvýraznenia|farbu zvýraznenia]] pomocou `red`, `orange`, `yellow`, `green`, `blue` alebo `purple`, napr. `"Remember this"|highlight:blue` vráti `==🔵Remember this==`.
+
+### `hr`
+
+Pridá vodorovnú čiaru (`---`) za text, oddelenú prázdnym riadkom.
+
+- `"Section end"|hr` pridá čiaru za text.
+- `hr:before` ju pridá pred text a `hr:both` ju pridá na obe strany.
+
 ### `image`
 
 Konvertuje reťazce, polia alebo objekty na Markdown syntax obrázkov.
@@ -157,6 +247,13 @@ Konvertuje reťazce, polia alebo objekty na Markdown syntax obrázkov.
 - Pre reťazce: `"image.jpg"|image:"alt text"` vráti `![alt text](image.jpg)`.
 - Pre polia: `["image1.jpg","image2.jpg"]|image:"alt text"` vráti pole Markdown reťazcov obrázkov s rovnakým alternatívnym textom pre všetky obrázky.
 - Pre objekty: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` vráti Markdown reťazce obrázkov s alternatívnym textom z kľúčov objektu.
+
+### `italic`
+
+Obalí text značkami kurzívy.
+
+- `"Emphasized"|italic` vráti `*Emphasized*`.
+- `"Emphasized"|italic:_` vráti `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Konvertuje pole na Markdown zoznam.
 - `list:numbered` na konverziu na číslovaný zoznam.
 - `list:numbered-task` na konverziu na zoznam úloh s číslovaním.
 
+### `math`
+
+Formátuje text ako inline [[Rozšírená syntax formátovania#Matematika|matematiku]]. Viacriadkový text sa stane matematickým blokom.
+
+- `"x^2 + y^2"|math` vráti `$x^2 + y^2$`.
+
+### `math_block`
+
+Vždy vytvorí matematický blok s `$$` na riadkoch pred a za textom.
+
+### `strike`
+
+Obalí text značkami prečiarknutia.
+
+- `"Removed"|strike` vráti `~~Removed~~`.
+
 ### `table`
 
 Konvertuje pole alebo pole objektov na [[Rozšírená syntax formátovania#Tabuľky|Markdown tabuľku]]:
@@ -183,6 +296,10 @@ Konvertuje pole alebo pole objektov na [[Rozšírená syntax formátovania#Tabu�
 - Pre pole polí vytvorí tabuľku s každým vnoreným poľom ako riadkom.
 - Pre jednoduché pole vytvorí tabuľku s jedným stĺpcom s hlavičkou "Value".
 - Vlastné hlavičky stĺpcov je možné zadať pomocou: `table:("Column 1", "Column 2", "Column 3")`. Pri použití s jednoduchým poľom automaticky rozdelí dáta do riadkov podľa počtu zadaných stĺpcov.
+
+### `table_pretty`
+
+Funguje ako [[Filtre#`table`|table]] a doplní stĺpce na rovnakú šírku, aby bola tabuľka zarovnaná v režime zdroja.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Konvertuje reťazce, polia alebo objekty na Obsidian [[Prepojenie poznámok|wiki
 
 ## Čísla
 
+`calc`, `round` a `length` vracajú čísla, pričom zachovávajú ich typ v ďalších filtroch a priradeniach premenných. `number_format` vracia text.
+
 ### `calc`
 
 Vykonáva základné aritmetické operácie s číslami.
@@ -203,7 +322,7 @@ Vykonáva základné aritmetické operácie s číslami.
 - Podporuje operátory: `+`, `-`, `*`, `/`, `**` (alebo `^`) pre umocňovanie.
 - Príklad: `5|calc:"+10"` vráti `15`.
 - Príklad: `2|calc:"**3"` vráti `8` (2 na tretiu).
-- Ak vstup nie je číslo, vráti pôvodný reťazec.
+- Ak je vstup prázdny, nie je číslo alebo výpočet produkuje nekonečný výsledok, vráti pôvodný vstup.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Vráti dĺžku reťazcov, polí alebo počet kľúčov v objektoch.
 
 - Pre reťazce: `"hello"|length` vráti `5`.
 - Pre polia: `["a","b","c"]|length` vráti `3`.
+- Pole s jednou položkou sa stále počíta ako jedna: `[42]|length` vráti `1`.
 - Pre objekty: `{"a":1,"b":2}|length` vráti `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Zaokrúhli číslo na najbližšie celé číslo alebo na zadaný počet desatin
 
 - Bez parametrov: `3.7|round` vráti `4`.
 - So zadanými desatinnými miestami: `3.14159|round:2` vráti `3.14`.
+- Polia a objekty si zachovávajú štruktúru, pričom číselné hodnoty sú zaokrúhlené rekurzívne. Číselné reťazce sa stanú číslami, napr. `["1.234","2.345"]|round:2` vráti `[1.23,2.35]`.
+- Neplatný vstup ako `"42abc"` je zachovaný namiesto konverzie na číslo.
 
 ## Spracovanie HTML
 
@@ -246,7 +368,7 @@ Konvertuje reťazec na reťazec formátovaný v [[Obsidian Flavored Markdown]].
 
 Odstráni iba zadané HTML atribúty zo značiek.
 
-- Príklad: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` vráti `<div id="example">Content</div>`.
+- Príklad: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` vráti `<div id="example">Content</div>`.
 - Viacero atribútov: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Nahradí HTML značky, pričom zachová obsah a atribúty značky.
 Odstráni **všetky** HTML atribúty z reťazca.
 
 - Použite `strip_attr:("class, id")` na zachovanie konkrétnych atribútov.
-- Príklad: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` vráti `<div class="test">Content</div>`.
+- Príklad: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` vráti `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Odstráni **všetko** Markdown formátovanie a vráti reťazec obyčajného text
 
 - Zmení formátovaný text na neformátovaný obyčajný text, vrátane tučného, kurzívy, zvýraznení, nadpisov, kódu, blokových citácií, tabuliek, zoznamov úloh a wiki odkazov.
 - Úplne odstráni tabuľky, poznámky pod čiarou, obrázky a HTML elementy.
+- `stripmd` je alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Odstráni **všetky** HTML značky z reťazca. Obsah v rámci značky je zachova
 
 Spracovanie polí a objektov.
 
+### `compact`
+
+Odstráni hodnoty `null` a prázdne reťazce z polí a objektov. Zachová `0` a `false`.
+
+- `[null,"","one",0,false,"two"]|compact` vráti `["one",0,false,"two"]`.
+
 ### `first`
 
-Vráti prvý element poľa ako reťazec.
+Vráti prvý element poľa, pričom zachová jeho typ. Objekty a vnorené polia sa zobrazujú ako JSON.
 
 - `["a","b","c"]|first` vráti `"a"`.
+- Prázdne pole vráti `null`, čo sa zobrazí ako prázdny text.
 - Ak vstup nie je pole, vráti vstup nezmenený.
 
 ### `join`
@@ -311,9 +441,10 @@ Spojí elementy poľa do reťazca.
 
 ### `last`
 
-Vráti posledný element poľa ako reťazec.
+Vráti posledný element poľa, pričom zachová jeho typ. Objekty a vnorené polia sa zobrazujú ako JSON.
 
 - `["a","b","c"]|last` vráti `"c"`.
+- Prázdne pole vráti `null`, čo sa zobrazí ako prázdny text.
 - Ak vstup nie je pole, vráti vstup nezmenený.
 
 ### `map`
@@ -346,6 +477,8 @@ Zachová n-té položky v poli pomocou CSS nth-child syntaxe a skupinových vzor
 - `array|nth:3n` zachová každý 3. element (3, 6, 9, atď.).
 - `array|nth:n+3` zachová 3. a všetky nasledujúce elementy.
 
+Výsledok zostáva poľom pre ďalšie kolekčné filtre. Ak obsahuje jednu primitívnu hodnotu, táto hodnota sa zobrazí bez hranatých zátvoriek a odovzdá sa priamo textovým filtrom, napr. `[1,2]|nth:2` zobrazí `2`.
+
 Syntax skupinového vzoru pre opakujúce sa štruktúry:
 
 - `array|nth:1,2,3:5` zachová pozície 1, 2, 3 z každej skupiny 5 položiek. Príklad: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` vráti `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipuluje s dátami objektu:
 - `object:keys` vráti pole kľúčov objektu.
 - `object:values` vráti pole hodnôt objektu.
 - Príklad: `{"a":1,"b":2}|object:array` vráti `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Parsuje JSON text na typovanú hodnotu. Použite pred kolekčnými filtrami alebo YAML serializáciou, keď premenná obsahuje JSON text, napr. `'[1,2]'|parse_json|yaml:flow` vráti `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Extrahuje časť reťazca alebo poľa.
 - Druhý parameter je exkluzívny: `"hello"|slice:1,4` obsahuje znaky na indexoch 1, 2 a 3.
 - Použitie záporného druhého parametra vylúči elementy od konca: `"hello"|slice:0,-2` vráti `"hel"`.
 
+### `sort`
+
+Zoradí pole vo vzostupnom poradí. Čísla sa radia podľa hodnoty.
+
+- `[10,2,1]|sort` vráti `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` vráti `["c","b","a"]`.
+- Pre polia objektov zadajte vlastnosť: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` vráti `[{"name":"Ada"},{"name":"Lin"}]`. Použite `sort:("name", "desc")` na obrátenie poradia. Položky bez danej vlastnosti sa zaradia na koniec.
+
 ### `split`
 
 Rozdelí reťazec na pole podreťazcov.
@@ -384,7 +529,14 @@ Rozdelí reťazec na pole podreťazcov.
 - `"a,b,c"|split:","` vráti `["a","b","c"]`.
 - `"hello world"|split:" "` vráti `["hello","world"]`.
 - Ak nie je zadaný oddeľovač, rozdelí na každý znak: `"hello"|split` vráti `["h","e","l","l","o"]`.
-- Regulárne výrazy je možné použiť ako oddeľovače: `"a1b2c3"|split:[0-9]` vráti `["a","b","c"]`.
+- Regulárne výrazy je možné použiť ako oddeľovače: `"a1b2c3"|split:[0-9]` vráti `["a","b","c",""]`. Posledná položka je prázdna, pretože reťazec končí oddeľovačom.
+
+### `sum`
+
+Sčíta čísla v poli. Text, ktorý nie je číslo, sa preskočí a prázdne pole vráti `0`.
+
+- `[10,"2.5","","none"]|sum` vráti `12.5`.
+- Pre polia objektov zadajte vlastnosť: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` vráti `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Odstráni duplicitné hodnoty z polí a objektov.
 - Pre polia objektov: `[{"a":1},{"b":2},{"a":1}]|unique` vráti `[{"a":1},{"b":2}]`.
 - Pre objekty odstráni vlastnosti s duplicitnými hodnotami, pričom zachová kľúč posledného výskytu.
 - Pre reťazce vráti vstup nezmenený.
+
+### `where`
+
+Zachová položky poľa, ktorých vlastnosť zodpovedá hodnote. Typ musí tiež zodpovedať, takže číslo `1` sa nezhoduje s textom `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` vráti `[{"title":"One","published":true}]`.
+- Použite bodkovanú cestu pre vnorené vlastnosti, napr. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formátuje hodnotu ako YAML. Reťazce sú vždy v úvodzovkách, vrátane reťazcov ako `"null"`, `"true"` a `"123"`. Skutočné null, boolean a čísla zostávajú bez úvodzoviek.
+
+- Polia a objekty predvolene používajú blokový štýl. Použite `yaml:flow` pre kompaktné inline kolekcie.
+- Použite `parse_json` najprv na serializáciu JSON textu ako štruktúrovaných dát namiesto reťazca v úvodzovkách.
+
+### `yaml_property`
+
+Formátuje pomenovanú YAML vlastnosť vrátane odsadenia pre polia a objekty. Reťazce a typované hodnoty sa riadia rovnakými pravidlami ako `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` vráti `price: 42.57`.

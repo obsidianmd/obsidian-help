@@ -105,7 +105,7 @@ Schema-variabler lar deg hente ut data fra [schema.org](https://schema.org/) JSO
 
 - `{{schema:@Type:key}}` returnerer verdien av nøkkelen fra skjemaet.
 - `{{schema:@Type:parent.child}}` returnerer verdien av en nestet egenskap.
-- `{{schema:@Type:arrayKey}}` returnerer det første elementet i en matrise.
+- `{{schema:@Type:arrayKey}}` returnerer hele matrisen. Bruk `{{schema:@Type:arrayKey[0]}}` for å returnere det første elementet.
 - `{{schema:@Type:arrayKey[index].property}}` returnerer elementet ved den angitte indeksen i en matrise.
 - `{{schema:@Type:arrayKey[*].property}}` returnerer en spesifikk egenskap fra alle elementer i en matrise.
 

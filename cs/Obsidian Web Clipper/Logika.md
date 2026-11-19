@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Používejte podmínky, smyčky a přiřazení proměnných v šablonách Web Clipperu.'
 ---
-[[Úvod do Obsidian Web Clipper|Web Clipper]] podporuje šablonovou logiku pro podmínky, smyčky a přiřazení proměnných. Tato syntaxe je inspirována šablonovacími jazyky [Twig](https://twig.symfony.com/) a [Liquid](https://shopify.github.io/liquid/).
+[[Úvod do Obsidian Web Clipper|Web Clipper]] podporuje šablonovou logiku pro podmínky, smyčky a přiřazení proměnných. Tato syntaxe se nazývá [Knap](https://github.com/obsidianmd/knap).
 
 
 ## Podmínky
@@ -62,6 +62,12 @@ Příklady:
 - `{% if draft or archived %}` — jedna z podmínek
 - `{% if not hidden %}` — negace
 - `{% if (premium or featured) and published %}` — seskupené podmínky
+
+Každá strana logického operátoru musí být úplný výraz. Například pro kontrolu, zda řetězec obsahuje jednu z několika hodnot:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Pravdivost
 

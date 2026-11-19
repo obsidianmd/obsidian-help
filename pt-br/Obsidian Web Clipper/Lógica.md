@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Use condicionais, loops e atribuição de variáveis em modelos do Web Clipper.'
 ---
-O [[Introdução ao Obsidian Web Clipper|Web Clipper]] suporta lógica de modelos para condicionais, loops e atribuição de variáveis. Essa sintaxe é inspirada nas linguagens de modelagem [Twig](https://twig.symfony.com/) e [Liquid](https://shopify.github.io/liquid/).
+O [[Introdução ao Obsidian Web Clipper|Web Clipper]] suporta lógica de modelos para condicionais, loops e atribuição de variáveis. Essa sintaxe é chamada [Knap](https://github.com/obsidianmd/knap).
 
 ## Condicionais
 
@@ -61,6 +61,12 @@ Exemplos:
 - `{% if draft or archived %}` — qualquer uma das condições
 - `{% if not hidden %}` — negação
 - `{% if (premium or featured) and published %}` — condições agrupadas
+
+Cada lado de um operador lógico deve ser uma expressão completa. Por exemplo, para verificar se uma string contém um de vários valores:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Avaliação de veracidade
 

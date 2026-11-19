@@ -10,7 +10,7 @@ Sablon **létrehozásához** nyisd meg a Web Clipper beállításait, és kattin
 
 Sablon **szerkesztéséhez** válassz egy sablont az oldalsávból. A módosítások automatikusan mentésre kerülnek.
 
-A sablonok [[Változók|változókat]] és [[Szűrők|szűrőket]] használnak, amelyekkel testre szabhatod, hogyan kerüljön mentésre a tartalom.
+A sablonok [[Változók|változókat]], [[Szűrők|szűrőket]] és [[Logika|logikát]] használnak, amelyekkel testre szabhatod, hogyan kerüljön mentésre a tartalom.
 
 ## Web Clipper sablonok importálása és exportálása
 

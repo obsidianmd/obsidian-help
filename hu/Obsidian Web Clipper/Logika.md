@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Feltételes kifejezések, ciklusok és változó-hozzárendelés használata a Web Clipper sablonokban.'
 ---
-Az [[Bevezetés az Obsidian Web Clipper használatába|Web Clipper]] támogatja a sablonlogikát feltételes kifejezésekhez, ciklusokhoz és változó-hozzárendeléshez. Ez a szintaxis a [Twig](https://twig.symfony.com/) és a [Liquid](https://shopify.github.io/liquid/) sablonnyelvekből merít ihletet.
+Az [[Bevezetés az Obsidian Web Clipper használatába|Web Clipper]] támogatja a sablonlogikát feltételes kifejezésekhez, ciklusokhoz és változó-hozzárendeléshez. Ez a szintaxis a [Knap](https://github.com/obsidianmd/knap) nevet viseli.
 
 ## Feltételes kifejezések
 
@@ -61,6 +61,12 @@ Példák:
 - `{% if draft or archived %}` — bármelyik feltétel
 - `{% if not hidden %}` — tagadás
 - `{% if (premium or featured) and published %}` — csoportosított feltételek
+
+Egy logikai operátor mindkét oldalán teljes kifejezésnek kell állnia. Például, ha azt szeretnéd ellenőrizni, hogy egy szöveg tartalmaz-e több érték egyikét:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Igazság-értékelés
 

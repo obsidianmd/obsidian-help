@@ -52,6 +52,19 @@ Dekoduje ciąg zakodowany w URI, np. `"%E4%BD%A0%E5%A5%BD"|decode_uri` zwraca `"
 - `"hello%20world"|decode_uri` zwraca `"hello world"`.
 - Zwraca oryginalny ciąg, jeśli dekodowanie się nie powiedzie (np. nieprawidłowe sekwencje URI).
 
+### `encode_uri`
+
+Koduje tekst do użycia w adresie URL, w tym znaki zarezerwowane, takie jak `/`, `?` i `&`.
+
+- `"hello world/page"|encode_uri` zwraca `hello%20world%2Fpage`.
+
+### `indent`
+
+Dodaje wcięcie z użyciem spacji do każdej niepustej linii. Domyślnie dwie spacje.
+
+- `indent:4` dodaje wcięcie czterech spacji do każdej linii.
+- `indent:0` pozostawia tekst bez zmian.
+
 ### `kebab`
 
 Konwertuje tekst na `kebab-case`.
@@ -102,6 +115,21 @@ Usuwa białe znaki z obu końców ciągu.
 
 - `"  hello world  "|trim` zwraca `"hello world"`.
 
+### `truncate`
+
+Skraca tekst do określonej liczby znaków i kończy go znakiem `…`. Sufiks jest wliczany do limitu.
+
+- `"A concise introduction"|truncate:10` zwraca `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` zwraca `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` zwraca `A concise`.
+
+### `truncatewords`
+
+Skraca tekst do określonej liczby słów i dodaje `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` zwraca `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` zwraca `A concise introduction`.
+
 ### `unescape`
 
 Konwertuje sekwencje ucieczki cudzysłowów i znaków nowej linii na znaki dosłowne.
@@ -128,6 +156,13 @@ Zastosowanie [[Podstawowa składnia formatowania|podstawowej składni formatowan
 
 Dodaje prefix cytatu Markdown (`> `) do każdej linii danych wejściowych.
 
+### `bold`
+
+Otacza tekst znacznikami pogrubienia.
+
+- `"Important"|bold` zwraca `**Important**`.
+- `"Important"|bold:_` zwraca `__Important__`.
+
 ### `callout`
 
 Tworzy [[Objaśnienia|blok wyróżnienia]] z opcjonalnymi parametrami: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Tworzy [[Objaśnienia|blok wyróżnienia]] z opcjonalnymi parametrami: `{{variab
 - `type` to rodzaj objaśnienia, domyślnie "info"
 - `title` to tytuł objaśnienia, domyślnie pusty
 - `foldState` to wartość logiczna ustawiająca stan zwijania (true — zwinięty, false — rozwinięty, null — nie do zwijania)
+
+### `code`
+
+Formatuje tekst jako kod w linii. Tekst wieloliniowy lub parametr języka tworzy zamiast tego blok kodu z ogrodzeniem.
+
+- `"const answer = 42"|code` zwraca `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` zwraca blok kodu oznaczony jako `typescript`.
+
+### `code_block`
+
+Zawsze tworzy blok kodu z ogrodzeniem, z opcjonalnym językiem, np. `code_block:"typescript"`.
+
+### `comment`
+
+Otacza tekst znacznikami [[Podstawowa składnia formatowania#Komentarze|komentarza]].
+
+- `"Hidden note"|comment` zwraca `%%Hidden note%%`.
+
+### `embed`
+
+Konwertuje ciągi, tablice lub obiekty na [[Osadzanie plików|osadzenia]].
+
+- Dla ciągów: `"diagram.png"|embed` zwraca `![[diagram.png]]`.
+- Dla ciągów z aliasem: `"Project Atlas"|embed:"Preview"` zwraca `![[Project Atlas|Preview]]`.
+- Dla obiektów: `{"one.md": "One", "two.md": "Two"}|embed` zwraca osadzenia z kluczami jako plikami i wartościami jako aliasami.
+
+### `escape_md`
+
+Dodaje odwrotny ukośnik przed znakami interpunkcyjnymi Markdown, aby wyświetlały się jako zwykły tekst.
+
+- `"# Draft *title*"|escape_md` zwraca `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Konwertuje ciągi i tablice na linki [fragmentów tekstowych](https://developer.
 - `highlights|fragment_link` zwraca `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` zwraca `Highlight content [custom title](text-fragment-url)`
 
+### `h1` do `h6`
+
+Zamienia każdą niepustą linię w nagłówek odpowiedniego poziomu.
+
+- `"Introduction"|h2` zwraca `## Introduction`.
+
+### `hard_break`
+
+Dodaje dwie spacje przed każdym pojedynczym znakiem nowej linii, dzięki czemu podziały linii są widoczne w trybie odczytu. Puste linie między akapitami pozostają bez zmian.
+
+### `highlight`
+
+Otacza tekst znacznikami wyróżnienia.
+
+- `"Remember this"|highlight` zwraca `==Remember this==`.
+- Dodaj [[Podstawowa składnia formatowania#Kolory wyróżnień|kolor wyróżnienia]] za pomocą `red`, `orange`, `yellow`, `green`, `blue` lub `purple`, np. `"Remember this"|highlight:blue` zwraca `==🔵Remember this==`.
+
+### `hr`
+
+Dodaje linię poziomą (`---`) po tekście, oddzieloną pustą linią.
+
+- `"Section end"|hr` dodaje linię po tekście.
+- `hr:before` dodaje ją przed tekstem, a `hr:both` dodaje po obu stronach.
+
 ### `image`
 
 Konwertuje ciągi, tablice lub obiekty na składnię obrazów Markdown.
@@ -157,6 +247,13 @@ Konwertuje ciągi, tablice lub obiekty na składnię obrazów Markdown.
 - Dla ciągów: `"image.jpg"|image:"alt text"` zwraca `![alt text](image.jpg)`.
 - Dla tablic: `["image1.jpg","image2.jpg"]|image:"alt text"` zwraca tablicę ciągów obrazów Markdown z tym samym tekstem alternatywnym dla wszystkich obrazów.
 - Dla obiektów: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` zwraca ciągi obrazów Markdown z tekstem alternatywnym z kluczy obiektu.
+
+### `italic`
+
+Otacza tekst znacznikami kursywy.
+
+- `"Emphasized"|italic` zwraca `*Emphasized*`.
+- `"Emphasized"|italic:_` zwraca `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Konwertuje tablicę na listę Markdown.
 - `list:numbered` konwertuje na listę numerowaną.
 - `list:numbered-task` konwertuje na listę zadań z numeracją.
 
+### `math`
+
+Formatuje tekst jako [[Zaawansowana składnia formatowania#Matematyka|formułę matematyczną]] w linii. Tekst wieloliniowy tworzy blok matematyczny.
+
+- `"x^2 + y^2"|math` zwraca `$x^2 + y^2$`.
+
+### `math_block`
+
+Zawsze tworzy blok matematyczny z `$$` w liniach przed i po tekście.
+
+### `strike`
+
+Otacza tekst znacznikami przekreślenia.
+
+- `"Removed"|strike` zwraca `~~Removed~~`.
+
 ### `table`
 
 Konwertuje tablicę lub tablicę obiektów na [[Zaawansowana składnia formatowania#Tabele|tabelę Markdown]]:
@@ -183,6 +296,10 @@ Konwertuje tablicę lub tablicę obiektów na [[Zaawansowana składnia formatowa
 - Dla tablicy tablic tworzy tabelę, w której każda zagnieżdżona tablica stanowi wiersz.
 - Dla prostej tablicy tworzy tabelę jednokolumnową z nagłówkiem "Value".
 - Niestandardowe nagłówki kolumn można określić za pomocą: `table:("Column 1", "Column 2", "Column 3")`. W przypadku użycia z prostą tablicą automatycznie dzieli dane na wiersze na podstawie liczby określonych kolumn.
+
+### `table_pretty`
+
+Działa jak [[Filtry#`table`|table]] i dopełnia kolumny do równej szerokości, aby tabela była wyrównana w trybie źródłowym.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Konwertuje ciągi, tablice lub obiekty na składnię [[Łączenie notatek|odnoś
 
 ## Liczby
 
+`calc`, `round` i `length` zwracają liczby, zachowując ich typ w kolejnych filtrach i przypisaniach zmiennych. `number_format` zwraca tekst.
+
 ### `calc`
 
 Wykonuje podstawowe operacje arytmetyczne na liczbach.
@@ -203,7 +322,7 @@ Wykonuje podstawowe operacje arytmetyczne na liczbach.
 - Obsługiwane operatory: `+`, `-`, `*`, `/`, `**` (lub `^`) dla potęgowania.
 - Przykład: `5|calc:"+10"` zwraca `15`.
 - Przykład: `2|calc:"**3"` zwraca `8` (2 do sześcianu).
-- Zwraca oryginalny ciąg, jeśli dane wejściowe nie są liczbą.
+- Zwraca oryginalne dane wejściowe, jeśli są puste, nie są liczbą lub obliczenie daje nieskończony wynik.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Zwraca długość ciągów, tablic lub liczbę kluczy w obiektach.
 
 - Dla ciągów: `"hello"|length` zwraca `5`.
 - Dla tablic: `["a","b","c"]|length` zwraca `3`.
+- Tablica z jednym elementem nadal liczy się jako jeden: `[42]|length` zwraca `1`.
 - Dla obiektów: `{"a":1,"b":2}|length` zwraca `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Zaokrągla liczbę do najbliższej liczby całkowitej lub do określonej liczby 
 
 - Bez parametrów: `3.7|round` zwraca `4`.
 - Z określoną liczbą miejsc po przecinku: `3.14159|round:2` zwraca `3.14`.
+- Tablice i obiekty zachowują swoją strukturę, a wartości liczbowe są zaokrąglane rekurencyjnie. Ciągi liczbowe stają się liczbami, np. `["1.234","2.345"]|round:2` zwraca `[1.23,2.35]`.
+- Nieprawidłowe dane wejściowe, takie jak `"42abc"`, są zachowywane bez konwersji na liczbę.
 
 ## Przetwarzanie HTML
 
@@ -246,7 +368,7 @@ Konwertuje ciąg na ciąg sformatowany w [[Obsidian Flavored Markdown]].
 
 Usuwa tylko określone atrybuty HTML z tagów.
 
-- Przykład: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` zwraca `<div id="example">Content</div>`.
+- Przykład: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` zwraca `<div id="example">Content</div>`.
 - Wiele atrybutów: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Zastępuje tagi HTML, zachowując zawartość i atrybuty tagu.
 Usuwa **wszystkie** atrybuty HTML z ciągu.
 
 - Użyj `strip_attr:("class, id")`, aby zachować określone atrybuty.
-- Przykład: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` zwraca `<div class="test">Content</div>`.
+- Przykład: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` zwraca `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Usuwa **całe** formatowanie Markdown i zwraca ciąg zwykłego tekstu, np. zamie
 
 - Zamienia sformatowany tekst na niesformatowany zwykły tekst, w tym pogrubienie, kursywę, wyróżnienia, nagłówki, kod, cytaty blokowe, tabele, listy zadań i odnośniki wiki.
 - Całkowicie usuwa tabele, przypisy, obrazy i elementy HTML.
+- `stripmd` jest aliasem.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Usuwa **wszystkie** tagi HTML z ciągu. Zawartość wewnątrz tagu jest zachowyw
 
 Przetwarzanie tablic i obiektów.
 
+### `compact`
+
+Usuwa wartości `null` i puste ciągi z tablic i obiektów. Zachowuje `0` i `false`.
+
+- `[null,"","one",0,false,"two"]|compact` zwraca `["one",0,false,"two"]`.
+
 ### `first`
 
-Zwraca pierwszy element tablicy jako ciąg.
+Zwraca pierwszy element tablicy, zachowując jego typ. Obiekty i zagnieżdżone tablice są wyświetlane jako JSON.
 
 - `["a","b","c"]|first` zwraca `"a"`.
+- Pusta tablica zwraca `null`, co wyświetla się jako pusty tekst.
 - Jeśli dane wejściowe nie są tablicą, zwraca dane wejściowe bez zmian.
 
 ### `join`
@@ -311,9 +441,10 @@ Zwraca pierwszy element tablicy jako ciąg.
 
 ### `last`
 
-Zwraca ostatni element tablicy jako ciąg.
+Zwraca ostatni element tablicy, zachowując jego typ. Obiekty i zagnieżdżone tablice są wyświetlane jako JSON.
 
 - `["a","b","c"]|last` zwraca `"c"`.
+- Pusta tablica zwraca `null`, co wyświetla się jako pusty tekst.
 - Jeśli dane wejściowe nie są tablicą, zwraca dane wejściowe bez zmian.
 
 ### `map`
@@ -346,6 +477,8 @@ Zachowuje n-te elementy tablicy, używając składni w stylu CSS nth-child i wzo
 - `array|nth:3n` zachowuje co trzeci element (3, 6, 9 itd.).
 - `array|nth:n+3` zachowuje trzeci i wszystkie kolejne elementy.
 
+Wynik pozostaje tablicą dla kolejnych filtrów kolekcji. Jeśli zawiera pojedynczą wartość prymitywną, ta wartość jest wyświetlana bez nawiasów tablicowych i przekazywana bezpośrednio do filtrów tekstowych, np. `[1,2]|nth:2` wyświetla `2`.
+
 Składnia wzorca grupowego dla powtarzających się struktur:
 
 - `array|nth:1,2,3:5` zachowuje pozycje 1, 2, 3 z każdej grupy 5 elementów. Przykład: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` zwraca `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipuluje danymi obiektu:
 - `object:keys` zwraca tablicę kluczy obiektu.
 - `object:values` zwraca tablicę wartości obiektu.
 - Przykład: `{"a":1,"b":2}|object:array` zwraca `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Parsuje tekst JSON na wartość z zachowaniem typu. Użyj tego przed filtrami kolekcji lub serializacją YAML, gdy zmienna zawiera tekst JSON, np. `'[1,2]'|parse_json|yaml:flow` zwraca `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Wyodrębnia fragment ciągu lub tablicy.
 - Drugi parametr jest wyłączny: `"hello"|slice:1,4` zawiera znaki o indeksach 1, 2 i 3.
 - Użycie ujemnego drugiego parametru wyklucza elementy od końca: `"hello"|slice:0,-2` zwraca `"hel"`.
 
+### `sort`
+
+Sortuje tablicę w kolejności rosnącej. Liczby są sortowane według wartości.
+
+- `[10,2,1]|sort` zwraca `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` zwraca `["c","b","a"]`.
+- Dla tablic obiektów podaj właściwość: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` zwraca `[{"name":"Ada"},{"name":"Lin"}]`. Użyj `sort:("name", "desc")`, aby odwrócić kolejność. Elementy bez danej właściwości trafiają na koniec.
+
 ### `split`
 
 Dzieli ciąg na tablicę podciągów.
@@ -384,7 +529,14 @@ Dzieli ciąg na tablicę podciągów.
 - `"a,b,c"|split:","` zwraca `["a","b","c"]`.
 - `"hello world"|split:" "` zwraca `["hello","world"]`.
 - Jeśli nie podano separatora, dzieli na każdy znak: `"hello"|split` zwraca `["h","e","l","l","o"]`.
-- Wyrażenia regularne mogą być używane jako separatory: `"a1b2c3"|split:[0-9]` zwraca `["a","b","c"]`.
+- Wyrażenia regularne mogą być używane jako separatory: `"a1b2c3"|split:[0-9]` zwraca `["a","b","c",""]`. Ostatni element jest pusty, ponieważ ciąg kończy się separatorem.
+
+### `sum`
+
+Sumuje liczby w tablicy. Tekst, który nie jest liczbą, jest pomijany, a pusta tablica zwraca `0`.
+
+- `[10,"2.5","","none"]|sum` zwraca `12.5`.
+- Dla tablic obiektów podaj właściwość: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` zwraca `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Usuwa zduplikowane wartości z tablic i obiektów.
 - Dla tablic obiektów: `[{"a":1},{"b":2},{"a":1}]|unique` zwraca `[{"a":1},{"b":2}]`.
 - Dla obiektów usuwa właściwości ze zduplikowanymi wartościami, zachowując klucz ostatniego wystąpienia.
 - Dla ciągów zwraca dane wejściowe bez zmian.
+
+### `where`
+
+Zachowuje elementy tablicy, których właściwość odpowiada podanej wartości. Typ musi się również zgadzać, więc liczba `1` nie pasuje do tekstu `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` zwraca `[{"title":"One","published":true}]`.
+- Użyj ścieżki z kropką dla zagnieżdżonych właściwości, np. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formatuje wartość jako YAML. Ciągi są zawsze ujęte w cudzysłowy, w tym ciągi takie jak `"null"`, `"true"` i `"123"`. Faktyczne wartości null, logiczne i liczbowe pozostają bez cudzysłowów.
+
+- Tablice i obiekty domyślnie używają stylu blokowego. Użyj `yaml:flow` dla kompaktowych kolekcji w linii.
+- Użyj `parse_json` najpierw, aby serializować tekst JSON jako dane strukturalne zamiast ciągu w cudzysłowie.
+
+### `yaml_property`
+
+Formatuje nazwaną właściwość YAML, w tym wcięcia dla tablic i obiektów. Ciągi i wartości typowane podlegają tym samym regułom co `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` zwraca `price: 42.57`.

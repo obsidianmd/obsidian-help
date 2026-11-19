@@ -53,6 +53,19 @@ Décode une chaîne encodée en URI, par ex. `"%E4%BD%A0%E5%A5%BD"|decode_uri` r
 - `"hello%20world"|decode_uri` renvoie `"hello world"`.
 - Renvoie la chaîne originale si le décodage échoue (par ex. séquences URI malformées).
 
+### `encode_uri`
+
+Encode du texte pour une utilisation dans une URL, y compris les caractères réservés tels que `/`, `?` et `&`.
+
+- `"hello world/page"|encode_uri` renvoie `hello%20world%2Fpage`.
+
+### `indent`
+
+Indente chaque ligne non vide avec des espaces. Par défaut, deux espaces.
+
+- `indent:4` indente chaque ligne de quatre espaces.
+- `indent:0` laisse le texte inchangé.
+
 ### `kebab`
 
 Convertit le texte en `kebab-case`.
@@ -103,6 +116,21 @@ Supprime les espaces blancs aux deux extrémités d'une chaîne.
 
 - `"  hello world  "|trim` renvoie `"hello world"`.
 
+### `truncate`
+
+Raccourcit le texte à un nombre de caractères et termine par `…`. Le suffixe est compté dans la limite.
+
+- `"A concise introduction"|truncate:10` renvoie `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` renvoie `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` renvoie `A concise`.
+
+### `truncatewords`
+
+Raccourcit le texte à un nombre de mots et ajoute `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` renvoie `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` renvoie `A concise introduction`.
+
 ### `unescape`
 
 Convertit les guillemets échappés et les séquences de retour à la ligne en caractères littéraux.
@@ -129,6 +157,13 @@ Appliquer la [[Syntaxe de mise en forme de base]] et la [[Syntaxe de mise en for
 
 Ajoute un préfixe de citation Markdown (`> `) à chaque ligne de l'entrée.
 
+### `bold`
+
+Entoure le texte de marqueurs de gras.
+
+- `"Important"|bold` renvoie `**Important**`.
+- `"Important"|bold:_` renvoie `__Important__`.
+
 ### `callout`
 
 Crée un [[Mises en avant (callouts)|encadré]] avec des paramètres optionnels : `{{variable|callout:("type", "titre", étatPli)}}`
@@ -136,6 +171,37 @@ Crée un [[Mises en avant (callouts)|encadré]] avec des paramètres optionnels 
 - `type` est le type d'encadré, par défaut "info"
 - `titre` est le titre de l'encadré, par défaut vide
 - `étatPli` est un booléen pour définir l'état de pliage (true pour plié, false pour déplié, null pour non pliable)
+
+### `code`
+
+Formate le texte en code en ligne. Le texte multiligne, ou un paramètre de langage, crée un bloc de code délimité à la place.
+
+- `"const answer = 42"|code` renvoie `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` renvoie un bloc de code marqué comme `typescript`.
+
+### `code_block`
+
+Crée toujours un bloc de code délimité, avec un langage optionnel, par ex. `code_block:"typescript"`.
+
+### `comment`
+
+Entoure le texte de marqueurs de [[Syntaxe de mise en forme de base#Commentaires|commentaire]].
+
+- `"Hidden note"|comment` renvoie `%%Hidden note%%`.
+
+### `embed`
+
+Convertit les chaînes, tableaux ou objets en [[Intégrer des fichiers|intégrations]].
+
+- Pour les chaînes : `"diagram.png"|embed` renvoie `![[diagram.png]]`.
+- Pour les chaînes avec alias : `"Project Atlas"|embed:"Preview"` renvoie `![[Project Atlas|Preview]]`.
+- Pour les objets : `{"one.md": "One", "two.md": "Two"}|embed` renvoie des intégrations avec les clés comme fichiers et les valeurs comme alias.
+
+### `escape_md`
+
+Ajoute une barre oblique inverse avant la ponctuation Markdown pour qu'elle s'affiche en texte brut.
+
+- `"# Draft *title*"|escape_md` renvoie `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -151,6 +217,30 @@ Convertit les chaînes et les tableaux en liens de [fragment de texte](https://d
 - `highlights|fragment_link` renvoie `Contenu surligné [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` renvoie `Contenu surligné [custom title](text-fragment-url)`
 
+### `h1` à `h6`
+
+Transforme chaque ligne non vide en un entête de ce niveau.
+
+- `"Introduction"|h2` renvoie `## Introduction`.
+
+### `hard_break`
+
+Ajoute deux espaces avant chaque saut de ligne simple, pour que les sauts de ligne s'affichent en mode lecture. Les lignes vides entre les paragraphes restent telles quelles.
+
+### `highlight`
+
+Entoure le texte de marqueurs de surlignage.
+
+- `"Remember this"|highlight` renvoie `==Remember this==`.
+- Ajoutez une [[Syntaxe de mise en forme de base#Couleurs de surlignage|couleur de surlignage]] avec `red`, `orange`, `yellow`, `green`, `blue` ou `purple`, par ex. `"Remember this"|highlight:blue` renvoie `==🔵Remember this==`.
+
+### `hr`
+
+Ajoute une ligne horizontale (`---`) après le texte, séparée par une ligne vide.
+
+- `"Section end"|hr` ajoute la ligne après le texte.
+- `hr:before` l'ajoute avant le texte, et `hr:both` l'ajoute des deux côtés.
+
 ### `image`
 
 Convertit les chaînes, tableaux ou objets en syntaxe d'image Markdown.
@@ -158,6 +248,13 @@ Convertit les chaînes, tableaux ou objets en syntaxe d'image Markdown.
 - Pour les chaînes : `"image.jpg"|image:"texte alt"` renvoie `![texte alt](image.jpg)`.
 - Pour les tableaux : `["image1.jpg","image2.jpg"]|image:"texte alt"` renvoie un tableau de chaînes d'images Markdown avec le même texte alt pour toutes les images.
 - Pour les objets : `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` renvoie des chaînes d'images Markdown avec le texte alt provenant des clés de l'objet.
+
+### `italic`
+
+Entoure le texte de marqueurs d'italique.
+
+- `"Emphasized"|italic` renvoie `*Emphasized*`.
+- `"Emphasized"|italic:_` renvoie `_Emphasized_`.
 
 ### `link`
 
@@ -176,6 +273,22 @@ Convertit un tableau en liste Markdown.
 - `list:numbered` pour convertir en liste numérotée.
 - `list:numbered-task` pour convertir en liste de contrôle numérotée.
 
+### `math`
+
+Formate le texte en [[Syntaxe de mise en forme avancée#Mathématiques|formule mathématique]] en ligne. Le texte multiligne devient un bloc mathématique.
+
+- `"x^2 + y^2"|math` renvoie `$x^2 + y^2$`.
+
+### `math_block`
+
+Crée toujours un bloc mathématique, avec `$$` sur les lignes avant et après le texte.
+
+### `strike`
+
+Entoure le texte de marqueurs de barré.
+
+- `"Removed"|strike` renvoie `~~Removed~~`.
+
 ### `table`
 
 Convertit un tableau ou un tableau d'objets en [[Syntaxe de mise en forme avancée#Tableaux|tableau Markdown]] :
@@ -184,6 +297,10 @@ Convertit un tableau ou un tableau d'objets en [[Syntaxe de mise en forme avanc�
 - Pour un tableau de tableaux, il crée un tableau avec chaque tableau imbriqué comme ligne.
 - Pour un tableau simple, il crée un tableau à une seule colonne avec "Value" comme en-tête.
 - Des en-têtes de colonnes personnalisés peuvent être spécifiés avec : `table:("Colonne 1", "Colonne 2", "Colonne 3")`. Lorsqu'il est utilisé avec un tableau simple, il répartit automatiquement les données en lignes en fonction du nombre de colonnes spécifiées.
+
+### `table_pretty`
+
+Fonctionne comme [[Filtres#`table`|table]], et complète les colonnes à des largeurs égales pour que le tableau soit aligné en mode source.
 
 ### `wikilink`
 
@@ -197,6 +314,8 @@ Convertit les chaînes, tableaux ou objets en syntaxe de [[Lier des notes|lien w
 
 ## Nombres
 
+`calc`, `round` et `length` renvoient des nombres, préservant leur type dans les filtres suivants et les affectations de variables. `number_format` renvoie du texte.
+
 ### `calc`
 
 Effectue des opérations arithmétiques de base sur les nombres.
@@ -204,7 +323,7 @@ Effectue des opérations arithmétiques de base sur les nombres.
 - Opérateurs pris en charge : `+`, `-`, `*`, `/`, `**` (ou `^`) pour l'exponentiation.
 - Exemple : `5|calc:"+10"` renvoie `15`.
 - Exemple : `2|calc:"**3"` renvoie `8` (2 au cube).
-- Renvoie la chaîne originale si l'entrée n'est pas un nombre.
+- Renvoie l'entrée originale si elle est vide, n'est pas un nombre ou si le calcul produit un résultat non fini.
 
 ### `length`
 
@@ -212,6 +331,7 @@ Renvoie la longueur des chaînes, tableaux ou le nombre de clés dans les objets
 
 - Pour les chaînes : `"hello"|length` renvoie `5`.
 - Pour les tableaux : `["a","b","c"]|length` renvoie `3`.
+- Un tableau avec un seul élément compte toujours comme un : `[42]|length` renvoie `1`.
 - Pour les objets : `{"a":1,"b":2}|length` renvoie `2`.
 
 ### `number_format`
@@ -228,6 +348,8 @@ Arrondit un nombre à l'entier le plus proche ou à un nombre spécifié de déc
 
 - Sans paramètres : `3.7|round` renvoie `4`.
 - Avec un nombre de décimales spécifié : `3.14159|round:2` renvoie `3.14`.
+- Les tableaux et les objets conservent leur structure, avec les valeurs numériques arrondies récursivement. Les chaînes numériques deviennent des nombres, par ex. `["1.234","2.345"]|round:2` renvoie `[1.23,2.35]`.
+- Les entrées invalides telles que `"42abc"` sont conservées au lieu d'être converties en nombre.
 
 ## Traitement HTML
 
@@ -247,7 +369,7 @@ Convertit une chaîne en une chaîne formatée en [[Obsidian Flavored Markdown]]
 
 Supprime uniquement les attributs HTML spécifiés des balises.
 
-- Exemple : `"<div class="test" id="example">Contenu</div>"|remove_attr:"class"` renvoie `<div id="example">Contenu</div>`.
+- Exemple : `'<div class="test" id="example">Contenu</div>'|remove_attr:"class"` renvoie `<div id="example">Contenu</div>`.
 - Attributs multiples : `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -275,7 +397,7 @@ Remplace les balises HTML, en conservant le contenu et les attributs de la balis
 Supprime **tous** les attributs HTML d'une chaîne.
 
 - Utilisez `strip_attr:("class, id")` pour conserver des attributs spécifiques.
-- Exemple : `"<div class="test" id="example">Contenu</div>"|strip_attr:("class")` renvoie `<div class="test">Contenu</div>`.
+- Exemple : `'<div class="test" id="example">Contenu</div>'|strip_attr:("class")` renvoie `<div class="test">Contenu</div>`.
 
 ### `strip_md`
 
@@ -283,6 +405,7 @@ Supprime **toute** la mise en forme Markdown et renvoie une chaîne en texte bru
 
 - Transforme le texte formaté en texte brut non formaté, incluant le gras, l'italique, le surlignage, les entêtes, le code, les blocs de citation, les tableaux, les listes de contrôle et les liens wiki.
 - Supprime entièrement les tableaux, les notes de bas de page, les images et les éléments HTML.
+- `stripmd` est un alias.
 
 ### `strip_tags`
 
@@ -295,11 +418,18 @@ Supprime **toutes** les balises HTML d'une chaîne. Le contenu à l'intérieur d
 
 Traiter les tableaux et les objets.
 
+### `compact`
+
+Supprime les valeurs `null` et les chaînes vides des tableaux et des objets. Conserve `0` et `false`.
+
+- `[null,"","one",0,false,"two"]|compact` renvoie `["one",0,false,"two"]`.
+
 ### `first`
 
-Renvoie le premier élément d'un tableau sous forme de chaîne.
+Renvoie le premier élément d'un tableau, en préservant son type. Les objets et les tableaux imbriqués sont affichés en JSON.
 
 - `["a","b","c"]|first` renvoie `"a"`.
+- Un tableau vide renvoie `null`, qui s'affiche comme texte vide.
 - Si l'entrée n'est pas un tableau, elle est renvoyée telle quelle.
 
 ### `join`
@@ -312,9 +442,10 @@ Combine les éléments d'un tableau en une chaîne.
 
 ### `last`
 
-Renvoie le dernier élément d'un tableau sous forme de chaîne.
+Renvoie le dernier élément d'un tableau, en préservant son type. Les objets et les tableaux imbriqués sont affichés en JSON.
 
 - `["a","b","c"]|last` renvoie `"c"`.
+- Un tableau vide renvoie `null`, qui s'affiche comme texte vide.
 - Si l'entrée n'est pas un tableau, elle est renvoyée telle quelle.
 
 ### `map`
@@ -347,6 +478,8 @@ Conserve les éléments en n-ième position dans un tableau en utilisant la synt
 - `array|nth:3n` conserve chaque 3e élément (3, 6, 9, etc.).
 - `array|nth:n+3` conserve le 3e élément et tous les suivants.
 
+Le résultat reste un tableau pour les filtres de collection suivants. S'il contient une seule valeur primitive, cette valeur est affichée sans crochets de tableau et passée directement aux filtres de texte, par ex. `[1,2]|nth:2` affiche `2`.
+
 Syntaxe des motifs de groupe pour les structures répétitives :
 
 - `array|nth:1,2,3:5` conserve les positions 1, 2, 3 de chaque groupe de 5 éléments. Exemple : `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` renvoie `[1,2,3,6,7,8]`.
@@ -359,6 +492,10 @@ Manipule les données d'objet :
 - `object:keys` renvoie un tableau des clés de l'objet.
 - `object:values` renvoie un tableau des valeurs de l'objet.
 - Exemple : `{"a":1,"b":2}|object:array` renvoie `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Analyse du texte JSON en une valeur typée. Utilisez-le avant les filtres de collection ou la sérialisation YAML lorsqu'une variable contient du texte JSON, par ex. `'[1,2]'|parse_json|yaml:flow` renvoie `[1,2]`.
 
 ### `reverse`
 
@@ -378,6 +515,14 @@ Extrait une portion d'une chaîne ou d'un tableau.
 - Le second paramètre est exclusif : `"hello"|slice:1,4` inclut les caractères aux indices 1, 2 et 3.
 - L'utilisation d'un second paramètre négatif exclut les éléments depuis la fin : `"hello"|slice:0,-2` renvoie `"hel"`.
 
+### `sort`
+
+Trie un tableau par ordre croissant. Les nombres sont triés par valeur.
+
+- `[10,2,1]|sort` renvoie `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` renvoie `["c","b","a"]`.
+- Pour les tableaux d'objets, passez une propriété : `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` renvoie `[{"name":"Ada"},{"name":"Lin"}]`. Utilisez `sort:("name", "desc")` pour inverser l'ordre. Les éléments sans la propriété sont placés en dernier.
+
 ### `split`
 
 Divise une chaîne en un tableau de sous-chaînes.
@@ -385,7 +530,14 @@ Divise une chaîne en un tableau de sous-chaînes.
 - `"a,b,c"|split:","` renvoie `["a","b","c"]`.
 - `"hello world"|split:" "` renvoie `["hello","world"]`.
 - Si aucun séparateur n'est fourni, il divise sur chaque caractère : `"hello"|split` renvoie `["h","e","l","l","o"]`.
-- Les expressions régulières peuvent être utilisées comme séparateurs : `"a1b2c3"|split:[0-9]` renvoie `["a","b","c"]`.
+- Les expressions régulières peuvent être utilisées comme séparateurs : `"a1b2c3"|split:[0-9]` renvoie `["a","b","c",""]`. Le dernier élément est vide car la chaîne se termine par un séparateur.
+
+### `sum`
+
+Additionne les nombres d'un tableau. Le texte qui n'est pas un nombre est ignoré, et un tableau vide renvoie `0`.
+
+- `[10,"2.5","","none"]|sum` renvoie `12.5`.
+- Pour les tableaux d'objets, passez une propriété : `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` renvoie `12.5`.
 
 ### `template`
 
@@ -407,3 +559,25 @@ Supprime les valeurs en double des tableaux et des objets.
 - Pour les tableaux d'objets : `[{"a":1},{"b":2},{"a":1}]|unique` renvoie `[{"a":1},{"b":2}]`.
 - Pour les objets, il supprime les propriétés ayant des valeurs en double, en conservant la clé de la dernière occurrence.
 - Pour les chaînes, il renvoie l'entrée telle quelle.
+
+### `where`
+
+Conserve les éléments du tableau dont la propriété correspond à une valeur. Le type doit également correspondre, donc le nombre `1` ne correspond pas au texte `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` renvoie `[{"title":"One","published":true}]`.
+- Utilisez un chemin en notation pointée pour les propriétés imbriquées, par ex. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formate une valeur en YAML. Les chaînes sont toujours entre guillemets, y compris les chaînes telles que `"null"`, `"true"` et `"123"`. Les valeurs null, booléennes et numériques réelles restent sans guillemets.
+
+- Les tableaux et les objets utilisent le style bloc par défaut. Utilisez `yaml:flow` pour des collections en ligne compactes.
+- Utilisez `parse_json` au préalable pour sérialiser du texte JSON en données structurées plutôt qu'en chaîne entre guillemets.
+
+### `yaml_property`
+
+Formate une propriété YAML nommée, incluant l'indentation pour les tableaux et les objets. Les chaînes et les valeurs typées suivent les mêmes règles que `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` renvoie `price: 42.57`.

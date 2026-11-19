@@ -52,6 +52,19 @@ Giải mã chuỗi đã được mã hóa URI, ví dụ `"%E4%BD%A0%E5%A5%BD"|de
 - `"hello%20world"|decode_uri` trả về `"hello world"`.
 - Trả về chuỗi gốc nếu giải mã thất bại (ví dụ chuỗi URI không đúng định dạng).
 
+### `encode_uri`
+
+Mã hóa văn bản để sử dụng trong URL, bao gồm các ký tự dành riêng như `/`, `?` và `&`.
+
+- `"hello world/page"|encode_uri` trả về `hello%20world%2Fpage`.
+
+### `indent`
+
+Thụt lề mỗi dòng không trống bằng khoảng trắng. Mặc định là hai khoảng trắng.
+
+- `indent:4` thụt lề mỗi dòng bốn khoảng trắng.
+- `indent:0` giữ nguyên văn bản không thay đổi.
+
 ### `kebab`
 
 Chuyển đổi văn bản sang `kebab-case`.
@@ -102,6 +115,21 @@ Xóa khoảng trắng ở cả hai đầu của chuỗi.
 
 - `"  hello world  "|trim` trả về `"hello world"`.
 
+### `truncate`
+
+Rút ngắn văn bản đến một số ký tự và kết thúc bằng `…`. Hậu tố được tính vào giới hạn.
+
+- `"A concise introduction"|truncate:10` trả về `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` trả về `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` trả về `A concise`.
+
+### `truncatewords`
+
+Rút ngắn văn bản đến một số từ và thêm `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` trả về `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` trả về `A concise introduction`.
+
 ### `unescape`
 
 Chuyển đổi các dấu ngoặc kép đã thoát và chuỗi xuống dòng thành ký tự thực.
@@ -128,6 +156,13 @@ Chuyển đổi giá trị thành chữ in hoa, ví dụ `"hello world"|upper` t
 
 Thêm tiền tố trích dẫn Markdown (`> `) vào mỗi dòng của đầu vào.
 
+### `bold`
+
+Bọc văn bản trong dấu in đậm.
+
+- `"Important"|bold` trả về `**Important**`.
+- `"Important"|bold:_` trả về `__Important__`.
+
 ### `callout`
 
 Tạo một [[Khung ghi chú|khung ghi chú]] với các tham số tùy chọn: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Tạo một [[Khung ghi chú|khung ghi chú]] với các tham số tùy chọn: 
 - `type` là loại khung ghi chú, mặc định là "info"
 - `title` là tiêu đề khung ghi chú, mặc định là trống
 - `foldState` là giá trị boolean để đặt trạng thái thu gọn (true để thu gọn, false để mở rộng, null để không thể thu gọn)
+
+### `code`
+
+Định dạng văn bản dưới dạng mã nội tuyến. Văn bản nhiều dòng, hoặc có tham số ngôn ngữ, sẽ tạo khối mã có rào thay thế.
+
+- `"const answer = 42"|code` trả về `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` trả về khối mã được đánh dấu là `typescript`.
+
+### `code_block`
+
+Luôn tạo khối mã có rào, với ngôn ngữ tùy chọn, ví dụ `code_block:"typescript"`.
+
+### `comment`
+
+Bọc văn bản trong dấu [[Cú pháp định dạng cơ bản#Bình luận|bình luận]].
+
+- `"Hidden note"|comment` trả về `%%Hidden note%%`.
+
+### `embed`
+
+Chuyển đổi chuỗi, mảng hoặc đối tượng thành [[Nhúng tệp|nhúng]].
+
+- Với chuỗi: `"diagram.png"|embed` trả về `![[diagram.png]]`.
+- Với chuỗi có bí danh: `"Project Atlas"|embed:"Preview"` trả về `![[Project Atlas|Preview]]`.
+- Với đối tượng: `{"one.md": "One", "two.md": "Two"}|embed` trả về các nhúng với khóa là tệp và giá trị là bí danh.
+
+### `escape_md`
+
+Thêm dấu gạch chéo ngược trước dấu câu Markdown để hiển thị dưới dạng văn bản thuần.
+
+- `"# Draft *title*"|escape_md` trả về `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Chuyển đổi chuỗi và mảng thành liên kết [đoạn văn bản](https
 - `highlights|fragment_link` trả về `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` trả về `Highlight content [custom title](text-fragment-url)`
 
+### `h1` đến `h6`
+
+Chuyển mỗi dòng không trống thành tiêu đề ở cấp đó.
+
+- `"Introduction"|h2` trả về `## Introduction`.
+
+### `hard_break`
+
+Thêm hai khoảng trắng trước mỗi ngắt dòng đơn, để ngắt dòng hiển thị trong chế độ đọc. Các dòng trống giữa các đoạn văn vẫn giữ nguyên.
+
+### `highlight`
+
+Bọc văn bản trong dấu tô sáng.
+
+- `"Remember this"|highlight` trả về `==Remember this==`.
+- Thêm [[Cú pháp định dạng cơ bản#Màu tô sáng|màu tô sáng]] với `red`, `orange`, `yellow`, `green`, `blue`, hoặc `purple`, ví dụ `"Remember this"|highlight:blue` trả về `==🔵Remember this==`.
+
+### `hr`
+
+Thêm đường kẻ ngang (`---`) sau văn bản, phân cách bằng một dòng trống.
+
+- `"Section end"|hr` thêm đường kẻ sau văn bản.
+- `hr:before` thêm trước văn bản, và `hr:both` thêm ở cả hai phía.
+
 ### `image` 
 
 Chuyển đổi chuỗi, mảng hoặc đối tượng thành cú pháp hình ảnh Markdown.
@@ -157,6 +247,13 @@ Chuyển đổi chuỗi, mảng hoặc đối tượng thành cú pháp hình �
 - Với chuỗi: `"image.jpg"|image:"alt text"` trả về `![alt text](image.jpg)`.
 - Với mảng: `["image1.jpg","image2.jpg"]|image:"alt text"` trả về mảng các chuỗi hình ảnh Markdown với cùng văn bản thay thế cho tất cả hình ảnh.
 - Với đối tượng: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` trả về các chuỗi hình ảnh Markdown với văn bản thay thế từ khóa của đối tượng.
+
+### `italic`
+
+Bọc văn bản trong dấu in nghiêng.
+
+- `"Emphasized"|italic` trả về `*Emphasized*`.
+- `"Emphasized"|italic:_` trả về `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Chuyển đổi mảng thành danh sách Markdown.
 - `list:numbered` để chuyển đổi thành danh sách đánh số.
 - `list:numbered-task` để chuyển đổi thành danh sách công việc có đánh số.
 
+### `math`
+
+Định dạng văn bản dưới dạng [[Cú pháp định dạng nâng cao#Toán học|toán học]] nội tuyến. Văn bản nhiều dòng sẽ trở thành khối toán học.
+
+- `"x^2 + y^2"|math` trả về `$x^2 + y^2$`.
+
+### `math_block`
+
+Luôn tạo khối toán học, với `$$` trên các dòng trước và sau văn bản.
+
+### `strike`
+
+Bọc văn bản trong dấu gạch ngang.
+
+- `"Removed"|strike` trả về `~~Removed~~`.
+
 ### `table`
 
 Chuyển đổi mảng hoặc mảng đối tượng thành [[Cú pháp định dạng nâng cao#Bảng|bảng Markdown]]:
@@ -183,6 +296,10 @@ Chuyển đổi mảng hoặc mảng đối tượng thành [[Cú pháp định 
 - Với mảng các mảng, nó tạo bảng với mỗi mảng con là một hàng.
 - Với mảng đơn giản, nó tạo bảng một cột với "Value" làm tiêu đề.
 - Có thể chỉ định tiêu đề cột tùy chỉnh bằng: `table:("Column 1", "Column 2", "Column 3")`. Khi sử dụng với mảng đơn giản, nó tự động chia dữ liệu thành các hàng dựa trên số cột được chỉ định.
+
+### `table_pretty`
+
+Hoạt động giống [[Bộ lọc#`table`|table]], và đệm các cột bằng nhau để bảng căn chỉnh đều trong chế độ nguồn.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Chuyển đổi chuỗi, mảng hoặc đối tượng thành cú pháp [[Liên 
 
 ## Số
 
+`calc`, `round` và `length` trả về số, giữ nguyên kiểu trong các bộ lọc sau và phép gán biến. `number_format` trả về văn bản.
+
 ### `calc`
 
 Thực hiện các phép tính số học cơ bản trên số.
@@ -203,7 +322,7 @@ Thực hiện các phép tính số học cơ bản trên số.
 - Hỗ trợ các toán tử: `+`, `-`, `*`, `/`, `**` (hoặc `^`) cho lũy thừa.
 - Ví dụ: `5|calc:"+10"` trả về `15`.
 - Ví dụ: `2|calc:"**3"` trả về `8` (2 lũy thừa 3).
-- Trả về chuỗi gốc nếu đầu vào không phải là số.
+- Trả về đầu vào gốc nếu nó trống, không phải là số, hoặc phép tính cho kết quả không hữu hạn.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Trả về độ dài của chuỗi, mảng hoặc số khóa trong đối tư�
 
 - Với chuỗi: `"hello"|length` trả về `5`.
 - Với mảng: `["a","b","c"]|length` trả về `3`.
+- Mảng có một phần tử vẫn đếm là một: `[42]|length` trả về `1`.
 - Với đối tượng: `{"a":1,"b":2}|length` trả về `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Làm tròn số đến số nguyên gần nhất hoặc đến số chữ số t
 
 - Không có tham số: `3.7|round` trả về `4`.
 - Với số chữ số thập phân được chỉ định: `3.14159|round:2` trả về `3.14`.
+- Mảng và đối tượng giữ nguyên cấu trúc, với các giá trị số được làm tròn đệ quy. Chuỗi số trở thành số, ví dụ `["1.234","2.345"]|round:2` trả về `[1.23,2.35]`.
+- Đầu vào không hợp lệ như `"42abc"` được giữ nguyên thay vì chuyển đổi thành số.
 
 ## Xử lý HTML
 
@@ -246,7 +368,7 @@ Chuyển đổi chuỗi thành chuỗi được định dạng [[Obsidian Flavor
 
 Chỉ xóa các thuộc tính HTML được chỉ định khỏi thẻ.
 
-- Ví dụ: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` trả về `<div id="example">Content</div>`.
+- Ví dụ: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` trả về `<div id="example">Content</div>`.
 - Nhiều thuộc tính: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Thay thế thẻ HTML, giữ nguyên nội dung và thuộc tính của thẻ.
 Xóa **tất cả** thuộc tính HTML khỏi chuỗi.
 
 - Sử dụng `strip_attr:("class, id")` để giữ lại các thuộc tính cụ thể.
-- Ví dụ: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` trả về `<div class="test">Content</div>`.
+- Ví dụ: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` trả về `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Xóa **tất cả** định dạng Markdown và trả về chuỗi văn bản th
 
 - Chuyển đổi văn bản đã định dạng thành văn bản thuần không định dạng, bao gồm in đậm, in nghiêng, tô sáng, tiêu đề, mã, trích dẫn khối, bảng, danh sách công việc và liên kết wiki.
 - Xóa hoàn toàn bảng, chú thích, hình ảnh và các phần tử HTML.
+- `stripmd` là bí danh.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Xóa **tất cả** thẻ HTML khỏi chuỗi. Nội dung bên trong thẻ đư�
 
 Xử lý mảng và đối tượng.
 
+### `compact`
+
+Xóa giá trị `null` và chuỗi rỗng khỏi mảng và đối tượng. Giữ lại `0` và `false`.
+
+- `[null,"","one",0,false,"two"]|compact` trả về `["one",0,false,"two"]`.
+
 ### `first` 
 
-Trả về phần tử đầu tiên của mảng dưới dạng chuỗi.
+Trả về phần tử đầu tiên của mảng, giữ nguyên kiểu dữ liệu. Đối tượng và mảng lồng nhau được hiển thị dưới dạng JSON.
 
 - `["a","b","c"]|first` trả về `"a"`.
+- Mảng rỗng trả về `null`, hiển thị dưới dạng văn bản trống.
 - Nếu đầu vào không phải mảng, nó trả về đầu vào không thay đổi.
 
 ### `join`
@@ -311,9 +441,10 @@ Kết hợp các phần tử của mảng thành một chuỗi.
 
 ### `last`
 
-Trả về phần tử cuối cùng của mảng dưới dạng chuỗi.
+Trả về phần tử cuối cùng của mảng, giữ nguyên kiểu dữ liệu. Đối tượng và mảng lồng nhau được hiển thị dưới dạng JSON.
 
 - `["a","b","c"]|last` trả về `"c"`.
+- Mảng rỗng trả về `null`, hiển thị dưới dạng văn bản trống.
 - Nếu đầu vào không phải mảng, nó trả về đầu vào không thay đổi.
 
 ### `map`
@@ -346,6 +477,8 @@ Giữ lại các phần tử thứ n trong mảng bằng cú pháp kiểu nth-ch
 - `array|nth:3n` giữ mỗi phần tử thứ 3 (3, 6, 9, v.v.).
 - `array|nth:n+3` giữ phần tử thứ 3 và tất cả phần tử tiếp theo.
 
+Kết quả vẫn là mảng để sử dụng với các bộ lọc tập hợp sau đó. Nếu chứa một giá trị nguyên thủy duy nhất, giá trị đó được hiển thị không có dấu ngoặc mảng và được truyền trực tiếp đến các bộ lọc văn bản, ví dụ `[1,2]|nth:2` hiển thị `2`.
+
 Cú pháp mẫu nhóm cho cấu trúc lặp lại:
 
 - `array|nth:1,2,3:5` giữ vị trí 1, 2, 3 từ mỗi nhóm 5 phần tử. Ví dụ: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` trả về `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Thao tác dữ liệu đối tượng:
 - `object:keys` trả về mảng các khóa của đối tượng.
 - `object:values` trả về mảng các giá trị của đối tượng.
 - Ví dụ: `{"a":1,"b":2}|object:array` trả về `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Phân tích văn bản JSON thành giá trị có kiểu. Sử dụng trước các bộ lọc tập hợp hoặc tuần tự hóa YAML khi biến chứa văn bản JSON, ví dụ `'[1,2]'|parse_json|yaml:flow` trả về `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Trích xuất một phần của chuỗi hoặc mảng.
 - Tham số thứ hai là không bao gồm: `"hello"|slice:1,4` bao gồm các ký tự tại chỉ mục 1, 2 và 3.
 - Sử dụng tham số thứ hai âm để loại trừ các phần tử từ cuối: `"hello"|slice:0,-2` trả về `"hel"`.
 
+### `sort`
+
+Sắp xếp mảng theo thứ tự tăng dần. Số được sắp xếp theo giá trị.
+
+- `[10,2,1]|sort` trả về `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` trả về `["c","b","a"]`.
+- Với mảng đối tượng, truyền một thuộc tính: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` trả về `[{"name":"Ada"},{"name":"Lin"}]`. Sử dụng `sort:("name", "desc")` để đảo ngược. Các phần tử không có thuộc tính đó được đặt cuối cùng.
+
 ### `split`
 
 Chia chuỗi thành mảng các chuỗi con.
@@ -384,7 +529,14 @@ Chia chuỗi thành mảng các chuỗi con.
 - `"a,b,c"|split:","` trả về `["a","b","c"]`.
 - `"hello world"|split:" "` trả về `["hello","world"]`.
 - Nếu không cung cấp dấu phân cách, nó chia theo từng ký tự: `"hello"|split` trả về `["h","e","l","l","o"]`.
-- Có thể sử dụng biểu thức chính quy làm dấu phân cách: `"a1b2c3"|split:[0-9]` trả về `["a","b","c"]`.
+- Có thể sử dụng biểu thức chính quy làm dấu phân cách: `"a1b2c3"|split:[0-9]` trả về `["a","b","c",""]`. Phần tử cuối cùng rỗng vì chuỗi kết thúc bằng dấu phân cách.
+
+### `sum`
+
+Cộng các số trong mảng. Văn bản không phải số sẽ bị bỏ qua, và mảng rỗng trả về `0`.
+
+- `[10,"2.5","","none"]|sum` trả về `12.5`.
+- Với mảng đối tượng, truyền một thuộc tính: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` trả về `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Xóa các giá trị trùng lặp khỏi mảng và đối tượng.
 - Với mảng đối tượng: `[{"a":1},{"b":2},{"a":1}]|unique` trả về `[{"a":1},{"b":2}]`.
 - Với đối tượng, nó xóa các thuộc tính có giá trị trùng lặp, giữ lại khóa của lần xuất hiện cuối cùng.
 - Với chuỗi, nó trả về đầu vào không thay đổi.
+
+### `where`
+
+Giữ lại các phần tử mảng có thuộc tính khớp với giá trị. Kiểu dữ liệu cũng phải khớp, nên số `1` không khớp với văn bản `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` trả về `[{"title":"One","published":true}]`.
+- Sử dụng đường dẫn chấm cho thuộc tính lồng nhau, ví dụ `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Định dạng giá trị dưới dạng YAML. Chuỗi luôn được đặt trong dấu ngoặc kép, bao gồm các chuỗi như `"null"`, `"true"` và `"123"`. Các giá trị null, boolean và số thực tế không được đặt trong ngoặc kép.
+
+- Mảng và đối tượng sử dụng kiểu khối theo mặc định. Sử dụng `yaml:flow` cho các tập hợp nội tuyến gọn.
+- Sử dụng `parse_json` trước để tuần tự hóa văn bản JSON dưới dạng dữ liệu có cấu trúc thay vì chuỗi trong ngoặc kép.
+
+### `yaml_property`
+
+Định dạng thuộc tính YAML có tên, bao gồm thụt lề cho mảng và đối tượng. Chuỗi và giá trị có kiểu tuân theo cùng quy tắc như `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` trả về `price: 42.57`.

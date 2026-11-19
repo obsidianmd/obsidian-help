@@ -52,6 +52,19 @@ Decodeert een URI-gecodeerde string, bijv. `"%E4%BD%A0%E5%A5%BD"|decode_uri` ret
 - `"hello%20world"|decode_uri` retourneert `"hello world"`.
 - Retourneert de oorspronkelijke string als decodering mislukt (bijv. misvormde URI-reeksen).
 
+### `encode_uri`
+
+Codeert tekst voor gebruik in een URL, inclusief gereserveerde tekens zoals `/`, `?` en `&`.
+
+- `"hello world/page"|encode_uri` retourneert `hello%20world%2Fpage`.
+
+### `indent`
+
+Laat elke niet-lege regel inspringen met spaties. Standaard twee spaties.
+
+- `indent:4` laat elke regel vier spaties inspringen.
+- `indent:0` laat de tekst ongewijzigd.
+
 ### `kebab`
 
 Converteert tekst naar `kebab-case`.
@@ -102,6 +115,21 @@ Verwijdert witruimte aan beide uiteinden van een string.
 
 - `"  hello world  "|trim` retourneert `"hello world"`.
 
+### `truncate`
+
+Verkort tekst tot een aantal tekens en eindigt met `…`. Het achtervoegsel telt mee voor de limiet.
+
+- `"A concise introduction"|truncate:10` retourneert `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` retourneert `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` retourneert `A concise`.
+
+### `truncatewords`
+
+Verkort tekst tot een aantal woorden en voegt `…` toe.
+
+- `"A concise introduction to Knap"|truncatewords:3` retourneert `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` retourneert `A concise introduction`.
+
 ### `unescape`
 
 Converteert geëscapete aanhalingstekens en regelovergang-reeksen naar letterlijke tekens.
@@ -128,6 +156,13 @@ Converteert een waarde naar hoofdletters, bijv. `"hello world"|upper` retourneer
 
 Voegt een Markdown-citaatprefix (`> `) toe aan elke regel van de invoer.
 
+### `bold`
+
+Omsluit tekst met vetgedrukte markeringen.
+
+- `"Important"|bold` retourneert `**Important**`.
+- `"Important"|bold:_` retourneert `__Important__`.
+
 ### `callout`
 
 Maakt een [[Bijschriften|infoblok]] aan met optionele parameters: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Maakt een [[Bijschriften|infoblok]] aan met optionele parameters: `{{variable|ca
 - `type` is het berichttype, standaard is "info"
 - `title` is de titel van het infoblok, standaard is leeg
 - `foldState` is een boolean om de vouwstatus in te stellen (true voor ingevouwen, false voor uitgevouwen, null voor niet-invouwbaar)
+
+### `code`
+
+Formatteert tekst als inline code. Tekst met meerdere regels, of een taalparameter, maakt in plaats daarvan een omheind codeblok.
+
+- `"const answer = 42"|code` retourneert `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` retourneert een codeblok gemarkeerd als `typescript`.
+
+### `code_block`
+
+Maakt altijd een omheind codeblok, met een optionele taal, bijv. `code_block:"typescript"`.
+
+### `comment`
+
+Omsluit tekst met [[Basis opmaaksyntaxis#Opmerkingen|opmerking]]-markeringen.
+
+- `"Hidden note"|comment` retourneert `%%Hidden note%%`.
+
+### `embed`
+
+Converteert strings, arrays of objecten naar [[Bestanden insluiten|insluitingen]].
+
+- Voor strings: `"diagram.png"|embed` retourneert `![[diagram.png]]`.
+- Voor strings met alias: `"Project Atlas"|embed:"Preview"` retourneert `![[Project Atlas|Preview]]`.
+- Voor objecten: `{"one.md": "One", "two.md": "Two"}|embed` retourneert insluitingen met de sleutels als bestanden en waarden als aliassen.
+
+### `escape_md`
+
+Voegt een backslash toe vóór Markdown-leestekens zodat het als platte tekst wordt weergegeven.
+
+- `"# Draft *title*"|escape_md` retourneert `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Converteert strings en arrays naar [tekstfragment](https://developer.mozilla.org
 - `highlights|fragment_link` retourneert `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` retourneert `Highlight content [custom title](text-fragment-url)`
 
+### `h1` tot `h6`
+
+Maakt van elke niet-lege regel een kop van dat niveau.
+
+- `"Introduction"|h2` retourneert `## Introduction`.
+
+### `hard_break`
+
+Voegt twee spaties toe vóór elke enkele regelovergang, zodat de regelovergangen zichtbaar zijn in de leesweergave. Lege regels tussen alinea's blijven ongewijzigd.
+
+### `highlight`
+
+Omsluit tekst met markeringsmarkeringen.
+
+- `"Remember this"|highlight` retourneert `==Remember this==`.
+- Voeg een [[Basis opmaaksyntaxis#Markeringskleuren|markeringskleur]] toe met `red`, `orange`, `yellow`, `green`, `blue` of `purple`, bijv. `"Remember this"|highlight:blue` retourneert `==🔵Remember this==`.
+
+### `hr`
+
+Voegt een horizontale lijn (`---`) toe na de tekst, gescheiden door een lege regel.
+
+- `"Section end"|hr` voegt de lijn toe na de tekst.
+- `hr:before` voegt deze toe vóór de tekst, en `hr:both` voegt deze aan beide kanten toe.
+
 ### `image` 
 
 Converteert strings, arrays of objecten naar Markdown-afbeeldingssyntaxis.
@@ -157,6 +247,13 @@ Converteert strings, arrays of objecten naar Markdown-afbeeldingssyntaxis.
 - Voor strings: `"image.jpg"|image:"alt text"` retourneert `![alt text](image.jpg)`.
 - Voor arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` retourneert een array van Markdown-afbeeldingsstrings met dezelfde alt-tekst voor alle afbeeldingen.
 - Voor objecten: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retourneert Markdown-afbeeldingsstrings met alt-tekst van de objectsleutels.
+
+### `italic`
+
+Omsluit tekst met cursieve markeringen.
+
+- `"Emphasized"|italic` retourneert `*Emphasized*`.
+- `"Emphasized"|italic:_` retourneert `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Converteert een array naar een Markdown-lijst.
 - `list:numbered` om te converteren naar een genummerde lijst.
 - `list:numbered-task` om te converteren naar een takenlijst met nummers.
 
+### `math`
+
+Formatteert tekst als inline [[Geavanceerde opmaaksyntaxis#Wiskunde|wiskunde]]. Tekst met meerdere regels wordt een wiskundeblok.
+
+- `"x^2 + y^2"|math` retourneert `$x^2 + y^2$`.
+
+### `math_block`
+
+Maakt altijd een wiskundeblok, met `$$` op de regels voor en na de tekst.
+
+### `strike`
+
+Omsluit tekst met doorhaalmarkeringen.
+
+- `"Removed"|strike` retourneert `~~Removed~~`.
+
 ### `table`
 
 Converteert een array of array van objecten naar een [[Geavanceerde opmaaksyntaxis#Tabellen|Markdown-tabel]]:
@@ -183,6 +296,10 @@ Converteert een array of array van objecten naar een [[Geavanceerde opmaaksyntax
 - Voor een array van arrays wordt een tabel gemaakt met elke geneste array als een rij.
 - Voor een eenvoudige array wordt een tabel met één kolom gemaakt met "Value" als kop.
 - Aangepaste kolomkoppen kunnen worden opgegeven met: `table:("Column 1", "Column 2", "Column 3")`. Bij gebruik met een eenvoudige array worden de gegevens automatisch in rijen verdeeld op basis van het opgegeven aantal kolommen.
+
+### `table_pretty`
+
+Werkt zoals [[Filters#`table`|table]], en vult de kolommen aan tot gelijke breedtes zodat de tabel uitlijnt in de bronmodus.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Converteert strings, arrays of objecten naar Obsidian [[Notities koppelen|wiki-l
 
 ## Getallen
 
+`calc`, `round` en `length` retourneren getallen, waarbij hun type behouden blijft in latere filters en variabeletoewijzingen. `number_format` retourneert tekst.
+
 ### `calc`
 
 Voert eenvoudige rekenkundige bewerkingen uit op getallen.
@@ -203,7 +322,7 @@ Voert eenvoudige rekenkundige bewerkingen uit op getallen.
 - Ondersteunt operatoren: `+`, `-`, `*`, `/`, `**` (of `^`) voor machtsverheffing.
 - Voorbeeld: `5|calc:"+10"` retourneert `15`.
 - Voorbeeld: `2|calc:"**3"` retourneert `8` (2 tot de derde macht).
-- Retourneert de oorspronkelijke string als de invoer geen getal is.
+- Retourneert de oorspronkelijke invoer als deze leeg is, geen getal is, of als de berekening een niet-eindig resultaat oplevert.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Retourneert de lengte van strings, arrays of het aantal sleutels in objecten.
 
 - Voor strings: `"hello"|length` retourneert `5`.
 - Voor arrays: `["a","b","c"]|length` retourneert `3`.
+- Een array met één item telt nog steeds als één: `[42]|length` retourneert `1`.
 - Voor objecten: `{"a":1,"b":2}|length` retourneert `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Rondt een getal af naar het dichtstbijzijnde gehele getal of naar een opgegeven 
 
 - Zonder parameters: `3.7|round` retourneert `4`.
 - Met opgegeven decimalen: `3.14159|round:2` retourneert `3.14`.
+- Arrays en objecten behouden hun structuur, waarbij numerieke waarden recursief worden afgerond. Numerieke strings worden getallen, bijv. `["1.234","2.345"]|round:2` retourneert `[1.23,2.35]`.
+- Ongeldige invoer zoals `"42abc"` wordt bewaard in plaats van geconverteerd naar een getal.
 
 ## HTML-verwerking
 
@@ -246,7 +368,7 @@ Converteert een string naar een string in [[Obsidian Flavored Markdown]]-opmaak.
 
 Verwijdert alleen de opgegeven HTML-attributen van tags.
 
-- Voorbeeld: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` retourneert `<div id="example">Content</div>`.
+- Voorbeeld: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` retourneert `<div id="example">Content</div>`.
 - Meerdere attributen: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Vervangt HTML-tags, met behoud van de inhoud en attributen van de tag.
 Verwijdert **alle** HTML-attributen uit een string.
 
 - Gebruik `strip_attr:("class, id")` om specifieke attributen te behouden.
-- Voorbeeld: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retourneert `<div class="test">Content</div>`.
+- Voorbeeld: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` retourneert `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Verwijdert **alle** Markdown-opmaak en retourneert een platte-tekststring, bijv.
 
 - Zet opgemaakte tekst om naar onopgemaakte platte tekst, inclusief vet, cursief, markeringen, koppen, code, blokcitaten, tabellen, takenlijsten en wiki-links.
 - Verwijdert tabellen, voetnoten, afbeeldingen en HTML-elementen volledig.
+- `stripmd` is een alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Verwijdert **alle** HTML-tags uit een string. Inhoud binnen de tag wordt bewaard
 
 Arrays en objecten verwerken.
 
+### `compact`
+
+Verwijdert `null`-waarden en lege strings uit arrays en objecten. Behoudt `0` en `false`.
+
+- `[null,"","one",0,false,"two"]|compact` retourneert `["one",0,false,"two"]`.
+
 ### `first` 
 
-Retourneert het eerste element van een array als een string.
+Retourneert het eerste element van een array, met behoud van het type. Objecten en geneste arrays worden weergegeven als JSON.
 
 - `["a","b","c"]|first` retourneert `"a"`.
+- Een lege array retourneert `null`, wat wordt weergegeven als lege tekst.
 - Als de invoer geen array is, wordt de invoer ongewijzigd geretourneerd.
 
 ### `join`
@@ -311,9 +441,10 @@ Combineert elementen van een array tot een string.
 
 ### `last`
 
-Retourneert het laatste element van een array als een string.
+Retourneert het laatste element van een array, met behoud van het type. Objecten en geneste arrays worden weergegeven als JSON.
 
 - `["a","b","c"]|last` retourneert `"c"`.
+- Een lege array retourneert `null`, wat wordt weergegeven als lege tekst.
 - Als de invoer geen array is, wordt de invoer ongewijzigd geretourneerd.
 
 ### `map`
@@ -346,6 +477,8 @@ Behoudt nde items in een array met CSS-stijl nth-child-syntaxis en groepspatrone
 - `array|nth:3n` behoudt elk 3e element (3, 6, 9, enz.).
 - `array|nth:n+3` behoudt het 3e en alle volgende elementen.
 
+Het resultaat blijft een array voor latere collectiefilters. Als het een enkele primitieve waarde bevat, wordt die waarde weergegeven zonder array-haakjes en direct doorgegeven aan tekstfilters, bijv. `[1,2]|nth:2` geeft `2` weer.
+
 Groepspatroonsyntaxis voor herhalende structuren:
 
 - `array|nth:1,2,3:5` behoudt posities 1, 2, 3 van elke groep van 5 items. Voorbeeld: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` retourneert `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipuleert objectgegevens:
 - `object:keys` retourneert een array van de sleutels van het object.
 - `object:values` retourneert een array van de waarden van het object.
 - Voorbeeld: `{"a":1,"b":2}|object:array` retourneert `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Parseert JSON-tekst naar een getypeerde waarde. Gebruik dit vóór collectiefilters of YAML-serialisatie wanneer een variabele JSON-tekst bevat, bijv. `'[1,2]'|parse_json|yaml:flow` retourneert `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Extraheert een deel van een string of array.
 - De tweede parameter is exclusief: `"hello"|slice:1,4` bevat tekens op indices 1, 2 en 3.
 - Een negatieve tweede parameter sluit elementen van het einde uit: `"hello"|slice:0,-2` retourneert `"hel"`.
 
+### `sort`
+
+Sorteert een array in oplopende volgorde. Getallen worden gesorteerd op waarde.
+
+- `[10,2,1]|sort` retourneert `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` retourneert `["c","b","a"]`.
+- Voor arrays van objecten, geef een eigenschap op: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` retourneert `[{"name":"Ada"},{"name":"Lin"}]`. Gebruik `sort:("name", "desc")` om om te keren. Items zonder de eigenschap komen als laatste.
+
 ### `split`
 
 Deelt een string op in een array van substrings.
@@ -384,7 +529,14 @@ Deelt een string op in een array van substrings.
 - `"a,b,c"|split:","` retourneert `["a","b","c"]`.
 - `"hello world"|split:" "` retourneert `["hello","world"]`.
 - Als er geen scheidingsteken wordt opgegeven, wordt op elk teken gesplitst: `"hello"|split` retourneert `["h","e","l","l","o"]`.
-- Reguliere expressies kunnen als scheidingstekens worden gebruikt: `"a1b2c3"|split:[0-9]` retourneert `["a","b","c"]`.
+- Reguliere expressies kunnen als scheidingstekens worden gebruikt: `"a1b2c3"|split:[0-9]` retourneert `["a","b","c",""]`. Het laatste item is leeg omdat de string eindigt met een scheidingsteken.
+
+### `sum`
+
+Telt de getallen in een array op. Tekst die geen getal is wordt overgeslagen, en een lege array retourneert `0`.
+
+- `[10,"2.5","","none"]|sum` retourneert `12.5`.
+- Voor arrays van objecten, geef een eigenschap op: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` retourneert `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Verwijdert dubbele waarden uit arrays en objecten.
 - Voor arrays van objecten: `[{"a":1},{"b":2},{"a":1}]|unique` retourneert `[{"a":1},{"b":2}]`.
 - Voor objecten worden eigenschappen met dubbele waarden verwijderd, waarbij de sleutel van het laatste voorkomen wordt bewaard.
 - Voor strings wordt de invoer ongewijzigd geretourneerd.
+
+### `where`
+
+Behoudt de array-items waarvan de eigenschap overeenkomt met een waarde. Het type moet ook overeenkomen, dus het getal `1` komt niet overeen met de tekst `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` retourneert `[{"title":"One","published":true}]`.
+- Gebruik een pad met punten voor geneste eigenschappen, bijv. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formatteert een waarde als YAML. Strings worden altijd aangehaald, inclusief strings zoals `"null"`, `"true"` en `"123"`. Daadwerkelijke nulls, booleans en getallen blijven zonder aanhalingstekens.
+
+- Arrays en objecten gebruiken standaard blokstijl. Gebruik `yaml:flow` voor compacte inline collecties.
+- Gebruik eerst `parse_json` om JSON-tekst te serialiseren als gestructureerde data in plaats van een aangehaalde string.
+
+### `yaml_property`
+
+Formatteert een benoemde YAML-eigenschap, inclusief inspringing voor arrays en objecten. Strings en getypeerde waarden volgen dezelfde regels als `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` retourneert `price: 42.57`.

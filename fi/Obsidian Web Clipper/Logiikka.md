@@ -2,7 +2,7 @@
 permalink: web-clipper/logic
 description: 'Käytä ehtolauseita, silmukoita ja muuttujien määrittelyä Web Clipper -mallipohjissa.'
 ---
-[[Johdanto Obsidian Web Clipperiin|Web Clipper]] tukee mallinelogiikkaa ehdollisille rakenteille, silmukoille ja muuttujien määrittämiselle. Tämä syntaksi on saanut inspiraationsa [Twig](https://twig.symfony.com/)- ja [Liquid](https://shopify.github.io/liquid/)-mallinekielistä.
+[[Johdanto Obsidian Web Clipperiin|Web Clipper]] tukee mallinelogiikkaa ehdollisille rakenteille, silmukoille ja muuttujien määrittämiselle. Tämä syntaksi on nimeltään [Knap](https://github.com/obsidianmd/knap).
 
 ## Ehdolliset rakenteet
 
@@ -61,6 +61,12 @@ Esimerkkejä:
 - `{% if draft or archived %}` — jompikumpi ehto
 - `{% if not hidden %}` — negaatio
 - `{% if (premium or featured) and published %}` — ryhmitellyt ehdot
+
+Loogisen operaattorin kummankin puolen on oltava täydellinen lauseke. Esimerkiksi tarkistaaksesi sisältääkö merkkijono jonkin useista arvoista:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
 
 ### Totuusarvon tulkinta
 

@@ -55,6 +55,20 @@ Jika Anda menggunakan Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Jika aturan fokus tidak membantu, coba jalankan Obsidian di bawah XWayland alih-alih Wayland native, lalu mulai ulang Obsidian sepenuhnya.
+
+Jika Anda menggunakan Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Untuk membatalkan ini, jalankan `flatpak override --user --reset md.obsidian.Obsidian`. Perhatikan bahwa ini mengatur ulang semua override yang telah Anda tetapkan untuk Obsidian.
+
+Untuk metode instalasi lainnya, jalankan Obsidian dengan flag `--ozone-platform=x11`.
+
+Hal lain yang dapat dicoba:
+
 - Jika Anda menggunakan Flatpak, pertimbangkan untuk mencoba [versi Obsidian yang didukung secara resmi](https://obsidian.md/download).
 - Jika Anda menggunakan KDE, buka **System Settings** → **Window Management** → **Window Rules** dan izinkan Obsidian untuk mengambil fokus, [[web-clipper-kde.png|lihat tangkapan layar]].
 - Sebagai cadangan, coba beralih ke **Mode Legacy** di **Pengaturan Web Clipper** → **Umum**. Ini akan melewati papan klip dan menyimpan konten langsung melalui URI. Perhatikan bahwa ini akan membatasi jumlah karakter yang dapat dikliping tergantung pada browser dan distribusi Linux Anda.

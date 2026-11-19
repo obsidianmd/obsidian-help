@@ -52,6 +52,19 @@ Purkaa URI-koodatun merkkijonon, esim. `"%E4%BD%A0%E5%A5%BD"|decode_uri` palautt
 - `"hello%20world"|decode_uri` palauttaa `"hello world"`.
 - Palauttaa alkuperäisen merkkijonon, jos purkaminen epäonnistuu (esim. virheelliset URI-sekvenssit).
 
+### `encode_uri`
+
+Koodaa tekstin URL-käyttöön, mukaan lukien varatut merkit kuten `/`, `?` ja `&`.
+
+- `"hello world/page"|encode_uri` palauttaa `hello%20world%2Fpage`.
+
+### `indent`
+
+Sisentää jokaisen ei-tyhjän rivin välilyönneillä. Oletuksena kaksi välilyöntiä.
+
+- `indent:4` sisentää jokaisen rivin neljällä välilyönnillä.
+- `indent:0` jättää tekstin muuttamattomaksi.
+
 ### `kebab`
 
 Muuntaa tekstin `kebab-case`-muotoon.
@@ -102,6 +115,21 @@ Poistaa tyhjät merkit merkkijonon molemmista päistä.
 
 - `"  hello world  "|trim` palauttaa `"hello world"`.
 
+### `truncate`
+
+Lyhentää tekstin tiettyyn merkkimäärään ja lisää loppuun `…`. Loppuliite lasketaan mukaan rajaan.
+
+- `"A concise introduction"|truncate:10` palauttaa `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` palauttaa `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` palauttaa `A concise`.
+
+### `truncatewords`
+
+Lyhentää tekstin tiettyyn sanamäärään ja lisää `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` palauttaa `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` palauttaa `A concise introduction`.
+
 ### `unescape`
 
 Muuntaa suojatut lainausmerkit ja rivinvaihtosekvenssit kirjaimellisiksi merkeiksi.
@@ -128,6 +156,13 @@ Sovella [[Muotoilun perussyntaksi|perusmuotoilusyntaksia]] ja [[Muotoilun lisäs
 
 Lisää Markdown-lainausmerkin (`> `) jokaisen syöterivin alkuun.
 
+### `bold`
+
+Käärii tekstin lihavointimerkkeihin.
+
+- `"Important"|bold` palauttaa `**Important**`.
+- `"Important"|bold:_` palauttaa `__Important__`.
+
 ### `callout`
 
 Luo [[Nostolaatikot|nostolaatikon]] valinnaisilla parametreilla: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Luo [[Nostolaatikot|nostolaatikon]] valinnaisilla parametreilla: `{{variable|cal
 - `type` on nostolaatikon tyyppi, oletuksena "info"
 - `title` on nostolaatikon otsikko, oletuksena tyhjä
 - `foldState` on totuusarvo kutistustilan asettamiseen (true kutistetulle, false laajennetulle, null ei-kutistettavalle)
+
+### `code`
+
+Muotoilee tekstin inline-koodiksi. Moniriviselle tekstille tai kieliparametrilla luodaan aidattu koodilohko.
+
+- `"const answer = 42"|code` palauttaa `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` palauttaa koodilohkon merkittynä `typescript`-kieleksi.
+
+### `code_block`
+
+Luo aina aidatun koodilohkon valinnaisella kielellä, esim. `code_block:"typescript"`.
+
+### `comment`
+
+Käärii tekstin [[Muotoilun perussyntaksi#Kommentit|kommentti]]-merkkeihin.
+
+- `"Hidden note"|comment` palauttaa `%%Hidden note%%`.
+
+### `embed`
+
+Muuntaa merkkijonot, taulukot tai objektit [[Upota tiedostoja|upotteiksi]].
+
+- Merkkijonoille: `"diagram.png"|embed` palauttaa `![[diagram.png]]`.
+- Merkkijonoille aliaksella: `"Project Atlas"|embed:"Preview"` palauttaa `![[Project Atlas|Preview]]`.
+- Objekteille: `{"one.md": "One", "two.md": "Two"}|embed` palauttaa upotteet avaimilla tiedostoniminä ja arvoilla aliaksina.
+
+### `escape_md`
+
+Lisää kenoviivan Markdown-välimerkkien eteen, jotta ne näkyvät tavallisena tekstinä.
+
+- `"# Draft *title*"|escape_md` palauttaa `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Muuntaa merkkijonot ja taulukot [tekstifragmentti](https://developer.mozilla.org
 - `highlights|fragment_link` palauttaa `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` palauttaa `Highlight content [custom title](text-fragment-url)`
 
+### `h1`–`h6`
+
+Muuntaa jokaisen ei-tyhjän rivin kyseisen tason otsikoksi.
+
+- `"Introduction"|h2` palauttaa `## Introduction`.
+
+### `hard_break`
+
+Lisää kaksi välilyöntiä jokaisen yksittäisen rivinvaihdon eteen, jotta rivinvaihdot näkyvät lukunäkymässä. Kappaleiden väliset tyhjät rivit säilyvät ennallaan.
+
+### `highlight`
+
+Käärii tekstin korostusmerkkeihin.
+
+- `"Remember this"|highlight` palauttaa `==Remember this==`.
+- Lisää [[Muotoilun perussyntaksi#Korostusvärit|korostusväri]] arvoilla `red`, `orange`, `yellow`, `green`, `blue` tai `purple`, esim. `"Remember this"|highlight:blue` palauttaa `==🔵Remember this==`.
+
+### `hr`
+
+Lisää vaakaviivan (`---`) tekstin jälkeen tyhjällä rivillä erotettuna.
+
+- `"Section end"|hr` lisää viivan tekstin jälkeen.
+- `hr:before` lisää sen ennen tekstiä ja `hr:both` lisää sen molemmille puolille.
+
 ### `image` 
 
 Muuntaa merkkijonot, taulukot tai objektit Markdown-kuvasyntaksiksi.
@@ -157,6 +247,13 @@ Muuntaa merkkijonot, taulukot tai objektit Markdown-kuvasyntaksiksi.
 - Merkkijonoille: `"image.jpg"|image:"alt text"` palauttaa `![alt text](image.jpg)`.
 - Taulukoille: `["image1.jpg","image2.jpg"]|image:"alt text"` palauttaa taulukon Markdown-kuvamerkkijonoista samalla alt-tekstillä kaikille kuville.
 - Objekteille: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` palauttaa Markdown-kuvamerkkijonot alt-tekstillä objektin avaimista.
+
+### `italic`
+
+Käärii tekstin kursivointimerkkeihin.
+
+- `"Emphasized"|italic` palauttaa `*Emphasized*`.
+- `"Emphasized"|italic:_` palauttaa `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Muuntaa taulukon Markdown-luetteloksi.
 - `list:numbered` muuntaa numeroiduksi luetteloksi.
 - `list:numbered-task` muuntaa numeroiduksi tehtäväluetteloksi.
 
+### `math`
+
+Muotoilee tekstin inline-[[Muotoilun lisäsyntaksi#Matematiikka|matematiikaksi]]. Monirivinen teksti muunnetaan matematiikkalohkoksi.
+
+- `"x^2 + y^2"|math` palauttaa `$x^2 + y^2$`.
+
+### `math_block`
+
+Luo aina matematiikkalohkon, jossa `$$` on riveillä ennen ja jälkeen tekstin.
+
+### `strike`
+
+Käärii tekstin yliviivauksmerkkeihin.
+
+- `"Removed"|strike` palauttaa `~~Removed~~`.
+
 ### `table`
 
 Muuntaa taulukon tai objektitaulukon [[Muotoilun lisäsyntaksi#Taulukot|Markdown-taulukoksi]]:
@@ -183,6 +296,10 @@ Muuntaa taulukon tai objektitaulukon [[Muotoilun lisäsyntaksi#Taulukot|Markdown
 - Taulukkojen taulukolle se luo taulukon, jossa jokainen sisäkkäinen taulukko on rivi.
 - Yksinkertaiselle taulukolle se luo yhden sarakkeen taulukon otsikolla "Value".
 - Mukautetut sarakeotsikot voidaan määrittää käyttämällä: `table:("Column 1", "Column 2", "Column 3")`. Yksinkertaisen taulukon kanssa käytettynä se jakaa tiedot automaattisesti riveiksi määritettyjen sarakkeiden lukumäärän perusteella.
+
+### `table_pretty`
+
+Toimii kuten [[Suodattimet#`table`|table]], ja täyttää sarakkeet samanlevyisiksi niin, että taulukko on tasattu lähdekooditilassa.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Muuntaa merkkijonot, taulukot tai objektit Obsidianin [[Linkitä muistiinpanoja|
 
 ## Numerot
 
+`calc`, `round` ja `length` palauttavat numeroita, säilyttäen niiden tyypin myöhemmissä suodattimissa ja muuttujien arvoissa. `number_format` palauttaa tekstiä.
+
 ### `calc`
 
 Suorittaa peruslaskutoimituksia numeroilla.
@@ -203,7 +322,7 @@ Suorittaa peruslaskutoimituksia numeroilla.
 - Tukee operaattoreita: `+`, `-`, `*`, `/`, `**` (tai `^`) potenssiin korottamiseen.
 - Esimerkki: `5|calc:"+10"` palauttaa `15`.
 - Esimerkki: `2|calc:"**3"` palauttaa `8` (2 kuutioituna).
-- Palauttaa alkuperäisen merkkijonon, jos syöte ei ole numero.
+- Palauttaa alkuperäisen syötteen, jos se on tyhjä, ei ole numero tai laskutoimitus tuottaa äärettömän tuloksen.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Palauttaa merkkijonojen, taulukoiden tai objektien avainten lukumäärän.
 
 - Merkkijonoille: `"hello"|length` palauttaa `5`.
 - Taulukoille: `["a","b","c"]|length` palauttaa `3`.
+- Yksittäisen alkion taulukko lasketaan yhdeksi: `[42]|length` palauttaa `1`.
 - Objekteille: `{"a":1,"b":2}|length` palauttaa `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Pyöristää numeron lähimpään kokonaislukuun tai määritettyyn desimaalitar
 
 - Ilman parametreja: `3.7|round` palauttaa `4`.
 - Desimaalipaikat määritettynä: `3.14159|round:2` palauttaa `3.14`.
+- Taulukot ja objektit säilyttävät rakenteensa, ja numeeriset arvot pyöristetään rekursiivisesti. Numeeriset merkkijonot muunnetaan numeroiksi, esim. `["1.234","2.345"]|round:2` palauttaa `[1.23,2.35]`.
+- Virheellinen syöte kuten `"42abc"` säilytetään muuttamattomana eikä muunneta numeroksi.
 
 ## HTML-käsittely
 
@@ -246,7 +368,7 @@ Muuntaa merkkijonon [[Obsidian Flavored Markdown]] -muotoiseksi merkkijonoksi.
 
 Poistaa vain määritetyt HTML-attribuutit tunnisteista.
 
-- Esimerkki: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` palauttaa `<div id="example">Content</div>`.
+- Esimerkki: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` palauttaa `<div id="example">Content</div>`.
 - Useat attribuutit: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Korvaa HTML-tunnisteet säilyttäen tunnisteen sisällön ja attribuutit.
 Poistaa **kaikki** HTML-attribuutit merkkijonosta.
 
 - Käytä `strip_attr:("class, id")` tiettyjen attribuuttien säilyttämiseen.
-- Esimerkki: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` palauttaa `<div class="test">Content</div>`.
+- Esimerkki: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` palauttaa `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Poistaa **kaiken** Markdown-muotoilun ja palauttaa tekstitiedoston ilman muotoil
 
 - Muuttaa muotoillun tekstin muotoilemattomaksi tekstiksi, mukaan lukien lihavointi, kursivointi, korostukset, otsikot, koodi, lainaukset, taulukot, tehtäväluettelot ja wikilinkit.
 - Poistaa kokonaan taulukot, alaviitteet, kuvat ja HTML-elementit.
+- `stripmd` on alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Poistaa **kaikki** HTML-tunnisteet merkkijonosta. Tunnisteen sisältö säilytet
 
 Käsittele taulukoita ja objekteja.
 
+### `compact`
+
+Poistaa `null`-arvot ja tyhjät merkkijonot taulukoista ja objekteista. Säilyttää arvot `0` ja `false`.
+
+- `[null,"","one",0,false,"two"]|compact` palauttaa `["one",0,false,"two"]`.
+
 ### `first` 
 
-Palauttaa taulukon ensimmäisen elementin merkkijonona.
+Palauttaa taulukon ensimmäisen elementin säilyttäen sen tyypin. Objektit ja sisäkkäiset taulukot näytetään JSON-muodossa.
 
 - `["a","b","c"]|first` palauttaa `"a"`.
+- Tyhjä taulukko palauttaa `null`, joka näytetään tyhjänä tekstinä.
 - Jos syöte ei ole taulukko, se palauttaa syötteen muuttamattomana.
 
 ### `join`
@@ -311,9 +441,10 @@ Yhdistää taulukon elementit merkkijonoksi.
 
 ### `last`
 
-Palauttaa taulukon viimeisen elementin merkkijonona.
+Palauttaa taulukon viimeisen elementin säilyttäen sen tyypin. Objektit ja sisäkkäiset taulukot näytetään JSON-muodossa.
 
 - `["a","b","c"]|last` palauttaa `"c"`.
+- Tyhjä taulukko palauttaa `null`, joka näytetään tyhjänä tekstinä.
 - Jos syöte ei ole taulukko, se palauttaa syötteen muuttamattomana.
 
 ### `map`
@@ -346,6 +477,8 @@ Säilyttää taulukon n:nnet alkiot CSS-tyylisellä nth-child-syntaksilla ja ryh
 - `array|nth:3n` säilyttää joka 3. elementin (3, 6, 9 jne.).
 - `array|nth:n+3` säilyttää 3. ja kaikki seuraavat elementit.
 
+Tulos pysyy taulukkona myöhempiä kokoelmasuodattimia varten. Jos se sisältää yhden primitiiviarvon, arvo näytetään ilman taulukon hakasulkuja ja välitetään suoraan tekstisuodattimille, esim. `[1,2]|nth:2` näyttää `2`.
+
 Ryhmäkaavan syntaksi toistuville rakenteille:
 
 - `array|nth:1,2,3:5` säilyttää sijainnit 1, 2, 3 jokaisesta 5 alkion ryhmästä. Esimerkki: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` palauttaa `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Käsittelee objektidataa:
 - `object:keys` palauttaa taulukon objektin avaimista.
 - `object:values` palauttaa taulukon objektin arvoista.
 - Esimerkki: `{"a":1,"b":2}|object:array` palauttaa `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Jäsentää JSON-tekstin tyypitetyksi arvoksi. Käytä tätä ennen kokoelmasuodattimia tai YAML-sarjallistamista, kun muuttuja sisältää JSON-tekstiä, esim. `'[1,2]'|parse_json|yaml:flow` palauttaa `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Poimii osan merkkijonosta tai taulukosta.
 - Toinen parametri on poissulkeva: `"hello"|slice:1,4` sisältää merkit indekseissä 1, 2 ja 3.
 - Negatiivinen toinen parametri jättää elementtejä pois lopusta: `"hello"|slice:0,-2` palauttaa `"hel"`.
 
+### `sort`
+
+Järjestää taulukon nousevaan järjestykseen. Numerot järjestetään arvon mukaan.
+
+- `[10,2,1]|sort` palauttaa `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` palauttaa `["c","b","a"]`.
+- Objektitaulukoille anna ominaisuuden nimi: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` palauttaa `[{"name":"Ada"},{"name":"Lin"}]`. Käytä `sort:("name", "desc")` kääntääksesi järjestyksen. Alkiot, joilla ei ole kyseistä ominaisuutta, sijoitetaan viimeisiksi.
+
 ### `split`
 
 Jakaa merkkijonon alimerkkijonojen taulukoksi.
@@ -384,7 +529,14 @@ Jakaa merkkijonon alimerkkijonojen taulukoksi.
 - `"a,b,c"|split:","` palauttaa `["a","b","c"]`.
 - `"hello world"|split:" "` palauttaa `["hello","world"]`.
 - Jos erotinta ei anneta, se jakaa jokaisen merkin kohdalta: `"hello"|split` palauttaa `["h","e","l","l","o"]`.
-- Säännöllisiä lausekkeita voidaan käyttää erottimina: `"a1b2c3"|split:[0-9]` palauttaa `["a","b","c"]`.
+- Säännöllisiä lausekkeita voidaan käyttää erottimina: `"a1b2c3"|split:[0-9]` palauttaa `["a","b","c",""]`. Viimeinen alkio on tyhjä, koska merkkijono päättyy erottimeen.
+
+### `sum`
+
+Laskee yhteen taulukon luvut. Teksti, joka ei ole numero, ohitetaan, ja tyhjä taulukko palauttaa `0`.
+
+- `[10,"2.5","","none"]|sum` palauttaa `12.5`.
+- Objektitaulukoille anna ominaisuuden nimi: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` palauttaa `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Poistaa päällekkäiset arvot taulukoista ja objekteista.
 - Objektitaulukoille: `[{"a":1},{"b":2},{"a":1}]|unique` palauttaa `[{"a":1},{"b":2}]`.
 - Objekteille se poistaa ominaisuudet, joilla on päällekkäisiä arvoja, säilyttäen viimeisen esiintymän avaimen.
 - Merkkijonoille se palauttaa syötteen muuttamattomana.
+
+### `where`
+
+Säilyttää taulukon alkiot, joiden ominaisuus vastaa arvoa. Tyypin on myös täsmättävä, joten numero `1` ei vastaa tekstiä `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` palauttaa `[{"title":"One","published":true}]`.
+- Käytä pistepolkua sisäkkäisille ominaisuuksille, esim. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Muotoilee arvon YAML-muotoon. Merkkijonot ympäröidään aina lainausmerkein, mukaan lukien merkkijonot kuten `"null"`, `"true"` ja `"123"`. Todelliset null-arvot, totuusarvot ja numerot jäävät ilman lainausmerkkejä.
+
+- Taulukot ja objektit käyttävät oletuksena lohkotyyliä. Käytä `yaml:flow` tiiviisiin inline-kokoelmiin.
+- Käytä ensin `parse_json` sarjallistaaksesi JSON-tekstin rakenteellisena datana lainausmerkkiin ympäröidyn merkkijonon sijaan.
+
+### `yaml_property`
+
+Muotoilee nimetyn YAML-ominaisuuden, mukaan lukien sisennys taulukoille ja objekteille. Merkkijonot ja tyypitetyt arvot noudattavat samoja sääntöjä kuin `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` palauttaa `price: 42.57`.

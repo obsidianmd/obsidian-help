@@ -52,6 +52,19 @@ Decodifica uma string codificada em URI, por exemplo, `"%E4%BD%A0%E5%A5%BD"|deco
 - `"hello%20world"|decode_uri` retorna `"hello world"`.
 - Retorna a string original se a decodificação falhar (por exemplo, sequências URI malformadas).
 
+### `encode_uri`
+
+Codifica texto para uso em uma URL, incluindo caracteres reservados como `/`, `?` e `&`.
+
+- `"hello world/page"|encode_uri` retorna `hello%20world%2Fpage`.
+
+### `indent`
+
+Indenta cada linha não vazia com espaços. O padrão é dois espaços.
+
+- `indent:4` indenta cada linha com quatro espaços.
+- `indent:0` deixa o texto inalterado.
+
 ### `kebab`
 
 Converte texto para `kebab-case`.
@@ -102,6 +115,21 @@ Remove espaços em branco de ambas as extremidades de uma string.
 
 - `"  hello world  "|trim` retorna `"hello world"`.
 
+### `truncate`
+
+Encurta o texto para um número de caracteres e termina com `…`. O sufixo conta para o limite.
+
+- `"A concise introduction"|truncate:10` retorna `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` retorna `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` retorna `A concise`.
+
+### `truncatewords`
+
+Encurta o texto para um número de palavras e adiciona `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` retorna `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` retorna `A concise introduction`.
+
 ### `unescape`
 
 Converte aspas escapadas e sequências de nova linha em caracteres literais.
@@ -128,6 +156,13 @@ Aplicar [[Sintaxe de formatação básica]] e [[Sintaxe de formatação avançad
 
 Adiciona um prefixo de citação Markdown (`> `) a cada linha da entrada.
 
+### `bold`
+
+Envolve o texto em marcadores de negrito.
+
+- `"Important"|bold` retorna `**Important**`.
+- `"Important"|bold:_` retorna `__Important__`.
+
 ### `callout`
 
 Cria uma [[Frases de Destaque|frase de destaque]] com parâmetros opcionais: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Cria uma [[Frases de Destaque|frase de destaque]] com parâmetros opcionais: `{{
 - `type` é o tipo da frase de destaque, e o padrão é "info"
 - `title` é o título da frase de destaque, e o padrão é vazio
 - `foldState` é um booleano para definir o estado de dobramento (true para dobrado, false para desdobrado, null para não dobrável)
+
+### `code`
+
+Formata texto como código inline. Texto multilinha, ou um parâmetro de linguagem, cria um bloco de código cercado.
+
+- `"const answer = 42"|code` retorna `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` retorna um bloco de código marcado como `typescript`.
+
+### `code_block`
+
+Sempre cria um bloco de código cercado, com uma linguagem opcional, por exemplo, `code_block:"typescript"`.
+
+### `comment`
+
+Envolve o texto em marcadores de [[Sintaxe de formatação básica#Comentários|comentário]].
+
+- `"Hidden note"|comment` retorna `%%Hidden note%%`.
+
+### `embed`
+
+Converte strings, arrays ou objetos em [[Incorporar arquivos|incorporações]].
+
+- Para strings: `"diagram.png"|embed` retorna `![[diagram.png]]`.
+- Para strings com apelido: `"Project Atlas"|embed:"Preview"` retorna `![[Project Atlas|Preview]]`.
+- Para objetos: `{"one.md": "One", "two.md": "Two"}|embed` retorna incorporações com as chaves como arquivos e valores como apelidos.
+
+### `escape_md`
+
+Adiciona uma barra invertida antes da pontuação Markdown para que seja exibida como texto simples.
+
+- `"# Draft *title*"|escape_md` retorna `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Converte strings e arrays em links de [fragmento de texto](https://developer.moz
 - `highlights|fragment_link` retorna `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` retorna `Highlight content [custom title](text-fragment-url)`
 
+### `h1` a `h6`
+
+Transforma cada linha não vazia em um cabeçalho daquele nível.
+
+- `"Introduction"|h2` retorna `## Introduction`.
+
+### `hard_break`
+
+Adiciona dois espaços antes de cada quebra de linha simples, para que as quebras de linha apareçam na visualização de Leitura. Linhas em branco entre parágrafos permanecem como estão.
+
+### `highlight`
+
+Envolve o texto em marcadores de destaque.
+
+- `"Remember this"|highlight` retorna `==Remember this==`.
+- Adicione uma [[Sintaxe de formatação básica#Cores de destaque|cor de destaque]] com `red`, `orange`, `yellow`, `green`, `blue` ou `purple`, por exemplo, `"Remember this"|highlight:blue` retorna `==🔵Remember this==`.
+
+### `hr`
+
+Adiciona uma linha horizontal (`---`) após o texto, separada por uma linha em branco.
+
+- `"Section end"|hr` adiciona a linha após o texto.
+- `hr:before` adiciona antes do texto, e `hr:both` adiciona em ambos os lados.
+
 ### `image` 
 
 Converte strings, arrays ou objetos em sintaxe de imagem Markdown.
@@ -158,13 +248,20 @@ Converte strings, arrays ou objetos em sintaxe de imagem Markdown.
 - Para arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` retorna um array de strings de imagem Markdown com o mesmo texto alternativo para todas as imagens.
 - Para objetos: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` retorna strings de imagem Markdown com texto alternativo das chaves do objeto.
 
+### `italic`
+
+Envolve o texto em marcadores de itálico.
+
+- `"Emphasized"|italic` retorna `*Emphasized*`.
+- `"Emphasized"|italic:_` retorna `_Emphasized_`.
+
 ### `link`
 
 Converte strings, arrays ou objetos em sintaxe de link Markdown (não confundir com [[Filtros#`wikilink`|wikilink]]).
 
 - Para strings: `"url"|link:"author"` retorna `[author](url)`.
-- Para arrays: `["url1","url2"]|link:"author"` retorna um array de links Markdown com o mesmo texto para todos os links.
-- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna links Markdown com o texto correspondente às chaves do objeto.
+- Para arrays: `["url1","url2"]|link:"author"` retorna links Markdown com o mesmo texto para todos os links, um link por linha.
+- Para objetos: `{"url1": "Author 1", "url2": "Author 2"}|link` retorna links Markdown com o texto correspondente aos valores do objeto, um link por linha.
 
 ### `list`
 
@@ -175,6 +272,22 @@ Converte um array em uma lista Markdown.
 - `list:numbered` para converter em uma lista numerada.
 - `list:numbered-task` para converter em uma lista de tarefas com números.
 
+### `math`
+
+Formata texto como [[Sintaxe de formatação avançada#Matemática|matemática]] inline. Texto multilinha se torna um bloco matemático.
+
+- `"x^2 + y^2"|math` retorna `$x^2 + y^2$`.
+
+### `math_block`
+
+Sempre cria um bloco matemático, com `$$` nas linhas antes e depois do texto.
+
+### `strike`
+
+Envolve o texto em marcadores de tachado.
+
+- `"Removed"|strike` retorna `~~Removed~~`.
+
 ### `table`
 
 Converte um array ou array de objetos em uma [[Sintaxe de formatação avançada#Tabelas|tabela Markdown]]:
@@ -183,6 +296,10 @@ Converte um array ou array de objetos em uma [[Sintaxe de formatação avançada
 - Para um array de arrays, cria uma tabela com cada array aninhado como uma linha.
 - Para um array simples, cria uma tabela de coluna única com "Value" como cabeçalho.
 - Cabeçalhos de coluna personalizados podem ser especificados usando: `table:("Column 1", "Column 2", "Column 3")`. Quando usado com um array simples, automaticamente divide os dados em linhas com base no número de colunas especificadas.
+
+### `table_pretty`
+
+Funciona como [[Filtros#`table`|table]], e preenche as colunas com larguras iguais para que a tabela fique alinhada no modo Fonte.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Converte strings, arrays ou objetos em sintaxe de [[Vincular notas|link wiki]] d
 
 ## Números
 
+`calc`, `round` e `length` retornam números, preservando seu tipo em filtros posteriores e atribuições de variáveis. `number_format` retorna texto.
+
 ### `calc`
 
 Realiza operações aritméticas básicas em números.
@@ -203,7 +322,7 @@ Realiza operações aritméticas básicas em números.
 - Suporta operadores: `+`, `-`, `*`, `/`, `**` (ou `^`) para exponenciação.
 - Exemplo: `5|calc:"+10"` retorna `15`.
 - Exemplo: `2|calc:"**3"` retorna `8` (2 ao cubo).
-- Retorna a string original se a entrada não for um número.
+- Retorna a entrada original se estiver vazia, não for um número ou o cálculo produzir um resultado não finito.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Retorna o comprimento de strings, arrays ou número de chaves em objetos.
 
 - Para strings: `"hello"|length` retorna `5`.
 - Para arrays: `["a","b","c"]|length` retorna `3`.
+- Um array com um item ainda conta como um: `[42]|length` retorna `1`.
 - Para objetos: `{"a":1,"b":2}|length` retorna `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Arredonda um número para o inteiro mais próximo ou para um número especificad
 
 - Sem parâmetros: `3.7|round` retorna `4`.
 - Com casas decimais especificadas: `3.14159|round:2` retorna `3.14`.
+- Arrays e objetos mantêm sua estrutura, com valores numéricos arredondados recursivamente. Strings numéricas se tornam números, por exemplo, `["1.234","2.345"]|round:2` retorna `[1.23,2.35]`.
+- Entrada inválida como `"42abc"` é preservada em vez de ser convertida em número.
 
 ## Processamento de HTML
 
@@ -246,7 +368,7 @@ Converte uma string para uma string formatada em [[Markdown do Obsidian]].
 
 Remove apenas os atributos HTML especificados das tags.
 
-- Exemplo: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` retorna `<div id="example">Content</div>`.
+- Exemplo: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` retorna `<div id="example">Content</div>`.
 - Múltiplos atributos: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Substitui tags HTML, mantendo o conteúdo e os atributos da tag.
 Remove **todos** os atributos HTML de uma string.
 
 - Use `strip_attr:("class, id")` para manter atributos específicos.
-- Exemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div class="test">Content</div>`.
+- Exemplo: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` retorna `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Remove **toda** a formatação Markdown e retorna uma string de texto simples, p
 
 - Transforma texto formatado em texto simples sem formatação, incluindo negrito, itálico, destaques, cabeçalhos, código, citações, tabelas, listas de tarefas e wikilinks.
 - Remove completamente tabelas, notas de rodapé, imagens e elementos HTML.
+- `stripmd` é um apelido.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Remove **todas** as tags HTML de uma string. O conteúdo dentro da tag é preser
 
 Processar arrays e objetos.
 
+### `compact`
+
+Remove valores `null` e strings vazias de arrays e objetos. Mantém `0` e `false`.
+
+- `[null,"","one",0,false,"two"]|compact` retorna `["one",0,false,"two"]`.
+
 ### `first` 
 
-Retorna o primeiro elemento de um array como uma string.
+Retorna o primeiro elemento de um array, preservando seu tipo. Objetos e arrays aninhados são exibidos como JSON.
 
 - `["a","b","c"]|first` retorna `"a"`.
+- Um array vazio retorna `null`, que é exibido como texto vazio.
 - Se a entrada não for um array, retorna a entrada inalterada.
 
 ### `join`
@@ -311,9 +441,10 @@ Combina elementos de um array em uma string.
 
 ### `last`
 
-Retorna o último elemento de um array como uma string.
+Retorna o último elemento de um array, preservando seu tipo. Objetos e arrays aninhados são exibidos como JSON.
 
 - `["a","b","c"]|last` retorna `"c"`.
+- Um array vazio retorna `null`, que é exibido como texto vazio.
 - Se a entrada não for um array, retorna a entrada inalterada.
 
 ### `map`
@@ -346,6 +477,8 @@ Mantém itens na enésima posição em um array usando sintaxe estilo nth-child 
 - `array|nth:3n` mantém cada 3º elemento (3, 6, 9, etc.).
 - `array|nth:n+3` mantém o 3º e todos os elementos seguintes.
 
+O resultado permanece como um array para filtros de coleção posteriores. Se contiver um único valor primitivo, esse valor é exibido sem colchetes de array e passado diretamente para filtros de texto, por exemplo, `[1,2]|nth:2` exibe `2`.
+
 Sintaxe de padrão de grupo para estruturas repetitivas:
 
 - `array|nth:1,2,3:5` mantém as posições 1, 2, 3 de cada grupo de 5 itens. Exemplo: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` retorna `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipula dados de objetos:
 - `object:keys` retorna um array das chaves do objeto.
 - `object:values` retorna um array dos valores do objeto.
 - Exemplo: `{"a":1,"b":2}|object:array` retorna `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Analisa texto JSON em um valor tipado. Use isto antes de filtros de coleção ou serialização YAML quando uma variável contém texto JSON, por exemplo, `'[1,2]'|parse_json|yaml:flow` retorna `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Extrai uma porção de uma string ou array.
 - O segundo parâmetro é exclusivo: `"hello"|slice:1,4` inclui caracteres nos índices 1, 2 e 3.
 - Usar um segundo parâmetro negativo exclui elementos do final: `"hello"|slice:0,-2` retorna `"hel"`.
 
+### `sort`
+
+Ordena um array em ordem crescente. Números são ordenados por valor.
+
+- `[10,2,1]|sort` retorna `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` retorna `["c","b","a"]`.
+- Para arrays de objetos, passe uma propriedade: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` retorna `[{"name":"Ada"},{"name":"Lin"}]`. Use `sort:("name", "desc")` para inverter. Itens sem a propriedade ficam por último.
+
 ### `split`
 
 Divide uma string em um array de substrings.
@@ -384,7 +529,14 @@ Divide uma string em um array de substrings.
 - `"a,b,c"|split:","` retorna `["a","b","c"]`.
 - `"hello world"|split:" "` retorna `["hello","world"]`.
 - Se nenhum separador for fornecido, divide em cada caractere: `"hello"|split` retorna `["h","e","l","l","o"]`.
-- Expressões regulares podem ser usadas como separadores: `"a1b2c3"|split:[0-9]` retorna `["a","b","c"]`.
+- Expressões regulares podem ser usadas como separadores: `"a1b2c3"|split:[0-9]` retorna `["a","b","c",""]`. O último item está vazio porque a string termina com um separador.
+
+### `sum`
+
+Soma os números em um array. Texto que não é um número é ignorado, e um array vazio retorna `0`.
+
+- `[10,"2.5","","none"]|sum` retorna `12.5`.
+- Para arrays de objetos, passe uma propriedade: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` retorna `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Remove valores duplicados de arrays e objetos.
 - Para arrays de objetos: `[{"a":1},{"b":2},{"a":1}]|unique` retorna `[{"a":1},{"b":2}]`.
 - Para objetos, remove propriedades com valores duplicados, mantendo a chave da última ocorrência.
 - Para strings, retorna a entrada inalterada.
+
+### `where`
+
+Mantém os itens do array cuja propriedade corresponde a um valor. O tipo também deve corresponder, então o número `1` não corresponde ao texto `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` retorna `[{"title":"One","published":true}]`.
+- Use um caminho com pontos para propriedades aninhadas, por exemplo, `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formata um valor como YAML. Strings são sempre entre aspas, incluindo strings como `"null"`, `"true"` e `"123"`. Valores nulos, booleanos e números reais permanecem sem aspas.
+
+- Arrays e objetos usam estilo de bloco por padrão. Use `yaml:flow` para coleções inline compactas.
+- Use `parse_json` primeiro para serializar texto JSON como dados estruturados em vez de uma string entre aspas.
+
+### `yaml_property`
+
+Formata uma propriedade YAML nomeada, incluindo indentação para arrays e objetos. Strings e valores tipados seguem as mesmas regras do `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` retorna `price: 42.57`.

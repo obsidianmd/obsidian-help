@@ -63,6 +63,12 @@ Exemplos:
 - `{% if not hidden %}` — negação
 - `{% if (premium or featured) and published %}` — condições agrupadas
 
+Cada lado de um operador lógico deve ser uma expressão completa. Por exemplo, para verificar se uma string contém um de vários valores:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
+
 ### Veracidade
 
 Quando uma variável é usada sem um operador de comparação, é avaliada quanto à sua "veracidade":

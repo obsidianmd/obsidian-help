@@ -55,6 +55,20 @@ misc {
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+หากกฎการโฟกัสไม่ช่วย ลองรัน Obsidian ภายใต้ XWayland แทน Wayland แบบ native จากนั้นรีสตาร์ต Obsidian ใหม่ทั้งหมด
+
+หากคุณใช้ Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+เพื่อยกเลิกการตั้งค่านี้ ให้รันคำสั่ง `flatpak override --user --reset md.obsidian.Obsidian` โปรดทราบว่าคำสั่งนี้จะรีเซ็ต override ทั้งหมดที่คุณตั้งค่าไว้สำหรับ Obsidian
+
+สำหรับวิธีการติดตั้งอื่นๆ ให้เปิด Obsidian ด้วย flag `--ozone-platform=x11`
+
+สิ่งอื่นๆ ที่สามารถลองได้:
+
 - หากคุณใช้ Flatpak ลองใช้ [เวอร์ชั่น Obsidian ที่รองรับอย่างเป็นทางการ](https://obsidian.md/download)
 - หากคุณใช้ KDE ไปที่ **System Settings** → **Window Management** → **Window Rules** และอนุญาตให้ Obsidian รับโฟกัส [[web-clipper-kde.png|ดูภาพหน้าจอ]]
 - เป็นทางเลือกสำรอง ลองเปลี่ยนเป็น **โหมดเก่า** ใน **การตั้งค่า Web Clipper** → **ทั่วไป** ซึ่งจะข้ามคลิปบอร์ดและบันทึกเนื้อหาโดยตรงผ่าน URI โปรดทราบว่าวิธีนี้จะจำกัดจำนวนอักขระที่สามารถคลิปได้ขึ้นอยู่กับเบราว์เซอร์และ Linux distribution ของคุณ

@@ -52,6 +52,19 @@ Dekoder en URI-kodet streng, f.eks. `"%E4%BD%A0%E5%A5%BD"|decode_uri` returnerer
 - `"hello%20world"|decode_uri` returnerer `"hello world"`.
 - Returnerer den opprinnelige strengen hvis dekoding mislykkes (f.eks. feilformede URI-sekvenser).
 
+### `encode_uri`
+
+Koder tekst for bruk i en URL, inkludert reserverte tegn som `/`, `?` og `&`.
+
+- `"hello world/page"|encode_uri` returnerer `hello%20world%2Fpage`.
+
+### `indent`
+
+Rykker inn hver ikke-tom linje med mellomrom. Standard er to mellomrom.
+
+- `indent:4` rykker inn hver linje med fire mellomrom.
+- `indent:0` lar teksten være uendret.
+
 ### `kebab`
 
 Konverterer tekst til `kebab-case`.
@@ -102,6 +115,21 @@ Fjerner mellomrom fra begge ender av en streng.
 
 - `"  hello world  "|trim` returnerer `"hello world"`.
 
+### `truncate`
+
+Forkorter tekst til et antall tegn og avslutter med `…`. Suffikset teller med i grensen.
+
+- `"A concise introduction"|truncate:10` returnerer `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` returnerer `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` returnerer `A concise`.
+
+### `truncatewords`
+
+Forkorter tekst til et antall ord og legger til `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` returnerer `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` returnerer `A concise introduction`.
+
 ### `unescape`
 
 Konverterer escapede anførselstegn og linjeskiftsekvenser til bokstavelige tegn.
@@ -128,6 +156,13 @@ Bruk [[Grunnleggende formateringssyntaks]] og [[Avansert formateringssyntaks]] p
 
 Legger til et Markdown-sitatprefiks (`> `) på hver linje i inndata.
 
+### `bold`
+
+Pakker inn tekst i fet-markører.
+
+- `"Important"|bold` returnerer `**Important**`.
+- `"Important"|bold:_` returnerer `__Important__`.
+
 ### `callout`
 
 Oppretter en [[Uthevede blokker|uthevet blokk]] med valgfrie parametere: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Oppretter en [[Uthevede blokker|uthevet blokk]] med valgfrie parametere: `{{vari
 - `type` er typen uthevet blokk, og standardverdien er "info"
 - `title` er tittelen på den uthevede blokken, og standardverdien er tom
 - `foldState` er en boolsk verdi for å sette sammenfoldetilstanden (true for sammenfoldet, false for utfoldet, null for ikke foldbar)
+
+### `code`
+
+Formaterer tekst som inline-kode. Flerlinjet tekst, eller en språkparameter, oppretter en avgrenset kodeblokk i stedet.
+
+- `"const answer = 42"|code` returnerer `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` returnerer en kodeblokk merket som `typescript`.
+
+### `code_block`
+
+Oppretter alltid en avgrenset kodeblokk, med et valgfritt språk, f.eks. `code_block:"typescript"`.
+
+### `comment`
+
+Pakker inn tekst i [[Grunnleggende formateringssyntaks#Kommentarer|kommentar]]-markører.
+
+- `"Hidden note"|comment` returnerer `%%Hidden note%%`.
+
+### `embed`
+
+Konverterer strenger, matriser eller objekter til [[Bygg inn filer|innebygginger]].
+
+- For strenger: `"diagram.png"|embed` returnerer `![[diagram.png]]`.
+- For strenger med alias: `"Project Atlas"|embed:"Preview"` returnerer `![[Project Atlas|Preview]]`.
+- For objekter: `{"one.md": "One", "two.md": "Two"}|embed` returnerer innebygginger med nøklene som filer og verdiene som aliaser.
+
+### `escape_md`
+
+Legger til en omvendt skråstrek foran Markdown-tegnsetting slik at den vises som ren tekst.
+
+- `"# Draft *title*"|escape_md` returnerer `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Konverterer strenger og matriser til [tekstfragment](https://developer.mozilla.o
 - `highlights|fragment_link` returnerer `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` returnerer `Highlight content [custom title](text-fragment-url)`
 
+### `h1` til `h6`
+
+Gjør hver ikke-tom linje til en overskrift på det nivået.
+
+- `"Introduction"|h2` returnerer `## Introduction`.
+
+### `hard_break`
+
+Legger til to mellomrom før hvert enkelt linjeskift, slik at linjeskiftene vises i lesevisning. Tomme linjer mellom avsnitt forblir som de er.
+
+### `highlight`
+
+Pakker inn tekst i uthevingsmarkører.
+
+- `"Remember this"|highlight` returnerer `==Remember this==`.
+- Legg til en [[Grunnleggende formateringssyntaks#Uthevingsfarger|uthevingsfarge]] med `red`, `orange`, `yellow`, `green`, `blue` eller `purple`, f.eks. `"Remember this"|highlight:blue` returnerer `==🔵Remember this==`.
+
+### `hr`
+
+Legger til en horisontal linje (`---`) etter teksten, adskilt med en tom linje.
+
+- `"Section end"|hr` legger til linjen etter teksten.
+- `hr:before` legger den til før teksten, og `hr:both` legger den til på begge sider.
+
 ### `image`
 
 Konverterer strenger, matriser eller objekter til Markdown-bildesyntaks.
@@ -157,6 +247,13 @@ Konverterer strenger, matriser eller objekter til Markdown-bildesyntaks.
 - For strenger: `"image.jpg"|image:"alt text"` returnerer `![alt text](image.jpg)`.
 - For matriser: `["image1.jpg","image2.jpg"]|image:"alt text"` returnerer en matrise med Markdown-bildestrenger med samme alt-tekst for alle bilder.
 - For objekter: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` returnerer Markdown-bildestrenger med alt-tekst fra objektnøklene.
+
+### `italic`
+
+Pakker inn tekst i kursiv-markører.
+
+- `"Emphasized"|italic` returnerer `*Emphasized*`.
+- `"Emphasized"|italic:_` returnerer `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Konverterer en matrise til en Markdown-liste.
 - `list:numbered` for å konvertere til en nummerert liste.
 - `list:numbered-task` for å konvertere til en oppgaveliste med numre.
 
+### `math`
+
+Formaterer tekst som inline [[Avansert formateringssyntaks#Matte|matte]]. Flerlinjet tekst blir en matteblokk.
+
+- `"x^2 + y^2"|math` returnerer `$x^2 + y^2$`.
+
+### `math_block`
+
+Oppretter alltid en matteblokk, med `$$` på linjene før og etter teksten.
+
+### `strike`
+
+Pakker inn tekst i gjennomstrekingsmarkører.
+
+- `"Removed"|strike` returnerer `~~Removed~~`.
+
 ### `table`
 
 Konverterer en matrise eller matrise av objekter til en [[Avansert formateringssyntaks#Tabeller|Markdown-tabell]]:
@@ -183,6 +296,10 @@ Konverterer en matrise eller matrise av objekter til en [[Avansert formateringss
 - For en matrise av matriser opprettes en tabell der hver nestet matrise er en rad.
 - For en enkel matrise opprettes en enkeltkolonnetabell med "Value" som overskrift.
 - Egendefinerte kolonneoverskrifter kan angis med: `table:("Column 1", "Column 2", "Column 3")`. Når det brukes med en enkel matrise, deles dataene automatisk inn i rader basert på antall kolonner som er angitt.
+
+### `table_pretty`
+
+Fungerer som [[Filtre#`table`|table]], og polstrer kolonnene til lik bredde slik at tabellen er jevn i kildemodus.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Konverterer strenger, matriser eller objekter til Obsidian [[Lenke notater|wiki-
 
 ## Tall
 
+`calc`, `round` og `length` returnerer tall og bevarer typen i senere filtre og variabeltilordninger. `number_format` returnerer tekst.
+
 ### `calc`
 
 Utfører grunnleggende aritmetiske operasjoner på tall.
@@ -203,7 +322,7 @@ Utfører grunnleggende aritmetiske operasjoner på tall.
 - Støtter operatorer: `+`, `-`, `*`, `/`, `**` (eller `^`) for eksponentiering.
 - Eksempel: `5|calc:"+10"` returnerer `15`.
 - Eksempel: `2|calc:"**3"` returnerer `8` (2 i tredje).
-- Returnerer den opprinnelige strengen hvis inndata ikke er et tall.
+- Returnerer den opprinnelige inndataen hvis den er tom, ikke er et tall, eller beregningen gir et ikke-endelig resultat.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Returnerer lengden på strenger, matriser eller antall nøkler i objekter.
 
 - For strenger: `"hello"|length` returnerer `5`.
 - For matriser: `["a","b","c"]|length` returnerer `3`.
+- En matrise med ett element teller fortsatt som én: `[42]|length` returnerer `1`.
 - For objekter: `{"a":1,"b":2}|length` returnerer `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Avrunder et tall til nærmeste heltall eller til et angitt antall desimalplasser
 
 - Uten parametere: `3.7|round` returnerer `4`.
 - Med angitte desimalplasser: `3.14159|round:2` returnerer `3.14`.
+- Matriser og objekter beholder strukturen sin, og numeriske verdier avrundes rekursivt. Numeriske strenger blir tall, f.eks. `["1.234","2.345"]|round:2` returnerer `[1.23,2.35]`.
+- Ugyldig inndata som `"42abc"` bevares i stedet for å bli konvertert til et tall.
 
 ## HTML-behandling
 
@@ -246,7 +368,7 @@ Konverterer en streng til en [[Obsidian Flavored Markdown]]-formatert streng.
 
 Fjerner bare de angitte HTML-attributtene fra tagger.
 
-- Eksempel: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` returnerer `<div id="example">Content</div>`.
+- Eksempel: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` returnerer `<div id="example">Content</div>`.
 - Flere attributter: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Erstatter HTML-tagger, og beholder innholdet og attributtene til taggen.
 Fjerner **alle** HTML-attributter fra en streng.
 
 - Bruk `strip_attr:("class, id")` for å beholde spesifikke attributter.
-- Eksempel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnerer `<div class="test">Content</div>`.
+- Eksempel: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` returnerer `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Fjerner **all** Markdown-formatering og returnerer en ren tekststreng, f.eks. gj
 
 - Gjør formatert tekst til uformatert ren tekst, inkludert fet, kursiv, uthevinger, overskrifter, kode, blokksitater, tabeller, oppgavelister og wiki-lenker.
 - Fjerner fullstendig tabeller, fotnoter, bilder og HTML-elementer.
+- `stripmd` er et alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Fjerner **alle** HTML-tagger fra en streng. Innholdet i taggen bevares.
 
 Behandle matriser og objekter.
 
+### `compact`
+
+Fjerner `null`-verdier og tomme strenger fra matriser og objekter. Beholder `0` og `false`.
+
+- `[null,"","one",0,false,"two"]|compact` returnerer `["one",0,false,"two"]`.
+
 ### `first`
 
-Returnerer det første elementet i en matrise som en streng.
+Returnerer det første elementet i en matrise og bevarer typen. Objekter og nestede matriser vises som JSON.
 
 - `["a","b","c"]|first` returnerer `"a"`.
+- En tom matrise returnerer `null`, som vises som tom tekst.
 - Hvis inndata ikke er en matrise, returneres inndata uendret.
 
 ### `join`
@@ -311,9 +441,10 @@ Kombinerer elementer i en matrise til en streng.
 
 ### `last`
 
-Returnerer det siste elementet i en matrise som en streng.
+Returnerer det siste elementet i en matrise og bevarer typen. Objekter og nestede matriser vises som JSON.
 
 - `["a","b","c"]|last` returnerer `"c"`.
+- En tom matrise returnerer `null`, som vises som tom tekst.
 - Hvis inndata ikke er en matrise, returneres inndata uendret.
 
 ### `map`
@@ -346,6 +477,8 @@ Beholder hvert n-te element i en matrise ved hjelp av CSS-stil nth-child-syntaks
 - `array|nth:3n` beholder hvert 3. element (3, 6, 9, osv.).
 - `array|nth:n+3` beholder det 3. og alle påfølgende elementer.
 
+Resultatet forblir en matrise for senere samlingsfiltre. Hvis det inneholder en enkelt primitiv verdi, vises den verdien uten matriseklammer og sendes direkte til tekstfiltre, f.eks. `[1,2]|nth:2` viser `2`.
+
 Gruppemønstersyntaks for gjentakende strukturer:
 
 - `array|nth:1,2,3:5` beholder posisjonene 1, 2, 3 fra hver gruppe på 5 elementer. Eksempel: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` returnerer `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Manipulerer objektdata:
 - `object:keys` returnerer en matrise med objektets nøkler.
 - `object:values` returnerer en matrise med objektets verdier.
 - Eksempel: `{"a":1,"b":2}|object:array` returnerer `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Tolker JSON-tekst til en typet verdi. Bruk dette før samlingsfiltre eller YAML-serialisering når en variabel inneholder JSON-tekst, f.eks. `'[1,2]'|parse_json|yaml:flow` returnerer `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Henter ut en del av en streng eller matrise.
 - Den andre parameteren er eksklusiv: `"hello"|slice:1,4` inkluderer tegnene på indeks 1, 2 og 3.
 - Bruk av en negativ andre parameter ekskluderer elementer fra slutten: `"hello"|slice:0,-2` returnerer `"hel"`.
 
+### `sort`
+
+Sorterer en matrise i stigende rekkefølge. Tall sorteres etter verdi.
+
+- `[10,2,1]|sort` returnerer `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` returnerer `["c","b","a"]`.
+- For matriser med objekter, oppgi en egenskap: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` returnerer `[{"name":"Ada"},{"name":"Lin"}]`. Bruk `sort:("name", "desc")` for å reversere. Elementer uten egenskapen plasseres sist.
+
 ### `split`
 
 Deler en streng inn i en matrise med delstrenger.
@@ -384,7 +529,14 @@ Deler en streng inn i en matrise med delstrenger.
 - `"a,b,c"|split:","` returnerer `["a","b","c"]`.
 - `"hello world"|split:" "` returnerer `["hello","world"]`.
 - Hvis ingen skilletegn oppgis, deles på hvert tegn: `"hello"|split` returnerer `["h","e","l","l","o"]`.
-- Regulære uttrykk kan brukes som skilletegn: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c"]`.
+- Regulære uttrykk kan brukes som skilletegn: `"a1b2c3"|split:[0-9]` returnerer `["a","b","c",""]`. Det siste elementet er tomt fordi strengen ender med et skilletegn.
+
+### `sum`
+
+Legger sammen tallene i en matrise. Tekst som ikke er et tall hoppes over, og en tom matrise returnerer `0`.
+
+- `[10,"2.5","","none"]|sum` returnerer `12.5`.
+- For matriser med objekter, oppgi en egenskap: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` returnerer `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Fjerner duplikatverdier fra matriser og objekter.
 - For matriser med objekter: `[{"a":1},{"b":2},{"a":1}]|unique` returnerer `[{"a":1},{"b":2}]`.
 - For objekter fjernes egenskaper med duplikatverdier, og nøkkelen til den siste forekomsten beholdes.
 - For strenger returneres inndata uendret.
+
+### `where`
+
+Beholder matriseelementer der en egenskap samsvarer med en verdi. Typen må også samsvare, så tallet `1` samsvarer ikke med teksten `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` returnerer `[{"title":"One","published":true}]`.
+- Bruk en punktseparert sti for nestede egenskaper, f.eks. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formaterer en verdi som YAML. Strenger settes alltid i anførselstegn, inkludert strenger som `"null"`, `"true"` og `"123"`. Faktiske null-verdier, boolske verdier og tall forblir uten anførselstegn.
+
+- Matriser og objekter bruker blokkstil som standard. Bruk `yaml:flow` for kompakte inline-samlinger.
+- Bruk `parse_json` først for å serialisere JSON-tekst som strukturerte data i stedet for en streng i anførselstegn.
+
+### `yaml_property`
+
+Formaterer en navngitt YAML-egenskap, inkludert innrykk for matriser og objekter. Strenger og typede verdier følger de samme reglene som `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` returnerer `price: 42.57`.

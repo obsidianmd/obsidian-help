@@ -55,6 +55,20 @@ misc {
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+אם כללי הפוקוס לא עוזרים, נסו להריץ את Obsidian תחת XWayland במקום Wayland מקורי, ואז הפעילו מחדש את Obsidian לחלוטין.
+
+אם אתם משתמשים ב-Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+כדי לבטל זאת, הריצו `flatpak override --user --reset md.obsidian.Obsidian`. שימו לב שזה מאפס את כל העקיפות שהגדרתם עבור Obsidian.
+
+עבור שיטות התקנה אחרות, הפעילו את Obsidian עם הדגל `--ozone-platform=x11`.
+
+דברים נוספים לנסות:
+
 - אם אתם משתמשים ב-Flatpak שקלו לנסות [גרסת Obsidian נתמכת רשמית](https://obsidian.md/download).
 - אם אתם משתמשים ב-KDE עברו אל **System Settings** → **Window Management** → **Window Rules** ואפשרו ל-Obsidian לקבל פוקוס, [[web-clipper-kde.png|ראו צילום מסך]].
 - כפתרון חלופי, נסו לעבור ל-**מצב מורשת** ב-**הגדרות Web Clipper** → **כללי**. זה יעקוף את הלוח וישמור תוכן ישירות דרך URI. שימו לב שזה יגביל את מספר התווים שניתן לגזור בהתאם לדפדפן ולהפצת ה-Linux שלכם.

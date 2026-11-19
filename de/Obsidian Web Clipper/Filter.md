@@ -52,6 +52,19 @@ Dekodiert eine URI-kodierte Zeichenkette, z. B. `"%E4%BD%A0%E5%A5%BD"|decode_uri
 - `"hello%20world"|decode_uri` gibt `"hello world"` zurück.
 - Gibt die ursprüngliche Zeichenkette zurück, wenn die Dekodierung fehlschlägt (z. B. bei fehlerhaften URI-Sequenzen).
 
+### `encode_uri`
+
+Kodiert Text für die Verwendung in einer URL, einschließlich reservierter Zeichen wie `/`, `?` und `&`.
+
+- `"hello world/page"|encode_uri` gibt `hello%20world%2Fpage` zurück.
+
+### `indent`
+
+Rückt jede nicht-leere Zeile mit Leerzeichen ein. Standardmäßig zwei Leerzeichen.
+
+- `indent:4` rückt jede Zeile um vier Leerzeichen ein.
+- `indent:0` lässt den Text unverändert.
+
 ### `kebab`
 
 Konvertiert Text in `kebab-case`.
@@ -102,6 +115,21 @@ Entfernt Leerzeichen an beiden Enden einer Zeichenkette.
 
 - `"  hello world  "|trim` gibt `"hello world"` zurück.
 
+### `truncate`
+
+Kürzt Text auf eine Anzahl von Zeichen und beendet ihn mit `…`. Das Suffix zählt zum Limit.
+
+- `"A concise introduction"|truncate:10` gibt `A concise…` zurück.
+- `"A concise introduction"|truncate:(12, "...")` gibt `A concise...` zurück.
+- `"A concise introduction"|truncate:(9, "")` gibt `A concise` zurück.
+
+### `truncatewords`
+
+Kürzt Text auf eine Anzahl von Wörtern und fügt `…` hinzu.
+
+- `"A concise introduction to Knap"|truncatewords:3` gibt `A concise introduction…` zurück.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` gibt `A concise introduction` zurück.
+
 ### `unescape`
 
 Konvertiert maskierte Anführungszeichen und Zeilenumbruch-Sequenzen in literale Zeichen.
@@ -128,6 +156,13 @@ Konvertiert einen Wert in Großbuchstaben, z. B. `"hello world"|upper` gibt `"HE
 
 Fügt jeder Zeile der Eingabe ein Markdown-Zitat-Präfix (`> `) hinzu.
 
+### `bold`
+
+Umschließt Text mit Fett-Markierungen.
+
+- `"Important"|bold` gibt `**Important**` zurück.
+- `"Important"|bold:_` gibt `__Important__` zurück.
+
 ### `callout`
 
 Erstellt einen [[Hinweisblöcke|Hinweisblock]] mit optionalen Parametern: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Erstellt einen [[Hinweisblöcke|Hinweisblock]] mit optionalen Parametern: `{{var
 - `type` ist der Callout-Typ und standardmäßig „info"
 - `title` ist der Titel des Hinweisblocks und standardmäßig leer
 - `foldState` ist ein boolescher Wert zum Setzen des Einklapp-Status (true für eingeklappt, false für ausgeklappt, null für nicht einklappbar)
+
+### `code`
+
+Formatiert Text als Inline-Code. Mehrzeiliger Text oder ein Sprachparameter erzeugt stattdessen einen eingezäunten Quelltext-Block.
+
+- `"const answer = 42"|code` gibt `` `const answer = 42` `` zurück.
+- `"const answer = 42"|code:"typescript"` gibt einen Quelltext-Block mit der Markierung `typescript` zurück.
+
+### `code_block`
+
+Erzeugt immer einen eingezäunten Quelltext-Block, mit einer optionalen Sprache, z. B. `code_block:"typescript"`.
+
+### `comment`
+
+Umschließt Text mit [[Grundlegende Formatierungssyntax#Kommentare|Kommentar]]-Markierungen.
+
+- `"Hidden note"|comment` gibt `%%Hidden note%%` zurück.
+
+### `embed`
+
+Konvertiert Zeichenketten, Arrays oder Objekte in [[Dateien einbetten|Einbettungen]].
+
+- Für Zeichenketten: `"diagram.png"|embed` gibt `![[diagram.png]]` zurück.
+- Für Zeichenketten mit Alias: `"Project Atlas"|embed:"Preview"` gibt `![[Project Atlas|Preview]]` zurück.
+- Für Objekte: `{"one.md": "One", "two.md": "Two"}|embed` gibt Einbettungen mit den Schlüsseln als Dateien und Werten als Aliasse zurück.
+
+### `escape_md`
+
+Fügt vor Markdown-Satzzeichen einen Backslash ein, damit sie als reiner Text angezeigt werden.
+
+- `"# Draft *title*"|escape_md` gibt `\# Draft \*title\*` zurück.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Konvertiert Zeichenketten und Arrays in [Textfragment](https://developer.mozilla
 - `highlights|fragment_link` gibt `Highlight content [link](text-fragment-url)` zurück
 - `highlights|fragment_link:"custom title"` gibt `Highlight content [custom title](text-fragment-url)` zurück
 
+### `h1` bis `h6`
+
+Wandelt jede nicht-leere Zeile in eine Überschrift der entsprechenden Ebene um.
+
+- `"Introduction"|h2` gibt `## Introduction` zurück.
+
+### `hard_break`
+
+Fügt vor jedem einfachen Zeilenumbruch zwei Leerzeichen hinzu, damit die Zeilenumbrüche im Lesemodus angezeigt werden. Leerzeilen zwischen Absätzen bleiben unverändert.
+
+### `highlight`
+
+Umschließt Text mit Hervorhebungs-Markierungen.
+
+- `"Remember this"|highlight` gibt `==Remember this==` zurück.
+- Füge eine [[Grundlegende Formatierungssyntax#Hervorhebungsfarben|Hervorhebungsfarbe]] hinzu mit `red`, `orange`, `yellow`, `green`, `blue` oder `purple`, z. B. `"Remember this"|highlight:blue` gibt `==🔵Remember this==` zurück.
+
+### `hr`
+
+Fügt nach dem Text eine horizontale Linie (`---`) hinzu, getrennt durch eine Leerzeile.
+
+- `"Section end"|hr` fügt die Linie nach dem Text hinzu.
+- `hr:before` fügt sie vor dem Text hinzu, und `hr:both` fügt sie auf beiden Seiten hinzu.
+
 ### `image`
 
 Konvertiert Zeichenketten, Arrays oder Objekte in Markdown-Bildsyntax.
@@ -157,6 +247,13 @@ Konvertiert Zeichenketten, Arrays oder Objekte in Markdown-Bildsyntax.
 - Für Zeichenketten: `"image.jpg"|image:"alt text"` gibt `![alt text](image.jpg)` zurück.
 - Für Arrays: `["image1.jpg","image2.jpg"]|image:"alt text"` gibt ein Array von Markdown-Bildzeichenketten mit demselben Alt-Text für alle Bilder zurück.
 - Für Objekte: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` gibt Markdown-Bildzeichenketten mit Alt-Text aus den Objektschlüsseln zurück.
+
+### `italic`
+
+Umschließt Text mit Kursiv-Markierungen.
+
+- `"Emphasized"|italic` gibt `*Emphasized*` zurück.
+- `"Emphasized"|italic:_` gibt `_Emphasized_` zurück.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Konvertiert ein Array in eine Markdown-Liste.
 - `list:numbered` zum Konvertieren in eine nummerierte Liste.
 - `list:numbered-task` zum Konvertieren in eine nummerierte Aufgabenliste.
 
+### `math`
+
+Formatiert Text als Inline-[[Erweiterte Formatierungssyntax#Mathe|Mathe]]. Mehrzeiliger Text wird zu einem Matheblock.
+
+- `"x^2 + y^2"|math` gibt `$x^2 + y^2$` zurück.
+
+### `math_block`
+
+Erzeugt immer einen Matheblock, mit `$$` in den Zeilen vor und nach dem Text.
+
+### `strike`
+
+Umschließt Text mit Durchgestrichen-Markierungen.
+
+- `"Removed"|strike` gibt `~~Removed~~` zurück.
+
 ### `table`
 
 Konvertiert ein Array oder Array von Objekten in eine [[Erweiterte Formatierungssyntax#Tabellen|Markdown-Tabelle]]:
@@ -183,6 +296,10 @@ Konvertiert ein Array oder Array von Objekten in eine [[Erweiterte Formatierungs
 - Für ein Array von Arrays wird eine Tabelle erstellt, wobei jedes verschachtelte Array eine Zeile darstellt.
 - Für ein einfaches Array wird eine einspaltige Tabelle mit „Value" als Überschrift erstellt.
 - Benutzerdefinierte Spaltenüberschriften können angegeben werden mit: `table:("Column 1", "Column 2", "Column 3")`. Bei Verwendung mit einem einfachen Array werden die Daten automatisch basierend auf der Anzahl der angegebenen Spalten in Zeilen aufgeteilt.
+
+### `table_pretty`
+
+Funktioniert wie [[Filter#`table`|table]] und füllt die Spalten auf gleiche Breiten auf, damit die Tabelle in der Quellcode-Ansicht bündig ausgerichtet ist.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Konvertiert Zeichenketten, Arrays oder Objekte in Obsidian-[[Notizen verknüpfen
 
 ## Zahlen
 
+`calc`, `round` und `length` geben Zahlen zurück und behalten ihren Typ in nachfolgenden Filtern und Variablenzuweisungen bei. `number_format` gibt Text zurück.
+
 ### `calc`
 
 Führt grundlegende arithmetische Operationen mit Zahlen durch.
@@ -203,7 +322,7 @@ Führt grundlegende arithmetische Operationen mit Zahlen durch.
 - Unterstützte Operatoren: `+`, `-`, `*`, `/`, `**` (oder `^`) für Potenzierung.
 - Beispiel: `5|calc:"+10"` gibt `15` zurück.
 - Beispiel: `2|calc:"**3"` gibt `8` zurück (2 hoch 3).
-- Gibt die ursprüngliche Zeichenkette zurück, wenn die Eingabe keine Zahl ist.
+- Gibt die ursprüngliche Eingabe zurück, wenn sie leer ist, keine Zahl ist oder die Berechnung ein nicht-endliches Ergebnis liefert.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Gibt die Länge von Zeichenketten, Arrays oder die Anzahl der Schlüssel in Obje
 
 - Für Zeichenketten: `"hello"|length` gibt `5` zurück.
 - Für Arrays: `["a","b","c"]|length` gibt `3` zurück.
+- Ein Array mit einem Element zählt trotzdem als eins: `[42]|length` gibt `1` zurück.
 - Für Objekte: `{"a":1,"b":2}|length` gibt `2` zurück.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Rundet eine Zahl auf die nächste Ganzzahl oder auf eine angegebene Anzahl von D
 
 - Ohne Parameter: `3.7|round` gibt `4` zurück.
 - Mit angegebenen Dezimalstellen: `3.14159|round:2` gibt `3.14` zurück.
+- Arrays und Objekte behalten ihre Struktur bei, wobei numerische Werte rekursiv gerundet werden. Numerische Zeichenketten werden zu Zahlen, z. B. `["1.234","2.345"]|round:2` gibt `[1.23,2.35]` zurück.
+- Ungültige Eingaben wie `"42abc"` werden beibehalten, anstatt in eine Zahl konvertiert zu werden.
 
 ## HTML-Verarbeitung
 
@@ -246,7 +368,7 @@ Konvertiert eine Zeichenkette in eine [[Obsidian Flavored Markdown]]-formatierte
 
 Entfernt nur die angegebenen HTML-Attribute aus Tags.
 
-- Beispiel: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` gibt `<div id="example">Content</div>` zurück.
+- Beispiel: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` gibt `<div id="example">Content</div>` zurück.
 - Mehrere Attribute: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Ersetzt HTML-Tags unter Beibehaltung des Inhalts und der Attribute des Tags.
 Entfernt **alle** HTML-Attribute aus einer Zeichenkette.
 
 - Verwende `strip_attr:("class, id")`, um bestimmte Attribute beizubehalten.
-- Beispiel: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` gibt `<div class="test">Content</div>` zurück.
+- Beispiel: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` gibt `<div class="test">Content</div>` zurück.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Entfernt **alle** Markdown-Formatierungen und gibt eine reine Textzeichenkette z
 
 - Wandelt formatierten Text in unformatierten reinen Text um, einschließlich Fett, Kursiv, Hervorhebungen, Überschriften, Quelltext, Blockzitate, Tabellen, Aufgabenlisten und Wiki-Links.
 - Entfernt vollständig Tabellen, Fußnoten, Bilder und HTML-Elemente.
+- `stripmd` ist ein Alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Entfernt **alle** HTML-Tags aus einer Zeichenkette. Der Inhalt innerhalb des Tag
 
 Arrays und Objekte verarbeiten.
 
+### `compact`
+
+Entfernt `null`-Werte und leere Zeichenketten aus Arrays und Objekten. Behält `0` und `false` bei.
+
+- `[null,"","one",0,false,"two"]|compact` gibt `["one",0,false,"two"]` zurück.
+
 ### `first`
 
-Gibt das erste Element eines Arrays als Zeichenkette zurück.
+Gibt das erste Element eines Arrays zurück und behält dessen Typ bei. Objekte und verschachtelte Arrays werden als JSON angezeigt.
 
 - `["a","b","c"]|first` gibt `"a"` zurück.
+- Ein leeres Array gibt `null` zurück, was als leerer Text angezeigt wird.
 - Wenn die Eingabe kein Array ist, wird die Eingabe unverändert zurückgegeben.
 
 ### `join`
@@ -311,9 +441,10 @@ Kombiniert Elemente eines Arrays zu einer Zeichenkette.
 
 ### `last`
 
-Gibt das letzte Element eines Arrays als Zeichenkette zurück.
+Gibt das letzte Element eines Arrays zurück und behält dessen Typ bei. Objekte und verschachtelte Arrays werden als JSON angezeigt.
 
 - `["a","b","c"]|last` gibt `"c"` zurück.
+- Ein leeres Array gibt `null` zurück, was als leerer Text angezeigt wird.
 - Wenn die Eingabe kein Array ist, wird die Eingabe unverändert zurückgegeben.
 
 ### `map`
@@ -346,6 +477,8 @@ Behält das n-te Element in einem Array unter Verwendung der CSS-ähnlichen nth-
 - `array|nth:3n` behält jedes 3. Element (3, 6, 9, usw.).
 - `array|nth:n+3` behält das 3. und alle folgenden Elemente.
 
+Das Ergebnis bleibt ein Array für nachfolgende Sammlungsfilter. Wenn es einen einzelnen primitiven Wert enthält, wird dieser Wert ohne Array-Klammern angezeigt und direkt an Textfilter übergeben, z. B. `[1,2]|nth:2` zeigt `2` an.
+
 Gruppenmuster-Syntax für sich wiederholende Strukturen:
 
 - `array|nth:1,2,3:5` behält die Positionen 1, 2, 3 aus jeder Gruppe von 5 Elementen. Beispiel: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` gibt `[1,2,3,6,7,8]` zurück.
@@ -358,6 +491,10 @@ Manipuliert Objektdaten:
 - `object:keys` gibt ein Array der Objektschlüssel zurück.
 - `object:values` gibt ein Array der Objektwerte zurück.
 - Beispiel: `{"a":1,"b":2}|object:array` gibt `[["a",1],["b",2]]` zurück.
+
+### `parse_json`
+
+Parst JSON-Text in einen typisierten Wert. Verwende dies vor Sammlungsfiltern oder YAML-Serialisierung, wenn eine Variable JSON-Text enthält, z. B. `'[1,2]'|parse_json|yaml:flow` gibt `[1,2]` zurück.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Extrahiert einen Teil einer Zeichenkette oder eines Arrays.
 - Der zweite Parameter ist exklusiv: `"hello"|slice:1,4` enthält die Zeichen an den Indizes 1, 2 und 3.
 - Die Verwendung eines negativen zweiten Parameters schließt Elemente vom Ende aus: `"hello"|slice:0,-2` gibt `"hel"` zurück.
 
+### `sort`
+
+Sortiert ein Array in aufsteigender Reihenfolge. Zahlen werden nach Wert sortiert.
+
+- `[10,2,1]|sort` gibt `[1,2,10]` zurück.
+- `["a","c","b"]|sort:"desc"` gibt `["c","b","a"]` zurück.
+- Für Arrays von Objekten kann eine Eigenschaft angegeben werden: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` gibt `[{"name":"Ada"},{"name":"Lin"}]` zurück. Verwende `sort:("name", "desc")` für umgekehrte Reihenfolge. Elemente ohne die Eigenschaft stehen am Ende.
+
 ### `split`
 
 Teilt eine Zeichenkette in ein Array von Teilzeichenketten.
@@ -384,7 +529,14 @@ Teilt eine Zeichenkette in ein Array von Teilzeichenketten.
 - `"a,b,c"|split:","` gibt `["a","b","c"]` zurück.
 - `"hello world"|split:" "` gibt `["hello","world"]` zurück.
 - Wenn kein Trennzeichen angegeben wird, wird bei jedem Zeichen geteilt: `"hello"|split` gibt `["h","e","l","l","o"]` zurück.
-- Reguläre Ausdrücke können als Trennzeichen verwendet werden: `"a1b2c3"|split:[0-9]` gibt `["a","b","c"]` zurück.
+- Reguläre Ausdrücke können als Trennzeichen verwendet werden: `"a1b2c3"|split:[0-9]` gibt `["a","b","c",""]` zurück. Das letzte Element ist leer, weil die Zeichenkette mit einem Trennzeichen endet.
+
+### `sum`
+
+Addiert die Zahlen in einem Array. Text, der keine Zahl ist, wird übersprungen, und ein leeres Array gibt `0` zurück.
+
+- `[10,"2.5","","none"]|sum` gibt `12.5` zurück.
+- Für Arrays von Objekten kann eine Eigenschaft angegeben werden: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` gibt `12.5` zurück.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Entfernt doppelte Werte aus Arrays und Objekten.
 - Für Arrays von Objekten: `[{"a":1},{"b":2},{"a":1}]|unique` gibt `[{"a":1},{"b":2}]` zurück.
 - Für Objekte werden Eigenschaften mit doppelten Werten entfernt, wobei der Schlüssel des letzten Vorkommens beibehalten wird.
 - Für Zeichenketten wird die Eingabe unverändert zurückgegeben.
+
+### `where`
+
+Behält die Array-Elemente bei, deren Eigenschaft einem Wert entspricht. Der Typ muss ebenfalls übereinstimmen, sodass die Zahl `1` nicht mit dem Text `"1"` übereinstimmt.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` gibt `[{"title":"One","published":true}]` zurück.
+- Verwende einen Punktpfad für verschachtelte Eigenschaften, z. B. `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Formatiert einen Wert als YAML. Zeichenketten werden immer in Anführungszeichen gesetzt, einschließlich Zeichenketten wie `"null"`, `"true"` und `"123"`. Tatsächliche Null-Werte, Boolesche Werte und Zahlen bleiben ohne Anführungszeichen.
+
+- Arrays und Objekte verwenden standardmäßig den Block-Stil. Verwende `yaml:flow` für kompakte Inline-Sammlungen.
+- Verwende zuerst `parse_json`, um JSON-Text als strukturierte Daten statt als Zeichenkette in Anführungszeichen zu serialisieren.
+
+### `yaml_property`
+
+Formatiert eine benannte YAML-Eigenschaft, einschließlich Einrückung für Arrays und Objekte. Zeichenketten und typisierte Werte folgen denselben Regeln wie `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` gibt `price: 42.57` zurück.

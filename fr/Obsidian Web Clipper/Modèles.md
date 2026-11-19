@@ -13,7 +13,7 @@ Pour **créer** un modèle, allez dans les paramètres de Web Clipper et cliquez
 
 Pour **modifier** un modèle, choisissez un modèle dans la barre latérale. Vos modifications seront enregistrées automatiquement.
 
-Les modèles utilisent les [[Variables]] et les [[Filtres]], qui vous permettent d'adapter la façon dont le contenu sera enregistré.
+Les modèles utilisent les [[Variables]], les [[Filtres]] et la [[Logique]], qui vous permettent d'adapter la façon dont le contenu sera enregistré.
 
 ## Importer et exporter des modèles Web Clipper
 

@@ -57,6 +57,20 @@ Dacă folosești Sway:
 for_window [class="obsidian"] focus_on_window_activation focus
 ```
 
+Dacă regulile de focalizare nu ajută, încearcă să rulezi Obsidian sub XWayland în loc de Wayland nativ, apoi repornește complet Obsidian.
+
+Dacă folosești Flatpak:
+
+```shell
+flatpak override --user --nosocket=wayland --socket=x11 md.obsidian.Obsidian
+```
+
+Pentru a anula acest lucru, rulează `flatpak override --user --reset md.obsidian.Obsidian`. Reține că aceasta resetează toate suprascrierea pe care le-ai setat pentru Obsidian.
+
+Pentru alte metode de instalare, lansează Obsidian cu flag-ul `--ozone-platform=x11`.
+
+Alte lucruri de încercat:
+
 - Dacă folosești Flatpak, ia în considerare încercarea unei [versiuni Obsidian susținute oficial](https://obsidian.md/download).
 - Dacă folosești KDE, mergi la **Setările sistemului** → **Gestionarea ferestrelor** → **Reguli de fereastră** și permite-i lui Obsidian să preia focalizarea, [[web-clipper-kde.png|vezi captura de ecran]].
 - Ca soluție de rezervă, încearcă să comuți la **Modul vechi (Legacy)** în **Setările Web Clipper** → **General**. Aceasta va ocoli clipboard-ul și va salva conținutul direct prin URI. Reține că aceasta va limita numărul de caractere care pot fi salvate, în funcție de browserul și distribuția Linux pe care le folosești.

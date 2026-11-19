@@ -52,6 +52,19 @@ Mendekode string yang dikodekan URI, misalnya `"%E4%BD%A0%E5%A5%BD"|decode_uri` 
 - `"hello%20world"|decode_uri` mengembalikan `"hello world"`.
 - Mengembalikan string asli jika dekode gagal (misalnya urutan URI yang salah format).
 
+### `encode_uri`
+
+Mengkodekan teks untuk digunakan dalam URL, termasuk karakter yang direservasi seperti `/`, `?`, dan `&`.
+
+- `"hello world/page"|encode_uri` mengembalikan `hello%20world%2Fpage`.
+
+### `indent`
+
+Menambahkan indentasi spasi pada setiap baris yang tidak kosong. Secara bawaan menggunakan dua spasi.
+
+- `indent:4` menambahkan indentasi empat spasi pada setiap baris.
+- `indent:0` membiarkan teks tidak berubah.
+
 ### `kebab`
 
 Mengonversi teks ke `kebab-case`.
@@ -102,6 +115,21 @@ Menghapus spasi kosong dari kedua ujung string.
 
 - `"  hello world  "|trim` mengembalikan `"hello world"`.
 
+### `truncate`
+
+Mempersingkat teks ke sejumlah karakter dan mengakhirinya dengan `…`. Sufiks dihitung terhadap batas.
+
+- `"A concise introduction"|truncate:10` mengembalikan `A concise…`.
+- `"A concise introduction"|truncate:(12, "...")` mengembalikan `A concise...`.
+- `"A concise introduction"|truncate:(9, "")` mengembalikan `A concise`.
+
+### `truncatewords`
+
+Mempersingkat teks ke sejumlah kata dan menambahkan `…`.
+
+- `"A concise introduction to Knap"|truncatewords:3` mengembalikan `A concise introduction…`.
+- `"A concise introduction to Knap"|truncatewords:(3, "")` mengembalikan `A concise introduction`.
+
 ### `unescape`
 
 Mengonversi tanda kutip yang di-escape dan urutan baris baru menjadi karakter literal.
@@ -128,6 +156,13 @@ Menerapkan [[Sintaksis format dasar]] dan [[Sintaksis format lanjutan]] pada tek
 
 Menambahkan prefiks kutipan Markdown (`> `) ke setiap baris input.
 
+### `bold`
+
+Membungkus teks dengan penanda tebal.
+
+- `"Important"|bold` mengembalikan `**Important**`.
+- `"Important"|bold:_` mengembalikan `__Important__`.
+
 ### `callout`
 
 Membuat [[Callout|callout]] dengan parameter opsional: `{{variable|callout:("type", "title", foldState)}}`
@@ -135,6 +170,37 @@ Membuat [[Callout|callout]] dengan parameter opsional: `{{variable|callout:("typ
 - `type` adalah jenis callout, dan secara bawaan adalah "info"
 - `title` adalah judul callout, dan secara bawaan kosong
 - `foldState` adalah boolean untuk mengatur status lipatan (true untuk dilipat, false untuk tidak dilipat, null untuk tidak dapat dilipat)
+
+### `code`
+
+Memformat teks sebagai kode inline. Teks multibaris, atau parameter bahasa, membuat blok kode berpagar sebagai gantinya.
+
+- `"const answer = 42"|code` mengembalikan `` `const answer = 42` ``.
+- `"const answer = 42"|code:"typescript"` mengembalikan blok kode yang ditandai sebagai `typescript`.
+
+### `code_block`
+
+Selalu membuat blok kode berpagar, dengan bahasa opsional, misalnya `code_block:"typescript"`.
+
+### `comment`
+
+Membungkus teks dengan penanda [[Sintaksis format dasar#Komentar|komentar]].
+
+- `"Hidden note"|comment` mengembalikan `%%Hidden note%%`.
+
+### `embed`
+
+Mengonversi string, array, atau objek menjadi [[Sematkan file|sematan]].
+
+- Untuk string: `"diagram.png"|embed` mengembalikan `![[diagram.png]]`.
+- Untuk string dengan alias: `"Project Atlas"|embed:"Preview"` mengembalikan `![[Project Atlas|Preview]]`.
+- Untuk objek: `{"one.md": "One", "two.md": "Two"}|embed` mengembalikan sematan dengan kunci sebagai file dan nilai sebagai alias.
+
+### `escape_md`
+
+Menambahkan backslash sebelum tanda baca Markdown sehingga ditampilkan sebagai teks biasa.
+
+- `"# Draft *title*"|escape_md` mengembalikan `\# Draft \*title\*`.
 
 ### `footnote`
 
@@ -150,6 +216,30 @@ Mengonversi string dan array menjadi tautan [fragmen teks](https://developer.moz
 - `highlights|fragment_link` mengembalikan `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` mengembalikan `Highlight content [custom title](text-fragment-url)`
 
+### `h1` hingga `h6`
+
+Mengubah setiap baris yang tidak kosong menjadi judul dengan level tersebut.
+
+- `"Introduction"|h2` mengembalikan `## Introduction`.
+
+### `hard_break`
+
+Menambahkan dua spasi sebelum setiap jeda baris tunggal, sehingga jeda baris ditampilkan dalam tampilan baca. Baris kosong antar paragraf tetap seperti semula.
+
+### `highlight`
+
+Membungkus teks dengan penanda sorotan.
+
+- `"Remember this"|highlight` mengembalikan `==Remember this==`.
+- Tambahkan [[Sintaksis format dasar#Warna sorotan|warna sorotan]] dengan `red`, `orange`, `yellow`, `green`, `blue`, atau `purple`, misalnya `"Remember this"|highlight:blue` mengembalikan `==🔵Remember this==`.
+
+### `hr`
+
+Menambahkan garis horizontal (`---`) setelah teks, dipisahkan oleh baris kosong.
+
+- `"Section end"|hr` menambahkan garis setelah teks.
+- `hr:before` menambahkannya sebelum teks, dan `hr:both` menambahkannya di kedua sisi.
+
 ### `image`
 
 Mengonversi string, array, atau objek menjadi sintaksis gambar Markdown.
@@ -157,6 +247,13 @@ Mengonversi string, array, atau objek menjadi sintaksis gambar Markdown.
 - Untuk string: `"image.jpg"|image:"alt text"` mengembalikan `![alt text](image.jpg)`.
 - Untuk array: `["image1.jpg","image2.jpg"]|image:"alt text"` mengembalikan array string gambar Markdown dengan teks alt yang sama untuk semua gambar.
 - Untuk objek: `{"image1.jpg": "Alt 1", "image2.jpg": "Alt 2"}|image` mengembalikan string gambar Markdown dengan teks alt dari kunci objek.
+
+### `italic`
+
+Membungkus teks dengan penanda miring.
+
+- `"Emphasized"|italic` mengembalikan `*Emphasized*`.
+- `"Emphasized"|italic:_` mengembalikan `_Emphasized_`.
 
 ### `link`
 
@@ -175,6 +272,22 @@ Mengonversi array menjadi daftar Markdown.
 - `list:numbered` untuk mengonversi menjadi daftar bernomor.
 - `list:numbered-task` untuk mengonversi menjadi daftar tugas bernomor.
 
+### `math`
+
+Memformat teks sebagai [[Sintaksis format lanjutan#Matematika|matematika]] inline. Teks multibaris menjadi blok matematika.
+
+- `"x^2 + y^2"|math` mengembalikan `$x^2 + y^2$`.
+
+### `math_block`
+
+Selalu membuat blok matematika, dengan `$$` pada baris sebelum dan sesudah teks.
+
+### `strike`
+
+Membungkus teks dengan penanda coret.
+
+- `"Removed"|strike` mengembalikan `~~Removed~~`.
+
 ### `table`
 
 Mengonversi array atau array objek menjadi [[Sintaksis format lanjutan#Tabel|tabel Markdown]]:
@@ -183,6 +296,10 @@ Mengonversi array atau array objek menjadi [[Sintaksis format lanjutan#Tabel|tab
 - Untuk array dari array, membuat tabel dengan setiap array bersarang sebagai baris.
 - Untuk array sederhana, membuat tabel satu kolom dengan "Value" sebagai header.
 - Header kolom kustom dapat ditentukan menggunakan: `table:("Column 1", "Column 2", "Column 3")`. Saat digunakan dengan array sederhana, secara otomatis membagi data menjadi baris berdasarkan jumlah kolom yang ditentukan.
+
+### `table_pretty`
+
+Bekerja seperti [[Filter#`table`|table]], dan menambahkan padding pada kolom ke lebar yang sama sehingga tabel terlihat rapi dalam mode Sumber.
 
 ### `wikilink`
 
@@ -196,6 +313,8 @@ Mengonversi string, array, atau objek menjadi sintaksis [[Hubungkan catatan|taut
 
 ## Angka
 
+`calc`, `round`, dan `length` mengembalikan angka, mempertahankan tipenya dalam filter dan penetapan variabel selanjutnya. `number_format` mengembalikan teks.
+
 ### `calc`
 
 Melakukan operasi aritmatika dasar pada angka.
@@ -203,7 +322,7 @@ Melakukan operasi aritmatika dasar pada angka.
 - Mendukung operator: `+`, `-`, `*`, `/`, `**` (atau `^`) untuk eksponensial.
 - Contoh: `5|calc:"+10"` mengembalikan `15`.
 - Contoh: `2|calc:"**3"` mengembalikan `8` (2 pangkat tiga).
-- Mengembalikan string asli jika input bukan angka.
+- Mengembalikan input asli jika kosong, bukan angka, atau perhitungan menghasilkan hasil yang tidak terbatas.
 
 ### `length`
 
@@ -211,6 +330,7 @@ Mengembalikan panjang string, array, atau jumlah kunci dalam objek.
 
 - Untuk string: `"hello"|length` mengembalikan `5`.
 - Untuk array: `["a","b","c"]|length` mengembalikan `3`.
+- Array dengan satu item tetap dihitung sebagai satu: `[42]|length` mengembalikan `1`.
 - Untuk objek: `{"a":1,"b":2}|length` mengembalikan `2`.
 
 ### `number_format`
@@ -227,6 +347,8 @@ Membulatkan angka ke bilangan bulat terdekat atau ke jumlah desimal yang ditentu
 
 - Tanpa parameter: `3.7|round` mengembalikan `4`.
 - Dengan jumlah desimal yang ditentukan: `3.14159|round:2` mengembalikan `3.14`.
+- Array dan objek mempertahankan strukturnya, dengan nilai numerik dibulatkan secara rekursif. String numerik menjadi angka, misalnya `["1.234","2.345"]|round:2` mengembalikan `[1.23,2.35]`.
+- Input yang tidak valid seperti `"42abc"` dipertahankan alih-alih dikonversi menjadi angka.
 
 ## Pemrosesan HTML
 
@@ -246,7 +368,7 @@ Mengonversi string menjadi string berformat [[Obsidian Flavored Markdown]].
 
 Menghapus hanya atribut HTML yang ditentukan dari tag.
 
-- Contoh: `"<div class="test" id="example">Content</div>"|remove_attr:"class"` mengembalikan `<div id="example">Content</div>`.
+- Contoh: `'<div class="test" id="example">Content</div>'|remove_attr:"class"` mengembalikan `<div id="example">Content</div>`.
 - Beberapa atribut: `{{fullHtml|remove_attr:("class,style,id")}}`
 
 ### `remove_html`
@@ -274,7 +396,7 @@ Mengganti tag HTML, mempertahankan konten dan atribut tag.
 Menghapus **semua** atribut HTML dari string.
 
 - Gunakan `strip_attr:("class, id")` untuk mempertahankan atribut tertentu.
-- Contoh: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` mengembalikan `<div class="test">Content</div>`.
+- Contoh: `'<div class="test" id="example">Content</div>'|strip_attr:("class")` mengembalikan `<div class="test">Content</div>`.
 
 ### `strip_md`
 
@@ -282,6 +404,7 @@ Menghapus **semua** pemformatan Markdown dan mengembalikan string teks biasa, mi
 
 - Mengubah teks berformat menjadi teks biasa tanpa format, termasuk tebal, miring, sorotan, judul, kode, kutipan blok, tabel, daftar tugas, dan tautan wiki.
 - Menghapus sepenuhnya tabel, catatan kaki, gambar, dan elemen HTML.
+- `stripmd` adalah alias.
 
 ### `strip_tags`
 
@@ -294,11 +417,18 @@ Menghapus **semua** tag HTML dari string. Konten di dalam tag dipertahankan.
 
 Memproses array dan objek.
 
+### `compact`
+
+Menghapus nilai `null` dan string kosong dari array dan objek. Mempertahankan `0` dan `false`.
+
+- `[null,"","one",0,false,"two"]|compact` mengembalikan `["one",0,false,"two"]`.
+
 ### `first`
 
-Mengembalikan elemen pertama dari array sebagai string.
+Mengembalikan elemen pertama dari array, mempertahankan tipenya. Objek dan array bersarang ditampilkan sebagai JSON.
 
 - `["a","b","c"]|first` mengembalikan `"a"`.
+- Array kosong mengembalikan `null`, yang ditampilkan sebagai teks kosong.
 - Jika input bukan array, mengembalikan input tanpa perubahan.
 
 ### `join`
@@ -311,9 +441,10 @@ Menggabungkan elemen array menjadi string.
 
 ### `last`
 
-Mengembalikan elemen terakhir dari array sebagai string.
+Mengembalikan elemen terakhir dari array, mempertahankan tipenya. Objek dan array bersarang ditampilkan sebagai JSON.
 
 - `["a","b","c"]|last` mengembalikan `"c"`.
+- Array kosong mengembalikan `null`, yang ditampilkan sebagai teks kosong.
 - Jika input bukan array, mengembalikan input tanpa perubahan.
 
 ### `map`
@@ -346,6 +477,8 @@ Mempertahankan item ke-n dalam array menggunakan sintaksis nth-child gaya CSS da
 - `array|nth:3n` mempertahankan setiap elemen ke-3 (3, 6, 9, dst.).
 - `array|nth:n+3` mempertahankan elemen ke-3 dan semua elemen setelahnya.
 
+Hasilnya tetap berupa array untuk filter koleksi selanjutnya. Jika berisi satu nilai primitif, nilai tersebut ditampilkan tanpa tanda kurung array dan diteruskan langsung ke filter teks, misalnya `[1,2]|nth:2` menampilkan `2`.
+
 Sintaksis pola grup untuk struktur berulang:
 
 - `array|nth:1,2,3:5` mempertahankan posisi 1, 2, 3 dari setiap grup 5 item. Contoh: `[1,2,3,4,5,6,7,8,9,10]|nth:1,2,3:5` mengembalikan `[1,2,3,6,7,8]`.
@@ -358,6 +491,10 @@ Memanipulasi data objek:
 - `object:keys` mengembalikan array kunci objek.
 - `object:values` mengembalikan array nilai objek.
 - Contoh: `{"a":1,"b":2}|object:array` mengembalikan `[["a",1],["b",2]]`.
+
+### `parse_json`
+
+Memproses teks JSON menjadi nilai bertipe. Gunakan ini sebelum filter koleksi atau serialisasi YAML ketika variabel berisi teks JSON, misalnya `'[1,2]'|parse_json|yaml:flow` mengembalikan `[1,2]`.
 
 ### `reverse`
 
@@ -377,6 +514,14 @@ Mengekstrak bagian dari string atau array.
 - Parameter kedua bersifat eksklusif: `"hello"|slice:1,4` mencakup karakter pada indeks 1, 2, dan 3.
 - Menggunakan parameter kedua negatif mengecualikan elemen dari akhir: `"hello"|slice:0,-2` mengembalikan `"hel"`.
 
+### `sort`
+
+Mengurutkan array dalam urutan naik. Angka diurutkan berdasarkan nilai.
+
+- `[10,2,1]|sort` mengembalikan `[1,2,10]`.
+- `["a","c","b"]|sort:"desc"` mengembalikan `["c","b","a"]`.
+- Untuk array objek, berikan properti: `[{"name":"Lin"},{"name":"Ada"}]|sort:"name"` mengembalikan `[{"name":"Ada"},{"name":"Lin"}]`. Gunakan `sort:("name", "desc")` untuk membalikkannya. Item tanpa properti tersebut ditempatkan di akhir.
+
 ### `split`
 
 Membagi string menjadi array substring.
@@ -384,7 +529,14 @@ Membagi string menjadi array substring.
 - `"a,b,c"|split:","` mengembalikan `["a","b","c"]`.
 - `"hello world"|split:" "` mengembalikan `["hello","world"]`.
 - Jika tidak ada pemisah yang diberikan, memisahkan pada setiap karakter: `"hello"|split` mengembalikan `["h","e","l","l","o"]`.
-- Ekspresi reguler dapat digunakan sebagai pemisah: `"a1b2c3"|split:[0-9]` mengembalikan `["a","b","c"]`.
+- Ekspresi reguler dapat digunakan sebagai pemisah: `"a1b2c3"|split:[0-9]` mengembalikan `["a","b","c",""]`. Item terakhir kosong karena string diakhiri dengan pemisah.
+
+### `sum`
+
+Menjumlahkan angka dalam array. Teks yang bukan angka dilewati, dan array kosong mengembalikan `0`.
+
+- `[10,"2.5","","none"]|sum` mengembalikan `12.5`.
+- Untuk array objek, berikan properti: `[{"amount":10},{"amount":"2.5"}]|sum:"amount"` mengembalikan `12.5`.
 
 ### `template`
 
@@ -406,3 +558,25 @@ Menghapus nilai duplikat dari array dan objek.
 - Untuk array objek: `[{"a":1},{"b":2},{"a":1}]|unique` mengembalikan `[{"a":1},{"b":2}]`.
 - Untuk objek menghapus properti dengan nilai duplikat, mempertahankan kunci dari kemunculan terakhir.
 - Untuk string mengembalikan input tanpa perubahan.
+
+### `where`
+
+Mempertahankan item array yang propertinya cocok dengan nilai. Tipe juga harus cocok, jadi angka `1` tidak cocok dengan teks `"1"`.
+
+- `[{"title":"One","published":true},{"title":"Two","published":false}]|where:("published", true)` mengembalikan `[{"title":"One","published":true}]`.
+- Gunakan jalur bertitik untuk properti bersarang, misalnya `where:("author.name", "Ada")`.
+
+## YAML
+
+### `yaml`
+
+Memformat nilai sebagai YAML. String selalu dikutip, termasuk string seperti `"null"`, `"true"`, dan `"123"`. Nilai null, boolean, dan angka yang sebenarnya tetap tidak dikutip.
+
+- Array dan objek menggunakan gaya blok secara bawaan. Gunakan `yaml:flow` untuk koleksi inline yang ringkas.
+- Gunakan `parse_json` terlebih dahulu untuk membuat serial teks JSON sebagai data terstruktur alih-alih string yang dikutip.
+
+### `yaml_property`
+
+Memformat properti YAML bernama, termasuk indentasi untuk array dan objek. String dan nilai bertipe mengikuti aturan yang sama seperti `yaml`.
+
+- `"42.567"|round:2|yaml_property:"price"` mengembalikan `price: 42.57`.
