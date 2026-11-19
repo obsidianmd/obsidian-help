@@ -11,7 +11,7 @@ Na mobilních zařízeních se Obsidian aktualizuje prostřednictvím obchodu s 
 
 Otevřete **[[Nastavení]] → Obecné**.
 
-Aktuální verze aplikace a instalátoru najdete v horní části stránky.
+Aktuální verze aplikace a instalátoru najdete v horní části stránky. Když je k dispozici novější instalátor, Obsidian zobrazí upozornění s odkazem ke stažení. Postupujte podle [[#Aktualizace instalátoru|pokynů pro aktualizaci instalátoru]] a nainstalujte ji.
 
 ![[application-installer-current-version.png#interface]]
 

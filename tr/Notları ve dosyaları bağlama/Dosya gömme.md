@@ -86,6 +86,14 @@ Ayrıca bağlantı hedefine `#height=[sayı]` ekleyerek gömülü PDF görüntü
 ![[Document.pdf#height=400]]
 ```
 
+Sayfa ve yükseklik seçeneklerini birleştirmek için bunları `&` ile ayırın:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+PDF'leri görüntüleme ve arama hakkında daha fazla bilgi için [[PDF'ler]] sayfasına bakın.
+
 ## Bir nota tuval gömme
 
 Bir [[Tuval|tuval]] gömmek için:

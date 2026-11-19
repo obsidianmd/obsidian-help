@@ -54,12 +54,12 @@ Konfigurationsoptionen für das **Notiz anzeigen**-Widget:
 
 ## Schnellerfassung
 
-Mit der Schnellerfassung kannst du Text über Sperrbildschirm-, Kontrollzentrum- oder Home-Bildschirm-Widgets in deinem Vault speichern. Je nach gewähltem Erfassungsort kann die Schnellerfassung eine neue Notiz erstellen oder den Text zu einer vorhandenen Notiz hinzufügen.
+Mit der Schnellerfassung kannst du Text über Sperrbildschirm-, Kontrollzentrum-, Home-Bildschirm-Widgets oder Kurzbefehle in deinem Vault speichern, ohne darauf warten zu müssen, dass dein Vault geladen wird. Je nach gewähltem Erfassungsort kann die Schnellerfassung eine neue Notiz erstellen oder den Text zu einer vorhandenen Notiz hinzufügen.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Hinweis
-> Die Schnellerfassung ist ab iOS und iPadOS 26 und höher verfügbar.
+> Die Schnellerfassung erfordert Obsidian 1.14 oder neuer und iOS oder iPadOS 26 oder neuer.
 
 So erfasst du Text:
 
@@ -72,6 +72,63 @@ So erfasst du Text:
 **Hinweis**: Wenn Live-Aktivitäten aktiviert sind, erscheint die Schnellerfassungs-Notiz auch auf dem Sperrbildschirm und auf unterstützten iPhone-Modellen in der Dynamic Island. Tippe auf die Leiste oder die Live-Aktivität, um die Bearbeitung fortzusetzen.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Spracherfassung
+
+Mit der Spracherfassung kannst du eine Sprachnotiz über die Schnellerfassung aufnehmen. Obsidian transkribiert das Gesprochene in Echtzeit und kann die Aufnahme zusammen mit dem Transkript in deinem Vault speichern.
+
+So erfasst du eine Sprachnotiz:
+
+1. Öffne die Schnellerfassung und tippe auf die Mikrofon-Taste in der unteren linken Ecke. Die Aufnahme startet sofort.
+2. Sprich deine Notiz. Das Transkript erscheint während des Sprechens im Textbereich und kann jederzeit bearbeitet werden.
+3. Tippe auf die Aufnahme-Taste am unteren Bildschirmrand, um die Aufnahme zu pausieren, und tippe erneut, um fortzufahren.
+4. Tippe auf das Häkchen, um das Transkript und die Aufnahme am ausgewählten Erfassungsort zu speichern.
+
+![[ios-voice-capture.png|400]]
+
+Du kannst die Aufnahme auch direkt über ein Widget starten. Wähle beim Anpassen eines Schnellerfassungs-Widgets eine Aktion aus dem Abschnitt **Spracherfassung**.
+
+Die Aufnahme wird fortgesetzt, wenn du die Schnellerfassung minimierst oder dein Gerät sperrst. Während der Aufnahme zeigen der Sperrbildschirm und die Dynamic Island das Live-Transkript und einen Timer an. Tippe auf den Timer, um die Aufnahme zu pausieren oder fortzusetzen.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Spracherfassungs-Einstellungen
+
+Um die Einstellungen der Spracherfassung zu ändern, tippe auf das Zahnrad-Symbol oben auf dem Bildschirm, während du dich in der Spracherfassung befindest.
+
+- **Sprache**: Die für die Transkription verwendete Sprache. Siehe [[#Unterstützte Sprachen]]. Wähle **Keine**, um die Transkription zu deaktivieren und nur Audio aufzunehmen.
+- **Mikrofon**: Das für die Aufnahme verwendete Mikrofon, z. B. das eingebaute Mikrofon oder ein verbundenes Headset.
+- **Audiodatei speichern**: Ob die Aufnahme in deinem Vault gespeichert werden soll.
+- **Audio von anderen Apps**: Was mit Musik oder anderen Audiowiedergaben passiert, wenn du aufnimmst: **Weiterspielen**, **Leiser**, oder **Pausieren**. Änderungen gelten ab der nächsten Aufnahme.
+
+#### Unterstützte Sprachen
+
+Die Spracherfassung kann Sprache in den folgenden Sprachen transkribieren. Einige Geräte unterstützen weniger Sprachen, und die verfügbaren Sprachen können sich mit iOS-Updates ändern. Wenn deine Sprache nicht verfügbar ist, kannst du trotzdem Audio ohne Transkript aufnehmen.
+
+- Bangla
+- Chinesisch
+- Deutsch
+- Englisch
+- Französisch
+- Gujarati
+- Hindi
+- Italienisch
+- Japanisch
+- Kannada
+- Kantonesisch
+- Kashmiri
+- Koreanisch
+- Maithili
+- Malayalam
+- Marathi
+- Nepali
+- Odia
+- Portugiesisch
+- Punjabi
+- Spanisch
+- Tamil
+- Telugu
+- Urdu
 
 ### Erfassungsorte
 

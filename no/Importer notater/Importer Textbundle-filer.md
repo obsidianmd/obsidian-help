@@ -16,7 +16,7 @@ Du trenger den offisielle Obsidian [[Importer]]-utvidelsen, som du kan [installe
 1. Åpne **[[Innstillinger]]**.
 2. Gå til **Community-utvidelser** og [installer Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Aktiver Importer-utvidelsen.
-4. Åpne **Importer**-utvidelsen ved hjelp av kommandopaletten eller verktøylinjeikonet.
+4. Åpne Importer i Innstillinger eller ved hjelp av [[Kommandopalett|kommandopaletten]].
 5. Under **Filformat** velg **Textbundle (.textbundle, .textpack).**
 6. Velg plasseringen til Textbundle- eller Textpack-filene dine. Zip-filer støttes også.
 7. Velg **Importer** for å se gjennom den genererte malen og forhåndsvise eksempler fra notatene dine.

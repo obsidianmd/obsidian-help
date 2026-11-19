@@ -16,7 +16,7 @@ Verwende die offizielle [[Importprogramm|Importer-Erweiterung]], wenn du Ordner 
 
 1. Öffne **[[Einstellungen|Einstellungen]] → Externe Erweiterungen** und [installiere Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Aktiviere die Importer-Erweiterung.
-3. Öffne **Importer** über die [[Befehlspalette|Befehlspalette]] oder das Symbol in der Werkzeugleiste.
+3. Öffne Importer in den Einstellungen oder über die [[Befehlspalette|Befehlspalette]].
 4. Wähle unter **Dateiformat** die Option **Markdown (.md, .zip)**.
 5. Wähle einzelne Markdown-Dateien, Ordner oder Zip-Archive aus.
 6. Überprüfe die erkannten Ordner, Ausgabeoptionen, die generierte Vorlage und die Vorschaubeispiele.

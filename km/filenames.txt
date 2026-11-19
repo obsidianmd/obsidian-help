@@ -154,6 +154,10 @@ translation=ទម្រង់ឯកសារដែលទទួលយក
 original=Financial contributions
 translation=ការរួមចំណែកហិរញ្ញវត្ថុ
 
+[file.find-and-replace]
+original=Find and replace
+translation=ស្វែងរក និងជំនួស
+
 [file.folding]
 original=Folding
 translation=បត់/បង្រួម
@@ -238,6 +242,10 @@ translation=នាំចូលពី Microsoft OneNote
 original=Import from Roam Research
 translation=នាំចូលពី Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=នាំចូលពី Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=ពុម្ពកម្មវិធីនាំចូល
@@ -286,6 +294,10 @@ translation=គ្រប់គ្រង​វ៉ាល់
 original=Mobile app
 translation=កម្មវិធីទូរសព្ទ
 
+[file.more-options-menu]
+original=More options menu
+translation=ម៉ឺនុយជម្រើសបន្ថែម
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=ទស្សន៍បញ្ជីច្រើន
@@ -305,6 +317,10 @@ translation=គេហទំព័រផ្លូវការ
 [file.payment]
 original=Introduction to licenses and payment
 translation=ការណែនាំអំពីអាជ្ញាប័ណ្ណ និងការទូទាត់
+
+[file.pdf]
+original=PDFs
+translation=ឯកសារ PDF
 
 [file.plugin-security]
 original=Plugin security

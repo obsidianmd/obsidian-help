@@ -44,6 +44,16 @@ Akcja `open` otwiera sejf Obsidian lub otwiera plik w tym sejfie.
 > [!tip] Otwieranie nagłówka lub bloku
 > Przy prawidłowym kodowaniu URI możesz nawigować do nagłówka lub bloku w notatce. `Note%23Heading` przeniesie do nagłówka o nazwie „Heading", natomiast `Note%23%5EBlock` przeniesie do bloku o nazwie „Block".
 
+### Kopiowanie adresu URL Obsidian
+
+Obsidian może wygenerować URI `open` dla aktywnej notatki, dzięki czemu nie musisz pisać go samodzielnie. Aplikacja nazywa to adresem URL Obsidian. Zawiera on nazwę sejfu i ścieżkę do notatki.
+
+Adres URL Obsidian można skopiować na dowolny z poniższych sposobów.
+
+- W [[Paleta poleceń|palecie poleceń]] wybierz **Skopiuj URL Obsidian**.
+- W notatce wybierz **Więcej opcji** ![[lucide-more-horizontal.svg#icon]], a następnie wybierz **Skopiuj ścieżkę → jako adres URL Obsidian**. Zobacz [[Menu więcej opcji]].
+- Na komputerze kliknij prawym przyciskiem myszy plik w [[Eksplorator plików|eksploratorze plików]], a następnie wybierz **Skopiuj ścieżkę → jako adres URL Obsidian**.
+
 ### Parametry
 
 - `vault` może być nazwą sejfu lub ID sejfu[^1].
@@ -52,8 +62,6 @@ Akcja `open` otwiera sejf Obsidian lub otwiera plik w tym sejfie.
   - Użycie tego parametru nadpisze zarówno `vault`, jak i `file`.
   - Spowoduje to, że aplikacja wyszuka najbardziej pasujący sejf zawierający określoną ścieżkę pliku.
   - Następnie pozostała część ścieżki zastępuje parametr `file`.
-- `prepend` doda na początku pliku i spróbuje scalić właściwości.
-- `append` doda na końcu pliku i również spróbuje scalić właściwości.
 - `paneType` (opcjonalne) określa, gdzie notatka zostanie otwarta w interfejsie.
   - jeśli nie podano, ostatnia aktywna karta zostanie zastąpiona.
   - `paneType=tab` otwórz w nowej karcie.
@@ -70,6 +78,8 @@ Akcja `new` tworzy nową notatkę w sejfie, opcjonalnie z pewną zawartością.
   Otwiera sejf `my vault` i tworzy nową notatkę o nazwie `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Otwiera sejf `my vault` i tworzy nową notatkę pod ścieżką `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Otwiera sejf `my vault` i dodaje `Buy milk` na końcu sekcji `Tasks` w notatce `my note`.
 
 ### Parametry
 
@@ -81,8 +91,14 @@ Akcja `new` tworzy nową notatkę w sejfie, opcjonalnie z pewną zawartością.
 - `content` (opcjonalne) zawartość notatki.
 - `clipboard` (opcjonalne) użycie zawartości schowka zamiast określania `content`.
 - `silent` (opcjonalne) dołącz ten parametr, jeśli nie chcesz otwierać nowej notatki.
-- `append` (opcjonalne) dołącz ten parametr, aby dodać do istniejącego pliku, jeśli taki istnieje.
-- `overwrite` (opcjonalne) nadpisz istniejący plik, jeśli taki istnieje, ale tylko wtedy, gdy `append` nie jest ustawione.
+- `append` (opcjonalne) dołącz ten parametr, aby dodać na końcu istniejącego pliku, jeśli taki istnieje, scalając atrybuty.
+- `prepend` (opcjonalne) dołącz ten parametr, aby dodać na początku istniejącego pliku, jeśli taki istnieje, scalając atrybuty.
+- `heading` (opcjonalne) dodaj zawartość do sekcji pod tym nagłówkiem zamiast do całego pliku. Wymaga `append` lub `prepend`.
+- `spacing` (opcjonalne) sposób oddzielenia zawartości od istniejącej treści. Wymaga `append` lub `prepend`.
+  - `spacing=auto` (domyślnie) pozostawia pustą linię między nimi.
+  - `spacing=newline` rozpoczyna zawartość w nowej linii.
+  - `spacing=inline` dodaje zawartość bez znaku nowej linii.
+- `overwrite` (opcjonalne) nadpisz istniejący plik, jeśli taki istnieje, ale tylko wtedy, gdy ani `append`, ani `prepend` nie jest ustawione.
 - `x-success` (opcjonalne) zobacz [[#Używanie parametrów x-callback-url]].
 
 ## Tworzenie lub otwieranie codziennej notatki
@@ -93,6 +109,8 @@ Akcja `daily` tworzy lub otwiera codzienną notatkę. Wtyczka [[Dziennik|Dzienni
 
 - `obsidian://daily?vault=my%20vault`
   Otwiera sejf `my vault` i tworzy lub otwiera codzienną notatkę.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Otwiera sejf `my vault` i dodaje `Called Sam` na końcu sekcji `Log` w codziennej notatce.
 
 ### Parametry
 

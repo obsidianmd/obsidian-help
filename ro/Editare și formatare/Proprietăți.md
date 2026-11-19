@@ -16,7 +16,7 @@ Există mai multe moduri de a adăuga o proprietate la o notă:
 
 - Folosiți [[Paleta de comenzi|comanda]] **Add file property**.
 - Folosiți combinația de taste **`Cmd/Ctrl+;`**.
-- Alegeți **Add file property** din meniul **More actions** (accesat prin pictograma cu trei puncte sau printr-un clic dreapta pe filă).
+- Alegeți **Add file property** din [[Meniul Mai multe opțiuni]] (accesat prin pictograma cu trei puncte sau printr-un clic dreapta pe filă).
 - Introduceți `---` chiar la începutul unui fișier.
 
 Odată ce adăugați o proprietate, va apărea un rând în partea de sus a fișierului cu două câmpuri: _numele_ proprietății și _valoarea_ proprietății.

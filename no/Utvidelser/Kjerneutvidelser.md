@@ -54,8 +54,6 @@ Obsidian-teamet vedlikeholder også utviklingen av visse [[#Andre utvidelser|åp
 	- Ta opp og lagre lydopptak direkte i et notat.
 - [[Maler|Maler]]
 	- Sett inn forhåndsdefinert innhold i notatene dine.
-- [[Markdown-importør]]
-	- Konverter Markdown fra andre apper til Obsidians format.
 - [[Notatkomponist]]
 	- Slå sammen to notater eller del ett i to.
 - [[Outgoing Links]]

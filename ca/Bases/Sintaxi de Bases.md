@@ -201,7 +201,25 @@ views:
 - `name` és el nom per mostrar, i es pot utilitzar per definir la vista per defecte.
 - `filters` són exactament els mateixos que els descrits anteriorment, però s'apliquen només a la vista.
 - `groupBy` especifica una propietat i una direcció d'ordenació. El valor de la propietat especificada per a cada fila s'utilitza per col·locar la fila en grups.
+- `groupOrder` especifica l'ordre i la visibilitat dels grups. Si és present, només es mostren els grups els valors dels quals estan llistats, en aquest ordre. Una llista buida amaga tots els grups. Elimineu `groupOrder` per mostrar tots els grups en l'ordre definit per `groupBy`.
 - `summaries` associa noms de propietat a un resum amb nom. Els resums realitzen una agregació sobre la propietat a través de totes les files.
+
+Per exemple, aquesta vista mostra només els grups Planned, In progress i Done, en aquest ordre:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Utilitzeu `null` a `groupOrder` per incloure fitxers que no tenen cap valor per a la propietat agrupada.
 
 Les [[Vistes]] poden afegir dades addicionals per emmagatzemar qualsevol informació necessària per mantenir l'estat o renderitzar correctament, però els autors de connectors han de tenir cura de no utilitzar claus ja en ús pel connector principal de Bases. Com a exemple, una vista de taula pot utilitzar això per limitar el nombre de files o per seleccionar quina columna s'utilitza per ordenar les files i en quina direcció. Un tipus de vista diferent, com un mapa, podria utilitzar això per associar quina propietat de la nota correspon a la latitud i longitud i quina propietat s'ha de mostrar com a títol del marcador.
 
@@ -287,7 +305,7 @@ La [[Funcions|funció]] global `today()` es pot utilitzar per obtenir la data ac
 - `now() + "1 day"` retorna una data i hora exactament 24 hores des del moment d'execució.
 - `file.mtime > now() - "1 week"` retorna `true` si el fitxer s'ha modificat durant l'última setmana.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` retorna un objecte Date que representa `2025-01-01 04:03:00`.
-- Resta dues dates per obtenir la diferència en mil·lisegons entre les dues, per exemple, `now() - file.ctime`.
+- Resta dues dates per obtenir una durada, per exemple, `note.release_date - today()`.
 - Per obtenir la part de data d'una Date amb hora, utilitza `datetime.date()`.
 - Per formatar un objecte Date, utilitza la funció `format()`, per exemple `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Les dates representen una data específica, o una data i hora depenent de la fun
 
 - Per construir una data, utilitza la funció `date`, per exemple `date("2025-01-01 12:00:00")`
 - Per modificar una data, afegeix o elimina una durada, per exemple `now() + "1 hour"` o `today() + "7d"`
-- Compara dates utilitzant operadors de comparació (p. ex. `>` o `<`) i operadors aritmètics (per exemple, `(now() + "1d") - now()` retorna `86400000` mil·lisegons.)
+- Compara dates utilitzant operadors de comparació, per exemple `>` o `<`.
+- Resta una data d'una altra per obtenir una durada, per exemple `note.release_date - today()`.
 - Per extreure parts d'una data, utilitza els camps disponibles (`now().hour`), o una funció de conveniència (`now.time()`).
 - Molts altres [[Funcions|camps i funcions]] estan disponibles als objectes de data.
 
@@ -350,7 +369,7 @@ Les dates representen una data específica, o una data i hora depenent de la fun
 
 Els [[Enllaçar notes|enllaços wiki]] a les [[Propietats|propietats de les metadades inicials]] es reconeixen automàticament com a objectes d'enllaç. Els enllaços es renderitzaran com un enllaç clicable a la [[Vistes|vista]].
 
-- Per construir un enllaç, utilitza la [[Funcions|funció]] global `link`, per exemple `link("filename")` o `link("https://obsidian.md")`.
+- Per construir un enllaç, utilitza la [[Funcions|funció]] global `link`, per exemple `link("filename")`.
 - Pots crear un enllaç des de qualsevol cadena de text, per exemple, `link(file.ctime.date().toString())`.
 - Per establir el text a mostrar, passa una cadena o icona opcional com a segon paràmetre, per exemple `link("filename", "display")` o `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Els enllaços es poden comparar amb `==` i `!=`. Són equivalents sempre que apu
 Els enllaços es poden comparar amb fitxers com `file` o `this`. Seran equivalents si l'enllaç es resol al fitxer. Per exemple, `author == this`.
 
 Els enllaços també es poden comprovar amb la contenció de llistes, per exemple, `authors.contains(this)`.
+
+### URLs
+
+Les URLs a les [[Propietats|propietats de les metadades inicials]] es reconeixen automàticament com a objectes URL. Les URLs es renderitzaran com un enllaç clicable a la [[Vistes|vista]].
+
+- Per construir una URL, utilitza la [[Funcions|funció]] global `link`, per exemple `link("https://obsidian.md")`.
+- Per establir el text a mostrar, passa una cadena opcional com a segon paràmetre, per exemple `link("https://obsidian.md", "Obsidian")`.

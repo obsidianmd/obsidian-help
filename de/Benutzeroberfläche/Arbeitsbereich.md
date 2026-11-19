@@ -16,6 +16,7 @@ In der Obsidian-Desktop-App umfasst der Workspace:
     - [[Seitenleiste#Tabs|Seitenleisten-Tabs]]
 - [[Tabs#Tabs und Fenster organisieren|Tab-Gruppen]] im zentralen Inhaltsbereich (können vertikal oder horizontal geteilt werden)
     - [[Tabs]]
+    - [[Weitere-Optionen-Menü]] in der oberen rechten Ecke jeder Notiz
 - [[Statusleiste]] in der unteren rechten Ecke
 
 ## Mobil
@@ -23,6 +24,7 @@ In der Obsidian-Desktop-App umfasst der Workspace:
 In der mobilen Obsidian-App umfasst der Workspace:
 
 - [[Tabs]], verwaltet über den Tab-Zähler in der [[Mobile App#Navigationsleiste|Navigationsleiste]]
+- [[Weitere-Optionen-Menü#Mobil|Weitere-Optionen-Menü]] für die aktive Notiz
 - [[Seitenleiste|Seitenleisten]] (werden durch Wischgesten nach links und rechts geöffnet)
 - [[Mobile App#Navigationsleiste|Navigationsleiste]] am unteren Bildschirmrand
 - [[Menüband|Werkzeugleisten-Konfiguration]] in der Navigationsleiste (enthält anpassbare Aktionen)

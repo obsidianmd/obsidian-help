@@ -11,7 +11,7 @@ Op mobiele apparaten wordt Obsidian bijgewerkt via de app store van het apparaat
 
 Open **[[Instellingen]] → Algemeen**.
 
-Je kunt de huidige versies van de app en het installatieprogramma bovenaan de pagina vinden.
+Je kunt de huidige versies van de app en het installatieprogramma bovenaan de pagina vinden. Wanneer er een nieuwer installatieprogramma beschikbaar is, toont Obsidian een melding met een downloadlink. Volg de [[#Installatieprogramma-updates|instructies voor installatieprogramma-updates]] om het te installeren.
 
 ![[application-installer-current-version.png#interface]]
 

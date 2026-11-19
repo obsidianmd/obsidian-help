@@ -5,6 +5,8 @@ Obsidian-kreditt er en type forhåndsbetalt kreditt som kan kjøpes på forhånd
 
 Obsidian-kreditt vil bli trukket før eventuell betaling forfaller, inkludert automatiske fornyelser. Obsidian-kreditt er **ikke** kvalifisert for refusjon i henhold til vår [[Refusjonspolicy|Refusjonspolicy]].
 
+Obsidian-kreditt utløper ikke så lenge du beholder kontoen din.
+
 ## Legg til kreditt
 
 1. Logg inn på [Obsidian-kontoen din](https://obsidian.md/account/billing).

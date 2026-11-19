@@ -275,7 +275,7 @@ Remplace les balises HTML, en conservant le contenu et les attributs de la balis
 Supprime **tous** les attributs HTML d'une chaîne.
 
 - Utilisez `strip_attr:("class, id")` pour conserver des attributs spécifiques.
-- Exemple : `"<div class="test" id="example">Contenu</div>"|strip_attr:("class")` renvoie `<div id="example">Contenu</div>`.
+- Exemple : `"<div class="test" id="example">Contenu</div>"|strip_attr:("class")` renvoie `<div class="test">Contenu</div>`.
 
 ### `strip_md`
 

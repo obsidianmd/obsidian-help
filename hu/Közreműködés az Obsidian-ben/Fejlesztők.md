@@ -11,6 +11,7 @@ Fejleszthetsz [[Közösségi bővítmények]]et és [[Témák]]at Typescript és
 
 Az Obsidian több nyílt forráskódú projektet is fejleszt és karbantart. Az alábbi GitHub-tárolókhoz hibjavításokat és fejlesztéseket tartalmazó pull requesteket nyújthatsz be:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), az Obsidian által Mermaid-diagramok megjelenítéséhez használt renderelő.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), egy nyílt fájlformátum végtelen vászon adatokhoz.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), sablonnyelv Markdown generálásához.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), egy bővítmény, amely különféle formátumokból egyszerű szöveges Markdown fájlokká alakítja az adatokat.

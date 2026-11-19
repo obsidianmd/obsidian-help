@@ -14,7 +14,7 @@ Többféleképpen adhat hozzá tulajdonságot egy jegyzethez:
 
 - Használja a **Fájltulajdonság hozzáadása** [[Parancspaletta|parancsot]].
 - Használja a **`Cmd/Ctrl+;`** [[Gyorsbillentyűk|gyorsbillentyűt]].
-- Válassza a **Fájltulajdonság hozzáadása** lehetőséget a **További műveletek** menüből (amely a három pont ikonra kattintva vagy a lap jobb kattintásával érhető el).
+- Válassza a **Fájltulajdonság hozzáadása** lehetőséget a [[További lehetőségek menü|További lehetőségek menüből]] (amely a három pont ikonra kattintva vagy a lap jobb kattintásával érhető el).
 - Írja be a `---` karaktereket a fájl legelejére.
 
 Miután hozzáadott egy tulajdonságot, egy sor jelenik meg a fájl tetején két beviteli mezővel: a tulajdonság _neve_ és a tulajdonság _értéke_.

@@ -324,6 +324,7 @@ Thêm nội dung vào cuối ghi chú hàng ngày.
 
 ```bash
 content=<text>     # (bắt buộc) nội dung cần thêm
+heading=<name>     # phần tiêu đề đích
 paneType=tab|split|window    # loại panel để mở
 
 inline             # thêm mà không xuống dòng
@@ -336,6 +337,7 @@ Thêm nội dung vào đầu ghi chú hàng ngày.
 
 ```bash
 content=<text>     # (bắt buộc) nội dung cần thêm
+heading=<name>     # phần tiêu đề đích
 paneType=tab|split|window    # loại panel để mở
 
 inline             # thêm mà không xuống dòng
@@ -512,6 +514,7 @@ Thêm nội dung vào cuối tệp (mặc định: tệp đang hoạt động).
 file=<name>        # tên tệp
 path=<path>        # đường dẫn tệp
 content=<text>     # (bắt buộc) nội dung cần thêm
+heading=<name>     # phần tiêu đề đích
 
 inline             # thêm mà không xuống dòng
 ```
@@ -524,6 +527,7 @@ Thêm nội dung sau siêu dữ liệu đầu tệp (mặc định: tệp đang 
 file=<name>        # tên tệp
 path=<path>        # đường dẫn tệp
 content=<text>     # (bắt buộc) nội dung cần thêm
+heading=<name>     # phần tiêu đề đích
 
 inline             # thêm mà không xuống dòng
 ```

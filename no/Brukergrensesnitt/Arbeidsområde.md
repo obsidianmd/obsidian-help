@@ -10,12 +10,13 @@ Arbeidsområdet er hovedbeholderen for alle komponentene som utgjør Obsidian-gr
 
 I Obsidian-skrivebordsappen inkluderer arbeidsområdet:
 
-- [[Verktøylinje]] som går vertikalt på venstre side av appen
+- [[Verktøylinje]] som går vertikalt på venstre side av appen, når den er aktivert
 - [[Sidefelt|Sidefelt]] på venstre og høyre side (kan lukkes)
     - [[Sidefelt#Fanegrupper|Sidefeltets fanegrupper]] (kan deles vertikalt)
     - [[Sidefelt#Faner|Sidefeltets faner]]
 - [[Faner#Organiser fanene og vinduene dine|Fanegrupper]] i det sentrale innholdsområdet (kan deles vertikalt eller horisontalt)
     - [[Faner]]
+    - [[Flere valg-meny]] i øvre høyre hjørne av hvert notat
 - [[Statuslinje]] i nedre høyre hjørne
 
 ## Mobil
@@ -23,6 +24,7 @@ I Obsidian-skrivebordsappen inkluderer arbeidsområdet:
 I Obsidian-mobilappen inkluderer arbeidsområdet:
 
 - [[Faner]] administrert fra fanetelleren i [[Mobilapp#Navigasjonslinje|Navigasjonslinjen]]
+- [[Flere valg-meny#Mobil|Flere valg-meny]] for det aktive notatet
 - [[Sidefelt|Sidefelt]] (åpnes med sveip til venstre og høyre)
 - [[Mobilapp#Navigasjonslinje|Navigasjonslinje]] nederst på skjermen
 - [[Verktøylinje|Ribbon-meny]] i navigasjonslinjen (inneholder tilpassbare handlinger)

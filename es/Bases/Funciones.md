@@ -148,7 +148,7 @@ Funciones que puedes usar con cualquier valor. Esto incluye cadenas (por ejemplo
 `any.isTruthy(): boolean`
 
 - Devuelve el valor convertido a booleano.
-- Ejemplo: `1.isTruthy()` devuelve `true`.
+- Ejemplo: `(1).isTruthy()` devuelve `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funciones que puedes usar con cualquier valor. Esto incluye cadenas (por ejemplo
 `any.toString(): string`
 
 - Devuelve la representación en cadena de cualquier valor.
-- Ejemplo: `123.toString()` devuelve `"123"`.
+- Ejemplo: `(123).toString()` devuelve `"123"`.
 
 ## Tipo fecha
 
@@ -369,7 +369,7 @@ Funciones que puedes usar con valores numéricos como `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Devuelve true si el número no está presente.
-- Ejemplo: `5.isEmpty()` devuelve `false`.
+- Ejemplo: `(5).isEmpty()` devuelve `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Los siguientes campos están disponibles para archivos:
 
 ## Tipo objeto
 
-Funciones que puedes usar con una colección de pares clave-valor como `{"a": 1, "b": 2}`.
+Funciones que puedes usar con valores de objeto como `file.properties`, que contienen una colección de pares clave-valor.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Devuelve true si el objeto no tiene propiedades propias.
-- Ejemplo: `{}.isEmpty()` devuelve `true`.
+- Ejemplo: `file.properties.isEmpty()` devuelve `true` si el archivo no tiene propiedades.
 
 ### `keys()`
 

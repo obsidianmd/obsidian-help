@@ -44,6 +44,16 @@ Akce `open` otevře trezor Obsidian nebo otevře soubor v tomto trezoru.
 > [!tip] Otevření nadpisu nebo bloku
 > Se správným kódováním URI můžete přejít na nadpis nebo blok v rámci poznámky. `Note%23Heading` by přešel na nadpis nazvaný „Heading", zatímco `Note%23%5EBlock` by přešel na blok nazvaný „Block".
 
+### Kopírování Obsidian URL
+
+Obsidian může sestavit URI `open` pro aktivní poznámku, takže ji nemusíte psát sami. Aplikace to nazývá Obsidian URL. Obsahuje název trezoru a cestu k poznámce.
+
+Obsidian URL můžete zkopírovat některým z těchto způsobů.
+
+- V [[Paleta příkazů|paletě příkazů]] vyberte **Kopírovat Obsidian URL**.
+- V poznámce vyberte **Více možností** ![[lucide-more-horizontal.svg#icon]] a poté vyberte **Kopírovat cestu → jako Obsidian URL**. Viz [[Více možností menu]].
+- Na desktopu klikněte pravým tlačítkem na soubor v [[Průzkumník souborů|průzkumníku souborů]] a poté vyberte **Kopírovat cestu → jako Obsidian URL**.
+
 ### Parametry
 
 - `vault` může být buď název trezoru, nebo ID trezoru[^1].
@@ -52,8 +62,6 @@ Akce `open` otevře trezor Obsidian nebo otevře soubor v tomto trezoru.
   - Použití tohoto parametru přepíše jak `vault`, tak `file`.
   - Aplikace vyhledá nejkonkrétnější trezor, který obsahuje zadanou cestu k souboru.
   - Poté zbytek cesty nahradí parametr `file`.
-- `prepend` přidá na začátek souboru a pokusí se sloučit vlastnosti.
-- `append` přidá na konec souboru a také se pokusí sloučit vlastnosti.
 - `paneType` (volitelné) určuje, kde se poznámka otevře v uživatelském rozhraní.
   - pokud není přítomen, nahradí se naposledy aktivní karta.
   - `paneType=tab` otevře v nové kartě.
@@ -70,6 +78,8 @@ Akce `new` vytvoří novou poznámku v trezoru, volitelně s určitým obsahem.
   Toto otevře trezor `my vault` a vytvoří novou poznámku nazvanou `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Toto otevře trezor `my vault` a vytvoří novou poznámku na `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Toto otevře trezor `my vault` a přidá `Buy milk` na konec sekce `Tasks` v `my note`.
 
 ### Parametry
 
@@ -81,8 +91,14 @@ Akce `new` vytvoří novou poznámku v trezoru, volitelně s určitým obsahem.
 - `content` (volitelné) obsah poznámky.
 - `clipboard` (volitelné) použití obsahu schránky namísto zadání `content`.
 - `silent` (volitelné) zahrňte tento parametr, pokud nechcete novou poznámku otevřít.
-- `append` (volitelné) zahrňte tento parametr pro přidání k existujícímu souboru, pokud existuje.
-- `overwrite` (volitelné) přepíše existující soubor, pokud existuje, ale pouze pokud není nastaven `append`.
+- `append` (volitelné) zahrňte tento parametr pro přidání na konec existujícího souboru, pokud existuje, se sloučením vlastností.
+- `prepend` (volitelné) zahrňte tento parametr pro přidání na začátek existujícího souboru, pokud existuje, se sloučením vlastností.
+- `heading` (volitelné) přidá obsah do sekce pod tímto nadpisem místo do celého souboru. Vyžaduje `append` nebo `prepend`.
+- `spacing` (volitelné) jak je obsah oddělen od existujícího obsahu. Vyžaduje `append` nebo `prepend`.
+  - `spacing=auto` (výchozí) ponechá prázdný řádek mezi nimi.
+  - `spacing=newline` začne obsah na novém řádku.
+  - `spacing=inline` přidá obsah bez zalomení řádku.
+- `overwrite` (volitelné) přepíše existující soubor, pokud existuje, ale pouze pokud není nastaven ani `append`, ani `prepend`.
 - `x-success` (volitelné) viz [[#Použití parametrů x-callback-url]].
 
 ## Vytvoření nebo otevření denní poznámky
@@ -93,6 +109,8 @@ Akce `daily` vytvoří nebo otevře vaši denní poznámku. Plugin [[Každodenn�
 
 - `obsidian://daily?vault=my%20vault`
   Toto otevře trezor `my vault` a vytvoří nebo otevře denní poznámku.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Toto otevře trezor `my vault` a přidá `Called Sam` na konec sekce `Log` v denní poznámce.
 
 ### Parametry
 

@@ -18,6 +18,7 @@ Aplikasi datang dan pergi, tetapi data Anda harus bertahan. Obsidian menggunakan
 - <span class="icon-app icon-craft"></span> [[Impor dari Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Impor dari Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Impor dari Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Impor dari Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Impor dari Tomboy dan Gnote|Tomboy dan Gnote]]
 - <span class="icon-app icon-html"></span> [[Impor file HTML|File HTML]]
 - <span class="icon-app icon-md"></span> [[Impor file CSV]]

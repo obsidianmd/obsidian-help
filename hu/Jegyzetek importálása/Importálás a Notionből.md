@@ -10,6 +10,10 @@ Az Obsidian két módszert kínál a Notion adataid importálására:
 1. A **Notion fiók (ajánlott)** közvetlenül csatlakozik a munkaterületedhez, és lehetővé teszi az adatbázisok és képletek megőrzését, amelyek [[Bevezetés a Bázisokba|Bázisokká]] konvertálódnak. Notion integrációs tokent és internetkapcsolatot igényel.
 2. A **fájl importálás** a Notion `.zip` exportfájljait használja. Nem őrzi meg az adatbázisokat, de nem igényel API tokent vagy internetkapcsolatot.
 
+## Importált oldalak testreszabása
+
+Mindkét importálási módszer előnézetet mutat az importálás megkezdése előtt. Szerkesztheted a generált sablont, vagy választhatsz egy Markdown sablont a széfedből. Az olyan beállítások, mint a borító és az adatbázis-tulajdonságok nevei, frissítik az előnézetben megjelenített generált tulajdonságokat. Lásd: [[Importáló sablonok]].
+
 ## Importálás a Notion fiókodból
 
 ### Notion API hozzáférési token létrehozása
@@ -54,8 +58,8 @@ Szükséged lesz a hivatalos Obsidian [[Importáló]] bővítményre, amelyet [i
 6. Az **API token** mezőnél kattints a **Hivatkozás...** gombra egy új titok hozzáadásához. Az **Azonosító** mezőben adj neki egy nevet, például `notion`, a **Titok** mezőbe pedig illeszd be a Notionből származó **Access token** értéket.
 7. Kattints a **Betöltés** gombra az importálni kívánt adatbázisok és oldalak kiválasztásához.
 8. Tekintsd át és szerkeszd az importálási beállításokat.
-9. Válaszd az **Importálás** lehetőséget, és várd meg, amíg az importálás befejeződik.
-10. Kész is vagy!
+9. Válaszd az **Importálás** lehetőséget a generált sablon áttekintéséhez és az oldalaidból származó példák előnézetéhez.
+10. Válaszd ismét az **Importálás** lehetőséget, és várd meg, amíg az importálás befejeződik.
 
 ### Korlátozások
 
@@ -66,7 +70,8 @@ A Notion API sebességkorlátai miatt a nagy munkaterületek importálása jelen
 
 A Notion API korlátai miatt egyes adatok nem érhetők el vagy nem konvertálhatók:
 
-- Minden adatbázisból csak az elsődleges nézet kerül importálásra.
+- A táblákon kívüli adatbázis-nézetek nem kerülnek importálásra, és a táblák nem őrzik meg a szűrőiket, rendezéseiket vagy alcsoportjaikat.
+- Többértékű kiválasztás, személy vagy reláció tulajdonság szerint csoportosított táblán a több értékkel rendelkező kártya egyetlen oszlopba kerül az értékek adott kombinációjához.
 - A [hivatkozott adatforrások](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) nem kerülnek importálásra: *"A Notion API jelenleg nem támogatja a hivatkozott adatforrásokat. Az adatbázis integrációddal való megosztásakor győződj meg róla, hogy az tartalmazza az eredeti adatforrást!"*
 - `People` függvények: `name()` és `email()`
 - `Text` függvények: `style()` és `unstyle()`
@@ -74,7 +79,7 @@ A Notion API korlátai miatt egyes adatok nem érhetők el vagy nem konvertálha
 Ezenkívül az Importáló a következő módosításokat végzi:
 
 - Az aloldalak vagy adatbázisok nélküli oldalak `[fájlnév].md` formátumban kerülnek importálásra a `[fájlnév]/[fájlnév].md` helyett.
-- Az adatbázisok mindig `[adatbázis neve]` nevű mappákként jelennek meg, amelyekben egy `[adatbázis neve].base` fájl található.
+- Az adatbázisok mindig `[adatbázis neve]` nevű mappákként jelennek meg, amelyekben egy `[adatbázis neve].base` fájl található. A bázis tartalmaz egy táblázat nézetet minden tulajdonsággal, valamint az Obsidian 1.14 és újabb verzióiban egy [[Kanban nézet|Kanban nézetet]] minden Notion táblához, ugyanazon tulajdonság szerinti csoportosítással.
 
 ## Notion fájlok importálása (.zip)
 
@@ -108,8 +113,8 @@ Szükséged lesz a hivatalos Obsidian [[Importáló]] bővítményre, amelyet [i
 6. Válaszd ki az importálni kívánt Notion fájlokat tartalmazó `.zip` fájlt. *Javasolt az összes Notion tartalmat egyszerre importálni, hogy a belső hivatkozások helyesen feloldhatók legyenek.*
 7. _Opcionálisan_ válassz ki egy mappát az importáláshoz. A Notion oldalaid és adatbázisaid ebbe a mappába kerülnek beágyazásra.
 8. Engedélyezd a **Save parent pages in subfolders** opciót a Notion struktúra megtartásához. *Megjegyzés: a Notionban lehet tartalmat írni mappákba, ez az Obsidianban nem lehetséges, ezért ezek az oldalak aloldalként kerülnek hozzáadásra a mappa alá.*
-9. Válaszd az **Importálás** lehetőséget, és várd meg, amíg az importálás befejeződik.
-10. Kész is vagy!
+9. Válaszd az **Importálás** lehetőséget a generált sablon áttekintéséhez és az oldalaidból származó példák előnézetéhez.
+10. Válaszd ismét az **Importálás** lehetőséget, és várd meg, amíg az importálás befejeződik.
 
 ### Hibaelhárítás
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Ha ezt a hibát látod, csomagold ki a Notionból származó fájlt, majd importáld a beágyazott `Export-{id}-Part-1.zip` fájlokat.
+
+## Sablonok
+
+Az [[Importáló sablonok|Importáló sablonok]] segítségével teljes mértékben konfigurálhatod, hogyan kerüljenek importálásra a Notion adataid.
+
+![[Importáló sablonok#Változók]]

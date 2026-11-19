@@ -21,6 +21,7 @@ Apps come and go, but your data should last. Obsidian uses non-proprietary plain
 - <span class="icon-app icon-craft"></span> [[Import from Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Import from Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Import from Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Import from Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Import from Tomboy and Gnote|Tomboy and Gnote]]
 - <span class="icon-app icon-html"></span> [[Import HTML files|HTML files]]
 - <span class="icon-app icon-md"></span> [[Import CSV files]]

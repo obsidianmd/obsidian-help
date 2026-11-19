@@ -109,7 +109,6 @@ Standardmåden at vise digitale landkort på er at benytte kortfliser. Der er fo
 | Dark     | `https://tiles.openfreemap.org/styles/dark`      |
 | Positron | `https://tiles.openfreemap.org/styles/positron`  |
 | Liberty  | ``https://tiles.openfreemap.org/styles/liberty`` |
-
 #### Gode links
 
 - [Maputnik](https://maputnik.github.io/) for at tilpasse kortfliser
@@ -129,4 +128,4 @@ link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google 
 
 Hvis kortet vises tomt første gang du indlæser Maps pluginnet, så prøv at opdatere [[Opdater Obsidian|Obsidian med en insider version]].
 
-[Maps pluginnet](https://github.com/obsidianmd/obsidian-maps) er open source. Du kan hjælpe til ved at bidrage med fejlrapporter, You can help by contributing bug reports, funktionsanmodninger og _GitHub pull requests_.
+[Maps pluginnet](https://github.com/obsidianmd/obsidian-maps) er open source. Du kan hjælpe til ved at bidrage med fejlrapporter, funktionsanmodninger og _GitHub pull requests_.

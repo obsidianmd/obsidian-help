@@ -19,3 +19,9 @@ O Importador é um [[Plugins da comunidade|Plugin da comunidade]] oficial feito 
 ![[Importar notas#Importar de outros aplicativos e formatos de arquivo]]
 
 ![[Importar notas#Mais formatos]]
+
+## Templates do Importador
+
+O Importador permite definir [[Modelos do importador|templates]] que controlam como suas notas são importadas de outros aplicativos. Isso significa que você pode modificar o título, as propriedades e o conteúdo das notas que importa.
+
+Os templates suportam variáveis e os mesmos [[Obsidian Web Clipper/Filtros|filtros]] e [[Obsidian Web Clipper/Lógica|lógica de template]] do [[Introdução ao Obsidian Web Clipper|Web Clipper]].

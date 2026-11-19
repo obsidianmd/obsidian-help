@@ -13,6 +13,7 @@ Formler kan hjälpa dig att:
 - **Arbeta med datum**, beräkna tidsskillnader, formatera datum eller bestämma deadlines.
 - **Tillämpa logik**, använda villkorssatser för att visa olika värden.
 - **Bearbeta listor**, filtrera, sortera, mappa eller aggregera listdata.
+- **Använda länkade anteckningar**, slå upp eller sammanställa egenskaper från de anteckningar som en anteckning länkar till. Se [[#Använda egenskaper från länkade anteckningar]].
 
 ## Skapa en formelegenskap
 
@@ -90,6 +91,59 @@ Funktioner utför operationer på värden. De tillgängliga funktionerna beror p
 - `file.name.lower()` för att konvertera till gemener.
 - `tags.contains("urgent")` för att kontrollera om tagglistan innehåller ett värde.
 - `due_date.format("YYYY-MM-DD")` för att formatera ett datum.
+
+## Använda egenskaper från länkade anteckningar
+
+Formler kan läsa egenskaper från de anteckningar som en anteckning länkar till. Du kan slå upp ett värde från en länkad anteckning, eller sammanställa värden från flera länkade anteckningar till en summa, ett antal eller en lista.
+
+För att läsa en länkad antecknings egenskaper, omvandla länken till en fil med `asFile()` och använd sedan `properties`. Länkar som lagras i egenskaper, som `project: "[[Webbplatsredesign]]"`, fungerar på detta sätt direkt.
+
+> [!warning] Resultat uppdateras när anteckningen i raden ändras
+> Om du bara redigerar en länkad anteckning kanske uppslagningar och sammanställningar i basen inte uppdateras förrän du öppnar basen igen.
+
+### Slå upp ett värde
+
+Visa `status` för anteckningen som är länkad i egenskapen `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Om egenskapen kan innehålla antingen en länk eller en lista med länkar, omslut den med `list()` och ta den första länken:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Sammanställ värden
+
+Summera `hours` för varje anteckning som är länkad i egenskapen `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Räkna de länkade anteckningarna vars `status` inte är "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Lista statusarna för de länkade anteckningarna, utan dubbletter:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Sammanställ värden från anteckningar som länkar hit
+
+För att sammanställa värden från anteckningar som länkar till en anteckning, till exempel uppgifter som var och en länkar till sitt projekt, använd `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` är långsam i stora valv. När du kan, lagra länkarna i anteckningen själv och sammanställ dem med `map()` och `reduce()`, som visas ovan.
 
 ## Formelexempel
 

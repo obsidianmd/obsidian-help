@@ -154,6 +154,10 @@ translation=Formatos de arquivo aceitos
 original=Financial contributions
 translation=Contribuições financeiras
 
+[file.find-and-replace]
+original=Find and replace
+translation=Pesquisar e Substituir
+
 [file.folding]
 original=Folding
 translation=Dobramento
@@ -238,6 +242,10 @@ translation=Importar do Microsoft OneNote
 original=Import from Roam Research
 translation=Importar do Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Importar do Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Modelos do importador
@@ -286,6 +294,10 @@ translation=Gerenciar cofres
 original=Mobile app
 translation=Aplicativo móvel
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu de mais opções
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Múltiplos cursores
@@ -305,6 +317,10 @@ translation=Site oficial
 [file.payment]
 original=Introduction to licenses and payment
 translation=Introdução a licenças e pagamento
+
+[file.pdf]
+original=PDFs
+translation=PDFs
 
 [file.plugin-security]
 original=Plugin security

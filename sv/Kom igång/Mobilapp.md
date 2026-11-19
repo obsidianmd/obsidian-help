@@ -29,25 +29,20 @@ När du redigerar en anteckning ser du en rad ikoner längst ner i appen. Standa
 
 ### Anpassa mobilt verktygsfält
 
-I det mobila verktygsfältet, tryck på **Konfigurera mobil verktygsfält** ![[lucide-wrench.svg#icon]] för att öppna gränssnittet för att anpassa det.
+I det mobila verktygsfältet, välj **Konfigurera mobilt verktygsfält** ![[lucide-wrench.svg#icon]] för att öppna dess inställningar.
 
-Alternativt kan du göra det i Inställningar.
+Du kan också öppna **[[Inställningar]] → Gränssnitt → Konfigurera mobilt verktygsfält**.
 
-1. Öppna Inställningar.
-2. Välj **Mobil**.
-3. Under **Hantera verktygsfältsalternativ**, lägg till, ta bort eller ordna om de tillgängliga alternativen.
+Under **Hantera verktygsfältsalternativ**, använd grepphandtagen för att ordna om åtgärder och borttagningsknapparna för att ta bort dem. Välj en åtgärd under **Fler verktygsfältsalternativ** för att lägga till den.
 
 ### Lägg till kommando i mobilt verktygsfält
 
-Som standard är alternativen som kan läggas till i verktygsfältet redigeringsalternativ som "Lägg till intern länk" eller "Lägg till tagg".
+Utöver redigeringsåtgärder kan du lägga till globala kommandon som **Byt tema**.
 
-Utöver det kan du lägga till globala kommandon som "Ändra tema".
-
-1. Hitta **Hantera verktygsfältsalternativ** under **[[Inställningar]]** → **Mobil**.
-2. Rulla längst ner, hitta **Lägg till globalt kommando**.
-3. Skriv namnet på kommandot du vill lägga till.
-4. Välj kommandot du vill lägga till.
-5. Det nya kommandot läggs till i slutet av verktygsfältet.
+1. Öppna **[[Inställningar]] → Gränssnitt → Konfigurera mobilt verktygsfält**.
+2. Under **Hantera verktygsfältsalternativ**, välj **Lägg till ett kommando...**.
+3. Sök efter kommandot du vill lägga till.
+4. Välj kommandot för att lägga till det i slutet av verktygsfältet.
 
 ## Snabbåtgärd
 
@@ -58,7 +53,7 @@ Snabbåtgärd är som standard inställd på att öppna [[Kommandopalett]].
 ### Anpassa snabbåtgärd
 
 1. Öppna Inställningar.
-2. Under **Inställningar**, välj **Verktygsfält**.
+2. Välj **Gränssnitt**.
 3. Under **Konfigurera mobil Snabbåtgärd**, tryck på **Konfigurera**.
 4. Skriv namnet på kommandot.
 5. Välj kommandot du vill ställa in.

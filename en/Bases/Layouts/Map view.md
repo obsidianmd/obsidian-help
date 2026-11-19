@@ -11,7 +11,7 @@ Select ![[lucide-map.svg#icon]]  **Map** from the view menu to display files as 
 
 Map views require Obsidian 1.10. The [Maps plugin](obsidian://show-plugin?id=maps) is an official [[Community plugins|community plugin]] that you can download separately.
 
-1. Follow instructions in [[Community plugins#Install a community plugin]]
+1. Follow instructions in [[Community plugins#Install a community plugin|Install a community plugin]]
 2. Download and enable [Maps](obsidian://show-plugin?id=maps) from the list
 
 ## Example
@@ -86,7 +86,7 @@ Let's say you want all restaurants to have the same icon on the map:
 	```
 4. Choose the `Type icon` as your marker icon in the view settings.
 
-Voilà! Now your map will display icons from the the *type* of the place, not the place itself.
+Voilà! Now your map will display icons from the *type* of the place, not the place itself.
 
 #### Colors
 

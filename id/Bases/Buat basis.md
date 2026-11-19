@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. Di Penjelajah berkas, klik kanan folder tempat Anda ingin membuat basis.
 2. Pilih **Basis baru**.
 
-**Bilah alat:**
-
-- Di menu bilah alat vertikal, pilih **Buat basis baru** untuk membuat basis di folder yang sama dengan file aktif.
-
 ## Sematkan basis
 
 ### Sematkan file basis

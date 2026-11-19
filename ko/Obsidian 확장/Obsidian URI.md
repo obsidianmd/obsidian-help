@@ -44,6 +44,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] 제목 또는 블록 열기
 > 올바른 URI 인코딩을 사용하면 노트 내의 제목이나 블록으로 이동할 수 있어요. `Note%23Heading`은 "Heading"이라는 제목으로 이동하고, `Note%23%5EBlock`은 "Block"이라는 블록으로 이동해요.
 
+### Obsidian URL 복사
+
+Obsidian은 활성 노트에 대한 `open` URI를 자동으로 생성할 수 있어서, 직접 작성할 필요가 없어요. 앱에서는 이를 Obsidian URL이라고 부르며, 보관함 이름과 노트 경로가 포함돼요.
+
+다음 방법 중 하나로 Obsidian URL을 복사할 수 있어요.
+
+- [[명령어 팔레트]]에서 **Obsidian URL 복사**를 선택하세요.
+- 노트에서 **다른 옵션** ![[lucide-more-horizontal.svg#icon]]을 선택한 다음 **경로 복사 → Obsidian URL로**를 선택하세요. [[더 보기 메뉴]]를 참조하세요.
+- 데스크톱에서 [[파일 탐색기]]의 파일을 마우스 오른쪽 버튼으로 클릭한 다음 **경로 복사 → Obsidian URL로**를 선택하세요.
+
 ### 매개변수
 
 - `vault`는 보관함 이름 또는 보관함 ID[^1]예요.
@@ -52,8 +62,6 @@ obsidian://action?param1=value&param2=value
   - 이 매개변수를 사용하면 `vault`와 `file` 모두 재정의돼요.
   - 앱이 지정된 파일 경로를 포함하는 가장 구체적인 보관함을 검색해요.
   - 그런 다음 나머지 경로가 `file` 매개변수를 대체해요.
-- `prepend`는 파일 상단에 내용을 추가하고 속성 병합을 시도해요.
-- `append`는 파일 하단에 내용을 추가하고 속성 병합을 시도해요.
 - `paneType` (선택사항)은 노트가 UI에서 열리는 위치를 결정해요.
   - 지정하지 않으면 마지막 활성 탭이 대체돼요.
   - `paneType=tab` 새 탭에서 열어요.
@@ -70,6 +78,8 @@ obsidian://action?param1=value&param2=value
   `my vault` 보관함을 열고 `my note`라는 새 노트를 생성해요.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   `my vault` 보관함을 열고 `path/to/my note`에 새 노트를 생성해요.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  `my vault` 보관함을 열고 `my note`의 `Tasks` 섹션 끝에 `Buy milk`를 추가해요.
 
 ### 매개변수
 
@@ -81,8 +91,14 @@ obsidian://action?param1=value&param2=value
 - `content` (선택사항)은 노트의 내용이에요.
 - `clipboard` (선택사항)은 `content`를 지정하는 대신 클립보드의 내용을 사용해요.
 - `silent` (선택사항)은 새 노트를 열지 않으려면 이 매개변수를 포함해요.
-- `append` (선택사항)은 기존 파일이 있으면 해당 파일에 내용을 추가해요.
-- `overwrite` (선택사항)은 기존 파일이 있으면 덮어써요. 단, `append`가 설정되지 않은 경우에만 적용돼요.
+- `append` (선택사항)은 기존 파일이 있으면 해당 파일에 내용을 추가하고 속성을 병합해요.
+- `prepend` (선택사항)은 기존 파일이 있으면 해당 파일의 앞에 내용을 추가하고 속성을 병합해요.
+- `heading` (선택사항)은 전체 파일 대신 이 제목 아래의 섹션에 내용을 추가해요. `append` 또는 `prepend`가 필요해요.
+- `spacing` (선택사항)은 내용이 기존 내용과 어떻게 구분되는지를 결정해요. `append` 또는 `prepend`가 필요해요.
+  - `spacing=auto` (기본값)은 사이에 빈 줄을 남겨요.
+  - `spacing=newline`은 새 줄에서 내용을 시작해요.
+  - `spacing=inline`은 줄 바꿈 없이 내용을 추가해요.
+- `overwrite` (선택사항)은 기존 파일이 있으면 덮어써요. 단, `append`와 `prepend`가 모두 설정되지 않은 경우에만 적용돼요.
 - `x-success` (선택사항)은 [[#x-callback-url 매개변수 사용]]을 참조하세요.
 
 ## 일일 노트 생성 또는 열기
@@ -93,6 +109,8 @@ obsidian://action?param1=value&param2=value
 
 - `obsidian://daily?vault=my%20vault`
   `my vault` 보관함을 열고 일일 노트를 생성하거나 열어요.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  `my vault` 보관함을 열고 일일 노트의 `Log` 섹션 끝에 `Called Sam`을 추가해요.
 
 ### 매개변수
 

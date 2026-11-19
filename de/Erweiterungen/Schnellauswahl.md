@@ -1,6 +1,6 @@
 ---
 permalink: plugins/quick-switcher
-description: Die Schnellauswahl ist eine integrierte Erweiterung, mit der du Notizen nur über die Tastatur suchen und öffnen kannst.
+description: 'Die Schnellauswahl ist eine integrierte Erweiterung, mit der du Notizen nur über die Tastatur suchen und öffnen kannst.'
 ---
 Die Schnellauswahl ist eine [[Obsidian-Erweiterungen|integrierte Erweiterung]], mit der du Notizen nur über die Tastatur suchen und öffnen kannst.
 
@@ -18,9 +18,8 @@ Es gibt mehrere Möglichkeiten, die Schnellauswahl zu öffnen, wenn sie aktivier
 3. Navigiere mit den Pfeiltasten zur Notiz.
 4. Drücke `Eingabe`, um die ausgewählte Notiz zu öffnen.
 
-> [!info] 
-> Die Autovervollständigungsfunktion wechselt zu einem einfacheren Ergebnisalgorithmus, wenn der Vault 10.000 Einträge erreicht, um eine optimale Anwendungsleistung aufrechtzuerhalten. 
-^search-autocomplete-large
+> [!info] Unscharfe Übereinstimmung
+> Dateivorschläge stimmen mit Buchstaben in der Reihenfolge überein, auch wenn du einige überspringst. Zum Beispiel kann `tn` mit `Tägliche Notizen` übereinstimmen.
 
 Wenn der Text mit keiner Notiz übereinstimmt, kannst du `Eingabe` drücken, um eine Notiz mit diesem Namen zu erstellen. Selbst wenn der Text mit einer oder mehreren ähnlichen Notizen übereinstimmt, kannst du trotzdem eine Notiz mit dem exakten Namen erstellen, indem du `Umschalt+Eingabe` drückst.
 

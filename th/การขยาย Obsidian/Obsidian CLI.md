@@ -324,6 +324,7 @@ paneType=tab|split|window    # ประเภทหน้าต่างที�
 
 ```bash
 content=<text>     # (required) เนื้อหาที่จะต่อท้าย
+heading=<name>     # ส่วนหัวเรื่องเป้าหมาย
 paneType=tab|split|window    # ประเภทหน้าต่างที่จะเปิด
 
 inline             # ต่อท้ายโดยไม่มีบรรทัดใหม่
@@ -336,6 +337,7 @@ open               # เปิดไฟล์หลังเพิ่ม
 
 ```bash
 content=<text>     # (required) เนื้อหาที่จะแทรก
+heading=<name>     # ส่วนหัวเรื่องเป้าหมาย
 paneType=tab|split|window    # ประเภทหน้าต่างที่จะเปิด
 
 inline             # แทรกโดยไม่มีบรรทัดใหม่
@@ -512,6 +514,7 @@ path=<path>        # เส้นทางไฟล์
 file=<name>        # ชื่อไฟล์
 path=<path>        # เส้นทางไฟล์
 content=<text>     # (required) เนื้อหาที่จะต่อท้าย
+heading=<name>     # ส่วนหัวเรื่องเป้าหมาย
 
 inline             # ต่อท้ายโดยไม่มีบรรทัดใหม่
 ```
@@ -524,6 +527,7 @@ inline             # ต่อท้ายโดยไม่มีบรรท�
 file=<name>        # ชื่อไฟล์
 path=<path>        # เส้นทางไฟล์
 content=<text>     # (required) เนื้อหาที่จะแทรก
+heading=<name>     # ส่วนหัวเรื่องเป้าหมาย
 
 inline             # แทรกโดยไม่มีบรรทัดใหม่
 ```
@@ -1298,23 +1302,4 @@ name=<name>        # (required) ชื่อพื้นที่ทำงาน
 
 ### `workspace:delete`
 
-ลบพื้นที่ทำงานที่บันทึกไว้
-
-```bash
-name=<name>        # (required) ชื่อพื้นที่ทำงาน
-```
-
-### `tabs`
-
-แสดงรายการแท็บที่เปิดอยู่
-
-```bash
-ids                # รวม tab ID
-```
-
-### `tab:open`
-
-เปิดแท็บใหม่
-
-```bash
-group
+ลบพื้น

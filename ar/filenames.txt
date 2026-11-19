@@ -154,6 +154,10 @@ translation=تنسيقات الملفات المقبولة
 original=Financial contributions
 translation=المساهمات المالية
 
+[file.find-and-replace]
+original=Find and replace
+translation=بحث و استبدل
+
 [file.folding]
 original=Folding
 translation=الطي
@@ -238,6 +242,10 @@ translation=استيراد من Microsoft OneNote
 original=Import from Roam Research
 translation=استيراد من Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=الاستيراد من Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=قوالب المستورد
@@ -286,6 +294,10 @@ translation=إدارة الخزنات
 original=Mobile app
 translation=تطبيق الهاتف
 
+[file.more-options-menu]
+original=More options menu
+translation=قائمة المزيد من الخيارات
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=المؤشرات المتعددة
@@ -305,6 +317,10 @@ translation=الموقع الرسمي
 [file.payment]
 original=Introduction to licenses and payment
 translation=مقدمة عن التراخيص والدفع
+
+[file.pdf]
+original=PDFs
+translation=ملفات PDF
 
 [file.plugin-security]
 original=Plugin security

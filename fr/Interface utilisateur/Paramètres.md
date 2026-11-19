@@ -13,11 +13,11 @@ Les paramètres vous permettent de personnaliser votre expérience Obsidian. Con
 
 ### Bureau
 
-Dans la [[Barre latérale#Ouvrir les barres latérales masquées|barre latérale gauche]], sélectionnez **[[Paramètres]]** ![[lucide-cog.svg#icon]]. Vous pouvez également ouvrir les paramètres avec la [[Palette de commandes]].
+Dans la [[Barre latérale#Ouvrir les barres latérales masquées|barre latérale]], sélectionnez **[[Paramètres]]** ![[lucide-cog.svg#icon]]. Vous pouvez également ouvrir les paramètres avec la [[Palette de commandes]].
 
 ### Mobile
 
-Dans la barre latérale gauche, sélectionnez **[[Paramètres]]** ![[lucide-cog.svg#icon]].
+Dans la barre latérale, sélectionnez **[[Paramètres]]** ![[lucide-cog.svg#icon]]. Les paramètres s'ouvrent dans un panneau superposé à l'application.
 
 ## Organisation des paramètres
 
@@ -297,9 +297,11 @@ Définir la police pour les emplacements comme les blocs de code et les métadon
 
 Taille de la police en pixels qui affecte les vues d'édition et de lecture. Ajustez à l'aide du curseur.
 
+La taille de la police est enregistrée séparément sur chaque appareil et n'est pas synchronisée via [[Introduction à Obsidian Sync|Obsidian Sync]]. Sur mobile, le texte et les éléments d'interface s'adaptent également à la taille de texte préférée de votre système, y compris les tailles d'accessibilité.
+
 #### Ajustement rapide de la taille de police
 
-Ajuster la taille de la police avec `Ctrl+Défilement` (Windows/Linux) ou `Cmd+Défilement` (macOS), ou en utilisant le geste de pincement sur le pavé tactile.
+Ajuster la taille de la police avec `Ctrl+Défilement` (Windows/Linux) ou `Cmd+Défilement` (macOS), ou en utilisant le geste de pincement sur le pavé tactile. Vous pouvez également utiliser **Augmenter la taille de la police** et **Diminuer la taille de la police** dans la [[Palette de commandes]], ou leur attribuer des [[Raccourcis clavier|raccourcis clavier]].
 
 ### Interface
 

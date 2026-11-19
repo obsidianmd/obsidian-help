@@ -128,7 +128,7 @@ Obsidian bruker de åpen kildekode-bibliotekene nedenfor (i alfabetisk rekkeføl
 
 ### Capacitor
 
-Versjon `5.x`
+Versjon `7.0.0`
 MIT-lisens
 Copyright (c) 2017-present Drifty Co.
 
@@ -140,12 +140,13 @@ Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@a
 
 ### DOMPurify
 
+Versjon `3.4.17`
 https://github.com/cure53/DOMPurify
 Lisensiert under [Mozilla Public License versjon 2.0](http://mozilla.org/MPL/2.0/)
 
 ### Electron
 
-Versjon `43.1.1`
+Versjon `44.9.3`
 MIT-lisens
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -162,23 +163,18 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
-Versjon `0.446.0`
+Versjon `1.14.0`
 ISC-lisens
 Copyright (c) 2020, Lucide Contributors ^lucide
 
 ### MathJax
 
+Versjon `4.1.3`
 Apache-lisens 2.0
-
-### Mermaid
-
-Versjon `11.13.0`
-MIT-lisens
-Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Versjon `2.30.1`
+Versjon `2.31.0`
 MIT-lisens
 Copyright (c) JS Foundation and other contributors
 
@@ -186,14 +182,21 @@ Copyright (c) JS Foundation and other contributors
 
 Apache-lisens 2.0
 
+### Pele
+
+Versjon `1.12.0`
+MIT-lisens
+Copyright (c) 2026 kepano
+
 ### PixiJS
 
+Versjon `7.2.4`
 MIT-lisens
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
-Versjon `1.29.0`
+Versjon `1.30.0`
 MIT-lisens
 Copyright (c) 2012 Lea Verou
 
@@ -210,9 +213,9 @@ Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
 ### reveal.js
 
-Versjon `4.3.1`
+Versjon `6.0.2`
 MIT-lisensen
-Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
+Copyright (C) 2011-2026 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
 ### scrypt
 
@@ -220,6 +223,7 @@ Apache-lisens 2.0
 
 ### Turndown
 
+Versjon `7.2.0`
 MIT-lisens
 Copyright (c) 2017 Dom Christie
 

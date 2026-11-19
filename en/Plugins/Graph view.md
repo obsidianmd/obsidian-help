@@ -7,7 +7,7 @@ publish: true
 ---
 Graph view is a [[Core plugins|core plugin]] that lets you visualize the relationships between the notes in your vault.
 
-To open the Graph view, click **Open graph view** in the [[Ribbon]].
+To open the Graph view, open the [[Command palette]] and run **Graph view: Open graph view**.
 
 - Circles represent notes, or _nodes_.
 - Lines represent [[Internal links]] between two nodes.

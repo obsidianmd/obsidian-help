@@ -44,6 +44,16 @@ Akcia `open` otvorí trezor Obsidian alebo otvorí súbor v rámci tohto trezoru
 > [!tip] Otvorenie nadpisu alebo bloku
 > So správnym URI kódovaním môžete navigovať na nadpis alebo blok v rámci poznámky. `Note%23Heading` by navigoval na nadpis s názvom "Heading", zatiaľ čo `Note%23%5EBlock` by navigoval na blok s názvom "Block".
 
+### Kopírovanie Obsidian URL
+
+Obsidian dokáže vytvoriť `open` URI pre aktívnu poznámku, takže ho nemusíte písať sami. Aplikácia to nazýva Obsidian URL. Obsahuje názov trezoru a cestu k poznámke.
+
+Obsidian URL môžete skopírovať niektorým z nasledujúcich spôsobov.
+
+- V [[Paleta príkazov|palete príkazov]] vyberte **Kopírovať Obsidian URL**.
+- V poznámke vyberte **Viac možností** ![[lucide-more-horizontal.svg#icon]] a potom vyberte **Kopírovať cestu → ako Obsidian URL**. Pozri [[Menu viac možností]].
+- Na desktope kliknite pravým tlačidlom myši na súbor v [[Prieskumník súborov|prieskumníkovi súborov]] a potom vyberte **Kopírovať cestu → ako Obsidian URL**.
+
 ### Parametre
 
 - `vault` môže byť buď názov trezoru, alebo ID trezoru[^1].
@@ -52,8 +62,6 @@ Akcia `open` otvorí trezor Obsidian alebo otvorí súbor v rámci tohto trezoru
   - Použitie tohto parametra prepíše `vault` aj `file`.
   - Toto spôsobí, že aplikácia vyhľadá najšpecifickejší trezor, ktorý obsahuje zadanú cestu k súboru.
   - Potom zvyšok cesty nahradí parameter `file`.
-- `prepend` pridá obsah na začiatok súboru a pokúsi sa zlúčiť vlastnosti.
-- `append` pridá obsah na koniec súboru a tiež sa pokúsi zlúčiť vlastnosti.
 - `paneType` (voliteľné) určuje, kde sa poznámka otvorí v používateľskom rozhraní.
   - ak nie je uvedený, nahradí sa posledná aktívna karta.
   - `paneType=tab` otvorí v novej karte.
@@ -70,6 +78,8 @@ Akcia `new` vytvorí novú poznámku v trezore, voliteľne s nejakým obsahom.
   Toto otvorí trezor `my vault` a vytvorí novú poznámku s názvom `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Toto otvorí trezor `my vault` a vytvorí novú poznámku na `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Toto otvorí trezor `my vault` a pridá `Buy milk` na koniec sekcie `Tasks` v `my note`.
 
 ### Parametre
 
@@ -81,8 +91,14 @@ Akcia `new` vytvorí novú poznámku v trezore, voliteľne s nejakým obsahom.
 - `content` (voliteľné) obsah poznámky.
 - `clipboard` (voliteľné) použitie obsahu schránky namiesto zadania `content`.
 - `silent` (voliteľné) zahrňte tento parameter, ak nechcete otvoriť novú poznámku.
-- `append` (voliteľné) zahrňte tento parameter na pridanie do existujúceho súboru, ak taký existuje.
-- `overwrite` (voliteľné) prepíše existujúci súbor, ak taký existuje, ale iba ak nie je nastavený `append`.
+- `append` (voliteľné) zahrňte tento parameter na pridanie na koniec existujúceho súboru, ak taký existuje, so zlúčením vlastností.
+- `prepend` (voliteľné) zahrňte tento parameter na pridanie na začiatok existujúceho súboru, ak taký existuje, so zlúčením vlastností.
+- `heading` (voliteľné) pridá obsah do sekcie pod týmto nadpisom namiesto celého súboru. Vyžaduje `append` alebo `prepend`.
+- `spacing` (voliteľné) ako je obsah oddelený od existujúceho obsahu. Vyžaduje `append` alebo `prepend`.
+  - `spacing=auto` (predvolené) ponechá prázdny riadok medzi nimi.
+  - `spacing=newline` začne obsah na novom riadku.
+  - `spacing=inline` pridá obsah bez zalomenia riadku.
+- `overwrite` (voliteľné) prepíše existujúci súbor, ak taký existuje, ale iba ak nie je nastavený ani `append`, ani `prepend`.
 - `x-success` (voliteľné) pozri [[#Použitie parametrov x-callback-url]].
 
 ## Vytvorenie alebo otvorenie dennej poznámky
@@ -93,6 +109,8 @@ Akcia `daily` vytvorí alebo otvorí vašu dennú poznámku. Plugin [[Každodenn
 
 - `obsidian://daily?vault=my%20vault`
   Toto otvorí trezor `my vault` a vytvorí alebo otvorí dennú poznámku.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Toto otvorí trezor `my vault` a pridá `Called Sam` na koniec sekcie `Log` v dennej poznámke.
 
 ### Parametre
 

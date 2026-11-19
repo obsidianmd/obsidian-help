@@ -154,6 +154,10 @@ translation=Accepterade filformat
 original=Financial contributions
 translation=Ekonomiska bidrag
 
+[file.find-and-replace]
+original=Find and replace
+translation=Sök och ersätt
+
 [file.folding]
 original=Folding
 translation=Vikning
@@ -238,6 +242,10 @@ translation=Importera från Microsoft OneNote
 original=Import from Roam Research
 translation=Importera från Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Importera från Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Mallar för Importer
@@ -286,6 +294,10 @@ translation=Hantera valv
 original=Mobile app
 translation=Mobilapp
 
+[file.more-options-menu]
+original=More options menu
+translation=Fler alternativ-menyn
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Flera markörer
@@ -305,6 +317,10 @@ translation=Officiell webbplats
 [file.payment]
 original=Introduction to licenses and payment
 translation=Introduktion till licenser och betalning
+
+[file.pdf]
+original=PDFs
+translation=PDF-filer
 
 [file.plugin-security]
 original=Plugin security

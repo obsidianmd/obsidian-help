@@ -19,7 +19,7 @@ Textbundle 格式将 Markdown 文本和所有引用的图片打包到一个文�
 1. 打开**[[设置文件夹|设置]]**。
 2. 进入**社区插件市场**并[安装迁移助手](obsidian://show-plugin?id=obsidian-importer)。
 3. 启用迁移助手插件。
-4. 通过命令面板或功能区图标打开**迁移助手**插件。
+4. 在设置中打开迁移助手或使用[[命令面板]]。
 5. 在**文件格式**下选择 **Textbundle (.textbundle, .textpack)**。
 6. 选择 Textbundle 或 Textpack 文件的位置。也支持 Zip 文件。
 7. 点击**导入**以查看生成的模板并预览笔记中的示例。

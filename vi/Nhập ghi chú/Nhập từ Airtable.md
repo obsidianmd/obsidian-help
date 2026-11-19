@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** trở thành [[Chế độ xem bảng]].
 	- **Gallery** trở thành [[Chế độ xem thẻ]].
 	- **List** trở thành [[Chế độ xem danh sách]].
-	- Tất cả các loại chế độ xem khác được chuyển đổi thành chế độ xem bảng.
+	- **Kanban** trở thành [[Chế độ xem kanban]] trong Obsidian 1.14 trở lên. Airtable không cho biết trường nào được dùng để nhóm kanban, vì vậy hãy [[Chế độ xem kanban#Nhóm thẻ thành cột|chọn một thuộc tính để nhóm theo]] sau khi nhập. Nhập lại sẽ giữ nguyên lựa chọn của bạn.
 - Các loại trường Airtable được ánh xạ thành loại thuộc tính Obsidian, mà không ghi đè các loại bạn đã thiết lập.
 - Các bản ghi được liên kết trở thành liên kết đến các ghi chú tương ứng.
 - Tệp đính kèm được tải xuống vào kho của bạn theo cài đặt kho.
@@ -88,7 +88,7 @@ Do giới hạn trong Airtable API, một số dữ liệu không khả dụng h
 
 - Giá trị tổng hợp (rollup) không được nhập. API không cung cấp phép tổng hợp được sử dụng cho giá trị tính toán của rollup, vì vậy chỉ tên thuộc tính được ghi, cùng với công thức Cơ sở khi lược đồ trường cung cấp biểu thức.
 - Các công thức sử dụng hàm mà Obsidian không có tương đương, chẳng hạn như `SWITCH`, `FIND`, `REGEX_EXTRACT`, và `SQRT`, sẽ sử dụng giá trị tĩnh từ Airtable.
-- Chỉ các chế độ xem grid, gallery và list được nhập. Các loại chế độ xem khác, như calendar, kanban, timeline và Gantt, sẽ bị bỏ qua.
+- Chỉ các chế độ xem grid, gallery, list và kanban được nhập. Các loại chế độ xem khác, như calendar, timeline và Gantt, sẽ bị bỏ qua.
 - Liên kết đến bản ghi trong các bảng bạn không chọn sẽ trở thành tiêu đề thuần của bản ghi thay vì liên kết.
 - Thiết kế giao diện, tự động hóa, bình luận và lịch sử sửa đổi không được nhập.
 

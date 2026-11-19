@@ -8,7 +8,6 @@ description: 'Aflați despre funcțiile specifice dispozitivelor mobile din Obsi
 aliases:
   - Mobile app
 ---
-
 Aplicațiile mobile Obsidian sunt disponibile pentru [[Obsidian pentru iOS și iPadOS|iOS și iPadOS]] și [[Obsidian pentru Android|Android]]. Le puteți descărca din [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) și [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 
 Obsidian funcționează similar pe mobil ca pe desktop, dar are câteva funcții unice, precum widget-uri, bara de instrumente și acțiunea rapidă.
@@ -32,25 +31,20 @@ Când editați o notă, veți observa un rând de pictograme în partea de jos a
 
 ### Personalizați bara de instrumente mobilă
 
-În bara de instrumente mobilă, apăsați **Configurați bara de instrumente mobilă** ![[lucide-wrench.svg#icon]] pentru a deschide interfața de personalizare.
+În bara de instrumente mobilă, selectați **Configurați bara de instrumente mobilă** ![[lucide-wrench.svg#icon]] pentru a deschide setările acesteia.
 
-Alternativ, o puteți face din Setări.
+De asemenea, puteți deschide **[[Setări]] → Interfață → Configurați bara de instrumente mobilă**.
 
-1. Deschideți Setări.
-2. Alegeți **Mobil**.
-3. Sub **Gestionați opțiunile barei de instrumente**, adăugați, eliminați sau reordonați opțiunile disponibile.
+Sub **Gestionați opțiunile barei de instrumente**, folosiți mânerele de prindere pentru a reordona acțiunile și butoanele de eliminare pentru a le elimina. Selectați o acțiune sub **Mai multe opțiuni pentru bara de instrumente** pentru a o adăuga.
 
 ### Adăugați o comandă pe bara de instrumente mobilă
 
-Implicit, opțiunile disponibile pentru a fi adăugate pe bara de instrumente sunt opțiuni de editare precum „Adăugați o legătură internă” sau „Adăugați o etichetă”.
+Pe lângă acțiunile de editare, puteți adăuga comenzi globale precum **Schimbați tema**.
 
-Pe lângă acestea, puteți adăuga comenzi globale precum „Schimbați tema”.
-
-1. Găsiți **Gestionați opțiunile barei de instrumente** sub **[[Setări]]** → **Mobil**.
-2. Derulați până în partea de jos, găsiți **Adăugați o comandă globală**.
-3. Introduceți numele comenzii pe care doriți să o adăugați.
-4. Selectați comanda pe care doriți să o adăugați.
-5. Noua comandă este adăugată la finalul barei de instrumente.
+1. Deschideți **[[Setări]] → Interfață → Configurați bara de instrumente mobilă**.
+2. Sub **Gestionați opțiunile barei de instrumente**, selectați **Adaugă o comandă...**.
+3. Căutați comanda pe care doriți să o adăugați.
+4. Selectați comanda pentru a o adăuga la finalul barei de instrumente.
 
 ## Acțiunea rapidă
 
@@ -61,7 +55,7 @@ Acțiunea rapidă are implicit ca funcție deschiderea [[Paleta de comenzi]].
 ### Personalizați acțiunea rapidă
 
 1. Deschideți Setări.
-2. Sub **Opțiuni**, alegeți **Bara de instrumente**.
+2. Alegeți **Interfață**.
 3. Sub **Configurați acțiunea rapidă mobilă**, apăsați **Configurare**.
 4. Introduceți numele comenzii.
 5. Selectați comanda pe care doriți să o setați.

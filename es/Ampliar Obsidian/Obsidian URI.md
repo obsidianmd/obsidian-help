@@ -46,6 +46,16 @@ La acción `open` abre una bóveda de Obsidian, o abre un archivo dentro de esa 
 > [!tip] Abrir un encabezado o bloque
 > Con la codificación URI adecuada, puedes navegar a un encabezado o bloque dentro de una nota. `Note%23Heading` navegaría al encabezado llamado "Heading", mientras que `Note%23%5EBlock` navegaría al bloque llamado "Block".
 
+### Copiar una URL de Obsidian
+
+Obsidian puede construir un URI `open` para la nota activa, de modo que no tengas que escribirlo tú mismo. La aplicación lo llama URL de Obsidian. Incluye el nombre de la bóveda y la ruta a la nota.
+
+Puedes copiar la URL de Obsidian de cualquiera de estas formas:
+
+- En la [[Paleta de comandos]], selecciona **Copiar URL de Obsidian del archivo actual**.
+- En la nota, selecciona **Más opciones** ![[lucide-more-horizontal.svg#icon]], y luego selecciona **Copiar ruta → como URL de Obsidian**. Consulta [[Menú de más opciones]].
+- En escritorio, haz clic derecho en un archivo en el [[Explorador de archivos]], y luego selecciona **Copiar ruta → como URL de Obsidian**.
+
 ### Parámetros
 
 - `vault` puede ser el nombre de la bóveda o el ID de la bóveda[^1].
@@ -54,8 +64,6 @@ La acción `open` abre una bóveda de Obsidian, o abre un archivo dentro de esa 
   - Usar este parámetro anulará tanto `vault` como `file`.
   - Esto hará que la aplicación busque la bóveda más específica que contenga la ruta de archivo especificada.
   - Luego el resto de la ruta reemplaza el parámetro `file`.
-- `prepend` añadirá contenido al inicio del archivo e intentará fusionar las propiedades.
-- `append` añadirá contenido al final del archivo y también intentará fusionar las propiedades.
 - `paneType` (opcional) determina dónde se abrirá la nota en la interfaz.
   - si no está presente, se reemplaza la última pestaña activa.
   - `paneType=tab` abrir en una nueva pestaña.
@@ -72,6 +80,8 @@ La acción `new` crea una nueva nota en la bóveda, opcionalmente con algún con
   Esto abre la bóveda `my vault`, y crea una nueva nota llamada `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Esto abre la bóveda `my vault`, y crea una nueva nota en `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Esto abre la bóveda `my vault`, y añade `Buy milk` al final de la sección `Tasks` en `my note`.
 
 ### Parámetros
 
@@ -83,8 +93,14 @@ La acción `new` crea una nueva nota en la bóveda, opcionalmente con algún con
 - `content` (opcional) el contenido de la nota.
 - `clipboard` (opcional) usa el contenido del portapapeles en lugar de especificar `content`.
 - `silent` (opcional) incluye este parámetro si no quieres abrir la nueva nota.
-- `append` (opcional) incluye este parámetro para añadir contenido a un archivo existente si existe uno.
-- `overwrite` (opcional) sobrescribe un archivo existente si existe uno, pero solo si `append` no está establecido.
+- `append` (opcional) incluye este parámetro para añadir contenido al final de un archivo existente si existe uno, fusionando cualquier propiedad.
+- `prepend` (opcional) incluye este parámetro para añadir contenido al inicio de un archivo existente si existe uno, fusionando cualquier propiedad.
+- `heading` (opcional) añade el contenido a la sección bajo este encabezado en lugar de al archivo completo. Requiere `append` o `prepend`.
+- `spacing` (opcional) cómo se separa el contenido del contenido existente. Requiere `append` o `prepend`.
+  - `spacing=auto` (predeterminado) deja una línea en blanco entre ellos.
+  - `spacing=newline` inicia el contenido en una nueva línea.
+  - `spacing=inline` añade el contenido sin un salto de línea.
+- `overwrite` (opcional) sobrescribe un archivo existente si existe uno, pero solo si ni `append` ni `prepend` están establecidos.
 - `x-success` (opcional) ver [[#Usar parámetros x-callback-url]].
 
 ## Crear o abrir nota diaria
@@ -95,6 +111,8 @@ La acción `daily` crea o abre tu nota diaria. El complemento [[Notas diarias]] 
 
 - `obsidian://daily?vault=my%20vault`
   Esto abre la bóveda `my vault`, y crea o abre la nota diaria.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Esto abre la bóveda `my vault`, y añade `Called Sam` al final de la sección `Log` en la nota diaria.
 
 ### Parámetros
 

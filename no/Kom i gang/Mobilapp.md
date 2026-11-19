@@ -29,25 +29,20 @@ Når du redigerer et notat, vil du se en rad med ikoner nederst i appen. Standar
 
 ### Tilpass mobil verktøylinje
 
-I den mobile verktøylinjen, trykk på **Konfigurer mobil verktøylinje** ![[lucide-wrench.svg#icon]] for å åpne grensesnittet for å tilpasse den.
+I den mobile verktøylinjen, velg **Konfigurer mobil verktøylinje** ![[lucide-wrench.svg#icon]] for å åpne innstillingene.
 
-Alternativt kan du gjøre det i Innstillinger.
+Du kan også åpne **[[Innstillinger]] → Grensesnitt → Konfigurer mobil verktøylinje**.
 
-1. Åpne Innstillinger.
-2. Velg **Mobil**.
-3. Under **Administrer alternativer for verktøylinje**, legg til, fjern eller endre rekkefølgen på de tilgjengelige alternativene.
+Under **Administrer alternativer for verktøylinje**, bruk drahåndtakene til å endre rekkefølgen på handlinger og fjernknappene til å fjerne dem. Velg en handling under **Flere alternativer for verktøylinjen** for å legge den til.
 
 ### Legg til kommando i mobil verktøylinje
 
-Som standard er alternativene som er tilgjengelige for å legges til i verktøylinjen redigeringsalternativer som "Legg til intern lenke" eller "Legg til tagg".
+I tillegg til redigeringshandlinger kan du legge til globale kommandoer som **Bytt tema**.
 
-I tillegg kan du legge til globale kommandoer som "Endre tema".
-
-1. Finn **Administrer alternativer for verktøylinje** under **[[Innstillinger]]** → **Mobil**.
-2. Rull helt til bunnen, finn **Legg til global kommando**.
-3. Skriv inn navnet på kommandoen du ønsker å legge til.
-4. Velg kommandoen du vil legge til.
-5. Den nye kommandoen legges til på slutten av verktøylinjen.
+1. Åpne **[[Innstillinger]] → Grensesnitt → Konfigurer mobil verktøylinje**.
+2. Under **Administrer alternativer for verktøylinje**, velg **Legg til en kommando…**.
+3. Søk etter kommandoen du ønsker å legge til.
+4. Velg kommandoen for å legge den til på slutten av verktøylinjen.
 
 ## Hurtighandling
 
@@ -58,7 +53,7 @@ Hurtighandling er som standard satt til å åpne [[Kommandovelger|kommandopalett
 ### Tilpass Hurtighandling
 
 1. Åpne Innstillinger.
-2. Under **Alternativer**, velg **Verktøylinje**.
+2. Velg **Grensesnitt**.
 3. Under **Konfigurer mobil Hurtighandling**, trykk på **Konfigurer**.
 4. Skriv inn navnet på kommandoen.
 5. Velg kommandoen du ønsker å angi.

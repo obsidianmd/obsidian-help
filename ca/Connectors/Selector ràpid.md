@@ -18,9 +18,8 @@ Hi ha diverses maneres d'obrir el Selector ràpid, quan està activat:
 3. Navega fins a la nota amb les tecles de fletxa.
 4. Prem `Enter` per obrir la nota seleccionada.
 
-> [!info] 
-> La funcionalitat de compleció automàtica canvia a un algorisme de resultats més simple quan la cambra forta arriba als 10.000 elements per mantenir un rendiment òptim de l'aplicació. 
-^search-autocomplete-large
+> [!info] Coincidència difusa
+> Els suggeriments de fitxers coincideixen amb les lletres en ordre, fins i tot si en saltes algunes. Per exemple, `nd` pot coincidir amb `Notes diàries`.
 
 Si el text no coincideix amb cap nota, pots prémer `Enter` per crear una nota amb aquest nom. Encara que el text coincideixi amb una o més notes similars, pots crear una nota amb el nom exacte prement `Maj+Enter`.
 

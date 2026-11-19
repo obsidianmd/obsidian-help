@@ -54,12 +54,12 @@ Konfigurationsalternativ för widgeten **Visa anteckning**:
 
 ## Snabbfångst
 
-Snabbfångst låter dig spara text till ditt valv från låsskärmen, Kontrollcenter eller hemskärmswidgetar. Beroende på vilken fångstplats du väljer kan Snabbfångst skapa en ny anteckning eller lägga till texten i en befintlig anteckning.
+Snabbfångst låter dig spara text till ditt valv från låsskärmen, Kontrollcenter, hemskärmswidgetar eller Genvägar utan att behöva vänta på att ditt valv laddas. Beroende på vilken fångstplats du väljer kan Snabbfångst skapa en ny anteckning eller lägga till texten i en befintlig anteckning.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Observera
-> Snabbfångst är tillgängligt på iOS och iPadOS 26 och högre.
+> Snabbfångst kräver Obsidian 1.14 eller senare och iOS eller iPadOS 26 eller senare.
 
 Så här fångar du text:
 
@@ -72,6 +72,63 @@ Så här fångar du text:
 **Observera**: Om Live Activities är aktiverat visas snabbfångstanteckningen även på låsskärmen och, på iPhone-modeller som stöds, i Dynamic Island. Tryck på fältet eller Live Activity för att fortsätta redigera.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Röstfångst
+
+Röstfångst låter dig spela in en röstanteckning med Snabbfångst. Obsidian transkriberar det du säger medan du talar och kan spara inspelningen i ditt valv tillsammans med transkriptionen.
+
+Så här fångar du en röstanteckning:
+
+1. Öppna Snabbfångst och tryck sedan på mikrofonknappen i nedre vänstra hörnet. Inspelningen startar direkt.
+2. Tala din anteckning. Transkriptionen visas i textområdet medan du talar, och du kan redigera den när som helst.
+3. Tryck på inspelningsknappen längst ner på skärmen för att pausa, och tryck igen för att återuppta.
+4. Tryck på bockmarkeringen för att spara transkriptionen och inspelningen till den valda fångstplatsen.
+
+![[ios-voice-capture.png|400]]
+
+Du kan även starta inspelning direkt från en widget. När du anpassar en Snabbfångst-widget, välj en åtgärd från avsnittet **Röstfångst**.
+
+Inspelningen fortsätter om du minimerar Snabbfångst eller låser din enhet. Under inspelning visar låsskärmen och Dynamic Island den live-transkriberade texten och en timer. Tryck på timern för att pausa eller återuppta inspelningen.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Inställningar för Röstfångst
+
+För att ändra inställningar för Röstfångst, tryck på kugghjulsikonen överst på skärmen medan du är i Röstfångst.
+
+- **Språk**: Språket som används för transkription. Se [[#Språk som stöds]]. Välj **Inget** för att stänga av transkription och bara spela in ljud.
+- **Mikrofon**: Mikrofonen som används för inspelning, till exempel den inbyggda mikrofonen eller ett anslutet headset.
+- **Spara ljudfil**: Om inspelningen ska sparas i ditt valv.
+- **Ljud från andra appar**: Vad som händer med musik eller annat ljud som spelas när du spelar in: **Fortsätt spela**, **Sänk volymen** eller **Pausa**. Ändringar gäller från din nästa inspelning.
+
+#### Språk som stöds
+
+Röstfångst kan transkribera tal på följande språk. Vissa enheter stöder färre språk, och tillgängliga språk kan ändras med iOS-uppdateringar. Om ditt språk inte är tillgängligt kan du fortfarande spela in ljud utan transkription.
+
+- Bangla
+- Gujarati
+- Hindi
+- Italienska
+- Japanska
+- Kannada
+- Kantonesiska
+- Kashmiri
+- Kinesiska
+- Koreanska
+- Maithili
+- Malayalam
+- Marathi
+- Nepali
+- Odia
+- Portugisiska
+- Punjabi
+- Spanska
+- Tamil
+- Telugu
+- Tyska
+- Urdu
+- Engelska
+- Franska
 
 ### Fångstplatser
 

@@ -154,6 +154,10 @@ translation=対応ファイル形式
 original=Financial contributions
 translation=金銭的な貢献
 
+[file.find-and-replace]
+original=Find and replace
+translation=検索かつ置換
+
 [file.folding]
 original=Folding
 translation=折りたたみ
@@ -238,6 +242,10 @@ translation=OneNote
 original=Import from Roam Research
 translation=Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Samsung Notesからのインポート
+
 [file.import/templates]
 original=Importer templates
 translation=インポーターテンプレート
@@ -286,6 +294,10 @@ translation=保管庫の管理
 original=Mobile app
 translation=モバイルアプリ
 
+[file.more-options-menu]
+original=More options menu
+translation=オプションメニュー
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=マルチカーソル
@@ -305,6 +317,10 @@ translation=公式ウェブサイト
 [file.payment]
 original=Introduction to licenses and payment
 translation=ライセンスと支払いの概要
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

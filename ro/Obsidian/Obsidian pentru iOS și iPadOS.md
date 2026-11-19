@@ -56,12 +56,12 @@ Opțiuni de configurare pentru widget-ul **Vizualizează notă**:
 
 ## Captare rapidă
 
-Captarea rapidă îți permite să salvezi text în seiful tău de pe ecranul de blocare, Centrul de control sau widget-urile de pe ecranul de start. În funcție de locația de captare selectată, Captarea rapidă poate crea o notă nouă sau adăuga textul la o notă existentă.
+Captarea rapidă îți permite să salvezi text în seiful tău de pe ecranul de blocare, Centrul de control, widget-urile de pe ecranul de start sau Scurtături, fără a aștepta încărcarea seifului. În funcție de locația de captare selectată, Captarea rapidă poate crea o notă nouă sau adăuga textul la o notă existentă.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Notă
-> Captarea rapidă este disponibilă pe iOS și iPadOS 26 și versiuni mai noi.
+> Captarea rapidă necesită Obsidian 1.14 sau o versiune mai nouă și iOS sau iPadOS 26 sau o versiune mai nouă.
 
 Pentru a capta text:
 
@@ -74,6 +74,63 @@ Pentru a capta text:
 **Notă**: Dacă Activitățile în direct (Live Activities) sunt activate, nota de captare rapidă apare și pe ecranul de blocare și, pe modelele de iPhone compatibile, în Dynamic Island. Apasă bara sau Activitatea în direct pentru a continua editarea.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Captare vocală
+
+Captarea vocală îți permite să înregistrezi o notă vocală cu Captarea rapidă. Obsidian transcrie ce spui în timp real și poate salva înregistrarea în seiful tău alături de transcriere.
+
+Pentru a capta o notă vocală:
+
+1. Deschide Captarea rapidă, apoi apasă butonul cu microfon din colțul din stânga jos. Înregistrarea începe imediat.
+2. Spune nota ta. Transcrierea apare în zona de text pe măsură ce vorbești și o poți edita oricând.
+3. Apasă butonul de înregistrare din partea de jos a ecranului pentru a pune pauză și apasă din nou pentru a relua.
+4. Apasă bifa pentru a salva transcrierea și înregistrarea în locația de captare selectată.
+
+![[ios-voice-capture.png|400]]
+
+Poți de asemenea să începi înregistrarea direct dintr-un widget. Când personalizezi un widget de Captare rapidă, alege o acțiune din secțiunea **Captare vocală**.
+
+Înregistrarea continuă dacă minimizezi Captarea rapidă sau blochezi dispozitivul. În timpul înregistrării, ecranul de blocare și Dynamic Island afișează transcrierea în direct și un cronometru. Apasă cronometrul pentru a pune pauză sau a relua înregistrarea.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Setări pentru Captarea vocală
+
+Pentru a modifica setările Captării vocale, apasă pictograma cu roată dințată din partea de sus a ecranului în timp ce te afli în Captarea vocală.
+
+- **Limba**: Limba folosită pentru transcriere. Consultă [[#Limbi acceptate]]. Selectează **Niciuna** pentru a dezactiva transcrierea și a înregistra doar audio.
+- **Microfon**: Microfonul folosit pentru înregistrare, cum ar fi microfonul integrat sau un set de căști conectat.
+- **Salvează fișierul audio**: Dacă se salvează înregistrarea în seiful tău.
+- **Audio din alte aplicații**: Ce se întâmplă cu muzica sau alt conținut audio care rulează când înregistrezi: **Continuă redarea**, **Scade volumul** sau **Pauză**. Modificările se aplică de la următoarea înregistrare.
+
+#### Limbi acceptate
+
+Captarea vocală poate transcrie vorbirea în următoarele limbi. Unele dispozitive acceptă mai puține limbi, iar limbile disponibile se pot modifica odată cu actualizările iOS. Dacă limba ta nu este disponibilă, poți înregistra în continuare audio fără transcriere.
+
+- Bangla
+- Cantoneză
+- Chineză
+- Engleză
+- Franceză
+- Germană
+- Gujarati
+- Hindi
+- Italiană
+- Japoneză
+- Kannada
+- Kashmiri
+- Coreeană
+- Maithili
+- Malayalam
+- Marathi
+- Nepaleză
+- Odia
+- Portugheză
+- Punjabi
+- Spaniolă
+- Tamil
+- Telugu
+- Urdu
 
 ### Locații de captare
 

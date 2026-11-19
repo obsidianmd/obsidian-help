@@ -154,6 +154,10 @@ translation=Kabul edilen dosya biçimleri
 original=Financial contributions
 translation=Finansal katkılar
 
+[file.find-and-replace]
+original=Find and replace
+translation=Ara ve yer değiştir
+
 [file.folding]
 original=Folding
 translation=Katlama
@@ -238,6 +242,10 @@ translation=Microsoft OneNote'tan içe aktar
 original=Import from Roam Research
 translation=Roam Research'ten içe aktar
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Samsung Notes'tan içe aktarma
+
 [file.import/templates]
 original=Importer templates
 translation=İçe aktarıcı şablonları
@@ -286,6 +294,10 @@ translation=Kasaları yönet
 original=Mobile app
 translation=Mobil uygulama
 
+[file.more-options-menu]
+original=More options menu
+translation=Daha fazla seçenek menüsü
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Çoklu imleçler
@@ -305,6 +317,10 @@ translation=Resmi web sitesi
 [file.payment]
 original=Introduction to licenses and payment
 translation=Lisanslar ve ödemeye giriş
+
+[file.pdf]
+original=PDFs
+translation=PDF'ler
 
 [file.plugin-security]
 original=Plugin security

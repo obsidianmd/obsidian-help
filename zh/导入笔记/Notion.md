@@ -72,7 +72,8 @@ Obsidian 提供两种方式来导入 Notion 数据：
 
 由于 Notion API 的限制，某些数据不可用或无法转换：
 
-- 每个数据库仅导入主视图。
+- 除看板以外的数据库视图不会被导入，且看板不会保留其筛选器、排序或子分组。
+- 在按多选、人员或关联属性分组的看板中，具有多个值的卡片会被放入该值组合对应的单个列中。
 - [链接数据源](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases)不会被导入：*"Notion 的 API 目前不支持链接数据源。与集成共享数据库时，请确保它包含原始数据源！"*
 - `People` 函数：`name()` 和 `email()`
 - `Text` 函数：`style()` 和 `unstyle()`
@@ -80,7 +81,7 @@ Obsidian 提供两种方式来导入 Notion 数据：
 此外，迁移助手会进行以下更改：
 
 - 没有子页面或数据库的页面将以 `[filename].md` 而非 `[filename]/[filename].md` 的形式导入。
-- 数据库始终以名为 `[database name]` 的文件夹表示，文件夹内包含一个 `[database name].base` 文件。
+- 数据库始终以名为 `[database name]` 的文件夹表示，文件夹内包含一个 `[database name].base` 文件。该数据库包含一个显示所有属性的表格视图，并且在 Obsidian 1.14 及更高版本中，会为每个 Notion 看板创建一个[[看板视图]]，按相同属性分组。
 
 ## 导入 Notion 文件（.zip）
 

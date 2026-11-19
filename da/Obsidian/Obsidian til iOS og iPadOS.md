@@ -56,12 +56,12 @@ Du kan tilpasse widgets til din arbejdsgang, f.eks. vælge hvilken boks der skal
 
 ## Hurtig indfangning
 
-Hurtig indfangning lader dig gemme tekst i din boks fra låseskærmen, Kontrolcenter eller hjemmeskærm-widgets. Afhængigt af den indfangningsplacering du vælger, kan Hurtig indfangning oprette en ny note eller tilføje teksten til en eksisterende note.
+Hurtig indfangning lader dig gemme tekst i din boks fra låseskærmen, Kontrolcenter, hjemmeskærm-widgets eller Genveje uden at vente på, at din boks indlæses. Afhængigt af den indfangningsplacering du vælger, kan Hurtig indfangning oprette en ny note eller tilføje teksten til en eksisterende note.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Note
-> Hurtig indfangning er tilgængelig på iOS og iPadOS 26 og nyere.
+> Hurtig indfangning kræver Obsidian 1.14 eller nyere og iOS eller iPadOS 26 eller nyere.
 
 Sådan indfanger du tekst:
 
@@ -74,6 +74,63 @@ Sådan indfanger du tekst:
 **Bemærk**: Hvis Live-aktiviteter er aktiveret, vises hurtig indfangning-noten også på låseskærmen og på understøttede iPhone-modeller i Dynamic Island. Tryk på bjælken eller Live-aktiviteten for at fortsætte redigering.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Stemmeindfangning
+
+Stemmeindfangning lader dig optage en stemmenote med Hurtig indfangning. Obsidian transskriberer det, du siger, mens du taler, og kan gemme optagelsen i din boks sammen med transskriptionen.
+
+Sådan indfanger du en stemmenote:
+
+1. Åbn Hurtig indfangning, og tryk derefter på mikrofonknappen i nederste venstre hjørne. Optagelsen starter med det samme.
+2. Tal din note. Transskriptionen vises i tekstområdet, mens du taler, og du kan redigere den når som helst.
+3. Tryk på optageknappen nederst på skærmen for at sætte på pause, og tryk igen for at genoptage.
+4. Tryk på fluebenet for at gemme transskriptionen og optagelsen til den valgte indfangningsplacering.
+
+![[ios-voice-capture.png|400]]
+
+Du kan også starte optagelse direkte fra en widget. Når du tilpasser en Hurtig indfangning-widget, skal du vælge en handling fra sektionen **Stemmeindfangning**.
+
+Optagelsen fortsætter, hvis du minimerer Hurtig indfangning eller låser din enhed. Under optagelse viser låseskærmen og Dynamic Island den aktive transskription og en timer. Tryk på timeren for at sætte på pause eller genoptage optagelsen.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Indstillinger for stemmeindfangning
+
+For at ændre indstillinger for stemmeindfangning skal du trykke på tandhjulsikonet øverst på skærmen, mens du er i stemmeindfangning.
+
+- **Sprog**: Sproget der bruges til transskription. Se [[#Understøttede sprog]]. Vælg **Ingen** for at slå transskription fra og kun optage lyd.
+- **Mikrofon**: Mikrofonen der bruges til optagelse, f.eks. den indbyggede mikrofon eller et tilsluttet headset.
+- **Gem lydfil**: Om optagelsen skal gemmes i din boks.
+- **Lyd fra andre apps**: Hvad der sker med musik eller anden lyd, der afspilles, når du optager: **Fortsæt afspilning**, **Sænk lydstyrke** eller **Sæt på pause**. Ændringer træder i kraft fra din næste optagelse.
+
+#### Understøttede sprog
+
+Stemmeindfangning kan transskribere tale på følgende sprog. Nogle enheder understøtter færre sprog, og tilgængelige sprog kan ændre sig med iOS-opdateringer. Hvis dit sprog ikke er tilgængeligt, kan du stadig optage lyd uden transskription.
+
+- Bangla
+- Cantonesisk
+- Kinesisk
+- Engelsk
+- Fransk
+- Tysk
+- Gujarati
+- Hindi
+- Italiensk
+- Japansk
+- Kannada
+- Kashmiri
+- Koreansk
+- Maithili
+- Malayalam
+- Marathi
+- Nepalesisk
+- Odia
+- Portugisisk
+- Punjabi
+- Spansk
+- Tamil
+- Telugu
+- Urdu
 
 ### Indfangningsplaceringer
 

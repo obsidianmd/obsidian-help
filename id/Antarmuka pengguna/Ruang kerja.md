@@ -18,6 +18,7 @@ Di aplikasi desktop Obsidian, ruang kerja mencakup:
     - [[Bilah samping#Tab|Tab bilah samping]]
 - [[Tab#Atur tab dan jendela Anda|Grup tab]] di area konten utama (dapat dibagi secara vertikal atau horizontal)
     - [[Tab]]
+    - [[Menu opsi lainnya]] di sudut kanan atas setiap catatan
 - [[Bilah status]] di sudut kanan bawah
 
 ## Seluler
@@ -25,6 +26,7 @@ Di aplikasi desktop Obsidian, ruang kerja mencakup:
 Di aplikasi seluler Obsidian, ruang kerja mencakup:
 
 - [[Tab]] yang dikelola dari penghitung tab di [[Aplikasi seluler#Bilah navigasi|Bilah navigasi]]
+- [[Menu opsi lainnya#Seluler|Menu opsi lainnya]] untuk catatan yang aktif
 - [[Bilah samping|Bilah samping]] (dibuka menggunakan gerakan usap kiri dan kanan)
 - [[Aplikasi seluler#Bilah navigasi|Bilah navigasi]] di bagian bawah layar
 - [[Bilah alat|Atur Ribbon]] di Bilah navigasi (berisi tindakan yang dapat disesuaikan)

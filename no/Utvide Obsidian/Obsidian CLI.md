@@ -324,6 +324,7 @@ Legg til innhold på slutten av det daglige notatet.
 
 ```bash
 content=<text>     # (påkrevd) innhold å legge til
+heading=<name>     # mål-overskriftsseksjon
 paneType=tab|split|window    # paneltype å åpne i
 
 inline             # legg til uten ny linje
@@ -336,6 +337,7 @@ Legg til innhold i begynnelsen av det daglige notatet.
 
 ```bash
 content=<text>     # (påkrevd) innhold å legge til i begynnelsen
+heading=<name>     # mål-overskriftsseksjon
 paneType=tab|split|window    # paneltype å åpne i
 
 inline             # legg til uten ny linje
@@ -512,6 +514,7 @@ Legg til innhold på slutten av en fil (standard: aktiv fil).
 file=<name>        # filnavn
 path=<path>        # filbane
 content=<text>     # (påkrevd) innhold å legge til
+heading=<name>     # mål-overskriftsseksjon
 
 inline             # legg til uten ny linje
 ```
@@ -524,6 +527,7 @@ Legg til innhold etter startmetadata (standard: aktiv fil).
 file=<name>        # filnavn
 path=<path>        # filbane
 content=<text>     # (påkrevd) innhold å legge til i begynnelsen
+heading=<name>     # mål-overskriftsseksjon
 
 inline             # legg til uten ny linje
 ```

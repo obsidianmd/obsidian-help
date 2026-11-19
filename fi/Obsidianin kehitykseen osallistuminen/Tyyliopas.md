@@ -316,8 +316,8 @@ Työpöytäversiossa voit mukauttaa nauhaa seuraavasti:
 Mobiiliversiossa voit mukauttaa nauhaa asetusten kautta:
 
 1. Avaa **[[Asetukset]]**.
-2. Siirry kohtaan **Ulkoasu**.
-3. Valitse **Hallinnoi** kohdasta **Nauhavalikko**.
+2. Siirry kohtaan **Käyttöliittymä**.
+3. Valitse **Nauhavalikko**.
 ```
 
 > [!info]+ Milloin luoda erilliset osiot?
@@ -343,7 +343,7 @@ Sisällytä kuvakkeita ja kuvia silloin, kun ne helpottavat sellaisten asioiden 
 
 [Lucide](https://lucide.dev/icons/)-kuvakkeita ja mukautettuja Obsidian-kuvakkeita voidaan käyttää yksityiskohtaisten elementtien yhteydessä tarjoamaan ominaisuuden visuaalinen esitys.
 
-**Esimerkki:** Valitse vasemmalla olevasta nauhavalikosta **Luo uusi valkotaulu** ![[lucide-layout-dashboard.svg#icon]] luodaksesi valkotaulun samaan kansioon kuin aktiivinen tiedosto.
+**Esimerkki:** Valitse [[Tiedostoselain|tiedostoselaimessa]] **Uusi kansio** ![[lucide-folder-plus.svg#icon]] luodaksesi kansion.
 
 **Kuvakkeiden ohjeet**
 
@@ -351,7 +351,7 @@ Sisällytä kuvakkeita ja kuvia silloin, kun ne helpottavat sellaisten asioiden 
 - Lisää etuliite `lucide-` Lucide-kuvakkeen nimen eteen.
 - Lisää etuliite `obsidian-icon-` Obsidian-kuvakkeen nimen eteen.
 
-**Esimerkki:** Uuden valkotaulun luomiskuvakkeen tulee olla nimeltään `lucide-layout-dashboard`.
+**Esimerkki:** Uuden kansion luomiskuvakkeen tulee olla nimeltään `lucide-folder-plus`.
 
 - Käytä kuvakkeiden SVG-versiota.
 - Kuvakkeiden leveyden tulisi olla `18` pikseliä, korkeuden `18` pikseliä ja viivan leveyden `1.5`. Voit säätää näitä asetuksia SVG-datassa.

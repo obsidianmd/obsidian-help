@@ -4,7 +4,6 @@ aliases:
   - Opdater Obsidian
   - Kom i gang/Opdater Obsidian
 ---
-
 Måden Obsidian opdateres på er forskellig på mobil og på desktop enheder.
 
 Obsdidian tjekker regelmæssigt for nye opdateringer i desktopversionen. Når en ny opdatering er tilgængelig vil Obsidian opdatere sig selv, når du genstarter den. Obsidian har brug for periodiske [[#Opdatering af installationsfunktionen|opdateringer af installationsfunktionen]], som kræver at den hentes og startes.
@@ -15,7 +14,7 @@ På mobil enheder opdateres Obsidian gennem enhedens opdateringsmekanisme. Insta
 
 Åben "Indstillinger → Om".
 
-Du kan finde oplysninger om den nuværende Obsidian version og installerversionen i øverste venstre hjørne.
+Du kan finde oplysninger om den nuværende Obsidian version og installerversionen i øverste venstre hjørne. Når en nyere installationsversion er tilgængelig, viser Obsidian en besked med et downloadlink. Følg [[#Opdatering af installationsfunktionen|instruktionerne til opdatering af installationsversionen]] for at installere den.
 
 ![[application-installer-current-version.png#interface]]
 

@@ -11,6 +11,7 @@ Pode desenvolver [[Plugins da comunidade]] e [[Temas]] utilizando Typescript e C
 
 O Obsidian desenvolve e mantém vários projetos de código aberto. Pode submeter pull requests com correções de erros e melhorias nos seguintes repositórios GitHub:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), o renderizador que o Obsidian utiliza para desenhar diagramas Mermaid.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), um formato de ficheiro aberto para dados de tela infinita.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), linguagem de modelos para gerar Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), um plugin que converte dados de uma grande variedade de formatos para ficheiros Markdown em texto simples.

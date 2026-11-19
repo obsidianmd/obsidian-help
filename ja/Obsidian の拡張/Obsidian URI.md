@@ -46,6 +46,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] 見出しやブロックを開く
 > 適切なURIエンコーディングを使用すると、ノート内の見出しやブロックに移動できます。`Note%23Heading`は「Heading」という見出しに移動し、`Note%23%5EBlock`は「Block」というブロックに移動します。
 
+### Obsidian URLをコピーする
+
+Obsidianはアクティブなノートの`open` URIを自動的に生成できるため、自分で記述する必要はありません。アプリではこれをObsidian URLと呼びます。保管庫名とノートへのパスが含まれます。
+
+Obsidian URLは以下のいずれかの方法でコピーできます。
+
+- [[コマンドパレット]]で**Obsidian URIをコピー**を選択します。
+- ノート内で**オプション** ![[lucide-more-horizontal.svg#icon]] を選択し、**パスをコピー → Obsidian URL として**を選択します。[[オプションメニュー]]を参照してください。
+- デスクトップでは、[[ファイルエクスプローラ]]内のファイルを右クリックし、**パスをコピー → Obsidian URL として**を選択します。
+
 ### パラメータ
 
 - `vault` 保管庫の名称または保管庫のID[^1]のいずれかを指定できます。
@@ -54,8 +64,6 @@ obsidian://action?param1=value&param2=value
   - このパラメータを使用すると、`vault`と`file`の両方がオーバーライドされます。
   - 指定されたファイルパスを含む最も具体的な保管庫をアプリが検索します。
   - その後、残りのパスが`file`パラメータを置き換えます。
-- `prepend` ファイルの先頭に追加し、プロパティの統合を試みます。
-- `append` ファイルの末尾に追加し、プロパティの統合も試みます。
 - `paneType`（オプション）ノートがUI上のどこで開かれるかを決定します。
   - 指定しない場合、最後にアクティブだったタブが置き換えられます。
   - `paneType=tab` 新規タブで開きます。
@@ -72,6 +80,8 @@ obsidian://action?param1=value&param2=value
   保管庫`my vault`を開き、`my note`という名前の新しいノートを作成します。
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   保管庫`my vault`を開き、`path/to/my note`に新しいノートを作成します。
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  保管庫`my vault`を開き、`my note`の`Tasks`セクションの末尾に`Buy milk`を追加します。
 
 ### パラメータ
 
@@ -83,8 +93,14 @@ obsidian://action?param1=value&param2=value
 - `content`（オプション）ノートの内容。
 - `clipboard`（オプション）`content`を指定する代わりにクリップボードの内容を使用します。
 - `silent`（オプション）新しいノートを開きたくない場合にこのパラメータを含めます。
-- `append`（オプション）既存のファイルが存在する場合にそのファイルに追記するために、このパラメータを含めます。
-- `overwrite`（オプション）既存のファイルが存在する場合に上書きしますが、`append`が設定されていない場合のみです。
+- `append`（オプション）既存のファイルが存在する場合にそのファイルに追記するために、このパラメータを含めます。プロパティは統合されます。
+- `prepend`（オプション）既存のファイルが存在する場合にそのファイルの先頭に追加するために、このパラメータを含めます。プロパティは統合されます。
+- `heading`（オプション）ファイル全体ではなく、この見出し下のセクションにコンテンツを追加します。`append`または`prepend`が必要です。
+- `spacing`（オプション）既存のコンテンツとの間隔を指定します。`append`または`prepend`が必要です。
+  - `spacing=auto`（デフォルト）間に空行を入れます。
+  - `spacing=newline` 新しい行からコンテンツを開始します。
+  - `spacing=inline` 改行なしでコンテンツを追加します。
+- `overwrite`（オプション）既存のファイルが存在する場合に上書きしますが、`append`も`prepend`も設定されていない場合のみです。
 - `x-success`（オプション）[[#x-callback-urlパラメータを使用する]]を参照してください。
 
 ## デイリーノートを作成または開く
@@ -95,6 +111,8 @@ obsidian://action?param1=value&param2=value
 
 - `obsidian://daily?vault=my%20vault`
   保管庫`my vault`を開き、デイリーノートを作成または開きます。
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  保管庫`my vault`を開き、デイリーノートの`Log`セクションの末尾に`Called Sam`を追加します。
 
 ### パラメータ
 

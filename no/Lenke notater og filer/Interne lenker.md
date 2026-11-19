@@ -50,8 +50,6 @@ For å opprette en lenke mens du er i redigeringsvisning, bruk en av følgende m
 - Velg tekst i redigeringsprogrammet og skriv deretter `[[`.
 - Åpne [[Kommandovelger|kommandopaletten]] og velg deretter Legg til intern lenke.
 
-![[Hurtigåpner#^search-autocomplete-large]]
-
 Selv om du kan lenke til alle [[Aksepterte filformater]], må lenker til andre filformater enn Markdown inkludere en filextension, for eksempel `[[Figure 1.png]]`.
 
 > [!tip] Å sette et utropstegn (!) foran en intern lenke lar deg bygge inn det lenkede innholdet. For mer informasjon, se [[Bygge inn filer]].
@@ -131,7 +129,7 @@ Du kan også søke etter blokker å lenke til fra hele hvelvet ved å bruke synt
 > [!info]- Skjermbilde av søk etter en blokklenke
 > ![[link-block-heading.png#interface]]
 
-Du kan også opprette lesbare blokkidentifikatorer ved å legge til et mellomrom etterfulgt av et caret-tegn (`^`) og identifikatoren. Blokkidentifikatorer kan kun bestå av latinske bokstaver, tall og bindestreker.
+Du kan også opprette lesbare blokkidentifikatorer ved å legge til et mellomrom etterfulgt av et caret-tegn (`^`) og identifikatoren. Blokkidentifikatorer kan kun bestå av bokstavene A-Z og a-z, sifrene 0-9 og bindestreker.
 
 Legg for eksempel til `^quote-of-the-day` på slutten av en blokk:
 

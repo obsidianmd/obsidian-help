@@ -27,7 +27,7 @@ In this guide, you'll enable [[Introduction to Obsidian Publish|Obsidian Publish
 
 ### Open Publish
 
-You can access Publish through the following options: the command palette, a hotkey, or the ribbon.
+You can open Publish from the command palette or with a hotkey. On mobile, you can also use the ribbon menu.
 
 #### Open via Command palette
 
@@ -59,18 +59,7 @@ The **Publish changes** menu will appear as a slide-up.
 5. Close **[[Settings]]**.
 6. Use your hotkey to open **Publish changes**.
 
-#### Open via ribbon
-
-You can also access Obsidian Publish via the [[ribbon]].
-
-**Desktop/Tablet** ![[lucide-monitor-check.svg#icon]]
-
-1. Open the left [[Sidebar]] ![[obsidian-icon-side-bar-left.svg#icon]].
-2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.
-
-The **Publish changes** window will appear in a new pop-up.
-
-**Mobile** ![[obsidian-icon-smartphone.svg#icon]]
+#### Open via ribbon menu on mobile
 
 1. Open the [[Ribbon]] ![[lucide-menu.svg#icon]].
 2. Select the **Publish changes** ![[lucide-send.svg#icon]] icon.

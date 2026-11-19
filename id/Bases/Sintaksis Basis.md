@@ -201,7 +201,25 @@ views:
 - `name` adalah nama tampilan, dan dapat digunakan untuk mendefinisikan tampilan bawaan.
 - `filters` sama persis seperti yang dijelaskan di atas, tetapi hanya berlaku untuk tampilan tersebut.
 - `groupBy` menentukan properti dan arah pengurutan. Nilai properti yang ditentukan untuk setiap baris digunakan untuk menempatkan baris ke dalam grup.
+- `groupOrder` menentukan urutan dan visibilitas grup. Jika ada, hanya grup yang nilainya tercantum yang ditampilkan, dalam urutan tersebut. Daftar kosong menyembunyikan semua grup. Hapus `groupOrder` untuk menampilkan semua grup dalam urutan yang didefinisikan oleh `groupBy`.
 - `summaries` memetakan nama properti ke ringkasan bernama. Ringkasan melakukan agregasi pada properti di semua baris.
+
+Misalnya, tampilan ini hanya menampilkan grup Planned, In progress, dan Done, dalam urutan tersebut:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Gunakan `null` dalam `groupOrder` untuk menyertakan file yang tidak memiliki nilai untuk properti yang dikelompokkan.
 
 [[Tampilan]] dapat menambahkan data tambahan untuk menyimpan informasi yang diperlukan untuk mempertahankan status atau merender dengan benar, namun pembuat plugin harus berhati-hati untuk tidak menggunakan kunci yang sudah digunakan oleh plugin inti Basis. Sebagai contoh, tampilan tabel dapat menggunakan ini untuk membatasi jumlah baris atau untuk memilih kolom mana yang digunakan untuk mengurutkan baris dan arahnya. Jenis tampilan berbeda seperti peta dapat menggunakan ini untuk memetakan properti mana dalam catatan yang sesuai dengan lintang dan bujur dan properti mana yang harus ditampilkan sebagai judul pin.
 
@@ -287,7 +305,7 @@ Untuk memodifikasi atau menggeser objek Tanggal, gunakan operator `+` atau `-` d
 - `now() + "1 day"` mengembalikan datetime tepat 24 jam dari waktu eksekusi.
 - `file.mtime > now() - "1 week"` mengembalikan `true` jika file dimodifikasi dalam seminggu terakhir.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` mengembalikan objek Tanggal yang merepresentasikan `2025-01-01 04:03:00`.
-- Kurangi dua tanggal untuk mendapatkan selisih milidetik antara keduanya, misalnya, `now() - file.ctime`.
+- Kurangi dua tanggal untuk mendapatkan durasi, misalnya, `note.release_date - today()`.
 - Untuk mendapatkan bagian tanggal dari Tanggal dengan waktu, gunakan `datetime.date()`.
 - Untuk memformat objek Tanggal, gunakan fungsi `format()`, misalnya `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Tanggal merepresentasikan tanggal tertentu, atau tanggal dan waktu tergantung pa
 
 - Untuk membuat tanggal, gunakan fungsi `date`, misalnya `date("2025-01-01 12:00:00")`
 - Untuk memodifikasi tanggal, tambahkan atau kurangi durasi, misalnya `now() + "1 hour"` atau `today() + "7d"`
-- Bandingkan tanggal menggunakan operator perbandingan (misalnya `>` atau `<`) dan operator aritmatika (misalnya, `(now() + "1d") - now()` mengembalikan `86400000` milidetik.)
+- Bandingkan tanggal menggunakan operator perbandingan, misalnya `>` atau `<`.
+- Kurangi satu tanggal dari tanggal lain untuk mendapatkan durasi, misalnya `note.release_date - today()`.
 - Untuk mengekstrak bagian dari tanggal, gunakan bidang yang tersedia (`now().hour`), atau fungsi kemudahan (`now.time()`).
 - Banyak [[Fungsi|bidang dan fungsi]] lainnya tersedia pada objek tanggal.
 
@@ -350,7 +369,7 @@ Tanggal merepresentasikan tanggal tertentu, atau tanggal dan waktu tergantung pa
 
 [[Hubungkan catatan|Tautan wiki]] dalam [[Properti|properti metadata awal]] secara otomatis dikenali sebagai objek Tautan. Tautan akan dirender sebagai tautan yang dapat diklik dalam [[Tampilan|tampilan]].
 
-- Untuk membuat tautan, gunakan [[Fungsi|fungsi]] global `link`, misalnya `link("filename")` atau `link("https://obsidian.md")`.
+- Untuk membuat tautan, gunakan [[Fungsi|fungsi]] global `link`, misalnya `link("filename")`.
 - Anda dapat membuat tautan dari string apa pun, misalnya, `link(file.ctime.date().toString())`.
 - Untuk mengatur teks tampilan, masukkan string atau ikon opsional sebagai parameter kedua, misalnya `link("filename", "display")` atau `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Tautan dapat dibandingkan dengan `==` dan `!=`. Mereka setara selama menunjuk ke
 Tautan dapat dibandingkan dengan file seperti `file` atau `this`. Mereka akan setara jika tautan merujuk ke file tersebut. Misalnya, `author == this`.
 
 Tautan juga dapat diperiksa dalam pencarian daftar, misalnya, `authors.contains(this)`.
+
+### URL
+
+URL dalam [[Properti|properti metadata awal]] secara otomatis dikenali sebagai objek URL. URL akan dirender sebagai tautan yang dapat diklik dalam [[Tampilan|tampilan]].
+
+- Untuk membuat URL, gunakan [[Fungsi|fungsi]] global `link`, misalnya `link("https://obsidian.md")`.
+- Untuk mengatur teks tampilan, masukkan string opsional sebagai parameter kedua, misalnya `link("https://obsidian.md", "Obsidian")`.

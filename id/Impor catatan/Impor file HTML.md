@@ -14,7 +14,7 @@ Anda memerlukan plugin [[Impor]] resmi Obsidian, yang dapat Anda [pasang di sini
 1. Buka **[[Pengaturan]]**.
 2. Pergi ke **Plugin komunitas** dan [pasang Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Aktifkan plugin Importer.
-4. Buka plugin **Importer** menggunakan palet perintah atau ikon bilah alat.
+4. Buka Importer di Pengaturan atau menggunakan [[Palet perintah]].
 5. Di bagian **Format file** pilih **HTML (.html).**
 6. Pilih lokasi file atau folder HTML Anda.
 7. Pilih **Impor** untuk meninjau templat yang dihasilkan dan melihat pratinjau contoh dari file Anda.

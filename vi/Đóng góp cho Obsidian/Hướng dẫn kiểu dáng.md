@@ -320,7 +320,7 @@ Trên phiên bản di động, bạn có thể tùy chỉnh thanh công cụ th�
 
 1. Mở **[[Cài đặt]]**.
 2. Điều hướng đến **Giao diện**.
-3. Nhấp **Quản lý** dưới **Cấu hình Ribbon**.
+3. Nhấp **Menu Ribbon**.
 ```
 
 > [!info]+ Khi nào nên tạo các phần riêng?
@@ -346,7 +346,7 @@ Bao gồm biểu tượng và hình ảnh khi chúng giúp giải thích những
 
 Biểu tượng [Lucide](https://lucide.dev/icons/) và biểu tượng tùy chỉnh của Obsidian có thể được sử dụng cùng với các phần tử chi tiết để cung cấp biểu diễn trực quan của một tính năng.
 
-**Ví dụ:** Trong thanh công cụ bên trái, chọn **Tạo bảng mới** ![[lucide-layout-dashboard.svg#icon]] để tạo một canvas trong cùng thư mục với tệp đang hoạt động.
+**Ví dụ:** Trong [[Trình khám phá tệp]], chọn **Thư mục mới** ![[lucide-folder-plus.svg#icon]] để tạo một thư mục.
 
 **Hướng dẫn cho biểu tượng**
 
@@ -354,7 +354,7 @@ Biểu tượng [Lucide](https://lucide.dev/icons/) và biểu tượng tùy ch�
 - Thêm tiền tố `lucide-` trước tên biểu tượng Lucide.
 - Thêm tiền tố `obsidian-icon-` trước tên biểu tượng Obsidian.
 
-**Ví dụ:** Biểu tượng để tạo canvas mới nên được đặt tên là `lucide-layout-dashboard`.
+**Ví dụ:** Biểu tượng để tạo thư mục mới nên được đặt tên là `lucide-folder-plus`.
 
 - Sử dụng phiên bản SVG của các biểu tượng có sẵn.
 - Biểu tượng nên có chiều rộng `18` pixel, chiều cao `18` pixel và độ rộng nét `1.5`. Bạn có thể điều chỉnh các cài đặt này trong dữ liệu SVG.

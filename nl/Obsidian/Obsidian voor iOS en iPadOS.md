@@ -54,12 +54,12 @@ Configuratieopties voor de **Notitie bekijken**-widget:
 
 ## Snel vastleggen
 
-Met Snel vastleggen kun je tekst opslaan in je kluis vanuit de widgets op het vergrendelscherm, het Bedieningspaneel of het beginscherm. Afhankelijk van de vastleglocatie die je selecteert, kan Snel vastleggen een nieuwe notitie aanmaken of de tekst toevoegen aan een bestaande notitie.
+Met Snel vastleggen kun je tekst opslaan in je kluis vanuit de widgets op het vergrendelscherm, het Bedieningspaneel, het beginscherm of Opdrachten, zonder te hoeven wachten tot je kluis is geladen. Afhankelijk van de vastleglocatie die je selecteert, kan Snel vastleggen een nieuwe notitie aanmaken of de tekst toevoegen aan een bestaande notitie.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Opmerking
-> Snel vastleggen is beschikbaar op iOS en iPadOS 26 en hoger.
+> Snel vastleggen vereist Obsidian 1.14 of hoger en iOS of iPadOS 26 of hoger.
 
 Om tekst vast te leggen:
 
@@ -72,6 +72,63 @@ Om tekst vast te leggen:
 **Opmerking**: Als Live Activiteiten zijn ingeschakeld, verschijnt de snelle vastlegnotitie ook op het vergrendelscherm en, op ondersteunde iPhone-modellen, in het Dynamic Island. Tik op de balk of Live Activiteit om door te gaan met bewerken.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Spraakopname
+
+Met Spraakopname kun je een spraaknotitie opnemen met Snel vastleggen. Obsidian transcribeert wat je zegt terwijl je spreekt, en kan de opname samen met het transcript opslaan in je kluis.
+
+Om een spraaknotitie vast te leggen:
+
+1. Open Snel vastleggen en tik vervolgens op de microfoonknop in de linkerbenedenhoek. De opname start direct.
+2. Spreek je notitie in. Het transcript verschijnt in het tekstveld terwijl je praat, en je kunt het op elk moment bewerken.
+3. Tik op de opnameknop onderaan het scherm om te pauzeren, en tik er nogmaals op om te hervatten.
+4. Tik op het vinkje om het transcript en de opname op te slaan op de geselecteerde vastleglocatie.
+
+![[ios-voice-capture.png|400]]
+
+Je kunt ook direct vanuit een widget beginnen met opnemen. Wanneer je een Snel vastleggen-widget aanpast, kies je een actie uit het gedeelte **Spraakopname**.
+
+De opname gaat door als je Snel vastleggen minimaliseert of je apparaat vergrendelt. Tijdens het opnemen tonen het vergrendelscherm en het Dynamic Island het live transcript en een timer. Tik op de timer om de opname te pauzeren of te hervatten.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Instellingen voor Spraakopname
+
+Om de instellingen voor Spraakopname te wijzigen, tik je op het tandwielpictogram bovenaan het scherm terwijl je in Spraakopname bent.
+
+- **Taal**: De taal die wordt gebruikt voor transcriptie. Zie [[#Ondersteunde talen]]. Selecteer **Geen** om transcriptie uit te schakelen en alleen audio op te nemen.
+- **Microfoon**: De microfoon die wordt gebruikt voor de opname, zoals de ingebouwde microfoon of een aangesloten headset.
+- **Audiobestand opslaan**: Of de opname in je kluis moet worden opgeslagen.
+- **Audio van andere apps**: Wat er gebeurt met muziek of andere audio die wordt afgespeeld wanneer je opneemt: **Blijven afspelen**, **Volume verlagen** of **Pauzeren**. Wijzigingen worden toegepast vanaf je volgende opname.
+
+#### Ondersteunde talen
+
+Spraakopname kan spraak transcriberen in de volgende talen. Sommige apparaten ondersteunen minder talen, en beschikbare talen kunnen veranderen met iOS-updates. Als je taal niet beschikbaar is, kun je nog steeds audio opnemen zonder transcript.
+
+- Bangla
+- Cantonees
+- Chinees
+- Duits
+- Engels
+- Frans
+- Gujarati
+- Hindi
+- Italiaans
+- Japans
+- Kannada
+- Kashmiri
+- Koreaans
+- Maithili
+- Malayalam
+- Marathi
+- Nepalees
+- Odia
+- Portugees
+- Punjabi
+- Spaans
+- Tamil
+- Telugu
+- Urdu
 
 ### Vastleglocaties
 

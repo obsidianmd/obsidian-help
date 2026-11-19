@@ -54,12 +54,12 @@ Widget'ları iş akışınıza uyacak şekilde özelleştirebilirsiniz; örneği
 
 ## Hızlı Yakalama
 
-Hızlı Yakalama, Kilit Ekranı, Kontrol Merkezi veya Ana Ekran widget'larından kasanıza metin kaydetmenize olanak tanır. Seçtiğiniz yakalama konumuna bağlı olarak, Hızlı Yakalama yeni bir not oluşturabilir veya metni mevcut bir nota ekleyebilir.
+Hızlı Yakalama, Kilit Ekranı, Kontrol Merkezi, Ana Ekran widget'ları veya Kısayollar aracılığıyla kasanızın yüklenmesini beklemeden kasanıza metin kaydetmenize olanak tanır. Seçtiğiniz yakalama konumuna bağlı olarak, Hızlı Yakalama yeni bir not oluşturabilir veya metni mevcut bir nota ekleyebilir.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Not
-> Hızlı Yakalama iOS ve iPadOS 26 ve üzeri sürümlerde kullanılabilir.
+> Hızlı Yakalama, Obsidian 1.14 veya sonraki sürümlerini ve iOS veya iPadOS 26 veya sonraki sürümlerini gerektirir.
 
 Metin yakalamak için:
 
@@ -72,6 +72,63 @@ Metin yakalamak için:
 **Not**: Canlı Etkinlikler etkinleştirildiyse, hızlı yakalama notu Kilit Ekranında ve desteklenen iPhone modellerinde Dynamic Island'da da görünür. Düzenlemeye devam etmek için çubuğa veya Canlı Etkinliğe dokunun.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Sesli Yakalama
+
+Sesli Yakalama, Hızlı Yakalama ile sesli not kaydetmenize olanak tanır. Obsidian, siz konuşurken söylediklerinizi yazıya döker ve kaydı transkriptle birlikte kasanıza kaydedebilir.
+
+Sesli not yakalamak için:
+
+1. Hızlı Yakalama'yı açın, ardından sol alt köşedeki mikrofon düğmesine dokunun. Kayıt hemen başlar.
+2. Notunuzu söyleyin. Siz konuştukça transkript metin alanında görünür ve istediğiniz zaman düzenleyebilirsiniz.
+3. Duraklatmak için ekranın alt kısmındaki kayıt düğmesine dokunun, devam etmek için tekrar dokunun.
+4. Transkripti ve kaydı seçili yakalama konumuna kaydetmek için onay işaretine dokunun.
+
+![[ios-voice-capture.png|400]]
+
+Ayrıca doğrudan bir widget'tan kayda başlayabilirsiniz. Bir Hızlı Yakalama widget'ını özelleştirirken **Sesli Yakalama** bölümünden bir eylem seçin.
+
+Hızlı Yakalama'yı simge durumuna küçültür veya cihazınızı kilitlerseniz kayıt devam eder. Kayıt sırasında Kilit Ekranı ve Dynamic Island canlı transkripti ve bir zamanlayıcıyı gösterir. Kaydı duraklatmak veya devam ettirmek için zamanlayıcıya dokunun.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Sesli Yakalama ayarları
+
+Sesli Yakalama ayarlarını değiştirmek için Sesli Yakalama'dayken ekranın üst kısmındaki dişli simgesine dokunun.
+
+- **Dil**: Transkripsiyon için kullanılan dil. Bkz. [[#Desteklenen diller]]. Transkripsiyonu kapatıp yalnızca ses kaydetmek için **Yok**'u seçin.
+- **Mikrofon**: Kayıt için kullanılan mikrofon; dahili mikrofon veya bağlı bir kulaklık gibi.
+- **Ses Dosyasını Kaydet**: Kaydın kasanıza kaydedilip kaydedilmeyeceği.
+- **Diğer Uygulamalardan Ses**: Kayıt sırasında çalan müzik veya diğer seslere ne olacağı: **Çalmaya Devam Et**, **Sesi Kıs** veya **Duraklat**. Değişiklikler bir sonraki kaydınızdan itibaren geçerli olur.
+
+#### Desteklenen diller
+
+Sesli Yakalama, aşağıdaki dillerde konuşmayı yazıya dökebilir. Bazı cihazlar daha az dili destekler ve kullanılabilir diller iOS güncellemeleriyle değişebilir. Diliniz mevcut değilse, yine de transkript olmadan ses kaydedebilirsiniz.
+
+- Bengalce
+- Kantonca
+- Çince
+- İngilizce
+- Fransızca
+- Almanca
+- Güceratça
+- Hintçe
+- İtalyanca
+- Japonca
+- Kannadaca
+- Keşmirce
+- Korece
+- Maithili
+- Malayalamca
+- Marathice
+- Nepalce
+- Odiya
+- Portekizce
+- Pencapça
+- İspanyolca
+- Tamilce
+- Teluguca
+- Urduca
 
 ### Yakalama konumları
 

@@ -22,3 +22,9 @@ Importer er et officielt [[Fællesskabsplugins|fællesskabsplugin]] lavet af Obs
 ![[Importér noter#Importér fra andre applikationer og filformater]]
 
 ![[Importér noter#Flere formater]]
+
+## Importer-skabeloner
+
+Importer giver dig mulighed for at definere [[Importér skabeloner|skabeloner]], der styrer, hvordan dine noter importeres fra andre applikationer. Det betyder, at du kan ændre titel, egenskaber og indhold af noter, du importerer.
+
+Skabeloner understøtter variabler og de samme [[Obsidian Web Clipper/Filtre|filtre]] og [[Obsidian Web Clipper/Logik|skabelonlogik]] som [[Introduktion til Obsidian Web Clipper|Web Clipper]].

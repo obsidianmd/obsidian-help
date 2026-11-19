@@ -19,10 +19,6 @@ aliases:
 1. În Exploratorul de fișiere, dă clic dreapta pe directorul în care vrei să creezi baza.
 2. Selectează **New base** (Bază nouă).
 
-**Panglică:**
-
-- În meniul vertical al panglicii, selectează **Create new base** (Creează o bază nouă) pentru a crea o bază în același director cu fișierul activ.
-
 ## Încorporează o bază
 
 ### Încorporează un fișier bază
@@ -43,4 +39,3 @@ views:
     name: Table
 ```
 ~~~
-

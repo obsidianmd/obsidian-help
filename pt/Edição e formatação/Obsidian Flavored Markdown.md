@@ -36,3 +36,5 @@ O Obsidian suporta [CommonMark](https://commonmark.org/), [GitHub Flavored Markd
 | `- [x]`         | [[Sintaxe de formatação básica#Listas de tarefas\|Tarefa concluída]]           |
 | `> [!note]`     | [[Chamamentos]]                                                                |
 | (ver ligação)   | [[Sintaxe de formatação avançada#Tabelas\|Tabelas]]                            |
+
+Algumas destas, como ligações internas, comentários e realces, são específicas do Obsidian. Outras aplicações Markdown podem mostrá-las como texto simples.

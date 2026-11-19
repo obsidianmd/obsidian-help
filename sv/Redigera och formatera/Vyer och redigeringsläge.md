@@ -20,7 +20,7 @@ För att växla till *Läsvy*:
 - Eller tryck `Ctrl+E` (`Cmd+E` på macOS).
 
 > [!note] Observera
-> Aktivera **[[Inställningar]] → Utseende → Visa tabbars titel-bar** för att se vyväxlarikonen.
+> Aktivera **[[Inställningar]] → Gränssnitt → Visa tabbars titel-bar** för att se vyväxlarikonen.
 > 
 > Om det är inaktiverat, aktivera **[[Inställningar]] → Redigerare → Redigerarstatus** för att växla vyer från statusfältet.
 

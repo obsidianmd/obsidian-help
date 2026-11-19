@@ -18,6 +18,7 @@ Az alkalmazások jönnek-mennek, de az adataidnak meg kell maradniuk. Az Obsidia
 - <span class="icon-app icon-craft"></span> [[Importálás a Craftből|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importálás a Roam Research-ből|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importálás a Logseq-ből|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importálás a Samsung Notesból|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importálás a Tomboy-ból és Gnote-ból|Tomboy and Gnote]]
 - <span class="icon-app icon-html"></span> [[HTML fájlok importálása|HTML fájlok]]
 - <span class="icon-app icon-md"></span> [[CSV fájlok importálása]]

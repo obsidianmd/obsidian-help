@@ -13,6 +13,7 @@ Công thức có thể giúp bạn:
 - **Làm việc với ngày tháng**, tính chênh lệch thời gian, định dạng ngày, hoặc xác định thời hạn.
 - **Áp dụng logic**, sử dụng câu lệnh điều kiện để hiển thị các giá trị khác nhau.
 - **Xử lý danh sách**, lọc, sắp xếp, ánh xạ, hoặc tổng hợp dữ liệu danh sách.
+- **Sử dụng ghi chú được liên kết**, tra cứu hoặc tổng hợp thuộc tính từ các ghi chú mà một ghi chú liên kết đến. Xem [[#Sử dụng thuộc tính từ ghi chú được liên kết]].
 
 ## Tạo thuộc tính công thức
 
@@ -90,6 +91,59 @@ Hàm thực hiện các thao tác trên giá trị. Các hàm có sẵn phụ th
 - `file.name.lower()` để chuyển sang chữ thường.
 - `tags.contains("urgent")` để kiểm tra xem danh sách thẻ có chứa một giá trị hay không.
 - `due_date.format("YYYY-MM-DD")` để định dạng ngày.
+
+## Sử dụng thuộc tính từ ghi chú được liên kết
+
+Công thức có thể đọc thuộc tính từ các ghi chú mà một ghi chú liên kết đến. Bạn có thể tra cứu một giá trị từ ghi chú được liên kết, hoặc tổng hợp các giá trị từ nhiều ghi chú được liên kết thành tổng, số đếm, hoặc danh sách.
+
+Để đọc thuộc tính của ghi chú được liên kết, chuyển liên kết thành tệp bằng `asFile()`, sau đó sử dụng `properties`. Các liên kết được lưu trong thuộc tính, chẳng hạn như `project: "[[Website redesign]]"`, hoạt động theo cách này trực tiếp.
+
+> [!warning] Kết quả cập nhật khi ghi chú trong hàng thay đổi
+> Nếu bạn chỉ chỉnh sửa ghi chú được liên kết, các tra cứu và tổng hợp trong cơ sở có thể không cập nhật cho đến khi bạn mở lại cơ sở.
+
+### Tra cứu một giá trị
+
+Hiển thị `status` của ghi chú được liên kết trong thuộc tính `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Nếu thuộc tính có thể chứa một liên kết hoặc danh sách liên kết, bọc nó trong `list()` và lấy liên kết đầu tiên:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Tổng hợp giá trị
+
+Cộng tổng `hours` của mỗi ghi chú được liên kết trong thuộc tính `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Đếm các ghi chú được liên kết có `status` không phải "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Liệt kê các trạng thái của các ghi chú được liên kết, không trùng lặp:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Tổng hợp giá trị từ các ghi chú liên kết đến đây
+
+Để tổng hợp giá trị từ các ghi chú liên kết đến một ghi chú, chẳng hạn như các nhiệm vụ mà mỗi nhiệm vụ liên kết đến dự án của chúng, sử dụng `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` chậm trong các kho lớn. Khi có thể, hãy lưu các liên kết trong chính ghi chú và tổng hợp chúng bằng `map()` và `reduce()`, như đã trình bày ở trên.
 
 ## Ví dụ công thức
 

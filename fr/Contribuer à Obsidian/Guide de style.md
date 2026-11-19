@@ -320,8 +320,8 @@ Sur la version bureau, vous pouvez personnaliser le ruban comme suit :
 Sur la version mobile, vous pouvez personnaliser le ruban via les paramètres :
 
 1. Ouvrez les **[[Paramètres]]**.
-2. Accédez à **Apparence**.
-3. Sélectionnez **Gérer** sous **Menu du ruban**.
+2. Accédez à **Interface**.
+3. Sélectionnez **Ruban latéral**.
 ```
 
 > [!info]+ Quand créer des sections ?
@@ -347,7 +347,7 @@ Incluez des icônes et des images lorsqu'elles facilitent l'explication de chose
 
 Les icônes [Lucide](https://lucide.dev/icons/) et les icônes personnalisées d'Obsidian peuvent être utilisées aux côtés d'éléments détaillés pour fournir une représentation visuelle d'une fonctionnalité.
 
-**Exemple :** Dans le ruban à gauche, sélectionnez **Créer un nouveau canvas** ![[lucide-layout-dashboard.svg#icon]] pour créer un canvas dans le même dossier que le fichier actif.
+**Exemple :** Dans l'[[Explorateur de fichiers]], sélectionnez **Créer un nouveau dossier** ![[lucide-folder-plus.svg#icon]] pour créer un dossier.
 
 **Directives pour les icônes**
 
@@ -355,7 +355,7 @@ Les icônes [Lucide](https://lucide.dev/icons/) et les icônes personnalisées d
 - Ajoutez le préfixe `lucide-` avant le nom de l'icône Lucide.
 - Ajoutez le préfixe `obsidian-icon-` avant le nom de l'icône Obsidian.
 
-**Exemple :** L'icône pour créer un nouveau canvas devrait être nommée `lucide-layout-dashboard`.
+**Exemple :** L'icône pour créer un nouveau dossier devrait être nommée `lucide-folder-plus`.
 
 - Utilisez la version SVG des icônes disponibles.
 - Les icônes doivent avoir une largeur de `18` pixels, une hauteur de `18` pixels et une épaisseur de trait de `1.5`. Vous pouvez ajuster ces paramètres dans les données SVG.

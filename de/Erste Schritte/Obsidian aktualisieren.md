@@ -11,7 +11,7 @@ Auf mobilen Geräten wird Obsidian über den App Store des Geräts aktualisiert.
 
 Öffne **[[Einstellungen]] → Allgemein**.
 
-Die aktuellen Versionen der App und des Installationsprogramms findest du oben auf der Seite.
+Die aktuellen Versionen der App und des Installationsprogramms findest du oben auf der Seite. Wenn ein neueres Installationsprogramm verfügbar ist, zeigt Obsidian einen Hinweis mit einem Download-Link an. Folge den [[#Aktualisierungen des Installationsprogramms|Anweisungen zur Aktualisierung des Installationsprogramms]], um es zu installieren.
 
 ![[application-installer-current-version.png#interface]]
 

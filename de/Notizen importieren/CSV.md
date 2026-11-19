@@ -16,7 +16,7 @@ Du benötigst das offizielle Obsidian [[Importprogramm]]-Plugin, das du [hier in
 1. Öffne die **[[Einstellungen]]**.
 2. Gehe zu **Community-Erweiterungen** und [installiere das Importprogramm](obsidian://show-plugin?id=obsidian-importer).
 3. Aktiviere das Importprogramm-Plugin.
-4. Öffne das **Importprogramm**-Plugin über die Befehlspalette oder das Werkzeugleisten-Symbol.
+4. Öffne das Importprogramm in den Einstellungen oder über die [[Befehlspalette]].
 5. Wähle unter **Format** die Option **CSV (.csv).**
 6. Wähle den Speicherort deiner CSV-Datei.
 7. Wähle **Importieren**, um zu konfigurieren, wie die Daten in deiner CSV-Datei in Notizen mit [[Eigenschaften]] umgewandelt werden.

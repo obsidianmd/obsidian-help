@@ -319,8 +319,8 @@ In der Desktop-Version kannst du die Werkzeugleiste wie folgt anpassen:
 In der mobilen Version kannst du die Werkzeugleiste über die Einstellungen anpassen:
 
 1. Öffne **[[Einstellungen]]**.
-2. Navigiere zu **Erscheinungsbild**.
-3. Wähle **Verwalten** unter **Werkzeugleisten-Konfiguration**.
+2. Navigiere zu **Bedienung**.
+3. Wähle **Werkzeugleiste**.
 ```
 
 > [!info]+ Wann separate Abschnitte erstellen?
@@ -346,7 +346,7 @@ Füge Symbole und Bilder ein, wenn sie es einfacher machen, Dinge zu erklären, 
 
 [Lucide](https://lucide.dev/icons/)- und benutzerdefinierte Obsidian-Symbole können neben detaillierten Elementen verwendet werden, um eine visuelle Darstellung einer Funktion zu bieten.
 
-**Beispiel:** Wähle in der Werkzeugleiste auf der linken Seite **Neuen Canvas erstellen** ![[lucide-layout-dashboard.svg#icon]], um einen Canvas im selben Ordner wie die aktive Datei zu erstellen.
+**Beispiel:** Wähle im [[Dateiexplorer]] **Neuen Ordner erstellen** ![[lucide-folder-plus.svg#icon]], um einen Ordner zu erstellen.
 
 **Richtlinien für Symbole**
 
@@ -354,7 +354,7 @@ Füge Symbole und Bilder ein, wenn sie es einfacher machen, Dinge zu erklären, 
 - Füge das Präfix `lucide-` vor dem Lucide-Symbolnamen hinzu.
 - Füge das Präfix `obsidian-icon-` vor dem Obsidian-Symbolnamen hinzu.
 
-**Beispiel:** Das Symbol zum Erstellen eines neuen Canvas sollte `lucide-layout-dashboard` heißen.
+**Beispiel:** Das Symbol zum Erstellen eines neuen Ordners sollte `lucide-folder-plus` heißen.
 
 - Verwende die SVG-Version der verfügbaren Symbole.
 - Symbole sollten `18` Pixel breit, `18` Pixel hoch und eine Strichbreite von `1.5` haben. Du kannst diese Einstellungen in den SVG-Daten anpassen.

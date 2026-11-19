@@ -30,7 +30,7 @@ Anda memerlukan plugin resmi Obsidian [[Impor|Impor]], yang dapat Anda [pasang d
 1. Buka **[[Pengaturan]]**.
 2. Buka **Plugin komunitas** dan [pasang Impor](obsidian://show-plugin?id=obsidian-importer).
 3. Aktifkan plugin Impor.
-4. Buka plugin **Impor** menggunakan palet perintah atau ikon bilah alat.
+4. Buka Impor di Pengaturan atau menggunakan [[Palet perintah]].
 5. Di bagian **Format file** pilih **Airtable**.
 6. Di bagian **Airtable Personal Access Token**, klik **Tautkan...** untuk menambahkan rahasia baru. Untuk **ID**, beri nama seperti `airtable`, dan untuk **Rahasia** tempel token akses personal Anda.
 7. Klik **Muat** untuk menelusuri basis Anda, lalu pilih tabel yang ingin Anda impor.
@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** menjadi [[Tampilan tabel]].
 	- **Gallery** menjadi [[Tampilan kartu]].
 	- **List** menjadi [[Tampilan daftar]].
-	- Semua tipe tampilan lainnya dikonversi ke tampilan tabel.
+	- **Kanban** menjadi [[Tampilan kanban]] di Obsidian 1.14 dan yang lebih baru. Airtable tidak menyebutkan bidang mana yang digunakan untuk pengelompokan kanban, jadi [[Tampilan kanban#Kelompokkan kartu ke dalam kolom|pilih properti untuk pengelompokan]] setelah mengimpor. Mengimpor ulang akan mempertahankan pilihan Anda.
 - Tipe bidang Airtable dipetakan ke tipe properti Obsidian, tanpa menimpa tipe yang sudah Anda atur.
 - Rekaman yang ditautkan menjadi tautan ke catatan yang sesuai.
 - Lampiran diunduh ke brankas Anda menggunakan pengaturan brankas Anda.
@@ -88,7 +88,7 @@ Karena keterbatasan API Airtable, beberapa data tidak tersedia atau tidak dapat 
 
 - Nilai rollup tidak diimpor. API tidak menyediakan agregasi yang digunakan untuk nilai yang dihitung rollup, sehingga hanya nama properti yang ditulis, bersama dengan rumus Basis ketika skema bidang menyediakan ekspresi.
 - Rumus yang menggunakan fungsi yang tidak memiliki padanan di Obsidian, seperti `SWITCH`, `FIND`, `REGEX_EXTRACT`, dan `SQRT`, kembali ke nilai statis dari Airtable.
-- Hanya tampilan grid, gallery, dan list yang diimpor. Tipe tampilan lainnya, seperti calendar, kanban, timeline, dan Gantt, diabaikan.
+- Hanya tampilan grid, gallery, list, dan kanban yang diimpor. Tipe tampilan lainnya, seperti calendar, timeline, dan Gantt, diabaikan.
 - Tautan ke rekaman dalam tabel yang tidak Anda pilih menjadi judul teks biasa rekaman tersebut, bukan tautan.
 - Desain antarmuka, otomasi, komentar, dan riwayat revisi tidak diimpor.
 

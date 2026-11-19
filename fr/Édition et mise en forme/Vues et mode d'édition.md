@@ -23,7 +23,7 @@ Pour basculer en *mode lecture* :
 - Ou appuyez sur `Ctrl+E` (`Cmd+E` sur macOS).
 
 > [!note] Note
-> Activez **[[Paramètres]] → Apparence → Afficher la barre de titre des onglets** pour voir l'icône du sélecteur de vue.
+> Activez **[[Paramètres]] → Interface → Afficher la barre de titre des onglets** pour voir l'icône du sélecteur de vue.
 > 
 > Si cette option est désactivée, activez **[[Paramètres]] → Éditeur → Afficher le mode d'édition dans la barre d'état** pour basculer entre les vues depuis la barre d'état.
 

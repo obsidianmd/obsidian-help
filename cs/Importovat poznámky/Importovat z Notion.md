@@ -10,6 +10,10 @@ Obsidian nabízí dva způsoby importu dat z Notion:
 1. **Účet Notion (doporučeno)** se připojí přímo k vašemu pracovnímu prostoru a umožní zachovat databáze a vzorce, které se převedou na [[Úvod do Základen|Základny]]. Vyžaduje integrační token Notion a připojení k internetu.
 2. **Import souboru** používá exportní soubory `.zip` z Notion. Nezachovává databáze, ale nevyžaduje API token ani připojení k internetu.
 
+## Přizpůsobení importovaných stránek
+
+Obě metody importu zobrazí náhled před zahájením importu. Můžete upravit vygenerovanou šablonu nebo zvolit Markdown šablonu z vašeho trezoru. Nastavení jako obálka a názvy vlastností databáze aktualizují vygenerované vlastnosti zobrazené v náhledu. Viz [[Šablony importéru]].
+
 ## Import z vašeho účtu Notion
 
 ### Vytvoření přístupového tokenu Notion API
@@ -54,8 +58,8 @@ Budete potřebovat oficiální plugin Obsidian [[Importér]], který můžete [n
 6. V části **API token** klikněte na **Propojit...** pro přidání nového tajného údaje. Jako **ID** zadejte název, například `notion`, a do pole **Tajný údaj** vložte svůj **Access token** z Notion.
 7. Klikněte na **Načíst** a vyberte databáze a stránky, které chcete importovat.
 8. Zkontrolujte a upravte možnosti importu.
-9. Vyberte **Importovat** a počkejte na dokončení importu.
-10. Hotovo!
+9. Vyberte **Importovat** pro kontrolu vygenerované šablony a náhledu příkladů z vašich stránek.
+10. Vyberte znovu **Importovat** a počkejte na dokončení importu.
 
 ### Omezení
 
@@ -66,7 +70,8 @@ Kvůli limitům rychlosti Notion API může import velkých pracovních prostor�
 
 Kvůli omezením Notion API nejsou některá data dostupná nebo je nelze převést:
 
-- Pro každou databázi se importuje pouze primární zobrazení.
+- Zobrazení databází jiná než nástěnky se neimportují a nástěnky si nezachovávají své filtry, řazení ani podskupiny.
+- Na nástěnce seskupené podle vlastnosti vícenásobného výběru, osoby nebo relace je karta s několika hodnotami umístěna do jednoho sloupce pro danou kombinaci hodnot.
 - [Propojené zdroje dat](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) se neimportují: *„Notion API aktuálně nepodporuje propojené zdroje dat. Při sdílení databáze s vaší integrací se ujistěte, že obsahuje původní zdroj dat!"*
 - Funkce `People`: `name()` a `email()`
 - Funkce `Text`: `style()` a `unstyle()`
@@ -74,7 +79,7 @@ Kvůli omezením Notion API nejsou některá data dostupná nebo je nelze přev�
 Navíc Importér provede následující změny:
 
 - Stránky bez podřízených stránek nebo databází budou importovány jako `[název souboru].md` místo `[název souboru]/[název souboru].md`.
-- Databáze jsou vždy reprezentovány jako složky pojmenované `[název databáze]` se souborem `[název databáze].base` uvnitř.
+- Databáze jsou vždy reprezentovány jako složky pojmenované `[název databáze]` se souborem `[název databáze].base` uvnitř. Základna obsahuje tabulkové zobrazení se všemi vlastnostmi a v Obsidian 1.14 a novějším [[Kanban zobrazení]] pro každou nástěnku Notion, seskupené podle stejné vlastnosti.
 
 ## Import souborů z Notion (.zip)
 
@@ -108,8 +113,8 @@ Budete potřebovat oficiální plugin Obsidian [[Importér]], který můžete [n
 6. Vyberte soubor `.zip` se soubory Notion, které chcete importovat. *Doporučuje se importovat celý Notion najednou, aby mohly být interní odkazy správně propojeny.*
 7. _Volitelně_ vyberte složku pro import. Vaše stránky a databáze Notion budou vnořeny do této složky.
 8. Zapněte **Save parent pages in subfolders** pro zachování struktury Notion. *Upozorňujeme, že v Notion můžete psát obsah do složek, což v Obsidian není možné, a tyto stránky budou přidány jako podstránky pod složkou.*
-9. Vyberte **Importovat** a počkejte na dokončení importu.
-10. Hotovo!
+9. Vyberte **Importovat** pro kontrolu vygenerované šablony a náhledu příkladů z vašich stránek.
+10. Vyberte znovu **Importovat** a počkejte na dokončení importu.
 
 ### Řešení problémů
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Pokud se zobrazí tato chyba, můžete rozbalit soubor z Notion a poté importovat vnořené soubory `Export-{id}-Part-1.zip`.
+
+## Šablony
+
+Pomocí [[Šablony importéru|šablon importéru]] můžete plně nakonfigurovat způsob importu dat z Notion.
+
+![[Šablony importéru#Variables]]

@@ -50,8 +50,6 @@ Tím Obsidian taktiež udržiava vývoj určitých [[#Ďalšie pluginy|open-sour
 	- Uložte rozloženia a prepínajte medzi nimi.
 - [[Prehľad]]
 	- Zobrazte obsah aktívnej poznámky.
-- [[Prevodník formátov]]
-	- Preveďte Markdown z iných aplikácií do formátu Obsidian.
 - [[Prieskumník súborov]]
 	- Prehľadávajte súbory a priečinky vo vašom trezore.
 - [[Príkazy lomky]]

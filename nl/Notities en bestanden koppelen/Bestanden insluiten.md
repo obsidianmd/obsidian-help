@@ -86,6 +86,14 @@ Je kunt ook de hoogte in pixels opgeven voor de ingesloten PDF-viewer door `#hei
 ![[Document.pdf#height=400]]
 ```
 
+Om pagina- en hoogte-opties te combineren, scheid je ze met `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+Voor meer informatie over het bekijken en doorzoeken van PDF's, zie [[PDF's]].
+
 ## Een Canvas insluiten in een notitie
 
 Om een [[Doek|canvas]] in te sluiten:

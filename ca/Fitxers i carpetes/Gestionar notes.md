@@ -19,6 +19,27 @@ També podeu crear notes utilitzant l'[[Explorador de fitxers#Crear una nota nov
 > Obsidian respectarà les limitacions de noms de fitxer del sistema operatiu on creeu la nota. Si teniu previst [[Sincronitza les teves notes entre dispositius|sincronitzar les vostres notes entre dispositius]], assegureu-vos que els noms dels fitxers siguin [segurs per a altres sistemes operatius](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Obrir fitxers fora de la cambra forta
+
+A l'escriptori, podeu obrir i editar fitxers Markdown individuals fora de la vostra cambra forta. Els fitxers s'obren a la finestra actual i es mantenen a la seva ubicació original.
+
+> [!note] Requereix Obsidian 1.14 i l'últim instal·lador
+> [[Actualitza Obsidian#Actualitzacions de l'instal·lador|Actualitzeu el vostre instal·lador]] descarregant Obsidian des d'[obsidian.md/download](https://obsidian.md/download) i reinstal·lant l'aplicació.
+
+Per obrir un fitxer Markdown:
+
+1. Obriu la [[Paleta d'ordres]].
+2. Seleccioneu **Obre un fitxer de fora de la cambra forta...**.
+3. Trieu un fitxer Markdown al vostre ordinador.
+
+També podeu utilitzar el menú **Obre amb** del vostre sistema operatiu i seleccionar **Obsidian**. Per obrir fitxers Markdown a Obsidian per defecte, establiu-lo com a aplicació predeterminada per als fitxers `.md`.
+
+Les incrustacions d'imatges i els enllaços a altres fitxers locals es resolen de manera relativa a la carpeta del fitxer Markdown. Utilitzeu l'[[Esquema]] per navegar pels encapçalaments i els [[Enllaços sortints]] per explorar els fitxers enllaçats.
+
+### Previsualitzar fitxers amb Vista Ràpida
+
+A macOS, seleccioneu un fitxer Markdown al Finder i premeu `Espai` per previsualitzar-lo amb **Vista Ràpida**. Les previsualitzacions de Vista Ràpida funcionen fins i tot quan Obsidian està tancat.
+
 ## Canviar el nom d'una nota
 
 Per canviar el nom d'una nota activa:

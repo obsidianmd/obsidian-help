@@ -324,6 +324,7 @@ Tartalom hozzáfűzése a napi jegyzethez.
 
 ```bash
 content=<szöveg>   # (kötelező) hozzáfűzendő tartalom
+heading=<név>      # cél fejléc szakasz
 paneType=tab|split|window    # panel típusa a megnyitáshoz
 
 inline             # hozzáfűzés új sor nélkül
@@ -336,6 +337,7 @@ Tartalom beszúrása a napi jegyzet elejére.
 
 ```bash
 content=<szöveg>   # (kötelező) beszúrandó tartalom
+heading=<név>      # cél fejléc szakasz
 paneType=tab|split|window    # panel típusa a megnyitáshoz
 
 inline             # beszúrás új sor nélkül
@@ -512,6 +514,7 @@ Tartalom hozzáfűzése egy fájlhoz (alapértelmezett: aktív fájl).
 file=<név>         # fájlnév
 path=<útvonal>     # fájl útvonal
 content=<szöveg>   # (kötelező) hozzáfűzendő tartalom
+heading=<név>      # cél fejléc szakasz
 
 inline             # hozzáfűzés új sor nélkül
 ```
@@ -524,6 +527,7 @@ Tartalom beszúrása a metaadatok után (alapértelmezett: aktív fájl).
 file=<név>         # fájlnév
 path=<útvonal>     # fájl útvonal
 content=<szöveg>   # (kötelező) beszúrandó tartalom
+heading=<név>      # cél fejléc szakasz
 
 inline             # beszúrás új sor nélkül
 ```

@@ -70,7 +70,8 @@ Notion API hız sınırlamaları nedeniyle büyük çalışma alanlarının içe
 
 Notion API'sindeki sınırlamalar nedeniyle bazı veriler mevcut değildir veya dönüştürülemez:
 
-- Her veritabanı için yalnızca birincil görünüm içe aktarılır.
+- Board dışındaki veritabanı görünümleri içe aktarılmaz ve board'lar filtrelerini, sıralamalarını veya alt gruplarını korumaz.
+- Çoklu seçim, kişi veya ilişki özelliğine göre gruplandırılmış bir board'da, birden fazla değere sahip bir kart, o değer kombinasyonu için tek bir sütuna yerleştirilir.
 - [Bağlantılı veri kaynakları](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) içe aktarılmaz: *"Notion'ın API'si şu anda bağlantılı veri kaynaklarını desteklemiyor. Bir veritabanını entegrasyonunuzla paylaşırken, orijinal veri kaynağını içerdiğinden emin olun!"*
 - `People` fonksiyonları: `name()` ve `email()`
 - `Text` fonksiyonları: `style()` ve `unstyle()`
@@ -78,7 +79,7 @@ Notion API'sindeki sınırlamalar nedeniyle bazı veriler mevcut değildir veya 
 Ek olarak, İçe Aktarıcı şu değişiklikleri yapacaktır:
 
 - Alt sayfaları veya veritabanları olmayan sayfalar `[dosyaadı]/[dosyaadı].md` yerine `[dosyaadı].md` olarak içe aktarılır.
-- Veritabanları her zaman `[veritabanı adı]` adlı klasörler olarak temsil edilir ve içlerinde bir `[veritabanı adı].base` dosyası bulunur.
+- Veritabanları her zaman `[veritabanı adı]` adlı klasörler olarak temsil edilir ve içlerinde bir `[veritabanı adı].base` dosyası bulunur. Taban, tüm özellikleri içeren bir tablo görünümüne ve Obsidian 1.14 ve sonrasında her Notion board'u için aynı özelliğe göre gruplandırılmış bir [[Kanban görünümü]]ne sahiptir.
 
 ## Notion dosyalarını içe aktarma (.zip)
 

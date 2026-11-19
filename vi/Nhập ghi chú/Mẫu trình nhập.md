@@ -65,7 +65,7 @@ Sử dụng ký pháp ngoặc vuông khi tên trường chứa khoảng trắng,
 
 ## Mẫu ví dụ
 
-Đây là một ví dụ về mẫu sử dụng biến và [[Bộ lọc|bộ lọc]]:
+Đây là ví dụ về mẫu sử dụng biến và [[Bộ lọc|bộ lọc]]:
 
 ```twig
 ---

@@ -16,7 +16,7 @@ Budete potřebovat oficiální plugin Obsidian [[Importér]], který můžete [n
 1. Otevřete **[[Nastavení]]**.
 2. Přejděte na **Komunitní pluginy** a [nainstalujte Importér](obsidian://show-plugin?id=obsidian-importer).
 3. Zapněte plugin Importér.
-4. Otevřete plugin **Importér** pomocí palety příkazů nebo ikony na postranním panelu nástrojů.
+4. Otevřete Importér v Nastavení nebo pomocí [[Paleta příkazů|palety příkazů]].
 5. V části **Formát souboru** vyberte **Textbundle (.textbundle, .textpack).**
 6. Vyberte umístění vašich souborů Textbundle nebo Textpack. Podporovány jsou také soubory zip.
 7. Vyberte **Importovat** pro zobrazení vygenerované šablony a náhledu příkladů z vašich poznámek.

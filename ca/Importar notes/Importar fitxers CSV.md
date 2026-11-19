@@ -16,7 +16,7 @@ Necessitaràs el connector oficial d'Obsidian [[Importador]], que pots [instal·
 1. Obre **[[Configuració]]**.
 2. Ves a **Connectors de la comunitat** i [instal·la l'Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Habilita el connector Importador.
-4. Obre el connector **Importador** utilitzant la paleta d'ordres o la icona de la barra d'eines.
+4. Obre l'Importador a la Configuració o utilitzant la [[Paleta d'ordres]].
 5. A **Format de fitxer** tria **CSV (.csv).**
 6. Selecciona la ubicació del teu fitxer CSV.
 7. Selecciona **Importar** per configurar com es convertiran les dades del teu fitxer CSV a notes amb [[Propietats]].

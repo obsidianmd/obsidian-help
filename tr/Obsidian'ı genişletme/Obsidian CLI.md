@@ -324,6 +324,7 @@ Günlük nota içerik ekle (sona).
 
 ```bash
 content=<metin>    # (zorunlu) eklenecek içerik
+heading=<ad>       # hedef başlık bölümü
 paneType=tab|split|window    # açılacak panel türü
 
 inline             # yeni satır olmadan ekle
@@ -336,6 +337,7 @@ Günlük nota içerik ekle (başa).
 
 ```bash
 content=<metin>    # (zorunlu) eklenecek içerik
+heading=<ad>       # hedef başlık bölümü
 paneType=tab|split|window    # açılacak panel türü
 
 inline             # yeni satır olmadan ekle
@@ -512,6 +514,7 @@ Bir dosyaya içerik ekle (sona) (varsayılan: etkin dosya).
 file=<ad>          # dosya adı
 path=<yol>         # dosya yolu
 content=<metin>    # (zorunlu) eklenecek içerik
+heading=<ad>       # hedef başlık bölümü
 
 inline             # yeni satır olmadan ekle
 ```
@@ -524,6 +527,7 @@ Başlangıç meta verilerinden sonra içerik ekle (başa) (varsayılan: etkin do
 file=<ad>          # dosya adı
 path=<yol>         # dosya yolu
 content=<metin>    # (zorunlu) eklenecek içerik
+heading=<ad>       # hedef başlık bölümü
 
 inline             # yeni satır olmadan ekle
 ```

@@ -70,7 +70,8 @@ Devido aos limites de taxa da API do Notion, a importação de áreas de trabalh
 
 Devido a limitações na API do Notion, alguns dados não estão disponíveis ou não podem ser convertidos:
 
-- Apenas a vista principal de cada base de dados é importada.
+- As vistas de base de dados que não sejam quadros não são importadas, e os quadros não mantêm os seus filtros, ordenações ou subgrupos.
+- Num quadro agrupado por uma propriedade de seleção múltipla, pessoa ou relação, um cartão com vários valores é colocado numa única coluna para essa combinação de valores.
 - [Fontes de dados ligadas](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) não são importadas: *"A API do Notion não suporta atualmente fontes de dados ligadas. Ao partilhar uma base de dados com a sua integração, certifique-se de que contém a fonte de dados original!"*
 - Funções de `People`: `name()` e `email()`
 - Funções de `Text`: `style()` e `unstyle()`
@@ -78,7 +79,7 @@ Devido a limitações na API do Notion, alguns dados não estão disponíveis ou
 Adicionalmente, o Importador fará as seguintes alterações:
 
 - Páginas sem páginas filhas ou bases de dados serão importadas como `[nome do ficheiro].md` em vez de `[nome do ficheiro]/[nome do ficheiro].md`.
-- As bases de dados são sempre representadas como pastas com o nome `[nome da base de dados]` com um ficheiro `[nome da base de dados].base` no interior.
+- As bases de dados são sempre representadas como pastas com o nome `[nome da base de dados]` com um ficheiro `[nome da base de dados].base` no interior. A base tem uma vista de tabela com todas as propriedades e, no Obsidian 1.14 e posteriores, uma [[vista Kanban]] para cada quadro do Notion, agrupada pela mesma propriedade.
 
 ## Importar ficheiros do Notion (.zip)
 

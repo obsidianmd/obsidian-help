@@ -14,7 +14,7 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 1. Abra as **[[Definições]]**.
 2. Vá a **Plugins da comunidade** e [instale o Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Ative o plugin Importador.
-4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone na barra de ferramentas.
+4. Abra o Importador nas Definições ou usando a [[Paleta de comandos]].
 5. Em **Formatação de ficheiro** escolha **Apple Notes**.
 6. Selecione **Importar**.
 7. Selecione **Abrir** na janela com o título `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.

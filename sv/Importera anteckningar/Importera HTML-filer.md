@@ -14,7 +14,7 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 1. Öppna **[[Inställningar]]**.
 2. Gå till **Gemenskapstillägg** och [installera Importerare](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivera Importerare-tillägget.
-4. Öppna **Importerare**-tillägget via kommandopaletten eller ribbon-ikonen.
+4. Öppna Importerare i Inställningar eller via [[Kommandopalett|kommandopaletten]].
 5. Under **Filformat** välj **HTML (.html).**
 6. Välj platsen för dina HTML-filer eller mappar.
 7. Välj **Importera** för att granska den genererade mallen och förhandsgranska exempel från dina filer.

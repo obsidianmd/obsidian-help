@@ -16,7 +16,7 @@ Använd det officiella [[Importerare|Importer-tillägget]] när du vill välja m
 
 1. Öppna **[[Inställningar|Inställningar]] → Gemenskapstillägg** och [installera Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Aktivera Importer-tillägget.
-3. Öppna **Importer** med [[Kommandopalett|kommandopaletten]] eller ribbon-ikonen.
+3. Öppna Importer i Inställningar eller med [[Kommandopalett|kommandopaletten]].
 4. Under **Filformat** väljer du **Markdown (.md, .zip)**.
 5. Välj enskilda Markdown-filer, mappar eller zip-arkiv.
 6. Granska de upptäckta mapparna, utmatningsalternativ, genererad mall och förhandsgranskningsexempel.

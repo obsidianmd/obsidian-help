@@ -20,6 +20,7 @@ Aplicativos vêm e vão, mas seus dados devem durar. O Obsidian usa arquivos Mar
 - <span class="icon-app icon-craft"></span> [[Importar do Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importar do Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importar do Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importar do Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importar do Tomboy e Gnote|Tomboy e Gnote]]
 - <span class="icon-app icon-html"></span> [[Importar arquivos HTML|Arquivos HTML]]
 - <span class="icon-app icon-md"></span> [[Importar arquivos CSV]]

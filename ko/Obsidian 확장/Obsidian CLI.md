@@ -326,6 +326,7 @@ paneType=tab|split|window    # 열 창 유형
 
 ```bash
 content=<text>     # (필수) 추가할 내용
+heading=<name>     # 대상 제목 섹션
 paneType=tab|split|window    # 열 창 유형
 
 inline             # 줄바꿈 없이 추가
@@ -338,6 +339,7 @@ open               # 추가 후 파일 열기
 
 ```bash
 content=<text>     # (필수) 삽입할 내용
+heading=<name>     # 대상 제목 섹션
 paneType=tab|split|window    # 열 창 유형
 
 inline             # 줄바꿈 없이 삽입
@@ -514,6 +516,7 @@ path=<path>        # 파일 경로
 file=<name>        # 파일 이름
 path=<path>        # 파일 경로
 content=<text>     # (필수) 추가할 내용
+heading=<name>     # 대상 제목 섹션
 
 inline             # 줄바꿈 없이 추가
 ```
@@ -526,6 +529,7 @@ inline             # 줄바꿈 없이 추가
 file=<name>        # 파일 이름
 path=<path>        # 파일 경로
 content=<text>     # (필수) 삽입할 내용
+heading=<name>     # 대상 제목 섹션
 
 inline             # 줄바꿈 없이 삽입
 ```

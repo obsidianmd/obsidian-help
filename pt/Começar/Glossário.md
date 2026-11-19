@@ -70,7 +70,7 @@ As [[Propriedades|Propriedades]] definem informações adicionais sobre uma nota
 
 A **barra de ferramentas** funciona como um contentor para ícones de ações frequentemente utilizadas.
 
-Na versão de ambiente de trabalho, é a área vertical situada na extremidade esquerda.
+Na versão de ambiente de trabalho, é a coluna vertical de botões com ícones na extremidade da aplicação. Pode ser ativada ou desativada em Definições → Interface, ou utilizando a [[Paleta de comando]].
 
 Na versão móvel, é representada por um botão de menu ![[lucide-menu.svg#icon]] na [[#barra de estado]].
 

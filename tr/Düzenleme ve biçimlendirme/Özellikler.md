@@ -14,7 +14,7 @@ Bir nota özellik eklemenin birkaç yolu vardır:
 
 - **Dosya özellikleri ekle** [[Komut Paleti|komutunu]] kullanın.
 - **`Cmd/Ctrl+;`** [[Kısayol tuşları|klavye kısayolunu]] kullanın.
-- **Diğer eylemler** menüsünden (üç nokta simgesiyle veya sekmeye sağ tıklayarak açılır) **Dosya özellikleri ekle** seçeneğini belirleyin.
+- [[Daha fazla seçenek menüsü]]nden (üç nokta simgesiyle veya sekmeye sağ tıklayarak açılır) **Dosya özellikleri ekle** seçeneğini belirleyin.
 - Dosyanın en başına `---` yazın.
 
 Bir özellik eklediğinizde, dosyanın üst kısmında iki girişe sahip bir satır görünecektir: özellik _adı_ ve özellik _değeri_.

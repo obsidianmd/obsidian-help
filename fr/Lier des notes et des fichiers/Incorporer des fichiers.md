@@ -87,6 +87,14 @@ Vous pouvez aussi spécifier la hauteur en pixels du lecteur PDF intégré en aj
 ![[Document.pdf#height=400]]
 ```
 
+Pour combiner les options de page et de hauteur, séparez-les avec `&` :
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+Pour en savoir plus sur la visualisation et la recherche dans les PDF, consultez [[PDF]].
+
 ## Intégrer un Canvas dans une note
 
 Pour intégrer un [[Canvas|canvas]] :

@@ -70,7 +70,7 @@ Veja também [[Janelas destacáveis]].
 
 O **menu lateral** funciona como um contêiner para ícones de ações frequentemente usadas.
 
-Na versão desktop, é a área vertical situada na extrema esquerda.
+Na versão desktop, é a coluna vertical de botões de ícones na borda do aplicativo. Pode ser ativado ou desativado em Configurações → Interface, ou usando a [[Paleta de comandos]].
 
 Na versão móvel, é representado por um botão de menu ![[lucide-menu.svg#icon]] na [[#barra de status|barra de status]].
 

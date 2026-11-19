@@ -18,6 +18,7 @@ Appar kommer och går, men dina data bör bestå. Obsidian använder icke-propri
 - <span class="icon-app icon-craft"></span> [[Importera från Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importera från Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importera från Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importera från Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importera från Tomboy och Gnote|Tomboy och Gnote]]
 - <span class="icon-app icon-html"></span> [[Importera HTML-filer|HTML-filer]]
 - <span class="icon-app icon-md"></span> [[Importera CSV-filer]]

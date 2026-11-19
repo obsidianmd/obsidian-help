@@ -17,7 +17,7 @@ To embed a web page, add the following in your note and replace the placeholder 
 > Some websites don't allow you to embed them. Instead, they may provide URLs that are meant for embedding them. If the website doesn't support embedding, try searching for the name of the website followed by "embed iframe". For example, "youtube embed iframe".
 
 > [!tip] Tip
-> If you're using [[Canvas]], you can embed a web page in a card. For more information, refer to [[Canvas#Add cards from web pages]].
+> If you're using [[Canvas]], you can embed a web page in a card. For more information, refer to [[Canvas#Add cards from web pages|Add cards from web pages]].
 
 ## Embed a YouTube video
 

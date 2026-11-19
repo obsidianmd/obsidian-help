@@ -17,7 +17,7 @@ De er flere måder, at tilføje en egenskab til en note på:
 
 - Benyt **Tilføj filegenskab** [[Kommandopaletten|kommandoen]]
 - Benyt genvejstasten **`Cmd/Ctrl+;`**
-- Vælg **Tilføj filegenskab** fra **Flere muligheder** menuen (ved at trykke på ikonet med de tre lodrette punktummer eller ved at højreklikke på fanen)
+- Vælg **Tilføj filegenskab** fra [[Menuen Flere muligheder]] (ved at trykke på ikonet med de tre lodrette punktummer eller ved at højreklikke på fanen)
 - Skrive `---` helt i begyndelsen af en note
 
 Når du tilføjer en egenskab, vil der blive tilføjet en række i toppen af noten med to værdier: _Navnet_ på egenskaben og egenskabens _værdi_.

@@ -47,6 +47,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] 打开标题或块
 > 通过正确的 URI 编码，你可以导航到笔记中的某个标题或块。`Note%23Heading` 将导航到名为"Heading"的标题，而 `Note%23%5EBlock` 将导航到名为"Block"的块。
 
+### 复制 Obsidian URL
+
+Obsidian 可以为当前活动笔记生成一个 `open` URI，这样你就不必手动编写。应用将其称为 Obsidian URL，其中包含仓库名称和笔记的路径。
+
+你可以通过以下任一方式复制 Obsidian URL：
+
+- 在[[命令面板]]中，选择**复制 Obsidian URI**。
+- 在笔记中，选择**更多选项** ![[lucide-more-horizontal.svg#icon]]，然后选择**复制路径 → Obsidian URL**。参见[[更多选项菜单]]。
+- 在桌面端，右键点击[[文件浏览器]]中的文件，然后选择**复制路径 → Obsidian URL**。
+
 ### 参数
 
 - `vault` 可以是仓库名称或仓库 ID[^1]。
@@ -55,8 +65,6 @@ obsidian://action?param1=value&param2=value
   - 使用此参数将覆盖 `vault` 和 `file` 参数。
   - 这将使应用搜索包含指定文件路径的最匹配的仓库。
   - 然后路径的剩余部分将替换 `file` 参数。
-- `prepend` 将内容添加到文件顶部，并尝试合并属性。
-- `append` 将内容添加到文件末尾，并尝试合并属性。
 - `paneType`（可选）决定笔记在界面中的打开位置。
   - 如果未指定，将替换最后活动的标签页。
   - `paneType=tab` 在新标签页中打开。
@@ -73,6 +81,8 @@ obsidian://action?param1=value&param2=value
   这将打开仓库 `my vault`，并创建一篇名为 `my note` 的新笔记。
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   这将打开仓库 `my vault`，并在 `path/to/my note` 路径下创建一篇新笔记。
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  这将打开仓库 `my vault`，并将 `Buy milk` 添加到 `my note` 中 `Tasks` 章节的末尾。
 
 ### 参数
 
@@ -84,8 +94,14 @@ obsidian://action?param1=value&param2=value
 - `content`（可选）笔记的内容。
 - `clipboard`（可选）使用剪贴板中的内容，而不是指定 `content`。
 - `silent`（可选）如果你不想打开新笔记，请包含此参数。
-- `append`（可选）如果已有同名文件，包含此参数将向其追加内容。
-- `overwrite`（可选）如果已有同名文件，将覆盖该文件，但仅在未设置 `append` 时生效。
+- `append`（可选）如果已有同名文件，包含此参数将向其追加内容，并合并属性。
+- `prepend`（可选）如果已有同名文件，包含此参数将向其前置内容，并合并属性。
+- `heading`（可选）将内容添加到此标题下的章节中，而不是整个文件。需要同时使用 `append` 或 `prepend`。
+- `spacing`（可选）内容与现有内容之间的分隔方式。需要同时使用 `append` 或 `prepend`。
+  - `spacing=auto`（默认）在它们之间留一个空行。
+  - `spacing=newline` 在新一行开始内容。
+  - `spacing=inline` 添加内容时不换行。
+- `overwrite`（可选）如果已有同名文件，将覆盖该文件，但仅在未设置 `append` 和 `prepend` 时生效。
 - `x-success`（可选）参见[[#使用 x-callback-url 参数]]。
 
 ## 创建或打开日记
@@ -96,6 +112,8 @@ obsidian://action?param1=value&param2=value
 
 - `obsidian://daily?vault=my%20vault`
   这将打开仓库 `my vault`，并创建或打开日记。
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  这将打开仓库 `my vault`，并将 `Called Sam` 添加到日记中 `Log` 章节的末尾。
 
 ### 参数
 

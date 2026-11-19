@@ -50,8 +50,6 @@ Pre vytvorenie odkazu v režime úprav použite jeden z nasledujúcich spôsobov
 - Vyberte text v editore a potom napíšte `[[`.
 - Otvorte [[Paleta príkazov|paletu príkazov]] a vyberte Pridať interný odkaz.
 
-![[Rýchly prepínač#^search-autocomplete-large]]
-
 Hoci môžete odkazovať na akýkoľvek z [[Akceptované formáty súborov|akceptovaných formátov súborov]], odkazy na súborové formáty iné ako Markdown musia obsahovať príponu súboru, napríklad `[[Figure 1.png]]`.
 
 > [!tip] Pridaním výkričníka (!) pred interný odkaz môžete vložiť prepojený obsah. Viac podrobností nájdete v časti [[Vkladanie súborov]].
@@ -131,7 +129,7 @@ Bloky na prepojenie môžete vyhľadávať aj v celom trezore pomocou syntaxe `[
 > [!info]- Snímka obrazovky vyhľadávania odkazu na blok
 > ![[link-block-heading.png#interface]]
 
-Môžete tiež vytvoriť ľudsky čitateľné identifikátory blokov pridaním medzery nasledovanej strieškou (`^`) a identifikátorom. Identifikátory blokov môžu pozostávať iba z latinských písmen, číslic a pomlčiek.
+Môžete tiež vytvoriť ľudsky čitateľné identifikátory blokov pridaním medzery nasledovanej strieškou (`^`) a identifikátorom. Identifikátory blokov môžu pozostávať iba z písmen A-Z a a-z, číslic 0-9 a pomlčiek.
 
 Napríklad pridajte `^quote-of-the-day` na koniec bloku:
 

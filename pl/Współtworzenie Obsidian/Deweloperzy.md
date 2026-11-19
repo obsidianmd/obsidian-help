@@ -11,6 +11,7 @@ Możesz tworzyć [[Wtyczki społeczności]] i [[Motywy]] przy użyciu TypeScript
 
 Obsidian rozwija i utrzymuje kilka projektów open source. Możesz przesyłać pull requesty z poprawkami błędów i ulepszeniami do następujących repozytoriów GitHub:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), renderer używany przez Obsidian do rysowania diagramów Mermaid.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), otwarty format pliku do danych nieskończonego płótna.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), język szablonów do generowania Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), wtyczka konwertująca dane z różnych formatów na pliki Markdown w zwykłym tekście.

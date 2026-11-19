@@ -72,7 +72,7 @@ Consultați și [[Ferestre desprinse]].
 
 **Panglica** funcționează ca un container pentru pictogramele de acțiuni utilizate frecvent.
 
-În versiunea pentru desktop, aceasta este zona verticală situată în extrema stângă.
+În versiunea pentru desktop, aceasta este coloana verticală de butoane-pictogramă de pe marginea aplicației. Poate fi activată sau dezactivată din Setări → Interfață, sau folosind [[Paleta de comenzi]].
 
 În versiunea mobilă, este reprezentată de un buton de meniu ![[lucide-menu.svg#icon]] pe [[#bara de stare|bara de stare]].
 

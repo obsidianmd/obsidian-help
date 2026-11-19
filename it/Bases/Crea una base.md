@@ -19,10 +19,6 @@ aliases:
 1. Nell'esplora file, fare clic con il pulsante destro sulla cartella in cui si desidera creare la base.
 2. Selezionare **Nuova Base**.
 
-**Barra degli strumenti:**
-
-- Nella barra degli strumenti verticale, selezionare **Crea nuova Base** per creare una base nella stessa cartella del file attivo.
-
 ## Incorporare una base
 
 ### Incorporare un file base

@@ -322,6 +322,22 @@ translation=导出 CSV
 original=Embed a view
 translation=嵌入视图
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=将卡片分组到列中
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=使用卡片和列
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=隐藏空列
+
+[heading.bases/Column width]
+original=Column width
+translation=列宽
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=公式能做什么
@@ -4246,34 +4262,94 @@ translation=侧边栏
 original=Frequently asked questions
 translation=常见问题
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=将卡片分组到列中
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=打开菜单
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=使用卡片和列
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=桌面端
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=设置
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=视图与布局
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=隐藏空列
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=管理笔记
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=列宽
+[heading.more-options-menu/Find]
+original=Find
+translation=查找
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=图像属性
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=路径、历史和关联视图
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=图像适配
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=系统操作
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=图像宽高比
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=标签页菜单
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=移动端
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=打开查找与替换
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=查找匹配项
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=替换匹配项
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=打开 PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=导航 PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=更改 PDF 的显示方式
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=搜索 PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=从 PDF 中复制文本
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=嵌入 PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=将笔记导出为 PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=从三星笔记导出笔记
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=将三星笔记数据导入 Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=限制
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=模板

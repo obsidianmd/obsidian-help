@@ -52,8 +52,6 @@ Para criar um link enquanto estiver no Editor, use qualquer uma das seguintes fo
 - Selecione um texto no editor e então digite `[[`.
 - Abra a [[Paleta de comandos]] e então selecione Adicionar link interno.
 
-![[Alternador rápido#^search-autocomplete-large]]
-
 Embora você possa vincular a qualquer um dos [[Formatos de arquivo aceitos]], links para formatos de arquivo diferentes de Markdown precisam incluir a extensão do arquivo, como `[[Figura 1.png]]`.
 
 > [!tip] Prefixar um link interno com um ponto de exclamação (!) permite incorporar o conteúdo vinculado. Para mais detalhes, veja [[Incorporar arquivos]].
@@ -133,7 +131,7 @@ Você também pode pesquisar blocos para vincular em todo o seu cofre usando a s
 > [!info]- Captura de tela da pesquisa por um link de bloco
 > ![[link-block-heading.png#interface]]
 
-Você também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Identificadores de bloco podem conter apenas letras latinas, números e hifens.
+Você também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Identificadores de bloco podem conter apenas as letras A-Z e a-z, os dígitos 0-9 e hifens.
 
 Por exemplo, adicione `^quote-of-the-day` ao final de um bloco:
 

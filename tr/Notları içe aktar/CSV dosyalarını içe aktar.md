@@ -16,7 +16,7 @@ Resmi Obsidian [[İçe aktarıcı]] eklentisine ihtiyacınız olacak, [buradan y
 1. **[[Ayarlar]]**'ı açın.
 2. **Topluluk Eklentileri**'ne gidin ve [İçe aktarıcı'yı yükleyin](obsidian://show-plugin?id=obsidian-importer).
 3. İçe aktarıcı eklentisini etkinleştirin.
-4. Komut paleti veya araç çubuğu simgesi ile **İçe aktarıcı** eklentisini açın.
+4. Ayarlar'da veya [[Komut paleti]]'ni kullanarak İçe aktarıcı'yı açın.
 5. **Dosya biçimi** altında **CSV (.csv)** seçin.
 6. CSV dosyanızın konumunu seçin.
 7. CSV dosyanızdaki verilerin [[Özellikler]] içeren notlara nasıl dönüştürüleceğini yapılandırmak için **İçe aktar**'ı seçin.

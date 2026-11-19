@@ -290,6 +290,22 @@ translation=物件和清單
 original=Files and links
 translation=檔案和連結
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=將卡片分組為直欄
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=使用卡片與直欄
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=隱藏空直欄
+
+[heading.bases/Column width]
+original=Column width
+translation=直欄寬度
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=公式能做什麼
@@ -4210,34 +4226,94 @@ translation=側邊欄
 original=Frequently asked questions
 translation=常見問題
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=將卡片分組為直欄
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=開啟選單
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=使用卡片與直欄
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=桌面版
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=設定
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=檢視與佈局
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=隱藏空直欄
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=管理筆記
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=直欄寬度
+[heading.more-options-menu/Find]
+original=Find
+translation=尋找
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=圖片屬性
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=路徑、歷史與連結化檢視
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=圖片縮放方式
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=您的電腦
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=圖片長寬比
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=分頁選單
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=行動版
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=開啟尋找且取代
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=尋找匹配項目
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=取代匹配項目
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=開啟 PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=瀏覽 PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=變更 PDF 的外觀
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=搜尋 PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=從 PDF 複製文字
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=嵌入 PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=將筆記匯出為 PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=從 Samsung Notes 匯出筆記
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=將 Samsung Notes 資料匯入 Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=限制
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=模板

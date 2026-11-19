@@ -154,6 +154,10 @@ translation=গ্রহণযোগ্য ফাইল ফরম্যাট
 original=Financial contributions
 translation=আর্থিক অবদান
 
+[file.find-and-replace]
+original=Find and replace
+translation=খুঁজুন এবং প্রতিস্থাপন
+
 [file.folding]
 original=Folding
 translation=ভাঁজ করা
@@ -238,6 +242,10 @@ translation=Microsoft OneNote থেকে ইম্পোর্ট করুন
 original=Import from Roam Research
 translation=Roam Research থেকে ইম্পোর্ট করুন
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Samsung Notes থেকে ইমপোর্ট
+
 [file.import/templates]
 original=Importer templates
 translation=ইম্পোর্টার টেমপ্লেট
@@ -286,6 +294,10 @@ translation=ভল্ট পরিচালনা
 original=Mobile app
 translation=মোবাইল অ্যাপ
 
+[file.more-options-menu]
+original=More options menu
+translation=আরও অপশন মেনু
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=একাধিক কার্সার
@@ -305,6 +317,10 @@ translation=অফিসিয়াল ওয়েবসাইট
 [file.payment]
 original=Introduction to licenses and payment
 translation=লাইসেন্স ও পেমেন্ট পরিচিতি
+
+[file.pdf]
+original=PDFs
+translation=PDF ফাইলসমূহ
 
 [file.plugin-security]
 original=Plugin security

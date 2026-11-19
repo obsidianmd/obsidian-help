@@ -44,6 +44,16 @@ Hành động `open` mở một kho Obsidian, hoặc mở một tệp trong kho 
 > [!tip] Mở một tiêu đề hoặc khối
 > Với mã hóa URI đúng cách, bạn có thể điều hướng đến một tiêu đề hoặc khối trong ghi chú. `Note%23Heading` sẽ điều hướng đến tiêu đề có tên "Heading", trong khi `Note%23%5EBlock` sẽ điều hướng đến khối có tên "Block".
 
+### Sao chép URL Obsidian
+
+Obsidian có thể tạo URI `open` cho ghi chú đang hoạt động, vì vậy bạn không cần phải tự viết. Ứng dụng gọi đây là URL Obsidian. Nó bao gồm tên kho và đường dẫn đến ghi chú.
+
+Bạn có thể sao chép URL Obsidian bằng bất kỳ cách nào sau đây.
+
+- Trong [[Bảng lệnh]], chọn **Sao chép URL Obsidian cho tệp hiện tại**.
+- Trong ghi chú, chọn **Tùy chọn khác** ![[lucide-more-horizontal.svg#icon]], và sau đó chọn **Sao chép đường dẫn → dưới dạng URL Obsidian**. Xem [[Menu tùy chọn khác]].
+- Trên desktop, nhấp chuột phải vào một tệp trong [[Trình khám phá tệp]], và sau đó chọn **Sao chép đường dẫn → dưới dạng URL Obsidian**.
+
 ### Tham số
 
 - `vault` có thể là tên kho hoặc ID kho[^1].
@@ -52,8 +62,6 @@ Hành động `open` mở một kho Obsidian, hoặc mở một tệp trong kho 
   - Sử dụng tham số này sẽ ghi đè cả `vault` và `file`.
   - Điều này sẽ khiến ứng dụng tìm kiếm kho cụ thể nhất chứa đường dẫn tệp được chỉ định.
   - Sau đó phần còn lại của đường dẫn sẽ thay thế tham số `file`.
-- `prepend` sẽ thêm vào đầu tệp và cố gắng hợp nhất thuộc tính.
-- `append` sẽ thêm vào cuối tệp và cũng cố gắng hợp nhất thuộc tính.
 - `paneType` (tùy chọn) xác định vị trí ghi chú sẽ được mở trong giao diện.
   - nếu không có, thẻ hoạt động cuối cùng sẽ bị thay thế.
   - `paneType=tab` mở trong thẻ mới.
@@ -70,6 +78,8 @@ Hành động `new` tạo một ghi chú mới trong kho, tùy chọn với mộ
   Lệnh này mở kho `my vault`, và tạo một ghi chú mới có tên `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Lệnh này mở kho `my vault`, và tạo một ghi chú mới tại `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Lệnh này mở kho `my vault`, và thêm `Buy milk` vào cuối phần `Tasks` trong `my note`.
 
 ### Tham số
 
@@ -81,8 +91,14 @@ Hành động `new` tạo một ghi chú mới trong kho, tùy chọn với mộ
 - `content` (tùy chọn) nội dung của ghi chú.
 - `clipboard` (tùy chọn) sử dụng nội dung của bảng tạm thay vì chỉ định `content`.
 - `silent` (tùy chọn) bao gồm tham số này nếu bạn không muốn mở ghi chú mới.
-- `append` (tùy chọn) bao gồm tham số này để thêm vào cuối tệp hiện có nếu đã tồn tại.
-- `overwrite` (tùy chọn) ghi đè tệp hiện có nếu đã tồn tại, nhưng chỉ khi `append` không được đặt.
+- `append` (tùy chọn) bao gồm tham số này để thêm vào cuối tệp hiện có nếu đã tồn tại, hợp nhất các thuộc tính.
+- `prepend` (tùy chọn) bao gồm tham số này để thêm vào đầu tệp hiện có nếu đã tồn tại, hợp nhất các thuộc tính.
+- `heading` (tùy chọn) thêm nội dung vào phần dưới tiêu đề này thay vì toàn bộ tệp. Yêu cầu `append` hoặc `prepend`.
+- `spacing` (tùy chọn) cách nội dung được phân tách khỏi nội dung hiện có. Yêu cầu `append` hoặc `prepend`.
+  - `spacing=auto` (mặc định) để một dòng trống giữa chúng.
+  - `spacing=newline` bắt đầu nội dung trên một dòng mới.
+  - `spacing=inline` thêm nội dung mà không có ngắt dòng.
+- `overwrite` (tùy chọn) ghi đè tệp hiện có nếu đã tồn tại, nhưng chỉ khi cả `append` và `prepend` đều không được đặt.
 - `x-success` (tùy chọn) xem [[#Sử dụng tham số x-callback-url]].
 
 ## Tạo hoặc mở ghi chú hằng ngày
@@ -93,6 +109,8 @@ Hành động `daily` tạo hoặc mở ghi chú hằng ngày của bạn. Plugi
 
 - `obsidian://daily?vault=my%20vault`
   Lệnh này mở kho `my vault`, và tạo hoặc mở ghi chú hằng ngày.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Lệnh này mở kho `my vault`, và thêm `Called Sam` vào cuối phần `Log` trong ghi chú hằng ngày.
 
 ### Tham số
 

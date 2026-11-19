@@ -16,6 +16,7 @@ In de Obsidian desktop-app bevat de werkruimte:
     - [[Zijbalk#Tabbladen|Tabbladen in de zijbalk]]
 - [[Tabbladen#Je tabbladen en vensters organiseren|Tabbladgroepen]] in het centrale inhoudsgebied (kunnen verticaal of horizontaal worden gesplitst)
     - [[Tabbladen]]
+    - [[Meer opties-menu]] in de rechterbovenhoek van elke notitie
 - [[Statusbalk]] in de rechteronderhoek
 
 ## Mobiel
@@ -23,6 +24,7 @@ In de Obsidian desktop-app bevat de werkruimte:
 In de mobiele Obsidian-app bevat de werkruimte:
 
 - [[Tabbladen]] beheerd via de tabbladteller in de [[Mobiele app#Navigatiebalk|Navigatiebalk]]
+- [[Meer opties-menu#Mobiel|Meer opties-menu]] voor de actieve notitie
 - [[Zijbalk|Zijbalken]] (geopend met links en rechts veegbewegingen)
 - [[Mobiele app#Navigatiebalk|Navigatiebalk]] onderaan het scherm
 - [[Werkbalk|Lint configuratie]] in de navigatiebalk (bevat aanpasbare acties)

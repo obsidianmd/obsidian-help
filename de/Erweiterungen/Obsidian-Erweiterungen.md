@@ -46,8 +46,6 @@ Das Obsidian-Team pflegt auch die Entwicklung bestimmter [[#Weitere Erweiterunge
 	- Das Inhaltsverzeichnis der aktiven Notiz anzeigen.
 - [[Graph-Ansicht]]
 	- Beziehungen zwischen Notizen in deinem Vault visualisieren.
-- [[Importprogramm für Markdown Format]]
-	- Markdown aus anderen Apps in das Obsidian-Format konvertieren.
 - [[Lesezeichen]]
 	- Links zu Notizen, Überschriften, Suchen und mehr speichern.
 - [[Notizen-Werkbank]]
@@ -83,7 +81,7 @@ Das Obsidian-Team pflegt auch die Entwicklung bestimmter [[#Weitere Erweiterunge
 
 Das Obsidian-Team pflegt auch Erweiterungen, die über den Community-Erweiterungen-Store verfügbar sind:
 
-- [[Galerie|Galerie]]
-	- Eine Kartenansicht zu Obsidian Basen hinzufügen.
 - [[Importprogramm]]
 	- Dateien aus verschiedenen Apps und Formaten nach Obsidian konvertieren.
+- [[Galerie|Galerie]]
+	- Eine Kartenansicht zu Obsidian Basen hinzufügen.

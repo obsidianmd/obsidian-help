@@ -318,6 +318,22 @@ translation=Jak korzystać z baz danych
 original=View types
 translation=Typy podglądów
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Grupowanie kart w kolumny
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Praca z kartami i kolumnami
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Ukryj puste kolumny
+
+[heading.bases/Column width]
+original=Column width
+translation=Szerokość kolumny
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Co potrafią wzory
@@ -4210,34 +4226,94 @@ translation=Panel boczny
 original=Frequently asked questions
 translation=Najczęściej zadawane pytania
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Grupowanie kart w kolumny
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Otwieranie menu
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Praca z kartami i kolumnami
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Komputer
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Ustawienia
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Podgląd i układ
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Ukryj puste kolumny
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Zarządzanie notatką
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Szerokość kolumny
+[heading.more-options-menu/Find]
+original=Find
+translation=Znajdowanie
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Atrybut obrazu
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Ścieżki, historia i połączone podglądy
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Dopasowanie obrazu
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Twój komputer
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Proporcje obrazu
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu karty
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Urządzenia mobilne
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Otwieranie okna znajdź i zamień
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Znajdowanie dopasowań
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Zastępowanie dopasowań
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Otwieranie PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Nawigacja w PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Zmiana wyglądu PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Wyszukiwanie w PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Kopiowanie tekstu z PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Osadzanie PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Eksport notatki do PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Eksportowanie notatek z Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importowanie danych Samsung Notes do Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Ograniczenia
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Szablony

@@ -738,6 +738,22 @@ translation=Exportar CSV
 original=Embed a view
 translation=Incrustar una vista
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Agrupar tarjetas en columnas
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Trabajar con tarjetas y columnas
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Ocultar columnas vacías
+
+[heading.bases/Column width]
+original=Column width
+translation=Ancho de columna
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Qué pueden hacer las fórmulas
@@ -4174,34 +4190,94 @@ translation=Barra lateral
 original=Frequently asked questions
 translation=Preguntas frecuentes
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Agrupar tarjetas en columnas
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Abrir el menú
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Trabajar con tarjetas y columnas
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Escritorio
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Ajustes
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vista y disposición
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Ocultar columnas vacías
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gestionar la nota
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Ancho de columna
+[heading.more-options-menu/Find]
+original=Find
+translation=Buscar
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Propiedad de la imagen
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Rutas, historial y vistas enlazadas
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Ajustar
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Tu computadora
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Proporción de aspecto de imagen
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menú de pestaña
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Móvil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Abrir buscar y reemplazar
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Encontrar coincidencias
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Reemplazar coincidencias
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Abrir un PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navegar un PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Cambiar la apariencia de un PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Buscar en un PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Copiar texto de un PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Incrustar un PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Exportar una nota a PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exportar tus notas desde Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importar tus datos de Samsung Notes a Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Limitaciones
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Plantillas

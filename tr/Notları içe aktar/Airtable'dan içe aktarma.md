@@ -74,7 +74,7 @@ Airtable/
 	- **Grid**, [[Tablo görünümü]]ne dönüşür.
 	- **Gallery**, [[Kartlar görünümü]]ne dönüşür.
 	- **List**, [[Liste görünümü]]ne dönüşür.
-	- Diğer tüm görünüm türleri tablo görünümüne dönüştürülür.
+	- **Kanban**, Obsidian 1.14 ve sonrasında [[Kanban görünümü]]ne dönüşür. Airtable, bir kanban'ın hangi alana göre gruplandığını belirtmez; bu nedenle içe aktardıktan sonra [[Kanban görünümü#Kartları sütunlara gruplama|gruplandırılacak bir özellik seçin]]. Tekrar içe aktarma yaptığınızda seçiminiz korunur.
 - Airtable alan türleri, önceden ayarladığınız türleri geçersiz kılmadan Obsidian özellik türlerine eşlenir.
 - Bağlantılı kayıtlar, ilgili notlara bağlantılara dönüşür.
 - Ekler, kasa ayarlarınız kullanılarak kasanıza indirilir.
@@ -88,7 +88,7 @@ Airtable API'sindeki sınırlamalar nedeniyle bazı veriler mevcut değildir vey
 
 - Rollup değerleri içe aktarılmaz. API, bir rollup'ın hesaplanan değeri için kullanılan toplamayı göstermez, bu nedenle yalnızca özellik adı yazılır ve alanın şeması bir ifade içerdiğinde bir Tabanlar formülü eklenir.
 - Obsidian'da eşdeğeri bulunmayan fonksiyonları kullanan formüller (`SWITCH`, `FIND`, `REGEX_EXTRACT` ve `SQRT` gibi), Airtable'dan gelen statik değere geri döner.
-- Yalnızca grid, gallery ve list görünümleri içe aktarılır. Takvim, kanban, zaman çizelgesi ve Gantt gibi diğer görünüm türleri yok sayılır.
+- Yalnızca grid, gallery, list ve kanban görünümleri içe aktarılır. Takvim, zaman çizelgesi ve Gantt gibi diğer görünüm türleri yok sayılır.
 - Seçmediğiniz tablolardaki kayıtlara olan bağlantılar, bağlantı yerine kaydın düz başlığı olarak görünür.
 - Arayüz tasarımları, otomasyonlar, yorumlar ve revizyon geçmişi içe aktarılmaz.
 

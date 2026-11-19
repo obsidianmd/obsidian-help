@@ -128,7 +128,7 @@ O Obsidian utiliza as bibliotecas de código aberto abaixo (em ordem alfabética
 
 ### Capacitor
 
-Versão `5.x`
+Versão `7.0.0`
 Licença MIT
 Copyright (c) 2017-present Drifty Co.
 
@@ -140,12 +140,13 @@ Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@a
 
 ### DOMPurify
 
+Versão `3.4.17`
 https://github.com/cure53/DOMPurify
 Licenciado sob a [Mozilla Public License versão 2.0](http://mozilla.org/MPL/2.0/)
 
 ### Electron
 
-Versão `43.1.1`
+Versão `44.9.3`
 Licença MIT
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -162,23 +163,18 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
-Versão `0.446.0`
+Versão `1.14.0`
 Licença ISC
 Copyright (c) 2020, Lucide Contributors ^lucide
 
 ### MathJax
 
+Versão `4.1.3`
 Apache License 2.0
-
-### Mermaid
-
-Versão `11.13.0`
-Licença MIT
-Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Versão `2.30.1`
+Versão `2.31.0`
 Licença MIT
 Copyright (c) JS Foundation and other contributors
 
@@ -186,14 +182,21 @@ Copyright (c) JS Foundation and other contributors
 
 Apache License 2.0
 
+### Pele
+
+Versão `1.12.0`
+Licença MIT
+Copyright (c) 2026 kepano
+
 ### PixiJS
 
+Versão `7.2.4`
 Licença MIT
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
-Versão `1.29.0`
+Versão `1.30.0`
 Licença MIT
 Copyright (c) 2012 Lea Verou
 
@@ -210,9 +213,9 @@ Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
 ### reveal.js
 
-Versão `4.3.1`
+Versão `6.0.2`
 Licença MIT
-Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
+Copyright (C) 2011-2026 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
 ### scrypt
 
@@ -220,6 +223,7 @@ Apache License 2.0
 
 ### Turndown
 
+Versão `7.2.0`
 Licença MIT
 Copyright (c) 2017 Dom Christie
 

@@ -9,7 +9,7 @@ Obsidian CLI គឺជាចំណុចប្រទាក់បន្ទាត�
 ![[obsidian-cli.mp4#interface]]
 
 > [!warning] ត្រូវការកម្មវិធីដំឡើង Obsidian 1.12
-> ការប្រើប្រាស់ CLI ត្រូវការកម្មវិធីដំឡើង Obsidian 1.12។ សូममើល [[អាប់ដេត Obsidian#Installer updates|ការណែនាំអំពីការអាប់ដេតកំណែកម្មវិធីដំឡើង]]។
+> ការប្រើប្រាស់ CLI ត្រូវការកម្មវិធីដំឡើង Obsidian 1.12។ សូមមើល [[អាប់ដេត Obsidian#Installer updates|ការណែនាំអំពីការអាប់ដេតកំណែកម្មវិធីដំឡើង]]។
 
 ## ដំឡើង Obsidian CLI
 
@@ -55,7 +55,7 @@ TUI គាំទ្រ autocomplete ប្រវត្តិពាក្យប�
 
 ## ឧទាហរណ៍
 
-នេះជាឧទាហរណ If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If
+នេះជាឧទាហរណ If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If
 
 នេះជាឧទាហរណ If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If If
 
@@ -280,6 +280,7 @@ Append content to daily note.
 
 ```bash
 content=<text>     # (required) content to append
+heading=<name>     # target heading section
 paneType=tab|split|window    # pane type to open in
 
 inline             # append without newline
@@ -292,6 +293,7 @@ Prepend content to daily note.
 
 ```bash
 content=<text>     # (required) content to prepend
+heading=<name>     # target heading section
 paneType=tab|split|window    # pane type to open in
 
 inline             # prepend without newline
@@ -468,6 +470,7 @@ Append content to a file (default: active file).
 file=<name>        # file name
 path=<path>        # file path
 content=<text>     # (required) content to append
+heading=<name>     # target heading section
 
 inline             # append without newline
 ```
@@ -480,6 +483,7 @@ Prepend content after frontmatter (default: active file).
 file=<name>        # file name
 path=<path>        # file path
 content=<text>     # (required) content to prepend
+heading=<name>     # target heading section
 
 inline             # prepend without newline
 ```

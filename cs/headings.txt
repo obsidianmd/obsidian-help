@@ -746,34 +746,122 @@ translation=Postranní panel
 original=Frequently asked questions
 translation=Často kladené otázky
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Seskupení karet do sloupců
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Práce s kartami a sloupci
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Nastavení
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Skrýt prázdné sloupce
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Šířka sloupce
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Vlastnost obrázku
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Přizpůsobení obrázku
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Poměr stran obrázku
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Otevření menu
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Zobrazení a rozvržení
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Správa poznámky
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Hledání
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Cesty, historie a propojená zobrazení
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Váš počítač
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu karty
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobilní zařízení
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Otevření funkce Najít a nahradit
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Nalezení shod
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Nahrazení shod
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Otevření PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navigace v PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Změna vzhledu PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Vyhledávání v PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Kopírování textu z PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Vložení PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Export poznámky do PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Export poznámek ze Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Import dat Samsung Notes do Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Omezení
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Šablony

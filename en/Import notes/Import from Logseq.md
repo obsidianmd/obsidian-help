@@ -17,7 +17,7 @@ You need the official Obsidian [[Importer]] plugin, which you can [install here]
 
 1. Open **[[Settings]] → Community plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Enable the Importer plugin.
-3. Open **Importer** using the [[Command palette]] or ribbon icon.
+3. Open Importer in Settings or using the [[Command palette]].
 4. Under **File format**, select **Logseq**.
 5. Under **Choose folders**, select the root folder of your graph. Select the folder that contains `pages` and `journals`, not either of those folders individually.
 6. Review the detected folders and exclude any that you don't want to import.

@@ -318,6 +318,22 @@ translation=オブジェクト
 original=Regular expression
 translation=正規表現
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=カードを列にグループ化する
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=カードと列の操作
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=空の列を非表示
+
+[heading.bases/Column width]
+original=Column width
+translation=列の幅
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=数式でできること
@@ -4270,34 +4286,94 @@ translation=サイドバー
 original=Frequently asked questions
 translation=よくある質問
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=カードを列にグループ化する
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=メニューを開く
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=カードと列の操作
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=デスクトップ
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=設定
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=ビューとレイアウト
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=空の列を非表示
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=ノートの管理
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=列の幅
+[heading.more-options-menu/Find]
+original=Find
+translation=検索
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=画像プロパティ
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=パス、履歴、リンクされたビュー
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=画像のフィット
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=コンピューター
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=画像のアスペクト比
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=タブメニュー
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=モバイル
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=検索かつ置換を開く
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=一致するものを検索する
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=一致するものを置換する
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=PDFを開く
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=PDFをナビゲートする
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=PDFの表示を変更する
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=PDFを検索する
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=PDFからテキストをコピーする
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDFを埋め込む
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=ノートをPDFにエクスポートする
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Samsung Notesからノートをエクスポートする
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung NotesのデータをObsidianにインポートする
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=制限事項
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=テンプレート

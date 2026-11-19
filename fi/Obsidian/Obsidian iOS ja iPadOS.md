@@ -53,12 +53,12 @@ Voit mukauttaa widgetejä työnkulkuusi sopiviksi, esimerkiksi valitsemalla käy
 
 ## Pikakaappaus
 
-Pikakaappauksen avulla voit tallentaa tekstiä holviisi lukitusnäytön, Ohjauskeskuksen tai kotinäytön widgeteistä. Valitsemastasi kaappaussijainnista riippuen pikakaappaus voi luoda uuden muistiinpanon tai lisätä tekstin olemassa olevaan muistiinpanoon.
+Pikakaappauksen avulla voit tallentaa tekstiä holviisi lukitusnäytön, Ohjauskeskuksen tai kotinäytön widgeteistä tai pikakomennoista odottamatta holvin latautumista. Valitsemastasi kaappaussijainnista riippuen pikakaappaus voi luoda uuden muistiinpanon tai lisätä tekstin olemassa olevaan muistiinpanoon.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Huom
-> Pikakaappaus on saatavilla iOS- ja iPadOS 26 -käyttöjärjestelmässä ja uudemmissa versioissa.
+> Pikakaappaus vaatii Obsidian 1.14:n tai uudemman sekä iOS- tai iPadOS 26 -käyttöjärjestelmän tai uudemman.
 
 Tekstin kaappaaminen:
 
@@ -71,6 +71,63 @@ Tekstin kaappaaminen:
 **Huom:** Jos Live-aktiviteetit ovat käytössä, pikakaappausmuistiinpano näkyy myös lukitusnäytöllä ja tuetuissa iPhone-malleissa Dynamic Islandissa. Napauta palkkia tai Live-aktiviteettia jatkaaksesi muokkaamista.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Äänikaappaus
+
+Äänikaappauksen avulla voit äänittää äänimuistiinpanon pikakaappauksella. Obsidian litteroi puheesi reaaliajassa ja voi tallentaa äänitteen holviisi litteroinnin rinnalle.
+
+Äänimuistiinpanon kaappaaminen:
+
+1. Avaa pikakaappaus ja napauta sitten mikrofonipainiketta vasemmassa alakulmassa. Äänitys alkaa heti.
+2. Puhu muistiinpanosi. Litterointi näkyy tekstialueella puhuessasi, ja voit muokata sitä milloin tahansa.
+3. Napauta äänityspainiketta näytön alareunassa keskeyttääksesi ja napauta uudelleen jatkaaksesi.
+4. Napauta valintamerkkiä tallentaaksesi litteroinnin ja äänitteen valittuun kaappauspaikkaan.
+
+![[ios-voice-capture.png|400]]
+
+Voit myös aloittaa äänityksen suoraan widgetistä. Kun mukautat pikakaappauswidgetiä, valitse toiminto **Äänikaappaus**-osiosta.
+
+Äänitys jatkuu, jos pienennät pikakaappauksen tai lukitset laitteen. Äänityksen aikana lukitusnäyttö ja Dynamic Island näyttävät reaaliaikaisen litteroinnin ja ajastimen. Napauta ajastinta keskeyttääksesi tai jatkaaksesi äänitystä.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Äänikaappauksen asetukset
+
+Voit muuttaa äänikaappauksen asetuksia napauttamalla rataskuvaketta näytön yläosassa äänikaappauksen aikana.
+
+- **Kieli**: Litteroinnissa käytettävä kieli. Katso [[#Tuetut kielet]]. Valitse **Ei mitään** poistaaksesi litteroinnin käytöstä ja äänittääksesi vain ääntä.
+- **Mikrofoni**: Äänityksessä käytettävä mikrofoni, kuten sisäänrakennettu mikrofoni tai yhdistetty kuulokemikrofoni.
+- **Tallenna äänitiedosto**: Tallennetaanko äänite holviisi.
+- **Ääni muista sovelluksista**: Mitä tapahtuu äänityksessä soimassa olevalle musiikille tai muulle äänelle: **Jatka toistoa**, **Hiljennä** tai **Keskeytä**. Muutokset tulevat voimaan seuraavasta äänityksestä alkaen.
+
+#### Tuetut kielet
+
+Äänikaappaus voi litteroida puhetta seuraavilla kielillä. Jotkin laitteet tukevat vähemmän kieliä, ja saatavilla olevat kielet voivat muuttua iOS-päivitysten myötä. Jos kieltäsi ei ole saatavilla, voit silti äänittää ääntä ilman litterointia.
+
+- bengali
+- englanti
+- espanja
+- gujarati
+- hindi
+- italia
+- japani
+- kannada
+- kantoninkiina
+- kashmir
+- kiina
+- korea
+- maithili
+- malajalam
+- marathi
+- nepali
+- odia
+- portugali
+- punjabi
+- ranska
+- saksa
+- tamil
+- telugu
+- urdu
 
 ### Kaappauspaikat
 

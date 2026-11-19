@@ -11,7 +11,7 @@ Trên thiết bị di động, Obsidian được cập nhật thông qua cửa h
 
 Mở **[[Cài đặt]] → Chung**.
 
-Bạn có thể tìm thấy phiên bản hiện tại của ứng dụng và trình cài đặt ở đầu trang.
+Bạn có thể tìm thấy phiên bản hiện tại của ứng dụng và trình cài đặt ở đầu trang. Khi có trình cài đặt mới hơn, Obsidian sẽ hiển thị thông báo kèm liên kết tải xuống. Làm theo [[#Cập nhật trình cài đặt|hướng dẫn cập nhật trình cài đặt]] để cài đặt nó.
 
 ![[application-installer-current-version.png#interface]]
 

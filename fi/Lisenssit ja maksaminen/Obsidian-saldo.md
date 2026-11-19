@@ -5,6 +5,8 @@ Obsidian-saldo on ennakkoon maksettavaa saldoa, jota voi ostaa etukäteen ja kä
 
 Obsidian-saldo käytetään ennen mitä tahansa erääntyvää maksua, mukaan lukien automaattiset uusinnat. Obsidian-saldoa **ei voi** palauttaa [[Palautuskäytäntö|palautuskäytäntömme]] mukaisesti.
 
+Obsidian-saldo ei vanhene niin kauan kuin tilisi on olemassa.
+
 ## Saldon lisääminen
 
 1. Kirjaudu [Obsidian-tilillesi](https://obsidian.md/account/billing).

@@ -36,3 +36,5 @@ Obsidian unterstützt [CommonMark](https://commonmark.org/), [GitHub Flavored Ma
 | `- [x]`         | [[Grundlegende Formatierungssyntax#Aufgabenlisten\|Abgeschlossene Aufgabe]]        |
 | `> [!note]`     | [[Hinweisblöcke]]                                                                       |
 | (siehe Link)    | [[Erweiterte Formatierungssyntax#Tabellen\|Tabellen]]                              |
+
+Einige davon, wie interne Links, Kommentare und Hervorhebungen, sind spezifisch für Obsidian. Andere Markdown-Apps zeigen sie möglicherweise als reinen Text an.

@@ -24,7 +24,7 @@ Sådan skifter du til *Læsningsview*:
 - Eller tryk `Ctrl+E` (`Cmd+E` på macOS)
 
 > [!note] Note
-> Aktiver **[[Indstillinger]] → Udseende → Vis fanens titellinje** for at kunne se viewskifterikonet.  
+> Aktiver **[[Indstillinger]] → Grænseflade → Vis fanens titellinje** for at kunne se viewskifterikonet.  
 > 
 > Hvis den er deaktiveret, så slå **[[Indstillinger]] → Editor → Vis redigeringstilstand i statusbar** til for at skifte views fra statuslinjen.
 

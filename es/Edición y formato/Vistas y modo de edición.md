@@ -20,7 +20,7 @@ Para cambiar a la *vista de lectura*:
 - O presiona `Ctrl+E` (`Cmd+E` en macOS).
 
 > [!note] Nota
-> Activa **[[Configuración]] → Apariencia → Mostrar la barra de título de pestaña** para ver el icono del selector de vista.
+> Activa **[[Configuración]] → Interfaz → Mostrar la barra de título de pestaña** para ver el icono del selector de vista.
 > 
 > Si está desactivado, activa **[[Configuración]] → Editor → Estado del editor** para alternar las vistas desde la barra de estado.
 

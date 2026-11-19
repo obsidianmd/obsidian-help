@@ -29,25 +29,20 @@ Kun muokkaat muistiinpanoa, näet kuvakerivin sovelluksen alareunassa. Toimintoj
 
 ### Mukauta mobiilityökaluriviä
 
-Napauta mobiilityökalurivillä **Mukauta työkalupalkkia** ![[lucide-wrench.svg#icon]] avataksesi mukautuskäyttöliittymän.
+Valitse mobiilityökalurivillä **Mukauta työkalupalkkia** ![[lucide-wrench.svg#icon]] avataksesi sen asetukset.
 
-Vaihtoehtoisesti voit tehdä sen Asetuksissa.
+Voit myös avata **[[Asetukset]] → Käyttöliittymä → Mukauta työkalupalkkia**.
 
-1. Avaa Asetukset.
-2. Valitse **Mobiili**.
-3. Kohdassa **Hallinnoi työkalupalkin vaihtoehtoja** lisää, poista tai järjestä uudelleen käytettävissä olevia vaihtoehtoja.
+Kohdassa **Hallinnoi työkalupalkin vaihtoehtoja** voit järjestellä toimintoja vetokahvoilla ja poistaa niitä poistopainikkeilla. Valitse toiminto kohdasta **Lisää vaihtoehtoja** lisätäksesi sen.
 
 ### Lisää komento mobiilityökaluriviin
 
-Oletuksena työkaluriviin lisättävissä olevat vaihtoehdot ovat muokkaustoimintoja, kuten "Lisää sisäinen linkki" tai "Lisää tunniste".
+Muokkaustoimintojen lisäksi voit lisätä yleisiä komentoja, kuten **Vaihda teemaa**.
 
-Näiden lisäksi voit lisätä yleisiä komentoja, kuten "Vaihda teema".
-
-1. Etsi **Hallinnoi työkalupalkin vaihtoehtoja** kohdasta **[[Asetukset]]** → **Mobiili**.
-2. Vieritä aivan alareunaan ja etsi **Lisää yleinen komento**.
-3. Kirjoita lisättävän komennon nimi.
-4. Valitse komento, jonka haluat lisätä.
-5. Uusi komento lisätään työkalurivin loppuun.
+1. Avaa **[[Asetukset]] → Käyttöliittymä → Mukauta työkalupalkkia**.
+2. Valitse kohdasta **Hallinnoi työkalupalkin vaihtoehtoja** vaihtoehto **Lisää komento...**.
+3. Hae komento, jonka haluat lisätä.
+4. Valitse komento lisätäksesi sen työkalurivin loppuun.
 
 ## Pikavalinta
 
@@ -58,7 +53,7 @@ Pikavalinta avaa oletuksena [[Komentovalikko|komentovalikon]].
 ### Mukauta pikavalintaa
 
 1. Avaa Asetukset.
-2. Valitse kohdasta **Asetukset** vaihtoehto **Työkalurivi**.
+2. Valitse **Käyttöliittymä**.
 3. Kohdassa **Määritä pikavalinta** napauta **Määritä**.
 4. Kirjoita komennon nimi.
 5. Valitse komento, jonka haluat asettaa.

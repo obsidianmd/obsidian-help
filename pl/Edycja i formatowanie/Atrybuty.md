@@ -14,7 +14,7 @@ Istnieje kilka sposobów dodania atrybutu do notatki:
 
 - Użyj [[Lista poleceń|polecenia]] **Dodaj atrybut**.
 - Użyj [[Skróty klawiszowe|skrótu klawiszowego]] **`Cmd/Ctrl+;`**.
-- Wybierz **Dodaj atrybut** z menu **Więcej opcji** (wywoływanego ikoną trzech kropek lub kliknięciem prawym przyciskiem myszy na karcie).
+- Wybierz **Dodaj atrybut** z [[Menu więcej opcji]] (wywoływanego ikoną trzech kropek lub kliknięciem prawym przyciskiem myszy na karcie).
 - Wpisz `---` na samym początku pliku.
 
 Po dodaniu atrybutu na górze pliku pojawi się wiersz z dwoma polami: _nazwą_ atrybutu i _wartością_ atrybutu.

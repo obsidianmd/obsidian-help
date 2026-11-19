@@ -201,7 +201,25 @@ views:
 - `name` é o nome a apresentar, e pode ser usado para definir a vista predefinida.
 - `filters` são exatamente os mesmos descritos acima, mas aplicam-se apenas à vista.
 - `groupBy` especifica uma propriedade e direção de ordenação. O valor da propriedade especificada para cada linha é usado para colocar a linha em grupos.
+- `groupOrder` especifica a ordem e visibilidade dos grupos. Se presente, apenas os grupos cujos valores estão listados são mostrados, nessa ordem. Uma lista vazia oculta todos os grupos. Remova `groupOrder` para mostrar todos os grupos na ordem definida por `groupBy`.
 - `summaries` mapeia nomes de propriedades para um resumo nomeado. Os resumos realizam uma agregação na propriedade ao longo de todas as linhas.
+
+Por exemplo, esta vista mostra apenas os grupos Planned, In progress e Done, nessa ordem:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Use `null` em `groupOrder` para incluir ficheiros que não têm valor para a propriedade agrupada.
 
 As [[Vistas]] podem adicionar dados adicionais para armazenar qualquer informação necessária para manter o estado ou apresentar corretamente, no entanto os autores de plugins devem ter cuidado para não usar chaves já em uso pelo plugin principal Bases. Como exemplo, uma vista de tabela pode usar isto para limitar o número de linhas ou para selecionar qual coluna é usada para ordenar linhas e em que direção. Um tipo de vista diferente, como um mapa, pode usar isto para mapear qual propriedade na nota corresponde à latitude e longitude e qual propriedade deve ser apresentada como título do marcador.
 
@@ -287,7 +305,7 @@ A [[Funções|função]] global `today()` pode ser usada para obter a data atual
 - `now() + "1 day"` devolve uma data e hora exatamente 24 horas a partir do momento da execução.
 - `file.mtime > now() - "1 week"` devolve `true` se o ficheiro foi modificado na última semana.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` devolve um objeto Date representando `2025-01-01 04:03:00`.
-- Subtraia duas datas para obter a diferença em milissegundos entre ambas, por exemplo, `now() - file.ctime`.
+- Subtraia duas datas para obter uma duração, por exemplo, `note.release_date - today()`.
 - Para obter a parte da data de um Date com hora, use `datetime.date()`.
 - Para formatar um objeto Date, use a função `format()`, por exemplo `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ As datas representam uma data específica, ou uma data e hora, dependendo da fun
 
 - Para construir uma data, use a função `date`, por exemplo `date("2025-01-01 12:00:00")`
 - Para modificar uma data, adicione ou remova uma duração, por exemplo `now() + "1 hour"` ou `today() + "7d"`
-- Compare datas usando operadores de comparação (por exemplo, `>` ou `<`) e operadores aritméticos (por exemplo, `(now() + "1d") - now()` devolve `86400000` milissegundos.)
+- Compare datas usando operadores de comparação, por exemplo `>` ou `<`.
+- Subtraia uma data de outra para obter uma duração, por exemplo `note.release_date - today()`.
 - Para extrair partes de uma data, use os campos disponíveis (`now().hour`) ou uma função de conveniência (`now.time()`).
 - Muitos outros [[Funções|campos e funções]] estão disponíveis em objetos de data.
 
@@ -350,7 +369,7 @@ As datas representam uma data específica, ou uma data e hora, dependendo da fun
 
 Os [[Ligar notas|links wiki]] nas [[Propriedades|propriedades de metadados iniciais]] são automaticamente reconhecidos como objetos Link. As ligações serão apresentadas como uma ligação clicável na [[Vistas|vista]].
 
-- Para construir uma ligação, use a [[Funções|função]] global `link`, por exemplo `link("filename")` ou `link("https://obsidian.md")`.
+- Para construir uma ligação, use a [[Funções|função]] global `link`, por exemplo `link("filename")`.
 - Pode criar uma ligação a partir de qualquer string, por exemplo, `link(file.ctime.date().toString())`.
 - Para definir o texto de apresentação, passe uma string opcional ou ícone como segundo parâmetro, por exemplo `link("filename", "display")` ou `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ As ligações podem ser comparadas com `==` e `!=`. São equivalentes desde que 
 As ligações podem ser comparadas com ficheiros como `file` ou `this`. Serão iguais se a ligação resolver para o ficheiro. Por exemplo, `author == this`.
 
 As ligações também podem ser verificadas em listas com contains, por exemplo, `authors.contains(this)`.
+
+### URLs
+
+Os URLs nas [[Propriedades|propriedades de metadados iniciais]] são automaticamente reconhecidos como objetos URL. Os URLs serão apresentados como uma ligação clicável na [[Vistas|vista]].
+
+- Para construir um URL, use a [[Funções|função]] global `link`, por exemplo `link("https://obsidian.md")`.
+- Para definir o texto de apresentação, passe uma string opcional como segundo parâmetro, por exemplo `link("https://obsidian.md", "Obsidian")`.

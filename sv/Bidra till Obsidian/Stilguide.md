@@ -319,8 +319,8 @@ I datorversionen kan du anpassa ribbon på följande sätt:
 I mobilversionen kan du anpassa ribbon via inställningar:
 
 1. Öppna **[[Inställningar]]**.
-2. Navigera till **Utseende**.
-3. Välj **Hantera** under **Ribbon-konfiguration**.
+2. Navigera till **Gränssnitt**.
+3. Välj **Ribbon-meny**.
 ```
 
 > [!info]+ När ska man skapa sektioner?
@@ -346,7 +346,7 @@ Inkludera ikoner och bilder när de gör det lättare att förklara saker som ä
 
 [Lucide](https://lucide.dev/icons/)- och anpassade Obsidian-ikoner kan användas tillsammans med detaljerade element för att ge en visuell representation av en funktion.
 
-**Exempel:** I ribbon till vänster, välj **Skapa ny canvas** ![[lucide-layout-dashboard.svg#icon]] för att skapa en canvas i samma mapp som den aktiva filen.
+**Exempel:** I [[Filutforskare|filutforskaren]], välj **Ny mapp** ![[lucide-folder-plus.svg#icon]] för att skapa en mapp.
 
 **Riktlinjer för ikoner**
 
@@ -354,7 +354,7 @@ Inkludera ikoner och bilder när de gör det lättare att förklara saker som ä
 - Lägg till prefixet `lucide-` före Lucide-ikonnamnet.
 - Lägg till prefixet `obsidian-icon-` före Obsidian-ikonnamnet.
 
-**Exempel:** Ikonen för att skapa en ny canvas bör heta `lucide-layout-dashboard`.
+**Exempel:** Ikonen för att skapa en ny mapp bör heta `lucide-folder-plus`.
 
 - Använd SVG-versionen av de tillgängliga ikonerna.
 - Ikoner bör vara `18` pixlar breda, `18` pixlar höga och ha en linjebredd på `1.5`. Du kan justera dessa inställningar i SVG-datan.

@@ -18,7 +18,7 @@ Folosește modulul oficial [[Importator|Importer]] atunci când dorești să sel
 
 1. Deschide **[[Setări|Setări]] → Module comunitare** și [instalează Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Activează modulul Importer.
-3. Deschide **Importer** folosind [[Paleta de comenzi|paleta de comenzi]] sau pictograma din panglică.
+3. Deschide Importer din Setări sau folosind [[Paleta de comenzi|paleta de comenzi]].
 4. La **Format fișier**, selectează **Markdown (.md, .zip)**.
 5. Alege fișiere Markdown individuale, directoare sau arhive zip.
 6. Revizuiește directoarele detectate, opțiunile de ieșire, șablonul generat și exemplele de previzualizare.

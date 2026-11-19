@@ -274,7 +274,7 @@ Substitui tags HTML, mantendo o conteúdo e os atributos da tag.
 Remove **todos** os atributos HTML de uma cadeia.
 
 - Use `strip_attr:("class, id")` para manter atributos específicos.
-- Exemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div id="example">Content</div>`.
+- Exemplo: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` retorna `<div class="test">Content</div>`.
 
 ### `strip_md`
 

@@ -3,7 +3,6 @@ permalink: edit-and-read
 aliases:
   - Views and editing mode
 ---
-
 Obsidian vă permite să controlați modul în care citiți și editați notele scrise în Markdown folosind _moduri de afișare_ și _moduri de editare_.
 
 - **Modurile de afișare** comută între citirea și editarea notelor dvs.
@@ -23,7 +22,7 @@ Pentru a comuta la *modul de citire*:
 - Sau apăsați `Ctrl+E` (`Cmd+E` pe macOS).
 
 > [!note] Notă
-> Activați **[[Setări]] → Appearance → Show tab title bar** pentru a vedea pictograma comutatorului de mod.  
+> Activați **[[Setări]] → Setări de interfață → Show tab title bar** pentru a vedea pictograma comutatorului de mod.  
 > 
 > Dacă aceasta este dezactivată, activați **[[Setări]] → Editor → Show editing mode in status bar** pentru a comuta modurile de afișare din bara de stare.
 
@@ -70,4 +69,3 @@ Pentru a comuta la *modul sursă*:
 
 > [!tip] Comutați *modul de editare*
 > Pentru a comuta rapid între *Live Preview* și *modul sursă*, puteți seta o [[Combinații de taste|combinație de taste]] pentru comanda **Comutați modul previzualizare în direct/sursă** din [[Paleta de comenzi|Paleta de comenzi]].
-

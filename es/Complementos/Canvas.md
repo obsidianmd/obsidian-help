@@ -1,5 +1,6 @@
 ---
 permalink: plugins/canvas
+mobile: true
 ---
 Canvas es un [[Complementos principales|complemento principal]] para la toma de notas visuales. Te ofrece un espacio infinito para disponer notas y conectarlas con otras notas, adjuntos y páginas web.
 
@@ -64,6 +65,8 @@ También puedes agregar notas desde el menú contextual del lienzo:
 
 También puedes arrastrar notas desde el [[Explorador de archivos]] al lienzo.
 
+Para mostrar solo una parte de una nota en una tarjeta, haz clic derecho en la tarjeta y selecciona **Acotar al encabezado...** o **Acotar al bloque...**. Luego elige el encabezado o bloque.
+
 ### Agregar tarjetas desde medios
 
 Para agregar medios de tu bóveda a tu lienzo:
@@ -87,7 +90,24 @@ Para incrustar una página web en tu lienzo:
 
 También puedes seleccionar una URL en tu navegador y arrastrarla al lienzo para incrustarla en una tarjeta.
 
-Para abrir la página web en tu navegador, presiona `Ctrl` (o `Cmd` en macOS) y selecciona la etiqueta de la tarjeta. O haz clic derecho en la tarjeta y selecciona **Abrir en el navegador**.
+Para abrir la página web en tu navegador, presiona `Ctrl` (o `Cmd` en macOS) y selecciona la etiqueta de la tarjeta. O haz clic derecho en la tarjeta y selecciona **Abrir enlace externo**.
+
+Haz clic derecho en una tarjeta de página web para más opciones.
+
+- **Copiar dirección URL** copia la dirección de la página web.
+- **Cambiar la URL...** cambia la dirección que muestra la tarjeta.
+- **Recargar página** carga la página web de nuevo.
+
+### Agregar tarjetas desde bases
+
+Para mostrar una [[Introducción a Bases|base]] en tu lienzo, arrastra el archivo de base desde el Explorador de archivos al lienzo. La tarjeta muestra la base.
+
+Una tarjeta de base muestra la vista predeterminada de la base. Para mostrar una vista diferente:
+
+1. Haz clic derecho en la tarjeta y selecciona **Fijar vista...**.
+2. Selecciona la vista que deseas.
+
+Para volver a la vista predeterminada, selecciona **Fijar vista...** de nuevo, y luego selecciona **Mostrar vista predeterminada**.
 
 ### Agregar tarjetas desde carpetas
 
@@ -97,7 +117,7 @@ Arrastra una carpeta desde el [[Explorador de archivos]] para agregar todos los 
 
 Haz doble clic en una tarjeta de texto o nota para comenzar a editarla. Selecciona cualquier lugar fuera de la tarjeta para dejar de editarla. También puedes presionar `Escape` para dejar de editar una tarjeta.
 
-También puedes editar una tarjeta haciendo clic derecho en ella y seleccionando **Editar**.
+También puedes editar una tarjeta haciendo clic derecho en ella y seleccionando **Editar**. O selecciona la tarjeta y luego selecciona **Editar** ![[lucide-square-pen.svg#icon]] en los controles de selección.
 
 ### Eliminar una tarjeta
 
@@ -145,6 +165,16 @@ Puedes presionar `Space` mientras redimensionas para desactivar el ajuste autom�
 
 Para mantener la relación de aspecto mientras redimensionas, presiona `Shift` mientras redimensionas.
 
+### Alinear y ordenar tarjetas
+
+Para alinear varias tarjetas, selecciona dos o más tarjetas. En los controles de selección, selecciona **Alinear**, y luego elige una opción.
+
+- **Alinear a la izquierda**, **Alinear al centro** y **Alinear a la derecha** alinean las tarjetas en una línea vertical.
+- **Alinear arriba**, **Alinear al medio** y **Alinear abajo** alinean las tarjetas en una línea horizontal.
+- **Ordenar en una fila**, **Ordenar en una columna** y **Ordenar en una grilla** mueven las tarjetas a esa disposición.
+- **Distribuir horizontalmente** y **Distribuir verticalmente** espacian las tarjetas uniformemente.
+- **Justificar horizontalmente** y **Justificar verticalmente** redimensionan cada tarjeta para que coincida con el ancho o alto total de la selección.
+
 ## Conectar tarjetas
 
 Dibuja líneas entre tarjetas para mostrar relaciones. Agrega colores y etiquetas para describir cómo se relacionan.
@@ -177,7 +207,7 @@ Para mover uno de los extremos de una línea de conexión:
 
 ### Navegar por una conexión
 
-Si dos tarjetas conectadas están muy separadas, puedes navegar hacia el origen o el destino de la conexión haciendo clic derecho en la línea y seleccionando **Ir al destino** o **Ir al origen**.
+Si dos tarjetas conectadas están muy separadas, puedes saltar a la tarjeta en el otro extremo de la conexión. Haz clic derecho en la línea cerca de un extremo y selecciona **Seguir conexión**. El lienzo se mueve a la tarjeta en el extremo opuesto.
 
 ### Agregar una etiqueta a una conexión
 
@@ -191,6 +221,16 @@ Para etiquetar una conexión:
 También puedes etiquetar una conexión seleccionándola y luego seleccionando **Editar etiqueta** en los controles de selección.
 
 Para editar la etiqueta de una conexión, haz doble clic en la línea, o haz clic derecho en la línea y selecciona **Editar etiqueta**.
+
+Para eliminar una etiqueta, selecciona la conexión y luego selecciona **Eliminar etiqueta** en los controles de selección.
+
+### Cambiar la dirección de una conexión
+
+De forma predeterminada, una conexión tiene una flecha en el extremo que apunta a la segunda tarjeta. Para cambiar esto:
+
+1. Selecciona la conexión.
+2. En los controles de selección, selecciona **Dirección de línea**.
+3. Elige **No direccional**, **Unidireccional** o **Bidireccional**.
 
 ### Cambiar el color de una tarjeta o conexión
 
@@ -212,6 +252,22 @@ Para agrupar tarjetas relacionadas:
 2. Haz clic derecho en cualquiera de las tarjetas seleccionadas y selecciona **Crear grupo**.
 
 **Renombrar grupo:** Haz doble clic en el nombre del grupo para editarlo, y luego presiona `Enter` para guardar.
+
+### Agregar un fondo a un grupo
+
+Puedes mostrar una imagen detrás de las tarjetas en un grupo.
+
+1. Selecciona el grupo.
+2. En los controles de selección, selecciona **Definir fondo**.
+3. Elige una imagen de tu bóveda.
+
+Para cambiar el fondo, selecciona el grupo y luego selecciona **Editar fondo**.
+
+- **Reemplazar fondo** elige una imagen diferente.
+- **Eliminar fondo** elimina la imagen.
+- **Portada** hace que la imagen llene el grupo.
+- **Mantener relación de aspecto** mantiene las proporciones de la imagen.
+- **Repetir** repite la imagen en mosaico a lo largo del grupo.
 
 ## Navegar por el lienzo
 
@@ -241,9 +297,169 @@ Para ampliar el lienzo de modo que todos los elementos seleccionados sean visibl
 
 Para cambiar el nivel de zoom al predeterminado, selecciona **Reiniciar zoom** en los controles de zoom en la esquina superior derecha.
 
+
+### Saltar a un grupo
+
+Para ir directamente a un grupo en un lienzo grande, abre la paleta de comandos y selecciona **Canvas: Saltar a un grupo**. Aparece una lista de los grupos en tu lienzo. Selecciona el grupo al que deseas ir, y el lienzo se mueve para centrarse en él.
+
+## Ajustes de Canvas
+
+Selecciona **Ajustes de lienzo** ![[lucide-settings.svg#icon]] sobre los controles del lienzo para cambiar el comportamiento de tu lienzo.
+
+- **Ajustar a la cuadrícula** ajusta las tarjetas a la cuadrícula de fondo cuando las mueves y redimensionas.
+- **Ajustar a objetos** ajusta las tarjetas a las tarjetas cercanas cuando las mueves y redimensionas.
+- **Solo lectura** impide cambios en el lienzo.
+
+## Exportar un lienzo como imagen
+
+Puedes exportar un lienzo como imagen PNG en escritorio. La exportación de imagen no está disponible en la aplicación de Obsidian en móvil.
+
+1. Abre el lienzo que deseas exportar.
+2. Abre la paleta de comandos y selecciona **Canvas: Exportar como imagen**.
+3. Elige tus ajustes.
+    - **Vista** establece qué exportar. Selecciona **lienzo completo** para todo el lienzo, o **Solo la vista** para la parte que puedes ver ahora.
+    - **Ampliar** establece la calidad de la imagen. Un zoom mayor produce una imagen más grande y nítida. El diálogo muestra el tamaño estimado de la imagen.
+    - **Mostrar logo** agrega un logo de Obsidian en la esquina inferior izquierda. Está activado por defecto.
+    - **Modo de privacidad** oculta todo el texto en tu lienzo. Está desactivado por defecto.
+4. Selecciona **Guardar**.
+5. Elige dónde guardar el archivo. El nombre del archivo es por defecto el nombre de tu lienzo, con la extensión `.png`.
+
+No puedes exportar un lienzo vacío.
+
+## Deshacer y rehacer
+
+Para deshacer tu último cambio, selecciona **Deshacer** en los controles del lienzo en el lado derecho del lienzo. O presiona `Ctrl+Z` (Windows y Linux) o `Command+Z` (macOS).
+
+Para rehacer un cambio, selecciona **Rehacer**. O presiona `Ctrl+Y` o `Ctrl+Shift+Z` (Windows y Linux), o `Command+Y` o `Command+Shift+Z` (macOS).
+
+## Ayuda de Canvas
+
+En escritorio, selecciona **Ayuda de lienzo** ![[lucide-help-circle.svg#icon]] debajo de los controles del lienzo para ver una lista de los atajos para panear, ampliar, seleccionar y mover tarjetas.
+
 ## Incrustar un lienzo
 
 Puedes incrustar un lienzo en una nota usando la sintaxis estándar de incrustación. Para más información, consulta [[Incrustar archivos#Embed a canvas in a note|Incrustar un lienzo en una nota]].
+
+## Usar Canvas en móvil
+
+Cuando abres un lienzo en un teléfono o tableta, Obsidian muestra tres indicaciones.
+
+- **Arrastrar para panear**
+- **Pellizcar para hacer zoom**
+- **Pulsar y mantener para agregar / mover / seleccionar**
+
+### Abrir el menú del lienzo
+
+Pulsa y mantén en un área vacía del lienzo. El menú tiene estos elementos.
+
+- **Agregar tarjeta** agrega una tarjeta de texto.
+- **Agregar nota desde la bóveda** agrega una nota de tu bóveda.
+- **Agregar medio desde la bóveda** agrega medios de tu bóveda.
+- **Agregar página web** incrusta una página web.
+- **Crear grupo** crea un grupo vacío.
+- **Ajustar a la cuadrícula**, **Ajustar a objetos** y **Solo lectura** son las mismas opciones que en **Ajustes de lienzo**.
+
+### Agregar tarjetas
+
+Puedes agregar tarjetas desde el menú del lienzo. También puedes seleccionar un icono en la parte inferior del lienzo.
+
+- El icono de archivo vacío agrega una tarjeta de texto.
+- El icono de documento agrega una nota de tu bóveda.
+- El icono de imagen agrega medios de tu bóveda.
+
+### Trabajar con una tarjeta seleccionada
+
+Toca una tarjeta para seleccionarla. Aparece una barra de herramientas sobre la tarjeta.
+
+- **Eliminar** ![[lucide-trash-2.svg#icon]] elimina la tarjeta.
+- **Definir color** ![[lucide-palette.svg#icon]] cambia el color de la tarjeta.
+- **Acercar a la selección** amplía el lienzo a la tarjeta.
+- **Editar** ![[lucide-square-pen.svg#icon]] edita la tarjeta.
+
+### Mover una tarjeta
+
+1. Toca la tarjeta para seleccionarla.
+2. Pulsa y mantén la tarjeta seleccionada, y luego arrástrala a una nueva posición.
+
+### Redimensionar una tarjeta
+
+1. Toca la tarjeta para seleccionarla.
+2. Arrastra los lados de la tarjeta para hacerla más grande o más pequeña.
+
+### Abrir el menú de la tarjeta
+
+Pulsa y mantén una tarjeta. El menú tiene estos elementos.
+
+- **Acercar a la selección** amplía el lienzo a la tarjeta.
+- **Editar** edita la tarjeta.
+- **Convertir a archivo...** convierte una tarjeta de texto en una nota.
+- **Duplicar** hace una copia de la tarjeta.
+- **Eliminar** elimina la tarjeta.
+
+### Editar una tarjeta
+
+Para editar una tarjeta de texto o una tarjeta de nota, usa cualquiera de los dos métodos.
+
+- Toca la tarjeta para seleccionarla, y luego tócala dos veces. Se abre el teclado.
+- Toca la tarjeta para seleccionarla, y luego selecciona **Editar** ![[lucide-square-pen.svg#icon]] en la barra de herramientas sobre la tarjeta.
+
+### Etiquetar una conexión
+
+1. Toca la línea para seleccionarla.
+2. En la barra de herramientas, selecciona **Editar etiqueta** ![[lucide-square-pen.svg#icon]]. Se abre el teclado.
+3. Ingresa la etiqueta.
+
+Para eliminar una etiqueta, toca la línea y luego selecciona **Eliminar etiqueta** en la barra de herramientas.
+
+### Cambiar la dirección de una conexión
+
+1. Toca la línea para seleccionarla.
+2. En la barra de herramientas, selecciona **Dirección de línea**.
+3. Elige **No direccional**, **Unidireccional** o **Bidireccional**.
+
+### Abrir el menú de la línea
+
+Pulsa y mantén una línea que conecta dos tarjetas. El menú tiene estos elementos.
+
+- **Editar etiqueta** agrega o cambia la etiqueta de la línea.
+- **Seguir conexión** mueve el lienzo a la tarjeta en el extremo opuesto de la línea.
+- **Eliminar** elimina la conexión.
+
+### Conectar tarjetas
+
+1. Toca una tarjeta para seleccionarla.
+2. Arrastra uno de los círculos en sus bordes hacia otra tarjeta.
+
+Si arrastras la línea y la sueltas en un área vacía, se abre un menú con **Agregar tarjeta** y **Agregar nota desde la bóveda**. Selecciona uno para agregar una tarjeta al final de la línea.
+
+### Desconectar tarjetas
+
+Para eliminar una conexión, usa cualquiera de los dos métodos.
+
+- Toca la línea, y luego selecciona **Eliminar** ![[lucide-trash-2.svg#icon]].
+- Arrastra el extremo de la flecha de la línea de vuelta a la tarjeta de donde partió. La línea desaparece.
+
+### Agrupar tarjetas
+
+Para crear un grupo:
+
+1. Pulsa y mantén en un área vacía del lienzo.
+2. Selecciona **Crear grupo**.
+3. Arrastra los bordes del grupo para cambiar su tamaño.
+
+Para agregar tarjetas a un grupo, arrástralas dentro del área del grupo. Cuando mueves el grupo, las tarjetas dentro de él también se mueven.
+
+Para renombrar un grupo, toca dos veces su nombre. Se abre el teclado. Ingresa el nuevo nombre.
+
+### Controles del lienzo
+
+Los controles en el lado derecho del lienzo cambian la vista y tus ajustes.
+
+- **Acercar** y **Alejar** cambian el nivel de zoom.
+- **Reiniciar zoom** devuelve el lienzo al nivel de zoom predeterminado.
+- **Acercar para ajustar** muestra todas las tarjetas del lienzo.
+- **Deshacer** y **Rehacer** revierten o repiten tu último cambio.
+- **Ajustes de lienzo** tiene las opciones **Ajustar a la cuadrícula**, **Ajustar a objetos** y **Solo lectura**.
 
 ## Consejos avanzados
 

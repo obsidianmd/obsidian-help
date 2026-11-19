@@ -286,6 +286,22 @@ translation=อ็อบเจกต์และรายการ
 original=Files and links
 translation=ไฟล์และลิงก์
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=จัดกลุ่มการ์ดเป็นคอลัมน์
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=ทำงานกับการ์ดและคอลัมน์
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=ซ่อนคอลัมน์ว่าง
+
+[heading.bases/Column width]
+original=Column width
+translation=ความกว้างคอลัมน์
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=สิ่งที่สูตรทำได้
@@ -4166,34 +4182,94 @@ translation=แถบด้านข้าง
 original=Frequently asked questions
 translation=คำถามที่พบบ่อย
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=จัดกลุ่มการ์ดเป็นคอลัมน์
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=เปิดเมนู
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=ทำงานกับการ์ดและคอลัมน์
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=เดสก์ท็อป
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=การตั้งค่า
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=มุมมองและเลย์เอาต์
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=ซ่อนคอลัมน์ว่าง
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=จัดการโน้ต
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=ความกว้างคอลัมน์
+[heading.more-options-menu/Find]
+original=Find
+translation=ค้นหา
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=คุณสมบัติรูปภาพ
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=เส้นทาง ประวัติ และมุมมองที่ลิงก์
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=การจัดพอดีรูปภาพ
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=คอมพิวเตอร์ของคุณ
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=อัตราส่วนภาพ
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=เมนูแท็บ
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=มือถือ
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=เปิดค้นหาและแทนที่
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=ค้นหาผลลัพธ์ที่ตรงกัน
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=แทนที่ผลลัพธ์ที่ตรงกัน
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=เปิด PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=นำทางใน PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=เปลี่ยนลักษณะการแสดง PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=ค้นหาใน PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=คัดลอกข้อความจาก PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=ฝัง PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=ส่งออกโน้ตเป็น PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=ส่งออกโน้ตจาก Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=นำเข้าข้อมูล Samsung Notes ของคุณเข้าสู่ Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=ข้อจำกัด
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=เทมเพลต

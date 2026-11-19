@@ -50,8 +50,6 @@ Luodaksesi linkin muokkausnäkymässä voit käyttää jompaakumpaa seuraavista 
 - Valitse tekstiä muokkaimessa ja kirjoita sitten `[[`.
 - Avaa [[Komentovalikko]] ja valitse sitten Lisää sisäinen linkki.
 
-![[Pikavaihdin#^search-autocomplete-large]]
-
 Vaikka voit linkittää mihin tahansa [[Hyväksytyt tiedostomuodot|hyväksyttyyn tiedostomuotoon]], muihin kuin Markdown-tiedostoihin linkittäminen vaatii tiedostopäätteen, kuten `[[Kuva 1.png]]`.
 
 > [!tip] Sisäisen linkin eteen lisätty huutomerkki (!) mahdollistaa linkitetyn sisällön upottamisen. Lisätietoja löydät kohdasta [[Upota tiedostoja]].
@@ -131,7 +129,7 @@ Voit myös hakea linkitettäviä lohkoja koko holvista käyttämällä syntaksia
 > [!info]- Kuvakaappaus lohkolinkin hakemisesta
 > ![[link-block-heading.png#interface]]
 
-Voit myös luoda ihmisen luettavia lohkotunnisteita lisäämällä välilyönnin, sirkumfleksin (`^`) ja tunnisteen. Lohkotunnisteet voivat sisältää vain latinalaisia kirjaimia, numeroita ja tavuviivoja.
+Voit myös luoda ihmisen luettavia lohkotunnisteita lisäämällä välilyönnin, sirkumfleksin (`^`) ja tunnisteen. Lohkotunnisteet voivat sisältää vain kirjaimia A–Z ja a–z, numeroita 0–9 ja tavuviivoja.
 
 Lisää esimerkiksi `^quote-of-the-day` lohkon loppuun:
 

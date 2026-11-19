@@ -319,8 +319,8 @@ V desktopové verzi můžete postranní panel nástrojů přizpůsobit následov
 V mobilní verzi můžete postranní panel nástrojů přizpůsobit přes nastavení:
 
 1. Otevřete **[[Nastavení]]**.
-2. Přejděte na **Vzhled**.
-3. Klikněte na **Spravovat** pod **Ribbon Nastavení**.
+2. Přejděte na **Rozhraní**.
+3. Klikněte na **Ribbon nabídka**.
 ```
 
 > [!info]+ Kdy vytvářet sekce?
@@ -346,7 +346,7 @@ Vkládejte ikony a obrázky, když usnadňují vysvětlení věcí, které je ob
 
 Ikony [Lucide](https://lucide.dev/icons/) a vlastní ikony Obsidian lze používat vedle detailních prvků k poskytnutí vizuální reprezentace funkce.
 
-**Příklad:** V postranním panelu nástrojů vlevo vyberte **Vytvořit nový canvas** ![[lucide-layout-dashboard.svg#icon]] pro vytvoření canvasu ve stejné složce jako aktivní soubor.
+**Příklad:** V [[Průzkumník souborů|průzkumníku souborů]] vyberte **Nová složka** ![[lucide-folder-plus.svg#icon]] pro vytvoření složky.
 
 **Pravidla pro ikony**
 
@@ -354,7 +354,7 @@ Ikony [Lucide](https://lucide.dev/icons/) a vlastní ikony Obsidian lze použív
 - Přidejte předponu `lucide-` před název ikony Lucide.
 - Přidejte předponu `obsidian-icon-` před název ikony Obsidian.
 
-**Příklad:** Ikona pro vytvoření nového canvasu by měla být pojmenována `lucide-layout-dashboard`.
+**Příklad:** Ikona pro vytvoření nové složky by měla být pojmenována `lucide-folder-plus`.
 
 - Používejte SVG verzi dostupných ikon.
 - Ikony by měly mít šířku `18` pixelů, výšku `18` pixelů a šířku tahu `1.5`. Tato nastavení můžete upravit v datech SVG.

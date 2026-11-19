@@ -11,11 +11,14 @@ Ví dụ, bạn có thể muốn tạo một cơ sở có tên "Sách" với cá
 
 - ![[lucide-table.svg#icon]] **Menu chế độ xem** — tạo, chỉnh sửa và chuyển đổi chế độ xem.
 - **Kết quả** — giới hạn, sao chép và xuất tệp.
-- ![[lucide-arrow-up-down.svg#icon]] **Sắp xếp** — sắp xếp và nhóm tệp.
+- ![[lucide-arrow-up-down.svg#icon]] **Sắp xếp** — sắp xếp tệp.
+- ![[lucide-stretch-horizontal.svg#icon]] **Nhóm** — nhóm tệp và quản lý thứ tự và khả năng hiển thị nhóm.
 - ![[lucide-list-filter.svg#icon]] **Bộ lọc** — lọc tệp.
 - ![[lucide-list.svg#icon]] **Thuộc tính** — chọn thuộc tính để hiển thị và tạo [[Công thức|công thức]].
 - ![[lucide-search.svg#icon]] **Tìm kiếm** — tìm kiếm mục bằng các thuộc tính hiển thị.
 - ![[lucide-plus.svg#icon]] **Mới** — tạo tệp mới trong chế độ xem hiện tại.
+
+Trên điện thoại, **Kết quả**, **Sắp xếp**, ![[lucide-stretch-horizontal.svg#icon]] **Nhóm**, và **Thuộc tính** nằm trong menu ![[lucide-sliders-horizontal.svg#icon]] **Hiển thị**.
 
 ## Thêm và chuyển đổi chế độ xem
 
@@ -37,7 +40,7 @@ Ngoài ra, *nhấp chuột phải* vào tên chế độ xem trong thanh công c
 
 ## Bố cục
 
-Các chế độ xem có thể được hiển thị với các bố cục khác nhau bao gồm ![[lucide-table.svg#icon]] **bảng**, ![[lucide-list.svg#icon]] **danh sách**, ![[lucide-layout-grid.svg#icon]] **thẻ**, ![[lucide-kanban-square.svg#icon]] **Kanban**, và ![[lucide-map.svg#icon]] **bản đồ**. Các bố cục bổ sung có thể được thêm bởi [[Phần mở rộng từ cộng đồng]]. Một số bố cục vẫn đang được phát triển và yêu cầu [[Phiên bản truy cập sớm|phiên bản truy cập sớm]] của Obsidian.
+Các chế độ xem có thể được hiển thị với các bố cục khác nhau bao gồm ![[lucide-table.svg#icon]] **bảng**, ![[lucide-list.svg#icon]] **danh sách**, ![[lucide-layout-grid.svg#icon]] **thẻ**, ![[lucide-kanban-square.svg#icon]] **Kanban**, và ![[lucide-map.svg#icon]] **bản đồ**. Các bố cục bổ sung có thể được thêm bởi [[Phần mở rộng từ cộng đồng]].
 
 | Bố cục                              | Mô tả                                                                                                             | Phiên bản ứng dụng |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------- |
@@ -83,16 +86,16 @@ Nhấp vào nút mã ![[lucide-code-xml.svg#icon]] để sử dụng trình ch�
 
 ## Sắp xếp và nhóm kết quả
 
-Mở menu ![[lucide-arrow-up-down.svg#icon]] **Sắp xếp** để sắp xếp và nhóm kết quả trong chế độ xem.
+Sử dụng menu ![[lucide-arrow-up-down.svg#icon]] **Sắp xếp** để sắp xếp kết quả, và menu ![[lucide-stretch-horizontal.svg#icon]] **Nhóm** để tổ chức các mục tương tự thành các phần.
 
 Bạn có thể sắp xếp kết quả theo một hoặc nhiều thuộc tính theo thứ tự tăng dần hoặc giảm dần. Điều này giúp dễ dàng liệt kê ghi chú theo tên, thời gian chỉnh sửa cuối cùng, hoặc bất kỳ thuộc tính nào khác — bao gồm cả công thức.
 
-Bạn cũng có thể nhóm kết quả theo một thuộc tính để tổ chức các mục tương tự thành các phần riêng biệt trực quan. Hiện tại, Obsidian hỗ trợ nhóm theo chỉ một thuộc tính.
+Mỗi chế độ xem có thể có nhiều sắp xếp, nhưng chỉ có thể nhóm kết quả theo một thuộc tính.
 
 ### Thêm sắp xếp
 
 1. Mở menu ![[lucide-arrow-up-down.svg#icon]] **Sắp xếp** ở đầu chế độ xem.
-2. Chọn thuộc tính bạn muốn sắp xếp (hoặc nhóm) theo.
+2. Chọn **Thêm sắp xếp**, sau đó chọn thuộc tính bạn muốn sắp xếp theo.
 3. Nếu bạn có nhiều sắp xếp, kéo chúng lên hoặc xuống bằng tay nắm ![[lucide-grip-vertical.svg#icon]] để thay đổi mức ưu tiên.
 
 Các tùy chọn sắp xếp kết quả phụ thuộc vào loại thuộc tính:
@@ -104,7 +107,29 @@ Các tùy chọn sắp xếp kết quả phụ thuộc vào loại thuộc tính
 ### Xóa sắp xếp
 
 1. Mở menu ![[lucide-arrow-up-down.svg#icon]] **Sắp xếp** ở đầu chế độ xem.
-2. Nhấp vào nút thùng rác ![[lucide-trash-2.svg#icon]] bên cạnh sắp xếp hoặc nhóm bạn muốn xóa.
+2. Chọn nút thùng rác ![[lucide-trash-2.svg#icon]] bên cạnh sắp xếp bạn muốn xóa.
+
+### Nhóm kết quả
+
+1. Mở menu ![[lucide-stretch-horizontal.svg#icon]] **Nhóm** ở đầu chế độ xem. Trên điện thoại, mở **Hiển thị → Nhóm**.
+2. Trong **Nhóm theo**, chọn một thuộc tính.
+3. Chọn thứ tự sắp xếp tự động, hoặc chọn **Thủ công** để tự sắp xếp thứ tự các nhóm.
+
+Để ngừng nhóm kết quả, chọn nút thùng rác ![[lucide-trash-2.svg#icon]] bên cạnh thuộc tính nhóm.
+
+### Sắp xếp lại, ẩn và thêm nhóm
+
+Trong menu ![[lucide-stretch-horizontal.svg#icon]] **Nhóm**, chọn **Thủ công** từ menu thứ tự sắp xếp để quản lý các nhóm xuất hiện và thứ tự của chúng.
+
+- Đánh dấu một nhóm để hiển thị, hoặc bỏ đánh dấu để ẩn. Chọn **Hiển thị tất cả** hoặc **Ẩn tất cả** để thay đổi khả năng hiển thị của tất cả các nhóm.
+- Kéo tay nắm ![[lucide-grip-vertical.svg#icon]] bên cạnh nhóm để thay đổi vị trí của nó.
+- Chọn **Thêm nhóm** và nhập giá trị để hiển thị một nhóm mới, trống. Điều này không tạo ghi chú hoặc thay đổi ghi chú hiện có.
+
+Để khôi phục thứ tự nhóm tự động và hiển thị tất cả các nhóm, chọn thứ tự sắp xếp tự động thay vì **Thủ công**.
+
+### Thu gọn nhóm
+
+Trong bố cục [[Chế độ xem bảng|bảng]], [[Chế độ xem thẻ|thẻ]], và [[Chế độ xem danh sách|danh sách]], chọn tiêu đề nhóm để thu gọn hoặc mở rộng nhóm đó. Thu gọn nhóm tạm thời ẩn các mục của nó mà không thay đổi thuộc tính của chúng.
 
 ## Giới hạn, sao chép và xuất kết quả
 

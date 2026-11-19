@@ -201,7 +201,25 @@ views:
 - `name` ist der Anzeigename und kann verwendet werden, um die Standardansicht zu definieren.
 - `filters` sind genau wie oben beschrieben, gelten aber nur für die Ansicht.
 - `groupBy` gibt eine Eigenschaft und Sortierrichtung an. Der Wert der angegebenen Eigenschaft für jede Zeile wird verwendet, um die Zeile in Gruppen einzuordnen.
+- `groupOrder` gibt die Reihenfolge und Sichtbarkeit von Gruppen an. Wenn vorhanden, werden nur Gruppen angezeigt, deren Werte aufgelistet sind, und zwar in dieser Reihenfolge. Eine leere Liste blendet alle Gruppen aus. Entferne `groupOrder`, um alle Gruppen in der durch `groupBy` definierten Reihenfolge anzuzeigen.
 - `summaries` ordnet Eigenschaftsnamen einer benannten Zusammenfassung zu. Zusammenfassungen führen eine Aggregation der Eigenschaft über alle Zeilen durch.
+
+Diese Ansicht zeigt beispielsweise nur die Gruppen „Planned", „In progress" und „Done" an, und zwar in dieser Reihenfolge:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Verwende `null` in `groupOrder`, um Dateien einzuschließen, die keinen Wert für die gruppierte Eigenschaft haben.
 
 [[Ansichten]] können zusätzliche Daten speichern, um alle Informationen zu erhalten, die zur Zustandsverwaltung oder korrekten Darstellung benötigt werden. Erweiterungsautoren sollten jedoch darauf achten, keine Schlüssel zu verwenden, die bereits von der integrierten Bases-Erweiterung verwendet werden. Beispielsweise kann eine Tabellenansicht dies nutzen, um die Anzahl der Zeilen zu begrenzen oder auszuwählen, welche Spalte zur Sortierung der Zeilen verwendet wird und in welcher Richtung. Ein anderer Ansichtstyp wie eine Karte könnte dies verwenden, um festzulegen, welche Eigenschaft in der Notiz dem Breiten- und Längengrad entspricht und welche Eigenschaft als Pin-Titel angezeigt werden soll.
 
@@ -287,7 +305,7 @@ Die globale [[Funktionen|Funktion]] `today()` kann verwendet werden, um das aktu
 - `now() + "1 day"` gibt einen Zeitpunkt zurück, der genau 24 Stunden nach dem Ausführungszeitpunkt liegt.
 - `file.mtime > now() - "1 week"` gibt `true` zurück, wenn die Datei innerhalb der letzten Woche geändert wurde.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` gibt ein Datumsobjekt zurück, das `2025-01-01 04:03:00` darstellt.
-- Subtrahiere zwei Daten, um die Millisekundendifferenz zwischen beiden zu erhalten, zum Beispiel `now() - file.ctime`.
+- Subtrahiere zwei Daten, um eine Zeitspanne zu erhalten, zum Beispiel `note.release_date - today()`.
 - Um den Datumsanteil eines Datums mit Uhrzeit zu erhalten, verwende `datetime.date()`.
 - Um ein Datumsobjekt zu formatieren, verwende die Funktion `format()`, zum Beispiel `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Daten repräsentieren ein bestimmtes Datum oder ein Datum mit Uhrzeit, abhängig
 
 - Um ein Datum zu erstellen, verwende die Funktion `date`, zum Beispiel `date("2025-01-01 12:00:00")`
 - Um ein Datum zu ändern, addiere oder subtrahiere eine Zeitspanne, zum Beispiel `now() + "1 hour"` oder `today() + "7d"`
-- Vergleiche Daten mit Vergleichsoperatoren (z.B. `>` oder `<`) und arithmetischen Operatoren (zum Beispiel gibt `(now() + "1d") - now()` `86400000` Millisekunden zurück.)
+- Vergleiche Daten mit Vergleichsoperatoren, zum Beispiel `>` oder `<`.
+- Subtrahiere ein Datum von einem anderen, um eine Zeitspanne zu erhalten, zum Beispiel `note.release_date - today()`.
 - Um Teile eines Datums zu extrahieren, verwende die verfügbaren Felder (`now().hour`) oder eine Komfortfunktion (`now.time()`).
 - Viele weitere [[Funktionen|Felder und Funktionen]] sind für Datumsobjekte verfügbar.
 
@@ -350,7 +369,7 @@ Daten repräsentieren ein bestimmtes Datum oder ein Datum mit Uhrzeit, abhängig
 
 [[Notizen verknüpfen|Wiki-Links]] in [[Eigenschaften|Frontmatter-Eigenschaften]] werden automatisch als Link-Objekte erkannt. Links werden als anklickbarer Link in der [[Ansichten|Ansicht]] dargestellt.
 
-- Um einen Link zu erstellen, verwende die globale `link`-[[Funktionen|Funktion]], zum Beispiel `link("filename")` oder `link("https://obsidian.md")`.
+- Um einen Link zu erstellen, verwende die globale `link`-[[Funktionen|Funktion]], zum Beispiel `link("filename")`.
 - Du kannst aus jedem String einen Link erstellen, zum Beispiel `link(file.ctime.date().toString())`.
 - Um den Anzeigetext festzulegen, übergib einen optionalen String oder ein Symbol als zweiten Parameter, zum Beispiel `link("filename", "display")` oder `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Links können mit `==` und `!=` verglichen werden. Sie sind gleichwertig, solang
 Links können mit Dateien wie `file` oder `this` verglichen werden. Sie sind gleich, wenn der Link zur Datei aufgelöst wird. Zum Beispiel `author == this`.
 
 Links können auch in Listen-Contains-Prüfungen verwendet werden, zum Beispiel `authors.contains(this)`.
+
+### URLs
+
+URLs in [[Eigenschaften|Frontmatter-Eigenschaften]] werden automatisch als URL-Objekte erkannt. URLs werden als anklickbarer Link in der [[Ansichten|Ansicht]] dargestellt.
+
+- Um eine URL zu erstellen, verwende die globale `link`-[[Funktionen|Funktion]], zum Beispiel `link("https://obsidian.md")`.
+- Um den Anzeigetext festzulegen, übergib einen optionalen String als zweiten Parameter, zum Beispiel `link("https://obsidian.md", "Obsidian")`.

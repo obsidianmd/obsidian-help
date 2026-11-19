@@ -13,6 +13,7 @@ Les fórmules et poden ajudar a:
 - **Treballar amb dates**, calcular diferències de temps, formatar dates o determinar terminis.
 - **Aplicar lògica**, utilitzar sentències condicionals per mostrar valors diferents.
 - **Processar llistes**, filtrar, ordenar, mapejar o agregar dades de llistes.
+- **Utilitzar notes enllaçades**, consultar o agregar propietats de les notes a les quals una nota enllaça. Consulta [[#Utilitzar propietats de notes enllaçades]].
 
 ## Crear una propietat de fórmula
 
@@ -90,6 +91,59 @@ Les funcions realitzen operacions sobre valors. Les funcions disponibles depenen
 - `file.name.lower()` per convertir a minúscules.
 - `tags.contains("urgent")` per comprovar si la llista d'etiquetes conté un valor.
 - `due_date.format("YYYY-MM-DD")` per formatar una data.
+
+## Utilitzar propietats de notes enllaçades
+
+Les fórmules poden llegir propietats de les notes a les quals una nota enllaça. Pots consultar un valor d'una nota enllaçada, o agregar valors de diverses notes enllaçades en un total, un recompte o una llista.
+
+Per llegir les propietats d'una nota enllaçada, converteix l'enllaç en un fitxer amb `asFile()` i després utilitza `properties`. Els enllaços emmagatzemats en propietats, com ara `project: "[[Redisseny del web]]"`, funcionen d'aquesta manera directament.
+
+> [!warning] Els resultats s'actualitzen quan canvia la nota de la fila
+> Si només edites una nota enllaçada, les consultes i agregacions a la base poden no actualitzar-se fins que tornis a obrir la base.
+
+### Consultar un valor
+
+Mostra l'`status` de la nota enllaçada a la propietat `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Si la propietat pot contenir un sol enllaç o una llista d'enllaços, embolica-la amb `list()` i pren el primer enllaç:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Agregar valors
+
+Suma les `hours` de cada nota enllaçada a la propietat `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Compta les notes enllaçades on l'`status` no és "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Llista els estats de les notes enllaçades, sense duplicats:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Agregar valors de notes que enllacen aquí
+
+Per agregar valors de les notes que enllacen a una nota, com ara tasques que cadascuna enllaça al seu projecte, utilitza `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` és lent en cambres fortes grans. Quan puguis, emmagatzema els enllaços a la mateixa nota i agrega'ls amb `map()` i `reduce()`, com es mostra més amunt.
 
 ## Exemples de fórmules
 

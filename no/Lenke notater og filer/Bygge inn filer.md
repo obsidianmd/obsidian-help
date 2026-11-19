@@ -86,6 +86,14 @@ Du kan også angi høyden i piksler for den innebygde PDF-visningen ved å legge
 ![[Document.pdf#height=400]]
 ```
 
+For å kombinere side- og høydealternativer, skill dem med `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+For mer om visning og søk i PDF-er, se [[PDF-filer]].
+
 ## Bygg inn en Canvas i et notat
 
 For å bygge inn en [[Canvas|Canvas]]:

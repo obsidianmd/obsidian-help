@@ -44,6 +44,16 @@ obsidian://action?param1=value&param2=value
 > [!tip] Avaa otsikko tai lohko
 > Oikean URI-koodauksen avulla voit navigoida muistiinpanon otsikkoon tai lohkoon. `Note%23Heading` navigoisi otsikkoon "Heading", kun taas `Note%23%5EBlock` navigoisi lohkoon nimeltä "Block".
 
+### Kopioi Obsidian-osoite
+
+Obsidian voi muodostaa `open`-URI:n aktiiviselle muistiinpanolle, joten sinun ei tarvitse kirjoittaa sitä itse. Sovellus kutsuu tätä Obsidian-osoitteeksi. Se sisältää holvin nimen ja polun muistiinpanoon.
+
+Voit kopioida Obsidian-osoitteen millä tahansa seuraavista tavoista:
+
+- Valitse [[Komentovalikko|komentovalikosta]] **Kopioi Obsidian-osoite**.
+- Valitse muistiinpanossa **Lisää vaihtoehtoja** ![[lucide-more-horizontal.svg#icon]] ja sitten **Kopioi polku → Kopioi Obsidian-osoite**. Katso [[Lisää vaihtoehtoja -valikko]].
+- Työpöytäversiossa napsauta tiedostoa hiiren oikealla painikkeella [[Tiedostoselain|tiedostoselaimessa]] ja valitse **Kopioi polku → Kopioi Obsidian-osoite**.
+
 ### Parametrit
 
 - `vault` voi olla joko holvin nimi tai holvin tunnus[^1].
@@ -52,8 +62,6 @@ obsidian://action?param1=value&param2=value
   - Tämän parametrin käyttäminen ohittaa sekä `vault`- että `file`-parametrit.
   - Sovellus etsii tarkimmin vastaavan holvin, joka sisältää määritetyn tiedostopolun.
   - Loput polusta korvaavat `file`-parametrin.
-- `prepend` lisää tiedoston alkuun ja yrittää yhdistää määreet.
-- `append` lisää tiedoston loppuun ja yrittää myös yhdistää määreet.
 - `paneType` (valinnainen) määrittää, mihin muistiinpano avataan käyttöliittymässä.
   - Jos ei ole annettu, viimeisin aktiivinen välilehti korvataan.
   - `paneType=tab` avaa uuteen välilehteen.
@@ -70,6 +78,8 @@ obsidian://action?param1=value&param2=value
   Tämä avaa holvin `my vault` ja luo uuden muistiinpanon nimeltä `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Tämä avaa holvin `my vault` ja luo uuden muistiinpanon polkuun `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Tämä avaa holvin `my vault` ja lisää `Buy milk` -tekstin `Tasks`-osion loppuun muistiinpanossa `my note`.
 
 ### Parametrit
 
@@ -81,8 +91,14 @@ obsidian://action?param1=value&param2=value
 - `content` (valinnainen) muistiinpanon sisältö.
 - `clipboard` (valinnainen) käyttää leikepöydän sisältöä `content`-parametrin sijaan.
 - `silent` (valinnainen) sisällytä tämä parametri, jos et halua avata uutta muistiinpanoa.
-- `append` (valinnainen) sisällytä tämä parametri lisätäksesi olemassa olevan tiedoston loppuun, jos sellainen on olemassa.
-- `overwrite` (valinnainen) korvaa olemassa oleva tiedosto, jos sellainen on olemassa, mutta vain jos `append`-parametria ei ole asetettu.
+- `append` (valinnainen) sisällytä tämä parametri lisätäksesi olemassa olevan tiedoston loppuun, jos sellainen on olemassa, yhdistäen mahdolliset määreet.
+- `prepend` (valinnainen) sisällytä tämä parametri lisätäksesi olemassa olevan tiedoston alkuun, jos sellainen on olemassa, yhdistäen mahdolliset määreet.
+- `heading` (valinnainen) lisää sisältö tämän otsikon alla olevaan osioon koko tiedoston sijaan. Vaatii `append`- tai `prepend`-parametrin.
+- `spacing` (valinnainen) miten sisältö erotetaan olemassa olevasta sisällöstä. Vaatii `append`- tai `prepend`-parametrin.
+  - `spacing=auto` (oletus) jättää tyhjän rivin niiden väliin.
+  - `spacing=newline` aloittaa sisällön uudelta riviltä.
+  - `spacing=inline` lisää sisällön ilman rivinvaihtoa.
+- `overwrite` (valinnainen) korvaa olemassa oleva tiedosto, jos sellainen on olemassa, mutta vain jos `append`- tai `prepend`-parametria ei ole asetettu.
 - `x-success` (valinnainen) katso [[#x-callback-url-parametrien käyttö]].
 
 ## Luo tai avaa päivän muistiinpano
@@ -93,6 +109,8 @@ obsidian://action?param1=value&param2=value
 
 - `obsidian://daily?vault=my%20vault`
   Tämä avaa holvin `my vault` ja luo tai avaa päivän muistiinpanon.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Tämä avaa holvin `my vault` ja lisää `Called Sam` -tekstin `Log`-osion loppuun päivän muistiinpanossa.
 
 ### Parametrit
 

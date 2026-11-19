@@ -145,6 +145,23 @@ Hiển thị như:
 \**This line will be italic and show the asterisks*\*
 ```
 
+### Màu tô sáng
+
+Tô sáng hỗ trợ sáu màu. Thêm emoji màu ngay sau dấu `==` mở:
+
+| Màu    | Ví dụ                 |
+| ------ | --------------------- |
+| Đỏ     | `==🔴Important==`     |
+| Cam    | `==🟠Follow up==`     |
+| Vàng   | `==🟡Remember this==` |
+| Xanh lá | `==🟢Completed==`     |
+| Xanh dương | `==🔵Reference==`     |
+| Tím    | `==🟣Idea==`          |
+
+Nếu không có emoji màu, tô sáng sẽ sử dụng màu tô sáng mặc định của chủ đề.
+
+Bạn cũng có thể chọn màu từ menu định dạng. Gõ `==` trong trình chỉnh sửa sẽ gợi ý các màu tô sáng. Trong [[Các chế độ xem và chế độ chỉnh sửa#Xem trước trực tiếp|Xem trước trực tiếp]], đặt con trỏ bên trong phần tô sáng sẽ hiển thị mẫu màu. Chọn mẫu màu để thay đổi màu.
+
 ## Liên kết nội bộ
 
 Obsidian hỗ trợ hai định dạng cho [[Liên kết nội bộ|liên kết nội bộ]] giữa các ghi chú:
@@ -475,6 +492,8 @@ Sử dụng [[Chế độ xem chú thích]] để xem tất cả chú thích tro
 
 Bạn có thể thêm bình luận bằng cách bao quanh văn bản với `%%`. Bình luận chỉ hiển thị trong chế độ Chỉnh sửa.
 
+Cú pháp `%%` là riêng của Obsidian. Để ẩn văn bản trong các ứng dụng khác, hãy sử dụng bình luận HTML, `<!-- -->`. Xem [[Obsidian Flavored Markdown]] để biết cú pháp Obsidian khác với Markdown tiêu chuẩn như thế nào.
+
 ```md
 This is an %%inline%% comment.
 
@@ -484,6 +503,20 @@ This is a block comment.
 Block comments can span multiple lines.
 %%
 ```
+
+Bình luận nội dòng có thể xuất hiện ở bất kỳ đâu trong một dòng, bao gồm trong tiêu đề, mục danh sách, hoặc văn bản in đậm.
+
+Bình luận khối bắt đầu khi một dòng bắt đầu bằng `%%`, và kết thúc tại `%%` tiếp theo. Bình luận khối có thể bao gồm dòng trống và Markdown, chẳng hạn như tiêu đề và danh sách. Obsidian ẩn tất cả trong Chế độ đọc.
+
+Văn bản sau dấu `%%` đóng vẫn hiển thị, và Obsidian hiển thị Markdown của nó. Ví dụ, `%%comment%% _italic_` chỉ để lại từ _italic_, in nghiêng.
+
+> [!warning]+ Đóng mọi bình luận khối
+> Nếu bạn bắt đầu một bình luận khối và không bao giờ đóng nó, Chế độ đọc sẽ ẩn phần còn lại của ghi chú.
+
+> [!info]+ Giữ dấu bình luận đơn giản
+> Giữ cả hai dấu của bình luận nội dòng trên một dòng, và bắt đầu bình luận khối ở đầu dòng.
+
+Để hiển thị `%%` dưới dạng văn bản, hãy đặt nó trong một đoạn mã, hoặc thêm dấu gạch chéo ngược trước mỗi dấu.
 
 ## Thoát cú pháp Markdown
 

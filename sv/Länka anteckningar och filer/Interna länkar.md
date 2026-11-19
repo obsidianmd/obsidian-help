@@ -50,8 +50,6 @@ För att skapa en länk i redigeringsvyn, använd något av följande sätt:
 - Markera text i redigeraren och skriv sedan `[[`.
 - Öppna [[Kommandopalett|kommandopaletten]] och välj sedan Lägg till intern länk.
 
-![[Snabbväxlare#^search-autocomplete-large]]
-
 Även om du kan länka till alla [[Accepterade filformat]], kräver länkar till andra filformat än Markdown en filändelse, som `[[Figure 1.png]]`.
 
 > [!tip] Att lägga till ett utropstecken (!) före en intern länk låter dig bädda in det länkade innehållet. För mer detaljer, se [[Bädda in filer]].
@@ -131,7 +129,7 @@ Du kan också söka efter block att länka till från hela valvet med syntaxen `
 > [!info]- Skärmbild av sökning efter en blocklänk
 > ![[link-block-heading.png#interface]]
 
-Du kan också skapa läsbara blockidentifierare genom att lägga till ett blanksteg följt av ett caret-tecken (`^`) och identifieraren. Blockidentifierare kan bara bestå av latinska bokstäver, siffror och bindestreck.
+Du kan också skapa läsbara blockidentifierare genom att lägga till ett blanksteg följt av ett caret-tecken (`^`) och identifieraren. Blockidentifierare kan bara bestå av bokstäverna A-Z och a-z, siffrorna 0-9 och bindestreck.
 
 Till exempel, lägg till `^quote-of-the-day` i slutet av ett block:
 

@@ -10,11 +10,11 @@ Die Einstellungen ermöglichen es dir, dein Obsidian-Erlebnis anzupassen. Konfig
 
 ### Desktop
 
-Wähle in der [[Seitenleiste#Versteckte Seitenleisten öffnen|linken Seitenleiste]] **[[Einstellungen]]** ![[lucide-cog.svg#icon]] aus. Du kannst die Einstellungen auch über die [[Befehlspalette]] öffnen.
+Wähle in der [[Seitenleiste#Versteckte Seitenleisten öffnen|Seitenleiste]] **[[Einstellungen]]** ![[lucide-cog.svg#icon]] aus. Du kannst die Einstellungen auch über die [[Befehlspalette]] öffnen.
 
 ### Mobil
 
-Wähle in der linken Seitenleiste **[[Einstellungen]]** ![[lucide-cog.svg#icon]] aus.
+Wähle in der Seitenleiste **[[Einstellungen]]** ![[lucide-cog.svg#icon]] aus. Die Einstellungen öffnen sich als Overlay über der App.
 
 ## Aufbau der Einstellungen
 
@@ -294,9 +294,11 @@ Wähle eine Schriftart für Quelltext-Blöcke und Frontmatter. Wähle **Verwalte
 
 Schriftgröße in Pixeln für die Bearbeitungs- und Leseansicht. Passe sie mit dem Schieberegler an.
 
+Die Schriftgröße wird auf jedem Gerät separat gespeichert und nicht über [[Einführung in Obsidian Sync|Obsidian Sync]] synchronisiert. Auf Mobilgeräten skalieren Text- und Oberflächenelemente zusätzlich mit der vom System bevorzugten Textgröße, einschließlich Barrierefreiheitsgrößen.
+
 #### Schnellanpassung der Schriftgröße
 
-Passe die Schriftgröße mit `Strg+Scrollen` (Windows/Linux) oder `Cmd+Scrollen` (macOS) oder mit der Pinch-Zoom-Geste des Trackpads an.
+Passe die Schriftgröße mit `Strg+Scrollen` (Windows/Linux) oder `Cmd+Scrollen` (macOS) oder mit der Pinch-Zoom-Geste des Trackpads an. Du kannst auch **Schrift vergrößern** und **Schrift verkleinern** in der [[Befehlspalette]] verwenden oder ihnen [[Tastenkürzel]] zuweisen.
 
 ### Bedienung
 

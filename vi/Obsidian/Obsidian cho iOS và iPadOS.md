@@ -54,12 +54,12 @@ Tùy chọn cấu hình widget **Xem ghi chú**:
 
 ## Ghi nhanh
 
-Ghi nhanh cho phép bạn lưu văn bản vào kho từ widget Màn hình khóa, Trung tâm điều khiển hoặc Màn hình chính. Tùy thuộc vào vị trí ghi nhanh bạn chọn, Ghi nhanh có thể tạo ghi chú mới hoặc thêm văn bản vào ghi chú hiện có.
+Ghi nhanh cho phép bạn lưu văn bản vào kho từ widget Màn hình khóa, Trung tâm điều khiển, Màn hình chính hoặc Phím tắt mà không cần đợi kho của bạn tải. Tùy thuộc vào vị trí ghi nhanh bạn chọn, Ghi nhanh có thể tạo ghi chú mới hoặc thêm văn bản vào ghi chú hiện có.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Ghi chú
-> Ghi nhanh có sẵn trên iOS và iPadOS 26 trở lên.
+> Ghi nhanh yêu cầu Obsidian 1.14 trở lên và iOS hoặc iPadOS 26 trở lên.
 
 Để ghi nhanh văn bản:
 
@@ -72,6 +72,63 @@ Ghi nhanh cho phép bạn lưu văn bản vào kho từ widget Màn hình khóa,
 **Lưu ý**: Nếu Live Activities được bật, ghi chú ghi nhanh cũng xuất hiện trên Màn hình khóa và trên các mẫu iPhone được hỗ trợ, trong Dynamic Island. Nhấn vào thanh hoặc Live Activity để tiếp tục chỉnh sửa.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Ghi âm giọng nói
+
+Ghi âm giọng nói cho phép bạn ghi lại ghi chú bằng giọng nói với Ghi nhanh. Obsidian chuyển ngữ những gì bạn nói khi bạn đang nói, và có thể lưu bản ghi âm vào kho cùng với bản chuyển ngữ.
+
+Để ghi lại ghi chú bằng giọng nói:
+
+1. Mở Ghi nhanh, sau đó nhấn nút micro ở góc dưới bên trái. Việc ghi âm bắt đầu ngay lập tức.
+2. Nói ghi chú của bạn. Bản chuyển ngữ xuất hiện trong vùng văn bản khi bạn nói, và bạn có thể chỉnh sửa bất cứ lúc nào.
+3. Nhấn nút ghi âm ở cuối màn hình để tạm dừng, và nhấn lại để tiếp tục.
+4. Nhấn dấu kiểm để lưu bản chuyển ngữ và bản ghi âm vào vị trí ghi nhanh đã chọn.
+
+![[ios-voice-capture.png|400]]
+
+Bạn cũng có thể bắt đầu ghi âm trực tiếp từ widget. Khi tùy chỉnh widget Ghi nhanh, chọn một thao tác từ phần **Ghi âm giọng nói**.
+
+Việc ghi âm tiếp tục nếu bạn thu nhỏ Ghi nhanh hoặc khóa thiết bị. Trong khi ghi âm, Màn hình khóa và Dynamic Island hiển thị bản chuyển ngữ trực tiếp và bộ đếm thời gian. Nhấn vào bộ đếm thời gian để tạm dừng hoặc tiếp tục ghi âm.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Cài đặt Ghi âm giọng nói
+
+Để thay đổi cài đặt Ghi âm giọng nói, nhấn biểu tượng bánh răng ở đầu màn hình khi đang trong Ghi âm giọng nói.
+
+- **Ngôn ngữ**: Ngôn ngữ được sử dụng để chuyển ngữ. Xem [[#Các ngôn ngữ được hỗ trợ]]. Chọn **Không** để tắt chuyển ngữ và chỉ ghi âm.
+- **Micro**: Micro được sử dụng để ghi âm, chẳng hạn như micro tích hợp hoặc tai nghe được kết nối.
+- **Lưu tệp âm thanh**: Liệu có lưu bản ghi âm vào kho của bạn hay không.
+- **Âm thanh từ ứng dụng khác**: Điều gì xảy ra với nhạc hoặc âm thanh khác đang phát khi bạn ghi âm: **Tiếp tục phát**, **Giảm âm lượng**, hoặc **Tạm dừng**. Các thay đổi áp dụng từ lần ghi âm tiếp theo.
+
+#### Các ngôn ngữ được hỗ trợ
+
+Ghi âm giọng nói có thể chuyển ngữ giọng nói trong các ngôn ngữ sau. Một số thiết bị hỗ trợ ít ngôn ngữ hơn, và các ngôn ngữ có sẵn có thể thay đổi theo bản cập nhật iOS. Nếu ngôn ngữ của bạn không có sẵn, bạn vẫn có thể ghi âm mà không có bản chuyển ngữ.
+
+- Tiếng Bangla
+- Tiếng Quảng Đông
+- Tiếng Trung
+- Tiếng Anh
+- Tiếng Pháp
+- Tiếng Đức
+- Tiếng Gujarat
+- Tiếng Hindi
+- Tiếng Ý
+- Tiếng Nhật
+- Tiếng Kannada
+- Tiếng Kashmir
+- Tiếng Hàn
+- Tiếng Maithili
+- Tiếng Malayalam
+- Tiếng Marathi
+- Tiếng Nepal
+- Tiếng Odia
+- Tiếng Bồ Đào Nha
+- Tiếng Punjab
+- Tiếng Tây Ban Nha
+- Tiếng Tamil
+- Tiếng Telugu
+- Tiếng Urdu
 
 ### Vị trí ghi nhanh
 

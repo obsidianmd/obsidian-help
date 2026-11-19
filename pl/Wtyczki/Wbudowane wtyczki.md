@@ -30,8 +30,6 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 	- Połącz dwie notatki lub podziel jedną na dwie.
 - [[Konspekt]]
 	- Wyświetlaj spis treści dla aktywnej notatki.
-- [[Konwerter formatowania]]
-	- Dostosuj format Markdown z innych aplikacji do formatu Obsidian.
 - [[Kreator niepowtarzalnych notatek]]
 	- Twórz niepowtarzalne notatki z tytułem opartym na kodzie czasowym.
 - [[Liczba słów]]

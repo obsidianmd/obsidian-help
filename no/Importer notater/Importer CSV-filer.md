@@ -16,7 +16,7 @@ Du trenger den offisielle Obsidian [[Markdown-importør|Importør]]-utvidelsen, 
 1. Åpne **[[Innstillinger]]**.
 2. Gå til **Community-utvidelser** og [installer Importør](obsidian://show-plugin?id=obsidian-importer).
 3. Aktiver Importør-utvidelsen.
-4. Åpne **Importør**-utvidelsen ved hjelp av kommandopaletten eller verktøylinje-ikonet.
+4. Åpne Importør i Innstillinger eller ved hjelp av [[Kommandopalett|kommandopaletten]].
 5. Under **Filformat** velg **CSV (.csv).**
 6. Velg plasseringen til CSV-filen din.
 7. Velg **Importer** for å konfigurere hvordan data i CSV-filen din vil bli konvertert til notater med [[Egenskaper]].

@@ -11,11 +11,14 @@ At the top of a base is a toolbar that lets you interact with views and their re
 
 - ![[lucide-table.svg#icon]] **View menu** — create, edit, and switch views.
 - **Results** — limit, copy and export files.
-- ![[lucide-arrow-up-down.svg#icon]] **Sort** — sort and group files.
+- ![[lucide-arrow-up-down.svg#icon]] **Sort** — sort files.
+- ![[lucide-stretch-horizontal.svg#icon]] **Group** — group files and manage group order and visibility.
 - ![[lucide-list-filter.svg#icon]] **Filter** — filter files.
 - ![[lucide-list.svg#icon]] **Properties** — choose properties to display and create [[formulas]].
 - ![[lucide-search.svg#icon]] **Search** — search for items using their displayed properties.
 - ![[lucide-plus.svg#icon]] **New** — create a new file in the current view.
+
+On phones, **Results**, **Sort**, ![[lucide-stretch-horizontal.svg#icon]] **Group**, and **Properties** are inside the ![[lucide-sliders-horizontal.svg#icon]] **Display** menu.
 
 ## Add and switch views
 
@@ -37,7 +40,7 @@ Alternatively *right-click* the view name in the base's toolbar to quickly acces
 
 ## Layout
 
-Views can be displayed with different layouts including as ![[lucide-table.svg#icon]] **table**, ![[lucide-list.svg#icon]] **list**, ![[lucide-layout-grid.svg#icon]] **cards**, ![[lucide-kanban-square.svg#icon]] **Kanban**, and ![[lucide-map.svg#icon]] **map**. Additional layouts can be added by [[Community plugins]]. Some layouts are still being developed and require [[early access versions]] of Obsidian.
+Views can be displayed with different layouts including as ![[lucide-table.svg#icon]] **table**, ![[lucide-list.svg#icon]] **list**, ![[lucide-layout-grid.svg#icon]] **cards**, ![[lucide-kanban-square.svg#icon]] **Kanban**, and ![[lucide-map.svg#icon]] **map**. Additional layouts can be added by [[Community plugins]].
 
 | Layout                | Description                                                                                   | App&nbsp;version |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
@@ -83,16 +86,16 @@ Click the code button ![[lucide-code-xml.svg#icon]] to use the **advanced filter
 
 ## Sort and group results
 
-Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu to sort and group the results in a view.
+Use the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu to arrange results, and the ![[lucide-stretch-horizontal.svg#icon]] **Group** menu to organize similar items into sections.
 
 You can arrange results by one or more properties in ascending or descending order. This makes it easy to list notes by name, last edited time, or any other property — including formulas.
 
-You can also group results by a property to organize similar items into visually distinct sections. Currently, Obsidian supports grouping by only one property.
+Each view can have several sorts, but can group results by only one property.
 
 ### Add a sort
 
 1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
-2. Choose the property you want to sort (or group) by.
+2. Select **Add sort**, then choose the property you want to sort by.
 3. If you have multiple sorts, drag them up or down using the ![[lucide-grip-vertical.svg#icon]] grip handle to change their priority.
 
 The options for ordering results depend on the property type:
@@ -104,7 +107,29 @@ The options for ordering results depend on the property type:
 ### Remove a sort
 
 1. Open the ![[lucide-arrow-up-down.svg#icon]] **Sort** menu at the top of the view.
-2. Click the ![[lucide-trash-2.svg#icon]] trash can button next to the sort or group you want to remove.
+2. Select the ![[lucide-trash-2.svg#icon]] trash can button next to the sort you want to remove.
+
+### Group results
+
+1. Open the ![[lucide-stretch-horizontal.svg#icon]] **Group** menu at the top of the view. On phones, open **Display → Group**.
+2. Under **Group by**, choose a property.
+3. Choose an automatic sort order, or select **Manual** to order groups yourself.
+
+To stop grouping results, select the ![[lucide-trash-2.svg#icon]] trash can button next to the grouping property.
+
+### Reorder, hide, and add groups
+
+In the ![[lucide-stretch-horizontal.svg#icon]] **Group** menu, select **Manual** from the sort order menu to manage which groups appear and in what order.
+
+- Check a group to show it, or uncheck it to hide it. Select **Show all** or **Hide all** to change the visibility of all groups.
+- Drag the ![[lucide-grip-vertical.svg#icon]] grip handle next to a group to change its position.
+- Select **Add group** and enter a value to show a new, empty group. This does not create a note or change existing notes.
+
+To restore automatic group order and show all groups, choose an automatic sort order instead of **Manual**.
+
+### Collapse groups
+
+In [[Table view|table]], [[Cards view|cards]], and [[List view|list]] layouts, select a group heading to collapse or expand that group. Collapsing a group temporarily hides its items without changing their properties.
 
 ## Limit, copy, and export results
 

@@ -11,6 +11,7 @@ Pots desenvolupar [[Connectors de la comunitat]] i [[Temes]] utilitzant Typescri
 
 Obsidian desenvolupa i manté diversos projectes de codi obert. Pots enviar sol·licituds de contribució (pull requests) amb correccions d'errors i millores als següents repositoris de GitHub:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), el renderitzador que Obsidian utilitza per dibuixar diagrames Mermaid.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), un format de fitxer obert per a dades de llenç infinit.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), llenguatge de plantilles per generar Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), un connector que converteix dades d'una àmplia varietat de formats a fitxers Markdown en text sense format.

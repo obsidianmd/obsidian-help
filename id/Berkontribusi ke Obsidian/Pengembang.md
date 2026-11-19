@@ -11,6 +11,7 @@ Anda dapat mengembangkan [[Plugin komunitas]] dan [[Tema]] menggunakan Typescrip
 
 Obsidian mengembangkan dan memelihara beberapa proyek sumber terbuka. Anda dapat mengirimkan pull request berisi perbaikan bug dan peningkatan ke repositori GitHub berikut:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), renderer yang digunakan Obsidian untuk menggambar diagram Mermaid.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), format file terbuka untuk data kanvas tak terbatas.
 - [Knap](https://github.com/obsidianmd/knap) (MIT) bahasa templat untuk menghasilkan Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), plugin yang mengonversi data dari berbagai format menjadi file Markdown teks biasa.

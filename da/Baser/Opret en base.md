@@ -21,10 +21,6 @@ aliases:
 1. Højreklik på den mappe, som du vil oprette basen i
 2. vælg **Ny base**
 
-**Båndmenuen:**
-
-- Vælg **Opret ny base** i det lodrette båndmenu, for at oprette en base i den same mappe, som den aktive fil
-
 ## Sådan indlejrer du en base
 
 ### Sådan indlejrer du en base fil

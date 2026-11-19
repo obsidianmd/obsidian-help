@@ -154,6 +154,10 @@ translation=Akceptované formáty súborov
 original=Financial contributions
 translation=Finančné príspevky
 
+[file.find-and-replace]
+original=Find and replace
+translation=Hľadať a nahradiť
+
 [file.folding]
 original=Folding
 translation=Zrolovanie
@@ -238,6 +242,10 @@ translation=Import z Microsoft OneNote
 original=Import from Roam Research
 translation=Import z Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Import zo Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Šablóny importéra
@@ -286,6 +294,10 @@ translation=Spravovať trezory
 original=Mobile app
 translation=Mobilná aplikácia
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu viac možností
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Viacero kurzorov
@@ -305,6 +317,10 @@ translation=Oficiálna webová stránka
 [file.payment]
 original=Introduction to licenses and payment
 translation=Úvod do licencií a platieb
+
+[file.pdf]
+original=PDFs
+translation=PDF súbory
 
 [file.plugin-security]
 original=Plugin security

@@ -10,11 +10,11 @@ Instellingen stellen je in staat om je Obsidian-ervaring aan te passen. Configur
 
 ### Desktop
 
-Selecteer in de [[Zijbalk#Verborgen zijbalken openen|linker zijbalk]] **[[Instellingen]]** ![[lucide-cog.svg#icon]]. Je kunt Instellingen ook openen met het [[Opdrachtenpaneel]].
+Selecteer in de [[Zijbalk#Verborgen zijbalken openen|zijbalk]] **[[Instellingen]]** ![[lucide-cog.svg#icon]]. Je kunt Instellingen ook openen met het [[Opdrachtenpaneel]].
 
 ### Mobiel
 
-Selecteer in de linker zijbalk **[[Instellingen]]** ![[lucide-cog.svg#icon]].
+Selecteer in de zijbalk **[[Instellingen]]** ![[lucide-cog.svg#icon]]. Instellingen worden geopend in een venster over de app.
 
 ## Organisatie van instellingen
 
@@ -294,9 +294,11 @@ Stel het lettertype in voor codesecties en voorwerk. Selecteer **Beheren** om ee
 
 Lettertypegrootte in pixels voor de bewerk- en voorbeeldmodus. Pas aan met de schuifregelaar.
 
+Lettertypegrootte wordt apart opgeslagen op elk apparaat en wordt niet gesynchroniseerd via [[Introductie tot Obsidian Sync|Obsidian Sync]]. Op mobiel schalen tekst- en interface-elementen ook mee met de gewenste tekstgrootte van je systeem, inclusief toegankelijkheidsgroottes.
+
 #### Snelle lettertypegrootte aanpassing
 
-Pas de lettertypegrootte aan met `Ctrl+Scroll` (Windows/Linux) of `Cmd+Scroll` (macOS), of met het knijpzoomgebaar op het trackpad.
+Pas de lettertypegrootte aan met `Ctrl+Scroll` (Windows/Linux) of `Cmd+Scroll` (macOS), of met het knijpzoomgebaar op het trackpad. Je kunt ook **Lettergrootte vergroten** en **Lettergrootte verkleinen** gebruiken in het [[Opdrachtenpaneel]], of er [[Sneltoetsen|sneltoetsen]] aan toewijzen.
 
 ### Interface
 

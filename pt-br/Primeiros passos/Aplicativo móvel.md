@@ -4,7 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: Aprenda sobre os recursos específicos para dispositivos móveis no Obsidian, incluindo a barra de ferramentas móvel, ações rápidas e barra de navegação.
+description: 'Aprenda sobre os recursos específicos para dispositivos móveis no Obsidian, incluindo a barra de ferramentas móvel, ações rápidas e barra de navegação.'
 ---
 Os aplicativos móveis do Obsidian estão disponíveis para [[Obsidian para iOS e iPadOS|iOS e iPadOS]] e [[Obsidian para Android|Android]]. Você pode baixá-los na [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) e no [Google Play](https://play.google.com/store/apps/details?id=md.obsidian).
 
@@ -29,25 +29,20 @@ Ao editar uma nota, você verá uma linha de ícones na parte inferior do aplica
 
 ### Personalizar a barra de ferramentas móvel
 
-Na barra de ferramentas móvel, toque em **Configurar a barra de ferramentas móvel** ![[lucide-wrench.svg#icon]] para abrir a interface de personalização.
+Na barra de ferramentas móvel, selecione **Configurar a barra de ferramentas móvel** ![[lucide-wrench.svg#icon]] para abrir suas configurações.
 
-Alternativamente, você pode fazer isso nas Configurações.
+Você também pode abrir **[[Configurações]] → Interface → Configurar a barra de ferramentas móvel**.
 
-1. Abra as Configurações.
-2. Escolha **Celular**.
-3. Em **Gerenciar opções da barra de ferramentas**, adicione, remova ou reordene as opções disponíveis.
+Em **Gerenciar opções da barra de ferramentas**, use as alças de arraste para reordenar ações e os botões de remover para removê-las. Selecione uma ação em **Mais opções da barra de ferramentas** para adicioná-la.
 
 ### Adicionar comando à barra de ferramentas móvel
 
-Por padrão, as opções disponíveis para serem adicionadas à barra de ferramentas são opções de edição como "Adicionar link interno" ou "Adicionar etiqueta".
+Além das ações de edição, você pode adicionar comandos globais como **Mudar tema**.
 
-Além disso, você pode adicionar comandos globais como "Mudar tema".
-
-1. Encontre **Gerenciar opções da barra de ferramentas** em **[[Configurações]]** → **Celular**.
-2. Role até o final, encontre **Adicionar comando global**.
-3. Digite o nome do comando que deseja adicionar.
-4. Selecione o comando que gostaria de adicionar.
-5. O novo comando será adicionado ao final da barra de ferramentas.
+1. Abra **[[Configurações]] → Interface → Configurar a barra de ferramentas móvel**.
+2. Em **Gerenciar opções da barra de ferramentas**, selecione **Adicionar um comando...**.
+3. Pesquise o comando que deseja adicionar.
+4. Selecione o comando para adicioná-lo ao final da barra de ferramentas.
 
 ## Ação Rápida
 
@@ -58,7 +53,7 @@ A Ação Rápida por padrão abre a [[Paleta de comandos]].
 ### Personalizar a Ação Rápida
 
 1. Abra as Configurações.
-2. Em **Configurações**, escolha **Barra de ferramentas móvel**.
+2. Escolha **Interface**.
 3. Em **Configurar Ação Rápida móvel**, toque em **Configurar**.
 4. Digite o nome do comando.
 5. Selecione o comando que gostaria de definir.

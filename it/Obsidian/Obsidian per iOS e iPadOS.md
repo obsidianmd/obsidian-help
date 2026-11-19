@@ -56,12 +56,12 @@ Opzioni di configurazione del widget **Visualizza nota**:
 
 ## Cattura rapida
 
-Cattura rapida ti permette di salvare testo nel tuo vault dalla schermata di blocco, dal Centro di Controllo o dai widget della schermata Home. A seconda della posizione di cattura selezionata, Cattura rapida può creare una nuova nota o aggiungere il testo a una nota esistente.
+Cattura rapida ti permette di salvare testo nel tuo vault dalla schermata di blocco, dal Centro di Controllo, dai widget della schermata Home o dai Comandi Rapidi senza attendere il caricamento del vault. A seconda della posizione di cattura selezionata, Cattura rapida può creare una nuova nota o aggiungere il testo a una nota esistente.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Nota
-> Cattura rapida è disponibile su iOS e iPadOS 26 e versioni successive.
+> Cattura rapida richiede Obsidian 1.14 o versioni successive e iOS o iPadOS 26 o versioni successive.
 
 Per catturare del testo:
 
@@ -74,6 +74,63 @@ Per catturare del testo:
 **Nota**: Se le Attività in tempo reale sono abilitate, la nota di cattura rapida appare anche sulla schermata di blocco e, sui modelli di iPhone supportati, nella Dynamic Island. Tocca la barra o l'Attività in tempo reale per continuare a modificare.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Cattura vocale
+
+Cattura vocale ti permette di registrare una nota vocale con Cattura rapida. Obsidian trascrive ciò che dici mentre parli e può salvare la registrazione nel tuo vault insieme alla trascrizione.
+
+Per catturare una nota vocale:
+
+1. Apri Cattura rapida, quindi tocca il pulsante del microfono nell'angolo in basso a sinistra. La registrazione inizia immediatamente.
+2. Pronuncia la tua nota. La trascrizione appare nell'area di testo mentre parli e puoi modificarla in qualsiasi momento.
+3. Tocca il pulsante di registrazione nella parte inferiore dello schermo per mettere in pausa, e toccalo di nuovo per riprendere.
+4. Tocca il segno di spunta per salvare la trascrizione e la registrazione nella posizione di cattura selezionata.
+
+![[ios-voice-capture.png|400]]
+
+Puoi anche avviare la registrazione direttamente da un widget. Quando personalizzi un widget Cattura rapida, scegli un'azione dalla sezione **Cattura vocale**.
+
+La registrazione continua se riduci a icona Cattura rapida o blocchi il dispositivo. Durante la registrazione, la schermata di blocco e la Dynamic Island mostrano la trascrizione in tempo reale e un timer. Tocca il timer per mettere in pausa o riprendere la registrazione.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Impostazioni di Cattura vocale
+
+Per modificare le impostazioni di Cattura vocale, tocca l'icona dell'ingranaggio nella parte superiore dello schermo mentre sei in Cattura vocale.
+
+- **Lingua**: La lingua utilizzata per la trascrizione. Vedi [[#Lingue supportate]]. Seleziona **Nessuna** per disattivare la trascrizione e registrare solo l'audio.
+- **Microfono**: Il microfono utilizzato per la registrazione, come il microfono integrato o un auricolare collegato.
+- **Salva file audio**: Se salvare la registrazione nel tuo vault.
+- **Audio da altre app**: Cosa succede alla musica o ad altro audio in riproduzione quando registri: **Continua la riproduzione**, **Abbassa il volume** o **Pausa**. Le modifiche si applicano dalla registrazione successiva.
+
+#### Lingue supportate
+
+Cattura vocale può trascrivere il parlato nelle seguenti lingue. Alcuni dispositivi supportano meno lingue e le lingue disponibili possono cambiare con gli aggiornamenti di iOS. Se la tua lingua non è disponibile, puoi comunque registrare audio senza trascrizione.
+
+- Bangla
+- Cantonese
+- Cinese
+- Inglese
+- Francese
+- Tedesco
+- Gujarati
+- Hindi
+- Italiano
+- Giapponese
+- Kannada
+- Kashmiri
+- Coreano
+- Maithili
+- Malayalam
+- Marathi
+- Nepalese
+- Odia
+- Portoghese
+- Punjabi
+- Spagnolo
+- Tamil
+- Telugu
+- Urdu
 
 ### Posizioni di cattura
 

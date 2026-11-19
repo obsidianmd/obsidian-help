@@ -44,6 +44,16 @@ Parametern `action` är den åtgärd du vill utföra. Tillgängliga åtgärder i
 > [!tip] Öppna en rubrik eller ett block
 > Med korrekt URI-kodning kan du navigera till en rubrik eller ett block inom en anteckning. `Note%23Heading` skulle navigera till rubriken "Heading", medan `Note%23%5EBlock` skulle navigera till blocket "Block".
 
+### Kopiera en Obsidian-URL
+
+Obsidian kan bygga en `open`-URI för den aktiva anteckningen, så att du inte behöver skriva den själv. Appen kallar detta en Obsidian-URL. Den inkluderar valvnamnet och sökvägen till anteckningen.
+
+Du kan kopiera Obsidian-URL:en på något av följande sätt.
+
+- I [[Kommandopalett|kommandopaletten]], välj **Kopiera Obsidian URL för aktuell fil**.
+- I anteckningen, välj **Fler alternativ** ![[lucide-more-horizontal.svg#icon]], och välj sedan **Kopiera sökväg → som Obsidian-URL**. Se [[Fler alternativ-menyn]].
+- På skrivbordet, högerklicka på en fil i [[Filutforskare|filutforskaren]], och välj sedan **Kopiera sökväg → som Obsidian-URL**.
+
 ### Parametrar
 
 - `vault` kan vara antingen valvnamnet eller valv-id:t[^1].
@@ -52,8 +62,6 @@ Parametern `action` är den åtgärd du vill utföra. Tillgängliga åtgärder i
   - Att använda denna parameter åsidosätter både `vault` och `file`.
   - Detta gör att appen söker efter det mest specifika valvet som innehåller den angivna filsökvägen.
   - Sedan ersätter resten av sökvägen parametern `file`.
-- `prepend` lägger till i början av filen och försöker sammanfoga egenskaper.
-- `append` lägger till i slutet av filen och försöker också sammanfoga egenskaper.
 - `paneType` (valfritt) avgör var anteckningen öppnas i gränssnittet.
   - om den inte anges ersätts den senast aktiva fliken.
   - `paneType=tab` öppna i en ny flik.
@@ -70,6 +78,8 @@ Parametern `action` är den åtgärd du vill utföra. Tillgängliga åtgärder i
   Detta öppnar valvet `my vault` och skapar en ny anteckning som heter `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Detta öppnar valvet `my vault` och skapar en ny anteckning på `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Detta öppnar valvet `my vault` och lägger till `Buy milk` i slutet av avsnittet `Tasks` i `my note`.
 
 ### Parametrar
 
@@ -81,8 +91,14 @@ Parametern `action` är den åtgärd du vill utföra. Tillgängliga åtgärder i
 - `content` (valfritt) innehållet i anteckningen.
 - `clipboard` (valfritt) använd urklippsinnehållet istället för att ange `content`.
 - `silent` (valfritt) inkludera denna parameter om du inte vill öppna den nya anteckningen.
-- `append` (valfritt) inkludera denna parameter för att lägga till i en befintlig fil om en sådan finns.
-- `overwrite` (valfritt) skriv över en befintlig fil om en sådan finns, men bara om `append` inte är satt.
+- `append` (valfritt) inkludera denna parameter för att lägga till i slutet av en befintlig fil om en sådan finns, och sammanfoga eventuella egenskaper.
+- `prepend` (valfritt) inkludera denna parameter för att lägga till i början av en befintlig fil om en sådan finns, och sammanfoga eventuella egenskaper.
+- `heading` (valfritt) lägg till innehållet i avsnittet under denna rubrik istället för hela filen. Kräver `append` eller `prepend`.
+- `spacing` (valfritt) hur innehållet separeras från det befintliga innehållet. Kräver `append` eller `prepend`.
+  - `spacing=auto` (standard) lämnar en tom rad mellan dem.
+  - `spacing=newline` startar innehållet på en ny rad.
+  - `spacing=inline` lägger till innehållet utan radbrytning.
+- `overwrite` (valfritt) skriv över en befintlig fil om en sådan finns, men bara om varken `append` eller `prepend` är satt.
 - `x-success` (valfritt) se [[#Använda x-callback-url-parametrar]].
 
 ## Skapa eller öppna daglig anteckning
@@ -93,6 +109,8 @@ Parametern `action` är den åtgärd du vill utföra. Tillgängliga åtgärder i
 
 - `obsidian://daily?vault=my%20vault`
   Detta öppnar valvet `my vault` och skapar eller öppnar den dagliga anteckningen.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Detta öppnar valvet `my vault` och lägger till `Called Sam` i slutet av avsnittet `Log` i den dagliga anteckningen.
 
 ### Parametrar
 

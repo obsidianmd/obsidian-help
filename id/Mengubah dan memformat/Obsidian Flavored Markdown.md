@@ -36,3 +36,5 @@ Obsidian mendukung [CommonMark](https://commonmark.org/), [GitHub Flavored Markd
 | `- [x]`         | [[Sintaksis format dasar#Daftar tugas\|Tugas selesai]]                       |
 | `> [!note]`     | [[Callout]]                                                                  |
 | (lihat tautan)  | [[Sintaksis format lanjutan#Tabel\|Tabel]]                                   |
+
+Beberapa di antaranya, seperti tautan internal, komentar, dan sorotan, khusus untuk Obsidian. Aplikasi Markdown lain mungkin menampilkannya sebagai teks biasa.

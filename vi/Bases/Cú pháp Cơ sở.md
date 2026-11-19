@@ -201,7 +201,25 @@ views:
 - `name` là tên hiển thị, và có thể được sử dụng để định nghĩa chế độ xem mặc định.
 - `filters` hoàn toàn giống như mô tả ở trên, nhưng chỉ áp dụng cho chế độ xem đó.
 - `groupBy` chỉ định một thuộc tính và hướng sắp xếp. Giá trị của thuộc tính được chỉ định cho mỗi hàng được sử dụng để đặt hàng vào các nhóm.
+- `groupOrder` chỉ định thứ tự và khả năng hiển thị của các nhóm. Nếu có, chỉ các nhóm có giá trị được liệt kê mới được hiển thị, theo thứ tự đó. Một danh sách trống sẽ ẩn tất cả các nhóm. Xóa `groupOrder` để hiển thị tất cả các nhóm theo thứ tự được định nghĩa bởi `groupBy`.
 - `summaries` ánh xạ tên thuộc tính đến một tóm tắt có tên. Tóm tắt thực hiện phép tổng hợp trên thuộc tính trên tất cả các hàng.
+
+Ví dụ, chế độ xem này chỉ hiển thị các nhóm Planned, In progress và Done, theo thứ tự đó:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Sử dụng `null` trong `groupOrder` để bao gồm các tệp không có giá trị cho thuộc tính được nhóm.
 
 [[Các chế độ xem]] có thể thêm dữ liệu bổ sung để lưu trữ bất kỳ thông tin nào cần thiết để duy trì trạng thái hoặc hiển thị đúng cách, tuy nhiên các tác giả plugin nên cẩn thận không sử dụng các khóa đã được plugin Cơ sở cốt lõi sử dụng. Ví dụ, một chế độ xem bảng có thể sử dụng điều này để giới hạn số hàng hoặc để chọn cột nào được sử dụng để sắp xếp hàng và theo hướng nào. Một kiểu chế độ xem khác như bản đồ có thể sử dụng điều này để ánh xạ thuộc tính nào trong ghi chú tương ứng với vĩ độ và kinh độ và thuộc tính nào sẽ được hiển thị làm tiêu đề ghim.
 
@@ -287,7 +305,7 @@ Ngày tháng có thể được sửa đổi bằng cách cộng và trừ kho�
 - `now() + "1 day"` trả về một ngày giờ chính xác 24 giờ kể từ thời điểm thực thi.
 - `file.mtime > now() - "1 week"` trả về `true` nếu tệp được sửa đổi trong vòng một tuần qua.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` trả về một đối tượng Ngày biểu diễn `2025-01-01 04:03:00`.
-- Trừ hai ngày để lấy hiệu millisecond giữa hai ngày, ví dụ, `now() - file.ctime`.
+- Trừ hai ngày để lấy một khoảng thời gian, ví dụ, `note.release_date - today()`.
 - Để lấy phần ngày của một Ngày có giờ, sử dụng `datetime.date()`.
 - Để định dạng một đối tượng Ngày, sử dụng hàm `format()`, ví dụ `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Ngày biểu diễn một ngày cụ thể, hoặc một ngày và giờ tùy th
 
 - Để tạo một ngày, sử dụng hàm `date`, ví dụ `date("2025-01-01 12:00:00")`
 - Để sửa đổi một ngày, cộng hoặc trừ một khoảng thời gian, ví dụ `now() + "1 hour"` hoặc `today() + "7d"`
-- So sánh ngày bằng toán tử so sánh (ví dụ `>` hoặc `<`) và toán tử số học (ví dụ, `(now() + "1d") - now()` trả về `86400000` millisecond.)
+- So sánh ngày bằng toán tử so sánh, ví dụ `>` hoặc `<`.
+- Trừ một ngày cho một ngày khác để lấy một khoảng thời gian, ví dụ `note.release_date - today()`.
 - Để trích xuất các phần của một ngày, sử dụng các trường có sẵn (`now().hour`), hoặc hàm tiện ích (`now.time()`).
 - Nhiều [[Hàm|trường và hàm]] khác có sẵn trên đối tượng ngày.
 
@@ -350,7 +369,7 @@ Ngày biểu diễn một ngày cụ thể, hoặc một ngày và giờ tùy th
 
 [[Liên kết ghi chú|Liên kết wiki]] trong [[Thuộc tính|thuộc tính siêu dữ liệu đầu tệp]] được tự động nhận dạng là đối tượng Liên kết. Liên kết sẽ hiển thị dưới dạng liên kết có thể nhấp trong [[Các chế độ xem|chế độ xem]].
 
-- Để tạo một liên kết, sử dụng [[Hàm|hàm]] toàn cục `link`, ví dụ `link("filename")` hoặc `link("https://obsidian.md")`.
+- Để tạo một liên kết, sử dụng [[Hàm|hàm]] toàn cục `link`, ví dụ `link("filename")`.
 - Bạn có thể tạo liên kết từ bất kỳ chuỗi nào, ví dụ, `link(file.ctime.date().toString())`.
 - Để đặt văn bản hiển thị, truyền vào một chuỗi hoặc biểu tượng tùy chọn làm tham số thứ hai, ví dụ `link("filename", "display")` hoặc `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Liên kết có thể được so sánh với `==` và `!=`. Chúng tương đư
 Liên kết có thể được so sánh với tệp như `file` hoặc `this`. Chúng sẽ bằng nhau nếu liên kết phân giải đến tệp đó. Ví dụ, `author == this`.
 
 Liên kết cũng có thể được kiểm tra trong phép chứa danh sách, ví dụ, `authors.contains(this)`.
+
+### URL
+
+URL trong [[Thuộc tính|thuộc tính siêu dữ liệu đầu tệp]] được tự động nhận dạng là đối tượng URL. URL sẽ hiển thị dưới dạng liên kết có thể nhấp trong [[Các chế độ xem|chế độ xem]].
+
+- Để tạo một URL, sử dụng [[Hàm|hàm]] toàn cục `link`, ví dụ `link("https://obsidian.md")`.
+- Để đặt văn bản hiển thị, truyền vào một chuỗi tùy chọn làm tham số thứ hai, ví dụ `link("https://obsidian.md", "Obsidian")`.

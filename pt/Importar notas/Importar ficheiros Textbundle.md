@@ -16,7 +16,7 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 1. Abra as **[[Definições]]**.
 2. Vá a **Plugins da comunidade** e [instale o Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Ative o plugin Importador.
-4. Abra o plugin **Importador** utilizando a paleta de comandos ou o ícone na barra de ferramentas.
+4. Abra o Importador nas Definições ou utilizando a [[Paleta de comandos]].
 5. Em **Formatação de ficheiro** escolha **Textbundle (.textbundle, .textpack).**
 6. Selecione a localização dos seus ficheiros Textbundle ou Textpack. Ficheiros zip também são suportados.
 7. Selecione **Importar** para rever o modelo gerado e pré-visualizar exemplos das suas notas.

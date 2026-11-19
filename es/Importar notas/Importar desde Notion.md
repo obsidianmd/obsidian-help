@@ -70,7 +70,8 @@ Debido a los límites de velocidad de la API de Notion, importar espacios de tra
 
 Debido a limitaciones en la API de Notion, algunos datos no están disponibles o no pueden convertirse:
 
-- Solo se importa la vista principal de cada base de datos.
+- Las vistas de bases de datos distintas a los tableros no se importan, y los tableros no conservan sus filtros, ordenamientos ni subgrupos.
+- En un tablero agrupado por una propiedad de selección múltiple, persona o relación, una tarjeta con varios valores se coloca en una sola columna para esa combinación de valores.
 - Las [fuentes de datos vinculadas](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) no se importan: *"La API de Notion actualmente no soporta fuentes de datos vinculadas. Al compartir una base de datos con tu integración, ¡asegúrate de que contenga la fuente de datos original!"*
 - Funciones de `People`: `name()` y `email()`
 - Funciones de `Text`: `style()` y `unstyle()`
@@ -78,7 +79,7 @@ Debido a limitaciones en la API de Notion, algunos datos no están disponibles o
 Además, el Importador realizará los siguientes cambios:
 
 - Las páginas sin páginas secundarias o bases de datos se importarán como `[nombre_archivo].md` en lugar de `[nombre_archivo]/[nombre_archivo].md`.
-- Las bases de datos siempre se representan como carpetas llamadas `[nombre de la base de datos]` con un archivo `[nombre de la base de datos].base` dentro.
+- Las bases de datos siempre se representan como carpetas llamadas `[nombre de la base de datos]` con un archivo `[nombre de la base de datos].base` dentro. La base tiene una vista de tabla con todas las propiedades y, en Obsidian 1.14 y posteriores, una [[vista Kanban]] para cada tablero de Notion, agrupada por la misma propiedad.
 
 ## Importar archivos de Notion (.zip)
 

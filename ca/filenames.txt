@@ -154,6 +154,10 @@ translation=Formats de fitxer acceptats
 original=Financial contributions
 translation=Contribucions econòmiques
 
+[file.find-and-replace]
+original=Find and replace
+translation=Cerca i reemplaça
+
 [file.folding]
 original=Folding
 translation=Plegat
@@ -238,6 +242,10 @@ translation=Importar des de Microsoft OneNote
 original=Import from Roam Research
 translation=Importar des de Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Importar des de Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Plantilles de l'importador
@@ -286,6 +294,10 @@ translation=Gestiona les cambres fortes
 original=Mobile app
 translation=Aplicació mòbil
 
+[file.more-options-menu]
+original=More options menu
+translation=Menú de més opcions
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Cursors múltiples
@@ -305,6 +317,10 @@ translation=Lloc web oficial
 [file.payment]
 original=Introduction to licenses and payment
 translation=Introducció a llicències i pagament
+
+[file.pdf]
+original=PDFs
+translation=PDFs
 
 [file.plugin-security]
 original=Plugin security

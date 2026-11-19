@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. Trong Trình khám phá tệp, nhấp chuột phải vào thư mục bạn muốn tạo cơ sở.
 2. Chọn **Cơ sở mới**.
 
-**Thanh công cụ:**
-
-- Trong thanh công cụ dọc, chọn **Tạo cơ sở mới** để tạo một cơ sở trong cùng thư mục với tệp đang hoạt động.
-
 ## Nhúng một cơ sở
 
 ### Nhúng tệp cơ sở

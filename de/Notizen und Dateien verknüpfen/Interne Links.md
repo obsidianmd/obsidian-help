@@ -50,8 +50,6 @@ Um einen Link in der Editor-Ansicht zu erstellen, verwende eine der folgenden Me
 - Markiere Text im Editor und tippe dann `[[`.
 - Öffne die [[Befehlspalette]] und wähle dann Internen Link hinzufügen.
 
-![[Schnellauswahl#^search-autocomplete-large]]
-
 Du kannst zwar auf alle [[Akzeptierte Dateiformate]] verlinken, aber Links zu anderen Dateiformaten als Markdown müssen eine Dateiendung enthalten, wie z. B. `[[Figure 1.png]]`.
 
 > [!tip] Wenn du einem internen Link ein Ausrufezeichen (!) voranstellst, kannst du den verlinkten Inhalt einbetten. Weitere Details findest du unter [[Dateien einbetten]].
@@ -131,7 +129,7 @@ Du kannst auch im gesamten Vault nach Blöcken suchen, auf die du verlinken möc
 > [!info]- Screenshot der Suche nach einem Block-Link
 > ![[link-block-heading.png#interface]]
 
-Du kannst auch menschenlesbare Block-IDs erstellen, indem du ein Leerzeichen gefolgt von einem Caret (`^`) und der ID hinzufügst. Block-IDs können nur aus lateinischen Buchstaben, Zahlen und Bindestrichen bestehen.
+Du kannst auch menschenlesbare Block-IDs erstellen, indem du ein Leerzeichen gefolgt von einem Caret (`^`) und der ID hinzufügst. Block-IDs können nur aus den Buchstaben A-Z und a-z, den Ziffern 0-9 und Bindestrichen bestehen.
 
 Füge zum Beispiel `^quote-of-the-day` am Ende eines Blocks hinzu:
 

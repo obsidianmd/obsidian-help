@@ -324,6 +324,7 @@ Anexar conteúdo à nota diária.
 
 ```bash
 content=<texto>    # (obrigatório) conteúdo a anexar
+heading=<nome>     # secção de cabeçalho alvo
 paneType=tab|split|window    # tipo de painel para abrir
 
 inline             # anexar sem nova linha
@@ -336,6 +337,7 @@ Antepor conteúdo à nota diária.
 
 ```bash
 content=<texto>    # (obrigatório) conteúdo a antepor
+heading=<nome>     # secção de cabeçalho alvo
 paneType=tab|split|window    # tipo de painel para abrir
 
 inline             # antepor sem nova linha
@@ -512,6 +514,7 @@ Anexar conteúdo a um ficheiro (predefinido: ficheiro ativo).
 file=<nome>        # nome do ficheiro
 path=<caminho>     # caminho do ficheiro
 content=<texto>    # (obrigatório) conteúdo a anexar
+heading=<nome>     # secção de cabeçalho alvo
 
 inline             # anexar sem nova linha
 ```
@@ -524,6 +527,7 @@ Antepor conteúdo após metadados iniciais (predefinido: ficheiro ativo).
 file=<nome>        # nome do ficheiro
 path=<caminho>     # caminho do ficheiro
 content=<texto>    # (obrigatório) conteúdo a antepor
+heading=<nome>     # secção de cabeçalho alvo
 
 inline             # antepor sem nova linha
 ```
@@ -1483,8 +1487,6 @@ Se estiver a ter dificuldades em executar a CLI do Obsidian:
 - O Obsidian tem de estar em execução. A CLI liga-se à instância do Obsidian em execução.
 
 ### Windows
-
-A CLI do Obsidian no Windows requer o instalador do Obsidian 1.12.7+. Consulte [[Atualizar Obsidian|Atualização da versão do instalador]].
 
 O Windows usa um redirecionador de terminal que liga o Obsidian ao stdin/stdout corretamente. Isto é necessário porque o Obsidian normalmente executa como uma aplicação GUI que é incompatível com saídas de terminal no Windows. Quando instala o Obsidian 1.12.7+, o redirecionador de terminal `Obsidian.com` será adicionado na pasta onde instalou o ficheiro `Obsidian.exe`.
 

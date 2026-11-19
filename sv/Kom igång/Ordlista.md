@@ -70,7 +70,7 @@ Se även [[Fristående fönster]].
 
 **Ribbon** fungerar som en behållare för ofta använda åtgärdsikoner.
 
-I skrivbordsversionen är det det vertikala området längst till vänster.
+I skrivbordsversionen är det den vertikala kolumnen med ikonknappar i kanten av appen. Det kan slås på eller av under Inställningar → Gränssnitt, eller via [[Kommandopalett|kommandopaletten]].
 
 I mobilversionen representeras det av en menyknapp ![[lucide-menu.svg#icon]] på [[#statusfält|statusfältet]].
 

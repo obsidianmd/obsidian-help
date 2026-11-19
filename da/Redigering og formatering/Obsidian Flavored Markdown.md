@@ -9,7 +9,18 @@ mobile: true
 ---
 Obsidian stræber efter maksimal kapacitet uden at bryde med eksisterende formater. Derfor anvendes en kombination af forskellige udgaver af [[Grundlæggende formaterings syntaks|Markdown]].
 
-Obsidian understøtter [CommonMark](https://commonmark.org/), [GitHub udgave af Markdown](https://github.github.com/gfm/), og [LaTeX](https://www.latex-project.org/). Obsidian undersøtter ikke Markdown eller tomme linjer indeni HTML elementer.
+Obsidian understøtter [CommonMark](https://commonmark.org/), [GitHub udgave af Markdown](https://github.github.com/gfm/), og [LaTeX](https://www.latex-project.org/). 
+
+> [!tip]- Markdown inde i HTML
+> Obsidian gengiver ikke Markdown-syntaks inde i HTML-elementer. Dette er et bevidst designvalg for at optimere ydeevnen og holde parser-kompleksiteten lav ved håndtering af store dokumenter.
+>
+> For eksempel vil Markdown-formatering som `**fed**` eller `` `kode` `` ikke blive behandlet inde i `<div>`, `<span>`, `<table>` eller andre HTML-tags.
+>
+> ```md
+> <div>
+> This **will not** be bold.
+> </div>
+> ```
 
 ### Supported Markdown extensions
 
@@ -28,3 +39,5 @@ Obsidian understøtter [CommonMark](https://commonmark.org/), [GitHub udgave af 
 | `- [x]`         | [[Grundlæggende formaterings syntaks#Opgavelister\|Udført opgave]]                |
 | `> [!note]`     | [[Bobler]]                                                          |
 | (se link)      | [[Avanceret formaterings syntaks#Tabeller\|Tabeller]]                         |
+
+Nogle af disse, såsom interne links, kommentarer og fremhævning, er specifikke for Obsidian. Andre Markdown-applikationer viser dem muligvis som almindelig tekst.

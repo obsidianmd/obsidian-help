@@ -13,11 +13,14 @@ De exemplu, poate vrei să creezi o bază numită „Books" care are vizualizăr
 
 - ![[lucide-table.svg#icon]] **Meniul vizualizare** — creează, editează și comută între vizualizări.
 - **Rezultate** — limitează, copiază și exportă fișiere.
-- ![[lucide-arrow-up-down.svg#icon]] **Sortare** — sortează și grupează fișiere.
+- ![[lucide-arrow-up-down.svg#icon]] **Sortare** — sortează fișiere.
+- ![[lucide-stretch-horizontal.svg#icon]] **Grup** — grupează fișiere și gestionează ordinea și vizibilitatea grupurilor.
 - ![[lucide-list-filter.svg#icon]] **Filtru** — filtrează fișiere.
 - ![[lucide-list.svg#icon]] **Proprietăți** — alege proprietățile de afișat și creează [[Formule|formule]].
 - ![[lucide-search.svg#icon]] **Caută** — caută elemente folosind proprietățile lor afișate.
 - ![[lucide-plus.svg#icon]] **Nou** — creează un fișier nou în vizualizarea curentă.
+
+Pe telefoane, **Rezultate**, **Sortare**, ![[lucide-stretch-horizontal.svg#icon]] **Grup** și **Proprietăți** se găsesc în meniul ![[lucide-sliders-horizontal.svg#icon]] **Afișaj**.
 
 ## Adăugarea și comutarea vizualizărilor
 
@@ -39,7 +42,7 @@ Alternativ, dă *clic dreapta* pe numele vizualizării din bara de instrumente a
 
 ## Aspect
 
-Vizualizările pot fi afișate cu aspecte diferite, inclusiv ca ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **listă**, ![[lucide-layout-grid.svg#icon]] **carduri**, ![[lucide-kanban-square.svg#icon]] **Kanban** și ![[lucide-map.svg#icon]] **hartă**. Aspecte suplimentare pot fi adăugate prin [[Module comunitare|module comunitare]]. Unele aspecte sunt încă în dezvoltare și necesită [[Versiuni cu acces timpuriu|versiuni cu acces timpuriu]] ale Obsidian.
+Vizualizările pot fi afișate cu aspecte diferite, inclusiv ca ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **listă**, ![[lucide-layout-grid.svg#icon]] **carduri**, ![[lucide-kanban-square.svg#icon]] **Kanban** și ![[lucide-map.svg#icon]] **hartă**. Aspecte suplimentare pot fi adăugate prin [[Module comunitare|module comunitare]].
 
 | Aspect                | Descriere                                                                                   | Versiune&nbsp;aplicație |
 | --------------------- | --------------------------------------------------------------------------------------------- | ---------------- |
@@ -85,16 +88,16 @@ Dă clic pe butonul de cod ![[lucide-code-xml.svg#icon]] pentru a folosi editoru
 
 ## Sortarea și gruparea rezultatelor
 
-Deschide meniul ![[lucide-arrow-up-down.svg#icon]] **Sortare** pentru a sorta și grupa rezultatele dintr-o vizualizare.
+Folosește meniul ![[lucide-arrow-up-down.svg#icon]] **Sortare** pentru a aranja rezultatele și meniul ![[lucide-stretch-horizontal.svg#icon]] **Grup** pentru a organiza elemente similare în secțiuni.
 
 Poți aranja rezultatele după una sau mai multe proprietăți, în ordine crescătoare sau descrescătoare. Acest lucru face ușoară listarea notelor după nume, data ultimei editări sau orice altă proprietate — inclusiv formule.
 
-Poți grupa și rezultatele după o proprietate, pentru a organiza elemente similare în secțiuni distincte vizual. În prezent, Obsidian acceptă gruparea după o singură proprietate.
+Fiecare vizualizare poate avea mai multe sortări, dar poate grupa rezultatele după o singură proprietate.
 
 ### Adaugă o sortare
 
 1. Deschide meniul ![[lucide-arrow-up-down.svg#icon]] **Sortare** din partea de sus a vizualizării.
-2. Alege proprietatea după care vrei să sortezi (sau să grupezi).
+2. Selectează **Adaugă sortare**, apoi alege proprietatea după care vrei să sortezi.
 3. Dacă ai mai multe sortări, trage-le în sus sau în jos folosind mânerul ![[lucide-grip-vertical.svg#icon]] pentru a le schimba prioritatea.
 
 Opțiunile pentru ordonarea rezultatelor depind de tipul proprietății:
@@ -106,7 +109,29 @@ Opțiunile pentru ordonarea rezultatelor depind de tipul proprietății:
 ### Elimină o sortare
 
 1. Deschide meniul ![[lucide-arrow-up-down.svg#icon]] **Sortare** din partea de sus a vizualizării.
-2. Dă clic pe butonul ![[lucide-trash-2.svg#icon]] coș de gunoi de lângă sortarea sau gruparea pe care vrei să o elimini.
+2. Selectează butonul ![[lucide-trash-2.svg#icon]] coș de gunoi de lângă sortarea pe care vrei să o elimini.
+
+### Grupează rezultatele
+
+1. Deschide meniul ![[lucide-stretch-horizontal.svg#icon]] **Grup** din partea de sus a vizualizării. Pe telefoane, deschide **Afișaj → Grup**.
+2. Sub **Grupează după**, alege o proprietate.
+3. Alege o ordine de sortare automată, sau selectează **Manual** pentru a ordona grupurile manual.
+
+Pentru a opri gruparea rezultatelor, selectează butonul ![[lucide-trash-2.svg#icon]] coș de gunoi de lângă proprietatea de grupare.
+
+### Reordonează, ascunde și adaugă grupuri
+
+În meniul ![[lucide-stretch-horizontal.svg#icon]] **Grup**, selectează **Manual** din meniul de ordine de sortare pentru a gestiona ce grupuri apar și în ce ordine.
+
+- Bifează un grup pentru a-l afișa, sau debifează-l pentru a-l ascunde. Selectează **Afișează toate** sau **Ascunde tot** pentru a schimba vizibilitatea tuturor grupurilor.
+- Trage mânerul ![[lucide-grip-vertical.svg#icon]] de lângă un grup pentru a-i schimba poziția.
+- Selectează **Adaugă grup** și introdu o valoare pentru a afișa un grup nou, gol. Aceasta nu creează o notă și nu modifică notele existente.
+
+Pentru a restaura ordinea automată a grupurilor și a afișa toate grupurile, alege o ordine de sortare automată în loc de **Manual**.
+
+### Restrânge grupurile
+
+În aspectele [[Afișaj tabel|tabel]], [[Afișaj carduri|carduri]] și [[Afișaj listă|listă]], selectează un titlu de grup pentru a restrânge sau extinde acel grup. Restrângerea unui grup ascunde temporar elementele sale fără a le modifica proprietățile.
 
 ## Limitarea, copierea și exportarea rezultatelor
 

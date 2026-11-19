@@ -10,6 +10,10 @@ Obsidian ofereix dues maneres d'importar les teves dades de Notion:
 1. **Compte de Notion (recomanat)** es connecta directament al teu espai de treball i et permet conservar bases de dades i fórmules que es converteixen a [[Introducció a Bases|Bases]]. Requereix un token d'integració de Notion i una connexió a internet.
 2. **Importació per fitxer** utilitza els fitxers d'exportació `.zip` de Notion. No conserva les bases de dades però no requereix un token d'API ni connexió a internet.
 
+## Personalitzar les pàgines importades
+
+Ambdós mètodes d'importació mostren una previsualització abans que comenci la importació. Pots editar la plantilla generada o escollir una plantilla Markdown de la teva cambra forta. Configuracions com la portada i els noms de propietats de la base de dades actualitzen les propietats generades que es mostren a la previsualització. Consulta [[Plantilles de l'Importador]].
+
 ## Importar des del teu compte de Notion
 
 ### Crear un token d'accés a l'API de Notion
@@ -54,8 +58,8 @@ Necessitaràs el connector oficial d'Obsidian [[Importador]], que pots [instal·
 6. Sota **API token**, fes clic a **Enllaça...** per afegir un nou secret. Per a l'**ID**, dona-li un nom com `notion`, i per al **Secret** enganxa el teu **Access token** de Notion.
 7. Fes clic a **Carrega** per escollir les bases de dades i pàgines que vols importar.
 8. Revisa i edita les opcions d'importació.
-9. Selecciona **Importar** i espera fins que la importació sigui completa
-10. Ja has acabat!
+9. Selecciona **Importar** per revisar la plantilla generada i previsualitzar exemples de les teves pàgines.
+10. Selecciona **Importar** de nou i espera fins que la importació sigui completa.
 
 ### Limitacions
 
@@ -66,7 +70,8 @@ A causa dels límits de velocitat de l'API de Notion, importar espais de treball
 
 A causa de les limitacions de l'API de Notion algunes dades no estan disponibles o no es poden convertir:
 
-- Només s'importa la vista principal de cada base de dades.
+- Les vistes de bases de dades que no siguin taulers no s'importen, i els taulers no conserven els seus filtres, ordenacions ni subgrups.
+- En un tauler agrupat per una propietat de selecció múltiple, persona o relació, una targeta amb diversos valors va en una sola columna per a aquella combinació de valors.
 - Les [fonts de dades vinculades](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) no s'importen: *"L'API de Notion no admet actualment fonts de dades vinculades. Quan comparteixis una base de dades amb la teva integració, assegura't que contingui la font de dades original!"*
 - Funcions `People`: `name()` i `email()`
 - Funcions `Text`: `style()` i `unstyle()`
@@ -74,7 +79,7 @@ A causa de les limitacions de l'API de Notion algunes dades no estan disponibles
 A més, l'Importador farà els canvis següents:
 
 - Les pàgines sense pàgines secundàries o bases de dades s'importaran com a `[nom del fitxer].md` en lloc de `[nom del fitxer]/[nom del fitxer].md`.
-- Les bases de dades sempre es representen com a carpetes amb el nom `[nom de la base de dades]` amb un fitxer `[nom de la base de dades].base` al seu interior.
+- Les bases de dades sempre es representen com a carpetes amb el nom `[nom de la base de dades]` amb un fitxer `[nom de la base de dades].base` al seu interior. La base té una vista de taula amb totes les propietats i, a Obsidian 1.14 i posteriors, una [[vista Kanban]] per a cada tauler de Notion, agrupat per la mateixa propietat.
 
 ## Importar fitxers de Notion (.zip)
 
@@ -108,8 +113,8 @@ Necessitaràs el connector oficial d'Obsidian [[Importador]], que pots [instal·
 6. Escull el fitxer `.zip` amb els fitxers de Notion que vols importar. *Es recomana importar tot el teu Notion alhora perquè els enllaços interns es puguin conciliar correctament.*
 7. _Opcionalment_, selecciona una carpeta per a la importació. Les teves pàgines i bases de dades de Notion s'imbricaran dins d'aquesta carpeta.
 8. Habilita **Desa les pàgines pare en subcarpetes** per mantenir l'estructura de Notion. *Tingues en compte que a Notion pots escriure contingut en carpetes, això no és possible a Obsidian i aquestes pàgines s'afegiran com a subpàgina dins de la carpeta.*
-9. Selecciona **Importar** i espera fins que la importació sigui completa
-10. Ja has acabat!
+9. Selecciona **Importar** per revisar la plantilla generada i previsualitzar exemples de les teves pàgines.
+10. Selecciona **Importar** de nou i espera fins que la importació sigui completa.
 
 ### Resolució de problemes
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Si veus aquest error, pots descomprimir el fitxer de Notion i després importar els fitxers `Export-{id}-Part-1.zip` imbricats.
+
+## Plantilles
+
+Utilitza [[Plantilles de l'Importador|Plantilles de l'Importador]] per configurar completament com s'importen les teves dades de Notion.
+
+![[Plantilles de l'Importador#Variables]]

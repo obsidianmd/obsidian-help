@@ -30,7 +30,7 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 1. Öppna **[[Inställningar]]**.
 2. Gå till **Användartillägg** och [installera Importerare](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivera Importerare-tillägget.
-4. Öppna **Importerare**-tillägget med kommandopaletten eller ribbon-ikonen.
+4. Öppna Importerare i Inställningar eller med [[Kommandopalett|kommandopaletten]].
 5. Under **Filformat** välj **Airtable**.
 6. Under **Airtable Personal Access Token**, klicka på **Länka...** för att lägga till en ny hemlighet. Som **ID** ger du den ett namn som `airtable`, och som **Hemlighet** klistrar du in din personliga åtkomsttoken.
 7. Klicka på **Ladda** för att bläddra bland dina baser och välj sedan de tabeller du vill importera.
@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** blir en [[Tabellvy]].
 	- **Gallery** blir [[Kortvy]].
 	- **List** blir en [[Listvy]].
-	- Alla andra vytyper konverteras till tabellvy.
+	- **Kanban** blir en [[Kanban-vy]] i Obsidian 1.14 och senare. Airtable anger inte vilket fält en kanban grupperas efter, så [[Kanban-vy#Gruppera kort i kolumner|välj en egenskap att gruppera efter]] efter importen. Att importera igen behåller ditt val.
 - Airtable-fälttyper mappas till Obsidians egenskapstyper, utan att skriva över typer du redan har angett.
 - Länkade poster blir länkar till motsvarande anteckningar.
 - Bilagor laddas ner till ditt valv med hjälp av dina valvinställningar.
@@ -88,7 +88,7 @@ På grund av begränsningar i Airtable API:et är vissa data inte tillgängliga 
 
 - Rollup-värden importeras inte. API:et exponerar inte den aggregering som används för ett rollup-fälts beräknade värde, så bara egenskapsnamnet skrivs, tillsammans med en Bases-formel där fältets schema exponerar ett uttryck.
 - Formler som använder funktioner som Obsidian inte har någon motsvarighet till, såsom `SWITCH`, `FIND`, `REGEX_EXTRACT` och `SQRT`, faller tillbaka på det statiska värdet från Airtable.
-- Bara grid-, galleri- och listvyer importeras. Andra vytyper, som kalender, kanban, tidslinje och Gantt, ignoreras.
+- Bara grid-, galleri-, list- och kanban-vyer importeras. Andra vytyper, som kalender, tidslinje och Gantt, ignoreras.
 - Länkar till poster i tabeller du inte valde blir postens rena titel istället för en länk.
 - Gränssnittsdesigner, automatiseringar, kommentarer och revisionshistorik importeras inte.
 

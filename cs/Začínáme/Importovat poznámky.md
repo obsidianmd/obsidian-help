@@ -18,6 +18,7 @@ Aplikace přicházejí a odcházejí, ale vaše data by měla vydržet. Obsidian
 - <span class="icon-app icon-craft"></span> [[Importovat z Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importovat z Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importovat z Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importovat z Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importovat z Tomboy a Gnote|Tomboy a Gnote]]
 - <span class="icon-app icon-html"></span> [[Importovat soubory HTML|HTML soubory]]
 - <span class="icon-app icon-md"></span> [[Importovat soubory CSV]]

@@ -21,6 +21,27 @@ Você também pode criar notas usando o [[Explorador de arquivos#Criar uma nova 
 > O Obsidian respeitará as limitações de nome de arquivo do sistema operacional em que você criar a nota. Se você planeja [[Sincronizar suas notas entre dispositivos|sincronizar suas notas entre dispositivos]], certifique-se de que seus nomes de arquivo sejam [seguros para outros sistemas operacionais](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Abrir arquivos fora do seu cofre
+
+No desktop, você pode abrir e editar arquivos Markdown individuais fora do seu cofre. Os arquivos abrem na sua janela atual e permanecem em sua localização original.
+
+> [!note] Requer Obsidian 1.14 e o instalador mais recente
+> [[Atualizar o Obsidian#Atualizações do instalador|Atualize seu instalador]] baixando o Obsidian em [obsidian.md/download](https://obsidian.md/download) e reinstalando o aplicativo.
+
+Para abrir um arquivo Markdown:
+
+1. Abra a [[Paleta de comandos]].
+2. Selecione **Abrir arquivo de fora do cofre...**.
+3. Escolha um arquivo Markdown no seu computador.
+
+Você também pode usar o menu **Abrir com** do seu sistema operacional e selecionar **Obsidian**. Para abrir arquivos Markdown no Obsidian por padrão, defina-o como o aplicativo padrão para arquivos `.md`.
+
+Incorporações de imagens e links para outros arquivos locais são resolvidos relativamente à pasta do arquivo Markdown. Use [[Esboço]] para navegar pelos cabeçalhos e [[Links de saída]] para explorar arquivos vinculados.
+
+### Pré-visualizar arquivos com Quick Look
+
+No macOS, selecione um arquivo Markdown no Finder e pressione `Espaço` para pré-visualizá-lo com o **Quick Look**. As pré-visualizações do Quick Look funcionam mesmo quando o Obsidian está fechado.
+
 ## Renomear uma nota
 
 Para renomear uma nota ativa:

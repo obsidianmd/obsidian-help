@@ -55,12 +55,12 @@ Konfigurasjonsalternativer for **Vis notat**-widget:
 
 ## Hurtigfangst
 
-Hurtigfangst lar deg lagre tekst til hvelvet ditt fra låseskjermen, kontrollsenteret eller hjemskjerm-widgeter. Avhengig av fangstplasseringen du velger, kan Hurtigfangst opprette et nytt notat eller legge teksten til et eksisterende notat.
+Hurtigfangst lar deg lagre tekst til hvelvet ditt fra låseskjermen, kontrollsenteret, hjemskjerm-widgeter eller Snarveier uten å vente på at hvelvet lastes inn. Avhengig av fangstplasseringen du velger, kan Hurtigfangst opprette et nytt notat eller legge teksten til et eksisterende notat.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Merk
-> Hurtigfangst er tilgjengelig på iOS og iPadOS 26 og nyere.
+> Hurtigfangst krever Obsidian 1.14 eller nyere og iOS eller iPadOS 26 eller nyere.
 
 For å fange tekst:
 
@@ -73,6 +73,63 @@ For å fange tekst:
 **Merk**: Hvis Live-aktiviteter er aktivert, vises hurtigfangst-notatet også på låseskjermen og, på støttede iPhone-modeller, i Dynamic Island. Trykk på linjen eller Live-aktiviteten for å fortsette redigeringen.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Stemmefangst
+
+Stemmefangst lar deg ta opp et talenotat med Hurtigfangst. Obsidian transkriberer det du sier mens du snakker, og kan lagre opptaket til hvelvet ditt sammen med transkripsjonen.
+
+For å fange et talenotat:
+
+1. Åpne Hurtigfangst, og trykk deretter på mikrofonknappen nederst til venstre. Opptaket starter umiddelbart.
+2. Si notatet ditt. Transkripsjonen vises i tekstområdet mens du snakker, og du kan redigere den når som helst.
+3. Trykk på opptaksknappen nederst på skjermen for å pause, og trykk igjen for å gjenoppta.
+4. Trykk på haken for å lagre transkripsjonen og opptaket til den valgte fangstplasseringen.
+
+![[ios-voice-capture.png|400]]
+
+Du kan også starte opptak direkte fra en widget. Når du tilpasser en Hurtigfangst-widget, velger du en handling fra **Stemmefangst**-seksjonen.
+
+Opptaket fortsetter hvis du minimerer Hurtigfangst eller låser enheten. Under opptak viser låseskjermen og Dynamic Island den aktive transkripsjonen og en tidtaker. Trykk på tidtakeren for å pause eller gjenoppta opptaket.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Innstillinger for stemmefangst
+
+For å endre innstillinger for stemmefangst, trykk på tannhjulikonet øverst på skjermen mens du er i Stemmefangst.
+
+- **Språk**: Språket som brukes til transkripsjon. Se [[#Støttede språk]]. Velg **Ingen** for å slå av transkripsjon og kun ta opp lyd.
+- **Mikrofon**: Mikrofonen som brukes til opptak, for eksempel den innebygde mikrofonen eller et tilkoblet headset.
+- **Lagre lydfil**: Om opptaket skal lagres til hvelvet ditt.
+- **Lyd fra andre apper**: Hva som skjer med musikk eller annen lyd som spiller når du tar opp: **Fortsett avspilling**, **Senk volum** eller **Pause**. Endringer gjelder fra neste opptak.
+
+#### Støttede språk
+
+Stemmefangst kan transkribere tale på følgende språk. Noen enheter støtter færre språk, og tilgjengelige språk kan endres med iOS-oppdateringer. Hvis språket ditt ikke er tilgjengelig, kan du fortsatt ta opp lyd uten transkripsjon.
+
+- Bangla
+- Kantonesisk
+- Kinesisk
+- Engelsk
+- Fransk
+- Tysk
+- Gujarati
+- Hindi
+- Italiensk
+- Japansk
+- Kannada
+- Kashmiri
+- Koreansk
+- Maithili
+- Malayalam
+- Marathi
+- Nepali
+- Odia
+- Portugisisk
+- Punjabi
+- Spansk
+- Tamil
+- Telugu
+- Urdu
 
 ### Fangstplasseringer
 

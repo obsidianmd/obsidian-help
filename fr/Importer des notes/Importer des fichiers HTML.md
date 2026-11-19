@@ -15,7 +15,7 @@ Vous aurez besoin du module officiel Obsidian [[Importer]], que vous pouvez [ins
 1. Ouvrez les **[[Paramètres]]**.
 2. Allez dans **Modules complémentaires** et [installez Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activez le module Importer.
-4. Ouvrez le module **Importer** en utilisant la palette de commandes ou l'icône du ruban.
+4. Ouvrez Importer dans les Paramètres ou en utilisant la [[Palette de commandes]].
 5. Sous **Format de fichier**, choisissez **HTML (.html).**
 6. Sélectionnez l'emplacement de vos fichiers ou dossiers HTML.
 7. Sélectionnez **Importer** pour examiner le modèle généré et prévisualiser des exemples à partir de vos fichiers.

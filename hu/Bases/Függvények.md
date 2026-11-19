@@ -148,7 +148,7 @@ Bármely értékkel használható függvények. Ide tartoznak a szövegek (pl. `
 `any.isTruthy(): boolean`
 
 - Az értéket logikai értékké kényszerítve adja vissza.
-- Példa: `1.isTruthy()` visszaadja: `true`.
+- Példa: `(1).isTruthy()` visszaadja: `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Bármely értékkel használható függvények. Ide tartoznak a szövegek (pl. `
 `any.toString(): string`
 
 - Bármely érték szöveges reprezentációját adja vissza.
-- Példa: `123.toString()` visszaadja: `"123"`.
+- Példa: `(123).toString()` visszaadja: `"123"`.
 
 ## Dátum típus
 
@@ -369,7 +369,7 @@ Numerikus értékekkel használható függvények, mint például `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Igazat ad vissza, ha a szám nincs jelen.
-- Példa: `5.isEmpty()` visszaadja: `false`.
+- Példa: `(5).isEmpty()` visszaadja: `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ A következő mezők érhetők el fájlokhoz:
 
 ## Objektum típus
 
-Kulcs-érték párok gyűjteményével használható függvények, mint például `{"a": 1, "b": 2}`.
+Objektum értékekkel használható függvények, mint például a `file.properties`, amely kulcs-érték párok gyűjteményét tartalmazza.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Igazat ad vissza, ha az objektumnak nincsenek saját tulajdonságai.
-- Példa: `{}.isEmpty()` visszaadja: `true`.
+- Példa: `file.properties.isEmpty()` visszaadja: `true`, ha a fájlnak nincsenek tulajdonságai.
 
 ### `keys()`
 

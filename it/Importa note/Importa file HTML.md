@@ -16,7 +16,7 @@ Avrai bisogno del plugin ufficiale Obsidian [[Importatore]], che puoi [installar
 1. Apri le **[[Impostazioni|Impostazioni]]**.
 2. Vai su **Plugin della comunità** e [installa Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Abilita il plugin Importer.
-4. Apri il plugin **Importer** usando la tavolozza dei comandi o l'icona nella barra degli strumenti.
+4. Apri Importer nelle Impostazioni o usando il [[Riquadro comandi]].
 5. Sotto **Formattazione file** scegli **HTML (.html).**
 6. Seleziona la posizione dei tuoi file o cartelle HTML.
 7. Seleziona **Importa** per rivedere il modello generato e visualizzare anteprime di esempio dai tuoi file.

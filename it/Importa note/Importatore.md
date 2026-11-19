@@ -21,3 +21,9 @@ L'Importatore è un [[Plugin della comunità|plugin della community]] ufficiale 
 ![[Importa note#Importare da altre app e formati di file]]
 
 ![[Importa note#Più formati]]
+
+## Modelli dell'Importatore
+
+L'Importatore consente di definire [[Modelli per l'importazione|modelli]] che controllano il modo in cui le note vengono importate da altre app. Questo significa che è possibile modificare il titolo, le proprietà e il contenuto delle note importate.
+
+I modelli supportano variabili e gli stessi [[Obsidian Web Clipper/Filtri|filtri]] e la stessa [[Obsidian Web Clipper/Logica|logica dei modelli]] di [[Introduzione a Obsidian Web Clipper|Web Clipper]].

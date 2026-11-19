@@ -20,7 +20,7 @@ Para mudar para a *Vista de leitura*:
 - Ou pressione `Ctrl+E` (`Cmd+E` no macOS).
 
 > [!note] Nota
-> Ative **[[Definições]] → Aparência → Mostrar barra de título da tabulação** para ver o ícone do alternador de vista.  
+> Ative **[[Definições]] → Interface → Mostrar barra de título da tabulação** para ver o ícone do alternador de vista.  
 > 
 > Se estiver desativado, ative **[[Definições]] → Editor → Estado do edtior** para alternar vistas a partir da barra de estado.
 

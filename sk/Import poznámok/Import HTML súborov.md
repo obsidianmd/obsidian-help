@@ -14,7 +14,7 @@ Budete potrebovať oficiálny plugin Obsidian [[Importér]], ktorý môžete [na
 1. Otvorte **[[Nastavenia]]**.
 2. Prejdite do **Komunitné pluginy** a [nainštalujte Importér](obsidian://show-plugin?id=obsidian-importer).
 3. Zapnite plugin Importér.
-4. Otvorte plugin **Importér** pomocou palety príkazov alebo ikony na paneli nástrojov.
+4. Otvorte Importér v Nastaveniach alebo pomocou [[Paleta príkazov|palety príkazov]].
 5. V časti **Formátovať súbor** vyberte **HTML (.html).**
 6. Vyberte umiestnenie vašich HTML súborov alebo priečinkov.
 7. Vyberte **Importovať** na kontrolu vygenerovanej šablóny a náhľad príkladov z vašich súborov.

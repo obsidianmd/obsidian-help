@@ -56,12 +56,12 @@ Opções de configuração do widget **Visualizar Nota**:
 
 ## Captura Rápida
 
-A Captura Rápida permite salvar texto no seu cofre a partir dos widgets da Tela de Bloqueio, Central de Controle ou Tela Inicial. Dependendo do local de captura selecionado, a Captura Rápida pode criar uma nova nota ou adicionar o texto a uma nota existente.
+A Captura Rápida permite salvar texto no seu cofre a partir dos widgets da Tela de Bloqueio, Central de Controle, Tela Inicial ou Atalhos, sem esperar o cofre carregar. Dependendo do local de captura selecionado, a Captura Rápida pode criar uma nova nota ou adicionar o texto a uma nota existente.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Nota
-> A Captura Rápida está disponível no iOS e iPadOS 26 e superior.
+> A Captura Rápida requer o Obsidian 1.14 ou posterior e iOS ou iPadOS 26 ou posterior.
 
 Para capturar texto:
 
@@ -74,6 +74,63 @@ Para capturar texto:
 **Nota**: Se as Atividades ao Vivo estiverem ativadas, a nota de captura rápida também aparece na Tela de Bloqueio e, em modelos de iPhone compatíveis, na Dynamic Island. Toque na barra ou na Atividade ao Vivo para continuar editando.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Captura por Voz
+
+A Captura por Voz permite gravar uma nota de voz com a Captura Rápida. O Obsidian transcreve o que você diz enquanto fala e pode salvar a gravação no seu cofre junto com a transcrição.
+
+Para capturar uma nota de voz:
+
+1. Abra a Captura Rápida e toque no botão do microfone no canto inferior esquerdo. A gravação começa imediatamente.
+2. Fale sua nota. A transcrição aparece na área de texto enquanto você fala, e você pode editá-la a qualquer momento.
+3. Toque no botão de gravação na parte inferior da tela para pausar, e toque novamente para retomar.
+4. Toque na marca de verificação para salvar a transcrição e a gravação no local de captura selecionado.
+
+![[ios-voice-capture.png|400]]
+
+Você também pode iniciar a gravação diretamente de um widget. Ao personalizar um widget de Captura Rápida, escolha uma ação na seção **Captura por Voz**.
+
+A gravação continua se você minimizar a Captura Rápida ou bloquear seu dispositivo. Durante a gravação, a Tela de Bloqueio e a Dynamic Island mostram a transcrição ao vivo e um temporizador. Toque no temporizador para pausar ou retomar a gravação.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Configurações da Captura por Voz
+
+Para alterar as configurações da Captura por Voz, toque no ícone de engrenagem na parte superior da tela enquanto estiver na Captura por Voz.
+
+- **Idioma**: O idioma usado para transcrição. Consulte [[#Idiomas suportados]]. Selecione **Nenhum** para desativar a transcrição e gravar apenas áudio.
+- **Microfone**: O microfone usado para gravação, como o microfone integrado ou um fone de ouvido conectado.
+- **Salvar Arquivo de Áudio**: Se a gravação deve ser salva no seu cofre.
+- **Áudio de Outros Apps**: O que acontece com música ou outro áudio que estiver tocando quando você gravar: **Continuar Tocando**, **Diminuir Volume** ou **Pausar**. As alterações se aplicam a partir da próxima gravação.
+
+#### Idiomas suportados
+
+A Captura por Voz pode transcrever fala nos seguintes idiomas. Alguns dispositivos suportam menos idiomas, e os idiomas disponíveis podem mudar com atualizações do iOS. Se o seu idioma não estiver disponível, você ainda pode gravar áudio sem transcrição.
+
+- Bangla
+- Cantonês
+- Chinês
+- Inglês
+- Francês
+- Alemão
+- Guzerate
+- Hindi
+- Italiano
+- Japonês
+- Canarês
+- Caxemiri
+- Coreano
+- Maithili
+- Malaiala
+- Marata
+- Nepalês
+- Oriá
+- Português
+- Panjabi
+- Espanhol
+- Tâmil
+- Télugo
+- Urdu
 
 ### Locais de captura
 

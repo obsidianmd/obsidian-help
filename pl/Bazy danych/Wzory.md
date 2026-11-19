@@ -13,6 +13,7 @@ Wzory mogą pomóc w:
 - **Pracy z datami** — obliczaniu różnic czasu, formatowaniu dat lub wyznaczaniu terminów.
 - **Stosowaniu logiki** — używaniu instrukcji warunkowych do wyświetlania różnych wartości.
 - **Przetwarzaniu list** — filtrowaniu, sortowaniu, mapowaniu lub agregowaniu danych list.
+- **Korzystaniu z powiązanych notatek** — wyszukiwaniu lub zestawianiu atrybutów z notatek, do których dana notatka prowadzi łączami. Zobacz [[#Używanie atrybutów z powiązanych notatek]].
 
 ## Tworzenie atrybutu wzoru
 
@@ -90,6 +91,59 @@ Funkcje wykonują operacje na wartościach. Dostępne funkcje zależą od typu w
 - `file.name.lower()` do konwersji na małe litery.
 - `tags.contains("urgent")` do sprawdzenia, czy lista tagów zawiera wartość.
 - `due_date.format("YYYY-MM-DD")` do formatowania daty.
+
+## Używanie atrybutów z powiązanych notatek
+
+Wzory mogą odczytywać atrybuty z notatek, do których dana notatka prowadzi łączami. Możesz wyszukać pojedynczą wartość z powiązanej notatki lub zestawić wartości z kilku powiązanych notatek w sumę, liczbę lub listę.
+
+Aby odczytać atrybuty powiązanej notatki, przekształć łącze w plik za pomocą `asFile()`, a następnie użyj `properties`. Łącza przechowywane w atrybutach, takie jak `project: "[[Redesign strony]]"`, działają w ten sposób bezpośrednio.
+
+> [!warning] Wyniki aktualizują się po zmianie notatki w wierszu
+> Jeśli edytujesz tylko powiązaną notatkę, wyszukiwania i zestawienia w bazie danych mogą nie zostać zaktualizowane, dopóki nie otworzysz ponownie bazy danych.
+
+### Wyszukiwanie wartości
+
+Pokaż `status` notatki powiązanej w atrybucie `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Jeśli atrybut może zawierać jedno łącze lub listę łączy, opakuj go w `list()` i weź pierwsze łącze:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Zestawianie wartości
+
+Zsumuj `hours` z każdej notatki powiązanej w atrybucie `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Policz powiązane notatki, których `status` nie jest "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Wyświetl statusy powiązanych notatek, bez duplikatów:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Zestawianie wartości z notatek prowadzących tutaj
+
+Aby zestawić wartości z notatek, które prowadzą łączami do danej notatki, na przykład zadań, z których każde prowadzi do swojego projektu, użyj `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` działa wolno w dużych sejfach. Gdy to możliwe, przechowuj łącza w samej notatce i zestawiaj je za pomocą `map()` i `reduce()`, jak pokazano powyżej.
 
 ## Przykłady wzorów
 

@@ -319,8 +319,8 @@ En la versión de escritorio, puedes personalizar el menú de cinta de la siguie
 En la versión móvil, puedes personalizar el menú de cinta a través de los ajustes:
 
 1. Abre **[[Configuración]]**.
-2. Navega a **Apariencia**.
-3. Haz clic en **Administrar** bajo **Ajustes del menú de cinta**.
+2. Navega a **Interfaz**.
+3. Haz clic en **Menú de cinta**.
 ```
 
 > [!info]+ ¿Cuándo crear secciones?
@@ -346,7 +346,7 @@ Incluye iconos e imágenes cuando faciliten explicar cosas que son difíciles de
 
 Los iconos de [Lucide](https://lucide.dev/icons/) y los iconos personalizados de Obsidian se pueden usar junto con elementos detallados para proporcionar una representación visual de una función.
 
-**Ejemplo:** En el menú de cinta a la izquierda, selecciona **Crear nuevo lienzo** ![[lucide-layout-dashboard.svg#icon]] para crear un lienzo en la misma carpeta que el archivo activo.
+**Ejemplo:** En el [[Explorador de archivos]], selecciona **Nueva carpeta** ![[lucide-folder-plus.svg#icon]] para crear una carpeta.
 
 **Directrices para iconos**
 
@@ -354,7 +354,7 @@ Los iconos de [Lucide](https://lucide.dev/icons/) y los iconos personalizados de
 - Agrega el prefijo `lucide-` antes del nombre del icono de Lucide.
 - Agrega el prefijo `obsidian-icon-` antes del nombre del icono de Obsidian.
 
-**Ejemplo:** El icono para crear un nuevo lienzo debe llamarse `lucide-layout-dashboard`.
+**Ejemplo:** El icono para crear una nueva carpeta debe llamarse `lucide-folder-plus`.
 
 - Usa la versión SVG de los iconos disponibles.
 - Los iconos deben tener `18` píxeles de ancho, `18` píxeles de alto y un grosor de trazo de `1.5`. Puedes ajustar estos valores en los datos SVG.

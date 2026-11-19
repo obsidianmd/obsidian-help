@@ -148,7 +148,7 @@ Fungsi yang dapat Anda gunakan dengan nilai apa pun. Ini termasuk string (misaln
 `any.isTruthy(): boolean`
 
 - Mengembalikan nilai yang dikonversi menjadi boolean.
-- Contoh: `1.isTruthy()` mengembalikan `true`.
+- Contoh: `(1).isTruthy()` mengembalikan `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Fungsi yang dapat Anda gunakan dengan nilai apa pun. Ini termasuk string (misaln
 `any.toString(): string`
 
 - Mengembalikan representasi string dari nilai apa pun.
-- Contoh: `123.toString()` mengembalikan `"123"`.
+- Contoh: `(123).toString()` mengembalikan `"123"`.
 
 ## Tipe Date
 
@@ -369,7 +369,7 @@ Fungsi yang dapat Anda gunakan dengan nilai numerik seperti `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Mengembalikan true jika angka tidak ada.
-- Contoh: `5.isEmpty()` mengembalikan `false`.
+- Contoh: `(5).isEmpty()` mengembalikan `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Field berikut tersedia untuk file:
 
 ## Tipe Object
 
-Fungsi yang dapat Anda gunakan dengan kumpulan pasangan kunci-nilai seperti `{"a": 1, "b": 2}`.
+Fungsi yang dapat Anda gunakan dengan nilai objek seperti `file.properties`, yang berisi kumpulan pasangan kunci-nilai.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Mengembalikan true jika objek tidak memiliki properti sendiri.
-- Contoh: `{}.isEmpty()` mengembalikan `true`.
+- Contoh: `file.properties.isEmpty()` mengembalikan `true` jika file tidak memiliki properti.
 
 ### `keys()`
 

@@ -26,8 +26,6 @@ Tým Obsidian rovněž udržuje vývoj některých [[#Další pluginy|komunitní
 	- Vizualizujte vztahy mezi poznámkami ve vašem trezoru.
 - [[Hledat]]
 	- Najděte soubory ve vašem trezoru.
-- [[Importér Markdown formátu]]
-	- Převede Markdown z jiných aplikací do formátu Obsidian.
 - [[Každodenní poznámky]]
 	- Vytvářejte a otevírejte poznámky na základě aktuálního data.
 - [[Kompozitor poznámek]]

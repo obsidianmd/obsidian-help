@@ -20,13 +20,13 @@ En **boks** er en mappe i dit filsystem som indeholder [[#Note|noter]] og en `.o
 
 **Båndmenuen** fungerer som en container med ikoner til ofte brugte funktioner.
 
-I desktop versionen er den lokaliseret helt til venstre i applikationen.
+I desktop versionen er den den lodrette kolonne af ikonknapper i kanten af applikationen. Den kan slås til eller fra under Indstillinger → Grænseflade eller via [[Kommandopalet|kommandopaletten]].
 
 I mobilversionen er den repræsenteret af en menuknap ![[lucide-menu.svg#icon]] på [[Statusbar|statusbaren]].
 
 ## Egenskab
 
-[[Egenskaber]] definerer yderligere information om en note, så som define additional information about a note, such as a slutdato eller forfatter.
+[[Egenskaber]] definerer yderligere information om en note, så som define additional information about a note, such as en slutdato eller forfatter.
 
 ## Fane
 

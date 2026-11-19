@@ -10,11 +10,11 @@ Ustawienia pozwalają dostosować Obsidian do własnych potrzeb. Konfiguruj ogó
 
 ### Komputer
 
-Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|lewym panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
+Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
 
 ### Urządzenia mobilne
 
-Na lewym panelu bocznym wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]].
+Na panelu bocznym wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia otwierają się w arkuszu nad aplikacją.
 
 ## Organizacja ustawień
 
@@ -294,9 +294,11 @@ Wybierz czcionkę elementów takich jak bloki kodu i frontmatter. Wybierz **Zarz
 
 Rozmiar czcionki w pikselach, który wpływa na edytor i podgląd. Dostosuj za pomocą suwaka.
 
+Rozmiar czcionki jest zapisywany osobno na każdym urządzeniu i nie jest synchronizowany przez [[Wprowadzenie do Obsidian Sync|Obsidian Sync]]. Na urządzeniach mobilnych tekst i elementy interfejsu skalują się również zgodnie z preferowanym rozmiarem tekstu w systemie, w tym rozmiarami ułatwień dostępu.
+
 #### Szybka regulacja rozmiaru czcionki
 
-Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie.
+Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie. Możesz również użyć poleceń **Zwiększ rozmiar czcionki** i **Zmniejsz rozmiar czcionki** w [[Lista poleceń|palecie poleceń]] lub przypisać im [[Skróty klawiszowe|skróty klawiszowe]].
 
 ### Interfejs
 

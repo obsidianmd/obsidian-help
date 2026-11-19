@@ -154,6 +154,10 @@ translation=Αποδεκτές μορφές αρχείων
 original=Financial contributions
 translation=Οικονομικές συνεισφορές
 
+[file.find-and-replace]
+original=Find and replace
+translation=Εύρεση και Αντικατάσταση
+
 [file.folding]
 original=Folding
 translation=Σύμπτυξη
@@ -238,6 +242,10 @@ translation=Εισαγωγή από Microsoft OneNote
 original=Import from Roam Research
 translation=Εισαγωγή από Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Εισαγωγή από Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Πρότυπα εισαγωγέα
@@ -286,6 +294,10 @@ translation=Διαχείριση θησαυροφυλακίων
 original=Mobile app
 translation=Εφαρμογή κινητού
 
+[file.more-options-menu]
+original=More options menu
+translation=Μενού περισσότερων επιλογών
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Πολλαπλοί δρομείς
@@ -305,6 +317,10 @@ translation=Επίσημη ιστοσελίδα
 [file.payment]
 original=Introduction to licenses and payment
 translation=Εισαγωγή στις άδειες και πληρωμές
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

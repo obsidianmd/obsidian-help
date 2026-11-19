@@ -88,6 +88,14 @@ También puedes especificar la altura en píxeles para el visor de PDF incrustad
 ![[Document.pdf#height=400]]
 ```
 
+Para combinar las opciones de página y altura, sepáralas con `&`:
+
+```md
+![[Document.pdf#page=3&height=400]]
+```
+
+Para más información sobre cómo ver y buscar en PDFs, consulta [[PDFs]].
+
 ## Incrustar un Canvas en una nota
 
 Para incrustar un [[Canvas|Canvas]]:

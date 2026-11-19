@@ -14,7 +14,7 @@ Hi ha diverses maneres d'afegir una propietat a una nota:
 
 - Utilitzeu l'[[Paleta d'ordres|ordre]] **Afegeix propietat a l'arxiu**.
 - Utilitzeu la [[Tecles d'accés ràpid|drecera de teclat]] **`Cmd/Ctrl+;`**.
-- Trieu **Afegeix propietat a l'arxiu** des del menú **Més accions** (que es mostra amb la icona de tres punts o fent clic dret a la pestanya).
+- Trieu **Afegeix propietat a l'arxiu** des del [[Menú de més opcions]] (que es mostra amb la icona de tres punts o fent clic dret a la pestanya).
 - Escriviu `---` al principi del fitxer.
 
 Un cop afegiu una propietat, apareixerà una fila a la part superior del fitxer amb dues entrades: el _nom_ de la propietat i el _valor_ de la propietat.

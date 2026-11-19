@@ -70,7 +70,7 @@ A [[Tulajdonságok]] további információkat határoznak meg egy jegyzetről, p
 
 A **szalag** a gyakran használt műveletikonok tárolójaként szolgál.
 
-Az asztali verzióban ez a bal szélső függőleges sáv.
+Az asztali verzióban ez az alkalmazás szélén található ikongombok függőleges oszlopa. A Beállítások → Felület menüben vagy a [[Parancspaletta]] segítségével be- és kikapcsolható.
 
 A mobil verzióban egy menügomb ![[lucide-menu.svg#icon]] jelöli az [[#állapotsor|állapotsoron]].
 

@@ -19,3 +19,9 @@ L'Importador és un [[Connectors de la comunitat|connector de la comunitat]] ofi
 ![[Importar notes#Importar des d'altres aplicacions i formats de fitxer]]
 
 ![[Importar notes#Més formats]]
+
+## Plantilles de l'Importador
+
+L'Importador et permet definir [[Plantilles de l'Importador|plantilles]] que controlen com s'importen les teves notes des d'altres aplicacions. Això significa que pots modificar el títol, les propietats i el contingut de les notes que importes.
+
+Les plantilles admeten variables i els mateixos [[Obsidian Web Clipper/Filtres|filtres]] i [[Obsidian Web Clipper/Lògica|lògica de plantilles]] que l'[[Introducció a Obsidian Web Clipper|Web Clipper]].

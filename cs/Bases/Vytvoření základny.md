@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. V průzkumníku souborů klikněte pravým tlačítkem na složku, ve které chcete základnu vytvořit.
 2. Vyberte **Nová základna**.
 
-**Postranní panel nástrojů:**
-
-- Ve svislém postranním panelu nástrojů vyberte **Vytvořit novou základnu** pro vytvoření základny ve stejné složce jako aktivní soubor.
-
 ## Vložení základny
 
 ### Vložení souboru základny

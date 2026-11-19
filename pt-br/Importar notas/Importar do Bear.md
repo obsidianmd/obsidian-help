@@ -7,12 +7,19 @@ O Obsidian permite que você migre facilmente suas notas do Bear usando o [[Impo
 
 ## Exporte seus dados do Bear
 
-O Obsidian usa o formato de backup do Bear, arquivos `.bear2bk`. Você pode encontrar as instruções do Bear para criar o backup [no site do Bear](https://bear.app/faq/backup-restore/).
+O Obsidian usa os formatos de backup do Bear `.bear2bk` ou `ApplicationData.zip`.
+
+### iOS
 
 1. Abra o Bear.
-2. Crie um backup
-	1. No macOS: **Arquivo** → **Backup notes**.
-	2. No iOS: clique no menu mais (⋮) no topo da barra lateral e escolha **Backup all notes**.
+2. Vá para **Settings** → **Advanced** → **Share Application Data**.
+3. Escolha uma destinação para o seu arquivo de backup.
+4. Você agora deve ter um arquivo `ApplicationData.zip` que contém todas as suas notas.
+
+### macOS
+
+1. Abra o Bear.
+2. Vá para **File** → **Backup notes**.
 3. Escolha uma destinação para o seu arquivo de backup.
 4. Clique em **Export notes**.
 5. Você agora deve ter um arquivo `.bear2bk` que contém todas as suas notas.
@@ -24,8 +31,14 @@ Você precisará do plugin oficial [[Importador]] do Obsidian, que você pode [i
 1. Abra as **[[Configurações]]**.
 2. Vá para **Plugins da comunidade** e [instale o Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Ative o plugin Importador.
-4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone do menu lateral.
-5. Em **Formatar arquivo** escolha **Bear (.bear2bk)**.
+4. Abra o Importador nas Configurações ou usando a [[Paleta de comandos]].
+5. Em **Formatar arquivo** escolha **Bear (.bear2bk, .zip)**.
 6. Selecione a destinação do seu arquivo de backup do Bear.
-7. Clique em **Importar** e aguarde até que a importação seja concluída.
-8. Pronto!
+7. Clique em **Importar** para revisar o template gerado e visualizar exemplos das suas notas.
+8. Clique em **Importar** novamente e aguarde até que a importação seja concluída.
+
+## Templates
+
+Use [[Modelos do importador|templates do Importador]] para configurar completamente como seus dados do Bear são importados.
+
+![[Modelos do importador#Variables]]

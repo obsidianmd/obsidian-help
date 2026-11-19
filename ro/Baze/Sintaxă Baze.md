@@ -6,7 +6,6 @@ description: Această pagină oferă o introducere în sintaxa Bases din Obsidia
 aliases:
   - Bases syntax
 ---
-
 Când [[Creează o bază|creezi o bază]] în Obsidian, aceasta este salvată ca fișier `.base`. Bazele sunt de obicei editate folosind interfața aplicației, dar sintaxa poate fi editată și manual, și încorporată într-un bloc de cod.
 
 Sintaxa [[Introducere în Baze|Baze]] definește [[Afișaje|vizualizări]], filtre și [[Formule|formule]]. Bazele trebuie să fie YAML valid, conform schemei definite mai jos.
@@ -204,7 +203,25 @@ views:
 - `name` este numele afișat și poate fi folosit pentru a defini vizualizarea implicită.
 - `filters` sunt exact la fel ca cele descrise mai sus, dar se aplică doar vizualizării respective.
 - `groupBy` specifică o proprietate și o direcție de sortare. Valoarea proprietății specificate pentru fiecare rând este folosită pentru a plasa rândul în grupuri.
+- `groupOrder` specifică ordinea și vizibilitatea grupurilor. Dacă este prezent, doar grupurile ale căror valori sunt listate sunt afișate, în acea ordine. O listă goală ascunde toate grupurile. Elimină `groupOrder` pentru a afișa toate grupurile în ordinea definită de `groupBy`.
 - `summaries` asociază numele proprietăților cu un rezumat denumit. Rezumatele efectuează o agregare a proprietății pentru toate rândurile.
+
+De exemplu, această vizualizare afișează doar grupurile Planned, In progress și Done, în acea ordine:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Folosește `null` în `groupOrder` pentru a include fișierele care nu au o valoare pentru proprietatea grupată.
 
 [[Afișaje|Vizualizările]] pot adăuga date suplimentare pentru a stoca orice informație necesară pentru menținerea stării sau pentru afișarea corectă, însă autorii de module trebuie să aibă grijă să nu folosească chei deja utilizate de modulul de bază Bases. De exemplu, o vizualizare de tip tabel poate folosi acest lucru pentru a limita numărul de rânduri sau pentru a selecta ce coloană este folosită pentru sortarea rândurilor și în ce direcție. Un alt tip de vizualizare, precum o hartă, ar putea folosi acest lucru pentru a stabili ce proprietate din notă corespunde latitudinii și longitudinii și ce proprietate ar trebui afișată ca titlu al pinului.
 
@@ -290,7 +307,7 @@ Pentru a modifica sau decala obiectele Date, folosește operatorul `+` sau `-` �
 - `now() + "1 day"` returnează un datetime exact 24 de ore de la momentul execuției.
 - `file.mtime > now() - "1 week"` returnează `true` dacă fișierul a fost modificat în ultima săptămână.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returnează un obiect Date reprezentând `2025-01-01 04:03:00`.
-- Scade două date pentru a obține diferența în milisecunde dintre ele, de exemplu, `now() - file.ctime`.
+- Scade două date pentru a obține o durată, de exemplu, `note.release_date - today()`.
 - Pentru a obține doar porțiunea de dată dintr-un obiect Date cu oră, folosește `datetime.date()`.
 - Pentru a formata un obiect Date, folosește funcția `format()`, de exemplu `datetime.format("YYYY-MM-DD")`.
 
@@ -327,7 +344,7 @@ Bazele au un sistem de tipuri care este folosit de formule și filtre pentru a a
 
 ### Stringuri, numere și valori booleene
 
-Stringurile, numerele și valorile booleene sunt valori „primitive” care nu necesită o funcție pentru a fi create.
+Stringurile, numerele și valorile booleene sunt valori „primitive" care nu necesită o funcție pentru a fi create.
 
 - Stringurile sunt încadrate între ghilimele simple sau duble, de exemplu `"message"`.
 - Numerele sunt scrise ca cifre și pot fi opțional încadrate între paranteze pentru claritate. De exemplu, `1` sau `(2.5)`.
@@ -339,7 +356,8 @@ Datele calendaristice reprezintă o dată specifică, sau o dată și o oră, î
 
 - Pentru a construi o dată, folosește funcția `date`, de exemplu `date("2025-01-01 12:00:00")`
 - Pentru a modifica o dată, adaugă sau elimină o durată, de exemplu `now() + "1 hour"` sau `today() + "7d"`
-- Compară datele folosind operatori de comparație (de exemplu `>` sau `<`) și operatori aritmetici (de exemplu, `(now() + "1d") - now()` returnează `86400000` milisecunde.)
+- Compară datele folosind operatori de comparație, de exemplu `>` sau `<`.
+- Scade o dată din alta pentru a obține o durată, de exemplu `note.release_date - today()`.
 - Pentru a extrage porțiuni dintr-o dată, folosește câmpurile disponibile (`now().hour`), sau o funcție convenabilă (`now.time()`).
 - Multe alte [[Funcții|câmpuri și funcții]] sunt disponibile pe obiectele de tip dată.
 
@@ -353,7 +371,7 @@ Datele calendaristice reprezintă o dată specifică, sau o dată și o oră, î
 
 [[Leagă notițe|Wikilinkurile]] din [[Proprietăți|proprietățile din antet (frontmatter)]] sunt recunoscute automat ca obiecte Link. Legăturile vor fi afișate ca o legătură pe care se poate face clic în [[Afișaje|vizualizare]].
 
-- Pentru a construi o legătură, folosește [[Funcții|funcția]] globală `link`, de exemplu `link("filename")` sau `link("https://obsidian.md")`.
+- Pentru a construi o legătură, folosește [[Funcții|funcția]] globală `link`, de exemplu `link("filename")`.
 - Poți crea o legătură din orice string, de exemplu, `link(file.ctime.date().toString())`.
 - Pentru a stabili textul afișat, transmite un string opțional sau o iconiță ca al doilea parametru, de exemplu `link("filename", "display")` sau `link("filename", icon("plus"))`.
 
@@ -364,3 +382,10 @@ Legăturile pot fi comparate cu `==` și `!=`. Ele sunt echivalente atât timp c
 Legăturile pot fi comparate cu fișiere, precum `file` sau `this`. Ele vor fi considerate egale dacă legătura se rezolvă la acel fișier. De exemplu, `author == this`.
 
 Legăturile pot fi verificate și în conținutul unei liste, de exemplu, `authors.contains(this)`.
+
+### URL-uri
+
+URL-urile din [[Proprietăți|proprietățile din antet (frontmatter)]] sunt recunoscute automat ca obiecte URL. URL-urile vor fi afișate ca o legătură pe care se poate face clic în [[Afișaje|vizualizare]].
+
+- Pentru a construi un URL, folosește [[Funcții|funcția]] globală `link`, de exemplu `link("https://obsidian.md")`.
+- Pentru a stabili textul afișat, transmite un string opțional ca al doilea parametru, de exemplu `link("https://obsidian.md", "Obsidian")`.

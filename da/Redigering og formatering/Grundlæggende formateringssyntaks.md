@@ -154,6 +154,23 @@ Formatering kan tvinges til at blive vist som almindelig tekst ved at tilføje e
 \**Denne linje vises i kursiv og viser gangetegn*\*
 ```
 
+### Fremhævningsfarver
+
+Fremhævning understøtter seks farver. Tilføj en farveemoji umiddelbart efter den indledende `==`:
+
+| Farve  | Eksempel              |
+| ------ | --------------------- |
+| Rød    | `==🔴Vigtigt==`       |
+| Orange | `==🟠Følg op==`       |
+| Gul    | `==🟡Husk dette==`    |
+| Grøn   | `==🟢Fuldført==`      |
+| Blå    | `==🔵Reference==`     |
+| Lilla  | `==🟣Idé==`           |
+
+Uden en farveemoji bruger fremhævningen dit temas standardfremhævningsfarve.
+
+Du kan også vælge en farve fra formateringsmenuen. Når du skriver `==` i editoren, foreslås fremhævningsfarver. I [[Views og redigeringstilstand#Live forhåndsvisning|Live forhåndsvisning]] vises en farveprøve, når markøren placeres inde i en fremhævning. Vælg farveprøven for at ændre farven.
+
 ## Interne links
 
 Obsidian understøtter to formater til at oprette [[Interne links|interne links]] mellem noter:
@@ -494,6 +511,8 @@ Brug [[Fodnotevisning|Fodnotevisningen]] til at se alle fodnoter i en note.
 
 Du kan tilføje kommentarer ved at starte og afslutte med `%%`. Kommentarer er kun synlige i redigerinsgtilstand.
 
+`%%`-syntaksen er specifik for Obsidian. For at skjule tekst i andre apps kan du bruge en HTML-kommentar, `<!-- -->`. Se [[Obsidians Markdown format]] for hvordan Obsidians syntaks adskiller sig fra standard Markdown.
+
 ```md
 Dette er en %%indlejret%% kommentar.
 
@@ -503,6 +522,20 @@ Dette er en kommentarblok.
 Kommentarblokke kan spænde over flere linjer.
 %%
 ```
+
+En indlejret kommentar kan forekomme hvor som helst på en linje, herunder i en overskrift, et listeelement eller fed tekst.
+
+En blokkommentar starter, når en linje begynder med `%%`, og slutter ved den næste `%%`. En blokkommentar kan indeholde tomme linjer og Markdown, såsom overskrifter og lister. Obsidian skjuler det hele i læsevisning.
+
+Tekst efter den afsluttende `%%` forbliver synlig, og Obsidian gengiver dens Markdown. For eksempel vil `%%kommentar%% _kursiv_` kun vise ordet _kursiv_, i kursiv.
+
+> [!warning]+ Luk altid blokkommentarer
+> Hvis du starter en blokkommentar og aldrig lukker den, skjuler læsevisning resten af noten.
+
+> [!info]+ Hold kommentarmarkører simple
+> Hold begge markører i en indlejret kommentar på én linje, og start en blokkommentar i begyndelsen af en linje.
+
+For at vise `%%` som tekst kan du sætte det i en kodespan, eller tilføje en baglæns skråstreg før hver markør.
 
 ## Anvendelse af specialtegn i Markdown
 

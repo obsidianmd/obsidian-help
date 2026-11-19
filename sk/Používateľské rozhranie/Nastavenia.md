@@ -10,11 +10,11 @@ Nastavenia vám umožňujú prispôsobiť si prácu s Obsidian. Nakonfigurujte v
 
 ### Počítač
 
-V [[Bočný panel#Otvorenie skrytých bočných panelov|ľavom bočnom paneli]] vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]]. Nastavenia môžete otvoriť aj pomocou [[Paleta príkazov|palety príkazov]].
+V [[Bočný panel#Otvorenie skrytých bočných panelov|bočnom paneli]] vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]]. Nastavenia môžete otvoriť aj pomocou [[Paleta príkazov|palety príkazov]].
 
 ### Mobil
 
-V ľavom bočnom paneli vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]].
+V bočnom paneli vyberte **[[Nastavenia]]** ![[lucide-cog.svg#icon]]. Nastavenia sa otvoria ako panel prekrývajúci aplikáciu.
 
 ## Organizácia nastavení
 
@@ -294,9 +294,11 @@ Nastavenie písma pre miesta ako bloky kódu a úvodné metadáta. Vyberte **Spr
 
 Veľkosť písma v pixeloch, pre editor a náhľad. Upravte pomocou posúvača.
 
+Veľkosť písma sa ukladá samostatne na každom zariadení a nesynchronizuje sa cez [[Úvod do Obsidian Sync|Obsidian Sync]]. Na mobilných zariadeniach sa text a prvky rozhrania tiež škálujú podľa preferovanej veľkosti textu systému, vrátane veľkostí pre prístupnosť.
+
 #### Rýchla zmena veľkosti písma
 
-Upravte veľkosť písma pomocou `Ctrl+Scroll` (Windows/Linux) alebo `Cmd+Scroll` (macOS), alebo pomocou gesta priblíženia na trackpade.
+Upravte veľkosť písma pomocou `Ctrl+Scroll` (Windows/Linux) alebo `Cmd+Scroll` (macOS), alebo pomocou gesta priblíženia na trackpade. Môžete tiež použiť príkazy **Zväčšiť veľkosť písma** a **Zmenšiť veľkosť písma** v [[Paleta príkazov|palete príkazov]], alebo im priradiť [[Klávesové skratky|klávesové skratky]].
 
 ### Rozhranie
 

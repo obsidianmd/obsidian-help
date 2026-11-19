@@ -7,6 +7,8 @@ Obsidian Credit este un tip de credit preplătit care poate fi achiziționat în
 
 Obsidian Credit va fi aplicat înainte de orice plată scadentă, inclusiv reînnoirile automate. Obsidian Credit **nu** este eligibil pentru rambursare, conform [[Politica de rambursare]].
 
+Obsidian Credit nu expiră atâta timp cât îți păstrezi contul.
+
 ## Adaugă credit
 
 1. Autentifică-te în [contul tău Obsidian](https://obsidian.md/account/billing).

@@ -13,6 +13,7 @@ Formler kan hjelpe deg med å:
 - **Arbeide med datoer**, beregne tidsforskjeller, formatere datoer eller bestemme tidsfrister.
 - **Bruke logikk**, bruke betingede utsagn for å vise forskjellige verdier.
 - **Behandle lister**, filtrere, sortere, kartlegge eller aggregere listedata.
+- **Bruke lenkede notater**, slå opp eller rulle opp egenskaper fra notatene et notat lenker til. Se [[#Bruk egenskaper fra lenkede notater]].
 
 ## Opprett en formelegenskap
 
@@ -90,6 +91,59 @@ Funksjoner utfører operasjoner på verdier. De tilgjengelige funksjonene avheng
 - `file.name.lower()` for å konvertere til små bokstaver.
 - `tags.contains("urgent")` for å sjekke om tagglisten inneholder en verdi.
 - `due_date.format("YYYY-MM-DD")` for å formatere en dato.
+
+## Bruk egenskaper fra lenkede notater
+
+Formler kan lese egenskaper fra notatene et notat lenker til. Du kan slå opp én verdi fra et lenket notat, eller rulle opp verdier fra flere lenkede notater til en total, en telling eller en liste.
+
+For å lese et lenket notats egenskaper, gjør lenken om til en fil med `asFile()`, og bruk deretter `properties`. Lenker lagret i egenskaper, som `project: "[[Redesign av nettsted]]"`, fungerer på denne måten direkte.
+
+> [!warning] Resultater oppdateres når notatet i raden endres
+> Hvis du bare redigerer et lenket notat, kan oppslag og opprullinger i basen ikke oppdateres før du åpner basen på nytt.
+
+### Slå opp en verdi
+
+Vis `status` for notatet som er lenket i `project`-egenskapen:
+
+```js
+project.asFile().properties.status
+```
+
+Hvis egenskapen kan inneholde enten én lenke eller en liste med lenker, pakk den inn i `list()` og ta den første lenken:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Rull opp verdier
+
+Legg sammen `hours` for hvert notat som er lenket i `tasks`-egenskapen:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Tell de lenkede notatene der `status` ikke er "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+List opp statusene til de lenkede notatene, uten duplikater:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Rull opp verdier fra notater som lenker hit
+
+For å rulle opp verdier fra notater som lenker til et notat, for eksempel oppgaver som hver lenker til prosjektet sitt, bruk `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` er treg i store hvelv. Når du kan, lagre lenkene i selve notatet og rull dem opp med `map()` og `reduce()`, som vist ovenfor.
 
 ## Formeleksempler
 

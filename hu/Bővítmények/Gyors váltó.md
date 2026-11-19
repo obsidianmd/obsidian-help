@@ -18,9 +18,8 @@ A Gyors váltó többféleképpen nyitható meg, ha engedélyezve van:
 3. Navigáljon a jegyzethez a nyílbillentyűkkel.
 4. Nyomja meg az `Enter` billentyűt a kiválasztott jegyzet megnyitásához.
 
-> [!info] 
-> Az automatikus kiegészítés funkció egyszerűbb találati algoritmusra vált, ha a széf eléri a 10 000 elemet, az optimális alkalmazásteljesítmény fenntartása érdekében.
-^search-autocomplete-large
+> [!info] Fuzzy illesztés
+> A fájljavaslatok sorrendben illesztik a betűket, még akkor is, ha néhányat kihagy. Például a `nj` illeszkedhet a `Napi jegyzetek` kifejezésre.
 
 Ha a szöveg nem egyezik egyetlen jegyzettel sem, nyomja meg az `Enter` billentyűt egy ilyen nevű jegyzet létrehozásához. Még ha a szöveg egy vagy több hasonló jegyzettel egyezik is, továbbra is létrehozhat egy pontosan ilyen nevű jegyzetet a `Shift+Enter` megnyomásával.
 

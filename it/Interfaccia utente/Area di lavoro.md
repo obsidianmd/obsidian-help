@@ -18,6 +18,7 @@ Nell'app desktop di Obsidian l'area di lavoro include:
     - [[Barra laterale#Schede|Schede della barra laterale]]
 - [[Schede#Organizzare schede e finestre|Gruppi di schede]] nell'area centrale dei contenuti (possono essere divisi verticalmente o orizzontalmente)
     - [[Schede]]
+    - [[Menu altre opzioni]] nell'angolo in alto a destra di ogni nota
 - [[Barra di stato]] nell'angolo in basso a destra
 
 ## Mobile
@@ -25,6 +26,7 @@ Nell'app desktop di Obsidian l'area di lavoro include:
 Nell'app mobile di Obsidian l'area di lavoro include:
 
 - [[Schede]] gestite dal contatore delle schede nella [[App mobile#Barra di navigazione|Barra di navigazione]]
+- [[Menu altre opzioni#Mobile|Menu altre opzioni]] per la nota attiva
 - [[Barra laterale|Barre laterali]] (aperte tramite gesti di scorrimento verso sinistra e destra)
 - [[App mobile#Barra di navigazione|Barra di navigazione]] nella parte inferiore dello schermo
 - [[Barra multifunzione|Configurazione barra multifunzione]] nella barra di navigazione (contiene azioni personalizzabili)

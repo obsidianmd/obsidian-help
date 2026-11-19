@@ -128,7 +128,7 @@ Az Obsidian az alábbi nyílt forráskódú könyvtárakat használja (ábécé 
 
 ### Capacitor
 
-Verzió: `5.x`
+Verzió: `7.0.0`
 MIT License
 Copyright (c) 2017-present Drifty Co.
 
@@ -140,12 +140,13 @@ Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@a
 
 ### DOMPurify
 
+Verzió: `3.4.17`
 https://github.com/cure53/DOMPurify
 Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2.0/)
 
 ### Electron
 
-Verzió: `43.1.1`
+Verzió: `44.9.3`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -162,23 +163,18 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
-Verzió: `0.446.0`
+Verzió: `1.14.0`
 ISC License
 Copyright (c) 2020, Lucide Contributors ^lucide
 
 ### MathJax
 
+Verzió: `4.1.3`
 Apache License 2.0
-
-### Mermaid
-
-Verzió: `11.13.0`
-MIT License
-Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Verzió: `2.30.1`
+Verzió: `2.31.0`
 MIT License
 Copyright (c) JS Foundation and other contributors
 
@@ -186,14 +182,21 @@ Copyright (c) JS Foundation and other contributors
 
 Apache License 2.0
 
+### Pele
+
+Verzió: `1.12.0`
+MIT License
+Copyright (c) 2026 kepano
+
 ### PixiJS
 
+Verzió: `7.2.4`
 MIT License
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
-Verzió: `1.29.0`
+Verzió: `1.30.0`
 MIT License
 Copyright (c) 2012 Lea Verou
 
@@ -210,9 +213,9 @@ Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
 ### reveal.js
 
-Verzió: `4.3.1`
+Verzió: `6.0.2`
 The MIT License
-Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
+Copyright (C) 2011-2026 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
 ### scrypt
 
@@ -220,6 +223,7 @@ Apache License 2.0
 
 ### Turndown
 
+Verzió: `7.2.0`
 MIT License
 Copyright (c) 2017 Dom Christie
 

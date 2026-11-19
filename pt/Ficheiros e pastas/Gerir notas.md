@@ -19,6 +19,27 @@ Também pode criar notas utilizando o [[Explorador de ficheiros#Criar uma nova n
 > O Obsidian respeita as limitações de nomes de ficheiro do sistema operativo onde cria a nota. Se planeia [[Sincronizar notas entre dispositivos|sincronizar as suas notas entre dispositivos]], certifique-se de que os nomes dos ficheiros são [seguros para outros sistemas operativos](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Abrir ficheiros fora do seu cofre
+
+No desktop, pode abrir e editar ficheiros Markdown individuais fora do seu cofre. Os ficheiros abrem na sua janela atual e permanecem na sua localização original.
+
+> [!note] Requer o Obsidian 1.14 e o instalador mais recente
+> [[Atualizar o Obsidian#Atualizações do instalador|Atualize o seu instalador]] descarregando o Obsidian a partir de [obsidian.md/download](https://obsidian.md/download) e reinstalando a aplicação.
+
+Para abrir um ficheiro Markdown:
+
+1. Abra a [[Paleta de comando]].
+2. Selecione **Abrir ficheiro de fora do cofre...**.
+3. Escolha um ficheiro Markdown no seu computador.
+
+Também pode utilizar o menu **Abrir com** do seu sistema operativo e selecionar **Obsidian**. Para abrir ficheiros Markdown no Obsidian por predefinição, defina-o como a aplicação predefinida para ficheiros `.md`.
+
+As incorporações de imagens e ligações para outros ficheiros locais são resolvidas relativamente à pasta do ficheiro Markdown. Utilize o [[Esquema]] para navegar por cabeçalhos e as [[Ligações de saída]] para explorar ficheiros ligados.
+
+### Pré-visualizar ficheiros com o Quick Look
+
+No macOS, selecione um ficheiro Markdown no Finder e prima `Espaço` para o pré-visualizar com o **Quick Look**. As pré-visualizações do Quick Look funcionam mesmo quando o Obsidian está fechado.
+
 ## Renomear uma nota
 
 Para renomear uma nota ativa:

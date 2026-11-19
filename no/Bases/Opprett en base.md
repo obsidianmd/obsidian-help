@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. I filutforskeren, høyreklikk på mappen du vil opprette basen i.
 2. Velg **Ny base**.
 
-**Verktøylinje:**
-
-- I den vertikale verktøylinjen, velg **Opprett ny base** for å opprette en base i samme mappe som den aktive filen.
-
 ## Bygg inn en base
 
 ### Bygg inn en basefil

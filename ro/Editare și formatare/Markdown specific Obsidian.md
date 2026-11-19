@@ -6,7 +6,6 @@ description: 'Aflați despre Obsidian Flavored Markdown, inclusiv extensiile acc
 aliases:
   - Obsidian Flavored Markdown
 ---
-
 Obsidian tinde spre capabilitate maximă fără a strica formatele existente. Ca urmare, folosim o combinație de variante de [[Sintaxă de bază pentru formatare|Markdown]].
 
 Obsidian acceptă [CommonMark](https://commonmark.org/), [GitHub Flavored Markdown](https://github.github.com/gfm/) și [LaTeX](https://www.latex-project.org/). 
@@ -39,3 +38,5 @@ Obsidian acceptă [CommonMark](https://commonmark.org/), [GitHub Flavored Markdo
 | `- [x]`         | [[Sintaxă de bază pentru formatare#Task lists\|Sarcină finalizată]]                |
 | `> [!note]`     | [[Explicații|Explicații]]                                                          |
 | (vezi legătura)      | [[Sintaxă avansată de formatare#Tables\|Tabele]]                         |
+
+Unele dintre acestea, precum legăturile interne, comentariile și evidențierile, sunt specifice Obsidian. Alte aplicații Markdown le pot afișa ca text simplu.

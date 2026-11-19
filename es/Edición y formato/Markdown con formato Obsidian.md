@@ -38,3 +38,5 @@ Obsidian es compatible con [CommonMark](https://commonmark.org/), [GitHub Flavor
 | `- [x]`         | [[Sintaxis de formato básico#Listas de tareas\|Tarea completada]]                |
 | `> [!note]`     | [[Destacados]]                                                                   |
 | (ver enlace)    | [[Sintaxis de formato avanzado#Tablas\|Tablas]]                                  |
+
+Algunas de estas extensiones, como los enlaces internos, los comentarios y los resaltados, son específicas de Obsidian. Otras aplicaciones de Markdown pueden mostrarlas como texto sin formato.

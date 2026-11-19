@@ -20,6 +20,7 @@ Las aplicaciones van y vienen, pero tus datos deberían perdurar. Obsidian utili
 - <span class="icon-app icon-craft"></span> [[Importar desde Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importar desde Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importar desde Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importar desde Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importar desde Tomboy y Gnote|Tomboy y Gnote]]
 - <span class="icon-app icon-html"></span> [[Importar archivos HTML|Archivos HTML]]
 - <span class="icon-app icon-md"></span> [[Importar archivos CSV]]

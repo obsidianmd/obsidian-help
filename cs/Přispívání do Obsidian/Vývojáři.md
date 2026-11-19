@@ -11,6 +11,7 @@ Můžete vyvíjet [[Komunitní pluginy]] a [[Motivy]] pomocí TypeScriptu a CSS.
 
 Obsidian vyvíjí a spravuje několik open source projektů. Můžete odesílat pull requesty s opravami chyb a vylepšeními do následujících GitHub repozitářů:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), renderer, který Obsidian používá k vykreslování diagramů Mermaid.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), otevřený souborový formát pro data nekonečného plátna.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), šablonovací jazyk pro generování Markdownu.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), plugin, který převádí data z široké škály formátů do souborů v prostém textu Markdown.

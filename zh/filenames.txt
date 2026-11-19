@@ -158,6 +158,10 @@ translation=支持的文件格式
 original=Financial contributions
 translation=捐赠
 
+[file.find-and-replace]
+original=Find and replace
+translation=查找与替换
+
 [file.folding]
 original=Folding
 translation=折叠
@@ -246,6 +250,10 @@ translation=OneNote
 original=Import from Roam Research
 translation=Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=从三星笔记导入
+
 [file.import/templates]
 original=Importer templates
 translation=导入器模板
@@ -294,6 +302,10 @@ translation=管理仓库
 original=Mobile app
 translation=移动端应用
 
+[file.more-options-menu]
+original=More options menu
+translation=更多选项菜单
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=多光标模式
@@ -313,6 +325,10 @@ translation=官方网站
 [file.payment]
 original=Introduction to licenses and payment
 translation=许可证与支付简介
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

@@ -70,7 +70,7 @@ See also [[Pop-out windows]].
 
 The **ribbon** functions as a container for frequently used action icons. 
 
-In the desktop version, it's the vertical area situated on the far left. 
+In the desktop version, it's the vertical column of icon buttons on the edge of the app. It can be toggled on or off in Settings → Interface, or using the [[Command palette]].
 
 In the mobile version, it's represented by a menu button ![[lucide-menu.svg#icon]] on the [[#status bar|status bar]].
 

@@ -6,7 +6,6 @@ description: Această pagină explică ghidul de stil pentru redactarea document
 aliases:
   - Style guide
 ---
-
 Documentația Obsidian respectă liniile directoare de stil listate pe această pagină. Aceste linii directoare se bazează pe cele mai bune practici din industrie, în special pe [Google developer documentation style guide](<https://developers.google.com/style>) și [Microsoft Style Guide](https://learn.microsoft.com/en-us/style-guide/). Pentru cazuri particulare care nu sunt acoperite mai jos, consultă acele ghiduri externe ca referințe secundare.
 
 > [!tip]- Contribuie
@@ -24,20 +23,20 @@ Pentru documentația noastră în limba engleză, se recomandă folosirea [Globa
 - Folosirea vocii active și a construcțiilor de propoziții directe
 - Preferarea cuvintelor simple, comune, în locul terminologiei complexe
 - Fiind explicit, nu implicit
-- Pentru convențiile de ortografie, folosește engleza americană (de exemplu, „organize” nu „organise”).
+- Pentru convențiile de ortografie, folosește engleza americană (de exemplu, „organize" nu „organise").
 
 ### Termeni
 
-- Preferă „combinație de taste” în locul „hotkey”. Folosește Hotkey doar atunci când te referi la funcția specifică.
-- Preferă „aplicația Obsidian” pe mobil și „aplicația Obsidian” pe desktop.
-- Preferă „sincronizare” sau „sincronizează” în locul „sincronizare” (evită formele nestandard).
-- Preferă „termen de căutare” în locul „interogare de căutare”.
-- Preferă „titlu” în locul „antet” atunci când te referi la un text care introduce o secțiune.
-- Preferă „maxim” în locul „max” și „minim” în locul „min”.
+- Preferă „combinație de taste" în locul „hotkey". Folosește Hotkey doar atunci când te referi la funcția specifică.
+- Preferă „aplicația Obsidian" pe mobil și „aplicația Obsidian" pe desktop.
+- Preferă „sincronizare" sau „sincronizează" în locul „sincronizare" (evită formele nestandard).
+- Preferă „termen de căutare" în locul „interogare de căutare".
+- Preferă „titlu" în locul „antet" atunci când te referi la un text care introduce o secțiune.
+- Preferă „maxim" în locul „max" și „minim" în locul „min".
 
 ### Nume de produse
 
-Numele produselor Obsidian încep cu „Obsidian”, de exemplu „Obsidian Publish” și „Obsidian Sync”.
+Numele produselor Obsidian încep cu „Obsidian", de exemplu „Obsidian Publish" și „Obsidian Sync".
 
 Dacă un paragraf devine excesiv de repetitiv, poți folosi forma scurtă în referințele ulterioare.
 
@@ -48,23 +47,23 @@ _Pentru a permite configurarea specifică fiecărui dispozitiv, Obsidian Sync nu
 ### Interfață și interacțiuni
 
 - Folosește **aldin** pentru a indica textul unui buton
-- Preferă „selectează” în locul „atinge” sau „apasă”.
-	- Pentru instrucțiuni specifice mobilului, „atinge” este acceptabil atunci când descrii interacțiuni tactile, deoarece „apasă” (click) nu este disponibil.
-- Preferă „bară laterală” în locul „bară de margine”.
-- Preferă „efectuează” în locul „invocă” și „execută” atunci când te referi la comenzi sau acțiuni.
+- Preferă „selectează" în locul „atinge" sau „apasă".
+	- Pentru instrucțiuni specifice mobilului, „atinge" este acceptabil atunci când descrii interacțiuni tactile, deoarece „apasă" (click) nu este disponibil.
+- Preferă „bară laterală" în locul „bară de margine".
+- Preferă „efectuează" în locul „invocă" și „execută" atunci când te referi la comenzi sau acțiuni.
 
-Atunci când te referi la mai multe interacțiuni ale interfeței într-o secvență, folosește simbolul → (U+2192). De exemplu, „**[[Setări]] → Community plugins**”.
+Atunci când te referi la mai multe interacțiuni ale interfeței într-o secvență, folosește simbolul → (U+2192). De exemplu, „**[[Setări]] → Community plugins**".
 
 ### Note, fișiere și foldere
 
-- Folosește „notă” atunci când te referi la un fișier Markdown din boltă.
-- Folosește „fișier” atunci când te referi la alte extensii de fișier decât Markdown.
-- Preferă „numele notei” în locul „titlul notei”.
-- Preferă „nota activă” în locul „nota curentă”.
-- Preferă „folder” în locul „director”.
-- Preferă „tip de fișier” în locul „format de fișier”, cu excepția cazului în care te referi în mod specific la formatul de date al conținutului fișierului.
+- Folosește „notă" atunci când te referi la un fișier Markdown din boltă.
+- Folosește „fișier" atunci când te referi la alte extensii de fișier decât Markdown.
+- Preferă „numele notei" în locul „titlul notei".
+- Preferă „nota activă" în locul „nota curentă".
+- Preferă „folder" în locul „director".
+- Preferă „tip de fișier" în locul „format de fișier", cu excepția cazului în care te referi în mod specific la formatul de date al conținutului fișierului.
 
-Atunci când te muți între note, folosește „deschide” dacă destinația este ascunsă și „comută” dacă atât nota sursă, cât și cea de destinație sunt deschise în ecrane separate.
+Atunci când te muți între note, folosește „deschide" dacă destinația este ascunsă și „comută" dacă atât nota sursă, cât și cea de destinație sunt deschise în ecrane separate.
 
 ### Documentație de referință pentru setări
 
@@ -90,7 +89,7 @@ Cratimă termenii de direcție atunci când sunt folosiți ca adjective. Evită 
 - Selectează **[[Setări]]** în colțul stânga jos.
 - Selectează **[[Setări]]** în stânga-jos.
 
-Preferă „stânga sus” și „dreapta sus” în locul „sus-stânga” și „sus-dreapta”.
+Preferă „stânga sus" și „dreapta sus" în locul „sus-stânga" și „sus-dreapta".
 
 Nu indica o direcție atunci când te referi la setări. Locația controlului de setări depinde de dispozitiv.
 
@@ -102,7 +101,7 @@ Nu indica o direcție atunci când te referi la setări. Locația controlului de
 
 - În dreapta lui **Alege bolta la distanță**, selectează **Alege**.
 
-Atunci când descrii direcția verticală în elementele interfeței, folosește „deasupra” și „dedesubt” pentru relații spațiale. Evită „sus” și „jos” deoarece sunt ambigue în contexte diferite.
+Atunci când descrii direcția verticală în elementele interfeței, folosește „deasupra" și „dedesubt" pentru relații spațiale. Evită „sus" și „jos" deoarece sunt ambigue în contexte diferite.
 
 **Recomandat:**
 
@@ -118,9 +117,9 @@ Atunci când descrii direcția verticală în elementele interfeței, folosește
 
 Folosește imperativul pentru numele ghidurilor, titlurile secțiunilor și instrucțiunile pas cu pas. Modul imperativ este concis și orientat spre acțiune, ceea ce este mai direct pentru utilizatorii care urmează instrucțiuni.
 
-- Preferă „Configurează” în locul „Configurarea”
-- Preferă „Mută un fișier” în locul „Mutarea unui fișier”
-- Preferă „Importă-ți notele” în locul „Importarea notelor tale”
+- Preferă „Configurează" în locul „Configurarea"
+- Preferă „Mută un fișier" în locul „Mutarea unui fișier"
+- Preferă „Importă-ți notele" în locul „Importarea notelor tale"
 
 ### Scriere cu literă mică (sentence case)
 
@@ -224,7 +223,7 @@ Folosește liniuțe lungi (—) pentru a separa termenii îngroșați de descrie
 
 ### Imagini
 
-Folosește „**lățime** x **înălțime** pixeli” pentru a descrie dimensiunile unei imagini sau ale ecranului.
+Folosește „**lățime** x **înălțime** pixeli" pentru a descrie dimensiunile unei imagini sau ale ecranului.
 
 **Exemplu:**
 
@@ -297,8 +296,8 @@ Folosește legături wiki interne (`[[Nume notă]]`) cu generozitate pentru a aj
 
 **Exemplu:**
 
-Prima mențiune: „Află despre [[Introducere în Obsidian Sync|Obsidian Sync]] pentru a-ți menține bolta actualizată pe toate dispozitivele.”
-Mențiune ulterioară: „Poți configura Sync separat pentru fiecare dispozitiv.”
+Prima mențiune: „Află despre [[Introducere în Obsidian Sync|Obsidian Sync]] pentru a-ți menține bolta actualizată pe toate dispozitivele."
+Mențiune ulterioară: „Poți configura Sync separat pentru fiecare dispozitiv."
 
 ### Conținut specific platformei
 
@@ -322,8 +321,8 @@ Folosește `Desktop` și `Mobil` ca titluri de subsecțiune pentru a separa inst
 În versiunea mobilă, poți personaliza panglica prin setări:
 
 1. Deschide **[[Setări]]**.
-2. Navighează la **Aspect**.
-3. Apasă **Gestionează** sub **Meniul panglicii**.
+2. Navighează la **Interfață**.
+3. Apasă **Configurați meniul panglică**.
 ```
 
 > [!info]+ Când să creezi secțiuni?
@@ -349,7 +348,7 @@ Include pictograme și imagini atunci când fac mai ușoară explicarea unor luc
 
 [Lucide](https://lucide.dev/icons/) și pictogramele personalizate Obsidian pot fi folosite alături de elemente detaliate pentru a oferi o reprezentare vizuală a unei funcții.
 
-**Exemplu:** În panglica din stânga, selectează **Creează o pânză nouă** ![[lucide-layout-dashboard.svg#icon]] pentru a crea o pânză în același folder cu fișierul activ.
+**Exemplu:** În [[Exploratorul de fișiere]], selectează **Director nou** ![[lucide-folder-plus.svg#icon]] pentru a crea un director.
 
 **Linii directoare pentru pictograme**
 
@@ -357,7 +356,7 @@ Include pictograme și imagini atunci când fac mai ușoară explicarea unor luc
 - Adaugă prefixul `lucide-` înaintea numelui pictogramei Lucide.
 - Adaugă prefixul `obsidian-icon-` înaintea numelui pictogramei Obsidian.
 
-**Exemplu:** Pictograma pentru crearea unei pânze noi ar trebui să fie denumită `lucide-layout-dashboard`.
+**Exemplu:** Pictograma pentru crearea unui director nou ar trebui să fie denumită `lucide-folder-plus`.
 
 - Folosește versiunea SVG a pictogramelor disponibile.
 - Pictogramele ar trebui să aibă `18` pixeli lățime, `18` pixeli înălțime și o grosime a conturului de `1.5`. Poți ajusta aceste setări în datele SVG.

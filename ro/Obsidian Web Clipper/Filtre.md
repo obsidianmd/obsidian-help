@@ -276,7 +276,7 @@ Elimină doar etichetele HTML specificate. Păstrează conținutul etichetelor.
 Elimină **toate** atributele HTML dintr-un șir.
 
 - Folosește `strip_attr:("class, id")` pentru a păstra atribute specifice.
-- Exemplu: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnează `<div id="example">Content</div>`.
+- Exemplu: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` returnează `<div class="test">Content</div>`.
 
 ### `strip_md`
 

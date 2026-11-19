@@ -17,7 +17,7 @@ You can customize your site by [[Publish your content#Publish notes|publishing]]
 
 **Notes:**
 
-- [CSS variables for Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) can be found on on our Documentation site.
+- [CSS variables for Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) can be found on our Documentation site.
 - Since Obsidian doesn't support CSS or JavaScript files, you need to use another application to create and edit them.
 - Both `publish.css` and `publish.js` must be located in the root directory (`/`) of your vault.
 - By default, `publish.css` and `publish.js` don't appear in the file explorer, but you can still publish them from the **Publish changes** dialog.
@@ -74,7 +74,7 @@ Within Obsidian Publish, you have the ability to customize the navigation order 
 
 #### Accessing Customize navigation options
 
-1. In [[Ribbon]], select **Publish changes** ![[lucide-send.svg#icon]] or open the [[Command palette]] and type **Publish: Publish changes...**
+1. Open the [[Command palette]] and run **Publish: Publish changes...**.
 2. In the **Publish changes** dialog, select **Change site options** ![[lucide-cog.svg#icon]].
 3. Under **Components settings**, next to **Customize navigation**, select the **manage** button. 
 

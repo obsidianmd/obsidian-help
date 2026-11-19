@@ -7,6 +7,8 @@ Obsidian Credit è un tipo di credito prepagato che può essere acquistato in an
 
 Obsidian Credit verrà applicato prima di qualsiasi pagamento dovuto, inclusi i rinnovi automatici. Obsidian Credit **non è** idoneo al rimborso secondo la nostra [[Politica di rimborso|Politica di rimborso]].
 
+Obsidian Credit non scade finché mantieni il tuo account.
+
 ## Aggiungi credito
 
 1. Accedi al [tuo account Obsidian](https://obsidian.md/it/account/billing).

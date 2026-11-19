@@ -4,7 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: Erfahre mehr über die mobil-spezifischen Funktionen in Obsidian, einschließlich der mobilen Symbolleiste, Schnell-Aktionen und Navigationsleiste.
+description: 'Erfahre mehr über die mobil-spezifischen Funktionen in Obsidian, einschließlich der mobilen Symbolleiste, Schnell-Aktionen und Navigationsleiste.'
 ---
 Die mobilen Obsidian-Apps sind für [[Obsidian für iOS und iPadOS|iOS und iPadOS]] und [[Obsidian für Android|Android]] verfügbar. Du kannst sie im [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442) und bei [Google Play](https://play.google.com/store/apps/details?id=md.obsidian) herunterladen.
 
@@ -29,25 +29,20 @@ Beim Bearbeiten einer Notiz wird am unteren Rand der App eine Reihe von Symbolen
 
 ### Mobile Symbolleiste anpassen
 
-Tippe in der mobilen Symbolleiste auf **Mobile-Werkzeugleiste bearbeiten** ![[lucide-wrench.svg#icon]], um die Bedienoberfläche zur Anpassung zu öffnen.
+Wähle in der mobilen Symbolleiste **Mobile-Werkzeugleiste bearbeiten** ![[lucide-wrench.svg#icon]], um die Einstellungen zu öffnen.
 
-Alternativ kannst du dies in den Einstellungen vornehmen.
+Du kannst auch **[[Einstellungen]] → Bedienung → Mobile-Werkzeugleiste bearbeiten** öffnen.
 
-1. Öffne die Einstellungen.
-2. Wähle **Mobil**.
-3. Unter **Optionen für die Werkzeugleiste verwalten** kannst du die verfügbaren Optionen hinzufügen, entfernen oder neu anordnen.
+Unter **Optionen für die Werkzeugleiste verwalten** kannst du die Griffpunkte verwenden, um Aktionen neu anzuordnen, und die Entfernen-Schaltflächen, um sie zu entfernen. Wähle eine Aktion unter **Mehr Optionen für die Werkzeugleiste**, um sie hinzuzufügen.
 
 ### Befehl zur mobilen Symbolleiste hinzufügen
 
-Standardmäßig sind die Optionen, die zur Symbolleiste hinzugefügt werden können, Bearbeitungsoptionen wie „Internen Link hinzufügen" oder „Tag hinzufügen".
+Zusätzlich zu Bearbeitungsaktionen kannst du globale Befehle wie **Thema wechseln** hinzufügen.
 
-Darüber hinaus kannst du globale Befehle wie „Thema ändern" hinzufügen.
-
-1. Finde **Optionen für die Werkzeugleiste verwalten** unter **[[Einstellungen]]** → **Mobil**.
-2. Scrolle ganz nach unten und finde **Globalen Befehl hinzufügen**.
-3. Gib den Namen des Befehls ein, den du hinzufügen möchtest.
-4. Wähle den Befehl aus, den du hinzufügen möchtest.
-5. Der neue Befehl wird am Ende der Symbolleiste hinzugefügt.
+1. Öffne **[[Einstellungen]] → Bedienung → Mobile-Werkzeugleiste bearbeiten**.
+2. Wähle unter **Optionen für die Werkzeugleiste verwalten** die Option **Befehl hinzufügen...**.
+3. Suche nach dem Befehl, den du hinzufügen möchtest.
+4. Wähle den Befehl aus, um ihn am Ende der Symbolleiste hinzuzufügen.
 
 ## Schnell-Aktion
 
@@ -58,7 +53,7 @@ Die Schnell-Aktion öffnet standardmäßig die [[Befehlspalette]].
 ### Schnell-Aktion anpassen
 
 1. Öffne die Einstellungen.
-2. Wähle unter **Optionen** den Punkt **Symbolleiste**.
+2. Wähle **Bedienung**.
 3. Tippe unter **Schnell-Aktion für Mobile konfigurieren** auf **Konfigurieren**.
 4. Gib den Namen des Befehls ein.
 5. Wähle den Befehl aus, den du festlegen möchtest.

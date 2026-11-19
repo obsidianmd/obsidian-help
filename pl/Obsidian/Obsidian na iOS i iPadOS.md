@@ -54,12 +54,12 @@ Opcje konfiguracji widżetu **Podgląd notatki**:
 
 ## Szybkie przechwytywanie
 
-Szybkie przechwytywanie pozwala zapisywać tekst do sejfu z widżetów ekranu blokady, Centrum sterowania lub ekranu głównego. W zależności od wybranej lokalizacji przechwytywania, Szybkie przechwytywanie może utworzyć nową notatkę lub dodać tekst do istniejącej notatki.
+Szybkie przechwytywanie pozwala zapisywać tekst do sejfu z widżetów ekranu blokady, Centrum sterowania, ekranu głównego lub Skrótów bez czekania na załadowanie sejfu. W zależności od wybranej lokalizacji przechwytywania, Szybkie przechwytywanie może utworzyć nową notatkę lub dodać tekst do istniejącej notatki.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Uwaga
-> Szybkie przechwytywanie jest dostępne na iOS i iPadOS 26 i nowszych.
+> Szybkie przechwytywanie wymaga Obsidian 1.14 lub nowszego oraz iOS lub iPadOS 26 lub nowszego.
 
 Aby przechwycić tekst:
 
@@ -72,6 +72,63 @@ Aby przechwycić tekst:
 **Uwaga**: Jeśli Aktywności na żywo są włączone, notatka szybkiego przechwytywania pojawia się również na ekranie blokady oraz, na obsługiwanych modelach iPhone'a, w Dynamic Island. Dotknij paska lub Aktywności na żywo, aby kontynuować edycję.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Przechwytywanie głosowe
+
+Przechwytywanie głosowe pozwala nagrywać notatkę głosową za pomocą Szybkiego przechwytywania. Obsidian transkrybuje wypowiedź w czasie rzeczywistym i może zapisać nagranie w sejfie wraz z transkrypcją.
+
+Aby przechwycić notatkę głosową:
+
+1. Otwórz Szybkie przechwytywanie, a następnie dotknij przycisku mikrofonu w lewym dolnym rogu. Nagrywanie rozpoczyna się natychmiast.
+2. Mów swoją notatkę. Transkrypcja pojawia się w polu tekstowym w trakcie mówienia i możesz ją edytować w dowolnym momencie.
+3. Dotknij przycisku nagrywania u dołu ekranu, aby wstrzymać, i dotknij go ponownie, aby wznowić.
+4. Dotknij znacznika wyboru, aby zapisać transkrypcję i nagranie w wybranej lokalizacji przechwytywania.
+
+![[ios-voice-capture.png|400]]
+
+Możesz również rozpocząć nagrywanie bezpośrednio z widżetu. Podczas dostosowywania widżetu Szybkiego przechwytywania wybierz akcję z sekcji **Przechwytywanie głosowe**.
+
+Nagrywanie kontynuuje się, jeśli zminimalizujesz Szybkie przechwytywanie lub zablokujesz urządzenie. Podczas nagrywania ekran blokady i Dynamic Island wyświetlają transkrypcję na żywo oraz licznik czasu. Dotknij licznika czasu, aby wstrzymać lub wznowić nagrywanie.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Ustawienia przechwytywania głosowego
+
+Aby zmienić ustawienia przechwytywania głosowego, dotknij ikony koła zębatego u góry ekranu podczas przechwytywania głosowego.
+
+- **Język**: Język używany do transkrypcji. Zobacz [[#Obsługiwane języki]]. Wybierz **Brak**, aby wyłączyć transkrypcję i nagrywać tylko dźwięk.
+- **Mikrofon**: Mikrofon używany do nagrywania, np. mikrofon wbudowany lub podłączony zestaw słuchawkowy.
+- **Zapisz plik audio**: Czy zapisywać nagranie w sejfie.
+- **Dźwięk z innych aplikacji**: Co dzieje się z muzyką lub innym dźwiękiem odtwarzanym podczas nagrywania: **Kontynuuj odtwarzanie**, **Zmniejsz głośność** lub **Wstrzymaj**. Zmiany obowiązują od następnego nagrania.
+
+#### Obsługiwane języki
+
+Przechwytywanie głosowe może transkrybować mowę w następujących językach. Niektóre urządzenia obsługują mniej języków, a dostępne języki mogą się zmieniać wraz z aktualizacjami iOS. Jeśli Twój język nie jest dostępny, nadal możesz nagrywać dźwięk bez transkrypcji.
+
+- bengalski
+- kantoński
+- chiński
+- angielski
+- francuski
+- niemiecki
+- gudżarati
+- hindi
+- włoski
+- japoński
+- kannada
+- kaszmirski
+- koreański
+- maithili
+- malajalam
+- marathi
+- nepalski
+- orija
+- portugalski
+- pendżabski
+- hiszpański
+- tamilski
+- telugu
+- urdu
 
 ### Lokalizacje przechwytywania
 

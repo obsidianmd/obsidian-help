@@ -10,6 +10,10 @@ Obsidian biedt twee manieren om je Notion-gegevens te importeren:
 1. **Notion-account (aanbevolen)** maakt rechtstreeks verbinding met je werkruimte en laat je Databases en formules behouden die worden geconverteerd naar [[Introductie tot Bases|Bases]]. Vereist een Notion-integratietoken en een internetverbinding.
 2. **Bestandsimport** gebruikt de `.zip`-exportbestanden van Notion. Behoudt geen Databases, maar vereist geen API-token of internetverbinding.
 
+## Geïmporteerde pagina's aanpassen
+
+Beide importmethoden tonen een voorbeeld voordat de import begint. Je kunt het gegenereerde sjabloon bewerken of een Markdown-sjabloon uit je kluis kiezen. Instellingen zoals de omslag en database-eigenschapnamen werken de gegenereerde eigenschappen bij die in het voorbeeld worden getoond. Zie [[Importeur-sjablonen]].
+
 ## Importeren vanuit je Notion-account
 
 ### Een Notion API-toegangstoken aanmaken
@@ -54,8 +58,8 @@ Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt i
 6. Klik onder **API token** op **Link...** om een nieuw geheim toe te voegen. Geef voor het **ID** een naam op zoals `notion`, en plak voor het **Geheim** je **Access token** van Notion.
 7. Klik op **Laden** om de databases en pagina's te kiezen die je wilt importeren.
 8. Bekijk en bewerk de importopties.
-9. Selecteer **Importeren** en wacht tot de import is voltooid
-10. Je bent klaar!
+9. Selecteer **Importeren** om het gegenereerde sjabloon te bekijken en voorbeelden van je pagina's te bekijken.
+10. Selecteer nogmaals **Importeren** en wacht tot de import is voltooid.
 
 ### Beperkingen
 
@@ -66,7 +70,8 @@ Door Notion API-snelheidslimieten kan het importeren van grote werkruimtes aanzi
 
 Door beperkingen in de Notion API zijn sommige gegevens niet beschikbaar of kunnen niet worden geconverteerd:
 
-- Alleen de primaire weergave van elke database wordt geïmporteerd.
+- Databaseweergaven anders dan borden worden niet geïmporteerd, en borden behouden hun filters, sorteringen of subgroepen niet.
+- Op een bord gegroepeerd op een meervoudige selectie-, persoon- of relatie-eigenschap, komt een kaart met meerdere waarden in een enkele kolom voor die combinatie van waarden.
 - [Gekoppelde gegevensbronnen](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) worden niet geïmporteerd: *"De API van Notion ondersteunt momenteel geen gekoppelde gegevensbronnen. Zorg er bij het delen van een database met je integratie voor dat deze de originele gegevensbron bevat!"*
 - `People`-functies: `name()` en `email()`
 - `Text`-functies: `style()` en `unstyle()`
@@ -74,7 +79,7 @@ Door beperkingen in de Notion API zijn sommige gegevens niet beschikbaar of kunn
 Daarnaast zal Importer de volgende wijzigingen aanbrengen:
 
 - Pagina's zonder subpagina's of databases worden geïmporteerd als `[bestandsnaam].md` in plaats van `[bestandsnaam]/[bestandsnaam].md`.
-- Databases worden altijd weergegeven als mappen met de naam `[databasenaam]` met daarin een `[databasenaam].base`-bestand.
+- Databases worden altijd weergegeven als mappen met de naam `[databasenaam]` met daarin een `[databasenaam].base`-bestand. De basis heeft een tabelweergave met elke eigenschap en, in Obsidian 1.14 en later, een [[Kanban-weergave|Kanban-weergave]] voor elk Notion-bord, gegroepeerd op dezelfde eigenschap.
 
 ## Notion-bestanden importeren (.zip)
 
@@ -108,8 +113,8 @@ Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt i
 6. Kies het `.zip`-bestand met Notion-bestanden dat je wilt importeren. *Het wordt aanbevolen om al je Notion-gegevens in één keer te importeren, zodat interne koppelingen correct kunnen worden afgestemd.*
 7. Selecteer _optioneel_ een map voor de import. Je Notion-pagina's en databases worden genest in deze map.
 8. Schakel **Save parent pages in subfolders** in om de Notion-structuur te behouden. *Let op: in Notion kun je inhoud schrijven in mappen, dit is niet mogelijk in Obsidian en deze pagina's worden toegevoegd als subpagina onder de map.*
-9. Selecteer **Importeren** en wacht tot de import is voltooid
-10. Je bent klaar!
+9. Selecteer **Importeren** om het gegenereerde sjabloon te bekijken en voorbeelden van je pagina's te bekijken.
+10. Selecteer nogmaals **Importeren** en wacht tot de import is voltooid.
 
 ### Problemen oplossen
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Als je deze foutmelding ziet, kun je het bestand vanuit Notion uitpakken en vervolgens de geneste `Export-{id}-Part-1.zip`-bestanden importeren.
+
+## Sjablonen
+
+Gebruik [[Importeur-sjablonen|Importer-sjablonen]] om volledig te configureren hoe je Notion-gegevens worden geïmporteerd.
+
+![[Importeur-sjablonen#Variables]]

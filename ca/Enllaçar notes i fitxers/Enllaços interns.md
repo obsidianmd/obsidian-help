@@ -50,8 +50,6 @@ Per crear un enllaç mentre estàs en vista d'edició, utilitza qualsevol dels m
 - Selecciona text a l'editor i després escriu `[[`.
 - Obre la [[Paleta d'ordres]] i després selecciona Afegeix un enllaç intern.
 
-![[Selector ràpid#^search-autocomplete-large]]
-
 Tot i que pots enllaçar a qualsevol dels [[Formats de fitxer acceptats]], els enllaços a formats de fitxer que no siguin Markdown necessiten incloure una extensió de fitxer, com ara `[[Figure 1.png]]`.
 
 > [!tip] Prefixar un enllaç intern amb un signe d'exclamació (!) et permet incrustar el contingut enllaçat. Per a més detalls, consulta [[Incrustar fitxers]].
@@ -131,7 +129,7 @@ També pots cercar blocs als quals enllaçar des de tota la cambra forta utilitz
 > [!info]- Captura de pantalla de la cerca d'un enllaç de bloc
 > ![[link-block-heading.png#interface]]
 
-També pots crear identificadors de bloc llegibles afegint un espai en blanc seguit d'un circumflex (`^`) i l'identificador. Els identificadors de bloc només poden consistir en lletres llatines, números i guions.
+També pots crear identificadors de bloc llegibles afegint un espai en blanc seguit d'un circumflex (`^`) i l'identificador. Els identificadors de bloc només poden consistir en les lletres A-Z i a-z, els dígits 0-9 i guions.
 
 Per exemple, afegeix `^quote-of-the-day` al final d'un bloc:
 

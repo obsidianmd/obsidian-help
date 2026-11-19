@@ -6,7 +6,7 @@ description: Lær om Obsidians venstre og høyre sidepaneler og hvordan du admin
 ---
 Obsidian har to sidefelt: et venstre sidefelt og et høyre sidefelt. Sidefeltene inneholder faner opprettet av utvidelser, som [[Lenker tilbake|Lenker tilbake]], [[Outgoing Links|Outgoing Links]] og [[Filutforsker|Filutforskeren]]. På skrivebordet kan du også dra notater inn i sidefeltet for å holde dem synlige ved siden av hovedredigeringsprogrammet.
 
-På skrivebord og større nettbrett inkluderer venstre sidefelt [[Verktøylinje|verktøylinjen]]. På mobil og mindre nettbrett er sidefeltene [[#Åpne skjulte sidefelt|skjult som standard]].
+På skrivebord og større nettbrett kan venstre sidefelt også vise [[Verktøylinje|verktøylinjen]]. På mobil og mindre nettbrett er sidefeltene [[#Åpne skjulte sidefelt|skjult som standard]].
 
 ## Åpne skjulte sidefelt
 

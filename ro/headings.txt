@@ -110,34 +110,122 @@ translation=Bara laterală
 original=Frequently asked questions
 translation=Întrebări frecvente
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Grupează cardurile în coloane
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Lucrează cu carduri și coloane
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Setări
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Ascunde coloanele goale
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Lățimea coloanei
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Proprietate imagine
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Încadrare imagine
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Raport de aspect imagine
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Deschide meniul
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Vizualizare și aspect
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Gestionează notița
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Căutare
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Căi, istoric și vizualizări legate
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Computerul tău
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Meniul filei
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Deschide căutare și înlocuire
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Găsește potriviri
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Înlocuiește potriviri
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Deschide un PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navighează într-un PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Schimbă aspectul unui PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Caută într-un PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Copiază text dintr-un PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Încorporează un PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Exportă o notiță ca PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Exportă notițele din Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Importă datele din Samsung Notes în Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Limitări
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Șabloane

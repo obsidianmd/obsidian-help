@@ -21,3 +21,9 @@ Importer is een officiële [[Communityplug-ins|communityplug-in]] gemaakt door h
 ![[Notities importeren#Importeren vanuit andere apps en bestandsformaten]]
 
 ![[Notities importeren#Meer formaten]]
+
+## Importer-sjablonen
+
+Met Importer kun je [[Importeur-sjablonen|sjablonen]] definiëren die bepalen hoe je notities worden geïmporteerd vanuit andere apps. Dit betekent dat je de titel, eigenschappen en inhoud van notities die je importeert kunt aanpassen.
+
+Sjablonen ondersteunen variabelen en dezelfde [[Obsidian Web Clipper/Filters|filters]] en [[Obsidian Web Clipper/Logica|sjabloonlogica]] als [[Introductie tot Obsidian Web Clipper|Web Clipper]].

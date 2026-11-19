@@ -11,11 +11,14 @@ V hornej časti databázy sa nachádza panel nástrojov, ktorý umožňuje praco
 
 - ![[lucide-table.svg#icon]] **Menu zobrazení** — vytváranie, úprava a prepínanie zobrazení.
 - **Výsledky** — obmedzenie, kopírovanie a export súborov.
-- ![[lucide-arrow-up-down.svg#icon]] **Zoradenie** — zoraďovanie a zoskupovanie súborov.
+- ![[lucide-arrow-up-down.svg#icon]] **Zoradenie** — zoraďovanie súborov.
+- ![[lucide-stretch-horizontal.svg#icon]] **Skupina** — zoskupovanie súborov a správa poradia a viditeľnosti skupín.
 - ![[lucide-list-filter.svg#icon]] **Filter** — filtrovanie súborov.
 - ![[lucide-list.svg#icon]] **Vlastnosti** — výber vlastností na zobrazenie a vytváranie [[Vzorce|vzorcov]].
 - ![[lucide-search.svg#icon]] **Hľadať** — vyhľadávanie položiek pomocou zobrazených vlastností.
 - ![[lucide-plus.svg#icon]] **Nový** — vytvorenie nového súboru v aktuálnom zobrazení.
+
+Na telefónoch sa **Výsledky**, **Zoradenie**, ![[lucide-stretch-horizontal.svg#icon]] **Skupina** a **Vlastnosti** nachádzajú v menu ![[lucide-sliders-horizontal.svg#icon]] **Zobrazenie**.
 
 ## Pridanie a prepínanie zobrazení
 
@@ -37,7 +40,7 @@ Prípadne *kliknite pravým tlačidlom* na názov zobrazenia v paneli nástrojov
 
 ## Rozloženie
 
-Zobrazenia je možné zobraziť s rôznymi rozloženiami vrátane ![[lucide-table.svg#icon]] **tabuľky**, ![[lucide-list.svg#icon]] **zoznamu**, ![[lucide-layout-grid.svg#icon]] **kariet**, ![[lucide-kanban-square.svg#icon]] **Kanban** a ![[lucide-map.svg#icon]] **mapy**. Ďalšie rozloženia je možné pridať pomocou [[Komunitné pluginy|komunitných pluginov]]. Niektoré rozloženia sú stále vo vývoji a vyžadujú [[Verzie s predčasným prístupom|verzie s predčasným prístupom]] Obsidian.
+Zobrazenia je možné zobraziť s rôznymi rozloženiami vrátane ![[lucide-table.svg#icon]] **tabuľky**, ![[lucide-list.svg#icon]] **zoznamu**, ![[lucide-layout-grid.svg#icon]] **kariet**, ![[lucide-kanban-square.svg#icon]] **Kanban** a ![[lucide-map.svg#icon]] **mapy**. Ďalšie rozloženia je možné pridať pomocou [[Komunitné pluginy|komunitných pluginov]].
 
 | Rozloženie                          | Popis                                                                                                         | Verzia&nbsp;aplikácie |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------- |
@@ -83,16 +86,16 @@ Kliknite na tlačidlo kódu ![[lucide-code-xml.svg#icon]] na použitie **pokroč
 
 ## Zoradenie a zoskupovanie výsledkov
 
-Otvorte menu ![[lucide-arrow-up-down.svg#icon]] **Zoradenie** na zoradenie a zoskupenie výsledkov v zobrazení.
+Použite menu ![[lucide-arrow-up-down.svg#icon]] **Zoradenie** na usporiadanie výsledkov a menu ![[lucide-stretch-horizontal.svg#icon]] **Skupina** na organizáciu podobných položiek do sekcií.
 
 Výsledky môžete usporiadať podľa jednej alebo viacerých vlastností vo vzostupnom alebo zostupnom poradí. To uľahčuje zoradiť poznámky podľa názvu, času poslednej úpravy alebo akejkoľvek inej vlastnosti — vrátane vzorcov.
 
-Výsledky môžete tiež zoskupiť podľa vlastnosti na organizáciu podobných položiek do vizuálne odlíšených sekcií. V súčasnosti Obsidian podporuje zoskupovanie len podľa jednej vlastnosti.
+Každé zobrazenie môže mať niekoľko zoradení, ale výsledky je možné zoskupiť len podľa jednej vlastnosti.
 
 ### Pridanie zoradenia
 
 1. Otvorte menu ![[lucide-arrow-up-down.svg#icon]] **Zoradenie** v hornej časti zobrazenia.
-2. Vyberte vlastnosť, podľa ktorej chcete zoradiť (alebo zoskupiť).
+2. Vyberte **Pridať triedenie**, potom vyberte vlastnosť, podľa ktorej chcete zoradiť.
 3. Ak máte viacero zoradení, presúvajte ich nahor alebo nadol pomocou ![[lucide-grip-vertical.svg#icon]] úchytu na zmenu ich priority.
 
 Možnosti zoradenia výsledkov závisia od typu vlastnosti:
@@ -104,7 +107,29 @@ Možnosti zoradenia výsledkov závisia od typu vlastnosti:
 ### Odstránenie zoradenia
 
 1. Otvorte menu ![[lucide-arrow-up-down.svg#icon]] **Zoradenie** v hornej časti zobrazenia.
-2. Kliknite na tlačidlo ![[lucide-trash-2.svg#icon]] koša vedľa zoradenia alebo zoskupenia, ktoré chcete odstrániť.
+2. Kliknite na tlačidlo ![[lucide-trash-2.svg#icon]] koša vedľa zoradenia, ktoré chcete odstrániť.
+
+### Zoskupenie výsledkov
+
+1. Otvorte menu ![[lucide-stretch-horizontal.svg#icon]] **Skupina** v hornej časti zobrazenia. Na telefónoch otvorte **Zobrazenie → Skupina**.
+2. V časti **Zoskupiť podľa** vyberte vlastnosť.
+3. Vyberte automatické poradie zoradenia, alebo vyberte **Ručne** na vlastné usporiadanie skupín.
+
+Na zrušenie zoskupovania výsledkov kliknite na tlačidlo ![[lucide-trash-2.svg#icon]] koša vedľa zoskupovacej vlastnosti.
+
+### Zmena poradia, skrytie a pridanie skupín
+
+V menu ![[lucide-stretch-horizontal.svg#icon]] **Skupina** vyberte **Ručne** z menu poradia zoradenia na správu toho, ktoré skupiny sa zobrazia a v akom poradí.
+
+- Zaškrtnite skupinu na jej zobrazenie, alebo odškrtnite na jej skrytie. Vyberte **Zobraziť všetko** alebo **Skryť všetko** na zmenu viditeľnosti všetkých skupín.
+- Presúvajte ![[lucide-grip-vertical.svg#icon]] úchyt vedľa skupiny na zmenu jej pozície.
+- Vyberte **Pridať skupinu** a zadajte hodnotu na zobrazenie novej, prázdnej skupiny. Toto nevytvára poznámku ani nemení existujúce poznámky.
+
+Na obnovenie automatického poradia skupín a zobrazenie všetkých skupín vyberte automatické poradie zoradenia namiesto **Ručne**.
+
+### Zbalenie skupín
+
+V rozloženiach [[Zobrazenie tabuľky|tabuľka]], [[Zobrazenie kariet|karty]] a [[Zobrazenie zoznamu|zoznam]] kliknite na nadpis skupiny na zbalenie alebo rozbalenie danej skupiny. Zbalenie skupiny dočasne skryje jej položky bez zmeny ich vlastností.
 
 ## Obmedzenie, kopírovanie a export výsledkov
 

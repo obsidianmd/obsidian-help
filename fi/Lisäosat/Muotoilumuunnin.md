@@ -4,45 +4,20 @@ publish: true
 mobile: true
 description: 'Muodon muunnin on ydinlaajennus, jonka avulla voit muuntaa muiden sovellusten Markdown-muotoilun Obsidian-muotoon.'
 ---
-Muotoilumuunnin on [[Sisäänrakennetut lisäosat|sisäänrakennettu lisäosa]], jonka avulla voit muuntaa muiden sovellusten Markdown-muotoilun Obsidian-muotoon. Sen avulla voit myös muuntaa tietyt [[Määreet]] uusiin vaadittuihin muotoihin.
+Muotoilumuunnin muuntaa [[Määreet#Vanhentuneet määreet|vanhentuneet määremuodot]] Obsidianin nykyiseen muotoon.
 
-> [!warning] Varoitus
-> Muotoilumuunnin muuntaa koko holvisi asetustesi mukaisesti. [[Varmuuskopioi Obsidian-tiedostosi]] ennen muuntamisen suorittamista.
+> [!warning] Varmuuskopioi holvisi
+> Muuntaminen koskee koko holviasi. [[Varmuuskopioi Obsidian-tiedostosi]] ennen aloittamista.
 
-Kaikkien holvin muistiinpanojen muuntaminen:
+Muistiinpanojen määreiden muuntaminen:
 
-1. Valitse [[Komentovalikko|komentovalikosta]] **Avaa muotoilumuunnin**. Tämä löytyy myös [[Nauha|nauhavalikosta]] **Avaa muotoilumuunnin** ![[lucide-binary.svg#icon]] -kuvakkeella.
-2. Ota käyttöön muodot, jotka haluat muuntaa.
-3. Napsauta **Aloita muuntaminen**.
+1. Avaa [[Komentovalikko]].
+2. Valitse **Muotoilumuunnin: Alkulehtien muuntaminen**.
+3. Valitse **Aloita muuntaminen**.
 
-Lisätietoja on sivulla [[Muotoilun perussyntaksi]].
+## Tuetut määremuodot
 
-## Tuetut muodot
-
-### Roam Research
-
-Muotoilumuunnin voi muuntaa seuraavan Roam Research -syntaksin:
-
-- **Tunnisteet**: Muuntaa `#tag` ja `#[[tag]]` muotoon `[[tag]]`
-- **Korostukset**: Muuntaa `^^highlight^^` muotoon `==highlight==`
-- **TODO-kohdat**: Muuntaa `{{[[TODO]]}}` muotoon `[ ]`
-
-### Bear
-
-Muotoilumuunnin voi muuntaa seuraavan Bear-syntaksin:
-
-- **Korostukset**: Muuntaa `::highlight::` muotoon `==highlight==`
-
-### Zettelkasten
-
-Muotoilumuunnin voi muuntaa seuraavan Zettelkasten-syntaksin:
-
-- **Täydelliset linkit**: Muuntaa `[[UID]]` muotoon `[[UID File Name]]`
-- **Kauniit linkit**: Muuntaa `[[UID]]` muotoon `[[UID File Name|File Name]]`
-
-### [[Määreet]]
-
-Obsidianin versiosta `1.9.3` alkaen muotoilumuunnin voi muuntaa [[Määreet#Vanhentuneet määreet|vanhentuneet määremuodot]] nykyiseen muotoon:
+Muunnin päivittää aliakset, tunnisteet ja CSS-luokat vanhentuneista muodoista:
 
 **Aliakset**
 

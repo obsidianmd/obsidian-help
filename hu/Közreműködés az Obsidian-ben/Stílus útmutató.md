@@ -319,8 +319,8 @@ Az asztali verzióban a szalagot a következőképpen szabhatja testre:
 A mobil verzióban a szalagot a beállításokon keresztül szabhatja testre:
 
 1. Nyissa meg a **[[Beállítások]]**-t.
-2. Navigáljon a **Megjelenés** menüponthoz.
-3. Kattintson a **Kezelés** lehetőségre a **Szalagmenü** alatt.
+2. Navigáljon a **Felület** menüponthoz.
+3. Kattintson a **Szalagmenü konfigurációja** lehetőségre.
 ```
 
 > [!info]+ Mikor hozzunk létre külön szekciókat?
@@ -346,7 +346,7 @@ Használjon ikonokat és képeket, ha megkönnyítik a szavakkal nehezen leírha
 
 [Lucide](https://lucide.dev/icons/) és egyéni Obsidian ikonok használhatók részletes elemek mellett egy funkció vizuális megjelenítéséhez.
 
-**Példa:** A bal oldali szalagon válassza az **Új vászon létrehozása** ![[lucide-layout-dashboard.svg#icon]] lehetőséget, hogy vásznat hozzon létre az aktív fájllal azonos mappában.
+**Példa:** A [[Fájlkezelő]]ben válassza az **Új mappa** ![[lucide-folder-plus.svg#icon]] lehetőséget, hogy mappát hozzon létre.
 
 **Irányelvek az ikonokhoz**
 
@@ -354,7 +354,7 @@ Használjon ikonokat és képeket, ha megkönnyítik a szavakkal nehezen leírha
 - Adja hozzá a `lucide-` előtagot a Lucide ikon neve elé.
 - Adja hozzá az `obsidian-icon-` előtagot az Obsidian ikon neve elé.
 
-**Példa:** Az új vászon létrehozásához tartozó ikont `lucide-layout-dashboard` néven kell elnevezni.
+**Példa:** Az új mappa létrehozásához tartozó ikont `lucide-folder-plus` néven kell elnevezni.
 
 - Használja az elérhető SVG verziójú ikonokat.
 - Az ikonok `18` pixel szélesek, `18` pixel magasak legyenek, és `1.5` vonalszélességűek. Ezeket a beállításokat az SVG adatokban módosíthatja.

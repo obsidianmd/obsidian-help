@@ -17,10 +17,6 @@ A [[Bevezetés a Bázisokba|Bázisok]] segítségével adatbázis-szerű nézete
 1. A Fájlkezelőben kattints jobb gombbal arra a mappára, amelyben a bázist létre szeretnéd hozni.
 2. Válaszd az **Új bázis** lehetőséget.
 
-**Szalag:**
-
-- A függőleges szalagmenüben válaszd az **Új bázis létrehozása** lehetőséget, hogy bázist hozz létre az aktív fájllal azonos mappában.
-
 ## Bázis beágyazása
 
 ### Bázisfájl beágyazása

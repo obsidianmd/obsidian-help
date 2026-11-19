@@ -1,7 +1,6 @@
 ---
 permalink: bases/create-base
 localized: '2026-03-18'
-
 ---
 Les [[Introduction aux Bases|Bases]] vous permettent de créer des vues de type base de données de vos notes. Voici comment créer une base et l'intégrer dans une note. Chaque base peut avoir une ou plusieurs [[Vues|vues]] pour afficher les informations de différentes manières.
 
@@ -18,10 +17,6 @@ Les [[Introduction aux Bases|Bases]] vous permettent de créer des vues de type 
 
 1. Dans l'explorateur de fichiers, faites un clic droit sur le dossier dans lequel vous souhaitez créer la base.
 2. Sélectionnez **New base**.
-
-**Ruban :**
-
-- Dans le menu vertical du ruban, sélectionnez **Create new base** pour créer une base dans le même dossier que le fichier actif.
 
 ## Intégrer une base
 

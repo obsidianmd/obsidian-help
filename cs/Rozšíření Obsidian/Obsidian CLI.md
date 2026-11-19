@@ -324,6 +324,7 @@ Připojení obsahu na konec denní poznámky.
 
 ```bash
 content=<text>     # (povinné) obsah k připojení
+heading=<název>    # cílová sekce nadpisu
 paneType=tab|split|window    # typ panelu pro otevření
 
 inline             # připojit bez nového řádku
@@ -336,6 +337,7 @@ Vložení obsahu na začátek denní poznámky.
 
 ```bash
 content=<text>     # (povinné) obsah k vložení na začátek
+heading=<název>    # cílová sekce nadpisu
 paneType=tab|split|window    # typ panelu pro otevření
 
 inline             # vložit bez nového řádku
@@ -512,6 +514,7 @@ Připojení obsahu na konec souboru (výchozí: aktivní soubor).
 file=<název>       # název souboru
 path=<cesta>       # cesta k souboru
 content=<text>     # (povinné) obsah k připojení
+heading=<název>    # cílová sekce nadpisu
 
 inline             # připojit bez nového řádku
 ```
@@ -524,6 +527,7 @@ Vložení obsahu za úvodní metadata (výchozí: aktivní soubor).
 file=<název>       # název souboru
 path=<cesta>       # cesta k souboru
 content=<text>     # (povinné) obsah k vložení na začátek
+heading=<název>    # cílová sekce nadpisu
 
 inline             # vložit bez nového řádku
 ```

@@ -10,11 +10,11 @@ As Configurações permitem que você personalize sua experiência com o Obsidia
 
 ### Desktop
 
-Na [[Barra lateral#Abrir barras laterais ocultas|barra lateral esquerda]], selecione **[[Configurações]]** ![[lucide-cog.svg#icon]]. Você também pode abrir as Configurações com a [[Paleta de comandos]].
+Na [[Barra lateral#Abrir barras laterais ocultas|barra lateral]], selecione **[[Configurações]]** ![[lucide-cog.svg#icon]]. Você também pode abrir as Configurações com a [[Paleta de comandos]].
 
 ### Dispositivo móvel
 
-Na barra lateral esquerda, selecione **[[Configurações]]** ![[lucide-cog.svg#icon]].
+Na barra lateral, selecione **[[Configurações]]** ![[lucide-cog.svg#icon]]. As Configurações abrem em uma folha sobre o app.
 
 ## Organização das configurações
 
@@ -294,9 +294,11 @@ Definir fonte para lugares como blocos de código e pré-texto. Selecione **Admi
 
 Tamanho da fonte em pixels que afeta o editor e a pré-visualização. Ajuste usando o controle deslizante.
 
+O tamanho da fonte é salvo separadamente em cada dispositivo e não é sincronizado através do [[Introdução ao Obsidian Sync|Obsidian Sync]]. No celular, o texto e os elementos da interface também se ajustam ao tamanho de texto preferido do sistema, incluindo tamanhos de acessibilidade.
+
 #### Ajuste rápido do tamanho da fonte
 
-Ajuste o tamanho da fonte usando `Ctrl+Scroll` (Windows/Linux) ou `Cmd+Scroll` (macOS), ou usando o gesto de pinça no trackpad.
+Ajuste o tamanho da fonte usando `Ctrl+Scroll` (Windows/Linux) ou `Cmd+Scroll` (macOS), ou usando o gesto de pinça no trackpad. Você também pode usar **Aumentar tamanho da fonte** e **Diminuir tamanho da fonte** na [[Paleta de comandos]], ou atribuir [[Teclas de atalho|atalhos de teclado]].
 
 ### Interface
 

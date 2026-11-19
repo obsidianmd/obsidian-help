@@ -130,7 +130,7 @@ Obsidian sử dụng các thư viện mã nguồn mở dưới đây (theo thứ
 
 ### Capacitor
 
-Phiên bản `5.x`
+Phiên bản `7.0.0`
 MIT License
 Copyright (c) 2017-present Drifty Co.
 
@@ -142,12 +142,13 @@ Copyright (C) 2018 by Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@a
 
 ### DOMPurify
 
+Phiên bản `3.4.17`
 https://github.com/cure53/DOMPurify
 Licensed under the [Mozilla Public License version 2.0](http://mozilla.org/MPL/2.0/)
 
 ### Electron
 
-Phiên bản `43.1.1`
+Phiên bản `44.9.3`
 MIT License
 Copyright (c) Electron contributors
 Copyright (c) 2013-2020 GitHub Inc.
@@ -164,23 +165,18 @@ Copyright (C) 2018-2021 by Marijn Haverbeke <marijnh@gmail.com> and others
 
 ### Lucide
 
-Phiên bản `0.446.0`
+Phiên bản `1.14.0`
 ISC License
 Copyright (c) 2020, Lucide Contributors ^lucide
 
 ### MathJax
 
+Phiên bản `4.1.3`
 Apache License 2.0
-
-### Mermaid
-
-Phiên bản `11.13.0`
-MIT License
-Copyright (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Phiên bản `2.30.1`
+Phiên bản `2.31.0`
 MIT License
 Copyright (c) JS Foundation and other contributors
 
@@ -188,14 +184,21 @@ Copyright (c) JS Foundation and other contributors
 
 Apache License 2.0
 
+### Pele
+
+Phiên bản `1.12.0`
+MIT License
+Copyright (c) 2026 kepano
+
 ### PixiJS
 
+Phiên bản `7.2.4`
 MIT License
 Copyright (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
-Phiên bản `1.29.0`
+Phiên bản `1.30.0`
 MIT License
 Copyright (c) 2012 Lea Verou
 
@@ -212,9 +215,9 @@ Copyright (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
 ### reveal.js
 
-Phiên bản `4.3.1`
+Phiên bản `6.0.2`
 The MIT License
-Copyright (C) 2011-2022 Hakim El Hattab, http://hakim.se, and reveal.js contributors
+Copyright (C) 2011-2026 Hakim El Hattab, http://hakim.se, and reveal.js contributors
 
 ### scrypt
 
@@ -222,6 +225,7 @@ Apache License 2.0
 
 ### Turndown
 
+Phiên bản `7.2.0`
 MIT License
 Copyright (c) 2017 Dom Christie
 

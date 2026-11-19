@@ -11,11 +11,14 @@ A bázis tetején egy eszköztár található, amely lehetővé teszi a nézetek
 
 - ![[lucide-table.svg#icon]] **Nézet menü** — nézetek létrehozása, szerkesztése és váltása.
 - **Találatok** — fájlok korlátozása, másolása és exportálása.
-- ![[lucide-arrow-up-down.svg#icon]] **Rendezés** — fájlok rendezése és csoportosítása.
+- ![[lucide-arrow-up-down.svg#icon]] **Rendezés** — fájlok rendezése.
+- ![[lucide-stretch-horizontal.svg#icon]] **Csoportosítás** — fájlok csoportosítása, valamint a csoportok sorrendjének és láthatóságának kezelése.
 - ![[lucide-list-filter.svg#icon]] **Szűrő** — fájlok szűrése.
 - ![[lucide-list.svg#icon]] **Tulajdonságok** — megjelenítendő tulajdonságok kiválasztása és [[Képletek]] létrehozása.
 - ![[lucide-search.svg#icon]] **Keresés** — elemek keresése a megjelenített tulajdonságok alapján.
 - ![[lucide-plus.svg#icon]] **Új** — új fájl létrehozása az aktuális nézetben.
+
+Telefonokon a **Találatok**, **Rendezés**, ![[lucide-stretch-horizontal.svg#icon]] **Csoportosítás** és **Tulajdonságok** a ![[lucide-sliders-horizontal.svg#icon]] **Megjelenítés** menüben találhatók.
 
 ## Nézetek hozzáadása és váltása
 
@@ -37,7 +40,7 @@ Másik lehetőség: *kattints jobb gombbal* a nézet nevére a bázis eszköztá
 
 ## Elrendezés
 
-A nézetek különböző elrendezésekkel jeleníthetők meg, többek között ![[lucide-table.svg#icon]] **táblázat**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kártyák**, ![[lucide-kanban-square.svg#icon]] **Kanban** és ![[lucide-map.svg#icon]] **térkép** formátumban. További elrendezések a [[Közösségi bővítmények]] segítségével adhatók hozzá. Néhány elrendezés még fejlesztés alatt áll, és az Obsidian [[Korai hozzáférésű verziók|korai hozzáférésű verzióit]] igényli.
+A nézetek különböző elrendezésekkel jeleníthetők meg, többek között ![[lucide-table.svg#icon]] **táblázat**, ![[lucide-list.svg#icon]] **lista**, ![[lucide-layout-grid.svg#icon]] **kártyák**, ![[lucide-kanban-square.svg#icon]] **Kanban** és ![[lucide-map.svg#icon]] **térkép** formátumban. További elrendezések a [[Közösségi bővítmények]] segítségével adhatók hozzá.
 
 | Elrendezés                        | Leírás                                                                                                                              | Alkalmazás&nbsp;verzió |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
@@ -82,16 +85,16 @@ Kattints a kód gombra ![[lucide-code-xml.svg#icon]] a **haladó szűrő** szerk
 
 ## Találatok rendezése és csoportosítása
 
-Nyisd meg a ![[lucide-arrow-up-down.svg#icon]] **Rendezés** menüt a nézet találatainak rendezéséhez és csoportosításához.
+Használd a ![[lucide-arrow-up-down.svg#icon]] **Rendezés** menüt a találatok elrendezéséhez, és a ![[lucide-stretch-horizontal.svg#icon]] **Csoportosítás** menüt a hasonló elemek szekciókba rendezéséhez.
 
 A találatokat egy vagy több tulajdonság szerint rendezheted növekvő vagy csökkenő sorrendben. Így könnyen listázhatsz jegyzeteket név, utolsó szerkesztés ideje vagy bármely más tulajdonság — beleértve a képleteket — szerint.
 
-A találatokat tulajdonság szerint is csoportosíthatod, hogy a hasonló elemeket vizuálisan elkülönülő szekciókba rendezd. Jelenleg az Obsidian csak egy tulajdonság szerinti csoportosítást támogat.
+Minden nézetnek több rendezése is lehet, de a találatokat csak egy tulajdonság szerint lehet csoportosítani.
 
 ### Rendezés hozzáadása
 
 1. Nyisd meg a ![[lucide-arrow-up-down.svg#icon]] **Rendezés** menüt a nézet tetején.
-2. Válaszd ki a tulajdonságot, amely szerint rendezni (vagy csoportosítani) szeretnél.
+2. Válaszd az **Új rendezés** lehetőséget, majd válaszd ki a tulajdonságot, amely szerint rendezni szeretnél.
 3. Ha több rendezésed van, húzd őket felfelé vagy lefelé a ![[lucide-grip-vertical.svg#icon]] fogóval a prioritásuk megváltoztatásához.
 
 A találatok rendezési lehetőségei a tulajdonságtípustól függnek:
@@ -103,7 +106,29 @@ A találatok rendezési lehetőségei a tulajdonságtípustól függnek:
 ### Rendezés eltávolítása
 
 1. Nyisd meg a ![[lucide-arrow-up-down.svg#icon]] **Rendezés** menüt a nézet tetején.
-2. Kattints a ![[lucide-trash-2.svg#icon]] kuka gombra az eltávolítani kívánt rendezés vagy csoportosítás mellett.
+2. Kattints a ![[lucide-trash-2.svg#icon]] kuka gombra az eltávolítani kívánt rendezés mellett.
+
+### Találatok csoportosítása
+
+1. Nyisd meg a ![[lucide-stretch-horizontal.svg#icon]] **Csoportosítás** menüt a nézet tetején. Telefonokon nyisd meg a **Megjelenítés → Csoportosítás** menüt.
+2. A **Csoportosítás** alatt válassz egy tulajdonságot.
+3. Válassz automatikus rendezési sorrendet, vagy válaszd a **Kézi** lehetőséget a csoportok saját rendezéséhez.
+
+A csoportosítás megszüntetéséhez kattints a ![[lucide-trash-2.svg#icon]] kuka gombra a csoportosítási tulajdonság mellett.
+
+### Csoportok átrendezése, elrejtése és hozzáadása
+
+A ![[lucide-stretch-horizontal.svg#icon]] **Csoportosítás** menüben válaszd a **Kézi** lehetőséget a rendezési sorrend menüből, hogy kezeld, mely csoportok jelenjenek meg és milyen sorrendben.
+
+- Jelölj be egy csoportot a megjelenítéséhez, vagy töröld a jelölést az elrejtéséhez. Válaszd a **Mind megjelenítése** vagy **Mind elrejtése** lehetőséget az összes csoport láthatóságának módosításához.
+- Húzd a ![[lucide-grip-vertical.svg#icon]] fogót egy csoport mellett a pozíciójának megváltoztatásához.
+- Válaszd a **Csoport hozzáadása** lehetőséget, és adj meg egy értéket egy új, üres csoport megjelenítéséhez. Ez nem hoz létre jegyzetet és nem módosítja a meglévő jegyzeteket.
+
+Az automatikus csoportsorrend visszaállításához és az összes csoport megjelenítéséhez válassz automatikus rendezési sorrendet a **Kézi** helyett.
+
+### Csoportok összecsukása
+
+A [[Táblázat nézet|táblázat]], [[Kártyák nézet|kártyák]] és [[Lista nézet|lista]] elrendezésekben kattints egy csoport fejlécére a csoport összecsukásához vagy kibontásához. Egy csoport összecsukása ideiglenesen elrejti az elemeit anélkül, hogy módosítaná a tulajdonságaikat.
 
 ## Találatok korlátozása, másolása és exportálása
 

@@ -204,7 +204,25 @@ views:
 - `name` 是显示名称，可用于定义默认视图。
 - `filters` 与上述完全相同，但仅适用于该视图。
 - `groupBy` 指定一个属性和排序方向。每行指定属性的值用于将行分组。
+- `groupOrder` 指定分组的顺序和可见性。如果存在此字段，则只显示值被列出的分组，并按该顺序排列。空列表会隐藏所有分组。移除 `groupOrder` 可按 `groupBy` 定义的顺序显示所有分组。
 - `summaries` 将属性名称映射到命名的汇总。汇总对所有行中的属性执行聚合操作。
+
+例如，以下视图仅按该顺序显示 Planned、In progress 和 Done 分组：
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+在 `groupOrder` 中使用 `null` 可以包含分组属性没有值的文件。
 
 [[视图]]可以添加额外的数据来存储维护状态或正确渲染所需的任何信息，但插件作者应注意不要使用核心数据库插件已经使用的键。例如，表格视图可以用它来限制行数或选择用于排序的列及排序方向。不同的视图类型（如地图）可以用它来映射笔记中哪个属性对应经纬度，以及哪个属性应作为标记标题显示。
 
@@ -290,7 +308,7 @@ views:
 - `now() + "1 day"` 返回从执行时刻起正好 24 小时后的日期时间。
 - `file.mtime > now() - "1 week"` 如果文件在最近一周内被修改则返回 `true`。
 - `date("2024-12-01") + "1M" + "4h" + "3m"` 返回表示 `2025-01-01 04:03:00` 的日期对象。
-- 两个日期相减可得到两者之间的毫秒差，例如 `now() - file.ctime`。
+- 两个日期相减可得到持续时间，例如 `note.release_date - today()`。
 - 要获取包含时间的日期中的日期部分，使用 `datetime.date()`。
 - 要格式化日期对象，使用 `format()` 函数，例如 `datetime.format("YYYY-MM-DD")`。
 
@@ -339,7 +357,8 @@ views:
 
 - 要构造日期，使用 `date` 函数，例如 `date("2025-01-01 12:00:00")`
 - 要修改日期，加上或减去持续时间，例如 `now() + "1 hour"` 或 `today() + "7d"`
-- 使用比较运算符（如 `>` 或 `<`）和算术运算符比较日期（例如，`(now() + "1d") - now()` 返回 `86400000` 毫秒。）
+- 使用比较运算符比较日期，例如 `>` 或 `<`。
+- 两个日期相减可得到持续时间，例如 `note.release_date - today()`。
 - 要提取日期的部分内容，使用可用字段（`now().hour`），或便捷函数（`now.time()`）。
 - 日期对象上还有许多其他[[函数|字段和函数]]可用。
 
@@ -353,7 +372,7 @@ views:
 
 [[链接笔记|Wiki 链接]]在[[属性|前置元数据属性]]中会被自动识别为链接对象。链接在[[视图]]中会渲染为可点击的链接。
 
-- 要构造链接，使用全局 `link` [[函数]]，例如 `link("filename")` 或 `link("https://obsidian.md")`。
+- 要构造链接，使用全局 `link` [[函数]]，例如 `link("filename")`。
 - 你可以从任何字符串创建链接，例如 `link(file.ctime.date().toString())`。
 - 要设置显示文本，传入可选的字符串或图标作为第二个参数，例如 `link("filename", "display")` 或 `link("filename", icon("plus"))`。
 
@@ -364,3 +383,10 @@ views:
 链接可以与 `file` 或 `this` 等文件进行比较。如果链接解析到该文件则相等。例如，`author == this`。
 
 链接也可以在列表包含检查中使用，例如 `authors.contains(this)`。
+
+### URL
+
+[[属性|前置元数据属性]]中的 URL 会被自动识别为 URL 对象。URL 在[[视图]]中会渲染为可点击的链接。
+
+- 要构造 URL，使用全局 `link` [[函数]]，例如 `link("https://obsidian.md")`。
+- 要设置显示文本，传入可选的字符串作为第二个参数，例如 `link("https://obsidian.md", "Obsidian")`。

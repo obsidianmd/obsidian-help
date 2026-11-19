@@ -6,7 +6,6 @@ description: 'Această pagină detaliază funcțiile folosite în Obsidian Bases
 aliases:
   - Functions
 ---
-
 Funcțiile sunt folosite în [[Introducere în Baze|Baze]] pentru a manipula date din [[Proprietăți|proprietăți]] în [[Afișaje#Filters|filtre]] și [[Formule|formule]]. Consultă referința [[Sintaxă Baze|sintaxa bases]] pentru a afla mai multe despre cum poți folosi funcțiile.
 
 Funcțiile Bases urmează comportamentul JavaScript. Pentru documentație de referință completă, consultă [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
@@ -151,7 +150,7 @@ Funcții pe care le poți folosi cu orice valoare. Aceasta include stringuri (de
 `any.isTruthy(): boolean`
 
 - Returnează valoarea convertită într-un boolean.
-- Exemplu: `1.isTruthy()` returnează `true`.
+- Exemplu: `(1).isTruthy()` returnează `true`.
 
 ### `isType()`
 
@@ -165,7 +164,7 @@ Funcții pe care le poți folosi cu orice valoare. Aceasta include stringuri (de
 `any.toString(): string`
 
 - Returnează reprezentarea sub formă de string a oricărei valori.
-- Exemplu: `123.toString()` returnează `"123"`.
+- Exemplu: `(123).toString()` returnează `"123"`.
 
 ## Date type
 
@@ -332,7 +331,7 @@ Funcții pe care le poți folosi cu o secvență de caractere, precum `"hello"`.
 
 `string.title(): string`
 
-- Convertește stringul la formatul „Title Case” (prima literă a fiecărui cuvânt scrisă cu majusculă).
+- Convertește stringul la formatul „Title Case" (prima literă a fiecărui cuvânt scrisă cu majusculă).
 - Exemplu: `"hello world".title()` returnează `"Hello World"`.
 
 ### `trim()`
@@ -372,7 +371,7 @@ Funcții pe care le poți folosi cu valori numerice, precum `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Returnează true dacă numărul nu este prezent.
-- Exemplu: `5.isEmpty()` returnează `false`.
+- Exemplu: `(5).isEmpty()` returnează `false`.
 
 ### `round()`
 
@@ -587,14 +586,14 @@ Următoarele câmpuri sunt disponibile pentru fișiere:
 
 ## Object type
 
-Funcții pe care le poți folosi cu o colecție de perechi cheie-valoare, precum `{"a": 1, "b": 2}`.
+Funcții pe care le poți folosi cu valori de tip obiect, precum `file.properties`, care conțin o colecție de perechi cheie-valoare.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Returnează true dacă obiectul nu are proprietăți proprii.
-- Exemplu: `{}.isEmpty()` returnează `true`.
+- Exemplu: `file.properties.isEmpty()` returnează `true` dacă fișierul nu are proprietăți.
 
 ### `keys()`
 

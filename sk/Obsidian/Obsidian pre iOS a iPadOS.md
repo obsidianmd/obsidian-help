@@ -53,12 +53,12 @@ Možnosti konfigurácie widgetu **Zobraziť poznámku**:
 
 ## Rýchle zachytávanie
 
-Rýchle zachytávanie vám umožňuje uložiť text do vášho trezoru z widgetov na zamykacej obrazovke, v Centre ovládania alebo na domovskej obrazovke. V závislosti od zvoleného umiestnenia zachytávania môže rýchle zachytávanie vytvoriť novú poznámku alebo pridať text do existujúcej poznámky.
+Rýchle zachytávanie vám umožňuje uložiť text do vášho trezoru z widgetov na zamykacej obrazovke, v Centre ovládania, na domovskej obrazovke alebo zo Skratiek bez čakania na načítanie trezoru. V závislosti od zvoleného umiestnenia zachytávania môže rýchle zachytávanie vytvoriť novú poznámku alebo pridať text do existujúcej poznámky.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Poznámka
-> Rýchle zachytávanie je dostupné na iOS a iPadOS 26 a vyšších verziách.
+> Rýchle zachytávanie vyžaduje Obsidian 1.14 alebo novší a iOS alebo iPadOS 26 alebo novší.
 
 Zachytenie textu:
 
@@ -71,6 +71,63 @@ Zachytenie textu:
 **Poznámka**: Ak sú povolené Live Activities, poznámka rýchleho zachytávania sa zobrazí aj na zamykacej obrazovke a na podporovaných modeloch iPhone v Dynamic Island. Ťuknite na lištu alebo Live Activity pre pokračovanie v úpravách.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Hlasové zachytávanie
+
+Hlasové zachytávanie vám umožňuje nahrať hlasovú poznámku pomocou rýchleho zachytávania. Obsidian prepisuje to, čo hovoríte, v reálnom čase a môže uložiť nahrávku do vášho trezoru spolu s prepisom.
+
+Zachytenie hlasovej poznámky:
+
+1. Otvorte rýchle zachytávanie a ťuknite na tlačidlo mikrofónu v ľavom dolnom rohu. Nahrávanie sa spustí okamžite.
+2. Hovorte svoju poznámku. Prepis sa zobrazuje v textovej oblasti počas rozprávania a môžete ho kedykoľvek upraviť.
+3. Ťuknite na tlačidlo nahrávania v dolnej časti obrazovky pre pozastavenie a opätovným ťuknutím pokračujte.
+4. Ťuknite na zaškrtávacie políčko pre uloženie prepisu a nahrávky do vybraného umiestnenia zachytávania.
+
+![[ios-voice-capture.png|400]]
+
+Nahrávanie môžete spustiť aj priamo z widgetu. Pri prispôsobovaní widgetu rýchleho zachytávania vyberte akciu zo sekcie **Hlasové zachytávanie**.
+
+Nahrávanie pokračuje, aj keď minimalizujete rýchle zachytávanie alebo zamknete zariadenie. Počas nahrávania zamykacia obrazovka a Dynamic Island zobrazujú živý prepis a časovač. Ťuknite na časovač pre pozastavenie alebo obnovenie nahrávania.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Nastavenia hlasového zachytávania
+
+Pre zmenu nastavení hlasového zachytávania ťuknite na ikonu ozubeného kolesa v hornej časti obrazovky počas hlasového zachytávania.
+
+- **Jazyk**: Jazyk používaný na prepis. Pozrite si [[#Podporované jazyky]]. Vyberte **Žiadny** pre vypnutie prepisu a nahrávanie iba zvuku.
+- **Mikrofón**: Mikrofón používaný na nahrávanie, napríklad vstavaný mikrofón alebo pripojený headset.
+- **Uložiť zvukový súbor**: Či sa má nahrávka uložiť do vášho trezoru.
+- **Zvuk z iných aplikácií**: Čo sa stane s hudbou alebo iným zvukom, ktorý sa prehráva počas nahrávania: **Pokračovať v prehrávaní**, **Znížiť hlasitosť** alebo **Pozastaviť**. Zmeny sa prejavia od ďalšieho nahrávania.
+
+#### Podporované jazyky
+
+Hlasové zachytávanie dokáže prepisovať reč v nasledujúcich jazykoch. Niektoré zariadenia podporujú menej jazykov a dostupné jazyky sa môžu meniť s aktualizáciami iOS. Ak váš jazyk nie je dostupný, stále môžete nahrávať zvuk bez prepisu.
+
+- Bangla
+- Kantončina
+- Čínština
+- Angličtina
+- Francúzština
+- Nemčina
+- Gudžarátčina
+- Hindčina
+- Taliančina
+- Japončina
+- Kannadčina
+- Kašmírčina
+- Kórejčina
+- Maithilčina
+- Malajálamčina
+- Maráthčina
+- Nepálčina
+- Uríjčina
+- Portugalčina
+- Pandžábčina
+- Španielčina
+- Tamilčina
+- Telugčina
+- Urdčina
 
 ### Umiestnenia zachytávania
 

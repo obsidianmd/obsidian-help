@@ -1,5 +1,6 @@
 ---
 permalink: plugins/canvas
+mobile: true
 ---
 Canvas je [[Základní pluginy|základní plugin]] pro vizuální tvorbu poznámek. Poskytuje vám nekonečný prostor pro rozmístění poznámek a jejich propojení s dalšími poznámkami, přílohami a webovými stránkami.
 
@@ -64,6 +65,8 @@ Poznámky můžete přidat také z kontextového menu plátna:
 
 Poznámky můžete také přetáhnout z [[Průzkumník souborů|průzkumníku souborů]] na plátno.
 
+Pro zobrazení pouze části poznámky na kartě klikněte pravým tlačítkem na kartu a vyberte **Zmenšit na nadpis...** nebo **Zmenšit na blok...**. Poté vyberte nadpis nebo blok.
+
 ### Přidání karet z médií
 
 Pro přidání médií z vašeho trezoru na plátno:
@@ -87,7 +90,24 @@ Pro vložení webové stránky na plátno:
 
 Můžete také vybrat URL ve vašem prohlížeči a poté ji přetáhnout na plátno pro vložení do karty.
 
-Pro otevření webové stránky ve vašem prohlížeči stiskněte `Ctrl` (nebo `Cmd` na macOS) a klikněte na štítek karty. Nebo klikněte pravým tlačítkem na kartu a vyberte **Otevřít v prohlížeči**.
+Pro otevření webové stránky ve vašem prohlížeči stiskněte `Ctrl` (nebo `Cmd` na macOS) a klikněte na štítek karty. Nebo klikněte pravým tlačítkem na kartu a vyberte **Otevřít externí odkaz**.
+
+Kliknutím pravým tlačítkem na kartu webové stránky získáte další možnosti.
+
+- **Kopírovat URL** zkopíruje adresu webové stránky.
+- **Změnit URL...** změní adresu, kterou karta zobrazuje.
+- **Znovu načíst stránku** znovu načte webovou stránku.
+
+### Přidání karet ze základen
+
+Pro zobrazení [[Úvod do Základen|základny]] na plátně přetáhněte soubor základny z průzkumníku souborů na plátno. Karta zobrazí základnu.
+
+Karta základny zobrazuje výchozí zobrazení základny. Pro zobrazení jiného zobrazení:
+
+1. Klikněte pravým tlačítkem na kartu a poté vyberte **Připnout zobrazení...**.
+2. Vyberte zobrazení, které chcete.
+
+Pro návrat k výchozímu zobrazení vyberte znovu **Připnout zobrazení...** a poté vyberte **Zobrazit výchozí zobrazení**.
 
 ### Přidání karet ze složek
 
@@ -97,11 +117,11 @@ Přetáhněte složku z [[Průzkumník souborů|průzkumníku souborů]] pro př
 
 Dvojitým kliknutím na textovou kartu nebo kartu poznámky začnete její úpravu. Kliknutím kamkoli mimo kartu úpravu ukončíte. Úpravu karty můžete ukončit také stisknutím klávesy `Escape`.
 
-Kartu můžete také upravit kliknutím pravým tlačítkem a výběrem **Upravit**.
+Kartu můžete také upravit kliknutím pravým tlačítkem a výběrem **Upravit**. Nebo kartu vyberte a poté vyberte **Upravit** ![[lucide-square-pen.svg#icon]] v ovládacích prvcích výběru.
 
 ### Smazání karty
 
-Vybrané karty odstraníte kliknutím pravým tlačítkem na kteroukoli z nich a výběrem **Smazat**. Nebo stiskněte `Backspace` (nebo `Delete` na macOS).
+Vybrané karty odstraníte kliknutím pravým tlačítkem na kteroukoli z nich a výběrem **Odstranit**. Nebo stiskněte `Backspace` (nebo `Delete` na macOS).
 
 Můžete také vybrat **Odstranit** ![[lucide-trash-2.svg#icon]] v ovládacích prvcích výběru nad vaším výběrem.
 
@@ -145,6 +165,16 @@ Stisknutím `Space` při změně velikosti vypnete přichytávání.
 
 Pro zachování poměru stran při změně velikosti stiskněte `Shift`.
 
+### Zarovnání a uspořádání karet
+
+Pro zarovnání více karet vyberte dvě nebo více karet. V ovládacích prvcích výběru vyberte **Zarovnat** a poté zvolte možnost.
+
+- **Zarovnat vlevo**, **Zarovnat uprostřed** a **Zarovnat vpravo** zarovnají karty na svislou čáru.
+- **Zarovnat nahoru**, **Zarovnat uprostřed** a **Zarovnat dolů** zarovnají karty na vodorovnou čáru.
+- **Uspořádat do řady**, **Uspořádat do sloupce** a **Uspořádat do mřížky** přesunou karty do daného rozvržení.
+- **Rozdělit horizontální mezery** a **Rozdělit vertikální mezery** rozmístí karty rovnoměrně.
+- **Vyrovnat vodorovně** a **Vyrovnat vertikálně** změní velikost každé karty tak, aby odpovídala plné šířce nebo výšce výběru.
+
 ## Propojení karet
 
 Kreslením čar mezi kartami zobrazujte vztahy. Přidávejte barvy a štítky pro popis, jak spolu souvisí.
@@ -177,7 +207,7 @@ Pro přesunutí jednoho z konců spojovací čáry:
 
 ### Navigace po spojení
 
-Pokud jsou dvě propojené karty daleko od sebe, můžete přejít na zdroj nebo cíl spojení kliknutím pravým tlačítkem na čáru a výběrem **Přejít na cíl** nebo **Přejít na zdroj**.
+Pokud jsou dvě propojené karty daleko od sebe, můžete přeskočit na kartu na druhém konci spojení. Klikněte pravým tlačítkem na čáru blízko jednoho konce a poté vyberte **Sledovat spojení**. Plátno se přesune na kartu na opačném konci.
 
 ### Přidání štítku ke spojení
 
@@ -191,6 +221,16 @@ Pro označení spojení:
 Spojení můžete označit také jeho výběrem a následným výběrem **Upravit štítek** z ovládacích prvků výběru.
 
 Pro úpravu štítku spojení dvojitě klikněte na čáru nebo klikněte pravým tlačítkem na čáru a poté vyberte **Upravit štítek**.
+
+Pro odstranění štítku vyberte spojení a poté vyberte **Odstranit štítek** v ovládacích prvcích výběru.
+
+### Změna směru spojení
+
+Ve výchozím nastavení má spojení šipku na konci, která ukazuje na druhou kartu. Pro změnu:
+
+1. Vyberte spojení.
+2. V ovládacích prvcích výběru vyberte **Směr čáry**.
+3. Zvolte **Nesměrové**, **Jednosměrné** nebo **Obousměrné**.
 
 ### Změna barvy karty nebo spojení
 
@@ -212,6 +252,22 @@ Pro seskupení souvisejících karet:
 2. Klikněte pravým tlačítkem na kteroukoli z vybraných karet a poté vyberte **Vytvořit skupinu**.
 
 **Přejmenování skupiny:** Dvojitým kliknutím na název skupiny ji upravíte a poté stiskněte `Enter` pro uložení.
+
+### Přidání pozadí ke skupině
+
+Za kartami ve skupině můžete zobrazit obrázek.
+
+1. Vyberte skupinu.
+2. V ovládacích prvcích výběru vyberte **Nastavit pozadí**.
+3. Vyberte obrázek z vašeho trezoru.
+
+Pro změnu pozadí vyberte skupinu a poté vyberte **Upravit pozadí**.
+
+- **Vyměnit pozadí** vybere jiný obrázek.
+- **Odstranit pozadí** odstraní obrázek.
+- **Krytí** způsobí, že obrázek vyplní skupinu.
+- **Zachovat poměr stran** zachová proporce obrázku.
+- **Opakovat** obrázek opakuje přes celou skupinu.
 
 ## Navigace po plátně
 
@@ -241,9 +297,169 @@ Pro přiblížení plátna tak, aby byly viditelné všechny vybrané položky, 
 
 Pro navrácení úrovně přiblížení na výchozí hodnotu vyberte **Obnovit přiblížení** v ovládacích prvcích přiblížení v pravém horním rohu.
 
+
+### Přejít do skupiny
+
+Pro přímý přesun na skupinu na velkém plátně otevřete paletu příkazů a vyberte **Canvas: Přejít do skupiny**. Zobrazí se seznam skupin na vašem plátně. Vyberte skupinu, na kterou chcete přejít, a plátno se vycentruje na ni.
+
+## Nastavení canvas
+
+Vyberte **Nastavení canvas** ![[lucide-settings.svg#icon]] nad ovládacími prvky plátna pro změnu chování plátna.
+
+- **Přichytit k mřížce** přichytí karty k mřížce pozadí při přesouvání a změně velikosti.
+- **Přichytit k objektům** přichytí karty k blízkým kartám při přesouvání a změně velikosti.
+- **Pouze pro čtení** zabrání změnám na plátně.
+
+## Export plátna jako obrázku
+
+Plátno můžete exportovat jako obrázek PNG na stolním počítači. Export obrázku není k dispozici v mobilní aplikaci Obsidian.
+
+1. Otevřete plátno, které chcete exportovat.
+2. Otevřete paletu příkazů a vyberte **Canvas: Exportovat jako obrázek**.
+3. Zvolte nastavení.
+    - **Viditelný prostor** nastavuje, co se má exportovat. Vyberte **Celý canvas** pro celé plátno, nebo **Pouze viditelný prostor** pro část, kterou právě vidíte.
+    - **Přiblížení** nastavuje kvalitu obrázku. Vyšší přiblížení vytvoří větší a ostřejší obrázek. Dialog zobrazuje odhadovanou velikost obrázku.
+    - **Zobrazit logo** přidá logo Obsidian do levého dolního rohu. Ve výchozím nastavení je zapnuto.
+    - **Režim soukromí** skryje veškerý text na plátně. Ve výchozím nastavení je vypnuto.
+4. Vyberte **Uložit**.
+5. Zvolte, kam soubor uložit. Název souboru je ve výchozím nastavení shodný s názvem plátna s příponou `.png`.
+
+Nelze exportovat prázdný canvas.
+
+## Zpět a znovu
+
+Pro vrácení poslední změny vyberte **Zpět** v ovládacích prvcích plátna na pravé straně plátna. Nebo stiskněte `Ctrl+Z` (Windows a Linux) nebo `Command+Z` (macOS).
+
+Pro zopakování změny vyberte **Znovu**. Nebo stiskněte `Ctrl+Y` nebo `Ctrl+Shift+Z` (Windows a Linux), nebo `Command+Y` nebo `Command+Shift+Z` (macOS).
+
+## Nápověda pro canvas
+
+Na stolním počítači vyberte **Nápověda pro canvas** ![[lucide-help-circle.svg#icon]] pod ovládacími prvky plátna pro zobrazení seznamu zkratek pro posouvání, přibližování, výběr a přesouvání karet.
+
 ## Vložení plátna
 
 Plátno můžete vložit do poznámky pomocí standardní syntaxe pro embedování. Více informací najdete v části [[Vkládání souborů#Embed a canvas in a note|Vložení plátna do poznámky]].
+
+## Použití Canvas na mobilním zařízení
+
+Když otevřete plátno na telefonu nebo tabletu, Obsidian zobrazí tři nápovědy.
+
+- **Tažení pro posun**
+- **Stažením přiblížíte**
+- **Dotykem a podržením přidáte / přesunete / vyberete**
+
+### Otevření menu plátna
+
+Dotkněte se a podržte prázdnou oblast plátna. Menu obsahuje tyto položky.
+
+- **Přidat kartu** přidá textovou kartu.
+- **Přidat poznámku z trezoru** přidá poznámku z vašeho trezoru.
+- **Přidat média z trezoru** přidá média z vašeho trezoru.
+- **Přidat webovou stránku** vloží webovou stránku.
+- **Vytvořit skupinu** vytvoří prázdnou skupinu.
+- **Přichytit k mřížce**, **Přichytit k objektům** a **Pouze pro čtení** jsou stejné možnosti jako v **Nastavení canvas**.
+
+### Přidání karet
+
+Karty můžete přidat z menu plátna. Můžete také vybrat ikonu ve spodní části plátna.
+
+- Ikona prázdného souboru přidá textovou kartu.
+- Ikona dokumentu přidá poznámku z vašeho trezoru.
+- Ikona obrázku přidá média z vašeho trezoru.
+
+### Práce s vybranou kartou
+
+Klepněte na kartu pro její výběr. Nad kartou se zobrazí nástrojový panel.
+
+- **Odstranit** ![[lucide-trash-2.svg#icon]] smaže kartu.
+- **Nastavit barvu** ![[lucide-palette.svg#icon]] změní barvu karty.
+- **Přiblížit na blok** přiblíží plátno na kartu.
+- **Upravit** ![[lucide-square-pen.svg#icon]] upraví kartu.
+
+### Přesunutí karty
+
+1. Klepněte na kartu pro její výběr.
+2. Dotkněte se a podržte vybranou kartu a poté ji přetáhněte na novou pozici.
+
+### Změna velikosti karty
+
+1. Klepněte na kartu pro její výběr.
+2. Přetáhněte strany karty pro zvětšení nebo zmenšení.
+
+### Otevření menu karty
+
+Dotkněte se a podržte kartu. Menu obsahuje tyto položky.
+
+- **Přiblížit na blok** přiblíží plátno na kartu.
+- **Upravit** upraví kartu.
+- **Převést do souboru...** převede textovou kartu na poznámku.
+- **Duplikovat** vytvoří kopii karty.
+- **Odstranit** smaže kartu.
+
+### Úprava karty
+
+Pro úpravu textové karty nebo karty poznámky použijte některý z následujících způsobů.
+
+- Klepněte na kartu pro její výběr a poté na ni dvakrát klepněte. Otevře se klávesnice.
+- Klepněte na kartu pro její výběr a poté vyberte **Upravit** ![[lucide-square-pen.svg#icon]] v nástrojovém panelu nad kartou.
+
+### Označení spojení
+
+1. Klepněte na čáru pro její výběr.
+2. V nástrojovém panelu vyberte **Upravit štítek** ![[lucide-square-pen.svg#icon]]. Otevře se klávesnice.
+3. Zadejte štítek.
+
+Pro odstranění štítku klepněte na čáru a poté vyberte **Odstranit štítek** v nástrojovém panelu.
+
+### Změna směru spojení
+
+1. Klepněte na čáru pro její výběr.
+2. V nástrojovém panelu vyberte **Směr čáry**.
+3. Zvolte **Nesměrové**, **Jednosměrné** nebo **Obousměrné**.
+
+### Otevření menu čáry
+
+Dotkněte se a podržte čáru, která spojuje dvě karty. Menu obsahuje tyto položky.
+
+- **Upravit štítek** přidá nebo změní štítek čáry.
+- **Sledovat spojení** přesune plátno na kartu na opačném konci čáry.
+- **Odstranit** smaže spojení.
+
+### Propojení karet
+
+1. Klepněte na kartu pro její výběr.
+2. Přetáhněte jeden z kruhů na jejích hranách k jiné kartě.
+
+Pokud přetáhnete čáru a pustíte ji v prázdné oblasti, otevře se menu s možnostmi **Přidat kartu** a **Přidat poznámku z trezoru**. Vyberte jednu pro přidání karty na konec čáry.
+
+### Odpojení karet
+
+Pro odstranění spojení použijte některý z následujících způsobů.
+
+- Klepněte na čáru a poté vyberte **Odstranit** ![[lucide-trash-2.svg#icon]].
+- Přetáhněte konec čáry se šipkou zpět ke kartě, ze které vycházel. Čára zmizí.
+
+### Seskupení karet
+
+Pro vytvoření skupiny:
+
+1. Dotkněte se a podržte prázdnou oblast plátna.
+2. Vyberte **Vytvořit skupinu**.
+3. Přetáhněte hrany skupiny pro změnu její velikosti.
+
+Pro přidání karet do skupiny je přetáhněte do oblasti skupiny. Když přesunete skupinu, karty uvnitř ní se přesunou také.
+
+Pro přejmenování skupiny dvakrát klepněte na její název. Otevře se klávesnice. Zadejte nový název.
+
+### Ovládací prvky plátna
+
+Ovládací prvky na pravé straně plátna mění zobrazení a vaše nastavení.
+
+- **Přiblížit** a **Oddálit** mění úroveň přiblížení.
+- **Obnovit přiblížení** vrátí plátno na výchozí úroveň přiblížení.
+- **Přiblížit, aby sedělo** zobrazí každou kartu na plátně.
+- **Zpět** a **Znovu** vrátí nebo zopakuje vaši poslední změnu.
+- **Nastavení canvas** obsahuje možnosti **Přichytit k mřížce**, **Přichytit k objektům** a **Pouze pro čtení**.
 
 ## Pokročilé tipy
 

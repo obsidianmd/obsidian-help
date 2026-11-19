@@ -201,7 +201,25 @@ views:
 - `name`, görünen addır ve varsayılan görünümü tanımlamak için kullanılabilir.
 - `filters`, yukarıda açıklananla tamamen aynıdır, ancak yalnızca görünüme uygulanır.
 - `groupBy`, bir özellik ve sıralama yönü belirtir. Her satır için belirtilen özelliğin değeri, satırı gruplara yerleştirmek için kullanılır.
+- `groupOrder`, grupların sırasını ve görünürlüğünü belirtir. Mevcutsa, yalnızca değerleri listede bulunan gruplar o sırayla gösterilir. Boş bir liste tüm grupları gizler. Tüm grupları `groupBy` tarafından tanımlanan sırada göstermek için `groupOrder`'ı kaldırın.
 - `summaries`, özellik adlarını adlandırılmış bir özete eşler. Özetler, tüm satırlardaki özellik üzerinde bir toplama işlemi gerçekleştirir.
+
+Örneğin, bu görünüm yalnızca Planned, In progress ve Done gruplarını o sırayla gösterir:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Gruplandırılan özellik için değeri olmayan dosyaları dahil etmek üzere `groupOrder` içinde `null` kullanın.
 
 [[Görünümler]], durumu korumak veya doğru şekilde oluşturmak için gereken herhangi bir bilgiyi saklamak üzere ek veriler ekleyebilir, ancak eklenti geliştiricileri çekirdek Tabanlar eklentisi tarafından zaten kullanımda olan anahtarları kullanmamaya dikkat etmelidir. Örnek olarak, bir tablo görünümü bunu satır sayısını sınırlamak veya satırları sıralamak için hangi sütunun ve hangi yönün kullanılacağını seçmek için kullanabilir. Harita gibi farklı bir görünüm türü, notdaki hangi özelliğin enlem ve boylamla eşleştiğini ve hangi özelliğin pin başlığı olarak görüntüleneceğini belirlemek için bunu kullanabilir.
 
@@ -287,7 +305,7 @@ Geçerli tarihi almak için genel [[Fonksiyonlar|fonksiyon]] `today()`, geçerli
 - `now() + "1 day"` yürütme anından tam 24 saat sonrasını döndürür.
 - `file.mtime > now() - "1 week"` dosya son bir hafta içinde değiştirilmişse `true` döndürür.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` `2025-01-01 04:03:00`'ı temsil eden bir Tarih nesnesi döndürür.
-- İki tarih arasındaki milisaniye farkını almak için iki tarihi çıkarın, örneğin `now() - file.ctime`.
+- Bir süre elde etmek için iki tarihi çıkarın, örneğin `note.release_date - today()`.
 - Saat içeren bir Tarihin tarih kısmını almak için `datetime.date()` kullanın.
 - Bir Tarih nesnesini biçimlendirmek için `format()` fonksiyonunu kullanın, örneğin `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Tarihler, oluşturmak için kullanılan fonksiyona veya [[Özellikler|özelliğe
 
 - Bir tarih oluşturmak için `date` fonksiyonunu kullanın, örneğin `date("2025-01-01 12:00:00")`
 - Bir tarihi değiştirmek için süre ekleyin veya çıkarın, örneğin `now() + "1 hour"` veya `today() + "7d"`
-- Tarihleri karşılaştırma operatörleri (örn. `>` veya `<`) ve aritmetik operatörler kullanarak karşılaştırın (örneğin, `(now() + "1d") - now()` `86400000` milisaniye döndürür.)
+- Tarihleri karşılaştırma operatörleri kullanarak karşılaştırın, örneğin `>` veya `<`.
+- Bir süre elde etmek için bir tarihten diğerini çıkarın, örneğin `note.release_date - today()`.
 - Bir tarihin bölümlerini çıkarmak için mevcut alanları (`now().hour`) veya kolaylık fonksiyonlarını (`now.time()`) kullanın.
 - Tarih nesnelerinde birçok başka [[Fonksiyonlar|alan ve fonksiyon]] mevcuttur.
 
@@ -350,7 +369,7 @@ Tarihler, oluşturmak için kullanılan fonksiyona veya [[Özellikler|özelliğe
 
 [[Notları bağla|Wiki bağlantıları]], [[Özellikler|başlangıç meta verileri özelliklerinde]] otomatik olarak Bağlantı nesneleri olarak tanınır. Bağlantılar [[Görünümler|görünümde]] tıklanabilir bağlantı olarak oluşturulur.
 
-- Bir bağlantı oluşturmak için genel `link` [[Fonksiyonlar|fonksiyonunu]] kullanın, örneğin `link("filename")` veya `link("https://obsidian.md")`.
+- Bir bağlantı oluşturmak için genel `link` [[Fonksiyonlar|fonksiyonunu]] kullanın, örneğin `link("filename")`.
 - Herhangi bir dizeden bağlantı oluşturabilirsiniz, örneğin `link(file.ctime.date().toString())`.
 - Görüntüleme metnini ayarlamak için isteğe bağlı bir dize veya simgeyi ikinci parametre olarak geçirin, örneğin `link("filename", "display")` veya `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Bağlantılar `==` ve `!=` ile karşılaştırılabilir. Aynı dosyaya işaret e
 Bağlantılar `file` veya `this` gibi dosyalarla karşılaştırılabilir. Bağlantı dosyaya çözümlenirse eşit olurlar. Örneğin, `author == this`.
 
 Bağlantılar ayrıca liste içerme kontrolünde de kullanılabilir, örneğin `authors.contains(this)`.
+
+### URL'ler
+
+[[Özellikler|Başlangıç meta verileri özelliklerindeki]] URL'ler otomatik olarak URL nesneleri olarak tanınır. URL'ler [[Görünümler|görünümde]] tıklanabilir bağlantı olarak oluşturulur.
+
+- Bir URL oluşturmak için genel `link` [[Fonksiyonlar|fonksiyonunu]] kullanın, örneğin `link("https://obsidian.md")`.
+- Görüntüleme metnini ayarlamak için isteğe bağlı bir dizeyi ikinci parametre olarak geçirin, örneğin `link("https://obsidian.md", "Obsidian")`.

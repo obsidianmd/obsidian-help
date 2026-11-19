@@ -164,7 +164,7 @@ Mengonversi string, array, atau objek menjadi sintaksis tautan Markdown (jangan 
 
 - Untuk string: `"url"|link:"author"` mengembalikan `[author](url)`.
 - Untuk array: `["url1","url2"]|link:"author"` mengembalikan array tautan Markdown dengan teks yang sama untuk semua tautan.
-- Untuk objek: `{"url1": "Author 1", "url2": "Author 2"}|link` mengembalikan tautan Markdown dengan teks yang sesuai dengan kunci objek.
+- Untuk objek: `{"url1": "Author 1", "url2": "Author 2"}|link` mengembalikan tautan Markdown dengan teks yang cocok dengan kunci objek.
 
 ### `list`
 
@@ -274,7 +274,7 @@ Mengganti tag HTML, mempertahankan konten dan atribut tag.
 Menghapus **semua** atribut HTML dari string.
 
 - Gunakan `strip_attr:("class, id")` untuk mempertahankan atribut tertentu.
-- Contoh: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` mengembalikan `<div id="example">Content</div>`.
+- Contoh: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` mengembalikan `<div class="test">Content</div>`.
 
 ### `strip_md`
 

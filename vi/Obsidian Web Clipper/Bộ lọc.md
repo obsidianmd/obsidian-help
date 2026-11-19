@@ -274,7 +274,7 @@ Thay thế thẻ HTML, giữ nguyên nội dung và thuộc tính của thẻ.
 Xóa **tất cả** thuộc tính HTML khỏi chuỗi.
 
 - Sử dụng `strip_attr:("class, id")` để giữ lại các thuộc tính cụ thể.
-- Ví dụ: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` trả về `<div id="example">Content</div>`.
+- Ví dụ: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` trả về `<div class="test">Content</div>`.
 
 ### `strip_md`
 

@@ -50,8 +50,6 @@ Düzenleyici görünümündeyken bir bağlantı oluşturmak için aşağıdaki y
 - Düzenleyicide bir metin seçin ve ardından `[[` yazın.
 - [[Komut Paleti]]'ni açın ve ardından Dahili link ekle'yi seçin.
 
-![[Hızlı Geçiş#^search-autocomplete-large]]
-
 [[Kabul edilen dosya biçimleri|Kabul edilen dosya biçimlerinden]] herhangi birine bağlantı verebilirsiniz, ancak Markdown dışındaki dosya biçimlerine bağlantılar `[[Şekil 1.png]]` gibi bir dosya uzantısı içermelidir.
 
 > [!tip] Dahili bağlantının başına ünlem işareti (!) eklemek, bağlantılı içeriği gömmenizi sağlar. Daha fazla ayrıntı için [[Dosya gömme]] sayfasına bakın.
@@ -131,7 +129,7 @@ This is the tale of Gemmy, the Unhelpful assistant.
 > [!info]- Blok bağlantısı arama ekran görüntüsü
 > ![[link-block-heading.png#interface]]
 
-Ayrıca bir boşluk, ardından şapka işareti (`^`) ve tanımlayıcı ekleyerek okunabilir blok tanımlayıcıları oluşturabilirsiniz. Blok tanımlayıcıları yalnızca Latin harflerinden, rakamlardan ve tirelerden oluşabilir.
+Ayrıca bir boşluk, ardından şapka işareti (`^`) ve tanımlayıcı ekleyerek okunabilir blok tanımlayıcıları oluşturabilirsiniz. Blok tanımlayıcıları yalnızca A-Z ve a-z harflerinden, 0-9 rakamlarından ve tirelerden oluşabilir.
 
 Örneğin, bir bloğun sonuna `^quote-of-the-day` ekleyin:
 

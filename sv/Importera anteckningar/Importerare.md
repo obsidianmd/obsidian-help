@@ -19,3 +19,9 @@ Importerare är ett officiellt [[Gemenskapstillägg]] skapat av Obsidian-teamet,
 ![[Importera anteckningar#Importera från andra appar och filformat]]
 
 ![[Importera anteckningar#Fler format]]
+
+## Importerare-mallar
+
+Importerare låter dig definiera [[Mallar för Importer|mallar]] som styr hur dina anteckningar importeras från andra appar. Det innebär att du kan ändra titel, egenskaper och innehåll i anteckningar som du importerar.
+
+Mallar stöder variabler och samma [[Obsidian Web Clipper/Filter|filter]] och [[Obsidian Web Clipper/Logik|malllogik]] som [[Introduktion till Obsidian Web Clipper|Web Clipper]].

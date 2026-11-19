@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. I Filutforskaren, högerklicka på mappen där du vill skapa basen.
 2. Välj **Ny bas**.
 
-**Ribbon:**
-
-- I den vertikala ribbon-menyn, välj **Skapa ny bas** för att skapa en bas i samma mapp som den aktiva filen.
-
 ## Bädda in en bas
 
 ### Bädda in en basfil

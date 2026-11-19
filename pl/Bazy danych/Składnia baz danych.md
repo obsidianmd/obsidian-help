@@ -201,7 +201,25 @@ views:
 - `name` to wyświetlana nazwa, która może być użyta do zdefiniowania domyślnego podglądu.
 - `filters` działają dokładnie tak samo jak opisano powyżej, ale mają zastosowanie tylko do tego podglądu.
 - `groupBy` określa właściwość i kierunek sortowania. Wartość podanej właściwości dla każdego wiersza służy do umieszczania wiersza w grupach.
+- `groupOrder` określa kolejność i widoczność grup. Jeśli jest obecny, wyświetlane są tylko grupy, których wartości są wymienione, w podanej kolejności. Pusta lista ukrywa wszystkie grupy. Usuń `groupOrder`, aby wyświetlić wszystkie grupy w kolejności zdefiniowanej przez `groupBy`.
 - `summaries` mapuje nazwy właściwości na nazwane podsumowania. Podsumowania wykonują agregację właściwości we wszystkich wierszach.
+
+Na przykład ten podgląd pokazuje tylko grupy Planned, In progress i Done, w tej kolejności:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Użyj `null` w `groupOrder`, aby uwzględnić pliki, które nie mają wartości dla grupowanej właściwości.
 
 [[Podglądy]] mogą dodawać dodatkowe dane do przechowywania wszelkich informacji potrzebnych do zachowania stanu lub prawidłowego renderowania, jednak autorzy wtyczek powinni unikać używania kluczy już wykorzystywanych przez wbudowaną wtyczkę baz danych. Przykładowo podgląd tabeli może używać tego do ograniczenia liczby wierszy lub wyboru kolumny sortowania i jej kierunku. Inny typ podglądu, taki jak mapa, mógłby używać tego do mapowania, która właściwość notatki odpowiada szerokości i długości geograficznej, a która powinna być wyświetlana jako tytuł pinezki.
 
@@ -287,7 +305,7 @@ Globalna [[Funkcje|funkcja]] `today()` może być użyta do pobrania bieżącej 
 - `now() + "1 day"` zwraca datę i czas dokładnie 24 godziny od momentu wykonania.
 - `file.mtime > now() - "1 week"` zwraca `true`, jeśli plik został zmodyfikowany w ciągu ostatniego tygodnia.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` zwraca obiekt Date reprezentujący `2025-01-01 04:03:00`.
-- Odejmij dwie daty, aby uzyskać różnicę w milisekundach między nimi, na przykład `now() - file.ctime`.
+- Odejmij dwie daty, aby uzyskać czas trwania, na przykład `note.release_date - today()`.
 - Aby uzyskać część datową z daty z czasem, użyj `datetime.date()`.
 - Aby sformatować obiekt Date, użyj funkcji `format()`, na przykład `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Daty reprezentują konkretną datę lub datę i czas, w zależności od funkcji 
 
 - Aby skonstruować datę, użyj funkcji `date`, na przykład `date("2025-01-01 12:00:00")`
 - Aby zmodyfikować datę, dodaj lub odejmij czas trwania, na przykład `now() + "1 hour"` lub `today() + "7d"`
-- Porównuj daty za pomocą operatorów porównania (np. `>` lub `<`) i operatorów arytmetycznych (na przykład `(now() + "1d") - now()` zwraca `86400000` milisekund).
+- Porównuj daty za pomocą operatorów porównania, na przykład `>` lub `<`.
+- Odejmij jedną datę od drugiej, aby uzyskać czas trwania, na przykład `note.release_date - today()`.
 - Aby wyodrębnić części daty, użyj dostępnych pól (`now().hour`) lub funkcji pomocniczych (`now.time()`).
 - Wiele innych [[Funkcje|pól i funkcji]] jest dostępnych na obiektach daty.
 
@@ -350,7 +369,7 @@ Daty reprezentują konkretną datę lub datę i czas, w zależności od funkcji 
 
 [[Łączenie notatek|Odnośniki wiki]] we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty Link. Łącza będą renderowane jako klikalne linki w [[Podglądy|podglądzie]].
 
-- Aby skonstruować łącze, użyj globalnej [[Funkcje|funkcji]] `link`, na przykład `link("filename")` lub `link("https://obsidian.md")`.
+- Aby skonstruować łącze, użyj globalnej [[Funkcje|funkcji]] `link`, na przykład `link("filename")`.
 - Możesz utworzyć łącze z dowolnego ciągu znaków, na przykład `link(file.ctime.date().toString())`.
 - Aby ustawić wyświetlany tekst, podaj opcjonalny ciąg znaków lub ikonę jako drugi parametr, na przykład `link("filename", "display")` lub `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Obiekt File można zamienić na łącze za pomocą `file.asLink()` z opcjonalnym
 Łącza można porównywać z plikami, takimi jak `file` lub `this`. Będą równe, jeśli łącze prowadzi do tego pliku. Na przykład `author == this`.
 
 Łącza można również sprawdzać w zawieraniu list, na przykład `authors.contains(this)`.
+
+### Adresy URL
+
+Adresy URL we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty URL. Adresy URL będą renderowane jako klikalne linki w [[Podglądy|podglądzie]].
+
+- Aby skonstruować adres URL, użyj globalnej [[Funkcje|funkcji]] `link`, na przykład `link("https://obsidian.md")`.
+- Aby ustawić wyświetlany tekst, podaj opcjonalny ciąg znaków jako drugi parametr, na przykład `link("https://obsidian.md", "Obsidian")`.

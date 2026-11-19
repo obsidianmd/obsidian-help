@@ -36,23 +36,25 @@ Budete potřebovat oficiální plugin Obsidian [[Importér]], který můžete [n
 7. Klikněte na **Načíst** pro procházení vašich bází, poté vyberte tabulky, které chcete importovat.
 8. Zkontrolujte a upravte možnosti importu.
 9. Vyberte **Importovat** pro nastavení způsobu, jakým budou vaše pole převedena na poznámky s [[Vlastnosti|vlastnostmi]].
-10. Klikněte na **Pokračovat** a počkejte, až se import dokončí.
-11. Hotovo!
+10. Vyberte **Pokračovat** pro zobrazení vygenerované šablony a náhledu příkladů z vašich záznamů.
+11. Vyberte **Importovat** a počkejte, až se import dokončí.
 
-### Možnosti importu
+## Možnosti importu
 
 - **Převést vzorce** — zvolte, zda budou pole se vzorci, vyhledáváním (lookup), souhrny (rollup) a počty přepsána jako [[Vzorce|vzorce Základen]], s využitím hodnoty vypočítané Airtable v případech, kdy neexistuje ekvivalent, nebo importována pouze jako statické hodnoty.
 - **Stáhnout přílohy** — uloží soubory příloh do vašeho trezoru podle nastavení složky příloh a formátu odkazů. Pokud je tato možnost vypnutá nebo stahování selže, poznámka místo toho odkazuje na URL souboru na Airtable.
-- **Název vlastnosti zobrazení** — vlastnost, která zaznamenává, do kterých zobrazení Airtable záznam patří. Každé zobrazení ve vygenerované Základně filtruje podle této vlastnosti. Výchozí hodnota je `base`.
-- **Inkrementální import** — přidá ke každé poznámce vlastnost `airtable-id`, takže pozdější import může přeskočit záznamy, které již byly importovány. Při úplném importu je tato vlastnost opět odstraněna.
+- **Název vlastnosti zobrazení** — vlastnost, která zaznamenává, do kterých zobrazení Airtable záznam patří. Každé zobrazení ve vygenerované Základně filtruje podle této vlastnosti. Výchozí hodnota je `Views`.
+- **Uložit ID záznamu Airtable** — přidá vlastnost `airtable-id`, takže budoucí importy mohou rozpoznat záznamy poté, co byly jejich poznámky přesunuty nebo přejmenovány.
 
 ## Nastavení způsobu importu polí Airtable
 
-Ve druhém kroku importu si můžete zvolit, jak bude každé pole importováno.
+V kroku konfigurace polí si můžete zvolit, jak bude každé pole importováno.
 
-Každé pole ve vašich tabulkách má přiřazenou proměnnou nazvanou `{{field_name}}`. Ve výchozím nastavení se každé pole stane vlastností a tyto proměnné můžete použít k přejmenování vlastností, změně jejich hodnot nebo zápisu obsahu do těla každé poznámky.
+Ve výchozím nastavení se každé pole Airtable stane vlastností. Můžete přejmenovat nebo odebrat vlastnosti a změnit jejich hodnoty před pokračováním k náhledu šablony.
 
-Primární pole každé tabulky se vždy použije jako název poznámky a záznamy jsou vždy umístěny do složky pojmenované podle jejich tabulky, takže tyto možnosti nelze konfigurovat.
+Primární pole každé tabulky poskytuje výchozí název poznámky. Název poznámky můžete upravit v šabloně z kroku náhledu. Záznamy jsou vždy umístěny do složky pojmenované podle jejich tabulky.
+
+Viz [[Šablony importéru]] pro přizpůsobení generovaného Markdownu.
 
 ## Co se importuje
 
@@ -72,15 +74,13 @@ Airtable/
 	- **Grid** se stane [[Zobrazení Tabulka|zobrazením Tabulka]].
 	- **Gallery** se stane [[Zobrazení Karty|zobrazením Karty]].
 	- **List** se stane [[Zobrazení Seznam|zobrazením Seznam]].
-	- Všechny ostatní typy zobrazení jsou převedeny na zobrazení Tabulka.
+	- **Kanban** se stane [[Zobrazení Kanban|zobrazením Kanban]] v Obsidian 1.14 a novějších. Airtable neuvádí, podle kterého pole je kanban seskupen, takže po importu [[Zobrazení Kanban#Seskupení karet do sloupců|zvolte vlastnost, podle které chcete seskupit]]. Opakovaný import vaši volbu zachová.
 - Typy polí Airtable jsou mapovány na typy vlastností Obsidian, bez přepisování typů, které jste již nastavili.
 - Propojené záznamy se stanou odkazy na odpovídající poznámky.
 - Přílohy jsou staženy do vašeho trezoru podle nastavení trezoru.
 
-## Omezení
 
-> [!info] Import z Airtable je nový
-> Importér z Airtable je nový. Pokud narazíte na problémy s převodem, [odešlete hlášení o chybě](https://github.com/obsidianmd/obsidian-importer/issues), abychom ho mohli vylepšit.
+## Omezení
 
 Kvůli omezením rychlosti Airtable API může import velkých bází trvat značnou dobu. Buďte prosím trpěliví.
 
@@ -88,6 +88,10 @@ Kvůli omezením Airtable API nejsou některá data dostupná nebo je nelze pře
 
 - Hodnoty souhrnů (rollup) se neimportují. API nezveřejňuje agregaci použitou pro vypočtenou hodnotu souhrnu, takže se zapíše pouze název vlastnosti spolu se vzorcem Základen, pokud schéma pole odhaluje výraz.
 - Vzorce používající funkce, pro které Obsidian nemá ekvivalent, jako `SWITCH`, `FIND`, `REGEX_EXTRACT` a `SQRT`, se nahradí statickou hodnotou z Airtable.
-- Importují se pouze zobrazení grid, gallery a list. Ostatní typy zobrazení, jako kalendář, kanban, časová osa a Gantt, jsou ignorovány.
+- Importují se pouze zobrazení grid, gallery, list a kanban. Ostatní typy zobrazení, jako kalendář, časová osa a Gantt, jsou ignorovány.
 - Odkazy na záznamy v tabulkách, které jste nevybrali, se stanou prostým názvem záznamu místo odkazu.
 - Návrhy rozhraní, automatizace, komentáře a historie revizí se neimportují.
+
+## Řešení problémů
+
+Pokud narazíte na problémy s převodem, [odešlete hlášení o chybě](https://github.com/obsidianmd/obsidian-importer/issues), abychom ho mohli vylepšit.

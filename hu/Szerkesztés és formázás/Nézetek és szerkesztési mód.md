@@ -20,7 +20,7 @@ Váltás az *Olvasási nézetre*:
 - Vagy nyomd meg a `Ctrl+E` (`Cmd+E` macOS-en) billentyűkombinációt.
 
 > [!note] Megjegyzés
-> Engedélyezd a **[[Beállítások]] → Megjelenés → Lap címsávjának megjelenítése** opciót a nézetváltó ikon megjelenítéséhez.
+> Engedélyezd a **[[Beállítások]] → Felület → Lap címsávjának megjelenítése** opciót a nézetváltó ikon megjelenítéséhez.
 > 
 > Ha ez le van tiltva, kapcsold be a **[[Beállítások]] → Szerkesztő → Megjeleníti a szerkesztési módot az állapotsorban** opciót, hogy az állapotsorból válthass a nézetek között.
 

@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. No Explorador de ficheiros, clique com o botão direito na pasta onde pretende criar a base.
 2. Selecione **Nova base**.
 
-**Barra de ferramentas:**
-
-- No menu vertical da barra de ferramentas, selecione **Criar nova base** para criar uma base na mesma pasta do ficheiro ativo.
-
 ## Incorporar uma base
 
 ### Incorporar um ficheiro de base

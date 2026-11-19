@@ -18,6 +18,7 @@ Aplikacje pojawiają się i znikają, ale Twoje dane powinny przetrwać. Obsidia
 - <span class="icon-app icon-craft"></span> [[Importuj z Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importuj z Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importuj z Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importuj z Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importuj z Tomboy i Gnote|Tomboy i Gnote]]
 - <span class="icon-app icon-html"></span> [[Importuj pliki HTML|Pliki HTML]]
 - <span class="icon-app icon-md"></span> [[Importuj pliki CSV]]

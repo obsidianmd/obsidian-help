@@ -148,7 +148,7 @@ Funções que você pode usar com qualquer valor. Isso inclui strings (ex.: `"he
 `any.isTruthy(): boolean`
 
 - Retorna o valor convertido em um booleano.
-- Exemplo: `1.isTruthy()` retorna `true`.
+- Exemplo: `(1).isTruthy()` retorna `true`.
 
 ### `isType()`
 
@@ -162,7 +162,7 @@ Funções que você pode usar com qualquer valor. Isso inclui strings (ex.: `"he
 `any.toString(): string`
 
 - Retorna a representação em string de qualquer valor.
-- Exemplo: `123.toString()` retorna `"123"`.
+- Exemplo: `(123).toString()` retorna `"123"`.
 
 ## Tipo data
 
@@ -369,7 +369,7 @@ Funções que você pode usar com valores numéricos como `42`, `3.14`.
 `number.isEmpty(): boolean`
 
 - Retorna verdadeiro se o número não estiver presente.
-- Exemplo: `5.isEmpty()` retorna `false`.
+- Exemplo: `(5).isEmpty()` retorna `false`.
 
 ### `round()`
 
@@ -584,14 +584,14 @@ Os seguintes campos estão disponíveis para arquivos:
 
 ## Tipo objeto
 
-Funções que você pode usar com uma coleção de pares chave-valor como `{"a": 1, "b": 2}`.
+Funções que você pode usar com valores de objeto como `file.properties`, que contêm uma coleção de pares chave-valor.
 
 ### `isEmpty()`
 
 `object.isEmpty(): boolean`
 
 - Retorna verdadeiro se o objeto não tiver propriedades próprias.
-- Exemplo: `{}.isEmpty()` retorna `true`.
+- Exemplo: `file.properties.isEmpty()` retorna `true` se o arquivo não tiver propriedades.
 
 ### `keys()`
 

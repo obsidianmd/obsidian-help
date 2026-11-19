@@ -7,6 +7,8 @@ Obsidian Credit 是一種可以預先購買的預付點數，可用於購買任�
 
 Obsidian Credit 會在任何付款到期前自動使用，包括自動續訂。根據我們的[[退款政策]]，Obsidian Credit **不適用**退款。
 
+只要您保留帳號，Obsidian Credit 就不會過期。
+
 ## 新增點數
 
 1. 登入[您的 Obsidian 帳號](https://obsidian.md/account/billing)。

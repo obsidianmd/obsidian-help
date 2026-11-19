@@ -30,7 +30,7 @@ Vai precisar do plugin oficial [[Importador]] do Obsidian, que pode [instalar aq
 1. Abra as **[[Definições]]**.
 2. Vá a **Plugins da comunidade** e [instale o Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Ative o plugin Importador.
-4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone na barra de ferramentas.
+4. Abra o Importador nas Definições ou usando a [[Paleta de comandos]].
 5. Em **File format** selecione **Airtable**.
 6. Em **Airtable Personal Access Token**, clique em **Ligar...** para adicionar um novo segredo. Para o **ID**, dê-lhe um nome como `airtable`, e para o **Segredo** cole o seu token de acesso pessoal.
 7. Clique em **Carregar** para navegar pelas suas bases e depois selecione as tabelas que pretende importar.
@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** torna-se uma [[Vista de Tabela]].
 	- **Gallery** torna-se [[Vista de Cartões]].
 	- **List** torna-se uma [[Vista de Lista]].
-	- Todos os outros tipos de vista são convertidos para vista de tabela.
+	- **Kanban** torna-se uma [[Vista Kanban]] no Obsidian 1.14 e posterior. O Airtable não indica por que campo um kanban é agrupado, por isso [[Vista Kanban#Agrupar cartões em colunas|escolha uma propriedade pela qual agrupar]] após a importação. Importar novamente mantém a sua escolha.
 - Os tipos de campo do Airtable são mapeados para tipos de propriedade do Obsidian, sem substituir tipos que já tenha definido.
 - Registos ligados tornam-se ligações para as notas correspondentes.
 - Os anexos são transferidos para o seu cofre utilizando as definições do cofre.
@@ -88,7 +88,7 @@ Devido a limitações na API do Airtable, alguns dados não estão disponíveis 
 
 - Os valores de rollup não são importados. A API não expõe a agregação usada para o valor calculado de um rollup, pelo que apenas o nome da propriedade é escrito, juntamente com uma fórmula do Bases quando o esquema do campo expõe uma expressão.
 - Fórmulas que usam funções para as quais o Obsidian não tem equivalente, como `SWITCH`, `FIND`, `REGEX_EXTRACT` e `SQRT`, recorrem ao valor estático do Airtable.
-- Apenas vistas de grid, gallery e list são importadas. Outros tipos de vista, como calendário, kanban, timeline e Gantt, são ignorados.
+- Apenas vistas de grid, gallery, list e kanban são importadas. Outros tipos de vista, como calendário, timeline e Gantt, são ignorados.
 - Ligações para registos em tabelas que não selecionou tornam-se o título simples do registo em vez de uma ligação.
 - Designs de interface, automatizações, comentários e histórico de revisões não são importados.
 

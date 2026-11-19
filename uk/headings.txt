@@ -278,6 +278,22 @@ translation=Вбудовування файлу бази
 original=Embed a base as a code block
 translation=Вбудовування бази як блоку коду
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Групування карток у стовпці
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Робота з картками та стовпцями
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Приховати порожні стовпці
+
+[heading.bases/Column width]
+original=Column width
+translation=Ширина стовпця
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Що можуть формули
@@ -3918,34 +3934,94 @@ translation=Бічна панель
 original=Frequently asked questions
 translation=Часті запитання
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Групування карток у стовпці
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Відкрити меню
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Робота з картками та стовпцями
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Комп'ютер
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Налаштування
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Подання та макет
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Приховати порожні стовпці
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Керування нотаткою
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Ширина стовпця
+[heading.more-options-menu/Find]
+original=Find
+translation=Пошук
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Властивість зображення
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Шляхи, історія та зв'язані подання
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Припасування зображення
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Ваш комп'ютер
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Співвідношення сторін зображення
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Меню вкладки
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Мобільний
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Відкриття пошуку та заміни
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Пошук збігів
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Заміна збігів
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Відкриття PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Навігація по PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Зміна вигляду PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Пошук у PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Копіювання тексту з PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Вбудовування PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Експорт нотатки в PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Експорт нотаток із Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Імпорт даних Samsung Notes в Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Обмеження
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Шаблони

@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. Napsauta tiedostoselaimessa hiiren kakkospainikkeella kansiota, johon haluat luoda kannan.
 2. Valitse **Uusi kanta**.
 
-**Nauhavalikko:**
-
-- Valitse pystysuuntaisesta nauhavalikosta **Luo uusi kanta** luodaksesi kannan samaan kansioon kuin aktiivinen tiedosto.
-
 ## Upota kanta
 
 ### Upota kantatiedosto

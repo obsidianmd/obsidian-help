@@ -50,8 +50,6 @@ Para criar uma ligação enquanto está na vista de edição, utilize uma das se
 - Selecione texto no editor e depois escreva `[[`.
 - Abra a [[Paleta de comando]] e depois selecione Adicionar link interno.
 
-![[Navegação rápida#^search-autocomplete-large]]
-
 Embora possa criar ligações para qualquer um dos [[Formatos de ficheiro aceites]], as ligações para formatos de ficheiro que não sejam Markdown precisam de incluir a extensão do ficheiro, como `[[Figura 1.png]]`.
 
 > [!tip] Prefixar uma ligação interna com um ponto de exclamação (!) permite-lhe incorporar o conteúdo ligado. Para mais detalhes, consulte [[Incorporar ficheiros]].
@@ -131,7 +129,7 @@ Também pode pesquisar blocos para criar ligações em todo o seu cofre utilizan
 > [!info]- Captura de ecrã da pesquisa de uma ligação de bloco
 > ![[link-block-heading.png#interface]]
 
-Também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Os identificadores de bloco podem consistir apenas em letras latinas, números e hífens.
+Também pode criar identificadores de bloco legíveis adicionando um espaço em branco seguido de um acento circunflexo (`^`) e o identificador. Os identificadores de bloco podem consistir apenas nas letras A-Z e a-z, nos dígitos 0-9 e em hífens.
 
 Por exemplo, adicione `^quote-of-the-day` no final de um bloco:
 

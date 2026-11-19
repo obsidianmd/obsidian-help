@@ -642,6 +642,22 @@ translation=CSV exportálás
 original=Embed a view
 translation=Nézet beágyazása
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Kártyák csoportosítása oszlopokba
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Munka kártyákkal és oszlopokkal
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Üres oszlopok elrejtése
+
+[heading.bases/Column width]
+original=Column width
+translation=Oszlop szélessége
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Mire képesek a képletek
@@ -950,34 +966,94 @@ translation=Oldalsáv
 original=Frequently asked questions
 translation=Gyakran ismételt kérdések
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Kártyák csoportosítása oszlopokba
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=A menü megnyitása
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Munka kártyákkal és oszlopokkal
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Asztali
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Beállítások
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Nézet és elrendezés
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Üres oszlopok elrejtése
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=A jegyzet kezelése
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Oszlop szélessége
+[heading.more-options-menu/Find]
+original=Find
+translation=Keresés
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Kép tulajdonság
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Útvonalak, előzmények és kapcsolt nézetek
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Illesztés
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Számítógéped
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Képarány
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Lap menü
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobil
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Keresés és csere megnyitása
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Találatok keresése
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Találatok cseréje
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=PDF megnyitása
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Navigálás a PDF-ben
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=A PDF megjelenésének módosítása
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Keresés a PDF-ben
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Szöveg másolása PDF-ből
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF beágyazása
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Jegyzet exportálása PDF-be
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Jegyzetek exportálása a Samsung Notes-ból
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Samsung Notes adatok importálása az Obsidianba
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Korlátozások
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Sablonok

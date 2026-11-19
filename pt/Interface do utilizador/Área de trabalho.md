@@ -16,6 +16,7 @@ Na aplicação Obsidian para computador, a área de trabalho inclui:
     - [[Barra lateral#Separadores|Separadores da barra lateral]]
 - [[Separadores#Organizar os seus separadores e janelas|Grupos de separadores]] na área de conteúdo central (podem ser divididos vertical ou horizontalmente)
     - [[Separadores]]
+    - [[Menu de mais opções]] no canto superior direito de cada nota
 - [[Barra de estado]] no canto inferior direito
 
 ## Móvel
@@ -23,6 +24,7 @@ Na aplicação Obsidian para computador, a área de trabalho inclui:
 Na aplicação Obsidian para dispositivos móveis, a área de trabalho inclui:
 
 - [[Separadores]] geridos a partir do contador de separadores na [[Aplicação móvel#Barra de navegação|Barra de navegação]]
+- [[Menu de mais opções#Móvel|Menu de mais opções]] para a nota ativa
 - [[Barra lateral|Barras laterais]] (abertas com gestos de deslizar para a esquerda e direita)
 - [[Aplicação móvel#Barra de navegação|Barra de navegação]] na parte inferior do ecrã
 - [[Barra de ferramentas|Menu da barra de ferramentas]] na Barra de navegação (contém ações personalizáveis)

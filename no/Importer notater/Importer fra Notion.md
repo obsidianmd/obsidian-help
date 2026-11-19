@@ -10,6 +10,10 @@ Obsidian tilbyr to måter å importere Notion-dataene dine på:
 1. **Notion-konto (anbefalt)** kobler direkte til arbeidsområdet ditt og lar deg bevare databaser og formler som konverteres til [[Introduksjon til Bases|Bases]]. Krever et Notion-integrasjonstoken og internettforbindelse.
 2. **Filimport** bruker Notions `.zip`-eksportfiler. Bevarer ikke databaser, men krever ikke et API-token eller internettforbindelse.
 
+## Tilpass importerte sider
+
+Begge importmetodene viser en forhåndsvisning før importen begynner. Du kan redigere den genererte malen eller velge en Markdown-mal fra hvelvet ditt. Innstillinger som forsidebilde og databaseegenskapsnavn oppdaterer de genererte egenskapene som vises i forhåndsvisningen. Se [[Importer-maler]].
+
 ## Importer fra Notion-kontoen din
 
 ### Opprett et Notion API-tilgangstoken
@@ -54,8 +58,8 @@ Du trenger det offisielle Obsidian [[Importer]]-tillegget, som du kan [installer
 6. Under **API token**, klikk **Koble...** for å legge til en ny hemmelighet. For **ID** gir du den et navn som `notion`, og for **Hemmelighet** limer du inn ditt **Access token** fra Notion.
 7. Klikk **Last inn** for å velge databasene og sidene du vil importere.
 8. Gjennomgå og rediger importalternativene.
-9. Velg **Importer** og vent til importen er fullført
-10. Du er ferdig!
+9. Velg **Importer** for å gjennomgå den genererte malen og forhåndsvise eksempler fra sidene dine.
+10. Velg **Importer** igjen og vent til importen er fullført.
 
 ### Begrensninger
 
@@ -66,7 +70,8 @@ På grunn av Notion API-hastighetsbegrensninger kan import av store arbeidsområ
 
 På grunn av begrensninger i Notion API-et er noen data ikke tilgjengelige eller kan ikke konverteres:
 
-- Bare primærvisningen for hver database importeres.
+- Databasevisninger annet enn tavler importeres ikke, og tavler beholder ikke filtrene, sorteringene eller undergruppene sine.
+- På en tavle gruppert etter en flervalgs-, person- eller relasjonsegenskap, plasseres et kort med flere verdier i én enkelt kolonne for den kombinasjonen av verdier.
 - [Koblede datakilder](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) importeres ikke: *"Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!"*
 - `People`-funksjoner: `name()` og `email()`
 - `Text`-funksjoner: `style()` og `unstyle()`
@@ -74,7 +79,7 @@ På grunn av begrensninger i Notion API-et er noen data ikke tilgjengelige eller
 I tillegg vil Importer gjøre følgende endringer:
 
 - Sider uten undersider eller databaser importeres som `[filnavn].md` i stedet for `[filnavn]/[filnavn].md`.
-- Databaser representeres alltid som mapper kalt `[databasenavn]` med en `[databasenavn].base`-fil inni.
+- Databaser representeres alltid som mapper kalt `[databasenavn]` med en `[databasenavn].base`-fil inni. Basen har en tabellvisning med alle egenskaper og, i Obsidian 1.14 og senere, en [[Kanban-visning]] for hver Notion-tavle, gruppert etter samme egenskap.
 
 ## Importer Notion-filer (.zip)
 
@@ -108,8 +113,8 @@ Du trenger det offisielle Obsidian [[Importer]]-tillegget, som du kan [installer
 6. Velg `.zip`-filen med Notion-filer du vil importere. *Det anbefales å importere alt fra Notion på én gang slik at interne lenker kan sammenkobles riktig.*
 7. _Valgfritt_, velg en mappe for importen. Notion-sidene og databasene dine vil bli nestet inne i denne mappen.
 8. Aktiver **Save parent pages in subfolders** for å beholde Notion-strukturen. *Merk at i Notion kan du skrive innhold i mapper, dette er ikke mulig i Obsidian og disse sidene vil bli lagt til som en underside under mappen.*
-9. Velg **Importer** og vent til importen er fullført
-10. Du er ferdig!
+9. Velg **Importer** for å gjennomgå den genererte malen og forhåndsvise eksempler fra sidene dine.
+10. Velg **Importer** igjen og vent til importen er fullført.
 
 ### Feilsøking
 
@@ -129,3 +134,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Hvis du ser denne feilen, kan du pakke ut filen fra Notion, og deretter importere de nestede `Export-{id}-Part-1.zip`-filene.
+
+## Maler
+
+Bruk [[Importer-maler|Importer-maler]] for å konfigurere nøyaktig hvordan Notion-dataene dine importeres.
+
+![[Importer-maler#Variables]]

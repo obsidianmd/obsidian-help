@@ -201,7 +201,25 @@ views:
 - `name` is de weergavenaam en kan worden gebruikt om de standaardweergave te definiëren.
 - `filters` zijn precies hetzelfde als hierboven beschreven, maar zijn alleen van toepassing op de weergave.
 - `groupBy` specificeert een eigenschap en sorteerrichting. De waarde van de opgegeven eigenschap voor elke rij wordt gebruikt om de rij in groepen te plaatsen.
+- `groupOrder` specificeert de volgorde en zichtbaarheid van groepen. Indien aanwezig worden alleen groepen waarvan de waarden in de lijst staan weergegeven, in die volgorde. Een lege lijst verbergt alle groepen. Verwijder `groupOrder` om alle groepen weer te geven in de volgorde gedefinieerd door `groupBy`.
 - `summaries` koppelt eigenschapnamen aan een benoemde samenvatting. Samenvattingen voeren een aggregatie uit op de eigenschap over alle rijen.
+
+Bijvoorbeeld, deze weergave toont alleen de groepen Gepland, In uitvoering en Gereed, in die volgorde:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Gebruik `null` in `groupOrder` om bestanden op te nemen die geen waarde hebben voor de gegroepeerde eigenschap.
 
 [[Weergaven]] kunnen aanvullende gegevens opslaan om alle informatie op te slaan die nodig is om de status te behouden of correct weer te geven, maar plug-in-auteurs moeten ervoor zorgen dat ze geen sleutels gebruiken die al in gebruik zijn door de kernplug-in Bases. Een tabelweergave kan dit bijvoorbeeld gebruiken om het aantal rijen te beperken of om te selecteren welke kolom wordt gebruikt om rijen te sorteren en in welke richting. Een ander weergavetype zoals een kaart kan dit gebruiken om aan te geven welke eigenschap in de notitie overeenkomt met de breedte- en lengtegraad en welke eigenschap moet worden weergegeven als de titel van de pin.
 
@@ -287,7 +305,7 @@ De globale [[Functies|functie]] `today()` kan worden gebruikt om de huidige datu
 - `now() + "1 day"` retourneert een datum-tijd precies 24 uur na het moment van uitvoering.
 - `file.mtime > now() - "1 week"` retourneert `true` als het bestand binnen de afgelopen week is gewijzigd.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` retourneert een Datum-object dat `2025-01-01 04:03:00` vertegenwoordigt.
-- Trek twee datums van elkaar af om het verschil in milliseconden te krijgen, bijvoorbeeld `now() - file.ctime`.
+- Trek twee datums van elkaar af om een duur te krijgen, bijvoorbeeld `note.release_date - today()`.
 - Om het datumgedeelte van een Datum met tijd te krijgen, gebruik je `datetime.date()`.
 - Om een Datum-object op te maken, gebruik je de `format()`-functie, bijvoorbeeld `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Datums vertegenwoordigen een specifieke datum, of een datum en tijd, afhankelijk
 
 - Om een datum te construeren, gebruik je de `date`-functie, bijvoorbeeld `date("2025-01-01 12:00:00")`
 - Om een datum te wijzigen, voeg je een duur toe of trek je deze af, bijvoorbeeld `now() + "1 hour"` of `today() + "7d"`
-- Vergelijk datums met vergelijkingsoperatoren (bijv. `>` of `<`) en rekenkundige operatoren (bijvoorbeeld `(now() + "1d") - now()` retourneert `86400000` milliseconden.)
+- Vergelijk datums met vergelijkingsoperatoren, bijvoorbeeld `>` of `<`.
+- Trek de ene datum af van de andere om een duur te krijgen, bijvoorbeeld `note.release_date - today()`.
 - Om delen van een datum te extraheren, gebruik je de beschikbare velden (`now().hour`), of een gemaksfunctie (`now.time()`).
 - Veel andere [[Functies|velden en functies]] zijn beschikbaar op datum-objecten.
 
@@ -350,7 +369,7 @@ Datums vertegenwoordigen een specifieke datum, of een datum en tijd, afhankelijk
 
 [[Notities koppelen|Wiki-links]] in [[Eigenschappen|voormetadata-eigenschappen]] worden automatisch herkend als koppelingsobjecten. Koppelingen worden weergegeven als een klikbare koppeling in de [[Weergaven|weergave]].
 
-- Om een koppeling te construeren, gebruik je de globale `link` [[Functies|functie]], bijvoorbeeld `link("filename")` of `link("https://obsidian.md")`.
+- Om een koppeling te construeren, gebruik je de globale `link` [[Functies|functie]], bijvoorbeeld `link("filename")`.
 - Je kunt een koppeling maken van elke tekenreeks, bijvoorbeeld `link(file.ctime.date().toString())`.
 - Om de weergavetekst in te stellen, geef je een optionele tekenreeks of pictogram mee als tweede parameter, bijvoorbeeld `link("filename", "display")` of `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Koppelingen kunnen worden vergeleken met `==` en `!=`. Ze zijn equivalent zolang
 Koppelingen kunnen worden vergeleken met bestanden zoals `file` of `this`. Ze zijn gelijk als de koppeling naar het bestand verwijst. Bijvoorbeeld `author == this`.
 
 Koppelingen kunnen ook worden gecontroleerd in lijstbevattingen, bijvoorbeeld `authors.contains(this)`.
+
+### URL's
+
+URL's in [[Eigenschappen|voormetadata-eigenschappen]] worden automatisch herkend als URL-objecten. URL's worden weergegeven als een klikbare koppeling in de [[Weergaven|weergave]].
+
+- Om een URL te construeren, gebruik je de globale `link` [[Functies|functie]], bijvoorbeeld `link("https://obsidian.md")`.
+- Om de weergavetekst in te stellen, geef je een optionele tekenreeks mee als tweede parameter, bijvoorbeeld `link("https://obsidian.md", "Obsidian")`.

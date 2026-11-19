@@ -50,8 +50,6 @@ Om een koppeling te maken in de bewerkingsweergave, gebruik je een van de volgen
 - Selecteer tekst in de editor en typ vervolgens `[[`.
 - Open het [[Opdrachtenpaneel]] en selecteer vervolgens Voeg interne link toe.
 
-![[Snel wisselen#^search-autocomplete-large]]
-
 Hoewel je naar elk van de [[Geaccepteerde bestandsformaten]] kunt koppelen, moeten koppelingen naar andere bestandsformaten dan Markdown een bestandsextensie bevatten, zoals `[[Figuur 1.png]]`.
 
 > [!tip] Door een interne koppeling vooraf te laten gaan door een uitroepteken (!) kun je de gekoppelde inhoud insluiten. Zie [[Bestanden insluiten]] voor meer informatie.
@@ -131,7 +129,7 @@ Je kunt ook naar blokken zoeken om naar te koppelen vanuit je hele kluis met de 
 > [!info]- Schermafbeelding van het zoeken naar een blokkoppeling
 > ![[link-block-heading.png#interface]]
 
-Je kunt ook leesbare blok-ID's maken door een spatie toe te voegen gevolgd door een dakje (`^`) en de ID. Blok-ID's kunnen alleen bestaan uit Latijnse letters, cijfers en streepjes.
+Je kunt ook leesbare blok-ID's maken door een spatie toe te voegen gevolgd door een dakje (`^`) en de ID. Blok-ID's kunnen alleen bestaan uit de letters A-Z en a-z, de cijfers 0-9 en streepjes.
 
 Voeg bijvoorbeeld `^quote-of-the-day` toe aan het einde van een blok:
 

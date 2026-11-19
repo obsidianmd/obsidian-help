@@ -16,7 +16,7 @@ Je hebt de officiële Obsidian [[Importeren]]-plug-in nodig, die je [hier kunt i
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activeer de Importer-plug-in.
-4. Open de **Importer**-plug-in via het opdrachtenpalet of het werkbalkpictogram.
+4. Open Importer in Instellingen of via het [[Opdrachtenpalet]].
 5. Kies onder **Bestandsformaat** de optie **CSV (.csv).**
 6. Selecteer de locatie van je CSV-bestand.
 7. Selecteer **Importeren** om te configureren hoe gegevens in je CSV-bestand worden omgezet naar notities met [[Eigenschappen]].

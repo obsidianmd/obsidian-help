@@ -4,7 +4,7 @@ cssclasses:
   - list-cards
 publish: true
 mobile: true
-description: Aprende sobre las funciones específicas para móvil en Obsidian, incluyendo la barra de herramientas móvil, acciones rápidas y la barra de navegación.
+description: 'Aprende sobre las funciones específicas para móvil en Obsidian, incluyendo la barra de herramientas móvil, acciones rápidas y la barra de navegación.'
 aliases:
   - Obsidian/Obsidian Movil
 ---
@@ -31,25 +31,20 @@ Al editar una nota, notarás una fila de iconos en la parte inferior de la aplic
 
 ### Personalizar la barra de herramientas móvil
 
-En la barra de herramientas móvil, toca **Configurar la barra de herramientas móvil** ![[lucide-wrench.svg#icon]] para abrir la interfaz de personalización.
+En la barra de herramientas móvil, selecciona **Configurar la barra de herramientas móvil** ![[lucide-wrench.svg#icon]] para abrir sus ajustes.
 
-Alternativamente, puedes hacerlo desde los Ajustes.
+También puedes abrir **[[Ajustes]] → Interfaz → Configurar la barra de herramientas móvil**.
 
-1. Abre los Ajustes.
-2. Elige **Móvil**.
-3. En **Administrar las opciones en la barra de herramientas móvil**, añade, elimina o reordena las opciones disponibles.
+En **Administrar las opciones en la barra de herramientas móvil**, usa los controles de agarre para reordenar las acciones y los botones de eliminar para quitarlas. Selecciona una acción en **Más opciones de barra de herramientas** para añadirla.
 
 ### Añadir comando a la barra de herramientas móvil
 
-De forma predeterminada, las opciones disponibles para añadir a la barra de herramientas son opciones de edición como "Añadir enlace interno" o "Añadir etiqueta".
+Además de las acciones de edición, puedes añadir comandos globales como **Cambiar tema**.
 
-Además de eso, puedes añadir comandos globales como "Cambiar tema".
-
-1. Busca **Administrar las opciones en la barra de herramientas móvil** en **[[Configuración]]** → **Móvil**.
-2. Desplázate hasta el final y busca **Añadir comando global**.
-3. Escribe el nombre del comando que deseas añadir.
-4. Selecciona el comando que quieras añadir.
-5. El nuevo comando se añadirá al final de la barra de herramientas.
+1. Abre **[[Ajustes]] → Interfaz → Configurar la barra de herramientas móvil**.
+2. En **Administrar las opciones en la barra de herramientas móvil**, selecciona **Añadir un comando...**.
+3. Busca el comando que deseas añadir.
+4. Selecciona el comando para añadirlo al final de la barra de herramientas.
 
 ## Acción rápida
 
@@ -60,7 +55,7 @@ La acción rápida está configurada de forma predeterminada para abrir la [[Pal
 ### Personalizar la acción rápida
 
 1. Abre los Ajustes.
-2. En **Opciones**, elige **Barra de herramientas**.
+2. Elige **Interfaz**.
 3. En **Configurar acción rápida para el móvil**, toca **Configurar**.
 4. Escribe el nombre del comando.
 5. Selecciona el comando que deseas establecer.

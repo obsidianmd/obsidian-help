@@ -71,7 +71,8 @@ En raison des limites de débit de l'API Notion, l'import de grands espaces de t
 
 En raison des limitations de l'API Notion, certaines données ne sont pas disponibles ou ne peuvent pas être converties :
 
-- Seule la vue principale de chaque base de données est importée.
+- Les vues de base de données autres que les tableaux kanban ne sont pas importées, et les tableaux kanban ne conservent pas leurs filtres, tris ou sous-groupes.
+- Sur un tableau kanban regroupé par une propriété de sélection multiple, de personne ou de relation, une carte avec plusieurs valeurs est placée dans une seule colonne pour cette combinaison de valeurs.
 - Les [sources de données liées](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) ne sont pas importées : *"L'API de Notion ne prend actuellement pas en charge les sources de données liées. Lorsque vous partagez une base de données avec votre intégration, assurez-vous qu'elle contient la source de données d'origine !"*
 - Fonctions `People` : `name()` et `email()`
 - Fonctions `Text` : `style()` et `unstyle()`
@@ -79,7 +80,7 @@ En raison des limitations de l'API Notion, certaines données ne sont pas dispon
 De plus, Importer effectuera les modifications suivantes :
 
 - Les pages sans pages enfants ni bases de données seront importées sous la forme `[nom_du_fichier].md` au lieu de `[nom_du_fichier]/[nom_du_fichier].md`.
-- Les bases de données sont toujours représentées sous forme de dossiers nommés `[nom de la base de données]` avec un fichier `[nom de la base de données].base` à l'intérieur.
+- Les bases de données sont toujours représentées sous forme de dossiers nommés `[nom de la base de données]` avec un fichier `[nom de la base de données].base` à l'intérieur. La base contient une vue tableau avec toutes les propriétés et, à partir d'Obsidian 1.14, une [[Vue Kanban]] pour chaque tableau kanban Notion, regroupée par la même propriété.
 
 ## Importer des fichiers Notion (.zip)
 

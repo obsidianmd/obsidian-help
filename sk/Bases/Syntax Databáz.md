@@ -201,7 +201,25 @@ views:
 - `name` je zobrazovaný názov a môže sa použiť na definovanie predvoleného zobrazenia.
 - `filters` sú presne rovnaké ako bolo popísané vyššie, ale vzťahujú sa len na dané zobrazenie.
 - `groupBy` špecifikuje vlastnosť a smer zoradenia. Hodnota špecifikovanej vlastnosti pre každý riadok sa použije na zaradenie riadku do skupín.
+- `groupOrder` špecifikuje poradie a viditeľnosť skupín. Ak je prítomný, zobrazia sa len skupiny, ktorých hodnoty sú uvedené v zozname, a to v danom poradí. Prázdny zoznam skryje všetky skupiny. Odstráňte `groupOrder` pre zobrazenie všetkých skupín v poradí definovanom pomocou `groupBy`.
 - `summaries` mapuje názvy vlastností na pomenovaný súhrn. Súhrny vykonávajú agregáciu na vlastnosti naprieč všetkými riadkami.
+
+Napríklad toto zobrazenie ukazuje len skupiny Planned, In progress a Done, v tomto poradí:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Použite `null` v `groupOrder` na zahrnutie súborov, ktoré nemajú žiadnu hodnotu pre zoskupovanú vlastnosť.
 
 [[Zobrazenia]] môžu pridávať ďalšie dáta na ukladanie akýchkoľvek informácií potrebných na udržanie stavu alebo správne vykreslenie, avšak autori pluginov by mali dbať na to, aby nepoužívali kľúče, ktoré už používa základný plugin Databáz. Napríklad zobrazenie tabuľky môže toto využiť na obmedzenie počtu riadkov alebo na výber stĺpca používaného na zoradenie riadkov a jeho smeru. Iný typ zobrazenia, napríklad mapa, by to mohol využiť na mapovanie toho, ktorá vlastnosť v poznámke zodpovedá zemepisnej šírke a dĺžke a ktorá vlastnosť sa má zobrazovať ako názov špendlíka.
 
@@ -287,7 +305,7 @@ Globálna [[Funkcie|funkcia]] `today()` sa dá použiť na získanie aktuálneho
 - `now() + "1 day"` vráti dátum a čas presne 24 hodín od času vykonania.
 - `file.mtime > now() - "1 week"` vráti `true`, ak bol súbor upravený v priebehu posledného týždňa.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` vráti objekt Date reprezentujúci `2025-01-01 04:03:00`.
-- Odčítaním dvoch dátumov získate rozdiel v milisekundách medzi nimi, napríklad `now() - file.ctime`.
+- Odčítaním dvoch dátumov získate trvanie, napríklad `note.release_date - today()`.
 - Na získanie dátumovej časti z Date s časom použite `datetime.date()`.
 - Na formátovanie objektu Date použite funkciu `format()`, napríklad `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Dátumy reprezentujú konkrétny dátum alebo dátum a čas v závislosti od fun
 
 - Na vytvorenie dátumu použite funkciu `date`, napríklad `date("2025-01-01 12:00:00")`
 - Na úpravu dátumu pridajte alebo odoberte trvanie, napríklad `now() + "1 hour"` alebo `today() + "7d"`
-- Porovnávajte dátumy pomocou porovnávacích operátorov (napr. `>` alebo `<`) a aritmetických operátorov (napríklad `(now() + "1d") - now()` vráti `86400000` milisekúnd.)
+- Porovnávajte dátumy pomocou porovnávacích operátorov, napríklad `>` alebo `<`.
+- Odčítaním jedného dátumu od druhého získate trvanie, napríklad `note.release_date - today()`.
 - Na extrahovanie častí dátumu použite dostupné polia (`now().hour`) alebo pomocnú funkciu (`now.time()`).
 - Na objektoch dátumov sú dostupné mnohé ďalšie [[Funkcie|polia a funkcie]].
 
@@ -350,7 +369,7 @@ Dátumy reprezentujú konkrétny dátum alebo dátum a čas v závislosti od fun
 
 [[Prepojenie poznámok|Wiki odkazy]] vo [[Vlastnosti|vlastnostiach úvodných metadát]] sú automaticky rozpoznané ako objekty Link. Odkazy sa vykreslia ako klikateľný odkaz v [[Zobrazenia|zobrazení]].
 
-- Na vytvorenie odkazu použite globálnu [[Funkcie|funkciu]] `link`, napríklad `link("filename")` alebo `link("https://obsidian.md")`.
+- Na vytvorenie odkazu použite globálnu [[Funkcie|funkciu]] `link`, napríklad `link("filename")`.
 - Odkaz môžete vytvoriť z akéhokoľvek reťazca, napríklad `link(file.ctime.date().toString())`.
 - Na nastavenie zobrazovaného textu zadajte voliteľný reťazec alebo ikonu ako druhý parameter, napríklad `link("filename", "display")` alebo `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Odkazy sa dajú porovnávať pomocou `==` a `!=`. Sú ekvivalentné, pokiaľ uka
 Odkazy sa dajú porovnávať so súbormi ako `file` alebo `this`. Budú rovnaké, ak sa odkaz rozpozná na daný súbor. Napríklad `author == this`.
 
 Odkazy sa dajú kontrolovať aj v zoznamoch pomocou contains, napríklad `authors.contains(this)`.
+
+### URL adresy
+
+URL adresy vo [[Vlastnosti|vlastnostiach úvodných metadát]] sú automaticky rozpoznané ako objekty URL. URL adresy sa vykreslia ako klikateľný odkaz v [[Zobrazenia|zobrazení]].
+
+- Na vytvorenie URL použite globálnu [[Funkcie|funkciu]] `link`, napríklad `link("https://obsidian.md")`.
+- Na nastavenie zobrazovaného textu zadajte voliteľný reťazec ako druhý parameter, napríklad `link("https://obsidian.md", "Obsidian")`.

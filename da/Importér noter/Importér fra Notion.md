@@ -13,6 +13,10 @@ Obsidian tilbyder to måder at importere dine Notion-data på:
 1. **Notion-konto (anbefalet)** opretter direkte forbindelse til dit arbejdsområde og lader dig bevare Databases og formler, som konverteres til [[Introduktion til Baser|Baser]]. Kræver et Notion-integrationstoken og en internetforbindelse.
 2. **Filimport** bruger Notions `.zip`-eksportfiler. Bevarer ikke Databases, men kræver hverken et API-token eller internetforbindelse.
 
+## Tilpas importerede sider
+
+Begge importmetoder viser en forhåndsvisning, før importen begynder. Du kan redigere den genererede skabelon eller vælge en Markdown-skabelon fra din boks. Indstillinger som forside og databaseegenskabsnavne opdaterer de genererede egenskaber vist i forhåndsvisningen. Se [[Importer-skabeloner]].
+
 ## Importér fra din Notion-konto
 
 ### Opret et Notion API-adgangstoken
@@ -57,8 +61,8 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 6. Under **API-token** klik på **Link...** for at tilføje en ny hemmelighed. Under **ID** giv den et navn som `notion`, og under **Hemmelighed** indsæt dit **Access token** fra Notion.
 7. Klik på **Indlæs** for at vælge de databaser og sider, du vil importere.
 8. Gennemgå og rediger importindstillingerne.
-9. Vælg **Importér** og vent, til importen er fuldført
-10. Du er færdig!
+9. Vælg **Importér** for at gennemgå den genererede skabelon og forhåndsvise eksempler fra dine sider.
+10. Vælg **Importér** igen og vent, til importen er fuldført.
 
 ### Begrænsninger
 
@@ -69,7 +73,8 @@ På grund af Notion API-hastighedsbegrænsninger kan import af store arbejdsomr�
 
 På grund af begrænsninger i Notion API'et er nogle data ikke tilgængelige eller kan ikke konverteres:
 
-- Kun den primære visning for hver database importeres.
+- Databasevisninger ud over boards importeres ikke, og boards bevarer ikke deres filtre, sorteringer eller undergrupper.
+- På et board grupperet efter en multi-select-, person- eller relations-egenskab placeres et kort med flere værdier i en enkelt kolonne for den pågældende kombination af værdier.
 - [Linkede datakilder](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) importeres ikke: *"Notions API understøtter i øjeblikket ikke linkede datakilder. Når du deler en database med din integration, skal du sikre dig, at den indeholder den originale datakilde!"*
 - `People`-funktioner: `name()` og `email()`
 - `Text`-funktioner: `style()` og `unstyle()`
@@ -77,7 +82,7 @@ På grund af begrænsninger i Notion API'et er nogle data ikke tilgængelige ell
 Derudover vil Importer foretage følgende ændringer:
 
 - Sider uden undersider eller databaser importeres som `[filnavn].md` i stedet for `[filnavn]/[filnavn].md`.
-- Databaser repræsenteres altid som mapper med navnet `[databasenavn]` med en `[databasenavn].base`-fil indeni.
+- Databaser repræsenteres altid som mapper med navnet `[databasenavn]` med en `[databasenavn].base`-fil indeni. Basen har en tabelvisning med alle egenskaber og, i Obsidian 1.14 og senere, en [[Kanban-visning]] for hvert Notion-board, grupperet efter den samme egenskab.
 
 ## Importér Notion-filer (.zip)
 
@@ -111,8 +116,8 @@ Du skal bruge det officielle Obsidian [[Importér]]-plugin, som du kan [installe
 6. Vælg den `.zip`-fil med Notion-filer, du vil importere. *Det anbefales at importere hele dit Notion på én gang, så interne links kan afstemmes korrekt.*
 7. _Valgfrit_, vælg en mappe til importen. Dine Notion-sider og -databaser vil blive indlejret i denne mappe.
 8. Aktivér **Gem overordnede sider i undermapper** for at bevare Notion-strukturen. *Bemærk, at du i Notion kan skrive indhold i mapper – dette er ikke muligt i Obsidian, og disse sider vil blive tilføjet som en underside under mappen.*
-9. Vælg **Importér** og vent, til importen er fuldført
-10. Du er færdig!
+9. Vælg **Importér** for at gennemgå den genererede skabelon og forhåndsvise eksempler fra dine sider.
+10. Vælg **Importér** igen og vent, til importen er fuldført.
 
 ### Fejlfinding
 
@@ -132,3 +137,9 @@ Import failed {id}.zip/{id}-Part-1.zip undefined.
 ```
 
 Hvis du ser denne fejl, kan du pakke filen fra Notion ud og derefter importere de indlejrede `Export-{id}-Part-1.zip`-filer.
+
+## Skabeloner
+
+Brug [[Importer-skabeloner|Importer-skabeloner]] til fuldt ud at konfigurere, hvordan dine Notion-data importeres.
+
+![[Importer-skabeloner#Variabler]]

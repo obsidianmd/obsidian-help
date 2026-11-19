@@ -11,6 +11,7 @@ Je kunt [[Communityplug-ins]] en [[Thema's]] ontwikkelen met Typescript en CSS. 
 
 Obsidian ontwikkelt en onderhoudt meerdere open source projecten. Je kunt pull requests indienen met bugfixes en verbeteringen voor de volgende GitHub-repositories:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), de renderer die Obsidian gebruikt om Mermaid-diagrammen te tekenen.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), een open bestandsformaat voor oneindige canvasgegevens.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), een templatetaal voor het genereren van Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), een plug-in die gegevens uit een breed scala aan formaten converteert naar Markdown-bestanden in platte tekst.

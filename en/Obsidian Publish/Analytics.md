@@ -14,7 +14,7 @@ To use analytics on your [[Introduction to Obsidian Publish|Obsidian Publish]] s
 
 To enable Google Analytics for your Obsidian Publish site:
 
-1. In ribbon, to the left of the application window, click **Publish changes** ![[lucide-send.svg#icon]].
+1. Open the [[Command palette]] and run **Publish: Publish changes...**.
 2. In the **Publish changes** dialog, click **Change site options** ![[lucide-cog.svg#icon]].
 3. In **Google Analytics tracking code**, enter your tracking code.
 

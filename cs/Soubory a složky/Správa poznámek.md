@@ -19,6 +19,27 @@ Poznámky můžete vytvářet také pomocí [[Průzkumník souborů#Vytvoření 
 > Obsidian respektuje omezení názvů souborů operačního systému, na kterém poznámku vytváříte. Pokud plánujete [[Synchronizace poznámek mezi zařízeními|synchronizovat poznámky mezi zařízeními]], ujistěte se, že názvy souborů jsou [bezpečné pro ostatní operační systémy](https://stackoverflow.com/q/1976007).
 ^blockquote-system-limitation
 
+## Otevírání souborů mimo váš trezor
+
+Na desktopu můžete otevírat a upravovat jednotlivé Markdown soubory mimo váš trezor. Soubory se otevřou ve vašem aktuálním okně a zůstanou na svém původním umístění.
+
+> [!note] Vyžaduje Obsidian 1.14 a nejnovější instalátor
+> [[Aktualizace Obsidian#Aktualizace instalátoru|Aktualizujte svůj instalátor]] stažením Obsidianu z [obsidian.md/download](https://obsidian.md/download) a přeinstalováním aplikace.
+
+Otevření Markdown souboru:
+
+1. Otevřete [[Paleta příkazů|paletu příkazů]].
+2. Vyberte **Otevřít soubor mimo trezor…**.
+3. Zvolte Markdown soubor na vašem počítači.
+
+Můžete také použít nabídku **Otevřít v** vašeho operačního systému a vybrat **Obsidian**. Chcete-li ve výchozím nastavení otevírat Markdown soubory v Obsidianu, nastavte jej jako výchozí aplikaci pro soubory `.md`.
+
+Embedy obrázků a odkazy na jiné lokální soubory se vyhodnocují relativně ke složce Markdown souboru. Použijte [[Osnova|osnovu]] pro navigaci nadpisů a [[Odchozí odkazy|odchozí odkazy]] pro procházení propojených souborů.
+
+### Náhled souborů pomocí Quick Look
+
+Na macOS vyberte Markdown soubor ve Finderu a stiskněte `Mezerník` pro náhled pomocí **Quick Look**. Náhledy Quick Look fungují i když je Obsidian zavřený.
+
 ## Přejmenování poznámky
 
 Přejmenování aktivní poznámky:

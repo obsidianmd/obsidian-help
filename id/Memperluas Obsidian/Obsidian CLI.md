@@ -324,6 +324,7 @@ Tambahkan konten di akhir catatan harian.
 
 ```bash
 content=<text>     # (required) konten untuk ditambahkan
+heading=<name>     # bagian judul target
 paneType=tab|split|window    # tipe panel untuk dibuka
 
 inline             # tambahkan tanpa baris baru
@@ -336,6 +337,7 @@ Tambahkan konten di awal catatan harian.
 
 ```bash
 content=<text>     # (required) konten untuk ditambahkan di awal
+heading=<name>     # bagian judul target
 paneType=tab|split|window    # tipe panel untuk dibuka
 
 inline             # tambahkan di awal tanpa baris baru
@@ -512,6 +514,7 @@ Tambahkan konten di akhir file (bawaan: file aktif).
 file=<name>        # nama file
 path=<path>        # path file
 content=<text>     # (required) konten untuk ditambahkan
+heading=<name>     # bagian judul target
 
 inline             # tambahkan tanpa baris baru
 ```
@@ -524,6 +527,7 @@ Tambahkan konten di awal setelah metadata awal (bawaan: file aktif).
 file=<name>        # nama file
 path=<path>        # path file
 content=<text>     # (required) konten untuk ditambahkan di awal
+heading=<name>     # bagian judul target
 
 inline             # tambahkan di awal tanpa baris baru
 ```

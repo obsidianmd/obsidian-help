@@ -72,7 +72,8 @@ Din cauza limitelor de rată ale API-ului Notion, importul spațiilor de lucru m
 
 Din cauza limitărilor API-ului Notion, unele date nu sunt disponibile sau nu pot fi convertite:
 
-- Este importată doar vizualizarea principală pentru fiecare bază de date.
+- Vizualizările bazelor de date altele decât cele de tip board nu sunt importate, iar board-urile nu își păstrează filtrele, sortările sau sub-grupurile.
+- Pe un board grupat după o proprietate de tip multi-select, person sau relation, un card cu mai multe valori ajunge într-o singură coloană pentru acea combinație de valori.
 - [Sursele de date conectate](https://developers.notion.com/docs/working-with-databases#additional-types-of-databases) nu sunt importate: *„Notion's API does not currently support linked data sources. When sharing a database with your integration, make sure it contains the original data source!"*
 - Funcțiile `People`: `name()` și `email()`
 - Funcțiile `Text`: `style()` și `unstyle()`
@@ -80,7 +81,7 @@ Din cauza limitărilor API-ului Notion, unele date nu sunt disponibile sau nu po
 În plus, Importer va face următoarele modificări:
 
 - Paginile fără pagini sau baze de date subordonate vor fi importate ca `[nume-fișier].md` în loc de `[nume-fișier]/[nume-fișier].md`.
-- Bazele de date sunt întotdeauna reprezentate ca directoare numite `[nume bază de date]`, cu un fișier `[nume bază de date].base` în interior.
+- Bazele de date sunt întotdeauna reprezentate ca directoare numite `[nume bază de date]`, cu un fișier `[nume bază de date].base` în interior. Baza conține o vizualizare tabel cu fiecare proprietate și, în Obsidian 1.14 și versiunile ulterioare, o [[vizualizare Kanban]] pentru fiecare board Notion, grupată după aceeași proprietate.
 
 ## Importul fișierelor Notion (.zip)
 

@@ -16,7 +16,7 @@ Gunakan [[Impor|plugin Importer]] resmi ketika Anda ingin memilih folder dalam i
 
 1. Buka **[[Pengaturan|Pengaturan]] → Plugin komunitas** dan [instal Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Aktifkan plugin Importer.
-3. Buka **Importer** menggunakan [[Palet perintah|Palet perintah]] atau ikon bilah alat.
+3. Buka Importer di Pengaturan atau menggunakan [[Palet perintah|Palet perintah]].
 4. Di bagian **File format**, pilih **Markdown (.md, .zip)**.
 5. Pilih file Markdown individual, folder, atau arsip zip.
 6. Tinjau folder yang terdeteksi, opsi output, templat yang dihasilkan, dan contoh pratinjau.

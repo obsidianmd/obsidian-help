@@ -19,3 +19,9 @@ Importer er en offisiell [[Community-utvidelser|Community-utvidelse]] laget av O
 ![[Importer notater#Importer fra andre apper og filformater]]
 
 ![[Importer notater#Flere formater]]
+
+## Importer-maler
+
+Importer lar deg definere [[Importer-maler|maler]] som styrer hvordan notatene dine importeres fra andre apper. Dette betyr at du kan endre tittelen, egenskapene og innholdet i notater du importerer.
+
+Maler støtter variabler og de samme [[Obsidian Web Clipper/Filtre|filtrene]] og [[Obsidian Web Clipper/Logikk|mallogikken]] som [[Introduksjon til Obsidian Web Clipper|Web Clipper]].

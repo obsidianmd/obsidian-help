@@ -11,7 +11,7 @@ Em dispositivos móveis, o Obsidian é atualizado através da loja de aplicaçõ
 
 Abra **[[Definições]] → Geral**.
 
-Pode encontrar as versões atuais da aplicação e do instalador no topo da página.
+Pode encontrar as versões atuais da aplicação e do instalador no topo da página. Quando um instalador mais recente estiver disponível, o Obsidian apresenta um aviso com uma ligação para transferência. Siga as [[#Atualizações do instalador|instruções de atualização do instalador]] para o instalar.
 
 ![[application-installer-current-version.png#interface]]
 

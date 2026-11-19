@@ -50,8 +50,6 @@ Aby utworzyć łącze w trybie edycji, użyj jednego z poniższych sposobów:
 - Zaznacz tekst w edytorze, a następnie wpisz `[[`.
 - Otwórz [[Lista poleceń|paletę poleceń]], a następnie wybierz Łącze wewnętrzne.
 
-![[Okno szybkiego wyboru#^search-autocomplete-large]]
-
 Chociaż możesz tworzyć łącza do dowolnych [[Obsługiwane formaty plików|obsługiwanych formatów plików]], łącza do formatów innych niż Markdown muszą zawierać rozszerzenie pliku, na przykład `[[Figure 1.png]]`.
 
 > [!tip] Dodanie wykrzyknika (!) przed łączem wewnętrznym pozwala osadzić powiązaną zawartość. Więcej szczegółów znajdziesz w [[Osadzanie plików]].
@@ -131,7 +129,7 @@ Możesz także wyszukiwać bloki do linkowania z całego sejfu, używając skła
 > [!info]- Zrzut ekranu wyszukiwania łącza do bloku 
 > ![[link-block-heading.png#interface]]
 
-Możesz także tworzyć czytelne identyfikatory bloków, dodając spację, a następnie daszek (`^`) i identyfikator. Identyfikatory bloków mogą składać się wyłącznie z liter łacińskich, cyfr i myślników.
+Możesz także tworzyć czytelne identyfikatory bloków, dodając spację, a następnie daszek (`^`) i identyfikator. Identyfikatory bloków mogą składać się wyłącznie z liter A-Z i a-z, cyfr 0-9 oraz myślników.
 
 Na przykład dodaj `^quote-of-the-day` na końcu bloku:
 

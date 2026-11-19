@@ -12,7 +12,7 @@ Highlights can be saved to Obsidian using the extension. You can define highligh
 
 ## Use the highlighter
 
-Highlighter can be used on live web pages pages or [[Reader]]. In the Reader view, creating a text selection gives you the option to highlight it.
+Highlighter can be used on live web pages or [[Reader]]. In the Reader view, creating a text selection gives you the option to highlight it.
 
 You can also automatically add selections to your highlights, by activating the highlighter:
 

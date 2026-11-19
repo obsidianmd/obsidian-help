@@ -16,6 +16,7 @@ Az Obsidian asztali alkalmazásban a munkaterület a következőket tartalmazza:
     - [[Oldalsáv#Lapok|Oldalsáv lapok]]
 - [[Lapok#Lapok és ablakok rendezése|Lapcsoportok]] a központi tartalmi területen (függőlegesen vagy vízszintesen feloszthatók)
     - [[Lapok]]
+    - [[További lehetőségek menü]] minden jegyzet jobb felső sarkában
 - [[Állapotsor]] a jobb alsó sarokban
 
 ## Mobil
@@ -23,6 +24,7 @@ Az Obsidian asztali alkalmazásban a munkaterület a következőket tartalmazza:
 Az Obsidian mobilalkalmazásban a munkaterület a következőket tartalmazza:
 
 - [[Lapok]], amelyeket a [[Mobilalkalmazás#Navigációs sáv|Navigációs sáv]] lapszámlálójából kezelhet
+- [[További lehetőségek menü#Mobil|További lehetőségek menü]] az aktív jegyzethez
 - [[Oldalsáv|Oldalsávok]] (bal és jobb csúsztatási gesztusokkal nyithatók meg)
 - [[Mobilalkalmazás#Navigációs sáv|Navigációs sáv]] a képernyő alján
 - [[Szalag|Szalagmenü]] a Navigációs sávban (testreszabható műveleteket tartalmaz)

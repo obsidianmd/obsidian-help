@@ -1,6 +1,6 @@
 ---
 permalink: formulas
-description: Le formule consentono di creare proprietà calcolate utilizzando dati da altre proprietà. È possibile eseguire calcoli, manipolare testo, lavorare con le date e altro ancora.
+description: 'Le formule consentono di creare proprietà calcolate utilizzando dati da altre proprietà. È possibile eseguire calcoli, manipolare testo, lavorare con le date e altro ancora.'
 aliases:
   - Formulas
 ---
@@ -15,6 +15,7 @@ Le formule possono aiutarti a:
 - **Lavorare con le date**, calcolare differenze temporali, formattare date o determinare scadenze.
 - **Applicare logica**, utilizzare istruzioni condizionali per mostrare valori diversi.
 - **Elaborare elenchi**, filtrare, ordinare, mappare o aggregare dati da elenchi.
+- **Utilizzare note collegate**, cercare o riepilogare proprietà dalle note a cui una nota è collegata. Vedi [[#Utilizzare proprietà dalle note collegate]].
 
 ## Creare una proprietà formula
 
@@ -92,6 +93,59 @@ Le funzioni eseguono operazioni sui valori. Le funzioni disponibili dipendono da
 - `file.name.lower()` per convertire in minuscolo.
 - `tags.contains("urgent")` per verificare se l'elenco delle etichette contiene un valore.
 - `due_date.format("YYYY-MM-DD")` per formattare una data.
+
+## Utilizzare proprietà dalle note collegate
+
+Le formule possono leggere le proprietà dalle note a cui una nota è collegata. Puoi cercare un singolo valore da una nota collegata, oppure riepilogare i valori da più note collegate in un totale, un conteggio o un elenco.
+
+Per leggere le proprietà di una nota collegata, trasforma il collegamento in un file con `asFile()`, quindi usa `properties`. I collegamenti memorizzati nelle proprietà, come `project: "[[Redesign sito web]]"`, funzionano direttamente in questo modo.
+
+> [!warning] I risultati si aggiornano quando la nota nella riga cambia
+> Se modifichi solo una nota collegata, le ricerche e i riepiloghi nella base potrebbero non aggiornarsi fino alla riapertura della base.
+
+### Cercare un valore
+
+Mostrare lo `status` della nota collegata nella proprietà `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Se la proprietà può contenere un singolo collegamento o un elenco di collegamenti, racchiudila in `list()` e prendi il primo collegamento:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Riepilogare valori
+
+Sommare le `hours` di ogni nota collegata nella proprietà `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Contare le note collegate il cui `status` non è "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Elencare gli stati delle note collegate, senza duplicati:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Riepilogare valori dalle note che collegano qui
+
+Per riepilogare i valori dalle note che collegano a una nota, come attività che collegano ciascuna al proprio progetto, usa `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` è lento nei vault di grandi dimensioni. Quando possibile, memorizza i collegamenti nella nota stessa e riepilogali con `map()` e `reduce()`, come mostrato sopra.
 
 ## Esempi di formule
 

@@ -148,6 +148,23 @@ La mise en forme peut être forcée à s'afficher en texte brut en ajoutant une 
 \**Cette ligne sera en italique et affichera les astérisques*\*
 ```
 
+### Couleurs de surlignage
+
+Le surlignage prend en charge six couleurs. Ajoutez un émoji de couleur immédiatement après les `==` d'ouverture :
+
+| Couleur | Exemple               |
+| ------- | --------------------- |
+| Rouge   | `==🔴Important==`     |
+| Orange  | `==🟠À suivre==`      |
+| Jaune   | `==🟡À retenir==`     |
+| Vert    | `==🟢Terminé==`       |
+| Bleu    | `==🔵Référence==`     |
+| Violet  | `==🟣Idée==`          |
+
+Sans émoji de couleur, le surlignage utilise la couleur de surlignage par défaut de votre thème.
+
+Vous pouvez également choisir une couleur depuis le menu de mise en forme. Taper `==` dans l'éditeur suggère des couleurs de surlignage. En [[Vues et mode d'édition#Aperçu en direct|aperçu en direct]], placer le curseur à l'intérieur d'un surlignage affiche un échantillon de couleur. Sélectionnez l'échantillon pour changer la couleur.
+
 ## Liens internes
 
 Obsidian prend en charge deux formats pour les [[Liens internes|liens internes]] entre notes :
@@ -478,6 +495,8 @@ Utilisez la [[Vue des notes de bas de page]] pour voir toutes les notes de bas d
 
 Vous pouvez ajouter des commentaires en entourant le texte avec `%%`. Les commentaires ne sont visibles qu'en mode d'édition.
 
+La syntaxe `%%` est spécifique à Obsidian. Pour masquer du texte dans d'autres applications, utilisez un commentaire HTML, `<!-- -->`. Consultez [[Obsidian Flavored Markdown]] pour comprendre en quoi la syntaxe d'Obsidian diffère du Markdown standard.
+
 ```md
 Ceci est un commentaire %%en ligne%%.
 
@@ -487,6 +506,20 @@ Ceci est un commentaire bloc.
 Les commentaires blocs peuvent s'étendre sur plusieurs lignes.
 %%
 ```
+
+Un commentaire en ligne peut apparaître n'importe où sur une ligne, y compris dans un entête, un élément de liste ou du texte en gras.
+
+Un commentaire bloc commence lorsqu'une ligne débute par `%%`, et se termine au prochain `%%`. Un commentaire bloc peut inclure des lignes vides et du Markdown, comme des entêtes et des listes. Obsidian masque tout cela en mode lecture.
+
+Le texte après le `%%` de fermeture reste visible, et Obsidian en affiche le Markdown. Par exemple, `%%commentaire%% _italique_` ne laisse que le mot _italique_, en italique.
+
+> [!warning]+ Fermez toujours les commentaires blocs
+> Si vous commencez un commentaire bloc sans jamais le fermer, le mode lecture masque le reste de la note.
+
+> [!info]+ Gardez les marqueurs de commentaire simples
+> Gardez les deux marqueurs d'un commentaire en ligne sur une seule ligne, et commencez un commentaire bloc au début d'une ligne.
+
+Pour afficher `%%` comme du texte, placez-le dans un bloc de code en ligne, ou ajoutez une barre oblique inverse devant chaque marqueur.
 
 ## Échapper la syntaxe Markdown
 

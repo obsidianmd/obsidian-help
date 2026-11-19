@@ -7,6 +7,8 @@ Kredit Obsidian adalah jenis kredit prabayar yang dapat dibeli terlebih dahulu d
 
 Kredit Obsidian akan diterapkan sebelum pembayaran jatuh tempo, termasuk perpanjangan otomatis. Kredit Obsidian **tidak** dapat dikembalikan sesuai [[Kebijakan pengembalian dana|Kebijakan pengembalian dana]] kami.
 
+Kredit Obsidian tidak kedaluwarsa selama Anda mempertahankan akun Anda.
+
 ## Tambah kredit
 
 1. Masuk ke [akun Obsidian Anda](https://obsidian.md/account/billing).

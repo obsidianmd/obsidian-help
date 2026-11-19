@@ -11,6 +11,7 @@ Du kannst [[Community-Erweiterungen]] und [[Themen]] mit Typescript und CSS entw
 
 Obsidian entwickelt und pflegt mehrere Open-Source-Projekte. Du kannst Pull Requests mit Fehlerbehebungen und Verbesserungen an die folgenden GitHub-Repositories einreichen:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), der Renderer, den Obsidian zum Zeichnen von Mermaid-Diagrammen verwendet.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), ein offenes Dateiformat für unendliche Canvas-Daten.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), eine Template-Sprache zur Erzeugung von Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), eine Erweiterung, die Daten aus einer Vielzahl von Formaten in Markdown-Klartextdateien konvertiert.

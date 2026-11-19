@@ -29,25 +29,20 @@ Quan editeu una nota, veureu una fila d'icones a la part inferior de l'aplicaci�
 
 ### Personalitzar la barra d'eines mòbil
 
-A la barra d'eines mòbil, toqueu **Configura la barra d'eines mòbil** ![[lucide-wrench.svg#icon]] per obrir la interfície de personalització.
+A la barra d'eines mòbil, seleccioneu **Configura la barra d'eines mòbil** ![[lucide-wrench.svg#icon]] per obrir la seva configuració.
 
-Alternativament, podeu fer-ho a la Configuració.
+També podeu obrir **[[Configuració]] → Interfície → Configura la barra d'eines mòbil**.
 
-1. Obriu la Configuració.
-2. Escolliu **Mòbil**.
-3. A **Gestiona les opcions de la barra d'eines**, afegiu, elimineu o reordeneu les opcions disponibles.
+A **Gestiona les opcions de la barra d'eines**, utilitzeu les nanses per reordenar les accions i els botons d'eliminar per treure-les. Seleccioneu una acció a **Més opcions de la barra d'eines** per afegir-la.
 
 ### Afegir una ordre a la barra d'eines mòbil
 
-Per defecte, les opcions disponibles per afegir a la barra d'eines són opcions d'edició com "Afegeix un enllaç intern" o "Afegeix una etiqueta".
+A més de les accions d'edició, podeu afegir ordres globals com ara **Canviar tema**.
 
-A més a més, podeu afegir ordres globals com "Canviar tema".
-
-1. Trobeu **Gestiona les opcions de la barra d'eines** a **[[Configuració]]** → **Mòbil**.
-2. Desplaceu-vos fins al final, trobeu **Afegir ordre global**.
-3. Escriviu el nom de l'ordre que voleu afegir.
-4. Seleccioneu l'ordre que voleu afegir.
-5. La nova ordre s'afegeix al final de la barra d'eines.
+1. Obriu **[[Configuració]] → Interfície → Configura la barra d'eines mòbil**.
+2. A **Gestiona les opcions de la barra d'eines**, seleccioneu **Afegeix una ordre...**.
+3. Cerqueu l'ordre que voleu afegir.
+4. Seleccioneu l'ordre per afegir-la al final de la barra d'eines.
 
 ## Acció ràpida
 
@@ -58,7 +53,7 @@ L'acció ràpida obre per defecte la [[Paleta d'ordres]].
 ### Personalitzar l'acció ràpida
 
 1. Obriu la Configuració.
-2. A **Opcions**, escolliu **Barra d'eines**.
+2. Escolliu **Interfície**.
 3. A **Configura l'Acció Ràpida mòbil**, toqueu **Configurar**.
 4. Escriviu el nom de l'ordre.
 5. Seleccioneu l'ordre que voleu establir.

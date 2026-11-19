@@ -16,7 +16,7 @@ Du behöver det officiella Obsidian-tillägget [[Importerare]], som du kan [inst
 1. Öppna **[[Inställningar]]**.
 2. Gå till **Gemenskapstillägg** och [installera Importerare](obsidian://show-plugin?id=obsidian-importer).
 3. Aktivera Importerare-tillägget.
-4. Öppna **Importerare**-tillägget med kommandopaletten eller ribbon-ikonen.
+4. Öppna Importerare i Inställningar eller med [[Kommandopalett|kommandopaletten]].
 5. Under **Formatering** välj **CSV (.csv).**
 6. Välj platsen för din CSV-fil.
 7. Välj **Importera** för att konfigurera hur data i din CSV-fil kommer att konverteras till anteckningar med [[Egenskaper]].

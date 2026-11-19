@@ -201,7 +201,25 @@ views:
 - `name` er visningsnavnet, og kan brukes til å definere standardvisningen.
 - `filters` er nøyaktig det samme som beskrevet ovenfor, men gjelder kun for visningen.
 - `groupBy` angir en egenskap og sorteringsretning. Verdien av den angitte egenskapen for hver rad brukes til å plassere raden i grupper.
+- `groupOrder` angir rekkefølgen og synligheten til grupper. Hvis den er til stede, vises kun grupper med verdier som er oppført, i den rekkefølgen. En tom liste skjuler alle grupper. Fjern `groupOrder` for å vise alle grupper i rekkefølgen definert av `groupBy`.
 - `summaries` tilordner egenskapsnavn til et navngitt sammendrag. Sammendrag utfører en aggregering på egenskapen på tvers av alle rader.
+
+For eksempel viser denne visningen kun gruppene Planned, In progress og Done, i den rekkefølgen:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Bruk `null` i `groupOrder` for å inkludere filer som ikke har noen verdi for den grupperte egenskapen.
 
 [[Visninger]] kan legge til ytterligere data for å lagre informasjon som trengs for å opprettholde tilstand eller gjengi riktig, men utvidelsesforfattere bør passe på å ikke bruke nøkler som allerede er i bruk av kjerne-Bases-utvidelsen. Som et eksempel kan en tabellvisning bruke dette til å begrense antall rader eller velge hvilken kolonne som brukes til å sortere rader og i hvilken retning. En annen visningstype som et kart kan bruke dette til å tilordne hvilken egenskap i notatet som tilsvarer breddegrad og lengdegrad, og hvilken egenskap som skal vises som nåletittel.
 
@@ -287,7 +305,7 @@ Den globale [[Funksjoner|funksjonen]] `today()` kan brukes til å hente gjeldend
 - `now() + "1 day"` returnerer et tidspunkt nøyaktig 24 timer fra utførelsestidspunktet.
 - `file.mtime > now() - "1 week"` returnerer `true` hvis filen ble endret i løpet av den siste uken.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returnerer et Dato-objekt som representerer `2025-01-01 04:03:00`.
-- Trekk to datoer fra hverandre for å få forskjellen i millisekunder mellom dem, for eksempel `now() - file.ctime`.
+- Trekk to datoer fra hverandre for å få en varighet, for eksempel `note.release_date - today()`.
 - For å hente datodelen av en Dato med klokkeslett, bruk `datetime.date()`.
 - For å formatere et Dato-objekt, bruk `format()`-funksjonen, for eksempel `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Datoer representerer en bestemt dato, eller en dato og et klokkeslett avhengig a
 
 - For å konstruere en dato, bruk `date`-funksjonen, for eksempel `date("2025-01-01 12:00:00")`
 - For å endre en dato, legg til eller fjern en varighet, for eksempel `now() + "1 hour"` eller `today() + "7d"`
-- Sammenlign datoer med sammenligningsoperatorer (f.eks. `>` eller `<`) og aritmetiske operatorer (for eksempel returnerer `(now() + "1d") - now()` `86400000` millisekunder.)
+- Sammenlign datoer med sammenligningsoperatorer, for eksempel `>` eller `<`.
+- Trekk én dato fra en annen for å få en varighet, for eksempel `note.release_date - today()`.
 - For å trekke ut deler av en dato, bruk tilgjengelige felt (`now().hour`), eller en bekvemmelighetsfunksjon (`now.time()`).
 - Mange andre [[Funksjoner|felt og funksjoner]] er tilgjengelige på dato-objekter.
 
@@ -350,7 +369,7 @@ Datoer representerer en bestemt dato, eller en dato og et klokkeslett avhengig a
 
 [[Lenke notater|Wiki-lenker]] i [[Egenskaper|startmetadata-egenskaper]] gjenkjennes automatisk som Lenke-objekter. Lenker gjengis som en klikkbar lenke i [[Visninger|visningen]].
 
-- For å konstruere en lenke, bruk den globale `link`-[[Funksjoner|funksjonen]], for eksempel `link("filename")` eller `link("https://obsidian.md")`.
+- For å konstruere en lenke, bruk den globale `link`-[[Funksjoner|funksjonen]], for eksempel `link("filename")`.
 - Du kan opprette en lenke fra en hvilken som helst streng, for eksempel `link(file.ctime.date().toString())`.
 - For å angi visningsteksten, pass inn en valgfri streng eller et ikon som en andre parameter, for eksempel `link("filename", "display")` eller `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Lenker kan sammenlignes med `==` og `!=`. De er likeverdige så lenge de peker t
 Lenker kan sammenlignes med filer som `file` eller `this`. De vil være like hvis lenken peker til filen. For eksempel `author == this`.
 
 Lenker kan også sjekkes i listeinnhold, for eksempel `authors.contains(this)`.
+
+### URL-er
+
+URL-er i [[Egenskaper|startmetadata-egenskaper]] gjenkjennes automatisk som URL-objekter. URL-er gjengis som en klikkbar lenke i [[Visninger|visningen]].
+
+- For å konstruere en URL, bruk den globale `link`-[[Funksjoner|funksjonen]], for eksempel `link("https://obsidian.md")`.
+- For å angi visningsteksten, pass inn en valgfri streng som en andre parameter, for eksempel `link("https://obsidian.md", "Obsidian")`.

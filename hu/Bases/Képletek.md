@@ -13,6 +13,7 @@ A képletek a következőkben segíthetnek:
 - **Dátumokkal való munka**, időkülönbségek kiszámítása, dátumok formázása vagy határidők meghatározása.
 - **Logika alkalmazása**, feltételes utasítások használata különböző értékek megjelenítésére.
 - **Listák feldolgozása**, listadatok szűrése, rendezése, leképezése vagy összesítése.
+- **Hivatkozott jegyzetek használata**, tulajdonságok kikeresése vagy összesítése azon jegyzetekből, amelyekre egy jegyzet hivatkozik. Lásd: [[#Tulajdonságok használata hivatkozott jegyzetekből]].
 
 ## Képlet tulajdonság létrehozása
 
@@ -90,6 +91,59 @@ A függvények műveleteket végeznek értékeken. Az elérhető függvények az
 - `file.name.lower()` kisbetűssé alakítás.
 - `tags.contains("urgent")` annak ellenőrzése, hogy a címkelista tartalmaz-e egy értéket.
 - `due_date.format("YYYY-MM-DD")` dátum formázása.
+
+## Tulajdonságok használata hivatkozott jegyzetekből
+
+A képletek képesek olvasni azon jegyzetek tulajdonságait, amelyekre egy jegyzet hivatkozik. Kikereshet egy értéket egy hivatkozott jegyzetből, vagy összesíthet értékeket több hivatkozott jegyzetből összegként, darabszámként vagy listaként.
+
+Egy hivatkozott jegyzet tulajdonságainak olvasásához alakítsa a hivatkozást fájllá az `asFile()` segítségével, majd használja a `properties`-t. A tulajdonságokban tárolt hivatkozások, például `project: "[[Website redesign]]"`, közvetlenül így működnek.
+
+> [!warning] Az eredmények akkor frissülnek, amikor a sorban lévő jegyzet változik
+> Ha csak egy hivatkozott jegyzetet szerkeszt, a kikeresések és összesítések a bázisban nem feltétlenül frissülnek, amíg újra meg nem nyitja a bázist.
+
+### Érték kikeresése
+
+A `project` tulajdonságban hivatkozott jegyzet `status` értékének megjelenítése:
+
+```js
+project.asFile().properties.status
+```
+
+Ha a tulajdonság egy hivatkozást vagy hivatkozások listáját is tartalmazhatja, csomagolja be `list()`-be és vegye az első hivatkozást:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Értékek összesítése
+
+A `tasks` tulajdonságban hivatkozott összes jegyzet `hours` értékeinek összeadása:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Azon hivatkozott jegyzetek számlálása, amelyeknek a `status` értéke nem „Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+A hivatkozott jegyzetek állapotainak listázása, ismétlődések nélkül:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Értékek összesítése az ide hivatkozó jegyzetekből
+
+Az adott jegyzetre hivatkozó jegyzetek értékeinek összesítéséhez – például olyan feladatokéhoz, amelyek mindegyike a projektjére hivatkozik – használja a `file.backlinks` tulajdonságot:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+A `file.backlinks` lassú nagy széfekben. Ha lehetséges, tárolja a hivatkozásokat magában a jegyzetben, és összesítse azokat a `map()` és `reduce()` függvényekkel, ahogyan fent látható.
 
 ## Képlet példák
 

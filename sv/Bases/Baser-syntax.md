@@ -201,7 +201,25 @@ views:
 - `name` är visningsnamnet och kan användas för att definiera standardvyn.
 - `filters` är exakt desamma som beskrivs ovan, men gäller bara för vyn.
 - `groupBy` anger en egenskap och sorteringsriktning. Värdet på den angivna egenskapen för varje rad används för att placera raden i grupper.
+- `groupOrder` anger ordningen och synligheten för grupper. Om den finns visas bara grupper vars värden listas, i den ordningen. En tom lista döljer alla grupper. Ta bort `groupOrder` för att visa alla grupper i den ordning som definieras av `groupBy`.
 - `summaries` mappar egenskapsnamn till en namngiven sammanfattning. Sammanfattningar utför en aggregering på egenskapen över alla rader.
+
+Till exempel visar denna vy bara grupperna Planned, In progress och Done, i den ordningen:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Använd `null` i `groupOrder` för att inkludera filer som inte har något värde för den grupperade egenskapen.
 
 [[Vyer]] kan lägga till ytterligare data för att lagra all information som behövs för att bibehålla tillstånd eller rendera korrekt, men tilläggsförfattare bör se till att inte använda nycklar som redan används av kärntillägget Bases. Som exempel kan en tabellvy använda detta för att begränsa antalet rader eller för att välja vilken kolumn som används för att sortera rader och i vilken riktning. En annan vytyp som en karta kan använda detta för att mappa vilken egenskap i anteckningen som motsvarar latitud och longitud och vilken egenskap som ska visas som nåltitel.
 
@@ -287,7 +305,7 @@ Den globala [[Funktioner|funktionen]] `today()` kan användas för att hämta ak
 - `now() + "1 day"` returnerar en datumtid exakt 24 timmar från exekveringstillfället.
 - `file.mtime > now() - "1 week"` returnerar `true` om filen ändrades under den senaste veckan.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` returnerar ett Date-objekt som representerar `2025-01-01 04:03:00`.
-- Subtrahera två datum för att få millisekundskillnaden mellan dem, till exempel `now() - file.ctime`.
+- Subtrahera två datum för att få en varaktighet, till exempel `note.release_date - today()`.
 - För att hämta datumdelen av ett Date med tid, använd `datetime.date()`.
 - För att formatera ett Date-objekt, använd funktionen `format()`, till exempel `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Datum representerar ett specifikt datum, eller ett datum och tid beroende på fu
 
 - För att konstruera ett datum, använd funktionen `date`, till exempel `date("2025-01-01 12:00:00")`
 - För att modifiera ett datum, addera eller subtrahera en varaktighet, till exempel `now() + "1 hour"` eller `today() + "7d"`
-- Jämför datum med jämförelseoperatorer (t.ex. `>` eller `<`) och aritmetiska operatorer (till exempel returnerar `(now() + "1d") - now()` `86400000` millisekunder.)
+- Jämför datum med jämförelseoperatorer, till exempel `>` eller `<`.
+- Subtrahera ett datum från ett annat för att få en varaktighet, till exempel `note.release_date - today()`.
 - För att extrahera delar av ett datum, använd de tillgängliga fälten (`now().hour`), eller en bekvämlighetsfunktion (`now.time()`).
 - Många andra [[Funktioner|fält och funktioner]] är tillgängliga på datumobjekt.
 
@@ -350,7 +369,7 @@ Datum representerar ett specifikt datum, eller ett datum och tid beroende på fu
 
 [[Länka anteckningar|Wikilänkar]] i [[Egenskaper|frontmatter-egenskaper]] identifieras automatiskt som länkobjekt. Länkar renderas som en klickbar länk i [[Vyer|vyn]].
 
-- För att konstruera en länk, använd den globala `link`-[[Funktioner|funktionen]], till exempel `link("filename")` eller `link("https://obsidian.md")`.
+- För att konstruera en länk, använd den globala `link`-[[Funktioner|funktionen]], till exempel `link("filename")`.
 - Du kan skapa en länk från valfri sträng, till exempel `link(file.ctime.date().toString())`.
 - För att ställa in visningstexten, skicka in en valfri sträng eller ikon som en andra parameter, till exempel `link("filename", "display")` eller `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Länkar kan jämföras med `==` och `!=`. De är likvärdiga så länge de pekar
 Länkar kan jämföras med filer som `file` eller `this`. De är lika om länken löser sig till filen. Till exempel `author == this`.
 
 Länkar kan också kontrolleras i listinnehållskontroll, till exempel `authors.contains(this)`.
+
+### URL:er
+
+URL:er i [[Egenskaper|frontmatter-egenskaper]] identifieras automatiskt som URL-objekt. URL:er renderas som en klickbar länk i [[Vyer|vyn]].
+
+- För att konstruera en URL, använd den globala `link`-[[Funktioner|funktionen]], till exempel `link("https://obsidian.md")`.
+- För att ställa in visningstexten, skicka in en valfri sträng som en andra parameter, till exempel `link("https://obsidian.md", "Obsidian")`.

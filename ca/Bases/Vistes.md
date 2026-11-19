@@ -11,11 +11,14 @@ A la part superior d'una base hi ha una barra d'eines que us permet interactuar 
 
 - ![[lucide-table.svg#icon]] **Menú de vistes** — crear, editar i canviar de vista.
 - **Resultats** — limitar, copiar i exportar fitxers.
-- ![[lucide-arrow-up-down.svg#icon]] **Ordena** — ordena i agrupa fitxers.
+- ![[lucide-arrow-up-down.svg#icon]] **Ordena** — ordena fitxers.
+- ![[lucide-stretch-horizontal.svg#icon]] **Agrupa** — agrupa fitxers i gestiona l'ordre i la visibilitat dels grups.
 - ![[lucide-list-filter.svg#icon]] **Filtre** — filtra fitxers.
 - ![[lucide-list.svg#icon]] **Propietats** — escull les propietats a mostrar i crea [[Fórmules|fórmules]].
 - ![[lucide-search.svg#icon]] **Cerca** — cerca elements utilitzant les seves propietats mostrades.
 - ![[lucide-plus.svg#icon]] **Nou** — crea un fitxer nou a la vista actual.
+
+Als telèfons, **Resultats**, **Ordena**, ![[lucide-stretch-horizontal.svg#icon]] **Agrupa** i **Propietats** es troben dins del menú ![[lucide-sliders-horizontal.svg#icon]] **Visualització**.
 
 ## Afegir i canviar de vista
 
@@ -37,7 +40,7 @@ Alternativament, feu *clic dret* al nom de la vista a la barra d'eines de la bas
 
 ## Disposició
 
-Les vistes es poden mostrar amb diferents disposicions, incloent ![[lucide-table.svg#icon]] **taula**, ![[lucide-list.svg#icon]] **llista**, ![[lucide-layout-grid.svg#icon]] **targetes**, ![[lucide-kanban-square.svg#icon]] **Kanban** i ![[lucide-map.svg#icon]] **mapa**. Es poden afegir disposicions addicionals mitjançant [[Connectors de la comunitat]]. Algunes disposicions encara s'estan desenvolupant i requereixen [[Versions d'accés anticipat|versions d'accés anticipat]] d'Obsidian.
+Les vistes es poden mostrar amb diferents disposicions, incloent ![[lucide-table.svg#icon]] **taula**, ![[lucide-list.svg#icon]] **llista**, ![[lucide-layout-grid.svg#icon]] **targetes**, ![[lucide-kanban-square.svg#icon]] **Kanban** i ![[lucide-map.svg#icon]] **mapa**. Es poden afegir disposicions addicionals mitjançant [[Connectors de la comunitat]].
 
 | Disposició                    | Descripció                                                                                                                           | Versió de l'aplicació |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------- |
@@ -83,16 +86,16 @@ Feu clic al botó de codi ![[lucide-code-xml.svg#icon]] per utilitzar l'editor d
 
 ## Ordenar i agrupar resultats
 
-Obriu el menú ![[lucide-arrow-up-down.svg#icon]] **Ordena** per ordenar i agrupar els resultats d'una vista.
+Utilitzeu el menú ![[lucide-arrow-up-down.svg#icon]] **Ordena** per organitzar els resultats, i el menú ![[lucide-stretch-horizontal.svg#icon]] **Agrupa** per organitzar elements similars en seccions.
 
 Podeu organitzar els resultats per una o més propietats en ordre ascendent o descendent. Això facilita llistar notes per nom, darrera hora d'edició o qualsevol altra propietat — incloent fórmules.
 
-També podeu agrupar els resultats per una propietat per organitzar elements similars en seccions visualment diferenciades. Actualment, Obsidian permet agrupar per una sola propietat.
+Cada vista pot tenir diverses ordenacions, però només pot agrupar els resultats per una sola propietat.
 
 ### Afegir una ordenació
 
 1. Obriu el menú ![[lucide-arrow-up-down.svg#icon]] **Ordena** a la part superior de la vista.
-2. Escolliu la propietat per la qual voleu ordenar (o agrupar).
+2. Seleccioneu **Afegeix ordenació**, després escolliu la propietat per la qual voleu ordenar.
 3. Si teniu múltiples ordenacions, arrossegueu-les amunt o avall utilitzant el mànec ![[lucide-grip-vertical.svg#icon]] per canviar-ne la prioritat.
 
 Les opcions per ordenar els resultats depenen del tipus de propietat:
@@ -104,7 +107,29 @@ Les opcions per ordenar els resultats depenen del tipus de propietat:
 ### Eliminar una ordenació
 
 1. Obriu el menú ![[lucide-arrow-up-down.svg#icon]] **Ordena** a la part superior de la vista.
-2. Feu clic al botó de paperera ![[lucide-trash-2.svg#icon]] al costat de l'ordenació o agrupació que voleu eliminar.
+2. Seleccioneu el botó de paperera ![[lucide-trash-2.svg#icon]] al costat de l'ordenació que voleu eliminar.
+
+### Agrupar resultats
+
+1. Obriu el menú ![[lucide-stretch-horizontal.svg#icon]] **Agrupa** a la part superior de la vista. Als telèfons, obriu **Visualització → Agrupa**.
+2. Sota **Agrupa per**, escolliu una propietat.
+3. Escolliu un ordre automàtic, o seleccioneu **Manual** per ordenar els grups vosaltres mateixos.
+
+Per deixar d'agrupar els resultats, seleccioneu el botó de paperera ![[lucide-trash-2.svg#icon]] al costat de la propietat d'agrupació.
+
+### Reordenar, amagar i afegir grups
+
+Al menú ![[lucide-stretch-horizontal.svg#icon]] **Agrupa**, seleccioneu **Manual** al menú d'ordre per gestionar quins grups apareixen i en quin ordre.
+
+- Marqueu un grup per mostrar-lo, o desmarqueu-lo per amagar-lo. Seleccioneu **Mostra-ho tot** o **Amaga-ho tot** per canviar la visibilitat de tots els grups.
+- Arrossegueu el mànec ![[lucide-grip-vertical.svg#icon]] al costat d'un grup per canviar-ne la posició.
+- Seleccioneu **Afegeix un grup** i introduïu un valor per mostrar un grup nou i buit. Això no crea una nota ni modifica les notes existents.
+
+Per restaurar l'ordre automàtic dels grups i mostrar-los tots, escolliu un ordre automàtic en lloc de **Manual**.
+
+### Contraure grups
+
+A les disposicions de [[Vista de taula|taula]], [[Vista de targetes|targetes]] i [[Vista de llista|llista]], seleccioneu l'encapçalament d'un grup per contraure'l o expandir-lo. Contraure un grup amaga temporalment els seus elements sense canviar-ne les propietats.
 
 ## Limitar, copiar i exportar resultats
 

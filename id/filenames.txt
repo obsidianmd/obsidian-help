@@ -154,6 +154,10 @@ translation=Format file yang diterima
 original=Financial contributions
 translation=Kontribusi finansial
 
+[file.find-and-replace]
+original=Find and replace
+translation=Cari dan Ubah
+
 [file.folding]
 original=Folding
 translation=Melipat
@@ -238,6 +242,10 @@ translation=Impor dari Microsoft OneNote
 original=Import from Roam Research
 translation=Impor dari Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Impor dari Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Template Importer
@@ -286,6 +294,10 @@ translation=Kelola brankas
 original=Mobile app
 translation=Aplikasi seluler
 
+[file.more-options-menu]
+original=More options menu
+translation=Menu opsi lain
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Kursor ganda
@@ -305,6 +317,10 @@ translation=Situs web resmi
 [file.payment]
 original=Introduction to licenses and payment
 translation=Pengantar lisensi dan pembayaran
+
+[file.pdf]
+original=PDFs
+translation=PDF
 
 [file.plugin-security]
 original=Plugin security

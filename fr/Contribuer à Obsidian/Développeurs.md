@@ -12,6 +12,7 @@ Vous pouvez développer des [[Modules complémentaires]] et des [[Thèmes]] en u
 
 Obsidian développe et maintient plusieurs projets open source. Vous pouvez soumettre des pull requests avec des corrections de bugs et des améliorations aux dépôts GitHub suivants :
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), le moteur de rendu qu'Obsidian utilise pour dessiner les diagrammes Mermaid.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), un format de fichier ouvert pour les données de canevas infini.
 - [Knap](https://github.com/obsidianmd/knap) (MIT), un langage de template pour générer du Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), un module qui convertit des données depuis une grande variété de formats en fichiers Markdown en texte brut.

@@ -818,6 +818,22 @@ translation=Ringkasan kustom
 original=Shortcuts
 translation=Pintasan
 
+[heading.bases/Group cards into columns]
+original=Group cards into columns
+translation=Mengelompokkan kartu ke dalam kolom
+
+[heading.bases/Work with cards and columns]
+original=Work with cards and columns
+translation=Bekerja dengan kartu dan kolom
+
+[heading.bases/Hide empty columns]
+original=Hide empty columns
+translation=Sembunyikan kolom kosong
+
+[heading.bases/Column width]
+original=Column width
+translation=Lebar kolom
+
 [heading.formulas/What formulas can do]
 original=What formulas can do
 translation=Apa yang bisa dilakukan rumus
@@ -4118,34 +4134,90 @@ translation=Bilah Samping
 original=Frequently asked questions
 translation=Pertanyaan yang sering diajukan
 
-[heading.bases/views/kanban/Group cards into columns]
-original=Group cards into columns
-translation=Mengelompokkan kartu ke dalam kolom
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Membuka menu
 
-[heading.bases/views/kanban/Work with cards and columns]
-original=Work with cards and columns
-translation=Bekerja dengan kartu dan kolom
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Tampilan dan tata letak
 
-[heading.bases/views/kanban/Settings]
-original=Settings
-translation=Pengaturan
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Kelola catatan
 
-[heading.bases/views/kanban/Hide empty columns]
-original=Hide empty columns
-translation=Sembunyikan kolom kosong
+[heading.more-options-menu/Find]
+original=Find
+translation=Cari
 
-[heading.bases/views/kanban/Column width]
-original=Column width
-translation=Lebar kolom
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Path, riwayat, dan tampilan tertaut
 
-[heading.bases/views/kanban/Image property]
-original=Image property
-translation=Properti gambar
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Komputer Anda
 
-[heading.bases/views/kanban/Image fit]
-original=Image fit
-translation=Penyesuaian gambar
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Menu tab
 
-[heading.bases/views/kanban/Image aspect ratio]
-original=Image aspect ratio
-translation=Rasio aspek gambar
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Seluler
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Membuka cari dan ganti
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Menemukan kecocokan
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Mengganti kecocokan
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=Membuka PDF
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=Menavigasi PDF
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=Mengubah tampilan PDF
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=Mencari di PDF
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Menyalin teks dari PDF
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=Menyematkan PDF
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Mengekspor catatan ke PDF
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Ekspor catatan Anda dari Samsung Notes
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Impor data Samsung Notes Anda ke Obsidian
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Keterbatasan
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Template

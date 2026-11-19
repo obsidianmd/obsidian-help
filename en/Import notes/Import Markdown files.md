@@ -16,7 +16,7 @@ Use the official [[Importer|Importer plugin]] when you want to select folders in
 
 1. Open **[[Settings]] → Community plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Enable the Importer plugin.
-3. Open **Importer** using the [[Command palette]] or ribbon icon.
+3. Open Importer in Settings or using the [[Command palette]].
 4. Under **File format**, select **Markdown (.md, .zip)**.
 5. Choose individual Markdown files, folders, or zip archives.
 6. Review the detected folders, output options, generated template, and preview examples.

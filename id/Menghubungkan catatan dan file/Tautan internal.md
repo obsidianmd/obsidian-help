@@ -53,8 +53,6 @@ Untuk membuat tautan saat dalam tampilan Pengubah, gunakan salah satu cara berik
 - Pilih teks di editor lalu ketik `[[`.
 - Buka [[Palet perintah]] lalu pilih Tambahkan tautan internal.
 
-![[Peralih cepat#^search-autocomplete-large]]
-
 Meskipun Anda dapat menautkan ke semua [[Format file yang diterima]], tautan ke format file selain Markdown perlu menyertakan extension file, seperti `[[Figure 1.png]]`.
 
 > [!tip] Menambahkan awalan tanda seru (!) pada tautan internal memungkinkan Anda menyematkan konten yang ditautkan. Untuk detail lebih lanjut, lihat [[Sematkan file]].
@@ -134,7 +132,7 @@ Anda juga dapat mencari blok untuk ditautkan dari seluruh brankas menggunakan si
 > [!info]- Tangkapan layar pencarian tautan blok
 > ![[link-block-heading.png#interface]]
 
-Anda juga dapat membuat pengidentifikasi blok yang mudah dibaca dengan menambahkan spasi diikuti tanda sisipan (`^`) dan pengidentifikasi. Pengidentifikasi blok hanya dapat terdiri dari huruf Latin, angka, dan tanda hubung.
+Anda juga dapat membuat pengidentifikasi blok yang mudah dibaca dengan menambahkan spasi diikuti tanda sisipan (`^`) dan pengidentifikasi. Pengidentifikasi blok hanya dapat terdiri dari huruf A-Z dan a-z, angka 0-9, dan tanda hubung.
 
 Misalnya, tambahkan `^quote-of-the-day` di akhir blok:
 

@@ -19,3 +19,9 @@ Das Importprogramm ist eine offizielle [[Community-Erweiterungen|Community-Erwei
 ![[Notizen importieren#Aus anderen Apps und Dateiformaten importieren]]
 
 ![[Notizen importieren#Weitere Formate]]
+
+## Importer-Vorlagen
+
+Das Importprogramm ermöglicht es dir, [[Importer-Vorlagen|Vorlagen]] zu definieren, die steuern, wie deine Notizen aus anderen Apps importiert werden. Das bedeutet, du kannst den Titel, die Eigenschaften und den Inhalt der importierten Notizen anpassen.
+
+Vorlagen unterstützen Variablen sowie dieselben [[Obsidian Web Clipper/Filter|Filter]] und [[Obsidian Web Clipper/Logik|Vorlagenlogik]] wie der [[Einführung in Obsidian Web Clipper|Web Clipper]].

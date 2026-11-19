@@ -16,7 +16,7 @@ Je hebt de officiële Obsidian [[Importeren]] plug-in nodig, die je [hier kunt i
 1. Open **[[Instellingen]]**.
 2. Ga naar **Communityplug-ins** en [installeer Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Activeer de Importer plug-in.
-4. Open de **Importer** plug-in via het opdrachtenpalet of het werkbalkpictogram.
+4. Open Importer in Instellingen of via het [[Opdrachtenpalet]].
 5. Kies onder **Bestandsformaat** de optie **Textbundle (.textbundle, .textpack).**
 6. Selecteer de locatie van je Textbundle- of Textpack-bestanden. Zipbestanden worden ook ondersteund.
 7. Selecteer **Importeren** om het gegenereerde sjabloon te bekijken en voorbeelden van je notities te bekijken.

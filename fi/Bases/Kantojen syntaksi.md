@@ -201,7 +201,25 @@ views:
 - `name` on näyttönimi, ja sitä voidaan käyttää oletusnäkymän määrittelyyn.
 - `filters` ovat täsmälleen samoja kuin yllä kuvattiin, mutta ne koskevat vain kyseistä näkymää.
 - `groupBy` määrittelee määreen ja järjestyssuunnan. Määritetyn määreen arvo kullakin rivillä käytetään rivin sijoittamiseen ryhmiin.
+- `groupOrder` määrittelee ryhmien järjestyksen ja näkyvyyden. Jos tämä on annettu, vain ne ryhmät näytetään, joiden arvot ovat luettelossa, annetussa järjestyksessä. Tyhjä luettelo piilottaa kaikki ryhmät. Poista `groupOrder` näyttääksesi kaikki ryhmät `groupBy`-määritteen mukaisessa järjestyksessä.
 - `summaries` yhdistää määrenimet nimettyyn yhteenvetoon. Yhteenvedot suorittavat koosteen määreestä kaikkien rivien yli.
+
+Esimerkiksi tämä näkymä näyttää vain ryhmät Planned, In progress ja Done, siinä järjestyksessä:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Käytä `null`-arvoa `groupOrder`-luettelossa sisällyttääksesi tiedostot, joilla ei ole arvoa ryhmitellylle määreelle.
 
 [[Näkymät]] voivat lisätä ylimääräistä dataa minkä tahansa tilan ylläpitämiseen tai oikeaan esittämiseen tarvittavan tiedon tallentamiseksi, mutta lisäosakehittäjien tulisi huolehtia, etteivät he käytä avaimia, jotka ovat jo Bases-sisäänrakennetun lisäosan käytössä. Esimerkiksi taulukkonäkymä voi käyttää tätä rivien lukumäärän rajoittamiseen tai sen valitsemiseen, mitä saraketta käytetään rivien lajitteluun ja mihin suuntaan. Eri näkymätyyppi, kuten kartta, voisi käyttää tätä kartoittamaan, mikä muistiinpanon määre vastaa leveys- ja pituusastetta ja mikä määre tulisi näyttää nuppineulaotsikkona.
 
@@ -287,7 +305,7 @@ Globaalia [[Funktiot|funktiota]] `today()` voidaan käyttää nykyisen päiväm�
 - `now() + "1 day"` palauttaa päivämäärän ja ajan tasan 24 tuntia suoritushetkestä.
 - `file.mtime > now() - "1 week"` palauttaa `true`, jos tiedostoa on muokattu viimeisen viikon aikana.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` palauttaa päivämääräobjektin, joka edustaa arvoa `2025-01-01 04:03:00`.
-- Kahden päivämäärän vähentäminen toisistaan antaa millisekuntieron niiden välillä, esimerkiksi `now() - file.ctime`.
+- Kahden päivämäärän vähentäminen toisistaan antaa keston, esimerkiksi `note.release_date - today()`.
 - Saadaksesi päivämääräosan päivämäärästä, jossa on aika, käytä `datetime.date()`.
 - Päivämääräobjektin muotoilemiseen käytä `format()`-funktiota, esimerkiksi `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ Päivämäärät edustavat tiettyä päivämäärää tai päivämäärää ja a
 
 - Päivämäärän luomiseen käytä `date`-funktiota, esimerkiksi `date("2025-01-01 12:00:00")`
 - Päivämäärän muokkaamiseen lisää tai vähennä kesto, esimerkiksi `now() + "1 hour"` tai `today() + "7d"`
-- Vertaa päivämääriä vertailuoperaattoreilla (esim. `>` tai `<`) ja aritmeettisilla operaattoreilla (esimerkiksi `(now() + "1d") - now()` palauttaa `86400000` millisekuntia.)
+- Vertaa päivämääriä vertailuoperaattoreilla, esimerkiksi `>` tai `<`.
+- Kahden päivämäärän vähentäminen toisistaan antaa keston, esimerkiksi `note.release_date - today()`.
 - Päivämäärän osien poimimiseen käytä käytettävissä olevia kenttiä (`now().hour`) tai apufunktioita (`now.time()`).
 - Useita muita [[Funktiot|kenttiä ja funktioita]] on käytettävissä päivämääräobjekteilla.
 
@@ -350,7 +369,7 @@ Päivämäärät edustavat tiettyä päivämäärää tai päivämäärää ja a
 
 [[Linkitä muistiinpanoja|Wikilinkit]] [[Määreet|alkulehti-määreissä]] tunnistetaan automaattisesti linkkiobjekteiksi. Linkit esitetään klikattavana linkkinä [[Näkymät|näkymässä]].
 
-- Linkin luomiseen käytä globaalia `link`-[[Funktiot|funktiota]], esimerkiksi `link("filename")` tai `link("https://obsidian.md")`.
+- Linkin luomiseen käytä globaalia `link`-[[Funktiot|funktiota]], esimerkiksi `link("filename")`.
 - Voit luoda linkin mistä tahansa merkkijonosta, esimerkiksi `link(file.ctime.date().toString())`.
 - Näytettävän tekstin asettamiseen anna valinnainen merkkijono tai kuvake toisena parametrina, esimerkiksi `link("filename", "display")` tai `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ Linkkejä voidaan vertailla `==`- ja `!=`-operaattoreilla. Ne ovat yhtäläisiä
 Linkkejä voidaan vertailla tiedostoihin, kuten `file` tai `this`. Ne ovat yhtäläisiä, jos linkki osoittaa kyseiseen tiedostoon. Esimerkiksi `author == this`.
 
 Linkkejä voidaan myös tarkistaa luettelon sisältämisessä, esimerkiksi `authors.contains(this)`.
+
+### URL-osoitteet
+
+URL-osoitteet [[Määreet|alkulehti-määreissä]] tunnistetaan automaattisesti URL-objekteiksi. URL-osoitteet esitetään klikattavana linkkinä [[Näkymät|näkymässä]].
+
+- URL-osoitteen luomiseen käytä globaalia `link`-[[Funktiot|funktiota]], esimerkiksi `link("https://obsidian.md")`.
+- Näytettävän tekstin asettamiseen anna valinnainen merkkijono toisena parametrina, esimerkiksi `link("https://obsidian.md", "Obsidian")`.

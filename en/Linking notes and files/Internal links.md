@@ -54,8 +54,6 @@ To create a link while in Editing view, use either of the following ways:
 - Select text in the editor and then type `[[`.
 - Open the [[Command palette]] and then select Add internal link.
 
-![[Quick switcher#^search-autocomplete-large]]
-
 While you can link to any of the [[Accepted file formats]], links to file formats other than Markdown needs to include a file extension, such as `[[Figure 1.png]]`.
 
 > [!tip] Prefixing an internal link with an exclamation mark (!) allows you to embed the linked content. For more details, see [[Embed Files]].
@@ -135,7 +133,7 @@ You can also search for blocks to link to from across your vault using the `[[^
 > [!info]- Screenshot of searching for a block link 
 > ![[link-block-heading.png#interface]]
 
-You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of Latin letters, numbers, and dashes.
+You can also create human-readable block identifiers by adding a blank space followed by a caret (`^`) and the identifier. Block identifiers can only consist of the letters A-Z and a-z, the digits 0-9, and dashes.
 
 For example, add `^quote-of-the-day` at the end of a block:
 

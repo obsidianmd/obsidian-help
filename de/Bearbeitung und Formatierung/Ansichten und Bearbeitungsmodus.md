@@ -20,7 +20,7 @@ Um in den *Lesemodus* zu wechseln:
 - Oder drücke `Strg+E` (`Cmd+E` unter macOS).
 
 > [!note] Hinweis
-> Aktiviere **[[Einstellungen]] → Darstellung → Zeige Tab-Titelleiste**, um das Ansichtsumschalter-Symbol zu sehen.
+> Aktiviere **[[Einstellungen]] → Bedienung → Zeige Tab-Titelleiste**, um das Ansichtsumschalter-Symbol zu sehen.
 > 
 > Falls dies deaktiviert ist, schalte **[[Einstellungen]] → Editor → Bearbeitungsmodus in Statusleiste anzeigen** ein, um Ansichten über die Statusleiste umzuschalten.
 

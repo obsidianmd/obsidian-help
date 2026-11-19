@@ -30,7 +30,7 @@ You will need the official Obsidian [[Importer]] plugin, which you can [install 
 1. Open **[[Settings]]**.
 2. Go to **Community Plugins** and [install Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Enable the Importer plugin.
-4. Open the **Importer** plugin using the command palette or ribbon icon.
+4. Open Importer in Settings or using the [[Command palette]].
 5. Under **File format** select **Airtable**.
 6. Under **Airtable Personal Access Token**, click **Link...** to add a new secret. For the **ID**, give it a name like `airtable`, and for the **Secret** paste your personal access token.
 7. Click **Load** to browse your bases, then select the tables you want to import.
@@ -74,7 +74,7 @@ Airtable/
 	- **Grid** becomes a [[Table view]].
 	- **Gallery** becomes [[Cards view]].
 	- **List** becomes a [[List view]].
-	- All other view types are converted to table view.
+	- **Kanban** becomes a [[Kanban view]] in Obsidian 1.14 and later. Airtable doesn't say which field a kanban is grouped by, so [[Kanban view#Group cards into columns|choose a property to group by]] after importing. Importing again keeps your choice.
 - Airtable field types are mapped to Obsidian property types, without overriding types you have already set.
 - Linked records become links to the corresponding notes.
 - Attachments are downloaded into your vault using your vault settings.
@@ -88,7 +88,7 @@ Due to limitations in the Airtable API some data is not available or cannot be c
 
 - Rollup values are not imported. The API does not expose the aggregation used for a rollup's computed value, so only the property name is written, along with a Bases formula where the field's schema exposes an expression.
 - Formulas using functions that Obsidian has no equivalent for, such as `SWITCH`, `FIND`, `REGEX_EXTRACT`, and `SQRT`, fall back to the static value from Airtable.
-- Only grid, gallery, and list views are imported. Other view types, such as calendar, kanban, timeline, and Gantt, are ignored.
+- Only grid, gallery, list, and kanban views are imported. Other view types, such as calendar, timeline, and Gantt, are ignored.
 - Links to records in tables you did not select become the record's plain title rather than a link.
 - Interface designs, automations, comments, and revision history are not imported.
 

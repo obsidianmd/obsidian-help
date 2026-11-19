@@ -30,17 +30,19 @@ Você precisará do plugin oficial [[Importador]] do Obsidian, que pode ser [ins
 1. Abra as **[[Configurações]]**.
 2. Vá em **Plugins da comunidade** e [instale o Importador](obsidian://show-plugin?id=obsidian-importer).
 3. Ative o plugin Importador.
-4. Abra o plugin **Importador** usando a paleta de comandos ou o ícone no menu lateral.
+4. Abra o Importador nas Configurações ou usando a [[Paleta de comandos]].
 5. Em **Formatar**, escolha **Apple Journal (HTML Export)**.
 6. Em **Arquivos para importar**, selecione a pasta com os dados exportados, geralmente _AppleJournalEntries_, ou arquivos individuais de _Entries_.
 7. Revise e edite as outras opções de importação.
-8. Selecione Importar e aguarde até que a importação seja concluída.
-9. Pronto!
+8. Selecione **Importar** para revisar o modelo gerado e visualizar exemplos das suas entradas.
+9. Selecione **Importar** novamente e aguarde até que a importação seja concluída.
 
+## Modelos
 
-## Conteúdo suportado
+Use [[Modelos do importador|modelos do Importador]] para configurar completamente como seus dados do Apple Journal são importados.
 
-O plugin pode importar metadados do Journal como frontmatter, como _state-of-mind_, _contacts_, _location_ e _workout-route_.
+![[Modelos do importador#Variables]]
 
-> [!note] Nota
-> O plugin não importa recursos. Anexos como fotos, vídeos e gravações de áudio são ignorados.
+Quando **Adicionar metadados como frontmatter** está ativado, os metadados do Apple Journal são convertidos em [[Propriedades|propriedades]]. Dependendo da entrada, estes podem incluir `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media` e `workout-route`.
+
+Use a variável `properties` para acessar esses metadados. Por exemplo, use `{{properties.location}}` para uma localização ou `{{properties["state-of-mind"]}}` para um estado de espírito.

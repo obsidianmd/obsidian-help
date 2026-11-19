@@ -17,6 +17,7 @@ Formler kan hjælpe dig med at:
 - **Arbejde med datoer**, beregne tidsforskelle, formatere datoer, eller beregne deadlines
 - **Anvende logik**, benytte betingede udsagn for at vise forskellige værdier
 - **Manipulere lister**, filtrere, sortere, mappe, eller samle listedata
+- **Bruge linkede noter**, slå op eller opsummér egenskaber fra de noter, en note linker til. Se [[#Brug egenskaber fra linkede noter]].
 
 ## Opret en formel egenskab
 
@@ -94,6 +95,59 @@ Funktioner udfører operationer på værdier. De tilgængelige funktioner afhæn
 - `fil.name.lower()` konverterer filnavnet til kun at have små bogstaver
 - `tags.contains("haster")` tjekker om listen af tags indeholder en værdi
 - `due_date.format("YYYY-MM-DD")` for at formatere en dato
+
+## Brug egenskaber fra linkede noter
+
+Formler kan læse egenskaber fra de noter, en note linker til. Du kan slå én værdi op fra en linket note, eller opsummere værdier fra flere linkede noter til en total, en optælling eller en liste.
+
+For at læse en linket notes egenskaber skal du omdanne linket til en fil med `asFile()` og derefter bruge `properties`. Links gemt i egenskaber, såsom `projekt: "[[Redesign af websted]]"`, fungerer direkte på denne måde.
+
+> [!warning] Resultater opdateres, når noten i rækken ændres
+> Hvis du kun redigerer en linket note, opdateres opslag og opsummeringer i basen muligvis ikke, før du genåbner basen.
+
+### Slå en værdi op
+
+Vis `status` for den note, der er linket i `projekt`-egenskaben:
+
+```js
+project.asFile().properties.status
+```
+
+Hvis egenskaben kan indeholde enten ét link eller en liste af links, pak den ind i `list()` og tag det første link:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Opsummér værdier
+
+Læg `timer` sammen for alle noter, der er linket i `opgaver`-egenskaben:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Tæl de linkede noter, hvis `status` ikke er "Færdig":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+List statusværdierne for de linkede noter uden duplikater:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Opsummér værdier fra noter, der linker hertil
+
+For at opsummere værdier fra de noter, der linker til en note, f.eks. opgaver der hver linker til deres projekt, brug `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` er langsom i store bokse. Når det er muligt, gem links i selve noten og opsummér dem med `map()` og `reduce()`, som vist ovenfor.
 
 ## Eksempler på formler
 

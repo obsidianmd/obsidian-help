@@ -13,6 +13,7 @@ As fórmulas podem ajudá-lo a:
 - **Trabalhar com datas**, calcular diferenças temporais, formatar datas ou determinar prazos.
 - **Aplicar lógica**, usar instruções condicionais para apresentar valores diferentes.
 - **Processar listas**, filtrar, ordenar, mapear ou agregar dados de listas.
+- **Usar notas ligadas**, consultar ou agregar propriedades das notas para as quais uma nota liga. Consulte [[#Usar propriedades de notas ligadas]].
 
 ## Criar uma propriedade de fórmula
 
@@ -90,6 +91,59 @@ As funções realizam operações sobre valores. As funções disponíveis depen
 - `file.name.lower()` para converter para minúsculas.
 - `tags.contains("urgent")` para verificar se a lista de etiquetas contém um valor.
 - `due_date.format("YYYY-MM-DD")` para formatar uma data.
+
+## Usar propriedades de notas ligadas
+
+As fórmulas podem ler propriedades das notas para as quais uma nota liga. Pode consultar um valor de uma nota ligada, ou agregar valores de várias notas ligadas num total, numa contagem ou numa lista.
+
+Para ler as propriedades de uma nota ligada, transforme a ligação num ficheiro com `asFile()` e depois use `properties`. As ligações armazenadas em propriedades, como `project: "[[Website redesign]]"`, funcionam diretamente desta forma.
+
+> [!warning] Os resultados são atualizados quando a nota na linha muda
+> Se apenas editar uma nota ligada, as consultas e agregações na base podem não ser atualizadas até reabrir a base.
+
+### Consultar um valor
+
+Mostrar o `status` da nota ligada na propriedade `project`:
+
+```js
+project.asFile().properties.status
+```
+
+Se a propriedade pode conter uma ligação ou uma lista de ligações, envolva-a em `list()` e pegue na primeira ligação:
+
+```js
+list(project)[0].asFile().properties.status
+```
+
+### Agregar valores
+
+Somar as `hours` de cada nota ligada na propriedade `tasks`:
+
+```js
+tasks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+Contar as notas ligadas cujo `status` não é "Done":
+
+```js
+tasks.filter(value.asFile().properties.status != "Done").length
+```
+
+Listar os estados das notas ligadas, sem duplicados:
+
+```js
+tasks.map(value.asFile().properties.status).unique()
+```
+
+### Agregar valores de notas que ligam para aqui
+
+Para agregar valores das notas que ligam para uma nota, como tarefas que ligam ao seu projeto, use `file.backlinks`:
+
+```js
+file.backlinks.map(value.asFile().properties.hours).reduce(acc + value, 0)
+```
+
+`file.backlinks` é lento em cofres grandes. Quando possível, armazene as ligações na própria nota e agregue-as com `map()` e `reduce()`, como mostrado acima.
 
 ## Exemplos de fórmulas
 

@@ -16,6 +16,7 @@ Du kan udvikle [[Fællesskabsplugins|fællesskabsplugins]] og [[Temaer|temaer]] 
 
 Obsidian udvikler og vedligeholder flere open source projekter. Du kan bidrage med fejlrettelser og forbedringer til følgende GitHub projekter:
 
+- [Pele](https://github.com/obsidianmd/pele) (MIT), rendereren Obsidian bruger til at tegne Mermaid-diagrammer.
 - [JSON Canvas](https://github.com/obsidianmd/jsoncanvas) (MIT), er et åbent fil format, der definerer uendelig canvas data.
 - [Knap](https://github.com/obsidianmd/knap) (MIT) skabelonsprog til generering af Markdown.
 - [Obsidian Importer](https://github.com/obsidianmd/obsidian-importer) (MIT), er et plugin, der kan konvertere data fra en lang række formater til enkle tekst Markdown filer.

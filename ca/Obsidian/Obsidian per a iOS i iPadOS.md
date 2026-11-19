@@ -54,12 +54,12 @@ Opcions de configuració del widget **Veure nota**:
 
 ## Captura ràpida
 
-La Captura ràpida et permet desar text a la teva cambra forta des dels widgets de la pantalla de bloqueig, el Centre de control o la pantalla d'inici. Depenent de la ubicació de captura que seleccionis, la Captura ràpida pot crear una nota nova o afegir el text a una nota existent.
+La Captura ràpida et permet desar text a la teva cambra forta des dels widgets de la pantalla de bloqueig, el Centre de control, la pantalla d'inici o les Dreceres sense esperar que la teva cambra forta es carregui. Depenent de la ubicació de captura que seleccionis, la Captura ràpida pot crear una nota nova o afegir el text a una nota existent.
 
 ![[ios-quick-capture-view.png|400]]
 
 > [!note] Nota
-> La Captura ràpida està disponible a iOS i iPadOS 26 i versions posteriors.
+> La Captura ràpida requereix Obsidian 1.14 o posterior i iOS o iPadOS 26 o posterior.
 
 Per capturar text:
 
@@ -72,6 +72,63 @@ Per capturar text:
 **Nota**: Si les Activitats en directe estan activades, la nota de captura ràpida també apareix a la pantalla de bloqueig i, en models d'iPhone compatibles, a l'Illa Dinàmica. Toca la barra o l'Activitat en directe per continuar editant.
 
 ![[ios-quick-capture-live-activity.png|400]]
+
+### Captura de veu
+
+La Captura de veu et permet gravar una nota de veu amb la Captura ràpida. Obsidian transcriu el que dius mentre parles, i pot desar l'enregistrament a la teva cambra forta juntament amb la transcripció.
+
+Per capturar una nota de veu:
+
+1. Obre la Captura ràpida, després toca el botó del micròfon a la cantonada inferior esquerra. L'enregistrament comença immediatament.
+2. Parla la teva nota. La transcripció apareix a l'àrea de text mentre parles, i pots editar-la en qualsevol moment.
+3. Toca el botó d'enregistrament a la part inferior de la pantalla per pausar, i toca'l de nou per reprendre.
+4. Toca la marca de verificació per desar la transcripció i l'enregistrament a la ubicació de captura seleccionada.
+
+![[ios-voice-capture.png|400]]
+
+També pots començar a gravar directament des d'un widget. Quan personalitzis un widget de Captura ràpida, escull una acció de la secció **Captura de veu**.
+
+L'enregistrament continua si minimitzes la Captura ràpida o bloqueges el dispositiu. Mentre s'enregistra, la pantalla de bloqueig i l'Illa Dinàmica mostren la transcripció en directe i un temporitzador. Toca el temporitzador per pausar o reprendre l'enregistrament.
+
+![[ios-voice-capture-live-activity.png|400]]
+
+#### Configuració de la Captura de veu
+
+Per canviar la configuració de la Captura de veu, toca la icona de l'engranatge a la part superior de la pantalla mentre estàs a la Captura de veu.
+
+- **Idioma**: L'idioma utilitzat per a la transcripció. Consulta [[#Idiomes compatibles]]. Selecciona **Cap** per desactivar la transcripció i gravar només àudio.
+- **Micròfon**: El micròfon utilitzat per a l'enregistrament, com ara el micròfon integrat o uns auriculars connectats.
+- **Desar fitxer d'àudio**: Si es desa l'enregistrament a la teva cambra forta.
+- **Àudio d'altres aplicacions**: Què passa amb la música o altre àudio que s'està reproduint quan graves: **Continuar reproduint**, **Baixar el volum** o **Pausar**. Els canvis s'apliquen a partir del proper enregistrament.
+
+#### Idiomes compatibles
+
+La Captura de veu pot transcriure parla en els idiomes següents. Alguns dispositius admeten menys idiomes, i els idiomes disponibles poden canviar amb les actualitzacions d'iOS. Si el teu idioma no està disponible, pots gravar àudio igualment sense transcripció.
+
+- Bangla
+- Cantonès
+- Xinès
+- Anglès
+- Francès
+- Alemany
+- Gujarati
+- Hindi
+- Italià
+- Japonès
+- Kannada
+- Caixmiri
+- Coreà
+- Maithili
+- Malaiàlam
+- Marathi
+- Nepalès
+- Odia
+- Portuguès
+- Panjabi
+- Espanyol
+- Tàmil
+- Telugu
+- Urdú
 
 ### Ubicacions de captura
 

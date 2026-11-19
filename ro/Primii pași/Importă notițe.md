@@ -20,6 +20,7 @@ Aplicațiile vin și pleacă, dar datele dumneavoastră ar trebui să dureze. Ob
 - <span class="icon-app icon-craft"></span> [[Importă din Craft|Craft]]
 - <span class="icon-app icon-roam"></span> [[Importă din Roam Research|Roam Research]]
 - <span class="icon-app icon-logseq"></span> [[Importă din Logseq|Logseq]]
+- <span class="icon-app icon-md"></span> [[Importă din Samsung Notes|Samsung Notes]]
 - <span class="icon-app icon-md"></span> [[Importă din Tomboy și Gnote|Tomboy și Gnote]]
 - <span class="icon-app icon-html"></span> [[Importă fișiere HTML|Fișiere HTML]]
 - <span class="icon-app icon-md"></span> [[Importă fișiere CSV]]

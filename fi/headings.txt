@@ -742,34 +742,126 @@ translation=Sivupalkki
 original=Frequently asked questions
 translation=Usein kysytyt kysymykset
 
-[heading.bases/views/kanban/Group cards into columns]
+[heading.bases/Group cards into columns]
 original=Group cards into columns
 translation=Ryhmitä kortit sarakkeisiin
 
-[heading.bases/views/kanban/Work with cards and columns]
+[heading.bases/Work with cards and columns]
 original=Work with cards and columns
 translation=Korttien ja sarakkeiden käsittely
 
-[heading.bases/views/kanban/Settings]
+[heading.bases/Settings]
 original=Settings
 translation=Asetukset
 
-[heading.bases/views/kanban/Hide empty columns]
+[heading.bases/Hide empty columns]
 original=Hide empty columns
 translation=Piilota tyhjät sarakkeet
 
-[heading.bases/views/kanban/Column width]
+[heading.bases/Column width]
 original=Column width
 translation=Sarakkeen leveys
 
-[heading.bases/views/kanban/Image property]
+[heading.bases/Image property]
 original=Image property
 translation=Kuvamääre
 
-[heading.bases/views/kanban/Image fit]
+[heading.bases/Image fit]
 original=Image fit
 translation=Kuvan sovitus
 
-[heading.bases/views/kanban/Image aspect ratio]
+[heading.bases/Image aspect ratio]
 original=Image aspect ratio
 translation=Kuvasuhde
+
+[heading.more-options-menu/Open the menu]
+original=Open the menu
+translation=Valikon avaaminen
+
+[heading.more-options-menu/Desktop]
+original=Desktop
+translation=Työpöytä
+
+[heading.more-options-menu/View and layout]
+original=View and layout
+translation=Näkymä ja asettelu
+
+[heading.more-options-menu/Manage the note]
+original=Manage the note
+translation=Muistiinpanon hallinta
+
+[heading.more-options-menu/Find]
+original=Find
+translation=Etsi
+
+[heading.more-options-menu/Paths, history, and linked views]
+original=Paths, history, and linked views
+translation=Polut, historia ja linkkinäkymät
+
+[heading.more-options-menu/Your computer]
+original=Your computer
+translation=Tietokone
+
+[heading.more-options-menu/Tab menu]
+original=Tab menu
+translation=Välilehtivalikko
+
+[heading.more-options-menu/Mobile]
+original=Mobile
+translation=Mobiili
+
+[heading.find-and-replace/Open find and replace]
+original=Open find and replace
+translation=Avaa etsi ja korvaa
+
+[heading.find-and-replace/Find matches]
+original=Find matches
+translation=Etsi osumia
+
+[heading.find-and-replace/Replace matches]
+original=Replace matches
+translation=Korvaa osumia
+
+[heading.pdf/Open a PDF]
+original=Open a PDF
+translation=PDF-tiedoston avaaminen
+
+[heading.pdf/Navigate a PDF]
+original=Navigate a PDF
+translation=PDF-tiedostossa navigointi
+
+[heading.pdf/Change how a PDF looks]
+original=Change how a PDF looks
+translation=PDF-tiedoston ulkoasun muuttaminen
+
+[heading.pdf/Search a PDF]
+original=Search a PDF
+translation=PDF-tiedostossa hakeminen
+
+[heading.pdf/Copy text from a PDF]
+original=Copy text from a PDF
+translation=Tekstin kopioiminen PDF-tiedostosta
+
+[heading.pdf/Embed a PDF]
+original=Embed a PDF
+translation=PDF-tiedoston upottaminen
+
+[heading.pdf/Export a note to PDF]
+original=Export a note to PDF
+translation=Muistiinpanon vieminen PDF-muotoon
+
+[heading.import/samsung-notes/Export your notes from Samsung Notes]
+original=Export your notes from Samsung Notes
+translation=Vie muistiinpanosi Samsung Notesista
+
+[heading.import/samsung-notes/Import your Samsung Notes data into Obsidian]
+original=Import your Samsung Notes data into Obsidian
+translation=Tuo Samsung Notes -tiedot Obsidianiin
+
+[heading.import/samsung-notes/Limitations]
+original=Limitations
+translation=Rajoitukset
+
+[heading.import/samsung-notes/Templates]
+original=Templates
+translation=Mallineet

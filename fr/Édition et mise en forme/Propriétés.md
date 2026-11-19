@@ -15,7 +15,7 @@ Il existe plusieurs façons d'ajouter une propriété à une note :
 
 - Utiliser la [[Palette de commandes|commande]] **Ajouter une propriété de fichier**.
 - Utiliser le [[Raccourcis clavier|raccourci clavier]] **`Cmd/Ctrl+;`**.
-- Choisir **Ajouter une propriété de fichier** dans le menu **Plus d'actions** (accessible via l'icône des trois points ou en faisant un clic droit sur l'onglet).
+- Choisir **Ajouter une propriété de fichier** dans le [[Menu Plus d'options]] (accessible via l'icône des trois points ou en faisant un clic droit sur l'onglet).
 - Taper `---` tout au début d'un fichier.
 
 Une fois que vous avez ajouté une propriété, une ligne apparaît en haut du fichier avec deux champs : le _nom_ de la propriété et la _valeur_ de la propriété.

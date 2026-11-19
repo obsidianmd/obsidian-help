@@ -25,7 +25,7 @@ Parametrul `action` este acțiunea pe care doriți să o efectuați. Acțiunile 
 > [!warning] Codificare
 > Asigurați-vă că valorile sunt codificate corect ca URI. De exemplu, caracterele de bară oblică `/` trebuie codificate ca `%2F`, iar caracterele spațiu trebuie codificate ca `%20`.
 > 
- Acest lucru este deosebit de important deoarece un caracter „rezervat” codificat incorect poate strica interpretarea URI-ului. [Consultați aici pentru detalii](https://en.wikipedia.org/wiki/Percent-encoding).
+ Acest lucru este deosebit de important deoarece un caracter „rezervat" codificat incorect poate strica interpretarea URI-ului. [Consultați aici pentru detalii](https://en.wikipedia.org/wiki/Percent-encoding).
 
 ## Deschide notă
 
@@ -44,7 +44,17 @@ Acțiunea `open` deschide un seif Obsidian sau un fișier din interiorul acelui 
 
 
 > [!tip] Deschideți un titlu sau un bloc
-> Cu o codificare URI corectă, puteți naviga către un titlu sau un bloc dintr-o notă. `Note%23Heading` ar naviga către titlul numit „Heading”, în timp ce `Note%23%5EBlock` ar naviga către blocul numit „Block”.
+> Cu o codificare URI corectă, puteți naviga către un titlu sau un bloc dintr-o notă. `Note%23Heading` ar naviga către titlul numit „Heading", în timp ce `Note%23%5EBlock` ar naviga către blocul numit „Block".
+
+### Copierea unui URL Obsidian
+
+Obsidian poate construi un URI `open` pentru nota activă, astfel încât nu trebuie să îl scrieți singur. Aplicația numește acest lucru un URL Obsidian. Acesta include numele seifului și calea către notă.
+
+Puteți copia URL-ul Obsidian în oricare dintre aceste moduri:
+
+- În [[Paleta de comenzi]], selectați **Copiați URL-ul Obsidian pentru fișierul curent**.
+- În notă, selectați **Mai multe opțiuni** ![[lucide-more-horizontal.svg#icon]], apoi selectați **Copiază calea → ca URL Obsidian**. Consultați [[Meniul Mai multe opțiuni]].
+- Pe desktop, faceți clic dreapta pe un fișier în [[Exploratorul de fișiere]], apoi selectați **Copiază calea → ca URL Obsidian**.
 
 ### Parametri
 
@@ -54,8 +64,6 @@ Acțiunea `open` deschide un seif Obsidian sau un fișier din interiorul acelui 
   - Folosirea acestui parametru va suprascrie atât `vault`, cât și `file`.
   - Aceasta va determina aplicația să caute cel mai specific seif care conține calea fișierului specificat.
   - Apoi restul căii înlocuiește parametrul `file`.
-- `prepend` va adăuga la începutul fișierului și va încerca să îmbine proprietățile.
-- `append` va adăuga la sfârșitul fișierului și, de asemenea, va încerca să îmbine proprietățile.
 - `paneType` (opțional) determină unde va fi deschisă nota în interfață.
   - dacă nu este prezent, ultima filă activă este înlocuită.
   - `paneType=tab` deschide într-o filă nouă.
@@ -72,19 +80,27 @@ Acțiunea `new` creează o notă nouă în seif, opțional cu un conținut.
   Aceasta deschide seiful `my vault` și creează o notă nouă numită `my note`.
 - `obsidian://new?vault=my%20vault&file=path%2Fto%2Fmy%20note`
   Aceasta deschide seiful `my vault` și creează o notă nouă la `path/to/my note`.
+- `obsidian://new?vault=my%20vault&file=my%20note&append=true&heading=Tasks&content=Buy%20milk`
+  Aceasta deschide seiful `my vault` și adaugă `Buy milk` la sfârșitul secțiunii `Tasks` din `my note`.
 
 ### Parametri
 
 - `vault` poate fi fie numele seifului, fie ID-ul seifului[^1]. La fel ca la acțiunea `open`.
-- `name` numele fișierului care va fi creat. Dacă acesta este specificat, locația fișierului va fi aleasă în funcție de preferințele dumneavoastră „Locația implicită pentru notele noi”.
+- `name` numele fișierului care va fi creat. Dacă acesta este specificat, locația fișierului va fi aleasă în funcție de preferințele dumneavoastră „Locația implicită pentru notele noi".
 - `file` o cale absolută din seif, incluzând numele. Va suprascrie `name` dacă este specificat.
 - `path` o cale absolută globală. Funcționează similar cu opțiunea `path` din acțiunea `open`, care va suprascrie atât `vault`, cât și `file`.
 - `paneType` (opțional) determină unde va fi deschisă nota în interfață. La fel ca la acțiunea `open`.
 - `content` (opțional) conținutul notei.
 - `clipboard` (opțional) folosește conținutul clipboard-ului în locul specificării `content`.
 - `silent` (opțional) includeți acest parametru dacă nu doriți să deschideți noua notă.
-- `append` (opțional) includeți acest parametru pentru a adăuga la un fișier existent, dacă există unul.
-- `overwrite` (opțional) suprascrie un fișier existent, dacă există unul, dar numai dacă `append` nu este setat.
+- `append` (opțional) includeți acest parametru pentru a adăuga la sfârșitul unui fișier existent, dacă există unul, îmbinând orice proprietăți.
+- `prepend` (opțional) includeți acest parametru pentru a adăuga la începutul unui fișier existent, dacă există unul, îmbinând orice proprietăți.
+- `heading` (opțional) adaugă conținutul la secțiunea de sub acest titlu, în loc de întregul fișier. Necesită `append` sau `prepend`.
+- `spacing` (opțional) modul în care conținutul este separat de conținutul existent. Necesită `append` sau `prepend`.
+  - `spacing=auto` (implicit) lasă o linie goală între ele.
+  - `spacing=newline` începe conținutul pe o linie nouă.
+  - `spacing=inline` adaugă conținutul fără o întrerupere de linie.
+- `overwrite` (opțional) suprascrie un fișier existent, dacă există unul, dar numai dacă nici `append`, nici `prepend` nu este setat.
 - `x-success` (opțional) consultați [[#Folosirea parametrilor x-callback-url]].
 
 ## Creează sau deschide nota zilnică
@@ -95,6 +111,8 @@ Acțiunea `daily` creează sau deschide nota zilnică. Modulul [[Note zilnice]] 
 
 - `obsidian://daily?vault=my%20vault`
   Aceasta deschide seiful `my vault` și creează sau deschide nota zilnică.
+- `obsidian://daily?vault=my%20vault&append=true&heading=Log&content=Called%20Sam`
+  Aceasta deschide seiful `my vault` și adaugă `Called Sam` la sfârșitul secțiunii `Log` din nota zilnică.
 
 ### Parametri
 
@@ -172,7 +190,7 @@ De exemplu, dacă Obsidian primește
 
 ## Formate prescurtate
 
-Pe lângă formatele de mai sus, mai există două formate „prescurtate” disponibile pentru deschiderea seifurilor și fișierelor:
+Pe lângă formatele de mai sus, mai există două formate „prescurtate" disponibile pentru deschiderea seifurilor și fișierelor:
 
 1. `obsidian://vault/my vault/my note` este echivalent cu `obsidian://open?vault=my%20vault&file=my%20note`.
 2. `obsidian:///absolute/path/to/my note` este echivalent cu `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
@@ -190,4 +208,4 @@ Pe Linux, este un proces mult mai complex:
 3. Dacă folosiți programul de instalare AppImage, este posibil să fie nevoie să îl dezarhivați folosind `Obsidian-x.y.z.AppImage --appimage-extract`. Apoi asigurați-vă că directiva `Exec` indică spre executabilul dezarhivat.
 
 
-[^1]: ID-ul seifului este codul aleatoriu de 16 caractere atribuit seifului, de exemplu `ef6ca3e3b524d22f`. Acest ID este unic pentru fiecare director de pe computerul dumneavoastră. ID-ul poate fi găsit deschizând comutatorul de seifuri și selectând „Copiază ID-ul seifului” din meniul contextual al seifului dorit.
+[^1]: ID-ul seifului este codul aleatoriu de 16 caractere atribuit seifului, de exemplu `ef6ca3e3b524d22f`. Acest ID este unic pentru fiecare director de pe computerul dumneavoastră. ID-ul poate fi găsit deschizând comutatorul de seifuri și selectând „Copiază ID-ul seifului" din meniul contextual al seifului dorit.

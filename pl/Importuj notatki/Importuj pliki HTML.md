@@ -14,7 +14,7 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]]. Możesz ją [za
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
+4. Otwórz Importer w Ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format** wybierz **HTML (.html).**
 6. Wskaż lokalizację plików lub folderów HTML.
 7. Kliknij **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z Twoich plików.

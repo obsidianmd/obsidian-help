@@ -70,7 +70,7 @@ Se også [[Løsrevne vinduer]].
 
 **Verktøylinjen** fungerer som en beholder for ofte brukte handlingsikoner.
 
-I skrivebordsversjonen er det det vertikale området helt til venstre.
+I skrivebordsversjonen er det den vertikale kolonnen med ikonknapper på kanten av appen. Den kan slås av eller på i Innstillinger → Grensesnitt, eller ved å bruke [[Kommandovelger|kommandovelgeren]].
 
 I mobilversjonen er det representert av en menyknapp ![[lucide-menu.svg#icon]] på [[#statuslinje|statuslinjen]].
 

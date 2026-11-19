@@ -154,6 +154,10 @@ translation=Geaccepteerde bestandsformaten
 original=Financial contributions
 translation=Financiële bijdragen
 
+[file.find-and-replace]
+original=Find and replace
+translation=Zoeken en vervangen
+
 [file.folding]
 original=Folding
 translation=Vouwen
@@ -238,6 +242,10 @@ translation=Importeren vanuit Microsoft OneNote
 original=Import from Roam Research
 translation=Importeren vanuit Roam Research
 
+[file.import/samsung-notes]
+original=Import from Samsung Notes
+translation=Importeren uit Samsung Notes
+
 [file.import/templates]
 original=Importer templates
 translation=Importeur-sjablonen
@@ -286,6 +294,10 @@ translation=Kluizen beheren
 original=Mobile app
 translation=Mobiele app
 
+[file.more-options-menu]
+original=More options menu
+translation=Meer opties menu
+
 [file.multiple-cursors]
 original=Multiple cursors
 translation=Meerdere cursors
@@ -305,6 +317,10 @@ translation=Officiële website
 [file.payment]
 original=Introduction to licenses and payment
 translation=Inleiding tot licenties en betaling
+
+[file.pdf]
+original=PDFs
+translation=PDF's
 
 [file.plugin-security]
 original=Plugin security

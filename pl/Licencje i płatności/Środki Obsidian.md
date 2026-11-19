@@ -7,6 +7,8 @@ aliases:
 
 Środki Obsidian zostaną zastosowane przed jakąkolwiek wymaganą płatnością, w tym automatycznymi odnowieniami. Środki Obsidian **nie podlegają** zwrotowi zgodnie z naszą [[Polityka zwrotów|Polityką zwrotów]].
 
+Środki Obsidian nie wygasają, dopóki posiadasz swoje konto.
+
 ## Dodawanie środków
 
 1. Zaloguj się na [swoje konto Obsidian](https://obsidian.md/account/billing).

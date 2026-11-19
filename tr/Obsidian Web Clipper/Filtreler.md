@@ -274,7 +274,7 @@ HTML etiketlerini değiştirir, etiketin içeriğini ve özniteliklerini korur.
 Bir dizeden **tüm** HTML özniteliklerini kaldırır.
 
 - Belirli öznitelikleri korumak için `strip_attr:("class, id")` kullanın.
-- Örnek: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` ifadesi `<div id="example">Content</div>` döndürür.
+- Örnek: `"<div class="test" id="example">Content</div>"|strip_attr:("class")` ifadesi `<div class="test">Content</div>` döndürür.
 
 ### `strip_md`
 

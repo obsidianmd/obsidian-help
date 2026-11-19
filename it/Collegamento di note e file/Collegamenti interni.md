@@ -52,8 +52,6 @@ Per creare un collegamento nella vista Modifica, utilizza uno dei seguenti metod
 - Seleziona del testo nell'editor e poi digita `[[`.
 - Apri la [[Command palette|tavolozza dei comandi]] e poi seleziona Aggiungi collegamento interno.
 
-![[Selezione rapida#^search-autocomplete-large]]
-
 Sebbene sia possibile collegare qualsiasi tipo tra i [[Formati di file accettati|formati di file accettati]], i collegamenti a formati di file diversi da Markdown necessitano di includere un'estensione, come `[[Figure 1.png]]`.
 
 > [!tip] Prefissare un collegamento interno con un punto esclamativo (!) consente di incorporare il contenuto collegato. Per maggiori dettagli, consulta [[Incorporare file|Incorporare file]].
@@ -133,7 +131,7 @@ Puoi anche cercare blocchi a cui collegare nell'intera cassaforte utilizzando la
 > [!info]- Screenshot della ricerca di un collegamento a blocco
 > ![[link-block-heading.png#interface]]
 
-Puoi anche creare identificatori di blocco leggibili aggiungendo uno spazio vuoto seguito da un accento circonflesso (`^`) e l'identificatore. Gli identificatori di blocco possono contenere solo lettere latine, numeri e trattini.
+Puoi anche creare identificatori di blocco leggibili aggiungendo uno spazio vuoto seguito da un accento circonflesso (`^`) e l'identificatore. Gli identificatori di blocco possono contenere solo le lettere A-Z e a-z, le cifre 0-9 e trattini.
 
 Ad esempio, aggiungi `^quote-of-the-day` alla fine di un blocco:
 

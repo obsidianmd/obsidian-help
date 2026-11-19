@@ -17,10 +17,6 @@ permalink: bases/create-base
 1. Klik in de verkenner met de rechtermuisknop op de map waarin je de basis wilt aanmaken.
 2. Selecteer **Nieuwe basis**.
 
-**Werkbalk:**
-
-- Selecteer in de verticale werkbalk **Nieuwe basis maken** om een basis aan te maken in dezelfde map als het actieve bestand.
-
 ## Een basis insluiten
 
 ### Een basisbestand insluiten

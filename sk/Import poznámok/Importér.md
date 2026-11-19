@@ -19,3 +19,9 @@ Importér je oficiálny [[Komunitné pluginy|Komunitný plugin]] vytvorený tím
 ![[Import poznámok#Import z iných aplikácií a formátov súborov]]
 
 ![[Import poznámok#Ďalšie formáty]]
+
+## Šablóny Importéra
+
+Importér vám umožňuje definovať [[Šablóny importéra|šablóny]], ktoré ovládajú spôsob importu poznámok z iných aplikácií. To znamená, že môžete upraviť nadpis, vlastnosti a obsah poznámok, ktoré importujete.
+
+Šablóny podporujú premenné a rovnaké [[Obsidian Web Clipper/Filtre|filtre]] a [[Obsidian Web Clipper/Logika|logiku šablón]] ako [[Úvod do Obsidian Web Clipper|Web Clipper]].

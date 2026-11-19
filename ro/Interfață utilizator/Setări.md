@@ -6,18 +6,17 @@ description: Aflați cum să personalizați Obsidian prin interfața de Setări.
 aliases:
   - Settings
 ---
-
 Setările vă permit să personalizați experiența dvs. Obsidian. Configurați opțiuni generale, preferințele editorului, personalizarea, combinațiile de taste și gestionați atât modulele de bază, cât și cele comunitare.
 
 ## Deschiderea Setărilor
 
 ### Desktop
 
-În [[Bara laterală#Deschiderea barelor laterale ascunse|bara laterală stângă]], selectați **[[Setări]]** ![[lucide-cog.svg#icon]]. De asemenea, puteți deschide Setările folosind [[Paleta de comenzi]].
+În [[Bara laterală#Deschiderea barelor laterale ascunse|bara laterală]], selectați **[[Setări]]** ![[lucide-cog.svg#icon]]. De asemenea, puteți deschide Setările folosind [[Paleta de comenzi]].
 
 ### Mobil
 
-În bara laterală stângă, selectați **[[Setări]]** ![[lucide-cog.svg#icon]].
+În bara laterală, selectați **[[Setări]]** ![[lucide-cog.svg#icon]]. Setările se deschid într-un panou peste aplicație.
 
 ## Organizarea setărilor
 
@@ -297,9 +296,11 @@ Setează fontul pentru locuri precum blocurile de cod și proprietățile. Selec
 
 Dimensiunea fontului în pixeli, care afectează vizualizările de editare și citire. Ajustați folosind cursorul.
 
+Dimensiunea fontului este salvată separat pe fiecare dispozitiv și nu se sincronizează prin [[Introducere în Obsidian Sync|Obsidian Sync]]. Pe mobil, textul și elementele interfeței se scalează, de asemenea, cu dimensiunea de text preferată a sistemului dvs., inclusiv dimensiunile de accesibilitate.
+
 #### Reglați rapid dimensiunea fontului
 
-Ajustați dimensiunea fontului folosind `Ctrl+Scroll` (Windows/Linux) sau `Cmd+Scroll` (macOS), sau folosind gestul de zoom cu ciupire pe trackpad.
+Ajustați dimensiunea fontului folosind `Ctrl+Scroll` (Windows/Linux) sau `Cmd+Scroll` (macOS), sau folosind gestul de zoom cu ciupire pe trackpad. De asemenea, puteți folosi **Mărește dimensiunea fontului** și **Micșorează dimensiunea fontului** din [[Paleta de comenzi]], sau le puteți atribui [[Combinații de taste|combinații de taste]].
 
 ### Interfață
 

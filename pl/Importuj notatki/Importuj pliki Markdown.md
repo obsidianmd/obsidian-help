@@ -16,7 +16,7 @@ Użyj oficjalnej [[Importer|wtyczki Importer]], gdy chcesz wybrać foldery w ram
 
 1. Otwórz **[[Ustawienia|Ustawienia]] → Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Włącz wtyczkę Importer.
-3. Otwórz **Importer** za pomocą [[Lista poleceń|palety poleceń]] lub ikony na wstążce.
+3. Otwórz Importer w Ustawieniach lub za pomocą [[Lista poleceń|palety poleceń]].
 4. W polu **Format pliku** wybierz **Markdown (.md, .zip)**.
 5. Wybierz pojedyncze pliki Markdown, foldery lub archiwa zip.
 6. Przejrzyj wykryte foldery, opcje wyjściowe, wygenerowany szablon i podgląd przykładów.

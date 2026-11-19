@@ -201,7 +201,25 @@ views:
 - A `name` a megjelenített név, és az alapértelmezett nézet meghatározására is használható.
 - A `filters` pontosan ugyanúgy működik, mint fent leírtuk, de csak az adott nézetre vonatkozik.
 - A `groupBy` egy tulajdonságot és rendezési irányt ad meg. A megadott tulajdonság értéke alapján kerülnek az egyes sorok csoportokba.
+- A `groupOrder` meghatározza a csoportok sorrendjét és láthatóságát. Ha jelen van, csak azok a csoportok jelennek meg, amelyek értékei szerepelnek a listában, az ott megadott sorrendben. Üres lista az összes csoportot elrejti. Távolítsd el a `groupOrder`-t az összes csoport megjelenítéséhez a `groupBy` által meghatározott sorrendben.
 - A `summaries` tulajdonságneveket rendel hozzá elnevezett összegzésekhez. Az összegzések aggregálást végeznek az adott tulajdonságon az összes soron keresztül.
+
+Például ez a nézet csak a Planned, In progress és Done csoportokat jeleníti meg, ebben a sorrendben:
+
+```yaml
+views:
+  - type: kanban
+    name: Projects
+    groupBy:
+      property: note.status
+      direction: ASC
+    groupOrder:
+      - Planned
+      - In progress
+      - Done
+```
+
+Használd a `null` értéket a `groupOrder`-ben azon fájlok beillesztéséhez, amelyeknek nincs értékük a csoportosított tulajdonságra.
 
 A [[Nézetek|nézetek]] további adatokat tárolhatnak az állapot fenntartásához vagy a megfelelő megjelenítéshez szükséges információkkal, azonban a bővítményfejlesztőknek ügyelniük kell arra, hogy ne használjanak olyan kulcsokat, amelyeket az alap Bázisok bővítmény már használ. Például egy táblázat nézet ezzel korlátozhatja a sorok számát vagy kiválaszthatja, melyik oszlop szerint és milyen irányban rendezze a sorokat. Egy másik nézettípus, például egy térkép, ezzel határozhatja meg, melyik jegyzet-tulajdonság felel meg a szélességi és hosszúsági foknak, és melyik tulajdonság jelenjen meg a gombostű címeként.
 
@@ -287,7 +305,7 @@ A globális `today()` [[Függvények|függvény]] az aktuális dátum lekérés�
 - `now() + "1 day"` pontosan 24 órával a végrehajtás időpontja utáni dátumot és időt ad vissza.
 - `file.mtime > now() - "1 week"` `true` értéket ad vissza, ha a fájl az elmúlt héten módosult.
 - `date("2024-12-01") + "1M" + "4h" + "3m"` egy `2025-01-01 04:03:00` dátumot reprezentáló Dátum objektumot ad vissza.
-- Két dátum kivonásával megkapod a köztük lévő különbséget ezredmásodpercben, például `now() - file.ctime`.
+- Két dátum kivonásával időtartamot kapsz, például `note.release_date - today()`.
 - Egy időt is tartalmazó dátumból a dátumrész kinyeréséhez használd a `datetime.date()` függvényt.
 - Egy Dátum objektum formázásához használd a `format()` függvényt, például `datetime.format("YYYY-MM-DD")`.
 
@@ -336,7 +354,8 @@ A dátumok egy adott dátumot, vagy dátumot és időt jelölnek, a létrehozás
 
 - Dátum létrehozásához használd a `date` függvényt, például `date("2025-01-01 12:00:00")`
 - Dátum módosításához adj hozzá vagy vonj le egy időtartamot, például `now() + "1 hour"` vagy `today() + "7d"`
-- Dátumok összehasonlítása összehasonlító operátorokkal (pl. `>` vagy `<`) és aritmetikai operátorokkal (például `(now() + "1d") - now()` `86400000` ezredmásodpercet ad vissza.)
+- Dátumok összehasonlítása összehasonlító operátorokkal, például `>` vagy `<`.
+- Két dátum kivonásával időtartamot kapsz, például `note.release_date - today()`.
 - Dátum egyes részeinek kinyeréséhez használd az elérhető mezőket (`now().hour`) vagy kényelmi függvényeket (`now.time()`).
 - Számos további [[Függvények|mező és függvény]] érhető el dátum objektumokon.
 
@@ -350,7 +369,7 @@ A dátumok egy adott dátumot, vagy dátumot és időt jelölnek, a létrehozás
 
 A [[Jegyzetek összekapcsolása|wikihivatkozások]] a [[Tulajdonságok|metaadat-tulajdonságokban]] automatikusan Hivatkozás objektumként ismerhetők fel. A hivatkozások kattintható hivatkozásként jelennek meg a [[Nézetek|nézetben]].
 
-- Hivatkozás létrehozásához használd a globális `link` [[Függvények|függvényt]], például `link("filename")` vagy `link("https://obsidian.md")`.
+- Hivatkozás létrehozásához használd a globális `link` [[Függvények|függvényt]], például `link("filename")`.
 - Bármely szövegből létrehozhatsz hivatkozást, például `link(file.ctime.date().toString())`.
 - A megjelenített szöveg beállításához adj meg egy opcionális szöveget vagy ikont második paraméterként, például `link("filename", "display")` vagy `link("filename", icon("plus"))`.
 
@@ -361,3 +380,10 @@ A hivatkozások `==` és `!=` operátorokkal hasonlíthatók össze. Egyenérté
 A hivatkozások összehasonlíthatók fájlokkal, mint a `file` vagy `this`. Egyenlőek, ha a hivatkozás az adott fájlra oldódik fel. Például `author == this`.
 
 A hivatkozások lista-tartalmazás ellenőrzésben is használhatók, például `authors.contains(this)`.
+
+### URL-ek
+
+A [[Tulajdonságok|metaadat-tulajdonságokban]] található URL-ek automatikusan URL objektumként ismerhetők fel. Az URL-ek kattintható hivatkozásként jelennek meg a [[Nézetek|nézetben]].
+
+- URL létrehozásához használd a globális `link` [[Függvények|függvényt]], például `link("https://obsidian.md")`.
+- A megjelenített szöveg beállításához adj meg egy opcionális szöveget második paraméterként, például `link("https://obsidian.md", "Obsidian")`.

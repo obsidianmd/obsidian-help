@@ -11,11 +11,14 @@ Di bagian atas basis terdapat bilah alat yang memungkinkan Anda berinteraksi den
 
 - ![[lucide-table.svg#icon]] **Menu tampilan** — membuat, mengubah, dan beralih tampilan.
 - **Hasil** — membatasi, menyalin, dan mengekspor file.
-- ![[lucide-arrow-up-down.svg#icon]] **Urutkan** — mengurutkan dan mengelompokkan file.
+- ![[lucide-arrow-up-down.svg#icon]] **Urutkan** — mengurutkan file.
+- ![[lucide-stretch-horizontal.svg#icon]] **Kelompok** — mengelompokkan file dan mengelola urutan serta visibilitas kelompok.
 - ![[lucide-list-filter.svg#icon]] **Filter** — menyaring file.
 - ![[lucide-list.svg#icon]] **Properti** — memilih properti yang ditampilkan dan membuat [[Rumus|rumus]].
 - ![[lucide-search.svg#icon]] **Cari** — mencari item menggunakan properti yang ditampilkan.
 - ![[lucide-plus.svg#icon]] **Baru** — membuat file baru dalam tampilan saat ini.
+
+Di ponsel, **Hasil**, **Urutkan**, ![[lucide-stretch-horizontal.svg#icon]] **Kelompok**, dan **Properti** berada di dalam menu ![[lucide-sliders-horizontal.svg#icon]] **Tampilan**.
 
 ## Tambah dan beralih tampilan
 
@@ -37,7 +40,7 @@ Atau *klik kanan* nama tampilan di bilah alat basis untuk mengakses pengaturan t
 
 ## Tata letak
 
-Tampilan dapat ditampilkan dengan tata letak berbeda termasuk ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **daftar**, ![[lucide-layout-grid.svg#icon]] **kartu**, ![[lucide-kanban-square.svg#icon]] **Kanban**, dan ![[lucide-map.svg#icon]] **peta**. Tata letak tambahan dapat ditambahkan melalui [[Plugin komunitas]]. Beberapa tata letak masih dalam pengembangan dan memerlukan [[Versi akses awal|versi akses awal]] Obsidian.
+Tampilan dapat ditampilkan dengan tata letak berbeda termasuk ![[lucide-table.svg#icon]] **tabel**, ![[lucide-list.svg#icon]] **daftar**, ![[lucide-layout-grid.svg#icon]] **kartu**, ![[lucide-kanban-square.svg#icon]] **Kanban**, dan ![[lucide-map.svg#icon]] **peta**. Tata letak tambahan dapat ditambahkan melalui [[Plugin komunitas]].
 
 | Tata letak                     | Deskripsi                                                                                                                   | Versi&nbsp;aplikasi |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------- |
@@ -83,16 +86,16 @@ Klik tombol kode ![[lucide-code-xml.svg#icon]] untuk menggunakan editor **filter
 
 ## Mengurutkan dan mengelompokkan hasil
 
-Buka menu ![[lucide-arrow-up-down.svg#icon]] **Urutkan** untuk mengurutkan dan mengelompokkan hasil dalam tampilan.
+Gunakan menu ![[lucide-arrow-up-down.svg#icon]] **Urutkan** untuk mengatur hasil, dan menu ![[lucide-stretch-horizontal.svg#icon]] **Kelompok** untuk mengorganisir item serupa ke dalam bagian.
 
 Anda dapat mengatur hasil berdasarkan satu atau lebih properti dalam urutan naik atau turun. Ini memudahkan untuk mendaftar catatan berdasarkan nama, waktu terakhir diedit, atau properti lainnya — termasuk rumus.
 
-Anda juga dapat mengelompokkan hasil berdasarkan properti untuk mengorganisir item serupa ke dalam bagian yang terpisah secara visual. Saat ini, Obsidian mendukung pengelompokan berdasarkan satu properti saja.
+Setiap tampilan dapat memiliki beberapa pengurutan, tetapi hanya dapat mengelompokkan hasil berdasarkan satu properti saja.
 
 ### Menambahkan pengurutan
 
 1. Buka menu ![[lucide-arrow-up-down.svg#icon]] **Urutkan** di bagian atas tampilan.
-2. Pilih properti yang ingin Anda gunakan untuk mengurutkan (atau mengelompokkan).
+2. Pilih **Tambahkan pengurutan**, lalu pilih properti yang ingin Anda gunakan untuk mengurutkan.
 3. Jika Anda memiliki beberapa pengurutan, seret ke atas atau ke bawah menggunakan pegangan ![[lucide-grip-vertical.svg#icon]] untuk mengubah prioritasnya.
 
 Opsi untuk mengurutkan hasil bergantung pada tipe properti:
@@ -104,7 +107,29 @@ Opsi untuk mengurutkan hasil bergantung pada tipe properti:
 ### Menghapus pengurutan
 
 1. Buka menu ![[lucide-arrow-up-down.svg#icon]] **Urutkan** di bagian atas tampilan.
-2. Klik tombol tempat sampah ![[lucide-trash-2.svg#icon]] di samping pengurutan atau pengelompokan yang ingin Anda hapus.
+2. Pilih tombol tempat sampah ![[lucide-trash-2.svg#icon]] di samping pengurutan yang ingin Anda hapus.
+
+### Mengelompokkan hasil
+
+1. Buka menu ![[lucide-stretch-horizontal.svg#icon]] **Kelompok** di bagian atas tampilan. Di ponsel, buka **Tampilan → Kelompok**.
+2. Di bawah **Kelompokkan berdasarkan**, pilih properti.
+3. Pilih urutan pengurutan otomatis, atau pilih **Manual** untuk mengurutkan kelompok sendiri.
+
+Untuk berhenti mengelompokkan hasil, pilih tombol tempat sampah ![[lucide-trash-2.svg#icon]] di samping properti pengelompokan.
+
+### Mengurutkan ulang, menyembunyikan, dan menambahkan kelompok
+
+Di menu ![[lucide-stretch-horizontal.svg#icon]] **Kelompok**, pilih **Manual** dari menu urutan pengurutan untuk mengelola kelompok mana yang muncul dan dalam urutan apa.
+
+- Centang kelompok untuk menampilkannya, atau hapus centang untuk menyembunyikannya. Pilih **Tampilkan semua** atau **Sembunyikan semua** untuk mengubah visibilitas semua kelompok.
+- Seret pegangan ![[lucide-grip-vertical.svg#icon]] di samping kelompok untuk mengubah posisinya.
+- Pilih **Tambah kelompok** dan masukkan nilai untuk menampilkan kelompok baru yang kosong. Ini tidak membuat catatan atau mengubah catatan yang ada.
+
+Untuk mengembalikan urutan kelompok otomatis dan menampilkan semua kelompok, pilih urutan pengurutan otomatis alih-alih **Manual**.
+
+### Menciutkan kelompok
+
+Di tata letak [[Tampilan tabel|tabel]], [[Tampilan kartu|kartu]], dan [[Tampilan daftar|daftar]], pilih judul kelompok untuk menciutkan atau memperluas kelompok tersebut. Menciutkan kelompok akan menyembunyikan itemnya sementara tanpa mengubah propertinya.
 
 ## Membatasi, menyalin, dan mengekspor hasil
 

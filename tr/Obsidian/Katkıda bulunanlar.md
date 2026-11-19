@@ -128,7 +128,7 @@ Obsidian aşağıdaki açık kaynak kütüphaneleri kullanmaktadır (alfabetik s
 
 ### Capacitor
 
-Versiyon `5.x`
+Versiyon `7.0.0`
 MIT Lisansı
 Telif Hakkı (c) 2017-günümüz Drifty Co.
 
@@ -140,12 +140,13 @@ Telif Hakkı (C) 2018 Marijn Haverbeke <marijnh@gmail.com>, Adrian Heine <mail@a
 
 ### DOMPurify
 
+Versiyon `3.4.17`
 https://github.com/cure53/DOMPurify
 [Mozilla Public License sürüm 2.0](http://mozilla.org/MPL/2.0/) kapsamında lisanslanmıştır
 
 ### Electron
 
-Versiyon `43.1.1`
+Versiyon `44.9.3`
 MIT Lisansı
 Telif Hakkı (c) Electron katkıda bulunanları
 Telif Hakkı (c) 2013-2020 GitHub Inc.
@@ -162,23 +163,18 @@ Telif Hakkı (C) 2018-2021 Marijn Haverbeke <marijnh@gmail.com> ve diğerleri
 
 ### Lucide
 
-Versiyon `0.446.0`
+Versiyon `1.14.0`
 ISC Lisansı
 Telif Hakkı (c) 2020, Lucide Katkıda Bulunanları ^lucide
 
 ### MathJax
 
+Versiyon `4.1.3`
 Apache Lisansı 2.0
-
-### Mermaid
-
-Versiyon `11.13.0`
-MIT Lisansı
-Telif Hakkı (c) 2014 - 2022 Knut Sveidqvist
 
 ### Moment.js
 
-Versiyon `2.30.1`
+Versiyon `2.31.0`
 MIT Lisansı
 Telif Hakkı (c) JS Foundation ve diğer katkıda bulunanlar
 
@@ -186,14 +182,21 @@ Telif Hakkı (c) JS Foundation ve diğer katkıda bulunanlar
 
 Apache Lisansı 2.0
 
+### Pele
+
+Versiyon `1.12.0`
+MIT Lisansı
+Telif Hakkı (c) 2026 kepano
+
 ### PixiJS
 
+Versiyon `7.2.4`
 MIT Lisansı
 Telif Hakkı (c) 2013-2017 Mathew Groves, Chad Engler
 
 ### Prism
 
-Versiyon `1.29.0`
+Versiyon `1.30.0`
 MIT Lisansı
 Telif Hakkı (c) 2012 Lea Verou
 
@@ -210,9 +213,9 @@ Telif Hakkı (c) 2011-2014, Christopher Jeffrey (https://github.com/chjj/)
 
 ### reveal.js
 
-Versiyon `4.3.1`
+Versiyon `6.0.2`
 MIT Lisansı
-Telif Hakkı (C) 2011-2022 Hakim El Hattab, http://hakim.se ve reveal.js katkıda bulunanları
+Telif Hakkı (C) 2011-2026 Hakim El Hattab, http://hakim.se ve reveal.js katkıda bulunanları
 
 ### scrypt
 
@@ -220,6 +223,7 @@ Apache Lisansı 2.0
 
 ### Turndown
 
+Versiyon `7.2.0`
 MIT Lisansı
 Telif Hakkı (c) 2017 Dom Christie
 

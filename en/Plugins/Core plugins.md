@@ -41,8 +41,6 @@ The Obsidian team also maintains the development of certain [[#Other plugins|ope
 	-  Recover your work from regular snapshots.
 - [[Footnotes view]]
 	- Show a list of footnotes from the current note.
-- [[Format converter]]
-	- Convert Markdown from other apps to Obsidian format.
 - [[Graph view]]
 	- Visualize relationships between notes in your vault.
 - [[Note composer]]

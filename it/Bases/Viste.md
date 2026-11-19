@@ -13,11 +13,14 @@ In cima a una base c'è una barra degli strumenti che ti permette di interagire 
 
 - ![[lucide-table.svg#icon]] **Menu vista** — crea, modifica e passa da una vista all'altra.
 - **Risultati** — limita, copia ed esporta file.
-- ![[lucide-arrow-up-down.svg#icon]] **Ordina** — ordina e raggruppa file.
+- ![[lucide-arrow-up-down.svg#icon]] **Ordina** — ordina file.
+- ![[lucide-stretch-horizontal.svg#icon]] **Raggruppa** — raggruppa file e gestisci ordine e visibilità dei gruppi.
 - ![[lucide-list-filter.svg#icon]] **Filtro** — filtra file.
 - ![[lucide-list.svg#icon]] **Proprietà** — scegli le proprietà da visualizzare e crea [[Formule|formule]].
 - ![[lucide-search.svg#icon]] **Cerca** — cerca elementi usando le proprietà visualizzate.
 - ![[lucide-plus.svg#icon]] **Nuovo** — crea un nuovo file nella vista corrente.
+
+Sui telefoni, **Risultati**, **Ordina**, ![[lucide-stretch-horizontal.svg#icon]] **Raggruppa** e **Proprietà** si trovano nel menu ![[lucide-sliders-horizontal.svg#icon]] **Visualizzazione**.
 
 ## Aggiungere e cambiare vista
 
@@ -39,7 +42,7 @@ In alternativa, fai *clic destro* sul nome della vista nella barra degli strumen
 
 ## Layout
 
-Le viste possono essere visualizzate con diversi layout, tra cui ![[lucide-table.svg#icon]] **tabella**, ![[lucide-list.svg#icon]] **elenco**, ![[lucide-layout-grid.svg#icon]] **schede**, ![[lucide-kanban-square.svg#icon]] **Kanban**, e ![[lucide-map.svg#icon]] **mappa**. Layout aggiuntivi possono essere aggiunti tramite [[Plugin della comunità|Plugin della comunità]]. Alcuni layout sono ancora in fase di sviluppo e richiedono le [[Versioni ad accesso anticipato|versioni ad accesso anticipato]] di Obsidian.
+Le viste possono essere visualizzate con diversi layout, tra cui ![[lucide-table.svg#icon]] **tabella**, ![[lucide-list.svg#icon]] **elenco**, ![[lucide-layout-grid.svg#icon]] **schede**, ![[lucide-kanban-square.svg#icon]] **Kanban**, e ![[lucide-map.svg#icon]] **mappa**. Layout aggiuntivi possono essere aggiunti tramite [[Plugin della comunità|Plugin della comunità]].
 
 | Layout                          | Descrizione                                                                                                                        | Versione&nbsp;app |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
@@ -85,16 +88,16 @@ Fai clic sul pulsante codice ![[lucide-code-xml.svg#icon]] per usare l'editor **
 
 ## Ordinare e raggruppare i risultati
 
-Apri il menu ![[lucide-arrow-up-down.svg#icon]] **Ordina** per ordinare e raggruppare i risultati in una vista.
+Usa il menu ![[lucide-arrow-up-down.svg#icon]] **Ordina** per disporre i risultati, e il menu ![[lucide-stretch-horizontal.svg#icon]] **Raggruppa** per organizzare elementi simili in sezioni.
 
 Puoi disporre i risultati per una o più proprietà in ordine crescente o decrescente. Questo rende facile elencare le note per nome, data di ultima modifica o qualsiasi altra proprietà — incluse le formule.
 
-Puoi anche raggruppare i risultati per una proprietà per organizzare elementi simili in sezioni visivamente distinte. Attualmente, Obsidian supporta il raggruppamento per una sola proprietà.
+Ogni vista può avere diversi ordinamenti, ma può raggruppare i risultati per una sola proprietà.
 
 ### Aggiungere un ordinamento
 
 1. Apri il menu ![[lucide-arrow-up-down.svg#icon]] **Ordina** in cima alla vista.
-2. Scegli la proprietà per cui vuoi ordinare (o raggruppare).
+2. Seleziona **Aggiungi ordinamento**, poi scegli la proprietà per cui vuoi ordinare.
 3. Se hai più ordinamenti, trascinali su o giù usando la maniglia ![[lucide-grip-vertical.svg#icon]] per cambiarne la priorità.
 
 Le opzioni per l'ordinamento dei risultati dipendono dal tipo di proprietà:
@@ -106,7 +109,29 @@ Le opzioni per l'ordinamento dei risultati dipendono dal tipo di proprietà:
 ### Rimuovere un ordinamento
 
 1. Apri il menu ![[lucide-arrow-up-down.svg#icon]] **Ordina** in cima alla vista.
-2. Fai clic sul pulsante cestino ![[lucide-trash-2.svg#icon]] accanto all'ordinamento o raggruppamento che vuoi rimuovere.
+2. Seleziona il pulsante cestino ![[lucide-trash-2.svg#icon]] accanto all'ordinamento che vuoi rimuovere.
+
+### Raggruppare i risultati
+
+1. Apri il menu ![[lucide-stretch-horizontal.svg#icon]] **Raggruppa** in cima alla vista. Sui telefoni, apri **Visualizzazione → Raggruppa**.
+2. Sotto **Raggruppa per**, scegli una proprietà.
+3. Scegli un ordinamento automatico, oppure seleziona **Manuale** per ordinare i gruppi manualmente.
+
+Per interrompere il raggruppamento dei risultati, seleziona il pulsante cestino ![[lucide-trash-2.svg#icon]] accanto alla proprietà di raggruppamento.
+
+### Riordinare, nascondere e aggiungere gruppi
+
+Nel menu ![[lucide-stretch-horizontal.svg#icon]] **Raggruppa**, seleziona **Manuale** dal menu di ordinamento per gestire quali gruppi appaiono e in quale ordine.
+
+- Spunta un gruppo per mostrarlo, o deselezionalo per nasconderlo. Seleziona **Mostra tutto** o **Nascondi tutto** per cambiare la visibilità di tutti i gruppi.
+- Trascina la maniglia ![[lucide-grip-vertical.svg#icon]] accanto a un gruppo per cambiarne la posizione.
+- Seleziona **Aggiungi gruppo** e inserisci un valore per mostrare un nuovo gruppo vuoto. Questo non crea una nota né modifica le note esistenti.
+
+Per ripristinare l'ordine automatico dei gruppi e mostrarli tutti, scegli un ordinamento automatico al posto di **Manuale**.
+
+### Comprimere i gruppi
+
+Nei layout [[Vista tabella|tabella]], [[Vista schede|schede]] ed [[Vista lista|elenco]], seleziona l'intestazione di un gruppo per comprimerlo o espanderlo. Comprimere un gruppo nasconde temporaneamente i suoi elementi senza modificarne le proprietà.
 
 ## Limitare, copiare ed esportare i risultati
 

@@ -7,6 +7,8 @@ ObsidianクレジットはObsidianのサービスやライセンスの購入に�
 
 Obsidianクレジットは自動更新を含むすべての支払いに先立って適用されます。Obsidianクレジットは[[返金ポリシー]]に基づき返金の対象**外**です。
 
+Obsidianクレジットはアカウントを保持している限り有効期限はありません。
+
 ## クレジットの追加
 
 1. [Obsidianアカウント](https://obsidian.md/ja/account/billing)にログインします。
