@@ -62,6 +62,12 @@ Examples:
 - `{% if not hidden %}` — negation
 - `{% if (premium or featured) and published %}` — grouped conditions
 
+Each side of a logical operator must be a complete expression. For example, to check if a string contains one of several values:
+
+```twig
+{% if title contains "review" or title contains "opinion" or title contains "editorial" %}
+```
+
 ### Truthiness
 
 When a variable is used without a comparison operator, it's evaluated for "truthiness":

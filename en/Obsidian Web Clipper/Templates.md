@@ -10,7 +10,7 @@ To **create** a template go to Web Clipper settings and click the **New template
 
 To **edit** a template choose a template from the sidebar. Your changes will be saved automatically.
 
-Templates make use of [[Variables]] and [[Filters]], which allow you to tailor how content will be saved.
+Templates make use of [[Variables]], [[Filters]], and [[Logic]], which allow you to tailor how content will be saved.
 
 ## Import and export Web Clipper templates
 

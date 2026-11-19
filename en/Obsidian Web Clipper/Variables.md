@@ -105,7 +105,7 @@ Schema variables allow you to extract data from [schema.org](https://schema.org/
 
 - `{{schema:@Type:key}}` returns the value of the key from the schema.
 - `{{schema:@Type:parent.child}}` returns the value of a nested property.
-- `{{schema:@Type:arrayKey}}` returns the first item in an array.
+- `{{schema:@Type:arrayKey}}` returns the whole array. Use `{{schema:@Type:arrayKey[0]}}` to return its first item.
 - `{{schema:@Type:arrayKey[index].property}}` returns the item at the specified index in an array.
 - `{{schema:@Type:arrayKey[*].property}}` returns a specific property from all items in an array.
 
