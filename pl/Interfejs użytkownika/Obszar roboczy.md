@@ -10,7 +10,7 @@ Przestrzeń robocza jest głównym kontenerem dla wszystkich komponentów, któr
 
 W aplikacji desktopowej Obsidian przestrzeń robocza zawiera:
 
-- [[Wstążka|Wstążkę]] umieszczoną pionowo po lewej stronie aplikacji
+- [[Pasek boczny|Wstążkę]] umieszczoną pionowo po lewej stronie aplikacji
 - [[Panel boczny|Panele boczne]] po lewej i prawej stronie (można je zwinąć)
     - [[Panel boczny#Grupy kart|Grupy kart panelu bocznego]] (można je dzielić pionowo)
     - [[Panel boczny#Karty|Karty panelu bocznego]]
@@ -27,5 +27,5 @@ W aplikacji mobilnej Obsidian przestrzeń robocza zawiera:
 - [[Menu więcej opcji#Urządzenia mobilne|Menu więcej opcji]] dla aktywnej notatki
 - [[Panel boczny|Panele boczne]] (otwierane gestem przesunięcia w lewo i w prawo)
 - [[Aplikacja mobilna#Pasek nawigacji|Pasek nawigacji]] na dole ekranu
-- [[Wstążka|Wstążka]] na pasku nawigacji (zawiera konfigurowalne akcje)
+- [[Pasek boczny|Wstążka]] na pasku nawigacji (zawiera konfigurowalne akcje)
 - [[Aplikacja mobilna|Pasek narzędzi edytora]] nad klawiaturą podczas edycji

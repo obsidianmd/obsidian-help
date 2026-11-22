@@ -6,7 +6,7 @@ description: 'Podgląd grafu to podstawowa wtyczka, która pozwala wizualizować
 ---
 Podgląd grafu to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala wizualizować relacje między notatkami w twoim sejfie.
 
-Aby otworzyć podgląd grafu, kliknij **Otwórz podgląd grafu** we [[Wstążka|wstążce]].
+Aby otworzyć podgląd grafu, kliknij **Otwórz podgląd grafu** we [[Pasek boczny|wstążce]].
 
 - Koła reprezentują notatki, czyli _węzły_.
 - Linie reprezentują [[Łącza wewnętrzne]] między dwoma węzłami.

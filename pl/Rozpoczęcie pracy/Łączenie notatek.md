@@ -7,7 +7,7 @@ Choć Obsidian świetnie nadaje się do robienia notatek, jego prawdziwa siła t
 
 W tym kroku utworzysz dwie notatki i połączysz je za pomocą \[\[składni podwójnych nawiasów kwadratowych\]\].
 
-1. [[Stwórz swoją pierwszą notatkę|Stwórz notatkę]] o nazwie „Trzy zasady dynamiki":
+1. [[Utwórz swoją pierwszą notatkę|Stwórz notatkę]] o nazwie „Trzy zasady dynamiki":
 
    > Zasady dynamiki to trzy prawa sformułowane przez Isaaca Newtona, opisujące związek między ruchem obiektu a siłami na niego działającymi.
 

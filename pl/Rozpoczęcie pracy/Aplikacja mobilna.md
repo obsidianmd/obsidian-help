@@ -48,7 +48,7 @@ Oprócz czynności edycji możesz dodać globalne polecenia, takie jak **Zmień 
 
 W aplikacji mobilnej możesz zdefiniować jedną czynność, która jest wywoływana przez pociągnięcie w dół od góry aplikacji, podobnie jak odświeżanie w aplikacjach mediów społecznościowych.
 
-Domyślnie szybka czynność otwiera [[Lista poleceń|paletę poleceń]].
+Domyślnie szybka czynność otwiera [[Paleta poleceń|paletę poleceń]].
 
 ### Dostosowywanie szybkiej czynności
 
@@ -83,7 +83,7 @@ Po jej dotknięciu możesz przełączyć się na dowolną otwartą kartę. Może
 
 ### Czynności wstążki
 
-Aplikacja mobilna nie ma [[Wstążka|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
+Aplikacja mobilna nie ma [[Pasek boczny|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
 
 ### Panele boczne
 

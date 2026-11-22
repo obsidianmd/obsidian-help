@@ -4,7 +4,7 @@ publish: true
 mobile: false
 description: null
 ---
-Możesz zarządzać plikami i folderami na kilka sposobów, korzystając ze [[Skróty klawiszowe|skrótów klawiszowych]], [[Lista poleceń|poleceń]] lub [[Przeglądarka plików|przeglądarki plików]].
+Możesz zarządzać plikami i folderami na kilka sposobów, korzystając ze [[Skróty klawiszowe|skrótów klawiszowych]], [[Paleta poleceń|poleceń]] lub [[Eksplorator plików|przeglądarki plików]].
 
 ## Tworzenie nowej notatki
 
@@ -13,7 +13,7 @@ Aby utworzyć nowy plik:
 1. Naciśnij `Ctrl+N` (lub `Cmd+N` na macOS).
 2. Wprowadź nazwę notatki, a następnie naciśnij `Enter`, aby rozpocząć edycję notatki.
 
-Możesz także tworzyć notatki za pomocą [[Przeglądarka plików#Tworzenie nowej notatki|przeglądarki plików]] lub wybierając **Stwórz nową notatkę** z [[Lista poleceń|palety poleceń]].
+Możesz także tworzyć notatki za pomocą [[Eksplorator plików#Tworzenie nowej notatki|przeglądarki plików]] lub wybierając **Stwórz nową notatkę** z [[Paleta poleceń|palety poleceń]].
 
 > [!hint] Ograniczenia znaków systemu
 > Obsidian przestrzega ograniczeń nazw plików systemu operacyjnego, na którym tworzysz notatkę. Jeśli planujesz [[Synchronizuj notatki między urządzeniami|synchronizować notatki między urządzeniami]], upewnij się, że nazwy plików są [bezpieczne dla innych systemów operacyjnych](https://stackoverflow.com/q/1976007).
@@ -24,11 +24,11 @@ Możesz także tworzyć notatki za pomocą [[Przeglądarka plików#Tworzenie now
 Na komputerze możesz otwierać i edytować pojedyncze pliki Markdown spoza sejfu. Pliki otwierają się w bieżącym oknie i pozostają w swojej oryginalnej lokalizacji.
 
 > [!note] Wymaga Obsidian 1.14 i najnowszego instalatora
-> [[Aktualizacja Obsidian#Aktualizacje instalatora|Zaktualizuj instalator]], pobierając Obsidian ze strony [obsidian.md/download](https://obsidian.md/download) i ponownie instalując aplikację.
+> [[Aktualizuj Obsidian#Aktualizacje instalatora|Zaktualizuj instalator]], pobierając Obsidian ze strony [obsidian.md/download](https://obsidian.md/download) i ponownie instalując aplikację.
 
 Aby otworzyć plik Markdown:
 
-1. Otwórz [[Lista poleceń|paletę poleceń]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wybierz **Otwórz plik spoza skarbca...**.
 3. Wybierz plik Markdown na swoim komputerze.
 
@@ -49,15 +49,15 @@ Aby zmienić nazwę aktywnej notatki:
 
 Gdy zmieniasz nazwę pliku, Obsidian automatycznie aktualizuje wszystkie linki do tego pliku.
 
-Możesz zmienić nazwę notatki lub folderu bez ich otwierania, korzystając z [[Przeglądarka plików#Zmiana nazwy pliku lub folderu|przeglądarki plików]].
+Możesz zmienić nazwę notatki lub folderu bez ich otwierania, korzystając z [[Eksplorator plików#Zmiana nazwy pliku lub folderu|przeglądarki plików]].
 
 ## Usuwanie notatki
 
 Aby usunąć notatkę, wybierz **Więcej opcji → Usuń plik** w prawym górnym rogu aktywnej notatki.
 
-Możesz też wybrać **Usuń aktywny plik** z [[Lista poleceń|palety poleceń]].
+Możesz też wybrać **Usuń aktywny plik** z [[Paleta poleceń|palety poleceń]].
 
-Możesz również usunąć notatkę lub folder, korzystając z [[Przeglądarka plików#Usuwanie pliku lub folderu|przeglądarki plików]].
+Możesz również usunąć notatkę lub folder, korzystając z [[Eksplorator plików#Usuwanie pliku lub folderu|przeglądarki plików]].
 
 > [!note] Co dzieje się z plikami po ich usunięciu?
 > Aby zmienić sposób postępowania z usuniętymi plikami, wybierz jedną z poniższych opcji w **[[Ustawienia]] → Pliki i łącza**:

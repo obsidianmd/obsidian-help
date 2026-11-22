@@ -9,7 +9,7 @@ Istnieje wiele sposobów przeciągania i upuszczania elementów w Obsidian. Doty
 
 ### Źródła przeciągania
 
-- Możesz przeciągnąć plik lub wiele plików z [[Przeglądarka plików|przeglądarki plików]].
+- Możesz przeciągnąć plik lub wiele plików z [[Eksplorator plików|przeglądarki plików]].
 - Możesz przeciągnąć plik z wyniku [[Wyszukiwarka|wyszukiwania]].
 - Możesz przeciągnąć plik z [[Linki zwrotne|linków zwrotnych]] lub niepowiązanych odniesień.
 - Możesz przeciągnąć plik z linku wewnątrz notatki w trybie podglądu.
@@ -17,7 +17,7 @@ Istnieje wiele sposobów przeciągania i upuszczania elementów w Obsidian. Doty
 ### Miejsca docelowe upuszczania
 
 - Możesz upuścić plik na nagłówek karty, aby otworzyć tam plik. Przytrzymaj `Alt` (lub `Shift` na macOS), aby upuścić w dowolnym miejscu karty.
-- Możesz upuścić plik na folder w [[Przeglądarka plików|przeglądarce plików]], aby przenieść tam plik.
+- Możesz upuścić plik na folder w [[Eksplorator plików|przeglądarce plików]], aby przenieść tam plik.
 - Możesz upuścić plik do edytora, aby wstawić go jako link. Wygenerowany link uwzględnia również Twoje preferencje, takie jak ścieżki względne lub używanie łączy w formacie Markdown.
 - Możesz upuścić plik na kartę [[Ulubione]], aby dodać go do zakładek.
 

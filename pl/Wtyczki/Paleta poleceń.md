@@ -1,11 +1,11 @@
 ---
 permalink: plugins/command-palette
 ---
-[[Lista poleceń|Wtyczka]] Lista poleceń pozwala uruchomić dowolne polecenie bezpośrednio z klawiatury. Umożliwia także przeglądanie wszystkich dostępnych poleceń i ich [[Skróty klawiszowe|skrótów klawiszowych]].
+[[Paleta poleceń|Wtyczka]] Lista poleceń pozwala uruchomić dowolne polecenie bezpośrednio z klawiatury. Umożliwia także przeglądanie wszystkich dostępnych poleceń i ich [[Skróty klawiszowe|skrótów klawiszowych]].
 
 Aby uruchomić polecenie z Listy poleceń:
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć Listę poleceń. Możesz ją także otworzyć z [[Wstążka|wstążki]] za pomocą ikony Listy poleceń ![[lucide-terminal.svg#icon]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć Listę poleceń. Możesz ją także otworzyć z [[Pasek boczny|wstążki]] za pomocą ikony Listy poleceń ![[lucide-terminal.svg#icon]].
 2. Wpisz nazwę polecenia, które chcesz uruchomić.
 3. Przejdź do polecenia za pomocą klawiszy strzałek.
 4. Naciśnij `Enter`.

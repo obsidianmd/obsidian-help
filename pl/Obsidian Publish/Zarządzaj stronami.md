@@ -76,7 +76,7 @@ Strona to kolekcja notatek hostowana przez Obsidian Publish i dostępna online, 
 
 | Opcja                      | Typ         | Opis                                                                                                                                                    |
 |---------------------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pokaż menu                | Przełącznik | Włącz lub wyłącz widok [[Przeglądarka plików|przeglądarki plików]] na Twojej stronie Publish.                                                           |
+| Pokaż menu                | Przełącznik | Włącz lub wyłącz widok [[Eksplorator plików|przeglądarki plików]] na Twojej stronie Publish.                                                           |
 | Dostosuj menu              | Przycisk    | [[Dostosuj swoją stronę#Customize navigation\|Dostosuj]] kolejność wyświetlania plików, jeśli opcja **Pokaż menu** jest włączona.                     |
 | Pokaż pasek wyszukiwania  | Przełącznik | Włącz lub wyłącz pasek wyszukiwania na Twojej stronie.                                                                                                 |
 | Pokaż graf                | Przełącznik | Włącz lub wyłącz podgląd grafu w prawym panelu bocznym Twojej strony.                                                                                     |

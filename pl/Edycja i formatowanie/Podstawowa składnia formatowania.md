@@ -23,7 +23,7 @@ To jest kolejny akapit.
 Pusta linia między wierszami tekstu tworzy oddzielne akapity. Jest to domyślne zachowanie w Markdown.
 
 > [!tip]- Wiele pustych spacji
-> Wiele sąsiadujących pustych spacji wewnątrz i między akapitami jest zwijanych do pojedynczej spacji podczas wyświetlania w [[Podglądy i tryb edycji#Widok czytania|widoku czytania]] lub na stronach [[Wprowadzenie do Obsidian Publish|Obsidian Publish]].
+> Wiele sąsiadujących pustych spacji wewnątrz i między akapitami jest zwijanych do pojedynczej spacji podczas wyświetlania w [[Tryby edycji i odczytu#Widok czytania|widoku czytania]] lub na stronach [[Wprowadzenie do Obsidian Publish|Obsidian Publish]].
 > 
 > ```md
 > Wiele          sąsiadujących          spacji
@@ -160,7 +160,7 @@ Wyróżnienia obsługują sześć kolorów. Dodaj emoji koloru bezpośrednio po 
 
 Bez emoji koloru wyróżnienie używa domyślnego koloru wyróżnienia motywu.
 
-Możesz również wybrać kolor z menu formatowania. Wpisanie `==` w edytorze podpowiada kolory wyróżnień. W [[Podglądy i tryb edycji#Podgląd na żywo|podglądzie na żywo]] umieszczenie kursora wewnątrz wyróżnienia pokazuje próbkę koloru. Wybierz próbkę, aby zmienić kolor.
+Możesz również wybrać kolor z menu formatowania. Wpisanie `==` w edytorze podpowiada kolory wyróżnień. W [[Tryby edycji i odczytu#Podgląd na żywo|podglądzie na żywo]] umieszczenie kursora wewnątrz wyróżnienia pokazuje próbkę koloru. Wybierz próbkę, aby zmienić kolor.
 
 ## Łącza wewnętrzne
 
@@ -239,7 +239,7 @@ Możesz cytować tekst, dodając symbol `>` przed tekstem.
 \- Doug Engelbart, 1961
 
 > [!tip]- Wskazówka
-> Możesz zamienić swój cytat w [[Objaśnienia|blok wyróżnienia]], dodając `[!info]` jako pierwszą linię w cytacie.
+> Możesz zamienić swój cytat w [[Bloki informacyjne|blok wyróżnienia]], dodając `[!info]` jako pierwszą linię w cytacie.
 
 ## Listy
 
@@ -430,7 +430,7 @@ function fancyAlert(arg) {
 Obsidian używa Prism do podświetlania składni. Więcej informacji znajdziesz w sekcji [Obsługiwane języki](https://prismjs.com/#supported-languages).
 
 > [!info]+ PrismJS i widoki edycji
-> [[Podglądy i tryb edycji#Tryb źródłowy|Tryb źródłowy]] i [[Podglądy i tryb edycji#Podgląd na żywo|Podgląd na żywo]] nie obsługują PrismJS i mogą renderować podświetlanie składni w odmienny sposób.
+> [[Tryby edycji i odczytu#Tryb źródłowy|Tryb źródłowy]] i [[Tryby edycji i odczytu#Podgląd na żywo|Podgląd na żywo]] nie obsługują PrismJS i mogą renderować podświetlanie składni w odmienny sposób.
 
 #### Zagnieżdżanie bloków kodu
 

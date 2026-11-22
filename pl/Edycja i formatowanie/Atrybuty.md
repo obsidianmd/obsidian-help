@@ -12,7 +12,7 @@ Atrybuty pozwalają organizować informacje o notatce. Atrybuty zawierają ustru
 
 Istnieje kilka sposobów dodania atrybutu do notatki:
 
-- Użyj [[Lista poleceń|polecenia]] **Dodaj atrybut**.
+- Użyj [[Paleta poleceń|polecenia]] **Dodaj atrybut**.
 - Użyj [[Skróty klawiszowe|skrótu klawiszowego]] **`Cmd/Ctrl+;`**.
 - Wybierz **Dodaj atrybut** z [[Menu więcej opcji]] (wywoływanego ikoną trzech kropek lub kliknięciem prawym przyciskiem myszy na karcie).
 - Wpisz `---` na samym początku pliku.
@@ -71,7 +71,7 @@ Możesz używać [[Snippety CSS|snippetów CSS]], aby zmieniać wygląd konkretn
 
 Kilka funkcji nie jest obecnie obsługiwanych w Obsidian:
 
-- **Zagnieżdżone atrybuty**: Aby przeglądać zagnieżdżone atrybuty, zalecamy korzystanie z [[Podglądy i tryb edycji#Tryb źródłowy|trybu źródłowego]].
+- **Zagnieżdżone atrybuty**: Aby przeglądać zagnieżdżone atrybuty, zalecamy korzystanie z [[Tryby edycji i odczytu#Tryb źródłowy|trybu źródłowego]].
 - **Masowa edycja atrybutów**: Do zaawansowanej masowej edycji poza [[Panel atrybutów|panelem atrybutów]] zalecamy narzędzia takie jak VSCode, skrypty i wtyczki społeczności.
 - **Markdown w atrybutach**: Jest to celowe ograniczenie, ponieważ atrybuty są przeznaczone do małych, atomowych fragmentów informacji czytelnych zarówno dla ludzi, jak i maszyn.
 
@@ -282,9 +282,9 @@ Następujące domyślne atrybuty mogą być używane z [[Wprowadzenie do Obsidia
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
 | `publish`     | Zobacz [[Opublikuj swoją zawartość#Automatyczne wybieranie danych do publikacji\|Automatyczne wybieranie danych do publikacji]]. |
 | `permalink`   | Zobacz [[Łącza stałe\|Łącza stałe]].                                                                      |
-| `description` | Zobacz [[Podglądy linków w mediach społecznościowych#Opis\|Opis]].                                         |
-| `image`       | Zobacz [[Podglądy linków w mediach społecznościowych#Obraz\|Obraz]].                                       |
-| `cover`       | Zobacz [[Podglądy linków w mediach społecznościowych#Obraz\|Obraz]].                                       |
+| `description` | Zobacz [[Podglądy łączy w mediach społecznościowych#Opis\|Opis]].                                         |
+| `image`       | Zobacz [[Podglądy łączy w mediach społecznościowych#Obraz\|Obraz]].                                       |
+| `cover`       | Zobacz [[Podglądy łączy w mediach społecznościowych#Obraz\|Obraz]].                                       |
 
 ### Przestarzałe atrybuty
 
@@ -296,4 +296,4 @@ Te atrybuty zostały uznane za przestarzałe w Obsidian 1.4 i powinny zostać za
 | `alias` | Przestarzały alias dla `aliases`. |
 | `cssclass` | Przestarzały alias dla `cssclasses`. |
 
-> [!tip] Jeśli potrzebujesz przekonwertować pliki w swoim sejfie do formatu [[#Domyślne atrybuty|domyślnych atrybutów]], możesz użyć [[Konwerter formatowania]], aby zmienić cały sejf masowo.
+> [!tip] Jeśli potrzebujesz przekonwertować pliki w swoim sejfie do formatu [[#Domyślne atrybuty|domyślnych atrybutów]], możesz użyć [[Konwerter formatu]], aby zmienić cały sejf masowo.

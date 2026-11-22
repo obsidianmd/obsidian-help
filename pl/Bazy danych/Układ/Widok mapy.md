@@ -1,7 +1,7 @@
 ---
 permalink: bases/views/map
 ---
-Mapa to typ [[Podglądy|podglądu]], którego możesz używać w [[Wprowadzenie do baz danych|bazach danych]]. Wymaga zainstalowania [wtyczki Maps](obsidian://show-plugin?id=maps).
+Mapa to typ [[Widoki|podglądu]], którego możesz używać w [[Wprowadzenie do baz danych|bazach danych]]. Wymaga zainstalowania [wtyczki Maps](obsidian://show-plugin?id=maps).
 
 Wybierz ![[lucide-map.svg#icon]]  **Mapa** z menu podglądu, aby wyświetlić pliki jako interaktywną mapę ze znacznikami dla każdego pliku oraz podglądem wyświetlającym właściwości danego pliku.
 
@@ -44,7 +44,7 @@ Możesz również otworzyć te [przykładowe pliki](https://github.com/obsidianm
 
 ## Ustawienia
 
-Ustawienia podglądu mapy można skonfigurować w [[Podglądy#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia podglądu mapy można skonfigurować w [[Widoki#Ustawienia podglądu|Ustawieniach podglądu]].
 
 - Wysokość osadzenia
 - Współrzędne środka
@@ -56,7 +56,7 @@ Ustawienia podglądu mapy można skonfigurować w [[Podglądy#Ustawienia podglą
 
 #### Współrzędne
 
-Aby wyświetlić pinezki na mapie, przejdź do [[Podglądy#Ustawienia podglądu|ustawień podglądu]] i wybierz właściwość **współrzędne znacznika**. Właściwość musi zawierać współrzędne szerokości i długości geograficznej. Akceptowane są następujące formaty:
+Aby wyświetlić pinezki na mapie, przejdź do [[Widoki#Ustawienia podglądu|ustawień podglądu]] i wybierz właściwość **współrzędne znacznika**. Właściwość musi zawierać współrzędne szerokości i długości geograficznej. Akceptowane są następujące formaty:
 
 ```yaml
 # Właściwość tekstowa

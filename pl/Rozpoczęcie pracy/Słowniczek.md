@@ -13,7 +13,7 @@ Ten słowniczek zawiera powszechnie stosowaną terminologię Obsidian.
 
 ## Polecenie
 
-**Polecenie** to akcja, którą można wykonać, wybierając ją z [[Lista poleceń|palety poleceń]] lub przypisując do [[#Skrót klawiszowy|skrótu klawiszowego]].
+**Polecenie** to akcja, którą można wykonać, wybierając ją z [[Paleta poleceń|palety poleceń]] lub przypisując do [[#Skrót klawiszowy|skrótu klawiszowego]].
 
 ## Osadzanie
 
@@ -70,7 +70,7 @@ Zobacz także [[Okna wyskakujące]].
 
 **Wstążka** służy jako kontener na często używane ikony akcji.
 
-W wersji desktopowej jest to pionowa kolumna przycisków z ikonami na krawędzi aplikacji. Można ją włączyć lub wyłączyć w Ustawienia → Interfejs lub za pomocą [[Lista poleceń|palety poleceń]].
+W wersji desktopowej jest to pionowa kolumna przycisków z ikonami na krawędzi aplikacji. Można ją włączyć lub wyłączyć w Ustawienia → Interfejs lub za pomocą [[Paleta poleceń|palety poleceń]].
 
 W wersji mobilnej jest reprezentowana przez przycisk menu ![[lucide-menu.svg#icon]] na [[#Pasek stanu|pasku stanu]].
 

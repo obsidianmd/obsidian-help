@@ -68,11 +68,11 @@ Przeglądaj dostępne funkcje interfejsu w sekcjach **Przeglądanie strony** i *
 
 ### Dostosuj nawigację
 
-W Obsidian Publish masz możliwość dostosowania kolejności nawigacji oraz wyświetlania plików i folderów w [[Przeglądarka plików|przeglądarce plików]] Publish. Elementy nawigacji są domyślnie wyświetlane w kolejności publikacji. Notatki, które nie zostały opublikowane, nie pojawią się w tym panelu.
+W Obsidian Publish masz możliwość dostosowania kolejności nawigacji oraz wyświetlania plików i folderów w [[Eksplorator plików|przeglądarce plików]] Publish. Elementy nawigacji są domyślnie wyświetlane w kolejności publikacji. Notatki, które nie zostały opublikowane, nie pojawią się w tym panelu.
 
 #### Dostęp do opcji dostosowywania nawigacji
 
-1. Na [[Wstążka|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
+1. Na [[Pasek boczny|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Paleta poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
 2. W oknie dialogowym **Opublikuj zmiany** wybierz **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 3. W sekcji **Ustawienia komponentów**, obok **Dostosuj menu**, wybierz przycisk **Zarządzaj**.
 

@@ -15,12 +15,12 @@ Aby rozpocząć korzystanie z Canvas, najpierw musisz utworzyć plik do przechow
 
 **Paleta poleceń:**
 
-1. Otwórz [[Lista poleceń|paletę poleceń]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wybierz **Canvas: Stwórz nową tablicę**, aby utworzyć tablicę w tym samym folderze co aktywny plik.
 
 **Przeglądarka plików:**
 
-- W [[Przeglądarka plików|przeglądarce plików]] kliknij prawym przyciskiem myszy folder, w którym chcesz utworzyć tablicę.
+- W [[Eksplorator plików|przeglądarce plików]] kliknij prawym przyciskiem myszy folder, w którym chcesz utworzyć tablicę.
 - Wybierz **Nowa tablica**.
 
 **Wstążka:**
@@ -64,7 +64,7 @@ Możesz również dodać notatki z menu kontekstowego tablicy:
 1. Kliknij prawym przyciskiem myszy tablicę, a następnie wybierz **Dodaj notatkę z sejfu**.
 2. Wybierz notatkę, którą chcesz dodać.
 
-Możesz też dodać je do tablicy, przeciągając plik z [[Przeglądarka plików|przeglądarki plików]].
+Możesz też dodać je do tablicy, przeciągając plik z [[Eksplorator plików|przeglądarki plików]].
 
 Aby wyświetlić tylko część notatki na karcie, kliknij prawym przyciskiem myszy kartę i wybierz **Dopasuj do nagłówka...** lub **Dopasuj do bloku...**. Następnie wybierz nagłówek lub blok.
 
@@ -80,7 +80,7 @@ Możesz również dodać multimedia z menu kontekstowego tablicy:
 1. Kliknij prawym przyciskiem myszy tablicę, a następnie wybierz **Dodaj multimedia z sejfu**.
 2. Wybierz plik multimedialny, który chcesz dodać.
 
-Możesz też dodać je do tablicy, przeciągając plik z [[Przeglądarka plików|przeglądarki plików]].
+Możesz też dodać je do tablicy, przeciągając plik z [[Eksplorator plików|przeglądarki plików]].
 
 ### Dodawanie kart ze stron internetowych
 

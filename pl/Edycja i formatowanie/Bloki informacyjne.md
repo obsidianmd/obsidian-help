@@ -20,11 +20,11 @@ Aby utworzyć blok wyróżnienia, dodaj `[!info]` do pierwszego wiersza cytatu b
 > Obsługuje **Markdown**, [[Łącza wewnętrzne|odnośniki wiki]] i [[Osadzanie plików|osadzanie]]!
 > ![[Engelbart.jpg]]
 
-Możesz wstawić domyślny blok wyróżnienia `[!note]` za pomocą [[Lista poleceń|polecenia]] `Objaśnienie`. Kursor automatycznie ustawi się w polu nazwy bloku wyróżnienia, umożliwiając usunięcie domyślnej nazwy i wpisanie nowej przed edycją treści.
+Możesz wstawić domyślny blok wyróżnienia `[!note]` za pomocą [[Paleta poleceń|polecenia]] `Objaśnienie`. Kursor automatycznie ustawi się w polu nazwy bloku wyróżnienia, umożliwiając usunięcie domyślnej nazwy i wpisanie nowej przed edycją treści.
 
 Aby otoczyć istniejącą treść blokiem wyróżnienia, zaznacz tekst (w tym listy, bloki kodu itp.) i uruchom polecenie `Objaśnienie`. Zaznaczona treść zostanie automatycznie umieszczona w bloku wyróżnienia.
 
-W [[Podglądy i tryb edycji#Podgląd na żywo|podglądzie na żywo]] możesz również kliknąć prawym przyciskiem myszy nazwę bloku wyróżnienia, aby zmienić jego typ.
+W [[Tryby edycji i odczytu#Podgląd na żywo|podglądzie na żywo]] możesz również kliknąć prawym przyciskiem myszy nazwę bloku wyróżnienia, aby zmienić jego typ.
 
 
 ### Zmiana tytułu

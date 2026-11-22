@@ -48,7 +48,7 @@ Aby utworzyć łącze w trybie edycji, użyj jednego z poniższych sposobów:
 
 - Wpisz `[[` w edytorze, a następnie wybierz plik, do którego chcesz utworzyć łącze.
 - Zaznacz tekst w edytorze, a następnie wpisz `[[`.
-- Otwórz [[Lista poleceń|paletę poleceń]], a następnie wybierz Łącze wewnętrzne.
+- Otwórz [[Paleta poleceń|paletę poleceń]], a następnie wybierz Łącze wewnętrzne.
 
 Chociaż możesz tworzyć łącza do dowolnych [[Obsługiwane formaty plików|obsługiwanych formatów plików]], łącza do formatów innych niż Markdown muszą zawierać rozszerzenie pliku, na przykład `[[Figure 1.png]]`.
 

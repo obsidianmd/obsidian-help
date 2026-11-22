@@ -27,7 +27,7 @@ Jeśli chcesz zgłosić błąd w Obsidian, przejdź do [Bug reports](https://for
 
 Gdy napotkasz błąd lub potrzebujesz pomocy od [[#Kontakt ze wsparciem Obsidian|wsparcia Obsidian]], dostarczenie informacji debugowania może być bardzo pomocne. Oto jak je uzyskać:
 
-1. Otwórz [[Lista poleceń|paletę poleceń]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wpisz **Pokaż informacje debugowania**.
 3. Wybierz podświetloną opcję **Pokaż informacje debugowania**.
 4. Wybierz **Kopiuj do schowka**.

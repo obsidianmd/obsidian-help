@@ -23,7 +23,7 @@ Aby znaleźć notatki za pomocą wtyczki [[Wyszukiwarka]], użyj [[Wyszukiwarka#
 
 Możesz również wyszukiwać tagi, klikając je w swoich notatkach.
 
-Aby znaleźć notatki za pomocą wtyczki [[Panel tagów|Panel tagów]], wybierz **Tagi: Pokaż panel tagów** w [[Lista poleceń|palecie poleceń]], a następnie wybierz tag, który chcesz wyszukać.
+Aby znaleźć notatki za pomocą wtyczki [[Panel tagów|Panel tagów]], wybierz **Tagi: Pokaż panel tagów** w [[Paleta poleceń|palecie poleceń]], a następnie wybierz tag, który chcesz wyszukać.
 
 ## Zagnieżdżone tagi
 

@@ -11,7 +11,7 @@ Konwerter formatowania przenosi [[Atrybuty#Przestarzałe atrybuty|przestarzałe 
 
 Aby przekonwertować atrybuty w notatkach:
 
-1. Otwórz [[Lista poleceń|paletę poleceń]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wybierz **Konwerter formatowania: Przenoszenie metadanych**.
 3. Wybierz **Rozpocznij konwertowanie**.
 

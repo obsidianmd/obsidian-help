@@ -108,11 +108,11 @@ Kliknij prawym przyciskiem myszy plik lub folder w Przeglądarce plików.
 **Pliki**
 
 - **Otwórz w nowej karcie** i **Otwórz po prawej** otwierają plik w nowej karcie lub w panelu po prawej stronie.
-- **Otwórz w nowym oknie** otwiera plik w osobnym oknie. Zobacz [[Wyskakujące okna]].
+- **Otwórz w nowym oknie** otwiera plik w osobnym oknie. Zobacz [[Okna wyskakujące]].
 - **Duplikuj** tworzy kopię pliku.
 - **Przenieś plik do...** przenosi plik do innego folderu. Zobacz [[#Przenoszenie pliku lub folderu]].
-- **Dodaj do ulubionych...** dodaje plik do ulubionych. Wymaga wtyczki Zakładki. Zobacz [[Zakładki#Dodawanie zakładki]].
-- **Scal cały plik z...** łączy notatkę z inną. Wymaga wtyczki Kompozytor notatek. Zobacz [[Kompozytor notatek#Scalanie notatek]].
+- **Dodaj do ulubionych...** dodaje plik do ulubionych. Wymaga wtyczki Zakładki. Zobacz [[Ulubione#Dodawanie zakładki]].
+- **Scal cały plik z...** łączy notatkę z inną. Wymaga wtyczki Kompozytor notatek. Zobacz [[Edytor notatek#Scalanie notatek]].
 - **Opublikuj aktywny plik** publikuje notatkę na twojej stronie. Wymaga Obsidian Publish. Zobacz [[Wprowadzenie do Obsidian Publish|Publish]].
 - **Skopiuj ścieżkę** kopiuje lokalizację pliku jako adres URL Obsidian, ze ścieżką z folderu sejfu lub z katalogu głównego systemu.
 - **Otwórz historię wersji** pokazuje wcześniejsze wersje pliku. Wymaga aktywnej subskrypcji Obsidian Sync. Zobacz [[Historia wersji]].
@@ -128,7 +128,7 @@ Kliknij prawym przyciskiem myszy plik lub folder w Przeglądarce plików.
 - **Nowa baza danych** tworzy bazę danych w folderze. Zobacz [[Wprowadzenie do Baz danych]].
 - **Duplikuj** tworzy kopię folderu.
 - **Przenieś folder do...** przenosi folder do innego folderu.
-- **Szukaj w folderze** przeszukuje tylko pliki w danym folderze. Zobacz [[Wyszukiwanie]].
+- **Szukaj w folderze** przeszukuje tylko pliki w danym folderze. Zobacz [[Wyszukiwarka]].
 - **Dodaj do ulubionych...** dodaje folder do ulubionych.
 - **Skopiuj ścieżkę** kopiuje lokalizację folderu z folderu sejfu lub z katalogu głównego systemu.
 - **Pokaż w systemie plików** pokazuje folder w menedżerze plików — działa tak samo jak dla plików.

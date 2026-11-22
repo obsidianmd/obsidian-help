@@ -6,7 +6,7 @@ description: Ta strona stanowi wprowadzenie do składni baz danych w Obsidian.
 ---
 Kiedy [[Tworzenie bazy danych|tworzysz bazę danych]] w Obsidian, jest ona zapisywana jako plik `.base`. Bazy danych są zwykle edytowane za pomocą interfejsu aplikacji, ale ich składnię można również edytować ręcznie i osadzać w bloku kodu.
 
-Składnia [[Wprowadzenie do baz danych|baz danych]] definiuje [[Podglądy|podglądy]], filtry i [[Wzory|wzory]]. Bazy danych muszą być poprawnym YAML-em zgodnym ze schematem zdefiniowanym poniżej.
+Składnia [[Wprowadzenie do baz danych|baz danych]] definiuje [[Widoki|podglądy]], filtry i [[Wzory|wzory]]. Bazy danych muszą być poprawnym YAML-em zgodnym ze schematem zdefiniowanym poniżej.
 
 ## Przykład
 
@@ -221,7 +221,7 @@ views:
 
 Użyj `null` w `groupOrder`, aby uwzględnić pliki, które nie mają wartości dla grupowanej właściwości.
 
-[[Podglądy]] mogą dodawać dodatkowe dane do przechowywania wszelkich informacji potrzebnych do zachowania stanu lub prawidłowego renderowania, jednak autorzy wtyczek powinni unikać używania kluczy już wykorzystywanych przez wbudowaną wtyczkę baz danych. Przykładowo podgląd tabeli może używać tego do ograniczenia liczby wierszy lub wyboru kolumny sortowania i jej kierunku. Inny typ podglądu, taki jak mapa, mógłby używać tego do mapowania, która właściwość notatki odpowiada szerokości i długości geograficznej, a która powinna być wyświetlana jako tytuł pinezki.
+[[Widoki]] mogą dodawać dodatkowe dane do przechowywania wszelkich informacji potrzebnych do zachowania stanu lub prawidłowego renderowania, jednak autorzy wtyczek powinni unikać używania kluczy już wykorzystywanych przez wbudowaną wtyczkę baz danych. Przykładowo podgląd tabeli może używać tego do ograniczenia liczby wierszy lub wyboru kolumny sortowania i jej kierunku. Inny typ podglądu, taki jak mapa, mógłby używać tego do mapowania, która właściwość notatki odpowiada szerokości i długości geograficznej, a która powinna być wyświetlana jako tytuł pinezki.
 
 W przyszłości API pozwoli podglądom odczytywać i zapisywać te wartości, umożliwiając podglądowi budowanie własnego interfejsu konfiguracji.
 
@@ -334,7 +334,7 @@ Operatory logiczne mogą być używane do łączenia lub odwracania wartości lo
 
 ## Funkcje
 
-Zobacz [[Funkcje|listę funkcji]], które mogą być używane we wzorach i [[Podglądy|filtrach]].
+Zobacz [[Funkcje|listę funkcji]], które mogą być używane we wzorach i [[Widoki|filtrach]].
 
 ## Typy
 
@@ -367,7 +367,7 @@ Daty reprezentują konkretną datę lub datę i czas, w zależności od funkcji 
 
 ### Pliki i łącza
 
-[[Łączenie notatek|Odnośniki wiki]] we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty Link. Łącza będą renderowane jako klikalne linki w [[Podglądy|podglądzie]].
+[[Łączenie notatek|Odnośniki wiki]] we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty Link. Łącza będą renderowane jako klikalne linki w [[Widoki|podglądzie]].
 
 - Aby skonstruować łącze, użyj globalnej [[Funkcje|funkcji]] `link`, na przykład `link("filename")`.
 - Możesz utworzyć łącze z dowolnego ciągu znaków, na przykład `link(file.ctime.date().toString())`.
@@ -383,7 +383,7 @@ Obiekt File można zamienić na łącze za pomocą `file.asLink()` z opcjonalnym
 
 ### Adresy URL
 
-Adresy URL we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty URL. Adresy URL będą renderowane jako klikalne linki w [[Podglądy|podglądzie]].
+Adresy URL we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty URL. Adresy URL będą renderowane jako klikalne linki w [[Widoki|podglądzie]].
 
 - Aby skonstruować adres URL, użyj globalnej [[Funkcje|funkcji]] `link`, na przykład `link("https://obsidian.md")`.
 - Aby ustawić wyświetlany tekst, podaj opcjonalny ciąg znaków jako drugi parametr, na przykład `link("https://obsidian.md", "Obsidian")`.

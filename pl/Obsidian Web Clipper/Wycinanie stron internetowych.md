@@ -23,7 +23,7 @@ Domyślnie Web Clipper próbuje inteligentnie wyodrębnić jedynie główną tre
 
 Obrazy nie są automatycznie pobierane podczas korzystania z Web Clipper. Zamiast tego obrazy zawierają link do ich internetowego adresu URL. Oszczędza to miejsce w sejfie, ale oznacza, że obrazy nie będą dostępne offline ani gdy adres URL przestanie działać.
 
-Możesz pobrać obrazy dla dowolnego pliku w Obsidian za pomocą [[Lista poleceń|polecenia]] o nazwie **Pobierz załączniki aktywnego pliku**. To polecenie można również przypisać do skrótu klawiszowego w Obsidian.
+Możesz pobrać obrazy dla dowolnego pliku w Obsidian za pomocą [[Paleta poleceń|polecenia]] o nazwie **Pobierz załączniki aktywnego pliku**. To polecenie można również przypisać do skrótu klawiszowego w Obsidian.
 
 ## Skróty klawiszowe
 

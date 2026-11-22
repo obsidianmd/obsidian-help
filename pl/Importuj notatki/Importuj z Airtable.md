@@ -70,11 +70,11 @@ Airtable/
 ```
 
 - Jedna notatka na rekord, z polem podstawowym jako tytułem notatki i pozostałymi polami rekordu jako [[Atrybuty|atrybutami]].
-- Plik `.base` dla każdej tabeli, z każdym podglądem Airtable zmapowanym na [[Podglądy|podgląd bazy danych]]:
-	- **Grid** staje się [[Podgląd Tabela|podglądem tabeli]].
-	- **Gallery** staje się [[Podgląd Karty|podglądem kart]].
-	- **List** staje się [[Podgląd Lista|podglądem listy]].
-	- **Kanban** staje się [[Podgląd Kanban|podglądem kanban]] w Obsidian 1.14 i nowszych. Airtable nie udostępnia informacji o tym, według którego pola kanban jest grupowany, więc po zaimportowaniu należy [[Podgląd Kanban#Grupowanie kart w kolumny|wybrać atrybut do grupowania]]. Ponowny import zachowuje twój wybór.
+- Plik `.base` dla każdej tabeli, z każdym podglądem Airtable zmapowanym na [[Widoki|podgląd bazy danych]]:
+	- **Grid** staje się [[Widok tabeli|podglądem tabeli]].
+	- **Gallery** staje się [[Widok kart|podglądem kart]].
+	- **List** staje się [[Widok listy|podglądem listy]].
+	- **Kanban** staje się [[Widok Kanban|podglądem kanban]] w Obsidian 1.14 i nowszych. Airtable nie udostępnia informacji o tym, według którego pola kanban jest grupowany, więc po zaimportowaniu należy [[Widok Kanban#Grupowanie kart w kolumny|wybrać atrybut do grupowania]]. Ponowny import zachowuje twój wybór.
 - Typy pól Airtable są mapowane na typy atrybutów Obsidian, bez nadpisywania typów, które już zostały ustawione.
 - Połączone rekordy stają się linkami do odpowiednich notatek.
 - Załączniki są pobierane do sejfu zgodnie z ustawieniami sejfu.

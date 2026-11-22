@@ -4,7 +4,7 @@ publish: true
 mobile: true
 description: Ta strona opisuje funkcje używane w bazach danych Obsidian do manipulowania danymi z właściwości w filtrach i formułach.
 ---
-Funkcje są używane w [[Wprowadzenie do baz danych|bazach danych]] do manipulowania danymi z [[Atrybuty|właściwości]] w [[Podglądy#Filtry|filtrach]] i [[Wzory|wzorach]]. Zapoznaj się z referencją [[Składnia baz danych|składni baz danych]], aby dowiedzieć się więcej o tym, jak możesz używać funkcji.
+Funkcje są używane w [[Wprowadzenie do baz danych|bazach danych]] do manipulowania danymi z [[Atrybuty|właściwości]] w [[Widoki#Filtry|filtrach]] i [[Wzory|wzorach]]. Zapoznaj się z referencją [[Składnia baz danych|składni baz danych]], aby dowiedzieć się więcej o tym, jak możesz używać funkcji.
 
 Funkcje baz danych zachowują się zgodnie z JavaScript. Pełną dokumentację referencyjną znajdziesz na stronie [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 

@@ -22,7 +22,7 @@ Możesz dodawać elementy do ulubionych i organizować je w _grupy ulubionych_, 
 > [!todo]- Pokaż ulubione
 > Zapisane elementy znajdziesz, klikając **Ulubione** ![[lucide-bookmark.svg#icon]] na lewym panelu bocznym.
 >
-> Możesz też otworzyć kartę Ulubione, uruchamiając polecenie **Ulubione: Pokaż ulubione** z [[Lista poleceń|palety poleceń]].
+> Możesz też otworzyć kartę Ulubione, uruchamiając polecenie **Ulubione: Pokaż ulubione** z [[Paleta poleceń|palety poleceń]].
 
 ## Dodawanie zakładki
 
@@ -38,11 +38,11 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 >
 > **Przeglądarka plików**:
 >
-> - Kliknij prawym przyciskiem myszy plik w [[Przeglądarka plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
+> - Kliknij prawym przyciskiem myszy plik w [[Eksplorator plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wyszukaj polecenie **Dodaj do ulubionych**.
 > 3. Naciśnij `Enter` z wybranym poleceniem, aby dodać zakładkę.
 
@@ -50,7 +50,7 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 >
 > **Przeglądarka plików**:
 >
-> - Kliknij prawym przyciskiem myszy folder w [[Przeglądarka plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
+> - Kliknij prawym przyciskiem myszy folder w [[Eksplorator plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
 
 > [!todo]- Dodawanie wyszukiwanego terminu do ulubionych
 >
@@ -70,14 +70,14 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wybierz polecenie **Dodaj nagłówek pod kursorem do ulubionych**.
 
 > [!todo]- Dodawanie bloku do ulubionych
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wybierz polecenie **Dodaj blok pod kursorem do ulubionych**.
 
 > [!todo]- Dodawanie linku do ulubionych
@@ -89,7 +89,7 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS) w panelu [[Przeglądarka internetowa|przeglądarki internetowej]], aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS) w panelu [[Przeglądarka internetowa|przeglądarki internetowej]], aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wybierz polecenie **Dodaj do ulubionych**.
 
 ## Usuwanie zakładki

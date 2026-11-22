@@ -27,7 +27,7 @@ Aby stworzyć atrybut wzoru:
 
 Edytor wzorów automatycznie uzupełnia nazwy [[Funkcje|funkcji]] i atrybutów podczas pisania, walidując składnię wzoru. Zielony znacznik pojawia się, gdy wzór jest poprawny.
 
-Po utworzeniu możesz używać atrybutu wzoru jak każdego innego atrybutu w bazie danych. Dodawaj go do [[Podglądy|podglądów]], używaj w filtrach, sortuj według niego i nie tylko.
+Po utworzeniu możesz używać atrybutu wzoru jak każdego innego atrybutu w bazie danych. Dodawaj go do [[Widoki|podglądów]], używaj w filtrach, sortuj według niego i nie tylko.
 
 ## Pisanie wzoru
 

@@ -165,7 +165,7 @@ Otacza tekst znacznikami pogrubienia.
 
 ### `callout`
 
-Tworzy [[Objaśnienia|blok wyróżnienia]] z opcjonalnymi parametrami: `{{variable|callout:("type", "title", foldState)}}`
+Tworzy [[Bloki informacyjne|blok wyróżnienia]] z opcjonalnymi parametrami: `{{variable|callout:("type", "title", foldState)}}`
 
 - `type` to rodzaj objaśnienia, domyślnie "info"
 - `title` to tytuł objaśnienia, domyślnie pusty

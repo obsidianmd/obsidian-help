@@ -34,7 +34,7 @@ Obsidian obsługuje [CommonMark](https://commonmark.org/), [GitHub Flavored Mark
 | `` ``` ``       | [[Podstawowa składnia formatowania#Bloki kodu\|Bloki kodu]]                            |
 | `- [ ]`         | [[Podstawowa składnia formatowania#Listy zadań\|Nieukończone zadanie]]                 |
 | `- [x]`         | [[Podstawowa składnia formatowania#Listy zadań\|Ukończone zadanie]]                    |
-| `> [!note]`     | [[Objaśnienia]]                                                                        |
+| `> [!note]`     | [[Bloki informacyjne]]                                                                        |
 | (zobacz link)   | [[Zaawansowana składnia formatowania#Tabele\|Tabele]]                                  |
 
 Niektóre z nich, takie jak łącza wewnętrzne, komentarze i wyróżnienia, są specyficzne dla Obsidian. Inne aplikacje Markdown mogą wyświetlać je jako zwykły tekst.

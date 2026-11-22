@@ -25,7 +25,7 @@ Na telefonach opcje **Wyniki**, **Sortuj**, ![[lucide-stretch-horizontal.svg#ico
 Istnieją dwa sposoby dodania podglądu do bazy:
 
 - Kliknij nazwę podglądu w lewym górnym rogu i wybierz ![[lucide-plus.svg#icon]] **Dodaj podgląd**.
-- Użyj [[Lista poleceń|palety poleceń]] i wybierz **Bazy danych: Dodaj podgląd**.
+- Użyj [[Paleta poleceń|palety poleceń]] i wybierz **Bazy danych: Dodaj podgląd**.
 
 Pierwszy podgląd na liście podglądów będzie wczytywany domyślnie. Przeciągaj podglądy za ich ikonę, aby zmienić ich kolejność.
 
@@ -44,11 +44,11 @@ Podglądy mogą być wyświetlane z różnymi układami, w tym jako ![[lucide-ta
 
 | Układ                           | Opis                                                                                                                       | Wersja&nbsp;aplikacji |
 | ------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| [[Podgląd Tabela\|Tabela]]     | Wyświetla pliki jako wiersze w tabeli. Kolumny są wypełniane z [[Atrybuty|atrybutów]] w notatkach.                         | 1.9                   |
-| [[Podgląd Karty\|Karty]]       | Wyświetla pliki jako siatkę kart. Pozwala tworzyć podglądy typu galeria z obrazami.                                       | 1.9                   |
-| [[Podgląd Lista\|Lista]]       | Wyświetla pliki jako [[Podstawowa składnia formatowania#Listy\|listę]] z wypunktowanymi lub numerowanymi znacznikami.       | 1.10                  |
-| [[Podgląd Kanban\|Kanban]]     | Wyświetla pliki jako karty zorganizowane w kolumny na podstawie zgrupowanego atrybutu.                                     | 1.14                  |
-| [[Podgląd Mapa\|Mapa]]         | Wyświetla pliki jako pinezki na interaktywnej mapie. Wymaga wtyczki Mapy.                                                  | 1.10                  |
+| [[Widok tabeli\|Tabela]]     | Wyświetla pliki jako wiersze w tabeli. Kolumny są wypełniane z [[Atrybuty|atrybutów]] w notatkach.                         | 1.9                   |
+| [[Widok kart\|Karty]]       | Wyświetla pliki jako siatkę kart. Pozwala tworzyć podglądy typu galeria z obrazami.                                       | 1.9                   |
+| [[Widok listy\|Lista]]       | Wyświetla pliki jako [[Podstawowa składnia formatowania#Listy\|listę]] z wypunktowanymi lub numerowanymi znacznikami.       | 1.10                  |
+| [[Widok Kanban\|Kanban]]     | Wyświetla pliki jako karty zorganizowane w kolumny na podstawie zgrupowanego atrybutu.                                     | 1.14                  |
+| [[Widok mapy\|Mapa]]         | Wyświetla pliki jako pinezki na interaktywnej mapie. Wymaga wtyczki Mapy.                                                  | 1.10                  |
 
 
 ## Filtry
@@ -129,7 +129,7 @@ Aby przywrócić automatyczną kolejność grup i wyświetlić wszystkie grupy, 
 
 ### Zwijanie grup
 
-W układach [[Podgląd Tabela|tabela]], [[Podgląd Karty|karty]] i [[Podgląd Lista|lista]] kliknij nagłówek grupy, aby zwinąć lub rozwinąć tę grupę. Zwinięcie grupy tymczasowo ukrywa jej elementy bez zmiany ich atrybutów.
+W układach [[Widok tabeli|tabela]], [[Widok kart|karty]] i [[Widok listy|lista]] kliknij nagłówek grupy, aby zwinąć lub rozwinąć tę grupę. Zwinięcie grupy tymczasowo ukrywa jej elementy bez zmiany ich atrybutów.
 
 ## Ograniczanie, kopiowanie i eksportowanie wyników
 

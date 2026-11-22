@@ -17,7 +17,7 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Szablony importera|Importer]], któr�
 
 1. Otwórz **[[Ustawienia]] → Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Włącz wtyczkę Importer.
-3. Otwórz **Importer** za pomocą [[Lista poleceń|Palety poleceń]] lub ikony na wstążce.
+3. Otwórz **Importer** za pomocą [[Paleta poleceń|Palety poleceń]] lub ikony na wstążce.
 4. W polu **Format pliku** wybierz **Logseq**.
 5. W polu **Wybierz folder** wskaż folder główny swojego grafu. Wybierz folder zawierający `pages` i `journals`, a nie którykolwiek z tych folderów osobno.
 6. Przejrzyj wykryte foldery i wyklucz te, których nie chcesz importować.

@@ -15,7 +15,7 @@ Przestrzeń robocza zawiera informacje o otwartych plikach i kartach oraz szerok
 
 **Paleta poleceń:**
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 2. Wyszukaj polecenie **Zarządzaj układami przestrzeni roboczej**.
 3. Naciśnij `Enter`, gdy polecenie jest wybrane.
 4. Wprowadź nazwę przestrzeni roboczej.
@@ -32,7 +32,7 @@ Aby zaktualizować istniejący przestrzeń robocza, zapisz przestrzeń robocza z
 
 **Paleta poleceń:**
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 2. Wyszukaj polecenie **Zarządzaj układami przestrzeni roboczej**.
 3. Naciśnij `Enter`, gdy polecenie jest wybrane.
 4. Wybierz przestrzeń robocza do wczytania.
@@ -46,7 +46,7 @@ Aby zaktualizować istniejący przestrzeń robocza, zapisz przestrzeń robocza z
 
 **Paleta poleceń:**
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 2. Wyszukaj polecenie **Zarządzaj układami przestrzeni roboczej**.
 3. Naciśnij `Enter`, gdy polecenie jest wybrane.
 4. Obok przestrzeni roboczej, który chcesz usunąć, wybierz **Usuń układ** ![[lucide-x.svg#icon]].

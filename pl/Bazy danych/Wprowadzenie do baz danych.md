@@ -7,7 +7,7 @@ description: 'Twórz widoki notatek podobne do baz danych, sformatowane jako tab
 ---
 Bazy danych to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala tworzyć widoki notatek przypominające bazy danych. Korzystając z bazy, możesz przeglądać, edytować, sortować i filtrować pliki oraz ich [[Atrybuty|atrybuty]]. Bazy danych mogą pomóc w organizacji wszystkiego — od projektów po plany podróży, listy lektur i wiele więcej.
 
-Każda baza może mieć kilka [[Podglądy|podglądów]] z różnymi układami, takimi jak tabele i karty. Poniżej znajduje się przykład podglądu tabeli, w którym każdy wiersz to plik, a każda kolumna to atrybut tego pliku.
+Każda baza może mieć kilka [[Widoki|podglądów]] z różnymi układami, takimi jak tabele i karty. Poniżej znajduje się przykład podglądu tabeli, w którym każdy wiersz to plik, a każda kolumna to atrybut tego pliku.
 
 ![Przykład bazy danych pokazujący podgląd tabeli z listą książek](bases-noshadow.png#interface)
 
@@ -17,7 +17,7 @@ Wszystkie dane w bazach danych Obsidian są przechowywane w lokalnych plikach [[
 
 - [[Tworzenie bazy danych]]
 	- Dowiedz się, jak tworzyć i osadzać bazę danych.
-- [[Podglądy]]
+- [[Widoki]]
 	- Poznaj układy, filtrowanie, sortowanie i grupowanie atrybutów.
 - [[Wzory]]
 	- Twórz obliczenia na podstawie danych z innych atrybutów.
@@ -30,13 +30,13 @@ Wszystkie dane w bazach danych Obsidian są przechowywane w lokalnych plikach [[
 
 Podgląd może być wyświetlany z różnymi układami. Dodatkowe układy mogą być dodawane przez [[Wtyczki społeczności]].
 
-- [[Podgląd Tabela|Tabela]]
+- [[Widok tabeli|Tabela]]
 	- Wyświetlaj pliki jako wiersze z kolumnami pokazującymi atrybuty tych plików.
-- [[Podgląd Lista|Lista]]
+- [[Widok listy|Lista]]
 	- Wyświetlaj pliki jako listę z punktami lub numeracją.
-- [[Podgląd Karty|Karty]]
+- [[Widok kart|Karty]]
 	- Wyświetlaj pliki jako siatkę. Pozwala tworzyć podglądy galerii z obrazami.
-- [[Podgląd Kanban|Kanban]]
+- [[Widok Kanban|Kanban]]
 	- Wyświetlaj pliki jako karty uporządkowane w kolumny na podstawie zgrupowanego atrybutu.
-- [[Podgląd Mapa|Mapa]]
+- [[Widok mapy|Mapa]]
 	- Wyświetlaj pliki jako pinezki na interaktywnej mapie.

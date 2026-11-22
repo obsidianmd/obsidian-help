@@ -11,7 +11,7 @@ Obsidian otwiera pliki PDF we wbudowanej przeglądarce. Możesz także osadzić 
 
 ## Otwieranie PDF
 
-W [[Przeglądarka plików|Przeglądarce plików]] wybierz PDF, aby otworzyć go w karcie.
+W [[Eksplorator plików|Przeglądarce plików]] wybierz PDF, aby otworzyć go w karcie.
 
 > [!info]+ Adnotacje nie są obsługiwane
 > Obsidian nie obsługuje dodawania adnotacji ani wyróżnień do pliku PDF. Aby oznaczyć PDF, użyj innej aplikacji, a następnie otwórz zaktualizowany plik w swoim sejfie.
@@ -97,7 +97,7 @@ Aby wyświetlić PDF wewnątrz notatki, zobacz jak [[Osadzanie plików#Osadzanie
 Możesz wyeksportować dowolną notatkę jako PDF na komputerze i urządzeniu mobilnym (eksport mobilny dodano w wersji 1.15). Niektóre ustawienia eksportu mogą się różnić między komputerem a urządzeniem mobilnym.
 
 1. Otwórz notatkę, którą chcesz wyeksportować.
-2. Otwórz [[Lista poleceń|Paletę poleceń]] i wybierz **Eksportuj do PDF**. Możesz także wybrać **Więcej opcji** ![[lucide-more-horizontal.svg#icon]] w notatce, a następnie wybrać **Eksportuj do PDF**.
+2. Otwórz [[Paleta poleceń|Paletę poleceń]] i wybierz **Eksportuj do PDF**. Możesz także wybrać **Więcej opcji** ![[lucide-more-horizontal.svg#icon]] w notatce, a następnie wybrać **Eksportuj do PDF**.
 3. Wybierz ustawienia.
     - **Dołącz nazwę pliku jako tytuł** dodaje nazwę pliku na górze PDF.
     - **Wielkość strony** ustawia rozmiar papieru. Możesz wybrać A3, A4, A5, Legal, Letter lub Tabloid.

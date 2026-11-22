@@ -7,7 +7,7 @@ Skróty klawiszowe różnią się od [[Skróty edycji|systemowych skrótów klaw
 
 ## Wyświetlanie skrótów klawiszowych
 
-Najszybszym sposobem na sprawdzenie skrótu klawiszowego przypisanego do polecenia jest znalezienie go w [[Lista poleceń|Palecie poleceń]]. Jeśli skrót klawiszowy jest wymieniony przy danym poleceniu, oznacza to, że jest ustawiony.
+Najszybszym sposobem na sprawdzenie skrótu klawiszowego przypisanego do polecenia jest znalezienie go w [[Paleta poleceń|Palecie poleceń]]. Jeśli skrót klawiszowy jest wymieniony przy danym poleceniu, oznacza to, że jest ustawiony.
 
 Możesz również przeglądać i zarządzać wszystkimi skrótami klawiszowymi w **[[Ustawienia]] → Skróty klawiszowe**.
 

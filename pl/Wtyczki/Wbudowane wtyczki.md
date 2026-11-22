@@ -24,9 +24,9 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 	- Nagrywaj i zapisuj nagrania audio bezpośrednio w notatce.
 - [[Dziennik]]
 	- Twórz i otwieraj notatki na podstawie bieżącej daty.
-- [[Przeglądarka plików]]
+- [[Eksplorator plików]]
 	- Przeglądaj pliki i foldery w swoim sejfie.
-- [[Kompozytor notatek]]
+- [[Edytor notatek]]
 	- Połącz dwie notatki lub podziel jedną na dwie.
 - [[Konspekt]]
 	- Wyświetlaj spis treści dla aktywnej notatki.
@@ -36,7 +36,7 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 	- Wyświetlaj liczbę słów i znaków.
 - [[Linki zwrotne]]
 	- Przeglądaj wszystkie linki i niepowiązane wzmianki notatki.
-- [[Lista poleceń]]
+- [[Paleta poleceń]]
 	- Szybki dostęp do poleceń z poziomu klawiatury.
 - [[Losowa notatka]]
 	- Otwiera losową notatkę w Twoim sejfie.
@@ -70,7 +70,7 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 	- Znajduj pliki w swoim sejfie.
 - [[Tablica]]
 	- Organizuj notatki wizualnie na nieskończonej przestrzeni do rozmieszczania pomysłów.
-- [[Ukośnik poleceń]]
+- [[Polecenia po ukośniku]]
 	- Wykonuj polecenia w edytorze za pomocą klawisza `/`.
 - [[Ulubione]]
 	- Zapisuj linki do notatek, nagłówków, wyszukiwań i nie tylko.
@@ -83,5 +83,5 @@ Zespół Obsidian utrzymuje również wtyczki dostępne w sklepie wtyczek społe
 
 - [[Importer]]
 	- Konwertuj pliki z różnych aplikacji i formatów do Obsidian.
-- [[Podgląd Mapa|Mapy]]
+- [[Widok mapy|Mapy]]
 	- Dodaj widok mapy do baz danych Obsidian.

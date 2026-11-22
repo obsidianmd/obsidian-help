@@ -8,7 +8,7 @@ Użyj funkcji znajdź i zamień, aby szukać w aktywnej notatce. Aby szukać w c
 
 ## Otwieranie okna znajdź i zamień
 
-- Aby znaleźć tekst w aktywnej notatce, otwórz [[Lista poleceń|Listę poleceń]] i wybierz **Szukaj w aktywnym pliku**.
+- Aby znaleźć tekst w aktywnej notatce, otwórz [[Paleta poleceń|Listę poleceń]] i wybierz **Szukaj w aktywnym pliku**.
 - Aby znaleźć i zamienić tekst w aktywnej notatce, wybierz **Szukaj i zamień w aktywnym pliku** z palety poleceń.
 - Możesz również wybrać **Więcej opcji** ![[lucide-more-horizontal.svg#icon]] w notatce, a następnie wybrać **Znajdź...** lub **Zamień...**. Zobacz [[Menu więcej opcji]].
 

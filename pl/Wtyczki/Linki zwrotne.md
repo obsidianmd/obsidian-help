@@ -38,7 +38,7 @@ Dostępne są następujące opcje:
 Aby wyświetlić linki zwrotne dla aktywnej notatki, kliknij kartę **Linki zwrotne** ![[obsidian-icon-links-coming-in.svg#icon]] w prawym panelu bocznym.
 
 > [!note] Uwaga
-> Jeśli nie widzisz karty Linki zwrotne, możesz ją wyświetlić, otwierając [[Lista poleceń|paletę poleceń]] i uruchamiając polecenie **Linki zwrotne: Pokaż linki zwrotne**.
+> Jeśli nie widzisz karty Linki zwrotne, możesz ją wyświetlić, otwierając [[Paleta poleceń|paletę poleceń]] i uruchamiając polecenie **Linki zwrotne: Pokaż linki zwrotne**.
 
 > [!info] Pominięte pliki
 > Pliki pasujące do wzorców [[Ustawienia#Pominięte pliki|Pominięte pliki]] nie będą wyświetlane w Niepowiązanych wzmiankach.
@@ -49,7 +49,7 @@ Karta linków zwrotnych wyświetla linki zwrotne dla aktywnej notatki i aktualiz
 
 Aby otworzyć powiązaną kartę linków zwrotnych:
 
-1. Otwórz [[Lista poleceń|paletę poleceń]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wybierz **Linki zwrotne: Otwórz linki zwrotne do aktywnego pliku**.
 
 Obok aktywnej notatki otworzy się osobna karta. Karta wyświetla ikonę linku, aby poinformować, że jest powiązana z notatką.
@@ -60,7 +60,7 @@ Zamiast wyświetlać linki zwrotne w osobnej karcie, możesz pokazać linki zwro
 
 Aby pokazać linki zwrotne w notatce:
 
-1. Otwórz [[Lista poleceń|paletę poleceń]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wybierz **Linki zwrotne: Linki zwrotne w dokumencie**.
 
 Możesz też włączyć opcję **Linki zwrotne w dokumencie** w opcjach wtyczki Linki zwrotne, aby automatycznie przełączać linki zwrotne po otwarciu nowej notatki.

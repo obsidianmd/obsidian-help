@@ -12,11 +12,11 @@ Pliki można przenosić tylko między oknami powiązanymi z tym samym sejfem.
 
 **Przeglądarka plików:**
 
-W [[Przeglądarka plików|Przeglądarce plików]] kliknij prawym przyciskiem myszy notatkę i wybierz **Otwórz w nowym oknie**.
+W [[Eksplorator plików|Przeglądarce plików]] kliknij prawym przyciskiem myszy notatkę i wybierz **Otwórz w nowym oknie**.
 
 **Paleta poleceń:**
 
-W [[Lista poleceń|Palecie poleceń]] wybierz **Otwórz aktywną kartę w nowym oknie**.
+W [[Paleta poleceń|Palecie poleceń]] wybierz **Otwórz aktywną kartę w nowym oknie**.
 
 **Karta:**
 
@@ -28,11 +28,11 @@ Kliknij prawym przyciskiem myszy kartę i wybierz **Otwórz w nowym oknie**. Alt
 
 **Przeglądarka plików:**
 
-W [[Przeglądarka plików|Przeglądarce plików]] przeciągnij plik do grupy kart w oknie docelowym.
+W [[Eksplorator plików|Przeglądarce plików]] przeciągnij plik do grupy kart w oknie docelowym.
 
 **Paleta poleceń:**
 
-W [[Lista poleceń|Palecie poleceń]] wybierz **Przenieś aktualną kartę do nowego okna**.
+W [[Paleta poleceń|Palecie poleceń]] wybierz **Przenieś aktualną kartę do nowego okna**.
 
 **Karta:**
 

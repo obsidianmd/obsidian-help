@@ -30,4 +30,4 @@ Publish nie odczytuje danych z folderu konfiguracji. Zamiast tego musisz utworzy
 
 CSS Obsidian Publish nie jest dokładnie taki sam jak w aplikacji. Zalecamy [tworzenie CSS i motywów](https://docs.obsidian.md/Themes/Obsidian+Publish+themes/About+Obsidian+Publish+themes) specjalnie dla Publish od podstaw.
 
-_Ogólnie_ rzecz biorąc, to co działa w [[Podglądy i tryb edycji#Widok czytania|widoku czytania]] ma duże prawdopodobieństwo działania w Publish.
+_Ogólnie_ rzecz biorąc, to co działa w [[Tryby edycji i odczytu#Widok czytania|widoku czytania]] ma duże prawdopodobieństwo działania w Publish.

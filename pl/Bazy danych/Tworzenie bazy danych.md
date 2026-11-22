@@ -1,7 +1,7 @@
 ---
 permalink: bases/create-base
 ---
-[[Wprowadzenie do baz danych|bazy danych]] pozwalają tworzyć widoki notatek przypominające bazę danych. Oto jak możesz stworzyć bazę danych i osadzić ją w notatce. Każda baza danych może mieć jeden lub więcej [[Podglądy|podglądów]], aby wyświetlać informacje na różne sposoby.
+[[Wprowadzenie do baz danych|bazy danych]] pozwalają tworzyć widoki notatek przypominające bazę danych. Oto jak możesz stworzyć bazę danych i osadzić ją w notatce. Każda baza danych może mieć jeden lub więcej [[Widoki|podglądów]], aby wyświetlać informacje na różne sposoby.
 
 ## Stwórz nową bazę danych
 

@@ -1,7 +1,7 @@
 ---
 permalink: bases/views/table
 ---
-Tabela to rodzaj [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
+Tabela to rodzaj [[Widoki|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
 
 Wybierz ![[lucide-table.svg#icon]]  **Tabela** z menu podglądu, aby wyświetlić pliki jako tabelę z wierszem dla każdego pliku i kolumnami dla [[Atrybuty|atrybutów]] tego pliku.
 
@@ -9,7 +9,7 @@ Wybierz ![[lucide-table.svg#icon]]  **Tabela** z menu podglądu, aby wyświetli�
 
 ## Ustawienia
 
-Ustawienia podglądu tabeli można skonfigurować w [[Podglądy#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia podglądu tabeli można skonfigurować w [[Widoki#Ustawienia podglądu|Ustawieniach podglądu]].
 
 ### Wysokość wiersza
 
@@ -27,7 +27,7 @@ Podsumowania są powiązane z podglądem, a nie z bazą. Każdy podgląd może w
 2. Wybierz ![[lucide-calculator.svg#icon]] **Podsumuj…**.
 3. Wybierz jedną z wbudowanych funkcji podsumowania lub wybierz ![[lucide-square-function.svg#icon]] **Dodaj podsumowanie**, aby zdefiniować własne.
 
-Podsumowanie pojawia się na dole kolumny. Gdy wyniki są [[Podglądy#Sortowanie i grupowanie wyników|pogrupowane]], podsumowanie dla każdej grupy jest wyświetlane na górze grupy.
+Podsumowanie pojawia się na dole kolumny. Gdy wyniki są [[Widoki#Sortowanie i grupowanie wyników|pogrupowane]], podsumowanie dla każdej grupy jest wyświetlane na górze grupy.
 
 Po dodaniu paska podsumowania możesz dodać więcej podsumowań dla innych kolumn, klikając komórkę podsumowania. Pasek podsumowania jest ukryty, jeśli wszystkie podsumowania zostaną usunięte.
 

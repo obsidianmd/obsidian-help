@@ -9,7 +9,7 @@ Slajdy to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala tworzyć preze
 
 **Paleta poleceń:**
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|Paletę poleceń]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|Paletę poleceń]].
 2. Wyszukaj polecenie **Rozpocznij prezentację**.
 3. Naciśnij `Enter` po wybraniu polecenia, aby rozpocząć prezentację z aktywnej notatki.
 

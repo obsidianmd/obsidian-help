@@ -5,8 +5,8 @@ Dziennik to [[Wbudowane wtyczki|wbudowana wtyczka]], która otwiera notatkę na 
 
 Aby otworzyć dzisiejszy dziennik, możesz:
 
-- Kliknąć **Otwórz dzisiejszy dziennik** ![[lucide-calendar.svg#icon]] na [[Wstążka|wstążce]].
-- Uruchomić polecenie **Otwórz dzisiejszy dziennik** z [[Lista poleceń|palety poleceń]].
+- Kliknąć **Otwórz dzisiejszy dziennik** ![[lucide-calendar.svg#icon]] na [[Pasek boczny|wstążce]].
+- Uruchomić polecenie **Otwórz dzisiejszy dziennik** z [[Paleta poleceń|palety poleceń]].
 - [[Skróty klawiszowe#Ustawianie skrótu klawiszowego|Użyć skrótu klawiszowego]] dla polecenia **Otwórz dzisiejszy dziennik**.
 
 Domyślnie Obsidian tworzy nową pustą notatkę o nazwie odpowiadającej dzisiejszej dacie w formacie RRRR-MM-DD.
@@ -42,7 +42,7 @@ Obsidian użyje szablonu przy następnym tworzeniu nowej codziennej notatki.
 
 ## Dziennik a atrybuty
 
-Gdy wtyczka Dziennik jest aktywowana i w dowolnej notatce znajduje się atrybut daty, Obsidian automatycznie spróbuje wygenerować link do codziennej notatki dla tego konkretnego dnia. Na przykład, jeśli notatka o nazwie `example.md` zawiera atrybut daty `2023-01-01`, data ta zostanie przekształcona w klikalny link w sekcji [[Podglądy i tryb edycji#Podgląd na żywo|podglądu na żywo]].
+Gdy wtyczka Dziennik jest aktywowana i w dowolnej notatce znajduje się atrybut daty, Obsidian automatycznie spróbuje wygenerować link do codziennej notatki dla tego konkretnego dnia. Na przykład, jeśli notatka o nazwie `example.md` zawiera atrybut daty `2023-01-01`, data ta zostanie przekształcona w klikalny link w sekcji [[Tryby edycji i odczytu#Podgląd na żywo|podglądu na żywo]].
 
 ![[daily-notes-and-date-properties.png#interface|300]]
 ^daily-notes-date

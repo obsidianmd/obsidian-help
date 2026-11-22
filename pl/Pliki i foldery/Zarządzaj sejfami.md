@@ -5,7 +5,7 @@ permalink: manage-vaults
 
 Możesz zarządzać swoimi sejfami za pomocą **Przełącznika sejfów**. *Profil sejfu* otwiera się przy pierwszym uruchomieniu Obsidian.
 
-Aby otworzyć przełącznik sejfów z istniejącego sejfu, wybierz **Profil sejfu** ![[lucide-chevrons-up-down.svg#icon]] na dole [[Panel boczny|lewego panelu bocznego]]. Możesz też wybrać **Otwórz inny sejf** z [[Lista poleceń|palety poleceń]].
+Aby otworzyć przełącznik sejfów z istniejącego sejfu, wybierz **Profil sejfu** ![[lucide-chevrons-up-down.svg#icon]] na dole [[Panel boczny|lewego panelu bocznego]]. Możesz też wybrać **Otwórz inny sejf** z [[Paleta poleceń|palety poleceń]].
 
 ## Tworzenie nowego sejfu
 

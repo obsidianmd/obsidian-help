@@ -31,7 +31,7 @@ Możesz uzyskać dostęp do Publish na następujące sposoby: przez paletę pole
 
 #### Otwieranie przez paletę poleceń
 
-> [!info] Ta opcja wymaga włączonej wbudowanej wtyczki [[Lista poleceń|Paleta poleceń]].
+> [!info] Ta opcja wymaga włączonej wbudowanej wtyczki [[Paleta poleceń|Paleta poleceń]].
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
 
@@ -43,7 +43,7 @@ Okno **Opublikuj zmiany** pojawi się w nowym wyskakującym oknie.
 
 **Mobilny** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Otwórz [[Wstążka|Wstążkę]] ![[lucide-menu.svg#icon]].
+1. Otwórz [[Pasek boczny|Wstążkę]] ![[lucide-menu.svg#icon]].
 2. Otwórz **Paletę poleceń** ![[lucide-terminal.svg#icon]].
 3. Wpisz „Publish".
 4. Wybierz opcję **Publish: Opublikuj zmiany...**.
@@ -61,7 +61,7 @@ Menu **Opublikuj zmiany** pojawi się jako wysuwany panel.
 
 #### Otwieranie przez wstążkę
 
-Możesz także uzyskać dostęp do Obsidian Publish przez [[Wstążka|wstążkę]].
+Możesz także uzyskać dostęp do Obsidian Publish przez [[Pasek boczny|wstążkę]].
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
 
@@ -72,7 +72,7 @@ Okno **Opublikuj zmiany** pojawi się w nowym wyskakującym oknie.
 
 **Mobilny** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Otwórz [[Wstążka|Wstążkę]] ![[lucide-menu.svg#icon]].
+1. Otwórz [[Pasek boczny|Wstążkę]] ![[lucide-menu.svg#icon]].
 2. Wybierz ikonę **Opublikuj zmiany** ![[lucide-send.svg#icon]].
 
 Menu **Opublikuj zmiany** pojawi się jako wysuwany panel.
@@ -107,4 +107,4 @@ Skonfigurowałeś stronę Obsidian Publish i opublikowałeś swoje pierwsze nota
 Teraz, gdy opublikowałeś swoje pierwsze notatki, możesz chcieć:
 - Skonfigurować niestandardową domenę dla swojej strony: [[Niestandardowe domeny]]
 - Poznać zaawansowane opcje dostosowywania strony: [[Dostosuj swoją stronę]]
-- Dowiedzieć się, jak dodać karty mediów społecznościowych: [[Podglądy linków w mediach społecznościowych]]
+- Dowiedzieć się, jak dodać karty mediów społecznościowych: [[Podglądy łączy w mediach społecznościowych]]

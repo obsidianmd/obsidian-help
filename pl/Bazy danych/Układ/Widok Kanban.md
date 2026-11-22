@@ -1,7 +1,7 @@
 ---
 permalink: bases/views/kanban
 ---
-Kanban to typ [[Podglądy|podglądu]], którego możesz używać w [[Wprowadzenie do baz danych|Bazach danych]].
+Kanban to typ [[Widoki|podglądu]], którego możesz używać w [[Wprowadzenie do baz danych|Bazach danych]].
 
 Wybierz ![[lucide-kanban-square.svg#icon]] **Kanban** z menu podglądu, aby wyświetlić pliki jako karty zorganizowane w kolumny. Każda kolumna reprezentuje wartość właściwości użytej do grupowania wyników.
 
@@ -20,19 +20,19 @@ Podgląd Kanban wymaga właściwości do grupowania wyników.
 Pliki bez wartości dla wybranej właściwości pojawiają się w kolumnie **Brak wartości**.
 
 > [!info] 
-> Jeśli grupujesz według wzoru lub właściwości pliku innej niż `file.folder`, nie możesz przenosić kart ani kolumn, ani tworzyć notatek z kolumn. Nadal możesz [[Podglądy#Zmienianie kolejności, ukrywanie i dodawanie grup|zarządzać kolejnością i widocznością grup]] w menu **Grupuj**.
+> Jeśli grupujesz według wzoru lub właściwości pliku innej niż `file.folder`, nie możesz przenosić kart ani kolumn, ani tworzyć notatek z kolumn. Nadal możesz [[Widoki#Zmienianie kolejności, ukrywanie i dodawanie grup|zarządzać kolejnością i widocznością grup]] w menu **Grupuj**.
 
 ## Praca z kartami i kolumnami
 
 - Przeciągnij kartę do innej kolumny, aby zaktualizować zgrupowaną właściwość w danej notatce. Między kolumnami można przenosić tylko notatki Markdown, z wyjątkiem grupowania według `file.folder`, gdzie przeniesienie karty przenosi plik do tego folderu.
 - Wybierz ikonę plusa w nagłówku kolumny lub ![[lucide-plus.svg#icon]] **Nowe** na dole kolumny, aby utworzyć notatkę z wartością tej kolumny.
 - Przeciągnij nagłówek kolumny, aby zmienić kolejność kolumn. Aby przywrócić automatyczną kolejność, otwórz **Grupuj** i wybierz automatyczną kolejność sortowania zamiast **Ręcznie**.
-- Użyj **Grupuj**, aby [[Podglądy#Zmienianie kolejności, ukrywanie i dodawanie grup|zmieniać kolejność, ukrywać lub dodawać kolumny]].
+- Użyj **Grupuj**, aby [[Widoki#Zmienianie kolejności, ukrywanie i dodawanie grup|zmieniać kolejność, ukrywać lub dodawać kolumny]].
 - Użyj menu ![[lucide-list.svg#icon]] **Atrybuty**, aby wybrać właściwości wyświetlane na każdej karcie. Pierwsza właściwość jest wyświetlana jako tytuł karty.
 
 ## Ustawienia
 
-Ustawienia podglądu Kanban można skonfigurować w [[Podglądy#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia podglądu Kanban można skonfigurować w [[Widoki#Ustawienia podglądu|Ustawieniach podglądu]].
 
 - Szerokość kolumny
 - Atrybut obrazu
@@ -45,7 +45,7 @@ Określa szerokość każdej kolumny i jej kart.
 
 ### Atrybut obrazu
 
-Karty Kanban obsługują opcjonalną okładkę wyświetlaną na górze karty. Obsługiwane wartości właściwości są takie same jak w przypadku [[Podgląd Karty#Atrybut obrazu|atrybutu obrazu w podglądzie Karty]].
+Karty Kanban obsługują opcjonalną okładkę wyświetlaną na górze karty. Obsługiwane wartości właściwości są takie same jak w przypadku [[Widok kart#Atrybut obrazu|atrybutu obrazu w podglądzie Karty]].
 
 ### Dopasowanie obrazu
 

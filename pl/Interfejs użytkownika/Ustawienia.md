@@ -10,7 +10,7 @@ Ustawienia pozwalają dostosować Obsidian do własnych potrzeb. Konfiguruj ogó
 
 ### Komputer
 
-Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
+Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Paleta poleceń|palety poleceń]].
 
 ### Urządzenia mobilne
 
@@ -83,11 +83,11 @@ Gdy otworzysz łącze w nowej karcie, przejdź do niej natychmiast.
 
 ### Domyślny tryb podglądu nowych kart
 
-Domyślny podgląd, w którym otwierana jest nowa karta z plikiem Markdown. Wybierz między [[Podglądy i tryb edycji#Widok czytania|widokiem czytania]] a [[Podglądy i tryb edycji#Tryb edycji|trybem edycji]].
+Domyślny podgląd, w którym otwierana jest nowa karta z plikiem Markdown. Wybierz między [[Tryby edycji i odczytu#Widok czytania|widokiem czytania]] a [[Tryby edycji i odczytu#Tryb edycji|trybem edycji]].
 
 ### Domyślny tryb edycji
 
-Domyślny tryb edycji, w którym otworzy się nowa karta. Wybierz między [[Podglądy i tryb edycji#Podgląd na żywo|podglądem na żywo]] a [[Podglądy i tryb edycji#Tryb źródłowy|trybem źródłowym]].
+Domyślny tryb edycji, w którym otworzy się nowa karta. Wybierz między [[Tryby edycji i odczytu#Podgląd na żywo|podglądem na żywo]] a [[Tryby edycji i odczytu#Tryb źródłowy|trybem źródłowym]].
 
 ### Pokaż tryb na pasku stanu
 
@@ -298,7 +298,7 @@ Rozmiar czcionki jest zapisywany osobno na każdym urządzeniu i nie jest synchr
 
 #### Szybka regulacja rozmiaru czcionki
 
-Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie. Możesz również użyć poleceń **Zwiększ rozmiar czcionki** i **Zmniejsz rozmiar czcionki** w [[Lista poleceń|palecie poleceń]] lub przypisać im [[Skróty klawiszowe|skróty klawiszowe]].
+Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie. Możesz również użyć poleceń **Zwiększ rozmiar czcionki** i **Zmniejsz rozmiar czcionki** w [[Paleta poleceń|palecie poleceń]] lub przypisać im [[Skróty klawiszowe|skróty klawiszowe]].
 
 ### Interfejs
 
@@ -312,14 +312,14 @@ Wyświetla tytuł na górze każdej karty.
 
 #### Wyświetl menu wstążki
 
-Wyświetla pionowy pasek narzędzi z boku okna. Dowiedz się więcej o [[Wstążka|wstążce]].
+Wyświetla pionowy pasek narzędzi z boku okna. Dowiedz się więcej o [[Pasek boczny|wstążce]].
 
 #### Konfiguracja menu wstążki
 
 Wybierz elementy wyświetlane w menu wstążki. Wybierz **Zarządzaj**, aby dostosować.
 
 > [!info]+ Konfiguracja wstążki na urządzeniach mobilnych
-> Na urządzeniach mobilnych dostosowywanie wstążki działa inaczej. Zobacz [[Wstążka#Urządzenia mobilne|Dostosowywanie wstążki na urządzeniach mobilnych]], aby uzyskać szczegóły.
+> Na urządzeniach mobilnych dostosowywanie wstążki działa inaczej. Zobacz [[Pasek boczny#Urządzenia mobilne|Dostosowywanie wstążki na urządzeniach mobilnych]], aby uzyskać szczegóły.
 
 ### Zaawansowane
 

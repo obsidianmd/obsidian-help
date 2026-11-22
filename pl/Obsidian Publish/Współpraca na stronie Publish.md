@@ -12,7 +12,7 @@ Tylko właściciel strony potrzebuje aktywnej subskrypcji Obsidian Publish. Wsp�
 
 ## Dodawanie współpracownika do strony
 
-1. Na [[Wstążka|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
+1. Na [[Pasek boczny|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Paleta poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
 2. W oknie dialogowym **Opublikuj zmiany** kliknij **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 3. Obok **Współpraca na stronie** wybierz **Zarządzaj**.
 4. W polu **Zaproś użytkownika** wpisz adres e-mail współpracownika.
@@ -20,7 +20,7 @@ Tylko właściciel strony potrzebuje aktywnej subskrypcji Obsidian Publish. Wsp�
 
 ## Usuwanie współpracownika ze strony
 
-1. Na [[Wstążka|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
+1. Na [[Pasek boczny|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Paleta poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
 2. W oknie dialogowym **Opublikuj zmiany** kliknij **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 3. Obok **Współpraca na stronie** wybierz **Zarządzaj**.
 4. Obok współpracownika, którego chcesz usunąć, wybierz **Usuń użytkownika** ![[lucide-x.svg#icon]].
@@ -31,7 +31,7 @@ Obsidian Publish nie synchronizuje opublikowanych zmian między lokalnymi sejfam
 
 Aby zaktualizować lokalną notatkę zmianami ze strony na żywo:
 
-1. Na [[Wstążka|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
+1. Na [[Pasek boczny|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Paleta poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
 2. Kliknij prawym przyciskiem myszy lub przytrzymaj zmianę, którą chcesz zsynchronizować, a następnie wybierz **Używaj wersji publicznej**. **Spowoduje to nadpisanie notatki w Twoim lokalnym sejfie.**
 
 > [!tip] Zalecamy korzystanie z innego narzędzia do synchronizacji zmian między sejfami, takiego jak [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] lub [git](https://git-scm.com/).

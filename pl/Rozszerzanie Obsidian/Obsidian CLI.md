@@ -260,7 +260,7 @@ title=<title>      # tytuł zakładki
 
 ## Paleta poleceń
 
-Polecenia dla [[Lista poleceń]] i [[Skróty klawiszowe]]. Obejmuje to wszystkie polecenia zarejestrowane przez wtyczki.
+Polecenia dla [[Paleta poleceń]] i [[Skróty klawiszowe]]. Obejmuje to wszystkie polecenia zarejestrowane przez wtyczki.
 
 ### `commands`
 
@@ -1266,7 +1266,7 @@ characters         # zwróć tylko liczbę znaków
 
 ## Przestrzeń robocza
 
-Polecenia dla [[Przestrzeń robocza]] i wtyczki [[Obszary robocze]].
+Polecenia dla [[Obszar roboczy]] i wtyczki [[Obszary robocze]].
 
 ### `workspace`
 

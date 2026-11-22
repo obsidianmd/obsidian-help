@@ -25,7 +25,7 @@ Na każdym urządzeniu korzystającym ze zdalnego sejfu otwórz **[[Ustawienia]]
 - **Pominięte foldery**
 - Ustawienia specyficzne dla urządzenia, takie jak **Nazwa urządzenia** i **Rozwiązywanie konfliktów**
 
-Zapoznaj się z [[Ustawienia synchronizacji i synchronizacja selektywna]], aby dowiedzieć się, co robi każde ustawienie i które z nich są domyślnie włączone.
+Zapoznaj się z [[Opcje synchronizacji i synchronizacja selektywna]], aby dowiedzieć się, co robi każde ustawienie i które z nich są domyślnie włączone.
 
 ## Zmiana regionu Sync
 

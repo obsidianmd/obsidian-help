@@ -24,4 +24,4 @@ Jeśli masz już folder, którego chcesz użyć jako sejfu:
 
 Jeśli chcesz dowiedzieć się więcej o tym, jak działają sejfy, przeczytaj o tym, [[Jak Obsidian przechowuje dane|jak Obsidian przechowuje dane]].
 
-Teraz, gdy masz już skonfigurowany sejf, możesz [[Stwórz swoją pierwszą notatkę|stworzyć swoją pierwszą notatkę]].
+Teraz, gdy masz już skonfigurowany sejf, możesz [[Utwórz swoją pierwszą notatkę|stworzyć swoją pierwszą notatkę]].

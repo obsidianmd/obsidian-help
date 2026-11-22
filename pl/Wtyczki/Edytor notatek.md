@@ -1,7 +1,7 @@
 ---
 permalink: plugins/note-composer
 ---
-[[Kompozytor notatek]] to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala scalić dwie notatki lub wyodrębnić część notatki do nowej notatki.
+[[Edytor notatek]] to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala scalić dwie notatki lub wyodrębnić część notatki do nowej notatki.
 
 ## Scalanie notatek
 
@@ -24,7 +24,7 @@ Aby scalić aktywną notatkę z inną notatką w sejfie:
 
 **Paleta poleceń**
 
-1. Otwórz [[Lista poleceń|paletę poleceń]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wybierz **Kompozytor notatek: Scal aktywny plik z innym...**.
 3. Wybierz notatkę, z którą chcesz scalić.
 4. Kliknij **Scal**, aby potwierdzić.
@@ -52,7 +52,7 @@ Aby wyodrębnić tekst do nowej notatki:
 **Paleta poleceń**
 
 1. W **Trybie edycji** zaznacz tekst, który chcesz wyodrębnić.
-2. Otwórz [[Lista poleceń|paletę poleceń]].
+2. Otwórz [[Paleta poleceń|paletę poleceń]].
 3. Wybierz **Kompozytor notatek: Wyodrębnij aktywny wybór**.
 4. Wybierz notatkę, do której chcesz wyodrębnić.
 

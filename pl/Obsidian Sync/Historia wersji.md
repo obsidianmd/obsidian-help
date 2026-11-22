@@ -31,7 +31,7 @@ Gdy włączysz wbudowaną wtyczkę [[Wprowadzenie do Obsidian Sync|Sync]], histo
 
 #### Włączanie przez paletę poleceń
 
-> [!info] Ta opcja wymaga włączenia wbudowanej wtyczki [[Lista poleceń]].
+> [!info] Ta opcja wymaga włączenia wbudowanej wtyczki [[Paleta poleceń]].
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
 
@@ -43,7 +43,7 @@ Historia synchronizacji pojawi się na [[Panel boczny|prawym panelu bocznym]].
 
 **Urządzenie mobilne** ![[obsidian-icon-smartphone.svg#icon]]
 
-1. Otwórz [[Wstążka]] ![[lucide-menu.svg#icon]].
+1. Otwórz [[Pasek boczny]] ![[lucide-menu.svg#icon]].
 2. Otwórz **Paletę poleceń**. ![[lucide-terminal.svg#icon]]
 3. Wpisz „Sync".
 4. Wybierz opcję „Sync: Show Sync history".

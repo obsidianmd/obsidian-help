@@ -13,7 +13,7 @@ Na przykład, jeśli utworzysz nową notatkę o 09:45 dnia 1 stycznia 2024 roku,
 
 **Paleta poleceń:**
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 2. Wyszukaj polecenie **Stwórz nową niepowtarzalną notatkę**.
 3. Naciśnij `Enter`, gdy polecenie jest zaznaczone.
 

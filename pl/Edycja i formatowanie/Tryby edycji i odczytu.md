@@ -42,7 +42,7 @@ Aby przełączyć na *podgląd na żywo*:
 - Kliknij przełącznik podglądu ![[lucide-edit-3.svg#icon]] w prawym górnym rogu edytora.
 - Lub kliknij interaktywną ikonę statusu ![[lucide-book-icon.svg#icon]] lub ![[lucide-code-xml.svg#icon]] na pasku stanu i wybierz **Podgląd na żywo**.
 - Lub naciśnij `Ctrl+E` (`Cmd+E` na macOS).
-- Lub użyj [[Lista poleceń|polecenia]] **Tryb edycji lub odczytu**.
+- Lub użyj [[Paleta poleceń|polecenia]] **Tryb edycji lub odczytu**.
 
 > [!note] Uwaga
 > Domyślnie tryb edycji jest ustawiony na *Podgląd na żywo*. Możesz to zmienić w **[[Ustawienia]] → Edytor → Domyślny tryb edycji**.
@@ -63,7 +63,7 @@ Aby przełączyć na *tryb źródłowy*:
 > 
 > - Kliknąć przełącznik podglądu ![[lucide-edit-3.svg#icon]] w prawym górnym rogu notatki.
 > - Lub nacisnąć `Ctrl+E` (`Cmd+E` na macOS).
-> - Lub użyć [[Lista poleceń|polecenia]] **Tryb edycji lub odczytu**.
+> - Lub użyć [[Paleta poleceń|polecenia]] **Tryb edycji lub odczytu**.
 
 > [!tip] Przełączanie *trybu edycji*
-> Aby szybko przełączać między *podglądem na żywo* a *trybem źródłowym*, możesz ustawić [[Skróty klawiszowe|skrót klawiszowy]] dla [[Lista poleceń|polecenia]] **Podgląd na żywo lub tryb źródłowy**.
+> Aby szybko przełączać między *podglądem na żywo* a *trybem źródłowym*, możesz ustawić [[Skróty klawiszowe|skrót klawiszowy]] dla [[Paleta poleceń|polecenia]] **Podgląd na żywo lub tryb źródłowy**.

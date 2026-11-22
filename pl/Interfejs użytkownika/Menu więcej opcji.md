@@ -20,16 +20,16 @@ Na komputerze możesz również kliknąć prawym przyciskiem myszy kartę notatk
 ### Podgląd i układ
 
 - **Linki zwrotne w dokumencie** wyświetla linki zwrotne notatki wewnątrz notatki. Wymaga wtyczki Linki zwrotne. Zobacz [[Linki zwrotne#Pokaż linki zwrotne w notatce|Pokaż linki zwrotne w notatce]].
-- **Tryb odczytu** i **Tryb źródłowy** zmieniają wygląd notatki i sposób jej edycji. Zobacz [[Podglądy i tryb edycji]].
+- **Tryb odczytu** i **Tryb źródłowy** zmieniają wygląd notatki i sposób jej edycji. Zobacz [[Tryby edycji i odczytu]].
 - **Podziel w prawo** i **Podziel w dół** otwierają notatkę w nowym panelu. Zobacz [[Karty]].
 - **Otwórz w nowym oknie** otwiera notatkę w osobnym oknie. Zobacz [[Okna wyskakujące]].
 
 ### Zarządzanie notatką
 
 - **Zmień nazwę** zmienia nazwę notatki. Zobacz [[Zarządzanie notatkami#Zmiana nazwy notatki|Zmiana nazwy notatki]].
-- **Przenieś plik do...** przenosi notatkę do innego folderu. Zobacz [[Przeglądarka plików]].
+- **Przenieś plik do...** przenosi notatkę do innego folderu. Zobacz [[Eksplorator plików]].
 - **Dodaj do ulubionych...** dodaje notatkę do ulubionych. Wymaga wtyczki Ulubione. Zobacz [[Ulubione#Dodawanie zakładki|Dodawanie zakładki]].
-- **Scal cały plik z...** łączy notatkę z inną. Wymaga wtyczki Kompozytor notatek. Zobacz [[Kompozytor notatek#Scalanie notatek|Scalanie notatek]].
+- **Scal cały plik z...** łączy notatkę z inną. Wymaga wtyczki Kompozytor notatek. Zobacz [[Edytor notatek#Scalanie notatek|Scalanie notatek]].
 - **Opublikuj aktywny plik** publikuje notatkę na Twojej stronie. Wymaga Obsidian Publish.
 - **Skopiuj adres URL Publish** kopiuje adres opublikowanej notatki. Wymaga Obsidian Publish.
 - **Dodaj atrybut** dodaje atrybut do notatki. Zobacz [[Atrybuty]].

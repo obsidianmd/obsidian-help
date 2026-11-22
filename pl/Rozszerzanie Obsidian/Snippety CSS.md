@@ -39,7 +39,7 @@ Alternatywnie możesz:
 
 Po włączeniu Obsidian automatycznie wykryje zmiany w snippetach CSS i zastosuje je po zapisaniu pliku.
 
-> [!tip] Nie musisz ponownie uruchamiać Obsidian, aby zmiany zaczęły obowiązywać. Może być jednak konieczne użycie polecenia z [[Lista poleceń|palety poleceń]], aby przeładować Obsidian bez zapisywania i zobaczyć zmiany w bieżącym motywie lub notatce.
+> [!tip] Nie musisz ponownie uruchamiać Obsidian, aby zmiany zaczęły obowiązywać. Może być jednak konieczne użycie polecenia z [[Paleta poleceń|palety poleceń]], aby przeładować Obsidian bez zapisywania i zobaczyć zmiany w bieżącym motywie lub notatce.
 
 ## Pisanie CSS dla Obsidian
 

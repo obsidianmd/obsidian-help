@@ -79,7 +79,7 @@ Ze względu na ograniczenia API Notion niektóre dane nie są dostępne lub nie 
 Dodatkowo Importer wprowadzi następujące zmiany:
 
 - Strony bez podstron ani baz danych zostaną zaimportowane jako `[nazwa_pliku].md` zamiast `[nazwa_pliku]/[nazwa_pliku].md`.
-- Bazy danych są zawsze reprezentowane jako foldery o nazwie `[nazwa bazy danych]` z plikiem `[nazwa bazy danych].base` wewnątrz. Baza zawiera widok tabeli ze wszystkimi atrybutami oraz, w Obsidian 1.14 i nowszych, [[Podgląd Kanban|widok Kanban]] dla każdej tablicy Notion, pogrupowany według tego samego atrybutu.
+- Bazy danych są zawsze reprezentowane jako foldery o nazwie `[nazwa bazy danych]` z plikiem `[nazwa bazy danych].base` wewnątrz. Baza zawiera widok tabeli ze wszystkimi atrybutami oraz, w Obsidian 1.14 i nowszych, [[Widok Kanban|widok Kanban]] dla każdej tablicy Notion, pogrupowany według tego samego atrybutu.
 
 ## Import plików Notion (.zip)
 

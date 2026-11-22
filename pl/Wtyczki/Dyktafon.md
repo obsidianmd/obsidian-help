@@ -15,4 +15,4 @@ Dyktafon to [[Wbudowane wtyczki|wbudowana wtyczka]], która umożliwia nagrywani
 Obsidian zapisuje nagrany plik audio w Twoim sejfie i [[Osadzanie plików|osadza]] go na końcu aktywnej notatki.
 
 > [!note] Uwaga
-> Nagrania audio pozostają w Twoim sejfie nawet po usunięciu ich z notatki. Jeśli chcesz usunąć nagranie z komputera, możesz użyć [[Przeglądarka plików|przeglądarki plików]], aby usunąć plik.
+> Nagrania audio pozostają w Twoim sejfie nawet po usunięciu ich z notatki. Jeśli chcesz usunąć nagranie z komputera, możesz użyć [[Eksplorator plików|przeglądarki plików]], aby usunąć plik.

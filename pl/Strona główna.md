@@ -15,8 +15,8 @@ Witaj na oficjalnej stronie Pomocy Obsidian, gdzie znajdziesz wskazówki i przew
 Poznaj podstawy tworzenia notatek w Obsidian:
 
 1. [[Pobierz i zainstaluj Obsidian]]
-2. [[Stwórz sejf]]
-3. [[Stwórz swoją pierwszą notatkę]]
+2. [[Utwórz sejf]]
+3. [[Utwórz swoją pierwszą notatkę]]
 4. [[Łączenie notatek]]
 5. [[Importuj notatki]]
 6. [[Synchronizuj notatki między urządzeniami]]

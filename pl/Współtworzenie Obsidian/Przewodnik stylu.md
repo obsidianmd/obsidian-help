@@ -338,7 +338,7 @@ Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisa
 
 - Obrazy powinny być w formacie `.png` lub `.svg`.
 - Jeśli obraz wygląda na zbyt duży w notatce, zmniejsz go poza Obsidian lub dostosuj jego wymiary, jak wyjaśniono w [[Osadzanie plików#Osadzanie obrazu w notatce|osadzaniu obrazu w notatce]].
-- W rzadkich przypadkach możesz umieścić szczególnie duże lub złożone obrazy w [[Objaśnienia#Zwijalne bloki wyróżnień|zwiniętym bloku wyróżnienia]].
+- W rzadkich przypadkach możesz umieścić szczególnie duże lub złożone obrazy w [[Bloki informacyjne#Zwijalne bloki wyróżnień|zwiniętym bloku wyróżnienia]].
 - W przypadku okien wyskakujących lub modali, obraz powinien pokazywać całe okno aplikacji Obsidian.
  ![[Style-guide-modal-example.png#interface]]
 
@@ -432,7 +432,7 @@ Możesz sprawdzać uszkodzone linki za pomocą [[Wtyczki społeczności|wtyczek 
 
 ### Opisy
 
-Ta dokumentacja jest edytowana na GitHubie i hostowana online za pośrednictwem [[Wprowadzenie do Obsidian Publish|Obsidian Publish]], co obejmuje [[Podglądy linków w mediach społecznościowych#Opis|opisy]] dla kart społecznościowych i inne elementy [[SEO]].
+Ta dokumentacja jest edytowana na GitHubie i hostowana online za pośrednictwem [[Wprowadzenie do Obsidian Publish|Obsidian Publish]], co obejmuje [[Podglądy łączy w mediach społecznościowych#Opis|opisy]] dla kart społecznościowych i inne elementy [[SEO]].
 
 Jeśli strona, nad którą pracujesz, nie ma [[Atrybuty|właściwości]] `description`, dodaj ją. Opis powinien mieć 150 znaków lub mniej i zawierać obiektywne streszczenie zawartości strony.
 

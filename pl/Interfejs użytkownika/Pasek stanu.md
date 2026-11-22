@@ -9,4 +9,4 @@ Elementy paska stanu są dodawane zarówno przez [[Wbudowane wtyczki|wbudowane w
 
 Na przykład wtyczka [[Liczba słów|liczba słów]] dodaje liczbę słów i znaków, która nie jest klikalna, a [[Wprowadzenie do Obsidian Sync|wtyczka Sync]] dodaje ikonę, która zarówno pokazuje status synchronizacji, jak i wyświetla dziennik synchronizacji po kliknięciu.
 
-Wersja desktopowa paska stanu przedstawiona powyżej zawiera informacje o obecnych [[Linki zwrotne|linkach zwrotnych]], bieżącym [[Podglądy i tryb edycji#Tryb edycji|trybie edycji]] oraz aktualnej liczbie słów i znaków z wtyczki liczby słów.
+Wersja desktopowa paska stanu przedstawiona powyżej zawiera informacje o obecnych [[Linki zwrotne|linkach zwrotnych]], bieżącym [[Tryby edycji i odczytu#Tryb edycji|trybie edycji]] oraz aktualnej liczbie słów i znaków z wtyczki liczby słów.
