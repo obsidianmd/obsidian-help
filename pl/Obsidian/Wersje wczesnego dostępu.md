@@ -14,12 +14,12 @@ Aby otrzymywać wersje wczesnego dostępu natychmiast po ich udostępnieniu, wyk
 
 1. Otwórz **[[Ustawienia]]**.
 2. Na panelu bocznym wybierz **Ogólne**.
-3. W sekcji **Konto → Twoje konto** wybierz **Zaloguj się**.
+3. W sekcji **Konto → twoje konto** wybierz **Zaloguj się**.
 4. W polu **E-mail** wprowadź swój adres email.
 5. W polu **Hasło** wprowadź swoje hasło.
 6. Po zalogowaniu wróć do **[[Ustawienia]]**.
 7. Na panelu bocznym wybierz **Ogólne**.
-8. W sekcji **Aplikacja** włącz **Otrzymuj wersje testowe**.
+8. W sekcji **Aplikacja** włącz **Otrzymuj wersje wczesnego dostępu**.
 9. Kliknij **Sprawdź aktualizacje**, a następnie **Uruchom ponownie**.
 
 ## Instalowanie wersji wczesnego dostępu na urządzeniach mobilnych
@@ -28,8 +28,8 @@ Aby znaleźć instrukcje instalacji wersji wczesnego dostępu na urządzeniu mob
 
 1. Pobierz i zainstaluj [Discord](<https://discord.com>).
 2. Dołącz do [serwera Discord Obsidian](https://discord.gg/obsidianmd).
-3. [[Licencja Catalyst#Uzyskaj odznakę Discord|Uzyskaj odznakę Discord]], aby uzyskać dostęp do kanałów insider.
-4. Na kanale `#insider-welcome` znajdziesz instrukcje dostępu do pobrania odpowiednie dla Twojego typu urządzenia.
+3. [[Licencja Catalyst#Uzyskaj odznakę na Discordzie|Uzyskaj odznakę Discord]], aby uzyskać dostęp do kanałów insider.
+4. Na kanale `#insider-welcome` znajdziesz instrukcje dostępu do pobrania odpowiednie dla twojego typu urządzenia.
 
 ## Zgłaszanie problemów i inne opinie
 
@@ -40,7 +40,7 @@ Aby zgłosić problem, użyj jednego z poniższych kanałów:
 - Na Discordzie zgłoś problem na odpowiednim kanale `#insider-release`.
 - Na forum utwórz nowy temat w sekcji [Bug reports](https://forum.obsidian.md/c/bug-reports/7).
 
-Zgłaszając problem, podaj wersję kompilacji oraz system operacyjny, na którym go uruchamiasz. Wersję kompilacji znajdziesz w **[[Ustawienia]] → Informacje → Aplikacja → Bieżąca wersja**.
+Zgłaszając problem, podaj wersję kompilacji oraz system operacyjny, na którym go uruchamiasz. Wersję kompilacji znajdziesz w **[[Ustawienia]] → Ogólne → Aplikacja → Wersja**.
 
 ## Przywracanie wersji publicznych na komputerze
 
@@ -49,14 +49,14 @@ Aby wyłączyć wersje wczesnego dostępu i przywrócić ostatnią zainstalowan�
 1. Wyłącz wersje wczesnego dostępu.
    1. Otwórz **[[Ustawienia]]**.
    2. Na panelu bocznym wybierz **Ogólne**.
-   3. W sekcji **Aplikacja** wyłącz **Otrzymuj wersje testowe**.
+   3. W sekcji **Aplikacja** wyłącz **Otrzymuj wersje wczesnego dostępu**.
 2. Zamknij Obsidian.
 3. Usuń plik `obsidian-VERSION.asar`, gdzie `VERSION` to wersja Obsidian.
    - Windows: `%APPDATA%\obsidian\obsidian-VERSION.asar`
    - Mac: `~/Library/Application Support/obsidian/obsidian-VERSION.asar`
    - Linux: `~/.config/obsidian/obsidian-VERSION.asar`
 4. Uruchom ponownie Obsidian.
-5. Jeśli po tym Obsidian nie jest w najnowszej wersji publicznej, zaktualizuj [[Aktualizuj Obsidian#Aktualizacje instalatora|wersję instalatora]].
+5. Jeśli po tym Obsidian nie jest w najnowszej wersji publicznej, zaktualizuj [[Aktualizuj Obsidian#Aktualizacja instalatora|wersję instalatora]].
 
 ## Przywracanie wersji publicznych na urządzeniach mobilnych
 

@@ -6,7 +6,7 @@ description: 'Naucz się tworzyć szablony, które automatycznie przechwytują i
 
 ## Tworzenie lub edycja szablonu
 
-Aby **stworzyć** szablon, przejdź do ustawień Web Clipper i kliknij przycisk **Nowy szablon** na panelu bocznym. Możesz również **zduplikować** szablon w menu **Więcej** w prawym górnym rogu.
+Aby **utworzyć** szablon, przejdź do ustawień Web Clipper i kliknij przycisk **Nowy szablon** na panelu bocznym. Możesz również **zduplikować** szablon w menu **Więcej** w prawym górnym rogu.
 
 Aby **edytować** szablon, wybierz szablon z panelu bocznego. Twoje zmiany zostaną zapisane automatycznie.
 
@@ -28,13 +28,13 @@ Aby wyeksportować szablon, kliknij **Eksportuj** w prawym górnym rogu. Spowodu
 
 Określ, w jaki sposób treść z Web Clipper będzie dodawana do Obsidian:
 
-- **Stwórz nową notatkę**
+- **Utwórz nową notatkę**
 - **Dodaj do istniejącej notatki**, na górze lub na dole
 - **Dodaj do codziennej notatki**, na górze lub na dole (wymaga aktywnej wtyczki [[Dziennik|Dziennik]])
 
 ### Automatyczne wyzwalanie szablonu
 
-Wyzwalacze szablonu pozwalają automatycznie wybierać szablon na podstawie adresu URL bieżącej strony lub danych [schema.org](https://schema.org/). Możesz zdefiniować wiele reguł dla każdego szablonu, oddzielonych nową linią.
+Wyzwalacze szablonu pozwalają automatycznie wybierać szablon na podstawie adresu URL bieżącej strony lub danych [schema.org](https://schema.org/). Możesz zdefiniować wiele reguł dla każdego szablonu, oddzielonych nowym wierszem.
 
 Pierwsze dopasowanie na liście szablonów określa, który szablon zostanie użyty. Możesz przeciągać szablony w górę i w dół w ustawieniach Web Clipper, aby zmienić kolejność dopasowywania szablonów.
 
@@ -57,9 +57,9 @@ Możesz wyzwalać szablony na podstawie bardziej złożonych wzorców URL, używ
 
 Możesz wyzwalać szablony na podstawie danych [schema.org](https://schema.org/) obecnych na stronie. Użyj prefiksu `schema:` po którym podaj klucz schematu, który chcesz dopasować. Opcjonalnie możesz określić oczekiwaną wartość. Na przykład:
 
-- `schema:@Recipe` dopasuje strony, gdzie typ schematu to „Recipe".
+- `schema:@Recipe` dopasuje strony, gdzie typ schematu to „Recipe”.
 - `schema:@Recipe.name` dopasuje strony, gdzie `@Recipe.name` jest obecny.
-- `schema:@Recipe.name=Cookie` dopasuje strony, gdzie `@Recipe.name` to „Cookie".
+- `schema:@Recipe.name=Cookie` dopasuje strony, gdzie `@Recipe.name` to „Cookie”.
 
 Wartości schema.org mogą być również używane do [[Zmienne#Zmienne Schema.org|wstępnego wypełniania danych w szablonach]].
 

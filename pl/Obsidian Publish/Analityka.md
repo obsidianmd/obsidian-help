@@ -12,7 +12,7 @@ Aby korzystać z analityki na swojej stronie [[Wprowadzenie do Obsidian Publish|
 
 Aby włączyć Google Analytics na stronie Obsidian Publish:
 
-1. Na wstążce, po lewej stronie okna aplikacji, kliknij **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. W oknie dialogowym **Opublikuj zmiany** kliknij **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 3. W polu **Kod śledzenia Google Analytics** wprowadź swój kod śledzenia.
 
@@ -44,4 +44,4 @@ document.head.appendChild(analyticsScript);
 
 ## Rozwiązywanie problemów
 
-Aby sprawdzić, czy Twoja strona korzysta z usługi analitycznej, wyłącz wszelkie rozszerzenia przeglądarki blokujące reklamy, takie jak uBlock Origin, które mogą blokować uruchamianie skryptu śledzącego.
+Aby sprawdzić, czy twoja strona korzysta z usługi analitycznej, wyłącz wszelkie rozszerzenia przeglądarki blokujące reklamy, takie jak uBlock Origin, które mogą blokować uruchamianie skryptu śledzącego.

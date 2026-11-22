@@ -13,11 +13,11 @@ Jak zacząć tworzyć sieć powiązań? Zacznijmy od tworzenia [[Łącza wewnęt
 
 ### Jesteś właścicielem swoich danych i masz nad nimi kontrolę
 
-Wierzymy w zwykły tekst dla czegoś tak ważnego jak Twoja baza wiedzy. Nie chciałbyś powierzać swojego własnego mózgu komuś innemu, prawda? Traktuj swój drugi mózg w ten sam sposób.
+Wierzymy w zwykły tekst dla czegoś tak ważnego jak twoja baza wiedzy. Nie chciałbyś powierzać swojego własnego mózgu komuś innemu, prawda? Traktuj swój drugi mózg w ten sam sposób.
 
-Synchronizacja to jedynie narzędzie ułatwiające pracę na wielu urządzeniach — dane zawsze będą przede wszystkim przechowywane na Twoim dysku twardym.
+Synchronizacja to jedynie narzędzie ułatwiające pracę na wielu urządzeniach — dane zawsze będą przede wszystkim przechowywane na twoim dysku twardym.
 
-Gdy system plików zastępuje chmurę, zyskujesz elastyczne opcje pracy ze swoimi plikami: możesz tworzyć ich kopie zapasowe za pomocą Dropbox, używać Git do wersjonowania lub szyfrować dysk dla bezpieczeństwa. Cokolwiek działa w Twoim systemie plików, zadziała też w Twojej bazie wiedzy Obsidian.
+Gdy system plików zastępuje chmurę, zyskujesz elastyczne opcje pracy ze swoimi plikami: możesz tworzyć ich kopie zapasowe za pomocą Dropbox, używać Git do wersjonowania lub szyfrować dysk dla bezpieczeństwa. Cokolwiek działa w twoim systemie plików, zadziała też w twojej bazie wiedzy Obsidian.
 
 ### Łącza to obywatele pierwszej klasy
 
@@ -41,7 +41,7 @@ Hierarchia daje nam nr 1, a łączenie daje nam nr 2. Wciąż nie jesteśmy pewn
 
 Sporządzanie notatek to wysoce osobista czynność. Naturalnie nie istnieje jedno kompleksowe rozwiązanie dla wszystkich.
 
-Zamiast oferować gotowy i narzucony produkt, [[O Obsidian|Obsidian]] daje Ci fundament i liczne funkcjonalne bloki budulcowe, dzięki którym odkryjesz i zbudujesz własne rozwiązanie.
+Zamiast oferować gotowy i narzucony produkt, [[O Obsidian|Obsidian]] daje ci fundament i liczne funkcjonalne bloki budulcowe, dzięki którym odkryjesz i zbudujesz własne rozwiązanie.
 
 Fundamentem jest możliwość przeglądania plików, ich edycji i przeszukiwania. Dla minimalisty to wystarczy.
 
@@ -49,7 +49,7 @@ Ponadto możesz dodawać izolowane, niezależne bloki budulcowe, aby wzbogacić 
 
 - Jeśli sporządzasz notatki z wykładów, [[Dyktafon]] i matematyka LaTeX mogą się przydać;
 - Jeśli prowadzisz notatki służbowe, [[Slajdy]] i [[Linki zwrotne]] mogą okazać się pomocne;
-- Jeśli jesteś badaczem, [[Podgląd grafu|podgląd grafu]] i [[Liczba słów|liczba słów]] mogą być niezbędne w Twoim zestawie narzędzi.
+- Jeśli jesteś badaczem, [[Podgląd grafu|podgląd grafu]] i [[Liczba słów|liczba słów]] mogą być niezbędne w twoim zestawie narzędzi.
 
 Nie oczekujemy, że wtyczki będą cudownym rozwiązaniem wszystkich problemów, ale zbliżają nas do celu bardziej niż monolityczne rozwiązanie, bez wszystkich funkcji, których nie potrzebujesz, zaśmiecających interfejs.
 
@@ -57,6 +57,6 @@ Obsługujemy [[Snippety CSS]], [[Motywy]] i [[Wtyczki społeczności]], które u
 
 ## Śledź nasz rozwój
 
-Ciekawi Cię, jak nadal rozwijamy Obsidian, aby był najlepszym i najbardziej dopracowanym narzędziem do przetwarzania myśli? Sprawdź naszą [mapę drogową](https://obsidian.md/roadmap/), aby zobaczyć, nad czym pracujemy.
+Ciekawi cię, jak nadal rozwijamy Obsidian, aby był najlepszym i najbardziej dopracowanym narzędziem do przetwarzania myśli? Sprawdź naszą [mapę drogową](https://obsidian.md/roadmap/), aby zobaczyć, nad czym pracujemy.
 
 Nasz profil na Twitterze to [@obsdmd](https://twitter.com/obsdmd), zapraszamy do obserwowania. Publikujemy głównie informacje o aktualizacjach produktu.

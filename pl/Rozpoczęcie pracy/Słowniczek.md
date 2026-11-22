@@ -13,7 +13,7 @@ Ten słowniczek zawiera powszechnie stosowaną terminologię Obsidian.
 
 ## Polecenie
 
-**Polecenie** to akcja, którą można wykonać, wybierając ją z [[Lista poleceń|palety poleceń]] lub przypisując do [[#Skrót klawiszowy|skrótu klawiszowego]].
+**Polecenie** to akcja, którą można wykonać, wybierając ją z [[Paleta poleceń|palety poleceń]] lub przypisując do [[#Skrót klawiszowy|skrótu klawiszowego]].
 
 ## Osadzanie
 
@@ -31,9 +31,9 @@ Metadane początkowe to sposób definiowania [[#Atrybut|atrybutów]] poprzez dod
 
 **Skrót klawiszowy** to skrót klawiaturowy dla [[#Polecenie|polecenia]]. Zobacz także [[Skróty klawiszowe]] i [[Skróty klawiszowe|Jak/Używać skrótów klawiszowych]].
 
-## Link
+## Łącze
 
-**Link** odwołuje się do innej notatki lub pliku. [[Łącza wewnętrzne|Link wewnętrzny]] wskazuje na plik znajdujący się w bieżącym sejfie. [[Podstawowa składnia formatowania#Łącza zewnętrzne|Link zewnętrzny]] wskazuje na lokalizację poza sejfem, zwykle stronę internetową.
+**Łącze** odwołuje się do innej notatki lub pliku. [[Łącza wewnętrzne|Łącze wewnętrzny]] wskazuje na plik znajdujący się w bieżącym sejfie. [[Podstawowa składnia formatowania#Łącza zewnętrzne|Łącze zewnętrzny]] wskazuje na lokalizację poza sejfem, zwykle stronę internetową.
 
 ## Obszar główny
 
@@ -52,9 +52,9 @@ Markdown to język znaczników do formatowania tekstu i główny format plików 
 **Wtyczka** rozszerza Obsidian o dodatkowe funkcje.
 
 - [[Wbudowane wtyczki]] są tworzone przez zespół Obsidian i domyślnie dołączone.
-- [[Wtyczki społeczności]] są tworzone przez zewnętrznych deweloperów wtyczek i wymagają [[Wtyczki społeczności#Instalacja wtyczki społeczności|zainstalowania]] przed użyciem.
+- [[Wtyczki społeczności]] są tworzone przez zewnętrznych deweloperów wtyczek i wymagają [[Wtyczki społeczności#Instalowanie wtyczki społeczności|zainstalowania]] przed użyciem.
 
-Możesz [stworzyć własną wtyczkę](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Możesz [utworzyć własną wtyczkę](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
 ## Okno wyskakujące
 
@@ -66,11 +66,11 @@ Zobacz także [[Okna wyskakujące]].
 
 [[Atrybuty]] definiują dodatkowe informacje o notatce, takie jak termin realizacji lub autor.
 
-## Wstążka
+## Pasek boczny
 
-**Wstążka** służy jako kontener na często używane ikony akcji.
+**Pasek boczny** służy jako kontener na często używane ikony akcji.
 
-W wersji desktopowej jest to pionowa kolumna przycisków z ikonami na krawędzi aplikacji. Można ją włączyć lub wyłączyć w Ustawienia → Interfejs lub za pomocą [[Lista poleceń|palety poleceń]].
+W wersji desktopowej jest to pionowa kolumna przycisków z ikonami na krawędzi aplikacji. Można ją włączyć lub wyłączyć w Ustawienia → Interfejs lub za pomocą [[Paleta poleceń|palety poleceń]].
 
 W wersji mobilnej jest reprezentowana przez przycisk menu ![[lucide-menu.svg#icon]] na [[#Pasek stanu|pasku stanu]].
 

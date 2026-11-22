@@ -9,7 +9,7 @@ Obsidian umożliwia migrację notatek z Craft. Proces ten przekonwertuje dane z 
 
 Otwórz aplikację Craft na komputerze:
 
-1. Przejdź do widoku „Organize" lub „All Documents"
+1. Przejdź do widoku „Organize” lub „All Documents”
 2. Kliknij menu z trzema kropkami
 3. Wybierz opcję Export.
 4. Wybierz Markdown.
@@ -22,4 +22,4 @@ Stąd możesz postępować zgodnie z instrukcjami [[Importuj pliki Markdown]].
 
 ## Rozwiązywanie problemów
 
-Craft Docs używa niestandardowej składni dla niektórych linków. Zasoby pomocne w ich migracji znajdziesz w [repozytorium Importer na GitHub](https://github.com/obsidianmd/obsidian-importer/issues/27).
+Craft Docs używa niestandardowej składni dla niektórych łączy. Zasoby pomocne w ich migracji znajdziesz w [repozytorium Importer na GitHub](https://github.com/obsidianmd/obsidian-importer/issues/27).

@@ -33,8 +33,8 @@ Dostosuj Czytnik w ustawieniach rozszerzenia. Niektóre opcje są również dost
 | ----------------------- | --------------------------------------------- |
 | Czcionka                | Dodaj czcionki zainstalowane w systemie.       |
 | Rozmiar czcionki        | Dostosuj rozmiar tekstu.                       |
-| Wysokość&nbsp;linii     | Odstęp między liniami.                         |
-| Szerokość&nbsp;linii    | Maksymalna szerokość obszaru treści.           |
+| Wysokość&nbsp;wiersza     | Odstęp między wierszami.                         |
+| Szerokość&nbsp;wiersza    | Maksymalna szerokość obszaru treści.           |
 | Wygląd                  | Wybierz jasny lub ciemny wygląd.               |
 | Motyw                   | Wybierz kolory.                                |
 | Własny CSS              | Dodatkowy CSS stosowany do strony.             |

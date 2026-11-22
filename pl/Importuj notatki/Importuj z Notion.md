@@ -7,7 +7,7 @@ Obsidian umożliwia łatwe przeniesienie notatek z Notion za pomocą [[Importer|
 
 Obsidian oferuje dwa sposoby importowania danych z Notion:
 
-1. **Konto Notion (zalecane)** łączy się bezpośrednio z Twoją przestrzenią roboczą i pozwala zachować bazy danych i formuły, które są konwertowane na [[Wprowadzenie do baz danych|bazy danych]]. Wymaga tokenu integracji Notion i połączenia z internetem.
+1. **Konto Notion (zalecane)** łączy się bezpośrednio z twoją przestrzenią roboczą i pozwala zachować bazy danych i formuły, które są konwertowane na [[Wprowadzenie do baz danych|bazy danych]]. Wymaga tokenu integracji Notion i połączenia z internetem.
 2. **Import plików** wykorzystuje pliki eksportu `.zip` z Notion. Nie zachowuje baz danych, ale nie wymaga tokenu API ani połączenia z internetem.
 
 ## Dostosowywanie importowanych stron
@@ -24,9 +24,9 @@ Token to długi ciąg liczb i liter, zwykle zaczynający się od `ntn_...`, któ
 
 1. Zaloguj się do panelu [Notion Connections](https://app.notion.com/developers/connections).
 2. Wybierz **New connection**.
-	1. Nadaj połączeniu nazwę, np. „Personal". Można użyć dowolnej nazwy.
+	1. Nadaj połączeniu nazwę, np. „Personal”. Można użyć dowolnej nazwy.
 	2. Wybierz **Access token** jako metodę uwierzytelniania.
-	3. Wybierz przestrzeń robocza, którą chcesz wyeksportować, jako **Installable in**.
+	3. Wybierz przestrzeń roboczą, którą chcesz wyeksportować, jako **Installable in**.
 
 ![[notion-integration.png#interface]]
 
@@ -53,20 +53,20 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format** wybierz **Notion (API)**
 6. W polu **API token** kliknij **Połącz...**, aby dodać nowy sekret. W polu **ID** nadaj mu nazwę, np. `notion`, a w polu **Sekret** wklej swój **Access token** z Notion.
 7. Kliknij **Wczytaj**, aby wybrać bazy danych i strony do zaimportowania.
 8. Przejrzyj i dostosuj opcje importu.
-9. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z Twoich stron.
+9. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich stron.
 10. Wybierz **Importuj** ponownie i poczekaj na zakończenie importu.
 
 ### Ograniczenia
 
 > [!info] Import przez API jest nowy
-> Importer Notion API jest nowy. Ze względu na złożoność obszarów roboczych Notion niektóre przypadki brzegowe mogły nie zostać uwzględnione. Jeśli napotkasz problemy z konwersją, [zgłoś błąd](https://github.com/obsidianmd/obsidian-importer/issues), abyśmy mogli go ulepszyć.
+> Importer Notion API jest nowy. Ze względu na złożoność przestrzeni roboczych Notion niektóre przypadki brzegowe mogły nie zostać uwzględnione. Jeśli napotkasz problemy z konwersją, [zgłoś błąd](https://github.com/obsidianmd/obsidian-importer/issues), abyśmy mogli go ulepszyć.
 
-Ze względu na limity szybkości API Notion importowanie dużych obszarów roboczych może zająć sporo czasu. Prosimy o cierpliwość.
+Ze względu na limity szybkości API Notion importowanie dużych przestrzeni roboczych może zająć sporo czasu. Prosimy o cierpliwość.
 
 Ze względu na ograniczenia API Notion niektóre dane nie są dostępne lub nie mogą zostać przekonwertowane:
 
@@ -79,7 +79,7 @@ Ze względu na ograniczenia API Notion niektóre dane nie są dostępne lub nie 
 Dodatkowo Importer wprowadzi następujące zmiany:
 
 - Strony bez podstron ani baz danych zostaną zaimportowane jako `[nazwa_pliku].md` zamiast `[nazwa_pliku]/[nazwa_pliku].md`.
-- Bazy danych są zawsze reprezentowane jako foldery o nazwie `[nazwa bazy danych]` z plikiem `[nazwa bazy danych].base` wewnątrz. Baza zawiera widok tabeli ze wszystkimi atrybutami oraz, w Obsidian 1.14 i nowszych, [[Podgląd Kanban|widok Kanban]] dla każdej tablicy Notion, pogrupowany według tego samego atrybutu.
+- Bazy danych są zawsze reprezentowane jako foldery o nazwie `[nazwa bazy danych]` z plikiem `[nazwa bazy danych].base` wewnątrz. Baza zawiera widok tabeli ze wszystkimi atrybutami oraz, w Obsidian 1.14 i nowszych, [[Widok Kanban|widok Kanban]] dla każdej tablicy Notion, pogrupowany według tego samego atrybutu.
 
 ## Import plików Notion (.zip)
 
@@ -87,7 +87,7 @@ Import plików to alternatywny sposób importowania danych z Notion. Ta metoda n
 
 ### Eksportowanie danych z Notion
 
-Aby przygotować dane do importu, musisz wyeksportować cały przestrzeń robocza za pomocą formatu eksportu HTML w Notion. Zalecamy nieużywanie eksportu Markdown z Notion, ponieważ pomija on ważne dane. Musisz mieć uprawnienia administratora do przestrzeni roboczej Notion, aby wyeksportować całą zawartość.
+Aby przygotować dane do importu, musisz wyeksportować całą przestrzeń roboczą za pomocą formatu eksportu HTML w Notion. Zalecamy nieużywanie eksportu Markdown z Notion, ponieważ pomija on ważne dane. Musisz mieć uprawnienia administratora do przestrzeni roboczej Notion, aby wyeksportować całą zawartość.
 
 1. Przejdź do **Settings** u góry panelu bocznego Notion.
 2. W sekcji **Workspace** wybierz **General**.
@@ -108,12 +108,12 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format** wybierz **Notion (.zip)**
 6. Wybierz plik `.zip` z danymi Notion, które chcesz zaimportować. *Zalecamy importowanie całej zawartości Notion naraz, aby łącza wewnętrzne mogły zostać prawidłowo odwzorowane.*
 7. _Opcjonalnie_ wybierz folder docelowy importu. Strony i bazy danych Notion zostaną zagnieżdżone wewnątrz tego folderu.
 8. Włącz **Save parent pages in subfolders**, aby zachować strukturę Notion. *Uwaga: w Notion można pisać treści w folderach — nie jest to możliwe w Obsidian, dlatego takie strony zostaną dodane jako podstrony w folderze.*
-9. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z Twoich stron.
+9. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich stron.
 10. Wybierz **Importuj** ponownie i poczekaj na zakończenie importu.
 
 ### Rozwiązywanie problemów
@@ -125,9 +125,9 @@ Jeśli napotkasz problemy podczas importowania z Notion:
 
 Napotkałeś inny problem? Przeszukaj [repozytorium Importer](https://github.com/obsidianmd/obsidian-importer/issues), aby sprawdzić, czy inni napotkali podobny problem.
 
-#### Importowanie dużych obszarów roboczych
+#### Importowanie dużych przestrzeni roboczych
 
-Jeśli importujesz przestrzeń robocza o rozmiarze wielu gigabajtów, eksport z Notion może zawierać zagnieżdżone pliki `.zip`. W takim przypadku możesz zobaczyć komunikat o błędzie importu wyglądający mniej więcej tak:
+Jeśli importujesz przestrzeń roboczą o rozmiarze wielu gigabajtów, eksport z Notion może zawierać zagnieżdżone pliki `.zip`. W takim przypadku możesz zobaczyć komunikat o błędzie importu wyglądający mniej więcej tak:
 
 ```
 Import failed {id}.zip/{id}-Part-1.zip undefined.
@@ -137,6 +137,6 @@ Jeśli zobaczysz ten błąd, rozpakuj plik z Notion, a następnie zaimportuj zag
 
 ## Szablony
 
-Użyj [[Szablony importera|szablonów Importer]], aby w pełni skonfigurować sposób importowania danych z Notion.
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Notion.
 
-![[Szablony importera#Variables]]
+![[Szablony importera#Zmienne]]

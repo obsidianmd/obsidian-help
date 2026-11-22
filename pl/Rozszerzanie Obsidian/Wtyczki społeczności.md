@@ -3,15 +3,15 @@ permalink: community-plugins
 mobile: false
 description: 'Dowiedz się, jak rozszerzać możliwości Obsidian za pomocą wtyczek stworzonych przez społeczność.'
 ---
-Dowiedz się, jak rozszerzyć Obsidian za pomocą wtyczek stworzonych przez społeczność. Używaj wtyczek, aby dostosować Obsidian do swoich konkretnych potrzeb, takich jak obsługa dodatkowych formatów plików czy integracja z usługami zewnętrznymi.
+Dowiedz się, jak rozszerzyć Obsidian za pomocą wtyczek utworzonych przez społeczność. Używaj wtyczek, aby dostosować Obsidian do swoich konkretnych potrzeb, takich jak obsługa dodatkowych formatów plików czy integracja z usługami zewnętrznymi.
 
 > [!warning] Ostrzeżenie
-> Wtyczki społeczności uruchamiają kod stron trzecich w Twoim imieniu, który potencjalnie może wyrządzić szkody. Aby dowiedzieć się więcej o tym, co zespół Obsidian robi, aby zapobiegać szkodliwym wtyczkom, zapoznaj się z [[Bezpieczeństwo wtyczek]].
+> Wtyczki społeczności uruchamiają kod stron trzecich w twoim imieniu, który potencjalnie może wyrządzić szkody. Aby dowiedzieć się więcej o tym, co zespół Obsidian robi, aby zapobiegać szkodliwym wtyczkom, zapoznaj się z [[Bezpieczeństwo wtyczek]].
 
 ## Przeglądanie wtyczek społeczności
 
 1. Otwórz **[[Ustawienia]]**.
-2. Wybierz **Włącz wtyczki stworzone przez społeczność**. Aby uzyskać więcej informacji, zapoznaj się z [[Bezpieczeństwo wtyczek#Tryb ograniczony|Tryb ograniczony]].
+2. Wybierz **Włącz wtyczki utworzone przez społeczność**. Aby uzyskać więcej informacji, zapoznaj się z [[Bezpieczeństwo wtyczek#Tryb ograniczony|Tryb ograniczony]].
 3. Wybierz **Przeglądaj**, aby wyświetlić listę wszystkich dostępnych wtyczek społeczności.
 
 Użyj pola tekstowego, aby filtrować wtyczki na podstawie nazwy, autora i opisu.
@@ -26,7 +26,7 @@ Aby zainstalować wtyczkę społeczności, musisz najpierw wyłączyć [[Bezpiec
 2. W menu bocznym wybierz **Wtyczki społeczności**.
 3. Wybierz **Przeglądaj**, aby przeglądać dostępne wtyczki społeczności.
 4. Wybierz wtyczkę, którą chcesz zainstalować.
-5. Wybierz **Instaluj**.
+5. Wybierz **Zainstaluj**.
 
 Aby korzystać z zainstalowanej wtyczki, musisz ją włączyć.
 
@@ -69,10 +69,10 @@ W sekcji **[[Ustawienia]] → Wtyczki społeczności → Zainstalowane wtyczki**
 
 Możesz również:
 
-- Wybrać ikonę **odświeżania**, aby ponownie załadować wszystkie wtyczki.
+- Wybrać ikonę **odświeżania**, aby odświeżyć wszystkie wtyczki.
 - Wybrać ikonę **folderu** ![[lucide-folder-open.svg#icon]], aby otworzyć folder wtyczek w [[Folder konfiguracji|folderze konfiguracji]].
 - Użyć **paska wyszukiwania**, aby filtrować wtyczki po nazwie.
 
 ## Dowiedz się więcej
 
-Chcesz stworzyć własną wtyczkę społeczności? Dowiedz się, jak [zbudować wtyczkę](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+Chcesz utworzyć własną wtyczkę społeczności? Dowiedz się, jak [zbudować wtyczkę](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).

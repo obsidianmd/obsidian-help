@@ -27,19 +27,19 @@ Wyniki promptów można dalej modyfikować za pomocą [[Filtry|filtrów]]. Filtr
 
 ## Pierwsze kroki
 
-Interpreter działa z prawie każdym dostawcą modeli językowych, w tym z opcjami działającymi prywatnie na Twoim urządzeniu. Aby skonfigurować Interpretera:
+Interpreter działa z prawie każdym dostawcą modeli językowych, w tym z opcjami działającymi prywatnie na twoim urządzeniu. Aby skonfigurować Interpretera:
 
 1. Przejdź do sekcji **Interpreter** w ustawieniach Web Clipper.
 2. Włącz **Włącz Interpreter**.
 3. Skonfiguruj operatora i model, zobacz sekcję [[Interpretowanie stron internetowych#Modele|modele]] poniżej.
 4. Dodaj [[Zmienne|zmienne promptów]] do swoich [[Obsidian Web Clipper/Szablony|szablonów]].
-5. Jeśli Twój szablon zawiera zmienne promptów, sekcja Interpretera będzie widoczna, gdy [[Wycinanie stron internetowych|wycinasz stronę]]. Kliknij **wyślij zapytanie**, aby przetworzyć zmienne promptów.
+5. Jeśli twój szablon zawiera zmienne promptów, sekcja Interpretera będzie widoczna, gdy [[Wycinanie stron internetowych|wycinasz stronę]]. Kliknij **wyślij zapytanie**, aby przetworzyć zmienne promptów.
 
 ## Jak to działa
 
 Gdy Interpreter jest włączony *i* Twój szablon zawiera [[Zmienne#Zmienne promptów|zmienne promptów]], w oknie rozszerzenia wyświetlana jest nowa sekcja Interpretera, nad przyciskiem **Zapisz w Obsidian**. Ta sekcja pozwala wybrać model i uruchomić Interpretera dla bieżącej strony.
 
-Po kliknięciu **wyślij zapytanie** Interpreter wysyła kontekst strony do wybranego modelu wraz ze *wszystkimi* promptami z szablonu w jednym żądaniu. W zależności od wybranego operatora modelu może to być wywołanie zewnętrzne lub lokalne na Twoim urządzeniu. Model ocenia Twoje prompty w kontekście strony i zwraca odpowiedzi. Interpreter następnie zastępuje zmienne promptów danymi odpowiedzi.
+Po kliknięciu **wyślij zapytanie** Interpreter wysyła kontekst strony do wybranego modelu wraz ze *wszystkimi* promptami z szablonu w jednym żądaniu. W zależności od wybranego operatora modelu może to być wywołanie zewnętrzne lub lokalne na twoim urządzeniu. Model ocenia twoje prompty w kontekście strony i zwraca odpowiedzi. Interpreter następnie zastępuje zmienne promptów danymi odpowiedzi.
 
 Cały proces może trwać od milisekund do ponad 30 sekund, w zależności od używanego modelu i ilości przetwarzanych danych.
 
@@ -62,7 +62,7 @@ Spowoduje to uruchomienie Interpretera tylko na elemencie `#main` strony interne
 ## Modele
 
 > [!warning] Prywatność
-> Korzystając z zewnętrznego operatora modelu, akceptujesz jego warunki i politykę prywatności. Żądania Interpretera są wysyłane bezpośrednio do wybranego operatora. Obsidian nie zbiera ani nie przechowuje żadnych danych o Twoich żądaniach.
+> Korzystając z zewnętrznego operatora modelu, akceptujesz jego warunki i politykę prywatności. Żądania Interpretera są wysyłane bezpośrednio do wybranego operatora. Obsidian nie zbiera ani nie przechowuje żadnych danych o twoich żądaniach.
 
 ### Wstępnie skonfigurowani operatorzy
 
@@ -101,7 +101,7 @@ Interpreter może korzystać z modeli lokalnych, które zapewniają większą pr
 
 #### Ollama
 
-[Ollama](https://ollama.com/) pozwala uruchamiać modele językowe lokalnie i prywatnie na Twoim urządzeniu.
+[Ollama](https://ollama.com/) pozwala uruchamiać modele językowe lokalnie i prywatnie na twoim urządzeniu.
 
 Po pobraniu i zainstalowaniu Ollama dodaj Ollama za pomocą **Dodaj operatora** w ustawieniach Interpretera. Ollama nie wymaga klucza API. Następnie wybierz model z [listy modeli](https://ollama.com/search). Na przykład, jeśli chcesz użyć [Llama 3.2](https://ollama.com/library/llama3.2), kliknij **Dodaj model**, a następnie:
 
@@ -113,7 +113,7 @@ Po pobraniu i zainstalowaniu Ollama dodaj Ollama za pomocą **Dodaj operatora** 
 
 Aby umożliwić rozszerzeniu przeglądarki interakcję z Ollama, musisz [dać mu wyraźne uprawnienia](https://github.com/ollama/ollama/issues/2308) podczas uruchamiania serwera, w przeciwnym razie zobaczysz błąd `403`.
 
-Zamknij aplikację Ollama i uruchom następujące polecenie w terminalu. Protokół należy zmienić na protokół rozszerzenia Twojej przeglądarki, jeśli nie używasz Chrome lub Firefox.
+Zamknij aplikację Ollama i uruchom następujące polecenie w terminalu. Protokół należy zmienić na protokół rozszerzenia twojej przeglądarki, jeśli nie używasz Chrome lub Firefox.
 
 ```
 OLLAMA_ORIGINS=moz-extension://*,chrome-extension://*,safari-web-extension://* ollama serve

@@ -4,11 +4,11 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian Web Clipper to darmowe rozszerzenie przeglądarki, które pozwala wyróżniać strony i zapisywać treści internetowe do Twojego sejfu.
+Obsidian Web Clipper to darmowe rozszerzenie przeglądarki, które pozwala wyróżniać strony i zapisywać treści internetowe do twojego sejfu.
 
 ## Instalacja Web Clipper
 
-Pobierz rozszerzenie Obsidian Web Clipper z oficjalnego katalogu dla Twojej przeglądarki:
+Pobierz rozszerzenie Obsidian Web Clipper z oficjalnego katalogu dla twojej przeglądarki:
 
 - [Chrome Web Store](https://chromewebstore.google.com/detail/obsidian-web-clipper/cnjifjpddelmedmihgijeibhnjfabmlf)
 	- Dla Chrome, Brave, Arc, Orion i innych przeglądarek opartych na Chromium.
@@ -42,4 +42,4 @@ Pobierz rozszerzenie Obsidian Web Clipper z oficjalnego katalogu dla Twojej prze
 
 ## Prywatność
 
-Obsidian Web Clipper zapisuje treści lokalnie w Twoim sejfie Obsidian i stosuje się do naszej [polityki prywatności](https://obsidian.md/privacy). Twoje dane nie są zbierane i nie gromadzimy żadnych metryk użytkowania. Kod jest [otwartym oprogramowaniem (open-source)](https://github.com/obsidianmd/obsidian-clipper) i dostępny do audytu.
+Obsidian Web Clipper zapisuje treści lokalnie w twoim sejfie Obsidian i stosuje się do naszej [polityki prywatności](https://obsidian.md/privacy). Twoje dane nie są zbierane i nie gromadzimy żadnych metryk użytkowania. Kod jest [otwartym oprogramowaniem (open-source)](https://github.com/obsidianmd/obsidian-clipper) i dostępny do audytu.

@@ -5,20 +5,20 @@ Jeśli jeszcze nie tworzysz kopii zapasowej komputera, zacznij teraz! Wtyczka [[
 
 **Dlaczego warto tworzyć kopie zapasowe danych?**
 
-Domyślnie Obsidian przechowuje notatki **lokalnie** na Twoim urządzeniu, a nie w chmurze. Oznacza to, że [dane należą w pełni do Ciebie](https://obsidian.md/about), co daje Ci nad nimi kontrolę. Jednak lokalne przechowywanie może być narażone na problemy takie jak uszkodzenie lub utrata danych. To nie jest kwestia „czy", ale „kiedy". Tworzenie kopii zapasowych chroni przed tymi nieuniknionymi sytuacjami i zapewnia utrzymanie kontroli nad notatkami.
+Domyślnie Obsidian przechowuje notatki **lokalnie** na twoim urządzeniu, a nie w chmurze. Oznacza to, że [dane należą w pełni do ciebie](https://obsidian.md/about), co daje ci nad nimi kontrolę. Jednak lokalne przechowywanie może być narażone na problemy takie jak uszkodzenie lub utrata danych. To nie jest kwestia „czy”, ale „kiedy”. Tworzenie kopii zapasowych chroni przed tymi nieuniknionymi sytuacjami i zapewnia utrzymanie kontroli nad notatkami.
 
 ## Synchronizacja to nie kopia zapasowa
 
 Usługi takie jak [[Wprowadzenie do Obsidian Sync|Obsidian Sync]], iCloud, OneDrive i Dropbox pomagają synchronizować notatki między różnymi urządzeniami. Choć mogą oferować funkcje takie jak [[Historia wersji|przywracanie notatek]], **nie są zaprojektowane jako kopie zapasowe**. Synchronizacja utrzymuje notatki w aktualnym stanie, ale nie chroni przed utratą danych.
 
-- **Synchronizacja:** Synchronizacja zapewnia, że pliki są takie same na wszystkich urządzeniach. Gdy zmienisz plik na jednym urządzeniu, zostanie on zaktualizowany na wszystkich zsynchronizowanych urządzeniach. Usługi synchronizacji nie mają „głównego" urządzenia.
+- **Synchronizacja:** Synchronizacja zapewnia, że pliki są takie same na wszystkich urządzeniach. Gdy zmienisz plik na jednym urządzeniu, zostanie on zaktualizowany na wszystkich zsynchronizowanych urządzeniach. Usługi synchronizacji nie mają „głównego” urządzenia.
 - **Kopia zapasowa:** Kopia zapasowa zapisuje kopię danych w innej lokalizacji, aby pomóc je odzyskać w przypadku utraty lub uszkodzenia danych. Kopie zapasowe nie są przeznaczone do aktualizacji w czasie rzeczywistym ani do współpracy.
 
-Aby prawidłowo utworzyć kopię zapasową sejfu, użyj dedykowanego narzędzia do tworzenia kopii zapasowych, które tworzy jednokierunkową kopię danych. Narzędzie to wyśle dane do bezpiecznej lokalizacji kopii zapasowej bez zmieniania danych na Twoim urządzeniu.
+Aby prawidłowo utworzyć kopię zapasową sejfu, użyj dedykowanego narzędzia do tworzenia kopii zapasowych, które tworzy jednokierunkową kopię danych. Narzędzie to wyśle dane do bezpiecznej lokalizacji kopii zapasowej bez zmieniania danych na twoim urządzeniu.
 
-Jeśli korzystasz z wielu urządzeń z synchronizacją, wybierz **jedno urządzenie** jako urządzenie do tworzenia kopii zapasowych. Zazwyczaj jest to Twoje główne urządzenie, czyli to, którego używasz najczęściej. Pamiętaj, że większość usług synchronizacji nie rozpoznaje żadnego urządzenia jako „głównego"; jest to jedynie koncepcja ułatwiająca zarządzanie kopiami zapasowymi.
+Jeśli korzystasz z wielu urządzeń z synchronizacją, wybierz **jedno urządzenie** jako urządzenie do tworzenia kopii zapasowych. Zazwyczaj jest to twoje główne urządzenie, czyli to, którego używasz najczęściej. Pamiętaj, że większość usług synchronizacji nie rozpoznaje żadnego urządzenia jako „głównego”; jest to jedynie koncepcja ułatwiająca zarządzanie kopiami zapasowymi.
 
-> [!Example] Używasz Obsidian Sync na laptopie, tablecie, telefonie i komputerze stacjonarnym w pracy. Najczęściej korzystasz ze sejfu na komputerze w pracy, czasem na laptopie, a rzadko na tablecie lub telefonie. W tym przypadku komputer w pracy byłby Twoim „głównym urządzeniem" do tworzenia kopii zapasowych.
+> [!Example] Używasz Obsidian Sync na laptopie, tablecie, telefonie i komputerze stacjonarnym w pracy. Najczęściej korzystasz ze sejfu na komputerze w pracy, czasem na laptopie, a rzadko na tablecie lub telefonie. W tym przypadku komputer w pracy byłby twoim „głównym urządzeniem” do tworzenia kopii zapasowych.
 
 ## Korzystanie z wtyczek społeczności
 
@@ -46,7 +46,7 @@ Kopie zapasowe na zewnętrznych dyskach twardych nadal mają wartość w coraz b
 Pamięci flash (nazywane również pendrive'ami lub pamięciami przenośnymi) to prosta i skuteczna metoda szybkiego tworzenia kopii zapasowych.
 
 1. Włóż pamięć flash do komputera lub laptopa.
-2. Upewnij się, że urządzenie jest rozpoznane i zamontowane w systemie plików. W razie potrzeby sformatuj pamięć flash, aby była kompatybilna z Twoim systemem plików.
+2. Upewnij się, że urządzenie jest rozpoznane i zamontowane w systemie plików. W razie potrzeby sformatuj pamięć flash, aby była kompatybilna z twoim systemem plików.
 3. Skopiuj folder sejfu z jego bieżącej lokalizacji na pamięć flash.
 4. Bezpiecznie odmontuj pamięć flash.
 5. Wyjmij pamięć flash z urządzenia.

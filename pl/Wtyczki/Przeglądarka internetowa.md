@@ -1,7 +1,7 @@
 ---
 permalink: plugins/web-viewer
 ---
-Przeglądarka internetowa to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala otwierać łącza zewnętrzne w Obsidian na komputerze. Umożliwia to czytanie zawartości linków bez opuszczania aplikacji i ułatwia wielozadaniowość w projektach wymagających badań w sieci.
+Przeglądarka internetowa to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala otwierać łącza zewnętrzne w Obsidian na komputerze. Umożliwia to czytanie zawartości łączy bez opuszczania aplikacji i ułatwia wielozadaniowość w projektach wymagających badań w sieci.
 
 Łącza zewnętrzne otwierają się jako [[Karty|karta]], którą można przestawiać, dzielić i otwierać w [[Okna wyskakujące|oknie wyskakującym]]. Karty stron internetowych osadzone w plikach [[Tablica]] można otwierać jako karty przeglądarki internetowej.
 

@@ -9,7 +9,7 @@ Slajdy to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala tworzyć preze
 
 **Paleta poleceń:**
 
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|Paletę poleceń]].
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|Paletę poleceń]].
 2. Wyszukaj polecenie **Rozpocznij prezentację**.
 3. Naciśnij `Enter` po wybraniu polecenia, aby rozpocząć prezentację z aktywnej notatki.
 
@@ -19,7 +19,7 @@ Możesz również przejść do następnego slajdu, naciskając spację.
 
 Aby zatrzymać prezentację, naciśnij `Escape` lub kliknij krzyżyk w prawym górnym rogu prezentacji.
 
-Możesz użyć dowolnego poprawnego pliku Markdown jako prezentacji. Aby rozdzielić slajdy, wpisz `---` na początku linii otoczonej pustymi liniami.
+Możesz użyć dowolnego poprawnego pliku Markdown jako prezentacji. Aby rozdzielić slajdy, wpisz `---` na początku wiersza otoczonej pustymi wierszami.
 
 ```md
 # Prezentacje za pomocą Slajdów

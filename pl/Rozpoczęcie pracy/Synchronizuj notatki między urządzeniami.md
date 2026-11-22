@@ -6,7 +6,7 @@ publish: true
 mobile: true
 description: Jak synchronizować notatki Obsidian między urządzeniami i platformami.
 ---
-Obsidian przechowuje notatki lokalnie na Twoim urządzeniu, więc zawsze masz do nich dostęp, nawet offline. Aby uzyskać dostęp do notatek na wielu urządzeniach, musisz skonfigurować metodę synchronizacji.
+Obsidian przechowuje notatki lokalnie na twoim urządzeniu, więc zawsze masz do nich dostęp, nawet offline. Aby uzyskać dostęp do notatek na wielu urządzeniach, musisz skonfigurować metodę synchronizacji.
 
 Ten przewodnik omawia popularne metody synchronizacji, w tym wskazówki jak uniknąć utraty danych i zapewnić płynne działanie.
 
@@ -14,7 +14,7 @@ Zalecamy również zapoznanie się z naszym [[Tworzenie kopii zapasowej plików 
 
 ## Metody synchronizacji
 
-W Obsidian Twoje dane są po prostu przechowywane jako pliki w folderze zwanym [[Sejfy lokalne i zdalne|sejfem]]. Oznacza to, że istnieje wiele sposobów synchronizacji danych.
+W Obsidian twoje dane są po prostu przechowywane jako pliki w folderze zwanym [[Sejfy lokalne i zdalne|sejfem]]. Oznacza to, że istnieje wiele sposobów synchronizacji danych.
 
 Oto kilka powszechnie używanych metod synchronizacji zgłaszanych przez członków społeczności Obsidian:
 
@@ -31,7 +31,7 @@ Dziesiątki alternatywnych opcji synchronizacji można znaleźć w [katalogu wty
 
 Najprostszą i oficjalnie wspieraną metodą synchronizacji jest nasze rozwiązanie pierwszej strony: [[Wprowadzenie do Obsidian Sync|Obsidian Sync]].
 
-Obsidian Sync utrzymuje synchronizację Twoich sejfów na wszystkich urządzeniach, korzystając ze zdalnego sejfu do tworzenia kopii danych. Lokalna kopia pozostaje na Twoich urządzeniach przez cały czas.
+Obsidian Sync utrzymuje synchronizację twoich sejfów na wszystkich urządzeniach, korzystając ze zdalnego sejfu do tworzenia kopii danych. Lokalna kopia pozostaje na twoich urządzeniach przez cały czas.
 
 Postępuj zgodnie z [[Konfiguracja Obsidian Sync|przewodnikiem konfiguracji]], aby skonfigurować Obsidian Sync.
 
@@ -45,32 +45,32 @@ iCloud może być używany do synchronizacji sejfów między iOS a macOS. Jednak
 
 - **Włącz iCloud Drive**:
     - Na macOS: Przejdź do **Ustawienia systemowe → Apple ID → iCloud → iCloud Drive**.
-    - Na iOS: Przejdź do **Ustawienia → [Twoje imię] → iCloud → iCloud Drive**.
+    - Na iOS: Przejdź do **Ustawienia → [twoje imię] → iCloud → iCloud Drive**.
 - **Utwórz nowy sejf w iCloud**:
     - Na macOS:
-        1. Otwórz **Obsidian** i wybierz **Stwórz nowy sejf**.
+        1. Otwórz **Obsidian** i wybierz **Utwórz nowy sejf**.
         2. W oknie wyboru plików przejdź do **iCloud Drive → Obsidian**.
         3. Utwórz folder dla swojego sejfu i nadaj mu nazwę.
-        4. Wybierz **Stwórz**, aby zakończyć.
+        4. Wybierz **Utwórz**, aby zakończyć.
     - Na iOS:
-        1. Otwórz **Obsidian** i stuknij **Stwórz nowy sejf**.
+        1. Otwórz **Obsidian** i stuknij **Utwórz nowy sejf**.
         2. Wprowadź nazwę dla swojego sejfu.
         3. Włącz opcję **Przechowuj w iCloud**.
-        4. Stuknij **Stwórz**.
-- **Zachowaj folder sejfu jako pobrany** (opcjonalne, ale zdecydowanie zalecane, aby utrzymać szybki czas ładowania):
+        4. Stuknij **Utwórz**.
+- **Zachowaj folder sejfu jako pobrany** (opcjonalne, ale zdecydowanie zalecane, aby utrzymać krótki czas wczytywania):
     - Na macOS 15 (Sequoia) i nowszych: Kliknij prawym przyciskiem myszy folder **Obsidian** w iCloud Drive i wybierz **Zachowaj pobrane**.
     - Na macOS 14 (Sonoma) i starszych: Wyłącz **Optymalizuj pamięć Maca** w ustawieniach iCloud. To ustawienie wpływa na całą pamięć iCloud na urządzeniu, nie tylko na Obsidian.
 - **Otwórz sejf na innym urządzeniu Apple**:
     - Na innym urządzeniu macOS lub iOS otwórz **Obsidian**, przejdź do [[Zarządzaj sejfami|Przełącznika sejfów]] i wybierz **Otwórz folder jako sejf**. Przejdź do **iCloud Drive → Obsidian**.
 
 > [!warning]+ Lokalizacja folderu na iOS i iPadOS
-> Podczas korzystania z iCloud na urządzeniach mobilnych upewnij się, że Twój sejf jest przechowywany w prawidłowej lokalizacji: `iCloud Drive/Obsidian/[Nazwa Twojego sejfu]`.
+> Podczas korzystania z iCloud na urządzeniach mobilnych upewnij się, że twój sejf jest przechowywany w prawidłowej lokalizacji: `iCloud Drive/Obsidian/[Nazwa Twojego sejfu]`.
 > 
 > Sejfy powinny znajdować się w folderze **Obsidian** w iCloud Drive. Folder po prawej stronie z ikoną Obsidian jest prawidłowy. Nie używaj zwykłego folderu bez ikony aplikacji.
 > 
 > ![[iCloud-folder-location.png#interface]]
 > 
-> Aby zweryfikować lokalizację sejfu, otwórz aplikację **Pliki**, stuknij **Przeglądaj**, wybierz **iCloud Drive** w sekcji **Lokalizacje** i potwierdź, że Twój sejf znajduje się w folderze **Obsidian**. Jeśli Twój sejf jest w innej lokalizacji, mogą wystąpić problemy z synchronizacją.
+> Aby zweryfikować lokalizację sejfu, otwórz aplikację **Pliki**, stuknij **Przeglądaj**, wybierz **iCloud Drive** w sekcji **Lokalizacje** i potwierdź, że twój sejf znajduje się w folderze **Obsidian**. Jeśli twój sejf jest w innej lokalizacji, mogą wystąpić problemy z synchronizacją.
 
 ## OneDrive
 
@@ -88,9 +88,9 @@ iCloud może być używany do synchronizacji sejfów między iOS a macOS. Jednak
    - Na macOS: Pobierz aplikację OneDrive i zaloguj się.
 2. **Utwórz nowy sejf w OneDrive**:
    - Na Windows/macOS:
-     1. Otwórz **Przeglądarka plików** (Windows) lub **Finder** (macOS) i przejdź do **OneDrive → Dokumenty**.
+     1. Otwórz **Eksplorator plików** (Windows) lub **Finder** (macOS) i przejdź do **OneDrive → Dokumenty**.
      2. Utwórz nowy folder (np. \"Sejf Obsidian\").
-     3. Otwórz **Obsidian**, wybierz **Stwórz nowy sejf** i wskaż folder OneDrive.
+     3. Otwórz **Obsidian**, wybierz **Utwórz nowy sejf** i wskaż folder OneDrive.
 3. **Otwórz sejf na innym urządzeniu**:
    - Na innym urządzeniu otwórz **Obsidian**, przejdź do [[Zarządzaj sejfami|Przełącznika sejfów]] i wybierz **Otwórz folder jako sejf**. Przejdź do **OneDrive → Dokumenty**.
 
@@ -117,9 +117,9 @@ iCloud może być używany do synchronizacji sejfów między iOS a macOS. Jednak
     - Na Androidzie: Upewnij się, że Google Drive jest włączony i zalogowany.
 2. **Utwórz nowy sejf w Google Drive**:
     - Na Windows/macOS:
-        1. Otwórz **Przeglądarka plików** (Windows) lub **Finder** (macOS) i przejdź do **Google Drive**.
+        1. Otwórz **Eksplorator plików** (Windows) lub **Finder** (macOS) i przejdź do **Google Drive**.
         2. Utwórz nowy folder (np. \"Sejf Obsidian\").
-        3. Otwórz **Obsidian**, wybierz **Stwórz nowy sejf** i wskaż folder Google Drive.
+        3. Otwórz **Obsidian**, wybierz **Utwórz nowy sejf** i wskaż folder Google Drive.
 3. **Otwórz sejf na innym urządzeniu**:
     - Na innym urządzeniu otwórz **Obsidian**, przejdź do [[Zarządzaj sejfami|Przełącznika sejfów]] i wybierz **Otwórz folder jako sejf**. Przejdź do folderu Google Drive.
 
@@ -224,9 +224,9 @@ Niektórzy użytkownicy z powodzeniem używają wtyczek takich jak **Remotely Sa
 
 **Dlaczego moja preferowana usługa synchronizacji nie jest oficjalnie wspierana?**
 
-W przeciwieństwie do niektórych aplikacji do notatek, które uzyskują dostęp do jednego pliku na raz, Obsidian wymaga dostępu do całego sejfu ze względu na swoje funkcje (np. aktualizacja linków przy zmianie nazwy pliku). Utrudnia to niezawodne działanie niektórych usług z Obsidian.
+W przeciwieństwie do niektórych aplikacji do notatek, które uzyskują dostęp do jednego pliku na raz, Obsidian wymaga dostępu do całego sejfu ze względu na swoje funkcje (np. aktualizacja łączy przy zmianie nazwy pliku). Utrudnia to niezawodne działanie niektórych usług z Obsidian.
 
-**Dlaczego muszę zachować pliki jako „Dostępne offline"?**
+**Dlaczego muszę zachować pliki jako „Dostępne offline”?**
 
 Jeśli usługi takie jak OneDrive lub iCloud przenoszą pliki poza urządzenie (np. używając **Plików na żądanie** lub **Optymalizuj pamięć Maca**), Obsidian nie może uzyskać do nich dostępu, co powoduje problemy z synchronizacją. Oznacz folder sejfu jako **Zawsze zachowuj na tym urządzeniu** (OneDrive) lub upewnij się, że **Zachowaj pobrane** jest włączone (iCloud).
 

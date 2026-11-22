@@ -7,7 +7,7 @@ Skróty klawiszowe różnią się od [[Skróty edycji|systemowych skrótów klaw
 
 ## Wyświetlanie skrótów klawiszowych
 
-Najszybszym sposobem na sprawdzenie skrótu klawiszowego przypisanego do polecenia jest znalezienie go w [[Lista poleceń|Palecie poleceń]]. Jeśli skrót klawiszowy jest wymieniony przy danym poleceniu, oznacza to, że jest ustawiony.
+Najszybszym sposobem na sprawdzenie skrótu klawiszowego przypisanego do polecenia jest znalezienie go w [[Paleta poleceń|Palecie poleceń]]. Jeśli skrót klawiszowy jest wymieniony przy danym poleceniu, oznacza to, że jest ustawiony.
 
 Możesz również przeglądać i zarządzać wszystkimi skrótami klawiszowymi w **[[Ustawienia]] → Skróty klawiszowe**.
 
@@ -37,7 +37,7 @@ Aby wyświetlić tylko polecenia z przypisanymi skrótami klawiszowymi, wybierz 
 
 ## Układy klawiatury inne niż US
 
-Skróty klawiszowe są wyświetlane tak, jak wyglądałyby na amerykańskim układzie klawiatury. Nawet jeśli wyświetlana kombinacja nie odpowiada Twojemu układowi klawiatury, skrót będzie działać na podstawie faktycznie naciśniętych klawiszy (o ile nie zmienisz układu klawiatury).
+Skróty klawiszowe są wyświetlane tak, jak wyglądałyby na amerykańskim układzie klawiatury. Nawet jeśli wyświetlana kombinacja nie odpowiada twojemu układowi klawiatury, skrót będzie działać na podstawie faktycznie naciśniętych klawiszy (o ile nie zmienisz układu klawiatury).
 
 ## Domyślne skróty klawiszowe
 

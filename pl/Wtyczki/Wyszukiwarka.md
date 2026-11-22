@@ -8,15 +8,17 @@ Wyszukiwarka to [[Wbudowane wtyczki|wbudowana wtyczka]], która pomaga odnajdywa
 
 Domyślnie Wyszukiwarka znajduje się w lewym panelu bocznym ![[lucide-search.svg#icon]]. Możesz również otworzyć Wyszukiwarkę, naciskając `Ctrl+Shift+F` (Windows/Linux) lub `Command+Shift+F` (macOS).
 
+Aby wyszukiwać tylko w aktywnej notatce, użyj funkcji [[Znajdź i zamień]].
+
 - **Wyszukiwanie zaznaczonego tekstu**: Jeśli zaznaczysz tekst w edytorze i otworzysz Wyszukiwarkę za pomocą skrótu klawiszowego, zostaną wyświetlone wyniki wyszukiwania dla zaznaczonego tekstu.
 - **Wyszukiwanie ostatnich fraz**: Otwórz Wyszukiwarkę z pustą frazą wyszukiwania, aby wyświetlić listę ostatnio używanych fraz. Kliknij dowolną z nich, aby użyć jej ponownie.
 
-> [!info] Pominięte pliki
-> Pliki pasujące do wzorców w [[Ustawienia#Pominięte pliki|Pominiętych plikach]] nie będą wyświetlane w wynikach wyszukiwania.
+> [!info] Wykluczone pliki
+> Pliki pasujące do wzorców w [[Ustawienia#Wykluczone pliki|Wykluczonych plikach]] nie będą wyświetlane w wynikach wyszukiwania.
 
 ## Frazy wyszukiwania
 
-Fraza wyszukiwania to słowo lub wyrażenie, które wpisujesz w pole wyszukiwania. Umiejętność efektywnego tworzenia fraz wyszukiwania pomoże Ci szybko znaleźć to, czego szukasz, nawet w dużych sejfach. Obsidian przeszukuje wyłącznie zawartość notatek i tablic Canvas.
+Fraza wyszukiwania to słowo lub wyrażenie, które wpisujesz w pole wyszukiwania. Umiejętność efektywnego tworzenia fraz wyszukiwania pomoże ci szybko znaleźć to, czego szukasz, nawet w dużych sejfach. Obsidian przeszukuje wyłącznie zawartość notatek i tablic Canvas.
 
 > [!tip]- Wyszukiwanie ścieżek i nazw plików
 > Domyślnie możesz wyszukiwać tylko ścieżki i nazwy plików notatek oraz tablic Canvas. Aby wyszukać ścieżkę lub nazwę dowolnego pliku w sejfie, użyj operatora `path` lub `file`.
@@ -70,7 +72,7 @@ Niektóre operatory pozwalają nawet dodać zagnieżdżoną frazę wyszukiwania 
 | `match-case:`         | Dopasowanie z rozróżnianiem wielkości liter.<p/>Przykład: `match-case:HappyCat`.                                                                                                                                                                                                                                       |
 | `ignore-case:`        | Dopasowanie bez rozróżniania wielkości liter.<p/>Przykład: `ignore-case:ikea`.                                                                                                                                                                                                                                         |
 | `tag:`                | Wyszukuje tag w pliku.<p/>Przykład: `tag:#work`.<p/>Pamiętaj, że wyszukiwanie `tag:#work` nie zwróci wyników dla `#myjob/work`.<br /><br />**Uwaga**: Ponieważ `tag:` ignoruje dopasowania w blokach kodu i w zawartości innej niż Markdown, jest często szybsze i dokładniejsze niż zwykłe wyszukiwanie pełnotekstowe `#work`. |
-| `line:`               | Wyszukuje pliki zawierające co najmniej jedną linię pasującą do `x`.<p/>Przykład: `line:(mix flour)`.<p/><br>**Uwaga:** Użycie `-line` neguje wyszukiwanie, co oznacza, że znajdzie pliki, w których żadna linia nie pasuje do `x`.                                                                                     |
+| `line:`               | Wyszukuje pliki zawierające co najmniej jeden wiersz pasującą do `x`.<p/>Przykład: `line:(mix flour)`.<p/><br>**Uwaga:** Użycie `-line` neguje wyszukiwanie, co oznacza, że znajdzie pliki, w których żaden wiersz nie pasuje do `x`.                                                                                     |
 | `block:`              | Wyszukuje dopasowania w tym samym bloku.<p/>Przykład: `block:(dog cat)`.<p/>**Uwaga**: Ponieważ `block:` wymaga od Wyszukiwarki parsowania zawartości Markdown w każdym pliku, fraza wyszukiwania może potrzebować więcej czasu na zakończenie.                                                                                |
 | `section:`            | Wyszukuje dopasowania w tej samej sekcji (tekst między dwoma nagłówkami).<p/>Przykład: `section:(dog cat)`.                                                                                                                                                                                                             |
 | `task:`               | Wyszukuje dopasowania w [[Podstawowa składnia formatowania#Listy zadań\|zadaniu]] na zasadzie blok po bloku.<p/>Przykład: `task:call`.                                                                                                                                                                                  |
@@ -110,7 +112,7 @@ To ustawienie można przełączać. Jeśli ikona **Rozróżniaj wielkość liter
 
 1. Wpisz [[#Frazy wyszukiwania|frazę wyszukiwania]].
 2. Pod polem wyszukiwania wybierz listę rozwijaną po prawej stronie.
-3. Wybierz żądaną kolejność sortowania. Domyślna to „wg nazwy (od A do Z)".
+3. Wybierz żądaną kolejność sortowania. Domyślna to „wg nazwy (od A do Z)”.
 
 Dostępne są następujące opcje:
 
@@ -150,7 +152,7 @@ Aby skonfigurować Wyszukiwarkę, wybierz **Ustawienia wyszukiwania** ![[lucide-
 |----------------------------------|--------------------------------------------------------------------------------|
 | **Wyjaśnij frazę wyszukiwania** | Rozkłada frazę wyszukiwania i wyjaśnia ją zwykłym tekstem.                     |
 | **Zwiń wyniki wyszukiwania**     | Przełącza, czy wyświetlać kontekst wyszukiwania.                               |
-| **Pokaż dodatkowy kontekst**     | Rozwija wynik wyszukiwania, aby pokazać więcej tekstu wokół dopasowania.        |
+| **Pokaż więcej kontekstu**     | Rozwija wynik wyszukiwania, aby pokazać więcej tekstu wokół dopasowania.        |
 
 ## Osadzanie wyników wyszukiwania w notatce
 
@@ -162,6 +164,6 @@ embed OR search
 ```
 ````
 
-[[Wprowadzenie do Obsidian Publish|Obsidian Publish]] nie obsługuje osadzonych [[Ograniczenia Publish#Wyszukiwarka|wyników wyszukiwania]]. Aby zobaczyć wyrenderowany przykład na żywo, użyj powyższego bloku kodu w swoim sejfie.
+[[Wprowadzenie do Obsidian Publish|Obsidian Publish]] nie obsługuje osadzonych [[Ograniczenia Publish#Wyszukiwanie|wyników wyszukiwania]]. Aby zobaczyć wyrenderowany przykład na żywo, użyj powyższego bloku kodu w swoim sejfie.
 
 ![[search-query-rendered.png]]

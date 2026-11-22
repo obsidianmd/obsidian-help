@@ -4,12 +4,12 @@ publish: true
 mobile: true
 description: 'Dowiedz się, jak używać HTML w Obsidian, w tym ograniczenia związane z renderowaniem Markdown oraz wymagania dotyczące bloków HTML.'
 ---
-Obsidian obsługuje HTML, aby umożliwić wyświetlanie notatek w dowolny sposób, a nawet [[Osadzanie stron internetowych|osadzanie stron internetowych]]. Zezwolenie na HTML wewnątrz notatek wiąże się z ryzykiem. Aby zapobiec wyrządzaniu szkód przez złośliwy kod, Obsidian _sanityzuje_ każdy HTML w Twoich notatkach.
+Obsidian obsługuje HTML, aby umożliwić wyświetlanie notatek w dowolny sposób, a nawet [[Osadzanie stron internetowych|osadzanie stron internetowych]]. Zezwolenie na HTML wewnątrz notatek wiąże się z ryzykiem. Aby zapobiec wyrządzaniu szkód przez złośliwy kod, Obsidian _sanityzuje_ każdy HTML w twoich notatkach.
 
 > [!example] 
-> Element `<script>` normalnie pozwala na uruchomienie kodu JavaScript za każdym razem, gdy się ładuje. Gdyby Obsidian nie sanityzował HTML, atakujący mógłby nakłonić Cię do wklejenia tekstu zawierającego JavaScript, który wydobywa wrażliwe informacje z Twojego komputera i wysyła je z powrotem do atakującego.
+> Element `<script>` normalnie pozwala na uruchomienie kodu JavaScript za każdym razem, gdy się ładuje. Gdyby Obsidian nie sanityzował HTML, atakujący mógłby nakłonić cię do wklejenia tekstu zawierającego JavaScript, który wydobywa wrażliwe informacje z twojego komputera i wysyła je z powrotem do atakującego.
 
-Mimo to, ponieważ składnia Markdown nie obsługuje wszystkich form stylizacji, użycie sanityzowanego HTML może być jeszcze jednym sposobem na poprawę jakości Twoich notatek. Poniżej zamieściliśmy kilka najczęstszych zastosowań HTML.
+Mimo to, ponieważ składnia Markdown nie obsługuje wszystkich form stylizacji, użycie sanityzowanego HTML może być jeszcze jednym sposobem na poprawę jakości twoich notatek. Poniżej zamieściliśmy kilka najczęstszych zastosowań HTML.
 
 ## Ograniczenia HTML
 
@@ -29,7 +29,7 @@ This **will not** be bold and this `will not` be code.
 
 ### Bloki HTML muszą być samowystarczalne
 
-Bloki HTML muszą być kompletne i nie mogą zawierać pustych linii. Puste linie przerwą blok HTML.
+Bloki HTML muszą być kompletne i nie mogą zawierać pustych wierszy. Puste wiersze przerwą blok HTML.
 
 To zadziała:
 

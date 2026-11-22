@@ -3,21 +3,21 @@ permalink: teams/deploy
 cssclasses:
   - soft-embed
 ---
-Obsidian działa jako aplikacja lokalna na urządzeniach każdego członka Twojego zespołu. Jest zaprojektowany do pracy zarówno online, jak i offline, w sposób bezpieczny i prywatny, dając Ci pełną kontrolę nad danymi zespołu. Obsidian nie jest dostępny jako aplikacja webowa, dlatego konieczne będzie wdrożenie aplikacji na urządzeniach członków zespołu.
+Obsidian działa jako aplikacja lokalna na urządzeniach każdego członka twojego zespołu. Jest zaprojektowany do pracy zarówno online, jak i offline, w sposób bezpieczny i prywatny, dając ci pełną kontrolę nad danymi zespołu. Obsidian nie jest dostępny jako aplikacja webowa, dlatego konieczne będzie wdrożenie aplikacji na urządzeniach członków zespołu.
 
 ## Instalacja i aktualizacja Obsidian
 
-Twój zespół może pobrać Obsidian z naszej [strony pobierania](https://obsidian.md/download). Wydania są również dostępne na naszej [stronie wydań GitHub](https://github.com/obsidianmd/obsidian-releases/releases), która zawiera linki do [dziennika zmian](https://obsidian.md/changelog/).
+Twój zespół może pobrać Obsidian z naszej [strony pobierania](https://obsidian.md/download). Wydania są również dostępne na naszej [stronie wydań GitHub](https://github.com/obsidianmd/obsidian-releases/releases), która zawiera łącza do [dziennika zmian](https://obsidian.md/changelog/).
 
 > [!tip] Dla użytkowników Windows, którzy potrzebują instalatora systemowego, uniwersalny plik `.exe` zawiera opcję instalacji Obsidian dla wszystkich użytkowników.
 
-Jeśli w aplikacji włączone są aktualizacje automatyczne, przyszłe wersje będą instalowane automatycznie po ponownym uruchomieniu Obsidian przez użytkowników. Ponadto zalecamy okresowe przeprowadzanie [[Aktualizuj Obsidian#Aktualizacje instalatora|aktualizacji instalatora]], aby otrzymywać najnowsze aktualizacje frameworka Electron, w tym poprawki bezpieczeństwa.
+Jeśli w aplikacji włączone są aktualizacje automatyczne, przyszłe wersje będą instalowane automatycznie po ponownym uruchomieniu Obsidian przez użytkowników. Ponadto zalecamy okresowe przeprowadzanie [[Aktualizuj Obsidian#Aktualizacja instalatora|aktualizacji instalatora]], aby otrzymywać najnowsze aktualizacje frameworka Electron, w tym poprawki bezpieczeństwa.
 
 Jeśli szukasz informacji o tym, jak ograniczyć dostęp sieciowy do Obsidian podczas tego procesu, zapoznaj się z sekcją [[Kwestie bezpieczeństwa dla zespołów#Sieć i dostęp|sieć i dostęp]].
 
 ## Dostosowywanie Obsidian
 
-Obsidian jest łatwy do modyfikacji, aby dopasować go do potrzeb Twojego zespołu. Dzięki rozbudowanemu API i dużemu ekosystemowi użytkowników, Obsidian oferuje dostęp do licznych wtyczek, motywów i narzędzi uzupełniających.
+Obsidian jest łatwy do modyfikacji, aby dopasować go do potrzeb twojego zespołu. Dzięki rozbudowanemu API i dużemu ekosystemowi użytkowników, Obsidian oferuje dostęp do licznych wtyczek, motywów i narzędzi uzupełniających.
 
 W przypadku pytań dotyczących bezpieczeństwa w tych tematach, zapoznaj się z [[Kwestie bezpieczeństwa dla zespołów]].
 
@@ -25,13 +25,13 @@ W przypadku pytań dotyczących bezpieczeństwa w tych tematach, zapoznaj się z
 
 [[Folder konfiguracji]] to miejsce, w którym [[Słowniczek#Sejf|sejf]] Obsidian przechowuje swoje ustawienia aplikacji. Domyślnie folder ten nosi nazwę `.obsidian`, ale masz możliwość [[Folder konfiguracji#Zmiana folderu konfiguracji|zmiany nazwy folderu konfiguracji]] zgodnie ze swoimi preferencjami.
 
-Zalecamy stworzenie standardowego szablonu folderu konfiguracji do wdrożenia na urządzeniach członków zespołu.
+Zalecamy utworzenie standardowego szablonu folderu konfiguracji do wdrożenia na urządzeniach członków zespołu.
 
 ### Wtyczki
 
-[[Wbudowane wtyczki]] to opcjonalne funkcje stworzone przez zespół Obsidian. Funkcje te są zintegrowane w podstawowym kodzie aplikacji i mogą być włączane lub wyłączane.
+[[Wbudowane wtyczki]] to opcjonalne funkcje utworzone przez zespół Obsidian. Funkcje te są zintegrowane w podstawowym kodzie aplikacji i mogą być włączane lub wyłączane.
 
-[[Wtyczki społeczności]] to funkcje stworzone przez osoby trzecie, dodawane do aplikacji Obsidian i instalowane za pośrednictwem katalogu społeczności. Wtyczki zewnętrzne wykorzystują [Obsidian API](https://github.com/obsidianmd/obsidian-api). Wtyczki znajdują się w folderze `.obsidian/plugins` w sejfie i mogą być instalowane ręcznie w tej lokalizacji.
+[[Wtyczki społeczności]] to funkcje utworzone przez osoby trzecie, dodawane do aplikacji Obsidian i instalowane za pośrednictwem katalogu społeczności. Wtyczki zewnętrzne wykorzystują [Obsidian API](https://github.com/obsidianmd/obsidian-api). Wtyczki znajdują się w folderze `.obsidian/plugins` w sejfie i mogą być instalowane ręcznie w tej lokalizacji.
 
 ### Motywy i snippety
 

@@ -4,9 +4,9 @@ publish: true
 mobile: true
 description: 'Poznaj lewy i prawy panel boczny Obsidian oraz dowiedz się, jak zarządzać kartami i grupami kart.'
 ---
-Obsidian posiada dwa panele boczne: lewy panel boczny i prawy panel boczny. Panele boczne zawierają karty tworzone przez wtyczki, takie jak [[Linki zwrotne]], [[Łącza wychodzące]] i [[Przeglądarka plików]]. Na komputerze możesz również przeciągać notatki do panelu bocznego, aby były widoczne obok głównego edytora.
+Obsidian posiada dwa panele boczne: lewy panel boczny i prawy panel boczny. Panele boczne zawierają karty tworzone przez wtyczki, takie jak [[Linki zwrotne]], [[Łącza wychodzące]] i [[Eksplorator plików]]. Na komputerze możesz również przeciągać notatki do panelu bocznego, aby były widoczne obok głównego edytora.
 
-Na komputerze i większych tabletach lewy panel boczny zawiera [[Wstążka]]. Na urządzeniach mobilnych i mniejszych tabletach panele boczne są [[#Otwieranie ukrytych paneli bocznych|domyślnie zwinięte]].
+Na komputerze i większych tabletach lewy panel boczny może też wyświetlać [[Pasek boczny|pasek boczny]]. Na urządzeniach mobilnych i mniejszych tabletach panele boczne są [[#Otwieranie ukrytych paneli bocznych|domyślnie zwinięte]].
 
 ## Otwieranie ukrytych paneli bocznych
 
@@ -20,7 +20,7 @@ Na urządzeniach mobilnych i mniejszych tabletach możesz otworzyć ukryte panel
 
 - Przesuń palcem w lewo lub w prawo
 - Wybierz ikonę rozwijania lewego paska ![[obsidian-icon-side-bar-left.svg#icon]] (tylko lewy panel boczny)
-- Użyj opcji *Przełącz lewy* lub *Przełącz prawy* z [[Lista poleceń]].
+- Użyj polecenia **Pokaż lub ukryj lewy panel boczny** lub **Pokaż lub ukryj prawy panel boczny** z [[Paleta poleceń|palety poleceń]].
 
 ## Karty
 
@@ -35,8 +35,8 @@ W każdym panelu w danym momencie widoczna jest tylko jedna karta. Niektóre akc
 Istnieje kilka sposobów dodawania kart do paneli bocznych:
 
 - **Włącz wtyczkę**: Wiele wtyczek automatycznie tworzy karty w panelu bocznym po włączeniu. Przejdź do **Ustawienia → Wtyczki społeczności** (lub **Wbudowane wtyczki**) i włącz wtyczkę dla żądanej karty.
-- **Uruchom polecenie**: Użyj [[Lista poleceń|Palety poleceń]], aby wyszukać polecenia otwierające konkretne karty. Na przykład wyszukaj „Linki zwrotne" lub „Łącza wychodzące", aby otworzyć te karty.
-- **Przeciągnij notatkę** (tylko komputer): Na komputerze możesz przeciągnąć notatkę z [[Przeglądarka plików|Przeglądarki plików]] lub z karty edytora do panelu bocznego, aby ją tam otworzyć.
+- **Uruchom polecenie**: Użyj [[Paleta poleceń|Palety poleceń]], aby wyszukać polecenia otwierające konkretne karty. Na przykład wyszukaj „Linki zwrotne” lub „Łącza wychodzące”, aby otworzyć te karty.
+- **Przeciągnij notatkę** (tylko komputer): Na komputerze możesz przeciągnąć notatkę z [[Eksplorator plików|Eksploratora plików]] lub z karty edytora do panelu bocznego, aby ją tam otworzyć.
 
 Jeśli zamknąłeś kartę i chcesz ją odzyskać, te same metody pozwolą ją ponownie otworzyć.
 
@@ -61,7 +61,7 @@ Zachowanie przypiętej karty w panelu bocznym zależy od typu jej zawartości:
 - **Notatki i bazy danych**: Przypięta karta notatki lub bazy danych pozostaje na miejscu. Nowe notatki otwierają się jako osobne karty w głównym edytorze zamiast zastępować przypiętą kartę.
 - **Panele** (jak [[Linki zwrotne]] lub [[Łącza wychodzące]]): Przypięty panel pozostaje skupiony na ostatnio wybranej notatce. Wybranie innej notatki nie aktualizuje przypiętego panelu.
 
-Informacje o przypinaniu kart w głównym edytorze znajdziesz w [[Karty#Przypnij kartę|Przypnij kartę]].
+Informacje o przypinaniu kart w głównym edytorze znajdziesz w [[Karty#Przypinanie karty|Przypnij kartę]].
 
 ## Grupy kart
 

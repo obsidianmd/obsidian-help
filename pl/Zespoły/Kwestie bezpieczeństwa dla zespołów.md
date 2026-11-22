@@ -3,13 +3,13 @@ permalink: teams/security
 cssclasses:
   - soft-embed
 ---
-Nasza strona [Bezpieczeństwo](https://obsidian.md/security) zawiera informacje o tym, jak Obsidian podchodzi do ochrony Twoich danych. Jest to również miejsce, w którym znajdziesz audyty bezpieczeństwa przeprowadzone przez strony trzecie.
+Nasza strona [Bezpieczeństwo](https://obsidian.md/security) zawiera informacje o tym, jak Obsidian podchodzi do ochrony twoich danych. Jest to również miejsce, w którym znajdziesz audyty bezpieczeństwa przeprowadzone przez strony trzecie.
 
 ## Kwestie do rozważenia
 
 Obsidian jest zaprojektowany do działania jako aplikacja offline i samodzielna. Obsidian obsługuje również niestandardowe wtyczki i motywy. Ponadto zapewniamy zarówno oficjalne, jak i nieoficjalne wsparcie dla różnych usług synchronizacji plików.
 
-Jeśli nie zamierzasz korzystać z wtyczek społeczności ani motywów, ani z [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] lub [[Wprowadzenie do Obsidian Publish|Obsidian Publish]], zastosowanie będą miały Twoje standardowe procedury zabezpieczania aplikacji. Jednak jeśli planujesz korzystać z którejkolwiek z tych funkcji, zalecamy dokładną ocenę ich przydatności w Twoim miejscu pracy.
+Jeśli nie zamierzasz korzystać z wtyczek społeczności ani motywów, ani z [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] lub [[Wprowadzenie do Obsidian Publish|Obsidian Publish]], zastosowanie będą miały twoje standardowe procedury zabezpieczania aplikacji. Jednak jeśli planujesz korzystać z którejkolwiek z tych funkcji, zalecamy dokładną ocenę ich przydatności w twoim miejscu pracy.
 
 ## Wtyczki społeczności i motywy
 
@@ -45,7 +45,7 @@ Obsidian wykonuje zapytania sieciowe zarówno do `github.com`, jak i `raw.github
 
 - **Wydania publiczne**: Jeśli aktualizacje automatyczne są włączone, Obsidian sprawdza GitHub pod kątem publicznych wydań.
 - **Motywy i wtyczki stron trzecich**:
-    - Co 12 godzin od uruchomienia aplikacji wykonywane jest sprawdzenie w celu pobrania pliku hostowanego na GitHubie, używanego do „wycofywania wtyczek". Plik ten pomaga zdalnie wyłączać konkretne wersje wtyczek, o których wiadomo, że działają nieprawidłowo, powodują utratę danych lub mogą być podatne na ataki lub złośliwe.
+    - Co 12 godzin od uruchomienia aplikacji wykonywane jest sprawdzenie w celu pobrania pliku hostowanego na GitHubie, używanego do „wycofywania wtyczek”. Plik ten pomaga zdalnie wyłączać konkretne wersje wtyczek, o których wiadomo, że działają nieprawidłowo, powodują utratę danych lub mogą być podatne na ataki lub złośliwe.
     - Włączone wtyczki mogą generować ruch sieciowy poza kontrolą Obsidian i GitHub.
 
 ### Inne połączenia
@@ -58,7 +58,7 @@ Obsidian wykonuje zapytania sieciowe zarówno do `github.com`, jak i `raw.github
 ### Bezpieczeństwo konta
 
 **Czy Obsidian obsługuje Single Sign-On (SSO)?**
-Obsidian nie obsługuje SSO. W większości przypadków użycia Obsidian nie wymaga konta ani logowania w Twoim miejscu pracy, chyba że korzystasz z [[Wprowadzenie do Obsidian Publish|Obsidian Publish]] lub [[Wprowadzenie do Obsidian Sync|Obsidian Sync]].
+Obsidian nie obsługuje SSO. W większości przypadków użycia Obsidian nie wymaga konta ani logowania w twoim miejscu pracy, chyba że korzystasz z [[Wprowadzenie do Obsidian Publish|Obsidian Publish]] lub [[Wprowadzenie do Obsidian Sync|Obsidian Sync]].
 
 **Czy Obsidian obsługuje uwierzytelnianie wieloskładnikowe (MFA)?**
 Obsidian obsługuje [[Uwierzytelnianie dwuskładnikowe|uwierzytelnianie dwuskładnikowe]] (2FA) dla kont Obsidian, ale nie obsługuje 2FA do otwierania i używania podstawowej aplikacji. Użytkownicy [[Wprowadzenie do Obsidian Sync|Obsidian Sync]] i [[Wprowadzenie do Obsidian Publish|Obsidian Publish]], którzy mają włączone 2FA, będą musieli potwierdzić swój klucz 2FA przy pierwszym logowaniu do aplikacji.
@@ -68,7 +68,7 @@ Obsidian obsługuje [[Uwierzytelnianie dwuskładnikowe|uwierzytelnianie dwuskła
 **Czy akceptujecie oceny bezpieczeństwa od naszej firmy?**
 Wymagamy minimalnej kwoty zamówienia zakupu przed rozważeniem przeprowadzenia oceny bezpieczeństwa. Takie oceny są często czasochłonne i mogą nie mieć zastosowania do aplikacji offline, takich jak Obsidian, ponieważ są zazwyczaj skierowane do usług opartych na chmurze.
 
-Możesz jednak zrezygnować z tej minimalnej kwoty zamówienia, zgadzając się na opłatę zaliczkową. Skontaktuj się z [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|pomocą techniczną Obsidian]], aby zapytać o tę opcję.
+Możesz jednak zrezygnować z tej minimalnej kwoty zamówienia, zgadzając się na opłatę zaliczkową. Skontaktuj się z [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|pomocą techniczną Obsidian]], aby zapytać o tę opcję.
 
 **Czy posiadacie uznane certyfikaty związane z bezpieczeństwem informacji lub standardami jakości, takie jak ISO27001, NIST, COBIT lub inne certyfikaty ISO lub CSA?**
 Nie w tej chwili. Być może zbadamy to w przyszłości, ale na razie koncentrujemy się na naszych [audytach bezpieczeństwa](https://obsidian.md/security).

@@ -1,9 +1,9 @@
 ---
 permalink: plugins/bookmarks
 ---
-Ulubione to [[Wbudowane wtyczki|wbudowana wtyczka]], która umożliwia szybki dostęp do często używanych elementów. Zakładka to „skrót", który natychmiast przenosi Cię do zapisanego elementu.
+Ulubione to [[Wbudowane wtyczki|wbudowana wtyczka]], która umożliwia szybki dostęp do często używanych elementów. Element ulubionych to „skrót”, który natychmiast przenosi cię do zapisanego miejsca.
 
-Możesz dodawać zakładki do następujących elementów:
+Do ulubionych możesz dodawać:
 
 - Pliki
 - Foldery
@@ -11,24 +11,23 @@ Możesz dodawać zakładki do następujących elementów:
 - Wyszukiwania
 - Nagłówki
 - Bloki
-- Linki
+- Łącza
 
-Otwórz zakładkę, wybierając ją w karcie Ulubione.
+Aby otworzyć element, wybierz go na karcie Ulubione.
 
-Możesz zmieniać kolejność zakładek, zaznaczając je i przeciągając.
+Możesz zmieniać kolejność elementów, zaznaczając je i przeciągając.
 
-Możesz dodawać elementy do ulubionych i organizować je w _grupy ulubionych_, aby łatwiej je znaleźć. Możesz rozwijać i zwijać grupy ulubionych, aby pokazać lub ukryć zawarte w nich zakładki.
+Możesz dodawać elementy do ulubionych i organizować je w _grupy ulubionych_, aby łatwiej je znaleźć. Możesz rozwijać i zwijać grupy ulubionych, aby pokazać lub ukryć zawarte w nich elementy.
 
 > [!todo]- Pokaż ulubione
 > Zapisane elementy znajdziesz, klikając **Ulubione** ![[lucide-bookmark.svg#icon]] na lewym panelu bocznym.
 >
-> Możesz też otworzyć kartę Ulubione, uruchamiając polecenie **Ulubione: Pokaż ulubione** z [[Lista poleceń|palety poleceń]].
+> Możesz też otworzyć kartę Ulubione, uruchamiając polecenie **Ulubione: Pokaż ulubione** z [[Paleta poleceń|palety poleceń]].
 
-## Dodawanie zakładki
+## Dodawanie do ulubionych
+Dodanie elementu do ulubionych otwiera okno dialogowe **Dodaj do ulubionych**, w którym możesz ustawić opcjonalny tytuł i przypisać element do grupy ulubionych.
 
-Dodanie zakładki otwiera okno dialogowe **Dodaj do ulubionych**, w którym możesz ustawić opcjonalny tytuł i przypisać ją do grupy ulubionych.
-
-Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na **Edytuj ulubione** i umożliwia edycję zakładki.
+Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na **Edytuj ulubione** i umożliwia edycję elementu.
 
 > [!todo]- Dodawanie pliku do ulubionych
 >
@@ -36,27 +35,27 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 >
 > - Wybierz **Dodaj aktywną kartę do ulubionych** ![[lucide-bookmark-plus.svg#icon]] u góry karty Ulubione.
 >
-> **Przeglądarka plików**:
+> **Eksplorator plików**:
 >
-> - Kliknij prawym przyciskiem myszy plik w [[Przeglądarka plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
+> - Kliknij prawym przyciskiem myszy plik w [[Eksplorator plików|eksploratorze plików]] i wybierz **Dodaj do ulubionych**.
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wyszukaj polecenie **Dodaj do ulubionych**.
-> 3. Naciśnij `Enter` z wybranym poleceniem, aby dodać zakładkę.
+> 3. Naciśnij `Enter` z wybranym poleceniem, aby dodać plik do ulubionych.
 
 > [!todo]- Dodawanie folderu do ulubionych
 >
-> **Przeglądarka plików**:
+> **Eksplorator plików**:
 >
-> - Kliknij prawym przyciskiem myszy folder w [[Przeglądarka plików|przeglądarce plików]] i wybierz **Dodaj do ulubionych**.
+> - Kliknij prawym przyciskiem myszy folder w [[Eksplorator plików|eksploratorze plików]] i wybierz **Dodaj do ulubionych**.
 
 > [!todo]- Dodawanie wyszukiwanego terminu do ulubionych
 >
 > **Wyszukiwarka**:
 >
-> 1. Wprowadź [[Wyszukiwarka#Terminy wyszukiwania|termin wyszukiwania]].
+> 1. Wprowadź [[Wyszukiwarka#Frazy wyszukiwania|termin wyszukiwania]].
 > 2. Pod polem wyszukiwania wybierz ikonę trzech kropek obok liczby wyników.
 > 3. Wybierz **Dodaj do ulubionych**.
 
@@ -70,33 +69,32 @@ Gdy dodasz element do ulubionych, opcja **Dodaj do ulubionych** zmienia się na 
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wybierz polecenie **Dodaj nagłówek pod kursorem do ulubionych**.
 
 > [!todo]- Dodawanie bloku do ulubionych
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wybierz polecenie **Dodaj blok pod kursorem do ulubionych**.
 
-> [!todo]- Dodawanie linku do ulubionych
+> [!todo]- Dodawanie łącza do ulubionych
 >
 > 1. Włącz [[Przeglądarka internetowa|przeglądarkę internetową]] we [[Wbudowane wtyczki|wbudowanych wtyczkach]].
-> 2. Otwórz [[Przeglądarka internetowa|przeglądarkę internetową]] i przejdź do linku, który chcesz dodać do ulubionych.
+> 2. Otwórz [[Przeglądarka internetowa|przeglądarkę internetową]] i przejdź do łącza, które chcesz dodać do ulubionych.
 > 3. Na pasku adresu wybierz ikonę trzech kropek obok ikony czytnika.
 > 4. Wybierz **Dodaj do ulubionych**.
 >
 > **Paleta poleceń**:
 >
-> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS) w panelu [[Przeglądarka internetowa|przeglądarki internetowej]], aby otworzyć [[Lista poleceń|paletę poleceń]].
+> 1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS) w panelu [[Przeglądarka internetowa|przeglądarki internetowej]], aby otworzyć [[Paleta poleceń|paletę poleceń]].
 > 2. Wybierz polecenie **Dodaj do ulubionych**.
 
-## Usuwanie zakładki
+## Usuwanie z ulubionych
+Na karcie Ulubione kliknij prawym przyciskiem myszy element i wybierz **Usuń**.
 
-W karcie Ulubione kliknij prawym przyciskiem myszy zakładkę i wybierz **Usuń**.
-
-Możesz również usunąć zakładkę z okna dialogowego **Edytuj ulubione**.
+Możesz również usunąć element z okna dialogowego **Edytuj ulubione**.
 
 ## Dodawanie grupy ulubionych
 
@@ -104,17 +102,17 @@ Możesz również usunąć zakładkę z okna dialogowego **Edytuj ulubione**.
 
 - Wybierz **Nowa grupa ulubionych** ![[lucide-folder-plus.svg#icon]] u góry karty Ulubione.
 
-Aby przenieść zakładkę do innej grupy, zaznacz ją i przeciągnij do grupy, do której chcesz ją przenieść.
+Aby przenieść element do innej grupy, zaznacz ją i przeciągnij do grupy, do której chcesz ją przenieść.
 
 ## Usuwanie grupy ulubionych
 
-Aby usunąć grupę ulubionych wraz ze wszystkimi zakładkami w niej zawartymi, kliknij prawym przyciskiem myszy grupę ulubionych i wybierz **Usuń**.
+Aby usunąć grupę ulubionych wraz ze wszystkimi zawartymi w niej elementami, kliknij prawym przyciskiem myszy grupę ulubionych i wybierz **Usuń**.
 
 ## Dodawanie wielu plików do ulubionych
 
-Możesz dodać wiele zakładek jednocześnie.
+Możesz dodać do ulubionych wiele plików jednocześnie.
 
-**Przeglądarka plików**:
+**Eksplorator plików**:
 
 1. Zaznacz wiele plików, przytrzymując `Alt` i klikając każdy plik, lub naciśnij `Shift`, aby zaznaczyć zakres plików.
 2. Kliknij prawym przyciskiem myszy jeden z zaznaczonych plików, a następnie wybierz **Dodaj do ulubionych**.
@@ -122,4 +120,4 @@ Możesz dodać wiele zakładek jednocześnie.
 **Opcje grupy kart**:
 
 1. W prawym górnym rogu grupy kart wybierz strzałkę w dół.
-2. Wybierz **Dodaj 3 karty do ulubionych**, gdzie 3 to liczba kart w grupie kart.
+2. Wybierz **Dodaj karty do ulubionych (3)...**, gdzie 3 to liczba kart w grupie kart.

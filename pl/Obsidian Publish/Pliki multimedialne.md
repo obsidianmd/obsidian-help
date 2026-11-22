@@ -7,7 +7,7 @@ cssclasses:
 
 ![[Ograniczenia Publish#^publish-media-limit]]
 
-Ta strona zawiera wskazówki, które pomogą Ci zoptymalizować pliki multimedialne hostowane w Publish.
+Ta strona zawiera wskazówki, które pomogą ci zoptymalizować pliki multimedialne hostowane w Publish.
 
 ## Obrazy
 

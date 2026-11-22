@@ -19,7 +19,7 @@ Możesz również automatycznie dodawać zaznaczenia do wyróżnień, aktywując
 - **Skrót klawiszowy** konfigurowalny w ustawieniach rozszerzenia.
 - **Menu kontekstowe**, klikając prawym przyciskiem myszy na odwiedzanej stronie internetowej.
 
-Po włączeniu zakreślacza każdy zaznaczony tekst, obrazy i elementy zostaną dodane do Twoich wyróżnień. Wszystkie powyższe metody pozwalają również na wyłączenie zakreślacza.
+Po włączeniu zakreślacza każdy zaznaczony tekst, obrazy i elementy zostaną dodane do twoich wyróżnień. Wszystkie powyższe metody pozwalają również na wyłączenie zakreślacza.
 
 ## Dodawanie wyróżnień do notatek
 
@@ -29,7 +29,7 @@ Istnieją trzy opcje wstawiania wyróżnień do wyciętych notatek:
 - **Zastąp zawartość strony** — zwraca listę wyróżnień, bez żadnej zawartości strony.
 - **Nic nie rób** — zwraca oryginalną zawartość bez wyróżnień.
  
-Te opcje zmieniają [[Zmienne|zmienną]] `{{content}}` w Twoim szablonie. Możesz również dodawać wyróżnienia bezpośrednio do swojego szablonu za pomocą zmiennej `{{highlights}}`, na przykład:
+Te opcje zmieniają [[Zmienne|zmienną]] `{{content}}` w twoim szablonie. Możesz również dodawać wyróżnienia bezpośrednio do swojego szablonu za pomocą zmiennej `{{highlights}}`, na przykład:
 
 ```
 {{highlights|map: item => item.text|join:"\n\n"}}

@@ -44,11 +44,11 @@ translation=Pasek narzędzi
 
 [heading.bases/Add and switch views]
 original=Add and switch views
-translation=Dodawanie i przełączanie podglądów
+translation=Dodawanie i przełączanie widoków
 
 [heading.bases/View settings]
 original=View settings
-translation=Ustawienia podglądu
+translation=Ustawienia widoku
 
 [heading.bases/Layout]
 original=Layout
@@ -104,7 +104,7 @@ translation=Eksportuj CSV
 
 [heading.bases/Embed a view]
 original=Embed a view
-translation=Osadzanie podglądu
+translation=Osadzanie widoku
 
 [heading.bases/Example]
 original=Example
@@ -128,7 +128,7 @@ translation=Domyślne wzory podsumowań
 
 [heading.bases/Views]
 original=Views
-translation=Podglądy
+translation=Widoki
 
 [heading.bases/Note properties]
 original=Note properties
@@ -188,7 +188,7 @@ translation=Pliki i łącza
 
 [heading.bases/Create a new base]
 original=Create a new base
-translation=Stwórz nową bazę danych
+translation=Utwórz nową bazę danych
 
 [heading.bases/Embed a base]
 original=Embed a base
@@ -316,7 +316,7 @@ translation=Jak korzystać z baz danych
 
 [heading.bases/View types]
 original=View types
-translation=Typy podglądów
+translation=Typy widoków
 
 [heading.bases/Group cards into columns]
 original=Group cards into columns
@@ -512,15 +512,15 @@ translation=Zmiana tytułu
 
 [heading.callouts/Foldable callouts]
 original=Foldable callouts
-translation=Zwijalne bloki wyróżnienia
+translation=Zwijalne bloki informacyjne
 
 [heading.callouts/Nested callouts]
 original=Nested callouts
-translation=Zagnieżdżone bloki wyróżnienia
+translation=Zagnieżdżone bloki informacyjne
 
 [heading.callouts/Customize callouts]
 original=Customize callouts
-translation=Dostosowywanie bloków wyróżnienia
+translation=Dostosowywanie bloków informacyjnych
 
 [heading.callouts/Supported types]
 original=Supported types
@@ -580,7 +580,7 @@ translation=Łącza zewnętrzne
 
 [heading.syntax/Escape blank spaces in links]
 original=Escape blank spaces in links
-translation=Unikanie spacji w linkach
+translation=Unikanie spacji w łączach
 
 [heading.syntax/External images]
 original=External images
@@ -608,31 +608,31 @@ translation=Linia pozioma
 
 [heading.syntax/Inline code]
 original=Inline code
-translation=Kod
+translation=Kod inline
 
 [heading.syntax/Code blocks]
 original=Code blocks
-translation=Kod inline
+translation=Bloki kodu
 
 [heading.syntax/Nesting code blocks]
 original=Nesting code blocks
-translation=Bloki kodu
+translation=Zagnieżdżanie bloków kodu
 
 [heading.syntax/Footnotes]
 original=Footnotes
-translation=Zagnieżdżanie bloków kodu
+translation=Przypisy
 
 [heading.syntax/Comments]
 original=Comments
-translation=Przypisy
+translation=Komentarze
 
 [heading.syntax/Escaping Markdown Syntax]
 original=Escaping Markdown Syntax
-translation=Komentarze
+translation=Unikanie składni Markdown
 
 [heading.syntax/Learn more]
 original=Learn more
-translation=Unikanie składni Markdown
+translation=Dowiedz się więcej
 
 [heading.editing-shortcuts/Windows and Linux shortcuts]
 original=Windows and Linux shortcuts
@@ -860,11 +860,11 @@ translation=Usuwanie obszaru roboczego
 
 [heading.plugins/Recover a snapshot]
 original=Recover a snapshot
-translation=Przywracanie migawki
+translation=Przywracanie kopii zapasowej
 
 [heading.plugins/Clear snapshot history]
 original=Clear snapshot history
-translation=Czyszczenie historii migawek
+translation=Czyszczenie historii kopii zapasowych
 
 [heading.plugins/Storage and performance]
 original=Storage and performance
@@ -876,11 +876,11 @@ translation=Ograniczenia
 
 [heading.plugins/Open Quick switcher]
 original=Open Quick switcher
-translation=Otwieranie Szybkiego przełącznika
+translation=Otwieranie Okna szybkiego wyboru
 
 [heading.plugins/Open a note with Quick switcher]
 original=Open a note with Quick switcher
-translation=Otwieranie notatki za pomocą Szybkiego przełącznika
+translation=Otwieranie notatki za pomocą Okna szybkiego wyboru
 
 [heading.plugins/All properties view]
 original=All properties view
@@ -1108,11 +1108,11 @@ translation=Zaawansowane wskazówki
 
 [heading.plugins/Add a bookmark]
 original=Add a bookmark
-translation=Dodawanie zakładki
+translation=Dodawanie do ulubionych
 
 [heading.plugins/Remove a bookmark]
 original=Remove a bookmark
-translation=Usuwanie zakładki
+translation=Usuwanie z ulubionych
 
 [heading.plugins/Add a bookmark group]
 original=Add a bookmark group
@@ -1408,7 +1408,7 @@ translation=Otwieranie nowej karty
 
 [heading.tabs/Open a link]
 original=Open a link
-translation=Otwieranie linku
+translation=Otwieranie łącza
 
 [heading.tabs/Organize your tabs and windows]
 original=Organize your tabs and windows
@@ -1460,7 +1460,7 @@ translation=Akcje
 
 [heading.ribbon/Customize the ribbon]
 original=Customize the ribbon
-translation=Dostosowywanie wstążki
+translation=Dostosowywanie paska bocznego
 
 [heading.ribbon/Desktop]
 original=Desktop
@@ -1468,11 +1468,11 @@ translation=Komputer
 
 [heading.ribbon/Hide the ribbon]
 original=Hide the ribbon
-translation=Ukryj wstążkę
+translation=Ukryj pasek boczny
 
 [heading.ribbon/Show the ribbon]
 original=Show the ribbon
-translation=Wyświetl wstążkę
+translation=Wyświetl pasek boczny
 
 [heading.ribbon/Mobile]
 original=Mobile
@@ -1504,7 +1504,7 @@ translation=Przenoszenie pliku do innego okna
 
 [heading.sidebar/Open hidden sidebars]
 original=Open hidden sidebars
-translation=Otwieranie ukrytych pasków bocznych
+translation=Otwieranie ukrytych paneli bocznych
 
 [heading.sidebar/Desktop and larger tablets]
 original=Desktop and larger tablets
@@ -1632,7 +1632,7 @@ translation=Zaawansowane
 
 [heading.settings/Notify if startup takes longer than expected]
 original=Notify if startup takes longer than expected
-translation=Informuj, jeśli uruchamianie trwa dłużej niż powinno
+translation=Powiadamiaj, gdy uruchamianie trwa dłużej niż zwykle
 
 [heading.settings/Editor]
 original=Editor
@@ -1640,11 +1640,11 @@ translation=Edytor
 
 [heading.settings/Always focus new tabs]
 original=Always focus new tabs
-translation=Zawsze aktywuj nowe karty
+translation=Zawsze przechodź do nowej karty
 
 [heading.settings/Default view for new tabs]
 original=Default view for new tabs
-translation=Domyślny tryb podglądu nowych kart
+translation=Domyślny tryb nowych kart
 
 [heading.settings/Default editing mode]
 original=Default editing mode
@@ -1652,7 +1652,7 @@ translation=Domyślny tryb edycji
 
 [heading.settings/Show editing mode in status bar]
 original=Show editing mode in status bar
-translation=Pokaż tryb na pasku stanu
+translation=Pokaż tryb edycji na pasku stanu
 
 [heading.settings/Display]
 original=Display
@@ -1660,15 +1660,15 @@ translation=Wyświetlanie
 
 [heading.settings/Readable line length]
 original=Readable line length
-translation=Czytelna długość linii
+translation=Czytelna długość wiersza
 
 [heading.settings/Strict line breaks]
 original=Strict line breaks
-translation=Łamanie wiersza
+translation=Ścisłe łamanie wierszy
 
 [heading.settings/Properties in document]
 original=Properties in document
-translation=Atrybuty pliku
+translation=Atrybuty w notatce
 
 [heading.settings/Fold heading]
 original=Fold heading
@@ -1680,15 +1680,15 @@ translation=Zwijanie wcięć
 
 [heading.settings/Show line numbers]
 original=Show line numbers
-translation=Numery linii
+translation=Numery wierszy
 
 [heading.settings/Show indentation guides]
 original=Show indentation guides
-translation=Wskaźniki wcięć
+translation=Linie wcięć
 
 [heading.settings/Right-to-left (RTL)]
 original=Right-to-left (RTL)
-translation=Pisownia od strony prawej do lewej (RTL)
+translation=Od prawej do lewej (RTL)
 
 [heading.settings/Auto-pair brackets]
 original=Auto-pair brackets
@@ -1704,15 +1704,15 @@ translation=Inteligentne wcięcia list
 
 [heading.settings/Indent using tabs]
 original=Indent using tabs
-translation=Używanie tabulacji
+translation=Wcięcia tabulatorem
 
 [heading.settings/Convert pasted HTML to Markdown]
 original=Convert pasted HTML to Markdown
-translation=Automatyczne konwertowanie HTML
+translation=Konwersja wklejanego HTML na Markdown
 
 [heading.settings/Behavior]
 original=Behavior
-translation=Funkcje edytora
+translation=Zachowanie
 
 [heading.settings/Spellcheck]
 original=Spellcheck
@@ -1724,7 +1724,7 @@ translation=Języki sprawdzania pisowni
 
 [heading.settings/Indent visual width]
 original=Indent visual width
-translation=Rozmiar tabulacji
+translation=Szerokość wcięcia
 
 [heading.settings/Vim key bindings]
 original=Vim key bindings
@@ -1736,11 +1736,11 @@ translation=Pliki i łącza
 
 [heading.settings/Default location for new notes]
 original=Default location for new notes
-translation=Domyślna lokalizacja nowej notatki
+translation=Domyślna lokalizacja nowych notatek
 
 [heading.settings/Default location for new attachments]
 original=Default location for new attachments
-translation=Domyślna lokalizacja załączników
+translation=Domyślna lokalizacja nowych załączników
 
 [heading.settings/Links]
 original=Links
@@ -1752,11 +1752,11 @@ translation=Format nowego łącza
 
 [heading.settings/Automatically update internal links]
 original=Automatically update internal links
-translation=Zawsze aktualizuj łącza wewnętrzne
+translation=Automatycznie aktualizuj łącza wewnętrzne
 
 [heading.settings/Use Wikilinks]
 original=Use Wikilinks
-translation=Używaj odnośników wiki
+translation=Używaj Wikilinków
 
 [heading.settings/Show all file types]
 original=Show all file types
@@ -1768,7 +1768,7 @@ translation=Kosz
 
 [heading.settings/Confirm file deletion]
 original=Confirm file deletion
-translation=Potwierdzenie usunięcia pliku
+translation=Potwierdzaj przed usunięciem plików
 
 [heading.settings/Deleted files]
 original=Deleted files
@@ -1776,15 +1776,15 @@ translation=Usunięte pliki
 
 [heading.settings/Excluded files]
 original=Excluded files
-translation=Pominięte pliki
+translation=Wykluczone pliki
 
 [heading.settings/Override config folder]
 original=Override config folder
-translation=Zastąp folder konfiguracji
+translation=Własny folder konfiguracji
 
 [heading.settings/Allow URI callbacks]
 original=Allow URI callbacks
-translation=Zezwalaj na URI
+translation=Zezwalaj na wywołania zwrotne URI
 
 [heading.settings/Rebuild vault cache]
 original=Rebuild vault cache
@@ -1808,7 +1808,7 @@ translation=Motywy
 
 [heading.settings/Current community themes]
 original=Current community themes
-translation=Zainstalowane motywy społeczności
+translation=Zainstalowane motywy
 
 [heading.settings/Font]
 original=Font
@@ -1824,7 +1824,7 @@ translation=Czcionka tekstu
 
 [heading.settings/Monospace font]
 original=Monospace font
-translation=Czcionka o stałej szerokości (monospace)
+translation=Czcionka o stałej szerokości
 
 [heading.settings/Font size]
 original=Font size
@@ -1840,23 +1840,23 @@ translation=Interfejs
 
 [heading.settings/Show inline title]
 original=Show inline title
-translation=Tytuł w linii
+translation=Tytuł w notatce
 
 [heading.settings/Show tab title bar]
 original=Show tab title bar
-translation=Pokaż pasek tytułu
+translation=Pokaż pasek tytułu karty
 
 [heading.settings/Show ribbon]
 original=Show ribbon
-translation=Wyświetl menu wstążkowe
+translation=Pokaż pasek boczny
 
 [heading.settings/Ribbon menu configuration]
 original=Ribbon menu configuration
-translation=Konfiguracja menu wstążkowego
+translation=Pasek boczny
 
 [heading.settings/Zoom level]
 original=Zoom level
-translation=Stopień przybliżenia
+translation=Powiększenie
 
 [heading.settings/Native menus]
 original=Native menus
@@ -1868,11 +1868,11 @@ translation=Styl ramki okna
 
 [heading.settings/Custom app icon]
 original=Custom app icon
-translation=Niestandardowa ikonka aplikacji
+translation=Własna ikona aplikacji
 
 [heading.settings/Translucent window]
 original=Translucent window
-translation=Przezroczyste okno
+translation=Półprzezroczyste okno
 
 [heading.settings/Hardware acceleration]
 original=Hardware acceleration
@@ -1905,6 +1905,30 @@ translation=Zainstalowane wtyczki
 [heading.settings/Installed plugins]
 original=Installed plugins
 translation=Zainstalowane wtyczki społeczności
+
+[heading.settings/Inline title]
+original=Inline title
+translation=Tytuł w notatce
+
+[heading.settings/Full screen]
+original=Full screen
+translation=Pełny ekran
+
+[heading.settings/Floating navigation]
+original=Floating navigation
+translation=Pływająca nawigacja
+
+[heading.settings/Configure mobile Quick Action]
+original=Configure mobile Quick Action
+translation=Szybka czynność na urządzeniach mobilnych
+
+[heading.settings/Configure mobile toolbar]
+original=Configure mobile toolbar
+translation=Pasek narzędzi na urządzeniach mobilnych
+
+[heading.settings/Open settings in new window]
+original=Open settings in new window
+translation=Otwórz ustawienia w nowym oknie
 
 [heading.appearance/Color scheme]
 original=Color scheme
@@ -1948,7 +1972,7 @@ translation=Włączanie wersji wczesnego dostępu
 
 [heading.credit/Add credit]
 original=Add credit
-translation=Dodawanie kredytu
+translation=Dodawanie środków
 
 [heading.credit/Gifting]
 original=Gifting
@@ -1956,11 +1980,11 @@ translation=Prezenty
 
 [heading.credit/Give Obsidian Credit]
 original=Give Obsidian Credit
-translation=Przekazywanie Obsidian Credit
+translation=Przekazywanie środków Obsidian
 
 [heading.credit/Receiving Obsidian Credit]
 original=Receiving Obsidian Credit
-translation=Odbieranie Obsidian Credit
+translation=Odbieranie środków Obsidian
 
 [heading.sales-tax/Tax exemption]
 original=Tax exemption
@@ -2048,7 +2072,7 @@ translation=Inne zachowania
 
 [heading.community-code-of-conduct/"Feed me"]
 original="Feed me"
-translation=„Nakarm mnie"
+translation=„Nakarm mnie”
 
 [heading.community-code-of-conduct/Campaigning]
 original=Campaigning
@@ -2464,7 +2488,7 @@ translation=Otwieranie przez skrót klawiszowy
 
 [heading.publish/Open via ribbon]
 original=Open via ribbon
-translation=Otwieranie przez wstążkę
+translation=Otwieranie przez pasek boczny
 
 [heading.publish/Create a new site]
 original=Create a new site
@@ -2724,7 +2748,7 @@ translation=Synchronizacja zdalnego sejfu na innym urządzeniu
 
 [heading.sync/Sync your vault from the vault switcher]
 original=Sync your vault from the vault switcher
-translation=Synchronizacja sejfu z przełącznika skarbców
+translation=Synchronizacja sejfu z przełącznika sejfów
 
 [heading.sync/Sync your vault from Obsidian Settings]
 original=Sync your vault from Obsidian Settings
@@ -2792,7 +2816,7 @@ translation=Czy moje dane są synchronizowane w tle?
 
 [heading.sync/Does Obsidian Sync live-reload my settings?]
 original=Does Obsidian Sync live-reload my settings?
-translation=Czy Obsidian Sync automatycznie przeładowuje moje ustawienia?
+translation=Czy Obsidian Sync automatycznie wczytuje ponownie moje ustawienia?
 
 [heading.sync/Can I use a third-party sync with Obsidian Sync?]
 original=Can I use a third-party sync with Obsidian Sync?
@@ -2848,7 +2872,7 @@ translation=Ukryte pliki i foldery
 
 [heading.sync/Updating your synced vault settings]
 original=Updating your synced vault settings
-translation=Aktualizacja ustawień synchronizowanego skarbca
+translation=Aktualizacja ustawień synchronizowanego sejfu
 
 [heading.sync/Primary device]
 original=Primary device
@@ -2860,7 +2884,7 @@ translation=Urządzenie(a) dodatkowe
 
 [heading.sync/Reloading of settings]
 original=Reloading of settings
-translation=Ponowne ładowanie ustawień
+translation=Ponowne wczytywanie ustawień
 
 [heading.sync/Settings profiles]
 original=Settings profiles
@@ -3260,7 +3284,7 @@ translation=Zmiana folderu konfiguracji
 
 [heading.data-storage/Vault settings]
 original=Vault settings
-translation=Ustawienia skarbca
+translation=Ustawienia sejfu
 
 [heading.data-storage/Global settings]
 original=Global settings
@@ -3276,27 +3300,27 @@ translation=Osadzanie plików
 
 [heading.manage-vaults/Create new vault]
 original=Create new vault
-translation=Tworzenie nowego skarbca
+translation=Tworzenie nowego sejfu
 
 [heading.manage-vaults/Create vault from an existing folder]
 original=Create vault from an existing folder
-translation=Tworzenie skarbca z istniejącego folderu
+translation=Tworzenie sejfu z istniejącego folderu
 
 [heading.manage-vaults/Rename vault]
 original=Rename vault
-translation=Zmiana nazwy skarbca
+translation=Zmiana nazwy sejfu
 
 [heading.manage-vaults/Move vault to a different folder]
 original=Move vault to a different folder
-translation=Przenoszenie skarbca do innego folderu
+translation=Przenoszenie sejfu do innego folderu
 
 [heading.manage-vaults/Remove vault]
 original=Remove vault
-translation=Usuwanie skarbca
+translation=Usuwanie sejfu
 
 [heading.manage-vaults/Transfer settings to another vault]
 original=Transfer settings to another vault
-translation=Przenoszenie ustawień do innego skarbca
+translation=Przenoszenie ustawień do innego sejfu
 
 [heading.manage-notes/Create a new note]
 original=Create a new note
@@ -3400,11 +3424,11 @@ translation=Zarządzanie kartami
 
 [heading.mobile/Ribbon actions]
 original=Ribbon actions
-translation=Czynności wstążki
+translation=Czynności paska bocznego
 
 [heading.mobile/Sidebars]
 original=Sidebars
-translation=Paski boczne
+translation=Panele boczne
 
 [heading.install/Install Obsidian on Windows]
 original=Install Obsidian on Windows
@@ -3440,15 +3464,15 @@ translation=Instalacja Obsidian na iPhonie i iPadzie
 
 [heading.sandbox/Opening the sandbox vault]
 original=Opening the sandbox vault
-translation=Otwieranie sejfu piaskownicy
+translation=Otwieranie sejfu testowego
 
 [heading.sandbox/Close the sandbox vault]
 original=Close the sandbox vault
-translation=Zamykanie sejfu piaskownicy
+translation=Zamykanie sejfu testowego
 
 [heading.vault/Create empty vault]
 original=Create empty vault
-translation=Stwórz pusty skarbiec
+translation=Utwórz pusty sejf
 
 [heading.vault/Open existing folder]
 original=Open existing folder
@@ -3520,15 +3544,15 @@ translation=Okno wyskakujące
 
 [heading.glossary/Property]
 original=Property
-translation=Właściwość
+translation=Atrybut
 
 [heading.glossary/Ribbon]
 original=Ribbon
-translation=Wstążka
+translation=Pasek boczny
 
 [heading.glossary/Sidebar]
 original=Sidebar
-translation=Pasek boczny
+translation=Panel boczny
 
 [heading.glossary/Snippet]
 original=Snippet
@@ -3552,7 +3576,7 @@ translation=Motyw
 
 [heading.glossary/Vault]
 original=Vault
-translation=Skarbiec
+translation=Sejf
 
 [heading.glossary/Remote vault]
 original=Remote vault
@@ -3561,6 +3585,10 @@ translation=Zdalny sejf
 [heading.glossary/View]
 original=View
 translation=Podgląd
+
+[heading.glossary/Link]
+original=Link
+translation=Łącze
 
 [heading.backup/Syncing is not a backup]
 original=Syncing is not a backup
@@ -3588,11 +3616,11 @@ translation=Następne kroki
 
 [heading.link-notes/Create a link]
 original=Create a link
-translation=Tworzenie linku
+translation=Tworzenie łącza
 
 [heading.link-notes/Create a link to a non-existing note]
 original=Create a link to a non-existing note
-translation=Tworzenie linku do nieistniejącej notatki
+translation=Tworzenie łącza do nieistniejącej notatki
 
 [heading.link-notes/Navigate between notes]
 original=Navigate between notes
@@ -3672,7 +3700,7 @@ translation=Używanie parametrów i flag
 
 [heading.cli/Target a vault]
 original=Target a vault
-translation=Wskazanie skarbca
+translation=Wskazanie sejfu
 
 [heading.cli/Target a file]
 original=Target a file
@@ -3756,7 +3784,7 @@ translation=Niepowtarzalne notatki
 
 [heading.cli/Vault]
 original=Vault
-translation=Skarbiec
+translation=Sejf
 
 [heading.cli/Web viewer]
 original=Web viewer
@@ -3856,7 +3884,7 @@ translation=Otwieranie wyszukiwania
 
 [heading.uri/Open Vault Manager]
 original=Open Vault Manager
-translation=Otwieranie menedżera skarbców
+translation=Otwieranie menedżera sejfów
 
 [heading.uri/Integrate with Hook]
 original=Integrate with Hook
@@ -4096,7 +4124,7 @@ translation=Struktura informacji
 
 [heading.style-guide/Callout types]
 original=Callout types
-translation=Typy bloków wyróżnień
+translation=Typy bloków informacyjnych
 
 [heading.style-guide/Lists vs. prose]
 original=Lists vs. prose
@@ -4136,7 +4164,7 @@ translation=Układ
 
 [heading.style-guide/Broken links]
 original=Broken links
-translation=Uszkodzone linki
+translation=Uszkodzone łącza
 
 [heading.style-guide/Descriptions]
 original=Descriptions
@@ -4333,3 +4361,155 @@ translation=Wymagania
 [heading.skills/Privacy]
 original=Privacy
 translation=Prywatność
+
+[heading.import/evernote/Templates]
+original=Templates
+translation=Szablony
+
+[heading.import/roam/Templates]
+original=Templates
+translation=Szablony
+
+[heading.import/onenote/Templates]
+original=Templates
+translation=Szablony
+
+[heading.import/apple-notes/Customize imported notes]
+original=Customize imported notes
+translation=Dostosowywanie importowanych notatek
+
+[heading.import/apple-notes/Templates]
+original=Templates
+translation=Szablony
+
+[heading.import/bear/Templates]
+original=Templates
+translation=Szablony
+
+[heading.import/google-keep/Limitations]
+original=Limitations
+translation=Ograniczenia
+
+[heading.import/google-keep/Templates]
+original=Templates
+translation=Szablony
+
+[heading.import/apple-journal/Templates]
+original=Templates
+translation=Szablony
+
+[heading.plugins/workspaces/Save a workspace]
+original=Save a workspace
+translation=Zapisywanie obszaru roboczego
+
+[heading.plugins/workspaces/Load a workspace]
+original=Load a workspace
+translation=Wczytywanie obszaru roboczego
+
+[heading.plugins/workspaces/Delete a workspace]
+original=Delete a workspace
+translation=Usuwanie obszaru roboczego
+
+[heading.plugins/bookmarks/Add a bookmark]
+original=Add a bookmark
+translation=Dodawanie do ulubionych
+
+[heading.plugins/bookmarks/Remove a bookmark]
+original=Remove a bookmark
+translation=Usuwanie z ulubionych
+
+[heading.plugins/quick-switcher/Open Quick switcher]
+original=Open Quick switcher
+translation=Otwieranie Okna szybkiego wyboru
+
+[heading.plugins/quick-switcher/Open a note with Quick switcher]
+original=Open a note with Quick switcher
+translation=Otwieranie notatki za pomocą Okna szybkiego wyboru
+
+[heading.plugins/file-recovery/Recover a snapshot]
+original=Recover a snapshot
+translation=Przywracanie kopii zapasowej
+
+[heading.plugins/file-recovery/Clear snapshot history]
+original=Clear snapshot history
+translation=Czyszczenie historii kopii zapasowych
+
+[heading.publish/security/Managing access to Obsidian Publish on your network]
+original=Managing access to Obsidian Publish on your network
+translation=Zarządzanie dostępem do Obsidian Publish w twojej sieci
+
+[heading.publish/setup/Open via ribbon menu on mobile]
+original=Open via ribbon menu on mobile
+translation=Otwieranie przez menu paska bocznego na urządzeniach mobilnych
+
+[heading.bases/create-base/Create a new base]
+original=Create a new base
+translation=Utwórz nową bazę danych
+
+[heading.bases/views/Add and switch views]
+original=Add and switch views
+translation=Dodawanie i przełączanie widoków
+
+[heading.bases/views/View settings]
+original=View settings
+translation=Ustawienia widoku
+
+[heading.bases/views/Embed a view]
+original=Embed a view
+translation=Osadzanie widoku
+
+[heading.bases/syntax/Views]
+original=Views
+translation=Widoki
+
+[heading.bases/syntax/Properties]
+original=Properties
+translation=Atrybuty
+
+[heading.bases/syntax/Note properties]
+original=Note properties
+translation=Atrybuty notatki
+
+[heading.bases/syntax/File properties]
+original=File properties
+translation=Atrybuty pliku
+
+[heading.bases/functions/Link type]
+original=Link type
+translation=Typ łącze
+
+[heading.bases/functions/URL type]
+original=URL type
+translation=Typ URL
+
+[heading.bases/views/map/Useful links]
+original=Useful links
+translation=Przydatne łącza
+
+[heading.sync/security/Managing access to Obsidian Sync on your network]
+original=Managing access to Obsidian Sync on your network
+translation=Zarządzanie dostępem do Obsidian Sync w twojej sieci
+
+[heading.sync/settings/Reloading of settings]
+original=Reloading of settings
+translation=Ponowne wczytywanie ustawień
+
+[heading.sync/faq/Does Obsidian Sync live-reload my settings?]
+original=Does Obsidian Sync live-reload my settings?
+translation=Czy Obsidian Sync automatycznie wczytuje ponownie moje ustawienia?
+
+[heading.import/notion/Importing large workspaces]
+original=Importing large workspaces
+translation=Importowanie dużych przestrzeni roboczych
+
+[heading.plugins/templates/Template properties]
+original=Template properties
+translation=Atrybuty szablonu
+
+[heading.bases/views/kanban/Image property]
+original=Image property
+translation=Atrybut obrazu
+
+[heading.bases/views/cards/Image property]
+original=Image property
+translation=Atrybut obrazu

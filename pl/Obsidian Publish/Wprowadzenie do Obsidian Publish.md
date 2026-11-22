@@ -6,7 +6,7 @@ cssclasses:
 ---
 [Obsidian Publish](https://obsidian.md/publish) to usługa hostingowa w chmurze, która pozwala publikować notatki jako wiki, bazę wiedzy, dokumentację lub cyfrowy ogród.
 
-Wybierz notatki, które chcesz udostępnić światu, naciśnij **Opublikuj**, a my umieścimy je pod adresem `publish.obsidian.md/your-site`
+Wybierz notatki, które chcesz udostępnić światu, kliknij **Opublikuj**, a my umieścimy je pod adresem `publish.obsidian.md/your-site`
 
 Jeśli czytasz to na [help.obsidian.md](https://help.obsidian.md), to już przeglądasz stronę korzystającą z Obsidian Publish! Możesz zobaczyć sejf na [GitHub](https://github.com/obsidianmd/obsidian-docs).
 
@@ -29,4 +29,4 @@ Jeśli czytasz to na [help.obsidian.md](https://help.obsidian.md), to już przeg
 - [[SEO]]
 	- Optymalizacja pod kątem wyszukiwarek dla Publish.
 - [[Bezpieczeństwo i prywatność]]
-	- Jak dbamy o bezpieczeństwo Twoich danych.
+	- Jak dbamy o bezpieczeństwo twoich danych.

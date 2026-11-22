@@ -24,7 +24,7 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 
 ## Dostosuj importowane notatki
 
-Przed rozpoczęciem importu Importer wyświetla podgląd wygenerowany z wybranych plików Textbundle. Możesz edytować wygenerowany szablon lub wybrać szablon Markdown ze swojego skarbca. Zobacz [[Szablony importera]].
+Przed rozpoczęciem importu Importer wyświetla podgląd wygenerowany z wybranych plików Textbundle. Możesz edytować wygenerowany szablon lub wybrać szablon Markdown ze swojego sejfu. Zobacz [[Szablony importera]].
 
 ## Rozwiązywanie problemów
 
@@ -34,6 +34,6 @@ Import Textbundle może importować tylko jeden plik Textbundle naraz i tylko na
 
 ## Szablony
 
-Użyj [[Szablony importera|szablonów Importera]], aby w pełni skonfigurować sposób importowania danych.
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych.
 
-![[Szablony importera#Variables]]
+![[Szablony importera#Zmienne]]

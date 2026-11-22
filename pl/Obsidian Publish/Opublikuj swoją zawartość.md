@@ -15,23 +15,23 @@ Ta strona wyjaśnia, jak zarządzać opublikowaną zawartością. Aby dowiedzie�
 
 ## Publikowanie notatek
 
-1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. W oknie dialogowym **Opublikuj zmiany** wybierz **NOWE**, aby wyświetlić wszystkie nieopublikowane notatki.
 3. Zaznacz notatki, które chcesz opublikować.
 4. Wybierz **Opublikuj**.
 
 ## Cofanie publikacji notatek
 
-Notatki pozostają w Twoim lokalnym sejfie nawet po cofnięciu ich publikacji.
+Notatki pozostają w twoim lokalnym sejfie nawet po cofnięciu ich publikacji.
 
-1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. W oknie dialogowym **Opublikuj zmiany** wybierz **BEZ ZMIAN**, aby wyświetlić wszystkie opublikowane notatki.
 3. Zaznacz notatki, których publikację chcesz cofnąć.
 4. Wybierz **Opublikuj**.
 
 ## Aktualizowanie opublikowanej notatki
 
-1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. W oknie dialogowym **Opublikuj zmiany** wybierz **ZMIENIONE**, aby wyświetlić wszystkie notatki zmodyfikowane od ostatniej publikacji.
 3. Zaznacz notatki, które chcesz zaktualizować.
 4. Wybierz **Opublikuj**.
@@ -40,13 +40,13 @@ Notatki pozostają w Twoim lokalnym sejfie nawet po cofnięciu ich publikacji.
 
 ## Publikowanie powiązanych danych
 
-Podczas publikowania notatek zawierających linki do innych notatek lub osadzone obrazy mogą wystąpić uszkodzone linki, jeśli powiązane notatki nie zostaną również opublikowane. **Obsidian Publish** pomaga temu zapobiec, automatycznie zaznaczając multimedia powiązane z notatkami, które już wybrałeś.
+Podczas publikowania notatek zawierających łącza do innych notatek lub osadzone obrazy mogą wystąpić uszkodzone łącza, jeśli powiązane notatki nie zostaną również opublikowane. **Obsidian Publish** pomaga temu zapobiec, automatycznie zaznaczając multimedia powiązane z notatkami, które już wybrałeś.
 
-Aby uwzględnić wszystkie powiązane notatki, wybierz **Dodaj powiązane** w oknie dialogowym **Opublikuj zmiany**.
+Aby uwzględnić wszystkie powiązane notatki, wybierz **Dodaj połączone** w oknie dialogowym **Opublikuj zmiany**.
 
 Przed publikacją przejrzyj zaktualizowany wybór, aby upewnić się, że nie zawiera danych, których nie jesteś jeszcze gotowy opublikować.
 
-> [!tip] Funkcja **Dodaj powiązane** uwzględnia wszelkie wykluczenia zdefiniowane w [[#Ignorowanie danych]].
+> [!tip] Funkcja **Dodaj połączone** uwzględnia wszelkie wykluczenia zdefiniowane w [[#Ignorowanie danych]].
 
 ## Automatyczne zaznaczanie danych do publikacji
 
@@ -54,9 +54,9 @@ Ustaw `publish: true` w [[Atrybuty|atrybutach]] notatki, aby automatycznie uwzgl
 
 Możesz również automatycznie zaznaczać notatki i powiązane obrazy w określonych folderach, dodając je jako foldery **Wybrane**:
 
-1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**.
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. Wybierz ikonę **Ustaw filtry publikacji** ![[lucide-filter.svg#icon]].
-3. W sekcji **Wybrane foldery** wybierz **Zarządzaj**.
+3. W sekcji **Uwzględnione foldery** wybierz **Zarządzaj**.
 4. Wybierz foldery, które chcesz uwzględnić, z podpowiedzi.
 5. Folder zostanie dodany do listy wybranych.
 6. Wybierz **Gotowe**, gdy skończysz.
@@ -67,7 +67,7 @@ Aby zignorować notatkę w Obsidian Publish, ustaw `publish: false` w [[Atrybuty
 
 Możesz również automatycznie ignorować notatki i obrazy w określonych folderach, dodając je jako foldery **Pominięte**:
 
-1. Na **wstążce** wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Lista poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**.
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. Wybierz ikonę **Ustaw filtry publikacji** ![[lucide-filter.svg#icon]].
 3. W sekcji **Pominięte foldery** wybierz **Zarządzaj**.
 4. Wybierz foldery, które chcesz wykluczyć, z podpowiedzi.

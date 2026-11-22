@@ -10,29 +10,29 @@ Pliki można przenosić tylko między oknami powiązanymi z tym samym sejfem.
 
 ## Otwieranie pliku w nowym oknie
 
-**Przeglądarka plików:**
+**Eksplorator plików:**
 
-W [[Przeglądarka plików|Przeglądarce plików]] kliknij prawym przyciskiem myszy notatkę i wybierz **Otwórz w nowym oknie**.
+W [[Eksplorator plików|Eksploratorze plików]] kliknij prawym przyciskiem myszy notatkę i wybierz **Otwórz w nowym oknie**.
 
 **Paleta poleceń:**
 
-W [[Lista poleceń|Palecie poleceń]] wybierz **Otwórz aktywną kartę w nowym oknie**.
+W [[Paleta poleceń|Palecie poleceń]] wybierz **Otwórz aktywną kartę w nowym oknie**.
 
 **Karta:**
 
 Kliknij prawym przyciskiem myszy kartę i wybierz **Otwórz w nowym oknie**. Alternatywnie wybierz **Więcej opcji** ![[lucide-ellipsis-vertical.svg#icon]] w prawym górnym rogu edytora, a następnie wybierz **Otwórz w nowym oknie**.
 
-> [!tip] Możesz także kliknąć prawym przyciskiem myszy link w edytorze i wybrać **Otwórz w nowym oknie**.
+> [!tip] Możesz także kliknąć prawym przyciskiem myszy łącze w edytorze i wybrać **Otwórz w nowym oknie**.
 
 ## Przenoszenie pliku do innego okna
 
-**Przeglądarka plików:**
+**Eksplorator plików:**
 
-W [[Przeglądarka plików|Przeglądarce plików]] przeciągnij plik do grupy kart w oknie docelowym.
+W [[Eksplorator plików|Eksploratorze plików]] przeciągnij plik do grupy kart w oknie docelowym.
 
 **Paleta poleceń:**
 
-W [[Lista poleceń|Palecie poleceń]] wybierz **Przenieś aktualną kartę do nowego okna**.
+W [[Paleta poleceń|Palecie poleceń]] wybierz **Przenieś aktualną kartę do nowego okna**.
 
 **Karta:**
 

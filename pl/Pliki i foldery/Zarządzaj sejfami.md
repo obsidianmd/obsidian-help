@@ -1,21 +1,21 @@
 ---
 permalink: manage-vaults
 ---
-**Sejf** to folder w systemie plików, który zawiera Twoje notatki, [[Załączniki|załączniki]] oraz [[Folder konfiguracji|folder konfiguracji]] z ustawieniami specyficznymi dla Obsidian. Aby uzyskać więcej informacji o sejfach, zapoznaj się z [[Jak Obsidian przechowuje dane]].
+**Sejf** to folder w systemie plików, który zawiera twoje notatki, [[Załączniki|załączniki]] oraz [[Folder konfiguracji|folder konfiguracji]] z ustawieniami specyficznymi dla Obsidian. Aby uzyskać więcej informacji o sejfach, zapoznaj się z [[Jak Obsidian przechowuje dane]].
 
 Możesz zarządzać swoimi sejfami za pomocą **Przełącznika sejfów**. *Profil sejfu* otwiera się przy pierwszym uruchomieniu Obsidian.
 
-Aby otworzyć przełącznik sejfów z istniejącego sejfu, wybierz **Profil sejfu** ![[lucide-chevrons-up-down.svg#icon]] na dole [[Panel boczny|lewego panelu bocznego]]. Możesz też wybrać **Otwórz inny sejf** z [[Lista poleceń|palety poleceń]].
+Aby otworzyć przełącznik sejfów z istniejącego sejfu, wybierz **Profil sejfu** ![[lucide-chevrons-up-down.svg#icon]] na dole [[Panel boczny|lewego panelu bocznego]]. Możesz też wybrać **Otwórz inny sejf** z [[Paleta poleceń|palety poleceń]].
 
 ## Tworzenie nowego sejfu
 
 1. Na komputerze otwórz Obsidian.
 2. W lewym dolnym rogu wybierz **Profil sejfu** ![[lucide-chevrons-up-down.svg#icon]].
 3. Pojawi się menu kontekstowe. Wybierz **Zarządzaj sejfami...**.
-3. Po prawej stronie **Stwórz nowy sejf** wybierz **Stwórz**.
+3. Po prawej stronie **Utwórz nowy sejf** wybierz **Utwórz**.
 4. W polu **Nazwa sejfu** wpisz nazwę swojego sejfu.
 5. Kliknij **Przeglądaj**, aby wybrać miejsce, w którym zostanie utworzony nowy sejf.
-6. Kliknij **Stwórz**.
+6. Kliknij **Utwórz**.
 
 ## Tworzenie sejfu z istniejącego folderu
 
@@ -23,7 +23,7 @@ Aby otworzyć przełącznik sejfów z istniejącego sejfu, wybierz **Profil sejf
 2. W lewym dolnym rogu wybierz **Profil sejfu** ![[lucide-chevrons-up-down.svg#icon]].
 3. Pojawi się menu kontekstowe. Wybierz **Zarządzaj sejfami...**.
 3. Po prawej stronie **Otwórz folder jako sejf** kliknij **Otwórz**.
-4. W przeglądarce plików wybierz folder, którego chcesz użyć jako sejf.
+4. W eksploratorze plików wybierz folder, którego chcesz użyć jako sejf.
 5. Kliknij **Otwórz**.
 
 > [!tip] Otwieranie sejfu z Obsidian Sync

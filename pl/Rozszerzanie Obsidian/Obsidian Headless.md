@@ -31,7 +31,7 @@ npm install -g obsidian-headless
 ob login
 ```
 
-Jeśli jesteś już zalogowany, `ob login` wyświetli informacje o Twoim koncie. Aby przełączyć konta, użyj `--email` i/lub `--password`, aby zalogować się ponownie.
+Jeśli jesteś już zalogowany, `ob login` wyświetli informacje o twoim koncie. Aby przełączyć konta, użyj `--email` i/lub `--password`, aby zalogować się ponownie.
 
 ```
 ob login [--email <email>] [--password <password>] [--mfa <code>]

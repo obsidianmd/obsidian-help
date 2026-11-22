@@ -2,9 +2,9 @@
 permalink: bases/functions
 publish: true
 mobile: true
-description: Ta strona opisuje funkcje używane w bazach danych Obsidian do manipulowania danymi z właściwości w filtrach i formułach.
+description: Ta strona opisuje funkcje używane w bazach danych Obsidian do manipulowania danymi z atrybutów w filtrach i wzorach.
 ---
-Funkcje są używane w [[Wprowadzenie do baz danych|bazach danych]] do manipulowania danymi z [[Atrybuty|właściwości]] w [[Podglądy#Filtry|filtrach]] i [[Wzory|wzorach]]. Zapoznaj się z referencją [[Składnia baz danych|składni baz danych]], aby dowiedzieć się więcej o tym, jak możesz używać funkcji.
+Funkcje są używane w [[Wprowadzenie do baz danych|bazach danych]] do manipulowania danymi z [[Atrybuty|atrybutów]] w [[Widoki#Filtry|filtrach]] i [[Wzory|wzorach]]. Zapoznaj się z referencją [[Składnia baz danych|składni baz danych]], aby dowiedzieć się więcej o tym, jak możesz używać funkcji.
 
 Funkcje baz danych zachowują się zgodnie z JavaScript. Pełną dokumentację referencyjną znajdziesz na stronie [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference).
 
@@ -15,7 +15,8 @@ Poza funkcjami [[Funkcje#Globalne|Globalnymi]], większość funkcji zależy od 
 - [[Funkcje#Typ ciąg znaków|Ciąg znaków]]
 - [[Funkcje#Typ liczba|Liczba]]
 - [[Funkcje#Typ lista|Lista]]
-- [[Funkcje#Typ link|Link]]
+- [[Funkcje#Typ łącze|Łącze]]
+- [[Funkcje#Typ URL|URL]]
 - [[Funkcje#Typ plik|Plik]]
 - [[Funkcje#Typ obiekt|Obiekt]]
 - [[Funkcje#Typ wyrażenie regularne|Wyrażenie regularne]]
@@ -72,22 +73,23 @@ Funkcje globalne są używane bez typu.
 
 `image(path: string | file | url): image`
 
-- Zwraca obiekt obrazu, który renderuje obraz w podglądzie.
+- Zwraca obiekt obrazu, który renderuje obraz w widoku.
 - Przykład: `image(image-property)` lub `image("https://obsidian.md/images/obsidian-logo-gradient.svg")`.
 
 ### `icon()`
 
 `icon(name: string): icon`
 
-- Zwraca wartość, która renderuje się jako ikona w podglądzie. Nazwa ikony musi odpowiadać obsługiwanej ikonie Lucide.
+- Zwraca wartość, która renderuje się jako ikona w widoku. Nazwa ikony musi odpowiadać obsługiwanej ikonie Lucide.
 - Przykład: `icon("arrow-right")`.
 
 ### `link()`
 
-`link(path: string | file, display?: value): Link`
+`link(path: string | file, display?: value): Link | URL`
 
-- Parsuje ciąg znaków `path` i zwraca obiekt Link, który renderuje się jako link do podanej ścieżki.
-- Opcjonalnie podaj parametr `display`, aby ustawić tekst wyświetlany przez link.
+- Parsuje ciąg znaków `path` i zwraca obiekt Link, który renderuje się jako łącze do podanej ścieżki.
+- Jeśli `path` jest adresem URL, zwraca zamiast tego obiekt URL.
+- Opcjonalnie podaj parametr `display`, aby ustawić tekst wyświetlany przez łącze.
 
 ### `list()`
 
@@ -95,7 +97,7 @@ Funkcje globalne są używane bez typu.
 
 - Jeśli podany element jest listą, zwraca go bez zmian.
 - W przeciwnym razie opakowuje podany `element` w listę, tworząc listę z jednym elementem.
-- Użyj tej funkcji, gdy właściwość zawiera mieszankę ciągów znaków lub list w całym sejfie.
+- Użyj tej funkcji, gdy atrybut zawiera mieszankę ciągów znaków lub list w całym sejfie.
 - Przykład: `list("value")` zwraca `["value"]`.
 
 ### `max()`
@@ -137,7 +139,7 @@ Funkcje globalne są używane bez typu.
 `random(): number`
 
 - Zwraca losową liczbę między 0 a 1.
-- Generowanie liczb odświeża się za każdym razem, gdy podgląd jest ładowany. Nawigacja między podglądami zmienia losową liczbę.
+- Generowanie liczb odświeża się za każdym razem, gdy widok jest ładowany. Nawigacja między widokami zmienia losową liczbę.
 
 ## Typ dowolny
 
@@ -505,22 +507,26 @@ Funkcje, których możesz używać z uporządkowaną listą elementów, taką ja
 - Usuwa zduplikowane elementy.
 - Przykład: `[1,2,2,3].unique()` zwraca `[1,2,3]`.
 
-## Typ link
+## Typ łącze
 
-Funkcje, których możesz używać na linku. Linki mogą być tworzone z pliku (`file.asLink()`) lub ścieżki (`link("path")`).
+Funkcje, których możesz używać na łączu. Łącza mogą być tworzone z pliku (`file.asLink()`) lub ścieżki (`link("path")`).
 
 ### `asFile()`
 
 `link.asFile(): file`
 
-- Zwraca obiekt pliku, jeśli link odnosi się do prawidłowego pliku lokalnego.
+- Zwraca obiekt pliku, jeśli łącze odnosi się do prawidłowego pliku lokalnego.
 - Przykład: `link("[[filename]]").asFile()`.
 
 ### `linksTo()`
 
 `link.linksTo(file): boolean`
 
-- Zwraca `true`, jeśli plik reprezentowany przez `link` ma link do `file`.
+- Zwraca `true`, jeśli plik reprezentowany przez `link` ma łącze do `file`.
+
+## Typ URL
+
+Funkcje, których możesz używać z adresem URL, np. `link("https://obsidian.md")`. Adresy URL mogą korzystać ze wszystkich funkcji [[Funkcje#Typ ciąg znaków|typu ciąg znaków]], ale nie z funkcji [[Funkcje#Typ łącze|typu łącze]].
 
 ## Typ plik
 
@@ -538,7 +544,7 @@ Następujące pola są dostępne dla plików:
 | `file.folder`     | `string` | Pełna ścieżka do folderu nadrzędnego.                               |
 | `file.ext`        | `string` | Rozszerzenie tego pliku.                                            |
 | `file.size`       | `number` | Rozmiar tego pliku w bajtach.                                       |
-| `file.properties` | `object` | Właściwości notatki tego pliku.                                     |
+| `file.properties` | `object` | Atrybuty notatki tego pliku.                                        |
 | `file.tags`       | `list`   | Tagi tego pliku. Zawiera tagi wbudowane.                            |
 | `file.links`      | `list`   | Łącza wewnętrzne w tym pliku.                                       |
 | `file.ctime`      | `date`   | Znacznik czasu utworzenia tego pliku.                                |
@@ -548,8 +554,8 @@ Następujące pola są dostępne dla plików:
 
 `file.asLink(display?: string): Link`
 
-- `display` to opcjonalny tekst wyświetlany dla linku.
-- Zwraca obiekt Link, który renderuje się jako działający link.
+- `display` to opcjonalny tekst wyświetlany dla łącza.
+- Zwraca obiekt Link, który renderuje się jako działające łącze.
 - Przykład: `file.asLink()`
 
 ### `hasLink()`
@@ -557,14 +563,14 @@ Następujące pola są dostępne dla plików:
 `file.hasLink(otherFile: file | string): boolean`
 
 - `otherFile` to inny obiekt pliku lub ścieżka tekstowa do sprawdzenia.
-- Zwraca true, jeśli `file` linkuje do `otherFile`.
-- Przykład: `file.hasLink(otherFile)` zwraca `true`, jeśli istnieje link z `file` do `otherFile`.
+- Zwraca true, jeśli `file` zawiera łącze do `otherFile`.
+- Przykład: `file.hasLink(otherFile)` zwraca `true`, jeśli istnieje łącze z `file` do `otherFile`.
 
 ### `hasProperty()`
 
 `file.hasProperty(name: string): boolean`
 
-- Zwraca `true`, jeśli plik posiada daną właściwość.
+- Zwraca `true`, jeśli plik ma dany atrybut.
 
 ### `hasTag()`
 
@@ -591,7 +597,7 @@ Funkcje, których możesz używać z wartościami obiektowymi, takimi jak `file.
 `object.isEmpty(): boolean`
 
 - Zwraca true, jeśli obiekt nie ma własnych właściwości.
-- Przykład: `file.properties.isEmpty()` zwraca `true`, jeśli plik nie ma właściwości.
+- Przykład: `file.properties.isEmpty()` zwraca `true`, jeśli plik nie ma atrybutów.
 
 ### `keys()`
 

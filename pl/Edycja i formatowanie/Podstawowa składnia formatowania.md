@@ -8,7 +8,7 @@ Dowiedz się, jak stosować podstawowe formatowanie w swoich notatkach za pomoc�
 
 ## Akapity
 
-Aby tworzyć akapity w Markdown, użyj **pustej linii** do oddzielenia bloków tekstu. Każdy blok tekstu oddzielony pustą linią jest traktowany jako odrębny akapit.
+Aby tworzyć akapity w Markdown, użyj **pustego wiersza** do oddzielenia bloków tekstu. Każdy blok tekstu oddzielony pustym wierszem jest traktowany jako odrębny akapit.
 
 ```md
 To jest akapit.
@@ -20,48 +20,48 @@ To jest akapit.
 
 To jest kolejny akapit.
 
-Pusta linia między wierszami tekstu tworzy oddzielne akapity. Jest to domyślne zachowanie w Markdown.
+Pusty wiersz między wierszami tekstu tworzy oddzielne akapity. Jest to domyślne zachowanie w Markdown.
 
 > [!tip]- Wiele pustych spacji
-> Wiele sąsiadujących pustych spacji wewnątrz i między akapitami jest zwijanych do pojedynczej spacji podczas wyświetlania w [[Podglądy i tryb edycji#Widok czytania|widoku czytania]] lub na stronach [[Wprowadzenie do Obsidian Publish|Obsidian Publish]].
+> Wiele sąsiadujących pustych spacji wewnątrz i między akapitami jest zwijanych do pojedynczej spacji podczas wyświetlania w [[Tryby edycji i odczytu#Widok czytania|widoku czytania]] lub na stronach [[Wprowadzenie do Obsidian Publish|Obsidian Publish]].
 > 
 > ```md
 > Wiele          sąsiadujących          spacji
 > 
 > 
 > 
-> i wiele nowych linii między akapitami.
+> i wiele znaków nowego wiersza między akapitami.
 > ```
 > 
 > > Wiele          sąsiadujących          spacji
 > > 
 > > 
 > > 
-> > i wiele nowych linii między akapitami.
+> > i wiele nowych wierszy między akapitami.
 > 
 > Jeśli chcesz zapobiec zwijaniu spacji lub dodać wiele pustych spacji, możesz użyć znaczników HTML `&nbsp;` (niełamliwa spacja) lub `<br>` (łamanie wiersza).
 
 ### Łamanie wiersza
 
-Domyślnie w Obsidian naciśnięcie `Enter` raz tworzy nową linię w notatce, ale jest ona traktowana jako *kontynuacja* tego samego akapitu w wyrenderowanym wyniku, zgodnie z typowym zachowaniem Markdown. Aby wstawić łamanie wiersza *wewnątrz* akapitu bez rozpoczynania nowego akapitu, możesz:
+Domyślnie w Obsidian naciśnięcie `Enter` raz tworzy nowy wiersz w notatce, ale jest on traktowany jako *kontynuacja* tego samego akapitu w wyrenderowanym wyniku, zgodnie z typowym zachowaniem Markdown. Aby wstawić łamanie wiersza *wewnątrz* akapitu bez rozpoczynania nowego akapitu, możesz:
 
-- Dodać **dwie spacje** na końcu linii przed naciśnięciem `Enter`, lub
+- Dodać **dwie spacje** na końcu wiersza przed naciśnięciem `Enter`, lub
 - Użyć skrótu `Shift+Enter`, aby bezpośrednio wstawić łamanie wiersza.
 
 > [!question]- Dlaczego wielokrotne naciśnięcie `Enter` nie tworzy więcej łamań wiersza w widoku czytania?
-> W Markdown pojedynczy `Enter` jest ignorowany, a wielokrotne kolejne naciśnięcia `Enter` skutkują tylko jednym nowym akapitem. To zachowanie jest zgodne z regułą miękkiego zawijania w Markdown, gdzie dodatkowe puste linie nie generują dodatkowych łamań wiersza ani akapitów — są one zwijane do pojedynczego podziału akapitu. Tak Markdown domyślnie obsługuje tekst, zapewniając naturalny przepływ akapitów bez nieoczekiwanych podziałów.
+> W Markdown pojedynczy `Enter` jest ignorowany, a wielokrotne kolejne naciśnięcia `Enter` skutkują tylko jednym nowym akapitem. To zachowanie jest zgodne z regułą miękkiego zawijania w Markdown, gdzie dodatkowe puste wiersze nie generują dodatkowych łamań wiersza ani akapitów — są one zwijane do pojedynczego podziału akapitu. Tak Markdown domyślnie obsługuje tekst, zapewniając naturalny przepływ akapitów bez nieoczekiwanych podziałów.
 
-Obsidian zawiera ustawienie **[[Ustawienia#Łamanie wiersza|Łamanie wiersza]]**, które sprawia, że Obsidian stosuje standardową specyfikację Markdown dla łamania wierszy.
+Obsidian zawiera ustawienie **[[Ustawienia#Ścisłe łamanie wierszy|Ścisłe łamanie wierszy]]**, które sprawia, że Obsidian stosuje standardową specyfikację Markdown dla łamania wierszy.
 
 Aby włączyć tę funkcję:
 
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do zakładki **Edytor**.
-3. Włącz **Łamanie wiersza**.
+3. Włącz **Ścisłe łamanie wierszy**.
 
-Gdy **Łamanie wiersza** jest włączone w Obsidian, łamanie wierszy ma trzy różne zachowania w zależności od tego, jak linie są oddzielone:
+Gdy **Ścisłe łamanie wierszy** jest włączone w Obsidian, łamanie wierszy ma trzy różne zachowania w zależności od tego, jak wiersze są oddzielone:
 
-**Pojedynczy Enter bez spacji**: Pojedynczy `Enter` bez końcowych spacji spowoduje połączenie dwóch oddzielnych linii w jedną linię podczas renderowania.
+**Pojedynczy Enter bez spacji**: Pojedynczy `Enter` bez końcowych spacji spowoduje połączenie dwóch oddzielnych wierszy w jeden wiersz podczas renderowania.
 
 ```md
 linia pierwsza
@@ -72,7 +72,7 @@ Renderuje się jako:
 
 linia pierwsza linia druga
 
-**Pojedynczy Enter z dwoma lub więcej końcowymi spacjami**: Jeśli dodasz dwie lub więcej spacji na końcu pierwszej linii przed naciśnięciem `Enter`, dwie linie pozostają częścią tego samego akapitu, ale są rozdzielone łamaniem wiersza (element HTML `<br>`). W tym przykładzie użyjemy dwóch podkreślników zamiast spacji.
+**Pojedynczy Enter z dwoma lub więcej końcowymi spacjami**: Jeśli dodasz dwie lub więcej spacji na końcu pierwszego wiersza przed naciśnięciem `Enter`, dwie wiersze pozostają częścią tego samego akapitu, ale są rozdzielone łamaniem wiersza (element HTML `<br>`). W tym przykładzie użyjemy dwóch podkreślników zamiast spacji.
 
 ```md
 linia trzecia__  
@@ -84,7 +84,7 @@ Renderuje się jako:
 linia trzecia<br>
 linia czwarta
 
-**Podwójny Enter (z końcowymi spacjami lub bez)**: Naciśnięcie `Enter` dwa razy (lub więcej) oddziela linie na dwa odrębne akapity (elementy HTML `<p>`), niezależnie od tego, czy dodasz spacje na końcu pierwszej linii.
+**Podwójny Enter (z końcowymi spacjami lub bez)**: Naciśnięcie `Enter` dwa razy (lub więcej) oddziela wiersze na dwa odrębne akapity (elementy HTML `<p>`), niezależnie od tego, czy dodasz spacje na końcu pierwszego wiersza.
 
 ```md
 linia piąta
@@ -99,7 +99,7 @@ Renderuje się jako:
 
 ## Nagłówki
 
-Aby stworzyć nagłówek, dodaj do sześciu symboli `#` przed tekstem nagłówka. Liczba symboli `#` określa poziom nagłówka (jak pokazano w [[Konspekt|konspekcie]]).
+Aby utworzyć nagłówek, dodaj do sześciu symboli `#` przed tekstem nagłówka. Liczba symboli `#` określa poziom nagłówka (jak pokazano w [[Konspekt|konspekcie]]).
 
 ```md
 # To jest nagłówek 1
@@ -160,7 +160,7 @@ Wyróżnienia obsługują sześć kolorów. Dodaj emoji koloru bezpośrednio po 
 
 Bez emoji koloru wyróżnienie używa domyślnego koloru wyróżnienia motywu.
 
-Możesz również wybrać kolor z menu formatowania. Wpisanie `==` w edytorze podpowiada kolory wyróżnień. W [[Podglądy i tryb edycji#Podgląd na żywo|podglądzie na żywo]] umieszczenie kursora wewnątrz wyróżnienia pokazuje próbkę koloru. Wybierz próbkę, aby zmienić kolor.
+Możesz również wybrać kolor z menu formatowania. Wpisanie `==` w edytorze podpowiada kolory wyróżnień. W [[Tryby edycji i odczytu#Podgląd na żywo|podglądzie na żywo]] umieszczenie kursora wewnątrz wyróżnienia pokazuje próbkę koloru. Wybierz próbkę, aby zmienić kolor.
 
 ## Łącza wewnętrzne
 
@@ -171,7 +171,7 @@ Obsidian obsługuje dwa formaty [[Łącza wewnętrzne|łączy wewnętrznych]] mi
 
 ## Łącza zewnętrzne
 
-Jeśli chcesz dodać link do zewnętrznego adresu URL, możesz utworzyć link inline, otaczając tekst linku nawiasami kwadratowymi (`[ ]`), a następnie URL w nawiasach okrągłych (`( )`).
+Jeśli chcesz dodać łącze do zewnętrznego adresu URL, możesz utworzyć łącze inline, otaczając tekst łącza nawiasami kwadratowymi (`[ ]`), a następnie URL w nawiasach okrągłych (`( )`).
 
 ```md
 [Pomoc Obsidian](https://help.obsidian.md)
@@ -179,15 +179,15 @@ Jeśli chcesz dodać link do zewnętrznego adresu URL, możesz utworzyć link in
 
 [Pomoc Obsidian](https://help.obsidian.md)
 
-Możesz również tworzyć łącza zewnętrzne do plików w innych sejfach, linkując do [[Obsidian URI|Obsidian URI]].
+Możesz również tworzyć łącza zewnętrzne do plików w innych sejfach za pomocą [[Obsidian URI|Obsidian URI]].
 
 ```md
 [Notatka](obsidian://open?vault=MainVault&file=Note.md)
 ```
 
-### Unikanie spacji w linkach
+### Unikanie spacji w łączach
 
-Jeśli Twój URL zawiera spacje, musisz je zastąpić za pomocą `%20`.
+Jeśli twój URL zawiera spacje, musisz je zastąpić za pomocą `%20`.
 
 ```md
 [Moja notatka](obsidian://open?vault=MainVault&file=My%20Note.md)
@@ -209,7 +209,7 @@ Możesz dodawać obrazy z zewnętrznych adresów URL, dodając symbol `!` przed 
 
 ![Engelbart](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
 
-Możesz zmienić wymiary obrazu, dodając `|640x480` do adresu docelowego linku, gdzie 640 to szerokość, a 480 to wysokość.
+Możesz zmienić wymiary obrazu, dodając `|640x480` do adresu docelowego łącza, gdzie 640 to szerokość, a 480 to wysokość.
 
 ```md
 ![Engelbart|100x145](https://history-computer.com/ModernComputer/Basis/images/Engelbart.jpg)
@@ -239,7 +239,7 @@ Możesz cytować tekst, dodając symbol `>` przed tekstem.
 \- Doug Engelbart, 1961
 
 > [!tip]- Wskazówka
-> Możesz zamienić swój cytat w [[Objaśnienia|blok wyróżnienia]], dodając `[!info]` jako pierwszą linię w cytacie.
+> Możesz zamienić swój cytat w [[Bloki informacyjne|blok informacyjny]], dodając `[!info]` jako pierwszy wiersz w cytacie.
 
 ## Listy
 
@@ -255,7 +255,7 @@ Możesz utworzyć listę nieuporządkowaną, dodając `-`, `*` lub `+` przed tek
 - Drugi element listy
 - Trzeci element listy
 
-Aby utworzyć listę numerowaną, rozpocznij każdą linię od liczby, po której następuje symbol `.` lub `)`.
+Aby utworzyć listę numerowaną, rozpocznij każdy wiersz od liczby, po której następuje symbol `.` lub `)`.
 
 ```md
 1. Pierwszy element listy
@@ -353,7 +353,7 @@ Użyj `Tab` lub `Shift+Tab`, aby zwiększyć lub zmniejszyć wcięcie wybranych 
 
 ## Linia pozioma
 
-Możesz użyć trzech lub więcej gwiazdek `***`, myślników `---` lub podkreślników `___` w osobnej linii, aby dodać linię poziomą. Możesz również oddzielać symbole spacjami.
+Możesz użyć trzech lub więcej gwiazdek `***`, myślników `---` lub podkreślników `___` w osobnym wierszu, aby dodać linię poziomą. Możesz również oddzielać symbole spacjami.
 
 ```md
 ***
@@ -378,10 +378,10 @@ Możesz formatować kod zarówno inline w zdaniu, jak i w osobnym bloku.
 Możesz formatować kod wewnątrz zdania za pomocą pojedynczych odwrotnych apostrofów.
 
 ```md
-Tekst wewnątrz `odwrotnych apostrofów` w linii zostanie sformatowany jako kod.
+Tekst wewnątrz `odwrotnych apostrofów` w wierszu zostanie sformatowany jako kod.
 ```
 
-Tekst wewnątrz `odwrotnych apostrofów` w linii zostanie sformatowany jako kod.
+Tekst wewnątrz `odwrotnych apostrofów` w wierszu zostanie sformatowany jako kod.
 
 Jeśli chcesz umieścić odwrotne apostrofy w bloku kodu inline, otocz go podwójnymi odwrotnymi apostrofami: inline ``kod z odwrotnym apostrofem ` w środku``.
 
@@ -430,7 +430,7 @@ function fancyAlert(arg) {
 Obsidian używa Prism do podświetlania składni. Więcej informacji znajdziesz w sekcji [Obsługiwane języki](https://prismjs.com/#supported-languages).
 
 > [!info]+ PrismJS i widoki edycji
-> [[Podglądy i tryb edycji#Tryb źródłowy|Tryb źródłowy]] i [[Podglądy i tryb edycji#Podgląd na żywo|Podgląd na żywo]] nie obsługują PrismJS i mogą renderować podświetlanie składni w odmienny sposób.
+> [[Tryby edycji i odczytu#Tryb źródłowy|Tryb źródłowy]] i [[Tryby edycji i odczytu#Podgląd na żywo|Podgląd na żywo]] nie obsługują PrismJS i mogą renderować podświetlanie składni w odmienny sposób.
 
 #### Zagnieżdżanie bloków kodu
 
@@ -439,7 +439,7 @@ Gdy musisz umieścić blok kodu wewnątrz innego bloku kodu (na przykład podcza
 Aby zagnieździć bloki kodu, użyj czterech lub więcej odwrotnych apostrofów (lub tyld) dla bloku zewnętrznego, podczas gdy blok wewnętrzny używa trzech:
 `````md
 ````md
-Oto jak stworzyć blok kodu:
+Oto jak utworzyć blok kodu:
 ```js
 console.log("Hello world")
 ```
@@ -472,7 +472,7 @@ Możesz dodawać przypisy[^footnote] do swoich notatek za pomocą następującej
 To jest prosty przypis[^1].
 
 [^1]: To jest tekst odniesienia.
-[^2]: Dodaj 2 spacje na początku każdej nowej linii.
+[^2]: Dodaj 2 spacje na początku każdego nowego wiersza.
   To pozwala pisać przypisy wielowierszowe.
 [^note]: Nazwane przypisy nadal wyświetlają się jako numery, ale mogą ułatwić identyfikację i linkowanie odniesień.
 ```
@@ -500,13 +500,13 @@ To jest %%inline%% komentarz.
 %%
 To jest komentarz blokowy.
 
-Komentarze blokowe mogą obejmować wiele linii.
+Komentarze blokowe mogą obejmować wiele wierszy.
 %%
 ```
 
-Komentarz inline może pojawić się w dowolnym miejscu w linii, w tym w nagłówku, elemencie listy lub pogrubionym tekście.
+Komentarz inline może pojawić się w dowolnym miejscu w wierszu, w tym w nagłówku, elemencie listy lub pogrubionym tekście.
 
-Komentarz blokowy zaczyna się, gdy linia rozpoczyna się od `%%`, i kończy się na następnym `%%`. Komentarz blokowy może zawierać puste linie i Markdown, takie jak nagłówki i listy. Obsidian ukrywa to wszystko w trybie odczytu.
+Komentarz blokowy zaczyna się, gdy wiersz rozpoczyna się od `%%`, i kończy się na następnym `%%`. Komentarz blokowy może zawierać puste wiersze i Markdown, takie jak nagłówki i listy. Obsidian ukrywa to wszystko w trybie odczytu.
 
 Tekst po zamykającym `%%` pozostaje widoczny, a Obsidian renderuje jego Markdown. Na przykład `%%komentarz%% _kursywa_` pozostawia tylko słowo _kursywa_, zapisane kursywą.
 
@@ -514,7 +514,7 @@ Tekst po zamykającym `%%` pozostaje widoczny, a Obsidian renderuje jego Markdow
 > Jeśli rozpoczniesz komentarz blokowy i nigdy go nie zamkniesz, tryb odczytu ukryje resztę notatki.
 
 > [!info]+ Używaj prostych znaczników komentarzy
-> Oba znaczniki komentarza inline umieszczaj w jednej linii, a komentarz blokowy rozpoczynaj na początku linii.
+> Oba znaczniki komentarza inline umieszczaj w jednego wiersza, a komentarz blokowy rozpoczynaj na początku wiersza.
 
 Aby wyświetlić `%%` jako tekst, umieść go w bloku kodu inline lub dodaj ukośnik odwrotny przed każdym znacznikiem.
 

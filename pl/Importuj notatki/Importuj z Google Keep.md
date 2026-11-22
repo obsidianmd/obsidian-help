@@ -21,14 +21,33 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
-5. W polu **Format pliku** wybierz **Google Keep (.zip).**
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
+5. W polu **Format pliku** wybierz **Google Keep (.zip)**.
 6. Wybierz lokalizację pliku `.zip`.
-7. Kliknij **Importuj** i poczekaj, aż import się zakończy.
-8. Gotowe!
+7. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich notatek.
+8. Wybierz **Importuj** ponownie i poczekaj, aż import się zakończy.
 
-### Obsługiwane funkcje
+## Ograniczenia
 
 - Wszystkie listy kontrolne zostaną zaimportowane jako elementy najwyższego poziomu, ponieważ Google Keep nie eksportuje informacji o wcięciach.
 - Przypomnienia i przypisania użytkowników do notatek nie zostaną zaimportowane, ponieważ te funkcje nie są obsługiwane przez Obsidian.
-- Wszystkie pozostałe informacje powinny zostać zaimportowane jako kombinacja treści i tagów.
+
+## Szablony
+
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Google Keep.
+
+![[Szablony importera#Zmienne]]
+
+Google Keep udostępnia też zmienne z oryginalnym tekstem, listami, etykietami, załącznikami, kolorami, danymi udostępniania, zadaniami, adnotacjami i stanem notatki.
+
+| Zmienna           | Opis                                              |
+| ----------------- | ------------------------------------------------- |
+| `{{isArchived}}`  | Czy notatka jest zarchiwizowana.                  |
+| `{{isPinned}}`    | Czy notatka jest przypięta.                       |
+| `{{isTrashed}}`   | Czy notatka jest w koszu.                         |
+| `{{color}}`       | Nazwa koloru w Google Keep.                       |
+| `{{labels}}`      | Tablica rekordów etykiet.                         |
+| `{{sharees}}`     | Tablica osób, którym udostępniono notatkę.        |
+| `{{annotations}}` | Tablica rekordów adnotacji łączy.                 |
+
+Oryginalny tytuł z Google Keep jest dostępny jako `{{source.title}}`. Wspólna zmienna `{{title}}` zawiera tytuł zaimportowanej notatki.

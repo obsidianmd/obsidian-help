@@ -10,7 +10,7 @@ Ustawienia pozwalają dostosować Obsidian do własnych potrzeb. Konfiguruj ogó
 
 ### Komputer
 
-Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Lista poleceń|palety poleceń]].
+Na [[Panel boczny#Otwieranie ukrytych paneli bocznych|panelu bocznym]] wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawienia możesz również otworzyć za pomocą [[Paleta poleceń|palety poleceń]].
 
 ### Urządzenia mobilne
 
@@ -20,7 +20,7 @@ Na panelu bocznym wybierz **[[Ustawienia]]** ![[lucide-cog.svg#icon]]. Ustawieni
 
 Ustawienia są zorganizowane w następujące kategorie:
 
-- **Opcje** — Główne ustawienia aplikacji, w tym [[#Ogólne]], [[#Edytor]], [[#Pliki i łącza]], [[#Wygląd]] oraz [[#Skróty klawiszowe]].
+- **Opcje** — Główne ustawienia aplikacji, w tym [[#Ogólne]], [[#Edytor]], [[#Pliki i łącza]], [[#Wygląd]], [[#Interfejs]] oraz [[#Skróty klawiszowe]].
 - **[[Wbudowane wtyczki]]** — Wbudowane wtyczki dostarczane z Obsidian.
 - **[[Wtyczki społeczności]]** — Wtyczki zewnętrzne instalowane ze społeczności.
 
@@ -36,7 +36,7 @@ Na górze strony wyświetlana jest aktualna wersja Obsidian i wersja instalatora
 
 Po włączeniu Obsidian automatycznie sprawdza dostępność nowych wersji i powiadamia o dostępnych aktualizacjach.
 
-**Otrzymuj wersje testowe**
+**Otrzymuj wersje wczesnego dostępu**
 
 Automatyczna aktualizacja do najnowszych [[Wersje wczesnego dostępu|wersji wczesnego dostępu]]. Te wersje zawierają nowe funkcje, ale mogą być mniej stabilne.
 
@@ -61,7 +61,7 @@ Wyświetl informacje o swoim koncie, w tym nazwę użytkownika i e-mail. Wybierz
 
 **Licencja Catalyst**
 
-Wyświetl status swojej licencji Catalyst. Jeśli posiadasz aktywną [[Licencja Catalyst|licencję Catalyst]], tutaj pojawi się Twój poziom licencji.
+Wyświetl status swojej licencji Catalyst. Jeśli posiadasz aktywną [[Licencja Catalyst|licencję Catalyst]], tutaj pojawi się twój poziom licencji.
 
 **Licencja komercyjna**
 
@@ -69,41 +69,49 @@ Jeśli wspierasz [Obsidian w pracy](<https://obsidian.md/blog/free-for-work/>), 
 
 ### Zaawansowane
 
-#### Informuj, jeśli uruchamianie trwa dłużej niż powinno
+#### Powiadamiaj, gdy uruchamianie trwa dłużej niż zwykle
 
 Po włączeniu Obsidian wyświetla powiadomienie, jeśli uruchamianie jest niezwykle wolne. Powiadomienie zawiera informacje diagnostyczne o przyczynie opóźnienia. Wybierz ikonę timera ![[lucide-timer.svg#icon]] obok tego ustawienia, aby [[Pomoc i wsparcie#Sprawdzanie czasu uruchamiania|sprawdzić czas uruchamiania]].
+
+#### Przyspieszenie sprzętowe
+
+Włącza przyspieszenie sprzętowe, które wykorzystuje procesor graficzny, aby Obsidian działał płynniej. Wyłączenie tej opcji może poważnie obniżyć wydajność aplikacji, ale może rozwiązać niektóre rzadkie problemy.
 
 ## Edytor
 
 Strona Edytor zawiera ustawienia dotyczące sposobu wyświetlania i edytowania notatek.
 
-### Zawsze aktywuj nowe karty
+### Zawsze przechodź do nowej karty
 
 Gdy otworzysz łącze w nowej karcie, przejdź do niej natychmiast.
 
-### Domyślny tryb podglądu nowych kart
+### Domyślny tryb nowych kart
 
-Domyślny podgląd, w którym otwierana jest nowa karta z plikiem Markdown. Wybierz między [[Podglądy i tryb edycji#Widok czytania|widokiem czytania]] a [[Podglądy i tryb edycji#Tryb edycji|trybem edycji]].
+Domyślny podgląd, w którym otwierana jest nowa karta z plikiem Markdown. Wybierz między [[Tryby edycji i odczytu#Widok czytania|widokiem czytania]] a [[Tryby edycji i odczytu#Tryb edycji|trybem edycji]].
 
 ### Domyślny tryb edycji
 
-Domyślny tryb edycji, w którym otworzy się nowa karta. Wybierz między [[Podglądy i tryb edycji#Podgląd na żywo|podglądem na żywo]] a [[Podglądy i tryb edycji#Tryb źródłowy|trybem źródłowym]].
+Domyślny tryb edycji, w którym otworzy się nowa karta. Wybierz między [[Tryby edycji i odczytu#Podgląd na żywo|podglądem na żywo]] a [[Tryby edycji i odczytu#Tryb źródłowy|trybem źródłowym]].
 
-### Pokaż tryb na pasku stanu
+### Pokaż tryb edycji na pasku stanu
 
 Wyświetla przełącznik trybu edycji na [[Pasek stanu|pasku stanu]].
 
 ### Wyświetlanie
 
-#### Czytelna długość linii
+#### Tytuł w notatce
 
-Ogranicza maksymalną długość linii. Mieści mniej treści na ekranie, ale sprawia, że długie akapity są bardziej czytelne.
+Wyświetla nazwę pliku jako edytowalny tytuł nad treścią notatki. Tytuł w notatce działa w Obsidian jak nagłówek, ale nie dodaje nagłówka do notatki.
 
-#### Łamanie wiersza
+#### Czytelna długość wiersza
+
+Ogranicza maksymalną długość wiersza. Mieści mniej treści na ekranie, ale sprawia, że długie akapity są bardziej czytelne.
+
+#### Ścisłe łamanie wierszy
 
 Specyfikacja Markdown ignoruje pojedyncze [[Podstawowa składnia formatowania#Łamanie wiersza|łamania wierszy]] w widoku czytania. Wyłącz tę opcję, aby pojedyncze łamania wierszy były widoczne.
 
-#### Atrybuty pliku
+#### Atrybuty w notatce
 
 Wybierz sposób wyświetlania [[Atrybuty|atrybutów]] na górze notatek. Wybierz **Kod**, aby wyświetlać atrybuty jako surowy YAML.
 
@@ -115,15 +123,15 @@ Wybierz sposób wyświetlania [[Atrybuty|atrybutów]] na górze notatek. Wybierz
 
 [[Zwijanie|Zwiń]] część wcięcia, np. listy, wybierając ikonę zwijania.
 
-#### Numery linii
+#### Numery wierszy
 
 Wyświetla numery wierszy na marginesie.
 
-#### Wskaźniki wcięć
+#### Linie wcięć
 
 Wyświetla pionowe linie między elementami listy.
 
-#### Pisownia od strony prawej do lewej (RTL)
+#### Od prawej do lewej (RTL)
 
 Ustawia kierunek wyświetlania tekstu notatek od prawej do lewej.
 
@@ -139,17 +147,17 @@ Automatycznie zamyka znaczniki pogrubienia, kursywy, kodu i inne.
 
 Automatycznie ustawia wcięcia i prawidłowo rozmieszcza elementy listy.
 
-#### Używanie tabulacji
+#### Wcięcia tabulatorem
 
 Używaj tabulacji do wcięć po naciśnięciu klawisza Tab. Wyłącz, aby stosować wcięcia za pomocą 4 spacji.
 
-#### Automatyczne konwertowanie HTML
+#### Konwersja wklejanego HTML na Markdown
 
 Automatycznie konwertuje HTML na Markdown podczas wklejania i przeciągania ze stron internetowych.
 
 Użyj `Ctrl/Cmd+Shift+V`, aby wkleić HTML bez konwersji.
 
-### Funkcje edytora
+### Zachowanie
 
 #### Sprawdzanie pisowni
 
@@ -165,7 +173,7 @@ Wybierz języki do sprawdzania pisowni. Wybierz ikonę plusa (+), aby dodać ję
 
 Natywne sprawdzanie pisowni automatycznie wykrywa język używany przez system operacyjny.
 
-#### Rozmiar tabulacji
+#### Szerokość wcięcia
 
 Liczba spacji, którym odpowiada tabulator.
 
@@ -179,24 +187,24 @@ Pozwala na używanie skrótów klawiszowych Vim w trybie edycji.
 
 Strona Pliki i łącza zawiera ustawienia zarządzania plikami, łączami oraz zachowaniem sejfu.
 
-### Domyślna lokalizacja nowej notatki
+### Domyślna lokalizacja nowych notatek
 
 Gdzie umieszczać nowo utworzone notatki. Opcje obejmują:
 
 - **W folderze głównym** — Notatki są tworzone w katalogu głównym sejfu.
-- **W tym samym folderze, w którym znajduje się aktywny plik** — Notatki są tworzone w tym samym folderze co aktywna notatka.
-- **W folderze określonym poniżej** — Notatki są tworzone w wybranym folderze.
+- **Folder aktywnego pliku** — Notatki są tworzone w tym samym folderze co aktywna notatka.
+- **Folder określony poniżej** — Notatki są tworzone w wybranym folderze.
 
 To ustawienie nie dotyczy sytuacji, gdy [[Łącza wewnętrzne|łącze wewnętrzne]] zawiera ścieżkę folderu. Na przykład utworzenie `[[Projekty/Trzy prawa ruchu]]` tworzy notatkę w folderze `Projekty` względem katalogu głównego sejfu.
 
-### Domyślna lokalizacja załączników
+### Domyślna lokalizacja nowych załączników
 
 Gdzie umieszczane są nowo dodane [[Załączniki|załączniki]]. Opcje obejmują:
 
 - **W folderze głównym** — Załączniki są umieszczane w katalogu głównym sejfu.
-- **W folderze określonym poniżej** — Załączniki są umieszczane w wybranym folderze.
-- **W tym samym folderze, w którym znajduje się aktywny plik** — Załączniki są umieszczane w tym samym folderze co aktywna notatka.
-- **W podfolderze aktywnego folderu** — Załączniki są umieszczane w podfolderze folderu aktywnej notatki.
+- **Folder określony poniżej** — Załączniki są umieszczane w wybranym folderze.
+- **Folder aktywnego pliku** — Załączniki są umieszczane w tym samym folderze co aktywna notatka.
+- **Podfolder w folderze aktywnego pliku** — Załączniki są umieszczane w podfolderze folderu aktywnej notatki.
 
 ### Łącza
 
@@ -208,21 +216,21 @@ Jakie łącza wstawiać podczas automatycznego generowania [[Łącza wewnętrzne
 - **Ścieżka względna do pliku** — Używa ścieżki względnej do aktualnego pliku.
 - **Ścieżka bezwzględna w sejfie** — Używa pełnej ścieżki od katalogu głównego sejfu.
 
-#### Zawsze aktualizuj łącza wewnętrzne
+#### Automatycznie aktualizuj łącza wewnętrzne
 
 Po włączeniu Obsidian automatycznie aktualizuje łącza wewnętrzne po zmianie nazwy pliku. Wyłącz, aby otrzymywać pytanie o aktualizację łączy po zmianie nazwy.
 
-#### Używaj odnośników wiki
+#### Używaj Wikilinków
 
 Automatycznie generuj odnośniki wiki dla `[[łączy]]` i `![[obrazów]]` zamiast łączy i obrazów w formacie Markdown. Wyłącz tę opcję, aby generować łącza w formacie Markdown.
 
 #### Pokaż wszystkie typy plików
 
-Pokaż pliki z dowolnym rozszerzeniem, nawet jeśli Obsidian nie może ich otworzyć, dzięki czemu można utworzyć do nich łącza i zobaczyć je w przeglądarce plików i w oknie szybkiego wyboru.
+Pokaż pliki z dowolnym rozszerzeniem, nawet jeśli Obsidian nie może ich otworzyć, dzięki czemu można utworzyć do nich łącza i zobaczyć je w eksploratorze plików i w oknie szybkiego wyboru.
 
 ### Kosz
 
-#### Potwierdzenie usunięcia pliku
+#### Potwierdzaj przed usunięciem plików
 
 Pytaj przed usunięciem pliku.
 
@@ -236,15 +244,15 @@ Co zrobić z plikami po ich usunięciu. Opcje obejmują:
 
 ### Zaawansowane
 
-#### Pominięte pliki
+#### Wykluczone pliki
 
-Pominięte pliki będą ukryte w [[Wyszukiwarka|wyszukiwaniu]], [[Podgląd grafu|podglądu grafu]] oraz w niepowiązanych wzmiankach ([[Linki zwrotne]] i [[Łącza wychodzące]]), a także mniej widoczne w [[Okno szybkiego wyboru|szybkim przełączniku]] i podpowiedziach łączy. Wybierz **Zarządzaj**, aby skonfigurować pominięte pliki.
+Wykluczone pliki będą ukryte w [[Wyszukiwarka|wyszukiwaniu]], [[Podgląd grafu|podglądu grafu]] oraz w niepowiązanych wzmiankach ([[Linki zwrotne]] i [[Łącza wychodzące]]), a także mniej widoczne w [[Okno szybkiego wyboru|oknie szybkiego wyboru]] i podpowiedziach łączy. Wybierz **Zarządzaj**, aby skonfigurować wykluczone pliki.
 
-#### Zastąp folder konfiguracji
+#### Własny folder konfiguracji
 
 Użyj innego [[Folder konfiguracji|folderu konfiguracji]] niż domyślny. Musi zaczynać się od kropki.
 
-#### Zezwalaj na URI
+#### Zezwalaj na wywołania zwrotne URI
 
 Włącz użycie x-callback-url przez x-success lub x-error podczas obsługi [[Obsidian URI|URI Obsidian]].
 
@@ -272,7 +280,7 @@ Wybierz kolor akcentu używany w całej aplikacji. Wybierz próbnik kolorów lub
 
 Zarządzaj zainstalowanymi [[Motywy|motywami]] i przeglądaj motywy społeczności. Wybierz **Zarządzaj**, aby wyświetlić i zainstalować motywy. Lista rozwijana pokazuje aktualnie aktywny motyw. Ikona folderu ![[lucide-folder-open.svg#icon]] otwiera folder motywów w [[Folder konfiguracji|folderze konfiguracji]].
 
-### Zainstalowane motywy społeczności
+### Zainstalowane motywy
 
 Wyświetla liczbę zainstalowanych motywów społeczności.
 
@@ -286,7 +294,7 @@ Wybierz czcionkę główną programu Obsidian. Wybierz **Zarządzaj**, aby wybra
 
 Wybierz czcionkę trybu edycji i odczytu. Wybierz **Zarządzaj**, aby wybrać niestandardową czcionkę lub wprowadzić nazwę czcionki.
 
-#### Czcionka o stałej szerokości (monospace)
+#### Czcionka o stałej szerokości
 
 Wybierz czcionkę elementów takich jak bloki kodu i frontmatter. Wybierz **Zarządzaj**, aby wybrać niestandardową czcionkę lub wprowadzić nazwę czcionki.
 
@@ -298,34 +306,67 @@ Rozmiar czcionki jest zapisywany osobno na każdym urządzeniu i nie jest synchr
 
 #### Szybka regulacja rozmiaru czcionki
 
-Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie. Możesz również użyć poleceń **Zwiększ rozmiar czcionki** i **Zmniejsz rozmiar czcionki** w [[Lista poleceń|palecie poleceń]] lub przypisać im [[Skróty klawiszowe|skróty klawiszowe]].
-
-### Interfejs
-
-#### Tytuł w linii
-
-Wyświetla nazwę pliku jako edytowalny tytuł w linii z zawartością pliku. Tytuł w linii działa jako nagłówek w Obsidian, ale nie dodaje nagłówka do notatki.
-
-#### Pokaż pasek tytułu
-
-Wyświetla tytuł na górze każdej karty.
-
-#### Wyświetl menu wstążki
-
-Wyświetla pionowy pasek narzędzi z boku okna. Dowiedz się więcej o [[Wstążka|wstążce]].
-
-#### Konfiguracja menu wstążki
-
-Wybierz elementy wyświetlane w menu wstążki. Wybierz **Zarządzaj**, aby dostosować.
-
-> [!info]+ Konfiguracja wstążki na urządzeniach mobilnych
-> Na urządzeniach mobilnych dostosowywanie wstążki działa inaczej. Zobacz [[Wstążka#Urządzenia mobilne|Dostosowywanie wstążki na urządzeniach mobilnych]], aby uzyskać szczegóły.
+Reguluj rozmiar czcionki za pomocą `Ctrl+Scroll` (Windows/Linux) lub `Cmd+Scroll` (macOS), albo gestów szczypania na trackpadzie. Możesz również użyć poleceń **Zwiększ rozmiar czcionki** i **Zmniejsz rozmiar czcionki** w [[Paleta poleceń|palecie poleceń]] lub przypisać im [[Skróty klawiszowe|skróty klawiszowe]].
 
 ### Zaawansowane
 
-#### Stopień przybliżenia
+#### Własna ikona aplikacji
 
-Ustaw ogólny stopień przybliżenia aplikacji. Dostosuj za pomocą suwaka.
+Ustawia własną ikonę aplikacji. Kliknij **Wybierz**, aby wskazać plik ikony (`.icns`, `.ico`, `.png` lub `.svg`). Dowiedz się więcej o [[Wygląd#Niestandardowa ikonka aplikacji|własnych ikonach aplikacji]].
+
+#### Półprzezroczyste okno
+
+Włącza efekt półprzezroczystości, który dodaje wrażenie głębi. Najlepiej sprawdza się w trybie ciemnym. Nieobsługiwane w systemie Linux.
+
+> [!info]+ Tylko macOS
+> Ta funkcja jest zaprojektowana głównie dla macOS. Dowiedz się więcej o [[Wygląd#Przezroczystość|półprzezroczystości]].
+
+### Snippety CSS
+
+Zarządzaj [[Snippety CSS|snippetami CSS]] zapisanymi w sejfie i przeglądaj je. Snippety CSS są przechowywane w `/vault/.obsidian/snippets/`. Kliknij ikonę odświeżania, aby odświeżyć snippety, lub ikonę folderu ![[lucide-folder-open.svg#icon]], aby otworzyć folder snippetów.
+
+## Interfejs
+
+Strona Interfejs zawiera ustawienia elementów aplikacji wokół notatek.
+
+### Pokaż pasek tytułu karty
+
+Wyświetla nagłówek na górze każdej karty.
+
+### Pokaż pasek boczny
+
+Pokazuje pasek boczny przy krawędzi okna. W nowych sejfach pasek boczny jest ukryty. Dowiedz się więcej o [[Pasek boczny|pasku bocznym]].
+
+### Pasek boczny
+
+Wybierz polecenia widoczne na pasku bocznym. To ustawienie pojawia się, gdy pasek boczny jest widoczny, a na urządzeniach mobilnych zawsze.
+
+> [!info]+ Konfiguracja paska bocznego na urządzeniach mobilnych
+> Na urządzeniach mobilnych dostosowywanie paska bocznego działa inaczej. Zobacz [[Pasek boczny#Mobilny|Dostosowywanie paska bocznego na urządzeniach mobilnych]], aby uzyskać szczegóły.
+
+### Mobilny
+
+#### Pełny ekran
+
+Automatycznie ukrywa elementy interfejsu podczas czytania. Tylko na telefonach.
+
+#### Pływająca nawigacja
+
+Przyciski nawigacji unoszą się nad treścią zamiast być przypięte do krawędzi.
+
+#### Szybka czynność na urządzeniach mobilnych
+
+Wybierz polecenie, które uruchamia się, gdy przeciągniesz palcem w dół od górnej krawędzi ekranu. Dowiedz się więcej o [[Aplikacja mobilna#Szybka czynność|szybkiej czynności]].
+
+#### Pasek narzędzi na urządzeniach mobilnych
+
+Zarządzaj poleceniami na pasku narzędzi nad klawiaturą. Dowiedz się więcej o [[Aplikacja mobilna#Mobilny pasek narzędzi|pasku narzędzi na urządzeniach mobilnych]].
+
+### Zaawansowane
+
+#### Powiększenie
+
+Ustawia ogólne powiększenie aplikacji. Dostosuj je za pomocą suwaka.
 
 #### Menu systemowe
 
@@ -333,30 +374,15 @@ Menu w całej aplikacji będą zgodne z systemem operacyjnym. Motyw nie będzie 
 
 #### Styl ramki okna
 
-Określa styl paska tytułowego okien Obsidian. Wymaga ponownego uruchomienia aplikacji. Opcje obejmują:
+Określa styl paska tytułowego okien Obsidian. Zmiana wymaga ponownego uruchomienia aplikacji. Dostępne opcje:
 
-- **Ramka Obsidian** — Używa niestandardowej ramki okna Obsidian.
-- **Ramka systemowa** — Używa domyślnej ramki okna systemu operacyjnego.
-- **Ukryta ramka** — Całkowicie ukrywa pasek tytułowy.
+- **Ramka Obsidian**: niestandardowa ramka okna Obsidian.
+- **Ramka systemowa**: domyślna ramka okna systemu operacyjnego.
+- **Ukryta ramka**: całkowicie ukrywa pasek tytułowy.
 
-#### Niestandardowa ikonka aplikacji
+#### Otwórz ustawienia w nowym oknie
 
-Wybierz niestandardową ikonkę aplikacji. Wybierz **Wybierz**, aby wybrać plik ikony (`.icns`, `.ico`, `.png` lub `.svg`). Dowiedz się więcej o [[Wygląd#Niestandardowa ikonka aplikacji|niestandardowych ikonkach aplikacji]].
-
-#### Przezroczyste okno
-
-Włącz efekt półprzezroczystości, aby zwiększyć poczucie głębi. Najlepiej używać w trybie ciemnym. Nieobsługiwane w systemie Linux.
-
-> [!info]+ Tylko macOS
-> Ta funkcja jest zaprojektowana głównie dla macOS. Dowiedz się więcej o [[Wygląd#Przezroczystość|przezroczystości]].
-
-#### Przyspieszenie sprzętowe
-
-Aktywuj akcelerację sprzętową, która wykorzystuje procesor graficzny do zwiększenia płynności działania Obsidian. Wyłączenie tej opcji może poważnie obniżyć wydajność aplikacji, ale może rozwiązać niektóre rzadkie problemy.
-
-### Snippety CSS
-
-Zarządzaj i przeglądaj [[Snippety CSS|snippety CSS]] przechowywane w sejfie. Snippety CSS są przechowywane w `/vault/.obsidian/snippets/`. Wybierz ikonę odświeżania, aby odświeżyć snippety, lub ikonę folderu ![[lucide-folder-open.svg#icon]], aby otworzyć folder snippetów.
+Otwiera ustawienia w osobnym oknie, a nie wewnątrz aplikacji.
 
 ## Skróty klawiszowe
 

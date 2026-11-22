@@ -7,7 +7,7 @@ Obsidian Skills to instrukcje, które uczą agentów AI, jak pracować z Obsidia
 
 Dzięki Obsidian Skills agent może:
 
-- Pisać notatki w [[Obsidian Flavored Markdown]], z [[Łącza wewnętrzne|Wikilinkami]], osadzeniami, blokami wyróżnienia i [[Atrybuty|atrybutami]].
+- Pisać notatki w [[Obsidian Flavored Markdown]], z [[Łącza wewnętrzne|Wikilinkami]], osadzeniami, blokami informacyjnymi i [[Atrybuty|atrybutami]].
 - Tworzyć i edytować pliki [[Wprowadzenie do baz danych|Baz danych]] i [[Tablica|Tablicy]].
 - Wyszukiwać, odczytywać i zarządzać notatkami w działającej aplikacji za pomocą [[Obsidian CLI]].
 - Synchronizować i publikować sejfy bez aplikacji desktopowej za pomocą [[Obsidian Headless]].
@@ -70,7 +70,7 @@ Aby zainstalować ręcznie, skopiuj foldery z `plugins/obsidian/skills/` do fold
 | Umiejętność         | Co robi                                                                                                                       |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | `obsidian-markdown` | Tworzenie i edycja notatek w formacie [[Obsidian Flavored Markdown]].                                                         |
-| `obsidian-bases`    | Tworzenie i edycja [[Składnia baz danych\|Baz danych]] z podglądami, filtrami, wzorami i podsumowaniami.                      |
+| `obsidian-bases`    | Tworzenie i edycja [[Składnia baz danych\|Baz danych]] z widokami, filtrami, wzorami i podsumowaniami.                      |
 | `json-canvas`       | Tworzenie i edycja plików [[Tablica|Tablicy]] w formacie [JSON Canvas](https://jsoncanvas.org/).                              |
 | `obsidian-cli`      | Interakcja z sejfem przez [[Obsidian CLI]], w tym tworzenie wtyczek i motywów.                                                |
 | `obsidian-headless` | Synchronizacja i publikowanie sejfów z wiersza poleceń za pomocą [[Obsidian Headless]].                                       |
@@ -79,9 +79,9 @@ Aby zainstalować ręcznie, skopiuj foldery z `plugins/obsidian/skills/` do fold
 
 ## Wymagania
 
-Umiejętność `obsidian-cli` wymaga działającej aplikacji desktopowej Obsidian z [[Obsidian CLI#Instalacja Obsidian CLI|włączonym Obsidian CLI]] oraz agenta, który może uruchamiać polecenia na Twoim komputerze.
+Umiejętność `obsidian-cli` wymaga działającej aplikacji desktopowej Obsidian z [[Obsidian CLI#Instalacja Obsidian CLI|włączonym Obsidian CLI]] oraz agenta, który może uruchamiać polecenia na twoim komputerze.
 
-Umiejętności Markdown, Baz danych i Tablicy opisują jedynie formaty plików, więc działają w każdym agencie, który może odczytywać i zapisywać pliki w Twoim sejfie.
+Umiejętności Markdown, Baz danych i Tablicy opisują jedynie formaty plików, więc działają w każdym agencie, który może odczytywać i zapisywać pliki w twoim sejfie.
 
 Defuddle, Knap i Obsidian Headless to oddzielne narzędzia, które nie są dołączone do umiejętności. Gdy któregoś brakuje, umiejętność zapyta przed zainstalowaniem go z npm.
 

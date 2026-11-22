@@ -7,7 +7,7 @@ Tagi to słowa kluczowe lub tematy, które pomagają szybko znaleźć poszukiwan
 
 Aby utworzyć tag, wpisz w edytorze symbol hash (`#`), a następnie słowo kluczowe. Na przykład `#spotkanie`.
 
-Możesz również dodawać tagi za pomocą [[Atrybuty|właściwości]] `tags`. Tagi w YAML powinny być zawsze formatowane jako lista:
+Możesz również dodawać tagi za pomocą [[Atrybuty|atrybutu]] `tags`. Tagi w YAML powinny być zawsze formatowane jako lista:
 
 ```yaml
 ---
@@ -23,7 +23,7 @@ Aby znaleźć notatki za pomocą wtyczki [[Wyszukiwarka]], użyj [[Wyszukiwarka#
 
 Możesz również wyszukiwać tagi, klikając je w swoich notatkach.
 
-Aby znaleźć notatki za pomocą wtyczki [[Panel tagów|Panel tagów]], wybierz **Tagi: Pokaż panel tagów** w [[Lista poleceń|palecie poleceń]], a następnie wybierz tag, który chcesz wyszukać.
+Aby znaleźć notatki za pomocą wtyczki [[Panel tagów|Panel tagów]], wybierz **Panel tagów: Pokaż panel tagów** w [[Paleta poleceń|palecie poleceń]], a następnie wybierz tag, który chcesz wyszukać.
 
 ## Zagnieżdżone tagi
 

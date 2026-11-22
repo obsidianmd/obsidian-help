@@ -1,15 +1,15 @@
 ---
 permalink: bases/views/table
 ---
-Tabela to rodzaj [[Podglądy|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
+Tabela to rodzaj [[Widoki|widoku]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
 
-Wybierz ![[lucide-table.svg#icon]]  **Tabela** z menu podglądu, aby wyświetlić pliki jako tabelę z wierszem dla każdego pliku i kolumnami dla [[Atrybuty|atrybutów]] tego pliku.
+Wybierz ![[lucide-table.svg#icon]]  **Tabela** z menu widoku, aby wyświetlić pliki jako tabelę z wierszem dla każdego pliku i kolumnami dla [[Atrybuty|atrybutów]] tego pliku.
 
-![Przykład bazy danych pokazującej podgląd tabeli z listą książek](bases-noshadow.png#interface)
+![Przykład bazy danych pokazującej widok tabeli z listą książek](bases-noshadow.png#interface)
 
 ## Ustawienia
 
-Ustawienia podglądu tabeli można skonfigurować w [[Podglądy#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia widoku tabeli można skonfigurować w [[Widoki#Ustawienia widoku|Ustawieniach widoku]].
 
 ### Wysokość wiersza
 
@@ -17,17 +17,17 @@ Wysokość wiersza pozwala wyświetlić więcej informacji. Wybierz między **kr
 
 ## Podsumowania
 
-Możesz dodać podsumowania do kolumny tabeli, aby szybko obliczać wartości takie jak sumy, średnie lub liczby dla wierszy aktualnie widocznych w podglądzie.
+Możesz dodać podsumowania do kolumny tabeli, aby szybko obliczać wartości takie jak sumy, średnie lub liczby dla wierszy aktualnie widocznych w widoku.
 
-Podsumowania są powiązane z podglądem, a nie z bazą. Każdy podgląd może wyświetlać różne podsumowania dla tej samej kolumny.
+Podsumowania są powiązane z widokiem, a nie z bazą. Każdy widok może wyświetlać różne podsumowania dla tej samej kolumny.
 
 ### Dodawanie podsumowania
 
-1. Kliknij prawym przyciskiem myszy nagłówek kolumny w podglądzie tabeli.
+1. Kliknij prawym przyciskiem myszy nagłówek kolumny w widoku tabeli.
 2. Wybierz ![[lucide-calculator.svg#icon]] **Podsumuj…**.
 3. Wybierz jedną z wbudowanych funkcji podsumowania lub wybierz ![[lucide-square-function.svg#icon]] **Dodaj podsumowanie**, aby zdefiniować własne.
 
-Podsumowanie pojawia się na dole kolumny. Gdy wyniki są [[Podglądy#Sortowanie i grupowanie wyników|pogrupowane]], podsumowanie dla każdej grupy jest wyświetlane na górze grupy.
+Podsumowanie pojawia się na dole kolumny. Gdy wyniki są [[Widoki#Sortowanie i grupowanie wyników|pogrupowane]], podsumowanie dla każdej grupy jest wyświetlane na górze grupy.
 
 Po dodaniu paska podsumowania możesz dodać więcej podsumowań dla innych kolumn, klikając komórkę podsumowania. Pasek podsumowania jest ukryty, jeśli wszystkie podsumowania zostaną usunięte.
 
@@ -75,7 +75,7 @@ Niestandardowe podsumowania są przydatne, gdy potrzebujesz obliczenia, które n
 
 ## Skróty
 
-Możesz szybko poruszać się po podglądzie tabeli, korzystając z poniższych skrótów myszy i [[Skróty edycji|skrótów klawiszowych]].
+Możesz szybko poruszać się po widoku tabeli, korzystając z poniższych skrótów myszy i [[Skróty edycji|skrótów klawiszowych]].
 
 - Shift-kliknięcie tworzy zaznaczenie komórek.
 - Kliknij prawym przyciskiem myszy zaznaczenie komórek, aby uzyskać dostęp do dodatkowych akcji dla tych plików.

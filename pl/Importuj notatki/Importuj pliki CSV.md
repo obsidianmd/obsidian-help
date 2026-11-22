@@ -29,7 +29,7 @@ W kroku konfiguracji pól możesz wybrać sposób importowania danych. Importer 
 
 ## Szablony
 
-Użyj [[Szablony importera|szablonów Importer]], aby w pełni skonfigurować sposób importowania danych.
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych.
 
 Każda kolumna CSV jest dostępna za pomocą swojego nagłówka. Jeśli kolumna nie ma nagłówka, Importer używa wygenerowanej nazwy kolumny.
 
@@ -40,4 +40,4 @@ Użyj notacji nawiasowej, aby spacje i znaki interpunkcyjne były obsługiwane b
 {{source["Price ($)"]|yaml}}
 ```
 
-![[Szablony importera#Variables]]
+![[Szablony importera#Zmienne]]

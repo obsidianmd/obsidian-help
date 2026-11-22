@@ -19,7 +19,7 @@ Dokładna lokalizacja może się różnić, jeśli przeniosłeś folder danych l
 
 1. Otwórz **[[Ustawienia]] → Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Włącz wtyczkę Importer.
-3. Otwórz **Importer** za pomocą [[Lista poleceń|palety poleceń]] lub ikony na wstążce.
+3. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 4. W polu **Format**, wybierz **Tomboy/Gnote (.note)**.
 5. Wybierz pojedyncze pliki `.note` lub folder je zawierający.
 6. Przejrzyj opcje importu, wygenerowany szablon i przykłady podglądu.

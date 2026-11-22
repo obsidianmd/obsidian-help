@@ -9,11 +9,11 @@ description: Importer pomaga w migracji do Obsidian z różnych aplikacji i form
 ---
 Importer pomaga w migracji do Obsidian z różnych aplikacji i formatów. Szczegółowe informacje znajdziesz w przewodniku [[Importuj notatki|Importuj notatki]].
 
-Importer to oficjalna [[Wtyczki społeczności|wtyczka społeczności]] stworzona przez zespół Obsidian, z wkładem do [naszego kodu open-source](https://github.com/obsidianmd/obsidian-importer). Możesz wnieść swój wkład, dodając dodatkowe formaty importu. [Zobacz przewodnik dotyczący współtworzenia.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
+Importer to oficjalna [[Wtyczki społeczności|wtyczka społeczności]] utworzona przez zespół Obsidian, z wkładem do [naszego kodu open-source](https://github.com/obsidianmd/obsidian-importer). Możesz wnieść swój wkład, dodając dodatkowe formaty importu. [Zobacz przewodnik dotyczący współtworzenia.](https://github.com/obsidianmd/obsidian-importer/blob/master/CONTRIBUTING.md)
 
 ## Instaluj Importer
 
-1. Postępuj zgodnie z instrukcjami w [[Wtyczki społeczności#Instalacja wtyczki społeczności]]
+1. Postępuj zgodnie z instrukcjami w [[Wtyczki społeczności#Instalowanie wtyczki społeczności|Instalowanie wtyczki społeczności]]
 2. Pobierz i włącz [Importer](obsidian://show-plugin?id=obsidian-importer) z listy
 
 ![[Importuj notatki#Importuj z innych aplikacji i formatów plików]]

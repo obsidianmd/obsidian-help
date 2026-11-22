@@ -48,31 +48,31 @@ translation=Składnia baz danych
 
 [file.bases/views]
 original=Views
-translation=Podglądy
+translation=Widoki
 
 [file.bases/views/cards]
 original=Cards view
-translation=Podgląd Karty
+translation=Widok kart
 
 [file.bases/views/kanban]
 original=Kanban view
-translation=Podgląd Kanban
+translation=Widok Kanban
 
 [file.bases/views/list]
 original=List view
-translation=Podgląd Lista
+translation=Widok listy
 
 [file.bases/views/map]
 original=Map view
-translation=Podgląd Mapa
+translation=Widok mapy
 
 [file.bases/views/table]
 original=Table view
-translation=Podgląd Tabela
+translation=Widok tabeli
 
 [file.callouts]
 original=Callouts
-translation=Objaśnienia
+translation=Bloki informacyjne
 
 [file.catalyst]
 original=Catalyst license
@@ -100,7 +100,7 @@ translation=Folder konfiguracji
 
 [file.create-note]
 original=Create your first note
-translation=Stwórz swoją pierwszą notatkę
+translation=Utwórz swoją pierwszą notatkę
 
 [file.credit]
 original=Obsidian Credit
@@ -132,7 +132,7 @@ translation=Wersje wczesnego dostępu
 
 [file.edit-and-read]
 original=Views and editing mode
-translation=Podglądy i tryb edycji
+translation=Tryby edycji i odczytu
 
 [file.editing-shortcuts]
 original=Editing shortcuts
@@ -188,7 +188,7 @@ translation=Importuj notatki
 
 [file.import/airtable]
 original=Import from Airtable
-translation=Import z Airtable
+translation=Importuj z Airtable
 
 [file.import/apple-journal]
 original=Import from Apple Journal
@@ -224,7 +224,7 @@ translation=Importuj pliki HTML
 
 [file.import/logseq]
 original=Import from Logseq
-translation=Import z Logseq
+translation=Importuj z Logseq
 
 [file.import/markdown]
 original=Import Markdown files
@@ -244,7 +244,7 @@ translation=Importuj z Roam Research
 
 [file.import/samsung-notes]
 original=Import from Samsung Notes
-translation=Import z Samsung Notes
+translation=Importuj z Samsung Notes
 
 [file.import/templates]
 original=Importer templates
@@ -256,7 +256,7 @@ translation=Importuj pliki Textbundle
 
 [file.import/tomboy]
 original=Import from Tomboy and Gnote
-translation=Import z Tomboy i Gnote
+translation=Importuj z Tomboy i Gnote
 
 [file.import/zettelkasten]
 original=Import Zettelkasten notes
@@ -348,7 +348,7 @@ translation=Tablica
 
 [file.plugins/command-palette]
 original=Command palette
-translation=Lista poleceń
+translation=Paleta poleceń
 
 [file.plugins/daily-notes]
 original=Daily notes
@@ -356,7 +356,7 @@ translation=Dziennik
 
 [file.plugins/file-explorer]
 original=File explorer
-translation=Przeglądarka plików
+translation=Eksplorator plików
 
 [file.plugins/file-recovery]
 original=File recovery
@@ -368,7 +368,7 @@ translation=Panel przypisów
 
 [file.plugins/format-converter]
 original=Format converter
-translation=Konwerter formatowania
+translation=Konwerter formatu
 
 [file.plugins/graph]
 original=Graph view
@@ -380,7 +380,7 @@ translation=Importer
 
 [file.plugins/note-composer]
 original=Note composer
-translation=Kompozytor notatek
+translation=Edytor notatek
 
 [file.plugins/outgoing-links]
 original=Outgoing links
@@ -412,7 +412,7 @@ translation=Wyszukiwarka
 
 [file.plugins/slash-commands]
 original=Slash commands
-translation=Ukośnik poleceń
+translation=Polecenia po ukośniku
 
 [file.plugins/slides]
 original=Slides
@@ -508,7 +508,7 @@ translation=Zarządzaj stronami
 
 [file.publish/social-share]
 original=Social media link previews
-translation=Podglądy linków w mediach społecznościowych
+translation=Podglądy łączy w mediach społecznościowych
 
 [file.publish/troubleshoot]
 original=Troubleshoot Obsidian Publish
@@ -524,7 +524,7 @@ translation=Pomoc i wsparcie
 
 [file.ribbon]
 original=Ribbon
-translation=Wstążka
+translation=Pasek boczny
 
 [file.sales-tax]
 original=Sales tax
@@ -680,7 +680,7 @@ translation=Obsidian URI
 
 [file.vault]
 original=Create a vault
-translation=Stwórz sejf
+translation=Utwórz sejf
 
 [file.web-clipper]
 original=Introduction to Obsidian Web Clipper
@@ -724,7 +724,7 @@ translation=Zmienne
 
 [file.workspace]
 original=Workspace
-translation=Przestrzeń robocza
+translation=Obszar roboczy
 
 [folder.Attachments]
 original=Attachments

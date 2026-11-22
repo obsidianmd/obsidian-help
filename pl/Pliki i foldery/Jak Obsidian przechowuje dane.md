@@ -4,11 +4,11 @@ publish: true
 mobile: true
 description: 'Ta strona wyjaśnia, w jaki sposób Obsidian przechowuje dane na Twoim urządzeniu.'
 ---
-Obsidian przechowuje Twoje notatki jako [[Podstawowa składnia formatowania|sformatowane w Markdown]] pliki zwykłego tekstu w _sejfie_. Sejf to folder w Twoim lokalnym systemie plików, łącznie z podfolderami.
+Obsidian przechowuje twoje notatki jako [[Podstawowa składnia formatowania|sformatowane w Markdown]] pliki zwykłego tekstu w _sejfie_. Sejf to folder w twoim lokalnym systemie plików, łącznie z podfolderami.
 
-Ponieważ notatki to pliki zwykłego tekstu, możesz używać innych edytorów tekstu i menedżerów plików do edytowania i zarządzania notatkami. Obsidian automatycznie odświeża Twój sejf, aby nadążyć za wszelkimi zewnętrznymi zmianami.
+Ponieważ notatki to pliki zwykłego tekstu, możesz używać innych edytorów tekstu i menedżerów plików do edytowania i zarządzania notatkami. Obsidian automatycznie odświeża twój sejf, aby nadążyć za wszelkimi zewnętrznymi zmianami.
 
-Możesz utworzyć sejf wszędzie tam, gdzie pozwala na to Twój system operacyjny. Obsidian synchronizuje się z [[Wprowadzenie do Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git i wieloma innymi usługami firm trzecich.
+Możesz utworzyć sejf wszędzie tam, gdzie pozwala na to twój system operacyjny. Obsidian synchronizuje się z [[Wprowadzenie do Obsidian Sync|Obsidian Sync]], Dropbox, iCloud, OneDrive, Git i wieloma innymi usługami firm trzecich.
 
 Możesz otwierać wiele folderów jako osobne sejfy, na przykład aby oddzielić notatki do pracy i szkoły.
 
@@ -26,7 +26,7 @@ Domyślnie większość systemów operacyjnych ukrywa foldery zaczynające się 
 + **GNU/Linux:** W większości eksplorerów plików naciśnij `Ctrl + h`, aby wyświetlić ukryte pliki.
 
 > [!tip] Dodawanie `.obsidian` do Git
-> Pliki `.obsidian/workspace.json` i `.obsidian/workspaces.json` przechowują aktualny układ przestrzeni roboczej i aktualizują się za każdym razem, gdy otworzysz nowy plik. Jeśli używasz [Git](https://git-scm.com) do zarządzania swoim sejfem, możesz chcieć dodać te pliki do `.gitignore`.
+> Pliki `.obsidian/workspace.json` i `.obsidian/workspaces.json` przechowują aktualny układ obszaru roboczego i aktualizują się za każdym razem, gdy otworzysz nowy plik. Jeśli używasz [Git](https://git-scm.com) do zarządzania swoim sejfem, możesz chcieć dodać te pliki do `.gitignore`.
 
 ## Ustawienia globalne
 
@@ -46,6 +46,6 @@ IndexedDB to niskopoziomowa baza danych po stronie klienta, której Obsidian uż
 
 ### Pamięć podręczna metadanych
 
-Aby zapewnić szybkie działanie aplikacji, Obsidian utrzymuje lokalny rejestr metadanych dotyczących plików w Twoim sejfie, zwany **pamięcią podręczną metadanych**. Te metadane obsługują wiele funkcji w całej aplikacji, od podglądu grafu po konspekt.
+Aby zapewnić szybkie działanie aplikacji, Obsidian utrzymuje lokalny rejestr metadanych dotyczących plików w twoim sejfie, zwany **pamięcią podręczną metadanych**. Te metadane obsługują wiele funkcji w całej aplikacji, od podglądu grafu po konspekt.
 
-Obsidian utrzymuje tę pamięć podręczną w synchronizacji z plikami w Twoim sejfie, ale możliwe jest, że dane rozejdą się z plikami źródłowymi. Jeśli tak się stanie w Twoim sejfie, możesz odbudować pamięć podręczną metadanych w ustawieniach aplikacji w sekcji *Pliki i łącza*.
+Obsidian utrzymuje tę pamięć podręczną w synchronizacji z plikami w twoim sejfie, ale możliwe jest, że dane rozejdą się z plikami źródłowymi. Jeśli tak się stanie w twoim sejfie, możesz odbudować pamięć podręczną metadanych w ustawieniach aplikacji w sekcji *Pliki i łącza*.

@@ -26,4 +26,4 @@ Wiele typów plików — w tym obrazy, audio, wideo i pliki PDF — można osadz
 Zobacz [[Osadzanie plików]], aby poznać więcej opcji i składnię osadzania.
 
 > [!NOTE]
-> Obsługa audio, wideo i innych plików zależy od kodeków dostępnych na Twoim urządzeniu.
+> Obsługa audio, wideo i innych plików zależy od kodeków dostępnych na twoim urządzeniu.

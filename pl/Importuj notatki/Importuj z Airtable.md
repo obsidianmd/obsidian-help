@@ -5,7 +5,7 @@ cssclasses:
 ---
 Obsidian umożliwia migrację danych z Airtable za pomocą [[Importuj notatki|wtyczki Importer]]. Konwertuje ona bazy danych Airtable na trwałe pliki Markdown, których można używać offline w Obsidian i wielu innych aplikacjach.
 
-Każda tabela staje się folderem notatek z jedną notatką na rekord, plus plik [[Wprowadzenie do baz danych|bazy danych]], który odtwarza tabelę i jej podglądy. Ponieważ korzysta z API Airtable, importowanie wymaga osobistego tokenu dostępu i połączenia z internetem.
+Każda tabela staje się folderem notatek z jedną notatką na rekord, plus plik [[Wprowadzenie do baz danych|bazy danych]], który odtwarza tabelę i jej widoki. Ponieważ korzysta z API Airtable, importowanie wymaga osobistego tokenu dostępu i połączenia z internetem.
 
 ## Tworzenie osobistego tokenu dostępu Airtable
 
@@ -15,7 +15,7 @@ Token to długi ciąg liczb i liter, zwykle zaczynający się od `pat...`, któr
 
 1. Zaloguj się do Airtable i przejdź do strony [Personal access tokens](https://airtable.com/create/tokens) w ustawieniach konta.
 2. Wybierz **Create new token**.
-3. Nadaj tokenowi nazwę, np. „Obsidian". Można użyć dowolnej nazwy.
+3. Nadaj tokenowi nazwę, np. „Obsidian”. Można użyć dowolnej nazwy.
 4. W sekcji **Scopes** dodaj `data.records:read` i `schema.bases:read`.
 5. W sekcji **Access** dodaj bazy, które chcesz zaimportować, lub wybierz wszystkie bazy w przestrzeni roboczej.
 6. Wybierz **Create token**, a następnie **Copy**, aby skopiować token.
@@ -30,7 +30,7 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Importuj notatki|Importer]], którą 
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **File format** wybierz **Airtable**.
 6. W polu **Airtable Personal Access Token** kliknij **Połącz...**, aby dodać nowy sekret. W polu **ID** nadaj mu nazwę, np. `airtable`, a w polu **Sekret** wklej osobisty token dostępu.
 7. Kliknij **Wczytaj**, aby przeglądać bazy, a następnie wybierz tabele do zaimportowania.
@@ -42,7 +42,7 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Importuj notatki|Importer]], którą 
 ## Opcje importu
 
 - **Convert formulas** — wybierz, czy pola formuł, lookup, rollup i count mają być przepisywane jako [[Wzory|wzory baz danych]], z wykorzystaniem wartości obliczonej przez Airtable w przypadku braku odpowiednika, czy importowane wyłącznie jako wartości statyczne.
-- **Pobierz załączniki** — zapisuje pliki załączników w sejfie, używając ustawień folderu załączników i formatu łączy. Gdy opcja jest wyłączona lub gdy pobieranie się nie powiedzie, notatka zawiera link do adresu URL pliku na Airtable.
+- **Pobierz załączniki** — zapisuje pliki załączników w sejfie, używając ustawień folderu załączników i formatu łączy. Gdy opcja jest wyłączona lub gdy pobieranie się nie powiedzie, notatka zawiera łącze do adresu URL pliku na Airtable.
 - **View property name** — atrybut określający, do których podglądów Airtable należy rekord. Każdy podgląd w wygenerowanej bazie filtruje na podstawie tego atrybutu. Domyślnie `Views`.
 - **Save Airtable record ID** — dodaje atrybut `airtable-id`, aby przyszłe importy mogły rozpoznać rekordy po przeniesieniu lub zmianie nazwy ich notatek.
 
@@ -70,13 +70,13 @@ Airtable/
 ```
 
 - Jedna notatka na rekord, z polem podstawowym jako tytułem notatki i pozostałymi polami rekordu jako [[Atrybuty|atrybutami]].
-- Plik `.base` dla każdej tabeli, z każdym podglądem Airtable zmapowanym na [[Podglądy|podgląd bazy danych]]:
-	- **Grid** staje się [[Podgląd Tabela|podglądem tabeli]].
-	- **Gallery** staje się [[Podgląd Karty|podglądem kart]].
-	- **List** staje się [[Podgląd Lista|podglądem listy]].
-	- **Kanban** staje się [[Podgląd Kanban|podglądem kanban]] w Obsidian 1.14 i nowszych. Airtable nie udostępnia informacji o tym, według którego pola kanban jest grupowany, więc po zaimportowaniu należy [[Podgląd Kanban#Grupowanie kart w kolumny|wybrać atrybut do grupowania]]. Ponowny import zachowuje twój wybór.
+- Plik `.base` dla każdej tabeli, z każdym widokiem Airtable zmapowanym na [[Widoki|widok bazy danych]]:
+	- **Grid** staje się [[Widok tabeli|podglądem tabeli]].
+	- **Gallery** staje się [[Widok kart|podglądem kart]].
+	- **List** staje się [[Widok listy|podglądem listy]].
+	- **Kanban** staje się [[Widok Kanban|podglądem kanban]] w Obsidian 1.14 i nowszych. Airtable nie udostępnia informacji o tym, według którego pola kanban jest grupowany, więc po zaimportowaniu należy [[Widok Kanban#Grupowanie kart w kolumny|wybrać atrybut do grupowania]]. Ponowny import zachowuje twój wybór.
 - Typy pól Airtable są mapowane na typy atrybutów Obsidian, bez nadpisywania typów, które już zostały ustawione.
-- Połączone rekordy stają się linkami do odpowiednich notatek.
+- Połączone rekordy stają się łączami do odpowiednich notatek.
 - Załączniki są pobierane do sejfu zgodnie z ustawieniami sejfu.
 
 ## Ograniczenia
@@ -88,7 +88,7 @@ Ze względu na ograniczenia API Airtable niektóre dane nie są dostępne lub ni
 - Wartości rollup nie są importowane. API nie udostępnia informacji o agregacji użytej do obliczenia wartości rollup, więc zapisywana jest tylko nazwa atrybutu wraz z wzorem bazy danych, gdy schemat pola zawiera wyrażenie.
 - Formuły używające funkcji, dla których Obsidian nie ma odpowiednika, takich jak `SWITCH`, `FIND`, `REGEX_EXTRACT` i `SQRT`, są zastępowane wartością statyczną z Airtable.
 - Importowane są tylko podglądy grid, gallery, list i kanban. Inne typy podglądów, takie jak calendar, timeline i Gantt, są pomijane.
-- Linki do rekordów w tabelach, których nie wybrano, stają się zwykłym tytułem rekordu zamiast linku.
+- Łącza do rekordów w tabelach, których nie wybrano, stają się zwykłym tytułem rekordu zamiast łącza.
 - Projekty interfejsów, automatyzacje, komentarze i historia zmian nie są importowane.
 
 ## Rozwiązywanie problemów

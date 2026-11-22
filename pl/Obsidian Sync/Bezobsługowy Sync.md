@@ -44,7 +44,7 @@ ob sync --continuous
 
 ### `ob sync-list-remote`
 
-Wyświetla listę wszystkich zdalnych sejfów dostępnych dla Twojego konta, w tym sejfów udostępnionych.
+Wyświetla listę wszystkich zdalnych sejfów dostępnych dla twojego konta, w tym sejfów udostępnionych.
 
 ### `ob sync-list-local`
 

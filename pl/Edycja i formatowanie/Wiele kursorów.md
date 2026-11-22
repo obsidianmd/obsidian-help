@@ -7,4 +7,4 @@ Aby usunąć zaznaczenie wraz ze wszystkimi dodatkowymi kursorami, kliknij w dow
 
 ## Zaznaczenie prostokątne
 
-Jeśli chcesz edytować kolejne linie tekstu — na przykład, aby zamienić akapity w elementy listy — możesz przytrzymać `Shift+Alt` (lub `Shift+Option` na macOS) podczas przeciągania. Możesz również przytrzymać środkowy przycisk myszy podczas przeciągania.
+Jeśli chcesz edytować kolejne wiersze tekstu — na przykład, aby zamienić akapity w elementy listy — możesz przytrzymać `Shift+Alt` (lub `Shift+Option` na macOS) podczas przeciągania. Możesz również przytrzymać środkowy przycisk myszy podczas przeciągania.

@@ -17,7 +17,7 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]]. Możesz ją [za
 4. Otwórz Importer w Ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format** wybierz **HTML (.html).**
 6. Wskaż lokalizację plików lub folderów HTML.
-7. Kliknij **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z Twoich plików.
+7. Kliknij **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich plików.
 8. Kliknij **Importuj** ponownie i poczekaj na zakończenie importu.
 
 ### Importuj ustawienia
@@ -27,9 +27,9 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]]. Możesz ją [za
 
 ## Szablony
 
-Użyj [[Szablony importera|szablonów Importera]], aby w pełni skonfigurować sposób importowania danych.
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych.
 
-![[Szablony importera#Variables]]
+![[Szablony importera#Zmienne]]
 
 Ponadto import HTML udostępnia wiele tych samych zmiennych co [[Wprowadzenie do Obsidian Web Clipper|Web Clipper]]:
 

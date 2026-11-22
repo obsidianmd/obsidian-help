@@ -23,7 +23,7 @@ Chociaż pionowe kreski po obu stronach tabeli są opcjonalne, ich umieszczanie 
 
 > [!tip] W trybie _podglądu na żywo_ możesz kliknąć prawym przyciskiem myszy na tabeli, aby dodawać lub usuwać kolumny i wiersze. Możesz je również sortować i przenosić za pomocą menu kontekstowego.
 
-Możesz wstawić tabelę za pomocą polecenia **Tabela** z [[Lista poleceń|Palety poleceń]] lub klikając prawym przyciskiem myszy i wybierając _Wstaw → Tabela_. Spowoduje to utworzenie podstawowej, edytowalnej tabeli:
+Możesz wstawić tabelę za pomocą polecenia **Tabela** z [[Paleta poleceń|Palety poleceń]] lub klikając prawym przyciskiem myszy i wybierając _Wstaw → Tabela_. Spowoduje to utworzenie podstawowej, edytowalnej tabeli:
 
 ```md
 |     |     |
@@ -47,7 +47,7 @@ Możesz używać [[Podstawowa składnia formatowania|podstawowej składni format
 
 | Pierwsza kolumna         | Druga kolumna                                      |
 | ------------------------ | -------------------------------------------------- |
-| [[Łącza wewnętrzne]]    | Link do pliku _wewnątrz_ Twojego **sejfu**.      |
+| [[Łącza wewnętrzne]]    | Łącze do pliku _wewnątrz_ twojego **sejfu**.      |
 | [[Osadzanie plików]]    | ![[Engelbart.jpg\|100]]                             |
 
 > [!note] Pionowe kreski w tabelach
@@ -126,7 +126,7 @@ graph TD
 
 Biology --> Chemistry
 
-class Biology,Chemistry internal-link;
+class Biology,Chemistry internal-łącze;
 ```
 ````
 
@@ -152,7 +152,7 @@ B[Chemistry]
 
 A --> B
 
-class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-link;
+class A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z internal-łącze;
 ```
 ````
 

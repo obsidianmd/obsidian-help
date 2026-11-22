@@ -33,13 +33,13 @@ Obsidian oferuje kilka usług i licencji dostępnych do zakupu.
 Akceptujemy następujące metody płatności: Stripe, PayPal, WeChat i AliPay.
 
 > [!info] PayPal i opłaty
-> Płatności przez PayPal będą przetwarzane w dolarach kanadyjskich (CAD). Wydawca Twojej karty może naliczyć opłatę za transakcję zagraniczną, a PayPal może pobrać opłatę za przewalutowanie.
+> Płatności przez PayPal będą przetwarzane w dolarach kanadyjskich (CAD). Wydawca twojej karty może naliczyć opłatę za transakcję zagraniczną, a PayPal może pobrać opłatę za przewalutowanie.
 
 Po zakończeniu płatności otrzymasz potwierdzenie od serwisu, za pośrednictwem którego dokonano zakupu.
 
 ## Generowanie faktury
 
-Obsidian generuje fakturę dla wszystkich zakupów na Twoim koncie. Aby pobrać fakturę:
+Obsidian generuje fakturę dla wszystkich zakupów na twoim koncie. Aby pobrać fakturę:
 
 1. Zaloguj się do [swojego konta Obsidian](https://obsidian.md/account/billing).
 2. Przejdź do sekcji **Rozliczenia**.

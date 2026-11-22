@@ -7,14 +7,8 @@ Na przykład, jeśli utworzysz nową notatkę o 09:45 dnia 1 stycznia 2024 roku,
 
 ## Tworzenie niepowtarzalnej notatki
 
-**Wstążka:**
-
-- Na wstążce kliknij **Stwórz nową niepowtarzalną notatkę** ![[obsidian-icon-sheets-in-box.svg#icon]].
-
-**Paleta poleceń:**
-
-1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Lista poleceń|paletę poleceń]].
-2. Wyszukaj polecenie **Stwórz nową niepowtarzalną notatkę**.
+1. Naciśnij `Ctrl+P` (lub `Cmd+P` na macOS), aby otworzyć [[Paleta poleceń|paletę poleceń]].
+2. Wyszukaj polecenie **Utwórz nową niepowtarzalną notatkę**.
 3. Naciśnij `Enter`, gdy polecenie jest zaznaczone.
 
 ## Tworzenie niepowtarzalnych notatek z szablonu

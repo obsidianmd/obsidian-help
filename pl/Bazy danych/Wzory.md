@@ -1,6 +1,6 @@
 ---
 permalink: formulas
-description: 'Formuły pozwalają tworzyć obliczane właściwości na podstawie danych z innych właściwości. Możesz wykonywać obliczenia, manipulować tekstem, pracować z datami i nie tylko.'
+description: 'Wzory pozwalają tworzyć obliczane atrybuty na podstawie danych z innych atrybutów. Możesz wykonywać obliczenia, manipulować tekstem, pracować z datami i nie tylko.'
 ---
 Wzory umożliwiają tworzenie obliczanych atrybutów w [[Wprowadzenie do baz danych|bazach danych]] z wykorzystaniem danych z innych [[Atrybuty|atrybutów]]. Możesz wykonywać obliczenia, manipulować tekstem, pracować z datami i nie tylko.
 
@@ -17,7 +17,7 @@ Wzory mogą pomóc w:
 
 ## Tworzenie atrybutu wzoru
 
-Aby stworzyć atrybut wzoru:
+Aby utworzyć atrybut wzoru:
 
 1. W bazie danych kliknij **Atrybuty** na pasku narzędzi.
 2. Kliknij **Dodaj wzór** na dole menu.
@@ -27,7 +27,7 @@ Aby stworzyć atrybut wzoru:
 
 Edytor wzorów automatycznie uzupełnia nazwy [[Funkcje|funkcji]] i atrybutów podczas pisania, walidując składnię wzoru. Zielony znacznik pojawia się, gdy wzór jest poprawny.
 
-Po utworzeniu możesz używać atrybutu wzoru jak każdego innego atrybutu w bazie danych. Dodawaj go do [[Podglądy|podglądów]], używaj w filtrach, sortuj według niego i nie tylko.
+Po utworzeniu możesz używać atrybutu wzoru jak każdego innego atrybutu w bazie danych. Dodawaj go do [[Widoki|widoków]], używaj w filtrach, sortuj według niego i nie tylko.
 
 ## Pisanie wzoru
 
@@ -173,7 +173,7 @@ if(price, "$" + price.toFixed(2), "")
 
 ### Zliczanie elementów listy
 
-Policz liczbę elementów we właściwości listy:
+Policz liczbę elementów w atrybucie typu lista:
 
 ```js
 tasks.length
@@ -189,7 +189,7 @@ Połącz wiele czynników w wynik priorytetu:
 
 ### Łączenie pól tekstowych
 
-Stwórz pełne imię z imienia i nazwiska:
+Utwórz pełne imię z imienia i nazwiska:
 
 ```js
 first_name + " " + last_name

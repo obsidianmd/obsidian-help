@@ -1,7 +1,7 @@
 ---
 permalink: publish/seo
 ---
-Strony [[Wprowadzenie do Obsidian Publish|Obsidian Publish]] są automatycznie zoptymalizowane pod kątem wyszukiwarek i [[Podglądy linków w mediach społecznościowych|kart udostępniania w mediach społecznościowych]]. Możesz również dostosować metadane strony za pomocą opisów, łączy stałych i obrazów.
+Strony [[Wprowadzenie do Obsidian Publish|Obsidian Publish]] są automatycznie zoptymalizowane pod kątem wyszukiwarek i [[Podglądy łączy w mediach społecznościowych|kart udostępniania w mediach społecznościowych]]. Możesz również dostosować metadane strony za pomocą opisów, łączy stałych i obrazów.
 
 Pamiętaj, że możesz wyłączyć indeksowanie w wyszukiwarkach w [[Zarządzaj stronami#Opcje strony|opcjach strony]].
 
@@ -23,12 +23,12 @@ Rozważ użycie [[Łącza stałe]], aby zdefiniować stałe adresy URL na swojej
 
 ### Metadane
 
-Metadane strony można dostosować za pomocą [[Atrybuty#Atrybuty dla Obsidian Publish|Atrybutów]], co może być przydatne do [[Podglądy linków w mediach społecznościowych|kart udostępniania w mediach społecznościowych]].
+Metadane strony można dostosować za pomocą [[Atrybuty#Atrybuty dla Obsidian Publish|Atrybutów]], co może być przydatne do [[Podglądy łączy w mediach społecznościowych|kart udostępniania w mediach społecznościowych]].
 
-| Właściwość    | Opis                                                                                                              |
+| Atrybut       | Opis                                                                                                              |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | Zobacz [[Opublikuj swoją zawartość#Automatyczny wybór danych do publikacji\|Automatyczny wybór danych do publikacji]]. |
+| `publish`     | Zobacz [[Opublikuj swoją zawartość#Automatyczne zaznaczanie danych do publikacji\|Automatyczny wybór danych do publikacji]]. |
 | `permalink`   | Zobacz [[Łącza stałe\|Łącza stałe]].                                                                             |
-| `description` | Zobacz [[Podglądy linków w mediach społecznościowych#Opis\|Opis]].                                                |
-| `image`       | Zobacz [[Podglądy linków w mediach społecznościowych#Obraz\|Obraz]].                                              |
-| `cover`       | Zobacz [[Podglądy linków w mediach społecznościowych#Obraz\|Obraz]].                                              |
+| `description` | Zobacz [[Podglądy łączy w mediach społecznościowych#Opis\|Opis]].                                                |
+| `image`       | Zobacz [[Podglądy łączy w mediach społecznościowych#Obraz\|Obraz]].                                              |
+| `cover`       | Zobacz [[Podglądy łączy w mediach społecznościowych#Obraz\|Obraz]].                                              |

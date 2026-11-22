@@ -18,13 +18,13 @@ Na górze okna aplikacji, obok ostatniej karty po prawej stronie, wybierz **Nowa
 - **Windows i Linux:** `Ctrl+t`
 - **macOS:** `Cmd+t`
 
-## Otwieranie linku
+## Otwieranie łącza
 
-Wybierz link w Obsidian, aby otworzyć go w aktywnej karcie.
+Wybierz łącze w Obsidian, aby otworzyć je w aktywnej karcie.
 
-Aby otworzyć link w nowej karcie, naciśnij `Ctrl` (lub `Cmd` na macOS) i wybierz link.
+Aby otworzyć łącze w nowej karcie, naciśnij `Ctrl` (lub `Cmd` na macOS) i wybierz łącze.
 
-Poniżej znajdziesz wszystkie klawisze modyfikujące, których możesz użyć do otwierania linków na różne sposoby:
+Poniżej znajdziesz wszystkie klawisze modyfikujące, których możesz użyć do otwierania łączy na różne sposoby:
 
 |Akcja|MacOS|Windows/Linux|
 |---|---|---|
@@ -73,7 +73,7 @@ Aby przenieść kartę do innego istniejącego okna, przeciągnij kartę do okna
 
 ### Przypinanie karty
 
-Aby przypiąć kartę w głównym edytorze, kliknij kartę prawym przyciskiem myszy i wybierz **Przypnij**. Linki w przypiętej karcie zawsze otwierają się w osobnej karcie.
+Aby przypiąć kartę w głównym edytorze, kliknij kartę prawym przyciskiem myszy i wybierz **Przypnij**. Łącza w przypiętej karcie zawsze otwierają się w osobnej karcie.
 
 Aby odpiąć przypiętą kartę w głównym edytorze, kliknij kartę prawym przyciskiem myszy i wybierz **Odepnij**.
 
@@ -115,7 +115,7 @@ Dla kart z notatkami możesz używać następujących wtyczek jako widoków poł
 Aby otworzyć widok połączony dla karty z notatką:
 
 1. Wybierz **Więcej opcji** ![[lucide-more-horizontal.svg#icon]] w prawym górnym rogu notatki.
-2. W sekcji **Otwórz widok połączony** wybierz widok połączony, który chcesz otworzyć.
+2. W sekcji **Otwórz połączony widok** wybierz widok połączony, który chcesz otworzyć.
 
 ## Zapisywanie układów
 

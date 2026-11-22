@@ -11,13 +11,13 @@ Możesz skonfigurować niestandardową domenę lub subdomenę dla swojej strony 
 > - [[#Konfiguracja za pomocą CloudFlare]] przy użyciu [trybu Full](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/full/).
 > - [[#Konfiguracja za pomocą proxy]]
 > 
-> Nie mamy jeszcze możliwości wystawienia certyfikatu SSL w Twoim imieniu.
+> Nie mamy jeszcze możliwości wystawienia certyfikatu SSL w twoim imieniu.
 
 ## Konfiguracja za pomocą CloudFlare
 
-Najłatwiejszym sposobem skonfigurowania niestandardowej domeny lub subdomeny jest utworzenie konta [CloudFlare](https://cloudflare.com) i pozwolenie CloudFlare na zarządzanie DNS Twojej domeny.
+Najłatwiejszym sposobem skonfigurowania niestandardowej domeny lub subdomeny jest utworzenie konta [CloudFlare](https://cloudflare.com) i pozwolenie CloudFlare na zarządzanie DNS twojej domeny.
 
-Poniższe kroki opisują użycie CloudFlare do konfiguracji niestandardowej domeny dla Twojej strony Obsidian Publish, zarówno z użyciem domeny głównej (`mysite.com`), jak i subdomeny (`notes.mysite.com`).
+Poniższe kroki opisują użycie CloudFlare do konfiguracji niestandardowej domeny dla twojej strony Obsidian Publish, zarówno z użyciem domeny głównej (`mysite.com`), jak i subdomeny (`notes.mysite.com`).
 
 > [!important] Ważne
 > CloudFlare jest **jedynym oficjalnie obsługiwanym operatorem** do konfiguracji niestandardowych domen. Zastosowanie poniższych instrukcji z innymi operatorami prawdopodobnie nie zadziała.
@@ -28,7 +28,7 @@ Poniższe kroki opisują użycie CloudFlare do konfiguracji niestandardowej dome
 2. Przejdź do **DNS** i kliknij **Add Record**.
 3. Wybierz **CNAME**.
 4. W polu **name** wpisz swoją domenę lub subdomenę, na przykład `notes.mysite.com`.
-5. W polu **target** wpisz `publish-main.obsidian.md`. Nie dołączaj w tej wartości swojego osobistego sub-URL. Obsidian Publish obsługuje to na podstawie Twojej konfiguracji.
+5. W polu **target** wpisz `publish-main.obsidian.md`. Nie dołączaj w tej wartości swojego osobistego sub-URL. Obsidian Publish obsługuje to na podstawie twojej konfiguracji.
 6. Upewnij się, że **proxy status** jest włączony. Powinien być włączony domyślnie.
 7. Przejdź do **SSL/TLS** i ustaw tryb szyfrowania SSL/TLS na "Full", aby automatycznie skonfigurować certyfikat SSL/TLS.
 
@@ -44,10 +44,10 @@ Poniższe kroki opisują użycie CloudFlare do konfiguracji niestandardowej dome
 **Obsidian:**
 
 1. Otwórz Obsidian na swoim komputerze.
-2. Na [[Wstążka|wstążce]] po lewej stronie kliknij **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+2. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 3. W sekcji **Opublikuj zmiany** wybierz **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
-4. Obok **Niestandardowa domena** wybierz **Ustaw**.
-5. W polu **Niestandardowy URL** wpisz adres URL swojej domeny lub subdomeny. Upewnij się, że nie wpisujesz `www.` w polu niestandardowego URL.
+4. Obok **Własna domena** wybierz **Skonfiguruj**.
+5. W polu **Własny URL** wpisz adres URL swojej domeny lub subdomeny. Upewnij się, że nie wpisujesz `www.` w polu niestandardowego URL.
 
 > [!note] Uwaga
 > Jeśli konfiguracja niestandardowej domeny kończy się pętlą przekierowań, prawdopodobnie tryb szyfrowania w CloudFlare został ustawiony na "Flexible" zamiast "Full".
@@ -56,9 +56,9 @@ Poniższe kroki opisują użycie CloudFlare do konfiguracji niestandardowej dome
 
 Możesz również skonfigurować SSL/TLS dla swojej niestandardowej domeny, używając własnego serwera WWW.
 
-Jeśli już hostujesz stronę internetową pod swoją domeną lub subdomeną, możesz również użyć tej opcji i skonfigurować swoją stronę tak, aby ładowała stronę Obsidian Publish pod określoną ścieżką URL, zamiast hostować pełną stronę.
+Jeśli już hostujesz stronę internetową pod swoją domeną lub subdomeną, możesz również użyć tej opcji i skonfigurować swoją stronę tak, aby wczytywała stronę Obsidian Publish pod określoną ścieżką URL, zamiast hostować pełną stronę.
 
-Przekieruj (proxy) wszystkie żądania pod tą ścieżką URL do `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` i skonfiguruj opcje strony w Obsidian na tę samą ścieżkę URL, ustawiając **Niestandardowy URL** na `mysite.com/my-notes`.
+Przekieruj (proxy) wszystkie żądania pod tą ścieżką URL do `https://publish.obsidian.md/serve?url=mysite.com/my-notes/...` i skonfiguruj opcje strony w Obsidian na tę samą ścieżkę URL, ustawiając **Własny URL** na `mysite.com/my-notes`.
 
 Możesz również skonfigurować Obsidian Publish jako sub-URL strony, którą posiadasz. Na przykład `https://mysite.com/my-notes/`. Aby to osiągnąć, musisz hostować własny serwer i przekierować (proxy) wszystkie żądania do naszego serwera pod adresem `https://publish.obsidian.md/`.
 
@@ -175,12 +175,12 @@ http:
 
 ### Obsługiwane nagłówki HTTP X-Headers
 
-Jeśli Twoja usługa proxy nie pozwala na ścieżki zapytań, możesz użyć `https://publish.obsidian.md/` z niestandardowym nagłówkiem `x-obsidian-custom-domain` ustawionym na adres URL Twojej strony `mysite.com/my-subpath`.
+Jeśli twoja usługa proxy nie pozwala na ścieżki zapytań, możesz użyć `https://publish.obsidian.md/` z niestandardowym nagłówkiem `x-obsidian-custom-domain` ustawionym na adres URL twojej strony `mysite.com/my-subpath`.
 
 ## Przekierowanie starej strony na niestandardową domenę
 
-Jeśli chcesz przekierować odwiedzających ze starej strony `publish.obsidian.md` na nową niestandardową domenę, włącz opcję **Przekieruj do swojej domeny niestandardowej** podczas konfigurowania niestandardowej domeny.
+Jeśli chcesz przekierować odwiedzających ze starej strony `publish.obsidian.md` na nową niestandardową domenę, włącz opcję **Przekierowuj na własną domenę** podczas konfigurowania niestandardowej domeny.
 
 ## Rozwiązywanie problemów
 
-Po skonfigurowaniu niestandardowej domeny, jeśli wcześniej odwiedzałeś swoją stronę za pomocą linku `https://publish.obsidian.md/slug`, może być konieczne wyczyszczenie pamięci podręcznej przeglądarki, aby niektóre elementy (takie jak czcionki, grafy lub dostęp chroniony hasłem) działały poprawnie. Jest to spowodowane ograniczeniami bezpieczeństwa między domenami narzucanymi przez nowoczesne przeglądarki. Dobra wiadomość jest taka, że czytelnicy Twojej strony nie powinni nigdy napotkać tego problemu, jeśli pozwolisz odwiedzającym korzystać wyłącznie z Twojej niestandardowej domeny.
+Po skonfigurowaniu niestandardowej domeny, jeśli wcześniej odwiedzałeś swoją stronę za pomocą łącza `https://publish.obsidian.md/slug`, może być konieczne wyczyszczenie pamięci podręcznej przeglądarki, aby niektóre elementy (takie jak czcionki, grafy lub dostęp chroniony hasłem) działały poprawnie. Jest to spowodowane ograniczeniami bezpieczeństwa między domenami narzucanymi przez nowoczesne przeglądarki. Dobra wiadomość jest taka, że czytelnicy twojej strony nie powinni nigdy napotkać tego problemu, jeśli pozwolisz odwiedzającym korzystać wyłącznie z twojej niestandardowej domeny.

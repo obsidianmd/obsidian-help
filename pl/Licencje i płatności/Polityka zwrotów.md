@@ -21,16 +21,16 @@ Oferujemy pełny zwrot kosztów w ciągu 7 dni od zakupu, bez zadawania pytań, 
 
 1. Zaloguj się na [swoje konto Obsidian](https://obsidian.md/account/billing).
 2. W sekcji **Rozliczenia → Faktury i zwroty** wybierz **Podgląd**.
-3. Obok płatności, za które chcesz uzyskać zwrot, jeśli kwalifikujesz się do zwrotu, zobaczysz link **Uzyskaj zwrot**. Kliknij go.
+3. Obok płatności, za które chcesz uzyskać zwrot, jeśli kwalifikujesz się do zwrotu, zobaczysz łącze **Uzyskaj zwrot**. Kliknij go.
 4. Twoja usługa zostanie usunięta, a wszelkie automatyczne odnowienia również zostaną anulowane. Jeśli potwierdzasz chęć kontynuowania, kliknij **Złóż wniosek o zwrot**.
 
 ## Najczęściej zadawane pytania
 
 **Co się stanie, jeśli uzyskam zwrot za usługę?**
-Zwrot kosztów subskrypcji Obsidian Sync lub Obsidian Publish skutkuje usunięciem wszelkich zdalnych sejfów lub stron Publish, których nie można odzyskać nawet po ponownym wykupieniu subskrypcji. Jednak lokalne dane na Twoich urządzeniach pozostaną nienaruszone.
+Zwrot kosztów subskrypcji Obsidian Sync lub Obsidian Publish skutkuje usunięciem wszelkich zdalnych sejfów lub stron Publish, których nie można odzyskać nawet po ponownym wykupieniu subskrypcji. Jednak lokalne dane na twoich urządzeniach pozostaną nienaruszone.
 
 **Co się stanie, jeśli nie dokonam płatności i moja subskrypcja wygaśnie? Czy stracę dane ze zdalnego sejfu?**
-Nie, Twoje dane są w takich przypadkach przechowywane przez 30 dni. Jeśli nie odnowisz subskrypcji w tym okresie, dane Twojego zdalnego sejfu lub strony Publish zostaną usunięte. Twoje lokalne dane pozostaną nienaruszone.
+Nie, twoje dane są w takich przypadkach przechowywane przez 30 dni. Jeśli nie odnowisz subskrypcji w tym okresie, dane twojego zdalnego sejfu lub strony Publish zostaną usunięte. Twoje lokalne dane pozostaną nienaruszone.
 
 **Jeśli kwalifikuję się do zniżki, ale zapłaciłem za subskrypcję w ciągu ostatnich 7 dni, co powinienem zrobić?**
 Skontaktuj się z [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|pomocą Obsidian]], abyśmy mogli ocenić dostępne opcje.

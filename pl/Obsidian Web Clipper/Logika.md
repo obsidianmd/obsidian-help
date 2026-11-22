@@ -70,7 +70,7 @@ Każda strona operatora logicznego musi być kompletnym wyrażeniem. Na przykła
 
 ### Prawdziwość
 
-Gdy zmienna jest używana bez operatora porównania, jest oceniana pod kątem „prawdziwości":
+Gdy zmienna jest używana bez operatora porównania, jest oceniana pod kątem „prawdziwości”:
 
 - `false`, `null`, `undefined`, pusty ciąg `""` i `0` są uznawane za **fałszywe**.
 - Puste tablice `[]` są uznawane za **fałszywe**.
@@ -242,6 +242,6 @@ Instrukcje warunkowe i pętle można łączyć:
 Logika szablonu jest przetwarzana w następującej kolejności:
 
 1. **Logika szablonu** — `{% if %}`, `{% for %}`, `{% set %}` i `{{zmienne}}` są ewaluowane jako pierwsze
-2. **Zmienne zapytań** — [[Zmienne#Zmienne zapytań|Zmienne zapytań]] takie jak `{{"summarize this"|prompt}}` są wysyłane do Interpretera po zakończeniu ewaluacji logiki szablonu
+2. **Zmienne zapytań** — [[Zmienne#Zmienne promptów|Zmienne promptów]] takie jak `{{"summarize this"|prompt}}` są wysyłane do Interpretera po zakończeniu ewaluacji logiki szablonu
 
 Oznacza to, że można używać logiki szablonu do dynamicznego konstruowania zapytań, ale wyniki zapytań nie są dostępne do użycia w instrukcjach warunkowych lub pętlach.

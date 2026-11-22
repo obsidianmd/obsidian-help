@@ -26,7 +26,7 @@ Jeśli wolisz aktualizować Obsidian ręcznie, możesz wyłączyć aktualizacje 
 
 ## Aktualizacja instalatora
 
-Na komputerach stacjonarnych [informacje o wersji](https://obsidian.md/changelog/) Obsidian poinformują Cię, gdy konieczna będzie aktualizacja wersji instalatora Obsidian, aby wszystko działało poprawnie. Jest to wersja Electron, frameworka, na którym zbudowany jest Obsidian, i nie może być zaktualizowana przez proces automatycznej aktualizacji.
+Na komputerach stacjonarnych [informacje o wersji](https://obsidian.md/changelog/) Obsidian poinformują cię, gdy konieczna będzie aktualizacja wersji instalatora Obsidian, aby wszystko działało poprawnie. Jest to wersja Electron, frameworka, na którym zbudowany jest Obsidian, i nie może być zaktualizowana przez proces automatycznej aktualizacji.
 
 Wtyczka społeczności lub motyw mogą wymagać aktualizacji instalatora, aby uzyskać dostęp do nowszych funkcji niedostępnych w starszych wersjach Electron, i mogą poprosić o aktualizację wersji instalatora Obsidian, zanim sam Obsidian o to poprosi.
 

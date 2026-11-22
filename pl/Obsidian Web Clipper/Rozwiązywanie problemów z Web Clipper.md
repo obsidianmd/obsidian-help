@@ -37,7 +37,7 @@ Jeśli nie widzisz żadnej treści w Obsidian po kliknięciu **Zapisz w Obsidian
 
 Prawdopodobnie Obsidian nie ma dostępu do schowka. Dostęp do schowka jest niezbędny do przekazywania danych z przeglądarki do Obsidian. Twoja konfiguracja może wpływać na sposób izolacji aplikacji oraz uprawnienia do schowka.
 
-Jeśli używasz Wayland, upewnij się, że Obsidian ma uprawnienia do odczytu schowka, gdy aplikacja nie jest aktywna. To ustawienie może znajdować się w Twoim menedżerze okien kafelkowych, np. Hyprland lub Sway.
+Jeśli używasz Wayland, upewnij się, że Obsidian ma uprawnienia do odczytu schowka, gdy aplikacja nie jest aktywna. To ustawienie może znajdować się w twoim menedżerze okien kafelkowych, np. Hyprland lub Sway.
 
 Jeśli używasz Hyprland:
 
