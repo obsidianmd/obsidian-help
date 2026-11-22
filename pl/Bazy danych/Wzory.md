@@ -189,7 +189,7 @@ Połącz wiele czynników w wynik priorytetu:
 
 ### Łączenie pól tekstowych
 
-Stwórz pełne imię z imienia i nazwiska:
+Utwórz pełne imię z imienia i nazwiska:
 
 ```js
 first_name + " " + last_name

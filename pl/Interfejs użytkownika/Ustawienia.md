@@ -335,7 +335,7 @@ Wyświetla nagłówek na górze każdej karty.
 
 ### Pokaż pasek boczny
 
-Pokazuje pionowy pasek ikon z boku okna. W nowych sejfach pasek boczny jest ukryty. Dowiedz się więcej o [[Pasek boczny|pasku bocznym]].
+Pokazuje pasek boczny przy krawędzi okna. W nowych sejfach pasek boczny jest ukryty. Dowiedz się więcej o [[Pasek boczny|pasku bocznym]].
 
 ### Pasek boczny
 
