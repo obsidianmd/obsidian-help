@@ -27,9 +27,9 @@ Na swoją stronę Publish możesz przesyłać pliki o rozmiarze **do 50 MB**. ^p
 
 ## Pliki PDF
 
-Na urządzeniach mobilnych, tabletach i komputerach z małymi ekranami mogą wystąpić problemy, w których osadzony plik PDF nie zostanie załadowany lub zostanie wyświetlona tylko pierwsza strona. Jest to spowodowane ograniczeniami renderera PDF na urządzeniach mobilnych.
+Na urządzeniach mobilnych, tabletach i komputerach z małymi ekranami mogą wystąpić problemy, w których osadzony plik PDF nie zostanie wczytany lub zostanie wyświetlona tylko pierwsza strona. Jest to spowodowane ograniczeniami renderera PDF na urządzeniach mobilnych.
 
-W przypadku treści skierowanych do użytkowników mobilnych sugerujemy udostępnianie linków do plików PDF hostowanych zewnętrznie lub dołączanie łączy wewnętrznych umożliwiających użytkownikom pobranie pliku PDF bezpośrednio na urządzenie.
+W przypadku treści skierowanych do użytkowników mobilnych sugerujemy udostępnianie łączy do plików PDF hostowanych zewnętrznie lub dołączanie łączy wewnętrznych umożliwiających użytkownikom pobranie pliku PDF bezpośrednio na urządzenie.
 
 ## Wyszukiwanie
 

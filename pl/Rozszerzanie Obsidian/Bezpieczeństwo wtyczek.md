@@ -11,7 +11,7 @@ Aby wyłączyć tryb ograniczony:
 
 1. Otwórz **[[Ustawienia]]**.
 2. W menu bocznym wybierz **Wtyczki społeczności**.
-3. Wybierz **Włącz wtyczki stworzone przez społeczność**.
+3. Wybierz **Włącz wtyczki utworzone przez społeczność**.
 
 Aby włączyć tryb ograniczony:
 
@@ -25,7 +25,7 @@ Zainstalowane wtyczki pozostają w sejfie nawet po włączeniu trybu ograniczone
 
 Ze względu na ograniczenia techniczne Obsidian nie może w niezawodny sposób ograniczyć wtyczek do określonych uprawnień lub poziomów dostępu. Oznacza to, że wtyczki dziedziczą poziomy dostępu Obsidian. W związku z tym weź pod uwagę następujące przykłady tego, co mogą robić wtyczki społeczności:
 
-- Wtyczki społeczności mogą uzyskiwać dostęp do plików na Twoim komputerze.
+- Wtyczki społeczności mogą uzyskiwać dostęp do plików na twoim komputerze.
 - Wtyczki społeczności mogą łączyć się z internetem.
 - Wtyczki społeczności mogą instalować dodatkowe programy.
 
@@ -38,5 +38,5 @@ Wszystkie wtyczki społeczności muszą być zgodne z [Zasadami dla deweloperów
 
 Ręczne recenzje są nadal przeprowadzane dla popularnych, wyróżnionych i oznaczonych wtyczek.
 
-- Jeśli odkryjesz lukę bezpieczeństwa we wtyczce społeczności, sprawdź plik `security.md` lub `readme.md` autora wtyczki, aby dowiedzieć się, jak ją zgłosić. W przypadku krytycznych błędów zgłoś problem również do [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|pomocy technicznej Obsidian]].
-- Jeśli podejrzewasz, że wtyczka społeczności jest złośliwa, możesz ją oznaczyć bezpośrednio na stronie katalogu wtyczek, zgłosić to do [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|pomocy technicznej Obsidian]] lub wysłać prywatną wiadomość do naszych moderatorów.
+- Jeśli odkryjesz lukę bezpieczeństwa we wtyczce społeczności, sprawdź plik `security.md` lub `readme.md` autora wtyczki, aby dowiedzieć się, jak ją zgłosić. W przypadku krytycznych błędów zgłoś problem również do [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|pomocy technicznej Obsidian]].
+- Jeśli podejrzewasz, że wtyczka społeczności jest złośliwa, możesz ją oznaczyć bezpośrednio na stronie katalogu wtyczek, zgłosić to do [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|pomocy technicznej Obsidian]] lub wysłać prywatną wiadomość do naszych moderatorów.

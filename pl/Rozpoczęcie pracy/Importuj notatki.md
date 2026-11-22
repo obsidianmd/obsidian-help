@@ -3,7 +3,7 @@ permalink: import
 cssclasses:
   - list-cards
 ---
-Aplikacje pojawiają się i znikają, ale Twoje dane powinny przetrwać. Obsidian wykorzystuje nieproprietarne pliki Markdown w zwykłym tekście przechowywane lokalnie na Twoim urządzeniu. Masz pełną kontrolę nad swoimi danymi, co oznacza, że możesz korzystać z Obsidian offline i w razie potrzeby łatwo przejść na inną aplikację.
+Aplikacje pojawiają się i znikają, ale twoje dane powinny przetrwać. Obsidian wykorzystuje nieproprietarne pliki Markdown w zwykłym tekście przechowywane lokalnie na twoim urządzeniu. Masz pełną kontrolę nad swoimi danymi, co oznacza, że możesz korzystać z Obsidian offline i w razie potrzeby łatwo przejść na inną aplikację.
 
 ## Importuj z innych aplikacji i formatów plików
 

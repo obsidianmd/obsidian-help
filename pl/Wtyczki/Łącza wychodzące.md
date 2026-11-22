@@ -9,12 +9,12 @@ description: 'Linki wychodzące to podstawowa wtyczka, która pokazuje w skróci
 Karta Łącza wychodzące ![[obsidian-icon-links-going-out.svg#icon]] jest dostępna w prawym panelu bocznym i zawiera następujące sekcje:
 
 - **Łącza** wyświetla wszystkie łącza w aktywnej notatce. Kliknij łącze, aby otworzyć powiązaną notatkę.
-- **Niepowiązane wzmianki** wyświetla tekst w aktywnej notatce, który pasuje do nazwy lub [[Aliasy|aliasu]] innej notatki w twoim sejfie. Niepowiązane wzmianki pomagają odkrywać łącza, o których jeszcze nie wiesz.
+- **Wzmianki bez łącza** wyświetla tekst w aktywnej notatce, który pasuje do nazwy lub [[Aliasy|aliasu]] innej notatki w twoim sejfie. Niepowiązane wzmianki pomagają odkrywać łącza, o których jeszcze nie wiesz.
 
-> [!info] Pominięte pliki
-> Pliki pasujące do wzorców [[Ustawienia#Pominięte pliki|Pominięte pliki]] nie będą wyświetlane w Niepowiązanych wzmiankach.
+> [!info] Wykluczone pliki
+> Pliki pasujące do wzorców [[Ustawienia#Wykluczone pliki|Wykluczone pliki]] nie będą wyświetlane w Niepowiązanych wzmiankach.
 
-Aby stworzyć łącze z niepowiązanej wzmianki, kliknij przycisk z nazwą notatki.
+Aby utworzyć łącze z niepowiązanej wzmianki, kliknij przycisk z nazwą notatki.
 
 > [!tip] Wskazówka
 > Niepowiązane wzmianki mogą odnosić się do różnych notatek o tej samej nazwie. Aby wyświetlić pełną ścieżkę notatki, najedź kursorem na przycisk z nazwą notatki.

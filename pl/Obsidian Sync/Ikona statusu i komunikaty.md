@@ -10,7 +10,7 @@ Obsidian Sync dostarcza kilka elementów wskazujących status synchronizacji, g�
 
 Ikona statusu synchronizacji znajduje się na [[Pasek stanu|pasku stanu]] w wersji desktopowej oraz na [[Panel boczny#Otwieranie ukrytych paneli bocznych|prawym panelu bocznym]] na urządzeniach mobilnych i tabletach. Ikona odzwierciedla różne stany synchronizacji:
 
-- ![[obsidian-icon-sync-synced.svg#icon]] **Zsynchronizowane**: Obsidian Sync w pełni zsynchronizował Twoje pliki. Ta ikona jest zazwyczaj zielona.
+- ![[obsidian-icon-sync-synced.svg#icon]] **Zsynchronizowane**: Obsidian Sync w pełni zsynchronizował twoje pliki. Ta ikona jest zazwyczaj zielona.
 - ![[obsidian-icon-sync-syncing.svg#icon]] **Synchronizowanie**: Obsidian aktualnie aktualizuje zdalny sejf. Ta ikona jest zazwyczaj fioletowa.
 - ![[obsidian-icon-sync-paused.svg#icon]] **Wstrzymano**: Synchronizacja została wstrzymana, ale Obsidian nadal jest połączony ze zdalnym sejfem. Ikona jest zazwyczaj fioletowa.
 - ![[obsidian-icon-sync-disconnected.svg#icon]] **Rozłączono**: Wtyczka podstawowa Sync jest aktywna, ale [[Sejfy lokalne i zdalne|sejf lokalny]] nie jest połączony ze zdalnym sejfem. Ta ikona jest zazwyczaj czerwona.
@@ -24,11 +24,11 @@ Kliknięcie lub dotknięcie ikony otwiera menu kontekstowe z następującymi opc
 
 ## Dziennik aktywności synchronizacji
 
-Obsidian Sync zawiera szczegółowy dziennik synchronizacji, który śledzi wszystkie interakcje między Twoimi lokalnymi plikami a zdalnym sejfem. Dziennik pokazuje przesyłanie, pobieranie, usuwanie oraz wszelkie problemy, takie jak konflikty scalania czy problemy z łącznością.
+Obsidian Sync zawiera szczegółowy dziennik synchronizacji, który śledzi wszystkie interakcje między twoimi lokalnymi plikami a zdalnym sejfem. Dziennik pokazuje przesyłanie, pobieranie, usuwanie oraz wszelkie problemy, takie jak konflikty scalania czy problemy z łącznością.
 
 **Dostęp do dziennika aktywności:**
 - Kliknij ikonę statusu synchronizacji na pasku stanu
-- Przejdź do **[[Ustawienia]] → Sync → Dziennik aktywności**
+- Przejdź do **[[Ustawienia]] → Synchronizacja → Dziennik aktywności**
 - Użyj **Paleta poleceń → Sync: Otwórz dziennik aktywności**
 
 Dziennik zawiera znaczniki czasu i szczegóły każdej operacji synchronizacji, co jest przydatne przy rozwiązywaniu problemów z synchronizacją.
@@ -42,21 +42,21 @@ Dziennik kategoryzuje wiadomości na następujące typy:
 - [[#Wiadomości o pominięciach]]
 - [[#Wiadomości dotyczące konta]]
 
-Możesz filtrować dziennik synchronizacji według **Wszystkie**, **Błędy**, **Pominięto** i **Scal konflikty**. Dodatkowo możesz przeszukiwać dziennik synchronizacji za pomocą pola wyszukiwania w oknie Sync.
+Możesz filtrować dziennik synchronizacji według **Wszystkie**, **Błędy**, **Pominięte** i **Scal konflikty**. Dodatkowo możesz przeszukiwać dziennik synchronizacji za pomocą pola wyszukiwania w oknie Sync.
 
-> [!summary] Poniżej zamieściliśmy niektóre z wiadomości, które prawdopodobnie napotkałeś. Lista nie jest wyczerpująca. Jeśli doświadczasz problemu i masz wiadomość z dziennika synchronizacji, co do której nie masz pewności, [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|skontaktuj się z pomocą techniczną Obsidian]].
+> [!summary] Poniżej zamieściliśmy niektóre z wiadomości, które prawdopodobnie napotkałeś. Lista nie jest wyczerpująca. Jeśli doświadczasz problemu i masz wiadomość z dziennika synchronizacji, co do której nie masz pewności, [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|skontaktuj się z pomocą techniczną Obsidian]].
 
 ### Wiadomości ogólne
 
 To typowe codzienne wiadomości, które możesz napotkać.
 
 **Connecting to server**  
-Obsidian próbuje połączyć się z [[Obsidian Sync/Bezpieczeństwo i prywatność#Gdzie mogę znaleźć mój obecny serwer Sync i gdzie jest hostowany?|serwerem Sync]] Twojego zdalnego sejfu.
+Obsidian próbuje połączyć się z [[Obsidian Sync/Bezpieczeństwo i prywatność#Gdzie mogę znaleźć mój obecny serwer Sync i gdzie jest hostowany?|serwerem Sync]] twojego zdalnego sejfu.
 
 **Connected to server. Detecting changes...**  
 Obsidian nawiązał połączenie i porównuje sejf lokalny ze zdalnym sejfem, aby określić, czy potrzebne są zmiany.
 
-> [!info] Ta wiadomość może również wskazywać na inne potencjalne problemy z Sync. Jeśli widzisz ją wielokrotnie i uważasz, że nadal są elementy do synchronizacji, [[Pomoc i wsparcie#Kontakt z pomocą techniczną Obsidian|skontaktuj się z pomocą techniczną Obsidian]].
+> [!info] Ta wiadomość może również wskazywać na inne potencjalne problemy z Sync. Jeśli widzisz ją wielokrotnie i uważasz, że nadal są elementy do synchronizacji, [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|skontaktuj się z pomocą techniczną Obsidian]].
 
 **Fully synced**  
 - Sejf lokalny i zdalny są w pełni zsynchronizowane.
@@ -65,7 +65,7 @@ Obsidian nawiązał połączenie i porównuje sejf lokalny ze zdalnym sejfem, ab
 Wykryto konflikt podczas synchronizacji, a plik został scalony zamiast nadpisany. Zobacz [[Rozwiązywanie problemów z Obsidian Sync#Rozwiązywanie konfliktów|rozwiązywanie konfliktów]], aby uzyskać więcej informacji. Jeśli scalenie jest niepożądane, możesz przywrócić poprzednie wersje przez [[Historia wersji]] lub [[Odzyskiwanie plików]].
 
 **Rejected server change**  
-Zmiany na zdalnym sejfie są starsze niż wersja na Twoim urządzeniu lokalnym, więc wersja lokalna jest zachowywana, a zdalna zmiana jest ignorowana.
+Zmiany na zdalnym sejfie są starsze niż wersja na twoim urządzeniu lokalnym, więc wersja lokalna jest zachowywana, a zdalna zmiana jest ignorowana.
 
 ### Komunikaty o błędach
 
@@ -97,10 +97,10 @@ W razie wątpliwości używaj liter, cyfr, zwykłych spacji wewnątrz nazwy, my�
 To wiadomości związane ze zmianą subskrypcji lub konta.
 
 **Vault limit exceeded**  
-Twoje konto przekroczyło [[Najczęściej zadawane pytania#Jak duży może być każdy zdalny sejf|maksymalny rozmiar przechowywania]]. Załączniki i historia wersji przyczyniają się do tego rozmiaru. Nawet jeśli Twój sejf wydaje się mniejszy niż limit, starsze wersje i pliki mogą go przekroczyć.
+Twoje konto przekroczyło [[Najczęściej zadawane pytania#Jak duży może być każdy zdalny sejf?|maksymalny rozmiar przechowywania]]. Załączniki i historia wersji przyczyniają się do tego rozmiaru. Nawet jeśli twój sejf wydaje się mniejszy niż limit, starsze wersje i pliki mogą go przekroczyć.
 
 Aby zmniejszyć rozmiar sejfu:
-1. Otwórz **[[Ustawienia]] → Sync**.
+1. Otwórz **[[Ustawienia]] → Synchronizacja**.
 2. Użyj opcji w sekcji **Rozmiar sejfu przekracza limit**, aby usunąć duże pliki.
 
 **Vault not found**  
@@ -112,7 +112,7 @@ Ten błąd może wystąpić w następujących przypadkach:
 2. Subskrypcja synchronizacji była nieaktywna przez ponad 30 dni, co spowodowało usunięcie zdalnego sejfu.
 3. Subskrypcja została anulowana lub zwrócona, co spowodowało usunięcie zdalnego sejfu.
 
-W takich przypadkach musisz [[Konfiguracja Obsidian Sync#Rozłączanie ze zdalnym sejfem|rozłączyć się ze zdalnym sejfem]] i [[Konfiguracja Obsidian Sync#Tworzenie nowego zdalnego sejfu|utworzyć nowy zdalny sejf]], upewniając się, że Twoje lokalne dane są zachowane.
+W takich przypadkach musisz [[Konfiguracja Obsidian Sync#Rozłącz ze zdalnym sejfem|rozłączyć się ze zdalnym sejfem]] i [[Konfiguracja Obsidian Sync#Utwórz nowy zdalny sejf|utworzyć nowy zdalny sejf]], upewniając się, że twoje lokalne dane są zachowane.
 
 **Failed to authenticate: Your subscription to Obsidian Sync has expired**  
 Twoje konto jest teraz w pełni wygasłe, ponieważ nie udało nam się przetworzyć płatności z zapisanej metody płatności.
@@ -123,7 +123,7 @@ Aby kontynuować korzystanie z Obsidian Sync, musisz ponownie subskrybować na [
 
 Obsidian Sync wykrył, że nie jesteś obecnie zalogowany. Musisz zalogować się ponownie w aplikacji w sekcji [[Ustawienia#Ogólne#Konto|Konto]] w **[[Ustawienia|Ustawieniach]]**.
 
-W niektórych przypadkach wtyczka społeczności może również uniemożliwić Obsidian Sync potwierdzenie statusu logowania Twojego konta. Przejdź do **[[Bezpieczeństwo wtyczek#Tryb ograniczony|trybu ograniczonego]]** i spróbuj ponownie.
+W niektórych przypadkach wtyczka społeczności może również uniemożliwić Obsidian Sync potwierdzenie statusu logowania twojego konta. Przejdź do **[[Bezpieczeństwo wtyczek#Tryb ograniczony|trybu ograniczonego]]** i spróbuj ponownie.
 
 ### Wiadomości sieciowe
 

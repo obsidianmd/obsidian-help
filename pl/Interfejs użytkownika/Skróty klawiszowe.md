@@ -37,7 +37,7 @@ Aby wyświetlić tylko polecenia z przypisanymi skrótami klawiszowymi, wybierz 
 
 ## Układy klawiatury inne niż US
 
-Skróty klawiszowe są wyświetlane tak, jak wyglądałyby na amerykańskim układzie klawiatury. Nawet jeśli wyświetlana kombinacja nie odpowiada Twojemu układowi klawiatury, skrót będzie działać na podstawie faktycznie naciśniętych klawiszy (o ile nie zmienisz układu klawiatury).
+Skróty klawiszowe są wyświetlane tak, jak wyglądałyby na amerykańskim układzie klawiatury. Nawet jeśli wyświetlana kombinacja nie odpowiada twojemu układowi klawiatury, skrót będzie działać na podstawie faktycznie naciśniętych klawiszy (o ile nie zmienisz układu klawiatury).
 
 ## Domyślne skróty klawiszowe
 

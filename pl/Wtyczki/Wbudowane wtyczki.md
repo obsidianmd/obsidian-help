@@ -14,7 +14,7 @@ Niektóre wbudowane wtyczki są domyślnie wyłączone. Możesz je włączyć w 
 Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wtyczek społeczności o otwartym kodzie źródłowym]].
 
 > [!tip] Wtyczki społeczności
-> Jeśli nie możesz znaleźć szukanej wtyczki, sprawdź [[Wtyczki społeczności|wtyczki stworzone przez społeczność]]. Możesz także [stworzyć własną wtyczkę](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
+> Jeśli nie możesz znaleźć szukanej wtyczki, sprawdź [[Wtyczki społeczności|wtyczki utworzone przez społeczność]]. Możesz także [utworzyć własną wtyczkę](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin).
 
 ### Wszystkie wbudowane wtyczki
 
@@ -35,15 +35,15 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 - [[Liczba słów]]
 	- Wyświetlaj liczbę słów i znaków.
 - [[Linki zwrotne]]
-	- Przeglądaj wszystkie linki i niepowiązane wzmianki notatki.
+	- Przeglądaj wszystkie łącza i niepowiązane wzmianki notatki.
 - [[Paleta poleceń]]
 	- Szybki dostęp do poleceń z poziomu klawiatury.
 - [[Losowa notatka]]
-	- Otwiera losową notatkę w Twoim sejfie.
+	- Otwiera losową notatkę w twoim sejfie.
 - [[Obszary robocze]]
 	- Zapisuj układy i przełączaj się między nimi.
 - [[Odzyskiwanie plików]]
-	- Odzyskuj swoją pracę z regularnych migawek.
+	- Odzyskuj swoją pracę z regularnych kopii zapasowych.
 - [[Okno szybkiego wyboru]]
 	- Wyszukuj, twórz i otwieraj notatki z poziomu klawiatury.
 - [[Panel atrybutów]]
@@ -55,7 +55,7 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 - [[Podgląd grafu]]
 	- Wizualizuj relacje między notatkami w swoim sejfie.
 - [[Podgląd notatki]]
-	- Wyświetlaj podgląd zawartości notatki po najechaniu na linki.
+	- Wyświetlaj podgląd zawartości notatki po najechaniu na łącza.
 - [[Przeglądarka internetowa]]
 	- Otwieraj łącza zewnętrzne w Obsidian.
 - [[Wprowadzenie do Obsidian Publish|Publish]]
@@ -73,9 +73,9 @@ Zespół Obsidian zajmuje się również rozwojem niektórych [[#Inne wtyczki|wt
 - [[Polecenia po ukośniku]]
 	- Wykonuj polecenia w edytorze za pomocą klawisza `/`.
 - [[Ulubione]]
-	- Zapisuj linki do notatek, nagłówków, wyszukiwań i nie tylko.
+	- Zapisuj łącza do notatek, nagłówków, wyszukiwań i nie tylko.
 - [[Łącza wychodzące]]
-	- Wyświetlaj wszystkie linki dla aktywnej notatki.
+	- Wyświetlaj wszystkie łącza dla aktywnej notatki.
 
 ### Inne wtyczki
 

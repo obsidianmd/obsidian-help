@@ -3,8 +3,7 @@ permalink: import/apple-journal
 cssclasses:
   - soft-embed
 ---
-Obsidian umożliwia łatwe przeniesienie wpisów z dziennika Apple Journal za pomocą [[Importer|wtyczki Importer]].
-Spowoduje to konwersję Twoich wpisów do trwałych plików Markdown, które możesz używać z Obsidian i wieloma innymi aplikacjami.
+Obsidian umożliwia łatwe przeniesienie wpisów z dziennika Apple Journal za pomocą [[Importer|wtyczki Importer]]. Konwertuje ona wpisy do trwałych plików Markdown, których możesz używać z Obsidian i wieloma innymi aplikacjami.
 
 ## Eksportowanie danych z Apple Journal
 
@@ -30,17 +29,19 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format pliku** wybierz **Apple Journal (HTML Export)**.
 6. W polu **Pliki do importu** wybierz folder z wyeksportowanymi danymi, zazwyczaj _AppleJournalEntries_, lub poszczególne pliki z _Entries_.
 7. Przejrzyj i edytuj pozostałe opcje importu.
-8. Wybierz Importuj i poczekaj, aż import się zakończy.
-9. Gotowe!
+8. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich wpisów.
+9. Wybierz **Importuj** ponownie i poczekaj, aż import się zakończy.
 
+## Szablony
 
-## Obsługiwana zawartość
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Apple Journal.
 
-Wtyczka może importować metadane Dziennika jako metadane początkowe, takie jak _stan umysłu_, _kontakty_, _lokalizacja_ i _trasa ćwiczeń_.
+![[Szablony importera#Zmienne]]
 
-> [!note] Uwaga
-> Wtyczka nie importuje zasobów. Załączniki takie jak zdjęcia, filmy i nagrania dźwiękowe są pomijane.
+Gdy opcja **Add metadata as frontmatter** jest włączona, metadane Apple Journal są zamieniane na [[Atrybuty|atrybuty]]. W zależności od wpisu mogą to być `state-of-mind`, `contact`, `location`, `motion-activity`, `third-party-media` i `workout-route`.
+
+Aby odczytać te metadane, użyj zmiennej `properties`. Na przykład użyj `{{properties.location}}` dla lokalizacji lub `{{properties["state-of-mind"]}}` dla stanu umysłu.

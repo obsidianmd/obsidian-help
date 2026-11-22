@@ -32,9 +32,9 @@ Jeśli włączyłeś 2FA zanim kody odzyskiwania były dostępne, lub jeśli chc
 - Zaloguj się na [swoje konto Obsidian](https://obsidian.md/account/profile) z poziomu przeglądarki internetowej.
 - Obok pozycji Uwierzytelnianie dwuskładnikowe wybierz **Odśwież kody odzyskiwania**.
 - W wyskakującym okienku wprowadź swoje **hasło** i **6-cyfrowy kod uwierzytelniający**.
-- W oknie potwierdzenia zostaną wyświetlone Twoje kody odzyskiwania. Masz dwie opcje:
+- W oknie potwierdzenia zostaną wyświetlone twoje kody odzyskiwania. Masz dwie opcje:
     - **Kopiuj kody odzyskiwania**: Skopiuj kody, aby wkleić je w innym miejscu.
-    - **Pobierz kody odzyskiwania**: Pobierz plik `obsidian-recovery-codes.txt` zawierający Twoje kody.
+    - **Pobierz kody odzyskiwania**: Pobierz plik `obsidian-recovery-codes.txt` zawierający twoje kody.
 - Wybierz **Rozumiem**, aby zamknąć wyskakujące okienko.
 
 Każdego kodu odzyskiwania możesz użyć **tylko raz** zamiast **6-cyfrowego kodu uwierzytelniającego**. Możesz również odświeżyć swoje kody odzyskiwania w dowolnym momencie.
@@ -53,7 +53,7 @@ Ustawienie **Uwierzytelnianie dwuskładnikowe** ponownie wyświetli przycisk **W
 ## FAQ
 
 **Włączyłem 2FA. Czy zostanę wylogowany z moich obecnych urządzeń z Obsidian?**
-Nie. Włączenie 2FA nie wylogowuje Cię ze wszystkich urządzeń dla Twojej wygody. Jeśli potrzebujesz, możesz to zrobić ręcznie ze strony swojego konta, a następnie zalogować się ponownie na każdym ze swoich urządzeń.
+Nie. Włączenie 2FA nie wylogowuje cię ze wszystkich urządzeń dla twojej wygody. Jeśli potrzebujesz, możesz to zrobić ręcznie ze strony swojego konta, a następnie zalogować się ponownie na każdym ze swoich urządzeń.
 
 **Włączyłem, a potem wyłączyłem 2FA. Chciałbym skonfigurować je ponownie. Czy mogę użyć oryginalnego kodu QR lub klucza konfiguracyjnego?**
 Nie. Przy każdej nowej konfiguracji 2FA otrzymasz nowy **kod QR** i nowy **klucz konfiguracyjny**.

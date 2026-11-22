@@ -3,11 +3,11 @@ permalink: edit-and-read
 ---
 Obsidian pozwala kontrolować sposób czytania i edytowania notatek napisanych w Markdown za pomocą _podglądów_ i _trybów_.
 
-- **Podglądy** przełączają między czytaniem a edycją notatek.
+- **Widoki** przełączają między czytaniem a edycją notatek.
 - **Tryby** kontrolują sposób wyświetlania Markdown podczas edycji.
 
 > [!note] Uwaga
-> Domyślnie Obsidian otwiera nowe karty w trybie edycji. Możesz to zmienić w **[[Ustawienia]] → Edytor → Domyślny tryb podglądu nowych kart**.
+> Domyślnie Obsidian otwiera nowe karty w trybie edycji. Możesz to zmienić w **[[Ustawienia]] → Edytor → Domyślny tryb nowych kart**.
 
 ## Widok czytania
 
@@ -20,9 +20,9 @@ Aby przełączyć na *widok czytania*:
 - Lub naciśnij `Ctrl+E` (`Cmd+E` na macOS).
 
 > [!note] Uwaga
-> Włącz **[[Ustawienia]] → Interfejs → Pokaż pasek tytułu**, aby zobaczyć ikonę przełącznika podglądu.
+> Włącz **[[Ustawienia]] → Interfejs → Pokaż pasek tytułu karty**, aby zobaczyć ikonę przełącznika podglądu.
 > 
-> Jeśli ta opcja jest wyłączona, włącz **[[Ustawienia]] → Edytor → Pokaż tryb na pasku stanu**, aby przełączać podglądy z paska stanu.
+> Jeśli ta opcja jest wyłączona, włącz **[[Ustawienia]] → Edytor → Pokaż tryb edycji na pasku stanu**, aby przełączać podglądy z paska stanu.
 
 > [!tip] Podgląd obok siebie
 > Aby otworzyć notatkę jednocześnie w *trybie edycji* i *widoku czytania*, przytrzymaj `Ctrl` (lub `Cmd` na macOS) i kliknij przełącznik podglądu.
@@ -35,7 +35,7 @@ W *trybie edycji* *tryb edycji* określa sposób wyświetlania Markdown. Możesz
 
 ### Podgląd na żywo
 
-*Podgląd na żywo* wyświetla sformatowany tekst w linii, ukrywając większość składni Markdown. Gdy kursor znajdzie się w sformatowanej treści, ukryta składnia staje się widoczna do edycji.
+*Podgląd na żywo* wyświetla formatowanie bezpośrednio w tekście, ukrywając większość składni Markdown. Gdy kursor znajdzie się w sformatowanej treści, ukryta składnia staje się widoczna do edycji.
 
 Aby przełączyć na *podgląd na żywo*:
 

@@ -9,8 +9,8 @@ Aby przełączyć tag w wyszukiwanym wyrażeniu, kliknij tag, przytrzymując `Ct
 
 Wtyczka udostępnia następujące opcje:
 
-- **Sortowanie** określa, czy tagi mają być sortowane według **Nazwy tagu** czy **Częstotliwości**.
-- **Pokaż hierarchię tagów** przełącza między wyświetlaniem zagnieżdżonych tagów jako drzewa lub jako płaskiej listy.
+- **Zmień sortowanie** określa, czy tagi mają być sortowane według **Nazwy tagu** czy **Częstotliwości**.
+- **Pokaż zagnieżdżone tagi** przełącza między wyświetlaniem zagnieżdżonych tagów jako drzewa lub jako płaskiej listy.
 - **Rozwiń wszystkie** i **Zwiń wszystkie** rozwija i zwija hierarchię zagnieżdżonych tagów.
 
 Możesz rozwijać lub zwijać każdy zagnieżdżony poziom osobno, klikając strzałkę obok niego.

@@ -16,7 +16,7 @@ Aby przełączyć wszystkie sekcje jednocześnie, użyj następujących poleceń
 - Aby rozwinąć wszystkie sekcje, otwórz [[Paleta poleceń|paletę poleceń]], a następnie wybierz **Rozwiń wszystkie nagłówki i listy**.
 
 > [!tip] Wskazówka
-> Jeśli wolisz zwijać za pomocą klawiatury, możesz przypisać [[Skróty klawiszowe|skróty klawiszowe]] do poleceń **Rozwiń sekcję** i **Zwiń sekcję**.
+> Jeśli wolisz zwijać za pomocą klawiatury, możesz przypisać [[Skróty klawiszowe|skróty klawiszowe]] do poleceń **Rozwiń o jeden poziom** i **Zwiń o jeden poziom**.
 >
-> - **Rozwiń sekcję** rozwija sekcję w miejscu kursora tekstowego.
-> - **Zwiń sekcję** zwija sekcję lub listę zawierającą kursor tekstowy.
+> - **Rozwiń o jeden poziom** rozwija sekcję w miejscu kursora tekstowego.
+> - **Zwiń o jeden poziom** zwija sekcję lub listę zawierającą kursor tekstowy.

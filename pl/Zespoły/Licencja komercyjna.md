@@ -19,15 +19,15 @@ Obsidian oferuje dwie metody [zakupu](https://obsidian.md/pricing) licencji kome
 4. Dokończ proces płatności.
 5. Twój klucz licencyjny zostanie wyświetlony i będzie można go aktywować, wykonując poniższe kroki.
 
-Jeśli potrzebujesz faktury za tę transakcję, możesz [[Wprowadzenie do licencji i płatności#Wygeneruj fakturę|wygenerować fakturę]].
+Jeśli potrzebujesz faktury za tę transakcję, możesz [[Wprowadzenie do licencji i płatności#Generowanie faktury|wygenerować fakturę]].
 
 **Zakup za pomocą zamówienia zakupu**
 
-W przypadku zakupów za pomocą zamówienia zakupu (PO) skontaktuj się z [[Pomoc i wsparcie#Kontakt z pomocą Obsidian|pomocą Obsidian]].
+W przypadku zakupów za pomocą zamówienia zakupu (PO) skontaktuj się z [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|pomocą Obsidian]].
 
 Twoje zamówienie zakupu musi zawierać:
 
-- Nazwę prawną Twojej firmy (nazwa na fakturze)
+- Nazwę prawną twojej firmy (nazwa na fakturze)
 - Adres rozliczeniowy
 - Numer VAT (opcjonalne)
 - Warunki płatności (domyślnie 30 dni netto)
@@ -49,7 +49,7 @@ Aby opcjonalnie zastosować licencję komercyjną w instalacji Obsidian, wykonaj
 
 ## Organizacje wspierające
 
-Jeśli Twoja organizacja zakupiła co najmniej 25 licencji komercyjnych, możesz poprosić o wyróżnienie jako [organizacja wspierająca](https://obsidian.md/enterprise/). Jeśli chcesz, aby Twoja organizacja została dodana lub usunięta ze strony, [[Pomoc i wsparcie#Kontakt z pomocą Obsidian|skontaktuj się z pomocą Obsidian]].
+Jeśli twoja organizacja zakupiła co najmniej 25 licencji komercyjnych, możesz poprosić o wyróżnienie jako [organizacja wspierająca](https://obsidian.md/enterprise/). Jeśli chcesz, aby twoja organizacja została dodana lub usunięta ze strony, [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|skontaktuj się z pomocą Obsidian]].
 
 Twoje logo powinno być dostarczone jako plik SVG, wypełniający kwadrat o wymiarach 32 na 32 piksele, używający wyłącznie koloru białego, bez koloru tła.
 

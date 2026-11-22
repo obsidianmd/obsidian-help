@@ -23,17 +23,17 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Importer]], którą możesz [zainstal
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format pliku** wybierz **Evernote (.enex)**.
 6. Wskaż lokalizację pliku kopii zapasowej Evernote.
-7. Kliknij **Importuj** i poczekaj na zakończenie importu.
-8. Gotowe!
+7. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich notatek.
+8. Wybierz **Importuj** ponownie i poczekaj, aż import się zakończy.
 
 ## Zaawansowane opcje importu
 
 ### Zachowanie hierarchii tagów
 
-Eksport z Evernote nie zachowuje hierarchii tagów. Aby zachować hierarchię tagów, możesz „spłaszczyć" tagi, rozdzielając je znakiem „/". Na przykład, zakładając, że masz następującą strukturę tagów:
+Eksport z Evernote nie zachowuje hierarchii tagów. Aby zachować hierarchię tagów, możesz „spłaszczyć” tagi, rozdzielając je znakiem „/”. Na przykład, zakładając, że masz następującą strukturę tagów:
 
 ```
 ParentTag
@@ -43,7 +43,7 @@ ParentTag
 Aby zachować powiązanie tagów w Obsidian, musisz:
 
 1. Kliknąć prawym przyciskiem myszy na ChildTag.
-2. Wybrać „Zmień nazwę".
+2. Wybrać „Zmień nazwę”.
 3. Zmienić nazwę na `ParentTag/ChildTag`.
 
 ### Obsługa stosów notatników
@@ -54,6 +54,8 @@ Zakładając, że masz notatnik o nazwie ```NotebookA``` w stosie o nazwie ```St
 
 W rezultacie skonwertowane notatki zostaną wygenerowane w folderze Stack1/NotebookA.
 
-### Więcej opcji
+## Szablony
 
-Jeśli potrzebujesz bardziej zaawansowanych opcji importu z Evernote, możesz również spróbować [importowania przez Yarle](https://github.com/akosbalasko/yarle).
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Evernote.
+
+![[Szablony importera#Zmienne]]

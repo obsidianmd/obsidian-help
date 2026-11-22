@@ -6,7 +6,7 @@ publish: true
 mobile: false
 description: 'Atrybuty pozwalają organizować informacje dotyczące notatki. Atrybuty zawierają dane strukturalne, takie jak tekst, linki, daty, pola wyboru i liczby.'
 ---
-Atrybuty pozwalają organizować informacje o notatce. Atrybuty zawierają ustrukturyzowane dane, takie jak tekst, linki, daty, pola wyboru i liczby. Atrybuty mogą być również używane w połączeniu z [[Wtyczki społeczności|wtyczkami społeczności]], które potrafią wykonywać przydatne operacje na ustrukturyzowanych danych.
+Atrybuty pozwalają organizować informacje o notatce. Atrybuty zawierają ustrukturyzowane dane, takie jak tekst, łącza, daty, pola wyboru i liczby. Atrybuty mogą być również używane w połączeniu z [[Wtyczki społeczności|wtyczkami społeczności]], które potrafią wykonywać przydatne operacje na ustrukturyzowanych danych.
 
 ## Dodawanie atrybutów do notatki
 
@@ -57,11 +57,11 @@ Możesz zmienić nazwę atrybutu, klikając go prawym przyciskiem myszy w [[Pane
 
 ### Tryby wyświetlania
 
-Możesz zmienić sposób wyświetlania atrybutów w notatce, przechodząc do **[[Ustawienia]] → Edytor → Atrybuty pliku**. Dostępne opcje to:
+Możesz zmienić sposób wyświetlania atrybutów w notatce, przechodząc do **[[Ustawienia]] → Edytor → Atrybuty w notatce**. Dostępne opcje to:
 
 - **Widoczne** (domyślnie) – wyświetla atrybuty na górze notatki, jeśli istnieją.
 - **Ukryte** – ukrywa atrybuty, które nadal można wyświetlić na panelu bocznym za pomocą [[Panel atrybutów]].
-- **Kod** – wyświetla atrybuty w formacie zwykłego tekstu YAML.
+- **Źródło** – wyświetla atrybuty w formacie zwykłego tekstu YAML.
 
 ### Snippety CSS
 
@@ -142,7 +142,7 @@ Wartości mogą być [[#Tekst|tekstem]], [[#Liczba|liczbami]], [[#Pole wyboru|po
 
 ### Tekst
 
-Atrybuty tekstowe zawierają pojedynczą linię tekstu. Formatowanie Markdown nie jest renderowane w atrybutach tekstowych. Hashtagi nie tworzą tagów, gdy są używane w atrybutach tekstowych.
+Atrybuty tekstowe zawierają pojedynczy wiersz tekstu. Formatowanie Markdown nie jest renderowane w atrybutach tekstowych. Hashtagi nie tworzą tagów, gdy są używane w atrybutach tekstowych.
 
 Atrybuty tekstowe mogą zawierać adresy URL i [[Łącza wewnętrzne]] przy użyciu składni `[[Link]]`. [[Łącza wewnętrzne]] w atrybutach tekstowych muszą być otoczone cudzysłowami. Obsidian automatycznie je doda, jeśli ręcznie wpiszesz łącza wewnętrzne do atrybutów, ale uważaj, aby je dodawać podczas korzystania z wtyczek szablonów.
 
@@ -156,7 +156,7 @@ url: https://www.example.com
 
 ### Lista
 
-Atrybuty listowe zawierają wiele wartości. Każda wartość na liście pojawia się w osobnej linii, poprzedzona myślnikiem (-) i spacją.
+Atrybuty listowe zawierają wiele wartości. Każda wartość na liście pojawia się w osobnym wierszu, poprzedzona myślnikiem (-) i spacją.
 
 Wartości listy mogą zawierać tekst, liczby i [[Łącza wewnętrzne]]. Gdy używasz [[Łącza wewnętrzne|łączy wewnętrznych]] w atrybutach listowych, otocz je cudzysłowami.
 
@@ -234,9 +234,9 @@ Podobnie jak [[#Data|atrybuty daty]], selektor daty i godziny korzysta z domyśl
 
 ### Tagi
 
-Atrybuty tagów to specjalny rodzaj atrybutu używany wyłącznie przez właściwość `tags`. Tego rodzaju atrybutu nie można przypisać do innych właściwości.
+Atrybuty typu Tagi to specjalny typ atrybutu używany wyłącznie przez atrybut `tags`. Tego typu nie można przypisać do innych atrybutów.
 
-Atrybuty tagów są formatowane jako lista, w której każdy tag znajduje się w osobnej linii, poprzedzony myślnikiem (-) i spacją.
+Atrybuty tagów są formatowane jako lista, w której każdy tag znajduje się w osobnym wierszu, poprzedzony myślnikiem (-) i spacją.
 
 ```yaml
 ---
@@ -280,7 +280,7 @@ Następujące domyślne atrybuty mogą być używane z [[Wprowadzenie do Obsidia
 
 | Atrybut       | Opis                                                                                                       |
 | ------------- | ---------------------------------------------------------------------------------------------------------- |
-| `publish`     | Zobacz [[Opublikuj swoją zawartość#Automatyczne wybieranie danych do publikacji\|Automatyczne wybieranie danych do publikacji]]. |
+| `publish`     | Zobacz [[Opublikuj swoją zawartość#Automatyczne zaznaczanie danych do publikacji\|Automatyczne wybieranie danych do publikacji]]. |
 | `permalink`   | Zobacz [[Łącza stałe\|Łącza stałe]].                                                                      |
 | `description` | Zobacz [[Podglądy łączy w mediach społecznościowych#Opis\|Opis]].                                         |
 | `image`       | Zobacz [[Podglądy łączy w mediach społecznościowych#Obraz\|Obraz]].                                       |

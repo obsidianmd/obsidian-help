@@ -1,7 +1,7 @@
 ---
 permalink: publish/social-share
 ---
-Wiele sieci społecznościowych wyświetla bogaty podgląd Twojej strony internetowej, gdy użytkownik udostępnia do niej link. Używając [[Atrybuty|Atrybutów]], możesz dostosować sposób, w jaki Twoje notatki wyglądają w podglądzie.
+Wiele sieci społecznościowych wyświetla bogaty podgląd twojej strony internetowej, gdy użytkownik udostępnia do niej łącze. Używając [[Atrybuty|Atrybutów]], możesz dostosować sposób, w jaki twoje notatki wyglądają w podglądzie.
 
 > [!warning] Ostrzeżenie
 > Tagi nadpisane w tej sekcji są widoczne **tylko** dla robotów indeksujących. Zwykłe przeglądarki internetowe otrzymują niezmodyfikowaną stronę ze względu na wydajność.
@@ -21,9 +21,9 @@ description: Wprowadzenie do naszego układu słonecznego.
 
 ## Obraz
 
-Możesz użyć niestandardowego obrazu do podglądu linku, dodając `image` lub `cover` ze ścieżką do obrazu. Obraz musi być przesłany do Publish.
+Możesz użyć niestandardowego obrazu do podglądu łącza, dodając `image` lub `cover` ze ścieżką do obrazu. Obraz musi być przesłany do Publish.
 
-Ścieżka może być ścieżką bezwzględną od katalogu głównego Twojego sejfu:
+Ścieżka może być ścieżką bezwzględną od katalogu głównego twojego sejfu:
 
 ```yaml
 ---

@@ -4,12 +4,12 @@ description: 'Wszystko, co możesz zrobić w Obsidian, można wykonać z poziomu
 ---
 Obsidian CLI to interfejs wiersza poleceń, który pozwala kontrolować Obsidian z terminala w celu tworzenia skryptów, automatyzacji i integracji z zewnętrznymi narzędziami.
 
-Wszystko, co możesz zrobić w Obsidian, możesz zrobić z wiersza poleceń. Obsidian CLI zawiera nawet [[#Polecenia deweloperskie|polecenia deweloperskie]] do uzyskiwania dostępu do narzędzi deweloperskich, inspekcji elementów, robienia zrzutów ekranu, przeładowywania wtyczek i nie tylko.
+Wszystko, co możesz zrobić w Obsidian, możesz zrobić z wiersza poleceń. Obsidian CLI zawiera nawet [[#Polecenia deweloperskie|polecenia deweloperskie]] do uzyskiwania dostępu do narzędzi deweloperskich, inspekcji elementów, robienia zrzutów ekranu, odświeżania wtyczek i nie tylko.
 
 ![[obsidian-cli.mp4#interface]]
 
 > [!warning] Wymaga instalatora Obsidian 1.12
-> Korzystanie z CLI wymaga instalatora Obsidian 1.12. Zapoznaj się z [[Aktualizuj Obsidian#Aktualizacje instalatora|przewodnikiem aktualizacji wersji instalatora]].
+> Korzystanie z CLI wymaga instalatora Obsidian 1.12. Zapoznaj się z [[Aktualizuj Obsidian#Aktualizacja instalatora|przewodnikiem aktualizacji wersji instalatora]].
 
 ## Instalacja Obsidian CLI
 
@@ -93,7 +93,7 @@ Wiele [[#Polecenia deweloperskie|poleceń deweloperskich]] jest dostępnych do t
 # Otwórz narzędzia deweloperskie
 obsidian devtools
 
-# Przeładuj wtyczkę społeczności, którą rozwijasz
+# Odśwież wtyczkę społeczności, którą rozwijasz
 obsidian plugin:reload id=my-plugin
 
 # Zrób zrzut ekranu aplikacji
@@ -128,7 +128,7 @@ obsidian create name=Notatka content="Witaj świecie"
 obsidian create name=Notatka content="Witaj" open overwrite
 ```
 
-Dla treści wieloliniowej użyj `\n` jako nowej linii. Użyj `\t` jako tabulatora.
+Dla treści wieloliniowej użyj `\n` jako nowego wiersza. Użyj `\t` jako tabulatora.
 
 ```bash
 obsidian create name=Notatka content="# Tytuł\n\nTreść tekstu"
@@ -151,7 +151,7 @@ W TUI użyj `vault:open <nazwa>` lub `<id>`, aby przełączyć się na inny sejf
 
 Wiele poleceń akceptuje parametry `file` i `path`, aby wskazać konkretny plik. Jeśli żaden nie zostanie podany, polecenie domyślnie odnosi się do aktywnego pliku.
 
-- `file=<nazwa>` rozwiązuje plik używając tej samej rozdzielczości linków co [[Łącza wewnętrzne|odnośniki wiki]], dopasowując po nazwie pliku bez wymagania pełnej ścieżki lub rozszerzenia.
+- `file=<nazwa>` rozwiązuje plik używając tej samej rozdzielczości łączy co [[Łącza wewnętrzne|odnośniki wiki]], dopasowując po nazwie pliku bez wymagania pełnej ścieżki lub rozszerzenia.
 - `path=<ścieżka>` wymaga dokładnej ścieżki od katalogu głównego sejfu, np. `folder/notatka.md`.
 
 ```shell
@@ -186,7 +186,7 @@ Pokaż wersję Obsidian.
 
 ### `reload`
 
-Przeładuj okno aplikacji.
+Odśwież okno aplikacji.
 
 ### `restart`
 
@@ -203,11 +203,11 @@ Wylistuj wszystkie pliki `.base` w sejfie.
 
 ### `base:views`
 
-Wylistuj podglądy w bieżącym pliku bazy.
+Wylistuj widoki w bieżącym pliku bazy.
 
 ### `base:create`
 
-Utwórz nowy element w bazie. Domyślnie odnosi się do aktywnego podglądu bazy, jeśli nie podano pliku.
+Utwórz nowy element w bazie. Domyślnie odnosi się do aktywnego widoku bazy, jeśli nie podano pliku.
 
 ```bash
 file=<name>        # nazwa pliku bazy
@@ -237,7 +237,7 @@ Polecenia dla [[Ulubione]].
 
 ### `bookmarks`
 
-Wylistuj zakładki.
+Wylistuj ulubione.
 
 ```bash
 total              # zwróć liczbę zakładek
@@ -247,7 +247,7 @@ format=json|tsv|csv  # format wyjścia (domyślnie: tsv)
 
 ### `bookmark`
 
-Dodaj zakładkę.
+Dodaj do ulubionych.
 
 ```bash
 file=<path>        # plik do dodania do zakładek
@@ -534,7 +534,7 @@ inline             # dołącz bez nowej linii
 
 ### `move`
 
-Przenieś lub zmień nazwę pliku (domyślnie: aktywny plik). Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|ustawieniach sejfu]].
+Przenieś lub zmień nazwę pliku (domyślnie: aktywny plik). Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Automatycznie aktualizuj łącza wewnętrzne|ustawieniach sejfu]].
 
 ```bash
 file=<name>        # nazwa pliku
@@ -544,7 +544,7 @@ to=<path>          # (required) folder docelowy lub ścieżka
 
 ### `rename`
 
-Zmień nazwę pliku (domyślnie: aktywny plik). Rozszerzenie pliku jest zachowywane automatycznie, jeśli zostanie pominięte w nowej nazwie. Użyj [[#`move`|move]], aby zmienić nazwę i przenieść plik jednocześnie. Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Zawsze aktualizuj łącza wewnętrzne|ustawieniach sejfu]].
+Zmień nazwę pliku (domyślnie: aktywny plik). Rozszerzenie pliku jest zachowywane automatycznie, jeśli zostanie pominięte w nowej nazwie. Użyj [[#`move`|move]], aby zmienić nazwę i przenieść plik jednocześnie. Automatycznie zaktualizuje [[Łącza wewnętrzne|łącza wewnętrzne]], jeśli jest to włączone w [[Ustawienia#Automatycznie aktualizuj łącza wewnętrzne|ustawieniach sejfu]].
 
 ```bash
 file=<name>        # nazwa pliku
@@ -662,7 +662,7 @@ format=json|tsv|csv    # format wyjścia (domyślnie: tsv)
 
 ### `plugins:restrict`
 
-Przełącz lub sprawdź tryb ograniczony.
+Włącz, wyłącz lub sprawdź tryb ograniczony.
 
 ```bash
 on                 # włącz tryb ograniczony
@@ -715,7 +715,7 @@ id=<id>            # (required) ID wtyczki
 
 ### `plugin:reload`
 
-Przeładuj wtyczkę (dla deweloperów).
+Odśwież wtyczkę (dla deweloperów).
 
 ```bash
 id=<id>            # (required) ID wtyczki
@@ -884,7 +884,7 @@ case               # wielkość liter ma znaczenie
 
 ### `search:context`
 
-Szukaj z kontekstem pasujących linii. Zwraca wynik w stylu grep `ścieżka:linia: tekst`.
+Szukaj z kontekstem pasujących wierszy. Zwraca wynik w stylu grep `ścieżka:linia: tekst`.
 
 ```bash
 query=<text>       # (required) zapytanie wyszukiwania
@@ -1264,16 +1264,16 @@ words              # zwróć tylko liczbę słów
 characters         # zwróć tylko liczbę znaków
 ```
 
-## Przestrzeń robocza
+## Obszar roboczy
 
 Polecenia dla [[Obszar roboczy]] i wtyczki [[Obszary robocze]].
 
 ### `workspace`
 
-Pokaż drzewo przestrzeni roboczej.
+Pokaż drzewo obszaru roboczego.
 
 ```bash
-ids                # uwzględnij ID elementów przestrzeni roboczej
+ids                # uwzględnij ID elementów obszaru roboczego
 ```
 
 ### `workspaces`
@@ -1286,26 +1286,26 @@ total              # zwróć liczbę obszarów roboczych
 
 ### `workspace:save`
 
-Zapisz bieżący układ jako przestrzeń robocza.
+Zapisz bieżący układ jako obszar roboczy.
 
 ```bash
-name=<name>        # nazwa przestrzeni roboczej
+name=<name>        # nazwa obszaru roboczego
 ```
 
 ### `workspace:load`
 
-Wczytaj zapisany przestrzeń robocza.
+Wczytaj zapisany obszar roboczy.
 
 ```bash
-name=<name>        # (required) nazwa przestrzeni roboczej
+name=<name>        # (required) nazwa obszaru roboczego
 ```
 
 ### `workspace:delete`
 
-Usuń zapisany przestrzeń robocza.
+Usuń zapisany obszar roboczy.
 
 ```bash
-name=<name>        # (required) nazwa przestrzeni roboczej
+name=<name>        # (required) nazwa obszaru roboczego
 ```
 
 ### `tabs`
@@ -1340,7 +1340,7 @@ Polecenia pomocne w tworzeniu [[Wtyczki społeczności]] i [[Motywy|motywów]]. 
 
 ### `devtools`
 
-Przełącz narzędzia deweloperskie Electron.
+Otwórz lub zamknij narzędzia deweloperskie Electron.
 
 ### `dev:debug`
 
@@ -1413,7 +1413,7 @@ all                # zwróć wszystkie dopasowania zamiast pierwszego
 
 ### `dev:mobile`
 
-Przełącz emulację mobilną.
+Włącz lub wyłącz emulację mobilną.
 
 ```bash
 on                 # włącz emulację mobilną
@@ -1437,9 +1437,9 @@ Te skróty są dostępne w [[#Korzystanie z interfejsu terminala|TUI]].
 | Akcja                                                      | Skrót           |
 | ---------------------------------------------------------- | --------------- |
 | Przesuń kursor w lewo                                      | `←` / `Ctrl+B`  |
-| Przesuń kursor w prawo (akceptuje sugestię na końcu linii) | `→` / `Ctrl+F`  |
-| Przeskocz na początek linii                                 | `Ctrl+A`        |
-| Przeskocz na koniec linii                                   | `Ctrl+E`        |
+| Przesuń kursor w prawo (akceptuje sugestię na końcu wiersza) | `→` / `Ctrl+F`  |
+| Przeskocz na początek wiersza                                 | `Ctrl+A`        |
+| Przeskocz na koniec wiersza                                   | `Ctrl+E`        |
 | Cofnij się o jedno słowo                                    | `Alt+B`         |
 | Przejdź o jedno słowo do przodu                             | `Alt+F`         |
 
@@ -1447,8 +1447,8 @@ Te skróty są dostępne w [[#Korzystanie z interfejsu terminala|TUI]].
 
 | Akcja                          | Skrót                       |
 | ------------------------------ | --------------------------- |
-| Usuń do początku linii         | `Ctrl+U`                    |
-| Usuń do końca linii            | `Ctrl+K`                    |
+| Usuń do początku wiersza         | `Ctrl+U`                    |
+| Usuń do końca wiersza            | `Ctrl+K`                    |
 | Usuń poprzednie słowo          | `Ctrl+W` / `Alt+Backspace`  |
 
 ### Autouzupełnianie
@@ -1458,7 +1458,7 @@ Te skróty są dostępne w [[#Korzystanie z interfejsu terminala|TUI]].
 | Wejdź w tryb sugestii / zaakceptuj wybraną sugestię | `Tab`        |
 | Wyjdź z trybu sugestii                              | `Shift+Tab`  |
 | Wejdź w tryb sugestii (z pustego wejścia)           | `↓`          |
-| Zaakceptuj pierwszą/wybraną sugestię (na końcu linii) | `→`        |
+| Zaakceptuj pierwszą/wybraną sugestię (na końcu wiersza) | `→`        |
 
 ### Historia
 
@@ -1508,7 +1508,7 @@ Jeśli dowiązanie symboliczne nie istnieje, utwórz je ręcznie:
 sudo ln -sf /Applications/Obsidian.app/Contents/MacOS/obsidian-cli /usr/local/bin/obsidian
 ```
 
-> [!note] Jeśli wcześniej zarejestrowałeś CLI ze starszą wersją Obsidian, możesz mieć pozostały wpis PATH w `~/.zprofile`. Nowy proces rejestracji usuwa go automatycznie, ale jeśli pozostaje, możesz bezpiecznie usunąć linie zaczynające się od `# Added by Obsidian` z `~/.zprofile`.
+> [!note] Jeśli wcześniej zarejestrowałeś CLI ze starszą wersją Obsidian, możesz mieć pozostały wpis PATH w `~/.zprofile`. Nowy proces rejestracji usuwa go automatycznie, ale jeśli pozostaje, możesz bezpiecznie usunąć wiersze zaczynające się od `# Added by Obsidian` z `~/.zprofile`.
 
 ### Linux
 

@@ -4,7 +4,7 @@ cssclasses:
   - list-cards
   - list-cards-mobile-full
 ---
-Obsidian może być używany jako aplikacja do robienia notatek dla osób indywidualnych oraz jako narzędzie do współpracy dla Twojego zespołu.
+Obsidian może być używany jako aplikacja do robienia notatek dla osób indywidualnych oraz jako narzędzie do współpracy dla twojego zespołu.
 
 ## Korzystanie z Obsidian w zespole
 

@@ -11,7 +11,7 @@ Jeśli chcesz korzystać ze swoich notatek na różnych urządzeniach, jedną z 
 Oto kilka kluczowych pojęć:
 
 - **Sejf** to folder w systemie plików, który zawiera notatki oraz folder `.obsidian` z konfiguracją specyficzną dla Obsidian.
-- **Lokalny sejf** to kopia sejfu istniejąca na każdym z Twoich urządzeń. Podczas korzystania z usług synchronizacji łączysz te lokalne sejfy, aby umożliwić synchronizację.
+- **Lokalny sejf** to kopia sejfu istniejąca na każdym z twoich urządzeń. Podczas korzystania z usług synchronizacji łączysz te lokalne sejfy, aby umożliwić synchronizację.
 - **Zdalny sejf** to scentralizowana pamięć masowa, z którą lokalne sejfy łączą się bezpośrednio przez Obsidian Sync.
 
 Istnieją dwa popularne podejścia do synchronizacji:
@@ -21,7 +21,7 @@ Istnieją dwa popularne podejścia do synchronizacji:
 
 ## Usługi synchronizacji oparte na plikach
 
-Usługi takie jak Dropbox, Google Drive, iCloud i OneDrive są oparte na folderach. Monitorują one określone foldery i automatycznie synchronizują wszystkie umieszczone w nich pliki. Pliki muszą znajdować się w wyznaczonych folderach usługi chmurowej, aby mogły być synchronizowane. W przypadku usług synchronizacji opartych na plikach Twój lokalny sejf jest po prostu kolejnym monitorowanym folderem. Nie ma dedykowanego zdalnego sejfu — zamiast tego pamięć w chmurze służy jako pośrednik, kopiując pliki między lokalnymi sejfami na różnych urządzeniach.
+Usługi takie jak Dropbox, Google Drive, iCloud i OneDrive są oparte na folderach. Monitorują one określone foldery i automatycznie synchronizują wszystkie umieszczone w nich pliki. Pliki muszą znajdować się w wyznaczonych folderach usługi chmurowej, aby mogły być synchronizowane. W przypadku usług synchronizacji opartych na plikach twój lokalny sejf jest po prostu kolejnym monitorowanym folderem. Nie ma dedykowanego zdalnego sejfu — zamiast tego pamięć w chmurze służy jako pośrednik, kopiując pliki między lokalnymi sejfami na różnych urządzeniach.
 
 Poniższy diagram przedstawia uproszczony schemat działania tych usług:
 
@@ -49,7 +49,7 @@ Jeśli usługa chmurowa obsługuje synchronizację w tle, niektóre z tych proce
 
 Obsidian Sync umożliwia utworzenie zdalnego sejfu, który służy jako scentralizowana pamięć masowa za pośrednictwem usługi [[Wprowadzenie do Obsidian Sync|Obsidian Sync]]. Pozwala to wybrać niemal dowolny folder na dowolnym urządzeniu do przechowywania plików — czy to na dysku zewnętrznym, w `C:\`, czy w pamięci aplikacji na Androidzie.
 
-Mamy jednak listę zalecanych lokalizacji dla Twojego lokalnego sejfu, jeśli korzystasz również z [[#Usługi synchronizacji oparte na plikach|usług synchronizacji opartych na plikach]] na tym samym urządzeniu — przede wszystkim powinno to być miejsce, które nie jest w [[Przejście na Obsidian Sync#Przenieś swój sejf z zewnętrznej usługi synchronizacji lub pamięci w chmurze|zewnętrznej usłudze synchronizacji]].
+Mamy jednak listę zalecanych lokalizacji dla twojego lokalnego sejfu, jeśli korzystasz również z [[#Usługi synchronizacji oparte na plikach|usług synchronizacji opartych na plikach]] na tym samym urządzeniu — przede wszystkim powinno to być miejsce, które nie jest w [[Przejście na Obsidian Sync#Przenieś swój sejf poza usługę synchronizacji lub chmurę|zewnętrznej usłudze synchronizacji]].
 
 Poniższy diagram przedstawia uproszczony schemat działania Obsidian Sync:
 
@@ -83,7 +83,7 @@ Gdy pojawiają się konflikty lub gdy musisz kontrolować, które pliki są sync
 
 ![[Rozwiązywanie problemów z Obsidian Sync#Rozwiązywanie konfliktów|Rozwiązywanie konfliktów]]
 
-![[Opcje synchronizacji i synchronizacja selektywna#Synchronizacja selektywna#Pomiń folder z synchronizacji]]
+![[Opcje synchronizacji i synchronizacja selektywna#Pomijanie folderu podczas synchronizacji]]
 
 ### Zachowanie w trybie offline
 

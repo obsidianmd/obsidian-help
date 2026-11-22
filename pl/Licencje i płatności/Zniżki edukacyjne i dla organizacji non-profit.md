@@ -8,12 +8,12 @@ Obsidian oferuje obecnie dwa rodzaje zniżek: edukacyjną i dla organizacji non-
 ## Jak złożyć wniosek
 
 1. Przejdź do [panelu swojego konta](https://obsidian.md/account/billing).
-2. W sekcji **Rozliczenia** znajdź sekcję **Zniżka** i kliknij link **Zastosuj**.
-3. Wybierz rodzaj zniżki odpowiedni do Twojej sytuacji, podaj swój **adres e-mail uczelni lub organizacji** (nie adres e-mail konta).
+2. W sekcji **Rozliczenia** znajdź sekcję **Zniżka** i kliknij łącze **Zastosuj**.
+3. Wybierz rodzaj zniżki odpowiedni do twojej sytuacji, podaj swój **adres e-mail uczelni lub organizacji** (nie adres e-mail konta).
 4. Kliknij **Wyślij wniosek**.
-5. Na skrzynce e-mail uczelni lub organizacji powinieneś otrzymać od nas wiadomość z prośbą o weryfikację adresu e-mail. Kliknij link, aby go zweryfikować.
-6. Zniżka może zostać przyznana natychmiast. Jeśli nie, nasz zespół postara się rozpatrzyć Twój wniosek w ciągu 3 dni roboczych.
-7. Otrzymasz wiadomość e-mail, gdy Twoja zniżka zostanie zatwierdzona.
+5. Na skrzynce e-mail uczelni lub organizacji powinieneś otrzymać od nas wiadomość z prośbą o weryfikację adresu e-mail. Kliknij łącze, aby je zweryfikować.
+6. Zniżka może zostać przyznana natychmiast. Jeśli nie, nasz zespół postara się rozpatrzyć twój wniosek w ciągu 3 dni roboczych.
+7. Otrzymasz wiadomość e-mail, gdy twoja zniżka zostanie zatwierdzona.
 
 Gratulacje! Teraz zobaczysz zniżkę przy próbie zakupu Obsidian Sync lub Publish.
 
@@ -21,7 +21,7 @@ Gratulacje! Teraz zobaczysz zniżkę przy próbie zakupu Obsidian Sync lub Publi
 
 Gdy masz aktywną zniżkę, możesz sprawdzić datę jej wygaśnięcia w sekcji **Rozliczenia → Zniżka** na [swoim koncie](https://obsidian.md/account/billing).
 
-Tydzień przed wygaśnięciem zniżki otrzymasz e-mail z przypomnieniem o odnowieniu. Możesz wykonać te same kroki opisane w sekcji „[[#Jak złożyć wniosek]]", aby odnowić zniżkę, jeśli nadal się kwalifikujesz.
+Tydzień przed wygaśnięciem zniżki otrzymasz e-mail z przypomnieniem o odnowieniu. Możesz wykonać te same kroki opisane w sekcji „[[#Jak złożyć wniosek]]”, aby odnowić zniżkę, jeśli nadal się kwalifikujesz.
 
 ## Najczęściej zadawane pytania
 
@@ -29,15 +29,15 @@ Tydzień przed wygaśnięciem zniżki otrzymasz e-mail z przypomnieniem o odnowi
 Jeśli jesteś studentem lub pracownikiem naukowym instytucji edukacyjnej, takiej jak uniwersytet lub szkoła średnia, zazwyczaj kwalifikujesz się do zniżki edukacyjnej. Jeśli prowadzisz lub pracujesz w organizacji non-profit, zazwyczaj kwalifikujesz się do zniżki dla organizacji non-profit.
 
 **Jak długo trwa proces rozpatrywania wniosku?**
-Jeśli Twój wniosek nie zostanie zatwierdzony natychmiast po weryfikacji adresu e-mail, nasz zespół go rozpatrzy. Może to zająć do 3 dni roboczych. Nie musisz sprawdzać ponownie — wyślemy e-mail, gdy Twoje konto zostanie zatwierdzone. Dziękujemy za cierpliwość!
+Jeśli twój wniosek nie zostanie zatwierdzony natychmiast po weryfikacji adresu e-mail, nasz zespół go rozpatrzy. Może to zająć do 3 dni roboczych. Nie musisz sprawdzać ponownie — wyślemy e-mail, gdy twoje konto zostanie zatwierdzone. Dziękujemy za cierpliwość!
 
 **Czy te zniżki łączą się z ceną dla wczesnych użytkowników (early bird)?**
 Dziękujemy, że jesteś wczesnym użytkownikiem! Żadna z tych zniżek nie łączy się z ceną early bird, ponieważ cena early bird jest prawdopodobnie najwyższą zniżką, jaką kiedykolwiek zaoferujemy.
 
-Jeśli już korzystasz z ceny early bird, składanie wniosku o zniżkę generalnie nie ma sensu. Pamiętaj jednak, że cena early bird jest osobna dla Sync i Publish, więc jeśli nie udało Ci się uzyskać ceny early bird dla jednej z usług, nadal możesz złożyć wniosek o zniżkę.
+Jeśli już korzystasz z ceny early bird, składanie wniosku o zniżkę generalnie nie ma sensu. Pamiętaj jednak, że cena early bird jest osobna dla Sync i Publish, więc jeśli nie udało ci się uzyskać ceny early bird dla jednej z usług, nadal możesz złożyć wniosek o zniżkę.
 
 **Co jeśli moja instytucja edukacyjna lub organizacja non-profit nie zapewnia adresu e-mail?**
-W takim przypadku możesz przesłać inne formy weryfikacji, takie jak legitymacja studencka, wyciąg z indeksu lub identyfikator pracownika, do [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|wsparcia Obsidian]]. Pamiętaj, aby dołączyć również adres e-mail swojego konta Obsidian. Nasz zespół rozpatrzy Twój wniosek i skontaktuje się z Tobą. Dziękujemy za cierpliwość!
+W takim przypadku możesz przesłać inne formy weryfikacji, takie jak legitymacja studencka, wyciąg z indeksu lub identyfikator pracownika, do [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|wsparcia Obsidian]]. Pamiętaj, aby dołączyć również adres e-mail swojego konta Obsidian. Nasz zespół rozpatrzy twój wniosek i skontaktuje się z tobą. Dziękujemy za cierpliwość!
 
 ### Zwroty
 

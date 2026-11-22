@@ -7,9 +7,9 @@ Obsidian oferuje dwa schematy kolorów: jasny i ciemny. Domyślnie schemat kolor
 
 ### Niestandardowe motywy
 
-Możesz zmienić wygląd Obsidian, korzystając z [[Motywy|niestandardowych motywów]]. Przeglądaj setki motywów stworzonych przez społeczność, przechodząc do **[[Ustawienia]] → Wygląd**, a następnie kliknij **Zarządzaj**, aby przeglądać i instalować motywy.
+Możesz zmienić wygląd Obsidian, korzystając z [[Motywy|niestandardowych motywów]]. Przeglądaj setki motywów utworzonych przez społeczność, przechodząc do **[[Ustawienia]] → Wygląd**, a następnie kliknij **Zarządzaj**, aby przeglądać i instalować motywy.
 
-Możesz również modyfikować motywy za pomocą [[Snippety CSS|snippetów CSS]] oraz [stworzyć własny motyw](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
+Możesz również modyfikować motywy za pomocą [[Snippety CSS|snippetów CSS]] oraz [utworzyć własny motyw](https://docs.obsidian.md/Themes/App+themes/Build+a+theme).
 
 ### Niestandardowa ikonka aplikacji
 
@@ -20,7 +20,7 @@ Aby zmienić ikonkę aplikacji Obsidian, wykonaj następujące kroki:
 1. Otwórz **[[Ustawienia]]**.
 2. Wybierz **Wygląd** po lewej stronie.
 3. Przewiń w dół do sekcji **Zaawansowane**.
-4. W sekcji **Niestandardowa ikonka aplikacji** kliknij **Wybierz**.
+4. W sekcji **Własna ikona aplikacji** kliknij **Wybierz**.
 5. Wybierz żądaną ikonkę z systemu plików. Obsługiwane formaty plików to `.icns`, `.ico`, `.png` i `.svg`.
 6. Kliknij **Uruchom ponownie**.
 7. Po ponownym uruchomieniu Obsidian nowa ikonka powinna pojawić się na pasku zadań na komputerze oraz na ekranie na urządzeniu mobilnym.

@@ -1,13 +1,13 @@
 ---
 permalink: bases/views/list
 ---
-Lista to rodzaj [[Widoki|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
+Lista to rodzaj [[Widoki|widoku]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
 
-Wybierz ![[lucide-list.svg#icon]]  **Lista** z menu podglądu, aby wyświetlić pliki jako [[Podstawowa składnia formatowania#Listy|listę]] ze znacznikami wypunktowanymi lub numerowanymi.
+Wybierz ![[lucide-list.svg#icon]]  **Lista** z menu widoku, aby wyświetlić pliki jako [[Podstawowa składnia formatowania#Listy|listę]] ze znacznikami wypunktowanymi lub numerowanymi.
 
 ## Ustawienia
 
-Ustawienia podglądu Lista można skonfigurować w [[Widoki#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia widoku Lista można skonfigurować w [[Widoki#Ustawienia widoku|Ustawieniach widoku]].
 
 - Znaczniki: punkt, liczba lub żadne
 - Wcięcia atrybutów

@@ -29,18 +29,18 @@ Podczas edycji notatki na dole aplikacji pojawi się rząd ikon. Domyślny ukła
 
 ### Dostosowywanie mobilnego paska narzędzi
 
-Na mobilnym pasku narzędzi wybierz **Ustaw pasek narzędzi dostępny na urządzeniach przenośnych** ![[lucide-wrench.svg#icon]], aby otworzyć jego ustawienia.
+Na mobilnym pasku narzędzi wybierz **Pasek narzędzi na urządzeniach mobilnych** ![[lucide-wrench.svg#icon]], aby otworzyć jego ustawienia.
 
-Możesz również otworzyć **[[Ustawienia]] → Interfejs → Ustaw pasek narzędzi dostępny na urządzeniach przenośnych**.
+Możesz również otworzyć **[[Ustawienia]] → Interfejs → Pasek narzędzi na urządzeniach mobilnych**.
 
-W sekcji **Ustaw opcje paska narzędzi** użyj uchwytów, aby zmienić kolejność czynności, oraz przycisków usuwania, aby je usunąć. Wybierz czynność w sekcji **Więcej opcji paska narzędzi**, aby ją dodać.
+W sekcji **Zarządzaj opcjami paska narzędzi** użyj uchwytów, aby zmienić kolejność czynności, oraz przycisków usuwania, aby je usunąć. Wybierz czynność w sekcji **Więcej opcji paska narzędzi**, aby ją dodać.
 
 ### Dodawanie polecenia do mobilnego paska narzędzi
 
 Oprócz czynności edycji możesz dodać globalne polecenia, takie jak **Zmień motyw**.
 
-1. Otwórz **[[Ustawienia]] → Interfejs → Ustaw pasek narzędzi dostępny na urządzeniach przenośnych**.
-2. W sekcji **Ustaw opcje paska narzędzi** wybierz **Dodaj polecenie...**.
+1. Otwórz **[[Ustawienia]] → Interfejs → Pasek narzędzi na urządzeniach mobilnych**.
+2. W sekcji **Zarządzaj opcjami paska narzędzi** wybierz **Dodaj polecenie...**.
 3. Wyszukaj polecenie, które chcesz dodać.
 4. Wybierz polecenie, aby dodać je na końcu paska narzędzi.
 
@@ -54,7 +54,7 @@ Domyślnie szybka czynność otwiera [[Paleta poleceń|paletę poleceń]].
 
 1. Otwórz Ustawienia.
 2. Wybierz **Interfejs**.
-3. W sekcji **Ustaw szybką czynność dostępną na urządzeniach przenośnych** dotknij **Ustaw**.
+3. W sekcji **Szybka czynność na urządzeniach mobilnych** dotknij **Skonfiguruj**.
 4. Wpisz nazwę polecenia.
 5. Wybierz polecenie, które chcesz ustawić.
 6. Zamknij stronę ustawień.
@@ -73,7 +73,7 @@ Na pasku nawigacji dwie pierwsze opcje pozwalają wrócić ![[lucide-chevron-lef
 
 ### Tworzenie lub znajdowanie notatki
 
-Środkowa ikona plusa w kółku pozwala utworzyć nową notatkę lub przełączyć się na istniejącą notatkę. Jest to równoważne z otwarciem [[Okno szybkiego wyboru|szybkiego przełącznika]].
+Środkowa ikona plusa w kółku pozwala utworzyć nową notatkę lub przełączyć się na istniejącą notatkę. Jest to równoważne z otwarciem [[Okno szybkiego wyboru|okna szybkiego wyboru]].
 
 ### Zarządzanie kartami
 
@@ -81,9 +81,9 @@ Druga ikona od prawej pokazuje, ile kart jest obecnie otwartych. Ikona wygląda 
 
 Po jej dotknięciu możesz przełączyć się na dowolną otwartą kartę. Możesz również otworzyć nową kartę.
 
-### Czynności wstążki
+### Czynności paska bocznego
 
-Aplikacja mobilna nie ma [[Pasek boczny|wstążki]]. Zamiast tego czynności wstążki będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
+Aplikacja mobilna nie ma [[Pasek boczny|paska bocznego]]. Zamiast tego czynności paska bocznego będą dostępne po dotknięciu **Otwórz menu** ![[lucide-menu.svg#icon]], ostatniej opcji na pasku nawigacji.
 
 ### Panele boczne
 

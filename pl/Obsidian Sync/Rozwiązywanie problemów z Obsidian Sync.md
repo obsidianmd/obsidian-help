@@ -21,7 +21,7 @@ Konflikty zdarzają się częściej, gdy pracujesz w trybie offline. Jest więce
 Gdy Obsidian Sync wykryje konflikt, wynik zależy od typu pliku:
 
 - **Pliki Markdown**: Obsidian Sync scala zmiany za pomocą algorytmu [diff-match-patch](https://github.com/google/diff-match-patch) firmy Google.
-- **Inne typy plików**: W przypadku wszystkich pozostałych plików, w tym plików Canvas, Obsidian stosuje podejście „wygrywa ostatnia modyfikacja". Najnowsza zmodyfikowana wersja zastępuje wcześniejsze wersje.
+- **Inne typy plików**: W przypadku wszystkich pozostałych plików, w tym plików Canvas, Obsidian stosuje podejście „wygrywa ostatnia modyfikacja”. Najnowsza zmodyfikowana wersja zastępuje wcześniejsze wersje.
 
 W przypadku konfliktów w ustawieniach Obsidian, takich jak ustawienia wtyczek, Obsidian Sync scala pliki JSON. Nakłada klucze z lokalnego pliku JSON na zdalny plik JSON.
 
@@ -33,14 +33,14 @@ Począwszy od Obsidian 1.9.7, możesz wybrać sposób obsługi konfliktów. Aby 
 2. Na panelu bocznym wybierz **Synchronizacja**.
 3. W sekcji **[[Opcje synchronizacji i synchronizacja selektywna#Rozwiązywanie konfliktów|Rozwiązywanie konfliktów]]** wybierz preferowaną opcję:
    - **Scal automatycznie** (domyślnie): Obsidian Sync łączy wszystkie zmiany z różnych urządzeń w jeden plik. Zapisuje to wszystkie edycje, ale czasem może tworzyć zduplikowany tekst lub problemy z formatowaniem. Będziesz musiał je naprawić ręcznie.
-   - **Stwórz plik konfliktu**: Gdy Obsidian znajdzie sprzeczne zmiany, tworzy osobny plik konfliktu zamiast automatycznego scalania. Możesz wtedy przejrzeć obie wersje i scalić je samodzielnie. Daje to pełną kontrolę nad końcowym rezultatem.
+   - **Utwórz plik konfliktu**: Gdy Obsidian znajdzie sprzeczne zmiany, tworzy osobny plik konfliktu zamiast automatycznego scalania. Możesz wtedy przejrzeć obie wersje i scalić je samodzielnie. Daje to pełną kontrolę nad końcowym rezultatem.
 
 > [!warning]+ Skonfiguruj na wszystkich urządzeniach
 > Ustawienia rozwiązywania konfliktów są specyficzne dla urządzenia. Musisz skonfigurować preferowaną opcję na każdym ze swoich urządzeń. Zapewni to takie samo zachowanie na wszystkich synchronizowanych urządzeniach.
 
 **Wzorzec nazewnictwa plików konfliktu**
 
-Gdy używasz opcji „Stwórz plik konfliktu", Obsidian tworzy nowy plik z następującym wzorcem nazwy:
+Gdy używasz opcji „Utwórz plik konfliktu”, Obsidian tworzy nowy plik z następującym wzorcem nazwy:
 
 ```
 oryginalna-nazwa-notatki (Conflicted copy nazwa-urządzenia RRRRMMDDGGMM).md
@@ -55,7 +55,7 @@ Notatki ze spotkania (Conflicted copy MójMacBook2 202411281430).md
 Plik konfliktu zawiera zmiany z urządzenia, na którym wykryto konflikt. Oryginalny plik zachowuje wersję zdalną. Możesz porównać oba pliki i ręcznie scalić zawartość.
 
 > [!info]+ Sprawdź dziennik synchronizacji
-> Aby sprawdzić, kiedy wystąpiły konflikty, otwórz [[Ikona statusu i komunikaty#Dziennik synchronizacji Sync|Dziennik synchronizacji]]. Filtruj według „Scal konflikty" lub wyszukaj „Conflict".
+> Aby sprawdzić, kiedy wystąpiły konflikty, otwórz [[Ikona statusu i komunikaty#Dziennik aktywności synchronizacji|Dziennik synchronizacji]]. Filtruj według „Scal konflikty” lub wyszukaj „Conflict”.
 
 ### Sync usunął notatkę, którą właśnie utworzyłem na dwóch urządzeniach
 
@@ -65,7 +65,7 @@ Jeśli utworzysz notatkę lokalnie na jednym urządzeniu, a w ciągu kilku minut
 
 ### Sync nie synchronizuje moich wtyczek i aktualizacji ustawień
 
-Obsidian [[Najczęściej zadawane pytania#Czy Obsidian Sync odświeża moje ustawienia na żywo?|nie odświeża na żywo wszystkich ustawień]]. Po zaktualizowaniu ustawień lub wtyczek musisz ponownie uruchomić Obsidian na innych urządzeniach, aby zobaczyć zmiany. Na urządzeniach mobilnych może być konieczne wymuszenie zamknięcia aplikacji.
+Obsidian [[Najczęściej zadawane pytania#Czy Obsidian Sync automatycznie wczytuje ponownie moje ustawienia?|nie odświeża na żywo wszystkich ustawień]]. Po zaktualizowaniu ustawień lub wtyczek musisz ponownie uruchomić Obsidian na innych urządzeniach, aby zobaczyć zmiany. Na urządzeniach mobilnych może być konieczne wymuszenie zamknięcia aplikacji.
 
 > [!example]- Zmiana motywu
 > - Na głównym urządzeniu (zwykle komputerze) zmieniasz motyw z niestandardowego z powrotem na domyślny.
@@ -80,11 +80,11 @@ Ten problem najczęściej występuje w systemie Windows. Windows Defender może 
 
 Inną częstą przyczyną jest podwójna synchronizacja. Dzieje się tak, gdy Obsidian Sync działa równocześnie z inną usługą synchronizacji.
 
-![[Przejście na Obsidian Sync#Przenieś swój sejf z zewnętrznej usługi synchronizacji lub magazynu w chmurze]]
+![[Przejście na Obsidian Sync#Przenieś swój sejf poza usługę synchronizacji lub chmurę]]
 
 ---
 
-Wreszcie, może się to zdarzyć, gdy przywrócisz plik na jednym urządzeniu, a następnie zostanie on usunięty z drugiego urządzenia. Dzieje się tak, gdy nazwa pliku zawiera [[Ikona statusu i komunikaty#Pominięte komunikaty|niedozwolone znaki]].
+Wreszcie, może się to zdarzyć, gdy przywrócisz plik na jednym urządzeniu, a następnie zostanie on usunięty z drugiego urządzenia. Dzieje się tak, gdy nazwa pliku zawiera [[Ikona statusu i komunikaty#Wiadomości o pominięciach|niedozwolone znaki]].
 
 ## Android
 

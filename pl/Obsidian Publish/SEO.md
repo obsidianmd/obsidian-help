@@ -25,9 +25,9 @@ Rozważ użycie [[Łącza stałe]], aby zdefiniować stałe adresy URL na swojej
 
 Metadane strony można dostosować za pomocą [[Atrybuty#Atrybuty dla Obsidian Publish|Atrybutów]], co może być przydatne do [[Podglądy łączy w mediach społecznościowych|kart udostępniania w mediach społecznościowych]].
 
-| Właściwość    | Opis                                                                                                              |
+| Atrybut       | Opis                                                                                                              |
 | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| `publish`     | Zobacz [[Opublikuj swoją zawartość#Automatyczny wybór danych do publikacji\|Automatyczny wybór danych do publikacji]]. |
+| `publish`     | Zobacz [[Opublikuj swoją zawartość#Automatyczne zaznaczanie danych do publikacji\|Automatyczny wybór danych do publikacji]]. |
 | `permalink`   | Zobacz [[Łącza stałe\|Łącza stałe]].                                                                             |
 | `description` | Zobacz [[Podglądy łączy w mediach społecznościowych#Opis\|Opis]].                                                |
 | `image`       | Zobacz [[Podglądy łączy w mediach społecznościowych#Obraz\|Obraz]].                                              |

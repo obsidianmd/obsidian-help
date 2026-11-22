@@ -4,14 +4,14 @@ description: Co pokazuje publiczna strona wtyczki lub motywu w katalogu społecz
 ---
 Każda wtyczka i motyw posiada publiczną stronę katalogową w [katalogu społeczności Obsidian](https://community.obsidian.md). Wybierz wtyczkę z [[Wtyczki społeczności#Przeglądanie wtyczek społeczności|Przeglądaj]] lub motyw z [[Motywy#Przeglądanie motywów|Przeglądaj]] w Obsidian, albo przejrzyj bezpośrednio [community.obsidian.md](https://community.obsidian.md), aby otworzyć jej stronę katalogową.
 
-Ta strona pomoże Ci zrozumieć, co robi każda sekcja, z perspektywy użytkownika Obsidian.
+Ta strona pomoże ci zrozumieć, co robi każda sekcja, z perspektywy użytkownika Obsidian.
 
 > [!tip]- Jesteś deweloperem wtyczek lub motywów?
 > Dowiedz się, jak przesyłać i zarządzać własnymi wtyczkami i motywami w [dokumentacji katalogu społeczności](https://docs.obsidian.md/community-directory).
 
 ## Nagłówek
 
-Nagłówek pokazuje ikonę i nazwę wpisu, z plakietką **Official** (oficjalny), jeśli został stworzony przez oryginalnych twórców wtyczki lub motywu, a także ikonę i nazwę autora oraz łączną liczbę pobrań wpisu.
+Nagłówek pokazuje ikonę i nazwę wpisu, z plakietką **Official** (oficjalny), jeśli został utworzony przez oryginalnych twórców wtyczki lub motywu, a także ikonę i nazwę autora oraz łączną liczbę pobrań wpisu.
 
 Wybierz **Add to Obsidian** (Dodaj do Obsidian), aby otworzyć wpis bezpośrednio w Obsidian i zainstalować go.
 
@@ -39,7 +39,7 @@ Karta **Updates** (Aktualizacje) wyświetla historię wydań wpisu, z wersją i 
 
 ## Panel boczny
 
-Obok kart, panel boczny pokazuje podsumowania kondycji i przeglądu odpowiadające karcie Scorecard, pełny opis wpisu oraz szczegóły takie jak: aktualna wersja, data ostatniej aktualizacji i utworzenia, liczba aktualizacji i pobrań, kompatybilna wersja Obsidian, obsługiwane platformy i licencja. Jeśli wpis nie jest darmowy, sekcja Payments (Płatności) wyjaśnia, jak działa jego model cenowy, na przykład płatne poziomy lub limity użytkowania. Jeśli autor dodał linki do wsparcia finansowego, pojawia się tu również link Support (Wsparcie), a także ikona autora lub organizacji, nazwa oraz linki do ich innych profili.
+Obok kart, panel boczny pokazuje podsumowania kondycji i przeglądu odpowiadające karcie Scorecard, pełny opis wpisu oraz szczegóły takie jak: aktualna wersja, data ostatniej aktualizacji i utworzenia, liczba aktualizacji i pobrań, kompatybilna wersja Obsidian, obsługiwane platformy i licencja. Jeśli wpis nie jest darmowy, sekcja Payments (Płatności) wyjaśnia, jak działa jego model cenowy, na przykład płatne poziomy lub limity użytkowania. Jeśli autor dodał łącza do wsparcia finansowego, pojawia się tu również łącze Support (Wsparcie), a także ikona autora lub organizacji, nazwa oraz łącza do ich innych profili.
 
 ## Najczęściej zadawane pytania
 

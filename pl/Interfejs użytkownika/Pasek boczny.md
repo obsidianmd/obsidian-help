@@ -2,76 +2,73 @@
 permalink: ribbon
 publish: true
 mobile: true
-description: 'Dowiedz się, jak używać wstążki — miejsca na najczęściej używane polecenia w Obsidian — oraz jak ją dostosowywać na komputerze i urządzeniach mobilnych.'
+description: 'Dowiedz się, jak używać paska bocznego, czyli miejsca na najczęściej używane polecenia w Obsidian, i jak go dostosować na komputerze i urządzeniach mobilnych.'
 ---
-Wstążka pełni funkcję przestrzeni dla często używanych poleceń w Obsidian.
+Pasek boczny pełni funkcję przestrzeni dla często używanych poleceń w Obsidian.
 
-Na komputerze znajduje się na [[Panel boczny#Otwieranie ukrytych paneli bocznych|lewym panelu bocznym]] i pozostaje widoczna nawet gdy lewy panel boczny jest zamknięty.
+Na komputerze znajduje się na [[Panel boczny#Otwieranie ukrytych paneli bocznych|lewym panelu bocznym]] i pozostaje widoczny, nawet gdy lewy panel boczny jest zamknięty. W nowych sejfach pasek boczny na komputerze jest ukryty. Aby go włączyć, zobacz [[#Wyświetl pasek boczny]].
 
-Na urządzeniach mobilnych możesz uzyskać dostęp do [[Aplikacja mobilna#Akcje wstążki|akcji wstążki]], dotykając ikony **Menu** ![[lucide-menu.svg#icon]] w prawym dolnym rogu aplikacji, gdy nie edytujesz notatki.
+Na urządzeniach mobilnych możesz uzyskać dostęp do [[Aplikacja mobilna#Czynności paska bocznego|akcji paska bocznego]], dotykając ikony **Menu** ![[lucide-menu.svg#icon]] w prawym dolnym rogu aplikacji, gdy nie edytujesz notatki.
 
 ## Akcje
 
-Każda akcja jest reprezentowana przez ikonę na wstążce. Najechanie na te ikony wyświetli podpowiedź, a kliknięcie ich aktywuje powiązaną akcję. Na urządzeniach mobilnych możesz dotknąć tych ikon, aby je aktywować.
+Każda akcja jest reprezentowana przez ikonę na pasku bocznym. Najechanie na te ikony wyświetli podpowiedź, a kliknięcie ich aktywuje powiązaną akcję. Na urządzeniach mobilnych możesz dotknąć tych ikon, aby je aktywować.
 
-1. Otwórz **[[Zarządzaj sejfami|Przełącznik sejfów]]** ![[obsidian-icon-vault-switcher.svg#icon]].
-2. Uzyskaj dostęp do **pomocy** ![[lucide-help-circle.svg#icon]].
-3. Otwórz **[[Ustawienia]]** ![[lucide-settings.svg#icon]].
+Gdy pasek boczny jest ukryty, większość jego akcji możesz uruchomić z [[Paleta poleceń|palety poleceń]]. Przełącznik sejfów, pomoc i [[Ustawienia]] znajdziesz w [[Zarządzaj sejfami|profilu sejfu]] na dole lewego panelu bocznego.
 
-W wersji mobilnej możesz skonfigurować akcję szybkiego dostępu na wstążce. Aby uzyskać więcej informacji, zobacz [[#Mobilny|sekcję mobilną]] i [[Aplikacja mobilna]].
+W wersji mobilnej możesz skonfigurować akcję szybkiego dostępu na pasku bocznym. Aby uzyskać więcej informacji, zobacz [[#Mobilny|sekcję mobilną]] i [[Aplikacja mobilna]].
 
-## Dostosowywanie wstążki
+## Dostosowywanie paska bocznego
 
-Dostosowany układ wstążki jest zapamiętywany między sesjami. Synchronizuje się z innymi urządzeniami i aplikacją mobilną, gdy ustawienia aplikacji (w plikach `workspace.json` i `workspace-mobile.json`) są synchronizowane.
+Dostosowany układ paska bocznego jest zapamiętywany między sesjami. Synchronizuje się z innymi urządzeniami i aplikacją mobilną, gdy ustawienia aplikacji (w plikach `workspace.json` i `workspace-mobile.json`) są synchronizowane.
 
 ### Komputer
 
-W wersji desktopowej możesz dostosować wstążkę w następujący sposób:
+W wersji desktopowej możesz dostosować pasek boczny w następujący sposób:
 
-- Zmień kolejność akcji wstążki, przeciągając i upuszczając ikony.
-- Aby ukryć określone akcje, kliknij prawym przyciskiem myszy na pustej przestrzeni wstążki i odznacz akcje, które chcesz ukryć.
+- Zmień kolejność akcji paska bocznego, przeciągając i upuszczając ikony.
+- Aby ukryć określone akcje, kliknij prawym przyciskiem myszy na pustej przestrzeni paska bocznego i odznacz akcje, które chcesz ukryć.
 
-#### Ukryj wstążkę
+#### Ukryj pasek boczny
 
-Możesz ukryć wstążkę na dwa sposoby:
+Pasek boczny możesz ukryć na kilka sposobów:
 
-- Kliknij prawym przyciskiem myszy na wstążce i wybierz **Ukryj menu wstążki**.
-- Otwórz **[[Ustawienia]]** → **Wygląd**, przewiń w dół do **Zaawansowane** i wyłącz **Wyświetl menu wstążki**.
+- Kliknij prawym przyciskiem myszy pasek boczny i wybierz **Ukryj pasek boczny**.
+- W menu aplikacji wybierz **Widok** → **Pasek boczny**.
+- Otwórz **[[Ustawienia]]** → **Interfejs** i wyłącz **Pokaż pasek boczny**.
 
-#### Wyświetl wstążkę
+#### Wyświetl pasek boczny
 
-Jeśli ukryłeś wstążkę i chcesz ją ponownie wyświetlić:
+Aby pokazać pasek boczny po lewej stronie okna, użyj jednego z tych sposobów:
 
-1. Otwórz **[[Ustawienia]]** → **Wygląd**.
-2. Przewiń w dół do **Zaawansowane**.
-3. Włącz **Wyświetl menu wstążki**.
-4. Wstążka pojawi się ponownie po lewej stronie okna.
+- W menu aplikacji wybierz **Widok** → **Pasek boczny**.
+- Kliknij prawym przyciskiem myszy przycisk lewego panelu bocznego ![[obsidian-icon-side-bar-left.svg#icon]] i wybierz **Pasek boczny**.
+- Otwórz **[[Ustawienia]]** → **Interfejs** i włącz **Pokaż pasek boczny**.
 
 > [!tip] Własny CSS
-> Jeśli używasz motywu społeczności lub własnego CSS, upewnij się, że nie ukrywa on wstążki za pomocą niestandardowych reguł stylów.
+> Jeśli używasz motywu społeczności lub własnego CSS, upewnij się, że nie ukrywa on paska bocznego za pomocą niestandardowych reguł stylów.
 
 ### Mobilny
 
-W mobilnej wersji Obsidian możesz wykonywać akcje szybkiego dostępu, zmieniać kolejność elementów i dostosowywać menu wstążki. Aby uzyskać dostęp do tych ustawień, wykonaj następujące kroki:
+W mobilnej wersji Obsidian możesz wykonywać akcje szybkiego dostępu, zmieniać kolejność elementów i dostosowywać menu paska bocznego. Aby przejść do tych ustawień:
 
 1. Otwórz **[[Ustawienia]]** Obsidian ![[lucide-cog.svg#icon]].
-2. Przejdź do sekcji **Wygląd**.
-3. Przewiń w dół do opcji **Zaawansowane**.
-4. Wybierz przycisk **Zarządzaj** pod pozycją **Konfiguracja menu wstążki**.
+2. Wybierz **Interfejs**.
+3. Wybierz **Pasek boczny**.
 
 #### Szybki dostęp
 
-Domyślnie opcja szybkiego dostępu jest ustawiona na „Otwórz menu wstążki" przy *krótkim naciśnięciu*. Jeśli wybierzesz inną opcję jako szybki dostęp:
+Domyślnie opcja szybkiego dostępu jest ustawiona na „Otwórz menu paska bocznego” przy *krótkim naciśnięciu*. Jeśli wybierzesz inną opcję jako szybki dostęp:
 
 - Wybrana opcja zostanie uruchomiona *krótkim naciśnięciem*.
-- Dostęp do menu wstążki zmieni się na *długie naciśnięcie*.
+- Dostęp do menu paska bocznego zmieni się na *długie naciśnięcie*.
 
 > [!info] Opcje szybkiego dostępu zależą od ustawień Obsidian i wbudowanych wtyczek, które masz włączone.
 
 #### Kolejność i widoczność
 
-Aby zmienić kolejność elementów w menu wstążki, naciśnij i przytrzymaj przycisk **przeciągnij i upuść** ![[lucide-menu.svg#icon]] i przesuń wybrany element w górę lub w dół.
+Aby zmienić kolejność elementów w menu paska bocznego, dotknij i przytrzymaj przycisk **przeciągania** ![[lucide-menu.svg#icon]] i przesuń wybrany element w górę lub w dół.
 
-Możesz pokazywać lub ukrywać elementy w menu wstążki, używając czerwonego przycisku **usuń** ![[lucide-minus-circle.svg#icon]] lub zielonego przycisku **dodaj** ![[lucide-plus-circle.svg#icon]], aby przełączać ich widoczność.
- 
+Możesz pokazywać lub ukrywać elementy w menu paska bocznego, używając czerwonego przycisku **usuń** ![[lucide-minus-circle.svg#icon]] lub zielonego przycisku **dodaj** ![[lucide-plus-circle.svg#icon]], aby przełączać ich widoczność.
+
  ![[ribbon-rearrange-visibility.jpeg#interface]]

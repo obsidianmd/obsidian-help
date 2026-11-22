@@ -71,18 +71,18 @@ tags:
 ```
 
 > [!warning]+ Edytuj szablony w trybie źródłowym
-> W trybie [[Tryby edycji i odczytu#Podgląd na żywo|podglądu na żywo]] panel **Atrybuty pliku** może nadpisać zmienne szablonów, które nie mają cudzysłowów.
+> W trybie [[Tryby edycji i odczytu#Podgląd na żywo|podglądu na żywo]] panel **Atrybuty w notatce** może nadpisać zmienne szablonów, które nie mają cudzysłowów.
 >
-> Aby tego uniknąć, edytuj szablony w [[Tryby edycji i odczytu#Tryb źródłowy|trybie źródłowym]] lub ustaw **[[Ustawienia]] → Edytor → [[Ustawienia#Atrybuty pliku|Atrybuty pliku]]** na **Kod**.
+> Aby tego uniknąć, edytuj szablony w [[Tryby edycji i odczytu#Tryb źródłowy|trybie źródłowym]] lub ustaw **[[Ustawienia]] → Edytor → [[Ustawienia#Atrybuty w notatce|Atrybuty w notatce]]** na **Źródło**.
 
 ## Wstawianie szablonu do aktywnej notatki
 
 > [!todo] [[#Ustawianie folderu szablonów|Ustaw folder szablonów]] przed wstawieniem szablonu.
 
-1. Na wstążce wybierz **Wstaw szablon**.
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Szablony: Wstaw szablon**.
 2. Wybierz szablon do wstawienia w pozycji kursora w aktywnej notatce.
 
-Aby wstawić szablon za pomocą [[Paleta poleceń|palety poleceń]] lub [[Skróty klawiszowe#Ustawianie skrótu klawiszowego|niestandardowego skrótu klawiszowego]], użyj polecenia `Szablony: Wstaw szablon`.
+Aby wstawiać szablony skrótem klawiszowym, [[Skróty klawiszowe#Ustawianie skrótu klawiszowego|ustaw skrót]] dla polecenia `Szablony: Wstaw szablon`.
 
 Zawartość szablonu jest wstawiana w bieżącej pozycji kursora. Jeśli kursor nie znajduje się w treści notatki, zawartość jest wstawiana w ostatniej pozycji kursora.
 

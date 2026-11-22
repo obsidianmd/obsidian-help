@@ -6,7 +6,7 @@ description: 'Podgląd grafu to podstawowa wtyczka, która pozwala wizualizować
 ---
 Podgląd grafu to [[Wbudowane wtyczki|wbudowana wtyczka]], która pozwala wizualizować relacje między notatkami w twoim sejfie.
 
-Aby otworzyć podgląd grafu, kliknij **Otwórz podgląd grafu** we [[Pasek boczny|wstążce]].
+Aby otworzyć podgląd grafu, otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Podgląd grafu: Otwórz podgląd grafu**.
 
 - Koła reprezentują notatki, czyli _węzły_.
 - Linie reprezentują [[Łącza wewnętrzne]] między dwoma węzłami.
@@ -39,17 +39,17 @@ Ta sekcja kontroluje, które węzły są wyświetlane na grafie.
 - **Wyszukiwarka plików** pozwala filtrować notatki na podstawie wyszukiwanego terminu. Aby dowiedzieć się, jak pisać bardziej zaawansowane zapytania wyszukiwania, zapoznaj się z [[Wyszukiwarka]].
 - **Tagi** przełącza wyświetlanie tagów na grafie.
 - **Załączniki** przełącza wyświetlanie załączników na grafie.
-- **Tylko istniejące pliki** przełącza wyświetlanie tylko notatek istniejących w twoim sejfie. Ponieważ notatka nie musi istnieć, aby można było do niej linkować, opcja ta pomaga ograniczyć graf do notatek, które faktycznie znajdują się w twoim sejfie.
-- **Niepowiązane** przełącza wyświetlanie notatek bez żadnych linków.
+- **Tylko istniejące pliki** przełącza wyświetlanie tylko notatek istniejących w twoim sejfie. Ponieważ notatka nie musi istnieć, aby można było utworzyć do niej łącze, opcja ta pomaga ograniczyć graf do notatek, które faktycznie znajdują się w twoim sejfie.
+- **Pliki bez łączy** przełącza wyświetlanie notatek bez żadnych łączy.
 
-> [!info] Pominięte pliki
-> Pliki pasujące do wzorców [[Ustawienia#Pominięte pliki|Pominięte pliki]] nie będą wyświetlane w podglądu grafu.
+> [!info] Wykluczone pliki
+> Pliki pasujące do wzorców [[Ustawienia#Wykluczone pliki|Wykluczone pliki]] nie będą wyświetlane w podglądzie grafu.
 
 ### Grupy
 
 Twórz grupy notatek, aby odróżniać je od siebie za pomocą kolorów.
 
-Aby stworzyć nową grupę:
+Aby utworzyć nową grupę:
 
 1. Kliknij **Nowa grupa**.
 2. W polu wyszukiwania wpisz termin wyszukiwania dla notatek, które chcesz dodać do grupy.
@@ -63,18 +63,18 @@ Ta sekcja kontroluje sposób wizualizacji węzłów i połączeń na grafie.
 
 - **Strzałki** przełącza wyświetlanie kierunku każdego połączenia.
 - **Próg zanikania tekstu** kontroluje przezroczystość tekstu nazwy każdej notatki.
-- **Rozmiar punktu** kontroluje rozmiar koła reprezentującego każdą notatkę.
-- **Grubość połączenia** kontroluje szerokość linii każdego połączenia.
-- **Wyświetl animację** uruchamia [[#Uruchamianie animacji poklatkowej|animację poklatkową]].
+- **Rozmiar węzła** kontroluje rozmiar koła reprezentującego każdą notatkę.
+- **Grubość łączy** kontroluje szerokość linii każdego połączenia.
+- **Animuj** uruchamia [[#Uruchamianie animacji poklatkowej|animację poklatkową]].
 
 ### Siły
 
 Ta sekcja kontroluje siły działające na każdy węzeł na grafie.
 
-- **Siła centralna** kontroluje, jak zwarty jest graf. Wyższa wartość tworzy bardziej okrągły graf.
+- **Siła przyciągania do środka** kontroluje, jak zwarty jest graf. Wyższa wartość tworzy bardziej okrągły graf.
 - **Siła odpychania** kontroluje, jak mocno dany węzeł odpycha inne węzły od siebie.
-- **Siła połączenia** kontroluje siłę przyciągania każdego połączenia. Gdyby połączenie było gumką recepturką, siła połączenia kontroluje, jak mocno lub luźno jest naciągnięta.
-- **Długość połączenia** kontroluje długość linii między poszczególnymi notatkami.
+- **Siła łączy** kontroluje siłę przyciągania każdego połączenia. Gdyby połączenie było gumką recepturką, siła połączenia kontroluje, jak mocno lub luźno jest naciągnięta.
+- **Długość łączy** kontroluje długość linii między poszczególnymi notatkami.
 
 ## Uruchamianie animacji poklatkowej
 
@@ -84,6 +84,6 @@ Notatki i załączniki pojawiają się w kolejności chronologicznej na podstawi
 
 ## Lokalny graf
 
-Aby otworzyć lokalny podgląd grafu, użyj polecenia **Otwórz lokalny podgląd grafu**. Podczas gdy podgląd grafu pokazuje wszystkie notatki w twoim sejfie, lokalny podgląd grafu pokazuje notatki połączone z aktywną notatką.
+Aby otworzyć lokalny podgląd grafu, użyj polecenia **Otwórz graf lokalny**. Podczas gdy podgląd grafu pokazuje wszystkie notatki w twoim sejfie, lokalny podgląd grafu pokazuje notatki połączone z aktywną notatką.
 
 Lokalny podgląd grafu może korzystać ze wszystkich [[#Ustawienia|ustawień]] dostępnych dla globalnego podglądu grafu. Dodatkowo możesz zmienić głębokość lokalnego grafu. Każdy poziom głębokości pokaże notatki połączone z notatkami ujawnionymi na poprzednim poziomie głębokości. Aby kontrolować głębokość lokalnego grafu, użyj suwaka na górze panelu ustawień filtrów lokalnego grafu.

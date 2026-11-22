@@ -118,9 +118,9 @@ Przyjmujemy teraz pull requesty do sejfu pomocy w [naszym repozytorium dokumenta
 
 ### Dodaj swoje imię
 
-Jeśli jesteś tłumaczem, wyślij pull request, aby dodać „Twoje imię (język, w którym tłumaczysz)" do powyższej sekcji. Prosimy o utrzymanie listy w porządku alfabetycznym, dziękujemy!
+Jeśli jesteś tłumaczem, wyślij pull request, aby dodać „Twoje imię (język, w którym tłumaczysz)” do powyższej sekcji. Prosimy o utrzymanie listy w porządku alfabetycznym, dziękujemy!
 
-Jeśli Twoje imię nie jest w języku angielskim i nie można go łatwo posortować alfabetycznie, użyj tego formatu: `twoja-nazwa-użytkownika-github, [twoje imię w twoim języku] (nazwa języka)`.
+Jeśli twoje imię nie jest w języku angielskim i nie można go łatwo posortować alfabetycznie, użyj tego formatu: `twoja-nazwa-użytkownika-github, [twoje imię w twoim języku] (nazwa języka)`.
 
 ## Podziękowania dla stron trzecich
 

@@ -14,12 +14,16 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format pliku** wybierz **Apple Notes**.
-6. Kliknij **Importuj**.
-7. Kliknij **Otwórz** w wyskakującym okienku zatytułowanym `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
-8. Poczekaj, aż import się zakończy.
-9. Gotowe!
+6. Wybierz **Importuj**.
+7. Wybierz **Otwórz** w oknie wyskakującym zatytułowanym `Select the "group.com.apple.notes" folder to allow Obsidian to read Apple Notes data`.
+8. Przejrzyj wygenerowany szablon i podgląd przykładów z twoich notatek.
+9. Wybierz **Importuj** i poczekaj, aż import się zakończy.
+
+## Dostosowywanie importowanych notatek
+
+Przed rozpoczęciem importu Importer pokazuje podgląd wygenerowany z wybranych notatek Apple Notes. Możesz edytować wygenerowany szablon, atrybuty i nazwę notatki albo wybrać szablon Markdown ze swojego sejfu. Zobacz [[Szablony importera]].
 
 ## Obsługiwana zawartość
 
@@ -36,11 +40,14 @@ Apple przechowuje skany w różnych formatach w zależności od sposobu ich utwo
 * Skany utworzone lub wyświetlane na nowszych wersjach macOS lub iOS zwykle zostaną wyeksportowane jako przycięte obrazy.
 * Skany edytowane za pomocą funkcji wprowadzonych w iOS 17 zwykle zostaną wyeksportowane jako pliki PDF.
 
-## Alternatywne metody eksportu
+## Szablony
 
-Apple nie zapewnia natywnej opcji eksportu notatek. Istnieją jednak narzędzia firm trzecich, takie jak [Exporter](https://apps.apple.com/us/app/exporter/id1099120373) autorstwa Chintan Ghate. Należy pamiętać, że większość narzędzi ma ograniczenia co do tego, jakie dane eksportuje z Apple Notes i może nie zapewniać najbardziej kompatybilnych danych wyjściowych. Narzędzia te działają najlepiej, gdy notatki w Apple Notes zawierają głównie tekst i mają niewiele załączników lub funkcji specjalnych, takich jak rysunki i skany.
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Apple Notes.
 
-W zależności od użytego narzędzia eksport może być w formacie Markdown lub HTML. Postępuj zgodnie z instrukcjami odpowiadającymi formatowi pliku, do którego wyeksportowałeś dane:
+![[Szablony importera#Zmienne]]
 
-- [[Importuj pliki HTML]]
-- [[Importuj pliki Markdown]]
+Apple Notes udostępnia też następującą zmienną.
+
+| Zmienna        | Opis                         |
+| -------------- | ---------------------------- |
+| `{{isPinned}}` | Czy notatka jest przypięta.  |

@@ -1,22 +1,22 @@
 ---
 permalink: bases/views/map
 ---
-Mapa to typ [[Widoki|podglądu]], którego możesz używać w [[Wprowadzenie do baz danych|bazach danych]]. Wymaga zainstalowania [wtyczki Maps](obsidian://show-plugin?id=maps).
+Mapa to typ [[Widoki|widoku]], którego możesz używać w [[Wprowadzenie do baz danych|bazach danych]]. Wymaga zainstalowania [wtyczki Maps](obsidian://show-plugin?id=maps).
 
-Wybierz ![[lucide-map.svg#icon]]  **Mapa** z menu podglądu, aby wyświetlić pliki jako interaktywną mapę ze znacznikami dla każdego pliku oraz podglądem wyświetlającym właściwości danego pliku.
+Wybierz ![[lucide-map.svg#icon]]  **Mapa** z menu widoku, aby wyświetlić pliki jako interaktywną mapę ze znacznikami dla każdego pliku oraz widokiem wyświetlającym atrybuty danego pliku.
 
 ![[bases-map-places.png#interface]]
 
 ## Instalacja wtyczki Maps
 
-Podglądy mapy wymagają Obsidian 1.10. [Wtyczka Maps](obsidian://show-plugin?id=maps) to oficjalna [[Wtyczki społeczności|wtyczka społeczności]], którą możesz pobrać osobno.
+Widoki mapy wymagają Obsidian 1.10. [Wtyczka Maps](obsidian://show-plugin?id=maps) to oficjalna [[Wtyczki społeczności|wtyczka społeczności]], którą możesz pobrać osobno.
 
-1. Postępuj zgodnie z instrukcjami w [[Wtyczki społeczności#Instalacja wtyczki społeczności]]
+1. Postępuj zgodnie z instrukcjami w [[Wtyczki społeczności#Instalowanie wtyczki społeczności|Instalowanie wtyczki społeczności]]
 2. Pobierz i włącz [Maps](obsidian://show-plugin?id=maps) z listy
 
 ## Przykład
 
-Na początek spróbuj utworzyć notatkę o nazwie **Wieża Eiffla** i skopiuj do niej następujące właściwości:
+Na początek spróbuj utworzyć notatkę o nazwie **Wieża Eiffla** i skopiuj do niej następujące atrybuty:
 
 ```yaml
 ---
@@ -32,19 +32,19 @@ tags:
 
 Oto co oznacza powyższy kod:
 
-| Właściwość    | Wartość                  |                                                                                                                                                                        |
+| Atrybut       | Wartość                  |                                                                                                                                                                        |
 | ------------- | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `coordinates` | `48.85837`<br>`2.294481` | Współrzędne są przechowywane jako `szerokość, długość geograficzna`. Możesz uzyskać współrzędne klikając prawym przyciskiem myszy lokalizację na mapie i wybierając **Kopiuj współrzędne**. |
 | `icon`        | `landmark`               | Nazwa ikony z [biblioteki Lucide](https://lucide.dev/).                                                                                                                |
 | `color`       | `red`                    | Prawidłowa wartość CSS: hex, RGB, nazwa koloru itp.                                                                                                                    |
 | `tags`        | `places`                 | Tag, którego użyjemy do znajdowania znaczników mapy w naszej bazie.                                                                                                    |
-Teraz utwórz podgląd mapy z filtrem dla tagu `places` i ustaw współrzędne znaczników, ikonę oraz kolor, korzystając z właściwości wymienionych powyżej.
+Teraz utwórz widok mapy z filtrem dla tagu `places` i ustaw współrzędne znaczników, ikonę oraz kolor, korzystając z atrybutów wymienionych powyżej.
 
-Możesz również otworzyć te [przykładowe pliki](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) w Obsidian, aby zobaczyć działające podglądy mapy ze znacznikami, ikonami i kolorami już skonfigurowanymi.
+Możesz również otworzyć te [przykładowe pliki](https://github.com/obsidianmd/obsidian-maps/tree/master/examples) w Obsidian, aby zobaczyć działające widoki mapy ze znacznikami, ikonami i kolorami już skonfigurowanymi.
 
 ## Ustawienia
 
-Ustawienia podglądu mapy można skonfigurować w [[Widoki#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia widoku mapy można skonfigurować w [[Widoki#Ustawienia widoku|Ustawieniach widoku]].
 
 - Wysokość osadzenia
 - Współrzędne środka
@@ -56,7 +56,7 @@ Ustawienia podglądu mapy można skonfigurować w [[Widoki#Ustawienia podglądu|
 
 #### Współrzędne
 
-Aby wyświetlić pinezki na mapie, przejdź do [[Widoki#Ustawienia podglądu|ustawień podglądu]] i wybierz właściwość **współrzędne znacznika**. Właściwość musi zawierać współrzędne szerokości i długości geograficznej. Akceptowane są następujące formaty:
+Aby wyświetlić pinezki na mapie, przejdź do [[Widoki#Ustawienia widoku|ustawień widoku]] i wybierz atrybut **współrzędne znacznika**. Atrybut musi zawierać współrzędne szerokości i długości geograficznej. Akceptowane są następujące formaty:
 
 ```yaml
 # Właściwość tekstowa
@@ -68,29 +68,29 @@ coordinates:
   - "lng"
 ```
 
-Jeśli przechowujesz współrzędne jako oddzielne właściwości `latitude` i `longitude`, możesz je połączyć za pomocą właściwości [[Składnia baz danych#Wzory|wzoru]], definiując ją jako tablicę współrzędnych przy użyciu następującego wzoru: `[latitude, longitude]`.
+Jeśli przechowujesz współrzędne jako oddzielne atrybuty `latitude` i `longitude`, możesz je połączyć za pomocą atrybutu [[Składnia baz danych#Wzory|wzoru]], definiując ją jako tablicę współrzędnych przy użyciu następującego wzoru: `[latitude, longitude]`.
 
 #### Ikony
 
-Dodaj ikony do znaczników, definiując właściwość **ikony znaczników**. Na przykład możesz dodać do swoich notatek właściwość o nazwie `icon` i nadać jej wartości takie jak `landmark` lub `utensils` z wbudowanej [biblioteki Lucide](https://lucide.dev/icons/) Obsidian.
+Dodaj ikony do znaczników, definiując atrybut **ikony znaczników**. Na przykład możesz dodać do swoich notatek atrybut o nazwie `icon` i nadać jej wartości takie jak `landmark` lub `utensils` z wbudowanej [biblioteki Lucide](https://lucide.dev/icons/) Obsidian.
 
 ##### Użyj wzoru do definiowania ikon
 
 Załóżmy, że chcesz, aby wszystkie restauracje miały tę samą ikonę na mapie:
 
-1. Utwórz notatkę o nazwie **Restauracje** i dodaj właściwość o nazwie `icon` z wartością `utensils`.
-2. Nadaj notatkom restauracji właściwość o nazwie `type`, która linkuje do notatki `[[Restauracje]]`.
-3. Dodaj właściwość wzoru o nazwie `Type icon` do swojej bazy z następującym kodem:
+1. Utwórz notatkę o nazwie **Restauracje** i dodaj atrybut o nazwie `icon` z wartością `utensils`.
+2. Nadaj notatkom restauracji atrybut o nazwie `type`, który zawiera łącze do notatki `[[Restauracje]]`.
+3. Dodaj atrybut wzoru o nazwie `Type icon` do swojej bazy z następującym kodem:
 	```js
 	list(type)[0].asFile().properties.icon
 	```
-4. Wybierz `Type icon` jako ikonę znacznika w ustawieniach podglądu.
+4. Wybierz `Type icon` jako ikonę znacznika w ustawieniach widoku.
 
-Voilà! Teraz Twoja mapa będzie wyświetlać ikony z *typu* miejsca, a nie z samego miejsca.
+Voilà! Teraz twoja mapa będzie wyświetlać ikony z *typu* miejsca, a nie z samego miejsca.
 
 #### Kolory
 
-Ustaw kolor znaczników. Akceptuje wartości jako RGB `rgb(0,0,0)`, HEX `#000` lub zmienne CSS takie jak `var(--color-blue)`. Podobnie jak w powyższym przykładzie z ikonami, możesz użyć właściwości wzoru do dynamicznego definiowania kolorów.
+Ustaw kolor znaczników. Akceptuje wartości jako RGB `rgb(0,0,0)`, HEX `#000` lub zmienne CSS takie jak `var(--color-blue)`. Podobnie jak w powyższym przykładzie z ikonami, możesz użyć atrybutu wzoru do dynamicznego definiowania kolorów.
 
 ### Tło
 
@@ -105,7 +105,7 @@ Kafelki mapy to standardowy sposób wyświetlania map cyfrowych. Istnieje kilka 
 | Dark     | `https://tiles.openfreemap.org/styles/dark`      |
 | Positron | `https://tiles.openfreemap.org/styles/positron`  |
 | Liberty  | ``https://tiles.openfreemap.org/styles/liberty`` |
-#### Przydatne linki
+#### Przydatne łącza
 
 - [Maputnik](https://maputnik.github.io/) do dostosowywania kafelków mapy.
 - [Protomaps](https://protomaps.com/) do samodzielnego hostowania kafelków mapy.
@@ -114,7 +114,7 @@ Kafelki mapy to standardowy sposób wyświetlania map cyfrowych. Istnieje kilka 
 
 ## Wskazówki
 
-Możesz linkować do popularnych usług mapowych za pomocą [[Wzory|Wzorów]]. Na przykład Twoja pinezka może wyświetlać link do Google Maps przy użyciu następującego wzoru:
+Możesz dodawać łącza do popularnych usług mapowych za pomocą [[Wzory|Wzorów]]. Na przykład twoja pinezka może wyświetlać łącze do Google Maps przy użyciu następującego wzoru:
 
 ```js
 link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google Maps")
@@ -122,6 +122,6 @@ link("https://www.google.com/maps/search/" + file.name.replace(" ","+"),"Google 
 
 ## Rozwiązywanie problemów
 
-Jeśli mapa jest pusta po pierwszym załadowaniu wtyczki Maps, spróbuj [[Aktualizuj Obsidian|zaktualizować wersję instalatora Obsidian]].
+Jeśli mapa jest pusta po pierwszym wczytaniu wtyczki Maps, spróbuj [[Aktualizuj Obsidian|zaktualizować wersję instalatora Obsidian]].
 
 [Wtyczka Maps](https://github.com/obsidianmd/obsidian-maps) jest otwartym oprogramowaniem (open-source). Możesz pomóc, zgłaszając błędy, propozycje funkcji i pull requesty.

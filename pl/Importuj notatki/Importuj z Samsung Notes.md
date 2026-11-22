@@ -24,10 +24,10 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Importuj notatki|Importer]], którą 
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na pasku bocznym.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 5. W polu **Format pliku** wybierz **Samsung Notes (.sdocx)**.
 6. Wybierz pliki `.sdocx` lub plik `.zip`, który je zawiera.
-7. Kliknij **Import**, aby przejrzeć wygenerowany szablon i podgląd przykładów z Twoich notatek.
+7. Kliknij **Import**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich notatek.
 8. Kliknij **Import** ponownie i poczekaj na zakończenie importu.
 
 ## Ograniczenia

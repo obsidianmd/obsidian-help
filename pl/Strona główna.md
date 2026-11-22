@@ -49,6 +49,6 @@ Dzięki tysiącom wtyczek i motywów możesz dostosować Obsidian do swojego spo
 
 Jeśli znajdziesz jakiekolwiek błędy lub brakujące informacje na tej stronie, możesz przyczynić się do ulepszeń i tłumaczeń za pośrednictwem [repozytorium GitHub](https://github.com/obsidianmd/obsidian-docs/).
 
-Jeśli chcesz wesprzeć Obsidian finansowo, rozważ [[Licencja Catalyst|licencję Catalyst]], która oferuje wczesny dostęp do wersji beta, lub [[Licencja komercyjna|licencję komercyjną]], aby okazać wsparcie ze strony Twojej organizacji.
+Jeśli chcesz wesprzeć Obsidian finansowo, rozważ [[Licencja Catalyst|licencję Catalyst]], która oferuje wczesny dostęp do wersji beta, lub [[Licencja komercyjna|licencję komercyjną]], aby okazać wsparcie ze strony twojej organizacji.
 
 Zajrzyj do [[Twórcy|Twórców]], aby poznać wszystkich niesamowitych ludzi, dzięki którym Obsidian jest możliwy.

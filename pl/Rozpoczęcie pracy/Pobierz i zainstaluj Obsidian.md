@@ -27,7 +27,7 @@ Jeśli używasz Linuxa, możesz zainstalować Obsidian na kilka sposobów. Post�
 1. Otwórz przeglądarkę i przejdź do strony [Pobierz Obsidian](https://obsidian.md/download).
 2. W sekcji **Linux** kliknij **Snap**, aby pobrać plik instalacyjny.
 3. Otwórz terminal i przejdź do folderu, w którym pobrałeś plik instalacyjny.
-4. W terminalu uruchom następujące polecenie, aby zainstalować pakiet Snap: (flaga `--dangerous` jest wymagana, ponieważ Canonical, firma która stworzyła Snap, nie zweryfikowała naszego pakietu; flaga `--classic` pozwala Obsidian na dostęp poza piaskownicą, gdzie przechowywane są Twoje notatki)
+4. W terminalu uruchom następujące polecenie, aby zainstalować pakiet Snap: (flaga `--dangerous` jest wymagana, ponieważ Canonical, firma, która stworzyła Snap, nie zweryfikowała naszego pakietu; flaga `--classic` pozwala Obsidian na dostęp poza piaskownicą, gdzie przechowywane są twoje notatki)
 
    ```bash
    snap install obsidian_<version>_<arch>.snap --dangerous --classic
@@ -65,7 +65,7 @@ Uwaga: Na Chromebookach musi być zainstalowany pakiet `libnss3-dev`, w przeciwn
 ## Instalacja Obsidian na Androidzie
 
 1. Znajdź Obsidian w [Play Store](https://play.google.com/store/apps/details?id=md.obsidian).
-2. Dotknij **Instaluj**, aby pobrać aplikację.
+2. Dotknij **Zainstaluj**, aby pobrać aplikację.
 3. Otwórz Obsidian tak samo, jak otwierasz każdą inną aplikację.
 
 Opcjonalnie możesz pobrać plik APK dla Androida ze strony [Pobierz Obsidian](https://obsidian.md/download).

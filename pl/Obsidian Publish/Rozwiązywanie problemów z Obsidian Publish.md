@@ -18,7 +18,7 @@ Czy używasz [[Wtyczki społeczności|wtyczki społeczności]], która edytuje c
 
 **Otrzymuję dziwny błąd sieciowy i mam bardzo dużą stronę Publish.**
 
-Prawdopodobnie musimy zbadać Twoją bazę danych. Prosimy [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|skontaktuj się z pomocą Obsidian]] w celu uzyskania pomocy.
+Prawdopodobnie musimy zbadać twoją bazę danych. Prosimy [[Pomoc i wsparcie#Kontakt ze wsparciem Obsidian|skontaktuj się z pomocą Obsidian]] w celu uzyskania pomocy.
 
 ## CSS i motywy
 

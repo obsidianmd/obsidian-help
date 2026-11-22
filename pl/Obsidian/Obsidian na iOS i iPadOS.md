@@ -1,7 +1,7 @@
 ---
 permalink: ios
 ---
-Aplikacja mobilna Obsidian na iOS i iPadOS przenosi zaawansowane możliwości tworzenia notatek na Twojego iPhone'a i iPada. Możesz ją pobrać z [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
+Aplikacja mobilna Obsidian na iOS i iPadOS przenosi zaawansowane możliwości tworzenia notatek na twojego iPhone'a i iPada. Możesz ją pobrać z [Apple App Store](https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442).
 
 Ta strona opisuje funkcje specyficzne dla iOS, w tym widżety, integrację z Siri oraz Skróty.
 
@@ -15,7 +15,7 @@ Obsidian na iOS oferuje kilka widżetów umożliwiających szybkie działania na
 
 > [!note] Uwaga
 > Widżety są dostępne na iOS i iPadOS 18 i nowszych.
-> Widżety nie są dostępne podczas korzystania z opcji „Wymagaj Face ID" do odblokowania aplikacji.
+> Widżety nie są dostępne podczas korzystania z opcji „Wymagaj Face ID” do odblokowania aplikacji.
 
 
 ### Widżety ekranu blokady i Centrum sterowania
@@ -54,7 +54,7 @@ Opcje konfiguracji widżetu **Podgląd notatki**:
 
 ## Szybkie przechwytywanie
 
-Szybkie przechwytywanie pozwala zapisywać tekst do sejfu z widżetów ekranu blokady, Centrum sterowania, ekranu głównego lub Skrótów bez czekania na załadowanie sejfu. W zależności od wybranej lokalizacji przechwytywania, Szybkie przechwytywanie może utworzyć nową notatkę lub dodać tekst do istniejącej notatki.
+Szybkie przechwytywanie pozwala zapisywać tekst do sejfu z widżetów ekranu blokady, Centrum sterowania, ekranu głównego lub Skrótów bez czekania na wczytanie sejfu. W zależności od wybranej lokalizacji przechwytywania, Szybkie przechwytywanie może utworzyć nową notatkę lub dodać tekst do istniejącej notatki.
 
 ![[ios-quick-capture-view.png|400]]
 
@@ -103,7 +103,7 @@ Aby zmienić ustawienia przechwytywania głosowego, dotknij ikony koła zębateg
 
 #### Obsługiwane języki
 
-Przechwytywanie głosowe może transkrybować mowę w następujących językach. Niektóre urządzenia obsługują mniej języków, a dostępne języki mogą się zmieniać wraz z aktualizacjami iOS. Jeśli Twój język nie jest dostępny, nadal możesz nagrywać dźwięk bez transkrypcji.
+Przechwytywanie głosowe może transkrybować mowę w następujących językach. Niektóre urządzenia obsługują mniej języków, a dostępne języki mogą się zmieniać wraz z aktualizacjami iOS. Jeśli twój język nie jest dostępny, nadal możesz nagrywać dźwięk bez transkrypcji.
 
 - bengalski
 - kantoński
@@ -165,9 +165,9 @@ Możesz zastosować szablon do formatowania przechwyconego tekstu. Szablony Szyb
 | `{{longitude}}` | Bieżąca długość geograficzna |
 | `{{shortAddress}}` | Skrócona forma bieżącego adresu |
 | `{{fullAddress}}` | Pełny bieżący adres |
-| `{{googleMapsLink}}` | Link do Mapy Google z bieżącą lokalizacją |
-| `{{appleMapsLink}}` | Link do Mapy Apple z bieżącą lokalizacją |
-| `{{openStreetMapLink}}` | Link do OpenStreetMap z bieżącą lokalizacją |
+| `{{googleMapsLink}}` | Łącze do Mapy Google z bieżącą lokalizacją |
+| `{{appleMapsLink}}` | Łącze do Mapy Apple z bieżącą lokalizacją |
+| `{{openStreetMapLink}}` | Łącze do OpenStreetMap z bieżącą lokalizacją |
 
 Aby skonfigurować widżet Szybkiego przechwytywania dla konkretnej lokalizacji przechwytywania, wykonaj kroki opisane w sekcji [[#Dostosowywanie widżetów]]. Widżety ekranu głównego mogą wyświetlać wiele lokalizacji przechwytywania.
 
@@ -186,7 +186,7 @@ Obsidian integruje się z aplikacją Skróty firmy Apple, umożliwiając tworzen
 - **Pobierz notatkę z zakładek** — Pobiera tekst z notatki w zakładkach
 - **Pobierz dziennik** — Pobiera tekst z dziennika
 - **Szukaj w sejfie** — Wyszukuje słowo kluczowe w sejfie
-- **Dodaj link do zakładek** — Dodaje link internetowy do zakładek
+- **Dodaj łącze do zakładek** — Dodaje łącze internetowe do zakładek
 - **Otwórz Obsidian** — Otwiera Obsidian
 
 Skróty przechwytywania są szczególnie przydatne do szybkiego tworzenia notatek, ponieważ pozwalają dodawać treść do notatki w tle.
@@ -213,31 +213,31 @@ Użyj arkusza udostępniania, aby szybko wysłać treść z innej aplikacji do O
 Lokalizacje pozwalają zdecydować, gdzie trafią udostępnione treści, zanim je zapiszesz.
 
 Lokalizacje mogą przechwytywać do:
-- **Nowa notatka** — Tworzy nową notatkę w skarbcu lub folderze.
+- **Nowa notatka** — Tworzy nową notatkę w sejfie lub folderze.
 - **Dziennik** — Dołącza lub wstawia treść do dzisiejszego dziennika.
 - **Notatka z zakładek** — Dołącza lub wstawia treść do notatki z zakładek.
-- **Notatka** — Wybiera istniejącą notatkę w skarbcu.
+- **Notatka** — Wybiera istniejącą notatkę w sejfie.
 - **Nowa zakładka** — Zapisuje udostępniony URL w zakładkach Obsidian.
 
 ![[ios-share-sheet-locations.png|400]]
 
 ### Dostosowywanie lokalizacji
 
-Możesz tworzyć lokalizacje dla typowych przepływów pracy, np. zapisywanie artykułów do skrzynki odbiorczej, dołączanie cytatów do dziennika lub dodawanie linków do zakładek.
+Możesz tworzyć lokalizacje dla typowych przepływów pracy, np. zapisywanie artykułów do skrzynki odbiorczej, dołączanie cytatów do dziennika lub dodawanie łączy do zakładek.
 
 Aby dostosować lokalizacje:
 
 1. Otwórz Obsidian z arkusza udostępniania iOS.
 2. Dotknij bieżącej lokalizacji na pasku narzędzi.
 3. Dotknij przycisku **+**, aby utworzyć nową lokalizację, lub wybierz istniejącą lokalizację do edycji.
-4. Wybierz skarbiec, zachowanie i opcjonalne ustawienia.
+4. Wybierz sejf, zachowanie i opcjonalne ustawienia.
 
 W zależności od typu `Zachowanie` możesz skonfigurować opcje takie jak:
 - Folder
 - Szablon
 - Grupa zakładek
 - Pozycja dołączania lub wstawiania
-- Czy udostępniane linki przechwytują **Pełny tekst** czy tylko **URL**
+- Czy udostępniane łącza przechwytują **Pełny tekst** czy tylko **URL**
 
 ![[ios-share-sheet-add-location.png|400]]
 
@@ -251,15 +251,15 @@ Aby skonfigurować lokalizację z szablonem:
 2. Dotknij bieżącej lokalizacji na pasku narzędzi.
 3. Dotknij przycisku **+**, aby utworzyć nową lokalizację.
 4. Wprowadź nazwę lokalizacji.
-5. Wybierz skarbiec.
+5. Wybierz sejf.
 6. Ustaw **Zachowanie** na **Nowa notatka**.
 7. W sekcji **Opcjonalne** dotknij **Szablon**.
-8. Wybierz notatkę ze skarbca, która posłuży jako szablon.
+8. Wybierz notatkę ze sejfu, która posłuży jako szablon.
 9. Dotknij **Zapisz**, aby zapisać lokalizację.
 
 ![[ios-share-sheet-set-template.png|400]]
 
-Gdy udostępniasz link za pomocą tej lokalizacji, Obsidian najpierw stosuje szablon, a następnie dodaje udostępnioną treść.
+Gdy udostępniasz łącze za pomocą tej lokalizacji, Obsidian najpierw stosuje szablon, a następnie dodaje udostępnioną treść.
 
 Obsługiwane symbole zastępcze szablonu:
 
@@ -290,14 +290,14 @@ Możesz również użyć standardowych symboli zastępczych daty i godziny:
 
 Możesz używać poleceń głosowych Siri do interakcji z Obsidian:
 
-- „Capture using Obsidian"
-- „Capture to Obsidian"
-- „Open my daily note in Obsidian"
-- „Search in Obsidian"
+- „Capture using Obsidian”
+- „Capture to Obsidian”
+- „Open my daily note in Obsidian”
+- „Search in Obsidian”
 
 ## Integracja ze Spotlight
 
-Gdy wyszukujesz „Obsidian" w iOS Spotlight, zobaczysz szybkie akcje:
+Gdy wyszukujesz „Obsidian” w iOS Spotlight, zobaczysz szybkie akcje:
 - Nowa notatka
 - Wyszukiwarka
 - Dziennik

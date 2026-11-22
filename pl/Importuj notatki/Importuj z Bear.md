@@ -7,15 +7,22 @@ Obsidian umożliwia łatwą migrację notatek z Bear za pomocą [[Importer|wtycz
 
 ## Eksportowanie danych z Bear
 
-Obsidian wykorzystuje format kopii zapasowej Bear — pliki `.bear2bk`. Instrukcje tworzenia kopii zapasowej Bear znajdziesz [na stronie Bear](https://bear.app/faq/backup-restore/).
+Obsidian obsługuje formaty kopii zapasowej Bear: `.bear2bk` i `ApplicationData.zip`.
+
+### iOS
 
 1. Otwórz Bear.
-2. Utwórz kopię zapasową
-	1. Na macOS: **File** → **Backup notes**.
-	2. Na iOS: kliknij menu dodatkowe (⋮) u góry panelu bocznego i wybierz **Backup all notes**.
-3. Wybierz lokalizację dla pliku kopii zapasowej.
+2. Przejdź do **Settings** → **Advanced** → **Share Application Data**.
+3. Wybierz lokalizację pliku kopii zapasowej.
+4. Powinieneś mieć teraz jeden plik `ApplicationData.zip` ze wszystkimi notatkami.
+
+### macOS
+
+1. Otwórz Bear.
+2. Przejdź do **File** → **Backup notes**.
+3. Wybierz lokalizację pliku kopii zapasowej.
 4. Kliknij **Export notes**.
-5. Powinieneś teraz mieć jeden plik `.bear2bk` zawierający wszystkie Twoje notatki.
+5. Powinieneś mieć teraz jeden plik `.bear2bk` ze wszystkimi notatkami.
 
 ## Importowanie danych z Bear do Obsidian
 
@@ -24,8 +31,14 @@ Będziesz potrzebować oficjalnej wtyczki Obsidian [[Importer]], którą możesz
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 3. Włącz wtyczkę Importer.
-4. Otwórz wtyczkę **Importer** za pomocą palety poleceń lub ikony na wstążce.
-5. W polu **Format pliku** wybierz **Bear (.bear2bk)**.
+4. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
+5. W polu **Format pliku** wybierz **Bear (.bear2bk, .zip)**.
 6. Wskaż lokalizację pliku kopii zapasowej Bear.
-7. Kliknij **Importuj** i poczekaj, aż import się zakończy.
-8. Gotowe!
+7. Wybierz **Importuj**, aby przejrzeć wygenerowany szablon i podgląd przykładów z twoich notatek.
+8. Wybierz **Importuj** ponownie i poczekaj, aż import się zakończy.
+
+## Szablony
+
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Bear.
+
+![[Szablony importera#Zmienne]]

@@ -60,9 +60,9 @@ Koduje tekst do użycia w adresie URL, w tym znaki zarezerwowane, takie jak `/`,
 
 ### `indent`
 
-Dodaje wcięcie z użyciem spacji do każdej niepustej linii. Domyślnie dwie spacje.
+Dodaje wcięcie z użyciem spacji do każdej niepustego wiersza. Domyślnie dwie spacje.
 
-- `indent:4` dodaje wcięcie czterech spacji do każdej linii.
+- `indent:4` dodaje wcięcie czterech spacji do każdego wiersza.
 - `indent:0` pozostawia tekst bez zmian.
 
 ### `kebab`
@@ -132,9 +132,9 @@ Skraca tekst do określonej liczby słów i dodaje `…`.
 
 ### `unescape`
 
-Konwertuje sekwencje ucieczki cudzysłowów i znaków nowej linii na znaki dosłowne.
+Konwertuje sekwencje ucieczki cudzysłowów i znaków nowego wiersza na znaki dosłowne.
 
-- `"Line 1\\nLine 2"|unescape` zwraca tekst w dwóch liniach.
+- `"Line 1\\nLine 2"|unescape` zwraca tekst w dwóch wierszach.
 - `'He said \\"hello\\"'|unescape` zwraca `He said "hello"`.
 
 ### `uncamel`
@@ -154,7 +154,7 @@ Zastosowanie [[Podstawowa składnia formatowania|podstawowej składni formatowan
 
 ### `blockquote`
 
-Dodaje prefix cytatu Markdown (`> `) do każdej linii danych wejściowych.
+Dodaje prefix cytatu Markdown (`> `) do każdego wiersza danych wejściowych.
 
 ### `bold`
 
@@ -165,7 +165,7 @@ Otacza tekst znacznikami pogrubienia.
 
 ### `callout`
 
-Tworzy [[Bloki informacyjne|blok wyróżnienia]] z opcjonalnymi parametrami: `{{variable|callout:("type", "title", foldState)}}`
+Tworzy [[Bloki informacyjne|blok informacyjny]] z opcjonalnymi parametrami: `{{variable|callout:("type", "title", foldState)}}`
 
 - `type` to rodzaj objaśnienia, domyślnie "info"
 - `title` to tytuł objaśnienia, domyślnie pusty
@@ -211,20 +211,20 @@ Konwertuje tablicę lub obiekt na listę przypisów Markdown.
 
 ### `fragment_link`
 
-Konwertuje ciągi i tablice na linki [fragmentów tekstowych](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments). Domyślnie używa "link" jako tekstu linku.
+Konwertuje ciągi i tablice na łącza [fragmentów tekstowych](https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments). Domyślnie używa "łącze" jako tekstu łącza.
 
 - `highlights|fragment_link` zwraca `Highlight content [link](text-fragment-url)`
 - `highlights|fragment_link:"custom title"` zwraca `Highlight content [custom title](text-fragment-url)`
 
 ### `h1` do `h6`
 
-Zamienia każdą niepustą linię w nagłówek odpowiedniego poziomu.
+Zamienia każdą niepusty wiersz w nagłówek odpowiedniego poziomu.
 
 - `"Introduction"|h2` zwraca `## Introduction`.
 
 ### `hard_break`
 
-Dodaje dwie spacje przed każdym pojedynczym znakiem nowej linii, dzięki czemu podziały linii są widoczne w trybie odczytu. Puste linie między akapitami pozostają bez zmian.
+Dodaje dwie spacje przed każdym pojedynczym znakiem nowego wiersza, dzięki czemu podziały wiersza są widoczne w trybie odczytu. Puste wiersze między akapitami pozostają bez zmian.
 
 ### `highlight`
 
@@ -235,9 +235,9 @@ Otacza tekst znacznikami wyróżnienia.
 
 ### `hr`
 
-Dodaje linię poziomą (`---`) po tekście, oddzieloną pustą linią.
+Dodaje linię poziomą (`---`) po tekście, oddzieloną pustym wierszem.
 
-- `"Section end"|hr` dodaje linię po tekście.
+- `"Section end"|hr` dodaje linię poziomą po tekście.
 - `hr:before` dodaje ją przed tekstem, a `hr:both` dodaje po obu stronach.
 
 ### `image`
@@ -257,11 +257,11 @@ Otacza tekst znacznikami kursywy.
 
 ### `link`
 
-Konwertuje ciągi, tablice lub obiekty na składnię linków Markdown (nie mylić z [[Filtry#`wikilink`|wikilink]]).
+Konwertuje ciągi, tablice lub obiekty na składnię łączy Markdown (nie mylić z [[Filtry#`wikilink`|wikilink]]).
 
 - Dla ciągów: `"url"|link:"author"` zwraca `[author](url)`.
-- Dla tablic: `["url1","url2"]|link:"author"` zwraca tablicę linków Markdown z tym samym tekstem dla wszystkich linków.
-- Dla obiektów: `{"url1": "Author 1", "url2": "Author 2"}|link` zwraca linki Markdown z tekstem odpowiadającym kluczom obiektu.
+- Dla tablic: `["url1","url2"]|link:"author"` zwraca tablicę łączy Markdown z tym samym tekstem dla wszystkich łączy.
+- Dla obiektów: `{"url1": "Author 1", "url2": "Author 2"}|link` zwraca łącza Markdown z tekstem odpowiadającym kluczom obiektu.
 
 ### `list`
 
@@ -280,7 +280,7 @@ Formatuje tekst jako [[Zaawansowana składnia formatowania#Matematyka|formułę 
 
 ### `math_block`
 
-Zawsze tworzy blok matematyczny z `$$` w liniach przed i po tekście.
+Zawsze tworzy blok matematyczny z `$$` w wierszach przed i po tekście.
 
 ### `strike`
 
@@ -308,7 +308,7 @@ Konwertuje ciągi, tablice lub obiekty na składnię [[Łączenie notatek|odnoś
 - Dla ciągów: `"page"|wikilink` zwraca `[[page]]`.
 - Dla ciągów z aliasem: `"page"|wikilink:"alias"` zwraca `[[page|alias]]`.
 - Dla tablic: `["page1","page2"]|wikilink` zwraca tablicę odnośników wiki bez aliasów.
-- Dla tablic z aliasem: `["page1","page2"]|wikilink:"alias"` zwraca tablicę odnośników wiki z tym samym aliasem dla wszystkich linków.
+- Dla tablic z aliasem: `["page1","page2"]|wikilink:"alias"` zwraca tablicę odnośników wiki z tym samym aliasem dla wszystkich łączy.
 - Dla obiektów: `{"page1": "alias1", "page2": "alias2"}|wikilink` zwraca odnośniki wiki z kluczami jako nazwami stron i wartościami jako aliasami.
 
 ## Liczby
@@ -436,7 +436,7 @@ Zwraca pierwszy element tablicy, zachowując jego typ. Obiekty i zagnieżdżone 
 Łączy elementy tablicy w ciąg.
 
 - `["a","b","c"]|join` zwraca `"a,b,c"`.
-- Można określić niestandardowy separator: `["a","b","c"]|join:" "` zwraca `"a b c"`. Użyj `join:"\n"`, aby oddzielić elementy znakiem nowej linii.
+- Można określić niestandardowy separator: `["a","b","c"]|join:" "` zwraca `"a b c"`. Użyj `join:"\n"`, aby oddzielić elementy znakiem nowego wiersza.
 - Przydatne po `split` lub `slice`: `"a,b,c,d"|split:","|slice:1,3|join:" "` zwraca `"b c"`.
 
 ### `last`

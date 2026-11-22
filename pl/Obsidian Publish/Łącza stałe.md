@@ -15,7 +15,7 @@ Na to:
 https://publish.obsidian.md/username/about
 ```
 
-Aby utworzyć łącze stałe dla notatki, dodaj właściwość `permalink` do swoich [[Atrybuty|Atrybutów]].
+Aby utworzyć łącze stałe dla notatki, dodaj atrybut `permalink` do swoich [[Atrybuty|atrybutów]].
 
 ```yaml
 ---
@@ -27,7 +27,7 @@ Jeśli ktoś odwiedzi notatkę za pomocą oryginalnego adresu URL, zostanie auto
 
 ## Przekierowanie starych notatek
 
-Zmiana nazw i usuwanie notatek to naturalna część utrzymywania żywego sejfu. Chociaż Obsidian automatycznie aktualizuje linki, gdy przenosisz notatkę w lokalnym sejfie, inne strony internetowe mogą nadal linkować do Twoich starych notatek na opublikowanej stronie [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Możesz przekierować czytelników z jednej notatki do innej.
+Zmiana nazw i usuwanie notatek to naturalna część utrzymywania żywego sejfu. Chociaż Obsidian automatycznie aktualizuje łącza, gdy przenosisz notatkę w lokalnym sejfie, inne strony internetowe mogą nadal odsyłać do twoich starych notatek na opublikowanej stronie [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Możesz przekierować czytelników z jednej notatki do innej.
 
 Wyobraź sobie, że chcesz przenieść notatkę z jednego folderu do innego:
 
@@ -36,7 +36,7 @@ Wyobraź sobie, że chcesz przenieść notatkę z jednego folderu do innego:
 - **Tutorials**
   - *How to make friends.md* (dodany)
 
-Po przeniesieniu notatki Obsidian automatycznie aktualizuje wszystkie linki w sejfie. Jednak jeśli opublikujesz zmianę na swojej stronie Publish, wszelkie linki do `/Guides/Making+friends` spowodują błąd 404.
+Po przeniesieniu notatki Obsidian automatycznie aktualizuje wszystkie łącza w sejfie. Jednak jeśli opublikujesz zmianę na swojej stronie Publish, wszelkie łącza do `/Guides/Making+friends` spowodują błąd 404.
 
 Aby przekierować czytelników z `/Guides/Making+friends` do `/Tutorials/How+to+make+friends`, musisz dodać [[Aliasy|alias]] w `How to make friends.md`, czyli notatce, do której chcesz przekierować.
 

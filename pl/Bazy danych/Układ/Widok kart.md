@@ -1,13 +1,13 @@
 ---
 permalink: bases/views/cards
 ---
-Karty to typ [[Widoki|podglądu]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
+Karty to typ [[Widoki|widoku]], którego możesz użyć w [[Wprowadzenie do baz danych|bazach danych]].
 
-Wybierz ![[lucide-layout-grid.svg#icon]]  **Karty** z menu podglądu, aby wyświetlić pliki w układzie siatki przypominającym galerię z opcjonalnymi obrazami okładek.
+Wybierz ![[lucide-layout-grid.svg#icon]]  **Karty** z menu widoku, aby wyświetlić pliki w układzie siatki przypominającym galerię z opcjonalnymi obrazami okładek.
 
 ## Ustawienia
 
-Ustawienia podglądu Karty można skonfigurować w [[Widoki#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia widoku Karty można skonfigurować w [[Widoki#Ustawienia widoku|Ustawieniach widoku]].
 
 - Rozmiar karty
 - Atrybut obrazu
@@ -22,8 +22,8 @@ Określa szerokość karty.
 
 Karty obsługują opcjonalny obraz okładki, który jest [[Atrybuty|atrybutem]] wyświetlanym jako obraz w górnej części karty. Atrybut może przyjmować jedną z następujących wartości:
 
-- Link do lokalnego [[Załączniki|załącznika]] `"[[link/do/załącznika.jpg]]"`
-- Link zewnętrzny (URL)
+- Łącze do lokalnego [[Załączniki|załącznika]] `"[[link/do/załącznika.jpg]]"`
+- Łącze zewnętrzny (URL)
 - Kod koloru w formacie hex (`#000000`)
 
 ### Dopasowanie obrazu

@@ -25,8 +25,8 @@ Obsidian obsługuje [CommonMark](https://commonmark.org/), [GitHub Flavored Mark
 | --------------- | -------------------------------------------------------------------------------------- |
 | `[[Link]]`      | [[Łącza wewnętrzne]]                                                                   |
 | `![[Link]]`     | [[Osadzanie plików]]                                                                   |
-| `![[Link#^id]]` | [[Łącza wewnętrzne#Link do bloku w notatce\|Odwołania do bloków]]                      |
-| `^id`           | [[Łącza wewnętrzne#Link do bloku w notatce\|Definiowanie bloku]]                       |
+| `![[Link#^id]]` | [[Łącza wewnętrzne#Łącze do bloku w notatce\|Odwołania do bloków]]                      |
+| `^id`           | [[Łącza wewnętrzne#Łącze do bloku w notatce\|Definiowanie bloku]]                       |
 | `[^id]`         | [[Podstawowa składnia formatowania#Przypisy\|Przypisy]]                                 |
 | `%%Text%%`      | [[Podstawowa składnia formatowania#Komentarze\|Komentarze]]                            |
 | `~~Text~~`      | [[Podstawowa składnia formatowania#Pogrubienie, kursywa, wyróżnienia\|Przekreślenia]]  |

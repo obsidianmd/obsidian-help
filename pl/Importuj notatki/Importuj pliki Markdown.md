@@ -7,8 +7,8 @@ Obsidian używa plików Markdown `.md` jako głównego formatu notatek. Dzięki 
 
 Istnieje kilka sposobów na dodanie plików Markdown do sejfu Obsidian:
 
-1. Przeciągnij i upuść pliki lub foldery do okna [[Eksplorator plików|Przeglądarki plików]]
-2. Użyj systemowej przeglądarki plików (np. Eksploratora Windows lub Findera na macOS) i przenieś pliki bezpośrednio do folderu sejfu Obsidian.
+1. Przeciągnij i upuść pliki lub foldery do okna [[Eksplorator plików|Eksploratora plików]]
+2. Użyj systemowego menedżera plików (np. Eksploratora Windows lub Findera na macOS) i przenieś pliki bezpośrednio do folderu sejfu Obsidian.
 
 ## Importowanie plików Markdown za pomocą Importera
 
@@ -26,6 +26,6 @@ Zobacz [[Szablony importera|Szablony Importera]], aby dostosować nazwę importo
 
 ## Szablony
 
-Użyj [[Szablony importera|szablonów Importera]], aby w pełni skonfigurować sposób importowania danych.
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych.
 
-![[Szablony importera#Variables]]
+![[Szablony importera#Zmienne]]

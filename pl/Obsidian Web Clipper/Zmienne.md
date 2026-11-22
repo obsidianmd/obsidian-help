@@ -15,7 +15,7 @@ Użyj ikony `...` w rozszerzeniu [[Wprowadzenie do Obsidian Web Clipper|Web Clip
 
 Zmienne wstępnie zdefiniowane są automatycznie generowane na podstawie zawartości strony. Zazwyczaj działają na większości stron internetowych.
 
-Główną zmienną treści jest `{{content}}`, która zawiera treść artykułu, [[Zakreślacz|wyróżnienia]] lub zaznaczenie, jeśli na stronie jest zaznaczony tekst. Należy pamiętać, że `{{content}}` próbuje wyodrębnić główną treść strony, co nie zawsze może odpowiadać Twoim potrzebom. W takim przypadku możesz użyć innych zmiennych wstępnie zdefiniowanych lub zmiennych selektorów, aby wyodrębnić potrzebną treść.
+Główną zmienną treści jest `{{content}}`, która zawiera treść artykułu, [[Zakreślacz|wyróżnienia]] lub zaznaczenie, jeśli na stronie jest zaznaczony tekst. Należy pamiętać, że `{{content}}` próbuje wyodrębnić główną treść strony, co nie zawsze może odpowiadać twoim potrzebom. W takim przypadku możesz użyć innych zmiennych wstępnie zdefiniowanych lub zmiennych selektorów, aby wyodrębnić potrzebną treść.
 
 | Zmienna             | Opis                                                                           |
 | ------------------- | ------------------------------------------------------------------------------ |
@@ -101,7 +101,7 @@ Zmienne selektorów mogą być również używane bezpośrednio w [[Logika|logic
 
 ## Zmienne Schema.org
 
-Zmienne schema pozwalają wyodrębniać dane z [schema.org](https://schema.org/) JSON-LD na stronie. Dane schema.org mogą być również używane do automatycznego [[Obsidian Web Clipper/Szablony#Dopasowywanie Schema.org|wyzwalania szablonu]].
+Zmienne schema pozwalają wyodrębniać dane z [schema.org](https://schema.org/) JSON-LD na stronie. Dane schema.org mogą być również używane do automatycznego [[Obsidian Web Clipper/Szablony#Dopasowywanie schema.org|wyzwalania szablonu]].
 
 - `{{schema:@Typ:klucz}}` zwraca wartość klucza ze schematu.
 - `{{schema:@Typ:rodzic.dziecko}}` zwraca wartość zagnieżdżonej właściwości.
@@ -114,7 +114,7 @@ Możesz również użyć skróconej notacji bez określania typu schematu:
 - `{{schema:author}}` dopasuje pierwszą właściwość `author` znalezioną w dowolnym typie schematu.
 - `{{schema:name}}` dopasuje pierwszą właściwość `name` znalezioną w dowolnym typie schematu.
 
-Ta skrócona notacja jest szczególnie przydatna, gdy nie znasz lub nie zależy Ci na konkretnym typie schematu, ale znasz nazwę szukanej właściwości.
+Ta skrócona notacja jest szczególnie przydatna, gdy nie znasz lub nie zależy ci na konkretnym typie schematu, ale znasz nazwę szukanej właściwości.
 
 Zagnieżdżone właściwości i dostęp do tablic działają zarówno z określonym `@Typem` schematu, jak i bez niego:
 

@@ -20,9 +20,9 @@ Załączniki można dodawać do sejfu na wiele sposobów. Dodawać można tylko 
 
 Domyślnie załączniki są dodawane do katalogu głównego sejfu.
 
-Domyślną lokalizację załączników możesz zmienić w **[[Ustawienia]] → Pliki i łącza → Domyślna lokalizacja załączników**.
+Domyślną lokalizację załączników możesz zmienić w **[[Ustawienia]] → Pliki i łącza → Domyślna lokalizacja nowych załączników**.
 
 - **W folderze głównym** — dodaje załącznik do katalogu głównego sejfu.
-- **W folderze określonym poniżej** — dodaje załącznik do wskazanego folderu.
-- **W tym samym folderze, w którym znajduje się aktywny plik** — dodaje załącznik do tego samego folderu, w którym znajduje się notatka, do której go dodano.
-- **W podfolderze aktywnego folderu** — dodaje załączniki do wskazanego folderu obok notatki, do której dodano załącznik. Jeśli folder nie istnieje, Obsidian utworzy go podczas dodawania załącznika.
+- **Folder określony poniżej** — dodaje załącznik do wskazanego folderu.
+- **Folder aktywnego pliku** — dodaje załącznik do tego samego folderu, w którym znajduje się notatka, do której go dodano.
+- **Podfolder w folderze aktywnego pliku** — dodaje załączniki do wskazanego folderu obok notatki, do której dodano załącznik. Jeśli folder nie istnieje, Obsidian utworzy go podczas dodawania załącznika.

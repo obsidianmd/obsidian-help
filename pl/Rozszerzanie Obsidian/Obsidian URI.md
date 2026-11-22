@@ -14,16 +14,16 @@ obsidian://action?param1=value&param2=value
 Parametr `action` to akcja, którą chcesz wykonać. Dostępne akcje obejmują:
 
 - `open` aby otworzyć notatkę.
-- `new` aby stworzyć lub dodać do istniejącej notatki.
-- `daily` aby stworzyć lub otworzyć codzienną notatkę.
-- `unique` aby stworzyć nową unikatową notatkę.
+- `new` aby utworzyć lub dodać do istniejącej notatki.
+- `daily` aby utworzyć lub otworzyć codzienną notatkę.
+- `unique` aby utworzyć nową unikatową notatkę.
 - `search` aby otworzyć wyszukiwanie.
 - `choose-vault` aby otworzyć menedżer sejfów.
 
 > [!warning] Kodowanie
 > Upewnij się, że wartości są prawidłowo zakodowane w formacie URI. Na przykład znaki ukośnika `/` muszą być zakodowane jako `%2F`, a znaki spacji muszą być zakodowane jako `%20`.
 > 
-> Jest to szczególnie ważne, ponieważ nieprawidłowo zakodowany „zarezerwowany" znak może zaburzyć interpretację URI. [Szczegóły znajdziesz tutaj](https://en.wikipedia.org/wiki/Percent-encoding).
+> Jest to szczególnie ważne, ponieważ nieprawidłowo zakodowany „zarezerwowany” znak może zaburzyć interpretację URI. [Szczegóły znajdziesz tutaj](https://en.wikipedia.org/wiki/Percent-encoding).
 
 ## Otwieranie notatki
 
@@ -42,7 +42,7 @@ Akcja `open` otwiera sejf Obsidian lub otwiera plik w tym sejfie.
 
 
 > [!tip] Otwieranie nagłówka lub bloku
-> Przy prawidłowym kodowaniu URI możesz nawigować do nagłówka lub bloku w notatce. `Note%23Heading` przeniesie do nagłówka o nazwie „Heading", natomiast `Note%23%5EBlock` przeniesie do bloku o nazwie „Block".
+> Przy prawidłowym kodowaniu URI możesz nawigować do nagłówka lub bloku w notatce. `Note%23Heading` przeniesie do nagłówka o nazwie „Heading”, natomiast `Note%23%5EBlock` przeniesie do bloku o nazwie „Block”.
 
 ### Kopiowanie adresu URL Obsidian
 
@@ -50,9 +50,9 @@ Obsidian może wygenerować URI `open` dla aktywnej notatki, dzięki czemu nie m
 
 Adres URL Obsidian można skopiować na dowolny z poniższych sposobów.
 
-- W [[Paleta poleceń|palecie poleceń]] wybierz **Skopiuj URL Obsidian**.
-- W notatce wybierz **Więcej opcji** ![[lucide-more-horizontal.svg#icon]], a następnie wybierz **Skopiuj ścieżkę → jako adres URL Obsidian**. Zobacz [[Menu więcej opcji]].
-- Na komputerze kliknij prawym przyciskiem myszy plik w [[Eksplorator plików|eksploratorze plików]], a następnie wybierz **Skopiuj ścieżkę → jako adres URL Obsidian**.
+- W [[Paleta poleceń|palecie poleceń]] wybierz **Kopiuj URL Obsidian aktywnego pliku**.
+- W notatce wybierz **Więcej opcji** ![[lucide-more-horizontal.svg#icon]], a następnie wybierz **Kopiuj ścieżkę → jako URL Obsidian**. Zobacz [[Menu więcej opcji]].
+- Na komputerze kliknij prawym przyciskiem myszy plik w [[Eksplorator plików|eksploratorze plików]], a następnie wybierz **Kopiuj ścieżkę → jako URL Obsidian**.
 
 ### Parametry
 
@@ -84,7 +84,7 @@ Akcja `new` tworzy nową notatkę w sejfie, opcjonalnie z pewną zawartością.
 ### Parametry
 
 - `vault` może być nazwą sejfu lub ID sejfu[^1]. Tak samo jak w akcji `open`.
-- `name` nazwa pliku do utworzenia. Jeśli jest podana, lokalizacja pliku zostanie wybrana na podstawie preferencji „Domyślna lokalizacja nowej notatki".
+- `name` nazwa pliku do utworzenia. Jeśli jest podana, lokalizacja pliku zostanie wybrana na podstawie preferencji „Domyślna lokalizacja nowych notatek”.
 - `file` bezwzględna ścieżka w sejfie, łącznie z nazwą. Nadpisze `name`, jeśli jest podana.
 - `path` globalnie bezwzględna ścieżka. Działa podobnie jak opcja `path` w akcji `open`, która nadpisze zarówno `vault`, jak i `file`.
 - `paneType` (opcjonalne) określa, gdzie notatka zostanie otwarta w interfejsie. Tak samo jak w akcji `open`.
@@ -95,9 +95,9 @@ Akcja `new` tworzy nową notatkę w sejfie, opcjonalnie z pewną zawartością.
 - `prepend` (opcjonalne) dołącz ten parametr, aby dodać na początku istniejącego pliku, jeśli taki istnieje, scalając atrybuty.
 - `heading` (opcjonalne) dodaj zawartość do sekcji pod tym nagłówkiem zamiast do całego pliku. Wymaga `append` lub `prepend`.
 - `spacing` (opcjonalne) sposób oddzielenia zawartości od istniejącej treści. Wymaga `append` lub `prepend`.
-  - `spacing=auto` (domyślnie) pozostawia pustą linię między nimi.
-  - `spacing=newline` rozpoczyna zawartość w nowej linii.
-  - `spacing=inline` dodaje zawartość bez znaku nowej linii.
+  - `spacing=auto` (domyślnie) pozostawia pusty wiersz między nimi.
+  - `spacing=newline` rozpoczyna zawartość w nowego wiersza.
+  - `spacing=inline` dodaje zawartość bez znaku nowego wiersza.
 - `overwrite` (opcjonalne) nadpisz istniejący plik, jeśli taki istnieje, ale tylko wtedy, gdy ani `append`, ani `prepend` nie jest ustawione.
 - `x-success` (opcjonalne) zobacz [[#Używanie parametrów x-callback-url]].
 
@@ -173,7 +173,7 @@ Ta akcja Obsidian URI jest przeznaczona do użytku z [Hook](https://hookproducti
 - `x-success` (opcjonalne) zobacz [[#Używanie parametrów x-callback-url]].
 - `x-error` (opcjonalne) zobacz [[#Używanie parametrów x-callback-url]].
 
-Jeśli `x-success` jest zdefiniowane, to API użyje go jako x-callback-url. W przeciwnym razie skopiuje link Markdown bieżącej aktywnej notatki do schowka jako adres URL `obsidian://open`.
+Jeśli `x-success` jest zdefiniowane, to API użyje go jako x-callback-url. W przeciwnym razie skopiuje łącze Markdown bieżącej aktywnej notatki do schowka jako adres URL `obsidian://open`.
 
 ## Używanie parametrów x-callback-url
 
@@ -188,7 +188,7 @@ Na przykład, jeśli Obsidian otrzyma
 
 ## Formaty skrócone
 
-Oprócz powyższych formatów dostępne są dwa dodatkowe „skrócone" formaty do otwierania sejfów i plików:
+Oprócz powyższych formatów dostępne są dwa dodatkowe „skrócone” formaty do otwierania sejfów i plików:
 
 1. `obsidian://vault/my vault/my note` jest równoważne z `obsidian://open?vault=my%20vault&file=my%20note`.
 2. `obsidian:///absolute/path/to/my note` jest równoważne z `obsidian://open?path=%2Fabsolute%2Fpath%2Fto%2Fmy%20note`.
@@ -206,4 +206,4 @@ W systemie Linux jest to bardziej złożony proces:
 3. Jeśli używasz instalatora AppImage, może być konieczne rozpakowanie go za pomocą `Obsidian-x.y.z.AppImage --appimage-extract`. Następnie upewnij się, że dyrektywa `Exec` wskazuje na rozpakowany plik wykonywalny.
 
 
-[^1]: ID sejfu to losowy 16-znakowy kod przypisany do sejfu, na przykład `ef6ca3e3b524d22f`. To ID jest unikalne dla każdego folderu na komputerze. ID można znaleźć, otwierając przełącznik sejfów i klikając „Skopiuj ID sejfu" w menu kontekstowym wybranego sejfu.
+[^1]: ID sejfu to losowy 16-znakowy kod przypisany do sejfu, na przykład `ef6ca3e3b524d22f`. To ID jest unikalne dla każdego folderu na komputerze. ID można znaleźć, otwierając przełącznik sejfów i klikając **Kopiuj ID sejfu** w menu kontekstowym wybranego sejfu.

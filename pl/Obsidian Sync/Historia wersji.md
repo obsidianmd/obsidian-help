@@ -36,8 +36,8 @@ Gdy włączysz wbudowaną wtyczkę [[Wprowadzenie do Obsidian Sync|Sync]], histo
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
 
 1. Otwórz **Paletę poleceń**. ![[lucide-terminal.svg#icon]]
-2. Wpisz „Sync".
-3. Wybierz opcję „Sync: Show Sync history".
+2. Wpisz „Sync”.
+3. Wybierz opcję „Sync: Show Sync history”.
 
 Historia synchronizacji pojawi się na [[Panel boczny|prawym panelu bocznym]].
 
@@ -45,8 +45,8 @@ Historia synchronizacji pojawi się na [[Panel boczny|prawym panelu bocznym]].
 
 1. Otwórz [[Pasek boczny]] ![[lucide-menu.svg#icon]].
 2. Otwórz **Paletę poleceń**. ![[lucide-terminal.svg#icon]]
-3. Wpisz „Sync".
-4. Wybierz opcję „Sync: Show Sync history".
+3. Wpisz „Sync”.
+4. Wybierz opcję „Sync: Show Sync history”.
 
 Historia synchronizacji pojawi się jako opcja rozwijana na [[Panel boczny|prawym panelu bocznym]].
 
@@ -54,14 +54,14 @@ Historia synchronizacji pojawi się jako opcja rozwijana na [[Panel boczny|prawy
 
 1. Otwórz **[[Ustawienia]]**.
 2. W kategorii **Opcje** wybierz **Skróty klawiszowe**.
-3. W pasku wyszukiwania skrótów klawiszowych wpisz „Sync".
-4. Obok „Sync: Show Sync history" przypisz preferowany skrót klawiszowy.
+3. W pasku wyszukiwania skrótów klawiszowych wpisz „Sync”.
+4. Obok „Sync: Show Sync history” przypisz preferowany skrót klawiszowy.
 
 ## Historia wersji
 
 Oprócz [[#Historia synchronizacji|historii synchronizacji]] Obsidian prowadzi również historię wersji umożliwiającą przywracanie notatek i załączników. Jeśli przypadkowo usuniesz notatkę lub chcesz wrócić do poprzedniej wersji, możesz ją przywrócić z historii wersji.
 
-Okres przechowywania historii wersji zależy od Twojego [[Plany i limity przechowywania|planu Obsidian Sync]]. W planie Standard notatki są przechowywane przez 1 miesiąc, natomiast w planie Plus przez 12 miesięcy. Po upływie tego okresu starsze wersje notatek są usuwane.
+Okres przechowywania historii wersji zależy od twojego [[Plany i limity przechowywania|planu Obsidian Sync]]. W planie Standard notatki są przechowywane przez 1 miesiąc, natomiast w planie Plus przez 12 miesięcy. Po upływie tego okresu starsze wersje notatek są usuwane.
 
 W przypadku [[Załączniki|załączników]] starsze wersje są przechowywane przez <u>dwa tygodnie</u>.
 
@@ -74,12 +74,12 @@ Proces przywracania notatek i załączników jest taki sam.
 #### Wyświetlanie historii wersji pliku
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
 2. Wybierz **Otwórz historię wersji**.
 3. Wybierz wersję notatki, którą chcesz wyświetlić, po lewej stronie. Zawartość zostanie wyświetlona po prawej.
 
 **Urządzenie mobilne** ![[obsidian-icon-smartphone.svg#icon]]
-1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
 2. Przytrzymaj, aby wywołać menu kontekstowe.
 3. Wybierz **Otwórz historię wersji**.
 4. W wyskakującym menu wybierz wersję notatki, którą chcesz wyświetlić.
@@ -96,14 +96,14 @@ Proces przywracania notatek i załączników jest taki sam.
 #### Przywracanie poprzedniej wersji pliku
 
 **Komputer/Tablet** ![[lucide-monitor-check.svg#icon]]
-1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
 2. Wybierz **Otwórz historię wersji**.
 3. Wybierz wersję notatki, którą chcesz przywrócić, po lewej stronie. Zawartość zostanie wyświetlona po prawej.
 4. Wybierz przycisk **Przywróć**.
 5. Zawartość notatki zostanie zastąpiona przywróconą wersją.
 
 **Urządzenie mobilne** ![[obsidian-icon-smartphone.svg#icon]]
-1. W **Przeglądarce plików** wybierz notatkę, którą chcesz przywrócić.
+1. W **Eksploratorze plików** wybierz notatkę, którą chcesz przywrócić.
 2. Przytrzymaj, aby wywołać menu kontekstowe.
 3. Wybierz **Otwórz historię wersji**.
 4. W wyskakującym menu wybierz wersję notatki, którą chcesz przywrócić.

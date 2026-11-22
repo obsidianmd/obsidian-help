@@ -9,11 +9,11 @@ description: 'Dowiedz się, jak przejść z obecnego rozwiązania synchronizacji
 Dowiedz się, jak przejść z aktualnego rozwiązania synchronizacji na Obsidian Sync.
 
 > [!warning] Unikaj korzystania z wielu rozwiązań do synchronizacji tych samych plików
-> [[Najczęściej zadawane pytania#Czy mogę używać zewnętrznej synchronizacji z Obsidian Sync?|Nie zalecamy]] korzystania z Obsidian Sync równocześnie z usługami przechowywania w chmurze (np. iCloud, Dropbox, OneDrive, Google Drive), ponieważ może to powodować konflikty. Jednak usługi przechowywania w chmurze mogą odgrywać rolę w Twojej strategii [[Tworzenie kopii zapasowej plików Obsidian|tworzenia kopii zapasowych]].
+> [[Najczęściej zadawane pytania#Czy mogę używać zewnętrznej synchronizacji z Obsidian Sync?|Nie zalecamy]] korzystania z Obsidian Sync równocześnie z usługami przechowywania w chmurze (np. iCloud, Dropbox, OneDrive, Google Drive), ponieważ może to powodować konflikty. Jednak usługi przechowywania w chmurze mogą odgrywać rolę w twojej strategii [[Tworzenie kopii zapasowej plików Obsidian|tworzenia kopii zapasowych]].
 
 ## Przenieś swój sejf poza usługę synchronizacji lub chmurę
 
-Jeśli Twój sejf jest przechowywany w którejkolwiek z poniższych lokalizacji, prawdopodobnie jest synchronizowany przez usługę zewnętrzną:
+Jeśli twój sejf jest przechowywany w którejkolwiek z poniższych lokalizacji, prawdopodobnie jest synchronizowany przez usługę zewnętrzną:
 
 - **Windows**: `C:\Users\Username\Desktop` lub `C:\Users\Username\Documents`
 - **macOS**: `/users/username/Desktop` lub `/users/username/Documents`
@@ -22,7 +22,7 @@ Jeśli Twój sejf jest przechowywany w którejkolwiek z poniższych lokalizacji,
 
 Android i Linux zazwyczaj mają mniej problemów z tym związanych, ale mimo to warto sprawdzić lokalizację sejfu na tych urządzeniach.
 
-> [!tip] Jeśli Twój aktualny lokalny sejf jest połączony ze zdalnym sejfem, Obsidian spróbuje wykryć, czy sejf znajduje się w usłudze synchronizacji. Jeśli tak, zobaczysz komunikat na górze ustawień Obsidian Sync.
+> [!tip] Jeśli twój aktualny lokalny sejf jest połączony ze zdalnym sejfem, Obsidian spróbuje wykryć, czy sejf znajduje się w usłudze synchronizacji. Jeśli tak, zobaczysz komunikat na górze ustawień Obsidian Sync.
 
 Aby uniknąć konfliktów z usługami synchronizacji, zalecamy przechowywanie sejfów Obsidian w następujących lokalizacjach:
 

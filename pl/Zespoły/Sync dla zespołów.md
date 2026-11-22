@@ -3,7 +3,7 @@ permalink: teams/sync
 cssclasses:
   - soft-embed
 ---
-Obsidian jest zaprojektowany do pracy zarówno online, jak i offline, dając Ci pełną kontrolę nad danymi Twojego zespołu. Aby udostępniać dane w zespole, musisz wybrać rozwiązanie do synchronizacji.
+Obsidian jest zaprojektowany do pracy zarówno online, jak i offline, dając ci pełną kontrolę nad danymi twojego zespołu. Aby udostępniać dane w zespole, musisz wybrać rozwiązanie do synchronizacji.
 
 ## Narzędzia i usługi synchronizacji
 
@@ -30,12 +30,12 @@ Jeśli zdalny sejf jest [[Obsidian Sync/Bezpieczeństwo i prywatność#Szyfrowan
 
 ![[Obsidian Sync/Bezpieczeństwo i prywatność#Hosting|Bezpieczeństwo i prywatność]]
 ![[Obsidian Sync/Bezpieczeństwo i prywatność#Jakiego szyfrowania używacie?|Bezpieczeństwo i prywatność]]
-![[Obsidian Sync/Bezpieczeństwo i prywatność#Czy Obsidian przeszedł zewnętrzny audyt bezpieczeństwa?|Bezpieczeństwo i prywatność]]
+![[Obsidian Sync/Bezpieczeństwo i prywatność#Czy Obsidian przeszedł niezależny audyt bezpieczeństwa?|Bezpieczeństwo i prywatność]]
 
 ## Najczęściej zadawane pytania
 
 **Czy mogę kupić jedną subskrypcję Sync i używać jej dla mojego zespołu?**
-Jeśli Twój zespół składa się z jednej osoby, tak, możesz używać subskrypcji Sync dla tego członka zespołu. Jednak jeśli masz wielu członków zespołu, każdy z nich będzie potrzebował własnej subskrypcji Obsidian Sync, aby uzyskać dostęp do wspólnych zdalnych sejfów i je udostępniać.
+Jeśli twój zespół składa się z jednej osoby, tak, możesz używać subskrypcji Sync dla tego członka zespołu. Jednak jeśli masz wielu członków zespołu, każdy z nich będzie potrzebował własnej subskrypcji Obsidian Sync, aby uzyskać dostęp do wspólnych zdalnych sejfów i je udostępniać.
 
 **Czy macie lokalny serwer Sync?**
 Obsidian Sync nie oferuje obecnie rozwiązania lokalnego (on-premises). Zachęcamy do dodania swojego przypadku użycia w [tym wątku z prośbą o funkcję](https://forum.obsidian.md/t/obsidian-sync-self-hosted-server/20975).

@@ -19,7 +19,7 @@ Możesz również przejść do następnego slajdu, naciskając spację.
 
 Aby zatrzymać prezentację, naciśnij `Escape` lub kliknij krzyżyk w prawym górnym rogu prezentacji.
 
-Możesz użyć dowolnego poprawnego pliku Markdown jako prezentacji. Aby rozdzielić slajdy, wpisz `---` na początku linii otoczonej pustymi liniami.
+Możesz użyć dowolnego poprawnego pliku Markdown jako prezentacji. Aby rozdzielić slajdy, wpisz `---` na początku wiersza otoczonej pustymi wierszami.
 
 ```md
 # Prezentacje za pomocą Slajdów

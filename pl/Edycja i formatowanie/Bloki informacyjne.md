@@ -4,82 +4,82 @@ publish: true
 mobile: true
 description: 'Ta strona opisuje, jak używać objaśnień, aby dołączać dodatkową treść bez zakłócania przepływu notatek.'
 ---
-Używaj bloków wyróżnienia, aby dołączyć dodatkową treść bez przerywania toku notatek.
+Używaj bloków informacyjnych, aby dołączyć dodatkową treść bez przerywania toku notatek.
 
-Aby utworzyć blok wyróżnienia, dodaj `[!info]` do pierwszego wiersza cytatu blokowego, gdzie `info` to _identyfikator typu_. Identyfikator typu określa wygląd i styl bloku wyróżnienia. Aby zobaczyć wszystkie dostępne typy, przejdź do [[#Obsługiwane typy]]. Bloki wyróżnienia są również obsługiwane natywnie w [[Wprowadzenie do Obsidian Publish|Obsidian Publish]].
+Aby utworzyć blok informacyjny, dodaj `[!info]` do pierwszego wiersza cytatu blokowego, gdzie `info` to _identyfikator typu_. Identyfikator typu określa wygląd i styl bloku informacyjnego. Aby zobaczyć wszystkie dostępne typy, przejdź do [[#Obsługiwane typy]]. Bloki informacyjne są również obsługiwane natywnie w [[Wprowadzenie do Obsidian Publish|Obsidian Publish]].
 
 ```markdown
-> [!info] Oto tytuł bloku wyróżnienia
-> Oto blok wyróżnienia.
+> [!info] Oto tytuł bloku informacyjnego
+> Oto blok informacyjny.
 > Obsługuje **Markdown**, [[Łącza wewnętrzne|odnośniki wiki]] i [[Osadzanie plików|osadzanie]]!
 > ![[Engelbart.jpg]]
 ```
 
-> [!info] Oto tytuł bloku wyróżnienia
-> Oto blok wyróżnienia.
+> [!info] Oto tytuł bloku informacyjnego
+> Oto blok informacyjny.
 > Obsługuje **Markdown**, [[Łącza wewnętrzne|odnośniki wiki]] i [[Osadzanie plików|osadzanie]]!
 > ![[Engelbart.jpg]]
 
-Możesz wstawić domyślny blok wyróżnienia `[!note]` za pomocą [[Paleta poleceń|polecenia]] `Objaśnienie`. Kursor automatycznie ustawi się w polu nazwy bloku wyróżnienia, umożliwiając usunięcie domyślnej nazwy i wpisanie nowej przed edycją treści.
+Możesz wstawić domyślny blok informacyjny `[!note]` za pomocą [[Paleta poleceń|polecenia]] `Objaśnienie`. Kursor automatycznie ustawi się w polu nazwy bloku informacyjnego, umożliwiając usunięcie domyślnej nazwy i wpisanie nowej przed edycją treści.
 
-Aby otoczyć istniejącą treść blokiem wyróżnienia, zaznacz tekst (w tym listy, bloki kodu itp.) i uruchom polecenie `Objaśnienie`. Zaznaczona treść zostanie automatycznie umieszczona w bloku wyróżnienia.
+Aby otoczyć istniejącą treść blokiem informacyjnym, zaznacz tekst (w tym listy, bloki kodu itp.) i uruchom polecenie `Objaśnienie`. Zaznaczona treść zostanie automatycznie umieszczona w bloku informacyjnym.
 
-W [[Tryby edycji i odczytu#Podgląd na żywo|podglądzie na żywo]] możesz również kliknąć prawym przyciskiem myszy nazwę bloku wyróżnienia, aby zmienić jego typ.
+W [[Tryby edycji i odczytu#Podgląd na żywo|podglądzie na żywo]] możesz również kliknąć prawym przyciskiem myszy nazwę bloku informacyjnego, aby zmienić jego typ.
 
 
 ### Zmiana tytułu
 
-Domyślnie tytuł bloku wyróżnienia to jego identyfikator typu zapisany wielką literą. Możesz go zmienić, dodając tekst po identyfikatorze typu:
+Domyślnie tytuł bloku informacyjnego to jego identyfikator typu zapisany wielką literą. Możesz go zmienić, dodając tekst po identyfikatorze typu:
 
 ```markdown
-> [!tip] Bloki wyróżnienia mogą mieć niestandardowe tytuły
+> [!tip] Bloki informacyjne mogą mieć niestandardowe tytuły
 > Tak jak ten.
 ```
 
-> [!tip] Bloki wyróżnienia mogą mieć niestandardowe tytuły
+> [!tip] Bloki informacyjne mogą mieć niestandardowe tytuły
 > Tak jak ten.
 
-Możesz nawet pominąć treść, aby utworzyć bloki wyróżnienia składające się tylko z tytułu:
+Możesz nawet pominąć treść, aby utworzyć bloki informacyjne składające się tylko z tytułu:
 
 ```markdown
-> [!tip] Blok wyróżnienia składający się tylko z tytułu
+> [!tip] Blok informacyjny składający się tylko z tytułu
 ```
 
-> [!tip] Blok wyróżnienia składający się tylko z tytułu
+> [!tip] Blok informacyjny składający się tylko z tytułu
 
-### Zwijalne bloki wyróżnienia
+### Zwijalne bloki informacyjne
 
-Możesz uczynić blok wyróżnienia zwijalnym, dodając plus (`+`) lub minus (`-`) bezpośrednio po identyfikatorze typu.
+Możesz uczynić blok informacyjny zwijalnym, dodając plus (`+`) lub minus (`-`) bezpośrednio po identyfikatorze typu.
 
-Znak plusa domyślnie rozwija blok wyróżnienia, a znak minusa go zwija.
+Znak plusa domyślnie rozwija blok informacyjny, a znak minusa go zwija.
 
 ```markdown
-> [!faq]- Czy bloki wyróżnienia są zwijalne?
-> Tak! W zwijalnym bloku wyróżnienia treść jest ukryta, gdy blok jest zwinięty.
+> [!faq]- Czy bloki informacyjne są zwijalne?
+> Tak! W zwijalnym bloku informacyjnym treść jest ukryta, gdy blok jest zwinięty.
 ```
 
-> [!faq]- Czy bloki wyróżnienia są zwijalne?
-> Tak! W zwijalnym bloku wyróżnienia treść jest ukryta, gdy blok jest zwinięty.
+> [!faq]- Czy bloki informacyjne są zwijalne?
+> Tak! W zwijalnym bloku informacyjnym treść jest ukryta, gdy blok jest zwinięty.
 
-### Zagnieżdżone bloki wyróżnienia
+### Zagnieżdżone bloki informacyjne
 
-Możesz zagnieżdżać bloki wyróżnienia na wielu poziomach.
+Możesz zagnieżdżać bloki informacyjne na wielu poziomach.
 
 ```markdown
-> [!question] Czy bloki wyróżnienia mogą być zagnieżdżone?
+> [!question] Czy bloki informacyjne mogą być zagnieżdżone?
 > > [!todo] Tak!, mogą.
 > > > [!example] Możesz nawet użyć wielu poziomów zagnieżdżenia.
 ```
 
-> [!question] Czy bloki wyróżnienia mogą być zagnieżdżone?
+> [!question] Czy bloki informacyjne mogą być zagnieżdżone?
 > > [!todo] Tak!, mogą.
 > > > [!example] Możesz nawet użyć wielu poziomów zagnieżdżenia.
 
-### Dostosowywanie bloków wyróżnienia
+### Dostosowywanie bloków informacyjnych
 
-[[Snippety CSS]] i [[Wtyczki społeczności]] mogą definiować niestandardowe bloki wyróżnienia, a nawet nadpisywać domyślną konfigurację.
+[[Snippety CSS]] i [[Wtyczki społeczności]] mogą definiować niestandardowe bloki informacyjne, a nawet nadpisywać domyślną konfigurację.
 
-Aby zdefiniować niestandardowy blok wyróżnienia, utwórz następujący blok CSS:
+Aby zdefiniować niestandardowy blok informacyjny, utwórz następujący blok CSS:
 
 ```css
 .callout[data-callout="custom-question-type"] {
@@ -94,20 +94,20 @@ Wartość atrybutu `data-callout` to identyfikator typu, którego chcesz użyć,
 - `--callout-icon` może być identyfikatorem ikony z [lucide.dev](https://lucide.dev) lub elementem SVG.
 
 > [!warning] Uwaga dotycząca wersji ikon lucide
-> Obsidian okresowo aktualizuje ikony Lucide. Aktualnie dołączona wersja jest pokazana poniżej; używaj tych lub wcześniejszych ikon w niestandardowych blokach wyróżnienia.
+> Obsidian okresowo aktualizuje ikony Lucide. Aktualnie dołączona wersja jest pokazana poniżej; używaj tych lub wcześniejszych ikon w niestandardowych blokach informacyjnych.
 > ![[Twórcy#^lucide]]
 
 > [!tip] Ikony SVG
-> Zamiast używać ikony Lucide, możesz również użyć elementu SVG jako ikony bloku wyróżnienia.
+> Zamiast używać ikony Lucide, możesz również użyć elementu SVG jako ikony bloku informacyjnego.
 >
 > ```css
 > --callout-icon: '<svg>...niestandardowy svg...</svg>';
 > ```
 
 > [!tip]- Dalsze dostosowywanie
-> Nie jesteś ograniczony do `--callout-color` i `--callout-icon`. Bloki wyróżnienia obsługują standardowe selektory i właściwości CSS, a także dodatkowe zmienne CSS do takich rzeczy jak obramowanie i stylizacja tytułu.
+> Nie jesteś ograniczony do `--callout-color` i `--callout-icon`. Bloki informacyjne obsługują standardowe selektory i właściwości CSS, a także dodatkowe zmienne CSS do takich rzeczy jak obramowanie i stylizacja tytułu.
 > 
-> Na przykład, ukryj tytuł bloku wyróżnienia:
+> Na przykład, ukryj tytuł bloku informacyjnego:
 > 
 > ```css
 > .callout[data-callout="custom-question-type"] .callout-title {
@@ -124,15 +124,15 @@ Wartość atrybutu `data-callout` to identyfikator typu, którego chcesz użyć,
 > }
 > ```
 > 
-> Pełną listę [zmiennych CSS bloków wyróżnienia](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) znajdziesz w dokumentacji.
+> Pełną listę [zmiennych CSS bloków informacyjnych](https://docs.obsidian.md/Reference/CSS+variables/Editor/Callout) znajdziesz w dokumentacji.
 
 ### Obsługiwane typy
 
-Możesz używać kilku typów bloków wyróżnienia i aliasów. Każdy typ ma inny kolor tła i ikonę.
+Możesz używać kilku typów bloków informacyjnych i aliasów. Każdy typ ma inny kolor tła i ikonę.
 
-Aby użyć tych domyślnych stylów, zastąp `info` w przykładach dowolnym z tych typów, np. `[!tip]` lub `[!warning]`. Typy bloków wyróżnienia można również zmienić, klikając prawym przyciskiem myszy blok wyróżnienia w trybie podglądu na żywo.
+Aby użyć tych domyślnych stylów, zastąp `info` w przykładach dowolnym z tych typów, np. `[!tip]` lub `[!warning]`. Typy bloków informacyjnych można również zmienić, klikając prawym przyciskiem myszy blok informacyjny w trybie podglądu na żywo.
 
-O ile nie [[#Dostosowywanie bloków wyróżnienia|dostosujesz bloków wyróżnienia]], każdy nieobsługiwany typ domyślnie przyjmuje typ `note`. Identyfikator typu nie rozróżnia wielkości liter.
+O ile nie [[#Dostosowywanie bloków informacyjnych|dostosujesz bloków informacyjnych]], każdy nieobsługiwany typ domyślnie przyjmuje typ `note`. Identyfikator typu nie rozróżnia wielkości liter.
 
 > [!note]
 > ```md

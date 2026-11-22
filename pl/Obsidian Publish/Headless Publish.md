@@ -40,7 +40,7 @@ ob publish
 
 ### `ob publish-list-sites`
 
-Wyświetla wszystkie strony Publish dostępne dla Twojego konta.
+Wyświetla wszystkie strony Publish dostępne dla twojego konta.
 
 ### `ob publish-create-site`
 
@@ -52,7 +52,7 @@ ob publish-create-site --slug <slug>
 
 | Opcja | Opis |
 | --- | --- |
-| `--slug` | Identyfikator URL dla Twojej strony (np. `my-notes` tworzy `publish.obsidian.md/my-notes`) |
+| `--slug` | Identyfikator URL dla twojej strony (np. `my-notes` tworzy `publish.obsidian.md/my-notes`) |
 
 ### `ob publish-setup`
 
@@ -69,7 +69,7 @@ ob publish-setup [--site <id-or-slug>] [--path <local-path>]
 
 ### `ob publish`
 
-Publikuje zmiany ze sejfu na Twojej stronie. Domyślnie uwzględniane są tylko pliki z `publish: true` w metadanych początkowych.
+Publikuje zmiany ze sejfu na twojej stronie. Domyślnie uwzględniane są tylko pliki z `publish: true` w metadanych początkowych.
 
 ```
 ob publish [--path <local-path>] [--all] [--dry-run] [--yes]
@@ -118,9 +118,9 @@ ob publish-site-options [--path <local-path>] [options]
 | `--show-hover-preview` | Pokaż podgląd po najechaniu kursorem |
 | `--show-theme-toggle` | Pokaż przełącznik motywu |
 | `--default-theme` | Domyślny motyw: `light` lub `dark` |
-| `--readable-line-length` | Czytelna długość linii |
+| `--readable-line-length` | Czytelna długość wiersza |
 | `--strict-line-breaks` | Łamanie wiersza |
-| `--hide-title` | Ukryj tytuł w linii |
+| `--hide-title` | Ukryj tytuł w notatce |
 | `--sliding-window` | Tryb przesuwanego okna |
 | `--nav-order` | Kolejność nawigacji, ścieżki oddzielone przecinkami (pusty ciąg, aby wyczyścić) |
 | `--nav-hidden` | Ukryte elementy nawigacji, ścieżki oddzielone przecinkami (pusty ciąg, aby wyczyścić) |

@@ -7,13 +7,13 @@ Jeśli chcesz odwoływać się do pliku za pomocą różnych nazw, rozważ dodan
 
 Używaj aliasów do takich rzeczy jak akronimy, pseudonimy lub do odwoływania się do notatki w innym języku.
 
-Jeśli chcesz jedynie zmienić wygląd linku w jednym miejscu, sprawdź jak [[Łącza wewnętrzne#Zmiana wyświetlanego tekstu łącza|Zmienić wyświetlany tekst łącza]].
+Jeśli chcesz jedynie zmienić wygląd łącza w jednym miejscu, sprawdź jak [[Łącza wewnętrzne#Zmiana wyświetlanego tekstu łącza|Zmienić wyświetlany tekst łącza]].
 
 ![[Łącza wewnętrzne#^callout-internal-links-link-text]]
 
 ## Dodawanie aliasu do notatki
 
-Aby dodać alias do notatki, dodaj właściwość `aliases` w [[Atrybuty|atrybutach]] notatki. Aliasy powinny być zawsze sformatowane jako lista w YAML.
+Aby dodać alias do notatki, dodaj atrybut `aliases` w [[Atrybuty|atrybutach]] notatki. Aliasy powinny być zawsze sformatowane jako lista w YAML.
 
 ```md
 ---

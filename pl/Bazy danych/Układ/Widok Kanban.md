@@ -1,38 +1,38 @@
 ---
 permalink: bases/views/kanban
 ---
-Kanban to typ [[Widoki|podglądu]], którego możesz używać w [[Wprowadzenie do baz danych|Bazach danych]].
+Kanban to typ [[Widoki|widoku]], którego możesz używać w [[Wprowadzenie do baz danych|Bazach danych]].
 
-Wybierz ![[lucide-kanban-square.svg#icon]] **Kanban** z menu podglądu, aby wyświetlić pliki jako karty zorganizowane w kolumny. Każda kolumna reprezentuje wartość właściwości użytej do grupowania wyników.
+Wybierz ![[lucide-kanban-square.svg#icon]] **Kanban** z menu widoku, aby wyświetlić pliki jako karty zorganizowane w kolumny. Każda kolumna reprezentuje wartość atrybutu użytego do grupowania wyników.
 
 
 > [!note] Wymaga Obsidian 1.14+
-> Podglądy Kanban są dostępne w Obsidian 1.14 i nowszych wersjach.
+> Widoki Kanban są dostępne w Obsidian 1.14 i nowszych wersjach.
 
 
 ## Grupowanie kart w kolumny
 
-Podgląd Kanban wymaga właściwości do grupowania wyników.
+Widok Kanban wymaga atrybutu do grupowania wyników.
 
 1. Wybierz **Grupuj** na pasku narzędzi. Na telefonach wybierz **Wyświetlanie → Grupuj**.
-2. W sekcji **Grupuj**, wybierz właściwość.
+2. W sekcji **Grupuj** wybierz atrybut.
 
-Pliki bez wartości dla wybranej właściwości pojawiają się w kolumnie **Brak wartości**.
+Pliki bez wartości dla wybranego atrybutu pojawiają się w kolumnie **Brak wartości**.
 
-> [!info] 
-> Jeśli grupujesz według wzoru lub właściwości pliku innej niż `file.folder`, nie możesz przenosić kart ani kolumn, ani tworzyć notatek z kolumn. Nadal możesz [[Widoki#Zmienianie kolejności, ukrywanie i dodawanie grup|zarządzać kolejnością i widocznością grup]] w menu **Grupuj**.
+> [!info]
+> Jeśli grupujesz według wzoru lub atrybutu pliku innego niż `file.folder`, nie możesz przenosić kart ani kolumn, ani tworzyć notatek z kolumn. Nadal możesz [[Widoki#Zmiana kolejności, ukrywanie i dodawanie grup|zarządzać kolejnością i widocznością grup]] w menu **Grupuj**.
 
 ## Praca z kartami i kolumnami
 
-- Przeciągnij kartę do innej kolumny, aby zaktualizować zgrupowaną właściwość w danej notatce. Między kolumnami można przenosić tylko notatki Markdown, z wyjątkiem grupowania według `file.folder`, gdzie przeniesienie karty przenosi plik do tego folderu.
+- Przeciągnij kartę do innej kolumny, aby zaktualizować atrybut grupowania w danej notatce. Między kolumnami można przenosić tylko notatki Markdown, z wyjątkiem grupowania według `file.folder`, gdzie przeniesienie karty przenosi plik do tego folderu.
 - Wybierz ikonę plusa w nagłówku kolumny lub ![[lucide-plus.svg#icon]] **Nowe** na dole kolumny, aby utworzyć notatkę z wartością tej kolumny.
 - Przeciągnij nagłówek kolumny, aby zmienić kolejność kolumn. Aby przywrócić automatyczną kolejność, otwórz **Grupuj** i wybierz automatyczną kolejność sortowania zamiast **Ręcznie**.
-- Użyj **Grupuj**, aby [[Widoki#Zmienianie kolejności, ukrywanie i dodawanie grup|zmieniać kolejność, ukrywać lub dodawać kolumny]].
-- Użyj menu ![[lucide-list.svg#icon]] **Atrybuty**, aby wybrać właściwości wyświetlane na każdej karcie. Pierwsza właściwość jest wyświetlana jako tytuł karty.
+- Użyj **Grupuj**, aby [[Widoki#Zmiana kolejności, ukrywanie i dodawanie grup|zmieniać kolejność, ukrywać lub dodawać kolumny]].
+- Użyj menu ![[lucide-list.svg#icon]] **Atrybuty**, aby wybrać atrybuty wyświetlane na każdej karcie. Pierwszy atrybut jest wyświetlany jako tytuł karty.
 
 ## Ustawienia
 
-Ustawienia podglądu Kanban można skonfigurować w [[Widoki#Ustawienia podglądu|Ustawieniach podglądu]].
+Ustawienia widoku Kanban można skonfigurować w [[Widoki#Ustawienia widoku|Ustawieniach widoku]].
 
 - Szerokość kolumny
 - Atrybut obrazu
@@ -45,7 +45,7 @@ Określa szerokość każdej kolumny i jej kart.
 
 ### Atrybut obrazu
 
-Karty Kanban obsługują opcjonalną okładkę wyświetlaną na górze karty. Obsługiwane wartości właściwości są takie same jak w przypadku [[Widok kart#Atrybut obrazu|atrybutu obrazu w podglądzie Karty]].
+Karty Kanban obsługują opcjonalną okładkę wyświetlaną na górze karty. Obsługiwane wartości atrybutu są takie same jak w przypadku [[Widok kart#Atrybut obrazu|atrybutu obrazu w widoku Karty]].
 
 ### Dopasowanie obrazu
 

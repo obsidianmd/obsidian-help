@@ -18,7 +18,7 @@ Aby dodać snippet CSS na **komputerze** ![[lucide-monitor-check.svg#icon]], wyk
 
 1. Otwórz **[[Ustawienia]]** ![[lucide-settings.svg#icon]].
 2. W sekcji **Wygląd → Snippety CSS** wybierz **Otwórz folder snippetów** ![[lucide-folder-open.svg#icon]].
-3. W folderze snippetów utwórz plik CSS zawierający Twój snippet.
+3. W folderze snippetów utwórz plik CSS zawierający twój snippet.
 4. W Obsidian, w sekcji **Wygląd → Snippety CSS**, wybierz **Odśwież snippety** ![[lucide-refresh-cw.svg#icon]], aby zobaczyć snippet na liście.
 5. Włącz snippet, klikając przełącznik.
 
@@ -39,7 +39,7 @@ Alternatywnie możesz:
 
 Po włączeniu Obsidian automatycznie wykryje zmiany w snippetach CSS i zastosuje je po zapisaniu pliku.
 
-> [!tip] Nie musisz ponownie uruchamiać Obsidian, aby zmiany zaczęły obowiązywać. Może być jednak konieczne użycie polecenia z [[Paleta poleceń|palety poleceń]], aby przeładować Obsidian bez zapisywania i zobaczyć zmiany w bieżącym motywie lub notatce.
+> [!tip] Nie musisz ponownie uruchamiać Obsidian, aby zmiany zaczęły obowiązywać. Może być jednak konieczne użycie polecenia z [[Paleta poleceń|palety poleceń]], aby odświeżyć Obsidian bez zapisywania i zobaczyć zmiany w bieżącym motywie lub notatce.
 
 ## Pisanie CSS dla Obsidian
 

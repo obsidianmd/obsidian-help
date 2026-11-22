@@ -13,4 +13,4 @@ Aby uruchomić polecenie za pomocą poleceń slash:
 Aby wyjść z wyszukiwania poleceń slash bez wywoływania polecenia, naciśnij `Esc` lub klawisz `Spacja`.
 
 > [!TIP] Dopasowanie rozmyte
-> Podobnie jak [[Paleta poleceń|paleta poleceń]], polecenia slash obsługują dopasowanie rozmyte, które pozwala wyszukiwać polecenia nawet jeśli nie znasz ich dokładnych nazw. Na przykład wpisz „scf", aby znaleźć polecenie **Zapisz aktywny plik**.
+> Podobnie jak [[Paleta poleceń|paleta poleceń]], polecenia slash obsługują dopasowanie rozmyte, które pozwala wyszukiwać polecenia nawet jeśli nie znasz ich dokładnych nazw. Na przykład wpisz „scf”, aby znaleźć polecenie **Zapisz aktywny plik**.

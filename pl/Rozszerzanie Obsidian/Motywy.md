@@ -1,7 +1,7 @@
 ---
 permalink: themes
 ---
-Dowiedz się, jak zmienić wygląd i styl Obsidian za pomocą motywów stworzonych przez społeczność.
+Dowiedz się, jak zmienić wygląd i styl Obsidian za pomocą motywów utworzonych przez społeczność.
 
 ## Przeglądanie motywów
 
@@ -14,7 +14,7 @@ Możesz również przeglądać dostępne motywy w przeglądarce, odwiedzając st
 
 1. Otwórz **[[Ustawienia]]**.
 2. W sekcji **Wygląd → Motywy** wybierz **Zarządzaj**.
-3. Wybierz motyw, którego chcesz użyć, a następnie wybierz **Instaluj i aktywuj**.
+3. Wybierz motyw, którego chcesz użyć, a następnie wybierz **Zainstaluj i użyj**.
 
 Obsidian zainstaluje motyw i natychmiast go zastosuje. Aby powrócić do domyślnego motywu, wybierz **Wyłącz**.
 
@@ -43,4 +43,4 @@ Aby zaktualizować pojedynczy motyw:
 
 ## Dowiedz się więcej
 
-Chcesz stworzyć własny motyw? Dowiedz się, jak [zbudować motyw](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) lub tworzyć [[Snippety CSS|snippety CSS]].
+Chcesz utworzyć własny motyw? Dowiedz się, jak [zbudować motyw](https://docs.obsidian.md/Themes/App+themes/Build+a+theme) lub tworzyć [[Snippety CSS|snippety CSS]].

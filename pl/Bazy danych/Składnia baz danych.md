@@ -6,7 +6,7 @@ description: Ta strona stanowi wprowadzenie do składni baz danych w Obsidian.
 ---
 Kiedy [[Tworzenie bazy danych|tworzysz bazę danych]] w Obsidian, jest ona zapisywana jako plik `.base`. Bazy danych są zwykle edytowane za pomocą interfejsu aplikacji, ale ich składnię można również edytować ręcznie i osadzać w bloku kodu.
 
-Składnia [[Wprowadzenie do baz danych|baz danych]] definiuje [[Widoki|podglądy]], filtry i [[Wzory|wzory]]. Bazy danych muszą być poprawnym YAML-em zgodnym ze schematem zdefiniowanym poniżej.
+Składnia [[Wprowadzenie do baz danych|baz danych]] definiuje [[Widoki|widoki]], filtry i [[Wzory|wzory]]. Bazy danych muszą być poprawnym YAML-em zgodnym ze schematem zdefiniowanym poniżej.
 
 ## Przykład
 
@@ -81,10 +81,10 @@ filters:
 
 Filtry można zastosować na dwa sposoby:
 
-1. Na globalnym poziomie `filters` (jak pokazano powyżej), gdzie mają zastosowanie do wszystkich podglądów w bazie.
-2. Na poziomie `view`, gdzie mają zastosowanie tylko do konkretnego podglądu.
+1. Na globalnym poziomie `filters` (jak pokazano powyżej), gdzie mają zastosowanie do wszystkich widoków w bazie.
+2. Na poziomie `view`, gdzie mają zastosowanie tylko do konkretnego widoku.
 
-Te dwie sekcje są funkcjonalnie równoważne, a przy ewaluacji dla podglądu są łączone operatorem `AND`.
+Te dwie sekcje są funkcjonalnie równoważne, a przy ewaluacji dla widoku są łączone operatorem `AND`.
 
 Sekcja `filters` zawiera pojedynczą instrukcję filtrowania jako ciąg znaków lub rekurencyjnie zdefiniowany obiekt filtra. Obiekty filtrów mogą zawierać jedną z wartości `and`, `or` lub `not`. Te klucze są heterogeniczną listą innych obiektów filtrów lub instrukcji filtrowania w postaci ciągów znaków. Instrukcja filtrowania to wiersz, który po zastosowaniu do notatki daje wartość prawdziwą lub fałszywą. Może to być jedno z poniższych:
 
@@ -95,7 +95,7 @@ Składnia i dostępne funkcje dla filtrów i wzorów są takie same.
 
 ### Wzory
 
-Sekcja `formulas` definiuje [[Wzory|właściwości wzorów]], które mogą być wyświetlane we wszystkich podglądach w pliku bazy danych.
+Sekcja `formulas` definiuje [[Wzory|atrybuty wzorów]], które mogą być wyświetlane we wszystkich widokach w pliku bazy danych.
 
 ```yaml
 formulas:
@@ -103,26 +103,26 @@ formulas:
   ppu: "(price / age).toFixed(2)"
 ```
 
-Właściwości wzorów obsługują podstawowe operatory arytmetyczne i różnorodne wbudowane [[Funkcje|funkcje]]. W przyszłości wtyczki będą mogły dodawać funkcje do użycia we wzorach.
+Atrybuty wzorów obsługują podstawowe operatory arytmetyczne i różnorodne wbudowane [[Funkcje|funkcje]]. W przyszłości wtyczki będą mogły dodawać funkcje do użycia we wzorach.
 
-Możesz odwoływać się do właściwości na różne sposoby w zależności od ich typu:
+Możesz odwoływać się do atrybutów na różne sposoby w zależności od ich typu:
 
-- **Właściwości notatki** to właściwości zdefiniowane w metadanych początkowych notatki. Na przykład `note.price` lub `note["price"]`.
-  Jeśli nie podano prefiksu, przyjmuje się, że właściwość jest typu `note`.
-- **Właściwości pliku** opisują sam plik.
+- **Atrybuty notatki** to atrybuty zdefiniowane w metadanych początkowych notatki. Na przykład `note.price` lub `note["price"]`.
+  Jeśli nie podano prefiksu, przyjmuje się, że atrybut jest typu `note`.
+- **Atrybuty pliku** opisują sam plik.
   Na przykład `file.size` lub `file.ext`. Można również bezpośrednio odwoływać się do obiektu pliku, np. `file.hasLink()`.
-- **Właściwości wzorów** to inne wzory w bazie danych.
+- **Atrybuty wzorów** to inne wzory w bazie danych.
   Przykład: `formula.formatted_price`.
 
-Wzór może używać wartości z innych właściwości wzorów, pod warunkiem, że nie ma odwołań cyklicznych.
+Wzór może używać wartości z innych atrybutów wzorów, pod warunkiem, że nie ma odwołań cyklicznych.
 
-Właściwości wzorów są zawsze przechowywane jako ciągi znaków w YAML, ale ich faktyczny **typ danych wyjściowych** jest określany przez typ danych bazowych i wartość zwracaną przez użyte funkcje.
+Atrybuty wzorów są zawsze przechowywane jako ciągi znaków w YAML, ale ich faktyczny **typ danych wyjściowych** jest określany przez typ danych bazowych i wartość zwracaną przez użyte funkcje.
 
 Zwróć uwagę, że zagnieżdżone cudzysłowy są konieczne, aby uwzględnić literały tekstowe w polu YAML. Literały tekstowe muszą być ujęte w pojedyncze lub podwójne cudzysłowy.
 
 ### Atrybuty
 
-Sekcja `properties` pozwala przechowywać informacje konfiguracyjne o każdej właściwości. Od poszczególnego podglądu zależy, jak wykorzysta te wartości konfiguracyjne. Na przykład w tabelach wyświetlana nazwa jest używana jako nagłówek kolumny.
+Sekcja `properties` pozwala przechowywać informacje konfiguracyjne o każdym atrybucie. Od poszczególnego widoku zależy, jak wykorzysta te wartości konfiguracyjne. Na przykład w tabelach wyświetlana nazwa jest używana jako nagłówek kolumny.
 
 ```yaml
 properties:
@@ -145,9 +145,9 @@ summaries:
   customAverage: 'values.mean().round(3)'
 ```
 
-W tym przykładzie wzór `customAverage` jest taki sam jak domyślny `Average`, z tą różnicą, że wartość jest zaokrąglana do innej liczby miejsc. We wzorach podsumowań słowo kluczowe `values` to lista zawierająca wszystkie wartości danej właściwości ze wszystkich notatek w zbiorze wyników. Wzór podsumowania powinien zwrócić pojedynczą wartość `Value`.
+W tym przykładzie wzór `customAverage` jest taki sam jak domyślny `Average`, z tą różnicą, że wartość jest zaokrąglana do innej liczby miejsc. We wzorach podsumowań słowo kluczowe `values` to lista zawierająca wszystkie wartości danego atrybutu ze wszystkich notatek w zbiorze wyników. Wzór podsumowania powinien zwrócić pojedynczą wartość `Value`.
 
-Zwróć uwagę, że ta sekcja `summaries` różni się od sekcji `summaries` w konfiguracji podglądu (opisanej poniżej), gdzie wzory podsumowań są przypisywane do konkretnych właściwości.
+Zwróć uwagę, że ta sekcja `summaries` różni się od sekcji `summaries` w konfiguracji widoku (opisanej poniżej), gdzie wzory podsumowań są przypisywane do konkretnych atrybutów.
 
 #### Domyślne wzory podsumowań
 
@@ -169,9 +169,9 @@ Zwróć uwagę, że ta sekcja `summaries` różni się od sekcji `summaries` w k
 | Filled    | Dowolny       | Liczba niepustych wartości wejściowych.                       |
 | Unique    | Dowolny       | Liczba unikalnych wartości wejściowych.                       |
 
-### Podglądy
+### Widoki
 
-Sekcja `views` definiuje sposób renderowania danych. Każdy wpis na liście `views` definiuje osobny podgląd tych samych danych i może być ich dowolna liczba.
+Sekcja `views` definiuje sposób renderowania danych. Każdy wpis na liście `views` definiuje osobny widok tych samych danych i może być ich dowolna liczba.
 
 ```yaml
 views:
@@ -197,14 +197,14 @@ views:
       formula.ppu: Average
 ```
 
-- `type` wybiera spośród wbudowanych i dodanych przez wtyczki typów podglądów.
-- `name` to wyświetlana nazwa, która może być użyta do zdefiniowania domyślnego podglądu.
-- `filters` działają dokładnie tak samo jak opisano powyżej, ale mają zastosowanie tylko do tego podglądu.
-- `groupBy` określa właściwość i kierunek sortowania. Wartość podanej właściwości dla każdego wiersza służy do umieszczania wiersza w grupach.
+- `type` wybiera spośród wbudowanych i dodanych przez wtyczki typów widoków.
+- `name` to wyświetlana nazwa, która może być użyta do zdefiniowania domyślnego widoku.
+- `filters` działają dokładnie tak samo jak opisano powyżej, ale mają zastosowanie tylko do tego widoku.
+- `groupBy` określa atrybut i kierunek sortowania. Wartość podanego atrybutu dla każdego wiersza służy do umieszczania wiersza w grupach.
 - `groupOrder` określa kolejność i widoczność grup. Jeśli jest obecny, wyświetlane są tylko grupy, których wartości są wymienione, w podanej kolejności. Pusta lista ukrywa wszystkie grupy. Usuń `groupOrder`, aby wyświetlić wszystkie grupy w kolejności zdefiniowanej przez `groupBy`.
-- `summaries` mapuje nazwy właściwości na nazwane podsumowania. Podsumowania wykonują agregację właściwości we wszystkich wierszach.
+- `summaries` mapuje nazwy atrybutów na nazwane podsumowania. Podsumowania wykonują agregację atrybutów we wszystkich wierszach.
 
-Na przykład ten podgląd pokazuje tylko grupy Planned, In progress i Done, w tej kolejności:
+Na przykład ten widok pokazuje tylko grupy Planned, In progress i Done, w tej kolejności:
 
 ```yaml
 views:
@@ -219,34 +219,34 @@ views:
       - Done
 ```
 
-Użyj `null` w `groupOrder`, aby uwzględnić pliki, które nie mają wartości dla grupowanej właściwości.
+Użyj `null` w `groupOrder`, aby uwzględnić pliki, które nie mają wartości dla atrybutu grupowania.
 
-[[Widoki]] mogą dodawać dodatkowe dane do przechowywania wszelkich informacji potrzebnych do zachowania stanu lub prawidłowego renderowania, jednak autorzy wtyczek powinni unikać używania kluczy już wykorzystywanych przez wbudowaną wtyczkę baz danych. Przykładowo podgląd tabeli może używać tego do ograniczenia liczby wierszy lub wyboru kolumny sortowania i jej kierunku. Inny typ podglądu, taki jak mapa, mógłby używać tego do mapowania, która właściwość notatki odpowiada szerokości i długości geograficznej, a która powinna być wyświetlana jako tytuł pinezki.
+[[Widoki]] mogą dodawać dodatkowe dane do przechowywania wszelkich informacji potrzebnych do zachowania stanu lub prawidłowego renderowania, jednak autorzy wtyczek powinni unikać używania kluczy już wykorzystywanych przez wbudowaną wtyczkę baz danych. Przykładowo widok tabeli może używać tego do ograniczenia liczby wierszy lub wyboru kolumny sortowania i jej kierunku. Inny typ widoku, taki jak mapa, mógłby używać tego do mapowania, który atrybut notatki odpowiada szerokości i długości geograficznej, a która powinna być wyświetlana jako tytuł pinezki.
 
-W przyszłości API pozwoli podglądom odczytywać i zapisywać te wartości, umożliwiając podglądowi budowanie własnego interfejsu konfiguracji.
+W przyszłości API pozwoli widokom odczytywać i zapisywać te wartości, umożliwiając widokowi budowanie własnego interfejsu konfiguracji.
 
 ## Atrybuty
 
-W bazach danych używane są trzy rodzaje właściwości:
+W bazach danych używane są trzy rodzaje atrybutów:
 
-1. **Właściwości notatki**, przechowywane w metadanych początkowych plików Markdown.
-2. **Właściwości pliku**, dostępne dla wszystkich typów plików.
-3. **Właściwości wzorów**, zdefiniowane w samym pliku `.base` (patrz wyżej).
+1. **Atrybuty notatki**, przechowywane w metadanych początkowych plików Markdown.
+2. **Atrybuty pliku**, dostępne dla wszystkich typów plików.
+3. **Atrybuty wzorów**, zdefiniowane w samym pliku `.base` (patrz wyżej).
 
-### Właściwości notatki
+### Atrybuty notatki
 
-[[Atrybuty|Właściwości notatki]] są dostępne tylko dla plików Markdown i są przechowywane w metadanych początkowych YAML każdej notatki. Dostęp do tych właściwości można uzyskać w formacie `note.author` lub po prostu `author` jako skrót.
+[[Atrybuty|Atrybuty notatki]] są dostępne tylko dla plików Markdown i są przechowywane w metadanych początkowych YAML każdej notatki. Dostęp do tych atrybutów można uzyskać w formacie `note.author` lub po prostu `author` jako skrót.
 
-### Właściwości pliku
+### Atrybuty pliku
 
-Właściwości pliku odnoszą się do aktualnie testowanego lub ewaluowanego pliku. Właściwości pliku są dostępne dla wszystkich [[Obsługiwane formaty plików|typów plików]], w tym załączników.
+Atrybuty pliku odnoszą się do aktualnie testowanego lub ewaluowanego pliku. Atrybuty pliku są dostępne dla wszystkich [[Obsługiwane formaty plików|typów plików]], w tym załączników.
 
 Na przykład filtr `file.ext == "md"` będzie prawdziwy dla wszystkich plików Markdown, a fałszywy w pozostałych przypadkach.
 
-| Właściwość    | Typ    | Opis                                                          |
+| Atrybut       | Typ    | Opis                                                          |
 | ------------- | ------ | ------------------------------------------------------------- |
-| `file.backlinks`  | Lista  | Lista plików z linkami zwrotnymi. Uwaga: Ta właściwość jest wymagająca wydajnościowo. Gdy to możliwe, odwróć wyszukiwanie i użyj `file.links`. Nie odświeża automatycznie wyników po zmianie sejfu. |
-| `file.ctime`  | Data   | Czas stworzenia                                               |
+| `file.backlinks`  | Lista  | Lista plików z linkami zwrotnymi. Uwaga: Ten atrybut jest wymagający wydajnościowo. Gdy to możliwe, odwróć wyszukiwanie i użyj `file.links`. Nie odświeża automatycznie wyników po zmianie sejfu. |
+| `file.ctime`  | Data   | Czas utworzenia                                               |
 | `file.embeds` | Lista  | Lista wszystkich osadzeń w notatce                            |
 | `file.ext`    | Ciąg   | Rozszerzenie pliku                                            |
 | `file.file`   | Plik   | Obiekt pliku, używalny tylko w określonych funkcjach          |
@@ -255,17 +255,17 @@ Na przykład filtr `file.ext == "md"` będzie prawdziwy dla wszystkich plików M
 | `file.mtime`  | Data   | Czas modyfikacji                                              |
 | `file.name`   | Ciąg   | Nazwa pliku                                                   |
 | `file.path`   | Ciąg   | Ścieżka pliku                                                |
-| `file.properties`   | Obiekt | Wszystkie właściwości pliku. Uwaga: Nie odświeża automatycznie wyników po zmianie sejfu. |
+| `file.properties`   | Obiekt | Wszystkie atrybuty pliku.    Uwaga: Nie odświeża automatycznie wyników po zmianie sejfu. |
 | `file.size`   | Liczba | Rozmiar pliku                                                 |
 | `file.tags`   | Lista  | Lista wszystkich tagów w treści pliku i metadanych początkowych |
 
-### Dostęp do właściwości za pomocą `this`
+### Dostęp do atrybutów za pomocą `this`
 
-Użyj obiektu `this`, aby uzyskać dostęp do właściwości pliku. To, do czego odnosi się `this`, zależy od miejsca wyświetlania bazy danych.
+Użyj obiektu `this`, aby uzyskać dostęp do atrybutów pliku. To, do czego odnosi się `this`, zależy od miejsca wyświetlania bazy danych.
 
-Gdy baza jest otwarta w głównym obszarze treści, `this` wskazuje na właściwości samego pliku bazy danych. Na przykład użycie `this.file.folder` zwraca ścieżkę folderu, w którym znajduje się baza.
+Gdy baza jest otwarta w głównym obszarze treści, `this` wskazuje na atrybuty samego pliku bazy danych. Na przykład użycie `this.file.folder` zwraca ścieżkę folderu, w którym znajduje się baza.
 
-Gdy baza jest osadzona w innym pliku, `this` wskazuje na właściwości _osadzającego_ pliku (notatki lub Canvas, który zawiera bazę). Na przykład użycie `this.file.name` zwraca nazwę osadzającego pliku, a nie bazy.
+Gdy baza jest osadzona w innym pliku, `this` wskazuje na atrybuty _osadzającego_ pliku (notatki lub Canvas, który zawiera bazę). Na przykład użycie `this.file.name` zwraca nazwę osadzającego pliku, a nie bazy.
 
 Gdy baza znajduje się na panelu bocznym, `this` odnosi się do aktywnego pliku w głównym obszarze treści. Pozwala to tworzyć zapytania oparte na aktywnym pliku. Na przykład możesz użyć `file.hasLink(this.file)`, aby odtworzyć panel linków zwrotnych.
 
@@ -338,11 +338,11 @@ Zobacz [[Funkcje|listę funkcji]], które mogą być używane we wzorach i [[Wid
 
 ## Typy
 
-Bazy danych mają system typów, który jest używany przez wzory i filtry do stosowania funkcji na właściwościach.
+Bazy danych mają system typów, który jest używany przez wzory i filtry do stosowania funkcji na atrybutach.
 
 ### Ciągi znaków, liczby i wartości logiczne
 
-Ciągi znaków, liczby i wartości logiczne to „prymitywne" wartości, które nie wymagają funkcji do utworzenia.
+Ciągi znaków, liczby i wartości logiczne to „prymitywne” wartości, które nie wymagają funkcji do utworzenia.
 
 - Ciągi znaków są ujęte w pojedyncze lub podwójne cudzysłowy, na przykład `"message"`.
 - Liczby są zapisywane jako cyfry i opcjonalnie mogą być ujęte w nawiasy dla przejrzystości. Na przykład `1` lub `(2.5)`.
@@ -350,7 +350,7 @@ Ciągi znaków, liczby i wartości logiczne to „prymitywne" wartości, które 
 
 ### Daty i czas trwania
 
-Daty reprezentują konkretną datę lub datę i czas, w zależności od funkcji użytej do ich utworzenia lub typu przypisanego do [[Atrybuty|właściwości]].
+Daty reprezentują konkretną datę lub datę i czas, w zależności od funkcji użytej do ich utworzenia lub typu przypisanego do [[Atrybuty|atrybutu]].
 
 - Aby skonstruować datę, użyj funkcji `date`, na przykład `date("2025-01-01 12:00:00")`
 - Aby zmodyfikować datę, dodaj lub odejmij czas trwania, na przykład `now() + "1 hour"` lub `today() + "7d"`
@@ -361,13 +361,13 @@ Daty reprezentują konkretną datę lub datę i czas, w zależności od funkcji 
 
 ### Obiekty i listy
 
-- Zamień pojedynczy element na listę za pomocą funkcji `list()`. Jest to szczególnie przydatne w przypadku właściwości, które mogą zawierać mieszankę list i pojedynczych wartości.
+- Zamień pojedynczy element na listę za pomocą funkcji `list()`. Jest to szczególnie przydatne w przypadku atrybutów, które mogą zawierać mieszankę list i pojedynczych wartości.
 - Dostęp do elementów listy uzyskuje się za pomocą nawiasów kwadratowych i indeksu zaczynającego się od 0. Na przykład `property[0]` zwraca pierwszy element z listy.
 - Dostęp do elementów obiektu uzyskuje się za pomocą nawiasów kwadratowych i nazwy elementu lub notacji z kropką. Na przykład `property.subprop` lub `property["subprop"]`.
 
 ### Pliki i łącza
 
-[[Łączenie notatek|Odnośniki wiki]] we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty Link. Łącza będą renderowane jako klikalne linki w [[Widoki|podglądzie]].
+[[Łączenie notatek|Odnośniki wiki]] w [[Atrybuty|atrybutach w metadanych początkowych]] są automatycznie rozpoznawane jako obiekty Łącze. Łącza będą renderowane jako klikalne łącza w [[Widoki|widoku]].
 
 - Aby skonstruować łącze, użyj globalnej [[Funkcje|funkcji]] `link`, na przykład `link("filename")`.
 - Możesz utworzyć łącze z dowolnego ciągu znaków, na przykład `link(file.ctime.date().toString())`.
@@ -383,7 +383,7 @@ Obiekt File można zamienić na łącze za pomocą `file.asLink()` z opcjonalnym
 
 ### Adresy URL
 
-Adresy URL we [[Atrybuty|właściwościach metadanych początkowych]] są automatycznie rozpoznawane jako obiekty URL. Adresy URL będą renderowane jako klikalne linki w [[Widoki|podglądzie]].
+Adresy URL w [[Atrybuty|atrybutach w metadanych początkowych]] są automatycznie rozpoznawane jako obiekty URL. Adresy URL będą renderowane jako klikalne łącza w [[Widoki|widoku]].
 
 - Aby skonstruować adres URL, użyj globalnej [[Funkcje|funkcji]] `link`, na przykład `link("https://obsidian.md")`.
 - Aby ustawić wyświetlany tekst, podaj opcjonalny ciąg znaków jako drugi parametr, na przykład `link("https://obsidian.md", "Obsidian")`.

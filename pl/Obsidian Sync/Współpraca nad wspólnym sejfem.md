@@ -46,9 +46,9 @@ Jeśli wielu użytkowników edytuje ten sam plik w tym samym czasie, [[Rozwiązy
 
 ## Ograniczenia
 
-Pamiętaj, że Obsidian Sync ma [[Najczęściej zadawane pytania|ograniczenia]], które mogą wpływać na Twój zespół:
+Pamiętaj, że Obsidian Sync ma [[Najczęściej zadawane pytania|ograniczenia]], które mogą wpływać na twój zespół:
 
 - Maksymalna liczba współpracowników we wspólnym sejfie wynosi 20 użytkowników.
-- Maksymalny rozmiar pliku dla załączników zależy od [[Plany i limity przechowywania|planu]] hosta Twojego zdalnego sejfu — 5 MB dla Planu Standard i 200 MB dla Planu Plus.
+- Maksymalny rozmiar pliku dla załączników zależy od [[Plany i limity przechowywania|planu]] hosta twojego zdalnego sejfu — 5 MB dla Planu Standard i 200 MB dla Planu Plus.
 
 Dowiedz się więcej o [[Sync dla zespołów|Sync dla zespołów]].

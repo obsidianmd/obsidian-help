@@ -1,9 +1,9 @@
 ---
 permalink: publish/security
 ---
-Możesz wybrać notatki, które chcesz opublikować w [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Reszta Twoich notatek pozostaje bezpiecznie w Twoim sejfie.
+Możesz wybrać notatki, które chcesz opublikować w [[Wprowadzenie do Obsidian Publish|Obsidian Publish]]. Reszta twoich notatek pozostaje bezpiecznie w twoim sejfie.
 
-Tylko wybrane przez Ciebie notatki są wysyłane na serwery Obsidian, a notatki, które cofniesz z publikacji, zostaną usunięte.
+Tylko wybrane przez ciebie notatki są wysyłane na serwery Obsidian, a notatki, które cofniesz z publikacji, zostaną usunięte.
 
 ## Ochrona hasłem
 
@@ -13,7 +13,7 @@ Aby uzyskać lepszą kontrolę dostępu do swojej strony Publish, zastosuj hasł
 
 ### Dodawanie hasła strony
 
-1. Na wstążce, po lewej stronie okna aplikacji, kliknij **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. W oknie dialogowym **Opublikuj zmiany** kliknij **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 3. W sekcji **Inne ustawienia strony**, obok **Hasła**, kliknij **Zarządzaj**.
 4. Kliknij **Nowe hasło**.
@@ -23,7 +23,7 @@ Aby uzyskać lepszą kontrolę dostępu do swojej strony Publish, zastosuj hasł
 
 ### Usuwanie hasła strony
 
-1. Na wstążce, po lewej stronie okna aplikacji, kliknij **Opublikuj zmiany** ![[lucide-send.svg#icon]].
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. W oknie dialogowym **Opublikuj zmiany** kliknij **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 3. W sekcji **Inne ustawienia strony**, obok **Hasła**, kliknij **Zarządzaj**.
 5. Kliknij ikonę krzyżyka obok hasła, które chcesz usunąć.
@@ -33,13 +33,13 @@ Aby uzyskać lepszą kontrolę dostępu do swojej strony Publish, zastosuj hasł
 
 Domyślnie Obsidian Publish **nie** gromadzi danych odwiedzających, nie przechowuje ciasteczek ani nie przetwarza danych osobowych. Możesz jednak wdrożyć analitykę lub rejestrować inne dane użytkowników, [[Dostosuj swoją stronę|dostosowując swoją stronę]].
 
-Jako właściciel strony jesteś odpowiedzialny za przestrzeganie RODO i przepisów dotyczących prywatności w swoim regionie. Obejmuje to stworzenie własnego banera z powiadomieniem, który można zaimplementować za pomocą publish.js, oraz dodanie strony z polityką prywatności do swojej witryny.
+Jako właściciel strony jesteś odpowiedzialny za przestrzeganie RODO i przepisów dotyczących prywatności w swoim regionie. Obejmuje to utworzenie własnego banera z powiadomieniem, który można zaimplementować za pomocą publish.js, oraz dodanie strony z polityką prywatności do swojej witryny.
 
 ## Dostęp
 
 Obsidian korzysta z usług [Cloudflare](https://www.cloudflare.com) do hostowania stron Publish. Serwery znajdują się w San Francisco, Kalifornia.
 
-### Zarządzanie dostępem do Obsidian Publish w Twojej sieci
+### Zarządzanie dostępem do Obsidian Publish w twojej sieci
 
 Aby regulować dostęp do Obsidian Publish w swojej sieci, musisz zarządzać następującymi domenami:
 
@@ -48,4 +48,4 @@ Aby regulować dostęp do Obsidian Publish w swojej sieci, musisz zarządzać na
 
 Ponadto usługi backendowe wykorzystują następujące subdomeny: `publish-xx.obsidian.md`, gdzie `xx` to liczba z zakresu od `1` do `100`.
 
-> [!tip] Jeśli Twój system zapory sieciowej to obsługuje, zalecamy dodanie `publish-*.obsidian.md` do białej listy, aby uwzględnić ciągłe rozszerzanie subdomen.
+> [!tip] Jeśli twój system zapory sieciowej to obsługuje, zalecamy dodanie `publish-*.obsidian.md` do białej listy, aby uwzględnić ciągłe rozszerzanie subdomen.

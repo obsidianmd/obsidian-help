@@ -7,7 +7,7 @@ Obsidian umożliwia migrację notatek z grafów Logseq opartych na plikach (obec
 
 ## Zanim zaczniesz
 
-- Utwórz kopię zapasową swojego grafu Logseq i skarbca Obsidian.
+- Utwórz kopię zapasową swojego grafu Logseq i sejfu Obsidian.
 - Znajdź folder główny swojego grafu Logseq. Zwykle zawiera on foldery o nazwach `pages`, `journals`, `assets` i `logseq`.
 - Upewnij się, że używasz grafu Logseq opartego na plikach. Grafy bazodanowe Logseq nie są jeszcze obsługiwane.
 
@@ -17,7 +17,7 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Szablony importera|Importer]], któr�
 
 1. Otwórz **[[Ustawienia]] → Wtyczki społeczności** i [zainstaluj Importer](obsidian://show-plugin?id=obsidian-importer).
 2. Włącz wtyczkę Importer.
-3. Otwórz **Importer** za pomocą [[Paleta poleceń|Palety poleceń]] lub ikony na wstążce.
+3. Otwórz Importer w ustawieniach lub za pomocą [[Paleta poleceń|palety poleceń]].
 4. W polu **Format pliku** wybierz **Logseq**.
 5. W polu **Wybierz folder** wskaż folder główny swojego grafu. Wybierz folder zawierający `pages` i `journals`, a nie którykolwiek z tych folderów osobno.
 6. Przejrzyj wykryte foldery i wyklucz te, których nie chcesz importować.
@@ -36,11 +36,11 @@ Potrzebujesz oficjalnej wtyczki Obsidian [[Szablony importera|Importer]], któr�
 
 Importer konwertuje typowe konwencje Logseq, w tym:
 
-- Właściwości stron na [[Atrybuty]] Obsidian.
-- Aliasy stron, tagi, przestrzenie nazw i linki.
+- Właściwości stron Logseq na [[Atrybuty|atrybuty]] Obsidian.
+- Aliasy stron, tagi, przestrzenie nazw i łącza.
 - Stany przepływu pracy na znaczniki list z polami wyboru, z zachowaniem priorytetów i dat jako czytelnego tekstu.
-- Identyfikatory bloków, odwołania do bloków i osadzenia bloków na linki i osadzenia Obsidian.
-- Nazwy plików dziennika i linki dat.
+- Identyfikatory bloków, odwołania do bloków i osadzenia bloków na łącza i osadzenia Obsidian.
+- Nazwy plików dziennika i łącza dat.
 - Wyróżnienia, listy numerowane, bloki Org, osadzenia multimediów i pliki powiązane z folderu `assets` grafu.
 
 ### Dzienniki
@@ -63,7 +63,7 @@ Zapytania Logseq, fiszki i wpisy śledzenia czasu nie mają bezpośrednich odpow
 
 ## Szablony
 
-Użyj [[Szablony importera|Szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Logseq.
+Użyj [[Szablony importera|szablonów importera]], aby w pełni skonfigurować sposób importowania danych z Logseq.
 
 ![[Szablony importera#Zmienne]]
 

@@ -19,7 +19,7 @@ Aby osadzić notatkę:
 ![[Łącza wewnętrzne]]
 ```
 
-Możesz również osadzać łącza do [[Łącza wewnętrzne#Link do nagłówka w notatce|nagłówków]] i [[Łącza wewnętrzne#Link do bloku w notatce|bloków]].
+Możesz również osadzać łącza do [[Łącza wewnętrzne#Łącze do nagłówka w notatce|nagłówków]] i [[Łącza wewnętrzne#Łącze do bloku w notatce|bloków]].
 
 ```md
 ![[Łącza wewnętrzne#^b15695]]
@@ -108,7 +108,7 @@ Aby osadzić [[Tablica|Canvas]]:
 
 ## Osadzanie listy w notatce
 
-Aby osadzić listę z innej notatki, najpierw dodaj [[Łącza wewnętrzne#Link do bloku w notatce|identyfikator bloku]] do swojej listy:
+Aby osadzić listę z innej notatki, najpierw dodaj [[Łącza wewnętrzne#Łącze do bloku w notatce|identyfikator bloku]] do swojej listy:
 
 ```md
 

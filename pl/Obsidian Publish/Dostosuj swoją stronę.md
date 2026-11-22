@@ -18,7 +18,7 @@ Możesz dostosować swoją stronę, [[Opublikuj swoją zawartość#Publikowanie 
 - [Zmienne CSS dla Publish](https://docs.obsidian.md/Reference/CSS+variables/Publish/Publish) można znaleźć na naszej stronie z dokumentacją.
 - Ponieważ Obsidian nie obsługuje plików CSS ani JavaScript, musisz użyć innej aplikacji do ich tworzenia i edycji.
 - Zarówno `publish.css`, jak i `publish.js` muszą znajdować się w katalogu głównym (`/`) twojego sejfu.
-- Domyślnie `publish.css` i `publish.js` nie pojawiają się w przeglądarce plików, ale nadal możesz je opublikować z okna dialogowego **Opublikuj zmiany**.
+- Domyślnie `publish.css` i `publish.js` nie pojawiają się w eksploratorze plików, ale nadal możesz je opublikować z okna dialogowego **Opublikuj zmiany**.
 - Aby użyć niestandardowego JavaScript z `publish.js`, musisz skonfigurować [[Niestandardowe domeny]].
 
 W przypadku favicon, Obsidian Publish obsługuje następujące konwencje nazewnictwa, gdzie `32` oznacza wymiary ikony w pikselach:
@@ -43,7 +43,7 @@ Masz swobodę w umieszczaniu favicon w dowolnym miejscu w sejfie, pod warunkiem 
 
 Aby użyć jednego z motywów społeczności na swojej stronie:
 
-1. Otwórz swój sejf w domyślnym przeglądarce plików swojego systemu operacyjnego.
+1. Otwórz swój sejf w domyślnym eksploratorze plików swojego systemu operacyjnego.
 2. Przejdź do folderu ustawień sejfu (domyślnie: `.obsidian`).
 3. Otwórz folder `themes`.
 4. Skopiuj plik CSS motywu, którego chcesz użyć na swojej stronie.
@@ -54,7 +54,7 @@ Aby użyć jednego z motywów społeczności na swojej stronie:
 **Uwagi:**
 
 - Jeśli styl nie zaktualizuje się w ciągu kilku minut, spróbuj wyczyścić pamięć podręczną przeglądarki.
-- Możesz przełączać się między trybem jasnym i ciemnym w [[Zarządzaj stronami#Wyświetl opcje strony|opcjach strony]].
+- Możesz przełączać się między trybem jasnym i ciemnym w [[Zarządzaj stronami#Wyświetlanie opcji strony|opcjach strony]].
 - Wiele motywów społeczności korzysta z **Style Settings** do niestandardowego stylowania, ale te ustawienia nie działają w Obsidian Publish.
 
 > [!tip] Tworzenie motywów
@@ -64,15 +64,15 @@ Aby użyć jednego z motywów społeczności na swojej stronie:
 
 Możesz przełączać kilka funkcji interfejsu na swojej stronie, takich jak podgląd grafu czy spis treści.
 
-Przeglądaj dostępne funkcje interfejsu w sekcjach **Przeglądanie strony** i **Komponenty** w [[Zarządzaj stronami#Wyświetl opcje strony|opcjach strony]].
+Przeglądaj dostępne funkcje interfejsu w sekcjach **Czytanie** i **Komponenty** w [[Zarządzaj stronami#Wyświetlanie opcji strony|opcjach strony]].
 
 ### Dostosuj nawigację
 
-W Obsidian Publish masz możliwość dostosowania kolejności nawigacji oraz wyświetlania plików i folderów w [[Eksplorator plików|przeglądarce plików]] Publish. Elementy nawigacji są domyślnie wyświetlane w kolejności publikacji. Notatki, które nie zostały opublikowane, nie pojawią się w tym panelu.
+W Obsidian Publish masz możliwość dostosowania kolejności nawigacji oraz wyświetlania plików i folderów w [[Eksplorator plików|eksploratorze plików]] Publish. Elementy nawigacji są domyślnie wyświetlane w kolejności publikacji. Notatki, które nie zostały opublikowane, nie pojawią się w tym panelu.
 
 #### Dostęp do opcji dostosowywania nawigacji
 
-1. Na [[Pasek boczny|wstążce]] wybierz **Opublikuj zmiany** ![[lucide-send.svg#icon]] lub otwórz [[Paleta poleceń|paletę poleceń]] i wpisz **Publish: Opublikuj zmiany...**
+1. Otwórz [[Paleta poleceń|paletę poleceń]] i uruchom **Publikowanie: Opublikuj zmiany...**.
 2. W oknie dialogowym **Opublikuj zmiany** wybierz **Zmień ustawienia strony** ![[lucide-cog.svg#icon]].
 3. W sekcji **Ustawienia komponentów**, obok **Dostosuj menu**, wybierz przycisk **Zarządzaj**.
 

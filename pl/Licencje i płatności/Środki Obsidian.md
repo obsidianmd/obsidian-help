@@ -33,17 +33,17 @@ W Obsidian nie podarowujesz konkretnego produktu, lecz środki Obsidian, które 
 
 1. Jeśli nie masz jeszcze [[Środki Obsidian]], musisz najpierw [[Środki Obsidian#Dodawanie środków|kupić środki]].
 2. Przejdź do sekcji [Rozliczenia](https://obsidian.md/account/billing) swojego konta i wybierz **Wyślij środki**.
-3. Postępuj zgodnie z instrukcjami, aby uzyskać link do realizacji i wysłać go samodzielnie, lub poprosić nas o wysłanie zanonimizowanego e-maila do odbiorcy.
+3. Postępuj zgodnie z instrukcjami, aby uzyskać łącze do realizacji i wysłać je samodzielnie, lub poprosić nas o wysłanie zanonimizowanego e-maila do odbiorcy.
 4. Kliknij **Wyślij prezent**, aby zakończyć proces podarunku. Otrzymasz e-mail z potwierdzeniem.
 5. Po wysłaniu prezentu możesz go zobaczyć w sekcji **Rozliczenia → Historia prezentów**. Możesz sprawdzić status każdego prezentu i anulować te, które nie zostały jeszcze odebrane.
 
 ## Odbieranie środków Obsidian
 
-Jeśli otrzymałeś link do realizacji lub zanonimizowany e-mail, wykonaj poniższe kroki, aby odebrać swoje środki Obsidian:
+Jeśli otrzymałeś łącze do realizacji lub zanonimizowany e-mail, wykonaj poniższe kroki, aby odebrać swoje środki Obsidian:
 
 1. Zaloguj się lub utwórz [swoje konto Obsidian](https://obsidian.md/account/billing).
-2. Otwórz link do realizacji lub kliknij link w e-mailu.
+2. Otwórz łącze do realizacji lub kliknij łącze w e-mailu.
 3. Potwierdź, że chcesz otrzymać środki.
-4. Środki zostaną zdeponowane na Twoim koncie, gotowe do wykorzystania.
+4. Środki zostaną zdeponowane na twoim koncie, gotowe do wykorzystania.
 
 Kupujący zostanie powiadomiony, że odebrałeś środki Obsidian.

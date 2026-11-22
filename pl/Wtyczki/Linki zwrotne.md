@@ -6,7 +6,7 @@ description: Dzięki wtyczce Linki zwrotne możesz zobaczyć wszystkie linki zwr
 ---
 Dzięki wtyczce [[Wbudowane wtyczki|Linki zwrotne]] możesz zobaczyć wszystkie _linki zwrotne_ dla aktywnej notatki.
 
-Link zwrotny dla notatki to link z innej notatki prowadzący do tej notatki. W poniższym przykładzie notatka „Trzy zasady dynamiki" zawiera link do notatki „Isaac Newton". Odpowiedni link zwrotny prowadziłby od „Isaac Newton" z powrotem do „Trzy zasady dynamiki".
+Link zwrotny dla notatki to łącze z innej notatki prowadzące do tej notatki. W poniższym przykładzie notatka „Trzy zasady dynamiki” zawiera łącze do notatki „Isaac Newton”. Odpowiedni link zwrotny prowadziłby od „Isaac Newton” z powrotem do „Trzy zasady dynamiki”.
 
 ```mermaid
 flowchart LR
@@ -21,17 +21,17 @@ Linki zwrotne mogą być przydatne do znajdowania notatek, które odwołują si�
 
 ## Pokaż linki zwrotne
 
-Wtyczka Linki zwrotne wyświetla linki zwrotne dla aktywnych kart. Istnieją dwie zwijane sekcje: **Powiązane wzmianki** i **Niepowiązane wzmianki**.
+Wtyczka Linki zwrotne wyświetla linki zwrotne dla aktywnych kart. Istnieją dwie zwijane sekcje: **Wzmianki z łączem** i **Wzmianki bez łącza**.
 
-- **Powiązane wzmianki** to linki zwrotne do notatek, które zawierają łącze wewnętrzne do aktywnej notatki.
-- **Niepowiązane wzmianki** to linki zwrotne do każdego niepowiązanego wystąpienia nazwy aktywnej notatki.
+- **Wzmianki z łączem** to linki zwrotne do notatek, które zawierają łącze wewnętrzne do aktywnej notatki.
+- **Wzmianki bez łącza** to linki zwrotne do każdego niepowiązanego wystąpienia nazwy aktywnej notatki.
 
 Dostępne są następujące opcje:
 
 - **Zwiń wyniki wyszukiwania** przełącza, czy rozwijać każdą notatkę, aby wyświetlić wzmianki w niej.
-- **Pokaż dodatkowy kontekst** przełącza, czy obcinać czy wyświetlać pełny akapit zawierający wzmiankę.
-- **Sortowanie** określa sposób sortowania wzmianek.
-- **Pokaż filtry wyszukiwania** przełącza pole tekstowe, które pozwala filtrować wzmianki. Więcej informacji o tworzeniu zapytań wyszukiwania znajdziesz w [[Wyszukiwarka]].
+- **Pokaż więcej kontekstu** przełącza, czy obcinać czy wyświetlać pełny akapit zawierający wzmiankę.
+- **Zmień sortowanie** określa sposób sortowania wzmianek.
+- **Pokaż filtr wyszukiwania** przełącza pole tekstowe, które pozwala filtrować wzmianki. Więcej informacji o tworzeniu zapytań wyszukiwania znajdziesz w [[Wyszukiwarka]].
 
 ## Wyświetl linki zwrotne dla notatki
 
@@ -40,8 +40,8 @@ Aby wyświetlić linki zwrotne dla aktywnej notatki, kliknij kartę **Linki zwro
 > [!note] Uwaga
 > Jeśli nie widzisz karty Linki zwrotne, możesz ją wyświetlić, otwierając [[Paleta poleceń|paletę poleceń]] i uruchamiając polecenie **Linki zwrotne: Pokaż linki zwrotne**.
 
-> [!info] Pominięte pliki
-> Pliki pasujące do wzorców [[Ustawienia#Pominięte pliki|Pominięte pliki]] nie będą wyświetlane w Niepowiązanych wzmiankach.
+> [!info] Wykluczone pliki
+> Pliki pasujące do wzorców [[Ustawienia#Wykluczone pliki|Wykluczone pliki]] nie będą wyświetlane w Niepowiązanych wzmiankach.
 
 ## Wyświetl linki zwrotne konkretnej notatki
 
@@ -52,7 +52,7 @@ Aby otworzyć powiązaną kartę linków zwrotnych:
 1. Otwórz [[Paleta poleceń|paletę poleceń]].
 2. Wybierz **Linki zwrotne: Otwórz linki zwrotne do aktywnego pliku**.
 
-Obok aktywnej notatki otworzy się osobna karta. Karta wyświetla ikonę linku, aby poinformować, że jest powiązana z notatką.
+Obok aktywnej notatki otworzy się osobna karta. Karta wyświetla ikonę łącza, aby poinformować, że jest powiązana z notatką.
 
 ## Pokaż linki zwrotne w notatce
 

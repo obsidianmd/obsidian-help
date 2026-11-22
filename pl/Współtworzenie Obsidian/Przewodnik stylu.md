@@ -25,16 +25,16 @@ W przypadku dokumentacji w języku angielskim zaleca się stosowanie [Global Eng
 
 ### Terminy
 
-- Preferuj „skrót klawiszowy" zamiast „skrót". Używaj Skrót klawiszowy, gdy odnosisz się do konkretnej funkcji.
-- Preferuj „aplikacja Obsidian" na urządzeniach mobilnych oraz „aplikacja Obsidian" na komputerach.
-- Preferuj „synchronizacja" i „synchronizowanie" zamiast innych form.
-- Preferuj „wyszukiwane wyrażenie" zamiast „zapytanie wyszukiwania".
-- Preferuj „nagłówek" zamiast „header" w odniesieniu do tekstu wprowadzającego sekcję.
-- Preferuj „maksimum" zamiast „maks." i „minimum" zamiast „min.".
+- Preferuj „skrót klawiszowy” zamiast „skrót”. Używaj Skrót klawiszowy, gdy odnosisz się do konkretnej funkcji.
+- Preferuj „aplikacja Obsidian” na urządzeniach mobilnych oraz „aplikacja Obsidian” na komputerach.
+- Preferuj „synchronizacja” i „synchronizowanie” zamiast innych form.
+- Preferuj „wyszukiwane wyrażenie” zamiast „zapytanie wyszukiwania”.
+- Preferuj „nagłówek” zamiast „header” w odniesieniu do tekstu wprowadzającego sekcję.
+- Preferuj „maksimum” zamiast „maks.” i „minimum” zamiast „min.”.
 
 ### Nazwy produktów
 
-Nazwy produktów Obsidian zaczynają się od „Obsidian", na przykład „Obsidian Publish" i „Obsidian Sync".
+Nazwy produktów Obsidian zaczynają się od „Obsidian”, na przykład „Obsidian Publish” i „Obsidian Sync”.
 
 Jeśli akapit staje się nadmiernie powtarzalny, w kolejnych odniesieniach można użyć formy skróconej.
 
@@ -45,23 +45,23 @@ _Aby umożliwić konfigurację specyficzną dla urządzenia, Obsidian Sync nie s
 ### Interfejs użytkownika i interakcje
 
 - Używaj **pogrubienia**, aby wskazać tekst przycisku.
-- Preferuj „wybierz" zamiast „dotknij" lub „kliknij".
-	- W przypadku instrukcji dotyczących urządzeń mobilnych, „dotknij" jest akceptowalne przy opisywaniu interakcji dotykowych, ponieważ „kliknij" nie ma zastosowania.
-- Preferuj „panel boczny" zamiast „panel boczny".
-- Preferuj „wykonaj" zamiast „wywołaj" lub „uruchom" w odniesieniu do poleceń lub czynności.
+- Preferuj „wybierz” zamiast „dotknij” lub „kliknij”.
+	- W przypadku instrukcji dotyczących urządzeń mobilnych, „dotknij” jest akceptowalne przy opisywaniu interakcji dotykowych, ponieważ „kliknij” nie ma zastosowania.
+- Preferuj „panel boczny” zamiast „panel boczny”.
+- Preferuj „wykonaj” zamiast „wywołaj” lub „uruchom” w odniesieniu do poleceń lub czynności.
 
-Gdy odwołujesz się do wielu interakcji z interfejsem użytkownika w sekwencji, użyj symbolu → (U+2192). Na przykład „**[[Ustawienia]] → Wtyczki społeczności**".
+Gdy odwołujesz się do wielu interakcji z interfejsem użytkownika w sekwencji, użyj symbolu → (U+2192). Na przykład „**[[Ustawienia]] → Wtyczki społeczności**”.
 
 ### Notatki, pliki i foldery
 
-- Używaj „notatka" w odniesieniu do pliku Markdown w sejfie.
-- Używaj „plik" w odniesieniu do innych rozszerzeń niż Markdown.
-- Preferuj „nazwa notatki" zamiast „tytuł notatki".
-- Preferuj „aktywna notatka" zamiast „bieżąca notatka".
-- Preferuj „folder" zamiast „katalog".
-- Preferuj „typ pliku" zamiast „format pliku", chyba że konkretnie odnosisz się do formatu danych zawartości pliku.
+- Używaj „notatka” w odniesieniu do pliku Markdown w sejfie.
+- Używaj „plik” w odniesieniu do innych rozszerzeń niż Markdown.
+- Preferuj „nazwa notatki” zamiast „tytuł notatki”.
+- Preferuj „aktywna notatka” zamiast „bieżąca notatka”.
+- Preferuj „folder” zamiast „katalog”.
+- Preferuj „typ pliku” zamiast „format pliku”, chyba że konkretnie odnosisz się do formatu danych zawartości pliku.
 
-Przy przechodzeniu między notatkami, użyj „otwórz" jeśli cel jest ukryty, i „przełącz" jeśli zarówno źródłowa, jak i docelowa notatka są otwarte w oddzielnych podziałach.
+Przy przechodzeniu między notatkami, użyj „otwórz” jeśli cel jest ukryty, i „przełącz” jeśli zarówno źródłowa, jak i docelowa notatka są otwarte w oddzielnych podziałach.
 
 ### Dokumentacja referencyjna ustawień
 
@@ -71,7 +71,7 @@ Gdy to możliwe, wszelkie ustawienia powinny być dokumentowane w samym Obsidian
 - Jest powszechnie nieprawidłowo używane lub pytane o nie.
 - _Drastycznie_ zmienia doświadczenie użytkownika.
 
-Rozważ użycie bloku wyróżnienia typu tip, jeśli chcesz zwrócić uwagę na konkretne ustawienie.
+Rozważ użycie bloku informacyjnego typu tip, jeśli chcesz zwrócić uwagę na konkretne ustawienie.
 
 ### Terminy kierunkowe
 
@@ -87,19 +87,19 @@ Stosuj łącznik w terminach kierunkowych, gdy używasz ich jako przymiotników.
 - Wybierz **[[Ustawienia]]** w dolnym lewym rogu.
 - Wybierz **[[Ustawienia]]** w lewym-dolnym.
 
-Preferuj „lewy górny" i „prawy górny" zamiast alternatywnych określeń.
+Preferuj „lewy górny” i „prawy górny” zamiast alternatywnych określeń.
 
 Nie wskazuj kierunku, gdy odwołujesz się do ustawień. Lokalizacja elementu ustawień zależy od urządzenia.
 
 **Zalecane:**
 
-- Obok **Wybierz zdalny sejf**, wybierz **Wybierz**.
+- Obok **Zdalny sejf** wybierz **Wybierz**.
 
 **Niezalecane:**
 
-- Po prawej stronie **Wybierz zdalny sejf**, wybierz **Wybierz**.
+- Po prawej stronie **Zdalny sejf** wybierz **Wybierz**.
 
-Przy opisywaniu kierunku pionowego w elementach interfejsu, użyj „powyżej" i „poniżej" dla relacji przestrzennych. Unikaj „w górę" i „w dół", ponieważ są niejednoznaczne w różnych kontekstach.
+Przy opisywaniu kierunku pionowego w elementach interfejsu, użyj „powyżej” i „poniżej” dla relacji przestrzennych. Unikaj „w górę” i „w dół”, ponieważ są niejednoznaczne w różnych kontekstach.
 
 **Zalecane:**
 
@@ -115,9 +115,9 @@ Przy opisywaniu kierunku pionowego w elementach interfejsu, użyj „powyżej" i
 
 Używaj trybu rozkazującego w nazwach przewodników, nagłówkach sekcji i instrukcjach krok po kroku. Tryb rozkazujący jest zwięzły i zorientowany na działanie, co jest bardziej przejrzyste dla użytkowników wykonujących instrukcje.
 
-- Preferuj „Skonfiguruj" zamiast „Konfigurowanie"
-- Preferuj „Przenieś plik" zamiast „Przenoszenie pliku"
-- Preferuj „Importuj swoje notatki" zamiast „Importowanie notatek"
+- Preferuj „Skonfiguruj” zamiast „Konfigurowanie”
+- Preferuj „Przenieś plik” zamiast „Przenoszenie pliku”
+- Preferuj „Importuj swoje notatki” zamiast „Importowanie notatek”
 
 ### Wielkie litery w zdaniu
 
@@ -182,7 +182,7 @@ W przypadku skrótów identycznych na wszystkich platformach nie musisz określa
 
 ### Markdown
 
-Używaj pustych linii między blokami Markdown:
+Używaj pustych wierszy między blokami Markdown:
 
 **Zalecane:**
 
@@ -208,7 +208,7 @@ To jest sekcja.
 
 **Pauzy w listach:**
 
-Używaj pauz (—), aby oddzielić pogrubione terminy od ich opisów w listach wypunktowanych. Nie używaj pauz w prostych zagnieżdżonych listach z linkami.
+Używaj pauz (—), aby oddzielić pogrubione terminy od ich opisów w listach wypunktowanych. Nie używaj pauz w prostych zagnieżdżonych listach z łączami.
 
 **Zalecane:**
 
@@ -221,7 +221,7 @@ Używaj pauz (—), aby oddzielić pogrubione terminy od ich opisów w listach w
 
 ### Obrazy
 
-Używaj „**szerokość** x **wysokość** pikseli" do opisu wymiarów obrazu lub ekranu.
+Używaj „**szerokość** x **wysokość** pikseli” do opisu wymiarów obrazu lub ekranu.
 
 **Przykład:**
 
@@ -229,17 +229,17 @@ Zalecane wymiary obrazu: 1920 x 1080 pikseli.
 
 ## Struktura informacji
 
-### Typy bloków wyróżnień
+### Typy bloków informacyjnych
 
-Używaj bloków wyróżnień strategicznie, aby podkreślić określone typy informacji:
+Używaj bloków informacyjnych strategicznie, aby podkreślić określone typy informacji:
 
-**Wskazówka** (`[!tip]-`) — Praktyczne porady lub najlepsze praktyki, które ulepszają przepływ pracy użytkownika. Używaj do skrótów, obejść lub nieistotnych, ale przydatnych informacji. Te bloki wyróżnień domyślnie są zwinięte.
+**Wskazówka** (`[!tip]-`) — Praktyczne porady lub najlepsze praktyki, które ulepszają przepływ pracy użytkownika. Używaj do skrótów, obejść lub nieistotnych, ale przydatnych informacji. Te bloki informacyjne domyślnie są zwinięte.
 
-**Informacja** (`[!info]+`) — Dodatkowy kontekst, informacje tła lub wyjaśnienia. Używaj, gdy informacja dodaje zrozumienie, ale nie jest wymagana do ukończenia zadania. Te bloki wyróżnień domyślnie są rozwinięte.
+**Informacja** (`[!info]+`) — Dodatkowy kontekst, informacje tła lub wyjaśnienia. Używaj, gdy informacja dodaje zrozumienie, ale nie jest wymagana do ukończenia zadania. Te bloki informacyjne domyślnie są rozwinięte.
 
-**Ostrzeżenie** (`[!warning]+`) — Ważne przestrogi zapobiegające utracie danych, błędom lub niezamierzonym konsekwencjom. Używaj oszczędnie w przypadku naprawdę ryzykownych sytuacji. Te bloki wyróżnień nigdy nie powinny być zwinięte.
+**Ostrzeżenie** (`[!warning]+`) — Ważne przestrogi zapobiegające utracie danych, błędom lub niezamierzonym konsekwencjom. Używaj oszczędnie w przypadku naprawdę ryzykownych sytuacji. Te bloki informacyjne nigdy nie powinny być zwinięte.
 
-**Przykład** (`[!example]-`) — Ogólne uwagi dodatkowe lub uzupełniające szczegóły. Używaj do pobocznych informacji, które mogą być istotne dla niektórych użytkowników. Te bloki wyróżnień domyślnie są zwinięte.
+**Przykład** (`[!example]-`) — Ogólne uwagi dodatkowe lub uzupełniające szczegóły. Używaj do pobocznych informacji, które mogą być istotne dla niektórych użytkowników. Te bloki informacyjne domyślnie są zwinięte.
 
 **Przykłady:**
 ```md
@@ -286,16 +286,16 @@ Używaj tabel do porównywania funkcji, wersji lub powiązanych punktów danych,
 
 ### Odniesienia wewnętrzne
 
-Używaj wewnętrznych odnośników wiki (`[[Nazwa notatki]]`) liberalnie, aby pomóc użytkownikom nawigować po powiązanych tematach. Jednak unikaj nadmiernego linkowania:
+Używaj wewnętrznych odnośników wiki (`[[Nazwa notatki]]`) liberalnie, aby pomóc użytkownikom nawigować po powiązanych tematach. Jednak unikaj nadmiaru łączy:
 
-- Nie linkuj tego samego terminu wielokrotnie na jednej stronie
-- Linkuj tylko wtedy, gdy strona, do której odsyłasz, dostarcza istotnego dodatkowego kontekstu
-- Używaj opisowego tekstu linku, gdy jest to pomocne: `[[Nazwa notatki#Sekcja|tekst opisowy]]`
+- Nie dodawaj łącza do tego samego terminu wielokrotnie na jednej stronie
+- Dodawaj łącze tylko wtedy, gdy strona, do której odsyłasz, dostarcza istotnego dodatkowego kontekstu
+- Używaj opisowego tekstu łącza, gdy jest to pomocne: `[[Nazwa notatki#Sekcja|tekst opisowy]]`
 
 **Przykład:**
 
 Pierwsze wspomnienie: „Dowiedz się o [[Wprowadzenie do Obsidian Sync|Obsidian Sync]], aby utrzymać swój sejf zaktualizowany na różnych urządzeniach."
-Późniejsze wspomnienie: „Możesz skonfigurować Sync dla każdego urządzenia osobno."
+Późniejsze wspomnienie: „Możesz skonfigurować Sync dla każdego urządzenia osobno.”
 
 ### Treści specyficzne dla platformy
 
@@ -305,18 +305,18 @@ Używaj `Komputer` i `Urządzenie mobilne` jako nagłówków podsekcji, aby oddz
 
 **Zalecane:**
 ```md
-## Dostosowywanie wstążki
+## Dostosowywanie paska bocznego
 
 ### Komputer
 
-W wersji na komputer możesz dostosować wstążkę w następujący sposób:
+W wersji na komputer możesz dostosować pasek boczny w następujący sposób:
 
-- Zmień kolejność akcji wstążki, przeciągając i upuszczając ikony.
+- Zmień kolejność akcji paska bocznego, przeciągając i upuszczając ikony.
 - Aby ukryć określone akcje, kliknij prawym przyciskiem myszy w pustym miejscu i odznacz akcje, które chcesz ukryć.
 
 ### Urządzenie mobilne
 
-W wersji mobilnej możesz dostosować wstążkę poprzez ustawienia:
+W wersji mobilnej możesz dostosować pasek boczny poprzez ustawienia:
 
 1. Otwórz **[[Ustawienia]]**.
 2. Przejdź do **Interfejs**.
@@ -338,7 +338,7 @@ Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisa
 
 - Obrazy powinny być w formacie `.png` lub `.svg`.
 - Jeśli obraz wygląda na zbyt duży w notatce, zmniejsz go poza Obsidian lub dostosuj jego wymiary, jak wyjaśniono w [[Osadzanie plików#Osadzanie obrazu w notatce|osadzaniu obrazu w notatce]].
-- W rzadkich przypadkach możesz umieścić szczególnie duże lub złożone obrazy w [[Bloki informacyjne#Zwijalne bloki wyróżnień|zwiniętym bloku wyróżnienia]].
+- W rzadkich przypadkach możesz umieścić szczególnie duże lub złożone obrazy w [[Bloki informacyjne#Zwijalne bloki informacyjne|zwiniętym bloku informacyjnego]].
 - W przypadku okien wyskakujących lub modali, obraz powinien pokazywać całe okno aplikacji Obsidian.
  ![[Style-guide-modal-example.png#interface]]
 
@@ -346,7 +346,7 @@ Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisa
 
 Ikony [Lucide](https://lucide.dev/icons/) i niestandardowe ikony Obsidian mogą być używane obok szczegółowych elementów, aby zapewnić wizualną reprezentację funkcji.
 
-**Przykład:** W [[Eksplorator plików|eksploratorze plików]] wybierz **Stwórz nowy folder** ![[lucide-folder-plus.svg#icon]], aby utworzyć folder.
+**Przykład:** W [[Eksplorator plików|eksploratorze plików]] wybierz **Utwórz nowy folder** ![[lucide-folder-plus.svg#icon]], aby utworzyć folder.
 
 **Wytyczne dotyczące ikon**
 
@@ -410,7 +410,7 @@ Drugi obraz nie ma znacznika kotwicy obrysu.
 
 ### Optymalizacja
 
-Obrazy spowalniają czas ładowania strony i zajmują cenną przestrzeń dyskową [[Wprowadzenie do Obsidian Publish|Publish]]. Optymalizacja obrazów pozwala zmniejszyć rozmiar pliku, zachowując wizualną integralność obrazu.
+Obrazy spowalniają czas wczytywania strony i zajmują cenną przestrzeń dyskową [[Wprowadzenie do Obsidian Publish|Publish]]. Optymalizacja obrazów pozwala zmniejszyć rozmiar pliku, zachowując wizualną integralność obrazu.
 
 Zarówno obrazy, jak i ikony powinny być optymalizowane.
 
@@ -424,17 +424,17 @@ Zarówno obrazy, jak i ikony powinny być optymalizowane.
 
 ## Układ
 
-### Uszkodzone linki
+### Uszkodzone łącza
 
-Przed przesłaniem Pull Request sprawdź, czy w dokumentacji tłumaczenia, nad którym pracujesz, nie ma uszkodzonych linków, i popraw je. Uszkodzone linki mogą powstawać naturalnie z czasem, więc weryfikacja ich poprawności pomaga utrzymać jakość dokumentacji.
+Przed przesłaniem Pull Request sprawdź, czy w dokumentacji tłumaczenia, nad którym pracujesz, nie ma uszkodzonych łączy, i popraw je. Uszkodzone łącza mogą powstawać naturalnie z czasem, więc weryfikacja ich poprawności pomaga utrzymać jakość dokumentacji.
 
-Możesz sprawdzać uszkodzone linki za pomocą [[Wtyczki społeczności|wtyczek społeczności]] lub narzędzi dostępnych w swoim IDE.
+Możesz sprawdzać uszkodzone łącza za pomocą [[Wtyczki społeczności|wtyczek społeczności]] lub narzędzi dostępnych w swoim IDE.
 
 ### Opisy
 
 Ta dokumentacja jest edytowana na GitHubie i hostowana online za pośrednictwem [[Wprowadzenie do Obsidian Publish|Obsidian Publish]], co obejmuje [[Podglądy łączy w mediach społecznościowych#Opis|opisy]] dla kart społecznościowych i inne elementy [[SEO]].
 
-Jeśli strona, nad którą pracujesz, nie ma [[Atrybuty|właściwości]] `description`, dodaj ją. Opis powinien mieć 150 znaków lub mniej i zawierać obiektywne streszczenie zawartości strony.
+Jeśli strona, nad którą pracujesz, nie ma [[Atrybuty|atrybutu]] `description`, dodaj go. Opis powinien mieć 150 znaków lub mniej i zawierać obiektywne streszczenie zawartości strony.
 
 **Dobrze**: Naucz się tworzyć szablony, które automatycznie przechwytują i organizują metadane stron internetowych za pomocą Web Clipper.
 **Do poprawy**: Dowiedz się, jak tworzyć szablony, które automatycznie przechwytują i organizują metadane ze stron internetowych za pomocą Web Clipper.
@@ -453,4 +453,4 @@ Przetłumacz całą zawartość podczas tłumaczenia. Obejmuje to między innymi
 - Nazwy folderów
 - Aliasy
 - Nazwy załączników
-- Alternatywny tekst linków
+- Alternatywny tekst łączy
