@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills enseñan a los agentes de IA cómo trabajar con tu bóveda y los formatos de archivo de Obsidian.
 ---
-Obsidian Skills son instrucciones que enseñan a los agentes de IA cómo trabajar con Obsidian. Siguen el formato abierto [Agent Skills](https://agentskills.io/specification), por lo que funcionan con cualquier agente que soporte habilidades, incluyendo Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode, y [muchos más](https://agentskills.io/clients).
+Obsidian Skills son instrucciones que enseñan a los agentes de IA cómo trabajar con Obsidian. Siguen el formato abierto [Agent Skills](https://agentskills.io/specification), por lo que funcionan con cualquier agente que soporte habilidades, incluyendo Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, Muse, OpenCode, y [muchos más](https://agentskills.io/clients).
 
 Con Obsidian Skills un agente puede:
 
@@ -46,6 +46,12 @@ agy plugin install https://github.com/obsidianmd/obsidian-skills
 ### Grok Bot
 
 Abre [Obsidian para Grok Bot](https://x.ai/bot/plugin/88871845) y selecciona **Añadir a Grok Bot**.
+
+### Muse
+
+Pide a Muse que instale las habilidades desde https://github.com/obsidianmd/obsidian-skills.
+
+Muse se ejecuta en la nube de Meta, por lo que la habilidad `obsidian-cli` no funciona allí. Si usas Obsidian Headless en Muse, inicias sesión y sincronizas tu bóveda en la nube de Meta.
 
 ### Cursor
 

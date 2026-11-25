@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
 ---
-Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
+Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, Muse, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
 
 Obsidian Skills ile bir ajan şunları yapabilir:
 
@@ -46,6 +46,12 @@ agy plugin install https://github.com/obsidianmd/obsidian-skills
 ### Grok Bot
 
 [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) sayfasını açın ve **Add to Grok Bot** seçeneğini tıklayın.
+
+### Muse
+
+Muse'dan becerileri https://github.com/obsidianmd/obsidian-skills adresinden yüklemesini isteyin.
+
+Muse, Meta'nın bulutunda çalışır, bu nedenle `obsidian-cli` becerisi orada çalışmaz. Muse'da Obsidian Headless kullanıyorsanız, Meta'nın bulutunda oturum açar ve kasanızı senkronize edersiniz.
 
 ### Cursor
 

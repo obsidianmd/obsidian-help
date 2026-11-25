@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills opettavat tekoälyagenteille, miten työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
 ---
-Obsidian Skills ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode ja [monet muut](https://agentskills.io/clients).
+Obsidian Skills ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, Muse, OpenCode ja [monet muut](https://agentskills.io/clients).
 
 Obsidian Skillsin avulla agentti voi:
 
@@ -46,6 +46,12 @@ agy plugin install https://github.com/obsidianmd/obsidian-skills
 ### Grok Bot
 
 Avaa [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) ja valitse **Add to Grok Bot**.
+
+### Muse
+
+Pyydä Musea asentamaan taidot osoitteesta https://github.com/obsidianmd/obsidian-skills.
+
+Muse toimii Metan pilvessä, joten `obsidian-cli`-taito ei toimi siellä. Jos käytät Obsidian Headlessiä Musessa, kirjaudut sisään ja synkronoit holvisi Metan pilvessä.
 
 ### Cursor
 

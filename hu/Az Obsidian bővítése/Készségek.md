@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Az Obsidian Skills megtanítja az AI-ügynököknek, hogyan dolgozzanak a tárolóddal és az Obsidian fájlformátumokkal.'
 ---
-Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Antigravityt, Cursort, GitHub Copilotot, Grok Botot, Hermes Agentet, Kirót, OpenCode-ot és [sok mást](https://agentskills.io/clients).
+Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Antigravityt, Cursort, GitHub Copilotot, Grok Botot, Hermes Agentet, Kirót, Muse-t, OpenCode-ot és [sok mást](https://agentskills.io/clients).
 
 Az Obsidian Skills-szel egy ügynök képes:
 
@@ -46,6 +46,12 @@ agy plugin install https://github.com/obsidianmd/obsidian-skills
 ### Grok Bot
 
 Nyisd meg az [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) oldalt, és válaszd az **Add to Grok Bot** lehetőséget.
+
+### Muse
+
+Kérd meg a Muse-t, hogy telepítse a készségeket a https://github.com/obsidianmd/obsidian-skills címről.
+
+A Muse a Meta felhőjében fut, ezért az `obsidian-cli` készség ott nem működik. Ha az Obsidian Headless-t használod a Muse-ban, a bejelentkezés és a széf szinkronizálása a Meta felhőjében történik.
 
 ### Cursor
 

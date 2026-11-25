@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills dạy các tác tử AI cách làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
 ---
-Obsidian Skills là các hướng dẫn dạy cho các tác nhân AI cách làm việc với Obsidian. Chúng tuân theo định dạng mở [Agent Skills](https://agentskills.io/specification), vì vậy hoạt động với bất kỳ tác nhân nào hỗ trợ skills, bao gồm Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
+Obsidian Skills là các hướng dẫn dạy cho các tác nhân AI cách làm việc với Obsidian. Chúng tuân theo định dạng mở [Agent Skills](https://agentskills.io/specification), vì vậy hoạt động với bất kỳ tác nhân nào hỗ trợ skills, bao gồm Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, Muse, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
 
 Với Obsidian Skills, một tác nhân có thể:
 
@@ -46,6 +46,12 @@ agy plugin install https://github.com/obsidianmd/obsidian-skills
 ### Grok Bot
 
 Mở [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) và chọn **Add to Grok Bot**.
+
+### Muse
+
+Yêu cầu Muse cài đặt skills từ https://github.com/obsidianmd/obsidian-skills.
+
+Muse chạy trên đám mây của Meta, vì vậy skill `obsidian-cli` không hoạt động ở đó. Nếu bạn sử dụng Obsidian Headless trong Muse, bạn đăng nhập và đồng bộ hóa kho của mình trên đám mây của Meta.
 
 ### Cursor
 
