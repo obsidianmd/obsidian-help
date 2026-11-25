@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
 ---
-Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
+Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
 
 Obsidian Skills ile bir ajan şunları yapabilir:
 
@@ -16,7 +16,7 @@ Beceriler [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-sk
 
 ## Kurulum
 
-Obsidian, ChatGPT, Codex, Cursor ve Grok Bot için resmi bir eklentidir. Diğer ajanlar becerileri GitHub'dan yükler.
+Obsidian, Claude, ChatGPT, Codex, Cursor, Grok Bot ve Hermes Agent için resmi bir eklentidir. Diğer ajanlar becerileri GitHub'dan yükler.
 
 ### ChatGPT ve Codex
 
@@ -30,6 +30,12 @@ Cursor Marketplace'ten [Obsidian](https://cursor.com/marketplace/obsidian) yükl
 
 [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) sayfasını açın ve **Add to Grok Bot** seçeneğini tıklayın.
 
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
+```
+
 ### Claude Code
 
 ```shell
@@ -41,13 +47,7 @@ Daha sonra yeni beceriler almak için `claude plugin update obsidian@obsidian-sk
 
 ### Claude
 
-Claude her beceriyi ZIP dosyası olarak yükler, bu nedenle yalnızca ihtiyacınız olan becerileri ekleyin:
-
-1. [obsidian-skills](https://github.com/obsidianmd/obsidian-skills/archive/refs/heads/main.zip) dosyasını indirin ve sıkıştırılmış dosyayı açın.
-2. `plugins/obsidian/skills/` içinde, istediğiniz her becerinin klasörünü ZIP dosyası olarak sıkıştırın, örn. `obsidian-markdown.zip`.
-3. Claude'da **Customize** → **Skills** bölümüne gidin, **+** → **Create skill** → **Upload a skill** seçeneğini tıklayın ve ZIP dosyasını seçin.
-
-Becerileri destekleyen planlar için [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) sayfasına bakın.
+Claude eklenti dizininden [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) ekleyin.
 
 ### Gemini CLI
 

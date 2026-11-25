@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills mengajarkan agen AI cara bekerja dengan vault Anda dan format file Obsidian.
 ---
-Obsidian Skills adalah instruksi yang mengajarkan agen AI cara bekerja dengan Obsidian. Skills ini mengikuti format terbuka [Agent Skills](https://agentskills.io/specification), sehingga dapat bekerja dengan agen mana pun yang mendukung skills, termasuk Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
+Obsidian Skills adalah instruksi yang mengajarkan agen AI cara bekerja dengan Obsidian. Skills ini mengikuti format terbuka [Agent Skills](https://agentskills.io/specification), sehingga dapat bekerja dengan agen mana pun yang mendukung skills, termasuk Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
 
 Dengan Obsidian Skills, sebuah agen dapat:
 
@@ -16,7 +16,7 @@ Skills ini bersumber terbuka di [obsidianmd/obsidian-skills](https://github.com/
 
 ## Pasang
 
-Obsidian adalah plugin resmi untuk ChatGPT, Codex, Cursor, dan Grok Bot. Agen lain memasang skills dari GitHub.
+Obsidian adalah plugin resmi untuk Claude, ChatGPT, Codex, Cursor, Grok Bot, dan Hermes Agent. Agen lain memasang skills dari GitHub.
 
 ### ChatGPT dan Codex
 
@@ -30,6 +30,12 @@ Pasang [Obsidian](https://cursor.com/marketplace/obsidian) dari Cursor Marketpla
 
 Buka [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) dan pilih **Add to Grok Bot**.
 
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
+```
+
 ### Claude Code
 
 ```shell
@@ -41,13 +47,7 @@ Untuk mendapatkan skills baru nanti, jalankan `claude plugin update obsidian@obs
 
 ### Claude
 
-Claude mengunggah setiap skill sebagai file ZIP, jadi tambahkan hanya skills yang Anda butuhkan:
-
-1. Unduh [obsidian-skills](https://github.com/obsidianmd/obsidian-skills/archive/refs/heads/main.zip) dan ekstrak.
-2. Di `plugins/obsidian/skills/`, kompres folder setiap skill yang Anda inginkan menjadi file ZIP, misalnya `obsidian-markdown.zip`.
-3. Di Claude, buka **Customize** → **Skills**, pilih **+** → **Create skill** → **Upload a skill**, dan pilih file ZIP tersebut.
-
-Lihat [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) untuk paket yang mendukung skills.
+Tambahkan [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) dari direktori plugin Claude.
 
 ### Gemini CLI
 

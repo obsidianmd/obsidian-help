@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills uczą agentów AI, jak pracować z Twoim sejfem i formatami plików Obsidian.'
 ---
-Obsidian Skills to instrukcje, które uczą agentów AI, jak pracować z Obsidian. Są zgodne z otwartym formatem [Agent Skills](https://agentskills.io/specification), więc działają z każdym agentem obsługującym umiejętności, w tym Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode i [wieloma innymi](https://agentskills.io/clients).
+Obsidian Skills to instrukcje, które uczą agentów AI, jak pracować z Obsidian. Są zgodne z otwartym formatem [Agent Skills](https://agentskills.io/specification), więc działają z każdym agentem obsługującym umiejętności, w tym Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode i [wieloma innymi](https://agentskills.io/clients).
 
 Dzięki Obsidian Skills agent może:
 
@@ -16,7 +16,7 @@ Umiejętności są otwarte źródłowo na [obsidianmd/obsidian-skills](https://g
 
 ## Instalacja
 
-Obsidian jest oficjalną wtyczką dla ChatGPT, Codex, Cursor i Grok Bot. Inne agenty instalują umiejętności z GitHuba.
+Obsidian jest oficjalną wtyczką dla Claude, ChatGPT, Codex, Cursor, Grok Bot i Hermes Agent. Inne agenty instalują umiejętności z GitHuba.
 
 ### ChatGPT i Codex
 
@@ -30,6 +30,12 @@ Zainstaluj [Obsidian](https://cursor.com/marketplace/obsidian) z Cursor Marketpl
 
 Otwórz [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) i wybierz **Add to Grok Bot**.
 
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
+```
+
 ### Claude Code
 
 ```shell
@@ -41,13 +47,7 @@ Aby później pobrać nowe umiejętności, uruchom `claude plugin update obsidia
 
 ### Claude
 
-Claude przesyła każdą umiejętność jako plik ZIP, więc dodawaj tylko te, których potrzebujesz:
-
-1. Pobierz [obsidian-skills](https://github.com/obsidianmd/obsidian-skills/archive/refs/heads/main.zip) i rozpakuj archiwum.
-2. W katalogu `plugins/obsidian/skills/` skompresuj folder każdej żądanej umiejętności do pliku ZIP, np. `obsidian-markdown.zip`.
-3. W Claude przejdź do **Customize** → **Skills**, wybierz **+** → **Create skill** → **Upload a skill** i wybierz plik ZIP.
-
-Zobacz [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude), aby sprawdzić, które plany obsługują umiejętności.
+Dodaj [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) z katalogu wtyczek Claude.
 
 ### Gemini CLI
 

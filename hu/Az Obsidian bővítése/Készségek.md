@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Az Obsidian Skills megtanítja az AI-ügynököknek, hogyan dolgozzanak a tárolóddal és az Obsidian fájlformátumokkal.'
 ---
-Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Cursort, Gemini CLI-t, GitHub Copilotot, Grok Botot, OpenCode-ot és [sok mást](https://agentskills.io/clients).
+Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Cursort, Gemini CLI-t, GitHub Copilotot, Grok Botot, Hermes Agentet, OpenCode-ot és [sok mást](https://agentskills.io/clients).
 
 Az Obsidian Skills-szel egy ügynök képes:
 
@@ -16,7 +16,7 @@ A készségek nyílt forráskódúak az [obsidianmd/obsidian-skills](https://git
 
 ## Telepítés
 
-Az Obsidian hivatalos bővítmény a ChatGPT, Codex, Cursor és Grok Bot számára. Más ügynökök a készségeket a GitHubról telepítik.
+Az Obsidian hivatalos bővítmény a Claude, ChatGPT, Codex, Cursor, Grok Bot és Hermes Agent számára. Más ügynökök a készségeket a GitHubról telepítik.
 
 ### ChatGPT és Codex
 
@@ -30,6 +30,12 @@ Telepítsd az [Obsidian](https://cursor.com/marketplace/obsidian) bővítményt 
 
 Nyisd meg az [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) oldalt, és válaszd az **Add to Grok Bot** lehetőséget.
 
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
+```
+
 ### Claude Code
 
 ```shell
@@ -41,13 +47,7 @@ Az új készségek későbbi beszerzéséhez futtasd a `claude plugin update obs
 
 ### Claude
 
-A Claude minden készséget ZIP-fájlként tölt fel, ezért csak azokat a készségeket add hozzá, amelyekre szükséged van:
-
-1. Töltsd le az [obsidian-skills](https://github.com/obsidianmd/obsidian-skills/archive/refs/heads/main.zip) csomagot és csomagold ki.
-2. A `plugins/obsidian/skills/` mappában tömörítsd az egyes kívánt készségek mappáját ZIP-fájlba, pl. `obsidian-markdown.zip`.
-3. A Claude-ban menj a **Customize** → **Skills** menübe, válaszd a **+** → **Create skill** → **Upload a skill** lehetőséget, és válaszd ki a ZIP-fájlt.
-
-Lásd a [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) oldalt a készségeket támogató csomagokról.
+Add hozzá az [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) bővítményt a Claude bővítmény-könyvtárából.
 
 ### Gemini CLI
 

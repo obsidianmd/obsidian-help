@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills dạy các tác tử AI cách làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
 ---
-Obsidian Skills là các hướng dẫn dạy cho các tác nhân AI cách làm việc với Obsidian. Chúng tuân theo định dạng mở [Agent Skills](https://agentskills.io/specification), vì vậy hoạt động với bất kỳ tác nhân nào hỗ trợ skills, bao gồm Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
+Obsidian Skills là các hướng dẫn dạy cho các tác nhân AI cách làm việc với Obsidian. Chúng tuân theo định dạng mở [Agent Skills](https://agentskills.io/specification), vì vậy hoạt động với bất kỳ tác nhân nào hỗ trợ skills, bao gồm Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
 
 Với Obsidian Skills, một tác nhân có thể:
 
@@ -16,7 +16,7 @@ Các skills là mã nguồn mở tại [obsidianmd/obsidian-skills](https://gith
 
 ## Cài đặt
 
-Obsidian là một plugin chính thức cho ChatGPT, Codex, Cursor, và Grok Bot. Các tác nhân khác cài đặt skills từ GitHub.
+Obsidian là một plugin chính thức cho Claude, ChatGPT, Codex, Cursor, Grok Bot, và Hermes Agent. Các tác nhân khác cài đặt skills từ GitHub.
 
 ### ChatGPT và Codex
 
@@ -30,6 +30,12 @@ Cài đặt [Obsidian](https://cursor.com/marketplace/obsidian) từ Cursor Mark
 
 Mở [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) và chọn **Add to Grok Bot**.
 
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
+```
+
 ### Claude Code
 
 ```shell
@@ -41,13 +47,7 @@ claude plugin install obsidian@obsidian-skills
 
 ### Claude
 
-Claude tải lên mỗi skill dưới dạng tệp ZIP, vì vậy chỉ thêm các skills bạn cần:
-
-1. Tải xuống [obsidian-skills](https://github.com/obsidianmd/obsidian-skills/archive/refs/heads/main.zip) và giải nén.
-2. Trong `plugins/obsidian/skills/`, nén thư mục của mỗi skill bạn muốn thành tệp ZIP, ví dụ `obsidian-markdown.zip`.
-3. Trong Claude, vào **Customize** → **Skills**, chọn **+** → **Create skill** → **Upload a skill**, và chọn tệp ZIP.
-
-Xem [Using skills in Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) để biết các gói hỗ trợ skills.
+Thêm [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) từ thư mục plugin Claude.
 
 ### Gemini CLI
 

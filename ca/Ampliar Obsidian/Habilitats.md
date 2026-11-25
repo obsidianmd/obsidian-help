@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills ensenyen als agents d'IA com treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
 ---
-Obsidian Skills són instruccions que ensenyen als agents d'IA com treballar amb Obsidian. Segueixen el format obert [Agent Skills](https://agentskills.io/specification), de manera que funcionen amb qualsevol agent que admeti habilitats, incloent-hi Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, i [molts més](https://agentskills.io/clients).
+Obsidian Skills són instruccions que ensenyen als agents d'IA com treballar amb Obsidian. Segueixen el format obert [Agent Skills](https://agentskills.io/specification), de manera que funcionen amb qualsevol agent que admeti habilitats, incloent-hi Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, i [molts més](https://agentskills.io/clients).
 
 Amb Obsidian Skills un agent pot:
 
@@ -16,7 +16,7 @@ Les habilitats són de codi obert a [obsidianmd/obsidian-skills](https://github.
 
 ## Instal·lació
 
-Obsidian és un connector oficial per a ChatGPT, Codex, Cursor i Grok Bot. Altres agents instal·len les habilitats des de GitHub.
+Obsidian és un connector oficial per a Claude, ChatGPT, Codex, Cursor, Grok Bot i Hermes Agent. Altres agents instal·len les habilitats des de GitHub.
 
 ### ChatGPT i Codex
 
@@ -30,6 +30,12 @@ Instal·la [Obsidian](https://cursor.com/marketplace/obsidian) des del Cursor Ma
 
 Obre [Obsidian per a Grok Bot](https://x.ai/bot/plugin/88871845) i selecciona **Afegir a Grok Bot**.
 
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
+```
+
 ### Claude Code
 
 ```shell
@@ -41,13 +47,7 @@ Per obtenir noves habilitats més endavant, executa `claude plugin update obsidi
 
 ### Claude
 
-Claude puja cada habilitat com a fitxer ZIP, així que afegeix només les habilitats que necessitis:
-
-1. Baixa [obsidian-skills](https://github.com/obsidianmd/obsidian-skills/archive/refs/heads/main.zip) i descomprimeix-lo.
-2. A `plugins/obsidian/skills/`, comprimeix la carpeta de cada habilitat que vulguis en un fitxer ZIP, p. ex. `obsidian-markdown.zip`.
-3. A Claude, ves a **Personalitzar** → **Habilitats**, selecciona **+** → **Crear habilitat** → **Pujar una habilitat**, i escull el fitxer ZIP.
-
-Consulta [Usar habilitats a Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) per als plans que admeten habilitats.
+Afegeix [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) des del directori de connectors de Claude.
 
 ### Gemini CLI
 

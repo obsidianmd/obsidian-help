@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills lærer AI-agenter hvordan de kan jobbe med hvelvet ditt og Obsidians filformater.
 ---
-Obsidian Skills er instruksjoner som lærer AI-agenter hvordan de skal jobbe med Obsidian. De følger det åpne [Agent Skills](https://agentskills.io/specification)-formatet, slik at de fungerer med enhver agent som støtter ferdigheter, inkludert Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, OpenCode, og [mange flere](https://agentskills.io/clients).
+Obsidian Skills er instruksjoner som lærer AI-agenter hvordan de skal jobbe med Obsidian. De følger det åpne [Agent Skills](https://agentskills.io/specification)-formatet, slik at de fungerer med enhver agent som støtter ferdigheter, inkludert Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, og [mange flere](https://agentskills.io/clients).
 
 Med Obsidian Skills kan en agent:
 
@@ -16,7 +16,7 @@ Ferdighetene er åpen kildekode på [obsidianmd/obsidian-skills](https://github.
 
 ## Installer
 
-Obsidian er en offisiell utvidelse for ChatGPT, Codex, Cursor og Grok Bot. Andre agenter installerer ferdighetene fra GitHub.
+Obsidian er en offisiell utvidelse for Claude, ChatGPT, Codex, Cursor, Grok Bot og Hermes Agent. Andre agenter installerer ferdighetene fra GitHub.
 
 ### ChatGPT og Codex
 
@@ -30,6 +30,12 @@ Installer [Obsidian](https://cursor.com/marketplace/obsidian) fra Cursor Marketp
 
 Åpne [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) og velg **Legg til i Grok Bot**.
 
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
+```
+
 ### Claude Code
 
 ```shell
@@ -41,13 +47,7 @@ For å hente nye ferdigheter senere, kjør `claude plugin update obsidian@obsidi
 
 ### Claude
 
-Claude laster opp hver ferdighet som en ZIP-fil, så legg kun til ferdighetene du trenger:
-
-1. Last ned [obsidian-skills](https://github.com/obsidianmd/obsidian-skills/archive/refs/heads/main.zip) og pakk den ut.
-2. I `plugins/obsidian/skills/`, komprimer mappen for hver ferdighet du ønsker til en ZIP-fil, f.eks. `obsidian-markdown.zip`.
-3. I Claude, gå til **Tilpass** → **Ferdigheter**, velg **+** → **Opprett ferdighet** → **Last opp en ferdighet**, og velg ZIP-filen.
-
-Se [Bruke ferdigheter i Claude](https://support.claude.com/en/articles/12512180-using-skills-in-claude) for hvilke planer som støtter ferdigheter.
+Legg til [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) fra Claude-utvidelseskatalogen.
 
 ### Gemini CLI
 
