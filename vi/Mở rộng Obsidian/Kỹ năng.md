@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills dạy các tác tử AI cách làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
 ---
-Obsidian Skills là các hướng dẫn dạy cho các tác nhân AI cách làm việc với Obsidian. Chúng tuân theo định dạng mở [Agent Skills](https://agentskills.io/specification), vì vậy hoạt động với bất kỳ tác nhân nào hỗ trợ skills, bao gồm Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
+Obsidian Skills là các hướng dẫn dạy cho các tác nhân AI cách làm việc với Obsidian. Chúng tuân theo định dạng mở [Agent Skills](https://agentskills.io/specification), vì vậy hoạt động với bất kỳ tác nhân nào hỗ trợ skills, bao gồm Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
 
 Với Obsidian Skills, một tác nhân có thể:
 
@@ -16,7 +16,7 @@ Các skills là mã nguồn mở tại [obsidianmd/obsidian-skills](https://gith
 
 ## Cài đặt
 
-Obsidian là một plugin chính thức cho Claude, ChatGPT, Dots, Cursor, Grok Bot, và Hermes. Hầu hết các tác nhân khác có thể cài đặt skills từ GitHub.
+Obsidian là một plugin chính thức cho Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, và Kiro. Hầu hết các tác nhân khác có thể cài đặt skills từ GitHub.
 
 ### Claude
 
@@ -55,6 +55,12 @@ Cài đặt [Obsidian](https://cursor.com/marketplace/obsidian) từ Cursor Mark
 
 ```shell
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```shell
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode, và các tác nhân khác

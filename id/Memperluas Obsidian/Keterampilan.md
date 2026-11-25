@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills mengajarkan agen AI cara bekerja dengan vault Anda dan format file Obsidian.
 ---
-Obsidian Skills adalah instruksi yang mengajarkan agen AI cara bekerja dengan Obsidian. Skills ini mengikuti format terbuka [Agent Skills](https://agentskills.io/specification), sehingga dapat bekerja dengan agen mana pun yang mendukung skills, termasuk Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
+Obsidian Skills adalah instruksi yang mengajarkan agen AI cara bekerja dengan Obsidian. Skills ini mengikuti format terbuka [Agent Skills](https://agentskills.io/specification), sehingga dapat bekerja dengan agen mana pun yang mendukung skills, termasuk Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
 
 Dengan Obsidian Skills, sebuah agen dapat:
 
@@ -16,7 +16,7 @@ Skills ini bersumber terbuka di [obsidianmd/obsidian-skills](https://github.com/
 
 ## Pasang
 
-Obsidian adalah plugin resmi untuk Claude, ChatGPT, Dots, Cursor, Grok Bot, dan Hermes. Sebagian besar agen lain dapat memasang skills dari GitHub.
+Obsidian adalah plugin resmi untuk Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, dan Kiro. Sebagian besar agen lain dapat memasang skills dari GitHub.
 
 ### Claude
 
@@ -55,6 +55,12 @@ Pasang [Obsidian](https://cursor.com/marketplace/obsidian) dari Cursor Marketpla
 
 ```shell
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```shell
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode, dan agen lainnya

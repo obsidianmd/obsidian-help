@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills opettavat tekoälyagenteille, miten työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
 ---
-Obsidian Skills ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode ja [monet muut](https://agentskills.io/clients).
+Obsidian Skills ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode ja [monet muut](https://agentskills.io/clients).
 
 Obsidian Skillsin avulla agentti voi:
 
@@ -16,7 +16,7 @@ Taidot ovat avointa lähdekoodia osoitteessa [obsidianmd/obsidian-skills](https:
 
 ## Asennus
 
-Obsidian on virallinen lisäosa Claudelle, ChatGPT:lle, Dotsille, Cursorille, Grok Botille ja Hermesille. Useimmat muut agentit voivat asentaa taidot GitHubista.
+Obsidian on virallinen lisäosa Claudelle, ChatGPT:lle, Dotsille, Cursorille, Grok Botille, Hermesille ja Kirolle. Useimmat muut agentit voivat asentaa taidot GitHubista.
 
 ### Claude
 
@@ -55,6 +55,12 @@ Asenna [Obsidian](https://cursor.com/marketplace/obsidian) Cursor Marketplacesta
 
 ```shell
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```shell
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode ja muut agentit

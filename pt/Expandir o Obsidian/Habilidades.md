@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: As Obsidian Skills ensinam aos agentes de IA como trabalhar com o seu cofre e os formatos de arquivo do Obsidian.
 ---
-As Obsidian Skills são instruções que ensinam agentes de IA a trabalhar com o Obsidian. Seguem o formato aberto [Agent Skills](https://agentskills.io/specification), por isso funcionam com qualquer agente que suporte skills, incluindo Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, e [muitos mais](https://agentskills.io/clients).
+As Obsidian Skills são instruções que ensinam agentes de IA a trabalhar com o Obsidian. Seguem o formato aberto [Agent Skills](https://agentskills.io/specification), por isso funcionam com qualquer agente que suporte skills, incluindo Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode, e [muitos mais](https://agentskills.io/clients).
 
 Com as Obsidian Skills, um agente pode:
 
@@ -16,7 +16,7 @@ As skills são de código aberto em [obsidianmd/obsidian-skills](https://github.
 
 ## Instalar
 
-O Obsidian é um plugin oficial para o Claude, ChatGPT, Dots, Cursor, Grok Bot e Hermes. A maioria dos outros agentes pode instalar as skills a partir do GitHub.
+O Obsidian é um plugin oficial para o Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes e Kiro. A maioria dos outros agentes pode instalar as skills a partir do GitHub.
 
 ### Claude
 
@@ -55,6 +55,12 @@ Instale o [Obsidian](https://cursor.com/marketplace/obsidian) a partir do Cursor
 
 ```shell
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```shell
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode e outros agentes

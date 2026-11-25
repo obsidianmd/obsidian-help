@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills lærer AI-agenter, hvordan de skal arbejde med din vault og Obsidians filformater.'
 ---
-Obsidian Skills er instruktioner, der lærer AI-agenter at arbejde med Obsidian. De følger det åbne [Agent Skills](https://agentskills.io/specification)-format, så de fungerer med enhver agent, der understøtter færdigheder, herunder Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode og [mange flere](https://agentskills.io/clients).
+Obsidian Skills er instruktioner, der lærer AI-agenter at arbejde med Obsidian. De følger det åbne [Agent Skills](https://agentskills.io/specification)-format, så de fungerer med enhver agent, der understøtter færdigheder, herunder Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode og [mange flere](https://agentskills.io/clients).
 
 Med Obsidian Skills kan en agent:
 
@@ -16,7 +16,7 @@ Færdighederne er open source på [obsidianmd/obsidian-skills](https://github.co
 
 ## Installer
 
-Obsidian er et officielt plugin til Claude, ChatGPT, Dots, Cursor, Grok Bot og Hermes. De fleste andre agenter kan installere færdighederne fra GitHub.
+Obsidian er et officielt plugin til Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes og Kiro. De fleste andre agenter kan installere færdighederne fra GitHub.
 
 ### Claude
 
@@ -55,6 +55,12 @@ Installer [Obsidian](https://cursor.com/marketplace/obsidian) fra Cursor Marketp
 
 ```shell
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```shell
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode og andre agenter

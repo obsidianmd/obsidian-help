@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Az Obsidian Skills megtanítja az AI-ügynököknek, hogyan dolgozzanak a tárolóddal és az Obsidian fájlformátumokkal.'
 ---
-Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Antigravityt, Cursort, GitHub Copilotot, Grok Botot, Hermes Agentet, OpenCode-ot és [sok mást](https://agentskills.io/clients).
+Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Antigravityt, Cursort, GitHub Copilotot, Grok Botot, Hermes Agentet, Kirót, OpenCode-ot és [sok mást](https://agentskills.io/clients).
 
 Az Obsidian Skills-szel egy ügynök képes:
 
@@ -16,7 +16,7 @@ A készségek nyílt forráskódúak az [obsidianmd/obsidian-skills](https://git
 
 ## Telepítés
 
-Az Obsidian hivatalos bővítmény a Claude, ChatGPT, Dots, Cursor, Grok Bot és Hermes számára. A legtöbb más ügynök a készségeket a GitHubról tudja telepíteni.
+Az Obsidian hivatalos bővítmény a Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes és Kiro számára. A legtöbb más ügynök a készségeket a GitHubról tudja telepíteni.
 
 ### Claude
 
@@ -55,6 +55,12 @@ Telepítsd az [Obsidian](https://cursor.com/marketplace/obsidian) bővítményt 
 
 ```shell
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```shell
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode és más ügynökök

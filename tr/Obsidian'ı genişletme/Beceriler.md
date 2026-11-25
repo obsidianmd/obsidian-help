@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
 ---
-Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
+Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
 
 Obsidian Skills ile bir ajan şunları yapabilir:
 
@@ -16,7 +16,7 @@ Beceriler [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-sk
 
 ## Kurulum
 
-Obsidian, Claude, ChatGPT, Dots, Cursor, Grok Bot ve Hermes için resmi bir eklentidir. Diğer ajanların çoğu becerileri GitHub'dan yükleyebilir.
+Obsidian, Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes ve Kiro için resmi bir eklentidir. Diğer ajanların çoğu becerileri GitHub'dan yükleyebilir.
 
 ### Claude
 
@@ -55,6 +55,12 @@ Cursor Marketplace'ten [Obsidian](https://cursor.com/marketplace/obsidian) yükl
 
 ```shell
 hermes plugins install obsidian
+```
+
+### Kiro
+
+```shell
+kiro-cli powers install obsidian
 ```
 
 ### GitHub Copilot, OpenCode ve diğer ajanlar
