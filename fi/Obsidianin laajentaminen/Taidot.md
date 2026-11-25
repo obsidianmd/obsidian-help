@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills opettavat tekoälyagenteille, miten työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
 ---
-Obsidian Skills ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode ja [monet muut](https://agentskills.io/clients).
+Obsidian Skills ovat ohjeita, jotka opettavat tekoälyagentteja toimimaan Obsidianin kanssa. Ne noudattavat avointa [Agent Skills](https://agentskills.io/specification) -muotoa, joten ne toimivat minkä tahansa taitoja tukevan agentin kanssa, mukaan lukien Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode ja [monet muut](https://agentskills.io/clients).
 
 Obsidian Skillsin avulla agentti voi:
 
@@ -16,27 +16,13 @@ Taidot ovat avointa lähdekoodia osoitteessa [obsidianmd/obsidian-skills](https:
 
 ## Asennus
 
-Obsidian on virallinen lisäosa Claudelle, ChatGPT:lle, Codexille, Cursorille, Grok Botille ja Hermes Agentille. Muut agentit asentavat taidot GitHubista.
+Obsidian on virallinen lisäosa Claudelle, ChatGPT:lle, Dotsille, Cursorille, Grok Botille ja Hermesille. Useimmat muut agentit voivat asentaa taidot GitHubista.
 
-### ChatGPT ja Codex
+### Claude
 
-Lisää [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) ChatGPT:n lisäosahakemistosta. Lisäosa toimii sekä ChatGPT:ssä että Codexissa.
+Lisää [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) virallisesta Clauden lisäosahakemistosta.
 
-### Cursor
-
-Asenna [Obsidian](https://cursor.com/marketplace/obsidian) Cursor Marketplacesta.
-
-### Grok Bot
-
-Avaa [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) ja valitse **Add to Grok Bot**.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+Claude Code -komentorivikäyttöliittymässä käytä:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 Saadaksesi uudet taidot myöhemmin, suorita `claude plugin update obsidian@obsidian-skills`.
 
-### Claude
+### ChatGPT
 
-Lisää [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) Clauden lisäosahakemistosta.
+Lisää [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) ChatGPT:n lisäosahakemistosta. Lisäosa toimii ChatGPT:ssä, Codexissa ja Dotsissa.
 
-### Gemini CLI
+### Antigravity
+
+Suorita Antigravity-komentorivikäyttöliittymässä:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Avaa [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) ja valitse **Add to Grok Bot**.
+
+### Cursor
+
+Asenna [Obsidian](https://cursor.com/marketplace/obsidian) Cursor Marketplacesta.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode ja muut agentit

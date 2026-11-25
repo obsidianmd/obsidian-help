@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills învață agenții AI cum să lucreze cu seiful tău și cu formatele de fișiere Obsidian.
 ---
-Obsidian Skills sunt instrucțiuni care învață agenții AI cum să lucreze cu Obsidian. Ele respectă formatul deschis [Agent Skills](https://agentskills.io/specification), astfel încât funcționează cu orice agent care suportă abilități, inclusiv Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode și [mulți alții](https://agentskills.io/clients).
+Obsidian Skills sunt instrucțiuni care învață agenții AI cum să lucreze cu Obsidian. Ele respectă formatul deschis [Agent Skills](https://agentskills.io/specification), astfel încât funcționează cu orice agent care suportă abilități, inclusiv Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode și [mulți alții](https://agentskills.io/clients).
 
 Cu Obsidian Skills, un agent poate:
 
@@ -16,27 +16,13 @@ Abilitățile sunt open source la [obsidianmd/obsidian-skills](https://github.co
 
 ## Instalare
 
-Obsidian este un modul oficial pentru Claude, ChatGPT, Codex, Cursor, Grok Bot și Hermes Agent. Alți agenți instalează abilitățile de pe GitHub.
+Obsidian este un modul oficial pentru Claude, ChatGPT, Dots, Cursor, Grok Bot și Hermes. Majoritatea celorlalți agenți pot instala abilitățile de pe GitHub.
 
-### ChatGPT și Codex
+### Claude
 
-Adaugă [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) din directorul de module ChatGPT. Modulul funcționează atât în ChatGPT, cât și în Codex.
+Adaugă [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) din directorul oficial de module Claude.
 
-### Cursor
-
-Instalează [Obsidian](https://cursor.com/marketplace/obsidian) din Cursor Marketplace.
-
-### Grok Bot
-
-Deschide [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) și selectează **Add to Grok Bot**.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+Pentru Claude Code CLI, folosește:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 Pentru a obține abilități noi ulterior, rulează `claude plugin update obsidian@obsidian-skills`.
 
-### Claude
+### ChatGPT
 
-Adaugă [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) din directorul de module Claude.
+Adaugă [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) din directorul de module ChatGPT. Modulul funcționează în ChatGPT, Codex și Dots.
 
-### Gemini CLI
+### Antigravity
+
+În CLI-ul Antigravity, rulează:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Deschide [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) și selectează **Add to Grok Bot**.
+
+### Cursor
+
+Instalează [Obsidian](https://cursor.com/marketplace/obsidian) din Cursor Marketplace.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode și alți agenți

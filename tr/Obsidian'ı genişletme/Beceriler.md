@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
 ---
-Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
+Obsidian Skills, yapay zeka ajanlarına Obsidian ile nasıl çalışacaklarını öğreten talimatlardır. Açık [Agent Skills](https://agentskills.io/specification) formatını takip ederler, bu nedenle becerileri destekleyen Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir ajanla çalışırlar.
 
 Obsidian Skills ile bir ajan şunları yapabilir:
 
@@ -16,27 +16,13 @@ Beceriler [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-sk
 
 ## Kurulum
 
-Obsidian, Claude, ChatGPT, Codex, Cursor, Grok Bot ve Hermes Agent için resmi bir eklentidir. Diğer ajanlar becerileri GitHub'dan yükler.
+Obsidian, Claude, ChatGPT, Dots, Cursor, Grok Bot ve Hermes için resmi bir eklentidir. Diğer ajanların çoğu becerileri GitHub'dan yükleyebilir.
 
-### ChatGPT ve Codex
+### Claude
 
-ChatGPT eklenti dizininden [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) ekleyin. Eklenti hem ChatGPT hem de Codex'te çalışır.
+Resmi Claude eklenti dizininden [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) ekleyin.
 
-### Cursor
-
-Cursor Marketplace'ten [Obsidian](https://cursor.com/marketplace/obsidian) yükleyin.
-
-### Grok Bot
-
-[Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) sayfasını açın ve **Add to Grok Bot** seçeneğini tıklayın.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+Claude Code CLI için şunu kullanın:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 Daha sonra yeni beceriler almak için `claude plugin update obsidian@obsidian-skills` komutunu çalıştırın.
 
-### Claude
+### ChatGPT
 
-Claude eklenti dizininden [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) ekleyin.
+ChatGPT eklenti dizininden [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) ekleyin. Eklenti ChatGPT, Codex ve Dots'ta çalışır.
 
-### Gemini CLI
+### Antigravity
+
+Antigravity CLI'da şunu çalıştırın:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+[Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) sayfasını açın ve **Add to Grok Bot** seçeneğini tıklayın.
+
+### Cursor
+
+Cursor Marketplace'ten [Obsidian](https://cursor.com/marketplace/obsidian) yükleyin.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode ve diğer ajanlar

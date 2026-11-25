@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills lærer AI-agenter hvordan de kan jobbe med hvelvet ditt og Obsidians filformater.
 ---
-Obsidian Skills er instruksjoner som lærer AI-agenter hvordan de skal jobbe med Obsidian. De følger det åpne [Agent Skills](https://agentskills.io/specification)-formatet, slik at de fungerer med enhver agent som støtter ferdigheter, inkludert Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, og [mange flere](https://agentskills.io/clients).
+Obsidian Skills er instruksjoner som lærer AI-agenter hvordan de skal jobbe med Obsidian. De følger det åpne [Agent Skills](https://agentskills.io/specification)-formatet, slik at de fungerer med enhver agent som støtter ferdigheter, inkludert Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, og [mange flere](https://agentskills.io/clients).
 
 Med Obsidian Skills kan en agent:
 
@@ -16,27 +16,13 @@ Ferdighetene er åpen kildekode på [obsidianmd/obsidian-skills](https://github.
 
 ## Installer
 
-Obsidian er en offisiell utvidelse for Claude, ChatGPT, Codex, Cursor, Grok Bot og Hermes Agent. Andre agenter installerer ferdighetene fra GitHub.
+Obsidian er en offisiell utvidelse for Claude, ChatGPT, Dots, Cursor, Grok Bot og Hermes. De fleste andre agenter kan installere ferdighetene fra GitHub.
 
-### ChatGPT og Codex
+### Claude
 
-Legg til [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) fra ChatGPT-utvidelseskatalogen. Utvidelsen fungerer i både ChatGPT og Codex.
+Legg til [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) fra den offisielle Claude-utvidelseskatalogen.
 
-### Cursor
-
-Installer [Obsidian](https://cursor.com/marketplace/obsidian) fra Cursor Marketplace.
-
-### Grok Bot
-
-Åpne [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) og velg **Legg til i Grok Bot**.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+For Claude Code CLI, bruk:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 For å hente nye ferdigheter senere, kjør `claude plugin update obsidian@obsidian-skills`.
 
-### Claude
+### ChatGPT
 
-Legg til [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) fra Claude-utvidelseskatalogen.
+Legg til [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) fra ChatGPT-utvidelseskatalogen. Utvidelsen fungerer i ChatGPT, Codex og Dots.
 
-### Gemini CLI
+### Antigravity
+
+I Antigravity CLI, kjør:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Åpne [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) og velg **Legg til i Grok Bot**.
+
+### Cursor
+
+Installer [Obsidian](https://cursor.com/marketplace/obsidian) fra Cursor Marketplace.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode og andre agenter

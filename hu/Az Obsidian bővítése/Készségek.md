@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Az Obsidian Skills megtanítja az AI-ügynököknek, hogyan dolgozzanak a tárolóddal és az Obsidian fájlformátumokkal.'
 ---
-Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Cursort, Gemini CLI-t, GitHub Copilotot, Grok Botot, Hermes Agentet, OpenCode-ot és [sok mást](https://agentskills.io/clients).
+Az Obsidian Skills olyan utasítások, amelyek megtanítják az AI-ügynököknek, hogyan dolgozzanak az Obsidiannel. A nyílt [Agent Skills](https://agentskills.io/specification) formátumot követik, így bármely ügynökkel működnek, amely támogatja a készségeket, beleértve a Claude Code-ot, Claude-ot, ChatGPT-t, Antigravityt, Cursort, GitHub Copilotot, Grok Botot, Hermes Agentet, OpenCode-ot és [sok mást](https://agentskills.io/clients).
 
 Az Obsidian Skills-szel egy ügynök képes:
 
@@ -16,27 +16,13 @@ A készségek nyílt forráskódúak az [obsidianmd/obsidian-skills](https://git
 
 ## Telepítés
 
-Az Obsidian hivatalos bővítmény a Claude, ChatGPT, Codex, Cursor, Grok Bot és Hermes Agent számára. Más ügynökök a készségeket a GitHubról telepítik.
+Az Obsidian hivatalos bővítmény a Claude, ChatGPT, Dots, Cursor, Grok Bot és Hermes számára. A legtöbb más ügynök a készségeket a GitHubról tudja telepíteni.
 
-### ChatGPT és Codex
+### Claude
 
-Add hozzá az [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) bővítményt a ChatGPT bővítmény-könyvtárából. A bővítmény mind a ChatGPT-ben, mind a Codexben működik.
+Add hozzá az [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) bővítményt a hivatalos Claude bővítmény-könyvtárából.
 
-### Cursor
-
-Telepítsd az [Obsidian](https://cursor.com/marketplace/obsidian) bővítményt a Cursor Marketplace-ről.
-
-### Grok Bot
-
-Nyisd meg az [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) oldalt, és válaszd az **Add to Grok Bot** lehetőséget.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+A Claude Code CLI-hez használd:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 Az új készségek későbbi beszerzéséhez futtasd a `claude plugin update obsidian@obsidian-skills` parancsot.
 
-### Claude
+### ChatGPT
 
-Add hozzá az [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) bővítményt a Claude bővítmény-könyvtárából.
+Add hozzá az [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) bővítményt a ChatGPT bővítmény-könyvtárából. A bővítmény a ChatGPT-ben, a Codexben és a Dotsban is működik.
 
-### Gemini CLI
+### Antigravity
+
+Az Antigravity CLI-ben futtasd:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Nyisd meg az [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) oldalt, és válaszd az **Add to Grok Bot** lehetőséget.
+
+### Cursor
+
+Telepítsd az [Obsidian](https://cursor.com/marketplace/obsidian) bővítményt a Cursor Marketplace-ről.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode és más ügynökök

@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: 'Obsidian Skills učia AI agentov, ako pracovať s vaším trezorom a formátmi súborov Obsidian.'
 ---
-Obsidian Skills sú inštrukcie, ktoré učia AI agentov pracovať s Obsidian. Dodržiavajú otvorený formát [Agent Skills](https://agentskills.io/specification), takže fungujú s akýmkoľvek agentom, ktorý podporuje zručnosti, vrátane Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode a [mnohých ďalších](https://agentskills.io/clients).
+Obsidian Skills sú inštrukcie, ktoré učia AI agentov pracovať s Obsidian. Dodržiavajú otvorený formát [Agent Skills](https://agentskills.io/specification), takže fungujú s akýmkoľvek agentom, ktorý podporuje zručnosti, vrátane Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode a [mnohých ďalších](https://agentskills.io/clients).
 
 S Obsidian Skills môže agent:
 
@@ -16,27 +16,13 @@ Zručnosti sú otvorený zdrojový kód na [obsidianmd/obsidian-skills](https://
 
 ## Inštalácia
 
-Obsidian je oficiálny plugin pre Claude, ChatGPT, Codex, Cursor, Grok Bot a Hermes Agent. Ostatní agenti inštalujú zručnosti z GitHubu.
+Obsidian je oficiálny plugin pre Claude, ChatGPT, Dots, Cursor, Grok Bot a Hermes. Väčšina ostatných agentov môže nainštalovať zručnosti z GitHubu.
 
-### ChatGPT a Codex
+### Claude
 
-Pridajte [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) z adresára pluginov ChatGPT. Plugin funguje v ChatGPT aj v Codex.
+Pridajte [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) z oficiálneho adresára pluginov Claude.
 
-### Cursor
-
-Nainštalujte [Obsidian](https://cursor.com/marketplace/obsidian) z Cursor Marketplace.
-
-### Grok Bot
-
-Otvorte [Obsidian pre Grok Bot](https://x.ai/bot/plugin/88871845) a vyberte **Add to Grok Bot**.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+Pre Claude Code CLI použite:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 Na získanie nových zručností neskôr spustite `claude plugin update obsidian@obsidian-skills`.
 
-### Claude
+### ChatGPT
 
-Pridajte [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) z adresára pluginov Claude.
+Pridajte [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) z adresára pluginov ChatGPT. Plugin funguje v ChatGPT, Codex a Dots.
 
-### Gemini CLI
+### Antigravity
+
+V Antigravity CLI spustite:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Otvorte [Obsidian pre Grok Bot](https://x.ai/bot/plugin/88871845) a vyberte **Add to Grok Bot**.
+
+### Cursor
+
+Nainštalujte [Obsidian](https://cursor.com/marketplace/obsidian) z Cursor Marketplace.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode a ostatní agenti

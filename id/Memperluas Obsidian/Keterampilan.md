@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills mengajarkan agen AI cara bekerja dengan vault Anda dan format file Obsidian.
 ---
-Obsidian Skills adalah instruksi yang mengajarkan agen AI cara bekerja dengan Obsidian. Skills ini mengikuti format terbuka [Agent Skills](https://agentskills.io/specification), sehingga dapat bekerja dengan agen mana pun yang mendukung skills, termasuk Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
+Obsidian Skills adalah instruksi yang mengajarkan agen AI cara bekerja dengan Obsidian. Skills ini mengikuti format terbuka [Agent Skills](https://agentskills.io/specification), sehingga dapat bekerja dengan agen mana pun yang mendukung skills, termasuk Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
 
 Dengan Obsidian Skills, sebuah agen dapat:
 
@@ -16,27 +16,13 @@ Skills ini bersumber terbuka di [obsidianmd/obsidian-skills](https://github.com/
 
 ## Pasang
 
-Obsidian adalah plugin resmi untuk Claude, ChatGPT, Codex, Cursor, Grok Bot, dan Hermes Agent. Agen lain memasang skills dari GitHub.
+Obsidian adalah plugin resmi untuk Claude, ChatGPT, Dots, Cursor, Grok Bot, dan Hermes. Sebagian besar agen lain dapat memasang skills dari GitHub.
 
-### ChatGPT dan Codex
+### Claude
 
-Tambahkan [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) dari direktori plugin ChatGPT. Plugin ini berfungsi di ChatGPT maupun Codex.
+Tambahkan [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) dari direktori plugin resmi Claude.
 
-### Cursor
-
-Pasang [Obsidian](https://cursor.com/marketplace/obsidian) dari Cursor Marketplace.
-
-### Grok Bot
-
-Buka [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) dan pilih **Add to Grok Bot**.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+Untuk CLI Claude Code gunakan:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 Untuk mendapatkan skills baru nanti, jalankan `claude plugin update obsidian@obsidian-skills`.
 
-### Claude
+### ChatGPT
 
-Tambahkan [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) dari direktori plugin Claude.
+Tambahkan [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) dari direktori plugin ChatGPT. Plugin ini berfungsi di ChatGPT, Codex, dan Dots.
 
-### Gemini CLI
+### Antigravity
+
+Di CLI Antigravity, jalankan:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Buka [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) dan pilih **Add to Grok Bot**.
+
+### Cursor
+
+Pasang [Obsidian](https://cursor.com/marketplace/obsidian) dari Cursor Marketplace.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode, dan agen lainnya

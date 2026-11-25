@@ -3,7 +3,7 @@ permalink: skills
 cssclasses: null
 description: Obsidian Skills enseñan a los agentes de IA cómo trabajar con tu bóveda y los formatos de archivo de Obsidian.
 ---
-Obsidian Skills son instrucciones que enseñan a los agentes de IA cómo trabajar con Obsidian. Siguen el formato abierto [Agent Skills](https://agentskills.io/specification), por lo que funcionan con cualquier agente que soporte habilidades, incluyendo Claude Code, Claude, ChatGPT, Cursor, Gemini CLI, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, y [muchos más](https://agentskills.io/clients).
+Obsidian Skills son instrucciones que enseñan a los agentes de IA cómo trabajar con Obsidian. Siguen el formato abierto [Agent Skills](https://agentskills.io/specification), por lo que funcionan con cualquier agente que soporte habilidades, incluyendo Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, OpenCode, y [muchos más](https://agentskills.io/clients).
 
 Con Obsidian Skills un agente puede:
 
@@ -16,27 +16,13 @@ Las habilidades son de código abierto en [obsidianmd/obsidian-skills](https://g
 
 ## Instalar
 
-Obsidian es un complemento oficial para Claude, ChatGPT, Codex, Cursor, Grok Bot y Hermes Agent. Otros agentes instalan las habilidades desde GitHub.
+Obsidian es un complemento oficial para Claude, ChatGPT, Dots, Cursor, Grok Bot y Hermes. La mayoría de los otros agentes pueden instalar las habilidades desde GitHub.
 
-### ChatGPT y Codex
+### Claude
 
-Añade [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) desde el directorio de complementos de ChatGPT. El complemento funciona tanto en ChatGPT como en Codex.
+Añade [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) desde el directorio oficial de complementos de Claude.
 
-### Cursor
-
-Instala [Obsidian](https://cursor.com/marketplace/obsidian) desde el Marketplace de Cursor.
-
-### Grok Bot
-
-Abre [Obsidian para Grok Bot](https://x.ai/bot/plugin/88871845) y selecciona **Añadir a Grok Bot**.
-
-### Hermes Agent
-
-```shell
-hermes plugins install obsidian
-```
-
-### Claude Code
+Para la CLI de Claude Code usa:
 
 ```shell
 claude plugin marketplace add obsidianmd/obsidian-skills
@@ -45,14 +31,30 @@ claude plugin install obsidian@obsidian-skills
 
 Para obtener nuevas habilidades más tarde, ejecuta `claude plugin update obsidian@obsidian-skills`.
 
-### Claude
+### ChatGPT
 
-Añade [Obsidian](https://claude.ai/customize/plugins/id/a38fa062-ebd3-48e0-9a0a-1875a6e94ad5%40anthropic-plugin-directory) desde el directorio de complementos de Claude.
+Añade [Obsidian](https://chatgpt.com/plugins/plugins_6aee4fde227881919d61b034b1c31096) desde el directorio de complementos de ChatGPT. El complemento funciona en ChatGPT, Codex y Dots.
 
-### Gemini CLI
+### Antigravity
+
+En la CLI de Antigravity, ejecuta:
 
 ```shell
-gemini extensions install https://github.com/obsidianmd/obsidian-skills
+agy plugin install https://github.com/obsidianmd/obsidian-skills
+```
+
+### Grok Bot
+
+Abre [Obsidian para Grok Bot](https://x.ai/bot/plugin/88871845) y selecciona **Añadir a Grok Bot**.
+
+### Cursor
+
+Instala [Obsidian](https://cursor.com/marketplace/obsidian) desde el Marketplace de Cursor.
+
+### Hermes Agent
+
+```shell
+hermes plugins install obsidian
 ```
 
 ### GitHub Copilot, OpenCode y otros agentes
