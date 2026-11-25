@@ -1,5 +1,7 @@
 ---
 permalink: connectors
+aliases:
+  - skills
 cssclasses: null
 description: Les Obsidian Skills enseignent aux agents IA comment travailler avec votre coffre-fort et les formats de fichiers Obsidian.
 ---

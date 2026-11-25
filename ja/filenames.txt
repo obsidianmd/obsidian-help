@@ -100,7 +100,7 @@ translation=設定フォルダ
 
 [file.connectors]
 original=Connectors
-translation=接続
+translation=コネクタ
 
 [file.create-note]
 original=Create your first note

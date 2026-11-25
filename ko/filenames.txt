@@ -100,7 +100,7 @@ translation=설정 폴더
 
 [file.connectors]
 original=Connectors
-translation=연결
+translation=커넥터
 
 [file.create-note]
 original=Create your first note

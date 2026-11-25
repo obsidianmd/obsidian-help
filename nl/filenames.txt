@@ -100,7 +100,7 @@ translation=Configuratiemap
 
 [file.connectors]
 original=Connectors
-translation=Verbindingen
+translation=Connectors
 
 [file.create-note]
 original=Create your first note

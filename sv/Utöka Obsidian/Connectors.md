@@ -1,9 +1,11 @@
 ---
 permalink: connectors
+aliases:
+  - skills
 cssclasses: null
 description: Obsidian Skills lär AI-agenter hur de ska arbeta med ditt valv och Obsidians filformat.
 ---
-Anslutningar låter dig ansluta Obsidian till vilken AI-agent som helst, inklusive Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode och [många fler](https://agentskills.io/clients).
+Connectors låter dig ansluta Obsidian till vilken AI-agent som helst, inklusive Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode och [många fler](https://agentskills.io/clients).
 
 Det innebär att dina agenter kan lära sig att:
 
@@ -101,4 +103,4 @@ Defuddle, Knap och Obsidian Headless är separata verktyg som inte medföljer f�
 
 ## Integritet
 
-Obsidian-anslutningar skickar ingenting på egen hand. När en agent använder dem blir anteckningarna den läser en del av konversationen och bearbetas av den AI-modell du använder. Granska din agents integritetspolicy innan du pekar den mot ett valv med känsliga anteckningar.
+Obsidian-connectors skickar ingenting på egen hand. När en agent använder dem blir anteckningarna den läser en del av konversationen och bearbetas av den AI-modell du använder. Granska din agents integritetspolicy innan du pekar den mot ett valv med känsliga anteckningar.

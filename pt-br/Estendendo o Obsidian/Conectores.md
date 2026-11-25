@@ -1,5 +1,7 @@
 ---
 permalink: connectors
+aliases:
+  - skills
 cssclasses: null
 description: As Habilidades do Obsidian ensinam aos agentes de IA como trabalhar com o seu cofre e os formatos de arquivo do Obsidian.
 ---

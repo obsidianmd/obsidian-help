@@ -104,7 +104,7 @@ translation=设置文件夹
 
 [file.connectors]
 original=Connectors
-translation=同步方式
+translation=连接器
 
 [file.create-note]
 original=Create your first note
