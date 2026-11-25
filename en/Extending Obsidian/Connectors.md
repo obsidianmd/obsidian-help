@@ -1,14 +1,16 @@
 ---
 description: Obsidian Skills teach AI agents how to work with your vault and Obsidian file formats.
-permalink: skills
+permalink: connectors
 aliases:
   - Obsidian Skills
   - Agent Skills
+  - skills
+  - /skills
 cssclasses:
 ---
-Obsidian Skills are instructions that teach AI agents how to work with Obsidian. They follow the open [Agent Skills](https://agentskills.io/specification) format, so they work with any agent that supports skills, including Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, Muse, OpenCode, and [many more](https://agentskills.io/clients).
+Connectors let you connect Obsidian to any AI agent including Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, and [many more](https://agentskills.io/clients).
 
-With Obsidian Skills an agent can:
+That means your agents can learn how to:
 
 - Write notes in [[Obsidian Flavored Markdown]], with [[Internal links|wikilinks]], embeds, callouts, and [[Properties|properties]].
 - Create and edit [[Introduction to Bases|Bases]] and [[Canvas|Canvas]] files.
@@ -19,7 +21,7 @@ The skills are open source at [obsidianmd/obsidian-skills](https://github.com/ob
 
 ## Install
 
-Obsidian is an official plugin for Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, and Kiro. Most other agents can install the skills from GitHub.
+You find Obsidian by searching in the plugins list in Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, and Kiro. Most other agents can install the skills if you send them a link to this page.
 
 ### Claude
 
@@ -104,4 +106,4 @@ Defuddle, Knap, and Obsidian Headless are separate tools that aren't bundled wit
 
 ## Privacy
 
-Obsidian Skills don't send anything by themselves. When an agent uses them, the notes it reads become part of the conversation and are processed by the AI model you use. Review your agent's privacy policy before you point it at a vault with sensitive notes.
+Obsidian connectors don't send anything by themselves. When an agent uses them, the notes it reads become part of the conversation and are processed by the AI model you use. Review your agent's privacy policy before you point it at a vault with sensitive notes.
