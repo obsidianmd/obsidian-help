@@ -6,7 +6,7 @@ aliases:
   - Agent Skills
 cssclasses:
 ---
-Obsidian Skills are instructions that teach AI agents how to work with Obsidian. They follow the open [Agent Skills](https://agentskills.io/specification) format, so they work with any agent that supports skills, including Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, OpenCode, and [many more](https://agentskills.io/clients).
+Obsidian Skills are instructions that teach AI agents how to work with Obsidian. They follow the open [Agent Skills](https://agentskills.io/specification) format, so they work with any agent that supports skills, including Claude Code, Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes Agent, Kiro, Muse, OpenCode, and [many more](https://agentskills.io/clients).
 
 With Obsidian Skills an agent can:
 
@@ -49,6 +49,12 @@ agy plugin install https://github.com/obsidianmd/obsidian-skills
 ### Grok Bot
 
 Open [Obsidian for Grok Bot](https://x.ai/bot/plugin/88871845) and select **Add to Grok Bot**.
+
+### Muse
+
+Ask Muse to install the skills from https://github.com/obsidianmd/obsidian-skills.
+
+Muse runs in Meta's cloud, so the `obsidian-cli` skill doesn't work there. If you use Obsidian Headless in Muse, you sign in and sync your vault in Meta's cloud.
 
 ### Cursor
 
