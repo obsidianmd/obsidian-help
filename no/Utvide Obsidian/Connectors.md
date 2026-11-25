@@ -1,5 +1,8 @@
 ---
 permalink: connectors
+aliases:
+  - skills
+cover: "Attachments/Connectors cover.jpg"
 cssclasses: null
 description: Obsidian Skills lærer AI-agenter hvordan de kan arbeide med hvelvet ditt og Obsidians filformater.
 ---

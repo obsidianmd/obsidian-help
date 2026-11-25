@@ -1,5 +1,8 @@
 ---
 permalink: connectors
+aliases:
+  - skills
+cover: "Attachments/Connectors cover.jpg"
 cssclasses: null
 description: 'Obsidian Becerileri, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
 ---

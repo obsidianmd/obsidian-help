@@ -328,7 +328,7 @@ W wersji mobilnej możesz dostosować wstążkę poprzez ustawienia:
 
 ## Ikony i obrazy
 
-Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisania słowami, lub gdy musisz pokazać ważne części aplikacji Obsidian. Obrazy możesz zapisywać w folderze `Załączniki`.
+Dołączaj ikony i obrazy, gdy ułatwiają wyjaśnianie rzeczy trudnych do opisania słowami, lub gdy musisz pokazać ważne części aplikacji Obsidian. Obrazy możesz zapisywać w folderze `Attachments`.
 
 - Obraz powinien ułatwiać zrozumienie towarzyszącego mu tekstu.
 
@@ -350,7 +350,7 @@ Ikony [Lucide](https://lucide.dev/icons/) i niestandardowe ikony Obsidian mogą 
 
 **Wytyczne dotyczące ikon**
 
-- Przechowuj ikony w folderze `Załączniki/icons`.
+- Przechowuj ikony w folderze `Attachments/icons`.
 - Dodaj prefiks `lucide-` przed nazwą ikony Lucide.
 - Dodaj prefiks `obsidian-icon-` przed nazwą ikony Obsidian.
 

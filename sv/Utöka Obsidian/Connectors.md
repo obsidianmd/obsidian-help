@@ -1,5 +1,8 @@
 ---
 permalink: connectors
+aliases:
+  - skills
+cover: "Attachments/Connectors cover.jpg"
 cssclasses: null
 description: Obsidian Skills lär AI-agenter hur de ska arbeta med ditt valv och Obsidians filformat.
 ---

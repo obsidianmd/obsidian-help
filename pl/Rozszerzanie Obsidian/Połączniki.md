@@ -1,5 +1,8 @@
 ---
 permalink: connectors
+aliases:
+  - skills
+cover: "Attachments/Connectors cover.jpg"
 cssclasses: null
 description: 'Umiejętności Obsidian uczą agentów AI, jak pracować z Twoim sejfem i formatami plików Obsidian.'
 ---

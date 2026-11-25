@@ -124,9 +124,11 @@ function buildFrontmatter(
   }
 
   // Preserve locale aliases, stripping any that came from EN frontmatter.
+  // Slug aliases like `skills` are old permalinks that Publish redirects, so locales keep them.
   const enAliasSet = new Set((enFm.aliases as string[] | undefined) ?? []);
   const localeAliases = (localeFm.aliases as string[] | undefined) ?? [];
-  const filteredAliases = localeAliases.filter(a => !enAliasSet.has(a));
+  const isSlug = (a: string) => /^\/?[a-z0-9]+(?:[-/][a-z0-9]+)*$/.test(a);
+  const filteredAliases = localeAliases.filter(a => isSlug(a) || !enAliasSet.has(a));
   if (filteredAliases.length > 0) {
     result.aliases = filteredAliases;
   } else {

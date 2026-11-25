@@ -1,5 +1,8 @@
 ---
 permalink: connectors
+aliases:
+  - skills
+cover: "Attachments/Connectors cover.jpg"
 cssclasses: null
 description: 'Obsidian Skills učia AI agentov, ako pracovať s vaším trezor a formátmi súborov Obsidian.'
 ---

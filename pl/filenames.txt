@@ -732,7 +732,7 @@ translation=Przestrzeń robocza
 
 [folder.Attachments]
 original=Attachments
-translation=Załączniki
+translation=Attachments
 
 [folder.audio]
 original=audio

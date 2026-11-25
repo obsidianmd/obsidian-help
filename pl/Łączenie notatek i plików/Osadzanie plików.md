@@ -52,10 +52,10 @@ Jeśli określisz tylko szerokość, obraz zostanie przeskalowany zgodnie z oryg
 Możesz również osadzić obraz hostowany zewnętrznie, używając łącza w formacie Markdown. Szerokość i wysokość kontrolujesz w ten sam sposób, co w przypadku odnośnika wiki.
 
 ```md
-![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Załączniki/Engelbart.jpg)
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 ```
 
-![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Załączniki/Engelbart.jpg)
+![250](https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/Attachments/Engelbart.jpg)
 
 ## Osadzanie pliku audio w notatce
 

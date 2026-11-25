@@ -1,6 +1,7 @@
 ---
 description: Obsidian Skills teach AI agents how to work with your vault and Obsidian file formats.
 permalink: connectors
+cover: "Attachments/Connectors cover.jpg"
 aliases:
   - Obsidian Skills
   - Agent Skills

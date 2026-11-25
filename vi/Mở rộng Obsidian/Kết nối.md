@@ -1,5 +1,8 @@
 ---
 permalink: connectors
+aliases:
+  - skills
+cover: "Attachments/Connectors cover.jpg"
 cssclasses: null
 description: Obsidian Skills dạy các tác tử AI cách làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
 ---
