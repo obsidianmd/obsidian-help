@@ -1,7 +1,5 @@
 ---
 permalink: connectors
-aliases:
-  - skills
 cssclasses: null
 description: 'Obsidian Becerileri, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
 ---

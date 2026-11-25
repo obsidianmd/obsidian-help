@@ -1,7 +1,5 @@
 ---
 permalink: connectors
-aliases:
-  - skills
 cssclasses: null
 description: 'Obsidian Skills lehren KI-Agenten, wie sie mit deinem Vault und den Obsidian-Dateiformaten arbeiten können.'
 ---

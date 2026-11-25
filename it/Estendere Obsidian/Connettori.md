@@ -1,7 +1,5 @@
 ---
 permalink: connectors
-aliases:
-  - skills
 cssclasses: null
 description: Le Competenze Obsidian insegnano agli agenti AI come lavorare con il tuo vault e i formati di file di Obsidian.
 ---
