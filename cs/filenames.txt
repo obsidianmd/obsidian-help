@@ -98,6 +98,10 @@ translation=Komunitní pluginy
 original=Configuration folder
 translation=Konfigurační složka
 
+[file.connectors]
+original=Connectors
+translation=Konektory
+
 [file.create-note]
 original=Create your first note
 translation=Vytvoření první poznámky

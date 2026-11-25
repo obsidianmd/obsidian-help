@@ -4225,3 +4225,23 @@ translation=요구 사항
 [heading.skills/Privacy]
 original=Privacy
 translation=개인정보 보호
+
+[heading.connectors/Install]
+original=Install
+translation=설치
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode 및 기타 에이전트
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=포함된 스킬
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=요구 사항
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=개인정보 보호

@@ -1565,3 +1565,19 @@ translation=Meegeleverde vaardigheden
 [heading.skills/Requirements]
 original=Requirements
 translation=Vereisten
+
+[heading.connectors/Install]
+original=Install
+translation=Installeren
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode en andere agents
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Inbegrepen vaardigheden
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Vereisten

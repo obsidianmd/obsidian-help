@@ -1197,3 +1197,23 @@ translation=Απαιτήσεις
 [heading.skills/Privacy]
 original=Privacy
 translation=Απόρρητο
+
+[heading.connectors/Install]
+original=Install
+translation=Εγκατάσταση
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode και άλλοι agents
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Περιλαμβανόμενες δεξιότητες
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Απαιτήσεις
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Απόρρητο

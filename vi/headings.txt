@@ -4337,3 +4337,23 @@ translation=Yêu cầu
 [heading.skills/Privacy]
 original=Privacy
 translation=Quyền riêng tư
+
+[heading.connectors/Install]
+original=Install
+translation=Cài đặt
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, và các tác nhân khác
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Các kỹ năng bao gồm
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Yêu cầu
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Quyền riêng tư

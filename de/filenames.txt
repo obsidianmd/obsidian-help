@@ -98,6 +98,10 @@ translation=Community-Erweiterungen
 original=Configuration folder
 translation=Konfigurationsordner
 
+[file.connectors]
+original=Connectors
+translation=Verbindungen
+
 [file.create-note]
 original=Create your first note
 translation=Erste Notiz erstellen

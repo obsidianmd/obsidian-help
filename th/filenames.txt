@@ -98,6 +98,10 @@ translation=ปลั๊กอินโดยชุมชน
 original=Configuration folder
 translation=โฟลเดอร์การตั้งค่า
 
+[file.connectors]
+original=Connectors
+translation=ตัวเชื่อมต่อ
+
 [file.create-note]
 original=Create your first note
 translation=สร้างโน้ตแรกของคุณ

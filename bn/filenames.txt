@@ -98,6 +98,10 @@ translation=কমিউনিটি প্লাগইন
 original=Configuration folder
 translation=কনফিগারেশন ফোল্ডার
 
+[file.connectors]
+original=Connectors
+translation=সংযোগকারী
+
 [file.create-note]
 original=Create your first note
 translation=আপনার প্রথম নোট তৈরি করুন

@@ -98,6 +98,10 @@ translation=Fællesskabsplugins
 original=Configuration folder
 translation=Konfigurationsmappe
 
+[file.connectors]
+original=Connectors
+translation=Forbindelser
+
 [file.create-note]
 original=Create your first note
 translation=Opret din første note

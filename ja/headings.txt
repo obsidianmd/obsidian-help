@@ -4393,3 +4393,23 @@ translation=要件
 [heading.skills/Privacy]
 original=Privacy
 translation=プライバシー
+
+[heading.connectors/Install]
+original=Install
+translation=インストール
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot、OpenCode、その他のエージェント
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=含まれるスキル
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=要件
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=プライバシー

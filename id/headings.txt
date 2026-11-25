@@ -4237,3 +4237,23 @@ translation=Persyaratan
 [heading.skills/Privacy]
 original=Privacy
 translation=Privasi
+
+[heading.connectors/Install]
+original=Install
+translation=Pasang
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, dan agen lainnya
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Skill yang disertakan
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Persyaratan
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Privasi

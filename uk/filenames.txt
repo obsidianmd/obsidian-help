@@ -98,6 +98,10 @@ translation=Додатки спільноти
 original=Configuration folder
 translation=Тека конфігурації
 
+[file.connectors]
+original=Connectors
+translation=Конектори
+
 [file.create-note]
 original=Create your first note
 translation=Створіть свою першу нотатку

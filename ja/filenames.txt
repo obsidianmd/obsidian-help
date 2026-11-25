@@ -98,6 +98,10 @@ translation=コミュニティプラグイン
 original=Configuration folder
 translation=設定フォルダ
 
+[file.connectors]
+original=Connectors
+translation=接続
+
 [file.create-note]
 original=Create your first note
 translation=最初のノートを作成する

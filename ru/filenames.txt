@@ -98,6 +98,10 @@ translation=Сторонние плагины
 original=Configuration folder
 translation=Папка конфигурации
 
+[file.connectors]
+original=Connectors
+translation=Коннекторы
+
 [file.create-note]
 original=Create your first note
 translation=Создание первой заметки

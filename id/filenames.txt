@@ -98,6 +98,10 @@ translation=Plugin komunitas
 original=Configuration folder
 translation=Folder konfigurasi
 
+[file.connectors]
+original=Connectors
+translation=Konektor
+
 [file.create-note]
 original=Create your first note
 translation=Buat catatan pertama Anda

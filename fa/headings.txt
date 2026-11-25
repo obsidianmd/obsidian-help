@@ -4373,3 +4373,23 @@ translation=پیش‌نیازها
 [heading.skills/Privacy]
 original=Privacy
 translation=حریم خصوصی
+
+[heading.connectors/Install]
+original=Install
+translation=نصب
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot، OpenCode و سایر عامل‌ها
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=مهارت‌های شامل
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=پیش‌نیازها
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=حریم خصوصی

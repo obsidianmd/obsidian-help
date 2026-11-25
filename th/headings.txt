@@ -4289,3 +4289,23 @@ translation=ข้อกำหนด
 [heading.skills/Privacy]
 original=Privacy
 translation=ความเป็นส่วนตัว
+
+[heading.connectors/Install]
+original=Install
+translation=ติดตั้ง
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode และ agent อื่นๆ
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=สกิลที่รวมมา
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=ข้อกำหนด
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=ความเป็นส่วนตัว

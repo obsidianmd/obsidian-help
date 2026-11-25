@@ -2817,3 +2817,23 @@ translation=តម្រូវការ
 [heading.skills/Privacy]
 original=Privacy
 translation=ឯកជនភាព
+
+[heading.connectors/Install]
+original=Install
+translation=ដំឡើង
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode និង agents ផ្សេងទៀត
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=ជំនាញដែលរួមបញ្ចូល
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=តម្រូវការ
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=ឯកជនភាព

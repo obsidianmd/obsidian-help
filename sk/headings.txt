@@ -1997,3 +1997,23 @@ translation=Požiadavky
 [heading.skills/Privacy]
 original=Privacy
 translation=Súkromie
+
+[heading.connectors/Install]
+original=Install
+translation=Inštalácia
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode a ďalší agenti
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Zahrnuté schopnosti
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Požiadavky
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Súkromie

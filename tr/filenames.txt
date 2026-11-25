@@ -98,6 +98,10 @@ translation=Topluluk Eklentileri
 original=Configuration folder
 translation=Yapılandırma klasörü
 
+[file.connectors]
+original=Connectors
+translation=Bağlayıcılar
+
 [file.create-note]
 original=Create your first note
 translation=İlk notunuzu oluşturun

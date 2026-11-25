@@ -249,3 +249,23 @@ translation=প্রয়োজনীয়তা
 [heading.skills/Privacy]
 original=Privacy
 translation=গোপনীয়তা
+
+[heading.connectors/Install]
+original=Install
+translation=ইনস্টল
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, এবং অন্যান্য এজেন্ট
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=অন্তর্ভুক্ত স্কিল
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=প্রয়োজনীয়তা
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=গোপনীয়তা

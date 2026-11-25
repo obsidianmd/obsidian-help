@@ -98,6 +98,10 @@ translation=افزونه‌های انجمن
 original=Configuration folder
 translation=پوشه پیکربندی
 
+[file.connectors]
+original=Connectors
+translation=وصل‌کننده‌ها
+
 [file.create-note]
 original=Create your first note
 translation=ساختن اولین یادداشت

@@ -98,6 +98,10 @@ translation=社群外掛程式
 original=Configuration folder
 translation=設定資料夾
 
+[file.connectors]
+original=Connectors
+translation=連接器
+
 [file.create-note]
 original=Create your first note
 translation=建立你的第一則筆記

@@ -102,6 +102,10 @@ translation=Modules complémentaires
 original=Configuration folder
 translation=Dossier de configuration
 
+[file.connectors]
+original=Connectors
+translation=Connecteurs
+
 [file.create-note]
 original=Create your first note
 translation=Créer votre première note

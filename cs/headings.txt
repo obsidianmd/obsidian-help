@@ -881,3 +881,23 @@ translation=Požadavky
 [heading.skills/Privacy]
 original=Privacy
 translation=Soukromí
+
+[heading.connectors/Install]
+original=Install
+translation=Instalace
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode a další agenti
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Zahrnuté dovednosti
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Požadavky
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Soukromí

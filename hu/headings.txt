@@ -1073,3 +1073,23 @@ translation=Követelmények
 [heading.skills/Privacy]
 original=Privacy
 translation=Adatvédelem
+
+[heading.connectors/Install]
+original=Install
+translation=Telepítés
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode és más ágensek
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Tartalmazott képességek
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Követelmények
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Adatvédelem

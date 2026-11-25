@@ -98,6 +98,10 @@ translation=Gemenskapstillägg
 original=Configuration folder
 translation=Konfigurationsmapp
 
+[file.connectors]
+original=Connectors
+translation=Anslutningar
+
 [file.create-note]
 original=Create your first note
 translation=Skapa din första anteckning

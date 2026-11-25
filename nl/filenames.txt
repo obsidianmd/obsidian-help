@@ -98,6 +98,10 @@ translation=Communityplug-ins
 original=Configuration folder
 translation=Configuratiemap
 
+[file.connectors]
+original=Connectors
+translation=Verbindingen
+
 [file.create-note]
 original=Create your first note
 translation=Je eerste notitie aanmaken

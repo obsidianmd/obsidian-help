@@ -102,6 +102,10 @@ translation=第三方插件
 original=Configuration folder
 translation=设置文件夹
 
+[file.connectors]
+original=Connectors
+translation=同步方式
+
 [file.create-note]
 original=Create your first note
 translation=创建第一篇笔记

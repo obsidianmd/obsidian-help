@@ -98,6 +98,10 @@ translation=Module comunitare
 original=Configuration folder
 translation=Directorul de configurare
 
+[file.connectors]
+original=Connectors
+translation=Conectori
+
 [file.create-note]
 original=Create your first note
 translation=Creează prima ta notiță

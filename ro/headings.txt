@@ -245,3 +245,23 @@ translation=Cerințe
 [heading.skills/Privacy]
 original=Privacy
 translation=Confidențialitate
+
+[heading.connectors/Install]
+original=Install
+translation=Instalare
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode și alți agenți
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Abilități incluse
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Cerințe
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Confidențialitate

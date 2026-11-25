@@ -98,6 +98,10 @@ translation=커뮤니티 플러그인
 original=Configuration folder
 translation=설정 폴더
 
+[file.connectors]
+original=Connectors
+translation=연결
+
 [file.create-note]
 original=Create your first note
 translation=첫 번째 노트 만들기

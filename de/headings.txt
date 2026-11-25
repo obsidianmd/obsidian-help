@@ -4153,3 +4153,23 @@ translation=Voraussetzungen
 [heading.skills/Privacy]
 original=Privacy
 translation=Datenschutz
+
+[heading.connectors/Install]
+original=Install
+translation=Installieren
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode und andere Agenten
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Enthaltene Skills
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Voraussetzungen
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Datenschutz

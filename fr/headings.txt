@@ -4205,3 +4205,23 @@ translation=Prérequis
 [heading.skills/Privacy]
 original=Privacy
 translation=Confidentialité
+
+[heading.connectors/Install]
+original=Install
+translation=Installer
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode et autres agents
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Compétences incluses
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Prérequis
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Confidentialité

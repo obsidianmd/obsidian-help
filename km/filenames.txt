@@ -98,6 +98,10 @@ translation=កម្មវិធីជំនួយសហគមន៍
 original=Configuration folder
 translation=ថតកំណត់រចនាសម្ព័ន្ធ
 
+[file.connectors]
+original=Connectors
+translation=ឧបករណ៍តភ្ជាប់
+
 [file.create-note]
 original=Create your first note
 translation=បង្កើតកំណត់ត្រាដំបូងរបស់អ្នក

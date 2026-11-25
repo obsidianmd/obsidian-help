@@ -98,6 +98,10 @@ translation=Yhteisön lisäosat
 original=Configuration folder
 translation=Asetuskansio
 
+[file.connectors]
+original=Connectors
+translation=Yhdistimet
+
 [file.create-note]
 original=Create your first note
 translation=Luo ensimmäinen muistiinpanosi

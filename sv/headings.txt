@@ -1101,3 +1101,23 @@ translation=Krav
 [heading.skills/Privacy]
 original=Privacy
 translation=Integritet
+
+[heading.connectors/Install]
+original=Install
+translation=Installera
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode och andra agenter
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Inkluderade färdigheter
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Krav
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Integritet

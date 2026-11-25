@@ -98,6 +98,10 @@ translation=Πρόσθετα κοινότητας
 original=Configuration folder
 translation=Φάκελος ρυθμίσεων
 
+[file.connectors]
+original=Connectors
+translation=Σύνδεσμοι
+
 [file.create-note]
 original=Create your first note
 translation=Δημιουργήστε την πρώτη σας σημείωση

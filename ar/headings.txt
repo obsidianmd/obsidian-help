@@ -1673,3 +1673,23 @@ translation=المتطلبات
 [heading.skills/Privacy]
 original=Privacy
 translation=الخصوصية
+
+[heading.connectors/Install]
+original=Install
+translation=التثبيت
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot وOpenCode ووكلاء آخرون
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=المهارات المُضمّنة
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=المتطلبات
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=الخصوصية

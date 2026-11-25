@@ -98,6 +98,10 @@ translation=إضافات المجتمع
 original=Configuration folder
 translation=مجلد الإعدادات
 
+[file.connectors]
+original=Connectors
+translation=أدوات اتصال
+
 [file.create-note]
 original=Create your first note
 translation=أنشئ ملاحظتك الأولى

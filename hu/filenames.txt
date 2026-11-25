@@ -98,6 +98,10 @@ translation=Közösségi bővítmények
 original=Configuration folder
 translation=Konfigurációs mappa
 
+[file.connectors]
+original=Connectors
+translation=Csatlakozók
+
 [file.create-note]
 original=Create your first note
 translation=Első jegyzet létrehozása

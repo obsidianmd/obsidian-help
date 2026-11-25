@@ -98,6 +98,10 @@ translation=Wtyczki społeczności
 original=Configuration folder
 translation=Folder konfiguracji
 
+[file.connectors]
+original=Connectors
+translation=Połączniki
+
 [file.create-note]
 original=Create your first note
 translation=Stwórz swoją pierwszą notatkę

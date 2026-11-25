@@ -4041,3 +4041,23 @@ translation=Вимоги
 [heading.skills/Privacy]
 original=Privacy
 translation=Конфіденційність
+
+[heading.connectors/Install]
+original=Install
+translation=Встановлення
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode та інші агенти
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Включені навички
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Вимоги
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Конфіденційність

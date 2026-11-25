@@ -98,6 +98,10 @@ translation=תוספים קהילתיים
 original=Configuration folder
 translation=תיקיית תצורה
 
+[file.connectors]
+original=Connectors
+translation=מחברים
+
 [file.create-note]
 original=Create your first note
 translation=צור את ההערה הראשונה שלך

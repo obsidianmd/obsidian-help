@@ -1409,3 +1409,23 @@ translation=Krav
 [heading.skills/Privacy]
 original=Privacy
 translation=Privatliv
+
+[heading.connectors/Install]
+original=Install
+translation=Installer
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode og andre agenter
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Inkluderede færdigheder
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Krav
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Privatliv

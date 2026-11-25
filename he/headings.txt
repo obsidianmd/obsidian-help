@@ -1173,3 +1173,23 @@ translation=דרישות
 [heading.skills/Privacy]
 original=Privacy
 translation=פרטיות
+
+[heading.connectors/Install]
+original=Install
+translation=התקנה
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode, וסוכנים אחרים
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=כישורים כלולים
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=דרישות
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=פרטיות

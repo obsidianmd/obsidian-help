@@ -4329,3 +4329,23 @@ translation=Gereksinimler
 [heading.skills/Privacy]
 original=Privacy
 translation=Gizlilik
+
+[heading.connectors/Install]
+original=Install
+translation=Kurulum
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode ve diğer ajanlar
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Dahil edilen beceriler
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Gereksinimler
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Gizlilik

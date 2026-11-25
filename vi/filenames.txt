@@ -98,6 +98,10 @@ translation=Phần mở rộng từ cộng đồng
 original=Configuration folder
 translation=Thư mục cấu hình
 
+[file.connectors]
+original=Connectors
+translation=Kết nối
+
 [file.create-note]
 original=Create your first note
 translation=Tạo ghi chú đầu tiên của bạn

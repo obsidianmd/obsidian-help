@@ -881,3 +881,23 @@ translation=Vaatimukset
 [heading.skills/Privacy]
 original=Privacy
 translation=Tietosuoja
+
+[heading.connectors/Install]
+original=Install
+translation=Asennus
+
+[heading.connectors/GitHub Copilot, OpenCode, and other agents]
+original=GitHub Copilot, OpenCode, and other agents
+translation=GitHub Copilot, OpenCode ja muut agentit
+
+[heading.connectors/Included skills]
+original=Included skills
+translation=Mukana tulevat taidot
+
+[heading.connectors/Requirements]
+original=Requirements
+translation=Vaatimukset
+
+[heading.connectors/Privacy]
+original=Privacy
+translation=Yksityisyys
