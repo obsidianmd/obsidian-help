@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Kết nối Obsidian với các tác tử AI để chúng có thể làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
 ---
-Kết nối cho phép bạn dễ dàng cung cấp cho các tác nhân của mình quyền truy cập vào Obsidian, trong khi vẫn giữ toàn quyền sở hữu dữ liệu của bạn. Obsidian Connectors có sẵn cho các ứng dụng bao gồm Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
+Kết nối cho phép bạn dễ dàng cung cấp cho các tác nhân quyền truy cập vào Obsidian, trong khi vẫn giữ toàn quyền sở hữu dữ liệu của bạn. Obsidian Connectors có sẵn cho các ứng dụng bao gồm Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
 
 Điều đó có nghĩa là các tác nhân của bạn có thể học cách:
 
@@ -15,11 +15,11 @@ Kết nối cho phép bạn dễ dàng cung cấp cho các tác nhân của mìn
 - Tìm kiếm, đọc và quản lý ghi chú trong ứng dụng đang chạy với [[Obsidian CLI]].
 - Đồng bộ hóa và xuất bản kho mà không cần ứng dụng máy tính để bàn bằng [[Obsidian Headless]].
 
-Các kỹ năng này là mã nguồn mở tại [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Obsidian Connectors và các kỹ năng mã nguồn mở có sẵn tại [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Cài đặt
 
-Bạn tìm Obsidian bằng cách tìm kiếm trong danh sách plugin của Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, và Kiro. Hầu hết các tác nhân khác có thể cài đặt kỹ năng nếu bạn gửi cho chúng liên kết đến trang này.
+Bạn tìm Obsidian Connectors bằng cách tìm kiếm trong marketplace hoặc thư mục plugin trong ứng dụng của tác nhân. Bạn cũng có thể gửi cho tác nhân của mình liên kết đến trang này.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap, và Obsidian Headless là các công cụ riêng biệt không �
 
 ## Quyền riêng tư
 
-Kết nối Obsidian không tự gửi bất cứ thứ gì. Khi một tác nhân sử dụng chúng, các ghi chú mà nó đọc trở thành một phần của cuộc hội thoại và được xử lý bởi mô hình AI bạn sử dụng. Hãy xem lại chính sách quyền riêng tư của tác nhân trước khi bạn trỏ nó đến kho có ghi chú nhạy cảm.
+Obsidian Connectors không tự gửi bất cứ thứ gì. Khi một tác nhân sử dụng chúng, các ghi chú mà nó đọc trở thành một phần của cuộc hội thoại và được xử lý bởi mô hình AI bạn sử dụng. Hãy xem lại chính sách quyền riêng tư của tác nhân trước khi bạn trỏ nó đến kho có ghi chú nhạy cảm.

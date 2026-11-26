@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Conectează Obsidian la agenți AI, ca să poată lucra cu seiful tău și cu formatele de fișiere Obsidian.'
 ---
-Conectorii îți permit să oferi cu ușurință agenților tăi acces la Obsidian, păstrând în același timp controlul total asupra datelor tale. Conectorii Obsidian sunt disponibili pentru aplicații precum Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode și [mulți alții](https://agentskills.io/clients).
+Conectorii îți permit să oferi cu ușurință agenților acces la Obsidian, păstrând în același timp controlul total asupra datelor tale. Conectorii Obsidian sunt disponibili pentru aplicații precum Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode și [mulți alții](https://agentskills.io/clients).
 
 Aceasta înseamnă că agenții tăi pot învăța cum să:
 
@@ -15,11 +15,11 @@ Aceasta înseamnă că agenții tăi pot învăța cum să:
 - Caute, citească și gestioneze notițe în aplicația activă cu [[Obsidian CLI]].
 - Sincronizeze și publice seifuri fără aplicația desktop folosind [[Obsidian Headless]].
 
-Abilitățile au codul cu sursă liberă la [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Conectorii Obsidian și abilitățile cu sursă liberă sunt disponibile la [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Instalare
 
-Poți găsi Obsidian căutând în lista de module din Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes și Kiro. Majoritatea celorlalți agenți pot instala abilitățile dacă le trimiți un link către această pagină.
+Poți găsi Conectorii Obsidian căutând în marketplace-ul sau directorul de module al aplicației agentului tău. De asemenea, poți trimite agentului tău un link către această pagină.
 
 ### Claude
 

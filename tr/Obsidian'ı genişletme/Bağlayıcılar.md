@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Obsidian''ı yapay zeka ajanlarına bağlayın, böylece kasanızla ve Obsidian dosya biçimleriyle çalışabilirler.'
 ---
-Bağlayıcılar, verilerinizin tam sahipliğini korurken ajanlarınıza Obsidian'a kolayca erişim vermenizi sağlar. Obsidian Bağlayıcıları; Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere çeşitli uygulamalar için kullanılabilir.
+Bağlayıcılar, verilerinizin tam sahipliğini korurken ajanlara Obsidian'a kolayca erişim vermenizi sağlar. Obsidian Bağlayıcıları; Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere çeşitli uygulamalar için kullanılabilir.
 
 Bu, ajanlarınızın şunları öğrenebileceği anlamına gelir:
 
@@ -15,11 +15,11 @@ Bu, ajanlarınızın şunları öğrenebileceği anlamına gelir:
 - Çalışan uygulamada [[Obsidian CLI]] ile notları arama, okuma ve yönetme.
 - [[Obsidian Headless]] kullanarak masaüstü uygulaması olmadan kasaları senkronize etme ve yayınlama.
 
-Beceriler [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) adresinde açık kaynaktır.
+Obsidian Bağlayıcıları ve açık kaynak beceriler [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) adresinde mevcuttur.
 
 ## Kurulum
 
-Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes ve Kiro'daki eklenti listesinde arama yaparak Obsidian'ı bulabilirsiniz. Diğer ajanların çoğu, bu sayfaya bir bağlantı gönderdiğinizde becerileri yükleyebilir.
+Ajanınızın uygulamasındaki pazar yeri veya eklenti dizininde arama yaparak Obsidian Bağlayıcılarını bulabilirsiniz. Ayrıca ajanınıza bu sayfaya bir bağlantı gönderebilirsiniz.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap ve Obsidian Headless, becerilerle birlikte paketlenmeyen ayrı ar
 
 ## Gizlilik
 
-Obsidian bağlayıcıları kendi başlarına hiçbir şey göndermez. Bir ajan bunları kullandığında, okuduğu notlar konuşmanın parçası olur ve kullandığınız yapay zeka modeli tarafından işlenir. Hassas notlar içeren bir kasaya yönlendirmeden önce ajanınızın gizlilik politikasını inceleyin.
+Obsidian Bağlayıcıları kendi başlarına hiçbir şey göndermez. Bir ajan bunları kullandığında, okuduğu notlar konuşmanın parçası olur ve kullandığınız yapay zeka modeli tarafından işlenir. Hassas notlar içeren bir kasaya yönlendirmeden önce ajanınızın gizlilik politikasını inceleyin.

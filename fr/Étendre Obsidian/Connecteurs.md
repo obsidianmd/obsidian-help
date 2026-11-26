@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Connectez Obsidian à des agents IA pour qu'ils puissent travailler avec votre coffre-fort et les formats de fichiers Obsidian.
 ---
-Les connecteurs vous permettent de donner facilement accès à Obsidian à vos agents, tout en conservant la propriété totale de vos données. Les connecteurs Obsidian sont disponibles pour des applications telles que Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, et [bien d'autres](https://agentskills.io/clients).
+Les connecteurs vous permettent de donner facilement accès à Obsidian à des agents, tout en conservant la propriété totale de vos données. Les connecteurs Obsidian sont disponibles pour des applications telles que Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, et [bien d'autres](https://agentskills.io/clients).
 
 Cela signifie que vos agents peuvent apprendre à :
 
@@ -15,11 +15,11 @@ Cela signifie que vos agents peuvent apprendre à :
 - Rechercher, lire et gérer des notes dans l'application en cours d'exécution avec [[Obsidian CLI]].
 - Synchroniser et publier des coffres sans l'application de bureau grâce à [[Obsidian Headless]].
 
-Les compétences sont open source sur [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Les connecteurs Obsidian et les compétences open source sont disponibles sur [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Installer
 
-Vous trouverez Obsidian en effectuant une recherche dans la liste des modules de Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes et Kiro. La plupart des autres agents peuvent installer les compétences si vous leur envoyez un lien vers cette page.
+Vous trouverez les connecteurs Obsidian en effectuant une recherche dans le marketplace ou le répertoire de plugins de l'application de votre agent. Vous pouvez également envoyer à votre agent un lien vers cette page.
 
 ### Claude
 

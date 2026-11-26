@@ -15,11 +15,11 @@ Tämä tarkoittaa, että agenttisi voivat oppia:
 - Hakemaan, lukemaan ja hallinnoimaan muistiinpanoja käynnissä olevassa sovelluksessa [[Obsidian CLI]]:n avulla.
 - Synkronoimaan ja julkaisemaan holveja ilman työpöytäsovellusta [[Obsidian Headless]]-työkalulla.
 
-Taidot ovat avointa lähdekoodia osoitteessa [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Obsidianin yhdistimet ja avoimen lähdekoodin taidot ovat saatavilla osoitteessa [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Asennus
 
-Löydät Obsidianin hakemalla lisäosaluettelosta Claudessa, ChatGPT:ssä, Dotsissa, Cursorissa, Grok Botissa, Hermeksessä ja Kirossa. Useimmat muut agentit voivat asentaa taidot, jos lähetät niille linkin tälle sivulle.
+Löydät Obsidianin yhdistimet hakemalla kauppapaikasta tai lisäosahakemistosta agenttisi sovelluksessa. Voit myös lähettää agentillesi linkin tälle sivulle.
 
 ### Claude
 

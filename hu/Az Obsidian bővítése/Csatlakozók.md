@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Kapcsold össze az Obsidiant AI-ügynökökkel, hogy dolgozhassanak a tárolóddal és az Obsidian fájlformátumaival.'
 ---
-A csatlakozók lehetővé teszik, hogy egyszerűen hozzáférést adj az ágenseidnek az Obsidianhoz, miközben teljes mértékben megtartod az adataid feletti tulajdonjogot. Az Obsidian csatlakozók elérhetők olyan alkalmazásokhoz, mint a Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode és [sok más](https://agentskills.io/clients).
+A csatlakozók lehetővé teszik, hogy egyszerűen hozzáférést adj az ágenseknek az Obsidianhoz, miközben teljes mértékben megtartod az adataid feletti tulajdonjogot. Az Obsidian csatlakozók elérhetők olyan alkalmazásokhoz, mint a Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode és [sok más](https://agentskills.io/clients).
 
 Ez azt jelenti, hogy az ágenseid megtanulhatják, hogyan:
 
@@ -15,11 +15,11 @@ Ez azt jelenti, hogy az ágenseid megtanulhatják, hogyan:
 - Keressenek, olvassanak és kezeljenek jegyzeteket a futó alkalmazásban az [[Obsidian CLI]] segítségével.
 - Szinkronizáljanak és publikáljanak széfeket az asztali alkalmazás nélkül az [[Obsidian Headless]] használatával.
 
-A képességek nyílt forráskódúak az [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) oldalon.
+Az Obsidian csatlakozók és a nyílt forráskódú képességek elérhetők az [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) oldalon.
 
 ## Telepítés
 
-Az Obsidiant megtalálhatod a bővítménylistában való kereséssel a Claude-ban, ChatGPT-ben, Dots-ban, Cursorban, Grok Botban, Hermesben és Kiróban. A legtöbb más ágens telepíteni tudja a képességeket, ha elküldesz nekik egy hivatkozást erre az oldalra.
+Az Obsidian csatlakozókat megtalálhatod az ágensed alkalmazásának piacterén vagy bővítménykönyvtárában való kereséssel. Az ágensednek is elküldhetsz egy hivatkozást erre az oldalra.
 
 ### Claude
 

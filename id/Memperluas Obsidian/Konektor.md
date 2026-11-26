@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Hubungkan Obsidian ke agen AI agar mereka dapat bekerja dengan vault Anda dan format file Obsidian.
 ---
-Konektor memungkinkan Anda dengan mudah memberikan akses agen Anda ke Obsidian, sambil tetap memiliki kepemilikan penuh atas data Anda. Konektor Obsidian tersedia untuk aplikasi termasuk Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
+Konektor memungkinkan Anda dengan mudah memberikan akses agen ke Obsidian, sambil tetap memiliki kepemilikan penuh atas data Anda. Konektor Obsidian tersedia untuk aplikasi termasuk Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
 
 Ini berarti agen Anda dapat mempelajari cara:
 
@@ -15,11 +15,11 @@ Ini berarti agen Anda dapat mempelajari cara:
 - Mencari, membaca, dan mengelola catatan di aplikasi yang berjalan dengan [[Obsidian CLI]].
 - Menyinkronkan dan mempublikasikan brankas tanpa aplikasi desktop menggunakan [[Obsidian Headless]].
 
-Skill-skill ini bersifat sumber terbuka di [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Konektor Obsidian dan skill sumber terbuka tersedia di [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Pasang
 
-Anda dapat menemukan Obsidian dengan mencari di daftar plugin di Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, dan Kiro. Sebagian besar agen lain dapat memasang skill jika Anda mengirimkan tautan ke halaman ini.
+Anda dapat menemukan Konektor Obsidian dengan mencari di marketplace atau direktori plugin di aplikasi agen Anda. Anda juga dapat mengirimkan tautan ke halaman ini kepada agen Anda.
 
 ### Claude
 

@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Verbinde Obsidian mit KI-Agenten, damit sie mit deinem Vault und den Obsidian-Dateiformaten arbeiten können.'
 ---
-Connectors ermöglichen es dir, deinen Agenten einfach Zugriff auf Obsidian zu geben und dabei die volle Kontrolle über deine Daten zu behalten. Obsidian Connectors sind verfügbar für Apps wie Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode und [viele mehr](https://agentskills.io/clients).
+Connectors ermöglichen es dir, Agenten einfach Zugriff auf Obsidian zu geben und dabei die volle Kontrolle über deine Daten zu behalten. Obsidian Connectors sind verfügbar für Apps wie Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode und [viele mehr](https://agentskills.io/clients).
 
 Das bedeutet, deine Agenten können lernen, wie man:
 
@@ -15,11 +15,11 @@ Das bedeutet, deine Agenten können lernen, wie man:
 - Notizen in der laufenden App mit [[Obsidian CLI]] sucht, liest und verwaltet.
 - Vaults ohne die Desktop-App mit [[Obsidian Headless]] synchronisiert und veröffentlicht.
 
-Die Skills sind Open Source unter [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Obsidian Connectors und Open-Source-Skills sind verfügbar unter [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Installieren
 
-Du findest Obsidian, indem du in der Erweiterungsliste in Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes und Kiro suchst. Die meisten anderen Agenten können die Skills installieren, wenn du ihnen einen Link zu dieser Seite sendest.
+Du findest Obsidian Connectors, indem du im Marketplace oder Plugin-Verzeichnis deiner Agenten-App suchst. Du kannst deinem Agenten auch einen Link zu dieser Seite senden.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap und Obsidian Headless sind separate Tools, die nicht mit den Skil
 
 ## Datenschutz
 
-Obsidian-Connectors senden von sich aus nichts. Wenn ein Agent sie verwendet, werden die gelesenen Notizen Teil der Konversation und vom verwendeten AI-Modell verarbeitet. Prüfe die Datenschutzrichtlinie deines Agenten, bevor du ihn auf einen Vault mit sensiblen Notizen richtest.
+Obsidian Connectors senden von sich aus nichts. Wenn ein Agent sie verwendet, werden die gelesenen Notizen Teil der Konversation und vom verwendeten AI-Modell verarbeitet. Prüfe die Datenschutzrichtlinie deines Agenten, bevor du ihn auf einen Vault mit sensiblen Notizen richtest.

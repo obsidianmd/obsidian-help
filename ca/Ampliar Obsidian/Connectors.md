@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Connecteu Obsidian amb agents d'IA perquè puguin treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
 ---
-Els connectors et permeten donar accés fàcilment als teus agents a Obsidian, mantenint la propietat total de les teves dades. Els connectors d'Obsidian estan disponibles per a aplicacions com Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [molts més](https://agentskills.io/clients).
+Els connectors et permeten donar accés fàcilment als agents a Obsidian, mantenint la propietat total de les teves dades. Els connectors d'Obsidian estan disponibles per a aplicacions com Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [molts més](https://agentskills.io/clients).
 
 Això vol dir que els teus agents poden aprendre a:
 
@@ -15,11 +15,11 @@ Això vol dir que els teus agents poden aprendre a:
 - Cercar, llegir i gestionar notes a l'aplicació en execució amb [[Obsidian CLI]].
 - Sincronitzar i publicar cambres fortes sense l'aplicació d'escriptori amb [[Obsidian Headless]].
 
-Les habilitats són de codi obert a [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Els connectors d'Obsidian i les habilitats de codi obert estan disponibles a [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Instal·lar
 
-Pots trobar Obsidian cercant a la llista de connectors de Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes i Kiro. La majoria d'altres agents poden instal·lar les habilitats si els envies un enllaç a aquesta pàgina.
+Pots trobar els connectors d'Obsidian cercant al marketplace o directori de connectors de l'aplicació del teu agent. També pots enviar al teu agent un enllaç a aquesta pàgina.
 
 ### Claude
 

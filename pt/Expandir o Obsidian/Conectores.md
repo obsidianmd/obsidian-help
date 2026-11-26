@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Ligue o Obsidian a agentes de IA para que possam trabalhar com o seu cofre e os formatos de arquivo do Obsidian.
 ---
-Os conectores permitem dar facilmente aos seus agentes acesso ao Obsidian, mantendo a total propriedade dos seus dados. Os Conectores do Obsidian estão disponíveis para aplicações incluindo Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode e [muitos mais](https://agentskills.io/clients).
+Os conectores permitem dar facilmente aos agentes acesso ao Obsidian, mantendo a total propriedade dos seus dados. Os Conectores do Obsidian estão disponíveis para aplicações incluindo Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode e [muitos mais](https://agentskills.io/clients).
 
 Isso significa que os seus agentes podem aprender a:
 
@@ -15,11 +15,11 @@ Isso significa que os seus agentes podem aprender a:
 - Pesquisar, ler e gerir notas na aplicação em execução com [[Obsidian CLI]].
 - Sincronizar e publicar cofres sem a aplicação de ambiente de trabalho usando [[Obsidian Headless]].
 
-As habilidades são código aberto em [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Os Conectores do Obsidian e as habilidades de código aberto estão disponíveis em [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Instalar
 
-Pode encontrar o Obsidian pesquisando na lista de plugins no Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes e Kiro. A maioria dos outros agentes consegue instalar as habilidades se lhes enviar uma ligação para esta página.
+Pode encontrar os Conectores do Obsidian pesquisando no marketplace ou diretório de plugins da aplicação do seu agente. Também pode enviar ao seu agente uma ligação para esta página.
 
 ### Claude
 
@@ -104,4 +104,4 @@ O Defuddle, Knap e Obsidian Headless são ferramentas separadas que não são in
 
 ## Privacidade
 
-Os conectores do Obsidian não enviam nada por si próprios. Quando um agente os utiliza, as notas que lê tornam-se parte da conversa e são processadas pelo modelo de IA que utiliza. Consulte a política de privacidade do seu agente antes de o apontar para um cofre com notas sensíveis.
+Os Conectores do Obsidian não enviam nada por si próprios. Quando um agente os utiliza, as notas que lê tornam-se parte da conversa e são processadas pelo modelo de IA que utiliza. Consulte a política de privacidade do seu agente antes de o apontar para um cofre com notas sensíveis.

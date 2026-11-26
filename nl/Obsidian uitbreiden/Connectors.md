@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Verbind Obsidian met AI-agenten, zodat ze met je kluis en Obsidian-bestandsformaten kunnen werken.'
 ---
-Connectors stellen je in staat om je agents eenvoudig toegang te geven tot Obsidian, terwijl je volledig eigenaar blijft van je gegevens. Obsidian Connectors zijn beschikbaar voor apps waaronder Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode en [nog veel meer](https://agentskills.io/clients).
+Connectors stellen je in staat om agents eenvoudig toegang te geven tot Obsidian, terwijl je volledig eigenaar blijft van je gegevens. Obsidian Connectors zijn beschikbaar voor apps waaronder Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode en [nog veel meer](https://agentskills.io/clients).
 
 Dat betekent dat je agents kunnen leren om:
 
@@ -15,11 +15,11 @@ Dat betekent dat je agents kunnen leren om:
 - Notities te zoeken, lezen en beheren in de draaiende app met [[Obsidian CLI]].
 - Kluizen te synchroniseren en publiceren zonder de desktop-app via [[Obsidian Headless]].
 
-De vaardigheden zijn open source op [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Obsidian Connectors en open source vaardigheden zijn beschikbaar op [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Installeren
 
-Je vindt Obsidian door te zoeken in de plug-inslijst van Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes en Kiro. De meeste andere agents kunnen de vaardigheden installeren als je ze een link naar deze pagina stuurt.
+Je vindt Obsidian Connectors door te zoeken in de marketplace of het plug-inoverzicht van de app van je agent. Je kunt je agent ook een link naar deze pagina sturen.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap en Obsidian Headless zijn aparte tools die niet bij de vaardighed
 
 ## Privacy
 
-Obsidian-connectors versturen zelf niets. Wanneer een agent ze gebruikt, worden de notities die het leest onderdeel van het gesprek en worden ze verwerkt door het AI-model dat je gebruikt. Bekijk het privacybeleid van je agent voordat je het naar een kluis met gevoelige notities verwijst.
+Obsidian Connectors versturen zelf niets. Wanneer een agent ze gebruikt, worden de notities die het leest onderdeel van het gesprek en worden ze verwerkt door het AI-model dat je gebruikt. Bekijk het privacybeleid van je agent voordat je het naar een kluis met gevoelige notities verwijst.

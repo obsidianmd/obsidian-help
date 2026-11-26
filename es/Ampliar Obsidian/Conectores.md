@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Conecta Obsidian con agentes de IA para que puedan trabajar con tu bóveda y los formatos de archivo de Obsidian.
 ---
-Los conectores te permiten dar acceso fácilmente a tus agentes a Obsidian, manteniendo la propiedad total de tus datos. Los conectores de Obsidian están disponibles para aplicaciones incluyendo Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, y [muchos más](https://agentskills.io/clients).
+Los conectores te permiten dar acceso fácilmente a los agentes a Obsidian, manteniendo la propiedad total de tus datos. Los conectores de Obsidian están disponibles para aplicaciones incluyendo Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, y [muchos más](https://agentskills.io/clients).
 
 Eso significa que tus agentes pueden aprender a:
 
@@ -15,11 +15,11 @@ Eso significa que tus agentes pueden aprender a:
 - Buscar, leer y gestionar notas en la aplicación en ejecución con [[Obsidian CLI]].
 - Sincronizar y publicar bóvedas sin la aplicación de escritorio usando [[Obsidian Headless]].
 
-Las habilidades son de código abierto en [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Los conectores de Obsidian y las habilidades de código abierto están disponibles en [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Instalar
 
-Puedes encontrar Obsidian buscando en la lista de complementos en Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes y Kiro. La mayoría de los otros agentes pueden instalar las habilidades si les envías un enlace a esta página.
+Puedes encontrar los conectores de Obsidian buscando en el marketplace o directorio de complementos de la aplicación de tu agente. También puedes enviarle a tu agente un enlace a esta página.
 
 ### Claude
 

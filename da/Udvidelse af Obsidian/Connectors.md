@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Forbind Obsidian med AI-agenter, så de kan arbejde med din vault og Obsidians filformater.'
 ---
-Connectors lader dig nemt give dine agenter adgang til Obsidian, samtidig med at du bevarer fuldt ejerskab over dine data. Obsidian Connectors er tilgængelige til applikationer som Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode og [mange flere](https://agentskills.io/clients).
+Connectors lader dig nemt give agenter adgang til Obsidian, samtidig med at du bevarer fuldt ejerskab over dine data. Obsidian Connectors er tilgængelige til applikationer som Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode og [mange flere](https://agentskills.io/clients).
 
 Det betyder, at dine agenter kan lære at:
 
@@ -15,11 +15,11 @@ Det betyder, at dine agenter kan lære at:
 - Søge, læse og administrere noter i den kørende applikation med [[Obsidian CLI]].
 - Synkronisere og udgive bokse uden desktop-applikationen ved hjælp af [[Obsidian Headless]].
 
-Færdighederne er open source på [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Obsidian Connectors og open source-færdigheder er tilgængelige på [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Installer
 
-Du finder Obsidian ved at søge i pluginlisten i Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes og Kiro. De fleste andre agenter kan installere færdighederne, hvis du sender dem et link til denne side.
+Du finder Obsidian Connectors ved at søge i markedspladsen eller pluginbiblioteket i din agents applikation. Du kan også sende din agent et link til denne side.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap og Obsidian Headless er separate værktøjer, der ikke er bundtet
 
 ## Privatliv
 
-Obsidian-connectors sender ikke noget af sig selv. Når en agent bruger dem, bliver de noter, den læser, en del af samtalen og behandles af den AI-model, du bruger. Gennemgå din agents privatlivspolitik, før du peger den mod en boks med følsomme noter.
+Obsidian Connectors sender ikke noget af sig selv. Når en agent bruger dem, bliver de noter, den læser, en del af samtalen og behandles af den AI-model, du bruger. Gennemgå din agents privatlivspolitik, før du peger den mod en boks med følsomme noter.

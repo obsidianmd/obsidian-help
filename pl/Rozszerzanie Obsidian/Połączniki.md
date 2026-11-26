@@ -15,11 +15,11 @@ Oznacza to, że Twoi agenci mogą nauczyć się:
 - Wyszukiwać, odczytywać i zarządzać notatkami w uruchomionej aplikacji za pomocą [[Obsidian CLI]].
 - Synchronizować i publikować sejfy bez aplikacji desktopowej za pomocą [[Obsidian Headless]].
 
-Umiejętności są dostępne jako otwarty kod na [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Połączniki Obsidian i umiejętności o otwartym kodzie są dostępne na [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Instalacja
 
-Obsidian można znaleźć, wyszukując na liście wtyczek w Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes i Kiro. Większość innych agentów może zainstalować umiejętności, jeśli wyślesz im link do tej strony.
+Połączniki Obsidian można znaleźć, wyszukując w marketplace lub katalogu wtyczek w aplikacji swojego agenta. Możesz też wysłać agentowi link do tej strony.
 
 ### Claude
 

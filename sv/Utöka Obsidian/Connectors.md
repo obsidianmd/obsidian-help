@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Anslut Obsidian till AI-agenter så att de kan arbeta med ditt valv och Obsidians filformat.
 ---
-Connectors låter dig enkelt ge dina agenter tillgång till Obsidian, samtidigt som du behåller fullständig äganderätt över dina data. Obsidian Connectors finns tillgängliga för appar inklusive Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode och [många fler](https://agentskills.io/clients).
+Connectors låter dig enkelt ge agenter tillgång till Obsidian, samtidigt som du behåller fullständig äganderätt över dina data. Obsidian Connectors finns tillgängliga för appar inklusive Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode och [många fler](https://agentskills.io/clients).
 
 Det innebär att dina agenter kan lära sig att:
 
@@ -15,11 +15,11 @@ Det innebär att dina agenter kan lära sig att:
 - Söka, läsa och hantera anteckningar i den körande appen med [[Obsidian CLI]].
 - Synkronisera och publicera valv utan skrivbordsappen med [[Obsidian Headless]].
 
-Färdigheterna är öppen källkod på [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Obsidian Connectors och färdigheter med öppen källkod finns tillgängliga på [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Installera
 
-Du hittar Obsidian genom att söka i tilläggslistan i Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes och Kiro. De flesta andra agenter kan installera färdigheterna om du skickar dem en länk till denna sida.
+Du hittar Obsidian Connectors genom att söka i marknadsplatsen eller tilläggskatalogen i din agents app. Du kan också skicka din agent en länk till denna sida.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap och Obsidian Headless är separata verktyg som inte medföljer f�
 
 ## Integritet
 
-Obsidian-connectors skickar ingenting på egen hand. När en agent använder dem blir anteckningarna den läser en del av konversationen och bearbetas av den AI-modell du använder. Granska din agents integritetspolicy innan du pekar den mot ett valv med känsliga anteckningar.
+Obsidian Connectors skickar ingenting på egen hand. När en agent använder dem blir anteckningarna den läser en del av konversationen och bearbetas av den AI-modell du använder. Granska din agents integritetspolicy innan du pekar den mot ett valv med känsliga anteckningar.
