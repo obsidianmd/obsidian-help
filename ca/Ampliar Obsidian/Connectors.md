@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Les Habilitats d'Obsidian ensenyen als agents d'IA com treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
+description: 'Connecteu Obsidian amb agents d''IA perquè puguin treballar amb el vostre magatzem i els formats de fitxer d''Obsidian.'
 ---
 Els connectors et permeten connectar Obsidian a qualsevol agent d'IA, incloent-hi Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [molts més](https://agentskills.io/clients).
 

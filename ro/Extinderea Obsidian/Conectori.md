@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Abilitățile Obsidian învață agenții AI cum să lucreze cu seiful tău și cu formatele de fișiere Obsidian.
+description: 'Conectează Obsidian la agenți AI, ca să poată lucra cu seiful tău și cu formatele de fișiere Obsidian.'
 ---
 Conectorii îți permit să conectezi Obsidian la orice agent AI, inclusiv Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode și [mulți alții](https://agentskills.io/clients).
 

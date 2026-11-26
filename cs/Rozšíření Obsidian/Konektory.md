@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: 'Obsidian Skills učí AI agenty, jak pracovat s vaším trezorem a formáty souborů Obsidianu.'
+description: 'Propojte Obsidian s AI agenty, aby mohli pracovat s vaším trezorem a formáty souborů Obsidianu.'
 ---
 Konektory umožňují propojit Obsidian s jakýmkoli AI agentem včetně Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode a [mnoha dalších](https://agentskills.io/clients).
 

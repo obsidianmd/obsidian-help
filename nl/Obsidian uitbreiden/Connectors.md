@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Obsidian Skills leren AI-agenten hoe ze met je kluis en Obsidian-bestandsformaten kunnen werken.
+description: 'Verbind Obsidian met AI-agenten, zodat ze met je kluis en Obsidian-bestandsformaten kunnen werken.'
 ---
 Connectors stellen je in staat om Obsidian te koppelen aan elke AI-agent, waaronder Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode en [nog veel meer](https://agentskills.io/clients).
 

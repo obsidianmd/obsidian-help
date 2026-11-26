@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Le Competenze Obsidian insegnano agli agenti AI come lavorare con il tuo vault e i formati di file di Obsidian.
+description: 'Collega Obsidian agli agenti AI perché possano lavorare con il tuo vault e i formati di file di Obsidian.'
 ---
 I connettori permettono di collegare Obsidian a qualsiasi agente AI, inclusi Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode e [molti altri](https://agentskills.io/clients).
 

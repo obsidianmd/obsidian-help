@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: 'Obsidian Becerileri, yapay zeka ajanlarına kasanızla ve Obsidian dosya biçimleriyle nasıl çalışacaklarını öğretir.'
+description: 'Obsidian''ı yapay zeka ajanlarına bağlayın, böylece kasanızla ve Obsidian dosya biçimleriyle çalışabilirler.'
 ---
 Bağlayıcılar, Obsidian'ı Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir yapay zeka ajanına bağlamanıza olanak tanır.
 

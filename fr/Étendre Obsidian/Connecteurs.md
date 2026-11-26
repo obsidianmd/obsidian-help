@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Les Obsidian Skills enseignent aux agents IA comment travailler avec votre coffre-fort et les formats de fichiers Obsidian.
+description: 'Connectez Obsidian à des agents IA pour qu''ils puissent travailler avec votre coffre-fort et les formats de fichiers Obsidian.'
 ---
 Les connecteurs vous permettent de relier Obsidian à n'importe quel agent IA, notamment Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, et [bien d'autres](https://agentskills.io/clients).
 

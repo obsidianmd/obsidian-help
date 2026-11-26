@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: 'Obsidian Skills -taidot opettavat tekoälyagenteille, miten työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
+description: 'Yhdistä Obsidian tekoälyagentteihin, jotta ne voivat työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
 ---
 Yhdistimet mahdollistavat Obsidianin yhdistämisen mihin tahansa tekoälyagenttiin, mukaan lukien Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ja [monet muut](https://agentskills.io/clients).
 

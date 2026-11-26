@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: As Habilidades do Obsidian ensinam agentes de IA a trabalhar com o seu cofre e os formatos de arquivo do Obsidian.
+description: 'Ligue o Obsidian a agentes de IA para que possam trabalhar com o seu cofre e os formatos de arquivo do Obsidian.'
 ---
 Os conectores permitem ligar o Obsidian a qualquer agente de IA, incluindo Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode e [muitos mais](https://agentskills.io/clients).
 

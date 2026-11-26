@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: 'Az Obsidian Képességek megtanítják az AI-ügynököknek, hogyan dolgozzanak a tárolóddal és az Obsidian fájlformátumokkal.'
+description: 'Kapcsold össze az Obsidiant AI-ügynökökkel, hogy dolgozhassanak a tárolóddal és az Obsidian fájlformátumaival.'
 ---
 A csatlakozók lehetővé teszik, hogy az Obsidiant bármely AI ágenshez csatlakoztasd, beleértve a Claude-ot, ChatGPT-t, Antigravity-t, Cursort, GitHub Copilotot, Grok Botot, Hermest, Kirót, Muse-t, OpenCode-ot és [sok mást](https://agentskills.io/clients).
 

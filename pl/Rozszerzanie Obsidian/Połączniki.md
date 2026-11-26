@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: 'Umiejętności Obsidian uczą agentów AI, jak pracować z Twoim sejfem i formatami plików Obsidian.'
+description: 'Połącz Obsidian z agentami AI, aby mogli pracować z Twoim sejfem i formatami plików Obsidian.'
 ---
 Połączniki umożliwiają połączenie Obsidian z dowolnym agentem AI, w tym Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [wieloma innymi](https://agentskills.io/clients).
 

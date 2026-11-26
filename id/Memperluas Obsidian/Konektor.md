@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Obsidian Skills mengajarkan agen AI cara bekerja dengan vault Anda dan format file Obsidian.
+description: 'Hubungkan Obsidian ke agen AI agar mereka dapat bekerja dengan vault Anda dan format file Obsidian.'
 ---
 Konektor memungkinkan Anda menghubungkan Obsidian ke agen AI apa pun termasuk Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, dan [banyak lagi](https://agentskills.io/clients).
 
