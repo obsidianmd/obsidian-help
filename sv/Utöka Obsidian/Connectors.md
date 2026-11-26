@@ -62,6 +62,8 @@ Installera [Obsidian](https://cursor.com/marketplace/obsidian) från Cursor Mark
 
 ### Hermes Agent
 
+Installera [Obsidian](https://hermes-agent.nousresearch.com/marketplace/obsidian) från Hermes Marketplace, eller kör:
+
 ```shell
 hermes plugins install obsidian
 ```

@@ -62,6 +62,8 @@ Cài đặt [Obsidian](https://cursor.com/marketplace/obsidian) từ Cursor Mark
 
 ### Hermes Agent
 
+Cài đặt [Obsidian](https://hermes-agent.nousresearch.com/marketplace/obsidian) từ Hermes Marketplace, hoặc chạy:
+
 ```shell
 hermes plugins install obsidian
 ```

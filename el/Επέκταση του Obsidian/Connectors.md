@@ -62,6 +62,8 @@ agy plugin install https://github.com/obsidianmd/obsidian-skills
 
 ### Hermes Agent
 
+Εγκαταστήστε το [Obsidian](https://hermes-agent.nousresearch.com/marketplace/obsidian) από το Hermes Marketplace, ή εκτελέστε:
+
 ```shell
 hermes plugins install obsidian
 ```

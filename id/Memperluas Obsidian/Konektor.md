@@ -62,6 +62,8 @@ Pasang [Obsidian](https://cursor.com/marketplace/obsidian) dari Cursor Marketpla
 
 ### Hermes Agent
 
+Pasang [Obsidian](https://hermes-agent.nousresearch.com/marketplace/obsidian) dari Hermes Marketplace, atau jalankan:
+
 ```shell
 hermes plugins install obsidian
 ```

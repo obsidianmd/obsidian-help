@@ -62,6 +62,8 @@ Instalează [Obsidian](https://cursor.com/marketplace/obsidian) din Cursor Marke
 
 ### Hermes Agent
 
+Instalează [Obsidian](https://hermes-agent.nousresearch.com/marketplace/obsidian) din Hermes Marketplace, sau rulează:
+
 ```shell
 hermes plugins install obsidian
 ```

@@ -62,6 +62,8 @@ Telepítsd az [Obsidiant](https://cursor.com/marketplace/obsidian) a Cursor Mark
 
 ### Hermes Agent
 
+Telepítsd az [Obsidiant](https://hermes-agent.nousresearch.com/marketplace/obsidian) a Hermes Marketplace-ből, vagy futtasd:
+
 ```shell
 hermes plugins install obsidian
 ```

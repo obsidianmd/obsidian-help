@@ -62,6 +62,8 @@ Asenna [Obsidian](https://cursor.com/marketplace/obsidian) Cursor Marketplacesta
 
 ### Hermes Agent
 
+Asenna [Obsidian](https://hermes-agent.nousresearch.com/marketplace/obsidian) Hermes Marketplacesta tai suorita:
+
 ```shell
 hermes plugins install obsidian
 ```
