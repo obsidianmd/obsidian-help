@@ -4,7 +4,7 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: 'Conecte o Obsidian a agentes de IA para que eles possam trabalhar com o seu cofre e os formatos de arquivo do Obsidian.'
+description: Conecte o Obsidian a agentes de IA para que eles possam trabalhar com o seu cofre e os formatos de arquivo do Obsidian.
 ---
 Os conectores permitem conectar o Obsidian a qualquer agente de IA, incluindo Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode e [muitos mais](https://agentskills.io/clients).
 
