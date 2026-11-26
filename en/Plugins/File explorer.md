@@ -98,6 +98,24 @@ To move a file or folder, you can use drag-and-drop or the context menu.
 1. Right-click a file, and then select **Move file to...**.
 2. Search for the name of the folder you want to move the file to, and then select it from the list.
 
+## Navigate with the keyboard
+
+When the File explorer has focus, for example after you select a file in it, you can move through your vault with the keyboard.
+
+To open notes one after another while you browse, hold `Ctrl` (Windows and Linux) or `Command` (macOS) and press `↑` or `↓`. Each file you move to opens in your most recent tab, and the File explorer keeps focus.
+
+| Action | Windows and Linux | macOS |
+|-|-|-|
+| Move to the previous or next item | `↑` or `↓` | `↑` or `↓` |
+| Move and open the file | `Ctrl+↑` or `Ctrl+↓` | `Command+↑` or `Command+↓` |
+| Move and add items to the selection | `Shift+↑` or `Shift+↓` | `Shift+↑` or `Shift+↓` |
+| Collapse or expand a folder | `←` or `→` | `←` or `→` |
+| Open the file, or collapse or expand the folder | `Enter` or `Space` | `Space` |
+| Open the file in a new tab | `Ctrl+Enter` | `Command+Enter` |
+| Rename the file or folder | `F2` | `Enter` or `F2` |
+| Delete the selected files and folders | `Delete` | `Command+Backspace` |
+| Clear the selection | `Escape` | `Escape` |
+
 ## Use the context menu
 
 The context menu lists the actions available for a file or folder. Many of the file items also appear in the [[More options menu]].
