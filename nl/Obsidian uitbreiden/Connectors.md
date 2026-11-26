@@ -2,7 +2,7 @@
 permalink: connectors
 aliases:
   - skills
-cover: "Attachments/Connectors cover.jpg"
+cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Obsidian Skills leren AI-agenten hoe ze met je kluis en Obsidian-bestandsformaten kunnen werken.
 ---

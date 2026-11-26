@@ -2,7 +2,7 @@
 permalink: connectors
 aliases:
   - skills
-cover: "Attachments/Connectors cover.jpg"
+cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Les Habilitats d'Obsidian ensenyen als agents d'IA com treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
 ---
