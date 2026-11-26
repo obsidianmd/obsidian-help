@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Kapcsold össze az Obsidiant AI-ügynökökkel, hogy dolgozhassanak a tárolóddal és az Obsidian fájlformátumaival.'
 ---
-A csatlakozók lehetővé teszik, hogy az Obsidiant bármely AI ágenshez csatlakoztasd, beleértve a Claude-ot, ChatGPT-t, Antigravity-t, Cursort, GitHub Copilotot, Grok Botot, Hermest, Kirót, Muse-t, OpenCode-ot és [sok mást](https://agentskills.io/clients).
+A csatlakozók lehetővé teszik, hogy egyszerűen hozzáférést adj az ágenseidnek az Obsidianhoz, miközben teljes mértékben megtartod az adataid feletti tulajdonjogot. Az Obsidian csatlakozók elérhetők olyan alkalmazásokhoz, mint a Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode és [sok más](https://agentskills.io/clients).
 
 Ez azt jelenti, hogy az ágenseid megtanulhatják, hogyan:
 

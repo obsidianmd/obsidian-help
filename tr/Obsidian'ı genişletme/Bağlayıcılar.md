@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Obsidian''ı yapay zeka ajanlarına bağlayın, böylece kasanızla ve Obsidian dosya biçimleriyle çalışabilirler.'
 ---
-Bağlayıcılar, Obsidian'ı Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere herhangi bir yapay zeka ajanına bağlamanıza olanak tanır.
+Bağlayıcılar, verilerinizin tam sahipliğini korurken ajanlarınıza Obsidian'a kolayca erişim vermenizi sağlar. Obsidian Bağlayıcıları; Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ve [daha birçoğu](https://agentskills.io/clients) dahil olmak üzere çeşitli uygulamalar için kullanılabilir.
 
 Bu, ajanlarınızın şunları öğrenebileceği anlamına gelir:
 

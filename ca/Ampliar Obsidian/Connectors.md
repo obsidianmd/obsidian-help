@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Connecteu Obsidian amb agents d'IA perquè puguin treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
 ---
-Els connectors et permeten connectar Obsidian a qualsevol agent d'IA, incloent-hi Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [molts més](https://agentskills.io/clients).
+Els connectors et permeten donar accés fàcilment als teus agents a Obsidian, mantenint la propietat total de les teves dades. Els connectors d'Obsidian estan disponibles per a aplicacions com Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [molts més](https://agentskills.io/clients).
 
 Això vol dir que els teus agents poden aprendre a:
 

@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Propojte Obsidian s AI agenty, aby mohli pracovat s vaším trezorem a formáty souborů Obsidianu.'
 ---
-Konektory umožňují propojit Obsidian s jakýmkoli AI agentem včetně Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode a [mnoha dalších](https://agentskills.io/clients).
+Konektory umožňují snadno poskytnout vašim agentům přístup k Obsidianu a zároveň si zachovat plné vlastnictví svých dat. Konektory Obsidian jsou dostupné pro aplikace včetně Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode a [mnoha dalších](https://agentskills.io/clients).
 
 To znamená, že vaši agenti se mohou naučit:
 

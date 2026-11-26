@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Połącz Obsidian z agentami AI, aby mogli pracować z Twoim sejfem i formatami plików Obsidian.'
 ---
-Połączniki umożliwiają połączenie Obsidian z dowolnym agentem AI, w tym Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [wieloma innymi](https://agentskills.io/clients).
+Połączniki umożliwiają łatwe udostępnienie agentom dostępu do Obsidian, zachowując pełną własność nad swoimi danymi. Połączniki Obsidian są dostępne dla aplikacji takich jak Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [wielu innych](https://agentskills.io/clients).
 
 Oznacza to, że Twoi agenci mogą nauczyć się:
 

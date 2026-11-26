@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Yhdistä Obsidian tekoälyagentteihin, jotta ne voivat työskennellä holvisi ja Obsidianin tiedostomuotojen kanssa.'
 ---
-Yhdistimet mahdollistavat Obsidianin yhdistämisen mihin tahansa tekoälyagenttiin, mukaan lukien Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ja [monet muut](https://agentskills.io/clients).
+Yhdistimet mahdollistavat agenttien pääsyn Obsidianiin helposti, samalla kun säilytät täyden omistajuuden tietoihisi. Obsidianin yhdistimet ovat saatavilla sovelluksille kuten Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode ja [monet muut](https://agentskills.io/clients).
 
 Tämä tarkoittaa, että agenttisi voivat oppia:
 

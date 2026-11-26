@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: Kết nối Obsidian với các tác tử AI để chúng có thể làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
 ---
-Kết nối cho phép bạn kết nối Obsidian với bất kỳ tác nhân AI nào bao gồm Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
+Kết nối cho phép bạn dễ dàng cung cấp cho các tác nhân của mình quyền truy cập vào Obsidian, trong khi vẫn giữ toàn quyền sở hữu dữ liệu của bạn. Obsidian Connectors có sẵn cho các ứng dụng bao gồm Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
 
 Điều đó có nghĩa là các tác nhân của bạn có thể học cách:
 
