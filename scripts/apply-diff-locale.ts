@@ -533,6 +533,7 @@ async function main() {
   const enToLocale = buildEnToLocaleBasename();
   let applied = 0;
   let skipped = 0;
+  let failed = 0;
 
   for (const fileDiff of fileDiffs) {
     const enAbsPath = path.join(enDir, fileDiff.enRelPath);
@@ -661,6 +662,7 @@ async function main() {
     } catch (err) {
       console.error(`    ERROR: ${err}`);
       skipped++;
+      failed++;
     }
   }
 
@@ -668,6 +670,10 @@ async function main() {
   console.log(`  Applied:  ${applied}`);
   console.log(`  Skipped:  ${skipped}`);
   if (dryRun) console.log("\n[DRY RUN] No files were written.");
+  if (failed > 0) {
+    console.error(`\n${failed} file(s) failed to translate`);
+    process.exitCode = 1;
+  }
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

@@ -69,12 +69,14 @@ jobs:
           npx tsx scripts/apply-diff-locale.ts "${{ matrix.locale }}" --from "$FROM"
 
       - name: Upload changes as patch
+        if: ${{ !cancelled() }}
         run: |
           git add -A
           git diff --staged --binary > /tmp/${{ matrix.locale }}.patch
           echo "Patch size: $(wc -c < /tmp/${{ matrix.locale }}.patch) bytes"
 
       - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
         with:
           name: patch-${{ matrix.locale }}
           path: /tmp/${{ matrix.locale }}.patch
