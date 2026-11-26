@@ -4,9 +4,9 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Connecteu Obsidian amb agents d'IA perquè puguin treballar amb el vostre magatzem i els formats de fitxer d'Obsidian.
+description: Connecta Obsidian amb agents d'IA perquè puguin treballar amb la teva cambra forta i els formats de fitxer d'Obsidian.
 ---
-Els connectors et permeten donar accés fàcilment als agents a Obsidian, mantenint la propietat total de les teves dades. Els connectors d'Obsidian estan disponibles per a aplicacions com Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [molts més](https://agentskills.io/clients).
+Les integracions et permeten donar accés fàcilment als agents a Obsidian, mantenint la propietat total de les teves dades. Les integracions d'Obsidian estan disponibles per a aplicacions com Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [moltes més](https://agentskills.io/clients).
 
 Això vol dir que els teus agents poden aprendre a:
 
@@ -15,11 +15,11 @@ Això vol dir que els teus agents poden aprendre a:
 - Cercar, llegir i gestionar notes a l'aplicació en execució amb [[Obsidian CLI]].
 - Sincronitzar i publicar cambres fortes sense l'aplicació d'escriptori amb [[Obsidian Headless]].
 
-Els connectors d'Obsidian i les habilitats de codi obert estan disponibles a [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Les integracions d'Obsidian i les habilitats de codi obert estan disponibles a [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Instal·lar
 
-Pots trobar els connectors d'Obsidian cercant al marketplace o directori de connectors de l'aplicació del teu agent. També pots enviar al teu agent un enllaç a aquesta pàgina.
+Pots trobar les integracions d'Obsidian cercant al marketplace o directori de connectors de l'aplicació del teu agent. També pots enviar al teu agent un enllaç a aquesta pàgina.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap i Obsidian Headless són eines separades que no estan incloses am
 
 ## Privacitat
 
-Els connectors d'Obsidian no envien res per si sols. Quan un agent els utilitza, les notes que llegeix passen a formar part de la conversa i són processades pel model d'IA que facis servir. Revisa la política de privacitat del teu agent abans d'apuntar-lo a una cambra forta amb notes sensibles.
+Les integracions d'Obsidian no envien res per si soles. Quan un agent les utilitza, les notes que llegeix passen a formar part de la conversa i són processades pel model d'IA que facis servir. Revisa la política de privacitat del teu agent abans d'apuntar-lo a una cambra forta amb notes sensibles.

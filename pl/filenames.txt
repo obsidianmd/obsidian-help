@@ -100,7 +100,7 @@ translation=Folder konfiguracji
 
 [file.connectors]
 original=Connectors
-translation=Połączniki
+translation=Konektory
 
 [file.create-note]
 original=Create your first note

@@ -4,9 +4,9 @@ aliases:
   - skills
 cover: Attachments/Connectors cover.jpg
 cssclasses: null
-description: Kết nối Obsidian với các tác tử AI để chúng có thể làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
+description: Kết nối Obsidian với các tác nhân AI để chúng có thể làm việc với kho dữ liệu của bạn và các định dạng tệp Obsidian.
 ---
-Kết nối cho phép bạn dễ dàng cung cấp cho các tác nhân quyền truy cập vào Obsidian, trong khi vẫn giữ toàn quyền sở hữu dữ liệu của bạn. Obsidian Connectors có sẵn cho các ứng dụng bao gồm Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
+Trình kết nối cho phép bạn dễ dàng cung cấp cho các tác nhân quyền truy cập vào Obsidian, trong khi vẫn giữ toàn quyền sở hữu dữ liệu của bạn. Trình kết nối Obsidian có sẵn cho các ứng dụng bao gồm Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, và [nhiều hơn nữa](https://agentskills.io/clients).
 
 Điều đó có nghĩa là các tác nhân của bạn có thể học cách:
 
@@ -15,11 +15,11 @@ Kết nối cho phép bạn dễ dàng cung cấp cho các tác nhân quyền tr
 - Tìm kiếm, đọc và quản lý ghi chú trong ứng dụng đang chạy với [[Obsidian CLI]].
 - Đồng bộ hóa và xuất bản kho mà không cần ứng dụng máy tính để bàn bằng [[Obsidian Headless]].
 
-Obsidian Connectors và các kỹ năng mã nguồn mở có sẵn tại [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Trình kết nối Obsidian và các kỹ năng mã nguồn mở có sẵn tại [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Cài đặt
 
-Bạn tìm Obsidian Connectors bằng cách tìm kiếm trong marketplace hoặc thư mục plugin trong ứng dụng của tác nhân. Bạn cũng có thể gửi cho tác nhân của mình liên kết đến trang này.
+Bạn tìm trình kết nối Obsidian bằng cách tìm kiếm trong marketplace hoặc thư mục plugin trong ứng dụng của tác nhân. Bạn cũng có thể gửi cho tác nhân của mình liên kết đến trang này.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap, và Obsidian Headless là các công cụ riêng biệt không �
 
 ## Quyền riêng tư
 
-Obsidian Connectors không tự gửi bất cứ thứ gì. Khi một tác nhân sử dụng chúng, các ghi chú mà nó đọc trở thành một phần của cuộc hội thoại và được xử lý bởi mô hình AI bạn sử dụng. Hãy xem lại chính sách quyền riêng tư của tác nhân trước khi bạn trỏ nó đến kho có ghi chú nhạy cảm.
+Trình kết nối Obsidian không tự gửi bất cứ thứ gì. Khi một tác nhân sử dụng chúng, các ghi chú mà nó đọc trở thành một phần của cuộc hội thoại và được xử lý bởi mô hình AI bạn sử dụng. Hãy xem lại chính sách quyền riêng tư của tác nhân trước khi bạn trỏ nó đến kho có ghi chú nhạy cảm.

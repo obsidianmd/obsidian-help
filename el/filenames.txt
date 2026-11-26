@@ -100,7 +100,7 @@ translation=Φάκελος ρυθμίσεων
 
 [file.connectors]
 original=Connectors
-translation=Σύνδεσμοι
+translation=Connectors
 
 [file.create-note]
 original=Create your first note

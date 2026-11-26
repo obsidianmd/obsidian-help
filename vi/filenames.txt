@@ -100,7 +100,7 @@ translation=Thư mục cấu hình
 
 [file.connectors]
 original=Connectors
-translation=Kết nối
+translation=Trình kết nối
 
 [file.create-note]
 original=Create your first note

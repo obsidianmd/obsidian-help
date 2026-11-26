@@ -65,6 +65,8 @@ Install [Obsidian](https://cursor.com/marketplace/obsidian) from the Cursor Mark
 
 ### Hermes Agent
 
+Install [Obsidian](https://hermes-agent.nousresearch.com/marketplace/obsidian) from the Hermes Marketplace, or run:
+
 ```shell
 hermes plugins install obsidian
 ```

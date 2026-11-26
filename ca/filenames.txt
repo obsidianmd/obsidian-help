@@ -100,7 +100,7 @@ translation=Carpeta de configuració
 
 [file.connectors]
 original=Connectors
-translation=Connectors
+translation=Integracions
 
 [file.create-note]
 original=Create your first note

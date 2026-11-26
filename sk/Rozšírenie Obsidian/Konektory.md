@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Prepojte Obsidian s AI agentmi, aby mohli pracovať s vaším trezorom a formátmi súborov Obsidian.'
 ---
-Konektory vám umožňujú jednoducho poskytnúť agentom prístup k Obsidianu, pričom si zachováte úplné vlastníctvo vašich dát. Obsidian Konektory sú dostupné pre aplikácie vrátane Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode a [mnohým ďalším](https://agentskills.io/clients).
+Konektory vám umožňujú jednoducho poskytnúť agentom prístup k Obsidianu, pričom si zachováte úplné vlastníctvo vašich dát. Konektory Obsidian sú dostupné pre aplikácie vrátane Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode a [mnohých ďalších](https://agentskills.io/clients).
 
 To znamená, že vaši agenti sa môžu naučiť:
 
@@ -15,11 +15,11 @@ To znamená, že vaši agenti sa môžu naučiť:
 - Hľadať, čítať a spravovať poznámky v bežiacej aplikácii pomocou [[Obsidian CLI]].
 - Synchronizovať a publikovať trezory bez desktopovej aplikácie pomocou [[Obsidian Headless]].
 
-Obsidian Konektory a open source schopnosti sú dostupné na [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Konektory Obsidian a open source schopnosti sú dostupné na [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Inštalácia
 
-Obsidian Konektory nájdete vyhľadávaním v marketplace alebo adresári pluginov v aplikácii vášho agenta. Môžete tiež svojmu agentovi poslať odkaz na túto stránku.
+Konektory Obsidian nájdete vyhľadávaním v marketplace alebo adresári pluginov v aplikácii vášho agenta. Môžete tiež svojmu agentovi poslať odkaz na túto stránku.
 
 ### Claude
 

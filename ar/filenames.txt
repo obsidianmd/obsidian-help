@@ -100,7 +100,7 @@ translation=مجلد الإعدادات
 
 [file.connectors]
 original=Connectors
-translation=أدوات اتصال
+translation=موصّلات
 
 [file.create-note]
 original=Create your first note

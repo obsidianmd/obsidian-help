@@ -6,7 +6,7 @@ cover: Attachments/Connectors cover.jpg
 cssclasses: null
 description: 'Połącz Obsidian z agentami AI, aby mogli pracować z Twoim sejfem i formatami plików Obsidian.'
 ---
-Połączniki umożliwiają łatwe udostępnienie agentom dostępu do Obsidian, zachowując pełną własność nad swoimi danymi. Połączniki Obsidian są dostępne dla aplikacji takich jak Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [wielu innych](https://agentskills.io/clients).
+Konektory umożliwiają łatwe udostępnienie agentom dostępu do Obsidian, zachowując pełną własność nad swoimi danymi. Konektory Obsidian są dostępne dla aplikacji takich jak Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode i [wielu innych](https://agentskills.io/clients).
 
 Oznacza to, że Twoi agenci mogą nauczyć się:
 
@@ -15,11 +15,11 @@ Oznacza to, że Twoi agenci mogą nauczyć się:
 - Wyszukiwać, odczytywać i zarządzać notatkami w uruchomionej aplikacji za pomocą [[Obsidian CLI]].
 - Synchronizować i publikować sejfy bez aplikacji desktopowej za pomocą [[Obsidian Headless]].
 
-Połączniki Obsidian i umiejętności o otwartym kodzie są dostępne na [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Konektory Obsidian i umiejętności o otwartym kodzie są dostępne na [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Instalacja
 
-Połączniki Obsidian można znaleźć, wyszukując w marketplace lub katalogu wtyczek w aplikacji swojego agenta. Możesz też wysłać agentowi link do tej strony.
+Konektory Obsidian można znaleźć, wyszukując w marketplace lub katalogu wtyczek w aplikacji swojego agenta. Możesz też wysłać agentowi link do tej strony.
 
 ### Claude
 
@@ -104,4 +104,4 @@ Defuddle, Knap i Obsidian Headless to osobne narzędzia, które nie są dołącz
 
 ## Prywatność
 
-Połączniki Obsidian same z siebie niczego nie wysyłają. Gdy agent z nich korzysta, odczytane notatki stają się częścią konwersacji i są przetwarzane przez używany model AI. Zapoznaj się z polityką prywatności swojego agenta, zanim skierujesz go na sejf z wrażliwymi notatkami.
+Konektory Obsidian same z siebie niczego nie wysyłają. Gdy agent z nich korzysta, odczytane notatki stają się częścią konwersacji i są przetwarzane przez używany model AI. Zapoznaj się z polityką prywatności swojego agenta, zanim skierujesz go na sejf z wrażliwymi notatkami.
