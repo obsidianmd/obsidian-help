@@ -9,7 +9,7 @@ aliases:
   - /skills
 cssclasses:
 ---
-Connectors let you connect Obsidian to any AI agent including Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, and [many more](https://agentskills.io/clients).
+Connectors let you easily give your agents access to Obsidian, while keeping total ownership of your data. Obsidian Connectors are available for apps including Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, and [many more](https://agentskills.io/clients).
 
 That means your agents can learn how to:
 
