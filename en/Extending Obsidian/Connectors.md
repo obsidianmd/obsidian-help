@@ -9,7 +9,7 @@ aliases:
   - /skills
 cssclasses:
 ---
-Connectors let you easily give your agents access to Obsidian, while keeping total ownership of your data. Obsidian Connectors are available for apps including Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, and [many more](https://agentskills.io/clients).
+Connectors let you easily give agents access to Obsidian, while keeping total ownership of your data. Obsidian Connectors are available for apps including Claude, ChatGPT, Antigravity, Cursor, GitHub Copilot, Grok Bot, Hermes, Kiro, Muse, OpenCode, and [many more](https://agentskills.io/clients).
 
 That means your agents can learn how to:
 
@@ -18,11 +18,11 @@ That means your agents can learn how to:
 - Search, read, and manage notes in the running app with [[Obsidian CLI]].
 - Sync and publish vaults without the desktop app using [[Obsidian Headless]].
 
-The skills are open source at [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
+Obsidian Connectors and open source skills are available at [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills).
 
 ## Install
 
-You find Obsidian by searching in the plugins list in Claude, ChatGPT, Dots, Cursor, Grok Bot, Hermes, and Kiro. Most other agents can install the skills if you send them a link to this page.
+You find Obsidian Connectors by searching the marketplace or plugin directory in your agent's app. You can also send your agent a link to this page.
 
 ### Claude
 
@@ -107,4 +107,4 @@ Defuddle, Knap, and Obsidian Headless are separate tools that aren't bundled wit
 
 ## Privacy
 
-Obsidian connectors don't send anything by themselves. When an agent uses them, the notes it reads become part of the conversation and are processed by the AI model you use. Review your agent's privacy policy before you point it at a vault with sensitive notes.
+Obsidian Connectors don't send anything by themselves. When an agent uses them, the notes it reads become part of the conversation and are processed by the AI model you use. Review your agent's privacy policy before you point it at a vault with sensitive notes.
