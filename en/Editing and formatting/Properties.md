@@ -218,8 +218,8 @@ The date picker follows your operating system's default date and time format. Yo
 > 
 > ![[Windows-OS-DateTime.png#interface]]
 
-> [!info]- Mac OS
-> **System Preferences → Language and Region → Date format**
+> [!info]- macOS
+> **System Settings → General → Language & Region → Date format**
 > 
 > ![[Mac-OS-DateTime.png|450]]
 
