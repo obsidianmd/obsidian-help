@@ -3,12 +3,12 @@
 Markdown style links can be used to refer to either external objects, such as web pages, or an internal page or image.
 
 ```md
-http://obsidian.md - automatic!
-[Obsidian](http://obsidian.md)
+https://obsidian.md - automatic!
+[Obsidian](https://obsidian.md)
 ```
 
-http://obsidian.md - automatic!
-[Obsidian](http://obsidian.md)
+https://obsidian.md - automatic!
+[Obsidian](https://obsidian.md)
 
 #### Obsidian URI links
 
